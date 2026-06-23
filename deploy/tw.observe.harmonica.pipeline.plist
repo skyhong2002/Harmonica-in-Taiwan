@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>tw.observe.harmonica.pipeline</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/bin/zsh</string>
+      <string>-lc</string>
+      <string>cd '/Users/skyhong/Documents/Harmonica-in-Taiwan' &amp;&amp; /usr/bin/python3 scripts/run_pipeline.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/skyhong/Documents/Harmonica-in-Taiwan</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+      <key>HARMONICA_OBSERVE_HOME</key>
+      <string>/Users/skyhong/Documents/Harmonica-in-Taiwan</string>
+    </dict>
+
+    <key>StartInterval</key>
+    <integer>7200</integer>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/skyhong/Documents/Harmonica-in-Taiwan/logs/pipeline.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/skyhong/Documents/Harmonica-in-Taiwan/logs/pipeline.err.log</string>
+  </dict>
+</plist>

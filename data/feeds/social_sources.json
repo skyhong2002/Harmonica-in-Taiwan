@@ -1,0 +1,303 @@
+{
+  "keywords": [
+    "口琴",
+    "成發",
+    "成果發表",
+    "音樂會",
+    "演出",
+    "校慶",
+    "社博",
+    "迎新",
+    "招生",
+    "交流",
+    "寒訓",
+    "暑訓",
+    "影片",
+    "新片",
+    "首播",
+    "上架",
+    "發布",
+    "發佈",
+    "直播",
+    "補助",
+    "獎助",
+    "徵件",
+    "徵選",
+    "甄選",
+    "比賽",
+    "競賽",
+    "指定曲",
+    "報名",
+    "截止",
+    "全國學生音樂比賽",
+    "學生音樂比賽",
+    "harmonica"
+  ],
+  "sources": [
+    {
+      "enabled": true,
+      "id": "external_social_feed_inbox",
+      "name": "External public social feed inbox",
+      "path": "data/feeds/social_feed_inbox.jsonl",
+      "platform": "external",
+      "type": "jsonl"
+    },
+    {
+      "enabled": true,
+      "id": "ig_ntubluesound",
+      "limit": 5,
+      "name": "NTU Blue Sound Harmonica Club",
+      "platform": "instagram",
+      "provider": "cookie",
+      "rsshub_base": "http://127.0.0.1:1200",
+      "type": "rsshub_instagram_profile",
+      "username": "ntubluesound"
+    },
+    {
+      "enabled": true,
+      "id": "ig_ntnu_harmonica",
+      "limit": 5,
+      "name": "NTNU Harmonica Club",
+      "platform": "instagram",
+      "provider": "cookie",
+      "rsshub_base": "http://127.0.0.1:1200",
+      "type": "rsshub_instagram_profile",
+      "username": "ntnu_harmonica_club"
+    },
+    {
+      "enabled": true,
+      "id": "ig_nthu_harmonica_club",
+      "limit": 5,
+      "name": "NTHU Harmonica Club",
+      "platform": "instagram",
+      "provider": "cookie",
+      "rsshub_base": "http://127.0.0.1:1200",
+      "type": "rsshub_instagram_profile",
+      "username": "nthu_harmonica_club"
+    },
+    {
+      "enabled": true,
+      "id": "ig_fcu_harmonica",
+      "limit": 5,
+      "name": "FCU Harmonica",
+      "platform": "instagram",
+      "provider": "cookie",
+      "rsshub_base": "http://127.0.0.1:1200",
+      "type": "rsshub_instagram_profile",
+      "username": "fcu_harmonica"
+    },
+    {
+      "enabled": true,
+      "id": "ig_nutc_harmonica",
+      "limit": 5,
+      "name": "NUTC Harmonica",
+      "platform": "instagram",
+      "provider": "cookie",
+      "rsshub_base": "http://127.0.0.1:1200",
+      "type": "rsshub_instagram_profile",
+      "username": "nutc_harmonica"
+    },
+    {
+      "enabled": true,
+      "id": "ig_harmonica_ncue",
+      "limit": 5,
+      "name": "NCUE Harmonica",
+      "platform": "instagram",
+      "provider": "cookie",
+      "rsshub_base": "http://127.0.0.1:1200",
+      "type": "rsshub_instagram_profile",
+      "username": "harmonica_ncue"
+    },
+    {
+      "enabled": true,
+      "id": "ig_npust_hmc",
+      "limit": 5,
+      "name": "NPUST HMC",
+      "platform": "instagram",
+      "provider": "cookie",
+      "rsshub_base": "http://127.0.0.1:1200",
+      "type": "rsshub_instagram_profile",
+      "username": "npust.hmc"
+    },
+    {
+      "enabled": true,
+      "id": "ig_csmu_bluemelody",
+      "limit": 5,
+      "name": "CSMU Blue Melody",
+      "platform": "instagram",
+      "provider": "cookie",
+      "rsshub_base": "http://127.0.0.1:1200",
+      "type": "rsshub_instagram_profile",
+      "username": "csmu_bluemelody"
+    },
+    {
+      "enabled": true,
+      "id": "ig_nkustharmonica",
+      "limit": 5,
+      "name": "NKUST Harmonica",
+      "platform": "instagram",
+      "provider": "cookie",
+      "rsshub_base": "http://127.0.0.1:1200",
+      "type": "rsshub_instagram_profile",
+      "username": "nkustharmonica"
+    },
+    {
+      "enabled": true,
+      "id": "ig_mcuhc",
+      "limit": 5,
+      "name": "MCU Harmonica",
+      "platform": "instagram",
+      "provider": "cookie",
+      "rsshub_base": "http://127.0.0.1:1200",
+      "type": "rsshub_instagram_profile",
+      "username": "mcuhc"
+    },
+    {
+      "enabled": true,
+      "id": "ig_ckhc_64th",
+      "limit": 5,
+      "name": "CKHC 64th",
+      "platform": "instagram",
+      "provider": "cookie",
+      "rsshub_base": "http://127.0.0.1:1200",
+      "type": "rsshub_instagram_profile",
+      "username": "ckhc_64th"
+    },
+    {
+      "enabled": true,
+      "id": "ig_cozy_harmonica_60th",
+      "limit": 5,
+      "name": "HSNU Cozy Harmonica",
+      "platform": "instagram",
+      "provider": "cookie",
+      "rsshub_base": "http://127.0.0.1:1200",
+      "type": "rsshub_instagram_profile",
+      "username": "cozy_harmonica_60th"
+    },
+    {
+      "enabled": true,
+      "id": "ig_tcfsh_harmonica",
+      "limit": 5,
+      "name": "TCFSH Harmonica",
+      "platform": "instagram",
+      "provider": "cookie",
+      "rsshub_base": "http://127.0.0.1:1200",
+      "type": "rsshub_instagram_profile",
+      "username": "tcfsh_harmonica"
+    },
+    {
+      "enabled": true,
+      "id": "ig_chgsh_harmonica",
+      "limit": 5,
+      "name": "CHGSH Harmonica",
+      "platform": "instagram",
+      "provider": "cookie",
+      "rsshub_base": "http://127.0.0.1:1200",
+      "type": "rsshub_instagram_profile",
+      "username": "chgsh_harmonica"
+    },
+    {
+      "enabled": true,
+      "id": "ig_tnfsh_harmonica",
+      "limit": 5,
+      "name": "TNFSH Harmonica",
+      "platform": "instagram",
+      "provider": "cookie",
+      "rsshub_base": "http://127.0.0.1:1200",
+      "type": "rsshub_instagram_profile",
+      "username": "tnfsh_harmonica.club"
+    },
+    {
+      "enabled": true,
+      "id": "ig_kshs_harmonica",
+      "limit": 5,
+      "name": "KSHS Harmonica",
+      "platform": "instagram",
+      "provider": "cookie",
+      "rsshub_base": "http://127.0.0.1:1200",
+      "type": "rsshub_instagram_profile",
+      "username": "kshs_harmonica"
+    },
+    {
+      "enabled": true,
+      "id": "fb_ntubluesound",
+      "limit": 5,
+      "name": "NTU Blue Sound Harmonica Club",
+      "page": "ntubluesound",
+      "platform": "facebook",
+      "type": "facebook_page_posts"
+    },
+    {
+      "enabled": true,
+      "id": "fb_ntnu_harmonica",
+      "limit": 5,
+      "name": "NTNU Harmonica Club",
+      "page": "ntnuharmonicaclub",
+      "platform": "facebook",
+      "type": "facebook_page_posts"
+    },
+    {
+      "enabled": true,
+      "id": "fb_ncku_harmonica",
+      "limit": 5,
+      "name": "NCKU Harmonica Club",
+      "page": "NCKU.harmonica.club",
+      "platform": "facebook",
+      "type": "facebook_page_posts"
+    },
+    {
+      "enabled": true,
+      "id": "fb_nthuharmonica",
+      "limit": 5,
+      "name": "NTHU Harmonica Club",
+      "page": "nthuharmonica",
+      "platform": "facebook",
+      "type": "facebook_page_posts"
+    },
+    {
+      "enabled": true,
+      "id": "fb_fcu_harmonica",
+      "limit": 5,
+      "name": "FCU Harmonica",
+      "page": "FCUharmonica",
+      "platform": "facebook",
+      "type": "facebook_page_posts"
+    },
+    {
+      "enabled": true,
+      "id": "fb_nutc_harmonica",
+      "limit": 5,
+      "name": "NUTC Harmonica",
+      "page": "nutcharmonica",
+      "platform": "facebook",
+      "type": "facebook_page_posts"
+    },
+    {
+      "enabled": true,
+      "id": "fb_csmu_bmharmonica",
+      "limit": 5,
+      "name": "CSMU Blue Melody",
+      "page": "BMHarmonica",
+      "platform": "facebook",
+      "type": "facebook_page_posts"
+    },
+    {
+      "enabled": true,
+      "id": "fb_nkustharmonica",
+      "limit": 5,
+      "name": "NKUST Harmonica",
+      "page": "nkustharmonica",
+      "platform": "facebook",
+      "type": "facebook_page_posts"
+    },
+    {
+      "enabled": true,
+      "id": "fb_mcumingxin",
+      "limit": 5,
+      "name": "MCU Ming Xin",
+      "page": "MCUMingXin",
+      "platform": "facebook",
+      "type": "facebook_page_posts"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+harmonica.observe.tw {
+	encode zstd gzip
+	root * "/Users/skyhong/Documents/Harmonica-in-Taiwan/site"
+	try_files {path} {path}/ /index.html
+	file_server
+}

@@ -1,0 +1,13 @@
+Wrote site/data/site-data.js with 114 public entries
+{
+  "updates": 5,
+  "categorized_updates": {
+    "events": 5,
+    "posts-videos": 5,
+    "student-clubs": 5,
+    "opportunities": 0
+  },
+  "sources": 114,
+  "updates_feed": "/Users/skyhong/Documents/Harmonica-in-Taiwan/site/feeds/updates.xml",
+  "sources_feed": "/Users/skyhong/Documents/Harmonica-in-Taiwan/site/feeds/sources.xml"
+}

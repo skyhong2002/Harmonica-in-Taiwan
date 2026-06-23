@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>公開名錄｜台灣口琴觀測站</title>
+    <meta
+      name="description"
+      content="台灣口琴社團、樂團、演奏者、教學、場館與公開來源名錄。"
+    >
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+    <link rel="alternate" type="application/rss+xml" title="台灣口琴觀測站來源名錄" href="/feeds/sources.xml">
+    <link rel="stylesheet" href="/assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="台灣口琴觀測站首頁">
+        <span class="brand-mark">H</span>
+        <span>台灣口琴觀測站</span>
+      </a>
+      <nav class="site-nav" aria-label="主要導覽">
+        <a href="/">最新</a>
+        <a href="/directory/">名錄</a>
+        <a href="/feeds/">RSS</a>
+        <a href="mailto:skyhong@observe.tw?subject=%E5%8F%B0%E7%81%A3%E5%8F%A3%E7%90%B4%E8%A7%80%E6%B8%AC%E7%AB%99%E8%B3%87%E8%A8%8A%E4%BF%AE%E6%AD%A3">投稿修正</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="feed-page-hero">
+        <div class="band-inner split-layout">
+          <div>
+            <p class="section-kicker">Directory</p>
+            <h1>公開名錄</h1>
+          </div>
+          <div class="feed-page-summary">
+            <p>台灣口琴公開來源索引，預設依最近公開更新排序。</p>
+            <div class="feed-links">
+              <a href="/feeds/sources.xml">來源名錄 RSS</a>
+              <a href="/">最新更新</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="band directory-band" id="directory" aria-labelledby="directory-title">
+        <div class="band-inner">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Directory</p>
+              <h2 id="directory-title">公開名錄</h2>
+            </div>
+            <p class="data-date">更新日期 <span data-stat="generatedAt">-</span></p>
+          </div>
+
+          <div class="directory-tools">
+            <div class="search-field" role="search">
+              <label class="sr-only" for="directory-search-input">搜尋公開名錄</label>
+              <input
+                id="directory-search-input"
+                type="search"
+                placeholder="搜尋名稱、城市、類型、關鍵字"
+                autocomplete="off"
+              >
+            </div>
+            <label class="select-field">
+              <span>查核</span>
+              <select id="status-filter">
+                <option value="all">全部</option>
+                <option value="已查核">已查核</option>
+                <option value="部分查核">部分查核</option>
+                <option value="待確認">待確認</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="category-tabs" id="category-tabs" aria-label="名錄分類"></div>
+          <p class="result-count" id="result-count"></p>
+          <div class="directory-grid" id="directory-list"></div>
+        </div>
+      </section>
+
+      <section class="band source-band" aria-labelledby="sources-title">
+        <div class="band-inner split-layout">
+          <div>
+            <p class="section-kicker">Source Boundary</p>
+            <h2 id="sources-title">只發布公開可查資料</h2>
+          </div>
+          <div class="source-points">
+            <p>網站只使用公開連結、名稱、類型、地區、樂器與查核狀態。</p>
+            <p>內部備註、監看規則、私人憑證、成員資料與非公開曲譜入口不會進入公開資料包。</p>
+            <p>無法確認官方來源的資料會被標示為待確認，或暫時不顯示。</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>台灣口琴觀測站</span>
+      <span>Public harmonica directory for Taiwan</span>
+    </footer>
+
+    <script src="/data/site-data.js"></script>
+    <script src="/assets/app.js"></script>
+  </body>
+</html>
