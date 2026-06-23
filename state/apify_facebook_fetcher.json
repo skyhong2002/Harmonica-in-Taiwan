@@ -1,0 +1,69 @@
+{
+  "next_source_index": 10,
+  "runs": [
+    {
+      "actor": "apify/facebook-posts-scraper",
+      "error_count": 0,
+      "finished_at": "2026-06-23T12:45:27.178526+00:00",
+      "item_count": 5,
+      "max_items": 5,
+      "max_total_charge_usd": 0.04,
+      "new_inbox_rows": 0,
+      "platform_usage_total_usd": 0.029,
+      "remote_monthly_usage_after_usd": 0.07502240920290236,
+      "remote_monthly_usage_before_usd": 0.04602240920290237,
+      "remote_usage_delta_usd": 0.029,
+      "reserved_usd": 0.04,
+      "results_limit": 5,
+      "run_id": "cm03y8hfydBm1Kd61",
+      "source_ids": [
+        "fb_ntubluesound",
+        "fb_ntnu_harmonica",
+        "fb_ncku_harmonica",
+        "fb_nthuharmonica",
+        "fb_fcu_harmonica"
+      ],
+      "started_at": "2026-06-23T12:44:54.683097+00:00",
+      "status": "SUCCEEDED",
+      "usage_total_usd": 0.029
+    },
+    {
+      "actor": "apify/facebook-posts-scraper",
+      "actor_error_item_count": 0,
+      "dataset_item_count": 10,
+      "days_back": 0,
+      "dropped_old_rows": 9,
+      "dropped_undated_rows": 0,
+      "error_count": 0,
+      "finished_at": "2026-06-23T13:09:57.460297+00:00",
+      "item_count": 10,
+      "local_max_post_age_days": 7,
+      "max_items": 10,
+      "max_total_charge_usd": 0.07,
+      "new_inbox_rows": 1,
+      "platform_usage_total_usd": 0.066,
+      "remote_monthly_usage_after_usd": 0.08204856415850828,
+      "remote_monthly_usage_before_usd": 0.08204856415850828,
+      "remote_usage_delta_usd": 0.0,
+      "reserved_usd": 0.07,
+      "results_limit": 5,
+      "run_id": "R0Swb9DGY9S5e2PMG",
+      "source_ids": [
+        "fb_ntubluesound",
+        "fb_ntnu_harmonica",
+        "fb_ncku_harmonica",
+        "fb_nthuharmonica",
+        "fb_fcu_harmonica",
+        "fb_nutc_harmonica",
+        "fb_csmu_bmharmonica",
+        "fb_nkustharmonica",
+        "fb_twharmonica",
+        "fb_siriusharp"
+      ],
+      "started_at": "2026-06-23T13:09:41.988362+00:00",
+      "status": "SUCCEEDED",
+      "usage_total_usd": 0.066
+    }
+  ],
+  "updated_at": "2026-06-23T13:09:57.460297+00:00"
+}
