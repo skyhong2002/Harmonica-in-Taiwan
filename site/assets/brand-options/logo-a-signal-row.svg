@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" role="img" aria-labelledby="title desc">
+  <title id="title">臺灣口琴觀測站 Logo A - Signal Row</title>
+  <desc id="desc">A minimal harmonica row with data nodes and an RSS signal, paired with the wordmark 臺灣口琴觀測站.</desc>
+  <defs>
+    <style>
+      .word { font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; font-weight: 800; letter-spacing: 0; }
+      .sub { font-family: Inter, Arial, sans-serif; font-weight: 700; letter-spacing: .08em; }
+    </style>
+  </defs>
+  <rect width="760" height="220" rx="0" fill="#ffffff"/>
+  <g transform="translate(54 42)">
+    <rect x="0" y="40" width="150" height="70" rx="18" fill="#0a514d"/>
+    <rect x="12" y="52" width="126" height="46" rx="13" fill="#0f766e"/>
+    <g fill="#f8fbf9">
+      <rect x="28" y="68" width="14" height="14" rx="7"/>
+      <rect x="52" y="68" width="14" height="14" rx="7"/>
+      <rect x="76" y="68" width="14" height="14" rx="7"/>
+      <rect x="100" y="68" width="14" height="14" rx="7"/>
+    </g>
+    <circle cx="126" cy="76" r="7" fill="#c85f44"/>
+    <circle cx="126" cy="76" r="20" fill="none" stroke="#c85f44" stroke-width="6" stroke-linecap="round" stroke-dasharray="32 80"/>
+    <circle cx="126" cy="76" r="36" fill="none" stroke="#b87921" stroke-width="6" stroke-linecap="round" stroke-dasharray="48 112"/>
+    <path d="M29 111h92" stroke="#b87921" stroke-width="6" stroke-linecap="round"/>
+    <path d="M38 111c18 24 58 24 76 0" fill="none" stroke="#0a514d" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(250 64)">
+    <text class="word" x="0" y="56" font-size="46" fill="#17211d">臺灣口琴觀測站</text>
+    <text class="sub" x="2" y="96" font-size="16" fill="#5c6a63">TAIWAN HARMONICA OBSERVATORY</text>
+  </g>
+</svg>

@@ -2,6 +2,315 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-06-23",
   "entries": [
     {
+      "id": "watchlist-41",
+      "name": "陳鴻儀",
+      "nameEn": "Henry Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "tier": "B",
+      "region": "台灣",
+      "cityOrFocus": "演出/評審",
+      "summary": "演出/評審 / 口琴 / 演出人員/評審",
+      "status": "已查核",
+      "sourceStatus": "已查核公開連結",
+      "keywords": "陳鴻儀 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@HenrysHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "latestUpdateAt": "2026-06-23T09:00:06+00:00",
+      "latestUpdateLocal": "2026-06-23 17:00",
+      "latestUpdateSource": "Henry Chen",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=NQpOJQrzQEw"
+    },
+    {
+      "id": "watchlist-90",
+      "name": "吹出好心琴 + Ou Frog",
+      "nameEn": "Ou Frog",
+      "category": "教學器材",
+      "type": "教學/影片來源",
+      "tier": "D",
+      "region": "台灣",
+      "cityOrFocus": "口琴教學影片/示範",
+      "summary": "口琴教學影片/示範 / 口琴 / 教學影片來源",
+      "status": "部分查核",
+      "sourceStatus": "部分已查核公開連結",
+      "keywords": "吹出好心琴 Ou Frog 口琴 教學 YouTube",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@oufrog"
+        }
+      ],
+      "source": "watchlist",
+      "latestUpdateAt": "2026-06-23T04:00:11+00:00",
+      "latestUpdateLocal": "2026-06-23 12:00",
+      "latestUpdateSource": "歐純伶",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=mtce6XbmMYk"
+    },
+    {
+      "id": "watchlist-39",
+      "name": "歐純伶",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "tier": "B",
+      "region": "台灣",
+      "cityOrFocus": "狂響/複音/教學演出",
+      "summary": "狂響/複音/教學演出 / 複音 / 演出人員/教學者",
+      "status": "部分查核",
+      "sourceStatus": "部分已查核公開連結",
+      "keywords": "歐純伶 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://oulingou.pixnet.net/blog"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/oulingou/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@oufrog"
+        }
+      ],
+      "source": "watchlist",
+      "latestUpdateAt": "2026-06-23T04:00:11+00:00",
+      "latestUpdateLocal": "2026-06-23 12:00",
+      "latestUpdateSource": "歐純伶",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=mtce6XbmMYk"
+    },
+    {
+      "id": "watchlist-92",
+      "name": "藍波口琴教室",
+      "nameEn": "Bluebo Harmonica",
+      "category": "教學器材",
+      "type": "教學工作室",
+      "tier": "B",
+      "region": "台灣",
+      "cityOrFocus": "口琴教學/課程/學習資源",
+      "summary": "口琴教學/課程/學習資源 / 口琴 / 教學/課程來源",
+      "status": "已查核",
+      "sourceStatus": "已查核公開連結",
+      "keywords": "藍波口琴教室 藍波口琴網 口琴 教學",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.blueboclass.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/happyharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@lamberharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "latestUpdateAt": "2026-06-23T03:41:56+00:00",
+      "latestUpdateLocal": "2026-06-23 11:41",
+      "latestUpdateSource": "Bluebo Harmonica",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=YXtrcFrAahU"
+    },
+    {
+      "id": "watchlist-81",
+      "name": "衛武營國家藝術文化中心",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館",
+      "tier": "D",
+      "region": "台灣/高雄",
+      "cityOrFocus": "大型演出場館",
+      "summary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "status": "已查核",
+      "sourceStatus": "已查核公開連結",
+      "keywords": "衛武營 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-weiwuying.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@weiwuyingfilm"
+        }
+      ],
+      "source": "watchlist",
+      "latestUpdateAt": "2026-06-23T03:00:12+00:00",
+      "latestUpdateLocal": "2026-06-23 11:00",
+      "latestUpdateSource": "衛武營國家藝術文化中心",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=XvSrn6ZG5ow"
+    },
+    {
+      "id": "watchlist-31",
+      "name": "張晁滕",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "tier": "B",
+      "region": "台灣",
+      "cityOrFocus": "天狼星/Laelaps/教學/演出",
+      "summary": "天狼星/Laelaps/教學/演出 / 重奏/教學 / 演出人員/教學者",
+      "status": "已查核",
+      "sourceStatus": "已查核公開連結",
+      "keywords": "張晁滕 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://chaotengchang.blogspot.com/2014/06/blog-post.html"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chaotengchang/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chaotengchang/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@ChaotengChang"
+        }
+      ],
+      "source": "watchlist",
+      "latestUpdateAt": "2026-06-21T10:31:58+00:00",
+      "latestUpdateLocal": "2026-06-21 18:31",
+      "latestUpdateSource": "張晁滕",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=WJ90aVEvGQo"
+    },
+    {
+      "id": "watchlist-2",
+      "name": "臺灣口琴音樂節 THMF / Taiwan Harmonica Music Festival",
+      "nameEn": "Taiwan Harmonica Music Festival",
+      "category": "活動資訊",
+      "type": "活動/資訊入口",
+      "tier": "A",
+      "region": "台灣",
+      "cityOrFocus": "音樂節/比賽/Gala/講座",
+      "summary": "音樂節/比賽/Gala/講座 / 半音階/複音/十孔/重奏 / 核心活動入口",
+      "status": "已查核",
+      "sourceStatus": "已查核公開連結",
+      "keywords": "THMF 臺灣口琴音樂節 Taiwan Harmonica Music Festival",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/twharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/taiwanharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@thmc6470"
+        }
+      ],
+      "source": "watchlist",
+      "latestUpdateAt": "2026-06-21T09:15:05+00:00",
+      "latestUpdateLocal": "2026-06-21 17:15",
+      "latestUpdateSource": "Taiwan Harmonica Music Festival",
+      "latestUpdateUrl": "https://www.facebook.com/twharmonica/posts/pfbid02ivogqTGGrZFPqSGXYFE6hy74PStFMaRa9fq5H5MPfs9x9rUYd1mixTzosn6GxWxEl"
+    },
+    {
+      "id": "watchlist-76",
+      "name": "THMF 午間音樂會新團體",
+      "nameEn": "",
+      "category": "活動資訊",
+      "type": "活動子來源",
+      "tier": "D",
+      "region": "台灣",
+      "cityOrFocus": "每年新興團體/青年演出",
+      "summary": "每年新興團體/青年演出 / 口琴 / 參考來源",
+      "status": "已查核",
+      "sourceStatus": "已查核公開連結",
+      "keywords": "THMF 午間音樂會 新團體",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/twharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/taiwanharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@thmc6470"
+        }
+      ],
+      "source": "watchlist",
+      "latestUpdateAt": "2026-06-21T09:15:05+00:00",
+      "latestUpdateLocal": "2026-06-21 17:15",
+      "latestUpdateSource": "Taiwan Harmonica Music Festival",
+      "latestUpdateUrl": "https://www.facebook.com/twharmonica/posts/pfbid02ivogqTGGrZFPqSGXYFE6hy74PStFMaRa9fq5H5MPfs9x9rUYd1mixTzosn6GxWxEl"
+    },
+    {
+      "id": "watchlist-56",
+      "name": "CY Leo 何卓彥",
+      "nameEn": "CY Leo",
+      "category": "演奏者",
+      "type": "個人",
+      "tier": "C",
+      "region": "香港",
+      "cityOrFocus": "半音階/現代跨界",
+      "summary": "半音階/現代跨界 / 半音階 / 國際演出人員",
+      "status": "已查核",
+      "sourceStatus": "已查核公開連結",
+      "keywords": "CY Leo 何卓彥 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.cyleomusic.io/profile"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Cyleoharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cy_leo/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@cyleoharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "latestUpdateAt": "2026-06-21T07:05:36+00:00",
+      "latestUpdateLocal": "2026-06-21 15:05",
+      "latestUpdateSource": "CY Leo",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=zter9cMnXFQ"
+    },
+    {
       "id": "club-12",
       "name": "師大口琴社",
       "nameEn": "NTNU Harmonica Club",
@@ -70,6 +379,113 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-20 17:25",
       "latestUpdateSource": "NTU Blue Sound Harmonica Club",
       "latestUpdateUrl": "https://www.instagram.com/p/DZzW-psz3gR/"
+    },
+    {
+      "id": "watchlist-83",
+      "name": "臺中國家歌劇院",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館",
+      "tier": "D",
+      "region": "台灣/台中",
+      "cityOrFocus": "大型演出場館",
+      "summary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "status": "已查核",
+      "sourceStatus": "已查核公開連結",
+      "keywords": "臺中國家歌劇院 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-ntt.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/npac.ntt/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nationaltaichungtheater/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
+        }
+      ],
+      "source": "watchlist",
+      "latestUpdateAt": "2026-06-20T04:00:23+00:00",
+      "latestUpdateLocal": "2026-06-20 12:00",
+      "latestUpdateSource": "臺中國家歌劇院",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=uYFA6PFA2Zk"
+    },
+    {
+      "id": "watchlist-63",
+      "name": "Younghoon Cho",
+      "nameEn": "Younghoon Cho",
+      "category": "演奏者",
+      "type": "個人",
+      "tier": "C",
+      "region": "韓國",
+      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
+      "summary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
+      "status": "已查核",
+      "sourceStatus": "已查核公開連結",
+      "keywords": "Younghoon Cho Jong-seong Park",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/hoontobe"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hoontobe/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hoontobe_piano/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/hoontobe"
+        }
+      ],
+      "source": "watchlist",
+      "latestUpdateAt": "2026-06-18T13:00:11+00:00",
+      "latestUpdateLocal": "2026-06-18 21:00",
+      "latestUpdateSource": "Younghoon Cho",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=KP_OyjhJO8E"
+    },
+    {
+      "id": "watchlist-84",
+      "name": "雙燕樂器",
+      "nameEn": "Musix Co., Ltd.",
+      "category": "教學器材",
+      "type": "樂器行/單位",
+      "tier": "D",
+      "region": "台灣",
+      "cityOrFocus": "樂器/活動資訊",
+      "summary": "樂器/活動資訊 / 口琴 / 參考來源",
+      "status": "已查核",
+      "sourceStatus": "已查核公開連結",
+      "keywords": "雙燕樂器 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.musix.com.tw/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/MusixKHS/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@KHS_musix"
+        }
+      ],
+      "source": "watchlist",
+      "latestUpdateAt": "2026-06-17T00:57:06+00:00",
+      "latestUpdateLocal": "2026-06-17 08:57",
+      "latestUpdateSource": "Musix Co., Ltd.",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=H8aVZ6tdou4"
     },
     {
       "id": "watchlist-29",
@@ -905,80 +1321,6 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg"
-        }
-      ],
-      "source": "watchlist",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": ""
-    },
-    {
-      "id": "watchlist-83",
-      "name": "臺中國家歌劇院",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館",
-      "tier": "D",
-      "region": "台灣/台中",
-      "cityOrFocus": "大型演出場館",
-      "summary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "臺中國家歌劇院 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-ntt.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/npac.ntt/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nationaltaichungtheater/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
-        }
-      ],
-      "source": "watchlist",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": ""
-    },
-    {
-      "id": "watchlist-81",
-      "name": "衛武營國家藝術文化中心",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館",
-      "tier": "D",
-      "region": "台灣/高雄",
-      "cityOrFocus": "大型演出場館",
-      "summary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "衛武營 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-weiwuying.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@weiwuyingfilm"
         }
       ],
       "source": "watchlist",
@@ -1900,39 +2242,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateUrl": ""
     },
     {
-      "id": "watchlist-92",
-      "name": "藍波口琴教室",
-      "nameEn": "Bluebo Harmonica",
-      "category": "教學器材",
-      "type": "教學工作室",
-      "tier": "B",
-      "region": "台灣",
-      "cityOrFocus": "口琴教學/課程/學習資源",
-      "summary": "口琴教學/課程/學習資源 / 口琴 / 教學/課程來源",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "藍波口琴教室 藍波口琴網 口琴 教學",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.blueboclass.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/happyharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@lamberharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": ""
-    },
-    {
       "id": "watchlist-27",
       "name": "音和樂器",
       "nameEn": "PeaceTones Harmonica",
@@ -2044,35 +2353,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateUrl": ""
     },
     {
-      "id": "watchlist-90",
-      "name": "吹出好心琴 + Ou Frog",
-      "nameEn": "Ou Frog",
-      "category": "教學器材",
-      "type": "教學/影片來源",
-      "tier": "D",
-      "region": "台灣",
-      "cityOrFocus": "口琴教學影片/示範",
-      "summary": "口琴教學影片/示範 / 口琴 / 教學影片來源",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
-      "keywords": "吹出好心琴 Ou Frog 口琴 教學 YouTube",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@oufrog"
-        }
-      ],
-      "source": "watchlist",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": ""
-    },
-    {
       "id": "watchlist-85",
       "name": "東和樂器",
       "nameEn": "Tongho Musical Instrument Co., Ltd. / music4fun",
@@ -2135,39 +2415,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateUrl": ""
     },
     {
-      "id": "watchlist-84",
-      "name": "雙燕樂器",
-      "nameEn": "Musix Co., Ltd.",
-      "category": "教學器材",
-      "type": "樂器行/單位",
-      "tier": "D",
-      "region": "台灣",
-      "cityOrFocus": "樂器/活動資訊",
-      "summary": "樂器/活動資訊 / 口琴 / 參考來源",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "雙燕樂器 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.musix.com.tw/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/MusixKHS/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@KHS_musix"
-        }
-      ],
-      "source": "watchlist",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": ""
-    },
-    {
       "id": "watchlist-100",
       "name": "韋笙堡口琴 Weissenberg Harmonicas",
       "nameEn": "Weissenberg Harmonicas",
@@ -2196,43 +2443,6 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/weissenberg1979"
-        }
-      ],
-      "source": "watchlist",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": ""
-    },
-    {
-      "id": "watchlist-2",
-      "name": "臺灣口琴音樂節 THMF / Taiwan Harmonica Music Festival",
-      "nameEn": "Taiwan Harmonica Music Festival",
-      "category": "活動資訊",
-      "type": "活動/資訊入口",
-      "tier": "A",
-      "region": "台灣",
-      "cityOrFocus": "音樂節/比賽/Gala/講座",
-      "summary": "音樂節/比賽/Gala/講座 / 半音階/複音/十孔/重奏 / 核心活動入口",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "THMF 臺灣口琴音樂節 Taiwan Harmonica Music Festival",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.taiwanharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/twharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/taiwanharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@thmc6470"
         }
       ],
       "source": "watchlist",
@@ -2320,43 +2530,6 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "Facebook",
           "url": "https://www.facebook.com/OPENTIXNTCH/"
-        }
-      ],
-      "source": "watchlist",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": ""
-    },
-    {
-      "id": "watchlist-76",
-      "name": "THMF 午間音樂會新團體",
-      "nameEn": "",
-      "category": "活動資訊",
-      "type": "活動子來源",
-      "tier": "D",
-      "region": "台灣",
-      "cityOrFocus": "每年新興團體/青年演出",
-      "summary": "每年新興團體/青年演出 / 口琴 / 參考來源",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "THMF 午間音樂會 新團體",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.taiwanharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/twharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/taiwanharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@thmc6470"
         }
       ],
       "source": "watchlist",
@@ -2605,43 +2778,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateUrl": ""
     },
     {
-      "id": "watchlist-31",
-      "name": "張晁滕",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "tier": "B",
-      "region": "台灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/演出",
-      "summary": "天狼星/Laelaps/教學/演出 / 重奏/教學 / 演出人員/教學者",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "張晁滕 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://chaotengchang.blogspot.com/2014/06/blog-post.html"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/chaotengchang/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/chaotengchang/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@ChaotengChang"
-        }
-      ],
-      "source": "watchlist",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": ""
-    },
-    {
       "id": "watchlist-54",
       "name": "李聖恩",
       "nameEn": "",
@@ -2741,39 +2877,6 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/@YFHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": ""
-    },
-    {
-      "id": "watchlist-39",
-      "name": "歐純伶",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "tier": "B",
-      "region": "台灣",
-      "cityOrFocus": "狂響/複音/教學演出",
-      "summary": "狂響/複音/教學演出 / 複音 / 演出人員/教學者",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
-      "keywords": "歐純伶 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://oulingou.pixnet.net/blog"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/oulingou/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@oufrog"
         }
       ],
       "source": "watchlist",
@@ -3156,35 +3259,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateUrl": ""
     },
     {
-      "id": "watchlist-41",
-      "name": "陳鴻儀",
-      "nameEn": "Henry Chen",
-      "category": "演奏者",
-      "type": "個人",
-      "tier": "B",
-      "region": "台灣",
-      "cityOrFocus": "演出/評審",
-      "summary": "演出/評審 / 口琴 / 演出人員/評審",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "陳鴻儀 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@HenrysHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": ""
-    },
-    {
       "id": "watchlist-33",
       "name": "黃冠誌",
       "nameEn": "",
@@ -3246,43 +3320,6 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/c/aidennevelyn"
-        }
-      ],
-      "source": "watchlist",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": ""
-    },
-    {
-      "id": "watchlist-56",
-      "name": "CY Leo 何卓彥",
-      "nameEn": "CY Leo",
-      "category": "演奏者",
-      "type": "個人",
-      "tier": "C",
-      "region": "香港",
-      "cityOrFocus": "半音階/現代跨界",
-      "summary": "半音階/現代跨界 / 半音階 / 國際演出人員",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "CY Leo 何卓彥 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.cyleomusic.io/profile"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Cyleoharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/cy_leo/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@cyleoharmonica"
         }
       ],
       "source": "watchlist",
@@ -3469,43 +3506,6 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "網站",
           "url": "https://www.yasuowatani.com/"
-        }
-      ],
-      "source": "watchlist",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": ""
-    },
-    {
-      "id": "watchlist-63",
-      "name": "Younghoon Cho",
-      "nameEn": "Younghoon Cho",
-      "category": "演奏者",
-      "type": "個人",
-      "tier": "C",
-      "region": "韓國",
-      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
-      "summary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "Younghoon Cho Jong-seong Park",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/hoontobe"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hoontobe/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hoontobe_piano/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/hoontobe"
         }
       ],
       "source": "watchlist",

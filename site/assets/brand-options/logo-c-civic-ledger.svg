@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" role="img" aria-labelledby="title desc">
+  <title id="title">臺灣口琴觀測站 Logo C - Civic Ledger</title>
+  <desc id="desc">A quiet civic-data identity using a ledger-like harmonica symbol, data ticks, and the wordmark 臺灣口琴觀測站.</desc>
+  <defs>
+    <style>
+      .word { font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; font-weight: 800; letter-spacing: 0; }
+      .sub { font-family: Inter, Arial, sans-serif; font-weight: 700; letter-spacing: .075em; }
+    </style>
+  </defs>
+  <rect width="760" height="220" fill="#fffdf8"/>
+  <g transform="translate(58 42)">
+    <rect x="0" y="0" width="136" height="136" rx="28" fill="#eaf3ef"/>
+    <path d="M28 62h80c10 0 18 8 18 18s-8 18-18 18H28c-10 0-18-8-18-18s8-18 18-18z" fill="#0a514d"/>
+    <g fill="#fffdf8">
+      <rect x="34" y="75" width="10" height="10" rx="5"/>
+      <rect x="54" y="75" width="10" height="10" rx="5"/>
+      <rect x="74" y="75" width="10" height="10" rx="5"/>
+      <rect x="94" y="75" width="10" height="10" rx="5"/>
+    </g>
+    <g stroke="#b87921" stroke-width="5" stroke-linecap="round">
+      <path d="M32 34h50"/>
+      <path d="M32 48h72"/>
+      <path d="M32 112h72"/>
+    </g>
+    <circle cx="108" cy="48" r="8" fill="#c85f44"/>
+    <circle cx="108" cy="112" r="8" fill="#0f766e"/>
+    <path d="M108 56v48" stroke="#c85f44" stroke-width="4" stroke-linecap="round" stroke-dasharray="3 9"/>
+  </g>
+  <g transform="translate(248 62)">
+    <text class="word" x="0" y="58" font-size="46" fill="#17211d">臺灣口琴觀測站</text>
+    <text class="sub" x="2" y="98" font-size="15" fill="#6d6251">OPEN INDEX · EVENTS · CLUBS · FEEDS</text>
+  </g>
+</svg>

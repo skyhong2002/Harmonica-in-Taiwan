@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" role="img" aria-labelledby="title desc">
+  <title id="title">臺灣口琴觀測站 Logo D - Compact Pulse</title>
+  <desc id="desc">A compact square logo built for favicon use, combining harmonica holes, a data pulse, and the wordmark 臺灣口琴觀測站.</desc>
+  <defs>
+    <style>
+      .word { font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; font-weight: 850; letter-spacing: 0; }
+      .sub { font-family: Inter, Arial, sans-serif; font-weight: 800; letter-spacing: .085em; }
+    </style>
+  </defs>
+  <rect width="760" height="220" fill="#ffffff"/>
+  <g transform="translate(58 42)">
+    <rect x="0" y="0" width="136" height="136" rx="18" fill="#0f766e"/>
+    <path d="M24 80h88" stroke="#ffffff" stroke-width="18" stroke-linecap="round"/>
+    <g fill="#0f766e">
+      <circle cx="40" cy="80" r="5.5"/>
+      <circle cx="58" cy="80" r="5.5"/>
+      <circle cx="76" cy="80" r="5.5"/>
+      <circle cx="94" cy="80" r="5.5"/>
+    </g>
+    <path d="M30 45h20l10-16 18 35 12-19h20" fill="none" stroke="#f2b84b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="110" cy="45" r="8" fill="#c85f44"/>
+  </g>
+  <g transform="translate(248 62)">
+    <text class="word" x="0" y="58" font-size="47" fill="#17211d">臺灣口琴觀測站</text>
+    <text class="sub" x="2" y="98" font-size="15" fill="#5c6a63">HARMONICA · DATA · OBSERVATION</text>
+  </g>
+</svg>

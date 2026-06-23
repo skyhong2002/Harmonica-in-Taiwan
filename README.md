@@ -11,6 +11,9 @@ static site, and data build script.
 - `site/data/site-data.js` - generated public data bundle consumed by the site.
 - `data/sources/` - public-safe CSV sources. These exclude internal comments,
   watch policies, private credentials, member data, and repertoire links.
+- `scripts/build_social_sources.py` - rebuilds public Facebook and YouTube watcher sources from the public CSV files.
+- `scripts/youtube_ytdlp_fetcher.py` - fetches recent YouTube videos with `yt-dlp` into the normalized public inbox.
+- `scripts/apify_facebook_fetcher.py` - fetches public Facebook posts through the budget-capped Apify fallback.
 - `scripts/build_public_data.py` - rebuilds `site/data/site-data.js`.
 - `scripts/social_feed_watchdog.py` - reads public RSS/RSSHub/JSONL sources and writes candidate updates.
 - `scripts/generate_rss_feeds.py` - publishes RSS feeds under `site/feeds/`.
@@ -37,6 +40,38 @@ public RSS baseline with only the latest week of matching posts:
 python3 scripts/run_pipeline.py --emit-initial --max-post-age-days 7
 ```
 
+## Social Fetchers
+
+YouTube uses `yt-dlp`. Install it for the same Python used by launchd:
+
+```bash
+python3 -m pip install --user yt-dlp
+```
+
+Facebook uses Apify's `apify/facebook-posts-scraper` through
+`scripts/apify_facebook_fetcher.py`. It is deliberately conservative:
+
+- default dry-run unless `--run` is passed;
+- rotates a small source batch each run;
+- enforces `maxTotalChargeUsd`, `maxItems`, a local 24h/30d ledger, and Apify account monthly usage checks;
+- writes only normalized public rows to `data/feeds/social_feed_inbox.jsonl`.
+
+Token lookup order:
+
+1. `HARMONICA_APIFY_API_TOKEN`
+2. `BAMBOO_APIFY_API_TOKEN`
+3. `APIFY_TOKEN` or `APIFY_API_TOKEN`
+4. macOS Keychain `harmonica-observe-apify` / `harmonica`
+5. macOS Keychain `bamboo-apify` / `bamboo`
+
+Dry-run checks:
+
+```bash
+python3 scripts/build_social_sources.py --check
+python3 scripts/youtube_ytdlp_fetcher.py --check
+python3 scripts/apify_facebook_fetcher.py --check
+```
+
 ## Local Preview
 
 ```bash
@@ -48,9 +83,9 @@ Open `http://127.0.0.1:8765/`.
 ## Public Feeds
 
 - `https://harmonica.observe.tw/feeds/updates.xml`
-- `https://harmonica.observe.tw/feeds/events.xml` - 全台灣的口琴實體活動
-- `https://harmonica.observe.tw/feeds/posts-videos.xml` - 全台灣的口琴相關貼文以及影片發布
-- `https://harmonica.observe.tw/feeds/student-clubs.xml` - 全台灣的口琴學生社團動態
+- `https://harmonica.observe.tw/feeds/events.xml` - 全臺灣的口琴實體活動
+- `https://harmonica.observe.tw/feeds/posts-videos.xml` - 全臺灣的口琴相關貼文以及影片發布
+- `https://harmonica.observe.tw/feeds/student-clubs.xml` - 全臺灣的口琴學生社團動態
 - `https://harmonica.observe.tw/feeds/opportunities.xml` - 口琴社團需要知道的補助或是比賽資訊
 - `https://harmonica.observe.tw/feeds/sources.xml`
 

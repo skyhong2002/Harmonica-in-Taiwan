@@ -3,33 +3,33 @@
   "feeds": [
     {
       "id": "events",
-      "title": "全台灣口琴實體活動",
+      "title": "全臺灣口琴實體活動",
       "shortTitle": "實體活動",
-      "description": "全台灣公開口琴演出、成發、音樂會、講座、工作坊與可到場活動。",
+      "description": "全臺灣公開口琴演出、成發、音樂會、講座、工作坊與可到場活動。",
       "page": "https://harmonica.observe.tw/feeds/events/",
       "rss": "https://harmonica.observe.tw/feeds/events.xml",
       "json": "https://harmonica.observe.tw/api/events.json",
-      "count": 5
+      "count": 11
     },
     {
       "id": "posts-videos",
-      "title": "全台灣口琴相關貼文與影片發布",
+      "title": "全臺灣口琴相關貼文與影片發布",
       "shortTitle": "貼文影片",
-      "description": "全台灣公開口琴相關社群貼文、影片發布與公開更新。",
+      "description": "全臺灣公開口琴相關社群貼文、影片發布與公開更新。",
       "page": "https://harmonica.observe.tw/feeds/posts-videos/",
       "rss": "https://harmonica.observe.tw/feeds/posts-videos.xml",
       "json": "https://harmonica.observe.tw/api/posts-videos.json",
-      "count": 5
+      "count": 24
     },
     {
       "id": "student-clubs",
-      "title": "全台灣口琴學生社團動態",
+      "title": "全臺灣口琴學生社團動態",
       "shortTitle": "學生社團",
-      "description": "全台灣大專與高中職口琴社團公開動態。",
+      "description": "全臺灣大專與高中職口琴社團公開動態。",
       "page": "https://harmonica.observe.tw/feeds/student-clubs/",
       "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
       "json": "https://harmonica.observe.tw/api/student-clubs.json",
-      "count": 5
+      "count": 7
     },
     {
       "id": "opportunities",
@@ -39,7 +39,7 @@
       "page": "https://harmonica.observe.tw/feeds/opportunities/",
       "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
       "json": "https://harmonica.observe.tw/api/opportunities.json",
-      "count": 0
+      "count": 2
     }
   ]
 }

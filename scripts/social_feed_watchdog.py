@@ -142,7 +142,11 @@ def rsshub_url(source: dict[str, Any]) -> str:
 
 def compact_text(text: str, limit: int = 1600) -> str:
     lines = [re.sub(r"[ \t]+", " ", line).strip() for line in (text or "").splitlines()]
-    cleaned = "\n".join(line for line in lines if line).strip()
+    clean_lines: list[str] = []
+    for line in lines:
+        if line and (not clean_lines or clean_lines[-1] != line):
+            clean_lines.append(line)
+    cleaned = "\n".join(clean_lines).strip()
     return cleaned[:limit]
 
 
@@ -155,6 +159,7 @@ def normalize_post(
     posted_at: str,
     media_type: str = "",
     images: list[str] | None = None,
+    source_avatar_url: str = "",
 ) -> dict[str, Any]:
     source_id = source["id"]
     return {
@@ -169,6 +174,7 @@ def normalize_post(
         "media_type": media_type,
         "images": images or [],
         "image_url": (images or [""])[0],
+        "source_avatar_url": source_avatar_url,
         "text": compact_text(text),
     }
 
@@ -182,6 +188,7 @@ def fetch_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
         root = ET.fromstring(response.read())
 
     posts: list[dict[str, Any]] = []
+    channel_avatar = root.findtext("channel/image/url") or ""
     for item in root.findall(".//item"):
         title = text_of(item, "title")
         link = text_of(item, "link")
@@ -197,10 +204,12 @@ def fetch_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
                 url=link,
                 posted_at=published,
                 images=images,
+                source_avatar_url=channel_avatar,
             )
         )
 
     ns = {"atom": "http://www.w3.org/2005/Atom"}
+    atom_avatar = atom_text(root, "logo") or atom_text(root, "icon")
     for entry in root.findall(".//atom:entry", ns):
         title = atom_text(entry, "title")
         content = atom_text(entry, "content") or atom_text(entry, "summary")
@@ -220,6 +229,7 @@ def fetch_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
                 url=link,
                 posted_at=posted_at,
                 images=images,
+                source_avatar_url=atom_avatar,
             )
         )
 
@@ -261,9 +271,12 @@ def normalize_external_post(source: dict[str, Any], row: dict[str, Any]) -> dict
             )
             if url
         ],
+        source_avatar_url=str(row.get("source_avatar_url") or row.get("avatar_url") or row.get("profile_image_url") or ""),
     )
     if row.get("raw_source"):
         post["raw_source"] = str(row["raw_source"])
+    if row.get("include_without_keywords"):
+        post["include_without_keywords"] = True
     return post
 
 
@@ -287,8 +300,10 @@ def fetch_jsonl(source: dict[str, Any]) -> list[dict[str, Any]]:
 
 
 def fetch_facebook_page(source: dict[str, Any], token: str) -> list[dict[str, Any]]:
-    page = source.get("page") or source.get("username") or source.get("id")
+    page = source.get("page") or source.get("username")
     if not page:
+        return []
+    if str(page).startswith(("http://", "https://")):
         return []
     limit = int(source.get("limit") or 5)
     path = urllib.parse.quote(str(page), safe="")
@@ -332,6 +347,15 @@ def fetch_source(source: dict[str, Any], token: str | None) -> list[dict[str, An
     if kind == "facebook_page_posts":
         return fetch_facebook_page(source, token) if token else []
     return []
+
+
+def should_throttle_source(source: dict[str, Any], token: str | None) -> bool:
+    kind = source.get("type")
+    if kind in {"rss", "rsshub_facebook_page", "rsshub_instagram_profile", "jsonl", "external_jsonl", "n8n_jsonl"}:
+        return True
+    if kind == "facebook_page_posts" and token:
+        return True
+    return False
 
 
 def match_keywords(text: str, keywords: list[str]) -> list[str]:
@@ -461,10 +485,11 @@ def main() -> int:
                 skipped_old += 1
                 seen_map[key] = dt.datetime.now(dt.timezone.utc).isoformat()
                 continue
-            if not args.baseline and (args.include_all_new or matched):
+            if not args.baseline and (args.include_all_new or matched or post.get("include_without_keywords")):
                 new_posts.append(post)
             seen_map[key] = dt.datetime.now(dt.timezone.utc).isoformat()
-        time.sleep(0.25)
+        if should_throttle_source(source, token):
+            time.sleep(0.25)
 
     seen["seen"] = seen_map
     seen.setdefault("initialized_at", dt.datetime.now(dt.timezone.utc).isoformat())

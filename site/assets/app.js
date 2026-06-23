@@ -27,6 +27,12 @@
     "國際交流",
     "其他來源",
   ];
+  const feedCategoryLabels = {
+    events: "實體活動",
+    "posts-videos": "貼文影片",
+    "student-clubs": "學生社團",
+    opportunities: "補助比賽",
+  };
 
   const directoryList = document.querySelector("#directory-list");
   const latestFeedGrid = document.querySelector("#latest-feed-grid");
@@ -79,6 +85,19 @@
       .replaceAll("'", "&#039;");
   }
 
+  function multilineHtml(value, limit = 220, maxLines = 3, skipFirst = false) {
+    let text = String(value || "").trim();
+    if (!text) return "";
+    if (text.length > limit) text = `${text.slice(0, limit - 1)}…`;
+    let lines = text
+      .split(/\r?\n/)
+      .map((line) => line.trim())
+      .filter(Boolean);
+    if (skipFirst) lines = lines.slice(1);
+    lines = lines.slice(0, maxLines);
+    return escapeHtml(lines.join("\n")).replaceAll("\n", "<br>");
+  }
+
   function renderLinks(links) {
     return (links || [])
       .map(
@@ -114,54 +133,70 @@
     `;
   }
 
-  function feedItemRow(item) {
-    const image = item.image_url
-      ? `<img src="${escapeHtml(item.image_url)}" alt="" loading="lazy" referrerpolicy="no-referrer">`
-      : "";
-    const itemClass = item.image_url ? "feed-latest-item has-image" : "feed-latest-item no-image";
-    return `
-      <a class="${itemClass}" href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">
-        ${image}
-        <span>
-          <span class="feed-latest-meta">${escapeHtml(item.posted_at_local || "未標示")} · ${escapeHtml(item.source || "公開來源")}</span>
-          <strong>${escapeHtml(item.title || "公開更新")}</strong>
+  function sourceAvatar(item, className = "source-avatar") {
+    if (item.avatar_url) {
+      return `
+        <span class="${className}">
+          <img src="${escapeHtml(item.avatar_url)}" alt="${escapeHtml(item.source || "公開來源")} 頭貼" loading="lazy" referrerpolicy="no-referrer">
         </span>
-      </a>
+      `;
+    }
+    return `<span class="${className} source-avatar-fallback" aria-hidden="true">${escapeHtml(item.source_initials || "H")}</span>`;
+  }
+
+  function feedCategoryPills(item) {
+    const labels = item.category_labels || (item.categories || []).map((category) => feedCategoryLabels[category] || category);
+    return labels.map((label) => `<span class="pill">${escapeHtml(label)}</span>`).join("");
+  }
+
+  function homeFeedCard(item) {
+    const thumb = item.image_url
+      ? `<span class="home-feed-thumb"><img src="${escapeHtml(item.image_url)}" alt="" loading="lazy" referrerpolicy="no-referrer"></span>`
+      : "";
+    const excerpt = multilineHtml(item.text || "", 260, 4, true);
+    return `
+      <article class="home-feed-card">
+        <div class="home-feed-source">
+          ${sourceAvatar(item)}
+          <div>
+            <span class="feed-latest-meta">${escapeHtml(item.posted_at_local || "未標示")} · ${escapeHtml(item.platform || "public")}</span>
+            <strong>${escapeHtml(item.source || "公開來源")}</strong>
+          </div>
+        </div>
+        <a class="home-feed-body" href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">
+          <span class="home-feed-copy">
+            <h3>${escapeHtml(item.headline || item.title || "公開更新")}</h3>
+            ${excerpt ? `<span class="feed-latest-excerpt">${excerpt}</span>` : ""}
+          </span>
+          ${thumb}
+        </a>
+        <div class="home-feed-footer">
+          <div class="entry-meta">${feedCategoryPills(item)}</div>
+          <a class="feed-open-link" href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">開啟來源</a>
+        </div>
+      </article>
     `;
   }
 
   function renderLatestFeeds() {
     if (!latestFeedGrid) return;
     const feeds = feedData.feeds || [];
-    if (!feeds.length) {
+    const updates = feedData.updates || [];
+    if (!updates.length) {
       latestFeedGrid.innerHTML = `<div class="empty-state">目前沒有可顯示的公開 feed。</div>`;
       return;
     }
 
-    latestFeedGrid.innerHTML = feeds
-      .map((feed) => {
-        const items = (feed.items || []).slice(0, 3);
-        const list = items.length
-          ? items.map(feedItemRow).join("")
-          : `<div class="feed-latest-empty">目前沒有近期待觀測項目。</div>`;
-        return `
-          <article class="feed-latest-column">
-            <div class="feed-latest-head">
-              <div>
-                <p class="section-kicker">${escapeHtml(feed.id)}</p>
-                <h3>${escapeHtml(feed.title)}</h3>
-              </div>
-              <span class="pill">${escapeHtml(feed.count || 0)} 筆</span>
-            </div>
-            <div class="feed-latest-list">${list}</div>
-            <div class="feed-card-actions">
-              <a href="${escapeHtml(feed.page)}">看全部</a>
-              <a href="${escapeHtml(feed.rss)}">RSS</a>
-            </div>
-          </article>
-        `;
-      })
+    const feedLinks = feeds
+      .map((feed) => `<a href="${escapeHtml(feed.page)}">${escapeHtml(feed.shortTitle || feed.title)} ${escapeHtml(feed.count || 0)} 筆</a>`)
       .join("");
+    latestFeedGrid.innerHTML = `
+      <div class="feed-filter-row">
+        <span class="feed-filter-label">分類 feed</span>
+        <div class="feed-links">${feedLinks}<a href="/feeds/">全部 RSS</a></div>
+      </div>
+      ${updates.slice(0, 8).map(homeFeedCard).join("")}
+    `;
   }
 
   function filteredEntries() {

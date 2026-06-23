@@ -1,0 +1,318 @@
+#!/usr/bin/env python3
+"""Build social watcher sources from the public source CSV files."""
+
+from __future__ import annotations
+
+import argparse
+import csv
+import hashlib
+import json
+import re
+import urllib.parse
+from pathlib import Path
+from typing import Any
+
+
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_CONFIG = PROJECT_ROOT / "data" / "feeds" / "social_sources.json"
+GENERATED_BY = "scripts/build_social_sources.py"
+
+SOURCE_FILES = [
+    PROJECT_ROOT / "data" / "sources" / "harmonica-source-watchlist-public.csv",
+    PROJECT_ROOT / "data" / "sources" / "harmonica-clubs-public.csv",
+]
+
+DEFAULT_KEYWORDS = [
+    "口琴",
+    "成發",
+    "成果發表",
+    "音樂會",
+    "演出",
+    "校慶",
+    "社博",
+    "迎新",
+    "招生",
+    "交流",
+    "寒訓",
+    "暑訓",
+    "影片",
+    "新片",
+    "首播",
+    "上架",
+    "發布",
+    "發佈",
+    "直播",
+    "補助",
+    "獎助",
+    "徵件",
+    "徵選",
+    "甄選",
+    "比賽",
+    "競賽",
+    "指定曲",
+    "報名",
+    "截止",
+    "全國學生音樂比賽",
+    "學生音樂比賽",
+    "harmonica",
+]
+
+
+def load_json(path: Path, default: Any) -> Any:
+    if not path.exists():
+        return default
+    with path.open("r", encoding="utf-8") as handle:
+        return json.load(handle)
+
+
+def save_json(path: Path, data: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    with tmp.open("w", encoding="utf-8") as handle:
+        json.dump(data, handle, ensure_ascii=False, indent=2)
+        handle.write("\n")
+    tmp.replace(path)
+
+
+def read_csv(path: Path) -> list[dict[str, str]]:
+    if not path.exists():
+        return []
+    with path.open(newline="", encoding="utf-8-sig") as handle:
+        return list(csv.DictReader(handle))
+
+
+def clean(value: str | None) -> str:
+    return (value or "").strip()
+
+
+def normalize_url(value: str) -> str:
+    url = clean(value)
+    if not url:
+        return ""
+    if url.startswith("//"):
+        return "https:" + url
+    if not re.match(r"^[a-z][a-z0-9+.-]*://", url, re.IGNORECASE):
+        if "." in url or url.startswith("@"):
+            url = "https://" + url.lstrip("@")
+    return url
+
+
+def canonical_url(value: str) -> str:
+    url = normalize_url(value)
+    if not url:
+        return ""
+    parsed = urllib.parse.urlparse(url)
+    host = parsed.netloc.casefold().removeprefix("www.")
+    path = urllib.parse.unquote(parsed.path).rstrip("/")
+    query = ""
+    if parsed.query and path.endswith("/profile.php"):
+        query = urllib.parse.urlencode(sorted(urllib.parse.parse_qsl(parsed.query)))
+    return urllib.parse.urlunparse((parsed.scheme or "https", host, path, "", query, ""))
+
+
+def safe_slug(value: str, fallback: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "_", value.casefold()).strip("_")
+    if slug:
+        return slug[:64]
+    return fallback
+
+
+def url_hash(value: str, size: int = 10) -> str:
+    return hashlib.sha1(value.encode("utf-8")).hexdigest()[:size]
+
+
+def source_name(row: dict[str, str]) -> str:
+    return clean(row.get("name_en")) or clean(row.get("name")) or "Public harmonica source"
+
+
+def parse_facebook_source(row: dict[str, str]) -> dict[str, Any] | None:
+    raw_url = normalize_url(clean(row.get("fb_url")))
+    if not raw_url:
+        return None
+    parsed = urllib.parse.urlparse(raw_url)
+    host = parsed.netloc.casefold().removeprefix("www.")
+    if host not in {"facebook.com", "m.facebook.com", "fb.com"}:
+        return None
+
+    parts = [urllib.parse.unquote(part) for part in parsed.path.split("/") if part]
+    if not parts:
+        return None
+
+    first = parts[0].strip()
+    skip_first = {
+        "groups",
+        "events",
+        "watch",
+        "reel",
+        "reels",
+        "story",
+        "stories",
+        "photo",
+        "photos",
+        "permalink.php",
+        "sharer.php",
+        "login",
+    }
+    if first in skip_first:
+        return None
+
+    page = ""
+    if first == "profile.php":
+        page = ""
+    elif first in {"p", "people", "pages"}:
+        page = ""
+    else:
+        page = first
+
+    canonical = canonical_url(raw_url)
+    key_part = page or url_hash(canonical)
+    return {
+        "enabled": True,
+        "id": "fb_" + safe_slug(key_part, url_hash(canonical)),
+        "limit": 5,
+        "name": source_name(row),
+        "page": page,
+        "url": canonical,
+        "platform": "facebook",
+        "type": "facebook_page_posts",
+        "generated_by": GENERATED_BY,
+    }
+
+
+def parse_youtube_source(row: dict[str, str]) -> dict[str, Any] | None:
+    raw_url = normalize_url(clean(row.get("youtube_url")))
+    if not raw_url:
+        return None
+    parsed = urllib.parse.urlparse(raw_url)
+    host = parsed.netloc.casefold().removeprefix("www.").removeprefix("m.")
+    if host not in {"youtube.com", "youtu.be"}:
+        return None
+
+    parts = [urllib.parse.unquote(part) for part in parsed.path.split("/") if part]
+    if not parts:
+        return None
+    if parts[0] in {"watch", "shorts", "playlist"}:
+        return None
+
+    if parts[0] == "channel" and len(parts) > 1:
+        key_part = parts[1]
+    elif parts[0].startswith("@"):
+        key_part = parts[0].lstrip("@")
+    elif parts[0] in {"c", "user"} and len(parts) > 1:
+        key_part = parts[1]
+    else:
+        key_part = parts[0]
+
+    canonical = canonical_url(raw_url)
+    return {
+        "enabled": True,
+        "id": "yt_" + safe_slug(key_part, url_hash(canonical)),
+        "include_without_keywords": True,
+        "limit": 3,
+        "name": source_name(row),
+        "platform": "youtube",
+        "type": "youtube_ytdlp",
+        "url": canonical,
+        "generated_by": GENERATED_BY,
+    }
+
+
+def source_key(source: dict[str, Any]) -> str:
+    platform = str(source.get("platform") or source.get("type") or "").casefold()
+    if platform == "facebook" or source.get("type") == "facebook_page_posts":
+        page = clean(str(source.get("page") or ""))
+        if page and not page.startswith("http"):
+            return "facebook:page:" + page.strip("/").casefold()
+        return "facebook:url:" + canonical_url(str(source.get("url") or page))
+    if platform == "youtube" or source.get("type") == "youtube_ytdlp":
+        return "youtube:url:" + canonical_url(str(source.get("url") or ""))
+    return str(source.get("id") or "")
+
+
+def generated_sources() -> list[dict[str, Any]]:
+    generated: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for path in SOURCE_FILES:
+        for row in read_csv(path):
+            for parser in (parse_facebook_source, parse_youtube_source):
+                source = parser(row)
+                if not source:
+                    continue
+                key = source_key(source)
+                if key in seen:
+                    continue
+                seen.add(key)
+                generated.append(source)
+    return generated
+
+
+def merge_sources(existing: list[dict[str, Any]], generated: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    kept = [source for source in existing if source.get("generated_by") != GENERATED_BY]
+    seen = {source_key(source) for source in kept if source_key(source)}
+    merged = list(kept)
+    for source in generated:
+        key = source_key(source)
+        if key in seen:
+            continue
+        seen.add(key)
+        merged.append(source)
+    return merged
+
+
+def ensure_unique_ids(sources: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    seen: set[str] = set()
+    unique: list[dict[str, Any]] = []
+    for source in sources:
+        source_id = str(source.get("id") or "").strip()
+        if not source_id:
+            source_id = "source_" + url_hash(json.dumps(source, ensure_ascii=False, sort_keys=True), 8)
+        if source_id in seen:
+            base = source_id
+            suffix = url_hash(source_key(source) or json.dumps(source, ensure_ascii=False, sort_keys=True), 8)
+            source_id = f"{base}_{suffix}"
+            counter = 2
+            while source_id in seen:
+                source_id = f"{base}_{suffix}_{counter}"
+                counter += 1
+            source = {**source, "id": source_id}
+        seen.add(source_id)
+        unique.append(source)
+    return unique
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
+    parser.add_argument("--check", action="store_true")
+    args = parser.parse_args()
+
+    config = load_json(args.config, {"keywords": DEFAULT_KEYWORDS, "sources": []})
+    generated = generated_sources()
+    merged = ensure_unique_ids(merge_sources(list(config.get("sources") or []), generated))
+    output = {
+        "keywords": config.get("keywords") or DEFAULT_KEYWORDS,
+        "sources": merged,
+    }
+
+    if not args.check:
+        save_json(args.config, output)
+
+    print(
+        json.dumps(
+            {
+                "config": str(args.config),
+                "written": not args.check,
+                "sources_total": len(merged),
+                "generated_candidates": len(generated),
+                "generated_added": sum(1 for source in merged if source.get("generated_by") == GENERATED_BY),
+                "facebook_sources": sum(1 for source in merged if source.get("type") == "facebook_page_posts"),
+                "youtube_sources": sum(1 for source in merged if source.get("type") == "youtube_ytdlp"),
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

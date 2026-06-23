@@ -1,11 +1,101 @@
 <?xml version='1.0' encoding='utf-8'?>
 <rss version="2.0">
   <channel>
-    <title>台灣口琴觀測站：公開來源名錄</title>
+    <title>臺灣口琴觀測站：公開來源名錄</title>
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館來源名錄。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 23 Jun 2026 12:05:29 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 13:18:12 +0000</lastBuildDate>
+    <item>
+      <title>陳鴻儀</title>
+      <link>https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/49b1bf57125f847c</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+地區：台灣
+查核：已查核
+演出/評審 / 口琴 / 演出人員/評審</description>
+    </item>
+    <item>
+      <title>吹出好心琴 + Ou Frog</title>
+      <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/a7900260c88a5842</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+地區：台灣
+查核：部分查核
+口琴教學影片/示範 / 口琴 / 教學影片來源</description>
+    </item>
+    <item>
+      <title>歐純伶</title>
+      <link>https://oulingou.pixnet.net/blog</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/aa647fb16a2754a4</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+地區：台灣
+查核：部分查核
+狂響/複音/教學演出 / 複音 / 演出人員/教學者</description>
+    </item>
+    <item>
+      <title>藍波口琴教室</title>
+      <link>https://www.blueboclass.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/208580c304c32492</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+地區：台灣
+查核：已查核
+口琴教學/課程/學習資源 / 口琴 / 教學/課程來源</description>
+    </item>
+    <item>
+      <title>衛武營國家藝術文化中心</title>
+      <link>https://www.npac-weiwuying.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/886a3e69f2bc562c</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+地區：台灣/高雄
+查核：已查核
+大型演出場館 / 藝文活動 / 場館資訊來源</description>
+    </item>
+    <item>
+      <title>張晁滕</title>
+      <link>https://chaotengchang.blogspot.com/2014/06/blog-post.html</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/9dc0ecea6c492eb6</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+地區：台灣
+查核：已查核
+天狼星/Laelaps/教學/演出 / 重奏/教學 / 演出人員/教學者</description>
+    </item>
+    <item>
+      <title>臺灣口琴音樂節 THMF / Taiwan Harmonica Music Festival</title>
+      <link>https://www.taiwanharmonica.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/0595230e54d4538f</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+地區：台灣
+查核：已查核
+音樂節/比賽/Gala/講座 / 半音階/複音/十孔/重奏 / 核心活動入口</description>
+    </item>
+    <item>
+      <title>THMF 午間音樂會新團體</title>
+      <link>https://www.taiwanharmonica.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/fcfbb508d76ed027</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+地區：台灣
+查核：已查核
+每年新興團體/青年演出 / 口琴 / 參考來源</description>
+    </item>
+    <item>
+      <title>CY Leo 何卓彥</title>
+      <link>https://www.cyleomusic.io/profile</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/161a953fbacb664c</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+地區：香港
+查核：已查核
+半音階/現代跨界 / 半音階 / 國際演出人員</description>
+    </item>
     <item>
       <title>師大口琴社</title>
       <link>https://ap.itc.ntnu.edu.tw/club/Club_ActivityStdtCtrl?Action=Page1BS&amp;Year=2025&amp;Month=9&amp;Id1=IBt7Len-cNCtRC3YEoLncPL-aqe-g&amp;GoToDay=7</link>
@@ -25,6 +115,36 @@
 地區：台灣/台北
 查核：已查核
 大學口琴社/成果發表/交流 / 口琴社 / 參考來源/合作對象</description>
+    </item>
+    <item>
+      <title>臺中國家歌劇院</title>
+      <link>https://www.npac-ntt.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+地區：台灣/台中
+查核：已查核
+大型演出場館 / 藝文活動 / 場館資訊來源</description>
+    </item>
+    <item>
+      <title>Younghoon Cho</title>
+      <link>https://linktr.ee/hoontobe</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/2a1ec747c34bfb28</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+地區：韓國
+查核：已查核
+鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家</description>
+    </item>
+    <item>
+      <title>雙燕樂器</title>
+      <link>https://www.musix.com.tw/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/436087c2e2f29e3b</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+地區：台灣
+查核：已查核
+樂器/活動資訊 / 口琴 / 參考來源</description>
     </item>
     <item>
       <title>The Duet 獨特音樂</title>
@@ -285,26 +405,6 @@
 地區：台灣/新竹
 查核：已查核
 場館/文化活動 / 口琴/藝文 / 場館資訊來源</description>
-    </item>
-    <item>
-      <title>臺中國家歌劇院</title>
-      <link>https://www.npac-ntt.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-地區：台灣/台中
-查核：已查核
-大型演出場館 / 藝文活動 / 場館資訊來源</description>
-    </item>
-    <item>
-      <title>衛武營國家藝術文化中心</title>
-      <link>https://www.npac-weiwuying.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/886a3e69f2bc562c</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-地區：台灣/高雄
-查核：已查核
-大型演出場館 / 藝文活動 / 場館資訊來源</description>
     </item>
     <item>
       <title>台中市中華口琴會樂團</title>
@@ -587,16 +687,6 @@
 口琴/手鼓教學/工作室/講座 / 口琴/手鼓 / 教學/工作坊/活動來源</description>
     </item>
     <item>
-      <title>藍波口琴教室</title>
-      <link>https://www.blueboclass.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/208580c304c32492</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-地區：台灣
-查核：已查核
-口琴教學/課程/學習資源 / 口琴 / 教學/課程來源</description>
-    </item>
-    <item>
       <title>音和樂器</title>
       <link>https://0223120930.web66.com.tw/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/946384acc3afb19b</guid>
@@ -627,16 +717,6 @@
 口琴專賣/教學/講座/課程 / 口琴 / 教學/活動/器材來源</description>
     </item>
     <item>
-      <title>吹出好心琴 + Ou Frog</title>
-      <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/a7900260c88a5842</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-地區：台灣
-查核：部分查核
-口琴教學影片/示範 / 口琴 / 教學影片來源</description>
-    </item>
-    <item>
       <title>東和樂器</title>
       <link>https://www.music4fun.com.tw/h/Index?key=ssa79</link>
       <guid>https://harmonica.observe.tw/feeds/sources/7d78ec5b8738882c</guid>
@@ -657,16 +737,6 @@
 口琴課程/地方社群活動 / 口琴 / 地方活動/課程線索</description>
     </item>
     <item>
-      <title>雙燕樂器</title>
-      <link>https://www.musix.com.tw/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/436087c2e2f29e3b</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-地區：台灣
-查核：已查核
-樂器/活動資訊 / 口琴 / 參考來源</description>
-    </item>
-    <item>
       <title>韋笙堡口琴 Weissenberg Harmonicas</title>
       <link>https://www.weissenbergwind.com/tw/product_list.php?type=4</link>
       <guid>https://harmonica.observe.tw/feeds/sources/6943943f14cc844d</guid>
@@ -675,16 +745,6 @@
 地區：台灣/台中
 查核：已查核
 口琴製造/器材/產品資訊 / 口琴 / 器材/品牌資訊來源</description>
-    </item>
-    <item>
-      <title>臺灣口琴音樂節 THMF / Taiwan Harmonica Music Festival</title>
-      <link>https://www.taiwanharmonica.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/0595230e54d4538f</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-地區：台灣
-查核：已查核
-音樂節/比賽/Gala/講座 / 半音階/複音/十孔/重奏 / 核心活動入口</description>
     </item>
     <item>
       <title>From Harmonica to Music</title>
@@ -715,16 +775,6 @@
 地區：台灣
 查核：部分查核
 正式售票演出/講座 / 口琴 / 售票資訊來源</description>
-    </item>
-    <item>
-      <title>THMF 午間音樂會新團體</title>
-      <link>https://www.taiwanharmonica.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/fcfbb508d76ed027</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-地區：台灣
-查核：已查核
-每年新興團體/青年演出 / 口琴 / 參考來源</description>
     </item>
     <item>
       <title>何家健 HarmoniKahkean</title>
@@ -797,16 +847,6 @@
 111 Trio / Quintet / 口琴 / 演出人員</description>
     </item>
     <item>
-      <title>張晁滕</title>
-      <link>https://chaotengchang.blogspot.com/2014/06/blog-post.html</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/9dc0ecea6c492eb6</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-地區：台灣
-查核：已查核
-天狼星/Laelaps/教學/演出 / 重奏/教學 / 演出人員/教學者</description>
-    </item>
-    <item>
       <title>李聖恩</title>
       <link>https://www.opentix.life/event/1807611654029795329</link>
       <guid>https://harmonica.observe.tw/feeds/sources/6a4b4431654d8e9c</guid>
@@ -845,16 +885,6 @@
 地區：台灣
 查核：已查核
 胖擊系 / 口琴 / 演出人員</description>
-    </item>
-    <item>
-      <title>歐純伶</title>
-      <link>https://oulingou.pixnet.net/blog</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/aa647fb16a2754a4</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-地區：台灣
-查核：部分查核
-狂響/複音/教學演出 / 複音 / 演出人員/教學者</description>
     </item>
     <item>
       <title>游沛橙</title>
@@ -987,16 +1017,6 @@ Judy’s/演出/評審 / 半音階/重奏 / 演出人員/評審</description>
 胖擊系 / 口琴 / 演出人員</description>
     </item>
     <item>
-      <title>陳鴻儀</title>
-      <link>https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/49b1bf57125f847c</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-地區：台灣
-查核：已查核
-演出/評審 / 口琴 / 演出人員/評審</description>
-    </item>
-    <item>
       <title>黃冠誌</title>
       <link>https://harmonica.tw/course/kuanchih/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
@@ -1015,16 +1035,6 @@ Judy’s/演出/評審 / 半音階/重奏 / 演出人員/評審</description>
 地區：馬來西亞/常來台
 查核：已查核
 二重奏/影片/THMF / 半音階/重奏 / 國際演出人員/團體</description>
-    </item>
-    <item>
-      <title>CY Leo 何卓彥</title>
-      <link>https://www.cyleomusic.io/profile</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/161a953fbacb664c</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-地區：香港
-查核：已查核
-半音階/現代跨界 / 半音階 / 國際演出人員</description>
     </item>
     <item>
       <title>Dror Adler / Adler Trio</title>
@@ -1085,16 +1095,6 @@ F.I.H/Hohner/WHF / 口琴/組織 / 國際演出人員/組織者</description>
 地區：日本
 查核：部分查核
 半音階大師 / 半音階 / 國際演出人員</description>
-    </item>
-    <item>
-      <title>Younghoon Cho</title>
-      <link>https://linktr.ee/hoontobe</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/2a1ec747c34bfb28</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-地區：韓國
-查核：已查核
-鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家</description>
     </item>
     <item>
       <title>千賀太郎 Taro Senga</title>
