@@ -28,6 +28,8 @@
     columnCount: 0,
   };
   const feedBatchSize = 12;
+  const feedDesktopColumnQuery = "(min-width: 901px)";
+  const feedDesktopColumnCount = 3;
   const feedColumnMinWidth = 340;
   const feedColumnGap = 14;
   let feedAutoLoadObserver = null;
@@ -523,7 +525,8 @@
 
   function feedColumnCount(river) {
     const width = river.clientWidth || latestFeedGrid.clientWidth || window.innerWidth || feedColumnMinWidth;
-    return Math.max(1, Math.min(4, Math.floor((width + feedColumnGap) / (feedColumnMinWidth + feedColumnGap)) || 1));
+    if (window.matchMedia?.(feedDesktopColumnQuery).matches) return feedDesktopColumnCount;
+    return Math.max(1, Math.min(2, Math.floor((width + feedColumnGap) / (feedColumnMinWidth + feedColumnGap)) || 1));
   }
 
   function createFeedColumns(river, columnCount) {

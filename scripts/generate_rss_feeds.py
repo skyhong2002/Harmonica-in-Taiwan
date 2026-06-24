@@ -33,7 +33,7 @@ API_DIR = SITE_ROOT / "api"
 FEED_IMAGE_DIR = SITE_ROOT / "assets" / "feed-images"
 SOURCE_AVATAR_DIR = SITE_ROOT / "assets" / "source-avatars"
 PUBLIC_BASE_URL = "https://harmonica.observe.tw"
-ASSET_VERSION = "20260624-2238"
+ASSET_VERSION = "20260625-0046"
 HOME_FEED_BATCH_SIZE = 12
 DEFAULT_UPDATE_WINDOW_DAYS = 30
 BRAND_LOGO_HTML = f'<img class="brand-logo" src="/assets/logo.svg?v={ASSET_VERSION}" alt="臺灣口琴觀測站" width="200" height="47">'

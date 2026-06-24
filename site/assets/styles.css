@@ -618,6 +618,12 @@ h2 {
   min-width: 0;
 }
 
+@media (min-width: 901px) {
+  .feed-river {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
 .feed-river-column {
   display: grid;
   gap: 14px;
