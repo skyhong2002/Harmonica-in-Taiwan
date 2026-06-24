@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="site/assets/logo.svg" alt="臺灣口琴觀測站 Logo" width="360">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="site/assets/logo-github-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="site/assets/logo.svg">
+    <img src="site/assets/logo.svg" alt="臺灣口琴觀測站 Logo" width="360">
+  </picture>
 </p>
 
 # 臺灣口琴觀測站

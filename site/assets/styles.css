@@ -1636,6 +1636,17 @@ h2 {
   border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
 
+.footer-meta a {
+  color: rgba(255, 255, 255, 0.88);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.footer-meta a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
 @media (max-width: 900px) {
   .hero,
   .hero-content {
