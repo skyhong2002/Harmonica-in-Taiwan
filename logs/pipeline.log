@@ -11,3 +11,918 @@ Wrote site/data/site-data.js with 114 public entries
   "updates_feed": "/Users/skyhong/Documents/Harmonica-in-Taiwan/site/feeds/updates.xml",
   "sources_feed": "/Users/skyhong/Documents/Harmonica-in-Taiwan/site/feeds/sources.xml"
 }
+{
+  "config": "/Users/skyhong/Documents/Harmonica-in-Taiwan/data/feeds/social_sources.json",
+  "written": true,
+  "sources_total": 160,
+  "generated_candidates": 143,
+  "generated_added": 134,
+  "facebook_sources": 76,
+  "youtube_sources": 67
+}
+{
+  "ok": true,
+  "record": {
+    "started_at": "2026-06-23T13:56:19.010169+00:00",
+    "finished_at": "2026-06-23T13:56:53.293123+00:00",
+    "source_ids": [
+      "yt_849af81509",
+      "yt_jangliharmonica",
+      "yt_ucq7wiztevpndeaaj6rdxzea",
+      "yt_mandy730508",
+      "yt_harpdonuts"
+    ],
+    "new_inbox_rows": 0,
+    "error_count": 0
+  },
+  "new_rows": [],
+  "errors": []
+}
+{
+  "ok": true,
+  "record": {
+    "started_at": "2026-06-23T13:56:54.229502+00:00",
+    "finished_at": "2026-06-23T13:57:15.325824+00:00",
+    "actor": "apify/facebook-posts-scraper",
+    "run_id": "OnABRgT8GG6hNCFZ1",
+    "status": "SUCCEEDED",
+    "source_ids": [
+      "fb_siriusharp",
+      "fb_judys_harmonica_ensemble",
+      "fb_punch_harp",
+      "fb_rhapsodyharmonicaensemble",
+      "fb_harmonicasymphony"
+    ],
+    "results_limit": 5,
+    "days_back": 7,
+    "local_max_post_age_days": 7,
+    "max_items": 5,
+    "max_total_charge_usd": 0.04,
+    "reserved_usd": 0.04,
+    "usage_total_usd": 0.022,
+    "platform_usage_total_usd": 0.022,
+    "remote_monthly_usage_before_usd": 0.1480855179428026,
+    "remote_monthly_usage_after_usd": 0.14808605531592817,
+    "remote_usage_delta_usd": 1e-06,
+    "dataset_item_count": 5,
+    "actor_error_item_count": 4,
+    "item_count": 1,
+    "dropped_old_rows": 0,
+    "dropped_undated_rows": 0,
+    "new_inbox_rows": 1,
+    "error_count": 0
+  },
+  "new_rows": [
+    {
+      "account": "Punch.Harp",
+      "image_url": "https://scontent.find1-1.fna.fbcdn.net/v/t39.30808-6/725860796_1514156897391224_1825363827360843025_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=27J_p0iLh5kQ7kNvwEZTuY_&_nc_oc=AdprffsCH4vkAhGuaJGC3CCAvsK1LzP9zTDQ111oOqoGWhnW8z0Ko64cf7pTvTz9GPY&_nc_zt=23&_nc_ht=scontent.find1-1.fna&_nc_gid=U8fBUOU0hDWoW7Yby5SHlg&_nc_ss=72289&oh=00_Af-Y1Ml6WqoQ3CoygBER7XtG2PW6QpfL9xUEsa2gFvNJWQ&oe=6A406B9E",
+      "images": [
+        "https://scontent.find1-1.fna.fbcdn.net/v/t39.30808-6/725860796_1514156897391224_1825363827360843025_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=27J_p0iLh5kQ7kNvwEZTuY_&_nc_oc=AdprffsCH4vkAhGuaJGC3CCAvsK1LzP9zTDQ111oOqoGWhnW8z0Ko64cf7pTvTz9GPY&_nc_zt=23&_nc_ht=scontent.find1-1.fna&_nc_gid=U8fBUOU0hDWoW7Yby5SHlg&_nc_ss=72289&oh=00_Af-Y1Ml6WqoQ3CoygBER7XtG2PW6QpfL9xUEsa2gFvNJWQ&oe=6A406B9E",
+        "https://scontent.find1-1.fna.fbcdn.net/v/t39.30808-6/725649503_1514156877391226_4351565282508247928_n.jpg?stp=dst-jpg_tt6&cstp=mx763x1072&ctp=p417x417&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Iz7lNEDj_KsQ7kNvwFjNnIV&_nc_oc=AdpGYlcdMyM4Jn2qcJyjNs7kJEbMsv1MEls40EdfkzTlUGozbMh-LaNI7jH_aQ-tFuU&_nc_zt=23&_nc_ht=scontent.find1-1.fna&_nc_gid=U8fBUOU0hDWoW7Yby5SHlg&_nc_ss=72289&oh=00_Af-9h_3QwcqVJCmCdrWp8d084gE3_my_Y3UqIkDl9m1fEw&oe=6A407F4E"
+      ],
+      "platform": "facebook",
+      "post_id": "1514229734050607",
+      "posted_at": "2026-06-19T09:01:03.000Z",
+      "raw_source": "apify/facebook-posts-scraper",
+      "source_avatar_url": "https://scontent.find1-1.fna.fbcdn.net/v/t39.30808-1/306089315_495862175887373_2060476016251702140_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx800x800&ctp=s50x50&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=bzDqOTrmCNwQ7kNvwEf5BAe&_nc_oc=Adps39L_SXWD8cDuR1qLe6cN8XyyiMfT_byn_BbJTISEt8HiL-ZdDt_wW6WrFIbavRs&_nc_zt=24&_nc_ht=scontent.find1-1.fna&_nc_gid=U8fBUOU0hDWoW7Yby5SHlg&_nc_ss=72289&oh=00_Af-9HeXo0vybS9pVvbfz_DUfDbq3UiunyFtYMV_ZSYh9fg&oe=6A406FFC",
+      "source_id": "fb_punch_harp",
+      "source_name": "Punch Harmonica Ensemble",
+      "text": "【下週演出】- 武陵富野度假村\n大家好，首先祝大家端午節快樂！\n祝福大家都能在連假期間享受好天氣、好心情，度過愉快的端午佳節😁\n經過五月份的沉澱與準備，胖擊將於下週前往武陵富野渡假村-臺中市合法旅館216號演出，第一次到訪武陵的我們非常期待🥰\n在好山好水的環境中，希望能透過口琴音樂，陪伴大家一起享受一段輕鬆愜意的美好時光，下周見！\n- - - -\n🎶高山音樂會\n時間：115/6/26－6/28｜20:30-21:30\n地點：2F展演廳\nhttps://www.facebook.com/Punch.Harp/posts/pfbid0kaFrK3SZX9TU15oWjRSVgv2qqGLAYqUJLYBmjBqFEizjaoERY5U7E7tRDuyjfMykl",
+      "url": "https://www.facebook.com/Punch.Harp/posts/pfbid0kaFrK3SZX9TU15oWjRSVgv2qqGLAYqUJLYBmjBqFEizjaoERY5U7E7tRDuyjfMykl"
+    }
+  ],
+  "actor_error_items": [
+    {
+      "inputUrl": "https://facebook.com/HarmonicaSymphony",
+      "error": "no_items",
+      "errorDescription": "Empty or private data for provided input"
+    },
+    {
+      "inputUrl": "https://facebook.com/SiriusHarp",
+      "error": "no_items",
+      "errorDescription": "Empty or private data for provided input"
+    },
+    {
+      "inputUrl": "https://facebook.com/RhapsodyHarmonicaEnsemble",
+      "error": "no_items",
+      "errorDescription": "Empty or private data for provided input"
+    },
+    {
+      "inputUrl": "https://facebook.com/Judys.Harmonica.Ensemble",
+      "error": "no_items",
+      "errorDescription": "Empty or private data for provided input"
+    }
+  ],
+  "errors": []
+}
+{
+  "new_relevant_posts": [
+    {
+      "key": "fb_punch_harp:1514229734050607",
+      "source_id": "fb_punch_harp",
+      "source_name": "Punch Harmonica Ensemble",
+      "platform": "facebook",
+      "account": "Punch.Harp",
+      "post_id": "1514229734050607",
+      "posted_at": "2026-06-19T09:01:03.000Z",
+      "url": "https://www.facebook.com/Punch.Harp/posts/pfbid0kaFrK3SZX9TU15oWjRSVgv2qqGLAYqUJLYBmjBqFEizjaoERY5U7E7tRDuyjfMykl",
+      "media_type": "",
+      "images": [
+        "https://scontent.find1-1.fna.fbcdn.net/v/t39.30808-6/725860796_1514156897391224_1825363827360843025_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=27J_p0iLh5kQ7kNvwEZTuY_&_nc_oc=AdprffsCH4vkAhGuaJGC3CCAvsK1LzP9zTDQ111oOqoGWhnW8z0Ko64cf7pTvTz9GPY&_nc_zt=23&_nc_ht=scontent.find1-1.fna&_nc_gid=U8fBUOU0hDWoW7Yby5SHlg&_nc_ss=72289&oh=00_Af-Y1Ml6WqoQ3CoygBER7XtG2PW6QpfL9xUEsa2gFvNJWQ&oe=6A406B9E",
+        "https://scontent.find1-1.fna.fbcdn.net/v/t39.30808-6/725649503_1514156877391226_4351565282508247928_n.jpg?stp=dst-jpg_tt6&cstp=mx763x1072&ctp=p417x417&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Iz7lNEDj_KsQ7kNvwFjNnIV&_nc_oc=AdpGYlcdMyM4Jn2qcJyjNs7kJEbMsv1MEls40EdfkzTlUGozbMh-LaNI7jH_aQ-tFuU&_nc_zt=23&_nc_ht=scontent.find1-1.fna&_nc_gid=U8fBUOU0hDWoW7Yby5SHlg&_nc_ss=72289&oh=00_Af-9h_3QwcqVJCmCdrWp8d084gE3_my_Y3UqIkDl9m1fEw&oe=6A407F4E"
+      ],
+      "image_url": "https://scontent.find1-1.fna.fbcdn.net/v/t39.30808-6/725860796_1514156897391224_1825363827360843025_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=27J_p0iLh5kQ7kNvwEZTuY_&_nc_oc=AdprffsCH4vkAhGuaJGC3CCAvsK1LzP9zTDQ111oOqoGWhnW8z0Ko64cf7pTvTz9GPY&_nc_zt=23&_nc_ht=scontent.find1-1.fna&_nc_gid=U8fBUOU0hDWoW7Yby5SHlg&_nc_ss=72289&oh=00_Af-Y1Ml6WqoQ3CoygBER7XtG2PW6QpfL9xUEsa2gFvNJWQ&oe=6A406B9E",
+      "source_avatar_url": "https://scontent.find1-1.fna.fbcdn.net/v/t39.30808-1/306089315_495862175887373_2060476016251702140_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx800x800&ctp=s50x50&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=bzDqOTrmCNwQ7kNvwEf5BAe&_nc_oc=Adps39L_SXWD8cDuR1qLe6cN8XyyiMfT_byn_BbJTISEt8HiL-ZdDt_wW6WrFIbavRs&_nc_zt=24&_nc_ht=scontent.find1-1.fna&_nc_gid=U8fBUOU0hDWoW7Yby5SHlg&_nc_ss=72289&oh=00_Af-9HeXo0vybS9pVvbfz_DUfDbq3UiunyFtYMV_ZSYh9fg&oe=6A406FFC",
+      "text": "【下週演出】- 武陵富野度假村\n大家好，首先祝大家端午節快樂！\n祝福大家都能在連假期間享受好天氣、好心情，度過愉快的端午佳節😁\n經過五月份的沉澱與準備，胖擊將於下週前往武陵富野渡假村-臺中市合法旅館216號演出，第一次到訪武陵的我們非常期待🥰\n在好山好水的環境中，希望能透過口琴音樂，陪伴大家一起享受一段輕鬆愜意的美好時光，下周見！\n- - - -\n🎶高山音樂會\n時間：115/6/26－6/28｜20:30-21:30\n地點：2F展演廳\nhttps://www.facebook.com/Punch.Harp/posts/pfbid0kaFrK3SZX9TU15oWjRSVgv2qqGLAYqUJLYBmjBqFEizjaoERY5U7E7tRDuyjfMykl",
+      "raw_source": "apify/facebook-posts-scraper",
+      "matched_keywords": [
+        "口琴",
+        "音樂會",
+        "演出"
+      ]
+    }
+  ],
+  "skipped_old_posts": 0,
+  "errors": []
+}
+Wrote site/data/site-data.js with 114 public entries
+{
+  "updates": 25,
+  "categorized_updates": {
+    "events": 12,
+    "posts-videos": 25,
+    "student-clubs": 7,
+    "opportunities": 2
+  },
+  "sources": 114,
+  "updates_feed": "/Users/skyhong/Documents/Harmonica-in-Taiwan/site/feeds/updates.xml",
+  "sources_feed": "/Users/skyhong/Documents/Harmonica-in-Taiwan/site/feeds/sources.xml"
+}
+{
+  "config": "/Users/skyhong/Documents/Harmonica-in-Taiwan/data/feeds/social_sources.json",
+  "written": true,
+  "sources_total": 160,
+  "generated_candidates": 143,
+  "generated_added": 134,
+  "facebook_sources": 76,
+  "youtube_sources": 67
+}
+{
+  "ok": true,
+  "record": {
+    "started_at": "2026-06-23T15:57:27.608734+00:00",
+    "finished_at": "2026-06-23T15:57:34.465219+00:00",
+    "source_ids": [
+      "yt_thmc6470",
+      "yt_siriusharp",
+      "yt_judysharmonicaensemble",
+      "yt_punchharp",
+      "yt_pokaiho"
+    ],
+    "new_inbox_rows": 0,
+    "error_count": 0
+  },
+  "new_rows": [],
+  "errors": []
+}
+Wrote site/data/site-data.js with 114 public entries
+{
+  "written": true,
+  "new_rows": 0,
+  "source_backfills": 0,
+  "directory_backfills": 0,
+  "inbox": "/Users/skyhong/Documents/Harmonica-in-Taiwan/data/feeds/social_feed_inbox.jsonl",
+  "candidates": "/Users/skyhong/Documents/Harmonica-in-Taiwan/data/feeds/social_candidates.jsonl"
+}
+Wrote site/data/site-data.js with 114 public entries
+{
+  "updates": 50,
+  "categorized_updates": {
+    "events": 50,
+    "posts-videos": 50,
+    "student-clubs": 50,
+    "opportunities": 23
+  },
+  "sources": 114,
+  "updates_feed": "/Users/skyhong/Documents/Harmonica-in-Taiwan/site/feeds/updates.xml",
+  "sources_feed": "/Users/skyhong/Documents/Harmonica-in-Taiwan/site/feeds/sources.xml"
+}
+OK: 159/159 social sources and 114/114 directory entries covered.
+{
+  "config": "/Users/skyhong/Documents/Harmonica-in-Taiwan/data/feeds/social_sources.json",
+  "written": true,
+  "sources_total": 160,
+  "generated_candidates": 143,
+  "generated_added": 134,
+  "facebook_sources": 76,
+  "youtube_sources": 67
+}
+{
+  "ok": true,
+  "record": {
+    "started_at": "2026-06-23T17:57:42.919886+00:00",
+    "finished_at": "2026-06-23T17:57:49.312624+00:00",
+    "source_ids": [
+      "yt_849af81509",
+      "yt_jangliharmonica",
+      "yt_ucq7wiztevpndeaaj6rdxzea",
+      "yt_mandy730508",
+      "yt_harpdonuts"
+    ],
+    "new_inbox_rows": 0,
+    "error_count": 0
+  },
+  "new_rows": [],
+  "errors": []
+}
+Wrote site/data/site-data.js with 114 public entries
+{
+  "written": true,
+  "new_rows": 0,
+  "source_backfills": 0,
+  "directory_backfills": 0,
+  "inbox": "/Users/skyhong/Documents/Harmonica-in-Taiwan/data/feeds/social_feed_inbox.jsonl",
+  "candidates": "/Users/skyhong/Documents/Harmonica-in-Taiwan/data/feeds/social_candidates.jsonl"
+}
+Wrote site/data/site-data.js with 114 public entries
+{
+  "updates": 50,
+  "categorized_updates": {
+    "events": 50,
+    "posts-videos": 50,
+    "student-clubs": 50,
+    "opportunities": 23
+  },
+  "sources": 114,
+  "updates_feed": "/Users/skyhong/Documents/Harmonica-in-Taiwan/site/feeds/updates.xml",
+  "sources_feed": "/Users/skyhong/Documents/Harmonica-in-Taiwan/site/feeds/sources.xml"
+}
+OK: 159/159 social sources and 114/114 directory entries covered.
+{
+  "config": "/Users/skyhong/Documents/Harmonica-in-Taiwan/data/feeds/social_sources.json",
+  "written": true,
+  "sources_total": 160,
+  "generated_candidates": 143,
+  "generated_added": 134,
+  "facebook_sources": 76,
+  "youtube_sources": 67
+}
+{
+  "ok": true,
+  "record": {
+    "started_at": "2026-06-23T18:23:36.719367+00:00",
+    "finished_at": "2026-06-23T18:23:41.218037+00:00",
+    "source_ids": [
+      "yt_mrwhyofficialchannel",
+      "yt_f959d2cfb1",
+      "yt_ucvhln_2awpljqbfo_9apatw",
+      "yt_ucycpsbkpva9oaaaqcrjcvza",
+      "yt_upsidedownharmonicaensemble"
+    ],
+    "new_inbox_rows": 0,
+    "error_count": 0
+  },
+  "new_rows": [],
+  "errors": []
+}
+{
+  "ok": true,
+  "record": {
+    "started_at": "2026-06-23T18:23:42.107858+00:00",
+    "finished_at": "2026-06-23T18:25:03.089171+00:00",
+    "actor": "apify/facebook-posts-scraper",
+    "run_id": "9lG9GOyicc05u5tzs",
+    "status": "SUCCEEDED",
+    "source_ids": [
+      "fb_ntubluesound",
+      "fb_ntnu_harmonica",
+      "fb_ncku_harmonica",
+      "fb_nthuharmonica",
+      "fb_fcu_harmonica",
+      "fb_nutc_harmonica",
+      "fb_csmu_bmharmonica",
+      "fb_nkustharmonica",
+      "fb_mcumingxin",
+      "fb_twharmonica",
+      "fb_siriusharp",
+      "fb_judys_harmonica_ensemble",
+      "fb_punch_harp",
+      "fb_rhapsodyharmonicaensemble",
+      "fb_harmonicasymphony",
+      "fb_tcharmonicaa",
+      "fb_jang_li_harmonica",
+      "fb_harmonicalin",
+      "fb_6d6569291f",
+      "fb_harpdonuts",
+      "fb_mr_whywhy",
+      "fb_harmonicaisdifficultorchestra",
+      "fb_dr_blueharmonica",
+      "fb_111triotaiwan",
+      "fb_ab771e2fae",
+      "fb_philharmonica_fans",
+      "fb_brainhorizonharp",
+      "fb_laelapsharmonica",
+      "fb_peacetones_harmonica",
+      "fb_theduet_music",
+      "fb_dming_tsai",
+      "fb_chaotengchang",
+      "fb_emerychen_cm",
+      "fb_aria0831",
+      "fb_chuti_chuang",
+      "fb_oulingou",
+      "fb_markwu_bandoneon",
+      "fb_aidennevelyn",
+      "fb_cyleoharmonica",
+      "fb_kelvinleungsh",
+      "fb_rei_yamashita_5",
+      "fb_100091746706247",
+      "fb_harmonicapark",
+      "fb_hoontobe",
+      "fb_marcoscollharp",
+      "fb_gordonleeharmonicist",
+      "fb_fatamorganamusic",
+      "fb_61550868336289",
+      "fb_61574004532712",
+      "fb_opentixntch",
+      "fb_culture_hccg",
+      "fb_hchcc_gov",
+      "fb_nycuartscenter",
+      "fb_weiwuyingcenterforthearts",
+      "fb_ntch_tw",
+      "fb_npac_ntt",
+      "fb_musixkhs",
+      "fb_music4fun_com_tw",
+      "fb_fromharmonicatomusic",
+      "fb_yellowstone_music_shop_tw",
+      "fb_db280c7702",
+      "fb_happyharmonica",
+      "fb_babaharmonica",
+      "fb_anafternoonwithharmonica",
+      "fb_taipeiyellowstoneharmonicaensemble",
+      "fb_harmonicadrumrhapsody",
+      "fb_redbricksharmonica",
+      "fb_duovolce",
+      "fb_weissenberg_harmonicas",
+      "fb_425623100793432",
+      "fb_harmonikahkean",
+      "fb_tcfsh_harmonica",
+      "fb_hsnucozy",
+      "fb_2d5dec5672",
+      "fb_kshsharmonicaclub",
+      "fb_tnfsh107harmonica"
+    ],
+    "results_limit": 5,
+    "days_back": 7,
+    "local_max_post_age_days": 7,
+    "max_items": 380,
+    "max_total_charge_usd": null,
+    "actor_spend_cap_usd": 0.455,
+    "reserved_usd": 0.0,
+    "usage_total_usd": 0.449,
+    "platform_usage_total_usd": 0.449,
+    "remote_monthly_usage_before_usd": 0.23913041259191334,
+    "remote_monthly_usage_after_usd": 0.5691341535284312,
+    "remote_usage_delta_usd": 0.330004,
+    "dataset_item_count": 64,
+    "actor_error_item_count": 30,
+    "item_count": 34,
+    "dropped_old_rows": 0,
+    "dropped_undated_rows": 0,
+    "new_inbox_rows": 32,
+    "error_count": 0
+  },
+  "new_rows": [
+    {
+      "account": "weiwuyingcenterforthearts",
+      "image_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/728457539_2497355120739332_8869702315250174729_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=WCDfl4odaxwQ7kNvwGJzS-w&_nc_oc=AdqpJbYVNF9v8d_jIjaJ0_NfL8tQ9o7PMnoZs6-htE4jl1qRm6rYID-20Zzxa377VO4&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=G27Jma9TayRng3tnsSRdbw&_nc_ss=72289&oh=00_Af8bZH_97ujlLv3iQBSmLkF0yPhzNSQ10hPQ7P9yAfQNzA&oe=6A40B4BB",
+      "images": [
+        "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/728457539_2497355120739332_8869702315250174729_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=WCDfl4odaxwQ7kNvwGJzS-w&_nc_oc=AdqpJbYVNF9v8d_jIjaJ0_NfL8tQ9o7PMnoZs6-htE4jl1qRm6rYID-20Zzxa377VO4&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=G27Jma9TayRng3tnsSRdbw&_nc_ss=72289&oh=00_Af8bZH_97ujlLv3iQBSmLkF0yPhzNSQ10hPQ7P9yAfQNzA&oe=6A40B4BB"
+      ],
+      "platform": "facebook",
+      "post_id": "1503478418236840",
+      "posted_at": "2026-06-23T09:59:02.000Z",
+      "raw_source": "apify/facebook-posts-scraper",
+      "source_avatar_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/322960292_574438574523847_7695991356560052534_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1111x1111&ctp=s50x50&_nc_cat=102&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=DTHlreEok6kQ7kNvwF-qnnE&_nc_oc=AdpzrElLIzds9UQRT4BMZYxC80jXnp5mPpQzrQLHOXYPZTzEmrG8frGVjBsgM9cerEQ&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=G27Jma9TayRng3tnsSRdbw&_nc_ss=72289&oh=00_Af8aot1fFAf3ITY9zpelPTAYc47q304T8QldDGCasfCSZA&oe=6A408728",
+      "source_id": "fb_weiwuyingcenterforthearts",
+      "source_display_name": "weiwuyingcenterforthearts",
+      "source_name": "衛武營國家藝術文化中心",
+      "source_profile_url": "https://facebook.com/weiwuyingcenterforthearts",
+      "text": "亞歷山大．李維《Miedka：野性面容》\n一段人與熊的相遇，一場跨越物種的生命體驗 🐻\n​\n​\n2015 年，法國人類學家娜塔斯佳．馬汀於堪察加半島遭遇熊襲。這場真實事件，成為了歌劇《Miedka：野性面容》的起點。\n​\n作曲家亞歷山大．李維將這段生命衝擊轉化為樂章，揉合人聲、動物聲與有機的聲音紋理，並結合參與式合唱團，邀請觀眾走進一場身歷其境的感官體驗。\n​\n⠀\n—— 亞歷山大．李維《Miedka：野性面容》🐻 ——\n10/03（六）14:30 衛武營表演廳\n票價 NTD 800\n🎟️ https://npacwwy.tw/en01bmAB3\n​\n​\n特別感謝｜Bureau Français de Taipei - 法國在台協會\nhttps://www.facebook.com/photo/?fbid=1503478378236844&set=a.722117363039620",
+      "url": "https://www.facebook.com/weiwuyingcenterforthearts/posts/pfbid036Lk46C7LGs3eE8VRcHvkAwKAHzrCRiMPt8FGx7AyEAueqLV1Mrw87sEcWq9SnAPdl"
+    },
+    {
+      "account": "weiwuyingcenterforthearts",
+      "image_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.99422-6/729467044_1557774759123349_606437553936196263_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GU0uazCx0yIQ7kNvwHqu19b&_nc_oc=AdrHaWvtrB7hJSAE5PuiPHIxjmBBgBZPkZwNdkSehPiGEBYK8EDfPmT7-Pp7qftMDto&_nc_zt=14&_nc_ht=scontent-sea1-1.xx&_nc_gid=G27Jma9TayRng3tnsSRdbw&_nc_ss=72289&oh=00_Af9ejsT3EcxLv9hJVakofjgYrtSas3g4l-mjKE9DYOvDEw&oe=6A40AFFC",
+      "images": [
+        "https://scontent-sea1-1.xx.fbcdn.net/v/t39.99422-6/729467044_1557774759123349_606437553936196263_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GU0uazCx0yIQ7kNvwHqu19b&_nc_oc=AdrHaWvtrB7hJSAE5PuiPHIxjmBBgBZPkZwNdkSehPiGEBYK8EDfPmT7-Pp7qftMDto&_nc_zt=14&_nc_ht=scontent-sea1-1.xx&_nc_gid=G27Jma9TayRng3tnsSRdbw&_nc_ss=72289&oh=00_Af9ejsT3EcxLv9hJVakofjgYrtSas3g4l-mjKE9DYOvDEw&oe=6A40AFFC",
+        "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/730498094_1018732027205466_439860336887640384_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=186jI_JRXSMQ7kNvwFUIJrM&_nc_oc=Adq5zHhpTrc9_EWhSx0DwHZ7LJMFWFog1FgTzvX_TD9T9tcKCsmW3Ld1UcchfFbLJiw&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=G27Jma9TayRng3tnsSRdbw&_nc_ss=72289&oh=00_Af-cgXNkn1s4j9-BahhqhcbMCxasXeMfBFnrSkZxvZr4OQ&oe=6A408CAD",
+        "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/727904339_1001485625803634_487603115584756634_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wZ2CAIV_fb0Q7kNvwGnqkmb&_nc_oc=AdroGjffOJhc9x51V8R3dfUSp0jD28bFGk6q5ALi9CRX9HAMN0YsvA7InOBHi_2-iXI&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=G27Jma9TayRng3tnsSRdbw&_nc_ss=72289&oh=00_Af9zLuCIp0mhybF2HdBitI4Hk3KulgtNamTPGshphx_lKQ&oe=6A40A7FA",
+        "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/730491452_1677390953481589_496563280731784562_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=49uWuwii7B0Q7kNvwH9sfSy&_nc_oc=AdpC_c0zuNlL_yYpQoEmMIxpUbRmXnzmCPwmxD-SQC0L-y0OmH044xWyjeGqPlnGwhQ&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=G27Jma9TayRng3tnsSRdbw&_nc_ss=72289&oh=00_Af8YMFP931dZW3RzJpPvJQoeycFYfAh_960GKyATOJkraQ&oe=6A4089FE",
+        "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/730481190_1998771954847301_5196175102408445650_n.png?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mMNf8WPy2N4Q7kNvwFcozPx&_nc_oc=Adrr4XVipBqdQnpILM84vnNxLHihbvzYngia9LyjTcMa1uEOti0xvi8lXIn_d6w8MCg&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=G27Jma9TayRng3tnsSRdbw&_nc_ss=72289&oh=00_Af9xVOlviVqPGCp2JokjAw4VPNqKVS54dHGR3BitGuZ8Cw&oe=6A409360"
+      ],
+      "platform": "facebook",
+      "post_id": "1503232384928110",
+      "posted_at": "2026-06-23T02:59:02.000Z",
+      "raw_source": "apify/facebook-posts-scraper",
+      "source_avatar_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/322960292_574438574523847_7695991356560052534_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1111x1111&ctp=s50x50&_nc_cat=102&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=DTHlreEok6kQ7kNvwF-qnnE&_nc_oc=AdpzrElLIzds9UQRT4BMZYxC80jXnp5mPpQzrQLHOXYPZTzEmrG8frGVjBsgM9cerEQ&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=G27Jma9TayRng3tnsSRdbw&_nc_ss=72289&oh=00_Af8aot1fFAf3ITY9zpelPTAYc47q304T8QldDGCasfCSZA&oe=6A408728",
+      "source_id": "fb_weiwuyingcenterforthearts",
+      "source_display_name": "weiwuyingcenterforthearts",
+      "source_name": "衛武營國家藝術文化中心",
+      "source_profile_url": "https://facebook.com/weiwuyingcenterforthearts",
+      "text": "2026 花露露童樂節．周邊玩法＆限定商品大公開 .ᐟ.ᐟ\n​\n​\n市集探險 ✕ 現地創意工作坊 ✕ 永續小任務\n𝟰 卡會員回館禮、 𝟰 款新商品，等你帶回家！\n⠀\n花露露的童樂節，一起來收集屬於夏日的回憶 🌻\n​\n​\n2026 花露露的童樂節：出發吧，探險隊！\n7/4 ➛ 7/19 ​ 最難忘的暑假在這裡\n詳情｜https://npacwwy.tw/en16zeuEj\n​\n⠀\n主要贊助｜富邦集團、高都汽車 TOYOTA\n藝文支持｜聚和國際、台灣福興文教基金會\nhttps://www.facebook.com/weiwuyingcenterforthearts/posts/pfbid06DKSzraz1UrBDjB13ytJZHCJPSFodfu9WT9mqv21Bp4PX67Yi3KLKfC3xEdH6yA7l",
+      "url": "https://www.facebook.com/weiwuyingcenterforthearts/posts/pfbid06DKSzraz1UrBDjB13ytJZHCJPSFodfu9WT9mqv21Bp4PX67Yi3KLKfC3xEdH6yA7l"
+    },
+    {
+      "account": "weiwuyingcenterforthearts",
+      "image_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/726200937_37018699697721177_2409418883425878208_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s640x640&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=RYxALz5ORpUQ7kNvwHPQC-B&_nc_oc=Adrg7YpvTfeIg31uWM1G4Ea25GDwDcuT7SHQ0-AQ47RRi7qaeL5N0ze_Bcha6xj1hRM&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=G27Jma9TayRng3tnsSRdbw&_nc_ss=72289&oh=00_Af9hBBmncx1hQm-6asuwpId7ScyMCXQTzVrLQQU767LTLg&oe=6A409654",
+      "images": [
+        "https://scontent-sea5-1.xx.fbcdn.net/v/t39.99422-6/726200937_37018699697721177_2409418883425878208_n.png?stp=dst-jpg_tt6&cstp=mx1638x2048&ctp=s640x640&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=RYxALz5ORpUQ7kNvwHPQC-B&_nc_oc=Adrg7YpvTfeIg31uWM1G4Ea25GDwDcuT7SHQ0-AQ47RRi7qaeL5N0ze_Bcha6xj1hRM&_nc_zt=14&_nc_ht=scontent-sea5-1.xx&_nc_gid=G27Jma9TayRng3tnsSRdbw&_nc_ss=72289&oh=00_Af9hBBmncx1hQm-6asuwpId7ScyMCXQTzVrLQQU767LTLg&oe=6A409654"
+      ],
+      "platform": "facebook",
+      "post_id": "1502611411656874",
+      "posted_at": "2026-06-22T09:59:03.000Z",
+      "raw_source": "apify/facebook-posts-scraper",
+      "source_avatar_url": "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-1/322960292_574438574523847_7695991356560052534_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1111x1111&ctp=s50x50&_nc_cat=102&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=DTHlreEok6kQ7kNvwF-qnnE&_nc_oc=AdpzrElLIzds9UQRT4BMZYxC80jXnp5mPpQzrQLHOXYPZTzEmrG8frGVjBsgM9cerEQ&_nc_zt=24&_nc_ht=scontent-sea5-1.xx&_nc_gid=G27Jma9TayRng3tnsSRdbw&_nc_ss=72289&oh=00_Af8aot1fFAf3ITY9zpelPTAYc47q304T8QldDGCasfCSZA&oe=6A408728",
+      "source_id": "fb_weiwuyingcenterforthearts",
+      "source_display_name": "weiwuyingcenterforthearts",
+      "source_name": "衛武營國家藝術文化中心",
+      "source_profile_url": "https://facebook.com/weiwuyingcenterforthearts",
+      "text": "賽門．拉圖爵士與巴伐利亞廣播交響樂團\n限量席次加開販售中，請留意 OPENTIX 售票資訊 🎫✨\n​\n​\n感謝樂迷熱烈支持，賽門．拉圖爵士與巴伐利亞廣播交響樂團正式啟售後迅速完售。為回應更多觀眾期待，限量加開席次販售，邀請您把握難得機會，親臨衛武營音樂廳。\n​\n✷ 加開席次購票須知 ✷\n本次加開席次包含部分特殊區域，購票前請詳閱以下說明並斟酌選購：\n➛ 管風琴聲響過大區：座位鄰近管風琴，於本節目部分使用管風琴演奏之段落時現場音量會較大且震撼。\n➛ 合唱席：聲樂演唱段落期間，將無法觀看同步字幕。\n​\n​\n—— 賽門．拉圖爵士與巴伐利亞廣播交響樂團 ——\n11/15（日）19:00 衛武營音樂廳\n🎫 席次加開販售中 https://npacwwy.tw/en01pRzi2\n​🎟️ 實際售票狀況，請依 OPENTIX 售票系統資訊為主；席次可能隨退票與異動即時更新。\n​\n獨家贊助：柯珀汝\nhttps://www.facebook.com/photo/?fbid=1502611378323544&set=a.722117363039620",
+      "url": "https://www.facebook.com/weiwuyingcenterforthearts/posts/pfbid0ymPAEw7bgDHLtje9vAyu5JpZFpH5NdhgnMdfZaywtxb1cvHXJfLqfzVMRHKyUph2l"
+    },
+    {
+      "account": "npac.ntt",
+      "image_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.99422-6/729769264_1658357138572043_6217710360845479768_n.png?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=_svycOBaja4Q7kNvwHYPPIB&_nc_oc=AdoG8EYrlW0s5aED7vzdLecB8reGZ5fUcwfsrOSzr4fSGRYBr4dftXGgahOcTqCGGHM&_nc_zt=14&_nc_ht=scontent-atl3-3.xx&_nc_gid=3ovAOXW_jYcM9FYKieQ_ng&_nc_ss=72289&oh=00_Af-onOFYBFX4qxVKbQFaGcR3y8QymD9R8GSkwCpEqxiukg&oe=6A40A95D",
+      "images": [
+        "https://scontent-atl3-3.xx.fbcdn.net/v/t39.99422-6/729769264_1658357138572043_6217710360845479768_n.png?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=_svycOBaja4Q7kNvwHYPPIB&_nc_oc=AdoG8EYrlW0s5aED7vzdLecB8reGZ5fUcwfsrOSzr4fSGRYBr4dftXGgahOcTqCGGHM&_nc_zt=14&_nc_ht=scontent-atl3-3.xx&_nc_gid=3ovAOXW_jYcM9FYKieQ_ng&_nc_ss=72289&oh=00_Af-onOFYBFX4qxVKbQFaGcR3y8QymD9R8GSkwCpEqxiukg&oe=6A40A95D",
+        "https://scontent-atl3-1.xx.fbcdn.net/v/t39.99422-6/728619222_1497397418535665_7764966261243967712_n.png?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=uk0igZ98I7wQ7kNvwFyLLVC&_nc_oc=Adp3c0S7Ks3O_gU-WCzLekPB0gVgtTc4sQMtUY8so5bRLDnGFfuMe5utOQZDStp90jQ&_nc_zt=14&_nc_ht=scontent-atl3-1.xx&_nc_gid=3ovAOXW_jYcM9FYKieQ_ng&_nc_ss=72289&oh=00_Af9WGkhzvM1R1s35YtAq7OX4p0gvbOECR_eW7jIBKukouw&oe=6A4095A6",
+        "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/728569701_1696943231598794_5018595206045636466_n.png?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=00PHtgHyaMcQ7kNvwFLzVOg&_nc_oc=AdrRjgcvkoJrg0NBdC_UdeDEAdOx0HkEzyXS1alEU90kKAudEyZq706U1-hsMQdorhI&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=3ovAOXW_jYcM9FYKieQ_ng&_nc_ss=72289&oh=00_Af8m3dBGNd6WnEkBRNSaJkDyVRxJ04U0q4tW36pnFo5T9Q&oe=6A408C4F",
+        "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/728025290_1369164855110745_5457912926968002849_n.png?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=2BzseGk79poQ7kNvwFMQTu6&_nc_oc=Adr_aDs4WZfEG0X45mkYiK6SpR3EdufbBiWI4FYwype1hg7ueq4jNR_kmnrjBNn3nEw&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=3ovAOXW_jYcM9FYKieQ_ng&_nc_ss=72289&oh=00_Af9M0ugVQhcoytVQ1O9pat1Clj42Zfp9TZ8cc_2AbKmfJA&oe=6A409D2A"
+      ],
+      "platform": "facebook",
+      "post_id": "1623228366513866",
+      "posted_at": "2026-06-23T13:00:08.000Z",
+      "raw_source": "apify/facebook-posts-scraper",
+      "source_avatar_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/278685187_1967297283455274_1418491058384737384_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1250x1250&ctp=s50x50&_nc_cat=103&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=0JS5gw0IMywQ7kNvwFaMgLE&_nc_oc=AdqkUC3JB5-a3fLgyam2bjTRr5CEgKzj70xj6Cj7FnSu90bVzGyeB-HeofSVZcGp01c&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=3ovAOXW_jYcM9FYKieQ_ng&_nc_ss=72289&oh=00_Af9RAQ8-2_G4gIh9pkIALQgXlVAa_--PRcH8hTlD9TkQdQ&oe=6A40A74E",
+      "source_id": "fb_npac_ntt",
+      "source_display_name": "npac.ntt",
+      "source_name": "臺中國家歌劇院",
+      "source_profile_url": "https://facebook.com/npac.ntt",
+      "text": "每顆孤單的心，都在等待一個擁抱💕\n​\n每次夜裡抬頭看著天上的月亮，總覺得它好像很孤單，\n除了一片寂靜的星空陪伴，似乎就沒有更多的好朋友了。\n​\n「#你可以做我的朋友嗎？」，孤單的月亮搭著太空船，\n從外太空到深海中，不停地問著。\n​\n地球上的小鳥睡著了，貓咪睡著了，連鱷魚和鯊魚也都睡著了，\n沒有人可以成為月亮的好朋友。\n​\n該怎麼辦呢？你願意和月亮當好朋友嗎？\n還是，其實你也是月亮呢？\n➠ https://npacntt.tw/n02Vnamm\n​\n☾ ②⓪②⑥ ⓃⓉⓉ 夏日放／ⒻⓊⓃ時光 ☽\n無獨有偶工作室劇團《月亮找朋友》\n𝟖.𝟖 ㊅ ‒ 𝟖.𝟗 ㊐ │ 小劇場\n​\n照片由 無獨有偶工作室劇團 The Puppet & Its Double Theatre 提供\n攝影：林筱倩\nhttps://www.facebook.com/npac.ntt/posts/pfbid0ToCFXGkdkNVJW7KfpXM6mXQdr3MsxbeRaGMpY5RTEf1k4U4G1y6rY6HP2kWq54iul",
+      "url": "https://www.facebook.com/npac.ntt/posts/pfbid0ToCFXGkdkNVJW7KfpXM6mXQdr3MsxbeRaGMpY5RTEf1k4U4G1y6rY6HP2kWq54iul"
+    },
+    {
+      "account": "npac.ntt",
+      "image_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.99422-6/730543602_856206977149204_4321797418410075922_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=fZd9ULxYSm4Q7kNvwEjih1q&_nc_oc=AdrTxWgAuMuaytXez84syo85Tezzays7E41_s0CP5nWSr2vc6ZY_eSjNIvxH05E9mkg&_nc_zt=14&_nc_ht=scontent-atl3-3.xx&_nc_gid=3ovAOXW_jYcM9FYKieQ_ng&_nc_ss=72289&oh=00_Af8FRagmRd15mRm1LSvG9y0RYi4JcVXYJBYMlAvD87zUyA&oe=6A40993B",
+      "images": [
+        "https://scontent-atl3-3.xx.fbcdn.net/v/t39.99422-6/730543602_856206977149204_4321797418410075922_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=fZd9ULxYSm4Q7kNvwEjih1q&_nc_oc=AdrTxWgAuMuaytXez84syo85Tezzays7E41_s0CP5nWSr2vc6ZY_eSjNIvxH05E9mkg&_nc_zt=14&_nc_ht=scontent-atl3-3.xx&_nc_gid=3ovAOXW_jYcM9FYKieQ_ng&_nc_ss=72289&oh=00_Af8FRagmRd15mRm1LSvG9y0RYi4JcVXYJBYMlAvD87zUyA&oe=6A40993B"
+      ],
+      "platform": "facebook",
+      "post_id": "1623087813194588",
+      "posted_at": "2026-06-23T10:00:09.000Z",
+      "raw_source": "apify/facebook-posts-scraper",
+      "source_avatar_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/278685187_1967297283455274_1418491058384737384_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1250x1250&ctp=s50x50&_nc_cat=103&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=0JS5gw0IMywQ7kNvwFaMgLE&_nc_oc=AdqkUC3JB5-a3fLgyam2bjTRr5CEgKzj70xj6Cj7FnSu90bVzGyeB-HeofSVZcGp01c&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=3ovAOXW_jYcM9FYKieQ_ng&_nc_ss=72289&oh=00_Af9RAQ8-2_G4gIh9pkIALQgXlVAa_--PRcH8hTlD9TkQdQ&oe=6A40A74E",
+      "source_id": "fb_npac_ntt",
+      "source_display_name": "npac.ntt",
+      "source_name": "臺中國家歌劇院",
+      "source_profile_url": "https://facebook.com/npac.ntt",
+      "text": "當手語打破視聽邊界，成為一種劇場美學！\n​\n從世界各地的聾人劇場、聾聽共融演唱會，到首支K-POP聽障男團閃亮出道，手語與聽障文化正突破各種藝術型態與框架，走入大眾視野，展現前所未見的多元生命力✨\n​\n長期關注社會族群的複象公場The Double Theatre，曾以入圍台新藝術獎的《回家》3度征戰歐洲舞台、驚豔國際。自2020年起開啟以聾人、聽障族群為主體的創作計畫，包含歷時3年發展、結合手語與口語的雙語新作《#聽見你的聲音》，即將於8月下旬在臺中國家歌劇院首演✨\n​\n進劇場前，歌劇院特別邀請耿一偉教授與複象公場兩位主創李承寯、李承叡對談，共同拆解複象公場如何打破視聽邊界、發展聽障敘事的劇場美學，首度揭露新作《聽見你的聲音》的創作秘辛！\n​\n#主題講座 打破視與聽的邊界—複象公場的聾人劇場美學\n時間｜7/17(五)19:00—20:30（18:30開放入場）\n地點｜臺中國家歌劇院 角落沙龍\n主講｜國立臺北藝術大學戲劇系兼任助理教授 #耿一偉\n複象公場團長 #李承寯\n複象公場藝術總監 #李承叡\n​\n✨ACCUPASS免費報名 https://npacntt.tw/n11kVBR3\n​\n☀️𝟮𝟬𝟮𝟲 𝙉𝙏𝙏夏日放／𝙁𝙐𝙉時光☀️\n新藝計畫 複象公場《聽見你的聲音》\n𝟴/𝟮𝟮(六)𝟭𝟰:𝟯𝟬、𝟭𝟵:𝟯𝟬\n𝟴/𝟮𝟯(日)𝟭𝟰:𝟯𝟬\n📍小劇場\n​\n立即購票🔜 https://npacntt.tw/n02u6nuu\n​\n#新藝計畫 #聾聽共融 #聾人劇場 #手語 #視形傳譯 #聽見你的聲音 #複象公場\nhttps://www.facebook.com/photo/?fbid=1623087693194600&set=a.661007096069336",
+      "url": "https://www.facebook.com/npac.ntt/posts/pfbid0dpr8LgUJF3bymkgtkJF2jF8RFU2yU9UgLnrrmH6ELFCHQ3J8RAGqbVMD4jxTu5DGl"
+    }
+  ],
+  "actor_error_items": [
+    {
+      "inputUrl": "https://facebook.com/music4fun.com.tw",
+      "error": "no_items",
+      "errorDescription": "Empty or private data for provided input"
+    },
+    {
+      "inputUrl": "https://facebook.com/fromharmonicatomusic",
+      "error": "no_items",
+      "errorDescription": "Empty or private data for provided input"
+    },
+    {
+      "inputUrl": "https://facebook.com/babaharmonica",
+      "error": "no_items",
+      "errorDescription": "Empty or private data for provided input"
+    },
+    {
+      "inputUrl": "https://facebook.com/p/桃園玩口琴-100057424090624",
+      "error": "no_items",
+      "errorDescription": "Empty or private data for provided input"
+    },
+    {
+      "inputUrl": "https://facebook.com/Weissenberg.Harmonicas",
+      "error": "no_items",
+      "errorDescription": "Empty or private data for provided input"
+    },
+    {
+      "inputUrl": "https://facebook.com/harmonikahkean",
+      "error": "no_items",
+      "errorDescription": "Empty or private data for provided input"
+    },
+    {
+      "inputUrl": "https://facebook.com/tcfsh.harmonica",
+      "error": "no_items",
+      "errorDescription": "Empty or private data for provided input"
+    },
+    {
+      "inputUrl": "https://facebook.com/DuoVolce",
+      "error": "no_items",
+      "errorDescription": "Empty or private data for provided input"
+    },
+    {
+      "inputUrl": "https://facebook.com/HSNUCOZY",
+      "error": "no_items",
+      "errorDescription": "Empty or private data for provided input"
+    },
+    {
+      "inputUrl": "https://www.facebook.com/NCKU.harmonica.club/",
+      "error": "no_items",
+      "errorDescription": "Empty or private data for provided input"
+    }
+  ],
+  "errors": []
+}
+{
+  "new_relevant_posts": [
+    {
+      "key": "fb_npac_ntt:1623087813194588",
+      "source_id": "fb_npac_ntt",
+      "source_name": "臺中國家歌劇院",
+      "platform": "facebook",
+      "account": "npac.ntt",
+      "post_id": "1623087813194588",
+      "posted_at": "2026-06-23T10:00:09.000Z",
+      "url": "https://www.facebook.com/npac.ntt/posts/pfbid0dpr8LgUJF3bymkgtkJF2jF8RFU2yU9UgLnrrmH6ELFCHQ3J8RAGqbVMD4jxTu5DGl",
+      "media_type": "",
+      "images": [
+        "https://scontent-atl3-3.xx.fbcdn.net/v/t39.99422-6/730543602_856206977149204_4321797418410075922_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=fZd9ULxYSm4Q7kNvwEjih1q&_nc_oc=AdrTxWgAuMuaytXez84syo85Tezzays7E41_s0CP5nWSr2vc6ZY_eSjNIvxH05E9mkg&_nc_zt=14&_nc_ht=scontent-atl3-3.xx&_nc_gid=3ovAOXW_jYcM9FYKieQ_ng&_nc_ss=72289&oh=00_Af8FRagmRd15mRm1LSvG9y0RYi4JcVXYJBYMlAvD87zUyA&oe=6A40993B"
+      ],
+      "image_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.99422-6/730543602_856206977149204_4321797418410075922_n.png?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=fZd9ULxYSm4Q7kNvwEjih1q&_nc_oc=AdrTxWgAuMuaytXez84syo85Tezzays7E41_s0CP5nWSr2vc6ZY_eSjNIvxH05E9mkg&_nc_zt=14&_nc_ht=scontent-atl3-3.xx&_nc_gid=3ovAOXW_jYcM9FYKieQ_ng&_nc_ss=72289&oh=00_Af8FRagmRd15mRm1LSvG9y0RYi4JcVXYJBYMlAvD87zUyA&oe=6A40993B",
+      "source_avatar_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/278685187_1967297283455274_1418491058384737384_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1250x1250&ctp=s50x50&_nc_cat=103&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=0JS5gw0IMywQ7kNvwFaMgLE&_nc_oc=AdqkUC3JB5-a3fLgyam2bjTRr5CEgKzj70xj6Cj7FnSu90bVzGyeB-HeofSVZcGp01c&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=3ovAOXW_jYcM9FYKieQ_ng&_nc_ss=72289&oh=00_Af9RAQ8-2_G4gIh9pkIALQgXlVAa_--PRcH8hTlD9TkQdQ&oe=6A40A74E",
+      "text": "當手語打破視聽邊界，成為一種劇場美學！\n​\n從世界各地的聾人劇場、聾聽共融演唱會，到首支K-POP聽障男團閃亮出道，手語與聽障文化正突破各種藝術型態與框架，走入大眾視野，展現前所未見的多元生命力✨\n​\n長期關注社會族群的複象公場The Double Theatre，曾以入圍台新藝術獎的《回家》3度征戰歐洲舞台、驚豔國際。自2020年起開啟以聾人、聽障族群為主體的創作計畫，包含歷時3年發展、結合手語與口語的雙語新作《#聽見你的聲音》，即將於8月下旬在臺中國家歌劇院首演✨\n​\n進劇場前，歌劇院特別邀請耿一偉教授與複象公場兩位主創李承寯、李承叡對談，共同拆解複象公場如何打破視聽邊界、發展聽障敘事的劇場美學，首度揭露新作《聽見你的聲音》的創作秘辛！\n​\n#主題講座 打破視與聽的邊界—複象公場的聾人劇場美學\n時間｜7/17(五)19:00—20:30（18:30開放入場）\n地點｜臺中國家歌劇院 角落沙龍\n主講｜國立臺北藝術大學戲劇系兼任助理教授 #耿一偉\n複象公場團長 #李承寯\n複象公場藝術總監 #李承叡\n​\n✨ACCUPASS免費報名 https://npacntt.tw/n11kVBR3\n​\n☀️𝟮𝟬𝟮𝟲 𝙉𝙏𝙏夏日放／𝙁𝙐𝙉時光☀️\n新藝計畫 複象公場《聽見你的聲音》\n𝟴/𝟮𝟮(六)𝟭𝟰:𝟯𝟬、𝟭𝟵:𝟯𝟬\n𝟴/𝟮𝟯(日)𝟭𝟰:𝟯𝟬\n📍小劇場\n​\n立即購票🔜 https://npacntt.tw/n02u6nuu\n​\n#新藝計畫 #聾聽共融 #聾人劇場 #手語 #視形傳譯 #聽見你的聲音 #複象公場\nhttps://www.facebook.com/photo/?fbid=1623087693194600&set=a.661007096069336",
+      "raw_source": "apify/facebook-posts-scraper",
+      "matched_keywords": [
+        "報名"
+      ]
+    },
+    {
+      "key": "apify_facebook_posts:1622165133286856",
+      "source_id": "apify_facebook_posts",
+      "source_name": "Apify Facebook Posts",
+      "platform": "facebook",
+      "account": "npac.ntt",
+      "post_id": "1622165133286856",
+      "posted_at": "2026-06-22T13:01:24.000Z",
+      "url": "https://www.facebook.com/reel/2061254084477326/",
+      "media_type": "",
+      "images": [
+        "https://scontent-atl3-3.xx.fbcdn.net/v/t15.5256-10/724720399_1515930489588316_8258766282381735213_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=OqRzOnRT-CEQ7kNvwGS5dhg&_nc_oc=AdpSSZNySehkDOZ-qkhluub0Zt2lfU7OXN8v7RIyIKkfCTcyFj6Hf5qzNO9bHIObBuI&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=3ovAOXW_jYcM9FYKieQ_ng&_nc_ss=72289&oh=00_Af9-F1XDhDqam7c8sYwf72nj0FN9YcQ5FdrWvuG-vUOjEQ&oe=6A409F6B"
+      ],
+      "image_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t15.5256-10/724720399_1515930489588316_8258766282381735213_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=OqRzOnRT-CEQ7kNvwGS5dhg&_nc_oc=AdpSSZNySehkDOZ-qkhluub0Zt2lfU7OXN8v7RIyIKkfCTcyFj6Hf5qzNO9bHIObBuI&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=3ovAOXW_jYcM9FYKieQ_ng&_nc_ss=72289&oh=00_Af9-F1XDhDqam7c8sYwf72nj0FN9YcQ5FdrWvuG-vUOjEQ&oe=6A409F6B",
+      "source_avatar_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/278685187_1967297283455274_1418491058384737384_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1250x1250&ctp=s50x50&_nc_cat=103&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=0JS5gw0IMywQ7kNvwFaMgLE&_nc_oc=AdqkUC3JB5-a3fLgyam2bjTRr5CEgKzj70xj6Cj7FnSu90bVzGyeB-HeofSVZcGp01c&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=3ovAOXW_jYcM9FYKieQ_ng&_nc_ss=72289&oh=00_Af9RAQ8-2_G4gIh9pkIALQgXlVAa_--PRcH8hTlD9TkQdQ&oe=6A40A74E",
+      "text": "從頂尖舞者到解構情感的編舞家—瓦雷里歐．隆果（Valerio Longo）🩰\n​\n🌟「他展現舞蹈之外的力量與寧靜，讓觀眾看見人的核心，而非只是一位舞者」—茱麗雅．巴斯《Gazzetta di Reggio》\n​\n瓦雷里歐．隆果現為羅馬芭蕾舞團（Balletto di Roma）副藝術總監，他曾說過：「一生對藝術的追求，就是把單純的肢體動作，轉化為具有靈魂、能與觀眾對話的演出。」投入編舞超過 20 年，作品常以情感與回憶為題材，並在舞蹈、音樂與空間之中建立細膩的關係。\n​\n這次在《小花國王》中，音樂、光影與舞蹈交織，以鋼琴與吉他為主、輕透且細膩的原創音樂，以及還原繪本中鮮豔奔放色彩的影偶，讓舞者的身體成為繪本裡會呼吸的線條，帶親子觀眾走進一場尋找幸福的旅程。\n​\n👑2026夏日放／FUN時光👑\n義大利光影生活劇場╳羅馬芭蕾舞團《小花國王》\n🌷7.11(六)—7.12(日) 小劇場\n＃青年席位最後搶票機會 https://npacntt.tw/n03gA7fq\n​\n#暑假親子節目 #兒童繪本 #小花國王 #芭蕾舞 #影子戲 #義大利光影生活劇場 #羅馬芭蕾舞團\nhttps://www.facebook.com/reel/2061254084477326/",
+      "raw_source": "apify/facebook-posts-scraper",
+      "matched_keywords": [
+        "演出"
+      ]
+    },
+    {
+      "key": "fb_ntch_tw:1462594259243220",
+      "source_id": "fb_ntch_tw",
+      "source_name": "國家兩廳院",
+      "platform": "facebook",
+      "account": "ntch.tw",
+      "post_id": "1462594259243220",
+      "posted_at": "2026-06-23T12:00:07.000Z",
+      "url": "https://www.facebook.com/ntch.tw/posts/pfbid0CvYVKATkiZxbfNSxrf6BRLLYVyarseiB3n1Vjy4nNuaKAYLK2wJ57SoEXn2yhrMUl",
+      "media_type": "",
+      "images": [
+        "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/729390063_1033154379166315_2382371717332843771_n.png?stp=dst-jpg_tt6&cstp=mx2048x1366&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=bXa7VticCMkQ7kNvwEdyfUp&_nc_oc=AdpJGseyo1kRWKNQ0F-5cP3UwhgTbnrn4OVML8maYABo7QNdlkSh6kG_GOKyMOF5Ym8&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=zaEJoBVGfm1PPEpdiyee6g&_nc_ss=72289&oh=00_Af-hDQl0zHOtuug3Tx9-2C-rvhl2Y7dfini1oWf1yFeupw&oe=6A40871F",
+        "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/730497998_1348887627333058_7040507941396920748_n.png?stp=dst-jpg_tt6&cstp=mx2048x1366&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=PDZqZ3cziYQQ7kNvwE2N5C4&_nc_oc=AdpgRBfQHEiZCqNWkhivsG7ZGYphyI_HzEnTYTbC1AgNKP4WMmY_BUd8ioYLf4IU8Fs&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=zaEJoBVGfm1PPEpdiyee6g&_nc_ss=72289&oh=00_Af9J9rBCDRWfGgPOVjAuonPHgBN4vXPVdtfwgpHrdwEECg&oe=6A409E8A",
+        "https://scontent-iad3-2.xx.fbcdn.net/v/t39.99422-6/728025682_4074604286179089_6791221189023896628_n.png?stp=dst-jpg_tt6&cstp=mx2048x1280&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=lTHBRsiwbm4Q7kNvwGjLI4t&_nc_oc=AdrCyEEWHpbeQtpa5um23KXwHhiYh2fqTWa4VdXiAmaTa9LsX05ZNq3Xft_YcL_EuNI&_nc_zt=14&_nc_ht=scontent-iad3-2.xx&_nc_gid=zaEJoBVGfm1PPEpdiyee6g&_nc_ss=72289&oh=00_Af83L3d2puMd7FW6raqPemir0MbpKBeLGgfXki7NxAV6pA&oe=6A40A709",
+        "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/729754802_1576223947364316_3209030601552370796_n.png?stp=dst-jpg_tt6&cstp=mx2048x1366&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=rxUXaBj7RXIQ7kNvwGs9P4k&_nc_oc=Ado3NQUzSNE4bJD6c0kkVrVcwXM4mQlnJmvunF0QZUC8Vfwgyah8ZAcRqcmzaaLsPz4&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=zaEJoBVGfm1PPEpdiyee6g&_nc_ss=72289&oh=00_Af9HoidF2Vb6yHdz2lqBt1WyEUaR8CE_kNdx34Uz3B665A&oe=6A40B447",
+        "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/728937568_1008152415046218_7731992649133743784_n.png?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=RmFMltSevbMQ7kNvwEG3SHH&_nc_oc=Adrc1scYrSc_Y9HRItPm6zf0QXdA3nQYIpGNPX7LjsHB226rQbxzVPahDC-faSNl6hA&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=zaEJoBVGfm1PPEpdiyee6g&_nc_ss=72289&oh=00_Af9qAIYg8h6lShrud0gJIkr13drWcybJZswUWLn_4n9cng&oe=6A40B4BD"
+      ],
+      "image_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.99422-6/729390063_1033154379166315_2382371717332843771_n.png?stp=dst-jpg_tt6&cstp=mx2048x1366&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=bXa7VticCMkQ7kNvwEdyfUp&_nc_oc=AdpJGseyo1kRWKNQ0F-5cP3UwhgTbnrn4OVML8maYABo7QNdlkSh6kG_GOKyMOF5Ym8&_nc_zt=14&_nc_ht=scontent-iad3-1.xx&_nc_gid=zaEJoBVGfm1PPEpdiyee6g&_nc_ss=72289&oh=00_Af-hDQl0zHOtuug3Tx9-2C-rvhl2Y7dfini1oWf1yFeupw&oe=6A40871F",
+      "source_avatar_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/358094984_667010775468243_1743249288827943765_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1200x1200&ctp=s50x50&_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=e9590h0Tf4EQ7kNvwG7k8Kj&_nc_oc=AdpGXPdlAKv_cXUP1TJEovrZRDeG655lzIeq7_OnoWlw4VJvTMFeuCPR13wkwWAJY9w&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=zaEJoBVGfm1PPEpdiyee6g&_nc_ss=72289&oh=00_Af_ZBwi-TpJnlaKXeQ_972wJEF5LtZQd7QrG4Q22KljyQQ&oe=6A4098AE",
+      "text": "🎉 OPENTIX 兩廳院文化生活 發布2025年度數據報告 ​\n🎉 平台總票房創 20.3 億元新高、「回購客」首度破五成、文化幣帶動新世代能量\n​\nOPENTIX 今日正式發布 2025 年度數據報告，本報告由國立陽明交通大學統計學研究所高竹嵐教授研究團隊協力製作，深入觀測近三年國內藝文市場規模與消費趨勢變化。OPENTIX總票房以 20.3 億元創下歷年新高，整體售出票數約 210.7 萬張。\n​\n針對2025 年臺灣藝文消費市場，數據顯示市場規模穩定且核心觀眾消費力持續激增。包含「回購客」占比首度破五成並貢獻高達七成票房，成為市場成長的關鍵助力。「文化幣政策」也展現留存效應，催生近五成青年會員在抵用後持續自費回流。\n​\n此外，兩廳院作為國家級表演藝術平台，為協助藝文單位深化觀眾經營，今日更特別以「會員經營實戰－從數據洞察到高黏著轉換」為主題，邀請兩廳院營運夥伴、五口創意有限公司及國光劇團，從多元實務視角分享會員經營經驗。 兩廳院及OPENTIX 持續透過數據應用與藝文團隊交流合作，希望共同推動藝文市場的永續發展及與經營參考。\n​\n🏆 2025年度完整數據報告、熱門作品 TOP 10\n🏆 https://em.ntch.art/P5EMuV\nhttps://www.facebook.com/ntch.tw/posts/pfbid0CvYVKATkiZxbfNSxrf6BRLLYVyarseiB3n1Vjy4nNuaKAYLK2wJ57SoEXn2yhrMUl",
+      "raw_source": "apify/facebook-posts-scraper",
+      "matched_keywords": [
+        "交流",
+        "發布"
+      ]
+    },
+    {
+      "key": "fb_taipeiyellowstoneharmonicaensemble:1482916423852206",
+      "source_id": "fb_taipeiyellowstoneharmonicaensemble",
+      "source_name": "Taipei Yellowstone Harmonica Ensemble",
+      "platform": "facebook",
+      "account": "TaipeiYellowstoneHarmonicaEnsemble",
+      "post_id": "1482916423852206",
+      "posted_at": "2026-06-22T14:15:21.000Z",
+      "url": "https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/posts/pfbid02dZtHRhB1dCnPFBfhX1xQ6E2yXeqqCeijXD2xDanh5H2k31Lgmj87ebVwSK3QdRPul",
+      "media_type": "",
+      "images": [
+        "https://scontent.fagc1-1.fna.fbcdn.net/v/t39.99422-6/729540245_1049048874333296_3176150115582324048_n.png?stp=dst-jpg_tt6&cstp=mx1040x780&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=AUZIkYL7dO4Q7kNvwH8nxbS&_nc_oc=AdqefXi-JeWYSZO_KNhDymC4zCBbtEqyKZveSRY07oGT8sJCfKapWqphXiBPwFVNRHQ&_nc_zt=14&_nc_ht=scontent.fagc1-1.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af9RDwZE3O4m49nUPSk0xRsZAXVC5vfyfHxbaH8tARYjEw&oe=6A40A84C",
+        "https://scontent.fagc1-2.fna.fbcdn.net/v/t39.99422-6/728937570_1481438717335709_8126200684482271016_n.png?stp=dst-jpg_tt6&cstp=mx1040x780&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=fYH9ONYqb6oQ7kNvwFe99Ug&_nc_oc=Adr7QPntx2n1ensvebFmYqTMRucODwOFjG2GPPwZTkVcgRhwsNQsOVp5j5ogoQvrKxA&_nc_zt=14&_nc_ht=scontent.fagc1-2.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af8XqtTOUfSBcCow-t9l2A4_l-Gu6H4SmDRnYwa006e0yw&oe=6A40B2D8",
+        "https://scontent.fagc1-2.fna.fbcdn.net/v/t39.99422-6/728828239_1338177008263762_1404456379340030728_n.png?stp=dst-jpg_tt6&cstp=mx1108x1477&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=RfHcDIpgZz0Q7kNvwFsQhpJ&_nc_oc=AdoSqbCUC3h3-TOKa2uuOoIEjOj1Bbqza41PKqYxKrAIPOuXfcP6xm2klLRStG3KJL4&_nc_zt=14&_nc_ht=scontent.fagc1-2.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af_VPFLZs4A_qjzU-DKwQvF3DanBLOggz_2vKodkukDjZQ&oe=6A409A35",
+        "https://scontent.fagc1-2.fna.fbcdn.net/v/t39.99422-6/728913114_1384228933520418_3170983782721271232_n.png?stp=dst-jpg_tt6&cstp=mx1108x1477&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=v6k1cKj6sG8Q7kNvwGMXboN&_nc_oc=AdqUWflN3DBQUIlhmyPh6j8l-iSzpi3IJISIHuLvz710bJOPt0uAhIs3a4CIO5fn9fQ&_nc_zt=14&_nc_ht=scontent.fagc1-2.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af9WS-EHPBv_T1g6wDmJi3GxLeKZ5rdm_7YrQnROjXwclQ&oe=6A40AC61",
+        "https://scontent.fagc1-1.fna.fbcdn.net/v/t39.99422-6/725904868_866325472730328_5580499029815959049_n.png?stp=dst-jpg_tt6&cstp=mx1706x960&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Km-Xx9TfhtkQ7kNvwHHd0q5&_nc_oc=AdqHHxDYc79A-OPwF-Kxub1Km1pSWgWTdcQHrTICY9OShDTFNSiT63Gt1aPYIzNAhzI&_nc_zt=14&_nc_ht=scontent.fagc1-1.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af-4H4oGyjHawNMUFn-zkLieS7e_bvtdkgqwWHgiIwamnQ&oe=6A40ABD5"
+      ],
+      "image_url": "https://scontent.fagc1-1.fna.fbcdn.net/v/t39.99422-6/729540245_1049048874333296_3176150115582324048_n.png?stp=dst-jpg_tt6&cstp=mx1040x780&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=AUZIkYL7dO4Q7kNvwH8nxbS&_nc_oc=AdqefXi-JeWYSZO_KNhDymC4zCBbtEqyKZveSRY07oGT8sJCfKapWqphXiBPwFVNRHQ&_nc_zt=14&_nc_ht=scontent.fagc1-1.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af9RDwZE3O4m49nUPSk0xRsZAXVC5vfyfHxbaH8tARYjEw&oe=6A40A84C",
+      "source_avatar_url": "https://scontent.fagc1-1.fna.fbcdn.net/v/t39.30808-1/293108319_431872712289921_8910063629755746804_n.jpg?stp=c66.0.267.267a_cp0_dst-jpg_tt6&cstp=mx267x267&ctp=s50x50&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=wOBvBIUTGhQQ7kNvwEd_BXK&_nc_oc=Adp3rGt6uAaVwhhwje8k26iWGjBnsho6fGO2FS6fF_GK1QlX8cr99VabhzAmr9BHUnk&_nc_zt=24&_nc_ht=scontent.fagc1-1.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af_CbjIzNTAPYiMrYlbWtFnDD5uOYI2ViU5yJ-2w81eSxA&oe=6A40A44C",
+      "text": "帶著孩子來義演\n第529場偏鄉弱勢巡迴義演6/22（一）14：30高雄楠梓樂活社區長照中心---完成\nhttps://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/posts/pfbid02dZtHRhB1dCnPFBfhX1xQ6E2yXeqqCeijXD2xDanh5H2k31Lgmj87ebVwSK3QdRPul",
+      "raw_source": "apify/facebook-posts-scraper",
+      "matched_keywords": [
+        "harmonica"
+      ]
+    },
+    {
+      "key": "fb_taipeiyellowstoneharmonicaensemble:1482545047222677",
+      "source_id": "fb_taipeiyellowstoneharmonicaensemble",
+      "source_name": "Taipei Yellowstone Harmonica Ensemble",
+      "platform": "facebook",
+      "account": "TaipeiYellowstoneHarmonicaEnsemble",
+      "post_id": "1482545047222677",
+      "posted_at": "2026-06-22T04:26:12.000Z",
+      "url": "https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/posts/pfbid025Zy6cKZu5JxGwVRtEW7dMAkPYpbKRpzqnqw9WKbxCaQo38vEmdqKhGum7giP39nil",
+      "media_type": "",
+      "images": [
+        "https://scontent.fagc1-1.fna.fbcdn.net/v/t39.99422-6/729838922_1703428554229991_7807216677698306190_n.png?stp=dst-jpg_tt6&cstp=mx1040x780&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7gR2j9GEkxkQ7kNvwHIX3tL&_nc_oc=AdoXdC4xxng3gUIEtCcM3MVY6HcH6ciLVvTimQ-bFCkqEWE1zpSo6xFY45IUcTOeDmQ&_nc_zt=14&_nc_ht=scontent.fagc1-1.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af8OUzdBXckYFiQ8djLtdCvweQ8OxEnrv4kKTyPNwLbKPw&oe=6A40965F",
+        "https://scontent.fagc1-2.fna.fbcdn.net/v/t39.99422-6/727321512_1029914223309376_4642948913737933010_n.png?stp=dst-jpg_tt6&cstp=mx1040x780&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Jm7yzF-sVlYQ7kNvwH6oYFZ&_nc_oc=AdrdMIwp1Wcd9us5eVu-Jd1v1MK3tK1F5FHZKgQHVdykk_8lpkpaa52movebzGHLZA8&_nc_zt=14&_nc_ht=scontent.fagc1-2.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af-INOBO8sIX8i5BOLnzD8SgN8DGeLd5MRjsxZWLBaiiPA&oe=6A40AA79",
+        "https://scontent.fagc1-2.fna.fbcdn.net/v/t39.99422-6/730069724_3590047187816918_7893133091865538173_n.png?stp=dst-jpg_tt6&cstp=mx1040x780&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=P6raly0R3KsQ7kNvwGcDC7O&_nc_oc=AdqC4txNBAzH3ETotZGDLXwVQ0Q3vmUhJGd1WlbSUvIE60EG-TXaMCFtjujMXGiyRLs&_nc_zt=14&_nc_ht=scontent.fagc1-2.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af_AK5Rkk9Vwr_7pzxFRfzcFC0oiymdpT0w8Ynz5y8fCxA&oe=6A40B15A",
+        "https://scontent.fagc1-2.fna.fbcdn.net/v/t39.99422-6/727323131_2085955058996933_3725154251332388998_n.png?stp=dst-jpg_tt6&cstp=mx1040x780&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=PGDQwI9fvhYQ7kNvwEnjNsR&_nc_oc=Adq_Bv3FCRtO4GiR1w2VL5t7uaNjO7SWAvxhcqyOBIWEIfNu7lsCAPt3y6wqfpJL7gQ&_nc_zt=14&_nc_ht=scontent.fagc1-2.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af_A9MUsw2WbGcvTtAsYil2gUdDdSO_uz_MU_6M27hL7Tg&oe=6A4093E9",
+        "https://scontent.fagc1-2.fna.fbcdn.net/v/t39.99422-6/728474473_1341687331360374_3089028366930735618_n.png?stp=dst-jpg_tt6&cstp=mx1040x780&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=No4mb0ZV2ZAQ7kNvwG5UKIS&_nc_oc=AdoKvNxQm7uj_CMoGfJRFW2rYHOpn_xd30xqW65t2f2gz_OG_QW1uvfFuA3-CXMS8DA&_nc_zt=14&_nc_ht=scontent.fagc1-2.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af8sYpORf6ozkdEf18emSSTTpaiKhPgXiAJUVuRtwyQfGA&oe=6A40B94E"
+      ],
+      "image_url": "https://scontent.fagc1-1.fna.fbcdn.net/v/t39.99422-6/729838922_1703428554229991_7807216677698306190_n.png?stp=dst-jpg_tt6&cstp=mx1040x780&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7gR2j9GEkxkQ7kNvwHIX3tL&_nc_oc=AdoXdC4xxng3gUIEtCcM3MVY6HcH6ciLVvTimQ-bFCkqEWE1zpSo6xFY45IUcTOeDmQ&_nc_zt=14&_nc_ht=scontent.fagc1-1.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af8OUzdBXckYFiQ8djLtdCvweQ8OxEnrv4kKTyPNwLbKPw&oe=6A40965F",
+      "source_avatar_url": "https://scontent.fagc1-1.fna.fbcdn.net/v/t39.30808-1/293108319_431872712289921_8910063629755746804_n.jpg?stp=c66.0.267.267a_cp0_dst-jpg_tt6&cstp=mx267x267&ctp=s50x50&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=wOBvBIUTGhQQ7kNvwEd_BXK&_nc_oc=Adp3rGt6uAaVwhhwje8k26iWGjBnsho6fGO2FS6fF_GK1QlX8cr99VabhzAmr9BHUnk&_nc_zt=24&_nc_ht=scontent.fagc1-1.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af_CbjIzNTAPYiMrYlbWtFnDD5uOYI2ViU5yJ-2w81eSxA&oe=6A40A44C",
+      "text": "帶著老媽及孩子來義演\n第528場偏鄉弱勢巡迴義演6/22（一）10：00高雄市小港三苓巷弄長照中心---完成\nhttps://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/posts/pfbid025Zy6cKZu5JxGwVRtEW7dMAkPYpbKRpzqnqw9WKbxCaQo38vEmdqKhGum7giP39nil",
+      "raw_source": "apify/facebook-posts-scraper",
+      "matched_keywords": [
+        "harmonica"
+      ]
+    },
+    {
+      "key": "fb_taipeiyellowstoneharmonicaensemble:1481942140616301",
+      "source_id": "fb_taipeiyellowstoneharmonicaensemble",
+      "source_name": "Taipei Yellowstone Harmonica Ensemble",
+      "platform": "facebook",
+      "account": "TaipeiYellowstoneHarmonicaEnsemble",
+      "post_id": "1481942140616301",
+      "posted_at": "2026-06-21T11:57:15.000Z",
+      "url": "https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/posts/pfbid02RChgYmq32LTMD7zqXZD43ZZM2vynVbGTeaoCSWnafXjvDEc9FbwwZVup9ViyMcB8l",
+      "media_type": "",
+      "images": [
+        "https://scontent.fagc1-2.fna.fbcdn.net/v/t39.30808-6/728255295_1481942160616299_5500842632080058482_n.jpg?stp=dst-jpg_tt6&cstp=mx1158x2048&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=oOz1ZQ3lQi4Q7kNvwEg77hS&_nc_oc=Adq79qShjlANHo1JLbAvdy2ka-ZBqTqkUx5yBlfNR2Blt9NVVAugzzmmZdDM07HhE0k&_nc_zt=23&_nc_ht=scontent.fagc1-2.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af9h7a5caxAdEWcLHdpw3yKhURuPd6puc2XkJw78uh-etA&oe=6A40A6DF",
+        "https://scontent.fagc1-2.fna.fbcdn.net/v/t39.99422-6/727738250_1875435436462822_3010378693605638786_n.png?stp=dst-jpg_tt6&cstp=mx968x1030&ctp=p552x414&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=YK9XBuwqBNMQ7kNvwEOGZNr&_nc_oc=Adp9xNYE3tuni1HYtYvdJQQ2KM59htJdTsViulw5GUMvbJ8RRfoGs6lajKP_4IsINow&_nc_zt=14&_nc_ht=scontent.fagc1-2.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af9cXsOz4QNZ1skE2x_UqB0Axwy2XFR9U4gAxGyTK_Q5fQ&oe=6A40A759",
+        "https://scontent.fagc1-2.fna.fbcdn.net/v/t39.99422-6/728984413_2760266801039999_7711241121197285979_n.png?stp=dst-jpg_tt6&cstp=mx1172x1032&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=XGVQVMVl3VQQ7kNvwHG5BIN&_nc_oc=AdpHYBtZvkHNyiN3_WW2nc0sNSF_pembLyowucTFjMMGhgeOGv7Npan2-lnqgQI-w4g&_nc_zt=14&_nc_ht=scontent.fagc1-2.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af-ZKAlavaDJmwekK8NgTQzjKsNp3ISWhB7tNVAAzv65tQ&oe=6A409285",
+        "https://scontent.fagc1-1.fna.fbcdn.net/v/t39.30808-6/727236114_1481942217282960_5579000899106232079_n.jpg?stp=dst-jpg_tt6&cstp=mx1158x2048&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7a3e2j4zGl4Q7kNvwEDCLw0&_nc_oc=Adqx3y0PlXPdpZc1moFzX-o4DirHLyBE8euiA-blq58JUiViimj4oNbijmkiFFfHsuU&_nc_zt=23&_nc_ht=scontent.fagc1-1.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af8e-gj27EhVANDnBZTcZQyDnll7cv2KWXnczolYKK4F5A&oe=6A40B66D",
+        "https://scontent.fagc1-2.fna.fbcdn.net/v/t39.30808-6/727588678_1481942243949624_6205061937004501346_n.jpg?stp=dst-jpg_tt6&cstp=mx1158x2048&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=NzKujxsm9U4Q7kNvwFcdXvm&_nc_oc=AdrXi0BT-OR8xO3rqRFO7bKchhf2FZAdqH76NfxSCoXhfb1tF6_9gJDiA-cB7PKVPVA&_nc_zt=23&_nc_ht=scontent.fagc1-2.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af_Wn1qjUhiwjlacmz74Wrbzsysu0j3m6x7PyOe744k5RQ&oe=6A40A5AC"
+      ],
+      "image_url": "https://scontent.fagc1-2.fna.fbcdn.net/v/t39.30808-6/728255295_1481942160616299_5500842632080058482_n.jpg?stp=dst-jpg_tt6&cstp=mx1158x2048&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=oOz1ZQ3lQi4Q7kNvwEg77hS&_nc_oc=Adq79qShjlANHo1JLbAvdy2ka-ZBqTqkUx5yBlfNR2Blt9NVVAugzzmmZdDM07HhE0k&_nc_zt=23&_nc_ht=scontent.fagc1-2.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af9h7a5caxAdEWcLHdpw3yKhURuPd6puc2XkJw78uh-etA&oe=6A40A6DF",
+      "source_avatar_url": "https://scontent.fagc1-1.fna.fbcdn.net/v/t39.30808-1/293108319_431872712289921_8910063629755746804_n.jpg?stp=c66.0.267.267a_cp0_dst-jpg_tt6&cstp=mx267x267&ctp=s50x50&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=wOBvBIUTGhQQ7kNvwEd_BXK&_nc_oc=Adp3rGt6uAaVwhhwje8k26iWGjBnsho6fGO2FS6fF_GK1QlX8cr99VabhzAmr9BHUnk&_nc_zt=24&_nc_ht=scontent.fagc1-1.fna&_nc_gid=CyNBn9-T_-P9yvyT5slDzQ&_nc_ss=72289&oh=00_Af_CbjIzNTAPYiMrYlbWtFnDD5uOYI2ViU5yJ-2w81eSxA&oe=6A40A44C",
+      "text": "老媽幫忙修理義演戰袍\n#明天還有兩場高雄偏鄉弱勢巡演，再來就暑假期間再撥空安排回南部義演、陪伴老媽。\nhttps://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/posts/pfbid02RChgYmq32LTMD7zqXZD43ZZM2vynVbGTeaoCSWnafXjvDEc9FbwwZVup9ViyMcB8l",
+      "raw_source": "apify/facebook-posts-scraper",
+      "matched_keywords": [
+        "harmonica"
+      ]
+    },
+    {
+      "key": "apify_facebook_posts:1505598671366071",
+      "source_id": "apify_facebook_posts",
+      "source_name": "Apify Facebook Posts",
+      "platform": "facebook",
+      "account": "happyharmonica",
+      "post_id": "1505598671366071",
+      "posted_at": "2026-06-23T02:08:09.000Z",
+      "url": "https://www.facebook.com/reel/1715244059714325/",
+      "media_type": "",
+      "images": [
+        "https://scontent.fcre1-1.fna.fbcdn.net/v/t15.5256-10/730516023_1388008379852612_9067183163309145575_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=QsiUH81x-EQQ7kNvwF0546V&_nc_oc=AdrRTjWZ-MwcOKICZYABflGNUTs40g1yKAVIeC2LxS_8lzY4AahQYG0ntIocSFzx2OE&_nc_zt=23&_nc_ht=scontent.fcre1-1.fna&_nc_gid=EP3TUB9LMHEtn3yqhCJ9zw&_nc_ss=72289&oh=00_Af8aK4Vy3xa-PF65YS90M1K66EhSrbjjQlzulBX6j_nzag&oe=6A409F5F"
+      ],
+      "image_url": "https://scontent.fcre1-1.fna.fbcdn.net/v/t15.5256-10/730516023_1388008379852612_9067183163309145575_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=QsiUH81x-EQQ7kNvwF0546V&_nc_oc=AdrRTjWZ-MwcOKICZYABflGNUTs40g1yKAVIeC2LxS_8lzY4AahQYG0ntIocSFzx2OE&_nc_zt=23&_nc_ht=scontent.fcre1-1.fna&_nc_gid=EP3TUB9LMHEtn3yqhCJ9zw&_nc_ss=72289&oh=00_Af8aK4Vy3xa-PF65YS90M1K66EhSrbjjQlzulBX6j_nzag&oe=6A409F5F",
+      "source_avatar_url": "https://scontent.fcre1-1.fna.fbcdn.net/v/t39.30808-1/358664214_753920859867193_3224395817038140154_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1200x1200&ctp=s50x50&_nc_cat=106&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=WqDdsgx4Di8Q7kNvwGkxgjU&_nc_oc=Adpd7I8IA-yWPvWJUoVY7eSqncLfnL9kr5TwMxFA-JjrtnAqFObxep7T5Q5fkCxj7go&_nc_zt=24&_nc_ht=scontent.fcre1-1.fna&_nc_gid=EP3TUB9LMHEtn3yqhCJ9zw&_nc_ss=72289&oh=00_Af_9p3oMaODsBSHdtMFmPyYGlB5XCBOgVRAbU6v3nUHafQ&oe=6A4089C7",
+      "text": "《時間之歌》\n同學利用學校的舞台，辦了一場小小的演奏會，大家都發揮出比平常高100%的水準，每一首都太好聽了。真的要辦演奏會大家才會進步+認真喔~~\n#中和社大口琴班(一)晚上\nhttps://www.facebook.com/reel/1715244059714325/",
+      "raw_source": "apify/facebook-posts-scraper",
+      "matched_keywords": [
+        "口琴"
+      ]
+    },
+    {
+      "key": "fb_happyharmonica:1504182514841020",
+      "source_id": "fb_happyharmonica",
+      "source_name": "Bluebo Harmonica",
+      "platform": "facebook",
+      "account": "happyharmonica",
+      "post_id": "1504182514841020",
+      "posted_at": "2026-06-21T11:04:36.000Z",
+      "url": "https://www.facebook.com/happyharmonica/posts/pfbid0WhAEGyY1aeWgkYLrDgk1WYmnkpQm4wNJhdtf3YkdoeeS3hHzn1hBmHoWHvYcxigol",
+      "media_type": "",
+      "images": [
+        "https://scontent.fcre1-1.fna.fbcdn.net/v/t39.30808-6/729747706_1504181968174408_86317992072424894_n.jpg?stp=dst-jpg_tt6&cstp=mx1108x1477&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=w7vH4uEtvM4Q7kNvwHiH_vC&_nc_oc=AdqPRErrmz9Ur8lY4JqnA2k5ExbfmZFNyAz_VIlxqvoWmDGMgEei1_Wctc6OwulhOn0&_nc_zt=23&_nc_ht=scontent.fcre1-1.fna&_nc_gid=EP3TUB9LMHEtn3yqhCJ9zw&_nc_ss=72289&oh=00_Af-8YC7yQgTN3kUtxM2tajvf8kUvr1SXKAVg2gLnaqIvgw&oe=6A40A60F",
+        "https://scontent.fcre1-1.fna.fbcdn.net/v/t39.30808-6/729754793_1504182204841051_3024518332654065793_n.jpg?stp=dst-jpg_tt6&cstp=mx1108x1477&ctp=s590x590&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=q3PRWfc188AQ7kNvwEZmDI2&_nc_oc=Adqvfu1NjtM1UlOJZjjyky61UNznpYz4qlo5qB8v7dyF4AeQYSlmoH5r40wkAirg41o&_nc_zt=23&_nc_ht=scontent.fcre1-1.fna&_nc_gid=EP3TUB9LMHEtn3yqhCJ9zw&_nc_ss=72289&oh=00_Af8H8MABRAqRoPBPJpfixxos8F6p20LBP8s4CzNTC_FTww&oe=6A4097B2",
+        "https://scontent.fcre1-1.fna.fbcdn.net/v/t39.30808-6/729729260_1504182388174366_5074324306713662043_n.jpg?stp=dst-jpg_tt6&cstp=mx1108x1477&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=vaKtIiQ61b4Q7kNvwEc5bXD&_nc_oc=AdqgMWytuCvDJDiMAA5KS-WM18P_NqjH44fY3G-K6gHZZa6ySyNMOjMR1ZsEQ-9_kaA&_nc_zt=23&_nc_ht=scontent.fcre1-1.fna&_nc_gid=EP3TUB9LMHEtn3yqhCJ9zw&_nc_ss=72289&oh=00_Af8lZjRCq8I3rYWYsnPT42mvhFczNzaTWbiSdJLb_wo4nw&oe=6A40AAE2"
+      ],
+      "image_url": "https://scontent.fcre1-1.fna.fbcdn.net/v/t39.30808-6/729747706_1504181968174408_86317992072424894_n.jpg?stp=dst-jpg_tt6&cstp=mx1108x1477&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=w7vH4uEtvM4Q7kNvwHiH_vC&_nc_oc=AdqPRErrmz9Ur8lY4JqnA2k5ExbfmZFNyAz_VIlxqvoWmDGMgEei1_Wctc6OwulhOn0&_nc_zt=23&_nc_ht=scontent.fcre1-1.fna&_nc_gid=EP3TUB9LMHEtn3yqhCJ9zw&_nc_ss=72289&oh=00_Af-8YC7yQgTN3kUtxM2tajvf8kUvr1SXKAVg2gLnaqIvgw&oe=6A40A60F",
+      "source_avatar_url": "https://scontent.fcre1-1.fna.fbcdn.net/v/t39.30808-1/358664214_753920859867193_3224395817038140154_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1200x1200&ctp=s50x50&_nc_cat=106&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=WqDdsgx4Di8Q7kNvwGkxgjU&_nc_oc=Adpd7I8IA-yWPvWJUoVY7eSqncLfnL9kr5TwMxFA-JjrtnAqFObxep7T5Q5fkCxj7go&_nc_zt=24&_nc_ht=scontent.fcre1-1.fna&_nc_gid=EP3TUB9LMHEtn3yqhCJ9zw&_nc_ss=72289&oh=00_Af_9p3oMaODsBSHdtMFmPyYGlB5XCBOgVRAbU6v3nUHafQ&oe=6A4089C7",
+      "text": "同學的新店開張，一定要來捧場。\n東美髮藝，是一間一定要幫你剪得滿意的髮廊，老闆負責切水果，老闆娘負責剪燙髮，就在南勢角夜市走到底，來逛街吃美食後順便也梳理一下頭髮，打卡報上藍波口琴都會有特別待遇喔~\n東美髮藝: 中和仁愛街124號(南勢角捷運站)\nhttps://www.facebook.com/happyharmonica/posts/pfbid0WhAEGyY1aeWgkYLrDgk1WYmnkpQm4wNJhdtf3YkdoeeS3hHzn1hBmHoWHvYcxigol",
+      "raw_source": "apify/facebook-posts-scraper",
+      "matched_keywords": [
+        "口琴",
+        "harmonica"
+      ]
+    },
+    {
+      "key": "fb_redbricksharmonica:1482278550578385",
+      "source_id": "fb_redbricksharmonica",
+      "source_name": "RedBricks Harmonica",
+      "platform": "facebook",
+      "account": "redbricksharmonica",
+      "post_id": "1482278550578385",
+      "posted_at": "2026-06-21T11:15:48.000Z",
+      "url": "https://www.facebook.com/redbricksharmonica/posts/pfbid0uhGecmNrYQPvPPv5k3L9w2kWicUZMvn53QFGnzbyxXQ52jbXTJWZ297gfrwrfzy1l",
+      "media_type": "",
+      "images": [
+        "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/726539708_1482273680578872_5464746887649812560_n.jpg?stp=dst-jpg_tt6&cstp=mx1681x629&ctp=p180x540&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=gP6Of_eAz_8Q7kNvwGejk0C&_nc_oc=AdooMOE7QtrZthvqL-fhpD-qIuOlKE3Dsm4-VmMY3cZn4pWtwDtBnVRilNlQKfRxjJ8&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=gz1UNcWSo1n3DDDCLNMoww&_nc_ss=72289&oh=00_Af_sx2RDcSL778Bb2yTyFxcA5_VCbznZf9w8vxxBs6TLfQ&oe=6A40B2D5"
+      ],
+      "image_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/726539708_1482273680578872_5464746887649812560_n.jpg?stp=dst-jpg_tt6&cstp=mx1681x629&ctp=p180x540&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=gP6Of_eAz_8Q7kNvwGejk0C&_nc_oc=AdooMOE7QtrZthvqL-fhpD-qIuOlKE3Dsm4-VmMY3cZn4pWtwDtBnVRilNlQKfRxjJ8&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=gz1UNcWSo1n3DDDCLNMoww&_nc_ss=72289&oh=00_Af_sx2RDcSL778Bb2yTyFxcA5_VCbznZf9w8vxxBs6TLfQ&oe=6A40B2D5",
+      "source_avatar_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/450268914_915859723886940_4908375360218517551_n.jpg?stp=c282.257.1400.1400a_cp0_dst-jpg_tt6&cstp=mx1400x1400&ctp=s50x50&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=kdOaIrjeVgUQ7kNvwHW5-c5&_nc_oc=AdrNoSecDwR8f4bIlOk5NVrM4AOdGfT0k2EMhzVsWuIZ7Veu6ZuxCvV8-UIGuGh-WVQ&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=gz1UNcWSo1n3DDDCLNMoww&_nc_ss=72289&oh=00_Af_Ox_XvVL7BWKFH7lyy7zw_mSqlZ7yAqk_a7bwpQJ07bA&oe=6A4092A7",
+      "text": "🔴「中國銀行（香港）呈獻︰香港故宮演藝節目」| REDBRICKS《紅磚的口琴之旅》🔴\nRedBricks非常榮幸獲得香港故宮文化博物館 Hong Kong Palace Museum的邀請🇨🇳🇭🇰 為本地人士及海外旅客帶來兩場香港口琴重奏音樂演出🎶 到時候再見大家👋\n🗓️ 日期: 2026年7月4日 (星期六)\n🕰️ 時間: 上午11時至11時30分｜下午12時至12時30分\n📍 地點: 香港故宮文化博物館2樓南中庭\n🎟️ 門票: 持有當天展覽門票人士，可免費參加，無須預約，先到先得。\n#hkpm #香港故宮文化博物館 #redbricks #redbricksharmonica #performance\nhttps://www.facebook.com/photo/?fbid=1482273677245539&set=a.120871996719054",
+      "raw_source": "apify/facebook-posts-scraper",
+      "matched_keywords": [
+        "口琴",
+        "演出",
+        "harmonica"
+      ]
+    },
+    {
+      "key": "fb_peacetones_harmonica:1500329828773948",
+      "source_id": "fb_peacetones_harmonica",
+      "source_name": "PeaceTones Harmonica",
+      "platform": "facebook",
+      "account": "PeaceTones.harmonica",
+      "post_id": "1500329828773948",
+      "posted_at": "2026-06-18T07:31:40.000Z",
+      "url": "https://www.facebook.com/PeaceTones.harmonica/posts/pfbid0Xhv2E1am3PpZehSWUbee6KpFXbYXjFu9aXEQD3rNEPo9Zewn2eLa8UXKuEFonwagl",
+      "media_type": "",
+      "images": [
+        "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-6/726622210_1500328868774044_5788640301556306945_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x1536&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=uPJM0jjsycwQ7kNvwF7yIJu&_nc_oc=AdoSvPzMBvAHN1oRwdzFXI4ejCYRs8Ky6Ka_Gj8n4S5pmsbvq4J93TWYoXDryVNtDiA&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&_nc_gid=_l8U0hQNIs5c4mBWQ7TqjA&_nc_ss=7c289&oh=00_Af8uoK0ZOSW_xg5-ofGI7Sw0lxKpwnbudH99Mg_y6elXgw&oe=6A408896"
+      ],
+      "image_url": "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-6/726622210_1500328868774044_5788640301556306945_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x1536&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=uPJM0jjsycwQ7kNvwF7yIJu&_nc_oc=AdoSvPzMBvAHN1oRwdzFXI4ejCYRs8Ky6Ka_Gj8n4S5pmsbvq4J93TWYoXDryVNtDiA&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&_nc_gid=_l8U0hQNIs5c4mBWQ7TqjA&_nc_ss=7c289&oh=00_Af8uoK0ZOSW_xg5-ofGI7Sw0lxKpwnbudH99Mg_y6elXgw&oe=6A408896",
+      "source_avatar_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/273558016_327227779417498_8977996107877435718_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2001x2001&ctp=s50x50&_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=_zJ0pWcx3DoQ7kNvwEnY2zV&_nc_oc=Ado_0PZFF14nObmS1y3Dg4KNWe2l8IqnC2SyqFlIZdEmhcRyjHQ2r9RScqLvEcOrkiw&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=_l8U0hQNIs5c4mBWQ7TqjA&_nc_ss=7c289&oh=00_Af-b6j4YDOFhHdFteJh3clN8AxlYsDzuS5GkQIEwpYc-0g&oe=6A40ACE8",
+      "text": "📣#萬華社大【#龍韻口琴合奏班】#暑期體驗班招生中\n授課老師：夏晨茹、張宇樞\n上課地點：台北市龍山國中\n上課時間：週一（晚）\n🟡授課內容：\n📍口琴合奏分部、團練教學：\n龍韻口琴樂團招募以下團員：\n🔸複音口琴部：需基礎音階吹奏能力，會吹奏C+C# 口琴佳。\n🔸半音階口琴部：建議使用16孔半音階口琴。\n🔸銅角口琴部：中音或高音銅角口琴。\n🔸低音口琴部：Contra Bass口琴或Double Bass口琴。\n🔸和弦口琴部：48組和弦口琴。\n🔔報名時間：開始報名中\n報名方式：現場報名\n萬華社大：https://whcc.twcu.org.tw/course/m_course_detail.php?u=9962e6e4aa97eb51b85ed4c70ef157bc\n#口琴 #口琴合奏 #暑期班\nhttps://www.facebook.com/photo/?fbid=1500328862107378&set=a.327227742750835",
+      "raw_source": "apify/facebook-posts-scraper",
+      "matched_keywords": [
+        "口琴",
+        "招生",
+        "報名"
+      ]
+    },
+    {
+      "key": "apify_facebook_posts:10231492543475446",
+      "source_id": "apify_facebook_posts",
+      "source_name": "Apify Facebook Posts",
+      "platform": "facebook",
+      "account": "chaotengchang",
+      "post_id": "10231492543475446",
+      "posted_at": "2026-06-23T07:42:57.000Z",
+      "url": "https://www.facebook.com/reel/2886892308318137/",
+      "media_type": "",
+      "images": [
+        "https://scontent-det1-1.xx.fbcdn.net/v/t51.82787-10/730222644_18599803873014517_2904740297947126450_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=kDcqWfIx6lwQ7kNvwExFv4a&_nc_oc=AdoigprA3KcWTGOgq1PE8GI27jdlGY4i8uVwh6_FjUs5CL_tN-tyrK8KjbKH_r8oWfo&_nc_zt=23&_nc_ht=scontent-det1-1.xx&_nc_gid=zoqp5Nffov6Xcnum5o2wLA&_nc_ss=72289&oh=00_Af9ZS0quOL0pnjkADi2R65r84YVZl0tTndlQowOF7eKctg&oe=6A40AC49"
+      ],
+      "image_url": "https://scontent-det1-1.xx.fbcdn.net/v/t51.82787-10/730222644_18599803873014517_2904740297947126450_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=kDcqWfIx6lwQ7kNvwExFv4a&_nc_oc=AdoigprA3KcWTGOgq1PE8GI27jdlGY4i8uVwh6_FjUs5CL_tN-tyrK8KjbKH_r8oWfo&_nc_zt=23&_nc_ht=scontent-det1-1.xx&_nc_gid=zoqp5Nffov6Xcnum5o2wLA&_nc_ss=72289&oh=00_Af9ZS0quOL0pnjkADi2R65r84YVZl0tTndlQowOF7eKctg&oe=6A40AC49",
+      "source_avatar_url": "https://scontent-det1-1.xx.fbcdn.net/v/t39.30808-1/481211749_10226256655301514_7164570071186048255_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1080x1080&ctp=s50x50&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=Fp91-Rbp34MQ7kNvwHpWddc&_nc_oc=AdoJk0egi-ZW0OHHWwK-LTfYEXoFiUx3kLysuIhFfeaQWzUCjJqPOSm72D9KmIZP3UI&_nc_zt=24&_nc_ht=scontent-det1-1.xx&_nc_gid=zoqp5Nffov6Xcnum5o2wLA&_nc_ss=72289&oh=00_Af8KD7g0gjaPDmW6StTl-g486Eee4lsi4Bv0rpqYmFDZMA&oe=6A40B133",
+      "text": "《月夜愁》 複音口琴獨奏指定曲\n#複音口琴#harmonica #月夜愁#鄧雨賢\nhttps://www.facebook.com/reel/2886892308318137/",
+      "raw_source": "apify/facebook-posts-scraper",
+      "matched_keywords": [
+        "口琴",
+        "指定曲",
+        "harmonica"
+      ]
+    },
+    {
+      "key": "apify_facebook_posts:10231471989961621",
+      "source_id": "apify_facebook_posts",
+      "source_name": "Apify Facebook Posts",
+      "platform": "facebook",
+      "account": "chaotengchang",
+      "post_id": "10231471989961621",
+      "posted_at": "2026-06-21T10:39:07.000Z",
+      "url": "https://www.facebook.com/reel/1716539829526233/",
+      "media_type": "",
+      "images": [
+        "https://scontent-det1-1.xx.fbcdn.net/v/t51.82787-10/728093315_18599212801014517_6921657027112530662_n.jpg?stp=dst-jpg_tt6&cstp=mx774x1375&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=q_Xny3zx9XEQ7kNvwGK9klv&_nc_oc=Adr_jLk3HRsyBy3UDySTEV1aOwbmI8_5JlkgxY6yEjrzMrNZ8yv_a0yxEbfqYQOVi8A&_nc_zt=23&_nc_ht=scontent-det1-1.xx&_nc_gid=zoqp5Nffov6Xcnum5o2wLA&_nc_ss=72289&oh=00_Af_zLeUCwD6BT7jwxlSK-ycnHYCEZJwfyfByCANKLsjZeA&oe=6A409688"
+      ],
+      "image_url": "https://scontent-det1-1.xx.fbcdn.net/v/t51.82787-10/728093315_18599212801014517_6921657027112530662_n.jpg?stp=dst-jpg_tt6&cstp=mx774x1375&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=q_Xny3zx9XEQ7kNvwGK9klv&_nc_oc=Adr_jLk3HRsyBy3UDySTEV1aOwbmI8_5JlkgxY6yEjrzMrNZ8yv_a0yxEbfqYQOVi8A&_nc_zt=23&_nc_ht=scontent-det1-1.xx&_nc_gid=zoqp5Nffov6Xcnum5o2wLA&_nc_ss=72289&oh=00_Af_zLeUCwD6BT7jwxlSK-ycnHYCEZJwfyfByCANKLsjZeA&oe=6A409688",
+      "source_avatar_url": "https://scontent-det1-1.xx.fbcdn.net/v/t39.30808-1/481211749_10226256655301514_7164570071186048255_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1080x1080&ctp=s50x50&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=Fp91-Rbp34MQ7kNvwHpWddc&_nc_oc=AdoJk0egi-ZW0OHHWwK-LTfYEXoFiUx3kLysuIhFfeaQWzUCjJqPOSm72D9KmIZP3UI&_nc_zt=24&_nc_ht=scontent-det1-1.xx&_nc_gid=zoqp5Nffov6Xcnum5o2wLA&_nc_ss=72289&oh=00_Af8KD7g0gjaPDmW6StTl-g486Eee4lsi4Bv0rpqYmFDZMA&oe=6A40B133",
+      "text": "林俊傑的曲，孫燕姿的詞 《 她說》裡藏著太多感情裡的遺憾與寂寞。這次 Jordan & Penny Duo 用純演奏的方式，重新解構這份細膩。\n⠀\n鋼琴緩緩鋪陳，如同深夜泛起的思緒；主旋律則用 Hohner CX-12 Jazz 半音階口琴演繹，它溫暖、厚實的音色，就像一位懂你的知己，在耳邊輕聲回應著那些沒說出口的無奈。\n⠀\n沒有歌詞，只有口琴與鋼琴最純粹的深夜對話。\n⠀\n戴上耳機，把這首歌送給每個心中有故事的你。\n⠀\n🎵 完整影片請點首頁連結 / 限動連結\n👉 歡迎訂閱頻道、開啟小鈴鐺，第一時間觀看更多口琴演奏、教學紀錄與演出精華！\n👉 請幫影片按讚、分享，這就是對我最大的鼓勵與支持！\n#半音階口琴 #天狼星口琴樂團 #張晁滕⠀\n#她說 #林俊傑\nCX12Jazz 純演奏 JordanandPennyDuo 音樂日常 口琴 鋼琴 演奏 MusicCover Acoustic Duo\nhttps://www.facebook.com/reel/1716539829526233/",
+      "raw_source": "apify/facebook-posts-scraper",
+      "matched_keywords": [
+        "口琴",
+        "演出",
+        "影片"
+      ]
+    },
+    {
+      "key": "fb_markwu_bandoneon:1343027361289095",
+      "source_id": "fb_markwu_bandoneon",
+      "source_name": "WU,Yung-Lung",
+      "platform": "facebook",
+      "account": "markwu.bandoneon",
+      "post_id": "1343027361289095",
+      "posted_at": "2026-06-23T00:05:37.000Z",
+      "url": "https://www.facebook.com/markwu.bandoneon/posts/pfbid0uPuWkYNgw7iWLxFAEKj8MKMGyDR2iJugSDMUrwDSKRnjH9dFHfwe6UZSiMCdRy9gl",
+      "media_type": "",
+      "images": [
+        "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/729293519_1343027444622420_2513990233885545285_n.jpg?stp=dst-jpg_tt6&cstp=mx1125x777&ctp=s843x403&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=CRee3wABTx0Q7kNvwG4wWYi&_nc_oc=Adpm3zdPTucjE-s6Sn5OPdDmanEc1INwustm7WTqjF9nWjhxA_84AewnQRJPsHSOGAI&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=a9KhZs13On7haLnNstHneQ&_nc_ss=72289&oh=00_Af9PnSl773AIVkV3Xj5WICa8De5gWNnYHQ83F8AZv4p2Zw&oe=6A408D5B",
+        "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/729080790_1343027451289086_3708758115691034957_n.jpg?stp=dst-jpg_tt6&cstp=mx1563x782&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jM-ZND8xxzgQ7kNvwHwTBf8&_nc_oc=AdodJtNUyR0B7ixVCpwt4SCDNHcEPP2AJSiZhxZyQwdfBUv1hD70Wu3aKBWQ0N3QdeU&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=a9KhZs13On7haLnNstHneQ&_nc_ss=72289&oh=00_Af9VdOe2c_MIXdR_nvSXRB6od-SvOkboGxnRXftazDYLMg&oe=6A40B5C0"
+      ],
+      "image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/729293519_1343027444622420_2513990233885545285_n.jpg?stp=dst-jpg_tt6&cstp=mx1125x777&ctp=s843x403&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=CRee3wABTx0Q7kNvwG4wWYi&_nc_oc=Adpm3zdPTucjE-s6Sn5OPdDmanEc1INwustm7WTqjF9nWjhxA_84AewnQRJPsHSOGAI&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=a9KhZs13On7haLnNstHneQ&_nc_ss=72289&oh=00_Af9PnSl773AIVkV3Xj5WICa8De5gWNnYHQ83F8AZv4p2Zw&oe=6A408D5B",
+      "source_avatar_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/586386571_1179032964355203_6945874702687110813_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx960x958&ctp=s50x50&_nc_cat=108&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=oUeQ0MUQW0gQ7kNvwHK4eSM&_nc_oc=AdpbUzP9Mo8htp6ReNgWXXpQMq_hmpGH_uE6jnEcpZs-EseRuLcdpNwHsoMqJ70Za3A&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=a9KhZs13On7haLnNstHneQ&_nc_ss=72289&oh=00_Af89jtLgZYYpIfx6wPccTqJiGKIDAlOoIAmplcW8PLayrA&oe=6A40B479",
+      "text": "週六下午兩點淡水館「益品書屋」，與小提琴李昀潔的二重奏\n🎫https://forms.gle/Sz6ha4aMHMsYtFoc6\n另外謝謝鄒老師邀請，今年暑假再度來到衛武營的「夏舞營」-【探戈小週末】系列活動彈琴。\n這次的活動內容很豐富，除了有資深探戈舞者劉心岳、陳維寧帶來不同的課程、還有迷你音樂會、探戈舞會（DJ陳玉玲）、夜晚的舞會after party；還會跟享譽國際的古典吉他家林家瑋有場迷你的音樂會、鋼琴邱顯博的探戈現場樂隊二重奏。\n📍 7/4-7/5衛武營【探戈小週末】\n👉資訊：\nhttps://npacwwy.tw/en19Ovueu\nhttps://www.facebook.com/markwu.bandoneon/posts/pfbid0uPuWkYNgw7iWLxFAEKj8MKMGyDR2iJugSDMUrwDSKRnjH9dFHfwe6UZSiMCdRy9gl",
+      "raw_source": "apify/facebook-posts-scraper",
+      "matched_keywords": [
+        "音樂會"
+      ]
+    },
+    {
+      "key": "fb_cyleoharmonica:10163724190298517",
+      "source_id": "fb_cyleoharmonica",
+      "source_name": "CY Leo",
+      "platform": "facebook",
+      "account": "Cyleoharmonica",
+      "post_id": "10163724190298517",
+      "posted_at": "2026-06-20T15:30:23.000Z",
+      "url": "https://www.facebook.com/Cyleoharmonica/posts/pfbid0NDiPeyEBvHRWDoXz9niPSPa9MfAvQWb1Y7KNen4JWo4D5sGRXQNmWqp6fc28mZMvl",
+      "media_type": "",
+      "images": [
+        "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-6/726315484_10163724187003517_6230471297202916458_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=9ohEJx6K87AQ7kNvwGnjr4b&_nc_oc=AdoPdZ7ZclSkayekrJx8ptEQbM1ghgwSiX0jhf_wZuZ02JD2fzCyWS0HTvjuwoJ6DqQ&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=AWWL4XZNKYcHN9CwTYjJEA&_nc_ss=72289&oh=00_Af_aD7Bb3LOWjGcksTL5Qv01QmSsgLtGwabtR8BQL4G29w&oe=6A40BDCE",
+        "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-6/727277033_10163724189448517_3955773322294816146_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx720x960&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=fZ6kn8XZDpgQ7kNvwE8cTMe&_nc_oc=AdqwaXkWPvEBtwnb4f5bV4U5CH_Raa5VVcES0TR1SB4JMXeA37UDy4GYgj8jbrncCXI&_nc_zt=23&_nc_ht=scontent-atl3-2.xx&_nc_gid=AWWL4XZNKYcHN9CwTYjJEA&_nc_ss=72289&oh=00_Af-Bsk7uJ56V1toiXsU8cETimd3P2wfgBjOfw1v0-8vaGw&oe=6A409740",
+        "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/725767199_10163724190728517_5066148181567988061_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=nDorQimnoZAQ7kNvwGw2lMt&_nc_oc=AdqkZD3TURy5VzyK01IoLADlutf5Z_iBkl0ebb81yDmSUH_t5uWSlvRmmoTJJYkr4VI&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=AWWL4XZNKYcHN9CwTYjJEA&_nc_ss=72289&oh=00_Af_O7x7-_GnVOVqPfzSqk2M_qlAupqwB-xbSOCKrSX5asg&oe=6A409D1F"
+      ],
+      "image_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-6/726315484_10163724187003517_6230471297202916458_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1536x2048&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=9ohEJx6K87AQ7kNvwGnjr4b&_nc_oc=AdoPdZ7ZclSkayekrJx8ptEQbM1ghgwSiX0jhf_wZuZ02JD2fzCyWS0HTvjuwoJ6DqQ&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=AWWL4XZNKYcHN9CwTYjJEA&_nc_ss=72289&oh=00_Af_aD7Bb3LOWjGcksTL5Qv01QmSsgLtGwabtR8BQL4G29w&oe=6A40BDCE",
+      "source_avatar_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-1/335402410_889257229047756_1805769174344993927_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x2048&ctp=s50x50&_nc_cat=106&ccb=1-7&_nc_sid=1d2534&_nc_ohc=V9jGFXidY28Q7kNvwEw9vBn&_nc_oc=Adrlo3qxeyZPVXqNtKJJlWORQ5SdfV4WZCt7n1scV8M7yhCE3Uc6_IWcn3ZO1WSjLEA&_nc_zt=24&_nc_ht=scontent-atl3-1.xx&_nc_gid=AWWL4XZNKYcHN9CwTYjJEA&_nc_ss=72289&oh=00_Af8hYnlACD-P6j4ErGbxaW8JtU1oOnKSJ4KvQmCYH8U9ZA&oe=6A40A5D1",
+      "text": "KCC Hockey Dinner\nhttps://www.facebook.com/Cyleoharmonica/posts/pfbid0NDiPeyEBvHRWDoXz9niPSPa9MfAvQWb1Y7KNen4JWo4D5sGRXQNmWqp6fc28mZMvl",
+      "raw_source": "apify/facebook-posts-scraper",
+      "matched_keywords": [
+        "harmonica"
+      ]
+    },
+    {
+      "key": "fb_aidennevelyn:1556747706011739",
+      "source_id": "fb_aidennevelyn",
+      "source_name": "Aiden N Evelyn",
+      "platform": "facebook",
+      "account": "AidenNEvelyn",
+      "post_id": "1556747706011739",
+      "posted_at": "2026-06-22T12:56:54.000Z",
+      "url": "https://www.facebook.com/AidenNEvelyn/posts/pfbid02B7Uy2D9W2wXMaQeiE9cwCFapW1cNed9BJmmVbNPKThGvn7HPqvwAckzZZ6SAj9nbl",
+      "media_type": "",
+      "images": [
+        "https://scontent-iad6-1.xx.fbcdn.net/v/t51.82787-15/728485063_18475152460098644_5040910329195719910_n.jpg?stp=dst-jpg_tt6&cstp=mx1926x1008&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=8ov6EAukB-cQ7kNvwGsYJYc&_nc_oc=AdoduPyH0v_r7aiRYf72RiiI4AZbvsFUc_CzM9dzNmUkf_TN81hVTSPOUa8awj37OSg&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=J7ows2taX_ykI1m7I2q-bQ&_nc_ss=72289&oh=00_Af80MWtEuaOQdzxHC-hDwTKUTljBnD90x6P_7H7mvt-xzA&oe=6A409A20",
+        "https://scontent-iad3-1.xx.fbcdn.net/v/t51.82787-15/728025308_18475152472098644_6359071237372584581_n.jpg?stp=dst-jpg_tt6&cstp=mx2157x1136&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Nu7r5OZy-4gQ7kNvwFWYK8J&_nc_oc=Adp7OH-I2O6st4xotArKOuJmnFcsYmuUVqoc_7kD8tOqJS6oqAyLUrX2-M1l5A9W5VA&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=J7ows2taX_ykI1m7I2q-bQ&_nc_ss=72289&oh=00_Af9cIhISyHv_ks3xpCOWsrNvtnFkucScj3p2wipuuybSLw&oe=6A40A3AD",
+        "https://scontent-iad3-2.xx.fbcdn.net/v/t51.82787-15/728598166_18475152490098644_670795747575216055_n.jpg?stp=dst-jpg_tt6&cstp=mx1934x1018&ctp=s590x590&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GymYfkCoCx4Q7kNvwHNS5sA&_nc_oc=AdoclDgIcemqZ3cyMcQFF1ytM5h1qKJ2o7sni7VCB-c_ua8ag1MCVYeCKv417f832Ic&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=J7ows2taX_ykI1m7I2q-bQ&_nc_ss=72289&oh=00_Af9DPC8cA71HqIyjTp2GsNqmru0DAje_peiXRilwnSzEFQ&oe=6A408932",
+        "https://scontent-iad6-1.xx.fbcdn.net/v/t51.82787-15/728930054_18475152499098644_7178054600407682151_n.jpg?stp=dst-jpg_tt6&cstp=mx2157x1136&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=plAMwINvjOkQ7kNvwH0-Fyw&_nc_oc=AdrGvDc74g_Ul2EiXpmovEkrXhKdbktO1CZQmbNKghpv62lbXTkKHcIMg1vRj4seIOA&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=J7ows2taX_ykI1m7I2q-bQ&_nc_ss=72289&oh=00_Af8rVEFRLHogf3igClhkjV2PEp8xK6mE9j8Xt7gZKcC4TA&oe=6A40880B",
+        "https://scontent-iad3-2.xx.fbcdn.net/v/t51.82787-15/728580553_18475152508098644_4500127226791460434_n.jpg?stp=dst-jpg_tt6&cstp=mx2157x1136&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=IpWNUmFAfX0Q7kNvwEFfz4G&_nc_oc=Adqyc-A2JLZQ3qNwZJv0VoGOntog6GxqBCKahFEy4ywrtAvDmZXKKxCHNS0rky4gWGA&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=J7ows2taX_ykI1m7I2q-bQ&_nc_ss=72289&oh=00_Af-4DCMBk0wdvK7s5hi6wn3ZPT6isAtSq1kEN6ZImrZCHg&oe=6A4097D0"
+      ],
+      "image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t51.82787-15/728485063_18475152460098644_5040910329195719910_n.jpg?stp=dst-jpg_tt6&cstp=mx1926x1008&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=8ov6EAukB-cQ7kNvwGsYJYc&_nc_oc=AdoduPyH0v_r7aiRYf72RiiI4AZbvsFUc_CzM9dzNmUkf_TN81hVTSPOUa8awj37OSg&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=J7ows2taX_ykI1m7I2q-bQ&_nc_ss=72289&oh=00_Af80MWtEuaOQdzxHC-hDwTKUTljBnD90x6P_7H7mvt-xzA&oe=6A409A20",
+      "source_avatar_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/459216243_1061795612173620_5796402450032412297_n.jpg?stp=c0.228.1365.1365a_cp0_dst-jpg_tt6&cstp=mx1365x1365&ctp=s50x50&_nc_cat=106&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=0_9SioynTy4Q7kNvwE3X9d2&_nc_oc=Ado3bqKrGwjf-_3cxeHeJIB21n6M6jpO0mTO1JGydezCiEybhbfhCayqXylYZtkZZpA&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=J7ows2taX_ykI1m7I2q-bQ&_nc_ss=72289&oh=00_Af-afpBwQvxQWpqPwwDqWXoYQxOxPHn-iItHft37Bg8iew&oe=6A40AEBD",
+      "text": "這趟香港行程的另一個重點活動，就是「Aiden N Evelyn X 英小口琴音樂交流會」！\n當天來了許多大大小小的觀眾，還有一些口琴界的前輩們。大家熱情的互動，讓原本有些緊張的我們頓時放鬆了不少。這次在曲目的安排上，我們也特別選擇了多種不同風格的歌曲，希望能呈現出不一樣的音樂氛圍。\n另外也發現，要用粵語主持整場音樂會，竟然比表演還要困難！舌頭簡直像打結了一樣😅\n音樂會的另一個亮點，就是與英小的學生們一起合奏。那一刻忽然有種回到學生時代吹口琴的感覺，沒有壓力，只有歡樂。很謝謝他們的參與，讓整場音樂會掀起了另一個高潮。\n最後，謝謝英皇書院同學會小學的邀請，以及好朋友 RedBricks口琴樂團 RedBricks Harmonica 的每一位團員，尤其是 Harry Harry Choi ，促成了這次的交流會，也在大大小小的事情上給予我們許多協助與幫忙。有你們真好❤️\n這次唯一的小小遺憾，就是未能一起玩音樂。不過沒關係，下次有機會再一起玩！\nhttps://www.facebook.com/AidenNEvelyn/posts/pfbid02B7Uy2D9W2wXMaQeiE9cwCFapW1cNed9BJmmVbNPKThGvn7HPqvwAckzZZ6SAj9nbl",
+      "raw_source": "apify/facebook-posts-scraper",
+      "matched_keywords": [
+        "口琴",
+        "音樂會",
+        "交流",
+        "harmonica"
+      ]
+    }
+  ],
+  "skipped_old_posts": 92,
+  "errors": []
+}
+Wrote site/data/site-data.js with 114 public entries
+{
+  "written": true,
+  "new_rows": 0,
+  "source_backfills": 0,
+  "directory_backfills": 0,
+  "inbox": "/Users/skyhong/Documents/Harmonica-in-Taiwan/data/feeds/social_feed_inbox.jsonl",
+  "candidates": "/Users/skyhong/Documents/Harmonica-in-Taiwan/data/feeds/social_candidates.jsonl"
+}
+Wrote site/data/site-data.js with 114 public entries
+{
+  "updates": 50,
+  "categorized_updates": {
+    "events": 50,
+    "posts-videos": 50,
+    "student-clubs": 50,
+    "opportunities": 26
+  },
+  "sources": 114,
+  "updates_feed": "/Users/skyhong/Documents/Harmonica-in-Taiwan/site/feeds/updates.xml",
+  "sources_feed": "/Users/skyhong/Documents/Harmonica-in-Taiwan/site/feeds/sources.xml"
+}
+OK: 159/159 social sources and 114/114 directory entries covered.

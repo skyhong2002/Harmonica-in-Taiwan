@@ -168,6 +168,50 @@ def ledger_runs(ledger: dict[str, Any]) -> list[dict[str, Any]]:
     return runs if isinstance(runs, list) else []
 
 
+def parse_ledger_datetime(value: Any) -> dt.datetime | None:
+    raw = str(value or "").strip()
+    if not raw:
+        return None
+    try:
+        parsed = dt.datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=dt.timezone.utc)
+    return parsed.astimezone(dt.timezone.utc)
+
+
+def last_successful_run_at(ledger: dict[str, Any]) -> dt.datetime | None:
+    for row in reversed(ledger_runs(ledger)):
+        if row.get("actor") != FACEBOOK_POSTS_ACTOR:
+            continue
+        if row.get("status") != "SUCCEEDED" or row.get("error_count"):
+            continue
+        parsed = parse_ledger_datetime(row.get("finished_at") or row.get("started_at"))
+        if parsed is not None:
+            return parsed
+    return None
+
+
+def cadence_status(ledger: dict[str, Any], min_spacing_days: float) -> dict[str, Any]:
+    last_run = last_successful_run_at(ledger)
+    status: dict[str, Any] = {
+        "min_run_spacing_days": min_spacing_days,
+        "last_successful_run_at": last_run.isoformat() if last_run else None,
+        "next_allowed_run_at": None,
+        "cadence_ready": True,
+    }
+    if min_spacing_days <= 0 or last_run is None:
+        return status
+    now = dt.datetime.now(dt.timezone.utc)
+    next_allowed = local_day_start_utc(last_run) + dt.timedelta(days=min_spacing_days)
+    status["next_allowed_run_at"] = next_allowed.isoformat()
+    if now < next_allowed:
+        status["cadence_ready"] = False
+        status["seconds_until_next_allowed"] = int((next_allowed - now).total_seconds())
+    return status
+
+
 def select_sources(sources: list[dict[str, Any]], ledger: dict[str, Any], max_sources: int) -> tuple[list[dict[str, Any]], int]:
     if max_sources <= 0 or max_sources >= len(sources):
         return sources, int(ledger.get("next_source_index") or 0)
@@ -249,30 +293,68 @@ def budget_window_cost(ledger: dict[str, Any], since: dt.datetime) -> float:
     return round(total, 6)
 
 
+def local_day_start_utc(now: dt.datetime) -> dt.datetime:
+    local_now = now.astimezone()
+    local_start = local_now.replace(hour=0, minute=0, second=0, microsecond=0)
+    return local_start.astimezone(dt.timezone.utc)
+
+
 def enforce_budget(ledger: dict[str, Any], reserve_usd: float, daily_budget_usd: float, monthly_budget_usd: float) -> dict[str, float]:
     now = dt.datetime.now(dt.timezone.utc)
-    day_cost = budget_window_cost(ledger, now - dt.timedelta(hours=24))
+    day_start = local_day_start_utc(now)
+    day_cost = budget_window_cost(ledger, day_start)
     month_cost = budget_window_cost(ledger, now - dt.timedelta(days=30))
-    if day_cost + reserve_usd > daily_budget_usd:
-        raise RuntimeError(
-            f"Budget guard blocked run: 24h ledger {day_cost:.4f} + reserve {reserve_usd:.4f} > daily {daily_budget_usd:.4f} USD"
-        )
-    if month_cost + reserve_usd > monthly_budget_usd:
-        raise RuntimeError(
-            f"Budget guard blocked run: 30d ledger {month_cost:.4f} + reserve {reserve_usd:.4f} > monthly {monthly_budget_usd:.4f} USD"
-        )
-    return {"last_24h_usd": day_cost, "last_30d_usd": month_cost}
+    daily_remaining = 0.0
+    monthly_remaining = 0.0
+    if daily_budget_usd > 0:
+        daily_remaining = round(max(0.0, daily_budget_usd - day_cost), 6)
+        if day_cost >= daily_budget_usd:
+            raise RuntimeError(
+                f"Budget guard blocked run: local-day ledger {day_cost:.4f} >= daily {daily_budget_usd:.4f} USD"
+            )
+        if reserve_usd > 0 and day_cost + reserve_usd > daily_budget_usd:
+            raise RuntimeError(
+                f"Budget guard blocked run: local-day ledger {day_cost:.4f} + reserve {reserve_usd:.4f} > daily {daily_budget_usd:.4f} USD"
+            )
+    if monthly_budget_usd > 0:
+        monthly_remaining = round(max(0.0, monthly_budget_usd - month_cost), 6)
+        if month_cost >= monthly_budget_usd:
+            raise RuntimeError(
+                f"Budget guard blocked run: 30d ledger {month_cost:.4f} >= monthly {monthly_budget_usd:.4f} USD"
+            )
+        if reserve_usd > 0 and month_cost + reserve_usd > monthly_budget_usd:
+            raise RuntimeError(
+                f"Budget guard blocked run: 30d ledger {month_cost:.4f} + reserve {reserve_usd:.4f} > monthly {monthly_budget_usd:.4f} USD"
+            )
+    return {
+        "daily_window_start": day_start.isoformat(),
+        "daily_window_usd": day_cost,
+        "daily_remaining_usd": daily_remaining,
+        "last_30d_usd": month_cost,
+        "monthly_remaining_usd": monthly_remaining,
+    }
 
 
 def enforce_remote_monthly_budget(limits: dict[str, Any], reserve_usd: float, monthly_budget_usd: float) -> dict[str, float]:
     current = float(limits.get("monthly_usage_usd") or 0)
     account_limit = float(limits.get("max_monthly_usage_usd") or 0)
-    effective_limit = min(monthly_budget_usd, account_limit) if account_limit else monthly_budget_usd
-    if current + reserve_usd > effective_limit:
+    effective_limit = account_limit
+    if monthly_budget_usd > 0:
+        effective_limit = min(monthly_budget_usd, account_limit) if account_limit else monthly_budget_usd
+    remaining = round(max(0.0, effective_limit - current), 6) if effective_limit > 0 else 0.0
+    if effective_limit > 0 and current >= effective_limit:
+        raise RuntimeError(
+            f"Remote Apify budget guard blocked run: monthly usage {current:.4f} >= limit {effective_limit:.4f} USD"
+        )
+    if reserve_usd > 0 and effective_limit > 0 and current + reserve_usd > effective_limit:
         raise RuntimeError(
             f"Remote Apify budget guard blocked run: monthly usage {current:.4f} + reserve {reserve_usd:.4f} > limit {effective_limit:.4f} USD"
         )
-    return {"remote_monthly_usage_usd": current, "remote_monthly_limit_usd": account_limit}
+    return {
+        "remote_monthly_usage_usd": current,
+        "remote_monthly_limit_usd": account_limit,
+        "remote_monthly_remaining_usd": remaining,
+    }
 
 
 def compact_text(value: Any, limit: int = 1800) -> str:
@@ -405,6 +487,29 @@ def local_recent_filter(rows: list[dict[str, Any]], max_age_days: int, now: dt.d
     return kept, dropped_old, dropped_undated
 
 
+def facebook_source_tokens(source: dict[str, Any]) -> set[str]:
+    tokens: set[str] = set()
+    page = str(source.get("page") or "").strip().strip("/")
+    if page and not page.startswith(("http://", "https://")):
+        tokens.add(page.casefold())
+
+    raw_url = str(source.get("url") or "").strip()
+    if raw_url.startswith(("http://", "https://")):
+        parsed = urllib.parse.urlparse(raw_url)
+        path = urllib.parse.unquote(parsed.path).strip("/")
+        parts = [part for part in path.split("/") if part]
+        if parts and parts[0] not in {"p", "people", "pages", "profile.php"}:
+            tokens.add(parts[0].casefold())
+        for part in parts:
+            match = re.search(r"(\d{8,})$", part)
+            if match:
+                tokens.add(match.group(1))
+        query_id = urllib.parse.parse_qs(parsed.query).get("id", [""])[0]
+        if query_id:
+            tokens.add(query_id)
+    return {token for token in tokens if token}
+
+
 def match_source(item: dict[str, Any], sources: list[dict[str, Any]]) -> dict[str, Any] | None:
     urls = " ".join(
         compact_text(first_value(item, ["url", "postUrl", "facebookUrl", "pageUrl", "profileUrl", "userUrl", "link", "topLevelUrl"]))
@@ -417,11 +522,17 @@ def match_source(item: dict[str, Any], sources: list[dict[str, Any]]) -> dict[st
             return source
         if source_url and source_url in urls:
             return source
+        for token in facebook_source_tokens(source):
+            if token.casefold() in urls or f"id={token}" in urls:
+                return source
     account = compact_text(first_value(item, ["pageName", "profileName", "userName", "author", "ownerName"])).lower()
     for source in sources:
         name = str(source.get("name") or "").lower()
         if name and name in account:
             return source
+        for token in facebook_source_tokens(source):
+            if token.casefold() in account:
+                return source
     return sources[0] if len(sources) == 1 else None
 
 
@@ -430,6 +541,16 @@ def normalize_item(item: dict[str, Any], sources: list[dict[str, Any]]) -> dict[
     url = compact_text(first_value(item, ["url", "postUrl", "facebookUrl", "link", "permalink", "topLevelUrl"]))
     post_id = compact_text(first_value(item, ["postId", "id", "post_id", "legacyId", "shortCode"])) or url
     posted_at = compact_text(first_value(item, ["time", "timestamp", "date", "createdAt", "created_time", "publishedAt"]))
+    source_display_name = compact_text(
+        first_value(item, ["pageName", "profileName", "authorName", "ownerName", "userName", "author"])
+        or source.get("name")
+        or source.get("id")
+        or "Facebook"
+    )
+    source_profile_url = compact_text(
+        first_value(item, ["pageUrl", "profileUrl", "userUrl", "authorUrl", "ownerProfileUrl"])
+        or facebook_url(source)
+    )
     text_parts = [
         first_value(item, ["text", "message", "caption", "content", "description", "title"]),
         nested_text(item.get("attachments")),
@@ -450,7 +571,9 @@ def normalize_item(item: dict[str, Any], sources: list[dict[str, Any]]) -> dict[
         "raw_source": FACEBOOK_POSTS_ACTOR,
         "source_avatar_url": source_avatar,
         "source_id": source.get("id") or "apify_facebook_posts",
+        "source_display_name": source_display_name,
         "source_name": source.get("name") or source.get("id") or "Apify Facebook Posts",
+        "source_profile_url": source_profile_url,
         "text": compact_text("\n".join(str(part) for part in text_parts if part)),
         "url": url,
     }
@@ -490,7 +613,7 @@ def run_actor(
     results_limit: int,
     days_back: int,
     max_items: int,
-    max_total_charge_usd: float,
+    max_total_charge_usd: float | None,
     memory_mbytes: int,
     timeout_secs: int,
     poll_secs: float,
@@ -498,17 +621,19 @@ def run_actor(
 ) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     actor_id = actor_api_id(FACEBOOK_POSTS_ACTOR)
     body = apify_input(sources, results_limit, days_back, include_video_transcript)
+    query = {
+        "maxItems": max_items,
+        "memory": memory_mbytes,
+        "timeout": timeout_secs,
+        "restartOnError": "false",
+    }
+    if max_total_charge_usd is not None and max_total_charge_usd > 0:
+        query["maxTotalChargeUsd"] = round(max_total_charge_usd, 4)
     run_data = apify_request(
         "POST",
         f"/acts/{actor_id}/runs",
         token,
-        query={
-            "maxTotalChargeUsd": max_total_charge_usd,
-            "maxItems": max_items,
-            "memory": memory_mbytes,
-            "timeout": timeout_secs,
-            "restartOnError": "false",
-        },
+        query=query,
         body=body,
         timeout=60,
     ).get("data", {})
@@ -559,18 +684,20 @@ def main() -> int:
     parser.add_argument("--source-id", action="append", default=[])
     parser.add_argument("--priority", action="store_true")
     parser.add_argument("--full-refresh", action="store_true")
-    parser.add_argument("--max-sources-per-run", type=int, default=5)
+    parser.add_argument("--max-sources-per-run", type=int, default=0)
     parser.add_argument("--results-limit", type=int, default=5)
-    parser.add_argument("--days-back", type=int, default=7)
-    parser.add_argument("--local-max-post-age-days", type=int, default=7)
-    parser.add_argument("--max-items", type=int, default=5)
-    parser.add_argument("--max-total-charge-usd", type=float, default=0.04)
-    parser.add_argument("--daily-budget-usd", type=float, default=0.15)
-    parser.add_argument("--monthly-budget-usd", type=float, default=2.50)
+    parser.add_argument("--days-back", type=int, default=30)
+    parser.add_argument("--local-max-post-age-days", type=int, default=30)
+    parser.add_argument("--max-items", type=int, default=0)
+    parser.add_argument("--max-total-charge-usd", type=float, default=0.0)
+    parser.add_argument("--daily-budget-usd", type=float, default=0.60)
+    parser.add_argument("--monthly-budget-usd", type=float, default=0.0)
+    parser.add_argument("--min-run-spacing-days", type=float, default=4.0)
     parser.add_argument("--memory-mbytes", type=int, default=1024)
-    parser.add_argument("--timeout-secs", type=int, default=180)
+    parser.add_argument("--timeout-secs", type=int, default=900)
     parser.add_argument("--poll-secs", type=float, default=5.0)
     parser.add_argument("--include-video-transcript", action="store_true")
+    parser.add_argument("--force", action="store_true")
     parser.add_argument("--check", action="store_true")
     parser.add_argument("--run", action="store_true")
     parser.add_argument("--no-write", action="store_true")
@@ -583,8 +710,21 @@ def main() -> int:
         sources, start_index = select_priority_sources(all_sources, max_sources)
     else:
         sources, start_index = select_sources(all_sources, ledger, max_sources)
+    run_cadence = cadence_status(ledger, args.min_run_spacing_days)
+    if args.run and not args.force and not run_cadence["cadence_ready"]:
+        print(json.dumps({
+            "ok": True,
+            "skipped": True,
+            "skip_reason": "recent_successful_apify_run",
+            "actor": FACEBOOK_POSTS_ACTOR,
+            "sources_total": len(all_sources),
+            "sources_selected_count": len(sources),
+            **run_cadence,
+        }, ensure_ascii=False, indent=2))
+        return 0
     token, token_source = read_token()
-    reserve = args.max_total_charge_usd
+    max_items = args.max_items if args.max_items > 0 else max(args.results_limit * max(len(sources), 1), max(len(sources), 1))
+    reserve = args.max_total_charge_usd if args.max_total_charge_usd > 0 else 0.0
     budget_status = enforce_budget(ledger, reserve, args.daily_budget_usd, args.monthly_budget_usd)
     remote_budget_status: dict[str, Any] = {}
     if token:
@@ -595,6 +735,19 @@ def main() -> int:
             if args.run:
                 raise
             remote_budget_status = {"remote_budget_check_error": str(exc)}
+    cap_candidates = []
+    if args.max_total_charge_usd > 0:
+        cap_candidates.append(args.max_total_charge_usd)
+    elif args.daily_budget_usd > 0:
+        cap_candidates.append(float(budget_status.get("daily_remaining_usd") or 0.0))
+    if args.monthly_budget_usd > 0:
+        cap_candidates.append(float(budget_status.get("monthly_remaining_usd") or 0.0))
+    remote_remaining = remote_budget_status.get("remote_monthly_remaining_usd")
+    if isinstance(remote_remaining, (int, float)) and remote_remaining > 0:
+        cap_candidates.append(float(remote_remaining))
+    actor_spend_cap_usd = round(min(cap_candidates), 4) if cap_candidates else None
+    if actor_spend_cap_usd is not None and actor_spend_cap_usd <= 0:
+        raise RuntimeError("Budget guard blocked run: no Apify spend remains for the active budget window.")
 
     plan = {
         "actor": FACEBOOK_POSTS_ACTOR,
@@ -604,16 +757,19 @@ def main() -> int:
         "results_limit": args.results_limit,
         "days_back": args.days_back,
         "local_max_post_age_days": args.local_max_post_age_days,
-        "max_items": args.max_items,
-        "max_total_charge_usd": args.max_total_charge_usd,
+        "max_items": max_items,
+        "independent_actor_cap_usd": args.max_total_charge_usd or None,
+        "actor_spend_cap_usd": actor_spend_cap_usd,
         "reserve_usd_for_budget_guard": reserve,
         "estimated_actor_price_usd": estimate_max_charge_usd(args.results_limit, len(sources)),
         "daily_budget_usd": args.daily_budget_usd,
         "monthly_budget_usd": args.monthly_budget_usd,
+        "force": args.force,
         "ledger": str(args.ledger),
         "inbox": str(args.inbox),
         "has_token": bool(token),
         "token_source": token_source,
+        **run_cadence,
         **budget_status,
         **remote_budget_status,
     }
@@ -628,10 +784,8 @@ def main() -> int:
         raise SystemExit("No enabled facebook_page_posts sources selected.")
     if args.results_limit < 1 or args.results_limit > 20:
         raise SystemExit("--results-limit must stay between 1 and 20 for this budget-capped fetcher.")
-    if args.max_items < 1 or args.max_items > 20:
-        raise SystemExit("--max-items must stay between 1 and 20 for this budget-capped fetcher.")
-    if args.max_total_charge_usd > 0.25:
-        raise SystemExit("--max-total-charge-usd is capped at 0.25 by this safe fetcher.")
+    if max_items < 1 or max_items > 2000:
+        raise SystemExit("--max-items must stay between 1 and 2000 for this budget-capped fetcher.")
 
     started_at = dt.datetime.now(dt.timezone.utc).isoformat()
     errors: list[dict[str, Any]] = []
@@ -642,8 +796,8 @@ def main() -> int:
             sources,
             results_limit=args.results_limit,
             days_back=args.days_back,
-            max_items=args.max_items,
-            max_total_charge_usd=args.max_total_charge_usd,
+            max_items=max_items,
+            max_total_charge_usd=actor_spend_cap_usd,
             memory_mbytes=args.memory_mbytes,
             timeout_secs=args.timeout_secs,
             poll_secs=args.poll_secs,
@@ -701,8 +855,9 @@ def main() -> int:
         "results_limit": args.results_limit,
         "days_back": args.days_back,
         "local_max_post_age_days": args.local_max_post_age_days,
-        "max_items": args.max_items,
-        "max_total_charge_usd": args.max_total_charge_usd,
+        "max_items": max_items,
+        "max_total_charge_usd": args.max_total_charge_usd or None,
+        "actor_spend_cap_usd": actor_spend_cap_usd,
         "reserved_usd": reserve,
         "usage_total_usd": charged,
         "platform_usage_total_usd": platform_usage,

@@ -209,8 +209,11 @@ def normalize_video(source: dict[str, Any], info: dict[str, Any]) -> dict[str, A
     description = compact_text(info.get("description"), 1800)
     video_url = str(info.get("webpage_url") or info.get("original_url") or entry_video_url(info))
     post_id = str(info.get("id") or video_url)
+    source_name = source.get("name") or info.get("channel") or info.get("uploader") or "YouTube"
+    source_display_name = compact_text(info.get("channel") or info.get("uploader") or source_name, 300)
+    source_profile_url = str(info.get("channel_url") or info.get("uploader_url") or source.get("url") or "")
     return {
-        "account": source.get("url") or info.get("channel_url") or info.get("uploader_url") or "",
+        "account": source_profile_url,
         "image_url": image_url,
         "images": [image_url] if image_url else [],
         "include_without_keywords": bool(source.get("include_without_keywords", True)),
@@ -220,7 +223,9 @@ def normalize_video(source: dict[str, Any], info: dict[str, Any]) -> dict[str, A
         "posted_at": posted.isoformat() if posted else "",
         "raw_source": "yt-dlp",
         "source_id": source.get("id") or "youtube_ytdlp",
-        "source_name": source.get("name") or info.get("channel") or info.get("uploader") or "YouTube",
+        "source_display_name": source_display_name,
+        "source_name": source_name,
+        "source_profile_url": source_profile_url,
         "text": compact_text("\n".join(part for part in [title, description] if part)),
         "url": video_url,
     }
@@ -259,15 +264,18 @@ def fetch_source(
             continue
         info = entry
         if parse_date(info) is None or not first_thumbnail(info):
-            detail_output = run_ytdlp(
-                base_cmd,
-                ["--dump-single-json", "--no-playlist", video_url],
-                timeout_secs,
-            )
+            try:
+                detail_output = run_ytdlp(
+                    base_cmd,
+                    ["--dump-single-json", "--no-playlist", video_url],
+                    timeout_secs,
+                )
+            except RuntimeError:
+                continue
             try:
                 info = json.loads(detail_output)
             except json.JSONDecodeError as exc:
-                raise RuntimeError(f"yt-dlp returned invalid JSON for {video_url}: {exc}") from exc
+                continue
         posted = parse_date(info)
         if too_old(posted, max_age_days, now):
             inbox_keys.add(inbox_key)
@@ -288,7 +296,7 @@ def main() -> int:
     parser.add_argument("--source-id", action="append", default=[])
     parser.add_argument("--full-refresh", action="store_true")
     parser.add_argument("--max-sources-per-run", type=int, default=5)
-    parser.add_argument("--max-post-age-days", type=int, default=7)
+    parser.add_argument("--max-post-age-days", type=int, default=30)
     parser.add_argument("--timeout-secs", type=int, default=90)
     parser.add_argument("--verbose", action="store_true")
     parser.add_argument("--check", action="store_true")

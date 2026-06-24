@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import csv
 import email.utils
+import hashlib
 import json
 import re
 import urllib.parse
@@ -17,6 +18,10 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SITE_ROOT = PROJECT_ROOT / "site"
 DATA_OUT = SITE_ROOT / "data" / "site-data.js"
 CANDIDATES = PROJECT_ROOT / "data" / "feeds" / "social_candidates.jsonl"
+SOURCE_PROFILES_CACHE = PROJECT_ROOT / "data" / "feeds" / "source_profiles.json"
+SOCIAL_SOURCES = PROJECT_ROOT / "data" / "feeds" / "social_sources.json"
+SOURCE_TAG_CACHE = PROJECT_ROOT / "state" / "source_llm_tags.json"
+SOURCE_AVATAR_DIR = SITE_ROOT / "assets" / "source-avatars"
 TAIPEI_TZ = timezone(timedelta(hours=8))
 
 SOURCE_FILES = [
@@ -29,6 +34,9 @@ LINK_FIELDS = [
     ("fb_url", "Facebook"),
     ("ig_url", "Instagram"),
     ("youtube_url", "YouTube"),
+    ("x_url", "X"),
+    ("threads_url", "Threads"),
+    ("tiktok_url", "TikTok"),
     ("contact_public_url", "公開聯絡"),
 ]
 
@@ -36,6 +44,12 @@ LINK_FIELDS = [
 def read_csv(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8-sig") as handle:
         return list(csv.DictReader(handle))
+
+
+def read_json(path: Path, default: Any) -> Any:
+    if not path.exists():
+        return default
+    return json.loads(path.read_text(encoding="utf-8"))
 
 
 def clean(value: str | None) -> str:
@@ -84,11 +98,17 @@ def url_handles(url: str) -> set[str]:
     if not path_parts:
         return handles
     first = path_parts[0]
-    if "instagram.com" in host:
+    if "instagram.com" in host or "threads.net" in host:
         if first not in {"p", "reel", "reels", "tv", "stories"}:
             handles.add(first)
     elif "facebook.com" in host:
-        if first not in {"people", "pages", "profile.php"}:
+        if first not in {"p", "people", "pages", "profile.php"}:
+            handles.add(first)
+    elif host in {"x.com", "twitter.com"}:
+        if first not in {"home", "i", "intent", "search", "share", "hashtag", "explore"}:
+            handles.add(first)
+    elif "tiktok.com" in host:
+        if first.startswith("@"):
             handles.add(first)
     elif "youtube.com" in host and first.startswith("@"):
         handles.add(first)
@@ -97,11 +117,23 @@ def url_handles(url: str) -> set[str]:
     return {normalize_key(handle) for handle in handles if handle}
 
 
+def source_initials(source: str) -> str:
+    words = re.findall(r"[A-Za-z0-9]+", source or "")
+    if words:
+        return "".join(word[0].upper() for word in words[:3])
+    chinese_chars = re.findall(r"[\u4e00-\u9fff]", source or "")
+    if chinese_chars:
+        return "".join(chinese_chars[:2])
+    return "H"
+
+
 def entry_match_keys(entry: dict[str, object]) -> set[str]:
     keys = {
         normalize_key(str(entry.get("name") or "")),
         normalize_key(str(entry.get("nameEn") or "")),
     }
+    for alias in entry.get("aliases", []):
+        keys.add(normalize_key(str(alias or "")))
     keywords = str(entry.get("keywords") or "")
     if keywords:
         keys.add(normalize_key(keywords))
@@ -111,18 +143,361 @@ def entry_match_keys(entry: dict[str, object]) -> set[str]:
     return {key for key in keys if key}
 
 
+def profile_match_keys(profile: dict[str, Any]) -> set[str]:
+    keys = {
+        normalize_key(str(profile.get("name") or "")),
+        normalize_key(str(profile.get("account") or "")),
+    }
+    source_id = str(profile.get("id") or "")
+    for prefix in ("ig_", "fb_", "yt_", "youtube_", "x_", "twitter_", "threads_", "tiktok_"):
+        if source_id.startswith(prefix):
+            keys.add(normalize_key(source_id[len(prefix) :]))
+    for field in ("account", "profile_url"):
+        value = str(profile.get(field) or "")
+        if is_public_url(value):
+            keys.update(url_handles(value))
+    return {key for key in keys if key}
+
+
 def candidate_match_keys(row: dict[str, Any]) -> set[str]:
     keys = {
         normalize_key(str(row.get("source_name") or "")),
         normalize_key(str(row.get("account") or "")),
     }
     source_id = str(row.get("source_id") or "")
-    for prefix in ("ig_", "fb_", "yt_", "youtube_"):
+    for prefix in ("ig_", "fb_", "yt_", "youtube_", "x_", "twitter_", "threads_", "tiktok_"):
         if source_id.startswith(prefix):
             keys.add(normalize_key(source_id[len(prefix) :]))
     if row.get("url"):
         keys.update(url_handles(str(row.get("url"))))
     return {key for key in keys if key}
+
+
+def entry_tag_fingerprint(entry: dict[str, object]) -> str:
+    payload = {
+        "name": entry.get("name") or "",
+        "nameEn": entry.get("nameEn") or "",
+        "aliases": entry.get("aliases") or [],
+        "category": entry.get("category") or "",
+        "type": entry.get("type") or "",
+        "region": entry.get("region") or "",
+        "cityOrFocus": entry.get("cityOrFocus") or "",
+        "summary": entry.get("summary") or "",
+        "keywords": entry.get("keywords") or "",
+        "links": entry.get("links") or [],
+    }
+    raw = json.dumps(payload, ensure_ascii=False, sort_keys=True)
+    return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+
+
+def canonical_link_key(url: str) -> str:
+    parsed = urllib.parse.urlparse(url)
+    host = parsed.netloc.casefold().removeprefix("www.")
+    path = "/".join(
+        urllib.parse.unquote(part).strip().strip("@").casefold()
+        for part in parsed.path.split("/")
+        if part.strip("/")
+    )
+    if any(
+        domain in host
+        for domain in ("facebook.com", "instagram.com", "youtube.com", "x.com", "twitter.com", "threads.net", "tiktok.com")
+    ):
+        handles = sorted(url_handles(url))
+        if handles:
+            return f"{host}:{handles[0]}"
+    return f"{host}/{path}".rstrip("/")
+
+
+def entry_identity_keys(entry: dict[str, object]) -> set[str]:
+    keys: set[str] = set()
+    for link in entry.get("links", []):
+        if isinstance(link, dict):
+            key = canonical_link_key(str(link.get("url") or ""))
+            if key:
+                keys.add(key)
+    return keys
+
+
+def social_identity_keys(entry: dict[str, object]) -> set[str]:
+    keys: set[str] = set()
+    for link in entry.get("links", []):
+        if not isinstance(link, dict):
+            continue
+        url = str(link.get("url") or "")
+        host = urllib.parse.urlparse(url).netloc.casefold()
+        if any(
+            domain in host
+            for domain in ("facebook.com", "instagram.com", "youtube.com", "x.com", "twitter.com", "threads.net", "tiktok.com")
+        ):
+            key = canonical_link_key(url)
+            if key:
+                keys.add(key)
+    return keys
+
+
+def entry_text(entry: dict[str, object]) -> str:
+    return " ".join(
+        str(entry.get(field) or "")
+        for field in ("name", "nameEn", "category", "type", "region", "cityOrFocus", "summary", "keywords")
+    )
+
+
+def source_like(entry: dict[str, object]) -> bool:
+    text = entry_text(entry)
+    return any(word in text for word in ("來源", "教學", "工作室", "教室", "專賣店", "品牌", "器材", "平台"))
+
+
+def person_like(entry: dict[str, object]) -> bool:
+    return "個人" in entry_text(entry)
+
+
+def duplicate_entries(left: dict[str, object], right: dict[str, object]) -> bool:
+    if normalize_key(str(left.get("name") or "")) == normalize_key(str(right.get("name") or "")):
+        return True
+
+    left_keys = entry_identity_keys(left)
+    right_keys = entry_identity_keys(right)
+    shared_keys = left_keys & right_keys
+    if len(shared_keys) >= 2:
+        return True
+
+    left_social = social_identity_keys(left)
+    right_social = social_identity_keys(right)
+    shared_social = left_social & right_social
+    if shared_social and ((person_like(left) and source_like(right)) or (person_like(right) and source_like(left))):
+        return True
+
+    return False
+
+
+def entry_score(entry: dict[str, object]) -> tuple[int, int, int, int, int]:
+    name = str(entry.get("name") or "")
+    generic_penalty = sum(word in name for word in ("相關", "子來源", "新團體", "參考來源"))
+    return (
+        1 if entry.get("status") == "已查核" else 0,
+        len(entry.get("links", []) or []),
+        -generic_penalty,
+        1 if source_like(entry) and not person_like(entry) else 0,
+        -len(name),
+    )
+
+
+def best_entry(entries: list[dict[str, object]]) -> dict[str, object]:
+    return max(entries, key=entry_score)
+
+
+def strongest_status(entries: list[dict[str, object]]) -> str:
+    statuses = [str(entry.get("status") or "") for entry in entries]
+    if "已查核" in statuses:
+        return "已查核"
+    if "部分查核" in statuses:
+        return "部分查核"
+    return "待確認"
+
+
+def strongest_source_status(entries: list[dict[str, object]]) -> str:
+    statuses = [str(entry.get("sourceStatus") or "") for entry in entries if entry.get("sourceStatus")]
+    if any("已查核" in status and "部分" not in status for status in statuses):
+        return "已查核公開連結"
+    if any("部分" in status for status in statuses):
+        return "部分已查核公開連結"
+    return statuses[0] if statuses else ""
+
+
+def merge_unique_strings(values: list[str]) -> list[str]:
+    merged: list[str] = []
+    for value in values:
+        text = clean(value)
+        if text and text not in merged:
+            merged.append(text)
+    return merged
+
+
+def merge_links(entries: list[dict[str, object]]) -> list[dict[str, str]]:
+    links: list[dict[str, str]] = []
+    seen: set[str] = set()
+    for entry in sorted(entries, key=lambda item: -len(item.get("links", []) or [])):
+        for link in entry.get("links", []):
+            if not isinstance(link, dict):
+                continue
+            url = str(link.get("url") or "")
+            key = canonical_link_key(url)
+            if not url or key in seen:
+                continue
+            links.append({"label": str(link.get("label") or "公開連結"), "url": url})
+            seen.add(key)
+    return links
+
+
+def merge_group(entries: list[dict[str, object]]) -> dict[str, object]:
+    primary = best_entry(entries)
+    aliases = merge_unique_strings(
+        [
+            str(value)
+            for entry in entries
+            for value in (entry.get("name"), entry.get("nameEn"))
+            if value and value != primary.get("name") and value != primary.get("nameEn")
+        ]
+    )
+    summaries = merge_unique_strings([str(entry.get("summary") or "") for entry in entries])
+    keywords = merge_unique_strings([str(entry.get("keywords") or "") for entry in entries])
+    types = merge_unique_strings([str(entry.get("type") or "") for entry in entries])
+    regions = merge_unique_strings([str(entry.get("region") or "") for entry in entries])
+    focuses = merge_unique_strings([str(entry.get("cityOrFocus") or "") for entry in entries])
+
+    merged = dict(primary)
+    merged["id"] = "+".join(str(entry.get("id") or "") for entry in entries if entry.get("id"))
+    merged["aliases"] = aliases
+    merged["links"] = merge_links(entries)
+    merged["type"] = " / ".join(types[:3])
+    merged["region"] = " / ".join(regions[:3])
+    merged["cityOrFocus"] = " / ".join(focuses[:3])
+    merged["summary"] = " / ".join(summaries[:4])
+    merged["keywords"] = " ".join(keywords)
+    merged["status"] = strongest_status(entries)
+    merged["sourceStatus"] = strongest_source_status(entries)
+    merged["source"] = "+".join(sorted({str(entry.get("source") or "") for entry in entries if entry.get("source")}))
+    return merged
+
+
+def merge_duplicate_entries(entries: list[dict[str, object]]) -> list[dict[str, object]]:
+    parent = list(range(len(entries)))
+
+    def find(index: int) -> int:
+        while parent[index] != index:
+            parent[index] = parent[parent[index]]
+            index = parent[index]
+        return index
+
+    def union(left: int, right: int) -> None:
+        root_left = find(left)
+        root_right = find(right)
+        if root_left != root_right:
+            parent[root_right] = root_left
+
+    for left_index, left in enumerate(entries):
+        for right_index in range(left_index + 1, len(entries)):
+            if duplicate_entries(left, entries[right_index]):
+                union(left_index, right_index)
+
+    groups: dict[int, list[dict[str, object]]] = {}
+    for index, entry in enumerate(entries):
+        groups.setdefault(find(index), []).append(entry)
+    return [merge_group(group) for group in groups.values()]
+
+
+def fallback_source_tags(entry: dict[str, object]) -> list[str]:
+    text = " ".join(
+        str(entry.get(field) or "")
+        for field in ("name", "nameEn", "category", "type", "region", "cityOrFocus", "summary", "keywords")
+    )
+    tags: list[str] = []
+    category = str(entry.get("category") or "")
+    if category:
+        tags.append(category)
+    for needle, tag in [
+        ("學校", "學生社團"),
+        ("學生", "學生社團"),
+        ("大學", "大專社團"),
+        ("高中", "高中社團"),
+        ("高級中學", "高中社團"),
+        ("樂團", "團體樂團"),
+        ("團體", "團體樂團"),
+        ("個人", "演奏者"),
+        ("教學", "教學"),
+        ("課程", "課程"),
+        ("工作室", "工作室"),
+        ("音樂節", "音樂節"),
+        ("比賽", "比賽"),
+        ("成發", "成發"),
+        ("半音階", "半音階"),
+        ("複音", "複音"),
+        ("十孔", "十孔"),
+        ("重奏", "重奏"),
+        ("國際", "國際交流"),
+    ]:
+        if needle in text:
+            tags.append(tag)
+    if "口琴" in text or tags:
+        tags.insert(0, "口琴")
+    return list(dict.fromkeys(tag for tag in tags if tag))[:8]
+
+
+def source_tag_cache() -> dict[str, dict[str, Any]]:
+    if not SOURCE_TAG_CACHE.exists():
+        return {}
+    data = json.loads(SOURCE_TAG_CACHE.read_text(encoding="utf-8"))
+    items = data.get("items") if isinstance(data, dict) else {}
+    return items if isinstance(items, dict) else {}
+
+
+def apply_source_tags(entry: dict[str, object], cache: dict[str, dict[str, Any]]) -> None:
+    cached = cache.get(entry_tag_fingerprint(entry)) or {}
+    tags = cached.get("sourceTags") or cached.get("tags") or []
+    if isinstance(tags, str):
+        tags = re.split(r"[,，、\s]+", tags)
+    source_tags = [str(tag).strip() for tag in tags if str(tag).strip()]
+    entry["sourceTags"] = source_tags[:8] if source_tags else fallback_source_tags(entry)
+
+    summary = str(cached.get("sourceSummary") or cached.get("summary") or "").strip()
+    if summary:
+        entry["sourceSummary"] = summary
+
+    reason = str(cached.get("sourceTagReason") or cached.get("reason") or "").strip()
+    if reason:
+        entry["sourceTagReason"] = reason
+
+
+def cached_avatar_url(avatar_source_url: str) -> str:
+    if not avatar_source_url:
+        return ""
+    if avatar_source_url.startswith("/assets/"):
+        return avatar_source_url
+    digest = hashlib.sha256(avatar_source_url.encode("utf-8")).hexdigest()[:20]
+    existing = sorted(SOURCE_AVATAR_DIR.glob(f"{digest}.*"))
+    if not existing:
+        return ""
+    return f"/assets/source-avatars/{existing[0].name}"
+
+
+def avatar_profiles_by_key() -> dict[str, dict[str, str]]:
+    if not SOURCE_PROFILES_CACHE.exists():
+        return {}
+    data = json.loads(SOURCE_PROFILES_CACHE.read_text(encoding="utf-8"))
+    profiles = data.get("profiles") if isinstance(data, dict) else {}
+    if not isinstance(profiles, dict):
+        return {}
+
+    by_key: dict[str, dict[str, str]] = {}
+    for profile in profiles.values():
+        if not isinstance(profile, dict):
+            continue
+        source_name = str(profile.get("name") or profile.get("title") or "")
+        avatar = cached_avatar_url(
+            str(profile.get("avatar_url") or profile.get("avatar_source_url") or "")
+        )
+        payload = {
+            "avatarUrl": avatar,
+            "sourceInitials": source_initials(source_name),
+            "avatarSource": source_name,
+        }
+        for key in profile_match_keys(profile):
+            existing = by_key.get(key)
+            if existing and existing.get("avatarUrl"):
+                continue
+            by_key[key] = payload
+    return by_key
+
+
+def apply_avatar(entry: dict[str, object], avatars: dict[str, dict[str, str]]) -> None:
+    matches = [
+        avatars[key]
+        for key in sorted(entry_match_keys(entry))
+        if key in avatars
+    ]
+    best = next((match for match in matches if match.get("avatarUrl")), matches[0] if matches else {})
+    entry["avatarUrl"] = best.get("avatarUrl", "")
+    entry["sourceInitials"] = source_initials(str(entry.get("name") or best.get("avatarSource") or ""))
 
 
 def read_candidates() -> list[dict[str, Any]]:
@@ -140,9 +515,19 @@ def read_candidates() -> list[dict[str, Any]]:
     return rows
 
 
+def is_source_page_backfill(row: dict[str, Any]) -> bool:
+    if row.get("raw_source") == "public-link-backfill":
+        return True
+    media_type = str(row.get("media_type") or "")
+    post_id = str(row.get("post_id") or "")
+    return media_type in {"source_page", "directory_source_page"} or post_id.startswith("source_page:")
+
+
 def latest_updates_by_key() -> dict[str, dict[str, Any]]:
     latest: dict[str, dict[str, Any]] = {}
     for row in read_candidates():
+        if is_source_page_backfill(row):
+            continue
         posted = parse_time(str(row.get("posted_at") or row.get("seen_at") or ""))
         if posted is None:
             continue
@@ -252,7 +637,6 @@ def entry_from_row(row: dict[str, str], source: str, row_number: int) -> dict[st
         "nameEn": clean(row.get("name_en")),
         "category": category_for(row, source),
         "type": clean(row.get("type")),
-        "tier": clean(row.get("tier")),
         "region": clean(row.get("region")),
         "cityOrFocus": city_or_focus,
         "summary": summary,
@@ -272,30 +656,21 @@ def build_entries() -> list[dict[str, object]]:
             if entry:
                 entries.append(entry)
 
-    best_by_name: dict[str, dict[str, object]] = {}
-    for entry in entries:
-        key = str(entry["name"]).casefold().replace(" ", "")
-        existing = best_by_name.get(key)
-        if not existing:
-            best_by_name[key] = entry
-            continue
-        existing_links = existing.get("links", [])
-        new_links = entry.get("links", [])
-        existing_score = len(existing_links) + (2 if existing.get("status") == "已查核" else 0)
-        new_score = len(new_links) + (2 if entry.get("status") == "已查核" else 0)
-        if new_score > existing_score:
-            best_by_name[key] = entry
+    merged_entries = merge_duplicate_entries(entries)
 
     latest = latest_updates_by_key()
-    for entry in best_by_name.values():
+    avatars = avatar_profiles_by_key()
+    tag_cache = source_tag_cache()
+    for entry in merged_entries:
         apply_latest_update(entry, latest)
+        apply_avatar(entry, avatars)
+        apply_source_tags(entry, tag_cache)
 
     sorted_entries = sorted(
-        best_by_name.values(),
+        merged_entries,
         key=lambda item: (
             -float(item.get("_latestUpdateSort") or 0),
             str(item.get("category", "")),
-            str(item.get("tier", "Z") or "Z"),
             str(item.get("name", "")),
         ),
     )
@@ -312,6 +687,38 @@ def count_by(entries: list[dict[str, object]], field: str) -> dict[str, int]:
     return dict(sorted(counts.items(), key=lambda item: item[0]))
 
 
+def social_source_stats() -> dict[str, object]:
+    config = read_json(SOCIAL_SOURCES, {"sources": []})
+    sources = [
+        source
+        for source in config.get("sources", [])
+        if source.get("enabled", True) and source.get("type") != "jsonl"
+    ]
+    platforms: dict[str, int] = {}
+    types: dict[str, int] = {}
+    for source in sources:
+        platform = str(source.get("platform") or source.get("type") or "unknown")
+        source_type = str(source.get("type") or "unknown")
+        platforms[platform] = platforms.get(platform, 0) + 1
+        types[source_type] = types.get(source_type, 0) + 1
+
+    rsshub_sources = [
+        source
+        for source in sources
+        if str(source.get("type") or "").startswith("rsshub_") or bool(source.get("rsshub_base"))
+    ]
+    facebook_sources = sum(1 for source in sources if source.get("type") == "facebook_page_posts")
+    return {
+        "totalSources": len(sources),
+        "rsshubSources": len(rsshub_sources),
+        "apifySources": facebook_sources,
+        "facebookSources": facebook_sources,
+        "youtubeSources": sum(1 for source in sources if source.get("type") == "youtube_ytdlp"),
+        "platforms": dict(sorted(platforms.items(), key=lambda item: item[0])),
+        "types": dict(sorted(types.items(), key=lambda item: item[0])),
+    }
+
+
 def main() -> None:
     entries = build_entries()
     payload = {
@@ -322,6 +729,7 @@ def main() -> None:
             "verifiedEntries": sum(1 for entry in entries if entry.get("status") == "已查核"),
             "categories": count_by(entries, "category"),
             "statuses": count_by(entries, "status"),
+            "watchSources": social_source_stats(),
         },
     }
 

@@ -22,11 +22,13 @@
       <string>/Users/skyhong/Documents/Harmonica-in-Taiwan</string>
     </dict>
 
-    <key>StartInterval</key>
-    <integer>7200</integer>
-
-    <key>RunAtLoad</key>
-    <true/>
+    <key>StartCalendarInterval</key>
+    <dict>
+      <key>Hour</key>
+      <integer>0</integer>
+      <key>Minute</key>
+      <integer>0</integer>
+    </dict>
 
     <key>StandardOutPath</key>
     <string>/Users/skyhong/Documents/Harmonica-in-Taiwan/logs/pipeline.log</string>

@@ -33,8 +33,21 @@ API_DIR = SITE_ROOT / "api"
 FEED_IMAGE_DIR = SITE_ROOT / "assets" / "feed-images"
 SOURCE_AVATAR_DIR = SITE_ROOT / "assets" / "source-avatars"
 PUBLIC_BASE_URL = "https://harmonica.observe.tw"
-ASSET_VERSION = "20260623-2138"
+ASSET_VERSION = "20260624-1718"
+HOME_FEED_BATCH_SIZE = 12
+DEFAULT_UPDATE_WINDOW_DAYS = 30
 BRAND_LOGO_HTML = f'<img class="brand-logo" src="/assets/logo.svg?v={ASSET_VERSION}" alt="臺灣口琴觀測站" width="230" height="41">'
+SUBMIT_LINK_HTML = '<a href="/submit/">資料回報</a>'
+NAV_FEED_MENU = """<details class="nav-menu">
+          <summary>河道</summary>
+          <div class="nav-menu-popover">
+            <a class="nav-feed-link" href="/#latest-feed" data-feed-category="all">全部公開更新</a>
+            <a class="nav-feed-link" href="/?feed=events#latest-feed" data-feed-category="events">實體活動</a>
+            <a class="nav-feed-link" href="/?feed=posts-videos#latest-feed" data-feed-category="posts-videos">貼文影片</a>
+            <a class="nav-feed-link" href="/?feed=student-clubs#latest-feed" data-feed-category="student-clubs">學生社團</a>
+            <a class="nav-feed-link" href="/?feed=opportunities#latest-feed" data-feed-category="opportunities">補助比賽</a>
+          </div>
+        </details>"""
 FOOTER_HTML = """<footer class="site-footer">
       <div class="site-footer-inner">
         <div class="footer-brand">
@@ -42,7 +55,7 @@ FOOTER_HTML = """<footer class="site-footer">
           <p>公開口琴活動、社團、貼文影片與補助資訊索引。</p>
         </div>
         <nav class="footer-links" aria-label="頁尾導覽">
-          <a href="/directory/">公開名錄</a>
+          <a href="/directory/">資料索引</a>
           <a href="/feeds/">RSS</a>
           <a href="/api/latest.json">API</a>
           <a href="https://github.com/skyhong2002/Harmonica-in-Taiwan" target="_blank" rel="noreferrer">GitHub</a>
@@ -53,6 +66,13 @@ FOOTER_HTML = """<footer class="site-footer">
 
 TAIPEI_TZ = dt.timezone(dt.timedelta(hours=8))
 SOURCE_PROFILE_BY_ID: dict[str, dict[str, str]] = {}
+GENERIC_SOURCE_NAMES = {
+    "apify facebook posts",
+    "apify/facebook-posts-scraper",
+    "apify_facebook_posts",
+    "external public social feed inbox",
+    "external_social_feed_inbox",
+}
 
 FEED_CATEGORIES = [
     {
@@ -331,6 +351,13 @@ def cache_remote_image(url: str, image_dir: Path, public_prefix: str, max_bytes:
     return f"{public_prefix}/{path.name}"
 
 
+def request_url(url: str) -> str:
+    parsed = urllib.parse.urlsplit(url)
+    path = urllib.parse.quote(urllib.parse.unquote(parsed.path), safe="/:@")
+    query = urllib.parse.quote(urllib.parse.unquote(parsed.query), safe="=&?/:@,+%")
+    return urllib.parse.urlunsplit((parsed.scheme, parsed.netloc, path, query, parsed.fragment))
+
+
 def cache_image(url: str) -> str:
     return cache_remote_image(url, FEED_IMAGE_DIR, "/assets/feed-images")
 
@@ -383,12 +410,27 @@ def source_feed_url(source: dict[str, Any]) -> str:
 
 def public_profile_url(source: dict[str, Any]) -> str:
     kind = source.get("type")
+    for field in ("profile_url", "source_profile_url"):
+        url = str(source.get(field) or "").strip()
+        if url:
+            return url
     url = str(source.get("url") or "").strip()
-    if url:
+    if url and not source.get("route"):
         return url
     if kind == "facebook_page_posts":
         page = str(source.get("page") or source.get("username") or "").strip().strip("/")
         return f"https://www.facebook.com/{page}/" if page else ""
+    if kind == "rsshub_instagram_profile":
+        username = str(source.get("username") or "").strip().strip("/")
+        return f"https://www.instagram.com/{username}/" if username else ""
+    platform = str(source.get("platform") or "").casefold()
+    username = str(source.get("username") or "").strip().strip("/").removeprefix("@")
+    if username and (platform in {"x", "twitter"} or "twitter" in platform):
+        return f"https://x.com/{username}"
+    if username and "threads" in platform:
+        return f"https://www.threads.net/@{username}"
+    if username and "tiktok" in platform:
+        return f"https://www.tiktok.com/@{username}"
     return ""
 
 
@@ -420,7 +462,7 @@ def fetch_html_profile(source: dict[str, Any]) -> dict[str, str]:
 
     try:
         req = urllib.request.Request(
-            profile_url,
+            request_url(profile_url),
             headers={"User-Agent": "Mozilla/5.0 HarmonicaObserveProfileCache/1.0"},
         )
         with urllib.request.urlopen(req, timeout=20) as response:
@@ -507,11 +549,11 @@ def build_source_profiles(rows: list[dict[str, Any]]) -> dict[str, dict[str, str
             changed = True
         else:
             profiles[source_id] = {
+                **cached,
                 "id": source_id,
                 "name": str(source.get("name") or cached.get("name") or source_id),
                 "account": str(source.get("username") or source.get("page") or cached.get("account") or ""),
                 "platform": str(source.get("platform") or cached.get("platform") or ""),
-                **cached,
             }
 
     if changed:
@@ -523,6 +565,42 @@ def build_source_profiles(rows: list[dict[str, Any]]) -> dict[str, dict[str, str
             },
         )
     return {source_id: profiles.get(source_id, {}) for source_id in needed_ids}
+
+
+def persist_source_profiles(profiles: dict[str, dict[str, str]]) -> None:
+    if not profiles:
+        return
+    cache = read_json(SOURCE_PROFILES_CACHE, {"profiles": {}})
+    cached_profiles = cache.get("profiles") if isinstance(cache, dict) else {}
+    if not isinstance(cached_profiles, dict):
+        cached_profiles = {}
+
+    merged: dict[str, dict[str, str]] = {
+        str(source_id): dict(profile)
+        for source_id, profile in cached_profiles.items()
+        if isinstance(profile, dict)
+    }
+    changed = False
+    for source_id, profile in profiles.items():
+        if not source_id or not isinstance(profile, dict):
+            continue
+        current = dict(merged.get(source_id) or {})
+        updated = dict(current)
+        for key, value in profile.items():
+            if value not in ("", None):
+                updated[str(key)] = str(value)
+        if updated != current:
+            merged[source_id] = updated
+            changed = True
+
+    if changed:
+        write_json(
+            SOURCE_PROFILES_CACHE,
+            {
+                "updatedAt": dt.datetime.now(dt.timezone.utc).isoformat(),
+                "profiles": merged,
+            },
+        )
 
 
 def local_date(value: str | None) -> str:
@@ -577,6 +655,10 @@ def candidate_text(row: dict[str, Any]) -> str:
             "media_type",
             "text",
             "matched_keywords",
+            "keyword_matches",
+            "llm_labels",
+            "llm_categories",
+            "llm_reason",
         ]
     )
 
@@ -586,18 +668,64 @@ def has_any_marker(text: str, markers: list[str]) -> bool:
     return any(marker.casefold() in lowered for marker in markers)
 
 
-def candidate_category_ids(row: dict[str, Any]) -> list[str]:
-    text = candidate_text(row)
+def unique_values(values: list[Any], limit: int = 8) -> list[str]:
+    items: list[str] = []
+    for value in values:
+        item = str(value or "").strip()
+        if not item or item in items:
+            continue
+        items.append(item)
+        if len(items) >= limit:
+            break
+    return items
+
+
+def llm_category_ids(row: dict[str, Any]) -> list[str]:
+    values = row.get("llm_categories") or []
+    if isinstance(values, str):
+        values = re.split(r"[,，、\s]+", values)
+    categories = unique_values(
+        [str(value or "").strip() for value in values if str(value or "").strip() in CATEGORY_LABELS],
+        limit=len(FEED_CATEGORIES),
+    )
+    if not categories:
+        return []
     ids = ["posts-videos"]
+    for category in categories:
+        if category not in ids:
+            ids.append(category)
+    return ids
+
+
+def candidate_category_ids(row: dict[str, Any]) -> list[str]:
+    llm_ids = llm_category_ids(row)
+    if row.get("llm_relevant") is False:
+        return []
+
+    text = candidate_text(row)
+    ids = llm_ids or ["posts-videos"]
     if has_any_marker(text, EVENT_KEYWORDS):
-        ids.append("events")
+        if "events" not in ids:
+            ids.append("events")
     if has_any_marker(text, OPPORTUNITY_KEYWORDS):
-        ids.append("opportunities")
+        if "opportunities" not in ids:
+            ids.append("opportunities")
     if has_any_marker(text, STUDENT_SOURCE_MARKERS):
-        ids.append("student-clubs")
+        if "student-clubs" not in ids:
+            ids.append("student-clubs")
     if has_any_marker(text, VIDEO_KEYWORDS) and "posts-videos" not in ids:
         ids.append("posts-videos")
     return ids
+
+
+def candidate_display_tags(row: dict[str, Any]) -> list[str]:
+    labels = row.get("llm_labels") or []
+    if isinstance(labels, str):
+        labels = re.split(r"[,，、\s]+", labels)
+    keywords = row.get("matched_keywords") or []
+    if isinstance(keywords, str):
+        keywords = re.split(r"[,，、\s]+", keywords)
+    return unique_values([*labels, *keywords], limit=8)
 
 
 def read_candidate_rows() -> list[dict[str, Any]]:
@@ -618,18 +746,136 @@ def source_initials(source: str) -> str:
     return "H"
 
 
+def clean_source_display_name(value: Any) -> str:
+    name = compact(str(value or ""), 180)
+    if not name:
+        return ""
+    name = re.sub(r"\s+-\s+(YouTube|Instagram|Facebook)\s*$", "", name, flags=re.IGNORECASE)
+    name = re.sub(r"\s+\|\s+(YouTube|Instagram|Facebook)\s*$", "", name, flags=re.IGNORECASE)
+    name = re.sub(r"\s+\(@[^)]+\)\s*$", "", name)
+    if " | " in name:
+        name = name.split(" | ", 1)[0].strip()
+    return compact(name, 120)
+
+
+def is_generic_source_name(value: Any) -> bool:
+    name = clean_source_display_name(value).casefold()
+    return name in GENERIC_SOURCE_NAMES
+
+
+def account_display_name(row: dict[str, Any], profile: dict[str, str]) -> str:
+    account = str(row.get("account") or profile.get("account") or "").strip()
+    if not account:
+        return ""
+    if account.startswith(("http://", "https://")):
+        parsed = urllib.parse.urlparse(account)
+        account = parsed.path.strip("/")
+        if account.startswith("@"):
+            account = account[1:]
+        elif account.startswith(("people/", "profile.php")):
+            return ""
+        elif "/" in account:
+            account = account.split("/", 1)[0]
+    return clean_source_display_name(account.removeprefix("@"))
+
+
+def public_source_name(row: dict[str, Any], profile: dict[str, str]) -> str:
+    source_display_name = clean_source_display_name(row.get("source_display_name"))
+    source_name = clean_source_display_name(row.get("source_name"))
+    account_name = account_display_name(row, profile)
+    if source_display_name and not (
+        account_name
+        and source_display_name == account_name
+        and source_name
+        and not is_generic_source_name(source_name)
+    ):
+        return source_display_name
+
+    if source_name and not is_generic_source_name(source_name):
+        return source_name
+
+    for value in [
+        row.get("profile_name"),
+        row.get("page_name"),
+        profile.get("title"),
+        profile.get("display_name"),
+    ]:
+        name = clean_source_display_name(value)
+        if name:
+            return name
+
+    platform = str(row.get("platform") or profile.get("platform") or "").casefold()
+    source_id = str(row.get("source_id") or "").casefold()
+    if "facebook" in platform and (
+        is_generic_source_name(row.get("source_name"))
+        or source_id in GENERIC_SOURCE_NAMES
+        or str(row.get("raw_source") or "").casefold() in GENERIC_SOURCE_NAMES
+    ):
+        if account_name:
+            return account_name
+
+    for value in [
+        row.get("source_name"),
+        profile.get("name"),
+        row.get("source_id"),
+    ]:
+        name = clean_source_display_name(value)
+        if name and not is_generic_source_name(name):
+            return name
+    return "公開來源"
+
+
+def public_source_profile_url(row: dict[str, Any], profile: dict[str, str]) -> str:
+    for value in [
+        row.get("source_profile_url"),
+        row.get("profile_url"),
+        profile.get("profile_url"),
+        row.get("account"),
+    ]:
+        url = str(value or "").strip()
+        if url.startswith(("http://", "https://")):
+            return url
+
+    account = str(row.get("account") or profile.get("account") or "").strip().strip("/")
+    if not account:
+        return ""
+    platform = str(row.get("platform") or profile.get("platform") or "").casefold()
+    account = account.removeprefix("@")
+    if "instagram" in platform:
+        return f"https://www.instagram.com/{url_part(account)}/"
+    if "facebook" in platform:
+        return f"https://www.facebook.com/{account}/"
+    if "youtube" in platform:
+        if account.startswith("channel/") or account.startswith("c/") or account.startswith("user/"):
+            return f"https://www.youtube.com/{account}"
+        return f"https://www.youtube.com/@{url_part(account)}"
+    if platform in {"x", "twitter"} or "twitter" in platform:
+        return f"https://x.com/{url_part(account)}"
+    if "threads" in platform:
+        return f"https://www.threads.net/@{url_part(account)}"
+    if "tiktok" in platform:
+        account = account if account.startswith("@") else f"@{account}"
+        return f"https://www.tiktok.com/{url_part(account)}"
+    return ""
+
+
 def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
     source_id = str(row.get("source_id") or "")
-    source = str(row.get("source_name") or row.get("source_id") or "公開來源")
+    profile = SOURCE_PROFILE_BY_ID.get(source_id, {})
+    source = public_source_name(row, profile)
+    source_system_name = str(row.get("source_name") or profile.get("name") or row.get("source_id") or "")
+    if is_generic_source_name(source_system_name):
+        source_system_name = source
+    source_profile_url = public_source_profile_url(row, profile)
     text = compact_multiline(str(row.get("text") or ""), 1200)
     title = compact(f"{source}｜{text}", 120)
     headline = first_content_line(text, 120) or source
     link = str(row.get("url") or PUBLIC_BASE_URL)
     categories = candidate_category_ids(row)
+    display_tags = candidate_display_tags(row)
     images = [str(url) for url in (row.get("images") or []) if url]
     image_url = str(row.get("image_url") or (images[0] if images else ""))
     local_image_url = cache_image(image_url)
-    profile = SOURCE_PROFILE_BY_ID.get(source_id, {})
     avatar_source_url = str(
         row.get("source_avatar_url")
         or row.get("avatar_source_url")
@@ -637,18 +883,32 @@ def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
         or ""
     )
     avatar_url = cache_avatar(avatar_source_url)
+    if source_id and avatar_source_url:
+        cached_profile = SOURCE_PROFILE_BY_ID.setdefault(source_id, {})
+        if not cached_profile.get("avatar_source_url") or not cached_profile.get("avatar_url"):
+            cached_profile["avatar_source_url"] = avatar_source_url
+        if avatar_url and not cached_profile.get("avatar_url"):
+            cached_profile["avatar_url"] = avatar_url
     return {
         "title": title,
         "headline": headline,
         "link": link,
         "source_id": source_id,
         "source": source,
+        "source_system_name": source_system_name,
+        "source_profile_url": source_profile_url,
         "account": row.get("account") or profile.get("account") or "",
         "platform": row.get("platform") or "",
         "posted_at": row.get("posted_at") or "",
         "posted_at_local": local_date(str(row.get("posted_at") or "")),
         "seen_at": row.get("seen_at") or "",
-        "matched_keywords": row.get("matched_keywords") or [],
+        "matched_keywords": display_tags,
+        "keyword_matches": row.get("keyword_matches") or [],
+        "llm_relevant": row.get("llm_relevant"),
+        "llm_confidence": row.get("llm_confidence"),
+        "llm_labels": row.get("llm_labels") or [],
+        "llm_categories": row.get("llm_categories") or [],
+        "llm_reason": row.get("llm_reason") or "",
         "text": text,
         "images": images,
         "source_image_url": image_url,
@@ -675,7 +935,7 @@ def add_update_item(channel: ET.Element, public_row: dict[str, Any]) -> None:
             f"來源：{public_row.get('source')}",
             f"平台：{public_row.get('platform') or 'public'}",
             f"時間：{public_row.get('posted_at') or '未標示'}",
-            f"關鍵字：{', '.join(public_row.get('matched_keywords') or [])}" if public_row.get("matched_keywords") else "",
+            f"標籤：{', '.join(public_row.get('matched_keywords') or [])}" if public_row.get("matched_keywords") else "",
             "",
             str(public_row.get("text") or ""),
         ]
@@ -684,9 +944,10 @@ def add_update_item(channel: ET.Element, public_row: dict[str, Any]) -> None:
     add_text(item, "description", description)
 
 
-def build_update_items(rows: list[dict[str, Any]], limit: int, category_id: str | None = None) -> list[dict[str, Any]]:
+def build_update_items(rows: list[dict[str, Any]], limit: int | None = None, category_id: str | None = None) -> list[dict[str, Any]]:
     public_rows: list[dict[str, Any]] = []
     seen_items: set[str] = set()
+    max_items = max(0, int(limit or 0))
 
     for row in rows:
         public_row = public_update_row(row)
@@ -698,7 +959,7 @@ def build_update_items(rows: list[dict[str, Any]], limit: int, category_id: str 
         seen_items.add(dedupe_key)
         public_row.pop("_dedupe_key", None)
         public_rows.append(public_row)
-        if len(public_rows) >= limit:
+        if max_items and len(public_rows) >= max_items:
             break
 
     return public_rows
@@ -732,9 +993,10 @@ def category_payload(category: dict[str, str], items: list[dict[str, Any]]) -> d
     }
 
 
-def write_feed_data_js(public_rows: list[dict[str, Any]], categorized: dict[str, list[dict[str, Any]]]) -> None:
+def write_feed_data_js(public_rows: list[dict[str, Any]], categorized: dict[str, list[dict[str, Any]]], window_days: int) -> None:
     payload = {
         "generatedAt": dt.datetime.now(TAIPEI_TZ).strftime("%Y-%m-%d %H:%M"),
+        "updatesWindowDays": window_days,
         "updates": public_rows,
         "feeds": [
             category_payload(category, categorized.get(category["id"], []))
@@ -765,7 +1027,7 @@ def api_category_payload(category: dict[str, str], items: list[dict[str, Any]]) 
     }
 
 
-def write_api_files(public_rows: list[dict[str, Any]], categorized: dict[str, list[dict[str, Any]]]) -> None:
+def write_api_files(public_rows: list[dict[str, Any]], categorized: dict[str, list[dict[str, Any]]], window_days: int) -> None:
     API_DIR.mkdir(parents=True, exist_ok=True)
     feeds = [
         api_category_payload(category, categorized.get(category["id"], []))
@@ -786,6 +1048,7 @@ def write_api_files(public_rows: list[dict[str, Any]], categorized: dict[str, li
     ]
     payload = {
         "generatedAt": dt.datetime.now(TAIPEI_TZ).isoformat(),
+        "updatesWindowDays": window_days,
         "site": PUBLIC_BASE_URL,
         "updates": public_rows,
         "feeds": feeds,
@@ -810,11 +1073,27 @@ def write_update_rss(path: Path, title: str, description: str, link: str, items:
     write_xml(path, rss)
 
 
-def generate_updates(limit: int) -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]]]:
+def filter_recent_candidate_rows(rows: list[dict[str, Any]], days: int) -> list[dict[str, Any]]:
+    if days <= 0:
+        return rows
+    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=days)
+    recent_rows: list[dict[str, Any]] = []
+    for row in rows:
+        timestamp = parse_time(str(row.get("posted_at") or row.get("seen_at") or ""))
+        if timestamp and timestamp >= cutoff:
+            recent_rows.append(row)
+    return recent_rows
+
+
+def generate_updates(window_days: int = DEFAULT_UPDATE_WINDOW_DAYS, limit: int | None = None) -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]]]:
     global SOURCE_PROFILE_BY_ID
-    rows = read_candidate_rows()
-    SOURCE_PROFILE_BY_ID = build_source_profiles(rows)
+    rows = filter_recent_candidate_rows(read_candidate_rows(), window_days)
+    profile_rows = [
+        row for row in rows if row.get("raw_source") != "public-link-backfill"
+    ]
+    SOURCE_PROFILE_BY_ID = build_source_profiles(profile_rows)
     public_rows = build_update_items(rows, limit)
+    persist_source_profiles(SOURCE_PROFILE_BY_ID)
     write_update_rss(
         UPDATES_OUT,
         "臺灣口琴觀測站：公開更新",
@@ -837,9 +1116,9 @@ def generate_updates(limit: int) -> tuple[list[dict[str, Any]], dict[str, list[d
         )
         write_update_json(SITE_ROOT / category["json_path"], items, category)
 
-    write_feed_data_js(public_rows, categorized)
-    write_api_files(public_rows, categorized)
-    write_homepage_latest(public_rows, categorized)
+    write_feed_data_js(public_rows, categorized, window_days)
+    write_api_files(public_rows, categorized, window_days)
+    write_homepage_latest(public_rows, categorized, window_days)
     write_feed_pages(categorized)
     return public_rows, categorized
 
@@ -878,6 +1157,11 @@ def render_category_pills(item: dict[str, Any]) -> str:
     return "".join(f'<span class="pill">{html_escape(label)}</span>' for label in labels)
 
 
+def render_home_tag_pills(item: dict[str, Any]) -> str:
+    keywords = list(item.get("matched_keywords") or [])[:5]
+    return "".join(f'<span class="pill feed-tag-pill">{html_escape(keyword)}</span>' for keyword in keywords)
+
+
 def render_source_avatar(item: dict[str, Any], class_name: str = "source-avatar") -> str:
     avatar = item.get("avatar_url")
     source = item.get("source") or "公開來源"
@@ -891,6 +1175,26 @@ def render_source_avatar(item: dict[str, Any], class_name: str = "source-avatar"
     return f'<span class="{class_name} source-avatar-fallback" aria-hidden="true">{html_escape(initials)}</span>'
 
 
+def render_source_identity(item: dict[str, Any], class_name: str = "source-avatar", meta_class: str = "feed-latest-meta") -> str:
+    source = item.get("source") or "公開來源"
+    meta = f"{item.get('posted_at_local') or '未標示'} · {item.get('platform') or 'public'}"
+    body = (
+        f'{render_source_avatar(item, class_name)}'
+        "<div>"
+        f'<span class="{meta_class}">{html_escape(meta)}</span>'
+        f"<strong>{html_escape(source)}</strong>"
+        "</div>"
+    )
+    profile_url = str(item.get("source_profile_url") or "").strip()
+    if profile_url:
+        return (
+            f'<a class="source-identity-link" href="{html_escape(profile_url)}" '
+            f'target="_blank" rel="noreferrer" aria-label="開啟 {html_escape(source)} 個人首頁">'
+            f"{body}</a>"
+        )
+    return body
+
+
 def render_home_feed_item(item: dict[str, Any]) -> str:
     image = item.get("image_url")
     thumb_html = (
@@ -898,25 +1202,20 @@ def render_home_feed_item(item: dict[str, Any]) -> str:
         if image
         else ""
     )
+    body_class = "home-feed-body" if thumb_html else "home-feed-body home-feed-body-no-image"
     excerpt = homepage_excerpt(item.get("text"), limit=260, max_lines=4, skip_first=True)
     excerpt_html = f'<span class="feed-latest-excerpt">{excerpt}</span>' if excerpt else ""
-    category_html = render_category_pills(item)
+    category_html = render_category_pills(item) + render_home_tag_pills(item)
     return f"""
       <article class="home-feed-card">
         <div class="home-feed-source">
-          {render_source_avatar(item)}
-          <div>
-            <span class="feed-latest-meta">{html_escape(item.get("posted_at_local") or "未標示")} · {html_escape(item.get("platform") or "public")}</span>
-            <strong>{html_escape(item.get("source") or "公開來源")}</strong>
-          </div>
+          {render_source_identity(item)}
         </div>
-        <a class="home-feed-body" href="{html_escape(item.get("link"))}" target="_blank" rel="noreferrer">
-          <span class="home-feed-copy">
-            <h3>{html_escape(item.get("headline") or item.get("title") or "公開更新")}</h3>
-            {excerpt_html}
-          </span>
+        <div class="{body_class}">
+          <h3 class="home-feed-title">{html_escape(item.get("headline") or item.get("title") or "公開更新")}</h3>
           {thumb_html}
-        </a>
+          {excerpt_html}
+        </div>
         <div class="home-feed-footer">
           <div class="entry-meta">{category_html}</div>
           <a class="feed-open-link" href="{html_escape(item.get("link"))}" target="_blank" rel="noreferrer">開啟來源</a>
@@ -925,30 +1224,130 @@ def render_home_feed_item(item: dict[str, Any]) -> str:
     """
 
 
-def render_home_feed_links(categorized: dict[str, list[dict[str, Any]]]) -> str:
-    links = [
-        f'<a href="{html_escape(feed_page_url(category))}">{html_escape(category["short_title"])} {len(categorized.get(category["id"], []))} 筆</a>'
-        for category in FEED_CATEGORIES
+def render_home_filter_chip_options(values: list[str], data_name: str, fallback_label: str) -> str:
+    chips = [
+        f'<button type="button" class="feed-option-chip" data-feed-{html_escape(data_name)}="all" aria-pressed="true">{html_escape(fallback_label)}</button>'
     ]
-    links.append('<a href="/feeds/">全部 RSS</a>')
+    chips.extend(
+        f'<button type="button" class="feed-option-chip" data-feed-{html_escape(data_name)}="{html_escape(value)}" aria-pressed="false">{html_escape(value)}</button>'
+        for value in values
+    )
+    return "".join(chips)
+
+
+def render_home_feed_filters(public_rows: list[dict[str, Any]], categorized: dict[str, list[dict[str, Any]]], window_days: int) -> str:
+    chips = [
+        f"""
+          <button type="button" class="feed-filter-chip" data-feed-category="all" aria-pressed="true">
+            <span>全部</span>
+            <strong>{len(public_rows)}</strong>
+          </button>
+        """
+    ]
+    for category in FEED_CATEGORIES:
+        category_id = category["id"]
+        short_title = category["short_title"]
+        chips.append(
+            f"""
+          <button type="button" class="feed-filter-chip" data-feed-category="{html_escape(category_id)}" aria-pressed="false">
+            <span>{html_escape(short_title)}</span>
+            <strong>{len(categorized.get(category_id, []))}</strong>
+          </button>
+        """
+        )
+    sources = sorted({str(item.get("source")) for item in public_rows if item.get("source")})
+    platforms = sorted({str(item.get("platform")) for item in public_rows if item.get("platform")})
+    tags = sorted({str(keyword) for item in public_rows for keyword in (item.get("matched_keywords") or []) if keyword})
     return f"""
-      <div class="feed-filter-row">
-        <span class="feed-filter-label">分類 feed</span>
-        <div class="feed-links">{"".join(links)}</div>
+      <div class="feed-river-controls">
+        <div class="feed-river-summary">
+          <p class="feed-filter-label">河道篩選</p>
+          <strong>全部 · 最近 {window_days} 天 · {len(public_rows)} / {len(public_rows)} 筆</strong>
+        </div>
+        <div class="feed-filter-chips" aria-label="分類篩選">
+          {"".join(chips)}
+        </div>
+        <div class="feed-filter-tools">
+          <label class="search-field feed-search-field">
+            <span class="sr-only">搜尋河道</span>
+            <input id="feed-search-input" type="search" placeholder="搜尋標題、內文、tag 或來源">
+          </label>
+          <button class="feed-reset-button" type="button">重設</button>
+        </div>
+        <div class="feed-filter-chip-group">
+          <span class="feed-chip-group-label">平台</span>
+          <div class="feed-option-chips" aria-label="平台篩選，可複選">{render_home_filter_chip_options(platforms, "platform", "全部平台")}</div>
+        </div>
+        <div class="feed-filter-chip-group">
+          <span class="feed-chip-group-label">Tag</span>
+          <div class="feed-option-chips" aria-label="Tag 篩選，可複選">{render_home_filter_chip_options(tags, "tag", "全部 tag")}</div>
+        </div>
+        <div class="feed-filter-chip-group">
+          <span class="feed-chip-group-label">來源</span>
+          <div class="feed-option-chips" aria-label="來源篩選，可複選">{render_home_filter_chip_options(sources, "source", "全部來源")}</div>
+        </div>
       </div>
     """
 
 
-def write_homepage_latest(public_rows: list[dict[str, Any]], categorized: dict[str, list[dict[str, Any]]]) -> None:
+def render_home_feed_load_more(total: int, visible: int) -> str:
+    if not total or visible >= total:
+        return ""
+    return f"""
+      <div class="feed-load-more-wrap">
+        <span class="feed-load-more-status">已顯示 {visible} / {total} 筆</span>
+        <button class="feed-load-more-button" type="button">載入更多</button>
+      </div>
+    """
+
+
+def estimate_home_feed_height(item: dict[str, Any]) -> int:
+    text = " ".join(
+        str(value or "")
+        for value in [
+            item.get("headline"),
+            item.get("title"),
+            item.get("source"),
+            item.get("excerpt"),
+            " ".join(item.get("matched_keywords") or []),
+        ]
+    )
+    media_weight = 120 if item.get("image_url") else 0
+    return 230 + media_weight + min(180, len(text) // 3)
+
+
+def render_home_feed_columns(rows: list[dict[str, Any]], column_count: int = 3) -> str:
+    if not rows:
+        return '<div class="empty-state">目前沒有近期待觀測項目。</div>'
+    columns: list[list[dict[str, Any]]] = [[] for _ in range(column_count)]
+    heights = [0] * column_count
+    for item in rows:
+        column_index = min(range(column_count), key=lambda index: heights[index])
+        columns[column_index].append(item)
+        heights[column_index] += estimate_home_feed_height(item)
+    rendered_columns = []
+    for index, column_rows in enumerate(columns, start=1):
+        column_html = "\n".join(render_home_feed_item(item) for item in column_rows)
+        rendered_columns.append(
+            f'      <div class="feed-river-column" data-feed-column="{index}">\n'
+            f"{column_html}\n"
+            "      </div>"
+        )
+    return "\n".join(rendered_columns)
+
+
+def write_homepage_latest(public_rows: list[dict[str, Any]], categorized: dict[str, list[dict[str, Any]]], window_days: int) -> None:
     start = "            <!-- FEED_LATEST_START -->"
     end = "            <!-- FEED_LATEST_END -->"
     text = HOME_PAGE.read_text(encoding="utf-8")
     if start not in text or end not in text:
         return
-    item_html = "\n".join(render_home_feed_item(item) for item in public_rows[:8])
-    if not item_html:
-        item_html = '<div class="empty-state">目前沒有近期待觀測項目。</div>'
-    latest_html = render_home_feed_links(categorized) + "\n" + item_html
+    visible_rows = public_rows[:HOME_FEED_BATCH_SIZE]
+    latest_html = (
+        render_home_feed_filters(public_rows, categorized, window_days)
+        + f'\n      <div class="feed-river">\n{render_home_feed_columns(visible_rows)}\n      </div>'
+        + render_home_feed_load_more(len(public_rows), len(visible_rows))
+    )
     before, rest = text.split(start, 1)
     _, after = rest.split(end, 1)
     HOME_PAGE.write_text(f"{before}{start}\n{latest_html}\n            {end}{after}", encoding="utf-8")
@@ -977,11 +1376,7 @@ def render_update_cards(items: list[dict[str, Any]]) -> str:
               {image_html}
               <div class="feed-item-main">
                 <div class="feed-item-source">
-                  {render_source_avatar(item, "source-avatar source-avatar-small")}
-                  <div>
-                    <p class="feed-item-meta">{html_escape(item.get("posted_at_local") or "未標示")} · {html_escape(item.get("platform") or "public")}</p>
-                    <strong>{html_escape(item.get("source"))}</strong>
-                  </div>
+                  {render_source_identity(item, "source-avatar source-avatar-small", "feed-item-meta")}
                 </div>
                 <h2>{html_escape(item.get("headline") or item.get("title"))}</h2>
                 <p class="feed-item-text">{html_lines(item.get("text"))}</p>
@@ -1010,7 +1405,6 @@ def render_feed_category_card(category: dict[str, str], count: int) -> str:
         </div>
         <div class="feed-card-actions">
           <span class="pill">{count} 筆</span>
-          <a href="{html_escape(feed_page_url(category))}">看頁面</a>
           <a href="/{html_escape(category["rss_path"])}">RSS</a>
         </div>
       </article>
@@ -1037,9 +1431,11 @@ def render_feed_page(category: dict[str, str], items: list[dict[str, Any]]) -> s
         {BRAND_LOGO_HTML}
       </a>
       <nav class="site-nav" aria-label="主要導覽">
-        <a href="/#directory">名錄</a>
+        <a href="/#latest-feed">最新</a>
+        {NAV_FEED_MENU}
+        <a href="/directory/">資料索引</a>
         <a href="/feeds/">RSS</a>
-        <a href="/#submit">投稿修正</a>
+        {SUBMIT_LINK_HTML}
       </nav>
     </header>
 
@@ -1105,9 +1501,11 @@ def render_feed_index(categorized: dict[str, list[dict[str, Any]]]) -> str:
         {BRAND_LOGO_HTML}
       </a>
       <nav class="site-nav" aria-label="主要導覽">
-        <a href="/#directory">名錄</a>
+        <a href="/#latest-feed">最新</a>
+        {NAV_FEED_MENU}
+        <a href="/directory/">資料索引</a>
         <a href="/feeds/">RSS</a>
-        <a href="/#submit">投稿修正</a>
+        {SUBMIT_LINK_HTML}
       </nav>
     </header>
 
@@ -1122,7 +1520,7 @@ def render_feed_index(categorized: dict[str, list[dict[str, Any]]]) -> str:
             <p>Bamboo Hermes 可以分別訂閱這些 RSS。每條 feed 都只來自公開來源，且和頁面顯示共用同一份資料。</p>
             <div class="feed-links">
               <a href="/feeds/updates.xml">總更新 RSS</a>
-              <a href="/feeds/sources.xml">來源名錄 RSS</a>
+              <a href="/feeds/sources.xml">來源索引 RSS</a>
             </div>
           </div>
         </div>
@@ -1164,13 +1562,22 @@ def write_feed_pages(categorized: dict[str, list[dict[str, Any]]]) -> None:
     CATALOG_JSON_OUT.write_text(json.dumps({"feeds": catalog}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def bump_html_asset_versions() -> None:
+    for path in SITE_ROOT.rglob("*.html"):
+        text = path.read_text(encoding="utf-8")
+        updated = re.sub(r"\?v=\d{8}-\d{4}", f"?v={ASSET_VERSION}", text)
+        updated = "\n".join(line.rstrip() for line in updated.splitlines()) + "\n"
+        if updated != text:
+            path.write_text(updated, encoding="utf-8")
+
+
 def generate_sources(limit: int) -> int:
     data = parse_site_data(SITE_DATA)
     entries = data.get("entries", [])[:limit]
     now = dt.datetime.now(dt.timezone.utc)
     rss = build_channel(
-        "臺灣口琴觀測站：公開來源名錄",
-        "公開口琴社團、團體、演奏者、教學與場館來源名錄。",
+        "臺灣口琴觀測站：來源索引",
+        "公開口琴社團、團體、演奏者、教學與場館的來源索引。",
         f"{PUBLIC_BASE_URL}/#directory",
     )
     channel = rss.find("channel")
@@ -1186,10 +1593,12 @@ def generate_sources(limit: int) -> int:
         add_text(item, "guid", item_guid("sources", name + str(first_link)))
         add_text(item, "pubDate", rss_time(str(data.get("generatedAt") or ""), now))
         summary = compact(str(entry.get("summary") or entry.get("type") or ""), 500)
+        source_tags = "、".join(str(tag) for tag in (entry.get("sourceTags") or []) if str(tag).strip())
         description = "\n".join(
             part
             for part in [
                 f"分類：{entry.get('category') or '未分類'}",
+                f"Tag：{source_tags}" if source_tags else "",
                 f"地區：{entry.get('region') or '未標示'}",
                 f"查核：{entry.get('status') or '待確認'}",
                 "",
@@ -1221,16 +1630,20 @@ def generate_sources(limit: int) -> int:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--updates-limit", type=int, default=50)
+    parser.add_argument("--updates-days", type=int, default=DEFAULT_UPDATE_WINDOW_DAYS)
+    parser.add_argument("--updates-limit", type=int, default=0)
     parser.add_argument("--sources-limit", type=int, default=150)
     args = parser.parse_args()
 
-    updates, categorized = generate_updates(args.updates_limit)
+    updates, categorized = generate_updates(args.updates_days, args.updates_limit)
     sources_count = generate_sources(args.sources_limit)
+    bump_html_asset_versions()
     print(
         json.dumps(
             {
                 "updates": len(updates),
+                "updates_window_days": args.updates_days,
+                "updates_limit": args.updates_limit or None,
                 "categorized_updates": {
                     category["id"]: len(categorized.get(category["id"], []))
                     for category in FEED_CATEGORIES

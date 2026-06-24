@@ -8,25 +8,35 @@
       name="description"
       content="臺灣口琴公開活動、社團、樂團、演奏者、教學與場館資訊索引。"
     >
-    <link rel="icon" href="assets/favicon-20260623.svg?v=20260623-2138" type="image/svg+xml">
+    <link rel="icon" href="assets/favicon-20260623.svg?v=20260624-1718" type="image/svg+xml">
     <link rel="alternate" type="application/rss+xml" title="臺灣口琴觀測站公開更新" href="/feeds/updates.xml">
     <link rel="alternate" type="application/rss+xml" title="全臺口琴實體活動" href="/feeds/events.xml">
     <link rel="alternate" type="application/rss+xml" title="口琴貼文與影片發布" href="/feeds/posts-videos.xml">
     <link rel="alternate" type="application/rss+xml" title="口琴學生社團動態" href="/feeds/student-clubs.xml">
     <link rel="alternate" type="application/rss+xml" title="補助與比賽資訊" href="/feeds/opportunities.xml">
-    <link rel="alternate" type="application/rss+xml" title="臺灣口琴觀測站來源名錄" href="/feeds/sources.xml">
-    <link rel="stylesheet" href="assets/styles.css?v=20260623-2138">
+    <link rel="alternate" type="application/rss+xml" title="臺灣口琴觀測站來源索引" href="/feeds/sources.xml">
+    <link rel="stylesheet" href="assets/styles.css?v=20260624-1718">
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="臺灣口琴觀測站首頁">
-        <img class="brand-logo" src="assets/logo.svg?v=20260623-2138" alt="臺灣口琴觀測站" width="230" height="41">
+        <img class="brand-logo" src="assets/logo.svg?v=20260624-1718" alt="臺灣口琴觀測站" width="230" height="41">
       </a>
       <nav class="site-nav" aria-label="主要導覽">
         <a href="#latest-feed">最新</a>
-        <a href="/directory/">名錄</a>
+        <details class="nav-menu">
+          <summary>河道</summary>
+          <div class="nav-menu-popover">
+            <a class="nav-feed-link" href="/#latest-feed" data-feed-category="all">全部公開更新</a>
+            <a class="nav-feed-link" href="/?feed=events#latest-feed" data-feed-category="events">實體活動</a>
+            <a class="nav-feed-link" href="/?feed=posts-videos#latest-feed" data-feed-category="posts-videos">貼文影片</a>
+            <a class="nav-feed-link" href="/?feed=student-clubs#latest-feed" data-feed-category="student-clubs">學生社團</a>
+            <a class="nav-feed-link" href="/?feed=opportunities#latest-feed" data-feed-category="opportunities">補助比賽</a>
+          </div>
+        </details>
+        <a href="/directory/">資料索引</a>
         <a href="/feeds/">RSS</a>
-        <a href="mailto:skyhong@observe.tw?subject=%E8%87%BA%E7%81%A3%E5%8F%A3%E7%90%B4%E8%A7%80%E6%B8%AC%E7%AB%99%E8%B3%87%E8%A8%8A%E4%BF%AE%E6%AD%A3">投稿修正</a>
+        <a href="/submit/">資料回報</a>
       </nav>
     </header>
 
@@ -41,20 +51,24 @@
           </p>
           <div class="hero-actions">
             <a class="primary-link" href="#latest-feed">看最新更新</a>
-            <a class="secondary-link" href="/directory/">公開名錄</a>
+            <a class="secondary-link" href="/directory/">資料索引</a>
           </div>
           <div class="stat-row" aria-label="資料統計">
-            <div>
-              <strong data-stat="totalEntries">0</strong>
-              <span>公開來源</span>
+            <div class="stat-card" tabindex="0" data-tooltip="目前納入自動監看的公開社群與影音來源總數，包含 RSSHub、Apify Facebook 與 YouTube。">
+              <strong data-stat="watchSourceCount">0</strong>
+              <span>監看來源</span>
             </div>
-            <div>
-              <strong data-stat="verifiedEntries">0</strong>
-              <span>已查核</span>
+            <div class="stat-card" tabindex="0" data-tooltip="透過 rss.observe.tw 抓取的 RSSHub 來源，主要包含 Instagram、X 與其他 RSS route。">
+              <strong data-stat="rsshubSourceCount">0</strong>
+              <span>RSSHub</span>
             </div>
-            <div>
-              <strong data-stat="categoryCount">0</strong>
-              <span>分類</span>
+            <div class="stat-card" tabindex="0" data-tooltip="透過 Apify Facebook actor 抓取的公開 Facebook 頁面來源。">
+              <strong data-stat="apifySourceCount">0</strong>
+              <span>Apify</span>
+            </div>
+            <div class="stat-card" tabindex="0" data-tooltip="網站資料索引中整理後的團體、演奏者、學校社團、教學單位與場館等公開條目。">
+              <strong data-stat="directoryEntryCount">0</strong>
+              <span>公開目錄</span>
             </div>
           </div>
         </div>
@@ -72,188 +86,282 @@
           <div class="latest-feed-grid" id="latest-feed-grid">
             <!-- FEED_LATEST_START -->
 
-      <div class="feed-filter-row">
-        <span class="feed-filter-label">分類 feed</span>
-        <div class="feed-links"><a href="/feeds/events/">實體活動 11 筆</a><a href="/feeds/posts-videos/">貼文影片 24 筆</a><a href="/feeds/student-clubs/">學生社團 7 筆</a><a href="/feeds/opportunities/">補助比賽 2 筆</a><a href="/feeds/">全部 RSS</a></div>
+      <div class="feed-river-controls">
+        <div class="feed-river-summary">
+          <p class="feed-filter-label">河道篩選</p>
+          <strong>全部 · 最近 30 天 · 105 / 105 筆</strong>
+        </div>
+        <div class="feed-filter-chips" aria-label="分類篩選">
+
+          <button type="button" class="feed-filter-chip" data-feed-category="all" aria-pressed="true">
+            <span>全部</span>
+            <strong>105</strong>
+          </button>
+
+          <button type="button" class="feed-filter-chip" data-feed-category="events" aria-pressed="false">
+            <span>實體活動</span>
+            <strong>70</strong>
+          </button>
+
+          <button type="button" class="feed-filter-chip" data-feed-category="posts-videos" aria-pressed="false">
+            <span>貼文影片</span>
+            <strong>105</strong>
+          </button>
+
+          <button type="button" class="feed-filter-chip" data-feed-category="student-clubs" aria-pressed="false">
+            <span>學生社團</span>
+            <strong>51</strong>
+          </button>
+
+          <button type="button" class="feed-filter-chip" data-feed-category="opportunities" aria-pressed="false">
+            <span>補助比賽</span>
+            <strong>16</strong>
+          </button>
+
+        </div>
+        <div class="feed-filter-tools">
+          <label class="search-field feed-search-field">
+            <span class="sr-only">搜尋河道</span>
+            <input id="feed-search-input" type="search" placeholder="搜尋標題、內文、tag 或來源">
+          </label>
+          <button class="feed-reset-button" type="button">重設</button>
+        </div>
+        <div class="feed-filter-chip-group">
+          <span class="feed-chip-group-label">平台</span>
+          <div class="feed-option-chips" aria-label="平台篩選，可複選"><button type="button" class="feed-option-chip" data-feed-platform="all" aria-pressed="true">全部平台</button><button type="button" class="feed-option-chip" data-feed-platform="facebook" aria-pressed="false">facebook</button><button type="button" class="feed-option-chip" data-feed-platform="instagram" aria-pressed="false">instagram</button><button type="button" class="feed-option-chip" data-feed-platform="threads" aria-pressed="false">threads</button><button type="button" class="feed-option-chip" data-feed-platform="youtube" aria-pressed="false">youtube</button></div>
+        </div>
+        <div class="feed-filter-chip-group">
+          <span class="feed-chip-group-label">Tag</span>
+          <div class="feed-option-chips" aria-label="Tag 篩選，可複選"><button type="button" class="feed-option-chip" data-feed-tag="all" aria-pressed="true">全部 tag</button><button type="button" class="feed-option-chip" data-feed-tag="harmonica" aria-pressed="false">harmonica</button><button type="button" class="feed-option-chip" data-feed-tag="交流" aria-pressed="false">交流</button><button type="button" class="feed-option-chip" data-feed-tag="公開更新" aria-pressed="false">公開更新</button><button type="button" class="feed-option-chip" data-feed-tag="口琴" aria-pressed="false">口琴</button><button type="button" class="feed-option-chip" data-feed-tag="報名" aria-pressed="false">報名</button><button type="button" class="feed-option-chip" data-feed-tag="學生社團" aria-pressed="false">學生社團</button><button type="button" class="feed-option-chip" data-feed-tag="寒訓" aria-pressed="false">寒訓</button><button type="button" class="feed-option-chip" data-feed-tag="影片" aria-pressed="false">影片</button><button type="button" class="feed-option-chip" data-feed-tag="成果發表" aria-pressed="false">成果發表</button><button type="button" class="feed-option-chip" data-feed-tag="成發" aria-pressed="false">成發</button><button type="button" class="feed-option-chip" data-feed-tag="招生" aria-pressed="false">招生</button><button type="button" class="feed-option-chip" data-feed-tag="比賽" aria-pressed="false">比賽</button><button type="button" class="feed-option-chip" data-feed-tag="演出" aria-pressed="false">演出</button><button type="button" class="feed-option-chip" data-feed-tag="甄選" aria-pressed="false">甄選</button><button type="button" class="feed-option-chip" data-feed-tag="課程" aria-pressed="false">課程</button><button type="button" class="feed-option-chip" data-feed-tag="音樂會" aria-pressed="false">音樂會</button></div>
+        </div>
+        <div class="feed-filter-chip-group">
+          <span class="feed-chip-group-label">來源</span>
+          <div class="feed-option-chips" aria-label="來源篩選，可複選"><button type="button" class="feed-option-chip" data-feed-source="all" aria-pressed="true">全部來源</button><button type="button" class="feed-option-chip" data-feed-source="111 Quintet" aria-pressed="false">111 Quintet</button><button type="button" class="feed-option-chip" data-feed-source="Aiden N Evelyn" aria-pressed="false">Aiden N Evelyn</button><button type="button" class="feed-option-chip" data-feed-source="Bluebo Harmonica" aria-pressed="false">Bluebo Harmonica</button><button type="button" class="feed-option-chip" data-feed-source="CHGSH Harmonica" aria-pressed="false">CHGSH Harmonica</button><button type="button" class="feed-option-chip" data-feed-source="CKHC 64th" aria-pressed="false">CKHC 64th</button><button type="button" class="feed-option-chip" data-feed-source="CSMU Blue Melody" aria-pressed="false">CSMU Blue Melody</button><button type="button" class="feed-option-chip" data-feed-source="CY Leo" aria-pressed="false">CY Leo</button><button type="button" class="feed-option-chip" data-feed-source="HSNU Cozy Harmonica" aria-pressed="false">HSNU Cozy Harmonica</button><button type="button" class="feed-option-chip" data-feed-source="Henry Chen" aria-pressed="false">Henry Chen</button><button type="button" class="feed-option-chip" data-feed-source="KSHS Harmonica" aria-pressed="false">KSHS Harmonica</button><button type="button" class="feed-option-chip" data-feed-source="NCUE Harmonica" aria-pressed="false">NCUE Harmonica</button><button type="button" class="feed-option-chip" data-feed-source="NTHU Harmonica Club" aria-pressed="false">NTHU Harmonica Club</button><button type="button" class="feed-option-chip" data-feed-source="NTNU Harmonica Club" aria-pressed="false">NTNU Harmonica Club</button><button type="button" class="feed-option-chip" data-feed-source="NTU Blue Sound Harmonica Club" aria-pressed="false">NTU Blue Sound Harmonica Club</button><button type="button" class="feed-option-chip" data-feed-source="PeaceTones Harmonica" aria-pressed="false">PeaceTones Harmonica</button><button type="button" class="feed-option-chip" data-feed-source="Punch Harmonica Ensemble" aria-pressed="false">Punch Harmonica Ensemble</button><button type="button" class="feed-option-chip" data-feed-source="RedBricks Harmonica" aria-pressed="false">RedBricks Harmonica</button><button type="button" class="feed-option-chip" data-feed-source="TCFSH Harmonica" aria-pressed="false">TCFSH Harmonica</button><button type="button" class="feed-option-chip" data-feed-source="Taipei Yellowstone Harmonica Ensemble" aria-pressed="false">Taipei Yellowstone Harmonica Ensemble</button><button type="button" class="feed-option-chip" data-feed-source="Taiwan Harmonica Music Festival" aria-pressed="false">Taiwan Harmonica Music Festival</button><button type="button" class="feed-option-chip" data-feed-source="Taro Senga" aria-pressed="false">Taro Senga</button><button type="button" class="feed-option-chip" data-feed-source="Toshi Fujii" aria-pressed="false">Toshi Fujii</button><button type="button" class="feed-option-chip" data-feed-source="Yu-Feng Lin" aria-pressed="false">Yu-Feng Lin</button><button type="button" class="feed-option-chip" data-feed-source="chaotengchang" aria-pressed="false">chaotengchang</button><button type="button" class="feed-option-chip" data-feed-source="happyharmonica" aria-pressed="false">happyharmonica</button><button type="button" class="feed-option-chip" data-feed-source="口琴好南合奏樂團" aria-pressed="false">口琴好南合奏樂團</button><button type="button" class="feed-option-chip" data-feed-source="張晁滕" aria-pressed="false">張晁滕</button><button type="button" class="feed-option-chip" data-feed-source="文山／萬興國小口琴系統" aria-pressed="false">文山／萬興國小口琴系統</button><button type="button" class="feed-option-chip" data-feed-source="曹小歐" aria-pressed="false">曹小歐</button><button type="button" class="feed-option-chip" data-feed-source="林士傑" aria-pressed="false">林士傑</button><button type="button" class="feed-option-chip" data-feed-source="桃園玩口琴" aria-pressed="false">桃園玩口琴</button><button type="button" class="feed-option-chip" data-feed-source="歐純伶" aria-pressed="false">歐純伶</button><button type="button" class="feed-option-chip" data-feed-source="范曉怡" aria-pressed="false">范曉怡</button><button type="button" class="feed-option-chip" data-feed-source="蔡明憲" aria-pressed="false">蔡明憲</button><button type="button" class="feed-option-chip" data-feed-source="陳晟禕" aria-pressed="false">陳晟禕</button></div>
+        </div>
       </div>
-    
+
+      <div class="feed-river">
+      <div class="feed-river-column" data-feed-column="1">
 
       <article class="home-feed-card">
         <div class="home-feed-source">
-          <span class="source-avatar"><img src="/assets/source-avatars/11010264a3489f5a5679.jpg" alt="Henry Chen 頭貼" loading="lazy" referrerpolicy="no-referrer"></span>
-          <div>
-            <span class="feed-latest-meta">2026-06-23 17:00 · youtube</span>
-            <strong>Henry Chen</strong>
-          </div>
+          <a class="source-identity-link" href="https://facebook.com/chen.cheng.yi.487430" target="_blank" rel="noreferrer" aria-label="開啟 陳晟禕 個人首頁"><span class="source-avatar"><img src="/assets/source-avatars/cc59e554f78aa2c3c136.jpg" alt="陳晟禕 頭貼" loading="lazy" referrerpolicy="no-referrer"></span><div><span class="feed-latest-meta">2026-06-24 16:33 · facebook</span><strong>陳晟禕</strong></div></a>
         </div>
-        <a class="home-feed-body" href="https://www.youtube.com/watch?v=NQpOJQrzQEw" target="_blank" rel="noreferrer">
-          <span class="home-feed-copy">
-            <h3>【就是吹口琴Just Play Harmonica 】｜我怎麼哭了｜十孔口琴10-Holes Harmonica 演奏版本《G調》</h3>
-            <span class="feed-latest-excerpt">我怎麼哭了<br>劉明瑞 作曲<br>孫 儀 作詞<br>林淑容 唱</span>
-          </span>
-          <span class="home-feed-thumb"><img src="/assets/feed-images/908c794b5aab85e82bea.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></span>
-        </a>
+        <div class="home-feed-body">
+          <h3 class="home-feed-title">【琴歌隨選】</h3>
+          <span class="home-feed-thumb"><img src="/assets/feed-images/864b0ff69807e7a18a74.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></span>
+          <span class="feed-latest-excerpt">丁文琪 - Beautiful Boy<br>選自2004年9月「怎麼愛都不夠」EP<br>這大半年來一直在整理以前燒到光碟片的各種檔案，<br>整理到這張專輯因為光碟燒錄片品質的關係一直無法讀取，</span>
+        </div>
         <div class="home-feed-footer">
           <div class="entry-meta"><span class="pill">貼文影片</span></div>
+          <a class="feed-open-link" href="https://www.facebook.com/chen.cheng.yi.487430/posts/pfbid02gYu7KjkzjddwnrnZggk1pT4DFwfnCWpRT5xN4rpbQ1cggd57QKFxRo2RHJcgu9Nl" target="_blank" rel="noreferrer">開啟來源</a>
+        </div>
+      </article>
+
+
+      <article class="home-feed-card">
+        <div class="home-feed-source">
+          <a class="source-identity-link" href="https://www.instagram.com/otistsao/" target="_blank" rel="noreferrer" aria-label="開啟 曹小歐 個人首頁"><span class="source-avatar"><img src="/assets/source-avatars/6bb91ef54d045d117942.jpg" alt="曹小歐 頭貼" loading="lazy" referrerpolicy="no-referrer"></span><div><span class="feed-latest-meta">2026-06-23 21:17 · instagram</span><strong>曹小歐</strong></div></a>
+        </div>
+        <div class="home-feed-body home-feed-body-no-image">
+          <h3 class="home-feed-title">用口琴變魔術</h3>
+
+
+        </div>
+        <div class="home-feed-footer">
+          <div class="entry-meta"><span class="pill">貼文影片</span></div>
+          <a class="feed-open-link" href="https://www.instagram.com/p/DZ7gLtpJsRS/" target="_blank" rel="noreferrer">開啟來源</a>
+        </div>
+      </article>
+
+
+      <article class="home-feed-card">
+        <div class="home-feed-source">
+          <a class="source-identity-link" href="https://www.facebook.com/chaotengchang/" target="_blank" rel="noreferrer" aria-label="開啟 chaotengchang 個人首頁"><span class="source-avatar"><img src="/assets/source-avatars/7feaed6296a0f5405d11.jpg" alt="chaotengchang 頭貼" loading="lazy" referrerpolicy="no-referrer"></span><div><span class="feed-latest-meta">2026-06-23 15:42 · facebook</span><strong>chaotengchang</strong></div></a>
+        </div>
+        <div class="home-feed-body">
+          <h3 class="home-feed-title">《月夜愁》 複音口琴獨奏指定曲</h3>
+          <span class="home-feed-thumb"><img src="/assets/feed-images/c6a093310b8827a368dc.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></span>
+          <span class="feed-latest-excerpt">#複音口琴#harmonica #月夜愁#鄧雨賢<br>https://www.facebook.com/reel/2886892308318137/</span>
+        </div>
+        <div class="home-feed-footer">
+          <div class="entry-meta"><span class="pill">貼文影片</span><span class="pill">補助比賽</span><span class="pill feed-tag-pill">口琴</span><span class="pill feed-tag-pill">影片</span></div>
+          <a class="feed-open-link" href="https://www.facebook.com/reel/2886892308318137/" target="_blank" rel="noreferrer">開啟來源</a>
+        </div>
+      </article>
+
+
+      <article class="home-feed-card">
+        <div class="home-feed-source">
+          <a class="source-identity-link" href="https://www.facebook.com/happyharmonica/" target="_blank" rel="noreferrer" aria-label="開啟 happyharmonica 個人首頁"><span class="source-avatar"><img src="/assets/source-avatars/cc67da60cb3020c23da8.jpg" alt="happyharmonica 頭貼" loading="lazy" referrerpolicy="no-referrer"></span><div><span class="feed-latest-meta">2026-06-23 10:08 · facebook</span><strong>happyharmonica</strong></div></a>
+        </div>
+        <div class="home-feed-body">
+          <h3 class="home-feed-title">《時間之歌》</h3>
+          <span class="home-feed-thumb"><img src="/assets/feed-images/e391d577fd43e9e6d7fa.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></span>
+          <span class="feed-latest-excerpt">同學利用學校的舞台，辦了一場小小的演奏會，大家都發揮出比平常高100%的水準，每一首都太好聽了。真的要辦演奏會大家才會進步+認真喔~~<br>#中和社大口琴班(一)晚上<br>https://www.facebook.com/reel/1715244059714325/</span>
+        </div>
+        <div class="home-feed-footer">
+          <div class="entry-meta"><span class="pill">貼文影片</span><span class="pill">實體活動</span><span class="pill feed-tag-pill">口琴</span><span class="pill feed-tag-pill">演出</span></div>
+          <a class="feed-open-link" href="https://www.facebook.com/reel/1715244059714325/" target="_blank" rel="noreferrer">開啟來源</a>
+        </div>
+      </article>
+
+      </div>
+      <div class="feed-river-column" data-feed-column="2">
+
+      <article class="home-feed-card">
+        <div class="home-feed-source">
+          <a class="source-identity-link" href="https://facebook.com/fanhsiaoyi" target="_blank" rel="noreferrer" aria-label="開啟 范曉怡 個人首頁"><span class="source-avatar"><img src="/assets/source-avatars/9aa87d71daa7e78b7a8f.jpg" alt="范曉怡 頭貼" loading="lazy" referrerpolicy="no-referrer"></span><div><span class="feed-latest-meta">2026-06-24 11:21 · facebook</span><strong>范曉怡</strong></div></a>
+        </div>
+        <div class="home-feed-body">
+          <h3 class="home-feed-title">&quot;欠妳的那場婚禮&quot;</h3>
+          <span class="home-feed-thumb"><img src="/assets/feed-images/e4209e2b75eebde4e8b5.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></span>
+          <span class="feed-latest-excerpt">雖然評價兩極....<br>但卻打中我.<br>裏面有穿越.這當然不可能<br>主角們也都是俊男美女</span>
+        </div>
+        <div class="home-feed-footer">
+          <div class="entry-meta"><span class="pill">貼文影片</span></div>
+          <a class="feed-open-link" href="https://www.facebook.com/fanhsiaoyi/posts/pfbid0364aeJfgtZ7zMcviaXeyW2b8xXfcHnSxgTykZRtVWSygr5FLThyPosJ2BKeyBVZSsl" target="_blank" rel="noreferrer">開啟來源</a>
+        </div>
+      </article>
+
+
+      <article class="home-feed-card">
+        <div class="home-feed-source">
+          <a class="source-identity-link" href="https://www.youtube.com/channel/UC7dQryOizHj-cKHV3xw0ASQ" target="_blank" rel="noreferrer" aria-label="開啟 Henry Chen 個人首頁"><span class="source-avatar"><img src="/assets/source-avatars/11010264a3489f5a5679.jpg" alt="Henry Chen 頭貼" loading="lazy" referrerpolicy="no-referrer"></span><div><span class="feed-latest-meta">2026-06-23 17:00 · youtube</span><strong>Henry Chen</strong></div></a>
+        </div>
+        <div class="home-feed-body">
+          <h3 class="home-feed-title">【就是吹口琴Just Play Harmonica 】｜我怎麼哭了｜十孔口琴10-Holes Harmonica 演奏版本《G調》</h3>
+          <span class="home-feed-thumb"><img src="/assets/feed-images/908c794b5aab85e82bea.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></span>
+          <span class="feed-latest-excerpt">我怎麼哭了<br>劉明瑞 作曲<br>孫 儀 作詞<br>林淑容 唱</span>
+        </div>
+        <div class="home-feed-footer">
+          <div class="entry-meta"><span class="pill">貼文影片</span><span class="pill feed-tag-pill">口琴</span><span class="pill feed-tag-pill">影片</span></div>
           <a class="feed-open-link" href="https://www.youtube.com/watch?v=NQpOJQrzQEw" target="_blank" rel="noreferrer">開啟來源</a>
         </div>
       </article>
-    
+
 
       <article class="home-feed-card">
         <div class="home-feed-source">
-          <span class="source-avatar"><img src="/assets/source-avatars/2241bd394301b93492ed.jpg" alt="歐純伶 頭貼" loading="lazy" referrerpolicy="no-referrer"></span>
-          <div>
-            <span class="feed-latest-meta">2026-06-23 12:00 · youtube</span>
-            <strong>歐純伶</strong>
-          </div>
+          <a class="source-identity-link" href="https://www.youtube.com/channel/UCwKf33aMHhEZIbHIdc-uNTA" target="_blank" rel="noreferrer" aria-label="開啟 Bluebo Harmonica 個人首頁"><span class="source-avatar"><img src="/assets/source-avatars/3d9d02a59e3a4d9ecb0f.jpg" alt="Bluebo Harmonica 頭貼" loading="lazy" referrerpolicy="no-referrer"></span><div><span class="feed-latest-meta">2026-06-23 11:41 · youtube</span><strong>Bluebo Harmonica</strong></div></a>
         </div>
-        <a class="home-feed-body" href="https://www.youtube.com/watch?v=mtce6XbmMYk" target="_blank" rel="noreferrer">
-          <span class="home-feed-copy">
-            <h3>[口琴演奏 Play Harmonica] 《守著陽光守著你 》｜複音口琴｜Tremolo｜口琴教學｜Harmonica tabs</h3>
-            <span class="feed-latest-excerpt">頻道開啟了超級感謝、留言系列，再請多多支持❤😄。<br>複音口琴 21 孔 Tremolo Harmonica 21 hole ； 節拍器速度90<br>口琴：歐老師 伴奏： 歐老師<br>E-mail：tcling.com@gmail.com</span>
-          </span>
-          <span class="home-feed-thumb"><img src="/assets/feed-images/0d8572e81d808be420e6.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></span>
-        </a>
-        <div class="home-feed-footer">
-          <div class="entry-meta"><span class="pill">貼文影片</span></div>
-          <a class="feed-open-link" href="https://www.youtube.com/watch?v=mtce6XbmMYk" target="_blank" rel="noreferrer">開啟來源</a>
-        </div>
-      </article>
-    
-
-      <article class="home-feed-card">
-        <div class="home-feed-source">
-          <span class="source-avatar"><img src="/assets/source-avatars/3d9d02a59e3a4d9ecb0f.jpg" alt="Bluebo Harmonica 頭貼" loading="lazy" referrerpolicy="no-referrer"></span>
-          <div>
-            <span class="feed-latest-meta">2026-06-23 11:41 · youtube</span>
-            <strong>Bluebo Harmonica</strong>
-          </div>
-        </div>
-        <a class="home-feed-body" href="https://www.youtube.com/watch?v=YXtrcFrAahU" target="_blank" rel="noreferrer">
-          <span class="home-feed-copy">
-            <h3>時間之歌丨陽光女子合唱團</h3>
-            <span class="feed-latest-excerpt">中和口琴班同學利用學校的舞台，辦了一場小小的演奏會，大家都發揮出比平常高100%的水準，每一首都太好聽了。真的要辦演奏會大家才會進步+認真喔~~<br>中和社大口琴班(一)晚上</span>
-          </span>
+        <div class="home-feed-body">
+          <h3 class="home-feed-title">時間之歌丨陽光女子合唱團</h3>
           <span class="home-feed-thumb"><img src="/assets/feed-images/465b2ca2a02935612e68.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></span>
-        </a>
+          <span class="feed-latest-excerpt">中和口琴班同學利用學校的舞台，辦了一場小小的演奏會，大家都發揮出比平常高100%的水準，每一首都太好聽了。真的要辦演奏會大家才會進步+認真喔~~<br>中和社大口琴班(一)晚上</span>
+        </div>
         <div class="home-feed-footer">
-          <div class="entry-meta"><span class="pill">貼文影片</span></div>
+          <div class="entry-meta"><span class="pill">貼文影片</span><span class="pill">實體活動</span><span class="pill feed-tag-pill">口琴</span><span class="pill feed-tag-pill">演出</span><span class="pill feed-tag-pill">公開更新</span></div>
           <a class="feed-open-link" href="https://www.youtube.com/watch?v=YXtrcFrAahU" target="_blank" rel="noreferrer">開啟來源</a>
         </div>
       </article>
-    
+
 
       <article class="home-feed-card">
         <div class="home-feed-source">
-          <span class="source-avatar"><img src="/assets/source-avatars/430d59b3421f7dda5036.jpg" alt="衛武營國家藝術文化中心 頭貼" loading="lazy" referrerpolicy="no-referrer"></span>
-          <div>
-            <span class="feed-latest-meta">2026-06-23 11:00 · youtube</span>
-            <strong>衛武營國家藝術文化中心</strong>
-          </div>
+          <a class="source-identity-link" href="https://facebook.com/otis5hundredtsao" target="_blank" rel="noreferrer" aria-label="開啟 曹小歐 個人首頁"><span class="source-avatar"><img src="/assets/source-avatars/3f6ffaf719ce42e19fbf.jpg" alt="曹小歐 頭貼" loading="lazy" referrerpolicy="no-referrer"></span><div><span class="feed-latest-meta">2026-06-22 20:58 · facebook</span><strong>曹小歐</strong></div></a>
         </div>
-        <a class="home-feed-body" href="https://www.youtube.com/watch?v=XvSrn6ZG5ow" target="_blank" rel="noreferrer">
-          <span class="home-feed-copy">
-            <h3>威爾第不朽神作《遊唱詩人》 ⚔️ 國際大導操刀，衛武營全新版本重現歌劇史上最傳奇的復仇，帶來最刺激感官的極致美聲饗宴</h3>
-            <span class="feed-latest-excerpt">威爾第不朽神作《遊唱詩人》五大必看亮點！<br>⠀<br>❶ 首演即轟動，威爾第中期巔峰巨作<br>❷ 歌劇十年有成，全新版本旗艦製作</span>
-          </span>
-          <span class="home-feed-thumb"><img src="/assets/feed-images/d77068d6707117bae2fc.webp" alt="" loading="lazy" referrerpolicy="no-referrer"></span>
-        </a>
-        <div class="home-feed-footer">
-          <div class="entry-meta"><span class="pill">貼文影片</span></div>
-          <a class="feed-open-link" href="https://www.youtube.com/watch?v=XvSrn6ZG5ow" target="_blank" rel="noreferrer">開啟來源</a>
+        <div class="home-feed-body">
+          <h3 class="home-feed-title">喜劇擂台台中場爆笑結束，聽聽演員們的觀後感！</h3>
+          <span class="home-feed-thumb"><img src="/assets/feed-images/b9fad5d2bc16ba61662f.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></span>
+          <span class="feed-latest-excerpt">剩下6/28週日最後台北場，歡迎跟著佳諭、招弟到現場一決雌雄！<br>*購票請上KKTIX<br>https://www.facebook.com/reel/967133176312522/</span>
         </div>
-      </article>
-    
-
-      <article class="home-feed-card">
-        <div class="home-feed-source">
-          <span class="source-avatar"><img src="/assets/source-avatars/430d59b3421f7dda5036.jpg" alt="衛武營國家藝術文化中心 頭貼" loading="lazy" referrerpolicy="no-referrer"></span>
-          <div>
-            <span class="feed-latest-meta">2026-06-22 18:00 · youtube</span>
-            <strong>衛武營國家藝術文化中心</strong>
-          </div>
-        </div>
-        <a class="home-feed-body" href="https://www.youtube.com/watch?v=s8NbQJ6-tq8" target="_blank" rel="noreferrer">
-          <span class="home-feed-copy">
-            <h3>花露露舞台劇《搶救魔幻飛船》雙導演解密，與孩子共學如何說再見</h3>
-            <span class="feed-latest-excerpt">全才導演韋以丞、專業編舞達姆拉·楚優吉親揭《搶救魔幻飛船》蛻變秘辛！<br>歷經2025年好評與沉澱，花露露舞台劇加入全新陣容與編舞，劇情、角色、舞蹈皆賦予更生動的編排。<br>顛覆想像的精彩演出，3歲到83歲都適合觀賞的花露露舞台劇，邀請您一起蒐集快樂能量！<br>花露露舞台劇《搶救魔幻飛船》</span>
-          </span>
-          <span class="home-feed-thumb"><img src="/assets/feed-images/c9b4a387e039bb2b97f8.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></span>
-        </a>
         <div class="home-feed-footer">
           <div class="entry-meta"><span class="pill">貼文影片</span><span class="pill">實體活動</span></div>
-          <a class="feed-open-link" href="https://www.youtube.com/watch?v=s8NbQJ6-tq8" target="_blank" rel="noreferrer">開啟來源</a>
+          <a class="feed-open-link" href="https://www.facebook.com/reel/967133176312522/" target="_blank" rel="noreferrer">開啟來源</a>
         </div>
       </article>
-    
+
+      </div>
+      <div class="feed-river-column" data-feed-column="3">
 
       <article class="home-feed-card">
         <div class="home-feed-source">
-          <span class="source-avatar"><img src="/assets/source-avatars/2f67387d4c1f268e293f.jpg" alt="張晁滕 頭貼" loading="lazy" referrerpolicy="no-referrer"></span>
-          <div>
-            <span class="feed-latest-meta">2026-06-21 18:31 · youtube</span>
-            <strong>張晁滕</strong>
-          </div>
+          <a class="source-identity-link" href="https://facebook.com/fanhsiaoyi" target="_blank" rel="noreferrer" aria-label="開啟 范曉怡 個人首頁"><span class="source-avatar"><img src="/assets/source-avatars/9aa87d71daa7e78b7a8f.jpg" alt="范曉怡 頭貼" loading="lazy" referrerpolicy="no-referrer"></span><div><span class="feed-latest-meta">2026-06-24 09:29 · facebook</span><strong>范曉怡</strong></div></a>
         </div>
-        <a class="home-feed-body" href="https://www.youtube.com/watch?v=WJ90aVEvGQo" target="_blank" rel="noreferrer">
-          <span class="home-feed-copy">
-            <h3>林俊傑《她說》 口琴鋼琴二重奏</h3>
-            <span class="feed-latest-excerpt">孫燕姿的詞，林俊傑的曲，《她說》裡藏著太多感情裡的遺憾與寂寞。這次 Jordan &amp; Penny Duo 用純演奏的方式，重新解構這份細膩。<br>⠀<br>鋼琴緩緩鋪陳，如同深夜泛起的思緒；主旋律則用 Hohner CX-12 Jazz 半音階口琴演繹，它溫暖、厚實的音色，就像一位懂你的知己，在耳邊輕聲回應著那些沒說出口的無奈。<br>⠀</span>
-          </span>
-          <span class="home-feed-thumb"><img src="/assets/feed-images/c64767e7d90fc8b7dea2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></span>
-        </a>
+        <div class="home-feed-body home-feed-body-no-image">
+          <h3 class="home-feed-title">今天從一位學生家長那裏聽到這幾句話</h3>
+
+          <span class="feed-latest-excerpt">很感動...<br>老師們都很善良<br>所以孩子到老師家吹口琴我們都很放心.而且對孩子其實是種幸福~<br>其實我們就是努力去做好</span>
+        </div>
         <div class="home-feed-footer">
-          <div class="entry-meta"><span class="pill">貼文影片</span><span class="pill">實體活動</span><span class="pill">補助比賽</span><span class="pill">學生社團</span></div>
-          <a class="feed-open-link" href="https://www.youtube.com/watch?v=WJ90aVEvGQo" target="_blank" rel="noreferrer">開啟來源</a>
+          <div class="entry-meta"><span class="pill">貼文影片</span><span class="pill">學生社團</span></div>
+          <a class="feed-open-link" href="https://www.facebook.com/fanhsiaoyi/posts/pfbid02AsWC2GYMCkRkwrcWSb9FDQUbvm7MxwgLvisJ3JpULoKwWxXDcmC5sR9B554MQgKHl" target="_blank" rel="noreferrer">開啟來源</a>
         </div>
       </article>
-    
+
 
       <article class="home-feed-card">
         <div class="home-feed-source">
-          <span class="source-avatar"><img src="/assets/source-avatars/11010264a3489f5a5679.jpg" alt="Henry Chen 頭貼" loading="lazy" referrerpolicy="no-referrer"></span>
-          <div>
-            <span class="feed-latest-meta">2026-06-21 17:30 · youtube</span>
-            <strong>Henry Chen</strong>
-          </div>
+          <a class="source-identity-link" href="https://facebook.com/otis5hundredtsao" target="_blank" rel="noreferrer" aria-label="開啟 曹小歐 個人首頁"><span class="source-avatar"><img src="/assets/source-avatars/8d78c81cd015e76ab585.jpg" alt="曹小歐 頭貼" loading="lazy" referrerpolicy="no-referrer"></span><div><span class="feed-latest-meta">2026-06-23 21:17 · facebook</span><strong>曹小歐</strong></div></a>
         </div>
-        <a class="home-feed-body" href="https://www.youtube.com/watch?v=z7Uyeb8ZELQ" target="_blank" rel="noreferrer">
-          <span class="home-feed-copy">
-            <h3>【就是吹口琴Just Play Harmonica】｜江蕙-不想伊｜複音口琴Tremolo Harmonica 演奏版本《C調》</h3>
-            <span class="feed-latest-excerpt">不想伊<br>吳晉淮 作曲<br>吳晉淮 作詞<br>江 蕙 原唱</span>
-          </span>
-          <span class="home-feed-thumb"><img src="/assets/feed-images/56afe3ce56bbf1552210.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></span>
-        </a>
+        <div class="home-feed-body">
+          <h3 class="home-feed-title">用口琴變魔術</h3>
+          <span class="home-feed-thumb"><img src="/assets/feed-images/4bd83aef1e8dc1a886f5.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></span>
+          <span class="feed-latest-excerpt">https://www.facebook.com/reel/1674318240492435/</span>
+        </div>
         <div class="home-feed-footer">
           <div class="entry-meta"><span class="pill">貼文影片</span></div>
-          <a class="feed-open-link" href="https://www.youtube.com/watch?v=z7Uyeb8ZELQ" target="_blank" rel="noreferrer">開啟來源</a>
+          <a class="feed-open-link" href="https://www.facebook.com/reel/1674318240492435/" target="_blank" rel="noreferrer">開啟來源</a>
         </div>
       </article>
-    
+
 
       <article class="home-feed-card">
         <div class="home-feed-source">
-          <span class="source-avatar"><img src="/assets/source-avatars/bbc7113b1f4034eb0177.jpg" alt="Taiwan Harmonica Music Festival 頭貼" loading="lazy" referrerpolicy="no-referrer"></span>
-          <div>
-            <span class="feed-latest-meta">2026-06-21 17:15 · facebook</span>
-            <strong>Taiwan Harmonica Music Festival</strong>
-          </div>
+          <a class="source-identity-link" href="https://www.youtube.com/channel/UCYVZf8lsckbde4dRRB0EK8A" target="_blank" rel="noreferrer" aria-label="開啟 歐純伶 個人首頁"><span class="source-avatar"><img src="/assets/source-avatars/2241bd394301b93492ed.jpg" alt="歐純伶 頭貼" loading="lazy" referrerpolicy="no-referrer"></span><div><span class="feed-latest-meta">2026-06-23 12:00 · youtube</span><strong>歐純伶</strong></div></a>
         </div>
-        <a class="home-feed-body" href="https://www.facebook.com/twharmonica/posts/pfbid02ivogqTGGrZFPqSGXYFE6hy74PStFMaRa9fq5H5MPfs9x9rUYd1mixTzosn6GxWxEl" target="_blank" rel="noreferrer">
-          <span class="home-feed-copy">
-            <h3>🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！一個此次邀請的重量級團體是甫獲得世界口琴節小合奏冠軍以及大合奏組亞軍肯定，來自韓國的新生代團體首爾獨奏家口琴樂團 (Seoul Soloists Harmonica …</h3>
-            <span class="feed-latest-excerpt">首爾獨奏家口琴樂團（Seoul Soloists Harmonica Orchestra, SSHO）是以口琴獨奏家暨指揮朴鍾聲（Jongseong Park 박종성 Jong seong Park）為核心所創立的韓國口琴樂團。樂團由韓國優秀的口琴演…</span>
-          </span>
-          <span class="home-feed-thumb"><img src="/assets/feed-images/13b501fcc839389b9f7b.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></span>
-        </a>
+        <div class="home-feed-body">
+          <h3 class="home-feed-title">[口琴演奏 Play Harmonica] 《守著陽光守著你 》｜複音口琴｜Tremolo｜口琴教學｜Harmonica tabs</h3>
+          <span class="home-feed-thumb"><img src="/assets/feed-images/0d8572e81d808be420e6.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></span>
+          <span class="feed-latest-excerpt">頻道開啟了超級感謝、留言系列，再請多多支持❤😄。<br>複音口琴 21 孔 Tremolo Harmonica 21 hole ； 節拍器速度90<br>口琴：歐老師 伴奏： 歐老師<br>E-mail：tcling.com@gmail.com</span>
+        </div>
         <div class="home-feed-footer">
-          <div class="entry-meta"><span class="pill">貼文影片</span><span class="pill">實體活動</span><span class="pill">補助比賽</span></div>
-          <a class="feed-open-link" href="https://www.facebook.com/twharmonica/posts/pfbid02ivogqTGGrZFPqSGXYFE6hy74PStFMaRa9fq5H5MPfs9x9rUYd1mixTzosn6GxWxEl" target="_blank" rel="noreferrer">開啟來源</a>
+          <div class="entry-meta"><span class="pill">貼文影片</span><span class="pill feed-tag-pill">口琴</span><span class="pill feed-tag-pill">影片</span><span class="pill feed-tag-pill">公開更新</span></div>
+          <a class="feed-open-link" href="https://www.youtube.com/watch?v=mtce6XbmMYk" target="_blank" rel="noreferrer">開啟來源</a>
         </div>
       </article>
-    
+
+
+      <article class="home-feed-card">
+        <div class="home-feed-source">
+          <a class="source-identity-link" href="https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble" target="_blank" rel="noreferrer" aria-label="開啟 Taipei Yellowstone Harmonica Ensemble 個人首頁"><span class="source-avatar"><img src="/assets/source-avatars/5c7f37af162eacf64845.jpg" alt="Taipei Yellowstone Harmonica Ensemble 頭貼" loading="lazy" referrerpolicy="no-referrer"></span><div><span class="feed-latest-meta">2026-06-22 22:15 · facebook</span><strong>Taipei Yellowstone Harmonica Ensemble</strong></div></a>
+        </div>
+        <div class="home-feed-body">
+          <h3 class="home-feed-title">帶著孩子來義演</h3>
+          <span class="home-feed-thumb"><img src="/assets/feed-images/41405d8d48c567301fcf.png" alt="" loading="lazy" referrerpolicy="no-referrer"></span>
+          <span class="feed-latest-excerpt">第529場偏鄉弱勢巡迴義演6/22（一）14：30高雄楠梓樂活社區長照中心---完成<br>https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/posts/pfbid02dZtHRhB1dCnPFBfhX1xQ6E2yXeqqCeijXD2xDanh5H2k31Lgmj87ebVwSK3QdRPul</span>
+        </div>
+        <div class="home-feed-footer">
+          <div class="entry-meta"><span class="pill">貼文影片</span><span class="pill">實體活動</span><span class="pill feed-tag-pill">口琴</span><span class="pill feed-tag-pill">演出</span><span class="pill feed-tag-pill">公開更新</span></div>
+          <a class="feed-open-link" href="https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/posts/pfbid02dZtHRhB1dCnPFBfhX1xQ6E2yXeqqCeijXD2xDanh5H2k31Lgmj87ebVwSK3QdRPul" target="_blank" rel="noreferrer">開啟來源</a>
+        </div>
+      </article>
+
+      </div>
+      </div>
+      <div class="feed-load-more-wrap">
+        <span class="feed-load-more-status">已顯示 12 / 105 筆</span>
+        <button class="feed-load-more-button" type="button">載入更多</button>
+      </div>
+
                         <!-- FEED_LATEST_END -->
+          </div>
+        </div>
+      </section>
+
+      <section class="band submit-band" id="submit" aria-labelledby="submit-title">
+        <div class="band-inner split-layout">
+          <div>
+            <p class="section-kicker">Report</p>
+            <h2 id="submit-title">資料回報</h2>
+          </div>
+          <div class="submit-panel">
+            <p>如果你看到缺漏、連結失效、社團資訊更新，或有新的公開活動、比賽、補助資訊，請先看回報頁整理需要準備的公開來源，再送出 GitHub 表單。</p>
+            <div class="feed-links">
+              <a href="/submit/">前往資料回報頁</a>
+              <a href="https://github.com/skyhong2002/Harmonica-in-Taiwan/issues" target="_blank" rel="noreferrer">查看處理中的回報</a>
+            </div>
           </div>
         </div>
       </section>
@@ -266,7 +374,7 @@
           <p>公開口琴活動、社團、貼文影片與補助資訊索引。</p>
         </div>
         <nav class="footer-links" aria-label="頁尾導覽">
-          <a href="/directory/">公開名錄</a>
+          <a href="/directory/">資料索引</a>
           <a href="/feeds/">RSS</a>
           <a href="/api/latest.json">API</a>
           <a href="https://github.com/skyhong2002/Harmonica-in-Taiwan" target="_blank" rel="noreferrer">GitHub</a>
@@ -275,8 +383,8 @@
       </div>
     </footer>
 
-    <script src="data/site-data.js?v=20260623-2138"></script>
-    <script src="data/feed-data.js?v=20260623-2138"></script>
-    <script src="assets/app.js?v=20260623-2138"></script>
+    <script src="data/site-data.js?v=20260624-1718"></script>
+    <script src="data/feed-data.js?v=20260624-1718"></script>
+    <script src="assets/app.js?v=20260624-1718"></script>
   </body>
 </html>

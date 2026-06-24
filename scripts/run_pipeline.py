@@ -28,10 +28,11 @@ def main() -> int:
     parser.add_argument("--skip-watch", action="store_true")
     parser.add_argument("--baseline", action="store_true")
     parser.add_argument("--emit-initial", action="store_true")
-    parser.add_argument("--max-post-age-days", type=int, default=7)
+    parser.add_argument("--max-post-age-days", type=int, default=30)
     parser.add_argument("--skip-source-build", action="store_true")
     parser.add_argument("--skip-youtube", action="store_true")
     parser.add_argument("--skip-facebook", action="store_true")
+    parser.add_argument("--skip-llm-tags", action="store_true")
     parser.add_argument("--facebook-dry-run", action="store_true")
     parser.add_argument("--youtube-full-refresh", action="store_true")
     parser.add_argument("--facebook-priority", action="store_true")
@@ -75,6 +76,8 @@ def main() -> int:
             run(facebook_args, optional=True)
 
         watch_args = [PYTHON, "scripts/social_feed_watchdog.py", "--max-post-age-days", str(args.max_post_age_days)]
+        if args.skip_llm_tags:
+            watch_args.append("--no-llm-tags")
         if args.baseline:
             watch_args.append("--baseline")
         if args.emit_initial:
@@ -84,7 +87,10 @@ def main() -> int:
         run(watch_args)
 
     run([PYTHON, "scripts/build_public_data.py"])
+    run([PYTHON, "scripts/backfill_public_source_pages.py", "--skip-fetch"])
+    run([PYTHON, "scripts/build_public_data.py"])
     run([PYTHON, "scripts/generate_rss_feeds.py"])
+    run([PYTHON, "scripts/check_source_coverage.py"])
     return 0
 
 

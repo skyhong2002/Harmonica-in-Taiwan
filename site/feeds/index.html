@@ -5,19 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hermes RSS 分類｜臺灣口琴觀測站</title>
     <meta name="description" content="給 Bamboo Hermes 訂閱的臺灣口琴公開資訊分類 RSS。">
-    <link rel="icon" href="/assets/favicon-20260623.svg?v=20260623-2138" type="image/svg+xml">
+    <link rel="icon" href="/assets/favicon-20260623.svg?v=20260624-1718" type="image/svg+xml">
     <link rel="alternate" type="application/rss+xml" title="臺灣口琴觀測站公開更新" href="/feeds/updates.xml">
-    <link rel="stylesheet" href="/assets/styles.css?v=20260623-2138">
+    <link rel="stylesheet" href="/assets/styles.css?v=20260624-1718">
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="/" aria-label="臺灣口琴觀測站首頁">
-        <img class="brand-logo" src="/assets/logo.svg?v=20260623-2138" alt="臺灣口琴觀測站" width="230" height="41">
+        <img class="brand-logo" src="/assets/logo.svg?v=20260624-1718" alt="臺灣口琴觀測站" width="230" height="41">
       </a>
       <nav class="site-nav" aria-label="主要導覽">
-        <a href="/#directory">名錄</a>
+        <a href="/#latest-feed">最新</a>
+        <details class="nav-menu">
+          <summary>河道</summary>
+          <div class="nav-menu-popover">
+            <a class="nav-feed-link" href="/#latest-feed" data-feed-category="all">全部公開更新</a>
+            <a class="nav-feed-link" href="/?feed=events#latest-feed" data-feed-category="events">實體活動</a>
+            <a class="nav-feed-link" href="/?feed=posts-videos#latest-feed" data-feed-category="posts-videos">貼文影片</a>
+            <a class="nav-feed-link" href="/?feed=student-clubs#latest-feed" data-feed-category="student-clubs">學生社團</a>
+            <a class="nav-feed-link" href="/?feed=opportunities#latest-feed" data-feed-category="opportunities">補助比賽</a>
+          </div>
+        </details>
+        <a href="/directory/">資料索引</a>
         <a href="/feeds/">RSS</a>
-        <a href="/#submit">投稿修正</a>
+        <a href="/submit/">資料回報</a>
       </nav>
     </header>
 
@@ -32,7 +43,7 @@
             <p>Bamboo Hermes 可以分別訂閱這些 RSS。每條 feed 都只來自公開來源，且和頁面顯示共用同一份資料。</p>
             <div class="feed-links">
               <a href="/feeds/updates.xml">總更新 RSS</a>
-              <a href="/feeds/sources.xml">來源名錄 RSS</a>
+              <a href="/feeds/sources.xml">來源索引 RSS</a>
             </div>
           </div>
         </div>
@@ -48,8 +59,7 @@
           <p>全臺灣公開口琴演出、成發、音樂會、講座、工作坊與可到場活動。</p>
         </div>
         <div class="feed-card-actions">
-          <span class="pill">11 筆</span>
-          <a href="/feeds/events/">看頁面</a>
+          <span class="pill">70 筆</span>
           <a href="/feeds/events.xml">RSS</a>
         </div>
       </article>
@@ -62,8 +72,7 @@
           <p>全臺灣公開口琴相關社群貼文、影片發布與公開更新。</p>
         </div>
         <div class="feed-card-actions">
-          <span class="pill">24 筆</span>
-          <a href="/feeds/posts-videos/">看頁面</a>
+          <span class="pill">105 筆</span>
           <a href="/feeds/posts-videos.xml">RSS</a>
         </div>
       </article>
@@ -76,8 +85,7 @@
           <p>全臺灣大專與高中職口琴社團公開動態。</p>
         </div>
         <div class="feed-card-actions">
-          <span class="pill">7 筆</span>
-          <a href="/feeds/student-clubs/">看頁面</a>
+          <span class="pill">51 筆</span>
           <a href="/feeds/student-clubs.xml">RSS</a>
         </div>
       </article>
@@ -90,8 +98,7 @@
           <p>口琴社團需要知道的補助、徵件、甄選、比賽、報名與截止資訊。</p>
         </div>
         <div class="feed-card-actions">
-          <span class="pill">2 筆</span>
-          <a href="/feeds/opportunities/">看頁面</a>
+          <span class="pill">16 筆</span>
           <a href="/feeds/opportunities.xml">RSS</a>
         </div>
       </article>
@@ -107,7 +114,7 @@
           <p>公開口琴活動、社團、貼文影片與補助資訊索引。</p>
         </div>
         <nav class="footer-links" aria-label="頁尾導覽">
-          <a href="/directory/">公開名錄</a>
+          <a href="/directory/">資料索引</a>
           <a href="/feeds/">RSS</a>
           <a href="/api/latest.json">API</a>
           <a href="https://github.com/skyhong2002/Harmonica-in-Taiwan" target="_blank" rel="noreferrer">GitHub</a>

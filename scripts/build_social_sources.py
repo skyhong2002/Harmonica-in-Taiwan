@@ -15,7 +15,9 @@ from typing import Any
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONFIG = PROJECT_ROOT / "data" / "feeds" / "social_sources.json"
+DEFAULT_RSSHUB_BASE = "https://rss.observe.tw"
 GENERATED_BY = "scripts/build_social_sources.py"
+LOCAL_RSSHUB_BASES = {"http://127.0.0.1:1200", "http://localhost:1200"}
 
 SOURCE_FILES = [
     PROJECT_ROOT / "data" / "sources" / "harmonica-source-watchlist-public.csv",
@@ -122,7 +124,7 @@ def url_hash(value: str, size: int = 10) -> str:
 
 
 def source_name(row: dict[str, str]) -> str:
-    return clean(row.get("name_en")) or clean(row.get("name")) or "Public harmonica source"
+    return clean(row.get("name")) or clean(row.get("name_en")) or "Public harmonica source"
 
 
 def parse_facebook_source(row: dict[str, str]) -> dict[str, Any] | None:
@@ -217,6 +219,102 @@ def parse_youtube_source(row: dict[str, str]) -> dict[str, Any] | None:
     }
 
 
+def parse_instagram_source(row: dict[str, str]) -> dict[str, Any] | None:
+    raw_url = normalize_url(clean(row.get("ig_url")))
+    if not raw_url:
+        return None
+    parsed = urllib.parse.urlparse(raw_url)
+    host = parsed.netloc.casefold().removeprefix("www.")
+    if host != "instagram.com":
+        return None
+
+    parts = [urllib.parse.unquote(part).strip() for part in parsed.path.split("/") if part.strip()]
+    if not parts or parts[0] in {"p", "reel", "reels", "tv", "stories", "explore"}:
+        return None
+
+    username = parts[0].strip("@")
+    if not username:
+        return None
+    canonical = canonical_url(raw_url)
+    return {
+        "enabled": True,
+        "id": "ig_" + safe_slug(username, url_hash(canonical)),
+        "limit": 5,
+        "name": source_name(row),
+        "platform": "instagram",
+        "provider": "cookie",
+        "rsshub_base": DEFAULT_RSSHUB_BASE,
+        "source_profile_url": f"https://www.instagram.com/{username}/",
+        "type": "rsshub_instagram_profile",
+        "username": username,
+        "generated_by": GENERATED_BY,
+    }
+
+
+def parse_x_source(row: dict[str, str]) -> dict[str, Any] | None:
+    raw_url = normalize_url(clean(row.get("x_url")) or clean(row.get("twitter_url")))
+    if not raw_url:
+        return None
+    parsed = urllib.parse.urlparse(raw_url)
+    host = parsed.netloc.casefold().removeprefix("www.")
+    if host not in {"x.com", "twitter.com"}:
+        return None
+
+    parts = [urllib.parse.unquote(part).strip() for part in parsed.path.split("/") if part.strip()]
+    if not parts or parts[0] in {"home", "i", "intent", "search", "share", "hashtag", "explore"}:
+        return None
+
+    username = parts[0].strip("@")
+    if not username:
+        return None
+    canonical = canonical_url(f"https://x.com/{username}")
+    return {
+        "enabled": True,
+        "id": "x_" + safe_slug(username, url_hash(canonical)),
+        "limit": 5,
+        "name": source_name(row),
+        "platform": "x",
+        "profile_url": f"https://x.com/{username}",
+        "route": "/twitter/user/{username}",
+        "rsshub_base": DEFAULT_RSSHUB_BASE,
+        "type": "rss",
+        "username": username,
+        "generated_by": GENERATED_BY,
+    }
+
+
+def parse_threads_source(row: dict[str, str]) -> dict[str, Any] | None:
+    raw_url = normalize_url(clean(row.get("threads_url")))
+    if not raw_url:
+        return None
+    parsed = urllib.parse.urlparse(raw_url)
+    host = parsed.netloc.casefold().removeprefix("www.")
+    if host != "threads.net":
+        return None
+
+    parts = [urllib.parse.unquote(part).strip() for part in parsed.path.split("/") if part.strip()]
+    if not parts:
+        return None
+
+    username = parts[0].strip("@")
+    if not username:
+        return None
+    canonical = canonical_url(f"https://www.threads.net/@{username}")
+    return {
+        "enabled": True,
+        "id": "threads_" + safe_slug(username, url_hash(canonical)),
+        "limit": 5,
+        "name": source_name(row),
+        "platform": "threads",
+        "profile_url": f"https://www.threads.net/@{username}",
+        "route": "/threads/{username}",
+        "rsshub_base": DEFAULT_RSSHUB_BASE,
+        "type": "rss",
+        "username": username,
+        "generated_by": GENERATED_BY,
+    }
+
+
 def source_key(source: dict[str, Any]) -> str:
     platform = str(source.get("platform") or source.get("type") or "").casefold()
     if platform == "facebook" or source.get("type") == "facebook_page_posts":
@@ -226,6 +324,12 @@ def source_key(source: dict[str, Any]) -> str:
         return "facebook:url:" + canonical_url(str(source.get("url") or page))
     if platform == "youtube" or source.get("type") == "youtube_ytdlp":
         return "youtube:url:" + canonical_url(str(source.get("url") or ""))
+    if platform == "instagram" or source.get("type") == "rsshub_instagram_profile":
+        return "instagram:username:" + clean(str(source.get("username") or "")).strip("@").casefold()
+    if platform in {"x", "twitter"}:
+        return "x:username:" + clean(str(source.get("username") or "")).strip("@").casefold()
+    if platform == "threads":
+        return "threads:username:" + clean(str(source.get("username") or "")).strip("@").casefold()
     return str(source.get("id") or "")
 
 
@@ -234,7 +338,7 @@ def generated_sources() -> list[dict[str, Any]]:
     seen: set[str] = set()
     for path in SOURCE_FILES:
         for row in read_csv(path):
-            for parser in (parse_facebook_source, parse_youtube_source):
+            for parser in (parse_facebook_source, parse_instagram_source, parse_youtube_source, parse_x_source, parse_threads_source):
                 source = parser(row)
                 if not source:
                     continue
@@ -279,6 +383,17 @@ def ensure_unique_ids(sources: list[dict[str, Any]]) -> list[dict[str, Any]]:
         unique.append(source)
     return unique
 
+
+def normalize_rsshub_bases(sources: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    normalized: list[dict[str, Any]] = []
+    for source in sources:
+        rsshub_base = str(source.get("rsshub_base") or "").rstrip("/")
+        if rsshub_base in LOCAL_RSSHUB_BASES:
+            source = {**source, "rsshub_base": DEFAULT_RSSHUB_BASE}
+        normalized.append(source)
+    return normalized
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
@@ -287,7 +402,7 @@ def main() -> int:
 
     config = load_json(args.config, {"keywords": DEFAULT_KEYWORDS, "sources": []})
     generated = generated_sources()
-    merged = ensure_unique_ids(merge_sources(list(config.get("sources") or []), generated))
+    merged = normalize_rsshub_bases(ensure_unique_ids(merge_sources(list(config.get("sources") or []), generated)))
     output = {
         "keywords": config.get("keywords") or DEFAULT_KEYWORDS,
         "sources": merged,
@@ -305,6 +420,9 @@ def main() -> int:
                 "generated_candidates": len(generated),
                 "generated_added": sum(1 for source in merged if source.get("generated_by") == GENERATED_BY),
                 "facebook_sources": sum(1 for source in merged if source.get("type") == "facebook_page_posts"),
+                "instagram_sources": sum(1 for source in merged if source.get("type") == "rsshub_instagram_profile"),
+                "x_sources": sum(1 for source in merged if source.get("platform") == "x"),
+                "threads_sources": sum(1 for source in merged if source.get("platform") == "threads"),
                 "youtube_sources": sum(1 for source in merged if source.get("type") == "youtube_ytdlp"),
             },
             ensure_ascii=False,
