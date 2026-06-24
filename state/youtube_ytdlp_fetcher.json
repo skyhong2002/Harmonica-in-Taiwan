@@ -1,5 +1,5 @@
 {
-  "next_source_index": 15,
+  "next_source_index": 20,
   "runs": [
     {
       "error_count": 0,
@@ -228,7 +228,20 @@
         "yt_upsidedownharmonicaensemble"
       ],
       "started_at": "2026-06-23T18:23:36.719367+00:00"
+    },
+    {
+      "error_count": 0,
+      "finished_at": "2026-06-24T16:00:12.078367+00:00",
+      "new_inbox_rows": 0,
+      "source_ids": [
+        "yt_brainhorizon570",
+        "yt_laelapsharmonica",
+        "yt_peacetonesharmonica",
+        "yt_theduetmusic",
+        "yt_dmingstudio"
+      ],
+      "started_at": "2026-06-24T16:00:05.302920+00:00"
     }
   ],
-  "updated_at": "2026-06-23T18:23:41.218037+00:00"
+  "updated_at": "2026-06-24T16:00:12.078367+00:00"
 }

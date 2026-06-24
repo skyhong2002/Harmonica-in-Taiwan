@@ -157,3 +157,7 @@
 {"error": "HTTP Error 503: Service Unavailable", "seen_at": "2026-06-23T17:57:55.499937+00:00", "source_id": "ig_chgsh_harmonica", "source_type": "rsshub_instagram_profile"}
 {"error": "HTTP Error 503: Service Unavailable", "seen_at": "2026-06-23T17:57:55.499937+00:00", "source_id": "ig_tnfsh_harmonica", "source_type": "rsshub_instagram_profile"}
 {"error": "HTTP Error 503: Service Unavailable", "seen_at": "2026-06-23T17:57:55.499937+00:00", "source_id": "ig_kshs_harmonica", "source_type": "rsshub_instagram_profile"}
+{"error": "HTTP Error 503: Service Unavailable", "seen_at": "2026-06-24T16:13:01.090770+00:00", "source_id": "x_jangliharmonica", "source_type": "rss"}
+{"error": "HTTP Error 503: Service Unavailable", "seen_at": "2026-06-24T16:13:01.090770+00:00", "source_id": "x_aidensoon", "source_type": "rss"}
+{"error": "HTTP Error 503: Service Unavailable", "seen_at": "2026-06-24T16:13:01.090770+00:00", "source_id": "x_rei_harmonica", "source_type": "rss"}
+{"error": "HTTP Error 503: Service Unavailable", "seen_at": "2026-06-24T16:13:01.090770+00:00", "source_id": "x_duovolce", "source_type": "rss"}

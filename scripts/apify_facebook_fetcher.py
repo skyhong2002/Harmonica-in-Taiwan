@@ -27,6 +27,13 @@ DEFAULT_ERRORS = PROJECT_ROOT / "data" / "feeds" / "social_feed_errors.jsonl"
 APIFY_BASE = "https://api.apify.com/v2"
 FACEBOOK_POSTS_ACTOR = "apify/facebook-posts-scraper"
 TERMINAL_STATUSES = {"SUCCEEDED", "FAILED", "TIMED-OUT", "ABORTED"}
+DEFAULT_MAX_SOURCES_PER_RUN = 24
+DEFAULT_MIN_SOURCES_PER_RUN = 8
+DEFAULT_DAILY_BUDGET_USD = 0.0
+DEFAULT_MONTHLY_BUDGET_USD = 4.0
+DEFAULT_MAX_RUN_BUDGET_USD = 0.25
+DEFAULT_BUDGET_PACING_MULTIPLIER = 1.25
+DEFAULT_MIN_RUN_SPACING_DAYS = 0.0
 
 KEYCHAIN_CANDIDATES = [
     (
@@ -62,6 +69,26 @@ def load_json(path: Path, default: Any) -> Any:
         return default
     with path.open("r", encoding="utf-8") as handle:
         return json.load(handle)
+
+
+def env_float(name: str, default: float) -> float:
+    raw = os.environ.get(name, "").strip()
+    if not raw:
+        return default
+    try:
+        return float(raw)
+    except ValueError:
+        return default
+
+
+def env_int(name: str, default: int) -> int:
+    raw = os.environ.get(name, "").strip()
+    if not raw:
+        return default
+    try:
+        return int(raw)
+    except ValueError:
+        return default
 
 
 def save_json(path: Path, data: Any) -> None:
@@ -230,6 +257,136 @@ def select_priority_sources(sources: list[dict[str, Any]], max_sources: int) -> 
     return selected, 0
 
 
+def source_run_stats(ledger: dict[str, Any]) -> dict[str, dict[str, Any]]:
+    stats: dict[str, dict[str, Any]] = {}
+    for row in ledger_runs(ledger):
+        finished = parse_ledger_datetime(row.get("finished_at") or row.get("started_at"))
+        if finished is None:
+            continue
+        status = str(row.get("status") or "")
+        for source_id in row.get("source_ids") or []:
+            sid = str(source_id or "")
+            if not sid:
+                continue
+            item = stats.setdefault(sid, {"attempt_count": 0, "success_count": 0})
+            item["attempt_count"] += 1
+            if item.get("last_attempted_at") is None or finished > item["last_attempted_at"]:
+                item["last_attempted_at"] = finished
+            if status == "SUCCEEDED":
+                item["success_count"] += 1
+                if item.get("last_successful_at") is None or finished > item["last_successful_at"]:
+                    item["last_successful_at"] = finished
+    return stats
+
+
+def inbox_post_stats(path: Path, now: dt.datetime) -> dict[str, dict[str, Any]]:
+    stats: dict[str, dict[str, Any]] = {}
+    if not path.exists():
+        return stats
+    with path.open("r", encoding="utf-8") as handle:
+        for line in handle:
+            try:
+                row = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if row.get("platform") != "facebook":
+                continue
+            sid = str(row.get("source_id") or "")
+            if not sid:
+                continue
+            posted = parse_post_time(str(row.get("posted_at") or ""))
+            if posted is not None and posted.year < 2005:
+                posted = None
+            item = stats.setdefault(sid, {"post_count": 0, "post_count_30d": 0, "post_count_90d": 0})
+            item["post_count"] += 1
+            if posted is None:
+                continue
+            if item.get("latest_post_at") is None or posted > item["latest_post_at"]:
+                item["latest_post_at"] = posted
+            age_days = (now - posted).total_seconds() / 86400
+            if age_days <= 30:
+                item["post_count_30d"] += 1
+            if age_days <= 90:
+                item["post_count_90d"] += 1
+    return stats
+
+
+def source_refresh_interval_days(source_id: str, post_stats: dict[str, Any], now: dt.datetime) -> float:
+    if source_id in PRIORITY_SOURCE_IDS:
+        return 2.0
+    latest = post_stats.get("latest_post_at")
+    if isinstance(latest, dt.datetime):
+        age_days = (now - latest).total_seconds() / 86400
+        if age_days <= 21:
+            return 3.0
+        if age_days <= 90:
+            return 7.0
+        return 21.0
+    return 14.0
+
+
+def select_adaptive_sources(
+    sources: list[dict[str, Any]],
+    ledger: dict[str, Any],
+    inbox: Path,
+    *,
+    max_sources: int,
+    min_sources: int,
+) -> tuple[list[dict[str, Any]], int, dict[str, Any]]:
+    now = dt.datetime.now(dt.timezone.utc)
+    run_stats = source_run_stats(ledger)
+    post_stats = inbox_post_stats(inbox, now)
+    scored: list[tuple[float, dict[str, Any], dict[str, Any]]] = []
+    due_count = 0
+    for source in sources:
+        sid = str(source.get("id") or "")
+        runs = run_stats.get(sid, {})
+        posts = post_stats.get(sid, {})
+        interval_days = source_refresh_interval_days(sid, posts, now)
+        last_successful = runs.get("last_successful_at")
+        if isinstance(last_successful, dt.datetime):
+            days_since_success = (now - last_successful).total_seconds() / 86400
+        else:
+            days_since_success = 9999.0
+        due = days_since_success >= interval_days
+        if due:
+            due_count += 1
+        activity_bonus = min(1.5, float(posts.get("post_count_30d") or 0) * 0.25)
+        priority_bonus = 1.0 if sid in PRIORITY_SOURCE_IDS else 0.0
+        score = (days_since_success / max(interval_days, 0.1)) + activity_bonus + priority_bonus
+        scored.append(
+            (
+                score,
+                source,
+                {
+                    "source_id": sid,
+                    "due": due,
+                    "refresh_interval_days": interval_days,
+                    "days_since_success": None if days_since_success > 9000 else round(days_since_success, 2),
+                    "latest_post_at": posts.get("latest_post_at").isoformat() if isinstance(posts.get("latest_post_at"), dt.datetime) else None,
+                    "post_count_30d": posts.get("post_count_30d") or 0,
+                    "score": round(score, 3),
+                },
+            )
+        )
+    due_rows = [row for row in scored if row[2]["due"]]
+    due_rows.sort(key=lambda row: row[0], reverse=True)
+    selected_rows = due_rows[:max_sources] if max_sources > 0 else []
+    min_needed = min(min_sources, len(sources))
+    if 0 < len(selected_rows) < min_needed:
+        selected_rows = []
+    selected = [row[1] for row in selected_rows]
+    return selected, 0, {
+        "selection_mode": "adaptive",
+        "sources_due_count": due_count,
+        "min_sources_per_run": min_sources,
+        "source_selection_notes": [
+            row[2]
+            for row in (selected_rows[:8] if selected_rows else due_rows[: min(8, len(due_rows))])
+        ],
+    }
+
+
 def facebook_url(source: dict[str, Any]) -> str:
     url = str(source.get("url") or "").strip()
     if url.startswith("http://") or url.startswith("https://"):
@@ -253,6 +410,80 @@ def apify_input(sources: list[dict[str, Any]], results_limit: int, days_back: in
 
 def estimate_max_charge_usd(results_limit: int, source_count: int) -> float:
     return round(0.006 + 0.005 * max(results_limit, source_count, 1), 4)
+
+
+def max_sources_for_budget(budget_usd: float, results_limit: int, hard_max_sources: int) -> int:
+    if budget_usd <= 0 or hard_max_sources <= 0:
+        return 0
+    for count in range(hard_max_sources, 0, -1):
+        if estimate_max_charge_usd(results_limit, count) <= budget_usd:
+            return count
+    return 0
+
+
+def remote_cycle_days_remaining(limits: dict[str, Any], now: dt.datetime) -> float:
+    cycle = limits.get("cycle")
+    if not isinstance(cycle, dict):
+        return 30.0
+    end = parse_ledger_datetime(cycle.get("endAt") or cycle.get("end_at"))
+    if end is None or end <= now:
+        return 1.0
+    return max(1.0, (end - now).total_seconds() / 86400)
+
+
+def budget_pacing_plan(
+    remote_limits: dict[str, Any],
+    *,
+    source_count: int,
+    results_limit: int,
+    configured_max_sources: int,
+    configured_min_sources: int,
+    monthly_budget_usd: float,
+    daily_budget_usd: float,
+    max_run_budget_usd: float,
+    pacing_multiplier: float,
+    auto_budget_pacing: bool,
+) -> dict[str, Any]:
+    hard_max_sources = configured_max_sources if configured_max_sources > 0 else source_count
+    hard_max_sources = max(0, min(hard_max_sources, source_count))
+    if not auto_budget_pacing:
+        return {
+            "budget_pacing_mode": "static",
+            "planned_run_budget_usd": max_run_budget_usd or daily_budget_usd or 0.0,
+            "planned_max_sources_per_run": hard_max_sources,
+            "planned_min_sources_per_run": min(configured_min_sources, hard_max_sources),
+        }
+
+    now = dt.datetime.now(dt.timezone.utc)
+    current = float(remote_limits.get("monthly_usage_usd") or 0)
+    account_limit = float(remote_limits.get("max_monthly_usage_usd") or 0)
+    if monthly_budget_usd > 0 and account_limit > 0:
+        effective_monthly_limit = min(monthly_budget_usd, account_limit)
+    elif monthly_budget_usd > 0:
+        effective_monthly_limit = monthly_budget_usd
+    else:
+        effective_monthly_limit = account_limit
+    remote_remaining = max(0.0, effective_monthly_limit - current) if effective_monthly_limit > 0 else 0.0
+    days_remaining = remote_cycle_days_remaining(remote_limits, now)
+    paced_budget = remote_remaining / days_remaining if days_remaining > 0 else remote_remaining
+    paced_budget *= max(0.1, pacing_multiplier)
+    if daily_budget_usd > 0:
+        paced_budget = min(paced_budget, daily_budget_usd)
+    if max_run_budget_usd > 0:
+        paced_budget = min(paced_budget, max_run_budget_usd)
+    planned_run_budget = round(max(0.0, paced_budget), 4)
+    planned_max_sources = max_sources_for_budget(planned_run_budget, results_limit, hard_max_sources)
+    return {
+        "budget_pacing_mode": "auto",
+        "effective_monthly_budget_usd": round(effective_monthly_limit, 6) if effective_monthly_limit > 0 else 0.0,
+        "remote_cycle_days_remaining": round(days_remaining, 2),
+        "budget_pacing_multiplier": pacing_multiplier,
+        "max_run_budget_usd": max_run_budget_usd,
+        "planned_run_budget_usd": planned_run_budget,
+        "planned_max_sources_per_run": planned_max_sources,
+        "planned_min_sources_per_run": min(configured_min_sources, planned_max_sources),
+        "planned_remote_remaining_usd": round(remote_remaining, 6),
+    }
 
 
 def fetch_user_limits(token: str) -> dict[str, Any]:
@@ -353,6 +584,7 @@ def enforce_remote_monthly_budget(limits: dict[str, Any], reserve_usd: float, mo
     return {
         "remote_monthly_usage_usd": current,
         "remote_monthly_limit_usd": account_limit,
+        "effective_remote_monthly_limit_usd": effective_limit,
         "remote_monthly_remaining_usd": remaining,
     }
 
@@ -684,15 +916,52 @@ def main() -> int:
     parser.add_argument("--source-id", action="append", default=[])
     parser.add_argument("--priority", action="store_true")
     parser.add_argument("--full-refresh", action="store_true")
-    parser.add_argument("--max-sources-per-run", type=int, default=0)
+    parser.add_argument(
+        "--selection-mode",
+        choices=("adaptive", "round-robin"),
+        default=os.environ.get("HARMONICA_APIFY_SELECTION_MODE", "adaptive"),
+    )
+    parser.add_argument(
+        "--max-sources-per-run",
+        type=int,
+        default=env_int("HARMONICA_APIFY_MAX_SOURCES_PER_RUN", DEFAULT_MAX_SOURCES_PER_RUN),
+    )
+    parser.add_argument(
+        "--min-sources-per-run",
+        type=int,
+        default=env_int("HARMONICA_APIFY_MIN_SOURCES_PER_RUN", DEFAULT_MIN_SOURCES_PER_RUN),
+    )
     parser.add_argument("--results-limit", type=int, default=5)
     parser.add_argument("--days-back", type=int, default=30)
     parser.add_argument("--local-max-post-age-days", type=int, default=30)
     parser.add_argument("--max-items", type=int, default=0)
     parser.add_argument("--max-total-charge-usd", type=float, default=0.0)
-    parser.add_argument("--daily-budget-usd", type=float, default=0.60)
-    parser.add_argument("--monthly-budget-usd", type=float, default=0.0)
-    parser.add_argument("--min-run-spacing-days", type=float, default=4.0)
+    parser.add_argument(
+        "--daily-budget-usd",
+        type=float,
+        default=env_float("HARMONICA_APIFY_DAILY_BUDGET_USD", DEFAULT_DAILY_BUDGET_USD),
+    )
+    parser.add_argument(
+        "--monthly-budget-usd",
+        type=float,
+        default=env_float("HARMONICA_APIFY_MONTHLY_BUDGET_USD", DEFAULT_MONTHLY_BUDGET_USD),
+    )
+    parser.add_argument(
+        "--max-run-budget-usd",
+        type=float,
+        default=env_float("HARMONICA_APIFY_MAX_RUN_BUDGET_USD", DEFAULT_MAX_RUN_BUDGET_USD),
+    )
+    parser.add_argument(
+        "--budget-pacing-multiplier",
+        type=float,
+        default=env_float("HARMONICA_APIFY_BUDGET_PACING_MULTIPLIER", DEFAULT_BUDGET_PACING_MULTIPLIER),
+    )
+    parser.add_argument("--no-auto-budget-pacing", dest="auto_budget_pacing", action="store_false")
+    parser.add_argument(
+        "--min-run-spacing-days",
+        type=float,
+        default=env_float("HARMONICA_APIFY_MIN_RUN_SPACING_DAYS", DEFAULT_MIN_RUN_SPACING_DAYS),
+    )
     parser.add_argument("--memory-mbytes", type=int, default=1024)
     parser.add_argument("--timeout-secs", type=int, default=900)
     parser.add_argument("--poll-secs", type=float, default=5.0)
@@ -705,12 +974,73 @@ def main() -> int:
 
     all_sources = load_facebook_sources(args.config, args.source_id)
     ledger = load_json(args.ledger, {"runs": [], "next_source_index": 0})
-    max_sources = 0 if args.full_refresh else args.max_sources_per_run
-    if args.priority and not args.source_id:
+    token, token_source = read_token()
+    remote_limits: dict[str, Any] = {}
+    remote_budget_fetch_error = ""
+    if token:
+        try:
+            remote_limits = fetch_user_limits(token)
+        except Exception as exc:
+            if args.run:
+                raise
+            remote_budget_fetch_error = str(exc)
+
+    use_auto_budget_pacing = args.auto_budget_pacing and bool(remote_limits) and not args.full_refresh and not args.source_id
+    pacing_status = budget_pacing_plan(
+        remote_limits,
+        source_count=len(all_sources),
+        results_limit=args.results_limit,
+        configured_max_sources=args.max_sources_per_run,
+        configured_min_sources=args.min_sources_per_run,
+        monthly_budget_usd=args.monthly_budget_usd,
+        daily_budget_usd=args.daily_budget_usd,
+        max_run_budget_usd=args.max_run_budget_usd,
+        pacing_multiplier=args.budget_pacing_multiplier,
+        auto_budget_pacing=use_auto_budget_pacing,
+    )
+    if remote_budget_fetch_error:
+        pacing_status["remote_budget_check_error"] = remote_budget_fetch_error
+
+    if args.full_refresh or args.source_id:
+        max_sources = 0
+    elif use_auto_budget_pacing:
+        max_sources = int(pacing_status.get("planned_max_sources_per_run") or 0)
+    else:
+        max_sources = args.max_sources_per_run if args.max_sources_per_run > 0 else len(all_sources)
+    min_sources = int(pacing_status.get("planned_min_sources_per_run") if use_auto_budget_pacing else args.min_sources_per_run)
+    selection_status: dict[str, Any] = {"selection_mode": args.selection_mode}
+    if args.full_refresh:
+        sources, start_index = select_sources(all_sources, ledger, max_sources)
+        selection_status["selection_mode"] = "full-refresh"
+    elif args.source_id:
+        sources, start_index = select_sources(all_sources, ledger, max_sources)
+        selection_status["selection_mode"] = "explicit-source-id"
+    elif args.priority:
         sources, start_index = select_priority_sources(all_sources, max_sources)
+        selection_status["selection_mode"] = "priority"
+    elif args.selection_mode == "adaptive":
+        sources, start_index, selection_status = select_adaptive_sources(
+            all_sources,
+            ledger,
+            args.inbox,
+            max_sources=max_sources,
+            min_sources=max(0, min_sources),
+        )
     else:
         sources, start_index = select_sources(all_sources, ledger, max_sources)
     run_cadence = cadence_status(ledger, args.min_run_spacing_days)
+    if args.run and not sources:
+        skip_reason = "budget_pacing_wait" if int(pacing_status.get("planned_max_sources_per_run") or 0) <= 0 else "no_due_facebook_sources"
+        print(json.dumps({
+            "ok": True,
+            "skipped": True,
+            "skip_reason": skip_reason,
+            "actor": FACEBOOK_POSTS_ACTOR,
+            "sources_total": len(all_sources),
+            **pacing_status,
+            **selection_status,
+        }, ensure_ascii=False, indent=2))
+        return 0
     if args.run and not args.force and not run_cadence["cadence_ready"]:
         print(json.dumps({
             "ok": True,
@@ -722,37 +1052,53 @@ def main() -> int:
             **run_cadence,
         }, ensure_ascii=False, indent=2))
         return 0
-    token, token_source = read_token()
     max_items = args.max_items if args.max_items > 0 else max(args.results_limit * max(len(sources), 1), max(len(sources), 1))
-    reserve = args.max_total_charge_usd if args.max_total_charge_usd > 0 else 0.0
-    budget_status = enforce_budget(ledger, reserve, args.daily_budget_usd, args.monthly_budget_usd)
+    estimated_actor_price_usd = estimate_max_charge_usd(args.results_limit, len(sources)) if sources else 0.0
+    reserve = args.max_total_charge_usd if args.max_total_charge_usd > 0 else estimated_actor_price_usd
+    budget_status: dict[str, Any]
+    try:
+        budget_status = enforce_budget(ledger, reserve, args.daily_budget_usd, args.monthly_budget_usd)
+    except Exception as exc:
+        if args.run:
+            raise
+        budget_status = {"budget_guard_blocked": True, "budget_guard_error": str(exc)}
     remote_budget_status: dict[str, Any] = {}
-    if token:
+    if token and remote_limits:
         try:
-            remote_limits = fetch_user_limits(token)
             remote_budget_status = enforce_remote_monthly_budget(remote_limits, reserve, args.monthly_budget_usd)
         except Exception as exc:
             if args.run:
                 raise
             remote_budget_status = {"remote_budget_check_error": str(exc)}
+    elif remote_budget_fetch_error:
+        remote_budget_status = {"remote_budget_check_error": remote_budget_fetch_error}
     cap_candidates = []
     if args.max_total_charge_usd > 0:
         cap_candidates.append(args.max_total_charge_usd)
-    elif args.daily_budget_usd > 0:
-        cap_candidates.append(float(budget_status.get("daily_remaining_usd") or 0.0))
+    else:
+        planned_run_budget = pacing_status.get("planned_run_budget_usd")
+        if sources and isinstance(planned_run_budget, (int, float)) and planned_run_budget > 0:
+            cap_candidates.append(float(planned_run_budget))
+        if args.daily_budget_usd > 0:
+            cap_candidates.append(float(budget_status.get("daily_remaining_usd") or 0.0))
     if args.monthly_budget_usd > 0:
         cap_candidates.append(float(budget_status.get("monthly_remaining_usd") or 0.0))
     remote_remaining = remote_budget_status.get("remote_monthly_remaining_usd")
     if isinstance(remote_remaining, (int, float)) and remote_remaining > 0:
         cap_candidates.append(float(remote_remaining))
-    actor_spend_cap_usd = round(min(cap_candidates), 4) if cap_candidates else None
+    actor_spend_cap_usd = round(min(cap_candidates), 4) if sources and cap_candidates else None
     if actor_spend_cap_usd is not None and actor_spend_cap_usd <= 0:
-        raise RuntimeError("Budget guard blocked run: no Apify spend remains for the active budget window.")
+        if args.run:
+            raise RuntimeError("Budget guard blocked run: no Apify spend remains for the active budget window.")
+        budget_status.setdefault("budget_guard_blocked", True)
+        budget_status.setdefault("budget_guard_error", "Budget guard blocked run: no Apify spend remains for the active budget window.")
+        actor_spend_cap_usd = None
 
     plan = {
         "actor": FACEBOOK_POSTS_ACTOR,
         "sources_total": len(all_sources),
         "sources_selected": [{"id": s.get("id"), "page": s.get("page"), "url": s.get("url"), "name": s.get("name")} for s in sources],
+        "sources_selected_count": len(sources),
         "selected_start_index": start_index,
         "results_limit": args.results_limit,
         "days_back": args.days_back,
@@ -761,7 +1107,7 @@ def main() -> int:
         "independent_actor_cap_usd": args.max_total_charge_usd or None,
         "actor_spend_cap_usd": actor_spend_cap_usd,
         "reserve_usd_for_budget_guard": reserve,
-        "estimated_actor_price_usd": estimate_max_charge_usd(args.results_limit, len(sources)),
+        "estimated_actor_price_usd": estimated_actor_price_usd,
         "daily_budget_usd": args.daily_budget_usd,
         "monthly_budget_usd": args.monthly_budget_usd,
         "force": args.force,
@@ -769,6 +1115,9 @@ def main() -> int:
         "inbox": str(args.inbox),
         "has_token": bool(token),
         "token_source": token_source,
+        "auto_budget_pacing": args.auto_budget_pacing,
+        **pacing_status,
+        **selection_status,
         **run_cadence,
         **budget_status,
         **remote_budget_status,
@@ -859,6 +1208,10 @@ def main() -> int:
         "max_total_charge_usd": args.max_total_charge_usd or None,
         "actor_spend_cap_usd": actor_spend_cap_usd,
         "reserved_usd": reserve,
+        "selection_mode": selection_status.get("selection_mode"),
+        "budget_pacing_mode": pacing_status.get("budget_pacing_mode"),
+        "planned_run_budget_usd": pacing_status.get("planned_run_budget_usd"),
+        "planned_max_sources_per_run": pacing_status.get("planned_max_sources_per_run"),
         "usage_total_usd": charged,
         "platform_usage_total_usd": platform_usage,
         "remote_monthly_usage_before_usd": remote_before.get("monthly_usage_usd"),
