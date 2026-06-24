@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T09:18:38.895379+00:00",
+  "updatedAt": "2026-06-24T14:22:52.098735+00:00",
   "profiles": {
     "ig_ntnu_harmonica": {
       "id": "ig_ntnu_harmonica",
@@ -1048,6 +1048,410 @@
       "title": "fanhsiaoyi (@fanhsiaoyi) on Threads",
       "description": "fanhsiaoyi (@fanhsiaoyi) on Threads",
       "avatar_url": "/assets/source-avatars/bf38e58bc965ad01f517.jpg"
+    },
+    "yt_dror_adler": {
+      "id": "yt_dror_adler",
+      "name": "Dror Adler / Adler Trio",
+      "account": "https://youtube.com/@Dror-adler",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCIcJE8xbTz0urhj9-To34Zg",
+      "avatar_source_url": "https://yt3.googleusercontent.com/0IQE-1IaJgYCkWKFarZktkaiKdxouWkE8UsQM6xsE__-5NeHmAAzH3hZoPoqax88KyUSjRAaKA=s900-c-k-c0x00ffffff-no-rj",
+      "title": "Dror-Adler",
+      "avatar_url": "/assets/source-avatars/ed6f87ac774a312b4f18.jpg"
+    },
+    "ig_aurora_harmonica": {
+      "id": "ig_aurora_harmonica",
+      "name": "吳采容",
+      "account": "aurora._.harmonica",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/aurora._.harmonica",
+      "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/453149263_1040256137764190_6554458989736325806_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gHu273TANsnUXEYwUCGGrXzvh-pBybG5Y-3QK2fY4mrl0l3ongIRJ8bPRXcP2yqDQQ&_nc_ohc=kNGvyby4cs4Q7kNvwFubZrD&_nc_gid=VLpLP6WFIU1l-dQHVit_AQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af-mYLioEeXoyONyaxHNHouVWm6o9-9d2R41OpC0g8Hzeg&oe=6A4171D5&_nc_sid=8b3546",
+      "title": "Tsai-Rung Wu (@aurora._.harmonica) - Instagram",
+      "description": "🎶 Harmonica Performer 🏅2019 SIHF Seoul Major Prize 🎙Chromatic Harmonica & Tremolo - #Harmonica",
+      "avatar_url": "/assets/source-avatars/ce59f537b038844570e2.jpg"
+    },
+    "ig_yich": {
+      "id": "ig_yich",
+      "name": "廖苡晴",
+      "account": "__yich___",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/__yich___",
+      "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/541165853_17983626428902339_1251687501642565010_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42MDkuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gHmxME-1LS8jhaehY86JnkwHAsFazDOJkpCZaiSy-SAdyDH0aaM-OLeyIZAnlKUsyc&_nc_ohc=26OsO8vwNYAQ7kNvwEFslnt&_nc_gid=z_iKHIn7u8rmWNq0fe7X7A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af-VqbsiR7ck4_GDLDP6K-wwiZjNry_Q0IjRBrdhv1zQgw&oe=6A41683F&_nc_sid=8b3546",
+      "title": "Alysa Liao (@__yich___) - Instagram",
+      "description": "- ʜᴀʀᴍᴏɴɪᴄɪꜱᴛ",
+      "avatar_url": "/assets/source-avatars/9db13cd6657d776efa54.jpg"
+    },
+    "ig_harmonica_wang": {
+      "id": "ig_harmonica_wang",
+      "name": "王心禾",
+      "account": "harmonica_wang",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/harmonica_wang",
+      "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/573955238_18534608626024570_9068841493657174129_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gHb1DNkpbyKdMyWGWtRvWXUKdkPQdoIz6eU8H6hOTv2riaVwGXjUFDImmoYJz_vNiM&_nc_ohc=kOQOiOh-6LgQ7kNvwEpP4b5&_nc_gid=YabchuM7QagCEexnGG_HFQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af--UX0S3IOSsJUcMUTld7-iesE0Sgi-cyWkPb3nUGWEAg&oe=6A417892&_nc_sid=8b3546",
+      "title": "Hsin-Ho (@harmonica_wang) - Instagram",
+      "description": "𝐇𝐚𝐫𝐩𝐞𝐫 𝘢𝘶𝘥𝘦𝘯𝘵𝘦𝘴 𝘍𝘰𝘳𝘵𝘶𝘯𝘢 𝘪𝘶𝘷𝘢𝘵",
+      "avatar_url": "/assets/source-avatars/211b57df4d08779f1f6a.jpg"
+    },
+    "fb_chuti_chuang": {
+      "id": "fb_chuti_chuang",
+      "name": "莊筑迪",
+      "account": "chuti.chuang",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/chuti.chuang",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/366808664_10161754072971435_4118358407538010957_n.jpg?stp=dst-jpg_tt6&cstp=mx959x960&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=J1PlgV3ZzE4Q7kNvwGZJMTc&_nc_oc=Adqj0e91uXXs5b_lTt0QxDSCBzcQ-MFYAAIbUKuhxvfoEoSv157mndDCc6gYjQPJJx8&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=ZVg0eN4BnLoZhcuT11x86Q&_nc_ss=7020f&oh=00_Af-I8KoU4pzeBLeqm7LemapxvF_jV29-XCQek6YvSyAGyg&oe=6A417C7B",
+      "title": "莊筑迪",
+      "description": "莊筑迪。 2,654 個讚 · 1 人正在談論這個。學習知足",
+      "avatar_url": "/assets/source-avatars/8116b63f18cfa8b6fdae.jpg"
+    },
+    "ig_judygigo": {
+      "id": "ig_judygigo",
+      "name": "莊筑迪",
+      "account": "judygigo",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/judygigo",
+      "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/366250432_1325506298046094_6098478238891391862_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmV4cGVyaW1lbnRhbCJ9&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gG-4foWDB_xQe1WLpch4H81JkCbxOR9vaWzwxxEkgtWJIgDyuz5zQemFc7e-tKDlXo&_nc_ohc=M4V2PjJvsgEQ7kNvwGBCT5Q&_nc_gid=uilkjzh62BnzgN42DMfHeQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af8SAwrSCja8mjSFjs68O2dq0zs5fF2dP5rHbBLrjn69bw&oe=6A419AC6&_nc_sid=8b3546",
+      "title": "莊筑迪 (@judygigo) - Instagram",
+      "description": "CHU-TI CHUANG 先相信，才有機會",
+      "avatar_url": "/assets/source-avatars/5d4aff0a2520b1638340.jpg"
+    },
+    "fb_aria0831": {
+      "id": "fb_aria0831",
+      "name": "陳奕翔",
+      "account": "aria0831",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/aria0831",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/464915189_10211754311971441_5590125486792693765_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=brEglbbHk60Q7kNvwFU4_7D&_nc_oc=AdppJP6kYPg4wB91novcc6IzMCqGKIk_bXqqhLZ4vqCYf4dkaHheTG9vw8P6Vrl-oqk&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=Z5EgSD29jDlP5p-S92HjMA&_nc_ss=7020f&oh=00_Af9wiXIAIfyvzbAwYKYZkCPRGDKOTROA6BZjcgmNDMO46A&oe=6A418888",
+      "title": "陳奕翔",
+      "description": "陳奕翔。 3,157 個讚 · 1 人正在談論這個。數位創作者",
+      "avatar_url": "/assets/source-avatars/d46fbb9d85a14ff41269.jpg"
+    },
+    "fb_emerychen_cm": {
+      "id": "fb_emerychen_cm",
+      "name": "陳彥銘",
+      "account": "emerychen.cm",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/emerychen.cm",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/327876294_647724500443630_6397213627288583693_n.jpg?stp=dst-jpg_tt6&cstp=mx998x998&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=7BeF1Ra9buwQ7kNvwEzLpZa&_nc_oc=Ado8dGAgBSZdb5HQEUfJ56BWmxU_NGTM2BOQa85_kJ2TUH0wJYKI0l7k58pFa-mY1bk&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=undPf1SSr7aJz2ASOTeHZA&_nc_ss=7020f&oh=00_Af_aCVDAZzosbZ_F8Y8yW1Ofk-ioxE2tF6e_SdBZETXxkw&oe=6A41704F",
+      "title": "陳彥銘",
+      "description": "陳彥銘。 2,624 個讚 · 1 人正在談論這個。數位創作者",
+      "avatar_url": "/assets/source-avatars/ccbba7c9e8087ea8131b.jpg"
+    },
+    "ig_yenmingchen": {
+      "id": "ig_yenmingchen",
+      "name": "陳彥銘",
+      "account": "yenmingchen",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/yenmingchen",
+      "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/327070752_588011085996411_3128474384671728010_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby45OTguZXhwZXJpbWVudGFsIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gHBvFhc_tv92vpoqBBUYQXgOssh8eG3RubaKWYaUitSG9Vc7OhyLRIlHmNUymw9ivI&_nc_ohc=mbXaxRGu3v8Q7kNvwFETgYe&_nc_gid=TaR18gBQxLCdNA60kXnNKQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af-a5U9Yjm6CAAtN9cPtWzimiMtR9zIxOzccGaABbvQhsQ&oe=6A417F79&_nc_sid=8b3546",
+      "title": "陳彥銘 (@yenmingchen) - Instagram",
+      "description": "小百科是我🌽<-小編入侵亂打的，望周知 NYCU ICE/EE Sirius Harmonica Ensemble",
+      "avatar_url": "/assets/source-avatars/20f4be3eb6d87d7b412d.jpg"
+    },
+    "fb_chen_cong_199678": {
+      "id": "fb_chen_cong_199678",
+      "name": "陳聰",
+      "account": "chen.cong.199678",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/chen.cong.199678",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/272805566_4993367404091382_620608857940414570_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=h1gx0TmRrukQ7kNvwG-gtZJ&_nc_oc=AdoqxXTB47Nmrwa-d0wJSvBvbPwN1MVpF5t6tXPlwTcfcPwICZ2PPT4DOo83Hav9VsU&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=88vnarCB-ljdj_BmpiHu_Q&_nc_ss=7020f&oh=00_Af_F9t2YV7VunEYhCcCQ-M4vCxmckbpRiMg2V26J4frqyw&oe=6A419898",
+      "title": "陳聰",
+      "description": "陳聰已經註冊了 Facebook。加入 Facebook 來聯絡陳聰及更多你可能認識的朋友。Facebook 讓人們盡情分享，將這個世界變得更開闊、聯繫更緊密。",
+      "avatar_url": "/assets/source-avatars/cb29b0c5fb5db240169b.jpg"
+    },
+    "ig_attack_on_harmonica_ensemble": {
+      "id": "ig_attack_on_harmonica_ensemble",
+      "name": "進擊的口琴樂團",
+      "account": "attack_on_harmonica_ensemble",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/attack_on_harmonica_ensemble",
+      "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/471631956_577151214930848_7919053069296192187_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby43NTcuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gHadzvpf_2lz1MeZkx6X1dpCQgVJBILtuls-lGBpsc8Ciq9rXz5ehy01_Yg89z5TJc&_nc_ohc=qgGB6TeSD0QQ7kNvwF1hB11&_nc_gid=gK8Ez7HkAQvYfUzoEnzDnw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af-PKIt7QPX2mR0HAxNl63HMg0gXzt9FGCwkzcu7GRw70g&oe=6A419EA6&_nc_sid=8b3546",
+      "title": "進擊的口琴樂團 (@attack_on_harmonica_ensemble) - Instagram",
+      "description": "半音階 廖敏安 @liao_minan 半音階 廖傑克 @jack0901._ 半音階 翁詠筑 @amber._._.1130 Bass. 李承憲 @hsien__0131 Chord 薛亦均 @xuexue1003",
+      "avatar_url": "/assets/source-avatars/943304d2d25b73d5cac7.jpg"
+    },
+    "ig_nkustharmonica": {
+      "id": "ig_nkustharmonica",
+      "name": "NKUST Harmonica",
+      "account": "nkustharmonica",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/nkustharmonica",
+      "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/118966836_2282557781889418_4651825064652923474_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby43MjAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gGy6UD-xnST_NZPd7oGc3K6p4D80dc5pcmO0_1y14HOdYa1supTphkz7Ylbl4cTZgs&_nc_ohc=KKEd7PjPFB8Q7kNvwHRujjg&_nc_gid=e3J18DIm6UE1yHY93gSsGQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af86PgW9EHwUi0KzOCs_I8FA8dvCfEIJB5YGmmpObqzSKQ&oe=6A419006&_nc_sid=8b3546",
+      "title": "高科大動感口琴社 (@nkustharmonica) - Instagram",
+      "description": "想學樂器又不知道學什麼嗎？ 那就來動感口琴社跟我們一起學口琴吧 社課時間：每週二晚上7:00-8:30 地點：活動中心6樓AC603研討室",
+      "avatar_url": "/assets/source-avatars/0999598fd8d31f3031e4.jpg"
+    },
+    "fb_nkustharmonica": {
+      "id": "fb_nkustharmonica",
+      "name": "NKUST Harmonica",
+      "account": "nkustharmonica",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/nkustharmonica",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/294498640_414619710689728_4347664965780057466_n.png?stp=dst-png&cstp=mx1483x2048&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4BXwtYstXVYQ7kNvwEYY4Lk&_nc_oc=Adpw16d3Q1ZtcXbPqhueGxA4RcH9Mb3xFCvN4t4gpywA5wXotyWh2K9Pg8YGgVEqHC8&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=kpOqEJe63Et7S9UzwkY7IA&_nc_ss=7020f&oh=00_Af8aP4BPe25JdJGKPkhY2ubJ9FOtH1-u6a2a0eL8yoiWeA&oe=6A418CB4",
+      "title": "高科大動感口琴社 NKUST Harmonica Club",
+      "description": "高科大動感口琴社 NKUST Harmonica Club 。 631 個讚。大家好~我們是高科大動感口琴社，有興趣想學吹口琴的人都歡迎來私訊我們",
+      "avatar_url": "/assets/source-avatars/66bc7c12a243b1c42c84.png"
+    },
+    "fb_rhapsodyharmonicaensemble": {
+      "id": "fb_rhapsodyharmonicaensemble",
+      "name": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
+      "account": "RhapsodyHarmonicaEnsemble",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/RhapsodyHarmonicaEnsemble",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/223462580_203969745075325_8827310172956052375_n.jpg?stp=dst-jpg_tt6&cstp=mx720x480&ctp=s720x480&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=gH3M_mAJY00Q7kNvwFz_boK&_nc_oc=AdpeWRKRQUwCeyNqB7G41UV60RqA1wNmNZfOoGZnA1doNIUS58RMSPLy6nMyHQaro1s&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=WVJkMgzNhY5tmbwI1KYHDw&_nc_ss=7020f&oh=00_Af9pimwZ_lxgTcbJc-5fCQEr_nq73rcHZTyy3p-0g3mpNQ&oe=6A417669",
+      "title": "Rhapsody Harmonica Ensemble 狂響口琴樂團",
+      "description": "Rhapsody Harmonica Ensemble 狂響口琴樂團。 1,945 個讚 · 1 人正在談論這個。口琴重奏，口琴教學，簡譜製作，編曲",
+      "avatar_url": "/assets/source-avatars/304ed213cf955de4f999.jpg"
+    },
+    "fb_harpdonuts": {
+      "id": "fb_harpdonuts",
+      "name": "DoNuts 口琴樂團",
+      "account": "harpDoNuts",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/harpDoNuts",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/464693413_8693892710691368_317011334085638093_n.jpg?stp=dst-jpg_tt6&cstp=mx480x480&ctp=s480x480&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-VFkuu3UHfcQ7kNvwHGcAYv&_nc_oc=Ador8K-gnKS20mMX6s6ZNBP-dr_t0dCJkuS5UPePiTU5qwnZnaFRuwZkPoap1bQ0J8E&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=DHMFd4dSihR1jWz9qu0f1A&_nc_ss=7020f&oh=00_Af9wvcvgiL9tUfERDgEekUBAyi7aP7ctfIVSQNlZd7GUpg&oe=6A416ADA",
+      "title": "DoNuts口琴樂團(DoNuts Harmonica Ensemble)",
+      "description": "DoNuts口琴樂團(DoNuts Harmonica Ensemble) 。 2,123 個讚。 \"DoNuts, do nuts.\" \n我們都是狂人，為了夢想勇往直前。",
+      "avatar_url": "/assets/source-avatars/0774c136cd36c60c0adf.jpg"
+    },
+    "ig_donuts_harmonica": {
+      "id": "ig_donuts_harmonica",
+      "name": "DoNuts 口琴樂團",
+      "account": "donuts_harmonica",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/donuts_harmonica",
+      "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/28430411_190718515028416_8650270623286689792_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40ODAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGwVdIh4p3XcZoSJ53MfTC30z4FS1_T1JW7dY1T0H2hHnkdN8NjZ5h1V-EL3nYX_Q8&_nc_ohc=y0GT-qoW3lQQ7kNvwE456dg&_nc_gid=LVOHgzJN9nZk3Bq0iZthzw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_s7GqqUHhVn3fjYl1ol7tWoDa8DZYjgdTegme9AuQ6ug&oe=6A4189DC&_nc_sid=8b3546",
+      "title": "DoNuts 口琴樂團 🍩 (@donuts_harmonica) - Instagram",
+      "description": "Taiwan 🇹🇼 Harmonica Ensemble 🎵",
+      "avatar_url": "/assets/source-avatars/4fa0480bb4f95de4bbf9.jpg"
+    },
+    "yt_harpdonuts": {
+      "id": "yt_harpdonuts",
+      "name": "DoNuts 口琴樂團",
+      "account": "https://youtube.com/@harpdonuts",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCjUHi6pq-R6ST3w2X-P6aog",
+      "avatar_source_url": "https://yt3.googleusercontent.com/ytc/AIdro_koafH_leaTN74R4wVTO5GCuVhkMuEOmz-aFpS1B-bqIQ=s900-c-k-c0x00ffffff-no-rj",
+      "title": "DoNuts Harmonica",
+      "avatar_url": "/assets/source-avatars/718061dab1cde02dd26f.jpg"
+    },
+    "fb_ab771e2fae": {
+      "id": "fb_ab771e2fae",
+      "name": "Spotlight 口琴樂團",
+      "account": "https://facebook.com/people/Spotlight-Harmonica-Ensemble/100070066273672",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/people/Spotlight-Harmonica-Ensemble/100070066273672/",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/301577646_368304012181805_4663811368106810820_n.jpg?stp=dst-jpg_tt6&cstp=mx464x464&ctp=s464x464&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=aF_9EFgNDrMQ7kNvwGNplqA&_nc_oc=Ado6MRXkByEaR3Eaph_SrJPsdApfXF5nzEko7a-vV-AzmscE8sbGDHDfSbW5CfKOBcU&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=F6YwSBiTGnZR7uR6BUEFEg&_nc_ss=7020f&oh=00_Af8VBJTcjesy23gKdFgUx9QZzHSCCBXha3EZ9q4_p7ezPQ&oe=6A418DDA",
+      "title": "Spotlight Harmonica Ensemble",
+      "description": "Spotlight Harmonica Ensemble 。 653 個讚。 Spotlight Harmonica Ensemble 來自台灣熱情的中部 – 彰化市，\n6位團員在中山國小口琴團奠定紮實的基本功，\n國小畢業後，相約就讀陽明國中, 支持創社的陽明口琴團以共續琴緣，在2015年仲夏組成Spotlight口琴樂團, 暢遊多元曲風 (流行樂、古典樂、各國民瑤、甚至funky曲風) !",
+      "avatar_url": "/assets/source-avatars/e7b6ff0e0fef53b03e3b.jpg"
+    },
+    "fb_philharmonica_fans": {
+      "id": "fb_philharmonica_fans",
+      "name": "口琴愛樂集",
+      "account": "philharmonica.fans",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/philharmonica.fans",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/302728440_430068089231614_2473369638585850222_n.jpg?stp=dst-jpg_tt6&cstp=mx689x419&ctp=s689x419&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=z8GqtEMrzaYQ7kNvwGJ4_Af&_nc_oc=Ado2MZehYeWOM3X4bhkrdAwILvCok4sDQnS91FYWhX-_Xkchv_dUng6Kw26DBawZkao&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=6z2uGEBh_vsWxq8CTjs9RQ&_nc_ss=7020f&oh=00_Af-Por5evsNtgWHk2biMrNalohM7_B6kDxsjft6BPFpKvA&oe=6A418440",
+      "title": "口琴愛樂集-Philharmonica",
+      "description": "口琴愛樂集-Philharmonica 。 852 個讚。口琴愛樂集 (Philharmonica) 於2004年由沈雕龍老師創立，並廣邀青年半音階口琴�",
+      "avatar_url": "/assets/source-avatars/2baae100fe6844e1cbbe.jpg"
+    },
+    "fb_nycubmhc": {
+      "id": "fb_nycubmhc",
+      "name": "陽明交大竹韻口琴社",
+      "account": "nycubmhc",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/nycubmhc",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/702399010_1594746349317576_6447986012116749468_n.jpg?stp=dst-jpg_tt6&cstp=mx877x880&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=USxs9v4MwVoQ7kNvwGy0lcz&_nc_oc=AdqCoyi9vM0Uzszf0LK2B5LeRYzU8CecYzIzMLs4pdISuq3aPLFsYYGJcfILTIwvu38&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=yinQuAGH050Tp32Tn8FWZQ&_nc_ss=7020f&oh=00_Af953M2lmzwfWRvpzDvX0OewdjQTf-sHNqRy0BcpKbKYkA&oe=6A418768",
+      "title": "陽明交大竹韻口琴社",
+      "description": "陽明交大竹韻口琴社， 新竹市。 568 個讚。【竹韻公佈欄】\n交通大學竹韻口琴社  -> 陽明交大竹韻口琴社 \n創社連署：\nhttps://clubportal.nycu.edu.tw/club/new/sign/DCC92467-0F2B-4AA8-8C56-3D1BF37430FA",
+      "avatar_url": "/assets/source-avatars/7a95da302f31d963881c.jpg"
+    },
+    "ig_nycu_harmonica": {
+      "id": "ig_nycu_harmonica",
+      "name": "陽明交大竹韻口琴社",
+      "account": "nycu_harmonica",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/nycu_harmonica",
+      "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/701558410_18109037233745725_4881025079895106710_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gGHh6vvvLDqaXU9SrBhOvjqrTnPnftM2vsaOMq7yDYbLi_-zZHLXHIqL3d-h0po4Dk&_nc_ohc=hB-Ig1lMCqEQ7kNvwEsxs7-&_nc_gid=uyoXe7lBlUau8UmiyCNRjQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_om5e-K3ArIYoHqGfuHxRs3qrTo-7bwjtppbBvOwzqxw&oe=6A418714&_nc_sid=8b3546",
+      "title": "陽明交大竹韻口琴社 (@nycu_harmonica) - Instagram",
+      "description": "🔹NYCU Bamboo Melody Harmonica Club 👐🏻 大家好！我們是陽明交大竹韻口琴社🎶🎶 歡迎加入我們一起練琴✨ （友社 @nthu_harmonica_club）",
+      "avatar_url": "/assets/source-avatars/23ba8173993d252811f1.jpg"
+    },
+    "yt_ucliodayl9_jvnbpc4nfthgw": {
+      "id": "yt_ucliodayl9_jvnbpc4nfthgw",
+      "name": "陽明交大竹韻口琴社",
+      "account": "https://youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw",
+      "avatar_source_url": "https://yt3.googleusercontent.com/pPR6fyVVN7K6tTnS_QOui8snyd0Df4bmFAsJfJF-_O730yBkpOecC_QRBkPf60LVgdVw9RYRfQ=s900-c-k-c0x00ffffff-no-rj",
+      "title": "陽明交大竹韻口琴社",
+      "description": "【竹韻宗旨】\n傳遞悠揚動聽的口琴美音，透過輕薄短小的口琴，帶領我們穿梭在古典與流行的音樂殿堂，培養對音樂的興趣。\n\n【竹韻社團簡史】\n口琴社成立於1968年4月8日，由吳傳誠學長擔任社長，葉沐陽擔任副社長，共有24名社員，以期能藉由口琴悠揚的樂音，傳揚歌頌音樂的美妙之處，讓交通大學的全體師生能擁有更多元的藝術享受，拓展音樂視野，並更認識其他西洋古典音樂的奧妙，以期能達到最終提升精神生活。\n\n口琴社為了讓全校師生能夠更認識音樂，不只專心於提升自身吹琴的技術，歷屆學長們更皆致力於口琴社社務，經由努力不懈，年復一年的傳承，期間，從原本只有期初小型迎新音樂會，到了５８學年度聘請台北中華口琴會會長王先生慶勳擔任指導老師；６９學年度更首次舉辦社內口琴競賽，更成立了「口琴社音樂圖書館」找出許多經典的錄音，甚至一字一句寫出音樂圖書館館訓，期努力不懈的精神與所耗費的心神，令我後生晚輩感佩萬分。",
+      "avatar_url": "/assets/source-avatars/6bd8a50d9d69a139e0fc.jpg"
+    },
+    "fb_61550868336289": {
+      "id": "fb_61550868336289",
+      "name": "雲林縣二崙國中藝才班口琴隊",
+      "account": "61550868336289",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/people/%E9%9B%B2%E6%9E%97%E7%B8%A3%E7%AB%8B%E4%BA%8C%E5%B4%99%E5%9C%8B%E6%B0%91%E4%B8%AD%E5%AD%B8/61550868336289/",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/375459594_2312858515770922_2540192411013533457_n.jpg?stp=dst-jpg_tt6&cstp=mx1000x998&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Tb1XHNx5a5kQ7kNvwHjyFZd&_nc_oc=AdrDIiH47BOgrg_KIN3XNkYScynED55pPwB6ZtF9Ft_6JUEyx_ndZOWDLjvpnrrQRN4&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=BALj6qZw34fllZmlHPgg2Q&_nc_ss=7020f&oh=00_Af_lZyz1-YUrAnNSEt2_KfPogCenNsuw8SFRSUOJwTSwuA&oe=6A419BD3",
+      "title": "雲林縣立二崙國民中學",
+      "description": "雲林縣立二崙國民中學。 942 個讚 · 33 人正在談論這個。學校",
+      "avatar_url": "/assets/source-avatars/c95a0a9a44fbc7c0851f.jpg"
+    },
+    "fb_harmonicadrumrhapsody": {
+      "id": "fb_harmonicadrumrhapsody",
+      "name": "狂響逗嘴鼓口琴樂坊",
+      "account": "HarmonicaDrumRhapsody",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/HarmonicaDrumRhapsody",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/327285450_658886709327447_7512532066697439771_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x1536&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=pt-WiZ7DNxYQ7kNvwHHwBjp&_nc_oc=AdoW1ZAhcvRm8VSrSKw413-YqnXEXpEl7Su5mVkEsA7TGsn9CD9ElfMEZBgy4mG8s4M&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=9wT5MPhKZdL5t09vOOh2pw&_nc_ss=7020f&oh=00_Af_-1OmWcQ9Re3gGZ2UB4WEHs4mLE6DRYu8t_3oM0pXR4g&oe=6A418A2F",
+      "title": "狂響逗嘴鼓口琴樂坊 | Kaohsiung",
+      "description": "狂響逗嘴鼓口琴樂坊， 高雄市。 1,001 個讚 · 17 人正在談論這個。台灣南部地區唯一專業的口琴與手鼓工作室，各式口琴販售代訂與教學，口琴樂譜、口琴專輯MP3、相關教本販售，委託編曲、簡譜製作、團練室租借、口琴錄音。歡迎來樂坊一起逗嘴鼓聊音樂。",
+      "avatar_url": "/assets/source-avatars/946ad82a5099360a8d19.jpg"
+    },
+    "fb_anafternoonwithharmonica": {
+      "id": "fb_anafternoonwithharmonica",
+      "name": "An Afternoon with Harmonica",
+      "account": "AnAfternoonwithHarmonica",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/AnAfternoonwithHarmonica",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/310399486_110082738554098_369853393676198642_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1280&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Di1Qs7D2IrIQ7kNvwG1VoB6&_nc_oc=AdousCh_fk-XZ49KLx3x_KQ9ZhV1eaduZkE2StNxmaJSzcO8O807KwLWi0C0enAIGFw&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=qGxTUX53TyadflWqrpYf0Q&_nc_ss=7020f&oh=00_Af_H5zd4XGLvlsf76ZWP5929dO0jmwFAuPRp_w0XngW-vQ&oe=6A41698A",
+      "title": "An Afternoon with Harmonica",
+      "description": "An Afternoon with Harmonica 。 189 個讚。 Platform for young talents to express their music and realise the possibilities in harmonica.",
+      "avatar_url": "/assets/source-avatars/1ff652cf4d4e5f9ed697.jpg"
+    },
+    "ig_anafternoonwithharmonica": {
+      "id": "ig_anafternoonwithharmonica",
+      "name": "An Afternoon with Harmonica",
+      "account": "anafternoonwithharmonica",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/anafternoonwithharmonica",
+      "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/344865786_679786120615470_1342261760606917534_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gF3XhFY_4hTWRA0-4gVY5rIX1KGibJ-mumF7JzS5h2ajheaW8lymmLNAfrSwgkMVnM&_nc_ohc=7GE4EkymwpEQ7kNvwHOz5cR&_nc_gid=5f47sk_MlWNSxg5ZO1aPAg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_8mY5nLK8Uktdr8rEAIhxdPQViWALL-f18QeGH7jeNkg&oe=6A41723A&_nc_sid=8b3546",
+      "title": "𝐀𝐧 𝐀𝐟𝐭𝐞𝐫𝐧𝐨𝐨𝐧 𝐰𝐢𝐭𝐡 𝐇𝐚𝐫𝐦𝐨𝐧𝐢𝐜𝐚 (@anafternoonwithharmonica) - Instagram",
+      "description": "Platform for young talents to express their music and realise the possibilities in harmonica. 🎵🎶 . Jazz Concert \"Both Sides Now\"👇",
+      "avatar_url": "/assets/source-avatars/380fe8192408d52e5546.jpg"
+    },
+    "fb_fromharmonicatomusic": {
+      "id": "fb_fromharmonicatomusic",
+      "name": "From Harmonica to Music",
+      "account": "fromharmonicatomusic",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/fromharmonicatomusic",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/394283742_122139595130027359_7631420049097307216_n.jpg?stp=dst-jpg_tt6&cstp=mx769x769&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ndP_dL6L6GYQ7kNvwFJc78j&_nc_oc=AdqSjdUiId1UAH7tgvgEL1tWdtgT7UlIGVpqWFW2DzugvPsOxlccyfNbauXHNMWo55s&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=OmSrMdKfqr687kXPPPWZOw&_nc_ss=7020f&oh=00_Af-bqmjhO_KHlocL7X9JZNq0bxTkEDf-IuETSp0ATAvqvQ&oe=6A41890B",
+      "title": "From Harmonica to Music | Taipei",
+      "description": "From Harmonica to Music， 台北市。 143 個讚。音樂家／樂團",
+      "avatar_url": "/assets/source-avatars/2eab39bb16fcf2e7be39.jpg"
+    },
+    "fb_opentixntch": {
+      "id": "fb_opentixntch",
+      "name": "OPENTIX 口琴售票搜尋",
+      "account": "OPENTIXNTCH",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/OPENTIXNTCH",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/359492928_614621850782024_7575006513611159600_n.jpg?stp=dst-jpg_tt6&cstp=mx1890x1889&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=bX0rWUixWi4Q7kNvwFn7Y1j&_nc_oc=Adough4a8DNr3-iaTaC_-5CsCyT9wVtQYmzX2AT858Qv8uujXfmi_XS4Pub732EhQBk&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=7ZAAzS-Cj2o-sv5ovuD-Ag&_nc_ss=7020f&oh=00_Af_lXPuIQkzJEejoeG2y9NpGPH8wQ-ofL60oB0Or9g_-ug&oe=6A419762",
+      "title": "OPENTIX兩廳院文化生活 | Taipei",
+      "description": "OPENTIX兩廳院文化生活， 台北市。 29,741 個讚 · 613 人正在談論這個 · 4 個打卡次。 OPENTIX是一個智慧互動、數位體驗的文化生活入口，一個讓眾人感受到真實文化面貌與豐富性的平台，跨遇每一個參與文化生活的時刻。",
+      "avatar_url": "/assets/source-avatars/f34605937fb8fd6cc7ba.jpg"
+    },
+    "web_harmonistory": {
+      "id": "web_harmonistory",
+      "name": "簧格音樂有限公司",
+      "account": "https://portaly.cc/harmonistory",
+      "platform": "website",
+      "profile_url": "https://portaly.cc/harmonistory",
+      "avatar_source_url": "https://img.portaly.cc/w3prRrnkNOYYjizhIZ5m2PHD2ONWk9445-iDgm4xJnw/rs:fill:1200/q:90/aHR0cHM6Ly9maXJlYmFzZXN0b3JhZ2UuZ29vZ2xlYXBpcy5jb20vdjAvYi9wb3J0YWx5LWNhOWUxLmFwcHNwb3QuY29tL28vUjNnSUJGaXlSNGEzdWZVQTIyUVglMkZhdmF0YXI_YWx0PW1lZGlhJnRva2VuPWJiMDViMGM0LTc3NWEtNDM2ZS04YWU3LWRkMGE5YTM4MTVkNQ",
+      "title": "2025臺灣音樂節【星河簧語草坡音樂會】 | Podcast, Instagram, Facebook | Portaly",
+      "description": "在暮色與秋風　星光與草香之間 與超乎想像的口琴樂聲 一起飛向銀河冒險🚀 🎼 2025 年 9 月 27 日（星期六）晚間 17:30 📍新北市淡水滬尾藝文休閒園區／將捷金鬱金香酒店 埔頂草原（新北市淡水區中正路一段2號）   ⬇️ 最新消息請關注我們 ⬇️",
+      "avatar_url": "/assets/source-avatars/d001531041d8e6b77c77.jpg"
+    },
+    "web_kaohsiung_childrens_harmonica": {
+      "id": "web_kaohsiung_childrens_harmonica",
+      "name": "高雄市兒童口琴樂團 / 高雄市口琴協會",
+      "account": "https://art-garden.khcc.gov.tw/introduction/team/16121",
+      "platform": "website",
+      "profile_url": "https://art-garden.khcc.gov.tw/introduction/team/16121",
+      "avatar_source_url": "https://art-garden.khcc.gov.tw/files/team_information/w640/94065898085b45ba9fd5871.jpg",
+      "title": "高雄市兒童口琴樂團",
+      "avatar_url": "/assets/source-avatars/cfece3dbbab4232034f3.jpg"
+    },
+    "fb_pocketharmonic": {
+      "id": "fb_pocketharmonic",
+      "name": "口袋琴房 Pocket Harmonic",
+      "account": "PocketHarmonic",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/PocketHarmonic",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/309195835_503568858454046_4228548634688747508_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LWonCiGOA5AQ7kNvwHkm7zo&_nc_oc=AdrgfK8fMALGi2UhUA2uFmLnb7oPMT29rV4NbhvhadM_O_VBZcQHHrBMHGoIaSiESGg&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=Ar3HfZ4CebFQkUVLh7i_xA&_nc_ss=7b20f&oh=00_Af9jYL7IQaMu5wR7X0R1I7ztLoXXaA_t90sNhEjyC3yYtA&oe=6A41C300",
+      "title": "口袋琴房 Pocket Harmonic",
+      "description": "口袋琴房 Pocket Harmonic 。 1,042 個讚 · 2 人正在談論這個。口袋琴房youtube連結",
+      "avatar_url": "/assets/source-avatars/f24e2c2133d90fbffec3.jpg"
+    },
+    "ig_pocketharmonic": {
+      "id": "ig_pocketharmonic",
+      "name": "口袋琴房 Pocket Harmonic",
+      "account": "pocketharmonic",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/pocketharmonic",
+      "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/376680598_326965396566699_4069793274156768494_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gF-N19rQEZkNvGjEZFvq4YPADrNYdHi3xqE819ZolMzZN7-XcMa30gT-bgZQBcpZ4c&_nc_ohc=btm4LwNzFqAQ7kNvwEGlS1i&_nc_gid=CiYNOtgjAlUa8DbVCh8HzQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af-9iP2n4ZObKJBc_8JuoDnH02RP8oDtI1znakm2E947rg&oe=6A419E6D&_nc_sid=8b3546",
+      "title": "房客聖崴 - 口袋琴房 Pocket Harmonic (@pocketharmonic) - Instagram",
+      "description": "歡迎來到口袋琴房 我是房客聖崴 一個技能很多的口琴老師，夢想是只需要出一張嘴。 http://lit.link/en/pocketharmonic",
+      "avatar_url": "/assets/source-avatars/336a419f1f5b465a37e2.jpg"
+    },
+    "yt_pocketharmonic": {
+      "id": "yt_pocketharmonic",
+      "name": "口袋琴房 Pocket Harmonic",
+      "account": "https://youtube.com/@PocketHarmonic",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UC61LzNBU9edz09YufBeq2rQ",
+      "avatar_source_url": "https://yt3.googleusercontent.com/ytc/AIdro_mIdlLRVauTo7wgadrLERu2zw99AKNJPrPRmuznNm71hw=s900-c-k-c0x00ffffff-no-rj",
+      "title": "Pocket Harmonic口袋琴房",
+      "description": "歡迎來到口袋琴房，這是一個口琴推廣與教學的頻道\n我們每個月不定期更新兩支影片\n更多關於口琴的知識，口琴音樂與演奏技巧教學，就在口袋琴房\n\n想要聯繫我們、教學或合作請寄信到此信箱：\npocketharmonic@gmail.com",
+      "avatar_url": "/assets/source-avatars/7154dcfa76c435b7f279.jpg"
+    },
+    "fb_dror_adler_7": {
+      "id": "fb_dror_adler_7",
+      "name": "Dror Adler / Adler Trio",
+      "account": "dror.adler.7",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/dror.adler.7",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t1.6435-1/39468590_2242889839074107_4407886032071032832_n.jpg?stp=dst-jpg_tt6&cstp=mx360x360&ctp=s360x360&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=D5vmTEBD8-EQ7kNvwF7P3b4&_nc_oc=AdoIk2jcBaHnUEw3lQefu5dtLE_OApaq8CA9Xjpt6hJY7P1JcbYyqiL0ilz9j4F5k74&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=GHeP5lBq621JXCZoTIiu7A&_nc_ss=7b20f&oh=00_Af80ShdaI3C5vyn_vxebeq2NWFIkn6n58clEUIiaejzTdA&oe=6A63486C",
+      "title": "Dror Adler",
+      "description": "Dror Adler 。 3,287 個讚 · 7 人正在談論這個。數位創作者",
+      "avatar_url": "/assets/source-avatars/24c22a90ec3560042a25.jpg"
+    },
+    "fb_aike9115": {
+      "id": "fb_aike9115",
+      "name": "陳瑤容 Yora Chen",
+      "account": "aike9115",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/aike9115",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/294657469_8120503561301033_7990155089963242908_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=W8Ta8l0NFoYQ7kNvwEdv9x-&_nc_oc=Adq_RfxZKHBU9tWiqE0EG8tC4nIg93IfH-KQhBRG5soDbbziDHyeLyW51wjJxZn4Oqo&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=mfMu6oD_pLbdpk9u0oo1vw&_nc_ss=7b20f&oh=00_Af_cxBKYZ8gHhhWJbMG8gIDiFP0MNSfUuQ1UXHkYujdsEw&oe=6A41C75B",
+      "title": "陳瑶容",
+      "description": "陳瑶容。 1,950 個讚。 https://portaly.cc/YoraChen",
+      "avatar_url": "/assets/source-avatars/a171578f73d74681cf9a.jpg"
+    },
+    "ig_yora": {
+      "id": "ig_yora",
+      "name": "陳瑤容 Yora Chen",
+      "account": "_yora._",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/_yora._",
+      "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/649819815_18039811514750913_9196551202714696136_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gGAJOtstnahBlP1dMBaaJL5Fif_7ZQTrs_tqvmueaGys1wOjW6TGgkswBa3Z6PXkAY&_nc_ohc=-63XUwwlYAkQ7kNvwG6KKPE&_nc_gid=Wf2wLcqguN6PvrMGmfzvpw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af9W2yJcAPjbPayjWjuaR5qITYQy6XrKUmFFbHf3Fuaj6A&oe=6A41BD07&_nc_sid=8b3546",
+      "title": "Yora ♥ (@_yora._) - Instagram",
+      "description": "我們不必總是奔跑，只要往美的方向前進， 就是最好的成長🤍 📍鋼琴合作x編曲創作x開心生活 🎓NTNU_Composition x Piano ✉️ lazycatpiano@gmail.com",
+      "avatar_url": "/assets/source-avatars/a24f09a9421b6f7c8da1.jpg"
+    },
+    "yt_iamxyora": {
+      "id": "yt_iamxyora",
+      "name": "陳瑤容 Yora Chen",
+      "account": "https://youtube.com/@iamxyora",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCrshT1cVPQzz5xZVIyUwZEw",
+      "avatar_source_url": "https://yt3.googleusercontent.com/WmckpXvSIfUWmiHHcsMolwCfiFprv5bKcsQ6rlO8viwBpq59QUGNmIM468B-2CEpFUugar0L-Q=s900-c-k-c0x00ffffff-no-rj",
+      "title": "Yora",
+      "description": "Hi, I'm Yora.\n\nMaking peace with perfectionism; listening to the soul in every note. ❄️\nA journey of self-discovery and finding inner freedom. 🤍🤍🤍\nGrowth isn't about constant sprinting—it's about moving toward what is beautiful. ➻\n\n🎬 Stories from daily life\n🎵 Maybe some music I love\n🧘‍♀️ Reflections (Cats, Sunlight, Coffee, and My Thoughts)\n\nEvolving for a better me. 🤍\nSubscribe and turn on notifications 🔔 to join my journey! 👬\n\n\n我們不必總是奔跑，只要往美的方向前進，\n就是最好的成長🤍🤍🤍\n\n\n🎬 生活主題紀錄（情緒×日常）\n🎵 分享喜歡的音樂\n🧘‍♀️ 溫柔生活片段與反思文字（貓、光、咖啡與我）\n\n蛻變，是為了遇見更好的自己🤍\n如果喜歡我的頻道，歡迎訂閱、按下小鈴鐺🔔及分享給你的朋友喔！👬\n\nYora's Sheet music websites \n-https://www.mymusicsheet.com/yoramusic\n-https://www.yoramusic.gumroad.com\n\n📪 Email :\nlazycatpiano@gmail.com",
+      "avatar_url": "/assets/source-avatars/727656b67548d5531114.jpg"
     }
   }
 }

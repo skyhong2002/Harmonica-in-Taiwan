@@ -1679,6 +1679,17 @@
     },
     {
       "enabled": true,
+      "id": "fb_dror_adler_7",
+      "limit": 5,
+      "name": "Dror Adler / Adler Trio",
+      "page": "dror.adler.7",
+      "url": "https://facebook.com/dror.adler.7",
+      "platform": "facebook",
+      "type": "facebook_page_posts",
+      "generated_by": "scripts/build_social_sources.py"
+    },
+    {
+      "enabled": true,
       "id": "yt_dror_adler",
       "include_without_keywords": true,
       "limit": 3,
@@ -2445,6 +2456,76 @@
     },
     {
       "enabled": true,
+      "id": "fb_pocketharmonic",
+      "limit": 5,
+      "name": "口袋琴房 Pocket Harmonic",
+      "page": "PocketHarmonic",
+      "url": "https://facebook.com/PocketHarmonic",
+      "platform": "facebook",
+      "type": "facebook_page_posts",
+      "generated_by": "scripts/build_social_sources.py"
+    },
+    {
+      "enabled": true,
+      "id": "ig_pocketharmonic",
+      "limit": 5,
+      "name": "口袋琴房 Pocket Harmonic",
+      "platform": "instagram",
+      "provider": "cookie",
+      "rsshub_base": "https://rss.observe.tw",
+      "source_profile_url": "https://www.instagram.com/pocketharmonic/",
+      "type": "rsshub_instagram_profile",
+      "username": "pocketharmonic",
+      "generated_by": "scripts/build_social_sources.py"
+    },
+    {
+      "enabled": true,
+      "id": "yt_pocketharmonic",
+      "include_without_keywords": true,
+      "limit": 3,
+      "name": "口袋琴房 Pocket Harmonic",
+      "platform": "youtube",
+      "type": "youtube_ytdlp",
+      "url": "https://youtube.com/@PocketHarmonic",
+      "generated_by": "scripts/build_social_sources.py"
+    },
+    {
+      "enabled": true,
+      "id": "fb_aike9115",
+      "limit": 5,
+      "name": "陳瑤容 Yora Chen",
+      "page": "aike9115",
+      "url": "https://facebook.com/aike9115",
+      "platform": "facebook",
+      "type": "facebook_page_posts",
+      "generated_by": "scripts/build_social_sources.py"
+    },
+    {
+      "enabled": true,
+      "id": "ig_yora",
+      "limit": 5,
+      "name": "陳瑤容 Yora Chen",
+      "platform": "instagram",
+      "provider": "cookie",
+      "rsshub_base": "https://rss.observe.tw",
+      "source_profile_url": "https://www.instagram.com/_yora._/",
+      "type": "rsshub_instagram_profile",
+      "username": "_yora._",
+      "generated_by": "scripts/build_social_sources.py"
+    },
+    {
+      "enabled": true,
+      "id": "yt_iamxyora",
+      "include_without_keywords": true,
+      "limit": 3,
+      "name": "陳瑤容 Yora Chen",
+      "platform": "youtube",
+      "type": "youtube_ytdlp",
+      "url": "https://youtube.com/@iamxyora",
+      "generated_by": "scripts/build_social_sources.py"
+    },
+    {
+      "enabled": true,
       "id": "yt_ucxcrjsu6ecmndpd5d4di4aq",
       "include_without_keywords": true,
       "limit": 3,
@@ -2625,13 +2706,13 @@
     },
     {
       "enabled": true,
-      "id": "yt_nctuharmonica",
+      "id": "yt_ucliodayl9_jvnbpc4nfthgw",
       "include_without_keywords": true,
       "limit": 3,
       "name": "陽明交大竹韻口琴社",
       "platform": "youtube",
       "type": "youtube_ytdlp",
-      "url": "https://youtube.com/@nctuharmonica",
+      "url": "https://youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw",
       "generated_by": "scripts/build_social_sources.py"
     },
     {

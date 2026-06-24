@@ -1,41 +1,41 @@
 {
   "site": "https://harmonica.observe.tw",
   "generatedAt": "2026-06-24",
-  "count": 100,
+  "count": 102,
   "stats": {
-    "totalEntries": 100,
-    "verifiedEntries": 74,
+    "totalEntries": 102,
+    "verifiedEntries": 76,
     "categories": {
       "其他來源": 2,
       "團體樂團": 19,
       "場館平台": 6,
       "學校社團": 22,
-      "教學器材": 11,
+      "教學器材": 12,
       "活動資訊": 5,
-      "演奏者": 35
+      "演奏者": 36
     },
     "statuses": {
-      "已查核": 74,
+      "已查核": 76,
       "部分查核": 26
     },
     "watchSources": {
-      "totalSources": 228,
-      "rsshubSources": 78,
-      "apifySources": 81,
-      "facebookSources": 81,
-      "youtubeSources": 69,
+      "totalSources": 235,
+      "rsshubSources": 80,
+      "apifySources": 84,
+      "facebookSources": 84,
+      "youtubeSources": 71,
       "platforms": {
-        "facebook": 81,
-        "instagram": 72,
+        "facebook": 84,
+        "instagram": 74,
         "threads": 2,
         "x": 4,
-        "youtube": 69
+        "youtube": 71
       },
       "types": {
-        "facebook_page_posts": 81,
+        "facebook_page_posts": 84,
         "rss": 6,
-        "rsshub_instagram_profile": 72,
-        "youtube_ytdlp": 69
+        "rsshub_instagram_profile": 74,
+        "youtube_ytdlp": 71
       }
     }
   },
@@ -104,7 +104,7 @@
       "latestUpdateLocal": "2026-06-24 11:21",
       "latestUpdateSource": "范曉怡",
       "latestUpdateUrl": "https://www.facebook.com/fanhsiaoyi/posts/pfbid0364aeJfgtZ7zMcviaXeyW2b8xXfcHnSxgTykZRtVWSygr5FLThyPosJ2BKeyBVZSsl",
-      "avatarUrl": "/assets/source-avatars/9aa87d71daa7e78b7a8f.jpg",
+      "avatarUrl": "/assets/source-avatars/381e810a5b224700d5dd.jpg",
       "sourceInitials": "范曉",
       "sourceTags": [
         "口琴",
@@ -153,7 +153,7 @@
       "latestUpdateLocal": "2026-06-23 21:17",
       "latestUpdateSource": "曹小歐",
       "latestUpdateUrl": "https://www.facebook.com/reel/1674318240492435/",
-      "avatarUrl": "/assets/source-avatars/8d78c81cd015e76ab585.jpg",
+      "avatarUrl": "/assets/source-avatars/6bb91ef54d045d117942.jpg",
       "sourceInitials": "曹小",
       "sourceTags": [
         "口琴",
@@ -414,7 +414,7 @@
       "latestUpdateLocal": "2026-06-22 20:56",
       "latestUpdateSource": "Aiden N Evelyn",
       "latestUpdateUrl": "https://www.facebook.com/AidenNEvelyn/posts/pfbid02B7Uy2D9W2wXMaQeiE9cwCFapW1cNed9BJmmVbNPKThGvn7HPqvwAckzZZ6SAj9nbl",
-      "avatarUrl": "/assets/source-avatars/43201b0f094c134fb55c.jpg",
+      "avatarUrl": "/assets/source-avatars/f23102f6afa5a416f4fa.jpg",
       "sourceInitials": "ANE",
       "sourceTags": [
         "口琴",
@@ -457,7 +457,7 @@
       "latestUpdateLocal": "2026-06-21 19:15",
       "latestUpdateSource": "RedBricks Harmonica",
       "latestUpdateUrl": "https://www.facebook.com/redbricksharmonica/posts/pfbid0uhGecmNrYQPvPPv5k3L9w2kWicUZMvn53QFGnzbyxXQ52jbXTJWZ297gfrwrfzy1l",
-      "avatarUrl": "/assets/source-avatars/21e008772afce6b9c781.jpg",
+      "avatarUrl": "/assets/source-avatars/976c88acba6662bf29bf.jpg",
       "sourceInitials": "RH",
       "sourceTags": [
         "團體樂團",
@@ -693,7 +693,7 @@
       "latestUpdateLocal": "2026-06-19 17:01",
       "latestUpdateSource": "Punch Harmonica Ensemble",
       "latestUpdateUrl": "https://www.facebook.com/Punch.Harp/posts/pfbid0kaFrK3SZX9TU15oWjRSVgv2qqGLAYqUJLYBmjBqFEizjaoERY5U7E7tRDuyjfMykl",
-      "avatarUrl": "/assets/source-avatars/312a4a89491b38246795.jpg",
+      "avatarUrl": "/assets/source-avatars/efa6d3ef2248abafefc9.jpg",
       "sourceInitials": "胖擊",
       "sourceTags": [
         "口琴",
@@ -851,7 +851,7 @@
       "latestUpdateLocal": "2026-06-18 15:31",
       "latestUpdateSource": "PeaceTones Harmonica",
       "latestUpdateUrl": "https://www.facebook.com/PeaceTones.harmonica/posts/pfbid0Xhv2E1am3PpZehSWUbee6KpFXbYXjFu9aXEQD3rNEPo9Zewn2eLa8UXKuEFonwagl",
-      "avatarUrl": "/assets/source-avatars/46150a457fec935842d3.jpg",
+      "avatarUrl": "/assets/source-avatars/02f202d109ff36ce7fff.jpg",
       "sourceInitials": "音和",
       "sourceTags": [
         "品牌",
@@ -898,7 +898,7 @@
       "latestUpdateLocal": "2026-06-16 18:44",
       "latestUpdateSource": "111 Quintet",
       "latestUpdateUrl": "https://www.instagram.com/p/DZm0GUAhd10/",
-      "avatarUrl": "/assets/source-avatars/335c8e6853f410245445.jpg",
+      "avatarUrl": "/assets/source-avatars/58200e60bd5b0b58115c.jpg",
       "sourceInitials": "1T1",
       "sourceTags": [
         "口琴",
@@ -1104,7 +1104,7 @@
       "latestUpdateLocal": "2026-06-06 16:59",
       "latestUpdateSource": "CKHC 64th",
       "latestUpdateUrl": "https://www.instagram.com/p/DY2RlNtj-Ue/",
-      "avatarUrl": "/assets/source-avatars/a94a67dd8efeebe7a653.jpg",
+      "avatarUrl": "/assets/source-avatars/2c511f2ff162520ba9ce.jpg",
       "sourceInitials": "建中",
       "sourceTags": [
         "口琴",
@@ -1150,7 +1150,7 @@
       "latestUpdateLocal": "2026-06-05 19:58",
       "latestUpdateSource": "TCFSH Harmonica",
       "latestUpdateUrl": "https://www.instagram.com/p/DZNA9GTk_2X/",
-      "avatarUrl": "/assets/source-avatars/87e7c3fcfd853afa3084.jpg",
+      "avatarUrl": "/assets/source-avatars/9033731e98662050a211.jpg",
       "sourceInitials": "中一",
       "sourceTags": [
         "高中社團",
@@ -1409,7 +1409,7 @@
       "latestUpdateLocal": "2026-05-27 19:09",
       "latestUpdateSource": "NTHU Harmonica Club",
       "latestUpdateUrl": "https://www.instagram.com/p/DY1wKd8k3I6/",
-      "avatarUrl": "/assets/source-avatars/0132d3f32019207fe9e9.jpg",
+      "avatarUrl": "/assets/source-avatars/d9189b06f007bad0f354.jpg",
       "sourceInitials": "清華",
       "sourceTags": [
         "口琴",
@@ -1498,7 +1498,7 @@
       "latestUpdateLocal": "2026-05-22 17:59",
       "latestUpdateSource": "FCU Harmonica",
       "latestUpdateUrl": "https://www.instagram.com/p/DYowORFSgfy/",
-      "avatarUrl": "/assets/source-avatars/7c5312964edece0142c2.jpg",
+      "avatarUrl": "/assets/source-avatars/41657a3881e02ce0ac49.jpg",
       "sourceInitials": "逢甲",
       "sourceTags": [
         "口琴",
@@ -1673,7 +1673,7 @@
       "latestUpdateLocal": "2026-05-11 20:25",
       "latestUpdateSource": "進擊的口琴樂團",
       "latestUpdateUrl": "https://www.instagram.com/p/DYJCD-sSi00/",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/943304d2d25b73d5cac7.jpg",
       "sourceInitials": "進擊",
       "sourceTags": [
         "團體樂團",
@@ -2178,7 +2178,7 @@
       "latestUpdateLocal": "2025-12-19 11:58",
       "latestUpdateSource": "NUTC Harmonica",
       "latestUpdateUrl": "https://www.instagram.com/p/DSbkhikk0or/",
-      "avatarUrl": "/assets/source-avatars/cba2c330e088070732ac.jpg",
+      "avatarUrl": "/assets/source-avatars/a42d66030ada356a1bcd.jpg",
       "sourceInitials": "臺中",
       "sourceTags": [
         "口琴",
@@ -2847,7 +2847,7 @@
       "latestUpdateLocal": "2020-12-15 21:04",
       "latestUpdateSource": "NKUST Harmonica",
       "latestUpdateUrl": "https://www.instagram.com/p/CI0aqT7D4R-/",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/0999598fd8d31f3031e4.jpg",
       "sourceInitials": "高科",
       "sourceTags": [
         "口琴",
@@ -3055,7 +3055,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/d001531041d8e6b77c77.jpg",
       "sourceInitials": "簧格",
       "sourceTags": [
         "團體樂團",
@@ -3099,7 +3099,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/4fa0480bb4f95de4bbf9.jpg",
       "sourceInitials": "D",
       "sourceTags": [
         "團體樂團",
@@ -3133,7 +3133,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/e7b6ff0e0fef53b03e3b.jpg",
       "sourceInitials": "S",
       "sourceTags": [
         "團體樂團",
@@ -3169,7 +3169,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/2baae100fe6844e1cbbe.jpg",
       "sourceInitials": "口琴",
       "sourceTags": [
         "團體樂團",
@@ -3203,7 +3203,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/304ed213cf955de4f999.jpg",
       "sourceInitials": "RHE",
       "sourceTags": [
         "口琴",
@@ -3239,7 +3239,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/cfece3dbbab4232034f3.jpg",
       "sourceInitials": "高雄",
       "sourceTags": [
         "團體樂團",
@@ -3548,7 +3548,7 @@
         },
         {
           "label": "YouTube",
-          "url": "https://www.youtube.com/@nctuharmonica"
+          "url": "https://www.youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw"
         }
       ],
       "source": "club",
@@ -3557,7 +3557,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/23ba8173993d252811f1.jpg",
       "sourceInitials": "陽明",
       "sourceTags": [
         "口琴",
@@ -3594,7 +3594,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/c95a0a9a44fbc7c0851f.jpg",
       "sourceInitials": "雲林",
       "sourceTags": [
         "學生社團",
@@ -3603,6 +3603,54 @@
       ],
       "sourceSummary": "雲林縣二崙國中藝才班口琴隊，屬於國中層級的學生口琴團體。",
       "sourceTagReason": "根據名稱、分類為學校社團，且聚焦國中藝才班口琴隊，故標學生社團與口琴相關標籤。"
+    },
+    {
+      "id": "watchlist-96",
+      "name": "口袋琴房 Pocket Harmonic",
+      "nameEn": "Pocket Harmonic",
+      "category": "教學器材",
+      "type": "教學/影片來源",
+      "region": "台灣",
+      "cityOrFocus": "口琴教學/影片/開箱/視訊課程",
+      "summary": "口琴教學/影片/開箱/視訊課程 / 半音階/十孔/複音 / 教學影片/社群觀察來源",
+      "status": "已查核",
+      "sourceStatus": "已查核公開連結",
+      "keywords": "口袋琴房 Pocket Harmonic 房客聖崴 口琴 教學 開箱",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://lit.link/en/pocketharmonic"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/PocketHarmonic/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pocketharmonic/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@PocketHarmonic"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/336a419f1f5b465a37e2.jpg",
+      "sourceInitials": "PH",
+      "sourceTags": [
+        "口琴",
+        "教學器材",
+        "教學",
+        "課程",
+        "半音階",
+        "複音",
+        "十孔"
+      ]
     },
     {
       "id": "watchlist-75",
@@ -3678,7 +3726,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/946ad82a5099360a8d19.jpg",
       "sourceInitials": "狂響",
       "sourceTags": [
         "教學",
@@ -3757,7 +3805,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/380fe8192408d52e5546.jpg",
       "sourceInitials": "AAW",
       "sourceTags": [
         "活動資訊",
@@ -3796,7 +3844,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/2eab39bb16fcf2e7be39.jpg",
       "sourceInitials": "FHT",
       "sourceTags": [
         "活動資訊",
@@ -3836,7 +3884,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/f34605937fb8fd6cc7ba.jpg",
       "sourceInitials": "O",
       "sourceTags": [
         "口琴",
@@ -3857,6 +3905,10 @@
       "keywords": "Dror Adler Adler Trio harmonica",
       "links": [
         {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/dror.adler.7/"
+        },
+        {
           "label": "YouTube",
           "url": "https://www.youtube.com/@Dror-adler"
         }
@@ -3867,18 +3919,15 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/24c22a90ec3560042a25.jpg",
       "sourceInitials": "DAA",
       "sourceTags": [
+        "口琴",
         "演奏者",
         "團體樂團",
-        "口琴",
-        "合奏",
         "重奏",
         "國際交流"
-      ],
-      "sourceSummary": "以色列口琴三重奏，專精重奏，常與Judy's合作國際演出。",
-      "sourceTagReason": "來源標示為「演奏者」與「團體」，名字包含 Trio，從事口琴重奏與國際演出。"
+      ]
     },
     {
       "id": "watchlist-58",
@@ -4008,7 +4057,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/76e3ec6acc6f9bde773a.jpg",
+      "avatarUrl": "/assets/source-avatars/c804072fc524a7020f78.jpg",
       "sourceInitials": "吳詠",
       "sourceTags": [
         "演奏者",
@@ -4046,7 +4095,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/ce59f537b038844570e2.jpg",
       "sourceInitials": "吳采",
       "sourceTags": [
         "演奏者",
@@ -4084,7 +4133,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/9db13cd6657d776efa54.jpg",
       "sourceInitials": "廖苡",
       "sourceTags": [
         "演奏者",
@@ -4119,7 +4168,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/211b57df4d08779f1f6a.jpg",
       "sourceInitials": "王心",
       "sourceTags": [
         "演奏者",
@@ -4160,7 +4209,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/5d4aff0a2520b1638340.jpg",
       "sourceInitials": "莊筑",
       "sourceTags": [
         "演奏者",
@@ -4199,7 +4248,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/d46fbb9d85a14ff41269.jpg",
       "sourceInitials": "陳奕",
       "sourceTags": [
         "演奏者",
@@ -4242,7 +4291,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/20f4be3eb6d87d7b412d.jpg",
       "sourceInitials": "陳彥",
       "sourceTags": [
         "演奏者",
@@ -4253,6 +4302,49 @@
       ],
       "sourceSummary": "天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。",
       "sourceTagReason": "資料明確標註為演奏者，並提及天狼星樂團、和弦口琴及推廣，符合演奏者與相關標籤。"
+    },
+    {
+      "id": "watchlist-97",
+      "name": "陳瑤容 Yora Chen",
+      "nameEn": "Yora Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "region": "台灣",
+      "cityOrFocus": "鋼琴合作/編曲創作/口琴合作",
+      "summary": "鋼琴合作/編曲創作/口琴合作 / 鋼琴/編曲/口琴合作 / 合作音樂家/編曲者/演出者線索",
+      "status": "已查核",
+      "sourceStatus": "已查核公開連結",
+      "keywords": "Yora Chen 陳瑤容 陳瑶容 口琴 編曲 鋼琴合作 111 Quintet",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://portaly.cc/YoraChen"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/aike9115"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/_yora._/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@iamxyora"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/a24f09a9421b6f7c8da1.jpg",
+      "sourceInitials": "YC",
+      "sourceTags": [
+        "口琴",
+        "演奏者"
+      ]
     },
     {
       "id": "watchlist-44",
@@ -4278,7 +4370,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/cb29b0c5fb5db240169b.jpg",
       "sourceInitials": "陳聰",
       "sourceTags": [
         "口琴",

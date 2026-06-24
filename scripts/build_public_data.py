@@ -23,6 +23,12 @@ SOCIAL_SOURCES = PROJECT_ROOT / "data" / "feeds" / "social_sources.json"
 SOURCE_TAG_CACHE = PROJECT_ROOT / "state" / "source_llm_tags.json"
 SOURCE_AVATAR_DIR = SITE_ROOT / "assets" / "source-avatars"
 TAIPEI_TZ = timezone(timedelta(hours=8))
+AVATAR_PLATFORM_PRIORITY = {
+    "instagram": 0,
+    "facebook": 1,
+    "youtube": 2,
+}
+DEFAULT_AVATAR_PLATFORM_PRIORITY = 99
 
 SOURCE_FILES = [
     ("watchlist", PROJECT_ROOT / "data" / "sources" / "harmonica-source-watchlist-public.csv"),
@@ -460,7 +466,45 @@ def cached_avatar_url(avatar_source_url: str) -> str:
     return f"/assets/source-avatars/{existing[0].name}"
 
 
-def avatar_profiles_by_key() -> dict[str, dict[str, str]]:
+def profile_platform(profile: dict[str, Any]) -> str:
+    platform = str(profile.get("platform") or "").casefold()
+    if platform:
+        return platform
+
+    source_id = str(profile.get("id") or "").casefold()
+    if source_id.startswith("ig_"):
+        return "instagram"
+    if source_id.startswith("fb_"):
+        return "facebook"
+    if source_id.startswith(("yt_", "youtube_")):
+        return "youtube"
+
+    profile_url = str(profile.get("profile_url") or profile.get("account") or "").casefold()
+    if "instagram.com" in profile_url:
+        return "instagram"
+    if "facebook.com" in profile_url:
+        return "facebook"
+    if "youtube.com" in profile_url or "youtu.be" in profile_url:
+        return "youtube"
+    return platform
+
+
+def avatar_platform_priority(platform: str) -> int:
+    return AVATAR_PLATFORM_PRIORITY.get(platform, DEFAULT_AVATAR_PLATFORM_PRIORITY)
+
+
+def avatar_payload_rank(payload: dict[str, Any]) -> tuple[int, int, str]:
+    priority = payload.get("avatarPriority")
+    if priority in (None, ""):
+        priority = DEFAULT_AVATAR_PLATFORM_PRIORITY
+    return (
+        0 if payload.get("avatarUrl") else 1,
+        int(priority),
+        str(payload.get("avatarSource") or ""),
+    )
+
+
+def avatar_profiles_by_key() -> dict[str, dict[str, Any]]:
     if not SOURCE_PROFILES_CACHE.exists():
         return {}
     data = json.loads(SOURCE_PROFILES_CACHE.read_text(encoding="utf-8"))
@@ -468,10 +512,11 @@ def avatar_profiles_by_key() -> dict[str, dict[str, str]]:
     if not isinstance(profiles, dict):
         return {}
 
-    by_key: dict[str, dict[str, str]] = {}
+    by_key: dict[str, dict[str, Any]] = {}
     for profile in profiles.values():
         if not isinstance(profile, dict):
             continue
+        platform = profile_platform(profile)
         source_name = str(profile.get("name") or profile.get("title") or "")
         avatar = cached_avatar_url(
             str(profile.get("avatar_url") or profile.get("avatar_source_url") or "")
@@ -480,23 +525,25 @@ def avatar_profiles_by_key() -> dict[str, dict[str, str]]:
             "avatarUrl": avatar,
             "sourceInitials": source_initials(source_name),
             "avatarSource": source_name,
+            "avatarPlatform": platform,
+            "avatarPriority": avatar_platform_priority(platform),
         }
         for key in profile_match_keys(profile):
             existing = by_key.get(key)
-            if existing and existing.get("avatarUrl"):
+            if existing and avatar_payload_rank(existing) <= avatar_payload_rank(payload):
                 continue
             by_key[key] = payload
     return by_key
 
 
-def apply_avatar(entry: dict[str, object], avatars: dict[str, dict[str, str]]) -> None:
+def apply_avatar(entry: dict[str, object], avatars: dict[str, dict[str, Any]]) -> None:
     matches = [
         avatars[key]
         for key in sorted(entry_match_keys(entry))
         if key in avatars
     ]
-    best = next((match for match in matches if match.get("avatarUrl")), matches[0] if matches else {})
-    entry["avatarUrl"] = best.get("avatarUrl", "")
+    best = min(matches, key=avatar_payload_rank) if matches else {}
+    entry["avatarUrl"] = str(best.get("avatarUrl") or "")
     entry["sourceInitials"] = source_initials(str(entry.get("name") or best.get("avatarSource") or ""))
 
 
