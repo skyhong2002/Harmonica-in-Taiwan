@@ -77,7 +77,7 @@ textarea {
   display: inline-flex;
   align-items: center;
   flex: 0 1 auto;
-  width: min(230px, 58vw);
+  width: min(200px, 58vw);
   min-width: 180px;
   color: var(--ink);
   font-weight: 800;
@@ -1703,7 +1703,7 @@ h2 {
   }
 
   .brand {
-    width: min(210px, 62vw);
+    width: min(200px, 62vw);
     min-width: 180px;
   }
 

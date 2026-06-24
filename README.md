@@ -1,145 +1,84 @@
-# Harmonica in Taiwan
+<p align="center">
+  <img src="site/assets/logo.svg" alt="臺灣口琴觀測站 Logo" width="360">
+</p>
 
-Independent public site for `harmonica.observe.tw`.
+# 臺灣口琴觀測站
 
-This project is standalone. It contains its own public-safe source CSV files,
-static site, and data build script.
+`harmonica.observe.tw` 是一個獨立的臺灣口琴公開資訊索引站。它整理公開可查的口琴活動、社團、樂團、演奏者、教學單位、場館、補助與比賽資訊，並把整理後的資料輸出成靜態網站、JSON API 與 RSS。
 
-## Structure
+這個 repository 是公開站本體，原則上只保存可以公開閱讀、公開查證的資料與產物。私人名單、內部註記、憑證、token、未公開群組連結、會員資料與其他不適合公開的資料都不應進入這個 repository。
 
-- `site/` - static web root served by Caddy.
-- `site/data/site-data.js` - generated public data bundle consumed by the site.
-- `data/sources/` - public-safe CSV sources. These exclude internal comments,
-  watch policies, private credentials, member data, and repertoire links.
-- `scripts/build_social_sources.py` - rebuilds public Facebook and YouTube watcher sources from the public CSV files.
-- `scripts/youtube_ytdlp_fetcher.py` - fetches recent YouTube videos with `yt-dlp` into the normalized public inbox.
-- `scripts/apify_facebook_fetcher.py` - fetches public Facebook posts through the budget-capped Apify fallback.
-- `scripts/build_public_data.py` - rebuilds `site/data/site-data.js`.
-- `scripts/social_feed_watchdog.py` - reads public RSS/RSSHub/JSONL sources and writes candidate updates.
-- `scripts/generate_rss_feeds.py` - publishes RSS feeds under `site/feeds/`.
-- `scripts/run_pipeline.py` - runs the standalone rebuild/watch/feed pipeline.
-- `deploy/Caddyfile.snippet` - Caddy site block for this project.
+## 目前輸出
 
-## Rebuild
+- 網站首頁：`https://harmonica.observe.tw/`
+- 資料索引：`https://harmonica.observe.tw/directory/`
+- 資料回報：`https://harmonica.observe.tw/submit/`
+- RSS 分類入口：`https://harmonica.observe.tw/feeds/`
+- 公開 API：`https://harmonica.observe.tw/api/*.json`
 
-```bash
-python3 scripts/build_public_data.py
-python3 scripts/generate_rss_feeds.py
+首頁的「最新」河道由公開社群、YouTube、RSS/RSSHub 與整理後的候選更新資料產生；資料索引則由 `data/sources/` 下的公開 CSV 加上自動產生的標籤與更新狀態組成。
+
+## 專案結構
+
+```text
+.
+├── data/
+│   ├── sources/                 # 人工維護的公開來源 CSV
+│   └── feeds/                   # 社群來源設定、候選更新、抓取錯誤與快取
+├── scripts/                     # 資料建置、社群抓取、RSS/API 產生工具
+├── site/                        # 靜態網站根目錄
+│   ├── api/                     # 產生出的公開 JSON API
+│   ├── assets/                  # CSS、JS、logo、favicon、圖片快取
+│   ├── data/                    # 前端讀取的 JS data bundle
+│   ├── directory/               # 資料索引頁
+│   ├── feeds/                   # RSS、分類頁與分類 JSON
+│   └── submit/                  # 資料回報頁
+├── state/                       # 本機執行狀態與分類快取
+├── .github/ISSUE_TEMPLATE/      # 公開資料回報 issue form
+└── README.md
 ```
 
-Or run the full standalone pipeline:
+重要檔案：
 
-```bash
-python3 scripts/run_pipeline.py
-```
+- `data/sources/harmonica-source-watchlist-public.csv`：公開來源主清單，包含演奏者、團體、教學、場館、活動平台等。
+- `data/sources/harmonica-clubs-public.csv`：公開學生社團資料。
+- `data/feeds/social_sources.json`：由 CSV 轉出的公開社群監看來源設定。
+- `data/feeds/social_feed_inbox.jsonl`：YouTube / Facebook 抓取工具正規化後的公開貼文 inbox。
+- `data/feeds/social_candidates.jsonl`：watchdog 篩選後的公開候選更新。
+- `site/data/site-data.js`：前端資料索引使用的產生資料包。
+- `site/api/*.json`：給外部工具或 Bamboo Hermes 讀取的公開 API。
+- `site/feeds/*.xml` 與 `site/feeds/*.json`：公開 RSS 與對應 JSON。
 
-The social watcher defaults to a 30-day public-post window. To rebuild the first
-public RSS baseline with only the latest month of matching posts:
+## 資料怎麼蒐集與整理
 
-```bash
-python3 scripts/run_pipeline.py --emit-initial --max-post-age-days 30
-```
+觀測站以公開、可查證的資料為主。資料來源大致分成三類：
 
-## Social Fetchers
+- 人工整理的公開來源清單：包含學校社團、演奏者、樂團、教學單位、場館、活動平台與公開社群入口。
+- 公開社群與影音更新：包含 Facebook 公開頁面、Instagram、YouTube 頻道，以及透過 RSSHub 轉出的少量 X/Threads 公開來源。
+- 公開活動與機會資訊：包含演出、講座、工作坊、成發、徵件、比賽、補助與報名資訊。
 
-YouTube uses `yt-dlp`. Install it for the same Python used by launchd:
+資料整理流程會先把公開來源統一成可查核的目錄項目，再把近期公開更新整理成首頁河道、分類 RSS 與 JSON API。社群更新會依照來源、平台、時間、關鍵字與語意標籤分類，讓同一批資料可以同時服務網站瀏覽、RSS 訂閱與外部工具讀取。
 
-```bash
-python3 -m pip install --user yt-dlp
-```
+站上顯示的資訊不是完整名冊，也不是官方認證資料庫；它更接近一個公開訊號索引。若某個社團、演奏者或活動缺漏，通常代表目前還沒有被加入公開來源清單，或公開頁面尚未被監看到。
 
-Facebook uses Apify's `apify/facebook-posts-scraper` through
-`scripts/apify_facebook_fetcher.py`. It is deliberately conservative:
+資料來源若有錯誤、失效或缺漏，可以從網站的資料回報頁補充公開連結。回報時最有幫助的是官方網站、公開社群頁、公開貼文、活動頁或其他能讓人確認資訊的公開來源。
 
-- default dry-run unless `--run` is passed;
-- checks every enabled Facebook source when the Facebook fetch runs;
-- runs the paid Facebook fetch at most once every 4 days by default, adjustable with `--min-run-spacing-days`;
-- uses the remaining local calendar-day budget as the Apify run cap instead of a separate per-run cap;
-- defaults to a USD 0.60 daily budget, adjustable with `--daily-budget-usd`;
-- auto-sizes `maxItems` from the selected source count and `resultsLimit`;
-- enforces a local calendar-day ledger and Apify account monthly usage checks;
-- writes only normalized public rows to `data/feeds/social_feed_inbox.jsonl`.
+## 公開 RSS
 
-Token lookup order:
+主要 RSS：
 
-1. `HARMONICA_APIFY_API_TOKEN`
-2. `BAMBOO_APIFY_API_TOKEN`
-3. `APIFY_TOKEN` or `APIFY_API_TOKEN`
-4. macOS Keychain `harmonica-observe-apify` / `harmonica`
-5. macOS Keychain `bamboo-apify` / `bamboo`
+- `https://harmonica.observe.tw/feeds/updates.xml`：公開更新總河道。
+- `https://harmonica.observe.tw/feeds/events.xml`：全臺口琴實體活動。
+- `https://harmonica.observe.tw/feeds/posts-videos.xml`：口琴相關貼文與影片發布。
+- `https://harmonica.observe.tw/feeds/student-clubs.xml`：口琴學生社團動態。
+- `https://harmonica.observe.tw/feeds/opportunities.xml`：補助、徵件、甄選、比賽與報名資訊。
+- `https://harmonica.observe.tw/feeds/sources.xml`：公開來源索引。
 
-Dry-run checks:
+對應 JSON 也會產生在 `site/feeds/*.json`。
 
-```bash
-python3 scripts/build_social_sources.py --check
-python3 scripts/youtube_ytdlp_fetcher.py --check
-python3 scripts/apify_facebook_fetcher.py --check
-```
+## 公開 API
 
-The social watcher uses an LLM tagger before falling back to keyword matching.
-It calls the OpenAI-compatible OpenCode Go chat-completions endpoint by default:
-
-- base URL: `https://opencode.ai/zen/go/v1`
-- model: `mimo-v2.5`
-- cache: `state/social_llm_tags.json`
-
-LLM token lookup order:
-
-1. `HARMONICA_OPENCODE_GO_API_KEY`
-2. `OPENCODE_GO_API_KEY`
-3. `HARMONICA_LLM_API_KEY`
-4. macOS Keychain `harmonica-opencode-go` / `harmonica`
-
-Set `HARMONICA_ENABLE_LLM_TAGS=0` or pass `--skip-llm-tags` to
-`scripts/run_pipeline.py` to disable LLM tagging for a run.
-
-To rewrite existing candidate tags with the same LLM classifier:
-
-```bash
-python3 scripts/retag_social_candidates.py --write
-python3 scripts/generate_rss_feeds.py
-```
-
-The retag script backs up `data/feeds/social_candidates.jsonl` before replacing
-it. It skips `public-link-backfill` rows by default so source coverage rows stay
-intact. Pass `--keep-irrelevant` to keep LLM-rejected rows for inspection instead
-of removing them from the public candidate file.
-
-Directory entries also have source-level tags for people, clubs, ensembles,
-teaching sources, venues, and activity platforms. These are cached separately in
-`state/source_llm_tags.json`:
-
-```bash
-python3 scripts/tag_directory_entries.py --write --refresh
-python3 scripts/build_public_data.py
-python3 scripts/generate_rss_feeds.py
-```
-
-The directory tagger does not edit the source CSV files. It writes a generated
-cache that `scripts/build_public_data.py` merges into `site/data/site-data.js`
-and `/api/sources.json`.
-
-## Local Preview
-
-```bash
-python3 -m http.server 8765 --directory site
-```
-
-Open `http://127.0.0.1:8765/`.
-
-## Public Feeds
-
-- `https://harmonica.observe.tw/feeds/updates.xml`
-- `https://harmonica.observe.tw/feeds/events.xml` - 全臺灣的口琴實體活動
-- `https://harmonica.observe.tw/feeds/posts-videos.xml` - 全臺灣的口琴相關貼文以及影片發布
-- `https://harmonica.observe.tw/feeds/student-clubs.xml` - 全臺灣的口琴學生社團動態
-- `https://harmonica.observe.tw/feeds/opportunities.xml` - 口琴社團需要知道的補助或是比賽資訊
-- `https://harmonica.observe.tw/feeds/sources.xml`
-
-## Public API
-
-Bamboo Hermes should read the public JSON API instead of scraping social
-sources directly:
+外部工具與 Bamboo Hermes 應優先讀公開 JSON API，不要直接抓網站 HTML：
 
 - `https://harmonica.observe.tw/api/latest.json`
 - `https://harmonica.observe.tw/api/catalog.json`
@@ -149,67 +88,27 @@ sources directly:
 - `https://harmonica.observe.tw/api/opportunities.json`
 - `https://harmonica.observe.tw/api/sources.json`
 
-## Public Reports
+若遠端用 `curl` 驗證 API 時遇到 403，可以加類瀏覽器 User-Agent：
 
-Public additions, corrections, broken links, and source updates should start
-from the site report page:
+```bash
+curl -A 'Mozilla/5.0' https://harmonica.observe.tw/api/sources.json
+```
 
-- `https://harmonica.observe.tw/submit/`
+## 資料回報
 
-The report page builds a GitHub issue URL with query parameters so the final
-GitHub Issue Form opens with the title and form fields pre-filled:
-
-- `https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/new?template=content-correction.yml`
-
-Only public, verifiable source material should be submitted. Do not include
-private contact details, private group links, credentials, member data, or other
-non-public information in issues.
-
-## Production
-
-Caddy serves:
+公開新增、修正、失效連結與來源更新應從網站回報頁開始：
 
 ```text
-/Users/skyhong/Documents/Harmonica-in-Taiwan/site
+https://harmonica.observe.tw/submit/
 ```
 
-for `https://harmonica.observe.tw/`.
+回報頁會產生 GitHub Issue Form URL：
 
-## Scheduler
-
-The standalone pipeline can run through launchd:
-
-```bash
-cp deploy/tw.observe.harmonica.pipeline.plist ~/Library/LaunchAgents/
-launchctl bootstrap "gui/$(id -u)" ~/Library/LaunchAgents/tw.observe.harmonica.pipeline.plist
+```text
+https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/new?template=content-correction.yml
 ```
 
-It rebuilds public data, watches public feeds, and regenerates RSS daily at
-00:00 in the Mac's local timezone.
-
-To run one sync immediately after setup:
-
-```bash
-launchctl kickstart -k "gui/$(id -u)/tw.observe.harmonica.pipeline"
-```
-On macOS, a user LaunchAgent may need Full Disk Access permission before it can
-read this project under `~/Documents`. If launchd reports `Operation not
-permitted`, run the pipeline manually until the privacy permission is granted:
-
-```bash
-cd /Users/skyhong/Documents/Harmonica-in-Taiwan
-python3 scripts/run_pipeline.py
-```
-
-To grant the permission, open System Settings -> Privacy & Security -> Full Disk
-Access, use `+`, press Cmd+Shift+G in the file picker, and add:
-
-- `/bin/zsh`
-- `/Library/Developer/CommandLineTools/usr/bin/python3`
-- `/usr/bin/python3` if it is selectable on this macOS version
-
-After turning those entries on, reload the LaunchAgent and verify `last exit
-code = 0`.
+Issue 會公開顯示。請只填公開可查資料，不要放私人電話、私人信箱、未公開群組連結、會員資料或憑證。
 
 ## License
 

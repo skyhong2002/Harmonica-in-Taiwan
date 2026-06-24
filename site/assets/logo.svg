@@ -1,29 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="54 78 526 94" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 94" role="img" aria-labelledby="title desc">
   <title id="title">臺灣口琴觀測站</title>
-  <desc id="desc">A minimal harmonica row with RSS signal arcs and the wordmark 臺灣口琴觀測站.</desc>
+  <desc id="desc">The compact harmonica favicon mark paired with the wordmark 臺灣口琴觀測站.</desc>
   <defs>
     <style>
       .word { font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; font-weight: 800; letter-spacing: 0; }
       .sub { font-family: Inter, Arial, sans-serif; font-weight: 700; letter-spacing: .08em; }
     </style>
   </defs>
-  <g transform="translate(54 42)">
-    <rect x="0" y="40" width="150" height="70" rx="18" fill="#0a514d"/>
-    <rect x="12" y="52" width="126" height="46" rx="13" fill="#0f766e"/>
-    <g fill="#f8fbf9">
-      <rect x="28" y="68" width="14" height="14" rx="7"/>
-      <rect x="52" y="68" width="14" height="14" rx="7"/>
-      <rect x="76" y="68" width="14" height="14" rx="7"/>
-      <rect x="100" y="68" width="14" height="14" rx="7"/>
+  <g transform="translate(0 9) scale(0.5588235294)" aria-hidden="true">
+    <rect width="136" height="136" rx="18" fill="#0f766e"/>
+    <path d="M24 80h88" stroke="#ffffff" stroke-width="18" stroke-linecap="round"/>
+    <g fill="#0f766e">
+      <circle cx="40" cy="80" r="5.5"/>
+      <circle cx="58" cy="80" r="5.5"/>
+      <circle cx="76" cy="80" r="5.5"/>
+      <circle cx="94" cy="80" r="5.5"/>
     </g>
-    <circle cx="126" cy="76" r="7" fill="#c85f44"/>
-    <circle cx="126" cy="76" r="20" fill="none" stroke="#c85f44" stroke-width="6" stroke-linecap="round" stroke-dasharray="32 80"/>
-    <circle cx="126" cy="76" r="36" fill="none" stroke="#b87921" stroke-width="6" stroke-linecap="round" stroke-dasharray="48 112"/>
-    <path d="M29 111h92" stroke="#b87921" stroke-width="6" stroke-linecap="round"/>
-    <path d="M38 111c18 24 58 24 76 0" fill="none" stroke="#0a514d" stroke-width="6" stroke-linecap="round"/>
+    <path d="M30 45h20l10-16 18 35 12-19h20" fill="none" stroke="#f2b84b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="110" cy="45" r="8" fill="#c85f44"/>
   </g>
-  <g transform="translate(250 64)">
-    <text class="word" x="0" y="56" font-size="46" fill="#17211d">臺灣口琴觀測站</text>
-    <text class="sub" x="2" y="96" font-size="16" fill="#5c6a63">TAIWAN HARMONICA OBSERVATORY</text>
+  <g transform="translate(100 0)" text-anchor="middle">
+    <text class="word" x="140" y="54" font-size="40" fill="#17211d">臺灣口琴觀測站</text>
+    <text class="sub" x="140" y="83" font-size="13" fill="#5c6a63">TAIWAN HARMONICA OBSERVATORY</text>
   </g>
 </svg>
