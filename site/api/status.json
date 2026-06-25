@@ -1,0 +1,194 @@
+{
+  "generatedAt": "2026-06-25T12:56:26+08:00",
+  "site": "https://harmonica.observe.tw",
+  "overall": {
+    "status": "degraded",
+    "label": "部分異常",
+    "summary": "核心 pipeline 有產出；需要注意：X / Twitter RSS。 Facebook Apify 目前是預算節流狀態。"
+  },
+  "metrics": {
+    "updates": 169,
+    "updatesWindowDays": 30,
+    "directoryEntries": 102,
+    "watchSources": 235,
+    "currentErrors": 4,
+    "latestDataAt": "2026-06-25T12:56:26+08:00",
+    "latestSocialObservationAt": "2026-06-25T00:13:01+08:00"
+  },
+  "watchSources": {
+    "platforms": {
+      "facebook": 84,
+      "instagram": 74,
+      "threads": 2,
+      "x": 4,
+      "youtube": 71
+    },
+    "types": {
+      "facebook_page_posts": 84,
+      "rss": 6,
+      "rsshub_instagram_profile": 74,
+      "youtube_ytdlp": 71
+    },
+    "platformRows": [
+      {
+        "platform": "facebook",
+        "sources": 84,
+        "currentErrors": 0,
+        "status": "ok"
+      },
+      {
+        "platform": "instagram",
+        "sources": 74,
+        "currentErrors": 0,
+        "status": "ok"
+      },
+      {
+        "platform": "threads",
+        "sources": 2,
+        "currentErrors": 0,
+        "status": "ok"
+      },
+      {
+        "platform": "x",
+        "sources": 4,
+        "currentErrors": 4,
+        "status": "degraded"
+      },
+      {
+        "platform": "youtube",
+        "sources": 71,
+        "currentErrors": 0,
+        "status": "ok"
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "pipeline",
+      "name": "主排程與輸出",
+      "status": "ok",
+      "label": "正常",
+      "summary": "每日 pipeline 已產生公開資料快照。",
+      "details": [
+        "最新公開資料：2026-06-25 12:56:26",
+        "pipeline.log 更新：2026-06-25 00:13:54",
+        "pipeline.err.log 更新：2026-06-24 01:57:49",
+        "LaunchAgent：not running，last exit 0"
+      ]
+    },
+    {
+      "id": "public-api",
+      "name": "公開 API",
+      "status": "ok",
+      "label": "正常",
+      "summary": "latest.json 有 169 筆更新，sources.json 有 102 筆公開目錄。",
+      "details": [
+        "更新視窗：30 天",
+        "watch sources：235"
+      ]
+    },
+    {
+      "id": "rsshub",
+      "name": "RSSHub 服務",
+      "status": "ok",
+      "label": "正常",
+      "summary": "本機 RSSHub 入口回 200。",
+      "details": [
+        "HTTP：200",
+        "耗時：9 ms"
+      ]
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram RSSHub",
+      "status": "ok",
+      "label": "正常",
+      "summary": "74 個 Instagram 來源；最新抓取批次目前 0 個錯誤。",
+      "details": [
+        "最新社群觀測：2026-06-25 00:13:01"
+      ]
+    },
+    {
+      "id": "x-twitter",
+      "name": "X / Twitter RSS",
+      "status": "degraded",
+      "label": "部分異常",
+      "summary": "4 個 X 來源；最新抓取批次目前 4 個錯誤。",
+      "details": [
+        "目前 route 依 RSSHub 設定抓取。",
+        "若持續 503，通常要檢查 RSSHub 的 Twitter API 設定。"
+      ]
+    },
+    {
+      "id": "facebook-apify",
+      "name": "Facebook Apify",
+      "status": "paused",
+      "label": "節流中",
+      "summary": "84 個 Facebook 來源。 目前依預算 pacing 暫停開 run，等待 due 來源累積。",
+      "details": [
+        "最近成功 run：2026-06-24 17:16:28",
+        "最近新增 inbox：5",
+        "due sources：5",
+        "selected this check：0",
+        "min sources per run：8",
+        "遠端月額度剩餘：$3.23",
+        "規劃單次預算：$0.16"
+      ]
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube yt-dlp",
+      "status": "ok",
+      "label": "正常",
+      "summary": "71 個 YouTube 來源；最近 run error_count=0。",
+      "details": [
+        "最近完成：2026-06-25 00:00:12",
+        "最近新增 inbox：0"
+      ]
+    },
+    {
+      "id": "other-rss",
+      "name": "Threads / 其他 RSS",
+      "status": "ok",
+      "label": "正常",
+      "summary": "2 個 Threads 來源；其他 RSS 最新抓取批次目前 0 個錯誤。",
+      "details": [
+        "RSS 類型來源：6"
+      ]
+    }
+  ],
+  "recentErrors": [
+    {
+      "seenAt": "2026-06-25T00:13:01+08:00",
+      "sourceId": "x_jangliharmonica",
+      "sourceName": "李讓 Jang Li",
+      "platform": "x",
+      "sourceType": "rss",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-25T00:13:01+08:00",
+      "sourceId": "x_aidensoon",
+      "sourceName": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+      "platform": "x",
+      "sourceType": "rss",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-25T00:13:01+08:00",
+      "sourceId": "x_rei_harmonica",
+      "sourceName": "山下伶 Rei Yamashita",
+      "platform": "x",
+      "sourceType": "rss",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-25T00:13:01+08:00",
+      "sourceId": "x_duovolce",
+      "sourceName": "Duo Volce Music Studio 誼聲音樂室",
+      "platform": "x",
+      "sourceType": "rss",
+      "error": "HTTP Error 503: Service Unavailable"
+    }
+  ]
+}

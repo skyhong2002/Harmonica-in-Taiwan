@@ -37,7 +37,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-24 21:21",
       "latestUpdateSource": "CY Leo 何卓彥",
       "latestUpdateUrl": "https://www.instagram.com/p/DZ-FiaIy5JZ/",
-      "avatarUrl": "/assets/source-avatars/fa38ab9466a099296e53.jpg",
+      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
       "sourceInitials": "CL",
       "sourceTags": [
         "演奏者",
@@ -50,7 +50,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。"
     },
     {
-      "id": "watchlist-58",
+      "id": "watchlist-59",
       "name": "Marcos Coll",
       "nameEn": "Marcos Coll",
       "category": "演奏者",
@@ -85,7 +85,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-24 20:06",
       "latestUpdateSource": "Marcos Coll",
       "latestUpdateUrl": "https://www.instagram.com/p/DZ98fZzoUhB/",
-      "avatarUrl": "/assets/source-avatars/b074f0c60bc29613bd8b.jpg",
+      "avatarUrl": "/assets/source-avatars/a340565f0940319d3614.webp",
       "sourceInitials": "MC",
       "sourceTags": [
         "演奏者",
@@ -134,7 +134,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-24 17:47",
       "latestUpdateSource": "張晁滕",
       "latestUpdateUrl": "https://www.instagram.com/p/DZ9tC9sSNW1/",
-      "avatarUrl": "/assets/source-avatars/2f67387d4c1f268e293f.jpg",
+      "avatarUrl": "/assets/source-avatars/ee71f9a44b3bd85fda78.webp",
       "sourceInitials": "張晁",
       "sourceTags": [
         "演奏者",
@@ -184,7 +184,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-24 17:06",
       "latestUpdateSource": "山下伶 Rei Yamashita",
       "latestUpdateUrl": "https://www.instagram.com/p/DZ9ndUzky3s/",
-      "avatarUrl": "/assets/source-avatars/fd314cb81c45bf0ce525.jpg",
+      "avatarUrl": "/assets/source-avatars/88e248e6f1c02aaa881b.webp",
       "sourceInitials": "RY",
       "sourceTags": [
         "口琴",
@@ -217,7 +217,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-24 16:33",
       "latestUpdateSource": "陳晟禕",
       "latestUpdateUrl": "https://www.facebook.com/chen.cheng.yi.487430/posts/pfbid02gYu7KjkzjddwnrnZggk1pT4DFwfnCWpRT5xN4rpbQ1cggd57QKFxRo2RHJcgu9Nl",
-      "avatarUrl": "/assets/source-avatars/cc59e554f78aa2c3c136.jpg",
+      "avatarUrl": "/assets/source-avatars/cc59e554f78aa2c3c136.webp",
       "sourceInitials": "陳晟",
       "sourceTags": [
         "口琴",
@@ -265,7 +265,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-24 16:18",
       "latestUpdateSource": "李讓 Jang Li",
       "latestUpdateUrl": "https://www.instagram.com/p/DZ9icdfT2Rl/",
-      "avatarUrl": "/assets/source-avatars/37cff62def5c9f5a5b03.jpg",
+      "avatarUrl": "/assets/source-avatars/3eb31bb3c8355ed0f6cb.webp",
       "sourceInitials": "JL",
       "sourceTags": [
         "口琴",
@@ -275,7 +275,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-93",
+      "id": "watchlist-94",
       "name": "范曉怡",
       "nameEn": "",
       "category": "演奏者",
@@ -306,7 +306,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-24 11:21",
       "latestUpdateSource": "范曉怡",
       "latestUpdateUrl": "https://www.facebook.com/fanhsiaoyi/posts/pfbid0364aeJfgtZ7zMcviaXeyW2b8xXfcHnSxgTykZRtVWSygr5FLThyPosJ2BKeyBVZSsl",
-      "avatarUrl": "/assets/source-avatars/381e810a5b224700d5dd.jpg",
+      "avatarUrl": "/assets/source-avatars/381e810a5b224700d5dd.webp",
       "sourceInitials": "范曉",
       "sourceTags": [
         "口琴",
@@ -316,7 +316,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-94",
+      "id": "watchlist-95",
       "name": "曹小歐",
       "nameEn": "Otis Tsao",
       "category": "演奏者",
@@ -355,7 +355,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-23 21:17",
       "latestUpdateSource": "曹小歐",
       "latestUpdateUrl": "https://www.facebook.com/reel/1674318240492435/",
-      "avatarUrl": "/assets/source-avatars/6bb91ef54d045d117942.jpg",
+      "avatarUrl": "/assets/source-avatars/6bb91ef54d045d117942.webp",
       "sourceInitials": "曹小",
       "sourceTags": [
         "口琴",
@@ -391,7 +391,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-23 17:00",
       "latestUpdateSource": "陳鴻儀",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=NQpOJQrzQEw",
-      "avatarUrl": "/assets/source-avatars/11010264a3489f5a5679.jpg",
+      "avatarUrl": "/assets/source-avatars/11010264a3489f5a5679.webp",
       "sourceInitials": "陳鴻",
       "sourceTags": [
         "演奏者",
@@ -402,7 +402,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "來源類別為「演奏者」，類型為「個人」，城市焦點為「演出/評審」，因此標記演奏者、口琴及演出。"
     },
     {
-      "id": "watchlist-38+watchlist-79",
+      "id": "watchlist-38+watchlist-80",
       "name": "歐純伶",
       "nameEn": "",
       "category": "演奏者",
@@ -440,7 +440,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-23 12:00",
       "latestUpdateSource": "歐純伶",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=mtce6XbmMYk",
-      "avatarUrl": "/assets/source-avatars/2241bd394301b93492ed.jpg",
+      "avatarUrl": "/assets/source-avatars/2241bd394301b93492ed.webp",
       "sourceInitials": "歐純",
       "sourceTags": [
         "演奏者",
@@ -453,7 +453,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "資料明確標示為「演奏者」，主要從事複音口琴教學與演出，並透過平台分享教學影片。"
     },
     {
-      "id": "watchlist-81",
+      "id": "watchlist-82",
       "name": "藍波口琴教室",
       "nameEn": "Bluebo Harmonica",
       "category": "教學器材",
@@ -484,7 +484,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-23 11:41",
       "latestUpdateSource": "藍波口琴教室",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=YXtrcFrAahU",
-      "avatarUrl": "/assets/source-avatars/002a78116b9b09a6967c.jpg",
+      "avatarUrl": "/assets/source-avatars/002a78116b9b09a6967c.webp",
       "sourceInitials": "藍波",
       "sourceTags": [
         "教學",
@@ -496,7 +496,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "名稱與分類明確指出「教學」與「工作室」，並提供課程資源，屬於教學來源。"
     },
     {
-      "id": "watchlist-84",
+      "id": "watchlist-85",
       "name": "台北黃石口琴樂團",
       "nameEn": "Taipei Yellowstone Harmonica Ensemble",
       "category": "團體樂團",
@@ -519,7 +519,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-22 22:15",
       "latestUpdateSource": "台北黃石口琴樂團",
       "latestUpdateUrl": "https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/posts/pfbid02dZtHRhB1dCnPFBfhX1xQ6E2yXeqqCeijXD2xDanh5H2k31Lgmj87ebVwSK3QdRPul",
-      "avatarUrl": "/assets/source-avatars/5c7f37af162eacf64845.jpg",
+      "avatarUrl": "/assets/source-avatars/5c7f37af162eacf64845.webp",
       "sourceInitials": "台北",
       "sourceTags": [
         "團體樂團",
@@ -570,7 +570,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-22 20:56",
       "latestUpdateSource": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
       "latestUpdateUrl": "https://www.facebook.com/AidenNEvelyn/posts/pfbid02B7Uy2D9W2wXMaQeiE9cwCFapW1cNed9BJmmVbNPKThGvn7HPqvwAckzZZ6SAj9nbl",
-      "avatarUrl": "/assets/source-avatars/f23102f6afa5a416f4fa.jpg",
+      "avatarUrl": "/assets/source-avatars/58e8bad4c2d4f442829e.webp",
       "sourceInitials": "ANE",
       "sourceTags": [
         "口琴",
@@ -582,7 +582,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-88",
+      "id": "watchlist-89",
       "name": "Duo Volce Music Studio 誼聲音樂室",
       "nameEn": "Duo Volce Music Studio",
       "category": "團體樂團",
@@ -621,7 +621,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-21 21:38",
       "latestUpdateSource": "Duo Volce Music Studio 誼聲音樂室",
       "latestUpdateUrl": "https://www.instagram.com/p/DZ1Rwtohfm97eqfXiBvP2tWYNwNeGVBUBMULmU0/",
-      "avatarUrl": "/assets/source-avatars/04cb48edf0a82db85d36.jpg",
+      "avatarUrl": "/assets/source-avatars/5f856de4e7f86e6802d3.webp",
       "sourceInitials": "DVM",
       "sourceTags": [
         "口琴",
@@ -661,7 +661,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-21 21:38",
       "latestUpdateSource": "Duo Volce Music Studio 誼聲音樂室",
       "latestUpdateUrl": "https://www.instagram.com/p/DZ1Rwtohfm97eqfXiBvP2tWYNwNeGVBUBMULmU0/",
-      "avatarUrl": "/assets/source-avatars/04cb48edf0a82db85d36.jpg",
+      "avatarUrl": "/assets/source-avatars/5f856de4e7f86e6802d3.webp",
       "sourceInitials": "HC",
       "sourceTags": [
         "演奏者",
@@ -672,7 +672,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "來源明確標註為『演奏者』個人，專長為半音階口琴，並提及國際演出與評審，故優先標註演奏者、半音階、國際交流。"
     },
     {
-      "id": "watchlist-87",
+      "id": "watchlist-88",
       "name": "RedBricks Harmonica",
       "nameEn": "RedBricks Harmonica",
       "category": "團體樂團",
@@ -703,7 +703,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-21 19:15",
       "latestUpdateSource": "RedBricks Harmonica",
       "latestUpdateUrl": "https://www.facebook.com/redbricksharmonica/posts/pfbid0uhGecmNrYQPvPPv5k3L9w2kWicUZMvn53QFGnzbyxXQ52jbXTJWZ297gfrwrfzy1l",
-      "avatarUrl": "/assets/source-avatars/976c88acba6662bf29bf.jpg",
+      "avatarUrl": "/assets/source-avatars/44ed1621e83c468035bf.webp",
       "sourceInitials": "RH",
       "sourceTags": [
         "團體樂團",
@@ -715,7 +715,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "來源名稱與描述明確指向「口琴五重奏」團體，類別標示為「團體樂團」，且強調「國際口琴重奏」與「臺港交流」。"
     },
     {
-      "id": "watchlist-2+watchlist-66",
+      "id": "watchlist-2+watchlist-67",
       "name": "臺灣口琴音樂節 THMF",
       "nameEn": "Taiwan Harmonica Music Festival",
       "category": "活動資訊",
@@ -752,7 +752,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-21 17:26",
       "latestUpdateSource": "臺灣口琴音樂節 THMF",
       "latestUpdateUrl": "https://www.instagram.com/p/DZ17j0Ok0wB/",
-      "avatarUrl": "/assets/source-avatars/8d01fbb157886cc0e415.jpg",
+      "avatarUrl": "/assets/source-avatars/35e815a6169924844433.webp",
       "sourceInitials": "T",
       "sourceTags": [
         "口琴",
@@ -766,7 +766,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-56",
+      "id": "watchlist-57",
       "name": "Jong-seong Park 朴鍾聲",
       "nameEn": "Jong-seong Park",
       "category": "演奏者",
@@ -801,7 +801,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-21 17:26",
       "latestUpdateSource": "Jong-seong Park 朴鍾聲",
       "latestUpdateUrl": "https://www.instagram.com/p/DZ17j0Ok0wB/",
-      "avatarUrl": "/assets/source-avatars/7d25d1c2c6c329fb815c.jpg",
+      "avatarUrl": "/assets/source-avatars/bcd7a208bc67cf5ec331.webp",
       "sourceInitials": "JSP",
       "sourceTags": [
         "演奏者",
@@ -843,7 +843,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-21 10:23",
       "latestUpdateSource": "NTNU Harmonica Club",
       "latestUpdateUrl": "https://www.instagram.com/p/DZ1L-qUkqiH/",
-      "avatarUrl": "/assets/source-avatars/2e22a6a735da1c0d8f2c.jpg",
+      "avatarUrl": "/assets/source-avatars/2e22a6a735da1c0d8f2c.webp",
       "sourceInitials": "師大",
       "sourceTags": [
         "學生社團",
@@ -854,7 +854,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "根據 category 與 type 明確標示為學校社團，且名稱與關鍵字均指向師範大學的口琴社團。"
     },
     {
-      "id": "watchlist-62+club-10",
+      "id": "watchlist-63+club-10",
       "name": "台大藍聲口琴社",
       "nameEn": "NTU Blue Sound Harmonica Club",
       "category": "學校社團",
@@ -889,7 +889,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-20 17:25",
       "latestUpdateSource": "NTU Blue Sound Harmonica Club",
       "latestUpdateUrl": "https://www.instagram.com/p/DZzW-psz3gR/",
-      "avatarUrl": "/assets/source-avatars/c1b9a8d6df3e79573ba0.jpg",
+      "avatarUrl": "/assets/source-avatars/c1b9a8d6df3e79573ba0.webp",
       "sourceInitials": "台大",
       "sourceTags": [
         "學生社團",
@@ -937,7 +937,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-19 17:01",
       "latestUpdateSource": "胖擊口琴樂團",
       "latestUpdateUrl": "https://www.instagram.com/p/DZwv1nejKG0/",
-      "avatarUrl": "/assets/source-avatars/efa6d3ef2248abafefc9.jpg",
+      "avatarUrl": "/assets/source-avatars/d5d895cbefada2416bb9.webp",
       "sourceInitials": "胖擊",
       "sourceTags": [
         "口琴",
@@ -946,7 +946,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-65+club-9",
+      "id": "watchlist-66+club-9",
       "name": "文山／萬興國小口琴系統",
       "nameEn": "",
       "category": "學校社團",
@@ -973,7 +973,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-19 15:57",
       "latestUpdateSource": "文山／萬興國小口琴系統",
       "latestUpdateUrl": "https://www.facebook.com/reel/1735699600986480/",
-      "avatarUrl": "/assets/source-avatars/9bfce9787db4878b5892.jpg",
+      "avatarUrl": "/assets/source-avatars/9bfce9787db4878b5892.webp",
       "sourceInitials": "文山",
       "sourceTags": [
         "學生社團",
@@ -984,7 +984,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "來源為國小學校社團，優先標學生社團；提供口琴學習參考，故標口琴與教學。"
     },
     {
-      "id": "watchlist-27+watchlist-85",
+      "id": "watchlist-27+watchlist-86",
       "name": "音和樂器",
       "nameEn": "PeaceTones Harmonica",
       "category": "教學器材",
@@ -1021,7 +1021,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-19 14:55",
       "latestUpdateSource": "音和樂器",
       "latestUpdateUrl": "https://www.instagram.com/p/DZwhXe1NDss/",
-      "avatarUrl": "/assets/source-avatars/02f202d109ff36ce7fff.jpg",
+      "avatarUrl": "/assets/source-avatars/81fa36d32a8fd17393ca.webp",
       "sourceInitials": "音和",
       "sourceTags": [
         "品牌",
@@ -1033,7 +1033,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "名稱為「樂器專賣店」，類別為「教學器材」，提供買賣、維修、教學，符合品牌、器材與教學來源。"
     },
     {
-      "id": "watchlist-54",
+      "id": "watchlist-55",
       "name": "千賀太郎",
       "nameEn": "Taro Senga",
       "category": "演奏者",
@@ -1056,7 +1056,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-19 04:19",
       "latestUpdateSource": "千賀太郎",
       "latestUpdateUrl": "https://www.instagram.com/p/DZvXsXjz8u7/",
-      "avatarUrl": "/assets/source-avatars/248a68415bcf5f382688.jpg",
+      "avatarUrl": "/assets/source-avatars/248a68415bcf5f382688.webp",
       "sourceInitials": "千賀",
       "sourceTags": [
         "口琴",
@@ -1066,7 +1066,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-55",
+      "id": "watchlist-56",
       "name": "藤井俊充",
       "nameEn": "Toshi Fujii",
       "category": "演奏者",
@@ -1097,7 +1097,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-18 23:49",
       "latestUpdateSource": "藤井俊充",
       "latestUpdateUrl": "https://www.instagram.com/p/DZu5TMZTJy5/",
-      "avatarUrl": "/assets/source-avatars/db80d06917ef5d9965b5.jpg",
+      "avatarUrl": "/assets/source-avatars/db80d06917ef5d9965b5.webp",
       "sourceInitials": "藤井",
       "sourceTags": [
         "口琴",
@@ -1134,7 +1134,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-18 20:42",
       "latestUpdateSource": "廖苡晴",
       "latestUpdateUrl": "https://www.instagram.com/p/DZujGgrgS25/",
-      "avatarUrl": "/assets/source-avatars/9db13cd6657d776efa54.jpg",
+      "avatarUrl": "/assets/source-avatars/5b5371b7851220afa3a1.webp",
       "sourceInitials": "廖苡",
       "sourceTags": [
         "演奏者",
@@ -1181,7 +1181,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-16 18:44",
       "latestUpdateSource": "111 Trio / 111 Quintet",
       "latestUpdateUrl": "https://www.instagram.com/p/DZm0GUAhd10/",
-      "avatarUrl": "/assets/source-avatars/58200e60bd5b0b58115c.jpg",
+      "avatarUrl": "/assets/source-avatars/58200e60bd5b0b58115c.webp",
       "sourceInitials": "1T1",
       "sourceTags": [
         "口琴",
@@ -1189,7 +1189,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-95",
+      "id": "watchlist-96",
       "name": "何家健 HarmoniKahkean",
       "nameEn": "Ho Kah Kean / HarmoniKahkean",
       "category": "活動資訊",
@@ -1224,7 +1224,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-16 11:46",
       "latestUpdateSource": "何家健 HarmoniKahkean",
       "latestUpdateUrl": "https://www.instagram.com/p/DZodfTviV7c/",
-      "avatarUrl": "/assets/source-avatars/b5b4275c818ca528272b.jpg",
+      "avatarUrl": "/assets/source-avatars/2ae8afd20e310f8d959d.webp",
       "sourceInitials": "H",
       "sourceTags": [
         "演奏者",
@@ -1238,7 +1238,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "來源為個人姓名，類別標示為活動資訊，摘要提及口琴演奏、地方推廣、Podcast與國際交流，符合演奏者與國際交流標籤。"
     },
     {
-      "id": "watchlist-30+watchlist-92",
+      "id": "watchlist-30+watchlist-93",
       "name": "蔡明憲 DMing Studio",
       "nameEn": "DMing Studio",
       "category": "教學器材",
@@ -1283,7 +1283,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-15 15:17",
       "latestUpdateSource": "蔡明憲",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=Lo9lsONdCZg",
-      "avatarUrl": "/assets/source-avatars/e2d632cb1467920a5122.jpg",
+      "avatarUrl": "/assets/source-avatars/bf2f349c5f4c1ca4392a.webp",
       "sourceInitials": "DS",
       "sourceTags": [
         "口琴",
@@ -1319,7 +1319,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-14 23:05",
       "latestUpdateSource": "林士傑",
       "latestUpdateUrl": "https://www.instagram.com/p/DZkfyzkD5nX/",
-      "avatarUrl": "/assets/source-avatars/63e95b797b2ffd1ec507.jpg",
+      "avatarUrl": "/assets/source-avatars/63e95b797b2ffd1ec507.webp",
       "sourceInitials": "林士",
       "sourceTags": [
         "口琴",
@@ -1358,7 +1358,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-13 00:23",
       "latestUpdateSource": "林裕豐",
       "latestUpdateUrl": "https://www.instagram.com/p/DZfg5LvAJQq/",
-      "avatarUrl": "/assets/source-avatars/3e104f803d8d921f85f4.jpg",
+      "avatarUrl": "/assets/source-avatars/3e57ec6b2722c7d0b510.webp",
       "sourceInitials": "林裕",
       "sourceTags": [
         "演奏者",
@@ -1400,7 +1400,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-12 17:43",
       "latestUpdateSource": "王衍華",
       "latestUpdateUrl": "https://www.instagram.com/p/DZey-5dp48i/",
-      "avatarUrl": "/assets/source-avatars/d3ea9c163bc97afd9c7d.jpg",
+      "avatarUrl": "/assets/source-avatars/b403fb270ce2a5f015c0.webp",
       "sourceInitials": "王衍",
       "sourceTags": [
         "演奏者",
@@ -1442,7 +1442,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-08 15:29",
       "latestUpdateSource": "口琴好南合奏樂團",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=oErGq62E_ls",
-      "avatarUrl": "/assets/source-avatars/a049afafab6b07c8760a.jpg",
+      "avatarUrl": "/assets/source-avatars/a049afafab6b07c8760a.webp",
       "sourceInitials": "口琴",
       "sourceTags": [
         "團體樂團",
@@ -1455,7 +1455,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "名稱與摘要明確為「口琴合奏樂團」，類別標示為團體樂團，且摘要提及演出。"
     },
     {
-      "id": "watchlist-97",
+      "id": "watchlist-98",
       "name": "陳瑤容 Yora Chen",
       "nameEn": "Yora Chen",
       "category": "演奏者",
@@ -1490,7 +1490,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-07 20:33",
       "latestUpdateSource": "陳瑤容 Yora Chen",
       "latestUpdateUrl": "https://www.instagram.com/p/DZSOkK7AVU_/",
-      "avatarUrl": "/assets/source-avatars/a24f09a9421b6f7c8da1.jpg",
+      "avatarUrl": "/assets/source-avatars/de413ac72622f219568d.webp",
       "sourceInitials": "YC",
       "sourceTags": [
         "口琴",
@@ -1521,7 +1521,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-07 20:19",
       "latestUpdateSource": "CHGSH Harmonica",
       "latestUpdateUrl": "https://www.instagram.com/p/DZSNAK1koJ7/",
-      "avatarUrl": "/assets/source-avatars/f66c739a77f2c45045ff.jpg",
+      "avatarUrl": "/assets/source-avatars/f66c739a77f2c45045ff.webp",
       "sourceInitials": "彰女",
       "sourceTags": [
         "高中社團",
@@ -1563,7 +1563,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-06 16:59",
       "latestUpdateSource": "CKHC 64th",
       "latestUpdateUrl": "https://www.instagram.com/p/DY2RlNtj-Ue/",
-      "avatarUrl": "/assets/source-avatars/2c511f2ff162520ba9ce.jpg",
+      "avatarUrl": "/assets/source-avatars/2c511f2ff162520ba9ce.webp",
       "sourceInitials": "建中",
       "sourceTags": [
         "口琴",
@@ -1609,7 +1609,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-05 19:58",
       "latestUpdateSource": "TCFSH Harmonica",
       "latestUpdateUrl": "https://www.instagram.com/p/DZNA9GTk_2X/",
-      "avatarUrl": "/assets/source-avatars/9033731e98662050a211.jpg",
+      "avatarUrl": "/assets/source-avatars/9033731e98662050a211.webp",
       "sourceInitials": "中一",
       "sourceTags": [
         "高中社團",
@@ -1620,7 +1620,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "來源名稱與類別明確為「中一中口琴社」，屬學校社團，且資料中提及「口琴」，故標註為高中社團、學生社團及口琴。"
     },
     {
-      "id": "watchlist-57",
+      "id": "watchlist-58",
       "name": "Younghoon Cho",
       "nameEn": "Younghoon Cho",
       "category": "演奏者",
@@ -1655,7 +1655,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-04 21:19",
       "latestUpdateSource": "Younghoon Cho",
       "latestUpdateUrl": "https://www.instagram.com/p/DZKlbYJCfOE/",
-      "avatarUrl": "/assets/source-avatars/96f344ed766546a925a6.jpg",
+      "avatarUrl": "/assets/source-avatars/4168baa97b6613dcf6d7.webp",
       "sourceInitials": "YC",
       "sourceTags": [
         "演奏者",
@@ -1702,7 +1702,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-03 22:39",
       "latestUpdateSource": "梁承熹 Kelvin Leung",
       "latestUpdateUrl": "https://www.instagram.com/p/DZIJyN0EhI3/",
-      "avatarUrl": "/assets/source-avatars/cc84c4f8b48e2ed6d314.jpg",
+      "avatarUrl": "/assets/source-avatars/0c9e9143d106ffe600b5.webp",
       "sourceInitials": "KL",
       "sourceTags": [
         "演奏者",
@@ -1741,7 +1741,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-02 17:30",
       "latestUpdateSource": "高雄中學口琴社",
       "latestUpdateUrl": "https://www.facebook.com/kshsharmonicaclub/posts/pfbid024hjPxL2frwijZY3bodsDzdwsDEPMjSxgu8c9FntmHL2wf3DdF6duy3K88o24gxW9l",
-      "avatarUrl": "/assets/source-avatars/38d556859157b549ab61.jpg",
+      "avatarUrl": "/assets/source-avatars/38d556859157b549ab61.webp",
       "sourceInitials": "高雄",
       "sourceTags": [
         "學生社團",
@@ -1788,7 +1788,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-02 16:35",
       "latestUpdateSource": "中山醫藍韻口琴社",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=57QwnGuu57Q",
-      "avatarUrl": "/assets/source-avatars/eb3e77fe227de26d82a6.jpg",
+      "avatarUrl": "/assets/source-avatars/eb3e77fe227de26d82a6.webp",
       "sourceInitials": "中山",
       "sourceTags": [
         "口琴",
@@ -1837,7 +1837,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-05-30 21:11",
       "latestUpdateSource": "HSNU Cozy Harmonica",
       "latestUpdateUrl": "https://www.instagram.com/p/DY9smLkCY2F/",
-      "avatarUrl": "/assets/source-avatars/77ede19d1deb4ae6284c.jpg",
+      "avatarUrl": "/assets/source-avatars/77ede19d1deb4ae6284c.webp",
       "sourceInitials": "師大",
       "sourceTags": [
         "學生社團",
@@ -1886,7 +1886,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-05-30 11:00",
       "latestUpdateSource": "Dr. Blue 口琴樂團",
       "latestUpdateUrl": "https://www.instagram.com/p/DY8mqwZgnUm/",
-      "avatarUrl": "/assets/source-avatars/6c89c6be74dfe232d2fb.jpg",
+      "avatarUrl": "/assets/source-avatars/d539cb7f6a4a045a3e38.webp",
       "sourceInitials": "DB",
       "sourceTags": [
         "團體樂團",
@@ -1898,7 +1898,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "資料明確標示為「團體樂團」，並強調「青年重奏」、「台大藍聲系」與「口琴重奏」，屬於演奏團體。"
     },
     {
-      "id": "watchlist-80",
+      "id": "watchlist-81",
       "name": "桃園玩口琴",
       "nameEn": "",
       "category": "教學器材",
@@ -1921,7 +1921,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-05-27 22:02",
       "latestUpdateSource": "桃園玩口琴",
       "latestUpdateUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid02T7Yt6UtHKRovB5mucZufFqhU9xySDoetU14DhmV9hxufGmjf8rjRvkYidFHCzj54l&id=100057424090624",
-      "avatarUrl": "/assets/source-avatars/aa8d3e96c60688d76bde.jpg",
+      "avatarUrl": "/assets/source-avatars/aa8d3e96c60688d76bde.webp",
       "sourceInitials": "桃園",
       "sourceTags": [
         "教學",
@@ -1967,7 +1967,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-05-27 19:09",
       "latestUpdateSource": "NTHU Harmonica Club",
       "latestUpdateUrl": "https://www.instagram.com/p/DY1wKd8k3I6/",
-      "avatarUrl": "/assets/source-avatars/d9189b06f007bad0f354.jpg",
+      "avatarUrl": "/assets/source-avatars/d9189b06f007bad0f354.webp",
       "sourceInitials": "清華",
       "sourceTags": [
         "口琴",
@@ -2013,7 +2013,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-05-26 22:59",
       "latestUpdateSource": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
       "latestUpdateUrl": "https://www.instagram.com/p/DYzl0BolM5O/",
-      "avatarUrl": "/assets/source-avatars/3659bf85e41cf22dd5fa.jpg",
+      "avatarUrl": "/assets/source-avatars/94078177897f59538292.webp",
       "sourceInitials": "JSH",
       "sourceTags": [
         "團體樂團",
@@ -2058,7 +2058,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-05-26 22:59",
       "latestUpdateSource": "莊筑迪",
       "latestUpdateUrl": "https://www.instagram.com/p/DYzl0BolM5O/",
-      "avatarUrl": "/assets/source-avatars/5d4aff0a2520b1638340.jpg",
+      "avatarUrl": "/assets/source-avatars/75b538a969e7474eafae.webp",
       "sourceInitials": "莊筑",
       "sourceTags": [
         "演奏者",
@@ -2105,7 +2105,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-05-26 13:45",
       "latestUpdateSource": "彰師大白沙口琴社",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=sdS5NS7Q5Ds",
-      "avatarUrl": "/assets/source-avatars/54120042919c10556c84.jpg",
+      "avatarUrl": "/assets/source-avatars/54120042919c10556c84.webp",
       "sourceInitials": "彰師",
       "sourceTags": [
         "學生社團",
@@ -2148,7 +2148,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-05-22 17:59",
       "latestUpdateSource": "FCU Harmonica",
       "latestUpdateUrl": "https://www.instagram.com/p/DYowORFSgfy/",
-      "avatarUrl": "/assets/source-avatars/41657a3881e02ce0ac49.jpg",
+      "avatarUrl": "/assets/source-avatars/41657a3881e02ce0ac49.webp",
       "sourceInitials": "逢甲",
       "sourceTags": [
         "口琴",
@@ -2162,7 +2162,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "來源明確為「學校社團」，逢甲大學屬大專院校，故標大專社團、學生社團。主要活動為口琴相關，並提供社團招生與活動資訊。"
     },
     {
-      "id": "watchlist-82",
+      "id": "watchlist-83",
       "name": "巴巴口琴坊",
       "nameEn": "Baba Harmonica Studio",
       "category": "教學器材",
@@ -2193,7 +2193,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-05-14 20:10",
       "latestUpdateSource": "巴巴口琴坊",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=Ely1lNcSLnc",
-      "avatarUrl": "/assets/source-avatars/984f994442c9c304149b.jpg",
+      "avatarUrl": "/assets/source-avatars/984f994442c9c304149b.webp",
       "sourceInitials": "巴巴",
       "sourceTags": [
         "口琴",
@@ -2204,7 +2204,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "名稱含「口琴坊」，類型為「教學工作室」，核心業務為口琴教學與演出，符合教學與工作室定義。"
     },
     {
-      "id": "watchlist-91",
+      "id": "watchlist-92",
       "name": "進擊的口琴樂團",
       "nameEn": "",
       "category": "團體樂團",
@@ -2227,7 +2227,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-05-11 20:25",
       "latestUpdateSource": "進擊的口琴樂團",
       "latestUpdateUrl": "https://www.instagram.com/p/DYJCD-sSi00/",
-      "avatarUrl": "/assets/source-avatars/943304d2d25b73d5cac7.jpg",
+      "avatarUrl": "/assets/source-avatars/943304d2d25b73d5cac7.webp",
       "sourceInitials": "進擊",
       "sourceTags": [
         "團體樂團",
@@ -2277,7 +2277,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-03-28 20:00",
       "latestUpdateSource": "Laelaps 口琴",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=6NNzeB7TSYU",
-      "avatarUrl": "/assets/source-avatars/7799680800fa47d266d9.jpg",
+      "avatarUrl": "/assets/source-avatars/7799680800fa47d266d9.webp",
       "sourceInitials": "L",
       "sourceTags": [
         "口琴",
@@ -2316,7 +2316,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-03-25 21:38",
       "latestUpdateSource": "NPUST HMC",
       "latestUpdateUrl": "https://www.instagram.com/p/DWTy4QlEi5_/",
-      "avatarUrl": "/assets/source-avatars/f2ba0bfd79c0a46f7d28.jpg",
+      "avatarUrl": "/assets/source-avatars/f2ba0bfd79c0a46f7d28.webp",
       "sourceInitials": "屏科",
       "sourceTags": [
         "學生社團",
@@ -2362,7 +2362,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-03-05 01:35",
       "latestUpdateSource": "林家靖 Rolabo Lin",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=bw7lnSMpX8s",
-      "avatarUrl": "/assets/source-avatars/73cc6f458955466debe2.jpg",
+      "avatarUrl": "/assets/source-avatars/73cc6f458955466debe2.webp",
       "sourceInitials": "RL",
       "sourceTags": [
         "演奏者",
@@ -2409,7 +2409,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2025-12-25 10:36",
       "latestUpdateSource": "The Duet 獨特音樂",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=hK1MGw7zjbo",
-      "avatarUrl": "/assets/source-avatars/3013a62e1a48f37d00ac.jpg",
+      "avatarUrl": "/assets/source-avatars/3013a62e1a48f37d00ac.webp",
       "sourceInitials": "TD",
       "sourceTags": [
         "團體樂團",
@@ -2455,7 +2455,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2025-12-19 11:58",
       "latestUpdateSource": "NUTC Harmonica",
       "latestUpdateUrl": "https://www.instagram.com/p/DSbkhikk0or/",
-      "avatarUrl": "/assets/source-avatars/a42d66030ada356a1bcd.jpg",
+      "avatarUrl": "/assets/source-avatars/a42d66030ada356a1bcd.webp",
       "sourceInitials": "臺中",
       "sourceTags": [
         "口琴",
@@ -2467,7 +2467,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "根據name、category、type與summary，明確為大學校內的口琴社團，故標學生社團與大專社團；口琴為核心，交流為社團常見功能。"
     },
     {
-      "id": "watchlist-8+watchlist-63+club-4",
+      "id": "watchlist-8+watchlist-64+club-4",
       "name": "台中市中華口琴會樂團",
       "nameEn": "",
       "category": "學校社團",
@@ -2500,7 +2500,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2025-10-13 21:27",
       "latestUpdateSource": "台中市中華口琴會樂團",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=ZK8811XcKXo",
-      "avatarUrl": "/assets/source-avatars/4df93c46438ca873550e.jpg",
+      "avatarUrl": "/assets/source-avatars/4df93c46438ca873550e.webp",
       "sourceInitials": "台中",
       "sourceTags": [
         "團體樂團",
@@ -2549,7 +2549,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2025-10-12 21:28",
       "latestUpdateSource": "mr.Why 花影樂團",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=1gRwCMqVdSU",
-      "avatarUrl": "/assets/source-avatars/d187d33c3bae7a377c31.jpg",
+      "avatarUrl": "/assets/source-avatars/d187d33c3bae7a377c31.webp",
       "sourceInitials": "MW",
       "sourceTags": [
         "團體樂團",
@@ -2592,7 +2592,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2025-08-27 19:58",
       "latestUpdateSource": "TNFSH Harmonica",
       "latestUpdateUrl": "https://www.instagram.com/p/DN244OaZuEs/",
-      "avatarUrl": "/assets/source-avatars/8e388fc3deedeffda81a.jpg",
+      "avatarUrl": "/assets/source-avatars/8e388fc3deedeffda81a.webp",
       "sourceInitials": "臺南",
       "sourceTags": [
         "高中社團",
@@ -2629,7 +2629,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2025-08-25 22:22",
       "latestUpdateSource": "陳柏宏",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=ga23viLh-MU",
-      "avatarUrl": "/assets/source-avatars/2593bc8ba959891b96e0.jpg",
+      "avatarUrl": "/assets/source-avatars/2593bc8ba959891b96e0.webp",
       "sourceInitials": "陳柏",
       "sourceTags": [
         "演奏者",
@@ -2668,7 +2668,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2025-08-20 20:45",
       "latestUpdateSource": "Up Side Down",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=zBXwfnblSkw",
-      "avatarUrl": "/assets/source-avatars/4657720d5c6fa9854081.jpg",
+      "avatarUrl": "/assets/source-avatars/4657720d5c6fa9854081.webp",
       "sourceInitials": "USD",
       "sourceTags": [
         "大專社團",
@@ -2716,7 +2716,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2025-08-18 22:44",
       "latestUpdateSource": "成大口琴社",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=ZBFNfD6GjnY",
-      "avatarUrl": "/assets/source-avatars/01722e9bcfc9cae9c453.jpg",
+      "avatarUrl": "/assets/source-avatars/01722e9bcfc9cae9c453.webp",
       "sourceInitials": "成大",
       "sourceTags": [
         "學生社團",
@@ -2729,7 +2729,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "來源名稱與類別明確為「學校社團」，屬大專院校，故標學生社團、大專社團；核心活動為口琴，故標口琴；社團本質涉及交流與合奏練習。"
     },
     {
-      "id": "watchlist-59",
+      "id": "watchlist-60",
       "name": "Gordon Lee 李俊樂",
       "nameEn": "Gordon Lee",
       "category": "演奏者",
@@ -2764,7 +2764,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2025-07-02 15:02",
       "latestUpdateSource": "Gordon Lee 李俊樂",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=SFdaqSZaaV4",
-      "avatarUrl": "/assets/source-avatars/baa8cf1666c2f0a23ecd.jpg",
+      "avatarUrl": "/assets/source-avatars/baa8cf1666c2f0a23ecd.webp",
       "sourceInitials": "GL",
       "sourceTags": [
         "演奏者",
@@ -2803,7 +2803,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2025-06-29 20:00",
       "latestUpdateSource": "邱榮東",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=bwgjX0C-vCY",
-      "avatarUrl": "/assets/source-avatars/2abf4463e57d6e99fee0.jpg",
+      "avatarUrl": "/assets/source-avatars/2abf4463e57d6e99fee0.webp",
       "sourceInitials": "邱榮",
       "sourceTags": [
         "演奏者",
@@ -2845,7 +2845,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2025-04-10 18:38",
       "latestUpdateSource": "天狼星口琴樂團 Sirius Harmonica Ensemble",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=HAU2LhpkLFU",
-      "avatarUrl": "/assets/source-avatars/0ee32389be7eb84aba7d.jpg",
+      "avatarUrl": "/assets/source-avatars/0ee32389be7eb84aba7d.webp",
       "sourceInitials": "SHE",
       "sourceTags": [
         "口琴",
@@ -2890,7 +2890,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2025-02-20 15:43",
       "latestUpdateSource": "張筑婷",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=TKGyvdGUgp8",
-      "avatarUrl": "/assets/source-avatars/e2f1a0b77a000c272bbc.jpg",
+      "avatarUrl": "/assets/source-avatars/e2f1a0b77a000c272bbc.webp",
       "sourceInitials": "張筑",
       "sourceTags": [
         "演奏者",
@@ -2940,7 +2940,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2023-06-30 21:52",
       "latestUpdateSource": "MCU Harmonica",
       "latestUpdateUrl": "https://www.instagram.com/p/CuHc1PAJcXH/",
-      "avatarUrl": "/assets/source-avatars/0c0120f630a5394ee72f.jpg",
+      "avatarUrl": "/assets/source-avatars/0c0120f630a5394ee72f.webp",
       "sourceInitials": "銘傳",
       "sourceTags": [
         "大專社團",
@@ -2951,7 +2951,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "來源名稱與類別明確標示為學校社團，隸屬於銘傳大學，符合大專社團與學生社團定義，核心活動圍繞口琴。"
     },
     {
-      "id": "watchlist-89",
+      "id": "watchlist-90",
       "name": "韋笙堡口琴 Weissenberg Harmonicas",
       "nameEn": "Weissenberg Harmonicas",
       "category": "教學器材",
@@ -2986,7 +2986,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2021-08-05 10:32",
       "latestUpdateSource": "韋笙堡口琴 Weissenberg Harmonicas",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=tqdZUXNB9sM",
-      "avatarUrl": "/assets/source-avatars/58db0e9216902f6d080f.jpg",
+      "avatarUrl": "/assets/source-avatars/58db0e9216902f6d080f.webp",
       "sourceInitials": "WH",
       "sourceTags": [
         "品牌",
@@ -3029,7 +3029,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2020-12-15 21:04",
       "latestUpdateSource": "NKUST Harmonica",
       "latestUpdateUrl": "https://www.instagram.com/p/CI0aqT7D4R-/",
-      "avatarUrl": "/assets/source-avatars/0999598fd8d31f3031e4.jpg",
+      "avatarUrl": "/assets/source-avatars/0999598fd8d31f3031e4.webp",
       "sourceInitials": "高科",
       "sourceTags": [
         "口琴",
@@ -3072,7 +3072,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2019-07-29 14:14",
       "latestUpdateSource": "博凱愛樂口琴交響樂團",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=OvWa3lHbVTQ",
-      "avatarUrl": "/assets/source-avatars/1c6d0380494696711b5b.jpg",
+      "avatarUrl": "/assets/source-avatars/1c6d0380494696711b5b.webp",
       "sourceInitials": "博凱",
       "sourceTags": [
         "團體樂團",
@@ -3112,7 +3112,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2018-12-21 11:58",
       "latestUpdateSource": "頭殼口琴樂團",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=wTHoD1YEQ-I",
-      "avatarUrl": "/assets/source-avatars/b4b6f7704b3a6e6e68dc.jpg",
+      "avatarUrl": "/assets/source-avatars/b4b6f7704b3a6e6e68dc.webp",
       "sourceInitials": "頭殼",
       "sourceTags": [
         "團體樂團",
@@ -3123,7 +3123,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "根據名稱、類別欄位明確為「團體樂團」，且摘要提及「口琴重奏」與「演出團體」，符合團體與重奏標籤。"
     },
     {
-      "id": "watchlist-78",
+      "id": "watchlist-79",
       "name": "黃石樂器",
       "nameEn": "Yellowstone Music Shop",
       "category": "教學器材",
@@ -3158,7 +3158,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2017-07-15 15:44",
       "latestUpdateSource": "黃石樂器",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=WRpPx9qZWV8",
-      "avatarUrl": "/assets/source-avatars/9acb8ad2c8fc8a4d24c8.jpg",
+      "avatarUrl": "/assets/source-avatars/9acb8ad2c8fc8a4d24c8.webp",
       "sourceInitials": "黃石",
       "sourceTags": [
         "口琴",
@@ -3171,7 +3171,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "資料明確指出為樂器行/教學工作室，業務包含口琴專賣、教學、講座與課程，符合器材、教學、工作室與品牌標籤。"
     },
     {
-      "id": "watchlist-61",
+      "id": "watchlist-62",
       "name": "Fata Morgana 口琴四重奏",
       "nameEn": "Fata Morgana",
       "category": "團體樂團",
@@ -3202,7 +3202,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2016-12-20 03:33",
       "latestUpdateSource": "Fata Morgana 口琴四重奏",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=RFwNkLaqyYI",
-      "avatarUrl": "/assets/source-avatars/fafe18ba9c8f3e5d19ee.jpg",
+      "avatarUrl": "/assets/source-avatars/fafe18ba9c8f3e5d19ee.webp",
       "sourceInitials": "FM",
       "sourceTags": [
         "團體樂團",
@@ -3237,7 +3237,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/d001531041d8e6b77c77.jpg",
+      "avatarUrl": "/assets/source-avatars/d001531041d8e6b77c77.webp",
       "sourceInitials": "簧格",
       "sourceTags": [
         "團體樂團",
@@ -3281,7 +3281,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/4fa0480bb4f95de4bbf9.jpg",
+      "avatarUrl": "/assets/source-avatars/4fa0480bb4f95de4bbf9.webp",
       "sourceInitials": "D",
       "sourceTags": [
         "團體樂團",
@@ -3315,7 +3315,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/e7b6ff0e0fef53b03e3b.jpg",
+      "avatarUrl": "/assets/source-avatars/e7b6ff0e0fef53b03e3b.webp",
       "sourceInitials": "S",
       "sourceTags": [
         "團體樂團",
@@ -3351,7 +3351,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/2baae100fe6844e1cbbe.jpg",
+      "avatarUrl": "/assets/source-avatars/2baae100fe6844e1cbbe.webp",
       "sourceInitials": "口琴",
       "sourceTags": [
         "團體樂團",
@@ -3385,7 +3385,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/304ed213cf955de4f999.jpg",
+      "avatarUrl": "/assets/source-avatars/304ed213cf955de4f999.webp",
       "sourceInitials": "RHE",
       "sourceTags": [
         "口琴",
@@ -3394,7 +3394,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-90",
+      "id": "watchlist-91",
       "name": "高雄市兒童口琴樂團 / 高雄市口琴協會",
       "nameEn": "",
       "category": "團體樂團",
@@ -3421,7 +3421,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/cfece3dbbab4232034f3.jpg",
+      "avatarUrl": "/assets/source-avatars/cfece3dbbab4232034f3.webp",
       "sourceInitials": "高雄",
       "sourceTags": [
         "團體樂團",
@@ -3431,7 +3431,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "名稱與類別明確為兒童口琴樂團與協會，屬於團體樂團，且聚焦於兒童教育與地方推廣。"
     },
     {
-      "id": "watchlist-72",
+      "id": "watchlist-73",
       "name": "國家兩廳院",
       "nameEn": "",
       "category": "場館平台",
@@ -3466,7 +3466,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/5bc65ac17110519f1f15.jpg",
+      "avatarUrl": "/assets/source-avatars/5bc65ac17110519f1f15.webp",
       "sourceInitials": "國家",
       "sourceTags": [
         "場館",
@@ -3479,7 +3479,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "資料明確標示為「場館平台」與「場館」，並提供售票與活動資訊，符合場館與活動相關標籤定義。"
     },
     {
-      "id": "watchlist-70",
+      "id": "watchlist-71",
       "name": "國立陽明交通大學藝文中心",
       "nameEn": "",
       "category": "場館平台",
@@ -3514,7 +3514,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/313deb63fe56325ff3c5.jpg",
+      "avatarUrl": "/assets/source-avatars/313deb63fe56325ff3c5.webp",
       "sourceInitials": "國立",
       "sourceTags": [
         "場館",
@@ -3526,7 +3526,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "資料明確標示為「校內場館/藝文中心」，類別為「場館平台」，主要功能為藝文活動與演出場地，故優先標註場館相關標籤。"
     },
     {
-      "id": "watchlist-68",
+      "id": "watchlist-69",
       "name": "新竹市文化局",
       "nameEn": "",
       "category": "場館平台",
@@ -3557,7 +3557,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/b3f2593d164162ed5f81.jpg",
+      "avatarUrl": "/assets/source-avatars/b3f2593d164162ed5f81.webp",
       "sourceInitials": "新竹",
       "sourceTags": [
         "場館",
@@ -3568,7 +3568,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "名稱明確為文化局，欄位標示為場館平台，主要功能為場館資訊與藝文活動推廣。"
     },
     {
-      "id": "watchlist-69",
+      "id": "watchlist-70",
       "name": "新竹縣文化局",
       "nameEn": "",
       "category": "場館平台",
@@ -3603,7 +3603,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/5220f48fd06ed34f82bf.jpg",
+      "avatarUrl": "/assets/source-avatars/5220f48fd06ed34f82bf.webp",
       "sourceInitials": "新竹",
       "sourceTags": [
         "場館平台",
@@ -3614,7 +3614,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "名稱、類別與摘要均明確指出為官方場館平台，提供場地與活動資訊，屬文化局單位。"
     },
     {
-      "id": "watchlist-73",
+      "id": "watchlist-74",
       "name": "臺中國家歌劇院",
       "nameEn": "",
       "category": "場館平台",
@@ -3649,7 +3649,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/fa5d328edf89d19f9362.jpg",
+      "avatarUrl": "/assets/source-avatars/fa5d328edf89d19f9362.webp",
       "sourceInitials": "臺中",
       "sourceTags": [
         "場館平台",
@@ -3660,7 +3660,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "明確標註為「場館平台」與「場館」類型，專注於大型藝文活動與演出資訊發布，並包含售票功能。"
     },
     {
-      "id": "watchlist-71",
+      "id": "watchlist-72",
       "name": "衛武營國家藝術文化中心",
       "nameEn": "",
       "category": "場館平台",
@@ -3695,7 +3695,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/430d59b3421f7dda5036.jpg",
+      "avatarUrl": "/assets/source-avatars/430d59b3421f7dda5036.webp",
       "sourceInitials": "衛武",
       "sourceTags": [
         "場館",
@@ -3739,7 +3739,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/23ba8173993d252811f1.jpg",
+      "avatarUrl": "/assets/source-avatars/23ba8173993d252811f1.webp",
       "sourceInitials": "陽明",
       "sourceTags": [
         "口琴",
@@ -3749,7 +3749,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-64+club-20",
+      "id": "watchlist-65+club-20",
       "name": "雲林縣二崙國中藝才班口琴隊",
       "nameEn": "",
       "category": "學校社團",
@@ -3776,7 +3776,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/c95a0a9a44fbc7c0851f.jpg",
+      "avatarUrl": "/assets/source-avatars/c95a0a9a44fbc7c0851f.webp",
       "sourceInitials": "雲林",
       "sourceTags": [
         "學生社團",
@@ -3787,7 +3787,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "根據名稱、分類為學校社團，且聚焦國中藝才班口琴隊，故標學生社團與口琴相關標籤。"
     },
     {
-      "id": "watchlist-96",
+      "id": "watchlist-97",
       "name": "口袋琴房 Pocket Harmonic",
       "nameEn": "Pocket Harmonic",
       "category": "教學器材",
@@ -3822,7 +3822,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/336a419f1f5b465a37e2.jpg",
+      "avatarUrl": "/assets/source-avatars/336a419f1f5b465a37e2.webp",
       "sourceInitials": "PH",
       "sourceTags": [
         "口琴",
@@ -3835,7 +3835,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-75",
+      "id": "watchlist-76",
       "name": "東和樂器",
       "nameEn": "Tongho Musical Instrument Co., Ltd. / music4fun",
       "category": "教學器材",
@@ -3870,7 +3870,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/2a4523bd666849c27b31.jpg",
+      "avatarUrl": "/assets/source-avatars/2a4523bd666849c27b31.webp",
       "sourceInitials": "東和",
       "sourceTags": [
         "品牌",
@@ -3881,7 +3881,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "類別明確標示為「教學器材」，名稱為樂器行，提供樂器銷售與相關資訊，符合品牌與器材屬性。"
     },
     {
-      "id": "watchlist-86",
+      "id": "watchlist-87",
       "name": "狂響逗嘴鼓口琴樂坊",
       "nameEn": "Rhapsody Harmonica & Drum Studio",
       "category": "教學器材",
@@ -3908,7 +3908,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/946ad82a5099360a8d19.jpg",
+      "avatarUrl": "/assets/source-avatars/946ad82a5099360a8d19.webp",
       "sourceInitials": "狂響",
       "sourceTags": [
         "教學",
@@ -3919,7 +3919,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "名稱含「樂坊」，類別為教學器材，類型為教學工作室，主要活動是口琴與手鼓的教學、工作坊與講座。"
     },
     {
-      "id": "watchlist-74",
+      "id": "watchlist-75",
       "name": "雙燕樂器",
       "nameEn": "Musix Co., Ltd.",
       "category": "教學器材",
@@ -3950,7 +3950,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/8aee7cfbac001d68d0b8.jpg",
+      "avatarUrl": "/assets/source-avatars/8aee7cfbac001d68d0b8.webp",
       "sourceInitials": "雙燕",
       "sourceTags": [
         "器材",
@@ -3960,7 +3960,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "來源類別為教學器材，且有樂器行、品牌與產品連結，符合器材與品牌標籤。"
     },
     {
-      "id": "watchlist-83",
+      "id": "watchlist-84",
       "name": "An Afternoon with Harmonica",
       "nameEn": "An Afternoon with Harmonica",
       "category": "活動資訊",
@@ -3987,7 +3987,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/380fe8192408d52e5546.jpg",
+      "avatarUrl": "/assets/source-avatars/380fe8192408d52e5546.webp",
       "sourceInitials": "AAW",
       "sourceTags": [
         "活動資訊",
@@ -3999,7 +3999,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "來源類型為國際交流活動，focus在口琴沙龍與音樂會，並強調台灣演奏者參與。"
     },
     {
-      "id": "watchlist-77",
+      "id": "watchlist-78",
       "name": "From Harmonica to Music",
       "nameEn": "From Harmonica to Music",
       "category": "活動資訊",
@@ -4026,7 +4026,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/2eab39bb16fcf2e7be39.jpg",
+      "avatarUrl": "/assets/source-avatars/2eab39bb16fcf2e7be39.webp",
       "sourceInitials": "FHT",
       "sourceTags": [
         "活動資訊",
@@ -4039,7 +4039,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "來源類別為活動資訊，專注於半音階口琴沙龍音樂會與演出企劃，並透過售票平台與社群發佈資訊。"
     },
     {
-      "id": "watchlist-67",
+      "id": "watchlist-68",
       "name": "OPENTIX 口琴售票搜尋",
       "nameEn": "",
       "category": "活動資訊",
@@ -4066,7 +4066,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/f34605937fb8fd6cc7ba.jpg",
+      "avatarUrl": "/assets/source-avatars/f34605937fb8fd6cc7ba.webp",
       "sourceInitials": "O",
       "sourceTags": [
         "口琴",
@@ -4074,7 +4074,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-60",
+      "id": "watchlist-61",
       "name": "Dror Adler / Adler Trio",
       "nameEn": "Dror Adler / Adler Trio",
       "category": "演奏者",
@@ -4101,13 +4101,66 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/24c22a90ec3560042a25.jpg",
+      "avatarUrl": "/assets/source-avatars/24c22a90ec3560042a25.webp",
       "sourceInitials": "DAA",
       "sourceTags": [
         "口琴",
         "演奏者",
         "團體樂團",
         "重奏",
+        "國際交流"
+      ]
+    },
+    {
+      "id": "watchlist-54",
+      "name": "南里沙",
+      "nameEn": "Minami Risa",
+      "category": "演奏者",
+      "type": "個人",
+      "region": "日本/常來台",
+      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
+      "summary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
+      "status": "已查核",
+      "sourceStatus": "已查核公開連結",
+      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://minamirisa.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/minamirisa/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/minami_risa/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@minamirisa"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/minami_risa"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@minami_risa"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "南里",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "半音階",
         "國際交流"
       ]
     },
@@ -4143,7 +4196,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/c804072fc524a7020f78.jpg",
+      "avatarUrl": "/assets/source-avatars/c804072fc524a7020f78.webp",
       "sourceInitials": "吳詠",
       "sourceTags": [
         "演奏者",
@@ -4181,7 +4234,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/ce59f537b038844570e2.jpg",
+      "avatarUrl": "/assets/source-avatars/ce59f537b038844570e2.webp",
       "sourceInitials": "吳采",
       "sourceTags": [
         "演奏者",
@@ -4215,7 +4268,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/211b57df4d08779f1f6a.jpg",
+      "avatarUrl": "/assets/source-avatars/211b57df4d08779f1f6a.webp",
       "sourceInitials": "王心",
       "sourceTags": [
         "演奏者",
@@ -4252,7 +4305,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/d46fbb9d85a14ff41269.jpg",
+      "avatarUrl": "/assets/source-avatars/d46fbb9d85a14ff41269.webp",
       "sourceInitials": "陳奕",
       "sourceTags": [
         "演奏者",
@@ -4295,7 +4348,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/20f4be3eb6d87d7b412d.jpg",
+      "avatarUrl": "/assets/source-avatars/20f4be3eb6d87d7b412d.webp",
       "sourceInitials": "陳彥",
       "sourceTags": [
         "演奏者",
@@ -4331,7 +4384,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/cb29b0c5fb5db240169b.jpg",
+      "avatarUrl": "/assets/source-avatars/cb29b0c5fb5db240169b.webp",
       "sourceInitials": "陳聰",
       "sourceTags": [
         "口琴",
@@ -4370,7 +4423,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/a2ce8d59fe984c32b1d7.jpg",
+      "avatarUrl": "/assets/source-avatars/a2ce8d59fe984c32b1d7.webp",
       "sourceInitials": "黃冠",
       "sourceTags": [
         "演奏者",
@@ -4385,8 +4438,8 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 102,
-    "verifiedEntries": 76,
+    "totalEntries": 103,
+    "verifiedEntries": 77,
     "categories": {
       "其他來源": 2,
       "團體樂團": 19,
@@ -4394,30 +4447,30 @@ window.HARMONICA_OBSERVE_DATA = {
       "學校社團": 22,
       "教學器材": 12,
       "活動資訊": 5,
-      "演奏者": 36
+      "演奏者": 37
     },
     "statuses": {
-      "已查核": 76,
+      "已查核": 77,
       "部分查核": 26
     },
     "watchSources": {
-      "totalSources": 235,
-      "rsshubSources": 80,
-      "apifySources": 84,
-      "facebookSources": 84,
-      "youtubeSources": 71,
+      "totalSources": 239,
+      "rsshubSources": 82,
+      "apifySources": 85,
+      "facebookSources": 85,
+      "youtubeSources": 72,
       "platforms": {
-        "facebook": 84,
-        "instagram": 74,
+        "facebook": 85,
+        "instagram": 75,
         "threads": 2,
-        "x": 4,
-        "youtube": 71
+        "x": 5,
+        "youtube": 72
       },
       "types": {
-        "facebook_page_posts": 84,
-        "rss": 6,
-        "rsshub_instagram_profile": 74,
-        "youtube_ytdlp": 71
+        "facebook_page_posts": 85,
+        "rss": 7,
+        "rsshub_instagram_profile": 75,
+        "youtube_ytdlp": 72
       }
     }
   }

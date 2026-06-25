@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>抓資料狀態｜臺灣口琴觀測站</title>
+    <meta name="description" content="臺灣口琴觀測站資料抓取、RSSHub、Apify、YouTube 與公開 API 的最新健康狀態。">
+    <link rel="icon" href="/assets/favicon-20260623.svg?v=20260625-0046" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/styles.css?v=20260625-0046">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="臺灣口琴觀測站首頁">
+        <img class="brand-logo" src="/assets/logo.svg?v=20260625-0046" alt="臺灣口琴觀測站" width="200" height="47">
+      </a>
+      <nav class="site-nav" aria-label="主要導覽">
+        <a href="/#latest-feed">最新</a>
+        <details class="nav-menu">
+          <summary>河道</summary>
+          <div class="nav-menu-popover">
+            <a class="nav-feed-link" href="/#latest-feed" data-feed-category="all">全部公開更新</a>
+            <a class="nav-feed-link" href="/?feed=events#latest-feed" data-feed-category="events">實體活動</a>
+            <a class="nav-feed-link" href="/?feed=posts-videos#latest-feed" data-feed-category="posts-videos">貼文影片</a>
+            <a class="nav-feed-link" href="/?feed=student-clubs#latest-feed" data-feed-category="student-clubs">學生社團</a>
+            <a class="nav-feed-link" href="/?feed=opportunities#latest-feed" data-feed-category="opportunities">補助比賽</a>
+          </div>
+        </details>
+        <a href="/directory/">資料索引</a>
+        <a href="/feeds/">RSS</a>
+        <a href="/status/">狀態</a>
+        <a href="/submit/">資料回報</a>
+      </nav>
+    </header>
+
+    <main class="status-page-main">
+      <section class="feed-page-hero status-hero">
+        <div class="band-inner split-layout">
+          <div>
+            <p class="section-kicker">Status</p>
+            <h1>抓資料狀態</h1>
+          </div>
+          <div class="feed-page-summary status-summary-panel">
+            <div class="status-summary-line">
+              <span class="status-badge status-degraded">部分異常</span>
+              <strong>核心 pipeline 有產出；需要注意：X / Twitter RSS。 Facebook Apify 目前是預算節流狀態。</strong>
+            </div>
+            <p>快照時間 2026-06-25T12:56:26+08:00</p>
+            <div class="feed-links">
+              <a href="/api/status.json">Status JSON</a>
+              <a href="/api/latest.json">Latest API</a>
+              <a href="/feeds/updates.xml">更新 RSS</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="band status-overview-band" aria-labelledby="status-overview-title">
+        <div class="band-inner">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Snapshot</p>
+              <h2 id="status-overview-title">目前快照</h2>
+            </div>
+            <p class="data-date">資料時間 2026-06-25T12:56:26+08:00</p>
+          </div>
+          <div class="status-metric-grid">
+
+      <article class="status-metric-card">
+        <span>公開更新</span>
+        <strong>169</strong>
+        <p>最近 30 天</p>
+      </article>
+
+
+      <article class="status-metric-card">
+        <span>公開目錄</span>
+        <strong>102</strong>
+        <p>sources.json</p>
+      </article>
+
+
+      <article class="status-metric-card">
+        <span>監看來源</span>
+        <strong>235</strong>
+        <p>social_sources.json</p>
+      </article>
+
+
+      <article class="status-metric-card">
+        <span>目前錯誤</span>
+        <strong>4</strong>
+        <p>最新抓取批次</p>
+      </article>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="band status-component-band" aria-labelledby="status-components-title">
+        <div class="band-inner">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Collectors</p>
+              <h2 id="status-components-title">元件狀態</h2>
+            </div>
+            <p class="data-date">最新社群觀測 2026-06-25T00:13:01+08:00</p>
+          </div>
+          <div class="status-component-grid">
+
+      <article class="status-component-card status-card-ok">
+        <div class="status-component-head">
+          <h2>主排程與輸出</h2>
+          <span class="status-badge status-ok">正常</span>
+        </div>
+        <p>每日 pipeline 已產生公開資料快照。</p>
+        <ul class="status-detail-list"><li>最新公開資料：2026-06-25 12:56:26</li><li>pipeline.log 更新：2026-06-25 00:13:54</li><li>pipeline.err.log 更新：2026-06-24 01:57:49</li><li>LaunchAgent：not running，last exit 0</li></ul>
+      </article>
+
+
+      <article class="status-component-card status-card-ok">
+        <div class="status-component-head">
+          <h2>公開 API</h2>
+          <span class="status-badge status-ok">正常</span>
+        </div>
+        <p>latest.json 有 169 筆更新，sources.json 有 102 筆公開目錄。</p>
+        <ul class="status-detail-list"><li>更新視窗：30 天</li><li>watch sources：235</li></ul>
+      </article>
+
+
+      <article class="status-component-card status-card-ok">
+        <div class="status-component-head">
+          <h2>RSSHub 服務</h2>
+          <span class="status-badge status-ok">正常</span>
+        </div>
+        <p>本機 RSSHub 入口回 200。</p>
+        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：9 ms</li></ul>
+      </article>
+
+
+      <article class="status-component-card status-card-ok">
+        <div class="status-component-head">
+          <h2>Instagram RSSHub</h2>
+          <span class="status-badge status-ok">正常</span>
+        </div>
+        <p>74 個 Instagram 來源；最新抓取批次目前 0 個錯誤。</p>
+        <ul class="status-detail-list"><li>最新社群觀測：2026-06-25 00:13:01</li></ul>
+      </article>
+
+
+      <article class="status-component-card status-card-degraded">
+        <div class="status-component-head">
+          <h2>X / Twitter RSS</h2>
+          <span class="status-badge status-degraded">部分異常</span>
+        </div>
+        <p>4 個 X 來源；最新抓取批次目前 4 個錯誤。</p>
+        <ul class="status-detail-list"><li>目前 route 依 RSSHub 設定抓取。</li><li>若持續 503，通常要檢查 RSSHub 的 Twitter API 設定。</li></ul>
+      </article>
+
+
+      <article class="status-component-card status-card-paused">
+        <div class="status-component-head">
+          <h2>Facebook Apify</h2>
+          <span class="status-badge status-paused">節流中</span>
+        </div>
+        <p>84 個 Facebook 來源。 目前依預算 pacing 暫停開 run，等待 due 來源累積。</p>
+        <ul class="status-detail-list"><li>最近成功 run：2026-06-24 17:16:28</li><li>最近新增 inbox：5</li><li>due sources：5</li><li>selected this check：0</li><li>min sources per run：8</li><li>遠端月額度剩餘：$3.23</li><li>規劃單次預算：$0.16</li></ul>
+      </article>
+
+
+      <article class="status-component-card status-card-ok">
+        <div class="status-component-head">
+          <h2>YouTube yt-dlp</h2>
+          <span class="status-badge status-ok">正常</span>
+        </div>
+        <p>71 個 YouTube 來源；最近 run error_count=0。</p>
+        <ul class="status-detail-list"><li>最近完成：2026-06-25 00:00:12</li><li>最近新增 inbox：0</li></ul>
+      </article>
+
+
+      <article class="status-component-card status-card-ok">
+        <div class="status-component-head">
+          <h2>Threads / 其他 RSS</h2>
+          <span class="status-badge status-ok">正常</span>
+        </div>
+        <p>2 個 Threads 來源；其他 RSS 最新抓取批次目前 0 個錯誤。</p>
+        <ul class="status-detail-list"><li>RSS 類型來源：6</li></ul>
+      </article>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="band status-platform-band" aria-labelledby="status-platform-title">
+        <div class="band-inner split-layout">
+          <div>
+            <p class="section-kicker">Platforms</p>
+            <h2 id="status-platform-title">平台來源</h2>
+          </div>
+          <div class="status-table-wrap">
+            <table class="status-table">
+              <thead>
+                <tr>
+                  <th scope="col">平台</th>
+                  <th scope="col">來源數</th>
+                  <th scope="col">目前錯誤</th>
+                  <th scope="col">狀態</th>
+                </tr>
+              </thead>
+              <tbody>
+
+            <tr>
+              <th scope="row">facebook</th>
+              <td>84</td>
+              <td></td>
+              <td><span class="status-badge status-ok">正常</span></td>
+            </tr>
+
+
+            <tr>
+              <th scope="row">instagram</th>
+              <td>74</td>
+              <td></td>
+              <td><span class="status-badge status-ok">正常</span></td>
+            </tr>
+
+
+            <tr>
+              <th scope="row">threads</th>
+              <td>2</td>
+              <td></td>
+              <td><span class="status-badge status-ok">正常</span></td>
+            </tr>
+
+
+            <tr>
+              <th scope="row">x</th>
+              <td>4</td>
+              <td>4</td>
+              <td><span class="status-badge status-degraded">部分異常</span></td>
+            </tr>
+
+
+            <tr>
+              <th scope="row">youtube</th>
+              <td>71</td>
+              <td></td>
+              <td><span class="status-badge status-ok">正常</span></td>
+            </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="band status-errors-band" aria-labelledby="status-errors-title">
+        <div class="band-inner">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Latest Errors</p>
+              <h2 id="status-errors-title">最新錯誤</h2>
+            </div>
+            <p class="data-date">最多顯示 20 筆</p>
+          </div>
+          <div class="status-error-list">
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-25T00:13:01+08:00 · x</span>
+                <strong>Aiden N Evelyn / Aiden Soon &amp; Evelyn Choong</strong>
+              </div>
+              <p>HTTP Error 503: Service Unavailable</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-25T00:13:01+08:00 · x</span>
+                <strong>Duo Volce Music Studio 誼聲音樂室</strong>
+              </div>
+              <p>HTTP Error 503: Service Unavailable</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-25T00:13:01+08:00 · x</span>
+                <strong>山下伶 Rei Yamashita</strong>
+              </div>
+              <p>HTTP Error 503: Service Unavailable</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-25T00:13:01+08:00 · x</span>
+                <strong>李讓 Jang Li</strong>
+              </div>
+              <p>HTTP Error 503: Service Unavailable</p>
+            </article>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div class="footer-brand">
+          <span class="footer-title">臺灣口琴觀測站</span>
+          <p>公開口琴活動、社團、貼文影片與補助資訊索引。</p>
+        </div>
+        <nav class="footer-links" aria-label="頁尾導覽">
+          <a href="/directory/">資料索引</a>
+          <a href="/feeds/">RSS</a>
+          <a href="/status/">狀態</a>
+          <a href="/api/latest.json">API</a>
+          <a href="https://github.com/skyhong2002/Harmonica-in-Taiwan" target="_blank" rel="noreferrer">GitHub</a>
+        </nav>
+        <p class="footer-meta">只收錄公開可查資料 · 由 <a href="https://www.facebook.com/nycubmhc/" target="_blank" rel="noreferrer">陽明交大竹韻口琴社</a> 維運 · MIT License · © 2026 Sky Hong</p>
+      </div>
+    </footer>
+  </body>
+</html>

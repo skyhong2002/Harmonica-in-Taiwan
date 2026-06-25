@@ -90,6 +90,7 @@ def main() -> int:
     run([PYTHON, "scripts/backfill_public_source_pages.py", "--skip-fetch"])
     run([PYTHON, "scripts/build_public_data.py"])
     run([PYTHON, "scripts/generate_rss_feeds.py"])
+    run([PYTHON, "scripts/build_status_page.py"])
     run([PYTHON, "scripts/check_source_coverage.py"])
     return 0
 

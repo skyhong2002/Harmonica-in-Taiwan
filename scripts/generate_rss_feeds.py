@@ -10,6 +10,9 @@ import hashlib
 import html
 import json
 import re
+import shutil
+import subprocess
+import tempfile
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -36,6 +39,7 @@ PUBLIC_BASE_URL = "https://harmonica.observe.tw"
 ASSET_VERSION = "20260625-0046"
 HOME_FEED_BATCH_SIZE = 12
 DEFAULT_UPDATE_WINDOW_DAYS = 30
+WEBP_QUALITY = "82"
 BRAND_LOGO_HTML = f'<img class="brand-logo" src="/assets/logo.svg?v={ASSET_VERSION}" alt="臺灣口琴觀測站" width="200" height="47">'
 SUBMIT_LINK_HTML = '<a href="/submit/">資料回報</a>'
 NAV_FEED_MENU = """<details class="nav-menu">
@@ -57,6 +61,7 @@ FOOTER_HTML = """<footer class="site-footer">
         <nav class="footer-links" aria-label="頁尾導覽">
           <a href="/directory/">資料索引</a>
           <a href="/feeds/">RSS</a>
+          <a href="/status/">狀態</a>
           <a href="/api/latest.json">API</a>
           <a href="https://github.com/skyhong2002/Harmonica-in-Taiwan" target="_blank" rel="noreferrer">GitHub</a>
         </nav>
@@ -324,15 +329,102 @@ def image_extension(url: str, content_type: str) -> str:
     return ".jpg"
 
 
+def find_binary(name: str) -> str:
+    for candidate in (
+        shutil.which(name),
+        f"/opt/homebrew/bin/{name}",
+        f"/usr/local/bin/{name}",
+    ):
+        if candidate and Path(candidate).exists():
+            return candidate
+    return ""
+
+
+def webp_converter_for(ext: str) -> list[str]:
+    if ext == ".gif":
+        binary = find_binary("gif2webp")
+        return [binary, "-quiet", "-q", WEBP_QUALITY] if binary else []
+    binary = find_binary("cwebp")
+    return [binary, "-quiet", "-q", WEBP_QUALITY] if binary else []
+
+
+def convert_image_bytes_to_webp(data: bytes, ext: str, output_path: Path) -> bool:
+    command = webp_converter_for(ext)
+    if not command:
+        return False
+    try:
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            tmp_root = Path(tmp_dir)
+            input_path = tmp_root / f"input{ext}"
+            tmp_output = tmp_root / "output.webp"
+            input_path.write_bytes(data)
+            try:
+                subprocess.run(
+                    [*command, str(input_path), "-o", str(tmp_output)],
+                    check=True,
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL,
+                )
+            except subprocess.CalledProcessError:
+                ffmpeg = find_binary("ffmpeg")
+                if not ffmpeg:
+                    return False
+                png_path = tmp_root / "decoded.png"
+                subprocess.run(
+                    [
+                        ffmpeg,
+                        "-hide_banner",
+                        "-loglevel",
+                        "error",
+                        "-y",
+                        "-i",
+                        str(input_path),
+                        "-frames:v",
+                        "1",
+                        "-update",
+                        "1",
+                        str(png_path),
+                    ],
+                    check=True,
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL,
+                )
+                subprocess.run(
+                    [*webp_converter_for(".png"), str(png_path), "-o", str(tmp_output)],
+                    check=True,
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL,
+                )
+            output_path.write_bytes(tmp_output.read_bytes())
+    except (OSError, subprocess.CalledProcessError):
+        return False
+    return True
+
+
 def cache_remote_image(url: str, image_dir: Path, public_prefix: str, max_bytes: int = 5_000_000) -> str:
     if not url:
         return ""
     if url.startswith("/assets/"):
         return url
     digest = hashlib.sha256(url.encode("utf-8")).hexdigest()[:20]
+    webp_path = image_dir / f"{digest}.webp"
+    if webp_path.exists():
+        return f"{public_prefix}/{webp_path.name}"
     existing = sorted(image_dir.glob(f"{digest}.*"))
     if existing:
-        return f"{public_prefix}/{existing[0].name}"
+        existing_path = existing[0]
+        ext = existing_path.suffix.casefold() or ".jpg"
+        try:
+            data = existing_path.read_bytes()
+        except OSError:
+            data = b""
+        if data and convert_image_bytes_to_webp(data, ext, webp_path):
+            try:
+                existing_path.unlink()
+            except OSError:
+                pass
+            return f"{public_prefix}/{webp_path.name}"
+        return f"{public_prefix}/{existing_path.name}"
 
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "HarmonicaObserveImageCache/1.0"})
@@ -346,9 +438,13 @@ def cache_remote_image(url: str, image_dir: Path, public_prefix: str, max_bytes:
 
     image_dir.mkdir(parents=True, exist_ok=True)
     ext = image_extension(url, content_type)
-    path = image_dir / f"{digest}{ext}"
-    path.write_bytes(data)
-    return f"{public_prefix}/{path.name}"
+    path = image_dir / f"{digest}.webp"
+    if convert_image_bytes_to_webp(data, ext, path):
+        return f"{public_prefix}/{path.name}"
+
+    fallback = image_dir / f"{digest}{ext}"
+    fallback.write_bytes(data)
+    return f"{public_prefix}/{fallback.name}"
 
 
 def request_url(url: str) -> str:
@@ -887,7 +983,7 @@ def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
         cached_profile = SOURCE_PROFILE_BY_ID.setdefault(source_id, {})
         if not cached_profile.get("avatar_source_url") or not cached_profile.get("avatar_url"):
             cached_profile["avatar_source_url"] = avatar_source_url
-        if avatar_url and not cached_profile.get("avatar_url"):
+        if avatar_url and cached_profile.get("avatar_url") != avatar_url:
             cached_profile["avatar_url"] = avatar_url
     return {
         "title": title,
@@ -1435,6 +1531,7 @@ def render_feed_page(category: dict[str, str], items: list[dict[str, Any]]) -> s
         {NAV_FEED_MENU}
         <a href="/directory/">資料索引</a>
         <a href="/feeds/">RSS</a>
+        <a href="/status/">狀態</a>
         {SUBMIT_LINK_HTML}
       </nav>
     </header>
@@ -1505,6 +1602,7 @@ def render_feed_index(categorized: dict[str, list[dict[str, Any]]]) -> str:
         {NAV_FEED_MENU}
         <a href="/directory/">資料索引</a>
         <a href="/feeds/">RSS</a>
+        <a href="/status/">狀態</a>
         {SUBMIT_LINK_HTML}
       </nav>
     </header>

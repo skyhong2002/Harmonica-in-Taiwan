@@ -1378,6 +1378,223 @@ h2 {
   cursor: pointer;
 }
 
+.status-hero,
+.status-overview-band,
+.status-platform-band {
+  background: #f8faf8;
+}
+
+.status-summary-panel {
+  display: grid;
+  gap: 14px;
+}
+
+.status-summary-line {
+  display: grid;
+  gap: 10px;
+  align-items: start;
+}
+
+.status-summary-line strong {
+  font-size: 1.12rem;
+  line-height: 1.45;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-height: 28px;
+  padding: 3px 9px;
+  color: #35503f;
+  font-size: 0.82rem;
+  font-weight: 900;
+  background: #e7f0e9;
+  border: 1px solid #ccddd1;
+  border-radius: var(--radius);
+}
+
+.status-ok {
+  color: #075d56;
+  background: #dff4ef;
+  border-color: #b9ded7;
+}
+
+.status-paused,
+.status-unknown {
+  color: #75500a;
+  background: #f7ead2;
+  border-color: #ead4ad;
+}
+
+.status-degraded,
+.status-down {
+  color: #8d432f;
+  background: #f7dfd8;
+  border-color: #e8c3b8;
+}
+
+.status-metric-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.status-metric-card {
+  display: grid;
+  gap: 5px;
+  min-height: 132px;
+  padding: 18px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 10px 26px rgba(23, 33, 29, 0.06);
+}
+
+.status-metric-card span,
+.status-detail-list,
+.status-error-item p {
+  color: var(--muted);
+}
+
+.status-metric-card span {
+  font-weight: 900;
+}
+
+.status-metric-card strong {
+  font-size: 2rem;
+  line-height: 1.05;
+}
+
+.status-metric-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 800;
+}
+
+.status-component-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.status-component-card {
+  display: grid;
+  gap: 12px;
+  align-content: start;
+  min-height: 210px;
+  padding: 18px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-top: 5px solid #b9ded7;
+  border-radius: var(--radius);
+  box-shadow: 0 10px 26px rgba(23, 33, 29, 0.06);
+}
+
+.status-card-paused,
+.status-card-unknown {
+  border-top-color: #d8b56f;
+}
+
+.status-card-degraded,
+.status-card-down {
+  border-top-color: var(--coral);
+}
+
+.status-component-head {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.status-component-head h2 {
+  margin: 0;
+  font-size: 1.08rem;
+  line-height: 1.35;
+}
+
+.status-component-card p {
+  margin: 0;
+  color: var(--ink);
+  font-weight: 750;
+}
+
+.status-detail-list {
+  display: grid;
+  gap: 5px;
+  margin: 0;
+  padding-left: 18px;
+  font-size: 0.9rem;
+}
+
+.status-table-wrap {
+  overflow-x: auto;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.status-table {
+  width: 100%;
+  min-width: 520px;
+  border-collapse: collapse;
+}
+
+.status-table th,
+.status-table td {
+  padding: 13px 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+}
+
+.status-table thead th {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.status-table tbody tr:last-child th,
+.status-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.status-table tbody th {
+  color: var(--ink);
+  font-weight: 900;
+}
+
+.status-error-list {
+  display: grid;
+  gap: 10px;
+}
+
+.status-error-item {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.36fr) minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+  padding: 16px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.status-error-item strong {
+  display: block;
+  margin-top: 2px;
+  overflow-wrap: anywhere;
+}
+
+.status-error-item p {
+  margin: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
 .feed-links {
   display: flex;
   flex-wrap: wrap;
@@ -1678,9 +1895,15 @@ h2 {
   .spotlight-grid,
   .directory-grid,
   .report-type-grid,
+  .status-metric-grid,
   .feed-card-grid,
   .feed-category-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .status-component-grid,
+  .status-error-item {
+    grid-template-columns: 1fr;
   }
 
   .feed-filter-chips {
@@ -1785,6 +2008,8 @@ h2 {
   .spotlight-grid,
   .directory-grid,
   .report-type-grid,
+  .status-metric-grid,
+  .status-component-grid,
   .feed-card-grid,
   .feed-category-grid {
     grid-template-columns: 1fr;
