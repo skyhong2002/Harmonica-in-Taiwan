@@ -178,7 +178,7 @@ textarea {
   position: relative;
   min-height: 620px;
   isolation: isolate;
-  background-image: url("hero-harmonica-observe.png");
+  background-image: url("hero-harmonica-observe.webp");
   background-position: center;
   background-size: cover;
 }
