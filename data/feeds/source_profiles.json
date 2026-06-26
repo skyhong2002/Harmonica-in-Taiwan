@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T18:56:04.125222+00:00",
+  "updatedAt": "2026-06-26T20:25:41.098900+00:00",
   "profiles": {
     "ig_ntnu_harmonica": {
       "id": "ig_ntnu_harmonica",
@@ -2060,6 +2060,58 @@
       "title": "Brendan Power",
       "description": "Brendan Power 。 7,423 個讚 · 4 人正在談論這個。 Pro Harmonica Player/Inventor/Maker WEBSITE: http://www.brendan-power.com\nYOUTUBE: @brendanpowermusic",
       "avatar_url": "/assets/source-avatars/c84da1a11d2e3077b55e.webp"
+    },
+    "yt_264659d9b6": {
+      "id": "yt_264659d9b6",
+      "name": "Takamoto Mizuno",
+      "account": "https://youtube.com/@%E9%A2%A8%E3%81%9D%E3%82%88%E3%81%90%E4%B8%98%E3%81%AE%E4%B8%8A%E3%81%AE%E8%A4%87%E9%9F%B3%E3%83%8F%E3%83%BC%E3%83%A2%E3%83%8B%E3%82%AB",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCXC4_maIf4onPIr_ySIdycw",
+      "avatar_source_url": "https://yt3.googleusercontent.com/OQovMQKuyRFT5SpHkD2b8RDrxffkFo5mz2n2fZm4VOEDg7oHKZOWYqU95ZgrRggNWtkEclo7EQ=s900-c-k-c0x00ffffff-no-rj",
+      "title": "風そよぐ、丘の上の複音ハーモニカスクール",
+      "description": "複音ハーモニカ演奏の為のティップス、複音ハーモニカに関係した活動のログなどを扱っております。",
+      "avatar_url": "/assets/source-avatars/d1ba49b889491510d078.webp"
+    },
+    "fb_themagicharmonica": {
+      "id": "fb_themagicharmonica",
+      "name": "The Magic Harmonica Ensemble",
+      "account": "TheMagicHarmonica",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/TheMagicHarmonica",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/457017448_813884917563519_809038067415746232_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2013&ctp=s720x720&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=4QYdQUW3Te4Q7kNvwERH4w_&_nc_oc=AdqSXWr2I9pl6gwsEjH5zcaicEJTuAdVg4mTRQqUDOeIIrC3MlxXSfnxV0Es9RXCsjw&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=jFwNWWyJY8BMG7IBeAcsqQ&_nc_ss=7020f&oh=00_Af9EC_OXWGkFXWUp5AuGDRKCjzR6CzJZdeM8e1lPX8GWGg&oe=6A44A443",
+      "title": "The Magic Harmonica Ensemble 魔幻之声口琴乐团",
+      "description": "The Magic Harmonica Ensemble 魔幻之声口琴乐团。 357 個讚。不定期更新乐团动态及活动信息等",
+      "avatar_url": "/assets/source-avatars/ce651b2029faf97d8985.webp"
+    },
+    "web_takamoto_mizuno": {
+      "id": "web_takamoto_mizuno",
+      "name": "Takamoto Mizuno",
+      "platform": "website",
+      "profile_url": "https://www.tombo-m.co.jp/tombofes/2025/official_artist/mizuno_takamoto.html",
+      "avatar_source_url": "https://www.tombo-m.co.jp/img/ogp/fes2025/mizuno_takamoto.png",
+      "title": "水野隆元 Takamoto Mizuno 公式アーティストブース | TOMBO祭",
+      "description": "『TOMBO祭』は『トンボタウン』というバーチャル空間を舞台にした、ハーモニカとアコーディオンのオンラインイベントです。\n2025年9月27日に開幕し、11月24日まで続きます。",
+      "avatar_url": "/assets/source-avatars/3e427d5ef05e8f1d46ca.webp"
+    },
+    "web_korea_harmonica_orchestra": {
+      "id": "web_korea_harmonica_orchestra",
+      "name": "Korea Harmonica Orchestra",
+      "platform": "website",
+      "profile_url": "https://koreaharmonica.kr/",
+      "avatar_source_url": "https://www.koreaharmonica.kr/images/logo.svg",
+      "title": "한국하모니카교육협회",
+      "description": "한국하모니카교육협회는 하모니카 음악의 대중화를 위한 교육과 연주활동을 하고 있는, 국내최고의 위상과 실력을 지닌 단체로서 문화체육관광부에 등록된 비영리 민간단체입니다.",
+      "avatar_url": "/assets/source-avatars/a3563ca27a3e019963d8.jpg"
+    },
+    "web_magic_harmonica_ensemble": {
+      "id": "web_magic_harmonica_ensemble",
+      "name": "The Magic Harmonica Ensemble",
+      "platform": "website",
+      "profile_url": "https://seelectronics.com/artists/the-magic-harmonica-ensemble/",
+      "avatar_source_url": "https://seelectronics.com/wp-content/uploads/2021/12/The-Magic-Harmonica-Ensemble-1.jpg",
+      "title": "THE MAGIC HARMONICA ENSEMBLE - sE Electronics",
+      "description": "Discover sE Artists: the musicians, studios, producers, and engineers who love sE gear and use it every day on stage and in the studio.",
+      "avatar_url": "/assets/source-avatars/9460c70b2dc3a4d620b9.webp"
     }
   }
 }

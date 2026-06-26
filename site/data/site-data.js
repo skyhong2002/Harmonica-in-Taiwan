@@ -5779,6 +5779,14 @@ window.HARMONICA_OBSERVE_DATA = {
       "keywords": "Ausgelassen Wesley Wong 黃志榮 harmonica SIHF",
       "links": [
         {
+          "label": "網站",
+          "url": "https://www.ausgelassen.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/ausgelassen.art.academy/"
+        },
+        {
           "label": "YouTube",
           "url": "https://www.youtube.com/@Ausgelassen"
         }
@@ -5798,6 +5806,15 @@ window.HARMONICA_OBSERVE_DATA = {
         "國際交流"
       ],
       "monitorSources": [
+        {
+          "id": "fb_ausgelassen_art_academy",
+          "name": "Ausgelassen x Wesley Wong",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/ausgelassen.art.academy",
+          "feedUrl": ""
+        },
         {
           "id": "yt_ausgelassen",
           "name": "Ausgelassen x Wesley Wong",
@@ -5956,6 +5973,204 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-121",
+      "name": "Korea Harmonica Orchestra",
+      "nameEn": "Korea Harmonica Orchestra",
+      "category": "團體樂團",
+      "type": "團體",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "韓國口琴合奏/大型合奏/教育交流",
+      "structuredSummary": "韓國口琴合奏/大型合奏/教育交流 / 口琴合奏 / 國際演出團體",
+      "summary": "韓國的口琴合奏國際演出團體，活動脈絡包含韓國口琴合奏、大型合奏與教育交流。",
+      "keywords": "Korea Harmonica Orchestra KHO harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://koreaharmonica.kr/orchestra"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/a3563ca27a3e019963d8.jpg",
+      "sourceInitials": "KHO",
+      "sourceTags": [
+        "口琴",
+        "團體樂團",
+        "國際交流"
+      ]
+    },
+    {
+      "id": "watchlist-144",
+      "name": "Liam Ward & Malcolm Thorne",
+      "nameEn": "Liam Ward & Malcolm Thorne",
+      "category": "團體樂團",
+      "type": "團體/合作企劃",
+      "country": "英國",
+      "region": "英國",
+      "cityOrFocus": "WHF 2025/藍調口琴/吉他合作/教學",
+      "structuredSummary": "WHF 2025/藍調口琴/吉他合作/教學 / 十孔/藍調口琴/吉他 / 國際演出團體/教育者",
+      "summary": "英國的十孔、藍調口琴與吉他國際演出團體與教育者，活動脈絡包含WHF 2025、吉他合作與教學。",
+      "keywords": "Liam Ward Malcolm Thorne LearnTheHarmonica harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://learntheharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/learntheharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/learntheharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@learntheharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "LWM",
+      "sourceTags": [
+        "口琴",
+        "團體樂團",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_learntheharmonica",
+          "name": "Liam Ward & Malcolm Thorne",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/learntheharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_learntheharmonica",
+          "name": "Liam Ward & Malcolm Thorne",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "learntheharmonica",
+          "profileUrl": "https://www.instagram.com/learntheharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_learntheharmonica",
+          "name": "Liam Ward & Malcolm Thorne",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "learntheharmonica",
+          "profileUrl": "https://www.instagram.com/learntheharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/learntheharmonica/story/0"
+        },
+        {
+          "id": "yt_learntheharmonica",
+          "name": "Liam Ward & Malcolm Thorne",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@learntheharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-149",
+      "name": "Orchestra Hohnerklang",
+      "nameEn": "Orchester Hohnerklang",
+      "category": "團體樂團",
+      "type": "團體",
+      "country": "德國",
+      "region": "德國/特羅辛根",
+      "cityOrFocus": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏",
+      "structuredSummary": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏 / 口琴合奏 / 國際演出團體",
+      "summary": "德國的口琴合奏國際演出團體，活動脈絡包含WHF 2025開幕、HOHNER orchestral harmonica tradition與大型合奏。",
+      "keywords": "Orchester Hohnerklang Orchestra Hohnerklang harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hohnerklang.de/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hohnerklang"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hohnerklang"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/hohnerklang"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "OH",
+      "sourceTags": [
+        "口琴",
+        "團體樂團",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hohnerklang",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hohnerklang",
+          "profileUrl": "https://www.instagram.com/hohnerklang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hohnerklang",
+          "profileUrl": "https://www.instagram.com/hohnerklang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerklang/story/0"
+        },
+        {
+          "id": "yt_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/hohnerklang",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-117",
       "name": "Perfect Fourth",
       "nameEn": "Perfect Fourth",
@@ -5968,6 +6183,18 @@ window.HARMONICA_OBSERVE_DATA = {
       "summary": "香港的口琴重奏國際演出團體，活動脈絡包含香港現代風格口琴四重奏、傳統與現代和聲與舞台演出。",
       "keywords": "Perfect Fourth Harmonica Quartet Hong Kong SIHF",
       "links": [
+        {
+          "label": "網站",
+          "url": "https://www.perfectfourth.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/perfectfourth.org/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/perfect.fourth/"
+        },
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/@PerfectFourth"
@@ -5989,6 +6216,33 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "monitorSources": [
         {
+          "id": "fb_perfectfourth_org",
+          "name": "Perfect Fourth",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/perfectfourth.org",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_perfect_fourth",
+          "name": "Perfect Fourth",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "perfect.fourth",
+          "profileUrl": "https://www.instagram.com/perfect.fourth/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_perfect_fourth",
+          "name": "Perfect Fourth",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "perfect.fourth",
+          "profileUrl": "https://www.instagram.com/perfect.fourth/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/perfect.fourth/story/0"
+        },
+        {
           "id": "yt_perfectfourth",
           "name": "Perfect Fourth",
           "platform": "youtube",
@@ -5996,6 +6250,124 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@PerfectFourth",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-150",
+      "name": "Ptaszek & Buzma",
+      "nameEn": "Ptaszek & Buzma",
+      "category": "團體樂團",
+      "type": "團體/合作企劃",
+      "country": "捷克",
+      "region": "捷克",
+      "cityOrFocus": "WHF 2025開幕/Blues and Gospel/口琴與吉他",
+      "structuredSummary": "WHF 2025開幕/Blues and Gospel/口琴與吉他 / 十孔/藍調口琴/吉他/人聲 / 國際演出團體",
+      "summary": "捷克的十孔、藍調口琴、吉他與人聲國際演出團體，活動脈絡包含WHF 2025開幕、Blues與Gospel。",
+      "keywords": "Ptaszek Buzma Ptaszek Bužma Blues And Gospel harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://worldharmonicafestival.de/artist-profile-ptaszek-and-buzma/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/100075740116023/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "PB",
+      "sourceTags": [
+        "口琴",
+        "團體樂團",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_100075740116023",
+          "name": "Ptaszek & Buzma",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/100075740116023",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-146",
+      "name": "Rachelle Plas & Philippe Hervouet",
+      "nameEn": "Rachelle Plas & Philippe Hervouet",
+      "category": "團體樂團",
+      "type": "團體/合作企劃",
+      "country": "法國",
+      "region": "法國",
+      "cityOrFocus": "WHF 2025/藍調口琴/吉他與歌唱/Golden Melody ambassador",
+      "structuredSummary": "WHF 2025/藍調口琴/吉他與歌唱/Golden Melody ambassador / 十孔/藍調口琴/吉他/人聲 / 國際演出團體",
+      "summary": "法國的十孔、藍調口琴、吉他與人聲國際演出團體，活動脈絡包含WHF 2025、吉他與歌唱與Golden Melody ambassador。",
+      "keywords": "Rachelle Plas Philippe Hervouet Plas Hervouet Band harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "http://www.plashervouetband.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/plashervouetband/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/plashervouetband/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "RPP",
+      "sourceTags": [
+        "口琴",
+        "團體樂團",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_plashervouetband",
+          "name": "Rachelle Plas & Philippe Hervouet",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/plashervouetband",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_plashervouetband",
+          "name": "Rachelle Plas & Philippe Hervouet",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "plashervouetband",
+          "profileUrl": "https://www.instagram.com/plashervouetband/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_plashervouetband",
+          "name": "Rachelle Plas & Philippe Hervouet",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "plashervouetband",
+          "profileUrl": "https://www.instagram.com/plashervouetband/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/plashervouetband/story/0"
         }
       ]
     },
@@ -6012,6 +6384,14 @@ window.HARMONICA_OBSERVE_DATA = {
       "summary": "印尼的口琴與跨界國際演出團體，活動脈絡包含Reyharp Naufal與Balawan合作、跨界融合與口琴與吉他。",
       "keywords": "Reyharp Balawan Project Reyharp Naufal harmonica SIHF",
       "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/reyharp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/reyharpnaufal/"
+        },
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/@reyharpnaufal5101"
@@ -6031,6 +6411,33 @@ window.HARMONICA_OBSERVE_DATA = {
         "國際交流"
       ],
       "monitorSources": [
+        {
+          "id": "fb_reyharp",
+          "name": "Reyharp and Balawan Project",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/reyharp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_reyharpnaufal",
+          "name": "Reyharp and Balawan Project",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "reyharpnaufal",
+          "profileUrl": "https://www.instagram.com/reyharpnaufal/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_reyharpnaufal",
+          "name": "Reyharp and Balawan Project",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "reyharpnaufal",
+          "profileUrl": "https://www.instagram.com/reyharpnaufal/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/reyharpnaufal/story/0"
+        },
         {
           "id": "yt_reyharpnaufal5101",
           "name": "Reyharp and Balawan Project",
@@ -6085,6 +6492,88 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/people/Spotlight-Harmonica-Ensemble/100070066273672",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-147",
+      "name": "The LiveWires",
+      "nameEn": "The LiveWires",
+      "category": "團體樂團",
+      "type": "團體",
+      "country": "國際",
+      "region": "德國/英國",
+      "cityOrFocus": "WHF 2025/藍調樂團/Steve Baker合作",
+      "structuredSummary": "WHF 2025/藍調樂團/Steve Baker合作 / 十孔/藍調口琴/吉他/樂團 / 國際演出團體",
+      "summary": "國際的十孔、藍調口琴、吉他與樂團國際演出團體，活動脈絡包含WHF 2025、藍調樂團與Steve Baker合作。",
+      "keywords": "The LiveWires Steve Baker Jan Mohr Jeff Walker harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.stevebaker.de/steve_baker_the_livewires_en_641.html"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "TL",
+      "sourceTags": [
+        "口琴",
+        "團體樂團",
+        "十孔",
+        "國際交流"
+      ]
+    },
+    {
+      "id": "watchlist-115",
+      "name": "The Magic Harmonica Ensemble",
+      "nameEn": "The Magic Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "country": "中國",
+      "region": "中國",
+      "cityOrFocus": "中國魔幻之聲口琴樂團/2012成立/亞太與華夏口琴節得獎/舞台與教學",
+      "structuredSummary": "中國魔幻之聲口琴樂團/2012成立/亞太與華夏口琴節得獎/舞台與教學 / 口琴重奏 / 國際演出團體",
+      "summary": "中國的口琴重奏國際演出團體，活動脈絡包含中國魔幻之聲口琴樂團、2012成立與亞太與華夏口琴節得獎。",
+      "keywords": "The Magic Harmonica Ensemble 魔幻之声口琴乐团 harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://seelectronics.com/artists/the-magic-harmonica-ensemble/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TheMagicHarmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/ce651b2029faf97d8985.webp",
+      "sourceInitials": "TMH",
+      "sourceTags": [
+        "口琴",
+        "團體樂團",
+        "教學",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_themagicharmonica",
+          "name": "The Magic Harmonica Ensemble",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/TheMagicHarmonica",
           "feedUrl": ""
         }
       ]
@@ -7441,6 +7930,76 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-141",
+      "name": "World Harmonica Festival",
+      "nameEn": "World Harmonica Festival",
+      "category": "活動資訊",
+      "type": "國際活動/資訊入口",
+      "country": "德國",
+      "region": "德國/特羅辛根",
+      "cityOrFocus": "四年一度世界口琴節/國際比賽/Gala/工作坊",
+      "structuredSummary": "四年一度世界口琴節/國際比賽/Gala/工作坊 / 口琴 / 國際活動來源",
+      "summary": "德國的國際活動來源，涵蓋四年一度世界口琴節、國際比賽、Gala與工作坊。",
+      "keywords": "World Harmonica Festival WHF Trossingen Hohner harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://worldharmonicafestival.de/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/WorldHarmonicaFestival/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/whf_world_harmonica_festival/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "WHF",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "比賽",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_worldharmonicafestival",
+          "name": "World Harmonica Festival",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/WorldHarmonicaFestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_whf_world_harmonica_festival",
+          "name": "World Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "whf_world_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/whf_world_harmonica_festival/story/0"
+        },
+        {
+          "id": "ig_whf_world_harmonica_festival",
+          "name": "World Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "whf_world_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-127",
       "name": "Antonio Serrano",
       "nameEn": "Antonio Serrano",
@@ -7448,18 +8007,26 @@ window.HARMONICA_OBSERVE_DATA = {
       "type": "個人",
       "country": "西班牙",
       "region": "西班牙",
-      "cityOrFocus": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作",
-      "structuredSummary": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作 / 半音階/十孔 / 國際演出人員",
+      "cityOrFocus": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025",
+      "structuredSummary": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025 / 半音階/十孔 / 國際演出人員",
       "summary": "西班牙的半音階與十孔國際演出人員，活動脈絡包含馬德里出生、古典藍調爵士流行與與Paco de Lucia合作。",
-      "keywords": "Antonio Serrano harmonica SIHF",
+      "keywords": "Antonio Serrano harmonica SIHF WHF 2025",
       "links": [
         {
           "label": "網站",
           "url": "https://www.hohner.de/en/antonio-serrano"
         },
         {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/antonioserranoarmonica/"
+        },
+        {
           "label": "Instagram",
           "url": "https://www.instagram.com/antonioserranoarmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@antonioserranoofficial"
         }
       ],
       "source": "watchlist",
@@ -7479,6 +8046,15 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "monitorSources": [
         {
+          "id": "fb_antonioserranoarmonica",
+          "name": "Antonio Serrano",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/antonioserranoarmonica",
+          "feedUrl": ""
+        },
+        {
           "id": "ig_antonioserranoarmonica",
           "name": "Antonio Serrano",
           "platform": "instagram",
@@ -7495,6 +8071,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "antonioserranoarmonica",
           "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/antonioserranoarmonica/story/0"
+        },
+        {
+          "id": "yt_antonioserranoofficial",
+          "name": "Antonio Serrano",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@antonioserranoofficial",
+          "feedUrl": ""
         }
       ]
     },
@@ -7643,6 +8228,90 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/BrendanPowerMusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-153",
+      "name": "Deak Harp",
+      "nameEn": "Deak Harp",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "美國",
+      "region": "美國",
+      "cityOrFocus": "WHF 2025/藍調十孔/Chicago blues/演出與教學",
+      "structuredSummary": "WHF 2025/藍調十孔/Chicago blues/演出與教學 / 十孔/藍調口琴 / 國際演出人員",
+      "summary": "美國的十孔與藍調口琴國際演出人員，活動脈絡包含WHF 2025、藍調十孔與Chicago blues。",
+      "keywords": "Deak Harp blues harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://deakharp.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/deak.harp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/deakharp/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@deakharp"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "DH",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_deak_harp",
+          "name": "Deak Harp",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/deak.harp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_deakharp",
+          "name": "Deak Harp",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "deakharp",
+          "profileUrl": "https://www.instagram.com/deakharp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_deakharp",
+          "name": "Deak Harp",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "deakharp",
+          "profileUrl": "https://www.instagram.com/deakharp/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/deakharp/story/0"
+        },
+        {
+          "id": "yt_deakharp",
+          "name": "Deak Harp",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@deakharp",
           "feedUrl": ""
         }
       ]
@@ -7816,7 +8485,7 @@ window.HARMONICA_OBSERVE_DATA = {
         },
         {
           "label": "YouTube",
-          "url": "https://www.youtube.com/@FilipJers"
+          "url": "https://www.youtube.com/@filipjersmusic"
         }
       ],
       "source": "watchlist",
@@ -7863,12 +8532,12 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": "https://rss.observe.tw/picuki/profile/filipjersharmonica/story/0"
         },
         {
-          "id": "yt_filipjers",
+          "id": "yt_filipjersmusic",
           "name": "Filip Jers",
           "platform": "youtube",
           "type": "youtube_ytdlp",
           "username": "",
-          "profileUrl": "https://youtube.com/@FilipJers",
+          "profileUrl": "https://youtube.com/@filipjersmusic",
           "feedUrl": ""
         }
       ]
@@ -7953,6 +8622,77 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@GregoireMaret",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-143",
+      "name": "Hank Shreve",
+      "nameEn": "Hank Shreve",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "美國",
+      "region": "美國",
+      "cityOrFocus": "WHF 2025/藍調口琴/高能量原創藍調樂團",
+      "structuredSummary": "WHF 2025/藍調口琴/高能量原創藍調樂團 / 十孔/藍調口琴 / 國際演出人員",
+      "summary": "美國的十孔與藍調口琴國際演出人員，活動脈絡包含WHF 2025與高能量原創藍調樂團。",
+      "keywords": "Hank Shreve Hank Shreve Band harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hankshreveband.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HankShreveBand/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hankshrevemusic/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "HS",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "團體樂團",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hankshreveband",
+          "name": "Hank Shreve",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HankShreveBand",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hankshrevemusic",
+          "name": "Hank Shreve",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hankshrevemusic",
+          "profileUrl": "https://www.instagram.com/hankshrevemusic/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hankshrevemusic",
+          "name": "Hank Shreve",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hankshrevemusic",
+          "profileUrl": "https://www.instagram.com/hankshrevemusic/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hankshrevemusic/story/0"
         }
       ]
     },
@@ -8137,8 +8877,12 @@ window.HARMONICA_OBSERVE_DATA = {
       "keywords": "Jens Bunge jazz harmonica SIHF",
       "links": [
         {
+          "label": "網站",
+          "url": "https://hohner.de/en/jens-bunge"
+        },
+        {
           "label": "Instagram",
-          "url": "https://www.instagram.com/jens.bunge/"
+          "url": "https://www.instagram.com/jensbunge.jazzharmonica/"
         },
         {
           "label": "YouTube",
@@ -8161,22 +8905,22 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "monitorSources": [
         {
-          "id": "ig_jens_bunge",
+          "id": "ig_jensbunge_jazzharmonica",
           "name": "Jens Bunge",
           "platform": "instagram",
           "type": "rsshub_instagram_profile",
-          "username": "jens.bunge",
-          "profileUrl": "https://www.instagram.com/jens.bunge/",
+          "username": "jensbunge.jazzharmonica",
+          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
           "feedUrl": ""
         },
         {
-          "id": "ig_story_jens_bunge",
+          "id": "ig_story_jensbunge_jazzharmonica",
           "name": "Jens Bunge",
           "platform": "instagram",
           "type": "rsshub_instagram_story",
-          "username": "jens.bunge",
-          "profileUrl": "https://www.instagram.com/jens.bunge/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jens.bunge/story/0"
+          "username": "jensbunge.jazzharmonica",
+          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/jensbunge.jazzharmonica/story/0"
         },
         {
           "id": "yt_jensbunge",
@@ -8258,8 +9002,16 @@ window.HARMONICA_OBSERVE_DATA = {
       "cityOrFocus": "馬來西亞世界冠軍口琴家/多樂器藝人/流行跨界演出",
       "structuredSummary": "馬來西亞世界冠軍口琴家/多樂器藝人/流行跨界演出 / 口琴/多樂器 / 國際演出人員",
       "summary": "馬來西亞的口琴與多樂器國際演出人員，活動脈絡包含馬來西亞世界冠軍口琴家、多樂器藝人與流行跨界演出。",
-      "keywords": "Kif Valentine harmonica SIHF",
+      "keywords": "Kif Valentine 陈军凯 harmonica SIHF",
       "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kif768/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kif768/"
+        },
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/@kif768"
@@ -8279,6 +9031,33 @@ window.HARMONICA_OBSERVE_DATA = {
         "國際交流"
       ],
       "monitorSources": [
+        {
+          "id": "fb_kif768",
+          "name": "Kif Valentine",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/kif768",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_kif768",
+          "name": "Kif Valentine",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "kif768",
+          "profileUrl": "https://www.instagram.com/kif768/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_kif768",
+          "name": "Kif Valentine",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "kif768",
+          "profileUrl": "https://www.instagram.com/kif768/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/kif768/story/0"
+        },
         {
           "id": "yt_kif768",
           "name": "Kif Valentine",
@@ -8448,14 +9227,18 @@ window.HARMONICA_OBSERVE_DATA = {
       "type": "個人",
       "country": "韓國",
       "region": "韓國",
-      "cityOrFocus": "韓國口琴演奏/演出與教學",
-      "structuredSummary": "韓國口琴演奏/演出與教學 / 口琴 / 國際演出人員/教學者",
-      "summary": "韓國的口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏與演出與教學。",
-      "keywords": "Lee Hangyeol 이한결 harmonica SIHF",
+      "cityOrFocus": "韓國口琴演奏/演出與教學/半音階爵士",
+      "structuredSummary": "韓國口琴演奏/演出與教學/半音階爵士 / 半音階/口琴 / 國際演出人員/教學者",
+      "summary": "韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。",
+      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica SIHF",
       "links": [
         {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/gyeoli_94/"
+        },
+        {
           "label": "YouTube",
-          "url": "https://www.youtube.com/@%ED%95%98%EB%AA%A8%EB%8B%88%EC%8B%9C%EC%8A%A4%ED%8A%B8%EC%9D%B4%ED%95%9C%EA%B2%B0"
+          "url": "https://www.youtube.com/@gyeoli_94"
         }
       ],
       "source": "watchlist",
@@ -8470,16 +9253,35 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴",
         "演奏者",
         "教學",
+        "半音階",
         "國際交流"
       ],
       "monitorSources": [
         {
-          "id": "yt_a6b70a209f",
+          "id": "ig_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "gyeoli_94",
+          "profileUrl": "https://www.instagram.com/gyeoli_94/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "gyeoli_94",
+          "profileUrl": "https://www.instagram.com/gyeoli_94/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/gyeoli_94/story/0"
+        },
+        {
+          "id": "yt_gyeoli_94",
           "name": "Lee Hangyeol 이한결",
           "platform": "youtube",
           "type": "youtube_ytdlp",
           "username": "",
-          "profileUrl": "https://youtube.com/@%ED%95%98%EB%AA%A8%EB%8B%88%EC%8B%9C%EC%8A%A4%ED%8A%B8%EC%9D%B4%ED%95%9C%EA%B2%B0",
+          "profileUrl": "https://youtube.com/@gyeoli_94",
           "feedUrl": ""
         }
       ]
@@ -8718,6 +9520,399 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-148",
+      "name": "Santiago Alvarez",
+      "nameEn": "Santiago Alvarez",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "阿根廷",
+      "region": "阿根廷",
+      "cityOrFocus": "WHF 2025/半音階口琴/世界冠軍/演出與教學",
+      "structuredSummary": "WHF 2025/半音階口琴/世界冠軍/演出與教學 / 半音階 / 國際演出人員/教育者",
+      "summary": "阿根廷的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、半音階口琴與世界冠軍。",
+      "keywords": "Santiago Alvarez Santiago Alvarez Armonica harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://worldharmonicafestival.de/artist-profile-santiago-alvarez/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/santialvarezarmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/santi.alvarez.armonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCj06r7zxcQqFS26fy7n0jZw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "SA",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_santialvarezarmonica",
+          "name": "Santiago Alvarez",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/santialvarezarmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_santi_alvarez_armonica",
+          "name": "Santiago Alvarez",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "santi.alvarez.armonica",
+          "profileUrl": "https://www.instagram.com/santi.alvarez.armonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_santi_alvarez_armonica",
+          "name": "Santiago Alvarez",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "santi.alvarez.armonica",
+          "profileUrl": "https://www.instagram.com/santi.alvarez.armonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/santi.alvarez.armonica/story/0"
+        },
+        {
+          "id": "yt_ucj06r7zxcqqfs26fy7n0jzw",
+          "name": "Santiago Alvarez",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCj06r7zxcQqFS26fy7n0jZw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-151",
+      "name": "Sigmund Groven",
+      "nameEn": "Sigmund Groven",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "挪威",
+      "region": "挪威",
+      "cityOrFocus": "WHF 2025/Tommy Reilly Memorial Concert/古典與跨界半音階",
+      "structuredSummary": "WHF 2025/Tommy Reilly Memorial Concert/古典與跨界半音階 / 半音階 / 國際演出人員/作曲者",
+      "summary": "挪威的半音階國際演出人員與作曲者，活動脈絡包含WHF 2025、Tommy Reilly Memorial Concert與古典與跨界半音階。",
+      "keywords": "Sigmund Groven harmonica WHF 2025 Tommy Reilly",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://sigmundgroven.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TheSigmundGrovenPage"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sigmundgroven/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "SG",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_thesigmundgrovenpage",
+          "name": "Sigmund Groven",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/TheSigmundGrovenPage",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sigmundgroven",
+          "name": "Sigmund Groven",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sigmundgroven",
+          "profileUrl": "https://www.instagram.com/sigmundgroven/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sigmundgroven",
+          "name": "Sigmund Groven",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sigmundgroven",
+          "profileUrl": "https://www.instagram.com/sigmundgroven/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sigmundgroven/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-152",
+      "name": "Steve Baker",
+      "nameEn": "Steve Baker",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "英國",
+      "region": "德國/英國",
+      "cityOrFocus": "WHF 2025/藍調十孔/作曲/教育/HOHNER artist",
+      "structuredSummary": "WHF 2025/藍調十孔/作曲/教育/HOHNER artist / 十孔/藍調口琴 / 國際演出人員/教育者/作曲者",
+      "summary": "英國的十孔與藍調口琴國際演出人員、教育者與作曲者，活動脈絡包含WHF 2025、藍調十孔與作曲。",
+      "keywords": "Steve Baker blues harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.stevebaker.de/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/stevebaker.harmonica"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/stevebakerbluesharp"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/stevebakerharp"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "SB",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_stevebaker_harmonica",
+          "name": "Steve Baker",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/stevebaker.harmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "x_stevebakerharp",
+          "name": "Steve Baker",
+          "platform": "x",
+          "type": "rss",
+          "username": "stevebakerharp",
+          "profileUrl": "https://x.com/stevebakerharp",
+          "feedUrl": "https://rss.observe.tw/twitter/user/stevebakerharp"
+        },
+        {
+          "id": "yt_stevebakerbluesharp",
+          "name": "Steve Baker",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/stevebakerbluesharp",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-105",
+      "name": "Takamoto Mizuno",
+      "nameEn": "Takamoto Mizuno",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "複音口琴/1997 F.I.H.世界冠軍/新音樂文化推廣/TOMBO artist",
+      "structuredSummary": "複音口琴/1997 F.I.H.世界冠軍/新音樂文化推廣/TOMBO artist / 複音口琴 / 國際演出人員/教育者",
+      "summary": "日本的複音口琴國際演出人員與教育者，活動脈絡包含1997 F.I.H.世界冠軍、新音樂文化推廣與TOMBO artist。",
+      "keywords": "Takamoto Mizuno 水野隆元 harmonica tremolo TOMBO SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.tombo-m.co.jp/tombofes/2025/official_artist/mizuno_takamoto.html"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E9%A2%A8%E3%81%9D%E3%82%88%E3%81%90%E4%B8%98%E3%81%AE%E4%B8%8A%E3%81%AE%E8%A4%87%E9%9F%B3%E3%83%8F%E3%83%BC%E3%83%A2%E3%83%8B%E3%82%AB"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/d1ba49b889491510d078.webp",
+      "sourceInitials": "TM",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "複音",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_264659d9b6",
+          "name": "Takamoto Mizuno",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E9%A2%A8%E3%81%9D%E3%82%88%E3%81%90%E4%B8%98%E3%81%AE%E4%B8%8A%E3%81%AE%E8%A4%87%E9%9F%B3%E3%83%8F%E3%83%BC%E3%83%A2%E3%83%8B%E3%82%AB",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-145",
+      "name": "Tian Long Li",
+      "nameEn": "Tian Long Li",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "中國",
+      "region": "中國",
+      "cityOrFocus": "WHF 2025開幕/世界冠軍/半音階與爵士跨界",
+      "structuredSummary": "WHF 2025開幕/世界冠軍/半音階與爵士跨界 / 半音階 / 國際演出人員",
+      "summary": "中國的半音階國際演出人員，活動脈絡包含WHF 2025開幕、世界冠軍與半音階與爵士跨界。",
+      "keywords": "Tian Long Li Li Tian Long 李天龍 Jazzboy harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://worldharmonicafestival.de/artist-profile-tian-long-li/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "TLL",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ]
+    },
+    {
+      "id": "watchlist-142",
+      "name": "Yoonseok Lee",
+      "nameEn": "Yoonseok Lee",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "WHF 2025/半音階/國際比賽/教育與演出",
+      "structuredSummary": "WHF 2025/半音階/國際比賽/教育與演出 / 半音階 / 國際演出人員/教育者",
+      "summary": "韓國的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、國際比賽與教育與演出。",
+      "keywords": "Yoonseok Lee yoonseokhca harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/yoonseokl"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/yoonseokhca/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yoonseoklee_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/YoonseokLee_HARMONICA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "YL",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "比賽",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_yoonseokhca",
+          "name": "Yoonseok Lee",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/yoonseokhca",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yoonseoklee_harmonica",
+          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yoonseoklee_harmonica/story/0"
+        },
+        {
+          "id": "ig_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yoonseoklee_harmonica",
+          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/YoonseokLee_HARMONICA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-118",
       "name": "Yuanmao Wang",
       "nameEn": "Yuanmao Wang",
@@ -8895,7 +10090,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "links": [
         {
           "label": "網站",
-          "url": "https://worldharmonicafestival.de/artist-profile-yasuo-watani/"
+          "url": "https://www.yasuowatani.com/"
         }
       ],
       "source": "watchlist",
@@ -8974,14 +10169,22 @@ window.HARMONICA_OBSERVE_DATA = {
       "type": "個人",
       "country": "日本",
       "region": "日本",
-      "cityOrFocus": "日本半音階口琴演奏/YouTube演奏與教學",
-      "structuredSummary": "日本半音階口琴演奏/YouTube演奏與教學 / 半音階 / 國際演出人員/教學者",
-      "summary": "日本的半音階國際演出人員與教學者，活動脈絡包含日本半音階口琴演奏與YouTube演奏與教學。",
-      "keywords": "Koei Tanaka Tanaka Koei 田中光栄 harmonica SIHF",
+      "cityOrFocus": "東京出身/半音階與十孔/爵士藍調/演奏教學與客製維修",
+      "structuredSummary": "東京出身/半音階與十孔/爵士藍調/演奏教學與客製維修 / 半音階/十孔 / 國際演出人員/教學者/客製維修",
+      "summary": "日本的半音階與十孔國際演出人員、教學者與客製維修，活動脈絡包含東京出身、半音階與十孔與爵士藍調。",
+      "keywords": "Koei Tanaka Tanaka Koei 田中光栄 koei.tanaka tanakakoei harmonica SIHF",
       "links": [
         {
+          "label": "網站",
+          "url": "https://tanakakoei.com/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/koei.tanaka/"
+        },
+        {
           "label": "YouTube",
-          "url": "https://www.youtube.com/@koeitanaka"
+          "url": "https://www.youtube.com/@koeitanakaharmonica"
         }
       ],
       "source": "watchlist",
@@ -8997,16 +10200,35 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者",
         "教學",
         "半音階",
+        "十孔",
         "國際交流"
       ],
       "monitorSources": [
         {
-          "id": "yt_koeitanaka",
+          "id": "ig_koei_tanaka",
+          "name": "田中光栄 Koei Tanaka",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "koei.tanaka",
+          "profileUrl": "https://www.instagram.com/koei.tanaka/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_koei_tanaka",
+          "name": "田中光栄 Koei Tanaka",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "koei.tanaka",
+          "profileUrl": "https://www.instagram.com/koei.tanaka/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/koei.tanaka/story/0"
+        },
+        {
+          "id": "yt_koeitanakaharmonica",
           "name": "田中光栄 Koei Tanaka",
           "platform": "youtube",
           "type": "youtube_ytdlp",
           "username": "",
-          "profileUrl": "https://youtube.com/@koeitanaka",
+          "profileUrl": "https://youtube.com/@koeitanakaharmonica",
           "feedUrl": ""
         }
       ]
@@ -9252,56 +10474,61 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 133,
+    "totalEntries": 149,
     "categories": {
       "其他來源": 2,
-      "團體樂團": 28,
+      "團體樂團": 35,
       "場館平台": 6,
       "學校社團": 20,
       "教學器材": 12,
-      "活動資訊": 5,
-      "演奏者": 60
+      "活動資訊": 6,
+      "演奏者": 68
     },
     "countries": {
-      "中國": 2,
+      "中國": 4,
       "丹麥": 1,
       "以色列": 1,
       "俄羅斯": 1,
       "印尼": 1,
+      "國際": 1,
       "巴西": 2,
-      "德國": 2,
-      "日本": 6,
+      "德國": 4,
+      "挪威": 1,
+      "捷克": 1,
+      "日本": 7,
+      "法國": 1,
       "瑞典": 1,
       "瑞士": 1,
       "紐西蘭": 1,
-      "美國": 2,
+      "美國": 4,
       "臺灣": 87,
+      "英國": 2,
       "荷蘭": 1,
       "西班牙": 2,
-      "阿根廷": 1,
-      "韓國": 6,
+      "阿根廷": 2,
+      "韓國": 8,
       "香港": 11,
       "馬來西亞": 4
     },
     "watchSources": {
-      "totalSources": 387,
-      "rsshubSources": 191,
-      "apifySources": 100,
-      "facebookSources": 100,
-      "youtubeSources": 96,
+      "totalSources": 441,
+      "rsshubSources": 220,
+      "apifySources": 117,
+      "facebookSources": 117,
+      "youtubeSources": 104,
       "platforms": {
-        "facebook": 100,
-        "instagram": 184,
+        "facebook": 117,
+        "instagram": 212,
         "threads": 2,
-        "x": 5,
-        "youtube": 96
+        "x": 6,
+        "youtube": 104
       },
       "types": {
-        "facebook_page_posts": 100,
-        "rss": 7,
-        "rsshub_instagram_profile": 92,
-        "rsshub_instagram_story": 92,
-        "youtube_ytdlp": 96
+        "facebook_page_posts": 117,
+        "rss": 8,
+        "rsshub_instagram_profile": 106,
+        "rsshub_instagram_story": 106,
+        "youtube_ytdlp": 104
       }
     }
   }

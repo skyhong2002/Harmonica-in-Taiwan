@@ -1,5 +1,5 @@
 window.HARMONICA_OBSERVE_FEEDS = {
-  "generatedAt": "2026-06-27 02:56",
+  "generatedAt": "2026-06-27 04:25",
   "updatesWindowDays": 30,
   "updates": [
     {
@@ -11989,6 +11989,24 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": ""
     },
     {
+      "id": "fb_antonioserranoarmonica",
+      "name": "Antonio Serrano",
+      "platform": "facebook",
+      "type": "facebook_page_posts",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
+      "id": "fb_ausgelassen_art_academy",
+      "name": "Ausgelassen x Wesley Wong",
+      "platform": "facebook",
+      "type": "facebook_page_posts",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
       "id": "fb_boris_plotnikov_9",
       "name": "Boris Plotnikov",
       "platform": "facebook",
@@ -12018,6 +12036,15 @@ window.HARMONICA_OBSERVE_FEEDS = {
     {
       "id": "fb_cyleoharmonica",
       "name": "CY Leo 何卓彥",
+      "platform": "facebook",
+      "type": "facebook_page_posts",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
+      "id": "fb_deak_harp",
+      "name": "Deak Harp",
       "platform": "facebook",
       "type": "facebook_page_posts",
       "username": "",
@@ -12124,6 +12151,15 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": ""
     },
     {
+      "id": "fb_hankshreveband",
+      "name": "Hank Shreve",
+      "platform": "facebook",
+      "type": "facebook_page_posts",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
       "id": "fb_howardlevyfanpage",
       "name": "Howard Levy",
       "platform": "facebook",
@@ -12160,6 +12196,15 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": ""
     },
     {
+      "id": "fb_kif768",
+      "name": "Kif Valentine",
+      "platform": "facebook",
+      "type": "facebook_page_posts",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
       "id": "fb_konstantinreinfeldofficial",
       "name": "Konstantin Reinfeld",
       "platform": "facebook",
@@ -12180,6 +12225,15 @@ window.HARMONICA_OBSERVE_FEEDS = {
     {
       "id": "fb_leeoskarharmonicas",
       "name": "Lee Oskar",
+      "platform": "facebook",
+      "type": "facebook_page_posts",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
+      "id": "fb_learntheharmonica",
+      "name": "Liam Ward & Malcolm Thorne",
       "platform": "facebook",
       "type": "facebook_page_posts",
       "username": "",
@@ -12277,8 +12331,53 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": ""
     },
     {
+      "id": "fb_hohnerklang",
+      "name": "Orchestra Hohnerklang",
+      "platform": "facebook",
+      "type": "facebook_page_posts",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
+      "id": "fb_perfectfourth_org",
+      "name": "Perfect Fourth",
+      "platform": "facebook",
+      "type": "facebook_page_posts",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
+      "id": "fb_100075740116023",
+      "name": "Ptaszek & Buzma",
+      "platform": "facebook",
+      "type": "facebook_page_posts",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
+      "id": "fb_plashervouetband",
+      "name": "Rachelle Plas & Philippe Hervouet",
+      "platform": "facebook",
+      "type": "facebook_page_posts",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
       "id": "fb_redbricksharmonica",
       "name": "RedBricks Harmonica",
+      "platform": "facebook",
+      "type": "facebook_page_posts",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
+      "id": "fb_reyharp",
+      "name": "Reyharp and Balawan Project",
       "platform": "facebook",
       "type": "facebook_page_posts",
       "username": "",
@@ -12295,6 +12394,24 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": ""
     },
     {
+      "id": "fb_santialvarezarmonica",
+      "name": "Santiago Alvarez",
+      "platform": "facebook",
+      "type": "facebook_page_posts",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
+      "id": "fb_thesigmundgrovenpage",
+      "name": "Sigmund Groven",
+      "platform": "facebook",
+      "type": "facebook_page_posts",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
       "id": "fb_ab771e2fae",
       "name": "Spotlight 口琴樂團",
       "platform": "facebook",
@@ -12304,8 +12421,26 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": ""
     },
     {
+      "id": "fb_stevebaker_harmonica",
+      "name": "Steve Baker",
+      "platform": "facebook",
+      "type": "facebook_page_posts",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
       "id": "fb_theduet_music",
       "name": "The Duet 獨特音樂",
+      "platform": "facebook",
+      "type": "facebook_page_posts",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
+      "id": "fb_themagicharmonica",
+      "name": "The Magic Harmonica Ensemble",
       "platform": "facebook",
       "type": "facebook_page_posts",
       "username": "",
@@ -12324,6 +12459,24 @@ window.HARMONICA_OBSERVE_FEEDS = {
     {
       "id": "fb_velozharmonica",
       "name": "Veloz Harmonica Quartet",
+      "platform": "facebook",
+      "type": "facebook_page_posts",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
+      "id": "fb_worldharmonicafestival",
+      "name": "World Harmonica Festival",
+      "platform": "facebook",
+      "type": "facebook_page_posts",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
+      "id": "fb_yoonseokhca",
+      "name": "Yoonseok Lee",
       "platform": "facebook",
       "type": "facebook_page_posts",
       "username": "",
@@ -12997,6 +13150,24 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
     },
     {
+      "id": "ig_deakharp",
+      "name": "Deak Harp",
+      "platform": "instagram",
+      "type": "rsshub_instagram_profile",
+      "username": "deakharp",
+      "profileUrl": "https://www.instagram.com/deakharp/",
+      "feedUrl": ""
+    },
+    {
+      "id": "ig_story_deakharp",
+      "name": "Deak Harp",
+      "platform": "instagram",
+      "type": "rsshub_instagram_story",
+      "username": "deakharp",
+      "profileUrl": "https://www.instagram.com/deakharp/",
+      "feedUrl": "https://rss.observe.tw/picuki/profile/deakharp/story/0"
+    },
+    {
       "id": "ig_donuts_harmonica",
       "name": "DoNuts 口琴樂團",
       "platform": "instagram",
@@ -13159,6 +13330,24 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": ""
     },
     {
+      "id": "ig_hankshrevemusic",
+      "name": "Hank Shreve",
+      "platform": "instagram",
+      "type": "rsshub_instagram_profile",
+      "username": "hankshrevemusic",
+      "profileUrl": "https://www.instagram.com/hankshrevemusic/",
+      "feedUrl": ""
+    },
+    {
+      "id": "ig_story_hankshrevemusic",
+      "name": "Hank Shreve",
+      "platform": "instagram",
+      "type": "rsshub_instagram_story",
+      "username": "hankshrevemusic",
+      "profileUrl": "https://www.instagram.com/hankshrevemusic/",
+      "feedUrl": "https://rss.observe.tw/picuki/profile/hankshrevemusic/story/0"
+    },
+    {
       "id": "ig_howardlevyland",
       "name": "Howard Levy",
       "platform": "instagram",
@@ -13195,22 +13384,22 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": "https://rss.observe.tw/picuki/profile/indiarasfair/story/0"
     },
     {
-      "id": "ig_jens_bunge",
+      "id": "ig_jensbunge_jazzharmonica",
       "name": "Jens Bunge",
       "platform": "instagram",
       "type": "rsshub_instagram_profile",
-      "username": "jens.bunge",
-      "profileUrl": "https://www.instagram.com/jens.bunge/",
+      "username": "jensbunge.jazzharmonica",
+      "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
       "feedUrl": ""
     },
     {
-      "id": "ig_story_jens_bunge",
+      "id": "ig_story_jensbunge_jazzharmonica",
       "name": "Jens Bunge",
       "platform": "instagram",
       "type": "rsshub_instagram_story",
-      "username": "jens.bunge",
-      "profileUrl": "https://www.instagram.com/jens.bunge/",
-      "feedUrl": "https://rss.observe.tw/picuki/profile/jens.bunge/story/0"
+      "username": "jensbunge.jazzharmonica",
+      "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
+      "feedUrl": "https://rss.observe.tw/picuki/profile/jensbunge.jazzharmonica/story/0"
     },
     {
       "id": "ig_jongseongpark_harmonicist",
@@ -13238,6 +13427,24 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "username": "kshs_harmonica",
       "profileUrl": "https://www.instagram.com/kshs_harmonica/",
       "feedUrl": ""
+    },
+    {
+      "id": "ig_kif768",
+      "name": "Kif Valentine",
+      "platform": "instagram",
+      "type": "rsshub_instagram_profile",
+      "username": "kif768",
+      "profileUrl": "https://www.instagram.com/kif768/",
+      "feedUrl": ""
+    },
+    {
+      "id": "ig_story_kif768",
+      "name": "Kif Valentine",
+      "platform": "instagram",
+      "type": "rsshub_instagram_story",
+      "username": "kif768",
+      "profileUrl": "https://www.instagram.com/kif768/",
+      "feedUrl": "https://rss.observe.tw/picuki/profile/kif768/story/0"
     },
     {
       "id": "ig_konstantin_reinfeld",
@@ -13276,6 +13483,24 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": "https://rss.observe.tw/picuki/profile/laelapsharmonica/story/0"
     },
     {
+      "id": "ig_gyeoli_94",
+      "name": "Lee Hangyeol 이한결",
+      "platform": "instagram",
+      "type": "rsshub_instagram_profile",
+      "username": "gyeoli_94",
+      "profileUrl": "https://www.instagram.com/gyeoli_94/",
+      "feedUrl": ""
+    },
+    {
+      "id": "ig_story_gyeoli_94",
+      "name": "Lee Hangyeol 이한결",
+      "platform": "instagram",
+      "type": "rsshub_instagram_story",
+      "username": "gyeoli_94",
+      "profileUrl": "https://www.instagram.com/gyeoli_94/",
+      "feedUrl": "https://rss.observe.tw/picuki/profile/gyeoli_94/story/0"
+    },
+    {
       "id": "ig_leeoskarharmonicas",
       "name": "Lee Oskar",
       "platform": "instagram",
@@ -13292,6 +13517,24 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "username": "leeoskarharmonicas",
       "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
       "feedUrl": "https://rss.observe.tw/picuki/profile/leeoskarharmonicas/story/0"
+    },
+    {
+      "id": "ig_learntheharmonica",
+      "name": "Liam Ward & Malcolm Thorne",
+      "platform": "instagram",
+      "type": "rsshub_instagram_profile",
+      "username": "learntheharmonica",
+      "profileUrl": "https://www.instagram.com/learntheharmonica/",
+      "feedUrl": ""
+    },
+    {
+      "id": "ig_story_learntheharmonica",
+      "name": "Liam Ward & Malcolm Thorne",
+      "platform": "instagram",
+      "type": "rsshub_instagram_story",
+      "username": "learntheharmonica",
+      "profileUrl": "https://www.instagram.com/learntheharmonica/",
+      "feedUrl": "https://rss.observe.tw/picuki/profile/learntheharmonica/story/0"
     },
     {
       "id": "ig_long_deng_jie",
@@ -13402,6 +13645,60 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": ""
     },
     {
+      "id": "ig_hohnerklang",
+      "name": "Orchestra Hohnerklang",
+      "platform": "instagram",
+      "type": "rsshub_instagram_profile",
+      "username": "hohnerklang",
+      "profileUrl": "https://www.instagram.com/hohnerklang/",
+      "feedUrl": ""
+    },
+    {
+      "id": "ig_story_hohnerklang",
+      "name": "Orchestra Hohnerklang",
+      "platform": "instagram",
+      "type": "rsshub_instagram_story",
+      "username": "hohnerklang",
+      "profileUrl": "https://www.instagram.com/hohnerklang/",
+      "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerklang/story/0"
+    },
+    {
+      "id": "ig_perfect_fourth",
+      "name": "Perfect Fourth",
+      "platform": "instagram",
+      "type": "rsshub_instagram_profile",
+      "username": "perfect.fourth",
+      "profileUrl": "https://www.instagram.com/perfect.fourth/",
+      "feedUrl": ""
+    },
+    {
+      "id": "ig_story_perfect_fourth",
+      "name": "Perfect Fourth",
+      "platform": "instagram",
+      "type": "rsshub_instagram_story",
+      "username": "perfect.fourth",
+      "profileUrl": "https://www.instagram.com/perfect.fourth/",
+      "feedUrl": "https://rss.observe.tw/picuki/profile/perfect.fourth/story/0"
+    },
+    {
+      "id": "ig_plashervouetband",
+      "name": "Rachelle Plas & Philippe Hervouet",
+      "platform": "instagram",
+      "type": "rsshub_instagram_profile",
+      "username": "plashervouetband",
+      "profileUrl": "https://www.instagram.com/plashervouetband/",
+      "feedUrl": ""
+    },
+    {
+      "id": "ig_story_plashervouetband",
+      "name": "Rachelle Plas & Philippe Hervouet",
+      "platform": "instagram",
+      "type": "rsshub_instagram_story",
+      "username": "plashervouetband",
+      "profileUrl": "https://www.instagram.com/plashervouetband/",
+      "feedUrl": "https://rss.observe.tw/picuki/profile/plashervouetband/story/0"
+    },
+    {
       "id": "ig_redbricksharmonica",
       "name": "RedBricks Harmonica",
       "platform": "instagram",
@@ -13420,6 +13717,24 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": "https://rss.observe.tw/picuki/profile/redbricksharmonica/story/0"
     },
     {
+      "id": "ig_reyharpnaufal",
+      "name": "Reyharp and Balawan Project",
+      "platform": "instagram",
+      "type": "rsshub_instagram_profile",
+      "username": "reyharpnaufal",
+      "profileUrl": "https://www.instagram.com/reyharpnaufal/",
+      "feedUrl": ""
+    },
+    {
+      "id": "ig_story_reyharpnaufal",
+      "name": "Reyharp and Balawan Project",
+      "platform": "instagram",
+      "type": "rsshub_instagram_story",
+      "username": "reyharpnaufal",
+      "profileUrl": "https://www.instagram.com/reyharpnaufal/",
+      "feedUrl": "https://rss.observe.tw/picuki/profile/reyharpnaufal/story/0"
+    },
+    {
       "id": "ig_rodrigoeberienos",
       "name": "Rodrigo Eberienos",
       "platform": "instagram",
@@ -13436,6 +13751,42 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "username": "rodrigoeberienos",
       "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
       "feedUrl": "https://rss.observe.tw/picuki/profile/rodrigoeberienos/story/0"
+    },
+    {
+      "id": "ig_santi_alvarez_armonica",
+      "name": "Santiago Alvarez",
+      "platform": "instagram",
+      "type": "rsshub_instagram_profile",
+      "username": "santi.alvarez.armonica",
+      "profileUrl": "https://www.instagram.com/santi.alvarez.armonica/",
+      "feedUrl": ""
+    },
+    {
+      "id": "ig_story_santi_alvarez_armonica",
+      "name": "Santiago Alvarez",
+      "platform": "instagram",
+      "type": "rsshub_instagram_story",
+      "username": "santi.alvarez.armonica",
+      "profileUrl": "https://www.instagram.com/santi.alvarez.armonica/",
+      "feedUrl": "https://rss.observe.tw/picuki/profile/santi.alvarez.armonica/story/0"
+    },
+    {
+      "id": "ig_sigmundgroven",
+      "name": "Sigmund Groven",
+      "platform": "instagram",
+      "type": "rsshub_instagram_profile",
+      "username": "sigmundgroven",
+      "profileUrl": "https://www.instagram.com/sigmundgroven/",
+      "feedUrl": ""
+    },
+    {
+      "id": "ig_story_sigmundgroven",
+      "name": "Sigmund Groven",
+      "platform": "instagram",
+      "type": "rsshub_instagram_story",
+      "username": "sigmundgroven",
+      "profileUrl": "https://www.instagram.com/sigmundgroven/",
+      "feedUrl": "https://rss.observe.tw/picuki/profile/sigmundgroven/story/0"
     },
     {
       "id": "ig_staydrunk_h_e",
@@ -13543,6 +13894,42 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "type": "rsshub_instagram_profile",
       "username": "velozharmonica",
       "profileUrl": "https://www.instagram.com/velozharmonica/",
+      "feedUrl": ""
+    },
+    {
+      "id": "ig_story_whf_world_harmonica_festival",
+      "name": "World Harmonica Festival",
+      "platform": "instagram",
+      "type": "rsshub_instagram_story",
+      "username": "whf_world_harmonica_festival",
+      "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
+      "feedUrl": "https://rss.observe.tw/picuki/profile/whf_world_harmonica_festival/story/0"
+    },
+    {
+      "id": "ig_whf_world_harmonica_festival",
+      "name": "World Harmonica Festival",
+      "platform": "instagram",
+      "type": "rsshub_instagram_profile",
+      "username": "whf_world_harmonica_festival",
+      "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
+      "feedUrl": ""
+    },
+    {
+      "id": "ig_story_yoonseoklee_harmonica",
+      "name": "Yoonseok Lee",
+      "platform": "instagram",
+      "type": "rsshub_instagram_story",
+      "username": "yoonseoklee_harmonica",
+      "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
+      "feedUrl": "https://rss.observe.tw/picuki/profile/yoonseoklee_harmonica/story/0"
+    },
+    {
+      "id": "ig_yoonseoklee_harmonica",
+      "name": "Yoonseok Lee",
+      "platform": "instagram",
+      "type": "rsshub_instagram_profile",
+      "username": "yoonseoklee_harmonica",
+      "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
       "feedUrl": ""
     },
     {
@@ -14122,6 +14509,24 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": ""
     },
     {
+      "id": "ig_koei_tanaka",
+      "name": "田中光栄 Koei Tanaka",
+      "platform": "instagram",
+      "type": "rsshub_instagram_profile",
+      "username": "koei.tanaka",
+      "profileUrl": "https://www.instagram.com/koei.tanaka/",
+      "feedUrl": ""
+    },
+    {
+      "id": "ig_story_koei_tanaka",
+      "name": "田中光栄 Koei Tanaka",
+      "platform": "instagram",
+      "type": "rsshub_instagram_story",
+      "username": "koei.tanaka",
+      "profileUrl": "https://www.instagram.com/koei.tanaka/",
+      "feedUrl": "https://rss.observe.tw/picuki/profile/koei.tanaka/story/0"
+    },
+    {
       "id": "ig_punch_harp",
       "name": "胖擊口琴樂團",
       "platform": "instagram",
@@ -14554,6 +14959,15 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": "https://rss.observe.tw/twitter/user/duovolce"
     },
     {
+      "id": "x_stevebakerharp",
+      "name": "Steve Baker",
+      "platform": "x",
+      "type": "rss",
+      "username": "stevebakerharp",
+      "profileUrl": "https://x.com/stevebakerharp",
+      "feedUrl": "https://rss.observe.tw/twitter/user/stevebakerharp"
+    },
+    {
       "id": "x_minami_risa",
       "name": "南里沙",
       "platform": "x",
@@ -14599,6 +15013,15 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": ""
     },
     {
+      "id": "yt_antonioserranoofficial",
+      "name": "Antonio Serrano",
+      "platform": "youtube",
+      "type": "youtube_ytdlp",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
       "id": "yt_ausgelassen",
       "name": "Ausgelassen x Wesley Wong",
       "platform": "youtube",
@@ -14628,6 +15051,15 @@ window.HARMONICA_OBSERVE_FEEDS = {
     {
       "id": "yt_cyleoharmonica",
       "name": "CY Leo 何卓彥",
+      "platform": "youtube",
+      "type": "youtube_ytdlp",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
+      "id": "yt_deakharp",
+      "name": "Deak Harp",
       "platform": "youtube",
       "type": "youtube_ytdlp",
       "username": "",
@@ -14689,7 +15121,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": ""
     },
     {
-      "id": "yt_filipjers",
+      "id": "yt_filipjersmusic",
       "name": "Filip Jers",
       "platform": "youtube",
       "type": "youtube_ytdlp",
@@ -14797,7 +15229,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": ""
     },
     {
-      "id": "yt_a6b70a209f",
+      "id": "yt_gyeoli_94",
       "name": "Lee Hangyeol 이한결",
       "platform": "youtube",
       "type": "youtube_ytdlp",
@@ -14815,8 +15247,26 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": ""
     },
     {
+      "id": "yt_learntheharmonica",
+      "name": "Liam Ward & Malcolm Thorne",
+      "platform": "youtube",
+      "type": "youtube_ytdlp",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
       "id": "yt_marcoscollharpandsoul",
       "name": "Marcos Coll",
+      "platform": "youtube",
+      "type": "youtube_ytdlp",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
+      "id": "yt_hohnerklang",
+      "name": "Orchestra Hohnerklang",
       "platform": "youtube",
       "type": "youtube_ytdlp",
       "username": "",
@@ -14860,8 +15310,35 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": ""
     },
     {
+      "id": "yt_ucj06r7zxcqqfs26fy7n0jzw",
+      "name": "Santiago Alvarez",
+      "platform": "youtube",
+      "type": "youtube_ytdlp",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
       "id": "yt_uct3ifdfoqpndqm8j5chesda",
       "name": "Stay Drunk 口琴樂團",
+      "platform": "youtube",
+      "type": "youtube_ytdlp",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
+      "id": "yt_stevebakerbluesharp",
+      "name": "Steve Baker",
+      "platform": "youtube",
+      "type": "youtube_ytdlp",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
+      "id": "yt_264659d9b6",
+      "name": "Takamoto Mizuno",
       "platform": "youtube",
       "type": "youtube_ytdlp",
       "username": "",
@@ -14898,6 +15375,15 @@ window.HARMONICA_OBSERVE_FEEDS = {
     {
       "id": "yt_velozharmonica",
       "name": "Veloz Harmonica Quartet",
+      "platform": "youtube",
+      "type": "youtube_ytdlp",
+      "username": "",
+      "profileUrl": "",
+      "feedUrl": ""
+    },
+    {
+      "id": "yt_yoonseoklee_harmonica",
+      "name": "Yoonseok Lee",
       "platform": "youtube",
       "type": "youtube_ytdlp",
       "username": "",
@@ -15211,7 +15697,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": ""
     },
     {
-      "id": "yt_koeitanaka",
+      "id": "yt_koeitanakaharmonica",
       "name": "田中光栄 Koei Tanaka",
       "platform": "youtube",
       "type": "youtube_ytdlp",

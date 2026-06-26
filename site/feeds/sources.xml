@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 26 Jun 2026 18:56:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 20:25:49 +0000</lastBuildDate>
     <item>
       <title>山下伶 Rei Yamashita</title>
       <link>https://rei-yamashita.com/</link>
@@ -855,8 +855,8 @@ Tag：團體樂團、口琴、活動資訊、音樂會、品牌
     </item>
     <item>
       <title>Ausgelassen x Wesley Wong</title>
-      <link>https://www.youtube.com/@Ausgelassen</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/361f15868c1cf9e5</guid>
+      <link>https://www.ausgelassen.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/b53588545bab0a4e</guid>
       <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
       <description>分類：團體樂團
 Tag：口琴、團體樂團、重奏、國際交流
@@ -887,9 +887,42 @@ Tag：口琴、團體樂團、重奏、國際交流
 馬來西亞的口琴重奏國際演出團體，活動脈絡包含馬來西亞世界冠軍口琴團、2006成立與國際巡演。</description>
     </item>
     <item>
+      <title>Korea Harmonica Orchestra</title>
+      <link>https://koreaharmonica.kr/orchestra</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/f9bd116cfc6587be</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：口琴、團體樂團、國際交流
+國家：韓國
+地區：韓國
+韓國的口琴合奏國際演出團體，活動脈絡包含韓國口琴合奏、大型合奏與教育交流。</description>
+    </item>
+    <item>
+      <title>Liam Ward &amp; Malcolm Thorne</title>
+      <link>https://learntheharmonica.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/dc41672fff50feb6</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：口琴、團體樂團、教學、十孔、國際交流
+國家：英國
+地區：英國
+英國的十孔、藍調口琴與吉他國際演出團體與教育者，活動脈絡包含WHF 2025、吉他合作與教學。</description>
+    </item>
+    <item>
+      <title>Orchestra Hohnerklang</title>
+      <link>https://hohnerklang.de/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/408c6e35e20d4fd2</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：口琴、團體樂團、國際交流
+國家：德國
+地區：德國/特羅辛根
+德國的口琴合奏國際演出團體，活動脈絡包含WHF 2025開幕、HOHNER orchestral harmonica tradition與大型合奏。</description>
+    </item>
+    <item>
       <title>Perfect Fourth</title>
-      <link>https://www.youtube.com/@PerfectFourth</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/7efef2b95be61e56</guid>
+      <link>https://www.perfectfourth.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/deea7bdf554677e8</guid>
       <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
       <description>分類：團體樂團
 Tag：口琴、團體樂團、重奏、國際交流
@@ -898,9 +931,31 @@ Tag：口琴、團體樂團、重奏、國際交流
 香港的口琴重奏國際演出團體，活動脈絡包含香港現代風格口琴四重奏、傳統與現代和聲與舞台演出。</description>
     </item>
     <item>
+      <title>Ptaszek &amp; Buzma</title>
+      <link>https://worldharmonicafestival.de/artist-profile-ptaszek-and-buzma/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/d49fb40ebff7fd5d</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：口琴、團體樂團、十孔、國際交流
+國家：捷克
+地區：捷克
+捷克的十孔、藍調口琴、吉他與人聲國際演出團體，活動脈絡包含WHF 2025開幕、Blues與Gospel。</description>
+    </item>
+    <item>
+      <title>Rachelle Plas &amp; Philippe Hervouet</title>
+      <link>http://www.plashervouetband.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c56a0214c22596be</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：口琴、團體樂團、十孔、國際交流
+國家：法國
+地區：法國
+法國的十孔、藍調口琴、吉他與人聲國際演出團體，活動脈絡包含WHF 2025、吉他與歌唱與Golden Melody ambassador。</description>
+    </item>
+    <item>
       <title>Reyharp and Balawan Project</title>
-      <link>https://www.youtube.com/@reyharpnaufal5101</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/9d304dd37926cb74</guid>
+      <link>https://www.facebook.com/reyharp/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/991cb6d8b28b3c46</guid>
       <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
       <description>分類：團體樂團
 Tag：口琴、團體樂團、國際交流
@@ -918,6 +973,28 @@ Tag：團體樂團、口琴、合奏、重奏、演出
 國家：臺灣
 地區：臺灣
 臺灣的口琴重奏演出團體，活動脈絡包含青年、重奏與THMF相關。</description>
+    </item>
+    <item>
+      <title>The LiveWires</title>
+      <link>https://www.stevebaker.de/steve_baker_the_livewires_en_641.html</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c7716be23eacf455</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：口琴、團體樂團、十孔、國際交流
+國家：國際
+地區：德國/英國
+國際的十孔、藍調口琴、吉他與樂團國際演出團體，活動脈絡包含WHF 2025、藍調樂團與Steve Baker合作。</description>
+    </item>
+    <item>
+      <title>The Magic Harmonica Ensemble</title>
+      <link>https://seelectronics.com/artists/the-magic-harmonica-ensemble/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/9d00c02e175e00f3</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：口琴、團體樂團、教學、重奏、國際交流
+國家：中國
+地區：中國
+中國的口琴重奏國際演出團體，活動脈絡包含中國魔幻之聲口琴樂團、2012成立與亞太與華夏口琴節得獎。</description>
     </item>
     <item>
       <title>Veloz Harmonica Quartet</title>
@@ -1151,6 +1228,17 @@ Tag：口琴、活動資訊、比賽、國際交流
 韓國的國際活動來源，涵蓋首爾國際口琴節、國際比賽、Gala音樂會與教育交流。</description>
     </item>
     <item>
+      <title>World Harmonica Festival</title>
+      <link>https://worldharmonicafestival.de/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/d540be4b0c925a31</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：口琴、活動資訊、比賽、國際交流
+國家：德國
+地區：德國/特羅辛根
+德國的國際活動來源，涵蓋四年一度世界口琴節、國際比賽、Gala與工作坊。</description>
+    </item>
+    <item>
       <title>Antonio Serrano</title>
       <link>https://www.hohner.de/en/antonio-serrano</link>
       <guid>https://harmonica.observe.tw/feeds/sources/93cfaa5dee8acf42</guid>
@@ -1182,6 +1270,17 @@ Tag：口琴、演奏者、教學、半音階、十孔、國際交流
 國家：紐西蘭
 地區：英國
 紐西蘭的十孔與半音階國際演出人員、教育者與製作者，活動脈絡包含口琴演奏與教學、客製口琴設計與半音階與十孔技術。</description>
+    </item>
+    <item>
+      <title>Deak Harp</title>
+      <link>https://deakharp.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/58f4ec7611bdc1b8</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：口琴、演奏者、教學、十孔、國際交流
+國家：美國
+地區：美國
+美國的十孔與藍調口琴國際演出人員，活動脈絡包含WHF 2025、藍調十孔與Chicago blues。</description>
     </item>
     <item>
       <title>Dror Adler / Adler Trio</title>
@@ -1228,6 +1327,17 @@ Tag：口琴、演奏者、半音階、國際交流
 瑞士的半音階國際演出人員與作曲者，活動脈絡包含紐約發展、Grammy得主與現代爵士半音階。</description>
     </item>
     <item>
+      <title>Hank Shreve</title>
+      <link>https://hankshreveband.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/ea2ad2698cb121f4</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：口琴、演奏者、團體樂團、十孔、國際交流
+國家：美國
+地區：美國
+美國的十孔與藍調口琴國際演出人員，活動脈絡包含WHF 2025與高能量原創藍調樂團。</description>
+    </item>
+    <item>
       <title>Howard Levy</title>
       <link>https://levyland.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/7b1b038dac5e8bbf</guid>
@@ -1251,8 +1361,8 @@ Tag：口琴、演奏者、十孔、國際交流
     </item>
     <item>
       <title>Jens Bunge</title>
-      <link>https://www.instagram.com/jens.bunge/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/396124cbed7164ff</guid>
+      <link>https://hohner.de/en/jens-bunge</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/bf85aeb31f137bd0</guid>
       <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
       <description>分類：演奏者
 Tag：口琴、演奏者、半音階、國際交流
@@ -1273,8 +1383,8 @@ Tag：口琴、演奏者、團體樂團、十孔、國際交流
     </item>
     <item>
       <title>Kif Valentine</title>
-      <link>https://www.youtube.com/@kif768</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/a61c4ce7456d477a</guid>
+      <link>https://www.facebook.com/kif768/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/31b19a4bd2439dfb</guid>
       <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
       <description>分類：演奏者
 Tag：口琴、演奏者、國際交流
@@ -1317,14 +1427,14 @@ Tag：口琴、演奏者、半音階、十孔、國際交流
     </item>
     <item>
       <title>Lee Hangyeol 이한결</title>
-      <link>https://www.youtube.com/@%ED%95%98%EB%AA%A8%EB%8B%88%EC%8B%9C%EC%8A%A4%ED%8A%B8%EC%9D%B4%ED%95%9C%EA%B2%B0</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/d5ba8e2c8909aae1</guid>
+      <link>https://www.instagram.com/gyeoli_94/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/7a632dfd1b5ac9e9</guid>
       <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
       <description>分類：演奏者
-Tag：口琴、演奏者、教學、國際交流
+Tag：口琴、演奏者、教學、半音階、國際交流
 國家：韓國
 地區：韓國
-韓國的口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏與演出與教學。</description>
+韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。</description>
     </item>
     <item>
       <title>Lee Oskar</title>
@@ -1358,6 +1468,72 @@ Tag：口琴、演奏者、教學、國際交流
 國家：巴西
 地區：巴西
 巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。</description>
+    </item>
+    <item>
+      <title>Santiago Alvarez</title>
+      <link>https://worldharmonicafestival.de/artist-profile-santiago-alvarez/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/2cffec8e56b63330</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：口琴、演奏者、教學、半音階、國際交流
+國家：阿根廷
+地區：阿根廷
+阿根廷的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、半音階口琴與世界冠軍。</description>
+    </item>
+    <item>
+      <title>Sigmund Groven</title>
+      <link>https://sigmundgroven.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/5282ee141ca702c2</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：口琴、演奏者、半音階、國際交流
+國家：挪威
+地區：挪威
+挪威的半音階國際演出人員與作曲者，活動脈絡包含WHF 2025、Tommy Reilly Memorial Concert與古典與跨界半音階。</description>
+    </item>
+    <item>
+      <title>Steve Baker</title>
+      <link>https://www.stevebaker.de/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/ad53c11744de9027</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：口琴、演奏者、十孔、國際交流
+國家：英國
+地區：德國/英國
+英國的十孔與藍調口琴國際演出人員、教育者與作曲者，活動脈絡包含WHF 2025、藍調十孔與作曲。</description>
+    </item>
+    <item>
+      <title>Takamoto Mizuno</title>
+      <link>https://www.tombo-m.co.jp/tombofes/2025/official_artist/mizuno_takamoto.html</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/9c79a449eb3bd90b</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：口琴、演奏者、複音、國際交流
+國家：日本
+地區：日本
+日本的複音口琴國際演出人員與教育者，活動脈絡包含1997 F.I.H.世界冠軍、新音樂文化推廣與TOMBO artist。</description>
+    </item>
+    <item>
+      <title>Tian Long Li</title>
+      <link>https://worldharmonicafestival.de/artist-profile-tian-long-li/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/b6a6c5da6d196717</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：口琴、演奏者、半音階、國際交流
+國家：中國
+地區：中國
+中國的半音階國際演出人員，活動脈絡包含WHF 2025開幕、世界冠軍與半音階與爵士跨界。</description>
+    </item>
+    <item>
+      <title>Yoonseok Lee</title>
+      <link>https://linktr.ee/yoonseokl</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/b336a5292fd71873</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：口琴、演奏者、比賽、半音階、國際交流
+國家：韓國
+地區：韓國
+韓國的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、國際比賽與教育與演出。</description>
     </item>
     <item>
       <title>Yuanmao Wang</title>
@@ -1394,8 +1570,8 @@ Tag：演奏者、半音階、複音
     </item>
     <item>
       <title>和谷泰扶 Yasuo Watani</title>
-      <link>https://worldharmonicafestival.de/artist-profile-yasuo-watani/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/f9931f72cb353109</guid>
+      <link>https://www.yasuowatani.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/2f60b2d6f197afdf</guid>
       <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
       <description>分類：演奏者
 Tag：口琴、演奏者、半音階、國際交流
@@ -1416,14 +1592,14 @@ Tag：演奏者、口琴
     </item>
     <item>
       <title>田中光栄 Koei Tanaka</title>
-      <link>https://www.youtube.com/@koeitanaka</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/07692529620a1f86</guid>
+      <link>https://tanakakoei.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/af2f8882c8216b58</guid>
       <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
       <description>分類：演奏者
-Tag：口琴、演奏者、教學、半音階、國際交流
+Tag：口琴、演奏者、教學、半音階、十孔、國際交流
 國家：日本
 地區：日本
-日本的半音階國際演出人員與教學者，活動脈絡包含日本半音階口琴演奏與YouTube演奏與教學。</description>
+日本的半音階與十孔國際演出人員、教學者與客製維修，活動脈絡包含東京出身、半音階與十孔與爵士藍調。</description>
     </item>
     <item>
       <title>陳奕翔</title>
