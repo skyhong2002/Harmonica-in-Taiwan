@@ -446,10 +446,11 @@
 
   function sourceIdentity(item, avatarClass = "source-avatar", metaClass = "feed-latest-meta") {
     const source = item.source || "公開來源";
+    const platform = item.platform_label || item.platform || "public";
     const body = `
       ${sourceAvatar(item, avatarClass)}
       <div>
-        <span class="${metaClass}">${escapeHtml(item.posted_at_local || "未標示")} · ${escapeHtml(item.platform || "public")}</span>
+        <span class="${metaClass}">${escapeHtml(item.posted_at_local || "未標示")} · ${escapeHtml(platform)}</span>
         <strong>${escapeHtml(source)}</strong>
       </div>
     `;
@@ -553,6 +554,9 @@
     if (String(source.type || "").toLowerCase() === "rss" && !filterHasValue(labels, "RSS")) {
       labels.push("RSS");
     }
+    if (String(source.type || "").toLowerCase() === "rsshub_instagram_story" && !filterHasValue(labels, "Instagram story")) {
+      labels.push("Instagram story");
+    }
     return labels;
   }
 
@@ -578,6 +582,7 @@
       item.source_profile_url,
       item.link,
       item.platform,
+      item.platform_label,
       platform,
       item.source ? `${item.source} · ${platform}` : "",
       item.source_system_name ? `${item.source_system_name} · ${platform}` : "",
@@ -592,6 +597,7 @@
   function feedPlatformFilterValues(item) {
     return [
       sourcePlatformLabel(item.platform),
+      item.platform_label,
       ...socialSourcesForItem(item).flatMap(sourceKindLabels),
     ];
   }

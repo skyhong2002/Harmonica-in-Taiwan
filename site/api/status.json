@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T01:29:37+08:00",
+  "generatedAt": "2026-06-27T01:41:39+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "ok",
@@ -10,15 +10,15 @@
     "updates": 205,
     "updatesWindowDays": 30,
     "directoryEntries": 105,
-    "watchSources": 244,
+    "watchSources": 321,
     "currentErrors": 0,
-    "latestDataAt": "2026-06-27T01:29:32+08:00",
+    "latestDataAt": "2026-06-27T01:41:39+08:00",
     "latestSocialObservationAt": "2026-06-27T01:11:05+08:00"
   },
   "watchSources": {
     "platforms": {
       "facebook": 86,
-      "instagram": 77,
+      "instagram": 154,
       "threads": 2,
       "x": 5,
       "youtube": 74
@@ -27,6 +27,7 @@
       "facebook_page_posts": 86,
       "rss": 7,
       "rsshub_instagram_profile": 77,
+      "rsshub_instagram_story": 77,
       "youtube_ytdlp": 74
     },
     "platformRows": [
@@ -38,7 +39,7 @@
       },
       {
         "platform": "instagram",
-        "sources": 77,
+        "sources": 154,
         "currentErrors": 0,
         "status": "ok"
       },
@@ -70,7 +71,7 @@
       "label": "正常",
       "summary": "每日 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-06-27 01:29:32",
+        "最新公開資料：2026-06-27 01:41:39",
         "pipeline.log 更新：2026-06-27 00:13:49",
         "pipeline.err.log 更新：2026-06-24 01:57:49",
         "LaunchAgent：not running，last exit 0"
@@ -84,7 +85,7 @@
       "summary": "latest.json 有 205 筆更新，sources.json 有 105 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
-        "watch sources：244"
+        "watch sources：321"
       ]
     },
     {
@@ -95,7 +96,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：8 ms"
+        "耗時：12 ms"
       ]
     },
     {
@@ -103,7 +104,7 @@
       "name": "Instagram RSSHub",
       "status": "ok",
       "label": "正常",
-      "summary": "77 個 Instagram 來源；最新抓取批次目前 0 個錯誤。",
+      "summary": "154 個 Instagram 來源（profile 77、story 77）；最新抓取批次目前 0 個錯誤。",
       "details": [
         "最新社群觀測：2026-06-27 01:11:05"
       ]

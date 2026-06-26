@@ -220,7 +220,7 @@ def parse_youtube_source(row: dict[str, str]) -> dict[str, Any] | None:
     }
 
 
-def parse_instagram_source(row: dict[str, str]) -> dict[str, Any] | None:
+def instagram_account(row: dict[str, str]) -> tuple[str, str] | None:
     raw_url = normalize_url(clean(row.get("ig_url")))
     if not raw_url:
         return None
@@ -237,6 +237,14 @@ def parse_instagram_source(row: dict[str, str]) -> dict[str, Any] | None:
     if not username:
         return None
     canonical = canonical_url(raw_url)
+    return username, canonical
+
+
+def parse_instagram_source(row: dict[str, str]) -> dict[str, Any] | None:
+    account = instagram_account(row)
+    if not account:
+        return None
+    username, canonical = account
     return {
         "enabled": True,
         "id": "ig_" + safe_slug(username, url_hash(canonical)),
@@ -247,6 +255,31 @@ def parse_instagram_source(row: dict[str, str]) -> dict[str, Any] | None:
         "rsshub_base": DEFAULT_RSSHUB_BASE,
         "source_profile_url": f"https://www.instagram.com/{username}/",
         "type": "rsshub_instagram_profile",
+        "username": username,
+        "generated_by": GENERATED_BY,
+    }
+
+
+def parse_instagram_story_source(row: dict[str, str]) -> dict[str, Any] | None:
+    account = instagram_account(row)
+    if not account:
+        return None
+    username, canonical = account
+    return {
+        "enabled": True,
+        "ephemeral": True,
+        "id": "ig_story_" + safe_slug(username, url_hash(canonical)),
+        "include_without_keywords": True,
+        "limit": 5,
+        "media_type": "instagram_story",
+        "name": source_name(row),
+        "platform": "instagram",
+        "provider": "picuki",
+        "route": "/picuki/profile/{username}/story/0",
+        "rsshub_base": DEFAULT_RSSHUB_BASE,
+        "source_profile_url": f"https://www.instagram.com/{username}/",
+        "story_provider": "rsshub_picuki",
+        "type": "rsshub_instagram_story",
         "username": username,
         "generated_by": GENERATED_BY,
     }
@@ -318,6 +351,7 @@ def parse_threads_source(row: dict[str, str]) -> dict[str, Any] | None:
 
 def source_key(source: dict[str, Any]) -> str:
     platform = str(source.get("platform") or source.get("type") or "").casefold()
+    source_type = str(source.get("type") or "").casefold()
     if platform == "facebook" or source.get("type") == "facebook_page_posts":
         page = clean(str(source.get("page") or ""))
         if page and not page.startswith("http"):
@@ -325,8 +359,10 @@ def source_key(source: dict[str, Any]) -> str:
         return "facebook:url:" + canonical_url(str(source.get("url") or page))
     if platform == "youtube" or source.get("type") == "youtube_ytdlp":
         return "youtube:url:" + canonical_url(str(source.get("url") or ""))
-    if platform == "instagram" or source.get("type") == "rsshub_instagram_profile":
-        return "instagram:username:" + clean(str(source.get("username") or "")).strip("@").casefold()
+    if source_type == "rsshub_instagram_story":
+        return "instagram:story:" + clean(str(source.get("username") or "")).strip("@").casefold()
+    if platform == "instagram" or source_type == "rsshub_instagram_profile":
+        return "instagram:profile:" + clean(str(source.get("username") or "")).strip("@").casefold()
     if platform in {"x", "twitter"}:
         return "x:username:" + clean(str(source.get("username") or "")).strip("@").casefold()
     if platform == "threads":
@@ -339,7 +375,14 @@ def generated_sources() -> list[dict[str, Any]]:
     seen: set[str] = set()
     for path in SOURCE_FILES:
         for row in read_csv(path):
-            for parser in (parse_facebook_source, parse_instagram_source, parse_youtube_source, parse_x_source, parse_threads_source):
+            for parser in (
+                parse_facebook_source,
+                parse_instagram_source,
+                parse_instagram_story_source,
+                parse_youtube_source,
+                parse_x_source,
+                parse_threads_source,
+            ):
                 source = parser(row)
                 if not source:
                     continue
@@ -422,6 +465,7 @@ def main() -> int:
                 "generated_added": sum(1 for source in merged if source.get("generated_by") == GENERATED_BY),
                 "facebook_sources": sum(1 for source in merged if source.get("type") == "facebook_page_posts"),
                 "instagram_sources": sum(1 for source in merged if source.get("type") == "rsshub_instagram_profile"),
+                "instagram_story_sources": sum(1 for source in merged if source.get("type") == "rsshub_instagram_story"),
                 "x_sources": sum(1 for source in merged if source.get("platform") == "x"),
                 "threads_sources": sum(1 for source in merged if source.get("platform") == "threads"),
                 "youtube_sources": sum(1 for source in merged if source.get("type") == "youtube_ytdlp"),

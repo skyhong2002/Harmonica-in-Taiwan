@@ -236,7 +236,7 @@ def main() -> int:
     directory_backfills = 0
 
     for source in source_config.get("sources", []):
-        if not source.get("enabled", True) or source.get("type") == "jsonl":
+        if not source.get("enabled", True) or source.get("type") == "jsonl" or source.get("ephemeral"):
             continue
         source_id = str(source.get("id") or "")
         if not source_id or source_id in covered_source_ids:

@@ -69,7 +69,7 @@ def main() -> int:
     sources = [
         source
         for source in source_config.get("sources", [])
-        if source.get("enabled", True) and source.get("type") != "jsonl"
+        if source.get("enabled", True) and source.get("type") != "jsonl" and not source.get("ephemeral")
     ]
     inbox_rows = read_jsonl(INBOX)
     candidate_rows = read_jsonl(CANDIDATES)

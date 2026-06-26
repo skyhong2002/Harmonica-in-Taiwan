@@ -38,6 +38,8 @@ TAG_RE = re.compile(r"<[^>]+>")
 BR_RE = re.compile(r"<br\s*/?>", re.IGNORECASE)
 IMG_RE = re.compile(r"<img\b[^>]*\bsrc=[\"']([^\"']+)[\"']", re.IGNORECASE)
 VIDEO_POSTER_RE = re.compile(r"<video\b[^>]*\bposter=[\"']([^\"']+)[\"']", re.IGNORECASE)
+VIDEO_SRC_RE = re.compile(r"<video\b[^>]*\bsrc=[\"']([^\"']+)[\"']", re.IGNORECASE)
+SOURCE_SRC_RE = re.compile(r"<source\b[^>]*\bsrc=[\"']([^\"']+)[\"']", re.IGNORECASE)
 TAG_VALUE_SPLIT_RE = re.compile(r"\s*(?:[,，、/／+&]|\band\b|\s+)\s*", re.IGNORECASE)
 OPENCODE_GO_BASE_URL = "https://opencode.ai/zen/go/v1"
 DEFAULT_LLM_MODEL = "mimo-v2.5"
@@ -104,6 +106,15 @@ def strip_html(value: str) -> str:
 def image_urls(value: str) -> list[str]:
     urls: list[str] = []
     for raw in [*IMG_RE.findall(value or ""), *VIDEO_POSTER_RE.findall(value or "")]:
+        url = html.unescape(raw)
+        if url and url not in urls:
+            urls.append(url)
+    return urls
+
+
+def video_urls(value: str) -> list[str]:
+    urls: list[str] = []
+    for raw in [*VIDEO_SRC_RE.findall(value or ""), *SOURCE_SRC_RE.findall(value or "")]:
         url = html.unescape(raw)
         if url and url not in urls:
             urls.append(url)
@@ -177,6 +188,10 @@ def compact_text(text: str, limit: int = 1600) -> str:
     return cleaned[:limit]
 
 
+def is_story_source(source: dict[str, Any]) -> bool:
+    return str(source.get("type") or "") == "rsshub_instagram_story" or str(source.get("media_type") or "") == "instagram_story"
+
+
 def normalize_post(
     source: dict[str, Any],
     *,
@@ -186,25 +201,56 @@ def normalize_post(
     posted_at: str,
     media_type: str = "",
     images: list[str] | None = None,
+    videos: list[str] | None = None,
     source_avatar_url: str = "",
+    source_feed_url: str = "",
+    rsshub_guid: str = "",
+    rsshub_title: str = "",
+    story_fetched_at: str = "",
 ) -> dict[str, Any]:
     source_id = source["id"]
-    return {
+    account = source.get("username") or source.get("page") or source.get("url") or ""
+    story_source = is_story_source(source)
+    normalized_text = compact_text(text)
+    if story_source and not normalized_text:
+        normalized_text = f"Instagram story @{account}" if account else "Instagram story"
+    post = {
         "key": f"{source_id}:{post_id or url}",
         "source_id": source_id,
         "source_name": source.get("name") or source_id,
         "platform": source.get("platform") or source.get("type"),
-        "account": source.get("username") or source.get("page") or source.get("url") or "",
+        "account": account,
         "post_id": post_id,
         "posted_at": posted_at,
         "url": url,
         "source_profile_url": source.get("profile_url") or source.get("source_profile_url") or "",
-        "media_type": media_type,
+        "media_type": media_type or source.get("media_type") or "",
         "images": images or [],
         "image_url": (images or [""])[0],
+        "videos": videos or [],
         "source_avatar_url": source_avatar_url,
-        "text": compact_text(text),
+        "text": normalized_text,
     }
+    if source.get("include_without_keywords"):
+        post["include_without_keywords"] = True
+    if source.get("ephemeral"):
+        post["ephemeral"] = True
+    if source_feed_url:
+        post["source_feed_url"] = source_feed_url
+    if story_source:
+        post.update(
+            {
+                "include_without_keywords": True,
+                "media_type": "instagram_story",
+                "story": True,
+                "story_provider": source.get("story_provider") or "rsshub_picuki",
+                "story_fetched_at": story_fetched_at,
+                "source_feed_url": source_feed_url,
+                "rsshub_guid": rsshub_guid,
+                "rsshub_title": rsshub_title,
+            }
+        )
+    return post
 
 
 def fetch_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
@@ -216,23 +262,32 @@ def fetch_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
         root = ET.fromstring(response.read())
 
     posts: list[dict[str, Any]] = []
+    fetched_at = dt.datetime.now(dt.timezone.utc).isoformat()
+    story_source = is_story_source(source)
     channel_avatar = root.findtext("channel/image/url") or ""
     for item in root.findall(".//item"):
         title = text_of(item, "title")
         link = text_of(item, "link")
         desc = text_of(item, "description")
         images = image_urls(desc)
-        published = text_of(item, "pubDate")
+        videos = video_urls(desc)
+        published = text_of(item, "pubDate") or (fetched_at if story_source else "")
         guid = text_of(item, "guid") or link or title
+        post_id = guid or (images + videos + [fetched_at])[0]
         posts.append(
             normalize_post(
                 source,
-                post_id=guid,
+                post_id=post_id,
                 text="\n".join(part for part in [title, strip_html(desc)] if part),
                 url=link,
                 posted_at=published,
                 images=images,
+                videos=videos,
                 source_avatar_url=channel_avatar,
+                source_feed_url=url,
+                rsshub_guid=guid,
+                rsshub_title=title,
+                story_fetched_at=fetched_at if story_source else "",
             )
         )
 
@@ -242,13 +297,16 @@ def fetch_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
         title = atom_text(entry, "title")
         content = atom_text(entry, "content") or atom_text(entry, "summary")
         images = image_urls(content)
-        posted_at = atom_text(entry, "updated") or atom_text(entry, "published")
+        videos = video_urls(content)
+        posted_at = atom_text(entry, "updated") or atom_text(entry, "published") or (fetched_at if story_source else "")
         link = ""
         for link_el in entry.findall("atom:link", ns):
             if link_el.attrib.get("href"):
                 link = link_el.attrib["href"]
                 break
         post_id = atom_text(entry, "id") or link or title
+        if not post_id:
+            post_id = (images + videos + [fetched_at])[0]
         posts.append(
             normalize_post(
                 source,
@@ -257,7 +315,12 @@ def fetch_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
                 url=link,
                 posted_at=posted_at,
                 images=images,
+                videos=videos,
                 source_avatar_url=atom_avatar,
+                source_feed_url=url,
+                rsshub_guid=post_id,
+                rsshub_title=title,
+                story_fetched_at=fetched_at if story_source else "",
             )
         )
 
@@ -299,6 +362,7 @@ def normalize_external_post(source: dict[str, Any], row: dict[str, Any]) -> dict
             )
             if url
         ],
+        videos=[str(url) for url in (row.get("videos") or row.get("video_urls") or []) if url],
         source_avatar_url=str(row.get("source_avatar_url") or row.get("avatar_url") or row.get("profile_image_url") or ""),
     )
     for field in (
@@ -307,9 +371,18 @@ def normalize_external_post(source: dict[str, Any], row: dict[str, Any]) -> dict
         "profile_name",
         "page_name",
         "raw_source",
+        "source_feed_url",
+        "story_provider",
+        "story_fetched_at",
+        "rsshub_guid",
+        "rsshub_title",
     ):
         if row.get(field):
             post[field] = row[field]
+    if row.get("story"):
+        post["story"] = True
+    if row.get("ephemeral"):
+        post["ephemeral"] = True
     if row.get("raw_source"):
         post["raw_source"] = str(row["raw_source"])
     if row.get("include_without_keywords"):
@@ -377,7 +450,7 @@ def fetch_facebook_page(source: dict[str, Any], token: str) -> list[dict[str, An
 
 def fetch_source(source: dict[str, Any], token: str | None) -> list[dict[str, Any]]:
     kind = source.get("type")
-    if kind in {"rss", "rsshub_facebook_page", "rsshub_instagram_profile", "rsshub_twitter_user", "rsshub_threads_user"}:
+    if kind in {"rss", "rsshub_facebook_page", "rsshub_instagram_profile", "rsshub_instagram_story", "rsshub_twitter_user", "rsshub_threads_user"}:
         return fetch_rss(source)
     if kind in {"jsonl", "external_jsonl", "n8n_jsonl"}:
         return fetch_jsonl(source)
@@ -388,7 +461,7 @@ def fetch_source(source: dict[str, Any], token: str | None) -> list[dict[str, An
 
 def should_throttle_source(source: dict[str, Any], token: str | None) -> bool:
     kind = source.get("type")
-    if kind in {"rss", "rsshub_facebook_page", "rsshub_instagram_profile", "rsshub_twitter_user", "rsshub_threads_user", "jsonl", "external_jsonl", "n8n_jsonl"}:
+    if kind in {"rss", "rsshub_facebook_page", "rsshub_instagram_profile", "rsshub_instagram_story", "rsshub_twitter_user", "rsshub_threads_user", "jsonl", "external_jsonl", "n8n_jsonl"}:
         return True
     if kind == "facebook_page_posts" and token:
         return True
@@ -1052,7 +1125,7 @@ def main() -> int:
 
             if llm_result is not None:
                 llm_relevant = bool(post.get("llm_relevant")) and float(post.get("llm_confidence") or 0) >= args.llm_confidence_threshold
-                include_post = bool(args.include_all_new or llm_relevant)
+                include_post = bool(args.include_all_new or post.get("include_without_keywords") or llm_relevant)
             else:
                 include_post = bool(args.include_all_new or matched or post.get("include_without_keywords"))
             if not args.baseline and include_post:

@@ -421,13 +421,24 @@ def build_status() -> dict[str, Any]:
         )
     )
 
-    ig_errors = current_error_platforms.get("instagram", 0) + current_error_types.get("rsshub_instagram_profile", 0)
+    ig_error_types = {"rsshub_instagram_profile", "rsshub_instagram_story"}
+    ig_errors = sum(
+        1
+        for row in annotated_current_errors
+        if row["platform"] == "instagram" or row["sourceType"] in ig_error_types
+    )
+    ig_profile_sources = watch_types.get("rsshub_instagram_profile", 0)
+    ig_story_sources = watch_types.get("rsshub_instagram_story", 0)
     components.append(
         component(
             "instagram",
             "Instagram RSSHub",
             "degraded" if ig_errors else "ok",
-            f"{watch_platforms.get('instagram', 0)} 個 Instagram 來源；最新抓取批次目前 {ig_errors} 個錯誤。",
+            (
+                f"{watch_platforms.get('instagram', 0)} 個 Instagram 來源"
+                f"（profile {ig_profile_sources}、story {ig_story_sources}）；"
+                f"最新抓取批次目前 {ig_errors} 個錯誤。"
+            ),
             [f"最新社群觀測：{time_label(latest_social_seen_at)}"],
         )
     )

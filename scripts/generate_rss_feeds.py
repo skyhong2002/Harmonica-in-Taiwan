@@ -507,6 +507,9 @@ def source_feed_url(source: dict[str, Any]) -> str:
         if provider in {"private_api", "instagram"}:
             return f"{base}/instagram/user/{url_part(username)}"
         return f"{base}/picuki/profile/{url_part(username)}"
+    if kind == "rsshub_instagram_story":
+        username = source.get("username")
+        return f"{base}/picuki/profile/{url_part(username)}/story/0" if username else ""
     return str(source.get("url") or "")
 
 
@@ -522,7 +525,7 @@ def public_profile_url(source: dict[str, Any]) -> str:
     if kind == "facebook_page_posts":
         page = str(source.get("page") or source.get("username") or "").strip().strip("/")
         return f"https://www.facebook.com/{page}/" if page else ""
-    if kind == "rsshub_instagram_profile":
+    if kind in {"rsshub_instagram_profile", "rsshub_instagram_story"}:
         username = str(source.get("username") or "").strip().strip("/")
         return f"https://www.instagram.com/{username}/" if username else ""
     platform = str(source.get("platform") or "").casefold()
@@ -866,7 +869,7 @@ def llm_category_ids(row: dict[str, Any]) -> list[str]:
 
 def candidate_category_ids(row: dict[str, Any]) -> list[str]:
     llm_ids = llm_category_ids(row)
-    if row.get("llm_relevant") is False:
+    if row.get("llm_relevant") is False and not row.get("include_without_keywords"):
         return []
 
     text = candidate_text(row)
@@ -888,7 +891,10 @@ def candidate_category_ids(row: dict[str, Any]) -> list[str]:
 def candidate_display_tags(row: dict[str, Any]) -> list[str]:
     labels = row.get("llm_labels") or []
     keywords = row.get("matched_keywords") or []
-    return normalize_tag_values([*normalize_tag_values(labels), *normalize_tag_values(keywords)], limit=8)
+    tags = normalize_tag_values([*normalize_tag_values(labels), *normalize_tag_values(keywords)], limit=8)
+    if not tags and (row.get("story") or row.get("media_type") == "instagram_story"):
+        return ["Instagram story"]
+    return tags
 
 
 def read_candidate_rows() -> list[dict[str, Any]]:
@@ -1104,8 +1110,12 @@ def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
     link = str(row.get("url") or PUBLIC_BASE_URL)
     categories = candidate_category_ids(row)
     display_tags = candidate_display_tags(row)
+    media_type = str(row.get("media_type") or "")
+    story = bool(row.get("story") or media_type == "instagram_story")
+    platform_label = "Instagram story" if story else source_platform_label(row.get("platform") or "")
     images = [str(url) for url in (row.get("images") or []) if url]
     image_url = str(row.get("image_url") or (images[0] if images else ""))
+    videos = [str(url) for url in (row.get("videos") or []) if url]
     local_image_url = cache_image(image_url)
     avatar_source_url = str(
         row.get("source_avatar_url")
@@ -1130,9 +1140,17 @@ def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
         "source_profile_url": source_profile_url,
         "account": row.get("account") or profile.get("account") or "",
         "platform": row.get("platform") or "",
+        "platform_label": platform_label,
         "posted_at": row.get("posted_at") or "",
         "posted_at_local": local_date(str(row.get("posted_at") or "")),
         "seen_at": row.get("seen_at") or "",
+        "media_type": media_type,
+        "story": story,
+        "story_provider": row.get("story_provider") or "",
+        "story_fetched_at": row.get("story_fetched_at") or "",
+        "source_feed_url": row.get("source_feed_url") or "",
+        "rsshub_guid": row.get("rsshub_guid") or "",
+        "rsshub_title": row.get("rsshub_title") or "",
         "matched_keywords": display_tags,
         "keyword_matches": row.get("keyword_matches") or [],
         "llm_relevant": row.get("llm_relevant"),
@@ -1142,6 +1160,7 @@ def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
         "llm_reason": normalize_taiwan_orthography(row.get("llm_reason") or ""),
         "text": text,
         "images": images,
+        "videos": videos,
         "source_image_url": image_url,
         "image_url": local_image_url or image_url,
         "source_avatar_url": avatar_source_url,
@@ -1164,7 +1183,7 @@ def add_update_item(channel: ET.Element, public_row: dict[str, Any]) -> None:
         part
         for part in [
             f"來源：{public_row.get('source')}",
-            f"平台：{public_row.get('platform') or 'public'}",
+            f"平台：{public_row.get('platform_label') or public_row.get('platform') or 'public'}",
             f"時間：{public_row.get('posted_at') or '未標示'}",
             f"標籤：{', '.join(public_row.get('matched_keywords') or [])}" if public_row.get("matched_keywords") else "",
             "",
@@ -1428,7 +1447,8 @@ def render_source_avatar(item: dict[str, Any], class_name: str = "source-avatar"
 
 def render_source_identity(item: dict[str, Any], class_name: str = "source-avatar", meta_class: str = "feed-latest-meta") -> str:
     source = item.get("source") or "公開來源"
-    meta = f"{item.get('posted_at_local') or '未標示'} · {item.get('platform') or 'public'}"
+    platform = item.get("platform_label") or item.get("platform") or "public"
+    meta = f"{item.get('posted_at_local') or '未標示'} · {platform}"
     body = (
         f'{render_source_avatar(item, class_name)}'
         "<div>"
@@ -1509,6 +1529,8 @@ def source_kind_labels(source: dict[str, Any]) -> list[str]:
     labels = {source_platform_label(source.get("platform") or source.get("type"))}
     if str(source.get("type") or "").casefold() == "rss":
         labels.add("RSS")
+    if str(source.get("type") or "").casefold() == "rsshub_instagram_story":
+        labels.add("Instagram story")
     return sorted(labels)
 
 

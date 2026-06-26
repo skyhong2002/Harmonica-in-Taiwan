@@ -69,6 +69,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "rei_harmonica",
+          "profileUrl": "https://www.instagram.com/rei_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/rei_harmonica/story/0"
+        },
+        {
           "id": "x_rei_harmonica",
           "name": "山下伶 Rei Yamashita",
           "platform": "x",
@@ -165,6 +174,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
+        },
+        {
           "id": "ig_dmingstudio",
           "name": "蔡明憲 DMing Studio",
           "platform": "instagram",
@@ -172,6 +190,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "dmingstudio",
           "profileUrl": "https://www.instagram.com/dmingstudio/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_dmingstudio",
+          "name": "蔡明憲 DMing Studio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "dmingstudio",
+          "profileUrl": "https://www.instagram.com/dmingstudio/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/dmingstudio/story/0"
         },
         {
           "id": "yt_dmingstudio",
@@ -252,6 +279,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_jangli_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jangli_harmonica",
+          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/jangli_harmonica/story/0"
+        },
+        {
           "id": "x_jangliharmonica",
           "name": "李讓 Jang Li",
           "platform": "x",
@@ -330,6 +366,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_nycu_harmonica",
+          "name": "陽明交大竹韻口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nycu_harmonica",
+          "profileUrl": "https://www.instagram.com/nycu_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nycu_harmonica/story/0"
+        },
+        {
           "id": "yt_ucliodayl9_jvnbpc4nfthgw",
           "name": "陽明交大竹韻口琴社",
           "platform": "youtube",
@@ -394,6 +439,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://facebook.com/profile.php?id=100085232439912",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_timothyyip_harmonica",
+          "name": "Timothy Yip 葉進禧",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "timothyyip_harmonica",
+          "profileUrl": "https://www.instagram.com/timothyyip_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/timothyyip_harmonica/story/0"
         },
         {
           "id": "ig_timothyyip_harmonica",
@@ -487,6 +541,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
+        },
+        {
           "id": "x_minami_risa",
           "name": "南里沙",
           "platform": "x",
@@ -569,6 +632,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "jongseongpark_harmonicist",
           "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jongseongpark_harmonicist",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jongseongpark_harmonicist",
+          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/jongseongpark_harmonicist/story/0"
         },
         {
           "id": "yt_jongseongpark",
@@ -765,6 +837,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
+        },
+        {
           "id": "yt_cyleoharmonica",
           "name": "CY Leo 何卓彥",
           "platform": "youtube",
@@ -843,6 +924,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
+        },
+        {
           "id": "yt_marcoscollharpandsoul",
           "name": "Marcos Coll",
           "platform": "youtube",
@@ -916,6 +1006,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "chaotengchang",
           "profileUrl": "https://www.instagram.com/chaotengchang/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chaotengchang",
+          "name": "張晁滕",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chaotengchang",
+          "profileUrl": "https://www.instagram.com/chaotengchang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chaotengchang/story/0"
         },
         {
           "id": "yt_chaotengchang",
@@ -1031,6 +1130,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "fanhsiaoyi",
+          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/fanhsiaoyi/story/0"
+        },
+        {
           "id": "threads_fanhsiaoyi",
           "name": "范曉怡",
           "platform": "threads",
@@ -1106,6 +1214,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "otistsao",
           "profileUrl": "https://www.instagram.com/otistsao/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_otistsao",
+          "name": "曹小歐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "otistsao",
+          "profileUrl": "https://www.instagram.com/otistsao/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/otistsao/story/0"
         },
         {
           "id": "threads_otistsao",
@@ -1302,6 +1419,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_aidennevelyn",
+          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "aidennevelyn",
+          "profileUrl": "https://www.instagram.com/aidennevelyn/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/aidennevelyn/story/0"
+        },
+        {
           "id": "x_aidensoon",
           "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
           "platform": "x",
@@ -1392,6 +1518,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "DuoVolce",
+          "profileUrl": "https://www.instagram.com/DuoVolce/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/DuoVolce/story/0"
+        },
+        {
           "id": "x_duovolce",
           "name": "Duo Volce Music Studio 誼聲音樂室",
           "platform": "x",
@@ -1477,6 +1612,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "DuoVolce",
+          "profileUrl": "https://www.instagram.com/DuoVolce/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/DuoVolce/story/0"
+        },
+        {
           "id": "x_duovolce",
           "name": "Duo Volce Music Studio 誼聲音樂室",
           "platform": "x",
@@ -1556,6 +1700,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_redbricksharmonica",
+          "name": "RedBricks Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "redbricksharmonica",
+          "profileUrl": "https://www.instagram.com/redbricksharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/redbricksharmonica/story/0"
+        },
+        {
           "id": "yt_redbricksharmonica",
           "name": "RedBricks Harmonica",
           "platform": "youtube",
@@ -1625,6 +1778,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://facebook.com/twharmonica",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/taiwanharmonica/story/0"
         },
         {
           "id": "ig_taiwanharmonica",
@@ -1703,6 +1865,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "ntnu_harmonica_club",
           "profileUrl": "https://www.instagram.com/ntnu_harmonica_club/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_ntnu_harmonica_club",
+          "name": "師大口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "ntnu_harmonica_club",
+          "profileUrl": "https://www.instagram.com/ntnu_harmonica_club/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/ntnu_harmonica_club/story/0"
         }
       ]
     },
@@ -1767,6 +1938,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "ntubluesound",
           "profileUrl": "https://www.instagram.com/ntubluesound/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_ntubluesound",
+          "name": "台大藍聲口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "ntubluesound",
+          "profileUrl": "https://www.instagram.com/ntubluesound/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/ntubluesound/story/0"
         },
         {
           "id": "yt_ntubluesound",
@@ -1840,6 +2020,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "punch.harp",
           "profileUrl": "https://www.instagram.com/punch.harp/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "punch.harp",
+          "profileUrl": "https://www.instagram.com/punch.harp/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/punch.harp/story/0"
         },
         {
           "id": "yt_punchharp",
@@ -1963,6 +2152,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "peacetones.harmonica",
+          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/peacetones.harmonica/story/0"
+        },
+        {
           "id": "yt_peacetonesharmonica",
           "name": "音和樂器",
           "platform": "youtube",
@@ -2006,6 +2204,15 @@ window.HARMONICA_OBSERVE_DATA = {
         "國際交流"
       ],
       "monitorSources": [
+        {
+          "id": "ig_story_taro_senga",
+          "name": "千賀太郎",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "taro_senga",
+          "profileUrl": "https://www.instagram.com/taro_senga/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/taro_senga/story/0"
+        },
         {
           "id": "ig_taro_senga",
           "name": "千賀太郎",
@@ -2068,6 +2275,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_toshimiller",
+          "name": "藤井俊充",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "toshimiller",
+          "profileUrl": "https://www.instagram.com/toshimiller/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/toshimiller/story/0"
+        },
+        {
           "id": "ig_toshimiller",
           "name": "藤井俊充",
           "platform": "instagram",
@@ -2122,6 +2338,15 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者"
       ],
       "monitorSources": [
+        {
+          "id": "ig_story_yich",
+          "name": "廖苡晴",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "__yich___",
+          "profileUrl": "https://www.instagram.com/__yich___/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/__yich___/story/0"
+        },
         {
           "id": "ig_yich",
           "name": "廖苡晴",
@@ -2193,6 +2418,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "111quintet",
           "profileUrl": "https://www.instagram.com/111quintet/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_111quintet",
+          "name": "111 Trio / 111 Quintet",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "111quintet",
+          "profileUrl": "https://www.instagram.com/111quintet/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/111quintet/story/0"
         },
         {
           "id": "yt_ucycpsbkpva9oaaaqcrjcvza",
@@ -2269,6 +2503,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/kahkeanho/story/0"
+        },
+        {
           "id": "yt_hokahkean1999",
           "name": "何家健 HarmoniKahkean",
           "platform": "youtube",
@@ -2318,6 +2561,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "musette585",
           "profileUrl": "https://www.instagram.com/musette585/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_musette585",
+          "name": "林士傑",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "musette585",
+          "profileUrl": "https://www.instagram.com/musette585/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/musette585/story/0"
         }
       ]
     },
@@ -2363,6 +2615,15 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceSummary": "臺灣口琴演奏者林裕豐，兼職教學與演出。",
       "sourceTagReason": "來源為個人，類別明確標示為「演奏者」，並有網站提供教學課程資訊。",
       "monitorSources": [
+        {
+          "id": "ig_story_yf_life",
+          "name": "林裕豐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yf__life",
+          "profileUrl": "https://www.instagram.com/yf__life/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yf__life/story/0"
+        },
         {
           "id": "ig_yf_life",
           "name": "林裕豐",
@@ -2425,6 +2686,15 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceSummary": "半音階與重奏演奏者，活躍於天狼星與胖擊系團隊。",
       "sourceTagReason": "資料明確標註為個人演奏者，專長半音階與重奏，並提及相關演出團隊。",
       "monitorSources": [
+        {
+          "id": "ig_story_yenhua_wang",
+          "name": "王衍華",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yenhua_wang",
+          "profileUrl": "https://www.instagram.com/yenhua_wang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yenhua_wang/story/0"
+        },
         {
           "id": "ig_yenhua_wang",
           "name": "王衍華",
@@ -2508,6 +2778,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_sodifficult_harmonica",
+          "name": "口琴好南合奏樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sodifficult_harmonica",
+          "profileUrl": "https://www.instagram.com/sodifficult_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sodifficult_harmonica/story/0"
+        },
+        {
           "id": "yt_db1616fd7c",
           "name": "口琴好南合奏樂團",
           "platform": "youtube",
@@ -2571,6 +2850,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_yora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "_yora._",
+          "profileUrl": "https://www.instagram.com/_yora._/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/_yora._/story/0"
+        },
+        {
           "id": "ig_yora",
           "name": "陳瑤容 Yora Chen",
           "platform": "instagram",
@@ -2629,6 +2917,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "chgsh_harmonica",
           "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chgsh_harmonica",
+          "name": "彰女微光口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chgsh_harmonica",
+          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chgsh_harmonica/story/0"
         }
       ]
     },
@@ -2679,6 +2976,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "ckhc_64th",
           "profileUrl": "https://www.instagram.com/ckhc_64th/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_ckhc_64th",
+          "name": "建中口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "ckhc_64th",
+          "profileUrl": "https://www.instagram.com/ckhc_64th/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/ckhc_64th/story/0"
         },
         {
           "id": "yt_ckhc3423",
@@ -2751,6 +3057,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "tcfsh_harmonica",
           "profileUrl": "https://www.instagram.com/tcfsh_harmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_tcfsh_harmonica",
+          "name": "中一中口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "tcfsh_harmonica",
+          "profileUrl": "https://www.instagram.com/tcfsh_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/tcfsh_harmonica/story/0"
         },
         {
           "id": "yt_19430dac8a",
@@ -2829,6 +3144,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
+        },
+        {
           "id": "yt_hoontobe",
           "name": "Younghoon Cho",
           "platform": "youtube",
@@ -2905,6 +3229,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_sorhei",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sorhei",
+          "profileUrl": "https://www.instagram.com/sorhei/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sorhei/story/0"
+        },
+        {
           "id": "yt_kelvinleungharmonica",
           "name": "梁承熹 Kelvin Leung",
           "platform": "youtube",
@@ -2967,6 +3300,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "kshs_harmonica",
           "profileUrl": "https://www.instagram.com/kshs_harmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_kshs_harmonica",
+          "name": "高雄中學口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "kshs_harmonica",
+          "profileUrl": "https://www.instagram.com/kshs_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/kshs_harmonica/story/0"
         }
       ]
     },
@@ -3031,6 +3373,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "csmu_bluemelody",
           "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_csmu_bluemelody",
+          "name": "中山醫藍韻口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "csmu_bluemelody",
+          "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/csmu_bluemelody/story/0"
         },
         {
           "id": "yt_10f4784559",
@@ -3103,6 +3454,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "cozy_harmonica_60th",
           "profileUrl": "https://www.instagram.com/cozy_harmonica_60th/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_cozy_harmonica_60th",
+          "name": "師大附中舒馨口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "cozy_harmonica_60th",
+          "profileUrl": "https://www.instagram.com/cozy_harmonica_60th/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/cozy_harmonica_60th/story/0"
         },
         {
           "id": "yt_uctd9azdwomwztiekmkmxdla",
@@ -3179,6 +3539,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "dr.blue_harmonica",
           "profileUrl": "https://www.instagram.com/dr.blue_harmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_dr_blue_harmonica",
+          "name": "Dr. Blue 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "dr.blue_harmonica",
+          "profileUrl": "https://www.instagram.com/dr.blue_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/dr.blue_harmonica/story/0"
         },
         {
           "id": "yt_ucvhln_2awpljqbfo_9apatw",
@@ -3298,6 +3667,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_nthu_harmonica_club",
+          "name": "清華大學口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nthu_harmonica_club",
+          "profileUrl": "https://www.instagram.com/nthu_harmonica_club/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nthu_harmonica_club/story/0"
+        },
+        {
           "id": "yt_uc9jltwvjkmzna3p_mbtiinq",
           "name": "清華大學口琴社",
           "platform": "youtube",
@@ -3371,6 +3749,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_judys_harmonica_ensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "judys.harmonica.ensemble",
+          "profileUrl": "https://www.instagram.com/judys.harmonica.ensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/judys.harmonica.ensemble/story/0"
+        },
+        {
           "id": "yt_judysharmonicaensemble",
           "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
           "platform": "youtube",
@@ -3441,6 +3828,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "judygigo",
           "profileUrl": "https://www.instagram.com/judygigo/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_judygigo",
+          "name": "莊筑迪",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "judygigo",
+          "profileUrl": "https://www.instagram.com/judygigo/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/judygigo/story/0"
         }
       ]
     },
@@ -3505,6 +3901,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "harmonica_ncue",
           "profileUrl": "https://www.instagram.com/harmonica_ncue/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_ncue",
+          "name": "彰師大白沙口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_ncue",
+          "profileUrl": "https://www.instagram.com/harmonica_ncue/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_ncue/story/0"
         },
         {
           "id": "yt_ucw8tcnjxpgx1sf8csufkf1w",
@@ -3574,6 +3979,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "fcu_harmonica",
           "profileUrl": "https://www.instagram.com/fcu_harmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_fcu_harmonica",
+          "name": "逢甲口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "fcu_harmonica",
+          "profileUrl": "https://www.instagram.com/fcu_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/fcu_harmonica/story/0"
         },
         {
           "id": "yt_fengchiaharmonicaclub7692",
@@ -3647,6 +4061,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_baba_harmonica_studio",
+          "name": "巴巴口琴坊",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "baba_harmonica_studio",
+          "profileUrl": "https://www.instagram.com/baba_harmonica_studio/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/baba_harmonica_studio/story/0"
+        },
+        {
           "id": "yt_yoyo708520",
           "name": "巴巴口琴坊",
           "platform": "youtube",
@@ -3697,6 +4120,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "attack_on_harmonica_ensemble",
           "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_attack_on_harmonica_ensemble",
+          "name": "進擊的口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "attack_on_harmonica_ensemble",
+          "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/attack_on_harmonica_ensemble/story/0"
         }
       ]
     },
@@ -3744,6 +4176,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "staydrunk_h.e",
           "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_staydrunk_h_e",
+          "name": "Stay Drunk 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "staydrunk_h.e",
+          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/staydrunk_h.e/story/0"
         },
         {
           "id": "yt_uct3ifdfoqpndqm8j5chesda",
@@ -3819,6 +4260,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_laelapsharmonica",
+          "name": "Laelaps 口琴",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "laelapsharmonica",
+          "profileUrl": "https://www.instagram.com/laelapsharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/laelapsharmonica/story/0"
+        },
+        {
           "id": "yt_laelapsharmonica",
           "name": "Laelaps 口琴",
           "platform": "youtube",
@@ -3873,6 +4323,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "npust.hmc",
           "profileUrl": "https://www.instagram.com/npust.hmc/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_npust_hmc",
+          "name": "屏科大口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "npust.hmc",
+          "profileUrl": "https://www.instagram.com/npust.hmc/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/npust.hmc/story/0"
         }
       ]
     },
@@ -3941,6 +4400,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_rolabo_lin",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "rolabo_lin",
+          "profileUrl": "https://www.instagram.com/rolabo_lin/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/rolabo_lin/story/0"
+        },
+        {
           "id": "yt_ucq7wiztevpndeaaj6rdxzea",
           "name": "林家靖 Rolabo Lin",
           "platform": "youtube",
@@ -4005,6 +4473,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://facebook.com/theduet.music",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_theduet_music",
+          "name": "The Duet 獨特音樂",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "theduet.music",
+          "profileUrl": "https://www.instagram.com/theduet.music/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/theduet.music/story/0"
         },
         {
           "id": "ig_theduet_music",
@@ -4089,6 +4566,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_nutc_harmonica",
+          "name": "臺中科大口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nutc_harmonica",
+          "profileUrl": "https://www.instagram.com/nutc_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nutc_harmonica/story/0"
+        },
+        {
           "id": "yt_nutc_harmonica",
           "name": "臺中科大口琴社",
           "platform": "youtube",
@@ -4165,6 +4651,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_mr_why_why",
+          "name": "mr.Why 花影樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "mr.why.why",
+          "profileUrl": "https://www.instagram.com/mr.why.why/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/mr.why.why/story/0"
+        },
+        {
           "id": "yt_mrwhyofficialchannel",
           "name": "mr.Why 花影樂團",
           "platform": "youtube",
@@ -4231,6 +4726,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "tnfsh_harmonica.club",
           "profileUrl": "https://www.instagram.com/tnfsh_harmonica.club/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_tnfsh_harmonica_club",
+          "name": "臺南一中口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "tnfsh_harmonica.club",
+          "profileUrl": "https://www.instagram.com/tnfsh_harmonica.club/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/tnfsh_harmonica.club/story/0"
         }
       ]
     },
@@ -4321,6 +4825,15 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "monitorSources": [
         {
+          "id": "ig_story_usd_harmonica",
+          "name": "Up Side Down",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "usd_harmonica",
+          "profileUrl": "https://www.instagram.com/usd_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/usd_harmonica/story/0"
+        },
+        {
           "id": "ig_usd_harmonica",
           "name": "Up Side Down",
           "platform": "instagram",
@@ -4403,6 +4916,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_ncku_harmonicaclub",
+          "name": "成大口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "ncku_harmonicaclub",
+          "profileUrl": "https://www.instagram.com/ncku_harmonicaclub/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/ncku_harmonicaclub/story/0"
+        },
+        {
           "id": "yt_8fac81430c",
           "name": "成大口琴社",
           "platform": "youtube",
@@ -4477,6 +4999,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "gordonleeharmonica",
           "profileUrl": "https://www.instagram.com/gordonleeharmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_gordonleeharmonica",
+          "name": "Gordon Lee 李俊樂",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "gordonleeharmonica",
+          "profileUrl": "https://www.instagram.com/gordonleeharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/gordonleeharmonica/story/0"
         },
         {
           "id": "yt_harmonicagor",
@@ -4598,6 +5129,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_siriusharmonicaensemble",
+          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "siriusharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/siriusharmonicaensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/siriusharmonicaensemble/story/0"
+        },
+        {
           "id": "yt_siriusharp",
           "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
           "platform": "youtube",
@@ -4670,6 +5210,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "mandy730508_harmonica",
           "profileUrl": "https://www.instagram.com/mandy730508_harmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_mandy730508_harmonica",
+          "name": "張筑婷",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "mandy730508_harmonica",
+          "profileUrl": "https://www.instagram.com/mandy730508_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/mandy730508_harmonica/story/0"
         },
         {
           "id": "yt_mandy730508",
@@ -4748,6 +5297,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_mcuhc",
+          "name": "銘傳口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "mcuhc",
+          "profileUrl": "https://www.instagram.com/mcuhc/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/mcuhc/story/0"
+        },
+        {
           "id": "yt_ucxcrjsu6ecmndpd5d4di4aq",
           "name": "銘傳口琴社",
           "platform": "youtube",
@@ -4810,6 +5368,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://facebook.com/Weissenberg.Harmonicas",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weissenbergtw",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weissenbergtw",
+          "profileUrl": "https://www.instagram.com/weissenbergtw/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weissenbergtw/story/0"
         },
         {
           "id": "ig_weissenbergtw",
@@ -4888,6 +5455,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "nkustharmonica",
           "profileUrl": "https://www.instagram.com/nkustharmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nkustharmonica",
+          "name": "高科大口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nkustharmonica",
+          "profileUrl": "https://www.instagram.com/nkustharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nkustharmonica/story/0"
         }
       ]
     },
@@ -5062,6 +5638,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://facebook.com/yellowstone.music.shop.tw",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yellowstone_music_shop",
+          "name": "黃石樂器",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yellowstone_music_shop",
+          "profileUrl": "https://www.instagram.com/yellowstone_music_shop/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yellowstone_music_shop/story/0"
         },
         {
           "id": "ig_yellowstone_music_shop",
@@ -5239,6 +5824,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "donuts_harmonica",
           "profileUrl": "https://www.instagram.com/donuts_harmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_donuts_harmonica",
+          "name": "DoNuts 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "donuts_harmonica",
+          "profileUrl": "https://www.instagram.com/donuts_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/donuts_harmonica/story/0"
         },
         {
           "id": "yt_harpdonuts",
@@ -5558,6 +6152,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_ntch_taipei",
+          "name": "國家兩廳院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "ntch.taipei",
+          "profileUrl": "https://www.instagram.com/ntch.taipei/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/ntch.taipei/story/0"
+        },
+        {
           "id": "yt_ntcharts",
           "name": "國家兩廳院",
           "platform": "youtube",
@@ -5628,6 +6231,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "nycu_artscenter",
           "profileUrl": "https://www.instagram.com/nycu_artscenter/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nycu_artscenter",
+          "name": "國立陽明交通大學藝文中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nycu_artscenter",
+          "profileUrl": "https://www.instagram.com/nycu_artscenter/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nycu_artscenter/story/0"
         },
         {
           "id": "yt_k8f",
@@ -5767,6 +6379,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_hsinchucounty_culture",
+          "name": "新竹縣文化局",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hsinchucounty_culture",
+          "profileUrl": "https://www.instagram.com/hsinchucounty_culture/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hsinchucounty_culture/story/0"
+        },
+        {
           "id": "yt_ucqrgye_3lymvt7ewhrzbtzg",
           "name": "新竹縣文化局",
           "platform": "youtube",
@@ -5842,6 +6463,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
+        },
+        {
           "id": "yt_uctl1euke_x0w6tahecepgmq",
           "name": "臺中國家歌劇院",
           "platform": "youtube",
@@ -5908,6 +6538,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
         },
         {
           "id": "ig_weiwuying_centerforthearts",
@@ -6042,6 +6681,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_pocketharmonic",
+          "name": "口袋琴房 Pocket Harmonic",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "pocketharmonic",
+          "profileUrl": "https://www.instagram.com/pocketharmonic/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/pocketharmonic/story/0"
+        },
+        {
           "id": "yt_pocketharmonic",
           "name": "口袋琴房 Pocket Harmonic",
           "platform": "youtube",
@@ -6113,6 +6761,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "music4fun.com.tw",
           "profileUrl": "https://www.instagram.com/music4fun.com.tw/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_music4fun_com_tw",
+          "name": "東和樂器",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "music4fun.com.tw",
+          "profileUrl": "https://www.instagram.com/music4fun.com.tw/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/music4fun.com.tw/story/0"
         },
         {
           "id": "yt_ucj6k37vazqzrldrbrffdfjw",
@@ -6287,6 +6944,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "anafternoonwithharmonica",
           "profileUrl": "https://www.instagram.com/anafternoonwithharmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_anafternoonwithharmonica",
+          "name": "An Afternoon with Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "anafternoonwithharmonica",
+          "profileUrl": "https://www.instagram.com/anafternoonwithharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/anafternoonwithharmonica/story/0"
         }
       ]
     },
@@ -6549,6 +7215,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "aurora._.harmonica",
           "profileUrl": "https://www.instagram.com/aurora._.harmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_aurora_harmonica",
+          "name": "吳采容",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "aurora._.harmonica",
+          "profileUrl": "https://www.instagram.com/aurora._.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/aurora._.harmonica/story/0"
         }
       ]
     },
@@ -6593,6 +7268,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "harmonica_wang",
           "profileUrl": "https://www.instagram.com/harmonica_wang/",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_wang",
+          "name": "王心禾",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.instagram.com/harmonica_wang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_wang/story/0"
         }
       ]
     },
@@ -6698,6 +7382,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://facebook.com/emerychen.cm",
           "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yenmingchen",
+          "name": "陳彥銘",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yenmingchen",
+          "profileUrl": "https://www.instagram.com/yenmingchen/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yenmingchen/story/0"
         },
         {
           "id": "ig_yenmingchen",
@@ -6807,6 +7500,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "ig_story_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
+        },
+        {
           "id": "yt_cbd128e3de",
           "name": "黃冠誌",
           "platform": "youtube",
@@ -6840,14 +7542,14 @@ window.HARMONICA_OBSERVE_DATA = {
       "馬來西亞": 2
     },
     "watchSources": {
-      "totalSources": 244,
-      "rsshubSources": 84,
+      "totalSources": 321,
+      "rsshubSources": 161,
       "apifySources": 86,
       "facebookSources": 86,
       "youtubeSources": 74,
       "platforms": {
         "facebook": 86,
-        "instagram": 77,
+        "instagram": 154,
         "threads": 2,
         "x": 5,
         "youtube": 74
@@ -6856,6 +7558,7 @@ window.HARMONICA_OBSERVE_DATA = {
         "facebook_page_posts": 86,
         "rss": 7,
         "rsshub_instagram_profile": 77,
+        "rsshub_instagram_story": 77,
         "youtube_ytdlp": 74
       }
     }
