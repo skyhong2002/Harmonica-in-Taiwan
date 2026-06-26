@@ -31,6 +31,7 @@ AVATAR_PLATFORM_PRIORITY = {
 DEFAULT_AVATAR_PLATFORM_PRIORITY = 99
 TAG_VALUE_SPLIT_RE = re.compile(r"\s*(?:[,，、/／+&]|\band\b|\s+)\s*", re.IGNORECASE)
 TAG_FORBIDDEN_CHARS_RE = re.compile(r"[,，、/／+&\s]")
+TEXT_PART_SPLIT_RE = re.compile(r"\s*(?:[/／；;、,，+&]|\band\b)\s*", re.IGNORECASE)
 
 SOURCE_FILES = [
     ("watchlist", PROJECT_ROOT / "data" / "sources" / "harmonica-source-watchlist-public.csv"),
@@ -84,6 +85,32 @@ def normalize_tag_values(value: Any, *, limit: int = 8) -> list[str]:
             if len(tags) >= limit:
                 return tags
     return tags
+
+
+def text_parts(value: str | None, *, limit: int = 6) -> list[str]:
+    parts: list[str] = []
+    for part in TEXT_PART_SPLIT_RE.split(clean(value)):
+        part = part.strip()
+        if part and part not in parts:
+            parts.append(part)
+        if len(parts) >= limit:
+            break
+    return parts
+
+
+def human_join(parts: list[str]) -> str:
+    parts = [part for part in parts if part]
+    if not parts:
+        return ""
+    if len(parts) == 1:
+        return parts[0]
+    if len(parts) == 2:
+        return f"{parts[0]}與{parts[1]}"
+    return "、".join(parts[:-1]) + f"與{parts[-1]}"
+
+
+def readable_text(value: str | None) -> str:
+    return human_join(text_parts(value, limit=4))
 
 
 def normalize_key(value: str | None) -> str:
@@ -212,7 +239,7 @@ def entry_tag_fingerprint(entry: dict[str, object]) -> str:
         "type": entry.get("type") or "",
         "region": entry.get("region") or "",
         "cityOrFocus": entry.get("cityOrFocus") or "",
-        "summary": entry.get("summary") or "",
+        "summary": entry.get("structuredSummary") or entry.get("summary") or "",
         "keywords": entry.get("keywords") or "",
         "links": entry.get("links") or [],
     }
@@ -268,7 +295,18 @@ def social_identity_keys(entry: dict[str, object]) -> set[str]:
 def entry_text(entry: dict[str, object]) -> str:
     return " ".join(
         str(entry.get(field) or "")
-        for field in ("name", "nameEn", "category", "type", "country", "region", "cityOrFocus", "summary", "keywords")
+        for field in (
+            "name",
+            "nameEn",
+            "category",
+            "type",
+            "country",
+            "region",
+            "cityOrFocus",
+            "summary",
+            "structuredSummary",
+            "keywords",
+        )
     )
 
 
@@ -317,7 +355,7 @@ def best_entry(entries: list[dict[str, object]]) -> dict[str, object]:
 
 
 def summary_score(entry: dict[str, object], primary: dict[str, object]) -> tuple[int, int, int, int, int, int]:
-    summary = str(entry.get("summary") or "")
+    summary = str(entry.get("structuredSummary") or entry.get("summary") or "")
     noisy_words = ("相關來源", "監看", "觀察", "線索", "資料來源", "參考來源")
     generic_name_words = ("相關", "子來源", "新團體", "參考來源")
     parts = [part for part in summary.split(" / ") if part]
@@ -390,7 +428,8 @@ def merge_group(entries: list[dict[str, object]]) -> dict[str, object]:
             if value and value != primary.get("name") and value != primary.get("nameEn")
         ]
     )
-    summaries = merge_unique_strings([str(entry.get("summary") or "") for entry in entries])
+    summaries = merge_unique_strings([str(entry.get("structuredSummary") or "") for entry in entries])
+    descriptions = merge_unique_strings([str(entry.get("summary") or "") for entry in entries])
     keywords = merge_unique_strings([str(entry.get("keywords") or "") for entry in entries])
     types = merge_unique_strings([str(entry.get("type") or "") for entry in entries])
     countries = merge_unique_strings([str(entry.get("country") or "") for entry in entries])
@@ -405,7 +444,8 @@ def merge_group(entries: list[dict[str, object]]) -> dict[str, object]:
     merged["country"] = str(primary.get("country") or (countries[0] if countries else ""))
     merged["region"] = " / ".join(regions[:3])
     merged["cityOrFocus"] = " / ".join(focuses[:3])
-    merged["summary"] = str(summary_entry.get("summary") or " / ".join(summaries[:1]))
+    merged["structuredSummary"] = str(summary_entry.get("structuredSummary") or " / ".join(summaries[:1]))
+    merged["summary"] = str(summary_entry.get("summary") or (descriptions[0] if descriptions else "公開口琴來源。"))
     merged["keywords"] = " ".join(keywords)
     merged["status"] = strongest_status(entries)
     merged["sourceStatus"] = strongest_source_status(entries)
@@ -442,18 +482,19 @@ def merge_duplicate_entries(entries: list[dict[str, object]]) -> list[dict[str, 
 def fallback_source_tags(entry: dict[str, object]) -> list[str]:
     text = " ".join(
         str(entry.get(field) or "")
-        for field in ("name", "nameEn", "category", "type", "region", "cityOrFocus", "summary", "keywords")
+        for field in ("name", "nameEn", "category", "type", "country", "region", "cityOrFocus", "summary", "structuredSummary", "keywords")
     )
     tags: list[str] = []
     category = str(entry.get("category") or "")
     if category:
         tags.append(category)
+    if category == "學校社團":
+        tags.append("學生社團")
+        if any(word in text for word in ("大學", "大專")):
+            tags.append("大專社團")
+        if any(word in text for word in ("高中", "高級中學")):
+            tags.append("高中社團")
     for needle, tag in [
-        ("學校", "學生社團"),
-        ("學生", "學生社團"),
-        ("大學", "大專社團"),
-        ("高中", "高中社團"),
-        ("高級中學", "高中社團"),
         ("樂團", "團體樂團"),
         ("團體", "團體樂團"),
         ("個人", "演奏者"),
@@ -683,11 +724,20 @@ def public_status(source_status: str) -> str:
 def category_for(row: dict[str, str], source: str) -> str:
     raw_type = clean(row.get("type"))
     raw_region = clean(row.get("region"))
+    raw_role = clean(row.get("role"))
+    raw_focus = clean(row.get("focus"))
     text = " ".join(
         clean(row.get(field))
         for field in ("type", "role", "focus", "school_or_org", "region")
     )
-    if source == "club" or "學校" in text or "學生" in text:
+    if (
+        source == "club"
+        or "學校社團" in raw_type
+        or "學校/青年" in raw_type
+        or raw_role == "學校團隊"
+        or "學生團隊" in raw_focus
+        or "口琴社" in raw_focus
+    ):
         return "學校社團"
     if "活動" in raw_type or "售票" in raw_type or "音樂節" in text or "比賽" in raw_type:
         return "活動資訊"
@@ -704,6 +754,60 @@ def category_for(row: dict[str, str], source: str) -> str:
     return "其他來源"
 
 
+def public_description(row: dict[str, str], source: str, category: str) -> str:
+    country = clean(row.get("country"))
+    school_or_org = clean(row.get("school_or_org"))
+    focus_parts = text_parts(row.get("focus"), limit=5)
+    instrument_parts = text_parts(row.get("instruments"), limit=4)
+    role_parts = text_parts(row.get("role"), limit=3)
+    type_parts = text_parts(row.get("type"), limit=3)
+
+    instrument_label = human_join(instrument_parts)
+    role_label = human_join(role_parts) or human_join(type_parts) or "公開來源"
+    focus_without_instrument = [part for part in focus_parts if part not in instrument_parts]
+    country_prefix = f"{country}的" if country else ""
+
+    if category == "學校社團":
+        org = readable_text(school_or_org) or country or "公開學校"
+        if instrument_label and role_label:
+            return f"{org}的{instrument_label}{role_label}。"
+        return f"{org}的口琴學校社團。"
+
+    if category == "活動資訊":
+        focus_label = human_join(focus_without_instrument or focus_parts[:4])
+        if focus_label:
+            return f"{country_prefix}{role_label}，涵蓋{focus_label}。"
+        return f"{country_prefix}{role_label}。"
+
+    if category in {"團體樂團", "演奏者"}:
+        focus_label = human_join(focus_without_instrument[:3])
+        core = f"{country_prefix}{instrument_label}{role_label}" if instrument_label else f"{country_prefix}{role_label}"
+        if category == "團體樂團" and len(focus_without_instrument) == 1 and focus_without_instrument[0].endswith("團體"):
+            descriptor = focus_without_instrument[0].removesuffix("團體")
+            return f"{country_prefix}{descriptor}{instrument_label}{role_label}。"
+        if focus_label:
+            return f"{core}，活動脈絡包含{focus_label}。"
+        return f"{core}。"
+
+    if category == "教學器材":
+        focus_label = human_join(focus_without_instrument or focus_parts[:4])
+        core = f"{country_prefix}{instrument_label}{role_label}" if instrument_label else f"{country_prefix}{role_label}"
+        if focus_label:
+            return f"{core}，關注{focus_label}。"
+        return f"{core}。"
+
+    if category == "場館平台":
+        focus_label = human_join(focus_without_instrument or focus_parts[:3])
+        if focus_label:
+            return f"{country_prefix}{role_label}，提供{focus_label}相關資訊。"
+        return f"{country_prefix}{role_label}。"
+
+    focus_label = human_join(focus_without_instrument or focus_parts[:3])
+    if focus_label:
+        return f"{country_prefix}{role_label}，關注{focus_label}。"
+    return f"{country_prefix}{role_label}。"
+
+
 def entry_from_row(row: dict[str, str], source: str, row_number: int) -> dict[str, object] | None:
     links = link_bundle(row)
     if not links:
@@ -714,6 +818,7 @@ def entry_from_row(row: dict[str, str], source: str, row_number: int) -> dict[st
         return None
 
     source_status = clean(row.get("source_status"))
+    category = category_for(row, source)
     city_or_focus = clean(row.get("city")) or clean(row.get("focus"))
     public_summary_parts = [
         clean(row.get("school_or_org")),
@@ -721,18 +826,19 @@ def entry_from_row(row: dict[str, str], source: str, row_number: int) -> dict[st
         clean(row.get("instruments")),
         clean(row.get("role")),
     ]
-    summary = " / ".join(part for part in public_summary_parts if part)
+    structured_summary = " / ".join(part for part in public_summary_parts if part)
 
     return {
         "id": f"{source}-{row_number}",
         "name": name,
         "nameEn": clean(row.get("name_en")),
-        "category": category_for(row, source),
+        "category": category,
         "type": clean(row.get("type")),
         "country": clean(row.get("country")),
         "region": clean(row.get("region")),
         "cityOrFocus": city_or_focus,
-        "summary": summary,
+        "structuredSummary": structured_summary,
+        "summary": public_description(row, source, category),
         "status": public_status(source_status),
         "sourceStatus": source_status,
         "keywords": clean(row.get("keywords")),
@@ -747,6 +853,11 @@ def validate_public_entries(entries: list[dict[str, object]]) -> None:
         name = str(entry.get("name") or entry.get("id") or "未命名來源")
         if not clean(str(entry.get("country") or "")):
             errors.append(f"{name}: missing country")
+        summary = clean(str(entry.get("summary") or ""))
+        if not summary:
+            errors.append(f"{name}: missing reader summary")
+        if "/" in summary or "／" in summary:
+            errors.append(f"{name}: slash-style reader summary {summary!r}")
         for tag in entry.get("sourceTags") or []:
             text = str(tag or "").strip()
             if not text:

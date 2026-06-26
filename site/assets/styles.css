@@ -1024,6 +1024,13 @@ h2 {
   margin: 14px 0;
 }
 
+.entry-context {
+  margin: -4px 0 10px;
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 750;
+}
+
 .pill {
   display: inline-flex;
   align-items: center;

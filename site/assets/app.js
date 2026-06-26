@@ -213,16 +213,15 @@
     return pills.slice(0, limit);
   }
 
+  function contextLine(entry) {
+    return displayMetaPills([entry.country, entry.region], 4).join(" · ");
+  }
+
   function entryCard(entry) {
-    const meta = displayMetaPills([
-      entry.latestUpdateLocal ? `最新 ${entry.latestUpdateLocal}` : "",
-      entry.category,
-      entry.country,
-      entry.region,
-      entry.cityOrFocus,
-    ].filter(Boolean));
+    const meta = [entry.latestUpdateLocal ? `最新 ${entry.latestUpdateLocal}` : ""].filter(Boolean);
+    const context = contextLine(entry);
     const sourceTags = (entry.sourceTags || []).slice(0, 8);
-    const summary = entry.sourceSummary || entry.summary || entry.type || "公開來源";
+    const summary = entry.summary || entry.sourceSummary || entry.type || "公開來源";
     const aliases = (entry.aliases || []).slice(0, 4);
 
     return `
@@ -246,6 +245,7 @@
           <span class="pill ${statusClass(entry.status)}">${escapeHtml(entry.status)}</span>
           ${meta.map((item) => `<span class="pill">${escapeHtml(item)}</span>`).join("")}
         </div>
+        ${context ? `<p class="entry-context">${escapeHtml(context)}</p>` : ""}
         ${
           sourceTags.length
             ? `<div class="entry-tags">${sourceTags.map((tag) => `<span class="pill source-tag-pill">${escapeHtml(tag)}</span>`).join("")}</div>`

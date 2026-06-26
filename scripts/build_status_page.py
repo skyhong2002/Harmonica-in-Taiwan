@@ -32,7 +32,7 @@ LATEST_API = SITE_ROOT / "api" / "latest.json"
 SOURCES_API = SITE_ROOT / "api" / "sources.json"
 PIPELINE_LOG = PROJECT_ROOT / "logs" / "pipeline.log"
 PIPELINE_ERR_LOG = PROJECT_ROOT / "logs" / "pipeline.err.log"
-ASSET_VERSION = "20260626-2203"
+ASSET_VERSION = "20260626-2207"
 PUBLIC_BASE_URL = "https://harmonica.observe.tw"
 TAIPEI_TZ = dt.timezone(dt.timedelta(hours=8))
 CURRENT_ERROR_WINDOW_SECONDS = 15 * 60
