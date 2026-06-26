@@ -2375,6 +2375,46 @@
       "sourceTagReason": "名稱與欄位明確為『團體』、『重奏』、『演出』，並指明使用半音階、低音、和弦口琴。"
     },
     {
+      "id": "watchlist-100",
+      "name": "Stay Drunk 口琴樂團",
+      "nameEn": "Stay Drunk Harmonica Ensemble",
+      "category": "學校社團",
+      "type": "團體",
+      "region": "台灣",
+      "cityOrFocus": "大學生口琴樂團/比賽/表演/練習影片",
+      "summary": "大學生口琴樂團/比賽/表演/練習影片 / 口琴重奏/合奏 / 演出團體/社群觀察來源",
+      "status": "已查核",
+      "sourceStatus": "已查核公開連結",
+      "keywords": "Stay Drunk Stay Drunk H.E. Stay Drunk Harmonica Ensemble staydrunk_h.e 口琴樂團 大學生",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/staydrunk_h.e/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-04-25T16:52:17+00:00",
+      "latestUpdateLocal": "2026-04-26 00:52",
+      "latestUpdateSource": "Stay Drunk 口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/p/DXj-CRDCZRA/",
+      "avatarUrl": "/assets/source-avatars/077c534fc3e6d2920bad.webp",
+      "sourceInitials": "SD",
+      "sourceTags": [
+        "口琴",
+        "學校社團",
+        "學生社團",
+        "大專社團",
+        "團體樂團",
+        "比賽",
+        "重奏"
+      ]
+    },
+    {
       "id": "watchlist-26",
       "name": "Laelaps 口琴",
       "nameEn": "Laelaps Harmonica",
@@ -3073,7 +3113,7 @@
       "latestUpdateLocal": "2023-06-30 21:52",
       "latestUpdateSource": "MCU Harmonica",
       "latestUpdateUrl": "https://www.instagram.com/p/CuHc1PAJcXH/",
-      "avatarUrl": "/assets/source-avatars/0c0120f630a5394ee72f.webp",
+      "avatarUrl": "/assets/source-avatars/705f8724a5a2decf235e.webp",
       "sourceInitials": "銘傳",
       "sourceTags": [
         "大專社團",
@@ -3839,46 +3879,6 @@
       ],
       "sourceSummary": "高雄衛武營國家藝術文化中心，大型表演場館與藝文活動平台。",
       "sourceTagReason": "類別為場館平台，提供場館資訊、售票與音樂會等藝文活動資訊，符合場館與活動定位。"
-    },
-    {
-      "id": "watchlist-100",
-      "name": "Stay Drunk 口琴樂團",
-      "nameEn": "Stay Drunk Harmonica Ensemble",
-      "category": "學校社團",
-      "type": "團體",
-      "region": "台灣",
-      "cityOrFocus": "大學生口琴樂團/比賽/表演/練習影片",
-      "summary": "大學生口琴樂團/比賽/表演/練習影片 / 口琴重奏/合奏 / 演出團體/社群觀察來源",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "Stay Drunk Stay Drunk H.E. Stay Drunk Harmonica Ensemble staydrunk_h.e 口琴樂團 大學生",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/staydrunk_h.e/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "",
-      "sourceInitials": "SD",
-      "sourceTags": [
-        "口琴",
-        "學校社團",
-        "學生社團",
-        "大專社團",
-        "團體樂團",
-        "比賽",
-        "重奏"
-      ]
     },
     {
       "id": "watchlist-65+club-20",

@@ -615,6 +615,42 @@ def fetch_source_profile(source: dict[str, Any]) -> dict[str, str]:
     return profile
 
 
+def row_source_profile(row: dict[str, Any]) -> dict[str, str]:
+    values = {
+        "id": row.get("source_id"),
+        "name": row.get("source_name") or row.get("source_display_name"),
+        "account": row.get("account"),
+        "platform": row.get("platform"),
+        "profile_url": row.get("source_profile_url") or row.get("profile_url"),
+        "avatar_source_url": row.get("source_avatar_url") or row.get("avatar_source_url"),
+    }
+    return {
+        key: str(value).strip()
+        for key, value in values.items()
+        if str(value or "").strip()
+    }
+
+
+def source_profile_from_config(source_id: str, source: dict[str, Any]) -> dict[str, str]:
+    return {
+        "id": source_id,
+        "name": str(source.get("name") or source_id),
+        "account": str(source.get("username") or source.get("page") or source.get("url") or ""),
+        "platform": str(source.get("platform") or source.get("type") or ""),
+        "profile_url": public_profile_url(source),
+    }
+
+
+def merge_profile(*profiles: dict[str, Any]) -> dict[str, str]:
+    merged: dict[str, str] = {}
+    for profile in profiles:
+        for key, value in profile.items():
+            text = str(value or "").strip()
+            if text:
+                merged[str(key)] = text
+    return merged
+
+
 def build_source_profiles(rows: list[dict[str, Any]]) -> dict[str, dict[str, str]]:
     needed_ids = {str(row.get("source_id") or "") for row in rows if row.get("source_id")}
     if not needed_ids:
@@ -633,24 +669,31 @@ def build_source_profiles(rows: list[dict[str, Any]]) -> dict[str, dict[str, str
         if isinstance(profile, dict)
     }
 
+    row_profiles: dict[str, dict[str, str]] = {}
+    for row in rows:
+        source_id = str(row.get("source_id") or "")
+        if not source_id:
+            continue
+        row_profile = row_source_profile(row)
+        current = row_profiles.get(source_id) or {}
+        row_profiles[source_id] = merge_profile(row_profile, current)
+
     changed = False
     for source_id in sorted(needed_ids):
         source = sources.get(source_id)
         if not source:
             continue
         cached = profiles.get(source_id) or {}
-        if not cached.get("avatar_source_url"):
+        configured = source_profile_from_config(source_id, source)
+        row_profile = row_profiles.get(source_id) or {}
+        profile = merge_profile(configured, row_profile, cached)
+        if not profile.get("avatar_source_url"):
             fetched = fetch_source_profile(source)
-            profiles[source_id] = {**cached, **fetched}
+            profile = merge_profile(profile, fetched)
+        cache_avatar(profile.get("avatar_source_url") or "")
+        if profiles.get(source_id) != profile:
+            profiles[source_id] = profile
             changed = True
-        else:
-            profiles[source_id] = {
-                **cached,
-                "id": source_id,
-                "name": str(source.get("name") or cached.get("name") or source_id),
-                "account": str(source.get("username") or source.get("page") or cached.get("account") or ""),
-                "platform": str(source.get("platform") or cached.get("platform") or ""),
-            }
 
     if changed:
         write_json(
@@ -1183,9 +1226,10 @@ def filter_recent_candidate_rows(rows: list[dict[str, Any]], days: int) -> list[
 
 def generate_updates(window_days: int = DEFAULT_UPDATE_WINDOW_DAYS, limit: int | None = None) -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]]]:
     global SOURCE_PROFILE_BY_ID
-    rows = filter_recent_candidate_rows(read_candidate_rows(), window_days)
+    all_rows = read_candidate_rows()
+    rows = filter_recent_candidate_rows(all_rows, window_days)
     profile_rows = [
-        row for row in rows if row.get("raw_source") != "public-link-backfill"
+        row for row in all_rows if row.get("raw_source") != "public-link-backfill"
     ]
     SOURCE_PROFILE_BY_ID = build_source_profiles(profile_rows)
     public_rows = build_update_items(rows, limit)

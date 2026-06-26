@@ -774,7 +774,8 @@ def main() -> int:
     STATUS_JSON_OUT.parent.mkdir(parents=True, exist_ok=True)
     STATUS_JSON_OUT.write_text(json.dumps(status, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     STATUS_PAGE_OUT.parent.mkdir(parents=True, exist_ok=True)
-    STATUS_PAGE_OUT.write_text(render_status_page(status), encoding="utf-8")
+    status_html = "\n".join(line.rstrip() for line in render_status_page(status).splitlines()) + "\n"
+    STATUS_PAGE_OUT.write_text(status_html, encoding="utf-8")
     print(
         json.dumps(
             {

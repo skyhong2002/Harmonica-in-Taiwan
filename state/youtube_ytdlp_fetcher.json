@@ -1,5 +1,5 @@
 {
-  "next_source_index": 25,
+  "next_source_index": 0,
   "runs": [
     {
       "error_count": 0,
@@ -254,7 +254,16 @@
         "yt_henrysharmonica"
       ],
       "started_at": "2026-06-25T16:00:01.732685+00:00"
+    },
+    {
+      "error_count": 0,
+      "finished_at": "2026-06-26T10:08:57.732485+00:00",
+      "new_inbox_rows": 2,
+      "source_ids": [
+        "yt_uct3ifdfoqpndqm8j5chesda"
+      ],
+      "started_at": "2026-06-26T10:08:48.008260+00:00"
     }
   ],
-  "updated_at": "2026-06-25T16:00:08.814390+00:00"
+  "updated_at": "2026-06-26T10:08:57.732485+00:00"
 }

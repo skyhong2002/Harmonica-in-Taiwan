@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T16:05:59.082844+00:00",
+  "updatedAt": "2026-06-26T10:15:16.393693+00:00",
   "profiles": {
     "ig_ntnu_harmonica": {
       "id": "ig_ntnu_harmonica",
@@ -1672,6 +1672,30 @@
       "title": "南里沙 / Risa MINAMI (@minami_risa) - Instagram",
       "description": "━━━━━━━━━━━━━━━━━━━ クロマチックハーモニカの音色をあなたに🫶 ━━━━━━━━━━━━━━━━━━━ ◼︎JR東海『そうだ京都、行こう。』SONY『だから私はXPERIA』TVCM起用◼︎キングレコードよりアルバム発売中 ◼︎HOHNERエンドーザー ◼︎宝塚市大使",
       "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp"
+    },
+    "ig_mcuhc": {
+      "id": "ig_mcuhc",
+      "name": "MCU Harmonica",
+      "account": "mcuhc",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/mcuhc/",
+      "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/69359161_2592170570846244_5987141134533525504_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MzEuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gFJamn_Ny8YiNjMfWIaCxMGPFCJUWS8ke_ouTvjF8JMId343mVGPn83ZlXeWS3yvvI&_nc_ohc=hDMxhij42lEQ7kNvwEt1s5g&_nc_gid=L7jyaLtnPgm5ttvuvASzNw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_qZWiiAAUUvMpB96-QMDx_rDS8IMIGq9rBc1wLKyFMSw&oe=6A414817&_nc_sid=8b3546"
+    },
+    "ig_staydrunk_h_e": {
+      "id": "ig_staydrunk_h_e",
+      "name": "Stay Drunk 口琴樂團",
+      "account": "staydrunk_h.e",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/staydrunk_h.e/",
+      "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/652042042_18065437649326823_9081767226335372977_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gHErWU-hUBwGpVHJkMKu4pL05UueBGYvzvfu9Vix16ZZQsNp3FOj2iQJFzC7NXQiik&_nc_ohc=_6E4O5UOybIQ7kNvwGeZ_-z&_nc_gid=bCQp1KSyX-3qkefJukcCew&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af8Qc9t7BLc1Q0lQFKwXzTjKO-IWjoYod36ykUkGjo0fYQ&oe=6A441817&_nc_sid=8b3546"
+    },
+    "threads_otistsao": {
+      "id": "threads_otistsao",
+      "name": "曹小歐",
+      "account": "otistsao",
+      "platform": "threads",
+      "profile_url": "https://www.threads.net/@otistsao",
+      "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/587645422_17934069213109111_2235405373157085565_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gHWfkW8ySXbW--ycxODN49RTMHf7nn-77oG-MXztDUuK0Pw7hKXIl8DdhgLMyYGCGU&_nc_ohc=uq93Q6-u-qsQ7kNvwHcsspz&_nc_gid=uFEM_PWV2TA2GX0tQYOHgA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_E25GN5ssfC97Ji6Qf92WrGID493mP5jCH2mRhL500EQ&oe=6A416BDD&_nc_sid=10d13b"
     }
   }
 }
