@@ -318,14 +318,14 @@
       "key": "ig_nycu_harmonica:https://www.instagram.com/p/DaA6q22EwJM/"
     },
     {
-      "title": "people｜🎧 【Harmonica Solo】 🎧 Navy Lark (Version 2) by James Moody Harmonica: Timothy Yip Piano: Alison Ma 今個星期同大家分享另一首口琴…",
+      "title": "Timothy Yip 葉進禧｜🎧 【Harmonica Solo】 🎧 Navy Lark (Version 2) by James Moody Harmonica: Timothy Yip Piano: Alison Ma 今個星期同…",
       "headline": "🎧 【Harmonica Solo】 🎧",
       "link": "https://www.facebook.com/reel/999351019358521/",
-      "source_id": "apify_facebook_posts",
-      "source": "people",
-      "source_system_name": "people",
-      "source_profile_url": "https://www.facebook.com//",
-      "account": "people",
+      "source_id": "fb_c74bf61a25",
+      "source": "Timothy Yip 葉進禧",
+      "source_system_name": "Timothy Yip 葉進禧",
+      "source_profile_url": "https://facebook.com/profile.php?id=100085232439912",
+      "account": "https://facebook.com/profile.php?id=100085232439912",
       "platform": "facebook",
       "posted_at": "2026-06-25T11:00:27.000Z",
       "posted_at_local": "2026-06-25 19:00",
@@ -358,7 +358,7 @@
       "image_url": "/assets/feed-images/2f19ead01721331c3b65.webp",
       "source_avatar_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/348830260_220740090711886_4272451009526535677_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx960x959&ctp=s50x50&_nc_cat=105&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=Od0z8Ljf7-UQ7kNvwEWpEsQ&_nc_oc=AdqLHqm_cftx2jpezA-IDhJGlX-OJKYuPX6xOV4EEkESarhsd-MoD1lCRSCToqUTJKk&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=qg4za3YVzg2nYBRaGJG6yw&_nc_ss=72289&oh=00_Af9SdzJdud9ZYUrgffOll9QIRAAbFXCuZF7E8LYLv4u5vg&oe=6A446FEB",
       "avatar_url": "/assets/source-avatars/4a0cc100ef42e512b845.webp",
-      "source_initials": "P",
+      "source_initials": "TY",
       "categories": [
         "posts-videos"
       ],
@@ -401,9 +401,11 @@
       ],
       "llm_reason": "貼文分享口琴獨奏錄影，為演奏者公開更新，符合口琴影片與演奏者動態條件。",
       "text": "🎧 【Harmonica Solo】 🎧\nNavy Lark (Version 2) by James Moody\nHarmonica: @hei_timothy_hei\nPiano: @alisonmhk_\n今個星期同大家分享另一首口琴小品Navy Lark (Version 2)🛥️ Version 2同上一個錄音Version 1係有唔同架🎶 接下來數個星期繼續為大家分享不同口琴音樂🌟\nStay tuned for the next piece👀\n#recording #harmonica #口琴 #timothyyip #music",
-      "images": [],
-      "source_image_url": "",
-      "image_url": "",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/725237378_18024535325829727_9127259753134136010_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=105&ig_cache_key=MzkyNzI1NDQ5NjE3OTA3MzE5NzE4MDI0NTM1MzIyODI5NzI3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=M1Xc5AAdmkEQ7kNvwG0CHB9&_nc_oc=AdrGpv7h6BP-ccNmaB1NbWmME3mmXlTutWMfYcebrontVGanbpYjx-Soo_Xq75qkqtM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=gyqxToXb-KJA_j69QFCcVg&_nc_ss=7a22e&oh=00_Af8AbRoXKjE3M4N88z1BV4Zyp6-gukBlZKaI2gNswy5tZQ&oe=6A447729"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/725237378_18024535325829727_9127259753134136010_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=105&ig_cache_key=MzkyNzI1NDQ5NjE3OTA3MzE5NzE4MDI0NTM1MzIyODI5NzI3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=M1Xc5AAdmkEQ7kNvwG0CHB9&_nc_oc=AdrGpv7h6BP-ccNmaB1NbWmME3mmXlTutWMfYcebrontVGanbpYjx-Soo_Xq75qkqtM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=gyqxToXb-KJA_j69QFCcVg&_nc_ss=7a22e&oh=00_Af8AbRoXKjE3M4N88z1BV4Zyp6-gukBlZKaI2gNswy5tZQ&oe=6A447729",
+      "image_url": "/assets/feed-images/294a697dab5da021fac6.webp",
       "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/495087999_17978614532829727_1317536473846222584_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gH_-q_uQ3KFuyUKbhmSmrXAMDJzzfaSijJs_YXF02zRydjw34LaZybgU-dwkWYXyGM&_nc_ohc=cseNE6xpjXIQ7kNvwGYq9cd&_nc_gid=7pB6PQc3Ag71JiMtcT92JQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af9lz63zpZ7Fa3VjIm8G5ybJxrafU2-BMd6bFAnORVumuQ&oe=6A44935B&_nc_sid=8b3546",
       "avatar_url": "/assets/source-avatars/b3f7aa0fd27eabb8b69a.webp",
       "source_initials": "TY",
@@ -1906,11 +1908,11 @@
       "key": "ig_timothyyip_harmonica:https://www.instagram.com/p/DZ4pp6tpq2f/"
     },
     {
-      "title": "people｜🇨🇳「中國銀行（香港）呈獻︰香港故宮演藝節目」| REDBRICKS《紅磚的口琴之旅》 | HKPM SHOWTIME! | A RedBricks Harmonica Journey🏯 嚟緊7月4日我將會同 RedBric…",
+      "title": "Timothy Yip 葉進禧｜🇨🇳「中國銀行（香港）呈獻︰香港故宮演藝節目」| REDBRICKS《紅磚的口琴之旅》 | HKPM SHOWTIME! | A RedBricks Harmonica Journey🏯 嚟緊7月4日我將會…",
       "headline": "🇨🇳「中國銀行（香港）呈獻︰香港故宮演藝節目」| REDBRICKS《紅磚的口琴之旅》 | HKPM SHOWTIME! | A RedBricks Harmonica Journey🏯",
       "link": "https://www.facebook.com/permalink.php?story_fbid=pfbid01Hjg949qX7BKyt9ejQiYuxE8cyRoZKohRAiBBFAkm3UCRTTrx7AqS15965pxSPsbl&id=100085232439912",
       "source_id": "fb_c74bf61a25",
-      "source": "people",
+      "source": "Timothy Yip 葉進禧",
       "source_system_name": "Timothy Yip 葉進禧",
       "source_profile_url": "https://facebook.com/profile.php?id=100085232439912",
       "account": "https://facebook.com/profile.php?id=100085232439912",
@@ -1946,7 +1948,7 @@
       "image_url": "/assets/feed-images/6b989eb0ec299b427281.webp",
       "source_avatar_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/348830260_220740090711886_4272451009526535677_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx960x959&ctp=s50x50&_nc_cat=105&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=Od0z8Ljf7-UQ7kNvwEWpEsQ&_nc_oc=AdqLHqm_cftx2jpezA-IDhJGlX-OJKYuPX6xOV4EEkESarhsd-MoD1lCRSCToqUTJKk&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=qg4za3YVzg2nYBRaGJG6yw&_nc_ss=72289&oh=00_Af9SdzJdud9ZYUrgffOll9QIRAAbFXCuZF7E8LYLv4u5vg&oe=6A446FEB",
       "avatar_url": "/assets/source-avatars/4a0cc100ef42e512b845.webp",
-      "source_initials": "P",
+      "source_initials": "TY",
       "categories": [
         "posts-videos",
         "events"
@@ -3888,14 +3890,14 @@
       "key": "ig_marcoscollgonzalez:https://www.instagram.com/p/DZueS6PiN2M/"
     },
     {
-      "title": "people｜🎧 【Harmonica Solo】 🎧 Navy Lark (Version 1) by James Moody Harmonica: Timothy Yip Piano: Alison Ma 忽然之間覺得好耐冇錄reco…",
+      "title": "Timothy Yip 葉進禧｜🎧 【Harmonica Solo】 🎧 Navy Lark (Version 1) by James Moody Harmonica: Timothy Yip Piano: Alison Ma 忽然之間覺…",
       "headline": "🎧 【Harmonica Solo】 🎧",
       "link": "https://www.facebook.com/reel/1944095752967933/",
-      "source_id": "apify_facebook_posts",
-      "source": "people",
-      "source_system_name": "people",
-      "source_profile_url": "https://www.facebook.com//",
-      "account": "people",
+      "source_id": "fb_c74bf61a25",
+      "source": "Timothy Yip 葉進禧",
+      "source_system_name": "Timothy Yip 葉進禧",
+      "source_profile_url": "https://facebook.com/profile.php?id=100085232439912",
+      "account": "https://facebook.com/profile.php?id=100085232439912",
       "platform": "facebook",
       "posted_at": "2026-06-18T11:01:00.000Z",
       "posted_at_local": "2026-06-18 19:01",
@@ -3926,7 +3928,7 @@
       "image_url": "/assets/feed-images/1fe6ce4ce4a428194405.webp",
       "source_avatar_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/348830260_220740090711886_4272451009526535677_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx960x959&ctp=s50x50&_nc_cat=105&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=Od0z8Ljf7-UQ7kNvwEWpEsQ&_nc_oc=AdqLHqm_cftx2jpezA-IDhJGlX-OJKYuPX6xOV4EEkESarhsd-MoD1lCRSCToqUTJKk&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=qg4za3YVzg2nYBRaGJG6yw&_nc_ss=72289&oh=00_Af9SdzJdud9ZYUrgffOll9QIRAAbFXCuZF7E8LYLv4u5vg&oe=6A446FEB",
       "avatar_url": "/assets/source-avatars/4a0cc100ef42e512b845.webp",
-      "source_initials": "P",
+      "source_initials": "TY",
       "categories": [
         "posts-videos"
       ],

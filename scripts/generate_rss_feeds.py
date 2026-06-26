@@ -36,7 +36,7 @@ API_DIR = SITE_ROOT / "api"
 FEED_IMAGE_DIR = SITE_ROOT / "assets" / "feed-images"
 SOURCE_AVATAR_DIR = SITE_ROOT / "assets" / "source-avatars"
 PUBLIC_BASE_URL = "https://harmonica.observe.tw"
-ASSET_VERSION = "20260627-0140"
+ASSET_VERSION = "20260627-0150"
 HOME_FEED_BATCH_SIZE = 12
 DEFAULT_UPDATE_WINDOW_DAYS = 30
 WEBP_QUALITY = "82"
@@ -74,6 +74,8 @@ GENERIC_SOURCE_NAMES = {
     "apify_facebook_posts",
     "external public social feed inbox",
     "external_social_feed_inbox",
+    "facebook",
+    "people",
 }
 
 FEED_CATEGORIES = [
@@ -924,6 +926,23 @@ def is_generic_source_name(value: Any) -> bool:
     return name in GENERIC_SOURCE_NAMES
 
 
+def is_public_profile_url(value: Any) -> bool:
+    url = str(value or "").strip()
+    if not url.startswith(("http://", "https://")):
+        return False
+    parsed = urllib.parse.urlparse(url)
+    host = parsed.netloc.casefold()
+    if "facebook.com" in host:
+        path = urllib.parse.unquote(parsed.path).strip("/")
+        if not path and not parsed.query:
+            return False
+        if path.casefold() == "people":
+            return False
+        if path.casefold() == "profile.php" and not urllib.parse.parse_qs(parsed.query).get("id"):
+            return False
+    return True
+
+
 def account_display_name(row: dict[str, Any], profile: dict[str, str]) -> str:
     account = str(row.get("account") or profile.get("account") or "").strip()
     if not account:
@@ -944,7 +963,7 @@ def public_source_name(row: dict[str, Any], profile: dict[str, str]) -> str:
     source_display_name = clean_source_display_name(row.get("source_display_name"))
     source_name = clean_source_display_name(row.get("source_name"))
     account_name = account_display_name(row, profile)
-    if source_display_name and not (
+    if source_display_name and not is_generic_source_name(source_display_name) and not (
         account_name
         and source_display_name == account_name
         and source_name
@@ -994,11 +1013,13 @@ def public_source_profile_url(row: dict[str, Any], profile: dict[str, str]) -> s
         row.get("account"),
     ]:
         url = str(value or "").strip()
-        if url.startswith(("http://", "https://")):
+        if is_public_profile_url(url):
             return url
 
     account = str(row.get("account") or profile.get("account") or "").strip().strip("/")
     if not account:
+        return ""
+    if is_generic_source_name(account):
         return ""
     platform = str(row.get("platform") or profile.get("platform") or "").casefold()
     account = account.removeprefix("@")

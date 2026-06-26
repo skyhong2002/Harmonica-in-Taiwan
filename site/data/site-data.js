@@ -372,10 +372,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-06-25T11:00:15+00:00",
+      "latestUpdateAt": "2026-06-25T11:00:27+00:00",
       "latestUpdateLocal": "2026-06-25 19:00",
       "latestUpdateSource": "Timothy Yip 葉進禧",
-      "latestUpdateUrl": "https://www.instagram.com/p/DaAaSgjTzCt/",
+      "latestUpdateUrl": "https://www.facebook.com/reel/999351019358521/",
       "avatarUrl": "/assets/source-avatars/b3f7aa0fd27eabb8b69a.webp",
       "sourceInitials": "TY",
       "sourceTags": [

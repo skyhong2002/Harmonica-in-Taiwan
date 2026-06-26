@@ -34,6 +34,13 @@ DEFAULT_MONTHLY_BUDGET_USD = 4.0
 DEFAULT_MAX_RUN_BUDGET_USD = 0.25
 DEFAULT_BUDGET_PACING_MULTIPLIER = 1.25
 DEFAULT_MIN_RUN_SPACING_DAYS = 0.0
+GENERIC_FACEBOOK_NAMES = {
+    "apify facebook posts",
+    "apify/facebook-posts-scraper",
+    "apify_facebook_posts",
+    "facebook",
+    "people",
+}
 
 KEYCHAIN_CANDIDATES = [
     (
@@ -394,7 +401,7 @@ def facebook_url(source: dict[str, Any]) -> str:
     page = str(source.get("page") or "").strip().strip("/")
     if page.startswith("http://") or page.startswith("https://"):
         return page
-    return f"https://www.facebook.com/{page}/"
+    return f"https://www.facebook.com/{page}/" if page else ""
 
 
 def apify_input(sources: list[dict[str, Any]], results_limit: int, days_back: int, include_video_transcript: bool) -> dict[str, Any]:
@@ -742,14 +749,55 @@ def facebook_source_tokens(source: dict[str, Any]) -> set[str]:
     return {token for token in tokens if token}
 
 
+def is_generic_facebook_name(value: Any) -> bool:
+    name = compact_text(value, 120).strip().strip("/").casefold()
+    return name in GENERIC_FACEBOOK_NAMES
+
+
+def is_usable_facebook_profile_url(value: Any) -> bool:
+    url = compact_text(value, 500)
+    if not url.startswith(("http://", "https://")):
+        return False
+    parsed = urllib.parse.urlparse(url)
+    host = parsed.netloc.casefold()
+    if "facebook.com" not in host:
+        return True
+    path = urllib.parse.unquote(parsed.path).strip("/")
+    if not path and not parsed.query:
+        return False
+    if path.casefold() == "people":
+        return False
+    if path.casefold() == "profile.php" and not urllib.parse.parse_qs(parsed.query).get("id"):
+        return False
+    return True
+
+
+def facebook_source_name_aliases(source: dict[str, Any]) -> set[str]:
+    raw = compact_text(source.get("name"), 180)
+    if not raw or is_generic_facebook_name(raw):
+        return set()
+    aliases = {raw.casefold()}
+    latin = " ".join(re.findall(r"[A-Za-z0-9][A-Za-z0-9'.-]*", raw)).strip()
+    if latin:
+        aliases.add(latin.casefold())
+    for segment in re.split(r"[|｜/／()（）,，;；]+", raw):
+        segment = compact_text(segment, 120)
+        if segment:
+            aliases.add(segment.casefold())
+    result: set[str] = set()
+    for alias in aliases:
+        compact_alias = re.sub(r"\s+", " ", alias).strip()
+        if len(compact_alias.replace(" ", "")) >= 4 or len(re.findall(r"[\u4e00-\u9fff]", compact_alias)) >= 3:
+            result.add(compact_alias)
+    return result
+
+
 def match_source(item: dict[str, Any], sources: list[dict[str, Any]]) -> dict[str, Any] | None:
-    urls = " ".join(
-        compact_text(first_value(item, ["url", "postUrl", "facebookUrl", "pageUrl", "profileUrl", "userUrl", "link", "topLevelUrl"]))
-        for _ in range(1)
-    ).lower()
+    url_fields = ["url", "postUrl", "facebookUrl", "pageUrl", "profileUrl", "userUrl", "link", "topLevelUrl"]
+    urls = " ".join(compact_text(item.get(name)) for name in url_fields if item.get(name)).casefold()
     for source in sources:
-        page = str(source.get("page") or "").strip("/").lower()
-        source_url = str(source.get("url") or "").strip("/").lower()
+        page = str(source.get("page") or "").strip("/").casefold()
+        source_url = str(source.get("url") or "").strip("/").casefold()
         if page and page in urls:
             return source
         if source_url and source_url in urls:
@@ -757,13 +805,31 @@ def match_source(item: dict[str, Any], sources: list[dict[str, Any]]) -> dict[st
         for token in facebook_source_tokens(source):
             if token.casefold() in urls or f"id={token}" in urls:
                 return source
-    account = compact_text(first_value(item, ["pageName", "profileName", "userName", "author", "ownerName"])).lower()
+    account = compact_text(first_value(item, ["pageName", "profileName", "userName", "author", "ownerName"])).casefold()
     for source in sources:
-        name = str(source.get("name") or "").lower()
+        name = str(source.get("name") or "").casefold()
         if name and name in account:
             return source
         for token in facebook_source_tokens(source):
             if token.casefold() in account:
+                return source
+    item_text = compact_text(
+        "\n".join(
+            str(part)
+            for part in [
+                first_value(item, ["text", "message", "caption", "content", "description", "title"]),
+                nested_text(item.get("attachments")),
+                nested_text(item.get("media")),
+                nested_text(item.get("externalLinks")),
+            ]
+            if part
+        ),
+        4000,
+    ).casefold()
+    haystack = re.sub(r"\s+", " ", "\n".join(part for part in [urls, account, item_text] if part)).strip()
+    for source in sources:
+        for alias in facebook_source_name_aliases(source):
+            if alias in haystack:
                 return source
     return sources[0] if len(sources) == 1 else None
 
@@ -773,16 +839,17 @@ def normalize_item(item: dict[str, Any], sources: list[dict[str, Any]]) -> dict[
     url = compact_text(first_value(item, ["url", "postUrl", "facebookUrl", "link", "permalink", "topLevelUrl"]))
     post_id = compact_text(first_value(item, ["postId", "id", "post_id", "legacyId", "shortCode"])) or url
     posted_at = compact_text(first_value(item, ["time", "timestamp", "date", "createdAt", "created_time", "publishedAt"]))
-    source_display_name = compact_text(
+    raw_source_display_name = compact_text(
         first_value(item, ["pageName", "profileName", "authorName", "ownerName", "userName", "author"])
+    )
+    source_display_name = compact_text(
+        ("" if is_generic_facebook_name(raw_source_display_name) else raw_source_display_name)
         or source.get("name")
         or source.get("id")
         or "Facebook"
     )
-    source_profile_url = compact_text(
-        first_value(item, ["pageUrl", "profileUrl", "userUrl", "authorUrl", "ownerProfileUrl"])
-        or facebook_url(source)
-    )
+    raw_source_profile_url = compact_text(first_value(item, ["pageUrl", "profileUrl", "userUrl", "authorUrl", "ownerProfileUrl"]))
+    source_profile_url = raw_source_profile_url if is_usable_facebook_profile_url(raw_source_profile_url) else facebook_url(source)
     text_parts = [
         first_value(item, ["text", "message", "caption", "content", "description", "title"]),
         nested_text(item.get("attachments")),
@@ -793,8 +860,10 @@ def normalize_item(item: dict[str, Any], sources: list[dict[str, Any]]) -> dict[
     source_avatar = compact_text(
         nested_first_value(item, ["profilePic", "profilePicture", "profileImage", "pageProfilePicture", "avatar", "authorProfilePic"])
     )
+    raw_account = first_value(item, ["pageName", "profileName", "userName", "author"])
+    account = source.get("page") or source.get("url") or ("" if is_generic_facebook_name(raw_account) else raw_account)
     return {
-        "account": source.get("page") or source.get("url") or first_value(item, ["pageName", "profileName", "userName", "author"]),
+        "account": account,
         "image_url": images[0] if images else "",
         "images": images[:5],
         "platform": "facebook",

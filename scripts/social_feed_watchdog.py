@@ -37,6 +37,7 @@ RSSHUB_BASE = os.environ.get("HARMONICA_RSSHUB_BASE", "").rstrip("/")
 TAG_RE = re.compile(r"<[^>]+>")
 BR_RE = re.compile(r"<br\s*/?>", re.IGNORECASE)
 IMG_RE = re.compile(r"<img\b[^>]*\bsrc=[\"']([^\"']+)[\"']", re.IGNORECASE)
+VIDEO_POSTER_RE = re.compile(r"<video\b[^>]*\bposter=[\"']([^\"']+)[\"']", re.IGNORECASE)
 TAG_VALUE_SPLIT_RE = re.compile(r"\s*(?:[,，、/／+&]|\band\b|\s+)\s*", re.IGNORECASE)
 OPENCODE_GO_BASE_URL = "https://opencode.ai/zen/go/v1"
 DEFAULT_LLM_MODEL = "mimo-v2.5"
@@ -102,7 +103,7 @@ def strip_html(value: str) -> str:
 
 def image_urls(value: str) -> list[str]:
     urls: list[str] = []
-    for raw in IMG_RE.findall(value or ""):
+    for raw in [*IMG_RE.findall(value or ""), *VIDEO_POSTER_RE.findall(value or "")]:
         url = html.unescape(raw)
         if url and url not in urls:
             urls.append(url)
