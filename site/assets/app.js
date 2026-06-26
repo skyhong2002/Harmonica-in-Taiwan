@@ -141,6 +141,7 @@
         ...(entry.aliases || []),
         entry.category,
         entry.type,
+        entry.country,
         entry.region,
         entry.cityOrFocus,
         entry.summary,
@@ -196,6 +197,7 @@
     const meta = [
       entry.latestUpdateLocal ? `最新 ${entry.latestUpdateLocal}` : "",
       entry.category,
+      entry.country,
       entry.region,
       entry.cityOrFocus,
     ].filter(Boolean);

@@ -37,6 +37,7 @@ RSSHUB_BASE = os.environ.get("HARMONICA_RSSHUB_BASE", "").rstrip("/")
 TAG_RE = re.compile(r"<[^>]+>")
 BR_RE = re.compile(r"<br\s*/?>", re.IGNORECASE)
 IMG_RE = re.compile(r"<img\b[^>]*\bsrc=[\"']([^\"']+)[\"']", re.IGNORECASE)
+TAG_VALUE_SPLIT_RE = re.compile(r"\s*(?:[,，、/／+&]|\band\b|\s+)\s*", re.IGNORECASE)
 OPENCODE_GO_BASE_URL = "https://opencode.ai/zen/go/v1"
 DEFAULT_LLM_MODEL = "mimo-v2.5"
 LLM_CATEGORIES = {"events", "posts-videos", "student-clubs", "opportunities"}
@@ -420,6 +421,28 @@ def unique_limited(values: list[Any], *, allowed: set[str] | None = None, limit:
     return items
 
 
+def split_tag_values(value: Any, *, limit: int = 8) -> list[str]:
+    if isinstance(value, str):
+        raw_values: list[Any] = [value]
+    elif isinstance(value, list):
+        raw_values = value
+    else:
+        raw_values = []
+
+    tags: list[str] = []
+    for raw in raw_values:
+        text = str(raw or "").strip()
+        if not text:
+            continue
+        for tag in TAG_VALUE_SPLIT_RE.split(text):
+            tag = tag.strip()
+            if tag and tag not in tags:
+                tags.append(tag)
+            if len(tags) >= limit:
+                return tags
+    return tags
+
+
 def normalize_category(value: Any) -> str:
     raw = str(value or "").strip().casefold()
     aliases = {
@@ -465,6 +488,29 @@ def normalize_label(value: Any) -> str:
     return aliases.get(raw.casefold(), raw)
 
 
+def normalize_label_values(value: Any, *, limit: int = 8) -> list[str]:
+    if isinstance(value, str):
+        raw_values: list[Any] = [value]
+    elif isinstance(value, list):
+        raw_values = value
+    else:
+        raw_values = []
+
+    labels: list[str] = []
+    for raw in raw_values:
+        text = str(raw or "").strip()
+        if not text:
+            continue
+        normalized = normalize_label(text)
+        candidates = [normalized] if normalized in LLM_LABELS else [normalize_label(tag) for tag in split_tag_values(text)]
+        for label in candidates:
+            if label in LLM_LABELS and label not in labels:
+                labels.append(label)
+            if len(labels) >= limit:
+                return labels
+    return labels
+
+
 def normalize_llm_result(value: Any) -> dict[str, Any]:
     data = value if isinstance(value, dict) else {}
     relevant_value = data.get("is_relevant", data.get("relevant", False))
@@ -482,10 +528,8 @@ def normalize_llm_result(value: Any) -> dict[str, Any]:
     confidence = max(0.0, min(confidence, 1.0))
 
     raw_labels = data.get("labels") or data.get("tags") or []
-    if isinstance(raw_labels, str):
-        raw_labels = re.split(r"[,，、\s]+", raw_labels)
     labels = unique_limited(
-        [normalize_label(label) for label in raw_labels if str(label or "").strip()],
+        normalize_label_values(raw_labels),
         allowed=LLM_LABELS,
         limit=8,
     )
@@ -515,7 +559,7 @@ def normalize_llm_result(value: Any) -> dict[str, Any]:
 
 
 def merge_tags(primary: list[Any], fallback: list[Any], *, limit: int = 8) -> list[str]:
-    return unique_limited([*primary, *fallback], limit=limit)
+    return unique_limited(split_tag_values([*primary, *fallback], limit=limit), limit=limit)
 
 
 def read_llm_token(service: str, account: str) -> tuple[str, str]:
@@ -972,7 +1016,7 @@ def main() -> int:
                 continue
             matched = match_keywords(post.get("text", ""), keywords)
             post["keyword_matches"] = matched
-            post["matched_keywords"] = matched
+            post["matched_keywords"] = split_tag_values(matched)
             if too_old(post.get("posted_at", ""), args.max_post_age_days, now_utc):
                 skipped_old += 1
                 seen_map[key] = dt.datetime.now(dt.timezone.utc).isoformat()
@@ -1002,7 +1046,7 @@ def main() -> int:
                     llm_result = None
                 if llm_result:
                     post.update(llm_result)
-                    labels = list(llm_result.get("llm_labels") or [])
+                    labels = split_tag_values(list(llm_result.get("llm_labels") or []))
                     post["matched_keywords"] = labels or (["公開更新"] if llm_result.get("llm_relevant") else [])
 
             if llm_result is not None:

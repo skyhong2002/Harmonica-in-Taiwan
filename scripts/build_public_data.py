@@ -29,6 +29,8 @@ AVATAR_PLATFORM_PRIORITY = {
     "youtube": 2,
 }
 DEFAULT_AVATAR_PLATFORM_PRIORITY = 99
+TAG_VALUE_SPLIT_RE = re.compile(r"\s*(?:[,，、/／+&]|\band\b|\s+)\s*", re.IGNORECASE)
+TAG_FORBIDDEN_CHARS_RE = re.compile(r"[,，、/／+&\s]")
 
 SOURCE_FILES = [
     ("watchlist", PROJECT_ROOT / "data" / "sources" / "harmonica-source-watchlist-public.csv"),
@@ -60,6 +62,28 @@ def read_json(path: Path, default: Any) -> Any:
 
 def clean(value: str | None) -> str:
     return (value or "").strip()
+
+
+def normalize_tag_values(value: Any, *, limit: int = 8) -> list[str]:
+    if isinstance(value, str):
+        raw_values: list[Any] = [value]
+    elif isinstance(value, list):
+        raw_values = value
+    else:
+        raw_values = []
+
+    tags: list[str] = []
+    for raw in raw_values:
+        text = str(raw or "").strip()
+        if not text:
+            continue
+        for tag in TAG_VALUE_SPLIT_RE.split(text):
+            tag = tag.strip()
+            if tag and tag not in tags:
+                tags.append(tag)
+            if len(tags) >= limit:
+                return tags
+    return tags
 
 
 def normalize_key(value: str | None) -> str:
@@ -244,7 +268,7 @@ def social_identity_keys(entry: dict[str, object]) -> set[str]:
 def entry_text(entry: dict[str, object]) -> str:
     return " ".join(
         str(entry.get(field) or "")
-        for field in ("name", "nameEn", "category", "type", "region", "cityOrFocus", "summary", "keywords")
+        for field in ("name", "nameEn", "category", "type", "country", "region", "cityOrFocus", "summary", "keywords")
     )
 
 
@@ -369,6 +393,7 @@ def merge_group(entries: list[dict[str, object]]) -> dict[str, object]:
     summaries = merge_unique_strings([str(entry.get("summary") or "") for entry in entries])
     keywords = merge_unique_strings([str(entry.get("keywords") or "") for entry in entries])
     types = merge_unique_strings([str(entry.get("type") or "") for entry in entries])
+    countries = merge_unique_strings([str(entry.get("country") or "") for entry in entries])
     regions = merge_unique_strings([str(entry.get("region") or "") for entry in entries])
     focuses = merge_unique_strings([str(entry.get("cityOrFocus") or "") for entry in entries])
 
@@ -377,6 +402,7 @@ def merge_group(entries: list[dict[str, object]]) -> dict[str, object]:
     merged["aliases"] = aliases
     merged["links"] = merge_links(entries)
     merged["type"] = " / ".join(types[:3])
+    merged["country"] = str(primary.get("country") or (countries[0] if countries else ""))
     merged["region"] = " / ".join(regions[:3])
     merged["cityOrFocus"] = " / ".join(focuses[:3])
     merged["summary"] = str(summary_entry.get("summary") or " / ".join(summaries[:1]))
@@ -461,9 +487,7 @@ def source_tag_cache() -> dict[str, dict[str, Any]]:
 def apply_source_tags(entry: dict[str, object], cache: dict[str, dict[str, Any]]) -> None:
     cached = cache.get(entry_tag_fingerprint(entry)) or {}
     tags = cached.get("sourceTags") or cached.get("tags") or []
-    if isinstance(tags, str):
-        tags = re.split(r"[,，、\s]+", tags)
-    source_tags = [str(tag).strip() for tag in tags if str(tag).strip()]
+    source_tags = normalize_tag_values(tags)
     entry["sourceTags"] = source_tags[:8] if source_tags else fallback_source_tags(entry)
 
     summary = str(cached.get("sourceSummary") or cached.get("summary") or "").strip()
@@ -705,6 +729,7 @@ def entry_from_row(row: dict[str, str], source: str, row_number: int) -> dict[st
         "nameEn": clean(row.get("name_en")),
         "category": category_for(row, source),
         "type": clean(row.get("type")),
+        "country": clean(row.get("country")),
         "region": clean(row.get("region")),
         "cityOrFocus": city_or_focus,
         "summary": summary,
@@ -714,6 +739,25 @@ def entry_from_row(row: dict[str, str], source: str, row_number: int) -> dict[st
         "links": links,
         "source": source,
     }
+
+
+def validate_public_entries(entries: list[dict[str, object]]) -> None:
+    errors: list[str] = []
+    for entry in entries:
+        name = str(entry.get("name") or entry.get("id") or "未命名來源")
+        if not clean(str(entry.get("country") or "")):
+            errors.append(f"{name}: missing country")
+        for tag in entry.get("sourceTags") or []:
+            text = str(tag or "").strip()
+            if not text:
+                continue
+            if TAG_FORBIDDEN_CHARS_RE.search(text) or re.search(r"\band\b", text, re.IGNORECASE):
+                errors.append(f"{name}: composite sourceTag {text!r}")
+    if errors:
+        formatted = "\n".join(f"- {error}" for error in errors[:40])
+        if len(errors) > 40:
+            formatted += f"\n- ... and {len(errors) - 40} more"
+        raise SystemExit("Invalid public source entries:\n" + formatted)
 
 
 def build_entries() -> list[dict[str, object]]:
@@ -744,6 +788,7 @@ def build_entries() -> list[dict[str, object]]:
     )
     for entry in sorted_entries:
         entry.pop("_latestUpdateSort", None)
+    validate_public_entries(sorted_entries)
     return sorted_entries
 
 
@@ -796,6 +841,7 @@ def main() -> None:
             "totalEntries": len(entries),
             "verifiedEntries": sum(1 for entry in entries if entry.get("status") == "已查核"),
             "categories": count_by(entries, "category"),
+            "countries": count_by(entries, "country"),
             "statuses": count_by(entries, "status"),
             "watchSources": social_source_stats(),
         },

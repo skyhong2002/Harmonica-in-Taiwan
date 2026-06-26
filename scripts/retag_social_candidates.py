@@ -57,7 +57,7 @@ def write_jsonl(path: Path, rows: list[dict[str, Any]], *, backup: bool = True) 
 
 
 def display_labels(llm_result: dict[str, Any]) -> list[str]:
-    labels = [str(label).strip() for label in (llm_result.get("llm_labels") or []) if str(label).strip()]
+    labels = watchdog.split_tag_values(list(llm_result.get("llm_labels") or []))
     if labels:
         return labels
     return ["公開更新"] if llm_result.get("llm_relevant") else []

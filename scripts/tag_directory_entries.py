@@ -7,7 +7,6 @@ import argparse
 import datetime as dt
 import json
 import os
-import re
 import subprocess
 import time
 import urllib.error
@@ -78,15 +77,8 @@ def save_cache(path: Path, cache: dict[str, Any]) -> None:
 
 
 def normalize_tags(value: Any) -> list[str]:
-    if isinstance(value, str):
-        raw = re.split(r"[,，、\s]+", value)
-    elif isinstance(value, list):
-        raw = value
-    else:
-        raw = []
-
     tags: list[str] = []
-    for item in raw:
+    for item in build_public_data.normalize_tag_values(value):
         tag = str(item or "").strip()
         if tag in SOURCE_TAGS and tag not in tags:
             tags.append(tag)
@@ -126,6 +118,7 @@ def prompt_for_entry(entry: dict[str, object]) -> list[dict[str, str]]:
         "aliases": entry.get("aliases") or [],
         "category": entry.get("category") or "",
         "type": entry.get("type") or "",
+        "country": entry.get("country") or "",
         "region": entry.get("region") or "",
         "city_or_focus": entry.get("cityOrFocus") or "",
         "summary": entry.get("summary") or "",
@@ -146,6 +139,7 @@ def prompt_for_entry(entry: dict[str, object]) -> list[dict[str, str]]:
             "content": (
                 "請替這個公開來源整理 directory-level tags。這不是單篇貼文分類，而是來源本身的分類。"
                 "sourceTags 請選 3 到 8 個，必須從白名單挑選；summary 請用 30 字內描述來源定位；"
+                "sourceTags 的每一個元素只能是一個 tag，不要用斜線、頓號、逗號、加號或空白合併多個 tag；"
                 "reason 請用 60 字內說明判斷依據。"
                 "如果是學校或社團，優先標學生社團、大專社團或高中社團；"
                 "如果是個人，標演奏者；如果是團體或樂團，標團體樂團；"

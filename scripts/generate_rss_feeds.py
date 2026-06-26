@@ -40,6 +40,8 @@ ASSET_VERSION = "20260625-0046"
 HOME_FEED_BATCH_SIZE = 12
 DEFAULT_UPDATE_WINDOW_DAYS = 30
 WEBP_QUALITY = "82"
+TAG_VALUE_SPLIT_RE = re.compile(r"\s*(?:[,，、/／+&]|\band\b|\s+)\s*", re.IGNORECASE)
+TAG_FORBIDDEN_CHARS_RE = re.compile(r"[,，、/／+&\s]")
 BRAND_LOGO_HTML = f'<img class="brand-logo" src="/assets/logo.svg?v={ASSET_VERSION}" alt="臺灣口琴觀測站" width="200" height="47">'
 SUBMIT_LINK_HTML = '<a href="/submit/">資料回報</a>'
 NAV_FEED_MENU = """<details class="nav-menu">
@@ -819,6 +821,28 @@ def unique_values(values: list[Any], limit: int = 8) -> list[str]:
     return items
 
 
+def normalize_tag_values(value: Any, *, limit: int = 8) -> list[str]:
+    if isinstance(value, str):
+        raw_values: list[Any] = [value]
+    elif isinstance(value, list):
+        raw_values = value
+    else:
+        raw_values = []
+
+    tags: list[str] = []
+    for raw in raw_values:
+        text = str(raw or "").strip()
+        if not text:
+            continue
+        for tag in TAG_VALUE_SPLIT_RE.split(text):
+            tag = tag.strip()
+            if tag and tag not in tags:
+                tags.append(tag)
+            if len(tags) >= limit:
+                return tags
+    return tags
+
+
 def llm_category_ids(row: dict[str, Any]) -> list[str]:
     values = row.get("llm_categories") or []
     if isinstance(values, str):
@@ -859,12 +883,8 @@ def candidate_category_ids(row: dict[str, Any]) -> list[str]:
 
 def candidate_display_tags(row: dict[str, Any]) -> list[str]:
     labels = row.get("llm_labels") or []
-    if isinstance(labels, str):
-        labels = re.split(r"[,，、\s]+", labels)
     keywords = row.get("matched_keywords") or []
-    if isinstance(keywords, str):
-        keywords = re.split(r"[,，、\s]+", keywords)
-    return unique_values([*labels, *keywords], limit=8)
+    return normalize_tag_values([*normalize_tag_values(labels), *normalize_tag_values(keywords)], limit=8)
 
 
 def read_candidate_rows() -> list[dict[str, Any]]:
@@ -1101,7 +1121,25 @@ def build_update_items(rows: list[dict[str, Any]], limit: int | None = None, cat
         if max_items and len(public_rows) >= max_items:
             break
 
+    validate_update_tags(public_rows)
     return public_rows
+
+
+def validate_update_tags(items: list[dict[str, Any]]) -> None:
+    errors: list[str] = []
+    for item in items:
+        title = str(item.get("headline") or item.get("title") or item.get("key") or "未命名更新")
+        for tag in item.get("matched_keywords") or []:
+            text = str(tag or "").strip()
+            if not text:
+                continue
+            if TAG_FORBIDDEN_CHARS_RE.search(text) or re.search(r"\band\b", text, re.IGNORECASE):
+                errors.append(f"{title}: composite matched_keyword {text!r}")
+    if errors:
+        formatted = "\n".join(f"- {error}" for error in errors[:40])
+        if len(errors) > 40:
+            formatted += f"\n- ... and {len(errors) - 40} more"
+        raise SystemExit("Invalid public feed tags:\n" + formatted)
 
 
 def write_update_json(path: Path, items: list[dict[str, Any]], category: dict[str, str] | None = None) -> None:
@@ -1741,6 +1779,7 @@ def generate_sources(limit: int) -> int:
             for part in [
                 f"分類：{entry.get('category') or '未分類'}",
                 f"Tag：{source_tags}" if source_tags else "",
+                f"國家：{entry.get('country') or '未標示'}",
                 f"地區：{entry.get('region') or '未標示'}",
                 f"查核：{entry.get('status') or '待確認'}",
                 "",
