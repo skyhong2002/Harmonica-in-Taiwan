@@ -893,7 +893,7 @@ def candidate_display_tags(row: dict[str, Any]) -> list[str]:
     keywords = row.get("matched_keywords") or []
     tags = normalize_tag_values([*normalize_tag_values(labels), *normalize_tag_values(keywords)], limit=8)
     if not tags and (row.get("story") or row.get("media_type") == "instagram_story"):
-        return ["Instagram story"]
+        return ["限時動態"]
     return tags
 
 
