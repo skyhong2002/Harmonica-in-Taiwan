@@ -193,14 +193,34 @@
       .join("");
   }
 
+  function splitMetaPills(value) {
+    return String(value || "")
+      .split(/\s*(?:[/／；;、,，+&]|\band\b)\s*/i)
+      .map((item) => item.trim())
+      .filter(Boolean);
+  }
+
+  function displayMetaPills(values, limit = 12) {
+    const pills = [];
+    const seen = new Set();
+    values.forEach((value) => {
+      splitMetaPills(value).forEach((pill) => {
+        if (seen.has(pill)) return;
+        seen.add(pill);
+        pills.push(pill);
+      });
+    });
+    return pills.slice(0, limit);
+  }
+
   function entryCard(entry) {
-    const meta = [
+    const meta = displayMetaPills([
       entry.latestUpdateLocal ? `最新 ${entry.latestUpdateLocal}` : "",
       entry.category,
       entry.country,
       entry.region,
       entry.cityOrFocus,
-    ].filter(Boolean);
+    ].filter(Boolean));
     const sourceTags = (entry.sourceTags || []).slice(0, 8);
     const summary = entry.sourceSummary || entry.summary || entry.type || "公開來源";
     const aliases = (entry.aliases || []).slice(0, 4);
