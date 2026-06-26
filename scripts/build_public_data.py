@@ -292,6 +292,26 @@ def best_entry(entries: list[dict[str, object]]) -> dict[str, object]:
     return max(entries, key=entry_score)
 
 
+def summary_score(entry: dict[str, object], primary: dict[str, object]) -> tuple[int, int, int, int, int, int]:
+    summary = str(entry.get("summary") or "")
+    noisy_words = ("相關來源", "監看", "觀察", "線索", "資料來源", "參考來源")
+    generic_name_words = ("相關", "子來源", "新團體", "參考來源")
+    parts = [part for part in summary.split(" / ") if part]
+    return (
+        1 if entry.get("source") == "club" and entry.get("category") == "學校社團" else 0,
+        1 if entry is primary else 0,
+        1 if entry.get("status") == "已查核" else 0,
+        -sum(word in summary for word in noisy_words),
+        -sum(word in str(entry.get("name") or "") for word in generic_name_words),
+        -abs(len(parts) - 3),
+        -len(summary),
+    )
+
+
+def best_summary_entry(entries: list[dict[str, object]], primary: dict[str, object]) -> dict[str, object]:
+    return max(entries, key=lambda entry: summary_score(entry, primary))
+
+
 def strongest_status(entries: list[dict[str, object]]) -> str:
     statuses = [str(entry.get("status") or "") for entry in entries]
     if "已查核" in statuses:
@@ -337,6 +357,7 @@ def merge_links(entries: list[dict[str, object]]) -> list[dict[str, str]]:
 
 def merge_group(entries: list[dict[str, object]]) -> dict[str, object]:
     primary = best_entry(entries)
+    summary_entry = best_summary_entry(entries, primary)
     aliases = merge_unique_strings(
         [
             str(value)
@@ -358,7 +379,7 @@ def merge_group(entries: list[dict[str, object]]) -> dict[str, object]:
     merged["type"] = " / ".join(types[:3])
     merged["region"] = " / ".join(regions[:3])
     merged["cityOrFocus"] = " / ".join(focuses[:3])
-    merged["summary"] = " / ".join(summaries[:4])
+    merged["summary"] = str(summary_entry.get("summary") or " / ".join(summaries[:1]))
     merged["keywords"] = " ".join(keywords)
     merged["status"] = strongest_status(entries)
     merged["sourceStatus"] = strongest_source_status(entries)

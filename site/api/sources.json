@@ -11,8 +11,8 @@
       "場館平台": 6,
       "學校社團": 23,
       "教學器材": 12,
-      "活動資訊": 5,
-      "演奏者": 38
+      "活動資訊": 4,
+      "演奏者": 39
     },
     "statuses": {
       "已查核": 79,
@@ -48,7 +48,7 @@
       "type": "學校社團",
       "region": "台灣/新竹",
       "cityOrFocus": "新竹",
-      "summary": "國立陽明交通大學 / 口琴 / 學校社團／社群監看來源",
+      "summary": "國立陽明交通大學 / 口琴 / 學校社團",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "陽明交大竹韻口琴社 Bamboo Melody Harmonica Club NYCU 交通大學竹韻口琴社 口琴社",
@@ -237,7 +237,7 @@
       "type": "個人 / 教學/影片來源",
       "region": "台灣",
       "cityOrFocus": "狂響/複音/教學演出 / 口琴教學影片/示範",
-      "summary": "狂響/複音/教學演出 / 複音 / 演出人員/教學者 / 口琴教學影片/示範 / 口琴 / 教學影片來源",
+      "summary": "狂響/複音/教學演出 / 複音 / 演出人員/教學者",
       "status": "部分查核",
       "sourceStatus": "部分已查核公開連結",
       "keywords": "歐純伶 口琴 吹出好心琴 Ou Frog 口琴 教學 YouTube",
@@ -271,14 +271,11 @@
       "avatarUrl": "/assets/source-avatars/2241bd394301b93492ed.webp",
       "sourceInitials": "歐純",
       "sourceTags": [
-        "演奏者",
-        "複音",
-        "教學",
         "口琴",
-        "音樂會"
-      ],
-      "sourceSummary": "複音口琴演奏者，提供教學與演出資訊的個人來源。",
-      "sourceTagReason": "資料明確標示為「演奏者」，主要從事複音口琴教學與演出，並透過平台分享教學影片。"
+        "演奏者",
+        "教學",
+        "複音"
+      ]
     },
     {
       "id": "watchlist-40",
@@ -501,7 +498,7 @@
       "type": "個人",
       "region": "台灣",
       "cityOrFocus": "半音階/十孔/作曲/配樂/跨界",
-      "summary": "半音階/十孔/作曲/配樂/跨界 / 半音階/十孔 / 重要演出人員",
+      "summary": "半音階/十孔/作曲/配樂/跨界 / 半音階/十孔 / 演出人員",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "李讓 Jang Li",
@@ -682,7 +679,7 @@
       "type": "團體",
       "region": "台灣/台北",
       "cityOrFocus": "口琴樂團/年度公演",
-      "summary": "口琴樂團/年度公演 / 口琴 / 活動/演出來源",
+      "summary": "口琴樂團/年度公演 / 口琴 / 演出團體",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "台北黃石口琴樂團 Taipei Yellowstone Harmonica Ensemble 口琴 年度公演",
@@ -701,13 +698,9 @@
       "avatarUrl": "/assets/source-avatars/5c7f37af162eacf64845.webp",
       "sourceInitials": "台北",
       "sourceTags": [
-        "團體樂團",
         "口琴",
-        "演出",
-        "音樂會"
-      ],
-      "sourceSummary": "台北市的口琴合奏團體，專注於年度公演等公開演出活動。",
-      "sourceTagReason": "資料明確標註為「團體樂團」，名稱含「樂團」，城市焦點為「年度公演」，屬於以演出為主的表演團體。"
+        "團體樂團"
+      ]
     },
     {
       "id": "watchlist-49",
@@ -768,7 +761,7 @@
       "type": "工作室/團體",
       "region": "香港/國際",
       "cityOrFocus": "半音階口琴/小提琴二重奏/教學",
-      "summary": "半音階口琴/小提琴二重奏/教學 / 半音階/小提琴 / 國際口琴交流/工作室來源",
+      "summary": "半音階口琴/小提琴二重奏/教學 / 半音階/小提琴 / 國際教學/演出單位",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "Duo Volce Music Studio 誼聲音樂室 Harry Choi 蔡偉鏗 harmonica violin Hong Kong",
@@ -858,7 +851,7 @@
       "type": "國際團體/參考來源",
       "region": "香港/國際",
       "cityOrFocus": "國際口琴重奏/臺港交流",
-      "summary": "國際口琴重奏/臺港交流 / 口琴重奏 / 國際交流參考來源",
+      "summary": "國際口琴重奏/臺港交流 / 口琴重奏 / 國際演出團體",
       "status": "部分查核",
       "sourceStatus": "部分已查核公開連結",
       "keywords": "RedBricks Harmonica 香港口琴五重奏 harmonica ensemble",
@@ -885,13 +878,11 @@
       "avatarUrl": "/assets/source-avatars/44ed1621e83c468035bf.webp",
       "sourceInitials": "RH",
       "sourceTags": [
+        "口琴",
         "團體樂團",
-        "合奏",
         "重奏",
         "國際交流"
-      ],
-      "sourceSummary": "香港口琴五重奏團體，專注國際口琴重奏演出與交流。",
-      "sourceTagReason": "來源名稱與描述明確指向「口琴五重奏」團體，類別標示為「團體樂團」，且強調「國際口琴重奏」與「臺港交流」。"
+      ]
     },
     {
       "id": "watchlist-2+watchlist-67",
@@ -901,7 +892,7 @@
       "type": "活動/資訊入口 / 活動子來源",
       "region": "台灣",
       "cityOrFocus": "音樂節/比賽/Gala/講座 / 每年新興團體/青年演出",
-      "summary": "音樂節/比賽/Gala/講座 / 半音階/複音/十孔/重奏 / 核心活動入口 / 每年新興團體/青年演出 / 口琴 / 參考來源",
+      "summary": "音樂節/比賽/Gala/講座 / 半音階/複音/十孔/重奏 / 核心活動",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "THMF 臺灣口琴音樂節 Taiwan Harmonica Music Festival THMF 午間音樂會 新團體",
@@ -952,7 +943,7 @@
       "type": "學校社團",
       "region": "台灣/台北",
       "cityOrFocus": "台北",
-      "summary": "國立臺灣師範大學 / 口琴 / 學校社團／社群監看來源",
+      "summary": "國立臺灣師範大學 / 口琴 / 學校社團",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "師大口琴社 NTNU Harmonica Club 口琴社",
@@ -979,12 +970,11 @@
       "avatarUrl": "/assets/source-avatars/2e22a6a735da1c0d8f2c.webp",
       "sourceInitials": "師大",
       "sourceTags": [
-        "學生社團",
         "口琴",
-        "交流"
-      ],
-      "sourceSummary": "國立臺灣師範大學的口琴學校社團",
-      "sourceTagReason": "根據 category 與 type 明確標示為學校社團，且名稱與關鍵字均指向師範大學的口琴社團。"
+        "學校社團",
+        "學生社團",
+        "大專社團"
+      ]
     },
     {
       "id": "watchlist-63+club-10",
@@ -994,7 +984,7 @@
       "type": "學校社團",
       "region": "台灣/台北",
       "cityOrFocus": "大學口琴社/成果發表/交流 / 台北",
-      "summary": "大學口琴社/成果發表/交流 / 口琴社 / 參考來源/合作對象 / 臺灣大學 / 口琴 / 學校社團／社群監看來源；參考來源/合作對象",
+      "summary": "臺灣大學 / 口琴 / 學校社團",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "台大藍聲口琴社",
@@ -1025,14 +1015,11 @@
       "avatarUrl": "/assets/source-avatars/c1b9a8d6df3e79573ba0.webp",
       "sourceInitials": "台大",
       "sourceTags": [
+        "口琴",
+        "學校社團",
         "學生社團",
-        "大專社團",
-        "交流",
-        "成發",
-        "口琴"
-      ],
-      "sourceSummary": "國立臺灣大學官方口琴社團，專注口琴演奏、成果發表與校際交流。",
-      "sourceTagReason": "明確為學校社團（大專層級），類別與摘要均提及成果發表與交流活動，核心為口琴演奏與學習。"
+        "大專社團"
+      ]
     },
     {
       "id": "watchlist-5",
@@ -1042,7 +1029,7 @@
       "type": "團體",
       "region": "台灣",
       "cityOrFocus": "重奏/公演/年輕團體",
-      "summary": "重奏/公演/年輕團體 / 口琴重奏/合奏 / 重要演出團體",
+      "summary": "重奏/公演/年輕團體 / 口琴重奏/合奏 / 演出團體",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團",
@@ -1086,7 +1073,7 @@
       "type": "學校/青年",
       "region": "台灣/台北",
       "cityOrFocus": "國小口琴系統 / 台北",
-      "summary": "國小口琴系統 / 口琴隊 / 參考來源 / 口琴隊 / 參考來源",
+      "summary": "文山／萬興國小 / 口琴隊 / 學校團隊",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "文山 萬興國小 口琴",
@@ -1109,12 +1096,10 @@
       "avatarUrl": "/assets/source-avatars/9bfce9787db4878b5892.webp",
       "sourceInitials": "文山",
       "sourceTags": [
-        "學生社團",
         "口琴",
-        "教學"
-      ],
-      "sourceSummary": "台北市文山區萬興國小口琴隊的資訊與參考來源。",
-      "sourceTagReason": "來源為國小學校社團，優先標學生社團；提供口琴學習參考，故標口琴與教學。"
+        "學校社團",
+        "學生社團"
+      ]
     },
     {
       "id": "watchlist-27+watchlist-86",
@@ -1123,8 +1108,8 @@
       "category": "教學器材",
       "type": "單位 / 樂器行/口琴專賣店",
       "region": "台灣 / 台灣/台北",
-      "cityOrFocus": "樂器/活動資訊 / 口琴買賣/維修保養/教學服務",
-      "summary": "樂器/活動資訊 / 口琴 / 活動/樂器來源 / 口琴買賣/維修保養/教學服務 / 口琴 / 器材/教學/活動來源",
+      "cityOrFocus": "口琴器材/活動資訊 / 口琴買賣/維修保養/教學服務",
+      "summary": "口琴器材/活動資訊 / 口琴 / 器材/教學來源",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "音和樂器 口琴 音和樂器 PeaceTones 口琴專賣店 口琴 維修 教學",
@@ -1157,13 +1142,10 @@
       "avatarUrl": "/assets/source-avatars/81fa36d32a8fd17393ca.webp",
       "sourceInitials": "音和",
       "sourceTags": [
-        "品牌",
-        "器材",
-        "教學",
-        "演奏者"
-      ],
-      "sourceSummary": "專營口琴買賣、維修保養與教學服務的樂器行。",
-      "sourceTagReason": "名稱為「樂器專賣店」，類別為「教學器材」，提供買賣、維修、教學，符合品牌、器材與教學來源。"
+        "口琴",
+        "教學器材",
+        "教學"
+      ]
     },
     {
       "id": "watchlist-55",
@@ -1246,8 +1228,8 @@
       "category": "演奏者",
       "type": "個人",
       "region": "台灣",
-      "cityOrFocus": "111 Trio / Quintet",
-      "summary": "111 Trio / Quintet / 口琴 / 演出人員",
+      "cityOrFocus": "111 Trio／Quintet",
+      "summary": "111 Trio／Quintet / 口琴 / 演出人員",
       "status": "部分查核",
       "sourceStatus": "部分已查核公開連結",
       "keywords": "廖苡晴 111 Trio 口琴",
@@ -1270,13 +1252,9 @@
       "avatarUrl": "/assets/source-avatars/5b5371b7851220afa3a1.webp",
       "sourceInitials": "廖苡",
       "sourceTags": [
-        "演奏者",
         "口琴",
-        "演出",
-        "合奏"
-      ],
-      "sourceSummary": "口琴演奏者廖苡晴，活躍於111 Trio與Quintet等合奏團體。",
-      "sourceTagReason": "資料明確標示為「演奏者」與「個人」，且涉及「Trio/Quintet」合奏團體與「口琴」關鍵字。"
+        "演奏者"
+      ]
     },
     {
       "id": "watchlist-17",
@@ -1325,11 +1303,11 @@
       "id": "watchlist-96",
       "name": "何家健 HarmoniKahkean",
       "nameEn": "Ho Kah Kean / HarmoniKahkean",
-      "category": "活動資訊",
-      "type": "個人/地方活動來源",
+      "category": "演奏者",
+      "type": "個人/地方推廣",
       "region": "台灣/花蓮；馬來西亞",
       "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
-      "summary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出者/地方活動來源/國際交流線索",
+      "summary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
@@ -1360,15 +1338,11 @@
       "avatarUrl": "/assets/source-avatars/2ae8afd20e310f8d959d.webp",
       "sourceInitials": "H",
       "sourceTags": [
-        "演奏者",
-        "國際交流",
-        "活動資訊",
         "口琴",
+        "演奏者",
         "重奏",
-        "演出"
-      ],
-      "sourceSummary": "口琴演奏者何家健，活躍於花蓮地方推廣與國際交流，並透過 Podcast 分享。",
-      "sourceTagReason": "來源為個人姓名，類別標示為活動資訊，摘要提及口琴演奏、地方推廣、Podcast與國際交流，符合演奏者與國際交流標籤。"
+        "國際交流"
+      ]
     },
     {
       "id": "watchlist-30+watchlist-93",
@@ -1377,8 +1351,8 @@
       "category": "教學器材",
       "type": "個人 / 教學/維修/影片來源",
       "region": "台灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出 / 口琴教學/維修/重奏/硬體/YouTube資源",
-      "summary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者 / 口琴教學/維修/重奏/硬體/YouTube資源 / 半音階/複音/Bass/Chord / 教學維修/資料來源/演出者線索",
+      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出 / 口琴教學/維修/重奏/硬體",
+      "summary": "口琴教學/維修/重奏/硬體 / 半音階/複音/Bass/Chord / 教學/維修來源",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "蔡明憲 口琴 DMing Studio 大明 口琴 教學 維修 蔡明憲 天狼星 Laelaps",
@@ -1595,7 +1569,7 @@
       "type": "個人",
       "region": "台灣",
       "cityOrFocus": "鋼琴合作/編曲創作/口琴合作",
-      "summary": "鋼琴合作/編曲創作/口琴合作 / 鋼琴/編曲/口琴合作 / 合作音樂家/編曲者/演出者線索",
+      "summary": "鋼琴合作/編曲創作/口琴合作 / 鋼琴/編曲/口琴合作 / 合作音樂家/編曲者",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "Yora Chen 陳瑤容 陳瑶容 口琴 編曲 鋼琴合作 111 Quintet",
@@ -1638,7 +1612,7 @@
       "type": "學校社團",
       "region": "台灣/彰化",
       "cityOrFocus": "彰化",
-      "summary": "彰化女中 / 口琴 / 學校社團／社群監看來源",
+      "summary": "彰化女中 / 口琴 / 學校社團",
       "status": "部分查核",
       "sourceStatus": "部分已查核公開連結",
       "keywords": "彰女微光口琴社 CHGSH Harmonica 口琴社",
@@ -1657,12 +1631,10 @@
       "avatarUrl": "/assets/source-avatars/f66c739a77f2c45045ff.webp",
       "sourceInitials": "彰女",
       "sourceTags": [
-        "高中社團",
-        "學生社團",
-        "口琴"
-      ],
-      "sourceSummary": "彰化女中微光口琴社，高中學生口琴社團。",
-      "sourceTagReason": "來源名稱與類別明確為「彰化女中」的「口琴社」，屬於高中學生社團。"
+        "口琴",
+        "學校社團",
+        "學生社團"
+      ]
     },
     {
       "id": "club-13",
@@ -1672,7 +1644,7 @@
       "type": "學校社團",
       "region": "台灣/台北",
       "cityOrFocus": "台北",
-      "summary": "建國中學 / 口琴 / 學校社團／社群監看來源",
+      "summary": "建國中學 / 口琴 / 學校社團",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "建中口琴社 CKHC 64th 口琴社",
@@ -1700,11 +1672,9 @@
       "sourceInitials": "建中",
       "sourceTags": [
         "口琴",
-        "學生社團",
-        "高中社團"
-      ],
-      "sourceSummary": "建國中學口琴社，為高中學校社團。",
-      "sourceTagReason": "名稱為「建中口琴社」，類別明確為「學校社團」，建中為高中，故優先標示學生社團與高中社團，並加入核心樂器口琴。"
+        "學校社團",
+        "學生社團"
+      ]
     },
     {
       "id": "club-5",
@@ -1714,7 +1684,7 @@
       "type": "學校社團",
       "region": "台灣/台中",
       "cityOrFocus": "台中",
-      "summary": "臺中一中 / 口琴 / 學校社團／社群監看來源",
+      "summary": "臺中一中 / 口琴 / 學校社團",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "中一中口琴社 TCFSH Harmonica 口琴社",
@@ -1745,12 +1715,10 @@
       "avatarUrl": "/assets/source-avatars/9033731e98662050a211.webp",
       "sourceInitials": "中一",
       "sourceTags": [
-        "高中社團",
-        "學生社團",
-        "口琴"
-      ],
-      "sourceSummary": "臺中一中口琴社，高中學校社團的社群監看來源。",
-      "sourceTagReason": "來源名稱與類別明確為「中一中口琴社」，屬學校社團，且資料中提及「口琴」，故標註為高中社團、學生社團及口琴。"
+        "口琴",
+        "學校社團",
+        "學生社團"
+      ]
     },
     {
       "id": "watchlist-58",
@@ -1854,7 +1822,7 @@
       "type": "學校社團",
       "region": "台灣/高雄",
       "cityOrFocus": "高雄",
-      "summary": "高雄中學 / 口琴 / 學校社團／社群監看來源",
+      "summary": "高雄中學 / 口琴 / 學校社團",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "高雄中學口琴社 KSHS Harmonica 口琴社",
@@ -1877,13 +1845,10 @@
       "avatarUrl": "/assets/source-avatars/38d556859157b549ab61.webp",
       "sourceInitials": "高雄",
       "sourceTags": [
-        "學生社團",
-        "高中社團",
         "口琴",
-        "交流"
-      ],
-      "sourceSummary": "高雄中學口琴社，高中學校社團，推廣口琴學習與交流。",
-      "sourceTagReason": "來源名稱為「高雄中學口琴社」，類型明確為「學校社團」，位於高雄，故優先標記學生社團、高中社團。核心活動為口琴相關，並具備社團交流性質。"
+        "學校社團",
+        "學生社團"
+      ]
     },
     {
       "id": "club-6",
@@ -1893,7 +1858,7 @@
       "type": "學校社團",
       "region": "台灣/台中",
       "cityOrFocus": "台中",
-      "summary": "中山醫學大學 / 口琴 / 學校社團／社群監看來源",
+      "summary": "中山醫學大學 / 口琴 / 學校社團",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "中山醫藍韻口琴社 CSMU Blue Melody 口琴社",
@@ -1925,14 +1890,10 @@
       "sourceInitials": "中山",
       "sourceTags": [
         "口琴",
+        "學校社團",
         "學生社團",
-        "大專社團",
-        "交流",
-        "合奏",
-        "招生"
-      ],
-      "sourceSummary": "中山醫學大學藍韻口琴社，大專校院學生口琴社團。",
-      "sourceTagReason": "來源名稱與類別明確標示為學校社團，屬大專院校，具備口琴社團與招生、交流性質。"
+        "大專社團"
+      ]
     },
     {
       "id": "club-12",
@@ -1942,7 +1903,7 @@
       "type": "學校社團",
       "region": "台灣/台北",
       "cityOrFocus": "台北",
-      "summary": "師大附中 / 口琴 / 學校社團／社群監看來源",
+      "summary": "師大附中 / 口琴 / 學校社團",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "師大附中舒馨口琴社 HSNU Cozy Harmonica 口琴社",
@@ -1973,15 +1934,10 @@
       "avatarUrl": "/assets/source-avatars/77ede19d1deb4ae6284c.webp",
       "sourceInitials": "師大",
       "sourceTags": [
-        "學生社團",
-        "高中社團",
         "口琴",
-        "合奏",
-        "演出",
-        "招生"
-      ],
-      "sourceSummary": "師大附中高中口琴社團，提供演出、練習與社團招生活動資訊。",
-      "sourceTagReason": "資料明確為高中學校社團（師大附中），並包含演出、練習等活動，符合學生社團與高中社團定義。"
+        "學校社團",
+        "學生社團"
+      ]
     },
     {
       "id": "watchlist-16",
@@ -2038,7 +1994,7 @@
       "type": "地方教學/社大課程",
       "region": "台灣/桃園",
       "cityOrFocus": "口琴課程/地方社群活動",
-      "summary": "口琴課程/地方社群活動 / 口琴 / 地方活動/課程線索",
+      "summary": "口琴課程/地方社群活動 / 口琴 / 教學/課程來源",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "桃園玩口琴 桃園 口琴 課程 社大",
@@ -2057,12 +2013,11 @@
       "avatarUrl": "/assets/source-avatars/aa8d3e96c60688d76bde.webp",
       "sourceInitials": "桃園",
       "sourceTags": [
+        "口琴",
+        "教學器材",
         "教學",
-        "課程",
-        "工作室"
-      ],
-      "sourceSummary": "桃園地區提供口琴課程與地方社群活動的教學單位。",
-      "sourceTagReason": "來源類型為「教學器材」與「地方教學/社大課程」，關鍵詞包含「口琴課程」、「社大」，且定位為課程與地方活動，故標記教學、課程與工作室。"
+        "課程"
+      ]
     },
     {
       "id": "club-18",
@@ -2072,7 +2027,7 @@
       "type": "學校社團",
       "region": "台灣/新竹",
       "cityOrFocus": "新竹",
-      "summary": "國立清華大學 / 口琴 / 學校社團／社群監看來源",
+      "summary": "國立清華大學 / 口琴 / 學校社團",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "清華大學口琴社 NTHU Harmonica Club 口琴社",
@@ -2104,11 +2059,10 @@
       "sourceInitials": "清華",
       "sourceTags": [
         "口琴",
+        "學校社團",
         "學生社團",
         "大專社團"
-      ],
-      "sourceSummary": "國立清華大學的口琴學校社團，提供學生交流與演出平台。",
-      "sourceTagReason": "名稱明確為大學口琴社團，屬學校社團類別，優先標示大專社團與學生社團，並以口琴為核心。"
+      ]
     },
     {
       "id": "watchlist-4",
@@ -2118,7 +2072,7 @@
       "type": "團體",
       "region": "台灣",
       "cityOrFocus": "重奏/公演/教育推廣",
-      "summary": "重奏/公演/教育推廣 / 口琴重奏/合奏 / 重要演出團體",
+      "summary": "重奏/公演/教育推廣 / 口琴重奏/合奏 / 演出團體",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "Judy's Harmonica Ensemble 茱蒂口琴樂團",
@@ -2149,15 +2103,10 @@
       "avatarUrl": "/assets/source-avatars/94078177897f59538292.webp",
       "sourceInitials": "JSH",
       "sourceTags": [
+        "口琴",
         "團體樂團",
-        "重奏",
-        "合奏",
-        "演出",
-        "音樂會",
-        "教學"
-      ],
-      "sourceSummary": "專注口琴重奏與合奏的表演團體，亦從事音樂教育推廣。",
-      "sourceTagReason": "資料明確標示為「團體樂團」，並強調重奏、合奏與公演，同時涉及教育推廣。"
+        "重奏"
+      ]
     },
     {
       "id": "watchlist-36",
@@ -2210,7 +2159,7 @@
       "type": "學校社團",
       "region": "台灣/彰化",
       "cityOrFocus": "彰化",
-      "summary": "國立彰化師範大學 / 口琴 / 學校社團／社群監看來源",
+      "summary": "國立彰化師範大學 / 口琴 / 學校社團",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "彰師大白沙口琴社 NCUE Harmonica 口琴社",
@@ -2241,13 +2190,11 @@
       "avatarUrl": "/assets/source-avatars/54120042919c10556c84.webp",
       "sourceInitials": "彰師",
       "sourceTags": [
-        "學生社團",
         "口琴",
-        "大專社團",
-        "交流"
-      ],
-      "sourceSummary": "國立彰化師範大學的口琴學生社團，提供社群連結與相關資訊。",
-      "sourceTagReason": "明確標示為學校社團，屬於大專院校，以口琴為核心活動。"
+        "學校社團",
+        "學生社團",
+        "大專社團"
+      ]
     },
     {
       "id": "club-8",
@@ -2257,7 +2204,7 @@
       "type": "學校社團",
       "region": "台灣/台中",
       "cityOrFocus": "台中",
-      "summary": "逢甲大學 / 口琴 / 學校社團／社群監看來源",
+      "summary": "逢甲大學 / 口琴 / 學校社團",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "逢甲口琴社 FCU Harmonica 口琴社",
@@ -2285,14 +2232,10 @@
       "sourceInitials": "逢甲",
       "sourceTags": [
         "口琴",
-        "大專社團",
+        "學校社團",
         "學生社團",
-        "合奏",
-        "招生",
-        "活動資訊"
-      ],
-      "sourceSummary": "逢甲大學口琴社，大專校院學生社團，推廣口琴活動與招生。",
-      "sourceTagReason": "來源明確為「學校社團」，逢甲大學屬大專院校，故標大專社團、學生社團。主要活動為口琴相關，並提供社團招生與活動資訊。"
+        "大專社團"
+      ]
     },
     {
       "id": "watchlist-83",
@@ -2344,7 +2287,7 @@
       "type": "團體",
       "region": "台灣",
       "cityOrFocus": "重奏/青年團體/演出",
-      "summary": "重奏/青年團體/演出 / 半音階口琴/低音口琴/和弦口琴 / 演出團體/社群觀察來源",
+      "summary": "重奏/青年團體/演出 / 口琴重奏 / 演出團體",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "進擊的口琴樂團 attack_on_harmonica_ensemble 口琴",
@@ -2363,16 +2306,10 @@
       "avatarUrl": "/assets/source-avatars/943304d2d25b73d5cac7.webp",
       "sourceInitials": "進擊",
       "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "演出",
         "口琴",
-        "半音階",
-        "低音",
-        "和弦"
-      ],
-      "sourceSummary": "以半音階、低音、和弦口琴為主的青年重奏演出團體。",
-      "sourceTagReason": "名稱與欄位明確為『團體』、『重奏』、『演出』，並指明使用半音階、低音、和弦口琴。"
+        "團體樂團",
+        "重奏"
+      ]
     },
     {
       "id": "watchlist-100",
@@ -2420,8 +2357,8 @@
       "category": "教學器材",
       "type": "單位",
       "region": "台灣",
-      "cityOrFocus": "教學/硬體/演出資訊",
-      "summary": "教學/硬體/演出資訊 / 口琴 / 活動來源/教學硬體",
+      "cityOrFocus": "教學/器材/演出資訊",
+      "summary": "教學/器材/演出資訊 / 口琴 / 教學/器材來源",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "Laelaps 口琴 蔡明憲 張晁滕",
@@ -2453,12 +2390,9 @@
       "sourceInitials": "L",
       "sourceTags": [
         "口琴",
-        "器材",
-        "教學",
-        "品牌"
-      ],
-      "sourceSummary": "台灣口琴教學器材品牌，提供教學資訊與演出資訊。",
-      "sourceTagReason": "來源名稱、類別('教學器材')與摘要明確指出其為器材品牌，並涵蓋教學與演出資訊。"
+        "教學器材",
+        "教學"
+      ]
     },
     {
       "id": "club-15",
@@ -2468,7 +2402,7 @@
       "type": "學校社團",
       "region": "台灣/屏東",
       "cityOrFocus": "屏東",
-      "summary": "國立屏東科技大學 / 口琴 / 學校社團／社群監看來源",
+      "summary": "國立屏東科技大學 / 口琴 / 學校社團",
       "status": "部分查核",
       "sourceStatus": "部分已查核公開連結",
       "keywords": "屏科大口琴社 NPUST HMC 口琴社",
@@ -2491,12 +2425,11 @@
       "avatarUrl": "/assets/source-avatars/f2ba0bfd79c0a46f7d28.webp",
       "sourceInitials": "屏科",
       "sourceTags": [
-        "學生社團",
         "口琴",
+        "學校社團",
+        "學生社團",
         "大專社團"
-      ],
-      "sourceSummary": "國立屏東科技大學口琴社，活躍於社團招生與校園演出。",
-      "sourceTagReason": "名稱與類別明確為大專校院口琴學生社團，白名單中「學生社團」、「大專社團」優先標註，「口琴」為其核心活動。"
+      ]
     },
     {
       "id": "watchlist-10",
@@ -2506,7 +2439,7 @@
       "type": "個人",
       "region": "台灣",
       "cityOrFocus": "半音階/複音/原創/比賽曲",
-      "summary": "半音階/複音/原創/比賽曲 / 半音階/複音 / 重要演出人員",
+      "summary": "半音階/複音/原創/比賽曲 / 半音階/複音 / 演出人員",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "林家靖 Rolabo Lin",
@@ -2537,13 +2470,12 @@
       "avatarUrl": "/assets/source-avatars/73cc6f458955466debe2.webp",
       "sourceInitials": "RL",
       "sourceTags": [
-        "演奏者",
         "口琴",
+        "演奏者",
+        "比賽",
         "半音階",
         "複音"
-      ],
-      "sourceSummary": "半音階與複音口琴演奏者，專注原創與比賽曲目。",
-      "sourceTagReason": "來源類別明確標示為演奏者，且摘要提及半音階、複音、原創與比賽曲，符合個人演奏者定位。"
+      ]
     },
     {
       "id": "watchlist-29",
@@ -2599,7 +2531,7 @@
       "type": "學校社團",
       "region": "台灣/台中",
       "cityOrFocus": "台中",
-      "summary": "國立臺中科技大學 / 口琴 / 學校社團／社群監看來源",
+      "summary": "國立臺中科技大學 / 口琴 / 學校社團",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "臺中科大口琴社 NUTC Harmonica 口琴社",
@@ -2631,12 +2563,10 @@
       "sourceInitials": "臺中",
       "sourceTags": [
         "口琴",
+        "學校社團",
         "學生社團",
-        "大專社團",
-        "交流"
-      ],
-      "sourceSummary": "國立臺中科技大學口琴社，大專校院的口琴學生社團，active在社群平台。",
-      "sourceTagReason": "根據name、category、type與summary，明確為大學校內的口琴社團，故標學生社團與大專社團；口琴為核心，交流為社團常見功能。"
+        "大專社團"
+      ]
     },
     {
       "id": "watchlist-8+watchlist-64+club-4",
@@ -2646,7 +2576,7 @@
       "type": "團體 / 學校/青年",
       "region": "台灣 / 台灣/台中",
       "cityOrFocus": "合奏/台中地方演出/學生系統 / 學生團隊/比賽/演出 / 台中",
-      "summary": "合奏/台中地方演出/學生系統 / 口琴合奏 / 重要演出團體 / 學生團隊/比賽/演出 / 口琴隊 / 參考來源 / 口琴隊 / 參考來源",
+      "summary": "台中市中華口琴會 / 口琴隊 / 學校團隊",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "台中市中華口琴會 樂團 台中市中華口琴會 學生 團隊",
@@ -2675,15 +2605,12 @@
       "avatarUrl": "/assets/source-avatars/4df93c46438ca873550e.webp",
       "sourceInitials": "台中",
       "sourceTags": [
-        "團體樂團",
-        "合奏",
+        "口琴",
+        "學校社團",
         "學生社團",
-        "活動資訊",
-        "音樂會",
-        "演出"
-      ],
-      "sourceSummary": "台中市中華口琴會樂團，為學生團隊性質的口琴合奏團體。",
-      "sourceTagReason": "來源名稱含「樂團」，類型為「團體/學校/青年」，別名提及「學生團隊」，摘要強調合奏與地方演出，故標團體樂團、合奏、學生社團等。"
+        "團體樂團",
+        "比賽"
+      ]
     },
     {
       "id": "watchlist-14",
@@ -2740,7 +2667,7 @@
       "type": "學校社團",
       "region": "台灣/台南",
       "cityOrFocus": "台南",
-      "summary": "臺南一中 / 口琴 / 學校社團／社群監看來源",
+      "summary": "臺南一中 / 口琴 / 學校社團",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "臺南一中口琴社 TNFSH Harmonica 台南一中口琴社",
@@ -2767,11 +2694,10 @@
       "avatarUrl": "/assets/source-avatars/8e388fc3deedeffda81a.webp",
       "sourceInitials": "臺南",
       "sourceTags": [
-        "高中社團",
-        "口琴"
-      ],
-      "sourceSummary": "臺南一中口琴社，為高中學校社團的口琴社團。",
-      "sourceTagReason": "資料明確為「臺南一中」的口琴社團，類別與類型均標示為學校社團，符合高中社團定義。"
+        "口琴",
+        "學校社團",
+        "學生社團"
+      ]
     },
     {
       "id": "watchlist-47",
@@ -2860,7 +2786,7 @@
       "type": "學校社團",
       "region": "台灣/台南",
       "cityOrFocus": "台南",
-      "summary": "國立成功大學 / 口琴 / 學校社團／社群監看來源",
+      "summary": "國立成功大學 / 口琴 / 學校社團",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "成大口琴社 NCKU Harmonica Club 口琴社",
@@ -2891,14 +2817,11 @@
       "avatarUrl": "/assets/source-avatars/01722e9bcfc9cae9c453.webp",
       "sourceInitials": "成大",
       "sourceTags": [
-        "學生社團",
-        "大專社團",
         "口琴",
-        "交流",
-        "合奏"
-      ],
-      "sourceSummary": "國立成功大學口琴社，大專校院的學生社團，從事口琴練習與交流。",
-      "sourceTagReason": "來源名稱與類別明確為「學校社團」，屬大專院校，故標學生社團、大專社團；核心活動為口琴，故標口琴；社團本質涉及交流與合奏練習。"
+        "學校社團",
+        "學生社團",
+        "大專社團"
+      ]
     },
     {
       "id": "watchlist-60",
@@ -2993,7 +2916,7 @@
       "type": "團體",
       "region": "台灣",
       "cityOrFocus": "重奏/公演/THMF/國際交流",
-      "summary": "重奏/公演/THMF/國際交流 / 口琴重奏/合奏 / 重要演出團體",
+      "summary": "重奏/公演/THMF/國際交流 / 口琴重奏/合奏 / 演出團體",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "天狼星口琴樂團 Sirius Harmonica Ensemble",
@@ -3034,7 +2957,7 @@
       "type": "個人",
       "region": "台灣",
       "cityOrFocus": "複音/教學/演出",
-      "summary": "複音/教學/演出 / 複音 / 重要演出人員",
+      "summary": "複音/教學/演出 / 複音 / 演出人員",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "張筑婷 複音口琴",
@@ -3065,13 +2988,11 @@
       "avatarUrl": "/assets/source-avatars/e2f1a0b77a000c272bbc.webp",
       "sourceInitials": "張筑",
       "sourceTags": [
+        "口琴",
         "演奏者",
-        "複音",
         "教學",
-        "演出"
-      ],
-      "sourceSummary": "複音口琴演奏者，提供教學與演出資訊。",
-      "sourceTagReason": "來源明確標示為「演奏者」，主要專長為複音口琴，並涉及教學與演出活動。"
+        "複音"
+      ]
     },
     {
       "id": "club-2+club-3",
@@ -3081,7 +3002,7 @@
       "type": "學校社團",
       "region": "台灣",
       "cityOrFocus": "",
-      "summary": "銘傳大學 / 口琴 / 學校社團／社群監看來源 / 銘傳／明新 / 口琴 / 學校社團／社群監看來源",
+      "summary": "銘傳大學 / 口琴 / 學校社團",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "銘傳口琴社 MCU Harmonica 口琴社 銘傳明新口琴相關來源 MCU Ming Xin 口琴社",
@@ -3115,12 +3036,11 @@
       "avatarUrl": "/assets/source-avatars/705f8724a5a2decf235e.webp",
       "sourceInitials": "銘傳",
       "sourceTags": [
-        "大專社團",
+        "口琴",
+        "學校社團",
         "學生社團",
-        "口琴"
-      ],
-      "sourceSummary": "銘傳大學口琴社，大專院校學生社團。",
-      "sourceTagReason": "來源名稱與類別明確標示為學校社團，隸屬於銘傳大學，符合大專社團與學生社團定義，核心活動圍繞口琴。"
+        "大專社團"
+      ]
     },
     {
       "id": "watchlist-90",
@@ -3130,7 +3050,7 @@
       "type": "品牌/樂器商",
       "region": "台灣/台中",
       "cityOrFocus": "口琴製造/器材/產品資訊",
-      "summary": "口琴製造/器材/產品資訊 / 口琴 / 器材/品牌資訊來源",
+      "summary": "口琴製造/器材/產品資訊 / 口琴 / 器材品牌",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "韋笙堡 Weissenberg Harmonicas 口琴 台灣 Made in Taiwan",
@@ -3161,13 +3081,10 @@
       "avatarUrl": "/assets/source-avatars/58db0e9216902f6d080f.webp",
       "sourceInitials": "WH",
       "sourceTags": [
-        "品牌",
-        "器材",
         "口琴",
-        "教學器材"
-      ],
-      "sourceSummary": "台灣口琴製造品牌，提供產品資訊與器材銷售。",
-      "sourceTagReason": "資料明確指出為口琴製造品牌，提供器材產品，歸類為品牌與器材來源。"
+        "教學器材",
+        "教學"
+      ]
     },
     {
       "id": "club-21",
@@ -3177,7 +3094,7 @@
       "type": "學校社團",
       "region": "台灣/高雄",
       "cityOrFocus": "高雄",
-      "summary": "國立高雄科技大學 / 口琴 / 學校社團／社群監看來源",
+      "summary": "國立高雄科技大學 / 口琴 / 學校社團",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "高科大口琴社 NKUST Harmonica 口琴社",
@@ -3205,12 +3122,10 @@
       "sourceInitials": "高科",
       "sourceTags": [
         "口琴",
+        "學校社團",
         "學生社團",
-        "大專社團",
-        "交流"
-      ],
-      "sourceSummary": "國立高雄科技大學口琴社，是校內學生組成的口琴社團。",
-      "sourceTagReason": "資料明確標示為「學校社團」，隸屬於「國立高雄科技大學」，符合大專學生社團定位。"
+        "大專社團"
+      ]
     },
     {
       "id": "watchlist-7",
@@ -3220,7 +3135,7 @@
       "type": "團體",
       "region": "台灣",
       "cityOrFocus": "合奏/交響口琴",
-      "summary": "合奏/交響口琴 / 口琴合奏 / 重要演出團體",
+      "summary": "合奏/交響口琴 / 口琴合奏 / 演出團體",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "博凱愛樂口琴交響樂團",
@@ -3247,14 +3162,9 @@
       "avatarUrl": "/assets/source-avatars/1c6d0380494696711b5b.webp",
       "sourceInitials": "博凱",
       "sourceTags": [
-        "團體樂團",
-        "合奏",
         "口琴",
-        "音樂會",
-        "演出"
-      ],
-      "sourceSummary": "專注合奏與交響口琴的表演團體。",
-      "sourceTagReason": "欄位明確標註為團體樂團，且描述與關鍵字皆強調合奏、交響與演出。"
+        "團體樂團"
+      ]
     },
     {
       "id": "watchlist-25",
@@ -3264,7 +3174,7 @@
       "type": "團體",
       "region": "台灣",
       "cityOrFocus": "早期 THMC 系列演出",
-      "summary": "早期 THMC 系列演出 / 口琴重奏 / 歷史/演出團體",
+      "summary": "早期 THMC 系列演出 / 口琴重奏 / 歷史演出團體",
       "status": "部分查核",
       "sourceStatus": "部分已查核公開連結",
       "keywords": "頭殼口琴樂團",
@@ -3287,12 +3197,10 @@
       "avatarUrl": "/assets/source-avatars/b4b6f7704b3a6e6e68dc.webp",
       "sourceInitials": "頭殼",
       "sourceTags": [
-        "團體樂團",
         "口琴",
+        "團體樂團",
         "重奏"
-      ],
-      "sourceSummary": "台灣口琴重奏團體，專注於THMC系列演出與口琴音樂推廣。",
-      "sourceTagReason": "根據名稱、類別欄位明確為「團體樂團」，且摘要提及「口琴重奏」與「演出團體」，符合團體與重奏標籤。"
+      ]
     },
     {
       "id": "watchlist-79",
@@ -3350,7 +3258,7 @@
       "type": "團體",
       "region": "荷蘭",
       "cityOrFocus": "口琴四重奏/與天狼星合作",
-      "summary": "口琴四重奏/與天狼星合作 / 口琴四重奏 / 國際團體",
+      "summary": "口琴四重奏/與天狼星合作 / 口琴四重奏 / 國際演出團體",
       "status": "部分查核",
       "sourceStatus": "部分已查核公開連結",
       "keywords": "Fata Morgana harmonica quartet",
@@ -3377,13 +3285,11 @@
       "avatarUrl": "/assets/source-avatars/fafe18ba9c8f3e5d19ee.webp",
       "sourceInitials": "FM",
       "sourceTags": [
-        "團體樂團",
         "口琴",
-        "合奏",
+        "團體樂團",
+        "重奏",
         "國際交流"
-      ],
-      "sourceSummary": "荷蘭口琴四重奏樂團，與天狼星合作演出。",
-      "sourceTagReason": "來源明確標示為「團體樂團」的口琴四重奏，類型為「團體」，並位於荷蘭，故標註團體樂團、口琴、合奏與國際交流。"
+      ]
     },
     {
       "id": "watchlist-28",
@@ -3506,8 +3412,8 @@
       "category": "團體樂團",
       "type": "團體/社群",
       "region": "台灣",
-      "cityOrFocus": "社群型/老牌資料來源",
-      "summary": "社群型/老牌資料來源 / 口琴 / 資料/演出來源",
+      "cityOrFocus": "社群型口琴資料",
+      "summary": "社群型口琴資料 / 口琴 / 社群資料來源",
       "status": "部分查核",
       "sourceStatus": "部分已查核公開連結",
       "keywords": "口琴愛樂集",
@@ -3526,12 +3432,9 @@
       "avatarUrl": "/assets/source-avatars/2baae100fe6844e1cbbe.webp",
       "sourceInitials": "口琴",
       "sourceTags": [
-        "團體樂團",
         "口琴",
-        "交流"
-      ],
-      "sourceSummary": "台灣老牌口琴社群型團體，提供資料與演出來源。",
-      "sourceTagReason": "資料明確標註為「團體樂團」，並以口琴為核心，性質為社群型交流平台。"
+        "團體樂團"
+      ]
     },
     {
       "id": "watchlist-6",
@@ -3541,7 +3444,7 @@
       "type": "團體",
       "region": "台灣",
       "cityOrFocus": "合奏/地方演出/老牌合奏",
-      "summary": "合奏/地方演出/老牌合奏 / 口琴重奏/合奏 / 重要演出團體",
+      "summary": "合奏/地方演出/老牌合奏 / 口琴重奏/合奏 / 演出團體",
       "status": "部分查核",
       "sourceStatus": "部分已查核公開連結",
       "keywords": "Rhapsody Harmonica Ensemble 狂響口琴樂團",
@@ -3573,7 +3476,7 @@
       "type": "團體/協會",
       "region": "台灣/高雄",
       "cityOrFocus": "兒童口琴樂團/地方推廣/口琴教育",
-      "summary": "兒童口琴樂團/地方推廣/口琴教育 / 口琴 / 地方活動/教育推廣來源",
+      "summary": "兒童口琴樂團/地方推廣/口琴教育 / 口琴 / 地方推廣團體",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "高雄市兒童口琴樂團 高雄市口琴協會 劉志明 口琴 高雄",
@@ -3596,11 +3499,9 @@
       "avatarUrl": "/assets/source-avatars/cfece3dbbab4232034f3.webp",
       "sourceInitials": "高雄",
       "sourceTags": [
-        "團體樂團",
-        "口琴"
-      ],
-      "sourceSummary": "高雄市兒童口琴樂團與口琴協會，致力於兒童口琴教育與地方推廣。",
-      "sourceTagReason": "名稱與類別明確為兒童口琴樂團與協會，屬於團體樂團，且聚焦於兒童教育與地方推廣。"
+        "口琴",
+        "團體樂團"
+      ]
     },
     {
       "id": "watchlist-73",
@@ -3658,7 +3559,7 @@
       "type": "校內場館/藝文中心",
       "region": "台灣/新竹",
       "cityOrFocus": "校內藝文/合作演出",
-      "summary": "校內藝文/合作演出 / 藝文活動 / 校內資訊來源",
+      "summary": "校內藝文/合作演出 / 藝文活動 / 場館資訊來源",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "陽明交通大學 藝文中心 口琴",
@@ -3689,13 +3590,10 @@
       "avatarUrl": "/assets/source-avatars/313deb63fe56325ff3c5.webp",
       "sourceInitials": "國立",
       "sourceTags": [
-        "場館",
+        "口琴",
         "場館平台",
-        "音樂會",
-        "活動資訊"
-      ],
-      "sourceSummary": "國立陽明交通大學藝文中心，提供校內藝文空間與合作演出資訊。",
-      "sourceTagReason": "資料明確標示為「校內場館/藝文中心」，類別為「場館平台」，主要功能為藝文活動與演出場地，故優先標註場館相關標籤。"
+        "大專社團"
+      ]
     },
     {
       "id": "watchlist-69",
@@ -3887,7 +3785,7 @@
       "type": "學校/青年",
       "region": "台灣/雲林",
       "cityOrFocus": "國中藝才班/口琴隊 / 雲林",
-      "summary": "國中藝才班/口琴隊 / 口琴隊 / 參考來源 / 口琴隊 / 參考來源",
+      "summary": "雲林縣二崙國中藝才班 / 口琴隊 / 學校團隊",
       "status": "部分查核",
       "sourceStatus": "部分已查核公開連結",
       "keywords": "二崙國中 藝才班 口琴",
@@ -3910,12 +3808,10 @@
       "avatarUrl": "/assets/source-avatars/c95a0a9a44fbc7c0851f.webp",
       "sourceInitials": "雲林",
       "sourceTags": [
-        "學生社團",
         "口琴",
-        "合奏"
-      ],
-      "sourceSummary": "雲林縣二崙國中藝才班口琴隊，屬於國中層級的學生口琴團體。",
-      "sourceTagReason": "根據名稱、分類為學校社團，且聚焦國中藝才班口琴隊，故標學生社團與口琴相關標籤。"
+        "學校社團",
+        "學生社團"
+      ]
     },
     {
       "id": "watchlist-97",
@@ -3925,7 +3821,7 @@
       "type": "教學/影片來源",
       "region": "台灣",
       "cityOrFocus": "口琴教學/影片/開箱/視訊課程",
-      "summary": "口琴教學/影片/開箱/視訊課程 / 半音階/十孔/複音 / 教學影片/社群觀察來源",
+      "summary": "口琴教學/影片/開箱/視訊課程 / 半音階/十孔/複音 / 教學影片來源",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "口袋琴房 Pocket Harmonic 房客聖崴 口琴 教學 開箱",
@@ -3972,8 +3868,8 @@
       "category": "教學器材",
       "type": "樂器行/單位",
       "region": "台灣",
-      "cityOrFocus": "樂器/活動資訊",
-      "summary": "樂器/活動資訊 / 口琴 / 參考來源",
+      "cityOrFocus": "口琴器材/活動資訊",
+      "summary": "口琴器材/活動資訊 / 口琴 / 器材來源",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "東和樂器 口琴",
@@ -4004,12 +3900,10 @@
       "avatarUrl": "/assets/source-avatars/2a4523bd666849c27b31.webp",
       "sourceInitials": "東和",
       "sourceTags": [
-        "品牌",
-        "器材",
-        "教學器材"
-      ],
-      "sourceSummary": "台灣口琴樂器經銷與活動資訊平台。",
-      "sourceTagReason": "類別明確標示為「教學器材」，名稱為樂器行，提供樂器銷售與相關資訊，符合品牌與器材屬性。"
+        "口琴",
+        "教學器材",
+        "教學"
+      ]
     },
     {
       "id": "watchlist-87",
@@ -4056,8 +3950,8 @@
       "category": "教學器材",
       "type": "樂器行/單位",
       "region": "台灣",
-      "cityOrFocus": "樂器/活動資訊",
-      "summary": "樂器/活動資訊 / 口琴 / 參考來源",
+      "cityOrFocus": "口琴器材/活動資訊",
+      "summary": "口琴器材/活動資訊 / 口琴 / 器材來源",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "雙燕樂器 口琴",
@@ -4084,11 +3978,10 @@
       "avatarUrl": "/assets/source-avatars/8aee7cfbac001d68d0b8.webp",
       "sourceInitials": "雙燕",
       "sourceTags": [
-        "器材",
-        "品牌"
-      ],
-      "sourceSummary": "雙燕樂器為KHS旗下樂器品牌，專注口琴等樂器銷售與教學器材。",
-      "sourceTagReason": "來源類別為教學器材，且有樂器行、品牌與產品連結，符合器材與品牌標籤。"
+        "口琴",
+        "教學器材",
+        "教學"
+      ]
     },
     {
       "id": "watchlist-84",
@@ -4098,7 +3991,7 @@
       "type": "國際交流活動",
       "region": "國際/台灣交流",
       "cityOrFocus": "口琴沙龍/國際交流/台灣演奏者相關活動",
-      "summary": "口琴沙龍/國際交流/台灣演奏者相關活動 / 口琴 / 國際交流活動線索",
+      "summary": "口琴沙龍/國際交流/台灣演奏者相關活動 / 口琴 / 國際交流活動",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "An Afternoon with Harmonica 口琴 台灣 國際交流",
@@ -4121,13 +4014,10 @@
       "avatarUrl": "/assets/source-avatars/380fe8192408d52e5546.webp",
       "sourceInitials": "AAW",
       "sourceTags": [
+        "口琴",
         "活動資訊",
-        "國際交流",
-        "音樂會",
-        "口琴"
-      ],
-      "sourceSummary": "國際口琴沙龍，結合台灣演奏者與國際交流的音樂會活動。",
-      "sourceTagReason": "來源類型為國際交流活動，focus在口琴沙龍與音樂會，並強調台灣演奏者參與。"
+        "國際交流"
+      ]
     },
     {
       "id": "watchlist-78",
@@ -4137,7 +4027,7 @@
       "type": "活動/演出企劃",
       "region": "台灣/台北",
       "cityOrFocus": "半音階口琴沙龍音樂會/新秀介紹",
-      "summary": "半音階口琴沙龍音樂會/新秀介紹 / 半音階口琴 / 活動來源/演出企劃",
+      "summary": "半音階口琴沙龍音樂會/新秀介紹 / 半音階口琴 / 活動資訊來源",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "From Harmonica to Music 口琴 半音階 沙龍音樂會",
@@ -4160,14 +4050,10 @@
       "avatarUrl": "/assets/source-avatars/2eab39bb16fcf2e7be39.webp",
       "sourceInitials": "FHT",
       "sourceTags": [
+        "口琴",
         "活動資訊",
-        "半音階",
-        "音樂會",
-        "演出",
-        "口琴"
-      ],
-      "sourceSummary": "以半音階口琴為主的沙龍音樂會與新秀介紹活動企劃。",
-      "sourceTagReason": "來源類別為活動資訊，專注於半音階口琴沙龍音樂會與演出企劃，並透過售票平台與社群發佈資訊。"
+        "半音階"
+      ]
     },
     {
       "id": "watchlist-68",
