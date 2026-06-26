@@ -192,6 +192,17 @@
     };
   }
 
+  function toggleFilterValue(filter, value) {
+    const label = String(value || "").trim().replace(/^#/, "");
+    if (!label) return filter;
+    return {
+      include: filterHasValue(filterIncludes(filter), label)
+        ? removeFilterValue(filterIncludes(filter), label)
+        : addFilterValue(filterIncludes(filter), label),
+      exclude: [],
+    };
+  }
+
   function valuesMatchFilter(values, filter) {
     const normalizedValues = values.map(filterValueKey).filter(Boolean);
     const includes = filterIncludes(filter).map(filterValueKey).filter(Boolean);
@@ -626,7 +637,7 @@
     feedState.columnCount = 0;
   }
 
-  function feedOptionChips(items, activeValues, dataName, fallbackLabel) {
+  function feedOptionChips(items, activeValues, dataName, fallbackLabel, { allowExclude = true } = {}) {
     const allPressed = filterEmpty(activeValues);
     return `
       <button
@@ -640,8 +651,10 @@
       </button>
       ${items
         .map((item) => {
-          const stateName = filterValueState(activeValues, item);
-          const label = `${stateName === "exclude" ? "not " : ""}${item}`;
+          const stateName = allowExclude
+            ? filterValueState(activeValues, item)
+            : (filterHasValue(filterIncludes(activeValues), item) ? "include" : "off");
+          const label = `${allowExclude && stateName === "exclude" ? "not " : ""}${item}`;
           return `
             <button
               type="button"
@@ -678,7 +691,7 @@
         </div>
         <div class="feed-filter-chip-group">
           <span class="feed-chip-group-label">平台</span>
-          <div class="feed-option-chips" aria-label="平台篩選，可複選">${feedOptionChips(platforms, feedState.platform, "platform", "全部平台")}</div>
+          <div class="feed-option-chips" aria-label="平台篩選，可複選">${feedOptionChips(platforms, feedState.platform, "platform", "全部平台", { allowExclude: false })}</div>
         </div>
         <div class="feed-filter-chip-group">
           <span class="feed-chip-group-label">Tag</span>
@@ -696,6 +709,10 @@
     if (!["platform", "source", "tag"].includes(name)) return;
     if (value === "all") {
       feedState[name] = emptyFilterSet();
+      return;
+    }
+    if (name === "platform") {
+      feedState.platform = toggleFilterValue(feedState.platform, value);
       return;
     }
     feedState[name] = cycleFilterValue(feedState[name], value);
