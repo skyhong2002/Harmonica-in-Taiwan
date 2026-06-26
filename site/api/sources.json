@@ -15,7 +15,7 @@
     },
     "countries": {
       "中國": 2,
-      "丹麥與美國": 1,
+      "丹麥": 1,
       "以色列": 1,
       "俄羅斯": 1,
       "印尼": 1,
@@ -24,15 +24,15 @@
       "日本": 6,
       "瑞典": 1,
       "瑞士": 1,
-      "紐西蘭與英國": 1,
-      "美國": 3,
+      "紐西蘭": 1,
+      "美國": 2,
       "臺灣": 87,
       "荷蘭": 1,
       "西班牙": 2,
       "阿根廷": 1,
-      "韓國": 7,
-      "香港": 10,
-      "馬來西亞": 3
+      "韓國": 6,
+      "香港": 11,
+      "馬來西亞": 4
     },
     "watchSources": {
       "totalSources": 387,
@@ -5829,9 +5829,9 @@
       "type": "團體/合作企劃",
       "country": "香港",
       "region": "香港",
-      "cityOrFocus": "口琴重奏/合作演出/SIHF 2024嘉賓",
-      "structuredSummary": "口琴重奏/合作演出/SIHF 2024嘉賓 / 口琴重奏 / 國際演出團體",
-      "summary": "香港的口琴重奏國際演出團體，活動脈絡包含合作演出與SIHF 2024嘉賓。",
+      "cityOrFocus": "香港柏赫口琴四重奏/古典與現代融合/本地與國際推廣",
+      "structuredSummary": "香港柏赫口琴四重奏/古典與現代融合/本地與國際推廣 / 口琴重奏 / 國際演出團體",
+      "summary": "香港的口琴重奏國際演出團體，活動脈絡包含香港柏赫口琴四重奏、古典與現代融合與本地與國際推廣。",
       "keywords": "Ausgelassen Wesley Wong 黃志榮 harmonica SIHF",
       "links": [
         {
@@ -5845,7 +5845,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/2c7deb1338e1cbf52b98.webp",
       "sourceInitials": "AXW",
       "sourceTags": [
         "口琴",
@@ -5953,9 +5953,9 @@
       "type": "團體",
       "country": "馬來西亞",
       "region": "馬來西亞",
-      "cityOrFocus": "口琴重奏/SIHF歷屆嘉賓",
-      "structuredSummary": "口琴重奏/SIHF歷屆嘉賓 / 口琴重奏 / 國際演出團體",
-      "summary": "馬來西亞的口琴重奏國際演出團體，活動脈絡包含SIHF歷屆嘉賓。",
+      "cityOrFocus": "馬來西亞世界冠軍口琴團/2006成立/國際巡演/教育推廣",
+      "structuredSummary": "馬來西亞世界冠軍口琴團/2006成立/國際巡演/教育推廣 / 口琴重奏 / 國際演出團體",
+      "summary": "馬來西亞的口琴重奏國際演出團體，活動脈絡包含馬來西亞世界冠軍口琴團、2006成立與國際巡演。",
       "keywords": "Fresco Harmonica Ensemble harmonica Malaysia SIHF",
       "links": [
         {
@@ -5973,7 +5973,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/72a613b62e61a62ee3f3.webp",
       "sourceInitials": "FHE",
       "sourceTags": [
         "口琴",
@@ -6019,9 +6019,9 @@
       "type": "團體",
       "country": "香港",
       "region": "香港",
-      "cityOrFocus": "口琴四重奏/SIHF歷屆嘉賓",
-      "structuredSummary": "口琴四重奏/SIHF歷屆嘉賓 / 口琴重奏 / 國際演出團體",
-      "summary": "香港的口琴重奏國際演出團體，活動脈絡包含口琴四重奏與SIHF歷屆嘉賓。",
+      "cityOrFocus": "香港現代風格口琴四重奏/傳統與現代和聲/舞台演出",
+      "structuredSummary": "香港現代風格口琴四重奏/傳統與現代和聲/舞台演出 / 口琴重奏 / 國際演出團體",
+      "summary": "香港的口琴重奏國際演出團體，活動脈絡包含香港現代風格口琴四重奏、傳統與現代和聲與舞台演出。",
       "keywords": "Perfect Fourth Harmonica Quartet Hong Kong SIHF",
       "links": [
         {
@@ -6035,7 +6035,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/4814591a65130cd0ba97.webp",
       "sourceInitials": "PF",
       "sourceTags": [
         "口琴",
@@ -6063,9 +6063,9 @@
       "type": "團體/合作企劃",
       "country": "印尼",
       "region": "印尼",
-      "cityOrFocus": "口琴/跨界合作/SIHF歷屆嘉賓",
-      "structuredSummary": "口琴/跨界合作/SIHF歷屆嘉賓 / 口琴/跨界 / 國際演出團體",
-      "summary": "印尼的口琴與跨界國際演出團體，活動脈絡包含跨界合作與SIHF歷屆嘉賓。",
+      "cityOrFocus": "Reyharp Naufal與Balawan合作/跨界融合/口琴與吉他",
+      "structuredSummary": "Reyharp Naufal與Balawan合作/跨界融合/口琴與吉他 / 口琴/跨界 / 國際演出團體",
+      "summary": "印尼的口琴與跨界國際演出團體，活動脈絡包含Reyharp Naufal與Balawan合作、跨界融合與口琴與吉他。",
       "keywords": "Reyharp Balawan Project Reyharp Naufal harmonica SIHF",
       "links": [
         {
@@ -6079,7 +6079,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/75c5680318f279f8048b.webp",
       "sourceInitials": "RAB",
       "sourceTags": [
         "口琴",
@@ -6151,11 +6151,11 @@
       "nameEn": "Veloz Harmonica Quartet",
       "category": "團體樂團",
       "type": "團體",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "口琴四重奏/SIHF歷屆嘉賓",
-      "structuredSummary": "口琴四重奏/SIHF歷屆嘉賓 / 口琴四重奏 / 國際演出團體",
-      "summary": "韓國的口琴四重奏國際演出團體，活動脈絡包含SIHF歷屆嘉賓。",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "2010成立/King's College培育/本地國際舞台/觀眾互動",
+      "structuredSummary": "2010成立/King's College培育/本地國際舞台/觀眾互動 / 口琴四重奏 / 國際演出團體",
+      "summary": "香港的口琴四重奏國際演出團體，活動脈絡包含2010成立、King's College培育與本地國際舞台。",
       "keywords": "Veloz Harmonica Quartet Veloz Harmonica Ensemble SIHF",
       "links": [
         {
@@ -6177,7 +6177,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/8b480267fd2aca5a7594.webp",
       "sourceInitials": "VHQ",
       "sourceTags": [
         "口琴",
@@ -6379,9 +6379,9 @@
       "type": "協會/團體",
       "country": "香港",
       "region": "香港",
-      "cityOrFocus": "香港口琴協會/樂團/國際交流/SIHF嘉賓",
-      "structuredSummary": "香港口琴協會/樂團/國際交流/SIHF嘉賓 / 口琴 / 國際演出團體/協會來源",
-      "summary": "香港的口琴國際演出團體與協會來源，活動脈絡包含香港口琴協會、樂團與國際交流。",
+      "cityOrFocus": "香港口琴協會/官方頻道/教育推廣/國際賽事與交流",
+      "structuredSummary": "香港口琴協會/官方頻道/教育推廣/國際賽事與交流 / 口琴 / 國際演出團體/協會來源",
+      "summary": "香港的口琴國際演出團體與協會來源，活動脈絡包含香港口琴協會、官方頻道與教育推廣。",
       "keywords": "Hong Kong Harmonica Association Orchestra HKHA 香港口琴協會 SIHF",
       "links": [
         {
@@ -6407,7 +6407,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/08b5a9de8b0d50d9a7d1.webp",
       "sourceInitials": "HKH",
       "sourceTags": [
         "口琴",
@@ -7470,10 +7470,10 @@
       "category": "活動資訊",
       "type": "國際活動/資訊入口",
       "country": "韓國",
-      "region": "韓國/首爾",
-      "cityOrFocus": "國際口琴節/比賽/Gala/Artist Lineup",
-      "structuredSummary": "國際口琴節/比賽/Gala/Artist Lineup / 口琴 / 國際活動來源",
-      "summary": "韓國的國際活動來源，涵蓋國際口琴節、比賽、Gala與Artist Lineup。",
+      "region": "首爾",
+      "cityOrFocus": "首爾國際口琴節/國際比賽/Gala音樂會/教育交流",
+      "structuredSummary": "首爾國際口琴節/國際比賽/Gala音樂會/教育交流 / 口琴 / 國際活動來源",
+      "summary": "韓國的國際活動來源，涵蓋首爾國際口琴節、國際比賽、Gala音樂會與教育交流。",
       "keywords": "Seoul International Harmonica Festival SIHF Korea Harmonica Education Association harmonica",
       "links": [
         {
@@ -7487,7 +7487,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/7ad793b08d62a6f6a3db.webp",
       "sourceInitials": "SIH",
       "sourceTags": [
         "口琴",
@@ -7504,9 +7504,9 @@
       "type": "個人",
       "country": "西班牙",
       "region": "西班牙",
-      "cityOrFocus": "爵士/佛朗明哥/半音階/SIHF歷屆嘉賓",
-      "structuredSummary": "爵士/佛朗明哥/半音階/SIHF歷屆嘉賓 / 半音階 / 國際演出人員",
-      "summary": "西班牙的半音階國際演出人員，活動脈絡包含爵士、佛朗明哥與SIHF歷屆嘉賓。",
+      "cityOrFocus": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作",
+      "structuredSummary": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作 / 半音階/十孔 / 國際演出人員",
+      "summary": "西班牙的半音階與十孔國際演出人員，活動脈絡包含馬德里出生、古典藍調爵士流行與與Paco de Lucia合作。",
       "keywords": "Antonio Serrano harmonica SIHF",
       "links": [
         {
@@ -7524,12 +7524,13 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/fabe8864384bb712d439.webp",
       "sourceInitials": "AS",
       "sourceTags": [
         "口琴",
         "演奏者",
         "半音階",
+        "十孔",
         "國際交流"
       ],
       "monitorSources": [
@@ -7561,9 +7562,9 @@
       "type": "個人",
       "country": "俄羅斯",
       "region": "俄羅斯",
-      "cityOrFocus": "藍調/爵士/SIHF 2026嘉賓",
-      "structuredSummary": "藍調/爵士/SIHF 2026嘉賓 / 十孔/半音階 / 國際演出人員",
-      "summary": "俄羅斯的十孔與半音階國際演出人員，活動脈絡包含藍調、爵士與SIHF 2026嘉賓。",
+      "cityOrFocus": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊",
+      "structuredSummary": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊 / 十孔/半音階 / 國際演出人員/教學者",
+      "summary": "俄羅斯的十孔與半音階國際演出人員與教學者，活動脈絡包含莫斯科職業口琴演奏、藍調爵士與國際比賽得獎。",
       "keywords": "Boris Plotnikov etaborya harmonica SIHF",
       "links": [
         {
@@ -7589,11 +7590,13 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/1ecd0bd306445097a78a.webp",
       "sourceInitials": "BP",
       "sourceTags": [
         "口琴",
         "演奏者",
+        "教學",
+        "比賽",
         "半音階",
         "十孔",
         "國際交流"
@@ -7643,11 +7646,11 @@
       "nameEn": "Brendan Power",
       "category": "演奏者",
       "type": "個人",
-      "country": "紐西蘭與英國",
+      "country": "紐西蘭",
       "region": "英國",
-      "cityOrFocus": "十孔/半音階/客製口琴/SIHF早期嘉賓",
-      "structuredSummary": "十孔/半音階/客製口琴/SIHF早期嘉賓 / 十孔/半音階 / 國際演出人員",
-      "summary": "紐西蘭與英國的十孔與半音階國際演出人員，活動脈絡包含客製口琴與SIHF早期嘉賓。",
+      "cityOrFocus": "口琴演奏與教學/客製口琴設計/半音階與十孔技術",
+      "structuredSummary": "口琴演奏與教學/客製口琴設計/半音階與十孔技術 / 十孔/半音階 / 國際演出人員/教育者/製作者",
+      "summary": "紐西蘭的十孔與半音階國際演出人員、教育者與製作者，活動脈絡包含口琴演奏與教學、客製口琴設計與半音階與十孔技術。",
       "keywords": "Brendan Power harmonica SIHF",
       "links": [
         {
@@ -7669,11 +7672,12 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/c84da1a11d2e3077b55e.webp",
       "sourceInitials": "BP",
       "sourceTags": [
         "口琴",
         "演奏者",
+        "教學",
         "半音階",
         "十孔",
         "國際交流"
@@ -7764,10 +7768,10 @@
       "category": "演奏者",
       "type": "個人",
       "country": "阿根廷",
-      "region": "阿根廷/國際",
-      "cityOrFocus": "半音階/探戈/爵士/SIHF歷屆嘉賓",
-      "structuredSummary": "半音階/探戈/爵士/SIHF歷屆嘉賓 / 半音階 / 國際演出人員",
-      "summary": "阿根廷的半音階國際演出人員，活動脈絡包含探戈、爵士與SIHF歷屆嘉賓。",
+      "region": "阿根廷",
+      "cityOrFocus": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源",
+      "structuredSummary": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源 / 十孔/爵士口琴 / 國際演出人員/教學者/製作人",
+      "summary": "阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。",
       "keywords": "Federico Linari harmonica SIHF",
       "links": [
         {
@@ -7793,12 +7797,13 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/d950d0555577280a56e0.webp",
       "sourceInitials": "FL",
       "sourceTags": [
         "口琴",
         "演奏者",
-        "半音階",
+        "教學",
+        "十孔",
         "國際交流"
       ],
       "monitorSources": [
@@ -7848,9 +7853,9 @@
       "type": "個人",
       "country": "瑞典",
       "region": "瑞典",
-      "cityOrFocus": "半音階/十孔/爵士民謠/SIHF嘉賓",
-      "structuredSummary": "半音階/十孔/爵士民謠/SIHF嘉賓 / 半音階/十孔 / 國際演出人員",
-      "summary": "瑞典的半音階與十孔國際演出人員，活動脈絡包含爵士民謠與SIHF嘉賓。",
+      "cityOrFocus": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出",
+      "structuredSummary": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出 / 半音階/十孔 / 國際演出人員/作曲者/教育者",
+      "summary": "瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。",
       "keywords": "Filip Jers harmonica SIHF",
       "links": [
         {
@@ -7876,7 +7881,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/db9f28d448070c73d08c.webp",
       "sourceInitials": "FJ",
       "sourceTags": [
         "口琴",
@@ -7931,10 +7936,10 @@
       "category": "演奏者",
       "type": "個人",
       "country": "瑞士",
-      "region": "瑞士/美國",
-      "cityOrFocus": "爵士半音階/SIHF早期嘉賓",
-      "structuredSummary": "爵士半音階/SIHF早期嘉賓 / 半音階 / 國際演出人員",
-      "summary": "瑞士的半音階國際演出人員，活動脈絡包含爵士半音階與SIHF早期嘉賓。",
+      "region": "美國",
+      "cityOrFocus": "紐約發展/Grammy得主/現代爵士半音階/作曲",
+      "structuredSummary": "紐約發展/Grammy得主/現代爵士半音階/作曲 / 半音階 / 國際演出人員/作曲者",
+      "summary": "瑞士的半音階國際演出人員與作曲者，活動脈絡包含紐約發展、Grammy得主與現代爵士半音階。",
       "keywords": "Gregoire Maret Grégoire Maret harmonica SIHF",
       "links": [
         {
@@ -7960,7 +7965,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/e781a4f4250a052d9036.webp",
       "sourceInitials": "GM",
       "sourceTags": [
         "口琴",
@@ -8015,9 +8020,9 @@
       "type": "個人",
       "country": "美國",
       "region": "美國",
-      "cityOrFocus": "爵士/藍草/半音階與十孔/SIHF早期嘉賓",
-      "structuredSummary": "爵士/藍草/半音階與十孔/SIHF早期嘉賓 / 半音階/十孔 / 國際演出人員",
-      "summary": "美國的半音階與十孔國際演出人員，活動脈絡包含爵士、藍草與半音階與十孔。",
+      "cityOrFocus": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興",
+      "structuredSummary": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興 / 半音階/十孔/鋼琴 / 國際演出人員/作曲者/教育者",
+      "summary": "美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。",
       "keywords": "Howard Levy harmonica SIHF",
       "links": [
         {
@@ -8043,7 +8048,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/6c65028c65fd1bff5060.webp",
       "sourceInitials": "HL",
       "sourceTags": [
         "口琴",
@@ -8099,9 +8104,9 @@
       "type": "個人",
       "country": "巴西",
       "region": "巴西",
-      "cityOrFocus": "十孔/藍調/SIHF 2018嘉賓",
-      "structuredSummary": "十孔/藍調/SIHF 2018嘉賓 / 十孔 / 國際演出人員",
-      "summary": "巴西的十孔國際演出人員，活動脈絡包含藍調與SIHF 2018嘉賓。",
+      "cityOrFocus": "Curitiba出身/藍調口琴/Milk'n'Blues/作曲",
+      "structuredSummary": "Curitiba出身/藍調口琴/Milk'n'Blues/作曲 / 十孔 / 國際演出人員/作曲者",
+      "summary": "巴西的十孔國際演出人員與作曲者，活動脈絡包含Curitiba出身、藍調口琴與Milk'n'Blues。",
       "keywords": "Indiara Sfair harmonica SIHF",
       "links": [
         {
@@ -8127,7 +8132,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/336f617cdeac7d1f5e08.webp",
       "sourceInitials": "IS",
       "sourceTags": [
         "口琴",
@@ -8182,9 +8187,9 @@
       "type": "個人",
       "country": "德國",
       "region": "德國",
-      "cityOrFocus": "爵士口琴/SIHF 2024嘉賓",
-      "structuredSummary": "爵士口琴/SIHF 2024嘉賓 / 半音階/爵士口琴 / 國際演出人員",
-      "summary": "德國的半音階與爵士口琴國際演出人員，活動脈絡包含SIHF 2024嘉賓。",
+      "cityOrFocus": "德國爵士口琴/半音階演奏/國際演出與錄音",
+      "structuredSummary": "德國爵士口琴/半音階演奏/國際演出與錄音 / 半音階/爵士口琴 / 國際演出人員",
+      "summary": "德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。",
       "keywords": "Jens Bunge jazz harmonica SIHF",
       "links": [
         {
@@ -8202,7 +8207,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/59b1b52b1b0ff0b2d1e7.webp",
       "sourceInitials": "JB",
       "sourceTags": [
         "口琴",
@@ -8247,10 +8252,10 @@
       "category": "演奏者",
       "type": "個人",
       "country": "美國",
-      "region": "美國/荷蘭",
-      "cityOrFocus": "藍調口琴/SIHF 2018嘉賓",
-      "structuredSummary": "藍調口琴/SIHF 2018嘉賓 / 十孔/藍調口琴 / 國際演出人員",
-      "summary": "美國的十孔與藍調口琴國際演出人員，活動脈絡包含SIHF 2018嘉賓。",
+      "region": "歐洲",
+      "cityOrFocus": "歐洲發展的美式藍調樂團/口琴與吉他/Trance Blues",
+      "structuredSummary": "歐洲發展的美式藍調樂團/口琴與吉他/Trance Blues / 十孔/藍調口琴 / 國際演出人員",
+      "summary": "美國的十孔與藍調口琴國際演出人員，活動脈絡包含歐洲發展的美式藍調樂團、口琴與吉他與Trance Blues。",
       "keywords": "Keith Dunn Band blues harmonica SIHF",
       "links": [
         {
@@ -8268,11 +8273,12 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/fd19b34081fc66703a2f.webp",
       "sourceInitials": "KD",
       "sourceTags": [
         "口琴",
         "演奏者",
+        "團體樂團",
         "十孔",
         "國際交流"
       ],
@@ -8303,11 +8309,11 @@
       "nameEn": "Kif Valentine",
       "category": "演奏者",
       "type": "個人",
-      "country": "美國",
-      "region": "美國",
-      "cityOrFocus": "口琴演奏/SIHF早期嘉賓",
-      "structuredSummary": "口琴演奏/SIHF早期嘉賓 / 口琴 / 國際演出人員",
-      "summary": "美國的口琴國際演出人員，活動脈絡包含口琴演奏與SIHF早期嘉賓。",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "馬來西亞世界冠軍口琴家/多樂器藝人/流行跨界演出",
+      "structuredSummary": "馬來西亞世界冠軍口琴家/多樂器藝人/流行跨界演出 / 口琴/多樂器 / 國際演出人員",
+      "summary": "馬來西亞的口琴與多樂器國際演出人員，活動脈絡包含馬來西亞世界冠軍口琴家、多樂器藝人與流行跨界演出。",
       "keywords": "Kif Valentine harmonica SIHF",
       "links": [
         {
@@ -8321,7 +8327,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/cf2fef6b181ad510dbc8.webp",
       "sourceInitials": "KV",
       "sourceTags": [
         "口琴",
@@ -8348,9 +8354,9 @@
       "type": "個人",
       "country": "韓國",
       "region": "韓國",
-      "cityOrFocus": "韓國口琴演奏/SIHF歷屆嘉賓",
-      "structuredSummary": "韓國口琴演奏/SIHF歷屆嘉賓 / 半音階/複音 / 國際演出人員",
-      "summary": "韓國的半音階與複音國際演出人員，活動脈絡包含韓國口琴演奏與SIHF歷屆嘉賓。",
+      "cityOrFocus": "韓國職業口琴演奏/半音階與複音/Weissenberg artist",
+      "structuredSummary": "韓國職業口琴演奏/半音階與複音/Weissenberg artist / 半音階/複音 / 國際演出人員",
+      "summary": "韓國的半音階與複音國際演出人員，活動脈絡包含韓國職業口琴演奏、半音階與複音與Weissenberg artist。",
       "keywords": "Kim Changsik Kim Chang Sik 김창식 harmonica SIHF",
       "links": [
         {
@@ -8364,7 +8370,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/b60b2a622d65df39ee30.webp",
       "sourceInitials": "KC",
       "sourceTags": [
         "口琴",
@@ -8382,9 +8388,9 @@
       "type": "個人",
       "country": "韓國",
       "region": "韓國",
-      "cityOrFocus": "韓國口琴演奏/Giusto/KHO/SIHF歷屆嘉賓",
-      "structuredSummary": "韓國口琴演奏/Giusto/KHO/SIHF歷屆嘉賓 / 口琴 / 國際演出人員",
-      "summary": "韓國的口琴國際演出人員，活動脈絡包含韓國口琴演奏、Giusto與KHO。",
+      "cityOrFocus": "韓國職業口琴演奏/Giusto harmonica ensemble/KHO",
+      "structuredSummary": "韓國職業口琴演奏/Giusto harmonica ensemble/KHO / 口琴 / 國際演出人員",
+      "summary": "韓國的口琴國際演出人員，活動脈絡包含韓國職業口琴演奏、Giusto harmonica ensemble與KHO。",
       "keywords": "Kim Kyunghee Kim Kyung Hee 김경희 harmonica SIHF",
       "links": [
         {
@@ -8398,7 +8404,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/b372bafb5133621f49fe.webp",
       "sourceInitials": "KK",
       "sourceTags": [
         "口琴",
@@ -8414,9 +8420,9 @@
       "type": "個人",
       "country": "德國",
       "region": "德國",
-      "cityOrFocus": "半音階/藍調/爵士/SIHF歷屆嘉賓",
-      "structuredSummary": "半音階/藍調/爵士/SIHF歷屆嘉賓 / 半音階/十孔 / 國際演出人員",
-      "summary": "德國的半音階與十孔國際演出人員，活動脈絡包含藍調、爵士與SIHF歷屆嘉賓。",
+      "cityOrFocus": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作",
+      "structuredSummary": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作 / 半音階/十孔 / 國際演出人員/製作人/教育者",
+      "summary": "德國的半音階與十孔國際演出人員、製作人與教育者，活動脈絡包含OPUS Klassik得獎、國際獨奏與製作與教育。",
       "keywords": "Konstantin Reinfeld harmonica SIHF",
       "links": [
         {
@@ -8442,7 +8448,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/8073c6e25aadb686c4de.webp",
       "sourceInitials": "KR",
       "sourceTags": [
         "口琴",
@@ -8498,9 +8504,9 @@
       "type": "個人",
       "country": "韓國",
       "region": "韓國",
-      "cityOrFocus": "韓國口琴演奏/SIHF 2026嘉賓",
-      "structuredSummary": "韓國口琴演奏/SIHF 2026嘉賓 / 口琴 / 國際演出人員",
-      "summary": "韓國的口琴國際演出人員，活動脈絡包含韓國口琴演奏與SIHF 2026嘉賓。",
+      "cityOrFocus": "韓國口琴演奏/演出與教學",
+      "structuredSummary": "韓國口琴演奏/演出與教學 / 口琴 / 國際演出人員/教學者",
+      "summary": "韓國的口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏與演出與教學。",
       "keywords": "Lee Hangyeol 이한결 harmonica SIHF",
       "links": [
         {
@@ -8514,11 +8520,12 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/af7d955a54f8c35b4cdc.webp",
       "sourceInitials": "LH",
       "sourceTags": [
         "口琴",
         "演奏者",
+        "教學",
         "國際交流"
       ],
       "monitorSources": [
@@ -8539,11 +8546,11 @@
       "nameEn": "Lee Oskar",
       "category": "演奏者",
       "type": "個人/品牌",
-      "country": "丹麥與美國",
+      "country": "丹麥",
       "region": "美國",
-      "cityOrFocus": "藍調/搖滾/口琴品牌/SIHF早期嘉賓",
-      "structuredSummary": "藍調/搖滾/口琴品牌/SIHF早期嘉賓 / 十孔/藍調口琴 / 國際演出人員/品牌來源",
-      "summary": "丹麥與美國的十孔與藍調口琴國際演出人員與品牌來源，活動脈絡包含藍調、搖滾與口琴品牌。",
+      "cityOrFocus": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌",
+      "structuredSummary": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌 / 十孔/藍調口琴 / 國際演出人員/品牌創辦人",
+      "summary": "丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。",
       "keywords": "Lee Oskar harmonica SIHF",
       "links": [
         {
@@ -8573,11 +8580,12 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/b67b3314ca91b591f59b.webp",
       "sourceInitials": "LO",
       "sourceTags": [
         "口琴",
         "演奏者",
+        "團體樂團",
         "十孔",
         "國際交流"
       ],
@@ -8628,9 +8636,9 @@
       "type": "個人",
       "country": "中國",
       "region": "中國",
-      "cityOrFocus": "半音階/口琴演奏/SIHF歷屆嘉賓",
-      "structuredSummary": "半音階/口琴演奏/SIHF歷屆嘉賓 / 半音階 / 國際演出人員",
-      "summary": "中國的半音階國際演出人員，活動脈絡包含口琴演奏與SIHF歷屆嘉賓。",
+      "cityOrFocus": "中國原創口琴演奏/半音階/社群演出",
+      "structuredSummary": "中國原創口琴演奏/半音階/社群演出 / 半音階 / 國際演出人員",
+      "summary": "中國的半音階國際演出人員，活動脈絡包含中國原創口琴演奏與社群演出。",
       "keywords": "Long Deng Jie 龍登杰 harmonica SIHF",
       "links": [
         {
@@ -8648,7 +8656,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/80bde7d5ba43f82a740a.webp",
       "sourceInitials": "LDJ",
       "sourceTags": [
         "口琴",
@@ -8694,9 +8702,9 @@
       "type": "個人",
       "country": "巴西",
       "region": "巴西",
-      "cityOrFocus": "口琴演奏/SIHF 2026嘉賓",
-      "structuredSummary": "口琴演奏/SIHF 2026嘉賓 / 口琴 / 國際演出人員",
-      "summary": "巴西的口琴國際演出人員，活動脈絡包含口琴演奏與SIHF 2026嘉賓。",
+      "cityOrFocus": "巴西職業口琴演奏/教學/錄音合作",
+      "structuredSummary": "巴西職業口琴演奏/教學/錄音合作 / 口琴 / 國際演出人員/教學者",
+      "summary": "巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。",
       "keywords": "Rodrigo Eberienos harmonica SIHF",
       "links": [
         {
@@ -8718,11 +8726,12 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/f617792b880659b5b85b.webp",
       "sourceInitials": "RE",
       "sourceTags": [
         "口琴",
         "演奏者",
+        "教學",
         "國際交流"
       ],
       "monitorSources": [
@@ -8772,9 +8781,9 @@
       "type": "個人",
       "country": "中國",
       "region": "中國",
-      "cityOrFocus": "口琴演奏/SIHF 2024嘉賓",
-      "structuredSummary": "口琴演奏/SIHF 2024嘉賓 / 口琴 / 國際演出人員",
-      "summary": "中國的口琴國際演出人員，活動脈絡包含口琴演奏與SIHF 2024嘉賓。",
+      "cityOrFocus": "中國口琴演奏/國際交流",
+      "structuredSummary": "中國口琴演奏/國際交流 / 口琴 / 國際演出人員",
+      "summary": "中國的口琴國際演出人員，活動脈絡包含中國口琴演奏與國際交流。",
       "keywords": "Yuanmao Wang harmonica SIHF",
       "links": [
         {
@@ -8788,7 +8797,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/94112fca67fe37a41abb.webp",
       "sourceInitials": "YW",
       "sourceTags": [
         "口琴",
@@ -8935,9 +8944,9 @@
       "type": "個人",
       "country": "日本",
       "region": "日本",
-      "cityOrFocus": "半音階/教育/WHF/SIHF嘉賓",
-      "structuredSummary": "半音階/教育/WHF/SIHF嘉賓 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含教育、WHF與SIHF嘉賓。",
+      "cityOrFocus": "京都出身/半音階口琴/Hohner Conservatory訓練/教育與演出",
+      "structuredSummary": "京都出身/半音階口琴/Hohner Conservatory訓練/教育與演出 / 半音階 / 國際演出人員/教育者",
+      "summary": "日本的半音階國際演出人員與教育者，活動脈絡包含京都出身、半音階口琴與Hohner Conservatory訓練。",
       "keywords": "Yasuo Watani Watani Yasuo 和谷泰扶 harmonica SIHF",
       "links": [
         {
@@ -8951,7 +8960,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/b64c68f53a77f4028c27.webp",
       "sourceInitials": "YW",
       "sourceTags": [
         "口琴",
@@ -9021,9 +9030,9 @@
       "type": "個人",
       "country": "日本",
       "region": "日本",
-      "cityOrFocus": "半音階/口琴演奏/SIHF歷屆嘉賓",
-      "structuredSummary": "半音階/口琴演奏/SIHF歷屆嘉賓 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含口琴演奏與SIHF歷屆嘉賓。",
+      "cityOrFocus": "日本半音階口琴演奏/YouTube演奏與教學",
+      "structuredSummary": "日本半音階口琴演奏/YouTube演奏與教學 / 半音階 / 國際演出人員/教學者",
+      "summary": "日本的半音階國際演出人員與教學者，活動脈絡包含日本半音階口琴演奏與YouTube演奏與教學。",
       "keywords": "Koei Tanaka Tanaka Koei 田中光栄 harmonica SIHF",
       "links": [
         {
@@ -9037,11 +9046,12 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/1711b366dcdb9439207d.webp",
       "sourceInitials": "KT",
       "sourceTags": [
         "口琴",
         "演奏者",
+        "教學",
         "半音階",
         "國際交流"
       ],
