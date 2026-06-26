@@ -105,7 +105,8 @@ def canonical_url(value: str) -> str:
         return ""
     parsed = urllib.parse.urlparse(url)
     host = parsed.netloc.casefold().removeprefix("www.")
-    path = urllib.parse.unquote(parsed.path).rstrip("/")
+    decoded_path = urllib.parse.unquote(parsed.path).rstrip("/")
+    path = urllib.parse.quote(decoded_path, safe="/@")
     query = ""
     if parsed.query and path.endswith("/profile.php"):
         query = urllib.parse.urlencode(sorted(urllib.parse.parse_qsl(parsed.query)))

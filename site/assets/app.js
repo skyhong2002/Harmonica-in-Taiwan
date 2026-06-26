@@ -1,13 +1,14 @@
 (function () {
   const data = window.HARMONICA_OBSERVE_DATA || {
     entries: [],
-    stats: { categories: {}, totalEntries: 0, verifiedEntries: 0 },
+    stats: { categories: {}, totalEntries: 0 },
     generatedAt: "-",
   };
   const FEED_FALLBACK_WINDOW_DAYS = 30;
   let feedData = window.HARMONICA_OBSERVE_FEEDS || {
     generatedAt: "-",
     feeds: [],
+    socialSources: [],
     updates: [],
     updatesWindowDays: FEED_FALLBACK_WINDOW_DAYS,
   };
@@ -15,17 +16,17 @@
   const state = {
     query: "",
     category: "全部",
-    status: "all",
+    hashtags: emptyFilterSet(),
   };
   const feedState = {
-    category: "all",
-    platform: [],
-    source: [],
-    tag: [],
+    platform: emptyFilterSet(),
+    source: emptyFilterSet(),
+    tag: emptyFilterSet(),
     query: "",
     visibleCount: 12,
     autoLoadEnabled: false,
     columnCount: 0,
+    sourceExpanded: false,
   };
   const feedBatchSize = 12;
   const feedDesktopColumnQuery = "(min-width: 901px)";
@@ -45,19 +46,6 @@
     "國際交流",
     "其他來源",
   ];
-  const feedCategoryLabels = {
-    events: "實體活動",
-    "posts-videos": "貼文影片",
-    "student-clubs": "學生社團",
-    opportunities: "補助比賽",
-  };
-  const feedCategoryOrder = [
-    "all",
-    "events",
-    "posts-videos",
-    "student-clubs",
-    "opportunities",
-  ];
   const feedApiUrl = "/api/latest.json";
   let feedSearchComposing = false;
 
@@ -66,9 +54,9 @@
   const spotlightList = document.querySelector("#spotlight-list");
   const resultCount = document.querySelector("#result-count");
   const tabs = document.querySelector("#category-tabs");
+  const directoryHashtagFilters = document.querySelector("#directory-hashtag-filters");
   const directorySearch = document.querySelector("#directory-search-input");
   const heroSearch = document.querySelector("#hero-search-input");
-  const statusFilter = document.querySelector("#status-filter");
 
   function setStat(name, value) {
     document.querySelectorAll(`[data-stat="${name}"]`).forEach((node) => {
@@ -105,6 +93,7 @@
       generatedAt: formatFeedGeneratedAt(payload.generatedAt || feedData.generatedAt),
       updatesWindowDays: Number(payload.updatesWindowDays || payload.windowDays || feedWindowDays()),
       updates: payload.updates,
+      socialSources: Array.isArray(payload.socialSources) ? payload.socialSources : [],
       feeds: Array.isArray(payload.feeds) ? payload.feeds : [],
     };
   }
@@ -133,6 +122,121 @@
     return String(value || "").trim().toLocaleLowerCase("zh-Hant");
   }
 
+  function emptyFilterSet() {
+    return { include: [], exclude: [] };
+  }
+
+  function filterIncludes(filter) {
+    return Array.isArray(filter?.include) ? filter.include : [];
+  }
+
+  function filterExcludes(filter) {
+    return Array.isArray(filter?.exclude) ? filter.exclude : [];
+  }
+
+  function filterEmpty(filter) {
+    return !filterIncludes(filter).length && !filterExcludes(filter).length;
+  }
+
+  function filterValueKey(value) {
+    return normalize(value);
+  }
+
+  function filterHasValue(values, value) {
+    const key = filterValueKey(value);
+    return values.some((item) => filterValueKey(item) === key);
+  }
+
+  function removeFilterValue(values, value) {
+    const key = filterValueKey(value);
+    return values.filter((item) => filterValueKey(item) !== key);
+  }
+
+  function addFilterValue(values, value) {
+    const label = String(value || "").trim();
+    if (!label || filterHasValue(values, label)) return values;
+    return [...values, label];
+  }
+
+  function filterValueState(filter, value) {
+    if (filterHasValue(filterIncludes(filter), value)) return "include";
+    if (filterHasValue(filterExcludes(filter), value)) return "exclude";
+    return "off";
+  }
+
+  function ariaPressedForFilterState(stateName) {
+    if (stateName === "include") return "true";
+    if (stateName === "exclude") return "mixed";
+    return "false";
+  }
+
+  function cycleFilterValue(filter, value) {
+    const label = String(value || "").trim().replace(/^#/, "");
+    if (!label) return filter;
+    const stateName = filterValueState(filter, label);
+    if (stateName === "off") {
+      return {
+        include: addFilterValue(filterIncludes(filter), label),
+        exclude: removeFilterValue(filterExcludes(filter), label),
+      };
+    }
+    if (stateName === "include") {
+      return {
+        include: removeFilterValue(filterIncludes(filter), label),
+        exclude: addFilterValue(filterExcludes(filter), label),
+      };
+    }
+    return {
+      include: removeFilterValue(filterIncludes(filter), label),
+      exclude: removeFilterValue(filterExcludes(filter), label),
+    };
+  }
+
+  function valuesMatchFilter(values, filter) {
+    const normalizedValues = values.map(filterValueKey).filter(Boolean);
+    const includes = filterIncludes(filter).map(filterValueKey).filter(Boolean);
+    const excludes = filterExcludes(filter).map(filterValueKey).filter(Boolean);
+    if (includes.length && !includes.some((key) => normalizedValues.includes(key))) return false;
+    if (excludes.some((key) => normalizedValues.includes(key))) return false;
+    return true;
+  }
+
+  function urlSearchParts(url) {
+    const raw = String(url || "").trim();
+    if (!raw) return [];
+    try {
+      const parsed = new URL(raw, window.location.origin);
+      return [
+        raw,
+        parsed.hostname.replace(/^www\./, ""),
+        decodeURIComponent(parsed.pathname).replace(/^\/+|\/+$/g, ""),
+      ];
+    } catch (error) {
+      return [raw];
+    }
+  }
+
+  function linkSearchParts(links) {
+    return (links || []).flatMap((link) => [
+      link.label,
+      ...urlSearchParts(link.url),
+    ]);
+  }
+
+  function monitorSourceSearchParts(sources) {
+    return (sources || []).flatMap((source) => [
+      source.id,
+      source.name,
+      source.platform,
+      source.type,
+      source.username,
+      source.profileUrl,
+      source.feedUrl,
+      ...urlSearchParts(source.profileUrl),
+      ...urlSearchParts(source.feedUrl),
+    ]);
+  }
+
   function searchableText(entry) {
     return normalize(
       [
@@ -146,17 +250,15 @@
         entry.cityOrFocus,
         entry.summary,
         entry.keywords,
-        entry.sourceStatus,
         ...(entry.sourceTags || []),
         entry.sourceSummary,
+        entry.source,
+        entry.latestUpdateSource,
+        entry.latestUpdateUrl,
+        ...linkSearchParts(entry.links),
+        ...monitorSourceSearchParts(entry.monitorSources),
       ].join(" ")
     );
-  }
-
-  function statusClass(status) {
-    if (status === "已查核") return "status-verified";
-    if (status === "部分查核") return "status-partial";
-    return "status-pending";
   }
 
   function escapeHtml(value) {
@@ -213,14 +315,53 @@
     return pills.slice(0, limit);
   }
 
-  function contextLine(entry) {
-    return displayMetaPills([entry.country, entry.region], 4).join(" · ");
+  function uniqueHashtags(values, limit = Infinity) {
+    const hashtags = [];
+    const seen = new Set();
+    values.forEach((value) => {
+      const label = String(value || "").trim().replace(/^#/, "");
+      const key = filterValueKey(label);
+      if (!label || seen.has(key)) return;
+      seen.add(key);
+      hashtags.push(label);
+    });
+    return Number.isFinite(limit) ? hashtags.slice(0, limit) : hashtags;
+  }
+
+  function locationHashtags(entry) {
+    return displayMetaPills([entry.country, entry.region], 6);
+  }
+
+  function entryHashtags(entry) {
+    return uniqueHashtags([...locationHashtags(entry), ...(entry.sourceTags || [])]);
+  }
+
+  function hashtagButton(label, className = "") {
+    const stateName = filterValueState(state.hashtags, label);
+    const displayLabel = `${stateName === "exclude" ? "not " : ""}#${escapeHtml(label)}`;
+    return `
+      <button
+        type="button"
+        class="pill hashtag-chip ${className}"
+        data-directory-hashtag="${escapeHtml(label)}"
+        data-filter-state="${stateName}"
+        aria-pressed="${ariaPressedForFilterState(stateName)}"
+      >${displayLabel}</button>
+    `;
+  }
+
+  function entryContextHtml(entry) {
+    const locations = locationHashtags(entry)
+      .map((tag) => hashtagButton(tag, "location-tag-pill"))
+      .join("");
+    const latest = entry.latestUpdateLocal
+      ? `<span class="entry-latest">最新 ${escapeHtml(entry.latestUpdateLocal)}</span>`
+      : "";
+    return locations || latest ? `<div class="entry-context">${locations}${latest}</div>` : "";
   }
 
   function entryCard(entry) {
-    const meta = [entry.latestUpdateLocal ? `最新 ${entry.latestUpdateLocal}` : ""].filter(Boolean);
-    const context = contextLine(entry);
-    const sourceTags = (entry.sourceTags || []).slice(0, 8);
+    const sourceTags = uniqueHashtags(entry.sourceTags || [], 8);
     const summary = entry.summary || entry.sourceSummary || entry.type || "公開來源";
     const aliases = (entry.aliases || []).slice(0, 4);
 
@@ -241,14 +382,10 @@
             ${aliases.length ? `<p class="entry-aliases">也收錄：${aliases.map(escapeHtml).join("、")}</p>` : ""}
           </div>
         </div>
-        <div class="entry-meta">
-          <span class="pill ${statusClass(entry.status)}">${escapeHtml(entry.status)}</span>
-          ${meta.map((item) => `<span class="pill">${escapeHtml(item)}</span>`).join("")}
-        </div>
-        ${context ? `<p class="entry-context">${escapeHtml(context)}</p>` : ""}
+        ${entryContextHtml(entry)}
         ${
           sourceTags.length
-            ? `<div class="entry-tags">${sourceTags.map((tag) => `<span class="pill source-tag-pill">${escapeHtml(tag)}</span>`).join("")}</div>`
+            ? `<div class="entry-tags">${sourceTags.map((tag) => hashtagButton(tag, "source-tag-pill")).join("")}</div>`
             : ""
         }
         <p class="entry-summary">${escapeHtml(summary)}</p>
@@ -314,15 +451,26 @@
     `;
   }
 
-  function feedCategoryPills(item) {
-    const labels = item.category_labels || (item.categories || []).map((category) => feedCategoryLabels[category] || category);
-    return labels.map((label) => `<span class="pill">${escapeHtml(label)}</span>`).join("");
+  function feedTagChip(tag) {
+    const stateName = filterValueState(feedState.tag, tag);
+    const label = `${stateName === "exclude" ? "not " : ""}${tag}`;
+    return `
+      <button
+        type="button"
+        class="pill feed-tag-pill feed-option-chip"
+        data-feed-tag="${escapeHtml(tag)}"
+        aria-pressed="${ariaPressedForFilterState(stateName)}"
+        data-filter-state="${stateName}"
+      >
+        ${escapeHtml(label)}
+      </button>
+    `;
   }
 
   function feedTagPills(item) {
     return (item.matched_keywords || [])
       .slice(0, 5)
-      .map((tag) => `<span class="pill feed-tag-pill">${escapeHtml(tag)}</span>`)
+      .map(feedTagChip)
       .join("");
   }
 
@@ -332,6 +480,7 @@
       : "";
     const excerpt = multilineHtml(item.text || "", 260, 4, true);
     const bodyClass = thumb ? "home-feed-body" : "home-feed-body home-feed-body-no-image";
+    const tagHtml = feedTagPills(item);
     return `
       <article class="home-feed-card">
         <div class="home-feed-source">
@@ -343,7 +492,7 @@
           ${excerpt ? `<span class="feed-latest-excerpt">${excerpt}</span>` : ""}
         </div>
         <div class="home-feed-footer">
-          <div class="entry-meta">${feedCategoryPills(item)}${feedTagPills(item)}</div>
+          ${tagHtml ? `<div class="entry-meta">${tagHtml}</div>` : ""}
           <a class="feed-open-link" href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">開啟來源</a>
         </div>
       </article>
@@ -376,17 +525,88 @@
     );
   }
 
+  function sourcePlatformLabel(platform) {
+    const value = String(platform || "").trim();
+    if (!value) return "public";
+    if (value.toLowerCase() === "x") return "X";
+    if (value.toLowerCase() === "rss") return "RSS";
+    return value;
+  }
+
+  function feedSocialSources() {
+    return Array.isArray(feedData.socialSources) ? feedData.socialSources : [];
+  }
+
+  function sourceKindLabels(source) {
+    const labels = [sourcePlatformLabel(source.platform || source.type)];
+    if (String(source.type || "").toLowerCase() === "rss" && !filterHasValue(labels, "RSS")) {
+      labels.push("RSS");
+    }
+    return labels;
+  }
+
+  function socialSourcesForItem(item) {
+    const id = filterValueKey(item.source_id);
+    if (!id) return [];
+    return feedSocialSources().filter((source) => filterValueKey(source.id) === id);
+  }
+
+  function socialSourceLabel(source) {
+    const name = source.name || source.username || source.id || "公開來源";
+    return `${name} · ${sourcePlatformLabel(source.platform || source.type)}`;
+  }
+
+  function feedSourceFilterValues(item) {
+    const platform = sourcePlatformLabel(item.platform);
+    const sourceMatches = socialSourcesForItem(item);
+    return [
+      item.source,
+      item.source_system_name,
+      item.source_id,
+      item.account,
+      item.source_profile_url,
+      item.link,
+      item.platform,
+      platform,
+      item.source ? `${item.source} · ${platform}` : "",
+      item.source_system_name ? `${item.source_system_name} · ${platform}` : "",
+      item.account ? `${String(item.account).replace(/^@/, "")} · ${platform}` : "",
+      ...urlSearchParts(item.source_profile_url),
+      ...urlSearchParts(item.link),
+      ...monitorSourceSearchParts(sourceMatches),
+      ...sourceMatches.map(socialSourceLabel),
+    ];
+  }
+
+  function feedPlatformFilterValues(item) {
+    return [
+      item.platform,
+      sourcePlatformLabel(item.platform),
+      ...socialSourcesForItem(item).flatMap(sourceKindLabels),
+    ];
+  }
+
+  function feedSourceOptions(updates) {
+    return uniqueSorted([
+      ...feedSocialSources().map(socialSourceLabel),
+      ...updates.flatMap(feedSourceFilterValues).filter((value) => String(value || "").includes(" · ")),
+    ]);
+  }
+
+  function feedPlatformOptions(updates) {
+    return uniqueSorted([
+      ...feedSocialSources().flatMap(sourceKindLabels),
+      ...updates.flatMap(feedPlatformFilterValues),
+    ]);
+  }
+
   function feedFilterText(item) {
     return normalize(
       [
         item.headline,
         item.title,
         item.text,
-        item.source,
-        item.platform,
-        item.account,
-        ...(item.category_labels || []),
-        ...(item.categories || []),
+        ...feedSourceFilterValues(item),
         ...(item.matched_keywords || []),
       ].join(" ")
     );
@@ -394,13 +614,9 @@
 
   function feedMatches(item) {
     const query = normalize(feedState.query);
-    if (feedState.category !== "all" && !(item.categories || []).includes(feedState.category)) return false;
-    if (feedState.platform.length && !feedState.platform.includes(item.platform)) return false;
-    if (feedState.source.length && !feedState.source.includes(item.source)) return false;
-    if (
-      feedState.tag.length &&
-      !(item.matched_keywords || []).some((tag) => feedState.tag.includes(tag))
-    ) return false;
+    if (!valuesMatchFilter(feedPlatformFilterValues(item), feedState.platform)) return false;
+    if (!valuesMatchFilter(feedSourceFilterValues(item), feedState.source)) return false;
+    if (!valuesMatchFilter(item.matched_keywords || [], feedState.tag)) return false;
     if (query && !feedFilterText(item).includes(query)) return false;
     return true;
   }
@@ -411,76 +627,48 @@
     feedState.columnCount = 0;
   }
 
-  function feedCategoryCount(categoryId, updates, feeds) {
-    if (categoryId === "all") return updates.length;
-    const feed = feeds.find((item) => item.id === categoryId);
-    if (feed) return feed.count || 0;
-    return updates.filter((item) => (item.categories || []).includes(categoryId)).length;
-  }
-
-  function feedCategoryControls(updates, feeds) {
-    return feedCategoryOrder
-      .filter((categoryId) => categoryId === "all" || feeds.some((feed) => feed.id === categoryId))
-      .map((categoryId) => {
-        const label = categoryId === "all" ? "全部" : feedCategoryLabels[categoryId] || categoryId;
-        const count = feedCategoryCount(categoryId, updates, feeds);
-        return `
-          <button
-            type="button"
-            class="feed-filter-chip"
-            data-feed-category="${escapeHtml(categoryId)}"
-            aria-pressed="${categoryId === feedState.category ? "true" : "false"}"
-          >
-            <span>${escapeHtml(label)}</span>
-            <strong>${escapeHtml(count)}</strong>
-          </button>
-        `;
-      })
-      .join("");
-  }
-
   function feedOptionChips(items, activeValues, dataName, fallbackLabel) {
-    const selectedValues = Array.isArray(activeValues) ? activeValues : [];
-    const allPressed = selectedValues.length === 0;
+    const allPressed = filterEmpty(activeValues);
     return `
       <button
         type="button"
         class="feed-option-chip"
         data-feed-${dataName}="all"
         aria-pressed="${allPressed ? "true" : "false"}"
+        data-filter-state="${allPressed ? "include" : "off"}"
       >
         ${escapeHtml(fallbackLabel)}
       </button>
       ${items
-        .map(
-          (item) => `
+        .map((item) => {
+          const stateName = filterValueState(activeValues, item);
+          const label = `${stateName === "exclude" ? "not " : ""}${item}`;
+          return `
             <button
               type="button"
               class="feed-option-chip"
               data-feed-${dataName}="${escapeHtml(item)}"
-              aria-pressed="${selectedValues.includes(item) ? "true" : "false"}"
+              aria-pressed="${ariaPressedForFilterState(stateName)}"
+              data-filter-state="${stateName}"
             >
-              ${escapeHtml(item)}
+              ${escapeHtml(label)}
             </button>
-          `
-        )
+          `;
+        })
         .join("")}
     `;
   }
 
-  function feedControls(updates, feeds, filteredUpdates) {
-    const sources = uniqueSorted(updates.map((item) => item.source));
-    const platforms = uniqueSorted(updates.map((item) => item.platform));
+  function feedControls(updates, filteredUpdates) {
+    const sources = feedSourceOptions(updates);
+    const platforms = feedPlatformOptions(updates);
     const tags = uniqueSorted(updates.flatMap((item) => item.matched_keywords || []));
-    const activeCategory = feedState.category === "all" ? "全部" : feedCategoryLabels[feedState.category] || feedState.category;
+    const sourcePanelOpen = feedState.sourceExpanded || !filterEmpty(feedState.source);
     return `
       <div class="feed-river-controls">
         <div class="feed-river-summary">
           <p class="feed-filter-label">河道篩選</p>
-          <strong>${escapeHtml(activeCategory)} · 最近 ${escapeHtml(feedWindowDays())} 天 · ${filteredUpdates.length} / ${updates.length} 筆</strong>
-        </div>
-        <div class="feed-filter-chips" aria-label="分類篩選">
-          ${feedCategoryControls(updates, feeds)}
+          <strong>最近 ${escapeHtml(feedWindowDays())} 天 · ${filteredUpdates.length} / ${updates.length} 筆</strong>
         </div>
         <div class="feed-filter-tools">
           <label class="search-field feed-search-field">
@@ -497,35 +685,21 @@
           <span class="feed-chip-group-label">Tag</span>
           <div class="feed-option-chips" aria-label="Tag 篩選，可複選">${feedOptionChips(tags, feedState.tag, "tag", "全部 tag")}</div>
         </div>
-        <div class="feed-filter-chip-group">
-          <span class="feed-chip-group-label">來源</span>
+        <details class="feed-filter-chip-group feed-filter-disclosure" data-feed-source-disclosure ${sourcePanelOpen ? "open" : ""}>
+          <summary class="feed-chip-group-label">來源</summary>
           <div class="feed-option-chips" aria-label="來源篩選，可複選">${feedOptionChips(sources, feedState.source, "source", "全部來源")}</div>
-        </div>
+        </details>
       </div>
     `;
-  }
-
-  function syncFeedUrl() {
-    const url = new URL(window.location.href);
-    if (feedState.category === "all") {
-      url.searchParams.delete("feed");
-    } else {
-      url.searchParams.set("feed", feedState.category);
-    }
-    url.hash = "latest-feed";
-    window.history.replaceState({}, "", url);
   }
 
   function toggleFeedSelection(name, value) {
     if (!["platform", "source", "tag"].includes(name)) return;
     if (value === "all") {
-      feedState[name] = [];
+      feedState[name] = emptyFilterSet();
       return;
     }
-    const selectedValues = Array.isArray(feedState[name]) ? feedState[name] : [];
-    feedState[name] = selectedValues.includes(value)
-      ? selectedValues.filter((item) => item !== value)
-      : [...selectedValues, value];
+    feedState[name] = cycleFilterValue(feedState[name], value);
   }
 
   function feedLoadMore(filteredCount, visibleCount) {
@@ -647,15 +821,6 @@
   }
 
   function bindFeedFilters() {
-    latestFeedGrid.querySelectorAll("[data-feed-category]").forEach((button) => {
-      button.addEventListener("click", () => {
-        feedState.category = button.dataset.feedCategory || "all";
-        resetFeedPagination();
-        syncFeedUrl();
-        renderLatestFeeds();
-      });
-    });
-
     const feedSearch = latestFeedGrid.querySelector("#feed-search-input");
     if (feedSearch) {
       feedSearch.addEventListener("compositionstart", () => {
@@ -706,16 +871,22 @@
       });
     });
 
+    const sourceDisclosure = latestFeedGrid.querySelector("[data-feed-source-disclosure]");
+    if (sourceDisclosure) {
+      sourceDisclosure.addEventListener("toggle", () => {
+        feedState.sourceExpanded = sourceDisclosure.open;
+      });
+    }
+
     const resetButton = latestFeedGrid.querySelector(".feed-reset-button");
     if (resetButton) {
       resetButton.addEventListener("click", () => {
-        feedState.category = "all";
-        feedState.platform = [];
-        feedState.source = [];
-        feedState.tag = [];
+        feedState.platform = emptyFilterSet();
+        feedState.source = emptyFilterSet();
+        feedState.tag = emptyFilterSet();
         feedState.query = "";
+        feedState.sourceExpanded = false;
         resetFeedPagination();
-        syncFeedUrl();
         renderLatestFeeds();
       });
     }
@@ -723,24 +894,8 @@
     bindFeedPagination();
   }
 
-  function bindFeedNav() {
-    document.querySelectorAll(".nav-feed-link[data-feed-category]").forEach((link) => {
-      link.addEventListener("click", (event) => {
-        if (!latestFeedGrid) return;
-        event.preventDefault();
-        feedState.category = link.dataset.feedCategory || "all";
-        resetFeedPagination();
-        syncFeedUrl();
-        renderLatestFeeds();
-        document.querySelector("#latest-feed")?.scrollIntoView({ block: "start" });
-        link.closest("details")?.removeAttribute("open");
-      });
-    });
-  }
-
   function renderLatestFeeds() {
     if (!latestFeedGrid) return;
-    const feeds = feedData.feeds || [];
     const updates = feedData.updates || [];
     if (!updates.length) {
       latestFeedGrid.innerHTML = `<div class="empty-state">目前沒有可顯示的公開 feed。</div>`;
@@ -751,7 +906,7 @@
     const visibleCount = Math.min(feedState.visibleCount, filteredUpdates.length);
     const visibleUpdates = filteredUpdates.slice(0, visibleCount);
     latestFeedGrid.innerHTML = `
-      ${feedControls(updates, feeds, filteredUpdates)}
+      ${feedControls(updates, filteredUpdates)}
       <div class="feed-river" aria-live="polite"></div>
       ${feedLoadMore(filteredUpdates.length, visibleCount)}
     `;
@@ -772,16 +927,65 @@
     const query = normalize(state.query);
     return data.entries.filter((entry) => {
       if (state.category !== "全部" && entry.category !== state.category) return false;
-      if (state.status !== "all" && entry.status !== state.status) return false;
+      if (!valuesMatchFilter(entryHashtags(entry), state.hashtags)) return false;
       if (query && !searchableText(entry).includes(query)) return false;
       return true;
     });
   }
 
+  function renderDirectoryResultCount(entries) {
+    if (!resultCount) return;
+    const activeHashtags = [...filterIncludes(state.hashtags), ...filterExcludes(state.hashtags)]
+      .map((hashtag) => hashtagButton(hashtag, "active-filter-chip"))
+      .join("");
+    const clearButton = !filterEmpty(state.hashtags)
+      ? `<button type="button" class="directory-clear-hashtags" data-directory-clear-hashtags>清除</button>`
+      : "";
+    resultCount.innerHTML = `
+      <span>${entries.length} 筆公開來源</span>
+      ${
+        activeHashtags
+          ? `<span class="directory-active-hashtags">${activeHashtags}${clearButton}</span>`
+          : ""
+      }
+    `;
+  }
+
+  function directoryHashtagValues() {
+    const locations = uniqueSorted(data.entries.flatMap(locationHashtags));
+    const sourceTags = uniqueSorted(data.entries.flatMap((entry) => entry.sourceTags || []));
+    return {
+      locations,
+      sourceTags: sourceTags.filter((tag) => !filterHasValue(locations, tag)),
+    };
+  }
+
+  function directoryHashtagFilterGroup(label, values, className) {
+    if (!values.length) return "";
+    return `
+      <div class="directory-hashtag-filter-group">
+        <span class="directory-hashtag-label">${escapeHtml(label)}</span>
+        <div class="directory-hashtag-chips">
+          ${values.map((tag) => hashtagButton(tag, className)).join("")}
+        </div>
+      </div>
+    `;
+  }
+
+  function renderDirectoryHashtagFilters() {
+    if (!directoryHashtagFilters) return;
+    const { locations, sourceTags } = directoryHashtagValues();
+    directoryHashtagFilters.innerHTML = [
+      directoryHashtagFilterGroup("地區", locations, "location-tag-pill"),
+      directoryHashtagFilterGroup("Tag", sourceTags, "source-tag-pill"),
+    ].join("");
+  }
+
   function renderDirectory() {
     if (!directoryList || !resultCount) return;
     const entries = filteredEntries();
-    resultCount.textContent = `${entries.length} 筆公開來源`;
+    renderDirectoryHashtagFilters();
+    renderDirectoryResultCount(entries);
     if (!entries.length) {
       directoryList.innerHTML = `<div class="empty-state">沒有符合目前條件的公開來源。</div>`;
       return;
@@ -828,6 +1032,77 @@
     });
   }
 
+  function syncDirectoryHashtagUrl() {
+    if (!directoryList) return;
+    const url = new URL(window.location.href);
+    url.searchParams.delete("hashtag");
+    url.searchParams.delete("notHashtag");
+    filterIncludes(state.hashtags).forEach((hashtag) => url.searchParams.append("hashtag", hashtag));
+    filterExcludes(state.hashtags).forEach((hashtag) => url.searchParams.append("notHashtag", hashtag));
+    window.history.replaceState({}, "", url);
+  }
+
+  function readDirectoryHashtagsFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    const includes = uniqueHashtags(
+      params
+        .getAll("hashtag")
+        .flatMap((value) => String(value || "").split(","))
+    );
+    state.hashtags = {
+      include: includes,
+      exclude: uniqueHashtags(
+        params
+          .getAll("notHashtag")
+          .flatMap((value) => String(value || "").split(","))
+      ).filter((hashtag) => !filterHasValue(includes, hashtag)),
+    };
+  }
+
+  function directoryHashtagUrl(hashtag) {
+    const url = new URL("/directory/", window.location.origin);
+    url.searchParams.append("hashtag", hashtag);
+    return url.toString();
+  }
+
+  function toggleDirectoryHashtag(hashtag) {
+    state.hashtags = cycleFilterValue(state.hashtags, hashtag);
+    syncDirectoryHashtagUrl();
+    renderDirectory();
+    renderSpotlight();
+  }
+
+  function clearDirectoryHashtags() {
+    state.hashtags = emptyFilterSet();
+    syncDirectoryHashtagUrl();
+    renderDirectory();
+    renderSpotlight();
+  }
+
+  function bindDirectoryHashtags() {
+    document.addEventListener("click", (event) => {
+      const target = event.target instanceof Element ? event.target : null;
+      if (!target) return;
+      const clearButton = target.closest("[data-directory-clear-hashtags]");
+      if (clearButton) {
+        event.preventDefault();
+        clearDirectoryHashtags();
+        return;
+      }
+
+      const hashtagButtonElement = target.closest("[data-directory-hashtag]");
+      if (!hashtagButtonElement) return;
+      event.preventDefault();
+      const hashtag = hashtagButtonElement.dataset.directoryHashtag || "";
+      if (!hashtag) return;
+      if (!directoryList) {
+        window.location.href = directoryHashtagUrl(hashtag);
+        return;
+      }
+      toggleDirectoryHashtag(hashtag);
+    });
+  }
+
   function bindSearch(source, target) {
     if (!source) return;
     source.addEventListener("input", () => {
@@ -838,18 +1113,13 @@
   }
 
   function init() {
-    const initialFeed = new URLSearchParams(window.location.search).get("feed");
-    if (initialFeed && feedCategoryOrder.includes(initialFeed)) {
-      feedState.category = initialFeed;
-    }
-
+    readDirectoryHashtagsFromUrl();
     const watchStats = data.stats.watchSources || {};
     setStat("watchSourceCount", watchStats.totalSources || data.stats.totalEntries || 0);
     setStat("rsshubSourceCount", watchStats.rsshubSources || 0);
     setStat("apifySourceCount", watchStats.apifySources || watchStats.facebookSources || 0);
     setStat("directoryEntryCount", data.stats.totalEntries || 0);
     setStat("totalEntries", data.stats.totalEntries || 0);
-    setStat("verifiedEntries", data.stats.verifiedEntries || 0);
     setStat("categoryCount", Object.keys(data.stats.categories || {}).length);
     setStat("generatedAt", data.generatedAt || "-");
     feedData.generatedAt = formatFeedGeneratedAt(feedData.generatedAt);
@@ -857,16 +1127,10 @@
 
     bindSearch(heroSearch, directorySearch);
     bindSearch(directorySearch, heroSearch);
-    if (statusFilter) {
-      statusFilter.addEventListener("change", () => {
-        state.status = statusFilter.value;
-        renderDirectory();
-      });
-    }
+    bindDirectoryHashtags();
 
     renderTabs();
     renderLatestFeeds();
-    bindFeedNav();
     fetchLatestFeedData();
     renderSpotlight();
     renderDirectory();

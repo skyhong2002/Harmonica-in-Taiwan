@@ -11,6 +11,7 @@ import re
 import shutil
 import subprocess
 import sys
+import time
 import urllib.parse
 from pathlib import Path
 from typing import Any
@@ -21,6 +22,14 @@ DEFAULT_CONFIG = PROJECT_ROOT / "data" / "feeds" / "social_sources.json"
 DEFAULT_INBOX = PROJECT_ROOT / "data" / "feeds" / "social_feed_inbox.jsonl"
 DEFAULT_LEDGER = PROJECT_ROOT / "state" / "youtube_ytdlp_fetcher.json"
 DEFAULT_ERRORS = PROJECT_ROOT / "data" / "feeds" / "social_feed_errors.jsonl"
+
+
+def env_int(name: str, default: int, *, minimum: int = 0) -> int:
+    try:
+        value = int(os.environ.get(name, str(default)))
+    except (TypeError, ValueError):
+        return default
+    return max(minimum, value)
 
 
 def load_json(path: Path, default: Any) -> Any:
@@ -74,25 +83,52 @@ def ytdlp_command() -> list[str]:
     return []
 
 
-def run_ytdlp(base_cmd: list[str], args: list[str], timeout: int) -> str:
+def run_ytdlp(
+    base_cmd: list[str],
+    args: list[str],
+    timeout: int,
+    *,
+    socket_timeout: int,
+    retries: int,
+    extractor_retries: int,
+    timeout_retries: int,
+    retry_delay_secs: int,
+) -> str:
     command = [
         *base_cmd,
         "--no-warnings",
         "--ignore-errors",
         "--skip-download",
-        *args,
     ]
-    result = subprocess.run(
-        command,
-        capture_output=True,
-        text=True,
-        timeout=timeout,
-        check=False,
-    )
-    if result.returncode != 0:
-        detail = (result.stderr or result.stdout or "").strip()[-1600:]
-        raise RuntimeError(detail or f"yt-dlp exited with code {result.returncode}")
-    return result.stdout
+    if socket_timeout > 0:
+        command.extend(["--socket-timeout", str(socket_timeout)])
+    if retries >= 0:
+        command.extend(["--retries", str(retries)])
+    if extractor_retries >= 0:
+        command.extend(["--extractor-retries", str(extractor_retries)])
+    command.extend(args)
+
+    attempts = max(1, timeout_retries + 1)
+    for attempt in range(attempts):
+        try:
+            result = subprocess.run(
+                command,
+                capture_output=True,
+                text=True,
+                timeout=timeout,
+                check=False,
+            )
+        except subprocess.TimeoutExpired:
+            if attempt + 1 >= attempts:
+                raise
+            if retry_delay_secs > 0:
+                time.sleep(retry_delay_secs)
+            continue
+        if result.returncode != 0:
+            detail = (result.stderr or result.stdout or "").strip()[-1600:]
+            raise RuntimeError(detail or f"yt-dlp exited with code {result.returncode}")
+        return result.stdout
+    raise RuntimeError("yt-dlp did not return output")
 
 
 def load_youtube_sources(config_path: Path, source_ids: list[str]) -> list[dict[str, Any]]:
@@ -115,6 +151,64 @@ def load_youtube_sources(config_path: Path, source_ids: list[str]) -> list[dict[
 def ledger_runs(ledger: dict[str, Any]) -> list[dict[str, Any]]:
     runs = ledger.get("runs")
     return runs if isinstance(runs, list) else []
+
+
+def ledger_sources(ledger: dict[str, Any]) -> dict[str, Any]:
+    sources = ledger.get("sources")
+    if not isinstance(sources, dict):
+        sources = {}
+        ledger["sources"] = sources
+    return sources
+
+
+def compact_error(value: Any, limit: int = 1600) -> str:
+    text = re.sub(r"\s+", " ", str(value or "")).strip()
+    return text[-limit:] if text else "未提供錯誤訊息"
+
+
+def mark_source_success(
+    ledger: dict[str, Any],
+    source_id: str,
+    *,
+    checked_at: str,
+    duration_secs: float,
+    new_rows: int,
+) -> None:
+    state = ledger_sources(ledger).setdefault(source_id, {})
+    state.update(
+        {
+            "last_status": "ok",
+            "last_checked_at": checked_at,
+            "last_success_at": checked_at,
+            "last_duration_secs": round(duration_secs, 2),
+            "last_new_inbox_rows": new_rows,
+            "consecutive_errors": 0,
+        }
+    )
+    state.pop("last_error", None)
+    state.pop("last_error_at", None)
+
+
+def mark_source_error(
+    ledger: dict[str, Any],
+    source_id: str,
+    *,
+    checked_at: str,
+    duration_secs: float,
+    error: Any,
+) -> None:
+    state = ledger_sources(ledger).setdefault(source_id, {})
+    previous_errors = int(state.get("consecutive_errors") or 0)
+    state.update(
+        {
+            "last_status": "error",
+            "last_checked_at": checked_at,
+            "last_error_at": checked_at,
+            "last_duration_secs": round(duration_secs, 2),
+            "last_error": compact_error(error),
+            "consecutive_errors": previous_errors + 1,
+        }
+    )
 
 
 def select_sources(sources: list[dict[str, Any]], ledger: dict[str, Any], max_sources: int) -> tuple[list[dict[str, Any]], int]:
@@ -238,6 +332,11 @@ def fetch_source(
     inbox_keys: set[str],
     max_age_days: int,
     timeout_secs: int,
+    socket_timeout_secs: int,
+    ytdlp_retries: int,
+    extractor_retries: int,
+    timeout_retries: int,
+    retry_delay_secs: int,
     now: dt.datetime,
 ) -> list[dict[str, Any]]:
     limit = min(max(int(source.get("limit") or 5), 1), 10)
@@ -246,6 +345,11 @@ def fetch_source(
         base_cmd,
         ["--flat-playlist", "--dump-json", "--playlist-end", str(limit), url],
         timeout_secs,
+        socket_timeout=socket_timeout_secs,
+        retries=ytdlp_retries,
+        extractor_retries=extractor_retries,
+        timeout_retries=timeout_retries,
+        retry_delay_secs=retry_delay_secs,
     )
     rows: list[dict[str, Any]] = []
     for line in flat_output.splitlines():
@@ -269,6 +373,11 @@ def fetch_source(
                     base_cmd,
                     ["--dump-single-json", "--no-playlist", video_url],
                     timeout_secs,
+                    socket_timeout=socket_timeout_secs,
+                    retries=ytdlp_retries,
+                    extractor_retries=extractor_retries,
+                    timeout_retries=timeout_retries,
+                    retry_delay_secs=retry_delay_secs,
                 )
             except RuntimeError:
                 continue
@@ -297,12 +406,34 @@ def main() -> int:
     parser.add_argument("--full-refresh", action="store_true")
     parser.add_argument("--max-sources-per-run", type=int, default=5)
     parser.add_argument("--max-post-age-days", type=int, default=30)
-    parser.add_argument("--timeout-secs", type=int, default=90)
+    parser.add_argument("--timeout-secs", type=int, default=env_int("HARMONICA_YTDLP_TIMEOUT_SECS", 90, minimum=1))
+    parser.add_argument(
+        "--socket-timeout-secs",
+        type=int,
+        default=env_int("HARMONICA_YTDLP_SOCKET_TIMEOUT_SECS", 20, minimum=0),
+    )
+    parser.add_argument("--ytdlp-retries", type=int, default=env_int("HARMONICA_YTDLP_RETRIES", 1, minimum=0))
+    parser.add_argument(
+        "--extractor-retries",
+        type=int,
+        default=env_int("HARMONICA_YTDLP_EXTRACTOR_RETRIES", 1, minimum=0),
+    )
+    parser.add_argument(
+        "--timeout-retries",
+        type=int,
+        default=env_int("HARMONICA_YTDLP_TIMEOUT_RETRIES", 1, minimum=0),
+    )
+    parser.add_argument(
+        "--retry-delay-secs",
+        type=int,
+        default=env_int("HARMONICA_YTDLP_RETRY_DELAY_SECS", 2, minimum=0),
+    )
     parser.add_argument("--verbose", action="store_true")
     parser.add_argument("--check", action="store_true")
     parser.add_argument("--no-write", action="store_true")
     args = parser.parse_args()
 
+    explicit_source_selection = bool(args.source_id)
     sources = load_youtube_sources(args.config, args.source_id)
     ledger = load_json(args.ledger, {"runs": [], "next_source_index": 0})
     max_sources = 0 if args.full_refresh else args.max_sources_per_run
@@ -321,6 +452,11 @@ def main() -> int:
                     "selected_start_index": start_index,
                     "has_ytdlp": bool(base_cmd),
                     "ytdlp_command": " ".join(base_cmd),
+                    "timeout_secs": args.timeout_secs,
+                    "socket_timeout_secs": args.socket_timeout_secs,
+                    "ytdlp_retries": args.ytdlp_retries,
+                    "extractor_retries": args.extractor_retries,
+                    "timeout_retries": args.timeout_retries,
                 },
                 ensure_ascii=False,
                 indent=2,
@@ -336,7 +472,10 @@ def main() -> int:
     inbox_keys = existing_inbox_keys(args.inbox)
     rows: list[dict[str, Any]] = []
     errors: list[dict[str, Any]] = []
+    source_results: list[dict[str, Any]] = []
     for source in selected:
+        source_id = str(source.get("id") or "")
+        source_started = time.monotonic()
         try:
             if args.verbose:
                 print(
@@ -344,22 +483,60 @@ def main() -> int:
                     file=sys.stderr,
                     flush=True,
                 )
-            rows.extend(
-                fetch_source(
-                    source,
-                    base_cmd=base_cmd,
-                    inbox_keys=inbox_keys,
-                    max_age_days=args.max_post_age_days,
-                    timeout_secs=args.timeout_secs,
-                    now=now,
-                )
+            source_rows = fetch_source(
+                source,
+                base_cmd=base_cmd,
+                inbox_keys=inbox_keys,
+                max_age_days=args.max_post_age_days,
+                timeout_secs=args.timeout_secs,
+                socket_timeout_secs=args.socket_timeout_secs,
+                ytdlp_retries=args.ytdlp_retries,
+                extractor_retries=args.extractor_retries,
+                timeout_retries=args.timeout_retries,
+                retry_delay_secs=args.retry_delay_secs,
+                now=now,
+            )
+            rows.extend(source_rows)
+            duration_secs = time.monotonic() - source_started
+            checked_at = dt.datetime.now(dt.timezone.utc).isoformat()
+            mark_source_success(
+                ledger,
+                source_id,
+                checked_at=checked_at,
+                duration_secs=duration_secs,
+                new_rows=len(source_rows),
+            )
+            source_results.append(
+                {
+                    "source_id": source_id,
+                    "status": "ok",
+                    "new_inbox_rows": len(source_rows),
+                    "duration_secs": round(duration_secs, 2),
+                }
             )
         except (RuntimeError, subprocess.SubprocessError, subprocess.TimeoutExpired) as exc:
+            duration_secs = time.monotonic() - source_started
+            checked_at = dt.datetime.now(dt.timezone.utc).isoformat()
+            mark_source_error(
+                ledger,
+                source_id,
+                checked_at=checked_at,
+                duration_secs=duration_secs,
+                error=exc,
+            )
             errors.append(
                 {
-                    "source_id": str(source.get("id") or ""),
+                    "source_id": source_id,
                     "source_type": "youtube_ytdlp",
                     "error": str(exc),
+                }
+            )
+            source_results.append(
+                {
+                    "source_id": source_id,
+                    "status": "error",
+                    "duration_secs": round(duration_secs, 2),
+                    "error": compact_error(exc, 500),
                 }
             )
 
@@ -367,7 +544,7 @@ def main() -> int:
         append_jsonl(args.inbox, rows)
     append_errors(args.errors, errors)
 
-    if sources:
+    if sources and not explicit_source_selection:
         ledger["next_source_index"] = (start_index + len(selected)) % len(sources)
     record = {
         "started_at": started_at,
@@ -375,6 +552,8 @@ def main() -> int:
         "source_ids": [source.get("id") for source in selected],
         "new_inbox_rows": len(rows),
         "error_count": len(errors),
+        "failed_source_ids": [error["source_id"] for error in errors],
+        "source_results": source_results,
     }
     ledger.setdefault("runs", []).append(record)
     ledger["runs"] = ledger_runs(ledger)[-200:]

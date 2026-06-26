@@ -1,5 +1,5 @@
 {
-  "next_source_index": 0,
+  "next_source_index": 24,
   "runs": [
     {
       "actor": "apify/facebook-posts-scraper",
@@ -440,7 +440,63 @@
       "started_at": "2026-06-24T09:16:07.550782+00:00",
       "status": "SUCCEEDED",
       "usage_total_usd": 0.039
+    },
+    {
+      "actor": "apify/facebook-posts-scraper",
+      "actor_error_item_count": 10,
+      "actor_spend_cap_usd": 0.173,
+      "budget_pacing_mode": "auto",
+      "dataset_item_count": 25,
+      "days_back": 30,
+      "dropped_old_rows": 0,
+      "dropped_undated_rows": 0,
+      "error_count": 0,
+      "finished_at": "2026-06-26T16:07:56.117070+00:00",
+      "item_count": 15,
+      "local_max_post_age_days": 30,
+      "max_items": 120,
+      "max_total_charge_usd": null,
+      "new_inbox_rows": 14,
+      "planned_max_sources_per_run": 24,
+      "planned_run_budget_usd": 0.173,
+      "platform_usage_total_usd": 0.127,
+      "remote_monthly_usage_after_usd": 0.8984351574540692,
+      "remote_monthly_usage_before_usd": 0.7714351574540692,
+      "remote_usage_delta_usd": 0.127,
+      "reserved_usd": 0.126,
+      "results_limit": 5,
+      "run_id": "G1HM3IVTa7LPhk2bR",
+      "selection_mode": "adaptive",
+      "source_ids": [
+        "fb_1269e7d1cd",
+        "fb_chen_cong_199678",
+        "fb_minamirisa",
+        "fb_dror_adler_7",
+        "fb_291bc27392",
+        "fb_pocketharmonic",
+        "fb_aike9115",
+        "fb_c74bf61a25",
+        "fb_951baeb1a9",
+        "fb_nycubmhc",
+        "fb_twharmonica",
+        "fb_punch_harp",
+        "fb_ntubluesound",
+        "fb_ntnu_harmonica",
+        "fb_ncku_harmonica",
+        "fb_nthuharmonica",
+        "fb_fcu_harmonica",
+        "fb_nutc_harmonica",
+        "fb_csmu_bmharmonica",
+        "fb_nkustharmonica",
+        "fb_siriusharp",
+        "fb_judys_harmonica_ensemble",
+        "fb_harmonicasymphony",
+        "fb_tcharmonicaa"
+      ],
+      "started_at": "2026-06-26T16:07:34.171509+00:00",
+      "status": "SUCCEEDED",
+      "usage_total_usd": 0.127
     }
   ],
-  "updated_at": "2026-06-24T09:16:28.890752+00:00"
+  "updated_at": "2026-06-26T16:07:56.117070+00:00"
 }

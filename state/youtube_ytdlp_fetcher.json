@@ -1,5 +1,5 @@
 {
-  "next_source_index": 0,
+  "next_source_index": 5,
   "runs": [
     {
       "error_count": 0,
@@ -263,7 +263,108 @@
         "yt_uct3ifdfoqpndqm8j5chesda"
       ],
       "started_at": "2026-06-26T10:08:48.008260+00:00"
+    },
+    {
+      "error_count": 5,
+      "finished_at": "2026-06-26T16:07:33.185138+00:00",
+      "new_inbox_rows": 0,
+      "source_ids": [
+        "yt_thmc6470",
+        "yt_siriusharp",
+        "yt_judysharmonicaensemble",
+        "yt_punchharp",
+        "yt_pokaiho"
+      ],
+      "started_at": "2026-06-26T16:00:03.110257+00:00"
+    },
+    {
+      "error_count": 0,
+      "failed_source_ids": [],
+      "finished_at": "2026-06-26T17:10:42.667366+00:00",
+      "new_inbox_rows": 0,
+      "source_ids": [
+        "yt_thmc6470",
+        "yt_siriusharp",
+        "yt_judysharmonicaensemble",
+        "yt_punchharp",
+        "yt_pokaiho"
+      ],
+      "source_results": [
+        {
+          "duration_secs": 0.61,
+          "new_inbox_rows": 0,
+          "source_id": "yt_thmc6470",
+          "status": "ok"
+        },
+        {
+          "duration_secs": 0.5,
+          "new_inbox_rows": 0,
+          "source_id": "yt_siriusharp",
+          "status": "ok"
+        },
+        {
+          "duration_secs": 0.49,
+          "new_inbox_rows": 0,
+          "source_id": "yt_judysharmonicaensemble",
+          "status": "ok"
+        },
+        {
+          "duration_secs": 0.49,
+          "new_inbox_rows": 0,
+          "source_id": "yt_punchharp",
+          "status": "ok"
+        },
+        {
+          "duration_secs": 4.28,
+          "new_inbox_rows": 0,
+          "source_id": "yt_pokaiho",
+          "status": "ok"
+        }
+      ],
+      "started_at": "2026-06-26T17:10:36.286411+00:00"
     }
   ],
-  "updated_at": "2026-06-26T10:08:57.732485+00:00"
+  "sources": {
+    "yt_judysharmonicaensemble": {
+      "consecutive_errors": 0,
+      "last_checked_at": "2026-06-26T17:10:37.901844+00:00",
+      "last_duration_secs": 0.49,
+      "last_new_inbox_rows": 0,
+      "last_status": "ok",
+      "last_success_at": "2026-06-26T17:10:37.901844+00:00"
+    },
+    "yt_pokaiho": {
+      "consecutive_errors": 0,
+      "last_checked_at": "2026-06-26T17:10:42.667323+00:00",
+      "last_duration_secs": 4.28,
+      "last_new_inbox_rows": 0,
+      "last_status": "ok",
+      "last_success_at": "2026-06-26T17:10:42.667323+00:00"
+    },
+    "yt_punchharp": {
+      "consecutive_errors": 0,
+      "last_checked_at": "2026-06-26T17:10:38.389383+00:00",
+      "last_duration_secs": 0.49,
+      "last_new_inbox_rows": 0,
+      "last_status": "ok",
+      "last_success_at": "2026-06-26T17:10:38.389383+00:00"
+    },
+    "yt_siriusharp": {
+      "consecutive_errors": 0,
+      "last_checked_at": "2026-06-26T17:10:37.407637+00:00",
+      "last_duration_secs": 0.5,
+      "last_new_inbox_rows": 0,
+      "last_status": "ok",
+      "last_success_at": "2026-06-26T17:10:37.407637+00:00"
+    },
+    "yt_thmc6470": {
+      "consecutive_errors": 0,
+      "last_checked_at": "2026-06-26T17:10:36.902892+00:00",
+      "last_duration_secs": 0.61,
+      "last_new_inbox_rows": 0,
+      "last_status": "ok",
+      "last_success_at": "2026-06-26T17:10:36.902892+00:00"
+    }
+  },
+  "updated_at": "2026-06-26T17:10:42.667366+00:00"
 }

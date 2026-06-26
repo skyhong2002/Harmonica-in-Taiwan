@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-06-26T18:16:13+08:00",
+  "generatedAt": "2026-06-27T01:12:27+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "ok",
     "label": "正常",
-    "summary": "核心資料抓取與公開 API 正常。"
+    "summary": "核心資料抓取與公開 API 正常。 Facebook Apify 目前是預算節流狀態。"
   },
   "metrics": {
-    "updates": 176,
+    "updates": 205,
     "updatesWindowDays": 30,
     "directoryEntries": 105,
     "watchSources": 244,
     "currentErrors": 0,
-    "latestDataAt": "2026-06-26T18:15:17+08:00",
-    "latestSocialObservationAt": "2026-06-26T18:07:59+08:00"
+    "latestDataAt": "2026-06-27T01:11:38+08:00",
+    "latestSocialObservationAt": "2026-06-27T01:11:05+08:00"
   },
   "watchSources": {
     "platforms": {
@@ -70,8 +70,8 @@
       "label": "正常",
       "summary": "每日 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-06-26 18:15:17",
-        "pipeline.log 更新：2026-06-26 00:06:00",
+        "最新公開資料：2026-06-27 01:11:38",
+        "pipeline.log 更新：2026-06-27 00:13:49",
         "pipeline.err.log 更新：2026-06-24 01:57:49",
         "LaunchAgent：not running，last exit 0"
       ]
@@ -81,7 +81,7 @@
       "name": "公開 API",
       "status": "ok",
       "label": "正常",
-      "summary": "latest.json 有 176 筆更新，sources.json 有 105 筆公開目錄。",
+      "summary": "latest.json 有 205 筆更新，sources.json 有 105 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
         "watch sources：244"
@@ -95,7 +95,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：47 ms"
+        "耗時：10 ms"
       ]
     },
     {
@@ -105,7 +105,7 @@
       "label": "正常",
       "summary": "77 個 Instagram 來源；最新抓取批次目前 0 個錯誤。",
       "details": [
-        "最新社群觀測：2026-06-26 18:07:59"
+        "最新社群觀測：2026-06-27 01:11:05"
       ]
     },
     {
@@ -122,17 +122,17 @@
     {
       "id": "facebook-apify",
       "name": "Facebook Apify",
-      "status": "ok",
-      "label": "正常",
-      "summary": "86 個 Facebook 來源。 Apify token/quota check 正常。",
+      "status": "paused",
+      "label": "節流中",
+      "summary": "86 個 Facebook 來源。 目前依預算 pacing 暫停開 run，等待 due 來源累積。",
       "details": [
-        "最近成功 run：2026-06-24 17:16:28",
-        "最近新增 inbox：5",
-        "due sources：24",
-        "selected this check：24",
+        "最近成功 run：2026-06-27 00:07:56",
+        "最近新增 inbox：14",
+        "due sources：3",
+        "selected this check：0",
         "min sources per run：8",
-        "遠端月額度剩餘：$3.23",
-        "規劃單次預算：$0.17"
+        "遠端月額度剩餘：$3.06",
+        "規劃單次預算：$0.16"
       ]
     },
     {
@@ -142,8 +142,8 @@
       "label": "正常",
       "summary": "74 個 YouTube 來源；最近 run error_count=0。",
       "details": [
-        "最近完成：2026-06-26 18:08:57",
-        "最近新增 inbox：2"
+        "最近完成：2026-06-27 01:10:42",
+        "最近新增 inbox：0"
       ]
     },
     {

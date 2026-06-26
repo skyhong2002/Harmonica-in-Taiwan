@@ -8,30 +8,18 @@
       name="description"
       content="回報臺灣口琴觀測站的公開資料缺漏、錯誤、失效連結或新增來源。"
     >
-    <link rel="icon" href="/assets/favicon-20260623.svg?v=20260626-2207" type="image/svg+xml">
-    <link rel="stylesheet" href="/assets/styles.css?v=20260626-2207">
+    <link rel="icon" href="/assets/favicon-20260623.svg?v=20260626-2339" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/styles.css?v=20260626-2339">
   </head>
   <body>
     <header class="site-header">
       <a class="brand" href="/" aria-label="臺灣口琴觀測站首頁">
-        <img class="brand-logo" src="/assets/logo.svg?v=20260626-2207" alt="臺灣口琴觀測站" width="200" height="47">
+        <img class="brand-logo" src="/assets/logo.svg?v=20260626-2339" alt="臺灣口琴觀測站" width="200" height="47">
       </a>
       <nav class="site-nav" aria-label="主要導覽">
-        <a href="/#latest-feed">最新</a>
-        <details class="nav-menu">
-          <summary>河道</summary>
-          <div class="nav-menu-popover">
-            <a class="nav-feed-link" href="/#latest-feed" data-feed-category="all">全部公開更新</a>
-            <a class="nav-feed-link" href="/?feed=events#latest-feed" data-feed-category="events">實體活動</a>
-            <a class="nav-feed-link" href="/?feed=posts-videos#latest-feed" data-feed-category="posts-videos">貼文影片</a>
-            <a class="nav-feed-link" href="/?feed=student-clubs#latest-feed" data-feed-category="student-clubs">學生社團</a>
-            <a class="nav-feed-link" href="/?feed=opportunities#latest-feed" data-feed-category="opportunities">補助比賽</a>
-          </div>
-        </details>
+        <a href="/">首頁</a>
         <a href="/directory/">資料索引</a>
-        <a href="/feeds/">RSS</a>
         <a href="/status/">狀態</a>
-        <a href="/submit/">資料回報</a>
       </nav>
     </header>
 
@@ -43,7 +31,7 @@
             <h1>資料回報</h1>
           </div>
           <div class="feed-page-summary">
-            <p>這裡處理臺灣口琴觀測站的公開資料缺漏、錯誤、失效連結與新增來源。請先確認資料能公開查證，再送出 GitHub 表單。</p>
+            <p>這裡處理臺灣口琴觀測站的公開資料缺漏、錯誤、失效連結與新增來源。請提供可公開顯示的來源連結，再送出 GitHub 表單。</p>
             <div class="report-flow" aria-label="回報流程">
               <span>1. 選回報類型</span>
               <span>2. 準備公開來源</span>
@@ -70,7 +58,7 @@
             </article>
             <article class="report-type-card">
               <h3>修正既有資料</h3>
-              <p>名稱、分類、地區、公開連結、查核狀態或來源顯示有誤時，可以回報建議修正。</p>
+              <p>名稱、分類、地區、公開連結或來源顯示有誤時，可以回報建議修正。</p>
               <span class="pill">請附目前頁面或來源</span>
             </article>
             <article class="report-type-card">
@@ -131,10 +119,6 @@
                 <input name="source_url" type="url" placeholder="https://..." required>
               </label>
               <label class="report-field">
-                <span>公開查證來源</span>
-                <textarea name="verification" rows="4" placeholder="例：官方網站、官方 Facebook、公開活動頁或公告連結。" required></textarea>
-              </label>
-              <label class="report-field">
                 <span>要新增或修正的內容</span>
                 <textarea name="details" rows="7" placeholder="例：目前網站上的資料錯在...；建議改成...；或希望新增的分類、城市、公開連結。" required></textarea>
               </label>
@@ -153,7 +137,6 @@
               <pre class="report-template"><code id="report-preview">回報類型：新增來源或社團
 名稱或標題：
 公開來源連結：
-公開查證來源：
 要新增或修正的內容：
 公開聯絡方式（選填）：</code></pre>
               <div class="report-actions">
@@ -173,9 +156,8 @@
           <p>公開口琴活動、社團、貼文影片與補助資訊索引。</p>
         </div>
         <nav class="footer-links" aria-label="頁尾導覽">
-          <a href="/directory/">資料索引</a>
           <a href="/feeds/">RSS</a>
-          <a href="/status/">狀態</a>
+          <a href="/submit/">資料回報</a>
           <a href="/api/latest.json">API</a>
           <a href="https://github.com/skyhong2002/Harmonica-in-Taiwan" target="_blank" rel="noreferrer">GitHub</a>
         </nav>
@@ -216,7 +198,6 @@
             `回報類型：${valueOf("request_type")}`,
             `名稱或標題：${valueOf("name")}`,
             `公開來源連結：${valueOf("source_url")}`,
-            `公開查證來源：${valueOf("verification")}`,
             `要新增或修正的內容：${valueOf("details")}`,
             `公開聯絡方式（選填）：${valueOf("public_contact")}`,
           ].join("\n");

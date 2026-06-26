@@ -29,22 +29,8 @@ body:
     id: source_url
     attributes:
       label: 公開來源連結
-      description: 請放官方網站、公開社群頁、公開貼文、公開活動頁或其他可查證連結。
+      description: 請放官方網站、公開社群頁、公開貼文、公開活動頁或其他公開來源連結。
       placeholder: https://...
-    validations:
-      required: true
-
-  - type: textarea
-    id: verification
-    attributes:
-      label: 公開查證來源
-      description: 請提供官方頁面、公開社群、公開貼文、活動頁或其他可確認資訊的連結。
-      placeholder: |
-        例：
-        - 官方網站：
-        - 官方 Facebook：
-        - 官方 Instagram：
-        - 活動或公告頁：
     validations:
       required: true
 

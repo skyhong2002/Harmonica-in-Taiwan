@@ -36,24 +36,20 @@ API_DIR = SITE_ROOT / "api"
 FEED_IMAGE_DIR = SITE_ROOT / "assets" / "feed-images"
 SOURCE_AVATAR_DIR = SITE_ROOT / "assets" / "source-avatars"
 PUBLIC_BASE_URL = "https://harmonica.observe.tw"
-ASSET_VERSION = "20260626-2207"
+ASSET_VERSION = "20260626-2339"
 HOME_FEED_BATCH_SIZE = 12
 DEFAULT_UPDATE_WINDOW_DAYS = 30
 WEBP_QUALITY = "82"
 TAG_VALUE_SPLIT_RE = re.compile(r"\s*(?:[,，、/／+&]|\band\b|\s+)\s*", re.IGNORECASE)
 TAG_FORBIDDEN_CHARS_RE = re.compile(r"[,，、/／+&\s]")
+LEGACY_TAI = "\u53f0"
+TAIWAN_ORTHOGRAPHY_REPLACEMENTS = (
+    (f"{LEGACY_TAI}灣", "臺灣"),
+    (f"{LEGACY_TAI}北", "臺北"),
+    (f"{LEGACY_TAI}中", "臺中"),
+    (f"{LEGACY_TAI}南", "臺南"),
+)
 BRAND_LOGO_HTML = f'<img class="brand-logo" src="/assets/logo.svg?v={ASSET_VERSION}" alt="臺灣口琴觀測站" width="200" height="47">'
-SUBMIT_LINK_HTML = '<a href="/submit/">資料回報</a>'
-NAV_FEED_MENU = """<details class="nav-menu">
-          <summary>河道</summary>
-          <div class="nav-menu-popover">
-            <a class="nav-feed-link" href="/#latest-feed" data-feed-category="all">全部公開更新</a>
-            <a class="nav-feed-link" href="/?feed=events#latest-feed" data-feed-category="events">實體活動</a>
-            <a class="nav-feed-link" href="/?feed=posts-videos#latest-feed" data-feed-category="posts-videos">貼文影片</a>
-            <a class="nav-feed-link" href="/?feed=student-clubs#latest-feed" data-feed-category="student-clubs">學生社團</a>
-            <a class="nav-feed-link" href="/?feed=opportunities#latest-feed" data-feed-category="opportunities">補助比賽</a>
-          </div>
-        </details>"""
 FOOTER_HTML = """<footer class="site-footer">
       <div class="site-footer-inner">
         <div class="footer-brand">
@@ -61,9 +57,8 @@ FOOTER_HTML = """<footer class="site-footer">
           <p>公開口琴活動、社團、貼文影片與補助資訊索引。</p>
         </div>
         <nav class="footer-links" aria-label="頁尾導覽">
-          <a href="/directory/">資料索引</a>
           <a href="/feeds/">RSS</a>
-          <a href="/status/">狀態</a>
+          <a href="/submit/">資料回報</a>
           <a href="/api/latest.json">API</a>
           <a href="https://github.com/skyhong2002/Harmonica-in-Taiwan" target="_blank" rel="noreferrer">GitHub</a>
         </nav>
@@ -296,13 +291,20 @@ def rss_time(value: str | None, fallback: dt.datetime) -> str:
     return email.utils.format_datetime(parsed or fallback)
 
 
+def normalize_taiwan_orthography(value: Any) -> str:
+    text = str(value or "").strip()
+    for source, target in TAIWAN_ORTHOGRAPHY_REPLACEMENTS:
+        text = text.replace(source, target)
+    return text
+
+
 def compact(value: str, limit: int = 320) -> str:
-    text = re.sub(r"\s+", " ", value or "").strip()
+    text = re.sub(r"\s+", " ", normalize_taiwan_orthography(value)).strip()
     return text[: limit - 1] + "…" if len(text) > limit else text
 
 
 def compact_multiline(value: str, limit: int = 1200) -> str:
-    lines = [re.sub(r"[ \t]+", " ", line).strip() for line in (value or "").splitlines()]
+    lines = [re.sub(r"[ \t]+", " ", normalize_taiwan_orthography(line)).strip() for line in (value or "").splitlines()]
     clean_lines: list[str] = []
     for line in lines:
         if line and (not clean_lines or clean_lines[-1] != line):
@@ -831,7 +833,7 @@ def normalize_tag_values(value: Any, *, limit: int = 8) -> list[str]:
 
     tags: list[str] = []
     for raw in raw_values:
-        text = str(raw or "").strip()
+        text = normalize_taiwan_orthography(raw)
         if not text:
             continue
         for tag in TAG_VALUE_SPLIT_RE.split(text):
@@ -1018,11 +1020,60 @@ def public_source_profile_url(row: dict[str, Any], profile: dict[str, str]) -> s
     return ""
 
 
+def public_social_source_profile_url(source: dict[str, Any]) -> str:
+    row = dict(source)
+    if not row.get("account"):
+        row["account"] = row.get("username") or ""
+    return public_source_profile_url(row, source)
+
+
+def public_social_source_feed_url(source: dict[str, Any]) -> str:
+    for field in ("feed_url", "rss_url"):
+        value = str(source.get(field) or "").strip()
+        if value.startswith(("http://", "https://")):
+            return value
+
+    rsshub_base = str(source.get("rsshub_base") or "").rstrip("/")
+    route = str(source.get("route") or "")
+    username = str(source.get("username") or source.get("account") or "").strip()
+    if rsshub_base and route and username:
+        return f"{rsshub_base}{route.format(username=url_part(username))}"
+    return ""
+
+
+def public_social_sources() -> list[dict[str, str]]:
+    config = read_json(SOCIAL_SOURCES, {"sources": []})
+    sources: list[dict[str, str]] = []
+    for source in config.get("sources", []):
+        if not source.get("enabled", True) or source.get("type") == "jsonl":
+            continue
+        username = normalize_taiwan_orthography(source.get("username") or source.get("account") or "")
+        sources.append(
+            {
+                "id": str(source.get("id") or ""),
+                "name": normalize_taiwan_orthography(source.get("name") or source.get("title") or source.get("id") or "公開來源"),
+                "platform": str(source.get("platform") or source.get("type") or "unknown"),
+                "type": str(source.get("type") or "unknown"),
+                "username": username,
+                "profileUrl": public_social_source_profile_url(source),
+                "feedUrl": public_social_source_feed_url(source),
+            }
+        )
+    return sorted(
+        sources,
+        key=lambda item: (
+            str(item.get("platform") or ""),
+            str(item.get("name") or ""),
+            str(item.get("id") or ""),
+        ),
+    )
+
+
 def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
     source_id = str(row.get("source_id") or "")
     profile = SOURCE_PROFILE_BY_ID.get(source_id, {})
     source = public_source_name(row, profile)
-    source_system_name = str(row.get("source_name") or profile.get("name") or row.get("source_id") or "")
+    source_system_name = normalize_taiwan_orthography(row.get("source_name") or profile.get("name") or row.get("source_id") or "")
     if is_generic_source_name(source_system_name):
         source_system_name = source
     source_profile_url = public_source_profile_url(row, profile)
@@ -1065,9 +1116,9 @@ def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
         "keyword_matches": row.get("keyword_matches") or [],
         "llm_relevant": row.get("llm_relevant"),
         "llm_confidence": row.get("llm_confidence"),
-        "llm_labels": row.get("llm_labels") or [],
+        "llm_labels": normalize_tag_values(row.get("llm_labels") or []),
         "llm_categories": row.get("llm_categories") or [],
-        "llm_reason": row.get("llm_reason") or "",
+        "llm_reason": normalize_taiwan_orthography(row.get("llm_reason") or ""),
         "text": text,
         "images": images,
         "source_image_url": image_url,
@@ -1171,10 +1222,12 @@ def category_payload(category: dict[str, str], items: list[dict[str, Any]]) -> d
 
 
 def write_feed_data_js(public_rows: list[dict[str, Any]], categorized: dict[str, list[dict[str, Any]]], window_days: int) -> None:
+    social_sources = public_social_sources()
     payload = {
         "generatedAt": dt.datetime.now(TAIPEI_TZ).strftime("%Y-%m-%d %H:%M"),
         "updatesWindowDays": window_days,
         "updates": public_rows,
+        "socialSources": social_sources,
         "feeds": [
             category_payload(category, categorized.get(category["id"], []))
             for category in FEED_CATEGORIES
@@ -1206,6 +1259,7 @@ def api_category_payload(category: dict[str, str], items: list[dict[str, Any]]) 
 
 def write_api_files(public_rows: list[dict[str, Any]], categorized: dict[str, list[dict[str, Any]]], window_days: int) -> None:
     API_DIR.mkdir(parents=True, exist_ok=True)
+    social_sources = public_social_sources()
     feeds = [
         api_category_payload(category, categorized.get(category["id"], []))
         for category in FEED_CATEGORIES
@@ -1228,6 +1282,7 @@ def write_api_files(public_rows: list[dict[str, Any]], categorized: dict[str, li
         "updatesWindowDays": window_days,
         "site": PUBLIC_BASE_URL,
         "updates": public_rows,
+        "socialSources": social_sources,
         "feeds": feeds,
     }
     (API_DIR / "latest.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
@@ -1327,17 +1382,14 @@ def render_keyword_pills(keywords: list[str]) -> str:
     return "".join(f'<span class="pill">{html_escape(keyword)}</span>' for keyword in keywords[:6])
 
 
-def render_category_pills(item: dict[str, Any]) -> str:
-    labels = item.get("category_labels") or [
-        CATEGORY_LABELS.get(category, category)
-        for category in (item.get("categories") or [])
-    ]
-    return "".join(f'<span class="pill">{html_escape(label)}</span>' for label in labels)
-
-
 def render_home_tag_pills(item: dict[str, Any]) -> str:
     keywords = list(item.get("matched_keywords") or [])[:5]
-    return "".join(f'<span class="pill feed-tag-pill">{html_escape(keyword)}</span>' for keyword in keywords)
+    return "".join(
+        f'<button type="button" class="pill feed-tag-pill feed-option-chip" '
+        f'data-feed-tag="{html_escape(keyword)}" aria-pressed="false" data-filter-state="off">'
+        f'{html_escape(keyword)}</button>'
+        for keyword in keywords
+    )
 
 
 def render_source_avatar(item: dict[str, Any], class_name: str = "source-avatar") -> str:
@@ -1383,7 +1435,8 @@ def render_home_feed_item(item: dict[str, Any]) -> str:
     body_class = "home-feed-body" if thumb_html else "home-feed-body home-feed-body-no-image"
     excerpt = homepage_excerpt(item.get("text"), limit=260, max_lines=4, skip_first=True)
     excerpt_html = f'<span class="feed-latest-excerpt">{excerpt}</span>' if excerpt else ""
-    category_html = render_category_pills(item) + render_home_tag_pills(item)
+    tag_html = render_home_tag_pills(item)
+    meta_html = f'<div class="entry-meta">{tag_html}</div>' if tag_html else ""
     return f"""
       <article class="home-feed-card">
         <div class="home-feed-source">
@@ -1395,7 +1448,7 @@ def render_home_feed_item(item: dict[str, Any]) -> str:
           {excerpt_html}
         </div>
         <div class="home-feed-footer">
-          <div class="entry-meta">{category_html}</div>
+          {meta_html}
           <a class="feed-open-link" href="{html_escape(item.get("link"))}" target="_blank" rel="noreferrer">開啟來源</a>
         </div>
       </article>
@@ -1404,46 +1457,72 @@ def render_home_feed_item(item: dict[str, Any]) -> str:
 
 def render_home_filter_chip_options(values: list[str], data_name: str, fallback_label: str) -> str:
     chips = [
-        f'<button type="button" class="feed-option-chip" data-feed-{html_escape(data_name)}="all" aria-pressed="true">{html_escape(fallback_label)}</button>'
+        f'<button type="button" class="feed-option-chip" data-feed-{html_escape(data_name)}="all" aria-pressed="true" data-filter-state="include">{html_escape(fallback_label)}</button>'
     ]
     chips.extend(
-        f'<button type="button" class="feed-option-chip" data-feed-{html_escape(data_name)}="{html_escape(value)}" aria-pressed="false">{html_escape(value)}</button>'
+        f'<button type="button" class="feed-option-chip" data-feed-{html_escape(data_name)}="{html_escape(value)}" aria-pressed="false" data-filter-state="off">{html_escape(value)}</button>'
         for value in values
     )
     return "".join(chips)
 
 
-def render_home_feed_filters(public_rows: list[dict[str, Any]], categorized: dict[str, list[dict[str, Any]]], window_days: int) -> str:
-    chips = [
-        f"""
-          <button type="button" class="feed-filter-chip" data-feed-category="all" aria-pressed="true">
-            <span>全部</span>
-            <strong>{len(public_rows)}</strong>
-          </button>
-        """
-    ]
-    for category in FEED_CATEGORIES:
-        category_id = category["id"]
-        short_title = category["short_title"]
-        chips.append(
-            f"""
-          <button type="button" class="feed-filter-chip" data-feed-category="{html_escape(category_id)}" aria-pressed="false">
-            <span>{html_escape(short_title)}</span>
-            <strong>{len(categorized.get(category_id, []))}</strong>
-          </button>
-        """
-        )
-    sources = sorted({str(item.get("source")) for item in public_rows if item.get("source")})
-    platforms = sorted({str(item.get("platform")) for item in public_rows if item.get("platform")})
+def source_platform_label(platform: Any) -> str:
+    value = str(platform or "").strip()
+    if not value:
+        return "public"
+    lowered = value.casefold()
+    if lowered == "x":
+        return "X"
+    if lowered == "rss":
+        return "RSS"
+    return value
+
+
+def social_source_filter_label(source: dict[str, Any]) -> str:
+    name = str(source.get("name") or source.get("username") or source.get("id") or "公開來源")
+    platform = source_platform_label(source.get("platform") or source.get("type"))
+    return f"{name} · {platform}"
+
+
+def source_kind_labels(source: dict[str, Any]) -> list[str]:
+    labels = {source_platform_label(source.get("platform") or source.get("type"))}
+    if str(source.get("type") or "").casefold() == "rss":
+        labels.add("RSS")
+    return sorted(labels)
+
+
+def update_source_filter_labels(item: dict[str, Any]) -> list[str]:
+    source = str(item.get("source") or "").strip()
+    account = str(item.get("account") or "").strip().removeprefix("@")
+    platform = source_platform_label(item.get("platform"))
+    labels = []
+    if source:
+        labels.append(f"{source} · {platform}")
+    if account:
+        labels.append(f"{account} · {platform}")
+    return labels
+
+
+def render_home_feed_filters(public_rows: list[dict[str, Any]], window_days: int) -> str:
+    social_sources = public_social_sources()
+    sources = sorted(
+        {
+            *[social_source_filter_label(source) for source in social_sources],
+            *[label for item in public_rows for label in update_source_filter_labels(item)],
+        }
+    )
+    platforms = sorted(
+        {
+            *[label for source in social_sources for label in source_kind_labels(source)],
+            *[source_platform_label(item.get("platform")) for item in public_rows if item.get("platform")],
+        }
+    )
     tags = sorted({str(keyword) for item in public_rows for keyword in (item.get("matched_keywords") or []) if keyword})
     return f"""
       <div class="feed-river-controls">
         <div class="feed-river-summary">
           <p class="feed-filter-label">河道篩選</p>
-          <strong>全部 · 最近 {window_days} 天 · {len(public_rows)} / {len(public_rows)} 筆</strong>
-        </div>
-        <div class="feed-filter-chips" aria-label="分類篩選">
-          {"".join(chips)}
+          <strong>最近 {window_days} 天 · {len(public_rows)} / {len(public_rows)} 筆</strong>
         </div>
         <div class="feed-filter-tools">
           <label class="search-field feed-search-field">
@@ -1460,10 +1539,10 @@ def render_home_feed_filters(public_rows: list[dict[str, Any]], categorized: dic
           <span class="feed-chip-group-label">Tag</span>
           <div class="feed-option-chips" aria-label="Tag 篩選，可複選">{render_home_filter_chip_options(tags, "tag", "全部 tag")}</div>
         </div>
-        <div class="feed-filter-chip-group">
-          <span class="feed-chip-group-label">來源</span>
+        <details class="feed-filter-chip-group feed-filter-disclosure" data-feed-source-disclosure>
+          <summary class="feed-chip-group-label">來源</summary>
           <div class="feed-option-chips" aria-label="來源篩選，可複選">{render_home_filter_chip_options(sources, "source", "全部來源")}</div>
-        </div>
+        </details>
       </div>
     """
 
@@ -1522,7 +1601,7 @@ def write_homepage_latest(public_rows: list[dict[str, Any]], categorized: dict[s
         return
     visible_rows = public_rows[:HOME_FEED_BATCH_SIZE]
     latest_html = (
-        render_home_feed_filters(public_rows, categorized, window_days)
+        render_home_feed_filters(public_rows, window_days)
         + f'\n      <div class="feed-river">\n{render_home_feed_columns(visible_rows)}\n      </div>'
         + render_home_feed_load_more(len(public_rows), len(visible_rows))
     )
@@ -1579,7 +1658,6 @@ def render_feed_category_card(category: dict[str, str], count: int) -> str:
         <div>
           <p class="section-kicker">{html_escape(category["id"])}</p>
           <h2>{html_escape(category["page_title"])}</h2>
-          <p>{html_escape(category["description"])}</p>
         </div>
         <div class="feed-card-actions">
           <span class="pill">{count} 筆</span>
@@ -1609,12 +1687,9 @@ def render_feed_page(category: dict[str, str], items: list[dict[str, Any]]) -> s
         {BRAND_LOGO_HTML}
       </a>
       <nav class="site-nav" aria-label="主要導覽">
-        <a href="/#latest-feed">最新</a>
-        {NAV_FEED_MENU}
+        <a href="/">首頁</a>
         <a href="/directory/">資料索引</a>
-        <a href="/feeds/">RSS</a>
         <a href="/status/">狀態</a>
-        {SUBMIT_LINK_HTML}
       </nav>
     </header>
 
@@ -1668,8 +1743,8 @@ def render_feed_index(categorized: dict[str, list[dict[str, Any]]]) -> str:
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hermes RSS 分類｜臺灣口琴觀測站</title>
-    <meta name="description" content="給 Bamboo Hermes 訂閱的臺灣口琴公開資訊分類 RSS。">
+    <title>RSS 訂閱｜臺灣口琴觀測站</title>
+    <meta name="description" content="臺灣口琴觀測站公開更新 RSS。">
     <link rel="icon" href="/assets/favicon-20260623.svg?v={ASSET_VERSION}" type="image/svg+xml">
     <link rel="alternate" type="application/rss+xml" title="臺灣口琴觀測站公開更新" href="/feeds/updates.xml">
     <link rel="stylesheet" href="/assets/styles.css?v={ASSET_VERSION}">
@@ -1680,12 +1755,9 @@ def render_feed_index(categorized: dict[str, list[dict[str, Any]]]) -> str:
         {BRAND_LOGO_HTML}
       </a>
       <nav class="site-nav" aria-label="主要導覽">
-        <a href="/#latest-feed">最新</a>
-        {NAV_FEED_MENU}
+        <a href="/">首頁</a>
         <a href="/directory/">資料索引</a>
-        <a href="/feeds/">RSS</a>
         <a href="/status/">狀態</a>
-        {SUBMIT_LINK_HTML}
       </nav>
     </header>
 
@@ -1693,11 +1765,10 @@ def render_feed_index(categorized: dict[str, list[dict[str, Any]]]) -> str:
       <section class="feed-page-hero">
         <div class="band-inner split-layout">
           <div>
-            <p class="section-kicker">Hermes RSS</p>
-            <h1>分類公開更新</h1>
+            <p class="section-kicker">RSS</p>
+            <h1>公開更新</h1>
           </div>
           <div class="feed-page-summary">
-            <p>Bamboo Hermes 可以分別訂閱這些 RSS。每條 feed 都只來自公開來源，且和頁面顯示共用同一份資料。</p>
             <div class="feed-links">
               <a href="/feeds/updates.xml">總更新 RSS</a>
               <a href="/feeds/sources.xml">來源索引 RSS</a>
@@ -1781,7 +1852,6 @@ def generate_sources(limit: int) -> int:
                 f"Tag：{source_tags}" if source_tags else "",
                 f"國家：{entry.get('country') or '未標示'}",
                 f"地區：{entry.get('region') or '未標示'}",
-                f"查核：{entry.get('status') or '待確認'}",
                 "",
                 summary,
             ]

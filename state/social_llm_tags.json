@@ -59,6 +59,20 @@
       "llm_relevant": false,
       "llm_tagged_at": "2026-06-24T16:02:00.072418+00:00"
     },
+    "015fcc3792d0d9fcccad6cb3f434bff382d195c145c4361eaf38891ae938caef": {
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "演出"
+      ],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文內容提及口琴演奏者 Jang Li 及口琴演出（Harmonica），屬於公開更新與演出相關資訊。",
+      "llm_relevant": true,
+      "llm_tagged_at": "2026-06-26T16:09:43.967203+00:00"
+    },
     "0170b120cb983e3a3d645e6ccab1eafabd11e7e6e8959055380dfe2927cadcd5": {
       "llm_categories": [
         "events"
@@ -110,6 +124,21 @@
       "llm_reason": "貼文明確標示為「口琴重奏工作坊成果發表」，屬於口琴社團的成果演出活動。",
       "llm_relevant": true,
       "llm_tagged_at": "2026-06-23T19:26:58.052586+00:00"
+    },
+    "02d9eabff349b2702a80f6c52b6ab5c838a6cf1064fa33e5655b2b9a8891d4a4": {
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "口琴",
+        "影片",
+        "公開更新"
+      ],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文由口琴演奏者蔡明憲發布，提及製作口琴演奏影片與教學，屬於口琴演奏者公開更新。",
+      "llm_relevant": true,
+      "llm_tagged_at": "2026-06-26T16:10:31.014223+00:00"
     },
     "03239f6ca2b05165be4652cb358ae4f1fe374f40f27f1263fb745f2ceef7158c": {
       "llm_categories": [],
@@ -503,6 +532,21 @@
       "llm_relevant": true,
       "llm_tagged_at": "2026-06-24T16:12:52.545607+00:00"
     },
+    "145b95c2c7bbbb4972561036867d2b8eaa92cc86e2d06820b02238b83ade9f48": {
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "口琴",
+        "影片",
+        "公開更新"
+      ],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文為口琴演奏者公開分享口琴獨奏錄音影片，符合口琴影片與公開更新的定義。",
+      "llm_relevant": true,
+      "llm_tagged_at": "2026-06-26T16:13:21.294838+00:00"
+    },
     "15a965b35eee183907ebfeec1a3098d567aa0539496ac10a9462da728bb92ca8": {
       "llm_categories": [
         "events"
@@ -518,6 +562,15 @@
       "llm_reason": "貼文明確描述「台日複音口琴交流音樂會」的現場演出，包含口琴演奏者、樂團與曲目資訊，符合口琴演出與交流活動定義。",
       "llm_relevant": true,
       "llm_tagged_at": "2026-06-23T19:20:59.623570+00:00"
+    },
+    "16372a356ed3077478883129007080c14231715e4b570dd9b95e92d0576fefe7": {
+      "llm_categories": [],
+      "llm_confidence": 0.9,
+      "llm_labels": [],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文為希伯來語，內容為對歌手與歌曲的懷舊情緒，無口琴相關演出、活動或資訊。來源名稱雖含'Trio'，但無證據顯示與口琴直接關聯。",
+      "llm_relevant": false,
+      "llm_tagged_at": "2026-06-26T16:08:32.673940+00:00"
     },
     "16411dd8418034cabaf5ab0143528812c33d8d766365f403afd0b6302b105903": {
       "llm_categories": [],
@@ -621,6 +674,21 @@
       "llm_reason": "貼文內容為小提琴獨奏比賽影片，與口琴無關，來源名稱亦未提及口琴。",
       "llm_relevant": false,
       "llm_tagged_at": "2026-06-23T19:25:30.223175+00:00"
+    },
+    "1d1ed91e285d6bd341bf8a6a34739204964ed20703e4405e25739a9ec20e2d0a": {
+      "llm_categories": [
+        "events"
+      ],
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "演出",
+        "公開更新"
+      ],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文為口琴團體 RedBricks Harmonica 在香港故宮文化博物館的公開演出宣傳，屬於口琴演出活動。",
+      "llm_relevant": true,
+      "llm_tagged_at": "2026-06-26T16:08:14.625085+00:00"
     },
     "1d55920b34676f4b11b3723ccf4e698817af0633c9c24552bf779360be1b4c69": {
       "llm_categories": [
@@ -837,6 +905,21 @@
       "llm_reason": "貼文內容為旅行吉他與無線拾音器，無關口琴演出、影片或相關活動。",
       "llm_relevant": false,
       "llm_tagged_at": "2026-06-23T19:25:10.382106+00:00"
+    },
+    "25f85d68afbcf30c9f3f77364975ea3e9864c52c095780203dd2251b1513a74d": {
+      "llm_categories": [
+        "student-clubs"
+      ],
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "學生社團"
+      ],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "來源為口琴社團，內容宣布復社成功，屬於口琴社團公開更新，符合學生社團類別。",
+      "llm_relevant": true,
+      "llm_tagged_at": "2026-06-26T16:08:08.261800+00:00"
     },
     "27aedd9d5dcc4f0d6a7e38fc4d6ef36433e6dedb7f20c3b9daf48d0556914bc1": {
       "llm_categories": [
@@ -1108,6 +1191,15 @@
       "llm_reason": "貼文提及口琴比賽（FIHハーモニカコンテスト本選）及口琴演出（アカペラ出演），並標記口琴相關標籤。",
       "llm_relevant": true,
       "llm_tagged_at": "2026-06-25T16:03:32.871290+00:00"
+    },
+    "3b2e61cf9d6b154ab6f6b2d5eefca6d03c6c15476bb361b356c7b49288eee318": {
+      "llm_categories": [],
+      "llm_confidence": 0.95,
+      "llm_labels": [],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文內容為百老匯音樂劇《COMPANY》演出宣傳，無任何口琴相關元素（如樂器、演奏者、活動），與口琴公開更新無關。",
+      "llm_relevant": false,
+      "llm_tagged_at": "2026-06-26T16:12:12.031110+00:00"
     },
     "3dc21f1c4558739b838b17d1a111bf6823c04f94038c9ccc1138545976abe396": {
       "llm_categories": [
@@ -1582,6 +1674,30 @@
       "llm_relevant": true,
       "llm_tagged_at": "2026-06-23T19:25:27.350004+00:00"
     },
+    "521ded603060fc5629d038eee9bdf4e65283e2d2e351df254d31c9f47bc31251": {
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_confidence": 0.7,
+      "llm_labels": [
+        "口琴",
+        "影片",
+        "公開更新"
+      ],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "來源為口琴演奏者南里沙，貼文分享口琴演奏影片（荒井由実）並預告直播，屬口琴演奏者公開更新。",
+      "llm_relevant": true,
+      "llm_tagged_at": "2026-06-26T16:08:28.889304+00:00"
+    },
+    "524de55e1aa99d983eca4231082168b53714bd5dd820a4fc494c22dab7afd6bb": {
+      "llm_categories": [],
+      "llm_confidence": 0.7,
+      "llm_labels": [],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "來源為西班牙口琴家Marcos Coll，內容提及首爾國際口琴節，但該活動在韓國，非臺灣相關公開更新，故不相關。",
+      "llm_relevant": false,
+      "llm_tagged_at": "2026-06-26T16:11:49.353249+00:00"
+    },
     "528127e62e8a6500f93fbaa36ccb8a487f043d7814f9869a2501208bb3da3956": {
       "llm_categories": [
         "events"
@@ -1657,6 +1773,23 @@
       "llm_reason": "貼文內容為聾人劇場演出，雖提及口琴於標籤中，但主要宣傳《聽見你的聲音》劇場作品，非口琴相關活動。",
       "llm_relevant": false,
       "llm_tagged_at": "2026-06-25T16:04:35.275087+00:00"
+    },
+    "53cba647e26c1d6a164dd1aab96bb2d6265b1e2ad41a8cdc18697048972ce5ed": {
+      "llm_categories": [
+        "events"
+      ],
+      "llm_confidence": 1.0,
+      "llm_labels": [
+        "口琴",
+        "成發",
+        "演出",
+        "學生社團",
+        "公開更新"
+      ],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "臺大與師大口琴社聯合成果發表會，明確為口琴社團的演出活動，符合收錄標準。",
+      "llm_relevant": true,
+      "llm_tagged_at": "2026-06-26T16:08:19.529790+00:00"
     },
     "54f5906e4b3a15b30ddcfe589b8abf8fdfbc3d4d885a37293e4b7b030e0c7d6c": {
       "llm_categories": [
@@ -1762,6 +1895,15 @@
       "llm_reason": "貼文內容為鋼琴翻唱流行歌曲，來源為鋼琴演奏者，未提及口琴、口琴演出或相關活動，與臺灣口琴公開更新無關。",
       "llm_relevant": false,
       "llm_tagged_at": "2026-06-23T19:23:49.366090+00:00"
+    },
+    "59ab8f1acfa71ad156d0f9719407570fe1968e68b1197ffb6bc8d10b5a2c6c54": {
+      "llm_categories": [],
+      "llm_confidence": 0.9,
+      "llm_labels": [],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文內容為手風琴演出，非口琴相關。來源雖為藝文場館，但主題明確為手風琴，不符合口琴定義。",
+      "llm_relevant": false,
+      "llm_tagged_at": "2026-06-26T16:12:03.711197+00:00"
     },
     "5a1379f75651255ec8c5aa28c3348c9959ffe4d00521d4e848301559a2429dac": {
       "llm_categories": [],
@@ -2003,6 +2145,21 @@
       "llm_relevant": false,
       "llm_tagged_at": "2026-06-24T16:08:41.336182+00:00"
     },
+    "648348fb331184113611727cc0e46a0d328123d2ca8ae8c7aff65ff3836512d1": {
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "影片",
+        "公開更新"
+      ],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文分享口琴獨奏錄影，為演奏者公開更新，符合口琴影片與演奏者動態條件。",
+      "llm_relevant": true,
+      "llm_tagged_at": "2026-06-26T16:13:15.892944+00:00"
+    },
     "651aedca938b8e17c77cf897c69a8e6d3494985f8dfd3c07d4f538c23964436f": {
       "llm_categories": [],
       "llm_confidence": 0.95,
@@ -2118,6 +2275,15 @@
       "llm_relevant": false,
       "llm_tagged_at": "2026-06-23T19:24:41.606495+00:00"
     },
+    "6cc357a8c994a3128c1989977dbd976fb97e0c8414ed65106a602cad86222327": {
+      "llm_categories": [],
+      "llm_confidence": 0.9,
+      "llm_labels": [],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文內容為一般音樂翻唱與伴奏分享，未提及口琴、口琴演出或相關活動。",
+      "llm_relevant": false,
+      "llm_tagged_at": "2026-06-26T16:08:01.393790+00:00"
+    },
     "6dc67390e97d39f2cc7a632763e8ab9fabfe4395f3e78188965f29ee146df062": {
       "llm_categories": [
         "posts-videos"
@@ -2149,6 +2315,21 @@
       "llm_reason": "貼文明確介紹2026臺灣口琴音樂節的演出團體RedBricks，屬於口琴音樂會與演出交流活動。",
       "llm_relevant": true,
       "llm_tagged_at": "2026-06-24T16:11:35.239784+00:00"
+    },
+    "6e49489d1eca9e3d38f06f36586b7163cc835230839898153c7247b6cd06a34e": {
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "演出",
+        "公開更新"
+      ],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文作者為口琴演奏者南里沙，內容分享將於Live House演出口琴音樂（#クロマチックハーモニカ），屬口琴演出公開更新。",
+      "llm_relevant": true,
+      "llm_tagged_at": "2026-06-26T16:08:26.575411+00:00"
     },
     "6e5a0219039c160fedbfff32e11e98bcdb008f593cf1b70ac8f6670132172be4": {
       "llm_categories": [
@@ -2655,6 +2836,21 @@
       "llm_reason": "貼文明確為臺大與師大口琴社聯合成果發表會，屬於口琴成發活動。",
       "llm_relevant": true,
       "llm_tagged_at": "2026-06-23T19:18:41.576493+00:00"
+    },
+    "864554a0c9859b70866641b2818a691f59c6b8b04b73a71cf170767a7661ff3c": {
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "口琴",
+        "影片",
+        "公開更新"
+      ],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文分享口琴獨奏影片，包含演奏者、樂曲名稱及演奏資訊，符合口琴影片公開更新。",
+      "llm_relevant": true,
+      "llm_tagged_at": "2026-06-26T16:08:12.823359+00:00"
     },
     "869e70441970911ef9d267f0682efdd60e7ab6f73c107e943ad51fc6b8543bd9": {
       "llm_categories": [],
@@ -3439,6 +3635,20 @@
       "llm_relevant": true,
       "llm_tagged_at": "2026-06-24T16:05:29.688352+00:00"
     },
+    "a4f45e43cf1fa1f3ab2d1f73d1ef81aad975aac94da9476b53d2835f1e83655c": {
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "口琴",
+        "公開更新"
+      ],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文內容為半音階口琴演奏者與教育家加入 Hohner 品牌，屬於口琴演奏者公開更新，符合臺灣口琴公開更新範圍。",
+      "llm_relevant": true,
+      "llm_tagged_at": "2026-06-26T16:11:28.767357+00:00"
+    },
     "a5468f3640df3903fea456264e29769e747c6b4d9d81bd65db0b75529c401dd1": {
       "llm_categories": [],
       "llm_confidence": 0.9,
@@ -3546,6 +3756,22 @@
       "llm_relevant": true,
       "llm_tagged_at": "2026-06-23T19:26:24.189761+00:00"
     },
+    "a7d9b2c9d28611a074d97e2cf4b498352a008e9e6afc082122c4afe1a9115cec": {
+      "llm_categories": [
+        "events"
+      ],
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "演出",
+        "音樂會",
+        "公開更新"
+      ],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文為日本口琴演奏者南里沙舉辦的半音階口琴個人音樂會宣傳，內容包含時間地點與票價資訊。",
+      "llm_relevant": true,
+      "llm_tagged_at": "2026-06-26T16:07:58.746583+00:00"
+    },
     "a8672f7a88d9e317f72fdba234a940f359ab903d0461bb5a703d00cb74cd7b88": {
       "llm_categories": [
         "posts-videos"
@@ -3560,6 +3786,15 @@
       "llm_reason": "貼文為口琴演奏影片分享，演奏者張晁滕為天狼星口琴樂團成員，內容明確涉及口琴演奏。",
       "llm_relevant": true,
       "llm_tagged_at": "2026-06-24T16:03:28.758498+00:00"
+    },
+    "a88d0778cc588204bcbe337596b1bf9cc4fd7b46ba68e626a198db7ccb9c2f60": {
+      "llm_categories": [],
+      "llm_confidence": 0.95,
+      "llm_labels": [],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文內容關於廣東歌製作與流量討論，未提及口琴、演出、課程、社團等任何與口琴觀測站定義相關的主題。",
+      "llm_relevant": false,
+      "llm_tagged_at": "2026-06-26T16:11:17.667298+00:00"
     },
     "a98b5de467696127455fe18b35235763ca5428c98d0f6533a6866f0851404601": {
       "llm_categories": [
@@ -3705,6 +3940,15 @@
       "llm_reason": "貼文標題提及「倪亦謙老師」與「示範演奏」，且來源為音樂商店，推斷為口琴演奏者公開演奏影片，符合口琴影片與公開更新。",
       "llm_relevant": true,
       "llm_tagged_at": "2026-06-23T19:25:05.268601+00:00"
+    },
+    "b1183e29853c3befd9f231b794070d0ffdd834545b3ce290399cd3b2f80c65db": {
+      "llm_categories": [],
+      "llm_confidence": 0.95,
+      "llm_labels": [],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文內容為戲劇工作坊課程，來源為歌劇院，無任何口琴、口琴演出、口琴社團或口琴演奏者相關資訊。",
+      "llm_relevant": false,
+      "llm_tagged_at": "2026-06-26T16:12:14.100769+00:00"
     },
     "b1266f17ad572292c773fb178632f694e77051fd6724d811c5e96ef57fc8f1be": {
       "llm_categories": [
@@ -3889,6 +4133,29 @@
       "llm_relevant": true,
       "llm_tagged_at": "2026-06-23T19:20:26.514188+00:00"
     },
+    "bc20d2af7bbaae1d7f33f694efcb317f9177fa32f9972f48906138fd34617cbe": {
+      "llm_categories": [
+        "events"
+      ],
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "演出"
+      ],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文明確宣傳口琴演出，由口琴演奏者與口琴團體合作，於博物館公開表演。",
+      "llm_relevant": true,
+      "llm_tagged_at": "2026-06-26T16:13:18.807778+00:00"
+    },
+    "bcd7b87fd3ebc1e4108a97176d497150b6825ca2b38abb0f36dacaeb75a3d94f": {
+      "llm_categories": [],
+      "llm_confidence": 0.9,
+      "llm_labels": [],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文內容為朋友聚會與慶生，無提及口琴相關的演出、課程、社團或影片等任何資訊。",
+      "llm_relevant": false,
+      "llm_tagged_at": "2026-06-26T16:11:11.811603+00:00"
+    },
     "be0ef12aa7e97a8937b7cd7adb83d42d1884aed0a06fff1fc53998b8cb347309": {
       "llm_categories": [],
       "llm_confidence": 0.9,
@@ -3997,6 +4264,20 @@
       "llm_reason": "貼文宣傳口琴演奏者與琵琶演奏者的合作演出，含時間地點，屬於口琴公開演出活動。",
       "llm_relevant": true,
       "llm_tagged_at": "2026-06-24T16:01:37.523527+00:00"
+    },
+    "c354b8f1938f2a1116a756b1c53d24dc3d7f57b9d0fdf0246d27ed526d8b8bd8": {
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "口琴",
+        "影片"
+      ],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文為口琴演奏者公開分享口琴獨奏影片，並提到未來將繼續分享口琴音樂，屬於口琴影片的公開更新。",
+      "llm_relevant": true,
+      "llm_tagged_at": "2026-06-26T16:08:16.888279+00:00"
     },
     "c3736748523b08a51510c234ecc347c4a48770f78391917c447b38e7d8cf84e5": {
       "llm_categories": [
@@ -4185,6 +4466,21 @@
       "llm_reason": "貼文明確描述口琴隊在畢業典禮的演出，源自國小口琴系統，符合口琴演出與學生社團更新。",
       "llm_relevant": true,
       "llm_tagged_at": "2026-06-23T19:27:18.590253+00:00"
+    },
+    "c7dbb2ddf49ff4d33dd0bd759e6feca86ab9407d815484275ce91ae59f9cad59": {
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "演出",
+        "公開更新"
+      ],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "贴文提到定期现场演出（RJ Monthly Live），作者使用半音阶口琴（#クロマチックハーモニカ）进行演奏，属于口琴演奏者的公开活动更新。",
+      "llm_relevant": true,
+      "llm_tagged_at": "2026-06-26T16:08:03.954233+00:00"
     },
     "c7f4e2ac9dd16d9634d1bdeecff542ee6227ddcb38af26ebcb1c45bceba95779": {
       "llm_categories": [],
@@ -4487,6 +4783,22 @@
       "llm_relevant": true,
       "llm_tagged_at": "2026-06-23T19:23:38.462736+00:00"
     },
+    "d81b1ba43d9bc7b590aecc5e0f469a59c0879022111542465c211869722ef333": {
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_confidence": 1.0,
+      "llm_labels": [
+        "口琴",
+        "招生",
+        "公開更新",
+        "學生社團"
+      ],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文來源為口琴社團，內容提及社團復社與招募新社員，屬於學生社團的招生與公開更新，符合口琴社團相關標準。",
+      "llm_relevant": true,
+      "llm_tagged_at": "2026-06-26T16:08:06.198541+00:00"
+    },
     "d8d01b6157143e786ad10ca85514d14b63b07057fc3382ddacfcf45f5a382c17": {
       "llm_categories": [],
       "llm_confidence": 0.95,
@@ -4504,6 +4816,22 @@
       "llm_reason": "貼文內容為臺中國家歌劇院的多元友善導覽服務介紹，無提及口琴、口琴演出、口琴社團或任何口琴相關主題。",
       "llm_relevant": false,
       "llm_tagged_at": "2026-06-23T19:19:35.578412+00:00"
+    },
+    "dab6e0fb58620ae3d50b43f5add3e54f1c4829063a31f7e8af638a20eecf601d": {
+      "llm_categories": [
+        "opportunities"
+      ],
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "演出",
+        "補助",
+        "公開更新"
+      ],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文為臺灣口琴音樂節招募志工，屬口琴活動相關的公開更新與機會資訊，符合收錄標準。",
+      "llm_relevant": true,
+      "llm_tagged_at": "2026-06-26T16:08:21.983647+00:00"
     },
     "dad5069598ed4e3eda0b495bc5e178a7debe25aa3f9c342b05f1e2fafe31599e": {
       "llm_categories": [],
@@ -4797,6 +5125,15 @@
       "llm_relevant": false,
       "llm_tagged_at": "2026-06-23T19:25:20.259687+00:00"
     },
+    "ed484357de79b0be25204eeb75ffe4802293f857dfbe44492571a53fa9f44783": {
+      "llm_categories": [],
+      "llm_confidence": 0.8,
+      "llm_labels": [],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文文字為空，無法判斷內容是否與口琴相關。來源為個人複音口琴頁面，但無具體內容佐證。",
+      "llm_relevant": false,
+      "llm_tagged_at": "2026-06-26T16:08:10.285199+00:00"
+    },
     "ed9500103e66a543870888b68d833c5e320805ee605c6fceccced1810f76993b": {
       "llm_categories": [
         "posts-videos"
@@ -4922,6 +5259,15 @@
       "llm_reason": "貼文者為口琴演奏者山下伶，內容為其個人巡迴演唱會行程公告，屬口琴演出相關公開更新。",
       "llm_relevant": true,
       "llm_tagged_at": "2026-06-24T16:06:35.595775+00:00"
+    },
+    "f020d8fb6baab41a24b417a79b9828c722793ce936287d20385ace98b6653228": {
+      "llm_categories": [],
+      "llm_confidence": 0.9,
+      "llm_labels": [],
+      "llm_model": "mimo-v2.5",
+      "llm_reason": "貼文內容為朋友生日聚餐與旅行分享，無任何口琴、音樂會、演出或相關活動提及。",
+      "llm_relevant": false,
+      "llm_tagged_at": "2026-06-26T16:10:28.994072+00:00"
     },
     "f0907ecfcda221660ea15c1b69664bf0a334555f178ac56bb797812dabc4a286": {
       "llm_categories": [
@@ -5273,6 +5619,6 @@
       "llm_tagged_at": "2026-06-24T16:07:31.937580+00:00"
     }
   },
-  "updated_at": "2026-06-25T16:05:52.678458+00:00",
+  "updated_at": "2026-06-26T16:13:28.797676+00:00",
   "version": 1
 }

@@ -1,19 +1,287 @@
 window.HARMONICA_OBSERVE_DATA = {
-  "generatedAt": "2026-06-26",
+  "generatedAt": "2026-06-27",
   "entries": [
+    {
+      "id": "watchlist-53",
+      "name": "山下伶 Rei Yamashita",
+      "nameEn": "Rei Yamashita",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/演出",
+      "structuredSummary": "半音階/專輯/演出 / 半音階 / 國際演出人員",
+      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯與演出。",
+      "keywords": "山下伶 Rei Yamashita harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://rei-yamashita.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/rei.yamashita.5"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/rei_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@reiyamashita"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/rei_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-26T07:00:05+00:00",
+      "latestUpdateLocal": "2026-06-26 15:00",
+      "latestUpdateSource": "山下伶 Rei Yamashita",
+      "latestUpdateUrl": "https://www.instagram.com/p/DaCjnV7jVG1/",
+      "avatarUrl": "/assets/source-avatars/88e248e6f1c02aaa881b.webp",
+      "sourceInitials": "RY",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_rei_yamashita_5",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/rei.yamashita.5",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "rei_harmonica",
+          "profileUrl": "https://www.instagram.com/rei_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "x_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "x",
+          "type": "rss",
+          "username": "rei_harmonica",
+          "profileUrl": "https://x.com/rei_harmonica",
+          "feedUrl": "https://rss.observe.tw/twitter/user/rei_harmonica"
+        },
+        {
+          "id": "yt_reiyamashita",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@reiyamashita",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-30+watchlist-93",
+      "name": "蔡明憲 DMing Studio",
+      "nameEn": "DMing Studio",
+      "category": "教學器材",
+      "type": "個人 / 教學/維修/影片來源",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出 / 口琴教學/維修/重奏/硬體",
+      "structuredSummary": "口琴教學/維修/重奏/硬體 / 半音階/複音/Bass/Chord / 教學/維修來源",
+      "summary": "臺灣的半音階、複音、Bass與Chord教學與維修來源，關注口琴教學、維修、重奏與硬體。",
+      "keywords": "蔡明憲 口琴 DMing Studio 大明 口琴 教學 維修 蔡明憲 天狼星 Laelaps",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://studio.dming.co/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/dming.tsai/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/damingtsai/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@DMingStudio"
+        },
+        {
+          "label": "網站",
+          "url": "https://dming.co/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/dmingstudio/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [
+        "蔡明憲"
+      ],
+      "latestUpdateAt": "2026-06-26T02:51:51+00:00",
+      "latestUpdateLocal": "2026-06-26 10:51",
+      "latestUpdateSource": "蔡明憲",
+      "latestUpdateUrl": "https://www.instagram.com/p/DaCG9E5Sywy/",
+      "avatarUrl": "/assets/source-avatars/bf2f349c5f4c1ca4392a.webp",
+      "sourceInitials": "DS",
+      "sourceTags": [
+        "口琴",
+        "教學器材",
+        "演奏者",
+        "教學",
+        "半音階",
+        "複音",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_dming_tsai",
+          "name": "蔡明憲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/dming.tsai",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_dmingstudio",
+          "name": "蔡明憲 DMing Studio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "dmingstudio",
+          "profileUrl": "https://www.instagram.com/dmingstudio/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_dmingstudio",
+          "name": "蔡明憲",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@DMingStudio",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-9",
+      "name": "李讓 Jang Li",
+      "nameEn": "Jang Li",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "半音階/十孔/作曲/配樂/跨界",
+      "structuredSummary": "半音階/十孔/作曲/配樂/跨界 / 半音階/十孔 / 演出人員",
+      "summary": "臺灣的半音階與十孔演出人員，活動脈絡包含作曲、配樂與跨界。",
+      "keywords": "李讓 Jang Li",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://jangliharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Jang.Li.Harmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jangli_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/jangliharmonica"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/JangLiHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-25T17:01:22+00:00",
+      "latestUpdateLocal": "2026-06-26 01:01",
+      "latestUpdateSource": "李讓 Jang Li",
+      "latestUpdateUrl": "https://www.instagram.com/p/DaBDBaPTUve/",
+      "avatarUrl": "/assets/source-avatars/3eb31bb3c8355ed0f6cb.webp",
+      "sourceInitials": "JL",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "半音階",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_jang_li_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Jang.Li.Harmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_jangli_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jangli_harmonica",
+          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "x_jangliharmonica",
+          "name": "李讓 Jang Li",
+          "platform": "x",
+          "type": "rss",
+          "username": "JangLiHarmonica",
+          "profileUrl": "https://x.com/JangLiHarmonica",
+          "feedUrl": "https://rss.observe.tw/twitter/user/JangLiHarmonica"
+        },
+        {
+          "id": "yt_jangliharmonica",
+          "name": "李讓 Jang Li",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/jangliharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
     {
       "id": "club-19",
       "name": "陽明交大竹韻口琴社",
       "nameEn": "Bamboo Melody Harmonica Club",
       "category": "學校社團",
       "type": "學校社團",
-      "country": "台灣",
-      "region": "台灣/新竹",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
       "cityOrFocus": "新竹",
       "structuredSummary": "國立陽明交通大學 / 口琴 / 學校社團",
       "summary": "國立陽明交通大學的口琴學校社團。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "陽明交大竹韻口琴社 Bamboo Melody Harmonica Club NYCU 交通大學竹韻口琴社 口琴社",
       "links": [
         {
@@ -31,17 +299,120 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "club",
       "aliases": [],
-      "latestUpdateAt": "2026-06-25T15:43:39+00:00",
-      "latestUpdateLocal": "2026-06-25 23:43",
+      "latestUpdateAt": "2026-06-25T17:00:11+00:00",
+      "latestUpdateLocal": "2026-06-26 01:00",
       "latestUpdateSource": "陽明交大竹韻口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/p/DaA6q22EwJM/",
+      "latestUpdateUrl": "https://www.facebook.com/nycubmhc/posts/pfbid0TCo5gNa2fk9WoVP3wsNii4ui3UbFkBqFigfULz3pHRZaSnd7zAwzNQKk2n4FFWkcl",
       "avatarUrl": "/assets/source-avatars/f9da11b227a1c2238a68.webp",
       "sourceInitials": "陽明",
       "sourceTags": [
         "口琴",
-        "學校社團",
         "學生社團",
         "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_nycubmhc",
+          "name": "陽明交大竹韻口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/nycubmhc",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nycu_harmonica",
+          "name": "陽明交大竹韻口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nycu_harmonica",
+          "profileUrl": "https://www.instagram.com/nycu_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucliodayl9_jvnbpc4nfthgw",
+          "name": "陽明交大竹韻口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-99",
+      "name": "Timothy Yip 葉進禧",
+      "nameEn": "Timothy Yip",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/國際比賽/演出/RedBricks",
+      "structuredSummary": "半音階/國際比賽/演出/RedBricks / 半音階 / 國際演出人員",
+      "summary": "香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。",
+      "keywords": "Timothy Yip 葉進禧 harmonica chromatic harmonicist RedBricks",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.timothyyipharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/profile.php?id=100085232439912"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/timothyyip_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-25T11:00:15+00:00",
+      "latestUpdateLocal": "2026-06-25 19:00",
+      "latestUpdateSource": "Timothy Yip 葉進禧",
+      "latestUpdateUrl": "https://www.instagram.com/p/DaAaSgjTzCt/",
+      "avatarUrl": "/assets/source-avatars/b3f7aa0fd27eabb8b69a.webp",
+      "sourceInitials": "TY",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "比賽",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_c74bf61a25",
+          "name": "Timothy Yip 葉進禧",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/profile.php?id=100085232439912",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_timothyyip_harmonica",
+          "name": "Timothy Yip 葉進禧",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "timothyyip_harmonica",
+          "profileUrl": "https://www.instagram.com/timothyyip_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucvoafkvaebakb5zgfvf7nww",
+          "name": "Timothy Yip 葉進禧",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -51,12 +422,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "category": "演奏者",
       "type": "個人",
       "country": "日本",
-      "region": "日本/常來台",
+      "region": "日本",
       "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
       "structuredSummary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
       "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
       "links": [
         {
@@ -86,10 +455,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-06-25T10:13:29+00:00",
+      "latestUpdateAt": "2026-06-25T10:13:35+00:00",
       "latestUpdateLocal": "2026-06-25 18:13",
       "latestUpdateSource": "南里沙",
-      "latestUpdateUrl": "https://www.instagram.com/p/DaAUi0NS2R-/",
+      "latestUpdateUrl": "https://www.facebook.com/minamirisa/posts/pfbid02Xx1AssbvjKU8DWtGxFnBKXrVEBpyjdUt2THJcrtjYrKfMfi5c8QJzYUV93EeacNMl",
       "avatarUrl": "/assets/source-avatars/fdefacea4d8029e06564.webp",
       "sourceInitials": "南里",
       "sourceTags": [
@@ -97,6 +466,44 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者",
         "半音階",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_minamirisa",
+          "name": "南里沙",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/minamirisa",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": ""
+        },
+        {
+          "id": "x_minami_risa",
+          "name": "南里沙",
+          "platform": "x",
+          "type": "rss",
+          "username": "minami_risa",
+          "profileUrl": "https://x.com/minami_risa",
+          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
+        },
+        {
+          "id": "yt_minamirisa",
+          "name": "南里沙",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@minamirisa",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -110,8 +517,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "cityOrFocus": "半音階/國際級演出",
       "structuredSummary": "半音階/國際級演出 / 半音階 / 國際演出人員",
       "summary": "韓國的半音階國際演出人員，活動脈絡包含國際級演出。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "Jong-seong Park 朴鍾聲 harmonica",
       "links": [
         {
@@ -145,57 +550,35 @@ window.HARMONICA_OBSERVE_DATA = {
         "國際交流"
       ],
       "sourceSummary": "韓國半音階口琴演奏家，活躍於國際舞台。",
-      "sourceTagReason": "資料明確標註為「演奏者」與「個人」，且其專長與定位為「半音階/國際級演出」。"
-    },
-    {
-      "id": "watchlist-53",
-      "name": "山下伶 Rei Yamashita",
-      "nameEn": "Rei Yamashita",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/演出",
-      "structuredSummary": "半音階/專輯/演出 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯與演出。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "山下伶 Rei Yamashita harmonica",
-      "links": [
+      "sourceTagReason": "資料明確標註為「演奏者」與「個人」，且其專長與定位為「半音階/國際級演出」。",
+      "monitorSources": [
         {
-          "label": "網站",
-          "url": "https://rei-yamashita.com/"
+          "id": "fb_harmonicapark",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonicapark",
+          "feedUrl": ""
         },
         {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/rei.yamashita.5"
+          "id": "ig_jongseongpark_harmonicist",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jongseongpark_harmonicist",
+          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
+          "feedUrl": ""
         },
         {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/rei_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@reiyamashita"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/rei_harmonica"
+          "id": "yt_jongseongpark",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/jongseongpark",
+          "feedUrl": ""
         }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-25T06:43:10+00:00",
-      "latestUpdateLocal": "2026-06-25 14:43",
-      "latestUpdateSource": "山下伶 Rei Yamashita",
-      "latestUpdateUrl": "https://www.instagram.com/p/DZ_74jvpj3n/",
-      "avatarUrl": "/assets/source-avatars/88e248e6f1c02aaa881b.webp",
-      "sourceInitials": "RY",
-      "sourceTags": [
-        "口琴",
-        "演奏者",
-        "半音階",
-        "國際交流"
       ]
     },
     {
@@ -204,13 +587,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人 / 教學/影片來源",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "狂響/複音/教學演出 / 口琴教學影片/示範",
       "structuredSummary": "狂響/複音/教學演出 / 複音 / 演出人員/教學者",
-      "summary": "台灣的複音演出人員與教學者，活動脈絡包含狂響與教學演出。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
+      "summary": "臺灣的複音演出人員與教學者，活動脈絡包含狂響與教學演出。",
       "keywords": "歐純伶 口琴 吹出好心琴 Ou Frog 口琴 教學 YouTube",
       "links": [
         {
@@ -246,6 +627,26 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者",
         "教學",
         "複音"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_oulingou",
+          "name": "歐純伶",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/oulingou",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_oufrog",
+          "name": "歐純伶",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@oufrog",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -254,13 +655,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Henry Chen",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "演出/評審",
       "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
-      "summary": "台灣的口琴演出人員與評審，活動脈絡包含演出與評審。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴演出人員與評審，活動脈絡包含演出與評審。",
       "keywords": "陳鴻儀 口琴",
       "links": [
         {
@@ -286,7 +685,18 @@ window.HARMONICA_OBSERVE_DATA = {
         "演出"
       ],
       "sourceSummary": "口琴演奏家，專注於演出與評審工作。",
-      "sourceTagReason": "來源類別為「演奏者」，類型為「個人」，城市焦點為「演出/評審」，因此標記演奏者、口琴及演出。"
+      "sourceTagReason": "來源類別為「演奏者」，類型為「個人」，城市焦點為「演出/評審」，因此標記演奏者、口琴及演出。",
+      "monitorSources": [
+        {
+          "id": "yt_henrysharmonica",
+          "name": "陳鴻儀",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@HenrysHarmonica",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-50",
@@ -299,8 +709,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "cityOrFocus": "半音階/現代跨界",
       "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
       "summary": "香港的半音階國際演出人員，活動脈絡包含現代跨界。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "CY Leo 何卓彥 harmonica",
       "links": [
         {
@@ -336,7 +744,36 @@ window.HARMONICA_OBSERVE_DATA = {
         "國際交流"
       ],
       "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。"
+      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
+      "monitorSources": [
+        {
+          "id": "fb_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Cyleoharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@cyleoharmonica",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-59",
@@ -349,8 +786,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "cityOrFocus": "十孔/藍調",
       "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
       "summary": "西班牙的十孔國際演出人員，活動脈絡包含藍調。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "Marcos Coll harmonica",
       "links": [
         {
@@ -387,7 +822,36 @@ window.HARMONICA_OBSERVE_DATA = {
         "演出"
       ],
       "sourceSummary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
-      "sourceTagReason": "category為演奏者，type為個人，focus在十孔/藍調，並有國際演出經歷。"
+      "sourceTagReason": "category為演奏者，type為個人，focus在十孔/藍調，並有國際演出經歷。",
+      "monitorSources": [
+        {
+          "id": "fb_marcoscollharp",
+          "name": "Marcos Coll",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/marcoscollharp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_marcoscollharpandsoul",
+          "name": "Marcos Coll",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-31",
@@ -395,13 +859,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "天狼星/Laelaps/教學/演出",
       "structuredSummary": "天狼星/Laelaps/教學/演出 / 重奏/教學 / 演出人員/教學者",
-      "summary": "台灣的重奏與教學演出人員與教學者，活動脈絡包含天狼星、Laelaps與演出。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的重奏與教學演出人員與教學者，活動脈絡包含天狼星、Laelaps與演出。",
       "keywords": "張晁滕 口琴",
       "links": [
         {
@@ -435,7 +897,36 @@ window.HARMONICA_OBSERVE_DATA = {
         "重奏"
       ],
       "sourceSummary": "口琴演奏者，兼職教學與重奏活動。",
-      "sourceTagReason": "名稱為個人，類別標註為演奏者，摘要提及教學與演出，關鍵字包含口琴，符合演奏者與教學來源定位。"
+      "sourceTagReason": "名稱為個人，類別標註為演奏者，摘要提及教學與演出，關鍵字包含口琴，符合演奏者與教學來源定位。",
+      "monitorSources": [
+        {
+          "id": "fb_chaotengchang",
+          "name": "張晁滕",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chaotengchang",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_chaotengchang",
+          "name": "張晁滕",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chaotengchang",
+          "profileUrl": "https://www.instagram.com/chaotengchang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_chaotengchang",
+          "name": "張晁滕",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@ChaotengChang",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-37",
@@ -443,13 +934,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "狂響口琴樂團",
       "structuredSummary": "狂響口琴樂團 / 口琴 / 演出人員",
-      "summary": "台灣的口琴演出人員，活動脈絡包含狂響口琴樂團。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含狂響口琴樂團。",
       "keywords": "陳晟禕 口琴 狂響",
       "links": [
         {
@@ -469,57 +958,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴",
         "演奏者",
         "團體樂團"
-      ]
-    },
-    {
-      "id": "watchlist-9",
-      "name": "李讓 Jang Li",
-      "nameEn": "Jang Li",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
-      "cityOrFocus": "半音階/十孔/作曲/配樂/跨界",
-      "structuredSummary": "半音階/十孔/作曲/配樂/跨界 / 半音階/十孔 / 演出人員",
-      "summary": "台灣的半音階與十孔演出人員，活動脈絡包含作曲、配樂與跨界。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "李讓 Jang Li",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://jangliharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Jang.Li.Harmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jangli_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/jangliharmonica"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/JangLiHarmonica"
-        }
       ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-24T08:18:24+00:00",
-      "latestUpdateLocal": "2026-06-24 16:18",
-      "latestUpdateSource": "李讓 Jang Li",
-      "latestUpdateUrl": "https://www.instagram.com/p/DZ9icdfT2Rl/",
-      "avatarUrl": "/assets/source-avatars/3eb31bb3c8355ed0f6cb.webp",
-      "sourceInitials": "JL",
-      "sourceTags": [
-        "口琴",
-        "演奏者",
-        "半音階",
-        "十孔"
+      "monitorSources": [
+        {
+          "id": "fb_chen_cheng_yi_487430",
+          "name": "陳晟禕",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chen.cheng.yi.487430",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -528,13 +977,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "狂響口琴樂團/教學/地方推廣",
       "structuredSummary": "狂響口琴樂團/教學/地方推廣 / 低音口琴/口琴 / 演出人員/教學者",
-      "summary": "台灣的低音口琴與口琴演出人員與教學者，活動脈絡包含狂響口琴樂團、教學與地方推廣。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的低音口琴與口琴演出人員與教學者，活動脈絡包含狂響口琴樂團、教學與地方推廣。",
       "keywords": "范曉怡 fanhsiaoyi 口琴 狂響",
       "links": [
         {
@@ -563,6 +1010,35 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者",
         "團體樂團",
         "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/fanhsiaoyi",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "fanhsiaoyi",
+          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "threads",
+          "type": "rss",
+          "username": "fanhsiaoyi",
+          "profileUrl": "https://www.threads.net/@fanhsiaoyi",
+          "feedUrl": "https://rss.observe.tw/threads/fanhsiaoyi"
+        }
       ]
     },
     {
@@ -571,13 +1047,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Otis Tsao",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "單口喜劇/藍調口琴/演出",
       "structuredSummary": "單口喜劇/藍調口琴/演出 / 十孔/藍調口琴 / 演出人員",
-      "summary": "台灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。",
       "keywords": "曹小歐 Otis Tsao 口琴 單口喜劇 藍調口琴",
       "links": [
         {
@@ -613,6 +1087,44 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴",
         "演奏者",
         "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_otis5hundredtsao",
+          "name": "曹小歐",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/otis5hundredtsao",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_otistsao",
+          "name": "曹小歐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "otistsao",
+          "profileUrl": "https://www.instagram.com/otistsao/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_otistsao",
+          "name": "曹小歐",
+          "platform": "threads",
+          "type": "rss",
+          "username": "otistsao",
+          "profileUrl": "https://www.threads.net/@otistsao",
+          "feedUrl": "https://rss.observe.tw/threads/otistsao"
+        },
+        {
+          "id": "yt_ucbdafdgrntui_iqtg9e4bmw",
+          "name": "曹小歐",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -621,13 +1133,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Bluebo Harmonica",
       "category": "教學器材",
       "type": "教學工作室",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "口琴教學/課程/學習資源",
       "structuredSummary": "口琴教學/課程/學習資源 / 口琴 / 教學/課程來源",
-      "summary": "台灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。",
       "keywords": "藍波口琴教室 藍波口琴網 口琴 教學",
       "links": [
         {
@@ -658,22 +1168,40 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴"
       ],
       "sourceSummary": "專注於口琴教學的線上教室與學習資源平台。",
-      "sourceTagReason": "名稱與分類明確指出「教學」與「工作室」，並提供課程資源，屬於教學來源。"
+      "sourceTagReason": "名稱與分類明確指出「教學」與「工作室」，並提供課程資源，屬於教學來源。",
+      "monitorSources": [
+        {
+          "id": "fb_happyharmonica",
+          "name": "藍波口琴教室",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/happyharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_lamberharmonica",
+          "name": "藍波口琴教室",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@lamberharmonica",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-85",
-      "name": "台北黃石口琴樂團",
+      "name": "臺北黃石口琴樂團",
       "nameEn": "Taipei Yellowstone Harmonica Ensemble",
       "category": "團體樂團",
       "type": "團體",
-      "country": "台灣",
-      "region": "台灣/台北",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
       "cityOrFocus": "口琴樂團/年度公演",
       "structuredSummary": "口琴樂團/年度公演 / 口琴 / 演出團體",
-      "summary": "台灣的口琴演出團體，活動脈絡包含口琴樂團與年度公演。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "台北黃石口琴樂團 Taipei Yellowstone Harmonica Ensemble 口琴 年度公演",
+      "summary": "臺灣的口琴演出團體，活動脈絡包含口琴樂團與年度公演。",
+      "keywords": "臺北黃石口琴樂團 Taipei Yellowstone Harmonica Ensemble 口琴 年度公演",
       "links": [
         {
           "label": "Facebook",
@@ -684,13 +1212,24 @@ window.HARMONICA_OBSERVE_DATA = {
       "aliases": [],
       "latestUpdateAt": "2026-06-22T14:15:21+00:00",
       "latestUpdateLocal": "2026-06-22 22:15",
-      "latestUpdateSource": "台北黃石口琴樂團",
+      "latestUpdateSource": "臺北黃石口琴樂團",
       "latestUpdateUrl": "https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/posts/pfbid02dZtHRhB1dCnPFBfhX1xQ6E2yXeqqCeijXD2xDanh5H2k31Lgmj87ebVwSK3QdRPul",
       "avatarUrl": "/assets/source-avatars/5c7f37af162eacf64845.webp",
-      "sourceInitials": "台北",
+      "sourceInitials": "臺北",
       "sourceTags": [
         "口琴",
         "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_taipeiyellowstoneharmonicaensemble",
+          "name": "臺北黃石口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/TaipeiYellowstoneHarmonicaEnsemble",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -700,12 +1239,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "category": "演奏者",
       "type": "團體/個人",
       "country": "馬來西亞",
-      "region": "馬來西亞/常來台",
+      "region": "馬來西亞",
       "cityOrFocus": "二重奏/影片/THMF",
       "structuredSummary": "二重奏/影片/THMF / 半音階/重奏 / 國際演出人員/團體",
       "summary": "馬來西亞的半音階與重奏國際演出人員與團體，活動脈絡包含二重奏、影片與THMF。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "Aiden N Evelyn Aiden Soon Evelyn Choong harmonica",
       "links": [
         {
@@ -744,6 +1281,44 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "重奏",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_aidennevelyn",
+          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/AidenNEvelyn",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_aidennevelyn",
+          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "aidennevelyn",
+          "profileUrl": "https://www.instagram.com/aidennevelyn/",
+          "feedUrl": ""
+        },
+        {
+          "id": "x_aidensoon",
+          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+          "platform": "x",
+          "type": "rss",
+          "username": "aidensoon",
+          "profileUrl": "https://x.com/aidensoon",
+          "feedUrl": "https://rss.observe.tw/twitter/user/aidensoon"
+        },
+        {
+          "id": "yt_aidennevelyn",
+          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/aidennevelyn",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -757,8 +1332,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "cityOrFocus": "半音階口琴/小提琴二重奏/教學",
       "structuredSummary": "半音階口琴/小提琴二重奏/教學 / 半音階/小提琴 / 國際教學/演出單位",
       "summary": "香港的半音階與小提琴國際教學與演出單位，活動脈絡包含半音階口琴、小提琴二重奏與教學。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "Duo Volce Music Studio 誼聲音樂室 Harry Choi 蔡偉鏗 harmonica violin Hong Kong",
       "links": [
         {
@@ -798,6 +1371,53 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "重奏",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/DuoVolce",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "DuoVolce",
+          "profileUrl": "https://www.instagram.com/DuoVolce/",
+          "feedUrl": ""
+        },
+        {
+          "id": "x_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "x",
+          "type": "rss",
+          "username": "duovolce",
+          "profileUrl": "https://x.com/duovolce",
+          "feedUrl": "https://rss.observe.tw/twitter/user/duovolce"
+        },
+        {
+          "id": "yt_duovolce_3c56d0bb",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/DuoVolce",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_duovolce",
+          "name": "蔡偉鏗 Harry Choi",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@DuoVolce",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -811,8 +1431,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "cityOrFocus": "評審/演出",
       "structuredSummary": "評審/演出 / 半音階 / 國際演出人員/評審",
       "summary": "香港的半音階國際演出人員與評審，活動脈絡包含評審與演出。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
       "keywords": "蔡偉鏗 Harry Choi harmonica",
       "links": [
         {
@@ -838,7 +1456,45 @@ window.HARMONICA_OBSERVE_DATA = {
         "國際交流"
       ],
       "sourceSummary": "香港半音階口琴演奏家，活躍於國際演出與評審。",
-      "sourceTagReason": "來源明確標註為『演奏者』個人，專長為半音階口琴，並提及國際演出與評審，故優先標註演奏者、半音階、國際交流。"
+      "sourceTagReason": "來源明確標註為『演奏者』個人，專長為半音階口琴，並提及國際演出與評審，故優先標註演奏者、半音階、國際交流。",
+      "monitorSources": [
+        {
+          "id": "fb_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/DuoVolce",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "DuoVolce",
+          "profileUrl": "https://www.instagram.com/DuoVolce/",
+          "feedUrl": ""
+        },
+        {
+          "id": "x_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "x",
+          "type": "rss",
+          "username": "duovolce",
+          "profileUrl": "https://x.com/duovolce",
+          "feedUrl": "https://rss.observe.tw/twitter/user/duovolce"
+        },
+        {
+          "id": "yt_duovolce",
+          "name": "蔡偉鏗 Harry Choi",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@DuoVolce",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-88",
@@ -851,8 +1507,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "cityOrFocus": "國際口琴重奏/臺港交流",
       "structuredSummary": "國際口琴重奏/臺港交流 / 口琴重奏 / 國際演出團體",
       "summary": "香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
       "keywords": "RedBricks Harmonica 香港口琴五重奏 harmonica ensemble",
       "links": [
         {
@@ -881,6 +1535,35 @@ window.HARMONICA_OBSERVE_DATA = {
         "團體樂團",
         "重奏",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_redbricksharmonica",
+          "name": "RedBricks Harmonica",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/redbricksharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_redbricksharmonica",
+          "name": "RedBricks Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "redbricksharmonica",
+          "profileUrl": "https://www.instagram.com/redbricksharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_redbricksharmonica",
+          "name": "RedBricks Harmonica",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@RedBricksHarmonica",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -889,13 +1572,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Taiwan Harmonica Music Festival",
       "category": "活動資訊",
       "type": "活動/資訊入口 / 活動子來源",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "音樂節/比賽/Gala/講座 / 每年新興團體/青年演出",
       "structuredSummary": "音樂節/比賽/Gala/講座 / 半音階/複音/十孔/重奏 / 核心活動",
-      "summary": "台灣的核心活動，涵蓋音樂節、比賽、Gala與講座。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的核心活動，涵蓋音樂節、比賽、Gala與講座。",
       "keywords": "THMF 臺灣口琴音樂節 Taiwan Harmonica Music Festival THMF 午間音樂會 新團體",
       "links": [
         {
@@ -934,6 +1615,35 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "複音",
         "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_twharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/twharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_thmc6470",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@thmc6470",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -942,13 +1652,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "NTNU Harmonica Club",
       "category": "學校社團",
       "type": "學校社團",
-      "country": "台灣",
-      "region": "台灣/台北",
-      "cityOrFocus": "台北",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "臺北",
       "structuredSummary": "國立臺灣師範大學 / 口琴 / 學校社團",
       "summary": "國立臺灣師範大學的口琴學校社團。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "師大口琴社 NTNU Harmonica Club 口琴社",
       "links": [
         {
@@ -974,9 +1682,28 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "師大",
       "sourceTags": [
         "口琴",
-        "學校社團",
         "學生社團",
         "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_ntnu_harmonica",
+          "name": "NTNU Harmonica Club",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_ntnu_harmonica",
+          "name": "NTNU Harmonica Club",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "ntnu_harmonica_club",
+          "profileUrl": "https://www.instagram.com/ntnu_harmonica_club/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -985,13 +1712,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "NTU Blue Sound Harmonica Club",
       "category": "學校社團",
       "type": "學校社團",
-      "country": "台灣",
-      "region": "台灣/台北",
-      "cityOrFocus": "大學口琴社/成果發表/交流 / 台北",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "大學口琴社/成果發表/交流 / 臺北",
       "structuredSummary": "臺灣大學 / 口琴 / 學校社團",
       "summary": "臺灣大學的口琴學校社團。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "台大藍聲口琴社",
       "links": [
         {
@@ -1021,9 +1746,37 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "台大",
       "sourceTags": [
         "口琴",
-        "學校社團",
         "學生社團",
         "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_ntubluesound",
+          "name": "NTU Blue Sound Harmonica Club",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_ntubluesound",
+          "name": "NTU Blue Sound Harmonica Club",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "ntubluesound",
+          "profileUrl": "https://www.instagram.com/ntubluesound/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ntubluesound",
+          "name": "台大藍聲口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@ntubluesound",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -1032,13 +1785,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Punch Harmonica Ensemble",
       "category": "團體樂團",
       "type": "團體",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "重奏/公演/年輕團體",
       "structuredSummary": "重奏/公演/年輕團體 / 口琴重奏/合奏 / 演出團體",
-      "summary": "台灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。",
       "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團",
       "links": [
         {
@@ -1070,6 +1821,35 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴",
         "團體樂團",
         "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Punch.Harp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "punch.harp",
+          "profileUrl": "https://www.instagram.com/punch.harp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_punchharp",
+          "name": "胖擊口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@punchharp",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -1078,13 +1858,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "學校社團",
       "type": "學校/青年",
-      "country": "台灣",
-      "region": "台灣/台北",
-      "cityOrFocus": "國小口琴系統 / 台北",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "國小口琴系統 / 臺北",
       "structuredSummary": "文山／萬興國小 / 口琴隊 / 學校團隊",
       "summary": "文山與萬興國小的口琴隊學校團隊。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "文山 萬興國小 口琴",
       "links": [
         {
@@ -1106,8 +1884,18 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "文山",
       "sourceTags": [
         "口琴",
-        "學校社團",
         "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_61574004532712",
+          "name": "文山／萬興國小口琴系統",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/61574004532712",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -1116,13 +1904,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "PeaceTones Harmonica",
       "category": "教學器材",
       "type": "單位 / 樂器行/口琴專賣店",
-      "country": "台灣",
-      "region": "台灣 / 台灣/台北",
+      "country": "臺灣",
+      "region": "臺灣 / 臺灣/臺北",
       "cityOrFocus": "口琴器材/活動資訊 / 口琴買賣/維修保養/教學服務",
       "structuredSummary": "口琴器材/活動資訊 / 口琴 / 器材/教學來源",
-      "summary": "台灣的口琴器材與教學來源，關注口琴器材與活動資訊。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴器材與教學來源，關注口琴器材與活動資訊。",
       "keywords": "音和樂器 口琴 音和樂器 PeaceTones 口琴專賣店 口琴 維修 教學",
       "links": [
         {
@@ -1156,6 +1942,35 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴",
         "教學器材",
         "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/PeaceTones.harmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "peacetones.harmonica",
+          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_peacetonesharmonica",
+          "name": "音和樂器",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@peacetonesharmonica",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -1169,8 +1984,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "cityOrFocus": "十孔/藍調",
       "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
       "summary": "日本的十孔國際演出人員，活動脈絡包含藍調。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
       "keywords": "千賀太郎 Taro Senga harmonica",
       "links": [
         {
@@ -1191,6 +2004,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者",
         "十孔",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_taro_senga",
+          "name": "千賀太郎",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taro_senga",
+          "profileUrl": "https://www.instagram.com/taro_senga/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -1200,12 +2024,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "category": "演奏者",
       "type": "個人",
       "country": "日本",
-      "region": "日本/台灣爵士圈",
+      "region": "日本/臺灣爵士圈",
       "cityOrFocus": "爵士/跨界",
       "structuredSummary": "爵士/跨界 / 十孔/爵士口琴 / 國際演出人員",
       "summary": "日本的十孔與爵士口琴國際演出人員，活動脈絡包含爵士與跨界。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "藤井俊充 Toshi Fujii harmonica",
       "links": [
         {
@@ -1234,6 +2056,35 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者",
         "十孔",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_100091746706247",
+          "name": "藤井俊充",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/100091746706247",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_toshimiller",
+          "name": "藤井俊充",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "toshimiller",
+          "profileUrl": "https://www.instagram.com/toshimiller/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_uczvwagm6xsebpi_x5h1zohw",
+          "name": "藤井俊充",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -1242,13 +2093,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Alysa Liao",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "111 Trio／Quintet",
       "structuredSummary": "111 Trio／Quintet / 口琴 / 演出人員",
-      "summary": "台灣的口琴演出人員，活動脈絡包含111 Trio與Quintet。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含111 Trio與Quintet。",
       "keywords": "廖苡晴 111 Trio 口琴",
       "links": [
         {
@@ -1271,6 +2120,17 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "口琴",
         "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_yich",
+          "name": "廖苡晴",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "__yich___",
+          "profileUrl": "https://www.instagram.com/__yich___/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -1279,13 +2139,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "111 Quintet",
       "category": "團體樂團",
       "type": "團體",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "室內樂/口琴與鋼琴弦樂",
       "structuredSummary": "室內樂/口琴與鋼琴弦樂 / 口琴/鋼琴/弦樂 / 演出團體",
-      "summary": "台灣的口琴、鋼琴與弦樂演出團體，活動脈絡包含室內樂與口琴與鋼琴弦樂。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴、鋼琴與弦樂演出團體，活動脈絡包含室內樂與口琴與鋼琴弦樂。",
       "keywords": "111 Trio 111 Quintet",
       "links": [
         {
@@ -1316,6 +2174,35 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "口琴",
         "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_111triotaiwan",
+          "name": "111 Trio / 111 Quintet",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/111triotaiwan",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_111quintet",
+          "name": "111 Trio / 111 Quintet",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "111quintet",
+          "profileUrl": "https://www.instagram.com/111quintet/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucycpsbkpva9oaaaqcrjcvza",
+          "name": "111 Trio / 111 Quintet",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCyCPSbKpVa9oaAAqCRjcvZA",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -1325,12 +2212,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "category": "演奏者",
       "type": "個人/地方推廣",
       "country": "馬來西亞",
-      "region": "台灣/花蓮；馬來西亞",
+      "region": "臺灣/花蓮；馬來西亞",
       "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
       "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
       "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
       "links": [
         {
@@ -1363,66 +2248,35 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者",
         "重奏",
         "國際交流"
-      ]
-    },
-    {
-      "id": "watchlist-30+watchlist-93",
-      "name": "蔡明憲 DMing Studio",
-      "nameEn": "DMing Studio",
-      "category": "教學器材",
-      "type": "個人 / 教學/維修/影片來源",
-      "country": "台灣",
-      "region": "台灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出 / 口琴教學/維修/重奏/硬體",
-      "structuredSummary": "口琴教學/維修/重奏/硬體 / 半音階/複音/Bass/Chord / 教學/維修來源",
-      "summary": "台灣的半音階、複音、Bass與Chord教學與維修來源，關注口琴教學、維修、重奏與硬體。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "蔡明憲 口琴 DMing Studio 大明 口琴 教學 維修 蔡明憲 天狼星 Laelaps",
-      "links": [
+      ],
+      "monitorSources": [
         {
-          "label": "網站",
-          "url": "https://studio.dming.co/"
+          "id": "fb_harmonikahkean",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonikahkean",
+          "feedUrl": ""
         },
         {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/dming.tsai/"
+          "id": "ig_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": ""
         },
         {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/damingtsai/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@DMingStudio"
-        },
-        {
-          "label": "網站",
-          "url": "https://dming.co/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/dmingstudio/"
+          "id": "yt_hokahkean1999",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@hokahkean1999",
+          "feedUrl": ""
         }
-      ],
-      "source": "watchlist",
-      "aliases": [
-        "蔡明憲"
-      ],
-      "latestUpdateAt": "2026-06-15T07:17:32+00:00",
-      "latestUpdateLocal": "2026-06-15 15:17",
-      "latestUpdateSource": "蔡明憲",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=Lo9lsONdCZg",
-      "avatarUrl": "/assets/source-avatars/bf2f349c5f4c1ca4392a.webp",
-      "sourceInitials": "DS",
-      "sourceTags": [
-        "口琴",
-        "教學器材",
-        "演奏者",
-        "教學",
-        "半音階",
-        "複音",
-        "重奏"
       ]
     },
     {
@@ -1431,13 +2285,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "演出/評審",
       "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
-      "summary": "台灣的口琴演出人員與評審，活動脈絡包含演出與評審。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
+      "summary": "臺灣的口琴演出人員與評審，活動脈絡包含演出與評審。",
       "keywords": "林士傑 口琴",
       "links": [
         {
@@ -1456,6 +2308,17 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "口琴",
         "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_musette585",
+          "name": "林士傑",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "musette585",
+          "profileUrl": "https://www.instagram.com/musette585/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -1464,13 +2327,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Yu-Feng Lin",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "胖擊系",
       "structuredSummary": "胖擊系 / 口琴 / 演出人員",
-      "summary": "台灣的口琴演出人員，活動脈絡包含胖擊系。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
       "keywords": "林裕豐 口琴",
       "links": [
         {
@@ -1499,8 +2360,28 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴",
         "教學"
       ],
-      "sourceSummary": "台灣口琴演奏者林裕豐，兼職教學與演出。",
-      "sourceTagReason": "來源為個人，類別明確標示為「演奏者」，並有網站提供教學課程資訊。"
+      "sourceSummary": "臺灣口琴演奏者林裕豐，兼職教學與演出。",
+      "sourceTagReason": "來源為個人，類別明確標示為「演奏者」，並有網站提供教學課程資訊。",
+      "monitorSources": [
+        {
+          "id": "ig_yf_life",
+          "name": "林裕豐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yf__life",
+          "profileUrl": "https://www.instagram.com/yf__life/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_yfharmonica",
+          "name": "林裕豐",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@YFHarmonica",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-34",
@@ -1508,13 +2389,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Yen-Hua Wang",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "天狼星/胖擊系/半音階與重奏",
       "structuredSummary": "天狼星/胖擊系/半音階與重奏 / 半音階/重奏 / 演出人員",
-      "summary": "台灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
+      "summary": "臺灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。",
       "keywords": "王衍華 口琴",
       "links": [
         {
@@ -1544,7 +2423,27 @@ window.HARMONICA_OBSERVE_DATA = {
         "重奏"
       ],
       "sourceSummary": "半音階與重奏演奏者，活躍於天狼星與胖擊系團隊。",
-      "sourceTagReason": "資料明確標註為個人演奏者，專長半音階與重奏，並提及相關演出團隊。"
+      "sourceTagReason": "資料明確標註為個人演奏者，專長半音階與重奏，並提及相關演出團隊。",
+      "monitorSources": [
+        {
+          "id": "ig_yenhua_wang",
+          "name": "王衍華",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yenhua_wang",
+          "profileUrl": "https://www.instagram.com/yenhua_wang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_keriw128",
+          "name": "王衍華",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@keriw128",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-15",
@@ -1552,13 +2451,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "團體樂團",
       "type": "團體",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "南部口琴合奏",
       "structuredSummary": "南部口琴合奏 / 口琴合奏 / 演出團體",
-      "summary": "台灣的口琴合奏演出團體，活動脈絡包含南部口琴合奏。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴合奏演出團體，活動脈絡包含南部口琴合奏。",
       "keywords": "口琴好南合奏樂團",
       "links": [
         {
@@ -1590,7 +2487,36 @@ window.HARMONICA_OBSERVE_DATA = {
         "音樂會"
       ],
       "sourceSummary": "南部地區專注口琴合奏的演出團體。",
-      "sourceTagReason": "名稱與摘要明確為「口琴合奏樂團」，類別標示為團體樂團，且摘要提及演出。"
+      "sourceTagReason": "名稱與摘要明確為「口琴合奏樂團」，類別標示為團體樂團，且摘要提及演出。",
+      "monitorSources": [
+        {
+          "id": "fb_harmonicaisdifficultorchestra",
+          "name": "口琴好南合奏樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HarmonicaIsDifficultOrchestra",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sodifficult_harmonica",
+          "name": "口琴好南合奏樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sodifficult_harmonica",
+          "profileUrl": "https://www.instagram.com/sodifficult_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_db1616fd7c",
+          "name": "口琴好南合奏樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E5%8F%A3%E7%90%B4%E5%A5%BD%E5%8D%97",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-98",
@@ -1598,13 +2524,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Yora Chen",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "鋼琴合作/編曲創作/口琴合作",
       "structuredSummary": "鋼琴合作/編曲創作/口琴合作 / 鋼琴/編曲/口琴合作 / 合作音樂家/編曲者",
-      "summary": "台灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。",
       "keywords": "Yora Chen 陳瑤容 陳瑶容 口琴 編曲 鋼琴合作 111 Quintet",
       "links": [
         {
@@ -1635,6 +2559,35 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "口琴",
         "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_aike9115",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/aike9115",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_yora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "_yora._",
+          "profileUrl": "https://www.instagram.com/_yora._/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_iamxyora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@iamxyora",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -1643,13 +2596,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "CHGSH Harmonica",
       "category": "學校社團",
       "type": "學校社團",
-      "country": "台灣",
-      "region": "台灣/彰化",
+      "country": "臺灣",
+      "region": "臺灣/彰化",
       "cityOrFocus": "彰化",
       "structuredSummary": "彰化女中 / 口琴 / 學校社團",
       "summary": "彰化女中的口琴學校社團。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
       "keywords": "彰女微光口琴社 CHGSH Harmonica 口琴社",
       "links": [
         {
@@ -1667,8 +2618,18 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "彰女",
       "sourceTags": [
         "口琴",
-        "學校社團",
         "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_chgsh_harmonica",
+          "name": "CHGSH Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chgsh_harmonica",
+          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -1677,13 +2638,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "CKHC 64th",
       "category": "學校社團",
       "type": "學校社團",
-      "country": "台灣",
-      "region": "台灣/台北",
-      "cityOrFocus": "台北",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "臺北",
       "structuredSummary": "建國中學 / 口琴 / 學校社團",
       "summary": "建國中學的口琴學校社團。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "建中口琴社 CKHC 64th 口琴社",
       "links": [
         {
@@ -1709,8 +2668,27 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "建中",
       "sourceTags": [
         "口琴",
-        "學校社團",
         "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_ckhc_64th",
+          "name": "CKHC 64th",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "ckhc_64th",
+          "profileUrl": "https://www.instagram.com/ckhc_64th/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ckhc3423",
+          "name": "建中口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@ckhc3423",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -1719,13 +2697,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "TCFSH Harmonica",
       "category": "學校社團",
       "type": "學校社團",
-      "country": "台灣",
-      "region": "台灣/台中",
-      "cityOrFocus": "台中",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "臺中",
       "structuredSummary": "臺中一中 / 口琴 / 學校社團",
       "summary": "臺中一中的口琴學校社團。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "中一中口琴社 TCFSH Harmonica 口琴社",
       "links": [
         {
@@ -1755,8 +2731,36 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "中一",
       "sourceTags": [
         "口琴",
-        "學校社團",
         "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_tcfsh_harmonica",
+          "name": "中一中口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/tcfsh.harmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_tcfsh_harmonica",
+          "name": "TCFSH Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "tcfsh_harmonica",
+          "profileUrl": "https://www.instagram.com/tcfsh_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_19430dac8a",
+          "name": "中一中口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E5%8F%A3%E7%90%B4%E4%B9%8B%E7%8B%BC",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -1770,8 +2774,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
       "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
       "summary": "韓國的鋼琴合作音樂家，活動脈絡包含鋼琴伴奏與朴鍾聲合作。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "Younghoon Cho Jong-seong Park",
       "links": [
         {
@@ -1806,7 +2808,36 @@ window.HARMONICA_OBSERVE_DATA = {
         "國際交流"
       ],
       "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。"
+      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
+      "monitorSources": [
+        {
+          "id": "fb_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hoontobe",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/hoontobe",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-51",
@@ -1819,8 +2850,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "cityOrFocus": "THMF交流/演出",
       "structuredSummary": "THMF交流/演出 / 半音階 / 國際演出人員",
       "summary": "香港的半音階國際演出人員，活動脈絡包含THMF交流與演出。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "梁承熹 Kelvin Leung harmonica",
       "links": [
         {
@@ -1855,7 +2884,36 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴"
       ],
       "sourceSummary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
-      "sourceTagReason": "來源明確標示為『演奏者』，類型為『個人』，區域為『香港』，摘要提及『THMF交流/演出』與『半音階』。"
+      "sourceTagReason": "來源明確標示為『演奏者』，類型為『個人』，區域為『香港』，摘要提及『THMF交流/演出』與『半音階』。",
+      "monitorSources": [
+        {
+          "id": "fb_kelvinleungsh",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/kelvinleungsh",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sorhei",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sorhei",
+          "profileUrl": "https://www.instagram.com/sorhei/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_kelvinleungharmonica",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@KelvinLeungharmonica",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "club-22",
@@ -1863,13 +2921,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "KSHS Harmonica",
       "category": "學校社團",
       "type": "學校社團",
-      "country": "台灣",
-      "region": "台灣/高雄",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
       "cityOrFocus": "高雄",
       "structuredSummary": "高雄中學 / 口琴 / 學校社團",
       "summary": "高雄中學的口琴學校社團。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "高雄中學口琴社 KSHS Harmonica 口琴社",
       "links": [
         {
@@ -1891,8 +2947,27 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "高雄",
       "sourceTags": [
         "口琴",
-        "學校社團",
         "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_kshsharmonicaclub",
+          "name": "高雄中學口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/kshsharmonicaclub",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_kshs_harmonica",
+          "name": "KSHS Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "kshs_harmonica",
+          "profileUrl": "https://www.instagram.com/kshs_harmonica/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -1901,13 +2976,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "CSMU Blue Melody",
       "category": "學校社團",
       "type": "學校社團",
-      "country": "台灣",
-      "region": "台灣/台中",
-      "cityOrFocus": "台中",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "臺中",
       "structuredSummary": "中山醫學大學 / 口琴 / 學校社團",
       "summary": "中山醫學大學的口琴學校社團。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "中山醫藍韻口琴社 CSMU Blue Melody 口琴社",
       "links": [
         {
@@ -1937,9 +3010,37 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "中山",
       "sourceTags": [
         "口琴",
-        "學校社團",
         "學生社團",
         "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_csmu_bmharmonica",
+          "name": "CSMU Blue Melody",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_csmu_bluemelody",
+          "name": "CSMU Blue Melody",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "csmu_bluemelody",
+          "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_10f4784559",
+          "name": "中山醫藍韻口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -1948,13 +3049,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "HSNU Cozy Harmonica",
       "category": "學校社團",
       "type": "學校社團",
-      "country": "台灣",
-      "region": "台灣/台北",
-      "cityOrFocus": "台北",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "臺北",
       "structuredSummary": "師大附中 / 口琴 / 學校社團",
       "summary": "師大附中的口琴學校社團。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "師大附中舒馨口琴社 HSNU Cozy Harmonica 口琴社",
       "links": [
         {
@@ -1984,8 +3083,36 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "師大",
       "sourceTags": [
         "口琴",
-        "學校社團",
         "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hsnucozy",
+          "name": "師大附中舒馨口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HSNUCOZY",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_cozy_harmonica_60th",
+          "name": "HSNU Cozy Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "cozy_harmonica_60th",
+          "profileUrl": "https://www.instagram.com/cozy_harmonica_60th/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_uctd9azdwomwztiekmkmxdla",
+          "name": "師大附中舒馨口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCTd9aZdWomWZtieKMKmxDlA",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -1994,13 +3121,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "團體樂團",
       "type": "團體",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "青年重奏/台大藍聲系",
       "structuredSummary": "青年重奏/台大藍聲系 / 口琴重奏 / 演出團體",
-      "summary": "台灣的口琴重奏演出團體，活動脈絡包含青年重奏與台大藍聲系。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含青年重奏與台大藍聲系。",
       "keywords": "Dr. Blue 口琴樂團",
       "links": [
         {
@@ -2035,7 +3160,36 @@ window.HARMONICA_OBSERVE_DATA = {
         "演出"
       ],
       "sourceSummary": "台大藍聲系背景的青年口琴重奏樂團，專注於室內樂演出。",
-      "sourceTagReason": "資料明確標示為「團體樂團」，並強調「青年重奏」、「台大藍聲系」與「口琴重奏」，屬於演奏團體。"
+      "sourceTagReason": "資料明確標示為「團體樂團」，並強調「青年重奏」、「台大藍聲系」與「口琴重奏」，屬於演奏團體。",
+      "monitorSources": [
+        {
+          "id": "fb_dr_blueharmonica",
+          "name": "Dr. Blue 口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/dr.blueharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_dr_blue_harmonica",
+          "name": "Dr. Blue 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "dr.blue_harmonica",
+          "profileUrl": "https://www.instagram.com/dr.blue_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucvhln_2awpljqbfo_9apatw",
+          "name": "Dr. Blue 口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-81",
@@ -2043,13 +3197,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "教學器材",
       "type": "地方教學/社大課程",
-      "country": "台灣",
-      "region": "台灣/桃園",
+      "country": "臺灣",
+      "region": "臺灣/桃園",
       "cityOrFocus": "口琴課程/地方社群活動",
       "structuredSummary": "口琴課程/地方社群活動 / 口琴 / 教學/課程來源",
-      "summary": "台灣的口琴教學與課程來源，關注口琴課程與地方社群活動。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴教學與課程來源，關注口琴課程與地方社群活動。",
       "keywords": "桃園玩口琴 桃園 口琴 課程 社大",
       "links": [
         {
@@ -2070,6 +3222,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "教學器材",
         "教學",
         "課程"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_291bc27392",
+          "name": "桃園玩口琴",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/p/%E6%A1%83%E5%9C%92%E7%8E%A9%E5%8F%A3%E7%90%B4-100057424090624",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -2078,13 +3241,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "NTHU Harmonica Club",
       "category": "學校社團",
       "type": "學校社團",
-      "country": "台灣",
-      "region": "台灣/新竹",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
       "cityOrFocus": "新竹",
       "structuredSummary": "國立清華大學 / 口琴 / 學校社團",
       "summary": "國立清華大學的口琴學校社團。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "清華大學口琴社 NTHU Harmonica Club 口琴社",
       "links": [
         {
@@ -2114,9 +3275,37 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "清華",
       "sourceTags": [
         "口琴",
-        "學校社團",
         "學生社團",
         "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_nthuharmonica",
+          "name": "NTHU Harmonica Club",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nthu_harmonica_club",
+          "name": "NTHU Harmonica Club",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nthu_harmonica_club",
+          "profileUrl": "https://www.instagram.com/nthu_harmonica_club/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_uc9jltwvjkmzna3p_mbtiinq",
+          "name": "清華大學口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UC9jltWvJkMzNa3p-mbTIINQ",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -2125,13 +3314,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Judy's Harmonica Ensemble",
       "category": "團體樂團",
       "type": "團體",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "重奏/公演/教育推廣",
       "structuredSummary": "重奏/公演/教育推廣 / 口琴重奏/合奏 / 演出團體",
-      "summary": "台灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與教育推廣。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與教育推廣。",
       "keywords": "Judy's Harmonica Ensemble 茱蒂口琴樂團",
       "links": [
         {
@@ -2163,6 +3350,35 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴",
         "團體樂團",
         "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_judys_harmonica_ensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Judys.Harmonica.Ensemble",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_judys_harmonica_ensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "judys.harmonica.ensemble",
+          "profileUrl": "https://www.instagram.com/judys.harmonica.ensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_judysharmonicaensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@JudysHarmonicaEnsemble",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -2171,13 +3387,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "Judy’s/演出/評審",
       "structuredSummary": "Judy’s/演出/評審 / 半音階/重奏 / 演出人員/評審",
-      "summary": "台灣的半音階與重奏演出人員與評審，活動脈絡包含Judy’s、演出與評審。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
+      "summary": "臺灣的半音階與重奏演出人員與評審，活動脈絡包含Judy’s、演出與評審。",
       "keywords": "莊筑迪 口琴 Judy",
       "links": [
         {
@@ -2208,7 +3422,27 @@ window.HARMONICA_OBSERVE_DATA = {
         "重奏"
       ],
       "sourceSummary": "口琴演奏者，專長半音階與重奏，並擔任演出與評審工作。",
-      "sourceTagReason": "根據資料欄位明確標示為「演奏者」，且關鍵字與摘要提及半音階、重奏、演出與評審，符合白名單中演奏者及相關樂器、演出標籤。"
+      "sourceTagReason": "根據資料欄位明確標示為「演奏者」，且關鍵字與摘要提及半音階、重奏、演出與評審，符合白名單中演奏者及相關樂器、演出標籤。",
+      "monitorSources": [
+        {
+          "id": "fb_chuti_chuang",
+          "name": "莊筑迪",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chuti.chuang",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_judygigo",
+          "name": "莊筑迪",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "judygigo",
+          "profileUrl": "https://www.instagram.com/judygigo/",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "club-17",
@@ -2216,13 +3450,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "NCUE Harmonica",
       "category": "學校社團",
       "type": "學校社團",
-      "country": "台灣",
-      "region": "台灣/彰化",
+      "country": "臺灣",
+      "region": "臺灣/彰化",
       "cityOrFocus": "彰化",
       "structuredSummary": "國立彰化師範大學 / 口琴 / 學校社團",
       "summary": "國立彰化師範大學的口琴學校社團。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "彰師大白沙口琴社 NCUE Harmonica 口琴社",
       "links": [
         {
@@ -2252,9 +3484,37 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "彰師",
       "sourceTags": [
         "口琴",
-        "學校社團",
         "學生社團",
         "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_951baeb1a9",
+          "name": "彰師大白沙口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/p/%E5%BD%B0%E5%B8%AB%E5%A4%A7%E7%99%BD%E6%B2%99%E5%8F%A3%E7%90%B4%E7%A4%BE-100063575904295",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_harmonica_ncue",
+          "name": "NCUE Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_ncue",
+          "profileUrl": "https://www.instagram.com/harmonica_ncue/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucw8tcnjxpgx1sf8csufkf1w",
+          "name": "彰師大白沙口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCw8TcNJXpgX1Sf8CSUFKf1w",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -2263,13 +3523,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "FCU Harmonica",
       "category": "學校社團",
       "type": "學校社團",
-      "country": "台灣",
-      "region": "台灣/台中",
-      "cityOrFocus": "台中",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "臺中",
       "structuredSummary": "逢甲大學 / 口琴 / 學校社團",
       "summary": "逢甲大學的口琴學校社團。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "逢甲口琴社 FCU Harmonica 口琴社",
       "links": [
         {
@@ -2295,9 +3553,37 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "逢甲",
       "sourceTags": [
         "口琴",
-        "學校社團",
         "學生社團",
         "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_fcu_harmonica",
+          "name": "FCU Harmonica",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_fcu_harmonica",
+          "name": "FCU Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "fcu_harmonica",
+          "profileUrl": "https://www.instagram.com/fcu_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_fengchiaharmonicaclub7692",
+          "name": "逢甲口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@fengchiaharmonicaclub7692",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -2306,14 +3592,12 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Baba Harmonica Studio",
       "category": "教學器材",
       "type": "教學工作室",
-      "country": "台灣",
-      "region": "台灣/台南",
+      "country": "臺灣",
+      "region": "臺灣/臺南",
       "cityOrFocus": "口琴教學/演出/社團經營",
       "structuredSummary": "口琴教學/演出/社團經營 / 口琴 / 教學/活動來源",
-      "summary": "台灣的口琴教學與活動來源，關注口琴教學、演出與社團經營。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "巴巴口琴坊 Baba Harmonica Studio 台南 口琴 教學 演出",
+      "summary": "臺灣的口琴教學與活動來源，關注口琴教學、演出與社團經營。",
+      "keywords": "巴巴口琴坊 Baba Harmonica Studio 臺南 口琴 教學 演出",
       "links": [
         {
           "label": "Facebook",
@@ -2341,8 +3625,37 @@ window.HARMONICA_OBSERVE_DATA = {
         "教學",
         "工作室"
       ],
-      "sourceSummary": "台南的口琴教學工作室，提供教學、演出與社團經營服務。",
-      "sourceTagReason": "名稱含「口琴坊」，類型為「教學工作室」，核心業務為口琴教學與演出，符合教學與工作室定義。"
+      "sourceSummary": "臺南的口琴教學工作室，提供教學、演出與社團經營服務。",
+      "sourceTagReason": "名稱含「口琴坊」，類型為「教學工作室」，核心業務為口琴教學與演出，符合教學與工作室定義。",
+      "monitorSources": [
+        {
+          "id": "fb_babaharmonica",
+          "name": "巴巴口琴坊",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/babaharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_baba_harmonica_studio",
+          "name": "巴巴口琴坊",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "baba_harmonica_studio",
+          "profileUrl": "https://www.instagram.com/baba_harmonica_studio/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_yoyo708520",
+          "name": "巴巴口琴坊",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@yoyo708520",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-92",
@@ -2350,13 +3663,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "團體樂團",
       "type": "團體",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "重奏/青年團體/演出",
       "structuredSummary": "重奏/青年團體/演出 / 口琴重奏 / 演出團體",
-      "summary": "台灣的口琴重奏演出團體，活動脈絡包含重奏、青年團體與演出。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含重奏、青年團體與演出。",
       "keywords": "進擊的口琴樂團 attack_on_harmonica_ensemble 口琴",
       "links": [
         {
@@ -2376,6 +3687,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴",
         "團體樂團",
         "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_attack_on_harmonica_ensemble",
+          "name": "進擊的口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "attack_on_harmonica_ensemble",
+          "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -2384,13 +3706,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Stay Drunk Harmonica Ensemble",
       "category": "團體樂團",
       "type": "團體",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "大學生新生代團體",
       "structuredSummary": "大學生新生代團體 / 口琴重奏 / 演出團體",
-      "summary": "台灣的大學生新生代口琴重奏演出團體。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的大學生新生代口琴重奏演出團體。",
       "keywords": "Stay Drunk Stay Drunk H.E. Stay Drunk Harmonica Ensemble staydrunk_h.e 口琴樂團 大學生",
       "links": [
         {
@@ -2414,6 +3734,26 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴",
         "團體樂團",
         "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_staydrunk_h_e",
+          "name": "Stay Drunk 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "staydrunk_h.e",
+          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_uct3ifdfoqpndqm8j5chesda",
+          "name": "Stay Drunk 口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -2422,13 +3762,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Laelaps Harmonica",
       "category": "教學器材",
       "type": "單位",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "教學/器材/演出資訊",
       "structuredSummary": "教學/器材/演出資訊 / 口琴 / 教學/器材來源",
-      "summary": "台灣的口琴教學與器材來源，關注教學、器材與演出資訊。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴教學與器材來源，關注教學、器材與演出資訊。",
       "keywords": "Laelaps 口琴 蔡明憲 張晁滕",
       "links": [
         {
@@ -2460,6 +3798,35 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴",
         "教學器材",
         "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_laelapsharmonica",
+          "name": "Laelaps 口琴",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/laelapsharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_laelapsharmonica",
+          "name": "Laelaps 口琴",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "laelapsharmonica",
+          "profileUrl": "https://www.instagram.com/laelapsharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_laelapsharmonica",
+          "name": "Laelaps 口琴",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@laelapsharmonica",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -2468,13 +3835,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "NPUST HMC",
       "category": "學校社團",
       "type": "學校社團",
-      "country": "台灣",
-      "region": "台灣/屏東",
+      "country": "臺灣",
+      "region": "臺灣/屏東",
       "cityOrFocus": "屏東",
       "structuredSummary": "國立屏東科技大學 / 口琴 / 學校社團",
       "summary": "國立屏東科技大學的口琴學校社團。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
       "keywords": "屏科大口琴社 NPUST HMC 口琴社",
       "links": [
         {
@@ -2496,9 +3861,19 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "屏科",
       "sourceTags": [
         "口琴",
-        "學校社團",
         "學生社團",
         "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_npust_hmc",
+          "name": "NPUST HMC",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "npust.hmc",
+          "profileUrl": "https://www.instagram.com/npust.hmc/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -2507,13 +3882,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Rolabo Lin",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "半音階/複音/原創/比賽曲",
       "structuredSummary": "半音階/複音/原創/比賽曲 / 半音階/複音 / 演出人員",
-      "summary": "台灣的半音階與複音演出人員，活動脈絡包含原創與比賽曲。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的半音階與複音演出人員，活動脈絡包含原創與比賽曲。",
       "keywords": "林家靖 Rolabo Lin",
       "links": [
         {
@@ -2547,6 +3920,35 @@ window.HARMONICA_OBSERVE_DATA = {
         "比賽",
         "半音階",
         "複音"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicalin",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HarmonicaLin",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_rolabo_lin",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "rolabo_lin",
+          "profileUrl": "https://www.instagram.com/rolabo_lin/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucq7wiztevpndeaaj6rdxzea",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -2555,13 +3957,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "The Duet",
       "category": "其他來源",
       "type": "單位",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "協辦/製作/跨界音樂",
       "structuredSummary": "協辦/製作/跨界音樂 / 室內樂/跨界 / 協辦/活動來源",
-      "summary": "台灣的協辦與活動來源，關注協辦、製作與跨界音樂。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的協辦與活動來源，關注協辦、製作與跨界音樂。",
       "keywords": "The Duet 獨特音樂 口琴",
       "links": [
         {
@@ -2595,7 +3995,36 @@ window.HARMONICA_OBSERVE_DATA = {
         "活動資訊"
       ],
       "sourceSummary": "以室內樂與跨界音樂為主的音樂製作與協辦單位。",
-      "sourceTagReason": "名稱與描述顯示為音樂製作與協辦單位，非個人、學校或純教學平台，故標團體樂團，並依其協辦/製作活動標示演出與活動資訊。"
+      "sourceTagReason": "名稱與描述顯示為音樂製作與協辦單位，非個人、學校或純教學平台，故標團體樂團，並依其協辦/製作活動標示演出與活動資訊。",
+      "monitorSources": [
+        {
+          "id": "fb_theduet_music",
+          "name": "The Duet 獨特音樂",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/theduet.music",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_theduet_music",
+          "name": "The Duet 獨特音樂",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "theduet.music",
+          "profileUrl": "https://www.instagram.com/theduet.music/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_theduetmusic",
+          "name": "The Duet 獨特音樂",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@TheDuetMusic",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "club-7",
@@ -2603,13 +4032,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "NUTC Harmonica",
       "category": "學校社團",
       "type": "學校社團",
-      "country": "台灣",
-      "region": "台灣/台中",
-      "cityOrFocus": "台中",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "臺中",
       "structuredSummary": "國立臺中科技大學 / 口琴 / 學校社團",
       "summary": "國立臺中科技大學的口琴學校社團。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "臺中科大口琴社 NUTC Harmonica 口琴社",
       "links": [
         {
@@ -2639,53 +4066,37 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "臺中",
       "sourceTags": [
         "口琴",
-        "學校社團",
         "學生社團",
         "大專社團"
-      ]
-    },
-    {
-      "id": "watchlist-8+watchlist-64+club-4",
-      "name": "台中市中華口琴會樂團",
-      "nameEn": "",
-      "category": "團體樂團",
-      "type": "團體 / 學校/青年",
-      "country": "台灣",
-      "region": "台灣 / 台灣/台中",
-      "cityOrFocus": "合奏/台中地方演出/學生系統 / 學生團隊/比賽/演出 / 台中",
-      "structuredSummary": "台中市中華口琴會 / 口琴隊 / 學校團隊",
-      "summary": "台中市中華口琴會的口琴隊學校團隊。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "台中市中華口琴會 樂團 台中市中華口琴會 學生 團隊",
-      "links": [
+      ],
+      "monitorSources": [
         {
-          "label": "網站",
-          "url": "https://www.tcharmonica.org.tw/"
+          "id": "fb_nutc_harmonica",
+          "name": "NUTC Harmonica",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "",
+          "feedUrl": ""
         },
         {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/TCHarmonicaA/"
+          "id": "ig_nutc_harmonica",
+          "name": "NUTC Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nutc_harmonica",
+          "profileUrl": "https://www.instagram.com/nutc_harmonica/",
+          "feedUrl": ""
         },
         {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E5%8F%B0%E4%B8%AD%E5%B8%82%E4%B8%AD%E8%8F%AF%E5%8F%A3%E7%90%B4%E6%9C%83"
+          "id": "yt_nutc_harmonica",
+          "name": "臺中科大口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@nutc_harmonica",
+          "feedUrl": ""
         }
-      ],
-      "source": "club+watchlist",
-      "aliases": [
-        "台中市中華口琴會相關學生團隊"
-      ],
-      "latestUpdateAt": "2025-10-13T13:27:25+00:00",
-      "latestUpdateLocal": "2025-10-13 21:27",
-      "latestUpdateSource": "台中市中華口琴會樂團",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=ZK8811XcKXo",
-      "avatarUrl": "/assets/source-avatars/4df93c46438ca873550e.webp",
-      "sourceInitials": "台中",
-      "sourceTags": [
-        "口琴",
-        "團體樂團",
-        "比賽"
       ]
     },
     {
@@ -2694,13 +4105,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "團體樂團",
       "type": "團體",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "跨界/流行/李讓相關",
       "structuredSummary": "跨界/流行/李讓相關 / 口琴/跨界 / 演出團體",
-      "summary": "台灣的口琴與跨界演出團體，活動脈絡包含流行與李讓相關。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴與跨界演出團體，活動脈絡包含流行與李讓相關。",
       "keywords": "mr.Why 花影樂團 李讓",
       "links": [
         {
@@ -2735,7 +4144,36 @@ window.HARMONICA_OBSERVE_DATA = {
         "音樂會"
       ],
       "sourceSummary": "以李讓為核心的跨界流行口琴演出團體。",
-      "sourceTagReason": "資料明確標示為「團體樂團」，名稱與描述含「演出」、「跨界」、「流行」，並提及核心人物李讓，符合演奏者與團體特徵。"
+      "sourceTagReason": "資料明確標示為「團體樂團」，名稱與描述含「演出」、「跨界」、「流行」，並提及核心人物李讓，符合演奏者與團體特徵。",
+      "monitorSources": [
+        {
+          "id": "fb_mr_whywhy",
+          "name": "mr.Why 花影樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Mr.WhyWhy",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_mr_why_why",
+          "name": "mr.Why 花影樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "mr.why.why",
+          "profileUrl": "https://www.instagram.com/mr.why.why/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_mrwhyofficialchannel",
+          "name": "mr.Why 花影樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/MrWhyOfficialChannel/videos",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "club-23",
@@ -2743,14 +4181,12 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "TNFSH Harmonica",
       "category": "學校社團",
       "type": "學校社團",
-      "country": "台灣",
-      "region": "台灣/台南",
-      "cityOrFocus": "台南",
+      "country": "臺灣",
+      "region": "臺灣/臺南",
+      "cityOrFocus": "臺南",
       "structuredSummary": "臺南一中 / 口琴 / 學校社團",
       "summary": "臺南一中的口琴學校社團。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "臺南一中口琴社 TNFSH Harmonica 台南一中口琴社",
+      "keywords": "臺南一中口琴社 TNFSH Harmonica 臺南一中口琴社",
       "links": [
         {
           "label": "網站",
@@ -2775,8 +4211,27 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "臺南",
       "sourceTags": [
         "口琴",
-        "學校社團",
         "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_tnfsh107harmonica",
+          "name": "臺南一中口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/tnfsh107harmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_tnfsh_harmonica",
+          "name": "TNFSH Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "tnfsh_harmonica.club",
+          "profileUrl": "https://www.instagram.com/tnfsh_harmonica.club/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -2785,13 +4240,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
-      "cityOrFocus": "台中系年輕演奏者",
-      "structuredSummary": "台中系年輕演奏者 / 複音/半音階 / 演出人員",
-      "summary": "台灣的複音與半音階演出人員，活動脈絡包含台中系年輕演奏者。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "臺中系年輕演奏者",
+      "structuredSummary": "臺中系年輕演奏者 / 複音/半音階 / 演出人員",
+      "summary": "臺灣的複音與半音階演出人員，活動脈絡包含臺中系年輕演奏者。",
       "keywords": "陳柏宏 口琴",
       "links": [
         {
@@ -2817,8 +4270,19 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "複音"
       ],
-      "sourceSummary": "台中年輕口琴演奏者，專精複音與半音階。",
-      "sourceTagReason": "分類明確為「演奏者」，且明確提及「複音/半音階」，故標相關標籤。"
+      "sourceSummary": "臺中年輕口琴演奏者，專精複音與半音階。",
+      "sourceTagReason": "分類明確為「演奏者」，且明確提及「複音/半音階」，故標相關標籤。",
+      "monitorSources": [
+        {
+          "id": "yt_uc6xjefsojniejsni3vz_wsa",
+          "name": "陳柏宏",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UC6XjefSoJNiEjSni3vZ-wsA",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-18",
@@ -2826,13 +4290,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Up Side Down Harmonica Ensemble",
       "category": "團體樂團",
       "type": "團體",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "大學生新生代團體",
       "structuredSummary": "大學生新生代團體 / 口琴重奏 / 演出團體",
-      "summary": "台灣的大學生新生代口琴重奏演出團體。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的大學生新生代口琴重奏演出團體。",
       "keywords": "Up Side Down 口琴",
       "links": [
         {
@@ -2856,6 +4318,26 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴",
         "團體樂團",
         "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_usd_harmonica",
+          "name": "Up Side Down",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "usd_harmonica",
+          "profileUrl": "https://www.instagram.com/usd_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_upsidedownharmonicaensemble",
+          "name": "Up Side Down",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@UpSideDownharmonicaensemble",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -2864,13 +4346,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "NCKU Harmonica Club",
       "category": "學校社團",
       "type": "學校社團",
-      "country": "台灣",
-      "region": "台灣/台南",
-      "cityOrFocus": "台南",
+      "country": "臺灣",
+      "region": "臺灣/臺南",
+      "cityOrFocus": "臺南",
       "structuredSummary": "國立成功大學 / 口琴 / 學校社團",
       "summary": "國立成功大學的口琴學校社團。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "成大口琴社 NCKU Harmonica Club 口琴社",
       "links": [
         {
@@ -2900,9 +4380,37 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "成大",
       "sourceTags": [
         "口琴",
-        "學校社團",
         "學生社團",
         "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_ncku_harmonica",
+          "name": "NCKU Harmonica Club",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_ncku_harmonicaclub",
+          "name": "成大口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "ncku_harmonicaclub",
+          "profileUrl": "https://www.instagram.com/ncku_harmonicaclub/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_8fac81430c",
+          "name": "成大口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E6%88%90%E5%A4%A7%E5%8F%A3%E7%90%B4%E7%A4%BE",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -2916,8 +4424,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "cityOrFocus": "半音階/THMC嘉賓/評審",
       "structuredSummary": "半音階/THMC嘉賓/評審 / 半音階 / 國際演出人員/評審",
       "summary": "香港的半音階國際演出人員與評審，活動脈絡包含THMC嘉賓與評審。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "Gordon Lee 李俊樂 harmonica",
       "links": [
         {
@@ -2952,7 +4458,36 @@ window.HARMONICA_OBSERVE_DATA = {
         "國際交流"
       ],
       "sourceSummary": "香港半音階口琴演奏者，擔任國際比賽嘉賓與評審。",
-      "sourceTagReason": "資料明確標註為「演奏者」及「半音階」，並提及國際演出與評審角色，故優先標註演奏者、口琴、半音階及國際交流。"
+      "sourceTagReason": "資料明確標註為「演奏者」及「半音階」，並提及國際演出與評審角色，故優先標註演奏者、口琴、半音階及國際交流。",
+      "monitorSources": [
+        {
+          "id": "fb_gordonleeharmonicist",
+          "name": "Gordon Lee 李俊樂",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/gordonleeharmonicist",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_gordonleeharmonica",
+          "name": "Gordon Lee 李俊樂",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "gordonleeharmonica",
+          "profileUrl": "https://www.instagram.com/gordonleeharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_harmonicagor",
+          "name": "Gordon Lee 李俊樂",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/Harmonicagor",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-41",
@@ -2960,13 +4495,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "演出/評審",
       "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
-      "summary": "台灣的口琴演出人員與評審，活動脈絡包含演出與評審。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
+      "summary": "臺灣的口琴演出人員與評審，活動脈絡包含演出與評審。",
       "keywords": "邱榮東 口琴",
       "links": [
         {
@@ -2992,7 +4525,18 @@ window.HARMONICA_OBSERVE_DATA = {
         "演出"
       ],
       "sourceSummary": "口琴演奏家與評審，活躍於演出及評審工作。",
-      "sourceTagReason": "來源類別明確標示為「演奏者」，個人身分與演出/評審工作相符，符合白名單中的演奏者、口琴與演出標籤。"
+      "sourceTagReason": "來源類別明確標示為「演奏者」，個人身分與演出/評審工作相符，符合白名單中的演奏者、口琴與演出標籤。",
+      "monitorSources": [
+        {
+          "id": "yt_refresh871",
+          "name": "邱榮東",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@refresh871",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-3",
@@ -3000,13 +4544,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Sirius Harmonica Ensemble",
       "category": "團體樂團",
       "type": "團體",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "重奏/公演/THMF/國際交流",
       "structuredSummary": "重奏/公演/THMF/國際交流 / 口琴重奏/合奏 / 演出團體",
-      "summary": "台灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與THMF。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與THMF。",
       "keywords": "天狼星口琴樂團 Sirius Harmonica Ensemble",
       "links": [
         {
@@ -3035,6 +4577,35 @@ window.HARMONICA_OBSERVE_DATA = {
         "團體樂團",
         "重奏",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_siriusharp",
+          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/SiriusHarp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_siriusharmonicaensemble",
+          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "siriusharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/siriusharmonicaensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_siriusharp",
+          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/SiriusHARP",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -3043,13 +4614,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "複音/教學/演出",
       "structuredSummary": "複音/教學/演出 / 複音 / 演出人員",
-      "summary": "台灣的複音演出人員，活動脈絡包含教學與演出。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的複音演出人員，活動脈絡包含教學與演出。",
       "keywords": "張筑婷 複音口琴",
       "links": [
         {
@@ -3082,6 +4651,35 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者",
         "教學",
         "複音"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_1269e7d1cd",
+          "name": "張筑婷",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/p/%E5%BC%B5%E7%AD%91%E5%A9%B7%E8%A4%87%E9%9F%B3%E5%8F%A3%E7%90%B4-CTTH-100066550038070",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_mandy730508_harmonica",
+          "name": "張筑婷",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "mandy730508_harmonica",
+          "profileUrl": "https://www.instagram.com/mandy730508_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_mandy730508",
+          "name": "張筑婷",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/mandy730508",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -3090,13 +4688,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "MCU Harmonica",
       "category": "學校社團",
       "type": "學校社團",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "",
       "structuredSummary": "銘傳大學 / 口琴 / 學校社團",
       "summary": "銘傳大學的口琴學校社團。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "銘傳口琴社 MCU Harmonica 口琴社 銘傳明新口琴相關來源 MCU Ming Xin 口琴社",
       "links": [
         {
@@ -3129,9 +4725,37 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "銘傳",
       "sourceTags": [
         "口琴",
-        "學校社團",
         "學生社團",
         "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_mcumingxin",
+          "name": "MCU Ming Xin",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_mcuhc",
+          "name": "MCU Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "mcuhc",
+          "profileUrl": "https://www.instagram.com/mcuhc/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucxcrjsu6ecmndpd5d4di4aq",
+          "name": "銘傳口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCXcRJsu6ecMnDpd5d4DI4aQ",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -3140,14 +4764,12 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Weissenberg Harmonicas",
       "category": "教學器材",
       "type": "品牌/樂器商",
-      "country": "台灣",
-      "region": "台灣/台中",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
       "cityOrFocus": "口琴製造/器材/產品資訊",
       "structuredSummary": "口琴製造/器材/產品資訊 / 口琴 / 器材品牌",
-      "summary": "台灣的口琴器材品牌，關注口琴製造、器材與產品資訊。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "韋笙堡 Weissenberg Harmonicas 口琴 台灣 Made in Taiwan",
+      "summary": "臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。",
+      "keywords": "韋笙堡 Weissenberg Harmonicas 口琴 臺灣 Made in Taiwan",
       "links": [
         {
           "label": "網站",
@@ -3178,6 +4800,35 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴",
         "教學器材",
         "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_weissenberg_harmonicas",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Weissenberg.Harmonicas",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_weissenbergtw",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weissenbergtw",
+          "profileUrl": "https://www.instagram.com/weissenbergtw/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_weissenberg1979",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/weissenberg1979",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -3186,13 +4837,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "NKUST Harmonica",
       "category": "學校社團",
       "type": "學校社團",
-      "country": "台灣",
-      "region": "台灣/高雄",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
       "cityOrFocus": "高雄",
       "structuredSummary": "國立高雄科技大學 / 口琴 / 學校社團",
       "summary": "國立高雄科技大學的口琴學校社團。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
       "keywords": "高科大口琴社 NKUST Harmonica 口琴社",
       "links": [
         {
@@ -3218,9 +4867,28 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "高科",
       "sourceTags": [
         "口琴",
-        "學校社團",
         "學生社團",
         "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_nkustharmonica",
+          "name": "NKUST Harmonica",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nkustharmonica",
+          "name": "NKUST Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nkustharmonica",
+          "profileUrl": "https://www.instagram.com/nkustharmonica/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -3229,13 +4897,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "團體樂團",
       "type": "團體",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "合奏/交響口琴",
       "structuredSummary": "合奏/交響口琴 / 口琴合奏 / 演出團體",
-      "summary": "台灣的口琴合奏演出團體，活動脈絡包含合奏與交響口琴。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴合奏演出團體，活動脈絡包含合奏與交響口琴。",
       "keywords": "博凱愛樂口琴交響樂團",
       "links": [
         {
@@ -3262,6 +4928,26 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "口琴",
         "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicasymphony",
+          "name": "博凱愛樂口琴交響樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HarmonicaSymphony",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_pokaiho",
+          "name": "博凱愛樂口琴交響樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@pokaiho",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -3270,13 +4956,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Brain Horizon",
       "category": "團體樂團",
       "type": "團體",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "早期 THMC 系列演出",
       "structuredSummary": "早期 THMC 系列演出 / 口琴重奏 / 歷史演出團體",
-      "summary": "台灣的口琴重奏歷史演出團體，活動脈絡包含早期 THMC 系列演出。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
+      "summary": "臺灣的口琴重奏歷史演出團體，活動脈絡包含早期 THMC 系列演出。",
       "keywords": "頭殼口琴樂團",
       "links": [
         {
@@ -3300,6 +4984,26 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴",
         "團體樂團",
         "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_brainhorizonharp",
+          "name": "頭殼口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/BrainHorizonHARP",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_brainhorizon570",
+          "name": "頭殼口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@brainhorizon570",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -3308,13 +5012,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Yellowstone Music Shop",
       "category": "教學器材",
       "type": "樂器行/教學工作室",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "口琴專賣/教學/講座/課程",
       "structuredSummary": "口琴專賣/教學/講座/課程 / 口琴 / 教學/活動/器材來源",
-      "summary": "台灣的口琴教學、活動與器材來源，關注口琴專賣、教學、講座與課程。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴教學、活動與器材來源，關注口琴專賣、教學、講座與課程。",
       "keywords": "黃石樂器 Yellowstone Music Shop 口琴 專賣 教學",
       "links": [
         {
@@ -3350,7 +5052,36 @@ window.HARMONICA_OBSERVE_DATA = {
         "品牌"
       ],
       "sourceSummary": "口琴專賣店，提供口琴銷售、教學、講座與課程服務。",
-      "sourceTagReason": "資料明確指出為樂器行/教學工作室，業務包含口琴專賣、教學、講座與課程，符合器材、教學、工作室與品牌標籤。"
+      "sourceTagReason": "資料明確指出為樂器行/教學工作室，業務包含口琴專賣、教學、講座與課程，符合器材、教學、工作室與品牌標籤。",
+      "monitorSources": [
+        {
+          "id": "fb_yellowstone_music_shop_tw",
+          "name": "黃石樂器",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/yellowstone.music.shop.tw",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_yellowstone_music_shop",
+          "name": "黃石樂器",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yellowstone_music_shop",
+          "profileUrl": "https://www.instagram.com/yellowstone_music_shop/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_yellowstone_musicshop",
+          "name": "黃石樂器",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@yellowstone_musicshop",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-62",
@@ -3363,8 +5094,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "cityOrFocus": "口琴四重奏/與天狼星合作",
       "structuredSummary": "口琴四重奏/與天狼星合作 / 口琴四重奏 / 國際演出團體",
       "summary": "荷蘭的口琴四重奏國際演出團體，活動脈絡包含與天狼星合作。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
       "keywords": "Fata Morgana harmonica quartet",
       "links": [
         {
@@ -3393,6 +5122,26 @@ window.HARMONICA_OBSERVE_DATA = {
         "團體樂團",
         "重奏",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_fatamorganamusic",
+          "name": "Fata Morgana 口琴四重奏",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/fatamorganamusic",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_fatamorganamusic",
+          "name": "Fata Morgana 口琴四重奏",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@fatamorganamusic",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -3401,13 +5150,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "其他來源",
       "type": "單位",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "協辦/製作/青年音樂家",
       "structuredSummary": "協辦/製作/青年音樂家 / 口琴/室內樂 / 協辦/活動來源",
-      "summary": "台灣的協辦與活動來源，關注協辦、製作與青年音樂家。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的協辦與活動來源，關注協辦、製作與青年音樂家。",
       "keywords": "簧格音樂 口琴",
       "links": [
         {
@@ -3430,7 +5177,7 @@ window.HARMONICA_OBSERVE_DATA = {
         "音樂會",
         "品牌"
       ],
-      "sourceSummary": "台灣口琴室內樂與活動製作公司，聚焦青年音樂家推廣。",
+      "sourceSummary": "臺灣口琴室內樂與活動製作公司，聚焦青年音樂家推廣。",
       "sourceTagReason": "名稱為有限公司，屬營利單位；關鍵字含口琴，類別為單位；摘要提及協辦/製作，故標團體樂團、口琴、活動資訊、音樂會、品牌。"
     },
     {
@@ -3439,13 +5186,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "團體樂團",
       "type": "團體",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "重奏/青年團體",
       "structuredSummary": "重奏/青年團體 / 口琴重奏 / 演出團體",
-      "summary": "台灣的口琴重奏演出團體，活動脈絡包含重奏與青年團體。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含重奏與青年團體。",
       "keywords": "DoNuts 口琴樂團",
       "links": [
         {
@@ -3474,8 +5219,37 @@ window.HARMONICA_OBSERVE_DATA = {
         "重奏",
         "口琴"
       ],
-      "sourceSummary": "台灣青年口琴重奏團體，專注演出與推廣口琴合奏藝術。",
-      "sourceTagReason": "名稱與分類明確為「團體樂團」，強調「重奏」與「演出」，屬於口琴相關團體。"
+      "sourceSummary": "臺灣青年口琴重奏團體，專注演出與推廣口琴合奏藝術。",
+      "sourceTagReason": "名稱與分類明確為「團體樂團」，強調「重奏」與「演出」，屬於口琴相關團體。",
+      "monitorSources": [
+        {
+          "id": "fb_harpdonuts",
+          "name": "DoNuts 口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harpDoNuts",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_donuts_harmonica",
+          "name": "DoNuts 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "donuts_harmonica",
+          "profileUrl": "https://www.instagram.com/donuts_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_harpdonuts",
+          "name": "DoNuts 口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@harpdonuts",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-22",
@@ -3483,13 +5257,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Spotlight Harmonica Ensemble",
       "category": "團體樂團",
       "type": "團體",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "青年/重奏/THMF相關",
       "structuredSummary": "青年/重奏/THMF相關 / 口琴重奏 / 演出團體",
-      "summary": "台灣的口琴重奏演出團體，活動脈絡包含青年、重奏與THMF相關。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
+      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含青年、重奏與THMF相關。",
       "keywords": "Spotlight 口琴樂團",
       "links": [
         {
@@ -3513,7 +5285,18 @@ window.HARMONICA_OBSERVE_DATA = {
         "演出"
       ],
       "sourceSummary": "專注口琴重奏的青年演出團體，與THMF相關。",
-      "sourceTagReason": "資料明確標示為「團體樂團」，核心活動是口琴重奏與演出，並提及與THMF（台灣口琴音樂節）相關。"
+      "sourceTagReason": "資料明確標示為「團體樂團」，核心活動是口琴重奏與演出，並提及與THMF（臺灣口琴音樂節）相關。",
+      "monitorSources": [
+        {
+          "id": "fb_ab771e2fae",
+          "name": "Spotlight 口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/people/Spotlight-Harmonica-Ensemble/100070066273672",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-24",
@@ -3521,13 +5304,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Philharmonica",
       "category": "團體樂團",
       "type": "團體/社群",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "社群型口琴資料",
       "structuredSummary": "社群型口琴資料 / 口琴 / 社群資料來源",
-      "summary": "台灣的口琴社群資料來源，活動脈絡包含社群型口琴資料。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
+      "summary": "臺灣的口琴社群資料來源，活動脈絡包含社群型口琴資料。",
       "keywords": "口琴愛樂集",
       "links": [
         {
@@ -3546,6 +5327,17 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "口琴",
         "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_philharmonica_fans",
+          "name": "口琴愛樂集",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/philharmonica.fans",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -3554,13 +5346,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Rhapsody Harmonica Ensemble",
       "category": "團體樂團",
       "type": "團體",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "合奏/地方演出/老牌合奏",
       "structuredSummary": "合奏/地方演出/老牌合奏 / 口琴重奏/合奏 / 演出團體",
-      "summary": "台灣的口琴重奏與合奏演出團體，活動脈絡包含地方演出與老牌合奏。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
+      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含地方演出與老牌合奏。",
       "keywords": "Rhapsody Harmonica Ensemble 狂響口琴樂團",
       "links": [
         {
@@ -3580,6 +5370,79 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴",
         "團體樂團",
         "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_rhapsodyharmonicaensemble",
+          "name": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/RhapsodyHarmonicaEnsemble",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-8+watchlist-64+club-4",
+      "name": "臺中市中華口琴會樂團",
+      "nameEn": "",
+      "category": "團體樂團",
+      "type": "團體 / 學校/青年",
+      "country": "臺灣",
+      "region": "臺灣 / 臺灣/臺中",
+      "cityOrFocus": "合奏/臺中地方演出/學生系統 / 學生團隊/比賽/演出 / 臺中",
+      "structuredSummary": "臺中市中華口琴會 / 口琴隊 / 學校團隊",
+      "summary": "臺中市中華口琴會的口琴隊學校團隊。",
+      "keywords": "臺中市中華口琴會 樂團 臺中市中華口琴會 學生 團隊",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.tcharmonica.org.tw/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TCHarmonicaA/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E5%8F%B0%E4%B8%AD%E5%B8%82%E4%B8%AD%E8%8F%AF%E5%8F%A3%E7%90%B4%E6%9C%83"
+        }
+      ],
+      "source": "club+watchlist",
+      "aliases": [
+        "臺中市中華口琴會相關學生團隊"
+      ],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/4df93c46438ca873550e.webp",
+      "sourceInitials": "臺中",
+      "sourceTags": [
+        "口琴",
+        "團體樂團",
+        "比賽"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_tcharmonicaa",
+          "name": "臺中市中華口琴會樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/TCHarmonicaA",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_2cd0d8c978",
+          "name": "臺中市中華口琴會樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E5%8F%B0%E4%B8%AD%E5%B8%82%E4%B8%AD%E8%8F%AF%E5%8F%A3%E7%90%B4%E6%9C%83",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -3588,13 +5451,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "團體樂團",
       "type": "團體/協會",
-      "country": "台灣",
-      "region": "台灣/高雄",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
       "cityOrFocus": "兒童口琴樂團/地方推廣/口琴教育",
       "structuredSummary": "兒童口琴樂團/地方推廣/口琴教育 / 口琴 / 地方推廣團體",
-      "summary": "台灣的口琴地方推廣團體，活動脈絡包含兒童口琴樂團、地方推廣與口琴教育。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴地方推廣團體，活動脈絡包含兒童口琴樂團、地方推廣與口琴教育。",
       "keywords": "高雄市兒童口琴樂團 高雄市口琴協會 劉志明 口琴 高雄",
       "links": [
         {
@@ -3617,6 +5478,17 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "口琴",
         "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_425623100793432",
+          "name": "高雄市兒童口琴樂團 / 高雄市口琴協會",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/%E9%AB%98%E9%9B%84%E5%B8%82%E5%8F%A3%E7%90%B4%E5%8D%94%E6%9C%83-425623100793432",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -3625,13 +5497,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "場館平台",
       "type": "場館",
-      "country": "台灣",
-      "region": "台灣/台北",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
       "cityOrFocus": "大型演出場館",
       "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "台灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
       "keywords": "國家兩廳院 口琴",
       "links": [
         {
@@ -3666,8 +5536,37 @@ window.HARMONICA_OBSERVE_DATA = {
         "音樂會",
         "演出"
       ],
-      "sourceSummary": "國家兩廳院為台北大型藝文表演場館，提供售票與活動資訊。",
-      "sourceTagReason": "資料明確標示為「場館平台」與「場館」，並提供售票與活動資訊，符合場館與活動相關標籤定義。"
+      "sourceSummary": "國家兩廳院為臺北大型藝文表演場館，提供售票與活動資訊。",
+      "sourceTagReason": "資料明確標示為「場館平台」與「場館」，並提供售票與活動資訊，符合場館與活動相關標籤定義。",
+      "monitorSources": [
+        {
+          "id": "fb_ntch_tw",
+          "name": "國家兩廳院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/ntch.tw",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_ntch_taipei",
+          "name": "國家兩廳院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "ntch.taipei",
+          "profileUrl": "https://www.instagram.com/ntch.taipei/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ntcharts",
+          "name": "國家兩廳院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/ntcharts",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-71",
@@ -3675,13 +5574,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "場館平台",
       "type": "校內場館/藝文中心",
-      "country": "台灣",
-      "region": "台灣/新竹",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
       "cityOrFocus": "校內藝文/合作演出",
       "structuredSummary": "校內藝文/合作演出 / 藝文活動 / 場館資訊來源",
-      "summary": "台灣的場館資訊來源，提供校內藝文與合作演出相關資訊。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的場館資訊來源，提供校內藝文與合作演出相關資訊。",
       "keywords": "陽明交通大學 藝文中心 口琴",
       "links": [
         {
@@ -3712,6 +5609,35 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "口琴",
         "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_nycuartscenter",
+          "name": "國立陽明交通大學藝文中心",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/NYCUArtsCenter",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nycu_artscenter",
+          "name": "國立陽明交通大學藝文中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nycu_artscenter",
+          "profileUrl": "https://www.instagram.com/nycu_artscenter/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_k8f",
+          "name": "國立陽明交通大學藝文中心",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E9%99%BD%E6%98%8E%E4%BA%A4%E5%A4%A7%E8%97%9D%E6%96%87%E4%B8%AD%E5%BF%83-k8f",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -3720,13 +5646,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "場館平台",
       "type": "場館/文化局",
-      "country": "台灣",
-      "region": "台灣/新竹",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
       "cityOrFocus": "場館/文化活動",
       "structuredSummary": "場館/文化活動 / 口琴/藝文 / 場館資訊來源",
-      "summary": "台灣的場館資訊來源，提供場館與文化活動相關資訊。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
+      "summary": "臺灣的場館資訊來源，提供場館與文化活動相關資訊。",
       "keywords": "新竹市文化局 口琴",
       "links": [
         {
@@ -3756,7 +5680,27 @@ window.HARMONICA_OBSERVE_DATA = {
         "活動資訊"
       ],
       "sourceSummary": "新竹市文化局，提供藝文場館資訊與活動推廣。",
-      "sourceTagReason": "名稱明確為文化局，欄位標示為場館平台，主要功能為場館資訊與藝文活動推廣。"
+      "sourceTagReason": "名稱明確為文化局，欄位標示為場館平台，主要功能為場館資訊與藝文活動推廣。",
+      "monitorSources": [
+        {
+          "id": "fb_culture_hccg",
+          "name": "新竹市文化局",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/culture.hccg",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_uc9ts62vub0wssvdqw_h3h_g",
+          "name": "新竹市文化局",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UC9ts62VuB0WSSVDQW_h3H_g",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-70",
@@ -3764,13 +5708,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "場館平台",
       "type": "場館/文化局",
-      "country": "台灣",
-      "region": "台灣/新竹",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
       "cityOrFocus": "場館/文化活動",
       "structuredSummary": "場館/文化活動 / 口琴/藝文 / 場館資訊來源",
-      "summary": "台灣的場館資訊來源，提供場館與文化活動相關資訊。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的場館資訊來源，提供場館與文化活動相關資訊。",
       "keywords": "新竹縣文化局 口琴",
       "links": [
         {
@@ -3804,7 +5746,36 @@ window.HARMONICA_OBSERVE_DATA = {
         "文化局"
       ],
       "sourceSummary": "新竹縣文化局為官方藝文場館平台，提供場地租借與藝文活動資訊。",
-      "sourceTagReason": "名稱、類別與摘要均明確指出為官方場館平台，提供場地與活動資訊，屬文化局單位。"
+      "sourceTagReason": "名稱、類別與摘要均明確指出為官方場館平台，提供場地與活動資訊，屬文化局單位。",
+      "monitorSources": [
+        {
+          "id": "fb_hchcc_gov",
+          "name": "新竹縣文化局",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hchcc.gov",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hsinchucounty_culture",
+          "name": "新竹縣文化局",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hsinchucounty_culture",
+          "profileUrl": "https://www.instagram.com/hsinchucounty_culture/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucqrgye_3lymvt7ewhrzbtzg",
+          "name": "新竹縣文化局",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-74",
@@ -3812,13 +5783,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "場館平台",
       "type": "場館",
-      "country": "台灣",
-      "region": "台灣/台中",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
       "cityOrFocus": "大型演出場館",
       "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "台灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
       "keywords": "臺中國家歌劇院 口琴",
       "links": [
         {
@@ -3852,7 +5821,36 @@ window.HARMONICA_OBSERVE_DATA = {
         "演出"
       ],
       "sourceSummary": "臺中大型藝文場館，提供音樂會等演出資訊與場地租借。",
-      "sourceTagReason": "明確標註為「場館平台」與「場館」類型，專注於大型藝文活動與演出資訊發布，並包含售票功能。"
+      "sourceTagReason": "明確標註為「場館平台」與「場館」類型，專注於大型藝文活動與演出資訊發布，並包含售票功能。",
+      "monitorSources": [
+        {
+          "id": "fb_npac_ntt",
+          "name": "臺中國家歌劇院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/npac.ntt",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_uctl1euke_x0w6tahecepgmq",
+          "name": "臺中國家歌劇院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-72",
@@ -3860,13 +5858,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "場館平台",
       "type": "場館",
-      "country": "台灣",
-      "region": "台灣/高雄",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
       "cityOrFocus": "大型演出場館",
       "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "台灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
       "keywords": "衛武營 口琴",
       "links": [
         {
@@ -3902,7 +5898,36 @@ window.HARMONICA_OBSERVE_DATA = {
         "演出"
       ],
       "sourceSummary": "高雄衛武營國家藝術文化中心，大型表演場館與藝文活動平台。",
-      "sourceTagReason": "類別為場館平台，提供場館資訊、售票與音樂會等藝文活動資訊，符合場館與活動定位。"
+      "sourceTagReason": "類別為場館平台，提供場館資訊、售票與音樂會等藝文活動資訊，符合場館與活動定位。",
+      "monitorSources": [
+        {
+          "id": "fb_weiwuyingcenterforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_weiwuyingfilm",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@weiwuyingfilm",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-65+club-20",
@@ -3910,13 +5935,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "學校社團",
       "type": "學校/青年",
-      "country": "台灣",
-      "region": "台灣/雲林",
+      "country": "臺灣",
+      "region": "臺灣/雲林",
       "cityOrFocus": "國中藝才班/口琴隊 / 雲林",
       "structuredSummary": "雲林縣二崙國中藝才班 / 口琴隊 / 學校團隊",
       "summary": "雲林縣二崙國中藝才班的口琴隊學校團隊。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
       "keywords": "二崙國中 藝才班 口琴",
       "links": [
         {
@@ -3938,8 +5961,18 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "雲林",
       "sourceTags": [
         "口琴",
-        "學校社團",
         "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_61550868336289",
+          "name": "雲林縣二崙國中藝才班口琴隊",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/61550868336289",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -3948,13 +5981,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Pocket Harmonic",
       "category": "教學器材",
       "type": "教學/影片來源",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "口琴教學/影片/開箱/視訊課程",
       "structuredSummary": "口琴教學/影片/開箱/視訊課程 / 半音階/十孔/複音 / 教學影片來源",
-      "summary": "台灣的半音階、十孔與複音教學影片來源，關注口琴教學、影片、開箱與視訊課程。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的半音階、十孔與複音教學影片來源，關注口琴教學、影片、開箱與視訊課程。",
       "keywords": "口袋琴房 Pocket Harmonic 房客聖崴 口琴 教學 開箱",
       "links": [
         {
@@ -3990,6 +6021,35 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "複音",
         "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_pocketharmonic",
+          "name": "口袋琴房 Pocket Harmonic",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/PocketHarmonic",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_pocketharmonic",
+          "name": "口袋琴房 Pocket Harmonic",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "pocketharmonic",
+          "profileUrl": "https://www.instagram.com/pocketharmonic/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_pocketharmonic",
+          "name": "口袋琴房 Pocket Harmonic",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@PocketHarmonic",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -3998,13 +6058,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Tongho Musical Instrument Co., Ltd. / music4fun",
       "category": "教學器材",
       "type": "樂器行/單位",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "口琴器材/活動資訊",
       "structuredSummary": "口琴器材/活動資訊 / 口琴 / 器材來源",
-      "summary": "台灣的口琴器材來源，關注口琴器材與活動資訊。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴器材來源，關注口琴器材與活動資訊。",
       "keywords": "東和樂器 口琴",
       "links": [
         {
@@ -4036,6 +6094,35 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴",
         "教學器材",
         "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_music4fun_com_tw",
+          "name": "東和樂器",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/music4fun.com.tw",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_music4fun_com_tw",
+          "name": "東和樂器",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "music4fun.com.tw",
+          "profileUrl": "https://www.instagram.com/music4fun.com.tw/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucj6k37vazqzrldrbrffdfjw",
+          "name": "東和樂器",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCj6k37VazQzRldrBRfFDFJw",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -4044,13 +6131,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Rhapsody Harmonica & Drum Studio",
       "category": "教學器材",
       "type": "教學工作室",
-      "country": "台灣",
-      "region": "台灣/高雄",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
       "cityOrFocus": "口琴/手鼓教學/工作室/講座",
       "structuredSummary": "口琴/手鼓教學/工作室/講座 / 口琴/手鼓 / 教學/工作坊/活動來源",
-      "summary": "台灣的口琴與手鼓教學、工作坊與活動來源，關注手鼓教學、工作室與講座。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴與手鼓教學、工作坊與活動來源，關注手鼓教學、工作室與講座。",
       "keywords": "狂響逗嘴鼓口琴樂坊 高雄 口琴 手鼓 教學 工作室",
       "links": [
         {
@@ -4076,7 +6161,18 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴"
       ],
       "sourceSummary": "高雄的口琴與手鼓教學工作室，提供課程與講座。",
-      "sourceTagReason": "名稱含「樂坊」，類別為教學器材，類型為教學工作室，主要活動是口琴與手鼓的教學、工作坊與講座。"
+      "sourceTagReason": "名稱含「樂坊」，類別為教學器材，類型為教學工作室，主要活動是口琴與手鼓的教學、工作坊與講座。",
+      "monitorSources": [
+        {
+          "id": "fb_harmonicadrumrhapsody",
+          "name": "狂響逗嘴鼓口琴樂坊",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HarmonicaDrumRhapsody",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-75",
@@ -4084,13 +6180,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Musix Co., Ltd.",
       "category": "教學器材",
       "type": "樂器行/單位",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "口琴器材/活動資訊",
       "structuredSummary": "口琴器材/活動資訊 / 口琴 / 器材來源",
-      "summary": "台灣的口琴器材來源，關注口琴器材與活動資訊。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的口琴器材來源，關注口琴器材與活動資訊。",
       "keywords": "雙燕樂器 口琴",
       "links": [
         {
@@ -4118,6 +6212,26 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴",
         "教學器材",
         "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_musixkhs",
+          "name": "雙燕樂器",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/MusixKHS",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_khs_musix",
+          "name": "雙燕樂器",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@KHS_musix",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -4126,14 +6240,12 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "An Afternoon with Harmonica",
       "category": "活動資訊",
       "type": "國際交流活動",
-      "country": "台灣",
-      "region": "國際/台灣交流",
-      "cityOrFocus": "口琴沙龍/國際交流/台灣演奏者相關活動",
-      "structuredSummary": "口琴沙龍/國際交流/台灣演奏者相關活動 / 口琴 / 國際交流活動",
-      "summary": "台灣的國際交流活動，涵蓋口琴沙龍、國際交流與台灣演奏者相關活動。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "An Afternoon with Harmonica 口琴 台灣 國際交流",
+      "country": "臺灣",
+      "region": "國際/臺灣交流",
+      "cityOrFocus": "口琴沙龍/國際交流/臺灣演奏者相關活動",
+      "structuredSummary": "口琴沙龍/國際交流/臺灣演奏者相關活動 / 口琴 / 國際交流活動",
+      "summary": "臺灣的國際交流活動，涵蓋口琴沙龍、國際交流與臺灣演奏者相關活動。",
+      "keywords": "An Afternoon with Harmonica 口琴 臺灣 國際交流",
       "links": [
         {
           "label": "Facebook",
@@ -4156,6 +6268,26 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴",
         "活動資訊",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_anafternoonwithharmonica",
+          "name": "An Afternoon with Harmonica",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/AnAfternoonwithHarmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_anafternoonwithharmonica",
+          "name": "An Afternoon with Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "anafternoonwithharmonica",
+          "profileUrl": "https://www.instagram.com/anafternoonwithharmonica/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -4164,13 +6296,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "From Harmonica to Music",
       "category": "活動資訊",
       "type": "活動/演出企劃",
-      "country": "台灣",
-      "region": "台灣/台北",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
       "cityOrFocus": "半音階口琴沙龍音樂會/新秀介紹",
       "structuredSummary": "半音階口琴沙龍音樂會/新秀介紹 / 半音階口琴 / 活動資訊來源",
-      "summary": "台灣的活動資訊來源，涵蓋半音階口琴沙龍音樂會與新秀介紹。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的活動資訊來源，涵蓋半音階口琴沙龍音樂會與新秀介紹。",
       "keywords": "From Harmonica to Music 口琴 半音階 沙龍音樂會",
       "links": [
         {
@@ -4194,6 +6324,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴",
         "活動資訊",
         "半音階"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_fromharmonicatomusic",
+          "name": "From Harmonica to Music",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/fromharmonicatomusic",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -4202,13 +6343,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "活動資訊",
       "type": "售票平台",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "正式售票演出/講座",
       "structuredSummary": "正式售票演出/講座 / 口琴 / 售票資訊來源",
-      "summary": "台灣的售票資訊來源，涵蓋正式售票演出與講座。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
+      "summary": "臺灣的售票資訊來源，涵蓋正式售票演出與講座。",
       "keywords": "OPENTIX 口琴 售票",
       "links": [
         {
@@ -4231,6 +6370,17 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "口琴",
         "活動資訊"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_opentixntch",
+          "name": "OPENTIX 口琴售票搜尋",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/OPENTIXNTCH",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -4244,8 +6394,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "cityOrFocus": "三重奏/與 Judy’s 合作",
       "structuredSummary": "三重奏/與 Judy’s 合作 / 口琴重奏 / 國際演出人員/團體",
       "summary": "以色列的口琴重奏國際演出人員與團體，活動脈絡包含三重奏與與 Judy’s 合作。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
       "keywords": "Dror Adler Adler Trio harmonica",
       "links": [
         {
@@ -4271,54 +6419,26 @@ window.HARMONICA_OBSERVE_DATA = {
         "團體樂團",
         "重奏",
         "國際交流"
-      ]
-    },
-    {
-      "id": "watchlist-99",
-      "name": "Timothy Yip 葉進禧",
-      "nameEn": "Timothy Yip",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/國際比賽/演出/RedBricks",
-      "structuredSummary": "半音階/國際比賽/演出/RedBricks / 半音階 / 國際演出人員",
-      "summary": "香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "Timothy Yip 葉進禧 harmonica chromatic harmonicist RedBricks",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.timothyyipharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/profile.php?id=100085232439912"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/timothyyip_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw"
-        }
       ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "",
-      "sourceInitials": "TY",
-      "sourceTags": [
-        "口琴",
-        "演奏者",
-        "比賽",
-        "半音階",
-        "國際交流"
+      "monitorSources": [
+        {
+          "id": "fb_dror_adler_7",
+          "name": "Dror Adler / Adler Trio",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/dror.adler.7",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_dror_adler",
+          "name": "Dror Adler / Adler Trio",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@Dror-adler",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -4327,13 +6447,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "WU,Yung-Lung",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "班多鈕/跨界合作",
       "structuredSummary": "班多鈕/跨界合作 / 班多鈕 / 合作音樂家",
-      "summary": "台灣的班多鈕合作音樂家，活動脈絡包含跨界合作。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
+      "summary": "臺灣的班多鈕合作音樂家，活動脈絡包含跨界合作。",
       "keywords": "吳詠隆 班多鈕 口琴",
       "links": [
         {
@@ -4363,7 +6481,27 @@ window.HARMONICA_OBSERVE_DATA = {
         "合奏"
       ],
       "sourceSummary": "以班多鈕手琴與跨界合作為主的演奏者",
-      "sourceTagReason": "資料明確標示為『演奏者』，關鍵字包含『班多鈕』與『口琴』，並提及跨界合作，符合演奏者定位。"
+      "sourceTagReason": "資料明確標示為『演奏者』，關鍵字包含『班多鈕』與『口琴』，並提及跨界合作，符合演奏者定位。",
+      "monitorSources": [
+        {
+          "id": "fb_markwu_bandoneon",
+          "name": "吳詠隆",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/markwu.bandoneon",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_markbandoneon",
+          "name": "吳詠隆",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@markbandoneon",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-45",
@@ -4371,13 +6509,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Wu Tsai Rung",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "年輕半音階/複音演奏者",
       "structuredSummary": "年輕半音階/複音演奏者 / 半音階/複音 / 演出人員",
-      "summary": "台灣的半音階與複音演出人員，活動脈絡包含年輕半音階與複音演奏者。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
+      "summary": "臺灣的半音階與複音演出人員，活動脈絡包含年輕半音階與複音演奏者。",
       "keywords": "吳采容 口琴",
       "links": [
         {
@@ -4402,8 +6538,19 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "複音"
       ],
-      "sourceSummary": "年輕台灣口琴演奏者，專長半音階與複音口琴。",
-      "sourceTagReason": "資料明確標示為『個人』、『演奏者』，並指出專長半音階與複音口琴。"
+      "sourceSummary": "年輕臺灣口琴演奏者，專長半音階與複音口琴。",
+      "sourceTagReason": "資料明確標示為『個人』、『演奏者』，並指出專長半音階與複音口琴。",
+      "monitorSources": [
+        {
+          "id": "ig_aurora_harmonica",
+          "name": "吳采容",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "aurora._.harmonica",
+          "profileUrl": "https://www.instagram.com/aurora._.harmonica/",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-42",
@@ -4411,13 +6558,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Hsin-Ho Wang",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "胖擊系",
       "structuredSummary": "胖擊系 / 口琴 / 演出人員",
-      "summary": "台灣的口琴演出人員，活動脈絡包含胖擊系。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
       "keywords": "王心禾 口琴",
       "links": [
         {
@@ -4437,8 +6582,19 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者",
         "口琴"
       ],
-      "sourceSummary": "台灣口琴演奏者，活躍於演出活動。",
-      "sourceTagReason": "資料明確標註「類別：演奏者」與「類型：個人」，並提及口琴與演出。"
+      "sourceSummary": "臺灣口琴演奏者，活躍於演出活動。",
+      "sourceTagReason": "資料明確標註「類別：演奏者」與「類型：個人」，並提及口琴與演出。",
+      "monitorSources": [
+        {
+          "id": "ig_harmonica_wang",
+          "name": "王心禾",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.instagram.com/harmonica_wang/",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-35",
@@ -4446,13 +6602,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "天狼星系",
       "structuredSummary": "天狼星系 / 口琴/重奏 / 演出人員",
-      "summary": "台灣的口琴與重奏演出人員，活動脈絡包含天狼星系。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
+      "summary": "臺灣的口琴與重奏演出人員，活動脈絡包含天狼星系。",
       "keywords": "陳奕翔 口琴",
       "links": [
         {
@@ -4479,7 +6633,18 @@ window.HARMONICA_OBSERVE_DATA = {
         "重奏"
       ],
       "sourceSummary": "個人演奏者，隸屬天狼星系口琴重奏團，從事口琴演出。",
-      "sourceTagReason": "資料明確標示類別為「演奏者」，個人類型，且摘要提及口琴與重奏，故標記演奏者、口琴、合奏、重奏。"
+      "sourceTagReason": "資料明確標示類別為「演奏者」，個人類型，且摘要提及口琴與重奏，故標記演奏者、口琴、合奏、重奏。",
+      "monitorSources": [
+        {
+          "id": "fb_aria0831",
+          "name": "陳奕翔",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/aria0831",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-32",
@@ -4487,13 +6652,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "天狼星/THMF/和弦口琴/推廣",
       "structuredSummary": "天狼星/THMF/和弦口琴/推廣 / 和弦/重奏 / 演出人員/推廣者",
-      "summary": "台灣的和弦與重奏演出人員與推廣者，活動脈絡包含天狼星、THMF與和弦口琴。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
+      "summary": "臺灣的和弦與重奏演出人員與推廣者，活動脈絡包含天狼星、THMF與和弦口琴。",
       "keywords": "陳彥銘 口琴 天狼星 THMF",
       "links": [
         {
@@ -4525,7 +6688,27 @@ window.HARMONICA_OBSERVE_DATA = {
         "交流"
       ],
       "sourceSummary": "天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。",
-      "sourceTagReason": "資料明確標註為演奏者，並提及天狼星樂團、和弦口琴及推廣，符合演奏者與相關標籤。"
+      "sourceTagReason": "資料明確標註為演奏者，並提及天狼星樂團、和弦口琴及推廣，符合演奏者與相關標籤。",
+      "monitorSources": [
+        {
+          "id": "fb_emerychen_cm",
+          "name": "陳彥銘",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/emerychen.cm",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_yenmingchen",
+          "name": "陳彥銘",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yenmingchen",
+          "profileUrl": "https://www.instagram.com/yenmingchen/",
+          "feedUrl": ""
+        }
+      ]
     },
     {
       "id": "watchlist-44",
@@ -4533,13 +6716,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "胖擊系",
       "structuredSummary": "胖擊系 / 口琴 / 演出人員",
-      "summary": "台灣的口琴演出人員，活動脈絡包含胖擊系。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
       "keywords": "陳聰 口琴",
       "links": [
         {
@@ -4558,6 +6739,17 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "口琴",
         "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_chen_cong_199678",
+          "name": "陳聰",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chen.cong.199678",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -4566,13 +6758,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
-      "country": "台灣",
-      "region": "台灣",
+      "country": "臺灣",
+      "region": "臺灣",
       "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
       "structuredSummary": "天狼星/胖擊系/和弦口琴/重奏 / 和弦/重奏 / 演出人員",
-      "summary": "台灣的和弦與重奏演出人員，活動脈絡包含天狼星、胖擊系與和弦口琴。",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
+      "summary": "臺灣的和弦與重奏演出人員，活動脈絡包含天狼星、胖擊系與和弦口琴。",
       "keywords": "黃冠誌 口琴",
       "links": [
         {
@@ -4605,12 +6795,31 @@ window.HARMONICA_OBSERVE_DATA = {
         "演出"
       ],
       "sourceSummary": "口琴演奏者，專長和弦口琴與重奏演出。",
-      "sourceTagReason": "來源明確標示為個人與演奏者，且專長涉及和弦、重奏與演出。"
+      "sourceTagReason": "來源明確標示為個人與演奏者，且專長涉及和弦、重奏與演出。",
+      "monitorSources": [
+        {
+          "id": "ig_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_cbd128e3de",
+          "name": "黃冠誌",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
+          "feedUrl": ""
+        }
+      ]
     }
   ],
   "stats": {
     "totalEntries": 105,
-    "verifiedEntries": 79,
     "categories": {
       "其他來源": 2,
       "團體樂團": 22,
@@ -4622,17 +6831,13 @@ window.HARMONICA_OBSERVE_DATA = {
     },
     "countries": {
       "以色列": 1,
-      "台灣": 87,
       "日本": 4,
+      "臺灣": 87,
       "荷蘭": 1,
       "西班牙": 1,
       "韓國": 2,
       "香港": 7,
       "馬來西亞": 2
-    },
-    "statuses": {
-      "已查核": 79,
-      "部分查核": 26
     },
     "watchSources": {
       "totalSources": 244,

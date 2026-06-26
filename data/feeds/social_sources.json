@@ -476,7 +476,7 @@
       "enabled": true,
       "id": "fb_tcharmonicaa",
       "limit": 5,
-      "name": "台中市中華口琴會樂團",
+      "name": "臺中市中華口琴會樂團",
       "page": "TCHarmonicaA",
       "url": "https://facebook.com/TCHarmonicaA",
       "platform": "facebook",
@@ -485,13 +485,13 @@
     },
     {
       "enabled": true,
-      "id": "yt_849af81509",
+      "id": "yt_2cd0d8c978",
       "include_without_keywords": true,
       "limit": 3,
-      "name": "台中市中華口琴會樂團",
+      "name": "臺中市中華口琴會樂團",
       "platform": "youtube",
       "type": "youtube_ytdlp",
-      "url": "https://youtube.com/@台中市中華口琴會",
+      "url": "https://youtube.com/@%E5%8F%B0%E4%B8%AD%E5%B8%82%E4%B8%AD%E8%8F%AF%E5%8F%A3%E7%90%B4%E6%9C%83",
       "generated_by": "scripts/build_social_sources.py"
     },
     {
@@ -579,11 +579,11 @@
     },
     {
       "enabled": true,
-      "id": "fb_6d6569291f",
+      "id": "fb_1269e7d1cd",
       "limit": 5,
       "name": "張筑婷",
       "page": "",
-      "url": "https://facebook.com/p/張筑婷複音口琴-CTTH-100066550038070",
+      "url": "https://facebook.com/p/%E5%BC%B5%E7%AD%91%E5%A9%B7%E8%A4%87%E9%9F%B3%E5%8F%A3%E7%90%B4-CTTH-100066550038070",
       "platform": "facebook",
       "type": "facebook_page_posts",
       "generated_by": "scripts/build_social_sources.py"
@@ -708,13 +708,13 @@
     },
     {
       "enabled": true,
-      "id": "yt_f959d2cfb1",
+      "id": "yt_db1616fd7c",
       "include_without_keywords": true,
       "limit": 3,
       "name": "口琴好南合奏樂團",
       "platform": "youtube",
       "type": "youtube_ytdlp",
-      "url": "https://youtube.com/@口琴好南",
+      "url": "https://youtube.com/@%E5%8F%A3%E7%90%B4%E5%A5%BD%E5%8D%97",
       "generated_by": "scripts/build_social_sources.py"
     },
     {
@@ -1069,13 +1069,13 @@
     },
     {
       "enabled": true,
-      "id": "yt_a7d0e0444f",
+      "id": "yt_cbd128e3de",
       "include_without_keywords": true,
       "limit": 3,
       "name": "黃冠誌",
       "platform": "youtube",
       "type": "youtube_ytdlp",
-      "url": "https://youtube.com/@黃冠誌",
+      "url": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
       "generated_by": "scripts/build_social_sources.py"
     },
     {
@@ -1902,7 +1902,7 @@
       "name": "國立陽明交通大學藝文中心",
       "platform": "youtube",
       "type": "youtube_ytdlp",
-      "url": "https://youtube.com/@陽明交大藝文中心-k8f",
+      "url": "https://youtube.com/@%E9%99%BD%E6%98%8E%E4%BA%A4%E5%A4%A7%E8%97%9D%E6%96%87%E4%B8%AD%E5%BF%83-k8f",
       "generated_by": "scripts/build_social_sources.py"
     },
     {
@@ -2115,11 +2115,11 @@
     },
     {
       "enabled": true,
-      "id": "fb_db280c7702",
+      "id": "fb_291bc27392",
       "limit": 5,
       "name": "桃園玩口琴",
       "page": "",
-      "url": "https://facebook.com/p/桃園玩口琴-100057424090624",
+      "url": "https://facebook.com/p/%E6%A1%83%E5%9C%92%E7%8E%A9%E5%8F%A3%E7%90%B4-100057424090624",
       "platform": "facebook",
       "type": "facebook_page_posts",
       "generated_by": "scripts/build_social_sources.py"
@@ -2209,7 +2209,7 @@
       "enabled": true,
       "id": "fb_taipeiyellowstoneharmonicaensemble",
       "limit": 5,
-      "name": "台北黃石口琴樂團",
+      "name": "臺北黃石口琴樂團",
       "page": "TaipeiYellowstoneHarmonicaEnsemble",
       "url": "https://facebook.com/TaipeiYellowstoneHarmonicaEnsemble",
       "platform": "facebook",
@@ -2351,7 +2351,7 @@
       "limit": 5,
       "name": "高雄市兒童口琴樂團 / 高雄市口琴協會",
       "page": "高雄市口琴協會-425623100793432",
-      "url": "https://facebook.com/高雄市口琴協會-425623100793432",
+      "url": "https://facebook.com/%E9%AB%98%E9%9B%84%E5%B8%82%E5%8F%A3%E7%90%B4%E5%8D%94%E6%9C%83-425623100793432",
       "platform": "facebook",
       "type": "facebook_page_posts",
       "generated_by": "scripts/build_social_sources.py"
@@ -2655,24 +2655,24 @@
     },
     {
       "enabled": true,
-      "id": "yt_c37dc7ba37",
+      "id": "yt_19430dac8a",
       "include_without_keywords": true,
       "limit": 3,
       "name": "中一中口琴社",
       "platform": "youtube",
       "type": "youtube_ytdlp",
-      "url": "https://youtube.com/@口琴之狼",
+      "url": "https://youtube.com/@%E5%8F%A3%E7%90%B4%E4%B9%8B%E7%8B%BC",
       "generated_by": "scripts/build_social_sources.py"
     },
     {
       "enabled": true,
-      "id": "yt_afd4d475bb",
+      "id": "yt_10f4784559",
       "include_without_keywords": true,
       "limit": 3,
       "name": "中山醫藍韻口琴社",
       "platform": "youtube",
       "type": "youtube_ytdlp",
-      "url": "https://youtube.com/@中山醫學大學藍韻口琴",
+      "url": "https://youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4",
       "generated_by": "scripts/build_social_sources.py"
     },
     {
@@ -2745,22 +2745,22 @@
     },
     {
       "enabled": true,
-      "id": "yt_aade4d8944",
+      "id": "yt_8fac81430c",
       "include_without_keywords": true,
       "limit": 3,
       "name": "成大口琴社",
       "platform": "youtube",
       "type": "youtube_ytdlp",
-      "url": "https://youtube.com/@成大口琴社",
+      "url": "https://youtube.com/@%E6%88%90%E5%A4%A7%E5%8F%A3%E7%90%B4%E7%A4%BE",
       "generated_by": "scripts/build_social_sources.py"
     },
     {
       "enabled": true,
-      "id": "fb_2d5dec5672",
+      "id": "fb_951baeb1a9",
       "limit": 5,
       "name": "彰師大白沙口琴社",
       "page": "",
-      "url": "https://facebook.com/p/彰師大白沙口琴社-100063575904295",
+      "url": "https://facebook.com/p/%E5%BD%B0%E5%B8%AB%E5%A4%A7%E7%99%BD%E6%B2%99%E5%8F%A3%E7%90%B4%E7%A4%BE-100063575904295",
       "platform": "facebook",
       "type": "facebook_page_posts",
       "generated_by": "scripts/build_social_sources.py"

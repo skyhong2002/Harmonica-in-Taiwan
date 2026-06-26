@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T10:15:16.393693+00:00",
+  "updatedAt": "2026-06-26T17:11:38.609610+00:00",
   "profiles": {
     "ig_ntnu_harmonica": {
       "id": "ig_ntnu_harmonica",
@@ -992,7 +992,7 @@
     },
     "apify_facebook_posts": {
       "avatar_source_url": "https://scontent-det1-1.xx.fbcdn.net/v/t39.30808-1/481211749_10226256655301514_7164570071186048255_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1080x1080&ctp=s50x50&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=Fp91-Rbp34MQ7kNvwHpWddc&_nc_oc=AdoJk0egi-ZW0OHHWwK-LTfYEXoFiUx3kLysuIhFfeaQWzUCjJqPOSm72D9KmIZP3UI&_nc_zt=24&_nc_ht=scontent-det1-1.xx&_nc_gid=zoqp5Nffov6Xcnum5o2wLA&_nc_ss=72289&oh=00_Af8KD7g0gjaPDmW6StTl-g486Eee4lsi4Bv0rpqYmFDZMA&oe=6A40B133",
-      "avatar_url": "/assets/source-avatars/7feaed6296a0f5405d11.webp"
+      "avatar_url": "/assets/source-avatars/4a0cc100ef42e512b845.webp"
     },
     "fb_fanhsiaoyi": {
       "id": "fb_fanhsiaoyi",
@@ -1265,7 +1265,7 @@
       "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/702399010_1594746349317576_6447986012116749468_n.jpg?stp=dst-jpg_tt6&cstp=mx877x880&ctp=s720x720&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=USxs9v4MwVoQ7kNvwGy0lcz&_nc_oc=AdqCoyi9vM0Uzszf0LK2B5LeRYzU8CecYzIzMLs4pdISuq3aPLFsYYGJcfILTIwvu38&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=yinQuAGH050Tp32Tn8FWZQ&_nc_ss=7020f&oh=00_Af953M2lmzwfWRvpzDvX0OewdjQTf-sHNqRy0BcpKbKYkA&oe=6A418768",
       "title": "陽明交大竹韻口琴社",
       "description": "陽明交大竹韻口琴社， 新竹市。 568 個讚。【竹韻公佈欄】\n交通大學竹韻口琴社  -> 陽明交大竹韻口琴社 \n創社連署：\nhttps://clubportal.nycu.edu.tw/club/new/sign/DCC92467-0F2B-4AA8-8C56-3D1BF37430FA",
-      "avatar_url": "/assets/source-avatars/7a95da302f31d963881c.webp"
+      "avatar_url": "/assets/source-avatars/cea4c5cb6a964fe7e916.webp"
     },
     "ig_nycu_harmonica": {
       "id": "ig_nycu_harmonica",
@@ -1696,6 +1696,60 @@
       "platform": "threads",
       "profile_url": "https://www.threads.net/@otistsao",
       "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/587645422_17934069213109111_2235405373157085565_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gHWfkW8ySXbW--ycxODN49RTMHf7nn-77oG-MXztDUuK0Pw7hKXIl8DdhgLMyYGCGU&_nc_ohc=uq93Q6-u-qsQ7kNvwHcsspz&_nc_gid=uFEM_PWV2TA2GX0tQYOHgA&edm=APs17CUBAAAA&ccb=7-5&oh=00_Af_E25GN5ssfC97Ji6Qf92WrGID493mP5jCH2mRhL500EQ&oe=6A416BDD&_nc_sid=10d13b"
+    },
+    "fb_c74bf61a25": {
+      "id": "fb_c74bf61a25",
+      "name": "Timothy Yip 葉進禧",
+      "account": "https://facebook.com/profile.php?id=100085232439912",
+      "platform": "facebook",
+      "profile_url": "https://facebook.com/profile.php?id=100085232439912",
+      "avatar_source_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/348830260_220740090711886_4272451009526535677_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx960x959&ctp=s50x50&_nc_cat=105&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=Od0z8Ljf7-UQ7kNvwEWpEsQ&_nc_oc=AdqLHqm_cftx2jpezA-IDhJGlX-OJKYuPX6xOV4EEkESarhsd-MoD1lCRSCToqUTJKk&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=qg4za3YVzg2nYBRaGJG6yw&_nc_ss=72289&oh=00_Af9SdzJdud9ZYUrgffOll9QIRAAbFXCuZF7E8LYLv4u5vg&oe=6A446FEB",
+      "avatar_url": "/assets/source-avatars/4a0cc100ef42e512b845.webp"
+    },
+    "fb_minamirisa": {
+      "id": "fb_minamirisa",
+      "name": "南里沙",
+      "account": "minamirisa",
+      "platform": "facebook",
+      "profile_url": "https://facebook.com/minamirisa",
+      "avatar_source_url": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-1/290021596_444825850796948_4419441312287844176_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx837x837&ctp=s50x50&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=aQgLjBOPmCgQ7kNvwHLPDLc&_nc_oc=AdrNIq2H-bVpTSm7_4UjtxQyR6NZup9VjAGKfOL6TQmbIbnoOmAihIoOW-CDj9LubqM&_nc_zt=24&_nc_ht=scontent-iad3-1.xx&_nc_gid=LxJ_Stj9k_gU-ecQ6YGK5A&_nc_ss=72289&oh=00_Af9nNhsLfiv78bALD9cexMcxA-ZSQTtl5mChoNw-OuglCg&oe=6A446EF2",
+      "avatar_url": "/assets/source-avatars/a9fe7520e7dd412a3cad.webp"
+    },
+    "fb_ntubluesound": {
+      "id": "fb_ntubluesound",
+      "name": "NTU Blue Sound Harmonica Club",
+      "account": "ntubluesound",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/ntubluesound/",
+      "avatar_source_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/305280445_502370605228335_616126706350752877_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx960x960&ctp=s50x50&_nc_cat=100&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=qYi51uINjKIQ7kNvwGDDbx0&_nc_oc=AdpdYdxwUhQUHPVkOTRZ9EugMped5R9bOYf_amUoCCkZA0ZbReK8BQlqMSgIc0oDkVX8qp8yWB-9HAkk7eWaOiHm&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=QGzIkVaxbLhaA2gt5Rux3g&_nc_ss=72289&oh=00_Af8SqtRzUTrTCSSxCVtekc6E0vHnf6eomV_nqiz3CROVCA&oe=6A445C24",
+      "avatar_url": "/assets/source-avatars/f95c60cf9129fa1adf85.webp"
+    },
+    "ig_timothyyip_harmonica": {
+      "id": "ig_timothyyip_harmonica",
+      "name": "Timothy Yip 葉進禧",
+      "account": "timothyyip_harmonica",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/timothyyip_harmonica/",
+      "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/495087999_17978614532829727_1317536473846222584_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gH_-q_uQ3KFuyUKbhmSmrXAMDJzzfaSijJs_YXF02zRydjw34LaZybgU-dwkWYXyGM&_nc_ohc=cseNE6xpjXIQ7kNvwGYq9cd&_nc_gid=7pB6PQc3Ag71JiMtcT92JQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af9lz63zpZ7Fa3VjIm8G5ybJxrafU2-BMd6bFAnORVumuQ&oe=6A44935B&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/b3f7aa0fd27eabb8b69a.webp"
+    },
+    "x_minami_risa": {
+      "id": "x_minami_risa",
+      "name": "南里沙",
+      "account": "minami_risa",
+      "platform": "x",
+      "profile_url": "https://x.com/minami_risa",
+      "avatar_source_url": "https://pbs.twimg.com/profile_images/1343096514319503362/lAiKQhqj.jpg",
+      "avatar_url": "/assets/source-avatars/e1b0306ebd66c0e3ac71.webp"
+    },
+    "x_rei_harmonica": {
+      "id": "x_rei_harmonica",
+      "name": "山下伶 Rei Yamashita",
+      "account": "rei_harmonica",
+      "platform": "x",
+      "profile_url": "https://x.com/rei_harmonica",
+      "avatar_source_url": "https://pbs.twimg.com/profile_images/1920904652691841024/rFUus9V4.jpg",
+      "avatar_url": "/assets/source-avatars/d350740a2547c7804927.webp"
     }
   }
 }

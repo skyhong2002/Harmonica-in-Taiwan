@@ -26,13 +26,14 @@ SOCIAL_SOURCES = PROJECT_ROOT / "data" / "feeds" / "social_sources.json"
 SOCIAL_CANDIDATES = PROJECT_ROOT / "data" / "feeds" / "social_candidates.jsonl"
 SOCIAL_INBOX = PROJECT_ROOT / "data" / "feeds" / "social_feed_inbox.jsonl"
 SOCIAL_ERRORS = PROJECT_ROOT / "data" / "feeds" / "social_feed_errors.jsonl"
+SOCIAL_SEEN = PROJECT_ROOT / "state" / "social_seen.json"
 APIFY_LEDGER = PROJECT_ROOT / "state" / "apify_facebook_fetcher.json"
 YOUTUBE_LEDGER = PROJECT_ROOT / "state" / "youtube_ytdlp_fetcher.json"
 LATEST_API = SITE_ROOT / "api" / "latest.json"
 SOURCES_API = SITE_ROOT / "api" / "sources.json"
 PIPELINE_LOG = PROJECT_ROOT / "logs" / "pipeline.log"
 PIPELINE_ERR_LOG = PROJECT_ROOT / "logs" / "pipeline.err.log"
-ASSET_VERSION = "20260626-2207"
+ASSET_VERSION = "20260626-2339"
 PUBLIC_BASE_URL = "https://harmonica.observe.tw"
 TAIPEI_TZ = dt.timezone(dt.timedelta(hours=8))
 CURRENT_ERROR_WINDOW_SECONDS = 15 * 60
@@ -295,6 +296,29 @@ def annotate_errors(
     return annotated
 
 
+def youtube_success_times(youtube_ledger: dict[str, Any]) -> dict[str, dt.datetime]:
+    sources = youtube_ledger.get("sources") if isinstance(youtube_ledger, dict) else {}
+    if not isinstance(sources, dict):
+        return {}
+    recovered: dict[str, dt.datetime] = {}
+    for source_id, state in sources.items():
+        if not isinstance(state, dict) or state.get("last_status") != "ok":
+            continue
+        success_at = parse_time(state.get("last_success_at") or state.get("last_checked_at"))
+        if success_at is not None:
+            recovered[str(source_id)] = success_at
+    return recovered
+
+
+def youtube_error_superseded(row: dict[str, Any], recovered: dict[str, dt.datetime]) -> bool:
+    if row.get("source_type") != "youtube_ytdlp":
+        return False
+    source_id = str(row.get("source_id") or "")
+    error_seen_at = parse_time(row.get("seen_at"))
+    recovered_at = recovered.get(source_id)
+    return bool(error_seen_at and recovered_at and recovered_at >= error_seen_at)
+
+
 def build_status() -> dict[str, Any]:
     now = dt.datetime.now(dt.timezone.utc)
     sources = enabled_watch_sources()
@@ -302,15 +326,19 @@ def build_status() -> dict[str, Any]:
     candidates = read_jsonl(SOCIAL_CANDIDATES)
     inbox = read_jsonl(SOCIAL_INBOX)
     errors = read_jsonl(SOCIAL_ERRORS)
+    social_seen = read_json(SOCIAL_SEEN, {})
     latest_payload = read_json(LATEST_API, {})
     sources_payload = read_json(SOURCES_API, {})
     apify_ledger = read_json(APIFY_LEDGER, {})
     youtube_ledger = read_json(YOUTUBE_LEDGER, {})
+    youtube_recovered_at = youtube_success_times(youtube_ledger)
 
     latest_generated_at = parse_time(latest_payload.get("generatedAt"))
     latest_data_mtime = file_mtime(LATEST_API)
     latest_error_at = max_time([parse_time(row.get("seen_at")) for row in errors])
-    latest_social_seen_at = max_time([latest_seen_at(candidates), latest_seen_at(inbox), latest_error_at])
+    latest_social_seen_at = max_time(
+        [latest_seen_at(candidates), latest_seen_at(inbox), latest_error_at, parse_time(social_seen.get("updated_at"))]
+    )
     current_errors = []
     if latest_social_seen_at is not None:
         lower_bound = latest_social_seen_at - dt.timedelta(seconds=CURRENT_ERROR_WINDOW_SECONDS)
@@ -321,6 +349,7 @@ def build_status() -> dict[str, Any]:
         ]
     elif latest_error_at is not None:
         current_errors = [row for row in errors if parse_time(row.get("seen_at")) == latest_error_at]
+    current_errors = [row for row in current_errors if not youtube_error_superseded(row, youtube_recovered_at)]
 
     annotated_current_errors = annotate_errors(current_errors, source_by_id)
     current_error_platforms = collections.Counter(row["platform"] for row in annotated_current_errors)
@@ -635,21 +664,9 @@ def render_status_page(status: dict[str, Any]) -> str:
         <img class="brand-logo" src="/assets/logo.svg?v={ASSET_VERSION}" alt="臺灣口琴觀測站" width="200" height="47">
       </a>
       <nav class="site-nav" aria-label="主要導覽">
-        <a href="/#latest-feed">最新</a>
-        <details class="nav-menu">
-          <summary>河道</summary>
-          <div class="nav-menu-popover">
-            <a class="nav-feed-link" href="/#latest-feed" data-feed-category="all">全部公開更新</a>
-            <a class="nav-feed-link" href="/?feed=events#latest-feed" data-feed-category="events">實體活動</a>
-            <a class="nav-feed-link" href="/?feed=posts-videos#latest-feed" data-feed-category="posts-videos">貼文影片</a>
-            <a class="nav-feed-link" href="/?feed=student-clubs#latest-feed" data-feed-category="student-clubs">學生社團</a>
-            <a class="nav-feed-link" href="/?feed=opportunities#latest-feed" data-feed-category="opportunities">補助比賽</a>
-          </div>
-        </details>
+        <a href="/">首頁</a>
         <a href="/directory/">資料索引</a>
-        <a href="/feeds/">RSS</a>
         <a href="/status/">狀態</a>
-        <a href="/submit/">資料回報</a>
       </nav>
     </header>
 
@@ -755,9 +772,8 @@ def render_status_page(status: dict[str, Any]) -> str:
           <p>公開口琴活動、社團、貼文影片與補助資訊索引。</p>
         </div>
         <nav class="footer-links" aria-label="頁尾導覽">
-          <a href="/directory/">資料索引</a>
           <a href="/feeds/">RSS</a>
-          <a href="/status/">狀態</a>
+          <a href="/submit/">資料回報</a>
           <a href="/api/latest.json">API</a>
           <a href="https://github.com/skyhong2002/Harmonica-in-Taiwan" target="_blank" rel="noreferrer">GitHub</a>
         </nav>

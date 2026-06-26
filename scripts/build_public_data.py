@@ -6,6 +6,7 @@ from __future__ import annotations
 import csv
 import email.utils
 import hashlib
+import itertools
 import json
 import re
 import urllib.parse
@@ -32,6 +33,16 @@ DEFAULT_AVATAR_PLATFORM_PRIORITY = 99
 TAG_VALUE_SPLIT_RE = re.compile(r"\s*(?:[,，、/／+&]|\band\b|\s+)\s*", re.IGNORECASE)
 TAG_FORBIDDEN_CHARS_RE = re.compile(r"[,，、/／+&\s]")
 TEXT_PART_SPLIT_RE = re.compile(r"\s*(?:[/／；;、,，+&]|\band\b)\s*", re.IGNORECASE)
+LEGACY_TAI = "\u53f0"
+TAIWAN_ORTHOGRAPHY_REPLACEMENTS = (
+    (f"{LEGACY_TAI}灣", "臺灣"),
+    (f"{LEGACY_TAI}北", "臺北"),
+    (f"{LEGACY_TAI}中", "臺中"),
+    (f"{LEGACY_TAI}南", "臺南"),
+)
+TAG_CANONICAL_REPLACEMENTS = {
+    "學校社團": "學生社團",
+}
 
 SOURCE_FILES = [
     ("watchlist", PROJECT_ROOT / "data" / "sources" / "harmonica-source-watchlist-public.csv"),
@@ -65,6 +76,25 @@ def clean(value: str | None) -> str:
     return (value or "").strip()
 
 
+def normalize_taiwan_orthography(value: str | None) -> str:
+    text = clean(value)
+    for source, target in TAIWAN_ORTHOGRAPHY_REPLACEMENTS:
+        text = text.replace(source, target)
+    return text
+
+
+def legacy_taiwan_orthography(value: str | None) -> str:
+    text = clean(value)
+    for source, target in TAIWAN_ORTHOGRAPHY_REPLACEMENTS:
+        text = text.replace(target, source)
+    return text
+
+
+def normalize_tag_value(value: str | None) -> str:
+    tag = normalize_taiwan_orthography(value)
+    return TAG_CANONICAL_REPLACEMENTS.get(tag, tag)
+
+
 def normalize_tag_values(value: Any, *, limit: int = 8) -> list[str]:
     if isinstance(value, str):
         raw_values: list[Any] = [value]
@@ -75,11 +105,11 @@ def normalize_tag_values(value: Any, *, limit: int = 8) -> list[str]:
 
     tags: list[str] = []
     for raw in raw_values:
-        text = str(raw or "").strip()
+        text = normalize_taiwan_orthography(str(raw or ""))
         if not text:
             continue
         for tag in TAG_VALUE_SPLIT_RE.split(text):
-            tag = tag.strip()
+            tag = normalize_tag_value(tag.strip())
             if tag and tag not in tags:
                 tags.append(tag)
             if len(tags) >= limit:
@@ -89,7 +119,7 @@ def normalize_tag_values(value: Any, *, limit: int = 8) -> list[str]:
 
 def text_parts(value: str | None, *, limit: int = 6) -> list[str]:
     parts: list[str] = []
-    for part in TEXT_PART_SPLIT_RE.split(clean(value)):
+    for part in TEXT_PART_SPLIT_RE.split(normalize_taiwan_orthography(value)):
         part = part.strip()
         if part and part not in parts:
             parts.append(part)
@@ -204,16 +234,112 @@ def profile_match_keys(profile: dict[str, Any]) -> set[str]:
     keys = {
         normalize_key(str(profile.get("name") or "")),
         normalize_key(str(profile.get("account") or "")),
+        normalize_key(str(profile.get("username") or "")),
     }
     source_id = str(profile.get("id") or "")
     for prefix in ("ig_", "fb_", "yt_", "youtube_", "x_", "twitter_", "threads_", "tiktok_"):
         if source_id.startswith(prefix):
             keys.add(normalize_key(source_id[len(prefix) :]))
-    for field in ("account", "profile_url"):
+    for field in ("account", "username", "profile_url", "url"):
         value = str(profile.get(field) or "")
         if is_public_url(value):
             keys.update(url_handles(value))
     return {key for key in keys if key}
+
+
+def monitor_source_profile_url(source: dict[str, Any]) -> str:
+    for field in ("profile_url", "source_profile_url", "url"):
+        value = str(source.get(field) or "").strip()
+        if is_public_url(value):
+            return value
+
+    account = str(source.get("account") or source.get("username") or "").strip().strip("/")
+    if not account:
+        return ""
+    platform = str(source.get("platform") or source.get("type") or "").casefold()
+    account = account.removeprefix("@")
+    if "instagram" in platform:
+        return f"https://www.instagram.com/{urllib.parse.quote(account)}/"
+    if "facebook" in platform:
+        return f"https://www.facebook.com/{account}/"
+    if "youtube" in platform:
+        if account.startswith(("channel/", "c/", "user/")):
+            return f"https://www.youtube.com/{account}"
+        return f"https://www.youtube.com/@{urllib.parse.quote(account)}"
+    if platform in {"x", "twitter"} or "twitter" in platform:
+        return f"https://x.com/{urllib.parse.quote(account)}"
+    if "threads" in platform:
+        return f"https://www.threads.net/@{urllib.parse.quote(account)}"
+    if "tiktok" in platform:
+        tiktok_account = account if account.startswith("@") else f"@{account}"
+        return f"https://www.tiktok.com/{urllib.parse.quote(tiktok_account)}"
+    return ""
+
+
+def monitor_source_feed_url(source: dict[str, Any]) -> str:
+    for field in ("feed_url", "rss_url"):
+        value = str(source.get(field) or "").strip()
+        if is_public_url(value):
+            return value
+
+    rsshub_base = str(source.get("rsshub_base") or "").rstrip("/")
+    route = str(source.get("route") or "")
+    username = str(source.get("username") or source.get("account") or "").strip()
+    if rsshub_base and route and username:
+        return f"{rsshub_base}{route.format(username=urllib.parse.quote(username))}"
+    return ""
+
+
+def public_monitor_source(source: dict[str, Any]) -> dict[str, str]:
+    username = normalize_taiwan_orthography(str(source.get("username") or source.get("account") or ""))
+    return {
+        "id": str(source.get("id") or ""),
+        "name": normalize_taiwan_orthography(str(source.get("name") or source.get("title") or source.get("id") or "公開來源")),
+        "platform": str(source.get("platform") or source.get("type") or "unknown"),
+        "type": str(source.get("type") or "unknown"),
+        "username": username,
+        "profileUrl": monitor_source_profile_url(source),
+        "feedUrl": monitor_source_feed_url(source),
+    }
+
+
+def monitor_sources_by_key() -> dict[str, list[dict[str, str]]]:
+    config = read_json(SOCIAL_SOURCES, {"sources": []})
+    keyed: dict[str, list[dict[str, str]]] = {}
+    seen: set[tuple[str, str]] = set()
+    for source in config.get("sources", []):
+        if not source.get("enabled", True) or source.get("type") == "jsonl":
+            continue
+        public_source = public_monitor_source(source)
+        source_id = public_source["id"]
+        for key in profile_match_keys(source):
+            identity = (key, source_id)
+            if identity in seen:
+                continue
+            keyed.setdefault(key, []).append(public_source)
+            seen.add(identity)
+    return keyed
+
+
+def apply_monitor_sources(entry: dict[str, object], keyed_sources: dict[str, list[dict[str, str]]]) -> None:
+    sources: list[dict[str, str]] = []
+    seen: set[str] = set()
+    for key in entry_match_keys(entry):
+        for source in keyed_sources.get(key, []):
+            source_id = source.get("id") or ""
+            if not source_id or source_id in seen:
+                continue
+            sources.append(source)
+            seen.add(source_id)
+    if sources:
+        entry["monitorSources"] = sorted(
+            sources,
+            key=lambda item: (
+                str(item.get("platform") or ""),
+                str(item.get("name") or ""),
+                str(item.get("id") or ""),
+            ),
+        )
 
 
 def candidate_match_keys(row: dict[str, Any]) -> set[str]:
@@ -245,6 +371,42 @@ def entry_tag_fingerprint(entry: dict[str, object]) -> str:
     }
     raw = json.dumps(payload, ensure_ascii=False, sort_keys=True)
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+
+
+def entry_tag_fingerprint_variants(entry: dict[str, object]) -> list[str]:
+    text_fields = [
+        "name",
+        "nameEn",
+        "category",
+        "type",
+        "region",
+        "cityOrFocus",
+        "summary",
+        "keywords",
+    ]
+    field_values: list[list[str]] = []
+    for field in text_fields:
+        current = str((entry.get("structuredSummary") if field == "summary" else entry.get(field)) or "")
+        legacy = legacy_taiwan_orthography(current)
+        field_values.append([current] if legacy == current else [current, legacy])
+
+    aliases = [str(value or "") for value in entry.get("aliases", [])]
+    legacy_aliases = [legacy_taiwan_orthography(value) for value in aliases]
+    alias_variants = [aliases] if legacy_aliases == aliases else [aliases, legacy_aliases]
+
+    fingerprints: list[str] = []
+    seen: set[str] = set()
+    for alias_values in alias_variants:
+        for variant_values in itertools.product(*field_values):
+            payload = dict(zip(text_fields, variant_values))
+            payload["aliases"] = alias_values
+            payload["links"] = entry.get("links") or []
+            raw = json.dumps(payload, ensure_ascii=False, sort_keys=True)
+            fingerprint = hashlib.sha256(raw.encode("utf-8")).hexdigest()
+            if fingerprint not in seen:
+                fingerprints.append(fingerprint)
+                seen.add(fingerprint)
+    return fingerprints
 
 
 def canonical_link_key(url: str) -> str:
@@ -338,11 +500,10 @@ def duplicate_entries(left: dict[str, object], right: dict[str, object]) -> bool
     return False
 
 
-def entry_score(entry: dict[str, object]) -> tuple[int, int, int, int, int]:
+def entry_score(entry: dict[str, object]) -> tuple[int, int, int, int]:
     name = str(entry.get("name") or "")
     generic_penalty = sum(word in name for word in ("相關", "子來源", "新團體", "參考來源"))
     return (
-        1 if entry.get("status") == "已查核" else 0,
         len(entry.get("links", []) or []),
         -generic_penalty,
         1 if source_like(entry) and not person_like(entry) else 0,
@@ -362,7 +523,6 @@ def summary_score(entry: dict[str, object], primary: dict[str, object]) -> tuple
     return (
         1 if entry.get("source") == "club" and entry.get("category") == "學校社團" else 0,
         1 if entry is primary else 0,
-        1 if entry.get("status") == "已查核" else 0,
         -sum(word in summary for word in noisy_words),
         -sum(word in str(entry.get("name") or "") for word in generic_name_words),
         -abs(len(parts) - 3),
@@ -372,24 +532,6 @@ def summary_score(entry: dict[str, object], primary: dict[str, object]) -> tuple
 
 def best_summary_entry(entries: list[dict[str, object]], primary: dict[str, object]) -> dict[str, object]:
     return max(entries, key=lambda entry: summary_score(entry, primary))
-
-
-def strongest_status(entries: list[dict[str, object]]) -> str:
-    statuses = [str(entry.get("status") or "") for entry in entries]
-    if "已查核" in statuses:
-        return "已查核"
-    if "部分查核" in statuses:
-        return "部分查核"
-    return "待確認"
-
-
-def strongest_source_status(entries: list[dict[str, object]]) -> str:
-    statuses = [str(entry.get("sourceStatus") or "") for entry in entries if entry.get("sourceStatus")]
-    if any("已查核" in status and "部分" not in status for status in statuses):
-        return "已查核公開連結"
-    if any("部分" in status for status in statuses):
-        return "部分已查核公開連結"
-    return statuses[0] if statuses else ""
 
 
 def merge_unique_strings(values: list[str]) -> list[str]:
@@ -447,8 +589,6 @@ def merge_group(entries: list[dict[str, object]]) -> dict[str, object]:
     merged["structuredSummary"] = str(summary_entry.get("structuredSummary") or " / ".join(summaries[:1]))
     merged["summary"] = str(summary_entry.get("summary") or (descriptions[0] if descriptions else "公開口琴來源。"))
     merged["keywords"] = " ".join(keywords)
-    merged["status"] = strongest_status(entries)
-    merged["sourceStatus"] = strongest_source_status(entries)
     merged["source"] = "+".join(sorted({str(entry.get("source") or "") for entry in entries if entry.get("source")}))
     return merged
 
@@ -514,7 +654,7 @@ def fallback_source_tags(entry: dict[str, object]) -> list[str]:
             tags.append(tag)
     if "口琴" in text or tags:
         tags.insert(0, "口琴")
-    return list(dict.fromkeys(tag for tag in tags if tag))[:8]
+    return normalize_tag_values(tags)
 
 
 def source_tag_cache() -> dict[str, dict[str, Any]]:
@@ -526,16 +666,20 @@ def source_tag_cache() -> dict[str, dict[str, Any]]:
 
 
 def apply_source_tags(entry: dict[str, object], cache: dict[str, dict[str, Any]]) -> None:
-    cached = cache.get(entry_tag_fingerprint(entry)) or {}
+    cached: dict[str, Any] = {}
+    for fingerprint in entry_tag_fingerprint_variants(entry):
+        cached = cache.get(fingerprint) or {}
+        if cached:
+            break
     tags = cached.get("sourceTags") or cached.get("tags") or []
     source_tags = normalize_tag_values(tags)
     entry["sourceTags"] = source_tags[:8] if source_tags else fallback_source_tags(entry)
 
-    summary = str(cached.get("sourceSummary") or cached.get("summary") or "").strip()
+    summary = normalize_taiwan_orthography(str(cached.get("sourceSummary") or cached.get("summary") or ""))
     if summary:
         entry["sourceSummary"] = summary
 
-    reason = str(cached.get("sourceTagReason") or cached.get("reason") or "").strip()
+    reason = normalize_taiwan_orthography(str(cached.get("sourceTagReason") or cached.get("reason") or ""))
     if reason:
         entry["sourceTagReason"] = reason
 
@@ -666,9 +810,9 @@ def latest_updates_by_key() -> dict[str, dict[str, Any]]:
             continue
         update = {
             "dt": posted,
-            "source": row.get("source_name") or row.get("source_id") or "",
+            "source": normalize_taiwan_orthography(str(row.get("source_name") or row.get("source_id") or "")),
             "url": row.get("url") or "",
-            "title": row.get("text") or "",
+            "title": normalize_taiwan_orthography(str(row.get("text") or "")),
         }
         for key in candidate_match_keys(row):
             existing = latest.get(key)
@@ -691,7 +835,7 @@ def apply_latest_update(entry: dict[str, object], latest: dict[str, dict[str, An
     entry["_latestUpdateSort"] = dt.timestamp()
     entry["latestUpdateAt"] = dt.isoformat()
     entry["latestUpdateLocal"] = local_time_label(dt)
-    entry["latestUpdateSource"] = str(update.get("source") or "")
+    entry["latestUpdateSource"] = normalize_taiwan_orthography(str(update.get("source") or ""))
     entry["latestUpdateUrl"] = str(update.get("url") or "")
 
 
@@ -709,16 +853,6 @@ def link_bundle(row: dict[str, str]) -> list[dict[str, str]]:
         links.append({"label": "OPENTIX", "url": opentix_query})
 
     return links
-
-
-def public_status(source_status: str) -> str:
-    if "已查核" in source_status and "部分" not in source_status:
-        return "已查核"
-    if "部分" in source_status:
-        return "部分查核"
-    if "待查" in source_status or "未確認" in source_status:
-        return "待確認"
-    return "待確認"
 
 
 def category_for(row: dict[str, str], source: str) -> str:
@@ -749,14 +883,14 @@ def category_for(row: dict[str, str], source: str) -> str:
         return "教學器材"
     if "場館" in text or "文化局" in text or "平台" in text:
         return "場館平台"
-    if raw_region and "台灣" not in raw_region:
+    if raw_region and "臺灣" not in normalize_taiwan_orthography(raw_region):
         return "國際交流"
     return "其他來源"
 
 
 def public_description(row: dict[str, str], source: str, category: str) -> str:
-    country = clean(row.get("country"))
-    school_or_org = clean(row.get("school_or_org"))
+    country = normalize_taiwan_orthography(row.get("country"))
+    school_or_org = normalize_taiwan_orthography(row.get("school_or_org"))
     focus_parts = text_parts(row.get("focus"), limit=5)
     instrument_parts = text_parts(row.get("instruments"), limit=4)
     role_parts = text_parts(row.get("role"), limit=3)
@@ -770,42 +904,42 @@ def public_description(row: dict[str, str], source: str, category: str) -> str:
     if category == "學校社團":
         org = readable_text(school_or_org) or country or "公開學校"
         if instrument_label and role_label:
-            return f"{org}的{instrument_label}{role_label}。"
-        return f"{org}的口琴學校社團。"
+            return normalize_taiwan_orthography(f"{org}的{instrument_label}{role_label}。")
+        return normalize_taiwan_orthography(f"{org}的口琴學校社團。")
 
     if category == "活動資訊":
         focus_label = human_join(focus_without_instrument or focus_parts[:4])
         if focus_label:
-            return f"{country_prefix}{role_label}，涵蓋{focus_label}。"
-        return f"{country_prefix}{role_label}。"
+            return normalize_taiwan_orthography(f"{country_prefix}{role_label}，涵蓋{focus_label}。")
+        return normalize_taiwan_orthography(f"{country_prefix}{role_label}。")
 
     if category in {"團體樂團", "演奏者"}:
         focus_label = human_join(focus_without_instrument[:3])
         core = f"{country_prefix}{instrument_label}{role_label}" if instrument_label else f"{country_prefix}{role_label}"
         if category == "團體樂團" and len(focus_without_instrument) == 1 and focus_without_instrument[0].endswith("團體"):
             descriptor = focus_without_instrument[0].removesuffix("團體")
-            return f"{country_prefix}{descriptor}{instrument_label}{role_label}。"
+            return normalize_taiwan_orthography(f"{country_prefix}{descriptor}{instrument_label}{role_label}。")
         if focus_label:
-            return f"{core}，活動脈絡包含{focus_label}。"
-        return f"{core}。"
+            return normalize_taiwan_orthography(f"{core}，活動脈絡包含{focus_label}。")
+        return normalize_taiwan_orthography(f"{core}。")
 
     if category == "教學器材":
         focus_label = human_join(focus_without_instrument or focus_parts[:4])
         core = f"{country_prefix}{instrument_label}{role_label}" if instrument_label else f"{country_prefix}{role_label}"
         if focus_label:
-            return f"{core}，關注{focus_label}。"
-        return f"{core}。"
+            return normalize_taiwan_orthography(f"{core}，關注{focus_label}。")
+        return normalize_taiwan_orthography(f"{core}。")
 
     if category == "場館平台":
         focus_label = human_join(focus_without_instrument or focus_parts[:3])
         if focus_label:
-            return f"{country_prefix}{role_label}，提供{focus_label}相關資訊。"
-        return f"{country_prefix}{role_label}。"
+            return normalize_taiwan_orthography(f"{country_prefix}{role_label}，提供{focus_label}相關資訊。")
+        return normalize_taiwan_orthography(f"{country_prefix}{role_label}。")
 
     focus_label = human_join(focus_without_instrument or focus_parts[:3])
     if focus_label:
-        return f"{country_prefix}{role_label}，關注{focus_label}。"
-    return f"{country_prefix}{role_label}。"
+        return normalize_taiwan_orthography(f"{country_prefix}{role_label}，關注{focus_label}。")
+    return normalize_taiwan_orthography(f"{country_prefix}{role_label}。")
 
 
 def entry_from_row(row: dict[str, str], source: str, row_number: int) -> dict[str, object] | None:
@@ -813,35 +947,32 @@ def entry_from_row(row: dict[str, str], source: str, row_number: int) -> dict[st
     if not links:
         return None
 
-    name = clean(row.get("name"))
+    name = normalize_taiwan_orthography(row.get("name"))
     if not name:
         return None
 
-    source_status = clean(row.get("source_status"))
     category = category_for(row, source)
-    city_or_focus = clean(row.get("city")) or clean(row.get("focus"))
+    city_or_focus = normalize_taiwan_orthography(row.get("city")) or normalize_taiwan_orthography(row.get("focus"))
     public_summary_parts = [
-        clean(row.get("school_or_org")),
-        clean(row.get("focus")),
-        clean(row.get("instruments")),
-        clean(row.get("role")),
+        normalize_taiwan_orthography(row.get("school_or_org")),
+        normalize_taiwan_orthography(row.get("focus")),
+        normalize_taiwan_orthography(row.get("instruments")),
+        normalize_taiwan_orthography(row.get("role")),
     ]
     structured_summary = " / ".join(part for part in public_summary_parts if part)
 
     return {
         "id": f"{source}-{row_number}",
         "name": name,
-        "nameEn": clean(row.get("name_en")),
+        "nameEn": normalize_taiwan_orthography(row.get("name_en")),
         "category": category,
-        "type": clean(row.get("type")),
-        "country": clean(row.get("country")),
-        "region": clean(row.get("region")),
+        "type": normalize_taiwan_orthography(row.get("type")),
+        "country": normalize_taiwan_orthography(row.get("country")),
+        "region": normalize_taiwan_orthography(row.get("region")),
         "cityOrFocus": city_or_focus,
         "structuredSummary": structured_summary,
         "summary": public_description(row, source, category),
-        "status": public_status(source_status),
-        "sourceStatus": source_status,
-        "keywords": clean(row.get("keywords")),
+        "keywords": normalize_taiwan_orthography(row.get("keywords")),
         "links": links,
         "source": source,
     }
@@ -884,10 +1015,12 @@ def build_entries() -> list[dict[str, object]]:
     latest = latest_updates_by_key()
     avatars = avatar_profiles_by_key()
     tag_cache = source_tag_cache()
+    monitor_sources = monitor_sources_by_key()
     for entry in merged_entries:
         apply_latest_update(entry, latest)
         apply_avatar(entry, avatars)
         apply_source_tags(entry, tag_cache)
+        apply_monitor_sources(entry, monitor_sources)
 
     sorted_entries = sorted(
         merged_entries,
@@ -950,10 +1083,8 @@ def main() -> None:
         "entries": entries,
         "stats": {
             "totalEntries": len(entries),
-            "verifiedEntries": sum(1 for entry in entries if entry.get("status") == "已查核"),
             "categories": count_by(entries, "category"),
             "countries": count_by(entries, "country"),
-            "statuses": count_by(entries, "status"),
             "watchSources": social_source_stats(),
         },
     }
