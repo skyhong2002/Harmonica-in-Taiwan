@@ -2342,8 +2342,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "category": "學校社團",
       "type": "團體",
       "region": "台灣",
-      "cityOrFocus": "大學生口琴樂團/比賽/表演/練習影片",
-      "summary": "大學生口琴樂團/比賽/表演/練習影片 / 口琴重奏/合奏 / 演出團體/社群觀察來源",
+      "cityOrFocus": "大學生新生代團體",
+      "summary": "大學生新生代團體 / 口琴重奏 / 演出團體",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
       "keywords": "Stay Drunk Stay Drunk H.E. Stay Drunk Harmonica Ensemble staydrunk_h.e 口琴樂團 大學生",
@@ -2371,7 +2371,6 @@ window.HARMONICA_OBSERVE_DATA = {
         "學生社團",
         "大專社團",
         "團體樂團",
-        "比賽",
         "重奏"
       ]
     },
