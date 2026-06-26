@@ -580,7 +580,6 @@
 
   function feedPlatformFilterValues(item) {
     return [
-      item.platform,
       sourcePlatformLabel(item.platform),
       ...socialSourcesForItem(item).flatMap(sourceKindLabels),
     ];
