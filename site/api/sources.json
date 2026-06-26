@@ -1,45 +1,323 @@
 {
   "site": "https://harmonica.observe.tw",
-  "generatedAt": "2026-06-25",
-  "count": 103,
+  "generatedAt": "2026-06-26",
+  "count": 105,
   "stats": {
-    "totalEntries": 103,
-    "verifiedEntries": 77,
+    "totalEntries": 105,
+    "verifiedEntries": 79,
     "categories": {
       "其他來源": 2,
       "團體樂團": 19,
       "場館平台": 6,
-      "學校社團": 22,
+      "學校社團": 23,
       "教學器材": 12,
       "活動資訊": 5,
-      "演奏者": 37
+      "演奏者": 38
     },
     "statuses": {
-      "已查核": 77,
+      "已查核": 79,
       "部分查核": 26
     },
     "watchSources": {
-      "totalSources": 239,
-      "rsshubSources": 82,
-      "apifySources": 85,
-      "facebookSources": 85,
-      "youtubeSources": 72,
+      "totalSources": 244,
+      "rsshubSources": 84,
+      "apifySources": 86,
+      "facebookSources": 86,
+      "youtubeSources": 74,
       "platforms": {
-        "facebook": 85,
-        "instagram": 75,
+        "facebook": 86,
+        "instagram": 77,
         "threads": 2,
         "x": 5,
-        "youtube": 72
+        "youtube": 74
       },
       "types": {
-        "facebook_page_posts": 85,
+        "facebook_page_posts": 86,
         "rss": 7,
-        "rsshub_instagram_profile": 75,
-        "youtube_ytdlp": 72
+        "rsshub_instagram_profile": 77,
+        "youtube_ytdlp": 74
       }
     }
   },
   "entries": [
+    {
+      "id": "club-19",
+      "name": "陽明交大竹韻口琴社",
+      "nameEn": "Bamboo Melody Harmonica Club",
+      "category": "學校社團",
+      "type": "學校社團",
+      "region": "台灣/新竹",
+      "cityOrFocus": "新竹",
+      "summary": "國立陽明交通大學 / 口琴 / 學校社團／社群監看來源",
+      "status": "已查核",
+      "sourceStatus": "已查核公開連結",
+      "keywords": "陽明交大竹韻口琴社 Bamboo Melody Harmonica Club NYCU 交通大學竹韻口琴社 口琴社",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/nycubmhc/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nycu_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw"
+        }
+      ],
+      "source": "club",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-25T15:43:39+00:00",
+      "latestUpdateLocal": "2026-06-25 23:43",
+      "latestUpdateSource": "陽明交大竹韻口琴社",
+      "latestUpdateUrl": "https://www.instagram.com/p/DaA6q22EwJM/",
+      "avatarUrl": "/assets/source-avatars/f9da11b227a1c2238a68.webp",
+      "sourceInitials": "陽明",
+      "sourceTags": [
+        "口琴",
+        "學校社團",
+        "學生社團",
+        "大專社團"
+      ]
+    },
+    {
+      "id": "watchlist-54",
+      "name": "南里沙",
+      "nameEn": "Minami Risa",
+      "category": "演奏者",
+      "type": "個人",
+      "region": "日本/常來台",
+      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
+      "summary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
+      "status": "已查核",
+      "sourceStatus": "已查核公開連結",
+      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://minamirisa.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/minamirisa/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/minami_risa/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@minamirisa"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/minami_risa"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@minami_risa"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-25T10:13:29+00:00",
+      "latestUpdateLocal": "2026-06-25 18:13",
+      "latestUpdateSource": "南里沙",
+      "latestUpdateUrl": "https://www.instagram.com/p/DaAUi0NS2R-/",
+      "avatarUrl": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+      "sourceInitials": "南里",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ]
+    },
+    {
+      "id": "watchlist-57",
+      "name": "Jong-seong Park 朴鍾聲",
+      "nameEn": "Jong-seong Park",
+      "category": "演奏者",
+      "type": "個人",
+      "region": "韓國",
+      "cityOrFocus": "半音階/國際級演出",
+      "summary": "半音階/國際級演出 / 半音階 / 國際演出人員",
+      "status": "已查核",
+      "sourceStatus": "已查核公開連結",
+      "keywords": "Jong-seong Park 朴鍾聲 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.mnac.co.kr/jongseongpark"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonicapark/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jongseongpark_harmonicist/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/jongseongpark"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-25T08:55:10+00:00",
+      "latestUpdateLocal": "2026-06-25 16:55",
+      "latestUpdateSource": "Jong-seong Park 朴鍾聲",
+      "latestUpdateUrl": "https://www.instagram.com/p/DaAL7MNk40D/",
+      "avatarUrl": "/assets/source-avatars/bcd7a208bc67cf5ec331.webp",
+      "sourceInitials": "JSP",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "sourceSummary": "韓國半音階口琴演奏家，活躍於國際舞台。",
+      "sourceTagReason": "資料明確標註為「演奏者」與「個人」，且其專長與定位為「半音階/國際級演出」。"
+    },
+    {
+      "id": "watchlist-53",
+      "name": "山下伶 Rei Yamashita",
+      "nameEn": "Rei Yamashita",
+      "category": "演奏者",
+      "type": "個人",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/演出",
+      "summary": "半音階/專輯/演出 / 半音階 / 國際演出人員",
+      "status": "已查核",
+      "sourceStatus": "已查核公開連結",
+      "keywords": "山下伶 Rei Yamashita harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://rei-yamashita.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/rei.yamashita.5"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/rei_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@reiyamashita"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/rei_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-25T06:43:10+00:00",
+      "latestUpdateLocal": "2026-06-25 14:43",
+      "latestUpdateSource": "山下伶 Rei Yamashita",
+      "latestUpdateUrl": "https://www.instagram.com/p/DZ_74jvpj3n/",
+      "avatarUrl": "/assets/source-avatars/88e248e6f1c02aaa881b.webp",
+      "sourceInitials": "RY",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ]
+    },
+    {
+      "id": "watchlist-38+watchlist-80",
+      "name": "歐純伶",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人 / 教學/影片來源",
+      "region": "台灣",
+      "cityOrFocus": "狂響/複音/教學演出 / 口琴教學影片/示範",
+      "summary": "狂響/複音/教學演出 / 複音 / 演出人員/教學者 / 口琴教學影片/示範 / 口琴 / 教學影片來源",
+      "status": "部分查核",
+      "sourceStatus": "部分已查核公開連結",
+      "keywords": "歐純伶 口琴 吹出好心琴 Ou Frog 口琴 教學 YouTube",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://oulingou.pixnet.net/blog"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/oulingou/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@oufrog"
+        },
+        {
+          "label": "網站",
+          "url": "https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [
+        "吹出好心琴 + Ou Frog",
+        "Ou Frog"
+      ],
+      "latestUpdateAt": "2026-06-25T04:00:37+00:00",
+      "latestUpdateLocal": "2026-06-25 12:00",
+      "latestUpdateSource": "歐純伶",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=XHquydN9tJc",
+      "avatarUrl": "/assets/source-avatars/2241bd394301b93492ed.webp",
+      "sourceInitials": "歐純",
+      "sourceTags": [
+        "演奏者",
+        "複音",
+        "教學",
+        "口琴",
+        "音樂會"
+      ],
+      "sourceSummary": "複音口琴演奏者，提供教學與演出資訊的個人來源。",
+      "sourceTagReason": "資料明確標示為「演奏者」，主要從事複音口琴教學與演出，並透過平台分享教學影片。"
+    },
+    {
+      "id": "watchlist-40",
+      "name": "陳鴻儀",
+      "nameEn": "Henry Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "region": "台灣",
+      "cityOrFocus": "演出/評審",
+      "summary": "演出/評審 / 口琴 / 演出人員/評審",
+      "status": "已查核",
+      "sourceStatus": "已查核公開連結",
+      "keywords": "陳鴻儀 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@HenrysHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-25T00:00:06+00:00",
+      "latestUpdateLocal": "2026-06-25 08:00",
+      "latestUpdateSource": "陳鴻儀",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=yiv7B9U1seY",
+      "avatarUrl": "/assets/source-avatars/11010264a3489f5a5679.webp",
+      "sourceInitials": "陳鴻",
+      "sourceTags": [
+        "演奏者",
+        "口琴",
+        "演出"
+      ],
+      "sourceSummary": "口琴演奏家，專注於演出與評審工作。",
+      "sourceTagReason": "來源類別為「演奏者」，類型為「個人」，城市焦點為「演出/評審」，因此標記演奏者、口琴及演出。"
+    },
     {
       "id": "watchlist-50",
       "name": "CY Leo 何卓彥",
@@ -182,55 +460,6 @@
       ],
       "sourceSummary": "口琴演奏者，兼職教學與重奏活動。",
       "sourceTagReason": "名稱為個人，類別標註為演奏者，摘要提及教學與演出，關鍵字包含口琴，符合演奏者與教學來源定位。"
-    },
-    {
-      "id": "watchlist-53",
-      "name": "山下伶 Rei Yamashita",
-      "nameEn": "Rei Yamashita",
-      "category": "演奏者",
-      "type": "個人",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/演出",
-      "summary": "半音階/專輯/演出 / 半音階 / 國際演出人員",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "山下伶 Rei Yamashita harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://rei-yamashita.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/rei.yamashita.5"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/rei_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@reiyamashita"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/rei_harmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-24T09:06:45+00:00",
-      "latestUpdateLocal": "2026-06-24 17:06",
-      "latestUpdateSource": "山下伶 Rei Yamashita",
-      "latestUpdateUrl": "https://www.instagram.com/p/DZ9ndUzky3s/",
-      "avatarUrl": "/assets/source-avatars/88e248e6f1c02aaa881b.webp",
-      "sourceInitials": "RY",
-      "sourceTags": [
-        "口琴",
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ]
     },
     {
       "id": "watchlist-37",
@@ -401,95 +630,6 @@
         "演奏者",
         "十孔"
       ]
-    },
-    {
-      "id": "watchlist-40",
-      "name": "陳鴻儀",
-      "nameEn": "Henry Chen",
-      "category": "演奏者",
-      "type": "個人",
-      "region": "台灣",
-      "cityOrFocus": "演出/評審",
-      "summary": "演出/評審 / 口琴 / 演出人員/評審",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "陳鴻儀 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@HenrysHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-23T09:00:06+00:00",
-      "latestUpdateLocal": "2026-06-23 17:00",
-      "latestUpdateSource": "陳鴻儀",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=NQpOJQrzQEw",
-      "avatarUrl": "/assets/source-avatars/11010264a3489f5a5679.webp",
-      "sourceInitials": "陳鴻",
-      "sourceTags": [
-        "演奏者",
-        "口琴",
-        "演出"
-      ],
-      "sourceSummary": "口琴演奏家，專注於演出與評審工作。",
-      "sourceTagReason": "來源類別為「演奏者」，類型為「個人」，城市焦點為「演出/評審」，因此標記演奏者、口琴及演出。"
-    },
-    {
-      "id": "watchlist-38+watchlist-80",
-      "name": "歐純伶",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人 / 教學/影片來源",
-      "region": "台灣",
-      "cityOrFocus": "狂響/複音/教學演出 / 口琴教學影片/示範",
-      "summary": "狂響/複音/教學演出 / 複音 / 演出人員/教學者 / 口琴教學影片/示範 / 口琴 / 教學影片來源",
-      "status": "部分查核",
-      "sourceStatus": "部分已查核公開連結",
-      "keywords": "歐純伶 口琴 吹出好心琴 Ou Frog 口琴 教學 YouTube",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://oulingou.pixnet.net/blog"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/oulingou/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@oufrog"
-        },
-        {
-          "label": "網站",
-          "url": "https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [
-        "吹出好心琴 + Ou Frog",
-        "Ou Frog"
-      ],
-      "latestUpdateAt": "2026-06-23T04:00:11+00:00",
-      "latestUpdateLocal": "2026-06-23 12:00",
-      "latestUpdateSource": "歐純伶",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=mtce6XbmMYk",
-      "avatarUrl": "/assets/source-avatars/2241bd394301b93492ed.webp",
-      "sourceInitials": "歐純",
-      "sourceTags": [
-        "演奏者",
-        "複音",
-        "教學",
-        "口琴",
-        "音樂會"
-      ],
-      "sourceSummary": "複音口琴演奏者，提供教學與演出資訊的個人來源。",
-      "sourceTagReason": "資料明確標示為「演奏者」，主要從事複音口琴教學與演出，並透過平台分享教學影片。"
     },
     {
       "id": "watchlist-82",
@@ -803,52 +943,6 @@
         "複音",
         "十孔"
       ]
-    },
-    {
-      "id": "watchlist-57",
-      "name": "Jong-seong Park 朴鍾聲",
-      "nameEn": "Jong-seong Park",
-      "category": "演奏者",
-      "type": "個人",
-      "region": "韓國",
-      "cityOrFocus": "半音階/國際級演出",
-      "summary": "半音階/國際級演出 / 半音階 / 國際演出人員",
-      "status": "已查核",
-      "sourceStatus": "已查核公開連結",
-      "keywords": "Jong-seong Park 朴鍾聲 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.mnac.co.kr/jongseongpark"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonicapark/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jongseongpark_harmonicist/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/jongseongpark"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-21T09:26:36+00:00",
-      "latestUpdateLocal": "2026-06-21 17:26",
-      "latestUpdateSource": "Jong-seong Park 朴鍾聲",
-      "latestUpdateUrl": "https://www.instagram.com/p/DZ17j0Ok0wB/",
-      "avatarUrl": "/assets/source-avatars/bcd7a208bc67cf5ec331.webp",
-      "sourceInitials": "JSP",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "sourceSummary": "韓國半音階口琴演奏家，活躍於國際舞台。",
-      "sourceTagReason": "資料明確標註為「演奏者」與「個人」，且其專長與定位為「半音階/國際級演出」。"
     },
     {
       "id": "club-11",
@@ -3747,44 +3841,43 @@
       "sourceTagReason": "類別為場館平台，提供場館資訊、售票與音樂會等藝文活動資訊，符合場館與活動定位。"
     },
     {
-      "id": "club-19",
-      "name": "陽明交大竹韻口琴社",
-      "nameEn": "Bamboo Melody Harmonica Club",
+      "id": "watchlist-100",
+      "name": "Stay Drunk 口琴樂團",
+      "nameEn": "Stay Drunk Harmonica Ensemble",
       "category": "學校社團",
-      "type": "學校社團",
-      "region": "台灣/新竹",
-      "cityOrFocus": "新竹",
-      "summary": "國立陽明交通大學 / 口琴 / 學校社團／社群監看來源",
+      "type": "團體",
+      "region": "台灣",
+      "cityOrFocus": "大學生口琴樂團/比賽/表演/練習影片",
+      "summary": "大學生口琴樂團/比賽/表演/練習影片 / 口琴重奏/合奏 / 演出團體/社群觀察來源",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
-      "keywords": "陽明交大竹韻口琴社 Bamboo Melody Harmonica Club NYCU 交通大學竹韻口琴社 口琴社",
+      "keywords": "Stay Drunk Stay Drunk H.E. Stay Drunk Harmonica Ensemble staydrunk_h.e 口琴樂團 大學生",
       "links": [
         {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/nycubmhc/"
-        },
-        {
           "label": "Instagram",
-          "url": "https://www.instagram.com/nycu_harmonica/"
+          "url": "https://www.instagram.com/staydrunk_h.e/"
         },
         {
           "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw"
+          "url": "https://www.youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "",
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/23ba8173993d252811f1.webp",
-      "sourceInitials": "陽明",
+      "avatarUrl": "",
+      "sourceInitials": "SD",
       "sourceTags": [
         "口琴",
         "學校社團",
         "學生社團",
-        "大專社團"
+        "大專社團",
+        "團體樂團",
+        "比賽",
+        "重奏"
       ]
     },
     {
@@ -4151,41 +4244,33 @@
       ]
     },
     {
-      "id": "watchlist-54",
-      "name": "南里沙",
-      "nameEn": "Minami Risa",
+      "id": "watchlist-99",
+      "name": "Timothy Yip 葉進禧",
+      "nameEn": "Timothy Yip",
       "category": "演奏者",
       "type": "個人",
-      "region": "日本/常來台",
-      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
-      "summary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
+      "region": "香港",
+      "cityOrFocus": "半音階/國際比賽/演出/RedBricks",
+      "summary": "半音階/國際比賽/演出/RedBricks / 半音階 / 國際演出人員",
       "status": "已查核",
       "sourceStatus": "已查核公開連結",
-      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
+      "keywords": "Timothy Yip 葉進禧 harmonica chromatic harmonicist RedBricks",
       "links": [
         {
           "label": "網站",
-          "url": "https://minamirisa.com/"
+          "url": "https://www.timothyyipharmonica.com/"
         },
         {
           "label": "Facebook",
-          "url": "https://www.facebook.com/minamirisa/"
+          "url": "https://www.facebook.com/profile.php?id=100085232439912"
         },
         {
           "label": "Instagram",
-          "url": "https://www.instagram.com/minami_risa/"
+          "url": "https://www.instagram.com/timothyyip_harmonica/"
         },
         {
           "label": "YouTube",
-          "url": "https://www.youtube.com/@minamirisa"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/minami_risa"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@minami_risa"
+          "url": "https://www.youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw"
         }
       ],
       "source": "watchlist",
@@ -4195,10 +4280,11 @@
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
       "avatarUrl": "",
-      "sourceInitials": "南里",
+      "sourceInitials": "TY",
       "sourceTags": [
         "口琴",
         "演奏者",
+        "比賽",
         "半音階",
         "國際交流"
       ]

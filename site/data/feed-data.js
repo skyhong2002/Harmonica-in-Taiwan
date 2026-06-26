@@ -1,7 +1,308 @@
 window.HARMONICA_OBSERVE_FEEDS = {
-  "generatedAt": "2026-06-25 17:01",
+  "generatedAt": "2026-06-26 17:22",
   "updatesWindowDays": 30,
   "updates": [
+    {
+      "title": "陽明交大竹韻口琴社｜深夜震撼告知重大消息，創社大成功，請持續追蹤NYCU竹韻口琴社 友社：@nthu_harmonica_club #nycu_harmonica #nycu #harmonica",
+      "headline": "深夜震撼告知重大消息，創社大成功，請持續追蹤NYCU竹韻口琴社",
+      "link": "https://www.instagram.com/p/DaA6q22EwJM/",
+      "source_id": "ig_nycu_harmonica",
+      "source": "陽明交大竹韻口琴社",
+      "source_system_name": "陽明交大竹韻口琴社",
+      "source_profile_url": "https://www.instagram.com/nycu_harmonica/",
+      "account": "nycu_harmonica",
+      "platform": "instagram",
+      "posted_at": "Thu, 25 Jun 2026 15:43:39 GMT",
+      "posted_at_local": "2026-06-25 23:43",
+      "seen_at": "2026-06-25T16:05:52.696060+00:00",
+      "matched_keywords": [
+        "口琴",
+        "學生社團",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "學生社團",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "student-clubs"
+      ],
+      "llm_reason": "貼文來自大學口琴社團，宣布創社成功，屬於學生社團的公開更新，符合收錄條件。",
+      "text": "深夜震撼告知重大消息，創社大成功，請持續追蹤NYCU竹韻口琴社\n友社：@nthu_harmonica_club\n#nycu_harmonica\n#nycu\n#harmonica",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730160878_18115241881745725_8390113133884300311_n.webp?_nc_cat=102&ig_cache_key=MzkyNzM5NTk3MDM4ODMzNzUwNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=8Z1laD9jtRsQ7kNvwGed9AR&_nc_oc=AdpdL6d1yoj4lfeWUQTmoZbviZqZUufJx9kEnZ7-R8qGZG5LZl0e6Mc-ePdpo_RnX1g&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af8NyR5H-jAcgr0H0BbJZfeAYIfUhmPVqry4ZsowcnCkug&oe=6A4325C4",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/729754336_18115241887745725_8873937602994806352_n.webp?_nc_cat=107&ig_cache_key=MzkyNzM5NTk3MzAzMDk4NjM4Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=vQMMBukoYKYQ7kNvwGoO8V2&_nc_oc=AdpQp9mef1H3qrnPoALFKofJ0l8gzsD1fQ65GGzP8k5i0J5VjzjiPZQsb2wTZIlqCX0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af8TrX5PEkSbk2ey6Uita5wX_vGDNnhyoIjy3rYQX88UPw&oe=6A433FCC",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/729855749_18115241899745725_6719899844758678631_n.webp?_nc_cat=106&ig_cache_key=MzkyNzM5NTk3NTgwNzQzOTEzNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=XaoJ-i6m-lsQ7kNvwF9h3fz&_nc_oc=Adp_4nU3tbAYI5I72BfgnNQLvmuY0DvyMV52ngBIbpmbEO5XzU1kw-4H1jQz2U5VzoU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af9voYDXe0icIYOKeq4yqIDCKoGdWb979PwGeeCcsHjZZw&oe=6A431F56",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/729877116_18115241914745725_1759406056520547091_n.webp?_nc_cat=101&ig_cache_key=MzkyNzM5NTk3NzU2MDgxMzE2Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=gGz2LVr0ePMQ7kNvwES4Z9F&_nc_oc=Adps4-W2Z1iN7ItNVe-vS9LYahYgXsaJnOdH1AOM14uR4kPiFKFM5QHPL3xWb3xokc8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af-seXfSibyaudCsOSKDxqFwuq41z2fQz9G-MJLRvqMnSQ&oe=6A430EBA",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730125172_18115241923745725_3007461136249078830_n.webp?_nc_cat=111&ig_cache_key=MzkyNzM5NTk4MTY2MjY4ODcwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GwfrUKiosaQQ7kNvwEnhhdT&_nc_oc=AdrzB4JKoOTZOINnu525DXiFlN0YK1FpXHGJ806iF-Bz7hRrI653a4fWdB955L7psZg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af_2QZoXwMUNqQhd1E8G4nE79NngWf6MScAIRS72o645xA&oe=6A4335B5",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/729348861_18115241932745725_4950523139895409169_n.webp?_nc_cat=105&ig_cache_key=MzkyNzM5NTk4NDA4NzA1MDU5NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=S8wUY_a8xg8Q7kNvwHFw9Yq&_nc_oc=AdrIO9DKxnoZEf_cw3rPVm3aJgCaiBDSYa56XVTGQEclbkl45QlL2rZk5hRUPgXMxpI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af8mMvL83jIWQXh7Dps8W786eGQckS2Q24NNdni9sqULUQ&oe=6A432F52",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/729517839_18115241944745725_8953500449191667680_n.webp?_nc_cat=103&ig_cache_key=MzkyNzM5NTk4NzEwNzAzMjk0OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=OdsAuPG-i2wQ7kNvwHeISSe&_nc_oc=Adpxd9hkbPfTKSYo9zvUVFCqGxk0MLnCKm0IxQIqa3GFuKQhFuNomtjRV7UdFGSHvCs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af-zmb2LchzAjP2VhNQT5B5DUv7h0bRIN3E6c6gsqP-7lA&oe=6A430B11"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730160878_18115241881745725_8390113133884300311_n.webp?_nc_cat=102&ig_cache_key=MzkyNzM5NTk3MDM4ODMzNzUwNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=8Z1laD9jtRsQ7kNvwGed9AR&_nc_oc=AdpdL6d1yoj4lfeWUQTmoZbviZqZUufJx9kEnZ7-R8qGZG5LZl0e6Mc-ePdpo_RnX1g&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af8NyR5H-jAcgr0H0BbJZfeAYIfUhmPVqry4ZsowcnCkug&oe=6A4325C4",
+      "image_url": "/assets/feed-images/25114f5b78c787cc0ede.webp",
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/701558410_18109037233745725_4881025079895106710_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gHw0r8dwzD_XDUFRNGh4o1e2Ij19yJad1dfUgROhp-YxIeGrY5rl_wH2__HS2ncb4U&_nc_ohc=YRGVVTGe96cQ7kNvwHo94Cy&_nc_gid=knFwH4jIIMOXF89cVreE0A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_MEdcHnnLip3cZUbR8WTg47fGP7Omcs4sOQPiX0kc3xA&oe=6A4310D4&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/f9da11b227a1c2238a68.webp",
+      "source_initials": "陽明",
+      "categories": [
+        "posts-videos",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "學生社團"
+      ],
+      "key": "ig_nycu_harmonica:https://www.instagram.com/p/DaA6q22EwJM/"
+    },
+    {
+      "title": "南里沙｜クロマチックハーモニカの魅力をもっと身近に感じていただきたいという想いからスタートした、南里沙が1人でお届けする〜プチプチコンサート〜 2026年8月22日(土)に田園調布ピアノサロンNOAHで開催します♬ クロマチックハーモニカ…",
+      "headline": "クロマチックハーモニカの魅力をもっと身近に感じていただきたいという想いからスタートした、南里沙が1人でお届けする〜プチプチコンサート〜",
+      "link": "https://www.instagram.com/p/DaAUi0NS2R-/",
+      "source_id": "ig_minami_risa",
+      "source": "南里沙",
+      "source_system_name": "南里沙",
+      "source_profile_url": "https://www.instagram.com/minami_risa/",
+      "account": "minami_risa",
+      "platform": "instagram",
+      "posted_at": "Thu, 25 Jun 2026 10:13:29 GMT",
+      "posted_at_local": "2026-06-25 18:13",
+      "seen_at": "2026-06-25T16:05:52.696060+00:00",
+      "matched_keywords": [
+        "口琴",
+        "演出",
+        "音樂會"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "演出",
+        "音樂會"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "貼文宣傳口琴家南里沙的個人口琴音樂會，明確屬於口琴演出活動，符合臺灣口琴公開更新的收錄標準。",
+      "text": "クロマチックハーモニカの魅力をもっと身近に感じていただきたいという想いからスタートした、南里沙が1人でお届けする〜プチプチコンサート〜\n2026年8月22日(土)に田園調布ピアノサロンNOAHで開催します♬\nクロマチックハーモニカを初めて聴かれる方、いつも応援してくださる皆さまも😊お誘い合わせの上、お気軽にお越しください♬\n【南里沙 プチプチコンサート in 田園調布】\n■日時\n2026年8月22日(土)\n開場 13:15\n開演 13:45\n■会場\n田園調布ピアノサロンNOAH\n■料金\n3,000円\n■ご予約はこちらから\nhttps://business.form-mailer.jp/fms/4c46fc75225985\n#クロマチックハーモニカ #ハーモニカ #南里沙\n#田園調布 #プチプチコンサート",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730274551_18595539988053761_5002453498357541340_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzkyNzIyOTIyODUxNzEyMzE5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ5Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=HJssDEnTF5IQ7kNvwEH2mqv&_nc_oc=AdogwYpupdrsGm7nBZKWafuqPuxMsKRWI0jWYs27sCScAzcRG7Tz73gfmDMqIYfqBdU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af9p2bvGgBykAJbLQ2yjLcV5hA7cy9Zw-A_dARSKTALmWg&oe=6A431B9D"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730274551_18595539988053761_5002453498357541340_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzkyNzIyOTIyODUxNzEyMzE5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ5Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=HJssDEnTF5IQ7kNvwEH2mqv&_nc_oc=AdogwYpupdrsGm7nBZKWafuqPuxMsKRWI0jWYs27sCScAzcRG7Tz73gfmDMqIYfqBdU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af9p2bvGgBykAJbLQ2yjLcV5hA7cy9Zw-A_dARSKTALmWg&oe=6A431B9D",
+      "image_url": "/assets/feed-images/b6417769de5c92001d2d.webp",
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+      "source_initials": "南里",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動"
+      ],
+      "key": "ig_minami_risa:https://www.instagram.com/p/DaAUi0NS2R-/"
+    },
+    {
+      "title": "Jong-seong Park 朴鍾聲｜[2026 서리풀 작곡가 탐구 시리즈] 안녕하세요 박종성입니다. 돌아오는 토요일, 특별한 공연을 준비했습니다. <하모니카를 사랑한 작곡가들>이라는 주제로, 하모니카를 위해 작곡된…",
+      "headline": "[2026 서리풀 작곡가 탐구 시리즈]",
+      "link": "https://www.instagram.com/p/DaAL7MNk40D/",
+      "source_id": "ig_jongseongpark_harmonicist",
+      "source": "Jong-seong Park 朴鍾聲",
+      "source_system_name": "Jong-seong Park 朴鍾聲",
+      "source_profile_url": "https://www.instagram.com/jongseongpark_harmonicist/",
+      "account": "jongseongpark_harmonicist",
+      "platform": "instagram",
+      "posted_at": "Thu, 25 Jun 2026 08:55:10 GMT",
+      "posted_at_local": "2026-06-25 16:55",
+      "seen_at": "2026-06-25T16:05:52.696060+00:00",
+      "matched_keywords": [
+        "口琴",
+        "演出"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "口琴",
+        "演出"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "貼文內容為口琴演奏者朴鍾聲宣布即將舉辦以口琴為主的主題音樂會，屬口琴演出活動。",
+      "text": "[2026 서리풀 작곡가 탐구 시리즈]\n안녕하세요 박종성입니다.\n돌아오는 토요일, 특별한 공연을 준비했습니다.\n<하모니카를 사랑한 작곡가들>이라는 주제로,\n하모니카를 위해 작곡된 곡들을 연주할 예정인데요.\n특히 작곡가들의 이야기들과 연주자로서 작품을 어떻게 해석하는지 등\n다양한 비하인드 스토리와 함께 음악을 감상하실 수 있습니다.\n하모니카 곡에 흠뻑 빠져볼 수 있는 특별한 무대에 여러분을 초대합니다.\n감사합니다.\n<하모니카를 사랑한 작곡가들>\n2026년 6월 27일 토요일 오후3시\n반포심산아트홀\n하모니카 박종성\n피아노 조영훈\n예매 NOL티켓",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730052191_18419377186183694_7198045568704091494_n.webp?_nc_cat=109&ig_cache_key=MzkyNzE5MDAyNjg3NDM4Nzg2Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=sdgrMxoCYdIQ7kNvwH9WE7B&_nc_oc=AdrGil7UvxRWOIWn_u2HGy6Va5oi9vlCe1Fdu9i4J5jzD0WzVZZUzxnsM0b2fW0dvE4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=TDS3HDqXyvBDFaBAWBbhfg&_nc_ss=7a22e&oh=00_Af9Evw7viNfL8Yp5QRpcZwxN5Ny1Ql2t06idCSxdYnG6IA&oe=6A4337A7",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730015604_18419377171183694_3759472020209685768_n.webp?_nc_cat=107&ig_cache_key=MzkyNzE5MDAyNzE4NDg4MjM2Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=dRaonxvbPZIQ7kNvwGX2kLV&_nc_oc=AdrHHxLKRst67V7tcMocIfCDwqmNbK8dfE8nWxMfMClFRpvU4-IEXStWKT-5TqxN-OU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=TDS3HDqXyvBDFaBAWBbhfg&_nc_ss=7a22e&oh=00_Af_ZqQTy5VgFjvFCzTlLejP88yLEZhAJjzwMkQiO5Mvplw&oe=6A4318DD"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730052191_18419377186183694_7198045568704091494_n.webp?_nc_cat=109&ig_cache_key=MzkyNzE5MDAyNjg3NDM4Nzg2Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=sdgrMxoCYdIQ7kNvwH9WE7B&_nc_oc=AdrGil7UvxRWOIWn_u2HGy6Va5oi9vlCe1Fdu9i4J5jzD0WzVZZUzxnsM0b2fW0dvE4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=TDS3HDqXyvBDFaBAWBbhfg&_nc_ss=7a22e&oh=00_Af9Evw7viNfL8Yp5QRpcZwxN5Ny1Ql2t06idCSxdYnG6IA&oe=6A4337A7",
+      "image_url": "/assets/feed-images/9b5d55f2eaf2ecda4149.webp",
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/407900186_668717112004170_7581999167853339255_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gH2duufX62A1dKI6HfHAGZdxyhc1dlx8feDuGWhvgTJNBHSMCdeWyqrKayCN1RuMhM&_nc_ohc=5rWA_LRynGoQ7kNvwFjMidb&_nc_gid=E4gKraAdjX0SLo7dDQf2Gg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af8ctsRw5SrG9mJwqC1FCrzsQji02KuTCl_X8lsrdyz7WA&oe=6A431453&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/5016827370e797fbfc71.webp",
+      "source_initials": "JSP",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動"
+      ],
+      "key": "ig_jongseongpark_harmonicist:https://www.instagram.com/p/DaAL7MNk40D/"
+    },
+    {
+      "title": "山下伶 Rei Yamashita｜久々に３人で🫶人生のメリーゴーランド🎠 #山下怜 #chromaticharmonica #大塚茜 #flute #土屋恵 accordion",
+      "headline": "久々に３人で🫶人生のメリーゴーランド🎠",
+      "link": "https://www.instagram.com/p/DZ_74jvpj3n/",
+      "source_id": "ig_rei_harmonica",
+      "source": "山下伶 Rei Yamashita",
+      "source_system_name": "山下伶 Rei Yamashita",
+      "source_profile_url": "https://www.instagram.com/rei_harmonica/",
+      "account": "rei_harmonica",
+      "platform": "instagram",
+      "posted_at": "Thu, 25 Jun 2026 06:43:10 GMT",
+      "posted_at_local": "2026-06-25 14:43",
+      "seen_at": "2026-06-25T16:05:52.696060+00:00",
+      "matched_keywords": [
+        "口琴",
+        "演出"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.7,
+      "llm_labels": [
+        "口琴",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "贴文来自 harmonica 账号，内容提及与长笛和手风琴演奏者合奏，涉及口琴相关演出更新。",
+      "text": "久々に３人で🫶人生のメリーゴーランド🎠\n#山下怜 #chromaticharmonica\n#大塚茜　#flute\n#土屋恵　accordion",
+      "images": [],
+      "source_image_url": "",
+      "image_url": "",
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/503187975_18466821646076837_1903386838267563286_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gHInsg0IKKdyi_Oc5My5p4FfogFJ9YrkWv3bbH3LTvAJwiicSaGZijW4VJ8xdUgbnE&_nc_ohc=SAAlnU2kPekQ7kNvwE3HMFT&_nc_gid=0Z5tVWjSn5R5wvhX3hDn3g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af8oM49Fj7Umy3L4qIW0Zu64Xfeq0GVk9JW9PPQE4dKy6Q&oe=6A432438&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/9628724a6f3368b6ce7e.webp",
+      "source_initials": "RY",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動"
+      ],
+      "key": "ig_rei_harmonica:https://www.instagram.com/p/DZ_74jvpj3n/"
+    },
+    {
+      "title": "吹出好心琴 + Ou Frog +｜[伴奏 Accompaniment] 守著陽光守著你｜複音口琴｜Tremolo harmonica｜口琴譜｜口琴教學｜Harmonica tabs 頻道開啟了超級感謝、留言系列，再請多多支持❤😄。 複音…",
+      "headline": "[伴奏 Accompaniment] 守著陽光守著你｜複音口琴｜Tremolo harmonica｜口琴譜｜口琴教學｜Harmonica tabs",
+      "link": "https://www.youtube.com/watch?v=XHquydN9tJc",
+      "source_id": "yt_oufrog",
+      "source": "吹出好心琴 + Ou Frog +",
+      "source_system_name": "歐純伶",
+      "source_profile_url": "https://www.youtube.com/channel/UCYVZf8lsckbde4dRRB0EK8A",
+      "account": "https://www.youtube.com/channel/UCYVZf8lsckbde4dRRB0EK8A",
+      "platform": "youtube",
+      "posted_at": "2026-06-25T04:00:37+00:00",
+      "posted_at_local": "2026-06-25 12:00",
+      "seen_at": "2026-06-25T16:05:52.696060+00:00",
+      "matched_keywords": [
+        "口琴",
+        "影片",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "影片",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "影片",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文明確為口琴教學影片，包含口琴譜與伴奏，符合口琴影片及公開更新類別。",
+      "text": "[伴奏 Accompaniment] 守著陽光守著你｜複音口琴｜Tremolo harmonica｜口琴譜｜口琴教學｜Harmonica tabs\n頻道開啟了超級感謝、留言系列，再請多多支持❤😄。\n複音口琴 21 孔 ； 節拍器速度90\n觀看口琴示範版，請至頻道演奏影片或開頭資訊卡\nE-mail：tcling.com@gmail.com\n伴奏： 歐老師",
+      "images": [
+        "https://i.ytimg.com/vi/XHquydN9tJc/maxresdefault.jpg"
+      ],
+      "source_image_url": "https://i.ytimg.com/vi/XHquydN9tJc/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/0c832881accdb453ec2a.webp",
+      "source_avatar_url": "https://yt3.googleusercontent.com/zpNQ6PMxz1G01j8vDzQ53R9CJOQvK9USeamGpVffmwo3Gjpm6uktX120aOiTgmtw-fLshswvNA=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/2241bd394301b93492ed.webp",
+      "source_initials": "OF",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "yt_oufrog:XHquydN9tJc"
+    },
+    {
+      "title": "就是吹口琴 陳鴻儀Henry’s Harmonica｜【就是吹口琴Just Play Harmonica 】｜君無愁(台視 孤劍恩仇記 主題曲)｜複音口琴Tremolo Harmonica 演奏版本《C調》 君無愁 (1985 台視 孤劍…",
+      "headline": "【就是吹口琴Just Play Harmonica 】｜君無愁(台視 孤劍恩仇記 主題曲)｜複音口琴Tremolo Harmonica 演奏版本《C調》",
+      "link": "https://www.youtube.com/watch?v=yiv7B9U1seY",
+      "source_id": "yt_henrysharmonica",
+      "source": "就是吹口琴 陳鴻儀Henry’s Harmonica",
+      "source_system_name": "陳鴻儀",
+      "source_profile_url": "https://www.youtube.com/channel/UC7dQryOizHj-cKHV3xw0ASQ",
+      "account": "https://www.youtube.com/channel/UC7dQryOizHj-cKHV3xw0ASQ",
+      "platform": "youtube",
+      "posted_at": "2026-06-25T00:00:06+00:00",
+      "posted_at_local": "2026-06-25 08:00",
+      "seen_at": "2026-06-25T16:05:52.696060+00:00",
+      "matched_keywords": [
+        "口琴",
+        "影片"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文為口琴演奏者陳鴻儀的複音口琴演奏影片，內容明確涉及口琴演奏，符合公開更新與影片標準。",
+      "text": "【就是吹口琴Just Play Harmonica 】｜君無愁(台視 孤劍恩仇記 主題曲)｜複音口琴Tremolo Harmonica 演奏版本《C調》\n君無愁\n(1985 台視 孤劍恩仇記 主題曲)\n黃仁清 作曲\n黃仁清 作詞\n成 鳳 原唱\n複音口琴演奏版本《C調》",
+      "images": [
+        "https://i.ytimg.com/vi/yiv7B9U1seY/maxresdefault.jpg"
+      ],
+      "source_image_url": "https://i.ytimg.com/vi/yiv7B9U1seY/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/1a626cf68dfe44bae81e.webp",
+      "source_avatar_url": "https://yt3.googleusercontent.com/jRo3PEipmEqPOdl6u-yU-T8hME_tD8ty8dKJo6_cZZyY9Dz9-aPLGdXfwpBf5Y-SR2F0bk4b7Q=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/11010264a3489f5a5679.webp",
+      "source_initials": "HSH",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "yt_henrysharmonica:yiv7B9U1seY"
+    },
     {
       "title": "CY Leo 何卓彥｜人生為自己策劃最大型、耗時、昂貴、複雜的原創音樂計劃，要正式面世了。 《Two Worlds In One》這個計劃已經策劃超過兩年，創作無數作品後最後濃縮到10首原創歌曲，推出人聲和純音樂版本，希望能夠把流行音樂的…",
       "headline": "人生為自己策劃最大型、耗時、昂貴、複雜的原創音樂計劃，要正式面世了。",
@@ -2422,6 +2723,55 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "key": "yt_oufrog:ee-SomEyTjE"
     },
     {
+      "title": "南里沙｜今夜は160回 RJマンスリーライブ、楽しい時間はあっという間。 長く続けているライブですが、マスターの髪にも白いものが増え、私も歳を重ねました。その分、演奏も少しずつ変わってきたように感じます。 次回のRJマンスリーライブは、7…",
+      "headline": "今夜は160回 RJマンスリーライブ、楽しい時間はあっという間。",
+      "link": "https://www.instagram.com/p/DZv9gbPSDcC/",
+      "source_id": "ig_minami_risa",
+      "source": "南里沙",
+      "source_system_name": "南里沙",
+      "source_profile_url": "https://www.instagram.com/minami_risa/",
+      "account": "minami_risa",
+      "platform": "instagram",
+      "posted_at": "Fri, 19 Jun 2026 01:46:17 GMT",
+      "posted_at_local": "2026-06-19 09:46",
+      "seen_at": "2026-06-25T16:05:52.696060+00:00",
+      "matched_keywords": [
+        "口琴",
+        "演出",
+        "公開更新"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "口琴",
+        "演出",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文提及口琴演出（RJマンスリーライブ）並標註 #クロマチックハーモニカ，雖為一般演出但符合口琴公開更新定義。",
+      "text": "今夜は160回 RJマンスリーライブ、楽しい時間はあっという間。\n長く続けているライブですが、マスターの髪にも白いものが増え、私も歳を重ねました。その分、演奏も少しずつ変わってきたように感じます。\n次回のRJマンスリーライブは、7月16日(木)です♬またRJでお会いしましょう😊\n**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**\nさて、急なお知らせですが、\nYouTube生配信 第272回「南里沙のココだけの話」を、\n6月20日（土）夜10時から配信します。\n今回は、私も大好きな ちあきなおみさん特集\nリクエストもお待ちしています♬\nぜひ遊びに来てくださいね☺️\n#クロマチックハーモニカ #南里沙",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/726716361_18593549683053761_2802633507180942337_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=MzkyMjYyNDMwOTU3MDg0NDQxOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjE0Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=bKPeSg25NYMQ7kNvwG8sQmE&_nc_oc=AdoP6vYNOKvY-QQHoSKv5ousD5dx5N_kTZTqCYvOgwUEtb1UI68kO3p70mU1sQctg9Q&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af-xNPqMgUwQ28cy403IRkJTQbUqgL4qWRVHoqT-zvLP-g&oe=6A432B52"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/726716361_18593549683053761_2802633507180942337_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=MzkyMjYyNDMwOTU3MDg0NDQxOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjE0Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=bKPeSg25NYMQ7kNvwG8sQmE&_nc_oc=AdoP6vYNOKvY-QQHoSKv5ousD5dx5N_kTZTqCYvOgwUEtb1UI68kO3p70mU1sQctg9Q&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af-xNPqMgUwQ28cy403IRkJTQbUqgL4qWRVHoqT-zvLP-g&oe=6A432B52",
+      "image_url": "/assets/feed-images/0c394fb8df3254390b4c.webp",
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+      "source_initials": "南里",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動"
+      ],
+      "key": "ig_minami_risa:https://www.instagram.com/p/DZv9gbPSDcC/"
+    },
+    {
       "title": "千賀太郎｜来週の金曜日は 高円寺 JIROKICHIにて. 6月26日 はもにかDOJO 高円寺 JIROKICHI KOTEZ(hca,vo) 千賀太郎(hca,vo) 大西真(b) 松本照夫(dr) ゲスト チェンマイ(hca) キン…",
       "headline": "来週の金曜日は 高円寺 JIROKICHIにて.",
       "link": "https://www.instagram.com/p/DZvXsXjz8u7/",
@@ -2864,6 +3214,53 @@ window.HARMONICA_OBSERVE_FEEDS = {
         "實體活動"
       ],
       "key": "ig_cy_leo:https://www.instagram.com/p/DZraimFkjbm/"
+    },
+    {
+      "title": "南里沙｜先日のYouTube「南里沙のココだけの話」でお届けした、香西かおりさんの「無言坂」・・・♬ 切ない歌詞と美しいメロディーが心に響く名曲です。言葉にできない想いを抱えながら歩く坂道の情景が目に浮かんできます。 フルバージョンはYo…",
+      "headline": "先日のYouTube「南里沙のココだけの話」でお届けした、香西かおりさんの「無言坂」・・・♬",
+      "link": "https://www.instagram.com/p/DZr7enrymwF/",
+      "source_id": "ig_minami_risa",
+      "source": "南里沙",
+      "source_system_name": "南里沙",
+      "source_profile_url": "https://www.instagram.com/minami_risa/",
+      "account": "minami_risa",
+      "platform": "instagram",
+      "posted_at": "Wed, 17 Jun 2026 12:26:32 GMT",
+      "posted_at_local": "2026-06-17 20:26",
+      "seen_at": "2026-06-25T16:05:52.696060+00:00",
+      "matched_keywords": [
+        "口琴",
+        "演出",
+        "公開更新"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "口琴",
+        "演出",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "貼文提及口琴（#クロマチックハーモニカ）的定期現場演出（マンスリーライブ），並含演出詳情。",
+      "text": "先日のYouTube「南里沙のココだけの話」でお届けした、香西かおりさんの「無言坂」・・・♬\n切ない歌詞と美しいメロディーが心に響く名曲です。言葉にできない想いを抱えながら歩く坂道の情景が目に浮かんできます。\nフルバージョンはYouTubeでぜひご覧ください🎶\n明日6月18日（木）は、毎月第三木曜日にお届けしている兵庫・西宮北口 RJ&BME’sでのマンスリーライブ。「無言坂」もお届けしようと思っています。RJでお待ちしています🫶\nRJマンスリーライブ\n兵庫・RJ&BME’s\n2026年6月18日(木)\nOpen 19時 / Start 20時\n2000円(ワンドリンク以上のご注文をお願い致します)\nご予約・お問い合わせは\n【RJ&BME’s】\n0798-63-8018\nrjbmes_info@yahoo.co.jp\n#クロマチックハーモニカ #南里沙",
+      "images": [],
+      "source_image_url": "",
+      "image_url": "",
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+      "source_initials": "南里",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動"
+      ],
+      "key": "ig_minami_risa:https://www.instagram.com/p/DZr7enrymwF/"
     },
     {
       "title": "CY Leo 何卓彥｜Cy Leo 何卓彥 - 《在兩個心中間坐下》Two Worlds ft. Ivana Wong 王菀之 Official Music Video 《在兩個心中間坐下》 Cy Leo ft. Ivana Wong 來…",
@@ -4651,6 +5048,56 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "key": "ig_fanhsiaoyi:https://www.instagram.com/p/DZZF__0n-Zx/"
     },
     {
+      "title": "南里沙｜昨日は大阪・守口門真工業クラブにお招きいただき、講演とクロマチックハーモニカの演奏をさせていただきました。 講演では「エンタメ業界の変遷とこれから」というテーマで、音楽業界にも急速に広がる生成AIについても触れながら、これからの時…",
+      "headline": "昨日は大阪・守口門真工業クラブにお招きいただき、講演とクロマチックハーモニカの演奏をさせていただきました。",
+      "link": "https://www.instagram.com/p/DZY48HrkiSC/",
+      "source_id": "ig_minami_risa",
+      "source": "南里沙",
+      "source_system_name": "南里沙",
+      "source_profile_url": "https://www.instagram.com/minami_risa/",
+      "account": "minami_risa",
+      "platform": "instagram",
+      "posted_at": "Wed, 10 Jun 2026 02:38:54 GMT",
+      "posted_at_local": "2026-06-10 10:38",
+      "seen_at": "2026-06-25T16:05:52.696060+00:00",
+      "matched_keywords": [
+        "口琴",
+        "演出",
+        "公開更新"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.8,
+      "llm_labels": [
+        "口琴",
+        "演出",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文提及「クロマチックハーモニカ」（半音階口琴）的演奏，並由口琴演奏者分享公開演出內容，符合口琴相關更新。",
+      "text": "昨日は大阪・守口門真工業クラブにお招きいただき、講演とクロマチックハーモニカの演奏をさせていただきました。\n講演では「エンタメ業界の変遷とこれから」というテーマで、音楽業界にも急速に広がる生成AIについても触れながら、これからの時代をどのように生き抜いていくのか、自分らしい価値をどのように届けていくのかについてお話しさせていただきました。\n技術は日々進化していますが、人の心を動かす音楽や、人と人とのつながりの大切さは、どの業界も変わらないと感じています。皆様が真剣に耳を傾けてくださり、私自身も多くの学びをいただく時間となりました。\n講演の後は、クロマチックハーモニカの演奏をお届けしました。温かい拍手と笑顔に包まれながら、楽しく演奏することができました。音楽の持つ力と、人とのご縁の大切さを改めて感じる一日となりました。\n本当にありがとうございました♬皆様のますますのご発展とご活躍を心よりお祈りしております。またお会いできる日を楽しみにしております😊",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/720146317_18590988805053761_253629240567614915_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkxNjEyODc4ODYxMDExMTgwMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=lwl4fKBZa7YQ7kNvwGW4jOv&_nc_oc=Adp1EHM5BE84YydynHTNkyxyZyG9U6JJtbYAV44C0ZfAaAVNgrqMnfWDU3_6Odzd-70&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af_kjIcHgSZY1h9-z-yGgKQF88iBPDT3OjBCAkm2OSWTOg&oe=6A432FC0",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/720341719_18590988814053761_9061616952912465027_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=MzkxNjEyODc5MTkwNjkyODY0OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjE2MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ijeaA3nHB-AQ7kNvwE8zSWn&_nc_oc=Adp5mjJdsIRd0cI0iIiigMT_ZP6qLnlS1mMbLX45U8PCJltfYIrpIXKIzFB5cqZd-IE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af-MKOrK4xdMtQ30sSuLQ3BidUA0QlBQSWIrzoxGbRxRGQ&oe=6A432961"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/720146317_18590988805053761_253629240567614915_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkxNjEyODc4ODYxMDExMTgwMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=lwl4fKBZa7YQ7kNvwGW4jOv&_nc_oc=Adp1EHM5BE84YydynHTNkyxyZyG9U6JJtbYAV44C0ZfAaAVNgrqMnfWDU3_6Odzd-70&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af_kjIcHgSZY1h9-z-yGgKQF88iBPDT3OjBCAkm2OSWTOg&oe=6A432FC0",
+      "image_url": "/assets/feed-images/1d50432220e22f3b3d8a.webp",
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+      "source_initials": "南里",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動"
+      ],
+      "key": "ig_minami_risa:https://www.instagram.com/p/DZY48HrkiSC/"
+    },
+    {
       "title": "蔡明憲｜好吹就再買再開一把，HOHNER ACE 48｜[ DMing Studio ] DMing Studio ｜口琴教學（校隊 / 社團 / 家教）、口琴維修 蔡明憲，天狼星口琴樂團半音階口琴演奏家，專職教學與 Laelaps 製琴…",
       "headline": "好吹就再買再開一把，HOHNER ACE 48｜[ DMing Studio ]",
       "link": "https://www.youtube.com/watch?v=bzYAlPeJcHc",
@@ -5035,6 +5482,55 @@ window.HARMONICA_OBSERVE_FEEDS = {
         "學生社團"
       ],
       "key": "yt_chaotengchang:3S0kJ3G1Sgg"
+    },
+    {
+      "title": "南里沙｜昨日は芦屋西教会でクロマチックハーモニカコンサートを開催いたしました♬あいにくの雨模様にもかかわらず、たくさんのお客様にお越しいただき、ありがとうござ... 昨日は芦屋西教会でクロマチックハーモニカコンサートを開催いたしました♬あ…",
+      "headline": "昨日は芦屋西教会でクロマチックハーモニカコンサートを開催いたしました♬あいにくの雨模様にもかかわらず、たくさんのお客様にお越しいただき、ありがとうござ...",
+      "link": "https://www.instagram.com/p/DZTdx2oyGen/",
+      "source_id": "ig_minami_risa",
+      "source": "南里沙",
+      "source_system_name": "南里沙",
+      "source_profile_url": "https://www.instagram.com/minami_risa/",
+      "account": "minami_risa",
+      "platform": "instagram",
+      "posted_at": "Mon, 08 Jun 2026 00:07:29 GMT",
+      "posted_at_local": "2026-06-08 08:07",
+      "seen_at": "2026-06-25T16:05:52.696060+00:00",
+      "matched_keywords": [
+        "口琴",
+        "演出",
+        "音樂會"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "演出",
+        "音樂會"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "貼文明確提及在芦屋西教会舉辦「クロマチックハーモニカコンサート」（半音階口琴音樂會），並分享演出感受，符合口琴演出與音樂會相關標準。",
+      "text": "昨日は芦屋西教会でクロマチックハーモニカコンサートを開催いたしました♬あいにくの雨模様にもかかわらず、たくさんのお客様にお越しいただき、ありがとうござ...\n昨日は芦屋西教会でクロマチックハーモニカコンサートを開催いたしました♬あいにくの雨模様にもかかわらず、たくさんのお客様にお越しいただき、ありがとうございました。\n演奏のたびにいただく温かい拍手は、私にとって何よりの励みです。終演後には、「よかったですよ」「また来てくださいね」と\n嬉しいお声をたくさんいただき、幸せな時間となりました。\n私は小学校から大学までキリスト教の学校で学びました。そのため、教会の雰囲気や礼拝堂の静かな空気に触れると、どこか懐かしい気持ちになります。\n雨音に包まれながら響くクロマチックハーモニカの音色は、いつもとはまた違った温かさがありました。お越しくださいました皆さま、本当にありがとうございました。またお会いできることを、楽しみにしております😊",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/719609576_18590423206053761_1448590298453272273_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzkxNDYwMzQ3MDM4NDU1NTk0Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FN8kJiDt30EQ7kNvwFXJgvp&_nc_oc=AdrNv-aB6_-5-_hx1VzA9Lyl86j721Ldo6mugZ0hx7UPEGVPn1sB2mHTvW32Jooi87I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af-pBA5EwBFMfNlAlKFYFDiPyxYWYUttUplvmGDibsJMmg&oe=6A432202"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/719609576_18590423206053761_1448590298453272273_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzkxNDYwMzQ3MDM4NDU1NTk0Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FN8kJiDt30EQ7kNvwFXJgvp&_nc_oc=AdrNv-aB6_-5-_hx1VzA9Lyl86j721Ldo6mugZ0hx7UPEGVPn1sB2mHTvW32Jooi87I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af-pBA5EwBFMfNlAlKFYFDiPyxYWYUttUplvmGDibsJMmg&oe=6A432202",
+      "image_url": "/assets/feed-images/e05409a9061b22524c66.webp",
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+      "source_initials": "南里",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動"
+      ],
+      "key": "ig_minami_risa:https://www.instagram.com/p/DZTdx2oyGen/"
     },
     {
       "title": "Marcos Coll｜Marcos Coll Band feat Emiliano Juarez Sa. 15.08.2026 Marcos Coll Quintett 21:00 Uhr / 9:00 PM Marcos Coll (…",
@@ -5863,6 +6359,49 @@ window.HARMONICA_OBSERVE_FEEDS = {
         "學生社團"
       ],
       "key": "threads_fanhsiaoyi:https://www.threads.com/t/DZPFbhwHGEv"
+    },
+    {
+      "title": "南里沙｜先週のYouTube生配信「南里沙のココだけの話」今日の1曲でお届けした『氷雨』。切なく美しいメロディーを、クロマチックハーモニカとEWI で演奏しました。フルバ... 先週のYouTube生配信「南里沙のココだけの話」今日の1曲…",
+      "headline": "先週のYouTube生配信「南里沙のココだけの話」今日の1曲でお届けした『氷雨』。切なく美しいメロディーを、クロマチックハーモニカとEWI で演奏しました。フルバ...",
+      "link": "https://www.instagram.com/p/DZOjnZdSG3T/",
+      "source_id": "ig_minami_risa",
+      "source": "南里沙",
+      "source_system_name": "南里沙",
+      "source_profile_url": "https://www.instagram.com/minami_risa/",
+      "account": "minami_risa",
+      "platform": "instagram",
+      "posted_at": "Sat, 06 Jun 2026 02:45:55 GMT",
+      "posted_at_local": "2026-06-06 10:45",
+      "seen_at": "2026-06-25T16:05:52.696060+00:00",
+      "matched_keywords": [
+        "口琴",
+        "影片"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "口琴",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文提及使用「クロマチックハーモニカ」（半音階口琴）進行演奏，並分享YouTube影片連結，符合口琴演奏者公開更新與口琴影片之相關性。",
+      "text": "先週のYouTube生配信「南里沙のココだけの話」今日の1曲でお届けした『氷雨』。切なく美しいメロディーを、クロマチックハーモニカとEWI で演奏しました。フルバ...\n先週のYouTube生配信「南里沙のココだけの話」今日の1曲でお届けした『氷雨』。切なく美しいメロディーを、クロマチックハーモニカとEWI で演奏しました。フルバージョンはYouTubeでぜひお楽しみください♬\n**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**\n今週はチキンガーリックステーキpresents「まちなかアカペラ＆マルシェ」からスタートし、東京でのレコーディング、リハーサル、レッスン、打ち合わせなどなど…✨充実した1週間を過ごしておりました😊\nそして今夜、6月6日(土)よる10時〜は、YouTube生配信\n「南里沙のココだけの話」📺第270回は『青春を彩った曲特集』YouTubeでお会いしましょう✨リクエストもお待ちしております🫶",
+      "images": [],
+      "source_image_url": "",
+      "image_url": "",
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+      "source_initials": "南里",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_minami_risa:https://www.instagram.com/p/DZOjnZdSG3T/"
     },
     {
       "title": "陳瑤容 Yora Chen｜Zigeuner 在德文中是吉普賽人的意思。這個民族幾百年來在歐洲四處流浪，沒有自己的國家，到處被驅趕、被歧視。 但他們沒有因此變得卑微，反而發展出了一種極度獨特、狂放、愛恨分明的音樂風格。薩拉沙泰就是在匈牙利…",
@@ -7301,6 +7840,58 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "key": "ig_aidennevelyn:https://www.instagram.com/p/DZAYKNaj9gt/"
     },
     {
+      "title": "南里沙｜昨日は兵庫県・西神プレンティ広場で開催された「まちなかアカペラ＆にぎわいマルシェ」に出演させていただきました☀️お聴きくださった皆さま、本当にありがと... 昨日は兵庫県・西神プレンティ広場で開催された「まちなかアカペラ＆にぎわい…",
+      "headline": "昨日は兵庫県・西神プレンティ広場で開催された「まちなかアカペラ＆にぎわいマルシェ」に出演させていただきました☀️お聴きくださった皆さま、本当にありがと...",
+      "link": "https://www.instagram.com/p/DY_HTvFSNGz/",
+      "source_id": "ig_minami_risa",
+      "source": "南里沙",
+      "source_system_name": "南里沙",
+      "source_profile_url": "https://www.instagram.com/minami_risa/",
+      "account": "minami_risa",
+      "platform": "instagram",
+      "posted_at": "Sun, 31 May 2026 02:46:16 GMT",
+      "posted_at_local": "2026-05-31 10:46",
+      "seen_at": "2026-06-25T16:05:52.696060+00:00",
+      "matched_keywords": [
+        "口琴",
+        "演出",
+        "比賽"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "口琴",
+        "演出",
+        "比賽"
+      ],
+      "llm_categories": [
+        "events",
+        "posts-videos"
+      ],
+      "llm_reason": "貼文提及口琴比賽（FIHハーモニカコンテスト本選）及口琴演出（アカペラ出演），並標記口琴相關標籤。",
+      "text": "昨日は兵庫県・西神プレンティ広場で開催された「まちなかアカペラ＆にぎわいマルシェ」に出演させていただきました☀️お聴きくださった皆さま、本当にありがと...\n昨日は兵庫県・西神プレンティ広場で開催された「まちなかアカペラ＆にぎわいマルシェ」に出演させていただきました☀️お聴きくださった皆さま、本当にありがとうございました。\nアカペラグループ・チキンガーリックステーキの皆さんとご一緒し、青空の下で楽しい時間を過ごすことができました。お客様の笑顔や温かい拍手に包まれた、とても素敵な一日でした✨\nチキンガーリックステーキのお兄様方、お疲れさまでした！\nまたご一緒できる日を楽しみにしています😊\n**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**\nそして昨日は東京でFIHハーモニカコンテスト本選も開催されました。ご出場された皆さま、本当にお疲れさまでした。ハーモニカを愛する皆さまの今後のさらなるご活躍を心よりお祈りしております♬\n**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**\nそして本日、東京入り。レコーディングの為スタジオに向かっています。東京はいつも何処かが工事中😵‍💫\n#クロマチックハーモニカ",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/710665871_18588046228053761_5037529535620441484_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkwODg3NTE0NDEzMTAzOTY2Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FjsdRU0aZa8Q7kNvwFEYTwQ&_nc_oc=AdoX870JRUFAsmAQj3c8vksiIM9CR85MPS5Xqm90PDjSTKPUUApAttqOsQNV31adSN0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af9znIIcoTId5XnLwouwhyHzp2u51TkPmd9BkzgGkgkcTg&oe=6A43168F"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/710665871_18588046228053761_5037529535620441484_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkwODg3NTE0NDEzMTAzOTY2Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FjsdRU0aZa8Q7kNvwFEYTwQ&_nc_oc=AdoX870JRUFAsmAQj3c8vksiIM9CR85MPS5Xqm90PDjSTKPUUApAttqOsQNV31adSN0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af9znIIcoTId5XnLwouwhyHzp2u51TkPmd9BkzgGkgkcTg&oe=6A43168F",
+      "image_url": "/assets/feed-images/80ccd5830c98279dfcbd.webp",
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+      "source_initials": "南里",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動",
+        "補助比賽"
+      ],
+      "key": "ig_minami_risa:https://www.instagram.com/p/DY_HTvFSNGz/"
+    },
+    {
       "title": "山下伶 Rei Yamashita｜昨日開催された「FIHハーモニカコンテスト」にて、山下教室の生徒さんたちが素晴らしい賞を受賞されました！🎉 🏆アンサンブル部門 2位 Fabulous Bond （中西顕士さん・田口洋介さん・渡辺知紗さ…",
       "headline": "昨日開催された「FIHハーモニカコンテスト」にて、山下教室の生徒さんたちが素晴らしい賞を受賞されました！🎉",
       "link": "https://www.instagram.com/p/DY-6vXqE9k9/",
@@ -8203,239 +8794,6 @@ window.HARMONICA_OBSERVE_FEEDS = {
         "補助比賽"
       ],
       "key": "ig_jangli_harmonica:https://www.instagram.com/p/DY1u0Onyxuh/"
-    },
-    {
-      "title": "蔡明憲｜五月底行程太瘋狂了，差不多時間要逃去海邊充電一下。 暑期這幾趟國外演出行程，我看全程底片機打到底好了，來消滅庫存的底片們。 顏色我真的是太愛！",
-      "headline": "五月底行程太瘋狂了，差不多時間要逃去海邊充電一下。",
-      "link": "https://www.instagram.com/p/DY0zgRVErvr/",
-      "source_id": "ig_damingtsai",
-      "source": "蔡明憲",
-      "source_system_name": "蔡明憲",
-      "source_profile_url": "https://www.instagram.com/damingtsai/",
-      "account": "damingtsai",
-      "platform": "instagram",
-      "posted_at": "Wed, 27 May 2026 02:18:45 GMT",
-      "posted_at_local": "2026-05-27 10:18",
-      "seen_at": "2026-06-24T16:13:01.085859+00:00",
-      "matched_keywords": [
-        "口琴",
-        "演出",
-        "公開更新"
-      ],
-      "keyword_matches": [
-        "演出"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.9,
-      "llm_labels": [
-        "口琴",
-        "演出",
-        "公開更新"
-      ],
-      "llm_categories": [
-        "events"
-      ],
-      "llm_reason": "貼文提及口琴演奏者蔡明憲的暑期國外演出行程，符合口琴演出者公開更新條件。",
-      "text": "五月底行程太瘋狂了，差不多時間要逃去海邊充電一下。\n暑期這幾趟國外演出行程，我看全程底片機打到底好了，來消滅庫存的底片們。\n顏色我真的是太愛！",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707723635_18611518519001018_217414097086257949_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkwNTk3MjI1NTE2NzQyMDgzMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=-HPSEJ1D0MgQ7kNvwF6PRRh&_nc_oc=AdrgYptpI5FIg_4xyPrJdJF1I9tD2W6hcJ30p1Xe7HFcfcNDDLl3cbOwtZ3Rkdc39q8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af-87Fs4ZcV8KZobeSFx64Mun6rFtiQmn1NH7e7Maopz1g&oe=6A41CB17",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707445645_18611518528001018_7020333393282344287_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkwNTk3MjI1ODY0ODgxMjk4OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=u-ox_2WhkZoQ7kNvwFGmg1Z&_nc_oc=AdqWPZY9nbsTq3p6mF1y8kMqkL01gIiElDy1u15Bw8UyOlRmnRyblUG6XB5rDhaQbQE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af80In7k1opYicepQPAwtRNMSu7bO65aW0wjpUXGOozecw&oe=6A41BE9D",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707476207_18611518537001018_4138615978449806616_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkwNTk3MjI2MTE4MjIyNDEzOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=4E4i3fHeXmQQ7kNvwGuMzM1&_nc_oc=Adr08yabc1D3zqFZDwtLBR5AHmHtigrgkpyCJ5JJPHYjKjL_Yw-SXE84TXORMtskaD4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af_4b2GCN9_0F9Gw-SLga9nEhX7sh1EtA5GkgoAL22g-dA&oe=6A41D75C",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/708242805_18611518573001018_998366212563370222_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=MzkwNTk3MjI2NTU5NDQ3NjY1MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=HviyIZ8CaGUQ7kNvwF378hc&_nc_oc=AdoYFqryPnNt_IZ_YBwi--modp_DEvAJmmSnv5FCseru8Lu8vlvl0HSADJZOwEpAQ-M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af8h4iSniGMWqI2og-dHtydBvjyg1yzbtEIiySoTJZlnuA&oe=6A41D45E",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707815857_18611518549001018_6817408224665740389_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=MzkwNTk3MjI2NzU5OTUwNTgxNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=y3WQcsKOc0MQ7kNvwHfrIwv&_nc_oc=AdonD1sqFgUaWq03aFYjB5sQKnIH-xsMyXLFppDjAQfcOelja9NTe3AxBy4CdDjNq8I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af9Vu5LKN01bO0GyAFYju5mEFVS8815edTk7-W6Qt2rq6Q&oe=6A41D3AD",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/708193151_18611518558001018_3448242244921983628_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzkwNTk3MjI3MDUzNTQxODU0OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=tefNQ8r-dIUQ7kNvwHNhkfI&_nc_oc=AdpIOQgaRfHatScjNaFuLCEb-uWeHaj8Za4KLqKiEtsPEXdWzXnHVBH-VN3jliBLI7w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af-rZVHjYTDoKW2vc5pr2l37Pyc565vOMqjK6IQb3LtjqA&oe=6A41CA0C",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707838604_18611518588001018_5738491509383458628_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=MzkwNTk3MjI3MzM3MDc3NTUxNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ZBlE7ZjC5g4Q7kNvwFS4ZUX&_nc_oc=AdonBeP63ovgYY3anET4xXEtYWGderP-SbeFNYqnNuOf62ypucgntbCmLCgoaVDE1L4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af_e9D2tTsITNdVqyUoAflVG43wSzRiHWrs5LI9_ePjusw&oe=6A41B724",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/709034631_18611518591001018_1214885743152818104_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkwNTk3MjI3NTQ1OTU3NzY3Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=63k6qozIsugQ7kNvwGK2A2-&_nc_oc=AdoFglm4mzxTSm3fRj8Mii2YgIyr9AHPDq062Abhgj2ANg3bJHo901hzy3G2x2vkZYg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af_XdPbYfVU-VC-BER563Bwgk4dEzE49nKbqTEBBgaPbdQ&oe=6A41B7B2",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706111228_18611518615001018_7260987853133363865_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkwNTk3MjI3OTI3NjI1NzQ3NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=YUejRBT9zokQ7kNvwG3Kq3K&_nc_oc=AdpXESA3423haX5LVsztS3mDpX9F4OYAjK_ZLPM5vhUCIYs_qg1cjKhZbHduhJhGYvk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af9MllSzuXiaKF0yzv8LocTjRaFdm1gKiAQ4Tp581RErcQ&oe=6A41BD49",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706133257_18611518612001018_2548037943077320562_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=MzkwNTk3MjI4MTk2OTA3OTg2NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=2dKwAu8gD-sQ7kNvwH5CfnJ&_nc_oc=AdpeSA1VSZz36l4X30jNFxRCcbxy0gH2dmeEILNLBYJmHbfootC0IDN0rw5GHjOH8nY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af_uY-awjrQ_mW4VZlCBLY4vaShlYZQ9Fq3uBiyuVuwqpw&oe=6A41B8D4",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706089366_18611518618001018_7323611441455926117_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=MzkwNTk3MjI4NDgwNDUwMTc1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=zciLnhjjYSkQ7kNvwE21zh1&_nc_oc=AdqR3jvkLIcsxxYeZ7TWE26KrYn5mVY3qlqd260QxYxyTu11v_W_u8J-Vx-98I3dgio&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af_EhFOZOa4KRi4ResyzQ5dB-a6LQ0wHRkwBCmi557vgPw&oe=6A41DDEE"
-      ],
-      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707723635_18611518519001018_217414097086257949_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkwNTk3MjI1NTE2NzQyMDgzMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=-HPSEJ1D0MgQ7kNvwF6PRRh&_nc_oc=AdrgYptpI5FIg_4xyPrJdJF1I9tD2W6hcJ30p1Xe7HFcfcNDDLl3cbOwtZ3Rkdc39q8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af-87Fs4ZcV8KZobeSFx64Mun6rFtiQmn1NH7e7Maopz1g&oe=6A41CB17",
-      "image_url": "/assets/feed-images/863e40577925073e0fb4.webp",
-      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/452992890_468289262797164_2736951104040571947_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42NDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gGYIbYK9PPOFDvAtC39IafSqpmZDStnMLnsF-4U7_XVRet68JUCTL6glvhElFIpE2k&_nc_ohc=XgtgrBxqV8gQ7kNvwEU_gfH&_nc_gid=LhPcE4fXVG5ck9LL8AbWUQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af9lJYaopJhGMll1J98Hv1ur_L50QwF0NXXTFAO7XqUBaA&oe=6A41CD3C&_nc_sid=8b3546",
-      "avatar_url": "/assets/source-avatars/bf2f349c5f4c1ca4392a.webp",
-      "source_initials": "蔡明",
-      "categories": [
-        "posts-videos",
-        "events"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "實體活動"
-      ],
-      "key": "ig_damingtsai:https://www.instagram.com/p/DY0zgRVErvr/"
-    },
-    {
-      "title": "茱蒂口琴樂團 Judy's Harmonica Ensemble｜上週很榮幸受邀參加第一屆甘肅天水口琴藝術展演，擔任評審與演出嘉賓。 在所有活動正式開始之前，我們來到中華人文始祖伏羲氏的廟前，與眾人共同參與祭典。非常感謝東方鼎孔總的盛情邀…",
-      "headline": "上週很榮幸受邀參加第一屆甘肅天水口琴藝術展演，擔任評審與演出嘉賓。",
-      "link": "https://www.instagram.com/p/DYzl0BolM5O/",
-      "source_id": "ig_judys_harmonica_ensemble",
-      "source": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-      "source_system_name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-      "source_profile_url": "https://www.instagram.com/judys.harmonica.ensemble/",
-      "account": "judys.harmonica.ensemble",
-      "platform": "instagram",
-      "posted_at": "Tue, 26 May 2026 14:59:52 GMT",
-      "posted_at_local": "2026-05-26 22:59",
-      "seen_at": "2026-06-24T16:13:01.085859+00:00",
-      "matched_keywords": [
-        "口琴",
-        "演出",
-        "音樂會",
-        "公開更新"
-      ],
-      "keyword_matches": [
-        "口琴",
-        "演出"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.95,
-      "llm_labels": [
-        "口琴",
-        "演出",
-        "音樂會",
-        "公開更新"
-      ],
-      "llm_categories": [
-        "events"
-      ],
-      "llm_reason": "貼文明確描述口琴樂團受邀參加口琴藝術展演、擔任評審與演出嘉賓，並分享演出過程與感受，屬於口琴演出活動的公開更新。",
-      "text": "上週很榮幸受邀參加第一屆甘肅天水口琴藝術展演，擔任評審與演出嘉賓。\n在所有活動正式開始之前，我們來到中華人文始祖伏羲氏的廟前，與眾人共同參與祭典。非常感謝東方鼎孔總的盛情邀約，讓我們有幸從中門步入。所謂「開中門」，是中國傳統禮儀中最高規格的迎賓之禮，古時只在重要祭典或迎接貴賓時才會開啟，象徵著至高的尊重。能夠以這樣珍貴的方式踏入伏羲廟實在意義非凡，與伏羲一同見證首屆藝術展演的序幕，也祈願祂庇佑天水口琴的發展。\n兩晚的戶外演出，老天格外賞臉，巧妙地讓我們避開了雨水。特別為此次活動準備的《向陽花》，也獲得了觀眾們熱烈的迴響與喜愛。\n感謝主辦單位、東方鼎孔總及全體工作人員的用心籌辦，也謝謝從各地遠道而來支持的觀眾們！能夠親身見證一個地方在口琴藝術上的成長，心中滿是感動！期待下次再會！\n#天水口琴藝術展演 #茱蒂口琴樂團",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707668454_18009948536880937_1227289577575056096_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkwNTYzMDg5NTE5MjE1NTU3MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=z0Zttpyu_FUQ7kNvwHenqoV&_nc_oc=AdowCVPlCLX6gGtwLJJJVDxipsjvohG1sjG4F70f-sEh-Zz-eDuPoQZN_tl7sDeNhm8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af84BsdQhCcdIqWK1nLezBtM-mjlsZ3dhBv_HqL17dGJcA&oe=6A41B8F0",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707693612_18009948551880937_3100314505772698982_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTYzMTAwODAzNTg1NTYyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNDAwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=zDCrvx-s-UsQ7kNvwEw8WVS&_nc_oc=AdpuJXbUWmuIGQ0Cy_cXkA1SMfY2fOgpG93pkabBEqmx4_xLGfRva-pGvnH0wLskRoc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af-Bldgw0NJGiRCoMJMI9b1XtobRYRBNWhiAKQFZ-GHC0g&oe=6A41B5E6",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/708068049_18009948569880937_8049976574653608139_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=MzkwNTYzMTExNDk0MDM4MDI2Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=DSASYCl9b3sQ7kNvwHC3te9&_nc_oc=Adp6bAnNomVTIld6jnh5kVAqLI9KnWufcFCh1SzGRMN8Qn39napglpRQ17mEEtiL4UQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af86bF1fqBEe88w8hUQHvZrFOOEUJznpD34sX7cCVd_JZQ&oe=6A41D423",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707153884_18009948581880937_9040985531415077830_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=MzkwNTYzMTEyMTg3NzUyNTE5Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=zovI9xOePCsQ7kNvwFZrBAG&_nc_oc=Adpn7rAQ7eqWgqY3v8vsNFV21mlIQZa2KsRirE9zF8YRx8yEqD-wb0FWWnubDXx32Jg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af-JKph2a1NOCT6Z0xX8NiOgJkeK8xu0p2RceUgAq-N8hA&oe=6A41C453",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707781380_18009948590880937_5869001361497333455_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=MzkwNTYzMTEzMjEwMzQzNzYyMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=I_LMw3qT3ioQ7kNvwGWWSVv&_nc_oc=AdrPLSJq0_ANoYlkgkn6IP1xJH1oRj9poC_Z88FXIr4L61BHuDW93jO3HuI3u53qI-A&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af8rV99FNIwiVLzycUkx-gq2JJSdXZiiHB4Ns2wvBX3M8Q&oe=6A41E895",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707407198_18009948617880937_6920383141395755124_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkwNTYzMTIyNzA3OTE1MjQwOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=VLL75JqQL8IQ7kNvwGYpPBg&_nc_oc=Adq3ieEU7_vCMRmV60X9tJhGDruEt7Jh7Hub2TnFX5YJUjyQQ7K8ybk_qNa7mWSkqBE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af8xhTam7VwkliwE6xHtyLC_lKJHBc8MLQ4aH0Oj2Kfmbg&oe=6A41D4D5",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706727001_18009948698880937_8298991397270191757_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=MzkwNTYzMTI0Njg0MjY5NjE0OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=DWZVyfMRv4oQ7kNvwGVdWto&_nc_oc=AdrlnvIGCmvy71zQbOvOBLp2H5bNr3pRwn80VGk0DQFDqGCkKXsU0nKJdNSG_HhNTcA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af-JpbLINXdOMtEe9rdAIVycMfMr38wdxQAODu9ZINMSDA&oe=6A41DFFA",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707209629_18009948707880937_3210352101963797991_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkwNTYzMTI1MjM2MjQzNjU5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=78YQlq1-nYUQ7kNvwHR82fj&_nc_oc=AdoADrU-Y_mBfzxq01JIpL21ZX54aC-skmA0D7IzFBl9tjLTaoO203u-NNO81uO5op8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af-1250B46-s6NyYtiP6drM-ihJsyc_VEMUtGDJeQWoQog&oe=6A41E6B5",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707678415_18009948719880937_8537277677834414094_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkwNTYzMTI1ODIwMDg2ODk1OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=NZRL1yJBbw8Q7kNvwGM14Id&_nc_oc=AdqVEziIpH9UYBqGOOxwyztsFgy9ufS1w1WA-3rW4D4deEJDiXVmTNixDlnQXJnxLbM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af9EgplCuPMdcXJgFs_0J26noj9ONSWjMxqd_51r-APYoQ&oe=6A41EAB5",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706704356_18009948728880937_4177810212628805460_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkwNTYzMTI2NDM5MTY1MzE1NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=2XxG7BAKQToQ7kNvwEk4uwF&_nc_oc=AdqTYmYg_IR0Vxls34hgWc_Elyp1W9D0GMX_eTXTNBPkPvSGk0N8yVE2MsVC567hAjs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af8jgP3CkGNl7maoK4kQ3McxWCtL3mRdV-yjWFdIuARpsw&oe=6A41CF0F",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707114194_18009948737880937_149221783733293250_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkwNTYzMTI3MDEyOTYxODMyNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=S2NydxhujlgQ7kNvwHpw_OH&_nc_oc=AdrLKI-nG08IHTcBKwEjALfgb8bYqDC72cm0bkHaU03uAs5_7T9ZKhOjW4aOiFRxOrc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af9q2f0TWD-klgc4M5nBDY9b684RTkxQeM_Ea_7ImO1Wjw&oe=6A41CBFA",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/709507617_18009948746880937_443501374645670757_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTYzMTI3NjE3NzU1ODY0Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=C_9MuWorjL8Q7kNvwFyKdXG&_nc_oc=AdovcahJnuzxCSiM4N1OoghAaNCDFrgK_oOj-8X-iqOsPNiS2J3Mlv8BXbuETfsx_JE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af_FLGcg1827kQnHzX4MVoWhy-uBVrr9CXDM-0VUwzLuRg&oe=6A41BBA2",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707763422_18009948755880937_8902729055608870887_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=MzkwNTYzMTI4MTk2NTg5NDc5NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Zs0cSSJaVmcQ7kNvwGdHPFT&_nc_oc=AdrgA5ZHmdNzEFz4HhcBchT3IQ3ifQff3CVwZVUoENrDKR4QfAQcOd7l8Thsp05lfB0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af-0NeXYOgSdeZroA-1aAZKqjPWrPtDee8e7bhukxXfKdQ&oe=6A41DFEB",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706217455_18009948767880937_8635415927906557941_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=MzkwNTYzMTI4NzUzNTkxNTQ4Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ZrvWOHtCjoQQ7kNvwHB0Ll8&_nc_oc=Adpe_IYbw-0BMaK0gmqQJObis7hg5ELq3gXjT1bP0DuMhydbyBnOFcYsuTOmSYUgpy8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af9L9YUIOT2epnj5EuPsW1bUBEoliwbDyVIb1zVrsvJ92g&oe=6A41C515",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706704807_18009948776880937_84746434175646439_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkwNTYzMTI5NDE3MTMxMDk1NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=rWVMpzwmh2kQ7kNvwEbBim1&_nc_oc=AdpXIuiZU4a8JZQawYQmKhui73WioaBVQO1-HeG0R7A5QcswbZTaULXGJWnhq45yVk8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af98qZkQa14MzNEqiQY7Gd9DqA9Q5onHIxbUKRSyGSIRVQ&oe=6A41C5FD",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707678672_18009948788880937_949900849648363472_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=MzkwNTYzMTI5OTY5OTMwMjc1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ZPFn7ndF_MgQ7kNvwFB8odj&_nc_oc=AdqjXXcfeQLXx0EugWpWsgkdLRpVt6JMZz9hhxYdjFeXdMFe4c2o2zgyntBpADMJAyc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af-wUzVSba0L5c8mhNnZ8NckD7nbs3bPEImRsc7CgNWmHA&oe=6A41BB58",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706912585_18009948797880937_8924913312042443028_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=MzkwNTYzMTMwNzQwMDA0ODg0OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=9acDtAueAE0Q7kNvwFTX1-q&_nc_oc=AdrejWxiTPrks37Fdh1GEP7SkfmrtSjzeGiPawcPNezC44tis_SWM5EVOx62_qvuNK8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af_-lpeVjLVPsL5pF-Lf-B47cgWkTNzZWWi-E-7a63vBaA&oe=6A41D78F",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706538138_18009948806880937_5749619217005584198_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkwNTYzMTMxMzAzNzM1Nzc1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=NPYAQuiNrhwQ7kNvwFvamgg&_nc_oc=AdpCG6anNr6Lk0AxBBX4w_Cts5e8H8zl8-bGN6kXjHnH7u-aDkkPEs4sZxZehMeTj0w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af9gx16HOt9ToHrbP5EwX29TNxvANw8V6Z2qkJEHBvjmXg&oe=6A41D1AE"
-      ],
-      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707668454_18009948536880937_1227289577575056096_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkwNTYzMDg5NTE5MjE1NTU3MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=z0Zttpyu_FUQ7kNvwHenqoV&_nc_oc=AdowCVPlCLX6gGtwLJJJVDxipsjvohG1sjG4F70f-sEh-Zz-eDuPoQZN_tl7sDeNhm8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af84BsdQhCcdIqWK1nLezBtM-mjlsZ3dhBv_HqL17dGJcA&oe=6A41B8F0",
-      "image_url": "/assets/feed-images/7e2cfdc5f82b27dc60bf.webp",
-      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/462443540_1272229060376750_8530071716945385407_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gFNwFY3neSHlroftjcpFUZXEel4XGTTQHzjp6MqmF2PBm7DUEA06bljOSbHsNZ4-FE&_nc_ohc=qmbocc6wIgAQ7kNvwFqNzH2&_nc_gid=xaf8alxmuGgpFGjQMVNPlA&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_kMkwfjYlGPuLNMQ_ohdbAQspA9KXjs7yfZ98PT2md9Q&oe=6A41D2CB&_nc_sid=8b3546",
-      "avatar_url": "/assets/source-avatars/94078177897f59538292.webp",
-      "source_initials": "JSH",
-      "categories": [
-        "posts-videos",
-        "events"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "實體活動"
-      ],
-      "key": "ig_judys_harmonica_ensemble:https://www.instagram.com/p/DYzl0BolM5O/"
-    },
-    {
-      "title": "HSNU Cozy Harmonica｜：） 今天非常榮幸邀請到彰女微光口琴來幫忙倒數！！ 光影會散，但琴聲有跡可循。 我們拾起那些泛黃的片段，重新組合成最溫暖的共鳴。 歲月無聲，直到我們再次吹響。 ––舒馨口琴社60屆獨立成發《拾光》 …",
-      "headline": "：）",
-      "link": "https://www.instagram.com/p/DYzkWUBCXUe/",
-      "source_id": "ig_cozy_harmonica_60th",
-      "source": "HSNU Cozy Harmonica",
-      "source_system_name": "HSNU Cozy Harmonica",
-      "source_profile_url": "https://www.instagram.com/cozy_harmonica_60th",
-      "account": "cozy_harmonica_60th",
-      "platform": "instagram",
-      "posted_at": "Tue, 26 May 2026 14:47:04 GMT",
-      "posted_at_local": "2026-05-26 22:47",
-      "seen_at": "2026-06-24T07:05:49.090205+00:00",
-      "matched_keywords": [
-        "口琴",
-        "成發"
-      ],
-      "keyword_matches": [
-        "口琴",
-        "成發"
-      ],
-      "llm_relevant": null,
-      "llm_confidence": null,
-      "llm_labels": [],
-      "llm_categories": [],
-      "llm_reason": "",
-      "text": "：）\n今天非常榮幸邀請到彰女微光口琴來幫忙倒數！！\n光影會散，但琴聲有跡可循。\n我們拾起那些泛黃的片段，重新組合成最溫暖的共鳴。\n歲月無聲，直到我們再次吹響。\n––舒馨口琴社60屆獨立成發《拾光》\n倒數5天\n𝄞 成發資訊\n時間：5/31（日）14：00進場，14：30開始\n地點：附中 實驗劇場\n𝄞交通資訊\n地址：臺北市大安區和安里信義路三段143號\n大眾運輸：\n捷運：大安站2號出口",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706813592_17889376236519083_4835662341429842914_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTYyNDg4Nzk0OTMzMzM5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ISSGuqXVXbMQ7kNvwG4RZi_&_nc_oc=Adrh35GwUot_jo4neRJdWa_Ugpuweu29L3njC7l3TFMAEcvU4AXAivxd-JvrQAvQ4pQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uHsGOCQbsbKgvYt-7T-vaw&_nc_ss=7a22e&oh=00_Af-J_I5yIKIw0zhiEaJXVPKruoXCZZ5HKg6Me8x-huRVng&oe=6A414D57",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/708450542_17889376251519083_6163165637890281560_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=MzkwNTYyNDkxNDkyNTMwMzM1OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=f8To8USdMwkQ7kNvwHclSBg&_nc_oc=AdqfPkpmQ7kkFRYf4uOaSpV1GKShyMEG-wzpOycZbi98aaSrDK459vxhmRzg2Xg38FY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uHsGOCQbsbKgvYt-7T-vaw&_nc_ss=7a22e&oh=00_Af_4Ys-o9n6Y_yP56nPHUUdfcxh7GjNCSSLeklmXgo_XEg&oe=6A41702C"
-      ],
-      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706813592_17889376236519083_4835662341429842914_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTYyNDg4Nzk0OTMzMzM5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ISSGuqXVXbMQ7kNvwG4RZi_&_nc_oc=Adrh35GwUot_jo4neRJdWa_Ugpuweu29L3njC7l3TFMAEcvU4AXAivxd-JvrQAvQ4pQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uHsGOCQbsbKgvYt-7T-vaw&_nc_ss=7a22e&oh=00_Af-J_I5yIKIw0zhiEaJXVPKruoXCZZ5HKg6Me8x-huRVng&oe=6A414D57",
-      "image_url": "/assets/feed-images/14bd747e65b62310997e.webp",
-      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/510922604_17842642863519083_1562363567902033321_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjcuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gEmBikahc-Z6tstZbi0o93axAA2Qzgcpj8tQBWl_w5Y7-aORS2jAbWUfPpPQFhrJUA&_nc_ohc=Qr2dZWgwfhQQ7kNvwGXio0H&_nc_gid=sUFKoAurkgWWTPLqWQFgPg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af97xo9rH_LNrt4P6An6iFBXSCWkOByYCRpivuP3OgnlKQ&oe=6A413D8E&_nc_sid=8b3546",
-      "avatar_url": "/assets/source-avatars/77ede19d1deb4ae6284c.webp",
-      "source_initials": "HCH",
-      "categories": [
-        "posts-videos",
-        "events",
-        "student-clubs"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "實體活動",
-        "學生社團"
-      ],
-      "key": "ig_cozy_harmonica_60th:https://www.instagram.com/p/DYzkWUBCXUe/"
-    },
-    {
-      "title": "RedBricks Harmonica｜🔋《琴聲貢聚》 口琴計劃 - 計劃啟動音樂會🔋 下個月RedBricks將會於坑口社區會堂表演🎵 為新一期的「十八有藝」社區演藝計劃打響頭炮🧨 感謝 @hkharmonica 的邀請📨 約定大家，到…",
-      "headline": "🔋《琴聲貢聚》 口琴計劃 - 計劃啟動音樂會🔋",
-      "link": "https://www.instagram.com/p/DYzMIPfkpvH/",
-      "source_id": "ig_redbricksharmonica",
-      "source": "RedBricks Harmonica",
-      "source_system_name": "RedBricks Harmonica",
-      "source_profile_url": "https://www.instagram.com/redbricksharmonica/",
-      "account": "redbricksharmonica",
-      "platform": "instagram",
-      "posted_at": "Tue, 26 May 2026 11:15:07 GMT",
-      "posted_at_local": "2026-05-26 19:15",
-      "seen_at": "2026-06-24T16:13:01.085859+00:00",
-      "matched_keywords": [
-        "口琴",
-        "演出",
-        "音樂會"
-      ],
-      "keyword_matches": [
-        "口琴",
-        "音樂會",
-        "harmonica"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.95,
-      "llm_labels": [
-        "口琴",
-        "演出",
-        "音樂會"
-      ],
-      "llm_categories": [
-        "events"
-      ],
-      "llm_reason": "貼文宣傳口琴音樂會，屬於口琴演出活動，符合收錄條件。",
-      "text": "🔋《琴聲貢聚》 口琴計劃 - 計劃啟動音樂會🔋\n下個月RedBricks將會於坑口社區會堂表演🎵 為新一期的「十八有藝」社區演藝計劃打響頭炮🧨 感謝 @hkharmonica 的邀請📨 約定大家，到時候再見👋\n🗓️ 日期: 6月21日 (星期日)\n🕰️ 時間: 下午3時至4時\n📍 地點: 坑口社區會堂\n❗️費用全免❗️\n@18d.art\n#計劃啟動音樂會 #十八有藝 #18dART #琴聲貢聚 #redbricksharmonica",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/702244163_18328620943270066_2969763519300776346_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTUxODY0NDgxMDEyODMyNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjA0Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=icuoenLUuJQQ7kNvwG1IAPM&_nc_oc=AdqsaM6k_UHRJ2UIJ3SDlkq0JMAWMi9e4wN_8RTPVU50VS6kYOX2wbsmdnaUy9uol3w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=5BCPLhE2A4KPP6JHzczLPg&_nc_ss=7a22e&oh=00_Af-vF6pCRwpfBEart5H98mJoMfX4tWqqbuUvfmdDqGKqNw&oe=6A41EF83"
-      ],
-      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/702244163_18328620943270066_2969763519300776346_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTUxODY0NDgxMDEyODMyNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjA0Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=icuoenLUuJQQ7kNvwG1IAPM&_nc_oc=AdqsaM6k_UHRJ2UIJ3SDlkq0JMAWMi9e4wN_8RTPVU50VS6kYOX2wbsmdnaUy9uol3w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=5BCPLhE2A4KPP6JHzczLPg&_nc_ss=7a22e&oh=00_Af-vF6pCRwpfBEart5H98mJoMfX4tWqqbuUvfmdDqGKqNw&oe=6A41EF83",
-      "image_url": "/assets/feed-images/ac3400d906345d5a47c8.webp",
-      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/37982644_2026511764028099_3615643928088281088_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby43OTYuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gGobxvBtUXEfer-D9tWJzYwp3gjtuZ4LgCIIONal6jYQLGzkXy_aQ8rbNRiQjBQODE&_nc_ohc=gOY_fFSWsFIQ7kNvwHSoETi&_nc_gid=vK2LOY9yXVHCkLnnlkNg5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af8JuaEGeerR6GeEiSQcCMZ31n2nd7jAT49hbSzEv70lfw&oe=6A41C7D7&_nc_sid=8b3546",
-      "avatar_url": "/assets/source-avatars/44ed1621e83c468035bf.webp",
-      "source_initials": "RH",
-      "categories": [
-        "posts-videos",
-        "events"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "實體活動"
-      ],
-      "key": "ig_redbricksharmonica:https://www.instagram.com/p/DYzMIPfkpvH/"
     }
   ],
   "feeds": [
@@ -8448,6 +8806,150 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rss": "/feeds/events.xml",
       "json": "/feeds/events.json",
       "items": [
+        {
+          "title": "南里沙｜クロマチックハーモニカの魅力をもっと身近に感じていただきたいという想いからスタートした、南里沙が1人でお届けする〜プチプチコンサート〜 2026年8月22日(土)に田園調布ピアノサロンNOAHで開催します♬ クロマチックハーモニカ…",
+          "headline": "クロマチックハーモニカの魅力をもっと身近に感じていただきたいという想いからスタートした、南里沙が1人でお届けする〜プチプチコンサート〜",
+          "link": "https://www.instagram.com/p/DaAUi0NS2R-/",
+          "source_id": "ig_minami_risa",
+          "source": "南里沙",
+          "source_system_name": "南里沙",
+          "source_profile_url": "https://www.instagram.com/minami_risa/",
+          "account": "minami_risa",
+          "platform": "instagram",
+          "posted_at": "Thu, 25 Jun 2026 10:13:29 GMT",
+          "posted_at_local": "2026-06-25 18:13",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "演出",
+            "音樂會"
+          ],
+          "keyword_matches": [],
+          "llm_relevant": true,
+          "llm_confidence": 0.95,
+          "llm_labels": [
+            "口琴",
+            "演出",
+            "音樂會"
+          ],
+          "llm_categories": [
+            "events"
+          ],
+          "llm_reason": "貼文宣傳口琴家南里沙的個人口琴音樂會，明確屬於口琴演出活動，符合臺灣口琴公開更新的收錄標準。",
+          "text": "クロマチックハーモニカの魅力をもっと身近に感じていただきたいという想いからスタートした、南里沙が1人でお届けする〜プチプチコンサート〜\n2026年8月22日(土)に田園調布ピアノサロンNOAHで開催します♬\nクロマチックハーモニカを初めて聴かれる方、いつも応援してくださる皆さまも😊お誘い合わせの上、お気軽にお越しください♬\n【南里沙 プチプチコンサート in 田園調布】\n■日時\n2026年8月22日(土)\n開場 13:15\n開演 13:45\n■会場\n田園調布ピアノサロンNOAH\n■料金\n3,000円\n■ご予約はこちらから\nhttps://business.form-mailer.jp/fms/4c46fc75225985\n#クロマチックハーモニカ #ハーモニカ #南里沙\n#田園調布 #プチプチコンサート",
+          "images": [
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730274551_18595539988053761_5002453498357541340_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzkyNzIyOTIyODUxNzEyMzE5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ5Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=HJssDEnTF5IQ7kNvwEH2mqv&_nc_oc=AdogwYpupdrsGm7nBZKWafuqPuxMsKRWI0jWYs27sCScAzcRG7Tz73gfmDMqIYfqBdU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af9p2bvGgBykAJbLQ2yjLcV5hA7cy9Zw-A_dARSKTALmWg&oe=6A431B9D"
+          ],
+          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730274551_18595539988053761_5002453498357541340_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzkyNzIyOTIyODUxNzEyMzE5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ5Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=HJssDEnTF5IQ7kNvwEH2mqv&_nc_oc=AdogwYpupdrsGm7nBZKWafuqPuxMsKRWI0jWYs27sCScAzcRG7Tz73gfmDMqIYfqBdU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af9p2bvGgBykAJbLQ2yjLcV5hA7cy9Zw-A_dARSKTALmWg&oe=6A431B9D",
+          "image_url": "/assets/feed-images/b6417769de5c92001d2d.webp",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+          "source_initials": "南里",
+          "categories": [
+            "posts-videos",
+            "events"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動"
+          ],
+          "key": "ig_minami_risa:https://www.instagram.com/p/DaAUi0NS2R-/"
+        },
+        {
+          "title": "Jong-seong Park 朴鍾聲｜[2026 서리풀 작곡가 탐구 시리즈] 안녕하세요 박종성입니다. 돌아오는 토요일, 특별한 공연을 준비했습니다. <하모니카를 사랑한 작곡가들>이라는 주제로, 하모니카를 위해 작곡된…",
+          "headline": "[2026 서리풀 작곡가 탐구 시리즈]",
+          "link": "https://www.instagram.com/p/DaAL7MNk40D/",
+          "source_id": "ig_jongseongpark_harmonicist",
+          "source": "Jong-seong Park 朴鍾聲",
+          "source_system_name": "Jong-seong Park 朴鍾聲",
+          "source_profile_url": "https://www.instagram.com/jongseongpark_harmonicist/",
+          "account": "jongseongpark_harmonicist",
+          "platform": "instagram",
+          "posted_at": "Thu, 25 Jun 2026 08:55:10 GMT",
+          "posted_at_local": "2026-06-25 16:55",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "演出"
+          ],
+          "keyword_matches": [],
+          "llm_relevant": true,
+          "llm_confidence": 0.9,
+          "llm_labels": [
+            "口琴",
+            "演出"
+          ],
+          "llm_categories": [
+            "events"
+          ],
+          "llm_reason": "貼文內容為口琴演奏者朴鍾聲宣布即將舉辦以口琴為主的主題音樂會，屬口琴演出活動。",
+          "text": "[2026 서리풀 작곡가 탐구 시리즈]\n안녕하세요 박종성입니다.\n돌아오는 토요일, 특별한 공연을 준비했습니다.\n<하모니카를 사랑한 작곡가들>이라는 주제로,\n하모니카를 위해 작곡된 곡들을 연주할 예정인데요.\n특히 작곡가들의 이야기들과 연주자로서 작품을 어떻게 해석하는지 등\n다양한 비하인드 스토리와 함께 음악을 감상하실 수 있습니다.\n하모니카 곡에 흠뻑 빠져볼 수 있는 특별한 무대에 여러분을 초대합니다.\n감사합니다.\n<하모니카를 사랑한 작곡가들>\n2026년 6월 27일 토요일 오후3시\n반포심산아트홀\n하모니카 박종성\n피아노 조영훈\n예매 NOL티켓",
+          "images": [
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730052191_18419377186183694_7198045568704091494_n.webp?_nc_cat=109&ig_cache_key=MzkyNzE5MDAyNjg3NDM4Nzg2Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=sdgrMxoCYdIQ7kNvwH9WE7B&_nc_oc=AdrGil7UvxRWOIWn_u2HGy6Va5oi9vlCe1Fdu9i4J5jzD0WzVZZUzxnsM0b2fW0dvE4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=TDS3HDqXyvBDFaBAWBbhfg&_nc_ss=7a22e&oh=00_Af9Evw7viNfL8Yp5QRpcZwxN5Ny1Ql2t06idCSxdYnG6IA&oe=6A4337A7",
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730015604_18419377171183694_3759472020209685768_n.webp?_nc_cat=107&ig_cache_key=MzkyNzE5MDAyNzE4NDg4MjM2Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=dRaonxvbPZIQ7kNvwGX2kLV&_nc_oc=AdrHHxLKRst67V7tcMocIfCDwqmNbK8dfE8nWxMfMClFRpvU4-IEXStWKT-5TqxN-OU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=TDS3HDqXyvBDFaBAWBbhfg&_nc_ss=7a22e&oh=00_Af_ZqQTy5VgFjvFCzTlLejP88yLEZhAJjzwMkQiO5Mvplw&oe=6A4318DD"
+          ],
+          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730052191_18419377186183694_7198045568704091494_n.webp?_nc_cat=109&ig_cache_key=MzkyNzE5MDAyNjg3NDM4Nzg2Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=sdgrMxoCYdIQ7kNvwH9WE7B&_nc_oc=AdrGil7UvxRWOIWn_u2HGy6Va5oi9vlCe1Fdu9i4J5jzD0WzVZZUzxnsM0b2fW0dvE4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=TDS3HDqXyvBDFaBAWBbhfg&_nc_ss=7a22e&oh=00_Af9Evw7viNfL8Yp5QRpcZwxN5Ny1Ql2t06idCSxdYnG6IA&oe=6A4337A7",
+          "image_url": "/assets/feed-images/9b5d55f2eaf2ecda4149.webp",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/407900186_668717112004170_7581999167853339255_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gH2duufX62A1dKI6HfHAGZdxyhc1dlx8feDuGWhvgTJNBHSMCdeWyqrKayCN1RuMhM&_nc_ohc=5rWA_LRynGoQ7kNvwFjMidb&_nc_gid=E4gKraAdjX0SLo7dDQf2Gg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af8ctsRw5SrG9mJwqC1FCrzsQji02KuTCl_X8lsrdyz7WA&oe=6A431453&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/5016827370e797fbfc71.webp",
+          "source_initials": "JSP",
+          "categories": [
+            "posts-videos",
+            "events"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動"
+          ],
+          "key": "ig_jongseongpark_harmonicist:https://www.instagram.com/p/DaAL7MNk40D/"
+        },
+        {
+          "title": "山下伶 Rei Yamashita｜久々に３人で🫶人生のメリーゴーランド🎠 #山下怜 #chromaticharmonica #大塚茜 #flute #土屋恵 accordion",
+          "headline": "久々に３人で🫶人生のメリーゴーランド🎠",
+          "link": "https://www.instagram.com/p/DZ_74jvpj3n/",
+          "source_id": "ig_rei_harmonica",
+          "source": "山下伶 Rei Yamashita",
+          "source_system_name": "山下伶 Rei Yamashita",
+          "source_profile_url": "https://www.instagram.com/rei_harmonica/",
+          "account": "rei_harmonica",
+          "platform": "instagram",
+          "posted_at": "Thu, 25 Jun 2026 06:43:10 GMT",
+          "posted_at_local": "2026-06-25 14:43",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "演出"
+          ],
+          "keyword_matches": [
+            "harmonica"
+          ],
+          "llm_relevant": true,
+          "llm_confidence": 0.7,
+          "llm_labels": [
+            "口琴",
+            "演出"
+          ],
+          "llm_categories": [
+            "posts-videos"
+          ],
+          "llm_reason": "贴文来自 harmonica 账号，内容提及与长笛和手风琴演奏者合奏，涉及口琴相关演出更新。",
+          "text": "久々に３人で🫶人生のメリーゴーランド🎠\n#山下怜 #chromaticharmonica\n#大塚茜　#flute\n#土屋恵　accordion",
+          "images": [],
+          "source_image_url": "",
+          "image_url": "",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/503187975_18466821646076837_1903386838267563286_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gHInsg0IKKdyi_Oc5My5p4FfogFJ9YrkWv3bbH3LTvAJwiicSaGZijW4VJ8xdUgbnE&_nc_ohc=SAAlnU2kPekQ7kNvwE3HMFT&_nc_gid=0Z5tVWjSn5R5wvhX3hDn3g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af8oM49Fj7Umy3L4qIW0Zu64Xfeq0GVk9JW9PPQE4dKy6Q&oe=6A432438&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/9628724a6f3368b6ce7e.webp",
+          "source_initials": "RY",
+          "categories": [
+            "posts-videos",
+            "events"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動"
+          ],
+          "key": "ig_rei_harmonica:https://www.instagram.com/p/DZ_74jvpj3n/"
+        },
         {
           "title": "CY Leo 何卓彥｜人生為自己策劃最大型、耗時、昂貴、複雜的原創音樂計劃，要正式面世了。 《Two Worlds In One》這個計劃已經策劃超過兩年，創作無數作品後最後濃縮到10首原創歌曲，推出人聲和純音樂版本，希望能夠把流行音樂的…",
           "headline": "人生為自己策劃最大型、耗時、昂貴、複雜的原創音樂計劃，要正式面世了。",
@@ -10155,6 +10657,55 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "key": "fb_61574004532712:122182478852800151"
         },
         {
+          "title": "南里沙｜今夜は160回 RJマンスリーライブ、楽しい時間はあっという間。 長く続けているライブですが、マスターの髪にも白いものが増え、私も歳を重ねました。その分、演奏も少しずつ変わってきたように感じます。 次回のRJマンスリーライブは、7…",
+          "headline": "今夜は160回 RJマンスリーライブ、楽しい時間はあっという間。",
+          "link": "https://www.instagram.com/p/DZv9gbPSDcC/",
+          "source_id": "ig_minami_risa",
+          "source": "南里沙",
+          "source_system_name": "南里沙",
+          "source_profile_url": "https://www.instagram.com/minami_risa/",
+          "account": "minami_risa",
+          "platform": "instagram",
+          "posted_at": "Fri, 19 Jun 2026 01:46:17 GMT",
+          "posted_at_local": "2026-06-19 09:46",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "演出",
+            "公開更新"
+          ],
+          "keyword_matches": [],
+          "llm_relevant": true,
+          "llm_confidence": 0.9,
+          "llm_labels": [
+            "口琴",
+            "演出",
+            "公開更新"
+          ],
+          "llm_categories": [
+            "posts-videos"
+          ],
+          "llm_reason": "貼文提及口琴演出（RJマンスリーライブ）並標註 #クロマチックハーモニカ，雖為一般演出但符合口琴公開更新定義。",
+          "text": "今夜は160回 RJマンスリーライブ、楽しい時間はあっという間。\n長く続けているライブですが、マスターの髪にも白いものが増え、私も歳を重ねました。その分、演奏も少しずつ変わってきたように感じます。\n次回のRJマンスリーライブは、7月16日(木)です♬またRJでお会いしましょう😊\n**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**\nさて、急なお知らせですが、\nYouTube生配信 第272回「南里沙のココだけの話」を、\n6月20日（土）夜10時から配信します。\n今回は、私も大好きな ちあきなおみさん特集\nリクエストもお待ちしています♬\nぜひ遊びに来てくださいね☺️\n#クロマチックハーモニカ #南里沙",
+          "images": [
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/726716361_18593549683053761_2802633507180942337_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=MzkyMjYyNDMwOTU3MDg0NDQxOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjE0Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=bKPeSg25NYMQ7kNvwG8sQmE&_nc_oc=AdoP6vYNOKvY-QQHoSKv5ousD5dx5N_kTZTqCYvOgwUEtb1UI68kO3p70mU1sQctg9Q&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af-xNPqMgUwQ28cy403IRkJTQbUqgL4qWRVHoqT-zvLP-g&oe=6A432B52"
+          ],
+          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/726716361_18593549683053761_2802633507180942337_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=MzkyMjYyNDMwOTU3MDg0NDQxOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjE0Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=bKPeSg25NYMQ7kNvwG8sQmE&_nc_oc=AdoP6vYNOKvY-QQHoSKv5ousD5dx5N_kTZTqCYvOgwUEtb1UI68kO3p70mU1sQctg9Q&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af-xNPqMgUwQ28cy403IRkJTQbUqgL4qWRVHoqT-zvLP-g&oe=6A432B52",
+          "image_url": "/assets/feed-images/0c394fb8df3254390b4c.webp",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+          "source_initials": "南里",
+          "categories": [
+            "posts-videos",
+            "events"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動"
+          ],
+          "key": "ig_minami_risa:https://www.instagram.com/p/DZv9gbPSDcC/"
+        },
+        {
           "title": "千賀太郎｜来週の金曜日は 高円寺 JIROKICHIにて. 6月26日 はもにかDOJO 高円寺 JIROKICHI KOTEZ(hca,vo) 千賀太郎(hca,vo) 大西真(b) 松本照夫(dr) ゲスト チェンマイ(hca) キン…",
           "headline": "来週の金曜日は 高円寺 JIROKICHIにて.",
           "link": "https://www.instagram.com/p/DZvXsXjz8u7/",
@@ -10535,6 +11086,53 @@ window.HARMONICA_OBSERVE_FEEDS = {
             "實體活動"
           ],
           "key": "ig_cy_leo:https://www.instagram.com/p/DZraimFkjbm/"
+        },
+        {
+          "title": "南里沙｜先日のYouTube「南里沙のココだけの話」でお届けした、香西かおりさんの「無言坂」・・・♬ 切ない歌詞と美しいメロディーが心に響く名曲です。言葉にできない想いを抱えながら歩く坂道の情景が目に浮かんできます。 フルバージョンはYo…",
+          "headline": "先日のYouTube「南里沙のココだけの話」でお届けした、香西かおりさんの「無言坂」・・・♬",
+          "link": "https://www.instagram.com/p/DZr7enrymwF/",
+          "source_id": "ig_minami_risa",
+          "source": "南里沙",
+          "source_system_name": "南里沙",
+          "source_profile_url": "https://www.instagram.com/minami_risa/",
+          "account": "minami_risa",
+          "platform": "instagram",
+          "posted_at": "Wed, 17 Jun 2026 12:26:32 GMT",
+          "posted_at_local": "2026-06-17 20:26",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "演出",
+            "公開更新"
+          ],
+          "keyword_matches": [],
+          "llm_relevant": true,
+          "llm_confidence": 0.9,
+          "llm_labels": [
+            "口琴",
+            "演出",
+            "公開更新"
+          ],
+          "llm_categories": [
+            "events"
+          ],
+          "llm_reason": "貼文提及口琴（#クロマチックハーモニカ）的定期現場演出（マンスリーライブ），並含演出詳情。",
+          "text": "先日のYouTube「南里沙のココだけの話」でお届けした、香西かおりさんの「無言坂」・・・♬\n切ない歌詞と美しいメロディーが心に響く名曲です。言葉にできない想いを抱えながら歩く坂道の情景が目に浮かんできます。\nフルバージョンはYouTubeでぜひご覧ください🎶\n明日6月18日（木）は、毎月第三木曜日にお届けしている兵庫・西宮北口 RJ&BME’sでのマンスリーライブ。「無言坂」もお届けしようと思っています。RJでお待ちしています🫶\nRJマンスリーライブ\n兵庫・RJ&BME’s\n2026年6月18日(木)\nOpen 19時 / Start 20時\n2000円(ワンドリンク以上のご注文をお願い致します)\nご予約・お問い合わせは\n【RJ&BME’s】\n0798-63-8018\nrjbmes_info@yahoo.co.jp\n#クロマチックハーモニカ #南里沙",
+          "images": [],
+          "source_image_url": "",
+          "image_url": "",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+          "source_initials": "南里",
+          "categories": [
+            "posts-videos",
+            "events"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動"
+          ],
+          "key": "ig_minami_risa:https://www.instagram.com/p/DZr7enrymwF/"
         },
         {
           "title": "CY Leo 何卓彥｜Cy Leo 何卓彥 - 《在兩個心中間坐下》Two Worlds ft. Ivana Wong 王菀之 Official Music Video 《在兩個心中間坐下》 Cy Leo ft. Ivana Wong 來…",
@@ -11614,6 +12212,56 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "key": "ig_jongseongpark_harmonicist:https://www.instagram.com/p/DZZNEw7k61F/"
         },
         {
+          "title": "南里沙｜昨日は大阪・守口門真工業クラブにお招きいただき、講演とクロマチックハーモニカの演奏をさせていただきました。 講演では「エンタメ業界の変遷とこれから」というテーマで、音楽業界にも急速に広がる生成AIについても触れながら、これからの時…",
+          "headline": "昨日は大阪・守口門真工業クラブにお招きいただき、講演とクロマチックハーモニカの演奏をさせていただきました。",
+          "link": "https://www.instagram.com/p/DZY48HrkiSC/",
+          "source_id": "ig_minami_risa",
+          "source": "南里沙",
+          "source_system_name": "南里沙",
+          "source_profile_url": "https://www.instagram.com/minami_risa/",
+          "account": "minami_risa",
+          "platform": "instagram",
+          "posted_at": "Wed, 10 Jun 2026 02:38:54 GMT",
+          "posted_at_local": "2026-06-10 10:38",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "演出",
+            "公開更新"
+          ],
+          "keyword_matches": [],
+          "llm_relevant": true,
+          "llm_confidence": 0.8,
+          "llm_labels": [
+            "口琴",
+            "演出",
+            "公開更新"
+          ],
+          "llm_categories": [
+            "posts-videos"
+          ],
+          "llm_reason": "貼文提及「クロマチックハーモニカ」（半音階口琴）的演奏，並由口琴演奏者分享公開演出內容，符合口琴相關更新。",
+          "text": "昨日は大阪・守口門真工業クラブにお招きいただき、講演とクロマチックハーモニカの演奏をさせていただきました。\n講演では「エンタメ業界の変遷とこれから」というテーマで、音楽業界にも急速に広がる生成AIについても触れながら、これからの時代をどのように生き抜いていくのか、自分らしい価値をどのように届けていくのかについてお話しさせていただきました。\n技術は日々進化していますが、人の心を動かす音楽や、人と人とのつながりの大切さは、どの業界も変わらないと感じています。皆様が真剣に耳を傾けてくださり、私自身も多くの学びをいただく時間となりました。\n講演の後は、クロマチックハーモニカの演奏をお届けしました。温かい拍手と笑顔に包まれながら、楽しく演奏することができました。音楽の持つ力と、人とのご縁の大切さを改めて感じる一日となりました。\n本当にありがとうございました♬皆様のますますのご発展とご活躍を心よりお祈りしております。またお会いできる日を楽しみにしております😊",
+          "images": [
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/720146317_18590988805053761_253629240567614915_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkxNjEyODc4ODYxMDExMTgwMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=lwl4fKBZa7YQ7kNvwGW4jOv&_nc_oc=Adp1EHM5BE84YydynHTNkyxyZyG9U6JJtbYAV44C0ZfAaAVNgrqMnfWDU3_6Odzd-70&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af_kjIcHgSZY1h9-z-yGgKQF88iBPDT3OjBCAkm2OSWTOg&oe=6A432FC0",
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/720341719_18590988814053761_9061616952912465027_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=MzkxNjEyODc5MTkwNjkyODY0OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjE2MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ijeaA3nHB-AQ7kNvwE8zSWn&_nc_oc=Adp5mjJdsIRd0cI0iIiigMT_ZP6qLnlS1mMbLX45U8PCJltfYIrpIXKIzFB5cqZd-IE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af-MKOrK4xdMtQ30sSuLQ3BidUA0QlBQSWIrzoxGbRxRGQ&oe=6A432961"
+          ],
+          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/720146317_18590988805053761_253629240567614915_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkxNjEyODc4ODYxMDExMTgwMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=lwl4fKBZa7YQ7kNvwGW4jOv&_nc_oc=Adp1EHM5BE84YydynHTNkyxyZyG9U6JJtbYAV44C0ZfAaAVNgrqMnfWDU3_6Odzd-70&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af_kjIcHgSZY1h9-z-yGgKQF88iBPDT3OjBCAkm2OSWTOg&oe=6A432FC0",
+          "image_url": "/assets/feed-images/1d50432220e22f3b3d8a.webp",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+          "source_initials": "南里",
+          "categories": [
+            "posts-videos",
+            "events"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動"
+          ],
+          "key": "ig_minami_risa:https://www.instagram.com/p/DZY48HrkiSC/"
+        },
+        {
           "title": "蔡明憲｜好吹就再買再開一把，HOHNER ACE 48｜[ DMing Studio ] DMing Studio ｜口琴教學（校隊 / 社團 / 家教）、口琴維修 蔡明憲，天狼星口琴樂團半音階口琴演奏家，專職教學與 Laelaps 製琴…",
           "headline": "好吹就再買再開一把，HOHNER ACE 48｜[ DMing Studio ]",
           "link": "https://www.youtube.com/watch?v=bzYAlPeJcHc",
@@ -11922,6 +12570,55 @@ window.HARMONICA_OBSERVE_FEEDS = {
             "學生社團"
           ],
           "key": "yt_chaotengchang:3S0kJ3G1Sgg"
+        },
+        {
+          "title": "南里沙｜昨日は芦屋西教会でクロマチックハーモニカコンサートを開催いたしました♬あいにくの雨模様にもかかわらず、たくさんのお客様にお越しいただき、ありがとうござ... 昨日は芦屋西教会でクロマチックハーモニカコンサートを開催いたしました♬あ…",
+          "headline": "昨日は芦屋西教会でクロマチックハーモニカコンサートを開催いたしました♬あいにくの雨模様にもかかわらず、たくさんのお客様にお越しいただき、ありがとうござ...",
+          "link": "https://www.instagram.com/p/DZTdx2oyGen/",
+          "source_id": "ig_minami_risa",
+          "source": "南里沙",
+          "source_system_name": "南里沙",
+          "source_profile_url": "https://www.instagram.com/minami_risa/",
+          "account": "minami_risa",
+          "platform": "instagram",
+          "posted_at": "Mon, 08 Jun 2026 00:07:29 GMT",
+          "posted_at_local": "2026-06-08 08:07",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "演出",
+            "音樂會"
+          ],
+          "keyword_matches": [],
+          "llm_relevant": true,
+          "llm_confidence": 0.95,
+          "llm_labels": [
+            "口琴",
+            "演出",
+            "音樂會"
+          ],
+          "llm_categories": [
+            "events"
+          ],
+          "llm_reason": "貼文明確提及在芦屋西教会舉辦「クロマチックハーモニカコンサート」（半音階口琴音樂會），並分享演出感受，符合口琴演出與音樂會相關標準。",
+          "text": "昨日は芦屋西教会でクロマチックハーモニカコンサートを開催いたしました♬あいにくの雨模様にもかかわらず、たくさんのお客様にお越しいただき、ありがとうござ...\n昨日は芦屋西教会でクロマチックハーモニカコンサートを開催いたしました♬あいにくの雨模様にもかかわらず、たくさんのお客様にお越しいただき、ありがとうございました。\n演奏のたびにいただく温かい拍手は、私にとって何よりの励みです。終演後には、「よかったですよ」「また来てくださいね」と\n嬉しいお声をたくさんいただき、幸せな時間となりました。\n私は小学校から大学までキリスト教の学校で学びました。そのため、教会の雰囲気や礼拝堂の静かな空気に触れると、どこか懐かしい気持ちになります。\n雨音に包まれながら響くクロマチックハーモニカの音色は、いつもとはまた違った温かさがありました。お越しくださいました皆さま、本当にありがとうございました。またお会いできることを、楽しみにしております😊",
+          "images": [
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/719609576_18590423206053761_1448590298453272273_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzkxNDYwMzQ3MDM4NDU1NTk0Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FN8kJiDt30EQ7kNvwFXJgvp&_nc_oc=AdrNv-aB6_-5-_hx1VzA9Lyl86j721Ldo6mugZ0hx7UPEGVPn1sB2mHTvW32Jooi87I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af-pBA5EwBFMfNlAlKFYFDiPyxYWYUttUplvmGDibsJMmg&oe=6A432202"
+          ],
+          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/719609576_18590423206053761_1448590298453272273_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzkxNDYwMzQ3MDM4NDU1NTk0Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FN8kJiDt30EQ7kNvwFXJgvp&_nc_oc=AdrNv-aB6_-5-_hx1VzA9Lyl86j721Ldo6mugZ0hx7UPEGVPn1sB2mHTvW32Jooi87I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af-pBA5EwBFMfNlAlKFYFDiPyxYWYUttUplvmGDibsJMmg&oe=6A432202",
+          "image_url": "/assets/feed-images/e05409a9061b22524c66.webp",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+          "source_initials": "南里",
+          "categories": [
+            "posts-videos",
+            "events"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動"
+          ],
+          "key": "ig_minami_risa:https://www.instagram.com/p/DZTdx2oyGen/"
         },
         {
           "title": "Marcos Coll｜Marcos Coll Band feat Emiliano Juarez Sa. 15.08.2026 Marcos Coll Quintett 21:00 Uhr / 9:00 PM Marcos Coll (…",
@@ -13793,6 +14490,58 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "key": "ig_aidennevelyn:https://www.instagram.com/p/DZAYKNaj9gt/"
         },
         {
+          "title": "南里沙｜昨日は兵庫県・西神プレンティ広場で開催された「まちなかアカペラ＆にぎわいマルシェ」に出演させていただきました☀️お聴きくださった皆さま、本当にありがと... 昨日は兵庫県・西神プレンティ広場で開催された「まちなかアカペラ＆にぎわい…",
+          "headline": "昨日は兵庫県・西神プレンティ広場で開催された「まちなかアカペラ＆にぎわいマルシェ」に出演させていただきました☀️お聴きくださった皆さま、本当にありがと...",
+          "link": "https://www.instagram.com/p/DY_HTvFSNGz/",
+          "source_id": "ig_minami_risa",
+          "source": "南里沙",
+          "source_system_name": "南里沙",
+          "source_profile_url": "https://www.instagram.com/minami_risa/",
+          "account": "minami_risa",
+          "platform": "instagram",
+          "posted_at": "Sun, 31 May 2026 02:46:16 GMT",
+          "posted_at_local": "2026-05-31 10:46",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "演出",
+            "比賽"
+          ],
+          "keyword_matches": [],
+          "llm_relevant": true,
+          "llm_confidence": 0.9,
+          "llm_labels": [
+            "口琴",
+            "演出",
+            "比賽"
+          ],
+          "llm_categories": [
+            "events",
+            "posts-videos"
+          ],
+          "llm_reason": "貼文提及口琴比賽（FIHハーモニカコンテスト本選）及口琴演出（アカペラ出演），並標記口琴相關標籤。",
+          "text": "昨日は兵庫県・西神プレンティ広場で開催された「まちなかアカペラ＆にぎわいマルシェ」に出演させていただきました☀️お聴きくださった皆さま、本当にありがと...\n昨日は兵庫県・西神プレンティ広場で開催された「まちなかアカペラ＆にぎわいマルシェ」に出演させていただきました☀️お聴きくださった皆さま、本当にありがとうございました。\nアカペラグループ・チキンガーリックステーキの皆さんとご一緒し、青空の下で楽しい時間を過ごすことができました。お客様の笑顔や温かい拍手に包まれた、とても素敵な一日でした✨\nチキンガーリックステーキのお兄様方、お疲れさまでした！\nまたご一緒できる日を楽しみにしています😊\n**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**\nそして昨日は東京でFIHハーモニカコンテスト本選も開催されました。ご出場された皆さま、本当にお疲れさまでした。ハーモニカを愛する皆さまの今後のさらなるご活躍を心よりお祈りしております♬\n**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**\nそして本日、東京入り。レコーディングの為スタジオに向かっています。東京はいつも何処かが工事中😵‍💫\n#クロマチックハーモニカ",
+          "images": [
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/710665871_18588046228053761_5037529535620441484_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkwODg3NTE0NDEzMTAzOTY2Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FjsdRU0aZa8Q7kNvwFEYTwQ&_nc_oc=AdoX870JRUFAsmAQj3c8vksiIM9CR85MPS5Xqm90PDjSTKPUUApAttqOsQNV31adSN0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af9znIIcoTId5XnLwouwhyHzp2u51TkPmd9BkzgGkgkcTg&oe=6A43168F"
+          ],
+          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/710665871_18588046228053761_5037529535620441484_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkwODg3NTE0NDEzMTAzOTY2Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FjsdRU0aZa8Q7kNvwFEYTwQ&_nc_oc=AdoX870JRUFAsmAQj3c8vksiIM9CR85MPS5Xqm90PDjSTKPUUApAttqOsQNV31adSN0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af9znIIcoTId5XnLwouwhyHzp2u51TkPmd9BkzgGkgkcTg&oe=6A43168F",
+          "image_url": "/assets/feed-images/80ccd5830c98279dfcbd.webp",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+          "source_initials": "南里",
+          "categories": [
+            "posts-videos",
+            "events",
+            "opportunities"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動",
+            "補助比賽"
+          ],
+          "key": "ig_minami_risa:https://www.instagram.com/p/DY_HTvFSNGz/"
+        },
+        {
           "title": "山下伶 Rei Yamashita｜昨日開催された「FIHハーモニカコンテスト」にて、山下教室の生徒さんたちが素晴らしい賞を受賞されました！🎉 🏆アンサンブル部門 2位 Fabulous Bond （中西顕士さん・田口洋介さん・渡辺知紗さ…",
           "headline": "昨日開催された「FIHハーモニカコンテスト」にて、山下教室の生徒さんたちが素晴らしい賞を受賞されました！🎉",
           "link": "https://www.instagram.com/p/DY-6vXqE9k9/",
@@ -14617,242 +15366,9 @@ window.HARMONICA_OBSERVE_FEEDS = {
             "補助比賽"
           ],
           "key": "ig_jangli_harmonica:https://www.instagram.com/p/DY1u0Onyxuh/"
-        },
-        {
-          "title": "蔡明憲｜五月底行程太瘋狂了，差不多時間要逃去海邊充電一下。 暑期這幾趟國外演出行程，我看全程底片機打到底好了，來消滅庫存的底片們。 顏色我真的是太愛！",
-          "headline": "五月底行程太瘋狂了，差不多時間要逃去海邊充電一下。",
-          "link": "https://www.instagram.com/p/DY0zgRVErvr/",
-          "source_id": "ig_damingtsai",
-          "source": "蔡明憲",
-          "source_system_name": "蔡明憲",
-          "source_profile_url": "https://www.instagram.com/damingtsai/",
-          "account": "damingtsai",
-          "platform": "instagram",
-          "posted_at": "Wed, 27 May 2026 02:18:45 GMT",
-          "posted_at_local": "2026-05-27 10:18",
-          "seen_at": "2026-06-24T16:13:01.085859+00:00",
-          "matched_keywords": [
-            "口琴",
-            "演出",
-            "公開更新"
-          ],
-          "keyword_matches": [
-            "演出"
-          ],
-          "llm_relevant": true,
-          "llm_confidence": 0.9,
-          "llm_labels": [
-            "口琴",
-            "演出",
-            "公開更新"
-          ],
-          "llm_categories": [
-            "events"
-          ],
-          "llm_reason": "貼文提及口琴演奏者蔡明憲的暑期國外演出行程，符合口琴演出者公開更新條件。",
-          "text": "五月底行程太瘋狂了，差不多時間要逃去海邊充電一下。\n暑期這幾趟國外演出行程，我看全程底片機打到底好了，來消滅庫存的底片們。\n顏色我真的是太愛！",
-          "images": [
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707723635_18611518519001018_217414097086257949_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkwNTk3MjI1NTE2NzQyMDgzMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=-HPSEJ1D0MgQ7kNvwF6PRRh&_nc_oc=AdrgYptpI5FIg_4xyPrJdJF1I9tD2W6hcJ30p1Xe7HFcfcNDDLl3cbOwtZ3Rkdc39q8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af-87Fs4ZcV8KZobeSFx64Mun6rFtiQmn1NH7e7Maopz1g&oe=6A41CB17",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707445645_18611518528001018_7020333393282344287_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkwNTk3MjI1ODY0ODgxMjk4OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=u-ox_2WhkZoQ7kNvwFGmg1Z&_nc_oc=AdqWPZY9nbsTq3p6mF1y8kMqkL01gIiElDy1u15Bw8UyOlRmnRyblUG6XB5rDhaQbQE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af80In7k1opYicepQPAwtRNMSu7bO65aW0wjpUXGOozecw&oe=6A41BE9D",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707476207_18611518537001018_4138615978449806616_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkwNTk3MjI2MTE4MjIyNDEzOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=4E4i3fHeXmQQ7kNvwGuMzM1&_nc_oc=Adr08yabc1D3zqFZDwtLBR5AHmHtigrgkpyCJ5JJPHYjKjL_Yw-SXE84TXORMtskaD4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af_4b2GCN9_0F9Gw-SLga9nEhX7sh1EtA5GkgoAL22g-dA&oe=6A41D75C",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/708242805_18611518573001018_998366212563370222_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=MzkwNTk3MjI2NTU5NDQ3NjY1MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=HviyIZ8CaGUQ7kNvwF378hc&_nc_oc=AdoYFqryPnNt_IZ_YBwi--modp_DEvAJmmSnv5FCseru8Lu8vlvl0HSADJZOwEpAQ-M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af8h4iSniGMWqI2og-dHtydBvjyg1yzbtEIiySoTJZlnuA&oe=6A41D45E",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707815857_18611518549001018_6817408224665740389_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=MzkwNTk3MjI2NzU5OTUwNTgxNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=y3WQcsKOc0MQ7kNvwHfrIwv&_nc_oc=AdonD1sqFgUaWq03aFYjB5sQKnIH-xsMyXLFppDjAQfcOelja9NTe3AxBy4CdDjNq8I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af9Vu5LKN01bO0GyAFYju5mEFVS8815edTk7-W6Qt2rq6Q&oe=6A41D3AD",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/708193151_18611518558001018_3448242244921983628_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzkwNTk3MjI3MDUzNTQxODU0OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=tefNQ8r-dIUQ7kNvwHNhkfI&_nc_oc=AdpIOQgaRfHatScjNaFuLCEb-uWeHaj8Za4KLqKiEtsPEXdWzXnHVBH-VN3jliBLI7w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af-rZVHjYTDoKW2vc5pr2l37Pyc565vOMqjK6IQb3LtjqA&oe=6A41CA0C",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707838604_18611518588001018_5738491509383458628_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=MzkwNTk3MjI3MzM3MDc3NTUxNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ZBlE7ZjC5g4Q7kNvwFS4ZUX&_nc_oc=AdonBeP63ovgYY3anET4xXEtYWGderP-SbeFNYqnNuOf62ypucgntbCmLCgoaVDE1L4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af_e9D2tTsITNdVqyUoAflVG43wSzRiHWrs5LI9_ePjusw&oe=6A41B724",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/709034631_18611518591001018_1214885743152818104_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkwNTk3MjI3NTQ1OTU3NzY3Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=63k6qozIsugQ7kNvwGK2A2-&_nc_oc=AdoFglm4mzxTSm3fRj8Mii2YgIyr9AHPDq062Abhgj2ANg3bJHo901hzy3G2x2vkZYg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af_XdPbYfVU-VC-BER563Bwgk4dEzE49nKbqTEBBgaPbdQ&oe=6A41B7B2",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706111228_18611518615001018_7260987853133363865_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkwNTk3MjI3OTI3NjI1NzQ3NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=YUejRBT9zokQ7kNvwG3Kq3K&_nc_oc=AdpXESA3423haX5LVsztS3mDpX9F4OYAjK_ZLPM5vhUCIYs_qg1cjKhZbHduhJhGYvk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af9MllSzuXiaKF0yzv8LocTjRaFdm1gKiAQ4Tp581RErcQ&oe=6A41BD49",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706133257_18611518612001018_2548037943077320562_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=MzkwNTk3MjI4MTk2OTA3OTg2NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=2dKwAu8gD-sQ7kNvwH5CfnJ&_nc_oc=AdpeSA1VSZz36l4X30jNFxRCcbxy0gH2dmeEILNLBYJmHbfootC0IDN0rw5GHjOH8nY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af_uY-awjrQ_mW4VZlCBLY4vaShlYZQ9Fq3uBiyuVuwqpw&oe=6A41B8D4",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706089366_18611518618001018_7323611441455926117_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=MzkwNTk3MjI4NDgwNDUwMTc1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=zciLnhjjYSkQ7kNvwE21zh1&_nc_oc=AdqR3jvkLIcsxxYeZ7TWE26KrYn5mVY3qlqd260QxYxyTu11v_W_u8J-Vx-98I3dgio&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af_EhFOZOa4KRi4ResyzQ5dB-a6LQ0wHRkwBCmi557vgPw&oe=6A41DDEE"
-          ],
-          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707723635_18611518519001018_217414097086257949_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkwNTk3MjI1NTE2NzQyMDgzMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=-HPSEJ1D0MgQ7kNvwF6PRRh&_nc_oc=AdrgYptpI5FIg_4xyPrJdJF1I9tD2W6hcJ30p1Xe7HFcfcNDDLl3cbOwtZ3Rkdc39q8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af-87Fs4ZcV8KZobeSFx64Mun6rFtiQmn1NH7e7Maopz1g&oe=6A41CB17",
-          "image_url": "/assets/feed-images/863e40577925073e0fb4.webp",
-          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/452992890_468289262797164_2736951104040571947_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42NDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gGYIbYK9PPOFDvAtC39IafSqpmZDStnMLnsF-4U7_XVRet68JUCTL6glvhElFIpE2k&_nc_ohc=XgtgrBxqV8gQ7kNvwEU_gfH&_nc_gid=LhPcE4fXVG5ck9LL8AbWUQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af9lJYaopJhGMll1J98Hv1ur_L50QwF0NXXTFAO7XqUBaA&oe=6A41CD3C&_nc_sid=8b3546",
-          "avatar_url": "/assets/source-avatars/bf2f349c5f4c1ca4392a.webp",
-          "source_initials": "蔡明",
-          "categories": [
-            "posts-videos",
-            "events"
-          ],
-          "category_labels": [
-            "貼文影片",
-            "實體活動"
-          ],
-          "key": "ig_damingtsai:https://www.instagram.com/p/DY0zgRVErvr/"
-        },
-        {
-          "title": "茱蒂口琴樂團 Judy's Harmonica Ensemble｜上週很榮幸受邀參加第一屆甘肅天水口琴藝術展演，擔任評審與演出嘉賓。 在所有活動正式開始之前，我們來到中華人文始祖伏羲氏的廟前，與眾人共同參與祭典。非常感謝東方鼎孔總的盛情邀…",
-          "headline": "上週很榮幸受邀參加第一屆甘肅天水口琴藝術展演，擔任評審與演出嘉賓。",
-          "link": "https://www.instagram.com/p/DYzl0BolM5O/",
-          "source_id": "ig_judys_harmonica_ensemble",
-          "source": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "source_system_name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "source_profile_url": "https://www.instagram.com/judys.harmonica.ensemble/",
-          "account": "judys.harmonica.ensemble",
-          "platform": "instagram",
-          "posted_at": "Tue, 26 May 2026 14:59:52 GMT",
-          "posted_at_local": "2026-05-26 22:59",
-          "seen_at": "2026-06-24T16:13:01.085859+00:00",
-          "matched_keywords": [
-            "口琴",
-            "演出",
-            "音樂會",
-            "公開更新"
-          ],
-          "keyword_matches": [
-            "口琴",
-            "演出"
-          ],
-          "llm_relevant": true,
-          "llm_confidence": 0.95,
-          "llm_labels": [
-            "口琴",
-            "演出",
-            "音樂會",
-            "公開更新"
-          ],
-          "llm_categories": [
-            "events"
-          ],
-          "llm_reason": "貼文明確描述口琴樂團受邀參加口琴藝術展演、擔任評審與演出嘉賓，並分享演出過程與感受，屬於口琴演出活動的公開更新。",
-          "text": "上週很榮幸受邀參加第一屆甘肅天水口琴藝術展演，擔任評審與演出嘉賓。\n在所有活動正式開始之前，我們來到中華人文始祖伏羲氏的廟前，與眾人共同參與祭典。非常感謝東方鼎孔總的盛情邀約，讓我們有幸從中門步入。所謂「開中門」，是中國傳統禮儀中最高規格的迎賓之禮，古時只在重要祭典或迎接貴賓時才會開啟，象徵著至高的尊重。能夠以這樣珍貴的方式踏入伏羲廟實在意義非凡，與伏羲一同見證首屆藝術展演的序幕，也祈願祂庇佑天水口琴的發展。\n兩晚的戶外演出，老天格外賞臉，巧妙地讓我們避開了雨水。特別為此次活動準備的《向陽花》，也獲得了觀眾們熱烈的迴響與喜愛。\n感謝主辦單位、東方鼎孔總及全體工作人員的用心籌辦，也謝謝從各地遠道而來支持的觀眾們！能夠親身見證一個地方在口琴藝術上的成長，心中滿是感動！期待下次再會！\n#天水口琴藝術展演 #茱蒂口琴樂團",
-          "images": [
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707668454_18009948536880937_1227289577575056096_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkwNTYzMDg5NTE5MjE1NTU3MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=z0Zttpyu_FUQ7kNvwHenqoV&_nc_oc=AdowCVPlCLX6gGtwLJJJVDxipsjvohG1sjG4F70f-sEh-Zz-eDuPoQZN_tl7sDeNhm8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af84BsdQhCcdIqWK1nLezBtM-mjlsZ3dhBv_HqL17dGJcA&oe=6A41B8F0",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707693612_18009948551880937_3100314505772698982_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTYzMTAwODAzNTg1NTYyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNDAwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=zDCrvx-s-UsQ7kNvwEw8WVS&_nc_oc=AdpuJXbUWmuIGQ0Cy_cXkA1SMfY2fOgpG93pkabBEqmx4_xLGfRva-pGvnH0wLskRoc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af-Bldgw0NJGiRCoMJMI9b1XtobRYRBNWhiAKQFZ-GHC0g&oe=6A41B5E6",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/708068049_18009948569880937_8049976574653608139_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=MzkwNTYzMTExNDk0MDM4MDI2Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=DSASYCl9b3sQ7kNvwHC3te9&_nc_oc=Adp6bAnNomVTIld6jnh5kVAqLI9KnWufcFCh1SzGRMN8Qn39napglpRQ17mEEtiL4UQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af86bF1fqBEe88w8hUQHvZrFOOEUJznpD34sX7cCVd_JZQ&oe=6A41D423",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707153884_18009948581880937_9040985531415077830_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=MzkwNTYzMTEyMTg3NzUyNTE5Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=zovI9xOePCsQ7kNvwFZrBAG&_nc_oc=Adpn7rAQ7eqWgqY3v8vsNFV21mlIQZa2KsRirE9zF8YRx8yEqD-wb0FWWnubDXx32Jg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af-JKph2a1NOCT6Z0xX8NiOgJkeK8xu0p2RceUgAq-N8hA&oe=6A41C453",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707781380_18009948590880937_5869001361497333455_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=MzkwNTYzMTEzMjEwMzQzNzYyMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=I_LMw3qT3ioQ7kNvwGWWSVv&_nc_oc=AdrPLSJq0_ANoYlkgkn6IP1xJH1oRj9poC_Z88FXIr4L61BHuDW93jO3HuI3u53qI-A&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af8rV99FNIwiVLzycUkx-gq2JJSdXZiiHB4Ns2wvBX3M8Q&oe=6A41E895",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707407198_18009948617880937_6920383141395755124_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkwNTYzMTIyNzA3OTE1MjQwOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=VLL75JqQL8IQ7kNvwGYpPBg&_nc_oc=Adq3ieEU7_vCMRmV60X9tJhGDruEt7Jh7Hub2TnFX5YJUjyQQ7K8ybk_qNa7mWSkqBE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af8xhTam7VwkliwE6xHtyLC_lKJHBc8MLQ4aH0Oj2Kfmbg&oe=6A41D4D5",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706727001_18009948698880937_8298991397270191757_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=MzkwNTYzMTI0Njg0MjY5NjE0OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=DWZVyfMRv4oQ7kNvwGVdWto&_nc_oc=AdrlnvIGCmvy71zQbOvOBLp2H5bNr3pRwn80VGk0DQFDqGCkKXsU0nKJdNSG_HhNTcA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af-JpbLINXdOMtEe9rdAIVycMfMr38wdxQAODu9ZINMSDA&oe=6A41DFFA",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707209629_18009948707880937_3210352101963797991_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkwNTYzMTI1MjM2MjQzNjU5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=78YQlq1-nYUQ7kNvwHR82fj&_nc_oc=AdoADrU-Y_mBfzxq01JIpL21ZX54aC-skmA0D7IzFBl9tjLTaoO203u-NNO81uO5op8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af-1250B46-s6NyYtiP6drM-ihJsyc_VEMUtGDJeQWoQog&oe=6A41E6B5",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707678415_18009948719880937_8537277677834414094_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkwNTYzMTI1ODIwMDg2ODk1OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=NZRL1yJBbw8Q7kNvwGM14Id&_nc_oc=AdqVEziIpH9UYBqGOOxwyztsFgy9ufS1w1WA-3rW4D4deEJDiXVmTNixDlnQXJnxLbM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af9EgplCuPMdcXJgFs_0J26noj9ONSWjMxqd_51r-APYoQ&oe=6A41EAB5",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706704356_18009948728880937_4177810212628805460_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkwNTYzMTI2NDM5MTY1MzE1NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=2XxG7BAKQToQ7kNvwEk4uwF&_nc_oc=AdqTYmYg_IR0Vxls34hgWc_Elyp1W9D0GMX_eTXTNBPkPvSGk0N8yVE2MsVC567hAjs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af8jgP3CkGNl7maoK4kQ3McxWCtL3mRdV-yjWFdIuARpsw&oe=6A41CF0F",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707114194_18009948737880937_149221783733293250_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkwNTYzMTI3MDEyOTYxODMyNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=S2NydxhujlgQ7kNvwHpw_OH&_nc_oc=AdrLKI-nG08IHTcBKwEjALfgb8bYqDC72cm0bkHaU03uAs5_7T9ZKhOjW4aOiFRxOrc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af9q2f0TWD-klgc4M5nBDY9b684RTkxQeM_Ea_7ImO1Wjw&oe=6A41CBFA",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/709507617_18009948746880937_443501374645670757_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTYzMTI3NjE3NzU1ODY0Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=C_9MuWorjL8Q7kNvwFyKdXG&_nc_oc=AdovcahJnuzxCSiM4N1OoghAaNCDFrgK_oOj-8X-iqOsPNiS2J3Mlv8BXbuETfsx_JE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af_FLGcg1827kQnHzX4MVoWhy-uBVrr9CXDM-0VUwzLuRg&oe=6A41BBA2",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707763422_18009948755880937_8902729055608870887_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=MzkwNTYzMTI4MTk2NTg5NDc5NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Zs0cSSJaVmcQ7kNvwGdHPFT&_nc_oc=AdrgA5ZHmdNzEFz4HhcBchT3IQ3ifQff3CVwZVUoENrDKR4QfAQcOd7l8Thsp05lfB0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af-0NeXYOgSdeZroA-1aAZKqjPWrPtDee8e7bhukxXfKdQ&oe=6A41DFEB",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706217455_18009948767880937_8635415927906557941_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=MzkwNTYzMTI4NzUzNTkxNTQ4Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ZrvWOHtCjoQQ7kNvwHB0Ll8&_nc_oc=Adpe_IYbw-0BMaK0gmqQJObis7hg5ELq3gXjT1bP0DuMhydbyBnOFcYsuTOmSYUgpy8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af9L9YUIOT2epnj5EuPsW1bUBEoliwbDyVIb1zVrsvJ92g&oe=6A41C515",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706704807_18009948776880937_84746434175646439_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkwNTYzMTI5NDE3MTMxMDk1NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=rWVMpzwmh2kQ7kNvwEbBim1&_nc_oc=AdpXIuiZU4a8JZQawYQmKhui73WioaBVQO1-HeG0R7A5QcswbZTaULXGJWnhq45yVk8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af98qZkQa14MzNEqiQY7Gd9DqA9Q5onHIxbUKRSyGSIRVQ&oe=6A41C5FD",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707678672_18009948788880937_949900849648363472_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=MzkwNTYzMTI5OTY5OTMwMjc1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ZPFn7ndF_MgQ7kNvwFB8odj&_nc_oc=AdqjXXcfeQLXx0EugWpWsgkdLRpVt6JMZz9hhxYdjFeXdMFe4c2o2zgyntBpADMJAyc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af-wUzVSba0L5c8mhNnZ8NckD7nbs3bPEImRsc7CgNWmHA&oe=6A41BB58",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706912585_18009948797880937_8924913312042443028_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=MzkwNTYzMTMwNzQwMDA0ODg0OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=9acDtAueAE0Q7kNvwFTX1-q&_nc_oc=AdrejWxiTPrks37Fdh1GEP7SkfmrtSjzeGiPawcPNezC44tis_SWM5EVOx62_qvuNK8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af_-lpeVjLVPsL5pF-Lf-B47cgWkTNzZWWi-E-7a63vBaA&oe=6A41D78F",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706538138_18009948806880937_5749619217005584198_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkwNTYzMTMxMzAzNzM1Nzc1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=NPYAQuiNrhwQ7kNvwFvamgg&_nc_oc=AdpCG6anNr6Lk0AxBBX4w_Cts5e8H8zl8-bGN6kXjHnH7u-aDkkPEs4sZxZehMeTj0w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af9gx16HOt9ToHrbP5EwX29TNxvANw8V6Z2qkJEHBvjmXg&oe=6A41D1AE"
-          ],
-          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707668454_18009948536880937_1227289577575056096_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkwNTYzMDg5NTE5MjE1NTU3MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=z0Zttpyu_FUQ7kNvwHenqoV&_nc_oc=AdowCVPlCLX6gGtwLJJJVDxipsjvohG1sjG4F70f-sEh-Zz-eDuPoQZN_tl7sDeNhm8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af84BsdQhCcdIqWK1nLezBtM-mjlsZ3dhBv_HqL17dGJcA&oe=6A41B8F0",
-          "image_url": "/assets/feed-images/7e2cfdc5f82b27dc60bf.webp",
-          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/462443540_1272229060376750_8530071716945385407_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gFNwFY3neSHlroftjcpFUZXEel4XGTTQHzjp6MqmF2PBm7DUEA06bljOSbHsNZ4-FE&_nc_ohc=qmbocc6wIgAQ7kNvwFqNzH2&_nc_gid=xaf8alxmuGgpFGjQMVNPlA&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_kMkwfjYlGPuLNMQ_ohdbAQspA9KXjs7yfZ98PT2md9Q&oe=6A41D2CB&_nc_sid=8b3546",
-          "avatar_url": "/assets/source-avatars/94078177897f59538292.webp",
-          "source_initials": "JSH",
-          "categories": [
-            "posts-videos",
-            "events"
-          ],
-          "category_labels": [
-            "貼文影片",
-            "實體活動"
-          ],
-          "key": "ig_judys_harmonica_ensemble:https://www.instagram.com/p/DYzl0BolM5O/"
-        },
-        {
-          "title": "HSNU Cozy Harmonica｜：） 今天非常榮幸邀請到彰女微光口琴來幫忙倒數！！ 光影會散，但琴聲有跡可循。 我們拾起那些泛黃的片段，重新組合成最溫暖的共鳴。 歲月無聲，直到我們再次吹響。 ––舒馨口琴社60屆獨立成發《拾光》 …",
-          "headline": "：）",
-          "link": "https://www.instagram.com/p/DYzkWUBCXUe/",
-          "source_id": "ig_cozy_harmonica_60th",
-          "source": "HSNU Cozy Harmonica",
-          "source_system_name": "HSNU Cozy Harmonica",
-          "source_profile_url": "https://www.instagram.com/cozy_harmonica_60th",
-          "account": "cozy_harmonica_60th",
-          "platform": "instagram",
-          "posted_at": "Tue, 26 May 2026 14:47:04 GMT",
-          "posted_at_local": "2026-05-26 22:47",
-          "seen_at": "2026-06-24T07:05:49.090205+00:00",
-          "matched_keywords": [
-            "口琴",
-            "成發"
-          ],
-          "keyword_matches": [
-            "口琴",
-            "成發"
-          ],
-          "llm_relevant": null,
-          "llm_confidence": null,
-          "llm_labels": [],
-          "llm_categories": [],
-          "llm_reason": "",
-          "text": "：）\n今天非常榮幸邀請到彰女微光口琴來幫忙倒數！！\n光影會散，但琴聲有跡可循。\n我們拾起那些泛黃的片段，重新組合成最溫暖的共鳴。\n歲月無聲，直到我們再次吹響。\n––舒馨口琴社60屆獨立成發《拾光》\n倒數5天\n𝄞 成發資訊\n時間：5/31（日）14：00進場，14：30開始\n地點：附中 實驗劇場\n𝄞交通資訊\n地址：臺北市大安區和安里信義路三段143號\n大眾運輸：\n捷運：大安站2號出口",
-          "images": [
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706813592_17889376236519083_4835662341429842914_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTYyNDg4Nzk0OTMzMzM5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ISSGuqXVXbMQ7kNvwG4RZi_&_nc_oc=Adrh35GwUot_jo4neRJdWa_Ugpuweu29L3njC7l3TFMAEcvU4AXAivxd-JvrQAvQ4pQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uHsGOCQbsbKgvYt-7T-vaw&_nc_ss=7a22e&oh=00_Af-J_I5yIKIw0zhiEaJXVPKruoXCZZ5HKg6Me8x-huRVng&oe=6A414D57",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/708450542_17889376251519083_6163165637890281560_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=MzkwNTYyNDkxNDkyNTMwMzM1OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=f8To8USdMwkQ7kNvwHclSBg&_nc_oc=AdqfPkpmQ7kkFRYf4uOaSpV1GKShyMEG-wzpOycZbi98aaSrDK459vxhmRzg2Xg38FY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uHsGOCQbsbKgvYt-7T-vaw&_nc_ss=7a22e&oh=00_Af_4Ys-o9n6Y_yP56nPHUUdfcxh7GjNCSSLeklmXgo_XEg&oe=6A41702C"
-          ],
-          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706813592_17889376236519083_4835662341429842914_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTYyNDg4Nzk0OTMzMzM5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ISSGuqXVXbMQ7kNvwG4RZi_&_nc_oc=Adrh35GwUot_jo4neRJdWa_Ugpuweu29L3njC7l3TFMAEcvU4AXAivxd-JvrQAvQ4pQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uHsGOCQbsbKgvYt-7T-vaw&_nc_ss=7a22e&oh=00_Af-J_I5yIKIw0zhiEaJXVPKruoXCZZ5HKg6Me8x-huRVng&oe=6A414D57",
-          "image_url": "/assets/feed-images/14bd747e65b62310997e.webp",
-          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/510922604_17842642863519083_1562363567902033321_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjcuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gEmBikahc-Z6tstZbi0o93axAA2Qzgcpj8tQBWl_w5Y7-aORS2jAbWUfPpPQFhrJUA&_nc_ohc=Qr2dZWgwfhQQ7kNvwGXio0H&_nc_gid=sUFKoAurkgWWTPLqWQFgPg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af97xo9rH_LNrt4P6An6iFBXSCWkOByYCRpivuP3OgnlKQ&oe=6A413D8E&_nc_sid=8b3546",
-          "avatar_url": "/assets/source-avatars/77ede19d1deb4ae6284c.webp",
-          "source_initials": "HCH",
-          "categories": [
-            "posts-videos",
-            "events",
-            "student-clubs"
-          ],
-          "category_labels": [
-            "貼文影片",
-            "實體活動",
-            "學生社團"
-          ],
-          "key": "ig_cozy_harmonica_60th:https://www.instagram.com/p/DYzkWUBCXUe/"
-        },
-        {
-          "title": "RedBricks Harmonica｜🔋《琴聲貢聚》 口琴計劃 - 計劃啟動音樂會🔋 下個月RedBricks將會於坑口社區會堂表演🎵 為新一期的「十八有藝」社區演藝計劃打響頭炮🧨 感謝 @hkharmonica 的邀請📨 約定大家，到…",
-          "headline": "🔋《琴聲貢聚》 口琴計劃 - 計劃啟動音樂會🔋",
-          "link": "https://www.instagram.com/p/DYzMIPfkpvH/",
-          "source_id": "ig_redbricksharmonica",
-          "source": "RedBricks Harmonica",
-          "source_system_name": "RedBricks Harmonica",
-          "source_profile_url": "https://www.instagram.com/redbricksharmonica/",
-          "account": "redbricksharmonica",
-          "platform": "instagram",
-          "posted_at": "Tue, 26 May 2026 11:15:07 GMT",
-          "posted_at_local": "2026-05-26 19:15",
-          "seen_at": "2026-06-24T16:13:01.085859+00:00",
-          "matched_keywords": [
-            "口琴",
-            "演出",
-            "音樂會"
-          ],
-          "keyword_matches": [
-            "口琴",
-            "音樂會",
-            "harmonica"
-          ],
-          "llm_relevant": true,
-          "llm_confidence": 0.95,
-          "llm_labels": [
-            "口琴",
-            "演出",
-            "音樂會"
-          ],
-          "llm_categories": [
-            "events"
-          ],
-          "llm_reason": "貼文宣傳口琴音樂會，屬於口琴演出活動，符合收錄條件。",
-          "text": "🔋《琴聲貢聚》 口琴計劃 - 計劃啟動音樂會🔋\n下個月RedBricks將會於坑口社區會堂表演🎵 為新一期的「十八有藝」社區演藝計劃打響頭炮🧨 感謝 @hkharmonica 的邀請📨 約定大家，到時候再見👋\n🗓️ 日期: 6月21日 (星期日)\n🕰️ 時間: 下午3時至4時\n📍 地點: 坑口社區會堂\n❗️費用全免❗️\n@18d.art\n#計劃啟動音樂會 #十八有藝 #18dART #琴聲貢聚 #redbricksharmonica",
-          "images": [
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/702244163_18328620943270066_2969763519300776346_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTUxODY0NDgxMDEyODMyNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjA0Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=icuoenLUuJQQ7kNvwG1IAPM&_nc_oc=AdqsaM6k_UHRJ2UIJ3SDlkq0JMAWMi9e4wN_8RTPVU50VS6kYOX2wbsmdnaUy9uol3w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=5BCPLhE2A4KPP6JHzczLPg&_nc_ss=7a22e&oh=00_Af-vF6pCRwpfBEart5H98mJoMfX4tWqqbuUvfmdDqGKqNw&oe=6A41EF83"
-          ],
-          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/702244163_18328620943270066_2969763519300776346_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTUxODY0NDgxMDEyODMyNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjA0Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=icuoenLUuJQQ7kNvwG1IAPM&_nc_oc=AdqsaM6k_UHRJ2UIJ3SDlkq0JMAWMi9e4wN_8RTPVU50VS6kYOX2wbsmdnaUy9uol3w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=5BCPLhE2A4KPP6JHzczLPg&_nc_ss=7a22e&oh=00_Af-vF6pCRwpfBEart5H98mJoMfX4tWqqbuUvfmdDqGKqNw&oe=6A41EF83",
-          "image_url": "/assets/feed-images/ac3400d906345d5a47c8.webp",
-          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/37982644_2026511764028099_3615643928088281088_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby43OTYuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gGobxvBtUXEfer-D9tWJzYwp3gjtuZ4LgCIIONal6jYQLGzkXy_aQ8rbNRiQjBQODE&_nc_ohc=gOY_fFSWsFIQ7kNvwHSoETi&_nc_gid=vK2LOY9yXVHCkLnnlkNg5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af8JuaEGeerR6GeEiSQcCMZ31n2nd7jAT49hbSzEv70lfw&oe=6A41C7D7&_nc_sid=8b3546",
-          "avatar_url": "/assets/source-avatars/44ed1621e83c468035bf.webp",
-          "source_initials": "RH",
-          "categories": [
-            "posts-videos",
-            "events"
-          ],
-          "category_labels": [
-            "貼文影片",
-            "實體活動"
-          ],
-          "key": "ig_redbricksharmonica:https://www.instagram.com/p/DYzMIPfkpvH/"
         }
       ],
-      "count": 120
+      "count": 124
     },
     {
       "id": "posts-videos",
@@ -14863,6 +15379,307 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rss": "/feeds/posts-videos.xml",
       "json": "/feeds/posts-videos.json",
       "items": [
+        {
+          "title": "陽明交大竹韻口琴社｜深夜震撼告知重大消息，創社大成功，請持續追蹤NYCU竹韻口琴社 友社：@nthu_harmonica_club #nycu_harmonica #nycu #harmonica",
+          "headline": "深夜震撼告知重大消息，創社大成功，請持續追蹤NYCU竹韻口琴社",
+          "link": "https://www.instagram.com/p/DaA6q22EwJM/",
+          "source_id": "ig_nycu_harmonica",
+          "source": "陽明交大竹韻口琴社",
+          "source_system_name": "陽明交大竹韻口琴社",
+          "source_profile_url": "https://www.instagram.com/nycu_harmonica/",
+          "account": "nycu_harmonica",
+          "platform": "instagram",
+          "posted_at": "Thu, 25 Jun 2026 15:43:39 GMT",
+          "posted_at_local": "2026-06-25 23:43",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "學生社團",
+            "公開更新"
+          ],
+          "keyword_matches": [
+            "口琴",
+            "harmonica"
+          ],
+          "llm_relevant": true,
+          "llm_confidence": 0.95,
+          "llm_labels": [
+            "口琴",
+            "學生社團",
+            "公開更新"
+          ],
+          "llm_categories": [
+            "student-clubs"
+          ],
+          "llm_reason": "貼文來自大學口琴社團，宣布創社成功，屬於學生社團的公開更新，符合收錄條件。",
+          "text": "深夜震撼告知重大消息，創社大成功，請持續追蹤NYCU竹韻口琴社\n友社：@nthu_harmonica_club\n#nycu_harmonica\n#nycu\n#harmonica",
+          "images": [
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730160878_18115241881745725_8390113133884300311_n.webp?_nc_cat=102&ig_cache_key=MzkyNzM5NTk3MDM4ODMzNzUwNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=8Z1laD9jtRsQ7kNvwGed9AR&_nc_oc=AdpdL6d1yoj4lfeWUQTmoZbviZqZUufJx9kEnZ7-R8qGZG5LZl0e6Mc-ePdpo_RnX1g&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af8NyR5H-jAcgr0H0BbJZfeAYIfUhmPVqry4ZsowcnCkug&oe=6A4325C4",
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/729754336_18115241887745725_8873937602994806352_n.webp?_nc_cat=107&ig_cache_key=MzkyNzM5NTk3MzAzMDk4NjM4Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=vQMMBukoYKYQ7kNvwGoO8V2&_nc_oc=AdpQp9mef1H3qrnPoALFKofJ0l8gzsD1fQ65GGzP8k5i0J5VjzjiPZQsb2wTZIlqCX0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af8TrX5PEkSbk2ey6Uita5wX_vGDNnhyoIjy3rYQX88UPw&oe=6A433FCC",
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/729855749_18115241899745725_6719899844758678631_n.webp?_nc_cat=106&ig_cache_key=MzkyNzM5NTk3NTgwNzQzOTEzNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=XaoJ-i6m-lsQ7kNvwF9h3fz&_nc_oc=Adp_4nU3tbAYI5I72BfgnNQLvmuY0DvyMV52ngBIbpmbEO5XzU1kw-4H1jQz2U5VzoU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af9voYDXe0icIYOKeq4yqIDCKoGdWb979PwGeeCcsHjZZw&oe=6A431F56",
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/729877116_18115241914745725_1759406056520547091_n.webp?_nc_cat=101&ig_cache_key=MzkyNzM5NTk3NzU2MDgxMzE2Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=gGz2LVr0ePMQ7kNvwES4Z9F&_nc_oc=Adps4-W2Z1iN7ItNVe-vS9LYahYgXsaJnOdH1AOM14uR4kPiFKFM5QHPL3xWb3xokc8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af-seXfSibyaudCsOSKDxqFwuq41z2fQz9G-MJLRvqMnSQ&oe=6A430EBA",
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730125172_18115241923745725_3007461136249078830_n.webp?_nc_cat=111&ig_cache_key=MzkyNzM5NTk4MTY2MjY4ODcwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GwfrUKiosaQQ7kNvwEnhhdT&_nc_oc=AdrzB4JKoOTZOINnu525DXiFlN0YK1FpXHGJ806iF-Bz7hRrI653a4fWdB955L7psZg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af_2QZoXwMUNqQhd1E8G4nE79NngWf6MScAIRS72o645xA&oe=6A4335B5",
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/729348861_18115241932745725_4950523139895409169_n.webp?_nc_cat=105&ig_cache_key=MzkyNzM5NTk4NDA4NzA1MDU5NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=S8wUY_a8xg8Q7kNvwHFw9Yq&_nc_oc=AdrIO9DKxnoZEf_cw3rPVm3aJgCaiBDSYa56XVTGQEclbkl45QlL2rZk5hRUPgXMxpI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af8mMvL83jIWQXh7Dps8W786eGQckS2Q24NNdni9sqULUQ&oe=6A432F52",
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/729517839_18115241944745725_8953500449191667680_n.webp?_nc_cat=103&ig_cache_key=MzkyNzM5NTk4NzEwNzAzMjk0OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=OdsAuPG-i2wQ7kNvwHeISSe&_nc_oc=Adpxd9hkbPfTKSYo9zvUVFCqGxk0MLnCKm0IxQIqa3GFuKQhFuNomtjRV7UdFGSHvCs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af-zmb2LchzAjP2VhNQT5B5DUv7h0bRIN3E6c6gsqP-7lA&oe=6A430B11"
+          ],
+          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730160878_18115241881745725_8390113133884300311_n.webp?_nc_cat=102&ig_cache_key=MzkyNzM5NTk3MDM4ODMzNzUwNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=8Z1laD9jtRsQ7kNvwGed9AR&_nc_oc=AdpdL6d1yoj4lfeWUQTmoZbviZqZUufJx9kEnZ7-R8qGZG5LZl0e6Mc-ePdpo_RnX1g&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af8NyR5H-jAcgr0H0BbJZfeAYIfUhmPVqry4ZsowcnCkug&oe=6A4325C4",
+          "image_url": "/assets/feed-images/25114f5b78c787cc0ede.webp",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/701558410_18109037233745725_4881025079895106710_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gHw0r8dwzD_XDUFRNGh4o1e2Ij19yJad1dfUgROhp-YxIeGrY5rl_wH2__HS2ncb4U&_nc_ohc=YRGVVTGe96cQ7kNvwHo94Cy&_nc_gid=knFwH4jIIMOXF89cVreE0A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_MEdcHnnLip3cZUbR8WTg47fGP7Omcs4sOQPiX0kc3xA&oe=6A4310D4&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/f9da11b227a1c2238a68.webp",
+          "source_initials": "陽明",
+          "categories": [
+            "posts-videos",
+            "student-clubs"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "學生社團"
+          ],
+          "key": "ig_nycu_harmonica:https://www.instagram.com/p/DaA6q22EwJM/"
+        },
+        {
+          "title": "南里沙｜クロマチックハーモニカの魅力をもっと身近に感じていただきたいという想いからスタートした、南里沙が1人でお届けする〜プチプチコンサート〜 2026年8月22日(土)に田園調布ピアノサロンNOAHで開催します♬ クロマチックハーモニカ…",
+          "headline": "クロマチックハーモニカの魅力をもっと身近に感じていただきたいという想いからスタートした、南里沙が1人でお届けする〜プチプチコンサート〜",
+          "link": "https://www.instagram.com/p/DaAUi0NS2R-/",
+          "source_id": "ig_minami_risa",
+          "source": "南里沙",
+          "source_system_name": "南里沙",
+          "source_profile_url": "https://www.instagram.com/minami_risa/",
+          "account": "minami_risa",
+          "platform": "instagram",
+          "posted_at": "Thu, 25 Jun 2026 10:13:29 GMT",
+          "posted_at_local": "2026-06-25 18:13",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "演出",
+            "音樂會"
+          ],
+          "keyword_matches": [],
+          "llm_relevant": true,
+          "llm_confidence": 0.95,
+          "llm_labels": [
+            "口琴",
+            "演出",
+            "音樂會"
+          ],
+          "llm_categories": [
+            "events"
+          ],
+          "llm_reason": "貼文宣傳口琴家南里沙的個人口琴音樂會，明確屬於口琴演出活動，符合臺灣口琴公開更新的收錄標準。",
+          "text": "クロマチックハーモニカの魅力をもっと身近に感じていただきたいという想いからスタートした、南里沙が1人でお届けする〜プチプチコンサート〜\n2026年8月22日(土)に田園調布ピアノサロンNOAHで開催します♬\nクロマチックハーモニカを初めて聴かれる方、いつも応援してくださる皆さまも😊お誘い合わせの上、お気軽にお越しください♬\n【南里沙 プチプチコンサート in 田園調布】\n■日時\n2026年8月22日(土)\n開場 13:15\n開演 13:45\n■会場\n田園調布ピアノサロンNOAH\n■料金\n3,000円\n■ご予約はこちらから\nhttps://business.form-mailer.jp/fms/4c46fc75225985\n#クロマチックハーモニカ #ハーモニカ #南里沙\n#田園調布 #プチプチコンサート",
+          "images": [
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730274551_18595539988053761_5002453498357541340_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzkyNzIyOTIyODUxNzEyMzE5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ5Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=HJssDEnTF5IQ7kNvwEH2mqv&_nc_oc=AdogwYpupdrsGm7nBZKWafuqPuxMsKRWI0jWYs27sCScAzcRG7Tz73gfmDMqIYfqBdU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af9p2bvGgBykAJbLQ2yjLcV5hA7cy9Zw-A_dARSKTALmWg&oe=6A431B9D"
+          ],
+          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730274551_18595539988053761_5002453498357541340_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzkyNzIyOTIyODUxNzEyMzE5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ5Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=HJssDEnTF5IQ7kNvwEH2mqv&_nc_oc=AdogwYpupdrsGm7nBZKWafuqPuxMsKRWI0jWYs27sCScAzcRG7Tz73gfmDMqIYfqBdU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af9p2bvGgBykAJbLQ2yjLcV5hA7cy9Zw-A_dARSKTALmWg&oe=6A431B9D",
+          "image_url": "/assets/feed-images/b6417769de5c92001d2d.webp",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+          "source_initials": "南里",
+          "categories": [
+            "posts-videos",
+            "events"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動"
+          ],
+          "key": "ig_minami_risa:https://www.instagram.com/p/DaAUi0NS2R-/"
+        },
+        {
+          "title": "Jong-seong Park 朴鍾聲｜[2026 서리풀 작곡가 탐구 시리즈] 안녕하세요 박종성입니다. 돌아오는 토요일, 특별한 공연을 준비했습니다. <하모니카를 사랑한 작곡가들>이라는 주제로, 하모니카를 위해 작곡된…",
+          "headline": "[2026 서리풀 작곡가 탐구 시리즈]",
+          "link": "https://www.instagram.com/p/DaAL7MNk40D/",
+          "source_id": "ig_jongseongpark_harmonicist",
+          "source": "Jong-seong Park 朴鍾聲",
+          "source_system_name": "Jong-seong Park 朴鍾聲",
+          "source_profile_url": "https://www.instagram.com/jongseongpark_harmonicist/",
+          "account": "jongseongpark_harmonicist",
+          "platform": "instagram",
+          "posted_at": "Thu, 25 Jun 2026 08:55:10 GMT",
+          "posted_at_local": "2026-06-25 16:55",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "演出"
+          ],
+          "keyword_matches": [],
+          "llm_relevant": true,
+          "llm_confidence": 0.9,
+          "llm_labels": [
+            "口琴",
+            "演出"
+          ],
+          "llm_categories": [
+            "events"
+          ],
+          "llm_reason": "貼文內容為口琴演奏者朴鍾聲宣布即將舉辦以口琴為主的主題音樂會，屬口琴演出活動。",
+          "text": "[2026 서리풀 작곡가 탐구 시리즈]\n안녕하세요 박종성입니다.\n돌아오는 토요일, 특별한 공연을 준비했습니다.\n<하모니카를 사랑한 작곡가들>이라는 주제로,\n하모니카를 위해 작곡된 곡들을 연주할 예정인데요.\n특히 작곡가들의 이야기들과 연주자로서 작품을 어떻게 해석하는지 등\n다양한 비하인드 스토리와 함께 음악을 감상하실 수 있습니다.\n하모니카 곡에 흠뻑 빠져볼 수 있는 특별한 무대에 여러분을 초대합니다.\n감사합니다.\n<하모니카를 사랑한 작곡가들>\n2026년 6월 27일 토요일 오후3시\n반포심산아트홀\n하모니카 박종성\n피아노 조영훈\n예매 NOL티켓",
+          "images": [
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730052191_18419377186183694_7198045568704091494_n.webp?_nc_cat=109&ig_cache_key=MzkyNzE5MDAyNjg3NDM4Nzg2Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=sdgrMxoCYdIQ7kNvwH9WE7B&_nc_oc=AdrGil7UvxRWOIWn_u2HGy6Va5oi9vlCe1Fdu9i4J5jzD0WzVZZUzxnsM0b2fW0dvE4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=TDS3HDqXyvBDFaBAWBbhfg&_nc_ss=7a22e&oh=00_Af9Evw7viNfL8Yp5QRpcZwxN5Ny1Ql2t06idCSxdYnG6IA&oe=6A4337A7",
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730015604_18419377171183694_3759472020209685768_n.webp?_nc_cat=107&ig_cache_key=MzkyNzE5MDAyNzE4NDg4MjM2Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=dRaonxvbPZIQ7kNvwGX2kLV&_nc_oc=AdrHHxLKRst67V7tcMocIfCDwqmNbK8dfE8nWxMfMClFRpvU4-IEXStWKT-5TqxN-OU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=TDS3HDqXyvBDFaBAWBbhfg&_nc_ss=7a22e&oh=00_Af_ZqQTy5VgFjvFCzTlLejP88yLEZhAJjzwMkQiO5Mvplw&oe=6A4318DD"
+          ],
+          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730052191_18419377186183694_7198045568704091494_n.webp?_nc_cat=109&ig_cache_key=MzkyNzE5MDAyNjg3NDM4Nzg2Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=sdgrMxoCYdIQ7kNvwH9WE7B&_nc_oc=AdrGil7UvxRWOIWn_u2HGy6Va5oi9vlCe1Fdu9i4J5jzD0WzVZZUzxnsM0b2fW0dvE4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=TDS3HDqXyvBDFaBAWBbhfg&_nc_ss=7a22e&oh=00_Af9Evw7viNfL8Yp5QRpcZwxN5Ny1Ql2t06idCSxdYnG6IA&oe=6A4337A7",
+          "image_url": "/assets/feed-images/9b5d55f2eaf2ecda4149.webp",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/407900186_668717112004170_7581999167853339255_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gH2duufX62A1dKI6HfHAGZdxyhc1dlx8feDuGWhvgTJNBHSMCdeWyqrKayCN1RuMhM&_nc_ohc=5rWA_LRynGoQ7kNvwFjMidb&_nc_gid=E4gKraAdjX0SLo7dDQf2Gg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af8ctsRw5SrG9mJwqC1FCrzsQji02KuTCl_X8lsrdyz7WA&oe=6A431453&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/5016827370e797fbfc71.webp",
+          "source_initials": "JSP",
+          "categories": [
+            "posts-videos",
+            "events"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動"
+          ],
+          "key": "ig_jongseongpark_harmonicist:https://www.instagram.com/p/DaAL7MNk40D/"
+        },
+        {
+          "title": "山下伶 Rei Yamashita｜久々に３人で🫶人生のメリーゴーランド🎠 #山下怜 #chromaticharmonica #大塚茜 #flute #土屋恵 accordion",
+          "headline": "久々に３人で🫶人生のメリーゴーランド🎠",
+          "link": "https://www.instagram.com/p/DZ_74jvpj3n/",
+          "source_id": "ig_rei_harmonica",
+          "source": "山下伶 Rei Yamashita",
+          "source_system_name": "山下伶 Rei Yamashita",
+          "source_profile_url": "https://www.instagram.com/rei_harmonica/",
+          "account": "rei_harmonica",
+          "platform": "instagram",
+          "posted_at": "Thu, 25 Jun 2026 06:43:10 GMT",
+          "posted_at_local": "2026-06-25 14:43",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "演出"
+          ],
+          "keyword_matches": [
+            "harmonica"
+          ],
+          "llm_relevant": true,
+          "llm_confidence": 0.7,
+          "llm_labels": [
+            "口琴",
+            "演出"
+          ],
+          "llm_categories": [
+            "posts-videos"
+          ],
+          "llm_reason": "贴文来自 harmonica 账号，内容提及与长笛和手风琴演奏者合奏，涉及口琴相关演出更新。",
+          "text": "久々に３人で🫶人生のメリーゴーランド🎠\n#山下怜 #chromaticharmonica\n#大塚茜　#flute\n#土屋恵　accordion",
+          "images": [],
+          "source_image_url": "",
+          "image_url": "",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/503187975_18466821646076837_1903386838267563286_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gHInsg0IKKdyi_Oc5My5p4FfogFJ9YrkWv3bbH3LTvAJwiicSaGZijW4VJ8xdUgbnE&_nc_ohc=SAAlnU2kPekQ7kNvwE3HMFT&_nc_gid=0Z5tVWjSn5R5wvhX3hDn3g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af8oM49Fj7Umy3L4qIW0Zu64Xfeq0GVk9JW9PPQE4dKy6Q&oe=6A432438&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/9628724a6f3368b6ce7e.webp",
+          "source_initials": "RY",
+          "categories": [
+            "posts-videos",
+            "events"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動"
+          ],
+          "key": "ig_rei_harmonica:https://www.instagram.com/p/DZ_74jvpj3n/"
+        },
+        {
+          "title": "吹出好心琴 + Ou Frog +｜[伴奏 Accompaniment] 守著陽光守著你｜複音口琴｜Tremolo harmonica｜口琴譜｜口琴教學｜Harmonica tabs 頻道開啟了超級感謝、留言系列，再請多多支持❤😄。 複音…",
+          "headline": "[伴奏 Accompaniment] 守著陽光守著你｜複音口琴｜Tremolo harmonica｜口琴譜｜口琴教學｜Harmonica tabs",
+          "link": "https://www.youtube.com/watch?v=XHquydN9tJc",
+          "source_id": "yt_oufrog",
+          "source": "吹出好心琴 + Ou Frog +",
+          "source_system_name": "歐純伶",
+          "source_profile_url": "https://www.youtube.com/channel/UCYVZf8lsckbde4dRRB0EK8A",
+          "account": "https://www.youtube.com/channel/UCYVZf8lsckbde4dRRB0EK8A",
+          "platform": "youtube",
+          "posted_at": "2026-06-25T04:00:37+00:00",
+          "posted_at_local": "2026-06-25 12:00",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "影片",
+            "公開更新"
+          ],
+          "keyword_matches": [
+            "口琴",
+            "影片",
+            "harmonica"
+          ],
+          "llm_relevant": true,
+          "llm_confidence": 0.95,
+          "llm_labels": [
+            "口琴",
+            "影片",
+            "公開更新"
+          ],
+          "llm_categories": [
+            "posts-videos"
+          ],
+          "llm_reason": "貼文明確為口琴教學影片，包含口琴譜與伴奏，符合口琴影片及公開更新類別。",
+          "text": "[伴奏 Accompaniment] 守著陽光守著你｜複音口琴｜Tremolo harmonica｜口琴譜｜口琴教學｜Harmonica tabs\n頻道開啟了超級感謝、留言系列，再請多多支持❤😄。\n複音口琴 21 孔 ； 節拍器速度90\n觀看口琴示範版，請至頻道演奏影片或開頭資訊卡\nE-mail：tcling.com@gmail.com\n伴奏： 歐老師",
+          "images": [
+            "https://i.ytimg.com/vi/XHquydN9tJc/maxresdefault.jpg"
+          ],
+          "source_image_url": "https://i.ytimg.com/vi/XHquydN9tJc/maxresdefault.jpg",
+          "image_url": "/assets/feed-images/0c832881accdb453ec2a.webp",
+          "source_avatar_url": "https://yt3.googleusercontent.com/zpNQ6PMxz1G01j8vDzQ53R9CJOQvK9USeamGpVffmwo3Gjpm6uktX120aOiTgmtw-fLshswvNA=s900-c-k-c0x00ffffff-no-rj",
+          "avatar_url": "/assets/source-avatars/2241bd394301b93492ed.webp",
+          "source_initials": "OF",
+          "categories": [
+            "posts-videos"
+          ],
+          "category_labels": [
+            "貼文影片"
+          ],
+          "key": "yt_oufrog:XHquydN9tJc"
+        },
+        {
+          "title": "就是吹口琴 陳鴻儀Henry’s Harmonica｜【就是吹口琴Just Play Harmonica 】｜君無愁(台視 孤劍恩仇記 主題曲)｜複音口琴Tremolo Harmonica 演奏版本《C調》 君無愁 (1985 台視 孤劍…",
+          "headline": "【就是吹口琴Just Play Harmonica 】｜君無愁(台視 孤劍恩仇記 主題曲)｜複音口琴Tremolo Harmonica 演奏版本《C調》",
+          "link": "https://www.youtube.com/watch?v=yiv7B9U1seY",
+          "source_id": "yt_henrysharmonica",
+          "source": "就是吹口琴 陳鴻儀Henry’s Harmonica",
+          "source_system_name": "陳鴻儀",
+          "source_profile_url": "https://www.youtube.com/channel/UC7dQryOizHj-cKHV3xw0ASQ",
+          "account": "https://www.youtube.com/channel/UC7dQryOizHj-cKHV3xw0ASQ",
+          "platform": "youtube",
+          "posted_at": "2026-06-25T00:00:06+00:00",
+          "posted_at_local": "2026-06-25 08:00",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "影片"
+          ],
+          "keyword_matches": [
+            "口琴",
+            "harmonica"
+          ],
+          "llm_relevant": true,
+          "llm_confidence": 0.95,
+          "llm_labels": [
+            "口琴",
+            "影片"
+          ],
+          "llm_categories": [
+            "posts-videos"
+          ],
+          "llm_reason": "貼文為口琴演奏者陳鴻儀的複音口琴演奏影片，內容明確涉及口琴演奏，符合公開更新與影片標準。",
+          "text": "【就是吹口琴Just Play Harmonica 】｜君無愁(台視 孤劍恩仇記 主題曲)｜複音口琴Tremolo Harmonica 演奏版本《C調》\n君無愁\n(1985 台視 孤劍恩仇記 主題曲)\n黃仁清 作曲\n黃仁清 作詞\n成 鳳 原唱\n複音口琴演奏版本《C調》",
+          "images": [
+            "https://i.ytimg.com/vi/yiv7B9U1seY/maxresdefault.jpg"
+          ],
+          "source_image_url": "https://i.ytimg.com/vi/yiv7B9U1seY/maxresdefault.jpg",
+          "image_url": "/assets/feed-images/1a626cf68dfe44bae81e.webp",
+          "source_avatar_url": "https://yt3.googleusercontent.com/jRo3PEipmEqPOdl6u-yU-T8hME_tD8ty8dKJo6_cZZyY9Dz9-aPLGdXfwpBf5Y-SR2F0bk4b7Q=s900-c-k-c0x00ffffff-no-rj",
+          "avatar_url": "/assets/source-avatars/11010264a3489f5a5679.webp",
+          "source_initials": "HSH",
+          "categories": [
+            "posts-videos"
+          ],
+          "category_labels": [
+            "貼文影片"
+          ],
+          "key": "yt_henrysharmonica:yiv7B9U1seY"
+        },
         {
           "title": "CY Leo 何卓彥｜人生為自己策劃最大型、耗時、昂貴、複雜的原創音樂計劃，要正式面世了。 《Two Worlds In One》這個計劃已經策劃超過兩年，創作無數作品後最後濃縮到10首原創歌曲，推出人聲和純音樂版本，希望能夠把流行音樂的…",
           "headline": "人生為自己策劃最大型、耗時、昂貴、複雜的原創音樂計劃，要正式面世了。",
@@ -17283,6 +18100,55 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "key": "yt_oufrog:ee-SomEyTjE"
         },
         {
+          "title": "南里沙｜今夜は160回 RJマンスリーライブ、楽しい時間はあっという間。 長く続けているライブですが、マスターの髪にも白いものが増え、私も歳を重ねました。その分、演奏も少しずつ変わってきたように感じます。 次回のRJマンスリーライブは、7…",
+          "headline": "今夜は160回 RJマンスリーライブ、楽しい時間はあっという間。",
+          "link": "https://www.instagram.com/p/DZv9gbPSDcC/",
+          "source_id": "ig_minami_risa",
+          "source": "南里沙",
+          "source_system_name": "南里沙",
+          "source_profile_url": "https://www.instagram.com/minami_risa/",
+          "account": "minami_risa",
+          "platform": "instagram",
+          "posted_at": "Fri, 19 Jun 2026 01:46:17 GMT",
+          "posted_at_local": "2026-06-19 09:46",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "演出",
+            "公開更新"
+          ],
+          "keyword_matches": [],
+          "llm_relevant": true,
+          "llm_confidence": 0.9,
+          "llm_labels": [
+            "口琴",
+            "演出",
+            "公開更新"
+          ],
+          "llm_categories": [
+            "posts-videos"
+          ],
+          "llm_reason": "貼文提及口琴演出（RJマンスリーライブ）並標註 #クロマチックハーモニカ，雖為一般演出但符合口琴公開更新定義。",
+          "text": "今夜は160回 RJマンスリーライブ、楽しい時間はあっという間。\n長く続けているライブですが、マスターの髪にも白いものが増え、私も歳を重ねました。その分、演奏も少しずつ変わってきたように感じます。\n次回のRJマンスリーライブは、7月16日(木)です♬またRJでお会いしましょう😊\n**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**\nさて、急なお知らせですが、\nYouTube生配信 第272回「南里沙のココだけの話」を、\n6月20日（土）夜10時から配信します。\n今回は、私も大好きな ちあきなおみさん特集\nリクエストもお待ちしています♬\nぜひ遊びに来てくださいね☺️\n#クロマチックハーモニカ #南里沙",
+          "images": [
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/726716361_18593549683053761_2802633507180942337_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=MzkyMjYyNDMwOTU3MDg0NDQxOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjE0Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=bKPeSg25NYMQ7kNvwG8sQmE&_nc_oc=AdoP6vYNOKvY-QQHoSKv5ousD5dx5N_kTZTqCYvOgwUEtb1UI68kO3p70mU1sQctg9Q&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af-xNPqMgUwQ28cy403IRkJTQbUqgL4qWRVHoqT-zvLP-g&oe=6A432B52"
+          ],
+          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/726716361_18593549683053761_2802633507180942337_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=MzkyMjYyNDMwOTU3MDg0NDQxOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjE0Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=bKPeSg25NYMQ7kNvwG8sQmE&_nc_oc=AdoP6vYNOKvY-QQHoSKv5ousD5dx5N_kTZTqCYvOgwUEtb1UI68kO3p70mU1sQctg9Q&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af-xNPqMgUwQ28cy403IRkJTQbUqgL4qWRVHoqT-zvLP-g&oe=6A432B52",
+          "image_url": "/assets/feed-images/0c394fb8df3254390b4c.webp",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+          "source_initials": "南里",
+          "categories": [
+            "posts-videos",
+            "events"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動"
+          ],
+          "key": "ig_minami_risa:https://www.instagram.com/p/DZv9gbPSDcC/"
+        },
+        {
           "title": "千賀太郎｜来週の金曜日は 高円寺 JIROKICHIにて. 6月26日 はもにかDOJO 高円寺 JIROKICHI KOTEZ(hca,vo) 千賀太郎(hca,vo) 大西真(b) 松本照夫(dr) ゲスト チェンマイ(hca) キン…",
           "headline": "来週の金曜日は 高円寺 JIROKICHIにて.",
           "link": "https://www.instagram.com/p/DZvXsXjz8u7/",
@@ -17725,6 +18591,53 @@ window.HARMONICA_OBSERVE_FEEDS = {
             "實體活動"
           ],
           "key": "ig_cy_leo:https://www.instagram.com/p/DZraimFkjbm/"
+        },
+        {
+          "title": "南里沙｜先日のYouTube「南里沙のココだけの話」でお届けした、香西かおりさんの「無言坂」・・・♬ 切ない歌詞と美しいメロディーが心に響く名曲です。言葉にできない想いを抱えながら歩く坂道の情景が目に浮かんできます。 フルバージョンはYo…",
+          "headline": "先日のYouTube「南里沙のココだけの話」でお届けした、香西かおりさんの「無言坂」・・・♬",
+          "link": "https://www.instagram.com/p/DZr7enrymwF/",
+          "source_id": "ig_minami_risa",
+          "source": "南里沙",
+          "source_system_name": "南里沙",
+          "source_profile_url": "https://www.instagram.com/minami_risa/",
+          "account": "minami_risa",
+          "platform": "instagram",
+          "posted_at": "Wed, 17 Jun 2026 12:26:32 GMT",
+          "posted_at_local": "2026-06-17 20:26",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "演出",
+            "公開更新"
+          ],
+          "keyword_matches": [],
+          "llm_relevant": true,
+          "llm_confidence": 0.9,
+          "llm_labels": [
+            "口琴",
+            "演出",
+            "公開更新"
+          ],
+          "llm_categories": [
+            "events"
+          ],
+          "llm_reason": "貼文提及口琴（#クロマチックハーモニカ）的定期現場演出（マンスリーライブ），並含演出詳情。",
+          "text": "先日のYouTube「南里沙のココだけの話」でお届けした、香西かおりさんの「無言坂」・・・♬\n切ない歌詞と美しいメロディーが心に響く名曲です。言葉にできない想いを抱えながら歩く坂道の情景が目に浮かんできます。\nフルバージョンはYouTubeでぜひご覧ください🎶\n明日6月18日（木）は、毎月第三木曜日にお届けしている兵庫・西宮北口 RJ&BME’sでのマンスリーライブ。「無言坂」もお届けしようと思っています。RJでお待ちしています🫶\nRJマンスリーライブ\n兵庫・RJ&BME’s\n2026年6月18日(木)\nOpen 19時 / Start 20時\n2000円(ワンドリンク以上のご注文をお願い致します)\nご予約・お問い合わせは\n【RJ&BME’s】\n0798-63-8018\nrjbmes_info@yahoo.co.jp\n#クロマチックハーモニカ #南里沙",
+          "images": [],
+          "source_image_url": "",
+          "image_url": "",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+          "source_initials": "南里",
+          "categories": [
+            "posts-videos",
+            "events"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動"
+          ],
+          "key": "ig_minami_risa:https://www.instagram.com/p/DZr7enrymwF/"
         },
         {
           "title": "CY Leo 何卓彥｜Cy Leo 何卓彥 - 《在兩個心中間坐下》Two Worlds ft. Ivana Wong 王菀之 Official Music Video 《在兩個心中間坐下》 Cy Leo ft. Ivana Wong 來…",
@@ -19512,6 +20425,56 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "key": "ig_fanhsiaoyi:https://www.instagram.com/p/DZZF__0n-Zx/"
         },
         {
+          "title": "南里沙｜昨日は大阪・守口門真工業クラブにお招きいただき、講演とクロマチックハーモニカの演奏をさせていただきました。 講演では「エンタメ業界の変遷とこれから」というテーマで、音楽業界にも急速に広がる生成AIについても触れながら、これからの時…",
+          "headline": "昨日は大阪・守口門真工業クラブにお招きいただき、講演とクロマチックハーモニカの演奏をさせていただきました。",
+          "link": "https://www.instagram.com/p/DZY48HrkiSC/",
+          "source_id": "ig_minami_risa",
+          "source": "南里沙",
+          "source_system_name": "南里沙",
+          "source_profile_url": "https://www.instagram.com/minami_risa/",
+          "account": "minami_risa",
+          "platform": "instagram",
+          "posted_at": "Wed, 10 Jun 2026 02:38:54 GMT",
+          "posted_at_local": "2026-06-10 10:38",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "演出",
+            "公開更新"
+          ],
+          "keyword_matches": [],
+          "llm_relevant": true,
+          "llm_confidence": 0.8,
+          "llm_labels": [
+            "口琴",
+            "演出",
+            "公開更新"
+          ],
+          "llm_categories": [
+            "posts-videos"
+          ],
+          "llm_reason": "貼文提及「クロマチックハーモニカ」（半音階口琴）的演奏，並由口琴演奏者分享公開演出內容，符合口琴相關更新。",
+          "text": "昨日は大阪・守口門真工業クラブにお招きいただき、講演とクロマチックハーモニカの演奏をさせていただきました。\n講演では「エンタメ業界の変遷とこれから」というテーマで、音楽業界にも急速に広がる生成AIについても触れながら、これからの時代をどのように生き抜いていくのか、自分らしい価値をどのように届けていくのかについてお話しさせていただきました。\n技術は日々進化していますが、人の心を動かす音楽や、人と人とのつながりの大切さは、どの業界も変わらないと感じています。皆様が真剣に耳を傾けてくださり、私自身も多くの学びをいただく時間となりました。\n講演の後は、クロマチックハーモニカの演奏をお届けしました。温かい拍手と笑顔に包まれながら、楽しく演奏することができました。音楽の持つ力と、人とのご縁の大切さを改めて感じる一日となりました。\n本当にありがとうございました♬皆様のますますのご発展とご活躍を心よりお祈りしております。またお会いできる日を楽しみにしております😊",
+          "images": [
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/720146317_18590988805053761_253629240567614915_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkxNjEyODc4ODYxMDExMTgwMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=lwl4fKBZa7YQ7kNvwGW4jOv&_nc_oc=Adp1EHM5BE84YydynHTNkyxyZyG9U6JJtbYAV44C0ZfAaAVNgrqMnfWDU3_6Odzd-70&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af_kjIcHgSZY1h9-z-yGgKQF88iBPDT3OjBCAkm2OSWTOg&oe=6A432FC0",
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/720341719_18590988814053761_9061616952912465027_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=MzkxNjEyODc5MTkwNjkyODY0OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjE2MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ijeaA3nHB-AQ7kNvwE8zSWn&_nc_oc=Adp5mjJdsIRd0cI0iIiigMT_ZP6qLnlS1mMbLX45U8PCJltfYIrpIXKIzFB5cqZd-IE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af-MKOrK4xdMtQ30sSuLQ3BidUA0QlBQSWIrzoxGbRxRGQ&oe=6A432961"
+          ],
+          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/720146317_18590988805053761_253629240567614915_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkxNjEyODc4ODYxMDExMTgwMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=lwl4fKBZa7YQ7kNvwGW4jOv&_nc_oc=Adp1EHM5BE84YydynHTNkyxyZyG9U6JJtbYAV44C0ZfAaAVNgrqMnfWDU3_6Odzd-70&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af_kjIcHgSZY1h9-z-yGgKQF88iBPDT3OjBCAkm2OSWTOg&oe=6A432FC0",
+          "image_url": "/assets/feed-images/1d50432220e22f3b3d8a.webp",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+          "source_initials": "南里",
+          "categories": [
+            "posts-videos",
+            "events"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動"
+          ],
+          "key": "ig_minami_risa:https://www.instagram.com/p/DZY48HrkiSC/"
+        },
+        {
           "title": "蔡明憲｜好吹就再買再開一把，HOHNER ACE 48｜[ DMing Studio ] DMing Studio ｜口琴教學（校隊 / 社團 / 家教）、口琴維修 蔡明憲，天狼星口琴樂團半音階口琴演奏家，專職教學與 Laelaps 製琴…",
           "headline": "好吹就再買再開一把，HOHNER ACE 48｜[ DMing Studio ]",
           "link": "https://www.youtube.com/watch?v=bzYAlPeJcHc",
@@ -19896,6 +20859,55 @@ window.HARMONICA_OBSERVE_FEEDS = {
             "學生社團"
           ],
           "key": "yt_chaotengchang:3S0kJ3G1Sgg"
+        },
+        {
+          "title": "南里沙｜昨日は芦屋西教会でクロマチックハーモニカコンサートを開催いたしました♬あいにくの雨模様にもかかわらず、たくさんのお客様にお越しいただき、ありがとうござ... 昨日は芦屋西教会でクロマチックハーモニカコンサートを開催いたしました♬あ…",
+          "headline": "昨日は芦屋西教会でクロマチックハーモニカコンサートを開催いたしました♬あいにくの雨模様にもかかわらず、たくさんのお客様にお越しいただき、ありがとうござ...",
+          "link": "https://www.instagram.com/p/DZTdx2oyGen/",
+          "source_id": "ig_minami_risa",
+          "source": "南里沙",
+          "source_system_name": "南里沙",
+          "source_profile_url": "https://www.instagram.com/minami_risa/",
+          "account": "minami_risa",
+          "platform": "instagram",
+          "posted_at": "Mon, 08 Jun 2026 00:07:29 GMT",
+          "posted_at_local": "2026-06-08 08:07",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "演出",
+            "音樂會"
+          ],
+          "keyword_matches": [],
+          "llm_relevant": true,
+          "llm_confidence": 0.95,
+          "llm_labels": [
+            "口琴",
+            "演出",
+            "音樂會"
+          ],
+          "llm_categories": [
+            "events"
+          ],
+          "llm_reason": "貼文明確提及在芦屋西教会舉辦「クロマチックハーモニカコンサート」（半音階口琴音樂會），並分享演出感受，符合口琴演出與音樂會相關標準。",
+          "text": "昨日は芦屋西教会でクロマチックハーモニカコンサートを開催いたしました♬あいにくの雨模様にもかかわらず、たくさんのお客様にお越しいただき、ありがとうござ...\n昨日は芦屋西教会でクロマチックハーモニカコンサートを開催いたしました♬あいにくの雨模様にもかかわらず、たくさんのお客様にお越しいただき、ありがとうございました。\n演奏のたびにいただく温かい拍手は、私にとって何よりの励みです。終演後には、「よかったですよ」「また来てくださいね」と\n嬉しいお声をたくさんいただき、幸せな時間となりました。\n私は小学校から大学までキリスト教の学校で学びました。そのため、教会の雰囲気や礼拝堂の静かな空気に触れると、どこか懐かしい気持ちになります。\n雨音に包まれながら響くクロマチックハーモニカの音色は、いつもとはまた違った温かさがありました。お越しくださいました皆さま、本当にありがとうございました。またお会いできることを、楽しみにしております😊",
+          "images": [
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/719609576_18590423206053761_1448590298453272273_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzkxNDYwMzQ3MDM4NDU1NTk0Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FN8kJiDt30EQ7kNvwFXJgvp&_nc_oc=AdrNv-aB6_-5-_hx1VzA9Lyl86j721Ldo6mugZ0hx7UPEGVPn1sB2mHTvW32Jooi87I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af-pBA5EwBFMfNlAlKFYFDiPyxYWYUttUplvmGDibsJMmg&oe=6A432202"
+          ],
+          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/719609576_18590423206053761_1448590298453272273_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzkxNDYwMzQ3MDM4NDU1NTk0Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FN8kJiDt30EQ7kNvwFXJgvp&_nc_oc=AdrNv-aB6_-5-_hx1VzA9Lyl86j721Ldo6mugZ0hx7UPEGVPn1sB2mHTvW32Jooi87I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af-pBA5EwBFMfNlAlKFYFDiPyxYWYUttUplvmGDibsJMmg&oe=6A432202",
+          "image_url": "/assets/feed-images/e05409a9061b22524c66.webp",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+          "source_initials": "南里",
+          "categories": [
+            "posts-videos",
+            "events"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動"
+          ],
+          "key": "ig_minami_risa:https://www.instagram.com/p/DZTdx2oyGen/"
         },
         {
           "title": "Marcos Coll｜Marcos Coll Band feat Emiliano Juarez Sa. 15.08.2026 Marcos Coll Quintett 21:00 Uhr / 9:00 PM Marcos Coll (…",
@@ -20724,6 +21736,49 @@ window.HARMONICA_OBSERVE_FEEDS = {
             "學生社團"
           ],
           "key": "threads_fanhsiaoyi:https://www.threads.com/t/DZPFbhwHGEv"
+        },
+        {
+          "title": "南里沙｜先週のYouTube生配信「南里沙のココだけの話」今日の1曲でお届けした『氷雨』。切なく美しいメロディーを、クロマチックハーモニカとEWI で演奏しました。フルバ... 先週のYouTube生配信「南里沙のココだけの話」今日の1曲…",
+          "headline": "先週のYouTube生配信「南里沙のココだけの話」今日の1曲でお届けした『氷雨』。切なく美しいメロディーを、クロマチックハーモニカとEWI で演奏しました。フルバ...",
+          "link": "https://www.instagram.com/p/DZOjnZdSG3T/",
+          "source_id": "ig_minami_risa",
+          "source": "南里沙",
+          "source_system_name": "南里沙",
+          "source_profile_url": "https://www.instagram.com/minami_risa/",
+          "account": "minami_risa",
+          "platform": "instagram",
+          "posted_at": "Sat, 06 Jun 2026 02:45:55 GMT",
+          "posted_at_local": "2026-06-06 10:45",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "影片"
+          ],
+          "keyword_matches": [],
+          "llm_relevant": true,
+          "llm_confidence": 0.9,
+          "llm_labels": [
+            "口琴",
+            "影片"
+          ],
+          "llm_categories": [
+            "posts-videos"
+          ],
+          "llm_reason": "貼文提及使用「クロマチックハーモニカ」（半音階口琴）進行演奏，並分享YouTube影片連結，符合口琴演奏者公開更新與口琴影片之相關性。",
+          "text": "先週のYouTube生配信「南里沙のココだけの話」今日の1曲でお届けした『氷雨』。切なく美しいメロディーを、クロマチックハーモニカとEWI で演奏しました。フルバ...\n先週のYouTube生配信「南里沙のココだけの話」今日の1曲でお届けした『氷雨』。切なく美しいメロディーを、クロマチックハーモニカとEWI で演奏しました。フルバージョンはYouTubeでぜひお楽しみください♬\n**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**\n今週はチキンガーリックステーキpresents「まちなかアカペラ＆マルシェ」からスタートし、東京でのレコーディング、リハーサル、レッスン、打ち合わせなどなど…✨充実した1週間を過ごしておりました😊\nそして今夜、6月6日(土)よる10時〜は、YouTube生配信\n「南里沙のココだけの話」📺第270回は『青春を彩った曲特集』YouTubeでお会いしましょう✨リクエストもお待ちしております🫶",
+          "images": [],
+          "source_image_url": "",
+          "image_url": "",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+          "source_initials": "南里",
+          "categories": [
+            "posts-videos"
+          ],
+          "category_labels": [
+            "貼文影片"
+          ],
+          "key": "ig_minami_risa:https://www.instagram.com/p/DZOjnZdSG3T/"
         },
         {
           "title": "陳瑤容 Yora Chen｜Zigeuner 在德文中是吉普賽人的意思。這個民族幾百年來在歐洲四處流浪，沒有自己的國家，到處被驅趕、被歧視。 但他們沒有因此變得卑微，反而發展出了一種極度獨特、狂放、愛恨分明的音樂風格。薩拉沙泰就是在匈牙利…",
@@ -22162,6 +23217,58 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "key": "ig_aidennevelyn:https://www.instagram.com/p/DZAYKNaj9gt/"
         },
         {
+          "title": "南里沙｜昨日は兵庫県・西神プレンティ広場で開催された「まちなかアカペラ＆にぎわいマルシェ」に出演させていただきました☀️お聴きくださった皆さま、本当にありがと... 昨日は兵庫県・西神プレンティ広場で開催された「まちなかアカペラ＆にぎわい…",
+          "headline": "昨日は兵庫県・西神プレンティ広場で開催された「まちなかアカペラ＆にぎわいマルシェ」に出演させていただきました☀️お聴きくださった皆さま、本当にありがと...",
+          "link": "https://www.instagram.com/p/DY_HTvFSNGz/",
+          "source_id": "ig_minami_risa",
+          "source": "南里沙",
+          "source_system_name": "南里沙",
+          "source_profile_url": "https://www.instagram.com/minami_risa/",
+          "account": "minami_risa",
+          "platform": "instagram",
+          "posted_at": "Sun, 31 May 2026 02:46:16 GMT",
+          "posted_at_local": "2026-05-31 10:46",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "演出",
+            "比賽"
+          ],
+          "keyword_matches": [],
+          "llm_relevant": true,
+          "llm_confidence": 0.9,
+          "llm_labels": [
+            "口琴",
+            "演出",
+            "比賽"
+          ],
+          "llm_categories": [
+            "events",
+            "posts-videos"
+          ],
+          "llm_reason": "貼文提及口琴比賽（FIHハーモニカコンテスト本選）及口琴演出（アカペラ出演），並標記口琴相關標籤。",
+          "text": "昨日は兵庫県・西神プレンティ広場で開催された「まちなかアカペラ＆にぎわいマルシェ」に出演させていただきました☀️お聴きくださった皆さま、本当にありがと...\n昨日は兵庫県・西神プレンティ広場で開催された「まちなかアカペラ＆にぎわいマルシェ」に出演させていただきました☀️お聴きくださった皆さま、本当にありがとうございました。\nアカペラグループ・チキンガーリックステーキの皆さんとご一緒し、青空の下で楽しい時間を過ごすことができました。お客様の笑顔や温かい拍手に包まれた、とても素敵な一日でした✨\nチキンガーリックステーキのお兄様方、お疲れさまでした！\nまたご一緒できる日を楽しみにしています😊\n**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**\nそして昨日は東京でFIHハーモニカコンテスト本選も開催されました。ご出場された皆さま、本当にお疲れさまでした。ハーモニカを愛する皆さまの今後のさらなるご活躍を心よりお祈りしております♬\n**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**\nそして本日、東京入り。レコーディングの為スタジオに向かっています。東京はいつも何処かが工事中😵‍💫\n#クロマチックハーモニカ",
+          "images": [
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/710665871_18588046228053761_5037529535620441484_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkwODg3NTE0NDEzMTAzOTY2Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FjsdRU0aZa8Q7kNvwFEYTwQ&_nc_oc=AdoX870JRUFAsmAQj3c8vksiIM9CR85MPS5Xqm90PDjSTKPUUApAttqOsQNV31adSN0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af9znIIcoTId5XnLwouwhyHzp2u51TkPmd9BkzgGkgkcTg&oe=6A43168F"
+          ],
+          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/710665871_18588046228053761_5037529535620441484_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkwODg3NTE0NDEzMTAzOTY2Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FjsdRU0aZa8Q7kNvwFEYTwQ&_nc_oc=AdoX870JRUFAsmAQj3c8vksiIM9CR85MPS5Xqm90PDjSTKPUUApAttqOsQNV31adSN0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af9znIIcoTId5XnLwouwhyHzp2u51TkPmd9BkzgGkgkcTg&oe=6A43168F",
+          "image_url": "/assets/feed-images/80ccd5830c98279dfcbd.webp",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+          "source_initials": "南里",
+          "categories": [
+            "posts-videos",
+            "events",
+            "opportunities"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動",
+            "補助比賽"
+          ],
+          "key": "ig_minami_risa:https://www.instagram.com/p/DY_HTvFSNGz/"
+        },
+        {
           "title": "山下伶 Rei Yamashita｜昨日開催された「FIHハーモニカコンテスト」にて、山下教室の生徒さんたちが素晴らしい賞を受賞されました！🎉 🏆アンサンブル部門 2位 Fabulous Bond （中西顕士さん・田口洋介さん・渡辺知紗さ…",
           "headline": "昨日開催された「FIHハーモニカコンテスト」にて、山下教室の生徒さんたちが素晴らしい賞を受賞されました！🎉",
           "link": "https://www.instagram.com/p/DY-6vXqE9k9/",
@@ -23064,242 +24171,9 @@ window.HARMONICA_OBSERVE_FEEDS = {
             "補助比賽"
           ],
           "key": "ig_jangli_harmonica:https://www.instagram.com/p/DY1u0Onyxuh/"
-        },
-        {
-          "title": "蔡明憲｜五月底行程太瘋狂了，差不多時間要逃去海邊充電一下。 暑期這幾趟國外演出行程，我看全程底片機打到底好了，來消滅庫存的底片們。 顏色我真的是太愛！",
-          "headline": "五月底行程太瘋狂了，差不多時間要逃去海邊充電一下。",
-          "link": "https://www.instagram.com/p/DY0zgRVErvr/",
-          "source_id": "ig_damingtsai",
-          "source": "蔡明憲",
-          "source_system_name": "蔡明憲",
-          "source_profile_url": "https://www.instagram.com/damingtsai/",
-          "account": "damingtsai",
-          "platform": "instagram",
-          "posted_at": "Wed, 27 May 2026 02:18:45 GMT",
-          "posted_at_local": "2026-05-27 10:18",
-          "seen_at": "2026-06-24T16:13:01.085859+00:00",
-          "matched_keywords": [
-            "口琴",
-            "演出",
-            "公開更新"
-          ],
-          "keyword_matches": [
-            "演出"
-          ],
-          "llm_relevant": true,
-          "llm_confidence": 0.9,
-          "llm_labels": [
-            "口琴",
-            "演出",
-            "公開更新"
-          ],
-          "llm_categories": [
-            "events"
-          ],
-          "llm_reason": "貼文提及口琴演奏者蔡明憲的暑期國外演出行程，符合口琴演出者公開更新條件。",
-          "text": "五月底行程太瘋狂了，差不多時間要逃去海邊充電一下。\n暑期這幾趟國外演出行程，我看全程底片機打到底好了，來消滅庫存的底片們。\n顏色我真的是太愛！",
-          "images": [
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707723635_18611518519001018_217414097086257949_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkwNTk3MjI1NTE2NzQyMDgzMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=-HPSEJ1D0MgQ7kNvwF6PRRh&_nc_oc=AdrgYptpI5FIg_4xyPrJdJF1I9tD2W6hcJ30p1Xe7HFcfcNDDLl3cbOwtZ3Rkdc39q8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af-87Fs4ZcV8KZobeSFx64Mun6rFtiQmn1NH7e7Maopz1g&oe=6A41CB17",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707445645_18611518528001018_7020333393282344287_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkwNTk3MjI1ODY0ODgxMjk4OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=u-ox_2WhkZoQ7kNvwFGmg1Z&_nc_oc=AdqWPZY9nbsTq3p6mF1y8kMqkL01gIiElDy1u15Bw8UyOlRmnRyblUG6XB5rDhaQbQE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af80In7k1opYicepQPAwtRNMSu7bO65aW0wjpUXGOozecw&oe=6A41BE9D",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707476207_18611518537001018_4138615978449806616_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkwNTk3MjI2MTE4MjIyNDEzOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=4E4i3fHeXmQQ7kNvwGuMzM1&_nc_oc=Adr08yabc1D3zqFZDwtLBR5AHmHtigrgkpyCJ5JJPHYjKjL_Yw-SXE84TXORMtskaD4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af_4b2GCN9_0F9Gw-SLga9nEhX7sh1EtA5GkgoAL22g-dA&oe=6A41D75C",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/708242805_18611518573001018_998366212563370222_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=MzkwNTk3MjI2NTU5NDQ3NjY1MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=HviyIZ8CaGUQ7kNvwF378hc&_nc_oc=AdoYFqryPnNt_IZ_YBwi--modp_DEvAJmmSnv5FCseru8Lu8vlvl0HSADJZOwEpAQ-M&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af8h4iSniGMWqI2og-dHtydBvjyg1yzbtEIiySoTJZlnuA&oe=6A41D45E",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707815857_18611518549001018_6817408224665740389_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=MzkwNTk3MjI2NzU5OTUwNTgxNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=y3WQcsKOc0MQ7kNvwHfrIwv&_nc_oc=AdonD1sqFgUaWq03aFYjB5sQKnIH-xsMyXLFppDjAQfcOelja9NTe3AxBy4CdDjNq8I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af9Vu5LKN01bO0GyAFYju5mEFVS8815edTk7-W6Qt2rq6Q&oe=6A41D3AD",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/708193151_18611518558001018_3448242244921983628_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzkwNTk3MjI3MDUzNTQxODU0OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=tefNQ8r-dIUQ7kNvwHNhkfI&_nc_oc=AdpIOQgaRfHatScjNaFuLCEb-uWeHaj8Za4KLqKiEtsPEXdWzXnHVBH-VN3jliBLI7w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af-rZVHjYTDoKW2vc5pr2l37Pyc565vOMqjK6IQb3LtjqA&oe=6A41CA0C",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707838604_18611518588001018_5738491509383458628_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=MzkwNTk3MjI3MzM3MDc3NTUxNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ZBlE7ZjC5g4Q7kNvwFS4ZUX&_nc_oc=AdonBeP63ovgYY3anET4xXEtYWGderP-SbeFNYqnNuOf62ypucgntbCmLCgoaVDE1L4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af_e9D2tTsITNdVqyUoAflVG43wSzRiHWrs5LI9_ePjusw&oe=6A41B724",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/709034631_18611518591001018_1214885743152818104_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkwNTk3MjI3NTQ1OTU3NzY3Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=63k6qozIsugQ7kNvwGK2A2-&_nc_oc=AdoFglm4mzxTSm3fRj8Mii2YgIyr9AHPDq062Abhgj2ANg3bJHo901hzy3G2x2vkZYg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af_XdPbYfVU-VC-BER563Bwgk4dEzE49nKbqTEBBgaPbdQ&oe=6A41B7B2",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706111228_18611518615001018_7260987853133363865_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkwNTk3MjI3OTI3NjI1NzQ3NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=YUejRBT9zokQ7kNvwG3Kq3K&_nc_oc=AdpXESA3423haX5LVsztS3mDpX9F4OYAjK_ZLPM5vhUCIYs_qg1cjKhZbHduhJhGYvk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af9MllSzuXiaKF0yzv8LocTjRaFdm1gKiAQ4Tp581RErcQ&oe=6A41BD49",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706133257_18611518612001018_2548037943077320562_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=MzkwNTk3MjI4MTk2OTA3OTg2NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=2dKwAu8gD-sQ7kNvwH5CfnJ&_nc_oc=AdpeSA1VSZz36l4X30jNFxRCcbxy0gH2dmeEILNLBYJmHbfootC0IDN0rw5GHjOH8nY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af_uY-awjrQ_mW4VZlCBLY4vaShlYZQ9Fq3uBiyuVuwqpw&oe=6A41B8D4",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706089366_18611518618001018_7323611441455926117_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=MzkwNTk3MjI4NDgwNDUwMTc1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=zciLnhjjYSkQ7kNvwE21zh1&_nc_oc=AdqR3jvkLIcsxxYeZ7TWE26KrYn5mVY3qlqd260QxYxyTu11v_W_u8J-Vx-98I3dgio&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af_EhFOZOa4KRi4ResyzQ5dB-a6LQ0wHRkwBCmi557vgPw&oe=6A41DDEE"
-          ],
-          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707723635_18611518519001018_217414097086257949_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkwNTk3MjI1NTE2NzQyMDgzMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=-HPSEJ1D0MgQ7kNvwF6PRRh&_nc_oc=AdrgYptpI5FIg_4xyPrJdJF1I9tD2W6hcJ30p1Xe7HFcfcNDDLl3cbOwtZ3Rkdc39q8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=I3pl2UO_6_uilQYUaAiTzw&_nc_ss=7a22e&oh=00_Af-87Fs4ZcV8KZobeSFx64Mun6rFtiQmn1NH7e7Maopz1g&oe=6A41CB17",
-          "image_url": "/assets/feed-images/863e40577925073e0fb4.webp",
-          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/452992890_468289262797164_2736951104040571947_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42NDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gGYIbYK9PPOFDvAtC39IafSqpmZDStnMLnsF-4U7_XVRet68JUCTL6glvhElFIpE2k&_nc_ohc=XgtgrBxqV8gQ7kNvwEU_gfH&_nc_gid=LhPcE4fXVG5ck9LL8AbWUQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af9lJYaopJhGMll1J98Hv1ur_L50QwF0NXXTFAO7XqUBaA&oe=6A41CD3C&_nc_sid=8b3546",
-          "avatar_url": "/assets/source-avatars/bf2f349c5f4c1ca4392a.webp",
-          "source_initials": "蔡明",
-          "categories": [
-            "posts-videos",
-            "events"
-          ],
-          "category_labels": [
-            "貼文影片",
-            "實體活動"
-          ],
-          "key": "ig_damingtsai:https://www.instagram.com/p/DY0zgRVErvr/"
-        },
-        {
-          "title": "茱蒂口琴樂團 Judy's Harmonica Ensemble｜上週很榮幸受邀參加第一屆甘肅天水口琴藝術展演，擔任評審與演出嘉賓。 在所有活動正式開始之前，我們來到中華人文始祖伏羲氏的廟前，與眾人共同參與祭典。非常感謝東方鼎孔總的盛情邀…",
-          "headline": "上週很榮幸受邀參加第一屆甘肅天水口琴藝術展演，擔任評審與演出嘉賓。",
-          "link": "https://www.instagram.com/p/DYzl0BolM5O/",
-          "source_id": "ig_judys_harmonica_ensemble",
-          "source": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "source_system_name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "source_profile_url": "https://www.instagram.com/judys.harmonica.ensemble/",
-          "account": "judys.harmonica.ensemble",
-          "platform": "instagram",
-          "posted_at": "Tue, 26 May 2026 14:59:52 GMT",
-          "posted_at_local": "2026-05-26 22:59",
-          "seen_at": "2026-06-24T16:13:01.085859+00:00",
-          "matched_keywords": [
-            "口琴",
-            "演出",
-            "音樂會",
-            "公開更新"
-          ],
-          "keyword_matches": [
-            "口琴",
-            "演出"
-          ],
-          "llm_relevant": true,
-          "llm_confidence": 0.95,
-          "llm_labels": [
-            "口琴",
-            "演出",
-            "音樂會",
-            "公開更新"
-          ],
-          "llm_categories": [
-            "events"
-          ],
-          "llm_reason": "貼文明確描述口琴樂團受邀參加口琴藝術展演、擔任評審與演出嘉賓，並分享演出過程與感受，屬於口琴演出活動的公開更新。",
-          "text": "上週很榮幸受邀參加第一屆甘肅天水口琴藝術展演，擔任評審與演出嘉賓。\n在所有活動正式開始之前，我們來到中華人文始祖伏羲氏的廟前，與眾人共同參與祭典。非常感謝東方鼎孔總的盛情邀約，讓我們有幸從中門步入。所謂「開中門」，是中國傳統禮儀中最高規格的迎賓之禮，古時只在重要祭典或迎接貴賓時才會開啟，象徵著至高的尊重。能夠以這樣珍貴的方式踏入伏羲廟實在意義非凡，與伏羲一同見證首屆藝術展演的序幕，也祈願祂庇佑天水口琴的發展。\n兩晚的戶外演出，老天格外賞臉，巧妙地讓我們避開了雨水。特別為此次活動準備的《向陽花》，也獲得了觀眾們熱烈的迴響與喜愛。\n感謝主辦單位、東方鼎孔總及全體工作人員的用心籌辦，也謝謝從各地遠道而來支持的觀眾們！能夠親身見證一個地方在口琴藝術上的成長，心中滿是感動！期待下次再會！\n#天水口琴藝術展演 #茱蒂口琴樂團",
-          "images": [
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707668454_18009948536880937_1227289577575056096_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkwNTYzMDg5NTE5MjE1NTU3MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=z0Zttpyu_FUQ7kNvwHenqoV&_nc_oc=AdowCVPlCLX6gGtwLJJJVDxipsjvohG1sjG4F70f-sEh-Zz-eDuPoQZN_tl7sDeNhm8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af84BsdQhCcdIqWK1nLezBtM-mjlsZ3dhBv_HqL17dGJcA&oe=6A41B8F0",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707693612_18009948551880937_3100314505772698982_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTYzMTAwODAzNTg1NTYyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNDAwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=zDCrvx-s-UsQ7kNvwEw8WVS&_nc_oc=AdpuJXbUWmuIGQ0Cy_cXkA1SMfY2fOgpG93pkabBEqmx4_xLGfRva-pGvnH0wLskRoc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af-Bldgw0NJGiRCoMJMI9b1XtobRYRBNWhiAKQFZ-GHC0g&oe=6A41B5E6",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/708068049_18009948569880937_8049976574653608139_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=MzkwNTYzMTExNDk0MDM4MDI2Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=DSASYCl9b3sQ7kNvwHC3te9&_nc_oc=Adp6bAnNomVTIld6jnh5kVAqLI9KnWufcFCh1SzGRMN8Qn39napglpRQ17mEEtiL4UQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af86bF1fqBEe88w8hUQHvZrFOOEUJznpD34sX7cCVd_JZQ&oe=6A41D423",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707153884_18009948581880937_9040985531415077830_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=MzkwNTYzMTEyMTg3NzUyNTE5Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=zovI9xOePCsQ7kNvwFZrBAG&_nc_oc=Adpn7rAQ7eqWgqY3v8vsNFV21mlIQZa2KsRirE9zF8YRx8yEqD-wb0FWWnubDXx32Jg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af-JKph2a1NOCT6Z0xX8NiOgJkeK8xu0p2RceUgAq-N8hA&oe=6A41C453",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707781380_18009948590880937_5869001361497333455_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=MzkwNTYzMTEzMjEwMzQzNzYyMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=I_LMw3qT3ioQ7kNvwGWWSVv&_nc_oc=AdrPLSJq0_ANoYlkgkn6IP1xJH1oRj9poC_Z88FXIr4L61BHuDW93jO3HuI3u53qI-A&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af8rV99FNIwiVLzycUkx-gq2JJSdXZiiHB4Ns2wvBX3M8Q&oe=6A41E895",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707407198_18009948617880937_6920383141395755124_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkwNTYzMTIyNzA3OTE1MjQwOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=VLL75JqQL8IQ7kNvwGYpPBg&_nc_oc=Adq3ieEU7_vCMRmV60X9tJhGDruEt7Jh7Hub2TnFX5YJUjyQQ7K8ybk_qNa7mWSkqBE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af8xhTam7VwkliwE6xHtyLC_lKJHBc8MLQ4aH0Oj2Kfmbg&oe=6A41D4D5",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706727001_18009948698880937_8298991397270191757_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=MzkwNTYzMTI0Njg0MjY5NjE0OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=DWZVyfMRv4oQ7kNvwGVdWto&_nc_oc=AdrlnvIGCmvy71zQbOvOBLp2H5bNr3pRwn80VGk0DQFDqGCkKXsU0nKJdNSG_HhNTcA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af-JpbLINXdOMtEe9rdAIVycMfMr38wdxQAODu9ZINMSDA&oe=6A41DFFA",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707209629_18009948707880937_3210352101963797991_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkwNTYzMTI1MjM2MjQzNjU5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=78YQlq1-nYUQ7kNvwHR82fj&_nc_oc=AdoADrU-Y_mBfzxq01JIpL21ZX54aC-skmA0D7IzFBl9tjLTaoO203u-NNO81uO5op8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af-1250B46-s6NyYtiP6drM-ihJsyc_VEMUtGDJeQWoQog&oe=6A41E6B5",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707678415_18009948719880937_8537277677834414094_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkwNTYzMTI1ODIwMDg2ODk1OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=NZRL1yJBbw8Q7kNvwGM14Id&_nc_oc=AdqVEziIpH9UYBqGOOxwyztsFgy9ufS1w1WA-3rW4D4deEJDiXVmTNixDlnQXJnxLbM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af9EgplCuPMdcXJgFs_0J26noj9ONSWjMxqd_51r-APYoQ&oe=6A41EAB5",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706704356_18009948728880937_4177810212628805460_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkwNTYzMTI2NDM5MTY1MzE1NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=2XxG7BAKQToQ7kNvwEk4uwF&_nc_oc=AdqTYmYg_IR0Vxls34hgWc_Elyp1W9D0GMX_eTXTNBPkPvSGk0N8yVE2MsVC567hAjs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af8jgP3CkGNl7maoK4kQ3McxWCtL3mRdV-yjWFdIuARpsw&oe=6A41CF0F",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707114194_18009948737880937_149221783733293250_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkwNTYzMTI3MDEyOTYxODMyNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=S2NydxhujlgQ7kNvwHpw_OH&_nc_oc=AdrLKI-nG08IHTcBKwEjALfgb8bYqDC72cm0bkHaU03uAs5_7T9ZKhOjW4aOiFRxOrc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af9q2f0TWD-klgc4M5nBDY9b684RTkxQeM_Ea_7ImO1Wjw&oe=6A41CBFA",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/709507617_18009948746880937_443501374645670757_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTYzMTI3NjE3NzU1ODY0Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=C_9MuWorjL8Q7kNvwFyKdXG&_nc_oc=AdovcahJnuzxCSiM4N1OoghAaNCDFrgK_oOj-8X-iqOsPNiS2J3Mlv8BXbuETfsx_JE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af_FLGcg1827kQnHzX4MVoWhy-uBVrr9CXDM-0VUwzLuRg&oe=6A41BBA2",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707763422_18009948755880937_8902729055608870887_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=MzkwNTYzMTI4MTk2NTg5NDc5NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Zs0cSSJaVmcQ7kNvwGdHPFT&_nc_oc=AdrgA5ZHmdNzEFz4HhcBchT3IQ3ifQff3CVwZVUoENrDKR4QfAQcOd7l8Thsp05lfB0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af-0NeXYOgSdeZroA-1aAZKqjPWrPtDee8e7bhukxXfKdQ&oe=6A41DFEB",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706217455_18009948767880937_8635415927906557941_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=MzkwNTYzMTI4NzUzNTkxNTQ4Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ZrvWOHtCjoQQ7kNvwHB0Ll8&_nc_oc=Adpe_IYbw-0BMaK0gmqQJObis7hg5ELq3gXjT1bP0DuMhydbyBnOFcYsuTOmSYUgpy8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af9L9YUIOT2epnj5EuPsW1bUBEoliwbDyVIb1zVrsvJ92g&oe=6A41C515",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706704807_18009948776880937_84746434175646439_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkwNTYzMTI5NDE3MTMxMDk1NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=rWVMpzwmh2kQ7kNvwEbBim1&_nc_oc=AdpXIuiZU4a8JZQawYQmKhui73WioaBVQO1-HeG0R7A5QcswbZTaULXGJWnhq45yVk8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af98qZkQa14MzNEqiQY7Gd9DqA9Q5onHIxbUKRSyGSIRVQ&oe=6A41C5FD",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707678672_18009948788880937_949900849648363472_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=MzkwNTYzMTI5OTY5OTMwMjc1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ZPFn7ndF_MgQ7kNvwFB8odj&_nc_oc=AdqjXXcfeQLXx0EugWpWsgkdLRpVt6JMZz9hhxYdjFeXdMFe4c2o2zgyntBpADMJAyc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af-wUzVSba0L5c8mhNnZ8NckD7nbs3bPEImRsc7CgNWmHA&oe=6A41BB58",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706912585_18009948797880937_8924913312042443028_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=MzkwNTYzMTMwNzQwMDA0ODg0OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=9acDtAueAE0Q7kNvwFTX1-q&_nc_oc=AdrejWxiTPrks37Fdh1GEP7SkfmrtSjzeGiPawcPNezC44tis_SWM5EVOx62_qvuNK8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af_-lpeVjLVPsL5pF-Lf-B47cgWkTNzZWWi-E-7a63vBaA&oe=6A41D78F",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706538138_18009948806880937_5749619217005584198_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkwNTYzMTMxMzAzNzM1Nzc1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=NPYAQuiNrhwQ7kNvwFvamgg&_nc_oc=AdpCG6anNr6Lk0AxBBX4w_Cts5e8H8zl8-bGN6kXjHnH7u-aDkkPEs4sZxZehMeTj0w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af9gx16HOt9ToHrbP5EwX29TNxvANw8V6Z2qkJEHBvjmXg&oe=6A41D1AE"
-          ],
-          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/707668454_18009948536880937_1227289577575056096_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkwNTYzMDg5NTE5MjE1NTU3MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjczMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=z0Zttpyu_FUQ7kNvwHenqoV&_nc_oc=AdowCVPlCLX6gGtwLJJJVDxipsjvohG1sjG4F70f-sEh-Zz-eDuPoQZN_tl7sDeNhm8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YfoRc2tSI8MX8CbxQUcN5A&_nc_ss=7a22e&oh=00_Af84BsdQhCcdIqWK1nLezBtM-mjlsZ3dhBv_HqL17dGJcA&oe=6A41B8F0",
-          "image_url": "/assets/feed-images/7e2cfdc5f82b27dc60bf.webp",
-          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/462443540_1272229060376750_8530071716945385407_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gFNwFY3neSHlroftjcpFUZXEel4XGTTQHzjp6MqmF2PBm7DUEA06bljOSbHsNZ4-FE&_nc_ohc=qmbocc6wIgAQ7kNvwFqNzH2&_nc_gid=xaf8alxmuGgpFGjQMVNPlA&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_kMkwfjYlGPuLNMQ_ohdbAQspA9KXjs7yfZ98PT2md9Q&oe=6A41D2CB&_nc_sid=8b3546",
-          "avatar_url": "/assets/source-avatars/94078177897f59538292.webp",
-          "source_initials": "JSH",
-          "categories": [
-            "posts-videos",
-            "events"
-          ],
-          "category_labels": [
-            "貼文影片",
-            "實體活動"
-          ],
-          "key": "ig_judys_harmonica_ensemble:https://www.instagram.com/p/DYzl0BolM5O/"
-        },
-        {
-          "title": "HSNU Cozy Harmonica｜：） 今天非常榮幸邀請到彰女微光口琴來幫忙倒數！！ 光影會散，但琴聲有跡可循。 我們拾起那些泛黃的片段，重新組合成最溫暖的共鳴。 歲月無聲，直到我們再次吹響。 ––舒馨口琴社60屆獨立成發《拾光》 …",
-          "headline": "：）",
-          "link": "https://www.instagram.com/p/DYzkWUBCXUe/",
-          "source_id": "ig_cozy_harmonica_60th",
-          "source": "HSNU Cozy Harmonica",
-          "source_system_name": "HSNU Cozy Harmonica",
-          "source_profile_url": "https://www.instagram.com/cozy_harmonica_60th",
-          "account": "cozy_harmonica_60th",
-          "platform": "instagram",
-          "posted_at": "Tue, 26 May 2026 14:47:04 GMT",
-          "posted_at_local": "2026-05-26 22:47",
-          "seen_at": "2026-06-24T07:05:49.090205+00:00",
-          "matched_keywords": [
-            "口琴",
-            "成發"
-          ],
-          "keyword_matches": [
-            "口琴",
-            "成發"
-          ],
-          "llm_relevant": null,
-          "llm_confidence": null,
-          "llm_labels": [],
-          "llm_categories": [],
-          "llm_reason": "",
-          "text": "：）\n今天非常榮幸邀請到彰女微光口琴來幫忙倒數！！\n光影會散，但琴聲有跡可循。\n我們拾起那些泛黃的片段，重新組合成最溫暖的共鳴。\n歲月無聲，直到我們再次吹響。\n––舒馨口琴社60屆獨立成發《拾光》\n倒數5天\n𝄞 成發資訊\n時間：5/31（日）14：00進場，14：30開始\n地點：附中 實驗劇場\n𝄞交通資訊\n地址：臺北市大安區和安里信義路三段143號\n大眾運輸：\n捷運：大安站2號出口",
-          "images": [
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706813592_17889376236519083_4835662341429842914_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTYyNDg4Nzk0OTMzMzM5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ISSGuqXVXbMQ7kNvwG4RZi_&_nc_oc=Adrh35GwUot_jo4neRJdWa_Ugpuweu29L3njC7l3TFMAEcvU4AXAivxd-JvrQAvQ4pQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uHsGOCQbsbKgvYt-7T-vaw&_nc_ss=7a22e&oh=00_Af-J_I5yIKIw0zhiEaJXVPKruoXCZZ5HKg6Me8x-huRVng&oe=6A414D57",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/708450542_17889376251519083_6163165637890281560_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=MzkwNTYyNDkxNDkyNTMwMzM1OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=f8To8USdMwkQ7kNvwHclSBg&_nc_oc=AdqfPkpmQ7kkFRYf4uOaSpV1GKShyMEG-wzpOycZbi98aaSrDK459vxhmRzg2Xg38FY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uHsGOCQbsbKgvYt-7T-vaw&_nc_ss=7a22e&oh=00_Af_4Ys-o9n6Y_yP56nPHUUdfcxh7GjNCSSLeklmXgo_XEg&oe=6A41702C"
-          ],
-          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706813592_17889376236519083_4835662341429842914_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTYyNDg4Nzk0OTMzMzM5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ISSGuqXVXbMQ7kNvwG4RZi_&_nc_oc=Adrh35GwUot_jo4neRJdWa_Ugpuweu29L3njC7l3TFMAEcvU4AXAivxd-JvrQAvQ4pQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uHsGOCQbsbKgvYt-7T-vaw&_nc_ss=7a22e&oh=00_Af-J_I5yIKIw0zhiEaJXVPKruoXCZZ5HKg6Me8x-huRVng&oe=6A414D57",
-          "image_url": "/assets/feed-images/14bd747e65b62310997e.webp",
-          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/510922604_17842642863519083_1562363567902033321_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjcuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gEmBikahc-Z6tstZbi0o93axAA2Qzgcpj8tQBWl_w5Y7-aORS2jAbWUfPpPQFhrJUA&_nc_ohc=Qr2dZWgwfhQQ7kNvwGXio0H&_nc_gid=sUFKoAurkgWWTPLqWQFgPg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af97xo9rH_LNrt4P6An6iFBXSCWkOByYCRpivuP3OgnlKQ&oe=6A413D8E&_nc_sid=8b3546",
-          "avatar_url": "/assets/source-avatars/77ede19d1deb4ae6284c.webp",
-          "source_initials": "HCH",
-          "categories": [
-            "posts-videos",
-            "events",
-            "student-clubs"
-          ],
-          "category_labels": [
-            "貼文影片",
-            "實體活動",
-            "學生社團"
-          ],
-          "key": "ig_cozy_harmonica_60th:https://www.instagram.com/p/DYzkWUBCXUe/"
-        },
-        {
-          "title": "RedBricks Harmonica｜🔋《琴聲貢聚》 口琴計劃 - 計劃啟動音樂會🔋 下個月RedBricks將會於坑口社區會堂表演🎵 為新一期的「十八有藝」社區演藝計劃打響頭炮🧨 感謝 @hkharmonica 的邀請📨 約定大家，到…",
-          "headline": "🔋《琴聲貢聚》 口琴計劃 - 計劃啟動音樂會🔋",
-          "link": "https://www.instagram.com/p/DYzMIPfkpvH/",
-          "source_id": "ig_redbricksharmonica",
-          "source": "RedBricks Harmonica",
-          "source_system_name": "RedBricks Harmonica",
-          "source_profile_url": "https://www.instagram.com/redbricksharmonica/",
-          "account": "redbricksharmonica",
-          "platform": "instagram",
-          "posted_at": "Tue, 26 May 2026 11:15:07 GMT",
-          "posted_at_local": "2026-05-26 19:15",
-          "seen_at": "2026-06-24T16:13:01.085859+00:00",
-          "matched_keywords": [
-            "口琴",
-            "演出",
-            "音樂會"
-          ],
-          "keyword_matches": [
-            "口琴",
-            "音樂會",
-            "harmonica"
-          ],
-          "llm_relevant": true,
-          "llm_confidence": 0.95,
-          "llm_labels": [
-            "口琴",
-            "演出",
-            "音樂會"
-          ],
-          "llm_categories": [
-            "events"
-          ],
-          "llm_reason": "貼文宣傳口琴音樂會，屬於口琴演出活動，符合收錄條件。",
-          "text": "🔋《琴聲貢聚》 口琴計劃 - 計劃啟動音樂會🔋\n下個月RedBricks將會於坑口社區會堂表演🎵 為新一期的「十八有藝」社區演藝計劃打響頭炮🧨 感謝 @hkharmonica 的邀請📨 約定大家，到時候再見👋\n🗓️ 日期: 6月21日 (星期日)\n🕰️ 時間: 下午3時至4時\n📍 地點: 坑口社區會堂\n❗️費用全免❗️\n@18d.art\n#計劃啟動音樂會 #十八有藝 #18dART #琴聲貢聚 #redbricksharmonica",
-          "images": [
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/702244163_18328620943270066_2969763519300776346_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTUxODY0NDgxMDEyODMyNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjA0Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=icuoenLUuJQQ7kNvwG1IAPM&_nc_oc=AdqsaM6k_UHRJ2UIJ3SDlkq0JMAWMi9e4wN_8RTPVU50VS6kYOX2wbsmdnaUy9uol3w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=5BCPLhE2A4KPP6JHzczLPg&_nc_ss=7a22e&oh=00_Af-vF6pCRwpfBEart5H98mJoMfX4tWqqbuUvfmdDqGKqNw&oe=6A41EF83"
-          ],
-          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/702244163_18328620943270066_2969763519300776346_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTUxODY0NDgxMDEyODMyNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjA0Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=icuoenLUuJQQ7kNvwG1IAPM&_nc_oc=AdqsaM6k_UHRJ2UIJ3SDlkq0JMAWMi9e4wN_8RTPVU50VS6kYOX2wbsmdnaUy9uol3w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=5BCPLhE2A4KPP6JHzczLPg&_nc_ss=7a22e&oh=00_Af-vF6pCRwpfBEart5H98mJoMfX4tWqqbuUvfmdDqGKqNw&oe=6A41EF83",
-          "image_url": "/assets/feed-images/ac3400d906345d5a47c8.webp",
-          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/37982644_2026511764028099_3615643928088281088_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby43OTYuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gGobxvBtUXEfer-D9tWJzYwp3gjtuZ4LgCIIONal6jYQLGzkXy_aQ8rbNRiQjBQODE&_nc_ohc=gOY_fFSWsFIQ7kNvwHSoETi&_nc_gid=vK2LOY9yXVHCkLnnlkNg5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af8JuaEGeerR6GeEiSQcCMZ31n2nd7jAT49hbSzEv70lfw&oe=6A41C7D7&_nc_sid=8b3546",
-          "avatar_url": "/assets/source-avatars/44ed1621e83c468035bf.webp",
-          "source_initials": "RH",
-          "categories": [
-            "posts-videos",
-            "events"
-          ],
-          "category_labels": [
-            "貼文影片",
-            "實體活動"
-          ],
-          "key": "ig_redbricksharmonica:https://www.instagram.com/p/DYzMIPfkpvH/"
         }
       ],
-      "count": 168
+      "count": 176
     },
     {
       "id": "student-clubs",
@@ -23310,6 +24184,64 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rss": "/feeds/student-clubs.xml",
       "json": "/feeds/student-clubs.json",
       "items": [
+        {
+          "title": "陽明交大竹韻口琴社｜深夜震撼告知重大消息，創社大成功，請持續追蹤NYCU竹韻口琴社 友社：@nthu_harmonica_club #nycu_harmonica #nycu #harmonica",
+          "headline": "深夜震撼告知重大消息，創社大成功，請持續追蹤NYCU竹韻口琴社",
+          "link": "https://www.instagram.com/p/DaA6q22EwJM/",
+          "source_id": "ig_nycu_harmonica",
+          "source": "陽明交大竹韻口琴社",
+          "source_system_name": "陽明交大竹韻口琴社",
+          "source_profile_url": "https://www.instagram.com/nycu_harmonica/",
+          "account": "nycu_harmonica",
+          "platform": "instagram",
+          "posted_at": "Thu, 25 Jun 2026 15:43:39 GMT",
+          "posted_at_local": "2026-06-25 23:43",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "學生社團",
+            "公開更新"
+          ],
+          "keyword_matches": [
+            "口琴",
+            "harmonica"
+          ],
+          "llm_relevant": true,
+          "llm_confidence": 0.95,
+          "llm_labels": [
+            "口琴",
+            "學生社團",
+            "公開更新"
+          ],
+          "llm_categories": [
+            "student-clubs"
+          ],
+          "llm_reason": "貼文來自大學口琴社團，宣布創社成功，屬於學生社團的公開更新，符合收錄條件。",
+          "text": "深夜震撼告知重大消息，創社大成功，請持續追蹤NYCU竹韻口琴社\n友社：@nthu_harmonica_club\n#nycu_harmonica\n#nycu\n#harmonica",
+          "images": [
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730160878_18115241881745725_8390113133884300311_n.webp?_nc_cat=102&ig_cache_key=MzkyNzM5NTk3MDM4ODMzNzUwNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=8Z1laD9jtRsQ7kNvwGed9AR&_nc_oc=AdpdL6d1yoj4lfeWUQTmoZbviZqZUufJx9kEnZ7-R8qGZG5LZl0e6Mc-ePdpo_RnX1g&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af8NyR5H-jAcgr0H0BbJZfeAYIfUhmPVqry4ZsowcnCkug&oe=6A4325C4",
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/729754336_18115241887745725_8873937602994806352_n.webp?_nc_cat=107&ig_cache_key=MzkyNzM5NTk3MzAzMDk4NjM4Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=vQMMBukoYKYQ7kNvwGoO8V2&_nc_oc=AdpQp9mef1H3qrnPoALFKofJ0l8gzsD1fQ65GGzP8k5i0J5VjzjiPZQsb2wTZIlqCX0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af8TrX5PEkSbk2ey6Uita5wX_vGDNnhyoIjy3rYQX88UPw&oe=6A433FCC",
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/729855749_18115241899745725_6719899844758678631_n.webp?_nc_cat=106&ig_cache_key=MzkyNzM5NTk3NTgwNzQzOTEzNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=XaoJ-i6m-lsQ7kNvwF9h3fz&_nc_oc=Adp_4nU3tbAYI5I72BfgnNQLvmuY0DvyMV52ngBIbpmbEO5XzU1kw-4H1jQz2U5VzoU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af9voYDXe0icIYOKeq4yqIDCKoGdWb979PwGeeCcsHjZZw&oe=6A431F56",
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/729877116_18115241914745725_1759406056520547091_n.webp?_nc_cat=101&ig_cache_key=MzkyNzM5NTk3NzU2MDgxMzE2Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=gGz2LVr0ePMQ7kNvwES4Z9F&_nc_oc=Adps4-W2Z1iN7ItNVe-vS9LYahYgXsaJnOdH1AOM14uR4kPiFKFM5QHPL3xWb3xokc8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af-seXfSibyaudCsOSKDxqFwuq41z2fQz9G-MJLRvqMnSQ&oe=6A430EBA",
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730125172_18115241923745725_3007461136249078830_n.webp?_nc_cat=111&ig_cache_key=MzkyNzM5NTk4MTY2MjY4ODcwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GwfrUKiosaQQ7kNvwEnhhdT&_nc_oc=AdrzB4JKoOTZOINnu525DXiFlN0YK1FpXHGJ806iF-Bz7hRrI653a4fWdB955L7psZg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af_2QZoXwMUNqQhd1E8G4nE79NngWf6MScAIRS72o645xA&oe=6A4335B5",
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/729348861_18115241932745725_4950523139895409169_n.webp?_nc_cat=105&ig_cache_key=MzkyNzM5NTk4NDA4NzA1MDU5NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=S8wUY_a8xg8Q7kNvwHFw9Yq&_nc_oc=AdrIO9DKxnoZEf_cw3rPVm3aJgCaiBDSYa56XVTGQEclbkl45QlL2rZk5hRUPgXMxpI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af8mMvL83jIWQXh7Dps8W786eGQckS2Q24NNdni9sqULUQ&oe=6A432F52",
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/729517839_18115241944745725_8953500449191667680_n.webp?_nc_cat=103&ig_cache_key=MzkyNzM5NTk4NzEwNzAzMjk0OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=OdsAuPG-i2wQ7kNvwHeISSe&_nc_oc=Adpxd9hkbPfTKSYo9zvUVFCqGxk0MLnCKm0IxQIqa3GFuKQhFuNomtjRV7UdFGSHvCs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af-zmb2LchzAjP2VhNQT5B5DUv7h0bRIN3E6c6gsqP-7lA&oe=6A430B11"
+          ],
+          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730160878_18115241881745725_8390113133884300311_n.webp?_nc_cat=102&ig_cache_key=MzkyNzM5NTk3MDM4ODMzNzUwNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=8Z1laD9jtRsQ7kNvwGed9AR&_nc_oc=AdpdL6d1yoj4lfeWUQTmoZbviZqZUufJx9kEnZ7-R8qGZG5LZl0e6Mc-ePdpo_RnX1g&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=mbnDWQQRrRCyiNBaLRRFpw&_nc_ss=7a22e&oh=00_Af8NyR5H-jAcgr0H0BbJZfeAYIfUhmPVqry4ZsowcnCkug&oe=6A4325C4",
+          "image_url": "/assets/feed-images/25114f5b78c787cc0ede.webp",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/701558410_18109037233745725_4881025079895106710_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gHw0r8dwzD_XDUFRNGh4o1e2Ij19yJad1dfUgROhp-YxIeGrY5rl_wH2__HS2ncb4U&_nc_ohc=YRGVVTGe96cQ7kNvwHo94Cy&_nc_gid=knFwH4jIIMOXF89cVreE0A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_MEdcHnnLip3cZUbR8WTg47fGP7Omcs4sOQPiX0kc3xA&oe=6A4310D4&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/f9da11b227a1c2238a68.webp",
+          "source_initials": "陽明",
+          "categories": [
+            "posts-videos",
+            "student-clubs"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "學生社團"
+          ],
+          "key": "ig_nycu_harmonica:https://www.instagram.com/p/DaA6q22EwJM/"
+        },
         {
           "title": "CY Leo 何卓彥｜人生為自己策劃最大型、耗時、昂貴、複雜的原創音樂計劃，要正式面世了。 《Two Worlds In One》這個計劃已經策劃超過兩年，創作無數作品後最後濃縮到10首原創歌曲，推出人聲和純音樂版本，希望能夠把流行音樂的…",
           "headline": "人生為自己策劃最大型、耗時、昂貴、複雜的原創音樂計劃，要正式面世了。",
@@ -26182,54 +27114,6 @@ window.HARMONICA_OBSERVE_FEEDS = {
             "學生社團"
           ],
           "key": "ig_nthu_harmonica_club:https://www.instagram.com/p/DY1wKd8k3I6/"
-        },
-        {
-          "title": "HSNU Cozy Harmonica｜：） 今天非常榮幸邀請到彰女微光口琴來幫忙倒數！！ 光影會散，但琴聲有跡可循。 我們拾起那些泛黃的片段，重新組合成最溫暖的共鳴。 歲月無聲，直到我們再次吹響。 ––舒馨口琴社60屆獨立成發《拾光》 …",
-          "headline": "：）",
-          "link": "https://www.instagram.com/p/DYzkWUBCXUe/",
-          "source_id": "ig_cozy_harmonica_60th",
-          "source": "HSNU Cozy Harmonica",
-          "source_system_name": "HSNU Cozy Harmonica",
-          "source_profile_url": "https://www.instagram.com/cozy_harmonica_60th",
-          "account": "cozy_harmonica_60th",
-          "platform": "instagram",
-          "posted_at": "Tue, 26 May 2026 14:47:04 GMT",
-          "posted_at_local": "2026-05-26 22:47",
-          "seen_at": "2026-06-24T07:05:49.090205+00:00",
-          "matched_keywords": [
-            "口琴",
-            "成發"
-          ],
-          "keyword_matches": [
-            "口琴",
-            "成發"
-          ],
-          "llm_relevant": null,
-          "llm_confidence": null,
-          "llm_labels": [],
-          "llm_categories": [],
-          "llm_reason": "",
-          "text": "：）\n今天非常榮幸邀請到彰女微光口琴來幫忙倒數！！\n光影會散，但琴聲有跡可循。\n我們拾起那些泛黃的片段，重新組合成最溫暖的共鳴。\n歲月無聲，直到我們再次吹響。\n––舒馨口琴社60屆獨立成發《拾光》\n倒數5天\n𝄞 成發資訊\n時間：5/31（日）14：00進場，14：30開始\n地點：附中 實驗劇場\n𝄞交通資訊\n地址：臺北市大安區和安里信義路三段143號\n大眾運輸：\n捷運：大安站2號出口",
-          "images": [
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706813592_17889376236519083_4835662341429842914_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTYyNDg4Nzk0OTMzMzM5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ISSGuqXVXbMQ7kNvwG4RZi_&_nc_oc=Adrh35GwUot_jo4neRJdWa_Ugpuweu29L3njC7l3TFMAEcvU4AXAivxd-JvrQAvQ4pQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uHsGOCQbsbKgvYt-7T-vaw&_nc_ss=7a22e&oh=00_Af-J_I5yIKIw0zhiEaJXVPKruoXCZZ5HKg6Me8x-huRVng&oe=6A414D57",
-            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/708450542_17889376251519083_6163165637890281560_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=MzkwNTYyNDkxNDkyNTMwMzM1OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=f8To8USdMwkQ7kNvwHclSBg&_nc_oc=AdqfPkpmQ7kkFRYf4uOaSpV1GKShyMEG-wzpOycZbi98aaSrDK459vxhmRzg2Xg38FY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uHsGOCQbsbKgvYt-7T-vaw&_nc_ss=7a22e&oh=00_Af_4Ys-o9n6Y_yP56nPHUUdfcxh7GjNCSSLeklmXgo_XEg&oe=6A41702C"
-          ],
-          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/706813592_17889376236519083_4835662341429842914_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=MzkwNTYyNDg4Nzk0OTMzMzM5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ISSGuqXVXbMQ7kNvwG4RZi_&_nc_oc=Adrh35GwUot_jo4neRJdWa_Ugpuweu29L3njC7l3TFMAEcvU4AXAivxd-JvrQAvQ4pQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uHsGOCQbsbKgvYt-7T-vaw&_nc_ss=7a22e&oh=00_Af-J_I5yIKIw0zhiEaJXVPKruoXCZZ5HKg6Me8x-huRVng&oe=6A414D57",
-          "image_url": "/assets/feed-images/14bd747e65b62310997e.webp",
-          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/510922604_17842642863519083_1562363567902033321_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NjcuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gEmBikahc-Z6tstZbi0o93axAA2Qzgcpj8tQBWl_w5Y7-aORS2jAbWUfPpPQFhrJUA&_nc_ohc=Qr2dZWgwfhQQ7kNvwGXio0H&_nc_gid=sUFKoAurkgWWTPLqWQFgPg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af97xo9rH_LNrt4P6An6iFBXSCWkOByYCRpivuP3OgnlKQ&oe=6A413D8E&_nc_sid=8b3546",
-          "avatar_url": "/assets/source-avatars/77ede19d1deb4ae6284c.webp",
-          "source_initials": "HCH",
-          "categories": [
-            "posts-videos",
-            "events",
-            "student-clubs"
-          ],
-          "category_labels": [
-            "貼文影片",
-            "實體活動",
-            "學生社團"
-          ],
-          "key": "ig_cozy_harmonica_60th:https://www.instagram.com/p/DYzkWUBCXUe/"
         }
       ],
       "count": 55
@@ -27310,6 +28194,58 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "key": "ig_taiwanharmonica:https://www.instagram.com/p/DZCYR7OE9LZ/"
         },
         {
+          "title": "南里沙｜昨日は兵庫県・西神プレンティ広場で開催された「まちなかアカペラ＆にぎわいマルシェ」に出演させていただきました☀️お聴きくださった皆さま、本当にありがと... 昨日は兵庫県・西神プレンティ広場で開催された「まちなかアカペラ＆にぎわい…",
+          "headline": "昨日は兵庫県・西神プレンティ広場で開催された「まちなかアカペラ＆にぎわいマルシェ」に出演させていただきました☀️お聴きくださった皆さま、本当にありがと...",
+          "link": "https://www.instagram.com/p/DY_HTvFSNGz/",
+          "source_id": "ig_minami_risa",
+          "source": "南里沙",
+          "source_system_name": "南里沙",
+          "source_profile_url": "https://www.instagram.com/minami_risa/",
+          "account": "minami_risa",
+          "platform": "instagram",
+          "posted_at": "Sun, 31 May 2026 02:46:16 GMT",
+          "posted_at_local": "2026-05-31 10:46",
+          "seen_at": "2026-06-25T16:05:52.696060+00:00",
+          "matched_keywords": [
+            "口琴",
+            "演出",
+            "比賽"
+          ],
+          "keyword_matches": [],
+          "llm_relevant": true,
+          "llm_confidence": 0.9,
+          "llm_labels": [
+            "口琴",
+            "演出",
+            "比賽"
+          ],
+          "llm_categories": [
+            "events",
+            "posts-videos"
+          ],
+          "llm_reason": "貼文提及口琴比賽（FIHハーモニカコンテスト本選）及口琴演出（アカペラ出演），並標記口琴相關標籤。",
+          "text": "昨日は兵庫県・西神プレンティ広場で開催された「まちなかアカペラ＆にぎわいマルシェ」に出演させていただきました☀️お聴きくださった皆さま、本当にありがと...\n昨日は兵庫県・西神プレンティ広場で開催された「まちなかアカペラ＆にぎわいマルシェ」に出演させていただきました☀️お聴きくださった皆さま、本当にありがとうございました。\nアカペラグループ・チキンガーリックステーキの皆さんとご一緒し、青空の下で楽しい時間を過ごすことができました。お客様の笑顔や温かい拍手に包まれた、とても素敵な一日でした✨\nチキンガーリックステーキのお兄様方、お疲れさまでした！\nまたご一緒できる日を楽しみにしています😊\n**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**\nそして昨日は東京でFIHハーモニカコンテスト本選も開催されました。ご出場された皆さま、本当にお疲れさまでした。ハーモニカを愛する皆さまの今後のさらなるご活躍を心よりお祈りしております♬\n**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**☆**:;;;;;:**\nそして本日、東京入り。レコーディングの為スタジオに向かっています。東京はいつも何処かが工事中😵‍💫\n#クロマチックハーモニカ",
+          "images": [
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/710665871_18588046228053761_5037529535620441484_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkwODg3NTE0NDEzMTAzOTY2Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FjsdRU0aZa8Q7kNvwFEYTwQ&_nc_oc=AdoX870JRUFAsmAQj3c8vksiIM9CR85MPS5Xqm90PDjSTKPUUApAttqOsQNV31adSN0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af9znIIcoTId5XnLwouwhyHzp2u51TkPmd9BkzgGkgkcTg&oe=6A43168F"
+          ],
+          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/710665871_18588046228053761_5037529535620441484_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=MzkwODg3NTE0NDEzMTAzOTY2Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FjsdRU0aZa8Q7kNvwFEYTwQ&_nc_oc=AdoX870JRUFAsmAQj3c8vksiIM9CR85MPS5Xqm90PDjSTKPUUApAttqOsQNV31adSN0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af9znIIcoTId5XnLwouwhyHzp2u51TkPmd9BkzgGkgkcTg&oe=6A43168F",
+          "image_url": "/assets/feed-images/80ccd5830c98279dfcbd.webp",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+          "source_initials": "南里",
+          "categories": [
+            "posts-videos",
+            "events",
+            "opportunities"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動",
+            "補助比賽"
+          ],
+          "key": "ig_minami_risa:https://www.instagram.com/p/DY_HTvFSNGz/"
+        },
+        {
           "title": "山下伶 Rei Yamashita｜昨日開催された「FIHハーモニカコンテスト」にて、山下教室の生徒さんたちが素晴らしい賞を受賞されました！🎉 🏆アンサンブル部門 2位 Fabulous Bond （中西顕士さん・田口洋介さん・渡辺知紗さ…",
           "headline": "昨日開催された「FIHハーモニカコンテスト」にて、山下教室の生徒さんたちが素晴らしい賞を受賞されました！🎉",
           "link": "https://www.instagram.com/p/DY-6vXqE9k9/",
@@ -27479,7 +28415,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "key": "ig_jangli_harmonica:https://www.instagram.com/p/DY1u0Onyxuh/"
         }
       ],
-      "count": 22
+      "count": 23
     }
   ]
 };

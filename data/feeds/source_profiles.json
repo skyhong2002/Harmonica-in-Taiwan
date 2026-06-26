@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T09:00:34.785900+00:00",
+  "updatedAt": "2026-06-25T16:05:59.082844+00:00",
   "profiles": {
     "ig_ntnu_harmonica": {
       "id": "ig_ntnu_harmonica",
@@ -1276,7 +1276,7 @@
       "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/701558410_18109037233745725_4881025079895106710_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gGHh6vvvLDqaXU9SrBhOvjqrTnPnftM2vsaOMq7yDYbLi_-zZHLXHIqL3d-h0po4Dk&_nc_ohc=hB-Ig1lMCqEQ7kNvwEsxs7-&_nc_gid=uyoXe7lBlUau8UmiyCNRjQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_om5e-K3ArIYoHqGfuHxRs3qrTo-7bwjtppbBvOwzqxw&oe=6A418714&_nc_sid=8b3546",
       "title": "陽明交大竹韻口琴社 (@nycu_harmonica) - Instagram",
       "description": "🔹NYCU Bamboo Melody Harmonica Club 👐🏻 大家好！我們是陽明交大竹韻口琴社🎶🎶 歡迎加入我們一起練琴✨ （友社 @nthu_harmonica_club）",
-      "avatar_url": "/assets/source-avatars/23ba8173993d252811f1.webp"
+      "avatar_url": "/assets/source-avatars/f9da11b227a1c2238a68.webp"
     },
     "yt_ucliodayl9_jvnbpc4nfthgw": {
       "id": "yt_ucliodayl9_jvnbpc4nfthgw",
@@ -1661,6 +1661,17 @@
       "title": "御風裕豐 Lin, Yu-Feng (@yf__life) - Instagram",
       "description": "演奏風格橫跨爵士、藍調、古典與流行 📩 口琴教學 / 演出合作歡迎聯繫",
       "avatar_url": "/assets/source-avatars/3e57ec6b2722c7d0b510.webp"
+    },
+    "ig_minami_risa": {
+      "id": "ig_minami_risa",
+      "name": "南里沙",
+      "account": "minami_risa",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/minami_risa",
+      "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFLZHZDrQ2Vb-KKCSZYQ723l5DQOKcQdKkdB-wLq-E9-sBfvDGZX2lVfvdQfzbanio&_nc_ohc=MzWi4bMrnBIQ7kNvwHxR4QQ&_nc_gid=fGi5PRhHiNS0XbqCM3Xs5g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_7fMnNwtxYhqVGgmIN-P2fYXbRkI8k0GydbveJdSW1Sg&oe=6A430BBB&_nc_sid=8b3546",
+      "title": "南里沙 / Risa MINAMI (@minami_risa) - Instagram",
+      "description": "━━━━━━━━━━━━━━━━━━━ クロマチックハーモニカの音色をあなたに🫶 ━━━━━━━━━━━━━━━━━━━ ◼︎JR東海『そうだ京都、行こう。』SONY『だから私はXPERIA』TVCM起用◼︎キングレコードよりアルバム発売中 ◼︎HOHNERエンドーザー ◼︎宝塚市大使",
+      "avatar_url": "/assets/source-avatars/fdefacea4d8029e06564.webp"
     }
   }
 }

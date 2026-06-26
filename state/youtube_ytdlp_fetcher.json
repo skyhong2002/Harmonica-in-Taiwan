@@ -1,5 +1,5 @@
 {
-  "next_source_index": 20,
+  "next_source_index": 25,
   "runs": [
     {
       "error_count": 0,
@@ -241,7 +241,20 @@
         "yt_dmingstudio"
       ],
       "started_at": "2026-06-24T16:00:05.302920+00:00"
+    },
+    {
+      "error_count": 0,
+      "finished_at": "2026-06-25T16:00:08.814390+00:00",
+      "new_inbox_rows": 2,
+      "source_ids": [
+        "yt_chaotengchang",
+        "yt_a7d0e0444f",
+        "yt_keriw128",
+        "yt_oufrog",
+        "yt_henrysharmonica"
+      ],
+      "started_at": "2026-06-25T16:00:01.732685+00:00"
     }
   ],
-  "updated_at": "2026-06-24T16:00:12.078367+00:00"
+  "updated_at": "2026-06-25T16:00:08.814390+00:00"
 }
