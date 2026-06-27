@@ -573,8 +573,12 @@
   }
 
   function feedSourceFilterValues(item) {
+    const displaySource = feedSourceOptionValue(item);
     const sourceMatches = socialSourcesForItem(item);
     return [
+      displaySource,
+      item.directory_entry_name,
+      item.directory_entry_id,
       item.source,
       item.source_system_name,
       item.source_id,
@@ -588,6 +592,17 @@
     ];
   }
 
+  function feedSourceOptionValue(item) {
+    return String(
+      item.directory_entry_name ||
+      item.source ||
+      item.source_system_name ||
+      String(item.account || "").replace(/^@/, "") ||
+      item.source_id ||
+      ""
+    ).trim();
+  }
+
   function feedPlatformFilterValues(item) {
     return [
       sourcePlatformLabel(item.platform),
@@ -598,6 +613,24 @@
 
   function feedCountryFilterValues(item) {
     return [item.country].filter(Boolean);
+  }
+
+  function countSortedValues(updates, valueGetter) {
+    const counts = new Map();
+    updates.forEach((item) => {
+      const values = Array.isArray(valueGetter(item)) ? valueGetter(item) : [valueGetter(item)];
+      values.forEach((raw) => {
+        const value = String(raw || "").trim();
+        if (!value) return;
+        counts.set(value, (counts.get(value) || 0) + 1);
+      });
+    });
+    return [...counts.entries()]
+      .sort((left, right) => {
+        if (right[1] !== left[1]) return right[1] - left[1];
+        return left[0].localeCompare(right[0], "zh-Hant");
+      })
+      .map(([value]) => value);
   }
 
   function feedPlatformOptions(updates) {
@@ -673,7 +706,8 @@
 
   function feedControls(updates, filteredUpdates) {
     const platforms = feedPlatformOptions(updates);
-    const countries = uniqueSorted(updates.flatMap(feedCountryFilterValues));
+    const countries = countSortedValues(updates, (item) => item.country);
+    const sources = countSortedValues(updates, feedSourceOptionValue);
     const tags = uniqueSorted(updates.flatMap((item) => item.matched_keywords || []));
     return `
       <div class="feed-river-controls">
@@ -702,7 +736,7 @@
         </div>
         <div class="feed-filter-chip-group">
           <span class="feed-chip-group-label">來源</span>
-          <div class="feed-option-chips" aria-label="來源篩選">${feedOptionChips([], feedState.source, "source", "全部來源")}</div>
+          <div class="feed-option-chips" aria-label="來源篩選，可複選">${feedOptionChips(sources, feedState.source, "source", "全部來源")}</div>
         </div>
       </div>
     `;

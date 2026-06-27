@@ -1608,6 +1608,38 @@ def source_kind_labels(source: dict[str, Any]) -> list[str]:
     return sorted(labels)
 
 
+def feed_source_filter_label(item: dict[str, Any]) -> str:
+    for value in (
+        item.get("directory_entry_name"),
+        item.get("source"),
+        item.get("source_system_name"),
+        str(item.get("account") or "").removeprefix("@"),
+        item.get("source_id"),
+    ):
+        label = normalize_taiwan_orthography(value or "").strip()
+        if label:
+            return label
+    return ""
+
+
+def counted_filter_values(items: list[dict[str, Any]], field: str) -> list[str]:
+    counts: dict[str, int] = {}
+    for item in items:
+        if field == "source":
+            value = feed_source_filter_label(item)
+        else:
+            value = normalize_taiwan_orthography(item.get(field) or "").strip()
+        if value:
+            counts[value] = counts.get(value, 0) + 1
+    return [
+        value
+        for value, _count in sorted(
+            counts.items(),
+            key=lambda pair: (-pair[1], pair[0]),
+        )
+    ]
+
+
 def render_home_feed_filters(public_rows: list[dict[str, Any]], window_days: int) -> str:
     social_sources = public_social_sources()
     platforms = sorted(
@@ -1616,7 +1648,8 @@ def render_home_feed_filters(public_rows: list[dict[str, Any]], window_days: int
             *[source_platform_label(item.get("platform")) for item in public_rows if item.get("platform")],
         }
     )
-    countries = sorted({normalize_taiwan_orthography(item.get("country") or "") for item in public_rows if item.get("country")})
+    sources = counted_filter_values(public_rows, "source")
+    countries = counted_filter_values(public_rows, "country")
     tags = sorted({str(keyword) for item in public_rows for keyword in (item.get("matched_keywords") or []) if keyword})
     return f"""
       <div class="feed-river-controls">
@@ -1645,7 +1678,7 @@ def render_home_feed_filters(public_rows: list[dict[str, Any]], window_days: int
         </div>
         <div class="feed-filter-chip-group">
           <span class="feed-chip-group-label">來源</span>
-          <div class="feed-option-chips" aria-label="來源篩選">{render_home_filter_chip_options([], "source", "全部來源")}</div>
+          <div class="feed-option-chips" aria-label="來源篩選，可複選">{render_home_filter_chip_options(sources, "source", "全部來源")}</div>
         </div>
       </div>
     """
