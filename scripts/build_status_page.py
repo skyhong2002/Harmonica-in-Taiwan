@@ -325,6 +325,11 @@ def youtube_error_superseded(row: dict[str, Any], recovered: dict[str, dt.dateti
     return bool(error_seen_at and recovered_at and recovered_at >= error_seen_at)
 
 
+def is_active_source_error(row: dict[str, Any], source_by_id: dict[str, dict[str, Any]]) -> bool:
+    source_id = str(row.get("source_id") or "")
+    return not source_id or source_id in source_by_id
+
+
 def story_empty_error(row: dict[str, Any], source_by_id: dict[str, dict[str, Any]]) -> bool:
     source_id = str(row.get("source_id") or "")
     source = source_by_id.get(source_id, {})
@@ -371,7 +376,8 @@ def build_status() -> dict[str, Any]:
     current_errors = [
         row
         for row in current_errors
-        if not youtube_error_superseded(row, youtube_recovered_at)
+        if is_active_source_error(row, source_by_id)
+        and not youtube_error_superseded(row, youtube_recovered_at)
         and not story_empty_error(row, source_by_id)
     ]
 

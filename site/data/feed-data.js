@@ -1,7 +1,120 @@
 window.HARMONICA_OBSERVE_FEEDS = {
-  "generatedAt": "2026-06-27 15:00",
+  "generatedAt": "2026-06-27 18:10",
   "updatesWindowDays": 30,
   "updates": [
+    {
+      "title": "山下伶 Rei Yamashita｜【ご報告】HOHNERアーティストに就任しました！ 皆さま、いつも温かい応援をありがとうございます😌 昨日HOHNER公式との共同投稿でもお知らせいたしましたが、改めて私、山下伶からもご報告させてくださ…",
+      "headline": "【ご報告】HOHNERアーティストに就任しました！",
+      "link": "https://www.instagram.com/p/DaFRO69zTx2/",
+      "source_id": "ig_rei_harmonica",
+      "source": "山下伶 Rei Yamashita",
+      "source_system_name": "山下伶 Rei Yamashita",
+      "source_profile_url": "https://www.instagram.com/rei_harmonica/",
+      "account": "rei_harmonica",
+      "platform": "instagram",
+      "platform_label": "instagram",
+      "posted_at": "Sat, 27 Jun 2026 08:19:57 GMT",
+      "posted_at_local": "2026-06-27 16:19",
+      "seen_at": "2026-06-27T08:55:22.870558+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/rei_harmonica",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "matched_keywords": [
+        "harmonica"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": null,
+      "llm_confidence": null,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "",
+      "text": "【ご報告】HOHNERアーティストに就任しました！\n皆さま、いつも温かい応援をありがとうございます😌\n昨日HOHNER公式との共同投稿でもお知らせいたしましたが、改めて私、山下伶からもご報告させてください。\nこの度、以前から深く信頼し愛用してきたブランド「HOHNER（ホーナー）」と正式にアーティスト契約を結び、HOHNERファミリーの一員となりました！\nメジャーデビュー10周年という大きな節目に、このような形で新たな一歩を踏み出せることを、とても光栄に感じています。\n\"I’m so excited to start this new journey with Hohner!\"\n（Hohnerと共に、この新しい旅を始められることにとてもワクワクしています！）\nいつも支えてくださる皆様のおかげで、今の私があります。本当にありがとうございます。\nこれからもHOHNERのハーモニカと共に、より素敵な音楽を日本から世界中へ届けていけるよう、精一杯頑張ります。これからもどうぞよろしくお願いいたします！\n#Hohner #HohnerArtist #ChromaticHarmonica #ReiYamashita #クロマチックハーモニカ",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/729787246_18542909146076837_1021460118158521899_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=MzkyODYyMjA0MjEyNzg3NTE5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=HDAFqDKSekEQ7kNvwHufujQ&_nc_oc=AdplObEharg9SumajqTQt0ffdedlcyoLp4lSq8Cm8EfjzCY3VGDIiohxJdvLA34LKkU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=L_-8OO0iMRAeYU_lid4mAQ&_nc_ss=7a22e&oh=00_Af9Wj2MdvqW-M05e144WyWoPJ_QAKOtYyhSHuS1c4iykdg&oe=6A4548F8"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/729787246_18542909146076837_1021460118158521899_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=MzkyODYyMjA0MjEyNzg3NTE5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=HDAFqDKSekEQ7kNvwHufujQ&_nc_oc=AdplObEharg9SumajqTQt0ffdedlcyoLp4lSq8Cm8EfjzCY3VGDIiohxJdvLA34LKkU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=L_-8OO0iMRAeYU_lid4mAQ&_nc_ss=7a22e&oh=00_Af9Wj2MdvqW-M05e144WyWoPJ_QAKOtYyhSHuS1c4iykdg&oe=6A4548F8",
+      "image_url": "/assets/feed-images/feb16076da01eb60b118.webp",
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/503187975_18466821646076837_1903386838267563286_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gFM8EWDx4O6QQObINtWh78c1G32tAaRbMVIgNTdg1d_pdX4OWESJJmKvvTNj1_7tmg&_nc_ohc=SAAlnU2kPekQ7kNvwE3HMFT&_nc_gid=fjzKABkKsA9hSl08HP730Q&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af-0qSJEyCXZZHA8c-sfKUMJpGDQs6rHiQIvVlC4jZjofQ&oe=6A4556B8&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/358247ae43be451ad4bd.webp",
+      "source_initials": "RY",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_rei_harmonica:https://www.instagram.com/p/DaFRO69zTx2/"
+    },
+    {
+      "title": "臺灣口琴音樂節 THMF｜🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！此次邀請的一位重量級嘉賓是來自日本，享譽國際的半音階口琴演奏家 @minami_risa 南 里... 🌟 本次2026臺灣口琴音樂節，將匯…",
+      "headline": "🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！此次邀請的一位重量級嘉賓是來自日本，享譽國際的半音階口琴演奏家 @minami_risa 南 里...",
+      "link": "https://www.instagram.com/p/DaFOPgqkyVb/",
+      "source_id": "ig_taiwanharmonica",
+      "source": "臺灣口琴音樂節 THMF",
+      "source_system_name": "臺灣口琴音樂節 THMF",
+      "source_profile_url": "https://www.instagram.com/taiwanharmonica/",
+      "account": "taiwanharmonica",
+      "platform": "instagram",
+      "platform_label": "instagram",
+      "posted_at": "Sat, 27 Jun 2026 07:51:38 GMT",
+      "posted_at_local": "2026-06-27 15:51",
+      "seen_at": "2026-06-27T08:17:15.111963+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/taiwanharmonica",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "matched_keywords": [
+        "口琴",
+        "演出",
+        "比賽",
+        "harmonica"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "演出",
+        "比賽",
+        "harmonica"
+      ],
+      "llm_relevant": null,
+      "llm_confidence": null,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "",
+      "text": "🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！此次邀請的一位重量級嘉賓是來自日本，享譽國際的半音階口琴演奏家 @minami_risa 南 里...\n🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！此次邀請的一位重量級嘉賓是來自日本，享譽國際的半音階口琴演奏家 @minami_risa 南 里沙 ! 💪\n南里沙，半音階口琴演奏家，畢業於神戶女學院大學音樂學系（主修雙簧管）。在接觸半音階口琴後深受其魅力吸引，開始投入學習，並一路持續至今，發展為其終身熱愛的演奏志業。\n2009年，於德國 F.I.H. 國際口琴比賽公開組獲得第二名；其後於第八屆亞太口琴節（新加坡）半音階獨奏公開組榮獲第一名。\n南里沙亦為全球首位與保加利亞國家索菲亞愛樂管弦樂團合作，完整演出《Labyrinth of Fantasy》（半音階口琴協奏曲）四個樂章的演奏家，演出獲得熱烈迴響。\n2013年，以首張專輯《Mint Tea》由 King Records 正式出道。近年演出與錄製工作廣泛，包括參與 NHK 電視節目《Anthology Album》，並與東京愛樂交響樂團、東京混聲合唱團合作演出，同時亦參與多部戲劇與動畫配樂錄製。\n憑藉精湛且高水準的半音階口琴演奏技巧，以及跨越音樂領域的多元活動，南里沙在日本國內外累積了眾多樂迷與音樂專業人士的支持與喜愛。現為 HOHNER Artist。\n--\n🌟 The 2026 Taiwan Harmonica Music Festival will bring together harmonica artists from across Asia to perform on the same stage. One of the distinguished guests invited this year is Minami Risa, an internationally renowned chromatic harmonica player from Japan! 💪\nRisa Minami, the chromatic harmonica player, graduated from Kobe College, majoring in Music (speciality : oboe). Enchanted by the chromatic harmonica, Risa began studying it. This is the passion she has pursued to this day.\nIn 2009, Risa Minami won second prize in the open category of the F.I.H. Competition in Germany. …",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730452653_17946050535238733_7654527268567002734_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkyODYwODg3ODk0NjkxOTAwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTM2My5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3RvR0Z2v7i0Q7kNvwFiaTk6&_nc_oc=AdobT0Qa-hUixBkthtR_wD3p7pbN7d00EEbsscT--6mYDEcftA4ygIcbTZQChDjHpSg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QLMFk87jcYcH5RhayR3T1g&_nc_ss=7a22e&oh=00_Af-ck28GSt9Db9Fj59WfPSbiwrMikPpOHrdkgurTELGA6Q&oe=6A45593B",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/728861542_17946050538238733_4532698922366798461_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkyODYwODg3ODczNzIwOTEzMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTUzNi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=DKt2QaBJMjQQ7kNvwFz8MKP&_nc_oc=AdppZ-p-QdZe_jOL4xz5pqiWELJ2maf0XTUJA6K56c2piDxh7AHrp2bMHewHiEf7UFc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QLMFk87jcYcH5RhayR3T1g&_nc_ss=7a22e&oh=00_Af-RphFgqmurveeRRn9y7QFP-TrFIoWaBRVIDKix0nrS_A&oe=6A45560F"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730452653_17946050535238733_7654527268567002734_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkyODYwODg3ODk0NjkxOTAwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTM2My5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3RvR0Z2v7i0Q7kNvwFiaTk6&_nc_oc=AdobT0Qa-hUixBkthtR_wD3p7pbN7d00EEbsscT--6mYDEcftA4ygIcbTZQChDjHpSg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QLMFk87jcYcH5RhayR3T1g&_nc_ss=7a22e&oh=00_Af-ck28GSt9Db9Fj59WfPSbiwrMikPpOHrdkgurTELGA6Q&oe=6A45593B",
+      "image_url": "/assets/feed-images/101759a4fccfb738ba2c.webp",
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/447992418_962944642277635_2609615645552309724_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gF4E8PlUYV7cF1cqhJIfm25bO7B-0--e7NfGi-_sNd0guGy-3WngT60CY6nK0PINBQ&_nc_ohc=PtBw7oCI9vUQ7kNvwGbr35m&_nc_gid=_ZLEubNtcMzSsT-r4le7Lg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af9tD4dyDw-PN02lMPhAu8iuGVcuWTR61gVzmfN6Nrsi_g&oe=6A455BD0&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/9f90966dec429229a169.webp",
+      "source_initials": "T",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動",
+        "補助比賽",
+        "學生社團"
+      ],
+      "key": "ig_taiwanharmonica:https://www.instagram.com/p/DaFOPgqkyVb/"
+    },
     {
       "title": "RedBricks Harmonica｜⚡️《琴聲貢聚》 口琴計劃 - 計劃啟動音樂會⚡️ 上星期日下午，RedBricks去到坑口社區會堂為西貢區居民帶來口琴重奏演出🕺 再次感謝 香港口琴協會 @hkharmonica 的邀請🤝 祝大家…",
       "headline": "⚡️《琴聲貢聚》 口琴計劃 - 計劃啟動音樂會⚡️",
@@ -13390,22 +13503,22 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": "https://rss.observe.tw/picuki/profile/antonioserranoarmonica/story/0"
     },
     {
-      "id": "ig_etaborya",
+      "id": "ig_boris_plotnikov",
       "name": "Boris Plotnikov",
       "platform": "instagram",
       "type": "rsshub_instagram_profile",
-      "username": "etaborya",
-      "profileUrl": "https://www.instagram.com/etaborya/",
+      "username": "boris_plotnikov",
+      "profileUrl": "https://www.instagram.com/boris_plotnikov/",
       "feedUrl": ""
     },
     {
-      "id": "ig_story_etaborya",
+      "id": "ig_story_boris_plotnikov",
       "name": "Boris Plotnikov",
       "platform": "instagram",
       "type": "rsshub_instagram_story",
-      "username": "etaborya",
-      "profileUrl": "https://www.instagram.com/etaborya/",
-      "feedUrl": "https://rss.observe.tw/picuki/profile/etaborya/story/0"
+      "username": "boris_plotnikov",
+      "profileUrl": "https://www.instagram.com/boris_plotnikov/",
+      "feedUrl": "https://rss.observe.tw/picuki/profile/boris_plotnikov/story/0"
     },
     {
       "id": "ig_chgsh_harmonica",
@@ -13633,22 +13746,22 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": ""
     },
     {
-      "id": "ig_hankshrevemusic",
+      "id": "ig_hankshreve",
       "name": "Hank Shreve",
       "platform": "instagram",
       "type": "rsshub_instagram_profile",
-      "username": "hankshrevemusic",
-      "profileUrl": "https://www.instagram.com/hankshrevemusic/",
+      "username": "hankshreve",
+      "profileUrl": "https://www.instagram.com/hankshreve/",
       "feedUrl": ""
     },
     {
-      "id": "ig_story_hankshrevemusic",
+      "id": "ig_story_hankshreve",
       "name": "Hank Shreve",
       "platform": "instagram",
       "type": "rsshub_instagram_story",
-      "username": "hankshrevemusic",
-      "profileUrl": "https://www.instagram.com/hankshrevemusic/",
-      "feedUrl": "https://rss.observe.tw/picuki/profile/hankshrevemusic/story/0"
+      "username": "hankshreve",
+      "profileUrl": "https://www.instagram.com/hankshreve/",
+      "feedUrl": "https://rss.observe.tw/picuki/profile/hankshreve/story/0"
     },
     {
       "id": "ig_howardlevyland",
@@ -13822,22 +13935,22 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": "https://rss.observe.tw/picuki/profile/leeoskarharmonicas/story/0"
     },
     {
-      "id": "ig_learntheharmonica",
+      "id": "ig_liamwardmusic",
       "name": "Liam Ward & Malcolm Thorne",
       "platform": "instagram",
       "type": "rsshub_instagram_profile",
-      "username": "learntheharmonica",
-      "profileUrl": "https://www.instagram.com/learntheharmonica/",
+      "username": "liamwardmusic",
+      "profileUrl": "https://www.instagram.com/liamwardmusic/",
       "feedUrl": ""
     },
     {
-      "id": "ig_story_learntheharmonica",
+      "id": "ig_story_liamwardmusic",
       "name": "Liam Ward & Malcolm Thorne",
       "platform": "instagram",
       "type": "rsshub_instagram_story",
-      "username": "learntheharmonica",
-      "profileUrl": "https://www.instagram.com/learntheharmonica/",
-      "feedUrl": "https://rss.observe.tw/picuki/profile/learntheharmonica/story/0"
+      "username": "liamwardmusic",
+      "profileUrl": "https://www.instagram.com/liamwardmusic/",
+      "feedUrl": "https://rss.observe.tw/picuki/profile/liamwardmusic/story/0"
     },
     {
       "id": "ig_long_deng_jie",
@@ -15262,15 +15375,6 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "feedUrl": "https://rss.observe.tw/twitter/user/duovolce"
     },
     {
-      "id": "x_stevebakerharp",
-      "name": "Steve Baker",
-      "platform": "x",
-      "type": "rss",
-      "username": "stevebakerharp",
-      "profileUrl": "https://x.com/stevebakerharp",
-      "feedUrl": "https://rss.observe.tw/twitter/user/stevebakerharp"
-    },
-    {
       "id": "x_minami_risa",
       "name": "南里沙",
       "platform": "x",
@@ -16244,6 +16348,69 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rss": "/feeds/events.xml",
       "json": "/feeds/events.json",
       "items": [
+        {
+          "title": "臺灣口琴音樂節 THMF｜🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！此次邀請的一位重量級嘉賓是來自日本，享譽國際的半音階口琴演奏家 @minami_risa 南 里... 🌟 本次2026臺灣口琴音樂節，將匯…",
+          "headline": "🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！此次邀請的一位重量級嘉賓是來自日本，享譽國際的半音階口琴演奏家 @minami_risa 南 里...",
+          "link": "https://www.instagram.com/p/DaFOPgqkyVb/",
+          "source_id": "ig_taiwanharmonica",
+          "source": "臺灣口琴音樂節 THMF",
+          "source_system_name": "臺灣口琴音樂節 THMF",
+          "source_profile_url": "https://www.instagram.com/taiwanharmonica/",
+          "account": "taiwanharmonica",
+          "platform": "instagram",
+          "platform_label": "instagram",
+          "posted_at": "Sat, 27 Jun 2026 07:51:38 GMT",
+          "posted_at_local": "2026-06-27 15:51",
+          "seen_at": "2026-06-27T08:17:15.111963+00:00",
+          "media_type": "",
+          "story": false,
+          "story_provider": "",
+          "story_fetched_at": "",
+          "source_feed_url": "https://rss.observe.tw/instagram/2/user/taiwanharmonica",
+          "rsshub_guid": "",
+          "rsshub_title": "",
+          "matched_keywords": [
+            "口琴",
+            "演出",
+            "比賽",
+            "harmonica"
+          ],
+          "keyword_matches": [
+            "口琴",
+            "演出",
+            "比賽",
+            "harmonica"
+          ],
+          "llm_relevant": null,
+          "llm_confidence": null,
+          "llm_labels": [],
+          "llm_categories": [],
+          "llm_reason": "",
+          "text": "🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！此次邀請的一位重量級嘉賓是來自日本，享譽國際的半音階口琴演奏家 @minami_risa 南 里...\n🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！此次邀請的一位重量級嘉賓是來自日本，享譽國際的半音階口琴演奏家 @minami_risa 南 里沙 ! 💪\n南里沙，半音階口琴演奏家，畢業於神戶女學院大學音樂學系（主修雙簧管）。在接觸半音階口琴後深受其魅力吸引，開始投入學習，並一路持續至今，發展為其終身熱愛的演奏志業。\n2009年，於德國 F.I.H. 國際口琴比賽公開組獲得第二名；其後於第八屆亞太口琴節（新加坡）半音階獨奏公開組榮獲第一名。\n南里沙亦為全球首位與保加利亞國家索菲亞愛樂管弦樂團合作，完整演出《Labyrinth of Fantasy》（半音階口琴協奏曲）四個樂章的演奏家，演出獲得熱烈迴響。\n2013年，以首張專輯《Mint Tea》由 King Records 正式出道。近年演出與錄製工作廣泛，包括參與 NHK 電視節目《Anthology Album》，並與東京愛樂交響樂團、東京混聲合唱團合作演出，同時亦參與多部戲劇與動畫配樂錄製。\n憑藉精湛且高水準的半音階口琴演奏技巧，以及跨越音樂領域的多元活動，南里沙在日本國內外累積了眾多樂迷與音樂專業人士的支持與喜愛。現為 HOHNER Artist。\n--\n🌟 The 2026 Taiwan Harmonica Music Festival will bring together harmonica artists from across Asia to perform on the same stage. One of the distinguished guests invited this year is Minami Risa, an internationally renowned chromatic harmonica player from Japan! 💪\nRisa Minami, the chromatic harmonica player, graduated from Kobe College, majoring in Music (speciality : oboe). Enchanted by the chromatic harmonica, Risa began studying it. This is the passion she has pursued to this day.\nIn 2009, Risa Minami won second prize in the open category of the F.I.H. Competition in Germany. …",
+          "images": [
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730452653_17946050535238733_7654527268567002734_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkyODYwODg3ODk0NjkxOTAwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTM2My5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3RvR0Z2v7i0Q7kNvwFiaTk6&_nc_oc=AdobT0Qa-hUixBkthtR_wD3p7pbN7d00EEbsscT--6mYDEcftA4ygIcbTZQChDjHpSg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QLMFk87jcYcH5RhayR3T1g&_nc_ss=7a22e&oh=00_Af-ck28GSt9Db9Fj59WfPSbiwrMikPpOHrdkgurTELGA6Q&oe=6A45593B",
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/728861542_17946050538238733_4532698922366798461_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkyODYwODg3ODczNzIwOTEzMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTUzNi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=DKt2QaBJMjQQ7kNvwFz8MKP&_nc_oc=AdppZ-p-QdZe_jOL4xz5pqiWELJ2maf0XTUJA6K56c2piDxh7AHrp2bMHewHiEf7UFc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QLMFk87jcYcH5RhayR3T1g&_nc_ss=7a22e&oh=00_Af-RphFgqmurveeRRn9y7QFP-TrFIoWaBRVIDKix0nrS_A&oe=6A45560F"
+          ],
+          "videos": [],
+          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730452653_17946050535238733_7654527268567002734_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkyODYwODg3ODk0NjkxOTAwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTM2My5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3RvR0Z2v7i0Q7kNvwFiaTk6&_nc_oc=AdobT0Qa-hUixBkthtR_wD3p7pbN7d00EEbsscT--6mYDEcftA4ygIcbTZQChDjHpSg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QLMFk87jcYcH5RhayR3T1g&_nc_ss=7a22e&oh=00_Af-ck28GSt9Db9Fj59WfPSbiwrMikPpOHrdkgurTELGA6Q&oe=6A45593B",
+          "image_url": "/assets/feed-images/101759a4fccfb738ba2c.webp",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/447992418_962944642277635_2609615645552309724_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gF4E8PlUYV7cF1cqhJIfm25bO7B-0--e7NfGi-_sNd0guGy-3WngT60CY6nK0PINBQ&_nc_ohc=PtBw7oCI9vUQ7kNvwGbr35m&_nc_gid=_ZLEubNtcMzSsT-r4le7Lg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af9tD4dyDw-PN02lMPhAu8iuGVcuWTR61gVzmfN6Nrsi_g&oe=6A455BD0&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/9f90966dec429229a169.webp",
+          "source_initials": "T",
+          "categories": [
+            "posts-videos",
+            "events",
+            "opportunities",
+            "student-clubs"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動",
+            "補助比賽",
+            "學生社團"
+          ],
+          "key": "ig_taiwanharmonica:https://www.instagram.com/p/DaFOPgqkyVb/"
+        },
         {
           "title": "RedBricks Harmonica｜⚡️《琴聲貢聚》 口琴計劃 - 計劃啟動音樂會⚡️ 上星期日下午，RedBricks去到坑口社區會堂為西貢區居民帶來口琴重奏演出🕺 再次感謝 香港口琴協會 @hkharmonica 的邀請🤝 祝大家…",
           "headline": "⚡️《琴聲貢聚》 口琴計劃 - 計劃啟動音樂會⚡️",
@@ -24269,7 +24436,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "key": "ig_cozy_harmonica_60th:https://www.instagram.com/p/DY4esEXiRCy/"
         }
       ],
-      "count": 130
+      "count": 131
     },
     {
       "id": "posts-videos",
@@ -24280,6 +24447,119 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rss": "/feeds/posts-videos.xml",
       "json": "/feeds/posts-videos.json",
       "items": [
+        {
+          "title": "山下伶 Rei Yamashita｜【ご報告】HOHNERアーティストに就任しました！ 皆さま、いつも温かい応援をありがとうございます😌 昨日HOHNER公式との共同投稿でもお知らせいたしましたが、改めて私、山下伶からもご報告させてくださ…",
+          "headline": "【ご報告】HOHNERアーティストに就任しました！",
+          "link": "https://www.instagram.com/p/DaFRO69zTx2/",
+          "source_id": "ig_rei_harmonica",
+          "source": "山下伶 Rei Yamashita",
+          "source_system_name": "山下伶 Rei Yamashita",
+          "source_profile_url": "https://www.instagram.com/rei_harmonica/",
+          "account": "rei_harmonica",
+          "platform": "instagram",
+          "platform_label": "instagram",
+          "posted_at": "Sat, 27 Jun 2026 08:19:57 GMT",
+          "posted_at_local": "2026-06-27 16:19",
+          "seen_at": "2026-06-27T08:55:22.870558+00:00",
+          "media_type": "",
+          "story": false,
+          "story_provider": "",
+          "story_fetched_at": "",
+          "source_feed_url": "https://rss.observe.tw/instagram/2/user/rei_harmonica",
+          "rsshub_guid": "",
+          "rsshub_title": "",
+          "matched_keywords": [
+            "harmonica"
+          ],
+          "keyword_matches": [
+            "harmonica"
+          ],
+          "llm_relevant": null,
+          "llm_confidence": null,
+          "llm_labels": [],
+          "llm_categories": [],
+          "llm_reason": "",
+          "text": "【ご報告】HOHNERアーティストに就任しました！\n皆さま、いつも温かい応援をありがとうございます😌\n昨日HOHNER公式との共同投稿でもお知らせいたしましたが、改めて私、山下伶からもご報告させてください。\nこの度、以前から深く信頼し愛用してきたブランド「HOHNER（ホーナー）」と正式にアーティスト契約を結び、HOHNERファミリーの一員となりました！\nメジャーデビュー10周年という大きな節目に、このような形で新たな一歩を踏み出せることを、とても光栄に感じています。\n\"I’m so excited to start this new journey with Hohner!\"\n（Hohnerと共に、この新しい旅を始められることにとてもワクワクしています！）\nいつも支えてくださる皆様のおかげで、今の私があります。本当にありがとうございます。\nこれからもHOHNERのハーモニカと共に、より素敵な音楽を日本から世界中へ届けていけるよう、精一杯頑張ります。これからもどうぞよろしくお願いいたします！\n#Hohner #HohnerArtist #ChromaticHarmonica #ReiYamashita #クロマチックハーモニカ",
+          "images": [
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/729787246_18542909146076837_1021460118158521899_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=MzkyODYyMjA0MjEyNzg3NTE5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=HDAFqDKSekEQ7kNvwHufujQ&_nc_oc=AdplObEharg9SumajqTQt0ffdedlcyoLp4lSq8Cm8EfjzCY3VGDIiohxJdvLA34LKkU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=L_-8OO0iMRAeYU_lid4mAQ&_nc_ss=7a22e&oh=00_Af9Wj2MdvqW-M05e144WyWoPJ_QAKOtYyhSHuS1c4iykdg&oe=6A4548F8"
+          ],
+          "videos": [],
+          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/729787246_18542909146076837_1021460118158521899_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=MzkyODYyMjA0MjEyNzg3NTE5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=HDAFqDKSekEQ7kNvwHufujQ&_nc_oc=AdplObEharg9SumajqTQt0ffdedlcyoLp4lSq8Cm8EfjzCY3VGDIiohxJdvLA34LKkU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=L_-8OO0iMRAeYU_lid4mAQ&_nc_ss=7a22e&oh=00_Af9Wj2MdvqW-M05e144WyWoPJ_QAKOtYyhSHuS1c4iykdg&oe=6A4548F8",
+          "image_url": "/assets/feed-images/feb16076da01eb60b118.webp",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/503187975_18466821646076837_1903386838267563286_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gFM8EWDx4O6QQObINtWh78c1G32tAaRbMVIgNTdg1d_pdX4OWESJJmKvvTNj1_7tmg&_nc_ohc=SAAlnU2kPekQ7kNvwE3HMFT&_nc_gid=fjzKABkKsA9hSl08HP730Q&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af-0qSJEyCXZZHA8c-sfKUMJpGDQs6rHiQIvVlC4jZjofQ&oe=6A4556B8&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/358247ae43be451ad4bd.webp",
+          "source_initials": "RY",
+          "categories": [
+            "posts-videos"
+          ],
+          "category_labels": [
+            "貼文影片"
+          ],
+          "key": "ig_rei_harmonica:https://www.instagram.com/p/DaFRO69zTx2/"
+        },
+        {
+          "title": "臺灣口琴音樂節 THMF｜🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！此次邀請的一位重量級嘉賓是來自日本，享譽國際的半音階口琴演奏家 @minami_risa 南 里... 🌟 本次2026臺灣口琴音樂節，將匯…",
+          "headline": "🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！此次邀請的一位重量級嘉賓是來自日本，享譽國際的半音階口琴演奏家 @minami_risa 南 里...",
+          "link": "https://www.instagram.com/p/DaFOPgqkyVb/",
+          "source_id": "ig_taiwanharmonica",
+          "source": "臺灣口琴音樂節 THMF",
+          "source_system_name": "臺灣口琴音樂節 THMF",
+          "source_profile_url": "https://www.instagram.com/taiwanharmonica/",
+          "account": "taiwanharmonica",
+          "platform": "instagram",
+          "platform_label": "instagram",
+          "posted_at": "Sat, 27 Jun 2026 07:51:38 GMT",
+          "posted_at_local": "2026-06-27 15:51",
+          "seen_at": "2026-06-27T08:17:15.111963+00:00",
+          "media_type": "",
+          "story": false,
+          "story_provider": "",
+          "story_fetched_at": "",
+          "source_feed_url": "https://rss.observe.tw/instagram/2/user/taiwanharmonica",
+          "rsshub_guid": "",
+          "rsshub_title": "",
+          "matched_keywords": [
+            "口琴",
+            "演出",
+            "比賽",
+            "harmonica"
+          ],
+          "keyword_matches": [
+            "口琴",
+            "演出",
+            "比賽",
+            "harmonica"
+          ],
+          "llm_relevant": null,
+          "llm_confidence": null,
+          "llm_labels": [],
+          "llm_categories": [],
+          "llm_reason": "",
+          "text": "🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！此次邀請的一位重量級嘉賓是來自日本，享譽國際的半音階口琴演奏家 @minami_risa 南 里...\n🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！此次邀請的一位重量級嘉賓是來自日本，享譽國際的半音階口琴演奏家 @minami_risa 南 里沙 ! 💪\n南里沙，半音階口琴演奏家，畢業於神戶女學院大學音樂學系（主修雙簧管）。在接觸半音階口琴後深受其魅力吸引，開始投入學習，並一路持續至今，發展為其終身熱愛的演奏志業。\n2009年，於德國 F.I.H. 國際口琴比賽公開組獲得第二名；其後於第八屆亞太口琴節（新加坡）半音階獨奏公開組榮獲第一名。\n南里沙亦為全球首位與保加利亞國家索菲亞愛樂管弦樂團合作，完整演出《Labyrinth of Fantasy》（半音階口琴協奏曲）四個樂章的演奏家，演出獲得熱烈迴響。\n2013年，以首張專輯《Mint Tea》由 King Records 正式出道。近年演出與錄製工作廣泛，包括參與 NHK 電視節目《Anthology Album》，並與東京愛樂交響樂團、東京混聲合唱團合作演出，同時亦參與多部戲劇與動畫配樂錄製。\n憑藉精湛且高水準的半音階口琴演奏技巧，以及跨越音樂領域的多元活動，南里沙在日本國內外累積了眾多樂迷與音樂專業人士的支持與喜愛。現為 HOHNER Artist。\n--\n🌟 The 2026 Taiwan Harmonica Music Festival will bring together harmonica artists from across Asia to perform on the same stage. One of the distinguished guests invited this year is Minami Risa, an internationally renowned chromatic harmonica player from Japan! 💪\nRisa Minami, the chromatic harmonica player, graduated from Kobe College, majoring in Music (speciality : oboe). Enchanted by the chromatic harmonica, Risa began studying it. This is the passion she has pursued to this day.\nIn 2009, Risa Minami won second prize in the open category of the F.I.H. Competition in Germany. …",
+          "images": [
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730452653_17946050535238733_7654527268567002734_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkyODYwODg3ODk0NjkxOTAwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTM2My5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3RvR0Z2v7i0Q7kNvwFiaTk6&_nc_oc=AdobT0Qa-hUixBkthtR_wD3p7pbN7d00EEbsscT--6mYDEcftA4ygIcbTZQChDjHpSg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QLMFk87jcYcH5RhayR3T1g&_nc_ss=7a22e&oh=00_Af-ck28GSt9Db9Fj59WfPSbiwrMikPpOHrdkgurTELGA6Q&oe=6A45593B",
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/728861542_17946050538238733_4532698922366798461_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkyODYwODg3ODczNzIwOTEzMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTUzNi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=DKt2QaBJMjQQ7kNvwFz8MKP&_nc_oc=AdppZ-p-QdZe_jOL4xz5pqiWELJ2maf0XTUJA6K56c2piDxh7AHrp2bMHewHiEf7UFc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QLMFk87jcYcH5RhayR3T1g&_nc_ss=7a22e&oh=00_Af-RphFgqmurveeRRn9y7QFP-TrFIoWaBRVIDKix0nrS_A&oe=6A45560F"
+          ],
+          "videos": [],
+          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730452653_17946050535238733_7654527268567002734_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkyODYwODg3ODk0NjkxOTAwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTM2My5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3RvR0Z2v7i0Q7kNvwFiaTk6&_nc_oc=AdobT0Qa-hUixBkthtR_wD3p7pbN7d00EEbsscT--6mYDEcftA4ygIcbTZQChDjHpSg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QLMFk87jcYcH5RhayR3T1g&_nc_ss=7a22e&oh=00_Af-ck28GSt9Db9Fj59WfPSbiwrMikPpOHrdkgurTELGA6Q&oe=6A45593B",
+          "image_url": "/assets/feed-images/101759a4fccfb738ba2c.webp",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/447992418_962944642277635_2609615645552309724_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gF4E8PlUYV7cF1cqhJIfm25bO7B-0--e7NfGi-_sNd0guGy-3WngT60CY6nK0PINBQ&_nc_ohc=PtBw7oCI9vUQ7kNvwGbr35m&_nc_gid=_ZLEubNtcMzSsT-r4le7Lg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af9tD4dyDw-PN02lMPhAu8iuGVcuWTR61gVzmfN6Nrsi_g&oe=6A455BD0&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/9f90966dec429229a169.webp",
+          "source_initials": "T",
+          "categories": [
+            "posts-videos",
+            "events",
+            "opportunities",
+            "student-clubs"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動",
+            "補助比賽",
+            "學生社團"
+          ],
+          "key": "ig_taiwanharmonica:https://www.instagram.com/p/DaFOPgqkyVb/"
+        },
         {
           "title": "RedBricks Harmonica｜⚡️《琴聲貢聚》 口琴計劃 - 計劃啟動音樂會⚡️ 上星期日下午，RedBricks去到坑口社區會堂為西貢區居民帶來口琴重奏演出🕺 再次感謝 香港口琴協會 @hkharmonica 的邀請🤝 祝大家…",
           "headline": "⚡️《琴聲貢聚》 口琴計劃 - 計劃啟動音樂會⚡️",
@@ -36541,7 +36821,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "key": "ig_cozy_harmonica_60th:https://www.instagram.com/p/DY4esEXiRCy/"
         }
       ],
-      "count": 211
+      "count": 213
     },
     {
       "id": "student-clubs",
@@ -36552,6 +36832,69 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rss": "/feeds/student-clubs.xml",
       "json": "/feeds/student-clubs.json",
       "items": [
+        {
+          "title": "臺灣口琴音樂節 THMF｜🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！此次邀請的一位重量級嘉賓是來自日本，享譽國際的半音階口琴演奏家 @minami_risa 南 里... 🌟 本次2026臺灣口琴音樂節，將匯…",
+          "headline": "🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！此次邀請的一位重量級嘉賓是來自日本，享譽國際的半音階口琴演奏家 @minami_risa 南 里...",
+          "link": "https://www.instagram.com/p/DaFOPgqkyVb/",
+          "source_id": "ig_taiwanharmonica",
+          "source": "臺灣口琴音樂節 THMF",
+          "source_system_name": "臺灣口琴音樂節 THMF",
+          "source_profile_url": "https://www.instagram.com/taiwanharmonica/",
+          "account": "taiwanharmonica",
+          "platform": "instagram",
+          "platform_label": "instagram",
+          "posted_at": "Sat, 27 Jun 2026 07:51:38 GMT",
+          "posted_at_local": "2026-06-27 15:51",
+          "seen_at": "2026-06-27T08:17:15.111963+00:00",
+          "media_type": "",
+          "story": false,
+          "story_provider": "",
+          "story_fetched_at": "",
+          "source_feed_url": "https://rss.observe.tw/instagram/2/user/taiwanharmonica",
+          "rsshub_guid": "",
+          "rsshub_title": "",
+          "matched_keywords": [
+            "口琴",
+            "演出",
+            "比賽",
+            "harmonica"
+          ],
+          "keyword_matches": [
+            "口琴",
+            "演出",
+            "比賽",
+            "harmonica"
+          ],
+          "llm_relevant": null,
+          "llm_confidence": null,
+          "llm_labels": [],
+          "llm_categories": [],
+          "llm_reason": "",
+          "text": "🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！此次邀請的一位重量級嘉賓是來自日本，享譽國際的半音階口琴演奏家 @minami_risa 南 里...\n🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！此次邀請的一位重量級嘉賓是來自日本，享譽國際的半音階口琴演奏家 @minami_risa 南 里沙 ! 💪\n南里沙，半音階口琴演奏家，畢業於神戶女學院大學音樂學系（主修雙簧管）。在接觸半音階口琴後深受其魅力吸引，開始投入學習，並一路持續至今，發展為其終身熱愛的演奏志業。\n2009年，於德國 F.I.H. 國際口琴比賽公開組獲得第二名；其後於第八屆亞太口琴節（新加坡）半音階獨奏公開組榮獲第一名。\n南里沙亦為全球首位與保加利亞國家索菲亞愛樂管弦樂團合作，完整演出《Labyrinth of Fantasy》（半音階口琴協奏曲）四個樂章的演奏家，演出獲得熱烈迴響。\n2013年，以首張專輯《Mint Tea》由 King Records 正式出道。近年演出與錄製工作廣泛，包括參與 NHK 電視節目《Anthology Album》，並與東京愛樂交響樂團、東京混聲合唱團合作演出，同時亦參與多部戲劇與動畫配樂錄製。\n憑藉精湛且高水準的半音階口琴演奏技巧，以及跨越音樂領域的多元活動，南里沙在日本國內外累積了眾多樂迷與音樂專業人士的支持與喜愛。現為 HOHNER Artist。\n--\n🌟 The 2026 Taiwan Harmonica Music Festival will bring together harmonica artists from across Asia to perform on the same stage. One of the distinguished guests invited this year is Minami Risa, an internationally renowned chromatic harmonica player from Japan! 💪\nRisa Minami, the chromatic harmonica player, graduated from Kobe College, majoring in Music (speciality : oboe). Enchanted by the chromatic harmonica, Risa began studying it. This is the passion she has pursued to this day.\nIn 2009, Risa Minami won second prize in the open category of the F.I.H. Competition in Germany. …",
+          "images": [
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730452653_17946050535238733_7654527268567002734_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkyODYwODg3ODk0NjkxOTAwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTM2My5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3RvR0Z2v7i0Q7kNvwFiaTk6&_nc_oc=AdobT0Qa-hUixBkthtR_wD3p7pbN7d00EEbsscT--6mYDEcftA4ygIcbTZQChDjHpSg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QLMFk87jcYcH5RhayR3T1g&_nc_ss=7a22e&oh=00_Af-ck28GSt9Db9Fj59WfPSbiwrMikPpOHrdkgurTELGA6Q&oe=6A45593B",
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/728861542_17946050538238733_4532698922366798461_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkyODYwODg3ODczNzIwOTEzMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTUzNi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=DKt2QaBJMjQQ7kNvwFz8MKP&_nc_oc=AdppZ-p-QdZe_jOL4xz5pqiWELJ2maf0XTUJA6K56c2piDxh7AHrp2bMHewHiEf7UFc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QLMFk87jcYcH5RhayR3T1g&_nc_ss=7a22e&oh=00_Af-RphFgqmurveeRRn9y7QFP-TrFIoWaBRVIDKix0nrS_A&oe=6A45560F"
+          ],
+          "videos": [],
+          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730452653_17946050535238733_7654527268567002734_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkyODYwODg3ODk0NjkxOTAwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTM2My5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3RvR0Z2v7i0Q7kNvwFiaTk6&_nc_oc=AdobT0Qa-hUixBkthtR_wD3p7pbN7d00EEbsscT--6mYDEcftA4ygIcbTZQChDjHpSg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QLMFk87jcYcH5RhayR3T1g&_nc_ss=7a22e&oh=00_Af-ck28GSt9Db9Fj59WfPSbiwrMikPpOHrdkgurTELGA6Q&oe=6A45593B",
+          "image_url": "/assets/feed-images/101759a4fccfb738ba2c.webp",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/447992418_962944642277635_2609615645552309724_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gF4E8PlUYV7cF1cqhJIfm25bO7B-0--e7NfGi-_sNd0guGy-3WngT60CY6nK0PINBQ&_nc_ohc=PtBw7oCI9vUQ7kNvwGbr35m&_nc_gid=_ZLEubNtcMzSsT-r4le7Lg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af9tD4dyDw-PN02lMPhAu8iuGVcuWTR61gVzmfN6Nrsi_g&oe=6A455BD0&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/9f90966dec429229a169.webp",
+          "source_initials": "T",
+          "categories": [
+            "posts-videos",
+            "events",
+            "opportunities",
+            "student-clubs"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動",
+            "補助比賽",
+            "學生社團"
+          ],
+          "key": "ig_taiwanharmonica:https://www.instagram.com/p/DaFOPgqkyVb/"
+        },
         {
           "title": "蔡明憲｜生日禮物， 十年對於24-34 歲來說是一個相對大的跨度，從一個剛出社會工作的年輕人，到有穩定的工作、經營事業；2016年我坐在替代役學校的警衛室，用我的 Windows筆電按下「購買」鍵，買下人生第一台規格比較好的 MacBoo…",
           "headline": "生日禮物，",
@@ -40108,7 +40451,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "key": "ig_cozy_harmonica_60th:https://www.instagram.com/p/DY4esEXiRCy/"
         }
       ],
-      "count": 57
+      "count": 58
     },
     {
       "id": "opportunities",
@@ -40119,6 +40462,69 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rss": "/feeds/opportunities.xml",
       "json": "/feeds/opportunities.json",
       "items": [
+        {
+          "title": "臺灣口琴音樂節 THMF｜🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！此次邀請的一位重量級嘉賓是來自日本，享譽國際的半音階口琴演奏家 @minami_risa 南 里... 🌟 本次2026臺灣口琴音樂節，將匯…",
+          "headline": "🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！此次邀請的一位重量級嘉賓是來自日本，享譽國際的半音階口琴演奏家 @minami_risa 南 里...",
+          "link": "https://www.instagram.com/p/DaFOPgqkyVb/",
+          "source_id": "ig_taiwanharmonica",
+          "source": "臺灣口琴音樂節 THMF",
+          "source_system_name": "臺灣口琴音樂節 THMF",
+          "source_profile_url": "https://www.instagram.com/taiwanharmonica/",
+          "account": "taiwanharmonica",
+          "platform": "instagram",
+          "platform_label": "instagram",
+          "posted_at": "Sat, 27 Jun 2026 07:51:38 GMT",
+          "posted_at_local": "2026-06-27 15:51",
+          "seen_at": "2026-06-27T08:17:15.111963+00:00",
+          "media_type": "",
+          "story": false,
+          "story_provider": "",
+          "story_fetched_at": "",
+          "source_feed_url": "https://rss.observe.tw/instagram/2/user/taiwanharmonica",
+          "rsshub_guid": "",
+          "rsshub_title": "",
+          "matched_keywords": [
+            "口琴",
+            "演出",
+            "比賽",
+            "harmonica"
+          ],
+          "keyword_matches": [
+            "口琴",
+            "演出",
+            "比賽",
+            "harmonica"
+          ],
+          "llm_relevant": null,
+          "llm_confidence": null,
+          "llm_labels": [],
+          "llm_categories": [],
+          "llm_reason": "",
+          "text": "🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！此次邀請的一位重量級嘉賓是來自日本，享譽國際的半音階口琴演奏家 @minami_risa 南 里...\n🌟 本次2026臺灣口琴音樂節，將匯聚來自亞洲各國的口琴演奏家同台演奏！此次邀請的一位重量級嘉賓是來自日本，享譽國際的半音階口琴演奏家 @minami_risa 南 里沙 ! 💪\n南里沙，半音階口琴演奏家，畢業於神戶女學院大學音樂學系（主修雙簧管）。在接觸半音階口琴後深受其魅力吸引，開始投入學習，並一路持續至今，發展為其終身熱愛的演奏志業。\n2009年，於德國 F.I.H. 國際口琴比賽公開組獲得第二名；其後於第八屆亞太口琴節（新加坡）半音階獨奏公開組榮獲第一名。\n南里沙亦為全球首位與保加利亞國家索菲亞愛樂管弦樂團合作，完整演出《Labyrinth of Fantasy》（半音階口琴協奏曲）四個樂章的演奏家，演出獲得熱烈迴響。\n2013年，以首張專輯《Mint Tea》由 King Records 正式出道。近年演出與錄製工作廣泛，包括參與 NHK 電視節目《Anthology Album》，並與東京愛樂交響樂團、東京混聲合唱團合作演出，同時亦參與多部戲劇與動畫配樂錄製。\n憑藉精湛且高水準的半音階口琴演奏技巧，以及跨越音樂領域的多元活動，南里沙在日本國內外累積了眾多樂迷與音樂專業人士的支持與喜愛。現為 HOHNER Artist。\n--\n🌟 The 2026 Taiwan Harmonica Music Festival will bring together harmonica artists from across Asia to perform on the same stage. One of the distinguished guests invited this year is Minami Risa, an internationally renowned chromatic harmonica player from Japan! 💪\nRisa Minami, the chromatic harmonica player, graduated from Kobe College, majoring in Music (speciality : oboe). Enchanted by the chromatic harmonica, Risa began studying it. This is the passion she has pursued to this day.\nIn 2009, Risa Minami won second prize in the open category of the F.I.H. Competition in Germany. …",
+          "images": [
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730452653_17946050535238733_7654527268567002734_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkyODYwODg3ODk0NjkxOTAwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTM2My5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3RvR0Z2v7i0Q7kNvwFiaTk6&_nc_oc=AdobT0Qa-hUixBkthtR_wD3p7pbN7d00EEbsscT--6mYDEcftA4ygIcbTZQChDjHpSg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QLMFk87jcYcH5RhayR3T1g&_nc_ss=7a22e&oh=00_Af-ck28GSt9Db9Fj59WfPSbiwrMikPpOHrdkgurTELGA6Q&oe=6A45593B",
+            "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/728861542_17946050538238733_4532698922366798461_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=MzkyODYwODg3ODczNzIwOTEzMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTUzNi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=DKt2QaBJMjQQ7kNvwFz8MKP&_nc_oc=AdppZ-p-QdZe_jOL4xz5pqiWELJ2maf0XTUJA6K56c2piDxh7AHrp2bMHewHiEf7UFc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QLMFk87jcYcH5RhayR3T1g&_nc_ss=7a22e&oh=00_Af-RphFgqmurveeRRn9y7QFP-TrFIoWaBRVIDKix0nrS_A&oe=6A45560F"
+          ],
+          "videos": [],
+          "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730452653_17946050535238733_7654527268567002734_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkyODYwODg3ODk0NjkxOTAwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTM2My5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3RvR0Z2v7i0Q7kNvwFiaTk6&_nc_oc=AdobT0Qa-hUixBkthtR_wD3p7pbN7d00EEbsscT--6mYDEcftA4ygIcbTZQChDjHpSg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QLMFk87jcYcH5RhayR3T1g&_nc_ss=7a22e&oh=00_Af-ck28GSt9Db9Fj59WfPSbiwrMikPpOHrdkgurTELGA6Q&oe=6A45593B",
+          "image_url": "/assets/feed-images/101759a4fccfb738ba2c.webp",
+          "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/447992418_962944642277635_2609615645552309724_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gF4E8PlUYV7cF1cqhJIfm25bO7B-0--e7NfGi-_sNd0guGy-3WngT60CY6nK0PINBQ&_nc_ohc=PtBw7oCI9vUQ7kNvwGbr35m&_nc_gid=_ZLEubNtcMzSsT-r4le7Lg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af9tD4dyDw-PN02lMPhAu8iuGVcuWTR61gVzmfN6Nrsi_g&oe=6A455BD0&_nc_sid=8b3546",
+          "avatar_url": "/assets/source-avatars/9f90966dec429229a169.webp",
+          "source_initials": "T",
+          "categories": [
+            "posts-videos",
+            "events",
+            "opportunities",
+            "student-clubs"
+          ],
+          "category_labels": [
+            "貼文影片",
+            "實體活動",
+            "補助比賽",
+            "學生社團"
+          ],
+          "key": "ig_taiwanharmonica:https://www.instagram.com/p/DaFOPgqkyVb/"
+        },
         {
           "title": "張晁滕｜《小步舞曲》複音獨奏指定曲#複音口琴#小步舞曲#口琴",
           "headline": "《小步舞曲》複音獨奏指定曲#複音口琴#小步舞曲#口琴",
@@ -41615,7 +42021,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "key": "ig_aidennevelyn:https://www.instagram.com/p/DY61wyITUkU/"
         }
       ],
-      "count": 23
+      "count": 24
     }
   ]
 };

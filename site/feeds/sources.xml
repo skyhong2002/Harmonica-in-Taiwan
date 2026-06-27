@@ -5,7 +5,40 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 27 Jun 2026 07:00:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jun 2026 10:10:13 +0000</lastBuildDate>
+    <item>
+      <title>山下伶 Rei Yamashita</title>
+      <link>https://rei-yamashita.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：口琴、演奏者、半音階、國際交流
+國家：日本
+地區：日本
+日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
+    </item>
+    <item>
+      <title>臺灣口琴音樂節 THMF</title>
+      <link>https://www.taiwanharmonica.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/675b716d5d0986ae</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：口琴、活動資訊、團體樂團、音樂節、比賽、半音階、複音、十孔
+國家：臺灣
+地區：臺灣
+臺灣的核心活動，涵蓋音樂節、比賽、Gala與講座。</description>
+    </item>
+    <item>
+      <title>南里沙</title>
+      <link>https://minamirisa.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/ad86c3570665b36e</guid>
+      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：口琴、演奏者、半音階、國際交流
+國家：日本
+地區：日本
+日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+    </item>
     <item>
       <title>RedBricks Harmonica</title>
       <link>https://www.facebook.com/redbricksharmonica/</link>
@@ -38,17 +71,6 @@ Tag：口琴、演奏者、教學、國際交流
 國家：巴西
 地區：巴西
 巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。</description>
-    </item>
-    <item>
-      <title>山下伶 Rei Yamashita</title>
-      <link>https://rei-yamashita.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
-      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：口琴、演奏者、半音階、國際交流
-國家：日本
-地區：日本
-日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
     </item>
     <item>
       <title>蔡明憲 DMing Studio</title>
@@ -126,17 +148,6 @@ Tag：口琴、演奏者、比賽、半音階、國際交流
 國家：香港
 地區：香港
 香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。</description>
-    </item>
-    <item>
-      <title>南里沙</title>
-      <link>https://minamirisa.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/ad86c3570665b36e</guid>
-      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：口琴、演奏者、半音階、國際交流
-國家：日本
-地區：日本
-日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
     </item>
     <item>
       <title>Jong-seong Park 朴鍾聲</title>
@@ -291,17 +302,6 @@ Tag：演奏者、半音階、國際交流
 國家：香港
 地區：香港
 香港的半音階國際演出人員與評審，活動脈絡包含評審與演出。</description>
-    </item>
-    <item>
-      <title>臺灣口琴音樂節 THMF</title>
-      <link>https://www.taiwanharmonica.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/675b716d5d0986ae</guid>
-      <pubDate>Sat, 27 Jun 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：口琴、活動資訊、團體樂團、音樂節、比賽、半音階、複音、十孔
-國家：臺灣
-地區：臺灣
-臺灣的核心活動，涵蓋音樂節、比賽、Gala與講座。</description>
     </item>
     <item>
       <title>師大口琴社</title>

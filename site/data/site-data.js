@@ -2,6 +2,291 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-06-27",
   "entries": [
     {
+      "id": "watchlist-53",
+      "name": "山下伶 Rei Yamashita",
+      "nameEn": "Rei Yamashita",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/演出",
+      "structuredSummary": "半音階/專輯/演出 / 半音階 / 國際演出人員",
+      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯與演出。",
+      "keywords": "山下伶 Rei Yamashita harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://rei-yamashita.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/rei.yamashita.5"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/rei_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@reiyamashita"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/rei_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-27T08:19:57+00:00",
+      "latestUpdateLocal": "2026-06-27 16:19",
+      "latestUpdateSource": "山下伶 Rei Yamashita",
+      "latestUpdateUrl": "https://www.instagram.com/p/DaFRO69zTx2/",
+      "avatarUrl": "/assets/source-avatars/88e248e6f1c02aaa881b.webp",
+      "sourceInitials": "RY",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_rei_yamashita_5",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/rei.yamashita.5",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "rei_harmonica",
+          "profileUrl": "https://www.instagram.com/rei_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "rei_harmonica",
+          "profileUrl": "https://www.instagram.com/rei_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/rei_harmonica/story/0"
+        },
+        {
+          "id": "x_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "x",
+          "type": "rss",
+          "username": "rei_harmonica",
+          "profileUrl": "https://x.com/rei_harmonica",
+          "feedUrl": "https://rss.observe.tw/twitter/user/rei_harmonica"
+        },
+        {
+          "id": "yt_reiyamashita",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@reiyamashita",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-2+watchlist-67",
+      "name": "臺灣口琴音樂節 THMF",
+      "nameEn": "Taiwan Harmonica Music Festival",
+      "category": "活動資訊",
+      "type": "活動/資訊入口 / 活動子來源",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "音樂節/比賽/Gala/講座 / 每年新興團體/青年演出",
+      "structuredSummary": "音樂節/比賽/Gala/講座 / 半音階/複音/十孔/重奏 / 核心活動",
+      "summary": "臺灣的核心活動，涵蓋音樂節、比賽、Gala與講座。",
+      "keywords": "THMF 臺灣口琴音樂節 Taiwan Harmonica Music Festival THMF 午間音樂會 新團體",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/twharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/taiwanharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@thmc6470"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [
+        "THMF 午間音樂會新團體"
+      ],
+      "latestUpdateAt": "2026-06-27T07:51:38+00:00",
+      "latestUpdateLocal": "2026-06-27 15:51",
+      "latestUpdateSource": "臺灣口琴音樂節 THMF",
+      "latestUpdateUrl": "https://www.instagram.com/p/DaFOPgqkyVb/",
+      "avatarUrl": "/assets/source-avatars/35e815a6169924844433.webp",
+      "sourceInitials": "T",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "團體樂團",
+        "音樂節",
+        "比賽",
+        "半音階",
+        "複音",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_twharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/twharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/taiwanharmonica/story/0"
+        },
+        {
+          "id": "ig_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_thmc6470",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@thmc6470",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-54",
+      "name": "南里沙",
+      "nameEn": "Minami Risa",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
+      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
+      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
+      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://minamirisa.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/minamirisa/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/minami_risa/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@minamirisa"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/minami_risa"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@minami_risa"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-27T07:51:38+00:00",
+      "latestUpdateLocal": "2026-06-27 15:51",
+      "latestUpdateSource": "南里沙",
+      "latestUpdateUrl": "https://www.instagram.com/p/DaFOPgqkyVb/",
+      "avatarUrl": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+      "sourceInitials": "南里",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_minamirisa",
+          "name": "南里沙",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/minamirisa",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
+        },
+        {
+          "id": "x_minami_risa",
+          "name": "南里沙",
+          "platform": "x",
+          "type": "rss",
+          "username": "minami_risa",
+          "profileUrl": "https://x.com/minami_risa",
+          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
+        },
+        {
+          "id": "yt_minamirisa",
+          "name": "南里沙",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@minamirisa",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-88",
       "name": "RedBricks Harmonica",
       "nameEn": "RedBricks Harmonica",
@@ -116,7 +401,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-27 01:42",
       "latestUpdateSource": "Yoonseok Lee",
       "latestUpdateUrl": "https://www.instagram.com/p/DaDtCrKt-Os/",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/63ea51f7f97c4e71df8b.webp",
       "sourceInitials": "YL",
       "sourceTags": [
         "口琴",
@@ -196,7 +481,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-26 22:56",
       "latestUpdateSource": "Rodrigo Eberienos",
       "latestUpdateUrl": "https://www.instagram.com/p/DaDEzKHR1q-/",
-      "avatarUrl": "/assets/source-avatars/f617792b880659b5b85b.webp",
+      "avatarUrl": "/assets/source-avatars/5b4cd78ad828edc6b9dc.webp",
       "sourceInitials": "RE",
       "sourceTags": [
         "口琴",
@@ -239,102 +524,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@eberienos",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-53",
-      "name": "山下伶 Rei Yamashita",
-      "nameEn": "Rei Yamashita",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/演出",
-      "structuredSummary": "半音階/專輯/演出 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯與演出。",
-      "keywords": "山下伶 Rei Yamashita harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://rei-yamashita.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/rei.yamashita.5"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/rei_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@reiyamashita"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/rei_harmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-26T07:00:05+00:00",
-      "latestUpdateLocal": "2026-06-26 15:00",
-      "latestUpdateSource": "山下伶 Rei Yamashita",
-      "latestUpdateUrl": "https://www.instagram.com/p/DaCjnV7jVG1/",
-      "avatarUrl": "/assets/source-avatars/88e248e6f1c02aaa881b.webp",
-      "sourceInitials": "RY",
-      "sourceTags": [
-        "口琴",
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_rei_yamashita_5",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/rei.yamashita.5",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "rei_harmonica",
-          "profileUrl": "https://www.instagram.com/rei_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "rei_harmonica",
-          "profileUrl": "https://www.instagram.com/rei_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/rei_harmonica/story/0"
-        },
-        {
-          "id": "x_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "x",
-          "type": "rss",
-          "username": "rei_harmonica",
-          "profileUrl": "https://x.com/rei_harmonica",
-          "feedUrl": "https://rss.observe.tw/twitter/user/rei_harmonica"
-        },
-        {
-          "id": "yt_reiyamashita",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@reiyamashita",
           "feedUrl": ""
         }
       ]
@@ -663,7 +852,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-25 23:57",
       "latestUpdateSource": "Konstantin Reinfeld",
       "latestUpdateUrl": "https://www.instagram.com/p/DaA7GcAspA2/",
-      "avatarUrl": "/assets/source-avatars/8073c6e25aadb686c4de.webp",
+      "avatarUrl": "/assets/source-avatars/7f55bcace9d81e8ee2e4.webp",
       "sourceInitials": "KR",
       "sourceTags": [
         "口琴",
@@ -747,7 +936,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-25 22:52",
       "latestUpdateSource": "Filip Jers",
       "latestUpdateUrl": "https://www.instagram.com/p/DaA0pgFMISy/",
-      "avatarUrl": "/assets/source-avatars/db9f28d448070c73d08c.webp",
+      "avatarUrl": "/assets/source-avatars/af9621d4008a9692446e.webp",
       "sourceInitials": "FJ",
       "sourceTags": [
         "口琴",
@@ -831,7 +1020,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-25 21:25",
       "latestUpdateSource": "Santiago Alvarez",
       "latestUpdateUrl": "https://www.instagram.com/p/DaAqom2RMGo/",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/14ce4f9fd968b3bf3339.webp",
       "sourceInitials": "SA",
       "sourceTags": [
         "口琴",
@@ -959,106 +1148,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-54",
-      "name": "南里沙",
-      "nameEn": "Minami Risa",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
-      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
-      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://minamirisa.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/minamirisa/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/minami_risa/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@minamirisa"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/minami_risa"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@minami_risa"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-25T10:13:35+00:00",
-      "latestUpdateLocal": "2026-06-25 18:13",
-      "latestUpdateSource": "南里沙",
-      "latestUpdateUrl": "https://www.facebook.com/minamirisa/posts/pfbid02Xx1AssbvjKU8DWtGxFnBKXrVEBpyjdUt2THJcrtjYrKfMfi5c8QJzYUV93EeacNMl",
-      "avatarUrl": "/assets/source-avatars/fdefacea4d8029e06564.webp",
-      "sourceInitials": "南里",
-      "sourceTags": [
-        "口琴",
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_minamirisa",
-          "name": "南里沙",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/minamirisa",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
-        },
-        {
-          "id": "x_minami_risa",
-          "name": "南里沙",
-          "platform": "x",
-          "type": "rss",
-          "username": "minami_risa",
-          "profileUrl": "https://x.com/minami_risa",
-          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
-        },
-        {
-          "id": "yt_minamirisa",
-          "name": "南里沙",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@minamirisa",
           "feedUrl": ""
         }
       ]
@@ -2130,95 +2219,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@DuoVolce",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-2+watchlist-67",
-      "name": "臺灣口琴音樂節 THMF",
-      "nameEn": "Taiwan Harmonica Music Festival",
-      "category": "活動資訊",
-      "type": "活動/資訊入口 / 活動子來源",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "音樂節/比賽/Gala/講座 / 每年新興團體/青年演出",
-      "structuredSummary": "音樂節/比賽/Gala/講座 / 半音階/複音/十孔/重奏 / 核心活動",
-      "summary": "臺灣的核心活動，涵蓋音樂節、比賽、Gala與講座。",
-      "keywords": "THMF 臺灣口琴音樂節 Taiwan Harmonica Music Festival THMF 午間音樂會 新團體",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.taiwanharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/twharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/taiwanharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@thmc6470"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [
-        "THMF 午間音樂會新團體"
-      ],
-      "latestUpdateAt": "2026-06-21T09:26:36+00:00",
-      "latestUpdateLocal": "2026-06-21 17:26",
-      "latestUpdateSource": "臺灣口琴音樂節 THMF",
-      "latestUpdateUrl": "https://www.instagram.com/p/DZ17j0Ok0wB/",
-      "avatarUrl": "/assets/source-avatars/35e815a6169924844433.webp",
-      "sourceInitials": "T",
-      "sourceTags": [
-        "口琴",
-        "活動資訊",
-        "團體樂團",
-        "音樂節",
-        "比賽",
-        "半音階",
-        "複音",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_twharmonica",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/twharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_taiwanharmonica",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "taiwanharmonica",
-          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/taiwanharmonica/story/0"
-        },
-        {
-          "id": "ig_taiwanharmonica",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "taiwanharmonica",
-          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_thmc6470",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@thmc6470",
           "feedUrl": ""
         }
       ]
@@ -6430,7 +6430,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "cityOrFocus": "WHF 2025/藍調口琴/吉他合作/教學",
       "structuredSummary": "WHF 2025/藍調口琴/吉他合作/教學 / 十孔/藍調口琴/吉他 / 國際演出團體/教育者",
       "summary": "英國的十孔、藍調口琴與吉他國際演出團體與教育者，活動脈絡包含WHF 2025、吉他合作與教學。",
-      "keywords": "Liam Ward Malcolm Thorne LearnTheHarmonica harmonica WHF 2025",
+      "keywords": "Liam Ward Malcolm Thorne LearnTheHarmonica liamwardmusic harmonica WHF 2025",
       "links": [
         {
           "label": "網站",
@@ -6442,7 +6442,7 @@ window.HARMONICA_OBSERVE_DATA = {
         },
         {
           "label": "Instagram",
-          "url": "https://www.instagram.com/learntheharmonica/"
+          "url": "https://www.instagram.com/liamwardmusic/"
         },
         {
           "label": "YouTube",
@@ -6475,22 +6475,22 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
-          "id": "ig_learntheharmonica",
+          "id": "ig_liamwardmusic",
           "name": "Liam Ward & Malcolm Thorne",
           "platform": "instagram",
           "type": "rsshub_instagram_profile",
-          "username": "learntheharmonica",
-          "profileUrl": "https://www.instagram.com/learntheharmonica/",
+          "username": "liamwardmusic",
+          "profileUrl": "https://www.instagram.com/liamwardmusic/",
           "feedUrl": ""
         },
         {
-          "id": "ig_story_learntheharmonica",
+          "id": "ig_story_liamwardmusic",
           "name": "Liam Ward & Malcolm Thorne",
           "platform": "instagram",
           "type": "rsshub_instagram_story",
-          "username": "learntheharmonica",
-          "profileUrl": "https://www.instagram.com/learntheharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/learntheharmonica/story/0"
+          "username": "liamwardmusic",
+          "profileUrl": "https://www.instagram.com/liamwardmusic/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/liamwardmusic/story/0"
         },
         {
           "id": "yt_learntheharmonica",
@@ -8509,7 +8509,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "cityOrFocus": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊",
       "structuredSummary": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊 / 十孔/半音階 / 國際演出人員/教學者",
       "summary": "俄羅斯的十孔與半音階國際演出人員與教學者，活動脈絡包含莫斯科職業口琴演奏、藍調爵士與國際比賽得獎。",
-      "keywords": "Boris Plotnikov etaborya harmonica SIHF",
+      "keywords": "Boris Plotnikov etaborya boris_plotnikov harmonica SIHF",
       "links": [
         {
           "label": "網站",
@@ -8521,7 +8521,7 @@ window.HARMONICA_OBSERVE_DATA = {
         },
         {
           "label": "Instagram",
-          "url": "https://www.instagram.com/etaborya/"
+          "url": "https://www.instagram.com/boris_plotnikov/"
         },
         {
           "label": "YouTube",
@@ -8556,22 +8556,22 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
-          "id": "ig_etaborya",
+          "id": "ig_boris_plotnikov",
           "name": "Boris Plotnikov",
           "platform": "instagram",
           "type": "rsshub_instagram_profile",
-          "username": "etaborya",
-          "profileUrl": "https://www.instagram.com/etaborya/",
+          "username": "boris_plotnikov",
+          "profileUrl": "https://www.instagram.com/boris_plotnikov/",
           "feedUrl": ""
         },
         {
-          "id": "ig_story_etaborya",
+          "id": "ig_story_boris_plotnikov",
           "name": "Boris Plotnikov",
           "platform": "instagram",
           "type": "rsshub_instagram_story",
-          "username": "etaborya",
-          "profileUrl": "https://www.instagram.com/etaborya/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/etaborya/story/0"
+          "username": "boris_plotnikov",
+          "profileUrl": "https://www.instagram.com/boris_plotnikov/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/boris_plotnikov/story/0"
         },
         {
           "id": "yt_etaborya",
@@ -8967,7 +8967,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "cityOrFocus": "WHF 2025/藍調口琴/高能量原創藍調樂團",
       "structuredSummary": "WHF 2025/藍調口琴/高能量原創藍調樂團 / 十孔/藍調口琴 / 國際演出人員",
       "summary": "美國的十孔與藍調口琴國際演出人員，活動脈絡包含WHF 2025與高能量原創藍調樂團。",
-      "keywords": "Hank Shreve Hank Shreve Band harmonica WHF 2025",
+      "keywords": "Hank Shreve Hank Shreve Band hankshreve harmonica WHF 2025",
       "links": [
         {
           "label": "網站",
@@ -8979,7 +8979,7 @@ window.HARMONICA_OBSERVE_DATA = {
         },
         {
           "label": "Instagram",
-          "url": "https://www.instagram.com/hankshrevemusic/"
+          "url": "https://www.instagram.com/hankshreve/"
         }
       ],
       "source": "watchlist",
@@ -9008,22 +9008,22 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
-          "id": "ig_hankshrevemusic",
+          "id": "ig_hankshreve",
           "name": "Hank Shreve",
           "platform": "instagram",
           "type": "rsshub_instagram_profile",
-          "username": "hankshrevemusic",
-          "profileUrl": "https://www.instagram.com/hankshrevemusic/",
+          "username": "hankshreve",
+          "profileUrl": "https://www.instagram.com/hankshreve/",
           "feedUrl": ""
         },
         {
-          "id": "ig_story_hankshrevemusic",
+          "id": "ig_story_hankshreve",
           "name": "Hank Shreve",
           "platform": "instagram",
           "type": "rsshub_instagram_story",
-          "username": "hankshrevemusic",
-          "profileUrl": "https://www.instagram.com/hankshrevemusic/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hankshrevemusic/story/0"
+          "username": "hankshreve",
+          "profileUrl": "https://www.instagram.com/hankshreve/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hankshreve/story/0"
         }
       ]
     },
@@ -9781,10 +9781,6 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/stevebakerbluesharp"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/stevebakerharp"
         }
       ],
       "source": "watchlist",
@@ -9810,15 +9806,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://facebook.com/stevebaker.harmonica",
           "feedUrl": ""
-        },
-        {
-          "id": "x_stevebakerharp",
-          "name": "Steve Baker",
-          "platform": "x",
-          "type": "rss",
-          "username": "stevebakerharp",
-          "profileUrl": "https://x.com/stevebakerharp",
-          "feedUrl": "https://rss.observe.tw/twitter/user/stevebakerharp"
         },
         {
           "id": "yt_stevebakerbluesharp",
@@ -10511,8 +10498,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "馬來西亞": 4
     },
     "watchSources": {
-      "totalSources": 441,
-      "rsshubSources": 220,
+      "totalSources": 440,
+      "rsshubSources": 219,
       "apifySources": 117,
       "facebookSources": 117,
       "youtubeSources": 104,
@@ -10520,12 +10507,12 @@ window.HARMONICA_OBSERVE_DATA = {
         "facebook": 117,
         "instagram": 212,
         "threads": 2,
-        "x": 6,
+        "x": 5,
         "youtube": 104
       },
       "types": {
         "facebook_page_posts": 117,
-        "rss": 8,
+        "rss": 7,
         "rsshub_instagram_profile": 106,
         "rsshub_instagram_story": 106,
         "youtube_ytdlp": 104

@@ -1,31 +1,31 @@
 {
-  "generatedAt": "2026-06-27T15:15:57+08:00",
+  "generatedAt": "2026-06-27T18:10:13+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
-    "status": "degraded",
-    "label": "部分異常",
-    "summary": "核心 pipeline 有產出；需要注意：Instagram RSSHub、X / Twitter RSS。"
+    "status": "ok",
+    "label": "正常",
+    "summary": "核心資料抓取與公開 API 正常。"
   },
   "metrics": {
-    "updates": 211,
+    "updates": 213,
     "updatesWindowDays": 30,
     "directoryEntries": 149,
-    "watchSources": 441,
-    "currentErrors": 4,
-    "latestDataAt": "2026-06-27T15:00:40+08:00",
-    "latestSocialObservationAt": "2026-06-27T15:00:33+08:00"
+    "watchSources": 440,
+    "currentErrors": 0,
+    "latestDataAt": "2026-06-27T18:10:13+08:00",
+    "latestSocialObservationAt": "2026-06-27T18:10:11+08:00"
   },
   "watchSources": {
     "platforms": {
       "facebook": 117,
       "instagram": 212,
       "threads": 2,
-      "x": 6,
+      "x": 5,
       "youtube": 104
     },
     "types": {
       "facebook_page_posts": 117,
-      "rss": 8,
+      "rss": 7,
       "rsshub_instagram_profile": 106,
       "rsshub_instagram_story": 106,
       "youtube_ytdlp": 104
@@ -40,8 +40,8 @@
       {
         "platform": "instagram",
         "sources": 212,
-        "currentErrors": 3,
-        "status": "degraded"
+        "currentErrors": 0,
+        "status": "ok"
       },
       {
         "platform": "threads",
@@ -51,9 +51,9 @@
       },
       {
         "platform": "x",
-        "sources": 6,
-        "currentErrors": 1,
-        "status": "degraded"
+        "sources": 5,
+        "currentErrors": 0,
+        "status": "ok"
       },
       {
         "platform": "youtube",
@@ -71,7 +71,7 @@
       "label": "正常",
       "summary": "每日 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-06-27 15:00:40",
+        "最新公開資料：2026-06-27 18:10:13",
         "pipeline.log 更新：2026-06-27 00:13:49",
         "pipeline.err.log 更新：2026-06-24 01:57:49",
         "LaunchAgent：not running，last exit 0"
@@ -82,10 +82,10 @@
       "name": "公開 API",
       "status": "ok",
       "label": "正常",
-      "summary": "latest.json 有 211 筆更新，sources.json 有 149 筆公開目錄。",
+      "summary": "latest.json 有 213 筆更新，sources.json 有 149 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
-        "watch sources：441"
+        "watch sources：440"
       ]
     },
     {
@@ -96,26 +96,26 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：61 ms"
+        "耗時：14 ms"
       ]
     },
     {
       "id": "instagram",
       "name": "Instagram RSSHub",
-      "status": "degraded",
-      "label": "部分異常",
-      "summary": "212 個 Instagram 來源（profile 106、story 106）；最新抓取批次目前 3 個錯誤。",
+      "status": "ok",
+      "label": "正常",
+      "summary": "212 個 Instagram 來源（profile 106、story 106）；最新抓取批次目前 0 個錯誤。",
       "details": [
-        "最新社群觀測：2026-06-27 15:00:33",
-        "story 無公開內容/空路由略過：106"
+        "最新社群觀測：2026-06-27 18:10:11",
+        "story 無公開內容/空路由略過：0"
       ]
     },
     {
       "id": "x-twitter",
       "name": "X / Twitter RSS",
-      "status": "degraded",
-      "label": "部分異常",
-      "summary": "6 個 X 來源；最新抓取批次目前 1 個錯誤。",
+      "status": "ok",
+      "label": "正常",
+      "summary": "5 個 X 來源；最新抓取批次目前 0 個錯誤。",
       "details": [
         "目前 route 依 RSSHub 設定抓取。",
         "若持續 503，通常要檢查 RSSHub 的 Twitter API 設定。"
@@ -130,7 +130,7 @@
       "details": [
         "最近成功 run：2026-06-27 00:07:56",
         "最近新增 inbox：14",
-        "due sources：47",
+        "due sources：50",
         "selected this check：24",
         "min sources per run：8",
         "遠端月額度剩餘：$3.06",
@@ -155,42 +155,9 @@
       "label": "正常",
       "summary": "2 個 Threads 來源；其他 RSS 最新抓取批次目前 0 個錯誤。",
       "details": [
-        "RSS 類型來源：8"
+        "RSS 類型來源：7"
       ]
     }
   ],
-  "recentErrors": [
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_etaborya",
-      "sourceName": "Boris Plotnikov",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_hankshrevemusic",
-      "sourceName": "Hank Shreve",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_learntheharmonica",
-      "sourceName": "Liam Ward & Malcolm Thorne",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "x_stevebakerharp",
-      "sourceName": "Steve Baker",
-      "platform": "x",
-      "sourceType": "rss",
-      "error": "HTTP Error 503: Service Unavailable"
-    }
-  ]
+  "recentErrors": []
 }
