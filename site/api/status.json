@@ -1,47 +1,47 @@
 {
-  "generatedAt": "2026-06-27T01:57:20+08:00",
+  "generatedAt": "2026-06-27T15:00:40+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
-    "status": "ok",
-    "label": "正常",
-    "summary": "核心資料抓取與公開 API 正常。 Facebook Apify 目前是預算節流狀態。"
+    "status": "degraded",
+    "label": "部分異常",
+    "summary": "核心 pipeline 有產出；需要注意：Instagram RSSHub、X / Twitter RSS。"
   },
   "metrics": {
-    "updates": 205,
+    "updates": 211,
     "updatesWindowDays": 30,
-    "directoryEntries": 105,
-    "watchSources": 321,
-    "currentErrors": 0,
-    "latestDataAt": "2026-06-27T01:57:20+08:00",
-    "latestSocialObservationAt": "2026-06-27T01:11:05+08:00"
+    "directoryEntries": 149,
+    "watchSources": 441,
+    "currentErrors": 110,
+    "latestDataAt": "2026-06-27T15:00:40+08:00",
+    "latestSocialObservationAt": "2026-06-27T15:00:33+08:00"
   },
   "watchSources": {
     "platforms": {
-      "facebook": 86,
-      "instagram": 154,
+      "facebook": 117,
+      "instagram": 212,
       "threads": 2,
-      "x": 5,
-      "youtube": 74
+      "x": 6,
+      "youtube": 104
     },
     "types": {
-      "facebook_page_posts": 86,
-      "rss": 7,
-      "rsshub_instagram_profile": 77,
-      "rsshub_instagram_story": 77,
-      "youtube_ytdlp": 74
+      "facebook_page_posts": 117,
+      "rss": 8,
+      "rsshub_instagram_profile": 106,
+      "rsshub_instagram_story": 106,
+      "youtube_ytdlp": 104
     },
     "platformRows": [
       {
         "platform": "facebook",
-        "sources": 86,
+        "sources": 117,
         "currentErrors": 0,
         "status": "ok"
       },
       {
         "platform": "instagram",
-        "sources": 154,
-        "currentErrors": 0,
-        "status": "ok"
+        "sources": 212,
+        "currentErrors": 109,
+        "status": "degraded"
       },
       {
         "platform": "threads",
@@ -51,13 +51,13 @@
       },
       {
         "platform": "x",
-        "sources": 5,
-        "currentErrors": 0,
-        "status": "ok"
+        "sources": 6,
+        "currentErrors": 1,
+        "status": "degraded"
       },
       {
         "platform": "youtube",
-        "sources": 74,
+        "sources": 104,
         "currentErrors": 0,
         "status": "ok"
       }
@@ -71,7 +71,7 @@
       "label": "正常",
       "summary": "每日 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-06-27 01:57:20",
+        "最新公開資料：2026-06-27 15:00:40",
         "pipeline.log 更新：2026-06-27 00:13:49",
         "pipeline.err.log 更新：2026-06-24 01:57:49",
         "LaunchAgent：not running，last exit 0"
@@ -82,10 +82,10 @@
       "name": "公開 API",
       "status": "ok",
       "label": "正常",
-      "summary": "latest.json 有 205 筆更新，sources.json 有 105 筆公開目錄。",
+      "summary": "latest.json 有 211 筆更新，sources.json 有 149 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
-        "watch sources：321"
+        "watch sources：441"
       ]
     },
     {
@@ -96,25 +96,25 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：16 ms"
+        "耗時：13 ms"
       ]
     },
     {
       "id": "instagram",
       "name": "Instagram RSSHub",
-      "status": "ok",
-      "label": "正常",
-      "summary": "154 個 Instagram 來源（profile 77、story 77）；最新抓取批次目前 0 個錯誤。",
+      "status": "degraded",
+      "label": "部分異常",
+      "summary": "212 個 Instagram 來源（profile 106、story 106）；最新抓取批次目前 109 個錯誤。",
       "details": [
-        "最新社群觀測：2026-06-27 01:11:05"
+        "最新社群觀測：2026-06-27 15:00:33"
       ]
     },
     {
       "id": "x-twitter",
       "name": "X / Twitter RSS",
-      "status": "ok",
-      "label": "正常",
-      "summary": "5 個 X 來源；最新抓取批次目前 0 個錯誤。",
+      "status": "degraded",
+      "label": "部分異常",
+      "summary": "6 個 X 來源；最新抓取批次目前 1 個錯誤。",
       "details": [
         "目前 route 依 RSSHub 設定抓取。",
         "若持續 503，通常要檢查 RSSHub 的 Twitter API 設定。"
@@ -123,17 +123,17 @@
     {
       "id": "facebook-apify",
       "name": "Facebook Apify",
-      "status": "paused",
-      "label": "節流中",
-      "summary": "86 個 Facebook 來源。 目前依預算 pacing 暫停開 run，等待 due 來源累積。",
+      "status": "ok",
+      "label": "正常",
+      "summary": "117 個 Facebook 來源。 Apify token/quota check 正常。",
       "details": [
         "最近成功 run：2026-06-27 00:07:56",
         "最近新增 inbox：14",
-        "due sources：3",
-        "selected this check：0",
+        "due sources：47",
+        "selected this check：24",
         "min sources per run：8",
         "遠端月額度剩餘：$3.06",
-        "規劃單次預算：$0.16"
+        "規劃單次預算：$0.17"
       ]
     },
     {
@@ -141,7 +141,7 @@
       "name": "YouTube yt-dlp",
       "status": "ok",
       "label": "正常",
-      "summary": "74 個 YouTube 來源；最近 run error_count=0。",
+      "summary": "104 個 YouTube 來源；最近 run error_count=0。",
       "details": [
         "最近完成：2026-06-27 01:10:42",
         "最近新增 inbox：0"
@@ -154,9 +154,170 @@
       "label": "正常",
       "summary": "2 個 Threads 來源；其他 RSS 最新抓取批次目前 0 個錯誤。",
       "details": [
-        "RSS 類型來源：7"
+        "RSS 類型來源：8"
       ]
     }
   ],
-  "recentErrors": []
+  "recentErrors": [
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_story_sigmundgroven",
+      "sourceName": "Sigmund Groven",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "x_stevebakerharp",
+      "sourceName": "Steve Baker",
+      "platform": "x",
+      "sourceType": "rss",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_story_deakharp",
+      "sourceName": "Deak Harp",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_story_mcuhc",
+      "sourceName": "銘傳口琴社",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_story_tcfsh_harmonica",
+      "sourceName": "中一中口琴社",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_story_csmu_bluemelody",
+      "sourceName": "中山醫藍韻口琴社",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_story_nutc_harmonica",
+      "sourceName": "臺中科大口琴社",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_story_fcu_harmonica",
+      "sourceName": "逢甲口琴社",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_story_ntnu_harmonica_club",
+      "sourceName": "師大口琴社",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_story_cozy_harmonica_60th",
+      "sourceName": "師大附中舒馨口琴社",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_story_ckhc_64th",
+      "sourceName": "建中口琴社",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_story_ncku_harmonicaclub",
+      "sourceName": "成大口琴社",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_story_npust_hmc",
+      "sourceName": "屏科大口琴社",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_story_chgsh_harmonica",
+      "sourceName": "彰女微光口琴社",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_story_harmonica_ncue",
+      "sourceName": "彰師大白沙口琴社",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_story_nthu_harmonica_club",
+      "sourceName": "清華大學口琴社",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_story_nycu_harmonica",
+      "sourceName": "陽明交大竹韻口琴社",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_story_nkustharmonica",
+      "sourceName": "高科大口琴社",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_story_kshs_harmonica",
+      "sourceName": "高雄中學口琴社",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_story_tnfsh_harmonica_club",
+      "sourceName": "臺南一中口琴社",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
+      "error": "HTTP Error 503: Service Unavailable"
+    }
+  ]
 }
