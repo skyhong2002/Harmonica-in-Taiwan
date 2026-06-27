@@ -38,7 +38,7 @@ API_DIR = SITE_ROOT / "api"
 FEED_IMAGE_DIR = SITE_ROOT / "assets" / "feed-images"
 SOURCE_AVATAR_DIR = SITE_ROOT / "assets" / "source-avatars"
 PUBLIC_BASE_URL = "https://harmonica.observe.tw"
-ASSET_VERSION = "20260627-1921"
+ASSET_VERSION = "20260627-1934"
 HOME_FEED_BATCH_SIZE = 12
 DEFAULT_UPDATE_WINDOW_DAYS = 30
 WEBP_QUALITY = "82"
@@ -1596,6 +1596,19 @@ def source_kind_labels(source: dict[str, Any]) -> list[str]:
     return sorted(labels)
 
 
+def is_instagram_story_item(item: dict[str, Any]) -> bool:
+    story_flag = item.get("story") is True or str(item.get("story") or "").casefold() == "true"
+    return (
+        story_flag
+        or str(item.get("media_type") or "").casefold() == "instagram_story"
+        or str(item.get("platform_label") or "").casefold() == "instagram story"
+    )
+
+
+def homepage_feed_rows(public_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    return [item for item in public_rows if not is_instagram_story_item(item)]
+
+
 def feed_source_filter_label(item: dict[str, Any]) -> str:
     for value in (
         item.get("directory_entry_name"),
@@ -1703,13 +1716,14 @@ def counted_filter_values(items: list[dict[str, Any]], field: str, country_value
 
 
 def render_home_feed_filters(public_rows: list[dict[str, Any]], window_days: int) -> str:
-    social_sources = public_social_sources()
-    platforms = sorted(
-        {
-            *[label for source in social_sources for label in source_kind_labels(source)],
-            *[source_platform_label(item.get("platform")) for item in public_rows if item.get("platform")],
-        }
-    )
+    platform_values: set[str] = set()
+    for item in public_rows:
+        if item.get("platform"):
+            platform_values.add(source_platform_label(item.get("platform")))
+        platform_label = normalize_taiwan_orthography(item.get("platform_label") or "").strip()
+        if platform_label:
+            platform_values.add(platform_label)
+    platforms = sorted(platform_values)
     sources = counted_filter_values(public_rows, "source")
     countries = counted_filter_values(public_rows, "country")
     country_values = [*directory_country_values(), *feed_known_country_values(public_rows)]
@@ -1806,12 +1820,14 @@ def write_homepage_latest(public_rows: list[dict[str, Any]], categorized: dict[s
     text = HOME_PAGE.read_text(encoding="utf-8")
     if start not in text or end not in text:
         return
+    public_rows = homepage_feed_rows(public_rows)
     visible_rows = public_rows[:HOME_FEED_BATCH_SIZE]
     latest_html = (
         render_home_feed_filters(public_rows, window_days)
         + f'\n      <div class="feed-river">\n{render_home_feed_columns(visible_rows)}\n      </div>'
         + render_home_feed_load_more(len(public_rows), len(visible_rows))
     )
+    latest_html = "\n".join(line.rstrip() for line in latest_html.splitlines())
     before, rest = text.split(start, 1)
     _, after = rest.split(end, 1)
     HOME_PAGE.write_text(f"{before}{start}\n{latest_html}\n            {end}{after}", encoding="utf-8")

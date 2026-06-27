@@ -714,6 +714,17 @@
     return labels;
   }
 
+  function isInstagramStoryItem(item) {
+    const storyFlag = item?.story === true || String(item?.story || "").toLowerCase() === "true";
+    return storyFlag ||
+      String(item?.media_type || "").toLowerCase() === "instagram_story" ||
+      String(item?.platform_label || "").toLowerCase() === "instagram story";
+  }
+
+  function homepageFeedUpdates() {
+    return (feedData.updates || []).filter((item) => !isInstagramStoryItem(item));
+  }
+
   function socialSourcesForItem(item) {
     const id = filterValueKey(item.source_id);
     if (!id) return [];
@@ -804,10 +815,7 @@
   }
 
   function feedPlatformOptions(updates) {
-    return uniqueSorted([
-      ...feedSocialSources().flatMap(sourceKindLabels),
-      ...updates.flatMap(feedPlatformFilterValues),
-    ]);
+    return uniqueSorted(updates.flatMap(feedPlatformFilterValues));
   }
 
   function feedFilterText(item) {
@@ -989,7 +997,7 @@
   }
 
   function appendNextFeedBatch() {
-    const filteredUpdates = (feedData.updates || []).filter(feedMatches);
+    const filteredUpdates = homepageFeedUpdates().filter(feedMatches);
     const previousCount = Math.min(feedState.visibleCount, filteredUpdates.length);
     feedState.visibleCount += feedBatchSize;
     const visibleCount = Math.min(feedState.visibleCount, filteredUpdates.length);
@@ -1241,7 +1249,7 @@
 
   function renderLatestFeeds() {
     if (!latestFeedGrid) return;
-    const updates = feedData.updates || [];
+    const updates = homepageFeedUpdates();
     if (!updates.length) {
       latestFeedGrid.innerHTML = `<div class="empty-state">目前沒有可顯示的公開 feed。</div>`;
       return;
