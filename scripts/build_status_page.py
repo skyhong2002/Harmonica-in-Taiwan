@@ -27,6 +27,7 @@ SOCIAL_CANDIDATES = PROJECT_ROOT / "data" / "feeds" / "social_candidates.jsonl"
 SOCIAL_INBOX = PROJECT_ROOT / "data" / "feeds" / "social_feed_inbox.jsonl"
 SOCIAL_ERRORS = PROJECT_ROOT / "data" / "feeds" / "social_feed_errors.jsonl"
 SOCIAL_SEEN = PROJECT_ROOT / "state" / "social_seen.json"
+SOCIAL_FETCH_STATE = PROJECT_ROOT / "state" / "social_fetch_state.json"
 APIFY_LEDGER = PROJECT_ROOT / "state" / "apify_facebook_fetcher.json"
 YOUTUBE_LEDGER = PROJECT_ROOT / "state" / "youtube_ytdlp_fetcher.json"
 LATEST_API = SITE_ROOT / "api" / "latest.json"
@@ -154,6 +155,56 @@ def format_usd(value: Any) -> str:
 def source_counts(sources: list[dict[str, Any]], field: str) -> dict[str, int]:
     counter = collections.Counter(str(source.get(field) or "unknown") for source in sources)
     return dict(sorted(counter.items()))
+
+
+def format_hours(value: Any) -> str:
+    try:
+        number = float(value)
+    except (TypeError, ValueError):
+        return "-"
+    if number.is_integer():
+        return str(int(number))
+    return f"{number:.1f}".rstrip("0").rstrip(".")
+
+
+def instagram_schedule_details(fetch_state: dict[str, Any], social_seen: dict[str, Any], now: dt.datetime) -> list[str]:
+    settings = fetch_state.get("settings") if isinstance(fetch_state.get("settings"), dict) else {}
+    last_run = social_seen.get("last_watchdog_run") if isinstance(social_seen.get("last_watchdog_run"), dict) else {}
+    instagram_run = last_run.get("instagram") if isinstance(last_run.get("instagram"), dict) else {}
+    entries = fetch_state.get("sources") if isinstance(fetch_state.get("sources"), dict) else {}
+
+    details = [
+        (
+            "IG 節流：profile 每 "
+            f"{format_hours(settings.get('instagram_profile_interval_hours', 24))} 小時、story 每 "
+            f"{format_hours(settings.get('instagram_story_interval_hours', 12))} 小時；"
+            f"來源間隔 {format_hours(settings.get('instagram_delay_secs', 8))} 秒。"
+        )
+    ]
+    if instagram_run:
+        details.append(
+            "本輪 IG："
+            f"抓取 {int(instagram_run.get('attempted') or 0)}、"
+            f"排程略過 {int(instagram_run.get('skipped') or 0)}、"
+            f"錯誤 {int(instagram_run.get('errors') or 0)}。"
+        )
+
+    next_due_values = []
+    for entry in entries.values():
+        if not isinstance(entry, dict):
+            continue
+        source_type = str(entry.get("source_type") or "")
+        if source_type not in {"rsshub_instagram_profile", "rsshub_instagram_story"}:
+            continue
+        due_at = parse_time(entry.get("next_due_at"))
+        if due_at is not None:
+            next_due_values.append(due_at)
+    future_due = [value for value in next_due_values if value >= now]
+    if future_due:
+        details.append(f"下一個 IG 來源：約 {time_label(min(future_due))}")
+    elif next_due_values:
+        details.append("目前有 IG 來源已到期，下一輪會按慢速節流抓取。")
+    return details
 
 
 def enabled_watch_sources() -> list[dict[str, Any]]:
@@ -350,6 +401,7 @@ def build_status() -> dict[str, Any]:
     inbox = read_jsonl(SOCIAL_INBOX)
     errors = read_jsonl(SOCIAL_ERRORS)
     social_seen = read_json(SOCIAL_SEEN, {})
+    social_fetch_state = read_json(SOCIAL_FETCH_STATE, {})
     latest_payload = read_json(LATEST_API, {})
     sources_payload = read_json(SOURCES_API, {})
     apify_ledger = read_json(APIFY_LEDGER, {})
@@ -363,7 +415,15 @@ def build_status() -> dict[str, Any]:
         [latest_seen_at(candidates), latest_seen_at(inbox), latest_error_at, parse_time(social_seen.get("updated_at"))]
     )
     current_errors = []
-    if latest_social_seen_at is not None:
+    last_watchdog_run = social_seen.get("last_watchdog_run") if isinstance(social_seen.get("last_watchdog_run"), dict) else {}
+    last_watchdog_started_at = parse_time(last_watchdog_run.get("started_at"))
+    if last_watchdog_started_at is not None:
+        current_errors = [
+            row
+            for row in errors
+            if (seen_at := parse_time(row.get("seen_at"))) is not None and seen_at >= last_watchdog_started_at
+        ]
+    elif latest_social_seen_at is not None:
         lower_bound = latest_social_seen_at - dt.timedelta(seconds=CURRENT_ERROR_WINDOW_SECONDS)
         current_errors = [
             row
@@ -457,13 +517,16 @@ def build_status() -> dict[str, Any]:
         for row in annotated_current_errors
         if row["platform"] == "instagram" or row["sourceType"] in ig_error_types
     )
+    instagram_run = last_watchdog_run.get("instagram") if isinstance(last_watchdog_run.get("instagram"), dict) else {}
+    ig_skipped = int(instagram_run.get("skipped") or 0) if instagram_run else 0
+    ig_status = "degraded" if ig_errors else ("paused" if ig_skipped else "ok")
     ig_profile_sources = watch_types.get("rsshub_instagram_profile", 0)
     ig_story_sources = watch_types.get("rsshub_instagram_story", 0)
     components.append(
         component(
             "instagram",
             "Instagram RSSHub",
-            "degraded" if ig_errors else "ok",
+            ig_status,
             (
                 f"{watch_platforms.get('instagram', 0)} 個 Instagram 來源"
                 f"（profile {ig_profile_sources}、story {ig_story_sources}）；"
@@ -472,6 +535,7 @@ def build_status() -> dict[str, Any]:
             [
                 f"最新社群觀測：{time_label(latest_social_seen_at)}",
                 f"story 無公開內容/空路由略過：{len(story_empty_errors)}",
+                *instagram_schedule_details(social_fetch_state, social_seen, now),
             ],
         )
     )
@@ -575,7 +639,8 @@ def build_status() -> dict[str, Any]:
         overall_status = "ok"
         overall_summary = "核心資料抓取與公開 API 正常。"
     if paused_components:
-        overall_summary += " Facebook Apify 目前是預算節流狀態。"
+        paused_names = "、".join(item["name"] for item in paused_components)
+        overall_summary += f" {paused_names} 目前依排程或預算節流。"
 
     platform_rows = []
     for platform, count in sorted(watch_platforms.items()):

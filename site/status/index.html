@@ -29,10 +29,10 @@
           </div>
           <div class="feed-page-summary status-summary-panel">
             <div class="status-summary-line">
-              <span class="status-badge status-degraded">部分異常</span>
-              <strong>核心 pipeline 有產出；需要注意：Instagram RSSHub。</strong>
+              <span class="status-badge status-ok">正常</span>
+              <strong>核心資料抓取與公開 API 正常。 Instagram RSSHub 目前依排程或預算節流。</strong>
             </div>
-            <p>快照時間 2026-06-27T21:53:57+08:00</p>
+            <p>快照時間 2026-06-27T22:12:22+08:00</p>
             <div class="feed-links">
               <a href="/api/status.json">Status JSON</a>
               <a href="/api/latest.json">Latest API</a>
@@ -49,13 +49,13 @@
               <p class="section-kicker">Snapshot</p>
               <h2 id="status-overview-title">目前快照</h2>
             </div>
-            <p class="data-date">資料時間 2026-06-27T21:53:57+08:00</p>
+            <p class="data-date">資料時間 2026-06-27T22:11:52+08:00</p>
           </div>
           <div class="status-metric-grid">
 
       <article class="status-metric-card">
         <span>公開更新</span>
-        <strong>262</strong>
+        <strong>261</strong>
         <p>最近 30 天</p>
       </article>
 
@@ -76,7 +76,7 @@
 
       <article class="status-metric-card">
         <span>目前錯誤</span>
-        <strong>134</strong>
+        <strong></strong>
         <p>最新抓取批次</p>
       </article>
 
@@ -91,7 +91,7 @@
               <p class="section-kicker">Collectors</p>
               <h2 id="status-components-title">元件狀態</h2>
             </div>
-            <p class="data-date">最新社群觀測 2026-06-27T21:53:50+08:00</p>
+            <p class="data-date">最新社群觀測 2026-06-27T22:11:47+08:00</p>
           </div>
           <div class="status-component-grid">
 
@@ -101,7 +101,7 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>每日 pipeline 已產生公開資料快照。</p>
-        <ul class="status-detail-list"><li>最新公開資料：2026-06-27 21:53:57</li><li>pipeline.log 更新：2026-06-27 00:13:49</li><li>pipeline.err.log 更新：2026-06-24 01:57:49</li><li>LaunchAgent：not running，last exit 0</li></ul>
+        <ul class="status-detail-list"><li>最新公開資料：2026-06-27 22:11:52</li><li>pipeline.log 更新：2026-06-27 00:13:49</li><li>pipeline.err.log 更新：2026-06-24 01:57:49</li><li>LaunchAgent：not running，last exit 0</li></ul>
       </article>
 
 
@@ -110,7 +110,7 @@
           <h2>公開 API</h2>
           <span class="status-badge status-ok">正常</span>
         </div>
-        <p>latest.json 有 262 筆更新，sources.json 有 194 筆公開目錄。</p>
+        <p>latest.json 有 261 筆更新，sources.json 有 194 筆公開目錄。</p>
         <ul class="status-detail-list"><li>更新視窗：30 天</li><li>watch sources：547</li></ul>
       </article>
 
@@ -121,17 +121,17 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>本機 RSSHub 入口回 200。</p>
-        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：13 ms</li></ul>
+        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：10 ms</li></ul>
       </article>
 
 
-      <article class="status-component-card status-card-degraded">
+      <article class="status-component-card status-card-paused">
         <div class="status-component-head">
           <h2>Instagram RSSHub</h2>
-          <span class="status-badge status-degraded">部分異常</span>
+          <span class="status-badge status-paused">節流中</span>
         </div>
-        <p>268 個 Instagram 來源（profile 134、story 134）；最新抓取批次目前 134 個錯誤。</p>
-        <ul class="status-detail-list"><li>最新社群觀測：2026-06-27 21:53:50</li><li>story 無公開內容/空路由略過：0</li></ul>
+        <p>268 個 Instagram 來源（profile 134、story 134）；最新抓取批次目前 0 個錯誤。</p>
+        <ul class="status-detail-list"><li>最新社群觀測：2026-06-27 22:11:47</li><li>story 無公開內容/空路由略過：0</li><li>IG 節流：profile 每 24 小時、story 每 12 小時；來源間隔 8 秒。</li><li>本輪 IG：抓取 0、排程略過 268、錯誤 0。</li><li>下一個 IG 來源：約 2026-06-28 03:55:21</li></ul>
       </article>
 
 
@@ -207,8 +207,8 @@
             <tr>
               <th scope="row">instagram</th>
               <td>268</td>
-              <td>134</td>
-              <td><span class="status-badge status-degraded">部分異常</span></td>
+              <td></td>
+              <td><span class="status-badge status-ok">正常</span></td>
             </tr>
 
 
@@ -251,186 +251,7 @@
             <p class="data-date">最多顯示 20 筆</p>
           </div>
           <div class="status-error-list">
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-27T21:53:50+08:00 · instagram</span>
-                <strong>EMPA 口琴課程</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=empa.oficial&quot;: 429 Too Many Requests</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-27T21:53:50+08:00 · instagram</span>
-                <strong>Harmonica FEN 口琴節與學院</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=harmonica_fen_festival&quot;: 429 Too Many Requests</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-27T21:53:50+08:00 · instagram</span>
-                <strong>Hohner 音樂院（特羅辛根）</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=hohnerkonservatorium&quot;: 429 Too Many Requests</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-27T21:53:50+08:00 · instagram</span>
-                <strong>Yellow Pine Harmonica Festival</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=yellowpinemusicfestival&quot;: 429 Too Many Requests</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-27T21:53:50+08:00 · instagram</span>
-                <strong>中央大學リード合奏部ハーモニカ・ソサィエティー</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=chuo_hamoso&quot;: 429 Too Many Requests</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-27T21:53:50+08:00 · instagram</span>
-                <strong>南洋理工大學口琴社</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=ntuhb&quot;: 429 Too Many Requests</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-27T21:53:50+08:00 · instagram</span>
-                <strong>巴西口琴論壇</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=harmonicasbrasil&quot;: 429 Too Many Requests</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-27T21:53:50+08:00 · instagram</span>
-                <strong>布宜諾斯艾利斯口琴學校</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=escueladearmonicaba&quot;: 429 Too Many Requests</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-27T21:53:50+08:00 · instagram</span>
-                <strong>庫里奇巴口琴樂團</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=orquestraharmonicas&quot;: 429 Too Many Requests</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-27T21:53:50+08:00 · instagram</span>
-                <strong>成大口琴社</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=ncku_harmonicaclub&quot;: 429 Too Many Requests</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-27T21:53:50+08:00 · instagram</span>
-                <strong>新加坡國立大學口琴社</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=nusharmonica&quot;: 429 Too Many Requests</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-27T21:53:50+08:00 · instagram</span>
-                <strong>早稻田大學ハーモニカ・ソサィアティ</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=wasehamo_waseda&quot;: 429 Too Many Requests</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-27T21:53:50+08:00 · instagram</span>
-                <strong>明治大學ハーモニカソサエティー</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=meiji_hamoso&quot;: 429 Too Many Requests</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-27T21:53:50+08:00 · instagram</span>
-                <strong>檳華女中口琴隊</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=pcghs_harmonicaband&quot;: 429 Too Many Requests</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-27T21:53:50+08:00 · instagram</span>
-                <strong>立教大學ハーモニカ・ソサイアティー</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=rikkyo_harmonica&quot;: 429 Too Many Requests</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-27T21:53:50+08:00 · instagram</span>
-                <strong>裕華中學口琴樂團</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=yhhbfamily&quot;: 429 Too Many Requests</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-27T21:53:50+08:00 · instagram</span>
-                <strong>鍾靈中學口琴隊</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=clhs_harmonicaband&quot;: 429 Too Many Requests</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-27T21:53:50+08:00 · instagram</span>
-                <strong>關西學院大學ハーモニカソサイアティ</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=kg_hamoso&quot;: 429 Too Many Requests</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-27T21:53:50+08:00 · instagram</span>
-                <strong>陽明交大竹韻口琴社</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=nycu_harmonica&quot;: 429 Too Many Requests</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-27T21:53:50+08:00 · instagram</span>
-                <strong>鹿兒島大學ハーモニカバンド</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=kadaihamo&quot;: 429 Too Many Requests</p>
-            </article>
-
+            <div class="empty-state">最新抓取批次沒有記錄中的錯誤。</div>
           </div>
         </div>
       </section>

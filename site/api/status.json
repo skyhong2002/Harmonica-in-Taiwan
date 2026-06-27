@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-06-27T21:53:57+08:00",
+  "generatedAt": "2026-06-27T22:12:22+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
-    "status": "degraded",
-    "label": "部分異常",
-    "summary": "核心 pipeline 有產出；需要注意：Instagram RSSHub。"
+    "status": "ok",
+    "label": "正常",
+    "summary": "核心資料抓取與公開 API 正常。 Instagram RSSHub 目前依排程或預算節流。"
   },
   "metrics": {
-    "updates": 262,
+    "updates": 261,
     "updatesWindowDays": 30,
     "directoryEntries": 194,
     "watchSources": 547,
-    "currentErrors": 134,
-    "latestDataAt": "2026-06-27T21:53:57+08:00",
-    "latestSocialObservationAt": "2026-06-27T21:53:50+08:00"
+    "currentErrors": 0,
+    "latestDataAt": "2026-06-27T22:11:52+08:00",
+    "latestSocialObservationAt": "2026-06-27T22:11:47+08:00"
   },
   "watchSources": {
     "platforms": {
@@ -40,8 +40,8 @@
       {
         "platform": "instagram",
         "sources": 268,
-        "currentErrors": 134,
-        "status": "degraded"
+        "currentErrors": 0,
+        "status": "ok"
       },
       {
         "platform": "threads",
@@ -71,7 +71,7 @@
       "label": "正常",
       "summary": "每日 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-06-27 21:53:57",
+        "最新公開資料：2026-06-27 22:11:52",
         "pipeline.log 更新：2026-06-27 00:13:49",
         "pipeline.err.log 更新：2026-06-24 01:57:49",
         "LaunchAgent：not running，last exit 0"
@@ -82,7 +82,7 @@
       "name": "公開 API",
       "status": "ok",
       "label": "正常",
-      "summary": "latest.json 有 262 筆更新，sources.json 有 194 筆公開目錄。",
+      "summary": "latest.json 有 261 筆更新，sources.json 有 194 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
         "watch sources：547"
@@ -96,18 +96,21 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：13 ms"
+        "耗時：10 ms"
       ]
     },
     {
       "id": "instagram",
       "name": "Instagram RSSHub",
-      "status": "degraded",
-      "label": "部分異常",
-      "summary": "268 個 Instagram 來源（profile 134、story 134）；最新抓取批次目前 134 個錯誤。",
+      "status": "paused",
+      "label": "節流中",
+      "summary": "268 個 Instagram 來源（profile 134、story 134）；最新抓取批次目前 0 個錯誤。",
       "details": [
-        "最新社群觀測：2026-06-27 21:53:50",
-        "story 無公開內容/空路由略過：0"
+        "最新社群觀測：2026-06-27 22:11:47",
+        "story 無公開內容/空路由略過：0",
+        "IG 節流：profile 每 24 小時、story 每 12 小時；來源間隔 8 秒。",
+        "本輪 IG：抓取 0、排程略過 268、錯誤 0。",
+        "下一個 IG 來源：約 2026-06-28 03:55:21"
       ]
     },
     {
@@ -159,166 +162,5 @@
       ]
     }
   ],
-  "recentErrors": [
-    {
-      "seenAt": "2026-06-27T21:53:50+08:00",
-      "sourceId": "ig_yellowpinemusicfestival",
-      "sourceName": "Yellow Pine Harmonica Festival",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=yellowpinemusicfestival\": 429 Too Many Requests"
-    },
-    {
-      "seenAt": "2026-06-27T21:53:50+08:00",
-      "sourceId": "ig_hohnerkonservatorium",
-      "sourceName": "Hohner 音樂院（特羅辛根）",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=hohnerkonservatorium\": 429 Too Many Requests"
-    },
-    {
-      "seenAt": "2026-06-27T21:53:50+08:00",
-      "sourceId": "ig_harmonica_fen_festival",
-      "sourceName": "Harmonica FEN 口琴節與學院",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=harmonica_fen_festival\": 429 Too Many Requests"
-    },
-    {
-      "seenAt": "2026-06-27T21:53:50+08:00",
-      "sourceId": "ig_harmonicasbrasil",
-      "sourceName": "巴西口琴論壇",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=harmonicasbrasil\": 429 Too Many Requests"
-    },
-    {
-      "seenAt": "2026-06-27T21:53:50+08:00",
-      "sourceId": "ig_orquestraharmonicas",
-      "sourceName": "庫里奇巴口琴樂團",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=orquestraharmonicas\": 429 Too Many Requests"
-    },
-    {
-      "seenAt": "2026-06-27T21:53:50+08:00",
-      "sourceId": "ig_escueladearmonicaba",
-      "sourceName": "布宜諾斯艾利斯口琴學校",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=escueladearmonicaba\": 429 Too Many Requests"
-    },
-    {
-      "seenAt": "2026-06-27T21:53:50+08:00",
-      "sourceId": "ig_empa_oficial",
-      "sourceName": "EMPA 口琴課程",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=empa.oficial\": 429 Too Many Requests"
-    },
-    {
-      "seenAt": "2026-06-27T21:53:50+08:00",
-      "sourceId": "ig_ncku_harmonicaclub",
-      "sourceName": "成大口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=ncku_harmonicaclub\": 429 Too Many Requests"
-    },
-    {
-      "seenAt": "2026-06-27T21:53:50+08:00",
-      "sourceId": "ig_nycu_harmonica",
-      "sourceName": "陽明交大竹韻口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=nycu_harmonica\": 429 Too Many Requests"
-    },
-    {
-      "seenAt": "2026-06-27T21:53:50+08:00",
-      "sourceId": "ig_wasehamo_waseda",
-      "sourceName": "早稻田大學ハーモニカ・ソサィアティ",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=wasehamo_waseda\": 429 Too Many Requests"
-    },
-    {
-      "seenAt": "2026-06-27T21:53:50+08:00",
-      "sourceId": "ig_meiji_hamoso",
-      "sourceName": "明治大學ハーモニカソサエティー",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=meiji_hamoso\": 429 Too Many Requests"
-    },
-    {
-      "seenAt": "2026-06-27T21:53:50+08:00",
-      "sourceId": "ig_chuo_hamoso",
-      "sourceName": "中央大學リード合奏部ハーモニカ・ソサィエティー",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=chuo_hamoso\": 429 Too Many Requests"
-    },
-    {
-      "seenAt": "2026-06-27T21:53:50+08:00",
-      "sourceId": "ig_rikkyo_harmonica",
-      "sourceName": "立教大學ハーモニカ・ソサイアティー",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=rikkyo_harmonica\": 429 Too Many Requests"
-    },
-    {
-      "seenAt": "2026-06-27T21:53:50+08:00",
-      "sourceId": "ig_kg_hamoso",
-      "sourceName": "關西學院大學ハーモニカソサイアティ",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=kg_hamoso\": 429 Too Many Requests"
-    },
-    {
-      "seenAt": "2026-06-27T21:53:50+08:00",
-      "sourceId": "ig_kadaihamo",
-      "sourceName": "鹿兒島大學ハーモニカバンド",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=kadaihamo\": 429 Too Many Requests"
-    },
-    {
-      "seenAt": "2026-06-27T21:53:50+08:00",
-      "sourceId": "ig_nusharmonica",
-      "sourceName": "新加坡國立大學口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=nusharmonica\": 429 Too Many Requests"
-    },
-    {
-      "seenAt": "2026-06-27T21:53:50+08:00",
-      "sourceId": "ig_ntuhb",
-      "sourceName": "南洋理工大學口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=ntuhb\": 429 Too Many Requests"
-    },
-    {
-      "seenAt": "2026-06-27T21:53:50+08:00",
-      "sourceId": "ig_yhhbfamily",
-      "sourceName": "裕華中學口琴樂團",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=yhhbfamily\": 429 Too Many Requests"
-    },
-    {
-      "seenAt": "2026-06-27T21:53:50+08:00",
-      "sourceId": "ig_pcghs_harmonicaband",
-      "sourceName": "檳華女中口琴隊",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=pcghs_harmonicaband\": 429 Too Many Requests"
-    },
-    {
-      "seenAt": "2026-06-27T21:53:50+08:00",
-      "sourceId": "ig_clhs_harmonicaband",
-      "sourceName": "鍾靈中學口琴隊",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=clhs_harmonicaband\": 429 Too Many Requests"
-    }
-  ]
+  "recentErrors": []
 }

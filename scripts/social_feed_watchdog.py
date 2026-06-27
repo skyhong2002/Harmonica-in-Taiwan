@@ -33,6 +33,7 @@ DEFAULT_ERRORS = PROJECT_ROOT / "data" / "feeds" / "social_feed_errors.jsonl"
 DEFAULT_INBOX = PROJECT_ROOT / "data" / "feeds" / "social_feed_inbox.jsonl"
 DEFAULT_LLM_CACHE = PROJECT_ROOT / "state" / "social_llm_tags.json"
 DEFAULT_INSTAGRAM_USER_IDS = PROJECT_ROOT / "state" / "instagram_user_ids.json"
+DEFAULT_FETCH_STATE = PROJECT_ROOT / "state" / "social_fetch_state.json"
 
 GRAPH_VERSION = os.environ.get("HARMONICA_META_API_VERSION", "v25.0")
 GRAPH_BASE = f"https://graph.facebook.com/{GRAPH_VERSION}"
@@ -64,6 +65,11 @@ STORY_EMPTY_ERROR_PATTERNS = (
     "this route is empty",
     "profile is private",
 )
+DEFAULT_INSTAGRAM_PROFILE_INTERVAL_HOURS = 24.0
+DEFAULT_INSTAGRAM_STORY_INTERVAL_HOURS = 12.0
+DEFAULT_INSTAGRAM_DELAY_SECS = 8.0
+DEFAULT_INSTAGRAM_BOOTSTRAP_COOLDOWN_HOURS = 6.0
+DEFAULT_RSS_DELAY_SECS = 0.25
 OPENCODE_GO_BASE_URL = "https://opencode.ai/zen/go/v1"
 DEFAULT_LLM_MODEL = "mimo-v2.5"
 LLM_CATEGORIES = {"events", "posts-videos", "student-clubs", "opportunities"}
@@ -86,6 +92,38 @@ def save_json(path: Path, data: Any) -> None:
         json.dump(data, handle, ensure_ascii=False, indent=2, sort_keys=True)
         handle.write("\n")
     tmp.replace(path)
+
+
+def env_float(name: str, default: float, *, minimum: float | None = None) -> float:
+    raw = os.environ.get(name, "").strip()
+    if not raw:
+        value = default
+    else:
+        try:
+            value = float(raw)
+        except ValueError:
+            value = default
+    if minimum is not None:
+        value = max(minimum, value)
+    return value
+
+
+def parse_datetime(value: Any) -> dt.datetime | None:
+    raw = str(value or "").strip()
+    if not raw:
+        return None
+    try:
+        parsed = email.utils.parsedate_to_datetime(raw)
+    except (TypeError, ValueError):
+        parsed = None
+    if parsed is None:
+        try:
+            parsed = dt.datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        except ValueError:
+            return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=dt.timezone.utc)
+    return parsed.astimezone(dt.timezone.utc)
 
 
 def project_path(value: str | os.PathLike[str]) -> Path:
@@ -531,6 +569,189 @@ def compact_text(text: str, limit: int = 1600) -> str:
 
 def is_story_source(source: dict[str, Any]) -> bool:
     return str(source.get("type") or "") == "rsshub_instagram_story" or str(source.get("media_type") or "") == "instagram_story"
+
+
+def instagram_source_kind(source: dict[str, Any]) -> str:
+    kind = str(source.get("type") or "")
+    if kind == "rsshub_instagram_profile":
+        return "profile"
+    if kind == "rsshub_instagram_story" or str(source.get("media_type") or "") == "instagram_story":
+        return "story"
+    return ""
+
+
+def source_identity(source: dict[str, Any]) -> str:
+    return str(source.get("id") or source.get("url") or source.get("username") or source.get("page") or "").strip()
+
+
+def utc_iso(value: dt.datetime) -> str:
+    return value.astimezone(dt.timezone.utc).isoformat()
+
+
+def stable_offset_seconds(value: str, interval_seconds: float) -> float:
+    if interval_seconds <= 0:
+        return 0.0
+    digest = hashlib.sha256(value.encode("utf-8")).hexdigest()
+    return (int(digest[:12], 16) / float(0xFFFFFFFFFFFF)) * interval_seconds
+
+
+def instagram_interval_hours(source: dict[str, Any], args: argparse.Namespace) -> float:
+    kind = instagram_source_kind(source)
+    if kind == "story":
+        return max(0.0, float(args.instagram_story_interval_hours))
+    if kind == "profile":
+        return max(0.0, float(args.instagram_profile_interval_hours))
+    return 0.0
+
+
+def scheduled_instagram_due_at(
+    source: dict[str, Any],
+    *,
+    anchor: dt.datetime,
+    interval_hours: float,
+) -> dt.datetime:
+    source_id = source_identity(source)
+    kind = instagram_source_kind(source)
+    interval_seconds = max(0.0, interval_hours * 3600.0)
+    offset = stable_offset_seconds(f"{kind}:{source_id}", interval_seconds)
+    return anchor + dt.timedelta(seconds=offset)
+
+
+def normalize_fetch_state(value: Any) -> dict[str, Any]:
+    state = value if isinstance(value, dict) else {}
+    sources = state.get("sources")
+    if not isinstance(sources, dict):
+        sources = {}
+    return {
+        **state,
+        "version": 1,
+        "sources": sources,
+    }
+
+
+def instagram_bootstrap_anchor(
+    fetch_state: dict[str, Any],
+    seen: dict[str, Any],
+    sources: list[dict[str, Any]],
+    args: argparse.Namespace,
+) -> dt.datetime | None:
+    entries = fetch_state.get("sources") if isinstance(fetch_state.get("sources"), dict) else {}
+    has_instagram_entries = any(
+        source_identity(source) in entries
+        for source in sources
+        if instagram_source_kind(source)
+    )
+    if has_instagram_entries:
+        return None
+    observed_at = parse_datetime(seen.get("updated_at") or seen.get("initialized_at"))
+    if observed_at is None:
+        return None
+    cooldown = max(0.0, float(args.instagram_bootstrap_cooldown_hours))
+    return observed_at + dt.timedelta(hours=cooldown)
+
+
+def instagram_due_info(
+    source: dict[str, Any],
+    fetch_state: dict[str, Any],
+    *,
+    now: dt.datetime,
+    args: argparse.Namespace,
+    bootstrap_anchor: dt.datetime | None,
+) -> tuple[bool, str, bool]:
+    kind = instagram_source_kind(source)
+    if not kind or args.instagram_force:
+        return True, "", False
+
+    interval_hours = instagram_interval_hours(source, args)
+    if interval_hours <= 0:
+        return True, "", False
+
+    source_id = source_identity(source)
+    if not source_id:
+        return True, "", False
+
+    entries = fetch_state.setdefault("sources", {})
+    entry = entries.setdefault(source_id, {})
+    changed = False
+    next_due_at = parse_datetime(entry.get("next_due_at"))
+    if next_due_at is None:
+        anchor = bootstrap_anchor or now
+        next_due_at = scheduled_instagram_due_at(source, anchor=anchor, interval_hours=interval_hours)
+        entry.update(
+            {
+                "source_type": str(source.get("type") or ""),
+                "interval_hours": interval_hours,
+                "next_due_at": utc_iso(next_due_at),
+            }
+        )
+        if bootstrap_anchor is not None:
+            entry.setdefault("last_status", "bootstrap_scheduled")
+        else:
+            entry.setdefault("last_status", "scheduled")
+        changed = True
+
+    if next_due_at > now:
+        return False, f"scheduled until {utc_iso(next_due_at)}", changed
+    return True, "", changed
+
+
+def record_instagram_attempt(
+    fetch_state: dict[str, Any],
+    source: dict[str, Any],
+    *,
+    now: dt.datetime,
+    args: argparse.Namespace,
+    status: str,
+    post_count: int = 0,
+    error: str = "",
+) -> None:
+    if not instagram_source_kind(source):
+        return
+    source_id = source_identity(source)
+    if not source_id:
+        return
+    interval_hours = instagram_interval_hours(source, args)
+    entry = fetch_state.setdefault("sources", {}).setdefault(source_id, {})
+    entry.update(
+        {
+            "source_type": str(source.get("type") or ""),
+            "interval_hours": interval_hours,
+            "last_attempt_at": utc_iso(now),
+            "last_status": status,
+            "last_post_count": int(post_count),
+            "next_due_at": utc_iso(now + dt.timedelta(hours=interval_hours)) if interval_hours > 0 else "",
+        }
+    )
+    if status == "ok":
+        entry["last_success_at"] = utc_iso(now)
+        entry["consecutive_errors"] = 0
+        entry.pop("last_error", None)
+    elif error:
+        entry["last_error_at"] = utc_iso(now)
+        entry["last_error"] = compact_text(error, 500)
+        entry["consecutive_errors"] = int(entry.get("consecutive_errors") or 0) + 1
+
+
+def record_instagram_skip(fetch_state: dict[str, Any], source: dict[str, Any], *, now: dt.datetime, reason: str) -> None:
+    if not instagram_source_kind(source):
+        return
+    source_id = source_identity(source)
+    if not source_id:
+        return
+    entry = fetch_state.setdefault("sources", {}).setdefault(source_id, {})
+    entry.update(
+        {
+            "source_type": str(source.get("type") or ""),
+            "last_skipped_at": utc_iso(now),
+            "last_skip_reason": reason,
+        }
+    )
+
+
+def source_delay_secs(source: dict[str, Any], token: str | None, args: argparse.Namespace) -> float:
+    if instagram_source_kind(source):
+        return max(0.0, float(args.instagram_delay_secs))
+    return DEFAULT_RSS_DELAY_SECS if should_throttle_source(source, token) else 0.0
 
 
 def normalize_post(
@@ -1340,11 +1561,45 @@ def main() -> int:
     parser.add_argument("--seen", type=Path, default=DEFAULT_SEEN)
     parser.add_argument("--candidates", type=Path, default=DEFAULT_CANDIDATES)
     parser.add_argument("--errors", type=Path, default=DEFAULT_ERRORS)
+    parser.add_argument("--fetch-state", type=Path, default=DEFAULT_FETCH_STATE)
     parser.add_argument("--check", action="store_true")
     parser.add_argument("--baseline", action="store_true")
     parser.add_argument("--emit-initial", action="store_true")
     parser.add_argument("--include-all-new", action="store_true")
     parser.add_argument("--max-post-age-days", type=int, default=0)
+    parser.add_argument(
+        "--instagram-profile-interval-hours",
+        type=float,
+        default=env_float(
+            "HARMONICA_IG_PROFILE_INTERVAL_HOURS",
+            DEFAULT_INSTAGRAM_PROFILE_INTERVAL_HOURS,
+            minimum=0.0,
+        ),
+    )
+    parser.add_argument(
+        "--instagram-story-interval-hours",
+        type=float,
+        default=env_float(
+            "HARMONICA_IG_STORY_INTERVAL_HOURS",
+            DEFAULT_INSTAGRAM_STORY_INTERVAL_HOURS,
+            minimum=0.0,
+        ),
+    )
+    parser.add_argument(
+        "--instagram-delay-secs",
+        type=float,
+        default=env_float("HARMONICA_IG_DELAY_SECS", DEFAULT_INSTAGRAM_DELAY_SECS, minimum=0.0),
+    )
+    parser.add_argument(
+        "--instagram-bootstrap-cooldown-hours",
+        type=float,
+        default=env_float(
+            "HARMONICA_IG_BOOTSTRAP_COOLDOWN_HOURS",
+            DEFAULT_INSTAGRAM_BOOTSTRAP_COOLDOWN_HOURS,
+            minimum=0.0,
+        ),
+    )
+    parser.add_argument("--instagram-force", action="store_true")
     parser.add_argument("--llm-tags", dest="llm_tags", action="store_true", default=env_truthy("HARMONICA_ENABLE_LLM_TAGS", True))
     parser.add_argument("--no-llm-tags", dest="llm_tags", action="store_false")
     parser.add_argument("--llm-cache", type=Path, default=DEFAULT_LLM_CACHE)
@@ -1396,6 +1651,12 @@ def main() -> int:
                         bool(os.environ.get(key))
                         for key in ("HARMONICA_OPENCODE_GO_API_KEY", "OPENCODE_GO_API_KEY", "HARMONICA_LLM_API_KEY")
                     ),
+                    "instagram_profile_interval_hours": args.instagram_profile_interval_hours,
+                    "instagram_story_interval_hours": args.instagram_story_interval_hours,
+                    "instagram_delay_secs": args.instagram_delay_secs,
+                    "instagram_bootstrap_cooldown_hours": args.instagram_bootstrap_cooldown_hours,
+                    "instagram_force": bool(args.instagram_force),
+                    "fetch_state_file": str(args.fetch_state),
                     "default_inbox": str(DEFAULT_INBOX),
                     "seen_file": str(args.seen),
                     "candidates_file": str(args.candidates),
@@ -1410,11 +1671,33 @@ def main() -> int:
     first_run = not args.seen.exists()
     seen = load_json(args.seen, {"seen": {}, "initialized_at": None})
     seen_map: dict[str, str] = dict(seen.get("seen") or {})
+    fetch_state = normalize_fetch_state(load_json(args.fetch_state, {"version": 1, "sources": {}}))
+    fetch_state_changed = False
     new_posts: list[dict[str, Any]] = []
     errors: list[dict[str, str]] = []
     fetched_count = 0
     skipped_old = 0
     now_utc = dt.datetime.now(dt.timezone.utc)
+    run_started_at = now_utc
+    bootstrap_anchor = instagram_bootstrap_anchor(fetch_state, seen, sources, args)
+    schedule_stats: dict[str, Any] = {
+        "profile_interval_hours": float(args.instagram_profile_interval_hours),
+        "story_interval_hours": float(args.instagram_story_interval_hours),
+        "delay_secs": float(args.instagram_delay_secs),
+        "attempted": 0,
+        "skipped": 0,
+        "scheduled": 0,
+        "errors": 0,
+        "profile_attempted": 0,
+        "profile_skipped": 0,
+        "story_attempted": 0,
+        "story_skipped": 0,
+    }
+    if bootstrap_anchor is not None:
+        observed_at = parse_datetime(seen.get("updated_at") or seen.get("initialized_at")) or now_utc
+        fetch_state["bootstrapped_from_social_seen_at"] = utc_iso(observed_at)
+        fetch_state["bootstrap_anchor_at"] = utc_iso(bootstrap_anchor)
+        fetch_state_changed = True
     llm_token, llm_token_source = read_llm_token(args.llm_keychain_service, args.llm_keychain_account) if args.llm_tags else ("", "")
     llm_should_tag = bool(args.llm_tags and llm_token and not args.baseline and (not first_run or args.emit_initial))
     llm_cache = load_json(args.llm_cache, {"version": 1, "items": {}}) if llm_should_tag else {"version": 1, "items": {}}
@@ -1437,17 +1720,61 @@ def main() -> int:
         llm_stats["disabled_reason"] = "initial_baseline_without_emit_initial"
 
     for source in sources:
+        instagram_kind = instagram_source_kind(source)
+        if instagram_kind:
+            due, skip_reason, schedule_changed = instagram_due_info(
+                source,
+                fetch_state,
+                now=now_utc,
+                args=args,
+                bootstrap_anchor=bootstrap_anchor,
+            )
+            fetch_state_changed = fetch_state_changed or schedule_changed
+            if not due:
+                schedule_stats["skipped"] += 1
+                schedule_stats["scheduled"] += 1
+                schedule_stats[f"{instagram_kind}_skipped"] = int(schedule_stats.get(f"{instagram_kind}_skipped") or 0) + 1
+                record_instagram_skip(fetch_state, source, now=now_utc, reason=skip_reason)
+                fetch_state_changed = True
+                continue
+            schedule_stats["attempted"] += 1
+            schedule_stats[f"{instagram_kind}_attempted"] = int(schedule_stats.get(f"{instagram_kind}_attempted") or 0) + 1
         try:
             posts = fetch_source(source, token)
         except (urllib.error.URLError, urllib.error.HTTPError, ET.ParseError, json.JSONDecodeError, ValueError) as exc:
+            error_text = str(exc)
             errors.append(
                 {
                     "source_id": str(source.get("id") or ""),
                     "source_type": str(source.get("type") or ""),
-                    "error": str(exc),
+                    "error": error_text,
                 }
             )
+            if instagram_kind:
+                schedule_stats["errors"] += 1
+                record_instagram_attempt(
+                    fetch_state,
+                    source,
+                    now=dt.datetime.now(dt.timezone.utc),
+                    args=args,
+                    status="error",
+                    error=error_text,
+                )
+                fetch_state_changed = True
+            delay_secs = source_delay_secs(source, token, args)
+            if delay_secs:
+                time.sleep(delay_secs)
             continue
+        if instagram_kind:
+            record_instagram_attempt(
+                fetch_state,
+                source,
+                now=dt.datetime.now(dt.timezone.utc),
+                args=args,
+                status="ok",
+                post_count=len(posts),
+            )
+            fetch_state_changed = True
         fetched_count += len(posts)
         for post in posts:
             key = post.get("key")
@@ -1496,29 +1823,80 @@ def main() -> int:
             if not args.baseline and include_post:
                 new_posts.append(post)
             seen_map[key] = dt.datetime.now(dt.timezone.utc).isoformat()
-        if should_throttle_source(source, token):
-            time.sleep(0.25)
+        delay_secs = source_delay_secs(source, token, args)
+        if delay_secs:
+            time.sleep(delay_secs)
 
     if llm_stats.get("cache_changed"):
         llm_cache["version"] = 1
         llm_cache["updated_at"] = dt.datetime.now(dt.timezone.utc).isoformat()
         save_json(args.llm_cache, llm_cache)
 
+    run_finished_at = dt.datetime.now(dt.timezone.utc)
+    fetch_state["updated_at"] = utc_iso(run_finished_at)
+    fetch_state["settings"] = {
+        "instagram_profile_interval_hours": float(args.instagram_profile_interval_hours),
+        "instagram_story_interval_hours": float(args.instagram_story_interval_hours),
+        "instagram_delay_secs": float(args.instagram_delay_secs),
+        "instagram_bootstrap_cooldown_hours": float(args.instagram_bootstrap_cooldown_hours),
+    }
+    fetch_state["last_run"] = {
+        "started_at": utc_iso(run_started_at),
+        "finished_at": utc_iso(run_finished_at),
+        "instagram": schedule_stats,
+    }
+    if fetch_state_changed or schedule_stats["attempted"] or schedule_stats["skipped"]:
+        save_json(args.fetch_state, fetch_state)
+
     seen["seen"] = seen_map
-    seen.setdefault("initialized_at", dt.datetime.now(dt.timezone.utc).isoformat())
-    seen["updated_at"] = dt.datetime.now(dt.timezone.utc).isoformat()
+    seen.setdefault("initialized_at", utc_iso(run_started_at))
+    seen["updated_at"] = utc_iso(run_finished_at)
+    seen["last_watchdog_run"] = {
+        "started_at": utc_iso(run_started_at),
+        "finished_at": utc_iso(run_finished_at),
+        "fetched_posts": fetched_count,
+        "skipped_old_posts": skipped_old,
+        "errors": len(errors),
+        "instagram": schedule_stats,
+    }
     save_json(args.seen, seen)
 
     if args.baseline:
         append_errors(args.errors, errors)
         if args.verbose:
-            print(json.dumps({"baseline": True, "fetched_posts": fetched_count, "skipped_old_posts": skipped_old, "llm_tags": llm_stats, "errors": errors}, ensure_ascii=False, indent=2))
+            print(
+                json.dumps(
+                    {
+                        "baseline": True,
+                        "fetched_posts": fetched_count,
+                        "skipped_old_posts": skipped_old,
+                        "instagram": schedule_stats,
+                        "llm_tags": llm_stats,
+                        "errors": errors,
+                    },
+                    ensure_ascii=False,
+                    indent=2,
+                )
+            )
         return 0
 
     if first_run and not args.emit_initial:
         append_errors(args.errors, errors)
         if args.verbose:
-            print(json.dumps({"baseline": True, "fetched_posts": fetched_count, "skipped_old_posts": skipped_old, "llm_tags": llm_stats, "errors": errors}, ensure_ascii=False, indent=2))
+            print(
+                json.dumps(
+                    {
+                        "baseline": True,
+                        "fetched_posts": fetched_count,
+                        "skipped_old_posts": skipped_old,
+                        "instagram": schedule_stats,
+                        "llm_tags": llm_stats,
+                        "errors": errors,
+                    },
+                    ensure_ascii=False,
+                    indent=2,
+                )
+            )
         return 0
 
     append_candidates(args.candidates, new_posts)
@@ -1530,6 +1908,7 @@ def main() -> int:
                 {
                     "new_relevant_posts": new_posts,
                     "skipped_old_posts": skipped_old,
+                    "instagram": schedule_stats,
                     "llm_tags": llm_stats,
                     "errors": errors if args.verbose else [],
                 },

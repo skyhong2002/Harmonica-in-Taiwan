@@ -1,6 +1,26 @@
 {
   "initialized_at": null,
   "instagram_backfilled_at": "2026-06-24T07:05:49.090205+00:00",
+  "last_watchdog_run": {
+    "errors": 0,
+    "fetched_posts": 854,
+    "finished_at": "2026-06-27T14:11:47.123542+00:00",
+    "instagram": {
+      "attempted": 0,
+      "delay_secs": 8.0,
+      "errors": 0,
+      "profile_attempted": 0,
+      "profile_interval_hours": 24.0,
+      "profile_skipped": 134,
+      "scheduled": 268,
+      "skipped": 268,
+      "story_attempted": 0,
+      "story_interval_hours": 12.0,
+      "story_skipped": 134
+    },
+    "skipped_old_posts": 0,
+    "started_at": "2026-06-27T14:11:39.585920+00:00"
+  },
   "seen": {
     "apify_facebook_posts:10163732201293517": "2026-06-23T18:25:03.327808+00:00",
     "apify_facebook_posts:10231471989961621": "2026-06-23T18:25:03.327782+00:00",
@@ -235,6 +255,7 @@
     "fb_weiwuyingcenterforthearts:1503478418236840": "2026-06-23T18:25:03.327416+00:00",
     "fb_weiwuyingcenterforthearts:source_page:056b4202cd17e498": "2026-06-23T15:57:34.580091+00:00",
     "fb_worldharmonicafestival:source_page:274a48819a6137cc": "2026-06-27T06:51:13.697584+00:00",
+    "fb_yellowpineharmonicafestival:source_page:74791bc7c9f54ab6": "2026-06-27T14:10:33.370515+00:00",
     "fb_yellowpinemusicandharmonicafestival:source_page:bfcee45171f19ab7": "2026-06-27T13:39:11.942558+00:00",
     "fb_yellowstone_music_shop_tw:source_page:63a2a23c0e7a232d": "2026-06-23T15:57:34.580121+00:00",
     "fb_yoonseokhca:source_page:f359dfede06be80d": "2026-06-27T06:51:13.697595+00:00",
@@ -2146,5 +2167,5 @@
     "yt_yoyo708520:nR07Jkb1TqQ": "2026-06-23T15:11:34.010461+00:00",
     "yt_yuanmaowang:source_page:33da4b3a05332f25": "2026-06-27T06:51:13.697296+00:00"
   },
-  "updated_at": "2026-06-27T13:53:50.189521+00:00"
+  "updated_at": "2026-06-27T14:11:47.123542+00:00"
 }
