@@ -43,6 +43,8 @@ HOME_FEED_BATCH_SIZE = 12
 DEFAULT_UPDATE_WINDOW_DAYS = 30
 HOME_FEED_DEFAULT_COUNTRIES = ("臺灣",)
 HOME_FEED_DEFAULT_TAGS = ("口琴",)
+PLATFORM_FILTER_ORDER = ("Facebook", "Instagram", "RSS", "Threads", "X", "YouTube")
+PLATFORM_FILTER_RANK = {label.casefold(): index for index, label in enumerate(PLATFORM_FILTER_ORDER)}
 WEBP_QUALITY = "82"
 TAG_VALUE_SPLIT_RE = re.compile(r"\s*(?:[,，、/／+&]|\band\b|\s+)\s*", re.IGNORECASE)
 TAG_FORBIDDEN_CHARS_RE = re.compile(r"[,，、/／+&\s]")
@@ -330,6 +332,8 @@ def first_content_line(value: str, limit: int = 120) -> str:
 
 
 def image_extension(url: str, content_type: str) -> str:
+    if "svg" in content_type:
+        return ".svg"
     if "png" in content_type:
         return ".png"
     if "webp" in content_type:
@@ -337,7 +341,7 @@ def image_extension(url: str, content_type: str) -> str:
     if "gif" in content_type:
         return ".gif"
     suffix = Path(urllib.parse.urlparse(url).path).suffix.lower()
-    if suffix in {".jpg", ".jpeg", ".png", ".webp", ".gif"}:
+    if suffix in {".jpg", ".jpeg", ".png", ".webp", ".gif", ".svg"}:
         return ".jpg" if suffix == ".jpeg" else suffix
     return ".jpg"
 
@@ -473,6 +477,69 @@ def cache_image(url: str) -> str:
 
 def cache_avatar(url: str) -> str:
     return cache_remote_image(url, SOURCE_AVATAR_DIR, "/assets/source-avatars", max_bytes=2_000_000)
+
+
+def public_asset_path(public_url: str) -> Path | None:
+    value = str(public_url or "").strip()
+    if not value.startswith("/assets/"):
+        return None
+    return SITE_ROOT / value.lstrip("/").split("?", 1)[0]
+
+
+def local_image_asset_valid(public_url: str) -> bool:
+    path = public_asset_path(public_url)
+    if path is None:
+        return False
+    try:
+        header = path.read_bytes()[:256]
+    except OSError:
+        return False
+    if len(header) < 10:
+        return False
+    stripped = header.lstrip().lower()
+    return (
+        header.startswith(b"\xff\xd8")
+        or header.startswith(b"\x89PNG\r\n\x1a\n")
+        or header.startswith(b"GIF8")
+        or (header[:4] == b"RIFF" and header[8:12] == b"WEBP")
+        or stripped.startswith(b"<svg")
+        or stripped.startswith(b"<?xml") and b"<svg" in stripped
+    )
+
+
+def ensure_profile_avatar_url(profile: dict[str, str]) -> bool:
+    avatar_url = str(profile.get("avatar_url") or "").strip()
+    avatar_source_url = str(profile.get("avatar_source_url") or "").strip()
+    if (
+        avatar_url
+        and local_image_asset_valid(avatar_url)
+        and (not avatar_source_url or usable_profile_avatar_source(avatar_source_url))
+    ):
+        return False
+
+    if avatar_source_url and usable_profile_avatar_source(avatar_source_url):
+        cached_avatar = cache_avatar(avatar_source_url)
+        if cached_avatar and local_image_asset_valid(cached_avatar):
+            if cached_avatar != avatar_url:
+                profile["avatar_url"] = cached_avatar
+                return True
+            return False
+
+    if avatar_url and avatar_url.startswith("/assets/"):
+        profile.pop("avatar_url", None)
+        return True
+    return False
+
+
+def usable_profile_avatar_source(url: str) -> bool:
+    value = str(url or "").strip().casefold()
+    if not value:
+        return False
+    generic_markers = (
+        "static.cdninstagram.com/rsrc.php",
+        "static.xx.fbcdn.net/rsrc.php",
+    )
+    return not any(marker in value for marker in generic_markers)
 
 
 def url_part(value: Any) -> str:
@@ -720,10 +787,11 @@ def build_source_profiles(rows: list[dict[str, Any]]) -> dict[str, dict[str, str
         configured = source_profile_from_config(source_id, source)
         row_profile = row_profiles.get(source_id) or {}
         profile = merge_profile(configured, row_profile, cached)
-        if not profile.get("avatar_source_url"):
+        if not profile.get("avatar_source_url") or not usable_profile_avatar_source(str(profile.get("avatar_source_url") or "")):
             fetched = fetch_source_profile(source)
             profile = merge_profile(profile, fetched)
-        cache_avatar(profile.get("avatar_source_url") or "")
+        if ensure_profile_avatar_url(profile):
+            changed = True
         if profiles.get(source_id) != profile:
             profiles[source_id] = profile
             changed = True
@@ -761,8 +829,15 @@ def persist_source_profiles(profiles: dict[str, dict[str, str]]) -> None:
         for key, value in profile.items():
             if value not in ("", None):
                 updated[str(key)] = str(value)
+        if ensure_profile_avatar_url(updated):
+            changed = True
         if updated != current:
             merged[source_id] = updated
+            changed = True
+
+    for source_id, profile in list(merged.items()):
+        if ensure_profile_avatar_url(profile):
+            merged[source_id] = profile
             changed = True
 
     if changed:
@@ -1185,6 +1260,10 @@ def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
         or ""
     )
     avatar_url = cache_avatar(avatar_source_url)
+    if not avatar_url and local_image_asset_valid(str(profile.get("avatar_url") or "")):
+        avatar_url = str(profile.get("avatar_url") or "")
+        if not avatar_source_url:
+            avatar_source_url = str(profile.get("avatar_source_url") or "")
     if source_id and avatar_source_url:
         cached_profile = SOURCE_PROFILE_BY_ID.setdefault(source_id, {})
         if not cached_profile.get("avatar_source_url") or not cached_profile.get("avatar_url"):
@@ -1593,11 +1672,24 @@ def source_platform_label(platform: Any) -> str:
     if not value:
         return "public"
     lowered = value.casefold()
-    if lowered == "x":
-        return "X"
+    if lowered == "facebook":
+        return "Facebook"
+    if lowered == "instagram":
+        return "Instagram"
     if lowered == "rss":
         return "RSS"
+    if lowered == "threads":
+        return "Threads"
+    if lowered == "x":
+        return "X"
+    if lowered == "youtube":
+        return "YouTube"
     return value
+
+
+def platform_filter_sort_key(label: str) -> tuple[int, str]:
+    value = str(label or "").strip()
+    return (PLATFORM_FILTER_RANK.get(value.casefold(), len(PLATFORM_FILTER_ORDER)), value.casefold())
 
 
 def source_kind_labels(source: dict[str, Any]) -> list[str]:
@@ -1754,12 +1846,15 @@ def render_home_feed_filters(
     filtered_rows = public_rows if filtered_rows is None else filtered_rows
     platform_values: set[str] = set()
     for item in public_rows:
-        if item.get("platform"):
-            platform_values.add(source_platform_label(item.get("platform")))
-        platform_label = normalize_taiwan_orthography(item.get("platform_label") or "").strip()
-        if platform_label:
-            platform_values.add(platform_label)
-    platforms = sorted(platform_values)
+        for field in ("platform", "platform_label"):
+            platform_label = source_platform_label(item.get(field))
+            if platform_label and platform_label not in {"public", "Instagram story"}:
+                platform_values.add(platform_label)
+    for source in public_social_sources():
+        for platform_label in source_kind_labels(source):
+            if platform_label and platform_label not in {"public", "Instagram story"}:
+                platform_values.add(platform_label)
+    platforms = sorted(platform_values, key=platform_filter_sort_key)
     sources = counted_filter_values(public_rows, "source")
     countries = counted_filter_values(public_rows, "country")
     country_values = [*directory_country_values(), *feed_known_country_values(public_rows)]
@@ -1796,10 +1891,13 @@ def render_home_feed_filters(
           <span class="feed-chip-group-label">Tag</span>
           <div class="feed-option-chips" aria-label="Tag 篩選，可複選">{render_home_filter_chip_options(tags, "tag", "全部 tag", HOME_FEED_DEFAULT_TAGS)}</div>
         </div>
-        <div class="feed-filter-chip-group">
-          <span class="feed-chip-group-label">來源</span>
+        <details class="feed-filter-chip-group feed-filter-disclosure" data-feed-source-disclosure>
+          <summary>
+            <span class="feed-chip-group-label">來源</span>
+            <span class="feed-disclosure-count">{len(sources)} 個來源</span>
+          </summary>
           <div class="feed-option-chips" aria-label="來源篩選，可複選">{render_home_filter_chip_options(sources, "source", "全部來源")}</div>
-        </div>
+        </details>
       </div>
     """
 

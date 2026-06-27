@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-06-27T20:06:45+08:00",
+  "generatedAt": "2026-06-27T20:27:41+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
-    "status": "ok",
-    "label": "正常",
-    "summary": "核心資料抓取與公開 API 正常。"
+    "status": "degraded",
+    "label": "部分異常",
+    "summary": "核心 pipeline 有產出；需要注意：Instagram RSSHub。"
   },
   "metrics": {
-    "updates": 214,
+    "updates": 257,
     "updatesWindowDays": 30,
     "directoryEntries": 149,
     "watchSources": 440,
-    "currentErrors": 0,
-    "latestDataAt": "2026-06-27T20:06:45+08:00",
-    "latestSocialObservationAt": "2026-06-27T18:32:12+08:00"
+    "currentErrors": 106,
+    "latestDataAt": "2026-06-27T20:27:41+08:00",
+    "latestSocialObservationAt": "2026-06-27T20:27:35+08:00"
   },
   "watchSources": {
     "platforms": {
@@ -40,8 +40,8 @@
       {
         "platform": "instagram",
         "sources": 212,
-        "currentErrors": 0,
-        "status": "ok"
+        "currentErrors": 106,
+        "status": "degraded"
       },
       {
         "platform": "threads",
@@ -71,9 +71,9 @@
       "label": "正常",
       "summary": "每日 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-06-27 20:06:45",
-        "pipeline.log 更新：2026-06-27 20:01:15",
-        "pipeline.err.log 更新：2026-06-27 20:01:15",
+        "最新公開資料：2026-06-27 20:27:41",
+        "pipeline.log 更新：2026-06-27 00:13:49",
+        "pipeline.err.log 更新：2026-06-24 01:57:49",
         "LaunchAgent：not running，last exit 0"
       ]
     },
@@ -82,7 +82,7 @@
       "name": "公開 API",
       "status": "ok",
       "label": "正常",
-      "summary": "latest.json 有 214 筆更新，sources.json 有 149 筆公開目錄。",
+      "summary": "latest.json 有 257 筆更新，sources.json 有 149 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
         "watch sources：440"
@@ -96,17 +96,17 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：49 ms"
+        "耗時：11 ms"
       ]
     },
     {
       "id": "instagram",
       "name": "Instagram RSSHub",
-      "status": "ok",
-      "label": "正常",
-      "summary": "212 個 Instagram 來源（profile 106、story 106）；最新抓取批次目前 0 個錯誤。",
+      "status": "degraded",
+      "label": "部分異常",
+      "summary": "212 個 Instagram 來源（profile 106、story 106）；最新抓取批次目前 106 個錯誤。",
       "details": [
-        "最新社群觀測：2026-06-27 18:32:12",
+        "最新社群觀測：2026-06-27 20:27:35",
         "story 無公開內容/空路由略過：0"
       ]
     },
@@ -159,5 +159,166 @@
       ]
     }
   ],
-  "recentErrors": []
+  "recentErrors": [
+    {
+      "seenAt": "2026-06-27T20:27:35+08:00",
+      "sourceId": "ig_long_deng_jie",
+      "sourceName": "Long Deng Jie 龍登杰",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=long.deng.jie\": 429 Too Many Requests"
+    },
+    {
+      "seenAt": "2026-06-27T20:27:35+08:00",
+      "sourceId": "ig_hkharmonica",
+      "sourceName": "香港口琴協會 Hong Kong Harmonica Association",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=hkharmonica\": 429 Too Many Requests"
+    },
+    {
+      "seenAt": "2026-06-27T20:27:35+08:00",
+      "sourceId": "ig_antonioserranoarmonica",
+      "sourceName": "Antonio Serrano",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=antonioserranoarmonica\": 429 Too Many Requests"
+    },
+    {
+      "seenAt": "2026-06-27T20:27:35+08:00",
+      "sourceId": "ig_indiarasfair",
+      "sourceName": "Indiara Sfair",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=indiarasfair\": 429 Too Many Requests"
+    },
+    {
+      "seenAt": "2026-06-27T20:27:35+08:00",
+      "sourceId": "ig_velozharmonica",
+      "sourceName": "Veloz Harmonica Quartet",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=velozharmonica\": 429 Too Many Requests"
+    },
+    {
+      "seenAt": "2026-06-27T20:27:35+08:00",
+      "sourceId": "ig_leeoskarharmonicas",
+      "sourceName": "Lee Oskar",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=leeoskarharmonicas\": 429 Too Many Requests"
+    },
+    {
+      "seenAt": "2026-06-27T20:27:35+08:00",
+      "sourceId": "ig_gregoiremaret",
+      "sourceName": "Gregoire Maret",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=gregoiremaret\": 429 Too Many Requests"
+    },
+    {
+      "seenAt": "2026-06-27T20:27:35+08:00",
+      "sourceId": "ig_kif768",
+      "sourceName": "Kif Valentine",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=kif768\": 429 Too Many Requests"
+    },
+    {
+      "seenAt": "2026-06-27T20:27:35+08:00",
+      "sourceId": "ig_howardlevyland",
+      "sourceName": "Howard Levy",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=howardlevyland\": 429 Too Many Requests"
+    },
+    {
+      "seenAt": "2026-06-27T20:27:35+08:00",
+      "sourceId": "ig_whf_world_harmonica_festival",
+      "sourceName": "World Harmonica Festival",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=whf_world_harmonica_festival\": 429 Too Many Requests"
+    },
+    {
+      "seenAt": "2026-06-27T20:27:35+08:00",
+      "sourceId": "ig_yoonseoklee_harmonica",
+      "sourceName": "Yoonseok Lee",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=yoonseoklee_harmonica\": 429 Too Many Requests"
+    },
+    {
+      "seenAt": "2026-06-27T20:27:35+08:00",
+      "sourceId": "ig_hankshreve",
+      "sourceName": "Hank Shreve",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=hankshreve\": 429 Too Many Requests"
+    },
+    {
+      "seenAt": "2026-06-27T20:27:35+08:00",
+      "sourceId": "ig_liamwardmusic",
+      "sourceName": "Liam Ward & Malcolm Thorne",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=liamwardmusic\": 429 Too Many Requests"
+    },
+    {
+      "seenAt": "2026-06-27T20:27:35+08:00",
+      "sourceId": "ig_plashervouetband",
+      "sourceName": "Rachelle Plas & Philippe Hervouet",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=plashervouetband\": 429 Too Many Requests"
+    },
+    {
+      "seenAt": "2026-06-27T20:27:35+08:00",
+      "sourceId": "ig_santi_alvarez_armonica",
+      "sourceName": "Santiago Alvarez",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=santi.alvarez.armonica\": 429 Too Many Requests"
+    },
+    {
+      "seenAt": "2026-06-27T20:27:35+08:00",
+      "sourceId": "ig_hohnerklang",
+      "sourceName": "Orchestra Hohnerklang",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=hohnerklang\": 429 Too Many Requests"
+    },
+    {
+      "seenAt": "2026-06-27T20:27:35+08:00",
+      "sourceId": "ig_sigmundgroven",
+      "sourceName": "Sigmund Groven",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=sigmundgroven\": 429 Too Many Requests"
+    },
+    {
+      "seenAt": "2026-06-27T20:27:35+08:00",
+      "sourceId": "ig_deakharp",
+      "sourceName": "Deak Harp",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=deakharp\": 429 Too Many Requests"
+    },
+    {
+      "seenAt": "2026-06-27T20:27:35+08:00",
+      "sourceId": "ig_ncku_harmonicaclub",
+      "sourceName": "成大口琴社",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=ncku_harmonicaclub\": 429 Too Many Requests"
+    },
+    {
+      "seenAt": "2026-06-27T20:27:35+08:00",
+      "sourceId": "ig_nycu_harmonica",
+      "sourceName": "陽明交大竹韻口琴社",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=nycu_harmonica\": 429 Too Many Requests"
+    }
+  ]
 }

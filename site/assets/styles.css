@@ -512,6 +512,9 @@ h2 {
 }
 
 .feed-filter-disclosure > summary {
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
   width: fit-content;
   list-style: none;
   cursor: pointer;
@@ -548,6 +551,12 @@ h2 {
 .feed-filter-disclosure > summary:focus-visible {
   outline: 3px solid rgba(29, 114, 102, 0.22);
   outline-offset: 4px;
+}
+
+.feed-disclosure-count {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 800;
 }
 
 .feed-chip-group-label {
@@ -1294,30 +1303,6 @@ button.feed-tag-pill {
   min-height: 46px;
   padding: 0 12px;
   border: 0;
-}
-
-.category-tabs {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 8px;
-}
-
-.category-tab {
-  min-height: 38px;
-  padding: 0 12px;
-  color: var(--muted);
-  font-weight: 900;
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  cursor: pointer;
-}
-
-.category-tab[aria-pressed="true"] {
-  color: #fff;
-  background: var(--ink);
-  border-color: var(--ink);
 }
 
 .empty-state {

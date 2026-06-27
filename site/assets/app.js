@@ -15,7 +15,6 @@
 
   const state = {
     query: "",
-    category: "全部",
     country: emptyFilterSet(),
     region: emptyFilterSet(),
     hashtags: emptyFilterSet(),
@@ -44,19 +43,10 @@
   const feedDesktopColumnCount = 3;
   const feedColumnMinWidth = 340;
   const feedColumnGap = 14;
+  const feedPlatformOrder = ["Facebook", "Instagram", "RSS", "Threads", "X", "YouTube"];
+  const feedPlatformRank = new Map(feedPlatformOrder.map((label, index) => [filterValueKey(label), index]));
   let feedAutoLoadObserver = null;
 
-  const categoryOrder = [
-    "全部",
-    "活動資訊",
-    "團體樂團",
-    "演奏者",
-    "學校社團",
-    "教學器材",
-    "場館平台",
-    "國際交流",
-    "其他來源",
-  ];
   const nonLocationLabels = new Set(["國際", "臺灣交流", "臺灣爵士圈"]);
   const directoryFilterNames = ["country", "region", "hashtags"];
   const feedFilterNames = ["platform", "country", "region", "source", "tag"];
@@ -67,7 +57,6 @@
   const latestFeedGrid = document.querySelector("#latest-feed-grid");
   const spotlightList = document.querySelector("#spotlight-list");
   const resultCount = document.querySelector("#result-count");
-  const tabs = document.querySelector("#category-tabs");
   const directoryHashtagFilters = document.querySelector("#directory-hashtag-filters");
   const directorySearch = document.querySelector("#directory-search-input");
   const heroSearch = document.querySelector("#hero-search-input");
@@ -280,7 +269,6 @@
         entry.name,
         entry.nameEn,
         ...(entry.aliases || []),
-        entry.category,
         entry.type,
         entry.country,
         entry.region,
@@ -366,9 +354,7 @@
   }
 
   function directoryCountryValues() {
-    return uniqueSorted(data.entries
-      .map((entry) => String(entry.country || "").trim())
-      .filter((country) => country && !nonLocationLabels.has(country)));
+    return countSortedValues(data.entries, entryCountryValues);
   }
 
   function isDirectoryCountry(value) {
@@ -391,7 +377,7 @@
   }
 
   function directoryRegionValues() {
-    return uniqueSorted(data.entries.flatMap(regionCandidateValues));
+    return countSortedValues(data.entries, regionCandidateValues);
   }
 
   function isDirectoryRegion(value) {
@@ -717,8 +703,13 @@
   function sourcePlatformLabel(platform) {
     const value = String(platform || "").trim();
     if (!value) return "public";
-    if (value.toLowerCase() === "x") return "X";
-    if (value.toLowerCase() === "rss") return "RSS";
+    const lowered = value.toLowerCase();
+    if (lowered === "facebook") return "Facebook";
+    if (lowered === "instagram") return "Instagram";
+    if (lowered === "rss") return "RSS";
+    if (lowered === "threads") return "Threads";
+    if (lowered === "x") return "X";
+    if (lowered === "youtube") return "YouTube";
     return value;
   }
 
@@ -793,7 +784,7 @@
   function feedPlatformFilterValues(item) {
     return [
       sourcePlatformLabel(item.platform),
-      item.platform_label,
+      sourcePlatformLabel(item.platform_label),
       ...socialSourcesForItem(item).flatMap(sourceKindLabels),
     ];
   }
@@ -838,7 +829,13 @@
   }
 
   function feedPlatformOptions(updates) {
-    return uniqueSorted(updates.flatMap(feedPlatformFilterValues));
+    return uniqueSorted(updates.flatMap(feedPlatformFilterValues).map(sourcePlatformLabel))
+      .sort((left, right) => {
+        const leftRank = feedPlatformRank.get(filterValueKey(left)) ?? feedPlatformOrder.length;
+        const rightRank = feedPlatformRank.get(filterValueKey(right)) ?? feedPlatformOrder.length;
+        if (leftRank !== rightRank) return leftRank - rightRank;
+        return left.localeCompare(right, "zh-Hant");
+      });
   }
 
   function feedFilterText(item) {
@@ -914,6 +911,7 @@
     const regions = countSortedValues(updates, (item) => feedRegionFilterValues(item, knownCountries));
     const sources = countSortedValues(updates, feedSourceOptionValue);
     const tags = sortedPublicTags(updates.flatMap((item) => item.matched_keywords || []));
+    const sourceDisclosureOpen = feedState.sourceExpanded || !filterEmpty(feedState.source);
     return `
       <div class="feed-river-controls">
         <div class="feed-river-summary">
@@ -943,10 +941,13 @@
           <span class="feed-chip-group-label">Tag</span>
           <div class="feed-option-chips" aria-label="Tag 篩選，可複選">${feedOptionChips(tags, feedState.tag, "tag", "全部 tag")}</div>
         </div>
-        <div class="feed-filter-chip-group">
-          <span class="feed-chip-group-label">來源</span>
+        <details class="feed-filter-chip-group feed-filter-disclosure" data-feed-source-disclosure ${sourceDisclosureOpen ? "open" : ""}>
+          <summary>
+            <span class="feed-chip-group-label">來源</span>
+            <span class="feed-disclosure-count">${escapeHtml(sources.length)} 個來源</span>
+          </summary>
           <div class="feed-option-chips" aria-label="來源篩選，可複選">${feedOptionChips(sources, feedState.source, "source", "全部來源")}</div>
-        </div>
+        </details>
       </div>
     `;
   }
@@ -1180,6 +1181,7 @@
     commaSeparatedParamValues(params, ["notSource"]).forEach((value) => addFeedFilterValue("source", value, "exclude"));
     commaSeparatedParamValues(params, ["hashtag"]).forEach((value) => routeLegacyFeedHashtag(value));
     commaSeparatedParamValues(params, ["notHashtag"]).forEach((value) => routeLegacyFeedHashtag(value, "exclude"));
+    feedState.sourceExpanded = !filterEmpty(feedState.source);
   }
 
   function applyFeedSelection(name, value) {
@@ -1300,7 +1302,6 @@
   function filteredEntries() {
     const query = normalize(state.query);
     return data.entries.filter((entry) => {
-      if (state.category !== "全部" && entry.category !== state.category) return false;
       if (!valuesMatchFilter(entryCountryValues(entry), state.country)) return false;
       if (!valuesMatchFilter(entryRegionValues(entry), state.region)) return false;
       if (!valuesMatchFilter(entrySourceTagValues(entry), state.hashtags)) return false;
@@ -1345,7 +1346,7 @@
   function directoryHashtagValues() {
     const countries = directoryCountryValues();
     const regions = directoryRegionValues();
-    const sourceTags = uniqueSorted(data.entries.flatMap((entry) => entry.sourceTags || []));
+    const sourceTags = countSortedValues(data.entries, entrySourceTagValues);
     const locationValues = [...countries, ...regions];
     return {
       countries,
@@ -1390,41 +1391,11 @@
 
   function renderSpotlight() {
     if (!spotlightList) return;
+    const spotlightTags = new Set(["活動資訊", "音樂節", "團體樂團", "學生社團"]);
     const spotlight = data.entries
-      .filter((entry) => entry.category === "活動資訊" || (entry.sourceTags || []).some((tag) => ["音樂節", "團體樂團", "學生社團"].includes(tag)))
+      .filter((entry) => (entry.sourceTags || []).some((tag) => spotlightTags.has(tag)))
       .slice(0, 6);
     spotlightList.innerHTML = spotlight.map(entryCard).join("");
-  }
-
-  function renderTabs() {
-    if (!tabs) return;
-    const categories = new Set(data.entries.map((entry) => entry.category));
-    const ordered = categoryOrder.filter(
-      (category) => category === "全部" || categories.has(category)
-    );
-
-    tabs.innerHTML = ordered
-      .map(
-        (category) => `
-          <button
-            type="button"
-            class="category-tab"
-            data-category="${escapeHtml(category)}"
-            aria-pressed="${category === state.category ? "true" : "false"}"
-          >
-            ${escapeHtml(category)}
-          </button>
-        `
-      )
-      .join("");
-
-    tabs.querySelectorAll("button").forEach((button) => {
-      button.addEventListener("click", () => {
-        state.category = button.dataset.category;
-        renderTabs();
-        renderDirectory();
-      });
-    });
   }
 
   function syncDirectoryHashtagUrl() {
@@ -1560,7 +1531,6 @@
     setStat("apifySourceCount", watchStats.apifySources || watchStats.facebookSources || 0);
     setStat("directoryEntryCount", data.stats.totalEntries || 0);
     setStat("totalEntries", data.stats.totalEntries || 0);
-    setStat("categoryCount", Object.keys(data.stats.categories || {}).length);
     setStat("generatedAt", data.generatedAt || "-");
     feedData.generatedAt = formatFeedGeneratedAt(feedData.generatedAt);
     setStat("feedGeneratedAt", feedData.generatedAt || "-");
@@ -1569,7 +1539,6 @@
     bindSearch(directorySearch, heroSearch);
     bindDirectoryHashtags();
 
-    renderTabs();
     renderLatestFeeds();
     fetchLatestFeedData();
     renderSpotlight();
