@@ -68,6 +68,7 @@ FOOTER_HTML = """<footer class="site-footer">
 
 TAIPEI_TZ = dt.timezone(dt.timedelta(hours=8))
 SOURCE_PROFILE_BY_ID: dict[str, dict[str, str]] = {}
+DIRECTORY_ENTRY_BY_KEY: dict[str, dict[str, str]] = {}
 GENERIC_SOURCE_NAMES = {
     "apify facebook posts",
     "apify/facebook-posts-scraper",
@@ -470,6 +471,23 @@ def cache_avatar(url: str) -> str:
 
 def url_part(value: Any) -> str:
     return urllib.parse.quote(str(value or "").strip(), safe="")
+
+
+def match_text_key(value: Any) -> str:
+    return re.sub(r"\s+", " ", normalize_taiwan_orthography(value)).strip().casefold()
+
+
+def match_url_key(value: Any) -> str:
+    raw = str(value or "").strip()
+    if not raw.startswith(("http://", "https://")):
+        return ""
+    parsed = urllib.parse.urlsplit(raw)
+    host = parsed.netloc.casefold().removeprefix("www.")
+    path = urllib.parse.unquote(parsed.path or "/").strip("/")
+    path = re.sub(r"/+", "/", path).casefold()
+    if host in {"instagram.com", "facebook.com", "m.facebook.com", "x.com", "twitter.com", "threads.net", "youtube.com", "youtu.be"}:
+        return f"{host}/{path}".rstrip("/")
+    return f"{host}/{path}".rstrip("/")
 
 
 def format_rsshub_route(route: str, source: dict[str, Any]) -> str:
@@ -1096,6 +1114,60 @@ def public_social_sources() -> list[dict[str, str]]:
     )
 
 
+def directory_entry_lookup() -> dict[str, dict[str, str]]:
+    data = parse_site_data(SITE_DATA)
+    lookup: dict[str, dict[str, str]] = {}
+    for entry in data.get("entries", []):
+        if not isinstance(entry, dict):
+            continue
+        info = {
+            "directory_entry_id": str(entry.get("id") or ""),
+            "directory_entry_name": normalize_taiwan_orthography(entry.get("name") or ""),
+            "country": normalize_taiwan_orthography(entry.get("country") or ""),
+            "region": normalize_taiwan_orthography(entry.get("region") or ""),
+        }
+        if not info["country"]:
+            continue
+        for link in entry.get("links") or []:
+            if isinstance(link, dict):
+                key = match_url_key(link.get("url"))
+                if key:
+                    lookup[f"url:{key}"] = info
+        for field in ("name", "nameEn"):
+            key = match_text_key(entry.get(field))
+            if key:
+                lookup.setdefault(f"name:{key}", info)
+        for alias in entry.get("aliases") or []:
+            key = match_text_key(alias)
+            if key:
+                lookup.setdefault(f"name:{key}", info)
+    return lookup
+
+
+def directory_profile_for_update(row: dict[str, Any], profile: dict[str, str], source_name: str, source_profile_url: str, link: str) -> dict[str, str]:
+    for value in (
+        source_profile_url,
+        row.get("source_profile_url"),
+        row.get("profile_url"),
+        profile.get("profile_url"),
+        link,
+    ):
+        key = match_url_key(value)
+        if key and f"url:{key}" in DIRECTORY_ENTRY_BY_KEY:
+            return DIRECTORY_ENTRY_BY_KEY[f"url:{key}"]
+
+    for value in (
+        source_name,
+        row.get("source_name"),
+        row.get("source_display_name"),
+        profile.get("name"),
+    ):
+        key = match_text_key(value)
+        if key and f"name:{key}" in DIRECTORY_ENTRY_BY_KEY:
+            return DIRECTORY_ENTRY_BY_KEY[f"name:{key}"]
+    return {}
+
+
 def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
     source_id = str(row.get("source_id") or "")
     profile = SOURCE_PROFILE_BY_ID.get(source_id, {})
@@ -1108,6 +1180,7 @@ def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
     title = compact(f"{source}｜{text}", 120)
     headline = first_content_line(text, 120) or source
     link = str(row.get("url") or PUBLIC_BASE_URL)
+    directory_profile = directory_profile_for_update(row, profile, source, source_profile_url, link)
     categories = candidate_category_ids(row)
     display_tags = candidate_display_tags(row)
     media_type = str(row.get("media_type") or "")
@@ -1138,6 +1211,10 @@ def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
         "source": source,
         "source_system_name": source_system_name,
         "source_profile_url": source_profile_url,
+        "country": directory_profile.get("country") or "",
+        "region": directory_profile.get("region") or "",
+        "directory_entry_id": directory_profile.get("directory_entry_id") or "",
+        "directory_entry_name": directory_profile.get("directory_entry_name") or "",
         "account": row.get("account") or profile.get("account") or "",
         "platform": row.get("platform") or "",
         "platform_label": platform_label,
@@ -1360,13 +1437,14 @@ def filter_recent_candidate_rows(rows: list[dict[str, Any]], days: int) -> list[
 
 
 def generate_updates(window_days: int = DEFAULT_UPDATE_WINDOW_DAYS, limit: int | None = None) -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]]]:
-    global SOURCE_PROFILE_BY_ID
+    global SOURCE_PROFILE_BY_ID, DIRECTORY_ENTRY_BY_KEY
     all_rows = read_candidate_rows()
     rows = filter_recent_candidate_rows(all_rows, window_days)
     profile_rows = [
         row for row in all_rows if row.get("raw_source") != "public-link-backfill"
     ]
     SOURCE_PROFILE_BY_ID = build_source_profiles(profile_rows)
+    DIRECTORY_ENTRY_BY_KEY = directory_entry_lookup()
     public_rows = build_update_items(rows, limit)
     persist_source_profiles(SOURCE_PROFILE_BY_ID)
     write_update_rss(
@@ -1538,6 +1616,7 @@ def render_home_feed_filters(public_rows: list[dict[str, Any]], window_days: int
             *[source_platform_label(item.get("platform")) for item in public_rows if item.get("platform")],
         }
     )
+    countries = sorted({normalize_taiwan_orthography(item.get("country") or "") for item in public_rows if item.get("country")})
     tags = sorted({str(keyword) for item in public_rows for keyword in (item.get("matched_keywords") or []) if keyword})
     return f"""
       <div class="feed-river-controls">
@@ -1548,13 +1627,17 @@ def render_home_feed_filters(public_rows: list[dict[str, Any]], window_days: int
         <div class="feed-filter-tools">
           <label class="search-field feed-search-field">
             <span class="sr-only">搜尋河道</span>
-            <input id="feed-search-input" type="search" placeholder="搜尋標題、內文、tag 或來源">
+            <input id="feed-search-input" type="search" placeholder="搜尋標題、內文、國家、tag 或來源">
           </label>
           <button class="feed-reset-button" type="button">重設</button>
         </div>
         <div class="feed-filter-chip-group">
           <span class="feed-chip-group-label">平台</span>
           <div class="feed-option-chips" aria-label="平台篩選，可複選">{render_home_filter_chip_options(platforms, "platform", "全部平台")}</div>
+        </div>
+        <div class="feed-filter-chip-group">
+          <span class="feed-chip-group-label">國家</span>
+          <div class="feed-option-chips" aria-label="國家篩選，可複選">{render_home_filter_chip_options(countries, "country", "全部國家")}</div>
         </div>
         <div class="feed-filter-chip-group">
           <span class="feed-chip-group-label">Tag</span>

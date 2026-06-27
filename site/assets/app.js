@@ -20,6 +20,7 @@
   };
   const feedState = {
     platform: emptyFilterSet(),
+    country: emptyFilterSet(),
     source: emptyFilterSet(),
     tag: emptyFilterSet(),
     query: "",
@@ -595,6 +596,10 @@
     ];
   }
 
+  function feedCountryFilterValues(item) {
+    return [item.country].filter(Boolean);
+  }
+
   function feedPlatformOptions(updates) {
     return uniqueSorted([
       ...feedSocialSources().flatMap(sourceKindLabels),
@@ -608,6 +613,8 @@
         item.headline,
         item.title,
         item.text,
+        item.country,
+        item.region,
         ...feedSourceFilterValues(item),
         ...(item.matched_keywords || []),
       ].join(" ")
@@ -617,6 +624,7 @@
   function feedMatches(item) {
     const query = normalize(feedState.query);
     if (!valuesMatchFilter(feedPlatformFilterValues(item), feedState.platform)) return false;
+    if (!valuesMatchFilter(feedCountryFilterValues(item), feedState.country)) return false;
     if (!valuesMatchFilter(feedSourceFilterValues(item), feedState.source)) return false;
     if (!valuesMatchFilter(item.matched_keywords || [], feedState.tag)) return false;
     if (query && !feedFilterText(item).includes(query)) return false;
@@ -665,6 +673,7 @@
 
   function feedControls(updates, filteredUpdates) {
     const platforms = feedPlatformOptions(updates);
+    const countries = uniqueSorted(updates.flatMap(feedCountryFilterValues));
     const tags = uniqueSorted(updates.flatMap((item) => item.matched_keywords || []));
     return `
       <div class="feed-river-controls">
@@ -675,13 +684,17 @@
         <div class="feed-filter-tools">
           <label class="search-field feed-search-field">
             <span class="sr-only">搜尋河道</span>
-            <input id="feed-search-input" type="search" value="${escapeHtml(feedState.query)}" placeholder="搜尋標題、內文、tag 或來源">
+            <input id="feed-search-input" type="search" value="${escapeHtml(feedState.query)}" placeholder="搜尋標題、內文、國家、tag 或來源">
           </label>
           <button class="feed-reset-button" type="button">重設</button>
         </div>
         <div class="feed-filter-chip-group">
           <span class="feed-chip-group-label">平台</span>
           <div class="feed-option-chips" aria-label="平台篩選，可複選">${feedOptionChips(platforms, feedState.platform, "platform", "全部平台", { allowExclude: false })}</div>
+        </div>
+        <div class="feed-filter-chip-group">
+          <span class="feed-chip-group-label">國家</span>
+          <div class="feed-option-chips" aria-label="國家篩選，可複選">${feedOptionChips(countries, feedState.country, "country", "全部國家", { allowExclude: false })}</div>
         </div>
         <div class="feed-filter-chip-group">
           <span class="feed-chip-group-label">Tag</span>
@@ -696,13 +709,13 @@
   }
 
   function toggleFeedSelection(name, value) {
-    if (!["platform", "source", "tag"].includes(name)) return;
+    if (!["platform", "country", "source", "tag"].includes(name)) return;
     if (value === "all") {
       feedState[name] = emptyFilterSet();
       return;
     }
-    if (name === "platform") {
-      feedState.platform = toggleFilterValue(feedState.platform, value);
+    if (name === "platform" || name === "country") {
+      feedState[name] = toggleFilterValue(feedState[name], value);
       return;
     }
     feedState[name] = cycleFilterValue(feedState[name], value);
@@ -869,6 +882,14 @@
       });
     });
 
+    latestFeedGrid.querySelectorAll("[data-feed-country]").forEach((button) => {
+      button.addEventListener("click", () => {
+        toggleFeedSelection("country", button.dataset.feedCountry || "all");
+        resetFeedPagination();
+        renderLatestFeeds();
+      });
+    });
+
     latestFeedGrid.querySelectorAll("[data-feed-tag]").forEach((button) => {
       button.addEventListener("click", () => {
         toggleFeedSelection("tag", button.dataset.feedTag || "all");
@@ -888,6 +909,7 @@
     if (resetButton) {
       resetButton.addEventListener("click", () => {
         feedState.platform = emptyFilterSet();
+        feedState.country = emptyFilterSet();
         feedState.source = emptyFilterSet();
         feedState.tag = emptyFilterSet();
         feedState.query = "";
