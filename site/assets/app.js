@@ -39,6 +39,8 @@
     sourceExpanded: false,
   };
   const feedBatchSize = 12;
+  const directoryRenderBatchSize = 48;
+  const directorySearchDelayMs = 120;
   const feedDesktopColumnQuery = "(min-width: 901px)";
   const feedDesktopColumnCount = 3;
   const feedColumnMinWidth = 340;
@@ -60,6 +62,12 @@
   const directoryHashtagFilters = document.querySelector("#directory-hashtag-filters");
   const directorySearch = document.querySelector("#directory-search-input");
   const heroSearch = document.querySelector("#hero-search-input");
+  let directoryIndex = null;
+  let directoryRecordByEntry = new WeakMap();
+  let directoryHashtagFiltersRendered = false;
+  let directoryRenderToken = 0;
+  let directorySearchTimer = 0;
+  let directorySearchComposing = false;
 
   function setStat(name, value) {
     document.querySelectorAll(`[data-stat="${name}"]`).forEach((node) => {
@@ -340,6 +348,23 @@
     return pills.slice(0, limit);
   }
 
+  function countSortedRecords(records, getter) {
+    const counts = new Map();
+    records.forEach((record) => {
+      getter(record).forEach((value) => {
+        const label = String(value || "").trim();
+        if (!label) return;
+        const key = filterValueKey(label);
+        if (!key) return;
+        if (!counts.has(key)) counts.set(key, { label, count: 0 });
+        counts.get(key).count += 1;
+      });
+    });
+    return [...counts.values()]
+      .sort((left, right) => right.count - left.count || left.label.localeCompare(right.label, "zh-Hant"))
+      .map((item) => item.label);
+  }
+
   function uniqueHashtags(values, limit = Infinity) {
     const hashtags = [];
     const seen = new Set();
@@ -354,10 +379,13 @@
   }
 
   function directoryCountryValues() {
+    if (directoryIndex) return directoryIndex.countries;
     return countSortedValues(data.entries, entryCountryValues);
   }
 
   function isDirectoryCountry(value) {
+    const key = filterValueKey(value);
+    if (directoryIndex) return directoryIndex.countryKeys.has(key);
     return filterHasValue(directoryCountryValues(), value);
   }
 
@@ -366,25 +394,31 @@
     return country && !nonLocationLabels.has(country) ? [country] : [];
   }
 
-  function regionCandidateValues(entry) {
+  function regionCandidateValues(entry, knownCountryKeys = null) {
     const countries = entryCountryValues(entry);
+    const countryKeys = knownCountryKeys || directoryIndex?.countryKeys || new Set(directoryCountryValues().map(filterValueKey));
     return uniqueHashtags(
       displayMetaPills([entry.region], 8)
         .filter((region) => region && !nonLocationLabels.has(region))
-        .filter((region) => !isDirectoryCountry(region))
+        .filter((region) => !countryKeys.has(filterValueKey(region)))
         .filter((region) => !filterHasValue(countries, region))
     );
   }
 
   function directoryRegionValues() {
+    if (directoryIndex) return directoryIndex.regions;
     return countSortedValues(data.entries, regionCandidateValues);
   }
 
   function isDirectoryRegion(value) {
+    const key = filterValueKey(value);
+    if (directoryIndex) return directoryIndex.regionKeys.has(key);
     return filterHasValue(directoryRegionValues(), value);
   }
 
   function entryRegionValues(entry) {
+    const record = directoryRecordByEntry.get(entry);
+    if (record) return record.regionValues;
     return regionCandidateValues(entry).filter(isDirectoryRegion);
   }
 
@@ -401,7 +435,52 @@
   }
 
   function entrySourceTagValues(entry) {
+    const record = directoryRecordByEntry.get(entry);
+    if (record) return record.sourceTags;
     return uniqueHashtags(entry.sourceTags || []);
+  }
+
+  function buildDirectoryIndex() {
+    const records = data.entries.map((entry) => {
+      const countryValues = entryCountryValues(entry);
+      const sourceTags = uniqueHashtags(entry.sourceTags || []);
+      return {
+        entry,
+        countryValues,
+        countryKeys: new Set(countryValues.map(filterValueKey).filter(Boolean)),
+        regionValues: [],
+        regionKeys: new Set(),
+        sourceTags,
+        sourceTagKeys: new Set(sourceTags.map(filterValueKey).filter(Boolean)),
+        searchText: searchableText(entry),
+        cardHtml: "",
+      };
+    });
+    const countries = countSortedRecords(records, (record) => record.countryValues);
+    const countryKeys = new Set(countries.map(filterValueKey).filter(Boolean));
+    records.forEach((record) => {
+      record.regionValues = regionCandidateValues(record.entry, countryKeys)
+        .filter((region) => !countryKeys.has(filterValueKey(region)));
+      record.regionKeys = new Set(record.regionValues.map(filterValueKey).filter(Boolean));
+    });
+    const regions = countSortedRecords(records, (record) => record.regionValues);
+    const regionKeys = new Set(regions.map(filterValueKey).filter(Boolean));
+    const sourceTags = countSortedRecords(records, (record) => record.sourceTags);
+    const locationKeys = new Set([...countryKeys, ...regionKeys]);
+    const index = {
+      records,
+      countries,
+      countryKeys,
+      regions,
+      regionKeys,
+      sourceTags: sourceTags.filter((tag) => !locationKeys.has(filterValueKey(tag))),
+    };
+    directoryRecordByEntry = new WeakMap(records.map((record) => [record.entry, record]));
+    directoryIndex = index;
+    records.forEach((record) => {
+      record.cardHtml = entryCard(record.entry);
+    });
+    return index;
   }
 
   function directoryFilterState(filterName) {
@@ -1299,15 +1378,32 @@
     updateFeedImageOrientation();
   }
 
-  function filteredEntries() {
+  function keysMatchFilter(keys, filter) {
+    const includes = filterIncludes(filter).map(filterValueKey).filter(Boolean);
+    const excludes = filterExcludes(filter).map(filterValueKey).filter(Boolean);
+    if (includes.length && !includes.some((key) => keys.has(key))) return false;
+    if (excludes.some((key) => keys.has(key))) return false;
+    return true;
+  }
+
+  function filteredDirectoryRecords() {
+    const records = directoryIndex?.records || data.entries.map((entry) => ({ entry }));
     const query = normalize(state.query);
-    return data.entries.filter((entry) => {
-      if (!valuesMatchFilter(entryCountryValues(entry), state.country)) return false;
-      if (!valuesMatchFilter(entryRegionValues(entry), state.region)) return false;
-      if (!valuesMatchFilter(entrySourceTagValues(entry), state.hashtags)) return false;
-      if (query && !searchableText(entry).includes(query)) return false;
+    return records.filter((record) => {
+      const entry = record.entry;
+      const countryKeys = record.countryKeys || new Set(entryCountryValues(entry).map(filterValueKey).filter(Boolean));
+      const regionKeys = record.regionKeys || new Set(entryRegionValues(entry).map(filterValueKey).filter(Boolean));
+      const sourceTagKeys = record.sourceTagKeys || new Set(entrySourceTagValues(entry).map(filterValueKey).filter(Boolean));
+      if (!keysMatchFilter(countryKeys, state.country)) return false;
+      if (!keysMatchFilter(regionKeys, state.region)) return false;
+      if (!keysMatchFilter(sourceTagKeys, state.hashtags)) return false;
+      if (query && !(record.searchText || searchableText(entry)).includes(query)) return false;
       return true;
     });
+  }
+
+  function filteredEntries() {
+    return filteredDirectoryRecords().map((record) => record.entry);
   }
 
   function directoryFiltersEmpty() {
@@ -1344,6 +1440,13 @@
   }
 
   function directoryHashtagValues() {
+    if (directoryIndex) {
+      return {
+        countries: directoryIndex.countries,
+        regions: directoryIndex.regions,
+        sourceTags: directoryIndex.sourceTags,
+      };
+    }
     const countries = directoryCountryValues();
     const regions = directoryRegionValues();
     const sourceTags = countSortedValues(data.entries, entrySourceTagValues);
@@ -1369,24 +1472,75 @@
 
   function renderDirectoryHashtagFilters() {
     if (!directoryHashtagFilters) return;
+    if (directoryHashtagFiltersRendered) {
+      syncDirectoryChipStates(directoryHashtagFilters);
+      return;
+    }
     const { countries, regions, sourceTags } = directoryHashtagValues();
     directoryHashtagFilters.innerHTML = [
       directoryHashtagFilterGroup("國家", countries, "country-tag-pill", "country"),
       directoryHashtagFilterGroup("區域", regions, "region-tag-pill", "region"),
       directoryHashtagFilterGroup("Tag", sourceTags, "source-tag-pill", "hashtags"),
     ].join("");
+    directoryHashtagFiltersRendered = true;
+    syncDirectoryChipStates(directoryHashtagFilters);
+  }
+
+  function syncDirectoryChipStates(root = document) {
+    root.querySelectorAll("[data-directory-hashtag]").forEach((button) => {
+      const label = button.dataset.directoryHashtag || "";
+      const filterName = button.dataset.directoryFilter || "hashtags";
+      const stateName = filterValueState(directoryFilterState(filterName), label);
+      button.dataset.filterState = stateName;
+      button.setAttribute("aria-pressed", ariaPressedForFilterState(stateName));
+      button.textContent = `${stateName === "exclude" ? "not " : ""}#${label}`;
+    });
+  }
+
+  function appendDirectoryCards(records, token, startIndex) {
+    if (!directoryList || token !== directoryRenderToken || startIndex >= records.length) return;
+    const nextRecords = records.slice(startIndex, startIndex + directoryRenderBatchSize);
+    directoryList.insertAdjacentHTML(
+      "beforeend",
+      nextRecords.map((record) => record.cardHtml || entryCard(record.entry)).join("")
+    );
+    syncDirectoryChipStates(directoryList);
+    const nextIndex = startIndex + nextRecords.length;
+    if (nextIndex >= records.length) {
+      directoryList.removeAttribute("aria-busy");
+      return;
+    }
+    const scheduler = window.requestIdleCallback || ((callback) => window.setTimeout(callback, 16));
+    scheduler(() => appendDirectoryCards(records, token, nextIndex));
+  }
+
+  function renderDirectoryCards(records) {
+    if (!directoryList) return;
+    directoryRenderToken += 1;
+    const token = directoryRenderToken;
+    if (!records.length) {
+      directoryList.removeAttribute("aria-busy");
+      directoryList.innerHTML = `<div class="empty-state">沒有符合目前條件的公開來源。</div>`;
+      return;
+    }
+    const firstRecords = records.slice(0, directoryRenderBatchSize);
+    directoryList.setAttribute("aria-busy", records.length > firstRecords.length ? "true" : "false");
+    directoryList.innerHTML = firstRecords.map((record) => record.cardHtml || entryCard(record.entry)).join("");
+    syncDirectoryChipStates(directoryList);
+    if (records.length <= firstRecords.length) {
+      directoryList.removeAttribute("aria-busy");
+      return;
+    }
+    const scheduler = window.requestIdleCallback || ((callback) => window.setTimeout(callback, 16));
+    scheduler(() => appendDirectoryCards(records, token, firstRecords.length));
   }
 
   function renderDirectory() {
     if (!directoryList || !resultCount) return;
-    const entries = filteredEntries();
+    const records = filteredDirectoryRecords();
     renderDirectoryHashtagFilters();
-    renderDirectoryResultCount(entries);
-    if (!entries.length) {
-      directoryList.innerHTML = `<div class="empty-state">沒有符合目前條件的公開來源。</div>`;
-      return;
-    }
-    directoryList.innerHTML = entries.map(entryCard).join("");
+    renderDirectoryResultCount(records.map((record) => record.entry));
+    renderDirectoryCards(records);
   }
 
   function renderSpotlight() {
@@ -1488,6 +1642,14 @@
     renderSpotlight();
   }
 
+  function scheduleDirectoryRender(delay = 0) {
+    window.clearTimeout(directorySearchTimer);
+    directorySearchTimer = window.setTimeout(() => {
+      renderDirectory();
+      renderSpotlight();
+    }, delay);
+  }
+
   function bindDirectoryHashtags() {
     document.addEventListener("click", (event) => {
       const target = event.target instanceof Element ? event.target : null;
@@ -1515,15 +1677,27 @@
 
   function bindSearch(source, target) {
     if (!source) return;
+    source.addEventListener("compositionstart", () => {
+      directorySearchComposing = true;
+    });
+    source.addEventListener("compositionend", () => {
+      directorySearchComposing = false;
+      state.query = source.value;
+      if (target) target.value = source.value;
+      scheduleDirectoryRender(0);
+    });
     source.addEventListener("input", () => {
       state.query = source.value;
       if (target) target.value = source.value;
-      renderDirectory();
+      if (!directorySearchComposing) scheduleDirectoryRender(directorySearchDelayMs);
     });
   }
 
   function init() {
-    readDirectoryHashtagsFromUrl();
+    if (directoryList || spotlightList) {
+      buildDirectoryIndex();
+      readDirectoryHashtagsFromUrl();
+    }
     readFeedFiltersFromUrl();
     const watchStats = data.stats.watchSources || {};
     setStat("watchSourceCount", watchStats.totalSources || data.stats.totalEntries || 0);

@@ -4,7 +4,7 @@
   "last_watchdog_run": {
     "errors": 0,
     "fetched_posts": 854,
-    "finished_at": "2026-06-27T14:11:47.123542+00:00",
+    "finished_at": "2026-06-27T14:24:27.234605+00:00",
     "instagram": {
       "attempted": 0,
       "delay_secs": 8.0,
@@ -19,7 +19,7 @@
       "story_skipped": 134
     },
     "skipped_old_posts": 0,
-    "started_at": "2026-06-27T14:11:39.585920+00:00"
+    "started_at": "2026-06-27T14:24:00.406885+00:00"
   },
   "seen": {
     "apify_facebook_posts:10163732201293517": "2026-06-23T18:25:03.327808+00:00",
@@ -2167,5 +2167,5 @@
     "yt_yoyo708520:nR07Jkb1TqQ": "2026-06-23T15:11:34.010461+00:00",
     "yt_yuanmaowang:source_page:33da4b3a05332f25": "2026-06-27T06:51:13.697296+00:00"
   },
-  "updated_at": "2026-06-27T14:11:47.123542+00:00"
+  "updated_at": "2026-06-27T14:24:27.234605+00:00"
 }
