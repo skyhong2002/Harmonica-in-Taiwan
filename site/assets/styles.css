@@ -814,7 +814,7 @@ h2 {
   display: block;
   width: 100%;
   max-width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: var(--feed-image-aspect, 4 / 3);
   overflow: hidden;
   background: #eef4f0;
   border: 1px solid var(--line);
@@ -849,7 +849,26 @@ h2 {
 
 .home-feed-card-landscape .home-feed-thumb {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: var(--feed-image-aspect, 16 / 9);
+}
+
+.home-feed-card-portrait .home-feed-thumb {
+  aspect-ratio: var(--feed-image-aspect, 3 / 4);
+}
+
+@media (min-width: 641px) {
+  .home-feed-card-portrait .home-feed-body {
+    grid-template-columns: minmax(0, 1fr) minmax(116px, 42%);
+    grid-template-areas:
+      "title title"
+      "excerpt thumb";
+    align-items: start;
+  }
+
+  .home-feed-card-portrait .home-feed-thumb {
+    align-self: start;
+    width: 100%;
+  }
 }
 
 .home-feed-footer {

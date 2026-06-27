@@ -691,10 +691,14 @@
       if (!card) return;
       const applyOrientation = () => {
         if (!image.naturalWidth || !image.naturalHeight) return;
-        card.classList.toggle(
-          "home-feed-card-landscape",
-          image.naturalWidth > image.naturalHeight
+        const ratio = image.naturalWidth / image.naturalHeight;
+        card.style.setProperty(
+          "--feed-image-aspect",
+          `${image.naturalWidth} / ${image.naturalHeight}`
         );
+        card.classList.add("home-feed-card-media-ready");
+        card.classList.toggle("home-feed-card-landscape", ratio >= 1.05);
+        card.classList.toggle("home-feed-card-portrait", ratio <= 0.95);
       };
       if (image.complete) {
         applyOrientation();
