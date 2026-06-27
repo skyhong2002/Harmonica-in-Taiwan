@@ -38,9 +38,11 @@ API_DIR = SITE_ROOT / "api"
 FEED_IMAGE_DIR = SITE_ROOT / "assets" / "feed-images"
 SOURCE_AVATAR_DIR = SITE_ROOT / "assets" / "source-avatars"
 PUBLIC_BASE_URL = "https://harmonica.observe.tw"
-ASSET_VERSION = "20260627-1934"
+ASSET_VERSION = "20260627-1940"
 HOME_FEED_BATCH_SIZE = 12
 DEFAULT_UPDATE_WINDOW_DAYS = 30
+HOME_FEED_DEFAULT_COUNTRIES = ("臺灣",)
+HOME_FEED_DEFAULT_TAGS = ("口琴",)
 WEBP_QUALITY = "82"
 TAG_VALUE_SPLIT_RE = re.compile(r"\s*(?:[,，、/／+&]|\band\b|\s+)\s*", re.IGNORECASE)
 TAG_FORBIDDEN_CHARS_RE = re.compile(r"[,，、/／+&\s]")
@@ -1564,14 +1566,25 @@ def render_home_feed_item(item: dict[str, Any]) -> str:
     """
 
 
-def render_home_filter_chip_options(values: list[str], data_name: str, fallback_label: str) -> str:
+def render_home_filter_chip_options(
+    values: list[str],
+    data_name: str,
+    fallback_label: str,
+    active_values: list[str] | tuple[str, ...] | None = None,
+) -> str:
+    active_keys = {normalize_taiwan_orthography(value).strip().casefold() for value in (active_values or [])}
+    all_state = "off" if active_keys else "include"
+    all_pressed = "false" if active_keys else "true"
     chips = [
-        f'<button type="button" class="feed-option-chip" data-feed-{html_escape(data_name)}="all" aria-pressed="true" data-filter-state="include">{html_escape(fallback_label)}</button>'
+        f'<button type="button" class="feed-option-chip" data-feed-{html_escape(data_name)}="all" aria-pressed="{all_pressed}" data-filter-state="{all_state}">{html_escape(fallback_label)}</button>'
     ]
-    chips.extend(
-        f'<button type="button" class="feed-option-chip" data-feed-{html_escape(data_name)}="{html_escape(value)}" aria-pressed="false" data-filter-state="off">{html_escape(value)}</button>'
-        for value in values
-    )
+    for value in values:
+        active = normalize_taiwan_orthography(value).strip().casefold() in active_keys
+        state = "include" if active else "off"
+        pressed = "true" if active else "false"
+        chips.append(
+            f'<button type="button" class="feed-option-chip" data-feed-{html_escape(data_name)}="{html_escape(value)}" aria-pressed="{pressed}" data-filter-state="{state}">{html_escape(value)}</button>'
+        )
     return "".join(chips)
 
 
@@ -1607,6 +1620,24 @@ def is_instagram_story_item(item: dict[str, Any]) -> bool:
 
 def homepage_feed_rows(public_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return [item for item in public_rows if not is_instagram_story_item(item)]
+
+
+def homepage_default_feed_rows(public_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    country_keys = {country.casefold() for country in HOME_FEED_DEFAULT_COUNTRIES}
+    tag_keys = {tag.casefold() for tag in HOME_FEED_DEFAULT_TAGS}
+    rows: list[dict[str, Any]] = []
+    for item in public_rows:
+        countries = {value.casefold() for value in feed_country_filter_values(item)}
+        tags = {
+            value.casefold()
+            for value in public_tags.normalize_tag_values(item.get("matched_keywords") or [], limit=20)
+        }
+        if country_keys and not countries.intersection(country_keys):
+            continue
+        if tag_keys and not tags.intersection(tag_keys):
+            continue
+        rows.append(item)
+    return rows
 
 
 def feed_source_filter_label(item: dict[str, Any]) -> str:
@@ -1715,7 +1746,12 @@ def counted_filter_values(items: list[dict[str, Any]], field: str, country_value
     ]
 
 
-def render_home_feed_filters(public_rows: list[dict[str, Any]], window_days: int) -> str:
+def render_home_feed_filters(
+    public_rows: list[dict[str, Any]],
+    window_days: int,
+    filtered_rows: list[dict[str, Any]] | None = None,
+) -> str:
+    filtered_rows = public_rows if filtered_rows is None else filtered_rows
     platform_values: set[str] = set()
     for item in public_rows:
         if item.get("platform"):
@@ -1735,7 +1771,7 @@ def render_home_feed_filters(public_rows: list[dict[str, Any]], window_days: int
       <div class="feed-river-controls">
         <div class="feed-river-summary">
           <p class="feed-filter-label">河道篩選</p>
-          <strong>最近 {window_days} 天 · {len(public_rows)} / {len(public_rows)} 筆</strong>
+          <strong>最近 {window_days} 天 · {len(filtered_rows)} / {len(public_rows)} 筆</strong>
         </div>
         <div class="feed-filter-tools">
           <label class="search-field feed-search-field">
@@ -1750,7 +1786,7 @@ def render_home_feed_filters(public_rows: list[dict[str, Any]], window_days: int
         </div>
         <div class="feed-filter-chip-group">
           <span class="feed-chip-group-label">國家</span>
-          <div class="feed-option-chips" aria-label="國家篩選，可複選">{render_home_filter_chip_options(countries, "country", "全部國家")}</div>
+          <div class="feed-option-chips" aria-label="國家篩選，可複選">{render_home_filter_chip_options(countries, "country", "全部國家", HOME_FEED_DEFAULT_COUNTRIES)}</div>
         </div>
         <div class="feed-filter-chip-group">
           <span class="feed-chip-group-label">區域</span>
@@ -1758,7 +1794,7 @@ def render_home_feed_filters(public_rows: list[dict[str, Any]], window_days: int
         </div>
         <div class="feed-filter-chip-group">
           <span class="feed-chip-group-label">Tag</span>
-          <div class="feed-option-chips" aria-label="Tag 篩選，可複選">{render_home_filter_chip_options(tags, "tag", "全部 tag")}</div>
+          <div class="feed-option-chips" aria-label="Tag 篩選，可複選">{render_home_filter_chip_options(tags, "tag", "全部 tag", HOME_FEED_DEFAULT_TAGS)}</div>
         </div>
         <div class="feed-filter-chip-group">
           <span class="feed-chip-group-label">來源</span>
@@ -1821,11 +1857,12 @@ def write_homepage_latest(public_rows: list[dict[str, Any]], categorized: dict[s
     if start not in text or end not in text:
         return
     public_rows = homepage_feed_rows(public_rows)
-    visible_rows = public_rows[:HOME_FEED_BATCH_SIZE]
+    filtered_rows = homepage_default_feed_rows(public_rows)
+    visible_rows = filtered_rows[:HOME_FEED_BATCH_SIZE]
     latest_html = (
-        render_home_feed_filters(public_rows, window_days)
+        render_home_feed_filters(public_rows, window_days, filtered_rows)
         + f'\n      <div class="feed-river">\n{render_home_feed_columns(visible_rows)}\n      </div>'
-        + render_home_feed_load_more(len(public_rows), len(visible_rows))
+        + render_home_feed_load_more(len(filtered_rows), len(visible_rows))
     )
     latest_html = "\n".join(line.rstrip() for line in latest_html.splitlines())
     before, rest = text.split(start, 1)

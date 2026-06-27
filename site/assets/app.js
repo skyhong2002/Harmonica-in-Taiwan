@@ -20,12 +20,19 @@
     region: emptyFilterSet(),
     hashtags: emptyFilterSet(),
   };
+  const feedDefaultIncludes = {
+    platform: [],
+    country: ["臺灣"],
+    region: [],
+    source: [],
+    tag: ["口琴"],
+  };
   const feedState = {
-    platform: emptyFilterSet(),
-    country: emptyFilterSet(),
-    region: emptyFilterSet(),
-    source: emptyFilterSet(),
-    tag: emptyFilterSet(),
+    platform: defaultFeedFilter("platform"),
+    country: defaultFeedFilter("country"),
+    region: defaultFeedFilter("region"),
+    source: defaultFeedFilter("source"),
+    tag: defaultFeedFilter("tag"),
     query: "",
     visibleCount: 12,
     autoLoadEnabled: false,
@@ -131,6 +138,18 @@
 
   function emptyFilterSet() {
     return { include: [], exclude: [] };
+  }
+
+  function defaultFeedFilter(name) {
+    return { include: [...(feedDefaultIncludes[name] || [])], exclude: [] };
+  }
+
+  function resetFeedFiltersToDefault() {
+    Object.keys(feedDefaultIncludes).forEach((name) => {
+      feedState[name] = defaultFeedFilter(name);
+    });
+    feedState.query = "";
+    feedState.sourceExpanded = false;
   }
 
   function filterIncludes(filter) {
@@ -1138,6 +1157,10 @@
   function readFeedFiltersFromUrl() {
     if (!latestFeedGrid) return;
     const params = new URLSearchParams(window.location.search);
+    if (!feedUrlParamNames().some((name) => params.has(name))) {
+      resetFeedFiltersToDefault();
+      return;
+    }
     feedFilterNames.forEach((name) => {
       feedState[name] = emptyFilterSet();
     });
@@ -1231,13 +1254,7 @@
     const resetButton = latestFeedGrid.querySelector(".feed-reset-button");
     if (resetButton) {
       resetButton.addEventListener("click", () => {
-        feedState.platform = emptyFilterSet();
-        feedState.country = emptyFilterSet();
-        feedState.region = emptyFilterSet();
-        feedState.source = emptyFilterSet();
-        feedState.tag = emptyFilterSet();
-        feedState.query = "";
-        feedState.sourceExpanded = false;
+        resetFeedFiltersToDefault();
         syncFeedFilterUrl();
         resetFeedPagination();
         renderLatestFeeds();
