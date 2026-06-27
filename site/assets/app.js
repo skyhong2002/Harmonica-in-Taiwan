@@ -568,11 +568,10 @@
 
   function socialSourceLabel(source) {
     const name = source.name || source.username || source.id || "公開來源";
-    return `${name} · ${sourcePlatformLabel(source.platform || source.type)}`;
+    return String(name).trim();
   }
 
   function feedSourceFilterValues(item) {
-    const platform = sourcePlatformLabel(item.platform);
     const sourceMatches = socialSourcesForItem(item);
     return [
       item.source,
@@ -581,12 +580,6 @@
       item.account,
       item.source_profile_url,
       item.link,
-      item.platform,
-      item.platform_label,
-      platform,
-      item.source ? `${item.source} · ${platform}` : "",
-      item.source_system_name ? `${item.source_system_name} · ${platform}` : "",
-      item.account ? `${String(item.account).replace(/^@/, "")} · ${platform}` : "",
       ...urlSearchParts(item.source_profile_url),
       ...urlSearchParts(item.link),
       ...monitorSourceSearchParts(sourceMatches),
@@ -600,13 +593,6 @@
       item.platform_label,
       ...socialSourcesForItem(item).flatMap(sourceKindLabels),
     ];
-  }
-
-  function feedSourceOptions(updates) {
-    return uniqueSorted([
-      ...feedSocialSources().map(socialSourceLabel),
-      ...updates.flatMap(feedSourceFilterValues).filter((value) => String(value || "").includes(" · ")),
-    ]);
   }
 
   function feedPlatformOptions(updates) {
@@ -678,10 +664,8 @@
   }
 
   function feedControls(updates, filteredUpdates) {
-    const sources = feedSourceOptions(updates);
     const platforms = feedPlatformOptions(updates);
     const tags = uniqueSorted(updates.flatMap((item) => item.matched_keywords || []));
-    const sourcePanelOpen = feedState.sourceExpanded || !filterEmpty(feedState.source);
     return `
       <div class="feed-river-controls">
         <div class="feed-river-summary">
@@ -703,10 +687,10 @@
           <span class="feed-chip-group-label">Tag</span>
           <div class="feed-option-chips" aria-label="Tag 篩選，可複選">${feedOptionChips(tags, feedState.tag, "tag", "全部 tag")}</div>
         </div>
-        <details class="feed-filter-chip-group feed-filter-disclosure" data-feed-source-disclosure ${sourcePanelOpen ? "open" : ""}>
-          <summary class="feed-chip-group-label">來源</summary>
-          <div class="feed-option-chips" aria-label="來源篩選，可複選">${feedOptionChips(sources, feedState.source, "source", "全部來源")}</div>
-        </details>
+        <div class="feed-filter-chip-group">
+          <span class="feed-chip-group-label">來源</span>
+          <div class="feed-option-chips" aria-label="來源篩選">${feedOptionChips([], feedState.source, "source", "全部來源")}</div>
+        </div>
       </div>
     `;
   }

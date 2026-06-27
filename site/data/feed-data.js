@@ -1,5 +1,5 @@
 window.HARMONICA_OBSERVE_FEEDS = {
-  "generatedAt": "2026-06-27 18:33",
+  "generatedAt": "2026-06-27 18:41",
   "updatesWindowDays": 30,
   "updates": [
     {

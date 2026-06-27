@@ -1521,12 +1521,6 @@ def source_platform_label(platform: Any) -> str:
     return value
 
 
-def social_source_filter_label(source: dict[str, Any]) -> str:
-    name = str(source.get("name") or source.get("username") or source.get("id") or "公開來源")
-    platform = source_platform_label(source.get("platform") or source.get("type"))
-    return f"{name} · {platform}"
-
-
 def source_kind_labels(source: dict[str, Any]) -> list[str]:
     labels = {source_platform_label(source.get("platform") or source.get("type"))}
     if str(source.get("type") or "").casefold() == "rss":
@@ -1536,26 +1530,8 @@ def source_kind_labels(source: dict[str, Any]) -> list[str]:
     return sorted(labels)
 
 
-def update_source_filter_labels(item: dict[str, Any]) -> list[str]:
-    source = str(item.get("source") or "").strip()
-    account = str(item.get("account") or "").strip().removeprefix("@")
-    platform = source_platform_label(item.get("platform"))
-    labels = []
-    if source:
-        labels.append(f"{source} · {platform}")
-    if account:
-        labels.append(f"{account} · {platform}")
-    return labels
-
-
 def render_home_feed_filters(public_rows: list[dict[str, Any]], window_days: int) -> str:
     social_sources = public_social_sources()
-    sources = sorted(
-        {
-            *[social_source_filter_label(source) for source in social_sources],
-            *[label for item in public_rows for label in update_source_filter_labels(item)],
-        }
-    )
     platforms = sorted(
         {
             *[label for source in social_sources for label in source_kind_labels(source)],
@@ -1584,10 +1560,10 @@ def render_home_feed_filters(public_rows: list[dict[str, Any]], window_days: int
           <span class="feed-chip-group-label">Tag</span>
           <div class="feed-option-chips" aria-label="Tag 篩選，可複選">{render_home_filter_chip_options(tags, "tag", "全部 tag")}</div>
         </div>
-        <details class="feed-filter-chip-group feed-filter-disclosure" data-feed-source-disclosure>
-          <summary class="feed-chip-group-label">來源</summary>
-          <div class="feed-option-chips" aria-label="來源篩選，可複選">{render_home_filter_chip_options(sources, "source", "全部來源")}</div>
-        </details>
+        <div class="feed-filter-chip-group">
+          <span class="feed-chip-group-label">來源</span>
+          <div class="feed-option-chips" aria-label="來源篩選">{render_home_filter_chip_options([], "source", "全部來源")}</div>
+        </div>
       </div>
     """
 
