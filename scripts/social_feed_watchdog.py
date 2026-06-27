@@ -44,6 +44,17 @@ IMG_RE = re.compile(r"<img\b[^>]*\bsrc=[\"']([^\"']+)[\"']", re.IGNORECASE)
 VIDEO_POSTER_RE = re.compile(r"<video\b[^>]*\bposter=[\"']([^\"']+)[\"']", re.IGNORECASE)
 VIDEO_SRC_RE = re.compile(r"<video\b[^>]*\bsrc=[\"']([^\"']+)[\"']", re.IGNORECASE)
 SOURCE_SRC_RE = re.compile(r"<source\b[^>]*\bsrc=[\"']([^\"']+)[\"']", re.IGNORECASE)
+INSTAGRAM_PERMALINK_RE = re.compile(r"^/(?:p|reel|tv)/([^/?#]+)/?", re.IGNORECASE)
+INSTAGRAM_EMBEDDED_MEDIA_IMAGE_RE = re.compile(
+    r"<img\b(?=[^>]*\bclass=[\"'][^\"']*EmbeddedMediaImage[^\"']*[\"'])[^>]*\bsrc=[\"']([^\"']+)[\"']",
+    re.IGNORECASE,
+)
+INSTAGRAM_EMBED_JSON_URL_RE = re.compile(
+    r"(?:\\\"|\")(?P<field>display_url|thumbnail_src|video_url)(?:\\\"|\")\s*:\s*(?:\\\"|\")(?P<url>https:.*?)(?=\\\"|\")",
+    re.IGNORECASE,
+)
+IMAGE_URL_EXT_RE = re.compile(r"\.(?:jpg|jpeg|png|webp|gif)(?:[?#]|$)", re.IGNORECASE)
+VIDEO_URL_EXT_RE = re.compile(r"\.(?:mp4|mov|m4v|webm)(?:[?#]|$)", re.IGNORECASE)
 TAG_VALUE_SPLIT_RE = re.compile(r"\s*(?:[,，、/／+&]|\band\b|\s+)\s*", re.IGNORECASE)
 RSSHUB_ERROR_MESSAGE_RE = re.compile(r"Error Message:\s*<br\s*/?>\s*<code[^>]*>(.*?)</code>", re.IGNORECASE | re.DOTALL)
 INSTAGRAM_PROFILE_ID_RE = re.compile(r"\"profile_id\":\"(\d+)\"|profilePage_(\d+)|\"props\":\{\"id\":\"(\d+)\"")
@@ -344,6 +355,113 @@ def video_urls(value: str) -> list[str]:
     return urls
 
 
+def append_unique(urls: list[str], url: str) -> None:
+    clean = html.unescape(str(url or "")).strip()
+    if clean and clean not in urls:
+        urls.append(clean)
+
+
+def decode_instagram_embed_url(raw: str) -> str:
+    value = html.unescape(raw or "")
+    for _ in range(2):
+        try:
+            decoded = json.loads(f'"{value}"')
+        except json.JSONDecodeError:
+            break
+        if decoded == value:
+            break
+        value = decoded
+    return html.unescape(value.replace("\\/", "/")).strip()
+
+
+def instagram_permalink_url(value: str) -> str:
+    try:
+        parsed = urllib.parse.urlsplit(value or "")
+    except ValueError:
+        return ""
+    if not parsed.netloc.endswith("instagram.com"):
+        return ""
+    match = INSTAGRAM_PERMALINK_RE.match(parsed.path or "")
+    if not match:
+        return ""
+    kind = parsed.path.strip("/").split("/", 1)[0].lower()
+    shortcode = match.group(1)
+    return f"{INSTAGRAM_BASE}/{kind}/{url_part(shortcode)}/"
+
+
+def instagram_embed_media(value: str) -> tuple[list[str], list[str]]:
+    permalink = instagram_permalink_url(value)
+    if not permalink:
+        return [], []
+    req = urllib.request.Request(
+        permalink + "embed/",
+        headers={"User-Agent": "Mozilla/5.0 HarmonicaInTaiwanSocialWatcher/1.0"},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as response:
+            body = response.read().decode("utf-8", "replace")
+    except (urllib.error.URLError, TimeoutError, OSError):
+        return [], []
+
+    images: list[str] = []
+    videos: list[str] = []
+    for raw in INSTAGRAM_EMBEDDED_MEDIA_IMAGE_RE.findall(body):
+        append_unique(images, decode_instagram_embed_url(raw))
+    for match in INSTAGRAM_EMBED_JSON_URL_RE.finditer(body):
+        url = decode_instagram_embed_url(match.group("url"))
+        if match.group("field").casefold() == "video_url":
+            append_unique(videos, url)
+        else:
+            append_unique(images, url)
+    return images, videos
+
+
+def xml_media_urls(element: ET.Element) -> tuple[list[str], list[str]]:
+    images: list[str] = []
+    videos: list[str] = []
+    for child in element.iter():
+        url = child.attrib.get("url") or child.attrib.get("href")
+        if not url:
+            continue
+        local_name = child.tag.rsplit("}", 1)[-1].casefold()
+        media_type = str(child.attrib.get("type") or "").casefold()
+        medium = str(child.attrib.get("medium") or "").casefold()
+        if (
+            local_name == "thumbnail"
+            or medium == "image"
+            or media_type.startswith("image/")
+            or IMAGE_URL_EXT_RE.search(url)
+        ):
+            append_unique(images, url)
+        elif (
+            local_name == "player"
+            or medium == "video"
+            or media_type.startswith("video/")
+            or VIDEO_URL_EXT_RE.search(url)
+        ):
+            append_unique(videos, url)
+    return images, videos
+
+
+def merge_media_urls(primary: list[str], fallback: list[str]) -> list[str]:
+    merged = list(primary)
+    for url in fallback:
+        append_unique(merged, url)
+    return merged
+
+
+def enrich_instagram_profile_media(
+    source: dict[str, Any],
+    link: str,
+    images: list[str],
+    videos: list[str],
+) -> tuple[list[str], list[str]]:
+    if source.get("type") != "rsshub_instagram_profile" or source.get("platform") != "instagram" or images:
+        return images, videos
+    embed_images, embed_videos = instagram_embed_media(link)
+    return merge_media_urls(images, embed_images), merge_media_urls(videos, embed_videos)
+
+
 def text_of(element: ET.Element, name: str) -> str:
     child = element.find(name)
     return (child.text or "").strip() if child is not None else ""
@@ -503,8 +621,10 @@ def fetch_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
         title = text_of(item, "title")
         link = text_of(item, "link")
         desc = text_of(item, "description")
-        images = image_urls(desc)
-        videos = video_urls(desc)
+        xml_images, xml_videos = xml_media_urls(item)
+        images = merge_media_urls(image_urls(desc), xml_images)
+        videos = merge_media_urls(video_urls(desc), xml_videos)
+        images, videos = enrich_instagram_profile_media(source, link, images, videos)
         published = text_of(item, "pubDate") or (fetched_at if story_source else "")
         guid = text_of(item, "guid") or link or title
         post_id = guid or (images + videos + [fetched_at])[0]
@@ -530,14 +650,16 @@ def fetch_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
     for entry in root.findall(".//atom:entry", ns):
         title = atom_text(entry, "title")
         content = atom_text(entry, "content") or atom_text(entry, "summary")
-        images = image_urls(content)
-        videos = video_urls(content)
+        xml_images, xml_videos = xml_media_urls(entry)
+        images = merge_media_urls(image_urls(content), xml_images)
+        videos = merge_media_urls(video_urls(content), xml_videos)
         posted_at = atom_text(entry, "updated") or atom_text(entry, "published") or (fetched_at if story_source else "")
         link = ""
         for link_el in entry.findall("atom:link", ns):
             if link_el.attrib.get("href"):
                 link = link_el.attrib["href"]
                 break
+        images, videos = enrich_instagram_profile_media(source, link, images, videos)
         post_id = atom_text(entry, "id") or link or title
         if not post_id:
             post_id = (images + videos + [fetched_at])[0]
