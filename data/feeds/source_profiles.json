@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T12:54:58.403056+00:00",
+  "updatedAt": "2026-06-27T13:53:55.238605+00:00",
   "profiles": {
     "ig_ntnu_harmonica": {
       "id": "ig_ntnu_harmonica",
@@ -2507,6 +2507,882 @@
       "avatar_url": "/assets/source-avatars/73e9c643b2ea7576c2fd.webp",
       "title": "The Sigmund Groven Page",
       "description": "The Sigmund Groven Page 。 177 個讚 · 7 人正在談論這個。 The NEW official Facebook page for Sigmund Groven, Norway's harmonica maestro!"
+    },
+    "fb_chinese_ymca_of_hong_kong_harmonica_orchestra_185471864816806": {
+      "id": "fb_chinese_ymca_of_hong_kong_harmonica_orchestra_185471864816806",
+      "name": "香港中華基督教青年會口琴樂團",
+      "account": "Chinese-YMCA-of-Hong-Kong-Harmonica-Orchestra-185471864816806",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/people/Chinese-YMCA-of-Hong-Kong-Harmonica-Orchestra/100057255378181/",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/292454436_528585645726610_6751422141667866874_n.jpg?stp=dst-jpg_tt6&cstp=mx179x96&ctp=s179x96&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=-jlvCPX9xo8Q7kNvwHTAElE&_nc_oc=AdqCj-ehCLyMWFfyKDvuDo4su5F7z-vGlDQ8rqgmmfDHyo05Y3nQMzMIJ5MAONPpfrM&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=FkzI8e7CSIfEz3PTRCVFsw&_nc_ss=7b20f&oh=00_Af9eebSUirzz-LGgV1E4Dg1VtnfibhyPcS23TxjD_WBcog&oe=6A45A989",
+      "title": "Chinese YMCA of Hong Kong Harmonica Orchestra",
+      "description": "Chinese YMCA of Hong Kong Harmonica Orchestra 。 368 個讚 · 1 人正在談論這個。香港中華基督教青年會口琴樂團成立於1941年，是本港歷史最悠久的音樂團體之一，也是迄今為止世界上少有的交響化口琴樂團。...",
+      "avatar_url": "/assets/source-avatars/4484501b50ca91824a1e.webp"
+    },
+    "fb_chunglingharmonica": {
+      "id": "fb_chunglingharmonica",
+      "name": "鍾靈中學口琴隊",
+      "account": "chunglingharmonica",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/chunglingharmonica",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/308186743_472198988284670_2363869359682948603_n.png?stp=dst-png&cstp=mx811x811&ctp=s720x720&_nc_cat=108&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IwnHpKyLLN4Q7kNvwGSHdNM&_nc_oc=AdqGbJ0bY75pRSOj7X8VZps-uHRaoJeHa7PJcRXC3f8zHo_NVbo7Q9JgleHGqzBBubU&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=L2aZKvZH7Xq2CHxERLELAQ&_nc_ss=7b20f&oh=00_Af97ClsEhfaVaR6QwbfrpMQ8NRpyQ9U-bBRasQfyBV-VZw&oe=6A458AE2",
+      "title": "SMJK Chung Ling Harmonica Band 锺中口琴队",
+      "description": "SMJK Chung Ling Harmonica Band 锺中口琴队。 486 個讚 · 1 人正在談論這個。 Our club was established to promote the beauty of music and to increase the number of harmonica players in the nation. The core activity of...",
+      "avatar_url": "/assets/source-avatars/650f9bcf4bbfcfbc218d.webp"
+    },
+    "fb_escueladearmonicaba": {
+      "id": "fb_escueladearmonicaba",
+      "name": "布宜諾斯艾利斯口琴學校",
+      "account": "escueladearmonicaba",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/escueladearmonicaba",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/273638108_955835388373389_563061302597689270_n.jpg?stp=dst-jpg_tt6&cstp=mx958x957&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BHQu_vbdGvAQ7kNvwFJ3N9M&_nc_oc=Adog13gTeKgw0fbpn4Ct2ck1FbRDAF35N8l6-neisBrssoS489jrHGBoAtPOhRJ0K9k&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=dHxy0CgD4HZRF53ZYQmz5w&_nc_ss=7b20f&oh=00_Af_3agslomGNnyAyvaMy4NH05WtGQ3c-WF8UdcLdCHralg&oe=6A45B247",
+      "title": "Escuela de Armonica",
+      "description": "Escuela de Armonica 。 3,356 個讚 · 11 人正在談論這個。 🎼 Clases de armónica | Particulares - Grupales - Online\n🎶 Workshops - Conciertos\n📍Chacarita, Buenos Aires, Argentina",
+      "avatar_url": "/assets/source-avatars/4508ccb674dc3f6ceeb7.webp"
+    },
+    "fb_forumharmonicas": {
+      "id": "fb_forumharmonicas",
+      "name": "巴西口琴論壇",
+      "account": "forumharmonicas",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/forumharmonicas",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/472437471_1137719077983390_1629280228504730516_n.jpg?stp=dst-jpg_tt6&cstp=mx443x443&ctp=s443x443&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=nmpXM10ybUAQ7kNvwH58LCu&_nc_oc=Adpli6jjeS_NN_ymCEamQFvrxnb_ycw_4WnTrxQcpIhPGB9BbDMSRIH6PAiwcE71nCo&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=JoLJWjfN5Wc1OomGxhoKNQ&_nc_ss=7b20f&oh=00_Af8C0uBuYwL9Otd6542-1ssSeoCbkFZhkIqqsFu-ZIEgVQ&oe=6A459563",
+      "title": "Fórum Harmônicas",
+      "description": "Fórum Harmônicas 。 246 個讚。 Evento criado em 2005 para a difusão e o fortalecimento da cultura da harmônica no Brasil e que, na edição de 2020, migrou para o formato digital nos endereços...",
+      "avatar_url": "/assets/source-avatars/207b0f3d16ef153f403e.webp"
+    },
+    "fb_harmonicafenfestival": {
+      "id": "fb_harmonicafenfestival",
+      "name": "Harmonica FEN 口琴節與學院",
+      "account": "harmonicafenfestival",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/harmonicafenfestival",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/497967372_996512039135533_8254125825651385613_n.jpg?stp=dst-jpg_tt6&cstp=mx889x889&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=dKhxpsxm-6UQ7kNvwEIPXuk&_nc_oc=AdoukC_Gou6X0-5arDcFy70CrXak12L11jPKKeyHQJa1GH_nwpSbWCkxK-0glIYue28&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=CqvDmijbxfqn6tGkMTMS1g&_nc_ss=7b20f&oh=00_Af9686olJ_k5BzC41fPTvMfazugg8zwu-KUigEF57D9j5g&oe=6A45A915",
+      "title": "Harmonica F E N Festival | Berlin",
+      "description": "Harmonica F E N Festival， 柏林。 1,404 個讚 · 4 人正在談論這個 · 50 個打卡次。 HARMONICA FEN FESTIVAL\n\n 29/05-31/05/2026🥳",
+      "avatar_url": "/assets/source-avatars/b4e6475a16fecd8981ac.webp"
+    },
+    "fb_harmonicamusiclovers": {
+      "id": "fb_harmonicamusiclovers",
+      "name": "口琴愛好者協會（新加坡）",
+      "account": "HARMONICAMUSICLOVERS",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/HARMONICAMUSICLOVERS",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/298565682_488903729908378_7612313088604557586_n.jpg?stp=dst-jpg_tt6&cstp=mx1615x1613&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=_zqrZkZiDPgQ7kNvwGHLYwP&_nc_oc=AdqHYa8pIVcJpmk26J8nP0c_c0B6wa8CRfuRE4LTNbYXgpv91Kv5tbNcOXvPTckoWy8&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=JS7qgo9cRC3GPxba-a7DWg&_nc_ss=7b20f&oh=00_Af_AtsEiGKquMIgNtVSPnHigduStmuj6aynbcKrdCJ6MPw&oe=6A459CDA",
+      "title": "Harmonica Aficionados Society (Singapore) 口琴爱好者协会",
+      "description": "Harmonica Aficionados Society (Singapore) 口琴爱好者协会。 842 個讚 · 59 人正在談論這個。 Singapore's Harmonica Enthusiasts",
+      "avatar_url": "/assets/source-avatars/0ba6bbd3abf97eb8acb7.webp"
+    },
+    "fb_hksmsa": {
+      "id": "fb_hksmsa",
+      "name": "香港學校音樂節",
+      "account": "hksmsa",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/hksmsa",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/236759578_149020287312890_1070731707287591785_n.png?stp=dst-png&cstp=mx1024x1024&ctp=s720x720&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lSGftxVE4R4Q7kNvwHIN0ju&_nc_oc=AdqffeIRnsM6obxfoF22sXvEP9iUyvctD2eOeSx86STcJERvhObLUz6SvjN59pAp49M&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=hUMGZbzsChTUChHoXn03og&_nc_ss=7b20f&oh=00_Af9iVySryeg3b64oGf50c4sBRwmgDX98qG9I6dA_4lQqbA&oe=6A45B8CB",
+      "title": "Hong Kong Schools Music and Speech Association | Kowloon",
+      "description": "Hong Kong Schools Music and Speech Association， 九龍。 1,112 個讚 · 55 人正在談論這個 · 3 個打卡次。 We organize the annual Hong Kong Schools Music Festival and the annual Hong Kong Schools Speech Festival to lay a...",
+      "avatar_url": "/assets/source-avatars/cfc1628dfdcfcd7a9ea4.webp"
+    },
+    "fb_hnhk_harmonica_orchestra": {
+      "id": "fb_hnhk_harmonica_orchestra",
+      "name": "海南會館口琴樂團",
+      "account": "HNHK.Harmonica.Orchestra",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/HNHK.Harmonica.Orchestra",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/305045920_513760470753656_5896153681319834087_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1200&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=3ab345&_nc_ohc=fQDLBKgQU6YQ7kNvwFilfoQ&_nc_oc=Adrc_-lhCnmMSJdT6SjcuW5uQo1nZVm3qEWdG6NolGz9-8XF6RhqJDNGboK9i6uJRVU&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=ZAl4dneuWenI26mPGCPchg&_nc_ss=7b20f&oh=00_Af9dopKqXQp8KkpOYX_c9D7HTI9KJ156tCSy6bTzS7w1-A&oe=6A45B539",
+      "title": "HNHK  Harmonica Orchestra 海南会馆口琴乐团",
+      "description": "HNHK  Harmonica Orchestra 海南会馆口琴乐团。 492 個讚。 HNHK harmonica orchestra",
+      "avatar_url": "/assets/source-avatars/307c4c323c461125fa3f.webp"
+    },
+    "fb_hohner_konservatorium_trossingen_1586512034959284": {
+      "id": "fb_hohner_konservatorium_trossingen_1586512034959284",
+      "name": "Hohner 音樂院（特羅辛根）",
+      "account": "Hohner-Konservatorium-Trossingen-1586512034959284",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/hohnerkonservatorium",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/561718520_1342327311153040_3644262374150444471_n.jpg?stp=dst-jpg_tt6&cstp=mx550x550&ctp=s550x550&_nc_cat=106&ccb=1-7&_nc_sid=3ab345&_nc_ohc=R2Ff1Zv2CqEQ7kNvwEbYeQQ&_nc_oc=AdpHPsOEBFfs5WeCMlHMQblu7pPZ0Uoy2eT-QXDVqbDwckm7stqtR0skBAuNJD1VimI&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=_C9ngwABb7Bb8Avet3fqCw&_nc_ss=7b20f&oh=00_Af8zM7oSwY5o1X609anlKrDA8lzr_1g_qu-A00QJy1IGXg&oe=6A4590F2",
+      "title": "Hohner-Konservatorium Trossingen | Trossingen",
+      "description": "Hohner-Konservatorium Trossingen， 特羅辛根。 6,407 個讚 · 135 人正在談論這個 · 561 個打卡次。 Ausbildungsstätte für leidenschaftliche Musiker*innen!",
+      "avatar_url": "/assets/source-avatars/a47568166466d3acbf8a.webp"
+    },
+    "fb_kcobaps": {
+      "id": "fb_kcobaps",
+      "name": "英皇書院同學會小學口琴隊",
+      "account": "kcobaps",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/kcobaps",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/313900442_556580959806688_4950287615766432186_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x2048&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=Iq0KQ702IP8Q7kNvwF6wRSA&_nc_oc=AdooEvLbDcuKQ4-B_nAgAy9LKLhQYA95ubVI2O_fYvzZJX6OwGo2f5s7SVbnuFkBqEo&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=jSDCfPPo23rIL0hRYfHnkw&_nc_ss=7b20f&oh=00_Af-nDOkc5DtxY9RKvFUiWV9rkpa1Ixo3lYixjeZNAsasIg&oe=6A459E8A",
+      "title": "英皇書院同學會小學官方專頁 | Hong Kong Hong Kong",
+      "description": "英皇書院同學會小學官方專頁， 香港。 2,689 個讚 · 652 人正在談論這個 · 444 個打卡次。英皇書院同學會小學官方專頁 歡迎教職員、在學學生及校友加入。",
+      "avatar_url": "/assets/source-avatars/f00926e60ba68892eafb.webp"
+    },
+    "fb_malaysiaharmonicafestival": {
+      "id": "fb_malaysiaharmonicafestival",
+      "name": "馬來西亞口琴節",
+      "account": "malaysiaharmonicafestival",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/malaysiaharmonicafestival",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/278614367_124189700215706_1238611269500334535_n.jpg?stp=dst-jpg_tt6&cstp=mx937x937&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=JWDiSLR7H0wQ7kNvwHKTgNE&_nc_oc=Adpk803L5QvlNm-LwHZCafxXpZk_T5aH2ceRsJElmsf80USV9FnWJGyCsMsdcdvUufk&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=MkB0ofWq6YoL4w_VNIs9eg&_nc_ss=7b20f&oh=00_Af9fbpm37eA4jrmW6u6ZgWdNgqmDhZ-oJKRbJZTOua7gaw&oe=6A458D81",
+      "title": "Malaysia Harmonica Festival - MYHF",
+      "description": "Malaysia Harmonica Festival - MYHF 。 4,234 個讚 · 10 人正在談論這個。 “马来西亚口琴节” 是马来西亚年度一大口琴盛事，也是马来西亚史上首个得到国家教育部配合及认可的口琴比赛。",
+      "avatar_url": "/assets/source-avatars/6a6a7c95e21ac6131d5c.webp"
+    },
+    "fb_ntuharmonicaband": {
+      "id": "fb_ntuharmonicaband",
+      "name": "南洋理工大學口琴社",
+      "account": "NtuHarmonicaBand",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/NtuHarmonicaBand",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t1.6435-1/117248983_3340509366087965_7804959576222369348_n.jpg?stp=dst-jpg_tt6&cstp=mx730x730&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=3ab345&_nc_ohc=LicKhTL04QgQ7kNvwHibhx0&_nc_oc=AdqzwHdE5FohBQrRUxox3CozZuDpFa9-yTSisNTBCbYdX9Xy6e1-QIr822WNhKYjEWU&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=AckkeoX2iwj0qwY_7fvu5A&_nc_ss=7b20f&oh=00_Af_7sAgXkegteGC7ljNLbrCQQfZv5SxbRYpdLojGdyDqQQ&oe=6A6745A8",
+      "title": "NTU Harmonica Band",
+      "description": "NTU Harmonica Band 。 367 個讚 · 1 人正在談論這個 · 1 人來過這裡。 NTU Harmonica Band - Home to a group of passionate harmonica musicians in NTU",
+      "avatar_url": "/assets/source-avatars/24dd2009af919086546e.webp"
+    },
+    "fb_nusharmonica": {
+      "id": "fb_nusharmonica",
+      "name": "新加坡國立大學口琴社",
+      "account": "nusharmonica",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/nusharmonica",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/291799458_578428586963471_7844578099737387445_n.jpg?stp=dst-jpg_tt6&cstp=mx1417x1417&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=ZKk_Krr_z-MQ7kNvwGllaWz&_nc_oc=AdpGQIJWFSE6r0XZzh72oxQmeJ5fmbWkOlDq3t1o7FDuuzvfNIBNEIt3ooJqqCN2_IM&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=HIX5qBpNk-vp2BKL0kTq3Q&_nc_ss=7b20f&oh=00_Af87kl6qff4j664jWW3zt5bHyCCuSHhLYyqmxZgcrMcUZg&oe=6A45A4B8",
+      "title": "NUS Harmonica | Singapore Singapore",
+      "description": "NUS Harmonica， 新加坡。 564 個讚 · 3 個打卡次。 Established in 1981, the 160-member NUS Harmonica Orchestra performs on a diverse variety of harmoni",
+      "avatar_url": "/assets/source-avatars/ddea07d62d59833c9e3f.webp"
+    },
+    "fb_ohc2014": {
+      "id": "fb_ohc2014",
+      "name": "庫里奇巴口琴樂團",
+      "account": "OHC2014",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/OHC2014",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/301697899_471260411679680_520611385223565248_n.png?stp=dst-png&cstp=mx1395x1395&ctp=s720x720&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=lRazhe8CnIgQ7kNvwEH9Yyi&_nc_oc=Adr6U6WZGlW7il2MGRfvL9qeH9La6P4rSqgN6JsdWYMNx0jRKlph89e97N2Yv_F0z-k&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=wRKWuimi_hYqpC4TuqIsTA&_nc_ss=7b20f&oh=00_Af-6873_1zFFIReoCP4cdbWhRaaPnN0I88uB7ZhlcEM6aA&oe=6A458A02",
+      "title": "Orquestra Harmônicas de Curitiba | Curitiba PR",
+      "description": "Orquestra Harmônicas de Curitiba， 庫里奇巴。 3,968 個讚。 A Orquestra Harmônicas de Curitiba foi criada em 29 de março de 1979 pelos músicos Ronald Silva e Eduardo Marques. Em 2017 lança novo disco",
+      "avatar_url": "/assets/source-avatars/50dde3fdc73a265652cd.webp"
+    },
+    "fb_pcghsharmonica": {
+      "id": "fb_pcghsharmonica",
+      "name": "檳華女中口琴隊",
+      "account": "pcghsharmonica",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/pcghsharmonica",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/299352131_500149778780979_1163830176728158982_n.png?stp=dst-png&cstp=mx579x579&ctp=s579x579&_nc_cat=110&ccb=1-7&_nc_sid=3ab345&_nc_ohc=oDVltc1UyRIQ7kNvwHolT-O&_nc_oc=AdqZUO24XNPVIsmEraGIzmw7uXqOITNU8mkOEGYa9M22MTeypqB2mc6TQraU5x14ePo&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=bew3DG9i4qLP5pi8IUOIHg&_nc_ss=7b20f&oh=00_Af_l2-PzDffCr7h9OOwhj6Dq2ZUuC4iherHWCiGVIG0WaA&oe=6A45BCC7",
+      "title": "PCGHS Harmonica Band",
+      "description": "PCGHS Harmonica Band 。 478 個讚。 We are the harmonica band of Penang Chinese Girls' High School.\nStay tuned for our upcoming performances and events.\n\n我们是槟华女中口琴队。\n请尽情期待我们槟华女中口琴队最新表演与讯息。",
+      "avatar_url": "/assets/source-avatars/8018f71566f82d886006.webp"
+    },
+    "fb_sgyouthfest": {
+      "id": "fb_sgyouthfest",
+      "name": "新加坡青年節藝術展演（口琴）",
+      "account": "sgyouthfest",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/SgYouthFest",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/327351165_913525303159724_6508682793108680913_n.png?stp=dst-png&cstp=mx2048x2048&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=o09sEo9Q20YQ7kNvwG4b2Cx&_nc_oc=Adr0PZmJaddt6XJ5FNJvkasK6jPWETh5hFFBYdyKagvMRR5uyJwGmh9hHJpLPKoJ_rA&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=sG0IJDs2JUAB-sPCx25_Ew&_nc_ss=7b20f&oh=00_Af8yp6QP0AU0Wx60IVXinG1tHva9fD_L84DJnBtDQ86PTw&oe=6A458CA0",
+      "title": "Singapore Youth Festival - SYF",
+      "description": "Singapore Youth Festival - SYF 。 15,209 個讚 · 13 人正在談論這個。 Welcome to the Singapore Youth Festival (SYF) official Facebook page of the Arts Education Branch",
+      "avatar_url": "/assets/source-avatars/21606fa96981447cde89.webp"
+    },
+    "fb_spah63": {
+      "id": "fb_spah63",
+      "name": "口琴保存與推廣協會 SPAH",
+      "account": "SPAH63",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/SPAH63",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/289831892_395847289244119_4626071194364664140_n.jpg?stp=dst-jpg_tt6&cstp=mx311x244&ctp=s311x244&_nc_cat=105&ccb=1-7&_nc_sid=3ab345&_nc_ohc=IURY-qT9eWAQ7kNvwFsvLGe&_nc_oc=AdplzI7nlMwgAVrzrP0T097hu2tI1-kDexG_oGgscPUeBHQAJMNojhXUGqLvncBksbM&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=sXLA3sNrORf0LDqz2C7YqA&_nc_ss=7b20f&oh=00_Af_pO3jvaG4EOeVpStPW1v2WQvIes7tA1SoP4v31AOqZcA&oe=6A45B302",
+      "title": "SPAH Society for the Preservation and Advancement of the Harmonica | Dallas TX",
+      "description": "SPAH Society for the Preservation and Advancement of the Harmonica， 達拉斯。 5,313 個讚 · 19 人正在談論這個 · 246 個打卡次。 We are the Society for the Preservation & Advancement of the Harmonica, a non-profit,...",
+      "avatar_url": "/assets/source-avatars/3864d2413312e1332343.webp"
+    },
+    "fb_springharpfest": {
+      "id": "fb_springharpfest",
+      "name": "Spring Harp Fest",
+      "account": "springharpfest",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/springharpfest",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/294521697_484359986834571_2836002273029776112_n.jpg?stp=dst-jpg_tt6&cstp=mx400x404&ctp=s400x404&_nc_cat=104&ccb=1-7&_nc_sid=3ab345&_nc_ohc=H0w1lVoVmXsQ7kNvwHROIQn&_nc_oc=AdpHTEWEvu-RhTmoc0Jiv_of_UiCJprXDwIjjdU3hrV7kEF7xxa5as_3Eq38GascEVc&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=Wy1zyoRTDbvv0V7REPxNkQ&_nc_ss=7b20f&oh=00_Af-KqEySzNqy0v7nUK8hJW3Nf9xXzFX5Li4O54z92B-zvQ&oe=6A458DAD",
+      "title": "Spring Harp Fest | La Mesa CA",
+      "description": "Spring Harp Fest， 拉米薩。 1,211 個讚 · 8 人正在談論這個 · 573 個打卡次。 The Spring Harp Fest is back for 2026\n Saturday, April 4th!  Start time 11am",
+      "avatar_url": "/assets/source-avatars/7da7c35802f18a6da71e.webp"
+    },
+    "fb_thehummingway": {
+      "id": "fb_thehummingway",
+      "name": "海明威口琴重奏團",
+      "account": "TheHummingWay",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/TheHummingWay",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/305928565_607756550758406_5795762418025738802_n.jpg?stp=dst-jpg_tt6&cstp=mx865x856&ctp=s720x720&_nc_cat=111&ccb=1-7&_nc_sid=3ab345&_nc_ohc=vjxyeU2GtsIQ7kNvwH3FLdI&_nc_oc=Adq3df_YznCvNMgcPp-EJw-0lI0trxuNN86Een1srs-6L435kxxIwWSRYWMekc4wuZI&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=BJuVW0Qlxnq5lq_4DbWsAg&_nc_ss=7b20f&oh=00_Af-gFP5MeLCKarT46cdhH8l4Y5Yb6DJKgD7hFE5XxhBDww&oe=6A45A526",
+      "title": "The HummingWay Harmonica Ensemble 海明威口琴重奏团",
+      "description": "The HummingWay Harmonica Ensemble 海明威口琴重奏团。 2,925 個讚 · 1 人正在談論這個。 A group of passionate and enthusiastic harmonica players who aim to provide extraordinary audio visu",
+      "avatar_url": "/assets/source-avatars/c82d72b272635fefa4d9.webp"
+    },
+    "fb_yellowpinemusicandharmonicafestival": {
+      "id": "fb_yellowpinemusicandharmonicafestival",
+      "name": "Yellow Pine Harmonica Festival",
+      "account": "YellowPineMusicAndHarmonicaFestival",
+      "platform": "facebook",
+      "profile_url": "https://facebook.com/YellowPineMusicAndHarmonicaFestival"
+    },
+    "ig_clhs_harmonicaband": {
+      "id": "ig_clhs_harmonicaband",
+      "name": "鍾靈中學口琴隊",
+      "account": "clhs_harmonicaband",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/clhs_harmonicaband/"
+    },
+    "ig_empa_oficial": {
+      "id": "ig_empa_oficial",
+      "name": "EMPA 口琴課程",
+      "account": "empa.oficial",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/empa.oficial/"
+    },
+    "ig_escueladearmonicaba": {
+      "id": "ig_escueladearmonicaba",
+      "name": "布宜諾斯艾利斯口琴學校",
+      "account": "escueladearmonicaba",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/escueladearmonicaba/"
+    },
+    "ig_harmonica_fen_festival": {
+      "id": "ig_harmonica_fen_festival",
+      "name": "Harmonica FEN 口琴節與學院",
+      "account": "harmonica_fen_festival",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/harmonica_fen_festival/"
+    },
+    "ig_harmonicasbrasil": {
+      "id": "ig_harmonicasbrasil",
+      "name": "巴西口琴論壇",
+      "account": "harmonicasbrasil",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/harmonicasbrasil/"
+    },
+    "ig_harmonicauk": {
+      "id": "ig_harmonicauk",
+      "name": "英國口琴協會",
+      "account": "harmonicauk_",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/harmonicauk_/"
+    },
+    "ig_has_singapore": {
+      "id": "ig_has_singapore",
+      "name": "口琴愛好者協會（新加坡）",
+      "account": "has_singapore",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/has_singapore/"
+    },
+    "ig_hksmsa_official": {
+      "id": "ig_hksmsa_official",
+      "name": "香港學校音樂節",
+      "account": "hksmsa_official",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/hksmsa_official/"
+    },
+    "ig_hnhk_harmonica_orchestra": {
+      "id": "ig_hnhk_harmonica_orchestra",
+      "name": "海南會館口琴樂團",
+      "account": "hnhk_harmonica_orchestra",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/hnhk_harmonica_orchestra/"
+    },
+    "ig_hohnerkonservatorium": {
+      "id": "ig_hohnerkonservatorium",
+      "name": "Hohner 音樂院（特羅辛根）",
+      "account": "hohnerkonservatorium",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/hohnerkonservatorium/"
+    },
+    "ig_hummingwayharmonica": {
+      "id": "ig_hummingwayharmonica",
+      "name": "海明威口琴重奏團",
+      "account": "hummingwayharmonica",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/hummingwayharmonica/"
+    },
+    "ig_malaysia_harmonica_festival": {
+      "id": "ig_malaysia_harmonica_festival",
+      "name": "馬來西亞口琴節",
+      "account": "malaysia_harmonica_festival",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/malaysia_harmonica_festival/"
+    },
+    "ig_ntuhb": {
+      "id": "ig_ntuhb",
+      "name": "南洋理工大學口琴社",
+      "account": "ntuhb",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/ntuhb/"
+    },
+    "ig_nusharmonica": {
+      "id": "ig_nusharmonica",
+      "name": "新加坡國立大學口琴社",
+      "account": "nusharmonica",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/nusharmonica/"
+    },
+    "ig_official_spah63": {
+      "id": "ig_official_spah63",
+      "name": "口琴保存與推廣協會 SPAH",
+      "account": "official_spah63",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/official_spah63/"
+    },
+    "ig_orquestraharmonicas": {
+      "id": "ig_orquestraharmonicas",
+      "name": "庫里奇巴口琴樂團",
+      "account": "orquestraharmonicas",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/orquestraharmonicas/"
+    },
+    "ig_pcghs_harmonicaband": {
+      "id": "ig_pcghs_harmonicaband",
+      "name": "檳華女中口琴隊",
+      "account": "pcghs_harmonicaband",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/pcghs_harmonicaband/"
+    },
+    "ig_sgyouthfest": {
+      "id": "ig_sgyouthfest",
+      "name": "新加坡青年節藝術展演（口琴）",
+      "account": "sgyouthfest",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/sgyouthfest/"
+    },
+    "ig_springharpfest": {
+      "id": "ig_springharpfest",
+      "name": "Spring Harp Fest",
+      "account": "springharpfest",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/springharpfest/"
+    },
+    "ig_yellowpinemusicfestival": {
+      "id": "ig_yellowpinemusicfestival",
+      "name": "Yellow Pine Harmonica Festival",
+      "account": "yellowpinemusicfestival",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/yellowpinemusicfestival/"
+    },
+    "ig_yhhbfamily": {
+      "id": "ig_yhhbfamily",
+      "name": "裕華中學口琴樂團",
+      "account": "yhhbfamily",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/yhhbfamily/"
+    },
+    "x_harmonicauk": {
+      "id": "x_harmonicauk",
+      "name": "英國口琴協會",
+      "account": "harmonicauk",
+      "platform": "x",
+      "profile_url": "https://x.com/HarmonicaUK",
+      "avatar_source_url": "https://pbs.twimg.com/profile_images/1444019131775397901/63aRsgNN.jpg",
+      "title": "Twitter @HarmonicaUK",
+      "description": "Official account of HarmonicaUK, a UK registered charity (1131484) for promoting harmonica, no matter what variety it may be! Contact: social@harmonica.uk",
+      "avatar_url": "/assets/source-avatars/f122ade4e22f814487f6.webp"
+    },
+    "yt_chineseymcaofhongkongharmo9428": {
+      "id": "yt_chineseymcaofhongkongharmo9428",
+      "name": "香港中華基督教青年會口琴樂團",
+      "account": "https://youtube.com/@chineseymcaofhongkongharmo9428",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UChe61zwh8k3VNbpfD_42OkQ",
+      "avatar_source_url": "https://yt3.googleusercontent.com/ytc/AIdro_kYt7mmkFQmnyqAC7LY6I6iukh-GFu8_4J2n35l27p68A=s900-c-k-c0x00ffffff-no-rj",
+      "title": "Chinese YMCA of Hong Kong Harmonica Orchestra",
+      "description": "Chinese YMCA of Hong Kong Harmonica Orchestra was found in 1941 and is one of the most well established music organisations in Hong Kong. It is also one of the few symphonic harmonica orchestras in the world.\n香港中華基督教青年會口琴樂團成立於1941年，是本港歷史最悠久的音樂團體之一，也是迄今為止世界上少有的交響化口琴樂團。",
+      "avatar_url": "/assets/source-avatars/57f7b7f6588eb534abda.webp"
+    },
+    "yt_forumharmonicas": {
+      "id": "yt_forumharmonicas",
+      "name": "巴西口琴論壇",
+      "account": "https://youtube.com/@ForumHarmonicas",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UC9ODkklED2oDHvpTCsLgmOg",
+      "avatar_source_url": "https://yt3.googleusercontent.com/ytc/AIdro_kwKLwbzF1Xd0zck0L9JBczzU4aU9UUO6koACCC_cup9g=s900-c-k-c0x00ffffff-no-rj",
+      "title": "Fórum Harmônicas",
+      "description": "Canal do Fórum Harmônicas Brasil, o maior evento dedicado à harmônica no País",
+      "avatar_url": "/assets/source-avatars/1e6595c3604bd027cf3b.webp"
+    },
+    "yt_harmonicauk": {
+      "id": "yt_harmonicauk",
+      "name": "英國口琴協會",
+      "account": "https://youtube.com/@harmonicauk",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UC6sTwbHx9j4wTU-bHlWj3EA",
+      "avatar_source_url": "https://yt3.googleusercontent.com/ytc/AIdro_nXllKR4XCn92_ksnju23s_R1GxFJpfmuUmphqWrtqsvg=s900-c-k-c0x00ffffff-no-rj",
+      "title": "HarmonicaUK",
+      "description": "The official YouTube channel of HarmonicaUK",
+      "avatar_url": "/assets/source-avatars/f22dbe99147f154627a0.webp"
+    },
+    "yt_hnhkharmonica5296": {
+      "id": "yt_hnhkharmonica5296",
+      "name": "海南會館口琴樂團",
+      "account": "https://youtube.com/@hnhkharmonica5296",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCvjr9PDH5tvd6HbBOXJDdsg",
+      "avatar_source_url": "https://yt3.googleusercontent.com/ytc/AIdro_kuHi5E3pevjmK4ybf5BQH0gDnG6NaJhN56IHK7bWs=s900-c-k-c0x00ffffff-no-rj",
+      "title": "HNHK Harmonica",
+      "avatar_url": "/assets/source-avatars/5fd78d790a0cf6ac3d28.webp"
+    },
+    "yt_hohnerkonservatorium": {
+      "id": "yt_hohnerkonservatorium",
+      "name": "Hohner 音樂院（特羅辛根）",
+      "account": "https://youtube.com/user/HohnerKonservatorium",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCZzLZtnoVMm3Feaxg7ljt8w",
+      "avatar_source_url": "https://yt3.googleusercontent.com/ytc/AIdro_migPHNaC82rv_p2awgu5C9bIH6TTWw5iM7eYuzJDlCig=s900-c-k-c0x00ffffff-no-rj",
+      "title": "HohnerKonservatorium",
+      "description": "Sammlung von Konzerten, Auftritten und Wettbewerben unserer Studenten/innen und Dozenten/innen",
+      "avatar_url": "/assets/source-avatars/12673d3156462d37ecb8.webp"
+    },
+    "yt_hummingwaythe9424": {
+      "id": "yt_hummingwaythe9424",
+      "name": "海明威口琴重奏團",
+      "account": "https://youtube.com/@hummingwaythe9424",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCG8rKGY8z5v3_onC0ISDv_w",
+      "avatar_source_url": "https://yt3.googleusercontent.com/ytc/AIdro_nmIW3jTkoRgvcbtVfMXoe_K3VvExdZrvpcpJ9XOCO9AQ=s900-c-k-c0x00ffffff-no-rj",
+      "title": "Harmonica Ensemble HummingWay (海明威口琴重奏团)",
+      "avatar_url": "/assets/source-avatars/248e624c724cafe2243d.webp"
+    },
+    "yt_malaysiaharmonicafestival5523": {
+      "id": "yt_malaysiaharmonicafestival5523",
+      "name": "馬來西亞口琴節",
+      "account": "https://youtube.com/@malaysiaharmonicafestival5523",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCYp0yS7Kh45jAnTIRtGhQmg",
+      "avatar_source_url": "https://yt3.googleusercontent.com/oXY9gcCUPA8GEGNth-K9RboxQink0Y_3jpip6dVQ6R3d6hm2O5VLgdgCKbrPRH_z2EGkyue3qQ=s900-c-k-c0x00ffffff-no-rj",
+      "title": "Malaysia Harmonica Festival",
+      "avatar_url": "/assets/source-avatars/7143c32286144d16045d.webp"
+    },
+    "yt_nusho": {
+      "id": "yt_nusho",
+      "name": "新加坡國立大學口琴社",
+      "account": "https://youtube.com/@NUSHO",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCEg0YEvkMvtu3OuQRAsMhVg",
+      "avatar_source_url": "https://yt3.googleusercontent.com/ytc/AIdro_l7WGLQENU-hctsbzq_A3cu43M2Mn3uH53KFSQnnD65KDM=s900-c-k-c0x00ffffff-no-rj",
+      "title": "NUS Harmonica",
+      "description": "Founded in 1981 under NUS Centre For the Arts, NUS Harmonica Orchestra (NUSHO), the one and only Harmonica Orchestra in Singapore, integrates the unique sound of harmonica family with the harmony of various instruments such as piano, guitar, flute, cello, percussions, producing an exquisite and rich nuance within all its performances. NUSHO keeps exploring the possibilities for harmonica music under the direction of its residential conductor music director Ms Josephine Koh.\n\nBesides the annual performances, NUSHO has also been involved in local concert tours to myriad of countries including Thailand, China, Malaysia, Germany, Switzerland, Japan and Italy. \n\nIn the 9th Asia Pacific Harmonica Festival (APHF) which took place in Kuala Lumpur, Malaysia in 2012, NUSHO did exceptionally well and received 2 Gold Awards in the orchestra category, It also gets a Champion in ensemble groups and 4 Gold in the solo category, and various awards in other categories.",
+      "avatar_url": "/assets/source-avatars/a96e0f705ad1fb56ec70.webp"
+    },
+    "yt_seoulharmonicaorchestra": {
+      "id": "yt_seoulharmonicaorchestra",
+      "name": "首爾口琴管弦樂團",
+      "account": "https://youtube.com/@SeoulHarmonicaOrchestra",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCZDYRrwoHYByd2Rb79HAPXw",
+      "avatar_source_url": "https://yt3.googleusercontent.com/toGojqdVxXEwUzk3jZkjlFVii9gHlJvruzmxLaezQoXkS_54KYbkOTaTzw9WGuIZp7bGj6iS5g=s900-c-k-c0x00ffffff-no-rj",
+      "title": "서울하모니카오케스트라 Seoul Harmonica Orchestra",
+      "description": "서울하모니카오케스트라 Seoul Harmonica Orchestra\n서울솔로이스츠하모니카오케스트라 Seoul Soloists Harmonica Orchestra\n서울더드림하모니카오케스트라 Seoul THE DREAM Harmonica Orchestra",
+      "avatar_url": "/assets/source-avatars/ae2d7affb60493ee11f8.webp"
+    },
+    "yt_sihf_uv5mk": {
+      "id": "yt_sihf_uv5mk",
+      "name": "韓國口琴教育協會",
+      "account": "https://youtube.com/@SIHF-uv5mk",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCa6GDMEqzw886pUpJP0lYug",
+      "avatar_source_url": "https://yt3.googleusercontent.com/hQ1ihMg78zohs-jLBEymM2obtDXtanbpf_UPk4h9oSK0NFiTlJeWnYMrcPCkBFQwLlWT2YJ_=s900-c-k-c0x00ffffff-no-rj",
+      "title": "SIHF 2025",
+      "description": "2025 11회 서울국제하모니카페스티벌",
+      "avatar_url": "/assets/source-avatars/d46567b33b1baf0d8f42.webp"
+    },
+    "yt_springharpfest": {
+      "id": "yt_springharpfest",
+      "name": "Spring Harp Fest",
+      "account": "https://youtube.com/@springharpfest",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCOFPVyJxCl3e3Ip2biZbe4g",
+      "avatar_source_url": "https://yt3.googleusercontent.com/pvvzr5eFLqqJomJlWHFMlZeC4ANnyXMUyAZTItrCGI2sHWR0j-9Akzx4fIBSYKJ_MpAozu9_Gw=s900-c-k-c0x00ffffff-no-rj",
+      "title": "Spring Harp Fest",
+      "description": "The 2026 Spring Harp Fest will be held at Harry Griffen Park in La Mesa, CA on April 4. Join us for a day of family fun that includes music, dancing, food trucks and more! Bring your kids, your pets, and your coolers for a relaxing, old-fashioned celebration of harmonica music.\n\nSpring Harp Fest is an outdoor music festival celebrating the harmonica, held annually in La Mesa, California since 1999. It is an all-volunteer event founded to increase awareness about harmonica's role in American music. Donations are tax-deductible and support both the festival and free music lessons for young musicians in and around San Diego County. With the help of our donors, Harp Fest has donated more than 5,000 harmonicas to local students.\n\nEmail us if you'd like to share a video to our channel.",
+      "avatar_url": "/assets/source-avatars/0f9ef3e548d343d93fb8.webp"
+    },
+    "yt_ucbjlie6bvgh8jhvco_xltsg": {
+      "id": "yt_ucbjlie6bvgh8jhvco_xltsg",
+      "name": "口琴保存與推廣協會 SPAH",
+      "account": "https://youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
+      "avatar_source_url": "https://yt3.googleusercontent.com/ytc/AIdro_mL6q3CNZtThcfReoxjka6yJ8vxhVqjk_gkIsHhELFXwA=s900-c-k-c0x00ffffff-no-rj",
+      "title": "SPAH Harmonica (Harmonica Non-Profit)",
+      "description": "The Society for the Preservation and Advancement of the Harmonica is a 501(c)3 US non-profit, formed in 1963. \"SPAH\", as we are known, is the pre-eminent harmonica organization in the USA, and holds an annual convention (usually in person) during the second full week of every August.  On this SPAH channel, we will publish harmonica performances from virtual SPAH Week conventions, as well as from Live Conventions as they become available.",
+      "avatar_url": "/assets/source-avatars/f026894bab2c9e94a040.webp"
+    },
+    "yt_ucln6hrzz1nhq8tx5zsqzgjq": {
+      "id": "yt_ucln6hrzz1nhq8tx5zsqzgjq",
+      "name": "布宜諾斯艾利斯口琴學校",
+      "account": "https://youtube.com/channel/UCln6Hrzz1NHq8TX5ZSQzgJQ",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCln6Hrzz1NHq8TX5ZSQzgJQ",
+      "avatar_source_url": "https://yt3.googleusercontent.com/WjlnXpKWCpnbwoaIcJJaIU2LZPoXlPxqmfk3hvBAjxUUvbVIeAPseY_lQgcyDT2cGoxFLEq_=s900-c-k-c0x00ffffff-no-rj",
+      "title": "Escuela de Armonica",
+      "avatar_url": "/assets/source-avatars/5774604e3453ac9df400.webp"
+    },
+    "yt_uctti8xh0v4dgrgp7hz68bww": {
+      "id": "yt_uctti8xh0v4dgrgp7hz68bww",
+      "name": "Harmonica FEN 口琴節與學院",
+      "account": "https://youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw",
+      "avatar_source_url": "https://yt3.googleusercontent.com/R17CShZ0OpbHtVGpBvdQnojm0trWo1Qoi7NrScRfpd3G3x-EzLtQg78IBpjrlb14vc-402HofA=s900-c-k-c0x00ffffff-no-rj",
+      "title": "HARMONICA FEN FESTIVAL & ACADEMY",
+      "description": "Welcome to the Youtube channel of FEN MUSIC, organiser of the HARMONICA FEN FESTIVAL Berlin and the FEN MUSIC ACADEMY Berlin. The HARMONICA FEN FESTIVAL, which has been held every two years at the Kulturbrauerei Berlin since 2022, brings top-class harmonica players to Germany's capital. It is the only music festival in Berlin that focuses on the harmonica. FEN stands for fascination education network.\nBesides the festival FEN MUSIC offers services for music-related projects and is organising FEN concerts and master workshops such as the FEN Master Workshops for harmonica and the FEN Master Workshops for accordion.\nhttps://harmonica-fen-festival.com, https://harmonica-fen.com",
+      "avatar_url": "/assets/source-avatars/91b0674b541243b2002c.webp"
+    },
+    "manual_spcc_harmonica": {
+      "name": "聖保羅男女中學口琴隊",
+      "platform": "website",
+      "profile_url": "https://www.spcc.edu.hk/explore/extra-curricular-activities",
+      "avatar_source_url": "https://www.spcc.edu.hk/assets/img/favicon/apple-touch-icon.png",
+      "avatar_url": "/assets/source-avatars/b60d05ab9f0be0ff47f9.webp"
+    },
+    "manual_yuhua_harmonica": {
+      "name": "裕華中學口琴樂團",
+      "platform": "website",
+      "profile_url": "https://www.yuhuasec.moe.edu.sg/our-ccas/visual-performing-arts/harmonica-band/",
+      "avatar_source_url": "https://www.yuhuasec.moe.edu.sg/images/isomer-logo.svg",
+      "avatar_url": "/assets/source-avatars/f6c80a4b56b7213a71d1.svg"
+    },
+    "manual_whut_xingyi": {
+      "name": "武漢理工大學學生星一口琴協會",
+      "platform": "website",
+      "profile_url": "https://youth.whut.edu.cn/stfc/202606/t20260609_1402701.shtml",
+      "avatar_source_url": "https://www.whut.edu.cn/material/images/logo.svg",
+      "avatar_url": "/assets/source-avatars/205fc0b886ca07ec0611.svg"
+    },
+    "manual_ccnu_zhiyin": {
+      "name": "華中師範大學學生知音口琴社",
+      "platform": "website",
+      "profile_url": "https://youth.ccnu.edu.cn/info/1170/19470.htm",
+      "avatar_source_url": "https://youth.ccnu.edu.cn/images/logo.png",
+      "avatar_url": "/assets/source-avatars/56ffb595435ab6e08448.webp"
+    },
+    "manual_ichchk": {
+      "name": "香港國際半音階口琴大賽",
+      "platform": "website",
+      "profile_url": "https://www.ichchk.com/",
+      "avatar_source_url": "https://www.ichchk.com/theme_default/ichc/website_preview_img.jpg",
+      "avatar_url": "/assets/source-avatars/b122c94c4c8ed25a0101.webp"
+    },
+    "manual_aphf_2026": {
+      "name": "第十五屆亞太口琴藝術週",
+      "platform": "website",
+      "profile_url": "https://www.aphfhx.com/",
+      "avatar_source_url": "https://aphfx-1255574727.cos.ap-shanghai.myqcloud.com/20260505/fb578245c6eb46d2943c7f37963e86ec.png",
+      "avatar_url": "/assets/source-avatars/0b703abf6d39accdf451.webp"
+    },
+    "manual_china_harmonica_committee": {
+      "name": "中國大眾音樂協會口琴專業委員會",
+      "platform": "website",
+      "profile_url": "https://www.harmonica.org.cn/",
+      "avatar_source_url": "https://www.harmonica.org.cn/images/logo.png",
+      "avatar_url": "/assets/source-avatars/35d62fd11d6f5302527c.webp"
+    },
+    "manual_yellowpine": {
+      "name": "Yellow Pine Harmonica Festival",
+      "platform": "website",
+      "profile_url": "https://www.yellowpinefestival.org/",
+      "avatar_source_url": "https://www.yellowpinefestival.org/favicon.ico"
+    },
+    "manual_dhv": {
+      "name": "德國 Harmonica/Harmonika 協會 DHV",
+      "platform": "website",
+      "profile_url": "https://www.dhv-ev.de/mundharmonika/",
+      "avatar_source_url": "https://www.dhv-ev.de/wp-content/uploads/2021/02/DHV_425x425_Logo_2021_RZ.jpg",
+      "avatar_url": "/assets/source-avatars/2c731f4548fe7ed5241e.webp"
+    },
+    "manual_harmonica_masters": {
+      "name": "Harmonica Masters 口琴大師工作坊",
+      "platform": "website",
+      "profile_url": "https://harmonica-masters.de/",
+      "avatar_source_url": "https://harmonica-masters.de/wp-content/uploads/2025/08/cropped-hohner-icon-192x192.png",
+      "avatar_url": "/assets/source-avatars/3f4a34085713e74f8270.webp"
+    },
+    "manual_mundharmonika_live": {
+      "name": "Mundharmonika-Live 口琴節",
+      "platform": "website",
+      "profile_url": "https://mundharmonika-live.de/",
+      "avatar_source_url": "https://mundharmonika-live.de/wp-content/uploads/2019/03/mundharmonikalive_logo_264x88_gelb_gruen.jpg",
+      "avatar_url": "/assets/source-avatars/c17924681b81f13d4c6c.webp"
+    },
+    "manual_empa_harmonica": {
+      "name": "EMPA 口琴課程",
+      "platform": "website",
+      "profile_url": "https://www.empa.edu.ar/",
+      "avatar_source_url": "https://irp.cdn-website.com/119de207/site_favicon_16_1650294902095.ico",
+      "avatar_url": "/assets/source-avatars/37c1c3f1c62ab1c41b0e.webp"
+    },
+    "fb_yellowpineharmonicafestival": {
+      "id": "fb_yellowpineharmonicafestival",
+      "name": "Yellow Pine Harmonica Festival",
+      "account": "YellowPineHarmonicaFestival",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/YellowPineHarmonicaFestival",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/488459367_984147080582223_6369034247251819963_n.jpg?stp=dst-jpg_tt6&cstp=mx500x500&ctp=s500x500&_nc_cat=100&ccb=1-7&_nc_sid=3ab345&_nc_ohc=hSQszhrNYn8Q7kNvwHmynOf&_nc_oc=AdrebfEc4RyIu6UPHyLiHLkvzxw6kpbVpYefAYvvglEkeS8TzKUkBpw0s-6bMsQv-2Y&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=xOnPIby8eYVLerXXH3Z6eQ&_nc_ss=7b20f&oh=00_Af_Bs-N0PQhuvFxHHtFJnXNW9DiSovrkmDWF1lckrdHSqg&oe=6A458F13",
+      "title": "Yellow Pine Harmonica Festival",
+      "description": "Yellow Pine Harmonica Festival 。 4,651 個讚 · 263 人正在談論這個。 The Yellow Pine Music and Harmonica festival is a harmonica forward, family-friendly music festival located in central Idaho.  Taking place...",
+      "avatar_url": "/assets/source-avatars/268fc7901d02713982ec.webp"
+    },
+    "fb_kg_hamoso": {
+      "id": "fb_kg_hamoso",
+      "name": "關西學院大學ハーモニカソサイアティ",
+      "account": "kg.hamoso",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/kg.hamoso",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/304789171_530594902201911_2000245629405718571_n.jpg?stp=dst-jpg_tt6&cstp=mx400x400&ctp=s400x400&_nc_cat=107&ccb=1-7&_nc_sid=3ab345&_nc_ohc=khd1sfvufCsQ7kNvwHVmD3R&_nc_oc=AdrVS2bHvbsYpjq23qsD1BBSsGemWd5229_75FrDz_ZmDoNFbGaoAkwQe3Ps3-pHnS0&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=-vv4_uJ6s70TQKhQ2PzlXQ&_nc_ss=7b20f&oh=00_Af8p6flZCwelMQIB6CyI4X-LODL1i7m2zrzMqE_VdywvPQ&oe=6A45C172",
+      "title": "関西学院大学文化総部ハーモニカソサイアティ",
+      "description": "関西学院大学文化総部ハーモニカソサイアティ。 108 個讚。関西学院大学文化総部ハーモニカソサイアティは、ハーモニカを中心に10�",
+      "avatar_url": "/assets/source-avatars/ee604f50c6e7a5d04c28.webp"
+    },
+    "fb_meijihamoso": {
+      "id": "fb_meijihamoso",
+      "name": "明治大學ハーモニカソサエティー",
+      "account": "meijihamoso",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/meijihamoso",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/299528446_367119818956164_567082038358334289_n.png?stp=dst-png&cstp=mx180x180&ctp=s180x180&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=VkjPWTnyl1YQ7kNvwH7qdxA&_nc_oc=Adq55n3yCeU9btHpmzZwyyL1SACxi-iC1RB5L40COc4F-fJfLJot6EJ23i_OK8jCQ_c&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=NfRBBotcTVBviNpegqXOYQ&_nc_ss=7b20f&oh=00_Af_ZS5BD1sKJr2bYIvDXwquN_p8yVIPw1ee0HURHTOtAKA&oe=6A45B6A1",
+      "title": "明治大学ハーモニカソサエティー | Chiyoda-ku Tokyo",
+      "description": "明治大学ハーモニカソサエティー， Chiyoda-ku 。 246 個讚。明治大学ハーモニカソサエティーはハーモニカを中心としたビッグバンド�",
+      "avatar_url": "/assets/source-avatars/e875cf9d62dad5395847.webp"
+    },
+    "fb_moridaira": {
+      "id": "fb_moridaira",
+      "name": "F.I.H. JAPAN ハーモニカコンテスト",
+      "account": "moridaira",
+      "platform": "facebook",
+      "profile_url": "https://www.facebook.com/moridaira",
+      "avatar_source_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/302686318_566359691952811_7905585025182443231_n.png?stp=dst-png&cstp=mx350x350&ctp=s350x350&_nc_cat=101&ccb=1-7&_nc_sid=3ab345&_nc_ohc=e-QNJVb6G3AQ7kNvwFxTbsq&_nc_oc=Adr8iX8FZVzl02-bFO1i4UXx7MlPtMcIGb-Nj0q24DruGaECNT9wVVrImNVdwzxpqL0&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=YbYLu1akzIAuFko0E0t3qA&_nc_ss=7b20f&oh=00_Af_NO3oK1qBnlvr-IPuzA-QNhXPsYIdrv6Io9FNyWyBBbA&oe=6A45B909",
+      "title": "Moridaira | Chiyoda-ku Tokyo",
+      "description": "Moridaira， Chiyoda-ku 。 2,807 個讚 · 15 人正在談論這個 · 204 個打卡次。「一流品だけを世界から」をモットーに国内、海外のブランドを全国の楽�",
+      "avatar_url": "/assets/source-avatars/32def191105b7ab39a73.webp"
+    },
+    "ig_chuo_hamoso": {
+      "id": "ig_chuo_hamoso",
+      "name": "中央大學リード合奏部ハーモニカ・ソサィエティー",
+      "account": "chuo_hamoso",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/chuo_hamoso/"
+    },
+    "ig_kadaihamo": {
+      "id": "ig_kadaihamo",
+      "name": "鹿兒島大學ハーモニカバンド",
+      "account": "kadaihamo",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/kadaihamo/"
+    },
+    "ig_kg_hamoso": {
+      "id": "ig_kg_hamoso",
+      "name": "關西學院大學ハーモニカソサイアティ",
+      "account": "kg_hamoso",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/kg_hamoso/"
+    },
+    "ig_meiji_hamoso": {
+      "id": "ig_meiji_hamoso",
+      "name": "明治大學ハーモニカソサエティー",
+      "account": "meiji_hamoso",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/meiji_hamoso/"
+    },
+    "ig_moridaira_mi": {
+      "id": "ig_moridaira_mi",
+      "name": "F.I.H. JAPAN ハーモニカコンテスト",
+      "account": "moridaira_mi",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/moridaira_mi/"
+    },
+    "ig_rikkyo_harmonica": {
+      "id": "ig_rikkyo_harmonica",
+      "name": "立教大學ハーモニカ・ソサイアティー",
+      "account": "rikkyo_harmonica",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/rikkyo_harmonica/"
+    },
+    "ig_wasehamo_waseda": {
+      "id": "ig_wasehamo_waseda",
+      "name": "早稻田大學ハーモニカ・ソサィアティ",
+      "account": "wasehamo_waseda",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/wasehamo_waseda/"
+    },
+    "x_chuo_hamoso": {
+      "id": "x_chuo_hamoso",
+      "name": "中央大學リード合奏部ハーモニカ・ソサィエティー",
+      "account": "chuo_hamoso",
+      "platform": "x",
+      "profile_url": "https://x.com/chuo_hamoso",
+      "avatar_source_url": "https://pbs.twimg.com/profile_images/2016949935/CHSrogo_normal.gif",
+      "title": "Twitter @中央大学ハーモニカ・ソサィエティー(リード合奏部)",
+      "description": "中大ハモソ(中央大学リード合奏部)の公式Twitterです！ 新入部員大募集中！☆質問はお気軽にDMか質問箱まで🙇☆活動日等の基本情報はHPをご覧ください🙌仮入部随時受付中✨初心者、2年生以上も大歓迎！インスタ・ライン公式アカウントもやっています🎶現在も楽器体験受付中！希望の方はDMへ💁🏻",
+      "avatar_url": "/assets/source-avatars/82ad6a0bd1ed6cc76baf.webp"
+    },
+    "x_kadaihamoban": {
+      "id": "x_kadaihamoban",
+      "name": "鹿兒島大學ハーモニカバンド",
+      "account": "kadaihamoban",
+      "platform": "x",
+      "profile_url": "https://x.com/kadaihamoban",
+      "avatar_source_url": "https://pbs.twimg.com/profile_images/716204563565445120/EbyN8CvK.jpg",
+      "title": "Twitter @鹿児島大学ハーモニカバンド",
+      "description": "鹿児島大学 学友会 ハーモニカバンド キャピタルハーモニー 公式アカウントです！大学公認サークルです👏インスタも見てくださいね😊 https://t.co/P8SS2xFRQa ホームページはこちら！ https://t.co/tPDefOUgoc",
+      "avatar_url": "/assets/source-avatars/35159a4cd3eacc4a001e.webp"
+    },
+    "x_kg_hamoso": {
+      "id": "x_kg_hamoso",
+      "name": "關西學院大學ハーモニカソサイアティ",
+      "account": "kg_hamoso",
+      "platform": "x",
+      "profile_url": "https://x.com/kg_hamoso",
+      "avatar_source_url": "https://pbs.twimg.com/profile_images/990565079320903680/-PD0pm27.jpg",
+      "title": "Twitter @関西学院大学ハーモニカソサイアティ",
+      "description": "関学公認部活です。ハーモニカ アコーディオン ギター ベース ドラム 鍵盤打楽器などを用いて、多彩なジャンルの曲をビッグバンド形式で演奏しています♪ 質問等DM大歓迎◎学年や経験問わず年中部員募集中✨️ 新歓用→@kghamoso_sinkan",
+      "avatar_url": "/assets/source-avatars/0f23eee73a15e32efe6a.webp"
+    },
+    "x_meiji_hamoso": {
+      "id": "x_meiji_hamoso",
+      "name": "明治大學ハーモニカソサエティー",
+      "account": "meiji_hamoso",
+      "platform": "x",
+      "profile_url": "https://x.com/meiji_hamoso",
+      "avatar_source_url": "https://pbs.twimg.com/profile_images/1970085513643388928/4A9MJ4A8.jpg",
+      "title": "Twitter @明治大学ハーモニカソサエティー",
+      "description": "明治大学公認音楽サークル、通称《ハモソ》です⭐️ ハーモニカとはありますが、フルート、クラリネットなど吹奏楽器、ギター、ベース、キーボード、ドラムなどの軽音楽器に挑戦できます！初心者も経験者も大歓迎💫【【ご質問等気軽にDMください！！】】",
+      "avatar_url": "/assets/source-avatars/245cefc48cb4f4cbded8.webp"
+    },
+    "x_moridaira_mi": {
+      "id": "x_moridaira_mi",
+      "name": "F.I.H. JAPAN ハーモニカコンテスト",
+      "account": "moridaira_mi",
+      "platform": "x",
+      "profile_url": "https://x.com/moridaira_mi",
+      "avatar_source_url": "https://pbs.twimg.com/profile_images/1646289705/MORIDAIRA2.jpg",
+      "title": "Twitter @株式会社モリダイラ楽器",
+      "description": "「よい楽器だけを世界から」をモットーに国内、海外のブランドを全国の楽器店様に紹介・販売する商社です。 当アカウントに問い合わせ等はご遠慮ください。 お問い合わせはこちらまで→https://t.co/5B7YAfadlx",
+      "avatar_url": "/assets/source-avatars/0468477185840fce4e38.webp"
+    },
+    "x_rikkyo_rhs": {
+      "id": "x_rikkyo_rhs",
+      "name": "立教大學ハーモニカ・ソサイアティー",
+      "account": "rikkyo_rhs",
+      "platform": "x",
+      "profile_url": "https://x.com/rikkyo_rhs",
+      "avatar_source_url": "https://pbs.twimg.com/profile_images/1325405067596365826/RjmngUTt.jpg",
+      "title": "Twitter @立教大学ハーモニカ・ソサイアティ♪",
+      "description": "立教大学公認サークル、通称『ハモソ』の公式Twitter。今年で創部74年🌟10パートで合奏しています🎸初心者大歓迎‼️入部・質問はDM・メールからどうぞ！ hamosohamohamo@gmail.com #ギター #ドラム #ハーモニカ #フルート #クラリネット #ピアノ #ベース #鉄琴",
+      "avatar_url": "/assets/source-avatars/49c3b4bc85c64c7f5a84.webp"
+    },
+    "x_wasehamo": {
+      "id": "x_wasehamo",
+      "name": "早稻田大學ハーモニカ・ソサィアティ",
+      "account": "wasehamo",
+      "platform": "x",
+      "profile_url": "https://x.com/wasehamo",
+      "avatar_source_url": "https://pbs.twimg.com/profile_images/450647049759776769/mLFYS5U0_normal.jpeg",
+      "title": "Twitter @早稲田大学ハーモニカソサィアティ",
+      "description": "1926年創設 早稲田大学公認サークル 、早稲田大学ハーモニカソサィアティ( わせはも )の公式Xです！ハーモニカ、木管楽器、バンド楽器で構成されています。2025年度も学年問わず部員を大募集中🔥 質問はお気軽にDMまで！",
+      "avatar_url": "/assets/source-avatars/a9eabf605a1c9bbbb7e0.webp"
+    },
+    "yt_meijiunivharmonicasociety": {
+      "id": "yt_meijiunivharmonicasociety",
+      "name": "明治大學ハーモニカソサエティー",
+      "account": "https://youtube.com/@MeijiUnivHarmonicaSociety",
+      "platform": "youtube",
+      "profile_url": "https://youtube.com/@MeijiUnivHarmonicaSociety"
+    },
+    "yt_moridaira01": {
+      "id": "yt_moridaira01",
+      "name": "F.I.H. JAPAN ハーモニカコンテスト",
+      "account": "https://youtube.com/user/Moridaira01",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCH6yXQZ8yTiDDKKRPh8BvyQ",
+      "avatar_source_url": "https://yt3.googleusercontent.com/ytc/AIdro_knZgyMXx_13Tef4kdPxZ9ocr3B8s_pRwCUT2YQ-08D7w=s900-c-k-c0x00ffffff-no-rj",
+      "title": "モリダイラ楽器",
+      "description": "モーリスギターをはじめ、世界中の良質な楽器だけを取り扱うモリダイラ楽器が提供するチャンネルです。",
+      "avatar_url": "/assets/source-avatars/24870c852f8c894e2370.webp"
+    },
+    "yt_ucbjucgoceqk8hxsx7a7zcuq": {
+      "id": "yt_ucbjucgoceqk8hxsx7a7zcuq",
+      "name": "關西學院大學ハーモニカソサイアティ",
+      "account": "https://youtube.com/channel/UCbJuCgOCEQK8HxsX7A7ZCuQ",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCbJuCgOCEQK8HxsX7A7ZCuQ",
+      "avatar_source_url": "https://yt3.googleusercontent.com/ytc/AIdro_n5AUqZUtyyZKv-_GK1DrTd6y1t6a581CbLgdDa8Qvw_Xo=s900-c-k-c0x00ffffff-no-rj",
+      "title": "関西学院大学ハーモニカソサイアティ",
+      "description": "関西学院大学ハーモニカソサイアティは10種類を超える様々な楽器達を用いて、多彩なジャンルの曲を、アンサンブル形式（ビックバンド形式）で演奏している部活動です。\n\n4種類のアンサンブルハーモニカをはじめ、ソロで用いられるクロマチックハーモニカ、またフルート・アコーディオン・マリンバ～ビブラフォン～グロッケン、ギターやベース、ドラムに加え、コンガ、ボンゴといったパーカッション、ピアノ、シンセサイザーなどを使用しています。",
+      "avatar_url": "/assets/source-avatars/c19609a39e582205893f.webp"
+    },
+    "yt_uceov_vq5jtda7wkneva_08a": {
+      "id": "yt_uceov_vq5jtda7wkneva_08a",
+      "name": "早稻田大學ハーモニカ・ソサィアティ",
+      "account": "https://youtube.com/channel/UCEOv_Vq5jTdA7WKnEvA-08A",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCEOv_Vq5jTdA7WKnEvA-08A",
+      "avatar_source_url": "https://yt3.googleusercontent.com/ytc/AIdro_kgdx7kTGzIr6Do0rUxzK6v0Qbr9qfHiABQZEN9_7PEGg=s900-c-k-c0x00ffffff-no-rj",
+      "title": "早稲田大学ハーモニカソサィアティ",
+      "description": "1926年創設の早稲田大学公認サークル(学生の会)、早稲田大学ハーモニカソサィアティ(わせはも)のYouTubeチャンネルです。\n毎年2~3回あるコンサートの演奏等を随時アップしていきます。よろしければ是非チャンネル登録お願いします！",
+      "avatar_url": "/assets/source-avatars/24ffc599f2312b2a965d.webp"
+    },
+    "yt_ucfvo2zjfxi0qbryequzxy2a": {
+      "id": "yt_ucfvo2zjfxi0qbryequzxy2a",
+      "name": "立教大學ハーモニカ・ソサイアティー",
+      "account": "https://youtube.com/channel/UCfVo2Zjfxi0QBryeqUzxy2A",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCfVo2Zjfxi0QBryeqUzxy2A",
+      "avatar_source_url": "https://yt3.googleusercontent.com/ytc/AIdro_lrDBwWhKtxYY-Qxoxtt5NthVjE4l3iNifoTxNJr_jYYg=s900-c-k-c0x00ffffff-no-rj",
+      "title": "Rikkyo Hamoso",
+      "description": "立教大学ハーモニカ・ソサイアティー(RHS)は、ハーモニカを中心に演奏する音楽サークルです。\nサークルの詳細についてはぜひ公式サイトをご覧ください！\nhttps://rikkyo-rhs.jimdo.com/",
+      "avatar_url": "/assets/source-avatars/2d47ccb217762c376acc.webp"
+    },
+    "yt_ucpxbm4ji491or1q33mghrvw": {
+      "id": "yt_ucpxbm4ji491or1q33mghrvw",
+      "name": "中央大學リード合奏部ハーモニカ・ソサィエティー",
+      "account": "https://youtube.com/channel/UCpxbm4Ji491oR1Q33MGHRVw",
+      "platform": "youtube",
+      "profile_url": "https://www.youtube.com/channel/UCpxbm4Ji491oR1Q33MGHRVw",
+      "avatar_source_url": "https://yt3.googleusercontent.com/ytc/AIdro_k7bKsIpgOz0oyNkQPClq1Y0N_5Y99qxV0zzr_XxjbU5g=s900-c-k-c0x00ffffff-no-rj",
+      "title": "中央大学リード合奏部ハーモニカソサィエティー",
+      "description": "1929年創設の中央大学公認サークル、中央大学ハーモニカ・ソサィエティー（通称ハモソ）です！\nハーモニカを中心として吹奏楽やバンドなどで使われる色々な楽器を用い、様々なジャンルの曲を演奏する世にもまれなビッグバンド集団、それがハモソ！\nこのチャンネルでは、主に各種演奏会の様子やハモソの紹介などを動画にしてお届けします♪",
+      "avatar_url": "/assets/source-avatars/7ff9d239388e695fc726.webp"
+    },
+    "manual_tombo_harmso": {
+      "name": "TOMBO ハーモニカ・ソサイエティ",
+      "platform": "website",
+      "profile_url": "https://www.tombo-m.co.jp/hmc/genre/harmso.html",
+      "avatar_source_url": "https://www.tombo-m.co.jp/favo32.ico",
+      "avatar_url": "/assets/source-avatars/b070860a0fc0554c89c6.webp"
+    },
+    "manual_ajhf": {
+      "name": "全日本ハーモニカ連盟 AJHF",
+      "platform": "website",
+      "profile_url": "https://japanharmonica.wixsite.com/ajhf",
+      "avatar_source_url": "https://static.wixstatic.com/media/bd7360_e9b941713a0c4b82b54ba3d3f2fac694~mv2.png/v1/fill/w_199,h_199,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/bd7360_e9b941713a0c4b82b54ba3d3f2fac694~mv2.png",
+      "avatar_url": "/assets/source-avatars/1ca8f38afedcb35bf40b.webp"
+    },
+    "manual_jhaa": {
+      "name": "日本ハーモニカ芸術協会 JHAA",
+      "platform": "website",
+      "profile_url": "https://jhaa.info/about.html",
+      "avatar_source_url": "https://jhaa.info/images/logo.png",
+      "avatar_url": "/assets/source-avatars/875263853804cee31233.webp"
+    },
+    "manual_yamagata_commercial": {
+      "name": "山形市立商業高等學校ハーモニカバンド部",
+      "platform": "website",
+      "profile_url": "https://www.yamagatacity-ch.ed.jp/cd-cat/harmonica-band/",
+      "avatar_source_url": "https://www.yamagatacity-ch.ed.jp/wp-content/uploads/fbrfg/apple-touch-icon.png",
+      "avatar_url": "/assets/source-avatars/f326cabde9f1f68cd6a2.webp"
+    },
+    "ig_story_yoonseoklee_harmonica": {
+      "id": "ig_story_yoonseoklee_harmonica",
+      "name": "Yoonseok Lee",
+      "account": "yoonseoklee_harmonica",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/yoonseoklee_harmonica/",
+      "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/480625693_2652875698237617_4801409437067193681_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gFGd7WiglHDGFKpuXZTtf-ximTsECksWQv_bQzjO0yQIKD-rgsVy3iPyETBID4Iw0Q&_nc_ohc=2lBOwv_j484Q7kNvwGR8x0G&_nc_gid=NV7-jpdQ84ua2z1z6FnWxA&edm=ANmP7GQBAAAA&ccb=7-5&oh=00_Af9dcKHUXvJa7CwkINmHqNT0MUrvQiJtpvk0o_npeq55NQ&oe=6A45B28A&_nc_sid=982cc7",
+      "avatar_url": "/assets/source-avatars/e35b1f9e1a2e75c44c58.webp"
     }
   }
 }

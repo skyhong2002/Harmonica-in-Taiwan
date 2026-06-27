@@ -2182,7 +2182,8 @@ def bump_html_asset_versions() -> None:
 
 def generate_sources(limit: int) -> int:
     data = parse_site_data(SITE_DATA)
-    entries = data.get("entries", [])[:limit]
+    all_entries = data.get("entries", [])
+    entries = all_entries[:limit] if limit and limit > 0 else all_entries
     now = dt.datetime.now(dt.timezone.utc)
     rss = build_channel(
         "臺灣口琴觀測站：來源索引",
@@ -2241,7 +2242,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--updates-days", type=int, default=DEFAULT_UPDATE_WINDOW_DAYS)
     parser.add_argument("--updates-limit", type=int, default=0)
-    parser.add_argument("--sources-limit", type=int, default=150)
+    parser.add_argument("--sources-limit", type=int, default=0)
     args = parser.parse_args()
 
     updates, categorized = generate_updates(args.updates_days, args.updates_limit)

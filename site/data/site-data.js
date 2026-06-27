@@ -2,6 +2,176 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-06-27",
   "entries": [
     {
+      "id": "watchlist-50",
+      "name": "CY Leo 何卓彥",
+      "nameEn": "CY Leo",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/現代跨界",
+      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
+      "summary": "香港的半音階國際演出人員，活動脈絡包含現代跨界。",
+      "keywords": "CY Leo 何卓彥 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.cyleomusic.io/profile"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Cyleoharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cy_leo/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@cyleoharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-27T13:39:13+00:00",
+      "latestUpdateLocal": "2026-06-27 21:39",
+      "latestUpdateSource": "CY Leo 何卓彥",
+      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3928783854315995392/",
+      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
+      "sourceInitials": "CL",
+      "sourceTags": [
+        "演奏者",
+        "口琴",
+        "半音階",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
+      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
+      "monitorSources": [
+        {
+          "id": "fb_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Cyleoharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
+        },
+        {
+          "id": "yt_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@cyleoharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-146",
+      "name": "Yoonseok Lee",
+      "nameEn": "Yoonseok Lee",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "WHF 2025/半音階/國際比賽/教育與演出",
+      "structuredSummary": "WHF 2025/半音階/國際比賽/教育與演出 / 半音階 / 國際演出人員/教育者",
+      "summary": "韓國的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、國際比賽與教育與演出。",
+      "keywords": "Yoonseok Lee yoonseokhca harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/yoonseokl"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/yoonseokhca/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yoonseoklee_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/YoonseokLee_HARMONICA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-27T13:15:18+00:00",
+      "latestUpdateLocal": "2026-06-27 21:15",
+      "latestUpdateSource": "Yoonseok Lee",
+      "latestUpdateUrl": "https://www.instagram.com/stories/yoonseoklee_harmonica/3928771815680511849/",
+      "avatarUrl": "/assets/source-avatars/63ea51f7f97c4e71df8b.webp",
+      "sourceInitials": "YL",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "比賽",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_yoonseokhca",
+          "name": "Yoonseok Lee",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/yoonseokhca",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yoonseoklee_harmonica",
+          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yoonseoklee_harmonica/story/0"
+        },
+        {
+          "id": "ig_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yoonseoklee_harmonica",
+          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/YoonseokLee_HARMONICA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-102",
       "name": "陳瑤容 Yora Chen",
       "nameEn": "Yora Chen",
@@ -1459,90 +1629,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-146",
-      "name": "Yoonseok Lee",
-      "nameEn": "Yoonseok Lee",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "WHF 2025/半音階/國際比賽/教育與演出",
-      "structuredSummary": "WHF 2025/半音階/國際比賽/教育與演出 / 半音階 / 國際演出人員/教育者",
-      "summary": "韓國的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、國際比賽與教育與演出。",
-      "keywords": "Yoonseok Lee yoonseokhca harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/yoonseokl"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/yoonseokhca/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yoonseoklee_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/YoonseokLee_HARMONICA"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-26T17:42:45+00:00",
-      "latestUpdateLocal": "2026-06-27 01:42",
-      "latestUpdateSource": "Yoonseok Lee",
-      "latestUpdateUrl": "https://www.instagram.com/p/DaDtCrKt-Os/",
-      "avatarUrl": "/assets/source-avatars/63ea51f7f97c4e71df8b.webp",
-      "sourceInitials": "YL",
-      "sourceTags": [
-        "口琴",
-        "演奏者",
-        "比賽",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_yoonseokhca",
-          "name": "Yoonseok Lee",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/yoonseokhca",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_yoonseoklee_harmonica",
-          "name": "Yoonseok Lee",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yoonseoklee_harmonica",
-          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yoonseoklee_harmonica/story/0"
-        },
-        {
-          "id": "ig_yoonseoklee_harmonica",
-          "name": "Yoonseok Lee",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yoonseoklee_harmonica",
-          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_yoonseoklee_harmonica",
-          "name": "Yoonseok Lee",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/YoonseokLee_HARMONICA",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-107",
       "name": "Rodrigo Eberienos",
       "nameEn": "Rodrigo Eberienos",
@@ -2033,92 +2119,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@reyharpnaufal5101",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-50",
-      "name": "CY Leo 何卓彥",
-      "nameEn": "CY Leo",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/現代跨界",
-      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
-      "summary": "香港的半音階國際演出人員，活動脈絡包含現代跨界。",
-      "keywords": "CY Leo 何卓彥 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.cyleomusic.io/profile"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Cyleoharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/cy_leo/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@cyleoharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-26T13:07:31+00:00",
-      "latestUpdateLocal": "2026-06-26 21:07",
-      "latestUpdateSource": "CY Leo 何卓彥",
-      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3928043169133027368/",
-      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
-      "sourceInitials": "CL",
-      "sourceTags": [
-        "演奏者",
-        "口琴",
-        "半音階",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
-      "monitorSources": [
-        {
-          "id": "fb_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Cyleoharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
-        },
-        {
-          "id": "yt_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@cyleoharmonica",
           "feedUrl": ""
         }
       ]
@@ -6905,6 +6905,145 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "名稱為有限公司，屬營利單位；關鍵字含口琴，類別為單位；摘要提及協辦/製作，故標團體樂團、口琴、活動資訊、音樂會、品牌。"
     },
     {
+      "id": "watchlist-182",
+      "name": "EMPA 口琴課程",
+      "nameEn": "EMPA Escuela de Música Popular de Avellaneda Armónica",
+      "category": "國際交流",
+      "type": "學校/正式課程",
+      "country": "阿根廷",
+      "region": "阿根廷/阿韋亞內達",
+      "cityOrFocus": "公立流行音樂學校/正式口琴課程/爵士/探戈/民俗",
+      "structuredSummary": "公立流行音樂學校/正式口琴課程/爵士/探戈/民俗 / 半音階/十孔/armónica / 國際教育來源",
+      "summary": "阿根廷的國際教育來源，關注公立流行音樂學校、正式口琴課程、爵士、探戈與民俗。",
+      "keywords": "EMPA Escuela de Música Popular de Avellaneda Armónica harmonica Argentina",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.empa.edu.ar/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/empa.oficial/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/37c1c3f1c62ab1c41b0e.webp",
+      "sourceInitials": "E",
+      "sourceTags": [
+        "口琴",
+        "國際交流",
+        "課程",
+        "半音階",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_empa_oficial",
+          "name": "EMPA 口琴課程",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "empa.oficial",
+          "profileUrl": "https://www.instagram.com/empa.oficial/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_empa_oficial",
+          "name": "EMPA 口琴課程",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "empa.oficial",
+          "profileUrl": "https://www.instagram.com/empa.oficial/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/empa.oficial/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-175",
+      "name": "Hohner 音樂院（特羅辛根）",
+      "nameEn": "Hohner-Konservatorium Trossingen",
+      "category": "國際交流",
+      "type": "教育機構",
+      "country": "德國",
+      "region": "德國/特羅辛根",
+      "cityOrFocus": "Hohner/Trossingen/Harmonica Masters/青年與專業教育",
+      "structuredSummary": "Hohner/Trossingen/Harmonica Masters/青年與專業教育 / Mundharmonika/口琴/手風琴 / 國際教育來源",
+      "summary": "德國的國際教育來源，關注Hohner、Trossingen、Harmonica Masters與青年與專業教育。",
+      "keywords": "Hohner-Konservatorium Trossingen Harmonica Masters Hohner harmonica education",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hohner-konservatorium.de/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Hohner-Konservatorium-Trossingen-1586512034959284/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hohnerkonservatorium/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/HohnerKonservatorium"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/a47568166466d3acbf8a.webp",
+      "sourceInitials": "H",
+      "sourceTags": [
+        "口琴",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hohner_konservatorium_trossingen_1586512034959284",
+          "name": "Hohner 音樂院（特羅辛根）",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Hohner-Konservatorium-Trossingen-1586512034959284",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hohnerkonservatorium",
+          "name": "Hohner 音樂院（特羅辛根）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hohnerkonservatorium",
+          "profileUrl": "https://www.instagram.com/hohnerkonservatorium/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hohnerkonservatorium",
+          "name": "Hohner 音樂院（特羅辛根）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hohnerkonservatorium",
+          "profileUrl": "https://www.instagram.com/hohnerkonservatorium/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerkonservatorium/story/0"
+        },
+        {
+          "id": "yt_hohnerkonservatorium",
+          "name": "Hohner 音樂院（特羅辛根）",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/HohnerKonservatorium",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-57",
       "name": "TOMBO ハーモニカ・ソサイエティ",
       "nameEn": "TOMBO Harmonica Society Directory",
@@ -6928,8 +7067,39 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/b070860a0fc0554c89c6.webp",
       "sourceInitials": "T",
+      "sourceTags": [
+        "口琴",
+        "國際交流"
+      ]
+    },
+    {
+      "id": "watchlist-167",
+      "name": "中國大眾音樂協會口琴專業委員會",
+      "nameEn": "China Popular Music Association Harmonica Professional Committee",
+      "category": "國際交流",
+      "type": "協會/資訊入口",
+      "country": "中國",
+      "region": "中國",
+      "cityOrFocus": "口琴專業委員會/考級/論壇/賽事/教師會員",
+      "structuredSummary": "口琴專業委員會/考級/論壇/賽事/教師會員 / 口琴 / 國際協會/資訊來源",
+      "summary": "中國的國際協會與資訊來源，關注口琴專業委員會、考級、論壇、賽事與教師會員。",
+      "keywords": "中國大眾音樂協會口琴專業委員會 China Popular Music Association Harmonica Professional Committee",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.harmonica.org.cn/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/35d62fd11d6f5302527c.webp",
+      "sourceInitials": "中國",
       "sourceTags": [
         "口琴",
         "國際交流"
@@ -6959,11 +7129,111 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/1ca8f38afedcb35bf40b.webp",
       "sourceInitials": "A",
       "sourceTags": [
         "口琴",
         "國際交流"
+      ]
+    },
+    {
+      "id": "watchlist-161",
+      "name": "口琴愛好者協會（新加坡）",
+      "nameEn": "Harmonica Aficionados Society Singapore",
+      "category": "國際交流",
+      "type": "協會",
+      "country": "新加坡",
+      "region": "新加坡",
+      "cityOrFocus": "口琴協會/工作坊/音樂會/社群推廣",
+      "structuredSummary": "口琴協會/工作坊/音樂會/社群推廣 / 口琴 / 國際協會/資訊來源",
+      "summary": "新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。",
+      "keywords": "口琴愛好者協會 新加坡 Harmonica Aficionados Society Singapore HAS Singapore",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.harmonica-as.com/about"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HARMONICAMUSICLOVERS/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/has_singapore/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/0ba6bbd3abf97eb8acb7.webp",
+      "sourceInitials": "口琴",
+      "sourceTags": [
+        "口琴",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicamusiclovers",
+          "name": "口琴愛好者協會（新加坡）",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HARMONICAMUSICLOVERS",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_has_singapore",
+          "name": "口琴愛好者協會（新加坡）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "has_singapore",
+          "profileUrl": "https://www.instagram.com/has_singapore/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_has_singapore",
+          "name": "口琴愛好者協會（新加坡）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "has_singapore",
+          "profileUrl": "https://www.instagram.com/has_singapore/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/has_singapore/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-174",
+      "name": "德國 Harmonica/Harmonika 協會 DHV",
+      "nameEn": "Deutscher Harmonika-Verband e.V.",
+      "category": "國際交流",
+      "type": "協會",
+      "country": "德國",
+      "region": "德國/特羅辛根",
+      "cityOrFocus": "德國口琴與手風琴協會/Mundharmonika/研習/合奏教育",
+      "structuredSummary": "德國口琴與手風琴協會/Mundharmonika/研習/合奏教育 / Mundharmonika/半音階/低音/和弦口琴 / 國際協會/資訊來源",
+      "summary": "德國的國際協會與資訊來源，關注德國口琴與手風琴協會、研習與合奏教育。",
+      "keywords": "Deutscher Harmonika-Verband DHV Mundharmonika Chromonica harmonica Germany",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.dhv-ev.de/mundharmonika/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/2c731f4548fe7ed5241e.webp",
+      "sourceInitials": "HHD",
+      "sourceTags": [
+        "口琴",
+        "國際交流",
+        "半音階"
       ]
     },
     {
@@ -6990,13 +7260,148 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/875263853804cee31233.webp",
       "sourceInitials": "J",
       "sourceTags": [
         "口琴",
         "國際交流",
         "比賽",
         "複音"
+      ]
+    },
+    {
+      "id": "watchlist-171",
+      "name": "英國口琴協會",
+      "nameEn": "HarmonicaUK",
+      "category": "國際交流",
+      "type": "協會",
+      "country": "英國",
+      "region": "英國",
+      "cityOrFocus": "英國口琴協會/festival/open mic/線上社群/青年會員",
+      "structuredSummary": "英國口琴協會/festival/open mic/線上社群/青年會員 / 口琴 / 國際協會/資訊來源",
+      "summary": "英國的國際協會與資訊來源，關注英國口琴協會、festival、open mic、線上社群與青年會員。",
+      "keywords": "HarmonicaUK National Harmonica League British harmonica association",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.harmonica.uk/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/groups/harmonicauk"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonicauk_"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@harmonicauk"
+        },
+        {
+          "label": "X",
+          "url": "https://www.twitter.com/harmonicauk"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/f22dbe99147f154627a0.webp",
+      "sourceInitials": "英國",
+      "sourceTags": [
+        "口琴",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_harmonicauk",
+          "name": "英國口琴協會",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonicauk_",
+          "profileUrl": "https://www.instagram.com/harmonicauk_/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonicauk",
+          "name": "英國口琴協會",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonicauk_",
+          "profileUrl": "https://www.instagram.com/harmonicauk_/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonicauk_/story/0"
+        },
+        {
+          "id": "x_harmonicauk",
+          "name": "英國口琴協會",
+          "platform": "x",
+          "type": "rss",
+          "username": "harmonicauk",
+          "profileUrl": "https://x.com/harmonicauk",
+          "feedUrl": "https://rss.observe.tw/twitter/user/harmonicauk"
+        },
+        {
+          "id": "yt_harmonicauk",
+          "name": "英國口琴協會",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@harmonicauk",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-168",
+      "name": "韓國口琴教育協會",
+      "nameEn": "Korea Harmonica Education Association",
+      "category": "國際交流",
+      "type": "協會",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "口琴教育協會/SIHF/KHO/師資課程",
+      "structuredSummary": "口琴教育協會/SIHF/KHO/師資課程 / 半音階/複音/十孔/合奏 / 國際協會/資訊來源",
+      "summary": "韓國的國際協會與資訊來源，關注口琴教育協會、SIHF、KHO與師資課程。",
+      "keywords": "韓國口琴教育協會 Korea Harmonica Education Association KHEA SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://koreaharmonica.kr/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@SIHF-uv5mk"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/d46567b33b1baf0d8f42.webp",
+      "sourceInitials": "韓國",
+      "sourceTags": [
+        "口琴",
+        "國際交流",
+        "課程",
+        "半音階",
+        "複音",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_sihf_uv5mk",
+          "name": "韓國口琴教育協會",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@SIHF-uv5mk",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -7774,6 +8179,153 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-180",
+      "name": "庫里奇巴口琴樂團",
+      "nameEn": "Orquestra Harmônicas de Curitiba",
+      "category": "團體樂團",
+      "type": "團體",
+      "country": "巴西",
+      "region": "巴西/庫里奇巴",
+      "cityOrFocus": "巴西口琴管弦樂團/長壽合奏團/地方文化",
+      "structuredSummary": "巴西口琴管弦樂團/長壽合奏團/地方文化 / gaita/口琴合奏/口琴管弦樂團 / 國際演出團體",
+      "summary": "巴西的gaita、口琴合奏與口琴管弦樂團國際演出團體，活動脈絡包含巴西口琴管弦樂團、長壽合奏團與地方文化。",
+      "keywords": "Orquestra Harmônicas de Curitiba OHC Curitiba Brazilian harmonica orchestra",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.harmonicasdecuritiba.com.br/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/OHC2014/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/orquestraharmonicas/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/50dde3fdc73a265652cd.webp",
+      "sourceInitials": "庫里",
+      "sourceTags": [
+        "口琴",
+        "團體樂團",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_ohc2014",
+          "name": "庫里奇巴口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/OHC2014",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_orquestraharmonicas",
+          "name": "庫里奇巴口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "orquestraharmonicas",
+          "profileUrl": "https://www.instagram.com/orquestraharmonicas/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_orquestraharmonicas",
+          "name": "庫里奇巴口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "orquestraharmonicas",
+          "profileUrl": "https://www.instagram.com/orquestraharmonicas/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/orquestraharmonicas/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-162",
+      "name": "海南會館口琴樂團",
+      "nameEn": "HNHK Harmonica Orchestra",
+      "category": "團體樂團",
+      "type": "團體",
+      "country": "新加坡",
+      "region": "新加坡",
+      "cityOrFocus": "會館口琴樂團/社區合奏/演出",
+      "structuredSummary": "會館口琴樂團/社區合奏/演出 / 口琴合奏 / 國際演出團體",
+      "summary": "新加坡的口琴合奏國際演出團體，活動脈絡包含會館口琴樂團、社區合奏與演出。",
+      "keywords": "海南會館口琴樂團 HNHK Harmonica Orchestra Singapore community harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HNHK.Harmonica.Orchestra/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hnhk_harmonica_orchestra/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@hnhkharmonica5296"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/307c4c323c461125fa3f.webp",
+      "sourceInitials": "海南",
+      "sourceTags": [
+        "口琴",
+        "團體樂團",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hnhk_harmonica_orchestra",
+          "name": "海南會館口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HNHK.Harmonica.Orchestra",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hnhk_harmonica_orchestra",
+          "name": "海南會館口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hnhk_harmonica_orchestra",
+          "profileUrl": "https://www.instagram.com/hnhk_harmonica_orchestra/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hnhk_harmonica_orchestra",
+          "name": "海南會館口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hnhk_harmonica_orchestra",
+          "profileUrl": "https://www.instagram.com/hnhk_harmonica_orchestra/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hnhk_harmonica_orchestra/story/0"
+        },
+        {
+          "id": "yt_hnhkharmonica5296",
+          "name": "海南會館口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@hnhkharmonica5296",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-6",
       "name": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
       "nameEn": "Rhapsody Harmonica Ensemble",
@@ -7874,6 +8426,111 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@%E5%8F%B0%E4%B8%AD%E5%B8%82%E4%B8%AD%E8%8F%AF%E5%8F%A3%E7%90%B4%E6%9C%83",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-169",
+      "name": "首爾口琴管弦樂團",
+      "nameEn": "Seoul Harmonica Orchestra",
+      "category": "團體樂團",
+      "type": "團體",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "首爾口琴管弦樂團/半音階/和弦/低音/重奏",
+      "structuredSummary": "首爾口琴管弦樂團/半音階/和弦/低音/重奏 / 口琴管弦樂團 / 國際演出團體",
+      "summary": "韓國的口琴管弦樂團國際演出團體，活動脈絡包含首爾口琴管弦樂團、半音階與和弦。",
+      "keywords": "Seoul Harmonica Orchestra Seoul Soloists Harmonica Orchestra Seoul THE DREAM Harmonica Orchestra",
+      "links": [
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@SeoulHarmonicaOrchestra"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/ae2d7affb60493ee11f8.webp",
+      "sourceInitials": "首爾",
+      "sourceTags": [
+        "口琴",
+        "團體樂團",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_seoulharmonicaorchestra",
+          "name": "首爾口琴管弦樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@SeoulHarmonicaOrchestra",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-158",
+      "name": "香港中華基督教青年會口琴樂團",
+      "nameEn": "Hong Kong Chinese YMCA Harmonica Orchestra",
+      "category": "團體樂團",
+      "type": "團體",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "香港口琴樂團/教育推廣/年度音樂會",
+      "structuredSummary": "香港口琴樂團/教育推廣/年度音樂會 / 口琴合奏 / 國際演出團體/教育來源",
+      "summary": "香港的口琴合奏國際演出團體與教育來源，活動脈絡包含香港口琴樂團、教育推廣與年度音樂會。",
+      "keywords": "香港中華基督教青年會口琴樂團 Hong Kong Chinese YMCA Harmonica Orchestra HKCYMCA harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://ymcaho.org/wp/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Chinese-YMCA-of-Hong-Kong-Harmonica-Orchestra-185471864816806/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@chineseymcaofhongkongharmo9428"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/4484501b50ca91824a1e.webp",
+      "sourceInitials": "香港",
+      "sourceTags": [
+        "口琴",
+        "團體樂團",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_chinese_ymca_of_hong_kong_harmonica_orchestra_185471864816806",
+          "name": "香港中華基督教青年會口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Chinese-YMCA-of-Hong-Kong-Harmonica-Orchestra-185471864816806",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_chineseymcaofhongkongharmo9428",
+          "name": "香港中華基督教青年會口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@chineseymcaofhongkongharmo9428",
           "feedUrl": ""
         }
       ]
@@ -8269,7 +8926,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/7ff9d239388e695fc726.webp",
       "sourceInitials": "中央",
       "sourceTags": [
         "口琴",
@@ -8316,6 +8973,76 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "club-34",
+      "name": "南洋理工大學口琴社",
+      "nameEn": "NTU CAC Harmonica Band",
+      "category": "學校社團",
+      "type": "學校社團",
+      "country": "新加坡",
+      "region": "新加坡/裕廊西",
+      "cityOrFocus": "裕廊西",
+      "structuredSummary": "南洋理工大學 / 口琴樂團/學生合奏 / 學校社團",
+      "summary": "南洋理工大學的口琴樂團與學生合奏學校社團。",
+      "keywords": "南洋理工大學口琴社 NTU CAC Harmonica Band Singapore student harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://ntucac.com/harmonica-band/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/NtuHarmonicaBand/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ntuhb/"
+        }
+      ],
+      "source": "club",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/24dd2009af919086546e.webp",
+      "sourceInitials": "南洋",
+      "sourceTags": [
+        "口琴",
+        "學生社團",
+        "大專社團",
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_ntuharmonicaband",
+          "name": "南洋理工大學口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/NtuHarmonicaBand",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_ntuhb",
+          "name": "南洋理工大學口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "ntuhb",
+          "profileUrl": "https://www.instagram.com/ntuhb/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_ntuhb",
+          "name": "南洋理工大學口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "ntuhb",
+          "profileUrl": "https://www.instagram.com/ntuhb/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/ntuhb/story/0"
+        }
+      ]
+    },
+    {
       "id": "club-30",
       "name": "山形市立商業高等學校ハーモニカバンド部",
       "nameEn": "Yamagata City Commercial High School Harmonica Band",
@@ -8339,11 +9066,94 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/f326cabde9f1f68cd6a2.webp",
       "sourceInitials": "山形",
       "sourceTags": [
         "口琴",
         "學生社團"
+      ]
+    },
+    {
+      "id": "club-33",
+      "name": "新加坡國立大學口琴社",
+      "nameEn": "NUS Harmonica",
+      "category": "學校社團",
+      "type": "學校社團",
+      "country": "新加坡",
+      "region": "新加坡/肯特崗",
+      "cityOrFocus": "肯特崗",
+      "structuredSummary": "新加坡國立大學 / 口琴樂團/學生合奏 / 學校社團",
+      "summary": "新加坡國立大學的口琴樂團與學生合奏學校社團。",
+      "keywords": "新加坡國立大學口琴社 NUS Harmonica NUS Harmonica Orchestra Singapore student harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://osa.nus.edu.sg/nusartsfestival/event/constellations-under-starlit-skies/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/nusharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nusharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@NUSHO"
+        }
+      ],
+      "source": "club",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/ddea07d62d59833c9e3f.webp",
+      "sourceInitials": "新加",
+      "sourceTags": [
+        "口琴",
+        "學生社團",
+        "大專社團",
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_nusharmonica",
+          "name": "新加坡國立大學口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/nusharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nusharmonica",
+          "name": "新加坡國立大學口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nusharmonica",
+          "profileUrl": "https://www.instagram.com/nusharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nusharmonica",
+          "name": "新加坡國立大學口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nusharmonica",
+          "profileUrl": "https://www.instagram.com/nusharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nusharmonica/story/0"
+        },
+        {
+          "id": "yt_nusho",
+          "name": "新加坡國立大學口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@NUSHO",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -8382,7 +9192,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/24ffc599f2312b2a965d.webp",
       "sourceInitials": "早稻",
       "sourceTags": [
         "口琴",
@@ -8468,7 +9278,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/e875cf9d62dad5395847.webp",
       "sourceInitials": "明治",
       "sourceTags": [
         "口琴",
@@ -8524,6 +9334,103 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "club-36",
+      "name": "檳華女中口琴隊",
+      "nameEn": "PCGHS Harmonica Band",
+      "category": "學校社團",
+      "type": "學校社團",
+      "country": "馬來西亞",
+      "region": "馬來西亞/檳城",
+      "cityOrFocus": "喬治市",
+      "structuredSummary": "檳華女子中學 / 口琴隊/學生合奏/比賽 / 學校社團",
+      "summary": "檳華女子中學的口琴隊、學生合奏與比賽學校社團。",
+      "keywords": "檳華女中口琴隊 PCGHS Harmonica Band Penang Malaysia student harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/pcghsharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/pcghs_harmonicaband/"
+        }
+      ],
+      "source": "club",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/8018f71566f82d886006.webp",
+      "sourceInitials": "檳華",
+      "sourceTags": [
+        "口琴",
+        "學生社團",
+        "比賽"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_pcghsharmonica",
+          "name": "檳華女中口琴隊",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/pcghsharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_pcghs_harmonicaband",
+          "name": "檳華女中口琴隊",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "pcghs_harmonicaband",
+          "profileUrl": "https://www.instagram.com/pcghs_harmonicaband/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_pcghs_harmonicaband",
+          "name": "檳華女中口琴隊",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "pcghs_harmonicaband",
+          "profileUrl": "https://www.instagram.com/pcghs_harmonicaband/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/pcghs_harmonicaband/story/0"
+        }
+      ]
+    },
+    {
+      "id": "club-38",
+      "name": "武漢理工大學學生星一口琴協會",
+      "nameEn": "Wuhan University of Technology Xingyi Harmonica Association",
+      "category": "學校社團",
+      "type": "學校社團",
+      "country": "中國",
+      "region": "中國/湖北",
+      "cityOrFocus": "武漢",
+      "structuredSummary": "武漢理工大學 / 口琴社/學生合奏/校園音樂會 / 學校社團",
+      "summary": "武漢理工大學的口琴社、學生合奏與校園音樂會學校社團。",
+      "keywords": "武漢理工大學 星一口琴協會 Wuhan University of Technology Xingyi Harmonica Association 中國學生口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://youth.whut.edu.cn/stfc/202606/t20260609_1402701.shtml"
+        }
+      ],
+      "source": "club",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/205fc0b886ca07ec0611.svg",
+      "sourceInitials": "武漢",
+      "sourceTags": [
+        "口琴",
+        "學生社團",
+        "大專社團"
+      ]
+    },
+    {
       "id": "club-27",
       "name": "立教大學ハーモニカ・ソサイアティー",
       "nameEn": "Rikkyo University Harmonica Society",
@@ -8559,7 +9466,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/2d47ccb217762c376acc.webp",
       "sourceInitials": "立教",
       "sourceTags": [
         "口琴",
@@ -8606,6 +9513,242 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "club-32",
+      "name": "聖保羅男女中學口琴隊",
+      "nameEn": "SPCC Harmonica Orchestra",
+      "category": "學校社團",
+      "type": "學校社團",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "香港",
+      "structuredSummary": "聖保羅男女中學 / 口琴樂團/學生合奏/學校音樂節 / 學校社團",
+      "summary": "聖保羅男女中學的口琴樂團、學生合奏與學校音樂節學校社團。",
+      "keywords": "聖保羅男女中學口琴隊 SPCC Harmonica Orchestra Hong Kong Schools Music Festival 學生口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.spcc.edu.hk/explore/extra-curricular-activities"
+        }
+      ],
+      "source": "club",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/b60d05ab9f0be0ff47f9.webp",
+      "sourceInitials": "聖保",
+      "sourceTags": [
+        "口琴",
+        "學生社團",
+        "團體樂團",
+        "音樂節"
+      ]
+    },
+    {
+      "id": "club-31",
+      "name": "英皇書院同學會小學口琴隊",
+      "nameEn": "KCOBAPS Harmonica Band",
+      "category": "學校社團",
+      "type": "學校/青年",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "香港",
+      "structuredSummary": "英皇書院同學會小學 / 口琴隊/半音階/學生合奏 / 學校團隊",
+      "summary": "英皇書院同學會小學的口琴隊、半音階與學生合奏學校團隊。",
+      "keywords": "英皇書院同學會小學口琴隊 KCOBAPS Harmonica Band 世界口琴節 學生口琴隊 香港",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.kcobaps1.edu.hk/tc/latest_new/英小小航海家-口琴演奏交流"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kcobaps/"
+        }
+      ],
+      "source": "club",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/f00926e60ba68892eafb.webp",
+      "sourceInitials": "英皇",
+      "sourceTags": [
+        "口琴",
+        "學生社團",
+        "半音階"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_kcobaps",
+          "name": "英皇書院同學會小學口琴隊",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/kcobaps",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "club-39",
+      "name": "華中師範大學學生知音口琴社",
+      "nameEn": "CCNU Student Zhiyin Harmonica Club",
+      "category": "學校社團",
+      "type": "學校社團",
+      "country": "中國",
+      "region": "中國/湖北",
+      "cityOrFocus": "武漢",
+      "structuredSummary": "華中師範大學 / 口琴社/學生合奏/校園演出 / 學校社團",
+      "summary": "華中師範大學的口琴社、學生合奏與校園演出學校社團。",
+      "keywords": "華中師範大學 知音口琴社 CCNU Zhiyin Harmonica Club 中國學生口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://youth.ccnu.edu.cn/info/1170/19470.htm"
+        }
+      ],
+      "source": "club",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/56ffb595435ab6e08448.webp",
+      "sourceInitials": "華中",
+      "sourceTags": [
+        "口琴",
+        "學生社團",
+        "大專社團"
+      ]
+    },
+    {
+      "id": "club-35",
+      "name": "裕華中學口琴樂團",
+      "nameEn": "Yuhua Secondary School Harmonica Band",
+      "category": "學校社團",
+      "type": "學校社團",
+      "country": "新加坡",
+      "region": "新加坡/裕廊西",
+      "cityOrFocus": "裕廊西",
+      "structuredSummary": "裕華中學 / 口琴樂團/CCA/SYF / 學校社團",
+      "summary": "裕華中學的口琴樂團、CCA與SYF學校社團。",
+      "keywords": "裕華中學口琴樂團 Yuhua Secondary School Harmonica Band SYF Singapore CCA",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.yuhuasec.moe.edu.sg/our-ccas/visual-performing-arts/harmonica-band/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yhhbfamily/"
+        }
+      ],
+      "source": "club",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/f6c80a4b56b7213a71d1.svg",
+      "sourceInitials": "裕華",
+      "sourceTags": [
+        "口琴",
+        "學生社團",
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_yhhbfamily",
+          "name": "裕華中學口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yhhbfamily",
+          "profileUrl": "https://www.instagram.com/yhhbfamily/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yhhbfamily/story/0"
+        },
+        {
+          "id": "ig_yhhbfamily",
+          "name": "裕華中學口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yhhbfamily",
+          "profileUrl": "https://www.instagram.com/yhhbfamily/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "club-37",
+      "name": "鍾靈中學口琴隊",
+      "nameEn": "CLHS Harmonica Band",
+      "category": "學校社團",
+      "type": "學校社團",
+      "country": "馬來西亞",
+      "region": "馬來西亞/檳城",
+      "cityOrFocus": "日落洞",
+      "structuredSummary": "鍾靈中學 / 口琴隊/學生合奏/華校 / 學校社團",
+      "summary": "鍾靈中學的口琴隊、學生合奏與華校學校社團。",
+      "keywords": "鍾靈中學口琴隊 CLHS Harmonica Band Chung Ling High School Penang Malaysia",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://sites.google.com/view/clhsharmonica/home"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chunglingharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/clhs_harmonicaband/"
+        }
+      ],
+      "source": "club",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/650f9bcf4bbfcfbc218d.webp",
+      "sourceInitials": "鍾靈",
+      "sourceTags": [
+        "口琴",
+        "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_chunglingharmonica",
+          "name": "鍾靈中學口琴隊",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chunglingharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_clhs_harmonicaband",
+          "name": "鍾靈中學口琴隊",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "clhs_harmonicaband",
+          "profileUrl": "https://www.instagram.com/clhs_harmonicaband/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_clhs_harmonicaband",
+          "name": "鍾靈中學口琴隊",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "clhs_harmonicaband",
+          "profileUrl": "https://www.instagram.com/clhs_harmonicaband/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/clhs_harmonicaband/story/0"
+        }
+      ]
+    },
+    {
       "id": "club-28",
       "name": "關西學院大學ハーモニカソサイアティ",
       "nameEn": "Kwansei Gakuin University Harmonica Society",
@@ -8645,7 +9788,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/ee604f50c6e7a5d04c28.webp",
       "sourceInitials": "關西",
       "sourceTags": [
         "口琴",
@@ -8778,7 +9921,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/35159a4cd3eacc4a001e.webp",
       "sourceInitials": "鹿兒",
       "sourceTags": [
         "口琴",
@@ -8897,6 +10040,91 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@PocketHarmonic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-181",
+      "name": "布宜諾斯艾利斯口琴學校",
+      "nameEn": "Escuela de Armónica de Buenos Aires",
+      "category": "教學器材",
+      "type": "學校/教學平台",
+      "country": "阿根廷",
+      "region": "阿根廷/布宜諾斯艾利斯",
+      "cityOrFocus": "口琴學校/探戈/民俗/藍調/工作坊/學生演出",
+      "structuredSummary": "口琴學校/探戈/民俗/藍調/工作坊/學生演出 / 十孔/半音階/armónica / 國際教育來源",
+      "summary": "阿根廷的十孔、半音階與armónica國際教育來源，關注口琴學校、探戈、民俗、藍調與工作坊。",
+      "keywords": "Escuela de Armónica de Buenos Aires harmonica school Argentina tango blues",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://escueladearmonicaba.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/escueladearmonicaba/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/escueladearmonicaba/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCln6Hrzz1NHq8TX5ZSQzgJQ"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/4508ccb674dc3f6ceeb7.webp",
+      "sourceInitials": "布宜",
+      "sourceTags": [
+        "口琴",
+        "教學器材",
+        "教學",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_escueladearmonicaba",
+          "name": "布宜諾斯艾利斯口琴學校",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/escueladearmonicaba",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_escueladearmonicaba",
+          "name": "布宜諾斯艾利斯口琴學校",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "escueladearmonicaba",
+          "profileUrl": "https://www.instagram.com/escueladearmonicaba/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_escueladearmonicaba",
+          "name": "布宜諾斯艾利斯口琴學校",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "escueladearmonicaba",
+          "profileUrl": "https://www.instagram.com/escueladearmonicaba/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/escueladearmonicaba/story/0"
+        },
+        {
+          "id": "yt_ucln6hrzz1nhq8tx5zsqzgjq",
+          "name": "布宜諾斯艾利斯口琴學校",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCln6Hrzz1NHq8TX5ZSQzgJQ",
           "feedUrl": ""
         }
       ]
@@ -9197,7 +10425,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/32def191105b7ab39a73.webp",
       "sourceInitials": "FIH",
       "sourceTags": [
         "口琴",
@@ -9304,6 +10532,158 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-177",
+      "name": "Harmonica FEN 口琴節與學院",
+      "nameEn": "Harmonica FEN Festival & Academy",
+      "category": "活動資訊",
+      "type": "活動/教育入口",
+      "country": "德國",
+      "region": "德國/柏林",
+      "cityOrFocus": "柏林口琴節/Academy/演奏會/工作坊/Open Stage",
+      "structuredSummary": "柏林口琴節/Academy/演奏會/工作坊/Open Stage / 口琴/半音階/十孔/跨界 / 國際活動/教育來源",
+      "summary": "德國的國際活動與教育來源，涵蓋柏林口琴節、Academy、演奏會、工作坊與Open Stage。",
+      "keywords": "Harmonica FEN Festival Academy Berlin harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica-fen-festival.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonicafenfestival"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_fen_festival/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/b4e6475a16fecd8981ac.webp",
+      "sourceInitials": "HF",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicafenfestival",
+          "name": "Harmonica FEN 口琴節與學院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonicafenfestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_harmonica_fen_festival",
+          "name": "Harmonica FEN 口琴節與學院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_fen_festival",
+          "profileUrl": "https://www.instagram.com/harmonica_fen_festival/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_fen_festival",
+          "name": "Harmonica FEN 口琴節與學院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_fen_festival",
+          "profileUrl": "https://www.instagram.com/harmonica_fen_festival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_fen_festival/story/0"
+        },
+        {
+          "id": "yt_uctti8xh0v4dgrgp7hz68bww",
+          "name": "Harmonica FEN 口琴節與學院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-176",
+      "name": "Harmonica Masters 口琴大師工作坊",
+      "nameEn": "Harmonica Masters Workshops",
+      "category": "活動資訊",
+      "type": "工作坊/活動",
+      "country": "德國",
+      "region": "德國/特羅辛根",
+      "cityOrFocus": "Trossingen口琴大師工作坊/演奏會/藍調與半音階課程",
+      "structuredSummary": "Trossingen口琴大師工作坊/演奏會/藍調與半音階課程 / 十孔/藍調口琴/半音階/爵士口琴 / 國際教育/活動來源",
+      "summary": "德國的國際教育與活動來源，涵蓋Trossingen口琴大師工作坊、演奏會與藍調與半音階課程。",
+      "keywords": "Harmonica Masters Workshops Trossingen blues harp chromatic harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica-masters.de/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/3f4a34085713e74f8270.webp",
+      "sourceInitials": "HM",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "課程",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ]
+    },
+    {
+      "id": "watchlist-178",
+      "name": "Mundharmonika-Live 口琴節",
+      "nameEn": "Mundharmonika-Live",
+      "category": "活動資訊",
+      "type": "活動/資訊入口",
+      "country": "德國",
+      "region": "德國/克林根塔爾",
+      "cityOrFocus": "口琴節/藍調十孔/jam/短期工作坊/Seydel Open",
+      "structuredSummary": "口琴節/藍調十孔/jam/短期工作坊/Seydel Open / 十孔/藍調口琴/Mundharmonika / 國際活動來源",
+      "summary": "德國的國際活動來源，涵蓋口琴節、藍調十孔、jam、短期工作坊與Seydel Open。",
+      "keywords": "Mundharmonika-Live Klingenthal Mundharmonikafestival Seydel Open harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://mundharmonika-live.de/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/c17924681b81f13d4c6c.webp",
+      "sourceInitials": "ML",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "十孔",
+        "國際交流"
+      ]
+    },
+    {
       "id": "watchlist-72",
       "name": "OPENTIX 口琴售票搜尋",
       "nameEn": "",
@@ -9383,6 +10763,90 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-172",
+      "name": "Spring Harp Fest",
+      "nameEn": "Spring Harp Fest",
+      "category": "活動資訊",
+      "type": "活動/資訊入口",
+      "country": "美國",
+      "region": "美國/加州",
+      "cityOrFocus": "美國地方口琴節/藍調口琴/jam/社群比賽",
+      "structuredSummary": "美國地方口琴節/藍調口琴/jam/社群比賽 / 十孔/藍調口琴 / 國際活動來源",
+      "summary": "美國的國際活動來源，涵蓋美國地方口琴節、jam與社群比賽。",
+      "keywords": "Spring Harp Fest harmonica festival La Mesa blues harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://springharpfest.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/springharpfest/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/springharpfest/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@springharpfest/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/7da7c35802f18a6da71e.webp",
+      "sourceInitials": "SHF",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "比賽",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_springharpfest",
+          "name": "Spring Harp Fest",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/springharpfest",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_springharpfest",
+          "name": "Spring Harp Fest",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "springharpfest",
+          "profileUrl": "https://www.instagram.com/springharpfest/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_springharpfest",
+          "name": "Spring Harp Fest",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "springharpfest",
+          "profileUrl": "https://www.instagram.com/springharpfest/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/springharpfest/story/0"
+        },
+        {
+          "id": "yt_springharpfest",
+          "name": "Spring Harp Fest",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@springharpfest",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-145",
       "name": "World Harmonica Festival",
       "nameEn": "World Harmonica Festival",
@@ -9448,6 +10912,615 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_profile",
           "username": "whf_world_harmonica_festival",
           "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-173",
+      "name": "Yellow Pine Harmonica Festival",
+      "nameEn": "Yellow Pine Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動/資訊入口",
+      "country": "美國",
+      "region": "美國/愛達荷",
+      "cityOrFocus": "戶外口琴音樂節/課程/示範/社群演出",
+      "structuredSummary": "戶外口琴音樂節/課程/示範/社群演出 / 口琴 / 國際活動來源",
+      "summary": "美國的國際活動來源，涵蓋戶外口琴音樂節、課程、示範與社群演出。",
+      "keywords": "Yellow Pine Harmonica Festival Idaho harmonica festival",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.yellowpinefestival.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/YellowPineHarmonicaFestival/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://instagram.com/yellowpinemusicfestival"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/268fc7901d02713982ec.webp",
+      "sourceInitials": "YPH",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "課程",
+        "音樂節",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_yellowpineharmonicafestival",
+          "name": "Yellow Pine Harmonica Festival",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/YellowPineHarmonicaFestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yellowpinemusicfestival",
+          "name": "Yellow Pine Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yellowpinemusicfestival",
+          "profileUrl": "https://www.instagram.com/yellowpinemusicfestival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yellowpinemusicfestival/story/0"
+        },
+        {
+          "id": "ig_yellowpinemusicfestival",
+          "name": "Yellow Pine Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yellowpinemusicfestival",
+          "profileUrl": "https://www.instagram.com/yellowpinemusicfestival/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-170",
+      "name": "口琴保存與推廣協會 SPAH",
+      "nameEn": "Society for the Preservation and Advancement of the Harmonica",
+      "category": "活動資訊",
+      "type": "協會/活動",
+      "country": "美國",
+      "region": "美國/密蘇里",
+      "cityOrFocus": "SPAH convention/教育/青年獎學金/社群俱樂部",
+      "structuredSummary": "SPAH convention/教育/青年獎學金/社群俱樂部 / 口琴 / 國際協會/活動來源",
+      "summary": "美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。",
+      "keywords": "SPAH Society for the Preservation and Advancement of the Harmonica convention youth scholarships",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://spah.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/SPAH63/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/official_spah63/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/3864d2413312e1332343.webp",
+      "sourceInitials": "S",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/SPAH63",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_official_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "official_spah63",
+          "profileUrl": "https://www.instagram.com/official_spah63/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_official_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "official_spah63",
+          "profileUrl": "https://www.instagram.com/official_spah63/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/official_spah63/story/0"
+        },
+        {
+          "id": "yt_ucbjlie6bvgh8jhvco_xltsg",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-179",
+      "name": "巴西口琴論壇",
+      "nameEn": "Fórum Harmônicas Brasil",
+      "category": "活動資訊",
+      "type": "活動/文化平台",
+      "country": "巴西",
+      "region": "巴西/塞阿拉",
+      "cityOrFocus": "巴西口琴論壇/音樂節/工作坊/訪談/線上節目",
+      "structuredSummary": "巴西口琴論壇/音樂節/工作坊/訪談/線上節目 / gaita/口琴 / 國際活動/文化來源",
+      "summary": "巴西的國際活動與文化來源，涵蓋巴西口琴論壇、音樂節、工作坊、訪談與線上節目。",
+      "keywords": "Fórum Harmônicas Brasil Forum Harmonicas Brasil harmonica gaita festival",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.forumharmonicas.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/forumharmonicas/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonicasbrasil/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@ForumHarmonicas"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/207b0f3d16ef153f403e.webp",
+      "sourceInitials": "巴西",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "音樂節",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_forumharmonicas",
+          "name": "巴西口琴論壇",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/forumharmonicas",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_harmonicasbrasil",
+          "name": "巴西口琴論壇",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonicasbrasil",
+          "profileUrl": "https://www.instagram.com/harmonicasbrasil/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonicasbrasil",
+          "name": "巴西口琴論壇",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonicasbrasil",
+          "profileUrl": "https://www.instagram.com/harmonicasbrasil/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonicasbrasil/story/0"
+        },
+        {
+          "id": "yt_forumharmonicas",
+          "name": "巴西口琴論壇",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@ForumHarmonicas",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-163",
+      "name": "新加坡青年節藝術展演（口琴）",
+      "nameEn": "Singapore Youth Festival Arts Presentation - Harmonica",
+      "category": "活動資訊",
+      "type": "學校比賽/資訊入口",
+      "country": "新加坡",
+      "region": "新加坡",
+      "cityOrFocus": "官方學生藝術展演/口琴項目/SYF",
+      "structuredSummary": "官方學生藝術展演/口琴項目/SYF / 口琴/學生合奏 / 學生比賽來源",
+      "summary": "新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。",
+      "keywords": "新加坡青年節藝術展演 Singapore Youth Festival Arts Presentation Harmonica SYF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.syf.gov.sg/general/calendar"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/sgyouthfest/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sgyouthfest/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/21606fa96981447cde89.webp",
+      "sourceInitials": "新加",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "比賽"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_sgyouthfest",
+          "name": "新加坡青年節藝術展演（口琴）",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/sgyouthfest",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sgyouthfest",
+          "name": "新加坡青年節藝術展演（口琴）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sgyouthfest",
+          "profileUrl": "https://www.instagram.com/sgyouthfest/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sgyouthfest",
+          "name": "新加坡青年節藝術展演（口琴）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sgyouthfest",
+          "profileUrl": "https://www.instagram.com/sgyouthfest/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sgyouthfest/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-165",
+      "name": "海明威口琴重奏團",
+      "nameEn": "The HummingWay Harmonica Ensemble",
+      "category": "活動資訊",
+      "type": "團體",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "馬來西亞口琴重奏/跨國音樂節/社群演出",
+      "structuredSummary": "馬來西亞口琴重奏/跨國音樂節/社群演出 / 口琴重奏/合奏 / 國際演出團體",
+      "summary": "馬來西亞的國際演出團體，涵蓋馬來西亞口琴重奏、跨國音樂節與社群演出。",
+      "keywords": "海明威口琴重奏團 HummingWay Harmonica Ensemble Malaysia harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TheHummingWay/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hummingwayharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@hummingwaythe9424"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/c82d72b272635fefa4d9.webp",
+      "sourceInitials": "海明",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "團體樂團",
+        "音樂節",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_thehummingway",
+          "name": "海明威口琴重奏團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/TheHummingWay",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hummingwayharmonica",
+          "name": "海明威口琴重奏團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hummingwayharmonica",
+          "profileUrl": "https://www.instagram.com/hummingwayharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hummingwayharmonica",
+          "name": "海明威口琴重奏團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hummingwayharmonica",
+          "profileUrl": "https://www.instagram.com/hummingwayharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hummingwayharmonica/story/0"
+        },
+        {
+          "id": "yt_hummingwaythe9424",
+          "name": "海明威口琴重奏團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@hummingwaythe9424",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-166",
+      "name": "第十五屆亞太口琴藝術週",
+      "nameEn": "15th Asia Pacific Harmonica Festival",
+      "category": "活動資訊",
+      "type": "國際活動/資訊入口",
+      "country": "中國",
+      "region": "中國/江蘇",
+      "cityOrFocus": "亞太口琴節/比賽/音樂會/大師班",
+      "structuredSummary": "亞太口琴節/比賽/音樂會/大師班 / 半音階/複音/十孔/重奏/合奏 / 國際活動來源",
+      "summary": "中國的國際活動來源，涵蓋亞太口琴節、比賽、音樂會與大師班。",
+      "keywords": "第十五屆亞太口琴藝術週 Asia Pacific Harmonica Festival APHF 江陰 華西 中國口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
+      "sourceInitials": "第十",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "比賽",
+        "半音階",
+        "複音",
+        "十孔",
+        "重奏",
+        "國際交流"
+      ]
+    },
+    {
+      "id": "watchlist-159",
+      "name": "香港國際半音階口琴大賽",
+      "nameEn": "International Chromatic Harmonica Competition Hong Kong",
+      "category": "活動資訊",
+      "type": "比賽/資訊入口",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "國際半音階口琴比賽/大師班/Open Stage/教育論壇",
+      "structuredSummary": "國際半音階口琴比賽/大師班/Open Stage/教育論壇 / 半音階 / 國際比賽來源",
+      "summary": "香港的國際比賽來源，涵蓋國際半音階口琴比賽、大師班、Open Stage與教育論壇。",
+      "keywords": "香港國際半音階口琴大賽 International Chromatic Harmonica Competition Hong Kong ICHC",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.ichchk.com/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/b122c94c4c8ed25a0101.webp",
+      "sourceInitials": "香港",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "比賽",
+        "半音階",
+        "國際交流"
+      ]
+    },
+    {
+      "id": "watchlist-160",
+      "name": "香港學校音樂節",
+      "nameEn": "Hong Kong Schools Music Festival",
+      "category": "活動資訊",
+      "type": "學校比賽/資訊入口",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "學校音樂節/口琴獨奏/二重奏/合奏/口琴隊",
+      "structuredSummary": "學校音樂節/口琴獨奏/二重奏/合奏/口琴隊 / 口琴/學生合奏 / 學生比賽來源",
+      "summary": "香港的學生比賽來源，涵蓋學校音樂節、口琴獨奏、二重奏、合奏與口琴隊。",
+      "keywords": "香港學校音樂節 Hong Kong Schools Music Festival Harmonica Melodica Recorder",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hksmsa.org.hk/en/78th-hong-kong-schools-music-festival-2026/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hksmsa/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hksmsa_official/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/cfc1628dfdcfcd7a9ea4.webp",
+      "sourceInitials": "香港",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "音樂節",
+        "比賽",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hksmsa",
+          "name": "香港學校音樂節",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hksmsa",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hksmsa_official",
+          "name": "香港學校音樂節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hksmsa_official",
+          "profileUrl": "https://www.instagram.com/hksmsa_official/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hksmsa_official",
+          "name": "香港學校音樂節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hksmsa_official",
+          "profileUrl": "https://www.instagram.com/hksmsa_official/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hksmsa_official/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-164",
+      "name": "馬來西亞口琴節",
+      "nameEn": "Malaysia Harmonica Festival",
+      "category": "活動資訊",
+      "type": "比賽/資訊入口",
+      "country": "馬來西亞",
+      "region": "馬來西亞/吉隆坡",
+      "cityOrFocus": "馬來西亞口琴節/比賽/學生與樂團",
+      "structuredSummary": "馬來西亞口琴節/比賽/學生與樂團 / 口琴/重奏/合奏 / 國際活動來源",
+      "summary": "馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。",
+      "keywords": "Malaysia Harmonica Festival MYHF Malaysia Harmonica Competition",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/malaysiaharmonicafestival/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/malaysia_harmonica_festival/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@malaysiaharmonicafestival5523"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/6a6a7c95e21ac6131d5c.webp",
+      "sourceInitials": "馬來",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "團體樂團",
+        "比賽",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_malaysiaharmonicafestival",
+          "name": "馬來西亞口琴節",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/malaysiaharmonicafestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_malaysia_harmonica_festival",
+          "name": "馬來西亞口琴節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "malaysia_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_malaysia_harmonica_festival",
+          "name": "馬來西亞口琴節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "malaysia_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/malaysia_harmonica_festival/story/0"
+        },
+        {
+          "id": "yt_malaysiaharmonicafestival5523",
+          "name": "馬來西亞口琴節",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@malaysiaharmonicafestival5523",
           "feedUrl": ""
         }
       ]
@@ -11191,62 +13264,63 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 160,
+    "totalEntries": 194,
     "categories": {
       "其他來源": 2,
-      "國際交流": 3,
-      "團體樂團": 35,
+      "國際交流": 10,
+      "團體樂團": 39,
       "場館平台": 6,
-      "學校社團": 27,
-      "教學器材": 12,
-      "活動資訊": 7,
+      "學校社團": 36,
+      "教學器材": 13,
+      "活動資訊": 20,
       "演奏者": 68
     },
     "countries": {
-      "中國": 4,
+      "中國": 8,
       "丹麥": 1,
       "以色列": 1,
       "俄羅斯": 1,
       "印尼": 1,
       "國際": 1,
-      "巴西": 2,
-      "德國": 4,
+      "巴西": 4,
+      "德國": 9,
       "挪威": 1,
       "捷克": 1,
+      "新加坡": 6,
       "日本": 18,
       "法國": 1,
       "瑞典": 1,
       "瑞士": 1,
       "紐西蘭": 1,
-      "美國": 4,
+      "美國": 7,
       "臺灣": 87,
-      "英國": 2,
+      "英國": 3,
       "荷蘭": 1,
       "西班牙": 2,
-      "阿根廷": 2,
-      "韓國": 8,
-      "香港": 11,
-      "馬來西亞": 4
+      "阿根廷": 4,
+      "韓國": 10,
+      "香港": 16,
+      "馬來西亞": 8
     },
     "watchSources": {
-      "totalSources": 470,
-      "rsshubSources": 240,
-      "apifySources": 120,
-      "facebookSources": 120,
-      "youtubeSources": 110,
+      "totalSources": 547,
+      "rsshubSources": 283,
+      "apifySources": 140,
+      "facebookSources": 140,
+      "youtubeSources": 124,
       "platforms": {
-        "facebook": 120,
-        "instagram": 226,
+        "facebook": 140,
+        "instagram": 268,
         "threads": 2,
-        "x": 12,
-        "youtube": 110
+        "x": 13,
+        "youtube": 124
       },
       "types": {
-        "facebook_page_posts": 120,
-        "rss": 14,
-        "rsshub_instagram_profile": 113,
-        "rsshub_instagram_story": 113,
-        "youtube_ytdlp": 110
+        "facebook_page_posts": 140,
+        "rss": 15,
+        "rsshub_instagram_profile": 134,
+        "rsshub_instagram_story": 134,
+        "youtube_ytdlp": 124
       }
     }
   }
