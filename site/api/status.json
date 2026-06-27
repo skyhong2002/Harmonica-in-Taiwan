@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T20:27:41+08:00",
+  "generatedAt": "2026-06-27T21:09:09+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "degraded",
@@ -7,39 +7,39 @@
     "summary": "核心 pipeline 有產出；需要注意：Instagram RSSHub。"
   },
   "metrics": {
-    "updates": 257,
+    "updates": 256,
     "updatesWindowDays": 30,
-    "directoryEntries": 149,
-    "watchSources": 440,
+    "directoryEntries": 150,
+    "watchSources": 470,
     "currentErrors": 106,
-    "latestDataAt": "2026-06-27T20:27:41+08:00",
-    "latestSocialObservationAt": "2026-06-27T20:27:35+08:00"
+    "latestDataAt": "2026-06-27T21:09:09+08:00",
+    "latestSocialObservationAt": "2026-06-27T21:09:05+08:00"
   },
   "watchSources": {
     "platforms": {
-      "facebook": 117,
-      "instagram": 212,
+      "facebook": 120,
+      "instagram": 226,
       "threads": 2,
-      "x": 5,
-      "youtube": 104
+      "x": 12,
+      "youtube": 110
     },
     "types": {
-      "facebook_page_posts": 117,
-      "rss": 7,
-      "rsshub_instagram_profile": 106,
-      "rsshub_instagram_story": 106,
-      "youtube_ytdlp": 104
+      "facebook_page_posts": 120,
+      "rss": 14,
+      "rsshub_instagram_profile": 113,
+      "rsshub_instagram_story": 113,
+      "youtube_ytdlp": 110
     },
     "platformRows": [
       {
         "platform": "facebook",
-        "sources": 117,
+        "sources": 120,
         "currentErrors": 0,
         "status": "ok"
       },
       {
         "platform": "instagram",
-        "sources": 212,
+        "sources": 226,
         "currentErrors": 106,
         "status": "degraded"
       },
@@ -51,13 +51,13 @@
       },
       {
         "platform": "x",
-        "sources": 5,
+        "sources": 12,
         "currentErrors": 0,
         "status": "ok"
       },
       {
         "platform": "youtube",
-        "sources": 104,
+        "sources": 110,
         "currentErrors": 0,
         "status": "ok"
       }
@@ -71,7 +71,7 @@
       "label": "正常",
       "summary": "每日 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-06-27 20:27:41",
+        "最新公開資料：2026-06-27 21:09:09",
         "pipeline.log 更新：2026-06-27 00:13:49",
         "pipeline.err.log 更新：2026-06-24 01:57:49",
         "LaunchAgent：not running，last exit 0"
@@ -82,10 +82,10 @@
       "name": "公開 API",
       "status": "ok",
       "label": "正常",
-      "summary": "latest.json 有 257 筆更新，sources.json 有 149 筆公開目錄。",
+      "summary": "latest.json 有 256 筆更新，sources.json 有 150 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
-        "watch sources：440"
+        "watch sources：470"
       ]
     },
     {
@@ -96,7 +96,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：11 ms"
+        "耗時：14 ms"
       ]
     },
     {
@@ -104,9 +104,9 @@
       "name": "Instagram RSSHub",
       "status": "degraded",
       "label": "部分異常",
-      "summary": "212 個 Instagram 來源（profile 106、story 106）；最新抓取批次目前 106 個錯誤。",
+      "summary": "226 個 Instagram 來源（profile 113、story 113）；最新抓取批次目前 106 個錯誤。",
       "details": [
-        "最新社群觀測：2026-06-27 20:27:35",
+        "最新社群觀測：2026-06-27 21:09:05",
         "story 無公開內容/空路由略過：0"
       ]
     },
@@ -115,7 +115,7 @@
       "name": "X / Twitter RSS",
       "status": "ok",
       "label": "正常",
-      "summary": "5 個 X 來源；最新抓取批次目前 0 個錯誤。",
+      "summary": "12 個 X 來源；最新抓取批次目前 0 個錯誤。",
       "details": [
         "目前 route 依 RSSHub 設定抓取。",
         "若持續 503，通常要檢查 RSSHub 的 Twitter API 設定。"
@@ -126,11 +126,11 @@
       "name": "Facebook Apify",
       "status": "ok",
       "label": "正常",
-      "summary": "117 個 Facebook 來源。 Apify token/quota check 正常。",
+      "summary": "120 個 Facebook 來源。 Apify token/quota check 正常。",
       "details": [
         "最近成功 run：2026-06-27 00:07:56",
         "最近新增 inbox：14",
-        "due sources：50",
+        "due sources：53",
         "selected this check：24",
         "min sources per run：8",
         "遠端月額度剩餘：$3.06",
@@ -142,7 +142,7 @@
       "name": "YouTube yt-dlp",
       "status": "ok",
       "label": "正常",
-      "summary": "104 個 YouTube 來源；最近 run error_count=0。",
+      "summary": "110 個 YouTube 來源；最近 run error_count=0。",
       "details": [
         "最近完成：2026-06-27 01:10:42",
         "最近新增 inbox：0"
@@ -155,13 +155,13 @@
       "label": "正常",
       "summary": "2 個 Threads 來源；其他 RSS 最新抓取批次目前 0 個錯誤。",
       "details": [
-        "RSS 類型來源：7"
+        "RSS 類型來源：14"
       ]
     }
   ],
   "recentErrors": [
     {
-      "seenAt": "2026-06-27T20:27:35+08:00",
+      "seenAt": "2026-06-27T21:09:05+08:00",
       "sourceId": "ig_long_deng_jie",
       "sourceName": "Long Deng Jie 龍登杰",
       "platform": "instagram",
@@ -169,7 +169,7 @@
       "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=long.deng.jie\": 429 Too Many Requests"
     },
     {
-      "seenAt": "2026-06-27T20:27:35+08:00",
+      "seenAt": "2026-06-27T21:09:05+08:00",
       "sourceId": "ig_hkharmonica",
       "sourceName": "香港口琴協會 Hong Kong Harmonica Association",
       "platform": "instagram",
@@ -177,7 +177,7 @@
       "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=hkharmonica\": 429 Too Many Requests"
     },
     {
-      "seenAt": "2026-06-27T20:27:35+08:00",
+      "seenAt": "2026-06-27T21:09:05+08:00",
       "sourceId": "ig_antonioserranoarmonica",
       "sourceName": "Antonio Serrano",
       "platform": "instagram",
@@ -185,7 +185,7 @@
       "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=antonioserranoarmonica\": 429 Too Many Requests"
     },
     {
-      "seenAt": "2026-06-27T20:27:35+08:00",
+      "seenAt": "2026-06-27T21:09:05+08:00",
       "sourceId": "ig_indiarasfair",
       "sourceName": "Indiara Sfair",
       "platform": "instagram",
@@ -193,7 +193,7 @@
       "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=indiarasfair\": 429 Too Many Requests"
     },
     {
-      "seenAt": "2026-06-27T20:27:35+08:00",
+      "seenAt": "2026-06-27T21:09:05+08:00",
       "sourceId": "ig_velozharmonica",
       "sourceName": "Veloz Harmonica Quartet",
       "platform": "instagram",
@@ -201,7 +201,7 @@
       "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=velozharmonica\": 429 Too Many Requests"
     },
     {
-      "seenAt": "2026-06-27T20:27:35+08:00",
+      "seenAt": "2026-06-27T21:09:05+08:00",
       "sourceId": "ig_leeoskarharmonicas",
       "sourceName": "Lee Oskar",
       "platform": "instagram",
@@ -209,7 +209,7 @@
       "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=leeoskarharmonicas\": 429 Too Many Requests"
     },
     {
-      "seenAt": "2026-06-27T20:27:35+08:00",
+      "seenAt": "2026-06-27T21:09:05+08:00",
       "sourceId": "ig_gregoiremaret",
       "sourceName": "Gregoire Maret",
       "platform": "instagram",
@@ -217,7 +217,7 @@
       "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=gregoiremaret\": 429 Too Many Requests"
     },
     {
-      "seenAt": "2026-06-27T20:27:35+08:00",
+      "seenAt": "2026-06-27T21:09:05+08:00",
       "sourceId": "ig_kif768",
       "sourceName": "Kif Valentine",
       "platform": "instagram",
@@ -225,7 +225,7 @@
       "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=kif768\": 429 Too Many Requests"
     },
     {
-      "seenAt": "2026-06-27T20:27:35+08:00",
+      "seenAt": "2026-06-27T21:09:05+08:00",
       "sourceId": "ig_howardlevyland",
       "sourceName": "Howard Levy",
       "platform": "instagram",
@@ -233,7 +233,7 @@
       "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=howardlevyland\": 429 Too Many Requests"
     },
     {
-      "seenAt": "2026-06-27T20:27:35+08:00",
+      "seenAt": "2026-06-27T21:09:05+08:00",
       "sourceId": "ig_whf_world_harmonica_festival",
       "sourceName": "World Harmonica Festival",
       "platform": "instagram",
@@ -241,7 +241,7 @@
       "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=whf_world_harmonica_festival\": 429 Too Many Requests"
     },
     {
-      "seenAt": "2026-06-27T20:27:35+08:00",
+      "seenAt": "2026-06-27T21:09:05+08:00",
       "sourceId": "ig_yoonseoklee_harmonica",
       "sourceName": "Yoonseok Lee",
       "platform": "instagram",
@@ -249,7 +249,7 @@
       "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=yoonseoklee_harmonica\": 429 Too Many Requests"
     },
     {
-      "seenAt": "2026-06-27T20:27:35+08:00",
+      "seenAt": "2026-06-27T21:09:05+08:00",
       "sourceId": "ig_hankshreve",
       "sourceName": "Hank Shreve",
       "platform": "instagram",
@@ -257,7 +257,7 @@
       "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=hankshreve\": 429 Too Many Requests"
     },
     {
-      "seenAt": "2026-06-27T20:27:35+08:00",
+      "seenAt": "2026-06-27T21:09:05+08:00",
       "sourceId": "ig_liamwardmusic",
       "sourceName": "Liam Ward & Malcolm Thorne",
       "platform": "instagram",
@@ -265,7 +265,7 @@
       "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=liamwardmusic\": 429 Too Many Requests"
     },
     {
-      "seenAt": "2026-06-27T20:27:35+08:00",
+      "seenAt": "2026-06-27T21:09:05+08:00",
       "sourceId": "ig_plashervouetband",
       "sourceName": "Rachelle Plas & Philippe Hervouet",
       "platform": "instagram",
@@ -273,7 +273,7 @@
       "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=plashervouetband\": 429 Too Many Requests"
     },
     {
-      "seenAt": "2026-06-27T20:27:35+08:00",
+      "seenAt": "2026-06-27T21:09:05+08:00",
       "sourceId": "ig_santi_alvarez_armonica",
       "sourceName": "Santiago Alvarez",
       "platform": "instagram",
@@ -281,7 +281,7 @@
       "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=santi.alvarez.armonica\": 429 Too Many Requests"
     },
     {
-      "seenAt": "2026-06-27T20:27:35+08:00",
+      "seenAt": "2026-06-27T21:09:05+08:00",
       "sourceId": "ig_hohnerklang",
       "sourceName": "Orchestra Hohnerklang",
       "platform": "instagram",
@@ -289,7 +289,7 @@
       "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=hohnerklang\": 429 Too Many Requests"
     },
     {
-      "seenAt": "2026-06-27T20:27:35+08:00",
+      "seenAt": "2026-06-27T21:09:05+08:00",
       "sourceId": "ig_sigmundgroven",
       "sourceName": "Sigmund Groven",
       "platform": "instagram",
@@ -297,7 +297,7 @@
       "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=sigmundgroven\": 429 Too Many Requests"
     },
     {
-      "seenAt": "2026-06-27T20:27:35+08:00",
+      "seenAt": "2026-06-27T21:09:05+08:00",
       "sourceId": "ig_deakharp",
       "sourceName": "Deak Harp",
       "platform": "instagram",
@@ -305,7 +305,7 @@
       "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=deakharp\": 429 Too Many Requests"
     },
     {
-      "seenAt": "2026-06-27T20:27:35+08:00",
+      "seenAt": "2026-06-27T21:09:05+08:00",
       "sourceId": "ig_ncku_harmonicaclub",
       "sourceName": "成大口琴社",
       "platform": "instagram",
@@ -313,7 +313,7 @@
       "error": "RSSHub HTTP 503: FetchError: [GET] \"https://www.instagram.com/api/v1/users/web_profile_info/?username=ncku_harmonicaclub\": 429 Too Many Requests"
     },
     {
-      "seenAt": "2026-06-27T20:27:35+08:00",
+      "seenAt": "2026-06-27T21:09:05+08:00",
       "sourceId": "ig_nycu_harmonica",
       "sourceName": "陽明交大竹韻口琴社",
       "platform": "instagram",
