@@ -23,6 +23,7 @@
   const feedState = {
     platform: emptyFilterSet(),
     country: emptyFilterSet(),
+    region: emptyFilterSet(),
     source: emptyFilterSet(),
     tag: emptyFilterSet(),
     query: "",
@@ -51,6 +52,7 @@
   ];
   const nonLocationLabels = new Set(["國際", "臺灣交流", "臺灣爵士圈"]);
   const directoryFilterNames = ["country", "region", "hashtags"];
+  const feedFilterNames = ["platform", "country", "region", "source", "tag"];
   const feedApiUrl = "/api/latest.json";
   let feedSearchComposing = false;
 
@@ -763,7 +765,24 @@
   }
 
   function feedCountryFilterValues(item) {
-    return [item.country].filter(Boolean);
+    const country = String(item.country || "").trim();
+    return country && !nonLocationLabels.has(country) ? [country] : [];
+  }
+
+  function feedKnownCountryValues(updates = feedData.updates || []) {
+    return uniqueSorted([
+      ...directoryCountryValues(),
+      ...updates.flatMap(feedCountryFilterValues),
+    ]);
+  }
+
+  function feedRegionFilterValues(item, countryValues = feedKnownCountryValues()) {
+    const countries = uniqueHashtags([...countryValues, ...feedCountryFilterValues(item)]);
+    return uniqueHashtags(
+      displayMetaPills([item.region], 8)
+        .filter((region) => region && !nonLocationLabels.has(region))
+        .filter((region) => !filterHasValue(countries, region))
+    );
   }
 
   function countSortedValues(updates, valueGetter) {
@@ -799,6 +818,7 @@
         item.text,
         item.country,
         item.region,
+        ...feedRegionFilterValues(item),
         ...feedSourceFilterValues(item),
         ...sortedPublicTags(item.matched_keywords || []),
       ].join(" ")
@@ -809,6 +829,7 @@
     const query = normalize(feedState.query);
     if (!valuesMatchFilter(feedPlatformFilterValues(item), feedState.platform)) return false;
     if (!valuesMatchFilter(feedCountryFilterValues(item), feedState.country)) return false;
+    if (!valuesMatchFilter(feedRegionFilterValues(item), feedState.region)) return false;
     if (!valuesMatchFilter(feedSourceFilterValues(item), feedState.source)) return false;
     if (!valuesMatchFilter(sortedPublicTags(item.matched_keywords || []), feedState.tag)) return false;
     if (query && !feedFilterText(item).includes(query)) return false;
@@ -857,7 +878,9 @@
 
   function feedControls(updates, filteredUpdates) {
     const platforms = feedPlatformOptions(updates);
-    const countries = countSortedValues(updates, (item) => item.country);
+    const countries = countSortedValues(updates, feedCountryFilterValues);
+    const knownCountries = uniqueSorted([...feedKnownCountryValues(updates), ...countries]);
+    const regions = countSortedValues(updates, (item) => feedRegionFilterValues(item, knownCountries));
     const sources = countSortedValues(updates, feedSourceOptionValue);
     const tags = sortedPublicTags(updates.flatMap((item) => item.matched_keywords || []));
     return `
@@ -869,7 +892,7 @@
         <div class="feed-filter-tools">
           <label class="search-field feed-search-field">
             <span class="sr-only">搜尋河道</span>
-            <input id="feed-search-input" type="search" value="${escapeHtml(feedState.query)}" placeholder="搜尋標題、內文、國家、tag 或來源">
+            <input id="feed-search-input" type="search" value="${escapeHtml(feedState.query)}" placeholder="搜尋標題、內文、國家、區域、tag 或來源">
           </label>
           <button class="feed-reset-button" type="button">重設</button>
         </div>
@@ -879,7 +902,11 @@
         </div>
         <div class="feed-filter-chip-group">
           <span class="feed-chip-group-label">國家</span>
-          <div class="feed-option-chips" aria-label="國家篩選，可複選">${feedOptionChips(countries, feedState.country, "country", "全部國家", { allowExclude: false })}</div>
+          <div class="feed-option-chips" aria-label="國家篩選，可複選">${feedOptionChips(countries, feedState.country, "country", "全部國家")}</div>
+        </div>
+        <div class="feed-filter-chip-group">
+          <span class="feed-chip-group-label">區域</span>
+          <div class="feed-option-chips" aria-label="區域篩選，可複選">${feedOptionChips(regions, feedState.region, "region", "全部區域")}</div>
         </div>
         <div class="feed-filter-chip-group">
           <span class="feed-chip-group-label">Tag</span>
@@ -894,12 +921,12 @@
   }
 
   function toggleFeedSelection(name, value) {
-    if (!["platform", "country", "source", "tag"].includes(name)) return;
+    if (!feedFilterNames.includes(name)) return;
     if (value === "all") {
       feedState[name] = emptyFilterSet();
       return;
     }
-    if (name === "platform" || name === "country") {
+    if (name === "platform") {
       feedState[name] = toggleFilterValue(feedState[name], value);
       return;
     }
@@ -1024,6 +1051,109 @@
     bindFeedAutoLoad();
   }
 
+  function feedUrlParamNames() {
+    return [
+      "platform",
+      "source",
+      "notSource",
+      "country",
+      "notCountry",
+      "region",
+      "notRegion",
+      "tag",
+      "notTag",
+      "hashtag",
+      "notHashtag",
+      "q",
+      "query",
+    ];
+  }
+
+  function appendFeedFilterUrlParams(url, filterName, includeParam, excludeParam = "") {
+    filterIncludes(feedState[filterName]).forEach((value) => url.searchParams.append(includeParam, value));
+    if (excludeParam) {
+      filterExcludes(feedState[filterName]).forEach((value) => url.searchParams.append(excludeParam, value));
+    }
+  }
+
+  function syncFeedFilterUrl() {
+    if (!latestFeedGrid) return;
+    const url = new URL(window.location.href);
+    feedUrlParamNames().forEach((name) => url.searchParams.delete(name));
+    appendFeedFilterUrlParams(url, "platform", "platform");
+    appendFeedFilterUrlParams(url, "country", "country", "notCountry");
+    appendFeedFilterUrlParams(url, "region", "region", "notRegion");
+    appendFeedFilterUrlParams(url, "tag", "tag", "notTag");
+    appendFeedFilterUrlParams(url, "source", "source", "notSource");
+    if (feedState.query) url.searchParams.set("q", feedState.query);
+    window.history.replaceState({}, "", url);
+  }
+
+  function addFeedFilterValue(filterName, value, mode = "include") {
+    const label = String(value || "").trim();
+    if (!label || !feedFilterNames.includes(filterName)) return;
+    if (filterName === "platform") {
+      if (mode !== "exclude") {
+        feedState.platform = {
+          include: addFilterValue(filterIncludes(feedState.platform), label),
+          exclude: [],
+        };
+      }
+      return;
+    }
+    const filter = feedState[filterName];
+    if (mode === "exclude") {
+      feedState[filterName] = {
+        include: removeFilterValue(filterIncludes(filter), label),
+        exclude: addFilterValue(filterExcludes(filter), label),
+      };
+      return;
+    }
+    feedState[filterName] = {
+      include: addFilterValue(filterIncludes(filter), label),
+      exclude: removeFilterValue(filterExcludes(filter), label),
+    };
+  }
+
+  function routeLegacyFeedHashtag(value, mode = "include") {
+    const label = String(value || "").trim();
+    if (!label) return;
+    if (isDirectoryCountry(label)) {
+      addFeedFilterValue("country", label, mode);
+    } else if (isDirectoryRegion(label)) {
+      addFeedFilterValue("region", label, mode);
+    } else {
+      addFeedFilterValue("tag", label, mode);
+    }
+  }
+
+  function readFeedFiltersFromUrl() {
+    if (!latestFeedGrid) return;
+    const params = new URLSearchParams(window.location.search);
+    feedFilterNames.forEach((name) => {
+      feedState[name] = emptyFilterSet();
+    });
+    feedState.query = params.get("q") || params.get("query") || "";
+    commaSeparatedParamValues(params, ["platform"]).forEach((value) => addFeedFilterValue("platform", value));
+    commaSeparatedParamValues(params, ["country"]).forEach((value) => addFeedFilterValue("country", value));
+    commaSeparatedParamValues(params, ["notCountry"]).forEach((value) => addFeedFilterValue("country", value, "exclude"));
+    commaSeparatedParamValues(params, ["region"]).forEach((value) => addFeedFilterValue("region", value));
+    commaSeparatedParamValues(params, ["notRegion"]).forEach((value) => addFeedFilterValue("region", value, "exclude"));
+    commaSeparatedParamValues(params, ["tag"]).forEach((value) => addFeedFilterValue("tag", value));
+    commaSeparatedParamValues(params, ["notTag"]).forEach((value) => addFeedFilterValue("tag", value, "exclude"));
+    commaSeparatedParamValues(params, ["source"]).forEach((value) => addFeedFilterValue("source", value));
+    commaSeparatedParamValues(params, ["notSource"]).forEach((value) => addFeedFilterValue("source", value, "exclude"));
+    commaSeparatedParamValues(params, ["hashtag"]).forEach((value) => routeLegacyFeedHashtag(value));
+    commaSeparatedParamValues(params, ["notHashtag"]).forEach((value) => routeLegacyFeedHashtag(value, "exclude"));
+  }
+
+  function applyFeedSelection(name, value) {
+    toggleFeedSelection(name, value);
+    syncFeedFilterUrl();
+    resetFeedPagination();
+    renderLatestFeeds();
+  }
+
   function bindFeedFilters() {
     const feedSearch = latestFeedGrid.querySelector("#feed-search-input");
     if (feedSearch) {
@@ -1033,6 +1163,7 @@
       feedSearch.addEventListener("compositionend", () => {
         feedSearchComposing = false;
         feedState.query = feedSearch.value;
+        syncFeedFilterUrl();
         resetFeedPagination();
         renderLatestFeeds();
         latestFeedGrid.querySelector("#feed-search-input")?.focus();
@@ -1041,6 +1172,7 @@
         if (feedSearchComposing) return;
         const cursorPosition = feedSearch.selectionStart ?? feedSearch.value.length;
         feedState.query = feedSearch.value;
+        syncFeedFilterUrl();
         resetFeedPagination();
         renderLatestFeeds();
         const nextSearch = latestFeedGrid.querySelector("#feed-search-input");
@@ -1053,33 +1185,31 @@
 
     latestFeedGrid.querySelectorAll("[data-feed-source]").forEach((button) => {
       button.addEventListener("click", () => {
-        toggleFeedSelection("source", button.dataset.feedSource || "all");
-        resetFeedPagination();
-        renderLatestFeeds();
+        applyFeedSelection("source", button.dataset.feedSource || "all");
       });
     });
 
     latestFeedGrid.querySelectorAll("[data-feed-platform]").forEach((button) => {
       button.addEventListener("click", () => {
-        toggleFeedSelection("platform", button.dataset.feedPlatform || "all");
-        resetFeedPagination();
-        renderLatestFeeds();
+        applyFeedSelection("platform", button.dataset.feedPlatform || "all");
       });
     });
 
     latestFeedGrid.querySelectorAll("[data-feed-country]").forEach((button) => {
       button.addEventListener("click", () => {
-        toggleFeedSelection("country", button.dataset.feedCountry || "all");
-        resetFeedPagination();
-        renderLatestFeeds();
+        applyFeedSelection("country", button.dataset.feedCountry || "all");
+      });
+    });
+
+    latestFeedGrid.querySelectorAll("[data-feed-region]").forEach((button) => {
+      button.addEventListener("click", () => {
+        applyFeedSelection("region", button.dataset.feedRegion || "all");
       });
     });
 
     latestFeedGrid.querySelectorAll("[data-feed-tag]").forEach((button) => {
       button.addEventListener("click", () => {
-        toggleFeedSelection("tag", button.dataset.feedTag || "all");
-        resetFeedPagination();
-        renderLatestFeeds();
+        applyFeedSelection("tag", button.dataset.feedTag || "all");
       });
     });
 
@@ -1095,10 +1225,12 @@
       resetButton.addEventListener("click", () => {
         feedState.platform = emptyFilterSet();
         feedState.country = emptyFilterSet();
+        feedState.region = emptyFilterSet();
         feedState.source = emptyFilterSet();
         feedState.tag = emptyFilterSet();
         feedState.query = "";
         feedState.sourceExpanded = false;
+        syncFeedFilterUrl();
         resetFeedPagination();
         renderLatestFeeds();
       });
@@ -1392,6 +1524,7 @@
 
   function init() {
     readDirectoryHashtagsFromUrl();
+    readFeedFiltersFromUrl();
     const watchStats = data.stats.watchSources || {};
     setStat("watchSourceCount", watchStats.totalSources || data.stats.totalEntries || 0);
     setStat("rsshubSourceCount", watchStats.rsshubSources || 0);

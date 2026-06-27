@@ -38,12 +38,14 @@ API_DIR = SITE_ROOT / "api"
 FEED_IMAGE_DIR = SITE_ROOT / "assets" / "feed-images"
 SOURCE_AVATAR_DIR = SITE_ROOT / "assets" / "source-avatars"
 PUBLIC_BASE_URL = "https://harmonica.observe.tw"
-ASSET_VERSION = "20260627-1920"
+ASSET_VERSION = "20260627-1921"
 HOME_FEED_BATCH_SIZE = 12
 DEFAULT_UPDATE_WINDOW_DAYS = 30
 WEBP_QUALITY = "82"
 TAG_VALUE_SPLIT_RE = re.compile(r"\s*(?:[,，、/／+&]|\band\b|\s+)\s*", re.IGNORECASE)
 TAG_FORBIDDEN_CHARS_RE = re.compile(r"[,，、/／+&\s]")
+LOCATION_VALUE_SPLIT_RE = re.compile(r"\s*(?:[/／；;、,，+&]|\band\b)\s*", re.IGNORECASE)
+NON_LOCATION_LABELS = {"國際", "臺灣交流", "臺灣爵士圈"}
 LEGACY_TAI = "\u53f0"
 TAIWAN_ORTHOGRAPHY_REPLACEMENTS = (
     (f"{LEGACY_TAI}灣", "臺灣"),
@@ -1608,15 +1610,89 @@ def feed_source_filter_label(item: dict[str, Any]) -> str:
     return ""
 
 
-def counted_filter_values(items: list[dict[str, Any]], field: str) -> list[str]:
+def split_location_filter_values(value: Any) -> list[str]:
+    labels: list[str] = []
+    seen: set[str] = set()
+    for part in LOCATION_VALUE_SPLIT_RE.split(str(value or "")):
+        label = normalize_taiwan_orthography(part).strip()
+        key = label.casefold()
+        if not label or key in seen:
+            continue
+        seen.add(key)
+        labels.append(label)
+    return labels
+
+
+def feed_country_filter_values(item: dict[str, Any]) -> list[str]:
+    country = normalize_taiwan_orthography(item.get("country") or "").strip()
+    if not country or country in NON_LOCATION_LABELS:
+        return []
+    return [country]
+
+
+def feed_known_country_values(items: list[dict[str, Any]]) -> list[str]:
+    countries: list[str] = []
+    seen: set[str] = set()
+    for item in items:
+        for country in feed_country_filter_values(item):
+            key = country.casefold()
+            if key in seen:
+                continue
+            seen.add(key)
+            countries.append(country)
+    return countries
+
+
+def directory_country_values() -> list[str]:
+    countries: list[str] = []
+    seen: set[str] = set()
+    try:
+        entries = parse_site_data(SITE_DATA).get("entries", [])
+    except (OSError, json.JSONDecodeError):
+        entries = []
+    for entry in entries:
+        if not isinstance(entry, dict):
+            continue
+        country = normalize_taiwan_orthography(entry.get("country") or "").strip()
+        key = country.casefold()
+        if not country or country in NON_LOCATION_LABELS or key in seen:
+            continue
+        seen.add(key)
+        countries.append(country)
+    return countries
+
+
+def feed_region_filter_values(item: dict[str, Any], country_values: list[str]) -> list[str]:
+    countries = {
+        country.casefold()
+        for country in [*country_values, *feed_country_filter_values(item)]
+        if country
+    }
+    regions: list[str] = []
+    seen: set[str] = set()
+    for region in split_location_filter_values(item.get("region")):
+        key = region.casefold()
+        if region in NON_LOCATION_LABELS or key in countries or key in seen:
+            continue
+        seen.add(key)
+        regions.append(region)
+    return regions
+
+
+def counted_filter_values(items: list[dict[str, Any]], field: str, country_values: list[str] | None = None) -> list[str]:
     counts: dict[str, int] = {}
     for item in items:
         if field == "source":
-            value = feed_source_filter_label(item)
+            values = [feed_source_filter_label(item)]
+        elif field == "country":
+            values = feed_country_filter_values(item)
+        elif field == "region":
+            values = feed_region_filter_values(item, country_values or feed_known_country_values(items))
         else:
-            value = normalize_taiwan_orthography(item.get(field) or "").strip()
-        if value:
-            counts[value] = counts.get(value, 0) + 1
+            values = [normalize_taiwan_orthography(item.get(field) or "").strip()]
+        for value in values:
+            if value:
+                counts[value] = counts.get(value, 0) + 1
     return [
         value
         for value, _count in sorted(
@@ -1636,6 +1712,8 @@ def render_home_feed_filters(public_rows: list[dict[str, Any]], window_days: int
     )
     sources = counted_filter_values(public_rows, "source")
     countries = counted_filter_values(public_rows, "country")
+    country_values = [*directory_country_values(), *feed_known_country_values(public_rows)]
+    regions = counted_filter_values(public_rows, "region", country_values)
     tags = public_tags.sort_public_tags(
         keyword for item in public_rows for keyword in (item.get("matched_keywords") or [])
     )
@@ -1648,7 +1726,7 @@ def render_home_feed_filters(public_rows: list[dict[str, Any]], window_days: int
         <div class="feed-filter-tools">
           <label class="search-field feed-search-field">
             <span class="sr-only">搜尋河道</span>
-            <input id="feed-search-input" type="search" placeholder="搜尋標題、內文、國家、tag 或來源">
+            <input id="feed-search-input" type="search" placeholder="搜尋標題、內文、國家、區域、tag 或來源">
           </label>
           <button class="feed-reset-button" type="button">重設</button>
         </div>
@@ -1659,6 +1737,10 @@ def render_home_feed_filters(public_rows: list[dict[str, Any]], window_days: int
         <div class="feed-filter-chip-group">
           <span class="feed-chip-group-label">國家</span>
           <div class="feed-option-chips" aria-label="國家篩選，可複選">{render_home_filter_chip_options(countries, "country", "全部國家")}</div>
+        </div>
+        <div class="feed-filter-chip-group">
+          <span class="feed-chip-group-label">區域</span>
+          <div class="feed-option-chips" aria-label="區域篩選，可複選">{render_home_filter_chip_options(regions, "region", "全部區域")}</div>
         </div>
         <div class="feed-filter-chip-group">
           <span class="feed-chip-group-label">Tag</span>
