@@ -1099,6 +1099,16 @@ h2 {
   background: #e7eff3;
 }
 
+.country-tag-pill {
+  color: #3f5362;
+  background: #e7eff3;
+}
+
+.region-tag-pill {
+  color: #4a4d6f;
+  background: #ececf7;
+}
+
 .feed-tag-pill {
   color: #6b4a11;
   background: #f5ead5;

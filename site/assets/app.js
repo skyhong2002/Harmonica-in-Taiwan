@@ -16,6 +16,8 @@
   const state = {
     query: "",
     category: "全部",
+    country: emptyFilterSet(),
+    region: emptyFilterSet(),
     hashtags: emptyFilterSet(),
   };
   const feedState = {
@@ -47,6 +49,8 @@
     "國際交流",
     "其他來源",
   ];
+  const nonLocationLabels = new Set(["國際", "臺灣交流", "臺灣爵士圈"]);
+  const directoryFilterNames = ["country", "region", "hashtags"];
   const feedApiUrl = "/api/latest.json";
   let feedSearchComposing = false;
 
@@ -340,22 +344,72 @@
     return Number.isFinite(limit) ? hashtags.slice(0, limit) : hashtags;
   }
 
+  function directoryCountryValues() {
+    return uniqueSorted(data.entries
+      .map((entry) => String(entry.country || "").trim())
+      .filter((country) => country && !nonLocationLabels.has(country)));
+  }
+
+  function isDirectoryCountry(value) {
+    return filterHasValue(directoryCountryValues(), value);
+  }
+
+  function entryCountryValues(entry) {
+    const country = String(entry.country || "").trim();
+    return country && !nonLocationLabels.has(country) ? [country] : [];
+  }
+
+  function regionCandidateValues(entry) {
+    const countries = entryCountryValues(entry);
+    return uniqueHashtags(
+      displayMetaPills([entry.region], 8)
+        .filter((region) => region && !nonLocationLabels.has(region))
+        .filter((region) => !isDirectoryCountry(region))
+        .filter((region) => !filterHasValue(countries, region))
+    );
+  }
+
+  function directoryRegionValues() {
+    return uniqueSorted(data.entries.flatMap(regionCandidateValues));
+  }
+
+  function isDirectoryRegion(value) {
+    return filterHasValue(directoryRegionValues(), value);
+  }
+
+  function entryRegionValues(entry) {
+    return regionCandidateValues(entry).filter(isDirectoryRegion);
+  }
+
   function locationHashtags(entry) {
-    return displayMetaPills([entry.country, entry.region], 6);
+    return uniqueHashtags([...entryCountryValues(entry), ...entryRegionValues(entry)], 6);
   }
 
   function entryHashtags(entry) {
-    return uniqueHashtags([...locationHashtags(entry), ...(entry.sourceTags || [])]);
+    return uniqueHashtags([
+      ...entryCountryValues(entry),
+      ...entryRegionValues(entry),
+      ...(entry.sourceTags || []),
+    ]);
   }
 
-  function hashtagButton(label, className = "") {
-    const stateName = filterValueState(state.hashtags, label);
+  function entrySourceTagValues(entry) {
+    return uniqueHashtags(entry.sourceTags || []);
+  }
+
+  function directoryFilterState(filterName) {
+    return state[filterName] || emptyFilterSet();
+  }
+
+  function hashtagButton(label, className = "", filterName = "hashtags") {
+    const stateName = filterValueState(directoryFilterState(filterName), label);
     const displayLabel = `${stateName === "exclude" ? "not " : ""}#${escapeHtml(label)}`;
     return `
       <button
         type="button"
         class="pill hashtag-chip ${className}"
         data-directory-hashtag="${escapeHtml(label)}"
+        data-directory-filter="${escapeHtml(filterName)}"
         data-filter-state="${stateName}"
         aria-pressed="${ariaPressedForFilterState(stateName)}"
       >${displayLabel}</button>
@@ -363,17 +417,21 @@
   }
 
   function entryContextHtml(entry) {
-    const locations = locationHashtags(entry)
-      .map((tag) => hashtagButton(tag, "location-tag-pill"))
+    const countries = entryCountryValues(entry)
+      .map((tag) => hashtagButton(tag, "country-tag-pill", "country"))
+      .join("");
+    const regions = entryRegionValues(entry)
+      .map((tag) => hashtagButton(tag, "region-tag-pill", "region"))
       .join("");
     const latest = entry.latestUpdateLocal
       ? `<span class="entry-latest">最新 ${escapeHtml(entry.latestUpdateLocal)}</span>`
       : "";
+    const locations = countries + regions;
     return locations || latest ? `<div class="entry-context">${locations}${latest}</div>` : "";
   }
 
   function entryCard(entry) {
-    const sourceTags = uniqueHashtags(entry.sourceTags || [], 8);
+    const sourceTags = entrySourceTagValues(entry).slice(0, 8);
     const summary = entry.summary || entry.sourceSummary || entry.type || "公開來源";
     const aliases = (entry.aliases || []).slice(0, 4);
 
@@ -397,7 +455,7 @@
         ${entryContextHtml(entry)}
         ${
           sourceTags.length
-            ? `<div class="entry-tags">${sourceTags.map((tag) => hashtagButton(tag, "source-tag-pill")).join("")}</div>`
+            ? `<div class="entry-tags">${sourceTags.map((tag) => hashtagButton(tag, "source-tag-pill", "hashtags")).join("")}</div>`
             : ""
         }
         <p class="entry-summary">${escapeHtml(summary)}</p>
@@ -1082,18 +1140,35 @@
     const query = normalize(state.query);
     return data.entries.filter((entry) => {
       if (state.category !== "全部" && entry.category !== state.category) return false;
-      if (!valuesMatchFilter(entryHashtags(entry), state.hashtags)) return false;
+      if (!valuesMatchFilter(entryCountryValues(entry), state.country)) return false;
+      if (!valuesMatchFilter(entryRegionValues(entry), state.region)) return false;
+      if (!valuesMatchFilter(entrySourceTagValues(entry), state.hashtags)) return false;
       if (query && !searchableText(entry).includes(query)) return false;
       return true;
     });
   }
 
+  function directoryFiltersEmpty() {
+    return directoryFilterNames.every((name) => filterEmpty(directoryFilterState(name)));
+  }
+
+  function directoryActiveFilterChips() {
+    return [
+      ["country", "country-tag-pill"],
+      ["region", "region-tag-pill"],
+      ["hashtags", "source-tag-pill"],
+    ]
+      .flatMap(([filterName, className]) => [
+        ...filterIncludes(directoryFilterState(filterName)),
+        ...filterExcludes(directoryFilterState(filterName)),
+      ].map((value) => hashtagButton(value, `active-filter-chip ${className}`, filterName)))
+      .join("");
+  }
+
   function renderDirectoryResultCount(entries) {
     if (!resultCount) return;
-    const activeHashtags = [...filterIncludes(state.hashtags), ...filterExcludes(state.hashtags)]
-      .map((hashtag) => hashtagButton(hashtag, "active-filter-chip"))
-      .join("");
-    const clearButton = !filterEmpty(state.hashtags)
+    const activeHashtags = directoryActiveFilterChips();
+    const clearButton = !directoryFiltersEmpty()
       ? `<button type="button" class="directory-clear-hashtags" data-directory-clear-hashtags>清除</button>`
       : "";
     resultCount.innerHTML = `
@@ -1107,21 +1182,24 @@
   }
 
   function directoryHashtagValues() {
-    const locations = uniqueSorted(data.entries.flatMap(locationHashtags));
+    const countries = directoryCountryValues();
+    const regions = directoryRegionValues();
     const sourceTags = uniqueSorted(data.entries.flatMap((entry) => entry.sourceTags || []));
+    const locationValues = [...countries, ...regions];
     return {
-      locations,
-      sourceTags: sourceTags.filter((tag) => !filterHasValue(locations, tag)),
+      countries,
+      regions,
+      sourceTags: sourceTags.filter((tag) => !filterHasValue(locationValues, tag)),
     };
   }
 
-  function directoryHashtagFilterGroup(label, values, className) {
+  function directoryHashtagFilterGroup(label, values, className, filterName) {
     if (!values.length) return "";
     return `
       <div class="directory-hashtag-filter-group">
         <span class="directory-hashtag-label">${escapeHtml(label)}</span>
         <div class="directory-hashtag-chips">
-          ${values.map((tag) => hashtagButton(tag, className)).join("")}
+          ${values.map((tag) => hashtagButton(tag, className, filterName)).join("")}
         </div>
       </div>
     `;
@@ -1129,10 +1207,11 @@
 
   function renderDirectoryHashtagFilters() {
     if (!directoryHashtagFilters) return;
-    const { locations, sourceTags } = directoryHashtagValues();
+    const { countries, regions, sourceTags } = directoryHashtagValues();
     directoryHashtagFilters.innerHTML = [
-      directoryHashtagFilterGroup("地區", locations, "location-tag-pill"),
-      directoryHashtagFilterGroup("Tag", sourceTags, "source-tag-pill"),
+      directoryHashtagFilterGroup("國家", countries, "country-tag-pill", "country"),
+      directoryHashtagFilterGroup("區域", regions, "region-tag-pill", "region"),
+      directoryHashtagFilterGroup("Tag", sourceTags, "source-tag-pill", "hashtags"),
     ].join("");
   }
 
@@ -1190,44 +1269,87 @@
   function syncDirectoryHashtagUrl() {
     if (!directoryList) return;
     const url = new URL(window.location.href);
-    url.searchParams.delete("hashtag");
-    url.searchParams.delete("notHashtag");
-    filterIncludes(state.hashtags).forEach((hashtag) => url.searchParams.append("hashtag", hashtag));
-    filterExcludes(state.hashtags).forEach((hashtag) => url.searchParams.append("notHashtag", hashtag));
+    ["country", "region", "tag", "hashtag", "notCountry", "notRegion", "notTag", "notHashtag"].forEach((name) => {
+      url.searchParams.delete(name);
+    });
+    filterIncludes(state.country).forEach((country) => url.searchParams.append("country", country));
+    filterExcludes(state.country).forEach((country) => url.searchParams.append("notCountry", country));
+    filterIncludes(state.region).forEach((region) => url.searchParams.append("region", region));
+    filterExcludes(state.region).forEach((region) => url.searchParams.append("notRegion", region));
+    filterIncludes(state.hashtags).forEach((hashtag) => url.searchParams.append("tag", hashtag));
+    filterExcludes(state.hashtags).forEach((hashtag) => url.searchParams.append("notTag", hashtag));
     window.history.replaceState({}, "", url);
+  }
+
+  function commaSeparatedParamValues(params, names) {
+    return uniqueHashtags(
+      names.flatMap((name) => params.getAll(name))
+        .flatMap((value) => String(value || "").split(","))
+    );
+  }
+
+  function addDirectoryFilterValue(filterName, value, mode = "include") {
+    const label = String(value || "").trim();
+    if (!label || !directoryFilterNames.includes(filterName)) return;
+    const filter = directoryFilterState(filterName);
+    if (mode === "exclude") {
+      state[filterName] = {
+        include: removeFilterValue(filterIncludes(filter), label),
+        exclude: addFilterValue(filterExcludes(filter), label),
+      };
+      return;
+    }
+    state[filterName] = {
+      include: addFilterValue(filterIncludes(filter), label),
+      exclude: removeFilterValue(filterExcludes(filter), label),
+    };
+  }
+
+  function routeLegacyDirectoryHashtag(value, mode = "include") {
+    const label = String(value || "").trim();
+    if (!label) return;
+    if (isDirectoryCountry(label)) {
+      addDirectoryFilterValue("country", label, mode);
+    } else if (isDirectoryRegion(label)) {
+      addDirectoryFilterValue("region", label, mode);
+    } else {
+      addDirectoryFilterValue("hashtags", label, mode);
+    }
   }
 
   function readDirectoryHashtagsFromUrl() {
     const params = new URLSearchParams(window.location.search);
-    const includes = uniqueHashtags(
-      params
-        .getAll("hashtag")
-        .flatMap((value) => String(value || "").split(","))
-    );
-    state.hashtags = {
-      include: includes,
-      exclude: uniqueHashtags(
-        params
-          .getAll("notHashtag")
-          .flatMap((value) => String(value || "").split(","))
-      ).filter((hashtag) => !filterHasValue(includes, hashtag)),
-    };
+    state.country = emptyFilterSet();
+    state.region = emptyFilterSet();
+    state.hashtags = emptyFilterSet();
+    commaSeparatedParamValues(params, ["country"]).forEach((value) => addDirectoryFilterValue("country", value));
+    commaSeparatedParamValues(params, ["notCountry"]).forEach((value) => addDirectoryFilterValue("country", value, "exclude"));
+    commaSeparatedParamValues(params, ["region"]).forEach((value) => addDirectoryFilterValue("region", value));
+    commaSeparatedParamValues(params, ["notRegion"]).forEach((value) => addDirectoryFilterValue("region", value, "exclude"));
+    commaSeparatedParamValues(params, ["tag"]).forEach((value) => addDirectoryFilterValue("hashtags", value));
+    commaSeparatedParamValues(params, ["notTag"]).forEach((value) => addDirectoryFilterValue("hashtags", value, "exclude"));
+    commaSeparatedParamValues(params, ["hashtag"]).forEach((value) => routeLegacyDirectoryHashtag(value));
+    commaSeparatedParamValues(params, ["notHashtag"]).forEach((value) => routeLegacyDirectoryHashtag(value, "exclude"));
   }
 
-  function directoryHashtagUrl(hashtag) {
+  function directoryHashtagUrl(hashtag, filterName = "hashtags") {
     const url = new URL("/directory/", window.location.origin);
-    url.searchParams.append("hashtag", hashtag);
+    const paramName = filterName === "country" ? "country" : filterName === "region" ? "region" : "tag";
+    url.searchParams.append(paramName, hashtag);
     return url.toString();
   }
 
-  function toggleDirectoryHashtag(hashtag) {
-    state.hashtags = cycleFilterValue(state.hashtags, hashtag);
+  function toggleDirectoryHashtag(hashtag, filterName = "hashtags") {
+    if (!directoryFilterNames.includes(filterName)) return;
+    state[filterName] = cycleFilterValue(directoryFilterState(filterName), hashtag);
     syncDirectoryHashtagUrl();
     renderDirectory();
     renderSpotlight();
   }
 
   function clearDirectoryHashtags() {
+    state.country = emptyFilterSet();
+    state.region = emptyFilterSet();
     state.hashtags = emptyFilterSet();
     syncDirectoryHashtagUrl();
     renderDirectory();
@@ -1249,12 +1371,13 @@
       if (!hashtagButtonElement) return;
       event.preventDefault();
       const hashtag = hashtagButtonElement.dataset.directoryHashtag || "";
+      const filterName = hashtagButtonElement.dataset.directoryFilter || "hashtags";
       if (!hashtag) return;
       if (!directoryList) {
-        window.location.href = directoryHashtagUrl(hashtag);
+        window.location.href = directoryHashtagUrl(hashtag, filterName);
         return;
       }
-      toggleDirectoryHashtag(hashtag);
+      toggleDirectoryHashtag(hashtag, filterName);
     });
   }
 
