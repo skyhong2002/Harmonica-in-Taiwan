@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T18:10:13+08:00",
+  "generatedAt": "2026-06-27T18:33:00+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "ok",
@@ -7,13 +7,13 @@
     "summary": "核心資料抓取與公開 API 正常。"
   },
   "metrics": {
-    "updates": 213,
+    "updates": 214,
     "updatesWindowDays": 30,
     "directoryEntries": 149,
     "watchSources": 440,
     "currentErrors": 0,
-    "latestDataAt": "2026-06-27T18:10:13+08:00",
-    "latestSocialObservationAt": "2026-06-27T18:10:11+08:00"
+    "latestDataAt": "2026-06-27T18:33:00+08:00",
+    "latestSocialObservationAt": "2026-06-27T18:32:12+08:00"
   },
   "watchSources": {
     "platforms": {
@@ -71,7 +71,7 @@
       "label": "正常",
       "summary": "每日 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-06-27 18:10:13",
+        "最新公開資料：2026-06-27 18:33:00",
         "pipeline.log 更新：2026-06-27 00:13:49",
         "pipeline.err.log 更新：2026-06-24 01:57:49",
         "LaunchAgent：not running，last exit 0"
@@ -82,7 +82,7 @@
       "name": "公開 API",
       "status": "ok",
       "label": "正常",
-      "summary": "latest.json 有 213 筆更新，sources.json 有 149 筆公開目錄。",
+      "summary": "latest.json 有 214 筆更新，sources.json 有 149 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
         "watch sources：440"
@@ -96,7 +96,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：14 ms"
+        "耗時：13 ms"
       ]
     },
     {
@@ -106,7 +106,7 @@
       "label": "正常",
       "summary": "212 個 Instagram 來源（profile 106、story 106）；最新抓取批次目前 0 個錯誤。",
       "details": [
-        "最新社群觀測：2026-06-27 18:10:11",
+        "最新社群觀測：2026-06-27 18:32:12",
         "story 無公開內容/空路由略過：0"
       ]
     },

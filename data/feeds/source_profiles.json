@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T07:00:40.277154+00:00",
+  "updatedAt": "2026-06-27T10:32:59.813927+00:00",
   "profiles": {
     "ig_ntnu_harmonica": {
       "id": "ig_ntnu_harmonica",
@@ -2130,6 +2130,15 @@
       "profile_url": "https://www.instagram.com/yoonseoklee_harmonica/",
       "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/480625693_2652875698237617_4801409437067193681_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gHkb1IzqlOyzfF5UWqXYpy9WkEqB2Oe2THmCluU9ugQTdnC9iTmkK1jin0BA0uz4PQ&_nc_ohc=2lBOwv_j484Q7kNvwGR8x0G&_nc_gid=QiGc70r1WiLREEfQggeIoQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af9gPQj3yuZwu52ppPdZfYA2txb99fxE4HU50fy5e_zDkA&oe=6A45420A&_nc_sid=8b3546",
       "avatar_url": "/assets/source-avatars/63ea51f7f97c4e71df8b.webp"
+    },
+    "ig_story_rei_harmonica": {
+      "id": "ig_story_rei_harmonica",
+      "name": "山下伶 Rei Yamashita",
+      "account": "rei_harmonica",
+      "platform": "instagram",
+      "profile_url": "https://www.instagram.com/rei_harmonica/",
+      "avatar_source_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/503187975_18466821646076837_1903386838267563286_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gH2_Vyv0iN-Mp3VsgZvgDGMVchHtEZqMazp8nG-tWwC6UMAlNpNjA4vrHUQr3i0fKY&_nc_ohc=SAAlnU2kPekQ7kNvwE3HMFT&_nc_gid=nTlmTWYPZDt3qwwtURFIzg&edm=ANmP7GQBAAAA&ccb=7-5&oh=00_Af8ASzOdOhFmVStt_7-pgsR8R1Ga_1yHhutOvE8XoGzOjg&oe=6A458EF8&_nc_sid=982cc7",
+      "avatar_url": "/assets/source-avatars/ae6519464b48e4b8405f.webp"
     }
   }
 }

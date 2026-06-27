@@ -30,10 +30,12 @@ DEFAULT_CANDIDATES = PROJECT_ROOT / "data" / "feeds" / "social_candidates.jsonl"
 DEFAULT_ERRORS = PROJECT_ROOT / "data" / "feeds" / "social_feed_errors.jsonl"
 DEFAULT_INBOX = PROJECT_ROOT / "data" / "feeds" / "social_feed_inbox.jsonl"
 DEFAULT_LLM_CACHE = PROJECT_ROOT / "state" / "social_llm_tags.json"
+DEFAULT_INSTAGRAM_USER_IDS = PROJECT_ROOT / "state" / "instagram_user_ids.json"
 
 GRAPH_VERSION = os.environ.get("HARMONICA_META_API_VERSION", "v25.0")
 GRAPH_BASE = f"https://graph.facebook.com/{GRAPH_VERSION}"
 RSSHUB_BASE = os.environ.get("HARMONICA_RSSHUB_BASE", "").rstrip("/")
+INSTAGRAM_BASE = "https://www.instagram.com"
 TAG_RE = re.compile(r"<[^>]+>")
 BR_RE = re.compile(r"<br\s*/?>", re.IGNORECASE)
 IMG_RE = re.compile(r"<img\b[^>]*\bsrc=[\"']([^\"']+)[\"']", re.IGNORECASE)
@@ -42,6 +44,7 @@ VIDEO_SRC_RE = re.compile(r"<video\b[^>]*\bsrc=[\"']([^\"']+)[\"']", re.IGNORECA
 SOURCE_SRC_RE = re.compile(r"<source\b[^>]*\bsrc=[\"']([^\"']+)[\"']", re.IGNORECASE)
 TAG_VALUE_SPLIT_RE = re.compile(r"\s*(?:[,，、/／+&]|\band\b|\s+)\s*", re.IGNORECASE)
 RSSHUB_ERROR_MESSAGE_RE = re.compile(r"Error Message:\s*<br\s*/?>\s*<code[^>]*>(.*?)</code>", re.IGNORECASE | re.DOTALL)
+INSTAGRAM_PROFILE_ID_RE = re.compile(r"\"profile_id\":\"(\d+)\"|profilePage_(\d+)|\"props\":\{\"id\":\"(\d+)\"")
 STORY_EMPTY_ERROR_PATTERNS = (
     "content does not exist",
     "user has no stories",
@@ -68,6 +71,7 @@ LLM_LABELS = {
     "學生社團",
 }
 TRUTHY = {"1", "true", "yes", "y", "on"}
+_INSTAGRAM_USER_IDS_CACHE: dict[str, Any] | None = None
 
 
 def load_json(path: Path, default: Any) -> Any:
@@ -121,6 +125,218 @@ def rsshub_error_message(body: bytes) -> str:
 def is_story_empty_error(message: str) -> bool:
     lowered = (message or "").casefold()
     return any(pattern in lowered for pattern in STORY_EMPTY_ERROR_PATTERNS)
+
+
+def env_file_value(path: Path, name: str) -> str:
+    if not path.exists():
+        return ""
+    try:
+        lines = path.read_text(encoding="utf-8").splitlines()
+    except OSError:
+        return ""
+    for raw in lines:
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
+        if line.startswith("export "):
+            line = line.removeprefix("export ").strip()
+        key, sep, value = line.partition("=")
+        if sep and key.strip() == name:
+            return value.strip().strip('"').strip("'")
+    return ""
+
+
+def instagram_cookie() -> str:
+    for key in ("HARMONICA_IG_COOKIE", "IG_COOKIE"):
+        value = os.environ.get(key)
+        if value:
+            return value.strip()
+    env_paths = [
+        Path(path).expanduser()
+        for path in os.environ.get("HARMONICA_RSSHUB_ENV", "").split(os.pathsep)
+        if path.strip()
+    ]
+    env_paths.extend(
+        [
+            Path.home() / ".config" / "harmonica" / "rsshub.env",
+            Path.home() / "Documents" / "Bamboo Melody Club" / "ops" / "rsshub" / ".env",
+        ]
+    )
+    for path in env_paths:
+        value = env_file_value(path, "IG_COOKIE")
+        if value:
+            return value
+    return ""
+
+
+def instagram_csrf_token(cookie: str) -> str:
+    match = re.search(r"(?:^|;\s*)csrftoken=([^;]+)", cookie or "")
+    return match.group(1) if match else ""
+
+
+def instagram_headers(cookie: str = "", referer: str = "") -> dict[str, str]:
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 15_6_1) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"
+        ),
+        "Accept": "application/json, text/plain, */*",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin",
+        "X-ASBD-ID": "359341",
+        "X-IG-App-ID": "936619743392459",
+        "X-IG-WWW-Claim": "0",
+        "X-Requested-With": "XMLHttpRequest",
+        "Referer": referer or INSTAGRAM_BASE + "/",
+    }
+    if cookie:
+        headers["Cookie"] = cookie
+        csrf = instagram_csrf_token(cookie)
+        if csrf:
+            headers["X-CSRFToken"] = csrf
+    return headers
+
+
+def instagram_json(path: str, query: dict[str, Any], cookie: str, referer: str) -> dict[str, Any]:
+    url = INSTAGRAM_BASE + path
+    if query:
+        url += "?" + urllib.parse.urlencode(query)
+    req = urllib.request.Request(url, headers=instagram_headers(cookie, referer))
+    with urllib.request.urlopen(req, timeout=30) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
+def instagram_user_ids_cache() -> dict[str, Any]:
+    global _INSTAGRAM_USER_IDS_CACHE
+    if _INSTAGRAM_USER_IDS_CACHE is None:
+        _INSTAGRAM_USER_IDS_CACHE = load_json(DEFAULT_INSTAGRAM_USER_IDS, {"version": 1, "users": {}})
+        if not isinstance(_INSTAGRAM_USER_IDS_CACHE, dict):
+            _INSTAGRAM_USER_IDS_CACHE = {"version": 1, "users": {}}
+        if not isinstance(_INSTAGRAM_USER_IDS_CACHE.get("users"), dict):
+            _INSTAGRAM_USER_IDS_CACHE["users"] = {}
+    return _INSTAGRAM_USER_IDS_CACHE
+
+
+def save_instagram_user_ids_cache() -> None:
+    if _INSTAGRAM_USER_IDS_CACHE is not None:
+        save_json(DEFAULT_INSTAGRAM_USER_IDS, _INSTAGRAM_USER_IDS_CACHE)
+
+
+def instagram_user_id(username: str) -> str:
+    clean_username = str(username or "").strip().strip("@/")
+    if not clean_username:
+        return ""
+    cache = instagram_user_ids_cache()
+    users = cache.setdefault("users", {})
+    cached = users.get(clean_username.casefold())
+    if isinstance(cached, dict) and cached.get("id"):
+        return str(cached["id"])
+
+    profile_url = f"{INSTAGRAM_BASE}/{urllib.parse.quote(clean_username)}/"
+    req = urllib.request.Request(profile_url, headers=instagram_headers(referer=profile_url))
+    try:
+        with urllib.request.urlopen(req, timeout=30) as response:
+            text = response.read().decode("utf-8", "replace")
+    except (urllib.error.URLError, TimeoutError):
+        return ""
+    for match in INSTAGRAM_PROFILE_ID_RE.finditer(text):
+        user_id = next((group for group in match.groups() if group), "")
+        if user_id:
+            users[clean_username.casefold()] = {
+                "id": user_id,
+                "username": clean_username,
+                "resolved_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+                "source": "instagram_profile_html",
+            }
+            save_instagram_user_ids_cache()
+            return user_id
+    return ""
+
+
+def unix_time(value: Any) -> str:
+    try:
+        timestamp = int(value)
+    except (TypeError, ValueError):
+        return ""
+    return dt.datetime.fromtimestamp(timestamp, dt.timezone.utc).isoformat()
+
+
+def instagram_story_url(username: str, item_id: str) -> str:
+    media_id = str(item_id or "").split("_", 1)[0]
+    base = f"{INSTAGRAM_BASE}/stories/{urllib.parse.quote(username)}/"
+    return f"{base}{urllib.parse.quote(media_id)}/" if media_id else base
+
+
+def instagram_story_text(item: dict[str, Any]) -> str:
+    parts: list[str] = []
+    caption = item.get("caption")
+    if isinstance(caption, dict) and caption.get("text"):
+        parts.append(str(caption["text"]))
+    for sticker in item.get("story_link_stickers") or []:
+        link = sticker.get("url") or (sticker.get("link_sticker") or {}).get("url")
+        if link:
+            parts.append(str(link))
+    return "\n".join(parts)
+
+
+def fetch_instagram_web_story(source: dict[str, Any], *, source_feed_url: str = "") -> list[dict[str, Any]]:
+    username = str(source.get("username") or "").strip().strip("@/")
+    if not username:
+        return []
+    cookie = instagram_cookie()
+    if not cookie:
+        return []
+    user_id = str(source.get("instagram_user_id") or instagram_user_id(username) or "")
+    if not user_id:
+        return []
+    referer = f"{INSTAGRAM_BASE}/stories/{urllib.parse.quote(username)}/"
+    try:
+        data = instagram_json("/api/v1/feed/reels_media/", {"reel_ids": user_id}, cookie, referer)
+    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, json.JSONDecodeError):
+        return []
+
+    reels = data.get("reels") if isinstance(data, dict) else {}
+    reel = reels.get(user_id) if isinstance(reels, dict) else {}
+    if not reel and isinstance(data.get("reels_media"), list) and data["reels_media"]:
+        reel = data["reels_media"][0]
+    if not isinstance(reel, dict):
+        return []
+    items = reel.get("items") or []
+    if not isinstance(items, list):
+        return []
+
+    fetched_at = dt.datetime.now(dt.timezone.utc).isoformat()
+    user = reel.get("user") if isinstance(reel.get("user"), dict) else {}
+    avatar_url = str(user.get("profile_pic_url") or "")
+    posts: list[dict[str, Any]] = []
+    fallback_source = {**source, "story_provider": "instagram_web"}
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        post_id = str(item.get("id") or item.get("pk") or "")
+        image_candidates = ((item.get("image_versions2") or {}).get("candidates") or [])
+        images = [str(candidate.get("url")) for candidate in image_candidates if candidate.get("url")]
+        videos = [str(video.get("url")) for video in (item.get("video_versions") or []) if video.get("url")]
+        post = normalize_post(
+            fallback_source,
+            post_id=post_id or (images + videos + [fetched_at])[0],
+            text=instagram_story_text(item),
+            url=instagram_story_url(username, post_id),
+            posted_at=unix_time(item.get("taken_at")) or fetched_at,
+            images=images,
+            videos=videos,
+            source_avatar_url=avatar_url,
+            source_feed_url=source_feed_url or referer,
+            rsshub_guid=post_id,
+            rsshub_title=f"Instagram story @{username}",
+            story_fetched_at=fetched_at,
+        )
+        if item.get("expiring_at"):
+            post["story_expires_at"] = unix_time(item.get("expiring_at"))
+        post["instagram_user_id"] = user_id
+        posts.append(post)
+    return posts
 
 
 def image_urls(value: str) -> list[str]:
@@ -285,6 +501,9 @@ def fetch_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
     except urllib.error.HTTPError as exc:
         message = rsshub_error_message(exc.read())
         if story_source and exc.code in {404, 503} and is_story_empty_error(message):
+            posts = fetch_instagram_web_story(source, source_feed_url=url)
+            if posts:
+                return posts
             return []
         if message:
             raise ValueError(f"RSSHub HTTP {exc.code}: {message}") from exc
@@ -351,6 +570,11 @@ def fetch_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
                 story_fetched_at=fetched_at if story_source else "",
             )
         )
+
+    if story_source and not posts:
+        fallback_posts = fetch_instagram_web_story(source, source_feed_url=url)
+        if fallback_posts:
+            return fallback_posts
 
     return posts
 

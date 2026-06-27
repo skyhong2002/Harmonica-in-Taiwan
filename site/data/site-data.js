@@ -37,10 +37,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-06-27T08:19:57+00:00",
-      "latestUpdateLocal": "2026-06-27 16:19",
+      "latestUpdateAt": "2026-06-27T08:20:14+00:00",
+      "latestUpdateLocal": "2026-06-27 16:20",
       "latestUpdateSource": "山下伶 Rei Yamashita",
-      "latestUpdateUrl": "https://www.instagram.com/p/DaFRO69zTx2/",
+      "latestUpdateUrl": "https://www.instagram.com/stories/rei_harmonica/3928623280580029490/",
       "avatarUrl": "/assets/source-avatars/88e248e6f1c02aaa881b.webp",
       "sourceInitials": "RY",
       "sourceTags": [
