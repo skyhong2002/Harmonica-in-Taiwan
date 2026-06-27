@@ -1540,7 +1540,6 @@ def generate_updates(window_days: int = DEFAULT_UPDATE_WINDOW_DAYS, limit: int |
 
     write_feed_data_js(public_rows, categorized, window_days)
     write_api_files(public_rows, categorized, window_days)
-    write_homepage_latest(public_rows, categorized, window_days)
     write_feed_pages(categorized)
     return public_rows, categorized
 

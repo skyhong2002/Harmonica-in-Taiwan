@@ -4,4 +4,23 @@ __pycache__/
 .env
 .venv/
 private/
-logs/social-fast*.log
+
+# Runtime logs and fetch state.
+logs/
+state/
+
+# Generated social/feed runtime data. Keep examples tracked.
+data/feeds/social_candidates*
+data/feeds/social_feed_errors*
+data/feeds/social_feed_inbox*
+!data/feeds/social_feed_inbox.example.jsonl
+data/feeds/social_sources.json
+data/feeds/source_profiles.json
+
+# Generated public site outputs.
+site/api/
+site/data/
+site/feeds/
+site/status/
+site/assets/feed-images/
+site/assets/source-avatars/

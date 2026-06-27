@@ -26,16 +26,16 @@
 .
 ├── data/
 │   ├── sources/                 # 人工維護的公開來源 CSV
-│   └── feeds/                   # 社群來源設定、候選更新、抓取錯誤與快取
+│   └── feeds/                   # 本機 runtime feed inbox、候選更新與快取（不進 git）
 ├── scripts/                     # 資料建置、社群抓取、RSS/API 產生工具
 ├── site/                        # 靜態網站根目錄
-│   ├── api/                     # 產生出的公開 JSON API
-│   ├── assets/                  # CSS、JS、logo、favicon、圖片快取
-│   ├── data/                    # 前端讀取的 JS data bundle
+│   ├── api/                     # 產生出的公開 JSON API（不進 git）
+│   ├── assets/                  # CSS、JS、logo、favicon；feed 圖片與頭貼快取不進 git
+│   ├── data/                    # 前端讀取的 JS data bundle（不進 git）
 │   ├── directory/               # 資料索引頁
-│   ├── feeds/                   # RSS、分類頁與分類 JSON
+│   ├── feeds/                   # RSS、分類頁與分類 JSON（不進 git）
 │   └── submit/                  # 資料回報頁
-├── state/                       # 本機執行狀態與分類快取
+├── state/                       # 本機執行狀態與分類快取（不進 git）
 ├── .github/ISSUE_TEMPLATE/      # 公開資料回報 issue form
 └── README.md
 ```
@@ -50,6 +50,24 @@
 - `site/data/site-data.js`：前端資料索引使用的產生資料包。
 - `site/api/*.json`：給外部工具或 Bamboo Hermes 讀取的公開 API。
 - `site/feeds/*.xml` 與 `site/feeds/*.json`：公開 RSS 與對應 JSON。
+
+## 建置與發佈
+
+這個 repo 的 source of truth 是 `data/sources/*.csv`、`scripts/` 與網站原始檔。抓取狀態、LLM/cache、公開 API、RSS、前端 data bundle、feed 圖片與頭貼都是執行 pipeline 後產生的 publish output，預設不納入 git。
+
+本機或發佈機器要產生完整靜態站台時，執行：
+
+```bash
+python3 scripts/run_pipeline.py
+```
+
+`run_pipeline.py` 會依序重建監看來源、抓取公開更新、產生 `site/data`、`site/api`、`site/feeds`、`site/status` 與圖片快取，最後執行：
+
+```bash
+python3 scripts/validate_public_outputs.py
+```
+
+驗證會檢查 generated JSON/JS 是否可解析、`status.json` 的公開目錄與監看來源數是否和 `sources.json` 一致，以及所有公開輸出引用的 feed 圖片/來源頭貼是否存在。驗證失敗時不要發佈該次輸出。
 
 公開來源 CSV 維護規則：
 

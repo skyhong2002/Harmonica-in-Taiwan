@@ -92,6 +92,7 @@ def main() -> int:
     run([PYTHON, "scripts/generate_rss_feeds.py"])
     run([PYTHON, "scripts/build_status_page.py"])
     run([PYTHON, "scripts/check_source_coverage.py"])
+    run([PYTHON, "scripts/validate_public_outputs.py"])
     return 0
 
 
