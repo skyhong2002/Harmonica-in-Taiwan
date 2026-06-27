@@ -811,6 +811,8 @@ def latest_updates_by_key() -> dict[str, dict[str, Any]]:
         update = {
             "dt": posted,
             "source": normalize_taiwan_orthography(str(row.get("source_name") or row.get("source_id") or "")),
+            "source_id": str(row.get("source_id") or ""),
+            "account": str(row.get("account") or ""),
             "url": row.get("url") or "",
             "title": normalize_taiwan_orthography(str(row.get("text") or "")),
         }
@@ -832,10 +834,22 @@ def apply_latest_update(entry: dict[str, object], latest: dict[str, dict[str, An
 
     update = max(matches, key=lambda item: item["dt"])
     dt = update["dt"]
+    update_source = normalize_taiwan_orthography(str(update.get("source") or ""))
+    entry_name = normalize_taiwan_orthography(str(entry.get("name") or ""))
+    update_keys = {
+        normalize_key(update_source),
+        normalize_key(str(update.get("account") or "")),
+    }
+    source_id = str(update.get("source_id") or "")
+    for prefix in ("ig_", "fb_", "yt_", "youtube_", "x_", "twitter_", "threads_", "tiktok_"):
+        if source_id.startswith(prefix):
+            update_keys.add(normalize_key(source_id[len(prefix) :]))
+    update_keys = {key for key in update_keys if key}
+    display_source = entry_name if entry_name and update_keys.intersection(entry_match_keys(entry)) else update_source
     entry["_latestUpdateSort"] = dt.timestamp()
     entry["latestUpdateAt"] = dt.isoformat()
     entry["latestUpdateLocal"] = local_time_label(dt)
-    entry["latestUpdateSource"] = normalize_taiwan_orthography(str(update.get("source") or ""))
+    entry["latestUpdateSource"] = display_source
     entry["latestUpdateUrl"] = str(update.get("url") or "")
 
 
