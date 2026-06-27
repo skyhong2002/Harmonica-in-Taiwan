@@ -1352,8 +1352,7 @@ button.feed-tag-pill {
 }
 
 .report-type-card,
-.report-form-panel,
-.report-preview-panel {
+.report-note-grid p {
   padding: 18px;
   background: #f8faf8;
   border: 1px solid var(--line);
@@ -1366,108 +1365,27 @@ button.feed-tag-pill {
   align-content: start;
 }
 
+.report-card-action {
+  align-self: end;
+  justify-self: start;
+  margin-top: 4px;
+}
+
 .report-type-card h3 {
   margin: 0;
   font-size: 1.1rem;
 }
 
 .report-type-card p,
-.report-panel-heading p {
+.report-note-grid p {
   margin: 0;
   color: var(--muted);
 }
 
-.report-builder {
+.report-note-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.12fr) minmax(320px, 0.72fr);
-  gap: 18px;
-  align-items: start;
-}
-
-.report-form-panel,
-.report-preview-panel {
-  display: grid;
-  gap: 16px;
-}
-
-.report-preview-panel {
-  position: sticky;
-  top: 92px;
-  background: var(--paper);
-}
-
-.report-panel-heading {
-  display: grid;
-  gap: 4px;
-}
-
-.report-panel-heading h3 {
-  margin: 0;
-  font-size: 1.18rem;
-  line-height: 1.3;
-}
-
-.report-field {
-  display: grid;
-  gap: 7px;
-}
-
-.report-field span,
-.report-preview-panel > span {
-  color: var(--ink);
-  font-weight: 900;
-}
-
-.report-field input,
-.report-field select,
-.report-field textarea {
-  width: 100%;
-  min-height: 46px;
-  padding: 10px 12px;
-  color: var(--ink);
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  outline: none;
-}
-
-.report-field textarea {
-  resize: vertical;
-}
-
-.report-field input:focus,
-.report-field select:focus,
-.report-field textarea:focus {
-  border-color: var(--teal);
-  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.18);
-}
-
-.report-draft-title {
-  padding: 12px 14px;
-  color: var(--ink);
-  font-weight: 900;
-  background: #edf8f5;
-  border: 1px solid #cfe6df;
-  border-radius: var(--radius);
-}
-
-.report-template {
-  margin: 0;
-  padding: 16px;
-  overflow-x: auto;
-  white-space: pre-wrap;
-  color: var(--ink);
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-}
-
-.report-template code {
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-  font-size: 0.95rem;
-  line-height: 1.7;
-  white-space: inherit;
-  word-break: break-word;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
 }
 
 .report-actions {
@@ -1494,10 +1412,6 @@ button.feed-tag-pill {
   color: #fff;
   background: var(--teal);
   border-color: var(--teal);
-}
-
-.report-submit {
-  cursor: pointer;
 }
 
 .status-hero,
@@ -2017,6 +1931,7 @@ button.feed-tag-pill {
   .spotlight-grid,
   .directory-grid,
   .report-type-grid,
+  .report-note-grid,
   .status-metric-grid,
   .feed-card-grid,
   .feed-category-grid {
@@ -2030,14 +1945,6 @@ button.feed-tag-pill {
 
   .feed-item-card {
     grid-template-columns: 1fr;
-  }
-
-  .report-builder {
-    grid-template-columns: 1fr;
-  }
-
-  .report-preview-panel {
-    position: static;
   }
 
   .feed-item-actions {
@@ -2126,6 +2033,7 @@ button.feed-tag-pill {
   .spotlight-grid,
   .directory-grid,
   .report-type-grid,
+  .report-note-grid,
   .status-metric-grid,
   .status-component-grid,
   .feed-card-grid,
@@ -2164,8 +2072,8 @@ button.feed-tag-pill {
     font-size: 1.8rem;
   }
 
-  .report-form-panel,
-  .report-preview-panel {
+  .report-type-card,
+  .report-note-grid p {
     padding: 14px;
   }
 
@@ -2176,6 +2084,7 @@ button.feed-tag-pill {
   .report-actions .primary-link,
   .report-actions a {
     width: 100%;
+    justify-content: center;
     white-space: normal;
   }
 

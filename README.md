@@ -102,16 +102,10 @@ curl -A 'Mozilla/5.0' https://harmonica.observe.tw/api/sources.json
 
 ## 資料回報
 
-公開新增、修正、失效連結與來源更新應從網站回報頁開始：
+公開新增、修正、失效連結與來源更新應從網站回報頁開始。回報頁會依類型帶到對應的 GitHub Issue Form：
 
 ```text
 https://harmonica.observe.tw/submit/
-```
-
-回報頁會產生 GitHub Issue Form URL：
-
-```text
-https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/new?template=content-correction.yml
 ```
 
 Issue 會公開顯示。請只填公開可查資料，不要放私人電話、私人信箱、未公開群組連結、會員資料或憑證。

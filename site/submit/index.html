@@ -31,11 +31,11 @@
             <h1>資料回報</h1>
           </div>
           <div class="feed-page-summary">
-            <p>這裡處理臺灣口琴觀測站的公開資料缺漏、錯誤、失效連結與新增來源。請提供可公開顯示的來源連結，再送出 GitHub 表單。</p>
+            <p>這裡處理臺灣口琴觀測站的公開資料缺漏、錯誤、失效連結與新增來源。請選一種回報類型，GitHub 表單會詢問 agent 實作需要的資訊。</p>
             <div class="report-flow" aria-label="回報流程">
               <span>1. 選回報類型</span>
-              <span>2. 準備公開來源</span>
-              <span>3. 填 GitHub 表單</span>
+              <span>2. 附公開來源</span>
+              <span>3. 說明希望結果</span>
             </div>
           </div>
         </div>
@@ -55,96 +55,48 @@
               <h3>新增來源或社團</h3>
               <p>新增學校社團、樂團、演奏者、教學工作室、場館、公開社群頁或 YouTube 頻道。</p>
               <span class="pill">需要官方或公開來源</span>
+              <a class="primary-link report-card-action" href="https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/new?template=add-source.yml" target="_blank" rel="noreferrer">新增來源</a>
             </article>
             <article class="report-type-card">
               <h3>修正既有資料</h3>
               <p>名稱、分類、地區、公開連結或來源顯示有誤時，可以回報建議修正。</p>
               <span class="pill">請附目前頁面或來源</span>
+              <a class="primary-link report-card-action" href="https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/new?template=correct-data.yml" target="_blank" rel="noreferrer">修正資料</a>
             </article>
             <article class="report-type-card">
               <h3>活動、比賽與補助</h3>
               <p>回報公開演出、成發、講座、工作坊、比賽、徵件、報名或補助公告。</p>
               <span class="pill">請附日期與公告頁</span>
+              <a class="primary-link report-card-action" href="https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/new?template=add-event-opportunity.yml" target="_blank" rel="noreferrer">新增活動資訊</a>
             </article>
             <article class="report-type-card">
               <h3>移除或停止收錄</h3>
               <p>連結失效、頁面停用、來源不再公開，或資料不適合收錄時，可以回報下架原因。</p>
               <span class="pill">請說明判斷依據</span>
+              <a class="primary-link report-card-action" href="https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/new?template=remove-source.yml" target="_blank" rel="noreferrer">停止收錄</a>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="band report-section" aria-labelledby="report-template-title">
+      <section class="band report-section" aria-labelledby="report-notes-title">
         <div class="band-inner">
           <div class="section-heading">
             <div>
-              <p class="section-kicker">Prepare</p>
-              <h2 id="report-template-title">先把回報整理好</h2>
+              <p class="section-kicker">Before You Submit</p>
+              <h2 id="report-notes-title">回報前確認</h2>
             </div>
-            <p class="data-date">送出前會先到 GitHub 草稿頁</p>
+            <p class="data-date">Issue 會公開顯示</p>
           </div>
-
-          <form
-            class="report-builder"
-            action="https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/new"
-            method="get"
-            target="_blank"
-          >
-            <input type="hidden" name="template" value="content-correction.yml">
-            <input id="report-title-input" type="hidden" name="title" value="[資料回報] 新增來源或社團">
-
-            <div class="report-form-panel">
-              <div class="report-panel-heading">
-                <h3>回報內容</h3>
-                <p>填完後會用 URL query 預填 GitHub Issue Form。</p>
-              </div>
-
-              <label class="report-field">
-                <span>回報類型</span>
-                <select id="report-type-input" name="request_type" required>
-                  <option value="新增來源或社團">新增來源或社團</option>
-                  <option value="修正既有資料">修正既有資料</option>
-                  <option value="活動、比賽或補助資訊">活動、比賽或補助資訊</option>
-                  <option value="刪除或停止收錄">刪除或停止收錄</option>
-                  <option value="其他">其他</option>
-                </select>
-              </label>
-              <label class="report-field">
-                <span>名稱或標題</span>
-                <input id="report-name-input" name="name" type="text" placeholder="例：某某大學口琴社" required>
-              </label>
-              <label class="report-field">
-                <span>公開來源連結</span>
-                <input name="source_url" type="url" placeholder="https://..." required>
-              </label>
-              <label class="report-field">
-                <span>要新增或修正的內容</span>
-                <textarea name="details" rows="7" placeholder="例：目前網站上的資料錯在...；建議改成...；或希望新增的分類、城市、公開連結。" required></textarea>
-              </label>
-              <label class="report-field">
-                <span>公開聯絡方式（選填）</span>
-                <textarea name="public_contact" rows="3" placeholder="只填願意公開顯示的聯絡方式；不確定就留空。"></textarea>
-              </label>
-            </div>
-
-            <aside class="report-preview-panel" aria-live="polite">
-              <div class="report-panel-heading">
-                <h3>GitHub 草稿預覽</h3>
-                <p>GitHub 開啟後，仍可在送出前修改。</p>
-              </div>
-              <div class="report-draft-title" id="report-title-preview">[資料回報] 新增來源或社團</div>
-              <pre class="report-template"><code id="report-preview">回報類型：新增來源或社團
-名稱或標題：
-公開來源連結：
-要新增或修正的內容：
-公開聯絡方式（選填）：</code></pre>
-              <div class="report-actions">
-                <button class="primary-link report-submit" type="submit">帶著草稿前往 GitHub</button>
-                <a href="https://github.com/skyhong2002/Harmonica-in-Taiwan/issues" target="_blank" rel="noreferrer">查看處理中的回報</a>
-              </div>
-            </aside>
-          </form>
+          <div class="report-note-grid">
+            <p>請提供官方網站、公開社群頁、公開貼文、活動頁、售票頁或其他公開可查來源。</p>
+            <p>請直接寫出希望網站最後呈現的結果；表單會另外詢問 agent 要驗證的頁面或 API。</p>
+            <p>不要填私人電話、私人信箱、未公開群組連結、會員資料、憑證或任何不方便公開的資料。</p>
+          </div>
+          <div class="report-actions">
+            <a href="https://github.com/skyhong2002/Harmonica-in-Taiwan/issues" target="_blank" rel="noreferrer">查看處理中的回報</a>
+            <a href="https://github.com/skyhong2002/Harmonica-in-Taiwan/issues/new/choose" target="_blank" rel="noreferrer">開啟 GitHub 回報選單</a>
+          </div>
         </div>
       </section>
     </main>
@@ -164,54 +116,5 @@
         <p class="footer-meta">只收錄公開可查資料 · 由 <a href="https://www.facebook.com/nycubmhc/" target="_blank" rel="noreferrer">陽明交大竹韻口琴社</a> 維運 · MIT License · © 2026 Sky Hong</p>
       </div>
     </footer>
-    <script>
-      (() => {
-        const form = document.querySelector(".report-builder");
-        if (form) form.classList.add("report-builder-ready");
-        if (!form) return;
-        const type = form.querySelector("#report-type-input");
-        const title = form.querySelector("#report-title-input");
-        const name = form.querySelector("#report-name-input");
-        const preview = form.querySelector("#report-preview");
-        const titlePreview = form.querySelector("#report-title-preview");
-        let titleWasEdited = false;
-
-        title.addEventListener("input", () => {
-          titleWasEdited = true;
-        });
-
-        function valueOf(fieldName) {
-          const field = form.elements[fieldName];
-          return String(field && field.value ? field.value : "").trim();
-        }
-
-        function suggestedTitle() {
-          const reportType = valueOf("request_type");
-          const reportName = valueOf("name");
-          return `[資料回報] ${reportType}${reportName ? `：${reportName}` : ""}`;
-        }
-
-        function updatePreview() {
-          if (!titleWasEdited) title.value = suggestedTitle();
-          titlePreview.textContent = title.value;
-          preview.textContent = [
-            `回報類型：${valueOf("request_type")}`,
-            `名稱或標題：${valueOf("name")}`,
-            `公開來源連結：${valueOf("source_url")}`,
-            `要新增或修正的內容：${valueOf("details")}`,
-            `公開聯絡方式（選填）：${valueOf("public_contact")}`,
-          ].join("\n");
-        }
-
-        form.addEventListener("input", updatePreview);
-        form.addEventListener("change", updatePreview);
-        type.addEventListener("change", () => {
-          titleWasEdited = false;
-          updatePreview();
-        });
-        name.addEventListener("input", updatePreview);
-        updatePreview();
-      })();
-    </script>
   </body>
 </html>

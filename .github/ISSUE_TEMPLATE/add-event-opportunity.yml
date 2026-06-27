@@ -1,0 +1,91 @@
+name: 新增活動、比賽或補助資訊
+description: 新增公開演出、成發、講座、工作坊、比賽、徵件、報名或補助公告
+title: "[活動資訊] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        謝謝你補充活動資訊。請只提供公開可查的資訊；GitHub issue 會公開顯示，不要放私人電話、私人信箱、未公開群組連結、會員資料或憑證。
+
+  - type: input
+    id: target_name
+    attributes:
+      label: 活動、比賽或補助名稱
+      description: 請填公開公告上的主要名稱或標題。
+      placeholder: 例：某某口琴成果發表會
+    validations:
+      required: true
+
+  - type: input
+    id: source_url
+    attributes:
+      label: 公開來源 URL
+      description: 請放官方活動頁、公開貼文、售票頁、報名頁、徵件公告或補助公告。
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: textarea
+    id: desired_result
+    attributes:
+      label: 希望網站最後怎麼呈現
+      description: 請寫出日期、地點、主辦單位、類型，以及希望出現在哪個分類。
+      placeholder: |
+        - 日期時間：
+        - 地點或線上平台：
+        - 主辦或相關來源：
+        - 類型：演出／成發／講座／工作坊／比賽／徵件／報名／補助
+        - 希望顯示的重點：
+    validations:
+      required: true
+
+  - type: dropdown
+    id: public_surface
+    attributes:
+      label: Agent 判斷：資料應改到哪個公開表面
+      description: 如果不確定，請選最接近的項目，agent 會再確認。
+      options:
+        - 首頁最新河道 /api/latest.json
+        - 活動 API /api/events.json
+        - 機會 API /api/opportunities.json
+        - RSS 或分類 API
+        - 不確定，請 agent 判斷
+    validations:
+      required: true
+
+  - type: dropdown
+    id: evidence_status
+    attributes:
+      label: Agent 判斷：是否有足夠公開證據
+      options:
+        - 有，主要 URL 足以判斷
+        - 有，還需要搭配下方補充來源
+        - 不確定，請 agent 查證
+    validations:
+      required: true
+
+  - type: input
+    id: verification_target
+    attributes:
+      label: 完成後要驗證的頁面或 API
+      description: 可填網站頁面、API 或搜尋關鍵字；不知道就寫「請 agent 判斷」。
+      placeholder: 例：https://harmonica.observe.tw/api/events.json
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra_sources
+    attributes:
+      label: 補充公開來源（選填）
+      description: 可放更多公開公告、主辦單位頁面、售票頁或報名頁。
+      placeholder: https://...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: public_confirmation
+    attributes:
+      label: 公開資料確認
+      options:
+        - label: 我了解這個 issue 會公開顯示，且沒有提供私人或不應公開的資料。
+          required: true

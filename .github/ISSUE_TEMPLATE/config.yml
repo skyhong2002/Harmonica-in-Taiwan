@@ -1,5 +1,5 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
-  - name: 臺灣口琴觀測站
-    url: https://harmonica.observe.tw/
-    about: 回到網站首頁。
+  - name: 資料回報入口
+    url: https://harmonica.observe.tw/submit/
+    about: 先選回報類型，再前往對應的 GitHub Issue Form。
