@@ -858,7 +858,7 @@ h2 {
 
 @media (min-width: 641px) {
   .home-feed-card-portrait .home-feed-body {
-    grid-template-columns: minmax(0, 1fr) minmax(116px, 42%);
+    grid-template-columns: minmax(0, 1fr) minmax(116px, 50%);
     grid-template-areas:
       "title title"
       "excerpt thumb";
