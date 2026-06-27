@@ -437,10 +437,6 @@ h2 {
   gap: 14px;
 }
 
-.directory-grid {
-  gap: 24px 22px;
-}
-
 .latest-feed-band {
   background: #f8faf8;
   border-top: 1px solid var(--line);
