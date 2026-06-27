@@ -458,6 +458,69 @@
     return lines;
   }
 
+  function normalizeSourceUrl(value) {
+    const text = String(value || "").trim().replace(/[)\]\}>,，。；;.!！?？]+$/g, "");
+    if (!text) return "";
+    try {
+      const url = new URL(text);
+      const host = url.hostname.toLowerCase().replace(/^www\./, "");
+      const pathname = url.pathname.replace(/\/+$/g, "");
+      return `${host}${pathname}${url.search}`.toLowerCase();
+    } catch {
+      return text.replace(/\/+$/g, "").toLowerCase();
+    }
+  }
+
+  function lineIsSourceLink(line, item) {
+    const text = String(line || "").trim();
+    if (!/^https?:\/\/\S+$/i.test(text)) return false;
+    const sourceUrl = normalizeSourceUrl(item?.link);
+    if (sourceUrl && normalizeSourceUrl(text) === sourceUrl) return true;
+    if (String(item?.platform || "").toLowerCase() !== "facebook") return false;
+    try {
+      const url = new URL(text);
+      const host = url.hostname.toLowerCase().replace(/^www\./, "");
+      const path = url.pathname.replace(/\/+$/g, "");
+      return host === "facebook.com" && (
+        path === "/photo" ||
+        path === "/permalink.php" ||
+        path.startsWith("/reel/") ||
+        path.startsWith("/share/") ||
+        path.includes("/posts/")
+      );
+    } catch {
+      return false;
+    }
+  }
+
+  function normalizedDuplicateLine(value) {
+    return String(value || "")
+      .replace(/[.…]+$/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+
+  function trimLeadingDuplicateSummaryLine(lines) {
+    if (lines.length < 2) return lines;
+    const first = normalizedDuplicateLine(lines[0]);
+    const second = normalizedDuplicateLine(lines[1]);
+    if (!first || !second) return lines;
+    const firstLooksTruncated = /(?:\.{3}|…)\s*$/.test(lines[0]);
+    if (first === second || (firstLooksTruncated && second.startsWith(first))) {
+      return lines.slice(1);
+    }
+    return lines;
+  }
+
+  function displayTextLines(item, skipFirst = false) {
+    const lines = textLines(item?.text || "", false);
+    while (lines.length && lineIsSourceLink(lines[lines.length - 1], item)) {
+      lines.pop();
+    }
+    if (skipFirst) return lines.slice(1);
+    return trimLeadingDuplicateSummaryLine(lines);
+  }
+
   function truncateText(value, limit = 220) {
     const text = String(value || "").trim();
     if (!text || text.length <= limit) return text;
@@ -492,9 +555,9 @@
 
   function homeFeedTextBlock(item, index, displayTitle = "") {
     const hasDisplayTitle = Boolean(String(displayTitle || "").trim());
-    const fullText = textLines(item.text || "", false).join("\n");
+    const fullText = displayTextLines(item, false).join("\n");
     if (!fullText) return "";
-    const collapsedText = truncateText(textLines(item.text || "", hasDisplayTitle).join("\n"), 260)
+    const collapsedText = truncateText(displayTextLines(item, hasDisplayTitle).join("\n"), 260)
       .split(/\r?\n/)
       .map((line) => line.trim())
       .filter(Boolean)

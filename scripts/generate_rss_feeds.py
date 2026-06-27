@@ -38,7 +38,7 @@ API_DIR = SITE_ROOT / "api"
 FEED_IMAGE_DIR = SITE_ROOT / "assets" / "feed-images"
 SOURCE_AVATAR_DIR = SITE_ROOT / "assets" / "source-avatars"
 PUBLIC_BASE_URL = "https://harmonica.observe.tw"
-ASSET_VERSION = "20260628-0334"
+ASSET_VERSION = "20260628-0342"
 HOME_FEED_BATCH_SIZE = 12
 DEFAULT_UPDATE_WINDOW_DAYS = 30
 HOME_FEED_DEFAULT_COUNTRIES = ("臺灣",)
@@ -1575,11 +1575,78 @@ def html_lines(value: Any) -> str:
     return "<br>".join(html_escape(line) for line in lines)
 
 
+def html_line_list(lines: list[str]) -> str:
+    return "<br>".join(html_escape(line) for line in lines if line)
+
+
 def home_text_lines(value: Any, skip_first: bool = False) -> list[str]:
     lines = [line.strip() for line in str(value or "").strip().splitlines() if line.strip()]
     if skip_first:
         lines = lines[1:]
     return lines
+
+
+def normalize_source_url(value: Any) -> str:
+    text = re.sub(r"[)\]\}>,，。；;.!！?？]+$", "", str(value or "").strip())
+    if not text:
+        return ""
+    parsed = urllib.parse.urlsplit(text)
+    if not parsed.scheme or not parsed.netloc:
+        return text.rstrip("/").casefold()
+    host = parsed.netloc.casefold()
+    if host.startswith("www."):
+        host = host[4:]
+    path = parsed.path.rstrip("/")
+    return f"{host}{path}{parsed.query and '?' + parsed.query}".casefold()
+
+
+def line_is_source_link(line: Any, item: dict[str, Any]) -> bool:
+    text = str(line or "").strip()
+    if not re.fullmatch(r"https?://\S+", text, flags=re.IGNORECASE):
+        return False
+    source_url = normalize_source_url(item.get("link"))
+    if source_url and normalize_source_url(text) == source_url:
+        return True
+    if str(item.get("platform") or "").strip().casefold() != "facebook":
+        return False
+    parsed = urllib.parse.urlsplit(text)
+    host = parsed.netloc.casefold()
+    if host.startswith("www."):
+        host = host[4:]
+    path = parsed.path.rstrip("/")
+    return host == "facebook.com" and (
+        path == "/photo"
+        or path == "/permalink.php"
+        or path.startswith("/reel/")
+        or path.startswith("/share/")
+        or "/posts/" in path
+    )
+
+
+def normalized_duplicate_line(value: Any) -> str:
+    return re.sub(r"\s+", " ", re.sub(r"[.…]+$", "", str(value or ""))).strip()
+
+
+def trim_leading_duplicate_summary_line(lines: list[str]) -> list[str]:
+    if len(lines) < 2:
+        return lines
+    first = normalized_duplicate_line(lines[0])
+    second = normalized_duplicate_line(lines[1])
+    if not first or not second:
+        return lines
+    first_looks_truncated = bool(re.search(r"(?:\.{3}|…)\s*$", lines[0]))
+    if first == second or (first_looks_truncated and second.startswith(first)):
+        return lines[1:]
+    return lines
+
+
+def display_text_lines(item: dict[str, Any], skip_first: bool = False) -> list[str]:
+    lines = home_text_lines(item.get("text"), skip_first=False)
+    while lines and line_is_source_link(lines[-1], item):
+        lines.pop()
+    if skip_first:
+        return lines[1:]
+    return trim_leading_duplicate_summary_line(lines)
 
 
 def normalize_compare_text(value: Any) -> str:
@@ -1605,10 +1672,10 @@ def home_feed_text_id(item: dict[str, Any], index: int) -> str:
 
 def render_home_text_block(item: dict[str, Any], index: int, display_title: str = "") -> str:
     has_display_title = bool(str(display_title or "").strip())
-    full_text = "\n".join(home_text_lines(item.get("text"), skip_first=False))
+    full_text = "\n".join(display_text_lines(item, skip_first=False))
     if not full_text:
         return ""
-    collapsed_text = compact_multiline("\n".join(home_text_lines(item.get("text"), skip_first=has_display_title)), 260)
+    collapsed_text = compact_multiline("\n".join(display_text_lines(item, skip_first=has_display_title)), 260)
     collapsed_text = "\n".join(line for line in collapsed_text.splitlines()[:4] if line.strip())
     visible_text = "\n".join(text for text in [display_title, collapsed_text] if text)
     expandable = normalize_compare_text(full_text) != normalize_compare_text(visible_text)
@@ -2142,6 +2209,7 @@ def render_update_cards(items: list[dict[str, Any]]) -> str:
     for item in items:
         keywords = render_keyword_pills(list(item.get("matched_keywords") or []))
         image = item.get("image_url")
+        display_text = html_line_list(display_text_lines(item))
         image_html = (
             f"""
               <a class="feed-item-image" href="{html_escape(item.get("link"))}" target="_blank" rel="noreferrer">
@@ -2160,7 +2228,7 @@ def render_update_cards(items: list[dict[str, Any]]) -> str:
                   {render_source_identity(item, "source-avatar source-avatar-small", "feed-item-meta")}
                 </div>
                 <h2>{html_escape(item.get("headline") or item.get("title"))}</h2>
-                <p class="feed-item-text">{html_lines(item.get("text"))}</p>
+                <p class="feed-item-text">{display_text}</p>
               </div>
               <div class="feed-item-actions">
                 <div class="entry-meta">{keywords}</div>
