@@ -51,20 +51,8 @@
             <p class="data-date">更新日期 <span data-stat="generatedAt">-</span></p>
           </div>
 
-          <div class="directory-tools">
-            <div class="search-field" role="search">
-              <label class="sr-only" for="directory-search-input">搜尋資料索引</label>
-              <input
-                id="directory-search-input"
-                type="search"
-                placeholder="搜尋名稱、城市、類型、關鍵字"
-                autocomplete="off"
-              >
-            </div>
-          </div>
-
-          <div class="directory-hashtag-filters" id="directory-hashtag-filters" aria-label="國家、區域與 Tag 篩選"></div>
-          <p class="result-count" id="result-count"></p>
+          <div id="directory-filter-panel" aria-label="資料索引搜尋與篩選"></div>
+          <p class="result-count sr-only" id="result-count" aria-live="polite"></p>
           <div class="directory-grid" id="directory-list"></div>
         </div>
       </section>

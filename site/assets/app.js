@@ -60,11 +60,9 @@
   const spotlightList = document.querySelector("#spotlight-list");
   const resultCount = document.querySelector("#result-count");
   const directoryHashtagFilters = document.querySelector("#directory-hashtag-filters");
-  const directorySearch = document.querySelector("#directory-search-input");
-  const heroSearch = document.querySelector("#hero-search-input");
+  const directoryFilterPanel = document.querySelector("#directory-filter-panel") || directoryHashtagFilters;
   let directoryIndex = null;
   let directoryRecordByEntry = new WeakMap();
-  let directoryHashtagFiltersRendered = false;
   let directoryRenderToken = 0;
   let directorySearchTimer = 0;
   let directorySearchComposing = false;
@@ -233,6 +231,143 @@
     if (includes.length && !includes.some((key) => normalizedValues.includes(key))) return false;
     if (excludes.some((key) => normalizedValues.includes(key))) return false;
     return true;
+  }
+
+  function normalizedTextMatches(searchText, query) {
+    const normalizedQuery = normalize(query);
+    return !normalizedQuery || String(searchText || "").includes(normalizedQuery);
+  }
+
+  function filterOptionChips(scope, name, values, activeValues, fallbackLabel, { allowExclude = true } = {}) {
+    const allPressed = filterEmpty(activeValues);
+    return `
+      <button
+        type="button"
+        class="search-filter-option-chip feed-option-chip"
+        data-search-filter-scope="${escapeHtml(scope)}"
+        data-search-filter-name="${escapeHtml(name)}"
+        data-search-filter-value="all"
+        aria-pressed="${allPressed ? "true" : "false"}"
+        data-filter-state="${allPressed ? "include" : "off"}"
+      >
+        ${escapeHtml(fallbackLabel)}
+      </button>
+      ${values
+        .map((value) => {
+          const stateName = allowExclude
+            ? filterValueState(activeValues, value)
+            : (filterHasValue(filterIncludes(activeValues), value) ? "include" : "off");
+          const label = `${allowExclude && stateName === "exclude" ? "not " : ""}${value}`;
+          return `
+            <button
+              type="button"
+              class="search-filter-option-chip feed-option-chip"
+              data-search-filter-scope="${escapeHtml(scope)}"
+              data-search-filter-name="${escapeHtml(name)}"
+              data-search-filter-value="${escapeHtml(value)}"
+              aria-pressed="${ariaPressedForFilterState(stateName)}"
+              data-filter-state="${stateName}"
+            >
+              ${escapeHtml(label)}
+            </button>
+          `;
+        })
+        .join("")}
+    `;
+  }
+
+  function searchFilterGroup(scope, group) {
+    if (!group.values.length) return "";
+    const chips = filterOptionChips(
+      scope,
+      group.name,
+      group.values,
+      group.activeValues,
+      group.fallbackLabel,
+      { allowExclude: group.allowExclude !== false }
+    );
+    if (group.disclosure) {
+      return `
+        <details class="search-filter-chip-group search-filter-disclosure feed-filter-chip-group feed-filter-disclosure" ${group.open ? "open" : ""} ${group.disclosureAttribute || ""}>
+          <summary>
+            <span class="search-filter-chip-group-label feed-chip-group-label">${escapeHtml(group.label)}</span>
+            ${group.countLabel ? `<span class="search-filter-disclosure-count feed-disclosure-count">${escapeHtml(group.countLabel)}</span>` : ""}
+          </summary>
+          <div class="search-filter-option-chips feed-option-chips" aria-label="${escapeHtml(group.ariaLabel)}">${chips}</div>
+        </details>
+      `;
+    }
+    return `
+      <div class="search-filter-chip-group feed-filter-chip-group">
+        <span class="search-filter-chip-group-label feed-chip-group-label">${escapeHtml(group.label)}</span>
+        <div class="search-filter-option-chips feed-option-chips" aria-label="${escapeHtml(group.ariaLabel)}">${chips}</div>
+      </div>
+    `;
+  }
+
+  function searchFilterPanel({
+    scope,
+    className = "",
+    label,
+    summary,
+    searchId,
+    searchLabel,
+    searchValue,
+    searchPlaceholder,
+    groups,
+  }) {
+    return `
+      <div class="search-filter-panel feed-river-controls ${className}">
+        <div class="search-filter-summary feed-river-summary">
+          <p class="search-filter-label feed-filter-label">${escapeHtml(label)}</p>
+          <strong>${escapeHtml(summary)}</strong>
+        </div>
+        <div class="search-filter-tools feed-filter-tools" role="search">
+          <label class="search-field search-filter-search-field feed-search-field">
+            <span class="sr-only">${escapeHtml(searchLabel)}</span>
+            <input id="${escapeHtml(searchId)}" type="search" value="${escapeHtml(searchValue)}" placeholder="${escapeHtml(searchPlaceholder)}" autocomplete="off">
+          </label>
+          <button class="search-filter-reset-button feed-reset-button" type="button" data-search-filter-reset="${escapeHtml(scope)}">重設</button>
+        </div>
+        ${groups.map((group) => searchFilterGroup(scope, group)).join("")}
+      </div>
+    `;
+  }
+
+  function bindSearchFilterInput(root, selector, {
+    setComposing,
+    isComposing,
+    setQuery,
+    applyChange,
+    delay = 0,
+  }) {
+    const input = root?.querySelector(selector);
+    if (!input) return;
+    input.addEventListener("compositionstart", () => {
+      setComposing(true);
+    });
+    input.addEventListener("compositionend", () => {
+      setComposing(false);
+      setQuery(input.value);
+      applyChange({ cursorPosition: input.value.length, delay: 0 });
+    });
+    input.addEventListener("input", () => {
+      if (isComposing()) return;
+      const cursorPosition = input.selectionStart ?? input.value.length;
+      setQuery(input.value);
+      applyChange({ cursorPosition, delay });
+    });
+  }
+
+  function bindSearchFilterChips(root, scope, onSelect) {
+    root?.querySelectorAll(`[data-search-filter-scope="${scope}"]`).forEach((button) => {
+      button.addEventListener("click", () => {
+        onSelect(
+          button.dataset.searchFilterName || "",
+          button.dataset.searchFilterValue || "all"
+        );
+      });
+    });
   }
 
   function urlSearchParts(url) {
@@ -933,13 +1068,12 @@
   }
 
   function feedMatches(item) {
-    const query = normalize(feedState.query);
     if (!valuesMatchFilter(feedPlatformFilterValues(item), feedState.platform)) return false;
     if (!valuesMatchFilter(feedCountryFilterValues(item), feedState.country)) return false;
     if (!valuesMatchFilter(feedRegionFilterValues(item), feedState.region)) return false;
     if (!valuesMatchFilter(feedSourceFilterValues(item), feedState.source)) return false;
     if (!valuesMatchFilter(sortedPublicTags(item.matched_keywords || []), feedState.tag)) return false;
-    if (query && !feedFilterText(item).includes(query)) return false;
+    if (!normalizedTextMatches(feedFilterText(item), feedState.query)) return false;
     return true;
   }
 
@@ -947,40 +1081,6 @@
     feedState.visibleCount = feedBatchSize;
     feedState.autoLoadEnabled = false;
     feedState.columnCount = 0;
-  }
-
-  function feedOptionChips(items, activeValues, dataName, fallbackLabel, { allowExclude = true } = {}) {
-    const allPressed = filterEmpty(activeValues);
-    return `
-      <button
-        type="button"
-        class="feed-option-chip"
-        data-feed-${dataName}="all"
-        aria-pressed="${allPressed ? "true" : "false"}"
-        data-filter-state="${allPressed ? "include" : "off"}"
-      >
-        ${escapeHtml(fallbackLabel)}
-      </button>
-      ${items
-        .map((item) => {
-          const stateName = allowExclude
-            ? filterValueState(activeValues, item)
-            : (filterHasValue(filterIncludes(activeValues), item) ? "include" : "off");
-          const label = `${allowExclude && stateName === "exclude" ? "not " : ""}${item}`;
-          return `
-            <button
-              type="button"
-              class="feed-option-chip"
-              data-feed-${dataName}="${escapeHtml(item)}"
-              aria-pressed="${ariaPressedForFilterState(stateName)}"
-              data-filter-state="${stateName}"
-            >
-              ${escapeHtml(label)}
-            </button>
-          `;
-        })
-        .join("")}
-    `;
   }
 
   function feedControls(updates, filteredUpdates) {
@@ -991,44 +1091,33 @@
     const sources = countSortedValues(updates, feedSourceOptionValue);
     const tags = sortedPublicTags(updates.flatMap((item) => item.matched_keywords || []));
     const sourceDisclosureOpen = feedState.sourceExpanded || !filterEmpty(feedState.source);
-    return `
-      <div class="feed-river-controls">
-        <div class="feed-river-summary">
-          <p class="feed-filter-label">河道篩選</p>
-          <strong>最近 ${escapeHtml(feedWindowDays())} 天 · ${filteredUpdates.length} / ${updates.length} 筆</strong>
-        </div>
-        <div class="feed-filter-tools">
-          <label class="search-field feed-search-field">
-            <span class="sr-only">搜尋河道</span>
-            <input id="feed-search-input" type="search" value="${escapeHtml(feedState.query)}" placeholder="搜尋標題、內文、國家、區域、tag 或來源">
-          </label>
-          <button class="feed-reset-button" type="button">重設</button>
-        </div>
-        <div class="feed-filter-chip-group">
-          <span class="feed-chip-group-label">平台</span>
-          <div class="feed-option-chips" aria-label="平台篩選，可複選">${feedOptionChips(platforms, feedState.platform, "platform", "全部平台", { allowExclude: false })}</div>
-        </div>
-        <div class="feed-filter-chip-group">
-          <span class="feed-chip-group-label">國家</span>
-          <div class="feed-option-chips" aria-label="國家篩選，可複選">${feedOptionChips(countries, feedState.country, "country", "全部國家")}</div>
-        </div>
-        <div class="feed-filter-chip-group">
-          <span class="feed-chip-group-label">區域</span>
-          <div class="feed-option-chips" aria-label="區域篩選，可複選">${feedOptionChips(regions, feedState.region, "region", "全部區域")}</div>
-        </div>
-        <div class="feed-filter-chip-group">
-          <span class="feed-chip-group-label">Tag</span>
-          <div class="feed-option-chips" aria-label="Tag 篩選，可複選">${feedOptionChips(tags, feedState.tag, "tag", "全部 tag")}</div>
-        </div>
-        <details class="feed-filter-chip-group feed-filter-disclosure" data-feed-source-disclosure ${sourceDisclosureOpen ? "open" : ""}>
-          <summary>
-            <span class="feed-chip-group-label">來源</span>
-            <span class="feed-disclosure-count">${escapeHtml(sources.length)} 個來源</span>
-          </summary>
-          <div class="feed-option-chips" aria-label="來源篩選，可複選">${feedOptionChips(sources, feedState.source, "source", "全部來源")}</div>
-        </details>
-      </div>
-    `;
+    return searchFilterPanel({
+      scope: "feed",
+      label: "河道篩選",
+      summary: `最近 ${feedWindowDays()} 天 · ${filteredUpdates.length} / ${updates.length} 筆`,
+      searchId: "feed-search-input",
+      searchLabel: "搜尋河道",
+      searchValue: feedState.query,
+      searchPlaceholder: "搜尋標題、內文、國家、區域、tag 或來源",
+      groups: [
+        { label: "平台", name: "platform", values: platforms, activeValues: feedState.platform, fallbackLabel: "全部平台", ariaLabel: "平台篩選，可複選", allowExclude: false },
+        { label: "國家", name: "country", values: countries, activeValues: feedState.country, fallbackLabel: "全部國家", ariaLabel: "國家篩選，可複選" },
+        { label: "區域", name: "region", values: regions, activeValues: feedState.region, fallbackLabel: "全部區域", ariaLabel: "區域篩選，可複選" },
+        { label: "Tag", name: "tag", values: tags, activeValues: feedState.tag, fallbackLabel: "全部 tag", ariaLabel: "Tag 篩選，可複選" },
+        {
+          label: "來源",
+          name: "source",
+          values: sources,
+          activeValues: feedState.source,
+          fallbackLabel: "全部來源",
+          ariaLabel: "來源篩選，可複選",
+          disclosure: true,
+          disclosureAttribute: "data-feed-source-disclosure",
+          open: sourceDisclosureOpen,
+          countLabel: `${sources.length} 個來源`,
+        },
+      ],
+    });
   }
 
   function toggleFeedSelection(name, value) {
@@ -1271,23 +1360,15 @@
   }
 
   function bindFeedFilters() {
-    const feedSearch = latestFeedGrid.querySelector("#feed-search-input");
-    if (feedSearch) {
-      feedSearch.addEventListener("compositionstart", () => {
-        feedSearchComposing = true;
-      });
-      feedSearch.addEventListener("compositionend", () => {
-        feedSearchComposing = false;
-        feedState.query = feedSearch.value;
-        syncFeedFilterUrl();
-        resetFeedPagination();
-        renderLatestFeeds();
-        latestFeedGrid.querySelector("#feed-search-input")?.focus();
-      });
-      feedSearch.addEventListener("input", () => {
-        if (feedSearchComposing) return;
-        const cursorPosition = feedSearch.selectionStart ?? feedSearch.value.length;
-        feedState.query = feedSearch.value;
+    bindSearchFilterInput(latestFeedGrid, "#feed-search-input", {
+      setComposing: (value) => {
+        feedSearchComposing = value;
+      },
+      isComposing: () => feedSearchComposing,
+      setQuery: (value) => {
+        feedState.query = value;
+      },
+      applyChange: ({ cursorPosition }) => {
         syncFeedFilterUrl();
         resetFeedPagination();
         renderLatestFeeds();
@@ -1296,32 +1377,10 @@
           nextSearch.focus();
           nextSearch.setSelectionRange(cursorPosition, cursorPosition);
         }
-      });
-    }
-
-    latestFeedGrid.querySelectorAll("[data-feed-source]").forEach((button) => {
-      button.addEventListener("click", () => {
-        applyFeedSelection("source", button.dataset.feedSource || "all");
-      });
+      },
     });
 
-    latestFeedGrid.querySelectorAll("[data-feed-platform]").forEach((button) => {
-      button.addEventListener("click", () => {
-        applyFeedSelection("platform", button.dataset.feedPlatform || "all");
-      });
-    });
-
-    latestFeedGrid.querySelectorAll("[data-feed-country]").forEach((button) => {
-      button.addEventListener("click", () => {
-        applyFeedSelection("country", button.dataset.feedCountry || "all");
-      });
-    });
-
-    latestFeedGrid.querySelectorAll("[data-feed-region]").forEach((button) => {
-      button.addEventListener("click", () => {
-        applyFeedSelection("region", button.dataset.feedRegion || "all");
-      });
-    });
+    bindSearchFilterChips(latestFeedGrid, "feed", applyFeedSelection);
 
     latestFeedGrid.querySelectorAll("[data-feed-tag]").forEach((button) => {
       button.addEventListener("click", () => {
@@ -1336,7 +1395,7 @@
       });
     }
 
-    const resetButton = latestFeedGrid.querySelector(".feed-reset-button");
+    const resetButton = latestFeedGrid.querySelector('[data-search-filter-reset="feed"]');
     if (resetButton) {
       resetButton.addEventListener("click", () => {
         resetFeedFiltersToDefault();
@@ -1388,7 +1447,6 @@
 
   function filteredDirectoryRecords() {
     const records = directoryIndex?.records || data.entries.map((entry) => ({ entry }));
-    const query = normalize(state.query);
     return records.filter((record) => {
       const entry = record.entry;
       const countryKeys = record.countryKeys || new Set(entryCountryValues(entry).map(filterValueKey).filter(Boolean));
@@ -1397,7 +1455,7 @@
       if (!keysMatchFilter(countryKeys, state.country)) return false;
       if (!keysMatchFilter(regionKeys, state.region)) return false;
       if (!keysMatchFilter(sourceTagKeys, state.hashtags)) return false;
-      if (query && !(record.searchText || searchableText(entry)).includes(query)) return false;
+      if (!normalizedTextMatches(record.searchText || searchableText(entry), state.query)) return false;
       return true;
     });
   }
@@ -1406,37 +1464,13 @@
     return filteredDirectoryRecords().map((record) => record.entry);
   }
 
-  function directoryFiltersEmpty() {
-    return directoryFilterNames.every((name) => filterEmpty(directoryFilterState(name)));
+  function directoryTotalCount() {
+    return directoryIndex?.records?.length || data.stats.totalEntries || data.entries.length || 0;
   }
 
-  function directoryActiveFilterChips() {
-    return [
-      ["country", "country-tag-pill"],
-      ["region", "region-tag-pill"],
-      ["hashtags", "source-tag-pill"],
-    ]
-      .flatMap(([filterName, className]) => [
-        ...filterIncludes(directoryFilterState(filterName)),
-        ...filterExcludes(directoryFilterState(filterName)),
-      ].map((value) => hashtagButton(value, `active-filter-chip ${className}`, filterName)))
-      .join("");
-  }
-
-  function renderDirectoryResultCount(entries) {
+  function renderDirectoryResultCount(records) {
     if (!resultCount) return;
-    const activeHashtags = directoryActiveFilterChips();
-    const clearButton = !directoryFiltersEmpty()
-      ? `<button type="button" class="directory-clear-hashtags" data-directory-clear-hashtags>清除</button>`
-      : "";
-    resultCount.innerHTML = `
-      <span>${entries.length} 筆公開來源</span>
-      ${
-        activeHashtags
-          ? `<span class="directory-active-hashtags">${activeHashtags}${clearButton}</span>`
-          : ""
-      }
-    `;
+    resultCount.textContent = `${records.length} / ${directoryTotalCount()} 筆公開來源`;
   }
 
   function directoryHashtagValues() {
@@ -1458,32 +1492,25 @@
     };
   }
 
-  function directoryHashtagFilterGroup(label, values, className, filterName) {
-    if (!values.length) return "";
-    return `
-      <div class="directory-hashtag-filter-group">
-        <span class="directory-hashtag-label">${escapeHtml(label)}</span>
-        <div class="directory-hashtag-chips">
-          ${values.map((tag) => hashtagButton(tag, className, filterName)).join("")}
-        </div>
-      </div>
-    `;
-  }
-
-  function renderDirectoryHashtagFilters() {
-    if (!directoryHashtagFilters) return;
-    if (directoryHashtagFiltersRendered) {
-      syncDirectoryChipStates(directoryHashtagFilters);
-      return;
-    }
+  function renderDirectoryFilterPanel(records) {
+    if (!directoryFilterPanel) return;
     const { countries, regions, sourceTags } = directoryHashtagValues();
-    directoryHashtagFilters.innerHTML = [
-      directoryHashtagFilterGroup("國家", countries, "country-tag-pill", "country"),
-      directoryHashtagFilterGroup("區域", regions, "region-tag-pill", "region"),
-      directoryHashtagFilterGroup("Tag", sourceTags, "source-tag-pill", "hashtags"),
-    ].join("");
-    directoryHashtagFiltersRendered = true;
-    syncDirectoryChipStates(directoryHashtagFilters);
+    directoryFilterPanel.innerHTML = searchFilterPanel({
+      scope: "directory",
+      className: "directory-filter-panel",
+      label: "索引篩選",
+      summary: `${records.length} / ${directoryTotalCount()} 筆公開來源`,
+      searchId: "directory-search-input",
+      searchLabel: "搜尋資料索引",
+      searchValue: state.query,
+      searchPlaceholder: "搜尋名稱、城市、類型、關鍵字",
+      groups: [
+        { label: "國家", name: "country", values: countries, activeValues: state.country, fallbackLabel: "全部國家", ariaLabel: "國家篩選，可複選" },
+        { label: "區域", name: "region", values: regions, activeValues: state.region, fallbackLabel: "全部區域", ariaLabel: "區域篩選，可複選" },
+        { label: "Tag", name: "hashtags", values: sourceTags, activeValues: state.hashtags, fallbackLabel: "全部 tag", ariaLabel: "Tag 篩選，可複選" },
+      ],
+    });
+    bindDirectoryFilters();
   }
 
   function syncDirectoryChipStates(root = document) {
@@ -1538,8 +1565,8 @@
   function renderDirectory() {
     if (!directoryList || !resultCount) return;
     const records = filteredDirectoryRecords();
-    renderDirectoryHashtagFilters();
-    renderDirectoryResultCount(records.map((record) => record.entry));
+    renderDirectoryFilterPanel(records);
+    renderDirectoryResultCount(records);
     renderDirectoryCards(records);
   }
 
@@ -1552,18 +1579,32 @@
     spotlightList.innerHTML = spotlight.map(entryCard).join("");
   }
 
-  function syncDirectoryHashtagUrl() {
+  function directoryUrlParamNames() {
+    return [
+      "country",
+      "region",
+      "tag",
+      "hashtag",
+      "notCountry",
+      "notRegion",
+      "notTag",
+      "notHashtag",
+      "q",
+      "query",
+    ];
+  }
+
+  function syncDirectoryFilterUrl() {
     if (!directoryList) return;
     const url = new URL(window.location.href);
-    ["country", "region", "tag", "hashtag", "notCountry", "notRegion", "notTag", "notHashtag"].forEach((name) => {
-      url.searchParams.delete(name);
-    });
+    directoryUrlParamNames().forEach((name) => url.searchParams.delete(name));
     filterIncludes(state.country).forEach((country) => url.searchParams.append("country", country));
     filterExcludes(state.country).forEach((country) => url.searchParams.append("notCountry", country));
     filterIncludes(state.region).forEach((region) => url.searchParams.append("region", region));
     filterExcludes(state.region).forEach((region) => url.searchParams.append("notRegion", region));
     filterIncludes(state.hashtags).forEach((hashtag) => url.searchParams.append("tag", hashtag));
     filterExcludes(state.hashtags).forEach((hashtag) => url.searchParams.append("notTag", hashtag));
+    if (state.query) url.searchParams.set("q", state.query);
     window.history.replaceState({}, "", url);
   }
 
@@ -1603,11 +1644,12 @@
     }
   }
 
-  function readDirectoryHashtagsFromUrl() {
+  function readDirectoryFiltersFromUrl() {
     const params = new URLSearchParams(window.location.search);
     state.country = emptyFilterSet();
     state.region = emptyFilterSet();
     state.hashtags = emptyFilterSet();
+    state.query = params.get("q") || params.get("query") || "";
     commaSeparatedParamValues(params, ["country"]).forEach((value) => addDirectoryFilterValue("country", value));
     commaSeparatedParamValues(params, ["notCountry"]).forEach((value) => addDirectoryFilterValue("country", value, "exclude"));
     commaSeparatedParamValues(params, ["region"]).forEach((value) => addDirectoryFilterValue("region", value));
@@ -1628,26 +1670,69 @@
   function toggleDirectoryHashtag(hashtag, filterName = "hashtags") {
     if (!directoryFilterNames.includes(filterName)) return;
     state[filterName] = cycleFilterValue(directoryFilterState(filterName), hashtag);
-    syncDirectoryHashtagUrl();
+    syncDirectoryFilterUrl();
     renderDirectory();
     renderSpotlight();
   }
 
-  function clearDirectoryHashtags() {
+  function resetDirectoryFilters() {
     state.country = emptyFilterSet();
     state.region = emptyFilterSet();
     state.hashtags = emptyFilterSet();
-    syncDirectoryHashtagUrl();
+    state.query = "";
+    syncDirectoryFilterUrl();
     renderDirectory();
     renderSpotlight();
   }
 
-  function scheduleDirectoryRender(delay = 0) {
+  function scheduleDirectoryRender(delay = 0, cursorPosition = null) {
     window.clearTimeout(directorySearchTimer);
     directorySearchTimer = window.setTimeout(() => {
+      syncDirectoryFilterUrl();
       renderDirectory();
       renderSpotlight();
+      if (cursorPosition !== null) {
+        const nextSearch = directoryFilterPanel?.querySelector("#directory-search-input");
+        if (nextSearch) {
+          nextSearch.focus();
+          nextSearch.setSelectionRange(cursorPosition, cursorPosition);
+        }
+      }
     }, delay);
+  }
+
+  function applyDirectoryPanelSelection(name, value) {
+    if (!directoryFilterNames.includes(name)) return;
+    if (value === "all") {
+      state[name] = emptyFilterSet();
+    } else {
+      state[name] = cycleFilterValue(directoryFilterState(name), value);
+    }
+    syncDirectoryFilterUrl();
+    renderDirectory();
+    renderSpotlight();
+  }
+
+  function bindDirectoryFilters() {
+    if (!directoryFilterPanel) return;
+    bindSearchFilterInput(directoryFilterPanel, "#directory-search-input", {
+      setComposing: (value) => {
+        directorySearchComposing = value;
+      },
+      isComposing: () => directorySearchComposing,
+      setQuery: (value) => {
+        state.query = value;
+      },
+      applyChange: ({ cursorPosition, delay }) => {
+        scheduleDirectoryRender(delay, cursorPosition);
+      },
+      delay: directorySearchDelayMs,
+    });
+    bindSearchFilterChips(directoryFilterPanel, "directory", applyDirectoryPanelSelection);
+    const resetButton = directoryFilterPanel.querySelector('[data-search-filter-reset="directory"]');
+    if (resetButton) {
+      resetButton.addEventListener("click", resetDirectoryFilters);
+    }
   }
 
   function bindDirectoryHashtags() {
@@ -1657,7 +1742,7 @@
       const clearButton = target.closest("[data-directory-clear-hashtags]");
       if (clearButton) {
         event.preventDefault();
-        clearDirectoryHashtags();
+        resetDirectoryFilters();
         return;
       }
 
@@ -1675,28 +1760,10 @@
     });
   }
 
-  function bindSearch(source, target) {
-    if (!source) return;
-    source.addEventListener("compositionstart", () => {
-      directorySearchComposing = true;
-    });
-    source.addEventListener("compositionend", () => {
-      directorySearchComposing = false;
-      state.query = source.value;
-      if (target) target.value = source.value;
-      scheduleDirectoryRender(0);
-    });
-    source.addEventListener("input", () => {
-      state.query = source.value;
-      if (target) target.value = source.value;
-      if (!directorySearchComposing) scheduleDirectoryRender(directorySearchDelayMs);
-    });
-  }
-
   function init() {
     if (directoryList || spotlightList) {
       buildDirectoryIndex();
-      readDirectoryHashtagsFromUrl();
+      readDirectoryFiltersFromUrl();
     }
     readFeedFiltersFromUrl();
     const watchStats = data.stats.watchSources || {};
@@ -1709,8 +1776,6 @@
     feedData.generatedAt = formatFeedGeneratedAt(feedData.generatedAt);
     setStat("feedGeneratedAt", feedData.generatedAt || "-");
 
-    bindSearch(heroSearch, directorySearch);
-    bindSearch(directorySearch, heroSearch);
     bindDirectoryHashtags();
 
     renderLatestFeeds();

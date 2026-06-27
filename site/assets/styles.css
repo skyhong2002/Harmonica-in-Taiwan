@@ -458,12 +458,14 @@ h2 {
   justify-content: space-between;
 }
 
+.search-filter-label,
 .feed-filter-label {
   color: var(--muted);
   font-size: 0.86rem;
   font-weight: 900;
 }
 
+.search-filter-panel,
 .feed-river-controls {
   display: grid;
   gap: 14px;
@@ -474,6 +476,11 @@ h2 {
   box-shadow: 0 10px 26px rgba(23, 33, 29, 0.06);
 }
 
+.directory-filter-panel {
+  margin-bottom: 14px;
+}
+
+.search-filter-summary,
 .feed-river-summary {
   display: flex;
   flex-wrap: wrap;
@@ -482,15 +489,18 @@ h2 {
   justify-content: space-between;
 }
 
+.search-filter-summary p,
 .feed-river-summary p {
   margin: 0;
 }
 
+.search-filter-summary strong,
 .feed-river-summary strong {
   color: var(--ink);
   font-size: 1rem;
 }
 
+.search-filter-tools,
 .feed-filter-tools {
   display: grid;
   grid-template-columns: minmax(240px, 1fr) auto;
@@ -498,19 +508,23 @@ h2 {
   align-items: stretch;
 }
 
+.search-filter-search-field,
 .feed-search-field {
   display: block;
 }
 
+.search-filter-chip-group,
 .feed-filter-chip-group {
   display: grid;
   gap: 8px;
 }
 
+.search-filter-disclosure,
 .feed-filter-disclosure {
   margin: 0;
 }
 
+.search-filter-disclosure > summary,
 .feed-filter-disclosure > summary {
   display: inline-flex;
   gap: 8px;
@@ -520,10 +534,12 @@ h2 {
   cursor: pointer;
 }
 
+.search-filter-disclosure > summary::-webkit-details-marker,
 .feed-filter-disclosure > summary::-webkit-details-marker {
   display: none;
 }
 
+.search-filter-disclosure > summary::after,
 .feed-filter-disclosure > summary::after {
   content: "展開";
   display: inline-flex;
@@ -539,38 +555,46 @@ h2 {
   border-radius: var(--radius);
 }
 
+.search-filter-disclosure[open] > summary::after,
 .feed-filter-disclosure[open] > summary::after {
   content: "收合";
 }
 
+.search-filter-disclosure > summary:hover,
+.search-filter-disclosure > summary:focus-visible,
 .feed-filter-disclosure > summary:hover,
 .feed-filter-disclosure > summary:focus-visible {
   color: var(--ink);
 }
 
+.search-filter-disclosure > summary:focus-visible,
 .feed-filter-disclosure > summary:focus-visible {
   outline: 3px solid rgba(29, 114, 102, 0.22);
   outline-offset: 4px;
 }
 
+.search-filter-disclosure-count,
 .feed-disclosure-count {
   color: var(--muted);
   font-size: 0.8rem;
   font-weight: 800;
 }
 
+.search-filter-chip-group-label,
 .feed-chip-group-label {
   color: var(--muted);
   font-size: 0.82rem;
   font-weight: 900;
 }
 
+.search-filter-option-chips,
 .feed-option-chips {
   display: flex;
   flex-wrap: wrap;
   gap: 7px;
 }
 
+.search-filter-option-chip,
 .feed-option-chip {
   min-height: 34px;
   max-width: 100%;
@@ -587,29 +611,34 @@ h2 {
   cursor: pointer;
 }
 
+.search-filter-option-chip:hover,
 .feed-option-chip:hover {
   color: var(--ink);
   background: #edf4f0;
 }
 
+.search-filter-option-chip[data-filter-state="include"],
 .feed-option-chip[data-filter-state="include"] {
   color: #fff;
   background: var(--teal-deep);
   border-color: var(--teal-deep);
 }
 
+.search-filter-option-chip[data-filter-state="exclude"],
 .feed-option-chip[data-filter-state="exclude"] {
   color: #7d372f;
   background: #f5e5e1;
   border-color: #e4beb7;
 }
 
+.search-filter-option-chip[data-filter-state="exclude"]:hover,
 .feed-option-chip[data-filter-state="exclude"]:hover {
   color: #fff;
   background: #9a463c;
   border-color: #9a463c;
 }
 
+.search-filter-reset-button,
 .feed-reset-button {
   min-height: 48px;
   padding: 0 14px;
@@ -621,6 +650,7 @@ h2 {
   cursor: pointer;
 }
 
+.search-filter-reset-button:hover,
 .feed-reset-button:hover {
   color: #fff;
   background: var(--teal);
@@ -2018,6 +2048,7 @@ button.feed-tag-pill {
   }
 
   .hero-search,
+  .search-filter-tools,
   .directory-tools {
     grid-template-columns: 1fr;
   }
@@ -2065,6 +2096,7 @@ button.feed-tag-pill {
     width: auto;
   }
 
+  .search-filter-tools,
   .feed-filter-tools {
     grid-template-columns: 1fr;
   }
