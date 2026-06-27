@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T15:00:40+08:00",
+  "generatedAt": "2026-06-27T15:15:57+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "degraded",
@@ -11,7 +11,7 @@
     "updatesWindowDays": 30,
     "directoryEntries": 149,
     "watchSources": 441,
-    "currentErrors": 110,
+    "currentErrors": 4,
     "latestDataAt": "2026-06-27T15:00:40+08:00",
     "latestSocialObservationAt": "2026-06-27T15:00:33+08:00"
   },
@@ -40,7 +40,7 @@
       {
         "platform": "instagram",
         "sources": 212,
-        "currentErrors": 109,
+        "currentErrors": 3,
         "status": "degraded"
       },
       {
@@ -96,7 +96,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：13 ms"
+        "耗時：61 ms"
       ]
     },
     {
@@ -104,9 +104,10 @@
       "name": "Instagram RSSHub",
       "status": "degraded",
       "label": "部分異常",
-      "summary": "212 個 Instagram 來源（profile 106、story 106）；最新抓取批次目前 109 個錯誤。",
+      "summary": "212 個 Instagram 來源（profile 106、story 106）；最新抓取批次目前 3 個錯誤。",
       "details": [
-        "最新社群觀測：2026-06-27 15:00:33"
+        "最新社群觀測：2026-06-27 15:00:33",
+        "story 無公開內容/空路由略過：106"
       ]
     },
     {
@@ -161,10 +162,26 @@
   "recentErrors": [
     {
       "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_story_sigmundgroven",
-      "sourceName": "Sigmund Groven",
+      "sourceId": "ig_etaborya",
+      "sourceName": "Boris Plotnikov",
       "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_hankshrevemusic",
+      "sourceName": "Hank Shreve",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "seenAt": "2026-06-27T15:00:33+08:00",
+      "sourceId": "ig_learntheharmonica",
+      "sourceName": "Liam Ward & Malcolm Thorne",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
       "error": "HTTP Error 503: Service Unavailable"
     },
     {
@@ -173,150 +190,6 @@
       "sourceName": "Steve Baker",
       "platform": "x",
       "sourceType": "rss",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_story_deakharp",
-      "sourceName": "Deak Harp",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_story_mcuhc",
-      "sourceName": "銘傳口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_story_tcfsh_harmonica",
-      "sourceName": "中一中口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_story_csmu_bluemelody",
-      "sourceName": "中山醫藍韻口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_story_nutc_harmonica",
-      "sourceName": "臺中科大口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_story_fcu_harmonica",
-      "sourceName": "逢甲口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_story_ntnu_harmonica_club",
-      "sourceName": "師大口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_story_cozy_harmonica_60th",
-      "sourceName": "師大附中舒馨口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_story_ckhc_64th",
-      "sourceName": "建中口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_story_ncku_harmonicaclub",
-      "sourceName": "成大口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_story_npust_hmc",
-      "sourceName": "屏科大口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_story_chgsh_harmonica",
-      "sourceName": "彰女微光口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_story_harmonica_ncue",
-      "sourceName": "彰師大白沙口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_story_nthu_harmonica_club",
-      "sourceName": "清華大學口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_story_nycu_harmonica",
-      "sourceName": "陽明交大竹韻口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_story_nkustharmonica",
-      "sourceName": "高科大口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_story_kshs_harmonica",
-      "sourceName": "高雄中學口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "HTTP Error 503: Service Unavailable"
-    },
-    {
-      "seenAt": "2026-06-27T15:00:33+08:00",
-      "sourceId": "ig_story_tnfsh_harmonica_club",
-      "sourceName": "臺南一中口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
       "error": "HTTP Error 503: Service Unavailable"
     }
   ]

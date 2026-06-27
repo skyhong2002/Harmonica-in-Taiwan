@@ -41,6 +41,13 @@ VIDEO_POSTER_RE = re.compile(r"<video\b[^>]*\bposter=[\"']([^\"']+)[\"']", re.IG
 VIDEO_SRC_RE = re.compile(r"<video\b[^>]*\bsrc=[\"']([^\"']+)[\"']", re.IGNORECASE)
 SOURCE_SRC_RE = re.compile(r"<source\b[^>]*\bsrc=[\"']([^\"']+)[\"']", re.IGNORECASE)
 TAG_VALUE_SPLIT_RE = re.compile(r"\s*(?:[,，、/／+&]|\band\b|\s+)\s*", re.IGNORECASE)
+RSSHUB_ERROR_MESSAGE_RE = re.compile(r"Error Message:\s*<br\s*/?>\s*<code[^>]*>(.*?)</code>", re.IGNORECASE | re.DOTALL)
+STORY_EMPTY_ERROR_PATTERNS = (
+    "content does not exist",
+    "user has no stories",
+    "this route is empty",
+    "profile is private",
+)
 OPENCODE_GO_BASE_URL = "https://opencode.ai/zen/go/v1"
 DEFAULT_LLM_MODEL = "mimo-v2.5"
 LLM_CATEGORIES = {"events", "posts-videos", "student-clubs", "opportunities"}
@@ -101,6 +108,19 @@ def strip_html(value: str) -> str:
     text = TAG_RE.sub(" ", text)
     lines = [re.sub(r"[ \t]+", " ", html.unescape(line)).strip() for line in text.splitlines()]
     return "\n".join(line for line in lines if line).strip()
+
+
+def rsshub_error_message(body: bytes) -> str:
+    text = body.decode("utf-8", "replace")
+    match = RSSHUB_ERROR_MESSAGE_RE.search(text)
+    if match:
+        text = match.group(1)
+    return compact_text(strip_html(text), 500)
+
+
+def is_story_empty_error(message: str) -> bool:
+    lowered = (message or "").casefold()
+    return any(pattern in lowered for pattern in STORY_EMPTY_ERROR_PATTERNS)
 
 
 def image_urls(value: str) -> list[str]:
@@ -258,12 +278,20 @@ def fetch_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
     if not url:
         return []
     req = urllib.request.Request(url, headers={"User-Agent": "HarmonicaInTaiwanSocialWatcher/1.0"})
-    with urllib.request.urlopen(req, timeout=30) as response:
-        root = ET.fromstring(response.read())
+    story_source = is_story_source(source)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as response:
+            root = ET.fromstring(response.read())
+    except urllib.error.HTTPError as exc:
+        message = rsshub_error_message(exc.read())
+        if story_source and exc.code in {404, 503} and is_story_empty_error(message):
+            return []
+        if message:
+            raise ValueError(f"RSSHub HTTP {exc.code}: {message}") from exc
+        raise
 
     posts: list[dict[str, Any]] = []
     fetched_at = dt.datetime.now(dt.timezone.utc).isoformat()
-    story_source = is_story_source(source)
     channel_avatar = root.findtext("channel/image/url") or ""
     for item in root.findall(".//item"):
         title = text_of(item, "title")

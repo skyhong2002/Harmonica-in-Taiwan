@@ -38,6 +38,12 @@ PUBLIC_BASE_URL = "https://harmonica.observe.tw"
 TAIPEI_TZ = dt.timezone(dt.timedelta(hours=8))
 CURRENT_ERROR_WINDOW_SECONDS = 15 * 60
 FRESH_PIPELINE_HOURS = 36
+STORY_EMPTY_ERROR_PATTERNS = (
+    "content does not exist",
+    "user has no stories",
+    "this route is empty",
+    "profile is private",
+)
 
 STATUS_LABELS = {
     "ok": "正常",
@@ -319,6 +325,18 @@ def youtube_error_superseded(row: dict[str, Any], recovered: dict[str, dt.dateti
     return bool(error_seen_at and recovered_at and recovered_at >= error_seen_at)
 
 
+def story_empty_error(row: dict[str, Any], source_by_id: dict[str, dict[str, Any]]) -> bool:
+    source_id = str(row.get("source_id") or "")
+    source = source_by_id.get(source_id, {})
+    source_type = str(row.get("source_type") or source.get("type") or "")
+    if source_type != "rsshub_instagram_story":
+        return False
+    error = str(row.get("error") or "").casefold()
+    if "http error 503" in error or "http error 404" in error:
+        return True
+    return any(pattern in error for pattern in STORY_EMPTY_ERROR_PATTERNS)
+
+
 def build_status() -> dict[str, Any]:
     now = dt.datetime.now(dt.timezone.utc)
     sources = enabled_watch_sources()
@@ -349,7 +367,13 @@ def build_status() -> dict[str, Any]:
         ]
     elif latest_error_at is not None:
         current_errors = [row for row in errors if parse_time(row.get("seen_at")) == latest_error_at]
-    current_errors = [row for row in current_errors if not youtube_error_superseded(row, youtube_recovered_at)]
+    story_empty_errors = [row for row in current_errors if story_empty_error(row, source_by_id)]
+    current_errors = [
+        row
+        for row in current_errors
+        if not youtube_error_superseded(row, youtube_recovered_at)
+        and not story_empty_error(row, source_by_id)
+    ]
 
     annotated_current_errors = annotate_errors(current_errors, source_by_id)
     current_error_platforms = collections.Counter(row["platform"] for row in annotated_current_errors)
@@ -439,7 +463,10 @@ def build_status() -> dict[str, Any]:
                 f"（profile {ig_profile_sources}、story {ig_story_sources}）；"
                 f"最新抓取批次目前 {ig_errors} 個錯誤。"
             ),
-            [f"最新社群觀測：{time_label(latest_social_seen_at)}"],
+            [
+                f"最新社群觀測：{time_label(latest_social_seen_at)}",
+                f"story 無公開內容/空路由略過：{len(story_empty_errors)}",
+            ],
         )
     )
 
