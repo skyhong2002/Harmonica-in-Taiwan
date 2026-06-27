@@ -1,5 +1,5 @@
 window.HARMONICA_OBSERVE_FEEDS = {
-  "generatedAt": "2026-06-27 18:50",
+  "generatedAt": "2026-06-27 19:01",
   "updatesWindowDays": 30,
   "updates": [
     {
@@ -96,7 +96,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -154,8 +154,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "matched_keywords": [
         "口琴",
         "演出",
-        "比賽",
-        "harmonica"
+        "比賽"
       ],
       "keyword_matches": [
         "口琴",
@@ -223,8 +222,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "matched_keywords": [
         "口琴",
         "音樂會",
-        "演出",
-        "harmonica"
+        "演出"
       ],
       "keyword_matches": [
         "口琴",
@@ -293,7 +291,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -349,7 +347,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -537,7 +535,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -595,7 +593,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -786,7 +784,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -988,7 +986,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -1046,7 +1044,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -1427,7 +1425,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -1674,7 +1672,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -3438,7 +3436,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -4051,8 +4049,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
         "口琴",
         "音樂會",
         "演出",
-        "比賽",
-        "harmonica"
+        "比賽"
       ],
       "keyword_matches": [
         "口琴",
@@ -4453,7 +4450,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -4509,7 +4506,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -4835,7 +4832,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -5158,7 +5155,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -5405,7 +5402,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -7211,8 +7208,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
         "口琴",
         "音樂會",
         "演出",
-        "交流",
-        "harmonica"
+        "交流"
       ],
       "keyword_matches": [
         "口琴",
@@ -7279,8 +7275,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
         "音樂會",
         "交流",
         "比賽",
-        "報名",
-        "harmonica"
+        "報名"
       ],
       "keyword_matches": [
         "口琴",
@@ -7477,7 +7472,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -7848,7 +7843,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -8200,7 +8195,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -8819,7 +8814,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -9137,7 +9132,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -9194,7 +9189,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -9356,7 +9351,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -10007,7 +10002,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
-        "harmonica"
+        "口琴"
       ],
       "keyword_matches": [
         "harmonica"
@@ -10236,7 +10231,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "instagram_user_id": "",
       "matched_keywords": [
         "口琴",
-        "成果發表"
+        "成發"
       ],
       "keyword_matches": [
         "口琴",
@@ -10300,7 +10295,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "instagram_user_id": "",
       "matched_keywords": [
         "口琴",
-        "成果發表"
+        "成發"
       ],
       "keyword_matches": [
         "口琴",
@@ -10364,7 +10359,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "instagram_user_id": "",
       "matched_keywords": [
         "口琴",
-        "成果發表"
+        "成發"
       ],
       "keyword_matches": [
         "口琴",
@@ -10428,8 +10423,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "instagram_user_id": "",
       "matched_keywords": [
         "口琴",
-        "成果發表",
-        "harmonica"
+        "成發"
       ],
       "keyword_matches": [
         "口琴",
@@ -10494,8 +10488,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "instagram_user_id": "",
       "matched_keywords": [
         "口琴",
-        "成果發表",
-        "harmonica"
+        "成發"
       ],
       "keyword_matches": [
         "口琴",
@@ -10560,8 +10553,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "instagram_user_id": "",
       "matched_keywords": [
         "口琴",
-        "成果發表",
-        "harmonica"
+        "成發"
       ],
       "keyword_matches": [
         "口琴",
@@ -10626,8 +10618,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "instagram_user_id": "",
       "matched_keywords": [
         "口琴",
-        "成果發表",
-        "harmonica"
+        "成發"
       ],
       "keyword_matches": [
         "口琴",
@@ -10692,8 +10683,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "instagram_user_id": "",
       "matched_keywords": [
         "口琴",
-        "成果發表",
-        "harmonica"
+        "成發"
       ],
       "keyword_matches": [
         "口琴",
@@ -10758,7 +10748,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "instagram_user_id": "",
       "matched_keywords": [
         "口琴",
-        "成果發表"
+        "成發"
       ],
       "keyword_matches": [
         "口琴",
@@ -11056,7 +11046,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "instagram_user_id": "",
       "matched_keywords": [
         "口琴",
-        "成果發表"
+        "成發"
       ],
       "keyword_matches": [
         "口琴",
@@ -11518,7 +11508,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "instagram_user_id": "",
       "matched_keywords": [
         "口琴",
-        "成果發表"
+        "成發"
       ],
       "keyword_matches": [
         "口琴",
@@ -11586,7 +11576,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "instagram_user_id": "",
       "matched_keywords": [
         "口琴",
-        "成果發表",
+        "成發",
         "寒訓"
       ],
       "keyword_matches": [
@@ -11916,7 +11906,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "instagram_user_id": "",
       "matched_keywords": [
         "口琴",
-        "成果發表",
+        "成發",
         "交流"
       ],
       "keyword_matches": [
@@ -12257,7 +12247,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "instagram_user_id": "",
       "matched_keywords": [
         "口琴",
-        "成果發表"
+        "成發"
       ],
       "keyword_matches": [
         "口琴",
@@ -12321,7 +12311,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
       "instagram_user_id": "",
       "matched_keywords": [
         "口琴",
-        "成果發表"
+        "成發"
       ],
       "keyword_matches": [
         "口琴",
@@ -17722,8 +17712,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "matched_keywords": [
             "口琴",
             "演出",
-            "比賽",
-            "harmonica"
+            "比賽"
           ],
           "keyword_matches": [
             "口琴",
@@ -17791,8 +17780,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "matched_keywords": [
             "口琴",
             "音樂會",
-            "演出",
-            "harmonica"
+            "演出"
           ],
           "keyword_matches": [
             "口琴",
@@ -19935,8 +19923,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
             "口琴",
             "音樂會",
             "演出",
-            "比賽",
-            "harmonica"
+            "比賽"
           ],
           "keyword_matches": [
             "口琴",
@@ -21933,8 +21920,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
             "口琴",
             "音樂會",
             "演出",
-            "交流",
-            "harmonica"
+            "交流"
           ],
           "keyword_matches": [
             "口琴",
@@ -22001,8 +21987,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
             "音樂會",
             "交流",
             "比賽",
-            "報名",
-            "harmonica"
+            "報名"
           ],
           "keyword_matches": [
             "口琴",
@@ -22218,7 +22203,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -23686,7 +23671,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -23750,7 +23735,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -23814,7 +23799,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -23878,8 +23863,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
-            "harmonica"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -23944,8 +23928,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
-            "harmonica"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -24010,8 +23993,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
-            "harmonica"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -24076,8 +24058,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
-            "harmonica"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -24142,8 +24123,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
-            "harmonica"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -24208,7 +24188,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -24448,7 +24428,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -24795,7 +24775,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -24863,7 +24843,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
+            "成發",
             "寒訓"
           ],
           "keyword_matches": [
@@ -25129,7 +25109,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
+            "成發",
             "交流"
           ],
           "keyword_matches": [
@@ -25343,7 +25323,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -25407,7 +25387,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -26671,7 +26651,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -26729,8 +26709,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "matched_keywords": [
             "口琴",
             "演出",
-            "比賽",
-            "harmonica"
+            "比賽"
           ],
           "keyword_matches": [
             "口琴",
@@ -26798,8 +26777,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "matched_keywords": [
             "口琴",
             "音樂會",
-            "演出",
-            "harmonica"
+            "演出"
           ],
           "keyword_matches": [
             "口琴",
@@ -26868,7 +26846,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -26924,7 +26902,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -27112,7 +27090,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -27170,7 +27148,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -27361,7 +27339,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -27563,7 +27541,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -27621,7 +27599,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -28002,7 +27980,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -28249,7 +28227,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -30013,7 +29991,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -30626,8 +30604,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
             "口琴",
             "音樂會",
             "演出",
-            "比賽",
-            "harmonica"
+            "比賽"
           ],
           "keyword_matches": [
             "口琴",
@@ -31028,7 +31005,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -31084,7 +31061,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -31410,7 +31387,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -31733,7 +31710,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -31980,7 +31957,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -33786,8 +33763,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
             "口琴",
             "音樂會",
             "演出",
-            "交流",
-            "harmonica"
+            "交流"
           ],
           "keyword_matches": [
             "口琴",
@@ -33854,8 +33830,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
             "音樂會",
             "交流",
             "比賽",
-            "報名",
-            "harmonica"
+            "報名"
           ],
           "keyword_matches": [
             "口琴",
@@ -34052,7 +34027,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -34423,7 +34398,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -34775,7 +34750,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -35394,7 +35369,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -35712,7 +35687,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -35769,7 +35744,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -35931,7 +35906,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -36582,7 +36557,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "rsshub_title": "",
           "instagram_user_id": "",
           "matched_keywords": [
-            "harmonica"
+            "口琴"
           ],
           "keyword_matches": [
             "harmonica"
@@ -36811,7 +36786,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -36875,7 +36850,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -36939,7 +36914,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -37003,8 +36978,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
-            "harmonica"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -37069,8 +37043,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
-            "harmonica"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -37135,8 +37108,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
-            "harmonica"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -37201,8 +37173,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
-            "harmonica"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -37267,8 +37238,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
-            "harmonica"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -37333,7 +37303,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -37631,7 +37601,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -38093,7 +38063,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -38161,7 +38131,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
+            "成發",
             "寒訓"
           ],
           "keyword_matches": [
@@ -38491,7 +38461,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
+            "成發",
             "交流"
           ],
           "keyword_matches": [
@@ -38832,7 +38802,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -38896,7 +38866,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -40336,8 +40306,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "matched_keywords": [
             "口琴",
             "演出",
-            "比賽",
-            "harmonica"
+            "比賽"
           ],
           "keyword_matches": [
             "口琴",
@@ -42531,7 +42500,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -42595,7 +42564,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -42659,7 +42628,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -42723,8 +42692,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
-            "harmonica"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -42789,8 +42757,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
-            "harmonica"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -42855,8 +42822,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
-            "harmonica"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -42921,8 +42887,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
-            "harmonica"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -42987,8 +42952,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
-            "harmonica"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -43053,7 +43017,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -43231,7 +43195,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -43356,7 +43320,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -43424,7 +43388,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
+            "成發",
             "寒訓"
           ],
           "keyword_matches": [
@@ -43492,7 +43456,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表",
+            "成發",
             "交流"
           ],
           "keyword_matches": [
@@ -43697,7 +43661,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -43761,7 +43725,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "instagram_user_id": "",
           "matched_keywords": [
             "口琴",
-            "成果發表"
+            "成發"
           ],
           "keyword_matches": [
             "口琴",
@@ -44314,8 +44278,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "matched_keywords": [
             "口琴",
             "演出",
-            "比賽",
-            "harmonica"
+            "比賽"
           ],
           "keyword_matches": [
             "口琴",
@@ -44727,8 +44690,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
             "口琴",
             "音樂會",
             "演出",
-            "比賽",
-            "harmonica"
+            "比賽"
           ],
           "keyword_matches": [
             "口琴",
@@ -45101,8 +45063,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
             "音樂會",
             "交流",
             "比賽",
-            "報名",
-            "harmonica"
+            "報名"
           ],
           "keyword_matches": [
             "口琴",

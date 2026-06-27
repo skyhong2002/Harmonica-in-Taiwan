@@ -445,6 +445,99 @@
     return "";
   }
 
+  const publicTagOrder = [
+    "口琴",
+    "公開更新",
+    "比賽",
+    "交流",
+    "成發",
+    "招生",
+    "限時動態",
+    "音樂會",
+    "報名",
+    "寒訓",
+    "補助",
+    "演出",
+    "甄選",
+    "影片",
+    "課程",
+    "學生社團",
+  ];
+  const publicTagSet = new Set(publicTagOrder);
+  const publicTagAliases = new Map(Object.entries({
+    harmonica: "口琴",
+    harp: "口琴",
+    成果發表: "成發",
+    成果展演: "成發",
+    發表會: "成發",
+    學生音樂比賽: "比賽",
+    全國學生音樂比賽: "比賽",
+    競賽: "比賽",
+    指定曲: "比賽",
+    獎助: "補助",
+    徵件: "補助",
+    徵選: "甄選",
+    甄試: "甄選",
+    社博: "招生",
+    迎新: "招生",
+    暑訓: "課程",
+    工作坊: "課程",
+    講座: "課程",
+    校慶: "演出",
+    實體活動: "演出",
+    活動: "演出",
+    event: "演出",
+    concert: "音樂會",
+    competition: "比賽",
+    grant: "補助",
+    funding: "補助",
+    lesson: "課程",
+    course: "課程",
+    workshop: "課程",
+    video: "影片",
+    新片: "影片",
+    首播: "影片",
+    上架: "影片",
+    發布: "影片",
+    發佈: "影片",
+    直播: "影片",
+    截止: "報名",
+    學校社團: "學生社團",
+    口琴社團: "學生社團",
+    "student club": "學生社團",
+    "instagram story": "限時動態",
+    story: "限時動態",
+  }));
+  const publicTagRank = new Map(publicTagOrder.map((tag, index) => [tag, index]));
+  const tagSplitPattern = /\s*(?:[,，、/／+&]|\band\b|\s+)\s*/i;
+
+  function normalizePublicTag(value) {
+    const raw = String(value || "").trim();
+    if (!raw) return "";
+    const canonical = publicTagAliases.get(raw.toLowerCase()) || publicTagAliases.get(raw) || raw;
+    return publicTagSet.has(canonical) ? canonical : "";
+  }
+
+  function publicTagsFor(values) {
+    const tags = [];
+    (Array.isArray(values) ? values : [values]).forEach((value) => {
+      String(value || "")
+        .split(tagSplitPattern)
+        .forEach((part) => {
+          const tag = normalizePublicTag(part);
+          if (tag && !filterHasValue(tags, tag)) tags.push(tag);
+        });
+    });
+    return tags;
+  }
+
+  function sortedPublicTags(values) {
+    return publicTagsFor(values).sort((a, b) => {
+      const rankDiff = (publicTagRank.get(a) ?? 999) - (publicTagRank.get(b) ?? 999);
+      return rankDiff || a.localeCompare(b, "zh-Hant");
+    });
+  }
+
   function sourceIdentity(item, avatarClass = "source-avatar", metaClass = "feed-latest-meta") {
     const source = item.source || "公開來源";
     const platform = item.platform_label || item.platform || "public";
@@ -481,7 +574,7 @@
   }
 
   function feedTagPills(item) {
-    return (item.matched_keywords || [])
+    return sortedPublicTags(item.matched_keywords || [])
       .slice(0, 5)
       .map(feedTagChip)
       .join("");
@@ -649,7 +742,7 @@
         item.country,
         item.region,
         ...feedSourceFilterValues(item),
-        ...(item.matched_keywords || []),
+        ...sortedPublicTags(item.matched_keywords || []),
       ].join(" ")
     );
   }
@@ -659,7 +752,7 @@
     if (!valuesMatchFilter(feedPlatformFilterValues(item), feedState.platform)) return false;
     if (!valuesMatchFilter(feedCountryFilterValues(item), feedState.country)) return false;
     if (!valuesMatchFilter(feedSourceFilterValues(item), feedState.source)) return false;
-    if (!valuesMatchFilter(item.matched_keywords || [], feedState.tag)) return false;
+    if (!valuesMatchFilter(sortedPublicTags(item.matched_keywords || []), feedState.tag)) return false;
     if (query && !feedFilterText(item).includes(query)) return false;
     return true;
   }
@@ -708,7 +801,7 @@
     const platforms = feedPlatformOptions(updates);
     const countries = countSortedValues(updates, (item) => item.country);
     const sources = countSortedValues(updates, feedSourceOptionValue);
-    const tags = uniqueSorted(updates.flatMap((item) => item.matched_keywords || []));
+    const tags = sortedPublicTags(updates.flatMap((item) => item.matched_keywords || []));
     return `
       <div class="feed-river-controls">
         <div class="feed-river-summary">

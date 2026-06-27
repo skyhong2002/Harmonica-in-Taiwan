@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T18:33:00+08:00",
+  "generatedAt": "2026-06-27T19:02:03+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "ok",
@@ -12,7 +12,7 @@
     "directoryEntries": 149,
     "watchSources": 440,
     "currentErrors": 0,
-    "latestDataAt": "2026-06-27T18:33:00+08:00",
+    "latestDataAt": "2026-06-27T19:01:25+08:00",
     "latestSocialObservationAt": "2026-06-27T18:32:12+08:00"
   },
   "watchSources": {
@@ -71,7 +71,7 @@
       "label": "正常",
       "summary": "每日 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-06-27 18:33:00",
+        "最新公開資料：2026-06-27 19:01:25",
         "pipeline.log 更新：2026-06-27 00:13:49",
         "pipeline.err.log 更新：2026-06-24 01:57:49",
         "LaunchAgent：not running，last exit 0"
@@ -96,7 +96,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：13 ms"
+        "耗時：18 ms"
       ]
     },
     {

@@ -22,6 +22,8 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any
 
+import public_tags
+
 
 PROJECT_ROOT = Path(os.environ.get("HARMONICA_OBSERVE_HOME", Path(__file__).resolve().parents[1])).expanduser()
 DEFAULT_CONFIG = PROJECT_ROOT / "data" / "feeds" / "social_sources.json"
@@ -54,22 +56,7 @@ STORY_EMPTY_ERROR_PATTERNS = (
 OPENCODE_GO_BASE_URL = "https://opencode.ai/zen/go/v1"
 DEFAULT_LLM_MODEL = "mimo-v2.5"
 LLM_CATEGORIES = {"events", "posts-videos", "student-clubs", "opportunities"}
-LLM_LABELS = {
-    "口琴",
-    "演出",
-    "音樂會",
-    "成發",
-    "課程",
-    "招生",
-    "社博",
-    "迎新",
-    "交流",
-    "比賽",
-    "補助",
-    "影片",
-    "公開更新",
-    "學生社團",
-}
+LLM_LABELS = set(public_tags.PUBLIC_TAGS)
 TRUTHY = {"1", "true", "yes", "y", "on"}
 _INSTAGRAM_USER_IDS_CACHE: dict[str, Any] | None = None
 
@@ -797,6 +784,9 @@ def normalize_category(value: Any) -> str:
 
 def normalize_label(value: Any) -> str:
     raw = str(value or "").strip()
+    canonical = public_tags.normalize_tag_value(raw)
+    if canonical:
+        return canonical
     aliases = {
         "活動": "演出",
         "實體活動": "演出",
@@ -1067,11 +1057,12 @@ def llm_prompt(post: dict[str, Any], keyword_matches: list[str]) -> list[dict[st
             "content": (
                 "判斷這篇公開貼文是否值得收進臺灣口琴公開更新。"
                 "只要是口琴演出、音樂會、成發、課程、招生、社博、迎新、交流、"
-                "比賽、補助、指定曲、口琴影片、口琴社團或口琴演奏者公開更新，就算相關。"
+                "比賽、報名、甄選、補助、指定曲、口琴影片、限時動態、口琴社團或口琴演奏者公開更新，就算相關。"
                 "如果只是一般音樂、班多鈕/手風琴、一般藝文活動，或來源名稱含 harmonica 但貼文內容無關，請標成不相關。"
                 "categories 只能使用 events, posts-videos, student-clubs, opportunities；"
                 "相關但無更精準分類時用 posts-videos。labels 只能使用："
-                "口琴, 演出, 音樂會, 成發, 課程, 招生, 社博, 迎新, 交流, 比賽, 補助, 影片, 公開更新, 學生社團。"
+                + ", ".join(public_tags.PUBLIC_TAGS)
+                + "。"
                 "回傳格式："
                 '{"is_relevant":true,"confidence":0.0,"labels":[],"categories":[],"reason":"80字內理由"}'
                 "\n\n貼文資料：\n"
@@ -1342,7 +1333,7 @@ def main() -> int:
                 continue
             matched = match_keywords(post.get("text", ""), keywords)
             post["keyword_matches"] = matched
-            post["matched_keywords"] = split_tag_values(matched)
+            post["matched_keywords"] = public_tags.normalize_tag_values(matched)
             if too_old(post.get("posted_at", ""), args.max_post_age_days, now_utc):
                 skipped_old += 1
                 seen_map[key] = dt.datetime.now(dt.timezone.utc).isoformat()
@@ -1372,7 +1363,7 @@ def main() -> int:
                     llm_result = None
                 if llm_result:
                     post.update(llm_result)
-                    labels = split_tag_values(list(llm_result.get("llm_labels") or []))
+                    labels = public_tags.normalize_tag_values(list(llm_result.get("llm_labels") or []))
                     post["matched_keywords"] = labels or (["公開更新"] if llm_result.get("llm_relevant") else [])
 
             if llm_result is not None:

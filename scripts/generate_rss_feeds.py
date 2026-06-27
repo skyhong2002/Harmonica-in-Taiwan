@@ -20,6 +20,8 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any
 
+import public_tags
+
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SITE_ROOT = PROJECT_ROOT / "site"
@@ -847,25 +849,7 @@ def unique_values(values: list[Any], limit: int = 8) -> list[str]:
 
 
 def normalize_tag_values(value: Any, *, limit: int = 8) -> list[str]:
-    if isinstance(value, str):
-        raw_values: list[Any] = [value]
-    elif isinstance(value, list):
-        raw_values = value
-    else:
-        raw_values = []
-
-    tags: list[str] = []
-    for raw in raw_values:
-        text = normalize_taiwan_orthography(raw)
-        if not text:
-            continue
-        for tag in TAG_VALUE_SPLIT_RE.split(text):
-            tag = tag.strip()
-            if tag and tag not in tags:
-                tags.append(tag)
-            if len(tags) >= limit:
-                return tags
-    return tags
+    return public_tags.normalize_tag_values(value, limit=limit)
 
 
 def llm_category_ids(row: dict[str, Any]) -> list[str]:
@@ -910,8 +894,8 @@ def candidate_display_tags(row: dict[str, Any]) -> list[str]:
     labels = row.get("llm_labels") or []
     keywords = row.get("matched_keywords") or []
     tags = normalize_tag_values([*normalize_tag_values(labels), *normalize_tag_values(keywords)], limit=8)
-    if not tags and (row.get("story") or row.get("media_type") == "instagram_story"):
-        return ["限時動態"]
+    if row.get("story") or row.get("media_type") == "instagram_story":
+        return public_tags.sort_public_tags([*tags, "限時動態"])[:8]
     return tags
 
 
@@ -1305,6 +1289,8 @@ def validate_update_tags(items: list[dict[str, Any]]) -> None:
                 continue
             if TAG_FORBIDDEN_CHARS_RE.search(text) or re.search(r"\band\b", text, re.IGNORECASE):
                 errors.append(f"{title}: composite matched_keyword {text!r}")
+            if text not in public_tags.PUBLIC_TAG_SET:
+                errors.append(f"{title}: unsupported matched_keyword {text!r}")
     if errors:
         formatted = "\n".join(f"- {error}" for error in errors[:40])
         if len(errors) > 40:
@@ -1650,7 +1636,9 @@ def render_home_feed_filters(public_rows: list[dict[str, Any]], window_days: int
     )
     sources = counted_filter_values(public_rows, "source")
     countries = counted_filter_values(public_rows, "country")
-    tags = sorted({str(keyword) for item in public_rows for keyword in (item.get("matched_keywords") or []) if keyword})
+    tags = public_tags.sort_public_tags(
+        keyword for item in public_rows for keyword in (item.get("matched_keywords") or [])
+    )
     return f"""
       <div class="feed-river-controls">
         <div class="feed-river-summary">
