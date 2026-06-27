@@ -447,17 +447,77 @@
       .replaceAll("'", "&#039;");
   }
 
-  function multilineHtml(value, limit = 220, maxLines = 3, skipFirst = false) {
+  function textLines(value, skipFirst = false) {
     let text = String(value || "").trim();
-    if (!text) return "";
-    if (text.length > limit) text = `${text.slice(0, limit - 1)}…`;
+    if (!text) return [];
     let lines = text
       .split(/\r?\n/)
       .map((line) => line.trim())
       .filter(Boolean);
     if (skipFirst) lines = lines.slice(1);
-    lines = lines.slice(0, maxLines);
-    return escapeHtml(lines.join("\n")).replaceAll("\n", "<br>");
+    return lines;
+  }
+
+  function truncateText(value, limit = 220) {
+    const text = String(value || "").trim();
+    if (!text || text.length <= limit) return text;
+    return `${text.slice(0, limit - 1)}…`;
+  }
+
+  function htmlTextWithBreaks(value, emphasizeFirstLine = false) {
+    const lines = String(value || "")
+      .split(/\r?\n/)
+      .map((line) => line.trim())
+      .filter(Boolean);
+    if (!lines.length) return "";
+    if (!emphasizeFirstLine) {
+      return escapeHtml(lines.join("\n")).replaceAll("\n", "<br>");
+    }
+    const [firstLine, ...rest] = lines;
+    const restHtml = rest.length ? `<br>${escapeHtml(rest.join("\n")).replaceAll("\n", "<br>")}` : "";
+    return `<strong class="feed-caption-lead">${escapeHtml(firstLine)}</strong>${restHtml}`;
+  }
+
+  function normalizeCompareText(value) {
+    return String(value || "").replace(/\s+/g, " ").trim();
+  }
+
+  function cardDomId(prefix, item, index) {
+    const key = String(item.key || item.link || `${item.source || "feed"}-${index}`)
+      .replace(/[^a-z0-9_-]+/gi, "-")
+      .replace(/^-+|-+$/g, "")
+      .slice(0, 48);
+    return `${prefix}-${index}-${key || "item"}`;
+  }
+
+  function homeFeedTextBlock(item, index, displayTitle = "") {
+    const hasDisplayTitle = Boolean(String(displayTitle || "").trim());
+    const fullText = textLines(item.text || "", false).join("\n");
+    if (!fullText) return "";
+    const collapsedText = truncateText(textLines(item.text || "", hasDisplayTitle).join("\n"), 260)
+      .split(/\r?\n/)
+      .map((line) => line.trim())
+      .filter(Boolean)
+      .slice(0, 4)
+      .join("\n");
+    const visibleText = [displayTitle, collapsedText]
+      .filter(Boolean)
+      .join("\n");
+    const expandable = normalizeCompareText(fullText) !== normalizeCompareText(visibleText);
+    const collapsedHtml = htmlTextWithBreaks(collapsedText, !hasDisplayTitle);
+    const fullHtml = htmlTextWithBreaks(fullText, !hasDisplayTitle);
+    if (!collapsedHtml && !expandable) return "";
+    if (!expandable) {
+      return `<span class="feed-latest-excerpt">${collapsedHtml}</span>`;
+    }
+    const textId = cardDomId("feed-text", item, index);
+    return `
+      <span class="feed-latest-excerpt" id="${escapeHtml(textId)}">
+        <span data-feed-text-collapsed>${collapsedHtml}</span>
+        <span data-feed-text-expanded hidden>${fullHtml}</span>
+      </span>
+      <button class="feed-text-toggle" type="button" data-feed-text-toggle aria-expanded="false" aria-controls="${escapeHtml(textId)}">查看更多</button>
+    `;
   }
 
   function renderLinks(links) {
@@ -930,13 +990,18 @@
       .join("");
   }
 
-  function homeFeedCard(item) {
+  function homeFeedCard(item, index = 0) {
+    const displayTitle = homepageDisplayTitle(item);
     const thumb = item.image_url
       ? `<span class="home-feed-thumb"><img src="${escapeHtml(item.image_url)}" alt="" loading="lazy" referrerpolicy="no-referrer"></span>`
       : "";
-    const excerpt = multilineHtml(item.text || "", 260, 4, true);
-    const bodyClass = thumb ? "home-feed-body" : "home-feed-body home-feed-body-no-image";
+    const bodyClass = [
+      "home-feed-body",
+      thumb ? "" : "home-feed-body-no-image",
+      displayTitle ? "" : "home-feed-body-no-title",
+    ].filter(Boolean).join(" ");
     const tagHtml = feedTagPills(item);
+    const textBlock = homeFeedTextBlock(item, index, displayTitle);
     return `
       <article class="home-feed-card">
         <div class="home-feed-source">
@@ -946,9 +1011,9 @@
           ${feedPlatformBadge(item)}
         </div>
         <div class="${bodyClass}">
-          <h3 class="home-feed-title">${escapeHtml(item.headline || item.title || "公開更新")}</h3>
+          ${displayTitle ? `<h3 class="home-feed-title">${escapeHtml(displayTitle)}</h3>` : ""}
           ${thumb}
-          ${excerpt ? `<span class="feed-latest-excerpt">${excerpt}</span>` : ""}
+          ${textBlock}
         </div>
         <div class="home-feed-footer">
           ${tagHtml ? `<div class="entry-meta">${tagHtml}</div>` : ""}
@@ -999,6 +1064,22 @@
     if (lowered === "x") return "X";
     if (lowered === "youtube") return "YouTube";
     return value;
+  }
+
+  function homepageTitleKind(item) {
+    const explicitKind = String(item?.title_kind || "").trim().toLowerCase();
+    if (explicitKind) return explicitKind;
+    if (isInstagramStoryItem(item)) return "caption";
+    const platform = String(item?.platform || "").trim().toLowerCase();
+    if (["facebook", "instagram", "threads", "x"].includes(platform)) return "caption";
+    return "title";
+  }
+
+  function homepageDisplayTitle(item) {
+    const explicitTitle = String(item?.display_title || "").trim();
+    if (explicitTitle) return explicitTitle;
+    if (homepageTitleKind(item) !== "title") return "";
+    return String(item?.headline || item?.rsshub_title || "").trim();
   }
 
   function feedSocialSources() {
@@ -1129,6 +1210,7 @@
   function feedFilterText(item) {
     return normalize(
       [
+        item.display_title,
         item.headline,
         item.title,
         item.text,
@@ -1238,9 +1320,9 @@
     return Array.from(river.querySelectorAll(".feed-river-column"));
   }
 
-  function feedCardElement(item) {
+  function feedCardElement(item, index = 0) {
     const template = document.createElement("template");
-    template.innerHTML = homeFeedCard(item).trim();
+    template.innerHTML = homeFeedCard(item, index).trim();
     return template.content.firstElementChild;
   }
 
@@ -1250,14 +1332,14 @@
     ), columns[0]);
   }
 
-  function appendFeedCards(river, updates, { reset = false } = {}) {
+  function appendFeedCards(river, updates, { reset = false, startIndex = 0 } = {}) {
     const columnCount = feedColumnCount(river);
     let columns = Array.from(river.querySelectorAll(".feed-river-column"));
     if (reset || columns.length !== columnCount) {
       columns = createFeedColumns(river, columnCount);
     }
-    updates.forEach((item) => {
-      const card = feedCardElement(item);
+    updates.forEach((item, index) => {
+      const card = feedCardElement(item, startIndex + index);
       shortestFeedColumn(columns).appendChild(card);
     });
   }
@@ -1279,7 +1361,7 @@
       return;
     }
 
-    appendFeedCards(river, nextUpdates);
+    appendFeedCards(river, nextUpdates, { startIndex: previousCount });
     const existingLoadMore = latestFeedGrid.querySelector(".feed-load-more-wrap");
     const nextLoadMore = feedLoadMore(filteredUpdates.length, visibleCount);
     if (existingLoadMore) {
@@ -1323,6 +1405,33 @@
       });
     }
     bindFeedAutoLoad();
+  }
+
+  function toggleFeedText(button) {
+    const textId = button.getAttribute("aria-controls");
+    const textBlock = textId ? document.getElementById(textId) : null;
+    if (!textBlock) return;
+    const card = button.closest(".home-feed-card");
+    const collapsed = textBlock.querySelector("[data-feed-text-collapsed]");
+    const expanded = textBlock.querySelector("[data-feed-text-expanded]");
+    if (!collapsed || !expanded) return;
+    const shouldExpand = button.getAttribute("aria-expanded") !== "true";
+    collapsed.hidden = shouldExpand;
+    expanded.hidden = !shouldExpand;
+    button.setAttribute("aria-expanded", String(shouldExpand));
+    button.textContent = shouldExpand ? "收合" : "查看更多";
+    if (card) card.classList.toggle("home-feed-card-text-expanded", shouldExpand);
+  }
+
+  function bindFeedTextToggles() {
+    if (!latestFeedGrid) return;
+    latestFeedGrid.addEventListener("click", (event) => {
+      const target = event.target instanceof Element ? event.target : null;
+      const button = target?.closest("[data-feed-text-toggle]");
+      if (!button || !latestFeedGrid.contains(button)) return;
+      event.preventDefault();
+      toggleFeedText(button);
+    });
   }
 
   function feedUrlParamNames() {
@@ -1501,7 +1610,7 @@
     const river = latestFeedGrid.querySelector(".feed-river");
     if (river) {
       if (visibleUpdates.length) {
-        appendFeedCards(river, visibleUpdates, { reset: true });
+        appendFeedCards(river, visibleUpdates, { reset: true, startIndex: 0 });
       } else {
         river.innerHTML = `<div class="empty-state">沒有符合目前篩選的公開更新。</div>`;
         feedState.columnCount = 0;
@@ -1851,6 +1960,7 @@
     setStat("feedGeneratedAt", feedData.generatedAt || "-");
 
     bindDirectoryHashtags();
+    bindFeedTextToggles();
 
     renderLatestFeeds();
     fetchLatestFeedData();

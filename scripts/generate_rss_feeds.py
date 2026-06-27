@@ -38,11 +38,12 @@ API_DIR = SITE_ROOT / "api"
 FEED_IMAGE_DIR = SITE_ROOT / "assets" / "feed-images"
 SOURCE_AVATAR_DIR = SITE_ROOT / "assets" / "source-avatars"
 PUBLIC_BASE_URL = "https://harmonica.observe.tw"
-ASSET_VERSION = "20260628-0309"
+ASSET_VERSION = "20260628-0334"
 HOME_FEED_BATCH_SIZE = 12
 DEFAULT_UPDATE_WINDOW_DAYS = 30
 HOME_FEED_DEFAULT_COUNTRIES = ("臺灣",)
 HOME_FEED_DEFAULT_TAGS = ("口琴",)
+SOCIAL_CAPTION_PLATFORMS = {"facebook", "instagram", "threads", "x"}
 PLATFORM_FILTER_ORDER = ("Facebook", "Instagram", "RSS", "Threads", "X", "YouTube")
 PLATFORM_FILTER_RANK = {label.casefold(): index for index, label in enumerate(PLATFORM_FILTER_ORDER)}
 WEBP_QUALITY = "82"
@@ -1231,6 +1232,21 @@ def directory_profile_for_update(row: dict[str, Any], profile: dict[str, str], s
     return {}
 
 
+def public_update_title_kind(row: dict[str, Any], story: bool) -> str:
+    if story:
+        return "caption"
+    platform = str(row.get("platform") or "").strip().casefold()
+    if platform in SOCIAL_CAPTION_PLATFORMS:
+        return "caption"
+    return "title"
+
+
+def public_update_display_title(row: dict[str, Any], headline: str, title_kind: str) -> str:
+    if title_kind != "title":
+        return ""
+    return str(row.get("rsshub_title") or headline or "").strip()
+
+
 def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
     source_id = str(row.get("source_id") or "")
     profile = SOURCE_PROFILE_BY_ID.get(source_id, {})
@@ -1249,6 +1265,8 @@ def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
     media_type = str(row.get("media_type") or "")
     story = bool(row.get("story") or media_type == "instagram_story")
     platform_label = "Instagram story" if story else source_platform_label(row.get("platform") or "")
+    title_kind = public_update_title_kind(row, story)
+    display_title = public_update_display_title(row, headline, title_kind)
     images = [str(url) for url in (row.get("images") or []) if url]
     image_url = str(row.get("image_url") or (images[0] if images else ""))
     videos = [str(url) for url in (row.get("videos") or []) if url]
@@ -1273,6 +1291,8 @@ def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
     return {
         "title": title,
         "headline": headline,
+        "display_title": display_title,
+        "title_kind": title_kind,
         "link": link,
         "source_id": source_id,
         "source": source,
@@ -1555,13 +1575,57 @@ def html_lines(value: Any) -> str:
     return "<br>".join(html_escape(line) for line in lines)
 
 
-def homepage_excerpt(value: Any, limit: int = 220, max_lines: int = 3, skip_first: bool = False) -> str:
-    text = compact_multiline(str(value or ""), limit)
-    lines = text.splitlines()
-    if skip_first and lines:
+def home_text_lines(value: Any, skip_first: bool = False) -> list[str]:
+    lines = [line.strip() for line in str(value or "").strip().splitlines() if line.strip()]
+    if skip_first:
         lines = lines[1:]
-    lines = lines[:max_lines]
-    return "<br>".join(html_escape(line) for line in lines if line)
+    return lines
+
+
+def normalize_compare_text(value: Any) -> str:
+    return re.sub(r"\s+", " ", str(value or "")).strip()
+
+
+def html_text_with_breaks(value: Any, emphasize_first_line: bool = False) -> str:
+    lines = [line.strip() for line in str(value or "").splitlines() if line.strip()]
+    if not lines:
+        return ""
+    if not emphasize_first_line:
+        return html_escape("\n".join(lines)).replace("\n", "<br>")
+    first_line, *rest = lines
+    rest_html = f"<br>{html_escape(chr(10).join(rest)).replace(chr(10), '<br>')}" if rest else ""
+    return f'<strong class="feed-caption-lead">{html_escape(first_line)}</strong>{rest_html}'
+
+
+def home_feed_text_id(item: dict[str, Any], index: int) -> str:
+    raw_key = str(item.get("key") or item.get("link") or item.get("source") or "item")
+    key = re.sub(r"[^A-Za-z0-9_-]+", "-", raw_key).strip("-")[:48] or "item"
+    return f"feed-text-{index}-{key}"
+
+
+def render_home_text_block(item: dict[str, Any], index: int, display_title: str = "") -> str:
+    has_display_title = bool(str(display_title or "").strip())
+    full_text = "\n".join(home_text_lines(item.get("text"), skip_first=False))
+    if not full_text:
+        return ""
+    collapsed_text = compact_multiline("\n".join(home_text_lines(item.get("text"), skip_first=has_display_title)), 260)
+    collapsed_text = "\n".join(line for line in collapsed_text.splitlines()[:4] if line.strip())
+    visible_text = "\n".join(text for text in [display_title, collapsed_text] if text)
+    expandable = normalize_compare_text(full_text) != normalize_compare_text(visible_text)
+    collapsed_html = html_text_with_breaks(collapsed_text, emphasize_first_line=not has_display_title)
+    if not collapsed_html and not expandable:
+        return ""
+    if not expandable:
+        return f'<span class="feed-latest-excerpt">{collapsed_html}</span>'
+    text_id = home_feed_text_id(item, index)
+    full_html = html_text_with_breaks(full_text, emphasize_first_line=not has_display_title)
+    return f"""
+          <span class="feed-latest-excerpt" id="{html_escape(text_id)}">
+            <span data-feed-text-collapsed>{collapsed_html}</span>
+            <span data-feed-text-expanded hidden>{full_html}</span>
+          </span>
+          <button class="feed-text-toggle" type="button" data-feed-text-toggle aria-expanded="false" aria-controls="{html_escape(text_id)}">查看更多</button>
+    """
 
 
 def render_keyword_pills(keywords: list[str]) -> str:
@@ -1686,18 +1750,24 @@ def render_platform_badge(item: dict[str, Any]) -> str:
     )
 
 
-def render_home_feed_item(item: dict[str, Any]) -> str:
+def render_home_feed_item(item: dict[str, Any], index: int = 0) -> str:
+    display_title = homepage_display_title(item)
     image = item.get("image_url")
     thumb_html = (
         f'<span class="home-feed-thumb"><img src="{html_escape(image)}" alt="" loading="lazy" referrerpolicy="no-referrer"></span>'
         if image
         else ""
     )
-    body_class = "home-feed-body" if thumb_html else "home-feed-body home-feed-body-no-image"
-    excerpt = homepage_excerpt(item.get("text"), limit=260, max_lines=4, skip_first=True)
-    excerpt_html = f'<span class="feed-latest-excerpt">{excerpt}</span>' if excerpt else ""
+    body_classes = [
+        "home-feed-body",
+        "" if thumb_html else "home-feed-body-no-image",
+        "" if display_title else "home-feed-body-no-title",
+    ]
+    body_class = " ".join(class_name for class_name in body_classes if class_name)
+    text_block = render_home_text_block(item, index, display_title)
     tag_html = render_home_tag_pills(item)
     meta_html = f'<div class="entry-meta">{tag_html}</div>' if tag_html else ""
+    title_html = f'<h3 class="home-feed-title">{html_escape(display_title)}</h3>' if display_title else ""
     return f"""
       <article class="home-feed-card">
         <div class="home-feed-source">
@@ -1707,9 +1777,9 @@ def render_home_feed_item(item: dict[str, Any]) -> str:
           {render_platform_badge(item)}
         </div>
         <div class="{body_class}">
-          <h3 class="home-feed-title">{html_escape(item.get("headline") or item.get("title") or "公開更新")}</h3>
+          {title_html}
           {thumb_html}
-          {excerpt_html}
+          {text_block}
         </div>
         <div class="home-feed-footer">
           {meta_html}
@@ -1759,6 +1829,27 @@ def source_platform_label(platform: Any) -> str:
     if lowered == "youtube":
         return "YouTube"
     return value
+
+
+def homepage_title_kind(item: dict[str, Any]) -> str:
+    explicit_kind = str(item.get("title_kind") or "").strip().casefold()
+    if explicit_kind:
+        return explicit_kind
+    if is_instagram_story_item(item):
+        return "caption"
+    platform = str(item.get("platform") or "").strip().casefold()
+    if platform in SOCIAL_CAPTION_PLATFORMS:
+        return "caption"
+    return "title"
+
+
+def homepage_display_title(item: dict[str, Any]) -> str:
+    explicit_title = str(item.get("display_title") or "").strip()
+    if explicit_title:
+        return explicit_title
+    if homepage_title_kind(item) != "title":
+        return ""
+    return str(item.get("headline") or item.get("rsshub_title") or "").strip()
 
 
 def platform_filter_sort_key(label: str) -> tuple[int, str]:
@@ -1992,6 +2083,7 @@ def estimate_home_feed_height(item: dict[str, Any]) -> int:
         str(value or "")
         for value in [
             item.get("headline"),
+            item.get("display_title"),
             item.get("title"),
             item.get("source"),
             item.get("excerpt"),
@@ -2005,15 +2097,15 @@ def estimate_home_feed_height(item: dict[str, Any]) -> int:
 def render_home_feed_columns(rows: list[dict[str, Any]], column_count: int = 3) -> str:
     if not rows:
         return '<div class="empty-state">目前沒有近期待觀測項目。</div>'
-    columns: list[list[dict[str, Any]]] = [[] for _ in range(column_count)]
+    columns: list[list[tuple[int, dict[str, Any]]]] = [[] for _ in range(column_count)]
     heights = [0] * column_count
-    for item in rows:
+    for item_index, item in enumerate(rows):
         column_index = min(range(column_count), key=lambda index: heights[index])
-        columns[column_index].append(item)
+        columns[column_index].append((item_index, item))
         heights[column_index] += estimate_home_feed_height(item)
     rendered_columns = []
     for index, column_rows in enumerate(columns, start=1):
-        column_html = "\n".join(render_home_feed_item(item) for item in column_rows)
+        column_html = "\n".join(render_home_feed_item(item, item_index) for item_index, item in column_rows)
         rendered_columns.append(
             f'      <div class="feed-river-column" data-feed-column="{index}">\n'
             f"{column_html}\n"
