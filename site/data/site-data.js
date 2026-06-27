@@ -1,5 +1,5 @@
 window.HARMONICA_OBSERVE_DATA = {
-  "generatedAt": "2026-06-27",
+  "generatedAt": "2026-06-28",
   "entries": [
     {
       "id": "watchlist-50",
@@ -13024,6 +13024,84 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-183",
+      "name": "蔡明勳",
+      "nameEn": "Ming-Hsun Tsai",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "低音口琴/重奏/演出/音控",
+      "structuredSummary": "低音口琴/重奏/演出/音控 / 低音口琴/重奏 / 演出人員/音控",
+      "summary": "臺灣的低音口琴與重奏演出人員與音控，活動脈絡包含演出與音控。",
+      "keywords": "蔡明勳 Ming-Hsun Tsai 低音口琴 The Duet Judy's Harmonica Ensemble",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/MingHsunTsai830618/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/minnie.o6i8/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@minghsunTsai"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "蔡明",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_minghsuntsai830618",
+          "name": "蔡明勳",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/MingHsunTsai830618",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_minnie_o6i8",
+          "name": "蔡明勳",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "minnie.o6i8",
+          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_minnie_o6i8",
+          "name": "蔡明勳",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "minnie.o6i8",
+          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/minnie.o6i8/story/0"
+        },
+        {
+          "id": "yt_minghsuntsai",
+          "name": "蔡明勳",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@minghsunTsai",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-35",
       "name": "陳奕翔",
       "nameEn": "",
@@ -13264,7 +13342,7 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 194,
+    "totalEntries": 195,
     "categories": {
       "其他來源": 2,
       "國際交流": 10,
@@ -13273,7 +13351,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "學校社團": 36,
       "教學器材": 13,
       "活動資訊": 20,
-      "演奏者": 68
+      "演奏者": 69
     },
     "countries": {
       "中國": 8,
@@ -13293,7 +13371,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "瑞士": 1,
       "紐西蘭": 1,
       "美國": 7,
-      "臺灣": 87,
+      "臺灣": 88,
       "英國": 3,
       "荷蘭": 1,
       "西班牙": 2,
@@ -13303,24 +13381,24 @@ window.HARMONICA_OBSERVE_DATA = {
       "馬來西亞": 8
     },
     "watchSources": {
-      "totalSources": 547,
-      "rsshubSources": 283,
-      "apifySources": 140,
-      "facebookSources": 140,
-      "youtubeSources": 124,
+      "totalSources": 551,
+      "rsshubSources": 285,
+      "apifySources": 141,
+      "facebookSources": 141,
+      "youtubeSources": 125,
       "platforms": {
-        "facebook": 140,
-        "instagram": 268,
+        "facebook": 141,
+        "instagram": 270,
         "threads": 2,
         "x": 13,
-        "youtube": 124
+        "youtube": 125
       },
       "types": {
-        "facebook_page_posts": 140,
+        "facebook_page_posts": 141,
         "rss": 15,
-        "rsshub_instagram_profile": 134,
-        "rsshub_instagram_story": 134,
-        "youtube_ytdlp": 124
+        "rsshub_instagram_profile": 135,
+        "rsshub_instagram_story": 135,
+        "youtube_ytdlp": 125
       }
     }
   }
