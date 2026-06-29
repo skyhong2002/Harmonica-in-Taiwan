@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
   "json": "https://harmonica.observe.tw/api/student-clubs.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/student-clubs.json",
-  "count": 81,
+  "count": 82,
   "items": [
     {
       "title": "EMPA 口琴課程｜Instagram story @empa.oficial",
@@ -885,6 +885,64 @@
         "學生社團"
       ],
       "key": "fb_siriusharp:1567718685365740"
+    },
+    {
+      "title": "Filip Jers Music｜Harmonica Warm Up nr 2 (recorded live video, unedited) Harmonica warm up #2! This harmonica warm up fe…",
+      "headline": "Harmonica Warm Up nr 2 (recorded live video, unedited)",
+      "display_title": "Harmonica Warm Up nr 2 (recorded live video, unedited)",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=pvzoJJ8LLpA",
+      "source_id": "yt_filipjersmusic",
+      "source": "Filip Jers Music",
+      "source_system_name": "Filip Jers",
+      "source_profile_url": "https://www.youtube.com/channel/UCw8_3_JtqkOyUixf4BDUS3A",
+      "country": "瑞典",
+      "region": "瑞典",
+      "directory_entry_id": "watchlist-114",
+      "directory_entry_name": "Filip Jers",
+      "account": "https://www.youtube.com/channel/UCw8_3_JtqkOyUixf4BDUS3A",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-06-26T20:23:48+00:00",
+      "posted_at_local": "2026-06-27 04:23",
+      "seen_at": "2026-06-29T20:25:31.361382+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": false,
+      "llm_confidence": 0.9,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "来源為口琴演奏者但貼文為一般教學與個人宣傳，非臺灣口琴社群相關活動或更新。",
+      "text": "Harmonica Warm Up nr 2 (recorded live video, unedited)\nHarmonica warm up #2!\nThis harmonica warm up features a single note scale motion in a repetitive pattern. Doing this really opens up the breathing, single note stability and pitch control. Do it maximum for 1 minute sessions, maybe 3-5 sessions as a warm up. Take it easy and slow first - work up the speed and don't rush it.\nWe are using the first five notes of the major scale, hole 4-6 on diatonic and holes 5-7 on chromatic harmonica. You can do either the eight note version or 16th note version.\nOn my Patreon you will get the PDF for free.\nBest,\nFilip\nJoin my Patreon community for exclusive lessons, vlogs & PDF sheet music with tabs:\nhttps://www.patreon.com/filipjersharmonica\n---\nSupport my Youtube channel - just $3/month (like buying me a monthly coffee!)\n☕🙏\nhttps://www.youtube.com/channel/UCw8_3_JtqkOyUixf4BDUS3A/join\n---\nThanks for watching! 😀\n---\nFilip Jers is an internationally known harmonica player from Stockholm, Sweden, and one of the most sought-after harmonica players in Europe. At the age of 39, he has performed in almost 30 countries all over the world.\nIn 2011, Jers graduated with a Master’s Degree in Fine Arts …",
+      "images": [
+        "https://i.ytimg.com/vi/pvzoJJ8LLpA/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/pvzoJJ8LLpA/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/5c9c77b967a11491cd33.webp",
+      "source_avatar_url": "https://yt3.googleusercontent.com/ggFcZDfgk_EDS4gRnzNXY9MB08CeM-Ghw_b2uyNWEI1ULwUVA6mYFQnHfGwXXzo80uTlJHofvA=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/9add81f6d8fd7873d90b.webp",
+      "source_initials": "FJM",
+      "categories": [
+        "posts-videos",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "學生社團"
+      ],
+      "key": "yt_filipjersmusic:pvzoJJ8LLpA"
     },
     {
       "title": "蔡明憲｜生日禮物， 十年對於24-34 歲來說是一個相對大的跨度，從一個剛出社會工作的年輕人，到有穩定的工作、經營事業；2016年我坐在替代役學校的警衛室，用我的 Windows筆電按下「購買」鍵，買下人生第一台規格比較好的 MacBoo…",
