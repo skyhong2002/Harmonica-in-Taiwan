@@ -28,6 +28,8 @@ SOCIAL_INBOX = PROJECT_ROOT / "data" / "feeds" / "social_feed_inbox.jsonl"
 SOCIAL_ERRORS = PROJECT_ROOT / "data" / "feeds" / "social_feed_errors.jsonl"
 SOCIAL_SEEN = PROJECT_ROOT / "state" / "social_seen.json"
 SOCIAL_FETCH_STATE = PROJECT_ROOT / "state" / "social_fetch_state.json"
+PIPELINE_RUNTIME_STATUS = SITE_ROOT / "api" / "pipeline-runtime.json"
+SOCIAL_FETCH_PROGRESS = SITE_ROOT / "api" / "social-fetch-progress.json"
 APIFY_LEDGER = PROJECT_ROOT / "state" / "apify_facebook_fetcher.json"
 YOUTUBE_LEDGER = PROJECT_ROOT / "state" / "youtube_ytdlp_fetcher.json"
 LATEST_API = SITE_ROOT / "api" / "latest.json"
@@ -38,7 +40,7 @@ ASSET_VERSION = "20260627-2225"
 PUBLIC_BASE_URL = "https://harmonica.observe.tw"
 TAIPEI_TZ = dt.timezone(dt.timedelta(hours=8))
 CURRENT_ERROR_WINDOW_SECONDS = 15 * 60
-FRESH_PIPELINE_HOURS = 36
+FRESH_PIPELINE_HOURS = 2
 STORY_EMPTY_ERROR_PATTERNS = (
     "content does not exist",
     "user has no stories",
@@ -167,7 +169,12 @@ def format_hours(value: Any) -> str:
     return f"{number:.1f}".rstrip("0").rstrip(".")
 
 
-def instagram_schedule_details(fetch_state: dict[str, Any], social_seen: dict[str, Any], now: dt.datetime) -> list[str]:
+def instagram_schedule_details(
+    fetch_state: dict[str, Any],
+    social_seen: dict[str, Any],
+    social_progress: dict[str, Any],
+    now: dt.datetime,
+) -> list[str]:
     settings = fetch_state.get("settings") if isinstance(fetch_state.get("settings"), dict) else {}
     last_run = social_seen.get("last_watchdog_run") if isinstance(social_seen.get("last_watchdog_run"), dict) else {}
     instagram_run = last_run.get("instagram") if isinstance(last_run.get("instagram"), dict) else {}
@@ -176,17 +183,31 @@ def instagram_schedule_details(fetch_state: dict[str, Any], social_seen: dict[st
     details = [
         (
             "IG 節流：profile 每 "
-            f"{format_hours(settings.get('instagram_profile_interval_hours', 24))} 小時、story 每 "
+            f"{format_hours(settings.get('instagram_profile_interval_hours', 12))} 小時、story 每 "
             f"{format_hours(settings.get('instagram_story_interval_hours', 12))} 小時；"
-            f"來源間隔 {format_hours(settings.get('instagram_delay_secs', 8))} 秒。"
+            f"來源間隔 {format_hours(settings.get('instagram_delay_secs', 8))} 秒、"
+            f"每輪最多 {int(settings.get('instagram_max_attempts_per_run') or 40)} 個。"
         )
     ]
     if instagram_run:
         details.append(
             "本輪 IG："
             f"抓取 {int(instagram_run.get('attempted') or 0)}、"
-            f"排程略過 {int(instagram_run.get('skipped') or 0)}、"
+            f"排程略過 {int(instagram_run.get('scheduled') or 0)}、"
+            f"延後 {int(instagram_run.get('deferred') or 0)}、"
             f"錯誤 {int(instagram_run.get('errors') or 0)}。"
+        )
+
+    progress_heartbeat = parse_time(social_progress.get("heartbeatAt"))
+    progress_age = hours_since(progress_heartbeat, now)
+    if social_progress.get("status") == "running" and progress_age is not None and progress_age < 0.25:
+        current_source = social_progress.get("currentSource") if isinstance(social_progress.get("currentSource"), dict) else {}
+        details.append(
+            "執行中："
+            f"{social_progress.get('phase') or 'watchdog'}，"
+            f"{int(social_progress.get('processedSources') or 0)}/{int(social_progress.get('totalSources') or 0)}；"
+            f"目前 {current_source.get('name') or current_source.get('id') or '未記錄'}；"
+            f"heartbeat {time_label(progress_heartbeat)}。"
         )
 
     next_due_values = []
@@ -402,6 +423,8 @@ def build_status() -> dict[str, Any]:
     errors = read_jsonl(SOCIAL_ERRORS)
     social_seen = read_json(SOCIAL_SEEN, {})
     social_fetch_state = read_json(SOCIAL_FETCH_STATE, {})
+    pipeline_runtime = read_json(PIPELINE_RUNTIME_STATUS, {})
+    social_progress = read_json(SOCIAL_FETCH_PROGRESS, {})
     latest_payload = read_json(LATEST_API, {})
     sources_payload = read_json(SOURCES_API, {})
     apify_ledger = read_json(APIFY_LEDGER, {})
@@ -463,6 +486,30 @@ def build_status() -> dict[str, Any]:
         f"pipeline.log 更新：{time_label(file_mtime(PIPELINE_LOG))}",
         f"pipeline.err.log 更新：{time_label(file_mtime(PIPELINE_ERR_LOG))}",
     ]
+    runtime_heartbeat = parse_time(pipeline_runtime.get("heartbeatAt"))
+    runtime_age = hours_since(runtime_heartbeat, now)
+    runtime_step = str(pipeline_runtime.get("currentStep") or "")
+    if (
+        pipeline_runtime.get("status") == "running"
+        and runtime_age is not None
+        and runtime_age < 0.25
+        and runtime_step != "build status page"
+    ):
+        pipeline_details.insert(
+            0,
+            "執行中："
+            f"{runtime_step or pipeline_runtime.get('message') or 'pipeline'}；"
+            f"PID {pipeline_runtime.get('pid') or '-'}；"
+            f"heartbeat {time_label(runtime_heartbeat)}。",
+        )
+    elif pipeline_runtime.get("status") == "failed" and runtime_age is not None and runtime_age < FRESH_PIPELINE_HOURS:
+        pipeline_status = "degraded"
+        pipeline_details.insert(
+            0,
+            "最近 pipeline 失敗："
+            f"{pipeline_runtime.get('currentStep') or pipeline_runtime.get('message') or '未記錄'}；"
+            f"heartbeat {time_label(runtime_heartbeat)}。",
+        )
     if latest_age is None or latest_age > FRESH_PIPELINE_HOURS:
         pipeline_status = "degraded"
         pipeline_details.append(f"公開資料超過 {FRESH_PIPELINE_HOURS} 小時未更新")
@@ -479,7 +526,7 @@ def build_status() -> dict[str, Any]:
             "pipeline",
             "主排程與輸出",
             pipeline_status,
-            "每日 pipeline 已產生公開資料快照。" if pipeline_status == "ok" else "排程或輸出時間需要檢查。",
+            "定期 pipeline 已產生公開資料快照。" if pipeline_status == "ok" else "排程或輸出時間需要檢查。",
             pipeline_details,
         )
     )
@@ -535,7 +582,7 @@ def build_status() -> dict[str, Any]:
             [
                 f"最新社群觀測：{time_label(latest_social_seen_at)}",
                 f"story 無公開內容/空路由略過：{len(story_empty_errors)}",
-                *instagram_schedule_details(social_fetch_state, social_seen, now),
+                *instagram_schedule_details(social_fetch_state, social_seen, social_progress, now),
             ],
         )
     )
@@ -678,6 +725,10 @@ def build_status() -> dict[str, Any]:
         },
         "components": components,
         "recentErrors": annotated_current_errors[-20:],
+        "runtime": {
+            "pipeline": pipeline_runtime,
+            "socialFetch": social_progress,
+        },
     }
     return status
 

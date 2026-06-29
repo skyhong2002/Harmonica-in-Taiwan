@@ -34,6 +34,7 @@ DEFAULT_INBOX = PROJECT_ROOT / "data" / "feeds" / "social_feed_inbox.jsonl"
 DEFAULT_LLM_CACHE = PROJECT_ROOT / "state" / "social_llm_tags.json"
 DEFAULT_INSTAGRAM_USER_IDS = PROJECT_ROOT / "state" / "instagram_user_ids.json"
 DEFAULT_FETCH_STATE = PROJECT_ROOT / "state" / "social_fetch_state.json"
+DEFAULT_PROGRESS = PROJECT_ROOT / "site" / "api" / "social-fetch-progress.json"
 
 GRAPH_VERSION = os.environ.get("HARMONICA_META_API_VERSION", "v25.0")
 GRAPH_BASE = f"https://graph.facebook.com/{GRAPH_VERSION}"
@@ -65,10 +66,12 @@ STORY_EMPTY_ERROR_PATTERNS = (
     "this route is empty",
     "profile is private",
 )
-DEFAULT_INSTAGRAM_PROFILE_INTERVAL_HOURS = 24.0
+DEFAULT_INSTAGRAM_PROFILE_INTERVAL_HOURS = 12.0
 DEFAULT_INSTAGRAM_STORY_INTERVAL_HOURS = 12.0
 DEFAULT_INSTAGRAM_DELAY_SECS = 8.0
 DEFAULT_INSTAGRAM_BOOTSTRAP_COOLDOWN_HOURS = 6.0
+DEFAULT_INSTAGRAM_MAX_ATTEMPTS_PER_RUN = 40
+INSTAGRAM_SCHEDULE_EPOCH = dt.datetime(1970, 1, 1, tzinfo=dt.timezone.utc)
 DEFAULT_RSS_DELAY_SECS = 0.25
 OPENCODE_GO_BASE_URL = "https://opencode.ai/zen/go/v1"
 DEFAULT_LLM_MODEL = "mimo-v2.5"
@@ -101,6 +104,20 @@ def env_float(name: str, default: float, *, minimum: float | None = None) -> flo
     else:
         try:
             value = float(raw)
+        except ValueError:
+            value = default
+    if minimum is not None:
+        value = max(minimum, value)
+    return value
+
+
+def env_int(name: str, default: int, *, minimum: int | None = None) -> int:
+    raw = os.environ.get(name, "").strip()
+    if not raw:
+        value = default
+    else:
+        try:
+            value = int(raw)
         except ValueError:
             value = default
     if minimum is not None:
@@ -584,6 +601,24 @@ def source_identity(source: dict[str, Any]) -> str:
     return str(source.get("id") or source.get("url") or source.get("username") or source.get("page") or "").strip()
 
 
+def progress_source_summary(source: dict[str, Any]) -> dict[str, str]:
+    name = (
+        source.get("name")
+        or source.get("title")
+        or source.get("handle")
+        or source.get("username")
+        or source.get("url")
+        or source.get("feed_url")
+        or ""
+    )
+    return {
+        "id": source_identity(source),
+        "type": str(source.get("type") or ""),
+        "platform": str(source.get("platform") or ""),
+        "name": compact_text(str(name), 160),
+    }
+
+
 def utc_iso(value: dt.datetime) -> str:
     return value.astimezone(dt.timezone.utc).isoformat()
 
@@ -613,8 +648,30 @@ def scheduled_instagram_due_at(
     source_id = source_identity(source)
     kind = instagram_source_kind(source)
     interval_seconds = max(0.0, interval_hours * 3600.0)
+    anchor_utc = anchor.astimezone(dt.timezone.utc)
     offset = stable_offset_seconds(f"{kind}:{source_id}", interval_seconds)
-    return anchor + dt.timedelta(seconds=offset)
+    if interval_seconds <= 0:
+        return anchor_utc
+    elapsed = (anchor_utc - INSTAGRAM_SCHEDULE_EPOCH).total_seconds()
+    cycles = int((elapsed - offset) // interval_seconds)
+    due_at = INSTAGRAM_SCHEDULE_EPOCH + dt.timedelta(seconds=(cycles * interval_seconds) + offset)
+    if due_at < anchor_utc:
+        due_at += dt.timedelta(seconds=interval_seconds)
+    return due_at
+
+
+def next_scheduled_instagram_due_at(
+    source: dict[str, Any],
+    *,
+    after: dt.datetime,
+    interval_hours: float,
+) -> dt.datetime:
+    interval_seconds = max(0.0, interval_hours * 3600.0)
+    after_utc = after.astimezone(dt.timezone.utc)
+    due_at = scheduled_instagram_due_at(source, anchor=after_utc, interval_hours=interval_hours)
+    if interval_seconds > 0 and due_at <= after_utc:
+        due_at += dt.timedelta(seconds=interval_seconds)
+    return due_at
 
 
 def normalize_fetch_state(value: Any) -> dict[str, Any]:
@@ -674,8 +731,19 @@ def instagram_due_info(
     entry = entries.setdefault(source_id, {})
     changed = False
     next_due_at = parse_datetime(entry.get("next_due_at"))
-    if next_due_at is None:
-        anchor = bootstrap_anchor or now
+    try:
+        previous_interval_hours = float(entry.get("interval_hours"))
+    except (TypeError, ValueError):
+        previous_interval_hours = None
+    interval_changed = previous_interval_hours is None or abs(previous_interval_hours - interval_hours) > 0.001
+    if next_due_at is None or interval_changed:
+        last_attempt_at = parse_datetime(entry.get("last_attempt_at") or entry.get("last_success_at"))
+        if next_due_at is None:
+            anchor = bootstrap_anchor or now
+        elif last_attempt_at is not None:
+            anchor = last_attempt_at + dt.timedelta(hours=interval_hours)
+        else:
+            anchor = now
         next_due_at = scheduled_instagram_due_at(source, anchor=anchor, interval_hours=interval_hours)
         entry.update(
             {
@@ -712,6 +780,7 @@ def record_instagram_attempt(
         return
     interval_hours = instagram_interval_hours(source, args)
     entry = fetch_state.setdefault("sources", {}).setdefault(source_id, {})
+    next_due_at = next_scheduled_instagram_due_at(source, after=now, interval_hours=interval_hours) if interval_hours > 0 else None
     entry.update(
         {
             "source_type": str(source.get("type") or ""),
@@ -719,7 +788,7 @@ def record_instagram_attempt(
             "last_attempt_at": utc_iso(now),
             "last_status": status,
             "last_post_count": int(post_count),
-            "next_due_at": utc_iso(now + dt.timedelta(hours=interval_hours)) if interval_hours > 0 else "",
+            "next_due_at": utc_iso(next_due_at) if next_due_at is not None else "",
         }
     )
     if status == "ok":
@@ -1562,6 +1631,7 @@ def main() -> int:
     parser.add_argument("--candidates", type=Path, default=DEFAULT_CANDIDATES)
     parser.add_argument("--errors", type=Path, default=DEFAULT_ERRORS)
     parser.add_argument("--fetch-state", type=Path, default=DEFAULT_FETCH_STATE)
+    parser.add_argument("--progress", type=Path, default=DEFAULT_PROGRESS)
     parser.add_argument("--check", action="store_true")
     parser.add_argument("--baseline", action="store_true")
     parser.add_argument("--emit-initial", action="store_true")
@@ -1599,6 +1669,16 @@ def main() -> int:
             minimum=0.0,
         ),
     )
+    parser.add_argument(
+        "--instagram-max-attempts-per-run",
+        type=int,
+        default=env_int(
+            "HARMONICA_IG_MAX_ATTEMPTS_PER_RUN",
+            DEFAULT_INSTAGRAM_MAX_ATTEMPTS_PER_RUN,
+            minimum=0,
+        ),
+        help="Maximum due Instagram sources to fetch in one run; 0 disables the cap.",
+    )
     parser.add_argument("--instagram-force", action="store_true")
     parser.add_argument("--llm-tags", dest="llm_tags", action="store_true", default=env_truthy("HARMONICA_ENABLE_LLM_TAGS", True))
     parser.add_argument("--no-llm-tags", dest="llm_tags", action="store_false")
@@ -1626,6 +1706,7 @@ def main() -> int:
     sources = [source for source in config.get("sources", []) if source.get("enabled", True)]
     keywords = config.get("keywords") or []
     token = os.environ.get("HARMONICA_META_ACCESS_TOKEN")
+    progress_path = args.progress if args.progress.is_absolute() else PROJECT_ROOT / args.progress
 
     if args.check:
         by_type: dict[str, int] = {}
@@ -1655,8 +1736,10 @@ def main() -> int:
                     "instagram_story_interval_hours": args.instagram_story_interval_hours,
                     "instagram_delay_secs": args.instagram_delay_secs,
                     "instagram_bootstrap_cooldown_hours": args.instagram_bootstrap_cooldown_hours,
+                    "instagram_max_attempts_per_run": args.instagram_max_attempts_per_run,
                     "instagram_force": bool(args.instagram_force),
                     "fetch_state_file": str(args.fetch_state),
+                    "progress_file": str(args.progress),
                     "default_inbox": str(DEFAULT_INBOX),
                     "seen_file": str(args.seen),
                     "candidates_file": str(args.candidates),
@@ -1684,14 +1767,18 @@ def main() -> int:
         "profile_interval_hours": float(args.instagram_profile_interval_hours),
         "story_interval_hours": float(args.instagram_story_interval_hours),
         "delay_secs": float(args.instagram_delay_secs),
+        "max_attempts_per_run": int(args.instagram_max_attempts_per_run),
         "attempted": 0,
         "skipped": 0,
         "scheduled": 0,
+        "deferred": 0,
         "errors": 0,
         "profile_attempted": 0,
         "profile_skipped": 0,
+        "profile_deferred": 0,
         "story_attempted": 0,
         "story_skipped": 0,
+        "story_deferred": 0,
     }
     if bootstrap_anchor is not None:
         observed_at = parse_datetime(seen.get("updated_at") or seen.get("initialized_at")) or now_utc
@@ -1719,7 +1806,50 @@ def main() -> int:
     elif args.llm_tags and first_run and not args.emit_initial:
         llm_stats["disabled_reason"] = "initial_baseline_without_emit_initial"
 
-    for source in sources:
+    def publish_progress(
+        *,
+        status: str = "running",
+        phase: str = "",
+        processed_sources: int = 0,
+        current_source: dict[str, Any] | None = None,
+        message: str = "",
+    ) -> None:
+        save_json(
+            progress_path,
+            {
+                "version": 1,
+                "status": status,
+                "pid": os.getpid(),
+                "startedAt": utc_iso(run_started_at),
+                "heartbeatAt": utc_iso(dt.datetime.now(dt.timezone.utc)),
+                "finishedAt": utc_iso(dt.datetime.now(dt.timezone.utc)) if status in {"ok", "failed"} else "",
+                "phase": phase,
+                "message": message,
+                "processedSources": processed_sources,
+                "totalSources": len(sources),
+                "currentSource": current_source or {},
+                "fetchedPosts": fetched_count,
+                "newRelevantPosts": len(new_posts),
+                "skippedOldPosts": skipped_old,
+                "errors": len(errors),
+                "instagram": schedule_stats,
+                "llmTags": {
+                    "enabled": bool(llm_stats.get("enabled")),
+                    "requests": int(llm_stats.get("requests") or 0),
+                    "errors": int(llm_stats.get("errors") or 0),
+                    "cached": int(llm_stats.get("cached") or 0),
+                },
+            },
+        )
+
+    publish_progress(phase="starting", processed_sources=0)
+
+    for source_index, source in enumerate(sources, start=1):
+        publish_progress(
+            phase="source",
+            processed_sources=source_index - 1,
+            current_source=progress_source_summary(source),
+        )
         instagram_kind = instagram_source_kind(source)
         if instagram_kind:
             due, skip_reason, schedule_changed = instagram_due_info(
@@ -1736,6 +1866,28 @@ def main() -> int:
                 schedule_stats[f"{instagram_kind}_skipped"] = int(schedule_stats.get(f"{instagram_kind}_skipped") or 0) + 1
                 record_instagram_skip(fetch_state, source, now=now_utc, reason=skip_reason)
                 fetch_state_changed = True
+                publish_progress(
+                    phase="source skipped",
+                    processed_sources=source_index,
+                    current_source=progress_source_summary(source),
+                    message=skip_reason,
+                )
+                continue
+            max_instagram_attempts = max(0, int(args.instagram_max_attempts_per_run))
+            if max_instagram_attempts and int(schedule_stats["attempted"]) >= max_instagram_attempts:
+                skip_reason = f"run attempt limit reached ({max_instagram_attempts})"
+                schedule_stats["skipped"] += 1
+                schedule_stats["deferred"] += 1
+                schedule_stats[f"{instagram_kind}_skipped"] = int(schedule_stats.get(f"{instagram_kind}_skipped") or 0) + 1
+                schedule_stats[f"{instagram_kind}_deferred"] = int(schedule_stats.get(f"{instagram_kind}_deferred") or 0) + 1
+                record_instagram_skip(fetch_state, source, now=now_utc, reason=skip_reason)
+                fetch_state_changed = True
+                publish_progress(
+                    phase="source deferred",
+                    processed_sources=source_index,
+                    current_source=progress_source_summary(source),
+                    message=skip_reason,
+                )
                 continue
             schedule_stats["attempted"] += 1
             schedule_stats[f"{instagram_kind}_attempted"] = int(schedule_stats.get(f"{instagram_kind}_attempted") or 0) + 1
@@ -1763,7 +1915,19 @@ def main() -> int:
                 fetch_state_changed = True
             delay_secs = source_delay_secs(source, token, args)
             if delay_secs:
+                publish_progress(
+                    phase="source sleep",
+                    processed_sources=source_index,
+                    current_source=progress_source_summary(source),
+                    message=f"sleeping {delay_secs:.1f}s after error",
+                )
                 time.sleep(delay_secs)
+            publish_progress(
+                phase="source error",
+                processed_sources=source_index,
+                current_source=progress_source_summary(source),
+                message=error_text,
+            )
             continue
         if instagram_kind:
             record_instagram_attempt(
@@ -1825,7 +1989,18 @@ def main() -> int:
             seen_map[key] = dt.datetime.now(dt.timezone.utc).isoformat()
         delay_secs = source_delay_secs(source, token, args)
         if delay_secs:
+            publish_progress(
+                phase="source sleep",
+                processed_sources=source_index,
+                current_source=progress_source_summary(source),
+                message=f"sleeping {delay_secs:.1f}s",
+            )
             time.sleep(delay_secs)
+        publish_progress(
+            phase="source done",
+            processed_sources=source_index,
+            current_source=progress_source_summary(source),
+        )
 
     if llm_stats.get("cache_changed"):
         llm_cache["version"] = 1
@@ -1839,6 +2014,7 @@ def main() -> int:
         "instagram_story_interval_hours": float(args.instagram_story_interval_hours),
         "instagram_delay_secs": float(args.instagram_delay_secs),
         "instagram_bootstrap_cooldown_hours": float(args.instagram_bootstrap_cooldown_hours),
+        "instagram_max_attempts_per_run": int(args.instagram_max_attempts_per_run),
     }
     fetch_state["last_run"] = {
         "started_at": utc_iso(run_started_at),
@@ -1863,6 +2039,7 @@ def main() -> int:
 
     if args.baseline:
         append_errors(args.errors, errors)
+        publish_progress(status="ok", phase="baseline complete", processed_sources=len(sources))
         if args.verbose:
             print(
                 json.dumps(
@@ -1882,6 +2059,7 @@ def main() -> int:
 
     if first_run and not args.emit_initial:
         append_errors(args.errors, errors)
+        publish_progress(status="ok", phase="initial baseline complete", processed_sources=len(sources))
         if args.verbose:
             print(
                 json.dumps(
@@ -1901,6 +2079,7 @@ def main() -> int:
 
     append_candidates(args.candidates, new_posts)
     append_errors(args.errors, errors)
+    publish_progress(status="ok", phase="complete", processed_sources=len(sources))
 
     if new_posts or args.verbose:
         print(
