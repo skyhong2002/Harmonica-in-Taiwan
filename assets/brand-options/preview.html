@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>臺灣口琴觀測站 Brand Options</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #17211d;
+        --muted: #5c6a63;
+        --paper: #ffffff;
+        --soft: #f3f7f4;
+        --line: #dce4df;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--soft);
+        font-family: Inter, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", Arial, sans-serif;
+        line-height: 1.55;
+      }
+      main {
+        width: min(1100px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 40px 0 56px;
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: clamp(2rem, 5vw, 4rem);
+        line-height: 1.05;
+      }
+      p {
+        margin: 0;
+        color: var(--muted);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 18px;
+        margin-top: 30px;
+      }
+      figure {
+        margin: 0;
+        padding: 16px;
+        background: var(--paper);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+      }
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border: 1px solid var(--line);
+      }
+      figcaption {
+        margin-top: 12px;
+        font-weight: 800;
+      }
+      small {
+        display: block;
+        margin-top: 4px;
+        color: var(--muted);
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>臺灣口琴觀測站 Branding Choices</h1>
+      <p>同一個極簡資料節點方向，分成四種可落地的 SVG 標誌語氣。</p>
+      <div class="grid">
+        <figure>
+          <img src="logo-a-signal-row.svg" alt="Logo A Signal Row">
+          <figcaption>A. Signal Row<small>最像網站主標，口琴與 RSS 訊號清楚。</small></figcaption>
+        </figure>
+        <figure>
+          <img src="logo-b-node-wave.svg" alt="Logo B Node Wave">
+          <figcaption>B. Node Wave<small>比較開源資料感，節點語彙更明顯。</small></figcaption>
+        </figure>
+        <figure>
+          <img src="logo-c-civic-ledger.svg" alt="Logo C Civic Ledger">
+          <figcaption>C. Civic Ledger<small>比較文化資料庫、公共索引站。</small></figcaption>
+        </figure>
+        <figure>
+          <img src="logo-d-compact-pulse.svg" alt="Logo D Compact Pulse">
+          <figcaption>D. Compact Pulse<small>最適合 favicon、GitHub avatar、小尺寸。</small></figcaption>
+        </figure>
+      </div>
+    </main>
+  </body>
+</html>

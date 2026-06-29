@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>資料索引｜臺灣口琴觀測站</title>
+    <meta
+      name="description"
+      content="臺灣口琴社團、樂團、演奏者、教學、場館與公開來源索引。"
+    >
+    <link rel="icon" href="/assets/favicon-20260623.svg?v=20260628-0342" type="image/svg+xml">
+    <link rel="alternate" type="application/rss+xml" title="臺灣口琴觀測站來源索引" href="/feeds/sources.xml">
+    <link rel="stylesheet" href="/assets/styles.css?v=20260628-0342">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="臺灣口琴觀測站首頁">
+        <img class="brand-logo" src="/assets/logo.svg?v=20260628-0342" alt="臺灣口琴觀測站" width="200" height="47">
+      </a>
+      <nav class="site-nav" aria-label="主要導覽">
+        <a href="/">首頁</a>
+        <a href="/directory/">資料索引</a>
+        <a href="/status/">狀態</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="feed-page-hero">
+        <div class="band-inner split-layout">
+          <div>
+            <p class="section-kicker">Directory</p>
+            <h1>資料索引</h1>
+          </div>
+          <div class="feed-page-summary">
+            <p>臺灣口琴公開來源索引，預設依最近公開更新排序。</p>
+            <div class="feed-links">
+              <a href="/feeds/sources.xml">來源索引 RSS</a>
+              <a href="/">最新更新</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="band directory-band" id="directory" aria-labelledby="directory-title">
+        <div class="band-inner">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Sources</p>
+              <h2 id="directory-title">公開來源列表</h2>
+            </div>
+            <p class="data-date">更新日期 <span data-stat="generatedAt">-</span></p>
+          </div>
+
+          <div id="directory-filter-panel" aria-label="資料索引搜尋與篩選"></div>
+          <p class="result-count sr-only" id="result-count" aria-live="polite"></p>
+          <div class="directory-grid" id="directory-list"></div>
+        </div>
+      </section>
+
+      <section class="band source-band" aria-labelledby="sources-title">
+        <div class="band-inner split-layout">
+          <div>
+            <p class="section-kicker">Source Boundary</p>
+            <h2 id="sources-title">只發布公開可查資料</h2>
+          </div>
+          <div class="source-points">
+            <p>網站只使用公開連結、名稱、類型、地區、樂器與來源標籤。</p>
+            <p>內部備註、監看規則、私人憑證、成員資料與非公開曲譜入口不會進入公開資料包。</p>
+            <p>不適合公開展示的資料會暫時不顯示。</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div class="footer-brand">
+          <span class="footer-title">臺灣口琴觀測站</span>
+          <p>公開口琴活動、社團、貼文影片與補助資訊索引。</p>
+        </div>
+        <nav class="footer-links" aria-label="頁尾導覽">
+          <a href="/feeds/">RSS</a>
+          <a href="/submit/">資料回報</a>
+          <a href="/api/latest.json">API</a>
+          <a href="https://github.com/skyhong2002/Harmonica-in-Taiwan" target="_blank" rel="noreferrer">GitHub</a>
+        </nav>
+        <p class="footer-meta">只收錄公開可查資料 · 由 <a href="https://www.facebook.com/nycubmhc/" target="_blank" rel="noreferrer">陽明交大竹韻口琴社</a> 維運 · MIT License · © 2026 Sky Hong</p>
+      </div>
+    </footer>
+
+    <script src="/data/site-data.js?v=20260628-0342"></script>
+    <script src="/assets/app.js?v=20260628-0342"></script>
+  </body>
+</html>

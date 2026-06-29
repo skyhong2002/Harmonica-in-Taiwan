@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>臺灣口琴觀測站</title>
+    <meta
+      name="description"
+      content="臺灣口琴公開活動、社團、樂團、演奏者、教學與場館資訊索引。"
+    >
+    <link rel="icon" href="assets/favicon-20260623.svg?v=20260628-0342" type="image/svg+xml">
+    <link rel="alternate" type="application/rss+xml" title="臺灣口琴觀測站公開更新" href="/feeds/updates.xml">
+    <link rel="alternate" type="application/rss+xml" title="全臺口琴實體活動" href="/feeds/events.xml">
+    <link rel="alternate" type="application/rss+xml" title="口琴貼文與影片發布" href="/feeds/posts-videos.xml">
+    <link rel="alternate" type="application/rss+xml" title="口琴學生社團動態" href="/feeds/student-clubs.xml">
+    <link rel="alternate" type="application/rss+xml" title="補助與比賽資訊" href="/feeds/opportunities.xml">
+    <link rel="alternate" type="application/rss+xml" title="臺灣口琴觀測站來源索引" href="/feeds/sources.xml">
+    <link rel="stylesheet" href="assets/styles.css?v=20260628-0342">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="臺灣口琴觀測站首頁">
+        <img class="brand-logo" src="assets/logo.svg?v=20260628-0342" alt="臺灣口琴觀測站" width="200" height="47">
+      </a>
+      <nav class="site-nav" aria-label="主要導覽">
+        <a href="/">首頁</a>
+        <a href="/directory/">資料索引</a>
+        <a href="/status/">狀態</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-scrim"></div>
+        <div class="hero-content">
+          <p class="eyebrow">harmonica.observe.tw</p>
+          <h1 id="hero-title">臺灣口琴觀測站</h1>
+          <p class="hero-copy">
+            公開活動、學校社團、樂團、演奏者、教學工作室與場館入口索引。
+          </p>
+          <div class="hero-actions">
+            <a class="primary-link" href="#latest-feed">看最新更新</a>
+            <a class="secondary-link" href="/directory/">資料索引</a>
+          </div>
+          <div class="stat-row" aria-label="資料統計">
+            <div class="stat-card" tabindex="0" data-tooltip="目前納入自動監看的公開社群與影音來源總數，包含 RSSHub、Apify Facebook 與 YouTube。">
+              <strong data-stat="watchSourceCount">0</strong>
+              <span>監看來源</span>
+            </div>
+            <div class="stat-card" tabindex="0" data-tooltip="透過 rss.observe.tw 抓取的 RSSHub 來源，主要包含 Instagram、X 與其他 RSS route。">
+              <strong data-stat="rsshubSourceCount">0</strong>
+              <span>RSSHub</span>
+            </div>
+            <div class="stat-card" tabindex="0" data-tooltip="透過 Apify Facebook actor 抓取的公開 Facebook 頁面來源。">
+              <strong data-stat="apifySourceCount">0</strong>
+              <span>Apify</span>
+            </div>
+            <div class="stat-card" tabindex="0" data-tooltip="網站資料索引中整理後的團體、演奏者、學校社團、教學單位與場館等公開條目。">
+              <strong data-stat="directoryEntryCount">0</strong>
+              <span>公開目錄</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="band latest-feed-band" id="latest-feed" aria-labelledby="latest-feed-title">
+        <div class="band-inner">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Latest Feed</p>
+              <h2 id="latest-feed-title">最新公開更新</h2>
+            </div>
+            <p class="data-date">Feed 更新 <span data-stat="feedGeneratedAt">-</span></p>
+          </div>
+          <div class="latest-feed-grid" id="latest-feed-grid">
+            <!-- FEED_LATEST_START -->
+            <div class="empty-state">載入最新公開更新中。</div>
+            <!-- FEED_LATEST_END -->
+          </div>
+        </div>
+      </section>
+
+      <section class="band submit-band" id="submit" aria-labelledby="submit-title">
+        <div class="band-inner split-layout">
+          <div>
+            <p class="section-kicker">Report</p>
+            <h2 id="submit-title">資料回報</h2>
+          </div>
+          <div class="submit-panel">
+            <p>如果你看到缺漏、連結失效、社團資訊更新，或有新的公開活動、比賽、補助資訊，請先看回報頁整理需要準備的公開來源，再送出 GitHub 表單。</p>
+            <div class="feed-links">
+              <a href="/submit/">前往資料回報頁</a>
+              <a href="https://github.com/skyhong2002/Harmonica-in-Taiwan/issues" target="_blank" rel="noreferrer">查看處理中的回報</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div class="footer-brand">
+          <span class="footer-title">臺灣口琴觀測站</span>
+          <p>公開口琴活動、社團、貼文影片與補助資訊索引。</p>
+        </div>
+        <nav class="footer-links" aria-label="頁尾導覽">
+          <a href="/feeds/">RSS</a>
+          <a href="/submit/">資料回報</a>
+          <a href="/api/latest.json">API</a>
+          <a href="https://github.com/skyhong2002/Harmonica-in-Taiwan" target="_blank" rel="noreferrer">GitHub</a>
+        </nav>
+        <p class="footer-meta">只收錄公開可查資料 · 由 <a href="https://www.facebook.com/nycubmhc/" target="_blank" rel="noreferrer">陽明交大竹韻口琴社</a> 維運 · MIT License · © 2026 Sky Hong</p>
+      </div>
+    </footer>
+
+    <script src="data/site-data.js?v=20260628-0342"></script>
+    <script src="data/feed-data.js?v=20260628-0342"></script>
+    <script src="assets/app.js?v=20260628-0342"></script>
+  </body>
+</html>

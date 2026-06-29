@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" role="img" aria-labelledby="title desc">
+  <title id="title">臺灣口琴觀測站 Logo B - Node Wave</title>
+  <desc id="desc">A compact open-data mark with harmonica holes, connected data nodes, and the wordmark 臺灣口琴觀測站.</desc>
+  <defs>
+    <style>
+      .word { font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; font-weight: 850; letter-spacing: 0; }
+      .sub { font-family: Inter, Arial, sans-serif; font-weight: 750; letter-spacing: .09em; }
+    </style>
+  </defs>
+  <rect width="760" height="220" fill="#f7faf8"/>
+  <g transform="translate(62 44)">
+    <rect x="0" y="28" width="132" height="92" rx="8" fill="#17211d"/>
+    <rect x="18" y="76" width="96" height="24" rx="12" fill="#ffffff"/>
+    <g fill="#0f766e">
+      <circle cx="34" cy="88" r="6"/>
+      <circle cx="54" cy="88" r="6"/>
+      <circle cx="74" cy="88" r="6"/>
+      <circle cx="94" cy="88" r="6"/>
+    </g>
+    <g stroke="#c85f44" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M34 54l28-18 30 18"/>
+      <path d="M62 36v28"/>
+    </g>
+    <g fill="#f2b84b">
+      <circle cx="34" cy="54" r="8"/>
+      <circle cx="62" cy="36" r="8"/>
+      <circle cx="92" cy="54" r="8"/>
+    </g>
+    <path d="M18 112c24 20 72 20 96 0" stroke="#0f766e" stroke-width="6" stroke-linecap="round" fill="none"/>
+  </g>
+  <g transform="translate(248 62)">
+    <text class="word" x="0" y="58" font-size="47" fill="#17211d">臺灣口琴觀測站</text>
+    <text class="sub" x="2" y="98" font-size="15" fill="#0f766e">PUBLIC HARMONICA DATA IN TAIWAN</text>
+  </g>
+</svg>
