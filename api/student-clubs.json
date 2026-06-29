@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
   "json": "https://harmonica.observe.tw/api/student-clubs.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/student-clubs.json",
-  "count": 82,
+  "count": 83,
   "items": [
     {
       "title": "EMPA 口琴課程｜Instagram story @empa.oficial",
@@ -3031,6 +3031,66 @@
         "學生社團"
       ],
       "key": "ig_has_singapore:https://www.instagram.com/p/DZh2oCTPzJn/"
+    },
+    {
+      "title": "LearnTheHarmonica.com｜Harmonica Lesson - How To Play I Hear Them All ►FREE TRIAL OF MY HARMONICA SCHOOL - https://www.l…",
+      "headline": "Harmonica Lesson - How To Play I Hear Them All",
+      "display_title": "Harmonica Lesson - How To Play I Hear Them All",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=g_M_X9ra6SI",
+      "source_id": "yt_learntheharmonica",
+      "source": "LearnTheHarmonica.com",
+      "source_system_name": "Liam Ward & Malcolm Thorne",
+      "source_profile_url": "https://www.youtube.com/channel/UCFcC_ffSMcfp9JzyO3gbmQw",
+      "country": "英國",
+      "region": "英國",
+      "directory_entry_id": "watchlist-148",
+      "directory_entry_name": "Liam Ward & Malcolm Thorne",
+      "account": "https://www.youtube.com/channel/UCFcC_ffSMcfp9JzyO3gbmQw",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-06-13T09:00:15+00:00",
+      "posted_at_local": "2026-06-13 17:00",
+      "seen_at": "2026-06-29T22:30:56.287792+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": false,
+      "llm_confidence": 0.9,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "來源為 harmonica 教學頻道，但內容是特定歌曲的技巧教學，並非臺灣口琴社團、演出、招生等公開更新。",
+      "text": "Harmonica Lesson - How To Play I Hear Them All\n►FREE TRIAL OF MY HARMONICA SCHOOL - https://www.learntheharmonica.com/school-signup\n►FREE LESSON TABS - https://www.learntheharmonica.com/free-folk-trad-tabs/i-hear-them-all\nIn today's harmonica lesson we're looking at how to play I Hear Them All by Old Crow Medicine Show. There are also some lovely harmonica solos in this song. The link to the tabs (above) includes the tabs for the intro, solos and outro. Today we are looking at the intro only, which is played on a key of A diatonic harmonica.\n►LINK TO KEY OF A HARMONICA - https://amzn.to/3OsrsoG (you don't have to use this link; if you do, I receive a very small commission at no extra cost to you)\nThanks for watching! Remember to ‘Subscribe’ and click the bell to get all my free lessons.\nTIMESTAMPS -\n00:00 Intro\n00:36 How to Play\n03:03 Extra Resources and Next Steps",
+      "images": [
+        "https://i.ytimg.com/vi/g_M_X9ra6SI/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/g_M_X9ra6SI/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/b8a98727773097f276ce.webp",
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_kMQ_l0hNY80KMfFibNrwnYK1kXIl3CDPS-1lTbl4Fi1sI=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/1ffc5d6308b5be3e4787.webp",
+      "source_initials": "LC",
+      "categories": [
+        "posts-videos",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動",
+        "學生社團"
+      ],
+      "key": "yt_learntheharmonica:g_M_X9ra6SI"
     },
     {
       "title": "蔡明憲｜回到故鄉高雄，把這幾年擁有的口琴知識分享給大家，《開琴》系列講座！｜[ DMing Studio ] DMing Studio ｜口琴教學（校隊 / 社團 / 家教）、口琴維修 蔡明憲，天狼星口琴樂團半音階口琴演奏家，專職教學與 …",
