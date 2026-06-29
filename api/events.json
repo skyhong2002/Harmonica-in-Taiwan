@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 252,
+  "count": 253,
   "items": [
     {
       "title": "海明威口琴重奏團｜Instagram story @hummingwayharmonica",
@@ -11299,6 +11299,64 @@
         "實體活動"
       ],
       "key": "ig_rei_harmonica:https://www.instagram.com/p/DZm9Nk9k3pq/"
+    },
+    {
+      "title": "Gregoire Maret｜Grégoire Maret & Friends LE MERCREDI 9 DECEMBRE 2026 - ALHAMBRA - GENÈVE ( billetterie ouverte ) Grégoir…",
+      "headline": "Grégoire Maret & Friends",
+      "display_title": "Grégoire Maret & Friends",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=TlexdZIBbM8",
+      "source_id": "yt_gregoiremaret",
+      "source": "Gregoire Maret",
+      "source_system_name": "Gregoire Maret",
+      "source_profile_url": "https://www.youtube.com/channel/UCbwRBejM2dWGlEwCfmUZbWw",
+      "country": "瑞士",
+      "region": "美國",
+      "directory_entry_id": "watchlist-139",
+      "directory_entry_name": "Gregoire Maret",
+      "account": "https://www.youtube.com/channel/UCbwRBejM2dWGlEwCfmUZbWw",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-06-15T22:23:39+00:00",
+      "posted_at_local": "2026-06-16 06:23",
+      "seen_at": "2026-06-29T21:59:43.061207+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": false,
+      "llm_confidence": 0.85,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "貼文為瑞士口琴家 Gregoire Maret 在日內瓦的演出宣傳，內容雖提及口琴，但為國際爵士樂演出，與臺灣口琴公開更新無直接關聯。",
+      "text": "Grégoire Maret & Friends\nLE MERCREDI 9 DECEMBRE 2026 - ALHAMBRA - GENÈVE\n( billetterie ouverte )\nGrégoire Maret s’est imposé comme une voix unique de son instrument au sein du vaste univers du jazz moderne.\nL’harmoniciste suisse, basé depuis plus de trente ans à New York a été primé plusieurs fois aux Grammy Awards.\nIl a tout simplement redéfini le rôle de l’harmonica dans une variété de styles musicaux.\nLa liste des grands noms de la musique avec lesquels il collabore régulièrement est impressionnante : Herbie Hancock, Pat Metheny, Cassandra Wilson et Marcus Miller ne sont que quelques-uns de ses prestigieux partenaires artistiques.\nEn tant qu’invité en studio et sur scène, Maret a enrichi la musique d’autres grands artistes tels que Prince, Sting, Elton John, Jimmy Scott, Dianne Reeves, Toots Thielemans, Richard Bona, Terri Lyne Carrington, Tito Puente, Kurt Elling, Jeff « Tain » Watts, Charlie Hunter, Youssou N’Dour, Me’Shell Ndegeocello, Pete Seeger, David Sanborn et George Benson grâce à son jeu d’une richesse sonore incomparable.\nDe l’émotion pure, de la virtuosité, découvrez l’hamornica comme vous ne l’avez jamais entendu\nArticles de presse\n« Il a joué aux côtés des plus gr…",
+      "images": [
+        "https://i.ytimg.com/vi/TlexdZIBbM8/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/TlexdZIBbM8/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/db2d2e01b7131e68b4b5.webp",
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_lH9HgKdTOlJT7192sSpTRHGGHisK_pDXtLm7HYFXM9rSc=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/f30fe55ce060533255ab.webp",
+      "source_initials": "GM",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動"
+      ],
+      "key": "yt_gregoiremaret:TlexdZIBbM8"
     },
     {
       "title": "口琴愛好者協會（新加坡）｜A message from our passionate trainers : Thanks to everyone who came down for Harmonica PlayGround yesterd…",
