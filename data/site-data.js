@@ -5824,6 +5824,88 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-129",
+      "name": "香港口琴協會 Hong Kong Harmonica Association",
+      "nameEn": "Hong Kong Harmonica Association",
+      "category": "團體樂團",
+      "type": "協會/團體",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "香港口琴協會/官方頻道/教育推廣/國際賽事與交流",
+      "structuredSummary": "香港口琴協會/官方頻道/教育推廣/國際賽事與交流 / 口琴 / 國際演出團體/協會來源",
+      "summary": "香港的口琴國際演出團體與協會來源，活動脈絡包含香港口琴協會、官方頻道與教育推廣。",
+      "keywords": "Hong Kong Harmonica Association Orchestra HKHA 香港口琴協會 SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hkharmonica.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hkharmonica"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hkharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@hkharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-15T12:00:06+00:00",
+      "latestUpdateLocal": "2026-06-15 20:00",
+      "latestUpdateSource": "香港口琴協會 Hong Kong Harmonica Association",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=Cp9E35QM1k0",
+      "avatarUrl": "/assets/source-avatars/08b5a9de8b0d50d9a7d1.webp",
+      "sourceInitials": "HKH",
+      "sourceTags": [
+        "口琴",
+        "團體樂團",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hkharmonica",
+          "name": "香港口琴協會 Hong Kong Harmonica Association",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hkharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hkharmonica",
+          "name": "香港口琴協會 Hong Kong Harmonica Association",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hkharmonica",
+          "profileUrl": "https://www.instagram.com/hkharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hkharmonica",
+          "name": "香港口琴協會 Hong Kong Harmonica Association",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hkharmonica",
+          "profileUrl": "https://www.instagram.com/hkharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hkharmonica/story/0"
+        },
+        {
+          "id": "yt_hkharmonica",
+          "name": "香港口琴協會 Hong Kong Harmonica Association",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@hkharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-39",
       "name": "林士傑",
       "nameEn": "",
@@ -9894,88 +9976,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@SeoulHarmonicaOrchestra",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-129",
-      "name": "香港口琴協會 Hong Kong Harmonica Association",
-      "nameEn": "Hong Kong Harmonica Association",
-      "category": "團體樂團",
-      "type": "協會/團體",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "香港口琴協會/官方頻道/教育推廣/國際賽事與交流",
-      "structuredSummary": "香港口琴協會/官方頻道/教育推廣/國際賽事與交流 / 口琴 / 國際演出團體/協會來源",
-      "summary": "香港的口琴國際演出團體與協會來源，活動脈絡包含香港口琴協會、官方頻道與教育推廣。",
-      "keywords": "Hong Kong Harmonica Association Orchestra HKHA 香港口琴協會 SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hkharmonica.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hkharmonica"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hkharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@hkharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/08b5a9de8b0d50d9a7d1.webp",
-      "sourceInitials": "HKH",
-      "sourceTags": [
-        "口琴",
-        "團體樂團",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hkharmonica",
-          "name": "香港口琴協會 Hong Kong Harmonica Association",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hkharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hkharmonica",
-          "name": "香港口琴協會 Hong Kong Harmonica Association",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hkharmonica",
-          "profileUrl": "https://www.instagram.com/hkharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hkharmonica",
-          "name": "香港口琴協會 Hong Kong Harmonica Association",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hkharmonica",
-          "profileUrl": "https://www.instagram.com/hkharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hkharmonica/story/0"
-        },
-        {
-          "id": "yt_hkharmonica",
-          "name": "香港口琴協會 Hong Kong Harmonica Association",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@hkharmonica",
           "feedUrl": ""
         }
       ]
