@@ -5695,10 +5695,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "club",
       "aliases": [],
-      "latestUpdateAt": "2026-06-17T05:54:52+00:00",
-      "latestUpdateLocal": "2026-06-17 13:54",
+      "latestUpdateAt": "2026-06-18T08:03:07+00:00",
+      "latestUpdateLocal": "2026-06-18 16:03",
       "latestUpdateSource": "早稻田大學ハーモニカ・ソサィアティ",
-      "latestUpdateUrl": "https://www.instagram.com/p/DZrQ7lAgcVK/",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=6QKtmyb7Tw4",
       "avatarUrl": "/assets/source-avatars/7a4dd8f80893673ad7a5.webp",
       "sourceInitials": "早稻",
       "sourceTags": [

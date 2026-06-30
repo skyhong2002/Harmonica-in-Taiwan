@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
   "json": "https://harmonica.observe.tw/api/student-clubs.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/student-clubs.json",
-  "count": 83,
+  "count": 86,
   "items": [
     {
       "title": "EMPA 口琴課程｜Instagram story @empa.oficial",
@@ -2318,6 +2318,138 @@
       "key": "fb_61574004532712:122182478852800151"
     },
     {
+      "title": "早稲田大学ハーモニカソサィアティ｜とくべチュ、して（2026年度四大学JC・動画）",
+      "headline": "とくべチュ、して（2026年度四大学JC・動画）",
+      "display_title": "とくべチュ、して（2026年度四大学JC・動画）",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=6QKtmyb7Tw4",
+      "source_id": "yt_uceov_vq5jtda7wkneva_08a",
+      "source": "早稲田大学ハーモニカソサィアティ",
+      "source_system_name": "早稻田大學ハーモニカ・ソサィアティ",
+      "source_profile_url": "https://www.youtube.com/channel/UCEOv_Vq5jTdA7WKnEvA-08A",
+      "country": "日本",
+      "region": "日本/東京",
+      "directory_entry_id": "club-24",
+      "directory_entry_name": "早稻田大學ハーモニカ・ソサィアティ",
+      "account": "https://www.youtube.com/channel/UCEOv_Vq5jTdA7WKnEvA-08A",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-06-18T08:03:07+00:00",
+      "posted_at_local": "2026-06-18 16:03",
+      "seen_at": "2026-06-30T01:37:18.273853+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "影片",
+        "交流"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.7,
+      "llm_labels": [
+        "口琴",
+        "影片",
+        "交流"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "來源為早稻田大學口琴社團，內容為四所大學口琴社交流活動的影片，符合口琴社團公開更新。",
+      "text": "とくべチュ、して（2026年度四大学JC・動画）",
+      "images": [
+        "https://i.ytimg.com/vi/6QKtmyb7Tw4/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/6QKtmyb7Tw4/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/f48226e79a2604cdbe0e.webp",
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_kgdx7kTGzIr6Do0rUxzK6v0Qbr9qfHiABQZEN9_7PEGg=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/24ffc599f2312b2a965d.webp",
+      "source_initials": "早稲",
+      "categories": [
+        "posts-videos",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動",
+        "學生社團"
+      ],
+      "key": "yt_uceov_vq5jtda7wkneva_08a:6QKtmyb7Tw4"
+    },
+    {
+      "title": "早稲田大学ハーモニカソサィアティ｜海の見える街（2026年度四大学JC・動画）",
+      "headline": "海の見える街（2026年度四大学JC・動画）",
+      "display_title": "海の見える街（2026年度四大学JC・動画）",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=fZPvsSU9jkk",
+      "source_id": "yt_uceov_vq5jtda7wkneva_08a",
+      "source": "早稲田大学ハーモニカソサィアティ",
+      "source_system_name": "早稻田大學ハーモニカ・ソサィアティ",
+      "source_profile_url": "https://www.youtube.com/channel/UCEOv_Vq5jTdA7WKnEvA-08A",
+      "country": "日本",
+      "region": "日本/東京",
+      "directory_entry_id": "club-24",
+      "directory_entry_name": "早稻田大學ハーモニカ・ソサィアティ",
+      "account": "https://www.youtube.com/channel/UCEOv_Vq5jTdA7WKnEvA-08A",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-06-18T07:41:20+00:00",
+      "posted_at_local": "2026-06-18 15:41",
+      "seen_at": "2026-06-30T01:37:18.273853+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.85,
+      "llm_labels": [
+        "口琴",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "來源為大學口琴社團，貼文標題為口琴演奏影片。",
+      "text": "海の見える街（2026年度四大学JC・動画）",
+      "images": [
+        "https://i.ytimg.com/vi/fZPvsSU9jkk/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/fZPvsSU9jkk/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/fa5f782978444233d95b.webp",
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_kgdx7kTGzIr6Do0rUxzK6v0Qbr9qfHiABQZEN9_7PEGg=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/24ffc599f2312b2a965d.webp",
+      "source_initials": "早稲",
+      "categories": [
+        "posts-videos",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "學生社團"
+      ],
+      "key": "yt_uceov_vq5jtda7wkneva_08a:fZPvsSU9jkk"
+    },
+    {
       "title": "音和樂器｜📣#萬華社大【#龍韻口琴合奏班】#暑期體驗班招生中 授課老師：夏晨茹、張宇樞 上課地點：臺北市龍山國中 上課時間：週一（晚） 🟡授課內容： 📍口琴合奏分部、團練教學： 龍韻口琴樂團招募以下團員： 🔸複音口琴部：需基礎音階吹奏能力…",
       "headline": "📣#萬華社大【#龍韻口琴合奏班】#暑期體驗班招生中",
       "display_title": "",
@@ -2392,6 +2524,62 @@
         "學生社團"
       ],
       "key": "fb_peacetones_harmonica:1500329828773948"
+    },
+    {
+      "title": "早稲田大学ハーモニカソサィアティ｜高嶺の花子さん（2026年度四大学JC・動画）",
+      "headline": "高嶺の花子さん（2026年度四大学JC・動画）",
+      "display_title": "高嶺の花子さん（2026年度四大学JC・動画）",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=7GLlluHA57E",
+      "source_id": "yt_uceov_vq5jtda7wkneva_08a",
+      "source": "早稲田大学ハーモニカソサィアティ",
+      "source_system_name": "早稻田大學ハーモニカ・ソサィアティ",
+      "source_profile_url": "https://www.youtube.com/channel/UCEOv_Vq5jTdA7WKnEvA-08A",
+      "country": "日本",
+      "region": "日本/東京",
+      "directory_entry_id": "club-24",
+      "directory_entry_name": "早稻田大學ハーモニカ・ソサィアティ",
+      "account": "https://www.youtube.com/channel/UCEOv_Vq5jTdA7WKnEvA-08A",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-06-18T07:28:28+00:00",
+      "posted_at_local": "2026-06-18 15:28",
+      "seen_at": "2026-06-30T01:37:18.273853+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [],
+      "keyword_matches": [],
+      "llm_relevant": false,
+      "llm_confidence": 0.85,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "貼文內容為日本四所大學JC的合奏影片，與臺灣口琴活動無關。來源雖含harmonica，但內容非臺灣相關。",
+      "text": "高嶺の花子さん（2026年度四大学JC・動画）",
+      "images": [
+        "https://i.ytimg.com/vi/7GLlluHA57E/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/7GLlluHA57E/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/73e6e041ebb4a32abc2f.webp",
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_kgdx7kTGzIr6Do0rUxzK6v0Qbr9qfHiABQZEN9_7PEGg=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/24ffc599f2312b2a965d.webp",
+      "source_initials": "早稲",
+      "categories": [
+        "posts-videos",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "學生社團"
+      ],
+      "key": "yt_uceov_vq5jtda7wkneva_08a:7GLlluHA57E"
     },
     {
       "title": "陳晟禕｜【教學日常】 這週學校社團進入這學期的最後一堂課，有點教學倦怠，能夠不斷往前的人真的很強。上周看到一則新聞跟“慷慨”的人格特質有關，反省自身，慷慨與分享我想應該還行，不自覺會聯想到“蒼蠅王”內描述的內容，人類的想法要前進，真的很慢…",
