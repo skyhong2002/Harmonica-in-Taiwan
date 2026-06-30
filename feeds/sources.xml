@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 30 Jun 2026 07:33:28 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 08:04:20 +0000</lastBuildDate>
     <item>
       <title>臺中國家歌劇院</title>
       <link>https://www.npac-ntt.org/</link>
@@ -16,6 +16,17 @@ Tag：場館平台、活動資訊、演出
 國家：臺灣
 地區：臺灣/臺中
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>藍波口琴教室</title>
+      <link>https://www.blueboclass.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/208580c304c32492</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：教學、課程、工作室、口琴
+國家：臺灣
+地區：臺灣
+臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。</description>
     </item>
     <item>
       <title>黃冠誌</title>
@@ -467,17 +478,6 @@ Tag：口琴、教學器材、演奏者、教學、半音階、複音、重奏
 國家：臺灣
 地區：臺灣
 臺灣的半音階、複音、Bass與Chord教學與維修來源，關注口琴教學、維修、重奏與硬體。</description>
-    </item>
-    <item>
-      <title>藍波口琴教室</title>
-      <link>https://www.blueboclass.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/208580c304c32492</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：教學、課程、工作室、口琴
-國家：臺灣
-地區：臺灣
-臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。</description>
     </item>
     <item>
       <title>Aiden N Evelyn / Aiden Soon &amp; Evelyn Choong</title>
