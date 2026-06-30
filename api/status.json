@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T16:35:39+08:00",
+  "generatedAt": "2026-06-30T17:06:34+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "degraded",
@@ -11,9 +11,9 @@
     "updatesWindowDays": 30,
     "directoryEntries": 195,
     "watchSources": 551,
-    "currentErrors": 20,
-    "latestDataAt": "2026-06-30T16:35:39+08:00",
-    "latestSocialObservationAt": "2026-06-30T16:35:33+08:00"
+    "currentErrors": 17,
+    "latestDataAt": "2026-06-30T17:06:33+08:00",
+    "latestSocialObservationAt": "2026-06-30T17:06:27+08:00"
   },
   "watchSources": {
     "platforms": {
@@ -40,7 +40,7 @@
       {
         "platform": "instagram",
         "sources": 270,
-        "currentErrors": 5,
+        "currentErrors": 2,
         "status": "degraded"
       },
       {
@@ -71,9 +71,9 @@
       "label": "正常",
       "summary": "定期 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-06-30 16:35:39",
-        "pipeline.log 更新：2026-06-30 16:35:39",
-        "pipeline.err.log 更新：2026-06-30 16:04:35",
+        "最新公開資料：2026-06-30 17:06:33",
+        "pipeline.log 更新：2026-06-30 17:06:33",
+        "pipeline.err.log 更新：2026-06-30 16:35:52",
         "LaunchAgent：running，last exit 0"
       ]
     },
@@ -96,7 +96,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：51 ms"
+        "耗時：50 ms"
       ]
     },
     {
@@ -104,13 +104,13 @@
       "name": "Instagram RSSHub",
       "status": "degraded",
       "label": "部分異常",
-      "summary": "270 個 Instagram 來源（profile 135、story 135）；最新抓取批次目前 5 個錯誤。",
+      "summary": "270 個 Instagram 來源（profile 135、story 135）；最新抓取批次目前 2 個錯誤。",
       "details": [
-        "最新社群觀測：2026-06-30 16:35:33",
+        "最新社群觀測：2026-06-30 17:06:27",
         "story 無公開內容/空路由略過：0",
         "IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。",
-        "本輪 IG：抓取 5、排程略過 265、延後 0、錯誤 5。",
-        "下一個 IG 來源：約 2026-06-30 16:35:42"
+        "本輪 IG：抓取 2、排程略過 268、延後 0、錯誤 2。",
+        "下一個 IG 來源：約 2026-06-30 17:08:14"
       ]
     },
     {
@@ -147,7 +147,7 @@
       "label": "正常",
       "summary": "125 個 YouTube 來源；最近 run error_count=0。",
       "details": [
-        "最近完成：2026-06-30 16:34:42",
+        "最近完成：2026-06-30 17:06:01",
         "最近新增 inbox：0"
       ]
     },
@@ -164,7 +164,15 @@
   ],
   "recentErrors": [
     {
-      "seenAt": "2026-06-30T16:35:33+08:00",
+      "seenAt": "2026-06-30T17:06:27+08:00",
+      "sourceId": "ig_csmu_bluemelody",
+      "sourceName": "CSMU Blue Melody",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "seenAt": "2026-06-30T17:06:27+08:00",
       "sourceId": "x_jangliharmonica",
       "sourceName": "李讓 Jang Li",
       "platform": "x",
@@ -172,15 +180,7 @@
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "seenAt": "2026-06-30T16:35:33+08:00",
-      "sourceId": "ig_story_dr_blue_harmonica",
-      "sourceName": "Dr. Blue 口琴樂團",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "HTTP Error 308: Permanent Redirect"
-    },
-    {
-      "seenAt": "2026-06-30T16:35:33+08:00",
+      "seenAt": "2026-06-30T17:06:27+08:00",
       "sourceId": "x_aidensoon",
       "sourceName": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
       "platform": "x",
@@ -188,7 +188,7 @@
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "seenAt": "2026-06-30T16:35:33+08:00",
+      "seenAt": "2026-06-30T17:06:27+08:00",
       "sourceId": "x_rei_harmonica",
       "sourceName": "山下伶 Rei Yamashita",
       "platform": "x",
@@ -196,7 +196,7 @@
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "seenAt": "2026-06-30T16:35:33+08:00",
+      "seenAt": "2026-06-30T17:06:27+08:00",
       "sourceId": "x_minami_risa",
       "sourceName": "南里沙",
       "platform": "x",
@@ -204,7 +204,7 @@
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "seenAt": "2026-06-30T16:35:33+08:00",
+      "seenAt": "2026-06-30T17:06:27+08:00",
       "sourceId": "x_moridaira_mi",
       "sourceName": "F.I.H. JAPAN ハーモニカコンテスト",
       "platform": "x",
@@ -212,15 +212,7 @@
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "seenAt": "2026-06-30T16:35:33+08:00",
-      "sourceId": "ig_gordonleeharmonica",
-      "sourceName": "Gordon Lee 李俊樂",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "HTTP Error 308: Permanent Redirect"
-    },
-    {
-      "seenAt": "2026-06-30T16:35:33+08:00",
+      "seenAt": "2026-06-30T17:06:27+08:00",
       "sourceId": "x_duovolce",
       "sourceName": "Duo Volce Music Studio 誼聲音樂室",
       "platform": "x",
@@ -228,7 +220,7 @@
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "seenAt": "2026-06-30T16:35:33+08:00",
+      "seenAt": "2026-06-30T17:06:27+08:00",
       "sourceId": "threads_fanhsiaoyi",
       "sourceName": "范曉怡",
       "platform": "threads",
@@ -236,7 +228,7 @@
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "seenAt": "2026-06-30T16:35:33+08:00",
+      "seenAt": "2026-06-30T17:06:27+08:00",
       "sourceId": "threads_otistsao",
       "sourceName": "曹小歐",
       "platform": "threads",
@@ -244,15 +236,15 @@
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "seenAt": "2026-06-30T16:35:33+08:00",
-      "sourceId": "ig_story_konstantin_reinfeld",
-      "sourceName": "Konstantin Reinfeld",
+      "seenAt": "2026-06-30T17:06:27+08:00",
+      "sourceId": "ig_story_yora",
+      "sourceName": "陳瑤容 Yora Chen",
       "platform": "instagram",
       "sourceType": "rsshub_instagram_story",
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "seenAt": "2026-06-30T16:35:33+08:00",
+      "seenAt": "2026-06-30T17:06:27+08:00",
       "sourceId": "x_harmonicauk",
       "sourceName": "英國口琴協會",
       "platform": "x",
@@ -260,15 +252,7 @@
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "seenAt": "2026-06-30T16:35:33+08:00",
-      "sourceId": "ig_hohnerkonservatorium",
-      "sourceName": "Hohner 音樂院（特羅辛根）",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "HTTP Error 308: Permanent Redirect"
-    },
-    {
-      "seenAt": "2026-06-30T16:35:33+08:00",
+      "seenAt": "2026-06-30T17:06:27+08:00",
       "sourceId": "x_wasehamo",
       "sourceName": "早稻田大學ハーモニカ・ソサィアティ",
       "platform": "x",
@@ -276,7 +260,7 @@
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "seenAt": "2026-06-30T16:35:33+08:00",
+      "seenAt": "2026-06-30T17:06:27+08:00",
       "sourceId": "x_meiji_hamoso",
       "sourceName": "明治大學ハーモニカソサエティー",
       "platform": "x",
@@ -284,7 +268,7 @@
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "seenAt": "2026-06-30T16:35:33+08:00",
+      "seenAt": "2026-06-30T17:06:27+08:00",
       "sourceId": "x_chuo_hamoso",
       "sourceName": "中央大學リード合奏部ハーモニカ・ソサィエティー",
       "platform": "x",
@@ -292,15 +276,7 @@
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "seenAt": "2026-06-30T16:35:33+08:00",
-      "sourceId": "ig_story_rikkyo_harmonica",
-      "sourceName": "立教大學ハーモニカ・ソサイアティー",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "HTTP Error 308: Permanent Redirect"
-    },
-    {
-      "seenAt": "2026-06-30T16:35:33+08:00",
+      "seenAt": "2026-06-30T17:06:27+08:00",
       "sourceId": "x_rikkyo_rhs",
       "sourceName": "立教大學ハーモニカ・ソサイアティー",
       "platform": "x",
@@ -308,7 +284,7 @@
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "seenAt": "2026-06-30T16:35:33+08:00",
+      "seenAt": "2026-06-30T17:06:27+08:00",
       "sourceId": "x_kg_hamoso",
       "sourceName": "關西學院大學ハーモニカソサイアティ",
       "platform": "x",
@@ -316,7 +292,7 @@
       "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "seenAt": "2026-06-30T16:35:33+08:00",
+      "seenAt": "2026-06-30T17:06:27+08:00",
       "sourceId": "x_kadaihamoban",
       "sourceName": "鹿兒島大學ハーモニカバンド",
       "platform": "x",
@@ -327,12 +303,12 @@
   "runtime": {
     "pipeline": {
       "currentStep": "build status page",
-      "heartbeatAt": "2026-06-30T08:35:39.152211+00:00",
+      "heartbeatAt": "2026-06-30T09:06:33.942496+00:00",
       "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
       "maxPostAgeDays": 30,
       "message": "",
-      "pid": 95925,
-      "startedAt": "2026-06-30T08:34:35.345350+00:00",
+      "pid": 98393,
+      "startedAt": "2026-06-30T09:05:52.385283+00:00",
       "status": "running",
       "steps": [
         {
@@ -340,10 +316,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_social_sources.py"
           ],
-          "finishedAt": "2026-06-30T08:34:35.411598+00:00",
+          "finishedAt": "2026-06-30T09:05:52.450291+00:00",
           "name": "build social sources",
           "returnCode": 0,
-          "startedAt": "2026-06-30T08:34:35.346381+00:00",
+          "startedAt": "2026-06-30T09:05:52.386001+00:00",
           "status": "ok"
         },
         {
@@ -353,10 +329,10 @@
             "--max-post-age-days",
             "30"
           ],
-          "finishedAt": "2026-06-30T08:34:42.992825+00:00",
+          "finishedAt": "2026-06-30T09:06:01.981200+00:00",
           "name": "fetch youtube",
           "returnCode": 0,
-          "startedAt": "2026-06-30T08:34:35.412090+00:00",
+          "startedAt": "2026-06-30T09:05:52.450685+00:00",
           "status": "ok"
         },
         {
@@ -369,10 +345,10 @@
             "30",
             "--run"
           ],
-          "finishedAt": "2026-06-30T08:34:43.918962+00:00",
+          "finishedAt": "2026-06-30T09:06:03.078830+00:00",
           "name": "fetch facebook apify",
           "returnCode": 0,
-          "startedAt": "2026-06-30T08:34:42.993440+00:00",
+          "startedAt": "2026-06-30T09:06:01.981720+00:00",
           "status": "ok"
         },
         {
@@ -382,10 +358,10 @@
             "--max-post-age-days",
             "30"
           ],
-          "finishedAt": "2026-06-30T08:35:33.142674+00:00",
+          "finishedAt": "2026-06-30T09:06:27.439995+00:00",
           "name": "watch social feeds",
           "returnCode": 0,
-          "startedAt": "2026-06-30T08:34:43.920200+00:00",
+          "startedAt": "2026-06-30T09:06:03.080978+00:00",
           "status": "ok"
         },
         {
@@ -393,10 +369,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-06-30T08:35:34.543237+00:00",
+          "finishedAt": "2026-06-30T09:06:28.926170+00:00",
           "name": "build public data",
           "returnCode": 0,
-          "startedAt": "2026-06-30T08:35:33.144196+00:00",
+          "startedAt": "2026-06-30T09:06:27.441571+00:00",
           "status": "ok"
         },
         {
@@ -405,10 +381,10 @@
             "scripts/backfill_public_source_pages.py",
             "--skip-fetch"
           ],
-          "finishedAt": "2026-06-30T08:35:36.359068+00:00",
+          "finishedAt": "2026-06-30T09:06:30.886672+00:00",
           "name": "backfill source pages",
           "returnCode": 0,
-          "startedAt": "2026-06-30T08:35:34.544199+00:00",
+          "startedAt": "2026-06-30T09:06:28.926930+00:00",
           "status": "ok"
         },
         {
@@ -416,10 +392,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-06-30T08:35:37.801686+00:00",
+          "finishedAt": "2026-06-30T09:06:32.335615+00:00",
           "name": "rebuild public data",
           "returnCode": 0,
-          "startedAt": "2026-06-30T08:35:36.359662+00:00",
+          "startedAt": "2026-06-30T09:06:30.888709+00:00",
           "status": "ok"
         },
         {
@@ -427,10 +403,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/generate_rss_feeds.py"
           ],
-          "finishedAt": "2026-06-30T08:35:39.151680+00:00",
+          "finishedAt": "2026-06-30T09:06:33.939663+00:00",
           "name": "generate rss feeds",
           "returnCode": 0,
-          "startedAt": "2026-06-30T08:35:37.802468+00:00",
+          "startedAt": "2026-06-30T09:06:32.336295+00:00",
           "status": "ok"
         },
         {
@@ -441,7 +417,7 @@
           "finishedAt": "",
           "name": "build status page",
           "returnCode": null,
-          "startedAt": "2026-06-30T08:35:39.152205+00:00",
+          "startedAt": "2026-06-30T09:06:33.942467+00:00",
           "status": "running"
         }
       ],
@@ -449,26 +425,26 @@
     },
     "socialFetch": {
       "currentSource": {},
-      "errors": 20,
+      "errors": 17,
       "fetchedPosts": 745,
-      "finishedAt": "2026-06-30T08:35:33.053326+00:00",
-      "heartbeatAt": "2026-06-30T08:35:33.053324+00:00",
+      "finishedAt": "2026-06-30T09:06:27.268625+00:00",
+      "heartbeatAt": "2026-06-30T09:06:27.268622+00:00",
       "instagram": {
-        "attempted": 5,
+        "attempted": 2,
         "deferred": 0,
         "delay_secs": 8.0,
-        "errors": 5,
+        "errors": 2,
         "max_attempts_per_run": 40,
-        "profile_attempted": 2,
+        "profile_attempted": 1,
         "profile_deferred": 0,
         "profile_interval_hours": 12.0,
-        "profile_skipped": 133,
-        "scheduled": 265,
-        "skipped": 265,
-        "story_attempted": 3,
+        "profile_skipped": 134,
+        "scheduled": 268,
+        "skipped": 268,
+        "story_attempted": 1,
         "story_deferred": 0,
         "story_interval_hours": 12.0,
-        "story_skipped": 132
+        "story_skipped": 134
       },
       "llmTags": {
         "cached": 0,
@@ -479,10 +455,10 @@
       "message": "",
       "newRelevantPosts": 0,
       "phase": "complete",
-      "pid": 96033,
+      "pid": 98533,
       "processedSources": 552,
       "skippedOldPosts": 0,
-      "startedAt": "2026-06-30T08:34:43.993504+00:00",
+      "startedAt": "2026-06-30T09:06:03.167516+00:00",
       "status": "ok",
       "totalSources": 552,
       "version": 1
