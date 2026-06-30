@@ -33,10 +33,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-06-30T04:24:52+00:00",
-      "latestUpdateLocal": "2026-06-30 12:24",
+      "latestUpdateAt": "2026-06-30T13:17:48+00:00",
+      "latestUpdateLocal": "2026-06-30 21:17",
       "latestUpdateSource": "臺中國家歌劇院",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=TazR2qhRegI",
+      "latestUpdateUrl": "https://www.instagram.com/stories/nationaltaichungtheater/3930947443801894150/",
       "avatarUrl": "/assets/source-avatars/5954411ab3632c46a220.webp",
       "sourceInitials": "臺中",
       "sourceTags": [
@@ -6414,7 +6414,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-07 21:44",
       "latestUpdateSource": "唐雪婷 Sharene Tang",
       "latestUpdateUrl": "https://www.facebook.com/sharenetang.fresco/posts/pfbid02i9VFKhSoyefVHq25UYatjJGC1TCanQQ7hmG9z3zJLCMiqqW9HghLHeVinynhGWjLl",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/53811bedf2bf54374edd.webp",
       "sourceInitials": "ST",
       "sourceTags": [
         "口琴",
