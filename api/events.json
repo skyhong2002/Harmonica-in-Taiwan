@@ -7,8 +7,66 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 258,
+  "count": 260,
   "items": [
+    {
+      "title": "臺中國家歌劇院 National Taichung Theater｜2026光之曲幕 X DJ Friday Night《聲．光．域》演出紀錄 週五限定的 DJ Friday Night重磅回歸！ 在歌劇院2F大劇前廳開派對！在光之曲幕穹…",
+      "headline": "2026光之曲幕 X DJ Friday Night《聲．光．域》演出紀錄",
+      "display_title": "2026光之曲幕 X DJ Friday Night《聲．光．域》演出紀錄",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=TazR2qhRegI",
+      "source_id": "yt_uctl1euke_x0w6tahecepgmq",
+      "source": "臺中國家歌劇院 National Taichung Theater",
+      "source_system_name": "臺中國家歌劇院",
+      "source_profile_url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "directory_entry_id": "watchlist-78",
+      "directory_entry_name": "臺中國家歌劇院",
+      "account": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-06-30T04:24:52+00:00",
+      "posted_at_local": "2026-06-30 12:24",
+      "seen_at": "2026-06-30T07:33:21.700553+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [],
+      "keyword_matches": [
+        "演出"
+      ],
+      "llm_relevant": false,
+      "llm_confidence": 0.95,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "貼文內容為電子音樂與聲光展演活動，未提及口琴或相關元素。",
+      "text": "2026光之曲幕 X DJ Friday Night《聲．光．域》演出紀錄\n週五限定的 DJ Friday Night重磅回歸！\n在歌劇院2F大劇前廳開派對！在光之曲幕穹頂空間、挑高19米的洞窟裡， 體驗「聲響、光影、場域」三重包圍視聽饗宴，讓身體的每一寸肌膚與細胞，擁抱電子聲波與迷眩的影像展演。讓音波電流流淌全身，歌劇院劇場前廳的沉浸式表演，在這一晚，完全為你解鎖。\n▸五月場次\n19:00【實驗電子聲響創作】宋義威ALLO WILL × 吳承儒pen_bit\n20:00【迷幻電音配樂】吳道勳WU TAO HSUN × 吳承儒pen_bit\n▸六月場次\n19:00【環境聲響MIX空靈系電音】伊拉岡JETT ILAGAN\n20:00【合成器電音+爵士鼓】蔡瑋德Nick Tsai ×何品均Pin ×達巴斯胡祕Tapas Humi\n5/15(五)、6/12(五) 大劇前廳\n演出資訊https://npacntt.tw/n14BqY3e",
+      "images": [
+        "https://i.ytimg.com/vi/TazR2qhRegI/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/TazR2qhRegI/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/accc680bf3aebcc2b78a.webp",
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_kROflWtLDL5SN4-6xo3VZ9f2D2DI55Oh08zxVDWzjDjg=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/6503895ebdafdcd31f05.webp",
+      "source_initials": "NTT",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動"
+      ],
+      "key": "yt_uctl1euke_x0w6tahecepgmq:TazR2qhRegI"
+    },
     {
       "title": "衛武營國家藝術文化中心｜Instagram story @weiwuying_centerforthearts",
       "headline": "Instagram story @weiwuying_centerforthearts",
@@ -79,6 +137,66 @@
         "實體活動"
       ],
       "key": "ig_story_weiwuying_centerforthearts:3930581388884908568_5271664429"
+    },
+    {
+      "title": "衛武營國家藝術文化中心 weiwuying_centerforthearts｜2026藝術學習推廣【國際論壇暨工作坊】訪談精華- Part 2 「藝術，讓我們用新的方式看見世界！」 正如美國林肯表演藝術中心執行副總監暨埃倫克蘭茨首席藝術長…",
+      "headline": "2026藝術學習推廣【國際論壇暨工作坊】訪談精華- Part 2 「藝術，讓我們用新的方式看見世界！」",
+      "display_title": "2026藝術學習推廣【國際論壇暨工作坊】訪談精華- Part 2 「藝術，讓我們用新的方式看見世界！」",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=xXnBwOIQydY",
+      "source_id": "yt_weiwuyingfilm",
+      "source": "衛武營國家藝術文化中心 weiwuying_centerforthearts",
+      "source_system_name": "衛武營國家藝術文化中心",
+      "source_profile_url": "https://www.youtube.com/channel/UCinakIiUgs09kXaXI0mwo-A",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "directory_entry_id": "watchlist-76",
+      "directory_entry_name": "衛武營國家藝術文化中心",
+      "account": "https://www.youtube.com/channel/UCinakIiUgs09kXaXI0mwo-A",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-06-30T00:48:42+00:00",
+      "posted_at_local": "2026-06-30 08:48",
+      "seen_at": "2026-06-30T07:33:21.700553+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [],
+      "keyword_matches": [
+        "演出"
+      ],
+      "llm_relevant": false,
+      "llm_confidence": 0.9,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "貼文為藝術論壇訪談，雖提及演出但非口琴相關，無口琴內容、演出、課程或社團等明確資訊。",
+      "text": "2026藝術學習推廣【國際論壇暨工作坊】訪談精華- Part 2 「藝術，讓我們用新的方式看見世界！」\n正如美國林肯表演藝術中心執行副總監暨埃倫克蘭茨首席藝術長Shanta THAKE所說的 :「當我們參與藝術時，藝術提供了我們全新的方式看見整個世界！ 」\n藝術不只是舞台上的演出，更是一種重新觀看世界的方法。藝術，能帶我們打破習慣與框架，重新感受生活、理解他人，也重新認識自己、。\n活動精彩回顧60秒｜https://www.youtube.com/watch?v=FGGS446u0sQ\n官網活動詳情與側記｜ https://npacwwy.tw/en10TbQra\n更多學習推廣活動｜ https://npacwwy.tw/en00tuErm/learning",
+      "images": [
+        "https://i.ytimg.com/vi/xXnBwOIQydY/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/xXnBwOIQydY/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/36076d380578fc59e4ae.webp",
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_nA6wlDM1r-OSwTetP9oLHhdD0ZTFPb2lXdF_XgmJVYCQ=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/430d59b3421f7dda5036.webp",
+      "source_initials": "WC",
+      "categories": [
+        "posts-videos",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動",
+        "學生社團"
+      ],
+      "key": "yt_weiwuyingfilm:xXnBwOIQydY"
     },
     {
       "title": "新竹縣文化局｜#圖書館活動 #電子書活動 #臨櫃推廣活動 📣 電子書服務平台【AI 點閱新世界】活動， 📣 將於115年7月1日(三)正式起跑！ 凡持有新竹縣借閱證， 至本縣所轄任一公共圖書館， 新加入成為電子書服務平台會員， 借閱電子書…",
