@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 30 Jun 2026 06:00:33 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 06:31:32 +0000</lastBuildDate>
     <item>
       <title>黃冠誌</title>
       <link>https://harmonica.tw/course/kuanchih/</link>
@@ -95,6 +95,17 @@ Tag：演奏者、口琴、演出
 臺灣的口琴演出人員與評審，活動脈絡包含演出與評審。</description>
     </item>
     <item>
+      <title>Marcos Coll</title>
+      <link>https://marcoscoll.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/3515abad4f43ad4a</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、十孔、口琴、國際交流、音樂會、演出
+國家：西班牙
+地區：西班牙
+西班牙的十孔國際演出人員，活動脈絡包含藍調。</description>
+    </item>
+    <item>
       <title>Filip Jers</title>
       <link>https://www.filipjers.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/e1ed5a88d3ff4ee4</guid>
@@ -170,17 +181,6 @@ Tag：口琴、活動資訊、團體樂團、音樂節、重奏、國際交流
 國家：馬來西亞
 地區：馬來西亞
 馬來西亞的國際演出團體，涵蓋馬來西亞口琴重奏、跨國音樂節與社群演出。</description>
-    </item>
-    <item>
-      <title>Marcos Coll</title>
-      <link>https://marcoscoll.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/3515abad4f43ad4a</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、十孔、口琴、國際交流、音樂會、演出
-國家：西班牙
-地區：西班牙
-西班牙的十孔國際演出人員，活動脈絡包含藍調。</description>
     </item>
     <item>
       <title>Reyharp and Balawan Project</title>
