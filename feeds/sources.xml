@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 30 Jun 2026 22:12:09 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 23:16:33 +0000</lastBuildDate>
     <item>
       <title>陳瑤容 Yora Chen</title>
       <link>https://portaly.cc/YoraChen</link>
@@ -62,6 +62,17 @@ Tag：演奏者、口琴
 臺灣的口琴演出人員，活動脈絡包含胖擊系。</description>
     </item>
     <item>
+      <title>南里沙</title>
+      <link>https://minamirisa.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/ad86c3570665b36e</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：口琴、演奏者、半音階、國際交流
+國家：日本
+地區：日本
+日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+    </item>
+    <item>
       <title>衛武營國家藝術文化中心</title>
       <link>https://www.npac-weiwuying.org/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/886a3e69f2bc562c</guid>
@@ -71,6 +82,28 @@ Tag：場館、場館平台、活動資訊、音樂會、演出
 國家：臺灣
 地區：臺灣/高雄
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>唐雪婷 Sharene Tang</title>
+      <link>https://www.facebook.com/sharenetang.fresco/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/4dc25ed2251d3a9d</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：口琴、演奏者、教學、半音階、國際交流
+國家：馬來西亞
+地區：馬來西亞
+馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。</description>
+    </item>
+    <item>
+      <title>臺灣口琴音樂節 THMF</title>
+      <link>https://www.taiwanharmonica.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/675b716d5d0986ae</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：口琴、活動資訊、團體樂團、音樂節、比賽、半音階、複音、十孔
+國家：臺灣
+地區：臺灣
+臺灣的核心活動，涵蓋音樂節、比賽、Gala與講座。</description>
     </item>
     <item>
       <title>臺中國家歌劇院</title>
@@ -93,6 +126,17 @@ Tag：口琴、演奏者、十孔、國際交流
 國家：日本
 地區：日本
 日本的十孔國際演出人員，活動脈絡包含藍調。</description>
+    </item>
+    <item>
+      <title>韋笙堡口琴 Weissenberg Harmonicas</title>
+      <link>https://www.weissenbergwind.com/tw/product_list.php?type=4</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/6943943f14cc844d</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：口琴、教學器材、教學
+國家：臺灣
+地區：臺灣/臺中
+臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。</description>
     </item>
     <item>
       <title>Marcos Coll</title>
@@ -458,6 +502,17 @@ Tag：口琴、演奏者、教學、半音階、國際交流
 阿根廷的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、半音階口琴與世界冠軍。</description>
     </item>
     <item>
+      <title>Fourtissimo Harmonica Ensemble</title>
+      <link>https://www.instagram.com/fourtissimo_harmonica_ensemble/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/20525b0f2a3efa04</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：口琴、團體樂團、重奏、國際交流
+國家：馬來西亞
+地區：馬來西亞
+馬來西亞的口琴重奏與合奏國際演出團體與青年團體，活動脈絡包含青少年口琴重奏、演出與交流。</description>
+    </item>
+    <item>
       <title>Liam Ward &amp; Malcolm Thorne</title>
       <link>https://learntheharmonica.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/dc41672fff50feb6</guid>
@@ -478,17 +533,6 @@ Tag：口琴、演奏者、十孔、國際交流
 國家：日本
 地區：日本/臺灣爵士圈
 日本的十孔與爵士口琴國際演出人員，活動脈絡包含爵士與跨界。</description>
-    </item>
-    <item>
-      <title>南里沙</title>
-      <link>https://minamirisa.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/ad86c3570665b36e</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：口琴、演奏者、半音階、國際交流
-國家：日本
-地區：日本
-日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
     </item>
     <item>
       <title>蔡明憲 DMing Studio</title>
@@ -577,17 +621,6 @@ Tag：場館、場館平台、活動資訊、音樂會、演出
 國家：臺灣
 地區：臺灣/臺北
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
-    </item>
-    <item>
-      <title>臺灣口琴音樂節 THMF</title>
-      <link>https://www.taiwanharmonica.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/675b716d5d0986ae</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：口琴、活動資訊、團體樂團、音樂節、比賽、半音階、複音、十孔
-國家：臺灣
-地區：臺灣
-臺灣的核心活動，涵蓋音樂節、比賽、Gala與講座。</description>
     </item>
     <item>
       <title>RedBricks Harmonica</title>
@@ -909,17 +942,6 @@ Tag：團體樂團、合奏、口琴、演出、音樂會
 臺灣的口琴合奏演出團體，活動脈絡包含南部口琴合奏。</description>
     </item>
     <item>
-      <title>唐雪婷 Sharene Tang</title>
-      <link>https://www.facebook.com/sharenetang.fresco/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/4dc25ed2251d3a9d</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：口琴、演奏者、教學、半音階、國際交流
-國家：馬來西亞
-地區：馬來西亞
-馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。</description>
-    </item>
-    <item>
       <title>彰女微光口琴社</title>
       <link>https://www.instagram.com/chgsh_harmonica/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/4901996dac05cffc</guid>
@@ -1239,17 +1261,6 @@ Tag：口琴、學生社團、大專社團
 銘傳大學的口琴學校社團。</description>
     </item>
     <item>
-      <title>韋笙堡口琴 Weissenberg Harmonicas</title>
-      <link>https://www.weissenbergwind.com/tw/product_list.php?type=4</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/6943943f14cc844d</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：口琴、教學器材、教學
-國家：臺灣
-地區：臺灣/臺中
-臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。</description>
-    </item>
-    <item>
       <title>高科大口琴社</title>
       <link>https://nkustharmonica.jimdofree.com/law/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/1690ede16231a9c1</guid>
@@ -1424,17 +1435,6 @@ Tag：團體樂團、重奏、口琴
 國家：臺灣
 地區：臺灣
 臺灣的口琴重奏演出團體，活動脈絡包含重奏與青年團體。</description>
-    </item>
-    <item>
-      <title>Fourtissimo Harmonica Ensemble</title>
-      <link>https://www.instagram.com/fourtissimo_harmonica_ensemble/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/20525b0f2a3efa04</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：口琴、團體樂團、重奏、國際交流
-國家：馬來西亞
-地區：馬來西亞
-馬來西亞的口琴重奏與合奏國際演出團體與青年團體，活動脈絡包含青少年口琴重奏、演出與交流。</description>
     </item>
     <item>
       <title>Fresco Harmonica Ensemble</title>
