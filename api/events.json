@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 256,
+  "count": 257,
   "items": [
     {
       "title": "衛武營國家藝術文化中心｜Instagram story @weiwuying_centerforthearts",
@@ -79,6 +79,79 @@
         "實體活動"
       ],
       "key": "ig_story_weiwuying_centerforthearts:3930581388884908568_5271664429"
+    },
+    {
+      "title": "就是吹口琴 陳鴻儀Henry’s Harmonica｜【基隆社區大學115春季班成果展】｜布袋戲組曲《1.冷霜子 2.黑玫瑰 3.苦海女神龍 4.非常女》｜就是吹口琴A班、B班、重合奏班聯合演出 115.06.28 【基隆社區大學115春…",
+      "headline": "【基隆社區大學115春季班成果展】｜布袋戲組曲《1.冷霜子 2.黑玫瑰 3.苦海女神龍 4.非常女》｜就是吹口琴A班、B班、重合奏班聯合演出",
+      "display_title": "【基隆社區大學115春季班成果展】｜布袋戲組曲《1.冷霜子 2.黑玫瑰 3.苦海女神龍 4.非常女》｜就是吹口琴A班、B班、重合奏班聯合演出",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=YdQQql45BGw",
+      "source_id": "yt_henrysharmonica",
+      "source": "就是吹口琴 陳鴻儀Henry’s Harmonica",
+      "source_system_name": "陳鴻儀",
+      "source_profile_url": "https://www.youtube.com/channel/UC7dQryOizHj-cKHV3xw0ASQ",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-40",
+      "directory_entry_name": "陳鴻儀",
+      "account": "https://www.youtube.com/channel/UC7dQryOizHj-cKHV3xw0ASQ",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-06-30T00:00:06+00:00",
+      "posted_at_local": "2026-06-30 08:00",
+      "seen_at": "2026-06-30T04:57:53.233860+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "成發",
+        "演出",
+        "學生社團"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "演出"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "成發",
+        "演出",
+        "學生社團"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "貼文明確為基隆社區大學口琴班的春季班成果展演出，屬於口琴成發與演出活動。",
+      "text": "【基隆社區大學115春季班成果展】｜布袋戲組曲《1.冷霜子 2.黑玫瑰 3.苦海女神龍 4.非常女》｜就是吹口琴A班、B班、重合奏班聯合演出\n115.06.28\n【基隆社區大學115春季班成果展】\n布袋戲組曲\n《1.冷霜子 2.黑玫瑰 3.苦海女神龍 4.非常女》\n1.冷霜子\n【盃(日) 落花淚(華)】\n中村千里 作曲\n呂 金 守 作詞\n複音口琴演奏版本《C調》\n2.黑玫瑰\n黃敏 作曲\n蜚聲 作詞\n複音口琴演奏版本《C調》\n3.苦海女神龍\n【港町ブルース(日) 誰來愛我(華)】\n猪侯公章 作曲\n黃 俊 雄 作詞\n複音口琴演奏版本《C調》\n4.非常女\n【日：北寒港】\n浜圭介 作曲\n黃強華 作詞\n複音口琴演奏版本《C調》\n感謝 余堂盈 先生拍攝",
+      "images": [
+        "https://i.ytimg.com/vi/YdQQql45BGw/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/YdQQql45BGw/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/2a5343e78a698ec64d44.webp",
+      "source_avatar_url": "https://yt3.googleusercontent.com/jRo3PEipmEqPOdl6u-yU-T8hME_tD8ty8dKJo6_cZZyY9Dz9-aPLGdXfwpBf5Y-SR2F0bk4b7Q=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/11010264a3489f5a5679.webp",
+      "source_initials": "HSH",
+      "categories": [
+        "posts-videos",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動",
+        "學生社團"
+      ],
+      "key": "yt_henrysharmonica:YdQQql45BGw"
     },
     {
       "title": "Filip Jers｜Instagram story @filipjersharmonica",
