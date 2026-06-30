@@ -7,7 +7,7 @@
       "page": "https://harmonica.observe.tw/feeds/events/",
       "rss": "https://harmonica.observe.tw/feeds/events.xml",
       "json": "https://harmonica.observe.tw/feeds/events.json",
-      "items": 254
+      "items": 253
     },
     {
       "id": "posts-videos",
@@ -16,7 +16,7 @@
       "page": "https://harmonica.observe.tw/feeds/posts-videos/",
       "rss": "https://harmonica.observe.tw/feeds/posts-videos.xml",
       "json": "https://harmonica.observe.tw/feeds/posts-videos.json",
-      "items": 534
+      "items": 533
     },
     {
       "id": "student-clubs",
@@ -34,7 +34,7 @@
       "page": "https://harmonica.observe.tw/feeds/opportunities/",
       "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
       "json": "https://harmonica.observe.tw/feeds/opportunities.json",
-      "items": 38
+      "items": 37
     }
   ]
 }
