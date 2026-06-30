@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-06-30T22:50:40+08:00",
+  "generatedAt": "2026-06-30T23:52:39+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "degraded",
     "label": "部分異常",
-    "summary": "核心 pipeline 有產出；需要注意：X / Twitter RSS、Threads / 其他 RSS。 Instagram RSSHub、Facebook Apify 目前依排程或預算節流。"
+    "summary": "核心 pipeline 有產出；需要注意：Instagram RSSHub、X / Twitter RSS、Threads / 其他 RSS。 Facebook Apify 目前依排程或預算節流。"
   },
   "metrics": {
     "updates": 568,
     "updatesWindowDays": 30,
     "directoryEntries": 199,
     "watchSources": 562,
-    "currentErrors": 15,
-    "latestDataAt": "2026-06-30T22:50:39+08:00",
-    "latestSocialObservationAt": "2026-06-30T22:50:33+08:00"
+    "currentErrors": 24,
+    "latestDataAt": "2026-06-30T23:52:39+08:00",
+    "latestSocialObservationAt": "2026-06-30T23:52:33+08:00"
   },
   "watchSources": {
     "platforms": {
@@ -40,8 +40,8 @@
       {
         "platform": "instagram",
         "sources": 278,
-        "currentErrors": 0,
-        "status": "ok"
+        "currentErrors": 9,
+        "status": "degraded"
       },
       {
         "platform": "threads",
@@ -71,9 +71,9 @@
       "label": "正常",
       "summary": "定期 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-06-30 22:50:39",
-        "pipeline.log 更新：2026-06-30 22:50:39",
-        "pipeline.err.log 更新：2026-06-30 22:19:56",
+        "最新公開資料：2026-06-30 23:52:39",
+        "pipeline.log 更新：2026-06-30 23:52:39",
+        "pipeline.err.log 更新：2026-06-30 22:50:53",
         "LaunchAgent：running，last exit 0"
       ]
     },
@@ -96,21 +96,21 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：31 ms"
+        "耗時：46 ms"
       ]
     },
     {
       "id": "instagram",
       "name": "Instagram RSSHub",
-      "status": "paused",
-      "label": "節流中",
-      "summary": "278 個 Instagram 來源（profile 139、story 139）；最新抓取批次目前 0 個錯誤。",
+      "status": "degraded",
+      "label": "部分異常",
+      "summary": "278 個 Instagram 來源（profile 139、story 139）；最新抓取批次目前 9 個錯誤。",
       "details": [
-        "最新社群觀測：2026-06-30 22:50:33",
+        "最新社群觀測：2026-06-30 23:52:33",
         "story 無公開內容/空路由略過：0",
         "IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。",
-        "本輪 IG：抓取 0、排程略過 278、延後 0、錯誤 0。",
-        "下一個 IG 來源：約 2026-06-30 22:54:51"
+        "本輪 IG：抓取 9、排程略過 269、延後 0、錯誤 9。",
+        "下一個 IG 來源：約 2026-06-30 23:56:39"
       ]
     },
     {
@@ -147,7 +147,7 @@
       "label": "正常",
       "summary": "126 個 YouTube 來源；最近 run error_count=0。",
       "details": [
-        "最近完成：2026-06-30 22:50:21",
+        "最近完成：2026-06-30 23:51:05",
         "最近新增 inbox：0"
       ]
     },
@@ -164,39 +164,39 @@
   ],
   "recentErrors": [
     {
-      "seenAt": "2026-06-30T22:50:33+08:00",
-      "sourceId": "x_jangliharmonica",
-      "sourceName": "李讓 Jang Li",
-      "platform": "x",
-      "sourceType": "rss",
-      "error": "RSSHub HTTP 520: error code: 520"
-    },
-    {
-      "seenAt": "2026-06-30T22:50:33+08:00",
-      "sourceId": "x_aidensoon",
-      "sourceName": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
-      "platform": "x",
-      "sourceType": "rss",
-      "error": "RSSHub HTTP 520: error code: 520"
-    },
-    {
-      "seenAt": "2026-06-30T22:50:33+08:00",
+      "seenAt": "2026-06-30T23:52:33+08:00",
       "sourceId": "x_rei_harmonica",
       "sourceName": "山下伶 Rei Yamashita",
       "platform": "x",
       "sourceType": "rss",
-      "error": "RSSHub HTTP 520: error code: 520"
+      "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "seenAt": "2026-06-30T22:50:33+08:00",
+      "seenAt": "2026-06-30T23:52:33+08:00",
+      "sourceId": "ig_minami_risa",
+      "sourceName": "南里沙",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "seenAt": "2026-06-30T23:52:33+08:00",
       "sourceId": "x_minami_risa",
       "sourceName": "南里沙",
       "platform": "x",
       "sourceType": "rss",
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "seenAt": "2026-06-30T23:52:33+08:00",
+      "sourceId": "ig_story_moridaira_mi",
+      "sourceName": "F.I.H. JAPAN ハーモニカコンテスト",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
       "error": "RSSHub HTTP 520: error code: 520"
     },
     {
-      "seenAt": "2026-06-30T22:50:33+08:00",
+      "seenAt": "2026-06-30T23:52:33+08:00",
       "sourceId": "x_moridaira_mi",
       "sourceName": "F.I.H. JAPAN ハーモニカコンテスト",
       "platform": "x",
@@ -204,31 +204,55 @@
       "error": "RSSHub HTTP 520: error code: 520"
     },
     {
-      "seenAt": "2026-06-30T22:50:33+08:00",
+      "seenAt": "2026-06-30T23:52:33+08:00",
+      "sourceId": "ig_story_baba_harmonica_studio",
+      "sourceName": "巴巴口琴坊",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
+      "error": "RSSHub HTTP 520: error code: 520"
+    },
+    {
+      "seenAt": "2026-06-30T23:52:33+08:00",
       "sourceId": "x_duovolce",
       "sourceName": "Duo Volce Music Studio 誼聲音樂室",
       "platform": "x",
       "sourceType": "rss",
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "seenAt": "2026-06-30T23:52:33+08:00",
+      "sourceId": "ig_story_fanhsiaoyi",
+      "sourceName": "范曉怡",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
       "error": "RSSHub HTTP 520: error code: 520"
     },
     {
-      "seenAt": "2026-06-30T22:50:33+08:00",
+      "seenAt": "2026-06-30T23:52:33+08:00",
       "sourceId": "threads_fanhsiaoyi",
       "sourceName": "范曉怡",
       "platform": "threads",
       "sourceType": "rss",
-      "error": "RSSHub HTTP 520: error code: 520"
+      "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "seenAt": "2026-06-30T22:50:33+08:00",
+      "seenAt": "2026-06-30T23:52:33+08:00",
       "sourceId": "threads_otistsao",
       "sourceName": "曹小歐",
       "platform": "threads",
       "sourceType": "rss",
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "seenAt": "2026-06-30T23:52:33+08:00",
+      "sourceId": "ig_story_antonioserranoarmonica",
+      "sourceName": "Antonio Serrano",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
       "error": "RSSHub HTTP 520: error code: 520"
     },
     {
-      "seenAt": "2026-06-30T22:50:33+08:00",
+      "seenAt": "2026-06-30T23:52:33+08:00",
       "sourceId": "x_harmonicauk",
       "sourceName": "英國口琴協會",
       "platform": "x",
@@ -236,15 +260,23 @@
       "error": "RSSHub HTTP 520: error code: 520"
     },
     {
-      "seenAt": "2026-06-30T22:50:33+08:00",
+      "seenAt": "2026-06-30T23:52:33+08:00",
+      "sourceId": "ig_yellowpinemusicfestival",
+      "sourceName": "Yellow Pine Harmonica Festival",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "RSSHub HTTP 520: error code: 520"
+    },
+    {
+      "seenAt": "2026-06-30T23:52:33+08:00",
       "sourceId": "x_wasehamo",
       "sourceName": "早稻田大學ハーモニカ・ソサィアティ",
       "platform": "x",
       "sourceType": "rss",
-      "error": "RSSHub HTTP 520: error code: 520"
+      "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "seenAt": "2026-06-30T22:50:33+08:00",
+      "seenAt": "2026-06-30T23:52:33+08:00",
       "sourceId": "x_meiji_hamoso",
       "sourceName": "明治大學ハーモニカソサエティー",
       "platform": "x",
@@ -252,15 +284,15 @@
       "error": "RSSHub HTTP 520: error code: 520"
     },
     {
-      "seenAt": "2026-06-30T22:50:33+08:00",
+      "seenAt": "2026-06-30T23:52:33+08:00",
       "sourceId": "x_chuo_hamoso",
       "sourceName": "中央大學リード合奏部ハーモニカ・ソサィエティー",
       "platform": "x",
       "sourceType": "rss",
-      "error": "RSSHub HTTP 520: error code: 520"
+      "error": "HTTP Error 308: Permanent Redirect"
     },
     {
-      "seenAt": "2026-06-30T22:50:33+08:00",
+      "seenAt": "2026-06-30T23:52:33+08:00",
       "sourceId": "x_rikkyo_rhs",
       "sourceName": "立教大學ハーモニカ・ソサイアティー",
       "platform": "x",
@@ -268,7 +300,7 @@
       "error": "RSSHub HTTP 520: error code: 520"
     },
     {
-      "seenAt": "2026-06-30T22:50:33+08:00",
+      "seenAt": "2026-06-30T23:52:33+08:00",
       "sourceId": "x_kg_hamoso",
       "sourceName": "關西學院大學ハーモニカソサイアティ",
       "platform": "x",
@@ -276,23 +308,31 @@
       "error": "RSSHub HTTP 520: error code: 520"
     },
     {
-      "seenAt": "2026-06-30T22:50:33+08:00",
+      "seenAt": "2026-06-30T23:52:33+08:00",
       "sourceId": "x_kadaihamoban",
       "sourceName": "鹿兒島大學ハーモニカバンド",
       "platform": "x",
       "sourceType": "rss",
+      "error": "HTTP Error 308: Permanent Redirect"
+    },
+    {
+      "seenAt": "2026-06-30T23:52:33+08:00",
+      "sourceId": "ig_story_yhhbfamily",
+      "sourceName": "裕華中學口琴樂團",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_story",
       "error": "RSSHub HTTP 520: error code: 520"
     }
   ],
   "runtime": {
     "pipeline": {
       "currentStep": "build status page",
-      "heartbeatAt": "2026-06-30T14:50:39.933402+00:00",
+      "heartbeatAt": "2026-06-30T15:52:39.612343+00:00",
       "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
       "maxPostAgeDays": 30,
       "message": "",
-      "pid": 26776,
-      "startedAt": "2026-06-30T14:49:56.333533+00:00",
+      "pid": 30302,
+      "startedAt": "2026-06-30T15:50:53.994111+00:00",
       "status": "running",
       "steps": [
         {
@@ -300,10 +340,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_social_sources.py"
           ],
-          "finishedAt": "2026-06-30T14:49:56.398697+00:00",
+          "finishedAt": "2026-06-30T15:50:54.061415+00:00",
           "name": "build social sources",
           "returnCode": 0,
-          "startedAt": "2026-06-30T14:49:56.334223+00:00",
+          "startedAt": "2026-06-30T15:50:53.995738+00:00",
           "status": "ok"
         },
         {
@@ -313,10 +353,10 @@
             "--max-post-age-days",
             "30"
           ],
-          "finishedAt": "2026-06-30T14:50:21.503482+00:00",
+          "finishedAt": "2026-06-30T15:51:05.515631+00:00",
           "name": "fetch youtube",
           "returnCode": 0,
-          "startedAt": "2026-06-30T14:49:56.399123+00:00",
+          "startedAt": "2026-06-30T15:50:54.061958+00:00",
           "status": "ok"
         },
         {
@@ -329,10 +369,10 @@
             "30",
             "--run"
           ],
-          "finishedAt": "2026-06-30T14:50:22.540426+00:00",
+          "finishedAt": "2026-06-30T15:51:06.518916+00:00",
           "name": "fetch facebook apify",
           "returnCode": 0,
-          "startedAt": "2026-06-30T14:50:21.504024+00:00",
+          "startedAt": "2026-06-30T15:51:05.518283+00:00",
           "status": "ok"
         },
         {
@@ -342,10 +382,10 @@
             "--max-post-age-days",
             "30"
           ],
-          "finishedAt": "2026-06-30T14:50:33.700823+00:00",
+          "finishedAt": "2026-06-30T15:52:33.176491+00:00",
           "name": "watch social feeds",
           "returnCode": 0,
-          "startedAt": "2026-06-30T14:50:22.542180+00:00",
+          "startedAt": "2026-06-30T15:51:06.520775+00:00",
           "status": "ok"
         },
         {
@@ -353,10 +393,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-06-30T14:50:35.166074+00:00",
+          "finishedAt": "2026-06-30T15:52:34.642188+00:00",
           "name": "build public data",
           "returnCode": 0,
-          "startedAt": "2026-06-30T14:50:33.703384+00:00",
+          "startedAt": "2026-06-30T15:52:33.178241+00:00",
           "status": "ok"
         },
         {
@@ -365,10 +405,10 @@
             "scripts/backfill_public_source_pages.py",
             "--skip-fetch"
           ],
-          "finishedAt": "2026-06-30T14:50:37.247356+00:00",
+          "finishedAt": "2026-06-30T15:52:36.665971+00:00",
           "name": "backfill source pages",
           "returnCode": 0,
-          "startedAt": "2026-06-30T14:50:35.166544+00:00",
+          "startedAt": "2026-06-30T15:52:34.642816+00:00",
           "status": "ok"
         },
         {
@@ -376,10 +416,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-06-30T14:50:38.715995+00:00",
+          "finishedAt": "2026-06-30T15:52:38.129340+00:00",
           "name": "rebuild public data",
           "returnCode": 0,
-          "startedAt": "2026-06-30T14:50:37.251310+00:00",
+          "startedAt": "2026-06-30T15:52:36.666700+00:00",
           "status": "ok"
         },
         {
@@ -387,10 +427,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/generate_rss_feeds.py"
           ],
-          "finishedAt": "2026-06-30T14:50:39.930504+00:00",
+          "finishedAt": "2026-06-30T15:52:39.611782+00:00",
           "name": "generate rss feeds",
           "returnCode": 0,
-          "startedAt": "2026-06-30T14:50:38.716587+00:00",
+          "startedAt": "2026-06-30T15:52:38.129918+00:00",
           "status": "ok"
         },
         {
@@ -401,7 +441,7 @@
           "finishedAt": "",
           "name": "build status page",
           "returnCode": null,
-          "startedAt": "2026-06-30T14:50:39.933379+00:00",
+          "startedAt": "2026-06-30T15:52:39.612338+00:00",
           "status": "running"
         }
       ],
@@ -409,26 +449,26 @@
     },
     "socialFetch": {
       "currentSource": {},
-      "errors": 15,
+      "errors": 24,
       "fetchedPosts": 752,
-      "finishedAt": "2026-06-30T14:50:33.554451+00:00",
-      "heartbeatAt": "2026-06-30T14:50:33.554448+00:00",
+      "finishedAt": "2026-06-30T15:52:33.161342+00:00",
+      "heartbeatAt": "2026-06-30T15:52:33.161338+00:00",
       "instagram": {
-        "attempted": 0,
+        "attempted": 9,
         "deferred": 0,
         "delay_secs": 8.0,
-        "errors": 0,
+        "errors": 9,
         "max_attempts_per_run": 40,
-        "profile_attempted": 0,
+        "profile_attempted": 3,
         "profile_deferred": 0,
         "profile_interval_hours": 12.0,
-        "profile_skipped": 139,
-        "scheduled": 278,
-        "skipped": 278,
-        "story_attempted": 0,
+        "profile_skipped": 136,
+        "scheduled": 269,
+        "skipped": 269,
+        "story_attempted": 6,
         "story_deferred": 0,
         "story_interval_hours": 12.0,
-        "story_skipped": 139
+        "story_skipped": 133
       },
       "llmTags": {
         "cached": 0,
@@ -439,10 +479,10 @@
       "message": "",
       "newRelevantPosts": 0,
       "phase": "complete",
-      "pid": 27044,
+      "pid": 30456,
       "processedSources": 563,
       "skippedOldPosts": 0,
-      "startedAt": "2026-06-30T14:50:22.632817+00:00",
+      "startedAt": "2026-06-30T15:51:06.600823+00:00",
       "status": "ok",
       "totalSources": 563,
       "version": 1
