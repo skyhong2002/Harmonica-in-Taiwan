@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
   "json": "https://harmonica.observe.tw/api/student-clubs.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/student-clubs.json",
-  "count": 89,
+  "count": 88,
   "items": [
     {
       "title": "藍波口琴教室｜練舞功丨臺北記憶館 受邀參加到臺北記憶倉庫擔任市政府活動的開幕暖場表演，現場都是高官貴人，表現不能太Low以免把口琴的招牌打爛，同學使出渾身解數把最熱鬧的練舞功帶到現場，讓這個歷史復活節-萬國博覽會能夠多一點歡樂，事後回顧，…",
@@ -6198,76 +6198,6 @@
         "學生社團"
       ],
       "key": "ig_escueladearmonicaba:https://www.instagram.com/p/DZAkqAXuc_G/"
-    },
-    {
-      "title": "音和樂器｜萬華社大龍韻口琴115春季班「貓空」出遊紀錄 地點：清泉山莊",
-      "headline": "萬華社大龍韻口琴115春季班「貓空」出遊紀錄",
-      "display_title": "萬華社大龍韻口琴115春季班「貓空」出遊紀錄",
-      "title_kind": "title",
-      "link": "https://www.youtube.com/watch?v=jjz3uA2dBjI",
-      "source_id": "yt_peacetonesharmonica",
-      "source": "音和樂器",
-      "source_system_name": "音和樂器",
-      "source_profile_url": "https://www.youtube.com/channel/UCKiGyNdLFSOtEpwcMhsM0SA",
-      "country": "臺灣",
-      "region": "臺灣 / 臺灣/臺北",
-      "directory_entry_id": "watchlist-27+watchlist-94",
-      "directory_entry_name": "音和樂器",
-      "account": "https://youtube.com/@peacetonesharmonica",
-      "platform": "youtube",
-      "platform_label": "YouTube",
-      "posted_at": "2026-05-31T14:15:15+00:00",
-      "posted_at_local": "2026-05-31 22:15",
-      "seen_at": "2026-06-23T15:11:41.855318+00:00",
-      "media_type": "video",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "課程",
-        "公開更新"
-      ],
-      "keyword_matches": [
-        "口琴"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.9,
-      "llm_labels": [
-        "口琴",
-        "課程",
-        "公開更新"
-      ],
-      "llm_categories": [
-        "events"
-      ],
-      "llm_reason": "內容為社大口琴班出遊紀錄，涉及口琴社團活動與課程，屬於口琴公開更新。",
-      "text": "萬華社大龍韻口琴115春季班「貓空」出遊紀錄\n地點：清泉山莊",
-      "images": [
-        "https://i.ytimg.com/vi/jjz3uA2dBjI/maxresdefault.jpg"
-      ],
-      "videos": [],
-      "source_image_url": "https://i.ytimg.com/vi/jjz3uA2dBjI/maxresdefault.jpg",
-      "image_url": "/assets/feed-images/3205c18f79d583d7d567.webp",
-      "source_avatar_url": "https://yt3.googleusercontent.com/n9Kwg9lIo_YmPMzGguk2PAqGMURo06nJ4iaZK7wfL2UqbgqxP-6-Am85qbOjItctn6_S-dI58g=s900-c-k-c0x00ffffff-no-rj",
-      "avatar_url": "/assets/source-avatars/46150a457fec935842d3.webp",
-      "source_initials": "音和",
-      "categories": [
-        "posts-videos",
-        "events",
-        "student-clubs"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "實體活動",
-        "學生社團"
-      ],
-      "key": "yt_peacetonesharmonica:jjz3uA2dBjI"
     }
   ]
 }
