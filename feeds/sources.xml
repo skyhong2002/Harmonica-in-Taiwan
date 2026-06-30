@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 30 Jun 2026 05:29:28 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 06:00:33 +0000</lastBuildDate>
     <item>
       <title>黃冠誌</title>
       <link>https://harmonica.tw/course/kuanchih/</link>
@@ -71,6 +71,17 @@ Tag：口琴、國際交流、課程、半音階、十孔
 國家：阿根廷
 地區：阿根廷/阿韋亞內達
 阿根廷的國際教育來源，關注公立流行音樂學校、正式口琴課程、爵士、探戈與民俗。</description>
+    </item>
+    <item>
+      <title>新竹縣文化局</title>
+      <link>https://www.hchcc.gov.tw/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/764c874d5d511c0a</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台、活動資訊、文化局
+國家：臺灣
+地區：臺灣/新竹
+臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
     </item>
     <item>
       <title>陳鴻儀</title>
@@ -1575,17 +1586,6 @@ Tag：口琴、場館平台
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       <description>分類：場館平台
 Tag：場館、文化局、活動資訊
-國家：臺灣
-地區：臺灣/新竹
-臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
-    </item>
-    <item>
-      <title>新竹縣文化局</title>
-      <link>https://www.hchcc.gov.tw/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/764c874d5d511c0a</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台、活動資訊、文化局
 國家：臺灣
 地區：臺灣/新竹
 臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
