@@ -30,9 +30,9 @@
           <div class="feed-page-summary status-summary-panel">
             <div class="status-summary-line">
               <span class="status-badge status-degraded">部分異常</span>
-              <strong>核心 pipeline 有產出；需要注意：Instagram RSSHub、X / Twitter RSS、YouTube yt-dlp、Threads / 其他 RSS。 Facebook Apify 目前依排程或預算節流。</strong>
+              <strong>核心 pipeline 有產出；需要注意：X / Twitter RSS、Threads / 其他 RSS。 Instagram RSSHub、Facebook Apify 目前依排程或預算節流。</strong>
             </div>
-            <p>快照時間 2026-06-30T22:19:42+08:00</p>
+            <p>快照時間 2026-06-30T22:50:40+08:00</p>
             <div class="feed-links">
               <a href="/api/status.json">Status JSON</a>
               <a href="/api/latest.json">Latest API</a>
@@ -49,7 +49,7 @@
               <p class="section-kicker">Snapshot</p>
               <h2 id="status-overview-title">目前快照</h2>
             </div>
-            <p class="data-date">資料時間 2026-06-30T22:19:42+08:00</p>
+            <p class="data-date">資料時間 2026-06-30T22:50:39+08:00</p>
           </div>
           <div class="status-metric-grid">
 
@@ -76,7 +76,7 @@
 
       <article class="status-metric-card">
         <span>目前錯誤</span>
-        <strong>19</strong>
+        <strong>15</strong>
         <p>最新抓取批次</p>
       </article>
 
@@ -91,7 +91,7 @@
               <p class="section-kicker">Collectors</p>
               <h2 id="status-components-title">元件狀態</h2>
             </div>
-            <p class="data-date">最新社群觀測 2026-06-30T22:19:35+08:00</p>
+            <p class="data-date">最新社群觀測 2026-06-30T22:50:33+08:00</p>
           </div>
           <div class="status-component-grid">
 
@@ -101,7 +101,7 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>定期 pipeline 已產生公開資料快照。</p>
-        <ul class="status-detail-list"><li>最新公開資料：2026-06-30 22:19:42</li><li>pipeline.log 更新：2026-06-30 22:19:42</li><li>pipeline.err.log 更新：2026-06-30 21:48:17</li><li>LaunchAgent：running，last exit 0</li></ul>
+        <ul class="status-detail-list"><li>最新公開資料：2026-06-30 22:50:39</li><li>pipeline.log 更新：2026-06-30 22:50:39</li><li>pipeline.err.log 更新：2026-06-30 22:19:56</li><li>LaunchAgent：running，last exit 0</li></ul>
       </article>
 
 
@@ -121,17 +121,17 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>本機 RSSHub 入口回 200。</p>
-        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：47 ms</li></ul>
+        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：31 ms</li></ul>
       </article>
 
 
-      <article class="status-component-card status-card-degraded">
+      <article class="status-component-card status-card-paused">
         <div class="status-component-head">
           <h2>Instagram RSSHub</h2>
-          <span class="status-badge status-degraded">部分異常</span>
+          <span class="status-badge status-paused">節流中</span>
         </div>
-        <p>278 個 Instagram 來源（profile 139、story 139）；最新抓取批次目前 4 個錯誤。</p>
-        <ul class="status-detail-list"><li>最新社群觀測：2026-06-30 22:19:35</li><li>story 無公開內容/空路由略過：0</li><li>IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。</li><li>本輪 IG：抓取 4、排程略過 274、延後 0、錯誤 4。</li><li>下一個 IG 來源：約 2026-06-30 22:20:48</li></ul>
+        <p>278 個 Instagram 來源（profile 139、story 139）；最新抓取批次目前 0 個錯誤。</p>
+        <ul class="status-detail-list"><li>最新社群觀測：2026-06-30 22:50:33</li><li>story 無公開內容/空路由略過：0</li><li>IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。</li><li>本輪 IG：抓取 0、排程略過 278、延後 0、錯誤 0。</li><li>下一個 IG 來源：約 2026-06-30 22:54:51</li></ul>
       </article>
 
 
@@ -155,13 +155,13 @@
       </article>
 
 
-      <article class="status-component-card status-card-degraded">
+      <article class="status-component-card status-card-ok">
         <div class="status-component-head">
           <h2>YouTube yt-dlp</h2>
-          <span class="status-badge status-degraded">部分異常</span>
+          <span class="status-badge status-ok">正常</span>
         </div>
-        <p>126 個 YouTube 來源；最近 run error_count=1。</p>
-        <ul class="status-detail-list"><li>最近完成：2026-06-30 22:18:48</li><li>最近新增 inbox：0</li></ul>
+        <p>126 個 YouTube 來源；最近 run error_count=0。</p>
+        <ul class="status-detail-list"><li>最近完成：2026-06-30 22:50:21</li><li>最近新增 inbox：0</li></ul>
       </article>
 
 
@@ -207,8 +207,8 @@
             <tr>
               <th scope="row">instagram</th>
               <td>278</td>
-              <td>4</td>
-              <td><span class="status-badge status-degraded">部分異常</span></td>
+              <td></td>
+              <td><span class="status-badge status-ok">正常</span></td>
             </tr>
 
 
@@ -254,43 +254,7 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-06-30T22:19:35+08:00 · instagram</span>
-                <strong>Reyharp and Balawan Project</strong>
-              </div>
-              <p>RSSHub HTTP 520: error code: 520</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-30T22:19:35+08:00 · instagram</span>
-                <strong>Up Side Down</strong>
-              </div>
-              <p>RSSHub HTTP 520: error code: 520</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-30T22:19:35+08:00 · instagram</span>
-                <strong>天狼星口琴樂團 Sirius Harmonica Ensemble</strong>
-              </div>
-              <p>RSSHub HTTP 520: error code: 520</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-30T22:19:35+08:00 · instagram</span>
-                <strong>臺中科大口琴社</strong>
-              </div>
-              <p>RSSHub HTTP 520: error code: 520</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-06-30T22:19:35+08:00 · threads</span>
+                <span class="feed-latest-meta">2026-06-30T22:50:33+08:00 · threads</span>
                 <strong>曹小歐</strong>
               </div>
               <p>RSSHub HTTP 520: error code: 520</p>
@@ -299,7 +263,7 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-06-30T22:19:35+08:00 · threads</span>
+                <span class="feed-latest-meta">2026-06-30T22:50:33+08:00 · threads</span>
                 <strong>范曉怡</strong>
               </div>
               <p>RSSHub HTTP 520: error code: 520</p>
@@ -308,7 +272,7 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-06-30T22:19:35+08:00 · x</span>
+                <span class="feed-latest-meta">2026-06-30T22:50:33+08:00 · x</span>
                 <strong>Aiden N Evelyn / Aiden Soon &amp; Evelyn Choong</strong>
               </div>
               <p>RSSHub HTTP 520: error code: 520</p>
@@ -317,7 +281,7 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-06-30T22:19:35+08:00 · x</span>
+                <span class="feed-latest-meta">2026-06-30T22:50:33+08:00 · x</span>
                 <strong>Duo Volce Music Studio 誼聲音樂室</strong>
               </div>
               <p>RSSHub HTTP 520: error code: 520</p>
@@ -326,7 +290,7 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-06-30T22:19:35+08:00 · x</span>
+                <span class="feed-latest-meta">2026-06-30T22:50:33+08:00 · x</span>
                 <strong>F.I.H. JAPAN ハーモニカコンテスト</strong>
               </div>
               <p>RSSHub HTTP 520: error code: 520</p>
@@ -335,7 +299,7 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-06-30T22:19:35+08:00 · x</span>
+                <span class="feed-latest-meta">2026-06-30T22:50:33+08:00 · x</span>
                 <strong>中央大學リード合奏部ハーモニカ・ソサィエティー</strong>
               </div>
               <p>RSSHub HTTP 520: error code: 520</p>
@@ -344,7 +308,7 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-06-30T22:19:35+08:00 · x</span>
+                <span class="feed-latest-meta">2026-06-30T22:50:33+08:00 · x</span>
                 <strong>南里沙</strong>
               </div>
               <p>RSSHub HTTP 520: error code: 520</p>
@@ -353,7 +317,7 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-06-30T22:19:35+08:00 · x</span>
+                <span class="feed-latest-meta">2026-06-30T22:50:33+08:00 · x</span>
                 <strong>山下伶 Rei Yamashita</strong>
               </div>
               <p>RSSHub HTTP 520: error code: 520</p>
@@ -362,7 +326,7 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-06-30T22:19:35+08:00 · x</span>
+                <span class="feed-latest-meta">2026-06-30T22:50:33+08:00 · x</span>
                 <strong>早稻田大學ハーモニカ・ソサィアティ</strong>
               </div>
               <p>RSSHub HTTP 520: error code: 520</p>
@@ -371,7 +335,7 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-06-30T22:19:35+08:00 · x</span>
+                <span class="feed-latest-meta">2026-06-30T22:50:33+08:00 · x</span>
                 <strong>明治大學ハーモニカソサエティー</strong>
               </div>
               <p>RSSHub HTTP 520: error code: 520</p>
@@ -380,7 +344,7 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-06-30T22:19:35+08:00 · x</span>
+                <span class="feed-latest-meta">2026-06-30T22:50:33+08:00 · x</span>
                 <strong>李讓 Jang Li</strong>
               </div>
               <p>RSSHub HTTP 520: error code: 520</p>
@@ -389,7 +353,7 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-06-30T22:19:35+08:00 · x</span>
+                <span class="feed-latest-meta">2026-06-30T22:50:33+08:00 · x</span>
                 <strong>立教大學ハーモニカ・ソサイアティー</strong>
               </div>
               <p>RSSHub HTTP 520: error code: 520</p>
@@ -398,7 +362,7 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-06-30T22:19:35+08:00 · x</span>
+                <span class="feed-latest-meta">2026-06-30T22:50:33+08:00 · x</span>
                 <strong>英國口琴協會</strong>
               </div>
               <p>RSSHub HTTP 520: error code: 520</p>
@@ -407,7 +371,7 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-06-30T22:19:35+08:00 · x</span>
+                <span class="feed-latest-meta">2026-06-30T22:50:33+08:00 · x</span>
                 <strong>關西學院大學ハーモニカソサイアティ</strong>
               </div>
               <p>RSSHub HTTP 520: error code: 520</p>
@@ -416,7 +380,7 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-06-30T22:19:35+08:00 · x</span>
+                <span class="feed-latest-meta">2026-06-30T22:50:33+08:00 · x</span>
                 <strong>鹿兒島大學ハーモニカバンド</strong>
               </div>
               <p>RSSHub HTTP 520: error code: 520</p>
