@@ -65,6 +65,80 @@
   },
   "entries": [
     {
+      "id": "watchlist-33",
+      "name": "黃冠誌",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
+      "structuredSummary": "天狼星/胖擊系/和弦口琴/重奏 / 和弦/重奏 / 演出人員",
+      "summary": "臺灣的和弦與重奏演出人員，活動脈絡包含天狼星、胖擊系與和弦口琴。",
+      "keywords": "黃冠誌 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/kuanchih/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hk91f06/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-30T15:32:42+00:00",
+      "latestUpdateLocal": "2026-06-30 23:32",
+      "latestUpdateSource": "黃冠誌",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3931015387583923178/",
+      "avatarUrl": "/assets/source-avatars/1c6e560eec687ecfbf6c.webp",
+      "sourceInitials": "黃冠",
+      "sourceTags": [
+        "演奏者",
+        "口琴",
+        "合奏",
+        "和弦",
+        "重奏",
+        "演出"
+      ],
+      "sourceSummary": "口琴演奏者，專長和弦口琴與重奏演出。",
+      "sourceTagReason": "來源明確標示為個人與演奏者，且專長涉及和弦、重奏與演出。",
+      "monitorSources": [
+        {
+          "id": "ig_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
+        },
+        {
+          "id": "yt_cbd128e3de",
+          "name": "黃冠誌",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-167",
       "name": "新加坡青年節藝術展演（口琴）",
       "nameEn": "Singapore Youth Festival Arts Presentation - Harmonica",
@@ -130,6 +204,59 @@
           "username": "sgyouthfest",
           "profileUrl": "https://www.instagram.com/sgyouthfest/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/sgyouthfest/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-42",
+      "name": "王心禾",
+      "nameEn": "Hsin-Ho Wang",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "胖擊系",
+      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
+      "keywords": "王心禾 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_wang/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-30T14:31:18+00:00",
+      "latestUpdateLocal": "2026-06-30 22:31",
+      "latestUpdateSource": "王心禾",
+      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_wang/3930984483256503277/",
+      "avatarUrl": "/assets/source-avatars/211b57df4d08779f1f6a.webp",
+      "sourceInitials": "王心",
+      "sourceTags": [
+        "演奏者",
+        "口琴"
+      ],
+      "sourceSummary": "臺灣口琴演奏者，活躍於演出活動。",
+      "sourceTagReason": "資料明確標註「類別：演奏者」與「類型：個人」，並提及口琴與演出。",
+      "monitorSources": [
+        {
+          "id": "ig_harmonica_wang",
+          "name": "王心禾",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.instagram.com/harmonica_wang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_wang",
+          "name": "王心禾",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.instagram.com/harmonica_wang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_wang/story/0"
         }
       ]
     },
@@ -299,6 +426,59 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-59",
+      "name": "千賀太郎",
+      "nameEn": "Taro Senga",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "十孔/藍調",
+      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
+      "summary": "日本的十孔國際演出人員，活動脈絡包含藍調。",
+      "keywords": "千賀太郎 Taro Senga harmonica",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/taro_senga/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-30T10:29:50+00:00",
+      "latestUpdateLocal": "2026-06-30 18:29",
+      "latestUpdateSource": "千賀太郎",
+      "latestUpdateUrl": "https://www.instagram.com/stories/taro_senga/3930862861249897581/",
+      "avatarUrl": "/assets/source-avatars/248a68415bcf5f382688.webp",
+      "sourceInitials": "千賀",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_taro_senga",
+          "name": "千賀太郎",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "taro_senga",
+          "profileUrl": "https://www.instagram.com/taro_senga/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/taro_senga/story/0"
+        },
+        {
+          "id": "ig_taro_senga",
+          "name": "千賀太郎",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taro_senga",
+          "profileUrl": "https://www.instagram.com/taro_senga/",
           "feedUrl": ""
         }
       ]
@@ -504,80 +684,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@lamberharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-33",
-      "name": "黃冠誌",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
-      "structuredSummary": "天狼星/胖擊系/和弦口琴/重奏 / 和弦/重奏 / 演出人員",
-      "summary": "臺灣的和弦與重奏演出人員，活動脈絡包含天狼星、胖擊系與和弦口琴。",
-      "keywords": "黃冠誌 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/kuanchih/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hk91f06/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-30T03:54:32+00:00",
-      "latestUpdateLocal": "2026-06-30 11:54",
-      "latestUpdateSource": "黃冠誌",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3930663917366385085/",
-      "avatarUrl": "/assets/source-avatars/1c6e560eec687ecfbf6c.webp",
-      "sourceInitials": "黃冠",
-      "sourceTags": [
-        "演奏者",
-        "口琴",
-        "合奏",
-        "和弦",
-        "重奏",
-        "演出"
-      ],
-      "sourceSummary": "口琴演奏者，專長和弦口琴與重奏演出。",
-      "sourceTagReason": "來源明確標示為個人與演奏者，且專長涉及和弦、重奏與演出。",
-      "monitorSources": [
-        {
-          "id": "ig_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
-        },
-        {
-          "id": "yt_cbd128e3de",
-          "name": "黃冠誌",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
           "feedUrl": ""
         }
       ]
@@ -2578,59 +2684,6 @@
       ]
     },
     {
-      "id": "watchlist-42",
-      "name": "王心禾",
-      "nameEn": "Hsin-Ho Wang",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "胖擊系",
-      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
-      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
-      "keywords": "王心禾 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/harmonica_wang/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-29T10:57:58+00:00",
-      "latestUpdateLocal": "2026-06-29 18:57",
-      "latestUpdateSource": "王心禾",
-      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_wang/3930152255135901963/",
-      "avatarUrl": "/assets/source-avatars/211b57df4d08779f1f6a.webp",
-      "sourceInitials": "王心",
-      "sourceTags": [
-        "演奏者",
-        "口琴"
-      ],
-      "sourceSummary": "臺灣口琴演奏者，活躍於演出活動。",
-      "sourceTagReason": "資料明確標註「類別：演奏者」與「類型：個人」，並提及口琴與演出。",
-      "monitorSources": [
-        {
-          "id": "ig_harmonica_wang",
-          "name": "王心禾",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "harmonica_wang",
-          "profileUrl": "https://www.instagram.com/harmonica_wang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_harmonica_wang",
-          "name": "王心禾",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "harmonica_wang",
-          "profileUrl": "https://www.instagram.com/harmonica_wang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_wang/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-27+watchlist-94",
       "name": "音和樂器",
       "nameEn": "PeaceTones Harmonica",
@@ -2778,59 +2831,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@oufrog",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-59",
-      "name": "千賀太郎",
-      "nameEn": "Taro Senga",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "十孔/藍調",
-      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
-      "summary": "日本的十孔國際演出人員，活動脈絡包含藍調。",
-      "keywords": "千賀太郎 Taro Senga harmonica",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/taro_senga/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-29T02:41:55+00:00",
-      "latestUpdateLocal": "2026-06-29 10:41",
-      "latestUpdateSource": "千賀太郎",
-      "latestUpdateUrl": "https://www.instagram.com/stories/taro_senga/3929902579035633485/",
-      "avatarUrl": "/assets/source-avatars/248a68415bcf5f382688.webp",
-      "sourceInitials": "千賀",
-      "sourceTags": [
-        "口琴",
-        "演奏者",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_taro_senga",
-          "name": "千賀太郎",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "taro_senga",
-          "profileUrl": "https://www.instagram.com/taro_senga/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/taro_senga/story/0"
-        },
-        {
-          "id": "ig_taro_senga",
-          "name": "千賀太郎",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "taro_senga",
-          "profileUrl": "https://www.instagram.com/taro_senga/",
           "feedUrl": ""
         }
       ]
@@ -6265,6 +6265,72 @@
           "username": "musette585",
           "profileUrl": "https://www.instagram.com/musette585/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/musette585/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-53",
+      "name": "Leafin Harmonica Ensemble",
+      "nameEn": "Leafin Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "口琴重奏/公演/合作演出",
+      "structuredSummary": "口琴重奏/公演/合作演出 / 口琴重奏/合奏 / 國際演出團體",
+      "summary": "馬來西亞的口琴重奏與合奏國際演出團體，活動脈絡包含公演與合作演出。",
+      "keywords": "Leafin Harmonica Ensemble _leafin_harmonicaensemble harmonica Malaysia",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/61573180934784/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/_leafin_harmonicaensemble/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-14T05:44:07+00:00",
+      "latestUpdateLocal": "2026-06-14 13:44",
+      "latestUpdateSource": "Leafin Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/p/DZjg7P8zBPS/",
+      "avatarUrl": "",
+      "sourceInitials": "LHE",
+      "sourceTags": [
+        "口琴",
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_61573180934784",
+          "name": "Leafin Harmonica Ensemble",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/61573180934784",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_leafin_harmonicaensemble",
+          "name": "Leafin Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "_leafin_harmonicaensemble",
+          "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_leafin_harmonicaensemble",
+          "name": "Leafin Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "_leafin_harmonicaensemble",
+          "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/_leafin_harmonicaensemble/story/0"
         }
       ]
     },
@@ -9745,72 +9811,6 @@
         "口琴",
         "團體樂團",
         "國際交流"
-      ]
-    },
-    {
-      "id": "watchlist-53",
-      "name": "Leafin Harmonica Ensemble",
-      "nameEn": "Leafin Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "口琴重奏/公演/合作演出",
-      "structuredSummary": "口琴重奏/公演/合作演出 / 口琴重奏/合奏 / 國際演出團體",
-      "summary": "馬來西亞的口琴重奏與合奏國際演出團體，活動脈絡包含公演與合作演出。",
-      "keywords": "Leafin Harmonica Ensemble _leafin_harmonicaensemble harmonica Malaysia",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/61573180934784/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/_leafin_harmonicaensemble/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "",
-      "sourceInitials": "LHE",
-      "sourceTags": [
-        "口琴",
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_61573180934784",
-          "name": "Leafin Harmonica Ensemble",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/61573180934784",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_leafin_harmonicaensemble",
-          "name": "Leafin Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "_leafin_harmonicaensemble",
-          "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_leafin_harmonicaensemble",
-          "name": "Leafin Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "_leafin_harmonicaensemble",
-          "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/_leafin_harmonicaensemble/story/0"
-        }
       ]
     },
     {

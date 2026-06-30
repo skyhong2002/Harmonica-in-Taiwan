@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 30 Jun 2026 19:01:36 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jun 2026 21:08:37 +0000</lastBuildDate>
+    <item>
+      <title>黃冠誌</title>
+      <link>https://harmonica.tw/course/kuanchih/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、口琴、合奏、和弦、重奏、演出
+國家：臺灣
+地區：臺灣
+臺灣的和弦與重奏演出人員，活動脈絡包含天狼星、胖擊系與和弦口琴。</description>
+    </item>
     <item>
       <title>新加坡青年節藝術展演（口琴）</title>
       <link>https://www.syf.gov.sg/general/calendar</link>
@@ -16,6 +27,17 @@ Tag：口琴、活動資訊、比賽
 國家：新加坡
 地區：新加坡
 新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。</description>
+    </item>
+    <item>
+      <title>王心禾</title>
+      <link>https://www.instagram.com/harmonica_wang/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/81d8ceaa7e7b789c</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、口琴
+國家：臺灣
+地區：臺灣
+臺灣的口琴演出人員，活動脈絡包含胖擊系。</description>
     </item>
     <item>
       <title>衛武營國家藝術文化中心</title>
@@ -38,6 +60,17 @@ Tag：場館平台、活動資訊、演出
 國家：臺灣
 地區：臺灣/臺中
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>千賀太郎</title>
+      <link>https://www.instagram.com/taro_senga/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/351993af02b52cbc</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：口琴、演奏者、十孔、國際交流
+國家：日本
+地區：日本
+日本的十孔國際演出人員，活動脈絡包含藍調。</description>
     </item>
     <item>
       <title>Marcos Coll</title>
@@ -71,17 +104,6 @@ Tag：教學、課程、工作室、口琴
 國家：臺灣
 地區：臺灣
 臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。</description>
-    </item>
-    <item>
-      <title>黃冠誌</title>
-      <link>https://harmonica.tw/course/kuanchih/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、口琴、合奏、和弦、重奏、演出
-國家：臺灣
-地區：臺灣
-臺灣的和弦與重奏演出人員，活動脈絡包含天狼星、胖擊系與和弦口琴。</description>
     </item>
     <item>
       <title>胖擊口琴樂團</title>
@@ -359,17 +381,6 @@ Tag：口琴、演奏者、比賽、半音階、國際交流
 香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。</description>
     </item>
     <item>
-      <title>王心禾</title>
-      <link>https://www.instagram.com/harmonica_wang/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/81d8ceaa7e7b789c</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、口琴
-國家：臺灣
-地區：臺灣
-臺灣的口琴演出人員，活動脈絡包含胖擊系。</description>
-    </item>
-    <item>
       <title>音和樂器</title>
       <link>https://0223120930.web66.com.tw/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/946384acc3afb19b</guid>
@@ -390,17 +401,6 @@ Tag：口琴、演奏者、教學、複音
 國家：臺灣
 地區：臺灣
 臺灣的複音演出人員與教學者，活動脈絡包含狂響與教學演出。</description>
-    </item>
-    <item>
-      <title>千賀太郎</title>
-      <link>https://www.instagram.com/taro_senga/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/351993af02b52cbc</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：口琴、演奏者、十孔、國際交流
-國家：日本
-地區：日本
-日本的十孔國際演出人員，活動脈絡包含藍調。</description>
     </item>
     <item>
       <title>Konstantin Reinfeld</title>
@@ -874,6 +874,17 @@ Tag：口琴、演奏者
 國家：臺灣
 地區：臺灣
 臺灣的口琴演出人員與評審，活動脈絡包含演出與評審。</description>
+    </item>
+    <item>
+      <title>Leafin Harmonica Ensemble</title>
+      <link>https://www.facebook.com/61573180934784/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/ab8dbe16481dd34d</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：口琴、團體樂團、重奏、國際交流
+國家：馬來西亞
+地區：馬來西亞
+馬來西亞的口琴重奏與合奏國際演出團體，活動脈絡包含公演與合作演出。</description>
     </item>
     <item>
       <title>明治大學ハーモニカソサエティー</title>
@@ -1446,17 +1457,6 @@ Tag：口琴、團體樂團、國際交流
 國家：韓國
 地區：韓國
 韓國的口琴合奏國際演出團體，活動脈絡包含韓國口琴合奏、大型合奏與教育交流。</description>
-    </item>
-    <item>
-      <title>Leafin Harmonica Ensemble</title>
-      <link>https://www.facebook.com/61573180934784/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/ab8dbe16481dd34d</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：口琴、團體樂團、重奏、國際交流
-國家：馬來西亞
-地區：馬來西亞
-馬來西亞的口琴重奏與合奏國際演出團體，活動脈絡包含公演與合作演出。</description>
     </item>
     <item>
       <title>Perfect Fourth</title>
