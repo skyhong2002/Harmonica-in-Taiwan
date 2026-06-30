@@ -2,7 +2,7 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-06-30",
   "entries": [
     {
-      "id": "watchlist-78",
+      "id": "watchlist-82",
       "name": "臺中國家歌劇院",
       "nameEn": "",
       "category": "場館平台",
@@ -86,7 +86,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-86",
+      "id": "watchlist-90",
       "name": "藍波口琴教室",
       "nameEn": "Bluebo Harmonica",
       "category": "教學器材",
@@ -376,7 +376,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-100",
+      "id": "watchlist-104",
       "name": "何家健 HarmoniKahkean",
       "nameEn": "Ho Kah Kean / HarmoniKahkean",
       "category": "演奏者",
@@ -459,7 +459,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-76",
+      "id": "watchlist-80",
       "name": "衛武營國家藝術文化中心",
       "nameEn": "",
       "category": "場館平台",
@@ -545,7 +545,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-182",
+      "id": "watchlist-186",
       "name": "EMPA 口琴課程",
       "nameEn": "EMPA Escuela de Música Popular de Avellaneda Armónica",
       "category": "國際交流",
@@ -603,7 +603,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-74",
+      "id": "watchlist-78",
       "name": "新竹縣文化局",
       "nameEn": "",
       "category": "場館平台",
@@ -736,7 +736,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-63",
+      "id": "watchlist-67",
       "name": "Marcos Coll",
       "nameEn": "Marcos Coll",
       "category": "演奏者",
@@ -823,7 +823,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-114",
+      "id": "watchlist-118",
       "name": "Filip Jers",
       "nameEn": "Filip Jers",
       "category": "演奏者",
@@ -907,7 +907,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-132",
+      "id": "watchlist-136",
       "name": "Indiara Sfair",
       "nameEn": "Indiara Sfair",
       "category": "演奏者",
@@ -990,7 +990,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-131",
+      "id": "watchlist-135",
       "name": "Antonio Serrano",
       "nameEn": "Antonio Serrano",
       "category": "演奏者",
@@ -1074,7 +1074,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-124",
+      "id": "watchlist-128",
       "name": "Jens Bunge",
       "nameEn": "Jens Bunge",
       "category": "演奏者",
@@ -1144,7 +1144,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-153",
+      "id": "watchlist-157",
       "name": "Orchestra Hohnerklang",
       "nameEn": "Orchester Hohnerklang",
       "category": "團體樂團",
@@ -1226,7 +1226,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-141",
+      "id": "watchlist-145",
       "name": "Howard Levy",
       "nameEn": "Howard Levy",
       "category": "演奏者",
@@ -1310,7 +1310,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-165",
+      "id": "watchlist-169",
       "name": "海明威口琴重奏團",
       "nameEn": "The HummingWay Harmonica Ensemble",
       "category": "活動資訊",
@@ -1391,7 +1391,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-126",
+      "id": "watchlist-130",
       "name": "Reyharp and Balawan Project",
       "nameEn": "Reyharp and Balawan Project",
       "category": "團體樂團",
@@ -1469,7 +1469,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-138",
+      "id": "watchlist-142",
       "name": "Lee Oskar",
       "nameEn": "Lee Oskar",
       "category": "演奏者",
@@ -1628,7 +1628,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-102",
+      "id": "watchlist-106",
       "name": "陳瑤容 Yora Chen",
       "nameEn": "Yora Chen",
       "category": "演奏者",
@@ -1709,7 +1709,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-50",
+      "id": "watchlist-54",
       "name": "CY Leo 何卓彥",
       "nameEn": "CY Leo",
       "category": "演奏者",
@@ -1795,7 +1795,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-146",
+      "id": "watchlist-150",
       "name": "Yoonseok Lee",
       "nameEn": "Yoonseok Lee",
       "category": "演奏者",
@@ -1879,7 +1879,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-51",
+      "id": "watchlist-55",
       "name": "梁承熹 Kelvin Leung",
       "nameEn": "Kelvin Leung",
       "category": "演奏者",
@@ -1964,7 +1964,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-99",
+      "id": "watchlist-103",
       "name": "曹小歐",
       "nameEn": "Otis Tsao",
       "category": "演奏者",
@@ -2059,7 +2059,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-110",
+      "id": "watchlist-114",
       "name": "Lee Hangyeol 이한결",
       "nameEn": "Lee Hangyeol",
       "category": "演奏者",
@@ -2126,7 +2126,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-62",
+      "id": "watchlist-66",
       "name": "Younghoon Cho",
       "nameEn": "Younghoon Cho",
       "category": "演奏者",
@@ -2211,7 +2211,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-53",
+      "id": "watchlist-57",
       "name": "山下伶 Rei Yamashita",
       "nameEn": "Rei Yamashita",
       "category": "演奏者",
@@ -2307,7 +2307,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-103",
+      "id": "watchlist-107",
       "name": "Timothy Yip 葉進禧",
       "nameEn": "Timothy Yip",
       "category": "演奏者",
@@ -2444,7 +2444,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-27+watchlist-90",
+      "id": "watchlist-27+watchlist-94",
       "name": "音和樂器",
       "nameEn": "PeaceTones Harmonica",
       "category": "教學器材",
@@ -2528,7 +2528,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-38+watchlist-84",
+      "id": "watchlist-38+watchlist-88",
       "name": "歐純伶",
       "nameEn": "",
       "category": "演奏者",
@@ -2596,7 +2596,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-55",
+      "id": "watchlist-59",
       "name": "千賀太郎",
       "nameEn": "Taro Senga",
       "category": "演奏者",
@@ -2649,7 +2649,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-106",
+      "id": "watchlist-110",
       "name": "Konstantin Reinfeld",
       "nameEn": "Konstantin Reinfeld",
       "category": "演奏者",
@@ -2733,7 +2733,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-107",
+      "id": "watchlist-111",
       "name": "Rodrigo Eberienos",
       "nameEn": "Rodrigo Eberienos",
       "category": "演奏者",
@@ -2812,7 +2812,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-117",
+      "id": "watchlist-121",
       "name": "Federico Linari",
       "nameEn": "Federico Linari",
       "category": "演奏者",
@@ -2896,7 +2896,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-181",
+      "id": "watchlist-185",
       "name": "布宜諾斯艾利斯口琴學校",
       "nameEn": "Escuela de Armónica de Buenos Aires",
       "category": "教學器材",
@@ -2981,7 +2981,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-152",
+      "id": "watchlist-156",
       "name": "Santiago Alvarez",
       "nameEn": "Santiago Alvarez",
       "category": "演奏者",
@@ -3065,7 +3065,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-148",
+      "id": "watchlist-152",
       "name": "Liam Ward & Malcolm Thorne",
       "nameEn": "Liam Ward & Malcolm Thorne",
       "category": "團體樂團",
@@ -3149,7 +3149,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-56",
+      "id": "watchlist-60",
       "name": "藤井俊充",
       "nameEn": "Toshi Fujii",
       "category": "演奏者",
@@ -3228,7 +3228,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-54",
+      "id": "watchlist-58",
       "name": "南里沙",
       "nameEn": "Minami Risa",
       "category": "演奏者",
@@ -3328,7 +3328,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-30+watchlist-97",
+      "id": "watchlist-30+watchlist-101",
       "name": "蔡明憲 DMing Studio",
       "nameEn": "DMing Studio",
       "category": "教學器材",
@@ -3520,6 +3520,24 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": "https://rss.observe.tw/picuki/profile/aidennevelyn/story/0"
         },
         {
+          "id": "ig_aidensoon",
+          "name": "Aiden Soon",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "aidensoon",
+          "profileUrl": "https://www.instagram.com/aidensoon/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_aidensoon",
+          "name": "Aiden Soon",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "aidensoon",
+          "profileUrl": "https://www.instagram.com/aidensoon/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
+        },
+        {
           "id": "x_aidensoon",
           "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
           "platform": "x",
@@ -3540,7 +3558,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-139",
+      "id": "watchlist-143",
       "name": "Gregoire Maret",
       "nameEn": "Gregoire Maret",
       "category": "演奏者",
@@ -3623,7 +3641,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-150",
+      "id": "watchlist-154",
       "name": "Rachelle Plas & Philippe Hervouet",
       "nameEn": "Rachelle Plas & Philippe Hervouet",
       "category": "團體樂團",
@@ -3693,7 +3711,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-173",
+      "id": "watchlist-177",
       "name": "Yellow Pine Harmonica Festival",
       "nameEn": "Yellow Pine Harmonica Festival",
       "category": "活動資訊",
@@ -3764,7 +3782,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-61",
+      "id": "watchlist-65",
       "name": "Jong-seong Park 朴鍾聲",
       "nameEn": "Jong-seong Park",
       "category": "演奏者",
@@ -3848,7 +3866,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-164",
+      "id": "watchlist-168",
       "name": "馬來西亞口琴節",
       "nameEn": "Malaysia Harmonica Festival",
       "category": "活動資訊",
@@ -3929,7 +3947,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-77",
+      "id": "watchlist-81",
       "name": "國家兩廳院",
       "nameEn": "",
       "category": "場館平台",
@@ -4015,7 +4033,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-2+watchlist-71",
+      "id": "watchlist-2+watchlist-75",
       "name": "臺灣口琴音樂節 THMF",
       "nameEn": "Taiwan Harmonica Music Festival",
       "category": "活動資訊",
@@ -4104,7 +4122,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-92",
+      "id": "watchlist-96",
       "name": "RedBricks Harmonica",
       "nameEn": "RedBricks Harmonica",
       "category": "團體樂團",
@@ -4262,7 +4280,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-170",
+      "id": "watchlist-174",
       "name": "口琴保存與推廣協會 SPAH",
       "nameEn": "Society for the Preservation and Advancement of the Harmonica",
       "category": "活動資訊",
@@ -4344,7 +4362,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-59",
+      "id": "watchlist-63",
       "name": "F.I.H. JAPAN ハーモニカコンテスト",
       "nameEn": "F.I.H. JAPAN Harmonica Contest",
       "category": "活動資訊",
@@ -4617,7 +4635,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-163",
+      "id": "watchlist-167",
       "name": "新加坡青年節藝術展演（口琴）",
       "nameEn": "Singapore Youth Festival Arts Presentation - Harmonica",
       "category": "活動資訊",
@@ -4895,7 +4913,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-155",
+      "id": "watchlist-159",
       "name": "Sigmund Groven",
       "nameEn": "Sigmund Groven",
       "category": "演奏者",
@@ -4965,7 +4983,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-98",
+      "id": "watchlist-102",
       "name": "范曉怡",
       "nameEn": "",
       "category": "演奏者",
@@ -5044,7 +5062,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-142",
+      "id": "watchlist-146",
       "name": "Brendan Power",
       "nameEn": "Brendan Power",
       "category": "演奏者",
@@ -5107,7 +5125,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-108",
+      "id": "watchlist-112",
       "name": "Boris Plotnikov",
       "nameEn": "Boris Plotnikov",
       "category": "演奏者",
@@ -5193,7 +5211,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-89",
+      "id": "watchlist-93",
       "name": "臺北黃石口琴樂團",
       "nameEn": "Taipei Yellowstone Harmonica Ensemble",
       "category": "團體樂團",
@@ -5235,7 +5253,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-177",
+      "id": "watchlist-181",
       "name": "Harmonica FEN 口琴節與學院",
       "nameEn": "Harmonica FEN Festival & Academy",
       "category": "活動資訊",
@@ -5319,7 +5337,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-161",
+      "id": "watchlist-165",
       "name": "口琴愛好者協會（新加坡）",
       "nameEn": "Harmonica Aficionados Society Singapore",
       "category": "國際交流",
@@ -5387,7 +5405,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-93",
+      "id": "watchlist-97",
       "name": "Duo Volce Music Studio 誼聲音樂室",
       "nameEn": "Duo Volce Music Studio",
       "category": "團體樂團",
@@ -5495,7 +5513,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-52",
+      "id": "watchlist-56",
       "name": "蔡偉鏗 Harry Choi",
       "nameEn": "Harry Choi",
       "category": "演奏者",
@@ -5649,7 +5667,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-67+club-10",
+      "id": "watchlist-71+club-10",
       "name": "台大藍聲口琴社",
       "nameEn": "NTU Blue Sound Harmonica Club",
       "category": "學校社團",
@@ -5731,7 +5749,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-70+club-9",
+      "id": "watchlist-74+club-9",
       "name": "萬興國小口琴隊",
       "nameEn": "",
       "category": "學校社團",
@@ -5914,7 +5932,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-158",
+      "id": "watchlist-162",
       "name": "香港中華基督教青年會口琴樂團",
       "nameEn": "Hong Kong Chinese YMCA Harmonica Orchestra",
       "category": "團體樂團",
@@ -6055,7 +6073,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-129",
+      "id": "watchlist-133",
       "name": "香港口琴協會 Hong Kong Harmonica Association",
       "nameEn": "Hong Kong Harmonica Association",
       "category": "團體樂團",
@@ -6877,7 +6895,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-85",
+      "id": "watchlist-89",
       "name": "桃園玩口琴",
       "nameEn": "",
       "category": "教學器材",
@@ -7235,7 +7253,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-87",
+      "id": "watchlist-91",
       "name": "巴巴口琴坊",
       "nameEn": "Baba Harmonica Studio",
       "category": "教學器材",
@@ -7315,7 +7333,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-96",
+      "id": "watchlist-100",
       "name": "進擊的口琴樂團",
       "nameEn": "",
       "category": "團體樂團",
@@ -7367,7 +7385,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-104",
+      "id": "watchlist-108",
       "name": "Stay Drunk 口琴樂團",
       "nameEn": "Stay Drunk Harmonica Ensemble",
       "category": "團體樂團",
@@ -8170,7 +8188,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-64",
+      "id": "watchlist-68",
       "name": "Gordon Lee 李俊樂",
       "nameEn": "Gordon Lee",
       "category": "演奏者",
@@ -8472,7 +8490,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-94",
+      "id": "watchlist-98",
       "name": "韋笙堡口琴 Weissenberg Harmonicas",
       "nameEn": "Weissenberg Harmonicas",
       "category": "教學器材",
@@ -8738,7 +8756,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-83",
+      "id": "watchlist-87",
       "name": "黃石樂器",
       "nameEn": "Yellowstone Music Shop",
       "category": "教學器材",
@@ -8824,7 +8842,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-66",
+      "id": "watchlist-70",
       "name": "Fata Morgana 口琴四重奏",
       "nameEn": "Fata Morgana",
       "category": "團體樂團",
@@ -8921,7 +8939,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "名稱為有限公司，屬營利單位；關鍵字含口琴，類別為單位；摘要提及協辦/製作，故標團體樂團、口琴、活動資訊、音樂會、品牌。"
     },
     {
-      "id": "watchlist-175",
+      "id": "watchlist-179",
       "name": "Hohner 音樂院（特羅辛根）",
       "nameEn": "Hohner-Konservatorium Trossingen",
       "category": "國際交流",
@@ -9002,7 +9020,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-57",
+      "id": "watchlist-61",
       "name": "TOMBO ハーモニカ・ソサイエティ",
       "nameEn": "TOMBO Harmonica Society Directory",
       "category": "國際交流",
@@ -9033,7 +9051,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-167",
+      "id": "watchlist-171",
       "name": "中國大眾音樂協會口琴專業委員會",
       "nameEn": "China Popular Music Association Harmonica Professional Committee",
       "category": "國際交流",
@@ -9064,7 +9082,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-58",
+      "id": "watchlist-62",
       "name": "全日本ハーモニカ連盟 AJHF",
       "nameEn": "All Japan Harmonica Federation",
       "category": "國際交流",
@@ -9095,7 +9113,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-174",
+      "id": "watchlist-178",
       "name": "德國 Harmonica/Harmonika 協會 DHV",
       "nameEn": "Deutscher Harmonika-Verband e.V.",
       "category": "國際交流",
@@ -9127,7 +9145,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-60",
+      "id": "watchlist-64",
       "name": "日本ハーモニカ芸術協会 JHAA",
       "nameEn": "Japan Harmonica Art Association",
       "category": "國際交流",
@@ -9160,7 +9178,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-171",
+      "id": "watchlist-175",
       "name": "英國口琴協會",
       "nameEn": "HarmonicaUK",
       "category": "國際交流",
@@ -9245,7 +9263,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-168",
+      "id": "watchlist-172",
       "name": "韓國口琴教育協會",
       "nameEn": "Korea Harmonica Education Association",
       "category": "國際交流",
@@ -9295,7 +9313,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-123",
+      "id": "watchlist-127",
       "name": "Ausgelassen x Wesley Wong",
       "nameEn": "Ausgelassen x Wesley Wong",
       "category": "團體樂團",
@@ -9436,7 +9454,60 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-120",
+      "id": "watchlist-52",
+      "name": "Fourtissimo Harmonica Ensemble",
+      "nameEn": "Fourtissimo Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "青少年口琴重奏/演出/交流",
+      "structuredSummary": "青少年口琴重奏/演出/交流 / 口琴重奏/合奏 / 國際演出團體/青年團體",
+      "summary": "馬來西亞的口琴重奏與合奏國際演出團體與青年團體，活動脈絡包含青少年口琴重奏、演出與交流。",
+      "keywords": "Fourtissimo Harmonica Ensemble fourtissimo_harmonica_ensemble four teenagers harmonica Malaysia",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/fourtissimo_harmonica_ensemble/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "FHE",
+      "sourceTags": [
+        "口琴",
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_fourtissimo_harmonica_ensemble",
+          "name": "Fourtissimo Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "fourtissimo_harmonica_ensemble",
+          "profileUrl": "https://www.instagram.com/fourtissimo_harmonica_ensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_fourtissimo_harmonica_ensemble",
+          "name": "Fourtissimo Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "fourtissimo_harmonica_ensemble",
+          "profileUrl": "https://www.instagram.com/fourtissimo_harmonica_ensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/fourtissimo_harmonica_ensemble/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-124",
       "name": "Fresco Harmonica Ensemble",
       "nameEn": "Fresco Harmonica Ensemble",
       "category": "團體樂團",
@@ -9502,7 +9573,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-125",
+      "id": "watchlist-129",
       "name": "Korea Harmonica Orchestra",
       "nameEn": "Korea Harmonica Orchestra",
       "category": "團體樂團",
@@ -9534,7 +9605,73 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-121",
+      "id": "watchlist-53",
+      "name": "Leafin Harmonica Ensemble",
+      "nameEn": "Leafin Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "口琴重奏/公演/合作演出",
+      "structuredSummary": "口琴重奏/公演/合作演出 / 口琴重奏/合奏 / 國際演出團體",
+      "summary": "馬來西亞的口琴重奏與合奏國際演出團體，活動脈絡包含公演與合作演出。",
+      "keywords": "Leafin Harmonica Ensemble _leafin_harmonicaensemble harmonica Malaysia",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/61573180934784/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/_leafin_harmonicaensemble/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "LHE",
+      "sourceTags": [
+        "口琴",
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_61573180934784",
+          "name": "Leafin Harmonica Ensemble",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/61573180934784",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_leafin_harmonicaensemble",
+          "name": "Leafin Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "_leafin_harmonicaensemble",
+          "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_leafin_harmonicaensemble",
+          "name": "Leafin Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "_leafin_harmonicaensemble",
+          "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/_leafin_harmonicaensemble/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-125",
       "name": "Perfect Fourth",
       "nameEn": "Perfect Fourth",
       "category": "團體樂團",
@@ -9617,7 +9754,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-154",
+      "id": "watchlist-158",
       "name": "Ptaszek & Buzma",
       "nameEn": "Ptaszek & Buzma",
       "category": "團體樂團",
@@ -9712,7 +9849,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-151",
+      "id": "watchlist-155",
       "name": "The LiveWires",
       "nameEn": "The LiveWires",
       "category": "團體樂團",
@@ -9745,7 +9882,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-119",
+      "id": "watchlist-123",
       "name": "The Magic Harmonica Ensemble",
       "nameEn": "The Magic Harmonica Ensemble",
       "category": "團體樂團",
@@ -9794,7 +9931,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-136",
+      "id": "watchlist-140",
       "name": "Veloz Harmonica Quartet",
       "nameEn": "Veloz Harmonica Quartet",
       "category": "團體樂團",
@@ -9915,7 +10052,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-180",
+      "id": "watchlist-184",
       "name": "庫里奇巴口琴樂團",
       "nameEn": "Orquestra Harmônicas de Curitiba",
       "category": "團體樂團",
@@ -9984,7 +10121,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-162",
+      "id": "watchlist-166",
       "name": "海南會館口琴樂團",
       "nameEn": "HNHK Harmonica Orchestra",
       "category": "團體樂團",
@@ -10105,7 +10242,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-8+watchlist-68+club-4",
+      "id": "watchlist-8+watchlist-72+club-4",
       "name": "臺中市中華口琴會樂團",
       "nameEn": "",
       "category": "團體樂團",
@@ -10167,7 +10304,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-169",
+      "id": "watchlist-173",
       "name": "首爾口琴管弦樂團",
       "nameEn": "Seoul Harmonica Orchestra",
       "category": "團體樂團",
@@ -10212,7 +10349,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-95",
+      "id": "watchlist-99",
       "name": "高雄市兒童口琴樂團 / 高雄市口琴協會",
       "nameEn": "",
       "category": "團體樂團",
@@ -10258,7 +10395,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-75",
+      "id": "watchlist-79",
       "name": "國立陽明交通大學藝文中心",
       "nameEn": "",
       "category": "場館平台",
@@ -10339,7 +10476,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-73",
+      "id": "watchlist-77",
       "name": "新竹市文化局",
       "nameEn": "",
       "category": "場館平台",
@@ -11177,7 +11314,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-69+club-20",
+      "id": "watchlist-73+club-20",
       "name": "雲林縣二崙國中藝才班口琴隊",
       "nameEn": "",
       "category": "學校社團",
@@ -11292,7 +11429,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-101",
+      "id": "watchlist-105",
       "name": "口袋琴房 Pocket Harmonic",
       "nameEn": "Pocket Harmonic",
       "category": "教學器材",
@@ -11378,7 +11515,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-80",
+      "id": "watchlist-84",
       "name": "東和樂器",
       "nameEn": "Tongho Musical Instrument Co., Ltd. / music4fun",
       "category": "教學器材",
@@ -11460,7 +11597,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-91",
+      "id": "watchlist-95",
       "name": "狂響逗嘴鼓口琴樂坊",
       "nameEn": "Rhapsody Harmonica & Drum Studio",
       "category": "教學器材",
@@ -11509,7 +11646,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-79",
+      "id": "watchlist-83",
       "name": "雙燕樂器",
       "nameEn": "Musix Co., Ltd.",
       "category": "教學器材",
@@ -11569,7 +11706,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-88",
+      "id": "watchlist-92",
       "name": "An Afternoon with Harmonica",
       "nameEn": "An Afternoon with Harmonica",
       "category": "活動資訊",
@@ -11634,7 +11771,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-82",
+      "id": "watchlist-86",
       "name": "From Harmonica to Music",
       "nameEn": "From Harmonica to Music",
       "category": "活動資訊",
@@ -11681,7 +11818,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-176",
+      "id": "watchlist-180",
       "name": "Harmonica Masters 口琴大師工作坊",
       "nameEn": "Harmonica Masters Workshops",
       "category": "活動資訊",
@@ -11716,7 +11853,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-178",
+      "id": "watchlist-182",
       "name": "Mundharmonika-Live 口琴節",
       "nameEn": "Mundharmonika-Live",
       "category": "活動資訊",
@@ -11749,7 +11886,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-72",
+      "id": "watchlist-76",
       "name": "OPENTIX 口琴售票搜尋",
       "nameEn": "",
       "category": "活動資訊",
@@ -11795,7 +11932,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-105",
+      "id": "watchlist-109",
       "name": "Seoul International Harmonica Festival",
       "nameEn": "Seoul International Harmonica Festival",
       "category": "活動資訊",
@@ -11828,7 +11965,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-172",
+      "id": "watchlist-176",
       "name": "Spring Harp Fest",
       "nameEn": "Spring Harp Fest",
       "category": "活動資訊",
@@ -11912,7 +12049,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-145",
+      "id": "watchlist-149",
       "name": "World Harmonica Festival",
       "nameEn": "World Harmonica Festival",
       "category": "活動資訊",
@@ -11982,7 +12119,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-179",
+      "id": "watchlist-183",
       "name": "巴西口琴論壇",
       "nameEn": "Fórum Harmônicas Brasil",
       "category": "活動資訊",
@@ -12065,7 +12202,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-166",
+      "id": "watchlist-170",
       "name": "第十五屆亞太口琴藝術週",
       "nameEn": "15th Asia Pacific Harmonica Festival",
       "category": "活動資訊",
@@ -12102,7 +12239,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-159",
+      "id": "watchlist-163",
       "name": "香港國際半音階口琴大賽",
       "nameEn": "International Chromatic Harmonica Competition Hong Kong",
       "category": "活動資訊",
@@ -12136,7 +12273,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-160",
+      "id": "watchlist-164",
       "name": "香港學校音樂節",
       "nameEn": "Hong Kong Schools Music Festival",
       "category": "活動資訊",
@@ -12207,7 +12344,70 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-157",
+      "id": "watchlist-50",
+      "name": "Aiden Soon",
+      "nameEn": "Aiden Soon",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
+      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "Aiden Soon aidensoon World Harmonica Champion Aiden N Evelyn harmonica",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/aidensoon/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "AS",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_aidensoon",
+          "name": "Aiden Soon",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "aidensoon",
+          "profileUrl": "https://www.instagram.com/aidensoon/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_aidensoon",
+          "name": "Aiden Soon",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "aidensoon",
+          "profileUrl": "https://www.instagram.com/aidensoon/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
+        },
+        {
+          "id": "x_aidensoon",
+          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+          "platform": "x",
+          "type": "rss",
+          "username": "aidensoon",
+          "profileUrl": "https://x.com/aidensoon",
+          "feedUrl": "https://rss.observe.tw/twitter/user/aidensoon"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-161",
       "name": "Deak Harp",
       "nameEn": "Deak Harp",
       "category": "演奏者",
@@ -12291,7 +12491,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-65",
+      "id": "watchlist-69",
       "name": "Dror Adler / Adler Trio",
       "nameEn": "Dror Adler / Adler Trio",
       "category": "演奏者",
@@ -12349,7 +12549,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-147",
+      "id": "watchlist-151",
       "name": "Hank Shreve",
       "nameEn": "Hank Shreve",
       "category": "演奏者",
@@ -12420,7 +12620,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-137",
+      "id": "watchlist-141",
       "name": "Keith Dunn",
       "nameEn": "Keith Dunn",
       "category": "演奏者",
@@ -12478,7 +12678,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-140",
+      "id": "watchlist-144",
       "name": "Kif Valentine",
       "nameEn": "Kif Valentine",
       "category": "演奏者",
@@ -12556,7 +12756,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-111",
+      "id": "watchlist-115",
       "name": "Kim Changsik 김창식",
       "nameEn": "Kim Changsik",
       "category": "演奏者",
@@ -12590,7 +12790,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-112",
+      "id": "watchlist-116",
       "name": "Kim Kyunghee 김경희",
       "nameEn": "Kim Kyunghee",
       "category": "演奏者",
@@ -12622,7 +12822,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-127",
+      "id": "watchlist-131",
       "name": "Long Deng Jie 龍登杰",
       "nameEn": "Long Deng Jie",
       "category": "演奏者",
@@ -12688,7 +12888,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-156",
+      "id": "watchlist-160",
       "name": "Steve Baker",
       "nameEn": "Steve Baker",
       "category": "演奏者",
@@ -12749,7 +12949,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-109",
+      "id": "watchlist-113",
       "name": "Takamoto Mizuno",
       "nameEn": "Takamoto Mizuno",
       "category": "演奏者",
@@ -12797,7 +12997,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-149",
+      "id": "watchlist-153",
       "name": "Tian Long Li",
       "nameEn": "Tian Long Li",
       "category": "演奏者",
@@ -12830,7 +13030,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-122",
+      "id": "watchlist-126",
       "name": "Yuanmao Wang",
       "nameEn": "Yuanmao Wang",
       "category": "演奏者",
@@ -12993,7 +13193,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-116",
+      "id": "watchlist-120",
       "name": "和谷泰扶 Yasuo Watani",
       "nameEn": "Yasuo Watani",
       "category": "演奏者",
@@ -13026,7 +13226,87 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-118",
+      "id": "watchlist-51",
+      "name": "唐雪婷 Sharene Tang",
+      "nameEn": "Sharene Tang",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/國際郵輪演出",
+      "structuredSummary": "世界口琴冠軍/演出/教學/國際郵輪演出 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "唐雪婷 Sharene Tang sharene.harmonica World Harmonica Champion Fresco harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/sharenetang.fresco/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sharene.harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@Shareneharmonicamusic"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "ST",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_sharenetang_fresco",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/sharenetang.fresco",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sharene_harmonica",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sharene.harmonica",
+          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sharene_harmonica",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sharene.harmonica",
+          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sharene.harmonica/story/0"
+        },
+        {
+          "id": "yt_shareneharmonicamusic",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-122",
       "name": "田中光栄 Koei Tanaka",
       "nameEn": "Koei Tanaka",
       "category": "演奏者",
@@ -13098,7 +13378,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-183",
+      "id": "watchlist-187",
       "name": "蔡明勳",
       "nameEn": "Ming-Hsun Tsai",
       "category": "演奏者",
@@ -13342,16 +13622,16 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 195,
+    "totalEntries": 199,
     "categories": {
       "其他來源": 2,
       "國際交流": 10,
-      "團體樂團": 39,
+      "團體樂團": 41,
       "場館平台": 6,
       "學校社團": 36,
       "教學器材": 13,
       "活動資訊": 20,
-      "演奏者": 69
+      "演奏者": 71
     },
     "countries": {
       "中國": 8,
@@ -13378,27 +13658,27 @@ window.HARMONICA_OBSERVE_DATA = {
       "阿根廷": 4,
       "韓國": 10,
       "香港": 16,
-      "馬來西亞": 8
+      "馬來西亞": 12
     },
     "watchSources": {
-      "totalSources": 551,
-      "rsshubSources": 285,
-      "apifySources": 141,
-      "facebookSources": 141,
-      "youtubeSources": 125,
+      "totalSources": 562,
+      "rsshubSources": 293,
+      "apifySources": 143,
+      "facebookSources": 143,
+      "youtubeSources": 126,
       "platforms": {
-        "facebook": 141,
-        "instagram": 270,
+        "facebook": 143,
+        "instagram": 278,
         "threads": 2,
         "x": 13,
-        "youtube": 125
+        "youtube": 126
       },
       "types": {
-        "facebook_page_posts": 141,
+        "facebook_page_posts": 143,
         "rss": 15,
-        "rsshub_instagram_profile": 135,
-        "rsshub_instagram_story": 135,
-        "youtube_ytdlp": 125
+        "rsshub_instagram_profile": 139,
+        "rsshub_instagram_story": 139,
+        "youtube_ytdlp": 126
       }
     }
   }
