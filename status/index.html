@@ -30,9 +30,9 @@
           <div class="feed-page-summary status-summary-panel">
             <div class="status-summary-line">
               <span class="status-badge status-degraded">部分異常</span>
-              <strong>核心 pipeline 有產出；需要注意：YouTube yt-dlp。 Instagram RSSHub、Facebook Apify 目前依排程或預算節流。</strong>
+              <strong>核心 pipeline 有產出；需要注意：Instagram RSSHub、X / Twitter RSS、Threads / 其他 RSS。 Facebook Apify 目前依排程或預算節流。</strong>
             </div>
-            <p>快照時間 2026-06-30T14:31:33+08:00</p>
+            <p>快照時間 2026-06-30T15:02:39+08:00</p>
             <div class="feed-links">
               <a href="/api/status.json">Status JSON</a>
               <a href="/api/latest.json">Latest API</a>
@@ -49,7 +49,7 @@
               <p class="section-kicker">Snapshot</p>
               <h2 id="status-overview-title">目前快照</h2>
             </div>
-            <p class="data-date">資料時間 2026-06-30T14:31:32+08:00</p>
+            <p class="data-date">資料時間 2026-06-30T15:02:39+08:00</p>
           </div>
           <div class="status-metric-grid">
 
@@ -76,7 +76,7 @@
 
       <article class="status-metric-card">
         <span>目前錯誤</span>
-        <strong></strong>
+        <strong>18</strong>
         <p>最新抓取批次</p>
       </article>
 
@@ -91,7 +91,7 @@
               <p class="section-kicker">Collectors</p>
               <h2 id="status-components-title">元件狀態</h2>
             </div>
-            <p class="data-date">最新社群觀測 2026-06-30T14:31:26+08:00</p>
+            <p class="data-date">最新社群觀測 2026-06-30T15:02:33+08:00</p>
           </div>
           <div class="status-component-grid">
 
@@ -101,7 +101,7 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>定期 pipeline 已產生公開資料快照。</p>
-        <ul class="status-detail-list"><li>最新公開資料：2026-06-30 14:31:32</li><li>pipeline.log 更新：2026-06-30 14:31:32</li><li>pipeline.err.log 更新：2026-06-30 14:00:48</li><li>LaunchAgent：running，last exit 0</li></ul>
+        <ul class="status-detail-list"><li>最新公開資料：2026-06-30 15:02:39</li><li>pipeline.log 更新：2026-06-30 15:02:39</li><li>pipeline.err.log 更新：2026-06-30 14:31:46</li><li>LaunchAgent：running，last exit 0</li></ul>
       </article>
 
 
@@ -121,26 +121,26 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>本機 RSSHub 入口回 200。</p>
-        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：12 ms</li></ul>
+        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：43 ms</li></ul>
       </article>
 
 
-      <article class="status-component-card status-card-paused">
+      <article class="status-component-card status-card-degraded">
         <div class="status-component-head">
           <h2>Instagram RSSHub</h2>
-          <span class="status-badge status-paused">節流中</span>
+          <span class="status-badge status-degraded">部分異常</span>
         </div>
-        <p>270 個 Instagram 來源（profile 135、story 135）；最新抓取批次目前 0 個錯誤。</p>
-        <ul class="status-detail-list"><li>最新社群觀測：2026-06-30 14:31:26</li><li>story 無公開內容/空路由略過：0</li><li>IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。</li><li>本輪 IG：抓取 1、排程略過 269、延後 0、錯誤 0。</li><li>下一個 IG 來源：約 2026-06-30 14:34:22</li></ul>
+        <p>270 個 Instagram 來源（profile 135、story 135）；最新抓取批次目前 3 個錯誤。</p>
+        <ul class="status-detail-list"><li>最新社群觀測：2026-06-30 15:02:33</li><li>story 無公開內容/空路由略過：0</li><li>IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。</li><li>本輪 IG：抓取 3、排程略過 267、延後 0、錯誤 3。</li><li>下一個 IG 來源：約 2026-06-30 15:03:10</li></ul>
       </article>
 
 
-      <article class="status-component-card status-card-ok">
+      <article class="status-component-card status-card-degraded">
         <div class="status-component-head">
           <h2>X / Twitter RSS</h2>
-          <span class="status-badge status-ok">正常</span>
+          <span class="status-badge status-degraded">部分異常</span>
         </div>
-        <p>13 個 X 來源；最新抓取批次目前 0 個錯誤。</p>
+        <p>13 個 X 來源；最新抓取批次目前 13 個錯誤。</p>
         <ul class="status-detail-list"><li>目前 route 依 RSSHub 設定抓取。</li><li>若持續 503，通常要檢查 RSSHub 的 Twitter API 設定。</li></ul>
       </article>
 
@@ -155,22 +155,22 @@
       </article>
 
 
-      <article class="status-component-card status-card-degraded">
+      <article class="status-component-card status-card-ok">
         <div class="status-component-head">
           <h2>YouTube yt-dlp</h2>
-          <span class="status-badge status-degraded">部分異常</span>
+          <span class="status-badge status-ok">正常</span>
         </div>
-        <p>125 個 YouTube 來源；最近 run error_count=1。</p>
-        <ul class="status-detail-list"><li>最近完成：2026-06-30 14:30:56</li><li>最近新增 inbox：0</li></ul>
+        <p>125 個 YouTube 來源；最近 run error_count=0。</p>
+        <ul class="status-detail-list"><li>最近完成：2026-06-30 15:01:59</li><li>最近新增 inbox：0</li></ul>
       </article>
 
 
-      <article class="status-component-card status-card-ok">
+      <article class="status-component-card status-card-degraded">
         <div class="status-component-head">
           <h2>Threads / 其他 RSS</h2>
-          <span class="status-badge status-ok">正常</span>
+          <span class="status-badge status-degraded">部分異常</span>
         </div>
-        <p>2 個 Threads 來源；其他 RSS 最新抓取批次目前 0 個錯誤。</p>
+        <p>2 個 Threads 來源；其他 RSS 最新抓取批次目前 2 個錯誤。</p>
         <ul class="status-detail-list"><li>RSS 類型來源：15</li></ul>
       </article>
 
@@ -207,24 +207,24 @@
             <tr>
               <th scope="row">instagram</th>
               <td>270</td>
-              <td></td>
-              <td><span class="status-badge status-ok">正常</span></td>
+              <td>3</td>
+              <td><span class="status-badge status-degraded">部分異常</span></td>
             </tr>
 
 
             <tr>
               <th scope="row">threads</th>
               <td>2</td>
-              <td></td>
-              <td><span class="status-badge status-ok">正常</span></td>
+              <td>2</td>
+              <td><span class="status-badge status-degraded">部分異常</span></td>
             </tr>
 
 
             <tr>
               <th scope="row">x</th>
               <td>13</td>
-              <td></td>
-              <td><span class="status-badge status-ok">正常</span></td>
+              <td>13</td>
+              <td><span class="status-badge status-degraded">部分異常</span></td>
             </tr>
 
 
@@ -251,7 +251,168 @@
             <p class="data-date">最多顯示 20 筆</p>
           </div>
           <div class="status-error-list">
-            <div class="empty-state">最新抓取批次沒有記錄中的錯誤。</div>
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-30T15:02:33+08:00 · instagram</span>
+                <strong>KSHS Harmonica</strong>
+              </div>
+              <p>HTTP Error 308: Permanent Redirect</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-30T15:02:33+08:00 · instagram</span>
+                <strong>廖苡晴</strong>
+              </div>
+              <p>HTTP Error 308: Permanent Redirect</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-30T15:02:33+08:00 · instagram</span>
+                <strong>新加坡國立大學口琴社</strong>
+              </div>
+              <p>HTTP Error 308: Permanent Redirect</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-30T15:02:33+08:00 · threads</span>
+                <strong>曹小歐</strong>
+              </div>
+              <p>HTTP Error 308: Permanent Redirect</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-30T15:02:33+08:00 · threads</span>
+                <strong>范曉怡</strong>
+              </div>
+              <p>HTTP Error 308: Permanent Redirect</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-30T15:02:33+08:00 · x</span>
+                <strong>Aiden N Evelyn / Aiden Soon &amp; Evelyn Choong</strong>
+              </div>
+              <p>HTTP Error 308: Permanent Redirect</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-30T15:02:33+08:00 · x</span>
+                <strong>Duo Volce Music Studio 誼聲音樂室</strong>
+              </div>
+              <p>HTTP Error 308: Permanent Redirect</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-30T15:02:33+08:00 · x</span>
+                <strong>F.I.H. JAPAN ハーモニカコンテスト</strong>
+              </div>
+              <p>HTTP Error 308: Permanent Redirect</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-30T15:02:33+08:00 · x</span>
+                <strong>中央大學リード合奏部ハーモニカ・ソサィエティー</strong>
+              </div>
+              <p>HTTP Error 308: Permanent Redirect</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-30T15:02:33+08:00 · x</span>
+                <strong>南里沙</strong>
+              </div>
+              <p>HTTP Error 308: Permanent Redirect</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-30T15:02:33+08:00 · x</span>
+                <strong>山下伶 Rei Yamashita</strong>
+              </div>
+              <p>HTTP Error 308: Permanent Redirect</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-30T15:02:33+08:00 · x</span>
+                <strong>早稻田大學ハーモニカ・ソサィアティ</strong>
+              </div>
+              <p>HTTP Error 308: Permanent Redirect</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-30T15:02:33+08:00 · x</span>
+                <strong>明治大學ハーモニカソサエティー</strong>
+              </div>
+              <p>HTTP Error 308: Permanent Redirect</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-30T15:02:33+08:00 · x</span>
+                <strong>李讓 Jang Li</strong>
+              </div>
+              <p>HTTP Error 308: Permanent Redirect</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-30T15:02:33+08:00 · x</span>
+                <strong>立教大學ハーモニカ・ソサイアティー</strong>
+              </div>
+              <p>HTTP Error 308: Permanent Redirect</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-30T15:02:33+08:00 · x</span>
+                <strong>英國口琴協會</strong>
+              </div>
+              <p>HTTP Error 308: Permanent Redirect</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-30T15:02:33+08:00 · x</span>
+                <strong>關西學院大學ハーモニカソサイアティ</strong>
+              </div>
+              <p>HTTP Error 308: Permanent Redirect</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-06-30T15:02:33+08:00 · x</span>
+                <strong>鹿兒島大學ハーモニカバンド</strong>
+              </div>
+              <p>HTTP Error 308: Permanent Redirect</p>
+            </article>
+
           </div>
         </div>
       </section>
