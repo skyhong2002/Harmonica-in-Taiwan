@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 01 Jul 2026 09:45:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 10:50:05 +0000</lastBuildDate>
     <item>
       <title>新加坡青年節藝術展演（口琴）</title>
       <link>https://www.syf.gov.sg/general/calendar</link>
@@ -29,6 +29,28 @@ Tag：口琴、演奏者
 臺灣的口琴演出人員，活動脈絡包含111 Trio與Quintet。</description>
     </item>
     <item>
+      <title>Younghoon Cho</title>
+      <link>https://linktr.ee/hoontobe</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/2a1ec747c34bfb28</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、合奏、口琴、國際交流
+國家：韓國
+地區：韓國
+韓國的鋼琴合作音樂家，活動脈絡包含鋼琴伴奏與朴鍾聲合作。</description>
+    </item>
+    <item>
+      <title>彰女微光口琴社</title>
+      <link>https://www.instagram.com/chgsh_harmonica/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/4901996dac05cffc</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：學校社團
+Tag：口琴、學生社團
+國家：臺灣
+地區：臺灣/彰化
+彰化女中的口琴學校社團。</description>
+    </item>
+    <item>
       <title>藤井俊充</title>
       <link>https://www.facebook.com/100091746706247/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/28e123623573acec</guid>
@@ -38,6 +60,17 @@ Tag：口琴、演奏者、十孔、國際交流
 國家：日本
 地區：日本/臺灣爵士圈
 日本的十孔與爵士口琴國際演出人員，活動脈絡包含爵士與跨界。</description>
+    </item>
+    <item>
+      <title>衛武營國家藝術文化中心</title>
+      <link>https://www.npac-weiwuying.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/886a3e69f2bc562c</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館、場館平台、活動資訊、音樂會、演出
+國家：臺灣
+地區：臺灣/高雄
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>EMPA 口琴課程</title>
@@ -161,17 +194,6 @@ Tag：口琴、演奏者
 臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。</description>
     </item>
     <item>
-      <title>Younghoon Cho</title>
-      <link>https://linktr.ee/hoontobe</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/2a1ec747c34bfb28</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、合奏、口琴、國際交流
-國家：韓國
-地區：韓國
-韓國的鋼琴合作音樂家，活動脈絡包含鋼琴伴奏與朴鍾聲合作。</description>
-    </item>
-    <item>
       <title>Santiago Alvarez</title>
       <link>https://worldharmonicafestival.de/artist-profile-santiago-alvarez/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/2cffec8e56b63330</guid>
@@ -236,17 +258,6 @@ Tag：演奏者、口琴、半音階、合奏、國際交流
 國家：香港
 地區：香港
 香港的半音階國際演出人員，活動脈絡包含現代跨界。</description>
-    </item>
-    <item>
-      <title>衛武營國家藝術文化中心</title>
-      <link>https://www.npac-weiwuying.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/886a3e69f2bc562c</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館、場館平台、活動資訊、音樂會、演出
-國家：臺灣
-地區：臺灣/高雄
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>Marcos Coll</title>
@@ -951,17 +962,6 @@ Tag：團體樂團、合奏、口琴、演出、音樂會
 國家：臺灣
 地區：臺灣
 臺灣的口琴合奏演出團體，活動脈絡包含南部口琴合奏。</description>
-    </item>
-    <item>
-      <title>彰女微光口琴社</title>
-      <link>https://www.instagram.com/chgsh_harmonica/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/4901996dac05cffc</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：學校社團
-Tag：口琴、學生社團
-國家：臺灣
-地區：臺灣/彰化
-彰化女中的口琴學校社團。</description>
     </item>
     <item>
       <title>建中口琴社</title>
