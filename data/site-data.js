@@ -2,6 +2,232 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-01",
   "entries": [
     {
+      "id": "watchlist-60",
+      "name": "藤井俊充",
+      "nameEn": "Toshi Fujii",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "日本",
+      "region": "日本/臺灣爵士圈",
+      "cityOrFocus": "爵士/跨界",
+      "structuredSummary": "爵士/跨界 / 十孔/爵士口琴 / 國際演出人員",
+      "summary": "日本的十孔與爵士口琴國際演出人員，活動脈絡包含爵士與跨界。",
+      "keywords": "藤井俊充 Toshi Fujii harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/100091746706247/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/toshimiller/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-01T01:27:20+00:00",
+      "latestUpdateLocal": "2026-07-01 09:27",
+      "latestUpdateSource": "藤井俊充",
+      "latestUpdateUrl": "https://www.instagram.com/p/DaO1SgiTVKx/",
+      "avatarUrl": "/assets/source-avatars/db80d06917ef5d9965b5.webp",
+      "sourceInitials": "藤井",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_100091746706247",
+          "name": "藤井俊充",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/100091746706247",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_toshimiller",
+          "name": "藤井俊充",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "toshimiller",
+          "profileUrl": "https://www.instagram.com/toshimiller/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/toshimiller/story/0"
+        },
+        {
+          "id": "ig_toshimiller",
+          "name": "藤井俊充",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "toshimiller",
+          "profileUrl": "https://www.instagram.com/toshimiller/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_uczvwagm6xsebpi_x5h1zohw",
+          "name": "藤井俊充",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-186",
+      "name": "EMPA 口琴課程",
+      "nameEn": "EMPA Escuela de Música Popular de Avellaneda Armónica",
+      "category": "國際交流",
+      "type": "學校/正式課程",
+      "country": "阿根廷",
+      "region": "阿根廷/阿韋亞內達",
+      "cityOrFocus": "公立流行音樂學校/正式口琴課程/爵士/探戈/民俗",
+      "structuredSummary": "公立流行音樂學校/正式口琴課程/爵士/探戈/民俗 / 半音階/十孔/armónica / 國際教育來源",
+      "summary": "阿根廷的國際教育來源，關注公立流行音樂學校、正式口琴課程、爵士、探戈與民俗。",
+      "keywords": "EMPA Escuela de Música Popular de Avellaneda Armónica harmonica Argentina",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.empa.edu.ar/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/empa.oficial/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-01T01:07:33+00:00",
+      "latestUpdateLocal": "2026-07-01 09:07",
+      "latestUpdateSource": "EMPA 口琴課程",
+      "latestUpdateUrl": "https://www.instagram.com/stories/empa.oficial/3931305463232973517/",
+      "avatarUrl": "/assets/source-avatars/318f46ce574ac18fd6fa.webp",
+      "sourceInitials": "E",
+      "sourceTags": [
+        "口琴",
+        "國際交流",
+        "課程",
+        "半音階",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_empa_oficial",
+          "name": "EMPA 口琴課程",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "empa.oficial",
+          "profileUrl": "https://www.instagram.com/empa.oficial/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_empa_oficial",
+          "name": "EMPA 口琴課程",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "empa.oficial",
+          "profileUrl": "https://www.instagram.com/empa.oficial/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/empa.oficial/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-2+watchlist-75",
+      "name": "臺灣口琴音樂節 THMF",
+      "nameEn": "Taiwan Harmonica Music Festival",
+      "category": "活動資訊",
+      "type": "活動/資訊入口 / 活動子來源",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "音樂節/比賽/Gala/講座 / 每年新興團體/青年演出",
+      "structuredSummary": "音樂節/比賽/Gala/講座 / 半音階/複音/十孔/重奏 / 核心活動",
+      "summary": "臺灣的核心活動，涵蓋音樂節、比賽、Gala與講座。",
+      "keywords": "THMF 臺灣口琴音樂節 Taiwan Harmonica Music Festival THMF 午間音樂會 新團體",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/twharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/taiwanharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@thmc6470"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [
+        "THMF 午間音樂會新團體"
+      ],
+      "latestUpdateAt": "2026-07-01T00:12:26+00:00",
+      "latestUpdateLocal": "2026-07-01 08:12",
+      "latestUpdateSource": "臺灣口琴音樂節 THMF",
+      "latestUpdateUrl": "https://www.instagram.com/stories/taiwanharmonica/3931276910332720833/",
+      "avatarUrl": "/assets/source-avatars/35e815a6169924844433.webp",
+      "sourceInitials": "T",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "團體樂團",
+        "音樂節",
+        "比賽",
+        "半音階",
+        "複音",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_twharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/twharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/taiwanharmonica/story/0"
+        },
+        {
+          "id": "ig_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_thmc6470",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@thmc6470",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-40",
       "name": "陳鴻儀",
       "nameEn": "Henry Chen",
@@ -509,6 +735,90 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-156",
+      "name": "Santiago Alvarez",
+      "nameEn": "Santiago Alvarez",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "阿根廷",
+      "region": "阿根廷",
+      "cityOrFocus": "WHF 2025/半音階口琴/世界冠軍/演出與教學",
+      "structuredSummary": "WHF 2025/半音階口琴/世界冠軍/演出與教學 / 半音階 / 國際演出人員/教育者",
+      "summary": "阿根廷的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、半音階口琴與世界冠軍。",
+      "keywords": "Santiago Alvarez Santiago Alvarez Armonica harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://worldharmonicafestival.de/artist-profile-santiago-alvarez/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/santialvarezarmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/santi.alvarez.armonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCj06r7zxcQqFS26fy7n0jZw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-30T14:45:47+00:00",
+      "latestUpdateLocal": "2026-06-30 22:45",
+      "latestUpdateSource": "Santiago Alvarez",
+      "latestUpdateUrl": "https://www.instagram.com/stories/santi.alvarez.armonica/3930991685534075633/",
+      "avatarUrl": "/assets/source-avatars/14ce4f9fd968b3bf3339.webp",
+      "sourceInitials": "SA",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_santialvarezarmonica",
+          "name": "Santiago Alvarez",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/santialvarezarmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_santi_alvarez_armonica",
+          "name": "Santiago Alvarez",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "santi.alvarez.armonica",
+          "profileUrl": "https://www.instagram.com/santi.alvarez.armonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_santi_alvarez_armonica",
+          "name": "Santiago Alvarez",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "santi.alvarez.armonica",
+          "profileUrl": "https://www.instagram.com/santi.alvarez.armonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/santi.alvarez.armonica/story/0"
+        },
+        {
+          "id": "yt_ucj06r7zxcqqfs26fy7n0jzw",
+          "name": "Santiago Alvarez",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCj06r7zxcQqFS26fy7n0jZw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-30+watchlist-101",
       "name": "蔡明憲 DMing Studio",
       "nameEn": "DMing Studio",
@@ -672,6 +982,84 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "harmonica_wang",
           "profileUrl": "https://www.instagram.com/harmonica_wang/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_wang/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-130",
+      "name": "Reyharp and Balawan Project",
+      "nameEn": "Reyharp and Balawan Project",
+      "category": "團體樂團",
+      "type": "團體/合作企劃",
+      "country": "印尼",
+      "region": "印尼",
+      "cityOrFocus": "Reyharp Naufal與Balawan合作/跨界融合/口琴與吉他",
+      "structuredSummary": "Reyharp Naufal與Balawan合作/跨界融合/口琴與吉他 / 口琴/跨界 / 國際演出團體",
+      "summary": "印尼的口琴與跨界國際演出團體，活動脈絡包含Reyharp Naufal與Balawan合作、跨界融合與口琴與吉他。",
+      "keywords": "Reyharp Balawan Project Reyharp Naufal harmonica SIHF",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/reyharp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/reyharpnaufal/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@reyharpnaufal5101"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-30T14:22:02+00:00",
+      "latestUpdateLocal": "2026-06-30 22:22",
+      "latestUpdateSource": "Reyharp and Balawan Project",
+      "latestUpdateUrl": "https://www.instagram.com/stories/reyharpnaufal/3930979731757386283/",
+      "avatarUrl": "/assets/source-avatars/85b92889b6a183b8e952.webp",
+      "sourceInitials": "RAB",
+      "sourceTags": [
+        "口琴",
+        "團體樂團",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_reyharp",
+          "name": "Reyharp and Balawan Project",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/reyharp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_reyharpnaufal",
+          "name": "Reyharp and Balawan Project",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "reyharpnaufal",
+          "profileUrl": "https://www.instagram.com/reyharpnaufal/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_reyharpnaufal",
+          "name": "Reyharp and Balawan Project",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "reyharpnaufal",
+          "profileUrl": "https://www.instagram.com/reyharpnaufal/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/reyharpnaufal/story/0"
+        },
+        {
+          "id": "yt_reyharpnaufal5101",
+          "name": "Reyharp and Balawan Project",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@reyharpnaufal5101",
+          "feedUrl": ""
         }
       ]
     },
@@ -948,6 +1336,93 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-67",
+      "name": "Marcos Coll",
+      "nameEn": "Marcos Coll",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "西班牙",
+      "region": "西班牙",
+      "cityOrFocus": "十孔/藍調",
+      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
+      "summary": "西班牙的十孔國際演出人員，活動脈絡包含藍調。",
+      "keywords": "Marcos Coll harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://marcoscoll.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/marcoscollharp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/marcoscollgonzalez/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-30T13:56:11+00:00",
+      "latestUpdateLocal": "2026-06-30 21:56",
+      "latestUpdateSource": "Marcos Coll",
+      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3930966729798724139/",
+      "avatarUrl": "/assets/source-avatars/a340565f0940319d3614.webp",
+      "sourceInitials": "MC",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "口琴",
+        "國際交流",
+        "音樂會",
+        "演出"
+      ],
+      "sourceSummary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
+      "sourceTagReason": "category為演奏者，type為個人，focus在十孔/藍調，並有國際演出經歷。",
+      "monitorSources": [
+        {
+          "id": "fb_marcoscollharp",
+          "name": "Marcos Coll",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/marcoscollharp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
+        },
+        {
+          "id": "yt_marcoscollharpandsoul",
+          "name": "Marcos Coll",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-51",
       "name": "唐雪婷 Sharene Tang",
       "nameEn": "Sharene Tang",
@@ -1023,95 +1498,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-2+watchlist-75",
-      "name": "臺灣口琴音樂節 THMF",
-      "nameEn": "Taiwan Harmonica Music Festival",
-      "category": "活動資訊",
-      "type": "活動/資訊入口 / 活動子來源",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "音樂節/比賽/Gala/講座 / 每年新興團體/青年演出",
-      "structuredSummary": "音樂節/比賽/Gala/講座 / 半音階/複音/十孔/重奏 / 核心活動",
-      "summary": "臺灣的核心活動，涵蓋音樂節、比賽、Gala與講座。",
-      "keywords": "THMF 臺灣口琴音樂節 Taiwan Harmonica Music Festival THMF 午間音樂會 新團體",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.taiwanharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/twharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/taiwanharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@thmc6470"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [
-        "THMF 午間音樂會新團體"
-      ],
-      "latestUpdateAt": "2026-06-30T13:46:53+00:00",
-      "latestUpdateLocal": "2026-06-30 21:46",
-      "latestUpdateSource": "臺灣口琴音樂節 THMF",
-      "latestUpdateUrl": "https://www.instagram.com/p/DaNlIwyzK9b/",
-      "avatarUrl": "/assets/source-avatars/35e815a6169924844433.webp",
-      "sourceInitials": "T",
-      "sourceTags": [
-        "口琴",
-        "活動資訊",
-        "團體樂團",
-        "音樂節",
-        "比賽",
-        "半音階",
-        "複音",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_twharmonica",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/twharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_taiwanharmonica",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "taiwanharmonica",
-          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/taiwanharmonica/story/0"
-        },
-        {
-          "id": "ig_taiwanharmonica",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "taiwanharmonica",
-          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_thmc6470",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@thmc6470",
           "feedUrl": ""
         }
       ]
@@ -1484,93 +1870,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/weissenberg1979",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-67",
-      "name": "Marcos Coll",
-      "nameEn": "Marcos Coll",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "西班牙",
-      "region": "西班牙",
-      "cityOrFocus": "十孔/藍調",
-      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
-      "summary": "西班牙的十孔國際演出人員，活動脈絡包含藍調。",
-      "keywords": "Marcos Coll harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://marcoscoll.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/marcoscollharp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/marcoscollgonzalez/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-30T09:23:03+00:00",
-      "latestUpdateLocal": "2026-06-30 17:23",
-      "latestUpdateSource": "Marcos Coll",
-      "latestUpdateUrl": "https://www.instagram.com/p/DaNFsuJIi4H/",
-      "avatarUrl": "/assets/source-avatars/a340565f0940319d3614.webp",
-      "sourceInitials": "MC",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "口琴",
-        "國際交流",
-        "音樂會",
-        "演出"
-      ],
-      "sourceSummary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
-      "sourceTagReason": "category為演奏者，type為個人，focus在十孔/藍調，並有國際演出經歷。",
-      "monitorSources": [
-        {
-          "id": "fb_marcoscollharp",
-          "name": "Marcos Coll",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/marcoscollharp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
-        },
-        {
-          "id": "yt_marcoscollharpandsoul",
-          "name": "Marcos Coll",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
           "feedUrl": ""
         }
       ]
@@ -2194,64 +2493,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-186",
-      "name": "EMPA 口琴課程",
-      "nameEn": "EMPA Escuela de Música Popular de Avellaneda Armónica",
-      "category": "國際交流",
-      "type": "學校/正式課程",
-      "country": "阿根廷",
-      "region": "阿根廷/阿韋亞內達",
-      "cityOrFocus": "公立流行音樂學校/正式口琴課程/爵士/探戈/民俗",
-      "structuredSummary": "公立流行音樂學校/正式口琴課程/爵士/探戈/民俗 / 半音階/十孔/armónica / 國際教育來源",
-      "summary": "阿根廷的國際教育來源，關注公立流行音樂學校、正式口琴課程、爵士、探戈與民俗。",
-      "keywords": "EMPA Escuela de Música Popular de Avellaneda Armónica harmonica Argentina",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.empa.edu.ar/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/empa.oficial/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-30T01:02:54+00:00",
-      "latestUpdateLocal": "2026-06-30 09:02",
-      "latestUpdateSource": "EMPA 口琴課程",
-      "latestUpdateUrl": "https://www.instagram.com/stories/empa.oficial/3930577518679912752/",
-      "avatarUrl": "/assets/source-avatars/318f46ce574ac18fd6fa.webp",
-      "sourceInitials": "E",
-      "sourceTags": [
-        "口琴",
-        "國際交流",
-        "課程",
-        "半音階",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_empa_oficial",
-          "name": "EMPA 口琴課程",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "empa.oficial",
-          "profileUrl": "https://www.instagram.com/empa.oficial/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_empa_oficial",
-          "name": "EMPA 口琴課程",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "empa.oficial",
-          "profileUrl": "https://www.instagram.com/empa.oficial/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/empa.oficial/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-78",
       "name": "新竹縣文化局",
       "nameEn": "",
@@ -2829,84 +3070,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@hummingwaythe9424",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-130",
-      "name": "Reyharp and Balawan Project",
-      "nameEn": "Reyharp and Balawan Project",
-      "category": "團體樂團",
-      "type": "團體/合作企劃",
-      "country": "印尼",
-      "region": "印尼",
-      "cityOrFocus": "Reyharp Naufal與Balawan合作/跨界融合/口琴與吉他",
-      "structuredSummary": "Reyharp Naufal與Balawan合作/跨界融合/口琴與吉他 / 口琴/跨界 / 國際演出團體",
-      "summary": "印尼的口琴與跨界國際演出團體，活動脈絡包含Reyharp Naufal與Balawan合作、跨界融合與口琴與吉他。",
-      "keywords": "Reyharp Balawan Project Reyharp Naufal harmonica SIHF",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/reyharp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/reyharpnaufal/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@reyharpnaufal5101"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-29T15:02:06+00:00",
-      "latestUpdateLocal": "2026-06-29 23:02",
-      "latestUpdateSource": "Reyharp and Balawan Project",
-      "latestUpdateUrl": "https://www.instagram.com/stories/reyharpnaufal/3930275136188120583/",
-      "avatarUrl": "/assets/source-avatars/85b92889b6a183b8e952.webp",
-      "sourceInitials": "RAB",
-      "sourceTags": [
-        "口琴",
-        "團體樂團",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_reyharp",
-          "name": "Reyharp and Balawan Project",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/reyharp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_reyharpnaufal",
-          "name": "Reyharp and Balawan Project",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "reyharpnaufal",
-          "profileUrl": "https://www.instagram.com/reyharpnaufal/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_reyharpnaufal",
-          "name": "Reyharp and Balawan Project",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "reyharpnaufal",
-          "profileUrl": "https://www.instagram.com/reyharpnaufal/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/reyharpnaufal/story/0"
-        },
-        {
-          "id": "yt_reyharpnaufal5101",
-          "name": "Reyharp and Balawan Project",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@reyharpnaufal5101",
           "feedUrl": ""
         }
       ]
@@ -3635,90 +3798,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-156",
-      "name": "Santiago Alvarez",
-      "nameEn": "Santiago Alvarez",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "阿根廷",
-      "region": "阿根廷",
-      "cityOrFocus": "WHF 2025/半音階口琴/世界冠軍/演出與教學",
-      "structuredSummary": "WHF 2025/半音階口琴/世界冠軍/演出與教學 / 半音階 / 國際演出人員/教育者",
-      "summary": "阿根廷的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、半音階口琴與世界冠軍。",
-      "keywords": "Santiago Alvarez Santiago Alvarez Armonica harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://worldharmonicafestival.de/artist-profile-santiago-alvarez/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/santialvarezarmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/santi.alvarez.armonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCj06r7zxcQqFS26fy7n0jZw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-28T16:22:14+00:00",
-      "latestUpdateLocal": "2026-06-29 00:22",
-      "latestUpdateSource": "Santiago Alvarez",
-      "latestUpdateUrl": "https://www.instagram.com/stories/santi.alvarez.armonica/3929590685276159386/",
-      "avatarUrl": "/assets/source-avatars/14ce4f9fd968b3bf3339.webp",
-      "sourceInitials": "SA",
-      "sourceTags": [
-        "口琴",
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_santialvarezarmonica",
-          "name": "Santiago Alvarez",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/santialvarezarmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_santi_alvarez_armonica",
-          "name": "Santiago Alvarez",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "santi.alvarez.armonica",
-          "profileUrl": "https://www.instagram.com/santi.alvarez.armonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_santi_alvarez_armonica",
-          "name": "Santiago Alvarez",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "santi.alvarez.armonica",
-          "profileUrl": "https://www.instagram.com/santi.alvarez.armonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/santi.alvarez.armonica/story/0"
-        },
-        {
-          "id": "yt_ucj06r7zxcqqfs26fy7n0jzw",
-          "name": "Santiago Alvarez",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCj06r7zxcQqFS26fy7n0jZw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-52",
       "name": "Fourtissimo Harmonica Ensemble",
       "nameEn": "Fourtissimo Harmonica Ensemble",
@@ -3851,85 +3930,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@learntheharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-60",
-      "name": "藤井俊充",
-      "nameEn": "Toshi Fujii",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "日本",
-      "region": "日本/臺灣爵士圈",
-      "cityOrFocus": "爵士/跨界",
-      "structuredSummary": "爵士/跨界 / 十孔/爵士口琴 / 國際演出人員",
-      "summary": "日本的十孔與爵士口琴國際演出人員，活動脈絡包含爵士與跨界。",
-      "keywords": "藤井俊充 Toshi Fujii harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/100091746706247/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/toshimiller/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-28T11:47:10+00:00",
-      "latestUpdateLocal": "2026-06-28 19:47",
-      "latestUpdateSource": "藤井俊充",
-      "latestUpdateUrl": "https://www.instagram.com/stories/toshimiller/3929452233457078941/",
-      "avatarUrl": "/assets/source-avatars/db80d06917ef5d9965b5.webp",
-      "sourceInitials": "藤井",
-      "sourceTags": [
-        "口琴",
-        "演奏者",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_100091746706247",
-          "name": "藤井俊充",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/100091746706247",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_toshimiller",
-          "name": "藤井俊充",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "toshimiller",
-          "profileUrl": "https://www.instagram.com/toshimiller/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/toshimiller/story/0"
-        },
-        {
-          "id": "ig_toshimiller",
-          "name": "藤井俊充",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "toshimiller",
-          "profileUrl": "https://www.instagram.com/toshimiller/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_uczvwagm6xsebpi_x5h1zohw",
-          "name": "藤井俊充",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw",
           "feedUrl": ""
         }
       ]
