@@ -228,6 +228,88 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-5",
+      "name": "胖擊口琴樂團",
+      "nameEn": "Punch Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/公演/年輕團體",
+      "structuredSummary": "重奏/公演/年輕團體 / 口琴重奏/合奏 / 演出團體",
+      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。",
+      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/punch.harp"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Punch.Harp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/punch.harp/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@punchharp"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-01T00:10:11+00:00",
+      "latestUpdateLocal": "2026-07-01 08:10",
+      "latestUpdateSource": "胖擊口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/stories/punch.harp/3931275773281981803/",
+      "avatarUrl": "/assets/source-avatars/d5d895cbefada2416bb9.webp",
+      "sourceInitials": "胖擊",
+      "sourceTags": [
+        "口琴",
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Punch.Harp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "punch.harp",
+          "profileUrl": "https://www.instagram.com/punch.harp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "punch.harp",
+          "profileUrl": "https://www.instagram.com/punch.harp/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/punch.harp/story/0"
+        },
+        {
+          "id": "yt_punchharp",
+          "name": "胖擊口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@punchharp",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-40",
       "name": "陳鴻儀",
       "nameEn": "Henry Chen",
@@ -2394,88 +2476,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@lamberharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-5",
-      "name": "胖擊口琴樂團",
-      "nameEn": "Punch Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/公演/年輕團體",
-      "structuredSummary": "重奏/公演/年輕團體 / 口琴重奏/合奏 / 演出團體",
-      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。",
-      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/punch.harp"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Punch.Harp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/punch.harp/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@punchharp"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-30T03:52:19+00:00",
-      "latestUpdateLocal": "2026-06-30 11:52",
-      "latestUpdateSource": "胖擊口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/punch.harp/3930662815698770618/",
-      "avatarUrl": "/assets/source-avatars/d5d895cbefada2416bb9.webp",
-      "sourceInitials": "胖擊",
-      "sourceTags": [
-        "口琴",
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Punch.Harp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "punch.harp",
-          "profileUrl": "https://www.instagram.com/punch.harp/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "punch.harp",
-          "profileUrl": "https://www.instagram.com/punch.harp/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/punch.harp/story/0"
-        },
-        {
-          "id": "yt_punchharp",
-          "name": "胖擊口琴樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@punchharp",
           "feedUrl": ""
         }
       ]
