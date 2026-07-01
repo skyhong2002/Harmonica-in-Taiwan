@@ -9,7 +9,7 @@
       "page": "https://harmonica.observe.tw/feeds/events/",
       "rss": "https://harmonica.observe.tw/feeds/events.xml",
       "json": "https://harmonica.observe.tw/api/events.json",
-      "count": 279
+      "count": 278
     },
     {
       "id": "posts-videos",
@@ -39,7 +39,7 @@
       "page": "https://harmonica.observe.tw/feeds/opportunities/",
       "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
       "json": "https://harmonica.observe.tw/api/opportunities.json",
-      "count": 49
+      "count": 48
     }
   ]
 }
