@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 292,
+  "count": 295,
   "items": [
     {
       "title": "Antonio Serrano｜Instagram story @antonioserranoarmonica",
@@ -80,6 +80,212 @@
         "實體活動"
       ],
       "key": "ig_story_antonioserranoarmonica:3931698067032002170_312983727"
+    },
+    {
+      "title": "新加坡青年節藝術展演（口琴）｜Instagram story @sgyouthfest",
+      "headline": "Instagram story @sgyouthfest",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/sgyouthfest/3931698074699844060/",
+      "source_id": "ig_story_sgyouthfest",
+      "source": "新加坡青年節藝術展演（口琴）",
+      "source_system_name": "新加坡青年節藝術展演（口琴）",
+      "source_profile_url": "https://www.instagram.com/sgyouthfest/",
+      "country": "新加坡",
+      "region": "新加坡",
+      "directory_entry_id": "watchlist-167",
+      "directory_entry_name": "新加坡青年節藝術展演（口琴）",
+      "account": "sgyouthfest",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-07-01T14:09:10+00:00",
+      "posted_at_local": "2026-07-01 22:09",
+      "seen_at": "2026-07-01T18:49:19.710450+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "instagram_web",
+      "story_fetched_at": "2026-07-01T18:48:03.458940+00:00",
+      "story_expires_at": "2026-07-02T14:09:10+00:00",
+      "source_feed_url": "https://rss.observe.tw/picuki/profile/sgyouthfest/story/0",
+      "rsshub_guid": "3931698074699844060_409753185",
+      "rsshub_title": "Instagram story @sgyouthfest",
+      "instagram_user_id": "409753185",
+      "matched_keywords": [
+        "限時動態"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": false,
+      "llm_confidence": 0.9,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "貼文來源為新加坡青年節藝術展演，內容僅提及口琴，但無具體演出、活動或臺灣相關資訊，且未說明是否為口琴相關活動，故不相關。",
+      "text": "Instagram story @sgyouthfest",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/733674118_1583344496827702_4122265018422664622_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&ig_cache_key=MzkzMTY5ODA3NDY5OTg0NDA2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMiJ9&_nc_ohc=ryr1l2w8IJ8Q7kNvwFptxS7&_nc_oc=AdqIDdTb9BdME6ER74sesaCUUuhGl5zH9XPRYSidNilNqWsSWacal397UAJvjSn6WwM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=FFAtUjz3ZqEgpzQr2Ueymw&_nc_ss=7a22e&oh=00_AQB-o7OoK7eVdoHuAGdAjUvryUnrJVcH3K_vgMWsoGZBMA&oe=6A4B2E4B",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/733674118_1583344496827702_4122265018422664622_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=107&ig_cache_key=MzkzMTY5ODA3NDY5OTg0NDA2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMiJ9&_nc_ohc=ryr1l2w8IJ8Q7kNvwFptxS7&_nc_oc=AdqIDdTb9BdME6ER74sesaCUUuhGl5zH9XPRYSidNilNqWsSWacal397UAJvjSn6WwM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=FFAtUjz3ZqEgpzQr2Ueymw&_nc_ss=7a22e&oh=00_AQDVhqmTtayHeYjDPG0-Gu-cbBm5SkPADdBL0h2JsClB0Q&oe=6A4B2E4B",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/733674118_1583344496827702_4122265018422664622_n.jpg?stp=dst-jpg_e15_p320x320_tt6&_nc_cat=107&ig_cache_key=MzkzMTY5ODA3NDY5OTg0NDA2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMiJ9&_nc_ohc=ryr1l2w8IJ8Q7kNvwFptxS7&_nc_oc=AdqIDdTb9BdME6ER74sesaCUUuhGl5zH9XPRYSidNilNqWsSWacal397UAJvjSn6WwM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=FFAtUjz3ZqEgpzQr2Ueymw&_nc_ss=7a22e&oh=00_AQDMzLKYJBGETMzdzp_YIqZNAm7ZQ7qKl7aEPnr8xqD8Zg&oe=6A4B2E4B",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/733674118_1583344496827702_4122265018422664622_n.jpg?stp=dst-jpg_e15_p240x240_tt6&_nc_cat=107&ig_cache_key=MzkzMTY5ODA3NDY5OTg0NDA2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMiJ9&_nc_ohc=ryr1l2w8IJ8Q7kNvwFptxS7&_nc_oc=AdqIDdTb9BdME6ER74sesaCUUuhGl5zH9XPRYSidNilNqWsSWacal397UAJvjSn6WwM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=FFAtUjz3ZqEgpzQr2Ueymw&_nc_ss=7a22e&oh=00_AQBZgbsT89tceJ1rBxNBnd8fi8TSmYXUaZdlazbPxlTEnw&oe=6A4B2E4B",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/733674118_1583344496827702_4122265018422664622_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s640x639_tt6&_nc_cat=107&ig_cache_key=MzkzMTY5ODA3NDY5OTg0NDA2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMiJ9&_nc_ohc=ryr1l2w8IJ8Q7kNvwFptxS7&_nc_oc=AdqIDdTb9BdME6ER74sesaCUUuhGl5zH9XPRYSidNilNqWsSWacal397UAJvjSn6WwM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=FFAtUjz3ZqEgpzQr2Ueymw&_nc_ss=7a22e&oh=00_AQDmHcLXwT6ABcHOzbRjhuwUrrWuW4pjTMt5qwUS89o16w&oe=6A4B2E4B",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/733674118_1583344496827702_4122265018422664622_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s640x639_tt6&_nc_cat=107&ig_cache_key=MzkzMTY5ODA3NDY5OTg0NDA2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMiJ9&_nc_ohc=ryr1l2w8IJ8Q7kNvwFptxS7&_nc_oc=AdqIDdTb9BdME6ER74sesaCUUuhGl5zH9XPRYSidNilNqWsSWacal397UAJvjSn6WwM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=FFAtUjz3ZqEgpzQr2Ueymw&_nc_ss=7a22e&oh=00_AQDmHcLXwT6ABcHOzbRjhuwUrrWuW4pjTMt5qwUS89o16w&oe=6A4B2E4B",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/733674118_1583344496827702_4122265018422664622_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s640x639_tt6&_nc_cat=107&ig_cache_key=MzkzMTY5ODA3NDY5OTg0NDA2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMiJ9&_nc_ohc=ryr1l2w8IJ8Q7kNvwFptxS7&_nc_oc=AdqIDdTb9BdME6ER74sesaCUUuhGl5zH9XPRYSidNilNqWsSWacal397UAJvjSn6WwM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=FFAtUjz3ZqEgpzQr2Ueymw&_nc_ss=7a22e&oh=00_AQDmHcLXwT6ABcHOzbRjhuwUrrWuW4pjTMt5qwUS89o16w&oe=6A4B2E4B",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/733674118_1583344496827702_4122265018422664622_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s480x480_tt6&_nc_cat=107&ig_cache_key=MzkzMTY5ODA3NDY5OTg0NDA2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMiJ9&_nc_ohc=ryr1l2w8IJ8Q7kNvwFptxS7&_nc_oc=AdqIDdTb9BdME6ER74sesaCUUuhGl5zH9XPRYSidNilNqWsSWacal397UAJvjSn6WwM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=FFAtUjz3ZqEgpzQr2Ueymw&_nc_ss=7a22e&oh=00_AQBPattg4ydGzIKUCromxb3mtJg-GS7FWBg5nQolXmP9Hw&oe=6A4B2E4B",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/733674118_1583344496827702_4122265018422664622_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s320x320_tt6&_nc_cat=107&ig_cache_key=MzkzMTY5ODA3NDY5OTg0NDA2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMiJ9&_nc_ohc=ryr1l2w8IJ8Q7kNvwFptxS7&_nc_oc=AdqIDdTb9BdME6ER74sesaCUUuhGl5zH9XPRYSidNilNqWsSWacal397UAJvjSn6WwM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=FFAtUjz3ZqEgpzQr2Ueymw&_nc_ss=7a22e&oh=00_AQCB3TqOB4lxfgGi6IukSo1xCdxjo9npkc3D9hyG13BMbQ&oe=6A4B2E4B",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/733674118_1583344496827702_4122265018422664622_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s240x240_tt6&_nc_cat=107&ig_cache_key=MzkzMTY5ODA3NDY5OTg0NDA2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMiJ9&_nc_ohc=ryr1l2w8IJ8Q7kNvwFptxS7&_nc_oc=AdqIDdTb9BdME6ER74sesaCUUuhGl5zH9XPRYSidNilNqWsSWacal397UAJvjSn6WwM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=FFAtUjz3ZqEgpzQr2Ueymw&_nc_ss=7a22e&oh=00_AQC_xmOGkeQ0kGTSbW-vElm4paRav19Fiw-YBJ3JYl8S_Q&oe=6A4B2E4B",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/733674118_1583344496827702_4122265018422664622_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s150x150_tt6&_nc_cat=107&ig_cache_key=MzkzMTY5ODA3NDY5OTg0NDA2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMiJ9&_nc_ohc=ryr1l2w8IJ8Q7kNvwFptxS7&_nc_oc=AdqIDdTb9BdME6ER74sesaCUUuhGl5zH9XPRYSidNilNqWsSWacal397UAJvjSn6WwM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=FFAtUjz3ZqEgpzQr2Ueymw&_nc_ss=7a22e&oh=00_AQDEJMW2nKlFaayfu9KADuz0_tPhbGpUtze8Cb5QwpcosQ&oe=6A4B2E4B"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m78/AQMXBYZXE1V3dDsmTinzdoubAG40YQcJqq0PKIW3bOlxw0T_5lfpyx3v87jyns8I4B6WP40W3jy5Nbz7_dsOXACpk9Z39d3T1D5Ean4.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=HQ_cuEV_g6AQ7kNvwGLJQ0H&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uU1RPUlkuQzIuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg1OTgwODc5NjYwMjUxODYsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDgyNiwiZHVyYXRpb25fcyI6MTgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=412d60bb3fbc7f7b&_nc_vs=HBksFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0I0NDQ1ODQwNzlGRENDRTAxQjhBQjU2MkJGMEVEQkI5X3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhRaWdfeHB2X3BsYWNlbWVudF9wZXJtYW5lbnRfdjIvQ0M0OUFCREUwMkI5MUI2NEUxNUYxMUM5OTMwREQ0QUZfYXVkaW9fZGFzaGluaXQubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJsSXu6uZt4lCFQIoAkMyLBdAMu7ZFocrAhgSZGFzaF9iYXNlbGluZV8xX3YxEQB16AdllKkBAA&_nc_gid=FFAtUjz3ZqEgpzQr2Ueymw&_nc_zt=28&_nc_ss=7a22e&oh=00_AQA6ccI6M1CbGJ4eSUfT1KhEeJABO_NRSrKRntESPOoLrA&oe=6A472524",
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m78/AQMXBYZXE1V3dDsmTinzdoubAG40YQcJqq0PKIW3bOlxw0T_5lfpyx3v87jyns8I4B6WP40W3jy5Nbz7_dsOXACpk9Z39d3T1D5Ean4.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=HQ_cuEV_g6AQ7kNvwGLJQ0H&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uU1RPUlkuQzIuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg1OTgwODc5NjYwMjUxODYsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDgyNiwiZHVyYXRpb25fcyI6MTgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=412d60bb3fbc7f7b&_nc_vs=HBksFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0I0NDQ1ODQwNzlGRENDRTAxQjhBQjU2MkJGMEVEQkI5X3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhRaWdfeHB2X3BsYWNlbWVudF9wZXJtYW5lbnRfdjIvQ0M0OUFCREUwMkI5MUI2NEUxNUYxMUM5OTMwREQ0QUZfYXVkaW9fZGFzaGluaXQubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJsSXu6uZt4lCFQIoAkMyLBdAMu7ZFocrAhgSZGFzaF9iYXNlbGluZV8xX3YxEQB16AdllKkBAA&_nc_gid=FFAtUjz3ZqEgpzQr2Ueymw&_nc_zt=28&_nc_ss=7a22e&oh=00_AQA6ccI6M1CbGJ4eSUfT1KhEeJABO_NRSrKRntESPOoLrA&oe=6A472524",
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m78/AQMXBYZXE1V3dDsmTinzdoubAG40YQcJqq0PKIW3bOlxw0T_5lfpyx3v87jyns8I4B6WP40W3jy5Nbz7_dsOXACpk9Z39d3T1D5Ean4.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=HQ_cuEV_g6AQ7kNvwGLJQ0H&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uU1RPUlkuQzIuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg1OTgwODc5NjYwMjUxODYsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDgyNiwiZHVyYXRpb25fcyI6MTgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=412d60bb3fbc7f7b&_nc_vs=HBksFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0I0NDQ1ODQwNzlGRENDRTAxQjhBQjU2MkJGMEVEQkI5X3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhRaWdfeHB2X3BsYWNlbWVudF9wZXJtYW5lbnRfdjIvQ0M0OUFCREUwMkI5MUI2NEUxNUYxMUM5OTMwREQ0QUZfYXVkaW9fZGFzaGluaXQubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJsSXu6uZt4lCFQIoAkMyLBdAMu7ZFocrAhgSZGFzaF9iYXNlbGluZV8xX3YxEQB16AdllKkBAA&_nc_gid=FFAtUjz3ZqEgpzQr2Ueymw&_nc_zt=28&_nc_ss=7a22e&oh=00_AQA6ccI6M1CbGJ4eSUfT1KhEeJABO_NRSrKRntESPOoLrA&oe=6A472524"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/733674118_1583344496827702_4122265018422664622_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&ig_cache_key=MzkzMTY5ODA3NDY5OTg0NDA2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMiJ9&_nc_ohc=ryr1l2w8IJ8Q7kNvwFptxS7&_nc_oc=AdqIDdTb9BdME6ER74sesaCUUuhGl5zH9XPRYSidNilNqWsSWacal397UAJvjSn6WwM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=FFAtUjz3ZqEgpzQr2Ueymw&_nc_ss=7a22e&oh=00_AQB-o7OoK7eVdoHuAGdAjUvryUnrJVcH3K_vgMWsoGZBMA&oe=6A4B2E4B",
+      "image_url": "/assets/feed-images/ed333d9cd4f0703adda1.webp",
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/652732770_18567261223025186_2650951795891179312_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=102&_nc_oc=Q6cZ2gGD_iF1P2FqQbvIZ9QMI-cKVp_3TZ6mWswQ46zruWScCAzUb2e-x4SYAcDS3LyRgx4&_nc_ohc=4VNnS34fr5MQ7kNvwFJNDve&_nc_gid=FFAtUjz3ZqEgpzQr2Ueymw&edm=ANmP7GQBAAAA&ccb=7-5&oh=00_AQAHx6fz0aN3Jbkc1DkXblqIstF5gnnSvurDbaIUhPK-zg&oe=6A4B46C2&_nc_sid=982cc7",
+      "avatar_url": "/assets/source-avatars/2b978e91533ce5c77cb7.webp",
+      "source_initials": "新加",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動"
+      ],
+      "key": "ig_story_sgyouthfest:3931698074699844060_409753185"
+    },
+    {
+      "title": "衛武營國家藝術文化中心｜感動回顧 ✦ 日本狂言名門野村家再臨衛武營 高齡 95 歲的日本人間國寶野村万作親自領軍，攜手野村萬齋、野村裕基，祖孫三代再度同堂重返臺灣，為衛武營帶來獨家且震撼的演出，四場演出的票券全面售罄外，更可見到觀眾難掩熱…",
+      "headline": "感動回顧 ✦ 日本狂言名門野村家再臨衛武營",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DaQLtYaAasS/",
+      "source_id": "ig_weiwuying_centerforthearts",
+      "source": "衛武營國家藝術文化中心",
+      "source_system_name": "衛武營國家藝術文化中心",
+      "source_profile_url": "https://www.instagram.com/weiwuying_centerforthearts/",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "directory_entry_id": "watchlist-80",
+      "directory_entry_name": "衛武營國家藝術文化中心",
+      "account": "weiwuying_centerforthearts",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Wed, 01 Jul 2026 14:05:17 GMT",
+      "posted_at_local": "2026-07-01 22:05",
+      "seen_at": "2026-07-01T18:16:35.058959+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/weiwuying_centerforthearts",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "演出",
+        "交流",
+        "影片"
+      ],
+      "keyword_matches": [
+        "演出",
+        "交流",
+        "影片"
+      ],
+      "llm_relevant": null,
+      "llm_confidence": null,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "",
+      "text": "感動回顧 ✦ 日本狂言名門野村家再臨衛武營\n高齡 95 歲的日本人間國寶野村万作親自領軍，攜手野村萬齋、野村裕基，祖孫三代再度同堂重返臺灣，為衛武營帶來獨家且震撼的演出，四場演出的票券全面售罄外，更可見到觀眾難掩熱情和期待，甚至換上和服盛裝出席、或自繪紀念小物，只為一睹野村家難得的演出機會、留下美好的回憶。\n衛武營自開館以來，便期許成為推動亞洲表演藝術交流的重要推手，期待未來能繼續為大家帶來更多震撼人心的國際藝術盛宴。\n現在就收看影片，珍藏這份跨越國界的悸動 ► ► ►\n在地藝文支持夥伴：陳啟川先生文教基金會",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730049390_18345631732168430_2166803883023602383_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=MzkzMTY5Mzk3MTc4ODYzODk5NDE4MzQ1NjMxNzI2MTY4NDMw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE5MjAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzIifQ%3D%3D&_nc_ohc=fdrV7ay3peMQ7kNvwGZBtP5&_nc_oc=AdrLmHMBmR_QRNYCR8zMpYd4_IlCQIzy6zQfR4MalUYVC5LrtKm7mgI6IVnm4t--lFs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=oUpg5MHWTwqhQE3VlAPkvg&_nc_ss=7a22e&oh=00_AQDPhWJbaz0yw4oTyZiumP7K4elrcZIX_rvPUv63l6cfhw&oe=6A4B4051"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQMzfFS6cgZB8ttsvrIkSPp8VN1em-d7fIWnBmP26-snTwpN8dI-tev7fjCgQSgZvX7cIjRahmV7FGgCYxIyNZhjaTlnCXZeQD0vVH0.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=86tLNThRFMEQ7kNvwFnfS1V&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzIuMTI4MC5kYXNoX2Jhc2VsaW5lXzFfdjEiLCJ4cHZfYXNzZXRfaWQiOjE4MzQ1NjMwOTc5MTY4NDMwLCJhc3NldF9hZ2VfZGF5cyI6MCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjMzOSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=663326ac0d48ec3f&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC84NzQ0OEY3Q0VCOUY5QUIwOTc2M0YzNDc5QTE0QTdBNl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0RGNEI3N0I3MkE3OENCRDIzOTkyQUE2MTExMzQ4OUExX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbc4oybotCWQRUCKAJDMiwXQHUyp--dsi0YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=oUpg5MHWTwqhQE3VlAPkvg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQBehxTSqaEXlvLiIwrBYx-FFl0-MPaIYwjhXW9ePP-XHQ&oe=6A47504F"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730049390_18345631732168430_2166803883023602383_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=MzkzMTY5Mzk3MTc4ODYzODk5NDE4MzQ1NjMxNzI2MTY4NDMw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE5MjAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzIifQ%3D%3D&_nc_ohc=fdrV7ay3peMQ7kNvwGZBtP5&_nc_oc=AdrLmHMBmR_QRNYCR8zMpYd4_IlCQIzy6zQfR4MalUYVC5LrtKm7mgI6IVnm4t--lFs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=oUpg5MHWTwqhQE3VlAPkvg&_nc_ss=7a22e&oh=00_AQDPhWJbaz0yw4oTyZiumP7K4elrcZIX_rvPUv63l6cfhw&oe=6A4B4051",
+      "image_url": "/assets/feed-images/49af08e832ec54721903.webp",
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/93491909_893012574478038_1176508670427529216_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby45MzMuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gFcSb4cTT4pQhkhyTFdx7SzcNaADXNDCd1XfNpu7HaZ80zHFldiPSiqdHDkuPVP7Q4&_nc_ohc=MGfQg2EMRQQQ7kNvwFYC1Gd&_nc_gid=Lfg_c7XtxyNFeL8PAV2b8A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQAQEaWEPm-fB5885Zwa1axJcBMUanBsa05v-72y5vTvBQ&oe=6A4B19F9&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/a302f2c83d8026a48f40.webp",
+      "source_initials": "衛武",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動"
+      ],
+      "key": "ig_weiwuying_centerforthearts:https://www.instagram.com/p/DaQLtYaAasS/"
+    },
+    {
+      "title": "World Harmonica Festival｜Taking it back to WHF 2025! 🔊🔙 @liamwardmusic putting on an absolute masterclass on stage. 🚀 W…",
+      "headline": "Taking it back to WHF 2025! 🔊🔙",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DaQJKKMtPqn/",
+      "source_id": "ig_whf_world_harmonica_festival",
+      "source": "World Harmonica Festival",
+      "source_system_name": "World Harmonica Festival",
+      "source_profile_url": "https://www.instagram.com/whf_world_harmonica_festival/",
+      "country": "德國",
+      "region": "德國/特羅辛根",
+      "directory_entry_id": "watchlist-149",
+      "directory_entry_name": "World Harmonica Festival",
+      "account": "whf_world_harmonica_festival",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Wed, 01 Jul 2026 13:40:23 GMT",
+      "posted_at_local": "2026-07-01 21:40",
+      "seen_at": "2026-07-01T18:49:19.710450+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/whf_world_harmonica_festival",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "演出",
+        "公開更新"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "口琴",
+        "演出",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文提及世界口琴節的演出回顧與表演者，屬口琴演奏者公開更新。",
+      "text": "Taking it back to WHF 2025! 🔊🔙\n@liamwardmusic putting on an absolute masterclass on stage. 🚀\nWe’re still buzzing from the incredible talent on display last year.\nTell us: What was your absolute favorite moment or performance from the festival? 👇🧐",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/733042315_18601500451012370_6555690457428736275_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=MzkzMTY4Mjc1NTI1ODQxNTc4MzE4NjAxNTAwNDQyMDEyMzcw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzIifQ%3D%3D&_nc_ohc=oWpatB6TFGoQ7kNvwFGc3ZX&_nc_oc=Adp_Nlt6nm9t_W5B30dQ3Xnhqy1wuEYidEspgLkeayytQxVIG_0FgFIUEwYOEkah0OM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=yp9flWqWC8VGyVwSsxlf1A&_nc_ss=7a22e&oh=00_AQBzA58Bl34yKwZ4TDAXyOJLQHk6dNth_JB_3E5EwlBo5g&oe=6A4B4B5D"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQNquhu4U3ESXcaX8qjNKqmvUSXQxu6zONWaZU6z_xbUm3AwXNfp4wTdg7JS2ZjgVsXDAk-Bzx4NyAuKCscs5o4On0XYpx0HaHdT8ew.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=MEe89rfd6VoQ7kNvwFya3JW&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzIuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTMwODM4OTExNDc5NTY0MCwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjozMSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=748f12862bb3a3a0&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81RDRGMENERkQ0NTg2N0JCODU4NUVFQzY0N0QwQzlBOF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0JCNDgwRDk5NDZDQTRDMzg3RUEwNDE1RkVCOEVGMDlFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbw2dLGov7SBBUCKAJDMiwXQD9dLxqfvncYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=yp9flWqWC8VGyVwSsxlf1A&_nc_ss=7a22e&_nc_zt=28&oh=00_AQABhkJ7T_ckqR4vAm8ZxCTApN7HDriAE04_2U5JgCB5Dw&oe=6A474039"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/733042315_18601500451012370_6555690457428736275_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=MzkzMTY4Mjc1NTI1ODQxNTc4MzE4NjAxNTAwNDQyMDEyMzcw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzIifQ%3D%3D&_nc_ohc=oWpatB6TFGoQ7kNvwFGc3ZX&_nc_oc=Adp_Nlt6nm9t_W5B30dQ3Xnhqy1wuEYidEspgLkeayytQxVIG_0FgFIUEwYOEkah0OM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=yp9flWqWC8VGyVwSsxlf1A&_nc_ss=7a22e&oh=00_AQBzA58Bl34yKwZ4TDAXyOJLQHk6dNth_JB_3E5EwlBo5g&oe=6A4B4B5D",
+      "image_url": "/assets/feed-images/3fc89ffeaa2bea3aeab3.webp",
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/459977315_479297998272985_370293600936907634_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44MDcuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gHQsfCl5hkw0BP41Uw1wP202zUFdKQSPK98w5HvHpAYDKs2R3dXEikneLK1gdsnHbA&_nc_ohc=HIJY2AxP4IcQ7kNvwHpD5cs&_nc_gid=cqOlCyO6o8OZcSIhkuDjAg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQDN4hn5e_qHwPk_-jmy1qQKdtX2vzaGepWNW3Oykx1tww&oe=6A4B30DD&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/1090ff6cf6bb45d563dc.webp",
+      "source_initials": "WHF",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動"
+      ],
+      "key": "ig_whf_world_harmonica_festival:https://www.instagram.com/p/DaQJKKMtPqn/"
     },
     {
       "title": "Santiago Alvarez｜Instagram story @santi.alvarez.armonica",

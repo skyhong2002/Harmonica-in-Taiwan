@@ -86,6 +86,75 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-167",
+      "name": "新加坡青年節藝術展演（口琴）",
+      "nameEn": "Singapore Youth Festival Arts Presentation - Harmonica",
+      "category": "活動資訊",
+      "type": "學校比賽/資訊入口",
+      "country": "新加坡",
+      "region": "新加坡",
+      "cityOrFocus": "官方學生藝術展演/口琴項目/SYF",
+      "structuredSummary": "官方學生藝術展演/口琴項目/SYF / 口琴/學生合奏 / 學生比賽來源",
+      "summary": "新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。",
+      "keywords": "新加坡青年節藝術展演 Singapore Youth Festival Arts Presentation Harmonica SYF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.syf.gov.sg/general/calendar"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/sgyouthfest/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sgyouthfest/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-01T14:09:10+00:00",
+      "latestUpdateLocal": "2026-07-01 22:09",
+      "latestUpdateSource": "新加坡青年節藝術展演（口琴）",
+      "latestUpdateUrl": "https://www.instagram.com/stories/sgyouthfest/3931698074699844060/",
+      "avatarUrl": "/assets/source-avatars/b6435a473470038522d6.webp",
+      "sourceInitials": "新加",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "比賽"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_sgyouthfest",
+          "name": "新加坡青年節藝術展演（口琴）",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/sgyouthfest",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sgyouthfest",
+          "name": "新加坡青年節藝術展演（口琴）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sgyouthfest",
+          "profileUrl": "https://www.instagram.com/sgyouthfest/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sgyouthfest",
+          "name": "新加坡青年節藝術展演（口琴）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sgyouthfest",
+          "profileUrl": "https://www.instagram.com/sgyouthfest/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sgyouthfest/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-82",
       "name": "臺中國家歌劇院",
       "nameEn": "",
@@ -165,6 +234,162 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-80",
+      "name": "衛武營國家藝術文化中心",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "衛武營 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-weiwuying.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@weiwuyingfilm"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-01T14:05:17+00:00",
+      "latestUpdateLocal": "2026-07-01 22:05",
+      "latestUpdateSource": "衛武營國家藝術文化中心",
+      "latestUpdateUrl": "https://www.instagram.com/p/DaQLtYaAasS/",
+      "avatarUrl": "/assets/source-avatars/9d6119244c757a072fc5.webp",
+      "sourceInitials": "衛武",
+      "sourceTags": [
+        "場館",
+        "場館平台",
+        "活動資訊",
+        "音樂會",
+        "演出"
+      ],
+      "sourceSummary": "高雄衛武營國家藝術文化中心，大型表演場館與藝文活動平台。",
+      "sourceTagReason": "類別為場館平台，提供場館資訊、售票與音樂會等藝文活動資訊，符合場館與活動定位。",
+      "monitorSources": [
+        {
+          "id": "fb_weiwuyingcenterforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
+        },
+        {
+          "id": "ig_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_weiwuyingfilm",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@weiwuyingfilm",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-149",
+      "name": "World Harmonica Festival",
+      "nameEn": "World Harmonica Festival",
+      "category": "活動資訊",
+      "type": "國際活動/資訊入口",
+      "country": "德國",
+      "region": "德國/特羅辛根",
+      "cityOrFocus": "四年一度世界口琴節/國際比賽/Gala/工作坊",
+      "structuredSummary": "四年一度世界口琴節/國際比賽/Gala/工作坊 / 口琴 / 國際活動來源",
+      "summary": "德國的國際活動來源，涵蓋四年一度世界口琴節、國際比賽、Gala與工作坊。",
+      "keywords": "World Harmonica Festival WHF Trossingen Hohner harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://worldharmonicafestival.de/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/WorldHarmonicaFestival/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/whf_world_harmonica_festival/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-01T13:40:23+00:00",
+      "latestUpdateLocal": "2026-07-01 21:40",
+      "latestUpdateSource": "World Harmonica Festival",
+      "latestUpdateUrl": "https://www.instagram.com/p/DaQJKKMtPqn/",
+      "avatarUrl": "/assets/source-avatars/554f2fdd13210edcdf0e.webp",
+      "sourceInitials": "WHF",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "比賽",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_worldharmonicafestival",
+          "name": "World Harmonica Festival",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/WorldHarmonicaFestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_whf_world_harmonica_festival",
+          "name": "World Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "whf_world_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/whf_world_harmonica_festival/story/0"
+        },
+        {
+          "id": "ig_whf_world_harmonica_festival",
+          "name": "World Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "whf_world_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
           "feedUrl": ""
         }
       ]
@@ -332,6 +557,120 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCj06r7zxcQqFS26fy7n0jZw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-30+watchlist-101",
+      "name": "蔡明憲 DMing Studio",
+      "nameEn": "DMing Studio",
+      "category": "教學器材",
+      "type": "個人 / 教學/維修/影片來源",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出 / 口琴教學/維修/重奏/硬體",
+      "structuredSummary": "口琴教學/維修/重奏/硬體 / 半音階/複音/Bass/Chord / 教學/維修來源",
+      "summary": "臺灣的半音階、複音、Bass與Chord教學與維修來源，關注口琴教學、維修、重奏與硬體。",
+      "keywords": "蔡明憲 口琴 DMing Studio 大明 口琴 教學 維修 蔡明憲 天狼星 Laelaps",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://studio.dming.co/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/dming.tsai/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/damingtsai/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@DMingStudio"
+        },
+        {
+          "label": "網站",
+          "url": "https://dming.co/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/dmingstudio/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [
+        "蔡明憲"
+      ],
+      "latestUpdateAt": "2026-07-01T13:28:19+00:00",
+      "latestUpdateLocal": "2026-07-01 21:28",
+      "latestUpdateSource": "蔡明憲 DMing Studio",
+      "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3931677472114416750/",
+      "avatarUrl": "/assets/source-avatars/bf2f349c5f4c1ca4392a.webp",
+      "sourceInitials": "DS",
+      "sourceTags": [
+        "口琴",
+        "教學器材",
+        "演奏者",
+        "教學",
+        "半音階",
+        "複音",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_dming_tsai",
+          "name": "蔡明憲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/dming.tsai",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
+        },
+        {
+          "id": "ig_dmingstudio",
+          "name": "蔡明憲 DMing Studio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "dmingstudio",
+          "profileUrl": "https://www.instagram.com/dmingstudio/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_dmingstudio",
+          "name": "蔡明憲 DMing Studio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "dmingstudio",
+          "profileUrl": "https://www.instagram.com/dmingstudio/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/dmingstudio/story/0"
+        },
+        {
+          "id": "yt_dmingstudio",
+          "name": "蔡明憲",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@DMingStudio",
           "feedUrl": ""
         }
       ]
@@ -962,75 +1301,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-167",
-      "name": "新加坡青年節藝術展演（口琴）",
-      "nameEn": "Singapore Youth Festival Arts Presentation - Harmonica",
-      "category": "活動資訊",
-      "type": "學校比賽/資訊入口",
-      "country": "新加坡",
-      "region": "新加坡",
-      "cityOrFocus": "官方學生藝術展演/口琴項目/SYF",
-      "structuredSummary": "官方學生藝術展演/口琴項目/SYF / 口琴/學生合奏 / 學生比賽來源",
-      "summary": "新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。",
-      "keywords": "新加坡青年節藝術展演 Singapore Youth Festival Arts Presentation Harmonica SYF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.syf.gov.sg/general/calendar"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/sgyouthfest/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/sgyouthfest/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-01T06:21:28+00:00",
-      "latestUpdateLocal": "2026-07-01 14:21",
-      "latestUpdateSource": "新加坡青年節藝術展演（口琴）",
-      "latestUpdateUrl": "https://www.instagram.com/stories/sgyouthfest/3931462662895020298/",
-      "avatarUrl": "/assets/source-avatars/b6435a473470038522d6.webp",
-      "sourceInitials": "新加",
-      "sourceTags": [
-        "口琴",
-        "活動資訊",
-        "比賽"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_sgyouthfest",
-          "name": "新加坡青年節藝術展演（口琴）",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/sgyouthfest",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_sgyouthfest",
-          "name": "新加坡青年節藝術展演（口琴）",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "sgyouthfest",
-          "profileUrl": "https://www.instagram.com/sgyouthfest/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_sgyouthfest",
-          "name": "新加坡青年節藝術展演（口琴）",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "sgyouthfest",
-          "profileUrl": "https://www.instagram.com/sgyouthfest/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sgyouthfest/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-46",
       "name": "廖苡晴",
       "nameEn": "Alysa Liao",
@@ -1385,92 +1655,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-80",
-      "name": "衛武營國家藝術文化中心",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館",
-      "country": "臺灣",
-      "region": "臺灣/高雄",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "衛武營 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-weiwuying.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@weiwuyingfilm"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-01T01:10:56+00:00",
-      "latestUpdateLocal": "2026-07-01 09:10",
-      "latestUpdateSource": "衛武營國家藝術文化中心",
-      "latestUpdateUrl": "https://www.instagram.com/stories/weiwuying_centerforthearts/3931306352492665490/",
-      "avatarUrl": "/assets/source-avatars/9d6119244c757a072fc5.webp",
-      "sourceInitials": "衛武",
-      "sourceTags": [
-        "場館",
-        "場館平台",
-        "活動資訊",
-        "音樂會",
-        "演出"
-      ],
-      "sourceSummary": "高雄衛武營國家藝術文化中心，大型表演場館與藝文活動平台。",
-      "sourceTagReason": "類別為場館平台，提供場館資訊、售票與音樂會等藝文活動資訊，符合場館與活動定位。",
-      "monitorSources": [
-        {
-          "id": "fb_weiwuyingcenterforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
-        },
-        {
-          "id": "ig_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_weiwuyingfilm",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@weiwuyingfilm",
           "feedUrl": ""
         }
       ]
@@ -2044,120 +2228,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@iamxyora",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-30+watchlist-101",
-      "name": "蔡明憲 DMing Studio",
-      "nameEn": "DMing Studio",
-      "category": "教學器材",
-      "type": "個人 / 教學/維修/影片來源",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出 / 口琴教學/維修/重奏/硬體",
-      "structuredSummary": "口琴教學/維修/重奏/硬體 / 半音階/複音/Bass/Chord / 教學/維修來源",
-      "summary": "臺灣的半音階、複音、Bass與Chord教學與維修來源，關注口琴教學、維修、重奏與硬體。",
-      "keywords": "蔡明憲 口琴 DMing Studio 大明 口琴 教學 維修 蔡明憲 天狼星 Laelaps",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://studio.dming.co/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/dming.tsai/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/damingtsai/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@DMingStudio"
-        },
-        {
-          "label": "網站",
-          "url": "https://dming.co/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/dmingstudio/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [
-        "蔡明憲"
-      ],
-      "latestUpdateAt": "2026-06-30T14:43:46+00:00",
-      "latestUpdateLocal": "2026-06-30 22:43",
-      "latestUpdateSource": "蔡明憲 DMing Studio",
-      "latestUpdateUrl": "https://www.instagram.com/p/DaNrV6myRr6/",
-      "avatarUrl": "/assets/source-avatars/bf2f349c5f4c1ca4392a.webp",
-      "sourceInitials": "DS",
-      "sourceTags": [
-        "口琴",
-        "教學器材",
-        "演奏者",
-        "教學",
-        "半音階",
-        "複音",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_dming_tsai",
-          "name": "蔡明憲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/dming.tsai",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
-        },
-        {
-          "id": "ig_dmingstudio",
-          "name": "蔡明憲 DMing Studio",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "dmingstudio",
-          "profileUrl": "https://www.instagram.com/dmingstudio/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_dmingstudio",
-          "name": "蔡明憲 DMing Studio",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "dmingstudio",
-          "profileUrl": "https://www.instagram.com/dmingstudio/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/dmingstudio/story/0"
-        },
-        {
-          "id": "yt_dmingstudio",
-          "name": "蔡明憲",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@DMingStudio",
           "feedUrl": ""
         }
       ]
@@ -12208,76 +12278,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@springharpfest",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-149",
-      "name": "World Harmonica Festival",
-      "nameEn": "World Harmonica Festival",
-      "category": "活動資訊",
-      "type": "國際活動/資訊入口",
-      "country": "德國",
-      "region": "德國/特羅辛根",
-      "cityOrFocus": "四年一度世界口琴節/國際比賽/Gala/工作坊",
-      "structuredSummary": "四年一度世界口琴節/國際比賽/Gala/工作坊 / 口琴 / 國際活動來源",
-      "summary": "德國的國際活動來源，涵蓋四年一度世界口琴節、國際比賽、Gala與工作坊。",
-      "keywords": "World Harmonica Festival WHF Trossingen Hohner harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://worldharmonicafestival.de/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/WorldHarmonicaFestival/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/whf_world_harmonica_festival/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/554f2fdd13210edcdf0e.webp",
-      "sourceInitials": "WHF",
-      "sourceTags": [
-        "口琴",
-        "活動資訊",
-        "比賽",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_worldharmonicafestival",
-          "name": "World Harmonica Festival",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/WorldHarmonicaFestival",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_whf_world_harmonica_festival",
-          "name": "World Harmonica Festival",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "whf_world_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/whf_world_harmonica_festival/story/0"
-        },
-        {
-          "id": "ig_whf_world_harmonica_festival",
-          "name": "World Harmonica Festival",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "whf_world_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
           "feedUrl": ""
         }
       ]

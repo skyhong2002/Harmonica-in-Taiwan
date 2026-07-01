@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 01 Jul 2026 17:45:43 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 18:49:27 +0000</lastBuildDate>
     <item>
       <title>Antonio Serrano</title>
       <link>https://www.hohner.de/en/antonio-serrano</link>
@@ -18,6 +18,17 @@ Tag：口琴、演奏者、半音階、十孔、國際交流
 西班牙的半音階與十孔國際演出人員，活動脈絡包含馬德里出生、古典藍調爵士流行與與Paco de Lucia合作。</description>
     </item>
     <item>
+      <title>新加坡青年節藝術展演（口琴）</title>
+      <link>https://www.syf.gov.sg/general/calendar</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/cecd8b1d8d6fdb0c</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：口琴、活動資訊、比賽
+國家：新加坡
+地區：新加坡
+新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。</description>
+    </item>
+    <item>
       <title>臺中國家歌劇院</title>
       <link>https://www.npac-ntt.org/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
@@ -27,6 +38,28 @@ Tag：場館平台、活動資訊、演出
 國家：臺灣
 地區：臺灣/臺中
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>衛武營國家藝術文化中心</title>
+      <link>https://www.npac-weiwuying.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/886a3e69f2bc562c</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館、場館平台、活動資訊、音樂會、演出
+國家：臺灣
+地區：臺灣/高雄
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>World Harmonica Festival</title>
+      <link>https://worldharmonicafestival.de/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/d540be4b0c925a31</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：口琴、活動資訊、比賽、國際交流
+國家：德國
+地區：德國/特羅辛根
+德國的國際活動來源，涵蓋四年一度世界口琴節、國際比賽、Gala與工作坊。</description>
     </item>
     <item>
       <title>何家健 HarmoniKahkean</title>
@@ -49,6 +82,17 @@ Tag：口琴、演奏者、教學、半音階、國際交流
 國家：阿根廷
 地區：阿根廷
 阿根廷的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、半音階口琴與世界冠軍。</description>
+    </item>
+    <item>
+      <title>蔡明憲 DMing Studio</title>
+      <link>https://studio.dming.co/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/bd043f6a8e423f3f</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：口琴、教學器材、演奏者、教學、半音階、複音、重奏
+國家：臺灣
+地區：臺灣
+臺灣的半音階、複音、Bass與Chord教學與維修來源，關注口琴教學、維修、重奏與硬體。</description>
     </item>
     <item>
       <title>EMPA 口琴課程</title>
@@ -139,17 +183,6 @@ Tag：口琴、演奏者、半音階、十孔、國際交流
 瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。</description>
     </item>
     <item>
-      <title>新加坡青年節藝術展演（口琴）</title>
-      <link>https://www.syf.gov.sg/general/calendar</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/cecd8b1d8d6fdb0c</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：口琴、活動資訊、比賽
-國家：新加坡
-地區：新加坡
-新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。</description>
-    </item>
-    <item>
       <title>廖苡晴</title>
       <link>https://laelapsharmonica.com/zh/laelaps-club/alysa-liao/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/6cc08f27f2215412</guid>
@@ -203,17 +236,6 @@ Tag：口琴、演奏者、十孔、國際交流
 國家：日本
 地區：日本/臺灣爵士圈
 日本的十孔與爵士口琴國際演出人員，活動脈絡包含爵士與跨界。</description>
-    </item>
-    <item>
-      <title>衛武營國家藝術文化中心</title>
-      <link>https://www.npac-weiwuying.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/886a3e69f2bc562c</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館、場館平台、活動資訊、音樂會、演出
-國家：臺灣
-地區：臺灣/高雄
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>胖擊口琴樂團</title>
@@ -302,17 +324,6 @@ Tag：口琴、演奏者
 國家：臺灣
 地區：臺灣
 臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。</description>
-    </item>
-    <item>
-      <title>蔡明憲 DMing Studio</title>
-      <link>https://studio.dming.co/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/bd043f6a8e423f3f</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：口琴、教學器材、演奏者、教學、半音階、複音、重奏
-國家：臺灣
-地區：臺灣
-臺灣的半音階、複音、Bass與Chord教學與維修來源，關注口琴教學、維修、重奏與硬體。</description>
     </item>
     <item>
       <title>王心禾</title>
@@ -1919,17 +1930,6 @@ Tag：口琴、活動資訊、比賽、十孔、國際交流
 國家：美國
 地區：美國/加州
 美國的國際活動來源，涵蓋美國地方口琴節、jam與社群比賽。</description>
-    </item>
-    <item>
-      <title>World Harmonica Festival</title>
-      <link>https://worldharmonicafestival.de/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/d540be4b0c925a31</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：口琴、活動資訊、比賽、國際交流
-國家：德國
-地區：德國/特羅辛根
-德國的國際活動來源，涵蓋四年一度世界口琴節、國際比賽、Gala與工作坊。</description>
     </item>
     <item>
       <title>巴西口琴論壇</title>
