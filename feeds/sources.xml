@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 01 Jul 2026 06:37:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 07:39:36 +0000</lastBuildDate>
     <item>
       <title>新加坡青年節藝術展演（口琴）</title>
       <link>https://www.syf.gov.sg/general/calendar</link>
@@ -16,6 +16,17 @@ Tag：口琴、活動資訊、比賽
 國家：新加坡
 地區：新加坡
 新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。</description>
+    </item>
+    <item>
+      <title>廖苡晴</title>
+      <link>https://laelapsharmonica.com/zh/laelaps-club/alysa-liao/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/6cc08f27f2215412</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：口琴、演奏者
+國家：臺灣
+地區：臺灣
+臺灣的口琴演出人員，活動脈絡包含111 Trio與Quintet。</description>
     </item>
     <item>
       <title>藤井俊充</title>
@@ -60,6 +71,17 @@ Tag：口琴、團體樂團、重奏
 國家：臺灣
 地區：臺灣
 臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。</description>
+    </item>
+    <item>
+      <title>黃冠誌</title>
+      <link>https://harmonica.tw/course/kuanchih/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、口琴、合奏、和弦、重奏、演出
+國家：臺灣
+地區：臺灣
+臺灣的和弦與重奏演出人員，活動脈絡包含天狼星、胖擊系與和弦口琴。</description>
     </item>
     <item>
       <title>新竹縣文化局</title>
@@ -137,17 +159,6 @@ Tag：演奏者、合奏、口琴、國際交流
 國家：韓國
 地區：韓國
 韓國的鋼琴合作音樂家，活動脈絡包含鋼琴伴奏與朴鍾聲合作。</description>
-    </item>
-    <item>
-      <title>黃冠誌</title>
-      <link>https://harmonica.tw/course/kuanchih/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、口琴、合奏、和弦、重奏、演出
-國家：臺灣
-地區：臺灣
-臺灣的和弦與重奏演出人員，活動脈絡包含天狼星、胖擊系與和弦口琴。</description>
     </item>
     <item>
       <title>Santiago Alvarez</title>
@@ -335,17 +346,6 @@ Tag：口琴、教學器材、教學
 國家：臺灣
 地區：臺灣 / 臺灣/臺北
 臺灣的口琴器材與教學來源，關注口琴器材與活動資訊。</description>
-    </item>
-    <item>
-      <title>廖苡晴</title>
-      <link>https://laelapsharmonica.com/zh/laelaps-club/alysa-liao/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/6cc08f27f2215412</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：口琴、演奏者
-國家：臺灣
-地區：臺灣
-臺灣的口琴演出人員，活動脈絡包含111 Trio與Quintet。</description>
     </item>
     <item>
       <title>王衍華</title>
