@@ -29,10 +29,10 @@
           </div>
           <div class="feed-page-summary status-summary-panel">
             <div class="status-summary-line">
-              <span class="status-badge status-degraded">部分異常</span>
-              <strong>核心 pipeline 有產出；需要注意：Instagram RSSHub。 Facebook Apify 目前依排程或預算節流。</strong>
+              <span class="status-badge status-ok">正常</span>
+              <strong>核心資料抓取與公開 API 正常。 Instagram RSSHub、Facebook Apify 目前依排程或預算節流。</strong>
             </div>
-            <p>快照時間 2026-07-02T05:25:41+08:00</p>
+            <p>快照時間 2026-07-02T07:37:45+08:00</p>
             <div class="feed-links">
               <a href="/api/status.json">Status JSON</a>
               <a href="/api/latest.json">Latest API</a>
@@ -49,13 +49,13 @@
               <p class="section-kicker">Snapshot</p>
               <h2 id="status-overview-title">目前快照</h2>
             </div>
-            <p class="data-date">資料時間 2026-07-02T05:25:41+08:00</p>
+            <p class="data-date">資料時間 2026-07-02T07:37:45+08:00</p>
           </div>
           <div class="status-metric-grid">
 
       <article class="status-metric-card">
         <span>公開更新</span>
-        <strong>695</strong>
+        <strong>700</strong>
         <p>最近 30 天</p>
       </article>
 
@@ -76,7 +76,7 @@
 
       <article class="status-metric-card">
         <span>目前錯誤</span>
-        <strong>1</strong>
+        <strong></strong>
         <p>最新抓取批次</p>
       </article>
 
@@ -91,7 +91,7 @@
               <p class="section-kicker">Collectors</p>
               <h2 id="status-components-title">元件狀態</h2>
             </div>
-            <p class="data-date">最新社群觀測 2026-07-02T05:25:33+08:00</p>
+            <p class="data-date">最新社群觀測 2026-07-02T07:37:37+08:00</p>
           </div>
           <div class="status-component-grid">
 
@@ -101,7 +101,7 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>定期 pipeline 已產生公開資料快照。</p>
-        <ul class="status-detail-list"><li>最新公開資料：2026-07-02 05:25:41</li><li>pipeline.log 更新：2026-07-02 05:25:41</li><li>pipeline.err.log 更新：2026-07-02 04:22:53</li><li>LaunchAgent：running，last exit 0</li></ul>
+        <ul class="status-detail-list"><li>最新公開資料：2026-07-02 07:37:45</li><li>pipeline.log 更新：2026-07-02 07:37:45</li><li>pipeline.err.log 更新：2026-07-02 06:30:01</li><li>LaunchAgent：running，last exit 0</li></ul>
       </article>
 
 
@@ -110,7 +110,7 @@
           <h2>公開 API</h2>
           <span class="status-badge status-ok">正常</span>
         </div>
-        <p>latest.json 有 695 筆更新，sources.json 有 199 筆公開目錄。</p>
+        <p>latest.json 有 700 筆更新，sources.json 有 199 筆公開目錄。</p>
         <ul class="status-detail-list"><li>更新視窗：30 天</li><li>watch sources：562</li></ul>
       </article>
 
@@ -121,17 +121,17 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>本機 RSSHub 入口回 200。</p>
-        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：13 ms</li></ul>
+        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：12 ms</li></ul>
       </article>
 
 
-      <article class="status-component-card status-card-degraded">
+      <article class="status-component-card status-card-paused">
         <div class="status-component-head">
           <h2>Instagram RSSHub</h2>
-          <span class="status-badge status-degraded">部分異常</span>
+          <span class="status-badge status-paused">節流中</span>
         </div>
-        <p>278 個 Instagram 來源（profile 139、story 139）；最新抓取批次目前 1 個錯誤。</p>
-        <ul class="status-detail-list"><li>最新社群觀測：2026-07-02 05:25:33</li><li>story 無公開內容/空路由略過：0</li><li>IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。</li><li>本輪 IG：抓取 11、排程略過 267、延後 0、錯誤 1。</li><li>下一個 IG 來源：約 2026-07-02 05:26:36</li></ul>
+        <p>278 個 Instagram 來源（profile 139、story 139）；最新抓取批次目前 0 個錯誤。</p>
+        <ul class="status-detail-list"><li>最新社群觀測：2026-07-02 07:37:37</li><li>story 無公開內容/空路由略過：0</li><li>IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。</li><li>本輪 IG：抓取 40、排程略過 215、延後 23、錯誤 0。</li><li>下一個 IG 來源：約 2026-07-02 07:38:57</li></ul>
       </article>
 
 
@@ -151,7 +151,7 @@
           <span class="status-badge status-paused">節流中</span>
         </div>
         <p>143 個 Facebook 來源。 目前依預算 pacing 暫停開 run，等待 due 來源累積。</p>
-        <ul class="status-detail-list"><li>最近成功 run：2026-07-02 00:42:18</li><li>最近新增 inbox：10</li><li>due sources：0</li><li>selected this check：0</li><li>min sources per run：8</li><li>遠端月額度剩餘：$1.95</li><li>規劃單次預算：$0.13</li></ul>
+        <ul class="status-detail-list"><li>最近成功 run：2026-07-02 00:42:18</li><li>最近新增 inbox：10</li><li>due sources：0</li><li>selected this check：0</li><li>min sources per run：8</li><li>遠端月額度剩餘：$1.95</li><li>規劃單次預算：$0.14</li></ul>
       </article>
 
 
@@ -161,7 +161,7 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>126 個 YouTube 來源；最近 run error_count=0。</p>
-        <ul class="status-detail-list"><li>最近完成：2026-07-02 05:22:59</li><li>最近新增 inbox：0</li></ul>
+        <ul class="status-detail-list"><li>最近完成：2026-07-02 07:30:10</li><li>最近新增 inbox：1</li></ul>
       </article>
 
 
@@ -207,8 +207,8 @@
             <tr>
               <th scope="row">instagram</th>
               <td>278</td>
-              <td>1</td>
-              <td><span class="status-badge status-degraded">部分異常</span></td>
+              <td></td>
+              <td><span class="status-badge status-ok">正常</span></td>
             </tr>
 
 
@@ -251,15 +251,7 @@
             <p class="data-date">最多顯示 20 筆</p>
           </div>
           <div class="status-error-list">
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-07-02T05:25:33+08:00 · instagram</span>
-                <strong>海南會館口琴樂團</strong>
-              </div>
-              <p>RSSHub HTTP 503: FetchError: [GET] &quot;https://www.instagram.com/api/v1/users/web_profile_info/?username=hnhk_harmonica_orchestra&quot;: 404 Not Found</p>
-            </article>
-
+            <div class="empty-state">最新抓取批次沒有記錄中的錯誤。</div>
           </div>
         </div>
       </section>
