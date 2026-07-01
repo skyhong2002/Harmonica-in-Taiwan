@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 286,
+  "count": 292,
   "items": [
     {
       "title": "Antonio Serrano｜Instagram story @antonioserranoarmonica",
@@ -1169,6 +1169,80 @@
         "補助比賽"
       ],
       "key": "ig_yellowpinemusicfestival:https://www.instagram.com/p/DaOo1SJAAlS/"
+    },
+    {
+      "title": "Yellow Pine Harmonica Festival｜There's a LOT to do at the Yellow Pine Harmonica Festival beyond listening to music! Tak…",
+      "headline": "There's a LOT to do at the Yellow Pine Harmonica Festival beyond listening to music!",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/YellowPineHarmonicaFestival/posts/pfbid0ZNgMjvg5yT4wjwjj5DaG694ck2bvP3Nch8JmdEzXR5bGoQ98ZXimdYiTnF25KXw1l",
+      "source_id": "fb_yellowpineharmonicafestival",
+      "source": "Yellow Pine Harmonica Festival",
+      "source_system_name": "Yellow Pine Harmonica Festival",
+      "source_profile_url": "https://facebook.com/YellowPineHarmonicaFestival",
+      "country": "美國",
+      "region": "美國/愛達荷",
+      "directory_entry_id": "watchlist-177",
+      "directory_entry_name": "Yellow Pine Harmonica Festival",
+      "account": "YellowPineHarmonicaFestival",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-06-30T23:37:05.000Z",
+      "posted_at_local": "2026-07-01 07:37",
+      "seen_at": "2026-07-01T16:42:52.008319+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "音樂會",
+        "比賽",
+        "交流",
+        "演出"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.85,
+      "llm_labels": [
+        "口琴",
+        "音樂會",
+        "比賽",
+        "交流",
+        "演出"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "貼文提及黃松口琴節，包含口琴課程、口琴比賽、音樂會等與口琴相關的公開活動。",
+      "text": "There's a LOT to do at the Yellow Pine Harmonica Festival beyond listening to music!\nTake a Class!\nListen to a presentation on Local History!\nView a Demonstration!\nParticipate the BEARD CONTEST\nPlay Bingo!\nHave Breakfast!\nWin the Harmonica Contest!\n... and MORE!!!\nCheck out our Activities Page to Find out what else is in store!!!\nSee you this summer in Yellow Pine Idaho!!!\nhttps://www.yellowpinefestival.org/activities/\nhttps://www.facebook.com/photo/?fbid=1350011297329131&set=a.480144730982463",
+      "images": [
+        "https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/678602104_1291228489874079_5245232394400192607_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=p180x540&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=K_qXbNGU3aYQ7kNvwFcdiQf&_nc_oc=AdribzfD2vtycal1xM2C-LEwOmM_hNrMhv9ty2XjFE6l7wUjSkzHStPSj5xAhleFh0k&_nc_zt=23&_nc_ht=scontent-bos5-1.xx&_nc_gid=5wySNHYeCh46T1q1CUSDyQ&_nc_ss=7c289&oh=00_AQCi2UMck83RY0SOkFFTK-o4hOzVC56mjIsnJmUE6uPbUg&oe=6A4B1CEE"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/678602104_1291228489874079_5245232394400192607_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=p180x540&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=K_qXbNGU3aYQ7kNvwFcdiQf&_nc_oc=AdribzfD2vtycal1xM2C-LEwOmM_hNrMhv9ty2XjFE6l7wUjSkzHStPSj5xAhleFh0k&_nc_zt=23&_nc_ht=scontent-bos5-1.xx&_nc_gid=5wySNHYeCh46T1q1CUSDyQ&_nc_ss=7c289&oh=00_AQCi2UMck83RY0SOkFFTK-o4hOzVC56mjIsnJmUE6uPbUg&oe=6A4B1CEE",
+      "image_url": "/assets/feed-images/f0b26510f0a0953d4269.webp",
+      "source_avatar_url": "https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-1/488459367_984147080582223_6369034247251819963_n.jpg?stp=c83.83.334.334a_cp0_dst-jpg_tt6&cstp=mx334x334&ctp=s50x50&_nc_cat=100&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=nzyD142eD6QQ7kNvwFgC6no&_nc_oc=AdqUGkwSs3WLR29quJ4smghQELYAtEfatTrwOMA9-rsrDbyDiq6Zh74d6OHiS3ZssdQ&_nc_zt=24&_nc_ht=scontent-bos5-1.xx&_nc_gid=5wySNHYeCh46T1q1CUSDyQ&_nc_ss=7c289&oh=00_AQArfWogXXu3zpjz24nAb8MbRlyKJaF-yd5pPBl3h8qfew&oe=6A4B0D53",
+      "avatar_url": "/assets/source-avatars/a7751c8964b08acae439.webp",
+      "source_initials": "YPH",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動",
+        "補助比賽"
+      ],
+      "key": "fb_yellowpineharmonicafestival:1350011330662461"
     },
     {
       "title": "Jens Bunge｜Instagram story @jensbunge.jazzharmonica",
@@ -2431,6 +2505,71 @@
         "實體活動"
       ],
       "key": "ig_story_indiarasfair:3930404859040355627_5886930084"
+    },
+    {
+      "title": "Deak Harp｜Tales from the Road with James Cotton I remember this story just like it was yesterday. I drove out to Chicag…",
+      "headline": "Tales from the Road with James Cotton",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/deak.harp/posts/pfbid02V67h1RzsaJ8ntMcEzdCcerQ5vokmpDhbK4ctCeDpfPuMQdqEQmeZ6sW1n9AdtzaCl",
+      "source_id": "fb_deak_harp",
+      "source": "Deak Harp",
+      "source_system_name": "Deak Harp",
+      "source_profile_url": "https://facebook.com/deak.harp",
+      "country": "美國",
+      "region": "美國",
+      "directory_entry_id": "watchlist-161",
+      "directory_entry_name": "Deak Harp",
+      "account": "deak.harp",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-06-29T18:09:41.000Z",
+      "posted_at_local": "2026-06-30 02:09",
+      "seen_at": "2026-07-01T16:42:52.008319+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "演出"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.8,
+      "llm_labels": [
+        "口琴",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "提及口琴手James Cotton的巡演故事與口琴音色調整，涉及口琴演出經驗分享，屬口琴相關公開貼文。",
+      "text": "Tales from the Road with James Cotton\nI remember this story just like it was yesterday. I drove out to Chicago in my little Dodge ram 50 got there to James Cotton‘s house and we put my little truck inside his garage. We got into his Dodge van and hooked up the trailer behind and one by one we picked all the band members up at their house. At the time, I think Ron Prince was playing guitar Noel Neil on base. killer Ray Allison on drums there were three horn players . And a Hammond player too and then we had to go to the store and killer Ray got two boxes of tricks and a half a gallon of milk that was his meal all the time on the road unless we had free food from the venues . Well, the trip went no problem. We drove 26 hours straight from Chicago to Miami. We got there in just enough time to take a few little cat naps and we had to rush to the venue . We get there and I was the guy that did the sound check for JAMES. JAMES would sit over by the booth where the Sound Man was in the middle of the room and he would tell the Sound Man how to dial in my Harp sound and I tried my damnedest to get that sound Cotton would get.\nthat big deep you know low blue sound . Well anyway Cotton says …",
+      "images": [
+        "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/734178475_10244067716371315_7446936868620372642_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=q62KZcTBWBwQ7kNvwFJFhQ5&_nc_oc=Adryf3BOc5I-VgvctB4XO6gLKeuw_COklOQHqffMA9V9Um4i0O8FK4NeVXgtMS89BMk&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=La050pPy8tc2yv-WrzPReQ&_nc_ss=72289&oh=00_AQBnJ_did3tmJ8WgeuIDbfQt0Vr7sy95OZ2_89Zb_uXYwQ&oe=6A4B20D0",
+        "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/733912109_10244067715931304_9118640719484130088_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=vqSNcobBa3MQ7kNvwHJFKKx&_nc_oc=AdoE5Ax1K5F0XUOE-hZl7QJO_3dhkkVw6HSc4xH9jHgvsI18vquQ2vyiJxS6MajIOac&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=La050pPy8tc2yv-WrzPReQ&_nc_ss=72289&oh=00_AQANi8wo51zPGb5PKBn-juv7SYYBkx89gF99WXK8fEbVGw&oe=6A4B1E60"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/734178475_10244067716371315_7446936868620372642_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=q62KZcTBWBwQ7kNvwFJFhQ5&_nc_oc=Adryf3BOc5I-VgvctB4XO6gLKeuw_COklOQHqffMA9V9Um4i0O8FK4NeVXgtMS89BMk&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=La050pPy8tc2yv-WrzPReQ&_nc_ss=72289&oh=00_AQBnJ_did3tmJ8WgeuIDbfQt0Vr7sy95OZ2_89Zb_uXYwQ&oe=6A4B20D0",
+      "image_url": "/assets/feed-images/bfdfcef80c61219e22ac.webp",
+      "source_avatar_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/518479868_10238601428157526_6638189925063523945_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx376x376&ctp=s50x50&_nc_cat=105&ccb=1-7&_nc_sid=1d2534&_nc_ohc=PYPUX80lEPIQ7kNvwFAQSG_&_nc_oc=AdqoWJZpxixnCtF5PBopnxZrgg1fxYsrDOX9L57ilNgCS0mrlZU4zIfGtQmYL7epFi8&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=La050pPy8tc2yv-WrzPReQ&_nc_ss=72289&oh=00_AQCYpoRNwJ0P-fV_pDMwFw4FjCkYytTqiekqiVWMoYJrng&oe=6A4B0998",
+      "avatar_url": "/assets/source-avatars/dcefb96084c66ffe6cf6.webp",
+      "source_initials": "DH",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動"
+      ],
+      "key": "fb_deak_harp:10244067711811201"
     },
     {
       "title": "海明威口琴重奏團｜Instagram story @hummingwayharmonica",
@@ -4097,6 +4236,70 @@
         "實體活動"
       ],
       "key": "ig_story_weiwuying_centerforthearts:3929863827029327937_5271664429"
+    },
+    {
+      "title": "Yellow Pine Harmonica Festival｜The FULL PERFORMANCE SCHEDULE is now official for the 2026 Yellow Pine Harmonica Festiva…",
+      "headline": "The FULL PERFORMANCE SCHEDULE is now official for the 2026 Yellow Pine Harmonica Festival!!! See you this summer in Yel…",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/YellowPineHarmonicaFestival/posts/pfbid0vzrBJbh1D7KmFeRvieLoAWUYJ2gaj3DNdRyxUWejEboVsBkdv8JVD8qGQG65e6LFl",
+      "source_id": "fb_yellowpineharmonicafestival",
+      "source": "Yellow Pine Harmonica Festival",
+      "source_system_name": "Yellow Pine Harmonica Festival",
+      "source_profile_url": "https://facebook.com/YellowPineHarmonicaFestival",
+      "country": "美國",
+      "region": "美國/愛達荷",
+      "directory_entry_id": "watchlist-177",
+      "directory_entry_name": "Yellow Pine Harmonica Festival",
+      "account": "YellowPineHarmonicaFestival",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-06-29T01:05:03.000Z",
+      "posted_at_local": "2026-06-29 09:05",
+      "seen_at": "2026-07-01T16:42:52.008319+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "音樂會"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.8,
+      "llm_labels": [
+        "口琴",
+        "音樂會"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "來源為口琴節，貼文內容為口琴音樂節演出時程，屬口琴音樂會活動。",
+      "text": "The FULL PERFORMANCE SCHEDULE is now official for the 2026 Yellow Pine Harmonica Festival!!! See you this summer in Yellow Pine Idaho!!!\nTHURSDAY JULY 30TH\n5pm MAIN STAGE... KAP BROTHERS\n6pm KAP STAGE... BLACKWATER DAN\n7pm MAIN STAGE... HIGH COUNTRY\n8pm KAP STAGE... WEST OF USTICK\n9pm MAIN STAGE... SIDE HUSTLE\n10pm KAP STAGE... SPIKE COGGINS\n11pm MAIN STAGE... GARY TACKETT AND FULL MOON RUDE\nFRIDAY JULY 31ST\n11am KAP STAGE... RIVER TWICE\n12pm MAIN STAGE... PADDY WAGON\n1pm KAP STAGE... DAVID RICHARDSON\n2pm MAIN STAGE... CLAYNE ZOLLINGER\n3pm KAP STAGE... THE MOODY JEWS\n4pm MAIN STAGE... BROOKS HERRING\n5pm KAP STAGE... SHINEY SHOE BOB\n6pm MAIN STAGE... SEAN TRACY AND HIS TROUBLES\n7pm KAP STAGE... HALF FAST HILLBILLIES\n8pm MAIN STAGE... TURTLE POPPERS\n9pm KAP STAGE... COEL HARRIS AND THE VALKORIES\n10pm MAIN STAGE... HUDSON POWDER COMPANY\nSATURDAY AUGUST 1ST\n1pm KAP STAGE... GLAD TO BE HERE\n2pm MAIN STAGE... VIBEKA AND THE VACANT PINES\n3pm KAP STAGE... COOPER LAVALLEE\n4pm MAIN STAGE... MUDDY BOOTS AND THE PORCH POUNDERS\n5pm KAP STAGE... CLAYNE ZOLLINGER\n7pm KAP STAGE... KAP BROTHERS\n8pm MAIN STAGE... DOZEY DUBS\n9pm KAP STAGE... UNSUPERVISED\n10pm MAIN STAGE... ALMOST FAMOUS",
+      "images": [],
+      "videos": [],
+      "source_image_url": "",
+      "image_url": "",
+      "source_avatar_url": "https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-1/488459367_984147080582223_6369034247251819963_n.jpg?stp=c83.83.334.334a_cp0_dst-jpg_tt6&cstp=mx334x334&ctp=s50x50&_nc_cat=100&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=nzyD142eD6QQ7kNvwFgC6no&_nc_oc=AdqUGkwSs3WLR29quJ4smghQELYAtEfatTrwOMA9-rsrDbyDiq6Zh74d6OHiS3ZssdQ&_nc_zt=24&_nc_ht=scontent-bos5-1.xx&_nc_gid=5wySNHYeCh46T1q1CUSDyQ&_nc_ss=7c289&oh=00_AQArfWogXXu3zpjz24nAb8MbRlyKJaF-yd5pPBl3h8qfew&oe=6A4B0D53",
+      "avatar_url": "/assets/source-avatars/a7751c8964b08acae439.webp",
+      "source_initials": "YPH",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動"
+      ],
+      "key": "fb_yellowpineharmonicafestival:1348282487502012"
     },
     {
       "title": "王心禾｜Instagram story @harmonica_wang",
@@ -13272,6 +13475,76 @@
       "headline": "OHRSC 2026 - Video & Audio Recording Guidelines 🎥🎙️",
       "display_title": "",
       "title_kind": "caption",
+      "link": "https://www.facebook.com/malaysiaharmonicafestival/posts/pfbid0kkJqt3GqKzbk1WPH3snsoPT82nnaGEAZ7sJ6ZTotwRdXFWVrMVVxVHSXdPYjtECgl",
+      "source_id": "fb_malaysiaharmonicafestival",
+      "source": "馬來西亞口琴節",
+      "source_system_name": "馬來西亞口琴節",
+      "source_profile_url": "https://facebook.com/malaysiaharmonicafestival",
+      "country": "馬來西亞",
+      "region": "馬來西亞/吉隆坡",
+      "directory_entry_id": "watchlist-168",
+      "directory_entry_name": "馬來西亞口琴節",
+      "account": "malaysiaharmonicafestival",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-06-17T11:02:34.000Z",
+      "posted_at_local": "2026-06-17 19:02",
+      "seen_at": "2026-07-01T16:42:52.008319+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "比賽",
+        "報名"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "比賽",
+        "報名"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "馬來西亞口琴節發布比賽錄製規則與官方倒數影片，內容明確涉及口琴比賽的報名與參賽要求，符合收錄標準。",
+      "text": "OHRSC 2026 - Video & Audio Recording Guidelines 🎥🎙️\nPlease ensure that all recording rules are strictly followed to make sure your submission meets the competition requirements.\nOfficial Countdown Video can be accessed here: https://bit.ly/4w8PVn5\nFor the complete rules, please refer to the R&R.\n请大家务必遵守我们的录制规则，确保参赛作品符合比赛要求。\n官方倒数视频可通过此处获取：https://bit.ly/4w8PVn5\n完整的比赛规则与要求，请参阅比赛章程（R&R）。\n#MalaysiaHarmonicaFestival\nhttps://www.facebook.com/malaysiaharmonicafestival/posts/pfbid0kkJqt3GqKzbk1WPH3snsoPT82nnaGEAZ7sJ6ZTotwRdXFWVrMVVxVHSXdPYjtECgl",
+      "images": [
+        "https://scontent-dfw5-1.xx.fbcdn.net/v/t51.82787-15/725106540_17953136880171812_299762317863514728_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=bRLOgSyon4EQ7kNvwHJitbb&_nc_oc=AdpmWo2mOw6a31YmVzf_vm08-3-Msr-cLOJCiV9g1ber-ZDiPQ0I3_qAI5xLqCzWOio&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kkqti4CkPMwtcYJ0g7uiAw&_nc_ss=72289&oh=00_AQA2rgEUO2MhGT1jrSmyQxL6hL5evx6hjhQlLVKPUF_L8g&oe=6A4B2753",
+        "https://scontent-dfw5-1.xx.fbcdn.net/v/t51.82787-15/722131882_17953136865171812_675607604735051963_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=MZ4-KlyNTvcQ7kNvwElfknJ&_nc_oc=AdrJ-CY3KWlk3IhJfGQ5R9iwqqQozT40ZujoCtWer4yvBm3tLgXVMSYF6HdmJw1iXbY&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kkqti4CkPMwtcYJ0g7uiAw&_nc_ss=72289&oh=00_AQA7mCRMoCVZ4mLofiGGk062tyJgRXDqncFQX0OiAfw42A&oe=6A4B1B74",
+        "https://scontent-dfw5-1.xx.fbcdn.net/v/t51.82787-15/724282175_17953136868171812_2544033011579111731_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Tx6_otTvv00Q7kNvwEJm0Ca&_nc_oc=AdorJloyffh6IXTMOu2IgJSYeNHatw-NQjz9wYkLeVAANpuCnIF3YNaXRFeFFSKopY0&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kkqti4CkPMwtcYJ0g7uiAw&_nc_ss=72289&oh=00_AQBPp_v-4_btLLLa7QesOsQG4-yR8KcC8Y7HbnLDtmIvAw&oe=6A4B249F"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t51.82787-15/725106540_17953136880171812_299762317863514728_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=bRLOgSyon4EQ7kNvwHJitbb&_nc_oc=AdpmWo2mOw6a31YmVzf_vm08-3-Msr-cLOJCiV9g1ber-ZDiPQ0I3_qAI5xLqCzWOio&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kkqti4CkPMwtcYJ0g7uiAw&_nc_ss=72289&oh=00_AQA2rgEUO2MhGT1jrSmyQxL6hL5evx6hjhQlLVKPUF_L8g&oe=6A4B2753",
+      "image_url": "/assets/feed-images/0837b3e8ab5ecd111be7.webp",
+      "source_avatar_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-1/278614367_124189700215706_1238611269500334535_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx937x937&ctp=s50x50&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=7ST8-Mwwz7cQ7kNvwE8Spb1&_nc_oc=AdoksYw-eyZ3VU-MIMcVTttWRjYvG6RWTx8ePCQwYiX44vjQWqjWPS7yU2Qf-32emYY&_nc_zt=24&_nc_ht=scontent-dfw5-1.xx&_nc_gid=kkqti4CkPMwtcYJ0g7uiAw&_nc_ss=72289&oh=00_AQAkSml97fA5Tz_NDpKpxn4miSxL2qacyp-LRkQ2RbJBKQ&oe=6A4B0BC1",
+      "avatar_url": "/assets/source-avatars/f7697c98faa04bdd63fc.webp",
+      "source_initials": "馬來",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動",
+        "補助比賽"
+      ],
+      "key": "fb_malaysiaharmonicafestival:998952039559628"
+    },
+    {
+      "title": "馬來西亞口琴節｜OHRSC 2026 - Video & Audio Recording Guidelines 🎥🎙️ Please ensure that all recording rules are strictly followe…",
+      "headline": "OHRSC 2026 - Video & Audio Recording Guidelines 🎥🎙️",
+      "display_title": "",
+      "title_kind": "caption",
       "link": "https://www.instagram.com/p/DZr0I0ekyLC/",
       "source_id": "ig_malaysia_harmonica_festival",
       "source": "馬來西亞口琴節",
@@ -15329,6 +15602,79 @@
         "實體活動"
       ],
       "key": "yt_minamirisa:GiYcO-JMtSc"
+    },
+    {
+      "title": "口琴愛好者協會（新加坡）｜WONDERFUL SUNDAY 欢乐星期天 This June, celebrate Father's Day with music, family and friends! Bring your dad, b…",
+      "headline": "WONDERFUL SUNDAY 欢乐星期天",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/HARMONICAMUSICLOVERS/posts/pfbid02y2ggSpWZeio2MuDuZ5R5vhNwDGZX4zcaAWzm2NvB6hd1KXskkF5yLykWa6fbrhwkl",
+      "source_id": "fb_harmonicamusiclovers",
+      "source": "口琴愛好者協會（新加坡）",
+      "source_system_name": "口琴愛好者協會（新加坡）",
+      "source_profile_url": "https://facebook.com/HARMONICAMUSICLOVERS",
+      "country": "新加坡",
+      "region": "新加坡",
+      "directory_entry_id": "watchlist-165",
+      "directory_entry_name": "口琴愛好者協會（新加坡）",
+      "account": "HARMONICAMUSICLOVERS",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-06-13T14:11:55.000Z",
+      "posted_at_local": "2026-06-13 22:11",
+      "seen_at": "2026-07-01T16:42:52.008319+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "音樂會",
+        "演出"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "音樂會",
+        "演出"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "貼文宣傳新加坡口琴愛好者協會舉辦的父親節口琴音樂會活動，包含演奏、互動與齊奏，符合口琴演出相關定義。",
+      "text": "WONDERFUL SUNDAY 欢乐星期天\nThis June, celebrate Father's Day with music, family and friends!\nBring your dad, bring your family, and join us for an afternoon of harmonica music, audience interaction and community at HAS Clubhouse.\n📅 21 June 2026 (Sunday)\n🕑 2:00pm – 3:00pm\n📍 HAS Clubhouse\n✨ Programme Highlights\n• Audience Interaction\n• Harmonica Performances\n• Play Along Session – You Raise Me Up (Bring your harmonica!)\n🎉 New Members\nCollect your membership card.\n🎁 Referral Gift Collection\nEligible referrers under the HAS Membership Promotion Programme may collect their complimentary harmonica gift.\n📌 Membership cards and gifts must be collected in person during Wonderful Sunday.\nWe look forward to seeing you and your family!\n——————————\n欢乐星期天\n这个六月，让我们以音乐欢庆父亲节！\n欢迎带上爸爸和家人，一同来到 HAS Clubhouse，享受一个轻松愉快的口琴音乐下午。\n📅 2026年6月21日（星期日）\n🕑 下午2:00 – 3:00\n📍 HAS Clubhouse 口琴爱好者协会会所\n✨ 活动亮点\n• 观众互动\n• 口琴演奏\n• 《You Raise Me Up》齐奏（欢迎携带口琴参与）\n🎉 新会员\n领取会员证。\n🎁 推荐礼品领取\n符合 HAS 会员推广计划资格的推荐人可领取免费口琴礼品。\n📌 会员证及礼品须于欢乐星期天现场亲自领取。\n期待与您和家人的到来！\n#WonderfulSunday\n#MusicCommunity\n#FathersDay\n#hassingapore\n#Harmonica\nhttps://www.facebook.com/photo/?fbid=1632857598846313&set=a.488903699908381",
+      "images": [
+        "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/721160667_1632857608846312_4993659659978555299_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1920&ctp=p526x296&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=3gNXdMAA4C4Q7kNvwEdqFC2&_nc_oc=AdpE-U-qI-fvwjTmwr3gQ-yN3BZBbtNZDu2j5Gsz_IgGb6zSO56j0UtlDAu3gK8k5sU&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=p8UicLDBagIcK8zrVqgIvQ&_nc_ss=7c289&oh=00_AQCh-IPNqF7RbdOlUtSt1iYobASPQ8WKZeav0FAWo_67DA&oe=6A4B2E1D"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/721160667_1632857608846312_4993659659978555299_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1920&ctp=p526x296&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=3gNXdMAA4C4Q7kNvwEdqFC2&_nc_oc=AdpE-U-qI-fvwjTmwr3gQ-yN3BZBbtNZDu2j5Gsz_IgGb6zSO56j0UtlDAu3gK8k5sU&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=p8UicLDBagIcK8zrVqgIvQ&_nc_ss=7c289&oh=00_AQCh-IPNqF7RbdOlUtSt1iYobASPQ8WKZeav0FAWo_67DA&oe=6A4B2E1D",
+      "image_url": "/assets/feed-images/45e5a342b3bf28634265.webp",
+      "source_avatar_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/298565682_488903729908378_7612313088604557586_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1615x1613&ctp=s50x50&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=PgTLxQToh34Q7kNvwFzg5XS&_nc_oc=AdqtIB8kFe_yT1mAT77fp5ykmUb1hjbVWjTY-VZHlv0pxWmjnDW-VplcZse-GShJi0c&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=p8UicLDBagIcK8zrVqgIvQ&_nc_ss=7c289&oh=00_AQC8q1HjAppDhZpKKP7PNqmm_dh6-8IxiJ7M5igS80929w&oe=6A4B1B1A",
+      "avatar_url": "/assets/source-avatars/7412c000e91b22f83905.webp",
+      "source_initials": "口琴",
+      "categories": [
+        "posts-videos",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動",
+        "學生社團"
+      ],
+      "key": "fb_harmonicamusiclovers:1632857648846308"
     },
     {
       "title": "口琴愛好者協會（新加坡）｜WONDERFUL SUNDAY 欢乐星期天 This June, celebrate Father's Day with music, family and friends! Bring your dad, b…",
@@ -18477,6 +18823,78 @@
         "學生社團"
       ],
       "key": "threads_fanhsiaoyi:https://www.threads.com/t/DZPFbhwHGEv"
+    },
+    {
+      "title": "口琴愛好者協會（新加坡）｜🎶 Harmonica PlayGround (IG) – Interest Group Session Jun'26 🎶 Thank you to everyone who joined our inaugur…",
+      "headline": "🎶 Harmonica PlayGround (IG) – Interest Group Session Jun'26 🎶",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/HARMONICAMUSICLOVERS/posts/pfbid02tgjiKGLVuLJKae6p4jKgMQTM4QsCYntWxMaWcZbYBo3XH6PoonyEVoc8Wn7vXtE3l",
+      "source_id": "fb_harmonicamusiclovers",
+      "source": "口琴愛好者協會（新加坡）",
+      "source_system_name": "口琴愛好者協會（新加坡）",
+      "source_profile_url": "https://facebook.com/HARMONICAMUSICLOVERS",
+      "country": "新加坡",
+      "region": "新加坡",
+      "directory_entry_id": "watchlist-165",
+      "directory_entry_name": "口琴愛好者協會（新加坡）",
+      "account": "HARMONICAMUSICLOVERS",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-06-06T02:19:03.000Z",
+      "posted_at_local": "2026-06-06 10:19",
+      "seen_at": "2026-07-01T16:42:52.008319+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "交流",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "交流",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "交流",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "贴文为新加坡口琴协会的口琴聚会（兴趣小组）活动公告，包含口琴交流、演出、课程性质，符合台湾口琴公开更新的范畴。",
+      "text": "🎶 Harmonica PlayGround (IG) – Interest Group Session Jun'26 🎶\nThank you to everyone who joined our inaugural Harmonica PlayGround session in May. The first session was very well received, and we look forward to welcoming everyone back for our 2nd Interest Group Session!\n👉 Play harmonica with ease — no pressure\nA relaxed and informal session where harmonica enthusiasts of all ages and skill levels are welcome. Whether you are a beginner or an experienced player, come and enjoy making music together with fellow members and friends.\n👨‍🏫 Facilitated by Benny Hong and Dong Han\n📅 14 June 2026 (Sunday)\n🕑 2:00 PM – 3:00 PM\n📍 HAS Clubhouse, 21 Smith Street #03-01, Singapore 058935\n🎟 Free admission\n📖 Harmonica albums available at $10 per book\n🙌 All are welcome!\n⭐ Interested in joining HAS? Find out more during the session.\n——\n🎶 口琴乐园（兴趣小组）– 6月聚会 🎶\n感谢大家参加5月份首次举办的口琴乐园活动。首场活动反应热烈，我们期待在第二次兴趣小组聚会中再次与大家见面！\n👉 轻松吹口琴，毫无压力\n这是一个轻松、非正式的聚会，欢迎所有年龄层及不同程度的口琴爱好者参加。无论您是初学者还是经验丰富的演奏者，都欢迎一起来交流与合奏。\n👨‍🏫 带领导师：Benny Hong、Dong Han\n📅 2026年6月14日（星期日）\n🕑 下午2时至3时\n📍 HAS会所，21 Smith Street #03-01, Singapore 058935\n🎟 免费入场\n📖 口琴曲谱册每本 $10\n🙌 欢迎所有人参加！\n⭐ 欢迎现场了解并加入HAS会员。\n#singapore #harmonicaaficionadossociety #HarmonicaPlayGround\n…",
+      "images": [
+        "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-6/717018273_1625487272916679_1680388389554777562_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1800&ctp=s640x640&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=YaT5YM5OgLcQ7kNvwHTF0IC&_nc_oc=AdrY0VttcFG98pIx0xfNgV5vqqNxTBM8pdUWCksO6v4cU29DkaYW5QA1cgMYRto1qhE&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=p8UicLDBagIcK8zrVqgIvQ&_nc_ss=7c289&oh=00_AQDJGGHPYxztV8K7cs5pjNzjIwluRGgH7k6L_LIpu4YSsw&oe=6A4B0124"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-6/717018273_1625487272916679_1680388389554777562_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1800&ctp=s640x640&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=YaT5YM5OgLcQ7kNvwHTF0IC&_nc_oc=AdrY0VttcFG98pIx0xfNgV5vqqNxTBM8pdUWCksO6v4cU29DkaYW5QA1cgMYRto1qhE&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=p8UicLDBagIcK8zrVqgIvQ&_nc_ss=7c289&oh=00_AQDJGGHPYxztV8K7cs5pjNzjIwluRGgH7k6L_LIpu4YSsw&oe=6A4B0124",
+      "image_url": "/assets/feed-images/817e5d5b2e8e285ba163.webp",
+      "source_avatar_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/298565682_488903729908378_7612313088604557586_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1615x1613&ctp=s50x50&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=PgTLxQToh34Q7kNvwFzg5XS&_nc_oc=AdqtIB8kFe_yT1mAT77fp5ykmUb1hjbVWjTY-VZHlv0pxWmjnDW-VplcZse-GShJi0c&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=p8UicLDBagIcK8zrVqgIvQ&_nc_ss=7c289&oh=00_AQC8q1HjAppDhZpKKP7PNqmm_dh6-8IxiJ7M5igS80929w&oe=6A4B1B1A",
+      "avatar_url": "/assets/source-avatars/7412c000e91b22f83905.webp",
+      "source_initials": "口琴",
+      "categories": [
+        "posts-videos",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動",
+        "學生社團"
+      ],
+      "key": "fb_harmonicamusiclovers:1625487296250010"
     },
     {
       "title": "口琴愛好者協會（新加坡）｜🎶 Harmonica PlayGround (IG) – Interest Group Session Jun'26 🎶 Thank you to everyone who joined our inaugur…",
