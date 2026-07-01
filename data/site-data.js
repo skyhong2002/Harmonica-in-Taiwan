@@ -51,6 +51,155 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-111",
+      "name": "Rodrigo Eberienos",
+      "nameEn": "Rodrigo Eberienos",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "巴西",
+      "region": "巴西",
+      "cityOrFocus": "巴西職業口琴演奏/教學/錄音合作",
+      "structuredSummary": "巴西職業口琴演奏/教學/錄音合作 / 口琴 / 國際演出人員/教學者",
+      "summary": "巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。",
+      "keywords": "Rodrigo Eberienos harmonica SIHF",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/rodrigoeberienos/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/rodrigoeberienos/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@eberienos"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-30T18:02:20+00:00",
+      "latestUpdateLocal": "2026-07-01 02:02",
+      "latestUpdateSource": "Rodrigo Eberienos",
+      "latestUpdateUrl": "https://www.instagram.com/stories/rodrigoeberienos/3931090612476875342/",
+      "avatarUrl": "/assets/source-avatars/5b4cd78ad828edc6b9dc.webp",
+      "sourceInitials": "RE",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "教學",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_rodrigoeberienos",
+          "name": "Rodrigo Eberienos",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/rodrigoeberienos",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_rodrigoeberienos",
+          "name": "Rodrigo Eberienos",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "rodrigoeberienos",
+          "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_rodrigoeberienos",
+          "name": "Rodrigo Eberienos",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "rodrigoeberienos",
+          "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/rodrigoeberienos/story/0"
+        },
+        {
+          "id": "yt_eberienos",
+          "name": "Rodrigo Eberienos",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@eberienos",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-128",
+      "name": "Jens Bunge",
+      "nameEn": "Jens Bunge",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "德國",
+      "region": "德國",
+      "cityOrFocus": "德國爵士口琴/半音階演奏/國際演出與錄音",
+      "structuredSummary": "德國爵士口琴/半音階演奏/國際演出與錄音 / 半音階/爵士口琴 / 國際演出人員",
+      "summary": "德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。",
+      "keywords": "Jens Bunge jazz harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hohner.de/en/jens-bunge"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jensbunge.jazzharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@jensbunge"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-30T17:39:00+00:00",
+      "latestUpdateLocal": "2026-07-01 01:39",
+      "latestUpdateSource": "Jens Bunge",
+      "latestUpdateUrl": "https://www.instagram.com/stories/jensbunge.jazzharmonica/3931078874943578869/",
+      "avatarUrl": "/assets/source-avatars/59b1b52b1b0ff0b2d1e7.webp",
+      "sourceInitials": "JB",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_jensbunge_jazzharmonica",
+          "name": "Jens Bunge",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jensbunge.jazzharmonica",
+          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jensbunge_jazzharmonica",
+          "name": "Jens Bunge",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jensbunge.jazzharmonica",
+          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/jensbunge.jazzharmonica/story/0"
+        },
+        {
+          "id": "yt_jensbunge",
+          "name": "Jens Bunge",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@jensbunge",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-106",
       "name": "陳瑤容 Yora Chen",
       "nameEn": "Yora Chen",
@@ -622,6 +771,92 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@minamirisa",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-54",
+      "name": "CY Leo 何卓彥",
+      "nameEn": "CY Leo",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/現代跨界",
+      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
+      "summary": "香港的半音階國際演出人員，活動脈絡包含現代跨界。",
+      "keywords": "CY Leo 何卓彥 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.cyleomusic.io/profile"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Cyleoharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cy_leo/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@cyleoharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-30T14:10:26+00:00",
+      "latestUpdateLocal": "2026-06-30 22:10",
+      "latestUpdateSource": "CY Leo 何卓彥",
+      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3930973904575798495/",
+      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
+      "sourceInitials": "CL",
+      "sourceTags": [
+        "演奏者",
+        "口琴",
+        "半音階",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
+      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
+      "monitorSources": [
+        {
+          "id": "fb_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Cyleoharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
+        },
+        {
+          "id": "yt_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@cyleoharmonica",
           "feedUrl": ""
         }
       ]
@@ -2352,76 +2587,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-128",
-      "name": "Jens Bunge",
-      "nameEn": "Jens Bunge",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "德國",
-      "region": "德國",
-      "cityOrFocus": "德國爵士口琴/半音階演奏/國際演出與錄音",
-      "structuredSummary": "德國爵士口琴/半音階演奏/國際演出與錄音 / 半音階/爵士口琴 / 國際演出人員",
-      "summary": "德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。",
-      "keywords": "Jens Bunge jazz harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://hohner.de/en/jens-bunge"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jensbunge.jazzharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@jensbunge"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-29T18:17:29+00:00",
-      "latestUpdateLocal": "2026-06-30 02:17",
-      "latestUpdateSource": "Jens Bunge",
-      "latestUpdateUrl": "https://www.instagram.com/stories/jensbunge.jazzharmonica/3930373466796923799/",
-      "avatarUrl": "/assets/source-avatars/59b1b52b1b0ff0b2d1e7.webp",
-      "sourceInitials": "JB",
-      "sourceTags": [
-        "口琴",
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_jensbunge_jazzharmonica",
-          "name": "Jens Bunge",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jensbunge.jazzharmonica",
-          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jensbunge_jazzharmonica",
-          "name": "Jens Bunge",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jensbunge.jazzharmonica",
-          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jensbunge.jazzharmonica/story/0"
-        },
-        {
-          "id": "yt_jensbunge",
-          "name": "Jens Bunge",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@jensbunge",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-157",
       "name": "Orchestra Hohnerklang",
       "nameEn": "Orchester Hohnerklang",
@@ -2813,92 +2978,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@YFHarmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-54",
-      "name": "CY Leo 何卓彥",
-      "nameEn": "CY Leo",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/現代跨界",
-      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
-      "summary": "香港的半音階國際演出人員，活動脈絡包含現代跨界。",
-      "keywords": "CY Leo 何卓彥 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.cyleomusic.io/profile"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Cyleoharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/cy_leo/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@cyleoharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-29T13:25:29+00:00",
-      "latestUpdateLocal": "2026-06-29 21:25",
-      "latestUpdateSource": "CY Leo 何卓彥",
-      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3930226503971929985/",
-      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
-      "sourceInitials": "CL",
-      "sourceTags": [
-        "演奏者",
-        "口琴",
-        "半音階",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
-      "monitorSources": [
-        {
-          "id": "fb_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Cyleoharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
-        },
-        {
-          "id": "yt_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@cyleoharmonica",
           "feedUrl": ""
         }
       ]
@@ -3382,85 +3461,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@KonstantinReinfeld",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-111",
-      "name": "Rodrigo Eberienos",
-      "nameEn": "Rodrigo Eberienos",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "巴西",
-      "region": "巴西",
-      "cityOrFocus": "巴西職業口琴演奏/教學/錄音合作",
-      "structuredSummary": "巴西職業口琴演奏/教學/錄音合作 / 口琴 / 國際演出人員/教學者",
-      "summary": "巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。",
-      "keywords": "Rodrigo Eberienos harmonica SIHF",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/rodrigoeberienos/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/rodrigoeberienos/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@eberienos"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-28T21:52:46+00:00",
-      "latestUpdateLocal": "2026-06-29 05:52",
-      "latestUpdateSource": "Rodrigo Eberienos",
-      "latestUpdateUrl": "https://www.instagram.com/stories/rodrigoeberienos/3929757047864679860/",
-      "avatarUrl": "/assets/source-avatars/5b4cd78ad828edc6b9dc.webp",
-      "sourceInitials": "RE",
-      "sourceTags": [
-        "口琴",
-        "演奏者",
-        "教學",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_rodrigoeberienos",
-          "name": "Rodrigo Eberienos",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/rodrigoeberienos",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_rodrigoeberienos",
-          "name": "Rodrigo Eberienos",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "rodrigoeberienos",
-          "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_rodrigoeberienos",
-          "name": "Rodrigo Eberienos",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "rodrigoeberienos",
-          "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/rodrigoeberienos/story/0"
-        },
-        {
-          "id": "yt_eberienos",
-          "name": "Rodrigo Eberienos",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@eberienos",
           "feedUrl": ""
         }
       ]
