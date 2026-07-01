@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 01 Jul 2026 02:55:50 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 03:58:31 +0000</lastBuildDate>
     <item>
       <title>藤井俊充</title>
       <link>https://www.facebook.com/100091746706247/</link>
@@ -49,6 +49,17 @@ Tag：演奏者、口琴、演出
 國家：臺灣
 地區：臺灣
 臺灣的口琴演出人員與評審，活動脈絡包含演出與評審。</description>
+    </item>
+    <item>
+      <title>Yellow Pine Harmonica Festival</title>
+      <link>https://www.yellowpinefestival.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/8916c1898211431a</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：口琴、活動資訊、課程、音樂節、國際交流
+國家：美國
+地區：美國/愛達荷
+美國的國際活動來源，涵蓋戶外口琴音樂節、課程、示範與社群演出。</description>
     </item>
     <item>
       <title>Rodrigo Eberienos</title>
@@ -315,6 +326,17 @@ Tag：口琴、演奏者
 臺灣的口琴演出人員，活動脈絡包含111 Trio與Quintet。</description>
     </item>
     <item>
+      <title>王衍華</title>
+      <link>https://portaly.cc/yenhua_wang</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/d4be998cbe5b2da8</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、重奏
+國家：臺灣
+地區：臺灣
+臺灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。</description>
+    </item>
+    <item>
       <title>藍波口琴教室</title>
       <link>https://www.blueboclass.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/208580c304c32492</guid>
@@ -335,17 +357,6 @@ Tag：口琴、團體樂團、重奏
 國家：臺灣
 地區：臺灣
 臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。</description>
-    </item>
-    <item>
-      <title>王衍華</title>
-      <link>https://portaly.cc/yenhua_wang</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/d4be998cbe5b2da8</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、重奏
-國家：臺灣
-地區：臺灣
-臺灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。</description>
     </item>
     <item>
       <title>何家健 HarmoniKahkean</title>
@@ -588,17 +599,6 @@ Tag：口琴、團體樂團、十孔、國際交流
 國家：法國
 地區：法國
 法國的十孔、藍調口琴、吉他與人聲國際演出團體，活動脈絡包含WHF 2025、吉他與歌唱與Golden Melody ambassador。</description>
-    </item>
-    <item>
-      <title>Yellow Pine Harmonica Festival</title>
-      <link>https://www.yellowpinefestival.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/8916c1898211431a</guid>
-      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：口琴、活動資訊、課程、音樂節、國際交流
-國家：美國
-地區：美國/愛達荷
-美國的國際活動來源，涵蓋戶外口琴音樂節、課程、示範與社群演出。</description>
     </item>
     <item>
       <title>Jong-seong Park 朴鍾聲</title>

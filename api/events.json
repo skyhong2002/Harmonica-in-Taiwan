@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 275,
+  "count": 276,
   "items": [
     {
       "title": "藤井俊充｜我今天在臺南有臨時演出～ 我要出什麼樂器？請大家期待一下🥹🫶🏻 #jhouse #tainan",
@@ -151,6 +151,76 @@
         "實體活動"
       ],
       "key": "ig_story_taiwanharmonica:3931276910332720833_67036782732"
+    },
+    {
+      "title": "Yellow Pine Harmonica Festival｜There's a LOT to do at the Yellow Pine Harmonica Festival beyond listening to music! Tak…",
+      "headline": "There's a LOT to do at the Yellow Pine Harmonica Festival beyond listening to music!",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DaOo1SJAAlS/",
+      "source_id": "ig_yellowpinemusicfestival",
+      "source": "Yellow Pine Harmonica Festival",
+      "source_system_name": "Yellow Pine Harmonica Festival",
+      "source_profile_url": "https://www.instagram.com/yellowpinemusicfestival/",
+      "country": "美國",
+      "region": "美國/愛達荷",
+      "directory_entry_id": "watchlist-177",
+      "directory_entry_name": "Yellow Pine Harmonica Festival",
+      "account": "yellowpinemusicfestival",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Tue, 30 Jun 2026 23:37:09 GMT",
+      "posted_at_local": "2026-07-01 07:37",
+      "seen_at": "2026-07-01T03:58:23.200577+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/yellowpinemusicfestival",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "音樂會",
+        "演出"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.85,
+      "llm_labels": [
+        "口琴",
+        "音樂會",
+        "演出"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "貼文宣傳黃松口琴節的各項活動，包含口琴比賽與課程，與口琴演出、音樂會、比賽、課程等直接相關。",
+      "text": "There's a LOT to do at the Yellow Pine Harmonica Festival beyond listening to music!\nTake a Class!\nListen to a presentation on Local History!\nView a Demonstration!\nParticipate the BEARD CONTEST\nPlay Bingo!\nHave Breakfast!\nWin the Harmonica Contest!\n... and MORE!!!\nCheck out our Activities Page to Find out what else is in store!!!\nSee you this summer in Yellow Pine Idaho!!!\nhttps://www.yellowpinefestival.org/activities/",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t39.30808-6/678602104_1291228489874079_5245232394400192607_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkzMTI1OTEwODIxMjA4MzAyNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjA0OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=K_qXbNGU3aYQ7kNvwFYA0pS&_nc_oc=Adrq7TuFo2EWqHUVTwy5sd9UozUo7UqxJ-3-kMnfxcsLrd4GKPmH05UCPCuImwc9z9Q&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=oJ6cQ3Am8RowqgnhZvjXzg&_nc_ss=7a22e&oh=00_AQCtuBXzGcZ-faXtcO34eLZN6o_rtwFKcLpf9WscZtP0ug&oe=6A4A742E"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t39.30808-6/678602104_1291228489874079_5245232394400192607_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkzMTI1OTEwODIxMjA4MzAyNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjA0OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=K_qXbNGU3aYQ7kNvwFYA0pS&_nc_oc=Adrq7TuFo2EWqHUVTwy5sd9UozUo7UqxJ-3-kMnfxcsLrd4GKPmH05UCPCuImwc9z9Q&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=oJ6cQ3Am8RowqgnhZvjXzg&_nc_ss=7a22e&oh=00_AQCtuBXzGcZ-faXtcO34eLZN6o_rtwFKcLpf9WscZtP0ug&oe=6A4A742E",
+      "image_url": "/assets/feed-images/6803e1da0f8d86f8b428.webp",
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/355134462_1710356866069400_2026509270452807418_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40NTQuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gGwYYE7_P5b9Fspn8KiuiUbN36ZO6DuUoDJJW-VsXrqKQTUpEmQ7zOLjSJzAWP_dxA&_nc_ohc=_CnMBt-ynIEQ7kNvwH-CH0L&_nc_gid=fGp8SOV3MHqAlih_O9uTRw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQAlyqAsl9Brt98aQ8Y-N752NGzmCQ1GtWShc87WL9x2Ng&oe=6A4A6CCB&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/6019ddc338218581b442.webp",
+      "source_initials": "YPH",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動",
+        "補助比賽"
+      ],
+      "key": "ig_yellowpinemusicfestival:https://www.instagram.com/p/DaOo1SJAAlS/"
     },
     {
       "title": "Jens Bunge｜Instagram story @jensbunge.jazzharmonica",
