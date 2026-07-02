@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 314,
+  "count": 315,
   "items": [
     {
       "title": "南里沙｜ロイヤルホースでのライブのお知らせ♬ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by Ameba https://ameblo.jp/risa-harm... ロイヤルホースでのライブ…",
@@ -2003,6 +2003,62 @@
         "實體活動"
       ],
       "key": "ig_story_jensbunge_jazzharmonica:3931552341470672994_6986420302"
+    },
+    {
+      "title": "衛武營國家藝術文化中心 weiwuying_centerforthearts｜親子百老匯大秀登場，《搶救魔幻飛船》幕後排練大公開！ 2026暑假必看感人親子劇，衛武營全新編製華麗回歸！ 劇本重塑、舞蹈進化！演員們在高強度的密集排練中，一次…",
+      "headline": "親子百老匯大秀登場，《搶救魔幻飛船》幕後排練大公開！",
+      "display_title": "親子百老匯大秀登場，《搶救魔幻飛船》幕後排練大公開！",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=OpzdPcGV40g",
+      "source_id": "yt_weiwuyingfilm",
+      "source": "衛武營國家藝術文化中心 weiwuying_centerforthearts",
+      "source_system_name": "衛武營國家藝術文化中心",
+      "source_profile_url": "https://www.youtube.com/channel/UCinakIiUgs09kXaXI0mwo-A",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "directory_entry_id": "watchlist-80",
+      "directory_entry_name": "衛武營國家藝術文化中心",
+      "account": "https://www.youtube.com/channel/UCinakIiUgs09kXaXI0mwo-A",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-07-01T08:59:00+00:00",
+      "posted_at_local": "2026-07-01 16:59",
+      "seen_at": "2026-07-02T23:55:31.910022+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [],
+      "keyword_matches": [],
+      "llm_relevant": false,
+      "llm_confidence": 0.95,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "貼文內容為親子舞台劇《搶救魔幻飛船》的宣傳，提及百老匯、舞蹈、戲劇演出，未涉及口琴或任何與口琴相關的主題、活動。來源雖為藝文場館，但內容無關。",
+      "text": "親子百老匯大秀登場，《搶救魔幻飛船》幕後排練大公開！\n2026暑假必看感人親子劇，衛武營全新編製華麗回歸！\n劇本重塑、舞蹈進化！演員們在高強度的密集排練中，一次又一次挑戰極限，只為帶給觀眾最深刻的感官體驗。\n花露露和夥伴們在宇宙旅行途中，因飛船失去啟動能量，意外降落在神祕的伊摩小鎮。原來是小鎮的悲傷能量把飛船的燃料吸走，連象徵小鎮精神的鐘塔也因神祕怪獸的出現，無法再次響起。\n一場關於愛與勇氣的奇幻冒險，華麗程度堪比百老匯大秀。從走位調度到肢體律動，所有演員無一不拚盡全力，將舞蹈力度與視覺震撼推向極致！\n花露露舞台劇《搶救魔幻飛船》\n7/11 衛武營戲劇院\n同場次購票三張(含)以上享8折優惠\nhttps://npacwwy.tw/en16Gny2m\n主要贊助｜高都汽車 TOYOTA、富邦集團\n藝文支持｜聚和國際、臺灣福興文教基金會",
+      "images": [
+        "https://i.ytimg.com/vi/OpzdPcGV40g/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/OpzdPcGV40g/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/38cf6ada69ee91e3e647.webp",
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_nA6wlDM1r-OSwTetP9oLHhdD0ZTFPb2lXdF_XgmJVYCQ=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/430d59b3421f7dda5036.webp",
+      "source_initials": "WC",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動"
+      ],
+      "key": "yt_weiwuyingfilm:OpzdPcGV40g"
     },
     {
       "title": "Stay Drunk 口琴樂團｜Instagram story @staydrunk_h.e",
