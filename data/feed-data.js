@@ -1,5 +1,5 @@
 window.HARMONICA_OBSERVE_FEEDS = {
-  "generatedAt": "2026-07-02 15:30",
+  "generatedAt": "2026-07-02 16:03",
   "updatesWindowDays": 30,
   "updates": [
     {
@@ -1074,6 +1074,62 @@ window.HARMONICA_OBSERVE_FEEDS = {
         "實體活動"
       ],
       "key": "ig_story_howardlevyland:3931867176856268020_5777911555"
+    },
+    {
+      "title": "Howard Levy｜Hélène Escriva | Music Legends You Should Know 【Music Legends You Should Know】Hélène Escriva, the virtuosic…",
+      "headline": "Hélène Escriva | Music Legends You Should Know",
+      "display_title": "Hélène Escriva | Music Legends You Should Know",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=3_lR0jorx6U",
+      "source_id": "yt_uc86aeg8s_npzmfuj_cyxw",
+      "source": "Howard Levy",
+      "source_system_name": "Howard Levy",
+      "source_profile_url": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
+      "country": "美國",
+      "region": "美國",
+      "directory_entry_id": "watchlist-145",
+      "directory_entry_name": "Howard Levy",
+      "account": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-07-01T19:34:15+00:00",
+      "posted_at_local": "2026-07-02 03:34",
+      "seen_at": "2026-07-02T08:03:17.890579+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": false,
+      "llm_confidence": 0.9,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "貼文主題為法國上低音號演奏家，內容與口琴無關，僅來源名稱含harmonica。",
+      "text": "Hélène Escriva | Music Legends You Should Know\n【Music Legends You Should Know】Hélène Escriva, the virtuosic French euphonium soloist. Born in southern France, she studied at conservatory in Paris and quickly rose to international prominence as one of the world’s leading performers on the euphonium.\nThe euphonium is not an instrument most people associate with jazz or even the symphony orchestra, let alone as a solo instrument. Hélène has become one of its greatest ambassadors, demonstrating its remarkable expressive and virtuosic potential.\nDiscovering her online was a revelation—her deeply expressive playing immediately captivated me. Performing with great emotional flair and astoundingly precise technique, she becomes one with her instrument, electrifying audiences with her passionate, even theatrical artistry.\n*MLYSK series: I’m sharing my thoughts on some of the incredible musicians who’ve shaped the way I hear, feel and think about music, and who I think everyone should know more about. Some are extremely famous, others deserve to be. Their music affects me on a profound level, so this is a very personal list.\n💡MLYSK playlist on Spotify: https://open.spotify.com/artist/6ZboLM…",
+      "images": [
+        "https://i.ytimg.com/vi/3_lR0jorx6U/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/3_lR0jorx6U/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/68c751527e33a56002f0.webp",
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_klSEVhEZ9n44gSyg5PlSqetZOl3AgoYGG--ayMBBmuyt8=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/2717f0df3042b3fe0304.webp",
+      "source_initials": "HL",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "yt_uc86aeg8s_npzmfuj_cyxw:3_lR0jorx6U"
     },
     {
       "title": "Marcos Coll｜Instagram story @marcoscollgonzalez",
@@ -77431,6 +77487,62 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "key": "ig_story_howardlevyland:3931867176856268020_5777911555"
         },
         {
+          "title": "Howard Levy｜Hélène Escriva | Music Legends You Should Know 【Music Legends You Should Know】Hélène Escriva, the virtuosic…",
+          "headline": "Hélène Escriva | Music Legends You Should Know",
+          "display_title": "Hélène Escriva | Music Legends You Should Know",
+          "title_kind": "title",
+          "link": "https://www.youtube.com/watch?v=3_lR0jorx6U",
+          "source_id": "yt_uc86aeg8s_npzmfuj_cyxw",
+          "source": "Howard Levy",
+          "source_system_name": "Howard Levy",
+          "source_profile_url": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
+          "country": "美國",
+          "region": "美國",
+          "directory_entry_id": "watchlist-145",
+          "directory_entry_name": "Howard Levy",
+          "account": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
+          "platform": "youtube",
+          "platform_label": "YouTube",
+          "posted_at": "2026-07-01T19:34:15+00:00",
+          "posted_at_local": "2026-07-02 03:34",
+          "seen_at": "2026-07-02T08:03:17.890579+00:00",
+          "media_type": "video",
+          "story": false,
+          "story_provider": "",
+          "story_fetched_at": "",
+          "story_expires_at": "",
+          "source_feed_url": "",
+          "rsshub_guid": "",
+          "rsshub_title": "",
+          "instagram_user_id": "",
+          "matched_keywords": [],
+          "keyword_matches": [
+            "harmonica"
+          ],
+          "llm_relevant": false,
+          "llm_confidence": 0.9,
+          "llm_labels": [],
+          "llm_categories": [],
+          "llm_reason": "貼文主題為法國上低音號演奏家，內容與口琴無關，僅來源名稱含harmonica。",
+          "text": "Hélène Escriva | Music Legends You Should Know\n【Music Legends You Should Know】Hélène Escriva, the virtuosic French euphonium soloist. Born in southern France, she studied at conservatory in Paris and quickly rose to international prominence as one of the world’s leading performers on the euphonium.\nThe euphonium is not an instrument most people associate with jazz or even the symphony orchestra, let alone as a solo instrument. Hélène has become one of its greatest ambassadors, demonstrating its remarkable expressive and virtuosic potential.\nDiscovering her online was a revelation—her deeply expressive playing immediately captivated me. Performing with great emotional flair and astoundingly precise technique, she becomes one with her instrument, electrifying audiences with her passionate, even theatrical artistry.\n*MLYSK series: I’m sharing my thoughts on some of the incredible musicians who’ve shaped the way I hear, feel and think about music, and who I think everyone should know more about. Some are extremely famous, others deserve to be. Their music affects me on a profound level, so this is a very personal list.\n💡MLYSK playlist on Spotify: https://open.spotify.com/artist/6ZboLM…",
+          "images": [
+            "https://i.ytimg.com/vi/3_lR0jorx6U/maxresdefault.jpg"
+          ],
+          "videos": [],
+          "source_image_url": "https://i.ytimg.com/vi/3_lR0jorx6U/maxresdefault.jpg",
+          "image_url": "/assets/feed-images/68c751527e33a56002f0.webp",
+          "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_klSEVhEZ9n44gSyg5PlSqetZOl3AgoYGG--ayMBBmuyt8=s900-c-k-c0x00ffffff-no-rj",
+          "avatar_url": "/assets/source-avatars/2717f0df3042b3fe0304.webp",
+          "source_initials": "HL",
+          "categories": [
+            "posts-videos"
+          ],
+          "category_labels": [
+            "貼文影片"
+          ],
+          "key": "yt_uc86aeg8s_npzmfuj_cyxw:3_lR0jorx6U"
+        },
+        {
           "title": "Marcos Coll｜Instagram story @marcoscollgonzalez",
           "headline": "Instagram story @marcoscollgonzalez",
           "display_title": "",
@@ -126243,7 +126355,7 @@ window.HARMONICA_OBSERVE_FEEDS = {
           "key": "yt_afd4d475bb:57QwnGuu57Q"
         }
       ],
-      "count": 720
+      "count": 721
     },
     {
       "id": "student-clubs",
