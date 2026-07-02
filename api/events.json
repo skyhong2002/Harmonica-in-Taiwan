@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 304,
+  "count": 303,
   "items": [
     {
       "title": "陳彥銘｜Instagram story @yenmingchen",
@@ -21320,81 +21320,6 @@
         "學生社團"
       ],
       "key": "ig_tcfsh_harmonica:https://www.instagram.com/p/DZFNfsHk-IC/"
-    },
-    {
-      "title": "中山醫藍韻口琴社｜49屆藍韻口琴社期末成發《異世界卡車轉生術》 曲目與串場11-忠孝東路走九遍 曲名：忠孝東路走九遍 演奏者：陳姵羽(一口)、張育瑄(二口)、高煜(一口)、、邱振庭(Chord) 2025.May.23",
-      "headline": "49屆藍韻口琴社期末成發《異世界卡車轉生術》 曲目與串場11-忠孝東路走九遍",
-      "display_title": "49屆藍韻口琴社期末成發《異世界卡車轉生術》 曲目與串場11-忠孝東路走九遍",
-      "title_kind": "title",
-      "link": "https://www.youtube.com/watch?v=57QwnGuu57Q",
-      "source_id": "yt_afd4d475bb",
-      "source": "中山醫藍韻口琴社",
-      "source_system_name": "中山醫藍韻口琴社",
-      "source_profile_url": "https://www.youtube.com/channel/UCaurSOmVAe602-tib7bHRaQ",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "directory_entry_id": "club-6",
-      "directory_entry_name": "中山醫藍韻口琴社",
-      "account": "https://youtube.com/@中山醫學大學藍韻口琴",
-      "platform": "youtube",
-      "platform_label": "YouTube",
-      "posted_at": "2026-06-02T08:35:29+00:00",
-      "posted_at_local": "2026-06-02 16:35",
-      "seen_at": "2026-06-23T15:11:41.855318+00:00",
-      "media_type": "video",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "成發",
-        "演出",
-        "學生社團",
-        "公開更新"
-      ],
-      "keyword_matches": [
-        "口琴",
-        "成發"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 1.0,
-      "llm_labels": [
-        "口琴",
-        "成發",
-        "演出",
-        "學生社團",
-        "公開更新"
-      ],
-      "llm_categories": [
-        "events"
-      ],
-      "llm_reason": "貼文明確為口琴社團期末成發，含演奏者與曲目，符合口琴演出與社團公開更新標準。",
-      "text": "49屆藍韻口琴社期末成發《異世界卡車轉生術》 曲目與串場11-忠孝東路走九遍\n曲名：忠孝東路走九遍\n演奏者：陳姵羽(一口)、張育瑄(二口)、高煜(一口)、、邱振庭(Chord)\n2025.May.23",
-      "images": [
-        "https://i.ytimg.com/vi/57QwnGuu57Q/maxresdefault.jpg"
-      ],
-      "videos": [],
-      "source_image_url": "https://i.ytimg.com/vi/57QwnGuu57Q/maxresdefault.jpg",
-      "image_url": "/assets/feed-images/701b955cc96d46c28909.webp",
-      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_kFcXQiAWnJFS3A667SUFtMlonE7gOQNPEQ92GovHE=s900-c-k-c0x00ffffff-no-rj",
-      "avatar_url": "/assets/source-avatars/542e90d390490a3d0562.webp",
-      "source_initials": "中山",
-      "categories": [
-        "posts-videos",
-        "events",
-        "student-clubs"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "實體活動",
-        "學生社團"
-      ],
-      "key": "yt_afd4d475bb:57QwnGuu57Q"
     }
   ]
 }
