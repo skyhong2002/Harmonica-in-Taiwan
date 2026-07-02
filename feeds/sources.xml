@@ -5,7 +5,29 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 02 Jul 2026 04:52:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 05:55:04 +0000</lastBuildDate>
+    <item>
+      <title>陳彥銘</title>
+      <link>https://mx.nthu.edu.tw/~ymchen/sirius/CT.htm</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/294a4e588c327308</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、口琴、和弦、重奏、交流
+國家：臺灣
+地區：臺灣
+臺灣的和弦與重奏演出人員與推廣者，活動脈絡包含天狼星、THMF與和弦口琴。</description>
+    </item>
+    <item>
+      <title>臺中國家歌劇院</title>
+      <link>https://www.npac-ntt.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台、活動資訊、演出
+國家：臺灣
+地區：臺灣/臺中
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
     <item>
       <title>音和樂器</title>
       <link>https://0223120930.web66.com.tw/</link>
@@ -203,17 +225,6 @@ Tag：口琴、活動資訊、比賽
 國家：新加坡
 地區：新加坡
 新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。</description>
-    </item>
-    <item>
-      <title>臺中國家歌劇院</title>
-      <link>https://www.npac-ntt.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台、活動資訊、演出
-國家：臺灣
-地區：臺灣/臺中
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>衛武營國家藝術文化中心</title>
@@ -2172,17 +2183,6 @@ Tag：演奏者、口琴、合奏、重奏
 國家：臺灣
 地區：臺灣
 臺灣的口琴與重奏演出人員，活動脈絡包含天狼星系。</description>
-    </item>
-    <item>
-      <title>陳彥銘</title>
-      <link>https://mx.nthu.edu.tw/~ymchen/sirius/CT.htm</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/294a4e588c327308</guid>
-      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、口琴、和弦、重奏、交流
-國家：臺灣
-地區：臺灣
-臺灣的和弦與重奏演出人員與推廣者，活動脈絡包含天狼星、THMF與和弦口琴。</description>
     </item>
     <item>
       <title>陳聰</title>
