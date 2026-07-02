@@ -65,6 +65,90 @@
   },
   "entries": [
     {
+      "id": "watchlist-181",
+      "name": "Harmonica FEN 口琴節與學院",
+      "nameEn": "Harmonica FEN Festival & Academy",
+      "category": "活動資訊",
+      "type": "活動/教育入口",
+      "country": "德國",
+      "region": "德國/柏林",
+      "cityOrFocus": "柏林口琴節/Academy/演奏會/工作坊/Open Stage",
+      "structuredSummary": "柏林口琴節/Academy/演奏會/工作坊/Open Stage / 口琴/半音階/十孔/跨界 / 國際活動/教育來源",
+      "summary": "德國的國際活動與教育來源，涵蓋柏林口琴節、Academy、演奏會、工作坊與Open Stage。",
+      "keywords": "Harmonica FEN Festival Academy Berlin harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica-fen-festival.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonicafenfestival"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_fen_festival/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-02T08:01:58+00:00",
+      "latestUpdateLocal": "2026-07-02 16:01",
+      "latestUpdateSource": "Harmonica FEN 口琴節與學院",
+      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_fen_festival/3932238003594365325/",
+      "avatarUrl": "/assets/source-avatars/93a3e78c4a746305a908.webp",
+      "sourceInitials": "HF",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicafenfestival",
+          "name": "Harmonica FEN 口琴節與學院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonicafenfestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_harmonica_fen_festival",
+          "name": "Harmonica FEN 口琴節與學院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_fen_festival",
+          "profileUrl": "https://www.instagram.com/harmonica_fen_festival/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_fen_festival",
+          "name": "Harmonica FEN 口琴節與學院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_fen_festival",
+          "profileUrl": "https://www.instagram.com/harmonica_fen_festival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_fen_festival/story/0"
+        },
+        {
+          "id": "yt_uctti8xh0v4dgrgp7hz68bww",
+          "name": "Harmonica FEN 口琴節與學院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-32",
       "name": "陳彥銘",
       "nameEn": "",
@@ -222,6 +306,91 @@
       ]
     },
     {
+      "id": "watchlist-55",
+      "name": "梁承熹 Kelvin Leung",
+      "nameEn": "Kelvin Leung",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "THMF交流/演出",
+      "structuredSummary": "THMF交流/演出 / 半音階 / 國際演出人員",
+      "summary": "香港的半音階國際演出人員，活動脈絡包含THMF交流與演出。",
+      "keywords": "梁承熹 Kelvin Leung harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica-kelvin.weebly.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kelvinleungsh/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sorhei/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@KelvinLeungharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-02T03:32:17+00:00",
+      "latestUpdateLocal": "2026-07-02 11:32",
+      "latestUpdateSource": "梁承熹 Kelvin Leung",
+      "latestUpdateUrl": "https://www.instagram.com/stories/sorhei/3932102252416393452/",
+      "avatarUrl": "/assets/source-avatars/0c9e9143d106ffe600b5.webp",
+      "sourceInitials": "KL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流",
+        "口琴"
+      ],
+      "sourceSummary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
+      "sourceTagReason": "來源明確標示為『演奏者』，類型為『個人』，區域為『香港』，摘要提及『THMF交流/演出』與『半音階』。",
+      "monitorSources": [
+        {
+          "id": "fb_kelvinleungsh",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/kelvinleungsh",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sorhei",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sorhei",
+          "profileUrl": "https://www.instagram.com/sorhei/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sorhei",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sorhei",
+          "profileUrl": "https://www.instagram.com/sorhei/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sorhei/story/0"
+        },
+        {
+          "id": "yt_kelvinleungharmonica",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@KelvinLeungharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-27+watchlist-94",
       "name": "音和樂器",
       "nameEn": "PeaceTones Harmonica",
@@ -333,10 +502,10 @@
       ],
       "source": "club",
       "aliases": [],
-      "latestUpdateAt": "2026-07-02T01:18:54+00:00",
-      "latestUpdateLocal": "2026-07-02 09:18",
+      "latestUpdateAt": "2026-07-02T01:25:00+00:00",
+      "latestUpdateLocal": "2026-07-02 09:25",
       "latestUpdateSource": "逢甲口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/p/DaRZRa2D78H/",
+      "latestUpdateUrl": "https://www.instagram.com/stories/fcu_harmonica/3932038193554097246/",
       "avatarUrl": "/assets/source-avatars/6bccd03a51cc8f9d4d87.webp",
       "sourceInitials": "逢甲",
       "sourceTags": [
@@ -3580,91 +3749,6 @@
       ]
     },
     {
-      "id": "watchlist-55",
-      "name": "梁承熹 Kelvin Leung",
-      "nameEn": "Kelvin Leung",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "THMF交流/演出",
-      "structuredSummary": "THMF交流/演出 / 半音階 / 國際演出人員",
-      "summary": "香港的半音階國際演出人員，活動脈絡包含THMF交流與演出。",
-      "keywords": "梁承熹 Kelvin Leung harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica-kelvin.weebly.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/kelvinleungsh/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/sorhei/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@KelvinLeungharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-30T09:11:24+00:00",
-      "latestUpdateLocal": "2026-06-30 17:11",
-      "latestUpdateSource": "梁承熹 Kelvin Leung",
-      "latestUpdateUrl": "https://www.instagram.com/stories/sorhei/3930823386594964329/",
-      "avatarUrl": "/assets/source-avatars/0c9e9143d106ffe600b5.webp",
-      "sourceInitials": "KL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流",
-        "口琴"
-      ],
-      "sourceSummary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
-      "sourceTagReason": "來源明確標示為『演奏者』，類型為『個人』，區域為『香港』，摘要提及『THMF交流/演出』與『半音階』。",
-      "monitorSources": [
-        {
-          "id": "fb_kelvinleungsh",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/kelvinleungsh",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_sorhei",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "sorhei",
-          "profileUrl": "https://www.instagram.com/sorhei/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_sorhei",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "sorhei",
-          "profileUrl": "https://www.instagram.com/sorhei/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sorhei/story/0"
-        },
-        {
-          "id": "yt_kelvinleungharmonica",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@KelvinLeungharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-90",
       "name": "藍波口琴教室",
       "nameEn": "Bluebo Harmonica",
@@ -6080,90 +6164,6 @@
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/TaipeiYellowstoneHarmonicaEnsemble",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-181",
-      "name": "Harmonica FEN 口琴節與學院",
-      "nameEn": "Harmonica FEN Festival & Academy",
-      "category": "活動資訊",
-      "type": "活動/教育入口",
-      "country": "德國",
-      "region": "德國/柏林",
-      "cityOrFocus": "柏林口琴節/Academy/演奏會/工作坊/Open Stage",
-      "structuredSummary": "柏林口琴節/Academy/演奏會/工作坊/Open Stage / 口琴/半音階/十孔/跨界 / 國際活動/教育來源",
-      "summary": "德國的國際活動與教育來源，涵蓋柏林口琴節、Academy、演奏會、工作坊與Open Stage。",
-      "keywords": "Harmonica FEN Festival Academy Berlin harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica-fen-festival.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonicafenfestival"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/harmonica_fen_festival/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-21T19:28:35+00:00",
-      "latestUpdateLocal": "2026-06-22 03:28",
-      "latestUpdateSource": "Harmonica FEN 口琴節與學院",
-      "latestUpdateUrl": "https://www.instagram.com/p/DZt4UJWofOt/",
-      "avatarUrl": "/assets/source-avatars/93a3e78c4a746305a908.webp",
-      "sourceInitials": "HF",
-      "sourceTags": [
-        "口琴",
-        "活動資訊",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonicafenfestival",
-          "name": "Harmonica FEN 口琴節與學院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonicafenfestival",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_harmonica_fen_festival",
-          "name": "Harmonica FEN 口琴節與學院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "harmonica_fen_festival",
-          "profileUrl": "https://www.instagram.com/harmonica_fen_festival/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_harmonica_fen_festival",
-          "name": "Harmonica FEN 口琴節與學院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "harmonica_fen_festival",
-          "profileUrl": "https://www.instagram.com/harmonica_fen_festival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_fen_festival/story/0"
-        },
-        {
-          "id": "yt_uctti8xh0v4dgrgp7hz68bww",
-          "name": "Harmonica FEN 口琴節與學院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw",
           "feedUrl": ""
         }
       ]
