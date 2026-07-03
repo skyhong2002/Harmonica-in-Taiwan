@@ -1022,6 +1022,44 @@ def render_entry_card_html(entry: dict[str, Any]) -> str:
 """
 
 
+def format_source_item_list_json_ld(entries: list[dict[str, Any]]) -> str:
+    item_list = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "口琴公開來源索引",
+        "description": "臺灣與海外口琴社團、樂團、演奏者、教學、場館與公開社群來源索引。",
+        "url": "https://harmonica.observe.tw/post/source/",
+        "numberOfItems": len(entries),
+        "itemListElement": [],
+    }
+    for index, entry in enumerate(entries, start=1):
+        slug = make_slug(entry)
+        item = {
+            "@type": "ListItem",
+            "position": index,
+            "name": clean(entry.get("name")),
+            "url": f"https://harmonica.observe.tw/source/{slug}/",
+        }
+        description = clean(entry.get("summary") or entry.get("sourceSummary") or entry.get("type"))
+        if description:
+            item["description"] = description
+        item_list["itemListElement"].append(item)
+    json_ld = json.dumps(item_list, ensure_ascii=False, indent=2)
+    return f"""    <script type="application/ld+json" data-generated="source-item-list">
+{json_ld}
+    </script>"""
+
+
+def format_static_directory_cards(entries: list[dict[str, Any]]) -> str:
+    cards = "".join(render_entry_card_html(entry) for entry in entries)
+    cards = "\n".join(line.rstrip() for line in cards.splitlines())
+    return f"""
+            <!-- DIRECTORY_STATIC_START -->
+{cards}
+            <!-- DIRECTORY_STATIC_END -->
+"""
+
+
 def format_score_sources_table(score_sources: list[dict[str, Any]]) -> str:
     rows = []
     for item in score_sources:
@@ -1195,14 +1233,20 @@ def update_core_pages(
 
             if rel_path == "post/source/index.html":
                 content = re.sub(
-                    r'\n\s*<script type="application/ld\+json">\s*\{\s*"@context": "https://schema\.org",\s*"@type": "ItemList",\s*"name": "口琴公開來源索引",.*?\}\s*</script>',
+                    r'\n\s*<script type="application/ld\+json"[^>]*data-generated="source-item-list"[^>]*>.*?</script>',
                     "",
                     content,
                     flags=re.DOTALL,
                 )
+                source_item_list_script = format_source_item_list_json_ld(entries)
+                content = content.replace(
+                    '    <link rel="icon" href="/assets/favicon-20260623.svg?v=20260628-0342" type="image/svg+xml">',
+                    f'{source_item_list_script}\n    <link rel="icon" href="/assets/favicon-20260623.svg?v=20260628-0342" type="image/svg+xml">',
+                    1,
+                )
                 content = re.sub(
-                    r'(<div class="directory-grid" id="directory-list">).*?(</div>)',
-                    r'\1\2',
+                    r'(<div class="directory-grid" id="directory-list">)(?:\s*<!-- DIRECTORY_STATIC_START -->.*?<!-- DIRECTORY_STATIC_END -->\s*)?(</div>)',
+                    rf'\g<1>{format_static_directory_cards(entries)}\g<2>',
                     content,
                     flags=re.DOTALL,
                 )
