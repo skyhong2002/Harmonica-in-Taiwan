@@ -1005,19 +1005,27 @@
   function sourceIdentity(item, avatarClass = "source-avatar", metaClass = "feed-latest-meta") {
     const source = item.source || "公開來源";
     const platform = item.platform_label || item.platform || "public";
-    const body = `
-      ${sourceAvatar(item, avatarClass)}
+    const watchlistId = item.directory_entry_id;
+    const watchlistUrl = watchlistId ? `/source/${escapeHtml(watchlistId)}/` : "";
+    const profileUrl = sourceProfileUrl(item);
+    const fallbackUrl = watchlistUrl || profileUrl || "";
+
+    const avatarHtml = sourceAvatar(item, avatarClass);
+    const avatarWrapped = fallbackUrl
+      ? `<a class="source-avatar-link" href="${escapeHtml(fallbackUrl)}" ${watchlistUrl ? "" : 'target="_blank" rel="noreferrer"'} aria-label="查看 ${escapeHtml(source)}">${avatarHtml}</a>`
+      : avatarHtml;
+
+    const nameHtml = `<strong>${escapeHtml(source)}</strong>`;
+    const nameWrapped = fallbackUrl
+      ? `<a class="source-name-link" href="${escapeHtml(fallbackUrl)}" ${watchlistUrl ? "" : 'target="_blank" rel="noreferrer"'} style="color: inherit; text-decoration: none;">${nameHtml}</a>`
+      : nameHtml;
+
+    return `
+      ${avatarWrapped}
       <div>
         <span class="${metaClass}">${escapeHtml(item.posted_at_local || "未標示")} · ${escapeHtml(platform)}</span>
-        <strong>${escapeHtml(source)}</strong>
+        ${nameWrapped}
       </div>
-    `;
-    const profileUrl = sourceProfileUrl(item);
-    if (!profileUrl) return body;
-    return `
-      <a class="source-identity-link" href="${escapeHtml(profileUrl)}" target="_blank" rel="noreferrer" aria-label="開啟 ${escapeHtml(source)} 個人首頁">
-        ${body}
-      </a>
     `;
   }
 
@@ -1075,12 +1083,21 @@
   function feedPlatformBadge(item) {
     const key = feedPlatformBadgeKey(item);
     const label = feedPlatformBadgeLabels[key] || sourcePlatformLabel(item.platform_label || item.platform || key);
-    return `
+    const profileUrl = sourceProfileUrl(item);
+    const badgeHtml = `
       <span class="platform-badge platform-badge-${escapeHtml(key)}" role="img" aria-label="${escapeHtml(label)}" title="${escapeHtml(label)}">
         ${platformIconSvg(key)}
         <span class="sr-only">${escapeHtml(label)}</span>
       </span>
     `;
+    if (profileUrl) {
+      return `
+        <a class="platform-badge-link" href="${escapeHtml(profileUrl)}" target="_blank" rel="noreferrer" aria-label="開啟 ${escapeHtml(label)} 個人首頁">
+          ${badgeHtml}
+        </a>
+      `;
+    }
+    return badgeHtml;
   }
 
   function feedTagChip(tag) {
@@ -1110,7 +1127,7 @@
     const showTags = options.showTags !== false;
     const displayTitle = homepageDisplayTitle(item);
     const thumb = item.image_url
-      ? `<span class="home-feed-thumb"><img src="${escapeHtml(item.image_url)}" alt="" loading="lazy" referrerpolicy="no-referrer"></span>`
+      ? `<a class="home-feed-thumb" href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer" aria-label="查看貼文來源"><img src="${escapeHtml(item.image_url)}" alt="" loading="lazy" referrerpolicy="no-referrer"></a>`
       : "";
     const bodyClass = [
       "home-feed-body",
@@ -1990,6 +2007,21 @@
     }
     bindFeedFilters();
     updateFeedImageOrientation();
+  }
+
+  function bindFeedResize() {
+    if (!latestFeedGrid) return;
+    let resizeTimer = 0;
+    window.addEventListener("resize", () => {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        const river = latestFeedGrid.querySelector(".feed-river");
+        if (!river) return;
+        if (feedColumnCount(river) !== feedState.columnCount) {
+          renderLatestFeeds();
+        }
+      }, 100);
+    });
   }
 
   function keysMatchFilter(keys, filter) {
@@ -3449,6 +3481,7 @@
     bindDirectoryHashtags();
     bindFeedTextToggles();
     bindHomeStoryScroll();
+    bindFeedResize();
 
     renderHomepageStories();
     renderLatestFeeds();
