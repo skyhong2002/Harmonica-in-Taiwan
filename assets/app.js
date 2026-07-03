@@ -1505,7 +1505,7 @@
       return map;
     }, new Map());
     const days = monthCalendarDays(monthAnchor);
-    const upcoming = events.filter((event) => publicCalendarDateKey(event) >= todayKey).slice(0, 8);
+    const upcoming = events.filter((event) => publicCalendarDateKey(event) >= todayKey).slice(0, 30);
     publicCalendarWidget.innerHTML = `
       <div class="public-calendar-panel">
         <div class="public-calendar-toolbar">
