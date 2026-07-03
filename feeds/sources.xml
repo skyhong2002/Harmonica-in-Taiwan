@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 03 Jul 2026 11:15:49 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 12:06:23 +0000</lastBuildDate>
     <item>
       <title>Rodrigo Eberienos</title>
       <link>https://www.facebook.com/rodrigoeberienos/</link>
@@ -38,6 +38,17 @@ Tag：場館、場館平台、活動資訊、音樂會、演出
 國家：臺灣
 地區：臺灣/高雄
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>Harmonica FEN 口琴節與學院</title>
+      <link>https://harmonica-fen-festival.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/b9d265ee651e1480</guid>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：口琴、活動資訊、半音階、十孔、國際交流
+國家：德國
+地區：德國/柏林
+德國的國際活動與教育來源，涵蓋柏林口琴節、Academy、演奏會、工作坊與Open Stage。</description>
     </item>
     <item>
       <title>新加坡青年節藝術展演（口琴）</title>
@@ -95,6 +106,17 @@ Tag：演奏者、教學、重奏
 臺灣的重奏與教學演出人員與教學者，活動脈絡包含天狼星、Laelaps與演出。</description>
     </item>
     <item>
+      <title>山下伶 Rei Yamashita</title>
+      <link>https://rei-yamashita.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：口琴、演奏者、半音階、國際交流
+國家：日本
+地區：日本
+日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
+    </item>
+    <item>
       <title>Antonio Serrano</title>
       <link>https://www.hohner.de/en/antonio-serrano</link>
       <guid>https://harmonica.observe.tw/feeds/sources/93cfaa5dee8acf42</guid>
@@ -137,17 +159,6 @@ Tag：口琴、演奏者
 國家：臺灣
 地區：臺灣
 臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。</description>
-    </item>
-    <item>
-      <title>山下伶 Rei Yamashita</title>
-      <link>https://rei-yamashita.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：口琴、演奏者、半音階、國際交流
-國家：日本
-地區：日本
-日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
     </item>
     <item>
       <title>Marcos Coll</title>
@@ -357,17 +368,6 @@ Tag：場館平台、活動資訊、演出
 國家：臺灣
 地區：臺灣/臺中
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
-    </item>
-    <item>
-      <title>Harmonica FEN 口琴節與學院</title>
-      <link>https://harmonica-fen-festival.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/b9d265ee651e1480</guid>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：口琴、活動資訊、半音階、十孔、國際交流
-國家：德國
-地區：德國/柏林
-德國的國際活動與教育來源，涵蓋柏林口琴節、Academy、演奏會、工作坊與Open Stage。</description>
     </item>
     <item>
       <title>臺灣口琴音樂節 THMF</title>

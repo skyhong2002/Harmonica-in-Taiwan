@@ -1,11 +1,11 @@
 {
   "calendarId": "4c80e43dc069b1ded7c42183a377c20cb2f675e71e8a627b57b883de83d3a219@group.calendar.google.com",
-  "created": 1,
+  "created": 0,
   "deleted": 0,
-  "generatedAt": "2026-07-03T11:13:38.277712+00:00",
+  "generatedAt": "2026-07-03T12:06:24.078672+00:00",
   "kept": 3,
   "message": "Google Calendar sync completed.",
   "status": "ok",
-  "updated": 2,
+  "updated": 3,
   "version": 1
 }
