@@ -38,6 +38,7 @@ REQUIRED_FILES = [
     FEEDS_DIR / "sources.xml",
     SITE_ROOT / "index.html",
     SITE_ROOT / "scores" / "index.html",
+    SITE_ROOT / "scores" / "sources" / "index.html",
     SITE_ROOT / "score-sources" / "index.html",
     SITE_ROOT / "status" / "index.html",
 ]
@@ -118,6 +119,7 @@ def asset_reference_files() -> list[Path]:
     paths.extend([
         SITE_ROOT / "index.html",
         SITE_ROOT / "scores" / "index.html",
+        SITE_ROOT / "scores" / "sources" / "index.html",
         SITE_ROOT / "score-sources" / "index.html",
         SITE_ROOT / "status" / "index.html",
     ])

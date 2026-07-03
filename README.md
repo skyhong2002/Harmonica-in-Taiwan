@@ -15,7 +15,7 @@
 - 網站首頁：`https://harmonica.observe.tw/`
 - 資料索引：`https://harmonica.observe.tw/directory/`
 - 比賽指定曲：`https://harmonica.observe.tw/scores/`
-- 口琴譜源：`https://harmonica.observe.tw/score-sources/`
+- 口琴譜源：`https://harmonica.observe.tw/scores/sources/`
 - 資料回報：`https://harmonica.observe.tw/submit/`
 - RSS 分類入口：`https://harmonica.observe.tw/feeds/`
 - 公開 API：`https://harmonica.observe.tw/api/*.json`
@@ -36,8 +36,8 @@
 │   ├── data/                    # 前端讀取的 JS data bundle（不進 git）
 │   ├── directory/               # 資料索引頁
 │   ├── feeds/                   # RSS、分類頁與分類 JSON（不進 git）
-│   ├── score-sources/           # 口琴譜源索引頁
-│   ├── scores/                  # 學生音樂比賽指定曲索引頁
+│   ├── score-sources/           # 舊口琴譜源路徑轉址
+│   ├── scores/                  # 學生音樂比賽指定曲索引頁；sources/ 為口琴譜源索引頁
 │   └── submit/                  # 資料回報頁
 ├── state/                       # 本機執行狀態與分類快取（不進 git）
 ├── .github/ISSUE_TEMPLATE/      # 公開資料回報 issue form
