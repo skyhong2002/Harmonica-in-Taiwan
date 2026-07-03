@@ -1025,6 +1025,7 @@
   function sourceIdentity(item, avatarClass = "source-avatar", metaClass = "feed-latest-meta") {
     const source = item.source || "公開來源";
     const platform = item.platform_label || item.platform || "public";
+    const watchlistId = item.directory_entry_id || item.directoryEntryId || "";
     const entry = entryById(watchlistId);
     const watchlistUrl = entry ? `/source/${escapeHtml(makeSlug(entry))}/` : (watchlistId ? `/source/${escapeHtml(watchlistId)}/` : "");
     const profileUrl = sourceProfileUrl(item);
