@@ -1,0 +1,207 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Harmonica Observe Taiwan//Public Calendar//ZH-TW
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:臺灣口琴公開演出
+X-WR-TIMEZONE:Asia/Taipei
+BEGIN:VEVENT
+UID:ac3e0c7061b540b4@harmonica.observe.tw
+DTSTAMP:20260703T103012Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:山下伶 Rei Yamashita｜11年ぶりの熊野ライブ、ありが
+ とうございました！✨
+LOCATION:も満席で、皆さ…
+DESCRIPTION:由公開貼文文字自動抽取，請以來源連結為準。
+ \\n來源：https://www.instagram.com/p/DZ9ndUzky3s/
+URL:https://www.instagram.com/p/DZ9ndUzky3s/
+END:VEVENT
+BEGIN:VEVENT
+UID:8a30baf66be8cfa9@harmonica.observe.tw
+DTSTAMP:20260703T103012Z
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
+SUMMARY:RedBricks Harmonica｜《紅磚的口琴之旅》
+LOCATION:地點: 香港故宮文化博物館2樓南中庭
+DESCRIPTION:由公開貼文文字自動抽取，請以來源連結為準。
+ \\n來源：https://www.facebook.com/redbricksharmonica/posts/pfbid0uhGecm
+ NrYQPvPPv5k3L9w2kWicUZMvn53QFGnzbyxXQ52jbXTJWZ297gfrwrfzy1l
+URL:https://www.facebook.com/redbricksharmonica/posts/pfbid0uhGecmNrYQPvPPv
+ 5k3L9w2kWicUZMvn53QFGnzbyxXQ52jbXTJWZ297gfrwrfzy1l
+END:VEVENT
+BEGIN:VEVENT
+UID:9600a8e356a901c1@harmonica.observe.tw
+DTSTAMP:20260703T103012Z
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
+SUMMARY:山下伶 Rei Yamashita｜〝アラスカ〟に引き続き〝熊
+ 野〟と、大自然からたっぷりパワーをいただき、めち
+ ゃくちゃや
+LOCATION:でお会いできるのを、いまから本当に楽しみにし
+ ています！🥰
+DESCRIPTION:由公開貼文文字自動抽取，請以來源連結為準。
+ \\n來源：https://www.instagram.com/p/DZMzyqWk1tn/
+URL:https://www.instagram.com/p/DZMzyqWk1tn/
+END:VEVENT
+BEGIN:VEVENT
+UID:e000057d85c39cc6@harmonica.observe.tw
+DTSTAMP:20260703T103012Z
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
+SUMMARY:山下伶 Rei Yamashita｜いよいよ今週末となりました
+ ！ 恵比寿BLUE NOTE PLACEでのメジャーデビュ
+LOCATION:でお会いしましょう！🕊️ BLUE NOTE PLACE（ブルー
+ ノート・プレイス）: <New
+DESCRIPTION:由公開貼文文字自動抽取，請以來源連結為準。
+ \\n來源：https://x.com/rei_harmonica/status/2071552888007008717
+URL:https://x.com/rei_harmonica/status/2071552888007008717
+END:VEVENT
+BEGIN:VEVENT
+UID:1534d5fa50c2fde9@harmonica.observe.tw
+DTSTAMP:20260703T103012Z
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
+SUMMARY:山下伶 Rei Yamashita｜今日から7月✨
+LOCATION:でお会いできるのを心よりお待ちしております‼
+ ︎
+DESCRIPTION:由公開貼文文字自動抽取，請以來源連結為準。
+ \\n來源：https://www.instagram.com/p/DaQA2cJzkP6/
+URL:https://www.instagram.com/p/DaQA2cJzkP6/
+END:VEVENT
+BEGIN:VEVENT
+UID:a4fcc1e354c262ca@harmonica.observe.tw
+DTSTAMP:20260703T103012Z
+DTSTART;TZID=Asia/Taipei:20260704T180000
+DTEND;TZID=Asia/Taipei:20260704T200000
+SUMMARY:山下伶 Rei Yamashita｜【7/4(土)はBLUE NOTE PLACE‼️】
+LOCATION:恵比寿 BLUE NOTE PLACE
+DESCRIPTION:由公開貼文文字自動抽取，請以來源連結為準。
+ \\n來源：https://www.instagram.com/p/DaHBOCQk271/
+URL:https://www.instagram.com/p/DaHBOCQk271/
+END:VEVENT
+BEGIN:VEVENT
+UID:3537f88ae0d7195a@harmonica.observe.tw
+DTSTAMP:20260703T103012Z
+DTSTART;TZID=Asia/Taipei:20260705T130000
+DTEND;TZID=Asia/Taipei:20260705T150000
+SUMMARY:南里沙｜✨今週末です✨2026年7月5日(日)愛知・名
+ 古屋アーク栄サロンホールでコンサート開
+DESCRIPTION:由公開貼文文字自動抽取，請以來源連結為準。
+ \\n來源：https://www.facebook.com/minamirisa/posts/pfbid02cGXzWg5j8KdLS
+ RB9zD6uAmD6eNupYqMuZmsmz5w7p31KMAhRwDbwshYLEw5oVHfvl
+URL:https://www.facebook.com/minamirisa/posts/pfbid02cGXzWg5j8KdLSRB9zD6uAm
+ D6eNupYqMuZmsmz5w7p31KMAhRwDbwshYLEw5oVHfvl
+END:VEVENT
+BEGIN:VEVENT
+UID:dde2da29917d141e@harmonica.observe.tw
+DTSTAMP:20260703T103012Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:南里沙｜今夜は160回 RJマンスリーライブ、楽しい
+ 時間はあっという間
+DESCRIPTION:由公開貼文文字自動抽取，請以來源連結為準。
+ \\n來源：https://www.facebook.com/minamirisa/posts/pfbid02bqxbuC9dXVzCs
+ csnHxwfLeYFtHi1ZsXz9hqXtwUGJAn79SzgScBfb93p7o4KKhpnl
+URL:https://www.facebook.com/minamirisa/posts/pfbid02bqxbuC9dXVzCscsnHxwfLe
+ YFtHi1ZsXz9hqXtwUGJAn79SzgScBfb93p7o4KKhpnl
+END:VEVENT
+BEGIN:VEVENT
+UID:88fb7911620b72be@harmonica.observe.tw
+DTSTAMP:20260703T103012Z
+DTSTART;TZID=Asia/Taipei:20260718T193000
+DTEND;TZID=Asia/Taipei:20260718T213000
+SUMMARY:Yora｜《雨夜花》
+LOCATION:地點：臺北生技園區 多功能廳
+DESCRIPTION:由公開貼文文字自動抽取，請以來源連結為準。
+ \\n來源：https://www.youtube.com/watch?v=PA11sSFkJeA
+URL:https://www.youtube.com/watch?v=PA11sSFkJeA
+END:VEVENT
+BEGIN:VEVENT
+UID:2095225cb65f2234@harmonica.observe.tw
+DTSTAMP:20260703T103012Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+SUMMARY:口琴愛好者協會（新加坡）｜《You Raise Me Up》
+DESCRIPTION:由公開貼文文字自動抽取，請以來源連結為準。
+ \\n來源：https://www.facebook.com/reel/1017670477406300/
+URL:https://www.facebook.com/reel/1017670477406300/
+END:VEVENT
+BEGIN:VEVENT
+UID:60e59092c6bf2ac3@harmonica.observe.tw
+DTSTAMP:20260703T103012Z
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
+SUMMARY:山下伶 Rei Yamashita｜〝アラスカ〟に引き続き〝熊
+ 野〟と、大自然からたっぷりパワーをいただき、めち
+ ゃくちゃや
+LOCATION:でお会いできるのを、いまから本当に楽しみにし
+ ています！🥰
+DESCRIPTION:由公開貼文文字自動抽取，請以來源連結為準。
+ \\n來源：https://www.instagram.com/p/DZMzyqWk1tn/
+URL:https://www.instagram.com/p/DZMzyqWk1tn/
+END:VEVENT
+BEGIN:VEVENT
+UID:a2cccc09941b58be@harmonica.observe.tw
+DTSTAMP:20260703T103012Z
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
+SUMMARY:山下伶 Rei Yamashita｜今日から7月✨
+LOCATION:でお会いできるのを心よりお待ちしております‼
+ ︎
+DESCRIPTION:由公開貼文文字自動抽取，請以來源連結為準。
+ \\n來源：https://www.instagram.com/p/DaQA2cJzkP6/
+URL:https://www.instagram.com/p/DaQA2cJzkP6/
+END:VEVENT
+BEGIN:VEVENT
+UID:18d25a2e52135c48@harmonica.observe.tw
+DTSTAMP:20260703T103012Z
+DTSTART;TZID=Asia/Taipei:20260725T180000
+DTEND;TZID=Asia/Taipei:20260725T200000
+SUMMARY:山下伶 Rei Yamashita｜【7/4(土)はBLUE NOTE PLACE‼️】
+LOCATION:恵比寿 BLUE NOTE PLACE
+DESCRIPTION:由公開貼文文字自動抽取，請以來源連結為準。
+ \\n來源：https://www.instagram.com/p/DaHBOCQk271/
+URL:https://www.instagram.com/p/DaHBOCQk271/
+END:VEVENT
+BEGIN:VEVENT
+UID:d0ad3cb28df70b2e@harmonica.observe.tw
+DTSTAMP:20260703T103012Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260810
+SUMMARY:臺灣口琴音樂節 THMF｜📌2026 臺灣口琴音樂節即將
+ 於 8 月 7 日至 8 月 9 日，在國立陽明交通大
+DESCRIPTION:由公開貼文文字自動抽取，請以來源連結為準。
+ \\n來源：https://www.facebook.com/twharmonica/posts/pfbid07CLAcEbSrP9wr
+ HocyXC7ZaUS2ERQAN75Sh3fPjM835wmjAokvbtWrRP7Wkh5mdGal
+URL:https://www.facebook.com/twharmonica/posts/pfbid07CLAcEbSrP9wrHocyXC7Za
+ US2ERQAN75Sh3fPjM835wmjAokvbtWrRP7Wkh5mdGal
+END:VEVENT
+BEGIN:VEVENT
+UID:4b7c24f5e4469879@harmonica.observe.tw
+DTSTAMP:20260703T103012Z
+DTSTART;TZID=Asia/Taipei:20260822T131500
+DTEND;TZID=Asia/Taipei:20260822T151500
+SUMMARY:南里沙｜クロマチックハーモニカの魅力をもっと
+ 身近に感じていただきたいという想いからスタートし
+LOCATION:田園調布ピアノサロンNOAH
+DESCRIPTION:由公開貼文文字自動抽取，請以來源連結為準。
+ \\n來源：https://www.facebook.com/minamirisa/posts/pfbid02Xx1AssbvjKU8D
+ WtGxFnBKXrVEBpyjdUt2THJcrtjYrKfMfi5c8QJzYUV93EeacNMl
+URL:https://www.facebook.com/minamirisa/posts/pfbid02Xx1AssbvjKU8DWtGxFnBKX
+ rVEBpyjdUt2THJcrtjYrKfMfi5c8QJzYUV93EeacNMl
+END:VEVENT
+BEGIN:VEVENT
+UID:3653ed9f8126052b@harmonica.observe.tw
+DTSTAMP:20260703T103012Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:香港中華基督教青年會口琴樂團｜《梁祝協奏曲》
+DESCRIPTION:由公開貼文文字自動抽取，請以來源連結為準。
+ \\n來源：https://www.facebook.com/permalink.php?story_fbid=pfbid0XyXz1d
+ zEgMU8M8VBANNFto3KpSgMABzVN88vyzsYwZLzTf5onnVmNm1tKx5uuobbl&id=10005725537
+ 8181
+URL:https://www.facebook.com/permalink.php?story_fbid=pfbid0XyXz1dzEgMU8M8V
+ BANNFto3KpSgMABzVN88vyzsYwZLzTf5onnVmNm1tKx5uuobbl&id=100057255378181
+END:VEVENT
+END:VCALENDAR
