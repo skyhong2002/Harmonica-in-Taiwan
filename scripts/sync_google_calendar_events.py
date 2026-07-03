@@ -56,18 +56,17 @@ def load_events() -> list[dict[str, Any]]:
 
 
 def event_resource(event: dict[str, Any]) -> dict[str, Any]:
+    description_parts = [
+        f"活動名稱：{event.get('eventName') or event.get('title')}" if event.get("eventName") or event.get("title") else "",
+        f"時間：{event_time_label(event)}",
+        f"地點：{event.get('location')}" if event.get("location") else "",
+        f"相關資訊：{event.get('details')}" if event.get("details") else "",
+        f"來源：{event.get('evidenceUrl')}" if event.get("evidenceUrl") else "",
+    ]
     body: dict[str, Any] = {
-        "summary": event.get("title") or event.get("source") or "公開口琴活動",
+        "summary": event.get("eventName") or event.get("title") or "公開口琴活動",
         "location": event.get("location") or "",
-        "description": "\n".join(
-            part
-            for part in [
-                str(event.get("note") or "由公開貼文文字自動抽取，請以來源連結為準。"),
-                f"來源：{event.get('evidenceUrl')}" if event.get("evidenceUrl") else "",
-                f"貼文時間：{event.get('postedAt')}" if event.get("postedAt") else "",
-            ]
-            if part
-        ),
+        "description": "\n".join(part for part in description_parts if part),
         "source": {"title": "臺灣口琴觀測站", "url": event.get("evidenceUrl") or "https://harmonica.observe.tw/"},
         "extendedProperties": {
             "private": {
@@ -85,6 +84,26 @@ def event_resource(event: dict[str, Any]) -> dict[str, Any]:
     if event.get("evidenceUrl"):
         body["attachments"] = []
     return body
+
+
+def event_time_label(event: dict[str, Any]) -> str:
+    start = str(event.get("start") or "")
+    end = str(event.get("end") or "")
+    if not start:
+        return ""
+    if event.get("allDay"):
+        if not end or end[:10] == start[:10]:
+            return start[:10]
+        try:
+            inclusive_end = dt.date.fromisoformat(end[:10]) - dt.timedelta(days=1)
+        except ValueError:
+            return f"{start[:10]} - {end[:10]}"
+        return start[:10] if inclusive_end.isoformat() == start[:10] else f"{start[:10]} - {inclusive_end.isoformat()}"
+    try:
+        parsed = dt.datetime.fromisoformat(start)
+    except ValueError:
+        return start
+    return parsed.astimezone(dt.timezone(dt.timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
 
 
 def load_credentials(token_path: Path):

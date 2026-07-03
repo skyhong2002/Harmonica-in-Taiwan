@@ -4,11 +4,16 @@
 from __future__ import annotations
 
 import datetime as dt
+import argparse
 import hashlib
 import json
 import re
+import os
+import sys
 from pathlib import Path
 from typing import Any
+
+import social_feed_watchdog as watchdog
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -22,6 +27,7 @@ JS_PATH = DATA_DIR / "public-calendar-events.js"
 ICS_PATH = FEEDS_DIR / "public-calendar.ics"
 TIMEZONE = "Asia/Taipei"
 TAIWAN_TZ = dt.timezone(dt.timedelta(hours=8))
+DEFAULT_LLM_CACHE = PROJECT_ROOT / "state" / "public_calendar_llm_events.json"
 
 HARMONICA_TERMS = [
     "口琴",
@@ -64,6 +70,26 @@ MONTH_DAY_RE = re.compile(r"(?<!\d)(?P<month>\d{1,2})\s*(?:月|[./])\s*(?P<day>\
 COMPACT_RANGE_RE = re.compile(r"(?<!\d)(?P<year>\d{2})(?P<month>\d{2})(?P<day>\d{2})\s*[-~〜]\s*(?P<end_month>\d{2})(?P<end_day>\d{2})(?!\d)")
 TIME_RE = re.compile(r"(?<!\d)(?P<hour>[01]?\d|2[0-3])[:：](?P<minute>[0-5]\d)(?!\d)")
 LOCATION_RE = re.compile(r"(?:地點|地点|場地|會場|会場|場所|上課地點|活動地點|📍)\s*[｜|:：]?\s*(?P<place>[^\n。；;，,]{2,48})")
+TAIWAN_PLACE_RE = re.compile(
+    r"台灣|臺灣|台北|臺北|新北|基隆|桃園|新竹|苗栗|台中|臺中|彰化|南投|雲林|嘉義|台南|臺南|高雄|屏東|宜蘭|花蓮|台東|臺東|澎湖|金門|馬祖|陽明交通大學|陽明交大|衛武營|武陵|臺北生技園區|台北生技園區"
+)
+OVERSEAS_PLACE_RE = re.compile(
+    r"日本|東京|東京都|大阪|和歌山|名古屋|香港|新加坡|Singapore|Japan|Tokyo|Osaka|Hong Kong|Malaysia|馬來西亞|恵比寿|BLUE NOTE PLACE|アーク栄"
+)
+
+
+def load_dotenv(path: Path) -> None:
+    if not path.exists():
+        return
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        key = key.strip()
+        value = value.strip().strip('"').strip("'")
+        if key and key not in os.environ:
+            os.environ[key] = value
 
 
 def parse_datetime(value: Any) -> dt.datetime | None:
@@ -161,6 +187,157 @@ def event_title(item: dict[str, Any]) -> str:
     return core or source or "公開口琴活動"
 
 
+def compact_for_llm(text: str, limit: int = 2200) -> str:
+    cleaned = re.sub(r"\s+", " ", str(text or "")).strip()
+    if len(cleaned) <= limit:
+        return cleaned
+    return cleaned[: limit - 1].rstrip() + "…"
+
+
+def load_json(path: Path, default: dict[str, Any]) -> dict[str, Any]:
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return default
+    return data if isinstance(data, dict) else default
+
+
+def save_json(path: Path, data: dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    tmp.replace(path)
+
+
+def candidate_fingerprint(item: dict[str, Any], start: str, end: str, context: str) -> str:
+    payload = {
+        "source": item.get("source") or "",
+        "link": item.get("link") or "",
+        "start": start,
+        "end": end,
+        "text": compact_for_llm(str(item.get("text") or item.get("title") or ""), 1200),
+        "context": compact_for_llm(context, 500),
+    }
+    raw = json.dumps(payload, ensure_ascii=False, sort_keys=True)
+    return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+
+
+def normalize_llm_calendar_review(value: dict[str, Any]) -> dict[str, Any]:
+    include = bool(value.get("include"))
+    country = str(value.get("country") or "").strip()
+    event_name = str(value.get("eventName") or "").strip()
+    venue = str(value.get("venue") or "").strip()
+    city = str(value.get("city") or "").strip()
+    details = str(value.get("details") or "").strip()
+    reason = str(value.get("reason") or "").strip()
+    confidence = value.get("confidence")
+    try:
+        confidence_value = max(0.0, min(1.0, float(confidence)))
+    except (TypeError, ValueError):
+        confidence_value = 0.0
+    review_text = f"{country} {event_name} {venue} {city} {details} {reason}"
+    has_overseas_place = bool(OVERSEAS_PLACE_RE.search(review_text)) or bool(re.search(r"非台灣|非臺灣|不在台灣|不在臺灣", reason))
+    is_taiwan = not has_overseas_place and (
+        country in {"台灣", "臺灣", "Taiwan"} or bool(TAIWAN_PLACE_RE.search(f"{venue} {city} {details}"))
+    )
+    if not is_taiwan or confidence_value < 0.5:
+        include = False
+    if include and (not event_name or not venue):
+        include = False
+    return {
+        "include": include,
+        "country": "臺灣" if is_taiwan else country,
+        "eventName": event_name,
+        "venue": venue,
+        "city": city,
+        "details": details,
+        "reason": reason,
+        "confidence": round(confidence_value, 3),
+    }
+
+
+def llm_calendar_prompt(item: dict[str, Any], start: str, end: str, context: str) -> list[dict[str, str]]:
+    payload = {
+        "source": item.get("source") or "",
+        "platform": item.get("platform") or "",
+        "postedAt": item.get("posted_at_local") or item.get("posted_at") or "",
+        "url": item.get("link") or "",
+        "candidateStart": start,
+        "candidateEnd": end,
+        "dateContext": compact_for_llm(context, 700),
+        "text": compact_for_llm(str(item.get("text") or item.get("title") or ""), 2200),
+    }
+    return [
+        {
+            "role": "system",
+            "content": (
+                "你是臺灣口琴觀測站的公開活動日曆審核器。"
+                "只根據公開貼文文字判斷，且只收錄實際舉辦地點在台灣的口琴活動；"
+                "音樂家國籍不限，但活動場地必須在台灣。"
+                "排除海外活動、線上但無台灣實體場地、回顧影片、一般貼文、非口琴活動。"
+                "請只回傳 JSON，不要 Markdown。"
+            ),
+        },
+        {
+            "role": "user",
+            "content": (
+                "請判斷這個候選是否應加入「臺灣口琴公開演出」日曆，並萃取結構化資訊。\n"
+                "JSON schema:\n"
+                "{\n"
+                '  "include": true/false,\n'
+                '  "country": "臺灣 或其他國家/地區",\n'
+                '  "eventName": "活動名稱，不要放主辦帳號或貼文內文摘要",\n'
+                '  "venue": "活動地點/場館名稱，不要放整段內文",\n'
+                '  "city": "縣市，如臺北市/新竹市/高雄市",\n'
+                '  "details": "一到兩句活動相關資訊，例如演出者、票價、報名、場次；不要寫自動抽取說明",\n'
+                '  "confidence": 0.0,\n'
+                '  "reason": "簡短判斷理由"\n'
+                "}\n\n"
+                f"候選資料：{json.dumps(payload, ensure_ascii=False)}"
+            ),
+        },
+    ]
+
+
+def review_candidate_with_llm(
+    item: dict[str, Any],
+    *,
+    start: str,
+    end: str,
+    context: str,
+    cache: dict[str, Any],
+    token: str,
+    base_url: str,
+    model: str,
+    timeout: int,
+    stats: dict[str, int],
+) -> dict[str, Any] | None:
+    fingerprint = candidate_fingerprint(item, start, end, context)
+    cached = ((cache.get("items") or {}).get(fingerprint))
+    if isinstance(cached, dict):
+        stats["cached"] = stats.get("cached", 0) + 1
+        return normalize_llm_calendar_review(cached)
+    if not token:
+        return None
+    body = {
+        "model": model,
+        "messages": llm_calendar_prompt(item, start, end, context),
+        "temperature": 0,
+        "response_format": {"type": "json_object"},
+    }
+    response_body = watchdog.curl_json(watchdog.llm_endpoint(base_url), token, body, timeout)
+    response = json.loads(response_body)
+    parsed = watchdog.extract_json_object(watchdog.chat_response_text(response))
+    normalized = normalize_llm_calendar_review(parsed)
+    items = cache.setdefault("items", {})
+    if isinstance(items, dict):
+        items[fingerprint] = normalized
+        cache["version"] = 1
+        cache["updated_at"] = dt.datetime.now(dt.timezone.utc).isoformat()
+    stats["requests"] = stats.get("requests", 0) + 1
+    return normalized
+
+
 def normalized_event_identity(title: str, source: Any, start: dt.date) -> tuple[str, str, str]:
     compact_title = re.sub(r"\s+", "", title)
     compact_title = re.sub(r"[^\w\u3040-\u30ff\u3400-\u9fff]+", "", compact_title, flags=re.UNICODE)
@@ -217,10 +394,36 @@ def item_key(item: dict[str, Any], start: dt.date) -> str:
     return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:16]
 
 
-def extract_events(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def fallback_calendar_review(item: dict[str, Any], title: str, location: str, text: str) -> dict[str, Any] | None:
+    combined = f"{title} {location} {text}"
+    if not location or not TAIWAN_PLACE_RE.search(combined):
+        return None
+    return {
+        "include": True,
+        "country": "臺灣",
+        "eventName": title,
+        "venue": location,
+        "city": "",
+        "details": "",
+        "reason": "fallback Taiwan place match",
+        "confidence": 0.35,
+    }
+
+
+def extract_events(
+    items: list[dict[str, Any]],
+    *,
+    llm_token: str = "",
+    llm_base_url: str = watchdog.OPENCODE_GO_BASE_URL,
+    llm_model: str = watchdog.DEFAULT_LLM_MODEL,
+    llm_timeout: int = 45,
+    llm_cache: dict[str, Any] | None = None,
+) -> list[dict[str, Any]]:
     events: list[dict[str, Any]] = []
     seen_links_dates: set[tuple[str, str]] = set()
     seen_event_identity: set[tuple[str, str, str]] = set()
+    cache = llm_cache if isinstance(llm_cache, dict) else {"version": 1, "items": {}}
+    llm_stats: dict[str, int] = {"requests": 0, "cached": 0, "errors": 0}
     now_date = dt.datetime.now(TAIWAN_TZ).date()
     min_date = now_date - dt.timedelta(days=2)
     max_date = now_date + dt.timedelta(days=420)
@@ -255,24 +458,56 @@ def extract_events(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
                 end = end_dt.isoformat()
             elif end_date >= start_date:
                 end = (end_date + dt.timedelta(days=1)).isoformat()
+            location = extract_location(text)
+            review: dict[str, Any] | None = None
+            if llm_token:
+                try:
+                    review = review_candidate_with_llm(
+                        item,
+                        start=start,
+                        end=end,
+                        context=context,
+                        cache=cache,
+                        token=llm_token,
+                        base_url=llm_base_url,
+                        model=llm_model,
+                        timeout=llm_timeout,
+                        stats=llm_stats,
+                    )
+                except Exception as exc:
+                    llm_stats["errors"] = llm_stats.get("errors", 0) + 1
+                    print(f"calendar LLM review failed for {link}: {exc}", file=sys.stderr)
+            if review is None:
+                review = fallback_calendar_review(item, title, location, text)
+            if not review or not review.get("include"):
+                continue
+            event_name = str(review.get("eventName") or title).strip()
+            venue = str(review.get("venue") or location).strip()
+            city = str(review.get("city") or "").strip()
+            details = str(review.get("details") or "").strip()
+            display_location = venue if not city or city in venue else f"{city} {venue}"
             events.append(
                 {
                     "id": item_key(item, start_date),
-                    "title": title,
+                    "title": event_name,
+                    "eventName": event_name,
                     "source": item.get("source") or "",
                     "platform": item.get("platform") or "",
                     "start": start,
                     "end": end,
                     "allDay": not bool(time_text),
-                    "location": extract_location(text),
+                    "location": display_location,
+                    "venue": venue,
+                    "city": city,
+                    "details": details,
                     "evidenceUrl": link,
-                    "postedAt": item.get("posted_at_local") or item.get("posted_at") or "",
-                    "confidence": "inferred",
-                    "note": "由公開貼文文字自動抽取，請以來源連結為準。",
+                    "confidence": review.get("confidence") or 0,
+                    "calendarReview": review,
                 }
             )
 
     events.sort(key=lambda row: (row["start"], row["source"], row["title"]))
+    cache["stats"] = llm_stats
     return events
 
 
@@ -333,7 +568,13 @@ def write_ics(events: list[dict[str, Any]], generated_at: str) -> None:
         lines.append(f"SUMMARY:{escape_ics(event['title'])}")
         if event.get("location"):
             lines.append(f"LOCATION:{escape_ics(event['location'])}")
-        description = f"{event.get('note', '')}\\n來源：{event.get('evidenceUrl', '')}".strip()
+        description_parts = [
+            f"活動名稱：{event.get('eventName') or event.get('title')}" if event.get("eventName") or event.get("title") else "",
+            f"地點：{event.get('location')}" if event.get("location") else "",
+            f"相關資訊：{event.get('details')}" if event.get("details") else "",
+            f"來源：{event.get('evidenceUrl')}" if event.get("evidenceUrl") else "",
+        ]
+        description = "\n".join(part for part in description_parts if part).strip()
         lines.append(f"DESCRIPTION:{escape_ics(description)}")
         if event.get("evidenceUrl"):
             lines.append(f"URL:{escape_ics(event['evidenceUrl'])}")
@@ -344,12 +585,36 @@ def write_ics(events: list[dict[str, Any]], generated_at: str) -> None:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--no-llm", action="store_true")
+    parser.add_argument("--llm-cache", type=Path, default=DEFAULT_LLM_CACHE)
+    parser.add_argument("--llm-base-url", default=os.environ.get("HARMONICA_LLM_BASE_URL", watchdog.OPENCODE_GO_BASE_URL))
+    parser.add_argument("--llm-model", default=os.environ.get("HARMONICA_LLM_MODEL", watchdog.DEFAULT_LLM_MODEL))
+    parser.add_argument("--llm-timeout", type=int, default=int(os.environ.get("HARMONICA_LLM_TIMEOUT", "45")))
+    parser.add_argument("--llm-keychain-service", default=os.environ.get("HARMONICA_LLM_KEYCHAIN_SERVICE", "harmonica-opencode-go"))
+    parser.add_argument("--llm-keychain-account", default=os.environ.get("HARMONICA_LLM_KEYCHAIN_ACCOUNT", "harmonica"))
+    args = parser.parse_args()
+    load_dotenv(PROJECT_ROOT / ".env")
     payload = json.loads(SOURCE_PATH.read_text(encoding="utf-8"))
     items = payload.get("items") if isinstance(payload, dict) else []
     if not isinstance(items, list):
         items = []
+    llm_cache = load_json(args.llm_cache, {"version": 1, "items": {}})
+    llm_token = ""
+    llm_token_source = ""
+    if not args.no_llm:
+        llm_token, llm_token_source = watchdog.read_llm_token(args.llm_keychain_service, args.llm_keychain_account)
     generated_at = dt.datetime.now(TAIWAN_TZ).isoformat(timespec="seconds")
-    events = extract_events([item for item in items if isinstance(item, dict)])
+    events = extract_events(
+        [item for item in items if isinstance(item, dict)],
+        llm_token=llm_token,
+        llm_base_url=args.llm_base_url,
+        llm_model=args.llm_model,
+        llm_timeout=args.llm_timeout,
+        llm_cache=llm_cache,
+    )
+    if llm_token:
+        save_json(args.llm_cache, llm_cache)
     output = {
         "version": 1,
         "generatedAt": generated_at,
@@ -358,6 +623,13 @@ def main() -> int:
         "source": "/api/events.json",
         "ics": "/feeds/public-calendar.ics",
         "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
+        "criteria": "只收錄實際舉辦地點在台灣的公開口琴活動；音樂家國籍不限。",
+        "llm": {
+            "enabled": bool(llm_token),
+            "tokenSource": llm_token_source,
+            "model": args.llm_model if llm_token else "",
+            "stats": llm_cache.get("stats") or {},
+        },
         "events": events,
     }
     JSON_PATH.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
