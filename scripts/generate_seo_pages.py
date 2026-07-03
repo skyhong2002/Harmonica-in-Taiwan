@@ -85,14 +85,14 @@ def format_update_card(up: dict[str, Any]) -> str:
     image_url = escape(up.get("image_url") or "")
     avatar_url = escape(up.get("avatar_url") or "")
     initials = escape(up.get("source_initials") or (source[0] if source else "H"))
-    
+
     avatar_html = f'<img src="{avatar_url}" alt="" style="width:100%; height:100%; object-fit:cover;">' if avatar_url else f'<span style="display:flex; align-items:center; justify-content:center; width:100%; height:100%; background:#f0f0f0; color:#666; font-weight:bold; border-radius:50%;">{initials}</span>'
-    
+
     image_html = f'<div style="margin: 0.8rem 0; aspect-ratio: 4/3; overflow:hidden; border-radius: 6px; border: 1px solid var(--border-color, #e0e0e0);"><a href="{link}" target="_blank" rel="noreferrer"><img src="{image_url}" alt="" style="width:100%; height:100%; object-fit:cover;" referrerpolicy="no-referrer"></a></div>' if image_url else ""
-    
+
     display_title = escape(up.get("display_title") or "")
     title_html = f'<h3 style="font-size: 1.1rem; font-weight: 700; margin: 0.5rem 0;">{display_title}</h3>' if display_title else ""
-    
+
     content = text or headline
     if len(content) > 150:
         content = content[:150] + "..."
@@ -132,11 +132,11 @@ def format_score_row(score: dict[str, Any]) -> str:
     arranger = escape(score.get("arranger") or "-")
     publisher = escape(score.get("publisher") or "-")
     note = escape(score.get("notes") or score.get("performanceNote") or "-")
-    
+
     links = score.get("links") or []
     source_link = links[0].get("url") if links else ""
     source_label = links[0].get("label") if links else "來源"
-    
+
     source_html = f'<a href="{escape(source_link)}" target="_blank" rel="noreferrer" style="color: var(--primary, #1a73e8); text-decoration: underline;">{escape(source_label)}</a>' if source_link else '<span style="color:#999;">-</span>'
 
     return f"""
@@ -180,8 +180,14 @@ def format_scores_table(scores: list[dict[str, Any]]) -> str:
     </div>
 """
 
-def generate_source_page(entry: dict[str, Any], entry_updates: list[dict[str, Any]], entry_scores: list[dict[str, Any]]) -> str:
+def generate_source_page(
+    entry: dict[str, Any],
+    entry_updates: list[dict[str, Any]],
+    same_region_sources: list[dict[str, Any]],
+    same_tag_sources: list[dict[str, Any]]
+) -> str:
     entry_id = escape(entry.get("id"))
+    slug = make_slug(entry)
     name = escape(entry.get("name"))
     name_en = escape(entry.get("nameEn"))
     category = escape(entry.get("category"))
@@ -192,35 +198,62 @@ def generate_source_page(entry: dict[str, Any], entry_updates: list[dict[str, An
     summary = escape(entry.get("summary") or entry.get("structuredSummary"))
     avatar_url = clean(entry.get("avatarUrl"))
     initials = escape(entry.get("sourceInitials") or (name[0] if name else "H"))
-    
+
     # JSON-LD
     schema_type = "Organization"
     if category == "演奏者":
         schema_type = "Person"
     elif category in ("學校社團", "樂團", "教學單位", "教學工作室"):
         schema_type = "MusicGroup"
-        
+
     json_ld_dict = {
         "@context": "https://schema.org",
         "@type": schema_type,
         "name": entry.get("name"),
-        "url": f"https://harmonica.observe.tw/source/{entry_id}/",
+        "url": f"https://harmonica.observe.tw/source/{slug}/",
         "description": entry.get("summary") or entry.get("structuredSummary") or ""
     }
     if entry.get("nameEn"):
         json_ld_dict["alternateName"] = entry["nameEn"]
-    
+
     links = entry.get("links") or []
     if links:
         json_ld_dict["sameAs"] = [link["url"] for link in links if link.get("url")]
-        
+
     json_ld = json.dumps(json_ld_dict, ensure_ascii=False, indent=2)
+
+    # Breadcrumb JSON-LD
+    breadcrumb_ld = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "首頁",
+                "item": "https://harmonica.observe.tw/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "公開來源",
+                "item": "https://harmonica.observe.tw/post/source/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": entry.get("name"),
+                "item": f"https://harmonica.observe.tw/source/{slug}/"
+            }
+        ]
+    }
+    json_ld_breadcrumb = json.dumps(breadcrumb_ld, ensure_ascii=False, indent=2)
 
     # Avatar HTML
     if avatar_url:
         avatar_html = f"""<span class="source-avatar entry-avatar" style="width: 80px; height: 80px; font-size: 2rem; margin-right: 1.5rem;">
   <img src="{escape(avatar_url)}" alt="{name} 頭貼" referrerpolicy="no-referrer">
-</span>"""
+ </span>"""
     else:
         avatar_html = f"""<span class="source-avatar entry-avatar source-avatar-fallback" style="width: 80px; height: 80px; font-size: 2rem; margin-right: 1.5rem; display: flex; align-items: center; justify-content: center; background: var(--bg-muted, #f0f0f0); border-radius: 50%; color: var(--text-muted, #666);" aria-hidden="true">{initials}</span>"""
 
@@ -229,13 +262,13 @@ def generate_source_page(entry: dict[str, Any], entry_updates: list[dict[str, An
     country_row = f'<tr><th scope="row" style="padding: 10px; text-align: left; font-weight: bold; border-bottom: 1px solid var(--border-color, #e0e0e0);">國家</th><td style="padding: 10px; border-bottom: 1px solid var(--border-color, #e0e0e0);">{country}</td></tr>' if country else ""
     region_row = f'<tr><th scope="row" style="padding: 10px; text-align: left; font-weight: bold; border-bottom: 1px solid var(--border-color, #e0e0e0);">地區</th><td style="padding: 10px; border-bottom: 1px solid var(--border-color, #e0e0e0);">{region}</td></tr>' if region and region != country else ""
     city_row = f'<tr><th scope="row" style="padding: 10px; text-align: left; font-weight: bold; border-bottom: 1px solid var(--border-color, #e0e0e0);">城市 / 焦點</th><td style="padding: 10px; border-bottom: 1px solid var(--border-color, #e0e0e0);">{city_focus}</td></tr>' if city_focus else ""
-    
+
     tags = entry.get("sourceTags") or []
     tags_row = ""
     if tags:
         tag_pills = " ".join(f'<span class="source-tag-pill" style="display: inline-block; padding: 2px 8px; margin: 2px; font-size: 0.85rem; background: var(--tag-bg, #e8f0fe); color: var(--tag-text, #1a73e8); border-radius: 4px;">#{escape(t)}</span>' for t in tags)
         tags_row = f'<tr><th scope="row" style="padding: 10px; text-align: left; font-weight: bold; border-bottom: 1px solid var(--border-color, #e0e0e0);">標籤</th><td style="padding: 10px; border-bottom: 1px solid var(--border-color, #e0e0e0);">{tag_pills}</td></tr>'
-        
+
     aliases = entry.get("aliases") or []
     aliases_row = ""
     if aliases:
@@ -265,13 +298,34 @@ def generate_source_page(entry: dict[str, Any], entry_updates: list[dict[str, An
             </div>
 """
 
-    # Related Scores Section
-    scores_html = ""
-    if entry_scores:
-        scores_table = format_scores_table(entry_scores)
-        scores_html = f"""
-            <h2 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid var(--primary, #1a73e8); padding-bottom: 0.5rem; margin-top: 2.5rem; margin-bottom: 1.5rem;">相關比賽指定曲曲目</h2>
-            {scores_table}
+    # Related Region Sources HTML
+    region_links = []
+    for other in same_region_sources:
+        other_name = escape(other.get("name"))
+        other_slug = make_slug(other)
+        region_links.append(f'<li style="margin-bottom: 0.4rem;"><a href="/source/{other_slug}/" style="color: var(--primary, #1a73e8); text-decoration: none; font-weight: 500;">{other_name}</a></li>')
+    region_html = f'<ul style="margin: 0; padding-left: 1.2rem; line-height: 1.6;">{"".join(region_links)}</ul>' if region_links else '<p style="color: var(--text-muted, #666); margin: 0; font-size: 0.95rem;">同地區暫無其他來源</p>'
+
+    # Related Tag Sources HTML
+    tag_links = []
+    for other in same_tag_sources:
+        other_name = escape(other.get("name"))
+        other_slug = make_slug(other)
+        tag_links.append(f'<li style="margin-bottom: 0.4rem;"><a href="/source/{other_slug}/" style="color: var(--primary, #1a73e8); text-decoration: none; font-weight: 500;">{other_name}</a></li>')
+    tag_html = f'<ul style="margin: 0; padding-left: 1.2rem; line-height: 1.6;">{"".join(tag_links)}</ul>' if tag_links else '<p style="color: var(--text-muted, #666); margin: 0; font-size: 0.95rem;">同標籤暫無其他來源</p>'
+
+    related_sources_section = f"""
+            <h2 class="source-detail-title" style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid var(--primary, #1a73e8); padding-bottom: 0.5rem; margin-top: 2.5rem; margin-bottom: 1.5rem;">探索相關來源</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 1rem;">
+              <div>
+                <h4 style="font-size: 1.1rem; font-weight: bold; margin-top: 0; margin-bottom: 0.8rem; color: #333;">相同地區的口琴來源</h4>
+                {region_html}
+              </div>
+              <div>
+                <h4 style="font-size: 1.1rem; font-weight: bold; margin-top: 0; margin-bottom: 0.8rem; color: #333;">相關標籤的口琴來源</h4>
+                {tag_html}
+              </div>
+            </div>
 """
 
     return f"""<!doctype html>
@@ -279,17 +333,17 @@ def generate_source_page(entry: dict[str, Any], entry_updates: list[dict[str, An
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{name}｜臺灣口琴觀測站</title>
+    <title>{name}｜口琴公開來源｜臺灣口琴觀測站</title>
     <meta name="description" content="{summary}">
-    <link rel="canonical" href="https://harmonica.observe.tw/source/{entry_id}/">
-    <meta property="og:title" content="{name}｜臺灣口琴觀測站">
+    <link rel="canonical" href="https://harmonica.observe.tw/source/{slug}/">
+    <meta property="og:title" content="{name}｜口琴公開來源｜臺灣口琴觀測站">
     <meta property="og:description" content="{summary}">
     <meta property="og:type" content="profile">
-    <meta property="og:url" content="https://harmonica.observe.tw/source/{entry_id}/">
+    <meta property="og:url" content="https://harmonica.observe.tw/source/{slug}/">
     <meta property="og:image" content="{og_image}">
     <meta property="og:site_name" content="臺灣口琴觀測站">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{name}｜臺灣口琴觀測站">
+    <meta name="twitter:title" content="{name}｜口琴公開來源｜臺灣口琴觀測站">
     <meta name="twitter:description" content="{summary}">
     <meta name="twitter:image" content="{og_image}">
     <link rel="icon" href="/assets/favicon-20260623.svg?v=20260628-0342" type="image/svg+xml">
@@ -297,11 +351,20 @@ def generate_source_page(entry: dict[str, Any], entry_updates: list[dict[str, An
     <script type="application/ld+json">
 {json_ld}
     </script>
+    <script type="application/ld+json">
+{json_ld_breadcrumb}
+    </script>
   </head>
   <body>
 {HEADER_HTML}
 
     <main class="feed-page-main">
+      <nav aria-label="breadcrumb" class="breadcrumb-nav" style="font-size: 0.9rem; margin: 1rem auto; max-width: 1200px; padding: 0 1rem; color: var(--text-muted, #666);">
+        <a href="/" style="color: var(--primary, #1a73e8); text-decoration: none;">首頁</a> ›
+        <a href="/post/source/" style="color: var(--primary, #1a73e8); text-decoration: none;">公開來源</a> ›
+        <span>{name}</span>
+      </nav>
+
       <section class="feed-page-hero">
         <div class="band-inner split-layout">
           <div class="source-hero-head" style="display: flex; align-items: center;">
@@ -339,12 +402,12 @@ def generate_source_page(entry: dict[str, Any], entry_updates: list[dict[str, An
                 {aliases_row}
               </tbody>
             </table>
-            
+
             <h2 class="source-detail-title" style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid var(--primary, #1a73e8); padding-bottom: 0.5rem; margin-bottom: 1rem;">公開聯絡與社群連結</h2>
             {links_html}
 
             {updates_html}
-            {scores_html}
+            {related_sources_section}
           </div>
         </div>
       </section>
@@ -405,6 +468,33 @@ def generate_event_page(event: dict[str, Any]) -> str:
         }
     json_ld = json.dumps(json_ld_dict, ensure_ascii=False, indent=2)
 
+    # Breadcrumb JSON-LD
+    breadcrumb_ld = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "首頁",
+                "item": "https://harmonica.observe.tw/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "公開貼文",
+                "item": "https://harmonica.observe.tw/post/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": title,
+                "item": f"https://harmonica.observe.tw/event/{event_id}/"
+            }
+        ]
+    }
+    json_ld_breadcrumb = json.dumps(breadcrumb_ld, ensure_ascii=False, indent=2)
+
     # rows
     location_row = f'<tr><th scope="row" style="width: 25%; padding: 10px; text-align: left; font-weight: bold; border-bottom: 1px solid var(--border-color, #e0e0e0);">地點</th><td style="padding: 10px; border-bottom: 1px solid var(--border-color, #e0e0e0);">{location}</td></tr>' if location else ""
     source_row = f'<tr><th scope="row" style="width: 25%; padding: 10px; text-align: left; font-weight: bold; border-bottom: 1px solid var(--border-color, #e0e0e0);">資訊來源</th><td style="padding: 10px; border-bottom: 1px solid var(--border-color, #e0e0e0);">{source}</td></tr>' if source else ""
@@ -439,11 +529,20 @@ def generate_event_page(event: dict[str, Any]) -> str:
     <script type="application/ld+json">
 {json_ld}
     </script>
+    <script type="application/ld+json">
+{json_ld_breadcrumb}
+    </script>
   </head>
   <body>
 {HEADER_HTML}
 
     <main class="feed-page-main">
+      <nav aria-label="breadcrumb" class="breadcrumb-nav" style="font-size: 0.9rem; margin: 1rem auto; max-width: 1200px; padding: 0 1rem; color: var(--text-muted, #666);">
+        <a href="/" style="color: var(--primary, #1a73e8); text-decoration: none;">首頁</a> ›
+        <a href="/post/" style="color: var(--primary, #1a73e8); text-decoration: none;">公開貼文</a> ›
+        <span>{title}</span>
+      </nav>
+
       <section class="feed-page-hero">
         <div class="band-inner split-layout">
           <div>
@@ -475,7 +574,7 @@ def generate_event_page(event: dict[str, Any]) -> str:
                 {details_row}
               </tbody>
             </table>
-            
+
             {action_button}
           </div>
         </div>
@@ -490,8 +589,8 @@ def generate_event_page(event: dict[str, Any]) -> str:
 
 def generate_scores_category_page(category: str, items: list[dict[str, Any]]) -> str:
     encoded_category = urllib.parse.quote(category)
-    description = f"臺灣全國學生音樂比賽口琴項目「{escape(category)}」歷年指定曲與公開出版、購譜或洽詢管道索引線索。"
-    
+    description = f"整理全國學生音樂比賽口琴項目{escape(category)}指定曲，包含學年度、組別、曲名、作曲者、出版社與公開佐證來源。"
+
     # JSON-LD Dataset
     json_ld_dict = {
         "@context": "https://schema.org",
@@ -507,14 +606,40 @@ def generate_scores_category_page(category: str, items: list[dict[str, Any]]) ->
     }
     json_ld = json.dumps(json_ld_dict, ensure_ascii=False, indent=2)
 
+    # Breadcrumb JSON-LD
+    breadcrumb_ld = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "首頁",
+                "item": "https://harmonica.observe.tw/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "比賽指定曲",
+                "item": "https://harmonica.observe.tw/scores/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": f"{category}指定曲",
+                "item": f"https://harmonica.observe.tw/scores/{encoded_category}/"
+            }
+        ]
+    }
+    json_ld_breadcrumb = json.dumps(breadcrumb_ld, ensure_ascii=False, indent=2)
+
     # Render rows
     rows_list = []
     for item in items:
         year = escape(item.get("schoolYear") or "-")
         status = escape(item.get("sourceStatus") or "-")
         division = escape(item.get("division") or "-")
-        
-        # Title building
+
         title_main = clean(item.get("title"))
         title_alt = clean(item.get("titleAlt"))
         title_display = title_main
@@ -526,7 +651,7 @@ def generate_scores_category_page(category: str, items: list[dict[str, Any]]) ->
         arranger = escape(item.get("arranger") or "-")
         publisher = escape(item.get("publisher") or "-")
         purchase_note = escape(item.get("purchaseNote") or "-")
-        
+
         links = item.get("links") or []
         source_link_html = "-"
         if links:
@@ -551,17 +676,17 @@ def generate_scores_category_page(category: str, items: list[dict[str, Any]]) ->
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{escape(category)} 指定曲與購譜線索｜臺灣口琴觀測站</title>
+    <title>{escape(category)}指定曲索引｜全國學生音樂比賽指定曲｜臺灣口琴觀測站</title>
     <meta name="description" content="{description}">
     <link rel="canonical" href="https://harmonica.observe.tw/scores/{encoded_category}/">
-    <meta property="og:title" content="{escape(category)} 指定曲與購譜線索｜臺灣口琴觀測站">
+    <meta property="og:title" content="{escape(category)}指定曲索引｜全國學生音樂比賽指定曲｜臺灣口琴觀測站">
     <meta property="og:description" content="{description}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://harmonica.observe.tw/scores/{encoded_category}/">
     <meta property="og:image" content="https://harmonica.observe.tw/assets/hero-harmonica-observe.webp">
     <meta property="og:site_name" content="臺灣口琴觀測站">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{escape(category)} 指定曲與購譜線索｜臺灣口琴觀測站">
+    <meta name="twitter:title" content="{escape(category)}指定曲索引｜全國學生音樂比賽指定曲｜臺灣口琴觀測站">
     <meta name="twitter:description" content="{description}">
     <meta name="twitter:image" content="https://harmonica.observe.tw/assets/hero-harmonica-observe.webp">
     <link rel="icon" href="/assets/favicon-20260623.svg?v=20260628-0342" type="image/svg+xml">
@@ -569,16 +694,25 @@ def generate_scores_category_page(category: str, items: list[dict[str, Any]]) ->
     <script type="application/ld+json">
 {json_ld}
     </script>
+    <script type="application/ld+json">
+{json_ld_breadcrumb}
+    </script>
   </head>
   <body>
 {HEADER_HTML}
 
     <main class="feed-page-main">
+      <nav aria-label="breadcrumb" class="breadcrumb-nav" style="font-size: 0.9rem; margin: 1rem auto; max-width: 1200px; padding: 0 1rem; color: var(--text-muted, #666);">
+        <a href="/" style="color: var(--primary, #1a73e8); text-decoration: none;">首頁</a> ›
+        <a href="/scores/" style="color: var(--primary, #1a73e8); text-decoration: none;">比賽指定曲</a> ›
+        <span>{escape(category)}指定曲</span>
+      </nav>
+
       <section class="feed-page-hero score-hero">
         <div class="band-inner split-layout">
           <div>
-            <p class="section-kicker">Contest Pieces - {escape(category)}</p>
-            <h1>{escape(category)} 指定曲索引</h1>
+            <p class="section-kicker">全國學生音樂比賽</p>
+            <h1>{escape(category)}指定曲索引</h1>
           </div>
           <div class="feed-page-summary">
             <p>全國學生音樂比賽口琴項目指定曲「{escape(category)}」歷年指定曲與公開出版、購譜或洽詢管道。本頁共收錄 {len(items)} 筆指定曲線索。</p>
@@ -629,29 +763,80 @@ def generate_scores_category_page(category: str, items: list[dict[str, Any]]) ->
 """
 
 
-def generate_sitemap_xml(sources: list[dict[str, Any]], events: list[dict[str, Any]], categories: list[str]) -> str:
+def make_slug(entry: dict[str, Any]) -> str:
+    entry_id = clean(entry.get("id"))
+    name_en = clean(entry.get("nameEn"))
+    name = clean(entry.get("name"))
+    text = name_en if name_en else name
+    text = text.lower()
+    text = re.sub(r"[^a-z0-9]+", "-", text)
+    text = text.strip("-")
+    if text:
+        return f"{entry_id}-{text}"
+    return entry_id
+
+
+def extract_date(timestamp_str: str | None) -> str | None:
+    if not timestamp_str:
+        return None
+    match = re.match(r"^\d{4}-\d{2}-\d{2}", timestamp_str.strip())
+    if match:
+        return match.group(0)
+    return None
+
+
+def generate_sitemap_xml(
+    sources: list[dict[str, Any]],
+    events: list[dict[str, Any]],
+    categories: list[str],
+    updates: list[dict[str, Any]],
+    scores: list[dict[str, Any]]
+) -> str:
     url_templates = []
-    sources_lastmod = file_lastmod(SOURCES_JSON)
     events_lastmod = file_lastmod(EVENTS_JSON)
-    scores_lastmod = file_lastmod(SCORES_JSON)
+    build_date_fallback = datetime.now(timezone(timedelta(hours=8))).date().isoformat()
+
+    # Load score sources for lastmod calculation
+    score_sources = []
+    try:
+        SCORE_SOURCES_JSON = SITE_ROOT / "api" / "score-sources.json"
+        if SCORE_SOURCES_JSON.exists():
+            score_sources = json.loads(SCORE_SOURCES_JSON.read_text(encoding="utf-8")).get("scoreSources") or []
+    except Exception:
+        pass
+
+    # Extract dynamic timestamps
+    post_dates = [extract_date(up.get("posted_at") or up.get("posted_at_local")) for up in updates]
+    newest_post = max([d for d in post_dates if d], default=build_date_fallback)
+
+    source_dates = [extract_date(s.get("latestUpdateAt") or s.get("latestUpdateLocal")) for s in sources]
+    newest_source = max([d for d in source_dates if d], default=build_date_fallback)
+
+    score_dates = [extract_date(s.get("lastVerifiedAt")) for s in scores]
+    newest_score = max([d for d in score_dates if d], default=build_date_fallback)
+
+    score_source_dates = [extract_date(s.get("lastSeenAt")) for s in score_sources]
+    newest_score_source = max([d for d in score_source_dates if d], default=build_date_fallback)
 
     core_lastmods = {
-        "": newest_lastmod([SITE_ROOT / "index.html", SOURCES_JSON, EVENTS_JSON, SCORES_JSON]),
-        "post/": newest_lastmod([SITE_ROOT / "post" / "index.html", SITE_ROOT / "api" / "latest.json"]),
-        "post/source/": newest_lastmod([SITE_ROOT / "post" / "source" / "index.html", SOURCES_JSON]),
-        "scores/": newest_lastmod([SITE_ROOT / "scores" / "index.html", SCORES_JSON]),
-        "scores/sources/": newest_lastmod([SITE_ROOT / "scores" / "sources" / "index.html", SITE_ROOT / "api" / "score-sources.json"]),
-        "submit/": newest_lastmod([SITE_ROOT / "submit" / "index.html"]),
-        "status/": newest_lastmod([SITE_ROOT / "status" / "index.html", SITE_ROOT / "api" / "status.json"]),
+        "": newest_post,
+        "post/": newest_post,
+        "post/source/": newest_source,
+        "scores/": newest_score,
+        "scores/sources/": newest_score_source,
+        "feeds/": newest_post,
+        "submit/": file_lastmod(SITE_ROOT / "submit" / "index.html") if (SITE_ROOT / "submit" / "index.html").exists() else build_date_fallback,
+        "status/": file_lastmod(SITE_ROOT / "api" / "status.json") if (SITE_ROOT / "api" / "status.json").exists() else build_date_fallback,
     }
-    
-    # 7 Core Pages
+
+    # 8 Core Pages
     core_pages = [
         ("", "daily", "1.0"),
         ("post/", "daily", "0.8"),
         ("post/source/", "weekly", "0.8"),
         ("scores/", "weekly", "0.8"),
         ("scores/sources/", "weekly", "0.8"),
+        ("feeds/", "daily", "0.6"),
         ("submit/", "monthly", "0.5"),
         ("status/", "daily", "0.5"),
     ]
@@ -666,9 +851,12 @@ def generate_sitemap_xml(sources: list[dict[str, Any]], events: list[dict[str, A
     # Category Pages
     for category in categories:
         encoded = urllib.parse.quote(category)
+        cat_scores = [s for s in scores if clean(s.get("program")) == category]
+        cat_dates = [extract_date(s.get("lastVerifiedAt")) for s in cat_scores]
+        cat_lastmod = max([d for d in cat_dates if d], default=newest_score)
         url_templates.append(f"""  <url>
     <loc>https://harmonica.observe.tw/scores/{encoded}/</loc>
-    <lastmod>{scores_lastmod}</lastmod>
+    <lastmod>{cat_lastmod}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>""")
@@ -677,9 +865,12 @@ def generate_sitemap_xml(sources: list[dict[str, Any]], events: list[dict[str, A
     for src in sources:
         src_id = clean(src.get("id"))
         if src_id:
+            slug = make_slug(src)
+            src_date = extract_date(src.get("latestUpdateAt") or src.get("latestUpdateLocal"))
+            src_lastmod = src_date if src_date else newest_source
             url_templates.append(f"""  <url>
-    <loc>https://harmonica.observe.tw/source/{src_id}/</loc>
-    <lastmod>{sources_lastmod}</lastmod>
+    <loc>https://harmonica.observe.tw/source/{slug}/</loc>
+    <lastmod>{src_lastmod}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>""")
@@ -688,9 +879,11 @@ def generate_sitemap_xml(sources: list[dict[str, Any]], events: list[dict[str, A
     for ev in events:
         ev_id = clean(ev.get("id"))
         if ev_id:
+            ev_date = extract_date(ev.get("postedAt"))
+            ev_lastmod = ev_date if ev_date else events_lastmod
             url_templates.append(f"""  <url>
     <loc>https://harmonica.observe.tw/event/{ev_id}/</loc>
-    <lastmod>{events_lastmod}</lastmod>
+    <lastmod>{ev_lastmod}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>""")
@@ -749,26 +942,26 @@ def render_hashtag_button(tag: str, className: str) -> str:
 def render_entry_card_html(entry: dict[str, Any]) -> str:
     name = escape(entry.get("name"))
     name_en = escape(entry.get("nameEn") or "")
-    entry_id = escape(entry.get("id"))
+    slug = make_slug(entry)
     category = escape(entry.get("category"))
     summary = escape(entry.get("summary") or entry.get("sourceSummary") or entry.get("type") or "公開來源")
     aliases = entry.get("aliases") or []
     aliases_html = f'<p class="entry-aliases">也收錄：{"、".join(escape(a) for a in aliases[:4])}</p>' if aliases else ""
     initials = escape(entry.get("sourceInitials") or (name[0] if name else "H"))
-    
+
     avatar_html = render_source_avatar(entry.get("avatarUrl"), name, initials)
-    
+
     countries = "".join(f'<button type="button" class="region-tag-pill" data-directory-hashtag="{escape(entry.get("country"))}" data-directory-filter="country">#{escape(entry.get("country"))}</button>' if entry.get("country") else "")
     region = entry.get("region") or ""
     region_btn = f'<button type="button" class="region-tag-pill" data-directory-hashtag="{escape(region)}" data-directory-filter="region">#{escape(region)}</button>' if region and region != entry.get("country") else ""
-    
+
     latest = f'<span class="entry-latest">最新 {escape(entry.get("latestUpdateLocal"))}</span>' if entry.get("latestUpdateLocal") else ""
     locations = countries + region_btn
     context_html = f'<div class="entry-context">{locations}{latest}</div>' if locations or latest else ""
-    
+
     tags = entry.get("sourceTags") or []
     tags_html = f'<div class="entry-tags">{"".join(render_hashtag_button(t, "source-tag-pill") for t in tags[:8])}</div>' if tags else ""
-    
+
     links = entry.get("links") or []
     links_list = []
     for link in links:
@@ -776,13 +969,13 @@ def render_entry_card_html(entry: dict[str, Any]) -> str:
         label = escape(link.get("label") or "連結")
         links_list.append(f'<a href="{url}" target="_blank" rel="noreferrer">{label}</a>')
     links_html = f'<div class="entry-links">{"".join(links_list)}</div>'
-    
+
     return f"""
       <article class="entry-card">
         <div class="entry-card-head">
           {avatar_html}
           <div class="entry-title-block">
-            <h3><a href="/source/{entry_id}/" class="entry-landing-link">{name}</a></h3>
+            <h3><a href="/source/{slug}/" class="entry-landing-link">{name}</a></h3>
             <p class="entry-en">{name_en}</p>
             {aliases_html}
           </div>
@@ -802,7 +995,7 @@ def format_score_sources_table(score_sources: list[dict[str, Any]]) -> str:
         source_link_url = source_links[0].get("url") if source_links else ""
         source_link_label = source_links[0].get("label") if source_links else "佐證"
         source_html = f'<a class="score-source-link" href="{escape(source_link_url)}" target="_blank" rel="noreferrer" title="{escape(source_link_label)}">佐證</a>' if source_link_url else '<span class="score-source-link muted" title="未標示佐證">佐證</span>'
-        
+
         rows.append(f"""
       <tr>
         <th scope="row" class="score-title-cell" title="{escape(item.get("sourceName") or "-")}">{escape(item.get("sourceName") or "-")}</th>
@@ -895,20 +1088,20 @@ def update_core_pages(
     watch_source_count = status_payload.get("metrics", {}).get("watchSources", 562)
     watch_sources_info = status_payload.get("watchSources", {})
     platforms = watch_sources_info.get("platforms", {})
-    
+
     facebook_count = platforms.get("facebook", 0)
     youtube_count = platforms.get("youtube", 0)
     instagram_count = platforms.get("instagram", 0)
     threads_count = platforms.get("threads", 0)
     x_count = platforms.get("x", 0)
-    
+
     rsshub_sources_count = instagram_count + threads_count + x_count or 293
     apify_source_count = facebook_count or 143
     directory_entry_count = status_payload.get("metrics", {}).get("directoryEntries", len(entries))
 
     feed_generated_at = format_feed_time(feed_generated_at_raw)
     generated_at = format_feed_time(status_payload.get("generatedAt", "-"))
-    
+
     score_count = len(scores)
     years = []
     for s in scores:
@@ -928,10 +1121,7 @@ def update_core_pages(
     core_pages = [
         ("index.html", {}),
         ("post/index.html", {}),
-        ("post/source/index.html", {
-            "inject_selector": r'(<div[^>]*id="directory-list"[^>]*>).*?(</div>)',
-            "inject_content": "\n".join(render_entry_card_html(entry) for entry in entries)
-        }),
+        ("post/source/index.html", {}),
         ("scores/index.html", {
             "inject_selector": r'(<div[^>]*id="score-list"[^>]*>).*?(</div>)',
             "inject_content": format_scores_table(scores)
@@ -948,7 +1138,7 @@ def update_core_pages(
             continue
         try:
             content = page_path.read_text(encoding="utf-8")
-            
+
             content = replace_stat(content, "watchSourceCount", watch_source_count)
             content = replace_stat(content, "rsshubSourceCount", rsshub_sources_count)
             content = replace_stat(content, "apifySourceCount", apify_source_count)
@@ -964,11 +1154,25 @@ def update_core_pages(
             content = replace_stat(content, "scoreSourceDistinctCount", score_source_distinct_count)
             content = replace_stat(content, "scoreSourceTitleCount", score_source_title_count)
             content = replace_stat(content, "scoreSourceGeneratedAt", score_source_generated_at)
-            
+
             if inject_info:
                 pattern = re.compile(inject_info["inject_selector"], re.DOTALL)
                 content = pattern.sub(rf'\g<1>{inject_info["inject_content"]}\g<2>', content)
-                
+
+            if rel_path == "post/source/index.html":
+                content = re.sub(
+                    r'\n\s*<script type="application/ld\+json">\s*\{\s*"@context": "https://schema\.org",\s*"@type": "ItemList",\s*"name": "口琴公開來源索引",.*?\}\s*</script>',
+                    "",
+                    content,
+                    flags=re.DOTALL,
+                )
+                content = re.sub(
+                    r'(<div class="directory-grid" id="directory-list">).*?(</div>)',
+                    r'\1\2',
+                    content,
+                    flags=re.DOTALL,
+                )
+
             page_path.write_text(content, encoding="utf-8")
             print(f"Updated core page: {rel_path}")
         except Exception as e:
@@ -1036,35 +1240,56 @@ def main() -> int:
         # Match updates
         entry_updates = [up for up in updates if clean(up.get("directory_entry_id")) == entry_id]
 
-        # Match scores
-        entry_scores = []
-        entry_names = {clean(entry.get("name")).lower()}
-        if entry.get("nameEn"):
-            entry_names.add(clean(entry.get("nameEn")).lower())
-        for alias in entry.get("aliases") or []:
-            entry_names.add(clean(alias).lower())
+        slug = make_slug(entry)
 
-        for score in scores:
-            publisher = clean(score.get("publisher"))
-            composer = clean(score.get("composer"))
-            arranger = clean(score.get("arranger"))
+        # Match same region sources
+        same_region_sources = []
+        region = entry.get("region")
+        if region:
+            for other in entries:
+                if other.get("id") != entry_id and other.get("region") == region:
+                    same_region_sources.append(other)
+                    if len(same_region_sources) >= 5:
+                        break
 
-            pub_lower = publisher.lower()
-            comp_lower = composer.lower()
-            arr_lower = arranger.lower()
+        # Match same tag sources
+        same_tag_sources = []
+        entry_tags = set(entry.get("sourceTags") or [])
+        if entry_tags:
+            for other in entries:
+                if other.get("id") != entry_id:
+                    other_tags = set(other.get("sourceTags") or [])
+                    if entry_tags.intersection(other_tags):
+                        same_tag_sources.append(other)
+                        if len(same_tag_sources) >= 5:
+                            break
 
-            matched = False
-            for name in entry_names:
-                if name and (name in pub_lower or name in comp_lower or name in arr_lower or pub_lower in name or comp_lower in name or arr_lower in name):
-                    matched = True
-                    break
-            if matched:
-                entry_scores.append(score)
+        slug_dir = SITE_ROOT / "source" / slug
+        slug_dir.mkdir(parents=True, exist_ok=True)
+        html_content = normalize_generated_html(
+            generate_source_page(entry, entry_updates, same_region_sources, same_tag_sources)
+        )
+        (slug_dir / "index.html").write_text(html_content, encoding="utf-8")
 
-        page_dir = SITE_ROOT / "source" / entry_id
-        page_dir.mkdir(parents=True, exist_ok=True)
-        html_content = normalize_generated_html(generate_source_page(entry, entry_updates, entry_scores))
-        (page_dir / "index.html").write_text(html_content, encoding="utf-8")
+        if slug != entry_id:
+            old_dir = SITE_ROOT / "source" / entry_id
+            old_dir.mkdir(parents=True, exist_ok=True)
+            redirect_url = f"https://harmonica.observe.tw/source/{slug}/"
+            redirect_html = f"""<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <title>重新導向中...</title>
+    <meta http-equiv="refresh" content="0; url={redirect_url}">
+    <link rel="canonical" href="{redirect_url}">
+  </head>
+  <body>
+    <p>頁面已移動，正在重新導向至 <a href="{redirect_url}">{redirect_url}</a>...</p>
+  </body>
+</html>
+"""
+            (old_dir / "index.html").write_text(redirect_html, encoding="utf-8")
+
         source_count += 1
 
     # 3. Pre-render Event Pages
@@ -1093,7 +1318,7 @@ def main() -> int:
     update_core_pages(entries, scores, scores_payload)
 
     # 6. Rebuild sitemap
-    sitemap_content = generate_sitemap_xml(entries, events, categories)
+    sitemap_content = generate_sitemap_xml(entries, events, categories, updates, scores)
     SITEMAP_XML.write_text(sitemap_content, encoding="utf-8")
 
     print(f"SEO Pre-rendering completed:")

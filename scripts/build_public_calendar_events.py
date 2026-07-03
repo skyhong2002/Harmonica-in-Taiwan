@@ -575,6 +575,7 @@ def extract_events(
                         "id": item_key(item, start_date),
                         "source": item.get("source") or "",
                         "platform": item.get("platform") or "",
+                        "postedAt": item.get("posted_at_local") or item.get("posted_at") or "",
                     }
                 )
                 events.append(override)
@@ -657,6 +658,7 @@ def extract_events(
                     "evidenceUrl": link,
                     "confidence": review.get("confidence") or 0,
                     "calendarReview": review,
+                    "postedAt": item.get("posted_at_local") or item.get("posted_at") or "",
                 }
             )
 

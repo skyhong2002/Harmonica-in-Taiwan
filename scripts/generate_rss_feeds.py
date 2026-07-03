@@ -1284,11 +1284,11 @@ def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
     source_profile_url = public_source_profile_url(row, profile)
     link = str(row.get("url") or PUBLIC_BASE_URL)
     directory_profile = directory_profile_for_update(row, profile, source, source_profile_url, link)
-    
+
     directory_name = directory_profile.get("directory_entry_name") or ""
     if directory_name:
         source = directory_name
-        
+
     text = compact_multiline(str(row.get("text") or ""), 1200)
     title = compact(f"{source}｜{text}", 120)
     headline = first_content_line(text, 120) or source
@@ -1852,12 +1852,11 @@ def render_platform_badge(item: dict[str, Any]) -> str:
         "</span>"
     )
 
-
 def render_home_feed_item(item: dict[str, Any], index: int = 0) -> str:
     display_title = homepage_display_title(item)
     image = item.get("image_url")
     thumb_html = (
-        f'<span class="home-feed-thumb"><img src="{html_escape(image)}" alt="" loading="lazy" referrerpolicy="no-referrer"></span>'
+        f'<span class="home-feed-thumb"><img src="{html_escape(image)}" alt="{html_escape(item.get("source", ""))} 貼文圖片" loading="lazy" referrerpolicy="no-referrer"></span>'
         if image
         else ""
     )
@@ -2217,35 +2216,114 @@ def render_home_feed_columns(rows: list[dict[str, Any]], column_count: int = 3) 
     return "\n".join(rendered_columns)
 
 
+def render_pagination_nav(current_page: int, total_pages: int) -> str:
+    links = []
+
+    if current_page > 1:
+        prev_url = "/post/" if current_page == 2 else f"/post/page/{current_page - 1}/"
+        links.append(f'<a href="{prev_url}" class="pagination-prev" style="padding: 6px 12px; border: 1px solid #ccc; border-radius: 4px; text-decoration: none; color: var(--primary, #1a73e8);">上一頁</a>')
+
+    start_p = max(1, current_page - 2)
+    end_p = min(total_pages, current_page + 2)
+
+    if start_p > 1:
+        links.append('<a href="/post/" style="padding: 6px 12px; border: 1px solid #ccc; border-radius: 4px; text-decoration: none; color: var(--primary, #1a73e8);">1</a>')
+        if start_p > 2:
+            links.append('<span style="padding: 6px 12px; color: #666;">...</span>')
+
+    for p in range(start_p, end_p + 1):
+        if p == current_page:
+            links.append(f'<span class="pagination-current" style="padding: 6px 12px; background: var(--primary, #1a73e8); color: white; border-radius: 4px; font-weight: bold;">{p}</span>')
+        else:
+            url = "/post/" if p == 1 else f"/post/page/{p}/"
+            links.append(f'<a href="{url}" style="padding: 6px 12px; border: 1px solid #ccc; border-radius: 4px; text-decoration: none; color: var(--primary, #1a73e8);">{p}</a>')
+
+    if end_p < total_pages:
+        if end_p < total_pages - 1:
+            links.append('<span style="padding: 6px 12px; color: #666;">...</span>')
+        links.append(f'<a href="/post/page/{total_pages}/" style="padding: 6px 12px; border: 1px solid #ccc; border-radius: 4px; text-decoration: none; color: var(--primary, #1a73e8);">{total_pages}</a>')
+
+    if current_page < total_pages:
+        next_url = f"/post/page/{current_page + 1}/"
+        links.append(f'<a href="{next_url}" class="pagination-next" style="padding: 6px 12px; border: 1px solid #ccc; border-radius: 4px; text-decoration: none; color: var(--primary, #1a73e8);">下一頁</a>')
+
+    nav_links = " ".join(links)
+    return f"""
+      <nav class="feed-pagination-wrap" aria-label="分頁導覽" style="display: flex; justify-content: center; align-items: center; gap: 8px; margin-top: 2.5rem; margin-bottom: 2rem; flex-wrap: wrap;">
+        <span class="pagination-status" style="font-size: 0.95rem; color: #666; margin-right: 10px;">第 {current_page} / {total_pages} 頁</span>
+        {nav_links}
+      </nav>
+"""
+
+
 def write_homepage_latest(public_rows: list[dict[str, Any]], categorized: dict[str, list[dict[str, Any]]], window_days: int) -> None:
     start = "            <!-- FEED_LATEST_START -->"
     end = "            <!-- FEED_LATEST_END -->"
     public_rows = homepage_feed_rows(public_rows)
     filtered_rows = homepage_default_feed_rows(public_rows)
     visible_rows = filtered_rows[:HOME_FEED_BATCH_SIZE]
-    latest_html = (
+
+    total_posts = len(filtered_rows)
+    total_pages = (total_posts + HOME_FEED_BATCH_SIZE - 1) // HOME_FEED_BATCH_SIZE
+
+    # 1. Update site/index.html
+    latest_html_home = (
         render_home_feed_filters(public_rows, window_days, filtered_rows)
         + f'\n      <div class="feed-river">\n{render_home_feed_columns(visible_rows)}\n      </div>'
         + render_home_feed_load_more(len(filtered_rows), len(visible_rows))
     )
-    latest_html = "\n".join(line.rstrip() for line in latest_html.splitlines())
-
-    # 1. Update site/index.html
+    latest_html_home = "\n".join(line.rstrip() for line in latest_html_home.splitlines())
     if HOME_PAGE.exists():
         text = HOME_PAGE.read_text(encoding="utf-8")
         if start in text and end in text:
             before, rest = text.split(start, 1)
             _, after = rest.split(end, 1)
-            HOME_PAGE.write_text(f"{before}{start}\n{latest_html}\n            {end}{after}", encoding="utf-8")
+            HOME_PAGE.write_text(f"{before}{start}\n{latest_html_home}\n            {end}{after}", encoding="utf-8")
 
     # 2. Update site/post/index.html
+    pagination_nav_p1 = render_pagination_nav(1, total_pages)
+    latest_html_post = (
+        render_home_feed_filters(public_rows, window_days, filtered_rows)
+        + f'\n      <div class="feed-river">\n{render_home_feed_columns(visible_rows)}\n      </div>'
+        + render_home_feed_load_more(len(filtered_rows), len(visible_rows))
+        + pagination_nav_p1
+    )
+    latest_html_post = "\n".join(line.rstrip() for line in latest_html_post.splitlines())
+
     posts_page = SITE_ROOT / "post" / "index.html"
     if posts_page.exists():
         text = posts_page.read_text(encoding="utf-8")
         if start in text and end in text:
             before, rest = text.split(start, 1)
             _, after = rest.split(end, 1)
-            posts_page.write_text(f"{before}{start}\n{latest_html}\n            {end}{after}", encoding="utf-8")
+            posts_page.write_text(f"{before}{start}\n{latest_html_post}\n            {end}{after}", encoding="utf-8")
+
+    # 3. Generate static pagination pages for 2, 3, etc.
+    for p in range(2, total_pages + 1):
+        page_dir = SITE_ROOT / "post" / "page" / str(p)
+        page_dir.mkdir(parents=True, exist_ok=True)
+
+        visible_rows_p = filtered_rows[(p-1)*HOME_FEED_BATCH_SIZE : p*HOME_FEED_BATCH_SIZE]
+        pagination_nav_p = render_pagination_nav(p, total_pages)
+
+        latest_html_p = (
+            render_home_feed_filters(public_rows, window_days, filtered_rows)
+            + f'\n      <div class="feed-river">\n{render_home_feed_columns(visible_rows_p)}\n      </div>'
+            + f'\n      <div class="feed-load-more-wrap">\n        <span class="feed-load-more-status">已顯示 {min(p*HOME_FEED_BATCH_SIZE, total_posts)} / {total_posts} 筆</span>\n      </div>'
+            + pagination_nav_p
+        )
+        latest_html_p = "\n".join(line.rstrip() for line in latest_html_p.splitlines())
+
+        baseline_text = posts_page.read_text(encoding="utf-8")
+        baseline_text = baseline_text.replace(
+            '<link rel="canonical" href="https://harmonica.observe.tw/post/">',
+            f'<link rel="canonical" href="https://harmonica.observe.tw/post/page/{p}/">'
+        )
+
+        if start in baseline_text and end in baseline_text:
+            before, rest = baseline_text.split(start, 1)
+            _, after = rest.split(end, 1)
+            (page_dir / "index.html").write_text(f"{before}{start}\n{latest_html_p}\n            {end}{after}", encoding="utf-8")
 
 
 def render_update_cards(items: list[dict[str, Any]]) -> str:
@@ -2260,7 +2338,7 @@ def render_update_cards(items: list[dict[str, Any]]) -> str:
         image_html = (
             f"""
               <a class="feed-item-image" href="{html_escape(item.get("link"))}" target="_blank" rel="noreferrer">
-                <img src="{html_escape(image)}" alt="" loading="lazy" referrerpolicy="no-referrer">
+                <img src="{html_escape(image)}" alt="{html_escape(item.get("source", ""))} 貼文圖片" loading="lazy" referrerpolicy="no-referrer">
               </a>
             """
             if image
@@ -2385,6 +2463,7 @@ def render_feed_index(categorized: dict[str, list[dict[str, Any]]]) -> str:
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RSS 訂閱｜臺灣口琴觀測站</title>
     <meta name="description" content="臺灣口琴觀測站公開更新 RSS。">
+    <link rel="canonical" href="https://harmonica.observe.tw/feeds/">
     <link rel="icon" href="/assets/favicon-20260623.svg?v={ASSET_VERSION}" type="image/svg+xml">
     <link rel="alternate" type="application/rss+xml" title="臺灣口琴觀測站公開更新" href="/feeds/updates.xml">
     <link rel="stylesheet" href="/assets/styles.css?v={ASSET_VERSION}">
