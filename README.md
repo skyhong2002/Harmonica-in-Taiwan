@@ -52,6 +52,7 @@
 - `data/sources/harmonica-clubs-public.csv`：公開學生社團資料。
 - `data/sources/harmonica-score-publications.csv`：全國學生音樂比賽口琴指定曲與出版、購譜線索，含官方歷年指定曲目 XLS 與近年 PDF 補充線索。
 - `data/sources/harmonica-score-sources.csv`：指定曲以外的口琴譜源 metadata、購買／洽詢方式與公開佐證連結；不收錄譜檔或曲譜內容。
+- `data/sources/harmonica-public-calendars.csv`：公開 Google Calendar metadata，供首頁公開演出日曆整合使用。
 - `data/feeds/social_sources.json`：由 CSV 轉出的公開社群監看來源設定。
 - `data/feeds/social_feed_inbox.jsonl`：YouTube / Facebook 抓取工具正規化後的公開貼文 inbox。
 - `data/feeds/social_candidates.jsonl`：watchdog 篩選後的公開候選更新。
