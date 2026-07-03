@@ -12,6 +12,11 @@
     updates: [],
     updatesWindowDays: FEED_FALLBACK_WINDOW_DAYS,
   };
+  const publicCalendarData = window.publicCalendarEvents || {
+    generatedAt: "-",
+    timezone: "Asia/Taipei",
+    events: [],
+  };
   const scoreData = window.HARMONICA_OBSERVE_SCORES || {
     generatedAt: "-",
     count: 0,
@@ -105,6 +110,7 @@
   const latestFeedGrid = document.querySelector("#latest-feed-grid");
   const homeStoryList = document.querySelector("#home-story-list");
   const homeStorySlider = document.querySelector("#home-story-slider");
+  const publicCalendarWidget = document.querySelector("#public-calendar-widget");
   const spotlightList = document.querySelector("#spotlight-list");
   const resultCount = document.querySelector("#result-count");
   const directoryHashtagFilters = document.querySelector("#directory-hashtag-filters");
@@ -1298,6 +1304,160 @@
     window.addEventListener("resize", updateHomeStorySlider);
   }
 
+  function taipeiDateParts(date) {
+    const parts = new Intl.DateTimeFormat("en-CA", {
+      timeZone: "Asia/Taipei",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    }).formatToParts(date).reduce((acc, part) => {
+      if (part.type !== "literal") acc[part.type] = part.value;
+      return acc;
+    }, {});
+    return {
+      year: Number(parts.year || 0),
+      month: Number(parts.month || 0),
+      day: Number(parts.day || 0),
+      key: `${parts.year}-${parts.month}-${parts.day}`,
+    };
+  }
+
+  function publicCalendarStartDate(event) {
+    const start = String(event.start || "");
+    if (/^\d{4}-\d{2}-\d{2}$/.test(start)) {
+      const [year, month, day] = start.split("-").map(Number);
+      return new Date(Date.UTC(year, month - 1, day, 4, 0, 0));
+    }
+    const parsed = new Date(start);
+    return Number.isNaN(parsed.getTime()) ? null : parsed;
+  }
+
+  function publicCalendarDateKey(event) {
+    const start = String(event.start || "");
+    if (/^\d{4}-\d{2}-\d{2}$/.test(start)) return start;
+    const parsed = publicCalendarStartDate(event);
+    return parsed ? taipeiDateParts(parsed).key : "";
+  }
+
+  function publicCalendarTimeLabel(event) {
+    if (event.allDay) return "全天";
+    const parsed = publicCalendarStartDate(event);
+    if (!parsed) return "";
+    return new Intl.DateTimeFormat("zh-TW", {
+      timeZone: "Asia/Taipei",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+    }).format(parsed);
+  }
+
+  function publicCalendarDateLabel(event) {
+    const parsed = publicCalendarStartDate(event);
+    if (!parsed) return "";
+    return new Intl.DateTimeFormat("zh-TW", {
+      timeZone: "Asia/Taipei",
+      month: "numeric",
+      day: "numeric",
+      weekday: "short",
+    }).format(parsed);
+  }
+
+  function sortedPublicCalendarEvents() {
+    return (publicCalendarData.events || [])
+      .filter((event) => publicCalendarStartDate(event))
+      .slice()
+      .sort((a, b) => publicCalendarStartDate(a).getTime() - publicCalendarStartDate(b).getTime());
+  }
+
+  function monthCalendarDays(anchor) {
+    const year = anchor.getFullYear();
+    const month = anchor.getMonth();
+    const first = new Date(year, month, 1);
+    const start = new Date(first);
+    start.setDate(first.getDate() - first.getDay());
+    return Array.from({ length: 42 }, (_, index) => {
+      const date = new Date(start);
+      date.setDate(start.getDate() + index);
+      return date;
+    });
+  }
+
+  function publicCalendarMonthTitle(anchor) {
+    return new Intl.DateTimeFormat("en-US", {
+      timeZone: "Asia/Taipei",
+      month: "long",
+      year: "numeric",
+    }).format(anchor);
+  }
+
+  function renderPublicCalendar() {
+    if (!publicCalendarWidget) return;
+    const events = sortedPublicCalendarEvents();
+    if (!events.length) {
+      publicCalendarWidget.innerHTML = `<div class="empty-state">尚未從公開貼文抽出可顯示的演出日期。</div>`;
+      return;
+    }
+    const now = new Date();
+    const todayKey = taipeiDateParts(now).key;
+    const nowParts = taipeiDateParts(now);
+    const monthAnchor = new Date(nowParts.year, nowParts.month - 1, 1);
+    const month = monthAnchor.getMonth();
+    const eventsByDay = events.reduce((map, event) => {
+      const key = publicCalendarDateKey(event);
+      if (!key) return map;
+      if (!map.has(key)) map.set(key, []);
+      map.get(key).push(event);
+      return map;
+    }, new Map());
+    const days = monthCalendarDays(monthAnchor);
+    const upcoming = events.filter((event) => publicCalendarDateKey(event) >= todayKey).slice(0, 8);
+    publicCalendarWidget.innerHTML = `
+      <div class="public-calendar-panel">
+        <div class="public-calendar-toolbar">
+          <strong>${escapeHtml(publicCalendarMonthTitle(monthAnchor))}</strong>
+          <span>${escapeHtml(publicCalendarData.count || events.length)} 筆公開貼文事件線索</span>
+        </div>
+        <div class="public-calendar-scroll">
+          <div class="public-calendar-grid" aria-label="${escapeHtml(publicCalendarMonthTitle(monthAnchor))} 公開演出日曆">
+            ${["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"].map((label) => `<div class="public-calendar-weekday">${label}</div>`).join("")}
+            ${days.map((date) => {
+              const key = taipeiDateParts(date).key;
+              const dayEvents = eventsByDay.get(key) || [];
+              const isMuted = date.getMonth() !== month;
+              const isToday = key === todayKey;
+              return `
+                <div class="public-calendar-day${isMuted ? " is-muted" : ""}${isToday ? " is-today" : ""}">
+                  <span class="public-calendar-day-number">${date.getDate()}</span>
+                  <div class="public-calendar-day-events">
+                    ${dayEvents.slice(0, 3).map((event) => `
+                      <a href="${escapeHtml(event.evidenceUrl || "#")}" target="_blank" rel="noreferrer">
+                        <span>${escapeHtml(publicCalendarTimeLabel(event))}</span>
+                        ${escapeHtml(event.title || event.source || "公開口琴活動")}
+                      </a>
+                    `).join("")}
+                    ${dayEvents.length > 3 ? `<span class="public-calendar-more">+${dayEvents.length - 3}</span>` : ""}
+                  </div>
+                </div>
+              `;
+            }).join("")}
+          </div>
+        </div>
+        <div class="public-calendar-upcoming">
+          <h3>近期事件線索</h3>
+          <div class="public-calendar-event-list">
+            ${upcoming.map((event) => `
+              <a href="${escapeHtml(event.evidenceUrl || "#")}" target="_blank" rel="noreferrer">
+                <span class="public-calendar-event-date">${escapeHtml(publicCalendarDateLabel(event))}</span>
+                <span class="public-calendar-event-title">${escapeHtml(event.title || event.source || "公開口琴活動")}</span>
+                <span class="public-calendar-event-source">${escapeHtml(event.source || event.platform || "")}</span>
+              </a>
+            `).join("")}
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
   function socialSourcesForItem(item) {
     const id = filterValueKey(item.source_id);
     if (!id) return [];
@@ -1749,6 +1909,7 @@
     syncFeedFilterUrl();
     resetFeedPagination();
     renderHomepageStories();
+    renderPublicCalendar();
     renderLatestFeeds();
   }
 
@@ -3291,6 +3452,7 @@
     bindHomeStorySlider();
 
     renderHomepageStories();
+    renderPublicCalendar();
     renderLatestFeeds();
     fetchLatestFeedData();
     renderSpotlight();

@@ -16,6 +16,30 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 PYTHON = sys.executable
 DEFAULT_LOCK_FILE = PROJECT_ROOT / "state" / "run_pipeline.lock"
 DEFAULT_RUNTIME_STATUS = PROJECT_ROOT / "site" / "api" / "pipeline-runtime.json"
+DEFAULT_GOOGLE_WORKSPACE_PYTHON = Path.home() / ".hermes" / "google-workspace-venv" / "bin" / "python"
+
+
+def load_dotenv(path: Path) -> None:
+    if not path.exists():
+        return
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        key = key.strip()
+        value = value.strip().strip('"').strip("'")
+        if key and key not in os.environ:
+            os.environ[key] = value
+
+
+def google_workspace_python() -> str:
+    configured = os.environ.get("HARMONICA_GOOGLE_WORKSPACE_PYTHON", "").strip()
+    if configured:
+        return configured
+    if DEFAULT_GOOGLE_WORKSPACE_PYTHON.exists():
+        return str(DEFAULT_GOOGLE_WORKSPACE_PYTHON)
+    return PYTHON
 
 
 def write_json_atomic(path: Path, data: dict[str, object]) -> None:
@@ -154,6 +178,7 @@ def main() -> int:
     parser.add_argument("--facebook-priority", action="store_true")
     parser.add_argument("--facebook-full-refresh", action="store_true")
     parser.add_argument("--facebook-provider-days-back", type=int, default=0)
+    parser.add_argument("--skip-calendar-sync", action="store_true")
     parser.add_argument("--publish-pages", action="store_true")
     parser.add_argument("--pages-no-push", action="store_true")
     parser.add_argument("--lock-file", type=Path, default=DEFAULT_LOCK_FILE)
@@ -162,6 +187,7 @@ def main() -> int:
     parser.add_argument("--no-lock", action="store_true")
     parser.add_argument("--verbose", action="store_true")
     args = parser.parse_args()
+    load_dotenv(PROJECT_ROOT / ".env")
 
     lock_path = args.lock_file if args.lock_file.is_absolute() else PROJECT_ROOT / args.lock_file
     runtime_status_path = args.runtime_status if args.runtime_status.is_absolute() else PROJECT_ROOT / args.runtime_status
@@ -285,6 +311,14 @@ def main() -> int:
         run([PYTHON, "scripts/build_score_publications.py"], step="build score publications", status_hook=mark_step)
         run([PYTHON, "scripts/build_score_sources.py"], step="build score sources", status_hook=mark_step)
         run([PYTHON, "scripts/generate_rss_feeds.py"], step="generate rss feeds", status_hook=mark_step)
+        run([PYTHON, "scripts/build_public_calendar_events.py"], step="build public calendar events", status_hook=mark_step)
+        if not args.skip_calendar_sync:
+            run(
+                [google_workspace_python(), "scripts/sync_google_calendar_events.py"],
+                optional=True,
+                step="sync google calendar",
+                status_hook=mark_step,
+            )
         run([PYTHON, "scripts/build_status_page.py"], step="build status page", status_hook=mark_step)
         run([PYTHON, "scripts/check_source_coverage.py"], step="check source coverage", status_hook=mark_step)
         run([PYTHON, "scripts/validate_public_outputs.py"], step="validate public outputs", status_hook=mark_step)

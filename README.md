@@ -53,6 +53,8 @@
 - `data/sources/harmonica-score-publications.csv`：全國學生音樂比賽口琴指定曲與出版、購譜線索，含官方歷年指定曲目 XLS 與近年 PDF 補充線索。
 - `data/sources/harmonica-score-sources.csv`：指定曲以外的口琴譜源 metadata、購買／洽詢方式與公開佐證連結；不收錄譜檔或曲譜內容。
 - `data/sources/harmonica-public-calendars.csv`：公開 Google Calendar metadata，供首頁公開演出日曆整合使用。
+- `scripts/build_public_calendar_events.py`：從公開活動貼文抽出保守的口琴演出日期 metadata，輸出 JSON、JS 與 ICS。
+- `scripts/sync_google_calendar_events.py`：用本機 `.env` / Hermes Google Workspace OAuth 設定同步事件到公開 Google Calendar。
 - `data/feeds/social_sources.json`：由 CSV 轉出的公開社群監看來源設定。
 - `data/feeds/social_feed_inbox.jsonl`：YouTube / Facebook 抓取工具正規化後的公開貼文 inbox。
 - `data/feeds/social_candidates.jsonl`：watchdog 篩選後的公開候選更新。
@@ -102,6 +104,7 @@ python3 scripts/validate_public_outputs.py
 
 - `https://harmonica.observe.tw/feeds/updates.xml`：公開更新總河道。
 - `https://harmonica.observe.tw/feeds/events.xml`：全臺口琴實體活動。
+- `https://harmonica.observe.tw/feeds/public-calendar.ics`：首頁公開演出日曆的可訂閱 ICS。
 - `https://harmonica.observe.tw/feeds/posts-videos.xml`：口琴相關貼文與影片發布。
 - `https://harmonica.observe.tw/feeds/student-clubs.xml`：口琴學生社團動態。
 - `https://harmonica.observe.tw/feeds/opportunities.xml`：補助、徵件、甄選、比賽與報名資訊。
@@ -116,6 +119,8 @@ python3 scripts/validate_public_outputs.py
 - `https://harmonica.observe.tw/api/latest.json`
 - `https://harmonica.observe.tw/api/catalog.json`
 - `https://harmonica.observe.tw/api/events.json`
+- `https://harmonica.observe.tw/api/public-calendar-events.json`
+- `https://harmonica.observe.tw/api/public-calendar-sync.json`
 - `https://harmonica.observe.tw/api/posts-videos.json`
 - `https://harmonica.observe.tw/api/student-clubs.json`
 - `https://harmonica.observe.tw/api/opportunities.json`
