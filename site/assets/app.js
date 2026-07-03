@@ -103,6 +103,7 @@
 
   const directoryList = document.querySelector("#directory-list");
   const latestFeedGrid = document.querySelector("#latest-feed-grid");
+  const homeStoryList = document.querySelector("#home-story-list");
   const spotlightList = document.querySelector("#spotlight-list");
   const resultCount = document.querySelector("#result-count");
   const directoryHashtagFilters = document.querySelector("#directory-hashtag-filters");
@@ -177,6 +178,7 @@
       if (!nextFeedData) return;
       feedData = nextFeedData;
       setStat("feedGeneratedAt", feedData.generatedAt || "-");
+      renderHomepageStories();
       renderLatestFeeds();
     } catch (error) {
       latestFeedGrid.dataset.feedFetchStatus = "fallback";
@@ -1102,7 +1104,8 @@
       .join("");
   }
 
-  function homeFeedCard(item, index = 0) {
+  function homeFeedCard(item, index = 0, options = {}) {
+    const showTags = options.showTags !== false;
     const displayTitle = homepageDisplayTitle(item);
     const thumb = item.image_url
       ? `<span class="home-feed-thumb"><img src="${escapeHtml(item.image_url)}" alt="" loading="lazy" referrerpolicy="no-referrer"></span>`
@@ -1112,7 +1115,7 @@
       thumb ? "" : "home-feed-body-no-image",
       displayTitle ? "" : "home-feed-body-no-title",
     ].filter(Boolean).join(" ");
-    const tagHtml = feedTagPills(item);
+    const tagHtml = showTags ? feedTagPills(item) : "";
     const textBlock = homeFeedTextBlock(item, index, displayTitle);
     return `
       <article class="home-feed-card">
@@ -1218,6 +1221,57 @@
 
   function homepageFeedUpdates() {
     return (feedData.updates || []).filter((item) => !isInstagramStoryItem(item));
+  }
+
+  function parseFeedDate(value) {
+    const text = String(value || "").trim();
+    if (!text) return null;
+    const normalized = /^\d{4}-\d{2}-\d{2} \d{2}:\d{2}$/.test(text)
+      ? `${text.replace(" ", "T")}:00+08:00`
+      : text;
+    const date = new Date(normalized);
+    return Number.isNaN(date.getTime()) ? null : date;
+  }
+
+  function storyStillVisible(item, now = new Date()) {
+    const postedAt = parseFeedDate(item.posted_at || item.published_at || item.story_fetched_at || item.posted_at_local);
+    const expiresAt = parseFeedDate(item.story_expires_at);
+    if (expiresAt && expiresAt.getTime() < now.getTime()) return false;
+    if (!postedAt) return true;
+    return now.getTime() - postedAt.getTime() <= 24 * 60 * 60 * 1000;
+  }
+
+  function recentStoryItems() {
+    const now = new Date();
+    return (feedData.updates || [])
+      .filter(isInstagramStoryItem)
+      .filter((item) => storyStillVisible(item, now))
+      .slice(0, 24);
+  }
+
+  function storyCard(item) {
+    const image = item.image_url
+      ? `<span class="story-thumb"><img src="${escapeHtml(item.image_url)}" alt="" loading="lazy" referrerpolicy="no-referrer"></span>`
+      : `<span class="story-thumb story-thumb-empty" aria-hidden="true">${platformIconSvg("instagram")}</span>`;
+    return `
+      <article class="story-card">
+        <a href="${escapeHtml(item.link || sourceProfileUrl(item) || "#")}" target="_blank" rel="noreferrer">
+          ${image}
+          <span class="story-card-source">${escapeHtml(item.source || "Instagram story")}</span>
+          <span class="story-card-time">${escapeHtml(item.posted_at_local || "近 24 小時")}</span>
+        </a>
+      </article>
+    `;
+  }
+
+  function renderHomepageStories() {
+    if (!homeStoryList) return;
+    const stories = recentStoryItems();
+    if (!stories.length) {
+      homeStoryList.innerHTML = `<div class="empty-state">近 24 小時內尚未抓到可顯示的公開 Instagram 限動。</div>`;
+      return;
+    }
+    homeStoryList.innerHTML = stories.map(storyCard).join("");
   }
 
   function socialSourcesForItem(item) {
@@ -1432,9 +1486,9 @@
     return Array.from(river.querySelectorAll(".feed-river-column"));
   }
 
-  function feedCardElement(item, index = 0) {
+  function feedCardElement(item, index = 0, options = {}) {
     const template = document.createElement("template");
-    template.innerHTML = homeFeedCard(item, index).trim();
+    template.innerHTML = homeFeedCard(item, index, options).trim();
     return template.content.firstElementChild;
   }
 
@@ -1444,14 +1498,14 @@
     ), columns[0]);
   }
 
-  function appendFeedCards(river, updates, { reset = false, startIndex = 0 } = {}) {
+  function appendFeedCards(river, updates, { reset = false, startIndex = 0, cardOptions = {} } = {}) {
     const columnCount = feedColumnCount(river);
     let columns = Array.from(river.querySelectorAll(".feed-river-column"));
     if (reset || columns.length !== columnCount) {
       columns = createFeedColumns(river, columnCount);
     }
     updates.forEach((item, index) => {
-      const card = feedCardElement(item, startIndex + index);
+      const card = feedCardElement(item, startIndex + index, cardOptions);
       shortestFeedColumn(columns).appendChild(card);
     });
   }
@@ -1517,6 +1571,25 @@
       });
     }
     bindFeedAutoLoad();
+  }
+
+  function renderHomepageFeedSummary() {
+    if (!latestFeedGrid) return;
+    const updates = homepageFeedUpdates().slice(0, 12);
+    if (!updates.length) {
+      latestFeedGrid.innerHTML = `<div class="empty-state">目前沒有可顯示的公開貼文。</div>`;
+      return;
+    }
+    latestFeedGrid.innerHTML = `
+      <div class="feed-river home-feed-summary-river" aria-live="polite"></div>
+      <div class="feed-load-more-wrap">
+        <span class="feed-load-more-status">已顯示 ${escapeHtml(updates.length)} 筆</span>
+        <a class="feed-load-more-button" href="/post/">載入更多</a>
+      </div>
+    `;
+    const river = latestFeedGrid.querySelector(".feed-river");
+    if (river) appendFeedCards(river, updates, { reset: true, startIndex: 0, cardOptions: { showTags: false } });
+    updateFeedImageOrientation();
   }
 
   function toggleFeedText(button) {
@@ -1651,6 +1724,7 @@
     toggleFeedSelection(name, value);
     syncFeedFilterUrl();
     resetFeedPagination();
+    renderHomepageStories();
     renderLatestFeeds();
   }
 
@@ -1705,6 +1779,10 @@
 
   function renderLatestFeeds() {
     if (!latestFeedGrid) return;
+    if (latestFeedGrid.dataset.feedMode === "home") {
+      renderHomepageFeedSummary();
+      return;
+    }
     const updates = homepageFeedUpdates();
     if (!updates.length) {
       latestFeedGrid.innerHTML = `<div class="empty-state">目前沒有可顯示的公開 feed。</div>`;

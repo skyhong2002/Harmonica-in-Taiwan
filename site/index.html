@@ -42,7 +42,7 @@
             公開活動、學校社團、樂團、演奏者、教學工作室與場館入口索引。
           </p>
           <div class="hero-actions">
-            <a class="primary-link" href="#latest-feed">看最新更新</a>
+            <a class="primary-link" href="#latest-stories">看最新更新</a>
             <a class="secondary-link" href="/post/">公開貼文</a>
             <a class="secondary-link" href="/post/source/">公開來源</a>
             <a class="secondary-link" href="/scores/">比賽指定曲</a>
@@ -69,16 +69,50 @@
         </div>
       </section>
 
+      <section class="band latest-story-band" id="latest-stories" aria-labelledby="latest-stories-title">
+        <div class="band-inner">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Instagram Stories</p>
+              <h2 id="latest-stories-title">近 24 小時限動</h2>
+            </div>
+            <p class="data-date">Feed 更新 <span data-stat="feedGeneratedAt">-</span></p>
+          </div>
+          <div class="home-story-strip" id="home-story-list">
+            <div class="empty-state">載入近 24 小時限動中。</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="band public-calendar-band" id="public-calendar" aria-labelledby="public-calendar-title">
+        <div class="band-inner">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Public Calendar</p>
+              <h2 id="public-calendar-title">公開演出日曆</h2>
+            </div>
+            <p class="data-date">臺灣口琴公開演出</p>
+          </div>
+          <div class="public-calendar-frame">
+            <iframe
+              title="臺灣口琴公開演出 Google 日曆"
+              src="https://calendar.google.com/calendar/embed?src=4c80e43dc069b1ded7c42183a377c20cb2f675e71e8a627b57b883de83d3a219%40group.calendar.google.com&ctz=Asia%2FTaipei"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
       <section class="band latest-feed-band" id="latest-feed" aria-labelledby="latest-feed-title">
         <div class="band-inner">
           <div class="section-heading">
             <div>
               <p class="section-kicker">Latest Feed</p>
-              <h2 id="latest-feed-title">最新公開更新</h2>
+              <h2 id="latest-feed-title">近 12 篇貼文</h2>
             </div>
-            <p class="data-date">Feed 更新 <span data-stat="feedGeneratedAt">-</span></p>
+            <p class="data-date"><a href="/post/">完整貼文河道</a></p>
           </div>
-          <div class="latest-feed-grid" id="latest-feed-grid">
+          <div class="latest-feed-grid" id="latest-feed-grid" data-feed-mode="home">
             <!-- FEED_LATEST_START -->
             <div class="empty-state">載入最新公開更新中。</div>
             <!-- FEED_LATEST_END -->
