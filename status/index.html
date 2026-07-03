@@ -16,8 +16,8 @@
       <nav class="site-nav" aria-label="主要導覽">
         <a href="/">首頁</a>
         <a href="/directory/">資料索引</a>
-        <a href="/scores/">指定曲索引</a>
-        <a href="/score-sources/">譜源索引</a>
+        <a href="/scores/">比賽指定曲</a>
+        <a href="/score-sources/">口琴譜源</a>
         <a href="/status/">狀態</a>
       </nav>
     </header>
@@ -32,9 +32,9 @@
           <div class="feed-page-summary status-summary-panel">
             <div class="status-summary-line">
               <span class="status-badge status-degraded">部分異常</span>
-              <strong>核心 pipeline 有產出；需要注意：YouTube yt-dlp。 Instagram RSSHub、Facebook Apify 目前依排程或預算節流。</strong>
+              <strong>核心 pipeline 有產出；需要注意：主排程與輸出、YouTube yt-dlp。 Instagram RSSHub、Facebook Apify 目前依排程或預算節流。</strong>
             </div>
-            <p>快照時間 2026-07-03T16:55:34+08:00</p>
+            <p>快照時間 2026-07-03T17:16:22+08:00</p>
             <div class="feed-links">
               <a href="/api/status.json">Status JSON</a>
               <a href="/api/latest.json">Latest API</a>
@@ -97,13 +97,13 @@
           </div>
           <div class="status-component-grid">
 
-      <article class="status-component-card status-card-ok">
+      <article class="status-component-card status-card-degraded">
         <div class="status-component-head">
           <h2>主排程與輸出</h2>
-          <span class="status-badge status-ok">正常</span>
+          <span class="status-badge status-degraded">部分異常</span>
         </div>
-        <p>定期 pipeline 已產生公開資料快照。</p>
-        <ul class="status-detail-list"><li>最新公開資料：2026-07-03 16:55:34</li><li>pipeline.log 更新：2026-07-03 16:55:34</li><li>pipeline.err.log 更新：2026-07-03 15:51:41</li><li>LaunchAgent：running，last exit 0</li></ul>
+        <p>排程或輸出時間需要檢查。</p>
+        <ul class="status-detail-list"><li>最近 pipeline 失敗：publish github pages；heartbeat 2026-07-03 16:55:48。</li><li>最新公開資料：2026-07-03 16:55:34</li><li>pipeline.log 更新：2026-07-03 16:55:40</li><li>pipeline.err.log 更新：2026-07-03 16:55:48</li><li>LaunchAgent：not running，last exit 1</li></ul>
       </article>
 
 
@@ -123,7 +123,7 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>本機 RSSHub 入口回 200。</p>
-        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：21 ms</li></ul>
+        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：58 ms</li></ul>
       </article>
 
 
@@ -133,7 +133,7 @@
           <span class="status-badge status-paused">節流中</span>
         </div>
         <p>278 個 Instagram 來源（profile 139、story 139）；最新抓取批次目前 0 個錯誤。</p>
-        <ul class="status-detail-list"><li>最新社群觀測：2026-07-03 16:55:24</li><li>story 無公開內容/空路由略過：0</li><li>IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。</li><li>本輪 IG：抓取 16、排程略過 262、延後 0、錯誤 0。</li><li>下一個 IG 來源：約 2026-07-03 16:56:20</li></ul>
+        <ul class="status-detail-list"><li>最新社群觀測：2026-07-03 16:55:24</li><li>story 無公開內容/空路由略過：0</li><li>IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。</li><li>本輪 IG：抓取 16、排程略過 262、延後 0、錯誤 0。</li><li>下一個 IG 來源：約 2026-07-03 17:25:35</li></ul>
       </article>
 
 

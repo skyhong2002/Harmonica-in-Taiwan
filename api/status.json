@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-03T16:55:34+08:00",
+  "generatedAt": "2026-07-03T17:16:22+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "degraded",
     "label": "部分異常",
-    "summary": "核心 pipeline 有產出；需要注意：YouTube yt-dlp。 Instagram RSSHub、Facebook Apify 目前依排程或預算節流。"
+    "summary": "核心 pipeline 有產出；需要注意：主排程與輸出、YouTube yt-dlp。 Instagram RSSHub、Facebook Apify 目前依排程或預算節流。"
   },
   "metrics": {
     "updates": 810,
@@ -67,14 +67,15 @@
     {
       "id": "pipeline",
       "name": "主排程與輸出",
-      "status": "ok",
-      "label": "正常",
-      "summary": "定期 pipeline 已產生公開資料快照。",
+      "status": "degraded",
+      "label": "部分異常",
+      "summary": "排程或輸出時間需要檢查。",
       "details": [
+        "最近 pipeline 失敗：publish github pages；heartbeat 2026-07-03 16:55:48。",
         "最新公開資料：2026-07-03 16:55:34",
-        "pipeline.log 更新：2026-07-03 16:55:34",
-        "pipeline.err.log 更新：2026-07-03 15:51:41",
-        "LaunchAgent：running，last exit 0"
+        "pipeline.log 更新：2026-07-03 16:55:40",
+        "pipeline.err.log 更新：2026-07-03 16:55:48",
+        "LaunchAgent：not running，last exit 1"
       ]
     },
     {
@@ -96,7 +97,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：21 ms"
+        "耗時：58 ms"
       ]
     },
     {
@@ -110,7 +111,7 @@
         "story 無公開內容/空路由略過：0",
         "IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。",
         "本輪 IG：抓取 16、排程略過 262、延後 0、錯誤 0。",
-        "下一個 IG 來源：約 2026-07-03 16:56:20"
+        "下一個 IG 來源：約 2026-07-03 17:25:35"
       ]
     },
     {
@@ -165,14 +166,14 @@
   "recentErrors": [],
   "runtime": {
     "pipeline": {
-      "currentStep": "build status page",
-      "heartbeatAt": "2026-07-03T08:55:34.880034+00:00",
+      "currentStep": "publish github pages",
+      "heartbeatAt": "2026-07-03T08:55:48.380078+00:00",
       "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
       "maxPostAgeDays": 30,
-      "message": "",
+      "message": "Pipeline stopped before completion",
       "pid": 16476,
       "startedAt": "2026-07-03T08:51:41.651698+00:00",
-      "status": "running",
+      "status": "failed",
       "steps": [
         {
           "command": [
@@ -299,11 +300,44 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_status_page.py"
           ],
-          "finishedAt": "",
+          "finishedAt": "2026-07-03T08:55:36.025681+00:00",
           "name": "build status page",
-          "returnCode": null,
+          "returnCode": 0,
           "startedAt": "2026-07-03T08:55:34.880027+00:00",
-          "status": "running"
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/check_source_coverage.py"
+          ],
+          "finishedAt": "2026-07-03T08:55:37.725992+00:00",
+          "name": "check source coverage",
+          "returnCode": 0,
+          "startedAt": "2026-07-03T08:55:36.027623+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/validate_public_outputs.py"
+          ],
+          "finishedAt": "2026-07-03T08:55:38.440630+00:00",
+          "name": "validate public outputs",
+          "returnCode": 0,
+          "startedAt": "2026-07-03T08:55:37.727426+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/publish_github_pages.py"
+          ],
+          "finishedAt": "2026-07-03T08:55:48.376135+00:00",
+          "name": "publish github pages",
+          "returnCode": 1,
+          "startedAt": "2026-07-03T08:55:38.441485+00:00",
+          "status": "failed"
         }
       ],
       "version": 1
