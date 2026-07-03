@@ -502,7 +502,7 @@ h2 {
 }
 
 .story-card {
-  flex: 0 0 clamp(118px, 9vw, 164px);
+  flex: 0 0 clamp(190px, 19vw, 300px);
   scroll-snap-align: start;
 }
 
@@ -544,9 +544,9 @@ h2 {
 
 .story-progress {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
+  top: 14px;
+  left: 14px;
+  right: 14px;
   z-index: 2;
   height: 2px;
   background: rgba(255, 255, 255, 0.92);
@@ -556,13 +556,13 @@ h2 {
 
 .story-card-header {
   position: absolute;
-  top: 22px;
-  left: 10px;
-  right: 10px;
+  top: 30px;
+  left: 14px;
+  right: 14px;
   z-index: 2;
   display: grid;
-  grid-template-columns: 30px minmax(0, 1fr) auto;
-  gap: 7px;
+  grid-template-columns: 42px minmax(0, 1fr) auto;
+  gap: 9px;
   align-items: center;
   color: #fff;
   text-shadow: 0 1px 7px rgba(0, 0, 0, 0.58);
@@ -571,11 +571,11 @@ h2 {
 .story-card-avatar {
   display: grid;
   place-items: center;
-  width: 30px;
-  height: 30px;
+  width: 42px;
+  height: 42px;
   overflow: hidden;
   color: var(--paper);
-  font-size: 0.72rem;
+  font-size: 0.86rem;
   font-weight: 900;
   background: rgba(255, 255, 255, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.8);
@@ -600,13 +600,13 @@ h2 {
 
 .story-card-source {
   color: #fff;
-  font-size: 0.86rem;
+  font-size: clamp(0.9rem, 0.95vw, 1.08rem);
   font-weight: 900;
 }
 
 .story-card-time {
   color: rgba(255, 255, 255, 0.72);
-  font-size: 0.82rem;
+  font-size: clamp(0.82rem, 0.84vw, 0.98rem);
   font-weight: 800;
 }
 
