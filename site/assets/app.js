@@ -1565,7 +1565,9 @@
 
   function feedCountryFilterValues(item) {
     const country = String(item.country || "").trim();
-    return country && !nonLocationLabels.has(country) ? [country] : [];
+    if (!country || nonLocationLabels.has(country)) return [];
+    if (["台灣", "臺灣", "taiwan"].includes(country.toLowerCase())) return ["臺灣"];
+    return [country];
   }
 
   function feedKnownCountryValues(updates = feedData.updates || []) {
@@ -1636,6 +1638,28 @@
     if (!valuesMatchFilter(sortedPublicTags(item.matched_keywords || []), feedState.tag)) return false;
     if (!normalizedTextMatches(feedFilterText(item), feedState.query)) return false;
     return true;
+  }
+
+  function homeSummaryHasHarmonicaTag(item) {
+    return filterHasValue(sortedPublicTags(item.matched_keywords || []), "口琴");
+  }
+
+  function homeSummaryHasTaiwanSignal(item) {
+    const locationValues = [
+      ...feedCountryFilterValues(item),
+      ...feedRegionFilterValues(item),
+      item.country,
+      item.region,
+      item.directory_entry_name,
+      item.source,
+      item.source_system_name,
+    ].join(" ");
+    return /台灣|臺灣|taiwan/i.test(locationValues);
+  }
+
+  function homeSummaryFeedUpdates() {
+    return homepageFeedUpdates()
+      .filter((item) => homeSummaryHasHarmonicaTag(item) && homeSummaryHasTaiwanSignal(item));
   }
 
   function resetFeedPagination() {
@@ -1814,9 +1838,9 @@
 
   function renderHomepageFeedSummary() {
     if (!latestFeedGrid) return;
-    const updates = homepageFeedUpdates().slice(0, 12);
+    const updates = homeSummaryFeedUpdates().slice(0, 12);
     if (!updates.length) {
-      latestFeedGrid.innerHTML = `<div class="empty-state">目前沒有可顯示的公開貼文。</div>`;
+      latestFeedGrid.innerHTML = `<div class="empty-state">目前沒有符合口琴與台灣篩選的公開貼文。</div>`;
       return;
     }
     latestFeedGrid.innerHTML = `
