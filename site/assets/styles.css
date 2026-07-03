@@ -507,13 +507,13 @@ h2 {
 }
 
 .story-card a {
-  display: grid;
-  gap: 8px;
+  display: block;
   color: inherit;
   text-decoration: none;
 }
 
 .story-thumb {
+  position: relative;
   display: block;
   aspect-ratio: 9 / 16;
   overflow: hidden;
@@ -542,6 +542,53 @@ h2 {
   fill: currentColor;
 }
 
+.story-progress {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  z-index: 2;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 999px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.story-card-header {
+  position: absolute;
+  top: 22px;
+  left: 10px;
+  right: 10px;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 30px minmax(0, 1fr) auto;
+  gap: 7px;
+  align-items: center;
+  color: #fff;
+  text-shadow: 0 1px 7px rgba(0, 0, 0, 0.58);
+}
+
+.story-card-avatar {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  color: var(--paper);
+  font-size: 0.72rem;
+  font-weight: 900;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 999px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.story-card-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .story-card-source,
 .story-card-time {
   display: block;
@@ -552,13 +599,13 @@ h2 {
 }
 
 .story-card-source {
-  color: var(--ink);
-  font-size: 0.92rem;
+  color: #fff;
+  font-size: 0.86rem;
   font-weight: 900;
 }
 
 .story-card-time {
-  color: var(--muted);
+  color: rgba(255, 255, 255, 0.72);
   font-size: 0.82rem;
   font-weight: 800;
 }
@@ -691,15 +738,30 @@ h2 {
 }
 
 .public-calendar-upcoming h3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: baseline;
+  justify-content: space-between;
   margin: 0;
   color: var(--ink);
   font-size: 1rem;
+}
+
+.public-calendar-upcoming h3 span {
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 800;
 }
 
 .public-calendar-event-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 8px;
+  max-height: 420px;
+  overflow-y: auto;
+  padding-right: 4px;
+  overscroll-behavior: contain;
 }
 
 .public-calendar-event-list a {

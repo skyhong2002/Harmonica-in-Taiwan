@@ -1280,15 +1280,21 @@
 
   function storyCard(item, { clone = false } = {}) {
     const image = item.image_url
-      ? `<span class="story-thumb"><img src="${escapeHtml(item.image_url)}" alt="" loading="lazy" referrerpolicy="no-referrer"></span>`
-      : `<span class="story-thumb story-thumb-empty" aria-hidden="true">${platformIconSvg("instagram")}</span>`;
+      ? `<img src="${escapeHtml(item.image_url)}" alt="" loading="lazy" referrerpolicy="no-referrer">`
+      : platformIconSvg("instagram");
     const hiddenAttrs = clone ? ` aria-hidden="true" tabindex="-1"` : "";
     return `
       <article class="story-card"${hiddenAttrs}>
         <a href="${escapeHtml(item.link || sourceProfileUrl(item) || "#")}" target="_blank" rel="noreferrer"${clone ? ` tabindex="-1"` : ""}>
-          ${image}
-          <span class="story-card-source">${escapeHtml(storyAccountLabel(item))}</span>
-          <span class="story-card-time">${escapeHtml(storyRelativeTimeLabel(item))}</span>
+          <span class="story-thumb${item.image_url ? "" : " story-thumb-empty"}">
+            ${image}
+            <span class="story-progress" aria-hidden="true"></span>
+            <span class="story-card-header">
+              ${sourceAvatar(item, "story-card-avatar")}
+              <span class="story-card-source">${escapeHtml(storyAccountLabel(item))}</span>
+              <span class="story-card-time">${escapeHtml(storyRelativeTimeLabel(item))}</span>
+            </span>
+          </span>
         </a>
       </article>
     `;
@@ -1457,6 +1463,18 @@
     }).format(parsed);
   }
 
+  function publicCalendarFullDateLabel(event) {
+    const parsed = publicCalendarStartDate(event);
+    if (!parsed) return "";
+    return new Intl.DateTimeFormat("zh-TW", {
+      timeZone: "Asia/Taipei",
+      year: "numeric",
+      month: "numeric",
+      day: "numeric",
+      weekday: "short",
+    }).format(parsed);
+  }
+
   function sortedPublicCalendarEvents() {
     return (publicCalendarData.events || [])
       .filter((event) => publicCalendarStartDate(event))
@@ -1505,7 +1523,7 @@
       return map;
     }, new Map());
     const days = monthCalendarDays(monthAnchor);
-    const upcoming = events.filter((event) => publicCalendarDateKey(event) >= todayKey).slice(0, 30);
+    const upcoming = events.filter((event) => publicCalendarDateKey(event) >= todayKey);
     publicCalendarWidget.innerHTML = `
       <div class="public-calendar-panel">
         <div class="public-calendar-toolbar">
@@ -1538,11 +1556,11 @@
           </div>
         </div>
         <div class="public-calendar-upcoming">
-          <h3>近期事件線索</h3>
+          <h3>近期事件線索 <span>${escapeHtml(upcoming.length)} 筆未來活動</span></h3>
           <div class="public-calendar-event-list">
             ${upcoming.map((event) => `
               <a href="/event/${escapeHtml(event.id)}/">
-                <span class="public-calendar-event-date">${escapeHtml(publicCalendarDateLabel(event))}</span>
+                <span class="public-calendar-event-date">${escapeHtml(publicCalendarFullDateLabel(event))}</span>
                 <span class="public-calendar-event-title">${escapeHtml(event.title || event.source || "公開口琴活動")}</span>
                 <span class="public-calendar-event-source">${escapeHtml(event.source || event.platform || "")}</span>
               </a>
