@@ -1,12 +1,12 @@
 {
-  "currentStep": "publish github pages",
-  "heartbeatAt": "2026-07-03T09:26:40.278467+00:00",
+  "currentStep": "",
+  "heartbeatAt": "2026-07-03T09:26:50.741650+00:00",
   "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
   "maxPostAgeDays": 30,
-  "message": "",
+  "message": "Pipeline completed",
   "pid": 20551,
   "startedAt": "2026-07-03T09:25:48.459006+00:00",
-  "status": "running",
+  "status": "ok",
   "steps": [
     {
       "command": [
@@ -166,11 +166,11 @@
         "/Library/Developer/CommandLineTools/usr/bin/python3",
         "scripts/publish_github_pages.py"
       ],
-      "finishedAt": "",
+      "finishedAt": "2026-07-03T09:26:50.738732+00:00",
       "name": "publish github pages",
-      "returnCode": null,
+      "returnCode": 0,
       "startedAt": "2026-07-03T09:26:40.278459+00:00",
-      "status": "running"
+      "status": "ok"
     }
   ],
   "version": 1
