@@ -1,8 +1,8 @@
 window.publicCalendarEvents = {
   "version": 1,
-  "generatedAt": "2026-07-03T23:15:20+08:00",
+  "generatedAt": "2026-07-04T00:20:23+08:00",
   "timezone": "Asia/Taipei",
-  "count": 2,
+  "count": 3,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -13,7 +13,7 @@ window.publicCalendarEvents = {
     "tokenSource": "keychain:harmonica-opencode-go/harmonica",
     "model": "mimo-v2.5",
     "stats": {
-      "requests": 0,
+      "requests": 1,
       "cached": 14,
       "errors": 0
     }
@@ -72,6 +72,33 @@ window.publicCalendarEvents = {
         "confidence": 0.9
       },
       "postedAt": "2026-06-26 18:30"
+    },
+    {
+      "id": "3695b6924076e208",
+      "title": "臺中一中口琴之狼校友音樂會《天琴聲等煙雨》",
+      "eventName": "臺中一中口琴之狼校友音樂會《天琴聲等煙雨》",
+      "source": "中一中口琴社",
+      "platform": "facebook",
+      "start": "2026-08-02",
+      "end": "2026-08-03",
+      "allDay": true,
+      "location": "臺中 大墩文化中心 B1 演講廳",
+      "venue": "大墩文化中心 B1 演講廳",
+      "city": "臺中",
+      "details": "校友音樂會，免費入場，活動時間為2026年8月21日（五）晚上六點半。",
+      "evidenceUrl": "https://www.facebook.com/tcfsh.harmonica/posts/pfbid026TX9x37qBLk1W7jif1qzR2vfQrhDWpVWSXjmo8mDw9xLn5CHnUEx5PmsZfsebB4Zl",
+      "confidence": 0.95,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventName": "臺中一中口琴之狼校友音樂會《天琴聲等煙雨》",
+        "venue": "大墩文化中心 B1 演講廳",
+        "city": "臺中",
+        "details": "校友音樂會，免費入場，活動時間為2026年8月21日（五）晚上六點半。",
+        "reason": "貼文明確說明為口琴校友音樂會，有具體日期、時間、地點與免費入場資訊，符合收錄條件。",
+        "confidence": 0.95
+      },
+      "postedAt": "2026-07-03 17:52"
     }
   ]
 };
