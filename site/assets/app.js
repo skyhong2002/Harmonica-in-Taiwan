@@ -97,6 +97,10 @@
     public: "Public",
   };
   let feedAutoLoadObserver = null;
+  let homeStoryAutoScrollFrame = 0;
+  let homeStoryAutoScrollLastTime = 0;
+  let homeStoryAutoScrollRemainder = 0;
+  let homeStoryAutoScrollPaused = false;
 
   const nonLocationLabels = new Set(["國際", "臺灣交流", "臺灣爵士圈"]);
   const directoryFilterNames = ["country", "region", "hashtags"];
@@ -109,7 +113,6 @@
   const directoryList = document.querySelector("#directory-list");
   const latestFeedGrid = document.querySelector("#latest-feed-grid");
   const homeStoryList = document.querySelector("#home-story-list");
-  const homeStorySlider = document.querySelector("#home-story-slider");
   const publicCalendarWidget = document.querySelector("#public-calendar-widget");
   const spotlightList = document.querySelector("#spotlight-list");
   const resultCount = document.querySelector("#result-count");
@@ -1276,32 +1279,84 @@
     const stories = recentStoryItems();
     if (!stories.length) {
       homeStoryList.innerHTML = `<div class="empty-state">近 24 小時內尚未抓到可顯示的公開 Instagram 限動。</div>`;
-      updateHomeStorySlider();
+      stopHomeStoryAutoScroll();
       return;
     }
     homeStoryList.innerHTML = stories.map(storyCard).join("");
-    updateHomeStorySlider();
+    startHomeStoryAutoScroll();
   }
 
-  function updateHomeStorySlider() {
-    if (!homeStoryList || !homeStorySlider) return;
-    const maxScroll = Math.max(0, homeStoryList.scrollWidth - homeStoryList.clientWidth);
-    homeStorySlider.max = String(Math.ceil(maxScroll));
-    homeStorySlider.value = String(Math.min(Math.ceil(homeStoryList.scrollLeft), Math.ceil(maxScroll)));
-    homeStorySlider.disabled = maxScroll <= 1;
-    homeStorySlider.closest(".home-story-slider-wrap")?.classList.toggle("is-disabled", maxScroll <= 1);
+  function homeStoryMaxScroll() {
+    if (!homeStoryList) return 0;
+    return Math.max(0, homeStoryList.scrollWidth - homeStoryList.clientWidth);
   }
 
-  function bindHomeStorySlider() {
-    if (!homeStoryList || !homeStorySlider) return;
-    homeStorySlider.addEventListener("input", () => {
-      homeStoryList.scrollLeft = Number(homeStorySlider.value || 0);
+  function stopHomeStoryAutoScroll() {
+    if (homeStoryAutoScrollFrame) {
+      cancelAnimationFrame(homeStoryAutoScrollFrame);
+      homeStoryAutoScrollFrame = 0;
+    }
+    homeStoryAutoScrollLastTime = 0;
+    homeStoryAutoScrollRemainder = 0;
+    homeStoryList?.classList.remove("is-auto-scrolling");
+  }
+
+  function autoScrollHomepageStories(timestamp) {
+    if (!homeStoryList) return;
+    const maxScroll = homeStoryMaxScroll();
+    if (maxScroll <= 1) {
+      stopHomeStoryAutoScroll();
+      return;
+    }
+    if (!homeStoryAutoScrollLastTime) homeStoryAutoScrollLastTime = timestamp;
+    const elapsed = Math.min(64, timestamp - homeStoryAutoScrollLastTime);
+    homeStoryAutoScrollLastTime = timestamp;
+    const shouldAutoScroll = !homeStoryAutoScrollPaused && !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    homeStoryList.classList.toggle("is-auto-scrolling", shouldAutoScroll);
+    if (shouldAutoScroll) {
+      homeStoryAutoScrollRemainder += elapsed * 0.026;
+      const pixels = Math.floor(homeStoryAutoScrollRemainder);
+      if (pixels > 0) {
+        homeStoryAutoScrollRemainder -= pixels;
+        const nextLeft = homeStoryList.scrollLeft + pixels;
+        homeStoryList.scrollLeft = nextLeft >= maxScroll ? 0 : nextLeft;
+      }
+    }
+    homeStoryAutoScrollFrame = requestAnimationFrame(autoScrollHomepageStories);
+  }
+
+  function startHomeStoryAutoScroll() {
+    if (!homeStoryList || homeStoryAutoScrollFrame || homeStoryMaxScroll() <= 1) return;
+    homeStoryAutoScrollFrame = requestAnimationFrame(autoScrollHomepageStories);
+  }
+
+  function bindHomeStoryScroll() {
+    if (!homeStoryList) return;
+    homeStoryList.addEventListener("wheel", (event) => {
+      const maxScroll = homeStoryMaxScroll();
+      if (maxScroll <= 1) return;
+      const delta = Math.abs(event.deltaY) > Math.abs(event.deltaX) ? event.deltaY : event.deltaX;
+      if (!delta) return;
+      homeStoryList.scrollLeft += delta;
+      event.preventDefault();
+    }, { passive: false });
+    homeStoryList.addEventListener("mouseenter", () => {
+      homeStoryAutoScrollPaused = true;
+      homeStoryList.classList.remove("is-auto-scrolling");
     });
-    homeStoryList.addEventListener("scroll", () => {
-      if (homeStorySlider.matches(":active")) return;
-      homeStorySlider.value = String(Math.ceil(homeStoryList.scrollLeft));
-    }, { passive: true });
-    window.addEventListener("resize", updateHomeStorySlider);
+    homeStoryList.addEventListener("mouseleave", () => {
+      homeStoryAutoScrollPaused = false;
+      startHomeStoryAutoScroll();
+    });
+    homeStoryList.addEventListener("focusin", () => {
+      homeStoryAutoScrollPaused = true;
+      homeStoryList.classList.remove("is-auto-scrolling");
+    });
+    homeStoryList.addEventListener("focusout", () => {
+      homeStoryAutoScrollPaused = false;
+      startHomeStoryAutoScroll();
+    });
+    window.addEventListener("resize", startHomeStoryAutoScroll);
   }
 
   function taipeiDateParts(date) {
@@ -3449,7 +3504,7 @@
 
     bindDirectoryHashtags();
     bindFeedTextToggles();
-    bindHomeStorySlider();
+    bindHomeStoryScroll();
 
     renderHomepageStories();
     renderPublicCalendar();
