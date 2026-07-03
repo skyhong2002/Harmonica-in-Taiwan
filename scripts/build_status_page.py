@@ -851,11 +851,9 @@ def render_status_page(status: dict[str, Any]) -> str:
         <img class="brand-logo" src="/assets/logo.svg?v={ASSET_VERSION}" alt="臺灣口琴觀測站" width="200" height="47">
       </a>
       <nav class="site-nav" aria-label="主要導覽">
-        <a href="/">首頁</a>
         <a href="/post/">公開貼文</a>
         <a href="/post/source/">公開來源</a>
         <a href="/scores/">比賽指定曲</a>
-        <a href="/scores/sources/">口琴譜源</a>
         <a href="/status/">狀態</a>
       </nav>
     </header>

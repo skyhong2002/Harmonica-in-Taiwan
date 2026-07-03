@@ -1282,11 +1282,16 @@ def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
     if is_generic_source_name(source_system_name):
         source_system_name = source
     source_profile_url = public_source_profile_url(row, profile)
+    link = str(row.get("url") or PUBLIC_BASE_URL)
+    directory_profile = directory_profile_for_update(row, profile, source, source_profile_url, link)
+    
+    directory_name = directory_profile.get("directory_entry_name") or ""
+    if directory_name:
+        source = directory_name
+        
     text = compact_multiline(str(row.get("text") or ""), 1200)
     title = compact(f"{source}｜{text}", 120)
     headline = first_content_line(text, 120) or source
-    link = str(row.get("url") or PUBLIC_BASE_URL)
-    directory_profile = directory_profile_for_update(row, profile, source, source_profile_url, link)
     categories = candidate_category_ids(row)
     display_tags = candidate_display_tags(row)
     media_type = str(row.get("media_type") or "")
@@ -1334,6 +1339,9 @@ def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
         "platform_label": platform_label,
         "posted_at": row.get("posted_at") or "",
         "posted_at_local": local_date(str(row.get("posted_at") or "")),
+        "like_count": row.get("like_count"),
+        "comment_count": row.get("comment_count"),
+        "view_count": row.get("view_count"),
         "seen_at": row.get("seen_at") or "",
         "media_type": media_type,
         "story": story,
@@ -2306,8 +2314,9 @@ def render_feed_page(category: dict[str, str], items: list[dict[str, Any]]) -> s
         {BRAND_LOGO_HTML}
       </a>
       <nav class="site-nav" aria-label="主要導覽">
-        <a href="/">首頁</a>
-        <a href="/directory/">資料索引</a>
+        <a href="/post/">公開貼文</a>
+        <a href="/post/source/">公開來源</a>
+        <a href="/scores/">比賽指定曲</a>
         <a href="/status/">狀態</a>
       </nav>
     </header>
@@ -2374,8 +2383,9 @@ def render_feed_index(categorized: dict[str, list[dict[str, Any]]]) -> str:
         {BRAND_LOGO_HTML}
       </a>
       <nav class="site-nav" aria-label="主要導覽">
-        <a href="/">首頁</a>
-        <a href="/directory/">資料索引</a>
+        <a href="/post/">公開貼文</a>
+        <a href="/post/source/">公開來源</a>
+        <a href="/scores/">比賽指定曲</a>
         <a href="/status/">狀態</a>
       </nav>
     </header>

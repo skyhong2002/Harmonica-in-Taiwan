@@ -1123,6 +1123,29 @@
       .join("");
   }
 
+  function formatEngagementNumber(val) {
+    const num = Number(val);
+    if (!Number.isFinite(num)) return String(val || "");
+    if (num >= 1000000) return (num / 1000000).toFixed(1).replace(/\.0$/, "") + "M";
+    if (num >= 1000) return (num / 1000).toFixed(1).replace(/\.0$/, "") + "K";
+    return num.toLocaleString();
+  }
+
+  function feedEngagementHtml(item) {
+    const parts = [];
+    if (item.view_count !== undefined && item.view_count !== null && item.view_count !== "") {
+      parts.push(`<span class="feed-engagement-item" title="瀏覽量">👁️ ${escapeHtml(formatEngagementNumber(item.view_count))}</span>`);
+    }
+    if (item.like_count !== undefined && item.like_count !== null && item.like_count !== "") {
+      parts.push(`<span class="feed-engagement-item" title="按讚量">👍 ${escapeHtml(formatEngagementNumber(item.like_count))}</span>`);
+    }
+    if (item.comment_count !== undefined && item.comment_count !== null && item.comment_count !== "") {
+      parts.push(`<span class="feed-engagement-item" title="留言量">💬 ${escapeHtml(formatEngagementNumber(item.comment_count))}</span>`);
+    }
+    if (!parts.length) return "";
+    return `<span class="feed-engagement">${parts.join("")}</span>`;
+  }
+
   function homeFeedCard(item, index = 0, options = {}) {
     const showTags = options.showTags !== false;
     const displayTitle = homepageDisplayTitle(item);
@@ -1135,6 +1158,10 @@
       displayTitle ? "" : "home-feed-body-no-title",
     ].filter(Boolean).join(" ");
     const tagHtml = showTags ? feedTagPills(item) : "";
+    const engagementHtml = feedEngagementHtml(item);
+    const metaContainer = (tagHtml || engagementHtml)
+      ? `<div class="entry-meta">${tagHtml}${engagementHtml}</div>`
+      : "";
     const textBlock = homeFeedTextBlock(item, index, displayTitle);
     return `
       <article class="home-feed-card">
@@ -1150,7 +1177,7 @@
           ${textBlock}
         </div>
         <div class="home-feed-footer">
-          ${tagHtml ? `<div class="entry-meta">${tagHtml}</div>` : ""}
+          ${metaContainer}
           <a class="feed-open-link" href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">開啟來源</a>
         </div>
       </article>

@@ -322,6 +322,9 @@ def normalize_video(source: dict[str, Any], info: dict[str, Any]) -> dict[str, A
         "source_profile_url": source_profile_url,
         "text": compact_text("\n".join(part for part in [title, description] if part)),
         "url": video_url,
+        "like_count": info.get("like_count"),
+        "comment_count": info.get("comment_count"),
+        "view_count": info.get("view_count"),
     }
 
 

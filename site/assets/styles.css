@@ -1420,6 +1420,27 @@ h2 {
   flex-wrap: wrap;
   gap: 7px;
   margin: 14px 0;
+  align-items: center;
+}
+
+.feed-engagement {
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 0.82rem;
+  color: #59625d;
+}
+
+.pill + .feed-engagement {
+  margin-left: 4px;
+  border-left: 1px solid var(--line);
+  padding-left: 10px;
+}
+
+.feed-engagement-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
 }
 
 .entry-context {
@@ -2633,17 +2654,21 @@ button.feed-tag-pill {
 @media (max-width: 640px) {
   .site-header {
     position: static;
-    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 12px;
     padding: 14px 16px;
   }
 
   .brand {
     width: min(200px, 62vw);
     min-width: 180px;
+    margin-right: 4px;
   }
 
   .site-nav {
-    gap: 2px;
+    display: contents;
   }
 
   .site-nav a {
