@@ -14,8 +14,8 @@
 
 - 網站首頁：`https://harmonica.observe.tw/`
 - 資料索引：`https://harmonica.observe.tw/directory/`
-- 指定曲索引：`https://harmonica.observe.tw/scores/`
-- 譜源索引：`https://harmonica.observe.tw/score-sources/`
+- 比賽指定曲：`https://harmonica.observe.tw/scores/`
+- 口琴譜源：`https://harmonica.observe.tw/score-sources/`
 - 資料回報：`https://harmonica.observe.tw/submit/`
 - RSS 分類入口：`https://harmonica.observe.tw/feeds/`
 - 公開 API：`https://harmonica.observe.tw/api/*.json`

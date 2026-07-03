@@ -2261,10 +2261,10 @@
     scoreFilterPanel.innerHTML = searchFilterPanel({
       scope: "score",
       className: "score-filter-panel",
-      label: "指定曲索引篩選",
+      label: "比賽指定曲篩選",
       summary: `${records.length} / ${scoreTotalCount()} 筆指定曲線索`,
       searchId: "score-search-input",
-      searchLabel: "搜尋指定曲索引",
+      searchLabel: "搜尋比賽指定曲",
       searchValue: scoreState.query,
       searchPlaceholder: "搜尋曲名、出版者、作編曲、組別",
       extraControls: scoreYearRangeControl(),
@@ -2772,10 +2772,10 @@
     scoreSourceFilterPanel.innerHTML = searchFilterPanel({
       scope: "score-source",
       className: "score-filter-panel",
-      label: "口琴譜源索引篩選",
+      label: "口琴譜源篩選",
       summary: `${records.length} / ${scoreSourceTotalCount()} 筆譜源線索`,
       searchId: "score-source-search-input",
-      searchLabel: "搜尋口琴譜源索引",
+      searchLabel: "搜尋口琴譜源",
       searchValue: scoreSourceState.query,
       searchPlaceholder: "搜尋來源、曲名、作編曲、購買或洽詢方式",
       groups: [
