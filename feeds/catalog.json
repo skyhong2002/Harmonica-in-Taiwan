@@ -2,8 +2,8 @@
   "feeds": [
     {
       "id": "events",
-      "title": "全臺灣口琴實體活動",
-      "description": "全臺灣公開口琴演出、成發、音樂會、講座、工作坊與可到場活動。",
+      "title": "口琴公開活動",
+      "description": "國內口琴公開活動，以及國內外有明確時間的線上口琴直播、講座與音樂會。",
       "page": "https://harmonica.observe.tw/feeds/events/",
       "rss": "https://harmonica.observe.tw/feeds/events.xml",
       "json": "https://harmonica.observe.tw/feeds/events.json",
