@@ -67,6 +67,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/watchlist-128/</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/watchlist-58/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -85,6 +91,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/watchlist-103/</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/watchlist-167/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -92,6 +104,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-55/</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/watchlist-54/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -163,12 +181,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-128/</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/watchlist-124/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
@@ -182,12 +194,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-110/</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-103/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -236,12 +242,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-114/</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-54/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1262,12 +1262,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/event/88fb7911620b72be/</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/event/d0ad3cb28df70b2e/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
