@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 03 Jul 2026 22:06:36 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 23:10:13 +0000</lastBuildDate>
     <item>
       <title>Howard Levy</title>
       <link>https://levyland.com/</link>
@@ -62,6 +62,17 @@ Tag：演奏者、半音階、重奏
 臺灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。</description>
     </item>
     <item>
+      <title>口琴愛好者協會（新加坡）</title>
+      <link>https://www.harmonica-as.com/about</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/62b26986382b2eb9</guid>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：國際交流
+Tag：口琴、國際交流
+國家：新加坡
+地區：新加坡
+新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。</description>
+    </item>
+    <item>
       <title>Antonio Serrano</title>
       <link>https://www.hohner.de/en/antonio-serrano</link>
       <guid>https://harmonica.observe.tw/feeds/sources/93cfaa5dee8acf42</guid>
@@ -82,6 +93,17 @@ Tag：場館平台、活動資訊、演出
 國家：臺灣
 地區：臺灣/臺中
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>韋笙堡口琴 Weissenberg Harmonicas</title>
+      <link>https://www.weissenbergwind.com/tw/product_list.php?type=4</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/6943943f14cc844d</guid>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：口琴、教學器材、教學
+國家：臺灣
+地區：臺灣/臺中
+臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。</description>
     </item>
     <item>
       <title>Marcos Coll</title>
@@ -535,17 +557,6 @@ Tag：口琴、演奏者、重奏
 臺灣的低音口琴與重奏演出人員與音控，活動脈絡包含演出與音控。</description>
     </item>
     <item>
-      <title>韋笙堡口琴 Weissenberg Harmonicas</title>
-      <link>https://www.weissenbergwind.com/tw/product_list.php?type=4</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/6943943f14cc844d</guid>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：口琴、教學器材、教學
-國家：臺灣
-地區：臺灣/臺中
-臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。</description>
-    </item>
-    <item>
       <title>Santiago Alvarez</title>
       <link>https://worldharmonicafestival.de/artist-profile-santiago-alvarez/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/2cffec8e56b63330</guid>
@@ -896,17 +907,6 @@ Tag：口琴、團體樂團
 國家：臺灣
 地區：臺灣/臺北
 臺灣的口琴演出團體，活動脈絡包含口琴樂團與年度公演。</description>
-    </item>
-    <item>
-      <title>口琴愛好者協會（新加坡）</title>
-      <link>https://www.harmonica-as.com/about</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/62b26986382b2eb9</guid>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：國際交流
-Tag：口琴、國際交流
-國家：新加坡
-地區：新加坡
-新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。</description>
     </item>
     <item>
       <title>Duo Volce Music Studio 誼聲音樂室</title>
