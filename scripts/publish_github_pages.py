@@ -159,6 +159,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
+      - name: Delay for artifact propagation
+        run: sleep 10
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
