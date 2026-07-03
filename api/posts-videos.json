@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/posts-videos.xml",
   "json": "https://harmonica.observe.tw/api/posts-videos.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/posts-videos.json",
-  "count": 785,
+  "count": 786,
   "items": [
     {
       "title": "山下伶 Rei Yamashita｜Instagram story @rei_harmonica",
@@ -220,6 +220,71 @@
         "貼文影片"
       ],
       "key": "ig_story_sorhei:3932488410786745013_32225796"
+    },
+    {
+      "title": "Jens Bunge｜At the jam session at Wildcard Singapore",
+      "headline": "At the jam session at Wildcard Singapore",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DaS_nuAD8AW/",
+      "source_id": "ig_jensbunge_jazzharmonica",
+      "source": "Jens Bunge",
+      "source_system_name": "Jens Bunge",
+      "source_profile_url": "https://www.instagram.com/jensbunge.jazzharmonica/",
+      "country": "德國",
+      "region": "德國",
+      "directory_entry_id": "watchlist-128",
+      "directory_entry_name": "Jens Bunge",
+      "account": "jensbunge.jazzharmonica",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Thu, 02 Jul 2026 16:13:13 GMT",
+      "posted_at_local": "2026-07-03 00:13",
+      "seen_at": "2026-07-03T01:31:09.242844+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/jensbunge.jazzharmonica",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "演出"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.85,
+      "llm_labels": [
+        "口琴",
+        "演出"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "內容為口琴演奏者在新加坡的即興演奏活動，屬口琴演出。",
+      "text": "At the jam session at Wildcard Singapore",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/736226172_18368755246236303_7347459275488142701_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=106&ig_cache_key=MzkzMjQ4MzczNTkzMjIxNTQwNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=OBA7w5ZpKQwQ7kNvwGQjY3C&_nc_oc=Adqo8eLky4vM8s2K8wdCnzn0EVfbWYR2LsDiaQJkCjjTRozlluVYyixBzfCkFVBBKm4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=f_DnKLyuhSBd34nJNWguxA&_nc_ss=7a22e&oh=00_AQApsvZ7UU5Z-HmDg7wG0IysLN78-GiCV_3d8ejhrTNcCA&oe=6A4CF7B4",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/731541259_18368755288236303_5296818122111247961_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=MzkzMjQ4MzgxNDczMTc5OTM5MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=0PdlGwnO2xYQ7kNvwHQYMwL&_nc_oc=Adr4uyAwFb8cHPwO0gDigZ5Y9BJn8iWyBdp8RCr8DPsBfZgdzgikdnyirbao-qyVzBo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=f_DnKLyuhSBd34nJNWguxA&_nc_ss=7a22e&oh=00_AQDQleCukqfUEZPW9hKQWEwjiY81XkFxVEwFg3ja9CCsYA&oe=6A4CE190"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/736226172_18368755246236303_7347459275488142701_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=106&ig_cache_key=MzkzMjQ4MzczNTkzMjIxNTQwNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=OBA7w5ZpKQwQ7kNvwGQjY3C&_nc_oc=Adqo8eLky4vM8s2K8wdCnzn0EVfbWYR2LsDiaQJkCjjTRozlluVYyixBzfCkFVBBKm4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=f_DnKLyuhSBd34nJNWguxA&_nc_ss=7a22e&oh=00_AQApsvZ7UU5Z-HmDg7wG0IysLN78-GiCV_3d8ejhrTNcCA&oe=6A4CF7B4",
+      "image_url": "/assets/feed-images/4c8b2111d2a846b6993c.webp",
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/538731817_18324506119236303_5140016961001233642_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gEj_huUnYYNBhwVOIsBfVbDDeX6uRa0OKNs2EoPbQUgSVxylqMfZP-Liu6PYBR8QnE&_nc_ohc=NrneUEYtb_oQ7kNvwH4joSR&_nc_gid=MCoImfu7uqEjn0gk0d1Log&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQBaTOEafgYXuvEThTAsd2IraJuuICxe6ZbbCKK7PZpv-A&oe=6A4CDAF4&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/554876af4502498da88d.webp",
+      "source_initials": "JB",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "實體活動"
+      ],
+      "key": "ig_jensbunge_jazzharmonica:https://www.instagram.com/p/DaS_nuAD8AW/"
     },
     {
       "title": "Aiden Soon｜Instagram story @aidensoon",
