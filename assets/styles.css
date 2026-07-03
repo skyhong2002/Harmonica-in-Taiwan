@@ -442,9 +442,15 @@ h2 {
   gap: 14px;
 }
 
+.latest-story-band,
 .latest-feed-band {
   background: #f8faf8;
   border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.public-calendar-band {
+  background: var(--paper);
   border-bottom: 1px solid var(--line);
 }
 
@@ -452,6 +458,92 @@ h2 {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: 16px;
+}
+
+.home-story-strip {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 2px 2px 12px;
+  scroll-snap-type: x proximity;
+}
+
+.story-card {
+  flex: 0 0 156px;
+  scroll-snap-align: start;
+}
+
+.story-card a {
+  display: grid;
+  gap: 8px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.story-thumb {
+  display: block;
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
+  background: #eef4f0;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 10px 24px rgba(23, 33, 29, 0.08);
+}
+
+.story-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.story-thumb-empty {
+  display: grid;
+  place-items: center;
+  color: #c13584;
+}
+
+.story-thumb-empty svg {
+  width: 36px;
+  height: 36px;
+  fill: currentColor;
+}
+
+.story-card-source,
+.story-card-time {
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.story-card-source {
+  color: var(--ink);
+  font-size: 0.92rem;
+  font-weight: 900;
+}
+
+.story-card-time {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.public-calendar-frame {
+  overflow: hidden;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 10px 26px rgba(23, 33, 29, 0.06);
+}
+
+.public-calendar-frame iframe {
+  display: block;
+  width: 100%;
+  height: min(72vh, 680px);
+  min-height: 520px;
+  border: 0;
 }
 
 .feed-filter-row {
@@ -712,10 +804,14 @@ h2 {
 }
 
 .feed-load-more-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   min-height: 46px;
   padding: 0 18px;
   color: #fff;
   font-weight: 900;
+  text-decoration: none;
   background: var(--ink);
   border: 1px solid var(--ink);
   border-radius: var(--radius);
