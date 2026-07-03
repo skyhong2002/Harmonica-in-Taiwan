@@ -65,6 +65,75 @@
   },
   "entries": [
     {
+      "id": "watchlist-167",
+      "name": "新加坡青年節藝術展演（口琴）",
+      "nameEn": "Singapore Youth Festival Arts Presentation - Harmonica",
+      "category": "活動資訊",
+      "type": "學校比賽/資訊入口",
+      "country": "新加坡",
+      "region": "新加坡",
+      "cityOrFocus": "官方學生藝術展演/口琴項目/SYF",
+      "structuredSummary": "官方學生藝術展演/口琴項目/SYF / 口琴/學生合奏 / 學生比賽來源",
+      "summary": "新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。",
+      "keywords": "新加坡青年節藝術展演 Singapore Youth Festival Arts Presentation Harmonica SYF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.syf.gov.sg/general/calendar"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/sgyouthfest/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sgyouthfest/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-03T15:23:44+00:00",
+      "latestUpdateLocal": "2026-07-03 23:23",
+      "latestUpdateSource": "新加坡青年節藝術展演（口琴）",
+      "latestUpdateUrl": "https://www.instagram.com/stories/sgyouthfest/3933185174318221363/",
+      "avatarUrl": "/assets/source-avatars/b6435a473470038522d6.webp",
+      "sourceInitials": "新加",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "比賽"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_sgyouthfest",
+          "name": "新加坡青年節藝術展演（口琴）",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/sgyouthfest",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sgyouthfest",
+          "name": "新加坡青年節藝術展演（口琴）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sgyouthfest",
+          "profileUrl": "https://www.instagram.com/sgyouthfest/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sgyouthfest",
+          "name": "新加坡青年節藝術展演（口琴）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sgyouthfest",
+          "profileUrl": "https://www.instagram.com/sgyouthfest/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sgyouthfest/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-34",
       "name": "王衍華",
       "nameEn": "Yen-Hua Wang",
@@ -802,6 +871,120 @@
       ]
     },
     {
+      "id": "watchlist-30+watchlist-101",
+      "name": "蔡明憲 DMing Studio",
+      "nameEn": "DMing Studio",
+      "category": "教學器材",
+      "type": "個人 / 教學/維修/影片來源",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出 / 口琴教學/維修/重奏/硬體",
+      "structuredSummary": "口琴教學/維修/重奏/硬體 / 半音階/複音/Bass/Chord / 教學/維修來源",
+      "summary": "臺灣的半音階、複音、Bass與Chord教學與維修來源，關注口琴教學、維修、重奏與硬體。",
+      "keywords": "蔡明憲 口琴 DMing Studio 大明 口琴 教學 維修 蔡明憲 天狼星 Laelaps",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://studio.dming.co/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/dming.tsai/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/damingtsai/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@DMingStudio"
+        },
+        {
+          "label": "網站",
+          "url": "https://dming.co/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/dmingstudio/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [
+        "蔡明憲"
+      ],
+      "latestUpdateAt": "2026-07-03T08:48:12+00:00",
+      "latestUpdateLocal": "2026-07-03 16:48",
+      "latestUpdateSource": "蔡明憲 DMing Studio",
+      "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3932986036284049778/",
+      "avatarUrl": "/assets/source-avatars/09c6e92ad97aa65dd03a.webp",
+      "sourceInitials": "DS",
+      "sourceTags": [
+        "口琴",
+        "教學器材",
+        "演奏者",
+        "教學",
+        "半音階",
+        "複音",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_dming_tsai",
+          "name": "蔡明憲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/dming.tsai",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
+        },
+        {
+          "id": "ig_dmingstudio",
+          "name": "蔡明憲 DMing Studio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "dmingstudio",
+          "profileUrl": "https://www.instagram.com/dmingstudio/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_dmingstudio",
+          "name": "蔡明憲 DMing Studio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "dmingstudio",
+          "profileUrl": "https://www.instagram.com/dmingstudio/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/dmingstudio/story/0"
+        },
+        {
+          "id": "yt_dmingstudio",
+          "name": "蔡明憲",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@DMingStudio",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-114",
       "name": "Lee Hangyeol 이한결",
       "nameEn": "Lee Hangyeol",
@@ -1122,6 +1305,92 @@
       ]
     },
     {
+      "id": "watchlist-81",
+      "name": "國家兩廳院",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "國家兩廳院 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://npac-ntch.org/zh"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/ntch.tw/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ntch.taipei/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/ntcharts"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-03T07:54:31+00:00",
+      "latestUpdateLocal": "2026-07-03 15:54",
+      "latestUpdateSource": "國家兩廳院",
+      "latestUpdateUrl": "https://www.instagram.com/stories/ntch.taipei/3932959024240712608/",
+      "avatarUrl": "/assets/source-avatars/f8c44be903611b41890c.webp",
+      "sourceInitials": "國家",
+      "sourceTags": [
+        "場館",
+        "場館平台",
+        "活動資訊",
+        "音樂會",
+        "演出"
+      ],
+      "sourceSummary": "國家兩廳院為臺北大型藝文表演場館，提供售票與活動資訊。",
+      "sourceTagReason": "資料明確標示為「場館平台」與「場館」，並提供售票與活動資訊，符合場館與活動相關標籤定義。",
+      "monitorSources": [
+        {
+          "id": "fb_ntch_tw",
+          "name": "國家兩廳院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/ntch.tw",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_ntch_taipei",
+          "name": "國家兩廳院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "ntch.taipei",
+          "profileUrl": "https://www.instagram.com/ntch.taipei/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_ntch_taipei",
+          "name": "國家兩廳院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "ntch.taipei",
+          "profileUrl": "https://www.instagram.com/ntch.taipei/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/ntch.taipei/story/0"
+        },
+        {
+          "id": "yt_ntcharts",
+          "name": "國家兩廳院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/ntcharts",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-130",
       "name": "Reyharp and Balawan Project",
       "nameEn": "Reyharp and Balawan Project",
@@ -1291,75 +1560,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-167",
-      "name": "新加坡青年節藝術展演（口琴）",
-      "nameEn": "Singapore Youth Festival Arts Presentation - Harmonica",
-      "category": "活動資訊",
-      "type": "學校比賽/資訊入口",
-      "country": "新加坡",
-      "region": "新加坡",
-      "cityOrFocus": "官方學生藝術展演/口琴項目/SYF",
-      "structuredSummary": "官方學生藝術展演/口琴項目/SYF / 口琴/學生合奏 / 學生比賽來源",
-      "summary": "新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。",
-      "keywords": "新加坡青年節藝術展演 Singapore Youth Festival Arts Presentation Harmonica SYF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.syf.gov.sg/general/calendar"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/sgyouthfest/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/sgyouthfest/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-03T05:27:02+00:00",
-      "latestUpdateLocal": "2026-07-03 13:27",
-      "latestUpdateSource": "新加坡青年節藝術展演（口琴）",
-      "latestUpdateUrl": "https://www.instagram.com/stories/sgyouthfest/3932884859157039742/",
-      "avatarUrl": "/assets/source-avatars/b6435a473470038522d6.webp",
-      "sourceInitials": "新加",
-      "sourceTags": [
-        "口琴",
-        "活動資訊",
-        "比賽"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_sgyouthfest",
-          "name": "新加坡青年節藝術展演（口琴）",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/sgyouthfest",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_sgyouthfest",
-          "name": "新加坡青年節藝術展演（口琴）",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "sgyouthfest",
-          "profileUrl": "https://www.instagram.com/sgyouthfest/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_sgyouthfest",
-          "name": "新加坡青年節藝術展演（口琴）",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "sgyouthfest",
-          "profileUrl": "https://www.instagram.com/sgyouthfest/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sgyouthfest/story/0"
         }
       ]
     },
@@ -1794,92 +1994,6 @@
           "username": "empa.oficial",
           "profileUrl": "https://www.instagram.com/empa.oficial/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/empa.oficial/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-81",
-      "name": "國家兩廳院",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "國家兩廳院 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://npac-ntch.org/zh"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/ntch.tw/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/ntch.taipei/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/user/ntcharts"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-03T02:02:55+00:00",
-      "latestUpdateLocal": "2026-07-03 10:02",
-      "latestUpdateSource": "國家兩廳院",
-      "latestUpdateUrl": "https://www.instagram.com/stories/ntch.taipei/3932782124520950084/",
-      "avatarUrl": "/assets/source-avatars/f8c44be903611b41890c.webp",
-      "sourceInitials": "國家",
-      "sourceTags": [
-        "場館",
-        "場館平台",
-        "活動資訊",
-        "音樂會",
-        "演出"
-      ],
-      "sourceSummary": "國家兩廳院為臺北大型藝文表演場館，提供售票與活動資訊。",
-      "sourceTagReason": "資料明確標示為「場館平台」與「場館」，並提供售票與活動資訊，符合場館與活動相關標籤定義。",
-      "monitorSources": [
-        {
-          "id": "fb_ntch_tw",
-          "name": "國家兩廳院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/ntch.tw",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_ntch_taipei",
-          "name": "國家兩廳院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "ntch.taipei",
-          "profileUrl": "https://www.instagram.com/ntch.taipei/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_ntch_taipei",
-          "name": "國家兩廳院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "ntch.taipei",
-          "profileUrl": "https://www.instagram.com/ntch.taipei/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/ntch.taipei/story/0"
-        },
-        {
-          "id": "yt_ntcharts",
-          "name": "國家兩廳院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/user/ntcharts",
-          "feedUrl": ""
         }
       ]
     },
@@ -2573,120 +2687,6 @@
           "type": "rsshub_instagram_profile",
           "username": "__yich___",
           "profileUrl": "https://www.instagram.com/__yich___/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-30+watchlist-101",
-      "name": "蔡明憲 DMing Studio",
-      "nameEn": "DMing Studio",
-      "category": "教學器材",
-      "type": "個人 / 教學/維修/影片來源",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出 / 口琴教學/維修/重奏/硬體",
-      "structuredSummary": "口琴教學/維修/重奏/硬體 / 半音階/複音/Bass/Chord / 教學/維修來源",
-      "summary": "臺灣的半音階、複音、Bass與Chord教學與維修來源，關注口琴教學、維修、重奏與硬體。",
-      "keywords": "蔡明憲 口琴 DMing Studio 大明 口琴 教學 維修 蔡明憲 天狼星 Laelaps",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://studio.dming.co/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/dming.tsai/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/damingtsai/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@DMingStudio"
-        },
-        {
-          "label": "網站",
-          "url": "https://dming.co/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/dmingstudio/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [
-        "蔡明憲"
-      ],
-      "latestUpdateAt": "2026-07-02T14:18:16+00:00",
-      "latestUpdateLocal": "2026-07-02 22:18",
-      "latestUpdateSource": "蔡明憲 DMing Studio",
-      "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3932427390265526289/",
-      "avatarUrl": "/assets/source-avatars/09c6e92ad97aa65dd03a.webp",
-      "sourceInitials": "DS",
-      "sourceTags": [
-        "口琴",
-        "教學器材",
-        "演奏者",
-        "教學",
-        "半音階",
-        "複音",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_dming_tsai",
-          "name": "蔡明憲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/dming.tsai",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
-        },
-        {
-          "id": "ig_dmingstudio",
-          "name": "蔡明憲 DMing Studio",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "dmingstudio",
-          "profileUrl": "https://www.instagram.com/dmingstudio/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_dmingstudio",
-          "name": "蔡明憲 DMing Studio",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "dmingstudio",
-          "profileUrl": "https://www.instagram.com/dmingstudio/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/dmingstudio/story/0"
-        },
-        {
-          "id": "yt_dmingstudio",
-          "name": "蔡明憲",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@DMingStudio",
           "feedUrl": ""
         }
       ]
