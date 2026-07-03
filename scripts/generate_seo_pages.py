@@ -7,6 +7,7 @@ import html
 import json
 import os
 import urllib.parse
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -61,6 +62,18 @@ def normalize_generated_html(content: str) -> str:
 
 def escape(val: str | None) -> str:
     return html.escape(clean(val))
+
+
+def file_lastmod(path: Path) -> str:
+    return datetime.fromtimestamp(path.stat().st_mtime).date().isoformat()
+
+
+def newest_lastmod(paths: list[Path]) -> str:
+    existing_paths = [path for path in paths if path.exists()]
+    if not existing_paths:
+        return datetime.now().date().isoformat()
+    newest_mtime = max(path.stat().st_mtime for path in existing_paths)
+    return datetime.fromtimestamp(newest_mtime).date().isoformat()
 
 
 def generate_source_page(entry: dict[str, Any]) -> str:
@@ -491,6 +504,19 @@ def generate_scores_category_page(category: str, items: list[dict[str, Any]]) ->
 
 def generate_sitemap_xml(sources: list[dict[str, Any]], events: list[dict[str, Any]], categories: list[str]) -> str:
     url_templates = []
+    sources_lastmod = file_lastmod(SOURCES_JSON)
+    events_lastmod = file_lastmod(EVENTS_JSON)
+    scores_lastmod = file_lastmod(SCORES_JSON)
+
+    core_lastmods = {
+        "": newest_lastmod([SITE_ROOT / "index.html", SOURCES_JSON, EVENTS_JSON, SCORES_JSON]),
+        "post/": newest_lastmod([SITE_ROOT / "post" / "index.html", SITE_ROOT / "api" / "latest.json"]),
+        "post/source/": newest_lastmod([SITE_ROOT / "post" / "source" / "index.html", SOURCES_JSON]),
+        "scores/": newest_lastmod([SITE_ROOT / "scores" / "index.html", SCORES_JSON]),
+        "scores/sources/": newest_lastmod([SITE_ROOT / "scores" / "sources" / "index.html", SITE_ROOT / "api" / "score-sources.json"]),
+        "submit/": newest_lastmod([SITE_ROOT / "submit" / "index.html"]),
+        "status/": newest_lastmod([SITE_ROOT / "status" / "index.html", SITE_ROOT / "api" / "status.json"]),
+    }
     
     # 7 Core Pages
     core_pages = [
@@ -505,7 +531,7 @@ def generate_sitemap_xml(sources: list[dict[str, Any]], events: list[dict[str, A
     for path, freq, priority in core_pages:
         url_templates.append(f"""  <url>
     <loc>https://harmonica.observe.tw/{path}</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>{core_lastmods[path]}</lastmod>
     <changefreq>{freq}</changefreq>
     <priority>{priority}</priority>
   </url>""")
@@ -515,7 +541,7 @@ def generate_sitemap_xml(sources: list[dict[str, Any]], events: list[dict[str, A
         encoded = urllib.parse.quote(category)
         url_templates.append(f"""  <url>
     <loc>https://harmonica.observe.tw/scores/{encoded}/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>{scores_lastmod}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>""")
@@ -526,7 +552,7 @@ def generate_sitemap_xml(sources: list[dict[str, Any]], events: list[dict[str, A
         if src_id:
             url_templates.append(f"""  <url>
     <loc>https://harmonica.observe.tw/source/{src_id}/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>{sources_lastmod}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>""")
@@ -537,7 +563,7 @@ def generate_sitemap_xml(sources: list[dict[str, Any]], events: list[dict[str, A
         if ev_id:
             url_templates.append(f"""  <url>
     <loc>https://harmonica.observe.tw/event/{ev_id}/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>{events_lastmod}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>""")
