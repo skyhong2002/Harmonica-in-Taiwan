@@ -13,14 +13,15 @@
 ## 目前輸出
 
 - 網站首頁：`https://harmonica.observe.tw/`
-- 資料索引：`https://harmonica.observe.tw/directory/`
+- 公開貼文：`https://harmonica.observe.tw/post/`
+- 公開來源：`https://harmonica.observe.tw/post/source/`
 - 比賽指定曲：`https://harmonica.observe.tw/scores/`
 - 口琴譜源：`https://harmonica.observe.tw/scores/sources/`
 - 資料回報：`https://harmonica.observe.tw/submit/`
 - RSS 分類入口：`https://harmonica.observe.tw/feeds/`
 - 公開 API：`https://harmonica.observe.tw/api/*.json`
 
-首頁的「最新」河道由公開社群、YouTube、RSS/RSSHub 與整理後的候選更新資料產生；資料索引則由 `data/sources/` 下的公開 CSV 加上自動產生的標籤與更新狀態組成。
+首頁與 `/post/` 的「最新」河道由公開社群、YouTube、RSS/RSSHub 與整理後的候選更新資料產生；公開來源索引則由 `data/sources/` 下的公開 CSV 加上自動產生的標籤與更新狀態組成。
 
 ## 專案結構
 
@@ -34,7 +35,8 @@
 │   ├── api/                     # 產生出的公開 JSON API（不進 git）
 │   ├── assets/                  # CSS、JS、logo、favicon；feed 圖片與頭貼快取不進 git
 │   ├── data/                    # 前端讀取的 JS data bundle（不進 git）
-│   ├── directory/               # 資料索引頁
+│   ├── directory/               # 舊公開來源路徑轉址
+│   ├── post/                    # 公開貼文河道；source/ 為公開來源索引頁
 │   ├── feeds/                   # RSS、分類頁與分類 JSON（不進 git）
 │   ├── score-sources/           # 舊口琴譜源路徑轉址
 │   ├── scores/                  # 學生音樂比賽指定曲索引頁；sources/ 為口琴譜源索引頁

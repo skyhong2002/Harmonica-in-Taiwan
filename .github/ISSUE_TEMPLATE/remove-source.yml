@@ -67,7 +67,7 @@ body:
     attributes:
       label: 完成後要驗證的頁面或 API
       description: 可填目前資料出現的網站頁面、API 或搜尋關鍵字；不知道就寫「請 agent 判斷」。
-      placeholder: 例：https://harmonica.observe.tw/directory/
+      placeholder: 例：https://harmonica.observe.tw/post/source/
     validations:
       required: true
 

@@ -37,6 +37,9 @@ REQUIRED_FILES = [
     FEEDS_DIR / "updates.xml",
     FEEDS_DIR / "sources.xml",
     SITE_ROOT / "index.html",
+    SITE_ROOT / "post" / "index.html",
+    SITE_ROOT / "post" / "source" / "index.html",
+    SITE_ROOT / "directory" / "index.html",
     SITE_ROOT / "scores" / "index.html",
     SITE_ROOT / "scores" / "sources" / "index.html",
     SITE_ROOT / "score-sources" / "index.html",
@@ -118,6 +121,9 @@ def asset_reference_files() -> list[Path]:
     paths.extend(SITE_DATA_DIR.glob("*.js"))
     paths.extend([
         SITE_ROOT / "index.html",
+        SITE_ROOT / "post" / "index.html",
+        SITE_ROOT / "post" / "source" / "index.html",
+        SITE_ROOT / "directory" / "index.html",
         SITE_ROOT / "scores" / "index.html",
         SITE_ROOT / "scores" / "sources" / "index.html",
         SITE_ROOT / "score-sources" / "index.html",

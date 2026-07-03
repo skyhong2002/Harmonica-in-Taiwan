@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>學生音樂比賽指定曲索引｜臺灣口琴觀測站</title>
+    <title>公開來源｜臺灣口琴觀測站</title>
     <meta
       name="description"
-      content="全國學生音樂比賽口琴項目指定曲，及公開可查的出版、購譜或洽詢線索。"
+      content="臺灣口琴社團、樂團、演奏者、教學、場館與公開來源索引。"
     >
     <link rel="icon" href="/assets/favicon-20260623.svg?v=20260628-0342" type="image/svg+xml">
-    <link rel="stylesheet" href="/assets/styles.css?v=20260703-header-widths">
+    <link rel="alternate" type="application/rss+xml" title="臺灣口琴觀測站來源索引" href="/feeds/sources.xml">
+    <link rel="stylesheet" href="/assets/styles.css?v=20260628-0342">
   </head>
   <body>
     <header class="site-header">
@@ -26,54 +27,49 @@
       </nav>
     </header>
 
-    <main class="feed-page-main">
-      <section class="feed-page-hero score-hero">
+    <main>
+      <section class="feed-page-hero">
         <div class="band-inner split-layout">
           <div>
-            <p class="section-kicker">Contest Pieces</p>
-            <h1>學生音樂比賽指定曲索引</h1>
+            <p class="section-kicker">Post Sources</p>
+            <h1>公開來源</h1>
           </div>
           <div class="feed-page-summary">
-            <p>全國學生音樂比賽口琴項目指定曲，及公開可查的出版、購譜或洽詢線索。</p>
-            <div class="score-stat-row" aria-label="指定曲索引統計">
-              <span><strong data-stat="scoreCount">0</strong> 筆線索</span>
-              <span>涵蓋 <strong data-stat="scoreYearRange">-</strong> 學年度</span>
-              <span><strong data-stat="scorePublisherCount">0</strong> 個出版／洽詢來源</span>
-            </div>
+            <p>臺灣口琴公開來源索引，預設依最近公開更新排序。</p>
             <div class="feed-links">
-              <a href="/api/scores.json">指定曲 JSON</a>
-              <a href="/scores/sources/">看口琴譜源</a>
-              <a href="/submit/">回報指定曲線索</a>
+              <a href="/feeds/sources.xml">來源索引 RSS</a>
+              <a href="/post/">公開貼文</a>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="band score-band" id="scores" aria-labelledby="score-title">
+      <section class="band directory-band" id="directory" aria-labelledby="directory-title">
         <div class="band-inner">
           <div class="section-heading">
             <div>
-              <p class="section-kicker">Publication Leads</p>
-              <h2 id="score-title">指定曲與出版／洽詢線索</h2>
+              <p class="section-kicker">Sources</p>
+              <h2 id="directory-title">公開來源列表</h2>
             </div>
-            <p class="data-date">更新日期 <span data-stat="scoreGeneratedAt">-</span></p>
+            <p class="data-date">更新日期 <span data-stat="generatedAt">-</span></p>
           </div>
 
-          <div id="score-filter-panel" aria-label="指定曲索引搜尋與篩選"></div>
-          <p class="result-count sr-only" id="score-result-count" aria-live="polite"></p>
-          <div class="score-list" id="score-list"></div>
+          <div id="directory-filter-panel" aria-label="公開來源搜尋與篩選"></div>
+          <p class="result-count sr-only" id="result-count" aria-live="polite"></p>
+          <div class="directory-grid" id="directory-list"></div>
         </div>
       </section>
 
-      <section class="band source-band" aria-labelledby="score-boundary-title">
+      <section class="band source-band" aria-labelledby="sources-title">
         <div class="band-inner split-layout">
           <div>
-            <p class="section-kicker">Boundary</p>
-            <h2 id="score-boundary-title">只整理指定曲購譜線索</h2>
+            <p class="section-kicker">Source Boundary</p>
+            <h2 id="sources-title">只發布公開可查資料</h2>
           </div>
           <div class="source-points">
-            <p>本頁只收錄全國學生音樂比賽公開公告中的曲名、類組、出版者、購譜或洽詢資訊與佐證連結。</p>
-            <p>不收錄、轉載或提供任何曲譜檔案。</p>
+            <p>網站只使用公開連結、名稱、類型、地區、樂器與來源標籤。</p>
+            <p>內部備註、監看規則、私人憑證、成員資料與非公開曲譜入口不會進入公開資料包。</p>
+            <p>不適合公開展示的資料會暫時不顯示。</p>
           </div>
         </div>
       </section>
@@ -95,7 +91,7 @@
       </div>
     </footer>
 
-    <script src="/data/score-data.js?v=20260628-0342"></script>
-    <script src="/assets/app.js?v=20260703-header-widths"></script>
+    <script src="/data/site-data.js?v=20260628-0342"></script>
+    <script src="/assets/app.js?v=20260628-0342"></script>
   </body>
 </html>
