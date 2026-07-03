@@ -78,6 +78,7 @@ FOOTER_HTML = """<footer class="site-footer">
 
 TAIPEI_TZ = dt.timezone(dt.timedelta(hours=8))
 SOURCE_PROFILE_BY_ID: dict[str, dict[str, str]] = {}
+SOURCE_PROFILE_BY_ACCOUNT: dict[str, dict[str, str]] = {}
 DIRECTORY_ENTRY_BY_KEY: dict[str, dict[str, str]] = {}
 GENERIC_SOURCE_NAMES = {
     "apify facebook posts",
@@ -507,6 +508,80 @@ def cache_avatar(url: str) -> str:
     return cache_remote_image(url, SOURCE_AVATAR_DIR, "/assets/source-avatars", max_bytes=2_000_000)
 
 
+def parse_png_dimensions(data: bytes) -> tuple[int, int] | None:
+    if len(data) >= 24 and data.startswith(b"\x89PNG\r\n\x1a\n"):
+        return int.from_bytes(data[16:20], "big"), int.from_bytes(data[20:24], "big")
+    return None
+
+
+def parse_gif_dimensions(data: bytes) -> tuple[int, int] | None:
+    if len(data) >= 10 and data[:6] in {b"GIF87a", b"GIF89a"}:
+        return int.from_bytes(data[6:8], "little"), int.from_bytes(data[8:10], "little")
+    return None
+
+
+def parse_jpeg_dimensions(data: bytes) -> tuple[int, int] | None:
+    if len(data) < 4 or not data.startswith(b"\xff\xd8"):
+        return None
+    index = 2
+    while index + 9 < len(data):
+        if data[index] != 0xFF:
+            index += 1
+            continue
+        marker = data[index + 1]
+        index += 2
+        if marker in {0xD8, 0xD9}:
+            continue
+        if index + 2 > len(data):
+            break
+        length = int.from_bytes(data[index:index + 2], "big")
+        if length < 2 or index + length > len(data):
+            break
+        if marker in {0xC0, 0xC1, 0xC2, 0xC3, 0xC5, 0xC6, 0xC7, 0xC9, 0xCA, 0xCB, 0xCD, 0xCE, 0xCF} and length >= 7:
+            height = int.from_bytes(data[index + 3:index + 5], "big")
+            width = int.from_bytes(data[index + 5:index + 7], "big")
+            return width, height
+        index += length
+    return None
+
+
+def parse_webp_dimensions(data: bytes) -> tuple[int, int] | None:
+    if len(data) < 30 or not data.startswith(b"RIFF") or data[8:12] != b"WEBP":
+        return None
+    chunk = data[12:16]
+    if chunk == b"VP8 ":
+        start = data.find(b"\x9d\x01\x2a", 20)
+        if start != -1 and start + 7 <= len(data):
+            width_raw = int.from_bytes(data[start + 3:start + 5], "little")
+            height_raw = int.from_bytes(data[start + 5:start + 7], "little")
+            return width_raw & 0x3FFF, height_raw & 0x3FFF
+    if chunk == b"VP8L":
+        b0, b1, b2, b3 = data[21], data[22], data[23], data[24]
+        width = 1 + (((b1 & 0x3F) << 8) | b0)
+        height = 1 + (((b3 & 0x0F) << 10) | (b2 << 2) | ((b1 & 0xC0) >> 6))
+        return width, height
+    if chunk == b"VP8X":
+        width = 1 + int.from_bytes(data[24:27], "little")
+        height = 1 + int.from_bytes(data[27:30], "little")
+        return width, height
+    return None
+
+
+def image_dimensions(public_url: str) -> tuple[int, int] | None:
+    path = public_asset_path(public_url)
+    if path is None:
+        return None
+    try:
+        data = path.read_bytes()
+    except OSError:
+        return None
+    for parser in (parse_png_dimensions, parse_gif_dimensions, parse_jpeg_dimensions, parse_webp_dimensions):
+        dimensions = parser(data)
+        if dimensions and dimensions[0] > 0 and dimensions[1] > 0:
+            return dimensions
+    return None
+
+
 def public_asset_path(public_url: str) -> Path | None:
     value = str(public_url or "").strip()
     if not value.startswith("/assets/"):
@@ -835,6 +910,27 @@ def build_source_profiles(rows: list[dict[str, Any]]) -> dict[str, dict[str, str
     return {source_id: profiles.get(source_id, {}) for source_id in needed_ids}
 
 
+def source_profiles_by_account() -> dict[str, dict[str, str]]:
+    cache = read_json(SOURCE_PROFILES_CACHE, {"profiles": {}})
+    profiles = cache.get("profiles") if isinstance(cache, dict) else {}
+    if not isinstance(profiles, dict):
+        return {}
+
+    by_account: dict[str, dict[str, str]] = {}
+    for profile in profiles.values():
+        if not isinstance(profile, dict):
+            continue
+        account = str(profile.get("account") or "").strip().removeprefix("@").casefold()
+        if not account:
+            continue
+        current = by_account.get(account) or {}
+        if profile_title_display_name(profile) and not profile_title_display_name(current):
+            by_account[account] = dict(profile)
+        else:
+            by_account.setdefault(account, dict(profile))
+    return by_account
+
+
 def persist_source_profiles(profiles: dict[str, dict[str, str]]) -> None:
     if not profiles:
         return
@@ -1036,6 +1132,22 @@ def clean_source_display_name(value: Any) -> str:
     return compact(name, 120)
 
 
+def profile_title_display_name(profile: dict[str, str]) -> str:
+    title = str(profile.get("title") or "").strip()
+    account = str(profile.get("account") or "").strip().removeprefix("@")
+    platform = str(profile.get("platform") or "").casefold()
+    if not title or not account:
+        return ""
+    match = re.match(r"(.+?)\s*\(@([^)]+)\)\s*-\s*(Instagram|Facebook|YouTube|X|Threads)\s*$", title, re.IGNORECASE)
+    if match and match.group(2).casefold() == account.casefold():
+        return clean_source_display_name(match.group(1))
+    if "instagram" in platform:
+        match = re.match(r"(.+?)\s*\(@([^)]+)\)", title)
+        if match and match.group(2).casefold() == account.casefold():
+            return clean_source_display_name(match.group(1))
+    return ""
+
+
 def is_generic_source_name(value: Any) -> bool:
     name = clean_source_display_name(value).casefold()
     return name in GENERIC_SOURCE_NAMES
@@ -1077,6 +1189,7 @@ def account_display_name(row: dict[str, Any], profile: dict[str, str]) -> str:
 def public_source_name(row: dict[str, Any], profile: dict[str, str]) -> str:
     source_display_name = clean_source_display_name(row.get("source_display_name"))
     source_name = clean_source_display_name(row.get("source_name"))
+    profile_title_name = profile_title_display_name(profile)
     account_name = account_display_name(row, profile)
     if source_display_name and not is_generic_source_name(source_display_name) and not (
         account_name
@@ -1085,6 +1198,9 @@ def public_source_name(row: dict[str, Any], profile: dict[str, str]) -> str:
         and not is_generic_source_name(source_name)
     ):
         return source_display_name
+
+    if profile_title_name and not is_generic_source_name(profile_title_name):
+        return profile_title_name
 
     if source_name and not is_generic_source_name(source_name):
         return source_name
@@ -1274,9 +1390,63 @@ def public_update_display_title(row: dict[str, Any], headline: str, title_kind: 
     return str(row.get("rsshub_title") or headline or "").strip()
 
 
+def parse_engagement_count(value: Any) -> int | None:
+    if value in (None, ""):
+        return None
+    if isinstance(value, bool):
+        return None
+    if isinstance(value, (int, float)):
+        return int(value) if value >= 0 else None
+    if isinstance(value, dict):
+        total = 0
+        found = False
+        for nested_value in value.values():
+            count = parse_engagement_count(nested_value)
+            if count is None:
+                continue
+            total += count
+            found = True
+        return total if found else None
+    if isinstance(value, list):
+        total = 0
+        found = False
+        for nested_value in value:
+            count = parse_engagement_count(nested_value)
+            if count is None:
+                continue
+            total += count
+            found = True
+        return total if found else None
+    text = str(value).strip()
+    if not text:
+        return None
+    match = re.match(r"^([\d,.]+)\s*([kKmM萬万]?)$", text)
+    if not match:
+        return None
+    number = float(match.group(1).replace(",", ""))
+    suffix = match.group(2).casefold()
+    if suffix == "k":
+        number *= 1_000
+    elif suffix == "m":
+        number *= 1_000_000
+    elif suffix in {"萬", "万"}:
+        number *= 10_000
+    return int(number) if number >= 0 else None
+
+
+def first_engagement_count(row: dict[str, Any], fields: tuple[str, ...]) -> int | None:
+    for field in fields:
+        value = parse_engagement_count(row.get(field))
+        if value is not None:
+            return value
+    return None
+
+
 def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
     source_id = str(row.get("source_id") or "")
-    profile = SOURCE_PROFILE_BY_ID.get(source_id, {})
+    account_key = str(row.get("account") or "").strip().removeprefix("@").casefold()
+    account_profile = SOURCE_PROFILE_BY_ACCOUNT.get(account_key, {}) if account_key else {}
+    profile = merge_profile(SOURCE_PROFILE_BY_ID.get(source_id, {}), account_profile)
     source = public_source_name(row, profile)
     source_system_name = normalize_taiwan_orthography(row.get("source_name") or profile.get("name") or row.get("source_id") or "")
     if is_generic_source_name(source_system_name):
@@ -1286,7 +1456,7 @@ def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
     directory_profile = directory_profile_for_update(row, profile, source, source_profile_url, link)
 
     directory_name = directory_profile.get("directory_entry_name") or ""
-    if directory_name:
+    if directory_name and is_generic_source_name(source):
         source = directory_name
 
     text = compact_multiline(str(row.get("text") or ""), 1200)
@@ -1303,6 +1473,7 @@ def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
     image_url = str(row.get("image_url") or (images[0] if images else ""))
     videos = [str(url) for url in (row.get("videos") or []) if url]
     local_image_url = cache_image(image_url)
+    image_width, image_height = image_dimensions(local_image_url or image_url) or (None, None)
     avatar_source_url = str(
         row.get("source_avatar_url")
         or row.get("avatar_source_url")
@@ -1339,9 +1510,11 @@ def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
         "platform_label": platform_label,
         "posted_at": row.get("posted_at") or "",
         "posted_at_local": local_date(str(row.get("posted_at") or "")),
-        "like_count": row.get("like_count"),
-        "comment_count": row.get("comment_count"),
-        "view_count": row.get("view_count"),
+        "like_count": first_engagement_count(row, ("like_count", "likes", "likes_count", "likeCount", "likesCount")),
+        "comment_count": first_engagement_count(row, ("comment_count", "comments", "comments_count", "commentCount", "commentsCount")),
+        "share_count": first_engagement_count(row, ("share_count", "shares", "shares_count", "shareCount", "sharesCount")),
+        "reaction_count": first_engagement_count(row, ("reaction_count", "reactions", "reactions_count", "reactionCount", "reactionsCount", "total_reactions", "totalReactionCount")),
+        "view_count": first_engagement_count(row, ("view_count", "views", "viewCount", "play_count", "playCount", "video_view_count", "videoViewCount", "watch_count", "watchCount")),
         "seen_at": row.get("seen_at") or "",
         "media_type": media_type,
         "story": story,
@@ -1364,6 +1537,8 @@ def public_update_row(row: dict[str, Any]) -> dict[str, Any]:
         "videos": videos,
         "source_image_url": image_url,
         "image_url": local_image_url or image_url,
+        "image_width": image_width,
+        "image_height": image_height,
         "source_avatar_url": avatar_source_url,
         "avatar_url": avatar_url,
         "source_initials": source_initials(source),
@@ -1561,13 +1736,14 @@ def filter_recent_candidate_rows(rows: list[dict[str, Any]], days: int) -> list[
 
 
 def generate_updates(window_days: int = DEFAULT_UPDATE_WINDOW_DAYS, limit: int | None = None) -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]]]:
-    global SOURCE_PROFILE_BY_ID, DIRECTORY_ENTRY_BY_KEY
+    global SOURCE_PROFILE_BY_ID, SOURCE_PROFILE_BY_ACCOUNT, DIRECTORY_ENTRY_BY_KEY
     all_rows = read_candidate_rows()
     rows = filter_recent_candidate_rows(all_rows, window_days)
     profile_rows = [
         row for row in all_rows if row.get("raw_source") != "public-link-backfill"
     ]
     SOURCE_PROFILE_BY_ID = build_source_profiles(profile_rows)
+    SOURCE_PROFILE_BY_ACCOUNT = source_profiles_by_account()
     DIRECTORY_ENTRY_BY_KEY = directory_entry_lookup()
     public_rows = build_update_items(rows, limit)
     persist_source_profiles(SOURCE_PROFILE_BY_ID)
@@ -1747,6 +1923,54 @@ def render_home_tag_pills(item: dict[str, Any]) -> str:
     )
 
 
+def format_engagement_number(value: Any) -> str:
+    count = parse_engagement_count(value)
+    if count is None:
+        return ""
+    if count >= 1_000_000:
+        return f"{count / 1_000_000:.1f}".removesuffix(".0") + "M"
+    if count >= 1_000:
+        return f"{count / 1_000:.1f}".removesuffix(".0") + "K"
+    return f"{count:,}"
+
+
+def render_home_engagement(item: dict[str, Any]) -> str:
+    parts = []
+    like_count = parse_engagement_count(item.get("like_count"))
+    reaction_count = parse_engagement_count(item.get("reaction_count"))
+    for field, label in (
+        ("view_count", "瀏覽"),
+        ("like_count", "按讚"),
+        ("comment_count", "留言"),
+        ("share_count", "分享"),
+        ("reaction_count", "互動"),
+    ):
+        if field == "reaction_count" and reaction_count is not None and reaction_count == like_count:
+            continue
+        value = format_engagement_number(item.get(field))
+        if value:
+            parts.append(f'<span class="feed-engagement-item" title="{label}量">{label} {html_escape(value)}</span>')
+    if not parts:
+        return ""
+    return f'<span class="feed-engagement">{"".join(parts)}</span>'
+
+
+def image_dimension_attrs(item: dict[str, Any]) -> str:
+    width = parse_engagement_count(item.get("image_width"))
+    height = parse_engagement_count(item.get("image_height"))
+    if not width or not height:
+        return ""
+    return f' style="--feed-image-aspect: {width} / {height}"'
+
+
+def image_size_attrs(item: dict[str, Any]) -> str:
+    width = parse_engagement_count(item.get("image_width"))
+    height = parse_engagement_count(item.get("image_height"))
+    if not width or not height:
+        return ""
+    return f' width="{width}" height="{height}"'
+
+
 def render_source_avatar(item: dict[str, Any], class_name: str = "source-avatar") -> str:
     avatar = item.get("avatar_url")
     source = item.get("source") or "公開來源"
@@ -1856,7 +2080,7 @@ def render_home_feed_item(item: dict[str, Any], index: int = 0) -> str:
     display_title = homepage_display_title(item)
     image = item.get("image_url")
     thumb_html = (
-        f'<span class="home-feed-thumb"><img src="{html_escape(image)}" alt="{html_escape(item.get("source", ""))} 貼文圖片" loading="lazy" referrerpolicy="no-referrer"></span>'
+        f'<span class="home-feed-thumb"{image_dimension_attrs(item)}><img src="{html_escape(image)}" alt="{html_escape(item.get("source", ""))} 貼文圖片" loading="lazy" referrerpolicy="no-referrer"{image_size_attrs(item)}></span>'
         if image
         else ""
     )
@@ -1868,7 +2092,8 @@ def render_home_feed_item(item: dict[str, Any], index: int = 0) -> str:
     body_class = " ".join(class_name for class_name in body_classes if class_name)
     text_block = render_home_text_block(item, index, display_title)
     tag_html = render_home_tag_pills(item)
-    meta_html = f'<div class="entry-meta">{tag_html}</div>' if tag_html else ""
+    engagement_html = render_home_engagement(item)
+    meta_html = f'<div class="entry-meta">{tag_html}{engagement_html}</div>' if tag_html or engagement_html else ""
     title_html = f'<h3 class="home-feed-title">{html_escape(display_title)}</h3>' if display_title else ""
     return f"""
       <article class="home-feed-card">

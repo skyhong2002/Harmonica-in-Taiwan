@@ -834,6 +834,96 @@ def match_source(item: dict[str, Any], sources: list[dict[str, Any]]) -> dict[st
     return sources[0] if len(sources) == 1 else None
 
 
+def parse_count(value: Any) -> int | None:
+    if value in (None, "") or isinstance(value, bool):
+        return None
+    if isinstance(value, (int, float)):
+        return int(value) if value >= 0 else None
+    if isinstance(value, dict):
+        total = 0
+        found = False
+        for nested_value in value.values():
+            count = parse_count(nested_value)
+            if count is None:
+                continue
+            total += count
+            found = True
+        return total if found else None
+    if isinstance(value, list):
+        total = 0
+        found = False
+        for nested_value in value:
+            count = parse_count(nested_value)
+            if count is None:
+                continue
+            total += count
+            found = True
+        return total if found else None
+    text = str(value).strip()
+    if not text:
+        return None
+    match = re.match(r"^([\d,.]+)\s*([kKmM萬万]?)$", text)
+    if not match:
+        return None
+    number = float(match.group(1).replace(",", ""))
+    suffix = match.group(2).casefold()
+    if suffix == "k":
+        number *= 1_000
+    elif suffix == "m":
+        number *= 1_000_000
+    elif suffix in {"萬", "万"}:
+        number *= 10_000
+    return int(number) if number >= 0 else None
+
+
+def dotted_value(item: Any, field: str) -> Any:
+    value = item
+    for part in field.split("."):
+        if not isinstance(value, dict):
+            return ""
+        value = value.get(part)
+        if value in (None, ""):
+            return ""
+    return value
+
+
+def first_count(item: dict[str, Any], fields: list[str]) -> int | None:
+    for field in fields:
+        value = dotted_value(item, field) if "." in field else nested_first_value(item, [field])
+        count = parse_count(value)
+        if count is not None:
+            return count
+    return None
+
+
+def reaction_breakdown(item: dict[str, Any]) -> dict[str, int]:
+    reaction_fields = [
+        "reactions",
+        "reactionCounts",
+        "reaction_counts",
+        "reactionsCountByType",
+        "topReactions",
+        "feedback.reactions",
+    ]
+    result: dict[str, int] = {}
+    for field in reaction_fields:
+        value = dotted_value(item, field) if "." in field else nested_first_value(item, [field])
+        if isinstance(value, dict):
+            for key, raw_count in value.items():
+                count = parse_count(raw_count)
+                if count is not None:
+                    result[str(key).strip().casefold()] = count
+        elif isinstance(value, list):
+            for row in value:
+                if not isinstance(row, dict):
+                    continue
+                name = compact_text(first_value(row, ["type", "name", "reaction", "label"]))
+                count = parse_count(first_value(row, ["count", "total", "value"]))
+                if name and count is not None:
+                    result[name.casefold()] = count
+    return {key: value for key, value in result.items() if value >= 0}
+
+
 def normalize_item(item: dict[str, Any], sources: list[dict[str, Any]]) -> dict[str, Any]:
     source = match_source(item, sources) or {"id": "apify_facebook_posts", "name": "Apify Facebook Posts", "page": ""}
     url = compact_text(first_value(item, ["url", "postUrl", "facebookUrl", "link", "permalink", "topLevelUrl"]))
@@ -862,6 +952,22 @@ def normalize_item(item: dict[str, Any], sources: list[dict[str, Any]]) -> dict[
     )
     raw_account = first_value(item, ["pageName", "profileName", "userName", "author"])
     account = source.get("page") or source.get("url") or ("" if is_generic_facebook_name(raw_account) else raw_account)
+    reactions = reaction_breakdown(item)
+    like_count = first_count(item, ["likeCount", "likesCount", "likes", "likes_count"])
+    if like_count is None:
+        like_count = reactions.get("like")
+    reaction_count = first_count(
+        item,
+        [
+            "reactionCount",
+            "reactionsCount",
+            "totalReactionCount",
+            "total_reactions",
+            "feedback.reaction_count",
+        ],
+    )
+    if reaction_count is None and reactions:
+        reaction_count = sum(reactions.values())
     return {
         "account": account,
         "image_url": images[0] if images else "",
@@ -877,6 +983,12 @@ def normalize_item(item: dict[str, Any], sources: list[dict[str, Any]]) -> dict[
         "source_profile_url": source_profile_url,
         "text": compact_text("\n".join(str(part) for part in text_parts if part)),
         "url": url,
+        "like_count": like_count,
+        "comment_count": first_count(item, ["commentCount", "commentsCount", "comments", "comments_count"]),
+        "share_count": first_count(item, ["shareCount", "sharesCount", "shares", "shares_count"]),
+        "reaction_count": reaction_count,
+        "reactions": reactions,
+        "view_count": first_count(item, ["viewCount", "viewsCount", "views", "playCount", "videoViews", "videoViewCount"]),
     }
 
 

@@ -502,7 +502,8 @@ h2 {
 }
 
 .story-card {
-  flex: 0 0 clamp(190px, 19vw, 300px);
+  container-type: inline-size;
+  flex: 0 0 clamp(136px, 19vw, 300px);
   scroll-snap-align: start;
 }
 
@@ -544,9 +545,9 @@ h2 {
 
 .story-progress {
   position: absolute;
-  top: 14px;
-  left: 14px;
-  right: 14px;
+  top: clamp(8px, 4.7%, 14px);
+  left: clamp(8px, 4.7%, 14px);
+  right: clamp(8px, 4.7%, 14px);
   z-index: 2;
   height: 2px;
   background: rgba(255, 255, 255, 0.92);
@@ -556,13 +557,13 @@ h2 {
 
 .story-card-header {
   position: absolute;
-  top: 30px;
-  left: 14px;
-  right: 14px;
+  top: clamp(18px, 10%, 30px);
+  left: clamp(8px, 4.7%, 14px);
+  right: clamp(8px, 4.7%, 14px);
   z-index: 2;
   display: grid;
-  grid-template-columns: 42px minmax(0, 1fr) auto;
-  gap: 9px;
+  grid-template-columns: clamp(28px, 14%, 42px) minmax(0, 1fr) auto;
+  gap: clamp(5px, 3%, 9px);
   align-items: center;
   color: #fff;
   text-shadow: 0 1px 7px rgba(0, 0, 0, 0.58);
@@ -571,8 +572,9 @@ h2 {
 .story-card-avatar {
   display: grid;
   place-items: center;
-  width: 42px;
-  height: 42px;
+  width: clamp(28px, 100%, 42px);
+  height: auto;
+  aspect-ratio: 1;
   overflow: hidden;
   color: var(--paper);
   font-size: 0.86rem;
@@ -600,13 +602,13 @@ h2 {
 
 .story-card-source {
   color: #fff;
-  font-size: clamp(0.9rem, 0.95vw, 1.08rem);
+  font-size: clamp(0.72rem, 5.1cqw, 1.08rem);
   font-weight: 900;
 }
 
 .story-card-time {
   color: rgba(255, 255, 255, 0.72);
-  font-size: clamp(0.82rem, 0.84vw, 0.98rem);
+  font-size: clamp(0.66rem, 4.3cqw, 0.98rem);
   font-weight: 800;
 }
 
@@ -1425,10 +1427,9 @@ h2 {
 
 .feed-engagement {
   display: inline-flex;
-  gap: 10px;
+  flex-wrap: wrap;
+  gap: 6px;
   align-items: center;
-  font-size: 0.82rem;
-  color: #59625d;
 }
 
 .pill + .feed-engagement {
@@ -1440,7 +1441,14 @@ h2 {
 .feed-engagement-item {
   display: inline-flex;
   align-items: center;
-  gap: 3px;
+  min-height: 24px;
+  padding: 3px 8px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  background: #f2f6f3;
+  border: 1px solid var(--line);
+  border-radius: 999px;
 }
 
 .entry-context {
@@ -2687,24 +2695,21 @@ button.feed-tag-pill {
   }
 
   .story-card-header {
-    top: 20px;
-    left: 10px;
-    right: 10px;
-    grid-template-columns: 32px minmax(0, 1fr) auto;
-    gap: 6px;
+    top: clamp(16px, 9%, 24px);
+    left: clamp(7px, 4.4%, 10px);
+    right: clamp(7px, 4.4%, 10px);
   }
 
   .story-card-avatar {
-    width: 32px;
-    height: 32px;
+    font-size: 0.7rem;
   }
 
   .story-card-source {
-    font-size: 0.8rem;
+    font-size: clamp(0.64rem, 5cqw, 0.8rem);
   }
 
   .story-card-time {
-    font-size: 0.72rem;
+    font-size: clamp(0.58rem, 4.2cqw, 0.72rem);
   }
 
   .hero,
