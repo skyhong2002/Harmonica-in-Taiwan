@@ -12,6 +12,8 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import Any
 
+import generate_rss_feeds as feed_render
+
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SITE_ROOT = PROJECT_ROOT / "site"
 
@@ -75,52 +77,10 @@ def newest_lastmod(paths: list[Path]) -> str:
     return datetime.fromtimestamp(newest_mtime).date().isoformat()
 
 
-def format_update_card(up: dict[str, Any]) -> str:
-    posted_at = escape(up.get("posted_at_local") or up.get("posted_at") or "未標示")
-    platform = escape(up.get("platform_label") or up.get("platform") or "public")
-    source = escape(up.get("source") or "公開來源")
-    link = escape(up.get("link") or "#")
-    text = escape(up.get("text") or "")
-    headline = escape(up.get("headline") or "")
-    image_url = escape(up.get("image_url") or "")
-    avatar_url = escape(up.get("avatar_url") or "")
-    initials = escape(up.get("source_initials") or (source[0] if source else "H"))
-
-    avatar_html = f'<img src="{avatar_url}" alt="" style="width:100%; height:100%; object-fit:cover;">' if avatar_url else f'<span style="display:flex; align-items:center; justify-content:center; width:100%; height:100%; background:#f0f0f0; color:#666; font-weight:bold; border-radius:50%;">{initials}</span>'
-
-    image_html = f'<div style="margin: 0.8rem 0; aspect-ratio: 4/3; overflow:hidden; border-radius: 6px; border: 1px solid var(--border-color, #e0e0e0);"><a href="{link}" target="_blank" rel="noreferrer"><img src="{image_url}" alt="" style="width:100%; height:100%; object-fit:cover;" referrerpolicy="no-referrer"></a></div>' if image_url else ""
-
-    display_title = escape(up.get("display_title") or "")
-    title_html = f'<h3 style="font-size: 1.1rem; font-weight: 700; margin: 0.5rem 0;">{display_title}</h3>' if display_title else ""
-
-    content = text or headline
-    if len(content) > 150:
-        content = content[:150] + "..."
-    content_html = f'<p style="font-size: 0.95rem; line-height: 1.5; color: #333; white-space: pre-wrap; margin: 0.5rem 0;">{content}</p>'
-
-    return f"""
-            <article class="home-feed-card" style="background: #fff; border: 1px solid var(--border-color, #e0e0e0); border-radius: 8px; padding: 1.2rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 2px 6px rgba(0,0,0,0.02); margin-top: 10px;">
-              <div>
-                <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.8rem;">
-                  <div style="display: flex; align-items: center; gap: 8px;">
-                    <span class="source-avatar" style="width: 36px; height: 36px; display: inline-block; overflow:hidden; border-radius:50%;">
-                      {avatar_html}
-                    </span>
-                    <div>
-                      <span style="font-size: 0.8rem; color: #666; display: block;">{posted_at} · {platform}</span>
-                      <strong style="font-size: 0.95rem; color: #111;">{source}</strong>
-                    </div>
-                  </div>
-                </div>
-                {title_html}
-                {image_html}
-                {content_html}
-              </div>
-              <div style="margin-top: 1rem; display: flex; justify-content: flex-end;">
-                <a class="feed-open-link" href="{link}" target="_blank" rel="noreferrer" style="font-size: 0.85rem; font-weight: bold; color: var(--primary, #1a73e8); text-decoration: none;">開啟來源</a>
-              </div>
-            </article>
-"""
+def format_update_card(up: dict[str, Any], index: int) -> str:
+    item = dict(up)
+    item.setdefault("link", "#")
+    return feed_render.render_home_feed_item(item, index=index)
 
 def format_score_row(score: dict[str, Any]) -> str:
     year = escape(score.get("schoolYear") or "-")
@@ -180,11 +140,87 @@ def format_scores_table(scores: list[dict[str, Any]]) -> str:
     </div>
 """
 
+
+def source_related_link(other: dict[str, Any]) -> str:
+    other_name = escape(other.get("name"))
+    other_slug = make_slug(other)
+    return f'<li><a href="/source/{other_slug}/">{other_name}</a></li>'
+
+
+def source_related_panel(panel_id: str, label: str, sources: list[dict[str, Any]], active: bool = False) -> str:
+    if sources:
+        body = f'<ul class="source-related-list">{"".join(source_related_link(other) for other in sources)}</ul>'
+    else:
+        body = '<p class="source-related-empty">暫無其他來源</p>'
+    hidden_attr = "" if active else " hidden"
+    return f"""
+              <div class="source-related-panel" data-source-related-panel="{escape(panel_id)}"{hidden_attr}>
+                <h4>{escape(label)}</h4>
+                {body}
+              </div>
+"""
+
+
+def source_related_facets(entry: dict[str, Any], entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    entry_id = clean(entry.get("id"))
+    facets: list[dict[str, Any]] = []
+    seen: set[str] = set()
+
+    def add_facet(kind: str, label: str, values: set[str]) -> None:
+        cleaned_values = {clean(value) for value in values if clean(value)}
+        if not cleaned_values:
+            return
+        key = f"{kind}:{label.casefold()}"
+        if key in seen:
+            return
+        seen.add(key)
+        related = []
+        for other in entries:
+            if clean(other.get("id")) == entry_id:
+                continue
+            other_values = source_facet_values(other, kind)
+            if cleaned_values.intersection(other_values):
+                related.append(other)
+            if len(related) >= 6:
+                break
+        facets.append({"id": f"related-{len(facets)}", "kind": kind, "label": label, "sources": related})
+
+    country = clean(entry.get("country"))
+    if country:
+        add_facet("country", country, {country})
+
+    region_parts = [part.strip() for part in re.split(r"[/／；;、,，]", clean(entry.get("region"))) if part.strip()]
+    city_focus = clean(entry.get("cityOrFocus"))
+    for part in region_parts:
+        if part and part != country:
+            add_facet("region", part, {part})
+    if city_focus and city_focus != country and city_focus not in region_parts:
+        add_facet("region", city_focus, {city_focus})
+
+    for tag in entry.get("sourceTags") or []:
+        tag_label = f"#{clean(tag).lstrip('#')}"
+        add_facet("tag", tag_label, {clean(tag).lstrip("#")})
+
+    return facets
+
+
+def source_facet_values(entry: dict[str, Any], kind: str) -> set[str]:
+    if kind == "country":
+        return {clean(entry.get("country"))}
+    if kind == "region":
+        values = set()
+        for field in ("region", "cityOrFocus"):
+            values.update(part.strip() for part in re.split(r"[/／；;、,，]", clean(entry.get(field))) if part.strip())
+        return values
+    if kind == "tag":
+        return {clean(tag).lstrip("#") for tag in entry.get("sourceTags") or []}
+    return set()
+
+
 def generate_source_page(
     entry: dict[str, Any],
     entry_updates: list[dict[str, Any]],
-    same_region_sources: list[dict[str, Any]],
-    same_tag_sources: list[dict[str, Any]]
+    related_facets: list[dict[str, Any]],
 ) -> str:
     entry_id = escape(entry.get("id"))
     slug = make_slug(entry)
@@ -266,7 +302,7 @@ def generate_source_page(
     tags = entry.get("sourceTags") or []
     tags_row = ""
     if tags:
-        tag_pills = " ".join(f'<span class="source-tag-pill" style="display: inline-block; padding: 2px 8px; margin: 2px; font-size: 0.85rem; background: var(--tag-bg, #e8f0fe); color: var(--tag-text, #1a73e8); border-radius: 4px;">#{escape(t)}</span>' for t in tags)
+        tag_pills = " ".join(f'<span class="pill hashtag-chip">#{escape(t)}</span>' for t in tags)
         tags_row = f'<tr><th scope="row" style="padding: 10px; text-align: left; font-weight: bold; border-bottom: 1px solid var(--border-color, #e0e0e0);">標籤</th><td style="padding: 10px; border-bottom: 1px solid var(--border-color, #e0e0e0);">{tag_pills}</td></tr>'
 
     aliases = entry.get("aliases") or []
@@ -280,8 +316,8 @@ def generate_source_page(
         for link in links:
             url = escape(link.get("url"))
             label = escape(link.get("label") or "連結")
-            links_list.append(f'<a href="{url}" target="_blank" rel="noreferrer" class="primary-link" style="margin: 5px; display: inline-block; padding: 6px 12px; border: 1px solid var(--border-color, #ccc); border-radius: 4px; text-decoration: none;">{label}</a>')
-        links_html = f'<div class="feed-links" style="display: flex; flex-wrap: wrap; margin-top: 10px;">{" ".join(links_list)}</div>'
+            links_list.append(f'<a href="{url}" target="_blank" rel="noreferrer">{label}</a>')
+        links_html = f'<div class="feed-links source-contact-links">{" ".join(links_list)}</div>'
     else:
         links_html = '<p style="color: var(--text-muted, #666);">暫無公開社群連結</p>'
 
@@ -290,41 +326,38 @@ def generate_source_page(
     # Related Updates Section
     updates_html = ""
     if entry_updates:
-        cards_html = "".join(format_update_card(up) for up in entry_updates)
+        cards_html = "".join(format_update_card(up, index) for index, up in enumerate(entry_updates))
         updates_html = f"""
-            <h2 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid var(--primary, #1a73e8); padding-bottom: 0.5rem; margin-top: 2.5rem; margin-bottom: 1.5rem;">近期公開更新</h2>
-            <div class="watchlist-updates-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+            <h2 class="source-detail-title">近期公開更新</h2>
+            <div class="source-updates-grid" data-source-feed-grid>
               {cards_html}
             </div>
 """
 
-    # Related Region Sources HTML
-    region_links = []
-    for other in same_region_sources:
-        other_name = escape(other.get("name"))
-        other_slug = make_slug(other)
-        region_links.append(f'<li style="margin-bottom: 0.4rem;"><a href="/source/{other_slug}/" style="color: var(--primary, #1a73e8); text-decoration: none; font-weight: 500;">{other_name}</a></li>')
-    region_html = f'<ul style="margin: 0; padding-left: 1.2rem; line-height: 1.6;">{"".join(region_links)}</ul>' if region_links else '<p style="color: var(--text-muted, #666); margin: 0; font-size: 0.95rem;">同地區暫無其他來源</p>'
-
-    # Related Tag Sources HTML
-    tag_links = []
-    for other in same_tag_sources:
-        other_name = escape(other.get("name"))
-        other_slug = make_slug(other)
-        tag_links.append(f'<li style="margin-bottom: 0.4rem;"><a href="/source/{other_slug}/" style="color: var(--primary, #1a73e8); text-decoration: none; font-weight: 500;">{other_name}</a></li>')
-    tag_html = f'<ul style="margin: 0; padding-left: 1.2rem; line-height: 1.6;">{"".join(tag_links)}</ul>' if tag_links else '<p style="color: var(--text-muted, #666); margin: 0; font-size: 0.95rem;">同標籤暫無其他來源</p>'
+    if related_facets:
+        chips_html = "".join(
+            f'<button type="button" class="feed-option-chip source-related-chip" data-source-related-chip="{escape(facet["id"])}" aria-pressed="{"true" if index == 0 else "false"}" data-filter-state="{"include" if index == 0 else "off"}">{escape(facet["label"])}</button>'
+            for index, facet in enumerate(related_facets)
+        )
+        panels_html = "".join(
+            source_related_panel(facet["id"], facet["label"], facet["sources"], active=index == 0)
+            for index, facet in enumerate(related_facets)
+        )
+        related_body = f"""
+              <div class="source-related-chips" role="listbox" aria-label="相關來源條件">
+                {chips_html}
+              </div>
+              <div class="source-related-panels">
+                {panels_html}
+              </div>
+"""
+    else:
+        related_body = '<p class="source-related-empty">暫無可探索的相關來源</p>'
 
     related_sources_section = f"""
-            <h2 class="source-detail-title" style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid var(--primary, #1a73e8); padding-bottom: 0.5rem; margin-top: 2.5rem; margin-bottom: 1.5rem;">探索相關來源</h2>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 1rem;">
-              <div>
-                <h4 style="font-size: 1.1rem; font-weight: bold; margin-top: 0; margin-bottom: 0.8rem; color: #333;">相同地區的口琴來源</h4>
-                {region_html}
-              </div>
-              <div>
-                <h4 style="font-size: 1.1rem; font-weight: bold; margin-top: 0; margin-bottom: 0.8rem; color: #333;">相關標籤的口琴來源</h4>
-                {tag_html}
-              </div>
+            <h2 class="source-detail-title">探索相關來源</h2>
+            <div class="source-related" data-source-related>
+              {related_body}
             </div>
 """
 
@@ -403,7 +436,7 @@ def generate_source_page(
               </tbody>
             </table>
 
-            <h2 class="source-detail-title" style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid var(--primary, #1a73e8); padding-bottom: 0.5rem; margin-bottom: 1rem;">公開聯絡與社群連結</h2>
+            <h2 class="source-detail-title">公開聯絡與社群連結</h2>
             {links_html}
 
             {updates_html}
@@ -414,6 +447,7 @@ def generate_source_page(
     </main>
 
 {FOOTER_HTML}
+    <script src="/assets/app.js?v=20260628-0342"></script>
   </body>
 </html>
 """
@@ -1242,32 +1276,12 @@ def main() -> int:
 
         slug = make_slug(entry)
 
-        # Match same region sources
-        same_region_sources = []
-        region = entry.get("region")
-        if region:
-            for other in entries:
-                if other.get("id") != entry_id and other.get("region") == region:
-                    same_region_sources.append(other)
-                    if len(same_region_sources) >= 5:
-                        break
-
-        # Match same tag sources
-        same_tag_sources = []
-        entry_tags = set(entry.get("sourceTags") or [])
-        if entry_tags:
-            for other in entries:
-                if other.get("id") != entry_id:
-                    other_tags = set(other.get("sourceTags") or [])
-                    if entry_tags.intersection(other_tags):
-                        same_tag_sources.append(other)
-                        if len(same_tag_sources) >= 5:
-                            break
+        related_facets = source_related_facets(entry, entries)
 
         slug_dir = SITE_ROOT / "source" / slug
         slug_dir.mkdir(parents=True, exist_ok=True)
         html_content = normalize_generated_html(
-            generate_source_page(entry, entry_updates, same_region_sources, same_tag_sources)
+            generate_source_page(entry, entry_updates, related_facets)
         )
         (slug_dir / "index.html").write_text(html_content, encoding="utf-8")
 

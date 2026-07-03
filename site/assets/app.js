@@ -1237,9 +1237,16 @@
     `;
   }
 
+  function feedCardRoots() {
+    return [
+      latestFeedGrid,
+      ...document.querySelectorAll("[data-source-feed-grid]"),
+    ].filter(Boolean);
+  }
+
   function updateFeedImageOrientation() {
-    if (!latestFeedGrid) return;
-    latestFeedGrid.querySelectorAll(".home-feed-thumb img").forEach((image) => {
+    feedCardRoots().forEach((root) => {
+      root.querySelectorAll(".home-feed-thumb img").forEach((image) => {
       const card = image.closest(".home-feed-card");
       if (!card) return;
       const applyOrientation = () => {
@@ -1258,6 +1265,7 @@
       } else {
         image.addEventListener("load", applyOrientation, { once: true });
       }
+      });
     });
   }
 
@@ -1888,13 +1896,39 @@
   }
 
   function bindFeedTextToggles() {
-    if (!latestFeedGrid) return;
-    latestFeedGrid.addEventListener("click", (event) => {
+    feedCardRoots().forEach((root) => {
+      root.addEventListener("click", (event) => {
       const target = event.target instanceof Element ? event.target : null;
       const button = target?.closest("[data-feed-text-toggle]");
-      if (!button || !latestFeedGrid.contains(button)) return;
+      if (!button || !root.contains(button)) return;
       event.preventDefault();
       toggleFeedText(button);
+      });
+    });
+  }
+
+  function bindSourceRelatedPanels() {
+    document.querySelectorAll("[data-source-related]").forEach((root) => {
+      const chips = [...root.querySelectorAll("[data-source-related-chip]")];
+      const panels = [...root.querySelectorAll("[data-source-related-panel]")];
+      const activate = (panelId) => {
+        chips.forEach((chip) => {
+          const active = chip.dataset.sourceRelatedChip === panelId;
+          chip.setAttribute("aria-pressed", String(active));
+          chip.dataset.filterState = active ? "include" : "off";
+        });
+        panels.forEach((panel) => {
+          panel.hidden = panel.dataset.sourceRelatedPanel !== panelId;
+        });
+      };
+      if (chips[0]) activate(chips[0].dataset.sourceRelatedChip);
+      root.addEventListener("click", (event) => {
+        const target = event.target instanceof Element ? event.target : null;
+        const chip = target?.closest("[data-source-related-chip]");
+        if (!chip || !root.contains(chip)) return;
+        event.preventDefault();
+        activate(chip.dataset.sourceRelatedChip);
+      });
     });
   }
 
@@ -3560,6 +3594,7 @@
 
     bindDirectoryHashtags();
     bindFeedTextToggles();
+    bindSourceRelatedPanels();
     bindHomeStoryScroll();
     bindFeedResize();
 
