@@ -9,6 +9,9 @@ import datetime as dt
 import json
 import os
 import sys
+import urllib.error
+import urllib.parse
+import urllib.request
 from pathlib import Path
 from typing import Any
 
@@ -55,18 +58,22 @@ def load_events() -> list[dict[str, Any]]:
     return [event for event in events if isinstance(event, dict)]
 
 
+def calendar_description(event: dict[str, Any]) -> str:
+    return "\n".join(
+        part
+        for part in [
+            str(event.get("details") or "").strip(),
+            str(event.get("evidenceUrl") or "").strip(),
+        ]
+        if part
+    )
+
+
 def event_resource(event: dict[str, Any]) -> dict[str, Any]:
-    description_parts = [
-        f"活動名稱：{event.get('eventName') or event.get('title')}" if event.get("eventName") or event.get("title") else "",
-        f"時間：{event_time_label(event)}",
-        f"地點：{event.get('location')}" if event.get("location") else "",
-        f"相關資訊：{event.get('details')}" if event.get("details") else "",
-        f"來源：{event.get('evidenceUrl')}" if event.get("evidenceUrl") else "",
-    ]
     body: dict[str, Any] = {
         "summary": event.get("eventName") or event.get("title") or "公開口琴活動",
         "location": event.get("location") or "",
-        "description": "\n".join(part for part in description_parts if part),
+        "description": calendar_description(event),
         "source": {"title": "臺灣口琴觀測站", "url": event.get("evidenceUrl") or "https://harmonica.observe.tw/"},
         "extendedProperties": {
             "private": {
@@ -84,26 +91,6 @@ def event_resource(event: dict[str, Any]) -> dict[str, Any]:
     if event.get("evidenceUrl"):
         body["attachments"] = []
     return body
-
-
-def event_time_label(event: dict[str, Any]) -> str:
-    start = str(event.get("start") or "")
-    end = str(event.get("end") or "")
-    if not start:
-        return ""
-    if event.get("allDay"):
-        if not end or end[:10] == start[:10]:
-            return start[:10]
-        try:
-            inclusive_end = dt.date.fromisoformat(end[:10]) - dt.timedelta(days=1)
-        except ValueError:
-            return f"{start[:10]} - {end[:10]}"
-        return start[:10] if inclusive_end.isoformat() == start[:10] else f"{start[:10]} - {inclusive_end.isoformat()}"
-    try:
-        parsed = dt.datetime.fromisoformat(start)
-    except ValueError:
-        return start
-    return parsed.astimezone(dt.timezone(dt.timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
 
 
 def load_credentials(token_path: Path):
@@ -126,6 +113,104 @@ def load_credentials(token_path: Path):
         creds.refresh(Request())
         token_path.write_text(creds.to_json() + "\n", encoding="utf-8")
     return creds
+
+
+def load_token_info(token_path: Path) -> dict[str, Any]:
+    env_info = {
+        "client_id": os.environ.get("HARMONICA_GOOGLE_CLIENT_ID", "").strip(),
+        "client_secret": os.environ.get("HARMONICA_GOOGLE_CLIENT_SECRET", "").strip(),
+        "refresh_token": os.environ.get("HARMONICA_GOOGLE_REFRESH_TOKEN", "").strip(),
+        "token_uri": os.environ.get("HARMONICA_GOOGLE_TOKEN_URI", "https://oauth2.googleapis.com/token").strip(),
+    }
+    if env_info["client_id"] and env_info["client_secret"] and env_info["refresh_token"]:
+        return env_info
+    return json.loads(token_path.read_text(encoding="utf-8"))
+
+
+def refresh_access_token(token_info: dict[str, Any]) -> str:
+    payload = urllib.parse.urlencode(
+        {
+            "client_id": token_info.get("client_id") or "",
+            "client_secret": token_info.get("client_secret") or "",
+            "refresh_token": token_info.get("refresh_token") or "",
+            "grant_type": "refresh_token",
+        }
+    ).encode("utf-8")
+    request = urllib.request.Request(
+        token_info.get("token_uri") or "https://oauth2.googleapis.com/token",
+        data=payload,
+        headers={"Content-Type": "application/x-www-form-urlencoded"},
+        method="POST",
+    )
+    with urllib.request.urlopen(request, timeout=30) as response:
+        data = json.loads(response.read().decode("utf-8"))
+    token = str(data.get("access_token") or "").strip()
+    if not token:
+        raise RuntimeError("Google OAuth refresh response did not include access_token.")
+    return token
+
+
+class CalendarRestRequest:
+    def __init__(self, method: str, url: str, token: str, body: dict[str, Any] | None = None):
+        self.method = method
+        self.url = url
+        self.token = token
+        self.body = body
+
+    def execute(self) -> dict[str, Any]:
+        data = None
+        headers = {"Authorization": f"Bearer {self.token}"}
+        if self.body is not None:
+            data = json.dumps(self.body, ensure_ascii=False).encode("utf-8")
+            headers["Content-Type"] = "application/json; charset=utf-8"
+        request = urllib.request.Request(self.url, data=data, headers=headers, method=self.method)
+        try:
+            with urllib.request.urlopen(request, timeout=30) as response:
+                raw = response.read().decode("utf-8")
+        except urllib.error.HTTPError as exc:
+            detail = exc.read().decode("utf-8", errors="replace")
+            raise RuntimeError(f"Google Calendar API {self.method} failed: HTTP {exc.code} {detail}") from exc
+        if not raw:
+            return {}
+        return json.loads(raw)
+
+
+class CalendarRestEvents:
+    def __init__(self, token: str):
+        self.token = token
+
+    @staticmethod
+    def _base(calendar_id: str) -> str:
+        return "https://www.googleapis.com/calendar/v3/calendars/" + urllib.parse.quote(calendar_id, safe="")
+
+    @staticmethod
+    def _query_value(value: Any) -> str:
+        if isinstance(value, bool):
+            return "true" if value else "false"
+        return str(value)
+
+    def list(self, *, calendarId: str, **params: Any) -> CalendarRestRequest:
+        query = urllib.parse.urlencode({key: self._query_value(value) for key, value in params.items() if value is not None})
+        return CalendarRestRequest("GET", f"{self._base(calendarId)}/events?{query}", self.token)
+
+    def patch(self, *, calendarId: str, eventId: str, body: dict[str, Any]) -> CalendarRestRequest:
+        url = f"{self._base(calendarId)}/events/{urllib.parse.quote(eventId, safe='')}"
+        return CalendarRestRequest("PATCH", url, self.token, body)
+
+    def insert(self, *, calendarId: str, body: dict[str, Any]) -> CalendarRestRequest:
+        return CalendarRestRequest("POST", f"{self._base(calendarId)}/events", self.token, body)
+
+    def delete(self, *, calendarId: str, eventId: str) -> CalendarRestRequest:
+        url = f"{self._base(calendarId)}/events/{urllib.parse.quote(eventId, safe='')}"
+        return CalendarRestRequest("DELETE", url, self.token)
+
+
+class CalendarRestService:
+    def __init__(self, token: str):
+        self._events = CalendarRestEvents(token)
+
+    def events(self) -> CalendarRestEvents:
+        return self._events
 
 
 def env_credentials_available() -> bool:
@@ -196,21 +281,18 @@ def main() -> int:
         print(status["message"])
         return 0
 
-    try:
-        from googleapiclient.discovery import build
-    except ModuleNotFoundError as exc:
-        status["message"] = "google-api-python-client is not installed in this Python environment."
-        write_status(status)
-        if args.required:
-            print(status["message"], file=sys.stderr)
-            return 1
-        print(status["message"])
-        return 0
-
     calendar_id = args.calendar_id or load_calendar_id()
     status["calendarId"] = calendar_id
-    creds = load_credentials(token_path)
-    service = build("calendar", "v3", credentials=creds, cache_discovery=False)
+    try:
+        from googleapiclient.discovery import build
+    except ModuleNotFoundError:
+        token = refresh_access_token(load_token_info(token_path))
+        service = CalendarRestService(token)
+        status["client"] = "rest"
+    else:
+        creds = load_credentials(token_path)
+        service = build("calendar", "v3", credentials=creds, cache_discovery=False)
+        status["client"] = "google-api-python-client"
     source_events = load_events()
     existing = existing_managed_events(service, calendar_id)
     wanted_ids = {str(event.get("id") or "") for event in source_events if event.get("id")}

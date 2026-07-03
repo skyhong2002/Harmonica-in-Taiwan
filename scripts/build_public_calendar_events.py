@@ -621,6 +621,17 @@ def ics_datetime(value: str, *, all_day: bool, is_end: bool = False) -> str:
     return parsed.astimezone(TAIWAN_TZ).strftime("%Y%m%dT%H%M%S")
 
 
+def calendar_description(event: dict[str, Any]) -> str:
+    return "\n".join(
+        part
+        for part in [
+            str(event.get("details") or "").strip(),
+            str(event.get("evidenceUrl") or "").strip(),
+        ]
+        if part
+    )
+
+
 def write_ics(events: list[dict[str, Any]], generated_at: str) -> None:
     lines = [
         "BEGIN:VCALENDAR",
@@ -645,14 +656,7 @@ def write_ics(events: list[dict[str, Any]], generated_at: str) -> None:
         lines.append(f"SUMMARY:{escape_ics(event['title'])}")
         if event.get("location"):
             lines.append(f"LOCATION:{escape_ics(event['location'])}")
-        description_parts = [
-            f"活動名稱：{event.get('eventName') or event.get('title')}" if event.get("eventName") or event.get("title") else "",
-            f"地點：{event.get('location')}" if event.get("location") else "",
-            f"相關資訊：{event.get('details')}" if event.get("details") else "",
-            f"來源：{event.get('evidenceUrl')}" if event.get("evidenceUrl") else "",
-        ]
-        description = "\n".join(part for part in description_parts if part).strip()
-        lines.append(f"DESCRIPTION:{escape_ics(description)}")
+        lines.append(f"DESCRIPTION:{escape_ics(calendar_description(event))}")
         if event.get("evidenceUrl"):
             lines.append(f"URL:{escape_ics(event['evidenceUrl'])}")
         lines.append("END:VEVENT")
