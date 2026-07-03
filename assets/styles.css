@@ -465,33 +465,36 @@ h2 {
   gap: 12px;
   overflow-x: auto;
   padding: 2px 2px 12px;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
+}
+
+.home-story-strip.is-auto-scrolling {
+  scroll-snap-type: none;
+}
+
+.home-story-strip:hover,
+.home-story-strip:focus-within {
   scroll-snap-type: x proximity;
 }
 
-.home-story-slider-wrap {
-  margin-top: 4px;
+.home-story-strip:hover {
+  scrollbar-color: var(--accent) #dfe8e2;
 }
 
-.home-story-slider {
-  display: block;
-  width: 100%;
-  height: 28px;
-  margin: 0;
-  accent-color: var(--ink);
-  cursor: grab;
+.home-story-strip::-webkit-scrollbar {
+  height: 8px;
 }
 
-.home-story-slider:active {
-  cursor: grabbing;
+.home-story-strip::-webkit-scrollbar-track {
+  background: #dfe8e2;
+  border-radius: 999px;
 }
 
-.home-story-slider:disabled {
-  cursor: default;
-  opacity: 0.38;
-}
-
-.home-story-slider-wrap.is-disabled {
-  display: none;
+.home-story-strip::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 999px;
 }
 
 .story-card {
