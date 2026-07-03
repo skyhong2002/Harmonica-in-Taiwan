@@ -14,6 +14,7 @@
 
 - 網站首頁：`https://harmonica.observe.tw/`
 - 資料索引：`https://harmonica.observe.tw/directory/`
+- 指定曲索引：`https://harmonica.observe.tw/scores/`
 - 資料回報：`https://harmonica.observe.tw/submit/`
 - RSS 分類入口：`https://harmonica.observe.tw/feeds/`
 - 公開 API：`https://harmonica.observe.tw/api/*.json`
@@ -44,6 +45,7 @@
 
 - `data/sources/harmonica-source-watchlist-public.csv`：公開來源主清單，包含演奏者、團體、教學、場館、活動平台等。
 - `data/sources/harmonica-clubs-public.csv`：公開學生社團資料。
+- `data/sources/harmonica-score-publications.csv`：全國學生音樂比賽口琴指定曲與出版、購譜線索，含官方歷年指定曲目 XLS 與近年 PDF 補充線索。
 - `data/feeds/social_sources.json`：由 CSV 轉出的公開社群監看來源設定。
 - `data/feeds/social_feed_inbox.jsonl`：YouTube / Facebook 抓取工具正規化後的公開貼文 inbox。
 - `data/feeds/social_candidates.jsonl`：watchdog 篩選後的公開候選更新。
@@ -111,6 +113,7 @@ python3 scripts/validate_public_outputs.py
 - `https://harmonica.observe.tw/api/student-clubs.json`
 - `https://harmonica.observe.tw/api/opportunities.json`
 - `https://harmonica.observe.tw/api/sources.json`
+- `https://harmonica.observe.tw/api/scores.json`
 
 若遠端用 `curl` 驗證 API 時遇到 403，可以加類瀏覽器 User-Agent：
 

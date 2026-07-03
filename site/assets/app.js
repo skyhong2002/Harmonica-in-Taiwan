@@ -12,6 +12,12 @@
     updates: [],
     updatesWindowDays: FEED_FALLBACK_WINDOW_DAYS,
   };
+  const scoreData = window.HARMONICA_OBSERVE_SCORES || {
+    generatedAt: "-",
+    count: 0,
+    stats: { totalScores: 0, schoolYears: [], programs: [], publishers: [] },
+    scores: [],
+  };
 
   const state = {
     query: "",
@@ -38,7 +44,19 @@
     columnCount: 0,
     sourceExpanded: false,
   };
+  const scoreState = {
+    query: "",
+    yearMax: null,
+    yearMin: null,
+    program: emptyFilterSet(),
+    publisher: emptyFilterSet(),
+    status: emptyFilterSet(),
+    sortKey: "",
+    sortDirection: "asc",
+    columnWidths: {},
+  };
   const feedBatchSize = 12;
+  const scoreDefaultTableWidth = 1240;
   const directoryRenderBatchSize = 48;
   const directorySearchDelayMs = 120;
   const feedDesktopColumnQuery = "(min-width: 901px)";
@@ -61,6 +79,7 @@
   const nonLocationLabels = new Set(["國際", "臺灣交流", "臺灣爵士圈"]);
   const directoryFilterNames = ["country", "region", "hashtags"];
   const feedFilterNames = ["platform", "country", "region", "source", "tag"];
+  const scoreFilterNames = ["program", "publisher", "status"];
   const feedApiUrl = "/api/latest.json";
   let feedSearchComposing = false;
 
@@ -70,11 +89,16 @@
   const resultCount = document.querySelector("#result-count");
   const directoryHashtagFilters = document.querySelector("#directory-hashtag-filters");
   const directoryFilterPanel = document.querySelector("#directory-filter-panel") || directoryHashtagFilters;
+  const scoreList = document.querySelector("#score-list");
+  const scoreFilterPanel = document.querySelector("#score-filter-panel");
+  const scoreResultCount = document.querySelector("#score-result-count");
   let directoryIndex = null;
   let directoryRecordByEntry = new WeakMap();
   let directoryRenderToken = 0;
   let directorySearchTimer = 0;
   let directorySearchComposing = false;
+  let scoreSearchComposing = false;
+  let scoreSearchTimer = 0;
 
   function setStat(name, value) {
     document.querySelectorAll(`[data-stat="${name}"]`).forEach((node) => {
@@ -323,6 +347,7 @@
     searchLabel,
     searchValue,
     searchPlaceholder,
+    extraControls = "",
     groups,
   }) {
     return `
@@ -338,6 +363,7 @@
           </label>
           <button class="search-filter-reset-button feed-reset-button" type="button" data-search-filter-reset="${escapeHtml(scope)}">重設</button>
         </div>
+        ${extraControls}
         ${groups.map((group) => searchFilterGroup(scope, group)).join("")}
       </div>
     `;
@@ -1825,6 +1851,644 @@
     spotlightList.innerHTML = spotlight.map(entryCard).join("");
   }
 
+  function scoreItems() {
+    return Array.isArray(scoreData.scores) ? scoreData.scores : [];
+  }
+
+  const scoreSortColumns = [
+    {
+      key: "year",
+      label: "年度",
+      defaultDirection: "desc",
+      type: "number",
+      width: 74,
+      minWidth: 64,
+      value: (item) => {
+        const year = Number.parseInt(item.schoolYear, 10);
+        return Number.isFinite(year) ? year : "";
+      },
+    },
+    { key: "status", label: "狀態", defaultDirection: "asc", width: 74, minWidth: 64, value: (item) => item.sourceStatus },
+    { key: "program", label: "編制", defaultDirection: "asc", width: 88, minWidth: 68, value: (item) => item.program },
+    { key: "division", label: "組別", defaultDirection: "asc", width: 118, minWidth: 84, value: (item) => item.division },
+    { key: "title", label: "曲名", defaultDirection: "asc", width: 228, minWidth: 140, value: scoreTitleText },
+    { key: "composer", label: "作曲", defaultDirection: "asc", width: 120, minWidth: 84, value: (item) => item.composer },
+    { key: "arranger", label: "編曲", defaultDirection: "asc", width: 120, minWidth: 84, value: (item) => item.arranger },
+    { key: "publisher", label: "出版／洽詢", defaultDirection: "asc", width: 164, minWidth: 120, value: scorePublisherText },
+    { key: "note", label: "備註", defaultDirection: "asc", width: 182, minWidth: 130, value: scoreNoteText },
+    { key: "source", label: "來源", defaultDirection: "asc", width: 72, minWidth: 64, value: scoreSourceText },
+  ];
+
+  function scoreTotalCount() {
+    return scoreData.count || scoreData.stats.totalScores || scoreItems().length || 0;
+  }
+
+  function scoreYearRange() {
+    const years = (scoreData.stats.schoolYears || [])
+      .map((year) => Number.parseInt(year, 10))
+      .filter((year) => Number.isFinite(year));
+    if (!years.length) return "-";
+    return `${Math.min(...years)}-${Math.max(...years)}`;
+  }
+
+  function scoreYearNumbers() {
+    const statYears = (scoreData.stats.schoolYears || [])
+      .map((year) => Number.parseInt(year, 10))
+      .filter((year) => Number.isFinite(year));
+    if (statYears.length) return statYears;
+    return scoreItems()
+      .map((item) => Number.parseInt(item.schoolYear, 10))
+      .filter((year) => Number.isFinite(year));
+  }
+
+  function scoreYearBounds() {
+    const years = scoreYearNumbers();
+    if (!years.length) return { min: "", max: "" };
+    return { min: Math.min(...years), max: Math.max(...years) };
+  }
+
+  function parsedScoreYearValue(value) {
+    const year = Number.parseInt(String(value || "").replace(/[^\d-]/g, ""), 10);
+    return Number.isFinite(year) ? year : null;
+  }
+
+  function scoreYearStateValue(name) {
+    const bounds = scoreYearBounds();
+    const raw = scoreState[name];
+    if (raw !== null && raw !== undefined) return String(raw);
+    return String(name === "yearMax" ? bounds.max : bounds.min);
+  }
+
+  function scoreEffectiveYearRange() {
+    const bounds = scoreYearBounds();
+    const maxYear = parsedScoreYearValue(scoreState.yearMax) ?? bounds.max;
+    const minYear = parsedScoreYearValue(scoreState.yearMin) ?? bounds.min;
+    return {
+      lower: Math.min(minYear, maxYear),
+      upper: Math.max(minYear, maxYear),
+    };
+  }
+
+  function scoreMatchesYearRange(item) {
+    const year = Number.parseInt(item.schoolYear, 10);
+    if (!Number.isFinite(year)) return false;
+    const range = scoreEffectiveYearRange();
+    if (!Number.isFinite(range.lower) || !Number.isFinite(range.upper)) return true;
+    return year >= range.lower && year <= range.upper;
+  }
+
+  function scorePublisherCount() {
+    return (scoreData.stats.publishers || []).filter((publisher) => publisher && publisher !== "未標示").length;
+  }
+
+  function scoreFieldValues(item, name) {
+    if (name === "year") return [item.schoolYear ? `${item.schoolYear}學年度` : ""];
+    if (name === "program") return [item.program];
+    if (name === "publisher") return [item.publisher];
+    if (name === "status") return [item.sourceStatus];
+    return [];
+  }
+
+  function scoreFilterValues(name) {
+    const values = countSortedValues(scoreItems(), (item) => scoreFieldValues(item, name));
+    if (name !== "year") return values;
+    return values.sort((left, right) => Number.parseInt(right, 10) - Number.parseInt(left, 10));
+  }
+
+  function scoreTitleText(item) {
+    return [item.title, item.titleAlt].filter(Boolean).join(" / ");
+  }
+
+  function scorePublisherText(item) {
+    return item.publisher || item.purchaseNote || "";
+  }
+
+  function scoreNoteText(item) {
+    return [item.scoreName, item.performanceNote, item.purchaseNote, item.notes].filter(Boolean).join("；");
+  }
+
+  function scoreSourceText(item) {
+    const sourceLink = (item.links || [])[0];
+    return [sourceLink?.label, sourceLink?.url].filter(Boolean).join(" ");
+  }
+
+  function scoreSortColumn(key) {
+    return scoreSortColumns.find((column) => column.key === key) || null;
+  }
+
+  function scoreColumnClass(column) {
+    if (column.key === "composer" || column.key === "arranger") return "score-col-person";
+    return `score-col-${column.key}`;
+  }
+
+  function scoreColumnWidth(column) {
+    const width = Number.parseInt(scoreState.columnWidths[column.key], 10);
+    if (Number.isFinite(width)) return Math.max(column.minWidth || 48, width);
+    return column.width || 96;
+  }
+
+  function scoreTableWidth() {
+    const columnTotal = scoreSortColumns.reduce((total, column) => total + scoreColumnWidth(column), 0);
+    return Math.max(scoreDefaultTableWidth, columnTotal);
+  }
+
+  function scoreColumnMarkup(column) {
+    return `<col class="${escapeHtml(scoreColumnClass(column))}" data-score-column="${escapeHtml(column.key)}" style="width: ${scoreColumnWidth(column)}px">`;
+  }
+
+  function scoreColumnSelector(key) {
+    return `[data-score-column="${String(key).replace(/"/g, '\\"')}"]`;
+  }
+
+  function scoreHeaderSelector(key) {
+    return `[data-score-column-header="${String(key).replace(/"/g, '\\"')}"]`;
+  }
+
+  function setScoreColumnWidth(key, width, table = scoreList?.querySelector(".score-table")) {
+    const column = scoreSortColumn(key);
+    if (!column) return;
+    const nextWidth = Math.max(column.minWidth || 48, Math.round(width));
+    scoreState.columnWidths[key] = nextWidth;
+    if (!table) return;
+    const col = table.querySelector(scoreColumnSelector(key));
+    if (col) col.style.width = `${nextWidth}px`;
+    table.style.setProperty("--score-table-width", `${scoreTableWidth()}px`);
+  }
+
+  function hydrateScoreColumnWidthsFromTable() {
+    const table = scoreList?.querySelector(".score-table");
+    if (!table || Object.keys(scoreState.columnWidths).length) return;
+    scoreSortColumns.forEach((column) => {
+      const header = table.querySelector(scoreHeaderSelector(column.key));
+      const width = header?.getBoundingClientRect().width || column.width || 96;
+      scoreState.columnWidths[column.key] = Math.max(column.minWidth || 48, Math.round(width));
+    });
+    table.style.setProperty("--score-table-width", `${scoreTableWidth()}px`);
+    scoreSortColumns.forEach((column) => {
+      const col = table.querySelector(scoreColumnSelector(column.key));
+      if (col) col.style.width = `${scoreColumnWidth(column)}px`;
+    });
+  }
+
+  function normalizedScoreSortDirection(value, fallback = "asc") {
+    return value === "desc" || value === "asc" ? value : fallback;
+  }
+
+  function nextScoreSortDirection(key) {
+    const column = scoreSortColumn(key);
+    if (!column) return "asc";
+    if (scoreState.sortKey !== key) return column.defaultDirection || "asc";
+    return scoreState.sortDirection === "asc" ? "desc" : "asc";
+  }
+
+  function isEmptyScoreSortValue(value) {
+    return value === null || value === undefined || String(value).trim() === "";
+  }
+
+  function compareScoreRecords(left, right, column) {
+    const leftValue = column.value(left.item);
+    const rightValue = column.value(right.item);
+    const leftEmpty = isEmptyScoreSortValue(leftValue);
+    const rightEmpty = isEmptyScoreSortValue(rightValue);
+    if (leftEmpty || rightEmpty) {
+      if (leftEmpty && rightEmpty) return left.index - right.index;
+      return leftEmpty ? 1 : -1;
+    }
+    const direction = scoreState.sortDirection === "desc" ? -1 : 1;
+    const comparison = column.type === "number"
+      ? Number(leftValue) - Number(rightValue)
+      : String(leftValue).localeCompare(String(rightValue), "zh-Hant", {
+          numeric: true,
+          sensitivity: "base",
+        });
+    return comparison ? comparison * direction : left.index - right.index;
+  }
+
+  function sortedScores(records) {
+    const column = scoreSortColumn(scoreState.sortKey);
+    if (!column) return records;
+    return records
+      .map((item, index) => ({ item, index }))
+      .sort((left, right) => compareScoreRecords(left, right, column))
+      .map(({ item }) => item);
+  }
+
+  function scoreSearchableText(item) {
+    return normalize(
+      item.searchText ||
+        [
+          item.title,
+          item.titleAlt,
+          item.schoolYear,
+          item.sourceStatus,
+          item.program,
+          item.category,
+          item.division,
+          item.composer,
+          item.arranger,
+          item.publisher,
+          item.scoreName,
+          item.performanceNote,
+          item.purchaseNote,
+          item.notes,
+          ...(item.tags || []),
+        ].join(" ")
+    );
+  }
+
+  function scoreMatches(item) {
+    if (!scoreMatchesYearRange(item)) return false;
+    for (const name of scoreFilterNames) {
+      if (!valuesMatchFilter(scoreFieldValues(item, name), scoreState[name])) return false;
+    }
+    return normalizedTextMatches(scoreSearchableText(item), scoreState.query);
+  }
+
+  function filteredScores() {
+    return sortedScores(scoreItems().filter(scoreMatches));
+  }
+
+  function scoreCell(value, className = "") {
+    const text = String(value || "-").trim() || "-";
+    const classAttr = className ? ` class="${className}"` : "";
+    return `<td${classAttr} title="${escapeHtml(text)}">${escapeHtml(text)}</td>`;
+  }
+
+  function scoreTableRow(item) {
+    const year = item.schoolYear ? `${item.schoolYear}` : "-";
+    const title = scoreTitleText(item);
+    const publisher = scorePublisherText(item) || "-";
+    const note = scoreNoteText(item);
+    const sourceLink = (item.links || [])[0];
+    const source = sourceLink
+      ? `<a class="score-source-link" href="${escapeHtml(sourceLink.url)}" target="_blank" rel="noreferrer" title="${escapeHtml(sourceLink.label)}">來源</a>`
+      : `<span class="score-source-link muted" title="未標示來源">來源</span>`;
+    return `
+      <tr>
+        ${scoreCell(year, "score-year")}
+        ${scoreCell(item.sourceStatus, "score-status")}
+        ${scoreCell(item.program, "score-program")}
+        ${scoreCell(item.division, "score-division")}
+        <th scope="row" class="score-title-cell" title="${escapeHtml(title || "-")}">${escapeHtml(title || "-")}</th>
+        ${scoreCell(item.composer, "score-composer")}
+        ${scoreCell(item.arranger, "score-arranger")}
+        ${scoreCell(publisher, "score-publisher")}
+        ${scoreCell(note, "score-note-inline")}
+        <td class="score-source-cell">${source}</td>
+      </tr>
+    `;
+  }
+
+  function scoreSortAriaValue(key) {
+    if (scoreState.sortKey !== key) return "none";
+    return scoreState.sortDirection === "desc" ? "descending" : "ascending";
+  }
+
+  function scoreSortIcon(key) {
+    if (scoreState.sortKey !== key) return "↕";
+    return scoreState.sortDirection === "desc" ? "▼" : "▲";
+  }
+
+  function scoreHeaderCell(column) {
+    const nextDirection = nextScoreSortDirection(column.key);
+    const directionLabel = nextDirection === "desc" ? "降冪" : "升冪";
+    return `
+      <th scope="col" aria-sort="${scoreSortAriaValue(column.key)}" data-score-column-header="${escapeHtml(column.key)}">
+        <button
+          type="button"
+          class="score-sort-button"
+          data-score-sort="${escapeHtml(column.key)}"
+          aria-label="依${escapeHtml(column.label)}${directionLabel}排序"
+        >
+          <span class="score-sort-label">${escapeHtml(column.label)}</span>
+          <span class="score-sort-icon" aria-hidden="true">${scoreSortIcon(column.key)}</span>
+        </button>
+        <span
+          class="score-column-resizer"
+          role="separator"
+          aria-orientation="vertical"
+          aria-label="調整${escapeHtml(column.label)}欄寬"
+          tabindex="0"
+          data-score-resize="${escapeHtml(column.key)}"
+        ></span>
+      </th>
+    `;
+  }
+
+  function scoreTable(records) {
+    return `
+      <table class="score-table" style="--score-table-width: ${scoreTableWidth()}px">
+        <caption>全國學生音樂比賽口琴指定曲與出版、洽詢線索</caption>
+        <colgroup>
+          ${scoreSortColumns.map(scoreColumnMarkup).join("")}
+        </colgroup>
+        <thead>
+          <tr>
+            ${scoreSortColumns.map(scoreHeaderCell).join("")}
+          </tr>
+        </thead>
+        <tbody>
+          ${records.map(scoreTableRow).join("")}
+        </tbody>
+      </table>
+    `;
+  }
+
+  function renderScoreResultCount(records) {
+    if (!scoreResultCount) return;
+    scoreResultCount.textContent = `${records.length} / ${scoreTotalCount()} 筆指定曲線索`;
+  }
+
+  function scoreYearRangeControl() {
+    const bounds = scoreYearBounds();
+    return `
+      <div class="search-filter-chip-group feed-filter-chip-group score-year-range-group">
+        <span class="search-filter-chip-group-label feed-chip-group-label">年度</span>
+        <div class="score-year-range-inputs" role="group" aria-label="年度範圍">
+          <label class="score-year-range-field" for="score-year-max">
+            <span>最新</span>
+            <input
+              id="score-year-max"
+              type="number"
+              inputmode="numeric"
+              min="${escapeHtml(bounds.min)}"
+              max="${escapeHtml(bounds.max)}"
+              value="${escapeHtml(scoreYearStateValue("yearMax"))}"
+            >
+          </label>
+          <span class="score-year-range-separator" aria-hidden="true">~</span>
+          <label class="score-year-range-field" for="score-year-min">
+            <span>最早</span>
+            <input
+              id="score-year-min"
+              type="number"
+              inputmode="numeric"
+              min="${escapeHtml(bounds.min)}"
+              max="${escapeHtml(bounds.max)}"
+              value="${escapeHtml(scoreYearStateValue("yearMin"))}"
+            >
+          </label>
+        </div>
+      </div>
+    `;
+  }
+
+  function renderScoreFilterPanel(records) {
+    if (!scoreFilterPanel) return;
+    scoreFilterPanel.innerHTML = searchFilterPanel({
+      scope: "score",
+      className: "score-filter-panel",
+      label: "指定曲索引篩選",
+      summary: `${records.length} / ${scoreTotalCount()} 筆指定曲線索`,
+      searchId: "score-search-input",
+      searchLabel: "搜尋指定曲索引",
+      searchValue: scoreState.query,
+      searchPlaceholder: "搜尋曲名、出版者、作編曲、組別",
+      extraControls: scoreYearRangeControl(),
+      groups: [
+        { label: "編制", name: "program", values: scoreFilterValues("program"), activeValues: scoreState.program, fallbackLabel: "全部編制", ariaLabel: "編制篩選，可複選", allowExclude: false },
+        { label: "出版／洽詢來源", name: "publisher", values: scoreFilterValues("publisher"), activeValues: scoreState.publisher, fallbackLabel: "全部來源", ariaLabel: "出版或洽詢來源篩選，可複選", allowExclude: false },
+        { label: "來源狀態", name: "status", values: scoreFilterValues("status"), activeValues: scoreState.status, fallbackLabel: "全部狀態", ariaLabel: "來源狀態篩選，可複選", allowExclude: false },
+      ],
+    });
+    bindScoreFilters();
+  }
+
+  function renderScores() {
+    if (!scoreList) return;
+    const records = filteredScores();
+    renderScoreFilterPanel(records);
+    renderScoreResultCount(records);
+    if (!records.length) {
+      scoreList.innerHTML = `<div class="empty-state">沒有符合目前條件的指定曲線索。</div>`;
+      return;
+    }
+    scoreList.innerHTML = scoreTable(records);
+    hydrateScoreColumnWidthsFromTable();
+    bindScoreSortHeaders();
+    bindScoreColumnResize();
+  }
+
+  function scoreUrlParamNames() {
+    return ["year", "yearMax", "yearMin", "program", "publisher", "status", "sort", "dir", ...legacyScoreExcludeParamNames(), "q", "query"];
+  }
+
+  function legacyScoreExcludeParamNames() {
+    return ["notYear", "notProgram", "notPublisher", "notStatus"];
+  }
+
+  function syncScoreFilterUrl() {
+    if (!scoreList) return;
+    const url = new URL(window.location.href);
+    scoreUrlParamNames().forEach((name) => url.searchParams.delete(name));
+    const bounds = scoreYearBounds();
+    const yearMax = parsedScoreYearValue(scoreState.yearMax);
+    const yearMin = parsedScoreYearValue(scoreState.yearMin);
+    if (yearMax !== null && yearMax !== bounds.max) url.searchParams.set("yearMax", String(yearMax));
+    if (yearMin !== null && yearMin !== bounds.min) url.searchParams.set("yearMin", String(yearMin));
+    filterIncludes(scoreState.program).forEach((value) => url.searchParams.append("program", value));
+    filterIncludes(scoreState.publisher).forEach((value) => url.searchParams.append("publisher", value));
+    filterIncludes(scoreState.status).forEach((value) => url.searchParams.append("status", value));
+    if (scoreSortColumn(scoreState.sortKey)) {
+      url.searchParams.set("sort", scoreState.sortKey);
+      url.searchParams.set("dir", normalizedScoreSortDirection(scoreState.sortDirection));
+    }
+    if (scoreState.query) url.searchParams.set("q", scoreState.query);
+    window.history.replaceState({}, "", url);
+  }
+
+  function addScoreFilterValue(filterName, value) {
+    const label = String(value || "").trim();
+    if (!label || !scoreFilterNames.includes(filterName)) return;
+    const filter = scoreState[filterName];
+    scoreState[filterName] = {
+      include: addFilterValue(filterIncludes(filter), label),
+      exclude: [],
+    };
+  }
+
+  function readScoreFiltersFromUrl() {
+    if (!scoreList) return;
+    const params = new URLSearchParams(window.location.search);
+    const hasLegacyExcludeParams = legacyScoreExcludeParamNames().some((name) => params.has(name));
+    const hasLegacyYearParams = params.has("year");
+    scoreFilterNames.forEach((name) => {
+      scoreState[name] = emptyFilterSet();
+    });
+    scoreState.query = params.get("q") || params.get("query") || "";
+    const sortColumn = scoreSortColumn(params.get("sort") || "");
+    scoreState.sortKey = sortColumn ? sortColumn.key : "";
+    scoreState.sortDirection = sortColumn
+      ? normalizedScoreSortDirection(params.get("dir"), sortColumn.defaultDirection)
+      : "asc";
+    scoreState.yearMax = params.get("yearMax");
+    scoreState.yearMin = params.get("yearMin");
+    const legacyYears = commaSeparatedParamValues(params, ["year"])
+      .map(parsedScoreYearValue)
+      .filter((year) => year !== null);
+    if (legacyYears.length) {
+      scoreState.yearMax = String(Math.max(...legacyYears));
+      scoreState.yearMin = String(Math.min(...legacyYears));
+    }
+    commaSeparatedParamValues(params, ["program"]).forEach((value) => addScoreFilterValue("program", value));
+    commaSeparatedParamValues(params, ["publisher"]).forEach((value) => addScoreFilterValue("publisher", value));
+    commaSeparatedParamValues(params, ["status"]).forEach((value) => addScoreFilterValue("status", value));
+    if (hasLegacyExcludeParams || hasLegacyYearParams) syncScoreFilterUrl();
+  }
+
+  function resetScoreFilters() {
+    scoreFilterNames.forEach((name) => {
+      scoreState[name] = emptyFilterSet();
+    });
+    scoreState.query = "";
+    scoreState.yearMax = null;
+    scoreState.yearMin = null;
+    scoreState.sortKey = "";
+    scoreState.sortDirection = "asc";
+    syncScoreFilterUrl();
+    renderScores();
+  }
+
+  function scheduleScoreRender(delay = 0, cursorPosition = null, focusSelector = "#score-search-input") {
+    window.clearTimeout(scoreSearchTimer);
+    scoreSearchTimer = window.setTimeout(() => {
+      syncScoreFilterUrl();
+      renderScores();
+      if (focusSelector) {
+        const nextField = scoreFilterPanel?.querySelector(focusSelector);
+        if (nextField) {
+          nextField.focus();
+          if (cursorPosition !== null && typeof nextField.setSelectionRange === "function") {
+            try {
+              nextField.setSelectionRange(cursorPosition, cursorPosition);
+            } catch (error) {
+              // Number inputs do not support selection ranges in every browser.
+            }
+          }
+        }
+      }
+    }, delay);
+  }
+
+  function applyScorePanelSelection(name, value) {
+    if (!scoreFilterNames.includes(name)) return;
+    if (value === "all") {
+      scoreState[name] = emptyFilterSet();
+    } else {
+      scoreState[name] = toggleFilterValue(scoreState[name], value);
+    }
+    syncScoreFilterUrl();
+    renderScores();
+  }
+
+  function applyScoreSort(key) {
+    const column = scoreSortColumn(key);
+    if (!column) return;
+    scoreState.sortDirection = nextScoreSortDirection(key);
+    scoreState.sortKey = key;
+    syncScoreFilterUrl();
+    renderScores();
+  }
+
+  function bindScoreSortHeaders() {
+    if (!scoreList) return;
+    scoreList.querySelectorAll("[data-score-sort]").forEach((button) => {
+      button.addEventListener("click", () => {
+        applyScoreSort(button.dataset.scoreSort || "");
+      });
+    });
+  }
+
+  function bindScoreYearRangeInputs() {
+    if (!scoreFilterPanel) return;
+    [
+      ["#score-year-max", "yearMax"],
+      ["#score-year-min", "yearMin"],
+    ].forEach(([selector, stateName]) => {
+      const input = scoreFilterPanel.querySelector(selector);
+      if (!input) return;
+      const applyYearChange = () => {
+        scoreState[stateName] = input.value.trim();
+        scheduleScoreRender(0, null, selector);
+      };
+      input.addEventListener("change", applyYearChange);
+      input.addEventListener("keydown", (event) => {
+        if (event.key !== "Enter") return;
+        applyYearChange();
+      });
+    });
+  }
+
+  function bindScoreColumnResize() {
+    if (!scoreList) return;
+    scoreList.querySelectorAll("[data-score-resize]").forEach((handle) => {
+      handle.addEventListener("pointerdown", (event) => {
+        const key = handle.dataset.scoreResize || "";
+        const column = scoreSortColumn(key);
+        if (!column || event.button > 0) return;
+        const table = scoreList.querySelector(".score-table");
+        const header = scoreList.querySelector(scoreHeaderSelector(key));
+        const startX = event.clientX;
+        const startWidth = header?.getBoundingClientRect().width || scoreColumnWidth(column);
+        handle.setPointerCapture?.(event.pointerId);
+        handle.classList.add("is-active");
+        document.body.classList.add("score-column-resizing");
+        event.preventDefault();
+        event.stopPropagation();
+
+        const onPointerMove = (moveEvent) => {
+          const nextWidth = startWidth + moveEvent.clientX - startX;
+          setScoreColumnWidth(key, nextWidth, table);
+          moveEvent.preventDefault();
+        };
+        const onPointerUp = () => {
+          handle.classList.remove("is-active");
+          document.body.classList.remove("score-column-resizing");
+          window.removeEventListener("pointermove", onPointerMove);
+          window.removeEventListener("pointerup", onPointerUp);
+          window.removeEventListener("pointercancel", onPointerUp);
+        };
+
+        window.addEventListener("pointermove", onPointerMove);
+        window.addEventListener("pointerup", onPointerUp);
+        window.addEventListener("pointercancel", onPointerUp);
+      });
+
+      handle.addEventListener("keydown", (event) => {
+        const key = handle.dataset.scoreResize || "";
+        const column = scoreSortColumn(key);
+        if (!column || (event.key !== "ArrowLeft" && event.key !== "ArrowRight")) return;
+        const step = event.shiftKey ? 32 : 12;
+        const direction = event.key === "ArrowRight" ? 1 : -1;
+        setScoreColumnWidth(key, scoreColumnWidth(column) + step * direction);
+        event.preventDefault();
+      });
+    });
+  }
+
+  function bindScoreFilters() {
+    if (!scoreFilterPanel) return;
+    bindSearchFilterInput(scoreFilterPanel, "#score-search-input", {
+      setComposing: (value) => {
+        scoreSearchComposing = value;
+      },
+      isComposing: () => scoreSearchComposing,
+      setQuery: (value) => {
+        scoreState.query = value;
+      },
+      applyChange: ({ cursorPosition, delay }) => {
+        scheduleScoreRender(delay, cursorPosition);
+      },
+      delay: directorySearchDelayMs,
+    });
+    bindScoreYearRangeInputs();
+    bindSearchFilterChips(scoreFilterPanel, "score", applyScorePanelSelection);
+    const resetButton = scoreFilterPanel.querySelector('[data-search-filter-reset="score"]');
+    if (resetButton) {
+      resetButton.addEventListener("click", resetScoreFilters);
+    }
+  }
+
   function directoryUrlParamNames() {
     return [
       "country",
@@ -2011,6 +2675,7 @@
       buildDirectoryIndex();
       readDirectoryFiltersFromUrl();
     }
+    readScoreFiltersFromUrl();
     readFeedFiltersFromUrl();
     const watchStats = data.stats.watchSources || {};
     setStat("watchSourceCount", watchStats.totalSources || data.stats.totalEntries || 0);
@@ -2019,6 +2684,10 @@
     setStat("directoryEntryCount", data.stats.totalEntries || 0);
     setStat("totalEntries", data.stats.totalEntries || 0);
     setStat("generatedAt", data.generatedAt || "-");
+    setStat("scoreCount", scoreTotalCount());
+    setStat("scoreYearRange", scoreYearRange());
+    setStat("scorePublisherCount", scorePublisherCount());
+    setStat("scoreGeneratedAt", scoreData.generatedAt || "-");
     feedData.generatedAt = formatFeedGeneratedAt(feedData.generatedAt);
     setStat("feedGeneratedAt", feedData.generatedAt || "-");
 
@@ -2029,6 +2698,7 @@
     fetchLatestFeedData();
     renderSpotlight();
     renderDirectory();
+    renderScores();
   }
 
   init();
