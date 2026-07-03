@@ -1154,6 +1154,8 @@
 
   function feedEngagementHtml(item) {
     const parts = [];
+    const likeCount = Number(item.like_count);
+    const reactionCount = Number(item.reaction_count);
     if (item.view_count !== undefined && item.view_count !== null && item.view_count !== "") {
       parts.push(`<span class="feed-engagement-item" title="瀏覽量">👁️ ${escapeHtml(formatEngagementNumber(item.view_count))}</span>`);
     }
@@ -1163,15 +1165,45 @@
     if (item.comment_count !== undefined && item.comment_count !== null && item.comment_count !== "") {
       parts.push(`<span class="feed-engagement-item" title="留言量">💬 ${escapeHtml(formatEngagementNumber(item.comment_count))}</span>`);
     }
+    if (item.share_count !== undefined && item.share_count !== null && item.share_count !== "") {
+      parts.push(`<span class="feed-engagement-item" title="分享量">分享 ${escapeHtml(formatEngagementNumber(item.share_count))}</span>`);
+    }
+    if (
+      item.reaction_count !== undefined &&
+      item.reaction_count !== null &&
+      item.reaction_count !== "" &&
+      (!Number.isFinite(likeCount) || !Number.isFinite(reactionCount) || reactionCount !== likeCount)
+    ) {
+      parts.push(`<span class="feed-engagement-item" title="互動量">互動 ${escapeHtml(formatEngagementNumber(item.reaction_count))}</span>`);
+    }
     if (!parts.length) return "";
     return `<span class="feed-engagement">${parts.join("")}</span>`;
+  }
+
+  function feedImageDimensions(item) {
+    const width = Number(item?.image_width);
+    const height = Number(item?.image_height);
+    if (!Number.isFinite(width) || !Number.isFinite(height) || width <= 0 || height <= 0) return null;
+    return { width: Math.round(width), height: Math.round(height) };
+  }
+
+  function feedImageAspectStyle(item) {
+    const dimensions = feedImageDimensions(item);
+    if (!dimensions) return "";
+    return ` style="--feed-image-aspect: ${dimensions.width} / ${dimensions.height}"`;
+  }
+
+  function feedImageSizeAttrs(item) {
+    const dimensions = feedImageDimensions(item);
+    if (!dimensions) return "";
+    return ` width="${dimensions.width}" height="${dimensions.height}"`;
   }
 
   function homeFeedCard(item, index = 0, options = {}) {
     const showTags = options.showTags !== false;
     const displayTitle = homepageDisplayTitle(item);
     const thumb = item.image_url
-      ? `<a class="home-feed-thumb" href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer" aria-label="查看貼文來源"><img src="${escapeHtml(item.image_url)}" alt="" loading="lazy" referrerpolicy="no-referrer"></a>`
+      ? `<a class="home-feed-thumb" href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer" aria-label="查看貼文來源"${feedImageAspectStyle(item)}><img src="${escapeHtml(item.image_url)}" alt="" loading="lazy" referrerpolicy="no-referrer"${feedImageSizeAttrs(item)}></a>`
       : "";
     const bodyClass = [
       "home-feed-body",
@@ -1205,9 +1237,16 @@
     `;
   }
 
+  function feedCardRoots() {
+    return [
+      latestFeedGrid,
+      ...document.querySelectorAll("[data-source-feed-grid]"),
+    ].filter(Boolean);
+  }
+
   function updateFeedImageOrientation() {
-    if (!latestFeedGrid) return;
-    latestFeedGrid.querySelectorAll(".home-feed-thumb img").forEach((image) => {
+    feedCardRoots().forEach((root) => {
+      root.querySelectorAll(".home-feed-thumb img").forEach((image) => {
       const card = image.closest(".home-feed-card");
       if (!card) return;
       const applyOrientation = () => {
@@ -1226,6 +1265,7 @@
       } else {
         image.addEventListener("load", applyOrientation, { once: true });
       }
+      });
     });
   }
 
@@ -1856,13 +1896,39 @@
   }
 
   function bindFeedTextToggles() {
-    if (!latestFeedGrid) return;
-    latestFeedGrid.addEventListener("click", (event) => {
+    feedCardRoots().forEach((root) => {
+      root.addEventListener("click", (event) => {
       const target = event.target instanceof Element ? event.target : null;
       const button = target?.closest("[data-feed-text-toggle]");
-      if (!button || !latestFeedGrid.contains(button)) return;
+      if (!button || !root.contains(button)) return;
       event.preventDefault();
       toggleFeedText(button);
+      });
+    });
+  }
+
+  function bindSourceRelatedPanels() {
+    document.querySelectorAll("[data-source-related]").forEach((root) => {
+      const chips = [...root.querySelectorAll("[data-source-related-chip]")];
+      const panels = [...root.querySelectorAll("[data-source-related-panel]")];
+      const activate = (panelId) => {
+        chips.forEach((chip) => {
+          const active = chip.dataset.sourceRelatedChip === panelId;
+          chip.setAttribute("aria-pressed", String(active));
+          chip.dataset.filterState = active ? "include" : "off";
+        });
+        panels.forEach((panel) => {
+          panel.hidden = panel.dataset.sourceRelatedPanel !== panelId;
+        });
+      };
+      if (chips[0]) activate(chips[0].dataset.sourceRelatedChip);
+      root.addEventListener("click", (event) => {
+        const target = event.target instanceof Element ? event.target : null;
+        const chip = target?.closest("[data-source-related-chip]");
+        if (!chip || !root.contains(chip)) return;
+        event.preventDefault();
+        activate(chip.dataset.sourceRelatedChip);
+      });
     });
   }
 
@@ -3528,6 +3594,7 @@
 
     bindDirectoryHashtags();
     bindFeedTextToggles();
+    bindSourceRelatedPanels();
     bindHomeStoryScroll();
     bindFeedResize();
 

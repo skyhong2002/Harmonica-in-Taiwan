@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 03 Jul 2026 17:17:46 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 17:54:18 +0000</lastBuildDate>
     <item>
       <title>王衍華</title>
       <link>https://portaly.cc/yenhua_wang</link>
@@ -38,6 +38,17 @@ Tag：演奏者、十孔、口琴、國際交流、音樂會、演出
 國家：西班牙
 地區：西班牙
 西班牙的十孔國際演出人員，活動脈絡包含藍調。</description>
+    </item>
+    <item>
+      <title>臺中國家歌劇院</title>
+      <link>https://www.npac-ntt.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台、活動資訊、演出
+國家：臺灣
+地區：臺灣/臺中
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>馬來西亞口琴節</title>
@@ -412,17 +423,6 @@ Tag：口琴、演奏者、比賽、半音階、國際交流
 國家：香港
 地區：香港
 香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。</description>
-    </item>
-    <item>
-      <title>臺中國家歌劇院</title>
-      <link>https://www.npac-ntt.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台、活動資訊、演出
-國家：臺灣
-地區：臺灣/臺中
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>臺灣口琴音樂節 THMF</title>

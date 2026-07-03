@@ -502,7 +502,8 @@ h2 {
 }
 
 .story-card {
-  flex: 0 0 clamp(190px, 19vw, 300px);
+  container-type: inline-size;
+  flex: 0 0 clamp(136px, 19vw, 300px);
   scroll-snap-align: start;
 }
 
@@ -544,9 +545,9 @@ h2 {
 
 .story-progress {
   position: absolute;
-  top: 14px;
-  left: 14px;
-  right: 14px;
+  top: clamp(8px, 4.7%, 14px);
+  left: clamp(8px, 4.7%, 14px);
+  right: clamp(8px, 4.7%, 14px);
   z-index: 2;
   height: 2px;
   background: rgba(255, 255, 255, 0.92);
@@ -556,13 +557,13 @@ h2 {
 
 .story-card-header {
   position: absolute;
-  top: 30px;
-  left: 14px;
-  right: 14px;
+  top: clamp(18px, 10%, 30px);
+  left: clamp(8px, 4.7%, 14px);
+  right: clamp(8px, 4.7%, 14px);
   z-index: 2;
   display: grid;
-  grid-template-columns: 42px minmax(0, 1fr) auto;
-  gap: 9px;
+  grid-template-columns: clamp(28px, 14%, 42px) minmax(0, 1fr) auto;
+  gap: clamp(5px, 3%, 9px);
   align-items: center;
   color: #fff;
   text-shadow: 0 1px 7px rgba(0, 0, 0, 0.58);
@@ -571,8 +572,9 @@ h2 {
 .story-card-avatar {
   display: grid;
   place-items: center;
-  width: 42px;
-  height: 42px;
+  width: clamp(28px, 100%, 42px);
+  height: auto;
+  aspect-ratio: 1;
   overflow: hidden;
   color: var(--paper);
   font-size: 0.86rem;
@@ -600,13 +602,13 @@ h2 {
 
 .story-card-source {
   color: #fff;
-  font-size: clamp(0.9rem, 0.95vw, 1.08rem);
+  font-size: clamp(0.72rem, 5.1cqw, 1.08rem);
   font-weight: 900;
 }
 
 .story-card-time {
   color: rgba(255, 255, 255, 0.72);
-  font-size: clamp(0.82rem, 0.84vw, 0.98rem);
+  font-size: clamp(0.66rem, 4.3cqw, 0.98rem);
   font-weight: 800;
 }
 
@@ -1425,10 +1427,9 @@ h2 {
 
 .feed-engagement {
   display: inline-flex;
-  gap: 10px;
+  flex-wrap: wrap;
+  gap: 6px;
   align-items: center;
-  font-size: 0.82rem;
-  color: #59625d;
 }
 
 .pill + .feed-engagement {
@@ -1440,7 +1441,14 @@ h2 {
 .feed-engagement-item {
   display: inline-flex;
   align-items: center;
-  gap: 3px;
+  min-height: 24px;
+  padding: 3px 8px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  background: #f2f6f3;
+  border: 1px solid var(--line);
+  border-radius: 999px;
 }
 
 .entry-context {
@@ -2144,6 +2152,91 @@ button.feed-tag-pill {
   border-color: #fff;
 }
 
+.source-detail-card .source-detail-title {
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.5rem;
+  color: var(--ink);
+  font-size: 1.5rem;
+  font-weight: 900;
+  border-bottom: 2px solid var(--teal);
+}
+
+.source-detail-card .source-detail-title:first-child {
+  margin-top: 0;
+}
+
+.source-contact-links {
+  margin-top: 10px;
+}
+
+.source-updates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 14px;
+  margin-bottom: 2rem;
+}
+
+.source-related {
+  display: grid;
+  gap: 14px;
+}
+
+.source-related-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.source-related-panels {
+  padding: 16px;
+  background: #f8faf8;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.source-related-panel h4 {
+  margin: 0 0 10px;
+  color: var(--ink);
+  font-size: 1.04rem;
+  font-weight: 900;
+}
+
+.source-related-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 8px 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.source-related-list a {
+  display: block;
+  padding: 9px 10px;
+  color: var(--teal-deep);
+  font-weight: 850;
+  text-decoration: none;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.source-related-list a:hover,
+.source-related-list a:focus-visible {
+  color: #fff;
+  background: var(--teal);
+  border-color: var(--teal);
+  outline: 2px solid rgba(36, 123, 111, 0.2);
+  outline-offset: 2px;
+}
+
+.source-related-empty {
+  margin: 0;
+  color: var(--muted);
+  font-weight: 750;
+}
+
 .score-band {
   background: #f8faf8;
   border-top: 1px solid var(--line);
@@ -2687,24 +2780,21 @@ button.feed-tag-pill {
   }
 
   .story-card-header {
-    top: 20px;
-    left: 10px;
-    right: 10px;
-    grid-template-columns: 32px minmax(0, 1fr) auto;
-    gap: 6px;
+    top: clamp(16px, 9%, 24px);
+    left: clamp(7px, 4.4%, 10px);
+    right: clamp(7px, 4.4%, 10px);
   }
 
   .story-card-avatar {
-    width: 32px;
-    height: 32px;
+    font-size: 0.7rem;
   }
 
   .story-card-source {
-    font-size: 0.8rem;
+    font-size: clamp(0.64rem, 5cqw, 0.8rem);
   }
 
   .story-card-time {
-    font-size: 0.72rem;
+    font-size: clamp(0.58rem, 4.2cqw, 0.72rem);
   }
 
   .hero,

@@ -113,26 +113,51 @@
                 <tr><th scope="row" style="padding: 10px; text-align: left; font-weight: bold; border-bottom: 1px solid var(--border-color, #e0e0e0);">國家</th><td style="padding: 10px; border-bottom: 1px solid var(--border-color, #e0e0e0);">香港</td></tr>
 
                 <tr><th scope="row" style="padding: 10px; text-align: left; font-weight: bold; border-bottom: 1px solid var(--border-color, #e0e0e0);">城市 / 焦點</th><td style="padding: 10px; border-bottom: 1px solid var(--border-color, #e0e0e0);">香港</td></tr>
-                <tr><th scope="row" style="padding: 10px; text-align: left; font-weight: bold; border-bottom: 1px solid var(--border-color, #e0e0e0);">標籤</th><td style="padding: 10px; border-bottom: 1px solid var(--border-color, #e0e0e0);"><span class="source-tag-pill" style="display: inline-block; padding: 2px 8px; margin: 2px; font-size: 0.85rem; background: var(--tag-bg, #e8f0fe); color: var(--tag-text, #1a73e8); border-radius: 4px;">#口琴</span> <span class="source-tag-pill" style="display: inline-block; padding: 2px 8px; margin: 2px; font-size: 0.85rem; background: var(--tag-bg, #e8f0fe); color: var(--tag-text, #1a73e8); border-radius: 4px;">#學生社團</span> <span class="source-tag-pill" style="display: inline-block; padding: 2px 8px; margin: 2px; font-size: 0.85rem; background: var(--tag-bg, #e8f0fe); color: var(--tag-text, #1a73e8); border-radius: 4px;">#團體樂團</span> <span class="source-tag-pill" style="display: inline-block; padding: 2px 8px; margin: 2px; font-size: 0.85rem; background: var(--tag-bg, #e8f0fe); color: var(--tag-text, #1a73e8); border-radius: 4px;">#音樂節</span></td></tr>
+                <tr><th scope="row" style="padding: 10px; text-align: left; font-weight: bold; border-bottom: 1px solid var(--border-color, #e0e0e0);">標籤</th><td style="padding: 10px; border-bottom: 1px solid var(--border-color, #e0e0e0);"><span class="pill hashtag-chip">#口琴</span> <span class="pill hashtag-chip">#學生社團</span> <span class="pill hashtag-chip">#團體樂團</span> <span class="pill hashtag-chip">#音樂節</span></td></tr>
 
               </tbody>
             </table>
 
-            <h2 class="source-detail-title" style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid var(--primary, #1a73e8); padding-bottom: 0.5rem; margin-bottom: 1rem;">公開聯絡與社群連結</h2>
-            <div class="feed-links" style="display: flex; flex-wrap: wrap; margin-top: 10px;"><a href="https://www.spcc.edu.hk/explore/extra-curricular-activities" target="_blank" rel="noreferrer" class="primary-link" style="margin: 5px; display: inline-block; padding: 6px 12px; border: 1px solid var(--border-color, #ccc); border-radius: 4px; text-decoration: none;">網站</a></div>
+            <h2 class="source-detail-title">公開聯絡與社群連結</h2>
+            <div class="feed-links source-contact-links"><a href="https://www.spcc.edu.hk/explore/extra-curricular-activities" target="_blank" rel="noreferrer">網站</a></div>
 
 
 
-            <h2 class="source-detail-title" style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid var(--primary, #1a73e8); padding-bottom: 0.5rem; margin-top: 2.5rem; margin-bottom: 1.5rem;">探索相關來源</h2>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-bottom: 1rem;">
-              <div>
-                <h4 style="font-size: 1.1rem; font-weight: bold; margin-top: 0; margin-bottom: 0.8rem; color: #333;">相同地區的口琴來源</h4>
-                <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.6;"><li style="margin-bottom: 0.4rem;"><a href="/source/watchlist-55-kelvin-leung/" style="color: var(--primary, #1a73e8); text-decoration: none; font-weight: 500;">梁承熹 Kelvin Leung</a></li><li style="margin-bottom: 0.4rem;"><a href="/source/watchlist-54-cy-leo/" style="color: var(--primary, #1a73e8); text-decoration: none; font-weight: 500;">CY Leo 何卓彥</a></li><li style="margin-bottom: 0.4rem;"><a href="/source/watchlist-107-timothy-yip/" style="color: var(--primary, #1a73e8); text-decoration: none; font-weight: 500;">Timothy Yip 葉進禧</a></li><li style="margin-bottom: 0.4rem;"><a href="/source/watchlist-56-harry-choi/" style="color: var(--primary, #1a73e8); text-decoration: none; font-weight: 500;">蔡偉鏗 Harry Choi</a></li><li style="margin-bottom: 0.4rem;"><a href="/source/watchlist-162-hong-kong-chinese-ymca-harmonica-orchestra/" style="color: var(--primary, #1a73e8); text-decoration: none; font-weight: 500;">香港中華基督教青年會口琴樂團</a></li></ul>
+            <h2 class="source-detail-title">探索相關來源</h2>
+            <div class="source-related" data-source-related>
+
+              <div class="source-related-chips" role="listbox" aria-label="相關來源條件">
+                <button type="button" class="feed-option-chip source-related-chip" data-source-related-chip="related-0" aria-pressed="true" data-filter-state="include">香港</button><button type="button" class="feed-option-chip source-related-chip" data-source-related-chip="related-1" aria-pressed="false" data-filter-state="off">#口琴</button><button type="button" class="feed-option-chip source-related-chip" data-source-related-chip="related-2" aria-pressed="false" data-filter-state="off">#學生社團</button><button type="button" class="feed-option-chip source-related-chip" data-source-related-chip="related-3" aria-pressed="false" data-filter-state="off">#團體樂團</button><button type="button" class="feed-option-chip source-related-chip" data-source-related-chip="related-4" aria-pressed="false" data-filter-state="off">#音樂節</button>
               </div>
-              <div>
-                <h4 style="font-size: 1.1rem; font-weight: bold; margin-top: 0; margin-bottom: 0.8rem; color: #333;">相關標籤的口琴來源</h4>
-                <ul style="margin: 0; padding-left: 1.2rem; line-height: 1.6;"><li style="margin-bottom: 0.4rem;"><a href="/source/watchlist-135-antonio-serrano/" style="color: var(--primary, #1a73e8); text-decoration: none; font-weight: 500;">Antonio Serrano</a></li><li style="margin-bottom: 0.4rem;"><a href="/source/watchlist-67-marcos-coll/" style="color: var(--primary, #1a73e8); text-decoration: none; font-weight: 500;">Marcos Coll</a></li><li style="margin-bottom: 0.4rem;"><a href="/source/watchlist-168-malaysia-harmonica-festival/" style="color: var(--primary, #1a73e8); text-decoration: none; font-weight: 500;">馬來西亞口琴節</a></li><li style="margin-bottom: 0.4rem;"><a href="/source/watchlist-111-rodrigo-eberienos/" style="color: var(--primary, #1a73e8); text-decoration: none; font-weight: 500;">Rodrigo Eberienos</a></li><li style="margin-bottom: 0.4rem;"><a href="/source/watchlist-128-jens-bunge/" style="color: var(--primary, #1a73e8); text-decoration: none; font-weight: 500;">Jens Bunge</a></li></ul>
+              <div class="source-related-panels">
+
+              <div class="source-related-panel" data-source-related-panel="related-0">
+                <h4>香港</h4>
+                <ul class="source-related-list"><li><a href="/source/watchlist-55-kelvin-leung/">梁承熹 Kelvin Leung</a></li><li><a href="/source/watchlist-54-cy-leo/">CY Leo 何卓彥</a></li><li><a href="/source/watchlist-107-timothy-yip/">Timothy Yip 葉進禧</a></li><li><a href="/source/watchlist-96-redbricks-harmonica/">RedBricks Harmonica</a></li><li><a href="/source/watchlist-97-duo-volce-music-studio/">Duo Volce Music Studio 誼聲音樂室</a></li><li><a href="/source/watchlist-56-harry-choi/">蔡偉鏗 Harry Choi</a></li></ul>
               </div>
+
+              <div class="source-related-panel" data-source-related-panel="related-1" hidden>
+                <h4>#口琴</h4>
+                <ul class="source-related-list"><li><a href="/source/watchlist-135-antonio-serrano/">Antonio Serrano</a></li><li><a href="/source/watchlist-67-marcos-coll/">Marcos Coll</a></li><li><a href="/source/watchlist-168-malaysia-harmonica-festival/">馬來西亞口琴節</a></li><li><a href="/source/watchlist-111-rodrigo-eberienos/">Rodrigo Eberienos</a></li><li><a href="/source/watchlist-128-jens-bunge/">Jens Bunge</a></li><li><a href="/source/club-5-tcfsh-harmonica/">中一中口琴社</a></li></ul>
+              </div>
+
+              <div class="source-related-panel" data-source-related-panel="related-2" hidden>
+                <h4>#學生社團</h4>
+                <ul class="source-related-list"><li><a href="/source/club-5-tcfsh-harmonica/">中一中口琴社</a></li><li><a href="/source/club-8-fcu-harmonica/">逢甲口琴社</a></li><li><a href="/source/club-16-chgsh-harmonica/">彰女微光口琴社</a></li><li><a href="/source/club-19-bamboo-melody-harmonica-club/">陽明交大竹韻口琴社</a></li><li><a href="/source/club-11-ntnu-harmonica-club/">師大口琴研究社</a></li><li><a href="/source/watchlist-71+club-10-ntu-blue-sound-harmonica-club/">台大藍聲口琴社</a></li></ul>
+              </div>
+
+              <div class="source-related-panel" data-source-related-panel="related-3" hidden>
+                <h4>#團體樂團</h4>
+                <ul class="source-related-list"><li><a href="/source/watchlist-168-malaysia-harmonica-festival/">馬來西亞口琴節</a></li><li><a href="/source/watchlist-130-reyharp-and-balawan-project/">Reyharp and Balawan Project</a></li><li><a href="/source/watchlist-49-aiden-n-evelyn/">Aiden N Evelyn / Aiden Soon &amp; Evelyn Choong</a></li><li><a href="/source/watchlist-124-fresco-harmonica-ensemble/">Fresco Harmonica Ensemble</a></li><li><a href="/source/watchlist-142-lee-oskar/">Lee Oskar</a></li><li><a href="/source/watchlist-5-punch-harmonica-ensemble/">胖擊口琴樂團</a></li></ul>
+              </div>
+
+              <div class="source-related-panel" data-source-related-panel="related-4" hidden>
+                <h4>#音樂節</h4>
+                <ul class="source-related-list"><li><a href="/source/watchlist-2+watchlist-75-taiwan-harmonica-music-festival/">臺灣口琴音樂節 THMF</a></li><li><a href="/source/watchlist-177-yellow-pine-harmonica-festival/">Yellow Pine Harmonica Festival</a></li><li><a href="/source/watchlist-169-the-hummingway-harmonica-ensemble/">海明威口琴重奏團</a></li><li><a href="/source/watchlist-183-f-rum-harm-nicas-brasil/">巴西口琴論壇</a></li><li><a href="/source/watchlist-164-hong-kong-schools-music-festival/">香港學校音樂節</a></li></ul>
+              </div>
+
+              </div>
+
             </div>
 
           </div>
@@ -156,5 +181,6 @@
         <p class="footer-meta">只收錄公開可查資料 · 由 <a href="https://www.facebook.com/nycubmhc/" target="_blank" rel="noreferrer">陽明交大竹韻口琴社</a> 維運 · MIT License · © 2026 Sky Hong</p>
       </div>
     </footer>
+    <script src="/assets/app.js?v=20260628-0342"></script>
   </body>
 </html>

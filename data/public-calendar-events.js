@@ -1,8 +1,8 @@
 window.publicCalendarEvents = {
   "version": 1,
-  "generatedAt": "2026-07-04T00:50:09+08:00",
+  "generatedAt": "2026-07-04T01:54:18+08:00",
   "timezone": "Asia/Taipei",
-  "count": 3,
+  "count": 4,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -13,8 +13,8 @@ window.publicCalendarEvents = {
     "tokenSource": "keychain:harmonica-opencode-go/harmonica",
     "model": "mimo-v2.5",
     "stats": {
-      "requests": 0,
-      "cached": 15,
+      "requests": 10,
+      "cached": 8,
       "errors": 0
     }
   },
@@ -47,18 +47,45 @@ window.publicCalendarEvents = {
       "postedAt": "2026-07-01 12:07"
     },
     {
+      "id": "e40e9e2154ec8429",
+      "title": "南里沙的 CoCoだけの話 YouTube 生配信",
+      "eventName": "南里沙的 CoCoだけの話 YouTube 生配信",
+      "source": "南里沙 / Risa MINAMI",
+      "platform": "instagram",
+      "start": "2026-07-16",
+      "end": "2026-07-17",
+      "allDay": true,
+      "location": "YouTube",
+      "venue": "YouTube",
+      "city": "",
+      "details": "YouTube 生配信，第272回，主題為ちあきなおみ特集，開放觀眾點歌。",
+      "evidenceUrl": "https://www.instagram.com/p/DZv9gbPSDcC/",
+      "confidence": 0.9,
+      "calendarReview": {
+        "include": true,
+        "country": "線上",
+        "eventName": "南里沙的 CoCoだけの話 YouTube 生配信",
+        "venue": "YouTube",
+        "city": "",
+        "details": "YouTube 生配信，第272回，主題為ちあきなおみ特集，開放觀眾點歌。",
+        "reason": "貼文明確提及YouTube生配信活動、具體日期與時間，且為口琴家南里沙的直播節目。",
+        "confidence": 0.9
+      },
+      "postedAt": "2026-06-19 09:46"
+    },
+    {
       "id": "88fb7911620b72be",
       "title": "臺灣探戈樂團創團音樂會",
       "eventName": "臺灣探戈樂團創團音樂會",
-      "source": "陳瑤容 Yora Chen",
+      "source": "Yora",
       "platform": "youtube",
       "start": "2026-07-18T19:30:00+08:00",
       "end": "2026-07-18T21:30:00+08:00",
       "allDay": false,
-      "location": "臺北市 臺北生技園區 多功能廳",
+      "location": "臺北生技園區 多功能廳",
       "venue": "臺北生技園區 多功能廳",
-      "city": "臺北市",
-      "details": "演出團體：臺灣探戈樂團（Taiwan Tango Orquesta），使用班多鈕手風琴、口琴等樂器，有購票連結。",
+      "city": "臺北",
+      "details": "演出：臺灣探戈樂團創團音樂會（Taiwan Tango Orquesta），有口琴演出者廖苡晴。",
       "evidenceUrl": "https://www.youtube.com/watch?v=PA11sSFkJeA",
       "confidence": 0.9,
       "calendarReview": {
@@ -66,9 +93,9 @@ window.publicCalendarEvents = {
         "country": "臺灣",
         "eventName": "臺灣探戈樂團創團音樂會",
         "venue": "臺北生技園區 多功能廳",
-        "city": "臺北市",
-        "details": "演出團體：臺灣探戈樂團（Taiwan Tango Orquesta），使用班多鈕手風琴、口琴等樂器，有購票連結。",
-        "reason": "貼文明確提供未來線下音樂會的日期、時間、地點與團體名稱，且有購票資訊，符合收錄條件。",
+        "city": "臺北",
+        "details": "演出：臺灣探戈樂團創團音樂會（Taiwan Tango Orquesta），有口琴演出者廖苡晴。",
+        "reason": "貼文內容明確包含一個在台灣舉辦的線下音樂會活動資訊，有具體日期、時間、地點和演出者，且與口琴相關。",
         "confidence": 0.9
       },
       "postedAt": "2026-06-26 18:30"
