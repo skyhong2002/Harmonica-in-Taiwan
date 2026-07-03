@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 03 Jul 2026 07:51:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 08:21:55 +0000</lastBuildDate>
     <item>
       <title>新加坡青年節藝術展演（口琴）</title>
       <link>https://www.syf.gov.sg/general/calendar</link>
@@ -29,6 +29,17 @@ Tag：場館、場館平台、活動資訊、音樂會、演出
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
+      <title>王心禾</title>
+      <link>https://www.instagram.com/harmonica_wang/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/81d8ceaa7e7b789c</guid>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、口琴
+國家：臺灣
+地區：臺灣
+臺灣的口琴演出人員，活動脈絡包含胖擊系。</description>
+    </item>
+    <item>
       <title>國家兩廳院</title>
       <link>https://npac-ntch.org/zh</link>
       <guid>https://harmonica.observe.tw/feeds/sources/31f9c79620bc0e35</guid>
@@ -49,17 +60,6 @@ Tag：演奏者、教學、重奏
 國家：臺灣
 地區：臺灣
 臺灣的重奏與教學演出人員與教學者，活動脈絡包含天狼星、Laelaps與演出。</description>
-    </item>
-    <item>
-      <title>王心禾</title>
-      <link>https://www.instagram.com/harmonica_wang/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/81d8ceaa7e7b789c</guid>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、口琴
-國家：臺灣
-地區：臺灣
-臺灣的口琴演出人員，活動脈絡包含胖擊系。</description>
     </item>
     <item>
       <title>Antonio Serrano</title>

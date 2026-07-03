@@ -220,6 +220,59 @@
       ]
     },
     {
+      "id": "watchlist-42",
+      "name": "王心禾",
+      "nameEn": "Hsin-Ho Wang",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "胖擊系",
+      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
+      "keywords": "王心禾 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_wang/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-03T03:32:01+00:00",
+      "latestUpdateLocal": "2026-07-03 11:32",
+      "latestUpdateSource": "王心禾",
+      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_wang/3932826896568636094/",
+      "avatarUrl": "/assets/source-avatars/6e0443c85d9318ef71c9.webp",
+      "sourceInitials": "王心",
+      "sourceTags": [
+        "演奏者",
+        "口琴"
+      ],
+      "sourceSummary": "臺灣口琴演奏者，活躍於演出活動。",
+      "sourceTagReason": "資料明確標註「類別：演奏者」與「類型：個人」，並提及口琴與演出。",
+      "monitorSources": [
+        {
+          "id": "ig_harmonica_wang",
+          "name": "王心禾",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.instagram.com/harmonica_wang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_wang",
+          "name": "王心禾",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.instagram.com/harmonica_wang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_wang/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-81",
       "name": "國家兩廳院",
       "nameEn": "",
@@ -386,59 +439,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/@ChaotengChang",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-42",
-      "name": "王心禾",
-      "nameEn": "Hsin-Ho Wang",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "胖擊系",
-      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
-      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
-      "keywords": "王心禾 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/harmonica_wang/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-03T01:53:43+00:00",
-      "latestUpdateLocal": "2026-07-03 09:53",
-      "latestUpdateSource": "王心禾",
-      "latestUpdateUrl": "https://www.instagram.com/p/DaUB-E9E8i7/",
-      "avatarUrl": "/assets/source-avatars/6e0443c85d9318ef71c9.webp",
-      "sourceInitials": "王心",
-      "sourceTags": [
-        "演奏者",
-        "口琴"
-      ],
-      "sourceSummary": "臺灣口琴演奏者，活躍於演出活動。",
-      "sourceTagReason": "資料明確標註「類別：演奏者」與「類型：個人」，並提及口琴與演出。",
-      "monitorSources": [
-        {
-          "id": "ig_harmonica_wang",
-          "name": "王心禾",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "harmonica_wang",
-          "profileUrl": "https://www.instagram.com/harmonica_wang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_harmonica_wang",
-          "name": "王心禾",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "harmonica_wang",
-          "profileUrl": "https://www.instagram.com/harmonica_wang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_wang/story/0"
         }
       ]
     },
