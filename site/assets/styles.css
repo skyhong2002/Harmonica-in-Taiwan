@@ -1505,6 +1505,16 @@ h2 {
   line-height: 1.35;
 }
 
+.entry-card h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.entry-card h3 a:hover {
+  color: var(--teal);
+  text-decoration: underline;
+}
+
 .entry-en {
   min-height: 24px;
   margin: 4px 0 0;
@@ -2337,6 +2347,16 @@ button.feed-tag-pill {
   vertical-align: middle;
   white-space: nowrap;
   border: 1px solid var(--line);
+}
+
+.score-landing-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.score-landing-link:hover {
+  color: var(--teal);
+  text-decoration: underline;
 }
 
 .score-table thead th {

@@ -861,7 +861,7 @@
             "source-avatar entry-avatar"
           )}
           <div class="entry-title-block">
-            <h3>${escapeHtml(entry.name)}</h3>
+            <h3><a href="/source/${escapeHtml(entry.id)}/" class="entry-landing-link">${escapeHtml(entry.name)}</a></h3>
             <p class="entry-en">${escapeHtml(entry.nameEn)}</p>
             ${aliases.length ? `<p class="entry-aliases">也收錄：${aliases.map(escapeHtml).join("、")}</p>` : ""}
           </div>
@@ -1505,7 +1505,7 @@
       return map;
     }, new Map());
     const days = monthCalendarDays(monthAnchor);
-    const upcoming = events.filter((event) => publicCalendarDateKey(event) >= todayKey).slice(0, 8);
+    const upcoming = events.filter((event) => publicCalendarDateKey(event) >= todayKey).slice(0, 30);
     publicCalendarWidget.innerHTML = `
       <div class="public-calendar-panel">
         <div class="public-calendar-toolbar">
@@ -1525,7 +1525,7 @@
                   <span class="public-calendar-day-number">${date.getDate()}</span>
                   <div class="public-calendar-day-events">
                     ${dayEvents.slice(0, 3).map((event) => `
-                      <a href="${escapeHtml(event.evidenceUrl || "#")}" target="_blank" rel="noreferrer">
+                      <a href="/event/${escapeHtml(event.id)}/">
                         <span>${escapeHtml(publicCalendarTimeLabel(event))}</span>
                         ${escapeHtml(event.title || event.source || "公開口琴活動")}
                       </a>
@@ -1541,7 +1541,7 @@
           <h3>近期事件線索</h3>
           <div class="public-calendar-event-list">
             ${upcoming.map((event) => `
-              <a href="${escapeHtml(event.evidenceUrl || "#")}" target="_blank" rel="noreferrer">
+              <a href="/event/${escapeHtml(event.id)}/">
                 <span class="public-calendar-event-date">${escapeHtml(publicCalendarDateLabel(event))}</span>
                 <span class="public-calendar-event-title">${escapeHtml(event.title || event.source || "公開口琴活動")}</span>
                 <span class="public-calendar-event-source">${escapeHtml(event.source || event.platform || "")}</span>
@@ -2532,7 +2532,9 @@
       <tr>
         ${scoreCell(year, "score-year")}
         ${scoreCell(item.sourceStatus, "score-status")}
-        ${scoreCell(item.program, "score-program")}
+        <td class="score-program" title="${escapeHtml(item.program || "-")}">
+          ${item.program ? `<a href="/scores/${encodeURIComponent(item.program)}/" class="score-landing-link">${escapeHtml(item.program)}</a>` : "-"}
+        </td>
         ${scoreCell(item.division, "score-division")}
         <th scope="row" class="score-title-cell" title="${escapeHtml(title || "-")}">${escapeHtml(title || "-")}</th>
         ${scoreCell(item.composer, "score-composer")}

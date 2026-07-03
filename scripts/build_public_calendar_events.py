@@ -501,7 +501,7 @@ def extract_events(
                 )
                 events.append(override)
                 used_overrides.add(link)
-            continue
+                seen_links_dates.add((link, start_date.isoformat()))
         for start_date, end_date, context in date_candidates(text, posted_at):
             if start_date < min_date or start_date > max_date:
                 continue

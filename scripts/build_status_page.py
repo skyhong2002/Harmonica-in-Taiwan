@@ -815,6 +815,33 @@ def render_status_page(status: dict[str, Any]) -> str:
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>抓資料狀態｜臺灣口琴觀測站</title>
     <meta name="description" content="臺灣口琴觀測站資料抓取、RSSHub、Apify、YouTube 與公開 API 的最新健康狀態。">
+    <link rel="canonical" href="https://harmonica.observe.tw/status/">
+    <meta property="og:title" content="抓資料狀態｜臺灣口琴觀測站">
+    <meta property="og:description" content="臺灣口琴觀測站資料抓取、RSSHub、Apify、YouTube 與公開 API 的最新健康狀態。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://harmonica.observe.tw/status/">
+    <meta property="og:image" content="https://harmonica.observe.tw/assets/hero-harmonica-observe.webp">
+    <meta property="og:site_name" content="臺灣口琴觀測站">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="抓資料狀態｜臺灣口琴觀測站">
+    <meta name="twitter:description" content="臺灣口琴觀測站資料抓取、RSSHub、Apify、YouTube 與公開 API 的最新健康狀態。">
+    <meta name="twitter:image" content="https://harmonica.observe.tw/assets/hero-harmonica-observe.webp">
+    <script type="application/ld+json">
+    {{
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://harmonica.observe.tw/status/#webpage",
+      "url": "https://harmonica.observe.tw/status/",
+      "name": "抓資料狀態｜臺灣口琴觀測站",
+      "description": "臺灣口琴觀測站資料抓取、RSSHub、Apify、YouTube 與公開 API 的最新健康狀態。",
+      "isPartOf": {{
+        "@type": "WebSite",
+        "@id": "https://harmonica.observe.tw/#website",
+        "name": "臺灣口琴觀測站",
+        "url": "https://harmonica.observe.tw/"
+      }}
+    }}
+    </script>
     <link rel="icon" href="/assets/favicon-20260623.svg?v={ASSET_VERSION}" type="image/svg+xml">
     <link rel="stylesheet" href="/assets/styles.css?v={ASSET_VERSION}">
   </head>
