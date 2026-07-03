@@ -31,6 +31,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/feeds/</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/submit/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>monthly</changefreq>
@@ -61,25 +67,31 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-67/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-67-marcos-coll/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-111/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-111-rodrigo-eberienos/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-128/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-128-jens-bunge/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-58/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-58-minami-risa/</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/watchlist-136-indiara-sfair/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -91,37 +103,55 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-181/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-181-harmonica-fen-festival-academy/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-103/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-130-reyharp-and-balawan-project/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-167/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-103-otis-tsao/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-55/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-167-singapore-youth-festival-arts-presentation-harmonica/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-54/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-55-kelvin-leung/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-42/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-54-cy-leo/</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/watchlist-42-hsin-ho-wang/</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/watchlist-27+watchlist-94-peacetones-harmonica/</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/watchlist-186-empa-escuela-de-m-sica-popular-de-avellaneda-arm-nica/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -139,674 +169,650 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-57/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-57-rei-yamashita/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-135/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-135-antonio-serrano/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-49/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-49-aiden-n-evelyn/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-50/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-50-aiden-soon/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-106/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-106-yora-chen/</loc>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-136/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-124-fresco-harmonica-ensemble/</loc>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-186/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-110-konstantin-reinfeld/</loc>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-124/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-46-alysa-liao/</loc>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-130/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-30+watchlist-101-dming-studio/</loc>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-110/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-66-younghoon-cho/</loc>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-46/</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-30+watchlist-101/</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-66/</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-142/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-142-lee-oskar/</loc>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-33/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-34/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-34-yen-hua-wang/</loc>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-5/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-5-punch-harmonica-ensemble/</loc>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-114/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-114-lee-hangyeol/</loc>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-107/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-107-timothy-yip/</loc>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-82/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-2+watchlist-75/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-2+watchlist-75-taiwan-harmonica-music-festival/</loc>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-65/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-65-jong-seong-park/</loc>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-27+watchlist-94/</loc>
-    <lastmod>2026-07-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-159/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-159-sigmund-groven/</loc>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-32/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-90/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-90-bluebo-harmonica/</loc>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-8/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/club-8-fcu-harmonica/</loc>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-150/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-150-yoonseok-lee/</loc>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-145/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-145-howard-levy/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-187/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-187-ming-hsun-tsai/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-98/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-98-weissenberg-harmonicas/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-156/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-156-santiago-alvarez/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-149/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-149-world-harmonica-festival/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-104/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-104-ho-kah-kean-harmonikahkean/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-108/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-108-stay-drunk-harmonica-ensemble/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-118/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-118-filip-jers/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-16/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/club-16-chgsh-harmonica/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-38+watchlist-88/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-60/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-60-toshi-fujii/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-78/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-40/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-40-henry-chen/</loc>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-177/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-177-yellow-pine-harmonica-festival/</loc>
+    <lastmod>2026-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-59/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-59-taro-senga/</loc>
+    <lastmod>2026-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-51/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-51-sharene-tang/</loc>
+    <lastmod>2026-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-161/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-161-deak-harp/</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-157/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-157-orchester-hohnerklang/</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-169/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-169-the-hummingway-harmonica-ensemble/</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-43/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-43-yu-feng-lin/</loc>
+    <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-121/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-121-federico-linari/</loc>
+    <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-185/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-185-escuela-de-arm-nica-de-buenos-aires/</loc>
+    <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-52/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-52-fourtissimo-harmonica-ensemble/</loc>
+    <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-152/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-152-liam-ward-malcolm-thorne/</loc>
+    <lastmod>2026-06-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-143/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-143-gregoire-maret/</loc>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-154/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-154-rachelle-plas-philippe-hervouet/</loc>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-168/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-168-malaysia-harmonica-festival/</loc>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-96/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-96-redbricks-harmonica/</loc>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-3/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-3-sirius-harmonica-ensemble/</loc>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-174/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-174-society-for-the-preservation-and-advancement-of-the-harmonica/</loc>
+    <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-63/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-63-f-i-h-japan-harmonica-contest/</loc>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-9/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-9-jang-li/</loc>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-19/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/club-19-bamboo-melody-harmonica-club/</loc>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-4/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-4-judy-s-harmonica-ensemble/</loc>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-37/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-102/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-146/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-146-brendan-power/</loc>
+    <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-112/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-112-boris-plotnikov/</loc>
+    <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-93/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-93-taipei-yellowstone-harmonica-ensemble/</loc>
+    <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-165/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-165-harmonica-aficionados-society-singapore/</loc>
+    <lastmod>2026-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-97/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-97-duo-volce-music-studio/</loc>
+    <lastmod>2026-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-56/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-56-harry-choi/</loc>
+    <lastmod>2026-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-11/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/club-11-ntnu-harmonica-club/</loc>
+    <lastmod>2026-06-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-71+club-10/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-71+club-10-ntu-blue-sound-harmonica-club/</loc>
+    <lastmod>2026-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-74+club-9/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-06-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-24/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/club-24-waseda-university-harmonica-society/</loc>
+    <lastmod>2026-06-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-162/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-162-hong-kong-chinese-ymca-harmonica-orchestra/</loc>
+    <lastmod>2026-06-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-17/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-17-111-quintet/</loc>
+    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-133/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-133-hong-kong-harmonica-association/</loc>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-39/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-53/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-53-leafin-harmonica-ensemble/</loc>
+    <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-25/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/club-25-meiji-university-harmonica-society/</loc>
+    <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-15/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-13/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/club-13-ckhc-64th/</loc>
+    <lastmod>2026-06-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-5/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/club-5-tcfsh-harmonica/</loc>
+    <lastmod>2026-06-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-22/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/club-22-kshs-harmonica/</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-6/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/club-6-csmu-blue-melody/</loc>
+    <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-12/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/club-12-hsnu-cozy-harmonica/</loc>
+    <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-16/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-16-dr-blue/</loc>
+    <lastmod>2026-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-89/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-18/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/club-18-nthu-harmonica-club/</loc>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-36/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-17/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/club-17-ncue-harmonica/</loc>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-91/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-91-baba-harmonica-studio/</loc>
+    <lastmod>2026-05-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-100/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-26/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-26-laelaps-harmonica/</loc>
+    <lastmod>2026-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-15/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/club-15-npust-hmc/</loc>
+    <lastmod>2026-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-10/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-10-rolabo-lin/</loc>
+    <lastmod>2026-03-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-29/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-29-the-duet/</loc>
+    <lastmod>2025-12-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-7/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/club-7-nutc-harmonica/</loc>
+    <lastmod>2025-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-14/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-14-mr-why/</loc>
+    <lastmod>2025-10-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-23/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/club-23-tnfsh-harmonica/</loc>
+    <lastmod>2025-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-47/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2025-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-18/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-18-up-side-down-harmonica-ensemble/</loc>
+    <lastmod>2025-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-14/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/club-14-ncku-harmonica-club/</loc>
+    <lastmod>2025-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-68/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-68-gordon-lee/</loc>
+    <lastmod>2025-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-41/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2025-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-11/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2025-02-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-2+club-3/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/club-2+club-3-mcu-harmonica/</loc>
+    <lastmod>2023-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-21/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/club-21-nkust-harmonica/</loc>
+    <lastmod>2020-12-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-7/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2019-07-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-25/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-25-brain-horizon/</loc>
+    <lastmod>2018-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-87/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-87-yellowstone-music-shop/</loc>
+    <lastmod>2017-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-70/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <loc>https://harmonica.observe.tw/source/watchlist-70-fata-morgana/</loc>
+    <lastmod>2016-12-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -817,127 +823,127 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-179/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-179-hohner-konservatorium-trossingen/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-61/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-61-tombo-harmonica-society-directory/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-171/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-171-china-popular-music-association-harmonica-professional-committee/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-62/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-62-all-japan-harmonica-federation/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-178/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-178-deutscher-harmonika-verband-e-v/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-64/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-64-japan-harmonica-art-association/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-175/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-175-harmonicauk/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-172/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-172-korea-harmonica-education-association/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-127/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-127-ausgelassen-x-wesley-wong/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-13/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-13-donuts/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-129/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-129-korea-harmonica-orchestra/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-125/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-125-perfect-fourth/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-158/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-158-ptaszek-buzma/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-22/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-22-spotlight-harmonica-ensemble/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-155/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-155-the-livewires/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-123/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-123-the-magic-harmonica-ensemble/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-140/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-140-veloz-harmonica-quartet/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-24/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-24-philharmonica/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-184/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-184-orquestra-harm-nicas-de-curitiba/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-166/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-166-hnhk-harmonica-orchestra/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-6/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-6-rhapsody-harmonica-ensemble/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -949,7 +955,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-173/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-173-seoul-harmonica-orchestra/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -973,79 +979,79 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-26/</loc>
+    <loc>https://harmonica.observe.tw/source/club-26-chuo-university-harmonica-society/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-34/</loc>
+    <loc>https://harmonica.observe.tw/source/club-34-ntu-cac-harmonica-band/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-30/</loc>
+    <loc>https://harmonica.observe.tw/source/club-30-yamagata-city-commercial-high-school-harmonica-band/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-33/</loc>
+    <loc>https://harmonica.observe.tw/source/club-33-nus-harmonica/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-36/</loc>
+    <loc>https://harmonica.observe.tw/source/club-36-pcghs-harmonica-band/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-38/</loc>
+    <loc>https://harmonica.observe.tw/source/club-38-wuhan-university-of-technology-xingyi-harmonica-association/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-27/</loc>
+    <loc>https://harmonica.observe.tw/source/club-27-rikkyo-university-harmonica-society/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-32/</loc>
+    <loc>https://harmonica.observe.tw/source/club-32-spcc-harmonica-orchestra/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-31/</loc>
+    <loc>https://harmonica.observe.tw/source/club-31-kcobaps-harmonica-band/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-39/</loc>
+    <loc>https://harmonica.observe.tw/source/club-39-ccnu-student-zhiyin-harmonica-club/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-35/</loc>
+    <loc>https://harmonica.observe.tw/source/club-35-yuhua-secondary-school-harmonica-band/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-37/</loc>
+    <loc>https://harmonica.observe.tw/source/club-37-clhs-harmonica-band/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-28/</loc>
+    <loc>https://harmonica.observe.tw/source/club-28-kwansei-gakuin-university-harmonica-society/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1057,187 +1063,187 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/club-29/</loc>
+    <loc>https://harmonica.observe.tw/source/club-29-kagoshima-university-harmonica-band-capital-harmony/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-105/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-105-pocket-harmonic/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-84/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-84-tongho-musical-instrument-co-ltd-music4fun/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-95/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-95-rhapsody-harmonica-drum-studio/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-83/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-83-musix-co-ltd/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-92/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-92-an-afternoon-with-harmonica/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-86/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-86-from-harmonica-to-music/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-180/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-180-harmonica-masters-workshops/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-182/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-182-mundharmonika-live/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-76/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-76-opentix/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-109/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-109-seoul-international-harmonica-festival/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-176/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-176-spring-harp-fest/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-183/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-183-f-rum-harm-nicas-brasil/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-170/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-170-15th-asia-pacific-harmonica-festival/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-163/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-163-international-chromatic-harmonica-competition-hong-kong/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-164/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-164-hong-kong-schools-music-festival/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-69/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-69-dror-adler-adler-trio/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-151/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-151-hank-shreve/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-141/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-141-keith-dunn/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-144/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-144-kif-valentine/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-115/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-115-kim-changsik/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-116/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-116-kim-kyunghee/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-131/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-131-long-deng-jie/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-160/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-160-steve-baker/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-113/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-113-takamoto-mizuno/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-153/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-153-tian-long-li/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-126/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-126-yuanmao-wang/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-48/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-48-wu-yung-lung/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-45/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-45-wu-tsai-rung/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-120/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-120-yasuo-watani/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-122/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-122-koei-tanaka/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1256,13 +1262,13 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/event/8e6bb6caf65dafbb/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://harmonica.observe.tw/event/88fb7911620b72be/</loc>
-    <lastmod>2026-07-03</lastmod>
+    <lastmod>2026-06-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>

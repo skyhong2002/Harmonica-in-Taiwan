@@ -1,6 +1,6 @@
 window.publicCalendarEvents = {
   "version": 1,
-  "generatedAt": "2026-07-03T22:22:33+08:00",
+  "generatedAt": "2026-07-03T23:15:20+08:00",
   "timezone": "Asia/Taipei",
   "count": 2,
   "source": "/api/events.json",
@@ -43,7 +43,8 @@ window.publicCalendarEvents = {
       },
       "id": "8e6bb6caf65dafbb",
       "source": "臺灣口琴音樂節 THMF",
-      "platform": "facebook"
+      "platform": "facebook",
+      "postedAt": "2026-07-01 12:07"
     },
     {
       "id": "88fb7911620b72be",
@@ -69,7 +70,8 @@ window.publicCalendarEvents = {
         "details": "演出團體：臺灣探戈樂團（Taiwan Tango Orquesta），使用班多鈕手風琴、口琴等樂器，有購票連結。",
         "reason": "貼文明確提供未來線下音樂會的日期、時間、地點與團體名稱，且有購票資訊，符合收錄條件。",
         "confidence": 0.9
-      }
+      },
+      "postedAt": "2026-06-26 18:30"
     }
   ]
 };

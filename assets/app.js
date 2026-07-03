@@ -25,6 +25,26 @@
     scoreSources: [],
   };
 
+  function makeSlug(entry) {
+    if (!entry) return "";
+    const entryId = (entry.id || "").trim();
+    const nameEn = (entry.nameEn || "").trim();
+    const name = (entry.name || "").trim();
+    let text = nameEn ? nameEn : name;
+    text = text.toLowerCase();
+    text = text.replace(/[^a-z0-9]+/g, "-");
+    text = text.replace(/^-+|-+$/g, "");
+    if (text) {
+      return `${entryId}-${text}`;
+    }
+    return entryId;
+  }
+
+  function entryById(id) {
+    if (!id || !data.entries) return null;
+    return data.entries.find((entry) => entry.id === id) || null;
+  }
+
   const state = {
     query: "",
     country: emptyFilterSet(),
@@ -853,7 +873,7 @@
             "source-avatar entry-avatar"
           )}
           <div class="entry-title-block">
-            <h3><a href="/source/${escapeHtml(entry.id)}/" class="entry-landing-link">${escapeHtml(entry.name)}</a></h3>
+            <h3><a href="/source/${escapeHtml(makeSlug(entry))}/" class="entry-landing-link">${escapeHtml(entry.name)}</a></h3>
             <p class="entry-en">${escapeHtml(entry.nameEn)}</p>
             ${aliases.length ? `<p class="entry-aliases">也收錄：${aliases.map(escapeHtml).join("、")}</p>` : ""}
           </div>
@@ -1005,8 +1025,8 @@
   function sourceIdentity(item, avatarClass = "source-avatar", metaClass = "feed-latest-meta") {
     const source = item.source || "公開來源";
     const platform = item.platform_label || item.platform || "public";
-    const watchlistId = item.directory_entry_id;
-    const watchlistUrl = watchlistId ? `/source/${escapeHtml(watchlistId)}/` : "";
+    const entry = entryById(watchlistId);
+    const watchlistUrl = entry ? `/source/${escapeHtml(makeSlug(entry))}/` : (watchlistId ? `/source/${escapeHtml(watchlistId)}/` : "");
     const profileUrl = sourceProfileUrl(item);
     const fallbackUrl = watchlistUrl || profileUrl || "";
 
