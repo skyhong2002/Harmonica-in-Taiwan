@@ -217,6 +217,64 @@ def source_facet_values(entry: dict[str, Any], kind: str) -> set[str]:
     return set()
 
 
+def encoded_path_part(value: str) -> str:
+    return urllib.parse.quote(clean(value), safe="")
+
+
+def source_region_values(entry: dict[str, Any], country_values: set[str] | None = None) -> set[str]:
+    values: set[str] = set()
+    countries = country_values or {clean(entry.get("country"))}
+    country_keys = {value.casefold() for value in countries if value}
+    for part in re.split(r"[/／；;、,，]", clean(entry.get("region"))):
+        region = part.strip()
+        if not region:
+            continue
+        if region.casefold() in country_keys:
+            continue
+        values.add(region)
+    return values
+
+
+def source_facet_groups(entries: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    specs = [
+        {
+            "kind": "category",
+            "label": "類別",
+            "path": "category",
+            "page_title": "口琴公開來源類別",
+            "value_fn": lambda entry: {clean(entry.get("category"))} if clean(entry.get("category")) else set(),
+        },
+        {
+            "kind": "region",
+            "label": "地區",
+            "path": "region",
+            "page_title": "口琴公開來源地區",
+            "value_fn": source_region_values,
+        },
+        {
+            "kind": "tag",
+            "label": "Tag",
+            "path": "tag",
+            "page_title": "口琴公開來源 tag",
+            "value_fn": lambda entry: {clean(tag).lstrip("#") for tag in entry.get("sourceTags") or [] if clean(tag)},
+        },
+    ]
+    groups: list[dict[str, Any]] = []
+    for spec in specs:
+        value_entries: dict[str, list[dict[str, Any]]] = {}
+        for entry in entries:
+            for value in spec["value_fn"](entry):
+                if value:
+                    value_entries.setdefault(value, []).append(entry)
+        values = [
+            {"value": value, "entries": value_entries[value]}
+            for value in sorted(value_entries, key=lambda item: (-len(value_entries[item]), item))
+            if len(value_entries[value]) >= 2
+        ]
+        groups.append({**spec, "values": values})
+    return groups
+
+
 def generate_source_page(
     entry: dict[str, Any],
     entry_updates: list[dict[str, Any]],
@@ -824,7 +882,8 @@ def generate_sitemap_xml(
     events: list[dict[str, Any]],
     categories: list[str],
     updates: list[dict[str, Any]],
-    scores: list[dict[str, Any]]
+    scores: list[dict[str, Any]],
+    source_groups: list[dict[str, Any]] | None = None,
 ) -> str:
     url_templates = []
     events_lastmod = file_lastmod(EVENTS_JSON)
@@ -907,6 +966,20 @@ def generate_sitemap_xml(
     <lastmod>{src_lastmod}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
+  </url>""")
+
+    # Source facet landing pages
+    for group in source_groups or []:
+        for facet in group.get("values") or []:
+            value = clean(facet.get("value"))
+            if not value:
+                continue
+            encoded = encoded_path_part(value)
+            url_templates.append(f"""  <url>
+    <loc>https://harmonica.observe.tw/source/{group["path"]}/{encoded}/</loc>
+    <lastmod>{newest_source}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.65</priority>
   </url>""")
 
     # Event Pages
@@ -1022,13 +1095,18 @@ def render_entry_card_html(entry: dict[str, Any]) -> str:
 """
 
 
-def format_source_item_list_json_ld(entries: list[dict[str, Any]]) -> str:
+def format_source_item_list_json_ld(
+    entries: list[dict[str, Any]],
+    name: str = "口琴公開來源索引",
+    description: str = "臺灣與海外口琴社團、樂團、演奏者、教學、場館與公開社群來源索引。",
+    url: str = "https://harmonica.observe.tw/post/source/",
+) -> str:
     item_list = {
         "@context": "https://schema.org",
         "@type": "ItemList",
-        "name": "口琴公開來源索引",
-        "description": "臺灣與海外口琴社團、樂團、演奏者、教學、場館與公開社群來源索引。",
-        "url": "https://harmonica.observe.tw/post/source/",
+        "name": name,
+        "description": description,
+        "url": url,
         "numberOfItems": len(entries),
         "itemListElement": [],
     }
@@ -1057,6 +1135,119 @@ def format_static_directory_cards(entries: list[dict[str, Any]]) -> str:
             <!-- DIRECTORY_STATIC_START -->
 {cards}
             <!-- DIRECTORY_STATIC_END -->
+"""
+
+
+def generate_source_facet_page(group: dict[str, Any], value: str, entries: list[dict[str, Any]]) -> str:
+    path = clean(group["path"])
+    encoded_value = encoded_path_part(value)
+    label = clean(group["label"])
+    title = f"{value}｜{group['page_title']}｜臺灣口琴觀測站"
+    description = f"整理公開來源中標示為「{value}」的口琴社團、樂團、演奏者、教學、活動與場館資料，共 {len(entries)} 筆。"
+    canonical = f"https://harmonica.observe.tw/source/{path}/{encoded_value}/"
+    item_list_script = format_source_item_list_json_ld(
+        entries,
+        name=f"{value}｜{group['page_title']}",
+        description=description,
+        url=canonical,
+    )
+    cards = "\n".join(line.rstrip() for line in "".join(render_entry_card_html(entry) for entry in entries).splitlines())
+    breadcrumb_ld = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "首頁",
+                "item": "https://harmonica.observe.tw/",
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "公開來源",
+                "item": "https://harmonica.observe.tw/post/source/",
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": f"{label}：{value}",
+                "item": canonical,
+            },
+        ],
+    }
+    json_ld_breadcrumb = json.dumps(breadcrumb_ld, ensure_ascii=False, indent=2)
+
+    return f"""<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{escape(title)}</title>
+    <meta name="description" content="{escape(description)}">
+    <link rel="canonical" href="{canonical}">
+    <meta property="og:title" content="{escape(title)}">
+    <meta property="og:description" content="{escape(description)}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{canonical}">
+    <meta property="og:image" content="https://harmonica.observe.tw/assets/hero-harmonica-observe.webp">
+    <meta property="og:site_name" content="臺灣口琴觀測站">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{escape(title)}">
+    <meta name="twitter:description" content="{escape(description)}">
+    <meta name="twitter:image" content="https://harmonica.observe.tw/assets/hero-harmonica-observe.webp">
+{item_list_script}
+    <script type="application/ld+json">
+{json_ld_breadcrumb}
+    </script>
+    <link rel="icon" href="/assets/favicon-20260623.svg?v=20260628-0342" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/styles.css?v=20260628-0342">
+  </head>
+  <body>
+{HEADER_HTML}
+
+    <main class="feed-page-main">
+      <nav aria-label="breadcrumb" class="breadcrumb-nav" style="font-size: 0.9rem; margin: 1rem auto; max-width: 1200px; padding: 0 1rem; color: var(--text-muted, #666);">
+        <a href="/" style="color: var(--primary, #1a73e8); text-decoration: none;">首頁</a> ›
+        <a href="/post/source/" style="color: var(--primary, #1a73e8); text-decoration: none;">公開來源</a> ›
+        <span>{escape(label)}：{escape(value)}</span>
+      </nav>
+
+      <section class="feed-page-hero">
+        <div class="band-inner split-layout">
+          <div>
+            <p class="section-kicker">Source {escape(group["kind"])}</p>
+            <h1>{escape(value)}口琴公開來源</h1>
+          </div>
+          <div class="feed-page-summary">
+            <p>{escape(description)}</p>
+            <div class="feed-links">
+              <a href="/post/source/">全部公開來源</a>
+              <a href="/feeds/sources.xml">來源索引 RSS</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="band directory-band" aria-labelledby="source-facet-title">
+        <div class="band-inner">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">{escape(label)}</p>
+              <h2 id="source-facet-title">{escape(value)}來源列表</h2>
+            </div>
+            <p class="data-date">{len(entries)} 筆公開來源</p>
+          </div>
+          <div class="directory-grid">
+{cards}
+          </div>
+        </div>
+      </section>
+    </main>
+
+{FOOTER_HTML}
+  </body>
+</html>
 """
 
 
@@ -1309,6 +1500,7 @@ def main() -> int:
         updates = []
 
     # 2. Pre-render Source Pages
+    source_groups = source_facet_groups(entries)
     source_count = 0
     for entry in entries:
         entry_id = clean(entry.get("id"))
@@ -1350,7 +1542,21 @@ def main() -> int:
 
         source_count += 1
 
-    # 3. Pre-render Event Pages
+    # 3. Pre-render source facet landing pages
+    source_facet_count = 0
+    for group in source_groups:
+        for facet in group.get("values") or []:
+            value = clean(facet.get("value"))
+            facet_entries = facet.get("entries") or []
+            if not value or not facet_entries:
+                continue
+            page_dir = SITE_ROOT / "source" / group["path"] / value
+            page_dir.mkdir(parents=True, exist_ok=True)
+            html_content = normalize_generated_html(generate_source_facet_page(group, value, facet_entries))
+            (page_dir / "index.html").write_text(html_content, encoding="utf-8")
+            source_facet_count += 1
+
+    # 4. Pre-render Event Pages
     event_count = 0
     for event in events:
         event_id = clean(event.get("id"))
@@ -1362,7 +1568,7 @@ def main() -> int:
         (page_dir / "index.html").write_text(html_content, encoding="utf-8")
         event_count += 1
 
-    # 4. Pre-render Score Category Pages
+    # 5. Pre-render Score Category Pages
     score_cat_count = 0
     for category in categories:
         category_scores = [item for item in scores if clean(item.get("program")) == category]
@@ -1372,18 +1578,19 @@ def main() -> int:
         (page_dir / "index.html").write_text(html_content, encoding="utf-8")
         score_cat_count += 1
 
-    # 5. Pre-render Core Pages (index, post, post/source, scores, scores/sources, feeds)
+    # 6. Pre-render Core Pages (index, post, post/source, scores, scores/sources, feeds)
     update_core_pages(entries, scores, scores_payload)
 
-    # 6. Rebuild sitemap
-    sitemap_content = generate_sitemap_xml(entries, events, categories, updates, scores)
+    # 7. Rebuild sitemap
+    sitemap_content = generate_sitemap_xml(entries, events, categories, updates, scores, source_groups)
     SITEMAP_XML.write_text(sitemap_content, encoding="utf-8")
 
     print(f"SEO Pre-rendering completed:")
     print(f" - Generated {source_count} source pages under /source/<id>/")
+    print(f" - Generated {source_facet_count} source facet pages under /source/<facet>/<value>/")
     print(f" - Generated {event_count} event pages under /event/<id>/")
     print(f" - Generated {score_cat_count} score category pages under /scores/<category>/")
-    print(f" - Rebuilt sitemap.xml with {len(entries) + len(events) + len(categories) + 7} links")
+    print(f" - Rebuilt sitemap.xml with {len(entries) + source_facet_count + len(events) + len(categories) + 8} links")
     return 0
 
 
