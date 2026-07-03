@@ -1455,39 +1455,31 @@
     return parsed ? taipeiDateParts(parsed).key : "";
   }
 
-  function publicCalendarTimeLabel(event) {
-    if (event.allDay) return "全天";
-    const parsed = publicCalendarStartDate(event);
-    if (!parsed) return "";
+  function publicCalendarScheduleDateLabel(key) {
+    const parsed = parseFeedDate(key);
+    if (!parsed) return key;
     return new Intl.DateTimeFormat("zh-TW", {
+      timeZone: "Asia/Taipei",
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+      weekday: "long",
+    }).format(parsed);
+  }
+
+  function publicCalendarTimeRangeLabel(event) {
+    if (event.allDay) return "全天";
+    const start = publicCalendarStartDate(event);
+    const end = parseFeedDate(event.end);
+    if (!start) return "";
+    const formatter = new Intl.DateTimeFormat("zh-TW", {
       timeZone: "Asia/Taipei",
       hour: "2-digit",
       minute: "2-digit",
       hour12: false,
-    }).format(parsed);
-  }
-
-  function publicCalendarDateLabel(event) {
-    const parsed = publicCalendarStartDate(event);
-    if (!parsed) return "";
-    return new Intl.DateTimeFormat("zh-TW", {
-      timeZone: "Asia/Taipei",
-      month: "numeric",
-      day: "numeric",
-      weekday: "short",
-    }).format(parsed);
-  }
-
-  function publicCalendarFullDateLabel(event) {
-    const parsed = publicCalendarStartDate(event);
-    if (!parsed) return "";
-    return new Intl.DateTimeFormat("zh-TW", {
-      timeZone: "Asia/Taipei",
-      year: "numeric",
-      month: "numeric",
-      day: "numeric",
-      weekday: "short",
-    }).format(parsed);
+    });
+    if (!end || Number.isNaN(end.getTime())) return formatter.format(start);
+    return `${formatter.format(start)}-${formatter.format(end)}`;
   }
 
   function sortedPublicCalendarEvents() {
@@ -1495,27 +1487,6 @@
       .filter((event) => publicCalendarStartDate(event))
       .slice()
       .sort((a, b) => publicCalendarStartDate(a).getTime() - publicCalendarStartDate(b).getTime());
-  }
-
-  function monthCalendarDays(anchor) {
-    const year = anchor.getFullYear();
-    const month = anchor.getMonth();
-    const first = new Date(year, month, 1);
-    const start = new Date(first);
-    start.setDate(first.getDate() - first.getDay());
-    return Array.from({ length: 42 }, (_, index) => {
-      const date = new Date(start);
-      date.setDate(start.getDate() + index);
-      return date;
-    });
-  }
-
-  function publicCalendarMonthTitle(anchor) {
-    return new Intl.DateTimeFormat("en-US", {
-      timeZone: "Asia/Taipei",
-      month: "long",
-      year: "numeric",
-    }).format(anchor);
   }
 
   function renderPublicCalendar() {
@@ -1527,60 +1498,47 @@
     }
     const now = new Date();
     const todayKey = taipeiDateParts(now).key;
-    const nowParts = taipeiDateParts(now);
-    const monthAnchor = new Date(nowParts.year, nowParts.month - 1, 1);
-    const month = monthAnchor.getMonth();
-    const eventsByDay = events.reduce((map, event) => {
+    const upcoming = events.filter((event) => publicCalendarDateKey(event) >= todayKey);
+    const pastCount = events.length - upcoming.length;
+    const eventsByDay = upcoming.reduce((map, event) => {
       const key = publicCalendarDateKey(event);
       if (!key) return map;
       if (!map.has(key)) map.set(key, []);
       map.get(key).push(event);
       return map;
     }, new Map());
-    const days = monthCalendarDays(monthAnchor);
-    const upcoming = events.filter((event) => publicCalendarDateKey(event) >= todayKey);
     publicCalendarWidget.innerHTML = `
       <div class="public-calendar-panel">
         <div class="public-calendar-toolbar">
-          <strong>${escapeHtml(publicCalendarMonthTitle(monthAnchor))}</strong>
-          <span>${escapeHtml(publicCalendarData.count || events.length)} 筆公開貼文事件線索</span>
+          <strong>活動時程</strong>
+          <span>${escapeHtml(upcoming.length)} 筆未來活動${pastCount > 0 ? ` · ${escapeHtml(pastCount)} 筆已過期` : ""}</span>
         </div>
-        <div class="public-calendar-scroll">
-          <div class="public-calendar-grid" aria-label="${escapeHtml(publicCalendarMonthTitle(monthAnchor))} 公開演出日曆">
-            ${["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"].map((label) => `<div class="public-calendar-weekday">${label}</div>`).join("")}
-            ${days.map((date) => {
-              const key = taipeiDateParts(date).key;
-              const dayEvents = eventsByDay.get(key) || [];
-              const isMuted = date.getMonth() !== month;
-              const isToday = key === todayKey;
-              return `
-                <div class="public-calendar-day${isMuted ? " is-muted" : ""}${isToday ? " is-today" : ""}">
-                  <span class="public-calendar-day-number">${date.getDate()}</span>
-                  <div class="public-calendar-day-events">
-                    ${dayEvents.slice(0, 3).map((event) => `
-                      <a href="/event/${escapeHtml(event.id)}/">
-                        <span>${escapeHtml(publicCalendarTimeLabel(event))}</span>
-                        ${escapeHtml(event.title || event.source || "公開口琴活動")}
-                      </a>
-                    `).join("")}
-                    ${dayEvents.length > 3 ? `<span class="public-calendar-more">+${dayEvents.length - 3}</span>` : ""}
-                  </div>
-                </div>
-              `;
-            }).join("")}
-          </div>
+        <div class="public-calendar-schedule" aria-label="公開演出日程">
+          ${upcoming.length ? [...eventsByDay.entries()].map(([key, dayEvents]) => `
+            <section class="public-calendar-schedule-day">
+              <h3>
+                <span>${escapeHtml(publicCalendarScheduleDateLabel(key))}</span>
+                <small>${escapeHtml(dayEvents.length)} 筆</small>
+              </h3>
+              <div class="public-calendar-schedule-events">
+                ${dayEvents.map((event) => `
+                  <a class="public-calendar-schedule-event" href="/event/${escapeHtml(event.id)}/">
+                    <span class="public-calendar-schedule-time">${escapeHtml(publicCalendarTimeRangeLabel(event))}</span>
+                    <span class="public-calendar-schedule-body">
+                      <strong>${escapeHtml(event.title || event.source || "公開口琴活動")}</strong>
+                      ${event.location ? `<span>${escapeHtml(event.location)}</span>` : ""}
+                      ${event.details ? `<em>${escapeHtml(event.details)}</em>` : ""}
+                    </span>
+                    <span class="public-calendar-schedule-source">${escapeHtml(event.source || event.platform || "")}</span>
+                  </a>
+                `).join("")}
+              </div>
+            </section>
+          `).join("") : `<div class="empty-state">目前沒有未來的公開演出線索。</div>`}
         </div>
-        <div class="public-calendar-upcoming">
-          <h3>近期事件線索 <span>${escapeHtml(upcoming.length)} 筆未來活動</span></h3>
-          <div class="public-calendar-event-list">
-            ${upcoming.map((event) => `
-              <a href="/event/${escapeHtml(event.id)}/">
-                <span class="public-calendar-event-date">${escapeHtml(publicCalendarFullDateLabel(event))}</span>
-                <span class="public-calendar-event-title">${escapeHtml(event.title || event.source || "公開口琴活動")}</span>
-                <span class="public-calendar-event-source">${escapeHtml(event.source || event.platform || "")}</span>
-              </a>
-            `).join("")}
-          </div>
+        <div class="public-calendar-footnote">
+          <span>依公開貼文自動整理，請以來源頁面為準。</span>
+          <a href="/feeds/public-calendar.ics">訂閱 ICS</a>
         </div>
       </div>
     `;

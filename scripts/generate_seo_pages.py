@@ -55,6 +55,10 @@ def clean(val: str | None) -> str:
     return (val or "").strip()
 
 
+def normalize_generated_html(content: str) -> str:
+    return "\n".join(line.rstrip() for line in content.splitlines()) + "\n"
+
+
 def escape(val: str | None) -> str:
     return html.escape(clean(val))
 
@@ -579,7 +583,7 @@ def main() -> int:
             continue
         page_dir = SITE_ROOT / "source" / entry_id
         page_dir.mkdir(parents=True, exist_ok=True)
-        html_content = generate_source_page(entry)
+        html_content = normalize_generated_html(generate_source_page(entry))
         (page_dir / "index.html").write_text(html_content, encoding="utf-8")
         source_count += 1
 
@@ -591,7 +595,7 @@ def main() -> int:
             continue
         page_dir = SITE_ROOT / "event" / event_id
         page_dir.mkdir(parents=True, exist_ok=True)
-        html_content = generate_event_page(event)
+        html_content = normalize_generated_html(generate_event_page(event))
         (page_dir / "index.html").write_text(html_content, encoding="utf-8")
         event_count += 1
 
@@ -601,7 +605,7 @@ def main() -> int:
         category_scores = [item for item in scores if clean(item.get("program")) == category]
         page_dir = SITE_ROOT / "scores" / category
         page_dir.mkdir(parents=True, exist_ok=True)
-        html_content = generate_scores_category_page(category, category_scores)
+        html_content = normalize_generated_html(generate_scores_category_page(category, category_scores))
         (page_dir / "index.html").write_text(html_content, encoding="utf-8")
         score_cat_count += 1
 
