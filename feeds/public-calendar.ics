@@ -7,46 +7,40 @@ X-WR-CALNAME:臺灣口琴公開演出
 X-WR-TIMEZONE:Asia/Taipei
 BEGIN:VEVENT
 UID:8e6bb6caf65dafbb@harmonica.observe.tw
-DTSTAMP:20260703T123719Z
+DTSTAMP:20260703T130906Z
 DTSTART;TZID=Asia/Taipei:20260711T140000
 DTEND;TZID=Asia/Taipei:20260711T160000
 SUMMARY:口琴入門推廣講座
 LOCATION:竹東親愛愛樂音樂巷-音樂廳（新竹縣竹東鎮東林
  路194巷8號）
-DESCRIPTION:活動名稱：口琴入門推廣講座\n地點：竹東親愛
- 愛樂音樂巷-音樂廳（新竹縣竹東鎮東林路194巷8號）\n相
- 關資訊：臺灣口琴音樂節前導活動；天狼星口琴樂團蔡
- 明憲老師指導，免費參與並提供複音口琴。\n來源：https:
- //www.facebook.com/twharmonica/posts/pfbid07CLAcEbSrP9wrHocyXC7ZaUS2ERQAN7
- 5Sh3fPjM835wmjAokvbtWrRP7Wkh5mdGal
+DESCRIPTION:臺灣口琴音樂節前導活動；天狼星口琴樂團蔡明
+ 憲老師指導，免費參與並提供複音口琴。\nhttps://www.facebo
+ ok.com/twharmonica/posts/pfbid07CLAcEbSrP9wrHocyXC7ZaUS2ERQAN75Sh3fPjM835w
+ mjAokvbtWrRP7Wkh5mdGal
 URL:https://www.facebook.com/twharmonica/posts/pfbid07CLAcEbSrP9wrHocyXC7Za
  US2ERQAN75Sh3fPjM835wmjAokvbtWrRP7Wkh5mdGal
 END:VEVENT
 BEGIN:VEVENT
 UID:88fb7911620b72be@harmonica.observe.tw
-DTSTAMP:20260703T123719Z
+DTSTAMP:20260703T130906Z
 DTSTART;TZID=Asia/Taipei:20260718T193000
 DTEND;TZID=Asia/Taipei:20260718T213000
 SUMMARY:臺灣探戈樂團創團音樂會（Taiwan Tango Orquesta）
 LOCATION:臺北市 臺北生技園區 多功能廳
-DESCRIPTION:活動名稱：臺灣探戈樂團創團音樂會（Taiwan Tango
-  Orquesta）\n地點：臺北市 臺北生技園區 多功能廳\n相關
- 資訊：演出包含口琴（Alysa Liao 廖苡晴）、班多鈕手風琴
- 等樂器，詳情請見購票連結。\n來源：https://www.youtube.com/
- watch?v=PA11sSFkJeA
+DESCRIPTION:演出包含口琴（Alysa Liao 廖苡晴）、班多鈕手風
+ 琴等樂器，詳情請見購票連結。\nhttps://www.youtube.com/watch?
+ v=PA11sSFkJeA
 URL:https://www.youtube.com/watch?v=PA11sSFkJeA
 END:VEVENT
 BEGIN:VEVENT
 UID:d0ad3cb28df70b2e@harmonica.observe.tw
-DTSTAMP:20260703T123719Z
+DTSTAMP:20260703T130906Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260810
 SUMMARY:2026 臺灣口琴音樂節
 LOCATION:國立陽明交通大學光復校區、新竹市文化局演藝廳
-DESCRIPTION:活動名稱：2026 臺灣口琴音樂節\n地點：國立陽
- 明交通大學光復校區、新竹市文化局演藝廳\n相關資訊：
- 活動日期為8月7日至9日，為期三天的口琴音樂節，包含
- 音樂會及推廣講座。\n來源：https://www.facebook.com/twharmonica
+DESCRIPTION:活動日期為8月7日至9日，為期三天的口琴音樂節
+ ，包含音樂會及推廣講座。\nhttps://www.facebook.com/twharmonica
  /posts/pfbid07CLAcEbSrP9wrHocyXC7ZaUS2ERQAN75Sh3fPjM835wmjAokvbtWrRP7Wkh5m
  dGal
 URL:https://www.facebook.com/twharmonica/posts/pfbid07CLAcEbSrP9wrHocyXC7Za

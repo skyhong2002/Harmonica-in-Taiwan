@@ -1,8 +1,9 @@
 {
   "calendarId": "4c80e43dc069b1ded7c42183a377c20cb2f675e71e8a627b57b883de83d3a219@group.calendar.google.com",
+  "client": "rest",
   "created": 0,
   "deleted": 0,
-  "generatedAt": "2026-07-03T12:37:19.537495+00:00",
+  "generatedAt": "2026-07-03T13:09:42.622651+00:00",
   "kept": 3,
   "message": "Google Calendar sync completed.",
   "status": "ok",
