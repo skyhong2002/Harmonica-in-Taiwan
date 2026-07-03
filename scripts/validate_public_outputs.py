@@ -28,14 +28,17 @@ REQUIRED_FILES = [
     API_DIR / "opportunities.json",
     API_DIR / "sources.json",
     API_DIR / "scores.json",
+    API_DIR / "score-sources.json",
     API_DIR / "status.json",
     SITE_DATA_DIR / "site-data.js",
     SITE_DATA_DIR / "feed-data.js",
     SITE_DATA_DIR / "score-data.js",
+    SITE_DATA_DIR / "score-source-data.js",
     FEEDS_DIR / "updates.xml",
     FEEDS_DIR / "sources.xml",
     SITE_ROOT / "index.html",
     SITE_ROOT / "scores" / "index.html",
+    SITE_ROOT / "score-sources" / "index.html",
     SITE_ROOT / "status" / "index.html",
 ]
 
@@ -112,7 +115,12 @@ def asset_reference_files() -> list[Path]:
     paths.extend(FEEDS_DIR.glob("*.json"))
     paths.extend(FEEDS_DIR.glob("*.html"))
     paths.extend(SITE_DATA_DIR.glob("*.js"))
-    paths.extend([SITE_ROOT / "index.html", SITE_ROOT / "scores" / "index.html", SITE_ROOT / "status" / "index.html"])
+    paths.extend([
+        SITE_ROOT / "index.html",
+        SITE_ROOT / "scores" / "index.html",
+        SITE_ROOT / "score-sources" / "index.html",
+        SITE_ROOT / "status" / "index.html",
+    ])
     return sorted(path for path in paths if path.exists())
 
 

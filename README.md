@@ -15,6 +15,7 @@
 - 網站首頁：`https://harmonica.observe.tw/`
 - 資料索引：`https://harmonica.observe.tw/directory/`
 - 指定曲索引：`https://harmonica.observe.tw/scores/`
+- 譜源索引：`https://harmonica.observe.tw/score-sources/`
 - 資料回報：`https://harmonica.observe.tw/submit/`
 - RSS 分類入口：`https://harmonica.observe.tw/feeds/`
 - 公開 API：`https://harmonica.observe.tw/api/*.json`
@@ -35,6 +36,8 @@
 │   ├── data/                    # 前端讀取的 JS data bundle（不進 git）
 │   ├── directory/               # 資料索引頁
 │   ├── feeds/                   # RSS、分類頁與分類 JSON（不進 git）
+│   ├── score-sources/           # 口琴譜源索引頁
+│   ├── scores/                  # 學生音樂比賽指定曲索引頁
 │   └── submit/                  # 資料回報頁
 ├── state/                       # 本機執行狀態與分類快取（不進 git）
 ├── .github/ISSUE_TEMPLATE/      # 公開資料回報 issue form
@@ -46,6 +49,7 @@
 - `data/sources/harmonica-source-watchlist-public.csv`：公開來源主清單，包含演奏者、團體、教學、場館、活動平台等。
 - `data/sources/harmonica-clubs-public.csv`：公開學生社團資料。
 - `data/sources/harmonica-score-publications.csv`：全國學生音樂比賽口琴指定曲與出版、購譜線索，含官方歷年指定曲目 XLS 與近年 PDF 補充線索。
+- `data/sources/harmonica-score-sources.csv`：指定曲以外的口琴譜源 metadata、購買／洽詢方式與公開佐證連結；不收錄譜檔或曲譜內容。
 - `data/feeds/social_sources.json`：由 CSV 轉出的公開社群監看來源設定。
 - `data/feeds/social_feed_inbox.jsonl`：YouTube / Facebook 抓取工具正規化後的公開貼文 inbox。
 - `data/feeds/social_candidates.jsonl`：watchdog 篩選後的公開候選更新。
@@ -114,6 +118,7 @@ python3 scripts/validate_public_outputs.py
 - `https://harmonica.observe.tw/api/opportunities.json`
 - `https://harmonica.observe.tw/api/sources.json`
 - `https://harmonica.observe.tw/api/scores.json`
+- `https://harmonica.observe.tw/api/score-sources.json`
 
 若遠端用 `curl` 驗證 API 時遇到 403，可以加類瀏覽器 User-Agent：
 

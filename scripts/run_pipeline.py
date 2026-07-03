@@ -283,6 +283,7 @@ def main() -> int:
         )
         run([PYTHON, "scripts/build_public_data.py"], step="rebuild public data", status_hook=mark_step)
         run([PYTHON, "scripts/build_score_publications.py"], step="build score publications", status_hook=mark_step)
+        run([PYTHON, "scripts/build_score_sources.py"], step="build score sources", status_hook=mark_step)
         run([PYTHON, "scripts/generate_rss_feeds.py"], step="generate rss feeds", status_hook=mark_step)
         run([PYTHON, "scripts/build_status_page.py"], step="build status page", status_hook=mark_step)
         run([PYTHON, "scripts/check_source_coverage.py"], step="check source coverage", status_hook=mark_step)

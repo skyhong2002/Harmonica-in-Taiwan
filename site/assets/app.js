@@ -18,6 +18,12 @@
     stats: { totalScores: 0, schoolYears: [], programs: [], publishers: [] },
     scores: [],
   };
+  const scoreSourceData = window.HARMONICA_OBSERVE_SCORE_SOURCES || {
+    generatedAt: "-",
+    count: 0,
+    stats: { totalScoreSources: 0, sourceTypes: [], platforms: [], formats: [], availability: [] },
+    scoreSources: [],
+  };
 
   const state = {
     query: "",
@@ -55,8 +61,19 @@
     sortDirection: "asc",
     columnWidths: {},
   };
+  const scoreSourceState = {
+    query: "",
+    sourceType: emptyFilterSet(),
+    platform: emptyFilterSet(),
+    availability: emptyFilterSet(),
+    format: emptyFilterSet(),
+    sortKey: "",
+    sortDirection: "asc",
+    columnWidths: {},
+  };
   const feedBatchSize = 12;
   const scoreDefaultTableWidth = 1240;
+  const scoreSourceDefaultTableWidth = 1480;
   const directoryRenderBatchSize = 48;
   const directorySearchDelayMs = 120;
   const feedDesktopColumnQuery = "(min-width: 901px)";
@@ -80,6 +97,7 @@
   const directoryFilterNames = ["country", "region", "hashtags"];
   const feedFilterNames = ["platform", "country", "region", "source", "tag"];
   const scoreFilterNames = ["program", "publisher", "status"];
+  const scoreSourceFilterNames = ["sourceType", "platform", "availability", "format"];
   const feedApiUrl = "/api/latest.json";
   let feedSearchComposing = false;
 
@@ -92,6 +110,9 @@
   const scoreList = document.querySelector("#score-list");
   const scoreFilterPanel = document.querySelector("#score-filter-panel");
   const scoreResultCount = document.querySelector("#score-result-count");
+  const scoreSourceList = document.querySelector("#score-source-list");
+  const scoreSourceFilterPanel = document.querySelector("#score-source-filter-panel");
+  const scoreSourceResultCount = document.querySelector("#score-source-result-count");
   let directoryIndex = null;
   let directoryRecordByEntry = new WeakMap();
   let directoryRenderToken = 0;
@@ -99,6 +120,8 @@
   let directorySearchComposing = false;
   let scoreSearchComposing = false;
   let scoreSearchTimer = 0;
+  let scoreSourceSearchComposing = false;
+  let scoreSourceSearchTimer = 0;
 
   function setStat(name, value) {
     document.querySelectorAll(`[data-stat="${name}"]`).forEach((node) => {
@@ -2489,6 +2512,471 @@
     }
   }
 
+  function scoreSourceItems() {
+    return Array.isArray(scoreSourceData.scoreSources) ? scoreSourceData.scoreSources : [];
+  }
+
+  const scoreSourceSortColumns = [
+    { key: "source", label: "來源", defaultDirection: "asc", width: 144, minWidth: 104, value: (item) => item.sourceName },
+    { key: "sourceType", label: "類型", defaultDirection: "asc", width: 120, minWidth: 88, value: (item) => item.sourceType },
+    { key: "platform", label: "平台", defaultDirection: "asc", width: 92, minWidth: 72, value: (item) => item.platform },
+    { key: "title", label: "曲名／譜集", defaultDirection: "asc", width: 250, minWidth: 150, value: (item) => item.scoreTitle },
+    { key: "composer", label: "作曲", defaultDirection: "asc", width: 120, minWidth: 84, value: (item) => item.composer },
+    { key: "arranger", label: "編曲", defaultDirection: "asc", width: 150, minWidth: 96, value: (item) => item.arranger },
+    { key: "instrumentation", label: "編制", defaultDirection: "asc", width: 210, minWidth: 130, value: (item) => item.instrumentation },
+    { key: "format", label: "形式", defaultDirection: "asc", width: 110, minWidth: 84, value: (item) => item.format },
+    { key: "purchase", label: "購買／洽詢", defaultDirection: "asc", width: 190, minWidth: 130, value: (item) => item.purchaseMethod },
+    { key: "price", label: "價格", defaultDirection: "asc", width: 92, minWidth: 72, value: (item) => item.price },
+    { key: "availability", label: "狀態", defaultDirection: "asc", width: 100, minWidth: 76, value: (item) => item.availability },
+    { key: "evidence", label: "佐證", defaultDirection: "asc", width: 74, minWidth: 64, value: scoreSourceEvidenceText },
+    { key: "rights", label: "權利註記", defaultDirection: "asc", width: 240, minWidth: 150, value: (item) => item.rightsNote },
+  ];
+
+  function scoreSourceTotalCount() {
+    return scoreSourceData.count || scoreSourceData.stats.totalScoreSources || scoreSourceItems().length || 0;
+  }
+
+  function scoreSourceDistinctSourceCount() {
+    return scoreSourceData.stats.distinctSources || (scoreSourceData.stats.sourceNames || []).length || 0;
+  }
+
+  function scoreSourceTitledItemCount() {
+    return scoreSourceData.stats.titledItems || scoreSourceItems().filter((item) => item.scoreTitle).length || 0;
+  }
+
+  function scoreSourceFieldValues(item, name) {
+    if (name === "sourceType") return [item.sourceType];
+    if (name === "platform") return [item.platform];
+    if (name === "availability") return [item.availability];
+    if (name === "format") return [item.format];
+    return [];
+  }
+
+  function scoreSourceFilterValues(name) {
+    return countSortedValues(scoreSourceItems(), (item) => scoreSourceFieldValues(item, name));
+  }
+
+  function scoreSourceEvidenceText(item) {
+    const sourceLink = (item.links || [])[0];
+    return [sourceLink?.label, sourceLink?.url].filter(Boolean).join(" ");
+  }
+
+  function scoreSourceSortColumn(key) {
+    return scoreSourceSortColumns.find((column) => column.key === key) || null;
+  }
+
+  function scoreSourceColumnClass(column) {
+    if (column.key === "composer" || column.key === "arranger") return "score-source-col-person";
+    return `score-source-col-${column.key}`;
+  }
+
+  function scoreSourceColumnWidth(column) {
+    const width = Number.parseInt(scoreSourceState.columnWidths[column.key], 10);
+    if (Number.isFinite(width)) return Math.max(column.minWidth || 48, width);
+    return column.width || 96;
+  }
+
+  function scoreSourceTableWidth() {
+    const columnTotal = scoreSourceSortColumns.reduce((total, column) => total + scoreSourceColumnWidth(column), 0);
+    return Math.max(scoreSourceDefaultTableWidth, columnTotal);
+  }
+
+  function scoreSourceColumnMarkup(column) {
+    return `<col class="${escapeHtml(scoreSourceColumnClass(column))}" data-score-source-column="${escapeHtml(column.key)}" style="width: ${scoreSourceColumnWidth(column)}px">`;
+  }
+
+  function scoreSourceColumnSelector(key) {
+    return `[data-score-source-column="${String(key).replace(/"/g, '\\"')}"]`;
+  }
+
+  function scoreSourceHeaderSelector(key) {
+    return `[data-score-source-column-header="${String(key).replace(/"/g, '\\"')}"]`;
+  }
+
+  function setScoreSourceColumnWidth(key, width, table = scoreSourceList?.querySelector(".score-table")) {
+    const column = scoreSourceSortColumn(key);
+    if (!column) return;
+    const nextWidth = Math.max(column.minWidth || 48, Math.round(width));
+    scoreSourceState.columnWidths[key] = nextWidth;
+    if (!table) return;
+    const col = table.querySelector(scoreSourceColumnSelector(key));
+    if (col) col.style.width = `${nextWidth}px`;
+    table.style.setProperty("--score-table-width", `${scoreSourceTableWidth()}px`);
+  }
+
+  function hydrateScoreSourceColumnWidthsFromTable() {
+    const table = scoreSourceList?.querySelector(".score-table");
+    if (!table || Object.keys(scoreSourceState.columnWidths).length) return;
+    scoreSourceSortColumns.forEach((column) => {
+      const header = table.querySelector(scoreSourceHeaderSelector(column.key));
+      const width = header?.getBoundingClientRect().width || column.width || 96;
+      scoreSourceState.columnWidths[column.key] = Math.max(column.minWidth || 48, Math.round(width));
+    });
+    table.style.setProperty("--score-table-width", `${scoreSourceTableWidth()}px`);
+    scoreSourceSortColumns.forEach((column) => {
+      const col = table.querySelector(scoreSourceColumnSelector(column.key));
+      if (col) col.style.width = `${scoreSourceColumnWidth(column)}px`;
+    });
+  }
+
+  function nextScoreSourceSortDirection(key) {
+    const column = scoreSourceSortColumn(key);
+    if (!column) return "asc";
+    if (scoreSourceState.sortKey !== key) return column.defaultDirection || "asc";
+    return scoreSourceState.sortDirection === "asc" ? "desc" : "asc";
+  }
+
+  function compareScoreSourceRecords(left, right, column) {
+    const leftValue = column.value(left.item);
+    const rightValue = column.value(right.item);
+    const leftEmpty = isEmptyScoreSortValue(leftValue);
+    const rightEmpty = isEmptyScoreSortValue(rightValue);
+    if (leftEmpty || rightEmpty) {
+      if (leftEmpty && rightEmpty) return left.index - right.index;
+      return leftEmpty ? 1 : -1;
+    }
+    const direction = scoreSourceState.sortDirection === "desc" ? -1 : 1;
+    const comparison = String(leftValue).localeCompare(String(rightValue), "zh-Hant", {
+      numeric: true,
+      sensitivity: "base",
+    });
+    return comparison ? comparison * direction : left.index - right.index;
+  }
+
+  function sortedScoreSources(records) {
+    const column = scoreSourceSortColumn(scoreSourceState.sortKey);
+    if (!column) return records;
+    return records
+      .map((item, index) => ({ item, index }))
+      .sort((left, right) => compareScoreSourceRecords(left, right, column))
+      .map(({ item }) => item);
+  }
+
+  function scoreSourceSearchableText(item) {
+    return normalize(
+      item.searchText ||
+        [
+          item.sourceName,
+          item.sourceType,
+          item.platform,
+          item.scoreTitle,
+          item.composer,
+          item.arranger,
+          item.instrumentation,
+          item.format,
+          item.purchaseMethod,
+          item.price,
+          item.availability,
+          item.rightsNote,
+        ].join(" ")
+    );
+  }
+
+  function scoreSourceMatches(item) {
+    for (const name of scoreSourceFilterNames) {
+      if (!valuesMatchFilter(scoreSourceFieldValues(item, name), scoreSourceState[name])) return false;
+    }
+    return normalizedTextMatches(scoreSourceSearchableText(item), scoreSourceState.query);
+  }
+
+  function filteredScoreSources() {
+    return sortedScoreSources(scoreSourceItems().filter(scoreSourceMatches));
+  }
+
+  function scoreSourceTableRow(item) {
+    const sourceLink = (item.links || [])[0];
+    const source = sourceLink
+      ? `<a class="score-source-link" href="${escapeHtml(sourceLink.url)}" target="_blank" rel="noreferrer" title="${escapeHtml(sourceLink.label)}">佐證</a>`
+      : `<span class="score-source-link muted" title="未標示佐證">佐證</span>`;
+    return `
+      <tr>
+        <th scope="row" class="score-title-cell" title="${escapeHtml(item.sourceName || "-")}">${escapeHtml(item.sourceName || "-")}</th>
+        ${scoreCell(item.sourceType, "score-program")}
+        ${scoreCell(item.platform, "score-status")}
+        ${scoreCell(item.scoreTitle, "score-title-cell")}
+        ${scoreCell(item.composer, "score-composer")}
+        ${scoreCell(item.arranger, "score-composer")}
+        ${scoreCell(item.instrumentation, "score-note-inline")}
+        ${scoreCell(item.format, "score-program")}
+        ${scoreCell(item.purchaseMethod, "score-publisher")}
+        ${scoreCell(item.price, "score-year")}
+        ${scoreCell(item.availability, "score-status")}
+        <td class="score-source-cell">${source}</td>
+        ${scoreCell(item.rightsNote, "score-note-inline")}
+      </tr>
+    `;
+  }
+
+  function scoreSourceSortAriaValue(key) {
+    if (scoreSourceState.sortKey !== key) return "none";
+    return scoreSourceState.sortDirection === "desc" ? "descending" : "ascending";
+  }
+
+  function scoreSourceSortIcon(key) {
+    if (scoreSourceState.sortKey !== key) return "↕";
+    return scoreSourceState.sortDirection === "desc" ? "▼" : "▲";
+  }
+
+  function scoreSourceHeaderCell(column) {
+    const nextDirection = nextScoreSourceSortDirection(column.key);
+    const directionLabel = nextDirection === "desc" ? "降冪" : "升冪";
+    return `
+      <th scope="col" aria-sort="${scoreSourceSortAriaValue(column.key)}" data-score-source-column-header="${escapeHtml(column.key)}">
+        <button
+          type="button"
+          class="score-sort-button"
+          data-score-source-sort="${escapeHtml(column.key)}"
+          aria-label="依${escapeHtml(column.label)}${directionLabel}排序"
+        >
+          <span class="score-sort-label">${escapeHtml(column.label)}</span>
+          <span class="score-sort-icon" aria-hidden="true">${scoreSourceSortIcon(column.key)}</span>
+        </button>
+        <span
+          class="score-column-resizer"
+          role="separator"
+          aria-orientation="vertical"
+          aria-label="調整${escapeHtml(column.label)}欄寬"
+          tabindex="0"
+          data-score-source-resize="${escapeHtml(column.key)}"
+        ></span>
+      </th>
+    `;
+  }
+
+  function scoreSourceTable(records) {
+    return `
+      <table class="score-table score-source-table" style="--score-table-width: ${scoreSourceTableWidth()}px">
+        <caption>口琴譜源 metadata、購買或洽詢方式與公開佐證連結</caption>
+        <colgroup>
+          ${scoreSourceSortColumns.map(scoreSourceColumnMarkup).join("")}
+        </colgroup>
+        <thead>
+          <tr>
+            ${scoreSourceSortColumns.map(scoreSourceHeaderCell).join("")}
+          </tr>
+        </thead>
+        <tbody>
+          ${records.map(scoreSourceTableRow).join("")}
+        </tbody>
+      </table>
+    `;
+  }
+
+  function renderScoreSourceResultCount(records) {
+    if (!scoreSourceResultCount) return;
+    scoreSourceResultCount.textContent = `${records.length} / ${scoreSourceTotalCount()} 筆譜源線索`;
+  }
+
+  function renderScoreSourceFilterPanel(records) {
+    if (!scoreSourceFilterPanel) return;
+    scoreSourceFilterPanel.innerHTML = searchFilterPanel({
+      scope: "score-source",
+      className: "score-filter-panel",
+      label: "口琴譜源索引篩選",
+      summary: `${records.length} / ${scoreSourceTotalCount()} 筆譜源線索`,
+      searchId: "score-source-search-input",
+      searchLabel: "搜尋口琴譜源索引",
+      searchValue: scoreSourceState.query,
+      searchPlaceholder: "搜尋來源、曲名、作編曲、購買或洽詢方式",
+      groups: [
+        { label: "來源類型", name: "sourceType", values: scoreSourceFilterValues("sourceType"), activeValues: scoreSourceState.sourceType, fallbackLabel: "全部類型", ariaLabel: "來源類型篩選，可複選", allowExclude: false },
+        { label: "平台", name: "platform", values: scoreSourceFilterValues("platform"), activeValues: scoreSourceState.platform, fallbackLabel: "全部平台", ariaLabel: "平台篩選，可複選", allowExclude: false },
+        { label: "狀態", name: "availability", values: scoreSourceFilterValues("availability"), activeValues: scoreSourceState.availability, fallbackLabel: "全部狀態", ariaLabel: "狀態篩選，可複選", allowExclude: false },
+        { label: "形式", name: "format", values: scoreSourceFilterValues("format"), activeValues: scoreSourceState.format, fallbackLabel: "全部形式", ariaLabel: "形式篩選，可複選", allowExclude: false },
+      ],
+    });
+    bindScoreSourceFilters();
+  }
+
+  function renderScoreSources() {
+    if (!scoreSourceList) return;
+    const records = filteredScoreSources();
+    renderScoreSourceFilterPanel(records);
+    renderScoreSourceResultCount(records);
+    if (!records.length) {
+      scoreSourceList.innerHTML = `<div class="empty-state">沒有符合目前條件的譜源線索。</div>`;
+      return;
+    }
+    scoreSourceList.innerHTML = scoreSourceTable(records);
+    hydrateScoreSourceColumnWidthsFromTable();
+    bindScoreSourceSortHeaders();
+    bindScoreSourceColumnResize();
+  }
+
+  function scoreSourceUrlParamNames() {
+    return ["sourceType", "platform", "availability", "format", "sort", "dir", "q", "query"];
+  }
+
+  function syncScoreSourceFilterUrl() {
+    if (!scoreSourceList) return;
+    const url = new URL(window.location.href);
+    scoreSourceUrlParamNames().forEach((name) => url.searchParams.delete(name));
+    filterIncludes(scoreSourceState.sourceType).forEach((value) => url.searchParams.append("sourceType", value));
+    filterIncludes(scoreSourceState.platform).forEach((value) => url.searchParams.append("platform", value));
+    filterIncludes(scoreSourceState.availability).forEach((value) => url.searchParams.append("availability", value));
+    filterIncludes(scoreSourceState.format).forEach((value) => url.searchParams.append("format", value));
+    if (scoreSourceSortColumn(scoreSourceState.sortKey)) {
+      url.searchParams.set("sort", scoreSourceState.sortKey);
+      url.searchParams.set("dir", normalizedScoreSortDirection(scoreSourceState.sortDirection));
+    }
+    if (scoreSourceState.query) url.searchParams.set("q", scoreSourceState.query);
+    window.history.replaceState({}, "", url);
+  }
+
+  function addScoreSourceFilterValue(filterName, value) {
+    const label = String(value || "").trim();
+    if (!label || !scoreSourceFilterNames.includes(filterName)) return;
+    const filter = scoreSourceState[filterName];
+    scoreSourceState[filterName] = {
+      include: addFilterValue(filterIncludes(filter), label),
+      exclude: [],
+    };
+  }
+
+  function readScoreSourceFiltersFromUrl() {
+    if (!scoreSourceList) return;
+    const params = new URLSearchParams(window.location.search);
+    scoreSourceFilterNames.forEach((name) => {
+      scoreSourceState[name] = emptyFilterSet();
+    });
+    scoreSourceState.query = params.get("q") || params.get("query") || "";
+    const sortColumn = scoreSourceSortColumn(params.get("sort") || "");
+    scoreSourceState.sortKey = sortColumn ? sortColumn.key : "";
+    scoreSourceState.sortDirection = sortColumn
+      ? normalizedScoreSortDirection(params.get("dir"), sortColumn.defaultDirection)
+      : "asc";
+    commaSeparatedParamValues(params, ["sourceType"]).forEach((value) => addScoreSourceFilterValue("sourceType", value));
+    commaSeparatedParamValues(params, ["platform"]).forEach((value) => addScoreSourceFilterValue("platform", value));
+    commaSeparatedParamValues(params, ["availability"]).forEach((value) => addScoreSourceFilterValue("availability", value));
+    commaSeparatedParamValues(params, ["format"]).forEach((value) => addScoreSourceFilterValue("format", value));
+  }
+
+  function resetScoreSourceFilters() {
+    scoreSourceFilterNames.forEach((name) => {
+      scoreSourceState[name] = emptyFilterSet();
+    });
+    scoreSourceState.query = "";
+    scoreSourceState.sortKey = "";
+    scoreSourceState.sortDirection = "asc";
+    syncScoreSourceFilterUrl();
+    renderScoreSources();
+  }
+
+  function scheduleScoreSourceRender(delay = 0, cursorPosition = null, focusSelector = "#score-source-search-input") {
+    window.clearTimeout(scoreSourceSearchTimer);
+    scoreSourceSearchTimer = window.setTimeout(() => {
+      syncScoreSourceFilterUrl();
+      renderScoreSources();
+      if (focusSelector) {
+        const nextField = scoreSourceFilterPanel?.querySelector(focusSelector);
+        if (nextField) {
+          nextField.focus();
+          if (cursorPosition !== null && typeof nextField.setSelectionRange === "function") {
+            nextField.setSelectionRange(cursorPosition, cursorPosition);
+          }
+        }
+      }
+    }, delay);
+  }
+
+  function applyScoreSourcePanelSelection(name, value) {
+    if (!scoreSourceFilterNames.includes(name)) return;
+    if (value === "all") {
+      scoreSourceState[name] = emptyFilterSet();
+    } else {
+      scoreSourceState[name] = toggleFilterValue(scoreSourceState[name], value);
+    }
+    syncScoreSourceFilterUrl();
+    renderScoreSources();
+  }
+
+  function applyScoreSourceSort(key) {
+    const column = scoreSourceSortColumn(key);
+    if (!column) return;
+    scoreSourceState.sortDirection = nextScoreSourceSortDirection(key);
+    scoreSourceState.sortKey = key;
+    syncScoreSourceFilterUrl();
+    renderScoreSources();
+  }
+
+  function bindScoreSourceSortHeaders() {
+    if (!scoreSourceList) return;
+    scoreSourceList.querySelectorAll("[data-score-source-sort]").forEach((button) => {
+      button.addEventListener("click", () => {
+        applyScoreSourceSort(button.dataset.scoreSourceSort || "");
+      });
+    });
+  }
+
+  function bindScoreSourceColumnResize() {
+    if (!scoreSourceList) return;
+    scoreSourceList.querySelectorAll("[data-score-source-resize]").forEach((handle) => {
+      handle.addEventListener("pointerdown", (event) => {
+        const key = handle.dataset.scoreSourceResize || "";
+        const column = scoreSourceSortColumn(key);
+        if (!column || event.button > 0) return;
+        const table = scoreSourceList.querySelector(".score-table");
+        const header = scoreSourceList.querySelector(scoreSourceHeaderSelector(key));
+        const startX = event.clientX;
+        const startWidth = header?.getBoundingClientRect().width || scoreSourceColumnWidth(column);
+        handle.setPointerCapture?.(event.pointerId);
+        handle.classList.add("is-active");
+        document.body.classList.add("score-column-resizing");
+        event.preventDefault();
+        event.stopPropagation();
+
+        const onPointerMove = (moveEvent) => {
+          const nextWidth = startWidth + moveEvent.clientX - startX;
+          setScoreSourceColumnWidth(key, nextWidth, table);
+          moveEvent.preventDefault();
+        };
+        const onPointerUp = () => {
+          handle.classList.remove("is-active");
+          document.body.classList.remove("score-column-resizing");
+          window.removeEventListener("pointermove", onPointerMove);
+          window.removeEventListener("pointerup", onPointerUp);
+          window.removeEventListener("pointercancel", onPointerUp);
+        };
+
+        window.addEventListener("pointermove", onPointerMove);
+        window.addEventListener("pointerup", onPointerUp);
+        window.addEventListener("pointercancel", onPointerUp);
+      });
+
+      handle.addEventListener("keydown", (event) => {
+        const key = handle.dataset.scoreSourceResize || "";
+        const column = scoreSourceSortColumn(key);
+        if (!column || (event.key !== "ArrowLeft" && event.key !== "ArrowRight")) return;
+        const step = event.shiftKey ? 32 : 12;
+        const direction = event.key === "ArrowRight" ? 1 : -1;
+        setScoreSourceColumnWidth(key, scoreSourceColumnWidth(column) + step * direction);
+        event.preventDefault();
+      });
+    });
+  }
+
+  function bindScoreSourceFilters() {
+    if (!scoreSourceFilterPanel) return;
+    bindSearchFilterInput(scoreSourceFilterPanel, "#score-source-search-input", {
+      setComposing: (value) => {
+        scoreSourceSearchComposing = value;
+      },
+      isComposing: () => scoreSourceSearchComposing,
+      setQuery: (value) => {
+        scoreSourceState.query = value;
+      },
+      applyChange: ({ cursorPosition, delay }) => {
+        scheduleScoreSourceRender(delay, cursorPosition);
+      },
+      delay: directorySearchDelayMs,
+    });
+    bindSearchFilterChips(scoreSourceFilterPanel, "score-source", applyScoreSourcePanelSelection);
+    const resetButton = scoreSourceFilterPanel.querySelector('[data-search-filter-reset="score-source"]');
+    if (resetButton) {
+      resetButton.addEventListener("click", resetScoreSourceFilters);
+    }
+  }
+
   function directoryUrlParamNames() {
     return [
       "country",
@@ -2676,6 +3164,7 @@
       readDirectoryFiltersFromUrl();
     }
     readScoreFiltersFromUrl();
+    readScoreSourceFiltersFromUrl();
     readFeedFiltersFromUrl();
     const watchStats = data.stats.watchSources || {};
     setStat("watchSourceCount", watchStats.totalSources || data.stats.totalEntries || 0);
@@ -2688,6 +3177,10 @@
     setStat("scoreYearRange", scoreYearRange());
     setStat("scorePublisherCount", scorePublisherCount());
     setStat("scoreGeneratedAt", scoreData.generatedAt || "-");
+    setStat("scoreSourceCount", scoreSourceTotalCount());
+    setStat("scoreSourceDistinctCount", scoreSourceDistinctSourceCount());
+    setStat("scoreSourceTitleCount", scoreSourceTitledItemCount());
+    setStat("scoreSourceGeneratedAt", scoreSourceData.generatedAt || "-");
     feedData.generatedAt = formatFeedGeneratedAt(feedData.generatedAt);
     setStat("feedGeneratedAt", feedData.generatedAt || "-");
 
@@ -2699,6 +3192,7 @@
     renderSpotlight();
     renderDirectory();
     renderScores();
+    renderScoreSources();
   }
 
   init();
