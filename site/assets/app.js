@@ -104,6 +104,7 @@
   const directoryList = document.querySelector("#directory-list");
   const latestFeedGrid = document.querySelector("#latest-feed-grid");
   const homeStoryList = document.querySelector("#home-story-list");
+  const homeStorySlider = document.querySelector("#home-story-slider");
   const spotlightList = document.querySelector("#spotlight-list");
   const resultCount = document.querySelector("#result-count");
   const directoryHashtagFilters = document.querySelector("#directory-hashtag-filters");
@@ -1269,9 +1270,32 @@
     const stories = recentStoryItems();
     if (!stories.length) {
       homeStoryList.innerHTML = `<div class="empty-state">近 24 小時內尚未抓到可顯示的公開 Instagram 限動。</div>`;
+      updateHomeStorySlider();
       return;
     }
     homeStoryList.innerHTML = stories.map(storyCard).join("");
+    updateHomeStorySlider();
+  }
+
+  function updateHomeStorySlider() {
+    if (!homeStoryList || !homeStorySlider) return;
+    const maxScroll = Math.max(0, homeStoryList.scrollWidth - homeStoryList.clientWidth);
+    homeStorySlider.max = String(Math.ceil(maxScroll));
+    homeStorySlider.value = String(Math.min(Math.ceil(homeStoryList.scrollLeft), Math.ceil(maxScroll)));
+    homeStorySlider.disabled = maxScroll <= 1;
+    homeStorySlider.closest(".home-story-slider-wrap")?.classList.toggle("is-disabled", maxScroll <= 1);
+  }
+
+  function bindHomeStorySlider() {
+    if (!homeStoryList || !homeStorySlider) return;
+    homeStorySlider.addEventListener("input", () => {
+      homeStoryList.scrollLeft = Number(homeStorySlider.value || 0);
+    });
+    homeStoryList.addEventListener("scroll", () => {
+      if (homeStorySlider.matches(":active")) return;
+      homeStorySlider.value = String(Math.ceil(homeStoryList.scrollLeft));
+    }, { passive: true });
+    window.addEventListener("resize", updateHomeStorySlider);
   }
 
   function socialSourcesForItem(item) {
@@ -3264,7 +3288,9 @@
 
     bindDirectoryHashtags();
     bindFeedTextToggles();
+    bindHomeStorySlider();
 
+    renderHomepageStories();
     renderLatestFeeds();
     fetchLatestFeedData();
     renderSpotlight();
