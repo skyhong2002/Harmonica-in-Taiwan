@@ -98,8 +98,6 @@
   };
   let feedAutoLoadObserver = null;
   let homeStoryAutoScrollFrame = 0;
-  let homeStoryAutoScrollLastTime = 0;
-  let homeStoryAutoScrollRemainder = 0;
   let homeStoryAutoScrollPaused = false;
 
   const nonLocationLabels = new Set(["國際", "臺灣交流", "臺灣爵士圈"]);
@@ -1328,6 +1326,13 @@
     return loopDistance > 1 ? loopDistance : scrollableDistance;
   }
 
+  function homeStoryStepDistance() {
+    if (!homeStoryList) return 0;
+    const cards = Array.from(homeStoryList.querySelectorAll(".story-card"));
+    if (cards.length < 2) return Math.max(0, homeStoryList.clientWidth * 0.72);
+    return Math.max(1, cards[1].offsetLeft - cards[0].offsetLeft);
+  }
+
   function normalizeHomeStoryLoopPosition() {
     if (!homeStoryList) return;
     const loopDistance = homeStoryLoopDistance();
@@ -1338,41 +1343,50 @@
 
   function stopHomeStoryAutoScroll() {
     if (homeStoryAutoScrollFrame) {
-      cancelAnimationFrame(homeStoryAutoScrollFrame);
+      window.clearTimeout(homeStoryAutoScrollFrame);
       homeStoryAutoScrollFrame = 0;
     }
-    homeStoryAutoScrollLastTime = 0;
-    homeStoryAutoScrollRemainder = 0;
     homeStoryList?.classList.remove("is-auto-scrolling");
   }
 
-  function autoScrollHomepageStories(timestamp) {
+  function scheduleHomeStoryAutoScroll(delay = 3600) {
+    if (!homeStoryList || homeStoryAutoScrollFrame || homeStoryAutoScrollPaused) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    if (homeStoryMaxScroll() <= 1) return;
+    homeStoryAutoScrollFrame = window.setTimeout(autoScrollHomepageStories, delay);
+  }
+
+  function autoScrollHomepageStories() {
+    homeStoryAutoScrollFrame = 0;
     if (!homeStoryList) return;
-    const maxScroll = homeStoryMaxScroll();
-    if (maxScroll <= 1) {
+    if (homeStoryAutoScrollPaused || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const loopDistance = homeStoryLoopDistance();
+    const step = homeStoryStepDistance();
+    if (homeStoryMaxScroll() <= 1 || step <= 1) {
       stopHomeStoryAutoScroll();
       return;
     }
-    if (!homeStoryAutoScrollLastTime) homeStoryAutoScrollLastTime = timestamp;
-    const elapsed = Math.min(64, timestamp - homeStoryAutoScrollLastTime);
-    homeStoryAutoScrollLastTime = timestamp;
-    const shouldAutoScroll = !homeStoryAutoScrollPaused && !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    homeStoryList.classList.toggle("is-auto-scrolling", shouldAutoScroll);
-    if (shouldAutoScroll) {
-      homeStoryAutoScrollRemainder += elapsed * 0.026;
-      const pixels = Math.floor(homeStoryAutoScrollRemainder);
-      if (pixels > 0) {
-        homeStoryAutoScrollRemainder -= pixels;
-        homeStoryList.scrollLeft += pixels;
-        normalizeHomeStoryLoopPosition();
-      }
+    homeStoryList.classList.add("is-auto-scrolling");
+    const target = homeStoryList.scrollLeft + step;
+    if (loopDistance > 1 && target >= loopDistance) {
+      homeStoryList.scrollTo({ left: loopDistance, behavior: "smooth" });
+      window.setTimeout(() => {
+        if (!homeStoryList) return;
+        homeStoryList.scrollLeft = Math.max(0, target - loopDistance);
+        homeStoryList.classList.remove("is-auto-scrolling");
+        scheduleHomeStoryAutoScroll();
+      }, 720);
+      return;
     }
-    homeStoryAutoScrollFrame = requestAnimationFrame(autoScrollHomepageStories);
+    homeStoryList.scrollTo({ left: target, behavior: "smooth" });
+    window.setTimeout(() => {
+      homeStoryList?.classList.remove("is-auto-scrolling");
+      scheduleHomeStoryAutoScroll();
+    }, 720);
   }
 
   function startHomeStoryAutoScroll() {
-    if (!homeStoryList || homeStoryAutoScrollFrame || homeStoryMaxScroll() <= 1) return;
-    homeStoryAutoScrollFrame = requestAnimationFrame(autoScrollHomepageStories);
+    scheduleHomeStoryAutoScroll(1800);
   }
 
   function bindHomeStoryScroll() {
@@ -1382,13 +1396,14 @@
       if (maxScroll <= 1) return;
       const delta = Math.abs(event.deltaY) > Math.abs(event.deltaX) ? event.deltaY : event.deltaX;
       if (!delta) return;
+      stopHomeStoryAutoScroll();
       homeStoryList.scrollLeft += delta;
       requestAnimationFrame(normalizeHomeStoryLoopPosition);
       event.preventDefault();
     }, { passive: false });
     homeStoryList.addEventListener("mouseenter", () => {
       homeStoryAutoScrollPaused = true;
-      homeStoryList.classList.remove("is-auto-scrolling");
+      stopHomeStoryAutoScroll();
     });
     homeStoryList.addEventListener("mouseleave", () => {
       homeStoryAutoScrollPaused = false;
@@ -1396,7 +1411,7 @@
     });
     homeStoryList.addEventListener("focusin", () => {
       homeStoryAutoScrollPaused = true;
-      homeStoryList.classList.remove("is-auto-scrolling");
+      stopHomeStoryAutoScroll();
     });
     homeStoryList.addEventListener("focusout", () => {
       homeStoryAutoScrollPaused = false;
