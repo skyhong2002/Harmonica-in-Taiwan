@@ -76,7 +76,112 @@ def newest_lastmod(paths: list[Path]) -> str:
     return datetime.fromtimestamp(newest_mtime).date().isoformat()
 
 
-def generate_source_page(entry: dict[str, Any]) -> str:
+def format_update_card(up: dict[str, Any]) -> str:
+    posted_at = escape(up.get("posted_at_local") or up.get("posted_at") or "未標示")
+    platform = escape(up.get("platform_label") or up.get("platform") or "public")
+    source = escape(up.get("source") or "公開來源")
+    link = escape(up.get("link") or "#")
+    text = escape(up.get("text") or "")
+    headline = escape(up.get("headline") or "")
+    image_url = escape(up.get("image_url") or "")
+    avatar_url = escape(up.get("avatar_url") or "")
+    initials = escape(up.get("source_initials") or (source[0] if source else "H"))
+    
+    avatar_html = f'<img src="{avatar_url}" alt="" style="width:100%; height:100%; object-fit:cover;">' if avatar_url else f'<span style="display:flex; align-items:center; justify-content:center; width:100%; height:100%; background:#f0f0f0; color:#666; font-weight:bold; border-radius:50%;">{initials}</span>'
+    
+    image_html = f'<div style="margin: 0.8rem 0; aspect-ratio: 4/3; overflow:hidden; border-radius: 6px; border: 1px solid var(--border-color, #e0e0e0);"><a href="{link}" target="_blank" rel="noreferrer"><img src="{image_url}" alt="" style="width:100%; height:100%; object-fit:cover;" referrerpolicy="no-referrer"></a></div>' if image_url else ""
+    
+    display_title = escape(up.get("display_title") or "")
+    title_html = f'<h3 style="font-size: 1.1rem; font-weight: 700; margin: 0.5rem 0;">{display_title}</h3>' if display_title else ""
+    
+    content = text or headline
+    if len(content) > 150:
+        content = content[:150] + "..."
+    content_html = f'<p style="font-size: 0.95rem; line-height: 1.5; color: #333; white-space: pre-wrap; margin: 0.5rem 0;">{content}</p>'
+
+    return f"""
+            <article class="home-feed-card" style="background: #fff; border: 1px solid var(--border-color, #e0e0e0); border-radius: 8px; padding: 1.2rem; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 2px 6px rgba(0,0,0,0.02); margin-top: 10px;">
+              <div>
+                <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.8rem;">
+                  <div style="display: flex; align-items: center; gap: 8px;">
+                    <span class="source-avatar" style="width: 36px; height: 36px; display: inline-block; overflow:hidden; border-radius:50%;">
+                      {avatar_html}
+                    </span>
+                    <div>
+                      <span style="font-size: 0.8rem; color: #666; display: block;">{posted_at} · {platform}</span>
+                      <strong style="font-size: 0.95rem; color: #111;">{source}</strong>
+                    </div>
+                  </div>
+                </div>
+                {title_html}
+                {image_html}
+                {content_html}
+              </div>
+              <div style="margin-top: 1rem; display: flex; justify-content: flex-end;">
+                <a class="feed-open-link" href="{link}" target="_blank" rel="noreferrer" style="font-size: 0.85rem; font-weight: bold; color: var(--primary, #1a73e8); text-decoration: none;">開啟來源</a>
+              </div>
+            </article>
+"""
+
+def format_score_row(score: dict[str, Any]) -> str:
+    year = escape(score.get("schoolYear") or "-")
+    status = escape(score.get("sourceStatus") or "-")
+    program = escape(score.get("program") or "-")
+    division = escape(score.get("division") or "-")
+    title = escape(score.get("title") or "-")
+    composer = escape(score.get("composer") or "-")
+    arranger = escape(score.get("arranger") or "-")
+    publisher = escape(score.get("publisher") or "-")
+    note = escape(score.get("notes") or score.get("performanceNote") or "-")
+    
+    links = score.get("links") or []
+    source_link = links[0].get("url") if links else ""
+    source_label = links[0].get("label") if links else "來源"
+    
+    source_html = f'<a href="{escape(source_link)}" target="_blank" rel="noreferrer" style="color: var(--primary, #1a73e8); text-decoration: underline;">{escape(source_label)}</a>' if source_link else '<span style="color:#999;">-</span>'
+
+    return f"""
+          <tr>
+            <td style="padding: 10px; border-bottom: 1px solid #e0e0e0; text-align: center;">{year}</td>
+            <td style="padding: 10px; border-bottom: 1px solid #e0e0e0; text-align: center;">{status}</td>
+            <td style="padding: 10px; border-bottom: 1px solid #e0e0e0;">{program}</td>
+            <td style="padding: 10px; border-bottom: 1px solid #e0e0e0;">{division}</td>
+            <td style="padding: 10px; border-bottom: 1px solid #e0e0e0; font-weight: bold;">{title}</td>
+            <td style="padding: 10px; border-bottom: 1px solid #e0e0e0;">{composer}</td>
+            <td style="padding: 10px; border-bottom: 1px solid #e0e0e0;">{arranger}</td>
+            <td style="padding: 10px; border-bottom: 1px solid #e0e0e0;">{publisher}</td>
+            <td style="padding: 10px; border-bottom: 1px solid #e0e0e0; font-size: 0.85rem; color:#555;">{note}</td>
+            <td style="padding: 10px; border-bottom: 1px solid #e0e0e0; text-align: center;">{source_html}</td>
+          </tr>
+"""
+
+def format_scores_table(scores: list[dict[str, Any]]) -> str:
+    rows = "".join(format_score_row(s) for s in scores)
+    return f"""
+    <div style="overflow-x: auto; margin-top: 1rem;">
+      <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem;">
+        <thead>
+          <tr style="background: #f8faf8; border-bottom: 2px solid #ccc;">
+            <th style="padding: 10px; text-align: center;">學年度</th>
+            <th style="padding: 10px; text-align: center;">狀態</th>
+            <th style="padding: 10px;">項目</th>
+            <th style="padding: 10px;">組別</th>
+            <th style="padding: 10px;">曲目</th>
+            <th style="padding: 10px;">作曲</th>
+            <th style="padding: 10px;">編曲</th>
+            <th style="padding: 10px;">出版社</th>
+            <th style="padding: 10px;">備註</th>
+            <th style="padding: 10px; text-align: center;">來源</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows}
+        </tbody>
+      </table>
+    </div>
+"""
+
+def generate_source_page(entry: dict[str, Any], entry_updates: list[dict[str, Any]], entry_scores: list[dict[str, Any]]) -> str:
     entry_id = escape(entry.get("id"))
     name = escape(entry.get("name"))
     name_en = escape(entry.get("nameEn"))
@@ -150,6 +255,26 @@ def generate_source_page(entry: dict[str, Any]) -> str:
 
     og_image = f"https://harmonica.observe.tw{avatar_url}" if avatar_url and avatar_url.startswith("/") else "https://harmonica.observe.tw/assets/hero-harmonica-observe.webp"
 
+    # Related Updates Section
+    updates_html = ""
+    if entry_updates:
+        cards_html = "".join(format_update_card(up) for up in entry_updates)
+        updates_html = f"""
+            <h2 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid var(--primary, #1a73e8); padding-bottom: 0.5rem; margin-top: 2.5rem; margin-bottom: 1.5rem;">近期公開更新</h2>
+            <div class="watchlist-updates-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; margin-bottom: 2rem;">
+              {cards_html}
+            </div>
+"""
+
+    # Related Scores Section
+    scores_html = ""
+    if entry_scores:
+        scores_table = format_scores_table(entry_scores)
+        scores_html = f"""
+            <h2 style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid var(--primary, #1a73e8); padding-bottom: 0.5rem; margin-top: 2.5rem; margin-bottom: 1.5rem;">相關比賽指定曲曲目</h2>
+            {scores_table}
+"""
+
     return f"""<!doctype html>
 <html lang="zh-Hant">
   <head>
@@ -218,6 +343,9 @@ def generate_source_page(entry: dict[str, Any]) -> str:
             
             <h2 class="source-detail-title" style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid var(--primary, #1a73e8); padding-bottom: 0.5rem; margin-bottom: 1rem;">公開聯絡與社群連結</h2>
             {links_html}
+
+            {updates_html}
+            {scores_html}
           </div>
         </div>
       </section>
@@ -601,15 +729,53 @@ def main() -> int:
         scores = []
         categories = ["口琴合奏", "口琴四重奏", "口琴獨奏"]
 
+    # Load latest updates
+    LATEST_JSON = SITE_ROOT / "api" / "latest.json"
+    try:
+        latest_payload = json.loads(LATEST_JSON.read_text(encoding="utf-8"))
+        updates = latest_payload.get("updates") or []
+    except Exception as e:
+        print(f"Error loading latest updates: {e}")
+        updates = []
+
     # 2. Pre-render Source Pages
     source_count = 0
     for entry in entries:
         entry_id = clean(entry.get("id"))
         if not entry_id:
             continue
+
+        # Match updates
+        entry_updates = [up for up in updates if clean(up.get("directory_entry_id")) == entry_id]
+
+        # Match scores
+        entry_scores = []
+        entry_names = {clean(entry.get("name")).lower()}
+        if entry.get("nameEn"):
+            entry_names.add(clean(entry.get("nameEn")).lower())
+        for alias in entry.get("aliases") or []:
+            entry_names.add(clean(alias).lower())
+
+        for score in scores:
+            publisher = clean(score.get("publisher"))
+            composer = clean(score.get("composer"))
+            arranger = clean(score.get("arranger"))
+
+            pub_lower = publisher.lower()
+            comp_lower = composer.lower()
+            arr_lower = arranger.lower()
+
+            matched = False
+            for name in entry_names:
+                if name and (name in pub_lower or name in comp_lower or name in arr_lower or pub_lower in name or comp_lower in name or arr_lower in name):
+                    matched = True
+                    break
+            if matched:
+                entry_scores.append(score)
+
         page_dir = SITE_ROOT / "source" / entry_id
         page_dir.mkdir(parents=True, exist_ok=True)
-        html_content = normalize_generated_html(generate_source_page(entry))
+        html_content = normalize_generated_html(generate_source_page(entry, entry_updates, entry_scores))
         (page_dir / "index.html").write_text(html_content, encoding="utf-8")
         source_count += 1
 
