@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>樂譜索引｜臺灣口琴觀測站</title>
+    <title>學生音樂比賽指定曲索引｜臺灣口琴觀測站</title>
     <meta
       name="description"
-      content="臺灣口琴指定曲與樂譜出版、購譜線索索引。"
+      content="全國學生音樂比賽口琴項目指定曲，及公開可查的出版、購譜或洽詢線索。"
     >
     <link rel="icon" href="/assets/favicon-20260623.svg?v=20260628-0342" type="image/svg+xml">
-    <link rel="stylesheet" href="/assets/styles.css?v=20260628-0342">
+    <link rel="stylesheet" href="/assets/styles.css?v=20260703-header-widths">
   </head>
   <body>
     <header class="site-header">
@@ -19,7 +19,7 @@
       <nav class="site-nav" aria-label="主要導覽">
         <a href="/">首頁</a>
         <a href="/directory/">資料索引</a>
-        <a href="/scores/">樂譜索引</a>
+        <a href="/scores/">指定曲索引</a>
         <a href="/status/">狀態</a>
       </nav>
     </header>
@@ -28,19 +28,19 @@
       <section class="feed-page-hero score-hero">
         <div class="band-inner split-layout">
           <div>
-            <p class="section-kicker">Scores</p>
-            <h1>樂譜索引</h1>
+            <p class="section-kicker">Contest Pieces</p>
+            <h1>學生音樂比賽指定曲索引</h1>
           </div>
           <div class="feed-page-summary">
-            <p>全國學生音樂比賽指定曲與公開可查的口琴樂譜出版、購譜線索。</p>
-            <div class="score-stat-row" aria-label="樂譜索引統計">
+            <p>全國學生音樂比賽口琴項目指定曲，及公開可查的出版、購譜或洽詢線索。</p>
+            <div class="score-stat-row" aria-label="指定曲索引統計">
               <span><strong data-stat="scoreCount">0</strong> 筆線索</span>
               <span>涵蓋 <strong data-stat="scoreYearRange">-</strong> 學年度</span>
               <span><strong data-stat="scorePublisherCount">0</strong> 個出版／洽詢來源</span>
             </div>
             <div class="feed-links">
-              <a href="/api/scores.json">Scores JSON</a>
-              <a href="/submit/">回報樂譜線索</a>
+              <a href="/api/scores.json">指定曲 JSON</a>
+              <a href="/submit/">回報指定曲線索</a>
             </div>
           </div>
         </div>
@@ -51,12 +51,12 @@
           <div class="section-heading">
             <div>
               <p class="section-kicker">Publication Leads</p>
-              <h2 id="score-title">指定曲與樂譜出版線索</h2>
+              <h2 id="score-title">指定曲與出版／洽詢線索</h2>
             </div>
             <p class="data-date">更新日期 <span data-stat="scoreGeneratedAt">-</span></p>
           </div>
 
-          <div id="score-filter-panel" aria-label="樂譜索引搜尋與篩選"></div>
+          <div id="score-filter-panel" aria-label="指定曲索引搜尋與篩選"></div>
           <p class="result-count sr-only" id="score-result-count" aria-live="polite"></p>
           <div class="score-list" id="score-list"></div>
         </div>
@@ -66,10 +66,10 @@
         <div class="band-inner split-layout">
           <div>
             <p class="section-kicker">Boundary</p>
-            <h2 id="score-boundary-title">只整理購譜線索</h2>
+            <h2 id="score-boundary-title">只整理指定曲購譜線索</h2>
           </div>
           <div class="source-points">
-            <p>本頁只收錄公開公告中的曲名、類組、出版者、購譜或洽詢資訊與佐證連結。</p>
+            <p>本頁只收錄全國學生音樂比賽公開公告中的曲名、類組、出版者、購譜或洽詢資訊與佐證連結。</p>
             <p>不收錄、轉載或提供任何曲譜檔案。</p>
           </div>
         </div>
@@ -93,6 +93,6 @@
     </footer>
 
     <script src="/data/score-data.js?v=20260628-0342"></script>
-    <script src="/assets/app.js?v=20260628-0342"></script>
+    <script src="/assets/app.js?v=20260703-header-widths"></script>
   </body>
 </html>
