@@ -2,6 +2,75 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-03",
   "entries": [
     {
+      "id": "watchlist-167",
+      "name": "新加坡青年節藝術展演（口琴）",
+      "nameEn": "Singapore Youth Festival Arts Presentation - Harmonica",
+      "category": "活動資訊",
+      "type": "學校比賽/資訊入口",
+      "country": "新加坡",
+      "region": "新加坡",
+      "cityOrFocus": "官方學生藝術展演/口琴項目/SYF",
+      "structuredSummary": "官方學生藝術展演/口琴項目/SYF / 口琴/學生合奏 / 學生比賽來源",
+      "summary": "新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。",
+      "keywords": "新加坡青年節藝術展演 Singapore Youth Festival Arts Presentation Harmonica SYF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.syf.gov.sg/general/calendar"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/sgyouthfest/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sgyouthfest/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-03T05:27:02+00:00",
+      "latestUpdateLocal": "2026-07-03 13:27",
+      "latestUpdateSource": "新加坡青年節藝術展演（口琴）",
+      "latestUpdateUrl": "https://www.instagram.com/stories/sgyouthfest/3932884859157039742/",
+      "avatarUrl": "/assets/source-avatars/b6435a473470038522d6.webp",
+      "sourceInitials": "新加",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "比賽"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_sgyouthfest",
+          "name": "新加坡青年節藝術展演（口琴）",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/sgyouthfest",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sgyouthfest",
+          "name": "新加坡青年節藝術展演（口琴）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sgyouthfest",
+          "profileUrl": "https://www.instagram.com/sgyouthfest/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sgyouthfest",
+          "name": "新加坡青年節藝術展演（口琴）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sgyouthfest",
+          "profileUrl": "https://www.instagram.com/sgyouthfest/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sgyouthfest/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-80",
       "name": "衛武營國家藝術文化中心",
       "nameEn": "",
@@ -1553,75 +1622,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-167",
-      "name": "新加坡青年節藝術展演（口琴）",
-      "nameEn": "Singapore Youth Festival Arts Presentation - Harmonica",
-      "category": "活動資訊",
-      "type": "學校比賽/資訊入口",
-      "country": "新加坡",
-      "region": "新加坡",
-      "cityOrFocus": "官方學生藝術展演/口琴項目/SYF",
-      "structuredSummary": "官方學生藝術展演/口琴項目/SYF / 口琴/學生合奏 / 學生比賽來源",
-      "summary": "新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。",
-      "keywords": "新加坡青年節藝術展演 Singapore Youth Festival Arts Presentation Harmonica SYF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.syf.gov.sg/general/calendar"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/sgyouthfest/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/sgyouthfest/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-02T14:34:01+00:00",
-      "latestUpdateLocal": "2026-07-02 22:34",
-      "latestUpdateSource": "新加坡青年節藝術展演（口琴）",
-      "latestUpdateUrl": "https://www.instagram.com/stories/sgyouthfest/3932435482642928415/",
-      "avatarUrl": "/assets/source-avatars/b6435a473470038522d6.webp",
-      "sourceInitials": "新加",
-      "sourceTags": [
-        "口琴",
-        "活動資訊",
-        "比賽"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_sgyouthfest",
-          "name": "新加坡青年節藝術展演（口琴）",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/sgyouthfest",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_sgyouthfest",
-          "name": "新加坡青年節藝術展演（口琴）",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "sgyouthfest",
-          "profileUrl": "https://www.instagram.com/sgyouthfest/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_sgyouthfest",
-          "name": "新加坡青年節藝術展演（口琴）",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "sgyouthfest",
-          "profileUrl": "https://www.instagram.com/sgyouthfest/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sgyouthfest/story/0"
         }
       ]
     },

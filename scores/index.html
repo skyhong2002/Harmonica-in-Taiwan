@@ -3,13 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>資料索引｜臺灣口琴觀測站</title>
+    <title>樂譜索引｜臺灣口琴觀測站</title>
     <meta
       name="description"
-      content="臺灣口琴社團、樂團、演奏者、教學、場館與公開來源索引。"
+      content="臺灣口琴指定曲與樂譜出版、購譜線索索引。"
     >
     <link rel="icon" href="/assets/favicon-20260623.svg?v=20260628-0342" type="image/svg+xml">
-    <link rel="alternate" type="application/rss+xml" title="臺灣口琴觀測站來源索引" href="/feeds/sources.xml">
     <link rel="stylesheet" href="/assets/styles.css?v=20260628-0342">
   </head>
   <body>
@@ -25,49 +24,52 @@
       </nav>
     </header>
 
-    <main>
-      <section class="feed-page-hero">
+    <main class="feed-page-main">
+      <section class="feed-page-hero score-hero">
         <div class="band-inner split-layout">
           <div>
-            <p class="section-kicker">Directory</p>
-            <h1>資料索引</h1>
+            <p class="section-kicker">Scores</p>
+            <h1>樂譜索引</h1>
           </div>
           <div class="feed-page-summary">
-            <p>臺灣口琴公開來源索引，預設依最近公開更新排序。</p>
+            <p>全國學生音樂比賽指定曲與公開可查的口琴樂譜出版、購譜線索。</p>
+            <div class="score-stat-row" aria-label="樂譜索引統計">
+              <span><strong data-stat="scoreCount">0</strong> 筆線索</span>
+              <span><strong data-stat="scorePublisherCount">0</strong> 個出版／洽詢來源</span>
+            </div>
             <div class="feed-links">
-              <a href="/feeds/sources.xml">來源索引 RSS</a>
-              <a href="/">最新更新</a>
+              <a href="/api/scores.json">Scores JSON</a>
+              <a href="/submit/">回報樂譜線索</a>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="band directory-band" id="directory" aria-labelledby="directory-title">
+      <section class="band score-band" id="scores" aria-labelledby="score-title">
         <div class="band-inner">
           <div class="section-heading">
             <div>
-              <p class="section-kicker">Sources</p>
-              <h2 id="directory-title">公開來源列表</h2>
+              <p class="section-kicker">Publication Leads</p>
+              <h2 id="score-title">指定曲與樂譜出版線索</h2>
             </div>
-            <p class="data-date">更新日期 <span data-stat="generatedAt">-</span></p>
+            <p class="data-date">更新日期 <span data-stat="scoreGeneratedAt">-</span></p>
           </div>
 
-          <div id="directory-filter-panel" aria-label="資料索引搜尋與篩選"></div>
-          <p class="result-count sr-only" id="result-count" aria-live="polite"></p>
-          <div class="directory-grid" id="directory-list"></div>
+          <div id="score-filter-panel" aria-label="樂譜索引搜尋與篩選"></div>
+          <p class="result-count sr-only" id="score-result-count" aria-live="polite"></p>
+          <div class="score-list" id="score-list"></div>
         </div>
       </section>
 
-      <section class="band source-band" aria-labelledby="sources-title">
+      <section class="band source-band" aria-labelledby="score-boundary-title">
         <div class="band-inner split-layout">
           <div>
-            <p class="section-kicker">Source Boundary</p>
-            <h2 id="sources-title">只發布公開可查資料</h2>
+            <p class="section-kicker">Boundary</p>
+            <h2 id="score-boundary-title">只整理購譜線索</h2>
           </div>
           <div class="source-points">
-            <p>網站只使用公開連結、名稱、類型、地區、樂器與來源標籤。</p>
-            <p>內部備註、監看規則、私人憑證、成員資料與非公開曲譜入口不會進入公開資料包。</p>
-            <p>不適合公開展示的資料會暫時不顯示。</p>
+            <p>本頁只收錄公開公告中的曲名、類組、出版者、購譜或洽詢資訊與佐證連結。</p>
+            <p>不收錄、轉載或提供任何曲譜檔案。</p>
           </div>
         </div>
       </section>
@@ -89,7 +91,7 @@
       </div>
     </footer>
 
-    <script src="/data/site-data.js?v=20260628-0342"></script>
+    <script src="/data/score-data.js?v=20260628-0342"></script>
     <script src="/assets/app.js?v=20260628-0342"></script>
   </body>
 </html>

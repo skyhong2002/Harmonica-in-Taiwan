@@ -12,6 +12,12 @@
     updates: [],
     updatesWindowDays: FEED_FALLBACK_WINDOW_DAYS,
   };
+  const scoreData = window.HARMONICA_OBSERVE_SCORES || {
+    generatedAt: "-",
+    count: 0,
+    stats: { totalScores: 0, schoolYears: [], programs: [], publishers: [] },
+    scores: [],
+  };
 
   const state = {
     query: "",
@@ -38,6 +44,13 @@
     columnCount: 0,
     sourceExpanded: false,
   };
+  const scoreState = {
+    query: "",
+    year: emptyFilterSet(),
+    program: emptyFilterSet(),
+    publisher: emptyFilterSet(),
+    status: emptyFilterSet(),
+  };
   const feedBatchSize = 12;
   const directoryRenderBatchSize = 48;
   const directorySearchDelayMs = 120;
@@ -61,6 +74,7 @@
   const nonLocationLabels = new Set(["國際", "臺灣交流", "臺灣爵士圈"]);
   const directoryFilterNames = ["country", "region", "hashtags"];
   const feedFilterNames = ["platform", "country", "region", "source", "tag"];
+  const scoreFilterNames = ["year", "program", "publisher", "status"];
   const feedApiUrl = "/api/latest.json";
   let feedSearchComposing = false;
 
@@ -70,11 +84,16 @@
   const resultCount = document.querySelector("#result-count");
   const directoryHashtagFilters = document.querySelector("#directory-hashtag-filters");
   const directoryFilterPanel = document.querySelector("#directory-filter-panel") || directoryHashtagFilters;
+  const scoreList = document.querySelector("#score-list");
+  const scoreFilterPanel = document.querySelector("#score-filter-panel");
+  const scoreResultCount = document.querySelector("#score-result-count");
   let directoryIndex = null;
   let directoryRecordByEntry = new WeakMap();
   let directoryRenderToken = 0;
   let directorySearchTimer = 0;
   let directorySearchComposing = false;
+  let scoreSearchComposing = false;
+  let scoreSearchTimer = 0;
 
   function setStat(name, value) {
     document.querySelectorAll(`[data-stat="${name}"]`).forEach((node) => {
@@ -1825,6 +1844,263 @@
     spotlightList.innerHTML = spotlight.map(entryCard).join("");
   }
 
+  function scoreItems() {
+    return Array.isArray(scoreData.scores) ? scoreData.scores : [];
+  }
+
+  function scoreTotalCount() {
+    return scoreData.count || scoreData.stats.totalScores || scoreItems().length || 0;
+  }
+
+  function scoreFieldValues(item, name) {
+    if (name === "year") return [item.schoolYear ? `${item.schoolYear}學年度` : ""];
+    if (name === "program") return [item.program];
+    if (name === "publisher") return [item.publisher];
+    if (name === "status") return [item.sourceStatus];
+    return [];
+  }
+
+  function scoreFilterValues(name) {
+    const values = countSortedValues(scoreItems(), (item) => scoreFieldValues(item, name));
+    if (name !== "year") return values;
+    return values.sort((left, right) => Number.parseInt(right, 10) - Number.parseInt(left, 10));
+  }
+
+  function scoreSearchableText(item) {
+    return normalize(
+      item.searchText ||
+        [
+          item.title,
+          item.titleAlt,
+          item.schoolYear,
+          item.sourceStatus,
+          item.program,
+          item.category,
+          item.division,
+          item.composer,
+          item.arranger,
+          item.publisher,
+          item.scoreName,
+          item.performanceNote,
+          item.purchaseNote,
+          item.notes,
+          ...(item.tags || []),
+        ].join(" ")
+    );
+  }
+
+  function scoreMatches(item) {
+    for (const name of scoreFilterNames) {
+      if (!valuesMatchFilter(scoreFieldValues(item, name), scoreState[name])) return false;
+    }
+    return normalizedTextMatches(scoreSearchableText(item), scoreState.query);
+  }
+
+  function filteredScores() {
+    return scoreItems().filter(scoreMatches);
+  }
+
+  function scoreDetail(label, value) {
+    const text = String(value || "").trim();
+    if (!text) return "";
+    return `
+      <div class="score-detail-item">
+        <span>${escapeHtml(label)}</span>
+        <strong>${escapeHtml(text)}</strong>
+      </div>
+    `;
+  }
+
+  function scorePills(item) {
+    return [item.program, item.sourceStatus, item.publisher]
+      .filter(Boolean)
+      .slice(0, 4)
+      .map((value) => `<span class="pill score-pill">${escapeHtml(value)}</span>`)
+      .join("");
+  }
+
+  function scoreCard(item) {
+    const titleAlt = item.titleAlt ? `<p class="score-title-alt">${escapeHtml(item.titleAlt)}</p>` : "";
+    const meta = [item.category, item.division].filter(Boolean).join(" · ");
+    const metaHtml = meta ? `<p class="score-meta-line">${escapeHtml(meta)}</p>` : "";
+    const notes = item.notes ? `<p class="score-note">${escapeHtml(item.notes)}</p>` : "";
+    const links = renderLinks(item.links);
+    return `
+      <article class="score-row">
+        <div class="score-row-main">
+          <div class="score-row-head">
+            <span class="score-year">${escapeHtml(item.schoolYear ? `${item.schoolYear}學年度` : "未標示")}</span>
+            <span class="score-status">${escapeHtml(item.sourceStatus || "公開來源")}</span>
+          </div>
+          <h3>${escapeHtml(item.title)}</h3>
+          ${titleAlt}
+          ${metaHtml}
+          <div class="score-detail-list">
+            ${scoreDetail("作曲者", item.composer)}
+            ${scoreDetail("編曲者", item.arranger)}
+            ${scoreDetail("樂譜名稱／編號", item.scoreName)}
+            ${scoreDetail("演奏說明", item.performanceNote)}
+          </div>
+        </div>
+        <div class="score-row-source">
+          <div class="score-pills">${scorePills(item)}</div>
+          ${item.purchaseNote ? `<p class="score-purchase">${escapeHtml(item.purchaseNote)}</p>` : ""}
+          ${notes}
+          ${links ? `<div class="entry-links score-links">${links}</div>` : ""}
+        </div>
+      </article>
+    `;
+  }
+
+  function renderScoreResultCount(records) {
+    if (!scoreResultCount) return;
+    scoreResultCount.textContent = `${records.length} / ${scoreTotalCount()} 筆樂譜出版線索`;
+  }
+
+  function renderScoreFilterPanel(records) {
+    if (!scoreFilterPanel) return;
+    scoreFilterPanel.innerHTML = searchFilterPanel({
+      scope: "score",
+      className: "score-filter-panel",
+      label: "樂譜索引篩選",
+      summary: `${records.length} / ${scoreTotalCount()} 筆樂譜出版線索`,
+      searchId: "score-search-input",
+      searchLabel: "搜尋樂譜索引",
+      searchValue: scoreState.query,
+      searchPlaceholder: "搜尋曲名、出版者、作編曲、組別",
+      groups: [
+        { label: "年度", name: "year", values: scoreFilterValues("year"), activeValues: scoreState.year, fallbackLabel: "全部年度", ariaLabel: "年度篩選，可複選" },
+        { label: "編制", name: "program", values: scoreFilterValues("program"), activeValues: scoreState.program, fallbackLabel: "全部編制", ariaLabel: "編制篩選，可複選" },
+        { label: "出版／洽詢來源", name: "publisher", values: scoreFilterValues("publisher"), activeValues: scoreState.publisher, fallbackLabel: "全部來源", ariaLabel: "出版或洽詢來源篩選，可複選" },
+        { label: "來源狀態", name: "status", values: scoreFilterValues("status"), activeValues: scoreState.status, fallbackLabel: "全部狀態", ariaLabel: "來源狀態篩選，可複選" },
+      ],
+    });
+    bindScoreFilters();
+  }
+
+  function renderScores() {
+    if (!scoreList) return;
+    const records = filteredScores();
+    renderScoreFilterPanel(records);
+    renderScoreResultCount(records);
+    if (!records.length) {
+      scoreList.innerHTML = `<div class="empty-state">沒有符合目前條件的樂譜出版線索。</div>`;
+      return;
+    }
+    scoreList.innerHTML = records.map(scoreCard).join("");
+  }
+
+  function scoreUrlParamNames() {
+    return ["year", "program", "publisher", "status", "notYear", "notProgram", "notPublisher", "notStatus", "q", "query"];
+  }
+
+  function syncScoreFilterUrl() {
+    if (!scoreList) return;
+    const url = new URL(window.location.href);
+    scoreUrlParamNames().forEach((name) => url.searchParams.delete(name));
+    filterIncludes(scoreState.year).forEach((value) => url.searchParams.append("year", value));
+    filterExcludes(scoreState.year).forEach((value) => url.searchParams.append("notYear", value));
+    filterIncludes(scoreState.program).forEach((value) => url.searchParams.append("program", value));
+    filterExcludes(scoreState.program).forEach((value) => url.searchParams.append("notProgram", value));
+    filterIncludes(scoreState.publisher).forEach((value) => url.searchParams.append("publisher", value));
+    filterExcludes(scoreState.publisher).forEach((value) => url.searchParams.append("notPublisher", value));
+    filterIncludes(scoreState.status).forEach((value) => url.searchParams.append("status", value));
+    filterExcludes(scoreState.status).forEach((value) => url.searchParams.append("notStatus", value));
+    if (scoreState.query) url.searchParams.set("q", scoreState.query);
+    window.history.replaceState({}, "", url);
+  }
+
+  function addScoreFilterValue(filterName, value, mode = "include") {
+    const label = String(value || "").trim();
+    if (!label || !scoreFilterNames.includes(filterName)) return;
+    const filter = scoreState[filterName];
+    if (mode === "exclude") {
+      scoreState[filterName] = {
+        include: removeFilterValue(filterIncludes(filter), label),
+        exclude: addFilterValue(filterExcludes(filter), label),
+      };
+      return;
+    }
+    scoreState[filterName] = {
+      include: addFilterValue(filterIncludes(filter), label),
+      exclude: removeFilterValue(filterExcludes(filter), label),
+    };
+  }
+
+  function readScoreFiltersFromUrl() {
+    if (!scoreList) return;
+    const params = new URLSearchParams(window.location.search);
+    scoreFilterNames.forEach((name) => {
+      scoreState[name] = emptyFilterSet();
+    });
+    scoreState.query = params.get("q") || params.get("query") || "";
+    commaSeparatedParamValues(params, ["year"]).forEach((value) => addScoreFilterValue("year", value));
+    commaSeparatedParamValues(params, ["notYear"]).forEach((value) => addScoreFilterValue("year", value, "exclude"));
+    commaSeparatedParamValues(params, ["program"]).forEach((value) => addScoreFilterValue("program", value));
+    commaSeparatedParamValues(params, ["notProgram"]).forEach((value) => addScoreFilterValue("program", value, "exclude"));
+    commaSeparatedParamValues(params, ["publisher"]).forEach((value) => addScoreFilterValue("publisher", value));
+    commaSeparatedParamValues(params, ["notPublisher"]).forEach((value) => addScoreFilterValue("publisher", value, "exclude"));
+    commaSeparatedParamValues(params, ["status"]).forEach((value) => addScoreFilterValue("status", value));
+    commaSeparatedParamValues(params, ["notStatus"]).forEach((value) => addScoreFilterValue("status", value, "exclude"));
+  }
+
+  function resetScoreFilters() {
+    scoreFilterNames.forEach((name) => {
+      scoreState[name] = emptyFilterSet();
+    });
+    scoreState.query = "";
+    syncScoreFilterUrl();
+    renderScores();
+  }
+
+  function scheduleScoreRender(delay = 0, cursorPosition = null) {
+    window.clearTimeout(scoreSearchTimer);
+    scoreSearchTimer = window.setTimeout(() => {
+      syncScoreFilterUrl();
+      renderScores();
+      if (cursorPosition !== null) {
+        const nextSearch = scoreFilterPanel?.querySelector("#score-search-input");
+        if (nextSearch) {
+          nextSearch.focus();
+          nextSearch.setSelectionRange(cursorPosition, cursorPosition);
+        }
+      }
+    }, delay);
+  }
+
+  function applyScorePanelSelection(name, value) {
+    if (!scoreFilterNames.includes(name)) return;
+    if (value === "all") {
+      scoreState[name] = emptyFilterSet();
+    } else {
+      scoreState[name] = cycleFilterValue(scoreState[name], value);
+    }
+    syncScoreFilterUrl();
+    renderScores();
+  }
+
+  function bindScoreFilters() {
+    if (!scoreFilterPanel) return;
+    bindSearchFilterInput(scoreFilterPanel, "#score-search-input", {
+      setComposing: (value) => {
+        scoreSearchComposing = value;
+      },
+      isComposing: () => scoreSearchComposing,
+      setQuery: (value) => {
+        scoreState.query = value;
+      },
+      applyChange: ({ cursorPosition, delay }) => {
+        scheduleScoreRender(delay, cursorPosition);
+      },
+      delay: directorySearchDelayMs,
+    });
+    bindSearchFilterChips(scoreFilterPanel, "score", applyScorePanelSelection);
+    const resetButton = scoreFilterPanel.querySelector('[data-search-filter-reset="score"]');
+    if (resetButton) {
+      resetButton.addEventListener("click", resetScoreFilters);
+    }
+  }
+
   function directoryUrlParamNames() {
     return [
       "country",
@@ -2011,6 +2287,7 @@
       buildDirectoryIndex();
       readDirectoryFiltersFromUrl();
     }
+    readScoreFiltersFromUrl();
     readFeedFiltersFromUrl();
     const watchStats = data.stats.watchSources || {};
     setStat("watchSourceCount", watchStats.totalSources || data.stats.totalEntries || 0);
@@ -2019,6 +2296,9 @@
     setStat("directoryEntryCount", data.stats.totalEntries || 0);
     setStat("totalEntries", data.stats.totalEntries || 0);
     setStat("generatedAt", data.generatedAt || "-");
+    setStat("scoreCount", scoreTotalCount());
+    setStat("scorePublisherCount", (scoreData.stats.publishers || []).length);
+    setStat("scoreGeneratedAt", scoreData.generatedAt || "-");
     feedData.generatedAt = formatFeedGeneratedAt(feedData.generatedAt);
     setStat("feedGeneratedAt", feedData.generatedAt || "-");
 
@@ -2029,6 +2309,7 @@
     fetchLatestFeedData();
     renderSpotlight();
     renderDirectory();
+    renderScores();
   }
 
   init();
