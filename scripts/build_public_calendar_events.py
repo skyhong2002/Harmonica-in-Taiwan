@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import datetime as dt
 import argparse
+import csv
 import hashlib
 import json
 import re
@@ -22,6 +23,7 @@ API_DIR = SITE_ROOT / "api"
 DATA_DIR = SITE_ROOT / "data"
 FEEDS_DIR = SITE_ROOT / "feeds"
 SOURCE_PATH = API_DIR / "events.json"
+OVERRIDES_PATH = PROJECT_ROOT / "data" / "sources" / "harmonica-public-calendar-overrides.csv"
 JSON_PATH = API_DIR / "public-calendar-events.json"
 JS_PATH = DATA_DIR / "public-calendar-events.js"
 ICS_PATH = FEEDS_DIR / "public-calendar.ics"
@@ -148,6 +150,52 @@ def parse_loose_date(text: str, posted_at: dt.datetime | None) -> dt.date | None
     if month_day:
         return infer_month_day(int(month_day.group("month")), int(month_day.group("day")), posted_at)
     return None
+
+
+def truthy(value: Any) -> bool:
+    return str(value or "").strip().lower() in {"1", "true", "yes", "y", "是"}
+
+
+def load_overrides(path: Path = OVERRIDES_PATH) -> dict[str, dict[str, Any]]:
+    if not path.exists():
+        return {}
+    overrides: dict[str, dict[str, Any]] = {}
+    with path.open(newline="", encoding="utf-8") as handle:
+        for row in csv.DictReader(handle):
+            evidence_url = (row.get("evidence_url") or "").strip()
+            if not evidence_url:
+                continue
+            start = (row.get("start") or "").strip()
+            end = (row.get("end") or "").strip()
+            event_name = (row.get("event_name") or "").strip()
+            venue = (row.get("venue") or "").strip()
+            city = (row.get("city") or "").strip()
+            if not start or not event_name or not venue:
+                continue
+            overrides[evidence_url] = {
+                "eventName": event_name,
+                "title": event_name,
+                "start": start,
+                "end": end or start,
+                "allDay": truthy(row.get("all_day")),
+                "venue": venue,
+                "city": city,
+                "location": venue if not city or city in venue else f"{city} {venue}",
+                "details": (row.get("details") or "").strip(),
+                "evidenceUrl": evidence_url,
+                "confidence": 1.0,
+                "calendarReview": {
+                    "include": True,
+                    "country": "臺灣",
+                    "eventName": event_name,
+                    "venue": venue,
+                    "city": city,
+                    "details": (row.get("details") or "").strip(),
+                    "reason": "manual override from public calendar overrides CSV",
+                    "confidence": 1.0,
+                },
+            }
+    return overrides
 
 
 def text_has_any(text: str, terms: list[str]) -> bool:
@@ -413,6 +461,7 @@ def fallback_calendar_review(item: dict[str, Any], title: str, location: str, te
 def extract_events(
     items: list[dict[str, Any]],
     *,
+    overrides: dict[str, dict[str, Any]] | None = None,
     llm_token: str = "",
     llm_base_url: str = watchdog.OPENCODE_GO_BASE_URL,
     llm_model: str = watchdog.DEFAULT_LLM_MODEL,
@@ -423,6 +472,8 @@ def extract_events(
     seen_links_dates: set[tuple[str, str]] = set()
     seen_event_identity: set[tuple[str, str, str]] = set()
     cache = llm_cache if isinstance(llm_cache, dict) else {"version": 1, "items": {}}
+    override_by_url = overrides or {}
+    used_overrides: set[str] = set()
     llm_stats: dict[str, int] = {"requests": 0, "cached": 0, "errors": 0}
     now_date = dt.datetime.now(TAIWAN_TZ).date()
     min_date = now_date - dt.timedelta(days=2)
@@ -435,10 +486,25 @@ def extract_events(
         if not text_has_any(text, EVENT_TERMS):
             continue
         posted_at = parse_datetime(item.get("posted_at_local")) or parse_datetime(item.get("posted_at"))
+        link = str(item.get("link") or "")
+        if link in override_by_url:
+            override = dict(override_by_url[link])
+            start_for_id = parse_datetime(override.get("start"))
+            start_date = start_for_id.date() if start_for_id else safe_date(*[int(part) for part in str(override.get("start", ""))[:10].split("-")])
+            if start_date:
+                override.update(
+                    {
+                        "id": item_key(item, start_date),
+                        "source": item.get("source") or "",
+                        "platform": item.get("platform") or "",
+                    }
+                )
+                events.append(override)
+                used_overrides.add(link)
+            continue
         for start_date, end_date, context in date_candidates(text, posted_at):
             if start_date < min_date or start_date > max_date:
                 continue
-            link = str(item.get("link") or "")
             dedupe_key = (link, start_date.isoformat())
             if dedupe_key in seen_links_dates:
                 continue
@@ -506,9 +572,20 @@ def extract_events(
                 }
             )
 
-    events.sort(key=lambda row: (row["start"], row["source"], row["title"]))
+    deduped_events: list[dict[str, Any]] = []
+    seen_final: set[tuple[str, str, str]] = set()
+    for event in sorted(events, key=lambda row: (row["start"], row["source"], row["title"])):
+        key = (
+            re.sub(r"\s+", "", str(event.get("eventName") or event.get("title") or "")).lower(),
+            re.sub(r"\s+", "", str(event.get("location") or "")).lower(),
+            str(event.get("start") or ""),
+        )
+        if key in seen_final:
+            continue
+        seen_final.add(key)
+        deduped_events.append(event)
     cache["stats"] = llm_stats
-    return events
+    return deduped_events
 
 
 def escape_ics(value: Any) -> str:
@@ -604,9 +681,11 @@ def main() -> int:
     llm_token_source = ""
     if not args.no_llm:
         llm_token, llm_token_source = watchdog.read_llm_token(args.llm_keychain_service, args.llm_keychain_account)
+    overrides = load_overrides()
     generated_at = dt.datetime.now(TAIWAN_TZ).isoformat(timespec="seconds")
     events = extract_events(
         [item for item in items if isinstance(item, dict)],
+        overrides=overrides,
         llm_token=llm_token,
         llm_base_url=args.llm_base_url,
         llm_model=args.llm_model,
@@ -624,6 +703,7 @@ def main() -> int:
         "ics": "/feeds/public-calendar.ics",
         "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
         "criteria": "只收錄實際舉辦地點在台灣的公開口琴活動；音樂家國籍不限。",
+        "manualOverrides": len(overrides),
         "llm": {
             "enabled": bool(llm_token),
             "tokenSource": llm_token_source,

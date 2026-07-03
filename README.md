@@ -53,6 +53,7 @@
 - `data/sources/harmonica-score-publications.csv`：全國學生音樂比賽口琴指定曲與出版、購譜線索，含官方歷年指定曲目 XLS 與近年 PDF 補充線索。
 - `data/sources/harmonica-score-sources.csv`：指定曲以外的口琴譜源 metadata、購買／洽詢方式與公開佐證連結；不收錄譜檔或曲譜內容。
 - `data/sources/harmonica-public-calendars.csv`：公開 Google Calendar metadata，供首頁公開演出日曆整合使用。
+- `data/sources/harmonica-public-calendar-overrides.csv`：公開貼文抽取不足時的日曆事件人工校正；只記 metadata、公開佐證連結與活動資訊。
 - `scripts/build_public_calendar_events.py`：從公開活動貼文抽出保守的口琴演出日期 metadata，輸出 JSON、JS 與 ICS。
 - `scripts/sync_google_calendar_events.py`：用本機 `.env` / Hermes Google Workspace OAuth 設定同步事件到公開 Google Calendar。
 - `data/feeds/social_sources.json`：由 CSV 轉出的公開社群監看來源設定。
