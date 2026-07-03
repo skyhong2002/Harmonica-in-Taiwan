@@ -449,6 +449,10 @@ h2 {
   border-bottom: 1px solid var(--line);
 }
 
+.latest-story-band .band-inner {
+  width: min(1760px, calc(100% - 48px));
+}
+
 .public-calendar-band {
   background: var(--paper);
   border-bottom: 1px solid var(--line);
@@ -498,7 +502,7 @@ h2 {
 }
 
 .story-card {
-  flex: 0 0 156px;
+  flex: 0 0 clamp(118px, 9vw, 164px);
   scroll-snap-align: start;
 }
 
@@ -2753,6 +2757,10 @@ button.feed-tag-pill {
   .hero-content,
   .band-inner {
     width: min(100% - 32px, 1120px);
+  }
+
+  .latest-story-band .band-inner {
+    width: calc(100% - 24px);
   }
 
   .score-list {
