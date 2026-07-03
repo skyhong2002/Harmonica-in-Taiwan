@@ -41,13 +41,16 @@ def load_dotenv(path: Path) -> None:
             os.environ[key] = value
 
 
-def load_calendar_id() -> str:
+def load_calendar_metadata() -> dict[str, str]:
     with CALENDAR_CSV.open(newline="", encoding="utf-8") as handle:
         for row in csv.DictReader(handle):
-            calendar_id = (row.get("calendar_id") or "").strip()
-            if calendar_id:
-                return calendar_id
+            if (row.get("calendar_id") or "").strip():
+                return {key: (value or "").strip() for key, value in row.items()}
     raise RuntimeError(f"No calendar_id found in {CALENDAR_CSV}")
+
+
+def load_calendar_id() -> str:
+    return load_calendar_metadata()["calendar_id"]
 
 
 def load_events() -> list[dict[str, Any]]:
@@ -208,9 +211,32 @@ class CalendarRestEvents:
 class CalendarRestService:
     def __init__(self, token: str):
         self._events = CalendarRestEvents(token)
+        self._calendars = CalendarRestCalendars(token)
 
     def events(self) -> CalendarRestEvents:
         return self._events
+
+    def calendars(self) -> "CalendarRestCalendars":
+        return self._calendars
+
+
+class CalendarRestCalendars:
+    def __init__(self, token: str):
+        self.token = token
+
+    def patch(self, *, calendarId: str, body: dict[str, Any]) -> CalendarRestRequest:
+        url = "https://www.googleapis.com/calendar/v3/calendars/" + urllib.parse.quote(calendarId, safe="")
+        return CalendarRestRequest("PATCH", url, self.token, body)
+
+
+def sync_calendar_metadata(service, calendar_id: str, metadata: dict[str, str]) -> bool:
+    body = {
+        "summary": metadata.get("calendar_name") or "口琴公開活動",
+        "description": metadata.get("purpose") or "",
+        "timeZone": metadata.get("timezone") or "Asia/Taipei",
+    }
+    service.calendars().patch(calendarId=calendar_id, body=body).execute()
+    return True
 
 
 def env_credentials_available() -> bool:
@@ -281,8 +307,10 @@ def main() -> int:
         print(status["message"])
         return 0
 
-    calendar_id = args.calendar_id or load_calendar_id()
+    calendar_metadata = load_calendar_metadata()
+    calendar_id = args.calendar_id or calendar_metadata["calendar_id"]
     status["calendarId"] = calendar_id
+    status["calendarName"] = calendar_metadata.get("calendar_name") or ""
     try:
         from googleapiclient.discovery import build
     except ModuleNotFoundError:
@@ -294,6 +322,8 @@ def main() -> int:
         service = build("calendar", "v3", credentials=creds, cache_discovery=False)
         status["client"] = "google-api-python-client"
     source_events = load_events()
+    sync_calendar_metadata(service, calendar_id, calendar_metadata)
+    status["metadataUpdated"] = True
     existing = existing_managed_events(service, calendar_id)
     wanted_ids = {str(event.get("id") or "") for event in source_events if event.get("id")}
 

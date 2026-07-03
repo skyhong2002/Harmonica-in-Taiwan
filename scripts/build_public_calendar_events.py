@@ -30,6 +30,7 @@ ICS_PATH = FEEDS_DIR / "public-calendar.ics"
 TIMEZONE = "Asia/Taipei"
 TAIWAN_TZ = dt.timezone(dt.timedelta(hours=8))
 DEFAULT_LLM_CACHE = PROJECT_ROOT / "state" / "public_calendar_llm_events.json"
+CALENDAR_REVIEW_POLICY_VERSION = 3
 
 HARMONICA_TERMS = [
     "口琴",
@@ -78,6 +79,8 @@ TAIWAN_PLACE_RE = re.compile(
 OVERSEAS_PLACE_RE = re.compile(
     r"日本|東京|東京都|大阪|和歌山|名古屋|香港|新加坡|Singapore|Japan|Tokyo|Osaka|Hong Kong|Malaysia|馬來西亞|恵比寿|BLUE NOTE PLACE|アーク栄"
 )
+ONLINE_EVENT_RE = re.compile(r"線上|直播|live\s*stream|livestream|streaming|online|YouTube\s*Live|IG\s*Live|Facebook\s*Live", re.IGNORECASE)
+NON_LIVE_ONLINE_RE = re.compile(r"回顧|重播|隨選|archive|archived|アーカイブ|配信中|影片發布|影片回放", re.IGNORECASE)
 
 
 def load_dotenv(path: Path) -> None:
@@ -203,6 +206,10 @@ def text_has_any(text: str, terms: list[str]) -> bool:
     return any(term.lower() in lower for term in terms)
 
 
+def is_online_event_text(text: str) -> bool:
+    return bool(ONLINE_EVENT_RE.search(text)) and not bool(NON_LIVE_ONLINE_RE.search(text))
+
+
 def nearby_context(text: str, start: int, end: int, radius: int = 60) -> str:
     return text[max(0, start - radius): min(len(text), end + radius)]
 
@@ -214,11 +221,19 @@ def extract_time(text: str) -> str:
     return f"{int(match.group('hour')):02d}:{match.group('minute')}"
 
 
+def clean_location(value: str) -> str:
+    return re.sub(
+        r"^(?:地點|地点|場地|會場|会場|場所|上課地點|活動地點|📍)\s*[｜|:：]?\s*",
+        "",
+        re.sub(r"\s+", " ", value),
+    ).strip(" ｜|:：")
+
+
 def extract_location(text: str) -> str:
     match = LOCATION_RE.search(text)
     if not match:
         return ""
-    return re.sub(r"\s+", " ", match.group("place")).strip(" ｜|:：")
+    return clean_location(match.group("place"))
 
 
 def event_title(item: dict[str, Any]) -> str:
@@ -259,6 +274,7 @@ def save_json(path: Path, data: dict[str, Any]) -> None:
 
 def candidate_fingerprint(item: dict[str, Any], start: str, end: str, context: str) -> str:
     payload = {
+        "policyVersion": CALENDAR_REVIEW_POLICY_VERSION,
         "source": item.get("source") or "",
         "link": item.get("link") or "",
         "start": start,
@@ -283,20 +299,23 @@ def normalize_llm_calendar_review(value: dict[str, Any]) -> dict[str, Any]:
         confidence_value = max(0.0, min(1.0, float(confidence)))
     except (TypeError, ValueError):
         confidence_value = 0.0
-    review_text = f"{country} {event_name} {venue} {city} {details} {reason}"
-    has_overseas_place = bool(OVERSEAS_PLACE_RE.search(review_text)) or bool(re.search(r"非台灣|非臺灣|不在台灣|不在臺灣", reason))
+    place_text = f"{venue} {city} {details} {reason}"
+    review_text = f"{event_name} {place_text}"
+    is_online = is_online_event_text(review_text)
+    has_overseas_place = bool(OVERSEAS_PLACE_RE.search(place_text))
     is_taiwan = not has_overseas_place and (
         country in {"台灣", "臺灣", "Taiwan"} or bool(TAIWAN_PLACE_RE.search(f"{venue} {city} {details}"))
     )
-    if not is_taiwan or confidence_value < 0.5:
+    include = include and (is_taiwan or is_online)
+    if confidence_value < 0.5:
         include = False
-    if include and (not event_name or not venue):
+    if include and (not event_name or (not venue and not is_online)):
         include = False
     return {
         "include": include,
-        "country": "臺灣" if is_taiwan else country,
+        "country": "線上" if is_online and not country else ("臺灣" if is_taiwan else country),
         "eventName": event_name,
-        "venue": venue,
+        "venue": venue or ("線上直播" if is_online else ""),
         "city": city,
         "details": details,
         "reason": reason,
@@ -320,24 +339,24 @@ def llm_calendar_prompt(item: dict[str, Any], start: str, end: str, context: str
             "role": "system",
             "content": (
                 "你是臺灣口琴觀測站的公開活動日曆審核器。"
-                "只根據公開貼文文字判斷，且只收錄實際舉辦地點在台灣的口琴活動；"
-                "音樂家國籍不限，但活動場地必須在台灣。"
-                "排除海外活動、線上但無台灣實體場地、回顧影片、一般貼文、非口琴活動。"
+                "只根據公開貼文文字判斷，收錄公開口琴活動；"
+                "收錄範圍是：實際舉辦地點在台灣的線下活動，以及國內外有明確時間的線上直播/線上講座/線上音樂會。"
+                "排除國外線下活動、已發生的回顧影片、一般貼文、非口琴活動、沒有明確活動時間的隨選影片。"
                 "請只回傳 JSON，不要 Markdown。"
             ),
         },
         {
             "role": "user",
             "content": (
-                "請判斷這個候選是否應加入「臺灣口琴公開演出」日曆，並萃取結構化資訊。\n"
+                "請判斷這個候選是否應加入「口琴公開活動」日曆，並萃取結構化資訊。\n"
                 "JSON schema:\n"
                 "{\n"
                 '  "include": true/false,\n'
-                '  "country": "臺灣 或其他國家/地區",\n'
+                '  "country": "臺灣、其他國家/地區，或線上",\n'
                 '  "eventName": "活動名稱，不要放主辦帳號或貼文內文摘要",\n'
-                '  "venue": "活動地點/場館名稱，不要放整段內文",\n'
-                '  "city": "縣市，如臺北市/新竹市/高雄市",\n'
-                '  "details": "一到兩句活動相關資訊，例如演出者、票價、報名、場次；不要寫自動抽取說明",\n'
+                '  "venue": "活動地點/場館名稱；純線上活動可填線上直播或平台名稱；不要放整段內文",\n'
+                '  "city": "縣市或城市；純線上可空白",\n'
+                '  "details": "一到兩句活動相關資訊，例如演出者、票價、報名、直播平台、場次；不要寫自動抽取說明",\n'
                 '  "confidence": 0.0,\n'
                 '  "reason": "簡短判斷理由"\n'
                 "}\n\n"
@@ -444,18 +463,77 @@ def item_key(item: dict[str, Any], start: dt.date) -> str:
 
 def fallback_calendar_review(item: dict[str, Any], title: str, location: str, text: str) -> dict[str, Any] | None:
     combined = f"{title} {location} {text}"
-    if not location or not TAIWAN_PLACE_RE.search(combined):
+    is_online = is_online_event_text(combined)
+    has_taiwan_place = bool(TAIWAN_PLACE_RE.search(location))
+    if not location and not is_online:
+        return None
+    if not has_taiwan_place and not is_online:
         return None
     return {
         "include": True,
-        "country": "臺灣",
+        "country": "線上" if is_online and not has_taiwan_place else "臺灣",
         "eventName": title,
-        "venue": location,
+        "venue": location or "線上直播",
         "city": "",
         "details": "",
-        "reason": "fallback Taiwan place match",
+        "reason": "fallback public harmonica event match",
         "confidence": 0.35,
     }
+
+
+def title_date_conflicts(title: str, start_date: dt.date) -> bool:
+    dates = [
+        (int(match.group("month")), int(match.group("day")))
+        for match in MONTH_DAY_RE.finditer(title)
+    ]
+    if not dates:
+        return False
+    return all((month, day) != (start_date.month, start_date.day) for month, day in dates)
+
+
+def event_start_date_key(event: dict[str, Any]) -> str:
+    return str(event.get("start") or "")[:10]
+
+
+def location_signature(location: Any) -> set[str]:
+    text = str(location or "").lower()
+    tokens = set(re.findall(r"[a-z0-9]{4,}", text))
+    compact_cjk = re.sub(r"[^\u3400-\u9fff\u3040-\u30ff]+", "", text)
+    for index in range(max(0, len(compact_cjk) - 3)):
+        tokens.add(compact_cjk[index:index + 4])
+    return tokens
+
+
+def event_confidence(event: dict[str, Any]) -> float:
+    try:
+        return float(event.get("confidence") or 0)
+    except (TypeError, ValueError):
+        return 0.0
+
+
+def should_replace_similar_event(existing: dict[str, Any], candidate: dict[str, Any]) -> bool:
+    existing_confidence = event_confidence(existing)
+    candidate_confidence = event_confidence(candidate)
+    if candidate_confidence > existing_confidence:
+        return True
+    if candidate_confidence == existing_confidence:
+        candidate_has_time = "T" in str(candidate.get("start") or "")
+        existing_has_time = "T" in str(existing.get("start") or "")
+        return candidate_has_time and not existing_has_time
+    return False
+
+
+def find_similar_event_index(events: list[dict[str, Any]], candidate: dict[str, Any]) -> int | None:
+    candidate_location = location_signature(candidate.get("location"))
+    if not candidate_location:
+        return None
+    for index, existing in enumerate(events):
+        if event_start_date_key(existing) != event_start_date_key(candidate):
+            continue
+        existing_location = location_signature(existing.get("location"))
+        if len(candidate_location & existing_location) >= 2:
+            return index
+    return None
 
 
 def extract_events(
@@ -502,6 +580,7 @@ def extract_events(
                 events.append(override)
                 used_overrides.add(link)
                 seen_links_dates.add((link, start_date.isoformat()))
+            continue
         for start_date, end_date, context in date_candidates(text, posted_at):
             if start_date < min_date or start_date > max_date:
                 continue
@@ -515,6 +594,8 @@ def extract_events(
                 continue
             seen_event_identity.add(identity)
             time_text = extract_time(context) or extract_time(text)
+            if title_date_conflicts(title, start_date):
+                continue
             start = f"{start_date.isoformat()}T{time_text}:00+08:00" if time_text else start_date.isoformat()
             end = end_date.isoformat()
             if time_text:
@@ -547,10 +628,17 @@ def extract_events(
                 review = fallback_calendar_review(item, title, location, text)
             if not review or not review.get("include"):
                 continue
+            if review.get("confidence") == 0.35 and not review.get("country") == "臺灣" and not time_text:
+                continue
             event_name = str(review.get("eventName") or title).strip()
-            venue = str(review.get("venue") or location).strip()
+            venue = clean_location(str(review.get("venue") or location))
             city = str(review.get("city") or "").strip()
             details = str(review.get("details") or "").strip()
+            country = str(review.get("country") or "").strip()
+            is_review_online = country == "線上" or is_online_event_text(f"{event_name} {venue} {city} {details}")
+            is_review_taiwan = country in {"台灣", "臺灣", "Taiwan"} or bool(TAIWAN_PLACE_RE.search(f"{venue} {city} {details}"))
+            if not is_review_taiwan and not is_review_online:
+                continue
             display_location = venue if not city or city in venue else f"{city} {venue}"
             events.append(
                 {
@@ -581,6 +669,11 @@ def extract_events(
             str(event.get("start") or ""),
         )
         if key in seen_final:
+            continue
+        similar_index = find_similar_event_index(deduped_events, event)
+        if similar_index is not None:
+            if should_replace_similar_event(deduped_events[similar_index], event):
+                deduped_events[similar_index] = event
             continue
         seen_final.add(key)
         deduped_events.append(event)
@@ -639,7 +732,7 @@ def write_ics(events: list[dict[str, Any]], generated_at: str) -> None:
         "PRODID:-//Harmonica Observe Taiwan//Public Calendar//ZH-TW",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
-        f"X-WR-CALNAME:{escape_ics('臺灣口琴公開演出')}",
+        f"X-WR-CALNAME:{escape_ics('口琴公開活動')}",
         f"X-WR-TIMEZONE:{TIMEZONE}",
     ]
     stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
@@ -706,7 +799,7 @@ def main() -> int:
         "source": "/api/events.json",
         "ics": "/feeds/public-calendar.ics",
         "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
-        "criteria": "只收錄實際舉辦地點在台灣的公開口琴活動；音樂家國籍不限。",
+        "criteria": "收錄實際舉辦地點在台灣的線下公開口琴活動，以及國內外有明確時間的線上直播/線上講座/線上音樂會；不收國外線下活動。",
         "manualOverrides": len(overrides),
         "llm": {
             "enabled": bool(llm_token),

@@ -54,7 +54,7 @@
 - `data/sources/harmonica-score-sources.csv`：指定曲以外的口琴譜源 metadata、購買／洽詢方式與公開佐證連結；不收錄譜檔或曲譜內容。
 - `data/sources/harmonica-public-calendars.csv`：公開 Google Calendar metadata，供首頁公開演出日曆整合使用。
 - `data/sources/harmonica-public-calendar-overrides.csv`：公開貼文抽取不足時的日曆事件人工校正；只記 metadata、公開佐證連結與活動資訊。
-- `scripts/build_public_calendar_events.py`：從公開活動貼文抽出保守的口琴演出日期 metadata，輸出 JSON、JS 與 ICS。
+- `scripts/build_public_calendar_events.py`：從公開活動貼文抽出保守的口琴演出日期 metadata，收錄國內線下活動與國內外線上活動，輸出 JSON、JS 與 ICS。
 - `scripts/sync_google_calendar_events.py`：用本機 `.env` / Hermes Google Workspace OAuth 設定同步事件到公開 Google Calendar。
 - `data/feeds/social_sources.json`：由 CSV 轉出的公開社群監看來源設定。
 - `data/feeds/social_feed_inbox.jsonl`：YouTube / Facebook 抓取工具正規化後的公開貼文 inbox。
@@ -104,8 +104,8 @@ python3 scripts/validate_public_outputs.py
 主要 RSS：
 
 - `https://harmonica.observe.tw/feeds/updates.xml`：公開更新總河道。
-- `https://harmonica.observe.tw/feeds/events.xml`：全臺口琴實體活動。
-- `https://harmonica.observe.tw/feeds/public-calendar.ics`：首頁公開演出日曆的可訂閱 ICS。
+- `https://harmonica.observe.tw/feeds/events.xml`：公開口琴活動線索。
+- `https://harmonica.observe.tw/feeds/public-calendar.ics`：首頁公開活動日曆的可訂閱 ICS。
 - `https://harmonica.observe.tw/feeds/posts-videos.xml`：口琴相關貼文與影片發布。
 - `https://harmonica.observe.tw/feeds/student-clubs.xml`：口琴學生社團動態。
 - `https://harmonica.observe.tw/feeds/opportunities.xml`：補助、徵件、甄選、比賽與報名資訊。

@@ -92,11 +92,11 @@ GENERIC_SOURCE_NAMES = {
 FEED_CATEGORIES = [
     {
         "id": "events",
-        "title": "臺灣口琴觀測站：全臺口琴實體活動",
-        "short_title": "實體活動",
-        "description": "全臺灣公開口琴演出、成發、音樂會、講座、工作坊與可到場活動。",
-        "page_title": "全臺灣口琴實體活動",
-        "page_intro": "演出、成發、音樂會、講座、工作坊、音樂節與其他可以實體參與或到場觀察的活動。",
+        "title": "臺灣口琴觀測站：口琴公開活動",
+        "short_title": "公開活動",
+        "description": "國內口琴公開活動，以及國內外有明確時間的線上口琴直播、講座與音樂會。",
+        "page_title": "口琴公開活動",
+        "page_intro": "國內口琴演出、成發、音樂會、講座、工作坊、音樂節，以及國內外有明確時間的線上口琴直播、講座與音樂會。",
         "rss_path": "feeds/events.xml",
         "json_path": "feeds/events.json",
         "page_path": "feeds/events/index.html",
