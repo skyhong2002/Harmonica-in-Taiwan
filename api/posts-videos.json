@@ -7,8 +7,72 @@
   "rss": "https://harmonica.observe.tw/feeds/posts-videos.xml",
   "json": "https://harmonica.observe.tw/api/posts-videos.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/posts-videos.json",
-  "count": 803,
+  "count": 804,
   "items": [
+    {
+      "title": "張晁滕｜今天剛好上到多孔和聲奏法 我個人複音的和聲技巧都以孔數來分類，在樂理上比較不會混淆。最近很多新的樂譜也傾向直接標示和聲組成，我覺得可以避免很多樂理上的誤會",
+      "headline": "今天剛好上到多孔和聲奏法",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DaUCR8NykJt/",
+      "source_id": "ig_chaotengchang",
+      "source": "張晁滕",
+      "source_system_name": "張晁滕",
+      "source_profile_url": "https://www.instagram.com/chaotengchang/",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-31",
+      "directory_entry_name": "張晁滕",
+      "account": "chaotengchang",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Fri, 03 Jul 2026 02:00:59 GMT",
+      "posted_at_local": "2026-07-03 10:00",
+      "seen_at": "2026-07-03T05:13:45.768409+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/chaotengchang",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "課程",
+        "公開更新"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "口琴",
+        "課程",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文提及口琴和聲奏法、樂譜標示，為口琴演奏技巧分享，與口琴相關且公開更新。",
+      "text": "今天剛好上到多孔和聲奏法\n我個人複音的和聲技巧都以孔數來分類，在樂理上比較不會混淆。最近很多新的樂譜也傾向直接標示和聲組成，我覺得可以避免很多樂理上的誤會",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/731295182_18603056650014517_6576186617428847796_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=111&ig_cache_key=MzkzMjc3ODQwMzU4MTI4MDg3Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzYyNy5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=4tblUTd2IKwQ7kNvwEcHWhM&_nc_oc=AdpIYrOyRGS9hJEn-P6mJY6cUrdkZ-ps-YUE8aAwnwr9CxvlVcosdnaZ3XYGPxhqONs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WPWFj7qQUm5XkJWTNuKwZw&_nc_ss=7a22e&oh=00_AQBIzsn6eGMji5SHouJZmuZ2ehiXoK9-fWDiV3WUn_ZJaQ&oe=6A4D1C8C"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/731295182_18603056650014517_6576186617428847796_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=111&ig_cache_key=MzkzMjc3ODQwMzU4MTI4MDg3Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzYyNy5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=4tblUTd2IKwQ7kNvwEcHWhM&_nc_oc=AdpIYrOyRGS9hJEn-P6mJY6cUrdkZ-ps-YUE8aAwnwr9CxvlVcosdnaZ3XYGPxhqONs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WPWFj7qQUm5XkJWTNuKwZw&_nc_ss=7a22e&oh=00_AQBIzsn6eGMji5SHouJZmuZ2ehiXoK9-fWDiV3WUn_ZJaQ&oe=6A4D1C8C",
+      "image_url": "/assets/feed-images/bf41d1708dc3cdd22ed0.webp",
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/482775715_1706058196672905_5793943258412973967_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gHvTqwH8MvsIaJ0JUi2I3JTELi5d_AifZFuRPHbx-mtDKdBS0ia-xX4fwZdGRUbqGQ&_nc_ohc=KJuE5cA0MH8Q7kNvwHLSynW&_nc_gid=LbmtGVm7VAHqsAkipXu0hw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQCfjw7nBWkPl49cNIz_dPu_vsA3sgHaWyPZCfW3oKIamg&oe=6A4D1DE5&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/6dcd46b5676743756a83.webp",
+      "source_initials": "張晁",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_chaotengchang:https://www.instagram.com/p/DaUCR8NykJt/"
+    },
     {
       "title": "王心禾｜260626-0629 📍 武陵富野度假村⛰️ 高山音樂會初體驗！ 以為四天都會下雨，結果天氣還不錯～ 很開心三個晚上都有很多第一次聽口琴的觀眾進場，演給第一次聽口琴樂團的觀眾總是會特別開心🥳",
       "headline": "260626-0629",
