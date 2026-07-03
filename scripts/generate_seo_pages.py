@@ -6,8 +6,9 @@ from __future__ import annotations
 import html
 import json
 import os
+import re
 import urllib.parse
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import Any
 
@@ -702,6 +703,295 @@ def generate_sitemap_xml(sources: list[dict[str, Any]], events: list[dict[str, A
 """
 
 
+def format_feed_time(value: str) -> str:
+    if not value or value == "-":
+        return "-"
+    try:
+        dt_part = value.split("T")
+        if len(dt_part) == 2:
+            date_str = dt_part[0]
+            time_str = dt_part[1][:5]
+            if "+00:00" in value or "Z" in value:
+                cleaned = value.replace("Z", "+00:00")
+                dt_obj = datetime.fromisoformat(cleaned)
+                taipei_tz = dt_obj.astimezone(timezone(timedelta(hours=8)))
+                return taipei_tz.strftime("%Y-%m-%d %H:%M")
+            return f"{date_str} {time_str}"
+    except Exception:
+        pass
+    return value
+
+
+def replace_stat(content: str, name: str, value: Any) -> str:
+    content = re.sub(
+        r'(<strong\s+[^>]*data-stat="' + re.escape(name) + r'"[^>]*>)[^<]*(</strong>)',
+        rf'\g<1>{value}\g<2>',
+        content
+    )
+    content = re.sub(
+        r'(<span\s+[^>]*data-stat="' + re.escape(name) + r'"[^>]*>)[^<]*(</span>)',
+        rf'\g<1>{value}\g<2>',
+        content
+    )
+    return content
+
+
+def render_source_avatar(avatar_url: str | None, source_name: str, initials: str) -> str:
+    if avatar_url:
+        return f'<span class="source-avatar entry-avatar"><img src="{escape(avatar_url)}" alt="{escape(source_name)} 頭貼" loading="lazy" referrerpolicy="no-referrer"></span>'
+    return f'<span class="source-avatar entry-avatar source-avatar-fallback" aria-hidden="true">{escape(initials)}</span>'
+
+
+def render_hashtag_button(tag: str, className: str) -> str:
+    return f'<button type="button" class="{className}" data-directory-hashtag="{escape(tag)}" data-directory-filter="hashtags">#{escape(tag)}</button>'
+
+
+def render_entry_card_html(entry: dict[str, Any]) -> str:
+    name = escape(entry.get("name"))
+    name_en = escape(entry.get("nameEn") or "")
+    entry_id = escape(entry.get("id"))
+    category = escape(entry.get("category"))
+    summary = escape(entry.get("summary") or entry.get("sourceSummary") or entry.get("type") or "公開來源")
+    aliases = entry.get("aliases") or []
+    aliases_html = f'<p class="entry-aliases">也收錄：{"、".join(escape(a) for a in aliases[:4])}</p>' if aliases else ""
+    initials = escape(entry.get("sourceInitials") or (name[0] if name else "H"))
+    
+    avatar_html = render_source_avatar(entry.get("avatarUrl"), name, initials)
+    
+    countries = "".join(f'<button type="button" class="region-tag-pill" data-directory-hashtag="{escape(entry.get("country"))}" data-directory-filter="country">#{escape(entry.get("country"))}</button>' if entry.get("country") else "")
+    region = entry.get("region") or ""
+    region_btn = f'<button type="button" class="region-tag-pill" data-directory-hashtag="{escape(region)}" data-directory-filter="region">#{escape(region)}</button>' if region and region != entry.get("country") else ""
+    
+    latest = f'<span class="entry-latest">最新 {escape(entry.get("latestUpdateLocal"))}</span>' if entry.get("latestUpdateLocal") else ""
+    locations = countries + region_btn
+    context_html = f'<div class="entry-context">{locations}{latest}</div>' if locations or latest else ""
+    
+    tags = entry.get("sourceTags") or []
+    tags_html = f'<div class="entry-tags">{"".join(render_hashtag_button(t, "source-tag-pill") for t in tags[:8])}</div>' if tags else ""
+    
+    links = entry.get("links") or []
+    links_list = []
+    for link in links:
+        url = escape(link.get("url"))
+        label = escape(link.get("label") or "連結")
+        links_list.append(f'<a href="{url}" target="_blank" rel="noreferrer">{label}</a>')
+    links_html = f'<div class="entry-links">{"".join(links_list)}</div>'
+    
+    return f"""
+      <article class="entry-card">
+        <div class="entry-card-head">
+          {avatar_html}
+          <div class="entry-title-block">
+            <h3><a href="/source/{entry_id}/" class="entry-landing-link">{name}</a></h3>
+            <p class="entry-en">{name_en}</p>
+            {aliases_html}
+          </div>
+        </div>
+        {context_html}
+        {tags_html}
+        <p class="entry-summary">{summary}</p>
+        {links_html}
+      </article>
+"""
+
+
+def format_score_sources_table(score_sources: list[dict[str, Any]]) -> str:
+    rows = []
+    for item in score_sources:
+        source_links = item.get("links") or []
+        source_link_url = source_links[0].get("url") if source_links else ""
+        source_link_label = source_links[0].get("label") if source_links else "佐證"
+        source_html = f'<a class="score-source-link" href="{escape(source_link_url)}" target="_blank" rel="noreferrer" title="{escape(source_link_label)}">佐證</a>' if source_link_url else '<span class="score-source-link muted" title="未標示佐證">佐證</span>'
+        
+        rows.append(f"""
+      <tr>
+        <th scope="row" class="score-title-cell" title="{escape(item.get("sourceName") or "-")}">{escape(item.get("sourceName") or "-")}</th>
+        <td class="score-program" title="{escape(item.get("sourceType") or "-")}">{escape(item.get("sourceType") or "-")}</td>
+        <td class="score-status" title="{escape(item.get("platform") or "-")}">{escape(item.get("platform") or "-")}</td>
+        <td class="score-title-cell" title="{escape(item.get("scoreTitle") or "-")}">{escape(item.get("scoreTitle") or "-")}</td>
+        <td class="score-composer" title="{escape(item.get("composer") or "-")}">{escape(item.get("composer") or "-")}</td>
+        <td class="score-composer" title="{escape(item.get("arranger") or "-")}">{escape(item.get("arranger") or "-")}</td>
+        <td class="score-note-inline" title="{escape(item.get("instrumentation") or "-")}">{escape(item.get("instrumentation") or "-")}</td>
+        <td class="score-program" title="{escape(item.get("format") or "-")}">{escape(item.get("format") or "-")}</td>
+        <td class="score-publisher" title="{escape(item.get("purchaseMethod") or "-")}">{escape(item.get("purchaseMethod") or "-")}</td>
+        <td class="score-year" title="{escape(item.get("price") or "-")}">{escape(item.get("price") or "-")}</td>
+        <td class="score-status" title="{escape(item.get("availability") or "-")}">{escape(item.get("availability") or "-")}</td>
+        <td class="score-source-cell">{source_html}</td>
+        <td class="score-note-inline" title="{escape(item.get("rightsNote") or "-")}">{escape(item.get("rightsNote") or "-")}</td>
+      </tr>
+""")
+    table_rows = "".join(rows)
+    return f"""
+      <table class="score-table score-source-table" style="--score-table-width: 1480px">
+        <caption>口琴譜源 metadata、購買或洽詢方式與公開佐證連結</caption>
+        <colgroup>
+          <col style="width: 144px"><col style="width: 120px"><col style="width: 92px"><col style="width: 250px"><col style="width: 120px"><col style="width: 150px"><col style="width: 210px"><col style="width: 110px"><col style="width: 190px"><col style="width: 92px"><col style="width: 100px"><col style="width: 74px"><col style="width: 240px">
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">來源</th>
+            <th scope="col">類型</th>
+            <th scope="col">平台</th>
+            <th scope="col">曲名／譜集</th>
+            <th scope="col">作曲</th>
+            <th scope="col">編曲</th>
+            <th scope="col">編制</th>
+            <th scope="col">形式</th>
+            <th scope="col">購買／洽詢</th>
+            <th scope="col">價格</th>
+            <th scope="col">狀態</th>
+            <th scope="col">佐證</th>
+            <th scope="col">權利註記</th>
+          </tr>
+        </thead>
+        <tbody>
+          {table_rows}
+        </tbody>
+      </table>
+"""
+
+
+def update_core_pages(
+    entries: list[dict[str, Any]],
+    scores: list[dict[str, Any]],
+    scores_payload: dict[str, Any],
+) -> None:
+    # 1. Load api/score-sources.json
+    try:
+        SCORE_SOURCES_JSON = SITE_ROOT / "api" / "score-sources.json"
+        score_sources_payload = json.loads(SCORE_SOURCES_JSON.read_text(encoding="utf-8"))
+        score_sources = score_sources_payload.get("scoreSources") or []
+    except Exception as e:
+        print(f"Error loading score sources: {e}")
+        score_sources_payload = {}
+        score_sources = []
+
+    # 2. Load api/status.json
+    try:
+        STATUS_JSON = SITE_ROOT / "api" / "status.json"
+        status_payload = json.loads(STATUS_JSON.read_text(encoding="utf-8"))
+    except Exception as e:
+        print(f"Error loading status metrics: {e}")
+        status_payload = {}
+
+    # 3. Load api/catalog.json
+    try:
+        CATALOG_JSON = SITE_ROOT / "api" / "catalog.json"
+        catalog_payload = json.loads(CATALOG_JSON.read_text(encoding="utf-8"))
+        feeds_catalog = catalog_payload.get("feeds") or []
+    except Exception as e:
+        print(f"Error loading feeds catalog: {e}")
+        feeds_catalog = []
+
+    # 4. Load api/latest.json for feedGeneratedAt
+    try:
+        LATEST_JSON = SITE_ROOT / "api" / "latest.json"
+        latest_payload = json.loads(LATEST_JSON.read_text(encoding="utf-8"))
+        feed_generated_at_raw = latest_payload.get("generatedAt", "-")
+    except Exception as e:
+        print(f"Error loading latest.json for time: {e}")
+        feed_generated_at_raw = "-"
+
+    watch_source_count = status_payload.get("metrics", {}).get("watchSources", 562)
+    watch_sources_info = status_payload.get("watchSources", {})
+    platforms = watch_sources_info.get("platforms", {})
+    
+    facebook_count = platforms.get("facebook", 0)
+    youtube_count = platforms.get("youtube", 0)
+    instagram_count = platforms.get("instagram", 0)
+    threads_count = platforms.get("threads", 0)
+    x_count = platforms.get("x", 0)
+    
+    rsshub_sources_count = instagram_count + threads_count + x_count or 293
+    apify_source_count = facebook_count or 143
+    directory_entry_count = status_payload.get("metrics", {}).get("directoryEntries", len(entries))
+
+    feed_generated_at = format_feed_time(feed_generated_at_raw)
+    generated_at = format_feed_time(status_payload.get("generatedAt", "-"))
+    
+    score_count = len(scores)
+    years = []
+    for s in scores:
+        try:
+            years.append(int(s.get("schoolYear")))
+        except (ValueError, TypeError, KeyError):
+            pass
+    score_year_range = f"{min(years)}-{max(years)}" if years else "-"
+    score_publisher_count = len(scores_payload.get("stats", {}).get("publishers", []))
+    score_generated_at = format_feed_time(scores_payload.get("generatedAt", "-"))
+
+    score_source_count = len(score_sources)
+    score_source_distinct_count = score_sources_payload.get("stats", {}).get("distinctSources", 0)
+    score_source_title_count = score_sources_payload.get("stats", {}).get("titledItems", 0)
+    score_source_generated_at = format_feed_time(score_sources_payload.get("generatedAt", "-"))
+
+    core_pages = [
+        ("index.html", {}),
+        ("post/index.html", {}),
+        ("post/source/index.html", {
+            "inject_selector": r'(<div[^>]*id="directory-list"[^>]*>).*?(</div>)',
+            "inject_content": "\n".join(render_entry_card_html(entry) for entry in entries)
+        }),
+        ("scores/index.html", {
+            "inject_selector": r'(<div[^>]*id="score-list"[^>]*>).*?(</div>)',
+            "inject_content": format_scores_table(scores)
+        }),
+        ("scores/sources/index.html", {
+            "inject_selector": r'(<div[^>]*id="score-source-list"[^>]*>).*?(</div>)',
+            "inject_content": format_score_sources_table(score_sources)
+        }),
+    ]
+
+    for rel_path, inject_info in core_pages:
+        page_path = SITE_ROOT / rel_path
+        if not page_path.exists():
+            continue
+        try:
+            content = page_path.read_text(encoding="utf-8")
+            
+            content = replace_stat(content, "watchSourceCount", watch_source_count)
+            content = replace_stat(content, "rsshubSourceCount", rsshub_sources_count)
+            content = replace_stat(content, "apifySourceCount", apify_source_count)
+            content = replace_stat(content, "directoryEntryCount", directory_entry_count)
+            content = replace_stat(content, "totalEntries", directory_entry_count)
+            content = replace_stat(content, "feedGeneratedAt", feed_generated_at)
+            content = replace_stat(content, "generatedAt", generated_at)
+            content = replace_stat(content, "scoreCount", score_count)
+            content = replace_stat(content, "scoreYearRange", score_year_range)
+            content = replace_stat(content, "scorePublisherCount", score_publisher_count)
+            content = replace_stat(content, "scoreGeneratedAt", score_generated_at)
+            content = replace_stat(content, "scoreSourceCount", score_source_count)
+            content = replace_stat(content, "scoreSourceDistinctCount", score_source_distinct_count)
+            content = replace_stat(content, "scoreSourceTitleCount", score_source_title_count)
+            content = replace_stat(content, "scoreSourceGeneratedAt", score_source_generated_at)
+            
+            if inject_info:
+                pattern = re.compile(inject_info["inject_selector"], re.DOTALL)
+                content = pattern.sub(rf'\g<1>{inject_info["inject_content"]}\g<2>', content)
+                
+            page_path.write_text(content, encoding="utf-8")
+            print(f"Updated core page: {rel_path}")
+        except Exception as e:
+            print(f"Error updating core page {rel_path}: {e}")
+
+    feeds_html_path = SITE_ROOT / "feeds" / "index.html"
+    if feeds_html_path.exists():
+        try:
+            content = feeds_html_path.read_text(encoding="utf-8")
+            for feed in feeds_catalog:
+                feed_id = feed.get("id")
+                item_count = feed.get("count", 0)
+                pattern = re.compile(
+                    r'(<p\s+class="section-kicker">' + re.escape(feed_id) + r'</p>.*?<span\s+class="pill">)[^<]*(</span>)',
+                    re.DOTALL
+                )
+                content = pattern.sub(rf'\g<1>{item_count} 筆\g<2>', content)
+            feeds_html_path.write_text(content, encoding="utf-8")
+            print("Updated feeds catalog page")
+        except Exception as e:
+            print(f"Error updating feeds catalog: {e}")
+
+
 def main() -> int:
     # 1. Load data
     try:
@@ -799,7 +1089,10 @@ def main() -> int:
         (page_dir / "index.html").write_text(html_content, encoding="utf-8")
         score_cat_count += 1
 
-    # 5. Rebuild sitemap
+    # 5. Pre-render Core Pages (index, post, post/source, scores, scores/sources, feeds)
+    update_core_pages(entries, scores, scores_payload)
+
+    # 6. Rebuild sitemap
     sitemap_content = generate_sitemap_xml(entries, events, categories)
     SITEMAP_XML.write_text(sitemap_content, encoding="utf-8")
 

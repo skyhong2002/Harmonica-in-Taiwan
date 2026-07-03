@@ -1596,6 +1596,7 @@ def generate_updates(window_days: int = DEFAULT_UPDATE_WINDOW_DAYS, limit: int |
     write_feed_data_js(public_rows, categorized, window_days)
     write_api_files(public_rows, categorized, window_days)
     write_feed_pages(categorized)
+    write_homepage_latest(public_rows, categorized, window_days)
     return public_rows, categorized
 
 
@@ -2219,9 +2220,6 @@ def render_home_feed_columns(rows: list[dict[str, Any]], column_count: int = 3) 
 def write_homepage_latest(public_rows: list[dict[str, Any]], categorized: dict[str, list[dict[str, Any]]], window_days: int) -> None:
     start = "            <!-- FEED_LATEST_START -->"
     end = "            <!-- FEED_LATEST_END -->"
-    text = HOME_PAGE.read_text(encoding="utf-8")
-    if start not in text or end not in text:
-        return
     public_rows = homepage_feed_rows(public_rows)
     filtered_rows = homepage_default_feed_rows(public_rows)
     visible_rows = filtered_rows[:HOME_FEED_BATCH_SIZE]
@@ -2231,9 +2229,23 @@ def write_homepage_latest(public_rows: list[dict[str, Any]], categorized: dict[s
         + render_home_feed_load_more(len(filtered_rows), len(visible_rows))
     )
     latest_html = "\n".join(line.rstrip() for line in latest_html.splitlines())
-    before, rest = text.split(start, 1)
-    _, after = rest.split(end, 1)
-    HOME_PAGE.write_text(f"{before}{start}\n{latest_html}\n            {end}{after}", encoding="utf-8")
+
+    # 1. Update site/index.html
+    if HOME_PAGE.exists():
+        text = HOME_PAGE.read_text(encoding="utf-8")
+        if start in text and end in text:
+            before, rest = text.split(start, 1)
+            _, after = rest.split(end, 1)
+            HOME_PAGE.write_text(f"{before}{start}\n{latest_html}\n            {end}{after}", encoding="utf-8")
+
+    # 2. Update site/post/index.html
+    posts_page = SITE_ROOT / "post" / "index.html"
+    if posts_page.exists():
+        text = posts_page.read_text(encoding="utf-8")
+        if start in text and end in text:
+            before, rest = text.split(start, 1)
+            _, after = rest.split(end, 1)
+            posts_page.write_text(f"{before}{start}\n{latest_html}\n            {end}{after}", encoding="utf-8")
 
 
 def render_update_cards(items: list[dict[str, Any]]) -> str:
