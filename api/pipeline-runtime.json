@@ -1,6 +1,6 @@
 {
-  "currentStep": "watch social feeds",
-  "heartbeatAt": "2026-07-03T10:30:46.111343+00:00",
+  "currentStep": "publish github pages",
+  "heartbeatAt": "2026-07-03T10:31:35.883544+00:00",
   "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
   "maxPostAgeDays": 30,
   "message": "",
@@ -55,10 +55,143 @@
         "--max-post-age-days",
         "30"
       ],
-      "finishedAt": "",
+      "finishedAt": "2026-07-03T10:31:09.901212+00:00",
       "name": "watch social feeds",
-      "returnCode": null,
+      "returnCode": 0,
       "startedAt": "2026-07-03T10:27:00.152024+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_public_data.py"
+      ],
+      "finishedAt": "2026-07-03T10:31:11.466487+00:00",
+      "name": "build public data",
+      "returnCode": 0,
+      "startedAt": "2026-07-03T10:31:09.902865+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/backfill_public_source_pages.py",
+        "--skip-fetch"
+      ],
+      "finishedAt": "2026-07-03T10:31:13.592879+00:00",
+      "name": "backfill source pages",
+      "returnCode": 0,
+      "startedAt": "2026-07-03T10:31:11.466940+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_public_data.py"
+      ],
+      "finishedAt": "2026-07-03T10:31:15.129404+00:00",
+      "name": "rebuild public data",
+      "returnCode": 0,
+      "startedAt": "2026-07-03T10:31:13.593789+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_score_publications.py"
+      ],
+      "finishedAt": "2026-07-03T10:31:15.254452+00:00",
+      "name": "build score publications",
+      "returnCode": 0,
+      "startedAt": "2026-07-03T10:31:15.130114+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_score_sources.py"
+      ],
+      "finishedAt": "2026-07-03T10:31:15.283243+00:00",
+      "name": "build score sources",
+      "returnCode": 0,
+      "startedAt": "2026-07-03T10:31:15.254947+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/generate_rss_feeds.py"
+      ],
+      "finishedAt": "2026-07-03T10:31:20.067041+00:00",
+      "name": "generate rss feeds",
+      "returnCode": 0,
+      "startedAt": "2026-07-03T10:31:15.283748+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_public_calendar_events.py"
+      ],
+      "finishedAt": "2026-07-03T10:31:20.193154+00:00",
+      "name": "build public calendar events",
+      "returnCode": 0,
+      "startedAt": "2026-07-03T10:31:20.068014+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Users/skyhong/.hermes/google-workspace-venv/bin/python",
+        "scripts/sync_google_calendar_events.py"
+      ],
+      "finishedAt": "2026-07-03T10:31:32.335853+00:00",
+      "name": "sync google calendar",
+      "returnCode": 0,
+      "startedAt": "2026-07-03T10:31:20.193886+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_status_page.py"
+      ],
+      "finishedAt": "2026-07-03T10:31:33.431831+00:00",
+      "name": "build status page",
+      "returnCode": 0,
+      "startedAt": "2026-07-03T10:31:32.337332+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/check_source_coverage.py"
+      ],
+      "finishedAt": "2026-07-03T10:31:35.115236+00:00",
+      "name": "check source coverage",
+      "returnCode": 0,
+      "startedAt": "2026-07-03T10:31:33.432946+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/validate_public_outputs.py"
+      ],
+      "finishedAt": "2026-07-03T10:31:35.882776+00:00",
+      "name": "validate public outputs",
+      "returnCode": 0,
+      "startedAt": "2026-07-03T10:31:35.116600+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/publish_github_pages.py"
+      ],
+      "finishedAt": "",
+      "name": "publish github pages",
+      "returnCode": null,
+      "startedAt": "2026-07-03T10:31:35.883538+00:00",
       "status": "running"
     }
   ],
