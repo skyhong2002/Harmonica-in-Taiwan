@@ -1259,16 +1259,36 @@
       .slice(0, 24);
   }
 
-  function storyCard(item) {
+  function storyAccountLabel(item) {
+    const account = String(item.account || item.username || "").trim().replace(/^@/, "");
+    if (account && !/^https?:\/\//i.test(account)) return `@${account}`;
+    const profileUrl = String(item.source_profile_url || "").trim();
+    const match = profileUrl.match(/instagram\.com\/([^/?#]+)/i);
+    return match?.[1] ? `@${decodeURIComponent(match[1])}` : "@instagram";
+  }
+
+  function storyRelativeTimeLabel(item, now = new Date()) {
+    const postedAt = parseFeedDate(item.posted_at || item.published_at || item.story_fetched_at || item.posted_at_local);
+    if (!postedAt) return "now";
+    const elapsedMs = Math.max(0, now.getTime() - postedAt.getTime());
+    const minutes = Math.max(1, Math.floor(elapsedMs / 60000));
+    if (minutes < 60) return `${minutes} min`;
+    const hours = Math.floor(minutes / 60);
+    if (hours < 24) return `${hours} hrs`;
+    return `${Math.floor(hours / 24)} d`;
+  }
+
+  function storyCard(item, { clone = false } = {}) {
     const image = item.image_url
       ? `<span class="story-thumb"><img src="${escapeHtml(item.image_url)}" alt="" loading="lazy" referrerpolicy="no-referrer"></span>`
       : `<span class="story-thumb story-thumb-empty" aria-hidden="true">${platformIconSvg("instagram")}</span>`;
+    const hiddenAttrs = clone ? ` aria-hidden="true" tabindex="-1"` : "";
     return `
-      <article class="story-card">
-        <a href="${escapeHtml(item.link || sourceProfileUrl(item) || "#")}" target="_blank" rel="noreferrer">
+      <article class="story-card"${hiddenAttrs}>
+        <a href="${escapeHtml(item.link || sourceProfileUrl(item) || "#")}" target="_blank" rel="noreferrer"${clone ? ` tabindex="-1"` : ""}>
           ${image}
-          <span class="story-card-source">${escapeHtml(item.source || "Instagram story")}</span>
-          <span class="story-card-time">${escapeHtml(item.posted_at_local || "近 24 小時")}</span>
+          <span class="story-card-source">${escapeHtml(storyAccountLabel(item))}</span>
+          <span class="story-card-time">${escapeHtml(storyRelativeTimeLabel(item))}</span>
         </a>
       </article>
     `;
@@ -1277,18 +1297,37 @@
   function renderHomepageStories() {
     if (!homeStoryList) return;
     const stories = recentStoryItems();
+    stopHomeStoryAutoScroll();
     if (!stories.length) {
       homeStoryList.innerHTML = `<div class="empty-state">近 24 小時內尚未抓到可顯示的公開 Instagram 限動。</div>`;
-      stopHomeStoryAutoScroll();
       return;
     }
-    homeStoryList.innerHTML = stories.map(storyCard).join("");
+    const storyHtml = stories.map((item) => storyCard(item)).join("");
+    const loopHtml = stories.length > 1 ? stories.map((item) => storyCard(item, { clone: true })).join("") : "";
+    homeStoryList.innerHTML = `${storyHtml}${loopHtml}`;
     startHomeStoryAutoScroll();
+  }
+
+  function homeStoryLoopDistance() {
+    if (!homeStoryList) return 0;
+    if (homeStoryList.children.length <= 1) return 0;
+    const firstClone = homeStoryList.querySelector(".story-card[aria-hidden='true']");
+    return firstClone instanceof HTMLElement ? firstClone.offsetLeft : 0;
   }
 
   function homeStoryMaxScroll() {
     if (!homeStoryList) return 0;
-    return Math.max(0, homeStoryList.scrollWidth - homeStoryList.clientWidth);
+    const loopDistance = homeStoryLoopDistance();
+    const scrollableDistance = Math.max(0, homeStoryList.scrollWidth - homeStoryList.clientWidth);
+    return loopDistance > 1 ? loopDistance : scrollableDistance;
+  }
+
+  function normalizeHomeStoryLoopPosition() {
+    if (!homeStoryList) return;
+    const loopDistance = homeStoryLoopDistance();
+    if (loopDistance > 1 && homeStoryList.scrollLeft >= loopDistance) {
+      homeStoryList.scrollLeft -= loopDistance;
+    }
   }
 
   function stopHomeStoryAutoScroll() {
@@ -1318,8 +1357,8 @@
       const pixels = Math.floor(homeStoryAutoScrollRemainder);
       if (pixels > 0) {
         homeStoryAutoScrollRemainder -= pixels;
-        const nextLeft = homeStoryList.scrollLeft + pixels;
-        homeStoryList.scrollLeft = nextLeft >= maxScroll ? 0 : nextLeft;
+        homeStoryList.scrollLeft += pixels;
+        normalizeHomeStoryLoopPosition();
       }
     }
     homeStoryAutoScrollFrame = requestAnimationFrame(autoScrollHomepageStories);
@@ -1338,6 +1377,7 @@
       const delta = Math.abs(event.deltaY) > Math.abs(event.deltaX) ? event.deltaY : event.deltaX;
       if (!delta) return;
       homeStoryList.scrollLeft += delta;
+      requestAnimationFrame(normalizeHomeStoryLoopPosition);
       event.preventDefault();
     }, { passive: false });
     homeStoryList.addEventListener("mouseenter", () => {
