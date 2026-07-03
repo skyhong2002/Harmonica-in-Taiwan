@@ -1852,6 +1852,18 @@
     return scoreData.count || scoreData.stats.totalScores || scoreItems().length || 0;
   }
 
+  function scoreYearRange() {
+    const years = (scoreData.stats.schoolYears || [])
+      .map((year) => Number.parseInt(year, 10))
+      .filter((year) => Number.isFinite(year));
+    if (!years.length) return "-";
+    return `${Math.min(...years)}-${Math.max(...years)}`;
+  }
+
+  function scorePublisherCount() {
+    return (scoreData.stats.publishers || []).filter((publisher) => publisher && publisher !== "未標示").length;
+  }
+
   function scoreFieldValues(item, name) {
     if (name === "year") return [item.schoolYear ? `${item.schoolYear}學年度` : ""];
     if (name === "program") return [item.program];
@@ -1900,55 +1912,71 @@
     return scoreItems().filter(scoreMatches);
   }
 
-  function scoreDetail(label, value) {
-    const text = String(value || "").trim();
-    if (!text) return "";
+  function scoreCell(value, className = "") {
+    const text = String(value || "-").trim() || "-";
+    const classAttr = className ? ` class="${className}"` : "";
+    return `<td${classAttr} title="${escapeHtml(text)}">${escapeHtml(text)}</td>`;
+  }
+
+  function scoreTableRow(item) {
+    const year = item.schoolYear ? `${item.schoolYear}` : "-";
+    const title = [item.title, item.titleAlt].filter(Boolean).join(" / ");
+    const publisher = item.publisher || item.purchaseNote || "-";
+    const note = [item.scoreName, item.performanceNote, item.purchaseNote, item.notes].filter(Boolean).join("；");
+    const sourceLink = (item.links || [])[0];
+    const source = sourceLink
+      ? `<a class="score-source-link" href="${escapeHtml(sourceLink.url)}" target="_blank" rel="noreferrer" title="${escapeHtml(sourceLink.label)}">來源</a>`
+      : `<span class="score-source-link muted" title="未標示來源">來源</span>`;
     return `
-      <div class="score-detail-item">
-        <span>${escapeHtml(label)}</span>
-        <strong>${escapeHtml(text)}</strong>
-      </div>
+      <tr>
+        ${scoreCell(year, "score-year")}
+        ${scoreCell(item.sourceStatus, "score-status")}
+        ${scoreCell(item.program, "score-program")}
+        ${scoreCell(item.division, "score-division")}
+        <th scope="row" class="score-title-cell" title="${escapeHtml(title || "-")}">${escapeHtml(title || "-")}</th>
+        ${scoreCell(item.composer, "score-composer")}
+        ${scoreCell(item.arranger, "score-arranger")}
+        ${scoreCell(publisher, "score-publisher")}
+        ${scoreCell(note, "score-note-inline")}
+        <td class="score-source-cell">${source}</td>
+      </tr>
     `;
   }
 
-  function scorePills(item) {
-    return [item.program, item.sourceStatus, item.publisher]
-      .filter(Boolean)
-      .slice(0, 4)
-      .map((value) => `<span class="pill score-pill">${escapeHtml(value)}</span>`)
-      .join("");
-  }
-
-  function scoreCard(item) {
-    const titleAlt = item.titleAlt ? `<p class="score-title-alt">${escapeHtml(item.titleAlt)}</p>` : "";
-    const meta = [item.category, item.division].filter(Boolean).join(" · ");
-    const metaHtml = meta ? `<p class="score-meta-line">${escapeHtml(meta)}</p>` : "";
-    const notes = item.notes ? `<p class="score-note">${escapeHtml(item.notes)}</p>` : "";
-    const links = renderLinks(item.links);
+  function scoreTable(records) {
     return `
-      <article class="score-row">
-        <div class="score-row-main">
-          <div class="score-row-head">
-            <span class="score-year">${escapeHtml(item.schoolYear ? `${item.schoolYear}學年度` : "未標示")}</span>
-            <span class="score-status">${escapeHtml(item.sourceStatus || "公開來源")}</span>
-          </div>
-          <h3>${escapeHtml(item.title)}</h3>
-          ${titleAlt}
-          ${metaHtml}
-          <div class="score-detail-list">
-            ${scoreDetail("作曲者", item.composer)}
-            ${scoreDetail("編曲者", item.arranger)}
-            ${scoreDetail("樂譜名稱／編號", item.scoreName)}
-            ${scoreDetail("演奏說明", item.performanceNote)}
-          </div>
-        </div>
-        <div class="score-row-source">
-          <div class="score-pills">${scorePills(item)}</div>
-          ${item.purchaseNote ? `<p class="score-purchase">${escapeHtml(item.purchaseNote)}</p>` : ""}
-          ${notes}
-          ${links ? `<div class="entry-links score-links">${links}</div>` : ""}
-        </div>
-      </article>
+      <table class="score-table">
+        <caption>全國學生音樂比賽口琴指定曲與樂譜出版、洽詢線索</caption>
+        <colgroup>
+          <col class="score-col-year">
+          <col class="score-col-status">
+          <col class="score-col-program">
+          <col class="score-col-division">
+          <col class="score-col-title">
+          <col class="score-col-person">
+          <col class="score-col-person">
+          <col class="score-col-publisher">
+          <col class="score-col-note">
+          <col class="score-col-source">
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">年度</th>
+            <th scope="col">狀態</th>
+            <th scope="col">編制</th>
+            <th scope="col">組別</th>
+            <th scope="col">曲名</th>
+            <th scope="col">作曲</th>
+            <th scope="col">編曲</th>
+            <th scope="col">出版／洽詢</th>
+            <th scope="col">備註</th>
+            <th scope="col">來源</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${records.map(scoreTableRow).join("")}
+        </tbody>
+      </table>
     `;
   }
 
@@ -1987,7 +2015,7 @@
       scoreList.innerHTML = `<div class="empty-state">沒有符合目前條件的樂譜出版線索。</div>`;
       return;
     }
-    scoreList.innerHTML = records.map(scoreCard).join("");
+    scoreList.innerHTML = scoreTable(records);
   }
 
   function scoreUrlParamNames() {
@@ -2297,7 +2325,8 @@
     setStat("totalEntries", data.stats.totalEntries || 0);
     setStat("generatedAt", data.generatedAt || "-");
     setStat("scoreCount", scoreTotalCount());
-    setStat("scorePublisherCount", (scoreData.stats.publishers || []).length);
+    setStat("scoreYearRange", scoreYearRange());
+    setStat("scorePublisherCount", scorePublisherCount());
     setStat("scoreGeneratedAt", scoreData.generatedAt || "-");
     feedData.generatedAt = formatFeedGeneratedAt(feedData.generatedAt);
     setStat("feedGeneratedAt", feedData.generatedAt || "-");
