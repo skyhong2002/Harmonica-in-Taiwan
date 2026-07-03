@@ -125,6 +125,47 @@ def copy_site(site_dir: Path, worktree: Path, *, cname: str) -> None:
     if cname:
         (worktree / "CNAME").write_text(cname.strip() + "\n", encoding="utf-8")
 
+    # Generate GitHub Actions deploy workflow on gh-pages branch
+    workflows_dir = worktree / ".github" / "workflows"
+    workflows_dir.mkdir(parents=True, exist_ok=True)
+    workflow_content = """name: Deploy Pages
+
+on:
+  push:
+    branches:
+      - gh-pages
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+"""
+    (workflows_dir / "deploy.yml").write_text(workflow_content, encoding="utf-8")
+
+
 
 def changed_files(path: Path) -> list[str]:
     status = git_stdout(["status", "--porcelain"], cwd=path)

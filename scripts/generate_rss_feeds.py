@@ -376,9 +376,33 @@ def convert_image_bytes_to_webp(data: bytes, ext: str, output_path: Path) -> boo
             input_path = tmp_root / f"input{ext}"
             tmp_output = tmp_root / "output.webp"
             input_path.write_bytes(data)
+
+            # Check if we should resize the image to max width 800
+            resize_args = []
+            if ext.casefold() in {".jpg", ".jpeg", ".png"}:
+                try:
+                    ffprobe_result = subprocess.run(
+                        [
+                            "ffprobe",
+                            "-v", "error",
+                            "-select_streams", "v:0",
+                            "-show_entries", "stream=width",
+                            "-of", "csv=p=0",
+                            str(input_path)
+                        ],
+                        capture_output=True,
+                        text=True,
+                        check=True
+                    )
+                    width = int(ffprobe_result.stdout.strip())
+                    if width > 800:
+                        resize_args = ["-resize", "800", "0"]
+                except Exception:
+                    pass
+
             try:
                 subprocess.run(
-                    [*command, str(input_path), "-o", str(tmp_output)],
+                    [*command, *resize_args, str(input_path), "-o", str(tmp_output)],
                     check=True,
                     stdout=subprocess.DEVNULL,
                     stderr=subprocess.DEVNULL,
@@ -397,6 +421,8 @@ def convert_image_bytes_to_webp(data: bytes, ext: str, output_path: Path) -> boo
                         "-y",
                         "-i",
                         str(input_path),
+                        "-vf",
+                        "scale='min(800,iw)':-1",
                         "-frames:v",
                         "1",
                         "-update",
