@@ -30,7 +30,7 @@ ICS_PATH = FEEDS_DIR / "public-calendar.ics"
 TIMEZONE = "Asia/Taipei"
 TAIWAN_TZ = dt.timezone(dt.timedelta(hours=8))
 DEFAULT_LLM_CACHE = PROJECT_ROOT / "state" / "public_calendar_llm_events.json"
-CALENDAR_REVIEW_POLICY_VERSION = 3
+CALENDAR_REVIEW_POLICY_VERSION = 4
 
 HARMONICA_TERMS = [
     "口琴",
@@ -61,6 +61,8 @@ EVENT_TERMS = [
     "開演",
     "開場",
     "場次",
+    "活動時間",
+    "日時",
 ]
 
 DATE_RANGE_RE = re.compile(
@@ -72,9 +74,11 @@ FULL_DATE_RE = re.compile(r"(?P<year>\d{2,4})\s*(?:年|[./-])\s*(?P<month>\d{1,2
 MONTH_DAY_RE = re.compile(r"(?<!\d)(?P<month>\d{1,2})\s*(?:月|[./])\s*(?P<day>\d{1,2})\s*(?:日)?(?!\d)")
 COMPACT_RANGE_RE = re.compile(r"(?<!\d)(?P<year>\d{2})(?P<month>\d{2})(?P<day>\d{2})\s*[-~〜]\s*(?P<end_month>\d{2})(?P<end_day>\d{2})(?!\d)")
 TIME_RE = re.compile(r"(?<!\d)(?P<hour>[01]?\d|2[0-3])[:：](?P<minute>[0-5]\d)(?!\d)")
-LOCATION_RE = re.compile(r"(?:地點|地点|場地|會場|会場|場所|上課地點|活動地點|📍)\s*[｜|:：]?\s*(?P<place>[^\n。；;，,]{2,48})")
+TIME_WITH_UNIT_RE = re.compile(r"(?P<prefix>上午|早上|中午|下午|晚上|夜|午前|午後)?\s*(?P<hour>[01]?\d|2[0-3])\s*(?:時|点|點)(?:\s*(?P<minute>[0-5]\d)\s*分?)?")
+CHINESE_TIME_RE = re.compile(r"(?P<prefix>上午|早上|中午|下午|晚上|夜)?\s*(?P<hour>[一二兩三四五六七八九十]{1,3})\s*(?:點|時)(?P<half>半)?")
+LOCATION_RE = re.compile(r"(?:地點|地点|場地|會場|会場|場所|上課地點|活動地點|舉辦地點|📍)\s*[｜|:：]?\s*(?P<place>[^\n。；;，,]{2,48})")
 TAIWAN_PLACE_RE = re.compile(
-    r"台灣|臺灣|台北|臺北|新北|基隆|桃園|新竹|苗栗|台中|臺中|彰化|南投|雲林|嘉義|台南|臺南|高雄|屏東|宜蘭|花蓮|台東|臺東|澎湖|金門|馬祖|陽明交通大學|陽明交大|衛武營|武陵|臺北生技園區|台北生技園區"
+    r"台灣|臺灣|台北|臺北|新北|基隆|桃園|新竹|苗栗|台中|臺中|彰化|南投|雲林|嘉義|台南|臺南|高雄|屏東|宜蘭|花蓮|台東|臺東|澎湖|金門|馬祖|陽明交通大學|陽明交大|衛武營|武陵|臺北生技園區|台北生技園區|大墩文化中心"
 )
 OVERSEAS_PLACE_RE = re.compile(
     r"日本|東京|東京都|大阪|和歌山|名古屋|香港|新加坡|Singapore|Japan|Tokyo|Osaka|Hong Kong|Malaysia|馬來西亞|恵比寿|BLUE NOTE PLACE|アーク栄"
@@ -214,11 +218,49 @@ def nearby_context(text: str, start: int, end: int, radius: int = 60) -> str:
     return text[max(0, start - radius): min(len(text), end + radius)]
 
 
+def date_match_is_truncated(text: str, end: int) -> bool:
+    return bool(re.match(r"\s*(?:…|\\.\\.\\.)", text[end:end + 6]))
+
+
 def extract_time(text: str) -> str:
     match = TIME_RE.search(text)
+    if match:
+        return f"{int(match.group('hour')):02d}:{match.group('minute')}"
+    match = TIME_WITH_UNIT_RE.search(text)
+    if match:
+        hour = int(match.group("hour"))
+        minute = int(match.group("minute") or 0)
+        prefix = match.group("prefix") or ""
+        if prefix in {"下午", "晚上", "夜", "午後"} and hour < 12:
+            hour += 12
+        if prefix == "中午" and hour < 11:
+            hour += 12
+        return f"{hour:02d}:{minute:02d}"
+    match = CHINESE_TIME_RE.search(text)
     if not match:
         return ""
-    return f"{int(match.group('hour')):02d}:{match.group('minute')}"
+    numerals = {"一": 1, "二": 2, "兩": 2, "三": 3, "四": 4, "五": 5, "六": 6, "七": 7, "八": 8, "九": 9}
+    raw_hour = match.group("hour")
+    if raw_hour == "十":
+        hour = 10
+    elif raw_hour.startswith("十"):
+        hour = 10 + numerals.get(raw_hour[-1], 0)
+    elif raw_hour.endswith("十"):
+        hour = numerals.get(raw_hour[0], 0) * 10
+    elif "十" in raw_hour:
+        left, right = raw_hour.split("十", 1)
+        hour = numerals.get(left, 0) * 10 + numerals.get(right, 0)
+    else:
+        hour = numerals.get(raw_hour, 0)
+    if hour <= 0 or hour > 23:
+        return ""
+    prefix = match.group("prefix") or ""
+    if prefix in {"下午", "晚上", "夜"} and hour < 12:
+        hour += 12
+    if prefix == "中午" and hour < 11:
+        hour += 12
+    minute = 30 if match.group("half") else 0
+    return f"{hour:02d}:{minute:02d}"
 
 
 def clean_location(value: str) -> str:
@@ -342,6 +384,8 @@ def llm_calendar_prompt(item: dict[str, Any], start: str, end: str, context: str
                 "只根據公開貼文文字判斷，收錄公開口琴活動；"
                 "收錄範圍是：實際舉辦地點在台灣的線下活動，以及國內外有明確時間的線上直播/線上講座/線上音樂會。"
                 "排除國外線下活動、已發生的回顧影片、一般貼文、非口琴活動、沒有明確活動時間的隨選影片。"
+                "必須只判斷 candidateStart、candidateEnd 與 dateContext 對應的候選；"
+                "如果全文其他段落有不同日期的另一個活動，請忽略它，不要拿來補這個候選。"
                 "請只回傳 JSON，不要 Markdown。"
             ),
         },
@@ -440,6 +484,8 @@ def date_candidates(text: str, posted_at: dt.datetime | None) -> list[tuple[dt.d
         for match in regex.finditer(text):
             if any(match.start() in span or match.end() in span for span in occupied):
                 continue
+            if date_match_is_truncated(text, match.end()):
+                continue
             date = parse_loose_date(match.group(0), posted_at)
             if not date:
                 continue
@@ -464,7 +510,7 @@ def item_key(item: dict[str, Any], start: dt.date) -> str:
 def fallback_calendar_review(item: dict[str, Any], title: str, location: str, text: str) -> dict[str, Any] | None:
     combined = f"{title} {location} {text}"
     is_online = is_online_event_text(combined)
-    has_taiwan_place = bool(TAIWAN_PLACE_RE.search(location))
+    has_taiwan_place = bool(TAIWAN_PLACE_RE.search(f"{title} {location}"))
     if not location and not is_online:
         return None
     if not has_taiwan_place and not is_online:
@@ -485,6 +531,7 @@ def title_date_conflicts(title: str, start_date: dt.date) -> bool:
     dates = [
         (int(match.group("month")), int(match.group("day")))
         for match in MONTH_DAY_RE.finditer(title)
+        if not date_match_is_truncated(title, match.end())
     ]
     if not dates:
         return False
@@ -594,7 +641,7 @@ def extract_events(
             if identity in seen_event_identity:
                 continue
             seen_event_identity.add(identity)
-            time_text = extract_time(context) or extract_time(text)
+            time_text = extract_time(context)
             if title_date_conflicts(title, start_date):
                 continue
             start = f"{start_date.isoformat()}T{time_text}:00+08:00" if time_text else start_date.isoformat()
@@ -638,6 +685,8 @@ def extract_events(
             country = str(review.get("country") or "").strip()
             is_review_online = country == "線上" or is_online_event_text(f"{event_name} {venue} {city} {details}")
             is_review_taiwan = country in {"台灣", "臺灣", "Taiwan"} or bool(TAIWAN_PLACE_RE.search(f"{venue} {city} {details}"))
+            if is_review_online and (not time_text or not is_online_event_text(context)):
+                continue
             if not is_review_taiwan and not is_review_online:
                 continue
             display_location = venue if not city or city in venue else f"{city} {venue}"
