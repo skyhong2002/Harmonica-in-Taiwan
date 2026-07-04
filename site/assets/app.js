@@ -50,6 +50,10 @@
     country: emptyFilterSet(),
     region: emptyFilterSet(),
     hashtags: emptyFilterSet(),
+    directoryView: "table",
+    directorySortKey: "",
+    directorySortDirection: "asc",
+    directoryColumnWidths: {},
   };
   const feedDefaultIncludes = {
     platform: [],
@@ -94,6 +98,7 @@
   const feedBatchSize = 12;
   const scoreDefaultTableWidth = 1240;
   const scoreSourceDefaultTableWidth = 1480;
+  const directoryDefaultTableWidth = 0;
   const directoryRenderBatchSize = 48;
   const directorySearchDelayMs = 120;
   const feedDesktopColumnQuery = "(min-width: 901px)";
@@ -396,13 +401,17 @@
     searchValue,
     searchPlaceholder,
     extraControls = "",
+    summaryAfterHtml = "",
     groups,
   }) {
     return `
       <div class="search-filter-panel feed-river-controls ${className}">
         <div class="search-filter-summary feed-river-summary">
           <p class="search-filter-label feed-filter-label">${escapeHtml(label)}</p>
-          <strong>${escapeHtml(summary)}</strong>
+          <div class="search-filter-summary-actions">
+            <strong>${escapeHtml(summary)}</strong>
+            ${summaryAfterHtml}
+          </div>
         </div>
         <div class="search-filter-tools feed-filter-tools" role="search">
           <label class="search-field search-filter-search-field feed-search-field">
@@ -2199,6 +2208,17 @@
     resultCount.textContent = `${records.length} / ${directoryTotalCount()} 筆公開來源`;
   }
 
+  function directoryViewToggleHtml() {
+    const cardPressed = state.directoryView !== "table";
+    const tablePressed = state.directoryView === "table";
+    return `
+      <div class="directory-view-toggle" role="group" aria-label="公開來源瀏覽方式">
+        <button type="button" data-directory-view="cards" aria-pressed="${cardPressed ? "true" : "false"}">卡片</button>
+        <button type="button" data-directory-view="table" aria-pressed="${tablePressed ? "true" : "false"}">表格</button>
+      </div>
+    `;
+  }
+
   function directoryHashtagValues() {
     if (directoryIndex) {
       return {
@@ -2226,6 +2246,7 @@
       className: "directory-filter-panel",
       label: "索引篩選",
       summary: `${records.length} / ${directoryTotalCount()} 筆公開來源`,
+      summaryAfterHtml: directoryViewToggleHtml(),
       searchId: "directory-search-input",
       searchLabel: "搜尋資料索引",
       searchValue: state.query,
@@ -2270,6 +2291,8 @@
   function renderDirectoryCards(records) {
     if (!directoryList) return;
     directoryRenderToken += 1;
+    directoryList.classList.remove("directory-table-list", "score-list");
+    directoryList.classList.add("directory-grid");
     const token = directoryRenderToken;
     if (!records.length) {
       directoryList.removeAttribute("aria-busy");
@@ -2288,12 +2311,243 @@
     scheduler(() => appendDirectoryCards(records, token, firstRecords.length));
   }
 
+  const directorySortColumns = [
+    { key: "name", label: "來源", defaultDirection: "asc", width: 250, minWidth: 150, value: (entry) => entry.name },
+    { key: "links", label: "連結", defaultDirection: "asc", width: 146, minWidth: 74, value: (entry) => (entry.links || []).map((link) => link.label || link.url).join(" ") },
+    { key: "latest", label: "最後更新", defaultDirection: "desc", width: 145, minWidth: 112, value: (entry) => entry.latestUpdateLocal || "" },
+    { key: "type", label: "類型", defaultDirection: "asc", width: 96, minWidth: 72, value: (entry) => entry.type || entry.sourceSummary },
+    { key: "context", label: "國家／區域／Tag", defaultDirection: "asc", width: 483, minWidth: 150, value: directoryContextText },
+  ];
+
+  function directoryContextText(entry) {
+    return [
+      ...entryCountryValues(entry),
+      ...entryRegionValues(entry),
+      ...entrySourceTagValues(entry),
+    ].join("、");
+  }
+
+  function directorySortColumn(key) {
+    return directorySortColumns.find((column) => column.key === key) || null;
+  }
+
+  function directoryColumnWidth(column) {
+    const width = Number.parseInt(state.directoryColumnWidths[column.key], 10);
+    if (Number.isFinite(width)) return Math.max(column.minWidth || 48, width);
+    return column.width || 96;
+  }
+
+  function directoryTableWidth() {
+    const columnTotal = directorySortColumns.reduce((total, column) => total + directoryColumnWidth(column), 0);
+    return Math.max(directoryDefaultTableWidth, columnTotal);
+  }
+
+  function directoryColumnMarkup(column) {
+    return `<col data-directory-column="${escapeHtml(column.key)}" style="width: ${directoryColumnWidth(column)}px">`;
+  }
+
+  function directoryColumnSelector(key) {
+    return `[data-directory-column="${String(key).replace(/"/g, '\\"')}"]`;
+  }
+
+  function directoryHeaderSelector(key) {
+    return `[data-directory-column-header="${String(key).replace(/"/g, '\\"')}"]`;
+  }
+
+  function setDirectoryColumnWidth(key, width, table = directoryList?.querySelector(".score-table")) {
+    const column = directorySortColumn(key);
+    if (!column) return;
+    const nextWidth = Math.max(column.minWidth || 48, Math.round(width));
+    state.directoryColumnWidths[key] = nextWidth;
+    if (!table) return;
+    const col = table.querySelector(directoryColumnSelector(key));
+    if (col) col.style.width = `${nextWidth}px`;
+    table.style.setProperty("--score-table-width", `${directoryTableWidth()}px`);
+  }
+
+  function hydrateDirectoryColumnWidthsFromTable() {
+    const table = directoryList?.querySelector(".score-table");
+    if (!table || Object.keys(state.directoryColumnWidths).length) return;
+    directorySortColumns.forEach((column) => {
+      const header = table.querySelector(directoryHeaderSelector(column.key));
+      const width = header?.getBoundingClientRect().width || column.width || 96;
+      state.directoryColumnWidths[column.key] = Math.max(column.minWidth || 48, Math.round(width));
+    });
+    table.style.setProperty("--score-table-width", `${directoryTableWidth()}px`);
+    directorySortColumns.forEach((column) => {
+      const col = table.querySelector(directoryColumnSelector(column.key));
+      if (col) col.style.width = `${directoryColumnWidth(column)}px`;
+    });
+  }
+
+  function nextDirectorySortDirection(key) {
+    const column = directorySortColumn(key);
+    if (!column) return "asc";
+    if (state.directorySortKey !== key) return column.defaultDirection || "asc";
+    return state.directorySortDirection === "asc" ? "desc" : "asc";
+  }
+
+  function sortedDirectoryRecords(records) {
+    const column = directorySortColumn(state.directorySortKey);
+    if (!column) return records;
+    return records
+      .map((record, index) => ({ record, index }))
+      .sort((left, right) => {
+        const leftValue = column.value(left.record.entry);
+        const rightValue = column.value(right.record.entry);
+        const leftEmpty = String(leftValue || "").trim() === "";
+        const rightEmpty = String(rightValue || "").trim() === "";
+        if (leftEmpty || rightEmpty) {
+          if (leftEmpty && rightEmpty) return left.index - right.index;
+          return leftEmpty ? 1 : -1;
+        }
+        const direction = state.directorySortDirection === "desc" ? -1 : 1;
+        const comparison = String(leftValue).localeCompare(String(rightValue), "zh-Hant", {
+          numeric: true,
+          sensitivity: "base",
+        });
+        return comparison ? comparison * direction : left.index - right.index;
+      })
+      .map(({ record }) => record);
+  }
+
+  function directorySortAriaValue(key) {
+    if (state.directorySortKey !== key) return "none";
+    return state.directorySortDirection === "desc" ? "descending" : "ascending";
+  }
+
+  function directorySortIcon(key) {
+    if (state.directorySortKey !== key) return "↕";
+    return state.directorySortDirection === "desc" ? "▼" : "▲";
+  }
+
+  function directoryHeaderCell(column) {
+    const nextDirection = nextDirectorySortDirection(column.key);
+    const directionLabel = nextDirection === "desc" ? "降冪" : "升冪";
+    return `
+      <th scope="col" aria-sort="${directorySortAriaValue(column.key)}" data-directory-column-header="${escapeHtml(column.key)}">
+        <button
+          type="button"
+          class="score-sort-button"
+          data-directory-sort="${escapeHtml(column.key)}"
+          aria-label="依${escapeHtml(column.label)}${directionLabel}排序"
+        >
+          <span class="score-sort-label">${escapeHtml(column.label)}</span>
+          <span class="score-sort-icon" aria-hidden="true">${directorySortIcon(column.key)}</span>
+        </button>
+        <span
+          class="score-column-resizer"
+          role="separator"
+          aria-orientation="vertical"
+          aria-label="調整${escapeHtml(column.label)}欄寬"
+          tabindex="0"
+          data-directory-resize="${escapeHtml(column.key)}"
+        ></span>
+      </th>
+    `;
+  }
+
+  function directoryTableRow(record) {
+    const entry = record.entry;
+    const contextTags = [
+      ...entryCountryValues(entry),
+      ...entryRegionValues(entry),
+      ...entrySourceTagValues(entry),
+    ].slice(0, 9);
+    const links = entry.links || [];
+    return `
+      <tr>
+        <th scope="row" class="directory-source-cell" title="${escapeHtml(entry.name || "-")}">
+          <div class="directory-source-identity">
+            ${sourceAvatar(
+              {
+                avatar_url: entry.avatarUrl,
+                source: entry.name,
+                source_initials: entry.sourceInitials,
+              },
+              "source-avatar directory-table-avatar"
+            )}
+            <span class="directory-source-name-block">
+              <a href="/source/${escapeHtml(makeSlug(entry))}/" class="score-landing-link">${escapeHtml(entry.name || "-")}</a>
+              ${entry.nameEn ? `<span>${escapeHtml(entry.nameEn)}</span>` : ""}
+            </span>
+          </div>
+        </th>
+        <td class="score-source-cell directory-link-cell">
+          ${links.length ? links.map(directoryLinkIcon).join("") : `<span class="directory-link-icon is-muted" title="未標示連結">${platformIconSvg("public")}<span class="sr-only">未標示連結</span></span>`}
+        </td>
+        ${scoreCell(entry.latestUpdateLocal || "-", "score-year")}
+        ${scoreCell(entry.type || entry.sourceSummary || "-", "score-program")}
+        ${scoreCell(contextTags.join("、") || "-", "score-note-inline directory-context-cell")}
+      </tr>
+    `;
+  }
+
+  function directoryLinkIcon(link) {
+    const label = String(link.label || "連結").trim() || "連結";
+    const url = String(link.url || "").trim();
+    const key = platformKeyFromText(`${label} ${url}`) || "public";
+    return `
+      <a
+        class="directory-link-icon platform-badge-${escapeHtml(key)}"
+        href="${escapeHtml(url)}"
+        target="_blank"
+        rel="noreferrer"
+        title="${escapeHtml(label)}"
+        aria-label="${escapeHtml(label)}"
+      >
+        ${platformIconSvg(key)}
+        <span class="sr-only">${escapeHtml(label)}</span>
+      </a>
+    `;
+  }
+
+  function directoryTable(records) {
+    const sortedRecords = sortedDirectoryRecords(records);
+    return `
+      <table class="score-table directory-table" style="--score-table-width: ${directoryTableWidth()}px">
+        <caption>公開來源 metadata、地區、Tag 與公開連結</caption>
+        <colgroup>
+          ${directorySortColumns.map(directoryColumnMarkup).join("")}
+        </colgroup>
+        <thead>
+          <tr>
+            ${directorySortColumns.map(directoryHeaderCell).join("")}
+          </tr>
+        </thead>
+        <tbody>
+          ${sortedRecords.map(directoryTableRow).join("")}
+        </tbody>
+      </table>
+    `;
+  }
+
+  function renderDirectoryTable(records) {
+    if (!directoryList) return;
+    directoryRenderToken += 1;
+    directoryList.removeAttribute("aria-busy");
+    directoryList.classList.remove("directory-grid");
+    directoryList.classList.add("directory-table-list", "score-list");
+    if (!records.length) {
+      directoryList.innerHTML = `<div class="empty-state">沒有符合目前條件的公開來源。</div>`;
+      return;
+    }
+    directoryList.innerHTML = directoryTable(records);
+    hydrateDirectoryColumnWidthsFromTable();
+    bindDirectorySortHeaders();
+    bindDirectoryColumnResize();
+  }
+
   function renderDirectory() {
     if (!directoryList || !resultCount) return;
     const records = filteredDirectoryRecords();
     renderDirectoryFilterPanel(records);
     renderDirectoryResultCount(records);
-    renderDirectoryCards(records);
+    if (state.directoryView === "table") {
+      renderDirectoryTable(records);
+    } else {
+      renderDirectoryCards(records);
+    }
   }
 
   function renderSpotlight() {
@@ -3412,6 +3666,9 @@
 
   function directoryUrlParamNames() {
     return [
+      "view",
+      "sort",
+      "dir",
       "country",
       "region",
       "tag",
@@ -3429,6 +3686,11 @@
     if (!directoryList) return;
     const url = new URL(window.location.href);
     directoryUrlParamNames().forEach((name) => url.searchParams.delete(name));
+    if (state.directoryView === "cards") url.searchParams.set("view", "cards");
+    if (state.directoryView === "table" && directorySortColumn(state.directorySortKey)) {
+      url.searchParams.set("sort", state.directorySortKey);
+      url.searchParams.set("dir", normalizedScoreSortDirection(state.directorySortDirection));
+    }
     filterIncludes(state.country).forEach((country) => url.searchParams.append("country", country));
     filterExcludes(state.country).forEach((country) => url.searchParams.append("notCountry", country));
     filterIncludes(state.region).forEach((region) => url.searchParams.append("region", region));
@@ -3481,6 +3743,12 @@
     state.region = emptyFilterSet();
     state.hashtags = emptyFilterSet();
     state.query = params.get("q") || params.get("query") || "";
+    state.directoryView = params.get("view") === "cards" ? "cards" : "table";
+    const sortColumn = directorySortColumn(params.get("sort") || "");
+    state.directorySortKey = sortColumn ? sortColumn.key : "";
+    state.directorySortDirection = sortColumn
+      ? normalizedScoreSortDirection(params.get("dir"), sortColumn.defaultDirection)
+      : "asc";
     commaSeparatedParamValues(params, ["country"]).forEach((value) => addDirectoryFilterValue("country", value));
     commaSeparatedParamValues(params, ["notCountry"]).forEach((value) => addDirectoryFilterValue("country", value, "exclude"));
     commaSeparatedParamValues(params, ["region"]).forEach((value) => addDirectoryFilterValue("region", value));
@@ -3511,6 +3779,8 @@
     state.region = emptyFilterSet();
     state.hashtags = emptyFilterSet();
     state.query = "";
+    state.directorySortKey = "";
+    state.directorySortDirection = "asc";
     syncDirectoryFilterUrl();
     renderDirectory();
     renderSpotlight();
@@ -3544,6 +3814,86 @@
     renderSpotlight();
   }
 
+  function applyDirectoryView(view) {
+    state.directoryView = view === "table" ? "table" : "cards";
+    syncDirectoryFilterUrl();
+    renderDirectory();
+  }
+
+  function applyDirectorySort(key) {
+    const column = directorySortColumn(key);
+    if (!column) return;
+    state.directorySortDirection = nextDirectorySortDirection(key);
+    state.directorySortKey = key;
+    syncDirectoryFilterUrl();
+    renderDirectory();
+  }
+
+  function bindDirectoryViewToggle() {
+    if (!directoryFilterPanel) return;
+    directoryFilterPanel.querySelectorAll("[data-directory-view]").forEach((button) => {
+      button.addEventListener("click", () => {
+        applyDirectoryView(button.dataset.directoryView || "cards");
+      });
+    });
+  }
+
+  function bindDirectorySortHeaders() {
+    if (!directoryList) return;
+    directoryList.querySelectorAll("[data-directory-sort]").forEach((button) => {
+      button.addEventListener("click", () => {
+        applyDirectorySort(button.dataset.directorySort || "");
+      });
+    });
+  }
+
+  function bindDirectoryColumnResize() {
+    if (!directoryList) return;
+    directoryList.querySelectorAll("[data-directory-resize]").forEach((handle) => {
+      handle.addEventListener("pointerdown", (event) => {
+        const key = handle.dataset.directoryResize || "";
+        const column = directorySortColumn(key);
+        if (!column || event.button > 0) return;
+        const table = directoryList.querySelector(".score-table");
+        const header = directoryList.querySelector(directoryHeaderSelector(key));
+        const startX = event.clientX;
+        const startWidth = header?.getBoundingClientRect().width || directoryColumnWidth(column);
+        handle.setPointerCapture?.(event.pointerId);
+        handle.classList.add("is-active");
+        document.body.classList.add("score-column-resizing");
+        event.preventDefault();
+        event.stopPropagation();
+
+        const onPointerMove = (moveEvent) => {
+          const nextWidth = startWidth + moveEvent.clientX - startX;
+          setDirectoryColumnWidth(key, nextWidth, table);
+          moveEvent.preventDefault();
+        };
+        const onPointerUp = () => {
+          handle.classList.remove("is-active");
+          document.body.classList.remove("score-column-resizing");
+          window.removeEventListener("pointermove", onPointerMove);
+          window.removeEventListener("pointerup", onPointerUp);
+          window.removeEventListener("pointercancel", onPointerUp);
+        };
+
+        window.addEventListener("pointermove", onPointerMove);
+        window.addEventListener("pointerup", onPointerUp);
+        window.addEventListener("pointercancel", onPointerUp);
+      });
+
+      handle.addEventListener("keydown", (event) => {
+        const key = handle.dataset.directoryResize || "";
+        const column = directorySortColumn(key);
+        if (!column || (event.key !== "ArrowLeft" && event.key !== "ArrowRight")) return;
+        const step = event.shiftKey ? 32 : 12;
+        const direction = event.key === "ArrowRight" ? 1 : -1;
+        setDirectoryColumnWidth(key, directoryColumnWidth(column) + step * direction);
+        event.preventDefault();
+      });
+    });
+  }
+
   function bindDirectoryFilters() {
     if (!directoryFilterPanel) return;
     bindSearchFilterInput(directoryFilterPanel, "#directory-search-input", {
@@ -3564,6 +3914,7 @@
     if (resetButton) {
       resetButton.addEventListener("click", resetDirectoryFilters);
     }
+    bindDirectoryViewToggle();
   }
 
   function bindDirectoryHashtags() {
