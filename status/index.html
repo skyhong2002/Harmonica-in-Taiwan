@@ -59,9 +59,9 @@
           <div class="feed-page-summary status-summary-panel">
             <div class="status-summary-line">
               <span class="status-badge status-degraded">部分異常</span>
-              <strong>核心 pipeline 有產出；需要注意：主排程與輸出、Instagram RSSHub、X / Twitter RSS、Threads / 其他 RSS。 Facebook Apify 目前依排程或預算節流。</strong>
+              <strong>核心 pipeline 有產出；需要注意：Instagram RSSHub、Threads / 其他 RSS。 Facebook Apify 目前依排程或預算節流。</strong>
             </div>
-            <p>快照時間 2026-07-05T06:00:12+08:00</p>
+            <p>快照時間 2026-07-05T07:05:01+08:00</p>
             <div class="feed-links">
               <a href="/api/status.json">Status JSON</a>
               <a href="/api/latest.json">Latest API</a>
@@ -78,7 +78,7 @@
               <p class="section-kicker">Snapshot</p>
               <h2 id="status-overview-title">目前快照</h2>
             </div>
-            <p class="data-date">資料時間 2026-07-05T05:59:57+08:00</p>
+            <p class="data-date">資料時間 2026-07-05T07:04:46+08:00</p>
           </div>
           <div class="status-metric-grid">
 
@@ -105,7 +105,7 @@
 
       <article class="status-metric-card">
         <span>目前錯誤</span>
-        <strong>7</strong>
+        <strong>6</strong>
         <p>最新抓取批次</p>
       </article>
 
@@ -120,17 +120,17 @@
               <p class="section-kicker">Collectors</p>
               <h2 id="status-components-title">元件狀態</h2>
             </div>
-            <p class="data-date">最新社群觀測 2026-07-05T05:59:46+08:00</p>
+            <p class="data-date">最新社群觀測 2026-07-05T07:04:36+08:00</p>
           </div>
           <div class="status-component-grid">
 
-      <article class="status-component-card status-card-degraded">
+      <article class="status-component-card status-card-ok">
         <div class="status-component-head">
           <h2>主排程與輸出</h2>
-          <span class="status-badge status-degraded">部分異常</span>
+          <span class="status-badge status-ok">正常</span>
         </div>
-        <p>排程或輸出時間需要檢查。</p>
-        <ul class="status-detail-list"><li>最新公開資料：2026-07-05 05:59:57</li><li>pipeline.log 更新：2026-07-05 06:00:11</li><li>pipeline.err.log 更新：2026-07-05 06:00:08</li><li>LaunchAgent：running，last exit 1</li></ul>
+        <p>定期 pipeline 已產生公開資料快照。</p>
+        <ul class="status-detail-list"><li>最新公開資料：2026-07-05 07:04:46</li><li>pipeline.log 更新：2026-07-05 07:05:00</li><li>pipeline.err.log 更新：2026-07-05 07:04:58</li><li>LaunchAgent：running，last exit 0</li></ul>
       </article>
 
 
@@ -150,7 +150,7 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>本機 RSSHub 入口回 200。</p>
-        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：45 ms</li></ul>
+        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：34 ms</li></ul>
       </article>
 
 
@@ -160,16 +160,16 @@
           <span class="status-badge status-degraded">部分異常</span>
         </div>
         <p>286 個 Instagram 來源（profile 143、story 143）；最新抓取批次目前 1 個錯誤。</p>
-        <ul class="status-detail-list"><li>最新社群觀測：2026-07-05 05:59:46</li><li>story 無公開內容/空路由略過：0</li><li>IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。</li><li>本輪 IG：抓取 12、排程略過 274、延後 0、錯誤 0。</li><li>下一個 IG 來源：約 2026-07-05 06:00:55</li></ul>
+        <ul class="status-detail-list"><li>最新社群觀測：2026-07-05 07:04:36</li><li>story 無公開內容/空路由略過：0</li><li>IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。</li><li>本輪 IG：抓取 13、排程略過 273、延後 0、錯誤 0。</li><li>下一個 IG 來源：約 2026-07-05 07:06:18</li></ul>
       </article>
 
 
-      <article class="status-component-card status-card-degraded">
+      <article class="status-component-card status-card-ok">
         <div class="status-component-head">
           <h2>X / Twitter RSS</h2>
-          <span class="status-badge status-degraded">部分異常</span>
+          <span class="status-badge status-ok">正常</span>
         </div>
-        <p>12 個 X 來源；最新抓取批次目前 1 個錯誤。</p>
+        <p>12 個 X 來源；最新抓取批次目前 0 個錯誤。</p>
         <ul class="status-detail-list"><li>目前 route 依 RSSHub 設定抓取。</li><li>若持續 503，通常要檢查 RSSHub 的 Twitter API 設定。</li></ul>
       </article>
 
@@ -190,7 +190,7 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>126 個 YouTube 來源；最近 run error_count=0。</p>
-        <ul class="status-detail-list"><li>最近完成：2026-07-05 05:56:03</li><li>最近新增 inbox：0</li></ul>
+        <ul class="status-detail-list"><li>最近完成：2026-07-05 07:00:49</li><li>最近新增 inbox：0</li></ul>
       </article>
 
 
@@ -252,8 +252,8 @@
             <tr>
               <th scope="row">x</th>
               <td>12</td>
-              <td>1</td>
-              <td><span class="status-badge status-degraded">部分異常</span></td>
+              <td></td>
+              <td><span class="status-badge status-ok">正常</span></td>
             </tr>
 
 
@@ -283,16 +283,16 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-07-05T05:59:46+08:00 · instagram</span>
-                <strong>臺中國家歌劇院</strong>
+                <span class="feed-latest-meta">2026-07-05T07:04:36+08:00 · instagram</span>
+                <strong>南里沙</strong>
               </div>
-              <p>ig_nationaltaichungtheater:https://www.instagram.com/p/DaX6GTbDlYE/: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets in 1 d</p>
+              <p>ig_story_minami_risa:3934105526891819323_5173760: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets in 1 day. To continue usi</p>
             </article>
 
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-07-05T05:59:46+08:00 · threads</span>
+                <span class="feed-latest-meta">2026-07-05T07:04:36+08:00 · threads</span>
                 <strong>Up Side Down</strong>
               </div>
               <p>RSSHub HTTP 503: Error: Failed to fetch thread data</p>
@@ -301,7 +301,7 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-07-05T05:59:46+08:00 · threads</span>
+                <span class="feed-latest-meta">2026-07-05T07:04:36+08:00 · threads</span>
                 <strong>口袋琴房 Pocket Harmonic</strong>
               </div>
               <p>RSSHub HTTP 503: Error: Failed to fetch thread data</p>
@@ -310,7 +310,7 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-07-05T05:59:46+08:00 · threads</span>
+                <span class="feed-latest-meta">2026-07-05T07:04:36+08:00 · threads</span>
                 <strong>廖苡晴</strong>
               </div>
               <p>RSSHub HTTP 503: Error: Failed to fetch thread data</p>
@@ -319,7 +319,7 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-07-05T05:59:46+08:00 · threads</span>
+                <span class="feed-latest-meta">2026-07-05T07:04:36+08:00 · threads</span>
                 <strong>蔡明勳</strong>
               </div>
               <p>RSSHub HTTP 503: Error: Failed to fetch thread data</p>
@@ -328,19 +328,10 @@
 
             <article class="status-error-item">
               <div>
-                <span class="feed-latest-meta">2026-07-05T05:59:46+08:00 · threads</span>
+                <span class="feed-latest-meta">2026-07-05T07:04:36+08:00 · threads</span>
                 <strong>進擊的口琴樂團</strong>
               </div>
               <p>RSSHub HTTP 503: Error: Failed to fetch thread data</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-07-05T05:59:46+08:00 · x</span>
-                <strong>南里沙</strong>
-              </div>
-              <p>x_minami_risa:https://twitter.com/minami_risa/status/2073525319529799998: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets i</p>
             </article>
 
           </div>
