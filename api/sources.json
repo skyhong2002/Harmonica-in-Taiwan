@@ -218,6 +218,91 @@
       ]
     },
     {
+      "id": "watchlist-55",
+      "name": "梁承熹 Kelvin Leung",
+      "nameEn": "Kelvin Leung",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "THMF交流/演出",
+      "structuredSummary": "THMF交流/演出 / 半音階 / 國際演出人員",
+      "summary": "香港的半音階國際演出人員，活動脈絡包含THMF交流與演出。",
+      "keywords": "梁承熹 Kelvin Leung harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica-kelvin.weebly.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kelvinleungsh/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sorhei/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@KelvinLeungharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-04T05:39:23+00:00",
+      "latestUpdateLocal": "2026-07-04 13:39",
+      "latestUpdateSource": "梁承熹 Kelvin Leung",
+      "latestUpdateUrl": "https://www.instagram.com/stories/sorhei/3933615774790910256/",
+      "avatarUrl": "/assets/source-avatars/0c9e9143d106ffe600b5.webp",
+      "sourceInitials": "KL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流",
+        "口琴"
+      ],
+      "sourceSummary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
+      "sourceTagReason": "來源明確標示為『演奏者』，類型為『個人』，區域為『香港』，摘要提及『THMF交流/演出』與『半音階』。",
+      "monitorSources": [
+        {
+          "id": "fb_kelvinleungsh",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/kelvinleungsh",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sorhei",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sorhei",
+          "profileUrl": "https://www.instagram.com/sorhei/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sorhei",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sorhei",
+          "profileUrl": "https://www.instagram.com/sorhei/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sorhei/story/0"
+        },
+        {
+          "id": "yt_kelvinleungharmonica",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@KelvinLeungharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-96",
       "name": "RedBricks Harmonica",
       "nameEn": "RedBricks Harmonica",
@@ -292,6 +377,91 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@RedBricksHarmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-66",
+      "name": "Younghoon Cho",
+      "nameEn": "Younghoon Cho",
+      "category": "演奏者",
+      "type": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
+      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
+      "summary": "韓國的鋼琴合作音樂家，活動脈絡包含鋼琴伴奏與朴鍾聲合作。",
+      "keywords": "Younghoon Cho Jong-seong Park",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/hoontobe"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hoontobe/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hoontobe_piano/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/hoontobe"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-04T03:12:37+00:00",
+      "latestUpdateLocal": "2026-07-04 11:12",
+      "latestUpdateSource": "Younghoon Cho",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3933541955053783637/",
+      "avatarUrl": "/assets/source-avatars/4168baa97b6613dcf6d7.webp",
+      "sourceInitials": "YC",
+      "sourceTags": [
+        "演奏者",
+        "合奏",
+        "口琴",
+        "國際交流"
+      ],
+      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
+      "monitorSources": [
+        {
+          "id": "fb_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hoontobe",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
+        },
+        {
+          "id": "yt_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/hoontobe",
           "feedUrl": ""
         }
       ]
@@ -948,91 +1118,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@etaborya",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-66",
-      "name": "Younghoon Cho",
-      "nameEn": "Younghoon Cho",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
-      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
-      "summary": "韓國的鋼琴合作音樂家，活動脈絡包含鋼琴伴奏與朴鍾聲合作。",
-      "keywords": "Younghoon Cho Jong-seong Park",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/hoontobe"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hoontobe/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hoontobe_piano/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/hoontobe"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-03T17:18:00+00:00",
-      "latestUpdateLocal": "2026-07-04 01:18",
-      "latestUpdateSource": "Younghoon Cho",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3933242666356258069/",
-      "avatarUrl": "/assets/source-avatars/4168baa97b6613dcf6d7.webp",
-      "sourceInitials": "YC",
-      "sourceTags": [
-        "演奏者",
-        "合奏",
-        "口琴",
-        "國際交流"
-      ],
-      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
-      "monitorSources": [
-        {
-          "id": "fb_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hoontobe",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
-        },
-        {
-          "id": "yt_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/hoontobe",
           "feedUrl": ""
         }
       ]
@@ -2656,91 +2741,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@oufrog",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-55",
-      "name": "梁承熹 Kelvin Leung",
-      "nameEn": "Kelvin Leung",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "THMF交流/演出",
-      "structuredSummary": "THMF交流/演出 / 半音階 / 國際演出人員",
-      "summary": "香港的半音階國際演出人員，活動脈絡包含THMF交流與演出。",
-      "keywords": "梁承熹 Kelvin Leung harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica-kelvin.weebly.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/kelvinleungsh/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/sorhei/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@KelvinLeungharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-03T04:24:11+00:00",
-      "latestUpdateLocal": "2026-07-03 12:24",
-      "latestUpdateSource": "梁承熹 Kelvin Leung",
-      "latestUpdateUrl": "https://www.instagram.com/stories/sorhei/3932853150608275873/",
-      "avatarUrl": "/assets/source-avatars/0c9e9143d106ffe600b5.webp",
-      "sourceInitials": "KL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流",
-        "口琴"
-      ],
-      "sourceSummary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
-      "sourceTagReason": "來源明確標示為『演奏者』，類型為『個人』，區域為『香港』，摘要提及『THMF交流/演出』與『半音階』。",
-      "monitorSources": [
-        {
-          "id": "fb_kelvinleungsh",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/kelvinleungsh",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_sorhei",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "sorhei",
-          "profileUrl": "https://www.instagram.com/sorhei/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_sorhei",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "sorhei",
-          "profileUrl": "https://www.instagram.com/sorhei/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sorhei/story/0"
-        },
-        {
-          "id": "yt_kelvinleungharmonica",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@KelvinLeungharmonica",
           "feedUrl": ""
         }
       ]
