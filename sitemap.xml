@@ -217,7 +217,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-30+watchlist-101-dming-studio/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-30/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -259,7 +259,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/watchlist-38+watchlist-88/</loc>
+    <loc>https://harmonica.observe.tw/source/watchlist-88-ou-frog/</loc>
+    <lastmod>2026-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/watchlist-38/</loc>
     <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -608,6 +614,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/watchlist-133-hong-kong-harmonica-association/</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/watchlist-101-dming-studio/</loc>
     <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
