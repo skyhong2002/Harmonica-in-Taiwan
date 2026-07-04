@@ -57,10 +57,10 @@
           </div>
           <div class="feed-page-summary status-summary-panel">
             <div class="status-summary-line">
-              <span class="status-badge status-degraded">部分異常</span>
-              <strong>核心 pipeline 有產出；需要注意：Instagram RSSHub、X / Twitter RSS。 Facebook Apify 目前依排程或預算節流。</strong>
+              <span class="status-badge status-ok">正常</span>
+              <strong>核心資料抓取與公開 API 正常。 Instagram RSSHub、Facebook Apify 目前依排程或預算節流。</strong>
             </div>
-            <p>快照時間 2026-07-04T10:53:27+08:00</p>
+            <p>快照時間 2026-07-04T11:24:41+08:00</p>
             <div class="feed-links">
               <a href="/api/status.json">Status JSON</a>
               <a href="/api/latest.json">Latest API</a>
@@ -77,7 +77,7 @@
               <p class="section-kicker">Snapshot</p>
               <h2 id="status-overview-title">目前快照</h2>
             </div>
-            <p class="data-date">資料時間 2026-07-04T10:53:22+08:00</p>
+            <p class="data-date">資料時間 2026-07-04T11:24:36+08:00</p>
           </div>
           <div class="status-metric-grid">
 
@@ -104,7 +104,7 @@
 
       <article class="status-metric-card">
         <span>目前錯誤</span>
-        <strong>13</strong>
+        <strong></strong>
         <p>最新抓取批次</p>
       </article>
 
@@ -119,7 +119,7 @@
               <p class="section-kicker">Collectors</p>
               <h2 id="status-components-title">元件狀態</h2>
             </div>
-            <p class="data-date">最新社群觀測 2026-07-04T10:53:09+08:00</p>
+            <p class="data-date">最新社群觀測 2026-07-04T11:24:26+08:00</p>
           </div>
           <div class="status-component-grid">
 
@@ -129,7 +129,7 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>定期 pipeline 已產生公開資料快照。</p>
-        <ul class="status-detail-list"><li>最新公開資料：2026-07-04 10:53:22</li><li>pipeline.log 更新：2026-07-04 10:53:26</li><li>pipeline.err.log 更新：2026-07-04 09:48:25</li><li>LaunchAgent：running，last exit 0</li></ul>
+        <ul class="status-detail-list"><li>最新公開資料：2026-07-04 11:24:36</li><li>pipeline.log 更新：2026-07-04 11:24:40</li><li>pipeline.err.log 更新：2026-07-04 10:53:43</li><li>LaunchAgent：running，last exit 0</li></ul>
       </article>
 
 
@@ -149,26 +149,26 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>本機 RSSHub 入口回 200。</p>
-        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：13 ms</li></ul>
+        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：12 ms</li></ul>
       </article>
 
 
-      <article class="status-component-card status-card-degraded">
+      <article class="status-component-card status-card-paused">
         <div class="status-component-head">
           <h2>Instagram RSSHub</h2>
-          <span class="status-badge status-degraded">部分異常</span>
+          <span class="status-badge status-paused">節流中</span>
         </div>
-        <p>278 個 Instagram 來源（profile 139、story 139）；最新抓取批次目前 10 個錯誤。</p>
-        <ul class="status-detail-list"><li>最新社群觀測：2026-07-04 10:53:09</li><li>story 無公開內容/空路由略過：0</li><li>IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。</li><li>本輪 IG：抓取 14、排程略過 264、延後 0、錯誤 0。</li><li>下一個 IG 來源：約 2026-07-04 10:54:51</li></ul>
+        <p>278 個 Instagram 來源（profile 139、story 139）；最新抓取批次目前 0 個錯誤。</p>
+        <ul class="status-detail-list"><li>最新社群觀測：2026-07-04 11:24:26</li><li>story 無公開內容/空路由略過：0</li><li>IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。</li><li>本輪 IG：抓取 1、排程略過 277、延後 0、錯誤 0。</li><li>下一個 IG 來源：約 2026-07-04 11:26:35</li></ul>
       </article>
 
 
-      <article class="status-component-card status-card-degraded">
+      <article class="status-component-card status-card-ok">
         <div class="status-component-head">
           <h2>X / Twitter RSS</h2>
-          <span class="status-badge status-degraded">部分異常</span>
+          <span class="status-badge status-ok">正常</span>
         </div>
-        <p>13 個 X 來源；最新抓取批次目前 3 個錯誤。</p>
+        <p>13 個 X 來源；最新抓取批次目前 0 個錯誤。</p>
         <ul class="status-detail-list"><li>目前 route 依 RSSHub 設定抓取。</li><li>若持續 503，通常要檢查 RSSHub 的 Twitter API 設定。</li></ul>
       </article>
 
@@ -189,7 +189,7 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>126 個 YouTube 來源；最近 run error_count=0。</p>
-        <ul class="status-detail-list"><li>最近完成：2026-07-04 10:48:43</li><li>最近新增 inbox：0</li></ul>
+        <ul class="status-detail-list"><li>最近完成：2026-07-04 11:24:05</li><li>最近新增 inbox：0</li></ul>
       </article>
 
 
@@ -235,8 +235,8 @@
             <tr>
               <th scope="row">instagram</th>
               <td>278</td>
-              <td>10</td>
-              <td><span class="status-badge status-degraded">部分異常</span></td>
+              <td></td>
+              <td><span class="status-badge status-ok">正常</span></td>
             </tr>
 
 
@@ -251,8 +251,8 @@
             <tr>
               <th scope="row">x</th>
               <td>13</td>
-              <td>3</td>
-              <td><span class="status-badge status-degraded">部分異常</span></td>
+              <td></td>
+              <td><span class="status-badge status-ok">正常</span></td>
             </tr>
 
 
@@ -279,123 +279,7 @@
             <p class="data-date">最多顯示 20 筆</p>
           </div>
           <div class="status-error-list">
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-07-04T10:53:09+08:00 · instagram</span>
-                <strong>EMPA 口琴課程</strong>
-              </div>
-              <p>ig_story_empa_oficial:3933166037856166899_61361535609: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets in 1 day. To continu</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-07-04T10:53:09+08:00 · instagram</span>
-                <strong>EMPA 口琴課程</strong>
-              </div>
-              <p>ig_story_empa_oficial:3933169843893475822_61361535609: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets in 1 day. To continu</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-07-04T10:53:09+08:00 · instagram</span>
-                <strong>EMPA 口琴課程</strong>
-              </div>
-              <p>ig_story_empa_oficial:3933174505510049807_61361535609: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets in 1 day. To continu</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-07-04T10:53:09+08:00 · instagram</span>
-                <strong>EMPA 口琴課程</strong>
-              </div>
-              <p>ig_story_empa_oficial:3933176230224622889_61361535609: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets in 1 day. To continu</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-07-04T10:53:09+08:00 · instagram</span>
-                <strong>EMPA 口琴課程</strong>
-              </div>
-              <p>ig_story_empa_oficial:3933181161836943427_61361535609: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets in 1 day. To continu</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-07-04T10:53:09+08:00 · instagram</span>
-                <strong>EMPA 口琴課程</strong>
-              </div>
-              <p>ig_story_empa_oficial:3933187718549093242_61361535609: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets in 1 day. To continu</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-07-04T10:53:09+08:00 · instagram</span>
-                <strong>EMPA 口琴課程</strong>
-              </div>
-              <p>ig_story_empa_oficial:3933197099135176723_61361535609: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets in 1 day. To continu</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-07-04T10:53:09+08:00 · instagram</span>
-                <strong>EMPA 口琴課程</strong>
-              </div>
-              <p>ig_story_empa_oficial:3933186078668546400_61361535609: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets in 1 day. To continu</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-07-04T10:53:09+08:00 · instagram</span>
-                <strong>EMPA 口琴課程</strong>
-              </div>
-              <p>ig_story_empa_oficial:3933193417660356286_61361535609: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets in 1 day. To continu</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-07-04T10:53:09+08:00 · instagram</span>
-                <strong>EMPA 口琴課程</strong>
-              </div>
-              <p>ig_story_empa_oficial:3933192531437436718_61361535609: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets in 1 day. To continu</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-07-04T10:53:09+08:00 · x</span>
-                <strong>F.I.H. JAPAN ハーモニカコンテスト</strong>
-              </div>
-              <p>x_moridaira_mi:https://twitter.com/moridaira_mi/status/2073236892112605615: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-07-04T10:53:09+08:00 · x</span>
-                <strong>F.I.H. JAPAN ハーモニカコンテスト</strong>
-              </div>
-              <p>x_moridaira_mi:https://twitter.com/moridaira_mi/status/2073230803568669161: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets</p>
-            </article>
-
-
-            <article class="status-error-item">
-              <div>
-                <span class="feed-latest-meta">2026-07-04T10:53:09+08:00 · x</span>
-                <strong>F.I.H. JAPAN ハーモニカコンテスト</strong>
-              </div>
-              <p>x_moridaira_mi:https://twitter.com/moridaira_mi/status/2073230807905505688: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets</p>
-            </article>
-
+            <div class="empty-state">最新抓取批次沒有記錄中的錯誤。</div>
           </div>
         </div>
       </section>
