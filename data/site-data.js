@@ -8852,12 +8852,16 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "臺中系年輕演奏者",
       "structuredSummary": "臺中系年輕演奏者 / 複音/半音階 / 演出人員",
-      "summary": "臺中年輕口琴演奏者，專精複音與半音階。",
+      "summary": "臺中市街頭藝人（證照編號：A1140404）。2024年首爾國際口琴節複音獨奏青少年組第一名，2023年臺灣口琴音樂節複音獨奏公開組第一名。曾多次隨博凱愛樂口琴交響樂團演出。",
       "keywords": "陳柏宏 口琴",
       "links": [
         {
           "label": "網站",
           "url": "https://buskers.taichung.gov.tw/index.php?inter=busker_intro&page=154&kind_1=1&id=A1140404"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chen._.166/"
         },
         {
           "label": "YouTube",
@@ -8874,13 +8878,30 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "陳柏",
       "sourceTags": [
         "演奏者",
-        "十孔",
-        "半音階",
-        "複音"
+        "複音",
+        "半音階"
       ],
-      "sourceSummary": "臺中年輕口琴演奏者，專精複音與半音階。",
-      "sourceTagReason": "分類明確為「演奏者」，且明確提及「複音/半音階」，故標相關標籤。",
+      "sourceSummary": "臺中市街頭藝人（證照編號：A1140404）。2024年首爾國際口琴節複音獨奏青少年組第一名，2023年臺灣口琴音樂節複音獨奏公開組第一名。曾多次隨博凱愛樂口琴交響樂團演出。",
+      "sourceTagReason": "手動新增與整合自臺中街頭藝人資料與社群資訊。",
       "monitorSources": [
+        {
+          "id": "ig_chen_166",
+          "name": "陳柏宏",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chen._.166",
+          "profileUrl": "https://www.instagram.com/chen._.166/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chen_166",
+          "name": "陳柏宏",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chen._.166",
+          "profileUrl": "https://www.instagram.com/chen._.166/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chen._.166/story/0"
+        },
         {
           "id": "yt_uc6xjefsojniejsni3vz_wsa",
           "name": "陳柏宏",
@@ -14048,14 +14069,14 @@ window.HARMONICA_OBSERVE_DATA = {
       "馬來西亞": 13
     },
     "watchSources": {
-      "totalSources": 572,
-      "rsshubSources": 299,
+      "totalSources": 574,
+      "rsshubSources": 301,
       "apifySources": 147,
       "facebookSources": 147,
       "youtubeSources": 126,
       "platforms": {
         "facebook": 147,
-        "instagram": 284,
+        "instagram": 286,
         "threads": 3,
         "x": 12,
         "youtube": 126
@@ -14063,8 +14084,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "types": {
         "facebook_page_posts": 147,
         "rss": 15,
-        "rsshub_instagram_profile": 142,
-        "rsshub_instagram_story": 142,
+        "rsshub_instagram_profile": 143,
+        "rsshub_instagram_story": 143,
         "youtube_ytdlp": 126
       }
     }
