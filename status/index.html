@@ -59,9 +59,9 @@
           <div class="feed-page-summary status-summary-panel">
             <div class="status-summary-line">
               <span class="status-badge status-ok">正常</span>
-              <strong>核心資料抓取與公開 API 正常。 Instagram RSSHub 目前依排程或預算節流。</strong>
+              <strong>核心資料抓取與公開 API 正常。 Instagram RSSHub、Facebook Apify 目前依排程或預算節流。</strong>
             </div>
-            <p>快照時間 2026-07-05T01:10:02+08:00</p>
+            <p>快照時間 2026-07-05T01:13:00+08:00</p>
             <div class="feed-links">
               <a href="/api/status.json">Status JSON</a>
               <a href="/api/latest.json">Latest API</a>
@@ -78,13 +78,13 @@
               <p class="section-kicker">Snapshot</p>
               <h2 id="status-overview-title">目前快照</h2>
             </div>
-            <p class="data-date">資料時間 2026-07-05T01:09:47+08:00</p>
+            <p class="data-date">資料時間 2026-07-05T01:12:45+08:00</p>
           </div>
           <div class="status-metric-grid">
 
       <article class="status-metric-card">
         <span>公開更新</span>
-        <strong>952</strong>
+        <strong>958</strong>
         <p>最近 30 天</p>
       </article>
 
@@ -105,7 +105,7 @@
 
       <article class="status-metric-card">
         <span>目前錯誤</span>
-        <strong></strong>
+        <strong>9</strong>
         <p>最新抓取批次</p>
       </article>
 
@@ -120,7 +120,7 @@
               <p class="section-kicker">Collectors</p>
               <h2 id="status-components-title">元件狀態</h2>
             </div>
-            <p class="data-date">最新社群觀測 2026-07-05T01:09:37+08:00</p>
+            <p class="data-date">最新社群觀測 2026-07-05T01:12:23+08:00</p>
           </div>
           <div class="status-component-grid">
 
@@ -130,7 +130,7 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>定期 pipeline 已產生公開資料快照。</p>
-        <ul class="status-detail-list"><li>最新公開資料：2026-07-05 01:09:47</li><li>pipeline.log 更新：2026-07-05 00:40:24</li><li>pipeline.err.log 更新：2026-07-05 00:40:24</li><li>LaunchAgent：not running，last exit 0</li></ul>
+        <ul class="status-detail-list"><li>最新公開資料：2026-07-05 01:12:45</li><li>pipeline.log 更新：2026-07-05 01:13:00</li><li>pipeline.err.log 更新：2026-07-05 01:12:57</li><li>LaunchAgent：running，last exit 0</li></ul>
       </article>
 
 
@@ -139,7 +139,7 @@
           <h2>公開 API</h2>
           <span class="status-badge status-ok">正常</span>
         </div>
-        <p>latest.json 有 952 筆更新，sources.json 有 202 筆公開目錄。</p>
+        <p>latest.json 有 958 筆更新，sources.json 有 202 筆公開目錄。</p>
         <ul class="status-detail-list"><li>更新視窗：30 天</li><li>watch sources：564</li></ul>
       </article>
 
@@ -150,7 +150,7 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>本機 RSSHub 入口回 200。</p>
-        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：13 ms</li></ul>
+        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：27 ms</li></ul>
       </article>
 
 
@@ -160,7 +160,7 @@
           <span class="status-badge status-paused">節流中</span>
         </div>
         <p>280 個 Instagram 來源（profile 140、story 140）；最新抓取批次目前 0 個錯誤。</p>
-        <ul class="status-detail-list"><li>最新社群觀測：2026-07-05 01:09:37</li><li>story 無公開內容/空路由略過：0</li><li>IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。</li><li>本輪 IG：抓取 2、排程略過 278、延後 0、錯誤 0。</li><li>下一個 IG 來源：約 2026-07-05 01:10:35</li></ul>
+        <ul class="status-detail-list"><li>最新社群觀測：2026-07-05 01:12:23</li><li>story 無公開內容/空路由略過：0</li><li>IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。</li><li>本輪 IG：抓取 1、排程略過 279、延後 0、錯誤 0。</li><li>下一個 IG 來源：約 2026-07-05 01:15:14</li></ul>
       </article>
 
 
@@ -174,13 +174,13 @@
       </article>
 
 
-      <article class="status-component-card status-card-ok">
+      <article class="status-component-card status-card-paused">
         <div class="status-component-head">
           <h2>Facebook Apify</h2>
-          <span class="status-badge status-ok">正常</span>
+          <span class="status-badge status-paused">節流中</span>
         </div>
-        <p>145 個 Facebook 來源。 Apify token/quota check 正常。</p>
-        <ul class="status-detail-list"><li>最近成功 run：2026-07-04 01:51:54</li><li>最近新增 inbox：2</li><li>due sources：10</li><li>selected this check：10</li><li>min sources per run：8</li><li>遠端月額度剩餘：$1.54</li><li>規劃單次預算：$0.13</li></ul>
+        <p>145 個 Facebook 來源。 目前依預算 pacing 暫停開 run，等待 due 來源累積。</p>
+        <ul class="status-detail-list"><li>最近成功 run：2026-07-05 01:10:48</li><li>最近新增 inbox：9</li><li>due sources：0</li><li>selected this check：0</li><li>min sources per run：8</li><li>遠端月額度剩餘：$1.41</li><li>規劃單次預算：$0.12</li></ul>
       </article>
 
 
@@ -190,7 +190,7 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>125 個 YouTube 來源；最近 run error_count=0。</p>
-        <ul class="status-detail-list"><li>最近完成：2026-07-05 00:39:27</li><li>最近新增 inbox：1</li></ul>
+        <ul class="status-detail-list"><li>最近完成：2026-07-05 01:10:31</li><li>最近新增 inbox：0</li></ul>
       </article>
 
 
@@ -228,8 +228,8 @@
             <tr>
               <th scope="row">facebook</th>
               <td>145</td>
-              <td></td>
-              <td><span class="status-badge status-ok">正常</span></td>
+              <td>9</td>
+              <td><span class="status-badge status-degraded">部分異常</span></td>
             </tr>
 
 
@@ -280,7 +280,87 @@
             <p class="data-date">最多顯示 20 筆</p>
           </div>
           <div class="status-error-list">
-            <div class="empty-state">最新抓取批次沒有記錄中的錯誤。</div>
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-07-05T01:12:23+08:00 · facebook</span>
+                <strong>Deak Harp</strong>
+              </div>
+              <p>fb_deak_harp:10244131211998666: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets in 1 day. To continue using this model now,</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-07-05T01:12:23+08:00 · facebook</span>
+                <strong>Deak Harp</strong>
+              </div>
+              <p>fb_deak_harp:10244101543536973: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets in 1 day. To continue using this model now,</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-07-05T01:12:23+08:00 · facebook</span>
+                <strong>Evelyn Choong 鍾雪兒</strong>
+              </div>
+              <p>fb_evelyn_choong_3:10163349271582634: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets in 1 day. To continue using this mode</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-07-05T01:12:23+08:00 · facebook</span>
+                <strong>Evelyn Choong 鍾雪兒</strong>
+              </div>
+              <p>fb_evelyn_choong_3:10163328724172634: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets in 1 day. To continue using this mode</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-07-05T01:12:23+08:00 · facebook</span>
+                <strong>Evelyn Choong 鍾雪兒</strong>
+              </div>
+              <p>fb_evelyn_choong_3:10163319896717634: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets in 1 day. To continue using this mode</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-07-05T01:12:23+08:00 · facebook</span>
+                <strong>Sigmund Groven</strong>
+              </div>
+              <p>fb_thesigmundgrovenpage:956148764149788: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets in 1 day. To continue using this m</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-07-05T01:12:23+08:00 · facebook</span>
+                <strong>口琴愛好者協會（新加坡）</strong>
+              </div>
+              <p>fb_harmonicamusiclovers:1651929056939167: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets in 1 day. To continue using this </p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-07-05T01:12:23+08:00 · facebook</span>
+                <strong>香港中華基督教青年會口琴樂團</strong>
+              </div>
+              <p>fb_chinese_ymca_of_hong_kong_harmonica_orchestra_185471864816806:1542826947635803: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached.</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-07-05T01:12:23+08:00 · facebook</span>
+                <strong>馬來西亞口琴節</strong>
+              </div>
+              <p>fb_malaysiaharmonicafestival:1012891638165668: LLM classification failed: LLM curl exited 22: {&quot;type&quot;:&quot;error&quot;,&quot;error&quot;:{&quot;type&quot;:&quot;GoUsageLimitError&quot;,&quot;message&quot;:&quot;Weekly usage limit reached. Resets in 1 day. To continue using </p>
+            </article>
+
           </div>
         </div>
       </section>

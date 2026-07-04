@@ -2459,10 +2459,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-07-03T11:05:15+00:00",
+      "latestUpdateAt": "2026-07-03T11:05:26+00:00",
       "latestUpdateLocal": "2026-07-03 19:05",
       "latestUpdateSource": "馬來西亞口琴節",
-      "latestUpdateUrl": "https://www.instagram.com/p/DaVBKU3BbGT/",
+      "latestUpdateUrl": "https://www.facebook.com/reel/1356690656430317/",
       "avatarUrl": "/assets/source-avatars/ff675f90d5ccd5b0e4a3.webp",
       "sourceInitials": "馬來",
       "sourceTags": [
@@ -4156,10 +4156,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-07-02T05:41:00+00:00",
-      "latestUpdateLocal": "2026-07-02 13:41",
+      "latestUpdateAt": "2026-07-02T05:43:01+00:00",
+      "latestUpdateLocal": "2026-07-02 13:43",
       "latestUpdateSource": "Sigmund Groven",
-      "latestUpdateUrl": "https://www.instagram.com/p/DaR3OT5jLv2/",
+      "latestUpdateUrl": "https://www.facebook.com/TheSigmundGrovenPage/posts/pfbid0iPUCy39dSPRmQdBdhc8wbjyP8TBnnQ3AAqE9sHKPG1iBTsFnGL8S4GKecVYzm94Ul",
       "avatarUrl": "/assets/source-avatars/c381e2362ad5ae638a2e.webp",
       "sourceInitials": "SG",
       "sourceTags": [
@@ -5342,6 +5342,67 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@YFHarmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-159",
+      "publicId": "159",
+      "name": "香港中華基督教青年會口琴樂團",
+      "nameEn": "Hong Kong Chinese YMCA Harmonica Orchestra",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "香港口琴樂團/教育推廣/年度音樂會",
+      "structuredSummary": "香港口琴樂團/教育推廣/年度音樂會 / 口琴合奏 / 國際演出團體/教育來源",
+      "summary": "香港的口琴合奏國際演出團體與教育來源，活動脈絡包含香港口琴樂團、教育推廣與年度音樂會。",
+      "keywords": "香港中華基督教青年會口琴樂團 Hong Kong Chinese YMCA Harmonica Orchestra HKCYMCA harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://ymcaho.org/wp/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Chinese-YMCA-of-Hong-Kong-Harmonica-Orchestra-185471864816806/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@chineseymcaofhongkongharmo9428"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-29T07:04:21+00:00",
+      "latestUpdateLocal": "2026-06-29 15:04",
+      "latestUpdateSource": "香港中華基督教青年會口琴樂團",
+      "latestUpdateUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid08zJQn7fJ1wECjgKfCiP9dm6RYLXHR2SEuTRMc18nC9ZNz7dNgVNzWRqJh4jNTJWFl&id=100057255378181",
+      "avatarUrl": "/assets/source-avatars/eb0d521c6cc58e56b891.webp",
+      "sourceInitials": "香港",
+      "sourceTags": [
+        "團體樂團",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_chinese_ymca_of_hong_kong_harmonica_orchestra_185471864816806",
+          "name": "香港中華基督教青年會口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Chinese-YMCA-of-Hong-Kong-Harmonica-Orchestra-185471864816806",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_chineseymcaofhongkongharmo9428",
+          "name": "香港中華基督教青年會口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@chineseymcaofhongkongharmo9428",
           "feedUrl": ""
         }
       ]
@@ -6843,67 +6904,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCEOv_Vq5jTdA7WKnEvA-08A",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-159",
-      "publicId": "159",
-      "name": "香港中華基督教青年會口琴樂團",
-      "nameEn": "Hong Kong Chinese YMCA Harmonica Orchestra",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "香港口琴樂團/教育推廣/年度音樂會",
-      "structuredSummary": "香港口琴樂團/教育推廣/年度音樂會 / 口琴合奏 / 國際演出團體/教育來源",
-      "summary": "香港的口琴合奏國際演出團體與教育來源，活動脈絡包含香港口琴樂團、教育推廣與年度音樂會。",
-      "keywords": "香港中華基督教青年會口琴樂團 Hong Kong Chinese YMCA Harmonica Orchestra HKCYMCA harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://ymcaho.org/wp/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Chinese-YMCA-of-Hong-Kong-Harmonica-Orchestra-185471864816806/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@chineseymcaofhongkongharmo9428"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-17T02:15:48+00:00",
-      "latestUpdateLocal": "2026-06-17 10:15",
-      "latestUpdateSource": "香港中華基督教青年會口琴樂團",
-      "latestUpdateUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid0XyXz1dzEgMU8M8VBANNFto3KpSgMABzVN88vyzsYwZLzTf5onnVmNm1tKx5uuobbl&id=100057255378181",
-      "avatarUrl": "/assets/source-avatars/eb0d521c6cc58e56b891.webp",
-      "sourceInitials": "香港",
-      "sourceTags": [
-        "團體樂團",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_chinese_ymca_of_hong_kong_harmonica_orchestra_185471864816806",
-          "name": "香港中華基督教青年會口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Chinese-YMCA-of-Hong-Kong-Harmonica-Orchestra-185471864816806",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_chineseymcaofhongkongharmo9428",
-          "name": "香港中華基督教青年會口琴樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@chineseymcaofhongkongharmo9428",
           "feedUrl": ""
         }
       ]
