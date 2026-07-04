@@ -1340,6 +1340,11 @@ def directory_entry_lookup() -> dict[str, dict[str, str]]:
                 key = match_url_key(link.get("url"))
                 if key:
                     lookup[f"url:{key}"] = info
+        for source in entry.get("monitorSources") or []:
+            if isinstance(source, dict):
+                source_id = str(source.get("id") or "").strip()
+                if source_id:
+                    lookup[f"source_id:{source_id}"] = info
         for field in ("name", "nameEn"):
             key = match_text_key(entry.get(field))
             if key:
@@ -1352,6 +1357,10 @@ def directory_entry_lookup() -> dict[str, dict[str, str]]:
 
 
 def directory_profile_for_update(row: dict[str, Any], profile: dict[str, str], source_name: str, source_profile_url: str, link: str) -> dict[str, str]:
+    source_id = str(row.get("source_id") or "").strip()
+    if source_id and f"source_id:{source_id}" in DIRECTORY_ENTRY_BY_KEY:
+        return DIRECTORY_ENTRY_BY_KEY[f"source_id:{source_id}"]
+
     for value in (
         source_profile_url,
         row.get("source_profile_url"),
