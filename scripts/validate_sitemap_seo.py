@@ -87,6 +87,55 @@ def validate_source_index(errors: list[str]) -> None:
         )
 
 
+def validate_dataset_structured_data(errors: list[str]) -> None:
+    scores_index = SITE_ROOT / "scores" / "index.html"
+    if not scores_index.exists():
+        errors.append("missing scores index page: site/scores/index.html")
+        return
+    content = scores_index.read_text(encoding="utf-8")
+    
+    # Extract all application/ld+json blocks
+    json_ld_blocks = []
+    for match in re.finditer(
+        r'<script\s+[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',
+        content,
+        re.DOTALL | re.IGNORECASE,
+    ):
+        raw = match.group(1).strip()
+        try:
+            json_ld_blocks.append(json.loads(raw))
+        except json.JSONDecodeError:
+            pass # validate_json_ld will already catch JSON syntax errors
+            
+    # Look for Dataset type in json_ld_blocks
+    dataset_block = None
+    for block in json_ld_blocks:
+        if isinstance(block, dict) and block.get("@type") == "Dataset":
+            dataset_block = block
+            break
+            
+    if not dataset_block:
+        errors.append("site/scores/index.html is missing a JSON-LD block with @type: Dataset")
+        return
+        
+    # Check dataset structured data properties
+    description = dataset_block.get("description")
+    if not description:
+        errors.append("Dataset in site/scores/index.html is missing a description")
+    elif len(description) < 50:
+        errors.append(f"Dataset description in site/scores/index.html is too short ({len(description)} characters, expected >= 50)")
+        
+    url = dataset_block.get("url")
+    expected_url = "https://harmonica.observe.tw/scores/"
+    if url != expected_url:
+        errors.append(f"Dataset url in site/scores/index.html: expected '{expected_url}', got '{url}'")
+        
+    dataset_id = dataset_block.get("@id")
+    expected_id = "https://harmonica.observe.tw/scores/#dataset"
+    if dataset_id != expected_id:
+        errors.append(f"Dataset @id in site/scores/index.html: expected '{expected_id}', got '{dataset_id}'")
+
+
 def sitemap_urls() -> tuple[list[str], list[str]]:
     if not SITEMAP_XML.exists():
         return [], [f"missing sitemap: {SITEMAP_XML.relative_to(PROJECT_ROOT)}"]
@@ -141,6 +190,7 @@ def main() -> int:
     print(f"Validating {len(urls)} URLs in sitemap.xml...")
     validate_sitemap_urls(urls, errors)
     validate_source_index(errors)
+    validate_dataset_structured_data(errors)
     if errors:
         for error in errors:
             print(f"ERROR: {error}", file=sys.stderr)
