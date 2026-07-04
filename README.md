@@ -31,16 +31,16 @@
 │   ├── sources/                 # 人工維護的公開來源 CSV
 │   └── feeds/                   # 本機 runtime feed inbox、候選更新與快取（不進 git）
 ├── scripts/                     # 資料建置、社群抓取、RSS/API 產生工具
-├── site/                        # 靜態網站根目錄
+├── site/                        # 本機靜態站輸出根目錄；main 只追蹤手寫/source assets
 │   ├── api/                     # 產生出的公開 JSON API（不進 git）
 │   ├── assets/                  # CSS、JS、logo、favicon；feed 圖片與頭貼快取不進 git
 │   ├── data/                    # 前端讀取的 JS data bundle（不進 git）
-│   ├── directory/               # 舊公開來源路徑轉址
-│   ├── post/                    # 公開貼文河道；source/ 為公開來源索引頁
+│   ├── directory/               # 舊公開來源路徑轉址（產生輸出，不進 main）
+│   ├── post/                    # 公開貼文河道；source/ 為公開來源索引頁（產生輸出，不進 main）
 │   ├── feeds/                   # RSS、分類頁與分類 JSON（不進 git）
-│   ├── score-sources/           # 舊口琴譜源路徑轉址
-│   ├── scores/                  # 學生音樂比賽指定曲索引頁；sources/ 為口琴譜源索引頁
-│   └── submit/                  # 資料回報頁
+│   ├── score-sources/           # 舊口琴譜源路徑轉址（產生輸出，不進 main）
+│   ├── scores/                  # 學生音樂比賽指定曲索引頁；sources/ 為口琴譜源索引頁（產生輸出，不進 main）
+│   └── submit/                  # 資料回報頁（產生輸出，不進 main）
 ├── state/                       # 本機執行狀態與分類快取（不進 git）
 ├── .github/ISSUE_TEMPLATE/      # 公開資料回報 issue form
 └── README.md
@@ -59,13 +59,20 @@
 - `data/feeds/social_sources.json`：由 CSV 轉出的公開社群監看來源設定。
 - `data/feeds/social_feed_inbox.jsonl`：YouTube / Facebook 抓取工具正規化後的公開貼文 inbox。
 - `data/feeds/social_candidates.jsonl`：watchdog 篩選後的公開候選更新。
-- `site/data/site-data.js`：前端資料索引使用的產生資料包。
-- `site/api/*.json`：給外部工具或 Bamboo Hermes 讀取的公開 API。
-- `site/feeds/*.xml` 與 `site/feeds/*.json`：公開 RSS 與對應 JSON。
+- `site/assets/styles.css`、`site/assets/app.js` 與品牌圖檔：網站前端 source assets，保留在 `main`。
+- `site/data/site-data.js`：前端資料索引使用的產生資料包，不保留在 `main`。
+- `site/api/*.json`：給外部工具或 Bamboo Hermes 讀取的公開 API，不保留在 `main`。
+- `site/feeds/*.xml` 與 `site/feeds/*.json`：公開 RSS 與對應 JSON，不保留在 `main`。
 
 ## 建置與發佈
 
-這個 repo 的 source of truth 是 `data/sources/*.csv`、`scripts/` 與網站原始檔。抓取狀態、LLM/cache、公開 API、RSS、前端 data bundle、feed 圖片與頭貼都是執行 pipeline 後產生的 publish output，預設不納入 git。
+這個 repo 的 `main` source of truth 是 `data/sources/*.csv`、`scripts/` 與網站 source assets。抓取狀態、LLM/cache、公開 API、RSS、前端 data bundle、SEO HTML、sitemap、feed 圖片與頭貼都是執行 pipeline 後產生的 publish output，預設不納入 `main`。
+
+完整靜態網站發布內容由 `gh-pages` 分支保存。本機對應 worktree 通常是：
+
+```bash
+/Users/skyhong/Documents/Harmonica-in-Taiwan-gh-pages
+```
 
 本機或發佈機器要產生完整靜態站台時，執行：
 
@@ -73,13 +80,27 @@
 python3 scripts/run_pipeline.py
 ```
 
-`run_pipeline.py` 會依序重建監看來源、抓取公開更新、產生 `site/data`、`site/api`、`site/feeds`、`site/status` 與圖片快取，最後執行：
+`run_pipeline.py` 會依序重建監看來源、抓取公開更新、產生 `site/data`、`site/api`、`site/feeds`、`site/status`、SEO HTML 與圖片快取，最後執行：
 
 ```bash
 python3 scripts/validate_public_outputs.py
 ```
 
 驗證會檢查 generated JSON/JS 是否可解析、`status.json` 的公開目錄與監看來源數是否和 `sources.json` 一致，以及所有公開輸出引用的 feed 圖片/來源頭貼是否存在。驗證失敗時不要發佈該次輸出。
+
+要發布正式站時使用：
+
+```bash
+python3 scripts/run_pipeline.py --publish-pages
+```
+
+或在已產生 `site/` 後執行：
+
+```bash
+python3 scripts/publish_github_pages.py
+```
+
+這會把 generated `site/` 快照複製到 `gh-pages` worktree 並推送發布分支；不要把 generated HTML/API/RSS 產物 commit 回 `main`。
 
 公開來源 CSV 維護規則：
 

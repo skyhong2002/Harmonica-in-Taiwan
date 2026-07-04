@@ -18,6 +18,16 @@ data/feeds/social_sources.json
 data/feeds/source_profiles.json
 
 # Generated public site outputs.
+site/*.html
+site/directory/
+site/event/
+site/post/
+site/score-sources/
+site/scores/
+site/source/
+site/submit/
+site/robots.txt
+site/sitemap.xml
 site/api/
 site/data/
 site/feeds/
