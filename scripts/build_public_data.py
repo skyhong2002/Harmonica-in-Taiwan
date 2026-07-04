@@ -775,6 +775,7 @@ def apply_source_tags(entry: dict[str, object], cache: dict[str, dict[str, Any]]
     summary = normalize_taiwan_orthography(str(cached.get("sourceSummary") or cached.get("summary") or ""))
     if summary:
         entry["sourceSummary"] = summary
+        entry["summary"] = summary
 
     reason = normalize_taiwan_orthography(str(cached.get("sourceTagReason") or cached.get("reason") or ""))
     if reason:
