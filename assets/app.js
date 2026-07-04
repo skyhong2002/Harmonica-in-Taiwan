@@ -2668,9 +2668,9 @@
       searchValue: state.query,
       searchPlaceholder: "搜尋名稱、城市、類型、關鍵字",
       groups: [
+        { label: "類型", name: "sourceType", values: sourceTypes, activeValues: state.sourceType, fallbackLabel: "全部類型", ariaLabel: "類型篩選，可複選", disclosure: true, open: state.sourceTypeExpanded, disclosureAttribute: "data-directory-source-type-disclosure", countLabel: `${sourceTypes.length} 個類型` },
         { label: "國家", name: "country", values: countries, activeValues: state.country, fallbackLabel: "全部國家", ariaLabel: "國家篩選，可複選" },
         { label: "區域", name: "region", values: regions, activeValues: state.region, fallbackLabel: "全部區域", ariaLabel: "區域篩選，可複選", disclosure: true, open: state.regionExpanded, disclosureAttribute: "data-directory-region-disclosure", countLabel: `${regions.length} 個區域` },
-        { label: "類型", name: "sourceType", values: sourceTypes, activeValues: state.sourceType, fallbackLabel: "全部類型", ariaLabel: "類型篩選，可複選", disclosure: true, open: state.sourceTypeExpanded, disclosureAttribute: "data-directory-source-type-disclosure", countLabel: `${sourceTypes.length} 個類型` },
         { label: "Tag", name: "hashtags", values: sourceTags, activeValues: state.hashtags, fallbackLabel: "全部 tag", ariaLabel: "Tag 篩選，可複選" },
       ],
     });

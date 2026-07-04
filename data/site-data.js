@@ -2,7 +2,7 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-04",
   "entries": [
     {
-      "id": "watchlist-80",
+      "id": "watchlist-79",
       "name": "衛武營國家藝術文化中心",
       "nameEn": "",
       "category": "場館平台",
@@ -88,7 +88,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-167",
+      "id": "watchlist-166",
       "name": "新加坡青年節藝術展演（口琴）",
       "nameEn": "Singapore Youth Festival Arts Presentation - Harmonica",
       "category": "活動資訊",
@@ -157,7 +157,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-107",
+      "id": "watchlist-106",
       "name": "Timothy Yip 葉進禧",
       "nameEn": "Timothy Yip",
       "category": "演奏者",
@@ -326,7 +326,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-96",
+      "id": "watchlist-95",
       "name": "RedBricks Harmonica",
       "nameEn": "RedBricks Harmonica",
       "category": "團體樂團",
@@ -589,7 +589,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-150",
+      "id": "watchlist-149",
       "name": "Yoonseok Lee",
       "nameEn": "Yoonseok Lee",
       "category": "演奏者",
@@ -673,7 +673,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-165",
+      "id": "watchlist-164",
       "name": "口琴愛好者協會（新加坡）",
       "nameEn": "Harmonica Aficionados Society Singapore",
       "category": "國際交流",
@@ -741,7 +741,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-145",
+      "id": "watchlist-144",
       "name": "Howard Levy",
       "nameEn": "Howard Levy",
       "category": "演奏者",
@@ -825,7 +825,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-128",
+      "id": "watchlist-127",
       "name": "Jens Bunge",
       "nameEn": "Jens Bunge",
       "category": "演奏者",
@@ -895,7 +895,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-111",
+      "id": "watchlist-110",
       "name": "Rodrigo Eberienos",
       "nameEn": "Rodrigo Eberienos",
       "category": "演奏者",
@@ -974,7 +974,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-112",
+      "id": "watchlist-111",
       "name": "Boris Plotnikov",
       "nameEn": "Boris Plotnikov",
       "category": "演奏者",
@@ -1060,7 +1060,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-106",
+      "id": "watchlist-105",
       "name": "陳瑤容 Yora Chen",
       "nameEn": "Yora Chen",
       "category": "演奏者",
@@ -1212,7 +1212,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-135",
+      "id": "watchlist-134",
       "name": "Antonio Serrano",
       "nameEn": "Antonio Serrano",
       "category": "演奏者",
@@ -1296,7 +1296,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-186",
+      "id": "watchlist-185",
       "name": "EMPA 口琴課程",
       "nameEn": "EMPA Escuela de Música Popular de Avellaneda Armónica",
       "category": "國際交流",
@@ -1440,7 +1440,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-82",
+      "id": "watchlist-81",
       "name": "臺中國家歌劇院",
       "nameEn": "",
       "category": "場館平台",
@@ -1524,7 +1524,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-98",
+      "id": "watchlist-97",
       "name": "韋笙堡口琴 Weissenberg Harmonicas",
       "nameEn": "Weissenberg Harmonicas",
       "category": "教學器材",
@@ -1746,7 +1746,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-168",
+      "id": "watchlist-167",
       "name": "馬來西亞口琴節",
       "nameEn": "Malaysia Harmonica Festival",
       "category": "活動資訊",
@@ -1827,16 +1827,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-5",
+      "id": "watchlist-188",
       "name": "中一中口琴社",
       "nameEn": "TCFSH Harmonica",
       "category": "學校社團",
       "type": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺中",
-      "cityOrFocus": "臺中",
-      "structuredSummary": "臺中一中 / 口琴 / 學校社團",
-      "summary": "臺中一中的口琴學校社團。",
+      "cityOrFocus": "臺中一中/學校社團/臺中",
+      "structuredSummary": "臺中一中/學校社團/臺中 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
       "keywords": "中一中口琴社 TCFSH Harmonica 口琴社",
       "links": [
         {
@@ -1856,7 +1856,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.youtube.com/@%E5%8F%A3%E7%90%B4%E4%B9%8B%E7%8B%BC"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2026-07-03T09:52:52+00:00",
       "latestUpdateLocal": "2026-07-03 17:52",
@@ -2078,7 +2078,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-114",
+      "id": "watchlist-113",
       "name": "Lee Hangyeol 이한결",
       "nameEn": "Lee Hangyeol",
       "category": "演奏者",
@@ -2145,7 +2145,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-136",
+      "id": "watchlist-135",
       "name": "Indiara Sfair",
       "nameEn": "Indiara Sfair",
       "category": "演奏者",
@@ -2228,7 +2228,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-181",
+      "id": "watchlist-180",
       "name": "Harmonica FEN 口琴節與學院",
       "nameEn": "Harmonica FEN Festival & Academy",
       "category": "活動資訊",
@@ -2312,7 +2312,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-81",
+      "id": "watchlist-80",
       "name": "國家兩廳院",
       "nameEn": "",
       "category": "場館平台",
@@ -2398,7 +2398,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-130",
+      "id": "watchlist-129",
       "name": "Reyharp and Balawan Project",
       "nameEn": "Reyharp and Balawan Project",
       "category": "團體樂團",
@@ -2476,7 +2476,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-103",
+      "id": "watchlist-102",
       "name": "曹小歐",
       "nameEn": "Otis Tsao",
       "category": "演奏者",
@@ -2571,7 +2571,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-88",
+      "id": "watchlist-87",
       "name": "吹出好心琴 + Ou Frog",
       "nameEn": "Ou Frog",
       "category": "教學器材",
@@ -2732,7 +2732,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-27+watchlist-94",
+      "id": "watchlist-27+watchlist-93",
       "name": "音和樂器",
       "nameEn": "PeaceTones Harmonica",
       "category": "教學器材",
@@ -3224,7 +3224,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-124",
+      "id": "watchlist-123",
       "name": "Fresco Harmonica Ensemble",
       "nameEn": "Fresco Harmonica Ensemble",
       "category": "團體樂團",
@@ -3290,7 +3290,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-110",
+      "id": "watchlist-109",
       "name": "Konstantin Reinfeld",
       "nameEn": "Konstantin Reinfeld",
       "category": "演奏者",
@@ -3429,7 +3429,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-142",
+      "id": "watchlist-141",
       "name": "Lee Oskar",
       "nameEn": "Lee Oskar",
       "category": "演奏者",
@@ -3673,7 +3673,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-2+watchlist-75",
+      "id": "watchlist-2+watchlist-74",
       "name": "臺灣口琴音樂節 THMF",
       "nameEn": "Taiwan Harmonica Music Festival",
       "category": "活動資訊",
@@ -3846,7 +3846,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-159",
+      "id": "watchlist-158",
       "name": "Sigmund Groven",
       "nameEn": "Sigmund Groven",
       "category": "演奏者",
@@ -3989,7 +3989,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-90",
+      "id": "watchlist-89",
       "name": "藍波口琴教室",
       "nameEn": "Bluebo Harmonica",
       "category": "教學器材",
@@ -4052,16 +4052,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-8",
+      "id": "watchlist-191",
       "name": "逢甲口琴社",
       "nameEn": "FCU Harmonica",
       "category": "學校社團",
       "type": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺中",
-      "cityOrFocus": "臺中",
-      "structuredSummary": "逢甲大學 / 口琴 / 學校社團",
-      "summary": "逢甲大學的口琴學校社團。",
+      "cityOrFocus": "逢甲大學/學校社團/臺中",
+      "structuredSummary": "逢甲大學/學校社團/臺中 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
       "keywords": "逢甲口琴社 FCU Harmonica 口琴社",
       "links": [
         {
@@ -4077,7 +4077,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.youtube.com/@fengchiaharmonicaclub7692"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2026-07-02T01:25:00+00:00",
       "latestUpdateLocal": "2026-07-02 09:25",
@@ -4130,7 +4130,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-187",
+      "id": "watchlist-186",
       "name": "蔡明勳",
       "nameEn": "Ming-Hsun Tsai",
       "category": "演奏者",
@@ -4208,7 +4208,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-156",
+      "id": "watchlist-155",
       "name": "Santiago Alvarez",
       "nameEn": "Santiago Alvarez",
       "category": "演奏者",
@@ -4292,7 +4292,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-149",
+      "id": "watchlist-148",
       "name": "World Harmonica Festival",
       "nameEn": "World Harmonica Festival",
       "category": "活動資訊",
@@ -4362,7 +4362,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-104",
+      "id": "watchlist-103",
       "name": "何家健 HarmoniKahkean",
       "nameEn": "Ho Kah Kean / HarmoniKahkean",
       "category": "演奏者",
@@ -4445,7 +4445,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-108",
+      "id": "watchlist-107",
       "name": "Stay Drunk 口琴樂團",
       "nameEn": "Stay Drunk Harmonica Ensemble",
       "category": "團體樂團",
@@ -4510,7 +4510,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-118",
+      "id": "watchlist-117",
       "name": "Filip Jers",
       "nameEn": "Filip Jers",
       "category": "演奏者",
@@ -4594,16 +4594,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-16",
+      "id": "watchlist-197",
       "name": "彰女微光口琴社",
       "nameEn": "CHGSH Harmonica",
       "category": "學校社團",
       "type": "學校社團",
       "country": "臺灣",
       "region": "臺灣/彰化",
-      "cityOrFocus": "彰化",
-      "structuredSummary": "彰化女中 / 口琴 / 學校社團",
-      "summary": "彰化女中的口琴學校社團。",
+      "cityOrFocus": "彰化女中/學校社團/彰化",
+      "structuredSummary": "彰化女中/學校社團/彰化 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
       "keywords": "彰女微光口琴社 CHGSH Harmonica 口琴社",
       "links": [
         {
@@ -4611,7 +4611,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.instagram.com/chgsh_harmonica/"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2026-07-01T04:02:18+00:00",
       "latestUpdateLocal": "2026-07-01 12:02",
@@ -4724,7 +4724,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-78",
+      "id": "watchlist-77",
       "name": "新竹縣文化局",
       "nameEn": "",
       "category": "場館平台",
@@ -4808,7 +4808,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-177",
+      "id": "watchlist-176",
       "name": "Yellow Pine Harmonica Festival",
       "nameEn": "Yellow Pine Harmonica Festival",
       "category": "活動資訊",
@@ -4959,7 +4959,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-161",
+      "id": "watchlist-160",
       "name": "Deak Harp",
       "nameEn": "Deak Harp",
       "category": "演奏者",
@@ -5043,7 +5043,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-157",
+      "id": "watchlist-156",
       "name": "Orchestra Hohnerklang",
       "nameEn": "Orchester Hohnerklang",
       "category": "團體樂團",
@@ -5125,7 +5125,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-169",
+      "id": "watchlist-168",
       "name": "海明威口琴重奏團",
       "nameEn": "The HummingWay Harmonica Ensemble",
       "category": "活動資訊",
@@ -5277,7 +5277,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-121",
+      "id": "watchlist-120",
       "name": "Federico Linari",
       "nameEn": "Federico Linari",
       "category": "演奏者",
@@ -5361,7 +5361,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-185",
+      "id": "watchlist-184",
       "name": "布宜諾斯艾利斯口琴學校",
       "nameEn": "Escuela de Armónica de Buenos Aires",
       "category": "教學器材",
@@ -5499,7 +5499,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-152",
+      "id": "watchlist-151",
       "name": "Liam Ward & Malcolm Thorne",
       "nameEn": "Liam Ward & Malcolm Thorne",
       "category": "團體樂團",
@@ -5583,7 +5583,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-143",
+      "id": "watchlist-142",
       "name": "Gregoire Maret",
       "nameEn": "Gregoire Maret",
       "category": "演奏者",
@@ -5666,7 +5666,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-154",
+      "id": "watchlist-153",
       "name": "Rachelle Plas & Philippe Hervouet",
       "nameEn": "Rachelle Plas & Philippe Hervouet",
       "category": "團體樂團",
@@ -5815,7 +5815,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-174",
+      "id": "watchlist-173",
       "name": "口琴保存與推廣協會 SPAH",
       "nameEn": "Society for the Preservation and Advancement of the Harmonica",
       "category": "活動資訊",
@@ -5993,16 +5993,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-19",
+      "id": "watchlist-200",
       "name": "陽明交大竹韻口琴社",
       "nameEn": "Bamboo Melody Harmonica Club",
       "category": "學校社團",
       "type": "學校社團",
       "country": "臺灣",
       "region": "臺灣/新竹",
-      "cityOrFocus": "新竹",
-      "structuredSummary": "國立陽明交通大學 / 口琴 / 學校社團",
-      "summary": "國立陽明交通大學的口琴學校社團。",
+      "cityOrFocus": "國立陽明交通大學/學校社團/新竹",
+      "structuredSummary": "國立陽明交通大學/學校社團/新竹 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
       "keywords": "陽明交大竹韻口琴社 Bamboo Melody Harmonica Club NYCU 交通大學竹韻口琴社 口琴社",
       "links": [
         {
@@ -6018,7 +6018,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2026-06-25T17:00:11+00:00",
       "latestUpdateLocal": "2026-06-26 01:00",
@@ -6196,7 +6196,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-102",
+      "id": "watchlist-101",
       "name": "范曉怡",
       "nameEn": "",
       "category": "演奏者",
@@ -6275,7 +6275,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-146",
+      "id": "watchlist-145",
       "name": "Brendan Power",
       "nameEn": "Brendan Power",
       "category": "演奏者",
@@ -6338,7 +6338,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-93",
+      "id": "watchlist-92",
       "name": "臺北黃石口琴樂團",
       "nameEn": "Taipei Yellowstone Harmonica Ensemble",
       "category": "團體樂團",
@@ -6380,7 +6380,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-97",
+      "id": "watchlist-96",
       "name": "Duo Volce Music Studio 誼聲音樂室",
       "nameEn": "Duo Volce Music Studio",
       "category": "團體樂團",
@@ -6573,16 +6573,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-11",
+      "id": "watchlist-192",
       "name": "師大口琴研究社",
       "nameEn": "NTNU Harmonica Club",
       "category": "學校社團",
       "type": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺北",
-      "cityOrFocus": "臺北",
-      "structuredSummary": "國立臺灣師範大學 / 口琴 / 學校社團",
-      "summary": "國立臺灣師範大學的口琴學校社團。",
+      "cityOrFocus": "國立臺灣師範大學/學校社團/臺北",
+      "structuredSummary": "國立臺灣師範大學/學校社團/臺北 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
       "keywords": "師大口琴研究社 NTNU Harmonica Club 口琴社",
       "links": [
         {
@@ -6598,7 +6598,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.instagram.com/ntnu_harmonica_club/"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2026-06-21T02:23:58+00:00",
       "latestUpdateLocal": "2026-06-21 10:23",
@@ -6642,17 +6642,17 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-71+club-10",
+      "id": "watchlist-71",
       "name": "台大藍聲口琴社",
       "nameEn": "NTU Blue Sound Harmonica Club",
       "category": "學校社團",
       "type": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺北",
-      "cityOrFocus": "大學口琴社/成果發表/交流 / 臺北",
-      "structuredSummary": "臺灣大學 / 口琴 / 學校社團",
-      "summary": "臺灣大學的口琴學校社團。",
-      "keywords": "台大藍聲口琴社",
+      "cityOrFocus": "大學口琴社/成果發表/交流",
+      "structuredSummary": "大學口琴社/成果發表/交流 / 口琴社 / 學校社團",
+      "summary": "臺灣的口琴社學校社團。",
+      "keywords": "台大藍聲口琴社 臺大藍聲口琴社 NTU Blue Sound Harmonica Club 口琴社",
       "links": [
         {
           "label": "網站",
@@ -6671,7 +6671,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.youtube.com/@ntubluesound"
         }
       ],
-      "source": "club+watchlist",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2026-06-20T09:25:03+00:00",
       "latestUpdateLocal": "2026-06-20 17:25",
@@ -6724,16 +6724,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-74+club-9",
+      "id": "watchlist-73",
       "name": "萬興國小口琴隊",
       "nameEn": "",
       "category": "學校社團",
       "type": "學校/青年",
       "country": "臺灣",
       "region": "臺灣/臺北",
-      "cityOrFocus": "國小口琴隊 / 臺北",
-      "structuredSummary": "萬興國小 / 口琴隊 / 學校團隊",
-      "summary": "萬興國小的口琴隊學校團隊。",
+      "cityOrFocus": "國小口琴隊",
+      "structuredSummary": "國小口琴隊 / 口琴隊 / 學校團隊",
+      "summary": "臺灣的口琴隊學校團隊。",
       "keywords": "文山 萬興國小 口琴",
       "links": [
         {
@@ -6745,7 +6745,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.facebook.com/61574004532712/"
         }
       ],
-      "source": "club+watchlist",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2026-06-19T07:57:30+00:00",
       "latestUpdateLocal": "2026-06-19 15:57",
@@ -6770,16 +6770,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-24",
+      "id": "watchlist-204",
       "name": "早稻田大學ハーモニカ・ソサィアティ",
       "nameEn": "Waseda University Harmonica Society",
       "category": "學校社團",
       "type": "學校社團",
       "country": "日本",
       "region": "日本/東京",
-      "cityOrFocus": "東京",
-      "structuredSummary": "早稻田大學 / 口琴合奏/ハモソ / 學校社團",
-      "summary": "早稻田大學的口琴合奏與ハモソ學校社團。",
+      "cityOrFocus": "早稻田大學/學校社團/東京",
+      "structuredSummary": "早稻田大學/學校社團/東京 / 口琴合奏/ハモソ / 學校社團",
+      "summary": "日本的口琴合奏與ハモソ學校社團。",
       "keywords": "早稻田大學 ハーモニカ ソサィアティ Waseda Harmonica Society ハモソ 口琴社",
       "links": [
         {
@@ -6799,7 +6799,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://x.com/wasehamo"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2026-06-18T08:03:07+00:00",
       "latestUpdateLocal": "2026-06-18 16:03",
@@ -6852,7 +6852,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-162",
+      "id": "watchlist-161",
       "name": "香港中華基督教青年會口琴樂團",
       "nameEn": "Hong Kong Chinese YMCA Harmonica Orchestra",
       "category": "團體樂團",
@@ -6993,7 +6993,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-133",
+      "id": "watchlist-132",
       "name": "香港口琴協會 Hong Kong Harmonica Association",
       "nameEn": "Hong Kong Harmonica Association",
       "category": "團體樂團",
@@ -7075,7 +7075,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-101",
+      "id": "watchlist-100",
       "name": "蔡明憲 DMing Studio",
       "nameEn": "DMing Studio",
       "category": "教學器材",
@@ -7090,10 +7090,6 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "網站",
           "url": "https://dming.co/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/dming.tsai/"
         },
         {
           "label": "Instagram",
@@ -7121,15 +7117,6 @@ window.HARMONICA_OBSERVE_DATA = {
         "重奏"
       ],
       "monitorSources": [
-        {
-          "id": "fb_dming_tsai",
-          "name": "蔡明憲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/dming.tsai",
-          "feedUrl": ""
-        },
         {
           "id": "ig_dmingstudio",
           "name": "蔡明憲 DMing Studio",
@@ -7277,16 +7264,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-25",
+      "id": "watchlist-205",
       "name": "明治大學ハーモニカソサエティー",
       "nameEn": "Meiji University Harmonica Society",
       "category": "學校社團",
       "type": "學校社團",
       "country": "日本",
       "region": "日本/東京",
-      "cityOrFocus": "東京",
-      "structuredSummary": "明治大學 / 口琴合奏/ハモソ / 學校社團",
-      "summary": "明治大學的口琴合奏與ハモソ學校社團。",
+      "cityOrFocus": "明治大學/學校社團/東京",
+      "structuredSummary": "明治大學/學校社團/東京 / 口琴合奏/ハモソ / 學校社團",
+      "summary": "日本的口琴合奏與ハモソ學校社團。",
       "keywords": "明治大學 ハーモニカソサエティー Meiji Harmonica Society MHS ハモソ 口琴社",
       "links": [
         {
@@ -7310,7 +7297,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://x.com/meiji_hamoso"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2026-06-10T01:02:02+00:00",
       "latestUpdateLocal": "2026-06-10 09:02",
@@ -7454,16 +7441,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-13",
+      "id": "watchlist-194",
       "name": "建中口琴社",
       "nameEn": "CKHC 64th",
       "category": "學校社團",
       "type": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺北",
-      "cityOrFocus": "臺北",
-      "structuredSummary": "建國中學 / 口琴 / 學校社團",
-      "summary": "建國中學的口琴學校社團。",
+      "cityOrFocus": "建國中學/學校社團/臺北",
+      "structuredSummary": "建國中學/學校社團/臺北 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
       "keywords": "建中口琴社 CKHC 64th 口琴社",
       "links": [
         {
@@ -7479,7 +7466,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.youtube.com/@ckhc3423"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2026-06-06T08:59:56+00:00",
       "latestUpdateLocal": "2026-06-06 16:59",
@@ -7522,16 +7509,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-22",
+      "id": "watchlist-202",
       "name": "高雄中學口琴社",
       "nameEn": "KSHS Harmonica",
       "category": "學校社團",
       "type": "學校社團",
       "country": "臺灣",
       "region": "臺灣/高雄",
-      "cityOrFocus": "高雄",
-      "structuredSummary": "高雄中學 / 口琴 / 學校社團",
-      "summary": "高雄中學的口琴學校社團。",
+      "cityOrFocus": "高雄中學/學校社團/高雄",
+      "structuredSummary": "高雄中學/學校社團/高雄 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
       "keywords": "高雄中學口琴社 KSHS Harmonica 口琴社",
       "links": [
         {
@@ -7543,7 +7530,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.instagram.com/kshs_harmonica/"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2026-06-02T09:30:38+00:00",
       "latestUpdateLocal": "2026-06-02 17:30",
@@ -7586,16 +7573,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-6",
+      "id": "watchlist-189",
       "name": "中山醫藍韻口琴社",
       "nameEn": "CSMU Blue Melody",
       "category": "學校社團",
       "type": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺中",
-      "cityOrFocus": "臺中",
-      "structuredSummary": "中山醫學大學 / 口琴 / 學校社團",
-      "summary": "中山醫學大學的口琴學校社團。",
+      "cityOrFocus": "中山醫學大學/學校社團/臺中",
+      "structuredSummary": "中山醫學大學/學校社團/臺中 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
       "keywords": "中山醫藍韻口琴社 CSMU Blue Melody 口琴社",
       "links": [
         {
@@ -7615,7 +7602,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2026-06-02T08:35:29+00:00",
       "latestUpdateLocal": "2026-06-02 16:35",
@@ -7668,16 +7655,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-12",
+      "id": "watchlist-193",
       "name": "師大附中舒馨口琴社",
       "nameEn": "HSNU Cozy Harmonica",
       "category": "學校社團",
       "type": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺北",
-      "cityOrFocus": "臺北",
-      "structuredSummary": "師大附中 / 口琴 / 學校社團",
-      "summary": "師大附中的口琴學校社團。",
+      "cityOrFocus": "師大附中/學校社團/臺北",
+      "structuredSummary": "師大附中/學校社團/臺北 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
       "keywords": "師大附中舒馨口琴社 HSNU Cozy Harmonica 口琴社",
       "links": [
         {
@@ -7697,7 +7684,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.youtube.com/channel/UCTd9aZdWomWZtieKMKmxDlA"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2026-05-30T13:11:33+00:00",
       "latestUpdateLocal": "2026-05-30 21:11",
@@ -7834,7 +7821,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-89",
+      "id": "watchlist-88",
       "name": "桃園玩口琴",
       "nameEn": "",
       "category": "教學器材",
@@ -7878,16 +7865,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-18",
+      "id": "watchlist-199",
       "name": "清華大學口琴社",
       "nameEn": "NTHU Harmonica Club",
       "category": "學校社團",
       "type": "學校社團",
       "country": "臺灣",
       "region": "臺灣/新竹",
-      "cityOrFocus": "新竹",
-      "structuredSummary": "國立清華大學 / 口琴 / 學校社團",
-      "summary": "國立清華大學的口琴學校社團。",
+      "cityOrFocus": "國立清華大學/學校社團/新竹",
+      "structuredSummary": "國立清華大學/學校社團/新竹 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
       "keywords": "清華大學口琴社 NTHU Harmonica Club 口琴社",
       "links": [
         {
@@ -7907,7 +7894,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.youtube.com/channel/UC9jltWvJkMzNa3p-mbTIINQ"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2026-05-27T11:09:31+00:00",
       "latestUpdateLocal": "2026-05-27 19:09",
@@ -8032,16 +8019,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-17",
+      "id": "watchlist-198",
       "name": "彰師大白沙口琴社",
       "nameEn": "NCUE Harmonica",
       "category": "學校社團",
       "type": "學校社團",
       "country": "臺灣",
       "region": "臺灣/彰化",
-      "cityOrFocus": "彰化",
-      "structuredSummary": "國立彰化師範大學 / 口琴 / 學校社團",
-      "summary": "國立彰化師範大學的口琴學校社團。",
+      "cityOrFocus": "國立彰化師範大學/學校社團/彰化",
+      "structuredSummary": "國立彰化師範大學/學校社團/彰化 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
       "keywords": "彰師大白沙口琴社 NCUE Harmonica 口琴社",
       "links": [
         {
@@ -8061,7 +8048,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.youtube.com/channel/UCw8TcNJXpgX1Sf8CSUFKf1w"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2026-05-26T05:45:35+00:00",
       "latestUpdateLocal": "2026-05-26 13:45",
@@ -8114,7 +8101,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-91",
+      "id": "watchlist-90",
       "name": "巴巴口琴坊",
       "nameEn": "Baba Harmonica Studio",
       "category": "教學器材",
@@ -8194,7 +8181,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-100",
+      "id": "watchlist-99",
       "name": "進擊的口琴樂團",
       "nameEn": "",
       "category": "團體樂團",
@@ -8328,16 +8315,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-15",
+      "id": "watchlist-196",
       "name": "屏科大口琴社",
       "nameEn": "NPUST HMC",
       "category": "學校社團",
       "type": "學校社團",
       "country": "臺灣",
       "region": "臺灣/屏東",
-      "cityOrFocus": "屏東",
-      "structuredSummary": "國立屏東科技大學 / 口琴 / 學校社團",
-      "summary": "國立屏東科技大學的口琴學校社團。",
+      "cityOrFocus": "國立屏東科技大學/學校社團/屏東",
+      "structuredSummary": "國立屏東科技大學/學校社團/屏東 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
       "keywords": "屏科大口琴社 NPUST HMC 口琴社",
       "links": [
         {
@@ -8349,7 +8336,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.instagram.com/npust.hmc/"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2026-03-25T13:38:38+00:00",
       "latestUpdateLocal": "2026-03-25 21:38",
@@ -8552,16 +8539,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-7",
+      "id": "watchlist-190",
       "name": "臺中科大口琴社",
       "nameEn": "NUTC Harmonica",
       "category": "學校社團",
       "type": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺中",
-      "cityOrFocus": "臺中",
-      "structuredSummary": "國立臺中科技大學 / 口琴 / 學校社團",
-      "summary": "國立臺中科技大學的口琴學校社團。",
+      "cityOrFocus": "國立臺中科技大學/學校社團/臺中",
+      "structuredSummary": "國立臺中科技大學/學校社團/臺中 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
       "keywords": "臺中科大口琴社 NUTC Harmonica 口琴社",
       "links": [
         {
@@ -8581,7 +8568,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.youtube.com/@nutc_harmonica"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2025-12-19T03:58:28+00:00",
       "latestUpdateLocal": "2025-12-19 11:58",
@@ -8719,16 +8706,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-23",
+      "id": "watchlist-203",
       "name": "臺南一中口琴社",
       "nameEn": "TNFSH Harmonica",
       "category": "學校社團",
       "type": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺南",
-      "cityOrFocus": "臺南",
-      "structuredSummary": "臺南一中 / 口琴 / 學校社團",
-      "summary": "臺南一中的口琴學校社團。",
+      "cityOrFocus": "臺南一中/學校社團/臺南",
+      "structuredSummary": "臺南一中/學校社團/臺南 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
       "keywords": "臺南一中口琴社 TNFSH Harmonica 臺南一中口琴社",
       "links": [
         {
@@ -8744,7 +8731,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.instagram.com/tnfsh_harmonica.club/"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2025-08-27T11:58:50+00:00",
       "latestUpdateLocal": "2025-08-27 19:58",
@@ -8902,16 +8889,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-14",
+      "id": "watchlist-195",
       "name": "成大口琴社",
       "nameEn": "NCKU Harmonica Club",
       "category": "學校社團",
       "type": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺南",
-      "cityOrFocus": "臺南",
-      "structuredSummary": "國立成功大學 / 口琴 / 學校社團",
-      "summary": "國立成功大學的口琴學校社團。",
+      "cityOrFocus": "國立成功大學/學校社團/臺南",
+      "structuredSummary": "國立成功大學/學校社團/臺南 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
       "keywords": "成大口琴社 NCKU Harmonica Club 口琴社",
       "links": [
         {
@@ -8931,7 +8918,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.youtube.com/@%E6%88%90%E5%A4%A7%E5%8F%A3%E7%90%B4%E7%A4%BE"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2025-08-18T14:44:44+00:00",
       "latestUpdateLocal": "2025-08-18 22:44",
@@ -9201,17 +9188,17 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-2+club-3",
-      "name": "銘傳口琴社",
-      "nameEn": "MCU Harmonica",
+      "id": "watchlist-187",
+      "name": "銘傳大學銘心口琴社",
+      "nameEn": "MCU Ming Xin Harmonica Club",
       "category": "學校社團",
       "type": "學校社團",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "",
-      "structuredSummary": "銘傳大學 / 口琴 / 學校社團",
-      "summary": "銘傳大學的口琴學校社團。",
-      "keywords": "銘傳口琴社 MCU Harmonica 口琴社 銘傳明新口琴相關來源 MCU Ming Xin 口琴社",
+      "cityOrFocus": "銘傳大學口琴社/成果發表/校園演出",
+      "structuredSummary": "銘傳大學口琴社/成果發表/校園演出 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "銘傳大學銘心口琴社 銘傳口琴社 MCU Ming Xin MCU Harmonica 口琴社",
       "links": [
         {
           "label": "網站",
@@ -9230,14 +9217,11 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.youtube.com/channel/UCXcRJsu6ecMnDpd5d4DI4aQ"
         }
       ],
-      "source": "club",
-      "aliases": [
-        "銘傳明新口琴相關來源",
-        "MCU Ming Xin"
-      ],
+      "source": "watchlist",
+      "aliases": [],
       "latestUpdateAt": "2023-06-30T13:52:43+00:00",
       "latestUpdateLocal": "2023-06-30 21:52",
-      "latestUpdateSource": "銘傳口琴社",
+      "latestUpdateSource": "銘傳大學銘心口琴社",
       "latestUpdateUrl": "https://www.instagram.com/p/CuHc1PAJcXH/",
       "avatarUrl": "/assets/source-avatars/705f8724a5a2decf235e.webp",
       "sourceInitials": "銘傳",
@@ -9267,7 +9251,7 @@ window.HARMONICA_OBSERVE_DATA = {
         },
         {
           "id": "ig_story_mcuhc",
-          "name": "銘傳口琴社",
+          "name": "銘傳大學銘心口琴社",
           "platform": "instagram",
           "type": "rsshub_instagram_story",
           "username": "mcuhc",
@@ -9276,7 +9260,7 @@ window.HARMONICA_OBSERVE_DATA = {
         },
         {
           "id": "yt_ucxcrjsu6ecmndpd5d4di4aq",
-          "name": "銘傳口琴社",
+          "name": "銘傳大學銘心口琴社",
           "platform": "youtube",
           "type": "youtube_ytdlp",
           "username": "",
@@ -9286,16 +9270,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-21",
+      "id": "watchlist-201",
       "name": "高科大口琴社",
       "nameEn": "NKUST Harmonica",
       "category": "學校社團",
       "type": "學校社團",
       "country": "臺灣",
       "region": "臺灣/高雄",
-      "cityOrFocus": "高雄",
-      "structuredSummary": "國立高雄科技大學 / 口琴 / 學校社團",
-      "summary": "國立高雄科技大學的口琴學校社團。",
+      "cityOrFocus": "國立高雄科技大學/學校社團/高雄",
+      "structuredSummary": "國立高雄科技大學/學校社團/高雄 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
       "keywords": "高科大口琴社 NKUST Harmonica 口琴社",
       "links": [
         {
@@ -9311,7 +9295,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.instagram.com/nkustharmonica/"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2020-12-15T13:04:19+00:00",
       "latestUpdateLocal": "2020-12-15 21:04",
@@ -9470,7 +9454,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-87",
+      "id": "watchlist-86",
       "name": "黃石樂器",
       "nameEn": "Yellowstone Music Shop",
       "category": "教學器材",
@@ -9653,7 +9637,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTagReason": "名稱為有限公司，屬營利單位；關鍵字含口琴，類別為單位；摘要提及協辦/製作，故標團體樂團、口琴、活動資訊、音樂會、品牌。"
     },
     {
-      "id": "watchlist-179",
+      "id": "watchlist-178",
       "name": "Hohner 音樂院（特羅辛根）",
       "nameEn": "Hohner-Konservatorium Trossingen",
       "category": "國際交流",
@@ -9765,7 +9749,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-171",
+      "id": "watchlist-170",
       "name": "中國大眾音樂協會口琴專業委員會",
       "nameEn": "China Popular Music Association Harmonica Professional Committee",
       "category": "國際交流",
@@ -9827,7 +9811,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-178",
+      "id": "watchlist-177",
       "name": "德國 Harmonica/Harmonika 協會 DHV",
       "nameEn": "Deutscher Harmonika-Verband e.V.",
       "category": "國際交流",
@@ -9892,7 +9876,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-175",
+      "id": "watchlist-174",
       "name": "英國口琴協會",
       "nameEn": "HarmonicaUK",
       "category": "國際交流",
@@ -9977,7 +9961,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-172",
+      "id": "watchlist-171",
       "name": "韓國口琴教育協會",
       "nameEn": "Korea Harmonica Education Association",
       "category": "國際交流",
@@ -10027,7 +10011,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-127",
+      "id": "watchlist-126",
       "name": "Ausgelassen x Wesley Wong",
       "nameEn": "Ausgelassen x Wesley Wong",
       "category": "團體樂團",
@@ -10168,7 +10152,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-129",
+      "id": "watchlist-128",
       "name": "Korea Harmonica Orchestra",
       "nameEn": "Korea Harmonica Orchestra",
       "category": "團體樂團",
@@ -10200,7 +10184,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-125",
+      "id": "watchlist-124",
       "name": "Perfect Fourth",
       "nameEn": "Perfect Fourth",
       "category": "團體樂團",
@@ -10283,7 +10267,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-158",
+      "id": "watchlist-157",
       "name": "Ptaszek & Buzma",
       "nameEn": "Ptaszek & Buzma",
       "category": "團體樂團",
@@ -10378,7 +10362,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-155",
+      "id": "watchlist-154",
       "name": "The LiveWires",
       "nameEn": "The LiveWires",
       "category": "團體樂團",
@@ -10411,7 +10395,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-123",
+      "id": "watchlist-122",
       "name": "The Magic Harmonica Ensemble",
       "nameEn": "The Magic Harmonica Ensemble",
       "category": "團體樂團",
@@ -10460,7 +10444,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-140",
+      "id": "watchlist-139",
       "name": "Veloz Harmonica Quartet",
       "nameEn": "Veloz Harmonica Quartet",
       "category": "團體樂團",
@@ -10581,7 +10565,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-184",
+      "id": "watchlist-183",
       "name": "庫里奇巴口琴樂團",
       "nameEn": "Orquestra Harmônicas de Curitiba",
       "category": "團體樂團",
@@ -10650,7 +10634,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-166",
+      "id": "watchlist-165",
       "name": "海南會館口琴樂團",
       "nameEn": "HNHK Harmonica Orchestra",
       "category": "團體樂團",
@@ -10771,17 +10755,17 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-8+watchlist-72+club-4",
-      "name": "臺中市中華口琴會樂團",
+      "id": "watchlist-8",
+      "name": "臺中市中華口琴會",
       "nameEn": "",
       "category": "團體樂團",
-      "type": "團體 / 學校/青年",
+      "type": "協會/團體",
       "country": "臺灣",
-      "region": "臺灣 / 臺灣/臺中",
-      "cityOrFocus": "合奏/臺中地方演出/學生系統 / 學生團隊/比賽/演出 / 臺中",
-      "structuredSummary": "臺中市中華口琴會 / 口琴隊 / 學校團隊",
-      "summary": "臺中市中華口琴會的口琴隊學校團隊。",
-      "keywords": "臺中市中華口琴會 樂團 臺中市中華口琴會 學生 團隊",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "臺中地方口琴會/樂團/學生系統/比賽演出",
+      "structuredSummary": "臺中地方口琴會/樂團/學生系統/比賽演出 / 口琴合奏/口琴隊 / 地方協會/演出團體/學生系統來源",
+      "summary": "臺灣的口琴合奏與口琴隊地方協會、演出團體與學生系統來源，活動脈絡包含臺中地方口琴會、樂團與學生系統。",
+      "keywords": "臺中市中華口琴會 臺中市中華口琴會 口琴會 樂團 學生 團隊 口琴",
       "links": [
         {
           "label": "網站",
@@ -10789,17 +10773,15 @@ window.HARMONICA_OBSERVE_DATA = {
         },
         {
           "label": "Facebook",
-          "url": "https://www.facebook.com/TCHarmonicaA/"
+          "url": "https://www.facebook.com/TCHarmonicaA/?locale=zh_TW"
         },
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/@%E5%8F%B0%E4%B8%AD%E5%B8%82%E4%B8%AD%E8%8F%AF%E5%8F%A3%E7%90%B4%E6%9C%83"
         }
       ],
-      "source": "club+watchlist",
-      "aliases": [
-        "臺中市中華口琴會相關學生團隊"
-      ],
+      "source": "watchlist",
+      "aliases": [],
       "latestUpdateAt": "",
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
@@ -10814,7 +10796,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "monitorSources": [
         {
           "id": "fb_tcharmonicaa",
-          "name": "臺中市中華口琴會樂團",
+          "name": "臺中市中華口琴會",
           "platform": "facebook",
           "type": "facebook_page_posts",
           "username": "",
@@ -10823,7 +10805,7 @@ window.HARMONICA_OBSERVE_DATA = {
         },
         {
           "id": "yt_2cd0d8c978",
-          "name": "臺中市中華口琴會樂團",
+          "name": "臺中市中華口琴會",
           "platform": "youtube",
           "type": "youtube_ytdlp",
           "username": "",
@@ -10833,7 +10815,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-173",
+      "id": "watchlist-172",
       "name": "首爾口琴管弦樂團",
       "nameEn": "Seoul Harmonica Orchestra",
       "category": "團體樂團",
@@ -10878,7 +10860,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-99",
+      "id": "watchlist-98",
       "name": "高雄市兒童口琴樂團 / 高雄市口琴協會",
       "nameEn": "",
       "category": "團體樂團",
@@ -10924,7 +10906,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-79",
+      "id": "watchlist-78",
       "name": "國立陽明交通大學藝文中心",
       "nameEn": "",
       "category": "場館平台",
@@ -11005,7 +10987,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-77",
+      "id": "watchlist-76",
       "name": "新竹市文化局",
       "nameEn": "",
       "category": "場館平台",
@@ -11067,16 +11049,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-26",
+      "id": "watchlist-206",
       "name": "中央大學リード合奏部ハーモニカ・ソサィエティー",
       "nameEn": "Chuo University Harmonica Society",
       "category": "學校社團",
       "type": "學校社團",
       "country": "日本",
       "region": "日本/東京",
-      "cityOrFocus": "東京",
-      "structuredSummary": "中央大學 / 口琴合奏/リード合奏/ハモソ / 學校社團",
-      "summary": "中央大學的口琴合奏、リード合奏與ハモソ學校社團。",
+      "cityOrFocus": "中央大學/學校社團/東京",
+      "structuredSummary": "中央大學/學校社團/東京 / 口琴合奏/リード合奏/ハモソ / 學校社團",
+      "summary": "日本的口琴合奏、リード合奏與ハモソ學校社團。",
       "keywords": "中央大學 リード合奏部 ハーモニカ ソサィエティー Chuo Harmonica Society ハモソ 口琴社",
       "links": [
         {
@@ -11096,7 +11078,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://x.com/chuo_hamoso"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "",
       "latestUpdateLocal": "",
@@ -11149,16 +11131,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-34",
+      "id": "watchlist-214",
       "name": "南洋理工大學口琴社",
       "nameEn": "NTU CAC Harmonica Band",
       "category": "學校社團",
       "type": "學校社團",
       "country": "新加坡",
       "region": "新加坡/裕廊西",
-      "cityOrFocus": "裕廊西",
-      "structuredSummary": "南洋理工大學 / 口琴樂團/學生合奏 / 學校社團",
-      "summary": "南洋理工大學的口琴樂團與學生合奏學校社團。",
+      "cityOrFocus": "南洋理工大學/學校社團/裕廊西",
+      "structuredSummary": "南洋理工大學/學校社團/裕廊西 / 口琴樂團/學生合奏 / 學校社團",
+      "summary": "新加坡的口琴樂團與學生合奏學校社團。",
       "keywords": "南洋理工大學口琴社 NTU CAC Harmonica Band Singapore student harmonica",
       "links": [
         {
@@ -11174,7 +11156,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.instagram.com/ntuhb/"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "",
       "latestUpdateLocal": "",
@@ -11219,16 +11201,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-30",
+      "id": "watchlist-210",
       "name": "山形市立商業高等學校ハーモニカバンド部",
       "nameEn": "Yamagata City Commercial High School Harmonica Band",
       "category": "學校社團",
       "type": "學校社團",
       "country": "日本",
       "region": "日本/山形",
-      "cityOrFocus": "山形",
-      "structuredSummary": "山形市立商業高等學校 / 口琴バンド/合奏 / 學校社團",
-      "summary": "山形市立商業高等學校的口琴バンド與合奏學校社團。",
+      "cityOrFocus": "山形市立商業高等學校/學校社團/山形",
+      "structuredSummary": "山形市立商業高等學校/學校社團/山形 / 口琴バンド/合奏 / 學校社團",
+      "summary": "日本的口琴バンド與合奏學校社團。",
       "keywords": "山形市立商業高等學校 山形市立商業高等学校 ハーモニカバンド部 高校 口琴社",
       "links": [
         {
@@ -11236,7 +11218,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.yamagatacity-ch.ed.jp/cd-cat/harmonica-band/"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "",
       "latestUpdateLocal": "",
@@ -11250,16 +11232,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-33",
+      "id": "watchlist-213",
       "name": "新加坡國立大學口琴社",
       "nameEn": "NUS Harmonica",
       "category": "學校社團",
       "type": "學校社團",
       "country": "新加坡",
       "region": "新加坡/肯特崗",
-      "cityOrFocus": "肯特崗",
-      "structuredSummary": "新加坡國立大學 / 口琴樂團/學生合奏 / 學校社團",
-      "summary": "新加坡國立大學的口琴樂團與學生合奏學校社團。",
+      "cityOrFocus": "新加坡國立大學/學校社團/肯特崗",
+      "structuredSummary": "新加坡國立大學/學校社團/肯特崗 / 口琴樂團/學生合奏 / 學校社團",
+      "summary": "新加坡的口琴樂團與學生合奏學校社團。",
       "keywords": "新加坡國立大學口琴社 NUS Harmonica NUS Harmonica Orchestra Singapore student harmonica",
       "links": [
         {
@@ -11279,7 +11261,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.youtube.com/@NUSHO"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "",
       "latestUpdateLocal": "",
@@ -11333,16 +11315,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-36",
+      "id": "watchlist-216",
       "name": "檳華女中口琴隊",
       "nameEn": "PCGHS Harmonica Band",
       "category": "學校社團",
       "type": "學校社團",
       "country": "馬來西亞",
       "region": "馬來西亞/檳城",
-      "cityOrFocus": "喬治市",
-      "structuredSummary": "檳華女子中學 / 口琴隊/學生合奏/比賽 / 學校社團",
-      "summary": "檳華女子中學的口琴隊、學生合奏與比賽學校社團。",
+      "cityOrFocus": "檳華女子中學/學校社團/喬治市",
+      "structuredSummary": "檳華女子中學/學校社團/喬治市 / 口琴隊/學生合奏/比賽 / 學校社團",
+      "summary": "馬來西亞的口琴隊、學生合奏與比賽學校社團。",
       "keywords": "檳華女中口琴隊 PCGHS Harmonica Band Penang Malaysia student harmonica",
       "links": [
         {
@@ -11354,7 +11336,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.instagram.com/pcghs_harmonicaband/"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "",
       "latestUpdateLocal": "",
@@ -11398,16 +11380,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-38",
+      "id": "watchlist-218",
       "name": "武漢理工大學學生星一口琴協會",
       "nameEn": "Wuhan University of Technology Xingyi Harmonica Association",
       "category": "學校社團",
       "type": "學校社團",
       "country": "中國",
       "region": "中國/湖北",
-      "cityOrFocus": "武漢",
-      "structuredSummary": "武漢理工大學 / 口琴社/學生合奏/校園音樂會 / 學校社團",
-      "summary": "武漢理工大學的口琴社、學生合奏與校園音樂會學校社團。",
+      "cityOrFocus": "武漢理工大學/學校社團/武漢",
+      "structuredSummary": "武漢理工大學/學校社團/武漢 / 口琴社/學生合奏/校園音樂會 / 學校社團",
+      "summary": "中國的口琴社、學生合奏與校園音樂會學校社團。",
       "keywords": "武漢理工大學 星一口琴協會 Wuhan University of Technology Xingyi Harmonica Association 中國學生口琴",
       "links": [
         {
@@ -11415,7 +11397,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://youth.whut.edu.cn/stfc/202606/t20260609_1402701.shtml"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "",
       "latestUpdateLocal": "",
@@ -11430,16 +11412,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-27",
+      "id": "watchlist-207",
       "name": "立教大學ハーモニカ・ソサイアティー",
       "nameEn": "Rikkyo University Harmonica Society",
       "category": "學校社團",
       "type": "學校社團",
       "country": "日本",
       "region": "日本/東京",
-      "cityOrFocus": "東京",
-      "structuredSummary": "立教大學 / 口琴合奏/ハモソ / 學校社團",
-      "summary": "立教大學的口琴合奏與ハモソ學校社團。",
+      "cityOrFocus": "立教大學/學校社團/東京",
+      "structuredSummary": "立教大學/學校社團/東京 / 口琴合奏/ハモソ / 學校社團",
+      "summary": "日本的口琴合奏與ハモソ學校社團。",
       "keywords": "立教大學 ハーモニカ ソサイアティー Rikkyo Harmonica Society RHS ハモソ 口琴社",
       "links": [
         {
@@ -11459,7 +11441,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://x.com/rikkyo_rhs"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "",
       "latestUpdateLocal": "",
@@ -11512,16 +11494,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-32",
+      "id": "watchlist-212",
       "name": "聖保羅男女中學口琴隊",
       "nameEn": "SPCC Harmonica Orchestra",
       "category": "學校社團",
       "type": "學校社團",
       "country": "香港",
       "region": "香港",
-      "cityOrFocus": "香港",
-      "structuredSummary": "聖保羅男女中學 / 口琴樂團/學生合奏/學校音樂節 / 學校社團",
-      "summary": "聖保羅男女中學的口琴樂團、學生合奏與學校音樂節學校社團。",
+      "cityOrFocus": "聖保羅男女中學/學校社團/香港",
+      "structuredSummary": "聖保羅男女中學/學校社團/香港 / 口琴樂團/學生合奏/學校音樂節 / 學校社團",
+      "summary": "香港的口琴樂團、學生合奏與學校音樂節學校社團。",
       "keywords": "聖保羅男女中學口琴隊 SPCC Harmonica Orchestra Hong Kong Schools Music Festival 學生口琴",
       "links": [
         {
@@ -11529,7 +11511,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.spcc.edu.hk/explore/extra-curricular-activities"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "",
       "latestUpdateLocal": "",
@@ -11545,16 +11527,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-31",
+      "id": "watchlist-211",
       "name": "英皇書院同學會小學口琴隊",
       "nameEn": "KCOBAPS Harmonica Band",
       "category": "學校社團",
       "type": "學校/青年",
       "country": "香港",
       "region": "香港",
-      "cityOrFocus": "香港",
-      "structuredSummary": "英皇書院同學會小學 / 口琴隊/半音階/學生合奏 / 學校團隊",
-      "summary": "英皇書院同學會小學的口琴隊、半音階與學生合奏學校團隊。",
+      "cityOrFocus": "英皇書院同學會小學/學校/青年/香港",
+      "structuredSummary": "英皇書院同學會小學/學校/青年/香港 / 口琴隊/半音階/學生合奏 / 學校團隊",
+      "summary": "香港的口琴隊、半音階與學生合奏學校團隊。",
       "keywords": "英皇書院同學會小學口琴隊 KCOBAPS Harmonica Band 世界口琴節 學生口琴隊 香港",
       "links": [
         {
@@ -11566,7 +11548,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.facebook.com/kcobaps/"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "",
       "latestUpdateLocal": "",
@@ -11592,16 +11574,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-39",
+      "id": "watchlist-219",
       "name": "華中師範大學學生知音口琴社",
       "nameEn": "CCNU Student Zhiyin Harmonica Club",
       "category": "學校社團",
       "type": "學校社團",
       "country": "中國",
       "region": "中國/湖北",
-      "cityOrFocus": "武漢",
-      "structuredSummary": "華中師範大學 / 口琴社/學生合奏/校園演出 / 學校社團",
-      "summary": "華中師範大學的口琴社、學生合奏與校園演出學校社團。",
+      "cityOrFocus": "華中師範大學/學校社團/武漢",
+      "structuredSummary": "華中師範大學/學校社團/武漢 / 口琴社/學生合奏/校園演出 / 學校社團",
+      "summary": "中國的口琴社、學生合奏與校園演出學校社團。",
       "keywords": "華中師範大學 知音口琴社 CCNU Zhiyin Harmonica Club 中國學生口琴",
       "links": [
         {
@@ -11609,7 +11591,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://youth.ccnu.edu.cn/info/1170/19470.htm"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "",
       "latestUpdateLocal": "",
@@ -11624,16 +11606,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-35",
+      "id": "watchlist-215",
       "name": "裕華中學口琴樂團",
       "nameEn": "Yuhua Secondary School Harmonica Band",
       "category": "學校社團",
       "type": "學校社團",
       "country": "新加坡",
       "region": "新加坡/裕廊西",
-      "cityOrFocus": "裕廊西",
-      "structuredSummary": "裕華中學 / 口琴樂團/CCA/SYF / 學校社團",
-      "summary": "裕華中學的口琴樂團、CCA與SYF學校社團。",
+      "cityOrFocus": "裕華中學/學校社團/裕廊西",
+      "structuredSummary": "裕華中學/學校社團/裕廊西 / 口琴樂團/CCA/SYF / 學校社團",
+      "summary": "新加坡的口琴樂團、CCA與SYF學校社團。",
       "keywords": "裕華中學口琴樂團 Yuhua Secondary School Harmonica Band SYF Singapore CCA",
       "links": [
         {
@@ -11645,7 +11627,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.instagram.com/yhhbfamily/"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "",
       "latestUpdateLocal": "",
@@ -11680,16 +11662,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-37",
+      "id": "watchlist-217",
       "name": "鍾靈中學口琴隊",
       "nameEn": "CLHS Harmonica Band",
       "category": "學校社團",
       "type": "學校社團",
       "country": "馬來西亞",
       "region": "馬來西亞/檳城",
-      "cityOrFocus": "日落洞",
-      "structuredSummary": "鍾靈中學 / 口琴隊/學生合奏/華校 / 學校社團",
-      "summary": "鍾靈中學的口琴隊、學生合奏與華校學校社團。",
+      "cityOrFocus": "鍾靈中學/學校社團/日落洞",
+      "structuredSummary": "鍾靈中學/學校社團/日落洞 / 口琴隊/學生合奏/華校 / 學校社團",
+      "summary": "馬來西亞的口琴隊、學生合奏與華校學校社團。",
       "keywords": "鍾靈中學口琴隊 CLHS Harmonica Band Chung Ling High School Penang Malaysia",
       "links": [
         {
@@ -11705,7 +11687,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.instagram.com/clhs_harmonicaband/"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "",
       "latestUpdateLocal": "",
@@ -11748,16 +11730,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-28",
+      "id": "watchlist-208",
       "name": "關西學院大學ハーモニカソサイアティ",
       "nameEn": "Kwansei Gakuin University Harmonica Society",
       "category": "學校社團",
       "type": "學校社團",
       "country": "日本",
       "region": "日本/兵庫",
-      "cityOrFocus": "西宮",
-      "structuredSummary": "關西學院大學 / 口琴合奏/ハモソ / 學校社團",
-      "summary": "關西學院大學的口琴合奏與ハモソ學校社團。",
+      "cityOrFocus": "關西學院大學/學校社團/西宮",
+      "structuredSummary": "關西學院大學/學校社團/西宮 / 口琴合奏/ハモソ / 學校社團",
+      "summary": "日本的口琴合奏與ハモソ學校社團。",
       "keywords": "關西學院大學 関西学院大学 ハーモニカソサイアティ 関学ハモソ Kwansei Gakuin 口琴社",
       "links": [
         {
@@ -11781,7 +11763,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://x.com/kg_hamoso"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "",
       "latestUpdateLocal": "",
@@ -11843,16 +11825,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-73+club-20",
+      "id": "watchlist-72",
       "name": "雲林縣二崙國中藝才班口琴隊",
       "nameEn": "",
       "category": "學校社團",
       "type": "學校/青年",
       "country": "臺灣",
       "region": "臺灣/雲林",
-      "cityOrFocus": "國中藝才班/口琴隊 / 雲林",
-      "structuredSummary": "雲林縣二崙國中藝才班 / 口琴隊 / 學校團隊",
-      "summary": "雲林縣二崙國中藝才班的口琴隊學校團隊。",
+      "cityOrFocus": "國中藝才班/口琴隊",
+      "structuredSummary": "國中藝才班/口琴隊 / 口琴隊 / 學校團隊",
+      "summary": "臺灣的口琴隊學校團隊。",
       "keywords": "二崙國中 藝才班 口琴",
       "links": [
         {
@@ -11864,7 +11846,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.facebook.com/61550868336289/"
         }
       ],
-      "source": "club+watchlist",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "",
       "latestUpdateLocal": "",
@@ -11889,16 +11871,16 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "club-29",
+      "id": "watchlist-209",
       "name": "鹿兒島大學ハーモニカバンド",
       "nameEn": "Kagoshima University Harmonica Band Capital Harmony",
       "category": "學校社團",
       "type": "學校社團",
       "country": "日本",
       "region": "日本/鹿兒島",
-      "cityOrFocus": "鹿兒島",
-      "structuredSummary": "鹿兒島大學 / 口琴バンド/合奏 / 學校社團",
-      "summary": "鹿兒島大學的口琴バンド與合奏學校社團。",
+      "cityOrFocus": "鹿兒島大學/學校社團/鹿兒島",
+      "structuredSummary": "鹿兒島大學/學校社團/鹿兒島 / 口琴バンド/合奏 / 學校社團",
+      "summary": "日本的口琴バンド與合奏學校社團。",
       "keywords": "鹿兒島大學 鹿児島大学 ハーモニカバンド Capital Harmony 口琴社",
       "links": [
         {
@@ -11914,7 +11896,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://x.com/kadaihamoban"
         }
       ],
-      "source": "club",
+      "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "",
       "latestUpdateLocal": "",
@@ -11958,7 +11940,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-105",
+      "id": "watchlist-104",
       "name": "口袋琴房 Pocket Harmonic",
       "nameEn": "Pocket Harmonic",
       "category": "教學器材",
@@ -12044,7 +12026,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-84",
+      "id": "watchlist-83",
       "name": "東和樂器",
       "nameEn": "Tongho Musical Instrument Co., Ltd. / music4fun",
       "category": "教學器材",
@@ -12126,7 +12108,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-95",
+      "id": "watchlist-94",
       "name": "狂響逗嘴鼓口琴樂坊",
       "nameEn": "Rhapsody Harmonica & Drum Studio",
       "category": "教學器材",
@@ -12175,7 +12157,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-83",
+      "id": "watchlist-82",
       "name": "雙燕樂器",
       "nameEn": "Musix Co., Ltd.",
       "category": "教學器材",
@@ -12235,7 +12217,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-92",
+      "id": "watchlist-91",
       "name": "An Afternoon with Harmonica",
       "nameEn": "An Afternoon with Harmonica",
       "category": "活動資訊",
@@ -12300,7 +12282,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-86",
+      "id": "watchlist-85",
       "name": "From Harmonica to Music",
       "nameEn": "From Harmonica to Music",
       "category": "活動資訊",
@@ -12347,7 +12329,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-180",
+      "id": "watchlist-179",
       "name": "Harmonica Masters 口琴大師工作坊",
       "nameEn": "Harmonica Masters Workshops",
       "category": "活動資訊",
@@ -12382,7 +12364,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-182",
+      "id": "watchlist-181",
       "name": "Mundharmonika-Live 口琴節",
       "nameEn": "Mundharmonika-Live",
       "category": "活動資訊",
@@ -12415,7 +12397,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-76",
+      "id": "watchlist-75",
       "name": "OPENTIX 口琴售票搜尋",
       "nameEn": "",
       "category": "活動資訊",
@@ -12461,7 +12443,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-109",
+      "id": "watchlist-108",
       "name": "Seoul International Harmonica Festival",
       "nameEn": "Seoul International Harmonica Festival",
       "category": "活動資訊",
@@ -12494,7 +12476,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-176",
+      "id": "watchlist-175",
       "name": "Spring Harp Fest",
       "nameEn": "Spring Harp Fest",
       "category": "活動資訊",
@@ -12578,7 +12560,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-183",
+      "id": "watchlist-182",
       "name": "巴西口琴論壇",
       "nameEn": "Fórum Harmônicas Brasil",
       "category": "活動資訊",
@@ -12661,7 +12643,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-170",
+      "id": "watchlist-169",
       "name": "第十五屆亞太口琴藝術週",
       "nameEn": "15th Asia Pacific Harmonica Festival",
       "category": "活動資訊",
@@ -12698,7 +12680,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-163",
+      "id": "watchlist-162",
       "name": "香港國際半音階口琴大賽",
       "nameEn": "International Chromatic Harmonica Competition Hong Kong",
       "category": "活動資訊",
@@ -12732,7 +12714,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-164",
+      "id": "watchlist-163",
       "name": "香港學校音樂節",
       "nameEn": "Hong Kong Schools Music Festival",
       "category": "活動資訊",
@@ -12861,7 +12843,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-151",
+      "id": "watchlist-150",
       "name": "Hank Shreve",
       "nameEn": "Hank Shreve",
       "category": "演奏者",
@@ -12932,7 +12914,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-141",
+      "id": "watchlist-140",
       "name": "Keith Dunn",
       "nameEn": "Keith Dunn",
       "category": "演奏者",
@@ -12990,7 +12972,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-144",
+      "id": "watchlist-143",
       "name": "Kif Valentine",
       "nameEn": "Kif Valentine",
       "category": "演奏者",
@@ -13068,7 +13050,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-115",
+      "id": "watchlist-114",
       "name": "Kim Changsik 김창식",
       "nameEn": "Kim Changsik",
       "category": "演奏者",
@@ -13102,7 +13084,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-116",
+      "id": "watchlist-115",
       "name": "Kim Kyunghee 김경희",
       "nameEn": "Kim Kyunghee",
       "category": "演奏者",
@@ -13134,7 +13116,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-131",
+      "id": "watchlist-130",
       "name": "Long Deng Jie 龍登杰",
       "nameEn": "Long Deng Jie",
       "category": "演奏者",
@@ -13200,7 +13182,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-160",
+      "id": "watchlist-159",
       "name": "Steve Baker",
       "nameEn": "Steve Baker",
       "category": "演奏者",
@@ -13261,7 +13243,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-113",
+      "id": "watchlist-112",
       "name": "Takamoto Mizuno",
       "nameEn": "Takamoto Mizuno",
       "category": "演奏者",
@@ -13309,7 +13291,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-153",
+      "id": "watchlist-152",
       "name": "Tian Long Li",
       "nameEn": "Tian Long Li",
       "category": "演奏者",
@@ -13342,7 +13324,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-126",
+      "id": "watchlist-125",
       "name": "Yuanmao Wang",
       "nameEn": "Yuanmao Wang",
       "category": "演奏者",
@@ -13505,7 +13487,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-120",
+      "id": "watchlist-119",
       "name": "和谷泰扶 Yasuo Watani",
       "nameEn": "Yasuo Watani",
       "category": "演奏者",
@@ -13538,7 +13520,7 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-122",
+      "id": "watchlist-121",
       "name": "田中光栄 Koei Tanaka",
       "nameEn": "Koei Tanaka",
       "category": "演奏者",
