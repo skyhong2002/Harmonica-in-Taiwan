@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 04 Jul 2026 07:07:23 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 07:38:23 +0000</lastBuildDate>
     <item>
       <title>新加坡青年節藝術展演（口琴）</title>
       <link>https://www.syf.gov.sg/general/calendar</link>
@@ -16,6 +16,28 @@ Tag：口琴、活動資訊、比賽
 國家：新加坡
 地區：新加坡
 新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。</description>
+    </item>
+    <item>
+      <title>Timothy Yip 葉進禧</title>
+      <link>https://www.timothyyipharmonica.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/f44e6396801a0c03</guid>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：口琴、演奏者、比賽、半音階、國際交流
+國家：香港
+地區：香港
+香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。</description>
+    </item>
+    <item>
+      <title>RedBricks Harmonica</title>
+      <link>https://www.facebook.com/redbricksharmonica/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/77378d9ca07a4f96</guid>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：口琴、團體樂團、重奏、國際交流
+國家：香港
+地區：香港/國際
+香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
     </item>
     <item>
       <title>F.I.H. JAPAN ハーモニカコンテスト</title>
@@ -491,17 +513,6 @@ Tag：口琴、團體樂團、重奏
 臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。</description>
     </item>
     <item>
-      <title>Timothy Yip 葉進禧</title>
-      <link>https://www.timothyyipharmonica.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/f44e6396801a0c03</guid>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：口琴、演奏者、比賽、半音階、國際交流
-國家：香港
-地區：香港
-香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。</description>
-    </item>
-    <item>
       <title>臺灣口琴音樂節 THMF</title>
       <link>https://www.taiwanharmonica.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/675b716d5d0986ae</guid>
@@ -797,17 +808,6 @@ Tag：口琴、團體樂團、十孔、國際交流
 國家：法國
 地區：法國
 法國的十孔、藍調口琴、吉他與人聲國際演出團體，活動脈絡包含WHF 2025、吉他與歌唱與Golden Melody ambassador。</description>
-    </item>
-    <item>
-      <title>RedBricks Harmonica</title>
-      <link>https://www.facebook.com/redbricksharmonica/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/77378d9ca07a4f96</guid>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：口琴、團體樂團、重奏、國際交流
-國家：香港
-地區：香港/國際
-香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
     </item>
     <item>
       <title>天狼星口琴樂團 Sirius Harmonica Ensemble</title>
