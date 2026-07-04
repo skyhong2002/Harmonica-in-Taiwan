@@ -42,11 +42,77 @@ TAIWAN_ORTHOGRAPHY_REPLACEMENTS = (
 )
 TAG_CANONICAL_REPLACEMENTS = {
     "學校社團": "學生社團",
+    "學校": "學生社團",
+    "青年": "學生社團",
+    "學校青年": "學生社團",
+    "學校正式課程": "課程",
+    "學校教學平台": "課程",
+    "個人": "演奏者",
+    "團體": "團體樂團",
+    "樂團": "團體樂團",
+    "協會團體": "協會",
+    "活動": "活動資訊",
+    "活動入口": "活動資訊",
+    "資訊入口": "活動資訊",
+    "資料來源": "活動資訊",
+    "參考來源": "活動資訊",
+    "比賽入口": "比賽",
+    "國際活動": "國際交流",
+    "國際交流活動": "國際交流",
+    "國際團體": "國際交流",
+    "教學工作室": "教學",
+    "教學影片來源": "教學",
+    "影片來源": "教學",
+    "教學維修影片來源": "教學器材",
+    "維修": "教學器材",
+    "樂器行": "教學器材",
+    "樂器商": "教學器材",
+    "口琴專賣店": "教學器材",
+    "場館": "場館平台",
+    "文化局": "場館平台",
+    "藝文中心": "場館平台",
+    "文化平台": "場館平台",
+    "教育入口": "課程",
+    "教育機構": "課程",
+    "演出企劃": "演出",
+}
+DISCARDED_SOURCE_TAGS = {"其他來源"}
+SOURCE_TYPE_TAGS = {
+    "個人": "演奏者",
+    "學校社團": "學生社團",
+    "團體": "團體樂團",
+    "活動與比賽": "活動資訊",
+    "樂器與器材": "教學器材",
+    "品牌": "品牌",
+    "協會": "協會",
+    "場館與平台": "場館平台",
+}
+
+SOURCE_TYPE_OVERRIDES = {
+    "theduet獨特音樂": "品牌",
+    "theduet": "品牌",
+    "簧格音樂有限公司": "品牌",
+    "林家靖rolabolin": "個人",
+    "anafternoonwithharmonica": "品牌",
+    "fromharmonicatomusic": "品牌",
+    "吹出好心琴oufrog": "品牌",
+    "oufrog": "品牌",
+    "巴巴口琴坊": "品牌",
+    "babaharmonicastudio": "品牌",
+    "蔡明憲dmingstudio": "品牌",
+    "dmingstudio": "品牌",
+    "口袋琴房pocketharmonic": "品牌",
+    "pocketharmonic": "品牌",
+    "韋笙堡口琴weissenbergharmonicas": "樂器與器材",
+    "weissenbergharmonicas": "樂器與器材",
+    "upsidedown": "團體",
+    "臺中市中華口琴會": "協會",
+    "高雄市口琴協會": "協會",
+    "高雄市兒童口琴樂團高雄市口琴協會": "協會",
 }
 
 SOURCE_FILES = [
     ("watchlist", PROJECT_ROOT / "data" / "sources" / "harmonica-source-watchlist-public.csv"),
-    ("club", PROJECT_ROOT / "data" / "sources" / "harmonica-clubs-public.csv"),
 ]
 
 LINK_FIELDS = [
@@ -90,9 +156,19 @@ def legacy_taiwan_orthography(value: str | None) -> str:
     return text
 
 
-def normalize_tag_value(value: str | None) -> str:
+def normalize_tag_value(value: str | None) -> list[str]:
     tag = normalize_taiwan_orthography(value)
-    return TAG_CANONICAL_REPLACEMENTS.get(tag, tag)
+    if tag in DISCARDED_SOURCE_TAGS:
+        return []
+    key = normalize_key(tag)
+    replacement = TAG_CANONICAL_REPLACEMENTS.get(tag) or TAG_CANONICAL_REPLACEMENTS.get(key)
+    if isinstance(replacement, list):
+        return [item for item in replacement if item]
+    if isinstance(replacement, tuple):
+        return [item for item in replacement if item]
+    if replacement:
+        return [replacement]
+    return [tag] if tag else []
 
 
 def normalize_tag_values(value: Any, *, limit: int = 8) -> list[str]:
@@ -109,12 +185,21 @@ def normalize_tag_values(value: Any, *, limit: int = 8) -> list[str]:
         if not text:
             continue
         for tag in TAG_VALUE_SPLIT_RE.split(text):
-            tag = normalize_tag_value(tag.strip())
-            if tag and tag not in tags:
-                tags.append(tag)
-            if len(tags) >= limit:
-                return tags
+            for normalized_tag in normalize_tag_value(tag.strip()):
+                if normalized_tag and normalized_tag not in tags:
+                    tags.append(normalized_tag)
+                if len(tags) >= limit:
+                    return tags
     return tags
+
+
+def merge_source_tags(entry: dict[str, object], tags: list[str], *, limit: int = 8) -> list[str]:
+    merged = [tag for tag in tags if tag and tag not in DISCARDED_SOURCE_TAGS]
+    type_tag = SOURCE_TYPE_TAGS.get(str(entry.get("type") or ""))
+    if type_tag and type_tag not in merged:
+        insert_at = 1 if merged and merged[0] == "口琴" else 0
+        merged.insert(insert_at, type_tag)
+    return merged[:limit]
 
 
 def text_parts(value: str | None, *, limit: int = 6) -> list[str]:
@@ -587,6 +672,7 @@ def merge_group(entries: list[dict[str, object]]) -> dict[str, object]:
     descriptions = merge_unique_strings([str(entry.get("summary") or "") for entry in entries])
     keywords = merge_unique_strings([str(entry.get("keywords") or "") for entry in entries])
     types = merge_unique_strings([str(entry.get("type") or "") for entry in entries])
+    original_types = merge_unique_strings([str(entry.get("originalType") or "") for entry in entries])
     countries = merge_unique_strings([str(entry.get("country") or "") for entry in entries])
     regions = merge_unique_strings([str(entry.get("region") or "") for entry in entries])
     focuses = merge_unique_strings([str(entry.get("cityOrFocus") or "") for entry in entries])
@@ -596,6 +682,7 @@ def merge_group(entries: list[dict[str, object]]) -> dict[str, object]:
     merged["aliases"] = aliases
     merged["links"] = merge_links(entries)
     merged["type"] = " / ".join(types[:3])
+    merged["originalType"] = " / ".join(original_types[:3])
     merged["country"] = str(primary.get("country") or (countries[0] if countries else ""))
     merged["region"] = " / ".join(regions[:3])
     merged["cityOrFocus"] = " / ".join(focuses[:3])
@@ -686,7 +773,7 @@ def apply_source_tags(entry: dict[str, object], cache: dict[str, dict[str, Any]]
             break
     tags = cached.get("sourceTags") or cached.get("tags") or []
     source_tags = normalize_tag_values(tags)
-    entry["sourceTags"] = source_tags[:8] if source_tags else fallback_source_tags(entry)
+    entry["sourceTags"] = merge_source_tags(entry, source_tags if source_tags else fallback_source_tags(entry))
 
     summary = normalize_taiwan_orthography(str(cached.get("sourceSummary") or cached.get("summary") or ""))
     if summary:
@@ -969,6 +1056,46 @@ def public_description(row: dict[str, str], source: str, category: str) -> str:
     return normalize_taiwan_orthography(f"{country_prefix}{role_label}。")
 
 
+def source_type_group(row: dict[str, str], category: str) -> str:
+    name = normalize_taiwan_orthography(row.get("name"))
+    name_en = clean(row.get("name_en"))
+    override_keys = {normalize_key(value) for value in (name, name_en, f"{name}{name_en}")}
+    for override_key in override_keys:
+        if override_key in SOURCE_TYPE_OVERRIDES:
+            return SOURCE_TYPE_OVERRIDES[override_key]
+
+    original_type = normalize_taiwan_orthography(row.get("type"))
+    role = normalize_taiwan_orthography(row.get("role"))
+    focus = normalize_taiwan_orthography(row.get("focus"))
+    instruments = normalize_taiwan_orthography(row.get("instruments"))
+    keywords = normalize_taiwan_orthography(row.get("keywords"))
+    text = " ".join([name, name_en, original_type, role, focus, instruments, keywords])
+    text = f"{category} {text}"
+    if any(word in text for word in ("品牌", "有限公司", "公司")):
+        return "品牌"
+    if "個人" in original_type or any(word in role for word in ("演出人員", "音樂家", "合作音樂家")):
+        return "個人"
+    if "團體" in original_type or "樂團" in original_type or any(word in role for word in ("演出團體", "樂團")):
+        return "團體"
+    if any(word in original_type for word in ("學校社團", "學校/青年")) or any(word in text for word in ("口琴社", "口琴隊", "校園")):
+        return "學校社團"
+    if any(word in text for word in ("樂器", "器材", "專賣店", "樂器商")):
+        return "樂器與器材"
+    if any(word in text for word in ("場館", "文化局", "藝文中心", "平台", "教育機構")):
+        return "場館與平台"
+    if any(word in text for word in ("協會", "口琴會", "聯盟", "連盟", "Society", "Association", "Federation")):
+        return "協會"
+    if any(word in text for word in ("活動", "音樂節", "比賽", "工作坊", "售票", "講座", "演出企劃", "文化平台")):
+        return "活動與比賽"
+    if any(word in text for word in ("樂團", "團體", "重奏", "合奏", "社群")):
+        return "團體"
+    if any(word in text for word in ("教學", "教室", "工作室", "課程", "教育機構", "維修", "影片來源")):
+        return "樂器與器材"
+    if any(word in text for word in ("資訊入口", "資料來源", "參考來源")):
+        return "場館與平台"
+    return "團體"
+
+
 def entry_from_row(row: dict[str, str], source: str, row_number: int) -> dict[str, object] | None:
     links = link_bundle(row)
     if not links:
@@ -979,6 +1106,7 @@ def entry_from_row(row: dict[str, str], source: str, row_number: int) -> dict[st
         return None
 
     category = category_for(row, source)
+    original_type = normalize_taiwan_orthography(row.get("type"))
     city_or_focus = normalize_taiwan_orthography(row.get("city")) or normalize_taiwan_orthography(row.get("focus"))
     public_summary_parts = [
         normalize_taiwan_orthography(row.get("school_or_org")),
@@ -993,7 +1121,8 @@ def entry_from_row(row: dict[str, str], source: str, row_number: int) -> dict[st
         "name": name,
         "nameEn": normalize_taiwan_orthography(row.get("name_en")),
         "category": category,
-        "type": normalize_taiwan_orthography(row.get("type")),
+        "type": source_type_group(row, category),
+        "originalType": original_type,
         "country": normalize_taiwan_orthography(row.get("country")),
         "region": normalize_taiwan_orthography(row.get("region")),
         "cityOrFocus": city_or_focus,

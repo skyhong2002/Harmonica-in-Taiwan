@@ -852,7 +852,7 @@ def render_status_page(status: dict[str, Any]) -> str:
       </a>
       <nav class="site-nav" aria-label="主要導覽">
         <a href="/post/">公開貼文</a>
-        <a href="/post/source/">公開來源</a>
+        <a href="/source/">公開來源</a>
         <a href="/scores/">比賽指定曲</a>
         <a href="/status/">狀態</a>
       </nav>

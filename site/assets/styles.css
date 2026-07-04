@@ -471,7 +471,7 @@ h2 {
   padding: 2px 2px 12px;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
-  scrollbar-width: thin;
+  scrollbar-width: none;
 }
 
 .home-story-strip.is-auto-scrolling {
@@ -489,22 +489,8 @@ h2 {
   scroll-snap-type: x proximity;
 }
 
-.home-story-strip:hover {
-  scrollbar-color: var(--accent) #dfe8e2;
-}
-
 .home-story-strip::-webkit-scrollbar {
-  height: 8px;
-}
-
-.home-story-strip::-webkit-scrollbar-track {
-  background: #dfe8e2;
-  border-radius: 999px;
-}
-
-.home-story-strip::-webkit-scrollbar-thumb {
-  background: var(--accent);
-  border-radius: 999px;
+  display: none;
 }
 
 .story-card {

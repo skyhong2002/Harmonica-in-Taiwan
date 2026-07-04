@@ -14,7 +14,7 @@
 
 - 網站首頁：`https://harmonica.observe.tw/`
 - 公開貼文：`https://harmonica.observe.tw/post/`
-- 公開來源：`https://harmonica.observe.tw/post/source/`
+- 公開來源：`https://harmonica.observe.tw/source/`
 - 比賽指定曲：`https://harmonica.observe.tw/scores/`
 - 口琴譜源：`https://harmonica.observe.tw/scores/sources/`
 - 資料回報：`https://harmonica.observe.tw/submit/`
@@ -36,7 +36,8 @@
 │   ├── assets/                  # CSS、JS、logo、favicon；feed 圖片與頭貼快取不進 git
 │   ├── data/                    # 前端讀取的 JS data bundle（不進 git）
 │   ├── directory/               # 舊公開來源路徑轉址（產生輸出，不進 main）
-│   ├── post/                    # 公開貼文河道；source/ 為公開來源索引頁（產生輸出，不進 main）
+│   ├── post/                    # 公開貼文河道（產生輸出，不進 main）
+│   ├── source/                  # 公開來源索引、來源詳情與 facet 頁（產生輸出，不進 main）
 │   ├── feeds/                   # RSS、分類頁與分類 JSON（不進 git）
 │   ├── score-sources/           # 舊口琴譜源路徑轉址（產生輸出，不進 main）
 │   ├── scores/                  # 學生音樂比賽指定曲索引頁；sources/ 為口琴譜源索引頁（產生輸出，不進 main）

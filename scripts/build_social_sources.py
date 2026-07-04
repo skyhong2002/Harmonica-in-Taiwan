@@ -21,7 +21,6 @@ LOCAL_RSSHUB_BASES = {"http://127.0.0.1:1200", "http://localhost:1200"}
 
 SOURCE_FILES = [
     PROJECT_ROOT / "data" / "sources" / "harmonica-source-watchlist-public.csv",
-    PROJECT_ROOT / "data" / "sources" / "harmonica-clubs-public.csv",
 ]
 
 DEFAULT_KEYWORDS = [

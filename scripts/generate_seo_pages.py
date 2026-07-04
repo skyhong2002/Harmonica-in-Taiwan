@@ -29,7 +29,7 @@ HEADER_HTML = """    <header class="site-header">
       </a>
       <nav class="site-nav" aria-label="主要導覽">
         <a href="/post/">公開貼文</a>
-        <a href="/post/source/">公開來源</a>
+        <a href="/source/">公開來源</a>
         <a href="/scores/">比賽指定曲</a>
         <a href="/status/">狀態</a>
       </nav>
@@ -286,6 +286,7 @@ def generate_source_page(
     name_en = escape(entry.get("nameEn"))
     category = escape(entry.get("category"))
     entry_type = escape(entry.get("type"))
+    original_type = escape(entry.get("originalType"))
     country = escape(entry.get("country"))
     region = escape(entry.get("region"))
     city_focus = escape(entry.get("cityOrFocus"))
@@ -331,7 +332,7 @@ def generate_source_page(
                 "@type": "ListItem",
                 "position": 2,
                 "name": "公開來源",
-                "item": "https://harmonica.observe.tw/post/source/"
+                "item": "https://harmonica.observe.tw/source/"
             },
             {
                 "@type": "ListItem",
@@ -356,6 +357,7 @@ def generate_source_page(
     country_row = f'<tr><th scope="row" style="padding: 10px; text-align: left; font-weight: bold; border-bottom: 1px solid var(--border-color, #e0e0e0);">國家</th><td style="padding: 10px; border-bottom: 1px solid var(--border-color, #e0e0e0);">{country}</td></tr>' if country else ""
     region_row = f'<tr><th scope="row" style="padding: 10px; text-align: left; font-weight: bold; border-bottom: 1px solid var(--border-color, #e0e0e0);">地區</th><td style="padding: 10px; border-bottom: 1px solid var(--border-color, #e0e0e0);">{region}</td></tr>' if region and region != country else ""
     city_row = f'<tr><th scope="row" style="padding: 10px; text-align: left; font-weight: bold; border-bottom: 1px solid var(--border-color, #e0e0e0);">城市 / 焦點</th><td style="padding: 10px; border-bottom: 1px solid var(--border-color, #e0e0e0);">{city_focus}</td></tr>' if city_focus else ""
+    original_type_row = f'<tr><th scope="row" style="padding: 10px; text-align: left; font-weight: bold; border-bottom: 1px solid var(--border-color, #e0e0e0);">說明</th><td style="padding: 10px; border-bottom: 1px solid var(--border-color, #e0e0e0);">{original_type}</td></tr>' if original_type and original_type != entry_type else ""
 
     tags = entry.get("sourceTags") or []
     tags_row = ""
@@ -452,7 +454,7 @@ def generate_source_page(
     <main class="feed-page-main">
       <nav aria-label="breadcrumb" class="breadcrumb-nav" style="font-size: 0.9rem; margin: 1rem auto; max-width: 1200px; padding: 0 1rem; color: var(--text-muted, #666);">
         <a href="/" style="color: var(--primary, #1a73e8); text-decoration: none;">首頁</a> ›
-        <a href="/post/source/" style="color: var(--primary, #1a73e8); text-decoration: none;">公開來源</a> ›
+        <a href="/source/" style="color: var(--primary, #1a73e8); text-decoration: none;">公開來源</a> ›
         <span>{name}</span>
       </nav>
 
@@ -461,7 +463,7 @@ def generate_source_page(
           <div class="source-hero-head" style="display: flex; align-items: center;">
             {avatar_html}
             <div>
-              <p class="section-kicker" style="text-transform: uppercase; font-size: 0.9rem; letter-spacing: 0.05em; color: var(--primary, #1a73e8); font-weight: bold; margin: 0;">{category}</p>
+              <p class="section-kicker" style="text-transform: uppercase; font-size: 0.9rem; letter-spacing: 0.05em; color: var(--primary, #1a73e8); font-weight: bold; margin: 0;">{entry_type}</p>
               <h1 style="margin: 0.3rem 0 0 0; font-size: 2.2rem; font-weight: 800;">{name}</h1>
               {name_en_html}
             </div>
@@ -469,7 +471,7 @@ def generate_source_page(
           <div class="feed-page-summary">
             <p style="font-size: 1.1rem; line-height: 1.6; margin: 0 0 1.5rem 0;">{summary}</p>
             <div class="feed-links">
-              <a href="/post/source/">返回公開來源列表</a>
+              <a href="/source/">返回公開來源列表</a>
               <a href="/">前往首頁</a>
             </div>
           </div>
@@ -483,9 +485,10 @@ def generate_source_page(
             <table class="source-detail-table" style="width: 100%; border-collapse: collapse; margin-bottom: 2.5rem;">
               <tbody>
                 <tr>
-                  <th scope="row" style="width: 25%; padding: 10px; text-align: left; font-weight: bold; border-bottom: 1px solid var(--border-color, #e0e0e0);">類別 / 類型</th>
-                  <td style="padding: 10px; border-bottom: 1px solid var(--border-color, #e0e0e0);">{category} / {entry_type}</td>
+                  <th scope="row" style="width: 25%; padding: 10px; text-align: left; font-weight: bold; border-bottom: 1px solid var(--border-color, #e0e0e0);">類型</th>
+                  <td style="padding: 10px; border-bottom: 1px solid var(--border-color, #e0e0e0);">{entry_type}</td>
                 </tr>
+                {original_type_row}
                 {country_row}
                 {region_row}
                 {city_row}
@@ -856,7 +859,7 @@ def generate_scores_category_page(category: str, items: list[dict[str, Any]]) ->
 
 
 def make_slug(entry: dict[str, Any]) -> str:
-    entry_id = clean(entry.get("id"))
+    entry_id = source_public_id(entry)
     name_en = clean(entry.get("nameEn"))
     name = clean(entry.get("name"))
     text = name_en if name_en else name
@@ -865,6 +868,14 @@ def make_slug(entry: dict[str, Any]) -> str:
     text = text.strip("-")
     if text:
         return f"{entry_id}-{text}"
+    return entry_id
+
+
+def source_public_id(entry: dict[str, Any]) -> str:
+    entry_id = clean(entry.get("id"))
+    match = re.match(r"^watchlist-(\d+)$", entry_id)
+    if match:
+        return match.group(1)
     return entry_id
 
 
@@ -914,7 +925,7 @@ def generate_sitemap_xml(
     core_lastmods = {
         "": newest_post,
         "post/": newest_post,
-        "post/source/": newest_source,
+        "source/": newest_source,
         "scores/": newest_score,
         "scores/sources/": newest_score_source,
         "feeds/": newest_post,
@@ -926,7 +937,7 @@ def generate_sitemap_xml(
     core_pages = [
         ("", "daily", "1.0"),
         ("post/", "daily", "0.8"),
-        ("post/source/", "weekly", "0.8"),
+        ("source/", "weekly", "0.8"),
         ("scores/", "weekly", "0.8"),
         ("scores/sources/", "weekly", "0.8"),
         ("feeds/", "daily", "0.6"),
@@ -1099,7 +1110,7 @@ def format_source_item_list_json_ld(
     entries: list[dict[str, Any]],
     name: str = "口琴公開來源索引",
     description: str = "臺灣與海外口琴社團、樂團、演奏者、教學、場館與公開社群來源索引。",
-    url: str = "https://harmonica.observe.tw/post/source/",
+    url: str = "https://harmonica.observe.tw/source/",
 ) -> str:
     item_list = {
         "@context": "https://schema.org",
@@ -1138,6 +1149,124 @@ def format_static_directory_cards(entries: list[dict[str, Any]]) -> str:
 """
 
 
+def generate_source_index_base_page() -> str:
+    return """<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>公開來源｜臺灣口琴觀測站</title>
+    <meta name="description" content="臺灣口琴社團、樂團、演奏者、教學、場館與公開來源索引。">
+    <link rel="canonical" href="https://harmonica.observe.tw/source/">
+    <meta property="og:title" content="公開來源｜臺灣口琴觀測站">
+    <meta property="og:description" content="臺灣口琴社團、樂團、演奏者、教學、場館與公開來源索引。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://harmonica.observe.tw/source/">
+    <meta property="og:image" content="https://harmonica.observe.tw/assets/hero-harmonica-observe.webp">
+    <meta property="og:site_name" content="臺灣口琴觀測站">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="公開來源｜臺灣口琴觀測站">
+    <meta name="twitter:description" content="臺灣口琴社團、樂團、演奏者、教學、場館與公開來源索引。">
+    <meta name="twitter:image" content="https://harmonica.observe.tw/assets/hero-harmonica-observe.webp">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Dataset",
+      "@id": "https://harmonica.observe.tw/source/#dataset",
+      "name": "臺灣口琴公開來源與目錄索引",
+      "description": "臺灣口琴社團、樂團、演奏者、教學、場館與公開社群/影音來源之 metadata 索引數據庫。",
+      "url": "https://harmonica.observe.tw/source/",
+      "license": "https://opensource.org/licenses/MIT",
+      "creator": {
+        "@type": "Organization",
+        "name": "臺灣口琴觀測站"
+      }
+    }
+    </script>
+    <link rel="icon" href="/assets/favicon-20260623.svg?v=20260628-0342" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/styles.css?v=20260704-directory-view">
+  </head>
+  <body>
+""" + HEADER_HTML + """
+
+    <main class="feed-page-main">
+      <section class="feed-page-hero">
+        <div class="band-inner split-layout">
+          <div>
+            <p class="section-kicker">Public Sources</p>
+            <h1>公開來源</h1>
+          </div>
+          <div class="feed-page-summary">
+            <p>臺灣與海外口琴社團、樂團、演奏者、教學、場館、活動與公開社群來源索引。</p>
+            <div class="feed-links">
+              <a href="/feeds/sources.xml">RSS 訂閱</a>
+              <a href="/api/sources.json">JSON</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="band directory-band" id="directory" aria-labelledby="directory-title">
+        <div class="band-inner">
+          <div class="section-heading">
+            <div>
+              <p class="section-kicker">Directory</p>
+              <h2 id="directory-title">公開來源列表</h2>
+            </div>
+            <p class="data-date" id="result-count">載入公開來源...</p>
+          </div>
+
+          <div id="directory-filter-panel" aria-label="公開來源搜尋與篩選"></div>
+
+          <div class="directory-grid" id="directory-list">
+          </div>
+        </div>
+      </section>
+
+      <section class="band source-band" aria-labelledby="sources-title">
+        <div class="band-inner split-layout">
+          <div>
+            <p class="section-kicker">Source Boundary</p>
+            <h2 id="sources-title">只發布公開可查資料</h2>
+          </div>
+          <div class="source-points">
+            <p>網站只使用公開連結、名稱、類型、地區、樂器與來源標籤。</p>
+            <p>內部備註、監看規則、私人憑證、成員資料與非公開曲譜入口不會進入公開資料包。</p>
+            <p>不適合公開展示的資料會暫時不顯示。</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+""" + FOOTER_HTML + """
+
+    <script src="/data/site-data.js?v=20260628-0342"></script>
+    <script src="/assets/app.js?v=20260704-directory-view"></script>
+  </body>
+</html>
+"""
+
+
+def write_source_index_redirect() -> None:
+    redirect_url = "https://harmonica.observe.tw/source/"
+    redirect_dir = SITE_ROOT / "post" / "source"
+    redirect_dir.mkdir(parents=True, exist_ok=True)
+    redirect_html = f"""<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url={redirect_url}">
+    <link rel="canonical" href="{redirect_url}">
+    <title>頁面已移動｜臺灣口琴觀測站</title>
+  </head>
+  <body>
+    <p>公開來源索引已移到 <a href="{redirect_url}">{redirect_url}</a>。</p>
+  </body>
+</html>
+"""
+    (redirect_dir / "index.html").write_text(redirect_html, encoding="utf-8")
+
+
 def generate_source_facet_page(group: dict[str, Any], value: str, entries: list[dict[str, Any]]) -> str:
     path = clean(group["path"])
     encoded_value = encoded_path_part(value)
@@ -1166,7 +1295,7 @@ def generate_source_facet_page(group: dict[str, Any], value: str, entries: list[
                 "@type": "ListItem",
                 "position": 2,
                 "name": "公開來源",
-                "item": "https://harmonica.observe.tw/post/source/",
+                "item": "https://harmonica.observe.tw/source/",
             },
             {
                 "@type": "ListItem",
@@ -1209,7 +1338,7 @@ def generate_source_facet_page(group: dict[str, Any], value: str, entries: list[
     <main class="feed-page-main">
       <nav aria-label="breadcrumb" class="breadcrumb-nav" style="font-size: 0.9rem; margin: 1rem auto; max-width: 1200px; padding: 0 1rem; color: var(--text-muted, #666);">
         <a href="/" style="color: var(--primary, #1a73e8); text-decoration: none;">首頁</a> ›
-        <a href="/post/source/" style="color: var(--primary, #1a73e8); text-decoration: none;">公開來源</a> ›
+        <a href="/source/" style="color: var(--primary, #1a73e8); text-decoration: none;">公開來源</a> ›
         <span>{escape(label)}：{escape(value)}</span>
       </nav>
 
@@ -1222,7 +1351,7 @@ def generate_source_facet_page(group: dict[str, Any], value: str, entries: list[
           <div class="feed-page-summary">
             <p>{escape(description)}</p>
             <div class="feed-links">
-              <a href="/post/source/">全部公開來源</a>
+              <a href="/source/">全部公開來源</a>
               <a href="/feeds/sources.xml">來源索引 RSS</a>
             </div>
           </div>
@@ -1312,6 +1441,10 @@ def update_core_pages(
     scores: list[dict[str, Any]],
     scores_payload: dict[str, Any],
 ) -> None:
+    source_index_path = SITE_ROOT / "source" / "index.html"
+    source_index_path.parent.mkdir(parents=True, exist_ok=True)
+    source_index_path.write_text(generate_source_index_base_page(), encoding="utf-8")
+
     # 1. Load api/score-sources.json
     try:
         SCORE_SOURCES_JSON = SITE_ROOT / "api" / "score-sources.json"
@@ -1384,7 +1517,7 @@ def update_core_pages(
     core_pages = [
         ("index.html", {}),
         ("post/index.html", {}),
-        ("post/source/index.html", {}),
+        ("source/index.html", {}),
         ("scores/index.html", {
             "inject_selector": r'(<div[^>]*id="score-list"[^>]*>).*?(</div>)',
             "inject_content": format_scores_table(scores)
@@ -1422,7 +1555,7 @@ def update_core_pages(
                 pattern = re.compile(inject_info["inject_selector"], re.DOTALL)
                 content = pattern.sub(rf'\g<1>{inject_info["inject_content"]}\g<2>', content)
 
-            if rel_path == "post/source/index.html":
+            if rel_path == "source/index.html":
                 content = re.sub(
                     r'\n\s*<script type="application/ld\+json"[^>]*data-generated="source-item-list"[^>]*>.*?</script>',
                     "",
@@ -1521,8 +1654,11 @@ def main() -> int:
         )
         (slug_dir / "index.html").write_text(html_content, encoding="utf-8")
 
-        if slug != entry_id:
-            old_dir = SITE_ROOT / "source" / entry_id
+        redirect_aliases = {entry_id, source_public_id(entry)}
+        for alias in sorted(redirect_aliases):
+            if not alias or alias == slug:
+                continue
+            old_dir = SITE_ROOT / "source" / alias
             old_dir.mkdir(parents=True, exist_ok=True)
             redirect_url = f"https://harmonica.observe.tw/source/{slug}/"
             redirect_html = f"""<!doctype html>
@@ -1578,8 +1714,9 @@ def main() -> int:
         (page_dir / "index.html").write_text(html_content, encoding="utf-8")
         score_cat_count += 1
 
-    # 6. Pre-render Core Pages (index, post, post/source, scores, scores/sources, feeds)
+    # 6. Pre-render Core Pages (index, post, source, scores, scores/sources, feeds)
     update_core_pages(entries, scores, scores_payload)
+    write_source_index_redirect()
 
     # 7. Rebuild sitemap
     sitemap_content = generate_sitemap_xml(entries, events, categories, updates, scores, source_groups)
