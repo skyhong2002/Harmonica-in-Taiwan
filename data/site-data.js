@@ -591,7 +591,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "西班牙",
       "cityOrFocus": "十孔/藍調",
       "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
-      "summary": "西班牙的十孔國際演出人員，活動脈絡包含藍調。",
+      "summary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
       "keywords": "Marcos Coll harmonica",
       "links": [
         {
@@ -679,7 +679,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "香港",
       "cityOrFocus": "半音階/現代跨界",
       "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
-      "summary": "香港的半音階國際演出人員，活動脈絡包含現代跨界。",
+      "summary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
       "keywords": "CY Leo 何卓彥 harmonica",
       "links": [
         {
@@ -1000,7 +1000,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "香港",
       "cityOrFocus": "THMF交流/演出",
       "structuredSummary": "THMF交流/演出 / 半音階 / 國際演出人員",
-      "summary": "香港的半音階國際演出人員，活動脈絡包含THMF交流與演出。",
+      "summary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
       "keywords": "梁承熹 Kelvin Leung harmonica",
       "links": [
         {
@@ -1337,7 +1337,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "韓國",
       "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
       "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
-      "summary": "韓國的鋼琴合作音樂家，活動脈絡包含鋼琴伴奏與朴鍾聲合作。",
+      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
       "keywords": "Younghoon Cho Jong-seong Park",
       "links": [
         {
@@ -2173,7 +2173,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "天狼星/胖擊系/半音階與重奏",
       "structuredSummary": "天狼星/胖擊系/半音階與重奏 / 半音階/重奏 / 演出人員",
-      "summary": "臺灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。",
+      "summary": "半音階與重奏演奏者，活躍於天狼星與胖擊系團隊。",
       "keywords": "王衍華 口琴",
       "links": [
         {
@@ -3094,7 +3094,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "胖擊系",
       "structuredSummary": "胖擊系 / 口琴 / 演出人員",
-      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
+      "summary": "臺灣口琴演奏者，活躍於演出活動。",
       "keywords": "王心禾 口琴",
       "links": [
         {
@@ -3231,7 +3231,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "天狼星/Laelaps/教學/演出",
       "structuredSummary": "天狼星/Laelaps/教學/演出 / 重奏/教學 / 演出人員/教學者",
-      "summary": "臺灣的重奏與教學演出人員與教學者，活動脈絡包含天狼星、Laelaps與演出。",
+      "summary": "口琴演奏者，兼職教學與重奏活動。",
       "keywords": "張晁滕 口琴",
       "links": [
         {
@@ -3372,7 +3372,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "演出/評審",
       "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
-      "summary": "臺灣的口琴演出人員與評審，活動脈絡包含演出與評審。",
+      "summary": "口琴演奏家，專注於演出與評審工作。",
       "keywords": "陳鴻儀 口琴",
       "links": [
         {
@@ -3720,7 +3720,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
       "structuredSummary": "天狼星/胖擊系/和弦口琴/重奏 / 和弦/重奏 / 演出人員",
-      "summary": "臺灣的和弦與重奏演出人員，活動脈絡包含天狼星、胖擊系與和弦口琴。",
+      "summary": "口琴演奏者，專長和弦口琴與重奏演出。",
       "keywords": "黃冠誌 口琴",
       "links": [
         {
@@ -4052,7 +4052,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "韓國",
       "cityOrFocus": "半音階/國際級演出",
       "structuredSummary": "半音階/國際級演出 / 半音階 / 國際演出人員",
-      "summary": "韓國的半音階國際演出人員，活動脈絡包含國際級演出。",
+      "summary": "韓國半音階口琴演奏家，活躍於國際舞台。",
       "keywords": "Jong-seong Park 朴鍾聲 harmonica",
       "links": [
         {
@@ -4209,7 +4209,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "天狼星/THMF/和弦口琴/推廣",
       "structuredSummary": "天狼星/THMF/和弦口琴/推廣 / 和弦/重奏 / 演出人員/推廣者",
-      "summary": "臺灣的和弦與重奏演出人員與推廣者，活動脈絡包含天狼星、THMF與和弦口琴。",
+      "summary": "天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。",
       "keywords": "陳彥銘 口琴 天狼星 THMF",
       "links": [
         {
@@ -5286,7 +5286,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "胖擊系",
       "structuredSummary": "胖擊系 / 口琴 / 演出人員",
-      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
+      "summary": "臺灣口琴演奏者林裕豐，兼職教學與演出。",
       "keywords": "林裕豐 口琴",
       "links": [
         {
@@ -7387,7 +7387,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "南部口琴合奏",
       "structuredSummary": "南部口琴合奏 / 口琴合奏 / 演出團體",
-      "summary": "臺灣的口琴合奏演出團體，活動脈絡包含南部口琴合奏。",
+      "summary": "南部地區專注口琴合奏的演出團體。",
       "keywords": "口琴好南合奏樂團",
       "links": [
         {
@@ -7769,7 +7769,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "青年重奏/台大藍聲系",
       "structuredSummary": "青年重奏/台大藍聲系 / 口琴重奏 / 演出團體",
-      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含青年重奏與台大藍聲系。",
+      "summary": "台大藍聲系背景的青年口琴重奏樂團，專注於室內樂演出。",
       "keywords": "Dr. Blue 口琴樂團",
       "links": [
         {
@@ -7983,7 +7983,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "Judy’s/演出/評審",
       "structuredSummary": "Judy’s/演出/評審 / 半音階/重奏 / 演出人員/評審",
-      "summary": "臺灣的半音階與重奏演出人員與評審，活動脈絡包含Judy’s、演出與評審。",
+      "summary": "口琴演奏者，專長半音階與重奏，並擔任演出與評審工作。",
       "keywords": "莊筑迪 口琴 Judy",
       "links": [
         {
@@ -8696,7 +8696,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "跨界/流行/李讓相關",
       "structuredSummary": "跨界/流行/李讓相關 / 口琴/跨界 / 演出團體",
-      "summary": "臺灣的口琴與跨界演出團體，活動脈絡包含流行與李讓相關。",
+      "summary": "以李讓為核心的跨界流行口琴演出團體。",
       "keywords": "mr.Why 花影樂團 李讓",
       "links": [
         {
@@ -8852,7 +8852,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "臺中系年輕演奏者",
       "structuredSummary": "臺中系年輕演奏者 / 複音/半音階 / 演出人員",
-      "summary": "臺灣的複音與半音階演出人員，活動脈絡包含臺中系年輕演奏者。",
+      "summary": "臺中年輕口琴演奏者，專精複音與半音階。",
       "keywords": "陳柏宏 口琴",
       "links": [
         {
@@ -9053,7 +9053,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "香港",
       "cityOrFocus": "半音階/THMC嘉賓/評審",
       "structuredSummary": "半音階/THMC嘉賓/評審 / 半音階 / 國際演出人員/評審",
-      "summary": "香港的半音階國際演出人員與評審，活動脈絡包含THMC嘉賓與評審。",
+      "summary": "香港半音階口琴演奏者，擔任國際比賽嘉賓與評審。",
       "keywords": "Gordon Lee 李俊樂 harmonica",
       "links": [
         {
@@ -9139,7 +9139,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "演出/評審",
       "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
-      "summary": "臺灣的口琴演出人員與評審，活動脈絡包含演出與評審。",
+      "summary": "口琴演奏家與評審，活躍於演出及評審工作。",
       "keywords": "邱榮東 口琴",
       "links": [
         {
@@ -10173,7 +10173,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "重奏/青年團體",
       "structuredSummary": "重奏/青年團體 / 口琴重奏 / 演出團體",
-      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含重奏與青年團體。",
+      "summary": "臺灣青年口琴重奏團體，專注演出與推廣口琴合奏藝術。",
       "keywords": "DoNuts 口琴樂團",
       "links": [
         {
@@ -10254,7 +10254,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "重奏/公演/新興團體",
       "structuredSummary": "重奏/公演/新興團體 / 口琴重奏 / 演出團體",
-      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含重奏、公演與新興團體。",
+      "summary": "「IniXial Harmonica Ensemble 源創口琴樂團」成立於2024年，由半音階口琴、倍低音口琴、和弦口琴等純口琴樂器組成，是個融合不同聲部的特殊編制重奏團體。團員除身為演奏者之外，同時具有創作編曲與現場演出能力。源創口琴樂團期許透過演出，呈現樂曲的原創概念以及熱愛音樂的初衷。",
       "keywords": "IniXial Harmonica Ensemble 源創口琴樂團 IniXial 口琴樂團",
       "links": [
         {
@@ -10282,6 +10282,8 @@ window.HARMONICA_OBSERVE_DATA = {
         "團體樂團",
         "重奏"
       ],
+      "sourceSummary": "「IniXial Harmonica Ensemble 源創口琴樂團」成立於2024年，由半音階口琴、倍低音口琴、和弦口琴等純口琴樂器組成，是個融合不同聲部的特殊編制重奏團體。團員除身為演奏者之外，同時具有創作編曲與現場演出能力。源創口琴樂團期許透過演出，呈現樂曲的原創概念以及熱愛音樂的初衷。",
+      "sourceTagReason": "社群網站公開自我敘述。",
       "monitorSources": [
         {
           "id": "fb_7112134202",
@@ -10499,7 +10501,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "青年/重奏/THMF相關",
       "structuredSummary": "青年/重奏/THMF相關 / 口琴重奏 / 演出團體",
-      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含青年、重奏與THMF相關。",
+      "summary": "專注口琴重奏的青年演出團體，與THMF相關。",
       "keywords": "Spotlight 口琴樂團",
       "links": [
         {
@@ -13612,7 +13614,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "班多鈕/跨界合作",
       "structuredSummary": "班多鈕/跨界合作 / 班多鈕 / 合作音樂家",
-      "summary": "臺灣的班多鈕合作音樂家，活動脈絡包含跨界合作。",
+      "summary": "以班多鈕手琴與跨界合作為主的演奏者",
       "keywords": "吳詠隆 班多鈕 口琴",
       "links": [
         {
@@ -13675,7 +13677,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "年輕半音階/複音演奏者",
       "structuredSummary": "年輕半音階/複音演奏者 / 半音階/複音 / 演出人員",
-      "summary": "臺灣的半音階與複音演出人員，活動脈絡包含年輕半音階與複音演奏者。",
+      "summary": "年輕臺灣口琴演奏者，專長半音階與複音口琴。",
       "keywords": "吳采容 口琴",
       "links": [
         {
@@ -13842,7 +13844,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "天狼星系",
       "structuredSummary": "天狼星系 / 口琴/重奏 / 演出人員",
-      "summary": "臺灣的口琴與重奏演出人員，活動脈絡包含天狼星系。",
+      "summary": "個人演奏者，隸屬天狼星系口琴重奏團，從事口琴演出。",
       "keywords": "陳奕翔 口琴",
       "links": [
         {
