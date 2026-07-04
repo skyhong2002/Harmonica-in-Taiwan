@@ -190,12 +190,9 @@ def source_related_facets(entry: dict[str, Any], entries: list[dict[str, Any]]) 
         add_facet("country", country, {country})
 
     region_parts = [part.strip() for part in re.split(r"[/／；;、,，]", clean(entry.get("region"))) if part.strip()]
-    city_focus = clean(entry.get("cityOrFocus"))
     for part in region_parts:
         if part and part != country:
             add_facet("region", part, {part})
-    if city_focus and city_focus != country and city_focus not in region_parts:
-        add_facet("region", city_focus, {city_focus})
 
     for tag in entry.get("sourceTags") or []:
         tag_label = f"#{clean(tag).lstrip('#')}"
@@ -209,8 +206,7 @@ def source_facet_values(entry: dict[str, Any], kind: str) -> set[str]:
         return {clean(entry.get("country"))}
     if kind == "region":
         values = set()
-        for field in ("region", "cityOrFocus"):
-            values.update(part.strip() for part in re.split(r"[/／；;、,，]", clean(entry.get(field))) if part.strip())
+        values.update(part.strip() for part in re.split(r"[/／；;、,，]", clean(entry.get("region"))) if part.strip())
         return values
     if kind == "tag":
         return {clean(tag).lstrip("#") for tag in entry.get("sourceTags") or []}
@@ -1641,7 +1637,11 @@ def main() -> int:
             continue
 
         # Match updates
-        entry_updates = [up for up in updates if clean(up.get("directory_entry_id")) == entry_id]
+        entry_updates = [
+            up for up in updates
+            if clean(up.get("directory_entry_id")) == entry_id
+            and not feed_render.is_instagram_story_item(up)
+        ]
 
         slug = make_slug(entry)
 
