@@ -658,7 +658,10 @@ h2 {
 }
 
 .directory-filter-panel {
+  max-width: 1120px;
+  margin-right: auto;
   margin-bottom: 24px;
+  margin-left: auto;
 }
 
 .directory-view-toggle {
@@ -1635,6 +1638,16 @@ button.feed-tag-pill {
   border-bottom: 1px solid var(--line);
 }
 
+.directory-band > .band-inner {
+  width: calc(100% - 48px);
+}
+
+.directory-band .section-heading {
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .data-date,
 .result-count {
   color: var(--muted);
@@ -2534,53 +2547,50 @@ button.feed-tag-pill {
   margin-left: 8px;
 }
 
-.directory-link-cell {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  align-items: center;
-  justify-content: center;
-  white-space: normal;
+.directory-table td.directory-link-cell {
+  overflow: hidden;
+  text-align: left;
+  text-overflow: clip;
+  white-space: nowrap;
 }
 
 .directory-link-icon {
   display: inline-grid;
   place-items: center;
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
+  margin-right: 7px;
   text-decoration: none;
-  background: #edf8f5;
-  border: 1px solid #cfe6df;
-  border-radius: 999px;
+  vertical-align: middle;
 }
 
 .directory-link-icon svg {
-  width: 15px;
-  height: 15px;
+  width: 19px;
+  height: 19px;
   fill: currentColor;
 }
 
 .directory-link-icon:hover,
 .directory-link-icon:focus-visible {
-  color: #fff;
-  background: var(--teal);
-  border-color: var(--teal);
+  opacity: 0.72;
   outline: 2px solid rgba(36, 123, 111, 0.2);
   outline-offset: 2px;
 }
 
 .directory-link-icon.is-muted {
   color: #6d7b75;
-  background: #f3f6f4;
-  border-color: var(--line);
 }
 
 .directory-table-list {
+  width: 100%;
   margin-top: 0;
+  margin-left: 0;
+  overflow-x: auto;
 }
 
 .directory-table {
-  min-width: 1120px;
+  width: var(--score-table-width, 100%);
+  min-width: 0;
 }
 
 .directory-source-cell {
@@ -2963,6 +2973,10 @@ button.feed-tag-pill {
   .hero-content,
   .band-inner {
     width: min(100% - 32px, 1120px);
+  }
+
+  .directory-band > .band-inner {
+    width: calc(100% - 32px);
   }
 
   .latest-story-band .band-inner {

@@ -50,11 +50,142 @@
     country: emptyFilterSet(),
     region: emptyFilterSet(),
     hashtags: emptyFilterSet(),
-    directoryView: "cards",
+    directoryView: "table",
     directorySortKey: "",
     directorySortDirection: "asc",
     directoryColumnWidths: {},
   };
+  const directoryDefaultIncludes = {
+    country: ["臺灣"],
+    region: [],
+    hashtags: ["口琴"],
+  };
+  const directoryAsciiAliasWords = {
+    "臺灣": "taiwan",
+    "台灣": "taiwan",
+    "中國": "china",
+    "丹麥": "denmark",
+    "巴西": "brazil",
+    "日本": "japan",
+    "以色列": "israel",
+    "印尼": "indonesia",
+    "西班牙": "spain",
+    "法國": "france",
+    "阿根廷": "argentina",
+    "俄羅斯": "russia",
+    "美國": "united-states",
+    "英國": "united-kingdom",
+    "香港": "hong-kong",
+    "挪威": "norway",
+    "紐西蘭": "new-zealand",
+    "馬來西亞": "malaysia",
+    "國際": "international",
+    "捷克": "czechia",
+    "荷蘭": "netherlands",
+    "新加坡": "singapore",
+    "瑞士": "switzerland",
+    "瑞典": "sweden",
+    "德國": "germany",
+    "韓國": "south-korea",
+    "歐洲": "europe",
+    "江蘇": "jiangsu",
+    "湖北": "hubei",
+    "庫里奇巴": "curitiba",
+    "塞阿拉": "ceara",
+    "山形": "yamagata",
+    "兵庫": "hyogo",
+    "東京": "tokyo",
+    "鹿兒島": "kagoshima",
+    "布宜諾斯艾利斯": "buenos-aires",
+    "阿韋亞內達": "avellaneda",
+    "加州": "california",
+    "密蘇里": "missouri",
+    "愛達荷": "idaho",
+    "首爾": "seoul",
+    "吉隆坡": "kuala-lumpur",
+    "檳城": "penang",
+    "肯特崗": "kent-ridge",
+    "裕廊西": "jurong-west",
+    "花蓮": "hualien",
+    "屏東": "pingtung",
+    "桃園": "taoyuan",
+    "高雄": "kaohsiung",
+    "雲林": "yunlin",
+    "新竹": "hsinchu",
+    "彰化": "changhua",
+    "臺中": "taichung",
+    "台中": "taichung",
+    "臺北": "taipei",
+    "台北": "taipei",
+    "臺南": "tainan",
+    "台南": "tainan",
+    "克林根塔爾": "klingenthal",
+    "柏林": "berlin",
+    "特羅辛根": "trossingen",
+    "交流": "exchange",
+    "口琴": "harmonica",
+    "十孔": "diatonic",
+    "半音階": "chromatic",
+    "複音": "tremolo",
+    "和弦": "chord",
+    "合奏": "ensemble",
+    "重奏": "chamber",
+    "演奏者": "performer",
+    "演出": "performance",
+    "音樂會": "concert",
+    "音樂節": "festival",
+    "比賽": "competition",
+    "資訊入口": "info-hub",
+    "活動資訊": "event-info",
+    "活動": "event",
+    "工作坊": "workshop",
+    "工作室": "studio",
+    "文化局": "cultural-affairs",
+    "協會": "association",
+    "品牌": "brand",
+    "樂器商": "instrument-seller",
+    "樂器行": "music-store",
+    "文化平台": "culture-platform",
+    "教育入口": "education-hub",
+    "演出企劃": "performance-planning",
+    "個人": "individual",
+    "教學": "teaching",
+    "維修": "repair",
+    "影片來源": "video-source",
+    "地方推廣": "local-promotion",
+    "校內場館": "campus-venue",
+    "藝文中心": "arts-center",
+    "售票平台": "ticketing",
+    "國際交流": "international-exchange",
+    "國際交流活動": "international-exchange-event",
+    "國際活動": "international-event",
+    "國際團體": "international-group",
+    "參考來源": "reference",
+    "教育機構": "education-institution",
+    "教學工作室": "teaching-studio",
+    "教學器材": "teaching-equipment",
+    "單位": "organization",
+    "場館平台": "venue-platform",
+    "場館": "venue",
+    "團體樂團": "ensemble-band",
+    "團體": "group",
+    "學生社團": "student-club",
+    "大專社團": "college-club",
+    "學校社團": "school-club",
+    "學校": "school",
+    "正式課程": "formal-course",
+    "青年": "youth",
+    "教學平台": "teaching-platform",
+    "學校比賽": "school-competition",
+    "地方教學": "local-teaching",
+    "社大課程": "community-college-course",
+    "器材": "equipment",
+    "課程": "course",
+    "社群": "community",
+    "合作企劃": "collaboration",
+    "子來源": "subsource",
+  };
+  let directoryAliasMaps = null;
   const feedDefaultIncludes = {
     platform: [],
     country: ["臺灣"],
@@ -98,7 +229,7 @@
   const feedBatchSize = 12;
   const scoreDefaultTableWidth = 1240;
   const scoreSourceDefaultTableWidth = 1480;
-  const directoryDefaultTableWidth = 1120;
+  const directoryDefaultTableWidth = 0;
   const directoryRenderBatchSize = 48;
   const directorySearchDelayMs = 120;
   const feedDesktopColumnQuery = "(min-width: 901px)";
@@ -830,11 +961,97 @@
     records.forEach((record) => {
       record.cardHtml = entryCard(record.entry);
     });
+    directoryAliasMaps = null;
     return index;
   }
 
   function directoryFilterState(filterName) {
     return state[filterName] || emptyFilterSet();
+  }
+
+  function directoryFilterAliasFallback(value) {
+    return [...String(value || "")]
+      .map((char) => {
+        if (/^[a-z0-9]$/i.test(char)) return char.toLowerCase();
+        if (/\s/.test(char) || /[/、；;:_-]/.test(char)) return "-";
+        return `u${char.codePointAt(0).toString(16)}`;
+      })
+      .join("-");
+  }
+
+  function directoryFilterAlias(value) {
+    const raw = String(value || "").trim();
+    if (!raw) return "";
+    const direct = directoryAsciiAliasWords[raw];
+    if (direct) return direct;
+    const words = Object.keys(directoryAsciiAliasWords).sort((left, right) => right.length - left.length);
+    let text = raw;
+    words.forEach((word) => {
+      text = text.replaceAll(word, ` ${directoryAsciiAliasWords[word]} `);
+    });
+    text = text
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/&/g, " and ")
+      .replace(/['’]/g, "")
+      .replace(/[^a-z0-9]+/gi, "-")
+      .replace(/^-+|-+$/g, "")
+      .replace(/-{2,}/g, "-")
+      .toLowerCase();
+    return text || directoryFilterAliasFallback(raw).replace(/^-+|-+$/g, "").replace(/-{2,}/g, "-");
+  }
+
+  function directoryFilterValuesForName(name) {
+    if (name === "country") return directoryHashtagValues().countries;
+    if (name === "region") return directoryHashtagValues().regions;
+    if (name === "hashtags") return directoryHashtagValues().sourceTags;
+    return [];
+  }
+
+  function buildDirectoryAliasMaps() {
+    const maps = {};
+    directoryFilterNames.forEach((name) => {
+      const labelToAlias = new Map();
+      const aliasToLabel = new Map();
+      directoryFilterValuesForName(name).forEach((label) => {
+        const alias = directoryFilterAlias(label);
+        if (!alias) return;
+        labelToAlias.set(filterValueKey(label), alias);
+        if (!aliasToLabel.has(alias)) aliasToLabel.set(alias, label);
+      });
+      maps[name] = { labelToAlias, aliasToLabel };
+    });
+    directoryAliasMaps = maps;
+    return maps;
+  }
+
+  function directoryAliasMapsForCurrentValues() {
+    return directoryAliasMaps || buildDirectoryAliasMaps();
+  }
+
+  function directoryFilterParamValue(filterName, label) {
+    const maps = directoryAliasMapsForCurrentValues();
+    return maps[filterName]?.labelToAlias.get(filterValueKey(label)) || directoryFilterAlias(label) || label;
+  }
+
+  function directoryLabelFromParam(filterName, value) {
+    const label = String(value || "").trim();
+    if (!label) return "";
+    const maps = directoryAliasMapsForCurrentValues();
+    return maps[filterName]?.aliasToLabel.get(label) || label;
+  }
+
+  function defaultDirectoryFilter(name) {
+    return {
+      include: [...(directoryDefaultIncludes[name] || [])],
+      exclude: [],
+    };
+  }
+
+  function resetDirectoryFilterStateToDefaults() {
+    directoryFilterNames.forEach((name) => {
+      state[name] = defaultDirectoryFilter(name);
+    });
   }
 
   function hashtagButton(label, className = "", filterName = "hashtags") {
@@ -2253,7 +2470,7 @@
       searchPlaceholder: "搜尋名稱、城市、類型、關鍵字",
       groups: [
         { label: "國家", name: "country", values: countries, activeValues: state.country, fallbackLabel: "全部國家", ariaLabel: "國家篩選，可複選" },
-        { label: "區域", name: "region", values: regions, activeValues: state.region, fallbackLabel: "全部區域", ariaLabel: "區域篩選，可複選" },
+        { label: "區域", name: "region", values: regions, activeValues: state.region, fallbackLabel: "全部區域", ariaLabel: "區域篩選，可複選", disclosure: true, countLabel: `${regions.length} 個區域` },
         { label: "Tag", name: "hashtags", values: sourceTags, activeValues: state.hashtags, fallbackLabel: "全部 tag", ariaLabel: "Tag 篩選，可複選" },
       ],
     });
@@ -2312,11 +2529,11 @@
   }
 
   const directorySortColumns = [
-    { key: "name", label: "來源", defaultDirection: "asc", width: 280, minWidth: 190, value: (entry) => entry.name },
-    { key: "links", label: "連結", defaultDirection: "asc", width: 108, minWidth: 74, value: (entry) => (entry.links || []).map((link) => link.label || link.url).join(" ") },
-    { key: "latest", label: "最後更新", defaultDirection: "desc", width: 125, minWidth: 112, value: (entry) => entry.latestUpdateLocal || "" },
+    { key: "name", label: "來源", defaultDirection: "asc", width: 250, minWidth: 150, value: (entry) => entry.name },
+    { key: "links", label: "連結", defaultDirection: "asc", width: 146, minWidth: 74, value: (entry) => (entry.links || []).map((link) => link.label || link.url).join(" ") },
+    { key: "latest", label: "最後更新", defaultDirection: "desc", width: 145, minWidth: 112, value: (entry) => entry.latestUpdateLocal || "" },
     { key: "type", label: "類型", defaultDirection: "asc", width: 96, minWidth: 72, value: (entry) => entry.type || entry.sourceSummary },
-    { key: "context", label: "國家／區域／Tag", defaultDirection: "asc", width: 390, minWidth: 190, value: directoryContextText },
+    { key: "context", label: "國家／區域／Tag", defaultDirection: "asc", width: 483, minWidth: 150, value: directoryContextText },
   ];
 
   function directoryContextText(entry) {
@@ -3686,17 +3903,17 @@
     if (!directoryList) return;
     const url = new URL(window.location.href);
     directoryUrlParamNames().forEach((name) => url.searchParams.delete(name));
-    if (state.directoryView === "table") url.searchParams.set("view", "table");
+    if (state.directoryView === "cards") url.searchParams.set("view", "cards");
     if (state.directoryView === "table" && directorySortColumn(state.directorySortKey)) {
       url.searchParams.set("sort", state.directorySortKey);
       url.searchParams.set("dir", normalizedScoreSortDirection(state.directorySortDirection));
     }
-    filterIncludes(state.country).forEach((country) => url.searchParams.append("country", country));
-    filterExcludes(state.country).forEach((country) => url.searchParams.append("notCountry", country));
-    filterIncludes(state.region).forEach((region) => url.searchParams.append("region", region));
-    filterExcludes(state.region).forEach((region) => url.searchParams.append("notRegion", region));
-    filterIncludes(state.hashtags).forEach((hashtag) => url.searchParams.append("tag", hashtag));
-    filterExcludes(state.hashtags).forEach((hashtag) => url.searchParams.append("notTag", hashtag));
+    filterIncludes(state.country).forEach((country) => url.searchParams.append("country", directoryFilterParamValue("country", country)));
+    filterExcludes(state.country).forEach((country) => url.searchParams.append("notCountry", directoryFilterParamValue("country", country)));
+    filterIncludes(state.region).forEach((region) => url.searchParams.append("region", directoryFilterParamValue("region", region)));
+    filterExcludes(state.region).forEach((region) => url.searchParams.append("notRegion", directoryFilterParamValue("region", region)));
+    filterIncludes(state.hashtags).forEach((hashtag) => url.searchParams.append("tag", directoryFilterParamValue("hashtags", hashtag)));
+    filterExcludes(state.hashtags).forEach((hashtag) => url.searchParams.append("notTag", directoryFilterParamValue("hashtags", hashtag)));
     if (state.query) url.searchParams.set("q", state.query);
     window.history.replaceState({}, "", url);
   }
@@ -3709,7 +3926,7 @@
   }
 
   function addDirectoryFilterValue(filterName, value, mode = "include") {
-    const label = String(value || "").trim();
+    const label = directoryLabelFromParam(filterName, value);
     if (!label || !directoryFilterNames.includes(filterName)) return;
     const filter = directoryFilterState(filterName);
     if (mode === "exclude") {
@@ -3737,13 +3954,28 @@
     }
   }
 
+  function hasDirectoryFilterParams(params) {
+    return [
+      "country",
+      "notCountry",
+      "region",
+      "notRegion",
+      "tag",
+      "notTag",
+      "hashtag",
+      "notHashtag",
+      "q",
+      "query",
+    ].some((name) => params.has(name));
+  }
+
   function readDirectoryFiltersFromUrl() {
     const params = new URLSearchParams(window.location.search);
     state.country = emptyFilterSet();
     state.region = emptyFilterSet();
     state.hashtags = emptyFilterSet();
     state.query = params.get("q") || params.get("query") || "";
-    state.directoryView = params.get("view") === "table" ? "table" : "cards";
+    state.directoryView = params.get("view") === "cards" ? "cards" : "table";
     const sortColumn = directorySortColumn(params.get("sort") || "");
     state.directorySortKey = sortColumn ? sortColumn.key : "";
     state.directorySortDirection = sortColumn
@@ -3757,6 +3989,9 @@
     commaSeparatedParamValues(params, ["notTag"]).forEach((value) => addDirectoryFilterValue("hashtags", value, "exclude"));
     commaSeparatedParamValues(params, ["hashtag"]).forEach((value) => routeLegacyDirectoryHashtag(value));
     commaSeparatedParamValues(params, ["notHashtag"]).forEach((value) => routeLegacyDirectoryHashtag(value, "exclude"));
+    if (!hasDirectoryFilterParams(params)) {
+      resetDirectoryFilterStateToDefaults();
+    }
   }
 
   function directoryHashtagUrl(hashtag, filterName = "hashtags") {
@@ -3775,9 +4010,7 @@
   }
 
   function resetDirectoryFilters() {
-    state.country = emptyFilterSet();
-    state.region = emptyFilterSet();
-    state.hashtags = emptyFilterSet();
+    resetDirectoryFilterStateToDefaults();
     state.query = "";
     state.directorySortKey = "";
     state.directorySortDirection = "asc";
