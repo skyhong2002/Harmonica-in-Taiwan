@@ -31,6 +31,7 @@ site/sitemap.xml
 site/api/
 site/data/
 site/feeds/
+site/redirects/
 site/status/
 site/assets/feed-images/
 site/assets/source-avatars/

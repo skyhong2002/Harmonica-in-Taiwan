@@ -103,8 +103,11 @@ python3 scripts/publish_github_pages.py
 
 這會把 generated `site/` 快照複製到 `gh-pages` worktree 並推送發布分支；不要把 generated HTML/API/RSS 產物 commit 回 `main`。
 
+SEO 舊網址轉址由 `data/sources/source-url-aliases.csv` 維護。Pipeline 會執行 `scripts/generate_cloudflare_redirects.py`，產生 `site/redirects/cloudflare-bulk-redirects.csv` 給 Cloudflare Bulk Redirects 匯入；這些 edge artifacts 屬於 publish output，不進 `main`。
+
 公開來源 CSV 維護規則：
 
+- `public_id` 是公開來源頁的穩定 ID，會決定 `/source/<id>-<slug>/` 的 canonical URL；不要因為 CSV 排序或插入列而重編既有 ID。
 - 每一筆會輸出的來源都要填 `country`，放主所屬國家或地區，例如 `臺灣`、`日本`、`香港`。
 - `region` 保留較細的地理或交流脈絡，例如 `臺灣/新竹`、`日本`、`香港/國際`。
 - 公開 tag 必須是一格一個元素；不要把 `演出/音樂會`、`半音階、複音` 或 `教學 + 維修` 這類複合 tag 放成單一 tag。建置流程會自動拆分並在輸出前驗證。

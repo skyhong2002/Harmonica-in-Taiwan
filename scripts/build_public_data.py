@@ -1112,9 +1112,14 @@ def entry_from_row(row: dict[str, str], source: str, row_number: int) -> dict[st
         normalize_taiwan_orthography(row.get("role")),
     ]
     structured_summary = " / ".join(part for part in public_summary_parts if part)
+    public_id = clean(row.get("public_id")) or str(row_number)
+    public_id = re.sub(r"[^0-9A-Za-z_-]+", "-", public_id).strip("-")
+    if not public_id:
+        public_id = str(row_number)
 
     return {
-        "id": f"{source}-{row_number}",
+        "id": f"{source}-{public_id}",
+        "publicId": public_id,
         "name": name,
         "nameEn": normalize_taiwan_orthography(row.get("name_en")),
         "category": category,
@@ -1133,8 +1138,15 @@ def entry_from_row(row: dict[str, str], source: str, row_number: int) -> dict[st
 
 def validate_public_entries(entries: list[dict[str, object]]) -> None:
     errors: list[str] = []
+    seen_ids: set[str] = set()
     for entry in entries:
         name = str(entry.get("name") or entry.get("id") or "未命名來源")
+        entry_id = str(entry.get("id") or "")
+        if not entry_id:
+            errors.append(f"{name}: missing public id")
+        elif entry_id in seen_ids:
+            errors.append(f"{name}: duplicate public id {entry_id!r}")
+        seen_ids.add(entry_id)
         if not clean(str(entry.get("country") or "")):
             errors.append(f"{name}: missing country")
         summary = clean(str(entry.get("summary") or ""))

@@ -44,6 +44,7 @@ REQUIRED_FILES = [
     SITE_ROOT / "post" / "index.html",
     SITE_ROOT / "post" / "source" / "index.html",
     SITE_ROOT / "directory" / "index.html",
+    SITE_ROOT / "source" / "index.html",
     SITE_ROOT / "scores" / "index.html",
     SITE_ROOT / "scores" / "sources" / "index.html",
     SITE_ROOT / "score-sources" / "index.html",
@@ -128,6 +129,7 @@ def asset_reference_files() -> list[Path]:
         SITE_ROOT / "post" / "index.html",
         SITE_ROOT / "post" / "source" / "index.html",
         SITE_ROOT / "directory" / "index.html",
+        SITE_ROOT / "source" / "index.html",
         SITE_ROOT / "scores" / "index.html",
         SITE_ROOT / "scores" / "sources" / "index.html",
         SITE_ROOT / "score-sources" / "index.html",
@@ -151,6 +153,22 @@ def validate_asset_references(errors: list[str]) -> None:
         errors.append(f"missing referenced asset: {asset_path} used by {ref_list}{extra}")
 
 
+def validate_seo_outputs(errors: list[str]) -> None:
+    checks = [
+        [sys.executable, "scripts/validate_sitemap_seo.py"],
+        [sys.executable, "scripts/validate_legacy_redirects.py", "--local"],
+    ]
+    for check in checks:
+        result = subprocess.run(check, cwd=PROJECT_ROOT, text=True, capture_output=True)
+        if result.returncode != 0:
+            output = "\n".join(
+                part.strip()
+                for part in (result.stdout, result.stderr)
+                if part.strip()
+            )
+            errors.append(f"SEO validation failed for {' '.join(check)}:\n{output}")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--skip-js", action="store_true", help="Skip node --check for generated JS bundles.")
@@ -163,6 +181,7 @@ def main() -> int:
         validate_js_files(errors)
     validate_status_consistency(errors)
     validate_asset_references(errors)
+    validate_seo_outputs(errors)
 
     if errors:
         for error in errors:

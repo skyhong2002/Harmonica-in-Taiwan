@@ -7,6 +7,7 @@ import html
 import json
 import os
 import re
+import shutil
 import urllib.parse
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -21,6 +22,7 @@ SOURCES_JSON = SITE_ROOT / "api" / "sources.json"
 EVENTS_JSON = SITE_ROOT / "api" / "public-calendar-events.json"
 SCORES_JSON = SITE_ROOT / "api" / "scores.json"
 SITEMAP_XML = SITE_ROOT / "sitemap.xml"
+SOURCE_URL_ALIASES = PROJECT_ROOT / "data" / "sources" / "source-url-aliases.csv"
 
 # Shared HTML parts
 HEADER_HTML = """    <header class="site-header">
@@ -67,6 +69,32 @@ def escape(val: str | None) -> str:
 
 def file_lastmod(path: Path) -> str:
     return datetime.fromtimestamp(path.stat().st_mtime).date().isoformat()
+
+
+def read_legacy_alias_source_paths() -> set[str]:
+    if not SOURCE_URL_ALIASES.exists():
+        return set()
+    paths: set[str] = set()
+    for line in SOURCE_URL_ALIASES.read_text(encoding="utf-8").splitlines()[1:]:
+        if not line.strip():
+            continue
+        source_path = line.split(",", 1)[0].strip()
+        if source_path.startswith("/source/"):
+            normalized = source_path.rstrip("/") + "/"
+            paths.add(normalized)
+            paths.add(urllib.parse.unquote(normalized))
+    return paths
+
+
+def remove_legacy_alias_outputs(paths: set[str]) -> None:
+    for source_path in sorted(paths):
+        if not source_path.startswith("/source/"):
+            continue
+        output_path = SITE_ROOT / source_path.strip("/")
+        if output_path.is_dir():
+            shutil.rmtree(output_path)
+        elif output_path.exists():
+            output_path.unlink()
 
 
 def newest_lastmod(paths: list[Path]) -> str:
@@ -929,10 +957,9 @@ def generate_sitemap_xml(
         "scores/sources/": newest_score_source,
         "feeds/": newest_post,
         "submit/": file_lastmod(SITE_ROOT / "submit" / "index.html") if (SITE_ROOT / "submit" / "index.html").exists() else build_date_fallback,
-        "status/": file_lastmod(SITE_ROOT / "api" / "status.json") if (SITE_ROOT / "api" / "status.json").exists() else build_date_fallback,
     }
 
-    # 8 Core Pages
+    # Core pages only include indexable public content. Operational status is noindex.
     core_pages = [
         ("", "daily", "1.0"),
         ("post/", "daily", "0.8"),
@@ -941,7 +968,6 @@ def generate_sitemap_xml(
         ("scores/sources/", "weekly", "0.8"),
         ("feeds/", "daily", "0.6"),
         ("submit/", "monthly", "0.5"),
-        ("status/", "daily", "0.5"),
     ]
     for path, freq, priority in core_pages:
         url_templates.append(f"""  <url>
@@ -1105,6 +1131,40 @@ def render_entry_card_html(entry: dict[str, Any]) -> str:
 """
 
 
+def render_static_source_index_card(entry: dict[str, Any]) -> str:
+    name = escape(entry.get("name"))
+    name_en = escape(entry.get("nameEn") or "")
+    slug = make_slug(entry)
+    category = escape(entry.get("category") or entry.get("type") or "公開來源")
+    country = escape(entry.get("country"))
+    region = escape(entry.get("region"))
+    summary = escape(entry.get("summary") or entry.get("sourceSummary") or entry.get("type") or "公開口琴來源。")
+    location_parts = [country] if country else []
+    if region and region != country:
+        location_parts.append(region)
+    location = " / ".join(location_parts)
+    location_html = f'<span class="entry-latest">{escape(location)}</span>' if location else ""
+    name_en_html = f'<p class="entry-en">{name_en}</p>' if name_en and name_en != name else ""
+    links = []
+    for link in (entry.get("links") or [])[:2]:
+        url = escape(link.get("url"))
+        label = escape(link.get("label") or "連結")
+        if url:
+            links.append(f'<a href="{url}" target="_blank" rel="noreferrer">{label}</a>')
+    links_html = "".join(links)
+    return f"""
+      <article class="entry-card">
+        <div class="entry-title-block">
+          <h3><a href="/source/{slug}/" class="entry-landing-link">{name}</a></h3>
+          {name_en_html}
+        </div>
+        <div class="entry-context"><span>{category}</span>{location_html}</div>
+        <p class="entry-summary">{summary}</p>
+        <div class="entry-links"><a href="/source/{slug}/">詳細資料</a>{links_html}</div>
+      </article>
+"""
+
+
 def format_source_item_list_json_ld(
     entries: list[dict[str, Any]],
     name: str = "口琴公開來源索引",
@@ -1139,7 +1199,7 @@ def format_source_item_list_json_ld(
 
 
 def format_static_directory_cards(entries: list[dict[str, Any]]) -> str:
-    cards = "".join(render_entry_card_html(entry) for entry in entries)
+    cards = "".join(render_static_source_index_card(entry) for entry in entries)
     cards = "\n".join(line.rstrip() for line in cards.splitlines())
     return f"""
             <!-- DIRECTORY_STATIC_START -->
@@ -1561,14 +1621,8 @@ def update_core_pages(
                     content,
                     flags=re.DOTALL,
                 )
-                source_item_list_script = format_source_item_list_json_ld(entries)
-                content = content.replace(
-                    '    <link rel="icon" href="/assets/favicon-20260623.svg?v=20260704-round-avatar" type="image/svg+xml">',
-                    f'{source_item_list_script}\n    <link rel="icon" href="/assets/favicon-20260623.svg?v=20260704-round-avatar" type="image/svg+xml">',
-                    1,
-                )
                 content = re.sub(
-                    r'(<div class="directory-grid" id="directory-list">)(?:\s*<!-- DIRECTORY_STATIC_START -->.*?<!-- DIRECTORY_STATIC_END -->\s*)?(</div>)',
+                    r'(<div class="directory-grid" id="directory-list">\s*)(?:(?:<!-- DIRECTORY_STATIC_START -->.*?<!-- DIRECTORY_STATIC_END -->)\s*)?(</div>)',
                     rf'\g<1>{format_static_directory_cards(entries)}\g<2>',
                     content,
                     flags=re.DOTALL,
@@ -1631,6 +1685,9 @@ def main() -> int:
         print(f"Error loading latest updates: {e}")
         updates = []
 
+    legacy_alias_paths = read_legacy_alias_source_paths()
+    remove_legacy_alias_outputs(legacy_alias_paths)
+
     # 2. Pre-render Source Pages
     source_groups = source_facet_groups(entries)
     source_count = 0
@@ -1660,6 +1717,9 @@ def main() -> int:
         redirect_aliases = {entry_id, source_public_id(entry)}
         for alias in sorted(redirect_aliases):
             if not alias or alias == slug:
+                continue
+            alias_path = f"/source/{alias}/"
+            if alias_path in legacy_alias_paths:
                 continue
             old_dir = SITE_ROOT / "source" / alias
             old_dir.mkdir(parents=True, exist_ok=True)
@@ -1730,7 +1790,7 @@ def main() -> int:
     print(f" - Generated {source_facet_count} source facet pages under /source/<facet>/<value>/")
     print(f" - Generated {event_count} event pages under /event/<id>/")
     print(f" - Generated {score_cat_count} score category pages under /scores/<category>/")
-    print(f" - Rebuilt sitemap.xml with {len(entries) + source_facet_count + len(events) + len(categories) + 8} links")
+    print(f" - Rebuilt sitemap.xml with {len(entries) + source_facet_count + len(events) + len(categories) + 7} links")
     return 0
 
 

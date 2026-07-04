@@ -815,6 +815,7 @@ def render_status_page(status: dict[str, Any]) -> str:
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>抓資料狀態｜臺灣口琴觀測站</title>
     <meta name="description" content="臺灣口琴觀測站資料抓取、RSSHub、Apify、YouTube 與公開 API 的最新健康狀態。">
+    <meta name="robots" content="noindex,follow">
     <link rel="canonical" href="https://harmonica.observe.tw/status/">
     <meta property="og:title" content="抓資料狀態｜臺灣口琴觀測站">
     <meta property="og:description" content="臺灣口琴觀測站資料抓取、RSSHub、Apify、YouTube 與公開 API 的最新健康狀態。">

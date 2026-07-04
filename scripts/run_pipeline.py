@@ -321,6 +321,7 @@ def main() -> int:
             )
         run([PYTHON, "scripts/build_status_page.py"], step="build status page", status_hook=mark_step)
         run([PYTHON, "scripts/generate_seo_pages.py"], step="generate SEO pages", status_hook=mark_step)
+        run([PYTHON, "scripts/generate_cloudflare_redirects.py"], step="generate cloudflare redirects", status_hook=mark_step)
         run([PYTHON, "scripts/check_source_coverage.py"], step="check source coverage", status_hook=mark_step)
         run([PYTHON, "scripts/validate_public_outputs.py"], step="validate public outputs", status_hook=mark_step)
         if args.publish_pages:

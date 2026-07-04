@@ -1,104 +1,154 @@
 #!/usr/bin/env python3
-"""Validate harmonica.observe.tw sitemap.xml URLs locally against generated files."""
+"""Validate sitemap, canonical, and crawlability invariants for generated SEO pages."""
 
-import xml.etree.ElementTree as ET
-import sys
+from __future__ import annotations
+
+import json
 import re
+import sys
 import urllib.parse
+import xml.etree.ElementTree as ET
 from pathlib import Path
+
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SITE_ROOT = PROJECT_ROOT / "site"
 SITEMAP_XML = SITE_ROOT / "sitemap.xml"
+SOURCES_JSON = SITE_ROOT / "api" / "sources.json"
+PUBLIC_BASE_URL = "https://harmonica.observe.tw"
+SOURCE_INDEX_MAX_BYTES = 300_000
 
-def main() -> int:
+
+def local_file_for_url(loc: str) -> Path | None:
+    if not loc.startswith(PUBLIC_BASE_URL + "/"):
+        return None
+    parsed = urllib.parse.urlparse(loc)
+    decoded_path = urllib.parse.unquote(parsed.path.lstrip("/"))
+    if decoded_path == "":
+        return SITE_ROOT / "index.html"
+    if decoded_path.endswith("/"):
+        return SITE_ROOT / decoded_path / "index.html"
+    return SITE_ROOT / decoded_path
+
+
+def canonical_href(content: str) -> str:
+    match = re.search(r'<link\s+rel="canonical"\s+href="([^"]+)"', content)
+    return match.group(1) if match else ""
+
+
+def robots_noindex(content: str) -> str:
+    match = re.search(
+        r'<meta\s+name="robots"\s+content="([^"]*noindex[^"]*)"',
+        content,
+        re.IGNORECASE,
+    )
+    return match.group(1) if match else ""
+
+
+def validate_json_ld(content: str, rel_path: str, errors: list[str]) -> None:
+    for index, match in enumerate(
+        re.finditer(
+            r'<script\s+[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',
+            content,
+            re.DOTALL | re.IGNORECASE,
+        ),
+        start=1,
+    ):
+        raw = match.group(1).strip()
+        try:
+            json.loads(raw)
+        except json.JSONDecodeError as exc:
+            errors.append(f"invalid JSON-LD in {rel_path} block {index}: {exc.msg}")
+
+
+def validate_source_index(errors: list[str]) -> None:
+    if not SOURCES_JSON.exists():
+        errors.append(f"missing source API: {SOURCES_JSON.relative_to(PROJECT_ROOT)}")
+        return
+    if not (SITE_ROOT / "source" / "index.html").exists():
+        errors.append("missing source index page: site/source/index.html")
+        return
+    payload = json.loads(SOURCES_JSON.read_text(encoding="utf-8"))
+    entries = payload.get("entries") if isinstance(payload, dict) else []
+    expected_count = len(entries) if isinstance(entries, list) else 0
+    source_index = SITE_ROOT / "source" / "index.html"
+    content = source_index.read_text(encoding="utf-8")
+    card_count = len(re.findall(r'<article\s+class="entry-card"', content))
+    if card_count < expected_count:
+        errors.append(
+            "source index is not crawler-readable: "
+            f"expected at least {expected_count} static .entry-card articles, found {card_count}"
+        )
+    size = source_index.stat().st_size
+    if size > SOURCE_INDEX_MAX_BYTES:
+        errors.append(
+            "source index is too large: "
+            f"{size} bytes exceeds {SOURCE_INDEX_MAX_BYTES} byte budget"
+        )
+
+
+def sitemap_urls() -> tuple[list[str], list[str]]:
     if not SITEMAP_XML.exists():
-        print(f"Error: {SITEMAP_XML} does not exist. Run build/generation first.", file=sys.stderr)
-        return 1
-
+        return [], [f"missing sitemap: {SITEMAP_XML.relative_to(PROJECT_ROOT)}"]
     try:
         root = ET.parse(SITEMAP_XML).getroot()
-    except Exception as e:
-        print(f"Error parsing sitemap.xml: {e}", file=sys.stderr)
-        return 1
-
+    except Exception as exc:
+        return [], [f"error parsing sitemap.xml: {exc}"]
     ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-    urls = root.findall("sm:url", ns)
-    print(f"Validating {len(urls)} URLs in sitemap.xml...")
-
-    errors = 0
-    checked = 0
-
-    for url_el in urls:
+    urls = []
+    errors = []
+    for url_el in root.findall("sm:url", ns):
         loc_el = url_el.find("sm:loc", ns)
         if loc_el is None or not loc_el.text:
-            print("Error: <url> element missing <loc>", file=sys.stderr)
-            errors += 1
+            errors.append("<url> element missing <loc>")
             continue
+        urls.append(loc_el.text.strip())
+    return urls, errors
 
-        loc = loc_el.text.strip()
-        checked += 1
 
-        # Match local file path
-        # URL format: https://harmonica.observe.tw/path/
-        if not loc.startswith("https://harmonica.observe.tw/"):
-            print(f"Error: URL domain is invalid: {loc}", file=sys.stderr)
-            errors += 1
+def validate_sitemap_urls(urls: list[str], errors: list[str]) -> None:
+    forbidden_paths = ("/watchlist-", "/post/source/", "/directory/", "/status/")
+    for loc in urls:
+        parsed = urllib.parse.urlparse(loc)
+        if not loc.startswith(PUBLIC_BASE_URL + "/"):
+            errors.append(f"URL domain is invalid: {loc}")
             continue
-
-        rel_path = loc.replace("https://harmonica.observe.tw/", "")
-        decoded_rel_path = urllib.parse.unquote(rel_path)
-
-        # Determine local path
-        if decoded_rel_path == "":
-            local_file = SITE_ROOT / "index.html"
-        elif decoded_rel_path.endswith("/"):
-            local_file = SITE_ROOT / decoded_rel_path / "index.html"
-        else:
-            local_file = SITE_ROOT / decoded_rel_path
-
+        if any(fragment in parsed.path for fragment in forbidden_paths):
+            errors.append(f"sitemap contains forbidden non-canonical URL: {loc}")
+            continue
+        local_file = local_file_for_url(loc)
+        if local_file is None:
+            errors.append(f"could not map URL to local file: {loc}")
+            continue
         if not local_file.exists():
-            print(f"Error: Local file does not exist for URL: {loc} -> {local_file.relative_to(PROJECT_ROOT)}", file=sys.stderr)
-            errors += 1
+            errors.append(f"local file does not exist for URL: {loc} -> {local_file.relative_to(PROJECT_ROOT)}")
             continue
+        content = local_file.read_text(encoding="utf-8")
+        rel_path = str(local_file.relative_to(PROJECT_ROOT))
+        canonical = canonical_href(content)
+        if canonical != loc:
+            errors.append(f"canonical mismatch in {rel_path}: expected {loc}, got {canonical or '-'}")
+        noindex = robots_noindex(content)
+        if noindex:
+            errors.append(f"sitemap URL points to noindex page: {loc} ({noindex})")
+        if re.search(r'http-equiv=["\']refresh["\']', content, re.IGNORECASE):
+            errors.append(f"sitemap URL points to a redirect page: {loc} in {rel_path}")
+        validate_json_ld(content, rel_path, errors)
 
-        # Check file content
-        try:
-            content = local_file.read_text(encoding="utf-8")
-        except Exception as e:
-            print(f"Error reading file {local_file}: {e}", file=sys.stderr)
-            errors += 1
-            continue
 
-        # Check canonical
-        canonical_match = re.search(r'<link\s+rel="canonical"\s+href="([^"]+)"', content)
-        if not canonical_match:
-            print(f"Warning: Missing canonical link in {local_file.relative_to(PROJECT_ROOT)} for {loc}", file=sys.stderr)
-            errors += 1
-        else:
-            canonical_href = canonical_match.group(1)
-            # Support both relative and absolute canonicals, but absolute matching loc is preferred
-            expected_canonical = loc
-            if canonical_href != expected_canonical:
-                print(f"Error: Canonical mismatch in {local_file.relative_to(PROJECT_ROOT)}: expected {expected_canonical}, got {canonical_href}", file=sys.stderr)
-                errors += 1
+def main() -> int:
+    urls, errors = sitemap_urls()
+    print(f"Validating {len(urls)} URLs in sitemap.xml...")
+    validate_sitemap_urls(urls, errors)
+    validate_source_index(errors)
+    if errors:
+        for error in errors:
+            print(f"ERROR: {error}", file=sys.stderr)
+        print(f"\nValidation completed: {len(urls)} URLs checked, {len(errors)} errors found.")
+        return 1
+    print(f"\nValidation completed: {len(urls)} URLs checked, 0 errors found.")
+    return 0
 
-        # Check for noindex
-        if "noindex" in content.lower():
-            # Ensure it is not in meta robots
-            robots_match = re.search(r'<meta\s+name="robots"\s+content="([^"]*noindex[^"]*)"', content, re.IGNORECASE)
-            if robots_match:
-                print(f"Error: Found noindex robots meta in {local_file.relative_to(PROJECT_ROOT)}: {robots_match.group(0)}", file=sys.stderr)
-                errors += 1
-
-        # Check for redirect chain or redirect indicators
-        # Redirect pages (like the ones we will build for legacy source URLs) should NOT be in sitemap.xml!
-        if "http-equiv=\"refresh\"" in content:
-            print(f"Error: Sitemap URL points to a redirect page: {loc} in {local_file.relative_to(PROJECT_ROOT)}", file=sys.stderr)
-            errors += 1
-
-    print(f"\nValidation completed: {checked} URLs checked, {errors} errors found.")
-    return 1 if errors > 0 else 0
 
 if __name__ == "__main__":
-    sys.exit(main())
+    raise SystemExit(main())
