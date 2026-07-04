@@ -1074,13 +1074,14 @@ h2 {
 }
 
 .source-avatar {
+  --source-avatar-size: 48px;
   display: inline-grid;
   flex: 0 0 auto;
   place-items: center;
-  width: 48px;
+  width: var(--source-avatar-size);
+  min-width: var(--source-avatar-size);
+  height: var(--source-avatar-size);
   aspect-ratio: 1;
-  min-width: 48px;
-  height: auto;
   overflow: hidden;
   color: #fff;
   font-size: 0.82rem;
@@ -1091,13 +1092,14 @@ h2 {
 }
 
 .source-avatar img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
 .source-avatar-small {
-  width: 42px;
+  --source-avatar-size: 42px;
   font-size: 0.76rem;
 }
 
@@ -1419,8 +1421,7 @@ h2 {
 }
 
 .entry-avatar {
-  width: 56px;
-  min-width: 56px;
+  --source-avatar-size: 56px;
   font-size: 0.9rem;
 }
 
@@ -2596,8 +2597,7 @@ button.feed-tag-pill {
 }
 
 .directory-table-avatar {
-  width: 34px;
-  height: 34px;
+  --source-avatar-size: 34px;
   font-size: 0.78rem;
 }
 
