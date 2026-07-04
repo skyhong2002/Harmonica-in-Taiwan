@@ -13833,6 +13833,87 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-220",
+      "publicId": "220",
+      "name": "菜鳥琴老師很菜",
+      "nameEn": "chindiary_harmonica",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/中彰投",
+      "cityOrFocus": "中彰投口琴教學/演出/推廣",
+      "structuredSummary": "中彰投口琴教學/演出/推廣 / 口琴 / 演出人員/教學者",
+      "summary": "中彰投口琴演奏者與教師，現任彰化縣立陽明國中、南投縣立南投國中等校口琴團社團老師，致力於口琴演奏、教學與音樂推廣。",
+      "keywords": "菜鳥琴老師很菜 chindiary_harmonica 口琴 彰化 臺中 南投",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chin.diary"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chindiary_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/603c5f9d559a030e8588.webp",
+      "sourceInitials": "菜鳥",
+      "sourceTags": [
+        "演奏者",
+        "教學"
+      ],
+      "sourceSummary": "中彰投口琴演奏者與教師，現任彰化縣立陽明國中、南投縣立南投國中等校口琴團社團老師，致力於口琴演奏、教學與音樂推廣。",
+      "sourceTagReason": "手動新增與整合自 YouTube 頻道簡介與 Instagram 資訊。",
+      "monitorSources": [
+        {
+          "id": "fb_chin_diary",
+          "name": "菜鳥琴老師很菜",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chin.diary",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_chindiary_harmonica",
+          "name": "菜鳥琴老師很菜",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chindiary_harmonica",
+          "profileUrl": "https://www.instagram.com/chindiary_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chindiary_harmonica",
+          "name": "菜鳥琴老師很菜",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chindiary_harmonica",
+          "profileUrl": "https://www.instagram.com/chindiary_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chindiary_harmonica/story/0"
+        },
+        {
+          "id": "yt_ucltib8yoa0dsd4i6n4ykfvq",
+          "name": "菜鳥琴老師很菜",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-35",
       "publicId": "35",
       "name": "陳奕翔",
@@ -13928,7 +14009,7 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 203,
+    "totalEntries": 204,
     "categories": {
       "其他來源": 2,
       "國際交流": 10,
@@ -13937,7 +14018,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "學校社團": 36,
       "教學器材": 14,
       "活動資訊": 20,
-      "演奏者": 72
+      "演奏者": 73
     },
     "countries": {
       "中國": 8,
@@ -13957,7 +14038,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "瑞士": 1,
       "紐西蘭": 1,
       "美國": 7,
-      "臺灣": 91,
+      "臺灣": 92,
       "英國": 3,
       "荷蘭": 1,
       "西班牙": 2,
@@ -13967,24 +14048,24 @@ window.HARMONICA_OBSERVE_DATA = {
       "馬來西亞": 13
     },
     "watchSources": {
-      "totalSources": 568,
-      "rsshubSources": 297,
-      "apifySources": 146,
-      "facebookSources": 146,
-      "youtubeSources": 125,
+      "totalSources": 572,
+      "rsshubSources": 299,
+      "apifySources": 147,
+      "facebookSources": 147,
+      "youtubeSources": 126,
       "platforms": {
-        "facebook": 146,
-        "instagram": 282,
+        "facebook": 147,
+        "instagram": 284,
         "threads": 3,
         "x": 12,
-        "youtube": 125
+        "youtube": 126
       },
       "types": {
-        "facebook_page_posts": 146,
+        "facebook_page_posts": 147,
         "rss": 15,
-        "rsshub_instagram_profile": 141,
-        "rsshub_instagram_story": 141,
-        "youtube_ytdlp": 125
+        "rsshub_instagram_profile": 142,
+        "rsshub_instagram_story": 142,
+        "youtube_ytdlp": 126
       }
     }
   }
