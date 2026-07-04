@@ -1,13 +1,13 @@
 {
   "site": "https://harmonica.observe.tw",
   "generatedAt": "2026-07-05",
-  "count": 202,
+  "count": 203,
   "stats": {
-    "totalEntries": 202,
+    "totalEntries": 203,
     "categories": {
       "其他來源": 2,
       "國際交流": 10,
-      "團體樂團": 42,
+      "團體樂團": 43,
       "場館平台": 6,
       "學校社團": 36,
       "教學器材": 14,
@@ -32,7 +32,7 @@
       "瑞士": 1,
       "紐西蘭": 1,
       "美國": 7,
-      "臺灣": 90,
+      "臺灣": 91,
       "英國": 3,
       "荷蘭": 1,
       "西班牙": 2,
@@ -42,23 +42,23 @@
       "馬來西亞": 13
     },
     "watchSources": {
-      "totalSources": 564,
-      "rsshubSources": 294,
-      "apifySources": 145,
-      "facebookSources": 145,
+      "totalSources": 568,
+      "rsshubSources": 297,
+      "apifySources": 146,
+      "facebookSources": 146,
       "youtubeSources": 125,
       "platforms": {
-        "facebook": 145,
-        "instagram": 280,
-        "threads": 2,
+        "facebook": 146,
+        "instagram": 282,
+        "threads": 3,
         "x": 12,
         "youtube": 125
       },
       "types": {
-        "facebook_page_posts": 145,
-        "rss": 14,
-        "rsshub_instagram_profile": 140,
-        "rsshub_instagram_story": 140,
+        "facebook_page_posts": 146,
+        "rss": 15,
+        "rsshub_instagram_profile": 141,
+        "rsshub_instagram_story": 141,
         "youtube_ytdlp": 125
       }
     }
@@ -10302,6 +10302,85 @@
           "username": "",
           "profileUrl": "https://youtube.com/@harpdonuts",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-219",
+      "publicId": "219",
+      "name": "IniXial Harmonica Ensemble 源創口琴樂團",
+      "nameEn": "IniXial Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/公演/新興團體",
+      "structuredSummary": "重奏/公演/新興團體 / 口琴重奏 / 演出團體",
+      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含重奏、公演與新興團體。",
+      "keywords": "IniXial Harmonica Ensemble 源創口琴樂團 IniXial 口琴樂團",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/profile.php?id=61590218560112"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/inixial.muse/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@inixial.muse"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "IHE",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_7112134202",
+          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/profile.php?id=61590218560112",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_inixial_muse",
+          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "inixial.muse",
+          "profileUrl": "https://www.instagram.com/inixial.muse/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_inixial_muse",
+          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "inixial.muse",
+          "profileUrl": "https://www.instagram.com/inixial.muse/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/inixial.muse/story/0"
+        },
+        {
+          "id": "threads_inixial_muse",
+          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
+          "platform": "threads",
+          "type": "rss",
+          "username": "inixial.muse",
+          "profileUrl": "https://www.threads.net/@inixial.muse",
+          "feedUrl": "https://rss.observe.tw/threads/inixial.muse"
         }
       ]
     },

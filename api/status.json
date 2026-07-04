@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T02:15:51+08:00",
+  "generatedAt": "2026-07-05T02:23:27+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "ok",
@@ -9,43 +9,43 @@
   "metrics": {
     "updates": 959,
     "updatesWindowDays": 30,
-    "directoryEntries": 202,
-    "watchSources": 564,
+    "directoryEntries": 203,
+    "watchSources": 568,
     "currentErrors": 0,
-    "latestDataAt": "2026-07-05T02:15:39+08:00",
-    "latestSocialObservationAt": "2026-07-05T02:15:32+08:00"
+    "latestDataAt": "2026-07-05T02:23:16+08:00",
+    "latestSocialObservationAt": "2026-07-05T02:23:09+08:00"
   },
   "watchSources": {
     "platforms": {
-      "facebook": 145,
-      "instagram": 280,
-      "threads": 2,
+      "facebook": 146,
+      "instagram": 282,
+      "threads": 3,
       "x": 12,
       "youtube": 125
     },
     "types": {
-      "facebook_page_posts": 145,
-      "rss": 14,
-      "rsshub_instagram_profile": 140,
-      "rsshub_instagram_story": 140,
+      "facebook_page_posts": 146,
+      "rss": 15,
+      "rsshub_instagram_profile": 141,
+      "rsshub_instagram_story": 141,
       "youtube_ytdlp": 125
     },
     "platformRows": [
       {
         "platform": "facebook",
-        "sources": 145,
+        "sources": 146,
         "currentErrors": 0,
         "status": "ok"
       },
       {
         "platform": "instagram",
-        "sources": 280,
+        "sources": 282,
         "currentErrors": 0,
         "status": "ok"
       },
       {
         "platform": "threads",
-        "sources": 2,
+        "sources": 3,
         "currentErrors": 0,
         "status": "ok"
       },
@@ -71,7 +71,7 @@
       "label": "正常",
       "summary": "定期 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-07-05 02:15:39",
+        "最新公開資料：2026-07-05 02:23:16",
         "pipeline.log 更新：2026-07-05 02:14:12",
         "pipeline.err.log 更新：2026-07-05 01:44:12",
         "LaunchAgent：not running，last exit 0"
@@ -82,10 +82,10 @@
       "name": "公開 API",
       "status": "ok",
       "label": "正常",
-      "summary": "latest.json 有 959 筆更新，sources.json 有 202 筆公開目錄。",
+      "summary": "latest.json 有 959 筆更新，sources.json 有 203 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
-        "watch sources：564"
+        "watch sources：568"
       ]
     },
     {
@@ -96,7 +96,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：25 ms"
+        "耗時：49 ms"
       ]
     },
     {
@@ -104,13 +104,13 @@
       "name": "Instagram RSSHub",
       "status": "paused",
       "label": "節流中",
-      "summary": "280 個 Instagram 來源（profile 140、story 140）；最新抓取批次目前 0 個錯誤。",
+      "summary": "282 個 Instagram 來源（profile 141、story 141）；最新抓取批次目前 0 個錯誤。",
       "details": [
-        "最新社群觀測：2026-07-05 02:15:32",
+        "最新社群觀測：2026-07-05 02:23:09",
         "story 無公開內容/空路由略過：0",
         "IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。",
         "本輪 IG：抓取 2、排程略過 278、延後 0、錯誤 0。",
-        "下一個 IG 來源：約 2026-07-05 02:16:40"
+        "下一個 IG 來源：約 2026-07-05 02:26:44"
       ]
     },
     {
@@ -129,11 +129,11 @@
       "name": "Facebook Apify",
       "status": "paused",
       "label": "節流中",
-      "summary": "145 個 Facebook 來源。 目前依預算 pacing 暫停開 run，等待 due 來源累積。",
+      "summary": "146 個 Facebook 來源。 目前依預算 pacing 暫停開 run，等待 due 來源累積。",
       "details": [
         "最近成功 run：2026-07-05 01:10:48",
         "最近新增 inbox：9",
-        "due sources：0",
+        "due sources：1",
         "selected this check：0",
         "min sources per run：8",
         "遠端月額度剩餘：$1.41",
@@ -156,9 +156,9 @@
       "name": "Threads / 其他 RSS",
       "status": "ok",
       "label": "正常",
-      "summary": "2 個 Threads 來源；其他 RSS 最新抓取批次目前 0 個錯誤。",
+      "summary": "3 個 Threads 來源；其他 RSS 最新抓取批次目前 0 個錯誤。",
       "details": [
-        "RSS 類型來源：14"
+        "RSS 類型來源：15"
       ]
     }
   ],
@@ -166,127 +166,112 @@
   "runtime": {
     "pipeline": {
       "currentStep": "build status page",
-      "heartbeatAt": "2026-07-04T18:15:51.253731+00:00",
+      "heartbeatAt": "2026-07-04T18:23:27.601814+00:00",
       "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
       "maxPostAgeDays": 30,
       "message": "",
-      "pid": 94847,
-      "startedAt": "2026-07-04T18:15:05.396331+00:00",
+      "pid": 98591,
+      "startedAt": "2026-07-04T18:23:08.120344+00:00",
       "status": "running",
       "steps": [
         {
           "command": [
-            "/opt/homebrew/opt/python@3.14/bin/python3.14",
+            "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_social_sources.py"
           ],
-          "finishedAt": "2026-07-04T18:15:05.474707+00:00",
+          "finishedAt": "2026-07-04T18:23:08.196662+00:00",
           "name": "build social sources",
           "returnCode": 0,
-          "startedAt": "2026-07-04T18:15:05.397217+00:00",
+          "startedAt": "2026-07-04T18:23:08.120841+00:00",
           "status": "ok"
         },
         {
           "command": [
-            "/opt/homebrew/opt/python@3.14/bin/python3.14",
-            "scripts/social_feed_watchdog.py",
-            "--max-post-age-days",
-            "30",
-            "--no-llm-tags",
-            "--verbose"
-          ],
-          "finishedAt": "2026-07-04T18:15:32.322540+00:00",
-          "name": "watch social feeds",
-          "returnCode": 0,
-          "startedAt": "2026-07-04T18:15:05.475310+00:00",
-          "status": "ok"
-        },
-        {
-          "command": [
-            "/opt/homebrew/opt/python@3.14/bin/python3.14",
+            "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-07-04T18:15:33.384198+00:00",
+          "finishedAt": "2026-07-04T18:23:09.305785+00:00",
           "name": "build public data",
           "returnCode": 0,
-          "startedAt": "2026-07-04T18:15:32.323098+00:00",
+          "startedAt": "2026-07-04T18:23:08.197313+00:00",
           "status": "ok"
         },
         {
           "command": [
-            "/opt/homebrew/opt/python@3.14/bin/python3.14",
+            "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/backfill_public_source_pages.py",
             "--skip-fetch"
           ],
-          "finishedAt": "2026-07-04T18:15:34.878089+00:00",
+          "finishedAt": "2026-07-04T18:23:10.850777+00:00",
           "name": "backfill source pages",
           "returnCode": 0,
-          "startedAt": "2026-07-04T18:15:33.384787+00:00",
+          "startedAt": "2026-07-04T18:23:09.306439+00:00",
           "status": "ok"
         },
         {
           "command": [
-            "/opt/homebrew/opt/python@3.14/bin/python3.14",
+            "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-07-04T18:15:35.929660+00:00",
+          "finishedAt": "2026-07-04T18:23:11.965017+00:00",
           "name": "rebuild public data",
           "returnCode": 0,
-          "startedAt": "2026-07-04T18:15:34.878831+00:00",
+          "startedAt": "2026-07-04T18:23:10.851807+00:00",
           "status": "ok"
         },
         {
           "command": [
-            "/opt/homebrew/opt/python@3.14/bin/python3.14",
+            "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_score_publications.py"
           ],
-          "finishedAt": "2026-07-04T18:15:36.007554+00:00",
+          "finishedAt": "2026-07-04T18:23:12.042793+00:00",
           "name": "build score publications",
           "returnCode": 0,
-          "startedAt": "2026-07-04T18:15:35.930249+00:00",
+          "startedAt": "2026-07-04T18:23:11.965666+00:00",
           "status": "ok"
         },
         {
           "command": [
-            "/opt/homebrew/opt/python@3.14/bin/python3.14",
+            "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_score_sources.py"
           ],
-          "finishedAt": "2026-07-04T18:15:36.046376+00:00",
+          "finishedAt": "2026-07-04T18:23:12.083033+00:00",
           "name": "build score sources",
           "returnCode": 0,
-          "startedAt": "2026-07-04T18:15:36.008140+00:00",
+          "startedAt": "2026-07-04T18:23:12.043606+00:00",
           "status": "ok"
         },
         {
           "command": [
-            "/opt/homebrew/opt/python@3.14/bin/python3.14",
+            "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/generate_rss_feeds.py"
           ],
-          "finishedAt": "2026-07-04T18:15:40.213119+00:00",
+          "finishedAt": "2026-07-04T18:23:16.644703+00:00",
           "name": "generate rss feeds",
           "returnCode": 0,
-          "startedAt": "2026-07-04T18:15:36.047100+00:00",
+          "startedAt": "2026-07-04T18:23:12.083926+00:00",
           "status": "ok"
         },
         {
           "command": [
-            "/opt/homebrew/opt/python@3.14/bin/python3.14",
+            "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_public_calendar_events.py"
           ],
-          "finishedAt": "2026-07-04T18:15:51.252418+00:00",
+          "finishedAt": "2026-07-04T18:23:27.600881+00:00",
           "name": "build public calendar events",
           "returnCode": 0,
-          "startedAt": "2026-07-04T18:15:40.213972+00:00",
+          "startedAt": "2026-07-04T18:23:16.645391+00:00",
           "status": "ok"
         },
         {
           "command": [
-            "/opt/homebrew/opt/python@3.14/bin/python3.14",
+            "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_status_page.py"
           ],
           "finishedAt": "",
           "name": "build status page",
           "returnCode": null,
-          "startedAt": "2026-07-04T18:15:51.253717+00:00",
+          "startedAt": "2026-07-04T18:23:27.601808+00:00",
           "status": "running"
         }
       ],
