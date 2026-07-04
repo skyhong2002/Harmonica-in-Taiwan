@@ -2,6 +2,75 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-04",
   "entries": [
     {
+      "id": "watchlist-167",
+      "name": "新加坡青年節藝術展演（口琴）",
+      "nameEn": "Singapore Youth Festival Arts Presentation - Harmonica",
+      "category": "活動資訊",
+      "type": "學校比賽/資訊入口",
+      "country": "新加坡",
+      "region": "新加坡",
+      "cityOrFocus": "官方學生藝術展演/口琴項目/SYF",
+      "structuredSummary": "官方學生藝術展演/口琴項目/SYF / 口琴/學生合奏 / 學生比賽來源",
+      "summary": "新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。",
+      "keywords": "新加坡青年節藝術展演 Singapore Youth Festival Arts Presentation Harmonica SYF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.syf.gov.sg/general/calendar"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/sgyouthfest/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sgyouthfest/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-04T06:29:32+00:00",
+      "latestUpdateLocal": "2026-07-04 14:29",
+      "latestUpdateSource": "新加坡青年節藝術展演（口琴）",
+      "latestUpdateUrl": "https://www.instagram.com/stories/sgyouthfest/3933641141057038453/",
+      "avatarUrl": "/assets/source-avatars/b6435a473470038522d6.webp",
+      "sourceInitials": "新加",
+      "sourceTags": [
+        "口琴",
+        "活動資訊",
+        "比賽"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_sgyouthfest",
+          "name": "新加坡青年節藝術展演（口琴）",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/sgyouthfest",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sgyouthfest",
+          "name": "新加坡青年節藝術展演（口琴）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sgyouthfest",
+          "profileUrl": "https://www.instagram.com/sgyouthfest/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sgyouthfest",
+          "name": "新加坡青年節藝術展演（口琴）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sgyouthfest",
+          "profileUrl": "https://www.instagram.com/sgyouthfest/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sgyouthfest/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-63",
       "name": "F.I.H. JAPAN ハーモニカコンテスト",
       "nameEn": "F.I.H. JAPAN Harmonica Contest",
@@ -165,6 +234,92 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "has_singapore",
           "profileUrl": "https://www.instagram.com/has_singapore/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/has_singapore/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-80",
+      "name": "衛武營國家藝術文化中心",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "衛武營 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-weiwuying.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@weiwuyingfilm"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-04T01:00:06+00:00",
+      "latestUpdateLocal": "2026-07-04 09:00",
+      "latestUpdateSource": "衛武營國家藝術文化中心",
+      "latestUpdateUrl": "https://www.instagram.com/p/DaWgvCQDx7W/",
+      "avatarUrl": "/assets/source-avatars/9d6119244c757a072fc5.webp",
+      "sourceInitials": "衛武",
+      "sourceTags": [
+        "場館",
+        "場館平台",
+        "活動資訊",
+        "音樂會",
+        "演出"
+      ],
+      "sourceSummary": "高雄衛武營國家藝術文化中心，大型表演場館與藝文活動平台。",
+      "sourceTagReason": "類別為場館平台，提供場館資訊、售票與音樂會等藝文活動資訊，符合場館與活動定位。",
+      "monitorSources": [
+        {
+          "id": "fb_weiwuyingcenterforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
+        },
+        {
+          "id": "ig_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_weiwuyingfilm",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@weiwuyingfilm",
+          "feedUrl": ""
         }
       ]
     },
@@ -650,75 +805,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@iamxyora",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-167",
-      "name": "新加坡青年節藝術展演（口琴）",
-      "nameEn": "Singapore Youth Festival Arts Presentation - Harmonica",
-      "category": "活動資訊",
-      "type": "學校比賽/資訊入口",
-      "country": "新加坡",
-      "region": "新加坡",
-      "cityOrFocus": "官方學生藝術展演/口琴項目/SYF",
-      "structuredSummary": "官方學生藝術展演/口琴項目/SYF / 口琴/學生合奏 / 學生比賽來源",
-      "summary": "新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。",
-      "keywords": "新加坡青年節藝術展演 Singapore Youth Festival Arts Presentation Harmonica SYF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.syf.gov.sg/general/calendar"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/sgyouthfest/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/sgyouthfest/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-03T15:23:44+00:00",
-      "latestUpdateLocal": "2026-07-03 23:23",
-      "latestUpdateSource": "新加坡青年節藝術展演（口琴）",
-      "latestUpdateUrl": "https://www.instagram.com/stories/sgyouthfest/3933185174318221363/",
-      "avatarUrl": "/assets/source-avatars/b6435a473470038522d6.webp",
-      "sourceInitials": "新加",
-      "sourceTags": [
-        "口琴",
-        "活動資訊",
-        "比賽"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_sgyouthfest",
-          "name": "新加坡青年節藝術展演（口琴）",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/sgyouthfest",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_sgyouthfest",
-          "name": "新加坡青年節藝術展演（口琴）",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "sgyouthfest",
-          "profileUrl": "https://www.instagram.com/sgyouthfest/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_sgyouthfest",
-          "name": "新加坡青年節藝術展演（口琴）",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "sgyouthfest",
-          "profileUrl": "https://www.instagram.com/sgyouthfest/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sgyouthfest/story/0"
         }
       ]
     },
@@ -1849,92 +1935,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@indiarasfair",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-80",
-      "name": "衛武營國家藝術文化中心",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館",
-      "country": "臺灣",
-      "region": "臺灣/高雄",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "衛武營 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-weiwuying.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@weiwuyingfilm"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-03T08:28:33+00:00",
-      "latestUpdateLocal": "2026-07-03 16:28",
-      "latestUpdateSource": "衛武營國家藝術文化中心",
-      "latestUpdateUrl": "https://www.instagram.com/stories/weiwuying_centerforthearts/3932976153203499296/",
-      "avatarUrl": "/assets/source-avatars/9d6119244c757a072fc5.webp",
-      "sourceInitials": "衛武",
-      "sourceTags": [
-        "場館",
-        "場館平台",
-        "活動資訊",
-        "音樂會",
-        "演出"
-      ],
-      "sourceSummary": "高雄衛武營國家藝術文化中心，大型表演場館與藝文活動平台。",
-      "sourceTagReason": "類別為場館平台，提供場館資訊、售票與音樂會等藝文活動資訊，符合場館與活動定位。",
-      "monitorSources": [
-        {
-          "id": "fb_weiwuyingcenterforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
-        },
-        {
-          "id": "ig_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_weiwuyingfilm",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@weiwuyingfilm",
           "feedUrl": ""
         }
       ]
