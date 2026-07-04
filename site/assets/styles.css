@@ -658,7 +658,10 @@ h2 {
 }
 
 .directory-filter-panel {
+  max-width: 1120px;
+  margin-right: auto;
   margin-bottom: 24px;
+  margin-left: auto;
 }
 
 .directory-view-toggle {
@@ -1635,6 +1638,16 @@ button.feed-tag-pill {
   border-bottom: 1px solid var(--line);
 }
 
+.directory-band > .band-inner {
+  width: calc(100% - 48px);
+}
+
+.directory-band .section-heading {
+  max-width: 1120px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .data-date,
 .result-count {
   color: var(--muted);
@@ -2534,9 +2547,11 @@ button.feed-tag-pill {
   margin-left: 8px;
 }
 
-.directory-link-cell {
+.directory-table td.directory-link-cell {
+  overflow: hidden;
   text-align: left;
-  white-space: normal;
+  text-overflow: clip;
+  white-space: nowrap;
 }
 
 .directory-link-icon {
@@ -2958,6 +2973,10 @@ button.feed-tag-pill {
   .hero-content,
   .band-inner {
     width: min(100% - 32px, 1120px);
+  }
+
+  .directory-band > .band-inner {
+    width: calc(100% - 32px);
   }
 
   .latest-story-band .band-inner {

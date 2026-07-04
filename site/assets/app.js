@@ -49,12 +49,185 @@
     query: "",
     country: emptyFilterSet(),
     region: emptyFilterSet(),
+    sourceType: emptyFilterSet(),
     hashtags: emptyFilterSet(),
     directoryView: "table",
+    regionExpanded: false,
+    sourceTypeExpanded: false,
     directorySortKey: "",
     directorySortDirection: "asc",
     directoryColumnWidths: {},
   };
+  const directoryDefaultIncludes = {
+    country: ["臺灣"],
+    region: [],
+    sourceType: [],
+    hashtags: ["口琴"],
+  };
+  const directoryAsciiAliasWords = {
+    "中國/江蘇": "cn-js",
+    "中國/湖北": "cn-hb",
+    "巴西/塞阿拉": "br-ce",
+    "日本/山形": "jp-06",
+    "日本/兵庫": "jp-28",
+    "日本/東京": "jp-13",
+    "日本/鹿兒島": "jp-46",
+    "日本/臺灣爵士圈": "jp-taiwan-jazz-scene",
+    "阿根廷/布宜諾斯艾利斯": "ar-buenos-aires",
+    "阿根廷/阿韋亞內達": "ar-avellaneda",
+    "美國/加州": "us-ca",
+    "美國/密蘇里": "us-mo",
+    "美國/愛達荷": "us-id",
+    "香港/國際": "hk-intl",
+    "馬來西亞/吉隆坡": "my-kul",
+    "馬來西亞/檳城": "my-penang",
+    "國際/臺灣交流": "intl-tw-exchange",
+    "新加坡/肯特崗": "sg-kent-ridge",
+    "新加坡/裕廊西": "sg-jurong-west",
+    "臺灣 / 臺灣/臺中": "tw-txg",
+    "臺灣 / 臺灣/臺北": "tw-tpe",
+    "臺灣/花蓮；馬來西亞": "tw-hua-my",
+    "臺灣/屏東": "tw-pif",
+    "臺灣/桃園": "tw-tao",
+    "臺灣/高雄": "tw-khh",
+    "臺灣/雲林": "tw-yun",
+    "臺灣/新竹": "tw-hsz",
+    "臺灣/彰化": "tw-cha",
+    "臺灣/臺中": "tw-txg",
+    "臺灣/臺北": "tw-tpe",
+    "臺灣/臺南": "tw-tnn",
+    "德國/克林根塔爾": "de-klingenthal",
+    "德國/柏林": "de-be",
+    "德國/英國": "de-gb",
+    "德國/特羅辛根": "de-trossingen",
+    "韓國/首爾": "kr-11",
+    "臺灣": "tw",
+    "台灣": "tw",
+    "中國": "cn",
+    "丹麥": "dk",
+    "巴西": "br",
+    "日本": "jp",
+    "以色列": "il",
+    "印尼": "id",
+    "西班牙": "es",
+    "法國": "fr",
+    "阿根廷": "ar",
+    "俄羅斯": "ru",
+    "美國": "us",
+    "英國": "gb",
+    "香港": "hk",
+    "挪威": "no",
+    "紐西蘭": "nz",
+    "馬來西亞": "my",
+    "國際": "intl",
+    "捷克": "cz",
+    "荷蘭": "nl",
+    "新加坡": "sg",
+    "瑞士": "ch",
+    "瑞典": "se",
+    "德國": "de",
+    "韓國": "kr",
+    "歐洲": "eu",
+    "臺灣交流": "tw-exchange",
+    "臺灣爵士圈": "taiwan-jazz-scene",
+    "江蘇": "js",
+    "湖北": "hb",
+    "庫里奇巴": "curitiba",
+    "塞阿拉": "ceara",
+    "山形": "yamagata",
+    "兵庫": "hyogo",
+    "東京": "tokyo",
+    "鹿兒島": "kagoshima",
+    "布宜諾斯艾利斯": "buenos-aires",
+    "阿韋亞內達": "avellaneda",
+    "加州": "california",
+    "密蘇里": "missouri",
+    "愛達荷": "idaho",
+    "首爾": "seoul",
+    "吉隆坡": "kuala-lumpur",
+    "檳城": "penang",
+    "肯特崗": "kent-ridge",
+    "裕廊西": "jurong-west",
+    "花蓮": "hualien",
+    "屏東": "pingtung",
+    "桃園": "taoyuan",
+    "高雄": "kaohsiung",
+    "雲林": "yunlin",
+    "新竹": "hsinchu",
+    "彰化": "changhua",
+    "臺中": "taichung",
+    "台中": "taichung",
+    "臺北": "taipei",
+    "台北": "taipei",
+    "臺南": "tainan",
+    "台南": "tainan",
+    "克林根塔爾": "klingenthal",
+    "柏林": "berlin",
+    "特羅辛根": "trossingen",
+    "交流": "exchange",
+    "口琴": "harmonica",
+    "十孔": "diatonic",
+    "半音階": "chromatic",
+    "複音": "tremolo",
+    "和弦": "chord",
+    "合奏": "ensemble",
+    "重奏": "chamber",
+    "演奏者": "performer",
+    "演出": "performance",
+    "音樂會": "concert",
+    "音樂節": "festival",
+    "比賽": "competition",
+    "資訊入口": "info-hub",
+    "活動資訊": "event-info",
+    "活動": "event",
+    "工作坊": "workshop",
+    "工作室": "studio",
+    "文化局": "cultural-affairs",
+    "協會": "association",
+    "品牌": "brand",
+    "樂器商": "instrument-seller",
+    "樂器行": "music-store",
+    "文化平台": "culture-platform",
+    "教育入口": "education-hub",
+    "演出企劃": "performance-planning",
+    "個人": "individual",
+    "教學": "teaching",
+    "維修": "repair",
+    "影片來源": "video-source",
+    "地方推廣": "local-promotion",
+    "校內場館": "campus-venue",
+    "藝文中心": "arts-center",
+    "售票平台": "ticketing",
+    "國際交流": "international-exchange",
+    "國際交流活動": "international-exchange-event",
+    "國際活動": "international-event",
+    "國際團體": "international-group",
+    "參考來源": "reference",
+    "教育機構": "education-institution",
+    "教學工作室": "teaching-studio",
+    "教學器材": "teaching-equipment",
+    "單位": "organization",
+    "場館平台": "venue-platform",
+    "場館": "venue",
+    "團體樂團": "ensemble-band",
+    "團體": "group",
+    "學生社團": "student-club",
+    "大專社團": "college-club",
+    "學校社團": "school-club",
+    "學校": "school",
+    "正式課程": "formal-course",
+    "青年": "youth",
+    "教學平台": "teaching-platform",
+    "學校比賽": "school-competition",
+    "地方教學": "local-teaching",
+    "社大課程": "community-college-course",
+    "器材": "equipment",
+    "課程": "course",
+    "社群": "community",
+    "合作企劃": "collaboration",
+    "子來源": "subsource",
+  };
+  let directoryAliasMaps = null;
   const feedDefaultIncludes = {
     platform: [],
     country: ["臺灣"],
@@ -122,7 +295,7 @@
   let homeStoryWheelScrollEndTimer = 0;
 
   const nonLocationLabels = new Set(["國際", "臺灣交流", "臺灣爵士圈"]);
-  const directoryFilterNames = ["country", "region", "hashtags"];
+  const directoryFilterNames = ["country", "region", "sourceType", "hashtags"];
   const feedFilterNames = ["platform", "country", "region", "source", "tag"];
   const scoreFilterNames = ["program", "publisher", "status"];
   const scoreSourceFilterNames = ["sourceType", "platform", "availability", "format"];
@@ -151,6 +324,9 @@
   let scoreSearchTimer = 0;
   let scoreSourceSearchComposing = false;
   let scoreSourceSearchTimer = 0;
+  let feedIndex = null;
+  let feedSocialSourceById = null;
+  let feedAliasMaps = null;
 
   function setStat(name, value) {
     document.querySelectorAll(`[data-stat="${name}"]`).forEach((node) => {
@@ -205,6 +381,9 @@
       const nextFeedData = normalizeFeedPayload(await response.json());
       if (!nextFeedData) return;
       feedData = nextFeedData;
+      feedIndex = null;
+      feedSocialSourceById = null;
+      feedAliasMaps = null;
       setStat("feedGeneratedAt", feedData.generatedAt || "-");
       renderHomepageStories();
       renderLatestFeeds();
@@ -793,6 +972,7 @@
   function buildDirectoryIndex() {
     const records = data.entries.map((entry) => {
       const countryValues = entryCountryValues(entry);
+      const sourceTypeValues = uniqueHashtags([entry.type]);
       const sourceTags = uniqueHashtags(entry.sourceTags || []);
       return {
         entry,
@@ -800,6 +980,8 @@
         countryKeys: new Set(countryValues.map(filterValueKey).filter(Boolean)),
         regionValues: [],
         regionKeys: new Set(),
+        sourceTypeValues,
+        sourceTypeKeys: new Set(sourceTypeValues.map(filterValueKey).filter(Boolean)),
         sourceTags,
         sourceTagKeys: new Set(sourceTags.map(filterValueKey).filter(Boolean)),
         searchText: searchableText(entry),
@@ -815,6 +997,7 @@
     });
     const regions = countSortedRecords(records, (record) => record.regionValues);
     const regionKeys = new Set(regions.map(filterValueKey).filter(Boolean));
+    const sourceTypes = countSortedRecords(records, (record) => record.sourceTypeValues);
     const sourceTags = countSortedRecords(records, (record) => record.sourceTags);
     const locationKeys = new Set([...countryKeys, ...regionKeys]);
     const index = {
@@ -823,6 +1006,7 @@
       countryKeys,
       regions,
       regionKeys,
+      sourceTypes,
       sourceTags: sourceTags.filter((tag) => !locationKeys.has(filterValueKey(tag))),
     };
     directoryRecordByEntry = new WeakMap(records.map((record) => [record.entry, record]));
@@ -830,11 +1014,98 @@
     records.forEach((record) => {
       record.cardHtml = entryCard(record.entry);
     });
+    directoryAliasMaps = null;
     return index;
   }
 
   function directoryFilterState(filterName) {
     return state[filterName] || emptyFilterSet();
+  }
+
+  function directoryFilterAliasFallback(value) {
+    return [...String(value || "")]
+      .map((char) => {
+        if (/^[a-z0-9]$/i.test(char)) return char.toLowerCase();
+        if (/\s/.test(char) || /[/、；;:_-]/.test(char)) return "-";
+        return `u${char.codePointAt(0).toString(16)}`;
+      })
+      .join("-");
+  }
+
+  function directoryFilterAlias(value) {
+    const raw = String(value || "").trim();
+    if (!raw) return "";
+    const direct = directoryAsciiAliasWords[raw];
+    if (direct) return direct;
+    const words = Object.keys(directoryAsciiAliasWords).sort((left, right) => right.length - left.length);
+    let text = raw;
+    words.forEach((word) => {
+      text = text.replaceAll(word, ` ${directoryAsciiAliasWords[word]} `);
+    });
+    text = text
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/&/g, " and ")
+      .replace(/['’]/g, "")
+      .replace(/[^a-z0-9]+/gi, "-")
+      .replace(/^-+|-+$/g, "")
+      .replace(/-{2,}/g, "-")
+      .toLowerCase();
+    return text || directoryFilterAliasFallback(raw).replace(/^-+|-+$/g, "").replace(/-{2,}/g, "-");
+  }
+
+  function directoryFilterValuesForName(name) {
+    if (name === "country") return directoryHashtagValues().countries;
+    if (name === "region") return directoryHashtagValues().regions;
+    if (name === "sourceType") return directoryHashtagValues().sourceTypes;
+    if (name === "hashtags") return directoryHashtagValues().sourceTags;
+    return [];
+  }
+
+  function buildDirectoryAliasMaps() {
+    const maps = {};
+    directoryFilterNames.forEach((name) => {
+      const labelToAlias = new Map();
+      const aliasToLabel = new Map();
+      directoryFilterValuesForName(name).forEach((label) => {
+        const alias = directoryFilterAlias(label);
+        if (!alias) return;
+        labelToAlias.set(filterValueKey(label), alias);
+        if (!aliasToLabel.has(alias)) aliasToLabel.set(alias, label);
+      });
+      maps[name] = { labelToAlias, aliasToLabel };
+    });
+    directoryAliasMaps = maps;
+    return maps;
+  }
+
+  function directoryAliasMapsForCurrentValues() {
+    return directoryAliasMaps || buildDirectoryAliasMaps();
+  }
+
+  function directoryFilterParamValue(filterName, label) {
+    const maps = directoryAliasMapsForCurrentValues();
+    return maps[filterName]?.labelToAlias.get(filterValueKey(label)) || directoryFilterAlias(label) || label;
+  }
+
+  function directoryLabelFromParam(filterName, value) {
+    const label = String(value || "").trim();
+    if (!label) return "";
+    const maps = directoryAliasMapsForCurrentValues();
+    return maps[filterName]?.aliasToLabel.get(label) || label;
+  }
+
+  function defaultDirectoryFilter(name) {
+    return {
+      include: [...(directoryDefaultIncludes[name] || [])],
+      exclude: [],
+    };
+  }
+
+  function resetDirectoryFilterStateToDefaults() {
+    directoryFilterNames.forEach((name) => {
+      state[name] = defaultDirectoryFilter(name);
+    });
   }
 
   function hashtagButton(label, className = "", filterName = "hashtags") {
@@ -1574,7 +1845,16 @@
   function socialSourcesForItem(item) {
     const id = filterValueKey(item.source_id);
     if (!id) return [];
-    return feedSocialSources().filter((source) => filterValueKey(source.id) === id);
+    if (!feedSocialSourceById) {
+      feedSocialSourceById = new Map();
+      feedSocialSources().forEach((source) => {
+        const key = filterValueKey(source.id);
+        if (!key) return;
+        if (!feedSocialSourceById.has(key)) feedSocialSourceById.set(key, []);
+        feedSocialSourceById.get(key).push(source);
+      });
+    }
+    return feedSocialSourceById.get(id) || [];
   }
 
   function socialSourceLabel(source) {
@@ -1688,14 +1968,78 @@
     );
   }
 
-  function feedMatches(item) {
-    if (!valuesMatchFilter(feedPlatformFilterValues(item), feedState.platform)) return false;
-    if (!valuesMatchFilter(feedCountryFilterValues(item), feedState.country)) return false;
-    if (!valuesMatchFilter(feedRegionFilterValues(item), feedState.region)) return false;
-    if (!valuesMatchFilter(feedSourceFilterValues(item), feedState.source)) return false;
-    if (!valuesMatchFilter(sortedPublicTags(item.matched_keywords || []), feedState.tag)) return false;
-    if (!normalizedTextMatches(feedFilterText(item), feedState.query)) return false;
+  function buildFeedIndex() {
+    const updates = homepageFeedUpdates();
+    const countryOptions = countSortedValues(updates, feedCountryFilterValues);
+    const knownCountries = uniqueSorted([...directoryCountryValues(), ...countryOptions]);
+    const records = updates.map((item, index) => {
+      const platformValues = uniqueHashtags(feedPlatformFilterValues(item).map(sourcePlatformLabel));
+      const countryValues = feedCountryFilterValues(item);
+      const regionValues = feedRegionFilterValues(item, knownCountries);
+      const sourceValues = feedSourceFilterValues(item);
+      const sourceOption = feedSourceOptionValue(item);
+      const tagValues = sortedPublicTags(item.matched_keywords || []);
+      const searchText = normalize(
+        [
+          item.display_title,
+          item.headline,
+          item.title,
+          item.text,
+          item.country,
+          item.region,
+          ...regionValues,
+          ...sourceValues,
+          ...tagValues,
+        ].join(" ")
+      );
+      return {
+        item,
+        index,
+        platformValues,
+        countryValues,
+        regionValues,
+        sourceValues,
+        sourceOption,
+        tagValues,
+        searchText,
+      };
+    });
+    const platforms = uniqueSorted(records.flatMap((record) => record.platformValues).map(sourcePlatformLabel))
+      .sort((left, right) => {
+        const leftRank = feedPlatformRank.get(filterValueKey(left)) ?? feedPlatformOrder.length;
+        const rightRank = feedPlatformRank.get(filterValueKey(right)) ?? feedPlatformOrder.length;
+        if (leftRank !== rightRank) return leftRank - rightRank;
+        return left.localeCompare(right, "zh-Hant");
+      });
+    feedIndex = {
+      records,
+      options: {
+        platforms,
+        countries: countSortedRecords(records, (record) => record.countryValues),
+        regions: countSortedRecords(records, (record) => record.regionValues),
+        sources: countSortedRecords(records, (record) => [record.sourceOption]),
+        tags: sortedPublicTags(updates.flatMap((item) => item.matched_keywords || [])),
+      },
+    };
+    return feedIndex;
+  }
+
+  function feedIndexForCurrentData() {
+    return feedIndex || buildFeedIndex();
+  }
+
+  function feedRecordMatches(record) {
+    if (!valuesMatchFilter(record.platformValues, feedState.platform)) return false;
+    if (!valuesMatchFilter(record.countryValues, feedState.country)) return false;
+    if (!valuesMatchFilter(record.regionValues, feedState.region)) return false;
+    if (!valuesMatchFilter(record.sourceValues, feedState.source)) return false;
+    if (!valuesMatchFilter(record.tagValues, feedState.tag)) return false;
+    if (!normalizedTextMatches(record.searchText, feedState.query)) return false;
     return true;
+  }
+
+  function filteredFeedRecords() {
+    return feedIndexForCurrentData().records.filter(feedRecordMatches);
   }
 
   function homeSummaryHasHarmonicaTag(item) {
@@ -1727,13 +2071,13 @@
   }
 
   function feedControls(updates, filteredUpdates) {
-    const platforms = feedPlatformOptions(updates);
-    const countries = countSortedValues(updates, feedCountryFilterValues);
-    const knownCountries = uniqueSorted([...feedKnownCountryValues(updates), ...countries]);
-    const regions = countSortedValues(updates, (item) => feedRegionFilterValues(item, knownCountries));
-    const sources = countSortedValues(updates, feedSourceOptionValue);
-    const tags = sortedPublicTags(updates.flatMap((item) => item.matched_keywords || []));
-    const sourceDisclosureOpen = feedState.sourceExpanded || !filterEmpty(feedState.source);
+    const { options } = feedIndexForCurrentData();
+    const platforms = options.platforms;
+    const countries = options.countries;
+    const regions = options.regions;
+    const sources = options.sources;
+    const tags = options.tags;
+    const sourceDisclosureOpen = feedState.sourceExpanded;
     return searchFilterPanel({
       scope: "feed",
       label: "河道篩選",
@@ -1832,11 +2176,11 @@
   }
 
   function appendNextFeedBatch() {
-    const filteredUpdates = homepageFeedUpdates().filter(feedMatches);
-    const previousCount = Math.min(feedState.visibleCount, filteredUpdates.length);
+    const filteredRecords = filteredFeedRecords();
+    const previousCount = Math.min(feedState.visibleCount, filteredRecords.length);
     feedState.visibleCount += feedBatchSize;
-    const visibleCount = Math.min(feedState.visibleCount, filteredUpdates.length);
-    const nextUpdates = filteredUpdates.slice(previousCount, visibleCount);
+    const visibleCount = Math.min(feedState.visibleCount, filteredRecords.length);
+    const nextUpdates = filteredRecords.slice(previousCount, visibleCount).map((record) => record.item);
     const river = latestFeedGrid.querySelector(".feed-river");
     if (!river || !nextUpdates.length) {
       renderLatestFeeds();
@@ -1850,7 +2194,7 @@
 
     appendFeedCards(river, nextUpdates, { startIndex: previousCount });
     const existingLoadMore = latestFeedGrid.querySelector(".feed-load-more-wrap");
-    const nextLoadMore = feedLoadMore(filteredUpdates.length, visibleCount);
+    const nextLoadMore = feedLoadMore(filteredRecords.length, visibleCount);
     if (existingLoadMore) {
       existingLoadMore.outerHTML = nextLoadMore;
     } else if (nextLoadMore) {
@@ -1975,6 +2319,8 @@
       "notCountry",
       "region",
       "notRegion",
+      "type",
+      "notType",
       "tag",
       "notTag",
       "hashtag",
@@ -1984,10 +2330,75 @@
     ];
   }
 
+  function normalizeAsciiParamValue(value) {
+    return String(value || "")
+      .trim()
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "")
+      .replace(/-{2,}/g, "-");
+  }
+
+  function buildFeedAliasMaps() {
+    const { records, options } = feedIndexForCurrentData();
+    const sourceAliasByKey = new Map();
+    records.forEach((record) => {
+      const key = filterValueKey(record.sourceOption);
+      if (!key || sourceAliasByKey.has(key)) return;
+      const item = record.item;
+      const alias = normalizeAsciiParamValue(
+        item.directory_entry_id ||
+        item.directoryEntryId ||
+        item.source_id ||
+        item.account ||
+        record.sourceOption
+      );
+      if (alias) sourceAliasByKey.set(key, alias);
+    });
+    const config = {
+      platform: options.platforms,
+      country: options.countries,
+      region: options.regions,
+      tag: options.tags,
+      source: options.sources,
+    };
+    feedAliasMaps = Object.fromEntries(Object.entries(config).map(([name, values]) => {
+      const labelToAlias = new Map();
+      const aliasToLabel = new Map();
+      values.forEach((label) => {
+        const key = filterValueKey(label);
+        const alias = name === "source"
+          ? sourceAliasByKey.get(key) || directoryFilterAlias(label)
+          : directoryFilterAlias(label);
+        if (!alias) return;
+        labelToAlias.set(key, alias);
+        if (!aliasToLabel.has(alias)) aliasToLabel.set(alias, label);
+      });
+      return [name, { labelToAlias, aliasToLabel }];
+    }));
+    return feedAliasMaps;
+  }
+
+  function feedAliasMapsForCurrentValues() {
+    return feedAliasMaps || buildFeedAliasMaps();
+  }
+
+  function feedFilterParamValue(filterName, label) {
+    const maps = feedAliasMapsForCurrentValues();
+    return maps[filterName]?.labelToAlias.get(filterValueKey(label)) || directoryFilterAlias(label) || label;
+  }
+
+  function feedLabelFromParam(filterName, value) {
+    const label = String(value || "").trim();
+    if (!label) return "";
+    const maps = feedAliasMapsForCurrentValues();
+    return maps[filterName]?.aliasToLabel.get(label) || label;
+  }
+
   function appendFeedFilterUrlParams(url, filterName, includeParam, excludeParam = "") {
-    filterIncludes(feedState[filterName]).forEach((value) => url.searchParams.append(includeParam, value));
+    filterIncludes(feedState[filterName]).forEach((value) => url.searchParams.append(includeParam, feedFilterParamValue(filterName, value)));
     if (excludeParam) {
-      filterExcludes(feedState[filterName]).forEach((value) => url.searchParams.append(excludeParam, value));
+      filterExcludes(feedState[filterName]).forEach((value) => url.searchParams.append(excludeParam, feedFilterParamValue(filterName, value)));
     }
   }
 
@@ -2005,7 +2416,7 @@
   }
 
   function addFeedFilterValue(filterName, value, mode = "include") {
-    const label = String(value || "").trim();
+    const label = feedLabelFromParam(filterName, value);
     if (!label || !feedFilterNames.includes(filterName)) return;
     if (filterName === "platform") {
       if (mode !== "exclude") {
@@ -2064,7 +2475,7 @@
     commaSeparatedParamValues(params, ["notSource"]).forEach((value) => addFeedFilterValue("source", value, "exclude"));
     commaSeparatedParamValues(params, ["hashtag"]).forEach((value) => routeLegacyFeedHashtag(value));
     commaSeparatedParamValues(params, ["notHashtag"]).forEach((value) => routeLegacyFeedHashtag(value, "exclude"));
-    feedState.sourceExpanded = !filterEmpty(feedState.source);
+    feedState.sourceExpanded = false;
   }
 
   function applyFeedSelection(name, value) {
@@ -2130,19 +2541,19 @@
       renderHomepageFeedSummary();
       return;
     }
-    const updates = homepageFeedUpdates();
-    if (!updates.length) {
+    const index = feedIndexForCurrentData();
+    if (!index.records.length) {
       latestFeedGrid.innerHTML = `<div class="empty-state">目前沒有可顯示的公開 feed。</div>`;
       return;
     }
 
-    const filteredUpdates = updates.filter(feedMatches);
-    const visibleCount = Math.min(feedState.visibleCount, filteredUpdates.length);
-    const visibleUpdates = filteredUpdates.slice(0, visibleCount);
+    const filteredRecords = index.records.filter(feedRecordMatches);
+    const visibleCount = Math.min(feedState.visibleCount, filteredRecords.length);
+    const visibleUpdates = filteredRecords.slice(0, visibleCount).map((record) => record.item);
     latestFeedGrid.innerHTML = `
-      ${feedControls(updates, filteredUpdates)}
+      ${feedControls(index.records, filteredRecords)}
       <div class="feed-river" aria-live="polite"></div>
-      ${feedLoadMore(filteredUpdates.length, visibleCount)}
+      ${feedLoadMore(filteredRecords.length, visibleCount)}
     `;
     const river = latestFeedGrid.querySelector(".feed-river");
     if (river) {
@@ -2186,9 +2597,11 @@
       const entry = record.entry;
       const countryKeys = record.countryKeys || new Set(entryCountryValues(entry).map(filterValueKey).filter(Boolean));
       const regionKeys = record.regionKeys || new Set(entryRegionValues(entry).map(filterValueKey).filter(Boolean));
+      const sourceTypeKeys = record.sourceTypeKeys || new Set([entry.type].map(filterValueKey).filter(Boolean));
       const sourceTagKeys = record.sourceTagKeys || new Set(entrySourceTagValues(entry).map(filterValueKey).filter(Boolean));
       if (!keysMatchFilter(countryKeys, state.country)) return false;
       if (!keysMatchFilter(regionKeys, state.region)) return false;
+      if (!keysMatchFilter(sourceTypeKeys, state.sourceType)) return false;
       if (!keysMatchFilter(sourceTagKeys, state.hashtags)) return false;
       if (!normalizedTextMatches(record.searchText || searchableText(entry), state.query)) return false;
       return true;
@@ -2224,23 +2637,26 @@
       return {
         countries: directoryIndex.countries,
         regions: directoryIndex.regions,
+        sourceTypes: directoryIndex.sourceTypes,
         sourceTags: directoryIndex.sourceTags,
       };
     }
     const countries = directoryCountryValues();
     const regions = directoryRegionValues();
+    const sourceTypes = countSortedValues(data.entries, (entry) => [entry.type]);
     const sourceTags = countSortedValues(data.entries, entrySourceTagValues);
     const locationValues = [...countries, ...regions];
     return {
       countries,
       regions,
+      sourceTypes,
       sourceTags: sourceTags.filter((tag) => !filterHasValue(locationValues, tag)),
     };
   }
 
   function renderDirectoryFilterPanel(records) {
     if (!directoryFilterPanel) return;
-    const { countries, regions, sourceTags } = directoryHashtagValues();
+    const { countries, regions, sourceTypes, sourceTags } = directoryHashtagValues();
     directoryFilterPanel.innerHTML = searchFilterPanel({
       scope: "directory",
       className: "directory-filter-panel",
@@ -2253,7 +2669,8 @@
       searchPlaceholder: "搜尋名稱、城市、類型、關鍵字",
       groups: [
         { label: "國家", name: "country", values: countries, activeValues: state.country, fallbackLabel: "全部國家", ariaLabel: "國家篩選，可複選" },
-        { label: "區域", name: "region", values: regions, activeValues: state.region, fallbackLabel: "全部區域", ariaLabel: "區域篩選，可複選" },
+        { label: "區域", name: "region", values: regions, activeValues: state.region, fallbackLabel: "全部區域", ariaLabel: "區域篩選，可複選", disclosure: true, open: state.regionExpanded, disclosureAttribute: "data-directory-region-disclosure", countLabel: `${regions.length} 個區域` },
+        { label: "類型", name: "sourceType", values: sourceTypes, activeValues: state.sourceType, fallbackLabel: "全部類型", ariaLabel: "類型篩選，可複選", disclosure: true, open: state.sourceTypeExpanded, disclosureAttribute: "data-directory-source-type-disclosure", countLabel: `${sourceTypes.length} 個類型` },
         { label: "Tag", name: "hashtags", values: sourceTags, activeValues: state.hashtags, fallbackLabel: "全部 tag", ariaLabel: "Tag 篩選，可複選" },
       ],
     });
@@ -3671,10 +4088,12 @@
       "dir",
       "country",
       "region",
+      "type",
       "tag",
       "hashtag",
       "notCountry",
       "notRegion",
+      "notType",
       "notTag",
       "notHashtag",
       "q",
@@ -3691,12 +4110,14 @@
       url.searchParams.set("sort", state.directorySortKey);
       url.searchParams.set("dir", normalizedScoreSortDirection(state.directorySortDirection));
     }
-    filterIncludes(state.country).forEach((country) => url.searchParams.append("country", country));
-    filterExcludes(state.country).forEach((country) => url.searchParams.append("notCountry", country));
-    filterIncludes(state.region).forEach((region) => url.searchParams.append("region", region));
-    filterExcludes(state.region).forEach((region) => url.searchParams.append("notRegion", region));
-    filterIncludes(state.hashtags).forEach((hashtag) => url.searchParams.append("tag", hashtag));
-    filterExcludes(state.hashtags).forEach((hashtag) => url.searchParams.append("notTag", hashtag));
+    filterIncludes(state.country).forEach((country) => url.searchParams.append("country", directoryFilterParamValue("country", country)));
+    filterExcludes(state.country).forEach((country) => url.searchParams.append("notCountry", directoryFilterParamValue("country", country)));
+    filterIncludes(state.region).forEach((region) => url.searchParams.append("region", directoryFilterParamValue("region", region)));
+    filterExcludes(state.region).forEach((region) => url.searchParams.append("notRegion", directoryFilterParamValue("region", region)));
+    filterIncludes(state.sourceType).forEach((type) => url.searchParams.append("type", directoryFilterParamValue("sourceType", type)));
+    filterExcludes(state.sourceType).forEach((type) => url.searchParams.append("notType", directoryFilterParamValue("sourceType", type)));
+    filterIncludes(state.hashtags).forEach((hashtag) => url.searchParams.append("tag", directoryFilterParamValue("hashtags", hashtag)));
+    filterExcludes(state.hashtags).forEach((hashtag) => url.searchParams.append("notTag", directoryFilterParamValue("hashtags", hashtag)));
     if (state.query) url.searchParams.set("q", state.query);
     window.history.replaceState({}, "", url);
   }
@@ -3709,7 +4130,7 @@
   }
 
   function addDirectoryFilterValue(filterName, value, mode = "include") {
-    const label = String(value || "").trim();
+    const label = directoryLabelFromParam(filterName, value);
     if (!label || !directoryFilterNames.includes(filterName)) return;
     const filter = directoryFilterState(filterName);
     if (mode === "exclude") {
@@ -3737,10 +4158,26 @@
     }
   }
 
+  function hasDirectoryFilterParams(params) {
+    return [
+      "country",
+      "notCountry",
+      "region",
+      "notRegion",
+      "tag",
+      "notTag",
+      "hashtag",
+      "notHashtag",
+      "q",
+      "query",
+    ].some((name) => params.has(name));
+  }
+
   function readDirectoryFiltersFromUrl() {
     const params = new URLSearchParams(window.location.search);
     state.country = emptyFilterSet();
     state.region = emptyFilterSet();
+    state.sourceType = emptyFilterSet();
     state.hashtags = emptyFilterSet();
     state.query = params.get("q") || params.get("query") || "";
     state.directoryView = params.get("view") === "cards" ? "cards" : "table";
@@ -3753,10 +4190,15 @@
     commaSeparatedParamValues(params, ["notCountry"]).forEach((value) => addDirectoryFilterValue("country", value, "exclude"));
     commaSeparatedParamValues(params, ["region"]).forEach((value) => addDirectoryFilterValue("region", value));
     commaSeparatedParamValues(params, ["notRegion"]).forEach((value) => addDirectoryFilterValue("region", value, "exclude"));
+    commaSeparatedParamValues(params, ["type"]).forEach((value) => addDirectoryFilterValue("sourceType", value));
+    commaSeparatedParamValues(params, ["notType"]).forEach((value) => addDirectoryFilterValue("sourceType", value, "exclude"));
     commaSeparatedParamValues(params, ["tag"]).forEach((value) => addDirectoryFilterValue("hashtags", value));
     commaSeparatedParamValues(params, ["notTag"]).forEach((value) => addDirectoryFilterValue("hashtags", value, "exclude"));
     commaSeparatedParamValues(params, ["hashtag"]).forEach((value) => routeLegacyDirectoryHashtag(value));
     commaSeparatedParamValues(params, ["notHashtag"]).forEach((value) => routeLegacyDirectoryHashtag(value, "exclude"));
+    if (!hasDirectoryFilterParams(params)) {
+      resetDirectoryFilterStateToDefaults();
+    }
   }
 
   function directoryHashtagUrl(hashtag, filterName = "hashtags") {
@@ -3775,9 +4217,7 @@
   }
 
   function resetDirectoryFilters() {
-    state.country = emptyFilterSet();
-    state.region = emptyFilterSet();
-    state.hashtags = emptyFilterSet();
+    resetDirectoryFilterStateToDefaults();
     state.query = "";
     state.directorySortKey = "";
     state.directorySortDirection = "asc";
@@ -3913,6 +4353,18 @@
     const resetButton = directoryFilterPanel.querySelector('[data-search-filter-reset="directory"]');
     if (resetButton) {
       resetButton.addEventListener("click", resetDirectoryFilters);
+    }
+    const regionDisclosure = directoryFilterPanel.querySelector("[data-directory-region-disclosure]");
+    if (regionDisclosure) {
+      regionDisclosure.addEventListener("toggle", () => {
+        state.regionExpanded = regionDisclosure.open;
+      });
+    }
+    const sourceTypeDisclosure = directoryFilterPanel.querySelector("[data-directory-source-type-disclosure]");
+    if (sourceTypeDisclosure) {
+      sourceTypeDisclosure.addEventListener("toggle", () => {
+        state.sourceTypeExpanded = sourceTypeDisclosure.open;
+      });
     }
     bindDirectoryViewToggle();
   }
