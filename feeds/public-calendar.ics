@@ -7,7 +7,7 @@ X-WR-CALNAME:口琴公開活動
 X-WR-TIMEZONE:Asia/Taipei
 BEGIN:VEVENT
 UID:8e6bb6caf65dafbb@harmonica.observe.tw
-DTSTAMP:20260704T125547Z
+DTSTAMP:20260704T131636Z
 DTSTART;TZID=Asia/Taipei:20260711T140000
 DTEND;TZID=Asia/Taipei:20260711T160000
 SUMMARY:口琴入門推廣講座
@@ -21,19 +21,8 @@ URL:https://www.facebook.com/twharmonica/posts/pfbid07CLAcEbSrP9wrHocyXC7Za
  US2ERQAN75Sh3fPjM835wmjAokvbtWrRP7Wkh5mdGal
 END:VEVENT
 BEGIN:VEVENT
-UID:e40e9e2154ec8429@harmonica.observe.tw
-DTSTAMP:20260704T125547Z
-DTSTART;VALUE=DATE:20260716
-DTEND;VALUE=DATE:20260717
-SUMMARY:南里沙的 CoCoだけの話 YouTube 生配信
-LOCATION:YouTube
-DESCRIPTION:YouTube 生配信，第272回，主題為ちあきなおみ特
- 集，開放觀眾點歌。\nhttps://www.instagram.com/p/DZv9gbPSDcC/
-URL:https://www.instagram.com/p/DZv9gbPSDcC/
-END:VEVENT
-BEGIN:VEVENT
 UID:88fb7911620b72be@harmonica.observe.tw
-DTSTAMP:20260704T125547Z
+DTSTAMP:20260704T131636Z
 DTSTART;TZID=Asia/Taipei:20260718T193000
 DTEND;TZID=Asia/Taipei:20260718T213000
 SUMMARY:臺灣探戈樂團創團音樂會
@@ -44,16 +33,15 @@ DESCRIPTION:演出：臺灣探戈樂團創團音樂會（Taiwan Tango Orque
 URL:https://www.youtube.com/watch?v=PA11sSFkJeA
 END:VEVENT
 BEGIN:VEVENT
-UID:3695b6924076e208@harmonica.observe.tw
-DTSTAMP:20260704T125547Z
-DTSTART;VALUE=DATE:20260802
-DTEND;VALUE=DATE:20260803
+UID:6670d32764968444@harmonica.observe.tw
+DTSTAMP:20260704T131636Z
+DTSTART;TZID=Asia/Taipei:20260821T183000
+DTEND;TZID=Asia/Taipei:20260821T203000
 SUMMARY:臺中一中口琴之狼校友音樂會《天琴聲等煙雨》
 LOCATION:臺中 大墩文化中心 B1 演講廳
-DESCRIPTION:校友音樂會，免費入場，活動時間為2026年8月21
- 日（五）晚上六點半。\nhttps://www.facebook.com/tcfsh.harmonica/p
- osts/pfbid026TX9x37qBLk1W7jif1qzR2vfQrhDWpVWSXjmo8mDw9xLn5CHnUEx5PmsZfsebB
- 4Zl
+DESCRIPTION:校友音樂會，免費入場。\nhttps://www.facebook.com/tcf
+ sh.harmonica/posts/pfbid026TX9x37qBLk1W7jif1qzR2vfQrhDWpVWSXjmo8mDw9xLn5CH
+ nUEx5PmsZfsebB4Zl
 URL:https://www.facebook.com/tcfsh.harmonica/posts/pfbid026TX9x37qBLk1W7jif
  1qzR2vfQrhDWpVWSXjmo8mDw9xLn5CHnUEx5PmsZfsebB4Zl
 END:VEVENT
