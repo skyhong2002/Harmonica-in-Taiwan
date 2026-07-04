@@ -2,11 +2,12 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-04",
   "entries": [
     {
-      "id": "watchlist-79",
+      "id": "watchlist-78",
       "name": "衛武營國家藝術文化中心",
       "nameEn": "",
       "category": "場館平台",
-      "type": "場館",
+      "type": "場館與平台",
+      "originalType": "場館",
       "country": "臺灣",
       "region": "臺灣/高雄",
       "cityOrFocus": "大型演出場館",
@@ -40,14 +41,9 @@ window.HARMONICA_OBSERVE_DATA = {
       "avatarUrl": "/assets/source-avatars/9d6119244c757a072fc5.webp",
       "sourceInitials": "衛武",
       "sourceTags": [
-        "場館",
-        "場館平台",
-        "活動資訊",
-        "音樂會",
-        "演出"
+        "口琴",
+        "場館平台"
       ],
-      "sourceSummary": "高雄衛武營國家藝術文化中心，大型表演場館與藝文活動平台。",
-      "sourceTagReason": "類別為場館平台，提供場館資訊、售票與音樂會等藝文活動資訊，符合場館與活動定位。",
       "monitorSources": [
         {
           "id": "fb_weiwuyingcenterforthearts",
@@ -88,11 +84,99 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-166",
+      "id": "watchlist-54",
+      "name": "CY Leo 何卓彥",
+      "nameEn": "CY Leo",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/現代跨界",
+      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
+      "summary": "香港的半音階國際演出人員，活動脈絡包含現代跨界。",
+      "keywords": "CY Leo 何卓彥 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.cyleomusic.io/profile"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Cyleoharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cy_leo/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@cyleoharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-04T08:20:36+00:00",
+      "latestUpdateLocal": "2026-07-04 16:20",
+      "latestUpdateSource": "CY Leo 何卓彥",
+      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3933696926491538082/",
+      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
+      "sourceInitials": "CL",
+      "sourceTags": [
+        "演奏者",
+        "口琴",
+        "半音階",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
+      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
+      "monitorSources": [
+        {
+          "id": "fb_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Cyleoharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
+        },
+        {
+          "id": "yt_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@cyleoharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-164",
       "name": "新加坡青年節藝術展演（口琴）",
       "nameEn": "Singapore Youth Festival Arts Presentation - Harmonica",
       "category": "活動資訊",
-      "type": "學校比賽/資訊入口",
+      "type": "活動與比賽",
+      "originalType": "學校比賽/資訊入口",
       "country": "新加坡",
       "region": "新加坡",
       "cityOrFocus": "官方學生藝術展演/口琴項目/SYF",
@@ -157,11 +241,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-106",
+      "id": "watchlist-104",
       "name": "Timothy Yip 葉進禧",
       "nameEn": "Timothy Yip",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "香港",
       "region": "香港",
       "cityOrFocus": "半音階/國際比賽/演出/RedBricks",
@@ -246,6 +331,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Kelvin Leung",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "香港",
       "region": "香港",
       "cityOrFocus": "THMF交流/演出",
@@ -326,11 +412,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-95",
+      "id": "watchlist-93",
       "name": "RedBricks Harmonica",
       "nameEn": "RedBricks Harmonica",
       "category": "團體樂團",
-      "type": "國際團體/參考來源",
+      "type": "團體",
+      "originalType": "國際團體/參考來源",
       "country": "香港",
       "region": "香港/國際",
       "cityOrFocus": "國際口琴重奏/臺港交流",
@@ -410,6 +497,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Younghoon Cho",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "韓國",
       "region": "韓國",
       "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
@@ -494,7 +582,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "name": "F.I.H. JAPAN ハーモニカコンテスト",
       "nameEn": "F.I.H. JAPAN Harmonica Contest",
       "category": "活動資訊",
-      "type": "比賽/資訊入口",
+      "type": "活動與比賽",
+      "originalType": "比賽/資訊入口",
       "country": "日本",
       "region": "日本",
       "cityOrFocus": "日本口琴比賽/半音階/複音/duo trio",
@@ -589,11 +678,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-149",
+      "id": "watchlist-147",
       "name": "Yoonseok Lee",
       "nameEn": "Yoonseok Lee",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "韓國",
       "region": "韓國",
       "cityOrFocus": "WHF 2025/半音階/國際比賽/教育與演出",
@@ -673,11 +763,108 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-164",
+      "id": "watchlist-100",
+      "name": "曹小歐",
+      "nameEn": "Otis Tsao",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "單口喜劇/藍調口琴/演出",
+      "structuredSummary": "單口喜劇/藍調口琴/演出 / 十孔/藍調口琴 / 演出人員",
+      "summary": "臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。",
+      "keywords": "曹小歐 Otis Tsao 口琴 單口喜劇 藍調口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://portaly.cc/otistsao"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/otis5hundredtsao/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/otistsao/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@otistsao"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-04T01:34:37+00:00",
+      "latestUpdateLocal": "2026-07-04 09:34",
+      "latestUpdateSource": "曹小歐",
+      "latestUpdateUrl": "https://www.instagram.com/stories/otistsao/3933492591829815128/",
+      "avatarUrl": "/assets/source-avatars/6bb91ef54d045d117942.webp",
+      "sourceInitials": "曹小",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_otis5hundredtsao",
+          "name": "曹小歐",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/otis5hundredtsao",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_otistsao",
+          "name": "曹小歐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "otistsao",
+          "profileUrl": "https://www.instagram.com/otistsao/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_otistsao",
+          "name": "曹小歐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "otistsao",
+          "profileUrl": "https://www.instagram.com/otistsao/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/otistsao/story/0"
+        },
+        {
+          "id": "threads_otistsao",
+          "name": "曹小歐",
+          "platform": "threads",
+          "type": "rss",
+          "username": "otistsao",
+          "profileUrl": "https://www.threads.net/@otistsao",
+          "feedUrl": "https://rss.observe.tw/threads/otistsao"
+        },
+        {
+          "id": "yt_ucbdafdgrntui_iqtg9e4bmw",
+          "name": "曹小歐",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-162",
       "name": "口琴愛好者協會（新加坡）",
       "nameEn": "Harmonica Aficionados Society Singapore",
       "category": "國際交流",
       "type": "協會",
+      "originalType": "協會",
       "country": "新加坡",
       "region": "新加坡",
       "cityOrFocus": "口琴協會/工作坊/音樂會/社群推廣",
@@ -741,11 +928,109 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-144",
+      "id": "watchlist-57",
+      "name": "山下伶 Rei Yamashita",
+      "nameEn": "Rei Yamashita",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/演出",
+      "structuredSummary": "半音階/專輯/演出 / 半音階 / 國際演出人員",
+      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯與演出。",
+      "keywords": "山下伶 Rei Yamashita harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://rei-yamashita.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/rei.yamashita.5"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/rei_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@reiyamashita"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/rei_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-04T00:20:18+00:00",
+      "latestUpdateLocal": "2026-07-04 08:20",
+      "latestUpdateSource": "山下伶 Rei Yamashita",
+      "latestUpdateUrl": "https://www.instagram.com/stories/rei_harmonica/3933455136417078954/",
+      "avatarUrl": "/assets/source-avatars/88e248e6f1c02aaa881b.webp",
+      "sourceInitials": "RY",
+      "sourceTags": [
+        "口琴",
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_rei_yamashita_5",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/rei.yamashita.5",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "rei_harmonica",
+          "profileUrl": "https://www.instagram.com/rei_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "rei_harmonica",
+          "profileUrl": "https://www.instagram.com/rei_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/rei_harmonica/story/0"
+        },
+        {
+          "id": "x_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "x",
+          "type": "rss",
+          "username": "rei_harmonica",
+          "profileUrl": "https://x.com/rei_harmonica",
+          "feedUrl": "https://rss.observe.tw/twitter/user/rei_harmonica"
+        },
+        {
+          "id": "yt_reiyamashita",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@reiyamashita",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-142",
       "name": "Howard Levy",
       "nameEn": "Howard Levy",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "美國",
       "region": "美國",
       "cityOrFocus": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興",
@@ -825,11 +1110,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-127",
+      "id": "watchlist-125",
       "name": "Jens Bunge",
       "nameEn": "Jens Bunge",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "德國",
       "region": "德國",
       "cityOrFocus": "德國爵士口琴/半音階演奏/國際演出與錄音",
@@ -895,11 +1181,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-110",
+      "id": "watchlist-108",
       "name": "Rodrigo Eberienos",
       "nameEn": "Rodrigo Eberienos",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "巴西",
       "region": "巴西",
       "cityOrFocus": "巴西職業口琴演奏/教學/錄音合作",
@@ -974,11 +1261,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-111",
+      "id": "watchlist-109",
       "name": "Boris Plotnikov",
       "nameEn": "Boris Plotnikov",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "俄羅斯",
       "region": "俄羅斯",
       "cityOrFocus": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊",
@@ -1060,11 +1348,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-105",
+      "id": "watchlist-103",
       "name": "陳瑤容 Yora Chen",
       "nameEn": "Yora Chen",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "鋼琴合作/編曲創作/口琴合作",
@@ -1146,6 +1435,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Yen-Hua Wang",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "天狼星/胖擊系/半音階與重奏",
@@ -1212,11 +1502,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-134",
+      "id": "watchlist-132",
       "name": "Antonio Serrano",
       "nameEn": "Antonio Serrano",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "西班牙",
       "region": "西班牙",
       "cityOrFocus": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025",
@@ -1296,11 +1587,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-185",
+      "id": "watchlist-183",
       "name": "EMPA 口琴課程",
       "nameEn": "EMPA Escuela de Música Popular de Avellaneda Armónica",
       "category": "國際交流",
-      "type": "學校/正式課程",
+      "type": "樂器與器材",
+      "originalType": "學校/正式課程",
       "country": "阿根廷",
       "region": "阿根廷/阿韋亞內達",
       "cityOrFocus": "公立流行音樂學校/正式口琴課程/爵士/探戈/民俗",
@@ -1354,97 +1646,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-54",
-      "name": "CY Leo 何卓彥",
-      "nameEn": "CY Leo",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/現代跨界",
-      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
-      "summary": "香港的半音階國際演出人員，活動脈絡包含現代跨界。",
-      "keywords": "CY Leo 何卓彥 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.cyleomusic.io/profile"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Cyleoharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/cy_leo/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@cyleoharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-03T14:25:41+00:00",
-      "latestUpdateLocal": "2026-07-03 22:25",
-      "latestUpdateSource": "CY Leo 何卓彥",
-      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3933155901096244403/",
-      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
-      "sourceInitials": "CL",
-      "sourceTags": [
-        "演奏者",
-        "口琴",
-        "半音階",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
-      "monitorSources": [
-        {
-          "id": "fb_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Cyleoharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
-        },
-        {
-          "id": "yt_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@cyleoharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-81",
+      "id": "watchlist-80",
       "name": "臺中國家歌劇院",
       "nameEn": "",
       "category": "場館平台",
-      "type": "場館",
+      "type": "場館與平台",
+      "originalType": "場館",
       "country": "臺灣",
       "region": "臺灣/臺中",
       "cityOrFocus": "大型演出場館",
@@ -1478,12 +1685,9 @@ window.HARMONICA_OBSERVE_DATA = {
       "avatarUrl": "/assets/source-avatars/5954411ab3632c46a220.webp",
       "sourceInitials": "臺中",
       "sourceTags": [
-        "場館平台",
-        "活動資訊",
-        "演出"
+        "口琴",
+        "場館平台"
       ],
-      "sourceSummary": "臺中大型藝文場館，提供音樂會等演出資訊與場地租借。",
-      "sourceTagReason": "明確標註為「場館平台」與「場館」類型，專注於大型藝文活動與演出資訊發布，並包含售票功能。",
       "monitorSources": [
         {
           "id": "fb_npac_ntt",
@@ -1524,11 +1728,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-97",
+      "id": "watchlist-95",
       "name": "韋笙堡口琴 Weissenberg Harmonicas",
       "nameEn": "Weissenberg Harmonicas",
       "category": "教學器材",
-      "type": "品牌/樂器商",
+      "type": "品牌",
+      "originalType": "品牌/樂器商",
       "country": "臺灣",
       "region": "臺灣/臺中",
       "cityOrFocus": "口琴製造/器材/產品資訊",
@@ -1611,6 +1816,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Marcos Coll",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "西班牙",
       "region": "西班牙",
       "cityOrFocus": "十孔/藍調",
@@ -1698,6 +1904,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Taro Senga",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "日本",
       "region": "日本",
       "cityOrFocus": "十孔/藍調",
@@ -1746,11 +1953,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-167",
+      "id": "watchlist-165",
       "name": "馬來西亞口琴節",
       "nameEn": "Malaysia Harmonica Festival",
       "category": "活動資訊",
-      "type": "比賽/資訊入口",
+      "type": "活動與比賽",
+      "originalType": "比賽/資訊入口",
       "country": "馬來西亞",
       "region": "馬來西亞/吉隆坡",
       "cityOrFocus": "馬來西亞口琴節/比賽/學生與樂團",
@@ -1827,11 +2035,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-188",
+      "id": "watchlist-186",
       "name": "中一中口琴社",
       "nameEn": "TCFSH Harmonica",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺中",
       "cityOrFocus": "臺中一中/學校社團/臺中",
@@ -1913,6 +2122,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Minami Risa",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "日本",
       "region": "日本",
       "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
@@ -2013,6 +2223,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
@@ -2078,11 +2289,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-113",
+      "id": "watchlist-111",
       "name": "Lee Hangyeol 이한결",
       "nameEn": "Lee Hangyeol",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "韓國",
       "region": "韓國",
       "cityOrFocus": "韓國口琴演奏/演出與教學/半音階爵士",
@@ -2145,11 +2357,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-135",
+      "id": "watchlist-133",
       "name": "Indiara Sfair",
       "nameEn": "Indiara Sfair",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "巴西",
       "region": "巴西",
       "cityOrFocus": "Curitiba出身/藍調口琴/Milk'n'Blues/作曲",
@@ -2228,11 +2441,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-180",
+      "id": "watchlist-178",
       "name": "Harmonica FEN 口琴節與學院",
       "nameEn": "Harmonica FEN Festival & Academy",
       "category": "活動資訊",
-      "type": "活動/教育入口",
+      "type": "活動與比賽",
+      "originalType": "活動/教育入口",
       "country": "德國",
       "region": "德國/柏林",
       "cityOrFocus": "柏林口琴節/Academy/演奏會/工作坊/Open Stage",
@@ -2268,6 +2482,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "口琴",
         "活動資訊",
+        "比賽",
         "半音階",
         "十孔",
         "國際交流"
@@ -2312,11 +2527,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-80",
+      "id": "watchlist-79",
       "name": "國家兩廳院",
       "nameEn": "",
       "category": "場館平台",
-      "type": "場館",
+      "type": "場館與平台",
+      "originalType": "場館",
       "country": "臺灣",
       "region": "臺灣/臺北",
       "cityOrFocus": "大型演出場館",
@@ -2350,14 +2566,9 @@ window.HARMONICA_OBSERVE_DATA = {
       "avatarUrl": "/assets/source-avatars/f8c44be903611b41890c.webp",
       "sourceInitials": "國家",
       "sourceTags": [
-        "場館",
-        "場館平台",
-        "活動資訊",
-        "音樂會",
-        "演出"
+        "口琴",
+        "場館平台"
       ],
-      "sourceSummary": "國家兩廳院為臺北大型藝文表演場館，提供售票與活動資訊。",
-      "sourceTagReason": "資料明確標示為「場館平台」與「場館」，並提供售票與活動資訊，符合場館與活動相關標籤定義。",
       "monitorSources": [
         {
           "id": "fb_ntch_tw",
@@ -2398,11 +2609,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-129",
+      "id": "watchlist-127",
       "name": "Reyharp and Balawan Project",
       "nameEn": "Reyharp and Balawan Project",
       "category": "團體樂團",
-      "type": "團體/合作企劃",
+      "type": "團體",
+      "originalType": "團體/合作企劃",
       "country": "印尼",
       "region": "印尼",
       "cityOrFocus": "Reyharp Naufal與Balawan合作/跨界融合/口琴與吉他",
@@ -2476,106 +2688,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-102",
-      "name": "曹小歐",
-      "nameEn": "Otis Tsao",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "單口喜劇/藍調口琴/演出",
-      "structuredSummary": "單口喜劇/藍調口琴/演出 / 十孔/藍調口琴 / 演出人員",
-      "summary": "臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。",
-      "keywords": "曹小歐 Otis Tsao 口琴 單口喜劇 藍調口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/otistsao"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/otis5hundredtsao/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/otistsao/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@otistsao"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-03T06:48:28+00:00",
-      "latestUpdateLocal": "2026-07-03 14:48",
-      "latestUpdateSource": "曹小歐",
-      "latestUpdateUrl": "https://www.instagram.com/stories/otistsao/3932925770474994371/",
-      "avatarUrl": "/assets/source-avatars/6bb91ef54d045d117942.webp",
-      "sourceInitials": "曹小",
-      "sourceTags": [
-        "口琴",
-        "演奏者",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_otis5hundredtsao",
-          "name": "曹小歐",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/otis5hundredtsao",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_otistsao",
-          "name": "曹小歐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "otistsao",
-          "profileUrl": "https://www.instagram.com/otistsao/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_otistsao",
-          "name": "曹小歐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "otistsao",
-          "profileUrl": "https://www.instagram.com/otistsao/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/otistsao/story/0"
-        },
-        {
-          "id": "threads_otistsao",
-          "name": "曹小歐",
-          "platform": "threads",
-          "type": "rss",
-          "username": "otistsao",
-          "profileUrl": "https://www.threads.net/@otistsao",
-          "feedUrl": "https://rss.observe.tw/threads/otistsao"
-        },
-        {
-          "id": "yt_ucbdafdgrntui_iqtg9e4bmw",
-          "name": "曹小歐",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-87",
+      "id": "watchlist-86",
       "name": "吹出好心琴 + Ou Frog",
       "nameEn": "Ou Frog",
       "category": "教學器材",
-      "type": "教學/影片來源",
+      "type": "樂器與器材",
+      "originalType": "教學/影片來源",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "口琴教學影片/示範",
@@ -2623,6 +2741,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "狂響/複音/教學演出",
@@ -2684,6 +2803,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Hsin-Ho Wang",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "胖擊系",
@@ -2732,17 +2852,18 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-27+watchlist-93",
+      "id": "watchlist-27",
       "name": "音和樂器",
       "nameEn": "PeaceTones Harmonica",
       "category": "教學器材",
-      "type": "單位 / 樂器行/口琴專賣店",
+      "type": "樂器與器材",
+      "originalType": "樂器行/口琴專賣店",
       "country": "臺灣",
-      "region": "臺灣 / 臺灣/臺北",
-      "cityOrFocus": "口琴器材/活動資訊 / 口琴買賣/維修保養/教學服務",
-      "structuredSummary": "口琴器材/活動資訊 / 口琴 / 器材/教學來源",
-      "summary": "臺灣的口琴器材與教學來源，關注口琴器材與活動資訊。",
-      "keywords": "音和樂器 口琴 音和樂器 PeaceTones 口琴專賣店 口琴 維修 教學",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務",
+      "structuredSummary": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務 / 口琴 / 器材/教學來源",
+      "summary": "臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。",
+      "keywords": "音和樂器 PeaceTones Harmonica 口琴專賣店 口琴 維修 教學",
       "links": [
         {
           "label": "網站",
@@ -2762,9 +2883,7 @@ window.HARMONICA_OBSERVE_DATA = {
         }
       ],
       "source": "watchlist",
-      "aliases": [
-        "音和樂器口琴專賣店"
-      ],
+      "aliases": [],
       "latestUpdateAt": "2026-07-03T03:26:43+00:00",
       "latestUpdateLocal": "2026-07-03 11:26",
       "latestUpdateSource": "音和樂器",
@@ -2821,6 +2940,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "天狼星/Laelaps/教學/演出",
@@ -2900,107 +3020,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-57",
-      "name": "山下伶 Rei Yamashita",
-      "nameEn": "Rei Yamashita",
-      "category": "演奏者",
-      "type": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/演出",
-      "structuredSummary": "半音階/專輯/演出 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯與演出。",
-      "keywords": "山下伶 Rei Yamashita harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://rei-yamashita.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/rei.yamashita.5"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/rei_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@reiyamashita"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/rei_harmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-03T01:06:13+00:00",
-      "latestUpdateLocal": "2026-07-03 09:06",
-      "latestUpdateSource": "山下伶 Rei Yamashita",
-      "latestUpdateUrl": "https://www.instagram.com/stories/rei_harmonica/3932753365210190965/",
-      "avatarUrl": "/assets/source-avatars/88e248e6f1c02aaa881b.webp",
-      "sourceInitials": "RY",
-      "sourceTags": [
-        "口琴",
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_rei_yamashita_5",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/rei.yamashita.5",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "rei_harmonica",
-          "profileUrl": "https://www.instagram.com/rei_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "rei_harmonica",
-          "profileUrl": "https://www.instagram.com/rei_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/rei_harmonica/story/0"
-        },
-        {
-          "id": "x_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "x",
-          "type": "rss",
-          "username": "rei_harmonica",
-          "profileUrl": "https://x.com/rei_harmonica",
-          "feedUrl": "https://rss.observe.tw/twitter/user/rei_harmonica"
-        },
-        {
-          "id": "yt_reiyamashita",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@reiyamashita",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-49",
       "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
       "nameEn": "Aiden N Evelyn",
       "category": "演奏者",
-      "type": "團體/個人",
+      "type": "個人",
+      "originalType": "團體/個人",
       "country": "馬來西亞",
       "region": "馬來西亞",
       "cityOrFocus": "二重奏/影片/THMF",
@@ -3117,6 +3142,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Aiden Soon",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "馬來西亞",
       "region": "馬來西亞",
       "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
@@ -3180,6 +3206,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Henry Chen",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "演出/評審",
@@ -3224,11 +3251,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-123",
+      "id": "watchlist-121",
       "name": "Fresco Harmonica Ensemble",
       "nameEn": "Fresco Harmonica Ensemble",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "馬來西亞",
       "region": "馬來西亞",
       "cityOrFocus": "馬來西亞世界冠軍口琴團/2006成立/國際巡演/教育推廣",
@@ -3290,11 +3318,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-109",
+      "id": "watchlist-107",
       "name": "Konstantin Reinfeld",
       "nameEn": "Konstantin Reinfeld",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "德國",
       "region": "德國",
       "cityOrFocus": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作",
@@ -3379,6 +3408,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Alysa Liao",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "111 Trio／Quintet",
@@ -3429,11 +3459,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-141",
+      "id": "watchlist-139",
       "name": "Lee Oskar",
       "nameEn": "Lee Oskar",
       "category": "演奏者",
-      "type": "個人/品牌",
+      "type": "品牌",
+      "originalType": "個人/品牌",
       "country": "丹麥",
       "region": "美國",
       "cityOrFocus": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌",
@@ -3522,6 +3553,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
@@ -3596,6 +3628,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Punch Harmonica Ensemble",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "重奏/公演/年輕團體",
@@ -3673,17 +3706,18 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-2+watchlist-74",
+      "id": "watchlist-2",
       "name": "臺灣口琴音樂節 THMF",
       "nameEn": "Taiwan Harmonica Music Festival",
       "category": "活動資訊",
-      "type": "活動/資訊入口 / 活動子來源",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "音樂節/比賽/Gala/講座 / 每年新興團體/青年演出",
-      "structuredSummary": "音樂節/比賽/Gala/講座 / 半音階/複音/十孔/重奏 / 核心活動",
-      "summary": "臺灣的核心活動，涵蓋音樂節、比賽、Gala與講座。",
-      "keywords": "THMF 臺灣口琴音樂節 Taiwan Harmonica Music Festival THMF 午間音樂會 新團體",
+      "cityOrFocus": "音樂節/比賽/Gala/講座/午間音樂會/新興團體",
+      "structuredSummary": "音樂節/比賽/Gala/講座/午間音樂會/新興團體 / 半音階/複音/十孔/重奏 / 核心活動/活動資訊來源",
+      "summary": "臺灣的核心活動與活動資訊來源，涵蓋音樂節、比賽、Gala、講座與午間音樂會。",
+      "keywords": "THMF 臺灣口琴音樂節 Taiwan Harmonica Music Festival 午間音樂會 新團體",
       "links": [
         {
           "label": "網站",
@@ -3703,9 +3737,7 @@ window.HARMONICA_OBSERVE_DATA = {
         }
       ],
       "source": "watchlist",
-      "aliases": [
-        "THMF 午間音樂會新團體"
-      ],
+      "aliases": [],
       "latestUpdateAt": "2026-07-02T08:04:47+00:00",
       "latestUpdateLocal": "2026-07-02 16:04",
       "latestUpdateSource": "臺灣口琴音樂節 THMF",
@@ -3767,6 +3799,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Jong-seong Park",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "韓國",
       "region": "韓國",
       "cityOrFocus": "半音階/國際級演出",
@@ -3846,11 +3879,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-158",
+      "id": "watchlist-156",
       "name": "Sigmund Groven",
       "nameEn": "Sigmund Groven",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "挪威",
       "region": "挪威",
       "cityOrFocus": "WHF 2025/Tommy Reilly Memorial Concert/古典與跨界半音階",
@@ -3921,6 +3955,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "天狼星/THMF/和弦口琴/推廣",
@@ -3989,11 +4024,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-89",
+      "id": "watchlist-88",
       "name": "藍波口琴教室",
       "nameEn": "Bluebo Harmonica",
       "category": "教學器材",
-      "type": "教學工作室",
+      "type": "樂器與器材",
+      "originalType": "教學工作室",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "口琴教學/課程/學習資源",
@@ -4023,13 +4059,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "avatarUrl": "/assets/source-avatars/002a78116b9b09a6967c.webp",
       "sourceInitials": "藍波",
       "sourceTags": [
+        "口琴",
+        "教學器材",
         "教學",
-        "課程",
-        "工作室",
-        "口琴"
+        "課程"
       ],
-      "sourceSummary": "專注於口琴教學的線上教室與學習資源平台。",
-      "sourceTagReason": "名稱與分類明確指出「教學」與「工作室」，並提供課程資源，屬於教學來源。",
       "monitorSources": [
         {
           "id": "fb_happyharmonica",
@@ -4052,11 +4086,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-191",
+      "id": "watchlist-189",
       "name": "逢甲口琴社",
       "nameEn": "FCU Harmonica",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺中",
       "cityOrFocus": "逢甲大學/學校社團/臺中",
@@ -4130,11 +4165,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-186",
+      "id": "watchlist-184",
       "name": "蔡明勳",
       "nameEn": "Ming-Hsun Tsai",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "低音口琴/重奏/演出/音控",
@@ -4208,11 +4244,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-155",
+      "id": "watchlist-153",
       "name": "Santiago Alvarez",
       "nameEn": "Santiago Alvarez",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "阿根廷",
       "region": "阿根廷",
       "cityOrFocus": "WHF 2025/半音階口琴/世界冠軍/演出與教學",
@@ -4292,11 +4329,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-148",
+      "id": "watchlist-146",
       "name": "World Harmonica Festival",
       "nameEn": "World Harmonica Festival",
       "category": "活動資訊",
-      "type": "國際活動/資訊入口",
+      "type": "活動與比賽",
+      "originalType": "國際活動/資訊入口",
       "country": "德國",
       "region": "德國/特羅辛根",
       "cityOrFocus": "四年一度世界口琴節/國際比賽/Gala/工作坊",
@@ -4362,11 +4400,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-103",
+      "id": "watchlist-101",
       "name": "何家健 HarmoniKahkean",
       "nameEn": "Ho Kah Kean / HarmoniKahkean",
       "category": "演奏者",
-      "type": "個人/地方推廣",
+      "type": "個人",
+      "originalType": "個人/地方推廣",
       "country": "馬來西亞",
       "region": "臺灣/花蓮；馬來西亞",
       "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
@@ -4445,11 +4484,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-107",
+      "id": "watchlist-105",
       "name": "Stay Drunk 口琴樂團",
       "nameEn": "Stay Drunk Harmonica Ensemble",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "大學生新生代團體",
@@ -4510,11 +4550,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-117",
+      "id": "watchlist-115",
       "name": "Filip Jers",
       "nameEn": "Filip Jers",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "瑞典",
       "region": "瑞典",
       "cityOrFocus": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出",
@@ -4594,11 +4635,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-197",
+      "id": "watchlist-195",
       "name": "彰女微光口琴社",
       "nameEn": "CHGSH Harmonica",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "臺灣",
       "region": "臺灣/彰化",
       "cityOrFocus": "彰化女中/學校社團/彰化",
@@ -4650,6 +4692,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Toshi Fujii",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "日本",
       "region": "日本/臺灣爵士圈",
       "cityOrFocus": "爵士/跨界",
@@ -4724,11 +4767,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-77",
+      "id": "watchlist-76",
       "name": "新竹縣文化局",
       "nameEn": "",
       "category": "場館平台",
-      "type": "場館/文化局",
+      "type": "場館與平台",
+      "originalType": "場館/文化局",
       "country": "臺灣",
       "region": "臺灣/新竹",
       "cityOrFocus": "場館/文化活動",
@@ -4762,12 +4806,9 @@ window.HARMONICA_OBSERVE_DATA = {
       "avatarUrl": "/assets/source-avatars/883a130ea9efe0298f20.webp",
       "sourceInitials": "新竹",
       "sourceTags": [
-        "場館平台",
-        "活動資訊",
-        "文化局"
+        "口琴",
+        "場館平台"
       ],
-      "sourceSummary": "新竹縣文化局為官方藝文場館平台，提供場地租借與藝文活動資訊。",
-      "sourceTagReason": "名稱、類別與摘要均明確指出為官方場館平台，提供場地與活動資訊，屬文化局單位。",
       "monitorSources": [
         {
           "id": "fb_hchcc_gov",
@@ -4808,11 +4849,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-176",
+      "id": "watchlist-174",
       "name": "Yellow Pine Harmonica Festival",
       "nameEn": "Yellow Pine Harmonica Festival",
       "category": "活動資訊",
-      "type": "活動/資訊入口",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
       "country": "美國",
       "region": "美國/愛達荷",
       "cityOrFocus": "戶外口琴音樂節/課程/示範/社群演出",
@@ -4846,6 +4888,7 @@ window.HARMONICA_OBSERVE_DATA = {
         "活動資訊",
         "課程",
         "音樂節",
+        "比賽",
         "國際交流"
       ],
       "monitorSources": [
@@ -4884,6 +4927,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Sharene Tang",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "馬來西亞",
       "region": "馬來西亞",
       "cityOrFocus": "世界口琴冠軍/演出/教學/國際郵輪演出",
@@ -4959,11 +5003,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-160",
+      "id": "watchlist-158",
       "name": "Deak Harp",
       "nameEn": "Deak Harp",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "美國",
       "region": "美國",
       "cityOrFocus": "WHF 2025/藍調十孔/Chicago blues/演出與教學",
@@ -5043,11 +5088,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-156",
+      "id": "watchlist-154",
       "name": "Orchestra Hohnerklang",
       "nameEn": "Orchester Hohnerklang",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "德國",
       "region": "德國/特羅辛根",
       "cityOrFocus": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏",
@@ -5125,11 +5171,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-168",
+      "id": "watchlist-166",
       "name": "海明威口琴重奏團",
       "nameEn": "The HummingWay Harmonica Ensemble",
       "category": "活動資訊",
       "type": "團體",
+      "originalType": "團體",
       "country": "馬來西亞",
       "region": "馬來西亞",
       "cityOrFocus": "馬來西亞口琴重奏/跨國音樂節/社群演出",
@@ -5211,6 +5258,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Yu-Feng Lin",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "胖擊系",
@@ -5277,11 +5325,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-120",
+      "id": "watchlist-118",
       "name": "Federico Linari",
       "nameEn": "Federico Linari",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "阿根廷",
       "region": "阿根廷",
       "cityOrFocus": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源",
@@ -5361,11 +5410,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-184",
+      "id": "watchlist-182",
       "name": "布宜諾斯艾利斯口琴學校",
       "nameEn": "Escuela de Armónica de Buenos Aires",
       "category": "教學器材",
-      "type": "學校/教學平台",
+      "type": "樂器與器材",
+      "originalType": "學校/教學平台",
       "country": "阿根廷",
       "region": "阿根廷/布宜諾斯艾利斯",
       "cityOrFocus": "口琴學校/探戈/民俗/藍調/工作坊/學生演出",
@@ -5451,6 +5501,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Fourtissimo Harmonica Ensemble",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "馬來西亞",
       "region": "馬來西亞",
       "cityOrFocus": "青少年口琴重奏/演出/交流",
@@ -5499,11 +5550,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-151",
+      "id": "watchlist-149",
       "name": "Liam Ward & Malcolm Thorne",
       "nameEn": "Liam Ward & Malcolm Thorne",
       "category": "團體樂團",
-      "type": "團體/合作企劃",
+      "type": "團體",
+      "originalType": "團體/合作企劃",
       "country": "英國",
       "region": "英國",
       "cityOrFocus": "WHF 2025/藍調口琴/吉他合作/教學",
@@ -5583,11 +5635,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-142",
+      "id": "watchlist-140",
       "name": "Gregoire Maret",
       "nameEn": "Gregoire Maret",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "瑞士",
       "region": "美國",
       "cityOrFocus": "紐約發展/Grammy得主/現代爵士半音階/作曲",
@@ -5666,11 +5719,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-153",
+      "id": "watchlist-151",
       "name": "Rachelle Plas & Philippe Hervouet",
       "nameEn": "Rachelle Plas & Philippe Hervouet",
       "category": "團體樂團",
-      "type": "團體/合作企劃",
+      "type": "團體",
+      "originalType": "團體/合作企劃",
       "country": "法國",
       "region": "法國",
       "cityOrFocus": "WHF 2025/藍調口琴/吉他與歌唱/Golden Melody ambassador",
@@ -5741,6 +5795,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Sirius Harmonica Ensemble",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "重奏/公演/THMF/國際交流",
@@ -5815,11 +5870,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-173",
+      "id": "watchlist-171",
       "name": "口琴保存與推廣協會 SPAH",
       "nameEn": "Society for the Preservation and Advancement of the Harmonica",
       "category": "活動資訊",
-      "type": "協會/活動",
+      "type": "協會",
+      "originalType": "協會/活動",
       "country": "美國",
       "region": "美國/密蘇里",
       "cityOrFocus": "SPAH convention/教育/青年獎學金/社群俱樂部",
@@ -5902,6 +5958,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Jang Li",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "半音階/十孔/作曲/配樂/跨界",
@@ -5993,11 +6050,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-200",
+      "id": "watchlist-198",
       "name": "陽明交大竹韻口琴社",
       "nameEn": "Bamboo Melody Harmonica Club",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "臺灣",
       "region": "臺灣/新竹",
       "cityOrFocus": "國立陽明交通大學/學校社團/新竹",
@@ -6076,6 +6134,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Judy's Harmonica Ensemble",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "重奏/公演/教育推廣",
@@ -6158,6 +6217,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "狂響口琴樂團",
@@ -6196,11 +6256,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-101",
+      "id": "watchlist-99",
       "name": "范曉怡",
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "狂響口琴樂團/教學/地方推廣",
@@ -6275,11 +6336,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-145",
+      "id": "watchlist-143",
       "name": "Brendan Power",
       "nameEn": "Brendan Power",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "紐西蘭",
       "region": "英國",
       "cityOrFocus": "口琴演奏與教學/客製口琴設計/半音階與十孔技術",
@@ -6338,11 +6400,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-92",
+      "id": "watchlist-91",
       "name": "臺北黃石口琴樂團",
       "nameEn": "Taipei Yellowstone Harmonica Ensemble",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣/臺北",
       "cityOrFocus": "口琴樂團/年度公演",
@@ -6380,11 +6443,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-96",
+      "id": "watchlist-94",
       "name": "Duo Volce Music Studio 誼聲音樂室",
       "nameEn": "Duo Volce Music Studio",
       "category": "團體樂團",
-      "type": "工作室/團體",
+      "type": "團體",
+      "originalType": "工作室/團體",
       "country": "香港",
       "region": "香港/國際",
       "cityOrFocus": "半音階口琴/小提琴二重奏/教學",
@@ -6425,7 +6489,6 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴",
         "團體樂團",
         "教學",
-        "工作室",
         "半音階",
         "重奏",
         "國際交流"
@@ -6493,6 +6556,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Harry Choi",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "香港",
       "region": "香港",
       "cityOrFocus": "評審/演出",
@@ -6573,11 +6637,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-192",
+      "id": "watchlist-190",
       "name": "師大口琴研究社",
       "nameEn": "NTNU Harmonica Club",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺北",
       "cityOrFocus": "國立臺灣師範大學/學校社團/臺北",
@@ -6647,6 +6712,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "NTU Blue Sound Harmonica Club",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺北",
       "cityOrFocus": "大學口琴社/成果發表/交流",
@@ -6728,7 +6794,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "name": "萬興國小口琴隊",
       "nameEn": "",
       "category": "學校社團",
-      "type": "學校/青年",
+      "type": "學校社團",
+      "originalType": "學校/青年",
       "country": "臺灣",
       "region": "臺灣/臺北",
       "cityOrFocus": "國小口琴隊",
@@ -6770,11 +6837,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-204",
+      "id": "watchlist-202",
       "name": "早稻田大學ハーモニカ・ソサィアティ",
       "nameEn": "Waseda University Harmonica Society",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "日本",
       "region": "日本/東京",
       "cityOrFocus": "早稻田大學/學校社團/東京",
@@ -6852,11 +6920,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-161",
+      "id": "watchlist-159",
       "name": "香港中華基督教青年會口琴樂團",
       "nameEn": "Hong Kong Chinese YMCA Harmonica Orchestra",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "香港",
       "region": "香港",
       "cityOrFocus": "香港口琴樂團/教育推廣/年度音樂會",
@@ -6917,6 +6986,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "111 Quintet",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "室內樂/口琴與鋼琴弦樂",
@@ -6993,11 +7063,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-132",
+      "id": "watchlist-130",
       "name": "香港口琴協會 Hong Kong Harmonica Association",
       "nameEn": "Hong Kong Harmonica Association",
       "category": "團體樂團",
-      "type": "協會/團體",
+      "type": "團體",
+      "originalType": "協會/團體",
       "country": "香港",
       "region": "香港",
       "cityOrFocus": "香港口琴協會/官方頻道/教育推廣/國際賽事與交流",
@@ -7075,11 +7146,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-100",
+      "id": "watchlist-98",
       "name": "蔡明憲 DMing Studio",
       "nameEn": "DMing Studio",
       "category": "教學器材",
-      "type": "教學/維修/影片來源",
+      "type": "樂器與器材",
+      "originalType": "教學/維修/影片來源",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "口琴教學/維修/重奏/硬體",
@@ -7152,6 +7224,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "演出/評審",
@@ -7203,6 +7276,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Leafin Harmonica Ensemble",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "馬來西亞",
       "region": "馬來西亞",
       "cityOrFocus": "口琴重奏/公演/合作演出",
@@ -7264,11 +7338,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-205",
+      "id": "watchlist-203",
       "name": "明治大學ハーモニカソサエティー",
       "nameEn": "Meiji University Harmonica Society",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "日本",
       "region": "日本/東京",
       "cityOrFocus": "明治大學/學校社團/東京",
@@ -7364,6 +7439,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "南部口琴合奏",
@@ -7441,11 +7517,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-194",
+      "id": "watchlist-192",
       "name": "建中口琴社",
       "nameEn": "CKHC 64th",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺北",
       "cityOrFocus": "建國中學/學校社團/臺北",
@@ -7509,11 +7586,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-202",
+      "id": "watchlist-200",
       "name": "高雄中學口琴社",
       "nameEn": "KSHS Harmonica",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "臺灣",
       "region": "臺灣/高雄",
       "cityOrFocus": "高雄中學/學校社團/高雄",
@@ -7573,11 +7651,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-189",
+      "id": "watchlist-187",
       "name": "中山醫藍韻口琴社",
       "nameEn": "CSMU Blue Melody",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺中",
       "cityOrFocus": "中山醫學大學/學校社團/臺中",
@@ -7655,11 +7734,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-193",
+      "id": "watchlist-191",
       "name": "師大附中舒馨口琴社",
       "nameEn": "HSNU Cozy Harmonica",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺北",
       "cityOrFocus": "師大附中/學校社團/臺北",
@@ -7741,6 +7821,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "青年重奏/台大藍聲系",
@@ -7821,11 +7902,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-88",
+      "id": "watchlist-87",
       "name": "桃園玩口琴",
       "nameEn": "",
       "category": "教學器材",
-      "type": "地方教學/社大課程",
+      "type": "樂器與器材",
+      "originalType": "地方教學/社大課程",
       "country": "臺灣",
       "region": "臺灣/桃園",
       "cityOrFocus": "口琴課程/地方社群活動",
@@ -7865,11 +7947,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-199",
+      "id": "watchlist-197",
       "name": "清華大學口琴社",
       "nameEn": "NTHU Harmonica Club",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "臺灣",
       "region": "臺灣/新竹",
       "cityOrFocus": "國立清華大學/學校社團/新竹",
@@ -7952,6 +8035,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "Judy’s/演出/評審",
@@ -8019,11 +8103,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-198",
+      "id": "watchlist-196",
       "name": "彰師大白沙口琴社",
       "nameEn": "NCUE Harmonica",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "臺灣",
       "region": "臺灣/彰化",
       "cityOrFocus": "國立彰化師範大學/學校社團/彰化",
@@ -8101,11 +8186,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-90",
+      "id": "watchlist-89",
       "name": "巴巴口琴坊",
       "nameEn": "Baba Harmonica Studio",
       "category": "教學器材",
-      "type": "教學工作室",
+      "type": "樂器與器材",
+      "originalType": "教學工作室",
       "country": "臺灣",
       "region": "臺灣/臺南",
       "cityOrFocus": "口琴教學/演出/社團經營",
@@ -8136,11 +8222,9 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "巴巴",
       "sourceTags": [
         "口琴",
-        "教學",
-        "工作室"
+        "教學器材",
+        "教學"
       ],
-      "sourceSummary": "臺南的口琴教學工作室，提供教學、演出與社團經營服務。",
-      "sourceTagReason": "名稱含「口琴坊」，類型為「教學工作室」，核心業務為口琴教學與演出，符合教學與工作室定義。",
       "monitorSources": [
         {
           "id": "fb_babaharmonica",
@@ -8181,11 +8265,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-99",
+      "id": "watchlist-97",
       "name": "進擊的口琴樂團",
       "nameEn": "",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "重奏/青年團體/演出",
@@ -8237,7 +8322,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "name": "Laelaps 口琴",
       "nameEn": "Laelaps Harmonica",
       "category": "教學器材",
-      "type": "單位",
+      "type": "樂器與器材",
+      "originalType": "單位",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "教學/器材/演出資訊",
@@ -8315,11 +8401,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-196",
+      "id": "watchlist-194",
       "name": "屏科大口琴社",
       "nameEn": "NPUST HMC",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "臺灣",
       "region": "臺灣/屏東",
       "cityOrFocus": "國立屏東科技大學/學校社團/屏東",
@@ -8376,6 +8463,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Rolabo Lin",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "半音階/複音/原創/比賽曲",
@@ -8459,7 +8547,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "name": "The Duet 獨特音樂",
       "nameEn": "The Duet",
       "category": "其他來源",
-      "type": "單位",
+      "type": "活動與比賽",
+      "originalType": "單位",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "協辦/製作/跨界音樂",
@@ -8493,12 +8582,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "avatarUrl": "/assets/source-avatars/3013a62e1a48f37d00ac.webp",
       "sourceInitials": "TD",
       "sourceTags": [
-        "團體樂團",
-        "演出",
-        "活動資訊"
+        "口琴",
+        "其他來源",
+        "比賽"
       ],
-      "sourceSummary": "以室內樂與跨界音樂為主的音樂製作與協辦單位。",
-      "sourceTagReason": "名稱與描述顯示為音樂製作與協辦單位，非個人、學校或純教學平台，故標團體樂團，並依其協辦/製作活動標示演出與活動資訊。",
       "monitorSources": [
         {
           "id": "fb_theduet_music",
@@ -8539,11 +8626,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-190",
+      "id": "watchlist-188",
       "name": "臺中科大口琴社",
       "nameEn": "NUTC Harmonica",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺中",
       "cityOrFocus": "國立臺中科技大學/學校社團/臺中",
@@ -8626,6 +8714,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "跨界/流行/李讓相關",
@@ -8706,11 +8795,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-203",
+      "id": "watchlist-201",
       "name": "臺南一中口琴社",
       "nameEn": "TNFSH Harmonica",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺南",
       "cityOrFocus": "臺南一中/學校社團/臺南",
@@ -8779,6 +8869,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "臺中系年輕演奏者",
@@ -8829,6 +8920,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Up Side Down Harmonica Ensemble",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "大學生新生代團體",
@@ -8889,11 +8981,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-195",
+      "id": "watchlist-193",
       "name": "成大口琴社",
       "nameEn": "NCKU Harmonica Club",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺南",
       "cityOrFocus": "國立成功大學/學校社團/臺南",
@@ -8976,6 +9069,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Gordon Lee",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "香港",
       "region": "香港",
       "cityOrFocus": "半音階/THMC嘉賓/評審",
@@ -9061,6 +9155,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "演出/評審",
@@ -9110,6 +9205,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "複音/教學/演出",
@@ -9188,11 +9284,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-187",
+      "id": "watchlist-185",
       "name": "銘傳大學銘心口琴社",
       "nameEn": "MCU Ming Xin Harmonica Club",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "銘傳大學口琴社/成果發表/校園演出",
@@ -9270,11 +9367,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-201",
+      "id": "watchlist-199",
       "name": "高科大口琴社",
       "nameEn": "NKUST Harmonica",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "臺灣",
       "region": "臺灣/高雄",
       "cityOrFocus": "國立高雄科技大學/學校社團/高雄",
@@ -9344,6 +9442,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "合奏/交響口琴",
@@ -9403,6 +9502,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Brain Horizon",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "早期 THMC 系列演出",
@@ -9454,11 +9554,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-86",
+      "id": "watchlist-85",
       "name": "黃石樂器",
       "nameEn": "Yellowstone Music Shop",
       "category": "教學器材",
-      "type": "樂器行/教學工作室",
+      "type": "樂器與器材",
+      "originalType": "樂器行/教學工作室",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "口琴專賣/教學/講座/課程",
@@ -9493,13 +9594,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "黃石",
       "sourceTags": [
         "口琴",
-        "器材",
+        "教學器材",
         "教學",
-        "工作室",
-        "品牌"
+        "課程"
       ],
-      "sourceSummary": "口琴專賣店，提供口琴銷售、教學、講座與課程服務。",
-      "sourceTagReason": "資料明確指出為樂器行/教學工作室，業務包含口琴專賣、教學、講座與課程，符合器材、教學、工作室與品牌標籤。",
       "monitorSources": [
         {
           "id": "fb_yellowstone_music_shop_tw",
@@ -9545,6 +9643,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Fata Morgana",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "荷蘭",
       "region": "荷蘭",
       "cityOrFocus": "口琴四重奏/與天狼星合作",
@@ -9605,7 +9704,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "name": "簧格音樂有限公司",
       "nameEn": "",
       "category": "其他來源",
-      "type": "單位",
+      "type": "品牌",
+      "originalType": "單位",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "協辦/製作/青年音樂家",
@@ -9627,21 +9727,17 @@ window.HARMONICA_OBSERVE_DATA = {
       "avatarUrl": "/assets/source-avatars/d001531041d8e6b77c77.webp",
       "sourceInitials": "簧格",
       "sourceTags": [
-        "團體樂團",
         "口琴",
-        "活動資訊",
-        "音樂會",
-        "品牌"
-      ],
-      "sourceSummary": "臺灣口琴室內樂與活動製作公司，聚焦青年音樂家推廣。",
-      "sourceTagReason": "名稱為有限公司，屬營利單位；關鍵字含口琴，類別為單位；摘要提及協辦/製作，故標團體樂團、口琴、活動資訊、音樂會、品牌。"
+        "其他來源"
+      ]
     },
     {
-      "id": "watchlist-178",
+      "id": "watchlist-176",
       "name": "Hohner 音樂院（特羅辛根）",
       "nameEn": "Hohner-Konservatorium Trossingen",
       "category": "國際交流",
-      "type": "教育機構",
+      "type": "場館與平台",
+      "originalType": "教育機構",
       "country": "德國",
       "region": "德國/特羅辛根",
       "cityOrFocus": "Hohner/Trossingen/Harmonica Masters/青年與專業教育",
@@ -9722,7 +9818,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "name": "TOMBO ハーモニカ・ソサイエティ",
       "nameEn": "TOMBO Harmonica Society Directory",
       "category": "國際交流",
-      "type": "資訊入口",
+      "type": "協會",
+      "originalType": "資訊入口",
       "country": "日本",
       "region": "日本",
       "cityOrFocus": "大學ハーモニカ・ソサイエティ名單/學生社團版圖",
@@ -9749,11 +9846,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-170",
+      "id": "watchlist-168",
       "name": "中國大眾音樂協會口琴專業委員會",
       "nameEn": "China Popular Music Association Harmonica Professional Committee",
       "category": "國際交流",
-      "type": "協會/資訊入口",
+      "type": "協會",
+      "originalType": "協會/資訊入口",
       "country": "中國",
       "region": "中國",
       "cityOrFocus": "口琴專業委員會/考級/論壇/賽事/教師會員",
@@ -9784,7 +9882,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "name": "全日本ハーモニカ連盟 AJHF",
       "nameEn": "All Japan Harmonica Federation",
       "category": "國際交流",
-      "type": "協會/資訊入口",
+      "type": "協會",
+      "originalType": "協會/資訊入口",
       "country": "日本",
       "region": "日本",
       "cityOrFocus": "日本口琴連盟/活動/社群資訊",
@@ -9811,11 +9910,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-177",
+      "id": "watchlist-175",
       "name": "德國 Harmonica/Harmonika 協會 DHV",
       "nameEn": "Deutscher Harmonika-Verband e.V.",
       "category": "國際交流",
       "type": "協會",
+      "originalType": "協會",
       "country": "德國",
       "region": "德國/特羅辛根",
       "cityOrFocus": "德國口琴與手風琴協會/Mundharmonika/研習/合奏教育",
@@ -9847,7 +9947,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "name": "日本ハーモニカ芸術協会 JHAA",
       "nameEn": "Japan Harmonica Art Association",
       "category": "國際交流",
-      "type": "協會/資訊入口",
+      "type": "協會",
+      "originalType": "協會/資訊入口",
       "country": "日本",
       "region": "日本",
       "cityOrFocus": "複音口琴/日本式奏法/研修/比賽",
@@ -9876,11 +9977,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-174",
+      "id": "watchlist-172",
       "name": "英國口琴協會",
       "nameEn": "HarmonicaUK",
       "category": "國際交流",
       "type": "協會",
+      "originalType": "協會",
       "country": "英國",
       "region": "英國",
       "cityOrFocus": "英國口琴協會/festival/open mic/線上社群/青年會員",
@@ -9961,11 +10063,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-171",
+      "id": "watchlist-169",
       "name": "韓國口琴教育協會",
       "nameEn": "Korea Harmonica Education Association",
       "category": "國際交流",
       "type": "協會",
+      "originalType": "協會",
       "country": "韓國",
       "region": "韓國/首爾",
       "cityOrFocus": "口琴教育協會/SIHF/KHO/師資課程",
@@ -10011,11 +10114,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-126",
+      "id": "watchlist-124",
       "name": "Ausgelassen x Wesley Wong",
       "nameEn": "Ausgelassen x Wesley Wong",
       "category": "團體樂團",
-      "type": "團體/合作企劃",
+      "type": "團體",
+      "originalType": "團體/合作企劃",
       "country": "香港",
       "region": "香港",
       "cityOrFocus": "香港柏赫口琴四重奏/古典與現代融合/本地與國際推廣",
@@ -10077,6 +10181,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "重奏/青年團體",
@@ -10152,11 +10257,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-128",
+      "id": "watchlist-126",
       "name": "Korea Harmonica Orchestra",
       "nameEn": "Korea Harmonica Orchestra",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "韓國",
       "region": "韓國",
       "cityOrFocus": "韓國口琴合奏/大型合奏/教育交流",
@@ -10184,11 +10290,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-124",
+      "id": "watchlist-122",
       "name": "Perfect Fourth",
       "nameEn": "Perfect Fourth",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "香港",
       "region": "香港",
       "cityOrFocus": "香港現代風格口琴四重奏/傳統與現代和聲/舞台演出",
@@ -10267,11 +10374,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-157",
+      "id": "watchlist-155",
       "name": "Ptaszek & Buzma",
       "nameEn": "Ptaszek & Buzma",
       "category": "團體樂團",
-      "type": "團體/合作企劃",
+      "type": "團體",
+      "originalType": "團體/合作企劃",
       "country": "捷克",
       "region": "捷克",
       "cityOrFocus": "WHF 2025開幕/Blues and Gospel/口琴與吉他",
@@ -10320,6 +10428,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Spotlight Harmonica Ensemble",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "青年/重奏/THMF相關",
@@ -10362,11 +10471,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-154",
+      "id": "watchlist-152",
       "name": "The LiveWires",
       "nameEn": "The LiveWires",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "國際",
       "region": "德國/英國",
       "cityOrFocus": "WHF 2025/藍調樂團/Steve Baker合作",
@@ -10395,11 +10505,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-122",
+      "id": "watchlist-120",
       "name": "The Magic Harmonica Ensemble",
       "nameEn": "The Magic Harmonica Ensemble",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "中國",
       "region": "中國",
       "cityOrFocus": "中國魔幻之聲口琴樂團/2012成立/亞太與華夏口琴節得獎/舞台與教學",
@@ -10444,11 +10555,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-139",
+      "id": "watchlist-137",
       "name": "Veloz Harmonica Quartet",
       "nameEn": "Veloz Harmonica Quartet",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "香港",
       "region": "香港",
       "cityOrFocus": "2010成立/King's College培育/本地國際舞台/觀眾互動",
@@ -10527,7 +10639,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "name": "口琴愛樂集",
       "nameEn": "Philharmonica",
       "category": "團體樂團",
-      "type": "團體/社群",
+      "type": "團體",
+      "originalType": "團體/社群",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "社群型口琴資料",
@@ -10565,11 +10678,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-183",
+      "id": "watchlist-181",
       "name": "庫里奇巴口琴樂團",
       "nameEn": "Orquestra Harmônicas de Curitiba",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "巴西",
       "region": "巴西/庫里奇巴",
       "cityOrFocus": "巴西口琴管弦樂團/長壽合奏團/地方文化",
@@ -10634,11 +10748,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-165",
+      "id": "watchlist-163",
       "name": "海南會館口琴樂團",
       "nameEn": "HNHK Harmonica Orchestra",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "新加坡",
       "region": "新加坡",
       "cityOrFocus": "會館口琴樂團/社區合奏/演出",
@@ -10717,6 +10832,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Rhapsody Harmonica Ensemble",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "合奏/地方演出/老牌合奏",
@@ -10759,7 +10875,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "name": "臺中市中華口琴會",
       "nameEn": "",
       "category": "團體樂團",
-      "type": "協會/團體",
+      "type": "團體",
+      "originalType": "協會/團體",
       "country": "臺灣",
       "region": "臺灣/臺中",
       "cityOrFocus": "臺中地方口琴會/樂團/學生系統/比賽演出",
@@ -10815,11 +10932,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-172",
+      "id": "watchlist-170",
       "name": "首爾口琴管弦樂團",
       "nameEn": "Seoul Harmonica Orchestra",
       "category": "團體樂團",
       "type": "團體",
+      "originalType": "團體",
       "country": "韓國",
       "region": "韓國/首爾",
       "cityOrFocus": "首爾口琴管弦樂團/半音階/和弦/低音/重奏",
@@ -10860,11 +10978,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-98",
+      "id": "watchlist-96",
       "name": "高雄市兒童口琴樂團 / 高雄市口琴協會",
       "nameEn": "",
       "category": "團體樂團",
-      "type": "團體/協會",
+      "type": "團體",
+      "originalType": "團體/協會",
       "country": "臺灣",
       "region": "臺灣/高雄",
       "cityOrFocus": "兒童口琴樂團/地方推廣/口琴教育",
@@ -10906,11 +11025,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-78",
+      "id": "watchlist-77",
       "name": "國立陽明交通大學藝文中心",
       "nameEn": "",
       "category": "場館平台",
-      "type": "校內場館/藝文中心",
+      "type": "場館與平台",
+      "originalType": "校內場館/藝文中心",
       "country": "臺灣",
       "region": "臺灣/新竹",
       "cityOrFocus": "校內藝文/合作演出",
@@ -10987,11 +11107,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-76",
+      "id": "watchlist-75",
       "name": "新竹市文化局",
       "nameEn": "",
       "category": "場館平台",
-      "type": "場館/文化局",
+      "type": "場館與平台",
+      "originalType": "場館/文化局",
       "country": "臺灣",
       "region": "臺灣/新竹",
       "cityOrFocus": "場館/文化活動",
@@ -11021,12 +11142,9 @@ window.HARMONICA_OBSERVE_DATA = {
       "avatarUrl": "/assets/source-avatars/b3f2593d164162ed5f81.webp",
       "sourceInitials": "新竹",
       "sourceTags": [
-        "場館",
-        "文化局",
-        "活動資訊"
+        "口琴",
+        "場館平台"
       ],
-      "sourceSummary": "新竹市文化局，提供藝文場館資訊與活動推廣。",
-      "sourceTagReason": "名稱明確為文化局，欄位標示為場館平台，主要功能為場館資訊與藝文活動推廣。",
       "monitorSources": [
         {
           "id": "fb_culture_hccg",
@@ -11049,11 +11167,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-206",
+      "id": "watchlist-204",
       "name": "中央大學リード合奏部ハーモニカ・ソサィエティー",
       "nameEn": "Chuo University Harmonica Society",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "日本",
       "region": "日本/東京",
       "cityOrFocus": "中央大學/學校社團/東京",
@@ -11131,11 +11250,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-214",
+      "id": "watchlist-212",
       "name": "南洋理工大學口琴社",
       "nameEn": "NTU CAC Harmonica Band",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "新加坡",
       "region": "新加坡/裕廊西",
       "cityOrFocus": "南洋理工大學/學校社團/裕廊西",
@@ -11201,11 +11321,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-210",
+      "id": "watchlist-208",
       "name": "山形市立商業高等學校ハーモニカバンド部",
       "nameEn": "Yamagata City Commercial High School Harmonica Band",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "日本",
       "region": "日本/山形",
       "cityOrFocus": "山形市立商業高等學校/學校社團/山形",
@@ -11232,11 +11353,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-213",
+      "id": "watchlist-211",
       "name": "新加坡國立大學口琴社",
       "nameEn": "NUS Harmonica",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "新加坡",
       "region": "新加坡/肯特崗",
       "cityOrFocus": "新加坡國立大學/學校社團/肯特崗",
@@ -11315,11 +11437,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-216",
+      "id": "watchlist-214",
       "name": "檳華女中口琴隊",
       "nameEn": "PCGHS Harmonica Band",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "馬來西亞",
       "region": "馬來西亞/檳城",
       "cityOrFocus": "檳華女子中學/學校社團/喬治市",
@@ -11380,11 +11503,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-218",
+      "id": "watchlist-216",
       "name": "武漢理工大學學生星一口琴協會",
       "nameEn": "Wuhan University of Technology Xingyi Harmonica Association",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "中國",
       "region": "中國/湖北",
       "cityOrFocus": "武漢理工大學/學校社團/武漢",
@@ -11412,11 +11536,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-207",
+      "id": "watchlist-205",
       "name": "立教大學ハーモニカ・ソサイアティー",
       "nameEn": "Rikkyo University Harmonica Society",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "日本",
       "region": "日本/東京",
       "cityOrFocus": "立教大學/學校社團/東京",
@@ -11494,11 +11619,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-212",
+      "id": "watchlist-210",
       "name": "聖保羅男女中學口琴隊",
       "nameEn": "SPCC Harmonica Orchestra",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "香港",
       "region": "香港",
       "cityOrFocus": "聖保羅男女中學/學校社團/香港",
@@ -11527,11 +11653,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-211",
+      "id": "watchlist-209",
       "name": "英皇書院同學會小學口琴隊",
       "nameEn": "KCOBAPS Harmonica Band",
       "category": "學校社團",
-      "type": "學校/青年",
+      "type": "學校社團",
+      "originalType": "學校/青年",
       "country": "香港",
       "region": "香港",
       "cityOrFocus": "英皇書院同學會小學/學校/青年/香港",
@@ -11574,11 +11701,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-219",
+      "id": "watchlist-217",
       "name": "華中師範大學學生知音口琴社",
       "nameEn": "CCNU Student Zhiyin Harmonica Club",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "中國",
       "region": "中國/湖北",
       "cityOrFocus": "華中師範大學/學校社團/武漢",
@@ -11606,11 +11734,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-215",
+      "id": "watchlist-213",
       "name": "裕華中學口琴樂團",
       "nameEn": "Yuhua Secondary School Harmonica Band",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "新加坡",
       "region": "新加坡/裕廊西",
       "cityOrFocus": "裕華中學/學校社團/裕廊西",
@@ -11662,11 +11791,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-217",
+      "id": "watchlist-215",
       "name": "鍾靈中學口琴隊",
       "nameEn": "CLHS Harmonica Band",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "馬來西亞",
       "region": "馬來西亞/檳城",
       "cityOrFocus": "鍾靈中學/學校社團/日落洞",
@@ -11730,11 +11860,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-208",
+      "id": "watchlist-206",
       "name": "關西學院大學ハーモニカソサイアティ",
       "nameEn": "Kwansei Gakuin University Harmonica Society",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "日本",
       "region": "日本/兵庫",
       "cityOrFocus": "關西學院大學/學校社團/西宮",
@@ -11829,7 +11960,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "name": "雲林縣二崙國中藝才班口琴隊",
       "nameEn": "",
       "category": "學校社團",
-      "type": "學校/青年",
+      "type": "學校社團",
+      "originalType": "學校/青年",
       "country": "臺灣",
       "region": "臺灣/雲林",
       "cityOrFocus": "國中藝才班/口琴隊",
@@ -11871,11 +12003,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-209",
+      "id": "watchlist-207",
       "name": "鹿兒島大學ハーモニカバンド",
       "nameEn": "Kagoshima University Harmonica Band Capital Harmony",
       "category": "學校社團",
       "type": "學校社團",
+      "originalType": "學校社團",
       "country": "日本",
       "region": "日本/鹿兒島",
       "cityOrFocus": "鹿兒島大學/學校社團/鹿兒島",
@@ -11940,11 +12073,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-104",
+      "id": "watchlist-102",
       "name": "口袋琴房 Pocket Harmonic",
       "nameEn": "Pocket Harmonic",
       "category": "教學器材",
-      "type": "教學/影片來源",
+      "type": "品牌",
+      "originalType": "教學/影片來源",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "口琴教學/影片/開箱/視訊課程",
@@ -12026,11 +12160,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-83",
+      "id": "watchlist-82",
       "name": "東和樂器",
       "nameEn": "Tongho Musical Instrument Co., Ltd. / music4fun",
       "category": "教學器材",
-      "type": "樂器行/單位",
+      "type": "樂器與器材",
+      "originalType": "樂器行/單位",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "口琴器材/活動資訊",
@@ -12108,11 +12243,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-94",
+      "id": "watchlist-92",
       "name": "狂響逗嘴鼓口琴樂坊",
       "nameEn": "Rhapsody Harmonica & Drum Studio",
       "category": "教學器材",
-      "type": "教學工作室",
+      "type": "樂器與器材",
+      "originalType": "教學工作室",
       "country": "臺灣",
       "region": "臺灣/高雄",
       "cityOrFocus": "口琴/手鼓教學/工作室/講座",
@@ -12138,12 +12274,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "avatarUrl": "/assets/source-avatars/946ad82a5099360a8d19.webp",
       "sourceInitials": "狂響",
       "sourceTags": [
+        "口琴",
+        "教學器材",
         "教學",
-        "工作室",
-        "口琴"
+        "工作室"
       ],
-      "sourceSummary": "高雄的口琴與手鼓教學工作室，提供課程與講座。",
-      "sourceTagReason": "名稱含「樂坊」，類別為教學器材，類型為教學工作室，主要活動是口琴與手鼓的教學、工作坊與講座。",
       "monitorSources": [
         {
           "id": "fb_harmonicadrumrhapsody",
@@ -12157,11 +12292,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-82",
+      "id": "watchlist-81",
       "name": "雙燕樂器",
       "nameEn": "Musix Co., Ltd.",
       "category": "教學器材",
-      "type": "樂器行/單位",
+      "type": "樂器與器材",
+      "originalType": "樂器行/單位",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "口琴器材/活動資訊",
@@ -12217,11 +12353,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-91",
+      "id": "watchlist-90",
       "name": "An Afternoon with Harmonica",
       "nameEn": "An Afternoon with Harmonica",
       "category": "活動資訊",
-      "type": "國際交流活動",
+      "type": "品牌",
+      "originalType": "國際交流活動",
       "country": "臺灣",
       "region": "國際/臺灣交流",
       "cityOrFocus": "口琴沙龍/國際交流/臺灣演奏者相關活動",
@@ -12282,11 +12419,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-85",
+      "id": "watchlist-84",
       "name": "From Harmonica to Music",
       "nameEn": "From Harmonica to Music",
       "category": "活動資訊",
-      "type": "活動/演出企劃",
+      "type": "品牌",
+      "originalType": "活動/演出企劃",
       "country": "臺灣",
       "region": "臺灣/臺北",
       "cityOrFocus": "半音階口琴沙龍音樂會/新秀介紹",
@@ -12329,11 +12467,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-179",
+      "id": "watchlist-177",
       "name": "Harmonica Masters 口琴大師工作坊",
       "nameEn": "Harmonica Masters Workshops",
       "category": "活動資訊",
-      "type": "工作坊/活動",
+      "type": "活動與比賽",
+      "originalType": "工作坊/活動",
       "country": "德國",
       "region": "德國/特羅辛根",
       "cityOrFocus": "Trossingen口琴大師工作坊/演奏會/藍調與半音階課程",
@@ -12358,17 +12497,19 @@ window.HARMONICA_OBSERVE_DATA = {
         "口琴",
         "活動資訊",
         "課程",
+        "比賽",
         "半音階",
         "十孔",
         "國際交流"
       ]
     },
     {
-      "id": "watchlist-181",
+      "id": "watchlist-179",
       "name": "Mundharmonika-Live 口琴節",
       "nameEn": "Mundharmonika-Live",
       "category": "活動資訊",
-      "type": "活動/資訊入口",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
       "country": "德國",
       "region": "德國/克林根塔爾",
       "cityOrFocus": "口琴節/藍調十孔/jam/短期工作坊/Seydel Open",
@@ -12392,16 +12533,18 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "口琴",
         "活動資訊",
+        "比賽",
         "十孔",
         "國際交流"
       ]
     },
     {
-      "id": "watchlist-75",
+      "id": "watchlist-74",
       "name": "OPENTIX 口琴售票搜尋",
       "nameEn": "",
       "category": "活動資訊",
-      "type": "售票平台",
+      "type": "場館與平台",
+      "originalType": "售票平台",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "正式售票演出/講座",
@@ -12443,11 +12586,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-108",
+      "id": "watchlist-106",
       "name": "Seoul International Harmonica Festival",
       "nameEn": "Seoul International Harmonica Festival",
       "category": "活動資訊",
-      "type": "國際活動/資訊入口",
+      "type": "協會",
+      "originalType": "國際活動/資訊入口",
       "country": "韓國",
       "region": "首爾",
       "cityOrFocus": "首爾國際口琴節/國際比賽/Gala音樂會/教育交流",
@@ -12476,11 +12620,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-175",
+      "id": "watchlist-173",
       "name": "Spring Harp Fest",
       "nameEn": "Spring Harp Fest",
       "category": "活動資訊",
-      "type": "活動/資訊入口",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
       "country": "美國",
       "region": "美國/加州",
       "cityOrFocus": "美國地方口琴節/藍調口琴/jam/社群比賽",
@@ -12560,11 +12705,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-182",
+      "id": "watchlist-180",
       "name": "巴西口琴論壇",
       "nameEn": "Fórum Harmônicas Brasil",
       "category": "活動資訊",
-      "type": "活動/文化平台",
+      "type": "場館與平台",
+      "originalType": "活動/文化平台",
       "country": "巴西",
       "region": "巴西/塞阿拉",
       "cityOrFocus": "巴西口琴論壇/音樂節/工作坊/訪談/線上節目",
@@ -12643,11 +12789,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-169",
+      "id": "watchlist-167",
       "name": "第十五屆亞太口琴藝術週",
       "nameEn": "15th Asia Pacific Harmonica Festival",
       "category": "活動資訊",
-      "type": "國際活動/資訊入口",
+      "type": "活動與比賽",
+      "originalType": "國際活動/資訊入口",
       "country": "中國",
       "region": "中國/江蘇",
       "cityOrFocus": "亞太口琴節/比賽/音樂會/大師班",
@@ -12680,11 +12827,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-162",
+      "id": "watchlist-160",
       "name": "香港國際半音階口琴大賽",
       "nameEn": "International Chromatic Harmonica Competition Hong Kong",
       "category": "活動資訊",
-      "type": "比賽/資訊入口",
+      "type": "活動與比賽",
+      "originalType": "比賽/資訊入口",
       "country": "香港",
       "region": "香港",
       "cityOrFocus": "國際半音階口琴比賽/大師班/Open Stage/教育論壇",
@@ -12714,11 +12862,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-163",
+      "id": "watchlist-161",
       "name": "香港學校音樂節",
       "nameEn": "Hong Kong Schools Music Festival",
       "category": "活動資訊",
-      "type": "學校比賽/資訊入口",
+      "type": "學校社團",
+      "originalType": "學校比賽/資訊入口",
       "country": "香港",
       "region": "香港",
       "cityOrFocus": "學校音樂節/口琴獨奏/二重奏/合奏/口琴隊",
@@ -12789,7 +12938,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "name": "Dror Adler / Adler Trio",
       "nameEn": "Dror Adler / Adler Trio",
       "category": "演奏者",
-      "type": "團體/個人",
+      "type": "個人",
+      "originalType": "團體/個人",
       "country": "以色列",
       "region": "以色列",
       "cityOrFocus": "三重奏/與 Judy’s 合作",
@@ -12843,11 +12993,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-150",
+      "id": "watchlist-148",
       "name": "Hank Shreve",
       "nameEn": "Hank Shreve",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "美國",
       "region": "美國",
       "cityOrFocus": "WHF 2025/藍調口琴/高能量原創藍調樂團",
@@ -12914,11 +13065,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-140",
+      "id": "watchlist-138",
       "name": "Keith Dunn",
       "nameEn": "Keith Dunn",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "美國",
       "region": "歐洲",
       "cityOrFocus": "歐洲發展的美式藍調樂團/口琴與吉他/Trance Blues",
@@ -12972,11 +13124,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-143",
+      "id": "watchlist-141",
       "name": "Kif Valentine",
       "nameEn": "Kif Valentine",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "馬來西亞",
       "region": "馬來西亞",
       "cityOrFocus": "馬來西亞世界冠軍口琴家/多樂器藝人/流行跨界演出",
@@ -13050,11 +13203,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-114",
+      "id": "watchlist-112",
       "name": "Kim Changsik 김창식",
       "nameEn": "Kim Changsik",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "韓國",
       "region": "韓國",
       "cityOrFocus": "韓國職業口琴演奏/半音階與複音/Weissenberg artist",
@@ -13084,11 +13238,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-115",
+      "id": "watchlist-113",
       "name": "Kim Kyunghee 김경희",
       "nameEn": "Kim Kyunghee",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "韓國",
       "region": "韓國",
       "cityOrFocus": "韓國職業口琴演奏/Giusto harmonica ensemble/KHO",
@@ -13116,11 +13271,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-130",
+      "id": "watchlist-128",
       "name": "Long Deng Jie 龍登杰",
       "nameEn": "Long Deng Jie",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "中國",
       "region": "中國",
       "cityOrFocus": "中國原創口琴演奏/半音階/社群演出",
@@ -13182,11 +13338,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-159",
+      "id": "watchlist-157",
       "name": "Steve Baker",
       "nameEn": "Steve Baker",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "英國",
       "region": "德國/英國",
       "cityOrFocus": "WHF 2025/藍調十孔/作曲/教育/HOHNER artist",
@@ -13243,11 +13400,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-112",
+      "id": "watchlist-110",
       "name": "Takamoto Mizuno",
       "nameEn": "Takamoto Mizuno",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "日本",
       "region": "日本",
       "cityOrFocus": "複音口琴/1997 F.I.H.世界冠軍/新音樂文化推廣/TOMBO artist",
@@ -13291,11 +13449,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-152",
+      "id": "watchlist-150",
       "name": "Tian Long Li",
       "nameEn": "Tian Long Li",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "中國",
       "region": "中國",
       "cityOrFocus": "WHF 2025開幕/世界冠軍/半音階與爵士跨界",
@@ -13324,11 +13483,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-125",
+      "id": "watchlist-123",
       "name": "Yuanmao Wang",
       "nameEn": "Yuanmao Wang",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "中國",
       "region": "中國",
       "cityOrFocus": "中國口琴演奏/國際交流",
@@ -13372,6 +13532,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "WU,Yung-Lung",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "班多鈕/跨界合作",
@@ -13434,6 +13595,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "Wu Tsai Rung",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "年輕半音階/複音演奏者",
@@ -13487,11 +13649,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-119",
+      "id": "watchlist-117",
       "name": "和谷泰扶 Yasuo Watani",
       "nameEn": "Yasuo Watani",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "日本",
       "region": "日本",
       "cityOrFocus": "京都出身/半音階口琴/Hohner Conservatory訓練/教育與演出",
@@ -13520,11 +13683,12 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-121",
+      "id": "watchlist-119",
       "name": "田中光栄 Koei Tanaka",
       "nameEn": "Koei Tanaka",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "日本",
       "region": "日本",
       "cityOrFocus": "東京出身/半音階與十孔/爵士藍調/演奏教學與客製維修",
@@ -13597,6 +13761,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "天狼星系",
@@ -13647,6 +13812,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "nameEn": "",
       "category": "演奏者",
       "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
       "cityOrFocus": "胖擊系",

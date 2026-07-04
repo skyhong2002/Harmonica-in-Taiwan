@@ -5,17 +5,28 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 04 Jul 2026 11:52:33 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 12:55:46 +0000</lastBuildDate>
     <item>
       <title>衛武營國家藝術文化中心</title>
       <link>https://www.npac-weiwuying.org/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/886a3e69f2bc562c</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
       <description>分類：場館平台
-Tag：場館、場館平台、活動資訊、音樂會、演出
+Tag：口琴、場館平台
 國家：臺灣
 地區：臺灣/高雄
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>CY Leo 何卓彥</title>
+      <link>https://www.cyleomusic.io/profile</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/161a953fbacb664c</guid>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、口琴、半音階、合奏、國際交流
+國家：香港
+地區：香港
+香港的半音階國際演出人員，活動脈絡包含現代跨界。</description>
     </item>
     <item>
       <title>新加坡青年節藝術展演（口琴）</title>
@@ -95,6 +106,17 @@ Tag：口琴、演奏者、比賽、半音階、國際交流
 韓國的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、國際比賽與教育與演出。</description>
     </item>
     <item>
+      <title>曹小歐</title>
+      <link>https://portaly.cc/otistsao</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/b08c62a560f55fb5</guid>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：口琴、演奏者、十孔
+國家：臺灣
+地區：臺灣
+臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。</description>
+    </item>
+    <item>
       <title>口琴愛好者協會（新加坡）</title>
       <link>https://www.harmonica-as.com/about</link>
       <guid>https://harmonica.observe.tw/feeds/sources/62b26986382b2eb9</guid>
@@ -104,6 +126,17 @@ Tag：口琴、國際交流
 國家：新加坡
 地區：新加坡
 新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。</description>
+    </item>
+    <item>
+      <title>山下伶 Rei Yamashita</title>
+      <link>https://rei-yamashita.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：口琴、演奏者、半音階、國際交流
+國家：日本
+地區：日本
+日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
     </item>
     <item>
       <title>Howard Levy</title>
@@ -194,23 +227,12 @@ Tag：口琴、國際交流、課程、半音階、十孔
 阿根廷的國際教育來源，關注公立流行音樂學校、正式口琴課程、爵士、探戈與民俗。</description>
     </item>
     <item>
-      <title>CY Leo 何卓彥</title>
-      <link>https://www.cyleomusic.io/profile</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/161a953fbacb664c</guid>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、口琴、半音階、合奏、國際交流
-國家：香港
-地區：香港
-香港的半音階國際演出人員，活動脈絡包含現代跨界。</description>
-    </item>
-    <item>
       <title>臺中國家歌劇院</title>
       <link>https://www.npac-ntt.org/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
       <description>分類：場館平台
-Tag：場館平台、活動資訊、演出
+Tag：口琴、場館平台
 國家：臺灣
 地區：臺灣/臺中
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
@@ -320,7 +342,7 @@ Tag：口琴、演奏者、十孔、國際交流
       <guid>https://harmonica.observe.tw/feeds/sources/b9d265ee651e1480</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
       <description>分類：活動資訊
-Tag：口琴、活動資訊、半音階、十孔、國際交流
+Tag：口琴、活動資訊、比賽、半音階、十孔、國際交流
 國家：德國
 地區：德國/柏林
 德國的國際活動與教育來源，涵蓋柏林口琴節、Academy、演奏會、工作坊與Open Stage。</description>
@@ -331,7 +353,7 @@ Tag：口琴、活動資訊、半音階、十孔、國際交流
       <guid>https://harmonica.observe.tw/feeds/sources/31f9c79620bc0e35</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
       <description>分類：場館平台
-Tag：場館、場館平台、活動資訊、音樂會、演出
+Tag：口琴、場館平台
 國家：臺灣
 地區：臺灣/臺北
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
@@ -346,17 +368,6 @@ Tag：口琴、團體樂團、國際交流
 國家：印尼
 地區：印尼
 印尼的口琴與跨界國際演出團體，活動脈絡包含Reyharp Naufal與Balawan合作、跨界融合與口琴與吉他。</description>
-    </item>
-    <item>
-      <title>曹小歐</title>
-      <link>https://portaly.cc/otistsao</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/b08c62a560f55fb5</guid>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：口琴、演奏者、十孔
-國家：臺灣
-地區：臺灣
-臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。</description>
     </item>
     <item>
       <title>吹出好心琴 + Ou Frog</title>
@@ -399,8 +410,8 @@ Tag：演奏者、口琴
       <description>分類：教學器材
 Tag：口琴、教學器材、教學
 國家：臺灣
-地區：臺灣 / 臺灣/臺北
-臺灣的口琴器材與教學來源，關注口琴器材與活動資訊。</description>
+地區：臺灣/臺北
+臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。</description>
     </item>
     <item>
       <title>張晁滕</title>
@@ -412,17 +423,6 @@ Tag：演奏者、教學、重奏
 國家：臺灣
 地區：臺灣
 臺灣的重奏與教學演出人員與教學者，活動脈絡包含天狼星、Laelaps與演出。</description>
-    </item>
-    <item>
-      <title>山下伶 Rei Yamashita</title>
-      <link>https://rei-yamashita.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：口琴、演奏者、半音階、國際交流
-國家：日本
-地區：日本
-日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
     </item>
     <item>
       <title>Aiden N Evelyn / Aiden Soon &amp; Evelyn Choong</title>
@@ -532,7 +532,7 @@ Tag：口琴、團體樂團、重奏
 Tag：口琴、活動資訊、團體樂團、音樂節、比賽、半音階、複音、十孔
 國家：臺灣
 地區：臺灣
-臺灣的核心活動，涵蓋音樂節、比賽、Gala與講座。</description>
+臺灣的核心活動與活動資訊來源，涵蓋音樂節、比賽、Gala、講座與午間音樂會。</description>
     </item>
     <item>
       <title>Jong-seong Park 朴鍾聲</title>
@@ -573,7 +573,7 @@ Tag：演奏者、口琴、和弦、重奏、交流
       <guid>https://harmonica.observe.tw/feeds/sources/208580c304c32492</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
       <description>分類：教學器材
-Tag：教學、課程、工作室、口琴
+Tag：口琴、教學器材、教學、課程
 國家：臺灣
 地區：臺灣
 臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。</description>
@@ -683,7 +683,7 @@ Tag：口琴、演奏者、十孔、國際交流
       <guid>https://harmonica.observe.tw/feeds/sources/764c874d5d511c0a</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
       <description>分類：場館平台
-Tag：場館平台、活動資訊、文化局
+Tag：口琴、場館平台
 國家：臺灣
 地區：臺灣/新竹
 臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
@@ -694,7 +694,7 @@ Tag：場館平台、活動資訊、文化局
       <guid>https://harmonica.observe.tw/feeds/sources/8916c1898211431a</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
       <description>分類：活動資訊
-Tag：口琴、活動資訊、課程、音樂節、國際交流
+Tag：口琴、活動資訊、課程、音樂節、比賽、國際交流
 國家：美國
 地區：美國/愛達荷
 美國的國際活動來源，涵蓋戶外口琴音樂節、課程、示範與社群演出。</description>
@@ -925,7 +925,7 @@ Tag：口琴、團體樂團
       <guid>https://harmonica.observe.tw/feeds/sources/68802537913ce467</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
       <description>分類：團體樂團
-Tag：口琴、團體樂團、教學、工作室、半音階、重奏、國際交流
+Tag：口琴、團體樂團、教學、半音階、重奏、國際交流
 國家：香港
 地區：香港/國際
 香港的半音階與小提琴國際教學與演出單位，活動脈絡包含半音階口琴、小提琴二重奏與教學。</description>
@@ -1178,7 +1178,7 @@ Tag：口琴、學生社團、大專社團
       <guid>https://harmonica.observe.tw/feeds/sources/622b83405706e03b</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
       <description>分類：教學器材
-Tag：口琴、教學、工作室
+Tag：口琴、教學器材、教學
 國家：臺灣
 地區：臺灣/臺南
 臺灣的口琴教學與活動來源，關注口琴教學、演出與社團經營。</description>
@@ -1233,7 +1233,7 @@ Tag：口琴、演奏者、比賽、半音階、複音
       <guid>https://harmonica.observe.tw/feeds/sources/9a67ec5b0cfecb35</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
       <description>分類：其他來源
-Tag：團體樂團、演出、活動資訊
+Tag：口琴、其他來源、比賽
 國家：臺灣
 地區：臺灣
 臺灣的協辦與活動來源，關注協辦、製作與跨界音樂。</description>
@@ -1387,7 +1387,7 @@ Tag：口琴、團體樂團、重奏
       <guid>https://harmonica.observe.tw/feeds/sources/8c3b4a4ba4c7bdbe</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
       <description>分類：教學器材
-Tag：口琴、器材、教學、工作室、品牌
+Tag：口琴、教學器材、教學、課程
 國家：臺灣
 地區：臺灣
 臺灣的口琴教學、活動與器材來源，關注口琴專賣、教學、講座與課程。</description>
@@ -1409,7 +1409,7 @@ Tag：口琴、團體樂團、重奏、國際交流
       <guid>https://harmonica.observe.tw/feeds/sources/52bd0ac3b52261af</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
       <description>分類：其他來源
-Tag：團體樂團、口琴、活動資訊、音樂會、品牌
+Tag：口琴、其他來源
 國家：臺灣
 地區：臺灣
 臺灣的協辦與活動來源，關注協辦、製作與青年音樂家。</description>
@@ -1695,7 +1695,7 @@ Tag：口琴、場館平台
       <guid>https://harmonica.observe.tw/feeds/sources/e83fa63ff4d4ace2</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
       <description>分類：場館平台
-Tag：場館、文化局、活動資訊
+Tag：口琴、場館平台
 國家：臺灣
 地區：臺灣/新竹
 臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
@@ -1893,7 +1893,7 @@ Tag：口琴、教學器材、教學
       <guid>https://harmonica.observe.tw/feeds/sources/9817e5e0c2f7e719</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
       <description>分類：教學器材
-Tag：教學、工作室、口琴
+Tag：口琴、教學器材、教學、工作室
 國家：臺灣
 地區：臺灣/高雄
 臺灣的口琴與手鼓教學、工作坊與活動來源，關注手鼓教學、工作室與講座。</description>
@@ -1937,7 +1937,7 @@ Tag：口琴、活動資訊、半音階
       <guid>https://harmonica.observe.tw/feeds/sources/db79210ec9fa9cdb</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
       <description>分類：活動資訊
-Tag：口琴、活動資訊、課程、半音階、十孔、國際交流
+Tag：口琴、活動資訊、課程、比賽、半音階、十孔、國際交流
 國家：德國
 地區：德國/特羅辛根
 德國的國際教育與活動來源，涵蓋Trossingen口琴大師工作坊、演奏會與藍調與半音階課程。</description>
@@ -1948,7 +1948,7 @@ Tag：口琴、活動資訊、課程、半音階、十孔、國際交流
       <guid>https://harmonica.observe.tw/feeds/sources/a43c1f7efcba93eb</guid>
       <pubDate>Sat, 04 Jul 2026 00:00:00 +0000</pubDate>
       <description>分類：活動資訊
-Tag：口琴、活動資訊、十孔、國際交流
+Tag：口琴、活動資訊、比賽、十孔、國際交流
 國家：德國
 地區：德國/克林根塔爾
 德國的國際活動來源，涵蓋口琴節、藍調十孔、jam、短期工作坊與Seydel Open。</description>

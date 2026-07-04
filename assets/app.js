@@ -27,7 +27,8 @@
 
   function makeSlug(entry) {
     if (!entry) return "";
-    const entryId = (entry.id || "").trim();
+    const rawEntryId = (entry.id || "").trim();
+    const entryId = rawEntryId.replace(/^watchlist-(\d+)$/, "$1");
     const nameEn = (entry.nameEn || "").trim();
     const name = (entry.name || "").trim();
     let text = nameEn ? nameEn : name;
@@ -53,7 +54,6 @@
     hashtags: emptyFilterSet(),
     directoryView: "table",
     regionExpanded: false,
-    sourceTypeExpanded: false,
     directorySortKey: "",
     directorySortDirection: "asc",
     directoryColumnWidths: {},
@@ -489,6 +489,15 @@
     };
   }
 
+  function toggleSingleDirectoryFilterValue(filter, value) {
+    const label = String(value || "").trim().replace(/^#/, "");
+    if (!label) return filter;
+    return {
+      include: filterHasValue(filterIncludes(filter), label) ? [] : [label],
+      exclude: [],
+    };
+  }
+
   function valuesMatchFilter(values, filter) {
     const normalizedValues = values.map(filterValueKey).filter(Boolean);
     const includes = filterIncludes(filter).map(filterValueKey).filter(Boolean);
@@ -684,6 +693,7 @@
         entry.nameEn,
         ...(entry.aliases || []),
         entry.type,
+        entry.originalType,
         entry.country,
         entry.region,
         entry.cityOrFocus,
@@ -969,10 +979,37 @@
     return uniqueHashtags(entry.sourceTags || []);
   }
 
+  function sourceTypeGroup(entry) {
+    const currentType = (entry?.type || "").trim();
+    if (["個人", "學校社團", "團體", "活動與比賽", "樂器與器材", "品牌", "協會", "場館與平台"].includes(currentType)) {
+      return currentType;
+    }
+    const text = [
+      entry?.type,
+      entry?.originalType,
+      entry?.role,
+      entry?.category,
+      entry?.cityOrFocus,
+      entry?.summary,
+      entry?.keywords,
+    ].filter(Boolean).join(" ");
+    if (/品牌|有限公司|公司/.test(text)) return "品牌";
+    if (/個人|演出人員|音樂家|合作音樂家/.test(text)) return "個人";
+    if (/團體|樂團|演出團體|重奏|合奏|社群/.test(text)) return "團體";
+    if (/學校社團|學校\/青年|口琴社|口琴隊|校園/.test(text)) return "學校社團";
+    if (/樂器|器材|專賣店|樂器商/.test(text)) return "樂器與器材";
+    if (/場館|文化局|藝文中心|平台|教育機構/.test(text)) return "場館與平台";
+    if (/協會|口琴會|聯盟|連盟|Society|Association|Federation/i.test(text)) return "協會";
+    if (/活動|音樂節|比賽|工作坊|售票|講座|演出企劃|文化平台/.test(text)) return "活動與比賽";
+    if (/教學|教室|工作室|課程|學校\/教學平台|維修|影片來源/.test(text)) return "樂器與器材";
+    if (/資訊入口|資料來源|參考來源/.test(text)) return "場館與平台";
+    return "團體";
+  }
+
   function buildDirectoryIndex() {
     const records = data.entries.map((entry) => {
       const countryValues = entryCountryValues(entry);
-      const sourceTypeValues = uniqueHashtags([entry.type]);
+      const sourceTypeValues = uniqueHashtags([sourceTypeGroup(entry)]);
       const sourceTags = uniqueHashtags(entry.sourceTags || []);
       return {
         entry,
@@ -2597,7 +2634,7 @@
       const entry = record.entry;
       const countryKeys = record.countryKeys || new Set(entryCountryValues(entry).map(filterValueKey).filter(Boolean));
       const regionKeys = record.regionKeys || new Set(entryRegionValues(entry).map(filterValueKey).filter(Boolean));
-      const sourceTypeKeys = record.sourceTypeKeys || new Set([entry.type].map(filterValueKey).filter(Boolean));
+      const sourceTypeKeys = record.sourceTypeKeys || new Set([sourceTypeGroup(entry)].map(filterValueKey).filter(Boolean));
       const sourceTagKeys = record.sourceTagKeys || new Set(entrySourceTagValues(entry).map(filterValueKey).filter(Boolean));
       if (!keysMatchFilter(countryKeys, state.country)) return false;
       if (!keysMatchFilter(regionKeys, state.region)) return false;
@@ -2643,7 +2680,7 @@
     }
     const countries = directoryCountryValues();
     const regions = directoryRegionValues();
-    const sourceTypes = countSortedValues(data.entries, (entry) => [entry.type]);
+    const sourceTypes = countSortedValues(data.entries, (entry) => [sourceTypeGroup(entry)]);
     const sourceTags = countSortedValues(data.entries, entrySourceTagValues);
     const locationValues = [...countries, ...regions];
     return {
@@ -2668,7 +2705,7 @@
       searchValue: state.query,
       searchPlaceholder: "搜尋名稱、城市、類型、關鍵字",
       groups: [
-        { label: "類型", name: "sourceType", values: sourceTypes, activeValues: state.sourceType, fallbackLabel: "全部類型", ariaLabel: "類型篩選，可複選", disclosure: true, open: state.sourceTypeExpanded, disclosureAttribute: "data-directory-source-type-disclosure", countLabel: `${sourceTypes.length} 個類型` },
+        { label: "類型", name: "sourceType", values: sourceTypes, activeValues: state.sourceType, fallbackLabel: "全部類型", ariaLabel: "類型篩選，單選", allowExclude: false },
         { label: "國家", name: "country", values: countries, activeValues: state.country, fallbackLabel: "全部國家", ariaLabel: "國家篩選，可複選" },
         { label: "區域", name: "region", values: regions, activeValues: state.region, fallbackLabel: "全部區域", ariaLabel: "區域篩選，可複選", disclosure: true, open: state.regionExpanded, disclosureAttribute: "data-directory-region-disclosure", countLabel: `${regions.length} 個區域` },
         { label: "Tag", name: "hashtags", values: sourceTags, activeValues: state.hashtags, fallbackLabel: "全部 tag", ariaLabel: "Tag 篩選，可複選" },
@@ -2732,7 +2769,7 @@
     { key: "name", label: "來源", defaultDirection: "asc", width: 250, minWidth: 150, value: (entry) => entry.name },
     { key: "links", label: "連結", defaultDirection: "asc", width: 146, minWidth: 74, value: (entry) => (entry.links || []).map((link) => link.label || link.url).join(" ") },
     { key: "latest", label: "最後更新", defaultDirection: "desc", width: 145, minWidth: 112, value: (entry) => entry.latestUpdateLocal || "" },
-    { key: "type", label: "類型", defaultDirection: "asc", width: 96, minWidth: 72, value: (entry) => entry.type || entry.sourceSummary },
+    { key: "type", label: "類型", defaultDirection: "asc", width: 96, minWidth: 72, value: sourceTypeGroup },
     { key: "context", label: "國家／區域／Tag", defaultDirection: "asc", width: 483, minWidth: 150, value: directoryContextText },
   ];
 
@@ -2894,7 +2931,7 @@
           ${links.length ? links.map(directoryLinkIcon).join("") : `<span class="directory-link-icon is-muted" title="未標示連結">${platformIconSvg("public")}<span class="sr-only">未標示連結</span></span>`}
         </td>
         ${scoreCell(entry.latestUpdateLocal || "-", "score-year")}
-        ${scoreCell(entry.type || entry.sourceSummary || "-", "score-program")}
+        ${scoreCell(sourceTypeGroup(entry) || "-", "score-program")}
         ${scoreCell(contextTags.join("、") || "-", "score-note-inline directory-context-cell")}
       </tr>
     `;
@@ -4093,7 +4130,6 @@
       "hashtag",
       "notCountry",
       "notRegion",
-      "notType",
       "notTag",
       "notHashtag",
       "q",
@@ -4115,7 +4151,6 @@
     filterIncludes(state.region).forEach((region) => url.searchParams.append("region", directoryFilterParamValue("region", region)));
     filterExcludes(state.region).forEach((region) => url.searchParams.append("notRegion", directoryFilterParamValue("region", region)));
     filterIncludes(state.sourceType).forEach((type) => url.searchParams.append("type", directoryFilterParamValue("sourceType", type)));
-    filterExcludes(state.sourceType).forEach((type) => url.searchParams.append("notType", directoryFilterParamValue("sourceType", type)));
     filterIncludes(state.hashtags).forEach((hashtag) => url.searchParams.append("tag", directoryFilterParamValue("hashtags", hashtag)));
     filterExcludes(state.hashtags).forEach((hashtag) => url.searchParams.append("notTag", directoryFilterParamValue("hashtags", hashtag)));
     if (state.query) url.searchParams.set("q", state.query);
@@ -4132,6 +4167,10 @@
   function addDirectoryFilterValue(filterName, value, mode = "include") {
     const label = directoryLabelFromParam(filterName, value);
     if (!label || !directoryFilterNames.includes(filterName)) return;
+    if (filterName === "sourceType") {
+      state.sourceType = mode === "exclude" ? emptyFilterSet() : { include: [label], exclude: [] };
+      return;
+    }
     const filter = directoryFilterState(filterName);
     if (mode === "exclude") {
       state[filterName] = {
@@ -4191,7 +4230,6 @@
     commaSeparatedParamValues(params, ["region"]).forEach((value) => addDirectoryFilterValue("region", value));
     commaSeparatedParamValues(params, ["notRegion"]).forEach((value) => addDirectoryFilterValue("region", value, "exclude"));
     commaSeparatedParamValues(params, ["type"]).forEach((value) => addDirectoryFilterValue("sourceType", value));
-    commaSeparatedParamValues(params, ["notType"]).forEach((value) => addDirectoryFilterValue("sourceType", value, "exclude"));
     commaSeparatedParamValues(params, ["tag"]).forEach((value) => addDirectoryFilterValue("hashtags", value));
     commaSeparatedParamValues(params, ["notTag"]).forEach((value) => addDirectoryFilterValue("hashtags", value, "exclude"));
     commaSeparatedParamValues(params, ["hashtag"]).forEach((value) => routeLegacyDirectoryHashtag(value));
@@ -4202,7 +4240,7 @@
   }
 
   function directoryHashtagUrl(hashtag, filterName = "hashtags") {
-    const url = new URL("/directory/", window.location.origin);
+    const url = new URL("/source/", window.location.origin);
     const paramName = filterName === "country" ? "country" : filterName === "region" ? "region" : "tag";
     url.searchParams.append(paramName, hashtag);
     return url.toString();
@@ -4210,6 +4248,13 @@
 
   function toggleDirectoryHashtag(hashtag, filterName = "hashtags") {
     if (!directoryFilterNames.includes(filterName)) return;
+    if (filterName === "sourceType") {
+      state.sourceType = toggleSingleDirectoryFilterValue(directoryFilterState(filterName), hashtag);
+      syncDirectoryFilterUrl();
+      renderDirectory();
+      renderSpotlight();
+      return;
+    }
     state[filterName] = cycleFilterValue(directoryFilterState(filterName), hashtag);
     syncDirectoryFilterUrl();
     renderDirectory();
@@ -4246,6 +4291,8 @@
     if (!directoryFilterNames.includes(name)) return;
     if (value === "all") {
       state[name] = emptyFilterSet();
+    } else if (name === "sourceType") {
+      state.sourceType = toggleSingleDirectoryFilterValue(directoryFilterState(name), value);
     } else {
       state[name] = cycleFilterValue(directoryFilterState(name), value);
     }
@@ -4358,12 +4405,6 @@
     if (regionDisclosure) {
       regionDisclosure.addEventListener("toggle", () => {
         state.regionExpanded = regionDisclosure.open;
-      });
-    }
-    const sourceTypeDisclosure = directoryFilterPanel.querySelector("[data-directory-source-type-disclosure]");
-    if (sourceTypeDisclosure) {
-      sourceTypeDisclosure.addEventListener("toggle", () => {
-        state.sourceTypeExpanded = sourceTypeDisclosure.open;
       });
     }
     bindDirectoryViewToggle();
