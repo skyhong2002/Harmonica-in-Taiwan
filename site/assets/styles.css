@@ -2750,23 +2750,38 @@ button.feed-tag-pill {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: flex-start;
     gap: 8px 12px;
     padding: 14px 16px;
   }
 
   .brand {
-    width: min(200px, 62vw);
-    min-width: 180px;
-    margin-right: 4px;
+    flex: 0 0 auto;
+    width: clamp(150px, 48vw, 180px);
+    min-width: 0;
   }
 
   .site-nav {
-    display: contents;
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+    min-width: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .site-nav::-webkit-scrollbar {
+    display: none;
   }
 
   .site-nav a {
+    flex: 0 0 auto;
     padding: 6px 8px;
     font-size: 0.9rem;
+    white-space: nowrap;
   }
 
   .hero {
