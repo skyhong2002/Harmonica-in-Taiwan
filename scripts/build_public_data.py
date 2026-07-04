@@ -481,9 +481,22 @@ def person_like(entry: dict[str, object]) -> bool:
     return "個人" in entry_text(entry)
 
 
+def individually_branded_source_pair(left: dict[str, object], right: dict[str, object]) -> bool:
+    left_is_person = "個人" in str(left.get("type") or "")
+    right_is_person = "個人" in str(right.get("type") or "")
+    if left_is_person == right_is_person:
+        return False
+    if normalize_key(str(left.get("name") or "")) == normalize_key(str(right.get("name") or "")):
+        return False
+    return source_like(right if left_is_person else left)
+
+
 def duplicate_entries(left: dict[str, object], right: dict[str, object]) -> bool:
     if normalize_key(str(left.get("name") or "")) == normalize_key(str(right.get("name") or "")):
         return True
+
+    if individually_branded_source_pair(left, right):
+        return False
 
     left_keys = entry_identity_keys(left)
     right_keys = entry_identity_keys(right)
