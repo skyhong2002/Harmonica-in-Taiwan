@@ -895,6 +895,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "口琴",
       "sourceTags": [
         "口琴",
+        "協會",
         "國際交流"
       ],
       "monitorSources": [
@@ -1619,6 +1620,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "E",
       "sourceTags": [
         "口琴",
+        "教學器材",
         "國際交流",
         "課程",
         "半音階",
@@ -1732,7 +1734,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "name": "韋笙堡口琴 Weissenberg Harmonicas",
       "nameEn": "Weissenberg Harmonicas",
       "category": "教學器材",
-      "type": "品牌",
+      "type": "樂器與器材",
       "originalType": "品牌/樂器商",
       "country": "臺灣",
       "region": "臺灣/臺中",
@@ -2692,7 +2694,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "name": "吹出好心琴 + Ou Frog",
       "nameEn": "Ou Frog",
       "category": "教學器材",
-      "type": "樂器與器材",
+      "type": "品牌",
       "originalType": "教學/影片來源",
       "country": "臺灣",
       "region": "臺灣",
@@ -2720,13 +2722,14 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "OF",
       "sourceTags": [
         "口琴",
+        "品牌",
         "教學器材",
         "教學"
       ],
       "monitorSources": [
         {
           "id": "yt_oufrog",
-          "name": "歐純伶",
+          "name": "吹出好心琴 + Ou Frog",
           "platform": "youtube",
           "type": "youtube_ytdlp",
           "username": "",
@@ -2756,10 +2759,6 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "Facebook",
           "url": "https://www.facebook.com/oulingou/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@oufrog"
         }
       ],
       "source": "watchlist",
@@ -2784,15 +2783,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/oulingou",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_oufrog",
-          "name": "歐純伶",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@oufrog",
           "feedUrl": ""
         }
       ]
@@ -3503,6 +3493,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "LO",
       "sourceTags": [
         "口琴",
+        "品牌",
         "演奏者",
         "團體樂團",
         "十孔",
@@ -5910,6 +5901,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "S",
       "sourceTags": [
         "口琴",
+        "協會",
         "活動資訊",
         "國際交流"
       ],
@@ -7150,7 +7142,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "name": "蔡明憲 DMing Studio",
       "nameEn": "DMing Studio",
       "category": "教學器材",
-      "type": "樂器與器材",
+      "type": "品牌",
       "originalType": "教學/維修/影片來源",
       "country": "臺灣",
       "region": "臺灣",
@@ -7182,6 +7174,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "DS",
       "sourceTags": [
         "口琴",
+        "品牌",
         "教學器材",
         "教學",
         "半音階",
@@ -7233,6 +7226,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "keywords": "林士傑 口琴",
       "links": [
         {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/lin.shi.jie.661489"
+        },
+        {
           "label": "Instagram",
           "url": "https://www.instagram.com/musette585/"
         }
@@ -7250,6 +7247,15 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者"
       ],
       "monitorSources": [
+        {
+          "id": "fb_lin_shi_jie_661489",
+          "name": "林士傑",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/lin.shi.jie.661489",
+          "feedUrl": ""
+        },
         {
           "id": "ig_musette585",
           "name": "林士傑",
@@ -8190,7 +8196,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "name": "巴巴口琴坊",
       "nameEn": "Baba Harmonica Studio",
       "category": "教學器材",
-      "type": "樂器與器材",
+      "type": "品牌",
       "originalType": "教學工作室",
       "country": "臺灣",
       "region": "臺灣/臺南",
@@ -8222,6 +8228,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "巴巴",
       "sourceTags": [
         "口琴",
+        "品牌",
         "教學器材",
         "教學"
       ],
@@ -8547,7 +8554,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "name": "The Duet 獨特音樂",
       "nameEn": "The Duet",
       "category": "其他來源",
-      "type": "活動與比賽",
+      "type": "品牌",
       "originalType": "單位",
       "country": "臺灣",
       "region": "臺灣",
@@ -8583,8 +8590,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "TD",
       "sourceTags": [
         "口琴",
-        "其他來源",
-        "比賽"
+        "品牌"
       ],
       "monitorSources": [
         {
@@ -9728,7 +9734,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "簧格",
       "sourceTags": [
         "口琴",
-        "其他來源"
+        "品牌"
       ]
     },
     {
@@ -9772,6 +9778,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "H",
       "sourceTags": [
         "口琴",
+        "場館平台",
         "國際交流"
       ],
       "monitorSources": [
@@ -9842,6 +9849,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "T",
       "sourceTags": [
         "口琴",
+        "協會",
         "國際交流"
       ]
     },
@@ -9874,6 +9882,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "中國",
       "sourceTags": [
         "口琴",
+        "協會",
         "國際交流"
       ]
     },
@@ -9906,6 +9915,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "A",
       "sourceTags": [
         "口琴",
+        "協會",
         "國際交流"
       ]
     },
@@ -9938,6 +9948,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "HHD",
       "sourceTags": [
         "口琴",
+        "協會",
         "國際交流",
         "半音階"
       ]
@@ -9971,6 +9982,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "J",
       "sourceTags": [
         "口琴",
+        "協會",
         "國際交流",
         "比賽",
         "複音"
@@ -10021,6 +10033,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "英國",
       "sourceTags": [
         "口琴",
+        "協會",
         "國際交流"
       ],
       "monitorSources": [
@@ -10095,6 +10108,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "韓國",
       "sourceTags": [
         "口琴",
+        "協會",
         "國際交流",
         "課程",
         "半音階",
@@ -10875,7 +10889,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "name": "臺中市中華口琴會",
       "nameEn": "",
       "category": "團體樂團",
-      "type": "團體",
+      "type": "協會",
       "originalType": "協會/團體",
       "country": "臺灣",
       "region": "臺灣/臺中",
@@ -10907,6 +10921,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "臺中",
       "sourceTags": [
         "口琴",
+        "協會",
         "團體樂團",
         "比賽"
       ],
@@ -10979,10 +10994,10 @@ window.HARMONICA_OBSERVE_DATA = {
     },
     {
       "id": "watchlist-96",
-      "name": "高雄市兒童口琴樂團 / 高雄市口琴協會",
+      "name": "高雄市口琴協會",
       "nameEn": "",
       "category": "團體樂團",
-      "type": "團體",
+      "type": "協會",
       "originalType": "團體/協會",
       "country": "臺灣",
       "region": "臺灣/高雄",
@@ -11006,16 +11021,17 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/cfece3dbbab4232034f3.webp",
+      "avatarUrl": "",
       "sourceInitials": "高雄",
       "sourceTags": [
         "口琴",
+        "協會",
         "團體樂團"
       ],
       "monitorSources": [
         {
           "id": "fb_425623100793432",
-          "name": "高雄市兒童口琴樂團 / 高雄市口琴協會",
+          "name": "高雄市口琴協會",
           "platform": "facebook",
           "type": "facebook_page_posts",
           "username": "",
@@ -12113,6 +12129,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "PH",
       "sourceTags": [
         "口琴",
+        "品牌",
         "教學器材",
         "教學",
         "課程",
@@ -12385,6 +12402,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "AAW",
       "sourceTags": [
         "口琴",
+        "品牌",
         "活動資訊",
         "國際交流"
       ],
@@ -12451,6 +12469,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "FHT",
       "sourceTags": [
         "口琴",
+        "品牌",
         "活動資訊",
         "半音階"
       ],
@@ -12571,6 +12590,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "O",
       "sourceTags": [
         "口琴",
+        "場館平台",
         "活動資訊"
       ],
       "monitorSources": [
@@ -12614,6 +12634,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "SIH",
       "sourceTags": [
         "口琴",
+        "協會",
         "活動資訊",
         "比賽",
         "國際交流"
@@ -12745,6 +12766,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "巴西",
       "sourceTags": [
         "口琴",
+        "場館平台",
         "活動資訊",
         "音樂節",
         "國際交流"
@@ -12898,6 +12920,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "香港",
       "sourceTags": [
         "口琴",
+        "學生社團",
         "活動資訊",
         "音樂節",
         "比賽",
@@ -13890,20 +13913,20 @@ window.HARMONICA_OBSERVE_DATA = {
       "馬來西亞": 12
     },
     "watchSources": {
-      "totalSources": 562,
+      "totalSources": 563,
       "rsshubSources": 293,
-      "apifySources": 143,
-      "facebookSources": 143,
+      "apifySources": 144,
+      "facebookSources": 144,
       "youtubeSources": 126,
       "platforms": {
-        "facebook": 143,
+        "facebook": 144,
         "instagram": 278,
         "threads": 2,
         "x": 13,
         "youtube": 126
       },
       "types": {
-        "facebook_page_posts": 143,
+        "facebook_page_posts": 144,
         "rss": 15,
         "rsshub_instagram_profile": 139,
         "rsshub_instagram_story": 139,

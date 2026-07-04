@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T20:55:51+08:00",
+  "generatedAt": "2026-07-04T21:07:01+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "degraded",
@@ -10,21 +10,21 @@
     "updates": 918,
     "updatesWindowDays": 30,
     "directoryEntries": 201,
-    "watchSources": 562,
+    "watchSources": 563,
     "currentErrors": 3,
-    "latestDataAt": "2026-07-04T20:55:46+08:00",
+    "latestDataAt": "2026-07-04T21:07:01+08:00",
     "latestSocialObservationAt": "2026-07-04T20:55:36+08:00"
   },
   "watchSources": {
     "platforms": {
-      "facebook": 143,
+      "facebook": 144,
       "instagram": 278,
       "threads": 2,
       "x": 13,
       "youtube": 126
     },
     "types": {
-      "facebook_page_posts": 143,
+      "facebook_page_posts": 144,
       "rss": 15,
       "rsshub_instagram_profile": 139,
       "rsshub_instagram_story": 139,
@@ -33,7 +33,7 @@
     "platformRows": [
       {
         "platform": "facebook",
-        "sources": 143,
+        "sources": 144,
         "currentErrors": 0,
         "status": "ok"
       },
@@ -71,10 +71,10 @@
       "label": "正常",
       "summary": "定期 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-07-04 20:55:46",
-        "pipeline.log 更新：2026-07-04 20:55:51",
-        "pipeline.err.log 更新：2026-07-04 19:52:53",
-        "LaunchAgent：running，last exit 0"
+        "最新公開資料：2026-07-04 21:07:01",
+        "pipeline.log 更新：2026-07-04 20:56:08",
+        "pipeline.err.log 更新：2026-07-04 20:56:08",
+        "LaunchAgent：not running，last exit 0"
       ]
     },
     {
@@ -85,7 +85,7 @@
       "summary": "latest.json 有 918 筆更新，sources.json 有 201 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
-        "watch sources：562"
+        "watch sources：563"
       ]
     },
     {
@@ -96,7 +96,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：13 ms"
+        "耗時：29 ms"
       ]
     },
     {
@@ -110,7 +110,7 @@
         "story 無公開內容/空路由略過：0",
         "IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。",
         "本輪 IG：抓取 10、排程略過 268、延後 0、錯誤 0。",
-        "下一個 IG 來源：約 2026-07-04 21:01:42"
+        "下一個 IG 來源：約 2026-07-04 21:09:02"
       ]
     },
     {
@@ -129,11 +129,11 @@
       "name": "Facebook Apify",
       "status": "paused",
       "label": "節流中",
-      "summary": "143 個 Facebook 來源。 目前依預算 pacing 暫停開 run，等待 due 來源累積。",
+      "summary": "144 個 Facebook 來源。 目前依預算 pacing 暫停開 run，等待 due 來源累積。",
       "details": [
         "最近成功 run：2026-07-04 01:51:54",
         "最近新增 inbox：2",
-        "due sources：0",
+        "due sources：1",
         "selected this check：0",
         "min sources per run：8",
         "遠端月額度剩餘：$1.54",
@@ -190,14 +190,14 @@
   ],
   "runtime": {
     "pipeline": {
-      "currentStep": "build status page",
-      "heartbeatAt": "2026-07-04T12:55:51.190417+00:00",
+      "currentStep": "",
+      "heartbeatAt": "2026-07-04T12:56:08.955615+00:00",
       "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
       "maxPostAgeDays": 30,
-      "message": "",
+      "message": "Pipeline completed",
       "pid": 1034,
       "startedAt": "2026-07-04T12:52:54.282885+00:00",
-      "status": "running",
+      "status": "ok",
       "steps": [
         {
           "command": [
@@ -346,11 +346,55 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_status_page.py"
           ],
-          "finishedAt": "",
+          "finishedAt": "2026-07-04T12:55:52.322011+00:00",
           "name": "build status page",
-          "returnCode": null,
+          "returnCode": 0,
           "startedAt": "2026-07-04T12:55:51.190409+00:00",
-          "status": "running"
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/generate_seo_pages.py"
+          ],
+          "finishedAt": "2026-07-04T12:55:53.212195+00:00",
+          "name": "generate SEO pages",
+          "returnCode": 0,
+          "startedAt": "2026-07-04T12:55:52.322756+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/check_source_coverage.py"
+          ],
+          "finishedAt": "2026-07-04T12:55:54.634956+00:00",
+          "name": "check source coverage",
+          "returnCode": 0,
+          "startedAt": "2026-07-04T12:55:53.213093+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/validate_public_outputs.py"
+          ],
+          "finishedAt": "2026-07-04T12:55:55.386355+00:00",
+          "name": "validate public outputs",
+          "returnCode": 0,
+          "startedAt": "2026-07-04T12:55:54.636037+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/publish_github_pages.py"
+          ],
+          "finishedAt": "2026-07-04T12:55:55.387786+00:00",
+          "name": "publish github pages",
+          "returnCode": 0,
+          "startedAt": "2026-07-04T12:55:55.387312+00:00",
+          "status": "ok"
         }
       ],
       "version": 1
