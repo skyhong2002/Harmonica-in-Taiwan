@@ -62,7 +62,7 @@
     country: ["臺灣"],
     region: [],
     sourceType: [],
-    hashtags: ["口琴"],
+    hashtags: [],
   };
   const directoryAsciiAliasWords = {
     "中國/江蘇": "cn-js",

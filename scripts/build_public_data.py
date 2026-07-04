@@ -76,7 +76,7 @@ TAG_CANONICAL_REPLACEMENTS = {
     "教育機構": "課程",
     "演出企劃": "演出",
 }
-DISCARDED_SOURCE_TAGS = {"其他來源"}
+DISCARDED_SOURCE_TAGS = {"其他來源", "口琴"}
 SOURCE_TYPE_TAGS = {
     "個人": "演奏者",
     "學校社團": "學生社團",
@@ -197,8 +197,7 @@ def merge_source_tags(entry: dict[str, object], tags: list[str], *, limit: int =
     merged = [tag for tag in tags if tag and tag not in DISCARDED_SOURCE_TAGS]
     type_tag = SOURCE_TYPE_TAGS.get(str(entry.get("type") or ""))
     if type_tag and type_tag not in merged:
-        insert_at = 1 if merged and merged[0] == "口琴" else 0
-        merged.insert(insert_at, type_tag)
+        merged.insert(0, type_tag)
     return merged[:limit]
 
 
@@ -752,8 +751,6 @@ def fallback_source_tags(entry: dict[str, object]) -> list[str]:
     ]:
         if needle in text:
             tags.append(tag)
-    if "口琴" in text or tags:
-        tags.insert(0, "口琴")
     return normalize_tag_values(tags)
 
 
