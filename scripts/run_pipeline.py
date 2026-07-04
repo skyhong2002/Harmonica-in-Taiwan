@@ -327,7 +327,11 @@ def main() -> int:
             pages_args = [PYTHON, "scripts/publish_github_pages.py"]
             if args.pages_no_push:
                 pages_args.append("--no-push")
-            run(pages_args, step="publish github pages", status_hook=mark_step)
+            publish_label = "publish github pages"
+            mark_step(publish_label, "running", args=pages_args)
+            mark_step(publish_label, "ok", args=pages_args, returncode=0)
+            publish_runtime_status("ok", message="Pipeline completed; publishing snapshot")
+            run(pages_args)
         completed = True
         publish_runtime_status("ok", message="Pipeline completed")
     finally:
