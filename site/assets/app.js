@@ -114,6 +114,7 @@
   let feedAutoLoadObserver = null;
   let homeStoryAutoScrollFrame = 0;
   let homeStoryAutoScrollPaused = false;
+  let homeStoryWheelScrollEndTimer = 0;
 
   const nonLocationLabels = new Set(["國際", "臺灣交流", "臺灣爵士圈"]);
   const directoryFilterNames = ["country", "region", "hashtags"];
@@ -1440,6 +1441,14 @@
     }
   }
 
+  function normalizedHomeStoryWheelDelta(event) {
+    const delta = Math.abs(event.deltaX) > Math.abs(event.deltaY) ? event.deltaX : event.deltaY;
+    if (!delta) return 0;
+    if (event.deltaMode === WheelEvent.DOM_DELTA_LINE) return delta * 16;
+    if (event.deltaMode === WheelEvent.DOM_DELTA_PAGE) return delta * Math.max(1, homeStoryList?.clientWidth || 1);
+    return delta;
+  }
+
   function stopHomeStoryAutoScroll() {
     if (homeStoryAutoScrollFrame) {
       window.clearTimeout(homeStoryAutoScrollFrame);
@@ -1491,13 +1500,29 @@
   function bindHomeStoryScroll() {
     if (!homeStoryList) return;
     homeStoryList.addEventListener("wheel", (event) => {
+      if (event.ctrlKey) return;
       const maxScroll = homeStoryMaxScroll();
       if (maxScroll <= 1) return;
-      const delta = Math.abs(event.deltaY) > Math.abs(event.deltaX) ? event.deltaY : event.deltaX;
+      const delta = normalizedHomeStoryWheelDelta(event);
       if (!delta) return;
+      const loopDistance = homeStoryLoopDistance();
+      const currentLeft = homeStoryList.scrollLeft;
+      let nextLeft = currentLeft + delta;
+      if (loopDistance > 1) {
+        while (nextLeft < 0) nextLeft += loopDistance;
+        while (nextLeft >= loopDistance) nextLeft -= loopDistance;
+      } else {
+        nextLeft = Math.max(0, Math.min(maxScroll, nextLeft));
+        if (Math.abs(nextLeft - currentLeft) < 0.5) return;
+      }
       stopHomeStoryAutoScroll();
-      homeStoryList.scrollLeft += delta;
-      requestAnimationFrame(normalizeHomeStoryLoopPosition);
+      homeStoryList.classList.add("is-wheel-scrolling");
+      homeStoryList.scrollLeft = nextLeft;
+      window.clearTimeout(homeStoryWheelScrollEndTimer);
+      homeStoryWheelScrollEndTimer = window.setTimeout(() => {
+        homeStoryList?.classList.remove("is-wheel-scrolling");
+        normalizeHomeStoryLoopPosition();
+      }, 140);
       event.preventDefault();
     }, { passive: false });
     homeStoryList.addEventListener("mouseenter", () => {

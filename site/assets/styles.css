@@ -478,6 +478,12 @@ h2 {
   scroll-snap-type: none;
 }
 
+.home-story-strip.is-wheel-scrolling,
+.home-story-strip.is-wheel-scrolling:hover,
+.home-story-strip.is-wheel-scrolling:focus-within {
+  scroll-snap-type: none;
+}
+
 .home-story-strip:hover,
 .home-story-strip:focus-within {
   scroll-snap-type: x proximity;
