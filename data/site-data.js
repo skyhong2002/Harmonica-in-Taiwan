@@ -1,6 +1,90 @@
 window.HARMONICA_OBSERVE_DATA = {
-  "generatedAt": "2026-07-04",
+  "generatedAt": "2026-07-05",
   "entries": [
+    {
+      "id": "watchlist-132",
+      "name": "Antonio Serrano",
+      "nameEn": "Antonio Serrano",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "西班牙",
+      "region": "西班牙",
+      "cityOrFocus": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025",
+      "structuredSummary": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025 / 半音階/十孔 / 國際演出人員",
+      "summary": "西班牙的半音階與十孔國際演出人員，活動脈絡包含馬德里出生、古典藍調爵士流行與與Paco de Lucia合作。",
+      "keywords": "Antonio Serrano harmonica SIHF WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hohner.de/en/antonio-serrano"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/antonioserranoarmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/antonioserranoarmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@antonioserranoofficial"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-04T13:16:48+00:00",
+      "latestUpdateLocal": "2026-07-04 21:16",
+      "latestUpdateSource": "Antonio Serrano",
+      "latestUpdateUrl": "https://www.instagram.com/stories/antonioserranoarmonica/3933846011374008051/",
+      "avatarUrl": "/assets/source-avatars/333fe69573f8d4b95ee6.webp",
+      "sourceInitials": "AS",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_antonioserranoarmonica",
+          "name": "Antonio Serrano",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/antonioserranoarmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_antonioserranoarmonica",
+          "name": "Antonio Serrano",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "antonioserranoarmonica",
+          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_antonioserranoarmonica",
+          "name": "Antonio Serrano",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "antonioserranoarmonica",
+          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/antonioserranoarmonica/story/0"
+        },
+        {
+          "id": "yt_antonioserranoofficial",
+          "name": "Antonio Serrano",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@antonioserranoofficial",
+          "feedUrl": ""
+        }
+      ]
+    },
     {
       "id": "watchlist-115",
       "name": "Filip Jers",
@@ -805,6 +889,105 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-63",
+      "name": "F.I.H. JAPAN ハーモニカコンテスト",
+      "nameEn": "F.I.H. JAPAN Harmonica Contest",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "比賽/資訊入口",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "日本口琴比賽/半音階/複音/duo trio",
+      "structuredSummary": "日本口琴比賽/半音階/複音/duo trio / 半音階/複音/重奏 / 國際比賽來源",
+      "summary": "日本的國際比賽來源，涵蓋日本口琴比賽與duo trio。",
+      "keywords": "F.I.H. JAPAN ハーモニカコンテスト Moridaira 半音階 複音 duo trio 口琴比賽",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://moridaira.jp/event/20260530-01/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/moridaira"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/moridaira_mi/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/Moridaira01"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/moridaira_mi"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-04T04:25:08+00:00",
+      "latestUpdateLocal": "2026-07-04 12:25",
+      "latestUpdateSource": "F.I.H. JAPAN ハーモニカコンテスト",
+      "latestUpdateUrl": "https://www.instagram.com/stories/moridaira_mi/3933578419002863650/",
+      "avatarUrl": "/assets/source-avatars/74b5ba02097b77779c75.webp",
+      "sourceInitials": "FIH",
+      "sourceTags": [
+        "活動資訊",
+        "比賽",
+        "半音階",
+        "複音",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_moridaira",
+          "name": "F.I.H. JAPAN ハーモニカコンテスト",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/moridaira",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_moridaira_mi",
+          "name": "F.I.H. JAPAN ハーモニカコンテスト",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "moridaira_mi",
+          "profileUrl": "https://www.instagram.com/moridaira_mi/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_moridaira_mi",
+          "name": "F.I.H. JAPAN ハーモニカコンテスト",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "moridaira_mi",
+          "profileUrl": "https://www.instagram.com/moridaira_mi/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/moridaira_mi/story/0"
+        },
+        {
+          "id": "x_moridaira_mi",
+          "name": "F.I.H. JAPAN ハーモニカコンテスト",
+          "platform": "x",
+          "type": "rss",
+          "username": "moridaira_mi",
+          "profileUrl": "https://x.com/moridaira_mi",
+          "feedUrl": "https://rss.observe.tw/twitter/user/moridaira_mi"
+        },
+        {
+          "id": "yt_moridaira01",
+          "name": "F.I.H. JAPAN ハーモニカコンテスト",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/Moridaira01",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-66",
       "name": "Younghoon Cho",
       "nameEn": "Younghoon Cho",
@@ -918,7 +1101,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-04 11:04",
       "latestUpdateSource": "Evelyn Choong 鍾雪兒",
       "latestUpdateUrl": "https://www.instagram.com/stories/evelyn_harmonica/3933537871927544084/",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/55e934ceb37dbf6365f5.webp",
       "sourceInitials": "EC",
       "sourceTags": [
         "演奏者",
@@ -953,105 +1136,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "evelyn_harmonica",
           "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/evelyn_harmonica/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-63",
-      "name": "F.I.H. JAPAN ハーモニカコンテスト",
-      "nameEn": "F.I.H. JAPAN Harmonica Contest",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "比賽/資訊入口",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "日本口琴比賽/半音階/複音/duo trio",
-      "structuredSummary": "日本口琴比賽/半音階/複音/duo trio / 半音階/複音/重奏 / 國際比賽來源",
-      "summary": "日本的國際比賽來源，涵蓋日本口琴比賽與duo trio。",
-      "keywords": "F.I.H. JAPAN ハーモニカコンテスト Moridaira 半音階 複音 duo trio 口琴比賽",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://moridaira.jp/event/20260530-01/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/moridaira"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/moridaira_mi/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/user/Moridaira01"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/moridaira_mi"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-04T02:49:39+00:00",
-      "latestUpdateLocal": "2026-07-04 10:49",
-      "latestUpdateSource": "F.I.H. JAPAN ハーモニカコンテスト",
-      "latestUpdateUrl": "https://www.instagram.com/stories/moridaira_mi/3933530367017737427/",
-      "avatarUrl": "/assets/source-avatars/74b5ba02097b77779c75.webp",
-      "sourceInitials": "FIH",
-      "sourceTags": [
-        "活動資訊",
-        "比賽",
-        "半音階",
-        "複音",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_moridaira",
-          "name": "F.I.H. JAPAN ハーモニカコンテスト",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/moridaira",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_moridaira_mi",
-          "name": "F.I.H. JAPAN ハーモニカコンテスト",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "moridaira_mi",
-          "profileUrl": "https://www.instagram.com/moridaira_mi/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_moridaira_mi",
-          "name": "F.I.H. JAPAN ハーモニカコンテスト",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "moridaira_mi",
-          "profileUrl": "https://www.instagram.com/moridaira_mi/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/moridaira_mi/story/0"
-        },
-        {
-          "id": "x_moridaira_mi",
-          "name": "F.I.H. JAPAN ハーモニカコンテスト",
-          "platform": "x",
-          "type": "rss",
-          "username": "moridaira_mi",
-          "profileUrl": "https://x.com/moridaira_mi",
-          "feedUrl": "https://rss.observe.tw/twitter/user/moridaira_mi"
-        },
-        {
-          "id": "yt_moridaira01",
-          "name": "F.I.H. JAPAN ハーモニカコンテスト",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/user/Moridaira01",
-          "feedUrl": ""
         }
       ]
     },
@@ -1797,90 +1881,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@keriw128",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-132",
-      "name": "Antonio Serrano",
-      "nameEn": "Antonio Serrano",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "西班牙",
-      "region": "西班牙",
-      "cityOrFocus": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025",
-      "structuredSummary": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025 / 半音階/十孔 / 國際演出人員",
-      "summary": "西班牙的半音階與十孔國際演出人員，活動脈絡包含馬德里出生、古典藍調爵士流行與與Paco de Lucia合作。",
-      "keywords": "Antonio Serrano harmonica SIHF WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hohner.de/en/antonio-serrano"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/antonioserranoarmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/antonioserranoarmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@antonioserranoofficial"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-03T14:51:09+00:00",
-      "latestUpdateLocal": "2026-07-03 22:51",
-      "latestUpdateSource": "Antonio Serrano",
-      "latestUpdateUrl": "https://www.instagram.com/stories/antonioserranoarmonica/3933168720499202202/",
-      "avatarUrl": "/assets/source-avatars/333fe69573f8d4b95ee6.webp",
-      "sourceInitials": "AS",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_antonioserranoarmonica",
-          "name": "Antonio Serrano",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/antonioserranoarmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_antonioserranoarmonica",
-          "name": "Antonio Serrano",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "antonioserranoarmonica",
-          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_antonioserranoarmonica",
-          "name": "Antonio Serrano",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "antonioserranoarmonica",
-          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/antonioserranoarmonica/story/0"
-        },
-        {
-          "id": "yt_antonioserranoofficial",
-          "name": "Antonio Serrano",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@antonioserranoofficial",
           "feedUrl": ""
         }
       ]
