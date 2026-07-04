@@ -1,11 +1,11 @@
 {
   "currentStep": "",
-  "heartbeatAt": "2026-07-04T18:23:32.033415+00:00",
+  "heartbeatAt": "2026-07-04T18:29:56.622066+00:00",
   "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
   "maxPostAgeDays": 30,
   "message": "Pipeline completed",
-  "pid": 98591,
-  "startedAt": "2026-07-04T18:23:08.120344+00:00",
+  "pid": 2160,
+  "startedAt": "2026-07-04T18:29:31.886155+00:00",
   "status": "ok",
   "steps": [
     {
@@ -13,10 +13,10 @@
         "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/build_social_sources.py"
       ],
-      "finishedAt": "2026-07-04T18:23:08.196662+00:00",
+      "finishedAt": "2026-07-04T18:29:32.004407+00:00",
       "name": "build social sources",
       "returnCode": 0,
-      "startedAt": "2026-07-04T18:23:08.120841+00:00",
+      "startedAt": "2026-07-04T18:29:31.886844+00:00",
       "status": "ok"
     },
     {
@@ -24,10 +24,10 @@
         "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/build_public_data.py"
       ],
-      "finishedAt": "2026-07-04T18:23:09.305785+00:00",
+      "finishedAt": "2026-07-04T18:29:33.208724+00:00",
       "name": "build public data",
       "returnCode": 0,
-      "startedAt": "2026-07-04T18:23:08.197313+00:00",
+      "startedAt": "2026-07-04T18:29:32.005076+00:00",
       "status": "ok"
     },
     {
@@ -36,10 +36,10 @@
         "scripts/backfill_public_source_pages.py",
         "--skip-fetch"
       ],
-      "finishedAt": "2026-07-04T18:23:10.850777+00:00",
+      "finishedAt": "2026-07-04T18:29:34.701361+00:00",
       "name": "backfill source pages",
       "returnCode": 0,
-      "startedAt": "2026-07-04T18:23:09.306439+00:00",
+      "startedAt": "2026-07-04T18:29:33.209234+00:00",
       "status": "ok"
     },
     {
@@ -47,10 +47,10 @@
         "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/build_public_data.py"
       ],
-      "finishedAt": "2026-07-04T18:23:11.965017+00:00",
+      "finishedAt": "2026-07-04T18:29:35.883087+00:00",
       "name": "rebuild public data",
       "returnCode": 0,
-      "startedAt": "2026-07-04T18:23:10.851807+00:00",
+      "startedAt": "2026-07-04T18:29:34.701969+00:00",
       "status": "ok"
     },
     {
@@ -58,10 +58,10 @@
         "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/build_score_publications.py"
       ],
-      "finishedAt": "2026-07-04T18:23:12.042793+00:00",
+      "finishedAt": "2026-07-04T18:29:35.955403+00:00",
       "name": "build score publications",
       "returnCode": 0,
-      "startedAt": "2026-07-04T18:23:11.965666+00:00",
+      "startedAt": "2026-07-04T18:29:35.883616+00:00",
       "status": "ok"
     },
     {
@@ -69,10 +69,10 @@
         "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/build_score_sources.py"
       ],
-      "finishedAt": "2026-07-04T18:23:12.083033+00:00",
+      "finishedAt": "2026-07-04T18:29:35.996712+00:00",
       "name": "build score sources",
       "returnCode": 0,
-      "startedAt": "2026-07-04T18:23:12.043606+00:00",
+      "startedAt": "2026-07-04T18:29:35.956443+00:00",
       "status": "ok"
     },
     {
@@ -80,10 +80,10 @@
         "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/generate_rss_feeds.py"
       ],
-      "finishedAt": "2026-07-04T18:23:16.644703+00:00",
+      "finishedAt": "2026-07-04T18:29:40.760673+00:00",
       "name": "generate rss feeds",
       "returnCode": 0,
-      "startedAt": "2026-07-04T18:23:12.083926+00:00",
+      "startedAt": "2026-07-04T18:29:35.997202+00:00",
       "status": "ok"
     },
     {
@@ -91,10 +91,10 @@
         "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/build_public_calendar_events.py"
       ],
-      "finishedAt": "2026-07-04T18:23:27.600881+00:00",
+      "finishedAt": "2026-07-04T18:29:51.871248+00:00",
       "name": "build public calendar events",
       "returnCode": 0,
-      "startedAt": "2026-07-04T18:23:16.645391+00:00",
+      "startedAt": "2026-07-04T18:29:40.761333+00:00",
       "status": "ok"
     },
     {
@@ -102,10 +102,10 @@
         "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/build_status_page.py"
       ],
-      "finishedAt": "2026-07-04T18:23:28.850930+00:00",
+      "finishedAt": "2026-07-04T18:29:53.110921+00:00",
       "name": "build status page",
       "returnCode": 0,
-      "startedAt": "2026-07-04T18:23:27.601808+00:00",
+      "startedAt": "2026-07-04T18:29:51.872259+00:00",
       "status": "ok"
     },
     {
@@ -113,10 +113,10 @@
         "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/generate_seo_pages.py"
       ],
-      "finishedAt": "2026-07-04T18:23:29.469337+00:00",
+      "finishedAt": "2026-07-04T18:29:53.776259+00:00",
       "name": "generate SEO pages",
       "returnCode": 0,
-      "startedAt": "2026-07-04T18:23:28.851912+00:00",
+      "startedAt": "2026-07-04T18:29:53.112442+00:00",
       "status": "ok"
     },
     {
@@ -124,10 +124,10 @@
         "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/generate_cloudflare_redirects.py"
       ],
-      "finishedAt": "2026-07-04T18:23:29.510166+00:00",
+      "finishedAt": "2026-07-04T18:29:53.817450+00:00",
       "name": "generate cloudflare redirects",
       "returnCode": 0,
-      "startedAt": "2026-07-04T18:23:29.469863+00:00",
+      "startedAt": "2026-07-04T18:29:53.776883+00:00",
       "status": "ok"
     },
     {
@@ -135,10 +135,10 @@
         "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/check_source_coverage.py"
       ],
-      "finishedAt": "2026-07-04T18:23:30.817597+00:00",
+      "finishedAt": "2026-07-04T18:29:55.354619+00:00",
       "name": "check source coverage",
       "returnCode": 0,
-      "startedAt": "2026-07-04T18:23:29.510825+00:00",
+      "startedAt": "2026-07-04T18:29:53.818130+00:00",
       "status": "ok"
     },
     {
@@ -146,10 +146,10 @@
         "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/validate_public_outputs.py"
       ],
-      "finishedAt": "2026-07-04T18:23:32.032826+00:00",
+      "finishedAt": "2026-07-04T18:29:56.621266+00:00",
       "name": "validate public outputs",
       "returnCode": 0,
-      "startedAt": "2026-07-04T18:23:30.818500+00:00",
+      "startedAt": "2026-07-04T18:29:55.355800+00:00",
       "status": "ok"
     }
   ],

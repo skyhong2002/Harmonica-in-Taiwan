@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T02:23:27+08:00",
+  "generatedAt": "2026-07-05T02:29:51+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "ok",
@@ -12,7 +12,7 @@
     "directoryEntries": 203,
     "watchSources": 568,
     "currentErrors": 0,
-    "latestDataAt": "2026-07-05T02:23:16+08:00",
+    "latestDataAt": "2026-07-05T02:29:40+08:00",
     "latestSocialObservationAt": "2026-07-05T02:23:09+08:00"
   },
   "watchSources": {
@@ -71,7 +71,7 @@
       "label": "正常",
       "summary": "定期 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-07-05 02:23:16",
+        "最新公開資料：2026-07-05 02:29:40",
         "pipeline.log 更新：2026-07-05 02:14:12",
         "pipeline.err.log 更新：2026-07-05 01:44:12",
         "LaunchAgent：not running，last exit 0"
@@ -96,7 +96,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：49 ms"
+        "耗時：46 ms"
       ]
     },
     {
@@ -110,7 +110,7 @@
         "story 無公開內容/空路由略過：0",
         "IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。",
         "本輪 IG：抓取 2、排程略過 278、延後 0、錯誤 0。",
-        "下一個 IG 來源：約 2026-07-05 02:26:44"
+        "下一個 IG 來源：約 2026-07-05 02:34:22"
       ]
     },
     {
@@ -166,12 +166,12 @@
   "runtime": {
     "pipeline": {
       "currentStep": "build status page",
-      "heartbeatAt": "2026-07-04T18:23:27.601814+00:00",
+      "heartbeatAt": "2026-07-04T18:29:51.872271+00:00",
       "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
       "maxPostAgeDays": 30,
       "message": "",
-      "pid": 98591,
-      "startedAt": "2026-07-04T18:23:08.120344+00:00",
+      "pid": 2160,
+      "startedAt": "2026-07-04T18:29:31.886155+00:00",
       "status": "running",
       "steps": [
         {
@@ -179,10 +179,10 @@
             "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_social_sources.py"
           ],
-          "finishedAt": "2026-07-04T18:23:08.196662+00:00",
+          "finishedAt": "2026-07-04T18:29:32.004407+00:00",
           "name": "build social sources",
           "returnCode": 0,
-          "startedAt": "2026-07-04T18:23:08.120841+00:00",
+          "startedAt": "2026-07-04T18:29:31.886844+00:00",
           "status": "ok"
         },
         {
@@ -190,10 +190,10 @@
             "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-07-04T18:23:09.305785+00:00",
+          "finishedAt": "2026-07-04T18:29:33.208724+00:00",
           "name": "build public data",
           "returnCode": 0,
-          "startedAt": "2026-07-04T18:23:08.197313+00:00",
+          "startedAt": "2026-07-04T18:29:32.005076+00:00",
           "status": "ok"
         },
         {
@@ -202,10 +202,10 @@
             "scripts/backfill_public_source_pages.py",
             "--skip-fetch"
           ],
-          "finishedAt": "2026-07-04T18:23:10.850777+00:00",
+          "finishedAt": "2026-07-04T18:29:34.701361+00:00",
           "name": "backfill source pages",
           "returnCode": 0,
-          "startedAt": "2026-07-04T18:23:09.306439+00:00",
+          "startedAt": "2026-07-04T18:29:33.209234+00:00",
           "status": "ok"
         },
         {
@@ -213,10 +213,10 @@
             "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-07-04T18:23:11.965017+00:00",
+          "finishedAt": "2026-07-04T18:29:35.883087+00:00",
           "name": "rebuild public data",
           "returnCode": 0,
-          "startedAt": "2026-07-04T18:23:10.851807+00:00",
+          "startedAt": "2026-07-04T18:29:34.701969+00:00",
           "status": "ok"
         },
         {
@@ -224,10 +224,10 @@
             "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_score_publications.py"
           ],
-          "finishedAt": "2026-07-04T18:23:12.042793+00:00",
+          "finishedAt": "2026-07-04T18:29:35.955403+00:00",
           "name": "build score publications",
           "returnCode": 0,
-          "startedAt": "2026-07-04T18:23:11.965666+00:00",
+          "startedAt": "2026-07-04T18:29:35.883616+00:00",
           "status": "ok"
         },
         {
@@ -235,10 +235,10 @@
             "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_score_sources.py"
           ],
-          "finishedAt": "2026-07-04T18:23:12.083033+00:00",
+          "finishedAt": "2026-07-04T18:29:35.996712+00:00",
           "name": "build score sources",
           "returnCode": 0,
-          "startedAt": "2026-07-04T18:23:12.043606+00:00",
+          "startedAt": "2026-07-04T18:29:35.956443+00:00",
           "status": "ok"
         },
         {
@@ -246,10 +246,10 @@
             "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/generate_rss_feeds.py"
           ],
-          "finishedAt": "2026-07-04T18:23:16.644703+00:00",
+          "finishedAt": "2026-07-04T18:29:40.760673+00:00",
           "name": "generate rss feeds",
           "returnCode": 0,
-          "startedAt": "2026-07-04T18:23:12.083926+00:00",
+          "startedAt": "2026-07-04T18:29:35.997202+00:00",
           "status": "ok"
         },
         {
@@ -257,10 +257,10 @@
             "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_public_calendar_events.py"
           ],
-          "finishedAt": "2026-07-04T18:23:27.600881+00:00",
+          "finishedAt": "2026-07-04T18:29:51.871248+00:00",
           "name": "build public calendar events",
           "returnCode": 0,
-          "startedAt": "2026-07-04T18:23:16.645391+00:00",
+          "startedAt": "2026-07-04T18:29:40.761333+00:00",
           "status": "ok"
         },
         {
@@ -271,7 +271,7 @@
           "finishedAt": "",
           "name": "build status page",
           "returnCode": null,
-          "startedAt": "2026-07-04T18:23:27.601808+00:00",
+          "startedAt": "2026-07-04T18:29:51.872259+00:00",
           "status": "running"
         }
       ],

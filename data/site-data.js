@@ -10276,7 +10276,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/25eb88e4d5f5e15f0167.webp",
       "sourceInitials": "IHE",
       "sourceTags": [
         "團體樂團",
