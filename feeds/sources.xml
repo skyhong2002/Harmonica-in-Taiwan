@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 04 Jul 2026 17:12:46 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 17:43:43 +0000</lastBuildDate>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -27,6 +27,17 @@ Tag：演奏者、重奏
 國家：臺灣
 地區：臺灣
 臺灣的低音口琴與重奏演出人員與音控，活動脈絡包含演出與音控。</description>
+    </item>
+    <item>
+      <title>Indiara Sfair</title>
+      <link>https://www.hohner.de/en/indiara-sfair</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/84315597f8e9ba7f</guid>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、十孔、國際交流
+國家：巴西
+地區：巴西
+巴西的十孔國際演出人員與作曲者，活動脈絡包含Curitiba出身、藍調口琴與Milk&amp;#x27;n&amp;#x27;Blues。</description>
     </item>
     <item>
       <title>Antonio Serrano</title>
@@ -379,17 +390,6 @@ Tag：演奏者、教學、半音階、國際交流
 國家：韓國
 地區：韓國
 韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。</description>
-    </item>
-    <item>
-      <title>Indiara Sfair</title>
-      <link>https://www.hohner.de/en/indiara-sfair</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/84315597f8e9ba7f</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、十孔、國際交流
-國家：巴西
-地區：巴西
-巴西的十孔國際演出人員與作曲者，活動脈絡包含Curitiba出身、藍調口琴與Milk&amp;#x27;n&amp;#x27;Blues。</description>
     </item>
     <item>
       <title>Harmonica FEN 口琴節與學院</title>
