@@ -1075,9 +1075,12 @@ h2 {
 
 .source-avatar {
   display: inline-grid;
+  flex: 0 0 auto;
   place-items: center;
   width: 48px;
   aspect-ratio: 1;
+  min-width: 48px;
+  height: auto;
   overflow: hidden;
   color: #fff;
   font-size: 0.82rem;
@@ -1417,6 +1420,7 @@ h2 {
 
 .entry-avatar {
   width: 56px;
+  min-width: 56px;
   font-size: 0.9rem;
 }
 

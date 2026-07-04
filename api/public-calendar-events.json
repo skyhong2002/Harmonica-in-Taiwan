@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-04T21:16:36+08:00",
+  "generatedAt": "2026-07-04T21:59:13+08:00",
   "timezone": "Asia/Taipei",
   "count": 3,
   "source": "/api/events.json",
@@ -9,13 +9,13 @@
   "criteria": "收錄實際舉辦地點在台灣的線下公開口琴活動，以及國內外有明確時間的線上直播/線上講座/線上音樂會；不收國外線下活動。",
   "manualOverrides": 4,
   "llm": {
-    "enabled": false,
-    "tokenSource": "",
-    "model": "",
+    "enabled": true,
+    "tokenSource": "keychain:harmonica-opencode-go/harmonica",
+    "model": "mimo-v2.5",
     "stats": {
       "requests": 0,
       "cached": 0,
-      "errors": 0
+      "errors": 16
     }
   },
   "events": [
