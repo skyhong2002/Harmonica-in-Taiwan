@@ -128,6 +128,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/@minghsunTsai"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@minnie.o6i8"
         }
       ],
       "source": "watchlist",
@@ -169,6 +173,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "minnie.o6i8",
           "profileUrl": "https://www.instagram.com/minnie.o6i8/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/minnie.o6i8/story/0"
+        },
+        {
+          "id": "threads_minnie_o6i8",
+          "name": "蔡明勳",
+          "platform": "threads",
+          "type": "rss",
+          "username": "minnie.o6i8",
+          "profileUrl": "https://www.threads.net/@minnie.o6i8",
+          "feedUrl": "https://rss.observe.tw/threads/minnie.o6i8"
         },
         {
           "id": "yt_minghsuntsai",
@@ -465,6 +478,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/@weiwuyingfilm"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@weiwuying_centerforthearts"
         }
       ],
       "source": "watchlist",
@@ -505,6 +522,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "weiwuying_centerforthearts",
           "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
           "feedUrl": ""
+        },
+        {
+          "id": "threads_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "threads",
+          "type": "rss",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
+          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
         },
         {
           "id": "yt_weiwuyingfilm",
@@ -1756,7 +1782,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-04 09:34",
       "latestUpdateSource": "曹小歐",
       "latestUpdateUrl": "https://www.instagram.com/stories/otistsao/3933492591829815128/",
-      "avatarUrl": "/assets/source-avatars/6bb91ef54d045d117942.webp",
+      "avatarUrl": "/assets/source-avatars/4fa3f253be9f7326ab45.webp",
       "sourceInitials": "曹小",
       "sourceTags": [
         "演奏者",
@@ -2109,6 +2135,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/@iamxyora"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@_yora._"
         }
       ],
       "source": "watchlist",
@@ -2151,6 +2181,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
+          "id": "threads_yora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "threads",
+          "type": "rss",
+          "username": "_yora._",
+          "profileUrl": "https://www.threads.net/@_yora._",
+          "feedUrl": "https://rss.observe.tw/threads/_yora._"
+        },
+        {
           "id": "yt_iamxyora",
           "name": "陳瑤容 Yora Chen",
           "platform": "youtube",
@@ -2173,7 +2212,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "天狼星/胖擊系/半音階與重奏",
       "structuredSummary": "天狼星/胖擊系/半音階與重奏 / 半音階/重奏 / 演出人員",
-      "summary": "半音階與重奏演奏者，活躍於天狼星與胖擊系團隊。",
+      "summary": "臺灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。",
       "keywords": "王衍華 口琴",
       "links": [
         {
@@ -2187,6 +2226,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/@keriw128"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@yenhua_wang"
         }
       ],
       "source": "watchlist",
@@ -2195,15 +2238,13 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-03 23:22",
       "latestUpdateSource": "王衍華",
       "latestUpdateUrl": "https://www.instagram.com/stories/yenhua_wang/3933184398237188782/",
-      "avatarUrl": "/assets/source-avatars/b403fb270ce2a5f015c0.webp",
+      "avatarUrl": "/assets/source-avatars/2093e47371f595672bc2.webp",
       "sourceInitials": "王衍",
       "sourceTags": [
         "演奏者",
         "半音階",
         "重奏"
       ],
-      "sourceSummary": "半音階與重奏演奏者，活躍於天狼星與胖擊系團隊。",
-      "sourceTagReason": "資料明確標註為個人演奏者，專長半音階與重奏，並提及相關演出團隊。",
       "monitorSources": [
         {
           "id": "ig_story_yenhua_wang",
@@ -2222,6 +2263,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "yenhua_wang",
           "profileUrl": "https://www.instagram.com/yenhua_wang/",
           "feedUrl": ""
+        },
+        {
+          "id": "threads_yenhua_wang",
+          "name": "王衍華",
+          "platform": "threads",
+          "type": "rss",
+          "username": "yenhua_wang",
+          "profileUrl": "https://www.threads.net/@yenhua_wang",
+          "feedUrl": "https://rss.observe.tw/threads/yenhua_wang"
         },
         {
           "id": "yt_keriw128",
@@ -2324,6 +2374,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@nationaltaichungtheater"
         }
       ],
       "source": "watchlist",
@@ -2364,6 +2418,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "nationaltaichungtheater",
           "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
+        },
+        {
+          "id": "threads_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "threads",
+          "type": "rss",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
+          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
         },
         {
           "id": "yt_uctl1euke_x0w6tahecepgmq",
@@ -2932,6 +2995,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/user/ntcharts"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@ntch.taipei"
         }
       ],
       "source": "watchlist",
@@ -2972,6 +3039,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "ntch.taipei",
           "profileUrl": "https://www.instagram.com/ntch.taipei/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/ntch.taipei/story/0"
+        },
+        {
+          "id": "threads_ntch_taipei",
+          "name": "國家兩廳院",
+          "platform": "threads",
+          "type": "rss",
+          "username": "ntch.taipei",
+          "profileUrl": "https://www.threads.net/@ntch.taipei",
+          "feedUrl": "https://rss.observe.tw/threads/ntch.taipei"
         },
         {
           "id": "yt_ntcharts",
@@ -3094,12 +3170,16 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "胖擊系",
       "structuredSummary": "胖擊系 / 口琴 / 演出人員",
-      "summary": "臺灣口琴演奏者，活躍於演出活動。",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
       "keywords": "王心禾 口琴",
       "links": [
         {
           "label": "Instagram",
           "url": "https://www.instagram.com/harmonica_wang/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@harmonica_wang"
         }
       ],
       "source": "watchlist",
@@ -3108,13 +3188,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-03 11:32",
       "latestUpdateSource": "王心禾",
       "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_wang/3932826896568636094/",
-      "avatarUrl": "/assets/source-avatars/6e0443c85d9318ef71c9.webp",
+      "avatarUrl": "/assets/source-avatars/f7c087297a9a30d9e110.webp",
       "sourceInitials": "王心",
       "sourceTags": [
         "演奏者"
       ],
-      "sourceSummary": "臺灣口琴演奏者，活躍於演出活動。",
-      "sourceTagReason": "資料明確標註「類別：演奏者」與「類型：個人」，並提及口琴與演出。",
       "monitorSources": [
         {
           "id": "ig_harmonica_wang",
@@ -3133,6 +3211,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "harmonica_wang",
           "profileUrl": "https://www.instagram.com/harmonica_wang/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_wang/story/0"
+        },
+        {
+          "id": "threads_harmonica_wang",
+          "name": "王心禾",
+          "platform": "threads",
+          "type": "rss",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.threads.net/@harmonica_wang",
+          "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
         }
       ]
     },
@@ -3584,6 +3671,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "Instagram",
           "url": "https://www.instagram.com/__yich___/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@__yich___"
         }
       ],
       "source": "watchlist",
@@ -3615,6 +3706,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "__yich___",
           "profileUrl": "https://www.instagram.com/__yich___/",
           "feedUrl": ""
+        },
+        {
+          "id": "threads_yich",
+          "name": "廖苡晴",
+          "platform": "threads",
+          "type": "rss",
+          "username": "__yich___",
+          "profileUrl": "https://www.threads.net/@__yich___",
+          "feedUrl": "https://rss.observe.tw/threads/__yich___"
         }
       ]
     },
@@ -3813,6 +3913,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/@punchharp"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@punch.harp"
         }
       ],
       "source": "watchlist",
@@ -3854,6 +3958,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "punch.harp",
           "profileUrl": "https://www.instagram.com/punch.harp/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/punch.harp/story/0"
+        },
+        {
+          "id": "threads_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "threads",
+          "type": "rss",
+          "username": "punch.harp",
+          "profileUrl": "https://www.threads.net/@punch.harp",
+          "feedUrl": "https://rss.observe.tw/threads/punch.harp"
         },
         {
           "id": "yt_punchharp",
@@ -5898,6 +6011,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/SiriusHARP"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@siriusharmonicaensemble"
         }
       ],
       "source": "watchlist",
@@ -5906,7 +6023,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-27 13:20",
       "latestUpdateSource": "天狼星口琴樂團 Sirius Harmonica Ensemble",
       "latestUpdateUrl": "https://www.facebook.com/SiriusHarp/posts/pfbid02ZNgFQEVis3zWqoAD4NyFw4drQ9eKnwXYrPV3THraLUYy3NzRby73YCxS333LfuEkl",
-      "avatarUrl": "/assets/source-avatars/fe044e3b7ee5115db844.webp",
+      "avatarUrl": "/assets/source-avatars/93835cb48c6cc1048bfa.webp",
       "sourceInitials": "SHE",
       "sourceTags": [
         "團體樂團",
@@ -5940,6 +6057,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "siriusharmonicaensemble",
           "profileUrl": "https://www.instagram.com/siriusharmonicaensemble/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/siriusharmonicaensemble/story/0"
+        },
+        {
+          "id": "threads_siriusharmonicaensemble",
+          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+          "platform": "threads",
+          "type": "rss",
+          "username": "siriusharmonicaensemble",
+          "profileUrl": "https://www.threads.net/@siriusharmonicaensemble",
+          "feedUrl": "https://rss.observe.tw/threads/siriusharmonicaensemble"
         },
         {
           "id": "yt_siriusharp",
@@ -6048,7 +6174,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "半音階/十孔/作曲/配樂/跨界",
       "structuredSummary": "半音階/十孔/作曲/配樂/跨界 / 半音階/十孔 / 演出人員",
-      "summary": "臺灣的半音階與十孔演出人員，活動脈絡包含作曲、配樂與跨界。",
+      "summary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
       "keywords": "李讓 Jang Li",
       "links": [
         {
@@ -6070,6 +6196,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "X",
           "url": "https://x.com/JangLiHarmonica"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@jangli_harmonica"
         }
       ],
       "source": "watchlist",
@@ -6078,13 +6208,13 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-26 01:01",
       "latestUpdateSource": "李讓 Jang Li",
       "latestUpdateUrl": "https://www.instagram.com/p/DaBDBaPTUve/",
-      "avatarUrl": "/assets/source-avatars/3eb31bb3c8355ed0f6cb.webp",
+      "avatarUrl": "/assets/source-avatars/ee8b32806368b31d7221.webp",
       "sourceInitials": "JL",
       "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔"
+        "演奏者"
       ],
+      "sourceSummary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
+      "sourceTagReason": "手動自 Threads 個人簡介匯入。",
       "monitorSources": [
         {
           "id": "fb_jang_li_harmonica",
@@ -6112,6 +6242,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "jangli_harmonica",
           "profileUrl": "https://www.instagram.com/jangli_harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/jangli_harmonica/story/0"
+        },
+        {
+          "id": "threads_jangli_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "threads",
+          "type": "rss",
+          "username": "jangli_harmonica",
+          "profileUrl": "https://www.threads.net/@jangli_harmonica",
+          "feedUrl": "https://rss.observe.tw/threads/jangli_harmonica"
         },
         {
           "id": "x_jangliharmonica",
@@ -6242,6 +6381,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/@JudysHarmonicaEnsemble"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@judys.harmonica.ensemble"
         }
       ],
       "source": "watchlist",
@@ -6283,6 +6426,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "judys.harmonica.ensemble",
           "profileUrl": "https://www.instagram.com/judys.harmonica.ensemble/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/judys.harmonica.ensemble/story/0"
+        },
+        {
+          "id": "threads_judys_harmonica_ensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "threads",
+          "type": "rss",
+          "username": "judys.harmonica.ensemble",
+          "profileUrl": "https://www.threads.net/@judys.harmonica.ensemble",
+          "feedUrl": "https://rss.observe.tw/threads/judys.harmonica.ensemble"
         },
         {
           "id": "yt_judysharmonicaensemble",
@@ -6373,7 +6525,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-24 11:21",
       "latestUpdateSource": "范曉怡",
       "latestUpdateUrl": "https://www.facebook.com/fanhsiaoyi/posts/pfbid0364aeJfgtZ7zMcviaXeyW2b8xXfcHnSxgTykZRtVWSygr5FLThyPosJ2BKeyBVZSsl",
-      "avatarUrl": "/assets/source-avatars/381e810a5b224700d5dd.webp",
+      "avatarUrl": "/assets/source-avatars/de647ba73f2a42f476bc.webp",
       "sourceInitials": "范曉",
       "sourceTags": [
         "演奏者",
@@ -7169,6 +7321,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "Instagram",
           "url": "https://www.instagram.com/musette585/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@musette585"
         }
       ],
       "source": "watchlist",
@@ -7177,7 +7333,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-14 23:05",
       "latestUpdateSource": "林士傑",
       "latestUpdateUrl": "https://www.instagram.com/p/DZkfyzkD5nX/",
-      "avatarUrl": "/assets/source-avatars/63e95b797b2ffd1ec507.webp",
+      "avatarUrl": "/assets/source-avatars/a8398b4bfd078cf83042.webp",
       "sourceInitials": "林士",
       "sourceTags": [
         "演奏者"
@@ -7209,6 +7365,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "musette585",
           "profileUrl": "https://www.instagram.com/musette585/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/musette585/story/0"
+        },
+        {
+          "id": "threads_musette585",
+          "name": "林士傑",
+          "platform": "threads",
+          "type": "rss",
+          "username": "musette585",
+          "profileUrl": "https://www.threads.net/@musette585",
+          "feedUrl": "https://rss.observe.tw/threads/musette585"
         }
       ]
     },
@@ -7484,6 +7649,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/@ckhc3423"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@ckhc_64th"
         }
       ],
       "source": "watchlist",
@@ -7492,7 +7661,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-06 16:59",
       "latestUpdateSource": "建中口琴社",
       "latestUpdateUrl": "https://www.instagram.com/p/DY2RlNtj-Ue/",
-      "avatarUrl": "/assets/source-avatars/2c511f2ff162520ba9ce.webp",
+      "avatarUrl": "/assets/source-avatars/5290d909b72ee31b508d.webp",
       "sourceInitials": "建中",
       "sourceTags": [
         "學生社團"
@@ -7515,6 +7684,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "ckhc_64th",
           "profileUrl": "https://www.instagram.com/ckhc_64th/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/ckhc_64th/story/0"
+        },
+        {
+          "id": "threads_ckhc_64th",
+          "name": "建中口琴社",
+          "platform": "threads",
+          "type": "rss",
+          "username": "ckhc_64th",
+          "profileUrl": "https://www.threads.net/@ckhc_64th",
+          "feedUrl": "https://rss.observe.tw/threads/ckhc_64th"
         },
         {
           "id": "yt_ckhc3423",
@@ -7622,6 +7800,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@csmu_bluemelody"
         }
       ],
       "source": "watchlist",
@@ -7630,7 +7812,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-06-02 16:35",
       "latestUpdateSource": "中山醫藍韻口琴社",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=57QwnGuu57Q",
-      "avatarUrl": "/assets/source-avatars/eb3e77fe227de26d82a6.webp",
+      "avatarUrl": "/assets/source-avatars/c80a7a9dba8d47f96adb.webp",
       "sourceInitials": "中山",
       "sourceTags": [
         "學生社團",
@@ -7663,6 +7845,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "csmu_bluemelody",
           "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/csmu_bluemelody/story/0"
+        },
+        {
+          "id": "threads_csmu_bluemelody",
+          "name": "中山醫藍韻口琴社",
+          "platform": "threads",
+          "type": "rss",
+          "username": "csmu_bluemelody",
+          "profileUrl": "https://www.threads.net/@csmu_bluemelody",
+          "feedUrl": "https://rss.observe.tw/threads/csmu_bluemelody"
         },
         {
           "id": "yt_10f4784559",
@@ -7705,6 +7896,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/channel/UCTd9aZdWomWZtieKMKmxDlA"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@cozy_harmonica_60th"
         }
       ],
       "source": "watchlist",
@@ -7713,7 +7908,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-05-30 21:11",
       "latestUpdateSource": "師大附中舒馨口琴社",
       "latestUpdateUrl": "https://www.instagram.com/p/DY9smLkCY2F/",
-      "avatarUrl": "/assets/source-avatars/77ede19d1deb4ae6284c.webp",
+      "avatarUrl": "/assets/source-avatars/307f2a2e0a766dcd7116.webp",
       "sourceInitials": "師大",
       "sourceTags": [
         "學生社團"
@@ -7745,6 +7940,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "cozy_harmonica_60th",
           "profileUrl": "https://www.instagram.com/cozy_harmonica_60th/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/cozy_harmonica_60th/story/0"
+        },
+        {
+          "id": "threads_cozy_harmonica_60th",
+          "name": "師大附中舒馨口琴社",
+          "platform": "threads",
+          "type": "rss",
+          "username": "cozy_harmonica_60th",
+          "profileUrl": "https://www.threads.net/@cozy_harmonica_60th",
+          "feedUrl": "https://rss.observe.tw/threads/cozy_harmonica_60th"
         },
         {
           "id": "yt_uctd9azdwomwztiekmkmxdla",
@@ -7983,7 +8187,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "Judy’s/演出/評審",
       "structuredSummary": "Judy’s/演出/評審 / 半音階/重奏 / 演出人員/評審",
-      "summary": "口琴演奏者，專長半音階與重奏，並擔任演出與評審工作。",
+      "summary": "臺灣的半音階與重奏演出人員與評審，活動脈絡包含Judy’s、演出與評審。",
       "keywords": "莊筑迪 口琴 Judy",
       "links": [
         {
@@ -7997,6 +8201,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "Instagram",
           "url": "https://www.instagram.com/judygigo/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@judygigo"
         }
       ],
       "source": "watchlist",
@@ -8005,15 +8213,13 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-05-26 22:59",
       "latestUpdateSource": "莊筑迪",
       "latestUpdateUrl": "https://www.instagram.com/p/DYzl0BolM5O/",
-      "avatarUrl": "/assets/source-avatars/75b538a969e7474eafae.webp",
+      "avatarUrl": "/assets/source-avatars/b9926afc4a4a3eac89b7.webp",
       "sourceInitials": "莊筑",
       "sourceTags": [
         "演奏者",
         "半音階",
         "重奏"
       ],
-      "sourceSummary": "口琴演奏者，專長半音階與重奏，並擔任演出與評審工作。",
-      "sourceTagReason": "根據資料欄位明確標示為「演奏者」，且關鍵字與摘要提及半音階、重奏、演出與評審，符合白名單中演奏者及相關樂器、演出標籤。",
       "monitorSources": [
         {
           "id": "fb_chuti_chuang",
@@ -8041,6 +8247,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "judygigo",
           "profileUrl": "https://www.instagram.com/judygigo/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/judygigo/story/0"
+        },
+        {
+          "id": "threads_judygigo",
+          "name": "莊筑迪",
+          "platform": "threads",
+          "type": "rss",
+          "username": "judygigo",
+          "profileUrl": "https://www.threads.net/@judygigo",
+          "feedUrl": "https://rss.observe.tw/threads/judygigo"
         }
       ]
     },
@@ -8225,6 +8440,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "Instagram",
           "url": "https://www.instagram.com/attack_on_harmonica_ensemble/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@attack_on_harmonica_ensemble"
         }
       ],
       "source": "watchlist",
@@ -8233,7 +8452,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-05-11 20:25",
       "latestUpdateSource": "進擊的口琴樂團",
       "latestUpdateUrl": "https://www.instagram.com/p/DYJCD-sSi00/",
-      "avatarUrl": "/assets/source-avatars/943304d2d25b73d5cac7.webp",
+      "avatarUrl": "/assets/source-avatars/0e0e1d46caa450839a07.webp",
       "sourceInitials": "進擊",
       "sourceTags": [
         "團體樂團",
@@ -8257,6 +8476,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "attack_on_harmonica_ensemble",
           "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/attack_on_harmonica_ensemble/story/0"
+        },
+        {
+          "id": "threads_attack_on_harmonica_ensemble",
+          "name": "進擊的口琴樂團",
+          "platform": "threads",
+          "type": "rss",
+          "username": "attack_on_harmonica_ensemble",
+          "profileUrl": "https://www.threads.net/@attack_on_harmonica_ensemble",
+          "feedUrl": "https://rss.observe.tw/threads/attack_on_harmonica_ensemble"
         }
       ]
     },
@@ -8290,6 +8518,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/@laelapsharmonica"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@laelapsharmonica"
         }
       ],
       "source": "watchlist",
@@ -8298,7 +8530,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-03-28 20:00",
       "latestUpdateSource": "Laelaps 口琴",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=6NNzeB7TSYU",
-      "avatarUrl": "/assets/source-avatars/7799680800fa47d266d9.webp",
+      "avatarUrl": "/assets/source-avatars/d023242f1d33dd7e4a12.webp",
       "sourceInitials": "L",
       "sourceTags": [
         "教學器材",
@@ -8331,6 +8563,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "laelapsharmonica",
           "profileUrl": "https://www.instagram.com/laelapsharmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/laelapsharmonica/story/0"
+        },
+        {
+          "id": "threads_laelapsharmonica",
+          "name": "Laelaps 口琴",
+          "platform": "threads",
+          "type": "rss",
+          "username": "laelapsharmonica",
+          "profileUrl": "https://www.threads.net/@laelapsharmonica",
+          "feedUrl": "https://rss.observe.tw/threads/laelapsharmonica"
         },
         {
           "id": "yt_laelapsharmonica",
@@ -8935,6 +9176,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/@UpSideDownharmonicaensemble"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@usd_harmonica"
         }
       ],
       "source": "watchlist",
@@ -8943,7 +9188,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2025-08-20 20:45",
       "latestUpdateSource": "Up Side Down",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=zBXwfnblSkw",
-      "avatarUrl": "/assets/source-avatars/4657720d5c6fa9854081.webp",
+      "avatarUrl": "/assets/source-avatars/f6348ba8ea6dd61f710e.webp",
       "sourceInitials": "USD",
       "sourceTags": [
         "團體樂團",
@@ -8967,6 +9212,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "usd_harmonica",
           "profileUrl": "https://www.instagram.com/usd_harmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "threads_usd_harmonica",
+          "name": "Up Side Down",
+          "platform": "threads",
+          "type": "rss",
+          "username": "usd_harmonica",
+          "profileUrl": "https://www.threads.net/@usd_harmonica",
+          "feedUrl": "https://rss.observe.tw/threads/usd_harmonica"
         },
         {
           "id": "yt_upsidedownharmonicaensemble",
@@ -9228,6 +9482,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/mandy730508"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@mandy730508_harmonica"
         }
       ],
       "source": "watchlist",
@@ -9236,7 +9494,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2025-02-20 15:43",
       "latestUpdateSource": "張筑婷",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=TKGyvdGUgp8",
-      "avatarUrl": "/assets/source-avatars/e2f1a0b77a000c272bbc.webp",
+      "avatarUrl": "/assets/source-avatars/31d8a3b243df66cbf02b.webp",
       "sourceInitials": "張筑",
       "sourceTags": [
         "演奏者",
@@ -9270,6 +9528,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "mandy730508_harmonica",
           "profileUrl": "https://www.instagram.com/mandy730508_harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/mandy730508_harmonica/story/0"
+        },
+        {
+          "id": "threads_mandy730508_harmonica",
+          "name": "張筑婷",
+          "platform": "threads",
+          "type": "rss",
+          "username": "mandy730508_harmonica",
+          "profileUrl": "https://www.threads.net/@mandy730508_harmonica",
+          "feedUrl": "https://rss.observe.tw/threads/mandy730508_harmonica"
         },
         {
           "id": "yt_mandy730508",
@@ -9582,6 +9849,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/@yellowstone_musicshop"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@yellowstone_music_shop"
         }
       ],
       "source": "watchlist",
@@ -9590,7 +9861,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2017-07-15 15:44",
       "latestUpdateSource": "黃石樂器",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=WRpPx9qZWV8",
-      "avatarUrl": "/assets/source-avatars/9acb8ad2c8fc8a4d24c8.webp",
+      "avatarUrl": "/assets/source-avatars/10e3622459fc32d5d415.webp",
       "sourceInitials": "黃石",
       "sourceTags": [
         "教學器材",
@@ -9624,6 +9895,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "yellowstone_music_shop",
           "profileUrl": "https://www.instagram.com/yellowstone_music_shop/",
           "feedUrl": ""
+        },
+        {
+          "id": "threads_yellowstone_music_shop",
+          "name": "黃石樂器",
+          "platform": "threads",
+          "type": "rss",
+          "username": "yellowstone_music_shop",
+          "profileUrl": "https://www.threads.net/@yellowstone_music_shop",
+          "feedUrl": "https://rss.observe.tw/threads/yellowstone_music_shop"
         },
         {
           "id": "yt_yellowstone_musicshop",
@@ -10275,7 +10555,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣",
       "cityOrFocus": "重奏/公演/新興團體",
       "structuredSummary": "重奏/公演/新興團體 / 口琴重奏 / 演出團體",
-      "summary": "「IniXial Harmonica Ensemble 源創口琴樂團」成立於2024年，由半音階口琴、倍低音口琴、和弦口琴等純口琴樂器組成，是個融合不同聲部的特殊編制重奏團體。團員除身為演奏者之外，同時具有創作編曲與現場演出能力。源創口琴樂團期許透過演出，呈現樂曲的原創概念以及熱愛音樂的初衷。",
+      "summary": "「IniXial Harmonica Ensemble 源創口琴樂團」成立於2024年，由半音階口琴、倍低音口琴、和弦口琴等純口琴樂器組成，是個融合不同聲部的特殊編制重奏團體。團員除身為演奏者之外，同時具有創作編曲與現場演出能力。源創口琴樂團期許透過演出，呈現樂曲的原創概念以及熱愛音樂的初衷。 See the latest...",
       "keywords": "IniXial Harmonica Ensemble 源創口琴樂團 IniXial 口琴樂團",
       "links": [
         {
@@ -10303,7 +10583,7 @@ window.HARMONICA_OBSERVE_DATA = {
         "團體樂團",
         "重奏"
       ],
-      "sourceSummary": "「IniXial Harmonica Ensemble 源創口琴樂團」成立於2024年，由半音階口琴、倍低音口琴、和弦口琴等純口琴樂器組成，是個融合不同聲部的特殊編制重奏團體。團員除身為演奏者之外，同時具有創作編曲與現場演出能力。源創口琴樂團期許透過演出，呈現樂曲的原創概念以及熱愛音樂的初衷。",
+      "sourceSummary": "「IniXial Harmonica Ensemble 源創口琴樂團」成立於2024年，由半音階口琴、倍低音口琴、和弦口琴等純口琴樂器組成，是個融合不同聲部的特殊編制重奏團體。團員除身為演奏者之外，同時具有創作編曲與現場演出能力。源創口琴樂團期許透過演出，呈現樂曲的原創概念以及熱愛音樂的初衷。 See the latest...",
       "sourceTagReason": "社群網站公開自我敘述。",
       "monitorSources": [
         {
@@ -11144,6 +11424,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/@%E9%99%BD%E6%98%8E%E4%BA%A4%E5%A4%A7%E8%97%9D%E6%96%87%E4%B8%AD%E5%BF%83-k8f"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@nycu_artscenter"
         }
       ],
       "source": "watchlist",
@@ -11152,7 +11436,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/313deb63fe56325ff3c5.webp",
+      "avatarUrl": "/assets/source-avatars/ce008ff11fe35f3f09fc.webp",
       "sourceInitials": "國立",
       "sourceTags": [
         "場館平台"
@@ -11184,6 +11468,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "nycu_artscenter",
           "profileUrl": "https://www.instagram.com/nycu_artscenter/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/nycu_artscenter/story/0"
+        },
+        {
+          "id": "threads_nycu_artscenter",
+          "name": "國立陽明交通大學藝文中心",
+          "platform": "threads",
+          "type": "rss",
+          "username": "nycu_artscenter",
+          "profileUrl": "https://www.threads.net/@nycu_artscenter",
+          "feedUrl": "https://rss.observe.tw/threads/nycu_artscenter"
         },
         {
           "id": "yt_k8f",
@@ -12192,6 +12485,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/@PocketHarmonic"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@pocketharmonic"
         }
       ],
       "source": "watchlist",
@@ -12200,7 +12497,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/336a419f1f5b465a37e2.webp",
+      "avatarUrl": "/assets/source-avatars/6e7850cafd693a9d0b82.webp",
       "sourceInitials": "PH",
       "sourceTags": [
         "品牌",
@@ -12238,6 +12535,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "pocketharmonic",
           "profileUrl": "https://www.instagram.com/pocketharmonic/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/pocketharmonic/story/0"
+        },
+        {
+          "id": "threads_pocketharmonic",
+          "name": "口袋琴房 Pocket Harmonic",
+          "platform": "threads",
+          "type": "rss",
+          "username": "pocketharmonic",
+          "profileUrl": "https://www.threads.net/@pocketharmonic",
+          "feedUrl": "https://rss.observe.tw/threads/pocketharmonic"
         },
         {
           "id": "yt_pocketharmonic",
@@ -13865,7 +14171,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "region": "臺灣/中彰投",
       "cityOrFocus": "中彰投口琴教學/演出/推廣",
       "structuredSummary": "中彰投口琴教學/演出/推廣 / 口琴 / 演出人員/教學者",
-      "summary": "中彰投口琴演奏者與教師，現任彰化縣立陽明國中、南投縣立南投國中等校口琴團社團老師，致力於口琴演奏、教學與音樂推廣。",
+      "summary": "臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。",
       "keywords": "菜鳥琴老師很菜 chindiary_harmonica 口琴 彰化 臺中 南投",
       "links": [
         {
@@ -13879,6 +14185,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@chindiary_harmonica"
         }
       ],
       "source": "watchlist",
@@ -13887,14 +14197,12 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/603c5f9d559a030e8588.webp",
+      "avatarUrl": "/assets/source-avatars/345013dd79e3ed1ff775.webp",
       "sourceInitials": "菜鳥",
       "sourceTags": [
         "演奏者",
         "教學"
       ],
-      "sourceSummary": "中彰投口琴演奏者與教師，現任彰化縣立陽明國中、南投縣立南投國中等校口琴團社團老師，致力於口琴演奏、教學與音樂推廣。",
-      "sourceTagReason": "手動新增與整合自 YouTube 頻道簡介與 Instagram 資訊。",
       "monitorSources": [
         {
           "id": "fb_chin_diary",
@@ -13922,6 +14230,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "chindiary_harmonica",
           "profileUrl": "https://www.instagram.com/chindiary_harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/chindiary_harmonica/story/0"
+        },
+        {
+          "id": "threads_chindiary_harmonica",
+          "name": "菜鳥琴老師很菜",
+          "platform": "threads",
+          "type": "rss",
+          "username": "chindiary_harmonica",
+          "profileUrl": "https://www.threads.net/@chindiary_harmonica",
+          "feedUrl": "https://rss.observe.tw/threads/chindiary_harmonica"
         },
         {
           "id": "yt_ucltib8yoa0dsd4i6n4ykfvq",
@@ -14069,21 +14386,21 @@ window.HARMONICA_OBSERVE_DATA = {
       "馬來西亞": 13
     },
     "watchSources": {
-      "totalSources": 574,
-      "rsshubSources": 301,
+      "totalSources": 599,
+      "rsshubSources": 326,
       "apifySources": 147,
       "facebookSources": 147,
       "youtubeSources": 126,
       "platforms": {
         "facebook": 147,
         "instagram": 286,
-        "threads": 3,
+        "threads": 28,
         "x": 12,
         "youtube": 126
       },
       "types": {
         "facebook_page_posts": 147,
-        "rss": 15,
+        "rss": 40,
         "rsshub_instagram_profile": 143,
         "rsshub_instagram_story": 143,
         "youtube_ytdlp": 126
