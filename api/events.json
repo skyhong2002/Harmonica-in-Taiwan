@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 330,
+  "count": 329,
   "items": [
     {
       "title": "臺中國家歌劇院｜🌊不用活在別人的標準裡，你有自己的美麗✨ 夏日變裝皇后大戲《怪美妖仙傳》即將席捲歌劇院！不同於昨日釋出的幕後花絮，仙界眾神溫柔又光明。這次登場的是來自黑暗勢力的角色：混沌、嗔與癡。 主角「混沌」是無法被分類的存在，總是格格…",
@@ -25374,83 +25374,6 @@
         "學生社團"
       ],
       "key": "ig_tcfsh_harmonica:https://www.instagram.com/p/DZNA9GTk_2X/"
-    },
-    {
-      "title": "馬來西亞口琴節｜📢 OHRSC 2026 Category Cancellation Announcement Unfortunately, due to an insufficient number of registered entr…",
-      "headline": "📢 OHRSC 2026 Category Cancellation Announcement",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.instagram.com/p/DZM64QhTHJB/",
-      "source_id": "ig_malaysia_harmonica_festival",
-      "source": "馬來西亞口琴節",
-      "source_system_name": "馬來西亞口琴節",
-      "source_profile_url": "https://www.instagram.com/malaysia_harmonica_festival/",
-      "country": "馬來西亞",
-      "region": "馬來西亞/吉隆坡",
-      "directory_entry_id": "watchlist-165",
-      "directory_entry_name": "馬來西亞口琴節",
-      "account": "malaysia_harmonica_festival",
-      "platform": "instagram",
-      "platform_label": "Instagram",
-      "posted_at": "Fri, 05 Jun 2026 11:05:00 GMT",
-      "posted_at_local": "2026-06-05 19:05",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-06-28T17:04:39.556709+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "https://rss.observe.tw/instagram/2/user/malaysia_harmonica_festival",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "比賽",
-        "口琴",
-        "公開更新"
-      ],
-      "keyword_matches": [
-        "harmonica"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 1.0,
-      "llm_labels": [
-        "比賽",
-        "口琴",
-        "公開更新"
-      ],
-      "llm_categories": [
-        "events"
-      ],
-      "llm_reason": "貼文來源為馬來西亞口琴節，內容是關於OHRSC口琴比賽組別取消的公告，屬於口琴比賽相關的公開更新。",
-      "text": "📢 OHRSC 2026 Category Cancellation Announcement\nUnfortunately, due to an insufficient number of registered entries for Category 4 (MV Production – Secondary School), the organizer has decided to cancel this category in accordance with the competition rules and regulations.\nContestants registered under this category are not required to proceed with video submission.\nWe sincerely thank you for your understanding and support 🙏🏼\n📢 组别取消通知\n非常遗憾，由于 Category 4（MV 制作 - 中学组）报名参赛队伍数量不足，主办方将依据赛事章程决定取消该组别比赛。\n已报名该组别的参赛者无需再提交比赛作品。\n感谢大家的理解与支持，不便之处，敬请见谅 🙏🏼\n#MalaysiaHarmonicaFestival",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/716090243_17951407014171812_7085889889137027328_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkxMjc2MTEyOTAwNDk4Njk0NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=8wOV2FCVSz4Q7kNvwGW85rl&_nc_oc=Adqbtiq5XDbLpHwVlBkU3JY-kI2bjAvInvpVTw6MOAxj6YL-1zoQrcJDvrsF1eEw6QY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=pYiYx8aKMXhI7CJGrJWPjw&_nc_ss=7a22e&oh=00_Af9_H5L1mk5d4NqT1301P4U5ZOFBX6SPCKmIX2xHMt3Q2A&oe=6A471337"
-      ],
-      "videos": [],
-      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/716090243_17951407014171812_7085889889137027328_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkxMjc2MTEyOTAwNDk4Njk0NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM1MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=8wOV2FCVSz4Q7kNvwGW85rl&_nc_oc=Adqbtiq5XDbLpHwVlBkU3JY-kI2bjAvInvpVTw6MOAxj6YL-1zoQrcJDvrsF1eEw6QY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=pYiYx8aKMXhI7CJGrJWPjw&_nc_ss=7a22e&oh=00_Af9_H5L1mk5d4NqT1301P4U5ZOFBX6SPCKmIX2xHMt3Q2A&oe=6A471337",
-      "image_url": "/assets/feed-images/0cb20f462b71a545537d.webp",
-      "image_width": 800,
-      "image_height": 1000,
-      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/491433377_17901589374171812_6522149149845270103_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby45MzcuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gGj5z9zHwEQTeolkBv7KHFO2ft5JSFs713PrFRA24Hsw8gFNnIHC1Xjp6wOm49vxlM&_nc_ohc=FqaMBHkT9VYQ7kNvwE7bwz6&_nc_gid=wgnEJgexABkZi24ZUJ_ieg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af-0u2CKGTWTqrMK7rbiZB0oyWRDQPxCmow5GEdrrCP5ZQ&oe=6A472938&_nc_sid=8b3546",
-      "avatar_url": "/assets/source-avatars/ff675f90d5ccd5b0e4a3.webp",
-      "source_initials": "馬來",
-      "categories": [
-        "posts-videos",
-        "events",
-        "opportunities"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動",
-        "補助比賽"
-      ],
-      "key": "ig_malaysia_harmonica_festival:https://www.instagram.com/p/DZM64QhTHJB/"
     }
   ]
 }
