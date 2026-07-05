@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
   "json": "https://harmonica.observe.tw/api/student-clubs.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/student-clubs.json",
-  "count": 100,
+  "count": 101,
   "items": [
     {
       "title": "cy_leo｜今天我選擇口琴作為事業，原來喜歡吹口琴的部份只佔了一半。 另一半，是因為我原來自小就在這一群「夢想家」之中長大。 昨天是團練第三天，也是第一次差不多齊人。練習之後，師兄把大家拉在一起，舊生和在校生花了 1 小時互相自我介紹，…",
@@ -6902,6 +6902,73 @@
         "學生社團"
       ],
       "key": "ig_chindiary_harmonica:https://www.instagram.com/p/DZP81qBhRSo/"
+    },
+    {
+      "title": "菜鳥琴老師很菜｜@tcfsh_harmonica 下台一鞠躬！ https://www.facebook.com/reel/1680238299976017/",
+      "headline": "@tcfsh_harmonica",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/reel/1680238299976017/",
+      "source_id": "fb_chin_diary",
+      "source": "菜鳥琴老師很菜",
+      "source_system_name": "菜鳥琴老師很菜",
+      "source_profile_url": "https://facebook.com/chin.diary",
+      "country": "臺灣",
+      "region": "臺灣/中彰投",
+      "directory_entry_id": "watchlist-220",
+      "directory_entry_name": "菜鳥琴老師很菜",
+      "account": "chin.diary",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-06-06T15:21:04.000Z",
+      "posted_at_local": "2026-06-06 23:21",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-05T16:50:17.032540+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": null,
+      "llm_confidence": null,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "",
+      "text": "@tcfsh_harmonica\n下台一鞠躬！\nhttps://www.facebook.com/reel/1680238299976017/",
+      "images": [
+        "https://scontent-atl3-3.xx.fbcdn.net/v/t51.71878-10/715989970_1563887375310944_9093789127531524498_n.jpg?stp=dst-jpg_tt6&cstp=mx640x1136&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=A_5qR4CFAN4Q7kNvwHpRWO2&_nc_oc=AdpDEHDRd_ii7UyasjlcokHdEwIP46E6kZuLIhSpDe5c_cnKcZNFdyAh4ivsnc73ayY&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=2OLq-_Sc2BbT5mEWxYTdcA&_nc_ss=72289&oh=00_AQALFL2sDbg29HJFKZFtDHg9Br8XDPns7Dg60ZNFSHauEg&oe=6A506997"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t51.71878-10/715989970_1563887375310944_9093789127531524498_n.jpg?stp=dst-jpg_tt6&cstp=mx640x1136&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=A_5qR4CFAN4Q7kNvwHpRWO2&_nc_oc=AdpDEHDRd_ii7UyasjlcokHdEwIP46E6kZuLIhSpDe5c_cnKcZNFdyAh4ivsnc73ayY&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=2OLq-_Sc2BbT5mEWxYTdcA&_nc_ss=72289&oh=00_AQALFL2sDbg29HJFKZFtDHg9Br8XDPns7Dg60ZNFSHauEg&oe=6A506997",
+      "image_url": "/assets/feed-images/738b31f57678f5bd7b01.webp",
+      "image_width": 541,
+      "image_height": 960,
+      "source_avatar_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/326262134_869545067700723_6818711300118400134_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx960x959&ctp=s50x50&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=VufRrA_61IoQ7kNvwGfNhm2&_nc_oc=AdoqgWF-3vePBAywaTtwCRBUEEzrX1GEyiD9j9J_tkFT4jSOEcJ0qHD2Zux-qQSnokc&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=2OLq-_Sc2BbT5mEWxYTdcA&_nc_ss=72289&oh=00_AQDmMu0-NNWljwUm0AFpnwsinzFpDhl-CSLaYfE2dQ4-mQ&oe=6A505F77",
+      "avatar_url": "/assets/source-avatars/8984096e559475ff5037.webp",
+      "source_initials": "菜鳥",
+      "categories": [
+        "posts-videos",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "學生社團"
+      ],
+      "key": "fb_chin_diary:1598281528974677"
     },
     {
       "title": "建中口琴社64屆｜建中口琴社64屆成果發表會《琴極之夏》ˊ˗ 今天邀請到 建中合唱團 幫我們倒數9天！ @ckc_58th 𓏲𑁘ᮬ ✩⡱表演資訊： 時間：6/6（六） 下午1:30進場/2:00開始 地點：國立臺灣藝術大學 教學研究大樓1…",
