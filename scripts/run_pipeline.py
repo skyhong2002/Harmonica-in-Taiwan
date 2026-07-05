@@ -185,6 +185,8 @@ def main() -> int:
     parser.add_argument("--lock-stale-minutes", type=float, default=240.0)
     parser.add_argument("--runtime-status", type=Path, default=DEFAULT_RUNTIME_STATUS)
     parser.add_argument("--no-lock", action="store_true")
+    parser.add_argument("--rsshub-base", default=os.environ.get("HARMONICA_RSSHUB_BASE", ""))
+    parser.add_argument("--request-timeout", type=int, default=10)
     parser.add_argument("--verbose", action="store_true")
     args = parser.parse_args()
     load_dotenv(PROJECT_ROOT / ".env")
@@ -291,6 +293,10 @@ def main() -> int:
                 run(facebook_args, optional=True, step="fetch facebook apify", status_hook=mark_step)
 
             watch_args = [PYTHON, "scripts/social_feed_watchdog.py", "--max-post-age-days", str(args.max_post_age_days)]
+            if args.rsshub_base:
+                watch_args.extend(["--rsshub-base", args.rsshub_base])
+            if args.request_timeout:
+                watch_args.extend(["--request-timeout", str(args.request_timeout)])
             if args.skip_llm_tags:
                 watch_args.append("--no-llm-tags")
             if args.baseline:

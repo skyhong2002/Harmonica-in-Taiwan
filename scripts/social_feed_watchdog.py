@@ -39,6 +39,7 @@ DEFAULT_PROGRESS = PROJECT_ROOT / "site" / "api" / "social-fetch-progress.json"
 GRAPH_VERSION = os.environ.get("HARMONICA_META_API_VERSION", "v25.0")
 GRAPH_BASE = f"https://graph.facebook.com/{GRAPH_VERSION}"
 RSSHUB_BASE = os.environ.get("HARMONICA_RSSHUB_BASE", "").rstrip("/")
+REQUEST_TIMEOUT = 10
 INSTAGRAM_BASE = "https://www.instagram.com"
 TAG_RE = re.compile(r"<[^>]+>")
 BR_RE = re.compile(r"<br\s*/?>", re.IGNORECASE)
@@ -156,7 +157,7 @@ def http_json(url: str, params: dict[str, Any], token: str | None) -> dict[str, 
         query["access_token"] = token
     full_url = url + "?" + urllib.parse.urlencode(query)
     req = urllib.request.Request(full_url, headers={"User-Agent": "HarmonicaInTaiwanSocialWatcher/1.0"})
-    with urllib.request.urlopen(req, timeout=30) as response:
+    with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as response:
         return json.loads(response.read().decode("utf-8"))
 
 
@@ -256,7 +257,7 @@ def instagram_json(path: str, query: dict[str, Any], cookie: str, referer: str) 
     if query:
         url += "?" + urllib.parse.urlencode(query)
     req = urllib.request.Request(url, headers=instagram_headers(cookie, referer))
-    with urllib.request.urlopen(req, timeout=30) as response:
+    with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as response:
         return json.loads(response.read().decode("utf-8"))
 
 
@@ -289,7 +290,7 @@ def instagram_user_id(username: str) -> str:
     profile_url = f"{INSTAGRAM_BASE}/{urllib.parse.quote(clean_username)}/"
     req = urllib.request.Request(profile_url, headers=instagram_headers(referer=profile_url))
     try:
-        with urllib.request.urlopen(req, timeout=30) as response:
+        with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as response:
             text = response.read().decode("utf-8", "replace")
     except (urllib.error.URLError, TimeoutError):
         return ""
@@ -453,7 +454,7 @@ def instagram_embed_media(value: str) -> tuple[list[str], list[str]]:
         headers={"User-Agent": "Mozilla/5.0 HarmonicaInTaiwanSocialWatcher/1.0"},
     )
     try:
-        with urllib.request.urlopen(req, timeout=30) as response:
+        with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as response:
             body = response.read().decode("utf-8", "replace")
     except (urllib.error.URLError, TimeoutError, OSError):
         return [], []
@@ -545,7 +546,7 @@ def format_rsshub_route(route: str, source: dict[str, Any]) -> str:
 
 
 def rsshub_url(source: dict[str, Any]) -> str:
-    base = str(source.get("rsshub_base") or RSSHUB_BASE).rstrip("/")
+    base = str(RSSHUB_BASE or source.get("rsshub_base") or "").rstrip("/")
     if not base:
         return ""
 
@@ -891,18 +892,39 @@ def fetch_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
     req = urllib.request.Request(url, headers={"User-Agent": "HarmonicaInTaiwanSocialWatcher/1.0"})
     story_source = is_story_source(source)
     try:
-        with urllib.request.urlopen(req, timeout=30) as response:
+        with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as response:
             root = ET.fromstring(response.read())
-    except urllib.error.HTTPError as exc:
-        message = rsshub_error_message(exc.read())
-        if story_source and exc.code in {404, 503} and is_story_empty_error(message):
-            posts = fetch_instagram_web_story(source, source_feed_url=url)
-            if posts:
-                return posts
-            return []
-        if message:
-            raise ValueError(f"RSSHub HTTP {exc.code}: {message}") from exc
-        raise
+    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as exc:
+        public_bases = {"https://rss.observe.tw", "http://rss.observe.tw"}
+        is_public_rsshub = any(url.startswith(base) for base in public_bases)
+        root = None
+        if is_public_rsshub:
+            local_url = url
+            for base in public_bases:
+                if local_url.startswith(base):
+                    local_url = local_url.replace(base, "http://127.0.0.1:1200", 1)
+                    break
+            try:
+                print(f"Public RSSHub failed for {url}. Trying local fallback {local_url}...", flush=True)
+                local_req = urllib.request.Request(local_url, headers={"User-Agent": "HarmonicaInTaiwanSocialWatcher/1.0"})
+                with urllib.request.urlopen(local_req, timeout=min(10, REQUEST_TIMEOUT)) as response:
+                    root = ET.fromstring(response.read())
+                url = local_url
+            except Exception:
+                pass
+        
+        if root is None:
+            message = ""
+            if isinstance(exc, urllib.error.HTTPError):
+                message = rsshub_error_message(exc.read())
+                if story_source and exc.code in {404, 503} and is_story_empty_error(message):
+                    posts = fetch_instagram_web_story(source, source_feed_url=url)
+                    if posts:
+                        return posts
+                    return []
+            if message:
+                raise ValueError(f"RSSHub HTTP {exc.code}: {message}") from exc
+            raise
 
     posts: list[dict[str, Any]] = []
     fetched_at = dt.datetime.now(dt.timezone.utc).isoformat()
@@ -1699,8 +1721,14 @@ def main() -> int:
         "--llm-keychain-account",
         default=os.environ.get("HARMONICA_LLM_KEYCHAIN_ACCOUNT", "harmonica"),
     )
+    parser.add_argument("--rsshub-base", default=os.environ.get("HARMONICA_RSSHUB_BASE", ""))
+    parser.add_argument("--request-timeout", type=int, default=10)
     parser.add_argument("--verbose", action="store_true")
     args = parser.parse_args()
+
+    global RSSHUB_BASE, REQUEST_TIMEOUT
+    RSSHUB_BASE = args.rsshub_base.rstrip("/") if args.rsshub_base else RSSHUB_BASE
+    REQUEST_TIMEOUT = args.request_timeout
 
     config = load_json(args.config, {"sources": [], "keywords": []})
     sources = [source for source in config.get("sources", []) if source.get("enabled", True)]
