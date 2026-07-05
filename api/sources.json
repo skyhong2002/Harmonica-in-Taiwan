@@ -65,6 +65,94 @@
   },
   "entries": [
     {
+      "id": "watchlist-67",
+      "publicId": "67",
+      "name": "Marcos Coll",
+      "nameEn": "Marcos Coll",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "西班牙",
+      "region": "西班牙",
+      "cityOrFocus": "十孔/藍調",
+      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
+      "summary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
+      "keywords": "Marcos Coll harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://marcoscoll.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/marcoscollharp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/marcoscollgonzalez/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-05T12:54:15+00:00",
+      "latestUpdateLocal": "2026-07-05 20:54",
+      "latestUpdateSource": "Marcos Coll",
+      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3934559471057518533/",
+      "avatarUrl": "/assets/source-avatars/a340565f0940319d3614.webp",
+      "sourceInitials": "MC",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流",
+        "音樂會",
+        "演出"
+      ],
+      "sourceSummary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
+      "sourceTagReason": "category為演奏者，type為個人，focus在十孔/藍調，並有國際演出經歷。",
+      "monitorSources": [
+        {
+          "id": "fb_marcoscollharp",
+          "name": "Marcos Coll",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/marcoscollharp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
+        },
+        {
+          "id": "yt_marcoscollharpandsoul",
+          "name": "Marcos Coll",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-139",
       "publicId": "139",
       "name": "Lee Oskar",
@@ -506,6 +594,77 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/hoontobe",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-125",
+      "publicId": "125",
+      "name": "Jens Bunge",
+      "nameEn": "Jens Bunge",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "德國",
+      "region": "德國",
+      "cityOrFocus": "德國爵士口琴/半音階演奏/國際演出與錄音",
+      "structuredSummary": "德國爵士口琴/半音階演奏/國際演出與錄音 / 半音階/爵士口琴 / 國際演出人員",
+      "summary": "德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。",
+      "keywords": "Jens Bunge jazz harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hohner.de/en/jens-bunge"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jensbunge.jazzharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@jensbunge"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-05T08:49:07+00:00",
+      "latestUpdateLocal": "2026-07-05 16:49",
+      "latestUpdateSource": "Jens Bunge",
+      "latestUpdateUrl": "https://www.instagram.com/stories/jensbunge.jazzharmonica/3934436055704269973/",
+      "avatarUrl": "/assets/source-avatars/59b1b52b1b0ff0b2d1e7.webp",
+      "sourceInitials": "JB",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_jensbunge_jazzharmonica",
+          "name": "Jens Bunge",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jensbunge.jazzharmonica",
+          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jensbunge_jazzharmonica",
+          "name": "Jens Bunge",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jensbunge.jazzharmonica",
+          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/jensbunge.jazzharmonica/story/0"
+        },
+        {
+          "id": "yt_jensbunge",
+          "name": "Jens Bunge",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@jensbunge",
           "feedUrl": ""
         }
       ]
@@ -1062,94 +1221,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@HenrysHarmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-67",
-      "publicId": "67",
-      "name": "Marcos Coll",
-      "nameEn": "Marcos Coll",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "西班牙",
-      "region": "西班牙",
-      "cityOrFocus": "十孔/藍調",
-      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
-      "summary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
-      "keywords": "Marcos Coll harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://marcoscoll.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/marcoscollharp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/marcoscollgonzalez/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-04T21:44:09+00:00",
-      "latestUpdateLocal": "2026-07-05 05:44",
-      "latestUpdateSource": "Marcos Coll",
-      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3934101430956782166/",
-      "avatarUrl": "/assets/source-avatars/a340565f0940319d3614.webp",
-      "sourceInitials": "MC",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "國際交流",
-        "音樂會",
-        "演出"
-      ],
-      "sourceSummary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
-      "sourceTagReason": "category為演奏者，type為個人，focus在十孔/藍調，並有國際演出經歷。",
-      "monitorSources": [
-        {
-          "id": "fb_marcoscollharp",
-          "name": "Marcos Coll",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/marcoscollharp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
-        },
-        {
-          "id": "yt_marcoscollharpandsoul",
-          "name": "Marcos Coll",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
           "feedUrl": ""
         }
       ]
@@ -2438,77 +2509,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-125",
-      "publicId": "125",
-      "name": "Jens Bunge",
-      "nameEn": "Jens Bunge",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "德國",
-      "region": "德國",
-      "cityOrFocus": "德國爵士口琴/半音階演奏/國際演出與錄音",
-      "structuredSummary": "德國爵士口琴/半音階演奏/國際演出與錄音 / 半音階/爵士口琴 / 國際演出人員",
-      "summary": "德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。",
-      "keywords": "Jens Bunge jazz harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://hohner.de/en/jens-bunge"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jensbunge.jazzharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@jensbunge"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-04T05:31:19+00:00",
-      "latestUpdateLocal": "2026-07-04 13:31",
-      "latestUpdateSource": "Jens Bunge",
-      "latestUpdateUrl": "https://www.instagram.com/stories/jensbunge.jazzharmonica/3933611719812189698/",
-      "avatarUrl": "/assets/source-avatars/59b1b52b1b0ff0b2d1e7.webp",
-      "sourceInitials": "JB",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_jensbunge_jazzharmonica",
-          "name": "Jens Bunge",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jensbunge.jazzharmonica",
-          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jensbunge_jazzharmonica",
-          "name": "Jens Bunge",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jensbunge.jazzharmonica",
-          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jensbunge.jazzharmonica/story/0"
-        },
-        {
-          "id": "yt_jensbunge",
-          "name": "Jens Bunge",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@jensbunge",
           "feedUrl": ""
         }
       ]
