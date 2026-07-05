@@ -541,7 +541,7 @@ def generate_source_page(
 """
 
 
-def generate_event_page(event: dict[str, Any]) -> str:
+def generate_event_page(event: dict[str, Any], source_by_name: dict[str, dict[str, Any]] | None = None) -> str:
     event_id = escape(event.get("id"))
     title = escape(event.get("title") or event.get("eventName") or "公開口琴活動")
     start = escape(event.get("start"))
@@ -563,6 +563,79 @@ def generate_event_page(event: dict[str, Any]) -> str:
         description += f" 活動內容：{details}"
     description = description[:250]
 
+    # Resolve event image
+    image_rel_url = "/assets/hero-harmonica-observe.webp"
+    image_abs_url = "https://harmonica.observe.tw/assets/hero-harmonica-observe.webp"
+    img_url = ""
+    if event.get("image_url"):
+        img_url = event["image_url"]
+    elif event.get("images") and isinstance(event["images"], list) and event["images"]:
+        img_url = event["images"][0]
+
+    if img_url:
+        try:
+            cached_path = feed_render.cache_image(img_url)
+            if cached_path:
+                image_rel_url = cached_path
+                image_abs_url = "https://harmonica.observe.tw" + cached_path
+        except Exception as e:
+            print(f"Error caching event image {img_url}: {e}")
+
+    # Build organizer
+    organizer_dict = None
+    if source_by_name and event.get("source"):
+        src_entry = source_by_name.get(event.get("source"))
+        if src_entry:
+            slug = make_slug(src_entry)
+            org_type = "Person" if src_entry.get("category") == "演奏者" else "Organization"
+            organizer_dict = {
+                "@type": org_type,
+                "name": src_entry.get("name"),
+                "url": f"https://harmonica.observe.tw/source/{slug}/"
+            }
+    if not organizer_dict and event.get("source"):
+        organizer_dict = {
+            "@type": "Organization",
+            "name": event.get("source")
+        }
+
+    # Build performer
+    performer_dict = None
+    details_text = event.get("details") or ""
+    perf_match = re.search(r'(?:演出者|演出|演奏者|演奏)\s*[:：]\s*([^,，;；。\n]+)', details_text)
+    if perf_match:
+        perf_name = perf_match.group(1).strip()
+        if perf_name and 2 <= len(perf_name) <= 40:
+            is_group = any(k in perf_name for k in ["樂團", "社", "Orquesta", "Band", "團", "協會", "合唱團", "重奏團"])
+            performer_dict = {
+                "@type": "PerformingGroup" if is_group else "Person",
+                "name": perf_name
+            }
+
+    # Build offers
+    offers_dict = None
+    price = None
+    if details_text:
+        if any(keyword in details_text for keyword in ["免費", "免票", "自由入場"]):
+            price = 0
+        else:
+            price_match = re.search(r'(?:票價|門票|票價為|票價：|門票：)\s*(?:NT\$|TWD)?\s*(\d+)', details_text)
+            if price_match:
+                price = int(price_match.group(1))
+            else:
+                price_match2 = re.search(r'(?:票價|門票|入場)[^元\n]{0,10}?(\d+)\s*元', details_text)
+                if price_match2:
+                    price = int(price_match2.group(1))
+
+    if price is not None and evidence_url:
+        offers_dict = {
+            "@type": "Offer",
+            "price": str(price),
+            "priceCurrency": "TWD",
+            "url": evidence_url,
+            "availability": "https://schema.org/InStock"
+        }
+
     # JSON-LD
     json_ld_dict = {
         "@context": "https://schema.org",
@@ -580,14 +653,25 @@ def generate_event_page(event: dict[str, Any]) -> str:
                 "addressCountry": "TW"
             }
         },
-        "description": event.get("details") or event.get("title") or ""
+        "description": event.get("details") or event.get("title") or "公開口琴活動",
+        "image": image_abs_url
     }
-    if evidence_url:
-        json_ld_dict["offers"] = {
-            "@type": "Offer",
-            "url": evidence_url,
-            "availability": "https://schema.org/InStock"
-        }
+    if organizer_dict:
+        json_ld_dict["organizer"] = organizer_dict
+    if performer_dict:
+        json_ld_dict["performer"] = performer_dict
+    if offers_dict:
+        json_ld_dict["offers"] = offers_dict
+
+    # Recursively clean empty or None values
+    def clean_empty_json_ld(obj: Any) -> Any:
+        if isinstance(obj, dict):
+            return {k: clean_empty_json_ld(v) for k, v in obj.items() if v is not None and str(v).strip() != "" and (not isinstance(v, (dict, list)) or len(v) > 0)}
+        elif isinstance(obj, list):
+            return [clean_empty_json_ld(v) for v in obj if v is not None and str(v).strip() != "" and (not isinstance(v, (dict, list)) or len(v) > 0)]
+        return obj
+
+    json_ld_dict = clean_empty_json_ld(json_ld_dict)
     json_ld = json.dumps(json_ld_dict, ensure_ascii=False, indent=2)
 
     # Breadcrumb JSON-LD
@@ -628,6 +712,13 @@ def generate_event_page(event: dict[str, Any]) -> str:
   <a href="{escape(evidence_url)}" target="_blank" rel="noreferrer" class="primary-link" style="display: inline-block; padding: 10px 20px; background: var(--primary, #1a73e8); color: white; border-radius: 4px; text-decoration: none; font-weight: bold;">查看原始貼文/購票連結</a>
 </div>"""
 
+    # Image HTML for visual rendering
+    image_html = ""
+    if image_rel_url:
+        image_html = f"""<div style="margin-bottom: 1.5rem; text-align: center; overflow: hidden; border-radius: 6px; max-height: 400px; display: flex; align-items: center; justify-content: center; background: var(--bg-muted, #f0f0f0);">
+  <img src="{escape(image_rel_url)}" alt="{title} 活動圖片" style="max-width: 100%; max-height: 400px; object-fit: contain;" referrerpolicy="no-referrer">
+</div>"""
+
     return f"""<!doctype html>
 <html lang="zh-Hant">
   <head>
@@ -640,12 +731,12 @@ def generate_event_page(event: dict[str, Any]) -> str:
     <meta property="og:description" content="{description}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://harmonica.observe.tw/event/{event_id}/">
-    <meta property="og:image" content="https://harmonica.observe.tw/assets/hero-harmonica-observe.webp">
+    <meta property="og:image" content="{image_abs_url}">
     <meta property="og:site_name" content="臺灣口琴觀測站">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{title}｜臺灣口琴公開演出">
     <meta name="twitter:description" content="{description}">
-    <meta name="twitter:image" content="https://harmonica.observe.tw/assets/hero-harmonica-observe.webp">
+    <meta name="twitter:image" content="{image_abs_url}">
     <link rel="icon" href="/assets/favicon-20260623.svg?v=20260704-round-avatar" type="image/svg+xml">
     <link rel="stylesheet" href="/assets/styles.css?v=20260704-round-avatar">
     <script type="application/ld+json">
@@ -684,6 +775,7 @@ def generate_event_page(event: dict[str, Any]) -> str:
       <section class="band">
         <div class="band-inner">
           <div class="event-detail-card card" style="background: var(--bg-card, #ffffff); border-radius: 8px; padding: 2rem; box-shadow: 0 4px 12px rgba(0,0,0,0.05); margin-bottom: 2rem;">
+            {image_html}
             <h2 class="source-detail-title" style="font-size: 1.5rem; font-weight: 700; border-bottom: 2px solid var(--primary, #1a73e8); padding-bottom: 0.5rem; margin-top: 0; margin-bottom: 1.5rem;">活動詳情</h2>
             <table class="source-detail-table" style="width: 100%; border-collapse: collapse;">
               <tbody>
@@ -1757,13 +1849,14 @@ def main() -> int:
 
     # 4. Pre-render Event Pages
     event_count = 0
+    source_by_name = {entry.get("name"): entry for entry in entries if entry.get("name")}
     for event in events:
         event_id = clean(event.get("id"))
         if not event_id:
             continue
         page_dir = SITE_ROOT / "event" / event_id
         page_dir.mkdir(parents=True, exist_ok=True)
-        html_content = normalize_generated_html(generate_event_page(event))
+        html_content = normalize_generated_html(generate_event_page(event, source_by_name))
         (page_dir / "index.html").write_text(html_content, encoding="utf-8")
         event_count += 1
 

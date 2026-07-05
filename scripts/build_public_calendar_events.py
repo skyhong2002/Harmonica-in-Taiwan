@@ -623,6 +623,8 @@ def extract_events(
                         "source": item.get("source") or "",
                         "platform": item.get("platform") or "",
                         "postedAt": item.get("posted_at_local") or item.get("posted_at") or "",
+                        "images": override.get("images") or item.get("images") or [],
+                        "image_url": override.get("image_url") or item.get("image_url") or "",
                     }
                 )
                 events.append(override)
@@ -708,6 +710,8 @@ def extract_events(
                     "confidence": review.get("confidence") or 0,
                     "calendarReview": review,
                     "postedAt": item.get("posted_at_local") or item.get("posted_at") or "",
+                    "images": item.get("images") or [],
+                    "image_url": item.get("image_url") or "",
                 }
             )
 

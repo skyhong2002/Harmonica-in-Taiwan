@@ -46,6 +46,9 @@ def robots_noindex(content: str) -> str:
 
 
 def validate_json_ld(content: str, rel_path: str, errors: list[str]) -> None:
+    has_event_block = False
+    is_event_page = "site/event/" in rel_path or "/event/" in rel_path
+    
     for index, match in enumerate(
         re.finditer(
             r'<script\s+[^>]*type="application/ld\+json"[^>]*>(.*?)</script>',
@@ -56,9 +59,74 @@ def validate_json_ld(content: str, rel_path: str, errors: list[str]) -> None:
     ):
         raw = match.group(1).strip()
         try:
-            json.loads(raw)
+            data = json.loads(raw)
+            if isinstance(data, dict) and data.get("@type") == "Event":
+                has_event_block = True
+                
+                # 1. required fields: name, startDate, location
+                for req in ["name", "startDate", "location"]:
+                    val = data.get(req)
+                    if not val:
+                        errors.append(f"Event in {rel_path} is missing required field '{req}'")
+                    elif isinstance(val, str) and not val.strip():
+                        errors.append(f"Event in {rel_path} has empty required field '{req}'")
+                
+                # Check location structure
+                loc = data.get("location")
+                if isinstance(loc, dict):
+                    if not loc.get("name") or not str(loc.get("name")).strip():
+                        errors.append(f"Event in {rel_path} location has empty name")
+                
+                # 2. offers validation
+                if "offers" in data:
+                    offers = data["offers"]
+                    if not isinstance(offers, dict):
+                        errors.append(f"Event in {rel_path} offers is not an object")
+                    else:
+                        # must have url
+                        if not offers.get("url") or not str(offers.get("url")).strip():
+                            errors.append(f"Event in {rel_path} offers is missing 'url'")
+                        # price and priceCurrency consistency
+                        has_price = "price" in offers
+                        has_currency = "priceCurrency" in offers
+                        if has_price or has_currency:
+                            if not has_price or offers.get("price") is None or str(offers.get("price")).strip() == "":
+                                errors.append(f"Event in {rel_path} offers is missing 'price'")
+                            if not has_currency or not offers.get("priceCurrency") or not str(offers.get("priceCurrency")).strip():
+                                errors.append(f"Event in {rel_path} offers is missing 'priceCurrency'")
+
+                # 3. image must be absolute URL
+                if "image" in data:
+                    img = data["image"]
+                    if not img:
+                        errors.append(f"Event in {rel_path} has empty 'image' field")
+                    elif not (isinstance(img, str) and (img.startswith("http://") or img.startswith("https://"))):
+                        errors.append(f"Event in {rel_path} 'image' is not an absolute URL: {img}")
+
+                # 4. No empty string, null, empty object, or empty list allowed anywhere
+                def check_empty_values(obj: Any, path_str: str) -> None:
+                    if obj is None:
+                        errors.append(f"Event in {rel_path} has null value at '{path_str}'")
+                    elif isinstance(obj, str):
+                        if not obj.strip():
+                            errors.append(f"Event in {rel_path} has empty string at '{path_str}'")
+                    elif isinstance(obj, dict):
+                        if not obj:
+                            errors.append(f"Event in {rel_path} has empty object at '{path_str}'")
+                        for k, v in obj.items():
+                            check_empty_values(v, f"{path_str}.{k}" if path_str else k)
+                    elif isinstance(obj, list):
+                        if not obj:
+                            errors.append(f"Event in {rel_path} has empty list at '{path_str}'")
+                        for i, item_val in enumerate(obj):
+                            check_empty_values(item_val, f"{path_str}[{i}]")
+
+                check_empty_values(data, "")
         except json.JSONDecodeError as exc:
             errors.append(f"invalid JSON-LD in {rel_path} block {index}: {exc.msg}")
+            
+    if is_event_page and not has_event_block:
+        errors.append(f"Event page {rel_path} is missing JSON-LD block with @type: Event")
 
 
 def validate_source_index(errors: list[str]) -> None:
