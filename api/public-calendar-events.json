@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-05T16:22:52+08:00",
+  "generatedAt": "2026-07-05T16:47:34+08:00",
   "timezone": "Asia/Taipei",
   "count": 3,
   "source": "/api/events.json",
@@ -44,7 +44,11 @@
       "id": "8e6bb6caf65dafbb",
       "source": "臺灣口琴音樂節 THMF",
       "platform": "facebook",
-      "postedAt": "2026-07-01 12:07"
+      "postedAt": "2026-07-01 12:07",
+      "images": [
+        "https://scontent.ffar2-1.fna.fbcdn.net/v/t39.30808-6/735317499_1034756378931421_5947744582797300780_n.jpg?stp=dst-jpg_tt6&cstp=mx1100x492&ctp=s1100x492&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=R-xoDCbeJIkQ7kNvwFAiL1y&_nc_oc=Adohuo57pievfv5k3Q1Xu4HhbwMCs2nmAXzd2wdC2gZOrelXKOTMNujjshWpcieeJ7Q&_nc_zt=23&_nc_ht=scontent.ffar2-1.fna&_nc_gid=aJVyHrXM02x2EhXODrv9kg&_nc_ss=72289&oh=00_AQDFvsyVbBbDLvMD9cnKGUMMQuVHZcsNC0SvUy6BeLZWmA&oe=6A4B0954"
+      ],
+      "image_url": "/assets/feed-images/ab515c44a5d476022d4a.webp"
     },
     {
       "eventName": "臺灣探戈樂團創團音樂會",
@@ -71,7 +75,11 @@
       "id": "88fb7911620b72be",
       "source": "Yora",
       "platform": "youtube",
-      "postedAt": "2026-06-26 18:30"
+      "postedAt": "2026-06-26 18:30",
+      "images": [
+        "https://i.ytimg.com/vi/PA11sSFkJeA/maxresdefault.jpg"
+      ],
+      "image_url": "/assets/feed-images/17f8a4214970bdefa716.webp"
     },
     {
       "eventName": "臺中一中口琴之狼校友音樂會《天琴聲等煙雨》",
@@ -98,7 +106,11 @@
       "id": "6670d32764968444",
       "source": "中一中口琴社",
       "platform": "facebook",
-      "postedAt": "2026-07-03 17:52"
+      "postedAt": "2026-07-03 17:52",
+      "images": [
+        "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-6/736921370_1546041260866287_3590465714306944280_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x500&ctp=s1200x500&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Snb5y5-ibAwQ7kNvwFpj7pO&_nc_oc=AdonLbu3ItPejPFxit3hf_Y3N2YaDYUcvRU3h74D4v0ryLmRV_GMt9PLGF4j3UIowkg&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=GyYaZsWIBdifSFV3V4iExw&_nc_ss=72289&oh=00_AQD9YvoYz2mvfVWCZjYlmjkTowhPfKdnRznmfoho_DVtpA&oe=6A4DA8CB"
+      ],
+      "image_url": "/assets/feed-images/db6b49e57601f4e9884d.webp"
     }
   ]
 }
