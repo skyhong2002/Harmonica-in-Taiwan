@@ -1,6 +1,6 @@
 window.publicCalendarEvents = {
   "version": 1,
-  "generatedAt": "2026-07-06T18:28:55+08:00",
+  "generatedAt": "2026-07-06T19:35:24+08:00",
   "timezone": "Asia/Taipei",
   "count": 4,
   "source": "/api/events.json",
@@ -14,7 +14,7 @@ window.publicCalendarEvents = {
     "model": "mimo-v2.5",
     "stats": {
       "requests": 0,
-      "cached": 17,
+      "cached": 18,
       "errors": 0
     }
   },

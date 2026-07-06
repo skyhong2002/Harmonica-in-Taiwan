@@ -106,10 +106,10 @@
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-07-06T08:41:51+00:00",
-      "latestUpdateLocal": "2026-07-06 16:41",
+      "latestUpdateAt": "2026-07-06T08:54:55+00:00",
+      "latestUpdateLocal": "2026-07-06 16:54",
       "latestUpdateSource": "南里沙",
-      "latestUpdateUrl": "https://x.com/minami_risa/status/2074051187033452555",
+      "latestUpdateUrl": "https://www.instagram.com/stories/minami_risa/3935163742325279260/",
       "avatarUrl": "/assets/source-avatars/fdefacea4d8029e06564.webp",
       "sourceInitials": "南里",
       "sourceTags": [
@@ -215,6 +215,92 @@
           "type": "rsshub_instagram_profile",
           "username": "taro_senga",
           "profileUrl": "https://www.instagram.com/taro_senga/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-178",
+      "publicId": "178",
+      "name": "Harmonica FEN 口琴節與學院",
+      "nameEn": "Harmonica FEN Festival & Academy",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/教育入口",
+      "country": "德國",
+      "region": "德國/柏林",
+      "cityOrFocus": "柏林口琴節/Academy/演奏會/工作坊/Open Stage",
+      "structuredSummary": "柏林口琴節/Academy/演奏會/工作坊/Open Stage / 口琴/半音階/十孔/跨界 / 國際活動/教育來源",
+      "summary": "德國的國際活動與教育來源，涵蓋柏林口琴節、Academy、演奏會、工作坊與Open Stage。",
+      "keywords": "Harmonica FEN Festival Academy Berlin harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica-fen-festival.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonicafenfestival"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_fen_festival/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-06T07:28:54+00:00",
+      "latestUpdateLocal": "2026-07-06 15:28",
+      "latestUpdateSource": "Harmonica FEN 口琴節與學院",
+      "latestUpdateUrl": "https://www.instagram.com/p/DacWyoEiCpD/",
+      "avatarUrl": "/assets/source-avatars/93a3e78c4a746305a908.webp",
+      "sourceInitials": "HF",
+      "sourceTags": [
+        "活動資訊",
+        "比賽",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicafenfestival",
+          "name": "Harmonica FEN 口琴節與學院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonicafenfestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_harmonica_fen_festival",
+          "name": "Harmonica FEN 口琴節與學院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_fen_festival",
+          "profileUrl": "https://www.instagram.com/harmonica_fen_festival/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_fen_festival",
+          "name": "Harmonica FEN 口琴節與學院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_fen_festival",
+          "profileUrl": "https://www.instagram.com/harmonica_fen_festival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_fen_festival/story/0"
+        },
+        {
+          "id": "yt_uctti8xh0v4dgrgp7hz68bww",
+          "name": "Harmonica FEN 口琴節與學院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw",
           "feedUrl": ""
         }
       ]
@@ -722,6 +808,101 @@
       ]
     },
     {
+      "id": "watchlist-78",
+      "publicId": "78",
+      "name": "衛武營國家藝術文化中心",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "衛武營 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-weiwuying.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@weiwuyingfilm"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@weiwuying_centerforthearts"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-06T01:30:27+00:00",
+      "latestUpdateLocal": "2026-07-06 09:30",
+      "latestUpdateSource": "衛武營國家藝術文化中心",
+      "latestUpdateUrl": "https://www.instagram.com/stories/weiwuying_centerforthearts/3934940036718354728/",
+      "avatarUrl": "/assets/source-avatars/9d6119244c757a072fc5.webp",
+      "sourceInitials": "衛武",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_weiwuyingcenterforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
+        },
+        {
+          "id": "ig_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "threads",
+          "type": "rss",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
+          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
+        },
+        {
+          "id": "yt_weiwuyingfilm",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@weiwuyingfilm",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-67",
       "publicId": "67",
       "name": "Marcos Coll",
@@ -806,6 +987,77 @@
           "username": "",
           "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-151",
+      "publicId": "151",
+      "name": "Rachelle Plas & Philippe Hervouet",
+      "nameEn": "Rachelle Plas & Philippe Hervouet",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體/合作企劃",
+      "country": "法國",
+      "region": "法國",
+      "cityOrFocus": "WHF 2025/藍調口琴/吉他與歌唱/Golden Melody ambassador",
+      "structuredSummary": "WHF 2025/藍調口琴/吉他與歌唱/Golden Melody ambassador / 十孔/藍調口琴/吉他/人聲 / 國際演出團體",
+      "summary": "法國的十孔、藍調口琴、吉他與人聲國際演出團體，活動脈絡包含WHF 2025、吉他與歌唱與Golden Melody ambassador。",
+      "keywords": "Rachelle Plas Philippe Hervouet Plas Hervouet Band harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "http://www.plashervouetband.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/plashervouetband/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/plashervouetband/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-05T22:51:54+00:00",
+      "latestUpdateLocal": "2026-07-06 06:51",
+      "latestUpdateSource": "Rachelle Plas & Philippe Hervouet",
+      "latestUpdateUrl": "https://www.instagram.com/stories/plashervouetband/3934860232383879499/",
+      "avatarUrl": "/assets/source-avatars/2f0f180921cab6fcdf22.webp",
+      "sourceInitials": "RPP",
+      "sourceTags": [
+        "團體樂團",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_plashervouetband",
+          "name": "Rachelle Plas & Philippe Hervouet",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/plashervouetband",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_plashervouetband",
+          "name": "Rachelle Plas & Philippe Hervouet",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "plashervouetband",
+          "profileUrl": "https://www.instagram.com/plashervouetband/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_plashervouetband",
+          "name": "Rachelle Plas & Philippe Hervouet",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "plashervouetband",
+          "profileUrl": "https://www.instagram.com/plashervouetband/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/plashervouetband/story/0"
         }
       ]
     },
@@ -1757,101 +2009,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-78",
-      "publicId": "78",
-      "name": "衛武營國家藝術文化中心",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/高雄",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "衛武營 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-weiwuying.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@weiwuyingfilm"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@weiwuying_centerforthearts"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-05T14:01:16+00:00",
-      "latestUpdateLocal": "2026-07-05 22:01",
-      "latestUpdateSource": "衛武營國家藝術文化中心",
-      "latestUpdateUrl": "https://www.instagram.com/p/Daae2SVjaOe/",
-      "avatarUrl": "/assets/source-avatars/9d6119244c757a072fc5.webp",
-      "sourceInitials": "衛武",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_weiwuyingcenterforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
-        },
-        {
-          "id": "ig_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "threads",
-          "type": "rss",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
-          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
-        },
-        {
-          "id": "yt_weiwuyingfilm",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@weiwuyingfilm",
           "feedUrl": ""
         }
       ]
@@ -4132,92 +4289,6 @@
       ]
     },
     {
-      "id": "watchlist-178",
-      "publicId": "178",
-      "name": "Harmonica FEN 口琴節與學院",
-      "nameEn": "Harmonica FEN Festival & Academy",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "活動/教育入口",
-      "country": "德國",
-      "region": "德國/柏林",
-      "cityOrFocus": "柏林口琴節/Academy/演奏會/工作坊/Open Stage",
-      "structuredSummary": "柏林口琴節/Academy/演奏會/工作坊/Open Stage / 口琴/半音階/十孔/跨界 / 國際活動/教育來源",
-      "summary": "德國的國際活動與教育來源，涵蓋柏林口琴節、Academy、演奏會、工作坊與Open Stage。",
-      "keywords": "Harmonica FEN Festival Academy Berlin harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica-fen-festival.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonicafenfestival"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/harmonica_fen_festival/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-03T08:15:49+00:00",
-      "latestUpdateLocal": "2026-07-03 16:15",
-      "latestUpdateSource": "Harmonica FEN 口琴節與學院",
-      "latestUpdateUrl": "https://www.instagram.com/p/DaUtO6Oo88o/",
-      "avatarUrl": "/assets/source-avatars/93a3e78c4a746305a908.webp",
-      "sourceInitials": "HF",
-      "sourceTags": [
-        "活動資訊",
-        "比賽",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonicafenfestival",
-          "name": "Harmonica FEN 口琴節與學院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonicafenfestival",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_harmonica_fen_festival",
-          "name": "Harmonica FEN 口琴節與學院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "harmonica_fen_festival",
-          "profileUrl": "https://www.instagram.com/harmonica_fen_festival/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_harmonica_fen_festival",
-          "name": "Harmonica FEN 口琴節與學院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "harmonica_fen_festival",
-          "profileUrl": "https://www.instagram.com/harmonica_fen_festival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_fen_festival/story/0"
-        },
-        {
-          "id": "yt_uctti8xh0v4dgrgp7hz68bww",
-          "name": "Harmonica FEN 口琴節與學院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-79",
       "publicId": "79",
       "name": "國家兩廳院",
@@ -6320,77 +6391,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/@learntheharmonica",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-151",
-      "publicId": "151",
-      "name": "Rachelle Plas & Philippe Hervouet",
-      "nameEn": "Rachelle Plas & Philippe Hervouet",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體/合作企劃",
-      "country": "法國",
-      "region": "法國",
-      "cityOrFocus": "WHF 2025/藍調口琴/吉他與歌唱/Golden Melody ambassador",
-      "structuredSummary": "WHF 2025/藍調口琴/吉他與歌唱/Golden Melody ambassador / 十孔/藍調口琴/吉他/人聲 / 國際演出團體",
-      "summary": "法國的十孔、藍調口琴、吉他與人聲國際演出團體，活動脈絡包含WHF 2025、吉他與歌唱與Golden Melody ambassador。",
-      "keywords": "Rachelle Plas Philippe Hervouet Plas Hervouet Band harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "http://www.plashervouetband.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/plashervouetband/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/plashervouetband/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-27T17:28:14+00:00",
-      "latestUpdateLocal": "2026-06-28 01:28",
-      "latestUpdateSource": "Rachelle Plas & Philippe Hervouet",
-      "latestUpdateUrl": "https://www.instagram.com/stories/plashervouetband/3928899123046884984/",
-      "avatarUrl": "/assets/source-avatars/2f0f180921cab6fcdf22.webp",
-      "sourceInitials": "RPP",
-      "sourceTags": [
-        "團體樂團",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_plashervouetband",
-          "name": "Rachelle Plas & Philippe Hervouet",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/plashervouetband",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_plashervouetband",
-          "name": "Rachelle Plas & Philippe Hervouet",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "plashervouetband",
-          "profileUrl": "https://www.instagram.com/plashervouetband/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_plashervouetband",
-          "name": "Rachelle Plas & Philippe Hervouet",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "plashervouetband",
-          "profileUrl": "https://www.instagram.com/plashervouetband/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/plashervouetband/story/0"
         }
       ]
     },
