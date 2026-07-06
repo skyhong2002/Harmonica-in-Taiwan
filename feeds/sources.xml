@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 06 Jul 2026 18:53:31 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 19:26:13 +0000</lastBuildDate>
     <item>
       <title>Jens Bunge</title>
       <link>https://hohner.de/en/jens-bunge</link>
@@ -216,6 +216,17 @@ Tag：場館平台
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
+      <title>陳鴻儀</title>
+      <link>https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/49b1bf57125f847c</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、演出
+國家：臺灣
+地區：臺灣
+口琴演奏家，專注於演出與評審工作。</description>
+    </item>
+    <item>
       <title>Marcos Coll</title>
       <link>https://marcoscoll.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/3515abad4f43ad4a</guid>
@@ -401,17 +412,6 @@ Tag：團體樂團、半音階、重奏、國際交流
 國家：馬來西亞
 地區：馬來西亞
 馬來西亞的半音階與重奏國際演出團體與二重奏，活動脈絡包含二重奏、影片與THMF。</description>
-    </item>
-    <item>
-      <title>陳鴻儀</title>
-      <link>https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/49b1bf57125f847c</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、演出
-國家：臺灣
-地區：臺灣
-口琴演奏家，專注於演出與評審工作。</description>
     </item>
     <item>
       <title>蔡明勳</title>
