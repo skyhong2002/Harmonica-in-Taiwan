@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 06 Jul 2026 18:20:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 18:53:31 +0000</lastBuildDate>
     <item>
       <title>Jens Bunge</title>
       <link>https://hohner.de/en/jens-bunge</link>
@@ -60,6 +60,17 @@ Tag：演奏者、半音階、合奏、國際交流
 國家：香港
 地區：香港
 香港半音階口琴演奏者，專注現代跨界與國際演出。</description>
+    </item>
+    <item>
+      <title>新加坡青年節藝術展演（口琴）</title>
+      <link>https://www.syf.gov.sg/general/calendar</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/cecd8b1d8d6fdb0c</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、比賽
+國家：新加坡
+地區：新加坡
+新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。</description>
     </item>
     <item>
       <title>菜鳥琴老師很菜</title>
@@ -489,17 +500,6 @@ Tag：團體樂團、國際交流
 國家：印尼
 地區：印尼
 印尼的口琴與跨界國際演出團體，活動脈絡包含Reyharp Naufal與Balawan合作、跨界融合與口琴與吉他。</description>
-    </item>
-    <item>
-      <title>新加坡青年節藝術展演（口琴）</title>
-      <link>https://www.syf.gov.sg/general/calendar</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/cecd8b1d8d6fdb0c</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：活動資訊、比賽
-國家：新加坡
-地區：新加坡
-新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。</description>
     </item>
     <item>
       <title>F.I.H. JAPAN ハーモニカコンテスト</title>
