@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-06T08:47:14+08:00",
+  "generatedAt": "2026-07-06T09:51:19+08:00",
   "timezone": "Asia/Taipei",
-  "count": 3,
+  "count": 4,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,7 +14,7 @@
     "model": "mimo-v2.5",
     "stats": {
       "requests": 0,
-      "cached": 15,
+      "cached": 16,
       "errors": 0
     }
   },
@@ -49,6 +49,37 @@
         "https://scontent.ffar2-1.fna.fbcdn.net/v/t39.30808-6/735317499_1034756378931421_5947744582797300780_n.jpg?stp=dst-jpg_tt6&cstp=mx1100x492&ctp=s1100x492&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=R-xoDCbeJIkQ7kNvwFAiL1y&_nc_oc=Adohuo57pievfv5k3Q1Xu4HhbwMCs2nmAXzd2wdC2gZOrelXKOTMNujjshWpcieeJ7Q&_nc_zt=23&_nc_ht=scontent.ffar2-1.fna&_nc_gid=aJVyHrXM02x2EhXODrv9kg&_nc_ss=72289&oh=00_AQDFvsyVbBbDLvMD9cnKGUMMQuVHZcsNC0SvUy6BeLZWmA&oe=6A4B0954"
       ],
       "image_url": "/assets/feed-images/ab515c44a5d476022d4a.webp"
+    },
+    {
+      "id": "58e6eb4dd2e35a26",
+      "title": "府城仲夏音樂博覽會",
+      "eventName": "府城仲夏音樂博覽會",
+      "source": "李讓 Jang Li",
+      "platform": "instagram",
+      "start": "2026-07-12",
+      "end": "2026-07-13",
+      "allDay": true,
+      "location": "臺南 府城仲夏音樂博覽會",
+      "venue": "府城仲夏音樂博覽會",
+      "city": "臺南",
+      "details": "李讓與 Sirius Harmonica Ensemble 將演奏和弦口琴編曲作品《Indifférence》，為實體演出。",
+      "evidenceUrl": "https://www.instagram.com/p/DaabPZlzYYd/",
+      "confidence": 0.9,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventName": "府城仲夏音樂博覽會",
+        "venue": "府城仲夏音樂博覽會",
+        "city": "臺南",
+        "details": "李讓與 Sirius Harmonica Ensemble 將演奏和弦口琴編曲作品《Indifférence》，為實體演出。",
+        "reason": "貼文明確提及7月12日於「府城仲夏音樂博覽會」有口琴演出，地點在台灣（府城為臺南古稱），屬線下公開活動。",
+        "confidence": 0.9
+      },
+      "postedAt": "2026-07-05 21:38",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/735595182_1279103527420199_7984608992715859379_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=105&ig_cache_key=MzkzNDU3NzAyOTk4NzI3MjIyMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=N_zXwyktELEQ7kNvwEy4jNF&_nc_oc=Adoe9yV57thMthgGeCcgztJxcNMPbPWT3EwD2np0upndOaCDWGjs46fw5Z2WmeTtCrY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=u8vVQbsEYFz_BSlN8Moj4Q&_nc_ss=7a22e&oh=00_AQAdV7tKjUrUabWBubXIkM-u0v-HMQIeO3qWVq4MFS0f7g&oe=6A50E1B6"
+      ],
+      "image_url": "/assets/feed-images/1bfabba50e56529ac6e7.webp"
     },
     {
       "eventName": "臺灣探戈樂團創團音樂會",
