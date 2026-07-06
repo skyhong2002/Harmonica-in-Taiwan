@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 06 Jul 2026 21:06:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 22:13:13 +0000</lastBuildDate>
     <item>
       <title>Howard Levy</title>
       <link>https://levyland.com/</link>
@@ -38,6 +38,17 @@ Tag：演奏者、半音階、國際交流
 國家：德國
 地區：德國
 德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。</description>
+    </item>
+    <item>
+      <title>雙燕樂器</title>
+      <link>https://www.musix.com.tw/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/436087c2e2f29e3b</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：教學器材、教學
+國家：臺灣
+地區：臺灣
+臺灣的口琴器材來源，關注口琴器材與活動資訊。</description>
     </item>
     <item>
       <title>EMPA 口琴課程</title>
@@ -183,6 +194,28 @@ Tag：演奏者
 臺灣的口琴演出人員，活動脈絡包含111 Trio與Quintet。</description>
     </item>
     <item>
+      <title>吹出好心琴 + Ou Frog</title>
+      <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/a7900260c88a5842</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：品牌、教學器材、教學
+國家：臺灣
+地區：臺灣
+臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
+    </item>
+    <item>
+      <title>衛武營國家藝術文化中心</title>
+      <link>https://www.npac-weiwuying.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/886a3e69f2bc562c</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/高雄
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
       <title>梁承熹 Kelvin Leung</title>
       <link>https://harmonica-kelvin.weebly.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/fbf9a193b1b32198</guid>
@@ -214,17 +247,6 @@ Tag：演奏者、半音階、國際交流
 國家：日本
 地區：日本
 日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
-    </item>
-    <item>
-      <title>衛武營國家藝術文化中心</title>
-      <link>https://www.npac-weiwuying.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/886a3e69f2bc562c</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/高雄
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>陳鴻儀</title>
@@ -588,17 +610,6 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/臺北
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
-    </item>
-    <item>
-      <title>吹出好心琴 + Ou Frog</title>
-      <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/a7900260c88a5842</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：品牌、教學器材、教學
-國家：臺灣
-地區：臺灣
-臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
     </item>
     <item>
       <title>歐純伶</title>
@@ -1941,17 +1952,6 @@ Tag：教學器材、教學、工作室
 國家：臺灣
 地區：臺灣/高雄
 臺灣的口琴與手鼓教學、工作坊與活動來源，關注手鼓教學、工作室與講座。</description>
-    </item>
-    <item>
-      <title>雙燕樂器</title>
-      <link>https://www.musix.com.tw/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/436087c2e2f29e3b</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：教學器材、教學
-國家：臺灣
-地區：臺灣
-臺灣的口琴器材來源，關注口琴器材與活動資訊。</description>
     </item>
     <item>
       <title>An Afternoon with Harmonica</title>
