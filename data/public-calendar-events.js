@@ -1,6 +1,6 @@
 window.publicCalendarEvents = {
   "version": 1,
-  "generatedAt": "2026-07-06T12:00:10+08:00",
+  "generatedAt": "2026-07-06T12:31:41+08:00",
   "timezone": "Asia/Taipei",
   "count": 4,
   "source": "/api/events.json",
@@ -13,8 +13,8 @@ window.publicCalendarEvents = {
     "tokenSource": "keychain:harmonica-opencode-go/harmonica",
     "model": "mimo-v2.5",
     "stats": {
-      "requests": 1,
-      "cached": 16,
+      "requests": 0,
+      "cached": 17,
       "errors": 0
     }
   },
