@@ -380,10 +380,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-07-05T15:17:58+00:00",
-      "latestUpdateLocal": "2026-07-05 23:17",
+      "latestUpdateAt": "2026-07-05T15:30:36+00:00",
+      "latestUpdateLocal": "2026-07-05 23:30",
       "latestUpdateSource": "曹小歐",
-      "latestUpdateUrl": "https://www.instagram.com/p/DaanhUoPV3Y/",
+      "latestUpdateUrl": "https://www.instagram.com/stories/otistsao/3934638123201795159/",
       "avatarUrl": "/assets/source-avatars/6bb91ef54d045d117942.webp",
       "sourceInitials": "曹小",
       "sourceTags": [
