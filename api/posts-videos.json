@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/posts-videos.xml",
   "json": "https://harmonica.observe.tw/api/posts-videos.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/posts-videos.json",
-  "count": 1053,
+  "count": 1054,
   "items": [
     {
       "title": "Howard Levy｜Instagram story @howardlevyland",
@@ -609,6 +609,80 @@
         "貼文影片"
       ],
       "key": "ig_story_hk91f06:3934632974649660509_521729158"
+    },
+    {
+      "title": "曹小歐 OtisTsao｜飛客俱樂部7月份 特邀阿秋，光頭哥Evan，樂樂法利，曹小歐，懿霽一起來舉辦脫口秀拼盤秀！ 機會難得！ 錯過可惜！ 「 第一超棒臺北脫口秀！ 」 07/25（六）20:00 演員：阿秋，光頭哥Evan，樂樂法利，…",
+      "headline": "飛客俱樂部7月份 特邀阿秋，光頭哥Evan，樂樂法利，曹小歐，懿霽一起來舉辦脫口秀拼盤秀！ 機會難得！ 錯過可惜！",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DaanhUoPV3Y/",
+      "source_id": "ig_otistsao",
+      "source": "曹小歐 OtisTsao",
+      "source_system_name": "曹小歐",
+      "source_profile_url": "https://www.instagram.com/otistsao/",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-100",
+      "directory_entry_name": "曹小歐",
+      "account": "otistsao",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Sun, 05 Jul 2026 15:17:58 GMT",
+      "posted_at_local": "2026-07-05 23:17",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-06T00:14:14.757977+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/otistsao",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "演出"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.85,
+      "llm_labels": [
+        "口琴",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文提及表演者曹小歐為口琴手，並預告其參與演出，符合口琴演奏者公開更新條件。",
+      "text": "飛客俱樂部7月份 特邀阿秋，光頭哥Evan，樂樂法利，曹小歐，懿霽一起來舉辦脫口秀拼盤秀！ 機會難得！ 錯過可惜！\n「 第一超棒臺北脫口秀！ 」\n07/25（六）20:00\n演員：阿秋，光頭哥Evan，樂樂法利，曹小歐，懿霽\n早鳥：400\n全票：450\n購票連結：\nhttps://www.accupass.com/go/2026_first_juy\n《樂樂法利》\n是一位曾巡迴世界各地演出的雙語喜劇演員，足跡遍及洛杉磯、紐約、上海及臺北。他在 YouTube 上擁有超過 40 萬名訂閱者，近期更移居臺灣，以尋求進一步拓展他的單口喜劇事業與內容創作。\n《Evan光頭哥》\n-aka Evan Danger是一名在美國出生，中國長大的雙語單口喜劇脫口秀演員。\n-他在亞洲各地舉辦過個人專場。\n-光頭先生上過很多節目包括《上海摩天輪》，《面白之王》，《開心果》和《給約嗎？》。\n-全臺灣最優秀的光頭老外雙語脫口秀演員。最近也上了《中文怪物》和 《綜藝大熱門》。\n《曹小歐》\n單口喜劇演員，口琴手。前上班不要看成員。演出內容葷素不忌，在台上擅以無害外表引爆笑點。\n《阿秋》\n喜劇寫手，擅長抱怨人生鳥事，住在內湖。\n《懿霽》\n十年牙科材料商業務\n分享生活荒謬故事與生活觀察\n臺北！你們准備好了嗎？",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/732763332_17946450057215414_4972973161384530159_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzkzNDYzMTAzODE2ODE2MTc1Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=QaH-KzFpVXEQ7kNvwHCNp3w&_nc_oc=Adobw_1hGWrQdSSZPpsp8pdi2ek9xMK9z3eOlWgH0ZB5HSBF88F9czX6XQc5B7uq4m0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=czJ87RjzwsBQGRAJwUfsrQ&_nc_ss=7a22e&oh=00_AQDL-UbkoauuTmegsLME-e602z6uObW8FM2mViQ6GwZAWQ&oe=6A50CE7B"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/732763332_17946450057215414_4972973161384530159_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzkzNDYzMTAzODE2ODE2MTc1Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=QaH-KzFpVXEQ7kNvwHCNp3w&_nc_oc=Adobw_1hGWrQdSSZPpsp8pdi2ek9xMK9z3eOlWgH0ZB5HSBF88F9czX6XQc5B7uq4m0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=czJ87RjzwsBQGRAJwUfsrQ&_nc_ss=7a22e&oh=00_AQDL-UbkoauuTmegsLME-e602z6uObW8FM2mViQ6GwZAWQ&oe=6A50CE7B",
+      "image_url": "/assets/feed-images/a942c19e672a920031e5.webp",
+      "image_width": 800,
+      "image_height": 800,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/564773496_18527480284061825_4311855118159863354_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gF3EL0iFLnmjv9HO4WgG-fE7uuc_-CtouhI6Z5Rtqs6GwE2BhiLlOEWMR0Xz-Tn7KY&_nc_ohc=ZQINkasbWdAQ7kNvwFRiVFn&_nc_gid=LVB0vMm4vO87VeaBgEI_KQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQDusAEuYWl6tjrzPHC9bVADgsUfkBa8K1S3JpTPV-q5Sg&oe=6A50BE53&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/65a4f70590bebaffa467.webp",
+      "source_initials": "O",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_otistsao:https://www.instagram.com/p/DaanhUoPV3Y/"
     },
     {
       "title": "李讓 Jang Li｜@jangli_harmonica: 天啊這些小女生會不會太厲害！口琴還能這樣吹的嗎？？❤️ @jangli_harmonica : 天啊這些小女生會不會太厲害！口琴還能這樣吹的嗎？？❤️",
