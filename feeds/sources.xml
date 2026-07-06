@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 06 Jul 2026 14:53:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 15:29:07 +0000</lastBuildDate>
     <item>
       <title>Jens Bunge</title>
       <link>https://hohner.de/en/jens-bunge</link>
@@ -38,6 +38,17 @@ Tag：演奏者、十孔
 國家：臺灣
 地區：臺灣
 臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。</description>
+    </item>
+    <item>
+      <title>馬來西亞口琴節</title>
+      <link>https://www.facebook.com/malaysiaharmonicafestival/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/17d4f5097cac10dd</guid>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、團體樂團、比賽、重奏、國際交流
+國家：馬來西亞
+地區：馬來西亞/吉隆坡
+馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。</description>
     </item>
     <item>
       <title>CY Leo 何卓彥</title>
@@ -544,17 +555,6 @@ Tag：教學器材、教學
 國家：臺灣
 地區：臺灣/臺中
 臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。</description>
-    </item>
-    <item>
-      <title>馬來西亞口琴節</title>
-      <link>https://www.facebook.com/malaysiaharmonicafestival/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/17d4f5097cac10dd</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：活動資訊、團體樂團、比賽、重奏、國際交流
-國家：馬來西亞
-地區：馬來西亞/吉隆坡
-馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。</description>
     </item>
     <item>
       <title>中一中口琴社</title>
