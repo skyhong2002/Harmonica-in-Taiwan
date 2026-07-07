@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-07T23:25:13+08:00",
+  "generatedAt": "2026-07-08T00:29:03+08:00",
   "timezone": "Asia/Taipei",
   "count": 5,
   "source": "/api/events.json",
@@ -14,7 +14,7 @@
     "model": "mimo-v2.5",
     "stats": {
       "requests": 0,
-      "cached": 15,
+      "cached": 13,
       "errors": 0
     }
   },
