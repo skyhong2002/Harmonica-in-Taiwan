@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 07 Jul 2026 14:53:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 15:25:13 +0000</lastBuildDate>
     <item>
       <title>EMPA 口琴課程</title>
       <link>https://www.empa.edu.ar/</link>
@@ -27,6 +27,17 @@ Tag：演奏者、半音階、國際交流
 國家：日本
 地區：日本
 日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+    </item>
+    <item>
+      <title>mr.Why 花影樂團</title>
+      <link>https://portaly.cc/mr.Why</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/8f72f2250c354857</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、演奏者、演出、音樂會
+國家：臺灣
+地區：臺灣
+以李讓為核心的跨界流行口琴演出團體。</description>
     </item>
     <item>
       <title>Jens Bunge</title>
@@ -126,6 +137,17 @@ Tag：演奏者、十孔
 國家：臺灣
 地區：臺灣
 臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。</description>
+    </item>
+    <item>
+      <title>Dr. Blue 口琴樂團</title>
+      <link>https://drblue.kktix.cc/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/e08432ad993f31d6</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏、演出
+國家：臺灣
+地區：臺灣
+台大藍聲系背景的青年口琴重奏樂團，專注於室內樂演出。</description>
     </item>
     <item>
       <title>新竹縣文化局</title>
@@ -1184,17 +1206,6 @@ Tag：學生社團
 臺灣的口琴學校社團。</description>
     </item>
     <item>
-      <title>Dr. Blue 口琴樂團</title>
-      <link>https://drblue.kktix.cc/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/e08432ad993f31d6</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏、演出
-國家：臺灣
-地區：臺灣
-台大藍聲系背景的青年口琴重奏樂團，專注於室內樂演出。</description>
-    </item>
-    <item>
       <title>桃園玩口琴</title>
       <link>https://www.facebook.com/p/%E6%A1%83%E5%9C%92%E7%8E%A9%E5%8F%A3%E7%90%B4-100057424090624/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/51d5dfa685c7370c</guid>
@@ -1325,17 +1336,6 @@ Tag：學生社團、大專社團
 國家：臺灣
 地區：臺灣/臺中
 臺灣的口琴學校社團。</description>
-    </item>
-    <item>
-      <title>mr.Why 花影樂團</title>
-      <link>https://portaly.cc/mr.Why</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/8f72f2250c354857</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、演奏者、演出、音樂會
-國家：臺灣
-地區：臺灣
-以李讓為核心的跨界流行口琴演出團體。</description>
     </item>
     <item>
       <title>臺南一中口琴社</title>

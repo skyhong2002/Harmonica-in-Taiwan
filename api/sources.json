@@ -226,6 +226,93 @@
       ]
     },
     {
+      "id": "watchlist-14",
+      "publicId": "14",
+      "name": "mr.Why 花影樂團",
+      "nameEn": "",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "跨界/流行/李讓相關",
+      "structuredSummary": "跨界/流行/李讓相關 / 口琴/跨界 / 演出團體",
+      "summary": "以李讓為核心的跨界流行口琴演出團體。",
+      "keywords": "mr.Why 花影樂團 李讓",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://portaly.cc/mr.Why"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Mr.WhyWhy/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/mr.why.why/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/MrWhyOfficialChannel/videos"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-07T13:30:45+00:00",
+      "latestUpdateLocal": "2026-07-07 21:30",
+      "latestUpdateSource": "mr.Why 花影樂團",
+      "latestUpdateUrl": "https://www.instagram.com/stories/mr.why.why/3936027386215375381/",
+      "avatarUrl": "/assets/source-avatars/fb09cfa4e053cda859e3.webp",
+      "sourceInitials": "MW",
+      "sourceTags": [
+        "團體樂團",
+        "演奏者",
+        "演出",
+        "音樂會"
+      ],
+      "sourceSummary": "以李讓為核心的跨界流行口琴演出團體。",
+      "sourceTagReason": "資料明確標示為「團體樂團」，名稱與描述含「演出」、「跨界」、「流行」，並提及核心人物李讓，符合演奏者與團體特徵。",
+      "monitorSources": [
+        {
+          "id": "fb_mr_whywhy",
+          "name": "mr.Why 花影樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Mr.WhyWhy",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_mr_why_why",
+          "name": "mr.Why 花影樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "mr.why.why",
+          "profileUrl": "https://www.instagram.com/mr.why.why/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_mr_why_why",
+          "name": "mr.Why 花影樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "mr.why.why",
+          "profileUrl": "https://www.instagram.com/mr.why.why/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/mr.why.why/story/0"
+        },
+        {
+          "id": "yt_mrwhyofficialchannel",
+          "name": "mr.Why 花影樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/MrWhyOfficialChannel/videos",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-125",
       "publicId": "125",
       "name": "Jens Bunge",
@@ -689,7 +776,7 @@
       "latestUpdateLocal": "2026-07-07 18:02",
       "latestUpdateSource": "天狼星口琴樂團 Sirius Harmonica Ensemble",
       "latestUpdateUrl": "https://www.instagram.com/p/DafMwsikwDY/",
-      "avatarUrl": "/assets/source-avatars/93835cb48c6cc1048bfa.webp",
+      "avatarUrl": "/assets/source-avatars/92b5c7da36e794579aae.webp",
       "sourceInitials": "SHE",
       "sourceTags": [
         "團體樂團",
@@ -1035,6 +1122,92 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-16",
+      "publicId": "16",
+      "name": "Dr. Blue 口琴樂團",
+      "nameEn": "",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "青年重奏/台大藍聲系",
+      "structuredSummary": "青年重奏/台大藍聲系 / 口琴重奏 / 演出團體",
+      "summary": "台大藍聲系背景的青年口琴重奏樂團，專注於室內樂演出。",
+      "keywords": "Dr. Blue 口琴樂團",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://drblue.kktix.cc/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/dr.blueharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/dr.blue_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-07T07:25:18+00:00",
+      "latestUpdateLocal": "2026-07-07 15:25",
+      "latestUpdateSource": "Dr. Blue 口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/p/Dae67MplHe5/",
+      "avatarUrl": "/assets/source-avatars/aa0aaede3543a796bd61.webp",
+      "sourceInitials": "DB",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "演出"
+      ],
+      "sourceSummary": "台大藍聲系背景的青年口琴重奏樂團，專注於室內樂演出。",
+      "sourceTagReason": "資料明確標示為「團體樂團」，並強調「青年重奏」、「台大藍聲系」與「口琴重奏」，屬於演奏團體。",
+      "monitorSources": [
+        {
+          "id": "fb_dr_blueharmonica",
+          "name": "Dr. Blue 口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/dr.blueharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_dr_blue_harmonica",
+          "name": "Dr. Blue 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "dr.blue_harmonica",
+          "profileUrl": "https://www.instagram.com/dr.blue_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_dr_blue_harmonica",
+          "name": "Dr. Blue 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "dr.blue_harmonica",
+          "profileUrl": "https://www.instagram.com/dr.blue_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/dr.blue_harmonica/story/0"
+        },
+        {
+          "id": "yt_ucvhln_2awpljqbfo_9apatw",
+          "name": "Dr. Blue 口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw",
           "feedUrl": ""
         }
       ]
@@ -8480,92 +8653,6 @@
       ]
     },
     {
-      "id": "watchlist-16",
-      "publicId": "16",
-      "name": "Dr. Blue 口琴樂團",
-      "nameEn": "",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "青年重奏/台大藍聲系",
-      "structuredSummary": "青年重奏/台大藍聲系 / 口琴重奏 / 演出團體",
-      "summary": "台大藍聲系背景的青年口琴重奏樂團，專注於室內樂演出。",
-      "keywords": "Dr. Blue 口琴樂團",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://drblue.kktix.cc/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/dr.blueharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/dr.blue_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-05-30T03:00:33+00:00",
-      "latestUpdateLocal": "2026-05-30 11:00",
-      "latestUpdateSource": "Dr. Blue 口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/p/DY8mqwZgnUm/",
-      "avatarUrl": "/assets/source-avatars/d539cb7f6a4a045a3e38.webp",
-      "sourceInitials": "DB",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "演出"
-      ],
-      "sourceSummary": "台大藍聲系背景的青年口琴重奏樂團，專注於室內樂演出。",
-      "sourceTagReason": "資料明確標示為「團體樂團」，並強調「青年重奏」、「台大藍聲系」與「口琴重奏」，屬於演奏團體。",
-      "monitorSources": [
-        {
-          "id": "fb_dr_blueharmonica",
-          "name": "Dr. Blue 口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/dr.blueharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_dr_blue_harmonica",
-          "name": "Dr. Blue 口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "dr.blue_harmonica",
-          "profileUrl": "https://www.instagram.com/dr.blue_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_dr_blue_harmonica",
-          "name": "Dr. Blue 口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "dr.blue_harmonica",
-          "profileUrl": "https://www.instagram.com/dr.blue_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/dr.blue_harmonica/story/0"
-        },
-        {
-          "id": "yt_ucvhln_2awpljqbfo_9apatw",
-          "name": "Dr. Blue 口琴樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-87",
       "publicId": "87",
       "name": "桃園玩口琴",
@@ -9439,93 +9526,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@nutc_harmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-14",
-      "publicId": "14",
-      "name": "mr.Why 花影樂團",
-      "nameEn": "",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "跨界/流行/李讓相關",
-      "structuredSummary": "跨界/流行/李讓相關 / 口琴/跨界 / 演出團體",
-      "summary": "以李讓為核心的跨界流行口琴演出團體。",
-      "keywords": "mr.Why 花影樂團 李讓",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/mr.Why"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Mr.WhyWhy/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/mr.why.why/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/MrWhyOfficialChannel/videos"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2025-10-12T13:28:14+00:00",
-      "latestUpdateLocal": "2025-10-12 21:28",
-      "latestUpdateSource": "mr.Why 花影樂團",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=1gRwCMqVdSU",
-      "avatarUrl": "/assets/source-avatars/d187d33c3bae7a377c31.webp",
-      "sourceInitials": "MW",
-      "sourceTags": [
-        "團體樂團",
-        "演奏者",
-        "演出",
-        "音樂會"
-      ],
-      "sourceSummary": "以李讓為核心的跨界流行口琴演出團體。",
-      "sourceTagReason": "資料明確標示為「團體樂團」，名稱與描述含「演出」、「跨界」、「流行」，並提及核心人物李讓，符合演奏者與團體特徵。",
-      "monitorSources": [
-        {
-          "id": "fb_mr_whywhy",
-          "name": "mr.Why 花影樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Mr.WhyWhy",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_mr_why_why",
-          "name": "mr.Why 花影樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "mr.why.why",
-          "profileUrl": "https://www.instagram.com/mr.why.why/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_mr_why_why",
-          "name": "mr.Why 花影樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "mr.why.why",
-          "profileUrl": "https://www.instagram.com/mr.why.why/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/mr.why.why/story/0"
-        },
-        {
-          "id": "yt_mrwhyofficialchannel",
-          "name": "mr.Why 花影樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/MrWhyOfficialChannel/videos",
           "feedUrl": ""
         }
       ]
