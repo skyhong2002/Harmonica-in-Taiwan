@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-08T03:13:16+08:00",
+  "generatedAt": "2026-07-08T03:46:33+08:00",
   "timezone": "Asia/Taipei",
   "count": 5,
   "source": "/api/events.json",
@@ -13,8 +13,8 @@
     "tokenSource": "keychain:harmonica-opencode-go/harmonica",
     "model": "mimo-v2.5",
     "stats": {
-      "requests": 1,
-      "cached": 13,
+      "requests": 2,
+      "cached": 14,
       "errors": 0
     }
   },
