@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
   "json": "https://harmonica.observe.tw/api/student-clubs.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/student-clubs.json",
-  "count": 88,
+  "count": 90,
   "items": [
     {
       "title": "Dr. Blue Harmonica Ensemble｜上個月(6/21) Dr.Blue 來到 臺大X師大口琴社聯合成發 《盛琴難卻》作為特別來賓演出，帶來〈天外奇蹟〉、〈七夕〉兩首樂團自己改編的口琴重奏(今天是7/7，也是日... 上…",
@@ -89,6 +89,92 @@
         "學生社團"
       ],
       "key": "ig_dr_blue_harmonica:https://www.instagram.com/p/Dae67MplHe5/"
+    },
+    {
+      "title": "Dr. Blue 口琴樂團｜上個月(6/21) Dr.Blue 來到 臺大X師大口琴社聯合成發 《盛琴難卻》作為特別來賓演出，帶來〈天外奇蹟〉、〈七夕〉兩首樂團自己改編的口琴重奏(今天是7/7，也是日本的七夕喔！)。 除了和我們從大學社團…",
+      "headline": "上個月(6/21) Dr.Blue 來到 臺大X師大口琴社聯合成發 《盛琴難卻》作為特別來賓演出，帶來〈天外奇蹟〉、〈七夕〉兩首樂團自己改編的口琴重奏(今天是7/7，也是日本的七夕喔！)。",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/dr.blueharmonica/posts/pfbid0u8jWNbypzxKV7P5gpwxMBBw6n7Vxw1Yu73NXMjKor2fuMwShFhC4afGAcpkNYVZVl",
+      "source_id": "fb_dr_blueharmonica",
+      "source": "Dr. Blue 口琴樂團",
+      "source_system_name": "Dr. Blue 口琴樂團",
+      "source_profile_url": "https://facebook.com/dr.blueharmonica",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-16",
+      "directory_entry_name": "Dr. Blue 口琴樂團",
+      "account": "dr.blueharmonica",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-07T07:22:59.000Z",
+      "posted_at_local": "2026-07-07 15:22",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-07T19:12:52.643917+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "演出",
+        "成發",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "成發",
+        "演出",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 1.0,
+      "llm_labels": [
+        "口琴",
+        "演出",
+        "成發",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "貼文明確提及口琴社團（臺大、師大口琴社）的成發活動，並描述樂團作為特別來賓的口琴演出，內容直接相關。",
+      "text": "上個月(6/21) Dr.Blue 來到 臺大X師大口琴社聯合成發 《盛琴難卻》作為特別來賓演出，帶來〈天外奇蹟〉、〈七夕〉兩首樂團自己改編的口琴重奏(今天是7/7，也是日本的七夕喔！)。\n除了和我們從大學社團以來認識的許多夥伴重聚，我們也很開心看到了現在臺大、師大口琴社同學們的演出。\nhttps://www.facebook.com/dr.blueharmonica/posts/pfbid0u8jWNbypzxKV7P5gpwxMBBw6n7Vxw1Yu73NXMjKor2fuMwShFhC4afGAcpkNYVZVl",
+      "images": [
+        "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/740059854_122320939142027168_3096693386616340749_n.jpg?stp=dst-jpg_tt6&cstp=mx1292x862&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=IbPH4K5FxrUQ7kNvwFeqIwv&_nc_oc=Ado_PjXqbtgzOCgA0AsYMVyfhAXzO3bbfC7XMvs3kPYRNIaWs026kmfJfb-5cMGT2Pc&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=caLOZlQjUUs-NYzFSntkXQ&_nc_ss=72289&oh=00_AQDGaTgpUyNMS2awCV-YXu92sqzWxktDFXDPvoKNIZEaAA&oe=6A532BA2",
+        "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-6/742001348_122320939184027168_5867146141784481072_n.jpg?stp=dst-jpg_tt6&cstp=mx1740x1160&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=lYJ5OG2Dl3UQ7kNvwGHJ6ak&_nc_oc=AdoB19UxR4N5VRwQFdyafgKtlb1U86KOrXzdgRZKZ8KUp73aWpqoQul2OmbIfE1Zho0&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&_nc_gid=caLOZlQjUUs-NYzFSntkXQ&_nc_ss=72289&oh=00_AQA7rD5MreZLjerxjkMb0tsKOQkhN8nDt3ejFEeOXQ6-qQ&oe=6A531D1B",
+        "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/740276542_122320939226027168_2493327469453945132_n.jpg?stp=dst-jpg_tt6&cstp=mx1740x1160&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kTsTX6yrrQ8Q7kNvwHpTFzp&_nc_oc=Ado06uEom9OLtjqfbHMpT7D300IkpFr7t9usw1-yEd0BYHmrov4NUe2QAt2ryls123Q&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=caLOZlQjUUs-NYzFSntkXQ&_nc_ss=72289&oh=00_AQC3WzVC92b-9UpFtxItPv75NdPm4TNNIg2IK5K6sWQnqA&oe=6A531792",
+        "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-6/740407133_122320939520027168_8545226635223848441_n.jpg?stp=dst-jpg_tt6&cstp=mx1988x1326&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Yncu7p58Vy4Q7kNvwFqPavU&_nc_oc=Adpu0pvXf-BRuYl7lJeIoSQCpcgjifaAVjcI81HeSvtRpwN1liKDJkzeZbP6Tf4R_rc&_nc_zt=23&_nc_ht=scontent-dfw6-2.xx&_nc_gid=caLOZlQjUUs-NYzFSntkXQ&_nc_ss=72289&oh=00_AQDjveOvbXc-Dw78zb7KOQnMEta4Sp7cf38bv_NlvgLECA&oe=6A532FFE",
+        "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-6/739893004_122320939310027168_1386263659144510131_n.jpg?stp=dst-jpg_tt6&cstp=mx994x663&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=aq9x-zo92ekQ7kNvwHCeR1o&_nc_oc=AdqCZOEVvKTlaVzIET8BBbB_lXL2On9uK7OS0C1Sh4EbeI6ZUtkv3Hw1rzElg5GqOo0&_nc_zt=23&_nc_ht=scontent-dfw6-2.xx&_nc_gid=caLOZlQjUUs-NYzFSntkXQ&_nc_ss=72289&oh=00_AQDO7GJSIaDi3qjh9GJadPGcqU3Az9IvAlFpW42D5xR8Zg&oe=6A5317BC"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/740059854_122320939142027168_3096693386616340749_n.jpg?stp=dst-jpg_tt6&cstp=mx1292x862&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=IbPH4K5FxrUQ7kNvwFeqIwv&_nc_oc=Ado_PjXqbtgzOCgA0AsYMVyfhAXzO3bbfC7XMvs3kPYRNIaWs026kmfJfb-5cMGT2Pc&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=caLOZlQjUUs-NYzFSntkXQ&_nc_ss=72289&oh=00_AQDGaTgpUyNMS2awCV-YXu92sqzWxktDFXDPvoKNIZEaAA&oe=6A532BA2",
+      "image_url": "/assets/feed-images/783d011eab63b9c360d7.webp",
+      "image_width": 590,
+      "image_height": 394,
+      "source_avatar_url": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-1/370460324_122102388986027168_1907873445950595875_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1884x1884&ctp=s50x50&_nc_cat=107&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=ECiGh6UOFSMQ7kNvwHSYzn_&_nc_oc=Adru2JFTjzYa30dWgMn6hE564a0aJcJs1DkzRkuCkBHTyPggi9iclL9xib9z3WIhWYI&_nc_zt=24&_nc_ht=scontent-dfw5-2.xx&_nc_gid=caLOZlQjUUs-NYzFSntkXQ&_nc_ss=72289&oh=00_AQCUY4VMHKrN1i_S6oTVZf_7QnmO7MDKUvaw5SKxHz0jdA&oe=6A530F90",
+      "avatar_url": "/assets/source-avatars/2124a2e06c6ccf779069.webp",
+      "source_initials": "DB",
+      "categories": [
+        "posts-videos",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "學生社團"
+      ],
+      "key": "fb_dr_blueharmonica:122320939508027168"
     },
     {
       "title": "双燕樂器｜Waveline滴波彎管長笛—教師與幼齡學習者的最佳夥伴｜JUPITER Waveline Flute滴波彎管長笛是Jupiter的創新產品，符合人體工學的設計，縮短了唇板與按鍵之間的距離，讓年齡較低的初學者使用上更加舒適順手，…",
@@ -5953,6 +6039,89 @@
         "學生社團"
       ],
       "key": "ig_has_singapore:https://www.instagram.com/p/DZh2oCTPzJn/"
+    },
+    {
+      "title": "林家靖 Rolabo Lin｜115學年度全國學生音樂比賽指定曲 國中組口琴四重奏 - 【三拍三曲】 大專組口琴獨奏 - 【聽拉氏有感】 樂譜價格均為300元，僅提供電子檔形式，購買時請提供使用單位以利浮水印製作，謝謝。 購買請洽： 1.…",
+      "headline": "115學年度全國學生音樂比賽指定曲",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/HarmonicaLin/posts/pfbid02v9VErR8R2t13YgnrH1NABohCtJHpSKomCWGaLKfyNJhjAzePXPDrUHbtyKyL1VnPl",
+      "source_id": "fb_harmonicalin",
+      "source": "林家靖 Rolabo Lin",
+      "source_system_name": "林家靖 Rolabo Lin",
+      "source_profile_url": "https://facebook.com/HarmonicaLin",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-10",
+      "directory_entry_name": "林家靖 Rolabo Lin",
+      "account": "HarmonicaLin",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-06-13T13:03:00.000Z",
+      "posted_at_local": "2026-06-13 21:03",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-07T19:12:52.643917+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "比賽"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "比賽",
+        "指定曲",
+        "全國學生音樂比賽",
+        "學生音樂比賽",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 1.0,
+      "llm_labels": [
+        "口琴",
+        "比賽"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "貼文內容為115學年度全國學生音樂比賽口琴指定曲公布與樂譜購買資訊，直接相關口琴比賽與指定曲。",
+      "text": "115學年度全國學生音樂比賽指定曲\n國中組口琴四重奏 - 【三拍三曲】\n大專組口琴獨奏 - 【聽拉氏有感】\n樂譜價格均為300元，僅提供電子檔形式，購買時請提供使用單位以利浮水印製作，謝謝。\n購買請洽：\n1. 黃石樂器\n地址：臺北市大安區和平東路二段96巷17弄1號\n電話：02-8732-1496\n2. 音和樂器\n地址：臺北市中正區羅斯福路二段70號12F之9\n電話：02-2341-9499\n3. 狂響逗嘴鼓樂坊\n地址：高雄市三民區鐵道二街510號\n電話：0928-577-083\nhttps://www.facebook.com/HarmonicaLin/posts/pfbid02v9VErR8R2t13YgnrH1NABohCtJHpSKomCWGaLKfyNJhjAzePXPDrUHbtyKyL1VnPl",
+      "images": [
+        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/724206654_1601566421969903_3539366691653409434_n.jpg?stp=dst-jpg_tt6&cstp=mx770x1090&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kJZcSRmc18AQ7kNvwHear3-&_nc_oc=AdpX6ya7rmXXE5HSRIXG5VZ4N-Qj6gQegAWjf9L5eF-RAfcYeHCqeaubDghiI10cE0k&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=O9m32IxuzensnF4H1j4pcg&_nc_ss=72289&oh=00_AQD3iPBeb383xYtn5Y4Ua-q2UFskGyPABv7U705nYXeQDg&oe=6A5332D9",
+        "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/724292750_1605102661616279_619916799528024905_n.jpg?stp=dst-jpg_tt6&cstp=mx884x1218&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=qf5LPfIHFBUQ7kNvwGCZSUo&_nc_oc=Adpwn4tJwb0ldDhh0v87wYqdp-DYaxxNMew0-0uhD2yohroHDRQMMeS8lPLxe4VZf_w&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=O9m32IxuzensnF4H1j4pcg&_nc_ss=72289&oh=00_AQASxayHGww2-iedI3C3gA4zqsvpKC_DiLl07QRj2FMpeg&oe=6A531062"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/724206654_1601566421969903_3539366691653409434_n.jpg?stp=dst-jpg_tt6&cstp=mx770x1090&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kJZcSRmc18AQ7kNvwHear3-&_nc_oc=AdpX6ya7rmXXE5HSRIXG5VZ4N-Qj6gQegAWjf9L5eF-RAfcYeHCqeaubDghiI10cE0k&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=O9m32IxuzensnF4H1j4pcg&_nc_ss=72289&oh=00_AQD3iPBeb383xYtn5Y4Ua-q2UFskGyPABv7U705nYXeQDg&oe=6A5332D9",
+      "image_url": "/assets/feed-images/df877ffd739639a4de63.webp",
+      "image_width": 417,
+      "image_height": 590,
+      "source_avatar_url": "https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-1/293788233_472602834866273_6739342493334837254_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1233x1233&ctp=s50x50&_nc_cat=110&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=yKEVUjR1C2cQ7kNvwHEJ5Wa&_nc_oc=AdqlGDUIckRROIcu9kurneMt38DzJ5yHl2__-J6OkQFpI1RrQD9EXJi8OgXW3M_p-D4&_nc_zt=24&_nc_ht=scontent-ord5-3.xx&_nc_gid=O9m32IxuzensnF4H1j4pcg&_nc_ss=72289&oh=00_AQBc7KDXYyLKwxAU4ec2ptUM3SsJbITc9qoAfh7_pjT0QA&oe=6A532B57",
+      "avatar_url": "/assets/source-avatars/061a8061609c91a19ea5.webp",
+      "source_initials": "RL",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽",
+        "學生社團"
+      ],
+      "key": "fb_harmonicalin:1601566541969891"
     },
     {
       "title": "LearnTheHarmonica.com｜Harmonica Lesson - How To Play I Hear Them All ►FREE TRIAL OF MY HARMONICA SCHOOL - https://www.l…",
