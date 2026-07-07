@@ -288,6 +288,91 @@
       ]
     },
     {
+      "id": "watchlist-173",
+      "publicId": "173",
+      "name": "Spring Harp Fest",
+      "nameEn": "Spring Harp Fest",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
+      "country": "美國",
+      "region": "美國/加州",
+      "cityOrFocus": "美國地方口琴節/藍調口琴/jam/社群比賽",
+      "structuredSummary": "美國地方口琴節/藍調口琴/jam/社群比賽 / 十孔/藍調口琴 / 國際活動來源",
+      "summary": "美國的國際活動來源，涵蓋美國地方口琴節、jam與社群比賽。",
+      "keywords": "Spring Harp Fest harmonica festival La Mesa blues harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://springharpfest.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/springharpfest/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/springharpfest/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@springharpfest/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-06T22:54:46+00:00",
+      "latestUpdateLocal": "2026-07-07 06:54",
+      "latestUpdateSource": "Spring Harp Fest",
+      "latestUpdateUrl": "https://www.instagram.com/stories/springharpfest/3935586519734782614/",
+      "avatarUrl": "/assets/source-avatars/be48260b41b25a6839a5.webp",
+      "sourceInitials": "SHF",
+      "sourceTags": [
+        "活動資訊",
+        "比賽",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_springharpfest",
+          "name": "Spring Harp Fest",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/springharpfest",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_springharpfest",
+          "name": "Spring Harp Fest",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "springharpfest",
+          "profileUrl": "https://www.instagram.com/springharpfest/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_springharpfest",
+          "name": "Spring Harp Fest",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "springharpfest",
+          "profileUrl": "https://www.instagram.com/springharpfest/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/springharpfest/story/0"
+        },
+        {
+          "id": "yt_springharpfest",
+          "name": "Spring Harp Fest",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@springharpfest",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-133",
       "publicId": "133",
       "name": "Indiara Sfair",
@@ -13309,91 +13394,6 @@
         "活動資訊",
         "比賽",
         "國際交流"
-      ]
-    },
-    {
-      "id": "watchlist-173",
-      "publicId": "173",
-      "name": "Spring Harp Fest",
-      "nameEn": "Spring Harp Fest",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "活動/資訊入口",
-      "country": "美國",
-      "region": "美國/加州",
-      "cityOrFocus": "美國地方口琴節/藍調口琴/jam/社群比賽",
-      "structuredSummary": "美國地方口琴節/藍調口琴/jam/社群比賽 / 十孔/藍調口琴 / 國際活動來源",
-      "summary": "美國的國際活動來源，涵蓋美國地方口琴節、jam與社群比賽。",
-      "keywords": "Spring Harp Fest harmonica festival La Mesa blues harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://springharpfest.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/springharpfest/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/springharpfest/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@springharpfest/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/7da7c35802f18a6da71e.webp",
-      "sourceInitials": "SHF",
-      "sourceTags": [
-        "活動資訊",
-        "比賽",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_springharpfest",
-          "name": "Spring Harp Fest",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/springharpfest",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_springharpfest",
-          "name": "Spring Harp Fest",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "springharpfest",
-          "profileUrl": "https://www.instagram.com/springharpfest/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_springharpfest",
-          "name": "Spring Harp Fest",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "springharpfest",
-          "profileUrl": "https://www.instagram.com/springharpfest/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/springharpfest/story/0"
-        },
-        {
-          "id": "yt_springharpfest",
-          "name": "Spring Harp Fest",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@springharpfest",
-          "feedUrl": ""
-        }
       ]
     },
     {
