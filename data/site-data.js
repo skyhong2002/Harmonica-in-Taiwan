@@ -596,6 +596,197 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-80",
+      "publicId": "80",
+      "name": "臺中國家歌劇院",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "臺中國家歌劇院 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-ntt.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/npac.ntt/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nationaltaichungtheater/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@nationaltaichungtheater"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-07T10:30:24+00:00",
+      "latestUpdateLocal": "2026-07-07 18:30",
+      "latestUpdateSource": "臺中國家歌劇院",
+      "latestUpdateUrl": "https://www.instagram.com/stories/nationaltaichungtheater/3935936664123898837/",
+      "avatarUrl": "/assets/source-avatars/5954411ab3632c46a220.webp",
+      "sourceInitials": "臺中",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_npac_ntt",
+          "name": "臺中國家歌劇院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/npac.ntt",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
+        },
+        {
+          "id": "threads_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "threads",
+          "type": "rss",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
+          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
+        },
+        {
+          "id": "yt_uctl1euke_x0w6tahecepgmq",
+          "name": "臺中國家歌劇院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-5",
+      "publicId": "5",
+      "name": "胖擊口琴樂團",
+      "nameEn": "Punch Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/公演/年輕團體",
+      "structuredSummary": "重奏/公演/年輕團體 / 口琴重奏/合奏 / 演出團體",
+      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。",
+      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/punch.harp"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Punch.Harp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/punch.harp/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@punchharp"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@punch.harp"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-07T10:12:01+00:00",
+      "latestUpdateLocal": "2026-07-07 18:12",
+      "latestUpdateSource": "胖擊口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/stories/punch.harp/3935927327690333115/",
+      "avatarUrl": "/assets/source-avatars/d5d895cbefada2416bb9.webp",
+      "sourceInitials": "胖擊",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Punch.Harp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "punch.harp",
+          "profileUrl": "https://www.instagram.com/punch.harp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "punch.harp",
+          "profileUrl": "https://www.instagram.com/punch.harp/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/punch.harp/story/0"
+        },
+        {
+          "id": "threads_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "threads",
+          "type": "rss",
+          "username": "punch.harp",
+          "profileUrl": "https://www.threads.net/@punch.harp",
+          "feedUrl": "https://rss.observe.tw/threads/punch.harp"
+        },
+        {
+          "id": "yt_punchharp",
+          "name": "胖擊口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@punchharp",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-93",
       "publicId": "93",
       "name": "RedBricks Harmonica",
@@ -1064,6 +1255,93 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-109",
+      "publicId": "109",
+      "name": "Boris Plotnikov",
+      "nameEn": "Boris Plotnikov",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "俄羅斯",
+      "region": "俄羅斯",
+      "cityOrFocus": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊",
+      "structuredSummary": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊 / 十孔/半音階 / 國際演出人員/教學者",
+      "summary": "俄羅斯的十孔與半音階國際演出人員與教學者，活動脈絡包含莫斯科職業口琴演奏、藍調爵士與國際比賽得獎。",
+      "keywords": "Boris Plotnikov etaborya boris_plotnikov harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://borisplotnikov.ru/en"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/boris.plotnikov.9"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/boris_plotnikov/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@etaborya"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-07T09:25:16+00:00",
+      "latestUpdateLocal": "2026-07-07 17:25",
+      "latestUpdateSource": "Boris Plotnikov",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=iGPcR-epRgA",
+      "avatarUrl": "/assets/source-avatars/6814900cf38e09742c52.webp",
+      "sourceInitials": "BP",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "比賽",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_boris_plotnikov_9",
+          "name": "Boris Plotnikov",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/boris.plotnikov.9",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_boris_plotnikov",
+          "name": "Boris Plotnikov",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "boris_plotnikov",
+          "profileUrl": "https://www.instagram.com/boris_plotnikov/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_boris_plotnikov",
+          "name": "Boris Plotnikov",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "boris_plotnikov",
+          "profileUrl": "https://www.instagram.com/boris_plotnikov/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/boris_plotnikov/story/0"
+        },
+        {
+          "id": "yt_etaborya",
+          "name": "Boris Plotnikov",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@etaborya",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-16",
       "publicId": "16",
       "name": "Dr. Blue 口琴樂團",
@@ -1227,101 +1505,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-80",
-      "publicId": "80",
-      "name": "臺中國家歌劇院",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "臺中國家歌劇院 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-ntt.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/npac.ntt/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nationaltaichungtheater/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@nationaltaichungtheater"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-07T07:00:28+00:00",
-      "latestUpdateLocal": "2026-07-07 15:00",
-      "latestUpdateSource": "臺中國家歌劇院",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=V8qbDiiH6S0",
-      "avatarUrl": "/assets/source-avatars/5954411ab3632c46a220.webp",
-      "sourceInitials": "臺中",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_npac_ntt",
-          "name": "臺中國家歌劇院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/npac.ntt",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
-        },
-        {
-          "id": "threads_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "threads",
-          "type": "rss",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
-          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
-        },
-        {
-          "id": "yt_uctl1euke_x0w6tahecepgmq",
-          "name": "臺中國家歌劇院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
           "feedUrl": ""
         }
       ]
@@ -2915,6 +3098,91 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "plashervouetband",
           "profileUrl": "https://www.instagram.com/plashervouetband/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/plashervouetband/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-158",
+      "publicId": "158",
+      "name": "Deak Harp",
+      "nameEn": "Deak Harp",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "美國",
+      "region": "美國",
+      "cityOrFocus": "WHF 2025/藍調十孔/Chicago blues/演出與教學",
+      "structuredSummary": "WHF 2025/藍調十孔/Chicago blues/演出與教學 / 十孔/藍調口琴 / 國際演出人員",
+      "summary": "美國的十孔與藍調口琴國際演出人員，活動脈絡包含WHF 2025、藍調十孔與Chicago blues。",
+      "keywords": "Deak Harp blues harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://deakharp.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/deak.harp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/deakharp/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@deakharp"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-05T18:01:19+00:00",
+      "latestUpdateLocal": "2026-07-06 02:01",
+      "latestUpdateSource": "Deak Harp",
+      "latestUpdateUrl": "https://www.facebook.com/deak.harp/posts/pfbid02UoJQ6sFHUzDGtfciZ7RxWsZ16Vj9GpiCN8SrTCwCQ7NpzK7TBDcG9qmbgfVXZEGPl",
+      "avatarUrl": "/assets/source-avatars/dcefb96084c66ffe6cf6.webp",
+      "sourceInitials": "DH",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_deak_harp",
+          "name": "Deak Harp",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/deak.harp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_deakharp",
+          "name": "Deak Harp",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "deakharp",
+          "profileUrl": "https://www.instagram.com/deakharp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_deakharp",
+          "name": "Deak Harp",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "deakharp",
+          "profileUrl": "https://www.instagram.com/deakharp/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/deakharp/story/0"
+        },
+        {
+          "id": "yt_deakharp",
+          "name": "Deak Harp",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@deakharp",
+          "feedUrl": ""
         }
       ]
     },
@@ -4611,93 +4879,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-109",
-      "publicId": "109",
-      "name": "Boris Plotnikov",
-      "nameEn": "Boris Plotnikov",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "俄羅斯",
-      "region": "俄羅斯",
-      "cityOrFocus": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊",
-      "structuredSummary": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊 / 十孔/半音階 / 國際演出人員/教學者",
-      "summary": "俄羅斯的十孔與半音階國際演出人員與教學者，活動脈絡包含莫斯科職業口琴演奏、藍調爵士與國際比賽得獎。",
-      "keywords": "Boris Plotnikov etaborya boris_plotnikov harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://borisplotnikov.ru/en"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/boris.plotnikov.9"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/boris_plotnikov/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@etaborya"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-03T18:37:30+00:00",
-      "latestUpdateLocal": "2026-07-04 02:37",
-      "latestUpdateSource": "Boris Plotnikov",
-      "latestUpdateUrl": "https://www.instagram.com/stories/boris_plotnikov/3933282890972801970/",
-      "avatarUrl": "/assets/source-avatars/6814900cf38e09742c52.webp",
-      "sourceInitials": "BP",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "比賽",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_boris_plotnikov_9",
-          "name": "Boris Plotnikov",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/boris.plotnikov.9",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_boris_plotnikov",
-          "name": "Boris Plotnikov",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "boris_plotnikov",
-          "profileUrl": "https://www.instagram.com/boris_plotnikov/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_boris_plotnikov",
-          "name": "Boris Plotnikov",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "boris_plotnikov",
-          "profileUrl": "https://www.instagram.com/boris_plotnikov/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/boris_plotnikov/story/0"
-        },
-        {
-          "id": "yt_etaborya",
-          "name": "Boris Plotnikov",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@etaborya",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-95",
       "publicId": "95",
       "name": "韋笙堡口琴 Weissenberg Harmonicas",
@@ -5376,102 +5557,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-5",
-      "publicId": "5",
-      "name": "胖擊口琴樂團",
-      "nameEn": "Punch Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/公演/年輕團體",
-      "structuredSummary": "重奏/公演/年輕團體 / 口琴重奏/合奏 / 演出團體",
-      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。",
-      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/punch.harp"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Punch.Harp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/punch.harp/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@punchharp"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@punch.harp"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-02T12:30:10+00:00",
-      "latestUpdateLocal": "2026-07-02 20:30",
-      "latestUpdateSource": "胖擊口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/p/DaSmFyaDx2a/",
-      "avatarUrl": "/assets/source-avatars/d5d895cbefada2416bb9.webp",
-      "sourceInitials": "胖擊",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Punch.Harp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "punch.harp",
-          "profileUrl": "https://www.instagram.com/punch.harp/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "punch.harp",
-          "profileUrl": "https://www.instagram.com/punch.harp/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/punch.harp/story/0"
-        },
-        {
-          "id": "threads_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "threads",
-          "type": "rss",
-          "username": "punch.harp",
-          "profileUrl": "https://www.threads.net/@punch.harp",
-          "feedUrl": "https://rss.observe.tw/threads/punch.harp"
-        },
-        {
-          "id": "yt_punchharp",
-          "name": "胖擊口琴樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@punchharp",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-156",
       "publicId": "156",
       "name": "Sigmund Groven",
@@ -6119,91 +6204,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-158",
-      "publicId": "158",
-      "name": "Deak Harp",
-      "nameEn": "Deak Harp",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "美國",
-      "region": "美國",
-      "cityOrFocus": "WHF 2025/藍調十孔/Chicago blues/演出與教學",
-      "structuredSummary": "WHF 2025/藍調十孔/Chicago blues/演出與教學 / 十孔/藍調口琴 / 國際演出人員",
-      "summary": "美國的十孔與藍調口琴國際演出人員，活動脈絡包含WHF 2025、藍調十孔與Chicago blues。",
-      "keywords": "Deak Harp blues harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://deakharp.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/deak.harp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/deakharp/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@deakharp"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-29T18:09:41+00:00",
-      "latestUpdateLocal": "2026-06-30 02:09",
-      "latestUpdateSource": "Deak Harp",
-      "latestUpdateUrl": "https://www.facebook.com/deak.harp/posts/pfbid02V67h1RzsaJ8ntMcEzdCcerQ5vokmpDhbK4ctCeDpfPuMQdqEQmeZ6sW1n9AdtzaCl",
-      "avatarUrl": "/assets/source-avatars/dcefb96084c66ffe6cf6.webp",
-      "sourceInitials": "DH",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_deak_harp",
-          "name": "Deak Harp",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/deak.harp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_deakharp",
-          "name": "Deak Harp",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "deakharp",
-          "profileUrl": "https://www.instagram.com/deakharp/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_deakharp",
-          "name": "Deak Harp",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "deakharp",
-          "profileUrl": "https://www.instagram.com/deakharp/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/deakharp/story/0"
-        },
-        {
-          "id": "yt_deakharp",
-          "name": "Deak Harp",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@deakharp",
           "feedUrl": ""
         }
       ]
