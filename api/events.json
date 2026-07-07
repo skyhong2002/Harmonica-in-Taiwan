@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 343,
+  "count": 342,
   "items": [
     {
       "title": "香港學校音樂節｜Instagram story @hksmsa_official",
@@ -26432,71 +26432,6 @@
         "學生社團"
       ],
       "key": "ig_chgsh_harmonica:https://www.instagram.com/p/DZSNAK1koJ7/"
-    },
-    {
-      "title": "藤井 俊充｜只有Bass的伴奏，聽看看🎵 《How deep is your love》 Bass @toshimiller 演出場地 @80jazz_lounge_bar #coversong #bassists #howdeepisy…",
-      "headline": "只有Bass的伴奏，聽看看🎵",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.instagram.com/p/DZRV22zzJqV/",
-      "source_id": "ig_toshimiller",
-      "source": "藤井 俊充",
-      "source_system_name": "藤井俊充",
-      "source_profile_url": "https://www.instagram.com/toshimiller/",
-      "country": "日本",
-      "region": "日本/臺灣爵士圈",
-      "directory_entry_id": "watchlist-60",
-      "directory_entry_name": "藤井俊充",
-      "account": "toshimiller",
-      "platform": "instagram",
-      "platform_label": "Instagram",
-      "posted_at": "Sun, 07 Jun 2026 04:22:46 GMT",
-      "posted_at_local": "2026-06-07 12:22",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-06-24T07:45:09.390080+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "演出"
-      ],
-      "keyword_matches": [
-        "演出"
-      ],
-      "llm_relevant": null,
-      "llm_confidence": null,
-      "llm_labels": [],
-      "llm_categories": [],
-      "llm_reason": "",
-      "text": "只有Bass的伴奏，聽看看🎵\n《How deep is your love》\nBass @toshimiller\n演出場地 @80jazz_lounge_bar\n#coversong #bassists #howdeepisyourlove #jazzduo",
-      "images": [],
-      "videos": [],
-      "source_image_url": "",
-      "image_url": "",
-      "image_width": null,
-      "image_height": null,
-      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/11324917_1603492179916991_803440316_a.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xNTAuZXhwZXJpbWVudGFsIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gFhdzEpEIz7IN2iJxj9M3Bv9WdWaRIoMQw4fPPDA-GI7msN4YogQW4u45qyiz4BuiU&_nc_ohc=PLd5PPh34c8Q7kNvwFO2zSS&_nc_gid=fmAl1Y7Q0xV8IQcarZY3mA&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_uK8UC_EhmmUQg-9QEi933W2k8rtCF_WmgSrsauUvK2w&oe=6A415D32&_nc_sid=8b3546",
-      "avatar_url": "/assets/source-avatars/db80d06917ef5d9965b5.webp",
-      "source_initials": "藤井",
-      "categories": [
-        "posts-videos",
-        "events"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動"
-      ],
-      "key": "ig_toshimiller:https://www.instagram.com/p/DZRV22zzJqV/"
     }
   ]
 }
