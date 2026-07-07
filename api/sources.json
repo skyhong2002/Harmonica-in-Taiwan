@@ -65,6 +65,89 @@
   },
   "entries": [
     {
+      "id": "watchlist-176",
+      "publicId": "176",
+      "name": "Hohner 音樂院（特羅辛根）",
+      "nameEn": "Hohner-Konservatorium Trossingen",
+      "category": "國際交流",
+      "type": "場館與平台",
+      "originalType": "教育機構",
+      "country": "德國",
+      "region": "德國/特羅辛根",
+      "cityOrFocus": "Hohner/Trossingen/Harmonica Masters/青年與專業教育",
+      "structuredSummary": "Hohner/Trossingen/Harmonica Masters/青年與專業教育 / Mundharmonika/口琴/手風琴 / 國際教育來源",
+      "summary": "德國的國際教育來源，關注Hohner、Trossingen、Harmonica Masters與青年與專業教育。",
+      "keywords": "Hohner-Konservatorium Trossingen Harmonica Masters Hohner harmonica education",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hohner-konservatorium.de/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Hohner-Konservatorium-Trossingen-1586512034959284/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hohnerkonservatorium/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/HohnerKonservatorium"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-07T20:01:51+00:00",
+      "latestUpdateLocal": "2026-07-08 04:01",
+      "latestUpdateSource": "Hohner 音樂院（特羅辛根）",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hohnerkonservatorium/3936224247441061669/",
+      "avatarUrl": "/assets/source-avatars/6c4ed8a497c8e8aee33c.webp",
+      "sourceInitials": "H",
+      "sourceTags": [
+        "場館平台",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hohner_konservatorium_trossingen_1586512034959284",
+          "name": "Hohner 音樂院（特羅辛根）",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Hohner-Konservatorium-Trossingen-1586512034959284",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hohnerkonservatorium",
+          "name": "Hohner 音樂院（特羅辛根）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hohnerkonservatorium",
+          "profileUrl": "https://www.instagram.com/hohnerkonservatorium/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hohnerkonservatorium",
+          "name": "Hohner 音樂院（特羅辛根）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hohnerkonservatorium",
+          "profileUrl": "https://www.instagram.com/hohnerkonservatorium/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerkonservatorium/story/0"
+        },
+        {
+          "id": "yt_hohnerkonservatorium",
+          "name": "Hohner 音樂院（特羅辛根）",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/HohnerKonservatorium",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-33",
       "publicId": "33",
       "name": "黃冠誌",
@@ -392,6 +475,116 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@minamirisa",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-9",
+      "publicId": "9",
+      "name": "李讓 Jang Li",
+      "nameEn": "Jang Li",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "半音階/十孔/作曲/配樂/跨界",
+      "structuredSummary": "半音階/十孔/作曲/配樂/跨界 / 半音階/十孔 / 演出人員",
+      "summary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
+      "keywords": "李讓 Jang Li",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://jangliharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Jang.Li.Harmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jangli_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/jangliharmonica"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/JangLiHarmonica"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@jangli_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-07T13:32:27+00:00",
+      "latestUpdateLocal": "2026-07-07 21:32",
+      "latestUpdateSource": "李讓 Jang Li",
+      "latestUpdateUrl": "https://www.instagram.com/stories/jangli_harmonica/3936028204884818936/",
+      "avatarUrl": "/assets/source-avatars/3eb31bb3c8355ed0f6cb.webp",
+      "sourceInitials": "JL",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "sourceSummary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
+      "sourceTagReason": "手動自 Threads 個人簡介匯入。",
+      "monitorSources": [
+        {
+          "id": "fb_jang_li_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Jang.Li.Harmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_jangli_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jangli_harmonica",
+          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jangli_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jangli_harmonica",
+          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/jangli_harmonica/story/0"
+        },
+        {
+          "id": "threads_jangli_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "threads",
+          "type": "rss",
+          "username": "jangli_harmonica",
+          "profileUrl": "https://www.threads.net/@jangli_harmonica",
+          "feedUrl": "https://rss.observe.tw/threads/jangli_harmonica"
+        },
+        {
+          "id": "x_jangliharmonica",
+          "name": "李讓 Jang Li",
+          "platform": "x",
+          "type": "rss",
+          "username": "JangLiHarmonica",
+          "profileUrl": "https://x.com/JangLiHarmonica",
+          "feedUrl": "https://rss.observe.tw/twitter/user/JangLiHarmonica"
+        },
+        {
+          "id": "yt_jangliharmonica",
+          "name": "李讓 Jang Li",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/jangliharmonica",
           "feedUrl": ""
         }
       ]
@@ -1283,116 +1476,6 @@
       ]
     },
     {
-      "id": "watchlist-9",
-      "publicId": "9",
-      "name": "李讓 Jang Li",
-      "nameEn": "Jang Li",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "半音階/十孔/作曲/配樂/跨界",
-      "structuredSummary": "半音階/十孔/作曲/配樂/跨界 / 半音階/十孔 / 演出人員",
-      "summary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
-      "keywords": "李讓 Jang Li",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://jangliharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Jang.Li.Harmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jangli_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/jangliharmonica"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/JangLiHarmonica"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@jangli_harmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-07T10:02:07+00:00",
-      "latestUpdateLocal": "2026-07-07 18:02",
-      "latestUpdateSource": "李讓 Jang Li",
-      "latestUpdateUrl": "https://www.instagram.com/p/DafMwsikwDY/",
-      "avatarUrl": "/assets/source-avatars/3eb31bb3c8355ed0f6cb.webp",
-      "sourceInitials": "JL",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "sourceSummary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
-      "sourceTagReason": "手動自 Threads 個人簡介匯入。",
-      "monitorSources": [
-        {
-          "id": "fb_jang_li_harmonica",
-          "name": "李讓 Jang Li",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Jang.Li.Harmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_jangli_harmonica",
-          "name": "李讓 Jang Li",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jangli_harmonica",
-          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jangli_harmonica",
-          "name": "李讓 Jang Li",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jangli_harmonica",
-          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jangli_harmonica/story/0"
-        },
-        {
-          "id": "threads_jangli_harmonica",
-          "name": "李讓 Jang Li",
-          "platform": "threads",
-          "type": "rss",
-          "username": "jangli_harmonica",
-          "profileUrl": "https://www.threads.net/@jangli_harmonica",
-          "feedUrl": "https://rss.observe.tw/threads/jangli_harmonica"
-        },
-        {
-          "id": "x_jangliharmonica",
-          "name": "李讓 Jang Li",
-          "platform": "x",
-          "type": "rss",
-          "username": "JangLiHarmonica",
-          "profileUrl": "https://x.com/JangLiHarmonica",
-          "feedUrl": "https://rss.observe.tw/twitter/user/JangLiHarmonica"
-        },
-        {
-          "id": "yt_jangliharmonica",
-          "name": "李讓 Jang Li",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/jangliharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-100",
       "publicId": "100",
       "name": "曹小歐",
@@ -1834,6 +1917,55 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-92",
+      "publicId": "92",
+      "name": "狂響逗嘴鼓口琴樂坊",
+      "nameEn": "Rhapsody Harmonica & Drum Studio",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "教學工作室",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "cityOrFocus": "口琴/手鼓教學/工作室/講座",
+      "structuredSummary": "口琴/手鼓教學/工作室/講座 / 口琴/手鼓 / 教學/工作坊/活動來源",
+      "summary": "臺灣的口琴與手鼓教學、工作坊與活動來源，關注手鼓教學、工作室與講座。",
+      "keywords": "狂響逗嘴鼓口琴樂坊 高雄 口琴 手鼓 教學 工作室",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://art-garden.khcc.gov.tw/introduction/team/7677"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HarmonicaDrumRhapsody/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-07T04:34:02+00:00",
+      "latestUpdateLocal": "2026-07-07 12:34",
+      "latestUpdateSource": "狂響逗嘴鼓口琴樂坊",
+      "latestUpdateUrl": "https://www.facebook.com/HarmonicaDrumRhapsody/posts/pfbid02pCVYaBvNK9c8PXvAoRuzjiCZW6Mdm6ryBe9XdB3cQYSyYsqmHhMNq8bU9DHAz8b4l",
+      "avatarUrl": "/assets/source-avatars/946ad82a5099360a8d19.webp",
+      "sourceInitials": "狂響",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "工作室"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicadrumrhapsody",
+          "name": "狂響逗嘴鼓口琴樂坊",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HarmonicaDrumRhapsody",
           "feedUrl": ""
         }
       ]
@@ -8221,6 +8353,103 @@
       ]
     },
     {
+      "id": "watchlist-85",
+      "publicId": "85",
+      "name": "黃石樂器",
+      "nameEn": "Yellowstone Music Shop",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "樂器行/教學工作室",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴專賣/教學/講座/課程",
+      "structuredSummary": "口琴專賣/教學/講座/課程 / 口琴 / 教學/活動/器材來源",
+      "summary": "臺灣的口琴教學、活動與器材來源，關注口琴專賣、教學、講座與課程。",
+      "keywords": "黃石樂器 Yellowstone Music Shop 口琴 專賣 教學",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/yellowstone.music.shop.tw/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yellowstone_music_shop/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@yellowstone_musicshop"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@yellowstone_music_shop"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-14T02:57:17+00:00",
+      "latestUpdateLocal": "2026-06-14 10:57",
+      "latestUpdateSource": "黃石樂器",
+      "latestUpdateUrl": "https://www.facebook.com/yellowstone.music.shop.tw/posts/pfbid0chYjFietCBMdG5VJ59bHjuTxbweaYRdsrTsxdPLGGa7anEEc8ewLfn2h9P1UaYRgl",
+      "avatarUrl": "/assets/source-avatars/10e3622459fc32d5d415.webp",
+      "sourceInitials": "黃石",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "課程"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_yellowstone_music_shop_tw",
+          "name": "黃石樂器",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/yellowstone.music.shop.tw",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yellowstone_music_shop",
+          "name": "黃石樂器",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yellowstone_music_shop",
+          "profileUrl": "https://www.instagram.com/yellowstone_music_shop/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yellowstone_music_shop/story/0"
+        },
+        {
+          "id": "ig_yellowstone_music_shop",
+          "name": "黃石樂器",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yellowstone_music_shop",
+          "profileUrl": "https://www.instagram.com/yellowstone_music_shop/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_yellowstone_music_shop",
+          "name": "黃石樂器",
+          "platform": "threads",
+          "type": "rss",
+          "username": "yellowstone_music_shop",
+          "profileUrl": "https://www.threads.net/@yellowstone_music_shop",
+          "feedUrl": "https://rss.observe.tw/threads/yellowstone_music_shop"
+        },
+        {
+          "id": "yt_yellowstone_musicshop",
+          "name": "黃石樂器",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@yellowstone_musicshop",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-203",
       "publicId": "203",
       "name": "明治大學ハーモニカソサエティー",
@@ -10338,103 +10567,6 @@
       ]
     },
     {
-      "id": "watchlist-85",
-      "publicId": "85",
-      "name": "黃石樂器",
-      "nameEn": "Yellowstone Music Shop",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "樂器行/教學工作室",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴專賣/教學/講座/課程",
-      "structuredSummary": "口琴專賣/教學/講座/課程 / 口琴 / 教學/活動/器材來源",
-      "summary": "臺灣的口琴教學、活動與器材來源，關注口琴專賣、教學、講座與課程。",
-      "keywords": "黃石樂器 Yellowstone Music Shop 口琴 專賣 教學",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/yellowstone.music.shop.tw/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yellowstone_music_shop/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@yellowstone_musicshop"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@yellowstone_music_shop"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2017-07-15T07:44:59+00:00",
-      "latestUpdateLocal": "2017-07-15 15:44",
-      "latestUpdateSource": "黃石樂器",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=WRpPx9qZWV8",
-      "avatarUrl": "/assets/source-avatars/10e3622459fc32d5d415.webp",
-      "sourceInitials": "黃石",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "課程"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_yellowstone_music_shop_tw",
-          "name": "黃石樂器",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/yellowstone.music.shop.tw",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_yellowstone_music_shop",
-          "name": "黃石樂器",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yellowstone_music_shop",
-          "profileUrl": "https://www.instagram.com/yellowstone_music_shop/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yellowstone_music_shop/story/0"
-        },
-        {
-          "id": "ig_yellowstone_music_shop",
-          "name": "黃石樂器",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yellowstone_music_shop",
-          "profileUrl": "https://www.instagram.com/yellowstone_music_shop/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_yellowstone_music_shop",
-          "name": "黃石樂器",
-          "platform": "threads",
-          "type": "rss",
-          "username": "yellowstone_music_shop",
-          "profileUrl": "https://www.threads.net/@yellowstone_music_shop",
-          "feedUrl": "https://rss.observe.tw/threads/yellowstone_music_shop"
-        },
-        {
-          "id": "yt_yellowstone_musicshop",
-          "name": "黃石樂器",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@yellowstone_musicshop",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-70",
       "publicId": "70",
       "name": "Fata Morgana 口琴四重奏",
@@ -10526,89 +10658,6 @@
       "sourceInitials": "簧格",
       "sourceTags": [
         "品牌"
-      ]
-    },
-    {
-      "id": "watchlist-176",
-      "publicId": "176",
-      "name": "Hohner 音樂院（特羅辛根）",
-      "nameEn": "Hohner-Konservatorium Trossingen",
-      "category": "國際交流",
-      "type": "場館與平台",
-      "originalType": "教育機構",
-      "country": "德國",
-      "region": "德國/特羅辛根",
-      "cityOrFocus": "Hohner/Trossingen/Harmonica Masters/青年與專業教育",
-      "structuredSummary": "Hohner/Trossingen/Harmonica Masters/青年與專業教育 / Mundharmonika/口琴/手風琴 / 國際教育來源",
-      "summary": "德國的國際教育來源，關注Hohner、Trossingen、Harmonica Masters與青年與專業教育。",
-      "keywords": "Hohner-Konservatorium Trossingen Harmonica Masters Hohner harmonica education",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hohner-konservatorium.de/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Hohner-Konservatorium-Trossingen-1586512034959284/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hohnerkonservatorium/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/user/HohnerKonservatorium"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/a47568166466d3acbf8a.webp",
-      "sourceInitials": "H",
-      "sourceTags": [
-        "場館平台",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hohner_konservatorium_trossingen_1586512034959284",
-          "name": "Hohner 音樂院（特羅辛根）",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Hohner-Konservatorium-Trossingen-1586512034959284",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hohnerkonservatorium",
-          "name": "Hohner 音樂院（特羅辛根）",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hohnerkonservatorium",
-          "profileUrl": "https://www.instagram.com/hohnerkonservatorium/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hohnerkonservatorium",
-          "name": "Hohner 音樂院（特羅辛根）",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hohnerkonservatorium",
-          "profileUrl": "https://www.instagram.com/hohnerkonservatorium/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerkonservatorium/story/0"
-        },
-        {
-          "id": "yt_hohnerkonservatorium",
-          "name": "Hohner 音樂院（特羅辛根）",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/user/HohnerKonservatorium",
-          "feedUrl": ""
-        }
       ]
     },
     {
@@ -13072,55 +13121,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCj6k37VazQzRldrBRfFDFJw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-92",
-      "publicId": "92",
-      "name": "狂響逗嘴鼓口琴樂坊",
-      "nameEn": "Rhapsody Harmonica & Drum Studio",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "教學工作室",
-      "country": "臺灣",
-      "region": "臺灣/高雄",
-      "cityOrFocus": "口琴/手鼓教學/工作室/講座",
-      "structuredSummary": "口琴/手鼓教學/工作室/講座 / 口琴/手鼓 / 教學/工作坊/活動來源",
-      "summary": "臺灣的口琴與手鼓教學、工作坊與活動來源，關注手鼓教學、工作室與講座。",
-      "keywords": "狂響逗嘴鼓口琴樂坊 高雄 口琴 手鼓 教學 工作室",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://art-garden.khcc.gov.tw/introduction/team/7677"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HarmonicaDrumRhapsody/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/946ad82a5099360a8d19.webp",
-      "sourceInitials": "狂響",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "工作室"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonicadrumrhapsody",
-          "name": "狂響逗嘴鼓口琴樂坊",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HarmonicaDrumRhapsody",
           "feedUrl": ""
         }
       ]
