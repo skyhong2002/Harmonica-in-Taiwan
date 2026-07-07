@@ -1,9 +1,9 @@
 {
   "site": "https://harmonica.observe.tw",
   "generatedAt": "2026-07-07",
-  "count": 204,
+  "count": 205,
   "stats": {
-    "totalEntries": 204,
+    "totalEntries": 205,
     "categories": {
       "其他來源": 2,
       "國際交流": 10,
@@ -12,10 +12,10 @@
       "學校社團": 36,
       "教學器材": 14,
       "活動資訊": 20,
-      "演奏者": 73
+      "演奏者": 74
     },
     "countries": {
-      "中國": 8,
+      "中國": 9,
       "丹麥": 1,
       "以色列": 1,
       "俄羅斯": 1,
@@ -42,24 +42,24 @@
       "馬來西亞": 13
     },
     "watchSources": {
-      "totalSources": 599,
+      "totalSources": 600,
       "rsshubSources": 326,
       "apifySources": 147,
       "facebookSources": 147,
-      "youtubeSources": 126,
+      "youtubeSources": 127,
       "platforms": {
         "facebook": 147,
         "instagram": 286,
         "threads": 28,
         "x": 12,
-        "youtube": 126
+        "youtube": 127
       },
       "types": {
         "facebook_page_posts": 147,
         "rss": 40,
         "rsshub_instagram_profile": 143,
         "rsshub_instagram_story": 143,
-        "youtube_ytdlp": 126
+        "youtube_ytdlp": 127
       }
     }
   },
@@ -14204,6 +14204,55 @@
           "username": "aurora._.harmonica",
           "profileUrl": "https://www.instagram.com/aurora._.harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/aurora._.harmonica/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-221",
+      "publicId": "221",
+      "name": "吹口琴的小园园",
+      "nameEn": "Yuanyuan Harmonica",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "中國",
+      "region": "中國",
+      "cityOrFocus": "十孔/藍調/流行/教學",
+      "structuredSummary": "十孔/藍調/流行/教學 / 十孔/半音階 / 演出人員/教學者",
+      "summary": "吹口琴的小园园（Yuanyuan Harmonica），中國知名口琴演奏者與視頻創作者，擅長藍調口琴與半音階口琴演奏與教學。",
+      "keywords": "",
+      "links": [
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@yuanyuanharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/aed956184d6a75510a0c.webp",
+      "sourceInitials": "吹口",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "半音階",
+        "教學",
+        "課程"
+      ],
+      "sourceSummary": "吹口琴的小园园（Yuanyuan Harmonica），中國知名口琴演奏者與視頻創作者，擅長藍調口琴與半音階口琴演奏與教學。",
+      "sourceTagReason": "手動登錄之口琴演奏者，專注於十孔藍調與半音階口琴。",
+      "monitorSources": [
+        {
+          "id": "yt_yuanyuanharmonica",
+          "name": "吹口琴的小园园",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@yuanyuanharmonica",
+          "feedUrl": ""
         }
       ]
     },
