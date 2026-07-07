@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-07T18:29:30+08:00",
+  "generatedAt": "2026-07-07T19:35:04+08:00",
   "timezone": "Asia/Taipei",
-  "count": 4,
+  "count": 5,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -13,7 +13,7 @@
     "tokenSource": "keychain:harmonica-opencode-go/harmonica",
     "model": "mimo-v2.5",
     "stats": {
-      "requests": 0,
+      "requests": 2,
       "cached": 12,
       "errors": 0
     }
@@ -111,6 +111,37 @@
         "https://i.ytimg.com/vi/PA11sSFkJeA/maxresdefault.jpg"
       ],
       "image_url": "/assets/feed-images/17f8a4214970bdefa716.webp"
+    },
+    {
+      "id": "be809f6f6ff2649d",
+      "title": "2026臺灣口琴音樂節 Gala 音樂會",
+      "eventName": "2026臺灣口琴音樂節 Gala 音樂會",
+      "source": "臺灣口琴音樂節 Taiwan Harmonica Music Festival",
+      "platform": "instagram",
+      "start": "2026-08-07T19:00:00+08:00",
+      "end": "2026-08-07T21:00:00+08:00",
+      "allDay": false,
+      "location": "新竹市文化局演藝廳音樂廳",
+      "venue": "新竹市文化局演藝廳音樂廳",
+      "city": "新竹市",
+      "details": "為「風城Show琴 Harmonica Fest in Windy City」場次，由茱蒂口琴樂團、狂響口琴樂團等多位演奏家演出，門票可透過OpenTix購買。",
+      "evidenceUrl": "https://www.instagram.com/p/DafMwsikwDY/",
+      "confidence": 0.95,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventName": "2026臺灣口琴音樂節 Gala 音樂會",
+        "venue": "新竹市文化局演藝廳音樂廳",
+        "city": "新竹市",
+        "details": "為「風城Show琴 Harmonica Fest in Windy City」場次，由茱蒂口琴樂團、狂響口琴樂團等多位演奏家演出，門票可透過OpenTix購買。",
+        "reason": "活動於新竹市文化局演藝廳舉辦，為線下口琴音樂會，日期與時間與候選資料一致，符合收錄條件。",
+        "confidence": 0.95
+      },
+      "postedAt": "2026-07-07 18:02",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/733758454_17947928634238733_3098602818497613446_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzkzNTkyMDcyMjI2MjgxOTAzMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjMzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=EIS19Im4EHIQ7kNvwG74tp4&_nc_oc=AdpL963_74z6VelwRhZSsI3Kh3kiH705qeCQTNgv3w7gQqeUoZhCQCdMHr-JVRJnQko&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=JL_rNCc9jwNv-SASQmrSDQ&_nc_ss=7a22e&oh=00_AQCBegPGtK_BzrqrxHhiPPJk6n7C27isipsIyhL7ktAzpw&oe=6A52C796"
+      ],
+      "image_url": "/assets/feed-images/bfd2eef01db73daa0a5a.webp"
     },
     {
       "eventName": "臺中一中口琴之狼校友音樂會《天琴聲等煙雨》",
