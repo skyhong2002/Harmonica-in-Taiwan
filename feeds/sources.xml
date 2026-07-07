@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 06 Jul 2026 23:55:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2026 00:29:27 +0000</lastBuildDate>
     <item>
       <title>香港學校音樂節</title>
       <link>https://www.hksmsa.org.hk/en/78th-hong-kong-schools-music-festival-2026/</link>
@@ -40,6 +40,17 @@ Tag：演奏者、合奏、和弦、重奏、演出
 口琴演奏者，專長和弦口琴與重奏演出。</description>
     </item>
     <item>
+      <title>Lee Oskar</title>
+      <link>https://leeoskar.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/46bea6a12ee3ef49</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：品牌、演奏者、團體樂團、十孔、國際交流
+國家：丹麥
+地區：美國
+丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。</description>
+    </item>
+    <item>
       <title>Jens Bunge</title>
       <link>https://hohner.de/en/jens-bunge</link>
       <guid>https://harmonica.observe.tw/feeds/sources/bf85aeb31f137bd0</guid>
@@ -71,6 +82,17 @@ Tag：教學器材、國際交流、課程、半音階、十孔
 國家：阿根廷
 地區：阿根廷/阿韋亞內達
 阿根廷的國際教育來源，關注公立流行音樂學校、正式口琴課程、爵士、探戈與民俗。</description>
+    </item>
+    <item>
+      <title>山下伶 Rei Yamashita</title>
+      <link>https://rei-yamashita.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：日本
+地區：日本
+日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
     </item>
     <item>
       <title>Timothy Yip 葉進禧</title>
@@ -148,17 +170,6 @@ Tag：演奏者、半音階、國際交流
 國家：日本
 地區：日本
 日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
-    </item>
-    <item>
-      <title>Lee Oskar</title>
-      <link>https://leeoskar.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/46bea6a12ee3ef49</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：品牌、演奏者、團體樂團、十孔、國際交流
-國家：丹麥
-地區：美國
-丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。</description>
     </item>
     <item>
       <title>Filip Jers</title>
@@ -247,17 +258,6 @@ Tag：團體樂團、重奏、國際交流
 國家：香港
 地區：香港/國際
 香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
-    </item>
-    <item>
-      <title>山下伶 Rei Yamashita</title>
-      <link>https://rei-yamashita.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：日本
-地區：日本
-日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
     </item>
     <item>
       <title>陳鴻儀</title>
