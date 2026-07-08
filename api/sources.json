@@ -65,6 +65,79 @@
   },
   "entries": [
     {
+      "id": "watchlist-174",
+      "publicId": "174",
+      "name": "Yellow Pine Harmonica Festival",
+      "nameEn": "Yellow Pine Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
+      "country": "美國",
+      "region": "美國/愛達荷",
+      "cityOrFocus": "戶外口琴音樂節/課程/示範/社群演出",
+      "structuredSummary": "戶外口琴音樂節/課程/示範/社群演出 / 口琴 / 國際活動來源",
+      "summary": "美國的國際活動來源，涵蓋戶外口琴音樂節、課程、示範與社群演出。",
+      "keywords": "Yellow Pine Harmonica Festival Idaho harmonica festival",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.yellowpinefestival.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/YellowPineHarmonicaFestival/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://instagram.com/yellowpinemusicfestival"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-07T23:37:10+00:00",
+      "latestUpdateLocal": "2026-07-08 07:37",
+      "latestUpdateSource": "Yellow Pine Harmonica Festival",
+      "latestUpdateUrl": "https://www.instagram.com/p/DagqZjLjy9J/",
+      "avatarUrl": "/assets/source-avatars/4a074459bb09346a90ec.webp",
+      "sourceInitials": "YPH",
+      "sourceTags": [
+        "活動資訊",
+        "課程",
+        "音樂節",
+        "比賽",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_yellowpineharmonicafestival",
+          "name": "Yellow Pine Harmonica Festival",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/YellowPineHarmonicaFestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yellowpinemusicfestival",
+          "name": "Yellow Pine Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yellowpinemusicfestival",
+          "profileUrl": "https://www.instagram.com/yellowpinemusicfestival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yellowpinemusicfestival/story/0"
+        },
+        {
+          "id": "ig_yellowpinemusicfestival",
+          "name": "Yellow Pine Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yellowpinemusicfestival",
+          "profileUrl": "https://www.instagram.com/yellowpinemusicfestival/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-57",
       "publicId": "57",
       "name": "山下伶 Rei Yamashita",
@@ -157,6 +230,91 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@reiyamashita",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-132",
+      "publicId": "132",
+      "name": "Antonio Serrano",
+      "nameEn": "Antonio Serrano",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "西班牙",
+      "region": "西班牙",
+      "cityOrFocus": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025",
+      "structuredSummary": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025 / 半音階/十孔 / 國際演出人員",
+      "summary": "西班牙的半音階與十孔國際演出人員，活動脈絡包含馬德里出生、古典藍調爵士流行與與Paco de Lucia合作。",
+      "keywords": "Antonio Serrano harmonica SIHF WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hohner.de/en/antonio-serrano"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/antonioserranoarmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/antonioserranoarmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@antonioserranoofficial"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-07T20:04:58+00:00",
+      "latestUpdateLocal": "2026-07-08 04:04",
+      "latestUpdateSource": "Antonio Serrano",
+      "latestUpdateUrl": "https://www.instagram.com/stories/antonioserranoarmonica/3936225772549236083/",
+      "avatarUrl": "/assets/source-avatars/333fe69573f8d4b95ee6.webp",
+      "sourceInitials": "AS",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_antonioserranoarmonica",
+          "name": "Antonio Serrano",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/antonioserranoarmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_antonioserranoarmonica",
+          "name": "Antonio Serrano",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "antonioserranoarmonica",
+          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_antonioserranoarmonica",
+          "name": "Antonio Serrano",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "antonioserranoarmonica",
+          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/antonioserranoarmonica/story/0"
+        },
+        {
+          "id": "yt_antonioserranoofficial",
+          "name": "Antonio Serrano",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@antonioserranoofficial",
           "feedUrl": ""
         }
       ]
@@ -3164,6 +3322,55 @@
       ]
     },
     {
+      "id": "watchlist-221",
+      "publicId": "221",
+      "name": "吹口琴的小园园",
+      "nameEn": "Yuanyuan Harmonica",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "中國",
+      "region": "中國",
+      "cityOrFocus": "十孔/藍調/流行/教學",
+      "structuredSummary": "十孔/藍調/流行/教學 / 十孔/半音階 / 演出人員/教學者",
+      "summary": "吹口琴的小园园（Yuanyuan Harmonica），中國知名口琴演奏者與視頻創作者，擅長藍調口琴與半音階口琴演奏與教學。",
+      "keywords": "",
+      "links": [
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@yuanyuanharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-06T10:00:32+00:00",
+      "latestUpdateLocal": "2026-07-06 18:00",
+      "latestUpdateSource": "吹口琴的小园园",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=f1ikOwreoFU",
+      "avatarUrl": "/assets/source-avatars/aed956184d6a75510a0c.webp",
+      "sourceInitials": "吹口",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "半音階",
+        "教學",
+        "課程"
+      ],
+      "sourceSummary": "吹口琴的小园园（Yuanyuan Harmonica），中國知名口琴演奏者與視頻創作者，擅長藍調口琴與半音階口琴演奏與教學。",
+      "sourceTagReason": "手動登錄之口琴演奏者，專注於十孔藍調與半音階口琴。",
+      "monitorSources": [
+        {
+          "id": "yt_yuanyuanharmonica",
+          "name": "吹口琴的小园园",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@yuanyuanharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-220",
       "publicId": "220",
       "name": "菜鳥琴老師很菜",
@@ -4608,91 +4815,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@minghsunTsai",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-132",
-      "publicId": "132",
-      "name": "Antonio Serrano",
-      "nameEn": "Antonio Serrano",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "西班牙",
-      "region": "西班牙",
-      "cityOrFocus": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025",
-      "structuredSummary": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025 / 半音階/十孔 / 國際演出人員",
-      "summary": "西班牙的半音階與十孔國際演出人員，活動脈絡包含馬德里出生、古典藍調爵士流行與與Paco de Lucia合作。",
-      "keywords": "Antonio Serrano harmonica SIHF WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hohner.de/en/antonio-serrano"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/antonioserranoarmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/antonioserranoarmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@antonioserranoofficial"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-04T19:20:28+00:00",
-      "latestUpdateLocal": "2026-07-05 03:20",
-      "latestUpdateSource": "Antonio Serrano",
-      "latestUpdateUrl": "https://www.instagram.com/stories/antonioserranoarmonica/3934029337498289016/",
-      "avatarUrl": "/assets/source-avatars/333fe69573f8d4b95ee6.webp",
-      "sourceInitials": "AS",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_antonioserranoarmonica",
-          "name": "Antonio Serrano",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/antonioserranoarmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_antonioserranoarmonica",
-          "name": "Antonio Serrano",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "antonioserranoarmonica",
-          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_antonioserranoarmonica",
-          "name": "Antonio Serrano",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "antonioserranoarmonica",
-          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/antonioserranoarmonica/story/0"
-        },
-        {
-          "id": "yt_antonioserranoofficial",
-          "name": "Antonio Serrano",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@antonioserranoofficial",
           "feedUrl": ""
         }
       ]
@@ -6512,79 +6634,6 @@
           "username": "chgsh_harmonica",
           "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/chgsh_harmonica/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-174",
-      "publicId": "174",
-      "name": "Yellow Pine Harmonica Festival",
-      "nameEn": "Yellow Pine Harmonica Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "活動/資訊入口",
-      "country": "美國",
-      "region": "美國/愛達荷",
-      "cityOrFocus": "戶外口琴音樂節/課程/示範/社群演出",
-      "structuredSummary": "戶外口琴音樂節/課程/示範/社群演出 / 口琴 / 國際活動來源",
-      "summary": "美國的國際活動來源，涵蓋戶外口琴音樂節、課程、示範與社群演出。",
-      "keywords": "Yellow Pine Harmonica Festival Idaho harmonica festival",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.yellowpinefestival.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/YellowPineHarmonicaFestival/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://instagram.com/yellowpinemusicfestival"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-30T23:37:09+00:00",
-      "latestUpdateLocal": "2026-07-01 07:37",
-      "latestUpdateSource": "Yellow Pine Harmonica Festival",
-      "latestUpdateUrl": "https://www.instagram.com/p/DaOo1SJAAlS/",
-      "avatarUrl": "/assets/source-avatars/4a074459bb09346a90ec.webp",
-      "sourceInitials": "YPH",
-      "sourceTags": [
-        "活動資訊",
-        "課程",
-        "音樂節",
-        "比賽",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_yellowpineharmonicafestival",
-          "name": "Yellow Pine Harmonica Festival",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/YellowPineHarmonicaFestival",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_yellowpinemusicfestival",
-          "name": "Yellow Pine Harmonica Festival",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yellowpinemusicfestival",
-          "profileUrl": "https://www.instagram.com/yellowpinemusicfestival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yellowpinemusicfestival/story/0"
-        },
-        {
-          "id": "ig_yellowpinemusicfestival",
-          "name": "Yellow Pine Harmonica Festival",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yellowpinemusicfestival",
-          "profileUrl": "https://www.instagram.com/yellowpinemusicfestival/",
-          "feedUrl": ""
         }
       ]
     },
@@ -14204,55 +14253,6 @@
           "username": "aurora._.harmonica",
           "profileUrl": "https://www.instagram.com/aurora._.harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/aurora._.harmonica/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-221",
-      "publicId": "221",
-      "name": "吹口琴的小园园",
-      "nameEn": "Yuanyuan Harmonica",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "中國",
-      "region": "中國",
-      "cityOrFocus": "十孔/藍調/流行/教學",
-      "structuredSummary": "十孔/藍調/流行/教學 / 十孔/半音階 / 演出人員/教學者",
-      "summary": "吹口琴的小园园（Yuanyuan Harmonica），中國知名口琴演奏者與視頻創作者，擅長藍調口琴與半音階口琴演奏與教學。",
-      "keywords": "",
-      "links": [
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@yuanyuanharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/aed956184d6a75510a0c.webp",
-      "sourceInitials": "吹口",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "半音階",
-        "教學",
-        "課程"
-      ],
-      "sourceSummary": "吹口琴的小园园（Yuanyuan Harmonica），中國知名口琴演奏者與視頻創作者，擅長藍調口琴與半音階口琴演奏與教學。",
-      "sourceTagReason": "手動登錄之口琴演奏者，專注於十孔藍調與半音階口琴。",
-      "monitorSources": [
-        {
-          "id": "yt_yuanyuanharmonica",
-          "name": "吹口琴的小园园",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@yuanyuanharmonica",
-          "feedUrl": ""
         }
       ]
     },
