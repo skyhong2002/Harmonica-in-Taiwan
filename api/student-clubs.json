@@ -7,8 +7,89 @@
   "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
   "json": "https://harmonica.observe.tw/api/student-clubs.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/student-clubs.json",
-  "count": 94,
+  "count": 95,
   "items": [
+    {
+      "title": "御風裕豐 Lin Yu Feng｜【新手必看】口琴拆開組不回去？做好這三件事讓清潔保養變更輕鬆 #口琴清潔 #口琴保養 #口琴教學 每天放在口中吹奏的口琴，卻很少拆開清潔嗎？ 想嘗試自己動手，看了許多教學影片還是不敢踏出第一步？ 好不容易…",
+      "headline": "【新手必看】口琴拆開組不回去？做好這三件事讓清潔保養變更輕鬆 #口琴清潔 #口琴保養 #口琴教學",
+      "display_title": "【新手必看】口琴拆開組不回去？做好這三件事讓清潔保養變更輕鬆 #口琴清潔 #口琴保養 #口琴教學",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=Rdqnr6rVeXM",
+      "source_id": "yt_yfharmonica",
+      "source": "御風裕豐 Lin Yu Feng",
+      "source_system_name": "林裕豐",
+      "source_profile_url": "https://www.youtube.com/channel/UC1m2IgdRMnhARNE1rPHgAng",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-43",
+      "directory_entry_name": "林裕豐",
+      "account": "https://www.youtube.com/channel/UC1m2IgdRMnhARNE1rPHgAng",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-07-08T08:12:07+00:00",
+      "posted_at_local": "2026-07-08 16:12",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-08T20:10:51.959881+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "影片",
+        "課程"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "演出",
+        "影片"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "影片",
+        "課程"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文內容為口琴清潔保養的教學影片，屬於口琴教學與公開分享，與口琴學習相關。",
+      "text": "【新手必看】口琴拆開組不回去？做好這三件事讓清潔保養變更輕鬆 #口琴清潔 #口琴保養 #口琴教學\n每天放在口中吹奏的口琴，卻很少拆開清潔嗎？\n想嘗試自己動手，看了許多教學影片還是不敢踏出第一步？\n好不容易把口琴拆開清潔完，卻組裝不回去？\n統整了經手維修過上千把口琴的經驗，\n及教學過程中學生的常見問題後，\n要和大家分享【口琴清潔保養的三大事前準備】\n只要掌握這三個關鍵核心，不論是半音階口琴、十孔口琴還是複音口琴，拆解保養都能變得輕鬆又容易！\n#口琴清潔 #口琴保養 #口琴教學 #半音階口琴 #十孔口琴 #複音口琴 #裕豐口琴\n🕒 時間軸 (Chapters)\n0:00 開頭\n0:22 第一件事：準備好對應的工具\n1:02 第二件事：將拆下的螺絲、零件進行分類\n1:25 【實用小秘訣 1】找不到透明的膠管？\n1:46 【實用小秘訣 2】螺絲少一個？不用擔心\n2:08 第三件事：拆解時，一邊觀察及拍照記錄\n3:53 結尾\n🎵 林裕豐\n演奏風格橫跨爵士、藍調、古典與流行，擅長以口琴展現多元音樂語彙與個人特色。現為胖擊口琴樂團半音階手，活躍於臺灣及海外舞台。\n✨ 擅長把複雜技巧轉化為清楚、有效的練習方式，從入門到進階都能找到適合自己的學習路線。\n📩 口琴教學 / 演出合作歡迎聯繫\nEmail：yfharp@gmail.com\nInstagram：https://www.instagram.com/yf__life/",
+      "images": [
+        "https://i.ytimg.com/vi/Rdqnr6rVeXM/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/Rdqnr6rVeXM/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/ff145f6f3348b88c9801.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/NRCtVwzM1rIFgYxXhyKf01-nOqWZ45ayUb71b0XTshsQme6BQ5JYy24Za-wiELWlEyZVZxT6=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/3e104f803d8d921f85f4.webp",
+      "source_initials": "LYF",
+      "categories": [
+        "posts-videos",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "學生社團"
+      ],
+      "key": "yt_yfharmonica:Rdqnr6rVeXM"
+    },
     {
       "title": "EMPA 口琴課程｜Instagram story @empa.oficial",
       "headline": "Instagram story @empa.oficial",
