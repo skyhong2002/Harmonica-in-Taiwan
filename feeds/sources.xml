@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 07 Jul 2026 23:01:22 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 00:06:17 +0000</lastBuildDate>
+    <item>
+      <title>山下伶 Rei Yamashita</title>
+      <link>https://rei-yamashita.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：日本
+地區：日本
+日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
+    </item>
     <item>
       <title>Hohner 音樂院（特羅辛根）</title>
       <link>https://www.hohner-konservatorium.de/</link>
@@ -16,6 +27,17 @@ Tag：場館平台、國際交流
 國家：德國
 地區：德國/特羅辛根
 德國的國際教育來源，關注Hohner、Trossingen、Harmonica Masters與青年與專業教育。</description>
+    </item>
+    <item>
+      <title>Federico Linari</title>
+      <link>https://www.hohner.de/en/federico-linari</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/fc7ebf0ba0d6424f</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、十孔、國際交流
+國家：阿根廷
+地區：阿根廷
+阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。</description>
     </item>
     <item>
       <title>Spring Harp Fest</title>
@@ -159,17 +181,6 @@ Tag：演奏者、十孔、國際交流
 國家：日本
 地區：日本
 日本的十孔國際演出人員，活動脈絡包含藍調。</description>
-    </item>
-    <item>
-      <title>山下伶 Rei Yamashita</title>
-      <link>https://rei-yamashita.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：日本
-地區：日本
-日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
     </item>
     <item>
       <title>胖擊口琴樂團</title>
@@ -951,17 +962,6 @@ Tag：團體樂團、國際交流
 國家：香港
 地區：香港
 香港的口琴合奏國際演出團體與教育來源，活動脈絡包含香港口琴樂團、教育推廣與年度音樂會。</description>
-    </item>
-    <item>
-      <title>Federico Linari</title>
-      <link>https://www.hohner.de/en/federico-linari</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/fc7ebf0ba0d6424f</guid>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學、十孔、國際交流
-國家：阿根廷
-地區：阿根廷
-阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。</description>
     </item>
     <item>
       <title>布宜諾斯艾利斯口琴學校</title>
