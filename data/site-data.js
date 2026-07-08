@@ -97,6 +97,56 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-40",
+      "publicId": "40",
+      "name": "陳鴻儀",
+      "nameEn": "Henry Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "演出/評審",
+      "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
+      "summary": "口琴演奏家，專注於演出與評審工作。",
+      "keywords": "陳鴻儀 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@HenrysHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-08T00:00:06+00:00",
+      "latestUpdateLocal": "2026-07-08 08:00",
+      "latestUpdateSource": "陳鴻儀",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=i8_s2uuGNV4",
+      "avatarUrl": "/assets/source-avatars/11010264a3489f5a5679.webp",
+      "sourceInitials": "陳鴻",
+      "sourceTags": [
+        "演奏者",
+        "演出"
+      ],
+      "sourceSummary": "口琴演奏家，專注於演出與評審工作。",
+      "sourceTagReason": "來源類別為「演奏者」，類型為「個人」，城市焦點為「演出/評審」，因此標記演奏者、口琴及演出。",
+      "monitorSources": [
+        {
+          "id": "yt_henrysharmonica",
+          "name": "陳鴻儀",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@HenrysHarmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-174",
       "publicId": "174",
       "name": "Yellow Pine Harmonica Festival",
@@ -3770,56 +3820,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@KelvinLeungharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-40",
-      "publicId": "40",
-      "name": "陳鴻儀",
-      "nameEn": "Henry Chen",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "演出/評審",
-      "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
-      "summary": "口琴演奏家，專注於演出與評審工作。",
-      "keywords": "陳鴻儀 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@HenrysHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-06T00:00:06+00:00",
-      "latestUpdateLocal": "2026-07-06 08:00",
-      "latestUpdateSource": "陳鴻儀",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=eGp8NeZDGfw",
-      "avatarUrl": "/assets/source-avatars/11010264a3489f5a5679.webp",
-      "sourceInitials": "陳鴻",
-      "sourceTags": [
-        "演奏者",
-        "演出"
-      ],
-      "sourceSummary": "口琴演奏家，專注於演出與評審工作。",
-      "sourceTagReason": "來源類別為「演奏者」，類型為「個人」，城市焦點為「演出/評審」，因此標記演奏者、口琴及演出。",
-      "monitorSources": [
-        {
-          "id": "yt_henrysharmonica",
-          "name": "陳鴻儀",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@HenrysHarmonica",
           "feedUrl": ""
         }
       ]
