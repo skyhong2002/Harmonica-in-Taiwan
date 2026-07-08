@@ -541,6 +541,88 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-165",
+      "publicId": "165",
+      "name": "馬來西亞口琴節",
+      "nameEn": "Malaysia Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "比賽/資訊入口",
+      "country": "馬來西亞",
+      "region": "馬來西亞/吉隆坡",
+      "cityOrFocus": "馬來西亞口琴節/比賽/學生與樂團",
+      "structuredSummary": "馬來西亞口琴節/比賽/學生與樂團 / 口琴/重奏/合奏 / 國際活動來源",
+      "summary": "馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。",
+      "keywords": "Malaysia Harmonica Festival MYHF Malaysia Harmonica Competition",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/malaysiaharmonicafestival/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/malaysia_harmonica_festival/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@malaysiaharmonicafestival5523"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-08T11:27:12+00:00",
+      "latestUpdateLocal": "2026-07-08 19:27",
+      "latestUpdateSource": "馬來西亞口琴節",
+      "latestUpdateUrl": "https://www.instagram.com/p/Dah7p__E7-5/",
+      "avatarUrl": "/assets/source-avatars/ff675f90d5ccd5b0e4a3.webp",
+      "sourceInitials": "馬來",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "比賽",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_malaysiaharmonicafestival",
+          "name": "馬來西亞口琴節",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/malaysiaharmonicafestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_malaysia_harmonica_festival",
+          "name": "馬來西亞口琴節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "malaysia_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_malaysia_harmonica_festival",
+          "name": "馬來西亞口琴節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "malaysia_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/malaysia_harmonica_festival/story/0"
+        },
+        {
+          "id": "yt_malaysiaharmonicafestival5523",
+          "name": "馬來西亞口琴節",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@malaysiaharmonicafestival5523",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-57",
       "publicId": "57",
       "name": "山下伶 Rei Yamashita",
@@ -4083,88 +4165,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-165",
-      "publicId": "165",
-      "name": "馬來西亞口琴節",
-      "nameEn": "Malaysia Harmonica Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "比賽/資訊入口",
-      "country": "馬來西亞",
-      "region": "馬來西亞/吉隆坡",
-      "cityOrFocus": "馬來西亞口琴節/比賽/學生與樂團",
-      "structuredSummary": "馬來西亞口琴節/比賽/學生與樂團 / 口琴/重奏/合奏 / 國際活動來源",
-      "summary": "馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。",
-      "keywords": "Malaysia Harmonica Festival MYHF Malaysia Harmonica Competition",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/malaysiaharmonicafestival/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/malaysia_harmonica_festival/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@malaysiaharmonicafestival5523"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-06T10:48:13+00:00",
-      "latestUpdateLocal": "2026-07-06 18:48",
-      "latestUpdateSource": "馬來西亞口琴節",
-      "latestUpdateUrl": "https://www.instagram.com/p/DactmuPEeZq/",
-      "avatarUrl": "/assets/source-avatars/ff675f90d5ccd5b0e4a3.webp",
-      "sourceInitials": "馬來",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "比賽",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_malaysiaharmonicafestival",
-          "name": "馬來西亞口琴節",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/malaysiaharmonicafestival",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_malaysia_harmonica_festival",
-          "name": "馬來西亞口琴節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "malaysia_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_malaysia_harmonica_festival",
-          "name": "馬來西亞口琴節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "malaysia_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/malaysia_harmonica_festival/story/0"
-        },
-        {
-          "id": "yt_malaysiaharmonicafestival5523",
-          "name": "馬來西亞口琴節",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@malaysiaharmonicafestival5523",
           "feedUrl": ""
         }
       ]
