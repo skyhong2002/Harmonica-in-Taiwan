@@ -4233,6 +4233,69 @@
       ]
     },
     {
+      "id": "watchlist-48",
+      "publicId": "48",
+      "name": "吳詠隆",
+      "nameEn": "WU,Yung-Lung",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "班多鈕/跨界合作",
+      "structuredSummary": "班多鈕/跨界合作 / 班多鈕 / 合作音樂家",
+      "summary": "以班多鈕手琴與跨界合作為主的演奏者",
+      "keywords": "吳詠隆 班多鈕 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://wuyunglungbn.weebly.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/markwu.bandoneon/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@markbandoneon"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-06T10:00:50+00:00",
+      "latestUpdateLocal": "2026-07-06 18:00",
+      "latestUpdateSource": "吳詠隆",
+      "latestUpdateUrl": "https://www.facebook.com/markwu.bandoneon/posts/pfbid0fn7B1YvbksEwqCgC4WgNCVttf9ovqt2sz9aV6eCwWiQGbeSSmoAiuYctFuhmyRzvl",
+      "avatarUrl": "/assets/source-avatars/7cc91bfb2650b0604c30.webp",
+      "sourceInitials": "吳詠",
+      "sourceTags": [
+        "演奏者",
+        "合奏"
+      ],
+      "sourceSummary": "以班多鈕手琴與跨界合作為主的演奏者",
+      "sourceTagReason": "資料明確標示為『演奏者』，關鍵字包含『班多鈕』與『口琴』，並提及跨界合作，符合演奏者定位。",
+      "monitorSources": [
+        {
+          "id": "fb_markwu_bandoneon",
+          "name": "吳詠隆",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/markwu.bandoneon",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_markbandoneon",
+          "name": "吳詠隆",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@markbandoneon",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-221",
       "publicId": "221",
       "name": "吹口琴的小园园",
@@ -4906,69 +4969,6 @@
           "username": "aidensoon",
           "profileUrl": "https://www.instagram.com/aidensoon/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-48",
-      "publicId": "48",
-      "name": "吳詠隆",
-      "nameEn": "WU,Yung-Lung",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "班多鈕/跨界合作",
-      "structuredSummary": "班多鈕/跨界合作 / 班多鈕 / 合作音樂家",
-      "summary": "以班多鈕手琴與跨界合作為主的演奏者",
-      "keywords": "吳詠隆 班多鈕 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://wuyunglungbn.weebly.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/markwu.bandoneon/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@markbandoneon"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-05T11:33:57+00:00",
-      "latestUpdateLocal": "2026-07-05 19:33",
-      "latestUpdateSource": "吳詠隆",
-      "latestUpdateUrl": "https://www.facebook.com/markwu.bandoneon/posts/pfbid02eDtxAkR6HxmW9KL7T5Js6X3fUUq9tXYACKEtj1FqzfRfhhoCAda2izNWR4S6S7nHl",
-      "avatarUrl": "/assets/source-avatars/7cc91bfb2650b0604c30.webp",
-      "sourceInitials": "吳詠",
-      "sourceTags": [
-        "演奏者",
-        "合奏"
-      ],
-      "sourceSummary": "以班多鈕手琴與跨界合作為主的演奏者",
-      "sourceTagReason": "資料明確標示為『演奏者』，關鍵字包含『班多鈕』與『口琴』，並提及跨界合作，符合演奏者定位。",
-      "monitorSources": [
-        {
-          "id": "fb_markwu_bandoneon",
-          "name": "吳詠隆",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/markwu.bandoneon",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_markbandoneon",
-          "name": "吳詠隆",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@markbandoneon",
-          "feedUrl": ""
         }
       ]
     },
