@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 08 Jul 2026 07:18:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 07:51:54 +0000</lastBuildDate>
     <item>
       <title>國家兩廳院</title>
       <link>https://npac-ntch.org/zh</link>
@@ -73,6 +73,17 @@ Tag：活動資訊、課程、音樂節、比賽、國際交流
 美國的國際活動來源，涵蓋戶外口琴音樂節、課程、示範與社群演出。</description>
     </item>
     <item>
+      <title>黃冠誌</title>
+      <link>https://harmonica.tw/course/kuanchih/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、合奏、和弦、重奏、演出
+國家：臺灣
+地區：臺灣
+口琴演奏者，專長和弦口琴與重奏演出。</description>
+    </item>
+    <item>
       <title>山下伶 Rei Yamashita</title>
       <link>https://rei-yamashita.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
@@ -137,17 +148,6 @@ Tag：演奏者、半音階、合奏、國際交流
 國家：香港
 地區：香港
 香港半音階口琴演奏者，專注現代跨界與國際演出。</description>
-    </item>
-    <item>
-      <title>黃冠誌</title>
-      <link>https://harmonica.tw/course/kuanchih/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、合奏、和弦、重奏、演出
-國家：臺灣
-地區：臺灣
-口琴演奏者，專長和弦口琴與重奏演出。</description>
     </item>
     <item>
       <title>Jens Bunge</title>
