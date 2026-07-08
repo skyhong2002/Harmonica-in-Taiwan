@@ -879,6 +879,86 @@
       ]
     },
     {
+      "id": "watchlist-89",
+      "publicId": "89",
+      "name": "巴巴口琴坊",
+      "nameEn": "Baba Harmonica Studio",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "教學工作室",
+      "country": "臺灣",
+      "region": "臺灣/臺南",
+      "cityOrFocus": "口琴教學/演出/社團經營",
+      "structuredSummary": "口琴教學/演出/社團經營 / 口琴 / 教學/活動來源",
+      "summary": "臺灣的口琴教學與活動來源，關注口琴教學、演出與社團經營。",
+      "keywords": "巴巴口琴坊 Baba Harmonica Studio 臺南 口琴 教學 演出",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/babaharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/baba_harmonica_studio/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@yoyo708520"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-08T11:30:08+00:00",
+      "latestUpdateLocal": "2026-07-08 19:30",
+      "latestUpdateSource": "巴巴口琴坊",
+      "latestUpdateUrl": "https://www.instagram.com/p/Dah7v_wv47C/",
+      "avatarUrl": "/assets/source-avatars/7f40e1c49d0c7a605d2b.webp",
+      "sourceInitials": "巴巴",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_babaharmonica",
+          "name": "巴巴口琴坊",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/babaharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_baba_harmonica_studio",
+          "name": "巴巴口琴坊",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "baba_harmonica_studio",
+          "profileUrl": "https://www.instagram.com/baba_harmonica_studio/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_baba_harmonica_studio",
+          "name": "巴巴口琴坊",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "baba_harmonica_studio",
+          "profileUrl": "https://www.instagram.com/baba_harmonica_studio/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/baba_harmonica_studio/story/0"
+        },
+        {
+          "id": "yt_yoyo708520",
+          "name": "巴巴口琴坊",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@yoyo708520",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-165",
       "publicId": "165",
       "name": "馬來西亞口琴節",
@@ -9306,86 +9386,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCw8TcNJXpgX1Sf8CSUFKf1w",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-89",
-      "publicId": "89",
-      "name": "巴巴口琴坊",
-      "nameEn": "Baba Harmonica Studio",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "教學工作室",
-      "country": "臺灣",
-      "region": "臺灣/臺南",
-      "cityOrFocus": "口琴教學/演出/社團經營",
-      "structuredSummary": "口琴教學/演出/社團經營 / 口琴 / 教學/活動來源",
-      "summary": "臺灣的口琴教學與活動來源，關注口琴教學、演出與社團經營。",
-      "keywords": "巴巴口琴坊 Baba Harmonica Studio 臺南 口琴 教學 演出",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/babaharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/baba_harmonica_studio/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@yoyo708520"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-05-14T12:10:29+00:00",
-      "latestUpdateLocal": "2026-05-14 20:10",
-      "latestUpdateSource": "巴巴口琴坊",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=Ely1lNcSLnc",
-      "avatarUrl": "/assets/source-avatars/984f994442c9c304149b.webp",
-      "sourceInitials": "巴巴",
-      "sourceTags": [
-        "品牌",
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_babaharmonica",
-          "name": "巴巴口琴坊",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/babaharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_baba_harmonica_studio",
-          "name": "巴巴口琴坊",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "baba_harmonica_studio",
-          "profileUrl": "https://www.instagram.com/baba_harmonica_studio/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_baba_harmonica_studio",
-          "name": "巴巴口琴坊",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "baba_harmonica_studio",
-          "profileUrl": "https://www.instagram.com/baba_harmonica_studio/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/baba_harmonica_studio/story/0"
-        },
-        {
-          "id": "yt_yoyo708520",
-          "name": "巴巴口琴坊",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@yoyo708520",
           "feedUrl": ""
         }
       ]
