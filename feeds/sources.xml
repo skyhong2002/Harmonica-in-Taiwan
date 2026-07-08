@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 08 Jul 2026 22:57:39 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 23:31:11 +0000</lastBuildDate>
     <item>
       <title>黃冠誌</title>
       <link>https://harmonica.tw/course/kuanchih/</link>
@@ -60,6 +60,17 @@ Tag：教學器材、國際交流、課程、半音階、十孔
 國家：阿根廷
 地區：阿根廷/阿韋亞內達
 阿根廷的國際教育來源，關注公立流行音樂學校、正式口琴課程、爵士、探戈與民俗。</description>
+    </item>
+    <item>
+      <title>韋笙堡口琴 Weissenberg Harmonicas</title>
+      <link>https://www.weissenbergwind.com/tw/product_list.php?type=4</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/6943943f14cc844d</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：教學器材、教學
+國家：臺灣
+地區：臺灣/臺中
+臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。</description>
     </item>
     <item>
       <title>口琴愛好者協會（新加坡）</title>
@@ -192,6 +203,17 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/臺中
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>藍波口琴教室</title>
+      <link>https://www.blueboclass.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/208580c304c32492</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：教學器材、教學、課程
+國家：臺灣
+地區：臺灣
+臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。</description>
     </item>
     <item>
       <title>Stay Drunk 口琴樂團</title>
@@ -766,17 +788,6 @@ Tag：演奏者、十孔、國際交流
 日本的十孔與爵士口琴國際演出人員，活動脈絡包含爵士與跨界。</description>
     </item>
     <item>
-      <title>藍波口琴教室</title>
-      <link>https://www.blueboclass.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/208580c304c32492</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：教學器材、教學、課程
-國家：臺灣
-地區：臺灣
-臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。</description>
-    </item>
-    <item>
       <title>萬興國小口琴隊</title>
       <link>https://www.wxes.tp.edu.tw/nss/p/index</link>
       <guid>https://harmonica.observe.tw/feeds/sources/4197535fb5f2a3da</guid>
@@ -819,17 +830,6 @@ Tag：演奏者、教學、國際交流
 國家：巴西
 地區：巴西
 巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。</description>
-    </item>
-    <item>
-      <title>韋笙堡口琴 Weissenberg Harmonicas</title>
-      <link>https://www.weissenbergwind.com/tw/product_list.php?type=4</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/6943943f14cc844d</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：教學器材、教學
-國家：臺灣
-地區：臺灣/臺中
-臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。</description>
     </item>
     <item>
       <title>中一中口琴社</title>
