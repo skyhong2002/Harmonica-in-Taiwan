@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 09 Jul 2026 10:55:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 12:00:28 +0000</lastBuildDate>
     <item>
       <title>山下伶 Rei Yamashita</title>
       <link>https://rei-yamashita.com/</link>
@@ -27,6 +27,17 @@ Tag：演奏者
 國家：臺灣
 地區：臺灣
 臺灣的口琴演出人員，活動脈絡包含胖擊系。</description>
+    </item>
+    <item>
+      <title>臺灣口琴音樂節 THMF</title>
+      <link>https://www.taiwanharmonica.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/675b716d5d0986ae</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、團體樂團、音樂節、比賽、半音階、複音、十孔、重奏
+國家：臺灣
+地區：臺灣
+臺灣的核心活動與活動資訊來源，涵蓋音樂節、比賽、Gala、講座與午間音樂會。</description>
     </item>
     <item>
       <title>藤井俊充</title>
@@ -577,17 +588,6 @@ Tag：團體樂團、重奏、國際交流
 國家：臺灣
 地區：臺灣
 臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與THMF。</description>
-    </item>
-    <item>
-      <title>臺灣口琴音樂節 THMF</title>
-      <link>https://www.taiwanharmonica.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/675b716d5d0986ae</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：活動資訊、團體樂團、音樂節、比賽、半音階、複音、十孔、重奏
-國家：臺灣
-地區：臺灣
-臺灣的核心活動與活動資訊來源，涵蓋音樂節、比賽、Gala、講座與午間音樂會。</description>
     </item>
     <item>
       <title>Boris Plotnikov</title>

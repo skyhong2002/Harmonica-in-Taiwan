@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 378,
+  "count": 379,
   "items": [
     {
       "title": "山下伶 / Rei Yamashita｜昨日のインスタライブ、たくさんのご参加ありがとうございました！皆さんと楽しい時間を共有できて、とても幸せでした😊 さて、いよいよ迫ってきた大阪公演について改めてお知らせです📢 今回の大阪公演は、私に…",
@@ -90,6 +90,79 @@
         "補助比賽"
       ],
       "key": "ig_rei_harmonica:https://www.instagram.com/p/DakPnhqk0QY/"
+    },
+    {
+      "title": "臺灣口琴音樂節 Taiwan Harmonica Music Festival｜⚠️【活動停辦公告】⚠️ 原訂於 2026 年 7 月 11 日（六）14:00 於竹東親愛愛樂音樂巷－音樂廳舉辦之「口琴入門推廣講座」，因巴威颱風襲台，考量…",
+      "headline": "⚠️【活動停辦公告】⚠️",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/Dajw4iNEzf_/",
+      "source_id": "ig_taiwanharmonica",
+      "source": "臺灣口琴音樂節 Taiwan Harmonica Music Festival",
+      "source_system_name": "臺灣口琴音樂節 THMF",
+      "source_profile_url": "https://www.instagram.com/taiwanharmonica/",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-2",
+      "directory_entry_name": "臺灣口琴音樂節 THMF",
+      "account": "taiwanharmonica",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Thu, 09 Jul 2026 04:31:32 GMT",
+      "posted_at_local": "2026-07-09 12:31",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-09T11:25:45.860427+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/taiwanharmonica",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "報名"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "報名"
+      ],
+      "llm_relevant": null,
+      "llm_confidence": null,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "",
+      "text": "⚠️【活動停辦公告】⚠️\n原訂於 2026 年 7 月 11 日（六）14:00 於竹東親愛愛樂音樂巷－音樂廳舉辦之「口琴入門推廣講座」，因巴威颱風襲台，考量天候狀況及所有參與者、講師與工作人員之安全，經審慎評估後，決定停辦本場活動。\n感謝各位朋友對 2026 臺灣口琴音樂節前導活動的支持與關注，也謝謝大家對本次活動的熱情報名。造成不便之處，敬請見諒。\n🌧️ 颱風期間也提醒大家留意最新天氣資訊，減少不必要外出，注意自身安全。\n👉 2026 臺灣口琴音樂節將於 8 月 7 日至 8 月 9 日在國立陽明交通大學光復校區與新竹市文化局演藝廳舉行，後續相關活動資訊也將陸續公告，敬請持續關注！",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/736622377_17948196804238733_20642984075717250_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkzNzIwNTQ5MDUwMTc2MTAyMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTEwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=OP989fZmqA8Q7kNvwHYgejl&_nc_oc=AdoMsZv3IgJp-d274qXgDf7V3Qv2c0p_OlNbo7r2PHi8fcKNUaSYeUwTOzCrG_Zc-ss&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=2wTRZGUEHQ_AW8eW7bjKnQ&_nc_ss=7a22e&oh=00_AQCInoKcV0rFznYt3_UgT1LtXA1FelvvkVjjOgKS_5vb8g&oe=6A556F45"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/736622377_17948196804238733_20642984075717250_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkzNzIwNTQ5MDUwMTc2MTAyMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTEwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=OP989fZmqA8Q7kNvwHYgejl&_nc_oc=AdoMsZv3IgJp-d274qXgDf7V3Qv2c0p_OlNbo7r2PHi8fcKNUaSYeUwTOzCrG_Zc-ss&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=2wTRZGUEHQ_AW8eW7bjKnQ&_nc_ss=7a22e&oh=00_AQCInoKcV0rFznYt3_UgT1LtXA1FelvvkVjjOgKS_5vb8g&oe=6A556F45",
+      "image_url": "/assets/feed-images/6d9536462c8249442943.webp",
+      "image_width": 800,
+      "image_height": 582,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/447992418_962944642277635_2609615645552309724_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gGUeXaIg1AgfrXcO5SXkcJut1IJbdsArvoyakxxMeurSIMdDNufV35OSTselMUtbBk&_nc_ohc=2Pgy7tKIv-8Q7kNvwG685tn&_nc_gid=Ul3YRCtgb5IIY5VATl-Yzg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQBAcnl4xsT0G26a4XSVS0pvrfoj8Jfdw-OAXlWXSBANUA&oe=6A556610&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/0cba7a339fb4293da235.webp",
+      "source_initials": "THM",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽",
+        "學生社團"
+      ],
+      "key": "ig_taiwanharmonica:https://www.instagram.com/p/Dajw4iNEzf_/"
     },
     {
       "title": "Filip Jers 🎶 Harmonica｜Had a great concert today, playing both C chromatic 16 holes and A chromatic 12 hole harmonicas.…",
