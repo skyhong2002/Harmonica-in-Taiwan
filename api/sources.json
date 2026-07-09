@@ -65,6 +65,151 @@
   },
   "entries": [
     {
+      "id": "watchlist-42",
+      "publicId": "42",
+      "name": "王心禾",
+      "nameEn": "Hsin-Ho Wang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "胖擊系",
+      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
+      "keywords": "王心禾 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_wang/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@harmonica_wang"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-09T05:39:52+00:00",
+      "latestUpdateLocal": "2026-07-09 13:39",
+      "latestUpdateSource": "王心禾",
+      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_wang/3937239914152972387/",
+      "avatarUrl": "/assets/source-avatars/6e0443c85d9318ef71c9.webp",
+      "sourceInitials": "王心",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_harmonica_wang",
+          "name": "王心禾",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.instagram.com/harmonica_wang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_wang",
+          "name": "王心禾",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.instagram.com/harmonica_wang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_wang/story/0"
+        },
+        {
+          "id": "threads_harmonica_wang",
+          "name": "王心禾",
+          "platform": "threads",
+          "type": "rss",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.threads.net/@harmonica_wang",
+          "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-60",
+      "publicId": "60",
+      "name": "藤井俊充",
+      "nameEn": "Toshi Fujii",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本/臺灣爵士圈",
+      "cityOrFocus": "爵士/跨界",
+      "structuredSummary": "爵士/跨界 / 十孔/爵士口琴 / 國際演出人員",
+      "summary": "日本的十孔與爵士口琴國際演出人員，活動脈絡包含爵士與跨界。",
+      "keywords": "藤井俊充 Toshi Fujii harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/100091746706247/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/toshimiller/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-09T04:02:10+00:00",
+      "latestUpdateLocal": "2026-07-09 12:02",
+      "latestUpdateSource": "藤井俊充",
+      "latestUpdateUrl": "https://www.instagram.com/stories/toshimiller/3937190723154316940/",
+      "avatarUrl": "/assets/source-avatars/db80d06917ef5d9965b5.webp",
+      "sourceInitials": "藤井",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_100091746706247",
+          "name": "藤井俊充",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/100091746706247",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_toshimiller",
+          "name": "藤井俊充",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "toshimiller",
+          "profileUrl": "https://www.instagram.com/toshimiller/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/toshimiller/story/0"
+        },
+        {
+          "id": "ig_toshimiller",
+          "name": "藤井俊充",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "toshimiller",
+          "profileUrl": "https://www.instagram.com/toshimiller/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_uczvwagm6xsebpi_x5h1zohw",
+          "name": "藤井俊充",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-80",
       "publicId": "80",
       "name": "臺中國家歌劇院",
@@ -391,6 +536,176 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/YoonseokLee_HARMONICA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-115",
+      "publicId": "115",
+      "name": "Filip Jers",
+      "nameEn": "Filip Jers",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "瑞典",
+      "region": "瑞典",
+      "cityOrFocus": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出",
+      "structuredSummary": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出 / 半音階/十孔 / 國際演出人員/作曲者/教育者",
+      "summary": "瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。",
+      "keywords": "Filip Jers harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.filipjers.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/filipjersmusic/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/filipjersharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@filipjersmusic"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-08T22:37:13+00:00",
+      "latestUpdateLocal": "2026-07-09 06:37",
+      "latestUpdateSource": "Filip Jers",
+      "latestUpdateUrl": "https://www.instagram.com/p/DajIVc9jL9l/",
+      "avatarUrl": "/assets/source-avatars/af9621d4008a9692446e.webp",
+      "sourceInitials": "FJ",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_filipjersmusic",
+          "name": "Filip Jers",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/filipjersmusic",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_filipjersharmonica",
+          "name": "Filip Jers",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "filipjersharmonica",
+          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_filipjersharmonica",
+          "name": "Filip Jers",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "filipjersharmonica",
+          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/filipjersharmonica/story/0"
+        },
+        {
+          "id": "yt_filipjersmusic",
+          "name": "Filip Jers",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@filipjersmusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-142",
+      "publicId": "142",
+      "name": "Howard Levy",
+      "nameEn": "Howard Levy",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "美國",
+      "region": "美國",
+      "cityOrFocus": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興",
+      "structuredSummary": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興 / 半音階/十孔/鋼琴 / 國際演出人員/作曲者/教育者",
+      "summary": "美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。",
+      "keywords": "Howard Levy harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://levyland.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HowardLevyFanPage/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/howardlevyland/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-08T21:33:52+00:00",
+      "latestUpdateLocal": "2026-07-09 05:33",
+      "latestUpdateSource": "Howard Levy",
+      "latestUpdateUrl": "https://www.instagram.com/p/DajAf13p5M5/",
+      "avatarUrl": "/assets/source-avatars/fdb08c71103b5e8ceb5b.webp",
+      "sourceInitials": "HL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_howardlevyfanpage",
+          "name": "Howard Levy",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HowardLevyFanPage",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_howardlevyland",
+          "name": "Howard Levy",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "howardlevyland",
+          "profileUrl": "https://www.instagram.com/howardlevyland/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_howardlevyland",
+          "name": "Howard Levy",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "howardlevyland",
+          "profileUrl": "https://www.instagram.com/howardlevyland/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/howardlevyland/story/0"
+        },
+        {
+          "id": "yt_uc86aeg8s_npzmfuj_cyxw",
+          "name": "Howard Levy",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
           "feedUrl": ""
         }
       ]
@@ -1932,91 +2247,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-115",
-      "publicId": "115",
-      "name": "Filip Jers",
-      "nameEn": "Filip Jers",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "瑞典",
-      "region": "瑞典",
-      "cityOrFocus": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出",
-      "structuredSummary": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出 / 半音階/十孔 / 國際演出人員/作曲者/教育者",
-      "summary": "瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。",
-      "keywords": "Filip Jers harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.filipjers.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/filipjersmusic/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/filipjersharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@filipjersmusic"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-08T08:13:24+00:00",
-      "latestUpdateLocal": "2026-07-08 16:13",
-      "latestUpdateSource": "Filip Jers",
-      "latestUpdateUrl": "https://www.instagram.com/stories/filipjersharmonica/3936592401904988645/",
-      "avatarUrl": "/assets/source-avatars/af9621d4008a9692446e.webp",
-      "sourceInitials": "FJ",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_filipjersmusic",
-          "name": "Filip Jers",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/filipjersmusic",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_filipjersharmonica",
-          "name": "Filip Jers",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "filipjersharmonica",
-          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_filipjersharmonica",
-          "name": "Filip Jers",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "filipjersharmonica",
-          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/filipjersharmonica/story/0"
-        },
-        {
-          "id": "yt_filipjersmusic",
-          "name": "Filip Jers",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@filipjersmusic",
           "feedUrl": ""
         }
       ]
@@ -4532,91 +4762,6 @@
       ]
     },
     {
-      "id": "watchlist-142",
-      "publicId": "142",
-      "name": "Howard Levy",
-      "nameEn": "Howard Levy",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "美國",
-      "region": "美國",
-      "cityOrFocus": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興",
-      "structuredSummary": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興 / 半音階/十孔/鋼琴 / 國際演出人員/作曲者/教育者",
-      "summary": "美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。",
-      "keywords": "Howard Levy harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://levyland.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HowardLevyFanPage/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/howardlevyland/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-06T23:55:00+00:00",
-      "latestUpdateLocal": "2026-07-07 07:55",
-      "latestUpdateSource": "Howard Levy",
-      "latestUpdateUrl": "https://www.instagram.com/stories/howardlevyland/3935616770840791668/",
-      "avatarUrl": "/assets/source-avatars/fdb08c71103b5e8ceb5b.webp",
-      "sourceInitials": "HL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_howardlevyfanpage",
-          "name": "Howard Levy",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HowardLevyFanPage",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_howardlevyland",
-          "name": "Howard Levy",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "howardlevyland",
-          "profileUrl": "https://www.instagram.com/howardlevyland/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_howardlevyland",
-          "name": "Howard Levy",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "howardlevyland",
-          "profileUrl": "https://www.instagram.com/howardlevyland/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/howardlevyland/story/0"
-        },
-        {
-          "id": "yt_uc86aeg8s_npzmfuj_cyxw",
-          "name": "Howard Levy",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-133",
       "publicId": "133",
       "name": "Indiara Sfair",
@@ -5862,86 +6007,6 @@
       ]
     },
     {
-      "id": "watchlist-60",
-      "publicId": "60",
-      "name": "藤井俊充",
-      "nameEn": "Toshi Fujii",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本/臺灣爵士圈",
-      "cityOrFocus": "爵士/跨界",
-      "structuredSummary": "爵士/跨界 / 十孔/爵士口琴 / 國際演出人員",
-      "summary": "日本的十孔與爵士口琴國際演出人員，活動脈絡包含爵士與跨界。",
-      "keywords": "藤井俊充 Toshi Fujii harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/100091746706247/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/toshimiller/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-04T11:50:48+00:00",
-      "latestUpdateLocal": "2026-07-04 19:50",
-      "latestUpdateSource": "藤井俊充",
-      "latestUpdateUrl": "https://www.instagram.com/stories/toshimiller/3933802724357695157/",
-      "avatarUrl": "/assets/source-avatars/db80d06917ef5d9965b5.webp",
-      "sourceInitials": "藤井",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_100091746706247",
-          "name": "藤井俊充",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/100091746706247",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_toshimiller",
-          "name": "藤井俊充",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "toshimiller",
-          "profileUrl": "https://www.instagram.com/toshimiller/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/toshimiller/story/0"
-        },
-        {
-          "id": "ig_toshimiller",
-          "name": "藤井俊充",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "toshimiller",
-          "profileUrl": "https://www.instagram.com/toshimiller/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_uczvwagm6xsebpi_x5h1zohw",
-          "name": "藤井俊充",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-73",
       "publicId": "73",
       "name": "萬興國小口琴隊",
@@ -6364,71 +6429,6 @@
           "username": "",
           "profileUrl": "https://facebook.com/oulingou",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-42",
-      "publicId": "42",
-      "name": "王心禾",
-      "nameEn": "Hsin-Ho Wang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "胖擊系",
-      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
-      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
-      "keywords": "王心禾 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/harmonica_wang/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@harmonica_wang"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-03T03:32:01+00:00",
-      "latestUpdateLocal": "2026-07-03 11:32",
-      "latestUpdateSource": "王心禾",
-      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_wang/3932826896568636094/",
-      "avatarUrl": "/assets/source-avatars/6e0443c85d9318ef71c9.webp",
-      "sourceInitials": "王心",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_harmonica_wang",
-          "name": "王心禾",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "harmonica_wang",
-          "profileUrl": "https://www.instagram.com/harmonica_wang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_harmonica_wang",
-          "name": "王心禾",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "harmonica_wang",
-          "profileUrl": "https://www.instagram.com/harmonica_wang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_wang/story/0"
-        },
-        {
-          "id": "threads_harmonica_wang",
-          "name": "王心禾",
-          "platform": "threads",
-          "type": "rss",
-          "username": "harmonica_wang",
-          "profileUrl": "https://www.threads.net/@harmonica_wang",
-          "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
         }
       ]
     },
