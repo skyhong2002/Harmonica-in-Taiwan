@@ -7,8 +7,84 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 386,
+  "count": 387,
   "items": [
+    {
+      "title": "Howard Levy｜Exciting news, my friends—the first physical copies of my new solo album, Heavy World, are here, and I’ve a…",
+      "headline": "Exciting news, my friends—the first physical copies of my new solo album, Heavy World, are here, and I’ve already had t…",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/Dak1MKjDk0B/",
+      "source_id": "ig_howardlevyland",
+      "source": "Howard Levy",
+      "source_system_name": "Howard Levy",
+      "source_profile_url": "https://www.instagram.com/howardlevyland/",
+      "country": "美國",
+      "region": "美國",
+      "directory_entry_id": "watchlist-142",
+      "directory_entry_name": "Howard Levy",
+      "account": "howardlevyland",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Thu, 09 Jul 2026 14:28:25 GMT",
+      "posted_at_local": "2026-07-09 22:28",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-09T20:09:40.614239+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/howardlevyland",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "演出",
+        "影片"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.7,
+      "llm_labels": [
+        "口琴",
+        "演出",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文提及口琴演奏者 Howard Levy 推出個人專輯，內容包含口琴演奏，屬於口琴演奏者公開更新。",
+      "text": "Exciting news, my friends—the first physical copies of my new solo album, Heavy World, are here, and I’ve already had the joy of handing some of the...\nExciting news, my friends—the first physical copies of my new solo album, Heavy World, are here, and I’ve already had the joy of handing some of them to people in person after our show a few days ago.\nThis is a very personal album for me: twelve solo pieces in just about every style, including originals, improvisations, and a few unexpected interpretations. Among them are my definitive version—and first studio recording—of “Amazing Grace,” and “Niccolò’s Notion,” the very first perpetual-motion piece written for diatonic harmonica, inspired by Paganini’s famous “Moto Perpetuo.”\nPutting this album together has been a deep and demanding experience—pushing me to my limits on piano, harmonica, percussion, and more.\nAnd in a time when so much music and art arrives instantly, digitally, and often disappears just as quickly, I found myself wanting to do something a little different—something more tangible, more personal, and maybe a bit old-fashioned in the best sense.\nSo there will be no streaming release just yet, and no instant digital…",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/743484444_18420969160199556_2724673460376222909_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=MzkzNzUwNDM5MDE2MzM3NzE3Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Xm88tsRlcKgQ7kNvwGFq_lt&_nc_oc=Ado91TJ6ciciQ85KAX8pT8CiM4kCEfh1X5v-jURErYxX3VMKC3xLoNYjKYJuRAL2DHQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=p--1TDIgqWFIgoCnwmUBwA&_nc_ss=7a22e&oh=00_AQBmAvKoezZ3ymnpQTROMvL6YWZq5nDq-NeSXVtOClGc0Q&oe=6A55BC30",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/743072382_18420969169199556_4959051134928736644_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkzNzUwNDM5MTU5Nzc4MTY4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTIwNi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=xZ3WOg2LIdwQ7kNvwGxB5rZ&_nc_oc=AdoHGZNjSxgFLaOsL2asNCIxc9kFOi_T7jfjgiSasEIBgfxHR0eNv9P6QT-7v8K_pq8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=p--1TDIgqWFIgoCnwmUBwA&_nc_ss=7a22e&oh=00_AQAwZVFkUekbYSbDA-gBUWu_qbumtc0VNaOAszyBu7VZzQ&oe=6A55DC94"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/743484444_18420969160199556_2724673460376222909_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=MzkzNzUwNDM5MDE2MzM3NzE3Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzI3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Xm88tsRlcKgQ7kNvwGFq_lt&_nc_oc=Ado91TJ6ciciQ85KAX8pT8CiM4kCEfh1X5v-jURErYxX3VMKC3xLoNYjKYJuRAL2DHQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=p--1TDIgqWFIgoCnwmUBwA&_nc_ss=7a22e&oh=00_AQBmAvKoezZ3ymnpQTROMvL6YWZq5nDq-NeSXVtOClGc0Q&oe=6A55BC30",
+      "image_url": "/assets/feed-images/06a559236972393fe8da.webp",
+      "image_width": 800,
+      "image_height": 1000,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/598119333_18388718467199556_5709243006345670319_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gHB4Q6PdROQvnJXa3bH_L9CabED-ziLHOIHrY2UbqNCu6Czavjcl8NPZvs69BjYfYM&_nc_ohc=6fePIsreMA0Q7kNvwE-cy2e&_nc_gid=YiXL0TediYxkwGV_FD8I3w&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQBk-XjQnnOXJ4PorHxj7Cei3JoA4atBu5GgI086JduVkw&oe=6A55DD35&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/d16f0f20080ba503369b.webp",
+      "source_initials": "HL",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_howardlevyland:https://www.instagram.com/p/Dak1MKjDk0B/"
+    },
     {
       "title": "Indiara Sfair｜🔸 RECAP °2 of three amazing days full of music and great encounters in Berlin. Here are the next beautifu…",
       "headline": "🔸 RECAP °2 of three amazing days full of music and great encounters in Berlin. Here are the next beautiful pictures of …",
