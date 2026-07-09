@@ -451,6 +451,75 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-46",
+      "publicId": "46",
+      "name": "廖苡晴",
+      "nameEn": "Alysa Liao",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "111 Trio／Quintet",
+      "structuredSummary": "111 Trio／Quintet / 口琴 / 演出人員",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含111 Trio與Quintet。",
+      "keywords": "廖苡晴 111 Trio 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://laelapsharmonica.com/zh/laelaps-club/alysa-liao/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/__yich___/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@__yich___"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-09T13:28:05+00:00",
+      "latestUpdateLocal": "2026-07-09 21:28",
+      "latestUpdateSource": "廖苡晴",
+      "latestUpdateUrl": "https://www.instagram.com/stories/__yich___/3937475564755560491/",
+      "avatarUrl": "/assets/source-avatars/5b5371b7851220afa3a1.webp",
+      "sourceInitials": "廖苡",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_yich",
+          "name": "廖苡晴",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "__yich___",
+          "profileUrl": "https://www.instagram.com/__yich___/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/__yich___/story/0"
+        },
+        {
+          "id": "ig_yich",
+          "name": "廖苡晴",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "__yich___",
+          "profileUrl": "https://www.instagram.com/__yich___/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_yich",
+          "name": "廖苡晴",
+          "platform": "threads",
+          "type": "rss",
+          "username": "__yich___",
+          "profileUrl": "https://www.threads.net/@__yich___",
+          "feedUrl": "https://rss.observe.tw/threads/__yich___"
+        }
+      ]
+    },
+    {
       "id": "watchlist-220",
       "publicId": "220",
       "name": "菜鳥琴老師很菜",
@@ -708,6 +777,81 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-33",
+      "publicId": "33",
+      "name": "黃冠誌",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
+      "structuredSummary": "天狼星/胖擊系/和弦口琴/重奏 / 和弦/重奏 / 演出人員",
+      "summary": "口琴演奏者，專長和弦口琴與重奏演出。",
+      "keywords": "黃冠誌 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/kuanchih/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hk91f06/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-09T13:12:28+00:00",
+      "latestUpdateLocal": "2026-07-09 21:12",
+      "latestUpdateSource": "黃冠誌",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3937468398720041388/",
+      "avatarUrl": "/assets/source-avatars/1c6e560eec687ecfbf6c.webp",
+      "sourceInitials": "黃冠",
+      "sourceTags": [
+        "演奏者",
+        "合奏",
+        "和弦",
+        "重奏",
+        "演出"
+      ],
+      "sourceSummary": "口琴演奏者，專長和弦口琴與重奏演出。",
+      "sourceTagReason": "來源明確標示為個人與演奏者，且專長涉及和弦、重奏與演出。",
+      "monitorSources": [
+        {
+          "id": "ig_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
+        },
+        {
+          "id": "yt_cbd128e3de",
+          "name": "黃冠誌",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-66",
       "publicId": "66",
       "name": "Younghoon Cho",
@@ -875,6 +1019,91 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@ChaotengChang",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-104",
+      "publicId": "104",
+      "name": "Timothy Yip 葉進禧",
+      "nameEn": "Timothy Yip",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/國際比賽/演出/RedBricks",
+      "structuredSummary": "半音階/國際比賽/演出/RedBricks / 半音階 / 國際演出人員",
+      "summary": "香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。",
+      "keywords": "Timothy Yip 葉進禧 harmonica chromatic harmonicist RedBricks",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.timothyyipharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/profile.php?id=100085232439912"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/timothyyip_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-09T11:27:32+00:00",
+      "latestUpdateLocal": "2026-07-09 19:27",
+      "latestUpdateSource": "Timothy Yip 葉進禧",
+      "latestUpdateUrl": "https://www.instagram.com/stories/timothyyip_harmonica/3937415130572212133/",
+      "avatarUrl": "/assets/source-avatars/b3f7aa0fd27eabb8b69a.webp",
+      "sourceInitials": "TY",
+      "sourceTags": [
+        "演奏者",
+        "比賽",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_c74bf61a25",
+          "name": "Timothy Yip 葉進禧",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/profile.php?id=100085232439912",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_timothyyip_harmonica",
+          "name": "Timothy Yip 葉進禧",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "timothyyip_harmonica",
+          "profileUrl": "https://www.instagram.com/timothyyip_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/timothyyip_harmonica/story/0"
+        },
+        {
+          "id": "ig_timothyyip_harmonica",
+          "name": "Timothy Yip 葉進禧",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "timothyyip_harmonica",
+          "profileUrl": "https://www.instagram.com/timothyyip_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucvoafkvaebakb5zgfvf7nww",
+          "name": "Timothy Yip 葉進禧",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw",
           "feedUrl": ""
         }
       ]
@@ -2419,81 +2648,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@leeoskarharmonicas",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-33",
-      "publicId": "33",
-      "name": "黃冠誌",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
-      "structuredSummary": "天狼星/胖擊系/和弦口琴/重奏 / 和弦/重奏 / 演出人員",
-      "summary": "口琴演奏者，專長和弦口琴與重奏演出。",
-      "keywords": "黃冠誌 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/kuanchih/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hk91f06/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-08T15:18:04+00:00",
-      "latestUpdateLocal": "2026-07-08 23:18",
-      "latestUpdateSource": "黃冠誌",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3936806190629558490/",
-      "avatarUrl": "/assets/source-avatars/1c6e560eec687ecfbf6c.webp",
-      "sourceInitials": "黃冠",
-      "sourceTags": [
-        "演奏者",
-        "合奏",
-        "和弦",
-        "重奏",
-        "演出"
-      ],
-      "sourceSummary": "口琴演奏者，專長和弦口琴與重奏演出。",
-      "sourceTagReason": "來源明確標示為個人與演奏者，且專長涉及和弦、重奏與演出。",
-      "monitorSources": [
-        {
-          "id": "ig_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
-        },
-        {
-          "id": "yt_cbd128e3de",
-          "name": "黃冠誌",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
           "feedUrl": ""
         }
       ]
@@ -5162,91 +5316,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-104",
-      "publicId": "104",
-      "name": "Timothy Yip 葉進禧",
-      "nameEn": "Timothy Yip",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/國際比賽/演出/RedBricks",
-      "structuredSummary": "半音階/國際比賽/演出/RedBricks / 半音階 / 國際演出人員",
-      "summary": "香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。",
-      "keywords": "Timothy Yip 葉進禧 harmonica chromatic harmonicist RedBricks",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.timothyyipharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/profile.php?id=100085232439912"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/timothyyip_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-06T11:35:03+00:00",
-      "latestUpdateLocal": "2026-07-06 19:35",
-      "latestUpdateSource": "Timothy Yip 葉進禧",
-      "latestUpdateUrl": "https://www.instagram.com/stories/timothyyip_harmonica/3935244379106690578/",
-      "avatarUrl": "/assets/source-avatars/b3f7aa0fd27eabb8b69a.webp",
-      "sourceInitials": "TY",
-      "sourceTags": [
-        "演奏者",
-        "比賽",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_c74bf61a25",
-          "name": "Timothy Yip 葉進禧",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/profile.php?id=100085232439912",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_timothyyip_harmonica",
-          "name": "Timothy Yip 葉進禧",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "timothyyip_harmonica",
-          "profileUrl": "https://www.instagram.com/timothyyip_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/timothyyip_harmonica/story/0"
-        },
-        {
-          "id": "ig_timothyyip_harmonica",
-          "name": "Timothy Yip 葉進禧",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "timothyyip_harmonica",
-          "profileUrl": "https://www.instagram.com/timothyyip_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_ucvoafkvaebakb5zgfvf7nww",
-          "name": "Timothy Yip 葉進禧",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-48",
       "publicId": "48",
       "name": "吳詠隆",
@@ -5355,75 +5424,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@yuanyuanharmonica",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-46",
-      "publicId": "46",
-      "name": "廖苡晴",
-      "nameEn": "Alysa Liao",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "111 Trio／Quintet",
-      "structuredSummary": "111 Trio／Quintet / 口琴 / 演出人員",
-      "summary": "臺灣的口琴演出人員，活動脈絡包含111 Trio與Quintet。",
-      "keywords": "廖苡晴 111 Trio 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://laelapsharmonica.com/zh/laelaps-club/alysa-liao/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/__yich___/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@__yich___"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-06T06:31:46+00:00",
-      "latestUpdateLocal": "2026-07-06 14:31",
-      "latestUpdateSource": "廖苡晴",
-      "latestUpdateUrl": "https://www.instagram.com/stories/__yich___/3935091694277583163/",
-      "avatarUrl": "/assets/source-avatars/5b5371b7851220afa3a1.webp",
-      "sourceInitials": "廖苡",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_yich",
-          "name": "廖苡晴",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "__yich___",
-          "profileUrl": "https://www.instagram.com/__yich___/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/__yich___/story/0"
-        },
-        {
-          "id": "ig_yich",
-          "name": "廖苡晴",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "__yich___",
-          "profileUrl": "https://www.instagram.com/__yich___/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_yich",
-          "name": "廖苡晴",
-          "platform": "threads",
-          "type": "rss",
-          "username": "__yich___",
-          "profileUrl": "https://www.threads.net/@__yich___",
-          "feedUrl": "https://rss.observe.tw/threads/__yich___"
         }
       ]
     },
