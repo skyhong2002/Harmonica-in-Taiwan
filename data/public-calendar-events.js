@@ -1,6 +1,6 @@
 window.publicCalendarEvents = {
   "version": 1,
-  "generatedAt": "2026-07-10T00:50:13+08:00",
+  "generatedAt": "2026-07-10T01:55:10+08:00",
   "timezone": "Asia/Taipei",
   "count": 5,
   "source": "/api/events.json",
@@ -13,7 +13,7 @@ window.publicCalendarEvents = {
     "tokenSource": "keychain:harmonica-opencode-go/harmonica",
     "model": "mimo-v2.5",
     "stats": {
-      "requests": 0,
+      "requests": 4,
       "cached": 20,
       "errors": 0
     }
@@ -113,35 +113,35 @@ window.publicCalendarEvents = {
       "image_url": "/assets/feed-images/17f8a4214970bdefa716.webp"
     },
     {
-      "id": "be809f6f6ff2649d",
-      "title": "2026臺灣口琴音樂節 Gala 音樂會",
-      "eventName": "2026臺灣口琴音樂節 Gala 音樂會",
-      "source": "臺灣口琴音樂節 Taiwan Harmonica Music Festival",
-      "platform": "instagram",
+      "id": "7ee2f2b245bae865",
+      "title": "2026臺灣口琴音樂節 Gala音樂會",
+      "eventName": "2026臺灣口琴音樂節 Gala音樂會",
+      "source": "臺灣口琴音樂節 THMF",
+      "platform": "facebook",
       "start": "2026-08-07T19:00:00+08:00",
       "end": "2026-08-07T21:00:00+08:00",
       "allDay": false,
       "location": "新竹市文化局演藝廳音樂廳",
       "venue": "新竹市文化局演藝廳音樂廳",
       "city": "新竹市",
-      "details": "為「風城Show琴 Harmonica Fest in Windy City」場次，由茱蒂口琴樂團、狂響口琴樂團等多位演奏家演出，門票可透過OpenTix購買。",
-      "evidenceUrl": "https://www.instagram.com/p/DafMwsikwDY/",
-      "confidence": 0.95,
+      "details": "風城Show琴音樂會於8月7日19:00舉行，由茱蒂口琴樂團與狂響口琴樂團等多位演奏家演出。為三場Gala音樂會的首場。",
+      "evidenceUrl": "https://www.facebook.com/twharmonica/posts/pfbid02676rr26nHtTsSNejQMDG7Ds86zjUy6csA1YvGWAduGDe2EopZ2AYrQgS7tXe1iKal",
+      "confidence": 1.0,
       "calendarReview": {
         "include": true,
         "country": "臺灣",
-        "eventName": "2026臺灣口琴音樂節 Gala 音樂會",
+        "eventName": "2026臺灣口琴音樂節 Gala音樂會",
         "venue": "新竹市文化局演藝廳音樂廳",
         "city": "新竹市",
-        "details": "為「風城Show琴 Harmonica Fest in Windy City」場次，由茱蒂口琴樂團、狂響口琴樂團等多位演奏家演出，門票可透過OpenTix購買。",
-        "reason": "活動於新竹市文化局演藝廳舉辦，為線下口琴音樂會，日期與時間與候選資料一致，符合收錄條件。",
-        "confidence": 0.95
+        "details": "風城Show琴音樂會於8月7日19:00舉行，由茱蒂口琴樂團與狂響口琴樂團等多位演奏家演出。為三場Gala音樂會的首場。",
+        "reason": "貼文明確指出該活動為「2026臺灣口琴音樂節」的音樂會之一，舉辦地點在台灣新竹市，時間與候選資料吻合，屬於公開線下口琴活動。",
+        "confidence": 1.0
       },
-      "postedAt": "2026-07-07 18:02",
+      "postedAt": "2026-07-07 17:44",
       "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/733758454_17947928634238733_3098602818497613446_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=MzkzNTkyMDcyMjI2MjgxOTAzMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjMzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=EIS19Im4EHIQ7kNvwG74tp4&_nc_oc=AdpL963_74z6VelwRhZSsI3Kh3kiH705qeCQTNgv3w7gQqeUoZhCQCdMHr-JVRJnQko&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=JL_rNCc9jwNv-SASQmrSDQ&_nc_ss=7a22e&oh=00_AQCBegPGtK_BzrqrxHhiPPJk6n7C27isipsIyhL7ktAzpw&oe=6A52C796"
+        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/739470687_1040056295068096_7293253133308599774_n.jpg?stp=dst-jpg_tt6&cstp=mx1365x2048&ctp=p526x296&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=2Y1z_Jz5Dh8Q7kNvwFu7VK-&_nc_oc=AdqxjQbb6wJT970ZnT5Z_rs1p-cS4quxZMheCf-q54835u_qYflx85m8deFTmC-EPow&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=fC0baYd0G3S4wa4B0Xtonw&_nc_ss=72289&oh=00_AQD5RdqSWLacQo-8-SAlB867k8FV6ZdIPrmBg_e1-da7CA&oe=6A55CCA3"
       ],
-      "image_url": "/assets/feed-images/bfd2eef01db73daa0a5a.webp"
+      "image_url": "/assets/feed-images/37059a2ebd980acbaf3f.webp"
     },
     {
       "eventName": "臺中一中口琴之狼校友音樂會《天琴聲等煙雨》",
