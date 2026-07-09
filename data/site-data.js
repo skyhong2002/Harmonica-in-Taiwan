@@ -2,6 +2,96 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-09",
   "entries": [
     {
+      "id": "watchlist-139",
+      "publicId": "139",
+      "name": "Lee Oskar",
+      "nameEn": "Lee Oskar",
+      "category": "演奏者",
+      "type": "品牌",
+      "originalType": "個人/品牌",
+      "country": "丹麥",
+      "region": "美國",
+      "cityOrFocus": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌",
+      "structuredSummary": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌 / 十孔/藍調口琴 / 國際演出人員/品牌創辦人",
+      "summary": "丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。",
+      "keywords": "Lee Oskar harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://leeoskar.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/LeeOskarHarmonicas/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/leeoskarharmonicas/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@leeoskarharmonicas"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@leeoskarharmonicas"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-08T17:33:10+00:00",
+      "latestUpdateLocal": "2026-07-09 01:33",
+      "latestUpdateSource": "Lee Oskar",
+      "latestUpdateUrl": "https://www.instagram.com/p/DailYW7AlRC/",
+      "avatarUrl": "/assets/source-avatars/75801e2c8cc6b1bced0e.webp",
+      "sourceInitials": "LO",
+      "sourceTags": [
+        "品牌",
+        "演奏者",
+        "團體樂團",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_leeoskarharmonicas",
+          "name": "Lee Oskar",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/LeeOskarHarmonicas",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_leeoskarharmonicas",
+          "name": "Lee Oskar",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "leeoskarharmonicas",
+          "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_leeoskarharmonicas",
+          "name": "Lee Oskar",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "leeoskarharmonicas",
+          "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/leeoskarharmonicas/story/0"
+        },
+        {
+          "id": "yt_leeoskarharmonicas",
+          "name": "Lee Oskar",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@leeoskarharmonicas",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-33",
       "publicId": "33",
       "name": "黃冠誌",
@@ -3352,96 +3442,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/MrWhyOfficialChannel/videos",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-139",
-      "publicId": "139",
-      "name": "Lee Oskar",
-      "nameEn": "Lee Oskar",
-      "category": "演奏者",
-      "type": "品牌",
-      "originalType": "個人/品牌",
-      "country": "丹麥",
-      "region": "美國",
-      "cityOrFocus": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌",
-      "structuredSummary": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌 / 十孔/藍調口琴 / 國際演出人員/品牌創辦人",
-      "summary": "丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。",
-      "keywords": "Lee Oskar harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://leeoskar.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/LeeOskarHarmonicas/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/leeoskarharmonicas/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@leeoskarharmonicas"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@leeoskarharmonicas"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-07T12:49:22+00:00",
-      "latestUpdateLocal": "2026-07-07 20:49",
-      "latestUpdateSource": "Lee Oskar",
-      "latestUpdateUrl": "https://www.instagram.com/stories/leeoskarharmonicas/3936006521346880571/",
-      "avatarUrl": "/assets/source-avatars/75801e2c8cc6b1bced0e.webp",
-      "sourceInitials": "LO",
-      "sourceTags": [
-        "品牌",
-        "演奏者",
-        "團體樂團",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_leeoskarharmonicas",
-          "name": "Lee Oskar",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/LeeOskarHarmonicas",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_leeoskarharmonicas",
-          "name": "Lee Oskar",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "leeoskarharmonicas",
-          "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_leeoskarharmonicas",
-          "name": "Lee Oskar",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "leeoskarharmonicas",
-          "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/leeoskarharmonicas/story/0"
-        },
-        {
-          "id": "yt_leeoskarharmonicas",
-          "name": "Lee Oskar",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@leeoskarharmonicas",
           "feedUrl": ""
         }
       ]
