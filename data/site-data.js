@@ -596,10 +596,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-07-08T21:33:52+00:00",
-      "latestUpdateLocal": "2026-07-09 05:33",
+      "latestUpdateAt": "2026-07-08T21:44:35+00:00",
+      "latestUpdateLocal": "2026-07-09 05:44",
       "latestUpdateSource": "Howard Levy",
-      "latestUpdateUrl": "https://www.instagram.com/p/DajAf13p5M5/",
+      "latestUpdateUrl": "https://www.instagram.com/stories/howardlevyland/3937000687319428079/",
       "avatarUrl": "/assets/source-avatars/fdb08c71103b5e8ceb5b.webp",
       "sourceInitials": "HL",
       "sourceTags": [
