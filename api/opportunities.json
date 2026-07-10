@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
   "json": "https://harmonica.observe.tw/api/opportunities.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/opportunities.json",
-  "count": 71,
+  "count": 73,
   "items": [
     {
       "title": "新加坡青年節藝術展演（口琴）｜Instagram story @sgyouthfest",
@@ -627,6 +627,87 @@
       "key": "ig_rei_harmonica:https://www.instagram.com/p/Dah6Qyqk_vb/"
     },
     {
+      "title": "馬來西亞口琴節｜OHRSC 2026 - Chamber Music Judges Introduction Meet the official judges for the Chamber Music Category! Let’s g…",
+      "headline": "OHRSC 2026 - Chamber Music Judges Introduction",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/malaysiaharmonicafestival/posts/pfbid02xJCykobSb94vEfaKtMfrQiaaUZMaiLDshT5ey1g3kKkwUZLVVe42F7zVLN4y2A3jl",
+      "source_id": "fb_malaysiaharmonicafestival",
+      "source": "馬來西亞口琴節",
+      "source_system_name": "馬來西亞口琴節",
+      "source_profile_url": "https://facebook.com/malaysiaharmonicafestival",
+      "country": "馬來西亞",
+      "region": "馬來西亞/吉隆坡",
+      "directory_entry_id": "watchlist-165",
+      "directory_entry_name": "馬來西亞口琴節",
+      "account": "malaysiaharmonicafestival",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-08T11:27:18.000Z",
+      "posted_at_local": "2026-07-08 19:27",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-10T17:45:11.788190+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "比賽"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "比賽"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "貼文來源為馬來西亞口琴節，內容公布室內樂類別評審，屬於口琴比賽的公開更新。",
+      "text": "OHRSC 2026 - Chamber Music Judges Introduction\nMeet the official judges for the Chamber Music Category! Let’s get to know them!🤩\nOur judges are:\n🎵DMing Tsai\n🎵Wing Lee\n🎵Huang Yu-Wen\n🎵Wu Xiao Jie\n🎵Yeoh Hey Yi\n室内乐项目评审阵容正式公开！让我们一起来认识他们吧！🤩\n本次评审为：\n🎵DMing Tsai\n🎵Wing Lee\n🎵Huang Yu-Wen\n🎵Wu Xiao Jie\n🎵Yeoh Hey Yi\n#MalaysiaHarmonicaFestival\nhttps://www.facebook.com/malaysiaharmonicafestival/posts/pfbid02xJCykobSb94vEfaKtMfrQiaaUZMaiLDshT5ey1g3kKkwUZLVVe42F7zVLN4y2A3jl",
+      "images": [
+        "https://scontent-den2-1.xx.fbcdn.net/v/t51.82787-15/741236044_17956467639171812_5039229980886322475_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=EEZFzkDxRH0Q7kNvwFk92fQ&_nc_oc=AdriGQQxQL8xwW1gatGBVO-FpzllQa5jwJ_gzIlH8LFz8trxf3tgjI_iqnWfmIpt9-A&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=0pjqC1Xn3OHt7KqZdcOXFA&_nc_ss=72289&oh=00_AQCcb6fu-7QzEdPmONsm1hpXNpmB4NLzmWYoCAzB9DS9YQ&oe=6A5705C0",
+        "https://scontent-den2-1.xx.fbcdn.net/v/t51.82787-15/740779473_17956467636171812_5827683566870674278_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=B3ZtExJnlQwQ7kNvwEVKegj&_nc_oc=AdqCC3SYHMpnWcMs9KVfdq3qyYgAXgKv9YalaY_tfOVlIXGPTJ0XH9dESKFOD0okiwg&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=0pjqC1Xn3OHt7KqZdcOXFA&_nc_ss=72289&oh=00_AQCPZcsyIOxtk55GOH5mB67FS0EYt0kjeILz0ETqbqrcEQ&oe=6A56F272",
+        "https://scontent-den2-1.xx.fbcdn.net/v/t51.82787-15/735786385_17956467663171812_8084891777207979554_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=OKAKnvkgRvkQ7kNvwFcfcMV&_nc_oc=AdpFDYl-sfg15nMBSqnIk6KQGe7WzuCXXYETwV5cwG9tkT-5V7pP0CrU7bsmnZf18LQ&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=0pjqC1Xn3OHt7KqZdcOXFA&_nc_ss=72289&oh=00_AQCOq6FPhUVBN2uBl-9DmwIYeeu-rMXLcGilGKL8quFSvA&oe=6A570A98",
+        "https://scontent-den2-1.xx.fbcdn.net/v/t51.82787-15/740880891_17956467648171812_8879343428591487964_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=iRlOqdkP4RwQ7kNvwH0gYez&_nc_oc=AdpoEi2noAQJmqBG4WPrgY69eweRFSuio5nwMEyYL3tu4gtetEeA4YijoLwY4WsTd7U&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=0pjqC1Xn3OHt7KqZdcOXFA&_nc_ss=72289&oh=00_AQD8YQaLkwvOTV0b5DCds4zoyIZboGXEFDcLmFRWEaDJfQ&oe=6A570F7F",
+        "https://scontent-den2-1.xx.fbcdn.net/v/t51.82787-15/743288805_17956467675171812_8729976206473852038_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=b2ZygrGVGdoQ7kNvwGKOu06&_nc_oc=AdoGExpy_9YztGEJdOGWevp7ssH4LWJIPsX4mItxdLZjexHe4ty50J-N3cUBkeuT5xk&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=0pjqC1Xn3OHt7KqZdcOXFA&_nc_ss=72289&oh=00_AQC1fGKGTvozzKf8AGzLE17cJV6S1fs3mzG6mjSJEsRoow&oe=6A56F977"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-den2-1.xx.fbcdn.net/v/t51.82787-15/741236044_17956467639171812_5039229980886322475_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=EEZFzkDxRH0Q7kNvwFk92fQ&_nc_oc=AdriGQQxQL8xwW1gatGBVO-FpzllQa5jwJ_gzIlH8LFz8trxf3tgjI_iqnWfmIpt9-A&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=0pjqC1Xn3OHt7KqZdcOXFA&_nc_ss=72289&oh=00_AQCcb6fu-7QzEdPmONsm1hpXNpmB4NLzmWYoCAzB9DS9YQ&oe=6A5705C0",
+      "image_url": "/assets/feed-images/707541eccddd4783ebee.webp",
+      "image_width": 472,
+      "image_height": 590,
+      "source_avatar_url": "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-1/278614367_124189700215706_1238611269500334535_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx937x937&ctp=s50x50&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=3hUMT-YCl0kQ7kNvwF1lFJb&_nc_oc=AdoZiVjr8aJKQBlTgs18Y4HLdf2Eu9uVlxFZOJ9YWtRjkgmSdLbdoh1j55lR6ub0CB8&_nc_zt=24&_nc_ht=scontent-den2-1.xx&_nc_gid=0pjqC1Xn3OHt7KqZdcOXFA&_nc_ss=72289&oh=00_AQCVpfkEQQ3EPqHGR6_GdRSr3weVeCFbvk-GvAjZ1YjMpA&oe=6A56E941",
+      "avatar_url": "/assets/source-avatars/664dd936bcfbe724c8d1.webp",
+      "source_initials": "馬來",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽"
+      ],
+      "key": "fb_malaysiaharmonicafestival:1017557451032420"
+    },
+    {
       "title": "Yellow Pine Harmonica Festival｜There's a LOT to do at the Yellow Pine Harmonica Festival beyond listening to music! Tak…",
       "headline": "There's a LOT to do at the Yellow Pine Harmonica Festival beyond listening to music!",
       "display_title": "",
@@ -1019,6 +1100,89 @@
         "學生社團"
       ],
       "key": "fb_harmonicadrumrhapsody:1351011133824545"
+    },
+    {
+      "title": "馬來西亞口琴節｜OHRSC 2026 - Solo Categories Judges Introduction Meet the official judges for the Solo Category! Let’s get to k…",
+      "headline": "OHRSC 2026 - Solo Categories Judges Introduction",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/malaysiaharmonicafestival/posts/pfbid0GhxSNjSJ84HzLkgmT7HoU95orphVLwmpkDx7M7fAk9m2ntJjvcy9yCohHrj3nYPZl",
+      "source_id": "fb_malaysiaharmonicafestival",
+      "source": "馬來西亞口琴節",
+      "source_system_name": "馬來西亞口琴節",
+      "source_profile_url": "https://facebook.com/malaysiaharmonicafestival",
+      "country": "馬來西亞",
+      "region": "馬來西亞/吉隆坡",
+      "directory_entry_id": "watchlist-165",
+      "directory_entry_name": "馬來西亞口琴節",
+      "account": "malaysiaharmonicafestival",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-06T10:48:20.000Z",
+      "posted_at_local": "2026-07-06 18:48",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-10T17:45:11.788190+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "比賽",
+        "影片",
+        "報名"
+      ],
+      "keyword_matches": [
+        "影片",
+        "截止",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "比賽",
+        "影片",
+        "報名"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "貼文介紹馬來西亞口琴節獨奏組別評審，並提醒參賽者影片報名即將截止，屬於口琴比賽相關公開更新。",
+      "text": "OHRSC 2026 - Solo Categories Judges Introduction\nMeet the official judges for the Solo Category! Let’s get to know them!🤩\nOur judges are:\n🎵Sharene Tang\n🎵Lee Qin Dao\n🎵Dong Yun Feng\n🎵Liang Min Hai\n🎵Soon Yu Ling\n🎵Ang Jie Zhi\nLess than two weeks left until video submission closes! 🎬✨ Contestants, are you ready?\n独奏项目评审阵容正式公开！让我们一起来认识他们吧！🤩\n本次评审为：\n🎵Sharene Tang\n🎵Lee Qin Dao\n🎵Dong Yun Feng\n🎵Liang Min Hai\n🎵Soon Yu Ling\n🎵Ang Jie Zhi\n距离影片提交截止不到两个星期了！🎬✨参赛者们，准备好了吗？\n#MalaysiaHarmonicaFestival\nhttps://www.facebook.com/malaysiaharmonicafestival/posts/pfbid0GhxSNjSJ84HzLkgmT7HoU95orphVLwmpkDx7M7fAk9m2ntJjvcy9yCohHrj3nYPZl",
+      "images": [
+        "https://scontent-den2-1.xx.fbcdn.net/v/t51.82787-15/735525334_17956135872171812_1620800276420086983_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=UHjOugClWQEQ7kNvwHZIpfp&_nc_oc=AdqsUpuE5zfaYcaT7N6c8CKTJVk_0cGXWUS__Mo7GaTxIxN6Ue51KT3aNi4th5DYrvU&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=0pjqC1Xn3OHt7KqZdcOXFA&_nc_ss=72289&oh=00_AQC5LgTmw_U2RBMLvPAub8H76scbPlkz1xhxJyY9OCwF5g&oe=6A56F872",
+        "https://scontent-den2-1.xx.fbcdn.net/v/t51.82787-15/735170225_17956135881171812_4545451860087780205_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=oeoj6gVKlTQQ7kNvwEBBRgP&_nc_oc=AdpigoDUHhK8w3kEvamqCJiUIsRY_LAVUZwtqxKVGEDmY_fyGeLUoO4RFRqn4BvQQh4&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=0pjqC1Xn3OHt7KqZdcOXFA&_nc_ss=72289&oh=00_AQBbcgeWzJoKgrOk2dLOHF-r_9Fd2tMs3poxeAReRQTo7w&oe=6A570A26",
+        "https://scontent-den2-1.xx.fbcdn.net/v/t51.82787-15/733195047_17956135890171812_3007582417532109257_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=tEcemyNTpvEQ7kNvwFw2Qrn&_nc_oc=Ado7k14JcKym7Wgh9KneYwHWfYlWKnIOQGckanng2xHdY5FwTb4c7L_5gnbgb-LIrHk&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=0pjqC1Xn3OHt7KqZdcOXFA&_nc_ss=72289&oh=00_AQCNVl_PQKkxo__TYWkW6bMLyFg7A8xtSOceRtweK1WeyA&oe=6A56FE12",
+        "https://scontent-den2-1.xx.fbcdn.net/v/t51.82787-15/735552837_17956135899171812_109892773987539079_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=CXUCuKtNk_IQ7kNvwFw1hA8&_nc_oc=Ado3x6og-ffnOk72cr8KypwOpDHhKilBL18kAc_9ULerlxTZDP8IXyDTQtI5sUSBigk&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=0pjqC1Xn3OHt7KqZdcOXFA&_nc_ss=72289&oh=00_AQDuVk7pYX52vcxRhRlio5iNamPen1VyFIGtNNobn3VLhg&oe=6A56ECCD",
+        "https://scontent-den2-1.xx.fbcdn.net/v/t51.82787-15/735160428_17956135908171812_2100037869188084236_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=ZomwarLoCHAQ7kNvwEcyb8P&_nc_oc=AdqkdpcsmYF4-dUJqmpVMIrgrnfbrxf4LCLCxGax6Wenad_R_GYx7789PihPNOblX34&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=0pjqC1Xn3OHt7KqZdcOXFA&_nc_ss=72289&oh=00_AQDnXKafrCs8jqS8W5g2T7MqAVS2Eh4Ld8XdZ5YiLCau8w&oe=6A56F7FE"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-den2-1.xx.fbcdn.net/v/t51.82787-15/735525334_17956135872171812_1620800276420086983_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=UHjOugClWQEQ7kNvwHZIpfp&_nc_oc=AdqsUpuE5zfaYcaT7N6c8CKTJVk_0cGXWUS__Mo7GaTxIxN6Ue51KT3aNi4th5DYrvU&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=0pjqC1Xn3OHt7KqZdcOXFA&_nc_ss=72289&oh=00_AQC5LgTmw_U2RBMLvPAub8H76scbPlkz1xhxJyY9OCwF5g&oe=6A56F872",
+      "image_url": "/assets/feed-images/07ee63eadb74d9c00d7d.webp",
+      "image_width": 472,
+      "image_height": 590,
+      "source_avatar_url": "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-1/278614367_124189700215706_1238611269500334535_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx937x937&ctp=s50x50&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=3hUMT-YCl0kQ7kNvwF1lFJb&_nc_oc=AdoZiVjr8aJKQBlTgs18Y4HLdf2Eu9uVlxFZOJ9YWtRjkgmSdLbdoh1j55lR6ub0CB8&_nc_zt=24&_nc_ht=scontent-den2-1.xx&_nc_gid=0pjqC1Xn3OHt7KqZdcOXFA&_nc_ss=72289&oh=00_AQCVpfkEQQ3EPqHGR6_GdRSr3weVeCFbvk-GvAjZ1YjMpA&oe=6A56E941",
+      "avatar_url": "/assets/source-avatars/664dd936bcfbe724c8d1.webp",
+      "source_initials": "馬來",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽"
+      ],
+      "key": "fb_malaysiaharmonicafestival:1015644607890371"
     },
     {
       "title": "馬來西亞口琴節｜OHRSC 2026 - Solo Categories Judges Introduction Meet the official judges for the Solo Category! Let’s get to k…",
