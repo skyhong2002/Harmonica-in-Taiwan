@@ -120,10 +120,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-07-10T16:04:14+00:00",
-      "latestUpdateLocal": "2026-07-11 00:04",
+      "latestUpdateAt": "2026-07-10T18:23:36+00:00",
+      "latestUpdateLocal": "2026-07-11 02:23",
       "latestUpdateSource": "Howard Levy",
-      "latestUpdateUrl": "https://www.instagram.com/p/DankVEjR0CS/",
+      "latestUpdateUrl": "https://www.instagram.com/stories/howardlevyland/3938349103314973000/",
       "avatarUrl": "/assets/source-avatars/fdb08c71103b5e8ceb5b.webp",
       "sourceInitials": "HL",
       "sourceTags": [
@@ -886,6 +886,101 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@leeoskarharmonicas",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-103",
+      "publicId": "103",
+      "name": "陳瑤容 Yora Chen",
+      "nameEn": "Yora Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "鋼琴合作/編曲創作/口琴合作",
+      "structuredSummary": "鋼琴合作/編曲創作/口琴合作 / 鋼琴/編曲/口琴合作 / 合作音樂家/編曲者",
+      "summary": "臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。",
+      "keywords": "Yora Chen 陳瑤容 陳瑶容 口琴 編曲 鋼琴合作 111 Quintet",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://portaly.cc/YoraChen"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/aike9115"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/_yora._/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@iamxyora"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@_yora._"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-10T12:12:29+00:00",
+      "latestUpdateLocal": "2026-07-10 20:12",
+      "latestUpdateSource": "陳瑤容 Yora Chen",
+      "latestUpdateUrl": "https://www.instagram.com/stories/_yora._/3938162303584769049/",
+      "avatarUrl": "/assets/source-avatars/9260183f6409bf3c1918.webp",
+      "sourceInitials": "YC",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_aike9115",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/aike9115",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "_yora._",
+          "profileUrl": "https://www.instagram.com/_yora._/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/_yora._/story/0"
+        },
+        {
+          "id": "ig_yora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "_yora._",
+          "profileUrl": "https://www.instagram.com/_yora._/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_yora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "threads",
+          "type": "rss",
+          "username": "_yora._",
+          "profileUrl": "https://www.threads.net/@_yora._",
+          "feedUrl": "https://rss.observe.tw/threads/_yora._"
+        },
+        {
+          "id": "yt_iamxyora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@iamxyora",
           "feedUrl": ""
         }
       ]
@@ -4959,101 +5054,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@JudysHarmonicaEnsemble",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-103",
-      "publicId": "103",
-      "name": "陳瑤容 Yora Chen",
-      "nameEn": "Yora Chen",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "鋼琴合作/編曲創作/口琴合作",
-      "structuredSummary": "鋼琴合作/編曲創作/口琴合作 / 鋼琴/編曲/口琴合作 / 合作音樂家/編曲者",
-      "summary": "臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。",
-      "keywords": "Yora Chen 陳瑤容 陳瑶容 口琴 編曲 鋼琴合作 111 Quintet",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/YoraChen"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/aike9115"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/_yora._/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@iamxyora"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@_yora._"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-07T13:35:20+00:00",
-      "latestUpdateLocal": "2026-07-07 21:35",
-      "latestUpdateSource": "陳瑤容 Yora Chen",
-      "latestUpdateUrl": "https://www.instagram.com/stories/_yora._/3936029658394508781/",
-      "avatarUrl": "/assets/source-avatars/9260183f6409bf3c1918.webp",
-      "sourceInitials": "YC",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_aike9115",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/aike9115",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_yora",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "_yora._",
-          "profileUrl": "https://www.instagram.com/_yora._/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/_yora._/story/0"
-        },
-        {
-          "id": "ig_yora",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "_yora._",
-          "profileUrl": "https://www.instagram.com/_yora._/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_yora",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "threads",
-          "type": "rss",
-          "username": "_yora._",
-          "profileUrl": "https://www.threads.net/@_yora._",
-          "feedUrl": "https://rss.observe.tw/threads/_yora._"
-        },
-        {
-          "id": "yt_iamxyora",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@iamxyora",
           "feedUrl": ""
         }
       ]
