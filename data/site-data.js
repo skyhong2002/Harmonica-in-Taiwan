@@ -172,6 +172,159 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-108",
+      "publicId": "108",
+      "name": "Rodrigo Eberienos",
+      "nameEn": "Rodrigo Eberienos",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "巴西",
+      "region": "巴西",
+      "cityOrFocus": "巴西職業口琴演奏/教學/錄音合作",
+      "structuredSummary": "巴西職業口琴演奏/教學/錄音合作 / 口琴 / 國際演出人員/教學者",
+      "summary": "巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。",
+      "keywords": "Rodrigo Eberienos harmonica SIHF",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/rodrigoeberienos/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/rodrigoeberienos/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@eberienos"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-10T15:59:50+00:00",
+      "latestUpdateLocal": "2026-07-10 23:59",
+      "latestUpdateSource": "Rodrigo Eberienos",
+      "latestUpdateUrl": "https://www.instagram.com/p/Danj59xvfeT/",
+      "avatarUrl": "/assets/source-avatars/5b4cd78ad828edc6b9dc.webp",
+      "sourceInitials": "RE",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_rodrigoeberienos",
+          "name": "Rodrigo Eberienos",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/rodrigoeberienos",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_rodrigoeberienos",
+          "name": "Rodrigo Eberienos",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "rodrigoeberienos",
+          "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_rodrigoeberienos",
+          "name": "Rodrigo Eberienos",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "rodrigoeberienos",
+          "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/rodrigoeberienos/story/0"
+        },
+        {
+          "id": "yt_eberienos",
+          "name": "Rodrigo Eberienos",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@eberienos",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-161",
+      "publicId": "161",
+      "name": "香港學校音樂節",
+      "nameEn": "Hong Kong Schools Music Festival",
+      "category": "活動資訊",
+      "type": "學校社團",
+      "originalType": "學校比賽/資訊入口",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "學校音樂節/口琴獨奏/二重奏/合奏/口琴隊",
+      "structuredSummary": "學校音樂節/口琴獨奏/二重奏/合奏/口琴隊 / 口琴/學生合奏 / 學生比賽來源",
+      "summary": "香港的學生比賽來源，涵蓋學校音樂節、口琴獨奏、二重奏、合奏與口琴隊。",
+      "keywords": "香港學校音樂節 Hong Kong Schools Music Festival Harmonica Melodica Recorder",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hksmsa.org.hk/en/78th-hong-kong-schools-music-festival-2026/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hksmsa/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hksmsa_official/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-10T15:25:47+00:00",
+      "latestUpdateLocal": "2026-07-10 23:25",
+      "latestUpdateSource": "香港學校音樂節",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hksmsa_official/3938259588112207887/",
+      "avatarUrl": "/assets/source-avatars/58b858c7ef6060427b65.webp",
+      "sourceInitials": "香港",
+      "sourceTags": [
+        "學生社團",
+        "活動資訊",
+        "音樂節",
+        "比賽",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hksmsa",
+          "name": "香港學校音樂節",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hksmsa",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hksmsa_official",
+          "name": "香港學校音樂節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hksmsa_official",
+          "profileUrl": "https://www.instagram.com/hksmsa_official/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hksmsa_official",
+          "name": "香港學校音樂節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hksmsa_official",
+          "profileUrl": "https://www.instagram.com/hksmsa_official/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hksmsa_official/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-57",
       "publicId": "57",
       "name": "山下伶 Rei Yamashita",
@@ -702,6 +855,101 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "harmonica_wang",
           "profileUrl": "https://www.threads.net/@harmonica_wang",
           "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-78",
+      "publicId": "78",
+      "name": "衛武營國家藝術文化中心",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "衛武營 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-weiwuying.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@weiwuyingfilm"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@weiwuying_centerforthearts"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-10T12:36:45+00:00",
+      "latestUpdateLocal": "2026-07-10 20:36",
+      "latestUpdateSource": "衛武營國家藝術文化中心",
+      "latestUpdateUrl": "https://www.instagram.com/stories/weiwuying_centerforthearts/3938174502344406234/",
+      "avatarUrl": "/assets/source-avatars/9d6119244c757a072fc5.webp",
+      "sourceInitials": "衛武",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_weiwuyingcenterforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
+        },
+        {
+          "id": "ig_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "threads",
+          "type": "rss",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
+          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
+        },
+        {
+          "id": "yt_weiwuyingfilm",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@weiwuyingfilm",
+          "feedUrl": ""
         }
       ]
     },
@@ -2012,101 +2260,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@oufrog",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-78",
-      "publicId": "78",
-      "name": "衛武營國家藝術文化中心",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/高雄",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "衛武營 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-weiwuying.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@weiwuyingfilm"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@weiwuying_centerforthearts"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-10T04:00:20+00:00",
-      "latestUpdateLocal": "2026-07-10 12:00",
-      "latestUpdateSource": "衛武營國家藝術文化中心",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=Z_hDdi8_KC8",
-      "avatarUrl": "/assets/source-avatars/9d6119244c757a072fc5.webp",
-      "sourceInitials": "衛武",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_weiwuyingcenterforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
-        },
-        {
-          "id": "ig_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "threads",
-          "type": "rss",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
-          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
-        },
-        {
-          "id": "yt_weiwuyingfilm",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@weiwuyingfilm",
           "feedUrl": ""
         }
       ]
@@ -5691,79 +5844,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-161",
-      "publicId": "161",
-      "name": "香港學校音樂節",
-      "nameEn": "Hong Kong Schools Music Festival",
-      "category": "活動資訊",
-      "type": "學校社團",
-      "originalType": "學校比賽/資訊入口",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "學校音樂節/口琴獨奏/二重奏/合奏/口琴隊",
-      "structuredSummary": "學校音樂節/口琴獨奏/二重奏/合奏/口琴隊 / 口琴/學生合奏 / 學生比賽來源",
-      "summary": "香港的學生比賽來源，涵蓋學校音樂節、口琴獨奏、二重奏、合奏與口琴隊。",
-      "keywords": "香港學校音樂節 Hong Kong Schools Music Festival Harmonica Melodica Recorder",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hksmsa.org.hk/en/78th-hong-kong-schools-music-festival-2026/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hksmsa/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hksmsa_official/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-06T16:51:44+00:00",
-      "latestUpdateLocal": "2026-07-07 00:51",
-      "latestUpdateSource": "香港學校音樂節",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hksmsa_official/3935403783539016417/",
-      "avatarUrl": "/assets/source-avatars/58b858c7ef6060427b65.webp",
-      "sourceInitials": "香港",
-      "sourceTags": [
-        "學生社團",
-        "活動資訊",
-        "音樂節",
-        "比賽",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hksmsa",
-          "name": "香港學校音樂節",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hksmsa",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hksmsa_official",
-          "name": "香港學校音樂節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hksmsa_official",
-          "profileUrl": "https://www.instagram.com/hksmsa_official/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hksmsa_official",
-          "name": "香港學校音樂節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hksmsa_official",
-          "profileUrl": "https://www.instagram.com/hksmsa_official/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hksmsa_official/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-81",
       "publicId": "81",
       "name": "雙燕樂器",
@@ -6409,86 +6489,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/Moridaira01",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-108",
-      "publicId": "108",
-      "name": "Rodrigo Eberienos",
-      "nameEn": "Rodrigo Eberienos",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "巴西",
-      "region": "巴西",
-      "cityOrFocus": "巴西職業口琴演奏/教學/錄音合作",
-      "structuredSummary": "巴西職業口琴演奏/教學/錄音合作 / 口琴 / 國際演出人員/教學者",
-      "summary": "巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。",
-      "keywords": "Rodrigo Eberienos harmonica SIHF",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/rodrigoeberienos/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/rodrigoeberienos/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@eberienos"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-04T02:32:17+00:00",
-      "latestUpdateLocal": "2026-07-04 10:32",
-      "latestUpdateSource": "Rodrigo Eberienos",
-      "latestUpdateUrl": "https://www.instagram.com/stories/rodrigoeberienos/3933521607327287935/",
-      "avatarUrl": "/assets/source-avatars/5b4cd78ad828edc6b9dc.webp",
-      "sourceInitials": "RE",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_rodrigoeberienos",
-          "name": "Rodrigo Eberienos",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/rodrigoeberienos",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_rodrigoeberienos",
-          "name": "Rodrigo Eberienos",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "rodrigoeberienos",
-          "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_rodrigoeberienos",
-          "name": "Rodrigo Eberienos",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "rodrigoeberienos",
-          "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/rodrigoeberienos/story/0"
-        },
-        {
-          "id": "yt_eberienos",
-          "name": "Rodrigo Eberienos",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@eberienos",
           "feedUrl": ""
         }
       ]
