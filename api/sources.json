@@ -2962,6 +2962,53 @@
       ]
     },
     {
+      "id": "watchlist-73",
+      "publicId": "73",
+      "name": "萬興國小口琴隊",
+      "nameEn": "",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校/青年",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "國小口琴隊",
+      "structuredSummary": "國小口琴隊 / 口琴隊 / 學校團隊",
+      "summary": "臺灣的口琴隊學校團隊。",
+      "keywords": "文山 萬興國小 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.wxes.tp.edu.tw/nss/p/index"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/61574004532712/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-10T02:37:19+00:00",
+      "latestUpdateLocal": "2026-07-10 10:37",
+      "latestUpdateSource": "萬興國小口琴隊",
+      "latestUpdateUrl": "https://www.facebook.com/reel/1604459288084398/",
+      "avatarUrl": "/assets/source-avatars/9bfce9787db4878b5892.webp",
+      "sourceInitials": "萬興",
+      "sourceTags": [
+        "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_61574004532712",
+          "name": "萬興國小口琴隊",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/61574004532712",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-30",
       "publicId": "30",
       "name": "蔡明憲",
@@ -6406,53 +6453,6 @@
           "username": "inixial.muse",
           "profileUrl": "https://www.threads.net/@inixial.muse",
           "feedUrl": "https://rss.observe.tw/threads/inixial.muse"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-73",
-      "publicId": "73",
-      "name": "萬興國小口琴隊",
-      "nameEn": "",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校/青年",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "國小口琴隊",
-      "structuredSummary": "國小口琴隊 / 口琴隊 / 學校團隊",
-      "summary": "臺灣的口琴隊學校團隊。",
-      "keywords": "文山 萬興國小 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.wxes.tp.edu.tw/nss/p/index"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/61574004532712/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-04T09:21:01+00:00",
-      "latestUpdateLocal": "2026-07-04 17:21",
-      "latestUpdateSource": "萬興國小口琴隊",
-      "latestUpdateUrl": "https://www.facebook.com/61574004532712/videos/1023484146953557/",
-      "avatarUrl": "/assets/source-avatars/9bfce9787db4878b5892.webp",
-      "sourceInitials": "萬興",
-      "sourceTags": [
-        "學生社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_61574004532712",
-          "name": "萬興國小口琴隊",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/61574004532712",
-          "feedUrl": ""
         }
       ]
     },
