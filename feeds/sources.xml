@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 10 Jul 2026 23:59:59 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jul 2026 00:32:23 +0000</lastBuildDate>
     <item>
       <title>Konstantin Reinfeld</title>
       <link>https://www.konstantinreinfeld.com/</link>
@@ -51,17 +51,6 @@ Tag：學生社團、活動資訊、音樂節、比賽、重奏
 香港的學生比賽來源，涵蓋學校音樂節、口琴獨奏、二重奏、合奏與口琴隊。</description>
     </item>
     <item>
-      <title>韋笙堡口琴 Weissenberg Harmonicas</title>
-      <link>https://www.weissenbergwind.com/tw/product_list.php?type=4</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/6943943f14cc844d</guid>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：教學器材、教學
-國家：臺灣
-地區：臺灣/臺中
-臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。</description>
-    </item>
-    <item>
       <title>山下伶 Rei Yamashita</title>
       <link>https://rei-yamashita.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
@@ -71,6 +60,17 @@ Tag：演奏者、半音階、國際交流
 國家：日本
 地區：日本
 日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
+    </item>
+    <item>
+      <title>韋笙堡口琴 Weissenberg Harmonicas</title>
+      <link>https://www.weissenbergwind.com/tw/product_list.php?type=4</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/6943943f14cc844d</guid>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：教學器材、教學
+國家：臺灣
+地區：臺灣/臺中
+臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。</description>
     </item>
     <item>
       <title>Evelyn Choong 鍾雪兒</title>
