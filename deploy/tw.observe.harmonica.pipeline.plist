@@ -13,9 +13,6 @@
       <string>cd '/Users/skyhong/Documents/Harmonica-in-Taiwan' &amp;&amp; /usr/bin/python3 scripts/run_pipeline.py --publish-pages</string>
     </array>
 
-    <key>WorkingDirectory</key>
-    <string>/Users/skyhong/Documents/Harmonica-in-Taiwan</string>
-
     <key>EnvironmentVariables</key>
     <dict>
       <key>HARMONICA_OBSERVE_HOME</key>
@@ -29,9 +26,9 @@
     <integer>1800</integer>
 
     <key>StandardOutPath</key>
-    <string>/Users/skyhong/Documents/Harmonica-in-Taiwan/logs/pipeline.log</string>
+    <string>/Users/skyhong/Library/Logs/Harmonica-in-Taiwan/pipeline.log</string>
 
     <key>StandardErrorPath</key>
-    <string>/Users/skyhong/Documents/Harmonica-in-Taiwan/logs/pipeline.err.log</string>
+    <string>/Users/skyhong/Library/Logs/Harmonica-in-Taiwan/pipeline.err.log</string>
   </dict>
 </plist>
