@@ -2,6 +2,93 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-11",
   "entries": [
     {
+      "id": "watchlist-14",
+      "publicId": "14",
+      "name": "mr.Why 花影樂團",
+      "nameEn": "",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "跨界/流行/李讓相關",
+      "structuredSummary": "跨界/流行/李讓相關 / 口琴/跨界 / 演出團體",
+      "summary": "以李讓為核心的跨界流行口琴演出團體。",
+      "keywords": "mr.Why 花影樂團 李讓",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://portaly.cc/mr.Why"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Mr.WhyWhy/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/mr.why.why/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/MrWhyOfficialChannel/videos"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-11T03:08:10+00:00",
+      "latestUpdateLocal": "2026-07-11 11:08",
+      "latestUpdateSource": "mr.Why 花影樂團",
+      "latestUpdateUrl": "https://www.instagram.com/stories/mr.why.why/3938613097112208477/",
+      "avatarUrl": "/assets/source-avatars/fb09cfa4e053cda859e3.webp",
+      "sourceInitials": "MW",
+      "sourceTags": [
+        "團體樂團",
+        "演奏者",
+        "演出",
+        "音樂會"
+      ],
+      "sourceSummary": "以李讓為核心的跨界流行口琴演出團體。",
+      "sourceTagReason": "資料明確標示為「團體樂團」，名稱與描述含「演出」、「跨界」、「流行」，並提及核心人物李讓，符合演奏者與團體特徵。",
+      "monitorSources": [
+        {
+          "id": "fb_mr_whywhy",
+          "name": "mr.Why 花影樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Mr.WhyWhy",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_mr_why_why",
+          "name": "mr.Why 花影樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "mr.why.why",
+          "profileUrl": "https://www.instagram.com/mr.why.why/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_mr_why_why",
+          "name": "mr.Why 花影樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "mr.why.why",
+          "profileUrl": "https://www.instagram.com/mr.why.why/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/mr.why.why/story/0"
+        },
+        {
+          "id": "yt_mrwhyofficialchannel",
+          "name": "mr.Why 花影樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/MrWhyOfficialChannel/videos",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-40",
       "publicId": "40",
       "name": "陳鴻儀",
@@ -5207,93 +5294,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@JudysHarmonicaEnsemble",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-14",
-      "publicId": "14",
-      "name": "mr.Why 花影樂團",
-      "nameEn": "",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "跨界/流行/李讓相關",
-      "structuredSummary": "跨界/流行/李讓相關 / 口琴/跨界 / 演出團體",
-      "summary": "以李讓為核心的跨界流行口琴演出團體。",
-      "keywords": "mr.Why 花影樂團 李讓",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/mr.Why"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Mr.WhyWhy/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/mr.why.why/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/MrWhyOfficialChannel/videos"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-07T13:30:45+00:00",
-      "latestUpdateLocal": "2026-07-07 21:30",
-      "latestUpdateSource": "mr.Why 花影樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/mr.why.why/3936027386215375381/",
-      "avatarUrl": "/assets/source-avatars/fb09cfa4e053cda859e3.webp",
-      "sourceInitials": "MW",
-      "sourceTags": [
-        "團體樂團",
-        "演奏者",
-        "演出",
-        "音樂會"
-      ],
-      "sourceSummary": "以李讓為核心的跨界流行口琴演出團體。",
-      "sourceTagReason": "資料明確標示為「團體樂團」，名稱與描述含「演出」、「跨界」、「流行」，並提及核心人物李讓，符合演奏者與團體特徵。",
-      "monitorSources": [
-        {
-          "id": "fb_mr_whywhy",
-          "name": "mr.Why 花影樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Mr.WhyWhy",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_mr_why_why",
-          "name": "mr.Why 花影樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "mr.why.why",
-          "profileUrl": "https://www.instagram.com/mr.why.why/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_mr_why_why",
-          "name": "mr.Why 花影樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "mr.why.why",
-          "profileUrl": "https://www.instagram.com/mr.why.why/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/mr.why.why/story/0"
-        },
-        {
-          "id": "yt_mrwhyofficialchannel",
-          "name": "mr.Why 花影樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/MrWhyOfficialChannel/videos",
           "feedUrl": ""
         }
       ]
