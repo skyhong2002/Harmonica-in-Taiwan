@@ -7,8 +7,87 @@
   "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
   "json": "https://harmonica.observe.tw/api/student-clubs.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/student-clubs.json",
-  "count": 95,
+  "count": 94,
   "items": [
+    {
+      "title": "音和樂器PeaceTones｜萬華社大 #龍韻口琴合奏班 上課紀錄。 曲目：再見的時候 https://www.facebook.com/reel/1392147976164632/",
+      "headline": "萬華社大 #龍韻口琴合奏班 上課紀錄。",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/reel/1392147976164632/",
+      "source_id": "fb_peacetones_harmonica",
+      "source": "音和樂器PeaceTones",
+      "source_system_name": "音和樂器",
+      "source_profile_url": "https://facebook.com/PeaceTones.harmonica",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "directory_entry_id": "watchlist-27",
+      "directory_entry_name": "音和樂器",
+      "account": "PeaceTones.harmonica",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-11T09:21:00.000Z",
+      "posted_at_local": "2026-07-11 17:21",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-11T19:05:22.994399+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "課程",
+        "影片"
+      ],
+      "keyword_matches": [
+        "口琴"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "課程",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文提及「龍韻口琴合奏班 上課紀錄」，內容為口琴社團的課程紀錄影片，符合口琴相關公開更新與影片分類。",
+      "text": "萬華社大 #龍韻口琴合奏班 上課紀錄。\n曲目：再見的時候\nhttps://www.facebook.com/reel/1392147976164632/",
+      "images": [
+        "https://scontent-ord5-3.xx.fbcdn.net/v/t15.5256-10/744440558_1761996271817850_640314853639509520_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=MIw7QC4_RFQQ7kNvwHkECLC&_nc_oc=AdoVJ3aYPl0-LIFG1yHuKgI0ZUQgxKxcSqq2VluiwhU0XdUvn56Jj_oAO_H_vPICx3Q&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=jrfy7Wjw_oEY1PDt-SLOjg&_nc_ss=72289&oh=00_AQD0_9tK_W8fRIik0yRs-puFqIrpnIzulRHR_5bs9yAO9Q&oe=6A585966"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-ord5-3.xx.fbcdn.net/v/t15.5256-10/744440558_1761996271817850_640314853639509520_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=MIw7QC4_RFQQ7kNvwHkECLC&_nc_oc=AdoVJ3aYPl0-LIFG1yHuKgI0ZUQgxKxcSqq2VluiwhU0XdUvn56Jj_oAO_H_vPICx3Q&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=jrfy7Wjw_oEY1PDt-SLOjg&_nc_ss=72289&oh=00_AQD0_9tK_W8fRIik0yRs-puFqIrpnIzulRHR_5bs9yAO9Q&oe=6A585966",
+      "image_url": "/assets/feed-images/5a1347d4546f69e35024.webp",
+      "image_width": 960,
+      "image_height": 540,
+      "source_avatar_url": "https://scontent-ord5-3.xx.fbcdn.net/v/t39.30808-1/273558016_327227779417498_8977996107877435718_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2001x2001&ctp=s50x50&_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=zlkFuvJjTDsQ7kNvwEYtlMV&_nc_oc=AdqD9K4ZSSU3EaM0pi58MKxWQL7UgG9o2OqHKl5BE7mWlJ70SRpbaJIXqAy-NG3K32k&_nc_zt=24&_nc_ht=scontent-ord5-3.xx&_nc_gid=jrfy7Wjw_oEY1PDt-SLOjg&_nc_ss=72289&oh=00_AQAdef3QGBRgsRc-hnjss9xo1w5A9QkZFuZDD8xrH8urxA&oe=6A5867E8",
+      "avatar_url": "/assets/source-avatars/85b2b7aa0dd4387ab4ad.webp",
+      "source_initials": "P",
+      "categories": [
+        "posts-videos",
+        "opportunities",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽",
+        "學生社團"
+      ],
+      "key": "fb_peacetones_harmonica:1521382293335368"
+    },
     {
       "title": "吹出好心琴 + Ou Frog +｜[口琴活動 Play Harmonica] 樹鶯區七校口琴社團觀摩賽交流賽｜複音口琴｜Tremolo 表演班級：全體大合奏 指導老師：各校指導老師 曲目：再見的時候 #口琴 #複音口琴 #Harmoni…",
       "headline": "[口琴活動 Play Harmonica] 樹鶯區七校口琴社團觀摩賽交流賽｜複音口琴｜Tremolo",
@@ -7353,171 +7432,6 @@
         "學生社團"
       ],
       "key": "ig_malaysia_harmonica_festival:https://www.instagram.com/p/DZe9ZPlToeZ/"
-    },
-    {
-      "title": "張晁滕｜【口琴二重奏】Valsentino 快速圓舞曲-Duet Version 【全新改編】Valsentino 快速圓舞曲 — 二重奏版 🎧 這首輕快奔放的《Valsentino》，一直是我很喜歡的快速圓舞曲。這次特別花了心思，為它親…",
-      "headline": "【口琴二重奏】Valsentino 快速圓舞曲-Duet Version",
-      "display_title": "【口琴二重奏】Valsentino 快速圓舞曲-Duet Version",
-      "title_kind": "title",
-      "link": "https://www.youtube.com/watch?v=1QnefZm30iI",
-      "source_id": "yt_chaotengchang",
-      "source": "張晁滕",
-      "source_system_name": "張晁滕",
-      "source_profile_url": "https://www.youtube.com/channel/UCZAroRdJ8r7ywbDR1CAxpFA",
-      "country": "臺灣",
-      "region": "臺灣",
-      "directory_entry_id": "watchlist-31",
-      "directory_entry_name": "張晁滕",
-      "account": "https://youtube.com/@ChaotengChang",
-      "platform": "youtube",
-      "platform_label": "YouTube",
-      "posted_at": "2026-06-11T11:00:06+00:00",
-      "posted_at_local": "2026-06-11 19:00",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-06-23T15:11:41.855318+00:00",
-      "media_type": "video",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "影片"
-      ],
-      "keyword_matches": [
-        "口琴",
-        "音樂會",
-        "演出",
-        "影片",
-        "比賽",
-        "harmonica"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.95,
-      "llm_labels": [
-        "口琴",
-        "影片"
-      ],
-      "llm_categories": [
-        "posts-videos"
-      ],
-      "llm_reason": "貼文為知名口琴演奏家張晁滕發佈的口琴二重奏改編樂曲影片，內容明確圍繞口琴演奏與分享，符合收錄標準。",
-      "text": "【口琴二重奏】Valsentino 快速圓舞曲-Duet Version\n【全新改編】Valsentino 快速圓舞曲 — 二重奏版 🎧\n這首輕快奔放的《Valsentino》，一直是我很喜歡的快速圓舞曲。這次特別花了心思，為它親自編寫了全新的「第二部」，將原本的獨奏曲重新編排成層次更豐富的二重奏版本！\n在這個版本中，除了原本主旋律的流暢感，第二部加入了動態的對位與和聲，讓整首曲子聽起來更有編織感與華麗的跳躍感。希望你們會喜歡這次的改編！\n🎵 純音樂/口琴演奏愛好者歡迎訂閱、按讚、分享！\n💬 你最喜歡哪一段的聲部交織？歡迎在下方留言告訴我！\nArranged & Performed by Chaoteng Chang (張晁滕)\n▶ 🧔 關於我 & 經歷\n張晁滕 (Chaoteng Chang)\n享譽國際的半音階口琴演奏家、專業教學與 Laelaps 口琴製琴師。\n• 畢業於臺灣師範大學民族音樂研究所、臺北教育大學教育學系（輔修音樂學系），主修口琴。\n• 投入口琴教育與演奏十餘年，多次帶領中小學校隊獲得全國音樂比賽特優殊榮，並受邀擔任國內外音樂比賽評審、重奏指導、音響專題及維修課程講師。\n• 現任天狼星口琴樂團（Sirius Harmonica Ensemble）半音階手。隨團受邀至海外各地巡迴演出及開設講座，足跡遍佈德國、荷蘭、韓國、日本、馬來西亞、新加坡、中國等。2013 年赴德國 WHF 世界口琴節參與音樂會演出；2017 年更隨團於世界口琴賽事最高殿堂——德國 WHF 世界口琴節奪得「小合奏項目世界冠軍」。\n現活躍於國內外專業舞台，並深耕校園口琴樂團培育，致力將國際級的合奏視野與極致的製琴工藝帶入音樂教育中。\n▶ 🛠️ 《Laelaps》手工客製口琴 官方網站\nhttps://laelapsharmonica.com/zh/\n👉 歡迎訂閱頻道、開啟小鈴鐺，第一時間觀看更多口琴演奏、教學紀錄與演出精華！\n👉 請幫影片按讚、分享，這就是對我最大的鼓勵與支持！\n#半音階口琴 #口琴教學 #口琴演奏 #天狼星口琴樂團 #LaelapsHarmonica #世界冠軍 #口琴維修 #張晁滕",
-      "images": [
-        "https://i.ytimg.com/vi/1QnefZm30iI/maxresdefault.jpg"
-      ],
-      "videos": [],
-      "source_image_url": "https://i.ytimg.com/vi/1QnefZm30iI/maxresdefault.jpg",
-      "image_url": "/assets/feed-images/afc593577bfc74db69b1.webp",
-      "image_width": 800,
-      "image_height": 450,
-      "source_avatar_url": "https://yt3.googleusercontent.com/JAhzIXfJ9MUO4ZmY-TXE_h2klIzV6cGnrlQ28rdfLqnAM3SaJ6iJMspo0RXhdkIqbVF8NZBb3A=s900-c-k-c0x00ffffff-no-rj",
-      "avatar_url": "/assets/source-avatars/2f67387d4c1f268e293f.webp",
-      "source_initials": "張晁",
-      "categories": [
-        "posts-videos",
-        "events",
-        "opportunities",
-        "student-clubs"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動",
-        "補助比賽",
-        "學生社團"
-      ],
-      "key": "yt_chaotengchang:1QnefZm30iI"
-    },
-    {
-      "title": "台大藍聲口琴社 NTU Blue Sound Harmonica Club｜倒數十天啦！ 臺大X師大口琴社聯合成發 《盛琴難卻》 6/21（日） 14:00-16:00 13:30開放入場 臺大第二學生活動中心 三樓沃思空間 歡迎大家來欣…",
-      "headline": "倒數十天啦！",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.facebook.com/ntubluesound/posts/pfbid0u4U8MQbD3TRdLyCpSPrYTjbHwdBD7qQ3KPpzdVYuJ4BfUrMAPyYosEhuNzr3fMpDl",
-      "source_id": "fb_ntubluesound",
-      "source": "台大藍聲口琴社 NTU Blue Sound Harmonica Club",
-      "source_system_name": "NTU Blue Sound Harmonica Club",
-      "source_profile_url": "https://www.facebook.com/ntubluesound/",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "directory_entry_id": "watchlist-71",
-      "directory_entry_name": "台大藍聲口琴社",
-      "account": "ntubluesound",
-      "platform": "facebook",
-      "platform_label": "Facebook",
-      "posted_at": "2026-06-11T05:28:53.000Z",
-      "posted_at_local": "2026-06-11 13:28",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-06-26T16:13:28.822198+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "成發",
-        "演出",
-        "學生社團",
-        "公開更新"
-      ],
-      "keyword_matches": [
-        "口琴",
-        "成發",
-        "演出"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 1.0,
-      "llm_labels": [
-        "口琴",
-        "成發",
-        "演出",
-        "學生社團",
-        "公開更新"
-      ],
-      "llm_categories": [
-        "events"
-      ],
-      "llm_reason": "臺大與師大口琴社聯合成果發表會，明確為口琴社團的演出活動，符合收錄標準。",
-      "text": "倒數十天啦！\n臺大X師大口琴社聯合成發 《盛琴難卻》\n6/21（日） 14:00-16:00 13:30開放入場\n臺大第二學生活動中心 三樓沃思空間\n歡迎大家來欣賞我們的演出！\nhttps://www.facebook.com/photo/?fbid=1638657641599620&set=a.502370571895005",
-      "images": [
-        "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/720180482_1638657644932953_294385062259882650_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1144x1430&ctp=s640x640&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Uk8N9afq3z4Q7kNvwHaQMS6&_nc_oc=AdroktqG9L-rVGf-grrdK8j9FVSYe0gfFDdgRYZhJj8H6lgI1Fu4F4GwaFhtYAmStjfn8qjzNemrl3nIxh_-0Z3k&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=QGzIkVaxbLhaA2gt5Rux3g&_nc_ss=72289&oh=00_Af827tLwWuH2w7of5RfTcMMXqs7zk_euzt2kRHQlJBCc6g&oe=6A447C78"
-      ],
-      "videos": [],
-      "source_image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/720180482_1638657644932953_294385062259882650_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1144x1430&ctp=s640x640&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Uk8N9afq3z4Q7kNvwHaQMS6&_nc_oc=AdroktqG9L-rVGf-grrdK8j9FVSYe0gfFDdgRYZhJj8H6lgI1Fu4F4GwaFhtYAmStjfn8qjzNemrl3nIxh_-0Z3k&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=QGzIkVaxbLhaA2gt5Rux3g&_nc_ss=72289&oh=00_Af827tLwWuH2w7of5RfTcMMXqs7zk_euzt2kRHQlJBCc6g&oe=6A447C78",
-      "image_url": "/assets/feed-images/878d2e01b680052d07e1.webp",
-      "image_width": 512,
-      "image_height": 640,
-      "source_avatar_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-1/305280445_502370605228335_616126706350752877_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx960x960&ctp=s50x50&_nc_cat=100&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=qYi51uINjKIQ7kNvwGDDbx0&_nc_oc=AdpdYdxwUhQUHPVkOTRZ9EugMped5R9bOYf_amUoCCkZA0ZbReK8BQlqMSgIc0oDkVX8qp8yWB-9HAkk7eWaOiHm&_nc_zt=24&_nc_ht=scontent-iad6-1.xx&_nc_gid=QGzIkVaxbLhaA2gt5Rux3g&_nc_ss=72289&oh=00_Af8SqtRzUTrTCSSxCVtekc6E0vHnf6eomV_nqiz3CROVCA&oe=6A445C24",
-      "avatar_url": "/assets/source-avatars/f95c60cf9129fa1adf85.webp",
-      "source_initials": "NBS",
-      "categories": [
-        "posts-videos",
-        "events",
-        "student-clubs"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動",
-        "學生社團"
-      ],
-      "key": "fb_ntubluesound:1638657908266260"
     }
   ]
 }
