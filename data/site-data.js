@@ -113,6 +113,80 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-98",
+      "publicId": "98",
+      "name": "蔡明憲 DMing Studio",
+      "nameEn": "DMing Studio",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "教學/維修/影片來源",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴教學/維修/重奏/硬體",
+      "structuredSummary": "口琴教學/維修/重奏/硬體 / 半音階/複音/Bass/Chord / 教學/維修來源",
+      "summary": "臺灣的半音階、複音、Bass與Chord教學與維修來源，關注口琴教學、維修、重奏與硬體。",
+      "keywords": "DMing Studio 大明 口琴 教學 維修 蔡明憲 天狼星 Laelaps",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://dming.co/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/dmingstudio/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@DMingStudio"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-12T01:42:22+00:00",
+      "latestUpdateLocal": "2026-07-12 09:42",
+      "latestUpdateSource": "蔡明憲 DMing Studio",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=SlplPVcjHSg",
+      "avatarUrl": "/assets/source-avatars/e2d632cb1467920a5122.webp",
+      "sourceInitials": "DS",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學",
+        "半音階",
+        "複音",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_dmingstudio",
+          "name": "蔡明憲 DMing Studio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "dmingstudio",
+          "profileUrl": "https://www.instagram.com/dmingstudio/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_dmingstudio",
+          "name": "蔡明憲 DMing Studio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "dmingstudio",
+          "profileUrl": "https://www.instagram.com/dmingstudio/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/dmingstudio/story/0"
+        },
+        {
+          "id": "yt_dmingstudio",
+          "name": "蔡明憲 DMing Studio",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@DMingStudio",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -8281,80 +8355,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@hkharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-98",
-      "publicId": "98",
-      "name": "蔡明憲 DMing Studio",
-      "nameEn": "DMing Studio",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "教學/維修/影片來源",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴教學/維修/重奏/硬體",
-      "structuredSummary": "口琴教學/維修/重奏/硬體 / 半音階/複音/Bass/Chord / 教學/維修來源",
-      "summary": "臺灣的半音階、複音、Bass與Chord教學與維修來源，關注口琴教學、維修、重奏與硬體。",
-      "keywords": "DMing Studio 大明 口琴 教學 維修 蔡明憲 天狼星 Laelaps",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://dming.co/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/dmingstudio/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@DMingStudio"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-15T07:17:32+00:00",
-      "latestUpdateLocal": "2026-06-15 15:17",
-      "latestUpdateSource": "蔡明憲 DMing Studio",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=Lo9lsONdCZg",
-      "avatarUrl": "/assets/source-avatars/e2d632cb1467920a5122.webp",
-      "sourceInitials": "DS",
-      "sourceTags": [
-        "品牌",
-        "教學器材",
-        "教學",
-        "半音階",
-        "複音",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_dmingstudio",
-          "name": "蔡明憲 DMing Studio",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "dmingstudio",
-          "profileUrl": "https://www.instagram.com/dmingstudio/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_dmingstudio",
-          "name": "蔡明憲 DMing Studio",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "dmingstudio",
-          "profileUrl": "https://www.instagram.com/dmingstudio/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/dmingstudio/story/0"
-        },
-        {
-          "id": "yt_dmingstudio",
-          "name": "蔡明憲 DMing Studio",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@DMingStudio",
           "feedUrl": ""
         }
       ]

@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 12 Jul 2026 13:10:49 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 13:42:19 +0000</lastBuildDate>
     <item>
       <title>吹出好心琴 + Ou Frog</title>
       <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
@@ -27,6 +27,17 @@ Tag：教學器材、教學、課程
 國家：臺灣
 地區：臺灣
 臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。</description>
+    </item>
+    <item>
+      <title>蔡明憲 DMing Studio</title>
+      <link>https://dming.co/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/557b65e8af3dd511</guid>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：品牌、教學器材、教學、半音階、複音、重奏
+國家：臺灣
+地區：臺灣
+臺灣的半音階、複音、Bass與Chord教學與維修來源，關注口琴教學、維修、重奏與硬體。</description>
     </item>
     <item>
       <title>南里沙</title>
@@ -1171,17 +1182,6 @@ Tag：團體樂團、國際交流
 國家：香港
 地區：香港
 香港的口琴國際演出團體與協會來源，活動脈絡包含香港口琴協會、官方頻道與教育推廣。</description>
-    </item>
-    <item>
-      <title>蔡明憲 DMing Studio</title>
-      <link>https://dming.co/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/557b65e8af3dd511</guid>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：品牌、教學器材、教學、半音階、複音、重奏
-國家：臺灣
-地區：臺灣
-臺灣的半音階、複音、Bass與Chord教學與維修來源，關注口琴教學、維修、重奏與硬體。</description>
     </item>
     <item>
       <title>林士傑</title>
