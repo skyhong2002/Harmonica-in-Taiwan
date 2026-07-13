@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/posts-videos.xml",
   "json": "https://harmonica.observe.tw/api/posts-videos.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/posts-videos.json",
-  "count": 1453,
+  "count": 1454,
   "items": [
     {
       "title": "蔡明勳｜Instagram story @minnie.o6i8",
@@ -1242,6 +1242,82 @@
         "貼文影片"
       ],
       "key": "ig_story_yora:3939710038402219884_52510486912"
+    },
+    {
+      "title": "張晁滕｜出發前一天的驚魂記 😱 明天要出發去海外巡演，結果今天好夥伴居然「斷簧」了……！ >還好自己的琴自己救，既然拆了就順便大保養、換簧、重新精細調音！🛠️🔥 > 雖然一陣手忙腳亂，但現在夥伴復活，心裡踏實多了。行李箱和隨身工具包已就位…",
+      "headline": "出發前一天的驚魂記 😱",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DasoKEjypSR/",
+      "source_id": "ig_chaotengchang",
+      "source": "張晁滕",
+      "source_system_name": "張晁滕",
+      "source_profile_url": "https://www.instagram.com/chaotengchang/",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-31",
+      "directory_entry_name": "張晁滕",
+      "account": "chaotengchang",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Sun, 12 Jul 2026 15:15:37 GMT",
+      "posted_at_local": "2026-07-12 23:15",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-13T05:18:40.338925+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/chaotengchang",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "影片"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文來自口琴演奏者張晁滕，分享其口琴維修與海外巡演準備，屬於口琴演奏者公開更新與口琴相關內容。",
+      "text": "出發前一天的驚魂記 😱\n明天要出發去海外巡演，結果今天好夥伴居然「斷簧」了……！\n>還好自己的琴自己救，既然拆了就順便大保養、換簧、重新精細調音！🛠️🔥\n> 雖然一陣手忙腳亂，但現在夥伴復活，心裡踏實多了。行李箱和隨身工具包已就位，明天出發，舞台見！✈️🎵\n> 💬 大家會好奇我出國都帶什麼維修工具與材料嗎？有興趣的話在下面留言，巡演路上找機會開箱分享！\n> #口琴維修 #自己琴自己救 #大保養 #調音 #harmonica",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/745411721_18605942221014517_2671603008711956273_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=MzkzOTcwMDM4Nzk5Mjk5OTA1NzE4NjA1OTQyMjE1MDE0NTE3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=9W680jQvSDgQ7kNvwGYnnod&_nc_oc=Adpw9dmVkg8xgJzzmwcdc0NAM07AcSsAzNGRE3XE_WKr8rbltPf4BF97c234_SPd_LY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=1Vbjh27OQbgxGsDSf9Rpjw&_nc_ss=7a22e&oh=00_AQAEMN43mE4GEmsDUBaVV0MEbr4DE3TwC5qiTVFbwx-Ylg&oe=6A5A317E"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQPIvwkLZ0_AIXeUGzjj8qfSgm7zdv4Zh-8BevlYlIykNX1LPXuLwJCkpiLpjryKm3PQQlgUOisSwgs6tMMkFq8e3vHFp-dmi5j9TW0.mp4?_nc_cat=105&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=bv7EE-2RFbQQ7kNvwF9fcGO&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTAyNjkwMTY4MDIwMzA5NSwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoyMywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=98b255b29d91c5b2&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9BNDQzMzg1QzdDNzU1RkUzQzYwNTE3Mjg1QThDODg4Ql92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0Y5NEJFNjI0NEFCN0UxMUYxRjFFNDg3NTIxQTkxRUFGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaulfHdxf3SAxUCKAJDMywXQDezMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=1Vbjh27OQbgxGsDSf9Rpjw&_nc_ss=7a22e&_nc_zt=28&oh=00_AQBtyFVkwaRPbpaumUhYNuiFetN206B5xkGJWSZ-t_Ta9A&oe=6A565262"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/745411721_18605942221014517_2671603008711956273_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=MzkzOTcwMDM4Nzk5Mjk5OTA1NzE4NjA1OTQyMjE1MDE0NTE3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=9W680jQvSDgQ7kNvwGYnnod&_nc_oc=Adpw9dmVkg8xgJzzmwcdc0NAM07AcSsAzNGRE3XE_WKr8rbltPf4BF97c234_SPd_LY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=1Vbjh27OQbgxGsDSf9Rpjw&_nc_ss=7a22e&oh=00_AQAEMN43mE4GEmsDUBaVV0MEbr4DE3TwC5qiTVFbwx-Ylg&oe=6A5A317E",
+      "image_url": "/assets/feed-images/430981a88348af0a2dcd.webp",
+      "image_width": 720,
+      "image_height": 1280,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/482775715_1706058196672905_5793943258412973967_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gEIoMokv2mCXvWGrDkZhv1XO2hZ-pNOsl1LbVYkhLBBOT2HInA6BsrOexyf67WmvXU&_nc_ohc=PoJ0QOr9yPkQ7kNvwHR-t5y&_nc_gid=iN-n1ak-0XzPtQ9Z-1pijg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQBLle87G3OEVc_brFU-wfQgvw76GoSb8HQN2sYwhUbElw&oe=6A5A4CE5&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/56e9f611310355f9cee6.webp",
+      "source_initials": "張晁",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_chaotengchang:https://www.instagram.com/p/DasoKEjypSR/"
     },
     {
       "title": "cy_leo｜Instagram story @cy_leo",
