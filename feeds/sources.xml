@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 13 Jul 2026 09:05:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 10:10:12 +0000</lastBuildDate>
+    <item>
+      <title>臺中國家歌劇院</title>
+      <link>https://www.npac-ntt.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/臺中
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
     <item>
       <title>李讓 Jang Li</title>
       <link>https://jangliharmonica.com/</link>
@@ -71,6 +82,17 @@ Tag：演奏者、十孔、國際交流
 國家：巴西
 地區：巴西
 巴西的十孔國際演出人員與作曲者，活動脈絡包含Curitiba出身、藍調口琴與Milk&amp;#x27;n&amp;#x27;Blues。</description>
+    </item>
+    <item>
+      <title>陳瑤容 Yora Chen</title>
+      <link>https://portaly.cc/YoraChen</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/13f74469b6747459</guid>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者
+國家：臺灣
+地區：臺灣
+臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。</description>
     </item>
     <item>
       <title>Aiden Soon</title>
@@ -181,17 +203,6 @@ Tag：協會、活動資訊、國際交流
 國家：美國
 地區：美國/密蘇里
 美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。</description>
-    </item>
-    <item>
-      <title>陳瑤容 Yora Chen</title>
-      <link>https://portaly.cc/YoraChen</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/13f74469b6747459</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者
-國家：臺灣
-地區：臺灣
-臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。</description>
     </item>
     <item>
       <title>王心禾</title>
@@ -544,17 +555,6 @@ Tag：演奏者
 國家：臺灣
 地區：臺灣
 臺灣的口琴演出人員，活動脈絡包含111 Trio與Quintet。</description>
-    </item>
-    <item>
-      <title>臺中國家歌劇院</title>
-      <link>https://www.npac-ntt.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
-      <pubDate>Mon, 13 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/臺中
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>衛武營國家藝術文化中心</title>
