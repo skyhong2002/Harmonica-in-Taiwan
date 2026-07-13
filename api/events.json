@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 419,
+  "count": 420,
   "items": [
     {
       "title": "山下伶 / Rei Yamashita｜今夜NAOTOさんの番組にコメント出演させていただきます✨ぜひお聴きください🙌 今夜NAOTOさんの番組にコメント出演させていただきます✨ぜひお聴きください🙌 MBSラジオ『NAOTOの月イチな音』…",
@@ -162,6 +162,87 @@
         "學生社團"
       ],
       "key": "ig_timothyyip_harmonica:https://www.instagram.com/p/DauwnxGieG0/"
+    },
+    {
+      "title": "山下伶 / Rei Yamashita｜Instagram story @rei_harmonica",
+      "headline": "Instagram story @rei_harmonica",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/rei_harmonica/3940274524461943402/",
+      "source_id": "ig_story_rei_harmonica",
+      "source": "山下伶 / Rei Yamashita",
+      "source_system_name": "山下伶 Rei Yamashita",
+      "source_profile_url": "https://www.instagram.com/rei_harmonica/",
+      "country": "日本",
+      "region": "日本",
+      "directory_entry_id": "watchlist-57",
+      "directory_entry_name": "山下伶 Rei Yamashita",
+      "account": "rei_harmonica",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-07-13T10:09:14+00:00",
+      "posted_at_local": "2026-07-13 18:09",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-13T12:30:33.056844+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "instagram_web",
+      "story_fetched_at": "2026-07-13T12:26:43.807739+00:00",
+      "story_expires_at": "2026-07-14T10:09:14+00:00",
+      "source_feed_url": "https://rss.observe.tw/picuki/profile/rei_harmonica/story/0",
+      "rsshub_guid": "3940274524461943402_2218860836",
+      "rsshub_title": "Instagram story @rei_harmonica",
+      "instagram_user_id": "2218860836",
+      "matched_keywords": [
+        "限時動態"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": false,
+      "llm_confidence": 0.85,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "來源名稱雖含 harmonica，但貼文內容僅為「Instagram story」的系統預設文字，無任何口琴演出、活動等具體資訊，無法判定為相關。",
+      "text": "Instagram story @rei_harmonica",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/743975415_1016596491285090_7588906652650900745_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=Mzk0MDI3NDUyNDQ2MTk0MzQwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=_GoKc2fQyJgQ7kNvwGgC6iD&_nc_oc=Adpo_vOR7h6IhOhOu2NGgjl2poj0ETKt1AYuwX3Hjgflz0K9kxSF_AnU-JGmXqgHkIE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=EEccaTTa6uuKrsIBypq2pg&_nc_ss=7a22e&oh=00_AQBzWoUWhdJv4gupGB_KaMaQ6254Zf61_RB3--OMJ72Cpg&oe=6A5AC042",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/743975415_1016596491285090_7588906652650900745_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=100&ig_cache_key=Mzk0MDI3NDUyNDQ2MTk0MzQwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=_GoKc2fQyJgQ7kNvwGgC6iD&_nc_oc=Adpo_vOR7h6IhOhOu2NGgjl2poj0ETKt1AYuwX3Hjgflz0K9kxSF_AnU-JGmXqgHkIE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=EEccaTTa6uuKrsIBypq2pg&_nc_ss=7a22e&oh=00_AQCVmB_1AjSD5LVjvNjYq34CwsaSgxRiFmjsMd7WDbvSig&oe=6A5AC042",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/743975415_1016596491285090_7588906652650900745_n.jpg?stp=dst-jpg_e15_p320x320_tt6&_nc_cat=100&ig_cache_key=Mzk0MDI3NDUyNDQ2MTk0MzQwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=_GoKc2fQyJgQ7kNvwGgC6iD&_nc_oc=Adpo_vOR7h6IhOhOu2NGgjl2poj0ETKt1AYuwX3Hjgflz0K9kxSF_AnU-JGmXqgHkIE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=EEccaTTa6uuKrsIBypq2pg&_nc_ss=7a22e&oh=00_AQDU0UNuYM0YhhahWsxs7nGL8x4li_YAnLS4tndx0u7mdA&oe=6A5AC042",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/743975415_1016596491285090_7588906652650900745_n.jpg?stp=dst-jpg_e15_p240x240_tt6&_nc_cat=100&ig_cache_key=Mzk0MDI3NDUyNDQ2MTk0MzQwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=_GoKc2fQyJgQ7kNvwGgC6iD&_nc_oc=Adpo_vOR7h6IhOhOu2NGgjl2poj0ETKt1AYuwX3Hjgflz0K9kxSF_AnU-JGmXqgHkIE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=EEccaTTa6uuKrsIBypq2pg&_nc_ss=7a22e&oh=00_AQAzlDEWUkQuC6NQd7dekOa7CxSmDp6cyCs8WECFDkGNMg&oe=6A5AC042",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/743975415_1016596491285090_7588906652650900745_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s640x639_tt6&_nc_cat=100&ig_cache_key=Mzk0MDI3NDUyNDQ2MTk0MzQwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=_GoKc2fQyJgQ7kNvwGgC6iD&_nc_oc=Adpo_vOR7h6IhOhOu2NGgjl2poj0ETKt1AYuwX3Hjgflz0K9kxSF_AnU-JGmXqgHkIE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=EEccaTTa6uuKrsIBypq2pg&_nc_ss=7a22e&oh=00_AQCUWmtufU1zYWGseTtIZ9i5fa1aNkpBxma-CRnYjt6--w&oe=6A5AC042",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/743975415_1016596491285090_7588906652650900745_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s640x639_tt6&_nc_cat=100&ig_cache_key=Mzk0MDI3NDUyNDQ2MTk0MzQwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=_GoKc2fQyJgQ7kNvwGgC6iD&_nc_oc=Adpo_vOR7h6IhOhOu2NGgjl2poj0ETKt1AYuwX3Hjgflz0K9kxSF_AnU-JGmXqgHkIE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=EEccaTTa6uuKrsIBypq2pg&_nc_ss=7a22e&oh=00_AQCUWmtufU1zYWGseTtIZ9i5fa1aNkpBxma-CRnYjt6--w&oe=6A5AC042",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/743975415_1016596491285090_7588906652650900745_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s640x639_tt6&_nc_cat=100&ig_cache_key=Mzk0MDI3NDUyNDQ2MTk0MzQwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=_GoKc2fQyJgQ7kNvwGgC6iD&_nc_oc=Adpo_vOR7h6IhOhOu2NGgjl2poj0ETKt1AYuwX3Hjgflz0K9kxSF_AnU-JGmXqgHkIE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=EEccaTTa6uuKrsIBypq2pg&_nc_ss=7a22e&oh=00_AQCUWmtufU1zYWGseTtIZ9i5fa1aNkpBxma-CRnYjt6--w&oe=6A5AC042",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/743975415_1016596491285090_7588906652650900745_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s480x480_tt6&_nc_cat=100&ig_cache_key=Mzk0MDI3NDUyNDQ2MTk0MzQwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=_GoKc2fQyJgQ7kNvwGgC6iD&_nc_oc=Adpo_vOR7h6IhOhOu2NGgjl2poj0ETKt1AYuwX3Hjgflz0K9kxSF_AnU-JGmXqgHkIE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=EEccaTTa6uuKrsIBypq2pg&_nc_ss=7a22e&oh=00_AQDOmCQ2LDFaUsP26Br1KnZBzp1unjBr4zGZh9YclWT9SA&oe=6A5AC042",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/743975415_1016596491285090_7588906652650900745_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s320x320_tt6&_nc_cat=100&ig_cache_key=Mzk0MDI3NDUyNDQ2MTk0MzQwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=_GoKc2fQyJgQ7kNvwGgC6iD&_nc_oc=Adpo_vOR7h6IhOhOu2NGgjl2poj0ETKt1AYuwX3Hjgflz0K9kxSF_AnU-JGmXqgHkIE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=EEccaTTa6uuKrsIBypq2pg&_nc_ss=7a22e&oh=00_AQCoR3GcQBIsJKhLmJMqmciOhy6SNV3fj3c_A8IHO56Jqw&oe=6A5AC042",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/743975415_1016596491285090_7588906652650900745_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s240x240_tt6&_nc_cat=100&ig_cache_key=Mzk0MDI3NDUyNDQ2MTk0MzQwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=_GoKc2fQyJgQ7kNvwGgC6iD&_nc_oc=Adpo_vOR7h6IhOhOu2NGgjl2poj0ETKt1AYuwX3Hjgflz0K9kxSF_AnU-JGmXqgHkIE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=EEccaTTa6uuKrsIBypq2pg&_nc_ss=7a22e&oh=00_AQAInKdVjLBGYmT3PRoDV13j_y5V019COc2xjnfqPcv6MA&oe=6A5AC042",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/743975415_1016596491285090_7588906652650900745_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s150x150_tt6&_nc_cat=100&ig_cache_key=Mzk0MDI3NDUyNDQ2MTk0MzQwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=_GoKc2fQyJgQ7kNvwGgC6iD&_nc_oc=Adpo_vOR7h6IhOhOu2NGgjl2poj0ETKt1AYuwX3Hjgflz0K9kxSF_AnU-JGmXqgHkIE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=EEccaTTa6uuKrsIBypq2pg&_nc_ss=7a22e&oh=00_AQCAgh0d5Tmsg0uyK-nK_KPKEryuQd4-_0_C3Zx6phmliQ&oe=6A5AC042"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m78/AQMPqTwsDxZ49R7eJCIQb4cIB35aEd8hPrSnctlh1tGQ5CttPY2FF14shlYTo4uPPeHXJwlKqseGitdmmdk9hb5arltzfSUOhqO0fH4.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=IEVupZ5if_cQ7kNvwG4HwtL&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uU1RPUlkuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg1NDcxMDYyMjEwNzY4MzcsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDEwMCwiZHVyYXRpb25fcyI6NSwid2F0Y2hfdGltZV9zIjozNjksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=885b2325adc6f8a&_nc_vs=HBksFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzE2NDgwMjBEQkEzOTI2QTY3RjQwNkU3ODJBRTdENUI1X3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhRaWdfeHB2X3BsYWNlbWVudF9wZXJtYW5lbnRfdjIvNjc0QTM2OTJBNUJGNjkzRUU2RjBFQTUwMjUwNzkxQTNfYXVkaW9fZGFzaGluaXQubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJsrF2d7Vn_JBFQIoAkMzLBdAFAAAAAAAABgSZGFzaF9iYXNlbGluZV8xX3YxEQB16Adl6J0BAA&_nc_gid=EEccaTTa6uuKrsIBypq2pg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQAaIDqfBaSbYm0nbqnecK-mrG3F8m4IRtb2eODrFZ1aBA&oe=6A569C30",
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m78/AQMPqTwsDxZ49R7eJCIQb4cIB35aEd8hPrSnctlh1tGQ5CttPY2FF14shlYTo4uPPeHXJwlKqseGitdmmdk9hb5arltzfSUOhqO0fH4.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=IEVupZ5if_cQ7kNvwG4HwtL&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uU1RPUlkuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg1NDcxMDYyMjEwNzY4MzcsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDEwMCwiZHVyYXRpb25fcyI6NSwid2F0Y2hfdGltZV9zIjozNjksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=885b2325adc6f8a&_nc_vs=HBksFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzE2NDgwMjBEQkEzOTI2QTY3RjQwNkU3ODJBRTdENUI1X3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhRaWdfeHB2X3BsYWNlbWVudF9wZXJtYW5lbnRfdjIvNjc0QTM2OTJBNUJGNjkzRUU2RjBFQTUwMjUwNzkxQTNfYXVkaW9fZGFzaGluaXQubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJsrF2d7Vn_JBFQIoAkMzLBdAFAAAAAAAABgSZGFzaF9iYXNlbGluZV8xX3YxEQB16Adl6J0BAA&_nc_gid=EEccaTTa6uuKrsIBypq2pg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQAaIDqfBaSbYm0nbqnecK-mrG3F8m4IRtb2eODrFZ1aBA&oe=6A569C30",
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m78/AQMPqTwsDxZ49R7eJCIQb4cIB35aEd8hPrSnctlh1tGQ5CttPY2FF14shlYTo4uPPeHXJwlKqseGitdmmdk9hb5arltzfSUOhqO0fH4.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=IEVupZ5if_cQ7kNvwG4HwtL&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uU1RPUlkuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg1NDcxMDYyMjEwNzY4MzcsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDEwMCwiZHVyYXRpb25fcyI6NSwid2F0Y2hfdGltZV9zIjozNjksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=885b2325adc6f8a&_nc_vs=HBksFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzE2NDgwMjBEQkEzOTI2QTY3RjQwNkU3ODJBRTdENUI1X3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhRaWdfeHB2X3BsYWNlbWVudF9wZXJtYW5lbnRfdjIvNjc0QTM2OTJBNUJGNjkzRUU2RjBFQTUwMjUwNzkxQTNfYXVkaW9fZGFzaGluaXQubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJsrF2d7Vn_JBFQIoAkMzLBdAFAAAAAAAABgSZGFzaF9iYXNlbGluZV8xX3YxEQB16Adl6J0BAA&_nc_gid=EEccaTTa6uuKrsIBypq2pg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQAaIDqfBaSbYm0nbqnecK-mrG3F8m4IRtb2eODrFZ1aBA&oe=6A569C30"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/743975415_1016596491285090_7588906652650900745_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=Mzk0MDI3NDUyNDQ2MTk0MzQwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=_GoKc2fQyJgQ7kNvwGgC6iD&_nc_oc=Adpo_vOR7h6IhOhOu2NGgjl2poj0ETKt1AYuwX3Hjgflz0K9kxSF_AnU-JGmXqgHkIE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=EEccaTTa6uuKrsIBypq2pg&_nc_ss=7a22e&oh=00_AQBzWoUWhdJv4gupGB_KaMaQ6254Zf61_RB3--OMJ72Cpg&oe=6A5AC042",
+      "image_url": "/assets/feed-images/541a5fef6d1deff4ba17.webp",
+      "image_width": 640,
+      "image_height": 1136,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/503187975_18466821646076837_1903386838267563286_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gFIEYO9reWBmAmouQ5rZl5A2E8THWy3y0xQrPq1QJ45nVvRrDeGcUyq4jeaBP0uJXk&_nc_ohc=OiofmCV3wj8Q7kNvwHz7rFf&_nc_gid=EEccaTTa6uuKrsIBypq2pg&edm=ANmP7GQBAAAA&ccb=7-5&oh=00_AQA5VgQ_mz6R2BvkNqWVnKnp3mdWAwym1ElgGEYN_5TsDw&oe=6A5AA6F8&_nc_sid=982cc7",
+      "avatar_url": "/assets/source-avatars/daaa3ff15cc03a45c470.webp",
+      "source_initials": "RY",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_story_rei_harmonica:3940274524461943402_2218860836"
     },
     {
       "title": "山下伶 / Rei Yamashita｜⚠️スマホを横にしてお楽しみください！📱✨ 先日のBLUE NOTE PLACEでのライブから『希望の種を音に乗せて』をお届けします🌱 この楽曲を収録したニューシングル、ただいま各配信サイトにてリリ…",
