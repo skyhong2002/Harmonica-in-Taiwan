@@ -2,6 +2,85 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-14",
   "entries": [
     {
+      "id": "watchlist-141",
+      "publicId": "141",
+      "name": "Kif Valentine",
+      "nameEn": "Kif Valentine",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "馬來西亞世界冠軍口琴家/多樂器藝人/流行跨界演出",
+      "structuredSummary": "馬來西亞世界冠軍口琴家/多樂器藝人/流行跨界演出 / 口琴/多樂器 / 國際演出人員",
+      "summary": "馬來西亞的口琴與多樂器國際演出人員，活動脈絡包含馬來西亞世界冠軍口琴家、多樂器藝人與流行跨界演出。",
+      "keywords": "Kif Valentine 陈军凯 harmonica SIHF",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kif768/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kif768/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@kif768"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-13T21:53:07+00:00",
+      "latestUpdateLocal": "2026-07-14 05:53",
+      "latestUpdateSource": "Kif Valentine",
+      "latestUpdateUrl": "https://www.instagram.com/stories/kif768/3940629036640573050/",
+      "avatarUrl": "/assets/source-avatars/cf2fef6b181ad510dbc8.webp",
+      "sourceInitials": "KV",
+      "sourceTags": [
+        "演奏者",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_kif768",
+          "name": "Kif Valentine",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/kif768",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_kif768",
+          "name": "Kif Valentine",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "kif768",
+          "profileUrl": "https://www.instagram.com/kif768/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_kif768",
+          "name": "Kif Valentine",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "kif768",
+          "profileUrl": "https://www.instagram.com/kif768/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/kif768/story/0"
+        },
+        {
+          "id": "yt_kif768",
+          "name": "Kif Valentine",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@kif768",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-33",
       "publicId": "33",
       "name": "黃冠誌",
@@ -1193,6 +1272,92 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-66",
+      "publicId": "66",
+      "name": "Younghoon Cho",
+      "nameEn": "Younghoon Cho",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
+      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
+      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "keywords": "Younghoon Cho Jong-seong Park",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/hoontobe"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hoontobe/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hoontobe_piano/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/hoontobe"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-13T10:55:05+00:00",
+      "latestUpdateLocal": "2026-07-13 18:55",
+      "latestUpdateSource": "Younghoon Cho",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3940297703410579486/",
+      "avatarUrl": "/assets/source-avatars/4168baa97b6613dcf6d7.webp",
+      "sourceInitials": "YC",
+      "sourceTags": [
+        "演奏者",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
+      "monitorSources": [
+        {
+          "id": "fb_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hoontobe",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
+        },
+        {
+          "id": "yt_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/hoontobe",
           "feedUrl": ""
         }
       ]
@@ -3991,92 +4156,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@DMingStudio",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-66",
-      "publicId": "66",
-      "name": "Younghoon Cho",
-      "nameEn": "Younghoon Cho",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
-      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
-      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "keywords": "Younghoon Cho Jong-seong Park",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/hoontobe"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hoontobe/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hoontobe_piano/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/hoontobe"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-12T01:42:00+00:00",
-      "latestUpdateLocal": "2026-07-12 09:42",
-      "latestUpdateSource": "Younghoon Cho",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3939294924398971294/",
-      "avatarUrl": "/assets/source-avatars/4168baa97b6613dcf6d7.webp",
-      "sourceInitials": "YC",
-      "sourceTags": [
-        "演奏者",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
-      "monitorSources": [
-        {
-          "id": "fb_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hoontobe",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
-        },
-        {
-          "id": "yt_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/hoontobe",
           "feedUrl": ""
         }
       ]
@@ -13726,85 +13805,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@keithdunnband",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-141",
-      "publicId": "141",
-      "name": "Kif Valentine",
-      "nameEn": "Kif Valentine",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "馬來西亞世界冠軍口琴家/多樂器藝人/流行跨界演出",
-      "structuredSummary": "馬來西亞世界冠軍口琴家/多樂器藝人/流行跨界演出 / 口琴/多樂器 / 國際演出人員",
-      "summary": "馬來西亞的口琴與多樂器國際演出人員，活動脈絡包含馬來西亞世界冠軍口琴家、多樂器藝人與流行跨界演出。",
-      "keywords": "Kif Valentine 陈军凯 harmonica SIHF",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/kif768/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/kif768/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@kif768"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/cf2fef6b181ad510dbc8.webp",
-      "sourceInitials": "KV",
-      "sourceTags": [
-        "演奏者",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_kif768",
-          "name": "Kif Valentine",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/kif768",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_kif768",
-          "name": "Kif Valentine",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "kif768",
-          "profileUrl": "https://www.instagram.com/kif768/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_kif768",
-          "name": "Kif Valentine",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "kif768",
-          "profileUrl": "https://www.instagram.com/kif768/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/kif768/story/0"
-        },
-        {
-          "id": "yt_kif768",
-          "name": "Kif Valentine",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@kif768",
           "feedUrl": ""
         }
       ]
