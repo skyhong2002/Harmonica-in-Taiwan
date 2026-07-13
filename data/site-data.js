@@ -2,6 +2,88 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-14",
   "entries": [
     {
+      "id": "watchlist-76",
+      "publicId": "76",
+      "name": "新竹縣文化局",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館/文化局",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "場館/文化活動",
+      "structuredSummary": "場館/文化活動 / 口琴/藝文 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供場館與文化活動相關資訊。",
+      "keywords": "新竹縣文化局 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hchcc.gov.tw/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hchcc.gov/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hsinchucounty_culture/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-13T14:03:57+00:00",
+      "latestUpdateLocal": "2026-07-13 22:03",
+      "latestUpdateSource": "新竹縣文化局",
+      "latestUpdateUrl": "https://www.instagram.com/p/DavFkZIk9uY/",
+      "avatarUrl": "/assets/source-avatars/883a130ea9efe0298f20.webp",
+      "sourceInitials": "新竹",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hchcc_gov",
+          "name": "新竹縣文化局",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hchcc.gov",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hsinchucounty_culture",
+          "name": "新竹縣文化局",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hsinchucounty_culture",
+          "profileUrl": "https://www.instagram.com/hsinchucounty_culture/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hsinchucounty_culture",
+          "name": "新竹縣文化局",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hsinchucounty_culture",
+          "profileUrl": "https://www.instagram.com/hsinchucounty_culture/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hsinchucounty_culture/story/0"
+        },
+        {
+          "id": "yt_ucqrgye_3lymvt7ewhrzbtzg",
+          "name": "新竹縣文化局",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-80",
       "publicId": "80",
       "name": "臺中國家歌劇院",
@@ -192,6 +274,98 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/Moridaira01",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-220",
+      "publicId": "220",
+      "name": "菜鳥琴老師很菜",
+      "nameEn": "chindiary_harmonica",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/中彰投",
+      "cityOrFocus": "中彰投口琴教學/演出/推廣",
+      "structuredSummary": "中彰投口琴教學/演出/推廣 / 口琴 / 演出人員/教學者",
+      "summary": "臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。",
+      "keywords": "菜鳥琴老師很菜 chindiary_harmonica 口琴 彰化 臺中 南投",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chin.diary"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chindiary_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@chindiary_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-13T13:09:40+00:00",
+      "latestUpdateLocal": "2026-07-13 21:09",
+      "latestUpdateSource": "菜鳥琴老師很菜",
+      "latestUpdateUrl": "https://www.instagram.com/stories/chindiary_harmonica/3940365388780701631/",
+      "avatarUrl": "/assets/source-avatars/8e325838853fc7f48c04.webp",
+      "sourceInitials": "菜鳥",
+      "sourceTags": [
+        "演奏者",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_chin_diary",
+          "name": "菜鳥琴老師很菜",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chin.diary",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_chindiary_harmonica",
+          "name": "菜鳥琴老師很菜",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chindiary_harmonica",
+          "profileUrl": "https://www.instagram.com/chindiary_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chindiary_harmonica",
+          "name": "菜鳥琴老師很菜",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chindiary_harmonica",
+          "profileUrl": "https://www.instagram.com/chindiary_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chindiary_harmonica/story/0"
+        },
+        {
+          "id": "threads_chindiary_harmonica",
+          "name": "菜鳥琴老師很菜",
+          "platform": "threads",
+          "type": "rss",
+          "username": "chindiary_harmonica",
+          "profileUrl": "https://www.threads.net/@chindiary_harmonica",
+          "feedUrl": "https://rss.observe.tw/threads/chindiary_harmonica"
+        },
+        {
+          "id": "yt_ucltib8yoa0dsd4i6n4ykfvq",
+          "name": "菜鳥琴老師很菜",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ",
           "feedUrl": ""
         }
       ]
@@ -609,6 +783,101 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@reiyamashita",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-79",
+      "publicId": "79",
+      "name": "國家兩廳院",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "國家兩廳院 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://npac-ntch.org/zh"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/ntch.tw/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ntch.taipei/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/ntcharts"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@ntch.taipei"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-13T11:27:42+00:00",
+      "latestUpdateLocal": "2026-07-13 19:27",
+      "latestUpdateSource": "國家兩廳院",
+      "latestUpdateUrl": "https://www.instagram.com/stories/ntch.taipei/3940314077729436450/",
+      "avatarUrl": "/assets/source-avatars/f8c44be903611b41890c.webp",
+      "sourceInitials": "國家",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_ntch_tw",
+          "name": "國家兩廳院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/ntch.tw",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_ntch_taipei",
+          "name": "國家兩廳院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "ntch.taipei",
+          "profileUrl": "https://www.instagram.com/ntch.taipei/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_ntch_taipei",
+          "name": "國家兩廳院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "ntch.taipei",
+          "profileUrl": "https://www.instagram.com/ntch.taipei/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/ntch.taipei/story/0"
+        },
+        {
+          "id": "threads_ntch_taipei",
+          "name": "國家兩廳院",
+          "platform": "threads",
+          "type": "rss",
+          "username": "ntch.taipei",
+          "profileUrl": "https://www.threads.net/@ntch.taipei",
+          "feedUrl": "https://rss.observe.tw/threads/ntch.taipei"
+        },
+        {
+          "id": "yt_ntcharts",
+          "name": "國家兩廳院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/ntcharts",
           "feedUrl": ""
         }
       ]
@@ -1041,6 +1310,61 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-50",
+      "publicId": "50",
+      "name": "Aiden Soon",
+      "nameEn": "Aiden Soon",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
+      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "Aiden Soon aidensoon World Harmonica Champion Aiden N Evelyn harmonica",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/aidensoon/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-13T07:48:39+00:00",
+      "latestUpdateLocal": "2026-07-13 15:48",
+      "latestUpdateSource": "Aiden Soon",
+      "latestUpdateUrl": "https://www.instagram.com/stories/aidensoon/3940203907591131113/",
+      "avatarUrl": "/assets/source-avatars/3bb94a334836d83b3b5a.webp",
+      "sourceInitials": "AS",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_aidensoon",
+          "name": "Aiden Soon",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "aidensoon",
+          "profileUrl": "https://www.instagram.com/aidensoon/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_aidensoon",
+          "name": "Aiden Soon",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "aidensoon",
+          "profileUrl": "https://www.instagram.com/aidensoon/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
         }
       ]
     },
@@ -1989,143 +2313,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@iamxyora",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-50",
-      "publicId": "50",
-      "name": "Aiden Soon",
-      "nameEn": "Aiden Soon",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
-      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
-      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
-      "keywords": "Aiden Soon aidensoon World Harmonica Champion Aiden N Evelyn harmonica",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/aidensoon/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-13T00:13:16+00:00",
-      "latestUpdateLocal": "2026-07-13 08:13",
-      "latestUpdateSource": "Aiden Soon",
-      "latestUpdateUrl": "https://www.instagram.com/stories/aidensoon/3939974618941702687/",
-      "avatarUrl": "/assets/source-avatars/3bb94a334836d83b3b5a.webp",
-      "sourceInitials": "AS",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_aidensoon",
-          "name": "Aiden Soon",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "aidensoon",
-          "profileUrl": "https://www.instagram.com/aidensoon/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_aidensoon",
-          "name": "Aiden Soon",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "aidensoon",
-          "profileUrl": "https://www.instagram.com/aidensoon/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-76",
-      "publicId": "76",
-      "name": "新竹縣文化局",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館/文化局",
-      "country": "臺灣",
-      "region": "臺灣/新竹",
-      "cityOrFocus": "場館/文化活動",
-      "structuredSummary": "場館/文化活動 / 口琴/藝文 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供場館與文化活動相關資訊。",
-      "keywords": "新竹縣文化局 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hchcc.gov.tw/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hchcc.gov/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hsinchucounty_culture/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-13T00:00:19+00:00",
-      "latestUpdateLocal": "2026-07-13 08:00",
-      "latestUpdateSource": "新竹縣文化局",
-      "latestUpdateUrl": "https://www.instagram.com/p/DatlBM-gpt6/",
-      "avatarUrl": "/assets/source-avatars/883a130ea9efe0298f20.webp",
-      "sourceInitials": "新竹",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hchcc_gov",
-          "name": "新竹縣文化局",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hchcc.gov",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hsinchucounty_culture",
-          "name": "新竹縣文化局",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hsinchucounty_culture",
-          "profileUrl": "https://www.instagram.com/hsinchucounty_culture/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hsinchucounty_culture",
-          "name": "新竹縣文化局",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hsinchucounty_culture",
-          "profileUrl": "https://www.instagram.com/hsinchucounty_culture/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hsinchucounty_culture/story/0"
-        },
-        {
-          "id": "yt_ucqrgye_3lymvt7ewhrzbtzg",
-          "name": "新竹縣文化局",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg",
           "feedUrl": ""
         }
       ]
@@ -4408,101 +4595,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-79",
-      "publicId": "79",
-      "name": "國家兩廳院",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "國家兩廳院 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://npac-ntch.org/zh"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/ntch.tw/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/ntch.taipei/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/user/ntcharts"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@ntch.taipei"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-10T12:28:55+00:00",
-      "latestUpdateLocal": "2026-07-10 20:28",
-      "latestUpdateSource": "國家兩廳院",
-      "latestUpdateUrl": "https://www.instagram.com/stories/ntch.taipei/3938170561777235072/",
-      "avatarUrl": "/assets/source-avatars/f8c44be903611b41890c.webp",
-      "sourceInitials": "國家",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_ntch_tw",
-          "name": "國家兩廳院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/ntch.tw",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_ntch_taipei",
-          "name": "國家兩廳院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "ntch.taipei",
-          "profileUrl": "https://www.instagram.com/ntch.taipei/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_ntch_taipei",
-          "name": "國家兩廳院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "ntch.taipei",
-          "profileUrl": "https://www.instagram.com/ntch.taipei/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/ntch.taipei/story/0"
-        },
-        {
-          "id": "threads_ntch_taipei",
-          "name": "國家兩廳院",
-          "platform": "threads",
-          "type": "rss",
-          "username": "ntch.taipei",
-          "profileUrl": "https://www.threads.net/@ntch.taipei",
-          "feedUrl": "https://rss.observe.tw/threads/ntch.taipei"
-        },
-        {
-          "id": "yt_ntcharts",
-          "name": "國家兩廳院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/user/ntcharts",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-173",
       "publicId": "173",
       "name": "Spring Harp Fest",
@@ -4931,98 +5023,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-220",
-      "publicId": "220",
-      "name": "菜鳥琴老師很菜",
-      "nameEn": "chindiary_harmonica",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/中彰投",
-      "cityOrFocus": "中彰投口琴教學/演出/推廣",
-      "structuredSummary": "中彰投口琴教學/演出/推廣 / 口琴 / 演出人員/教學者",
-      "summary": "臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。",
-      "keywords": "菜鳥琴老師很菜 chindiary_harmonica 口琴 彰化 臺中 南投",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/chin.diary"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/chindiary_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@chindiary_harmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-09T13:24:50+00:00",
-      "latestUpdateLocal": "2026-07-09 21:24",
-      "latestUpdateSource": "菜鳥琴老師很菜",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dakt6cWgT0I/",
-      "avatarUrl": "/assets/source-avatars/8e325838853fc7f48c04.webp",
-      "sourceInitials": "菜鳥",
-      "sourceTags": [
-        "演奏者",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_chin_diary",
-          "name": "菜鳥琴老師很菜",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/chin.diary",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_chindiary_harmonica",
-          "name": "菜鳥琴老師很菜",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "chindiary_harmonica",
-          "profileUrl": "https://www.instagram.com/chindiary_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_chindiary_harmonica",
-          "name": "菜鳥琴老師很菜",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "chindiary_harmonica",
-          "profileUrl": "https://www.instagram.com/chindiary_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chindiary_harmonica/story/0"
-        },
-        {
-          "id": "threads_chindiary_harmonica",
-          "name": "菜鳥琴老師很菜",
-          "platform": "threads",
-          "type": "rss",
-          "username": "chindiary_harmonica",
-          "profileUrl": "https://www.threads.net/@chindiary_harmonica",
-          "feedUrl": "https://rss.observe.tw/threads/chindiary_harmonica"
-        },
-        {
-          "id": "yt_ucltib8yoa0dsd4i6n4ykfvq",
-          "name": "菜鳥琴老師很菜",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ",
           "feedUrl": ""
         }
       ]
