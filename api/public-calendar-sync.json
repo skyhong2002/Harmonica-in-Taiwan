@@ -2,13 +2,13 @@
   "calendarId": "4c80e43dc069b1ded7c42183a377c20cb2f675e71e8a627b57b883de83d3a219@group.calendar.google.com",
   "calendarName": "口琴公開活動",
   "client": "google-api-python-client",
-  "created": 1,
-  "deleted": 1,
-  "generatedAt": "2026-07-13T11:19:23.927517+00:00",
+  "created": 0,
+  "deleted": 0,
+  "generatedAt": "2026-07-13T11:55:01.680198+00:00",
   "kept": 5,
   "message": "Google Calendar sync completed.",
   "metadataUpdated": true,
   "status": "ok",
-  "updated": 4,
+  "updated": 5,
   "version": 1
 }
