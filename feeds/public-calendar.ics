@@ -7,7 +7,7 @@ X-WR-CALNAME:口琴公開活動
 X-WR-TIMEZONE:Asia/Taipei
 BEGIN:VEVENT
 UID:8e6bb6caf65dafbb@harmonica.observe.tw
-DTSTAMP:20260713T101013Z
+DTSTAMP:20260713T111923Z
 DTSTART;TZID=Asia/Taipei:20260711T140000
 DTEND;TZID=Asia/Taipei:20260711T160000
 SUMMARY:口琴入門推廣講座
@@ -21,8 +21,20 @@ URL:https://www.facebook.com/twharmonica/posts/pfbid07CLAcEbSrP9wrHocyXC7Za
  US2ERQAN75Sh3fPjM835wmjAokvbtWrRP7Wkh5mdGal
 END:VEVENT
 BEGIN:VEVENT
+UID:58e6eb4dd2e35a26@harmonica.observe.tw
+DTSTAMP:20260713T111923Z
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
+SUMMARY:府城仲夏音樂博覽會
+LOCATION:臺南 府城仲夏音樂博覽會
+DESCRIPTION:李讓與 Sirius Harmonica Ensemble 將演奏和弦口琴編曲
+ 作品《Indifférence》，為實體演出。\nhttps://www.instagram.com/
+ p/DaabPZlzYYd/
+URL:https://www.instagram.com/p/DaabPZlzYYd/
+END:VEVENT
+BEGIN:VEVENT
 UID:88fb7911620b72be@harmonica.observe.tw
-DTSTAMP:20260713T101013Z
+DTSTAMP:20260713T111923Z
 DTSTART;TZID=Asia/Taipei:20260718T193000
 DTEND;TZID=Asia/Taipei:20260718T213000
 SUMMARY:臺灣探戈樂團創團音樂會
@@ -34,31 +46,21 @@ URL:https://www.youtube.com/watch?v=PA11sSFkJeA
 END:VEVENT
 BEGIN:VEVENT
 UID:7ee2f2b245bae865@harmonica.observe.tw
-DTSTAMP:20260713T101013Z
+DTSTAMP:20260713T111923Z
 DTSTART;TZID=Asia/Taipei:20260807T190000
 DTEND;TZID=Asia/Taipei:20260807T210000
-SUMMARY:臺灣口琴音樂節 THMF｜(English version shown below)
-LOCATION:風城Show琴 Harmonica Fest in Windy City
-DESCRIPTION:https://www.facebook.com/twharmonica/posts/pfbid02676rr26nHtTsS
- NejQMDG7Ds86zjUy6csA1YvGWAduGDe2EopZ2AYrQgS7tXe1iKal
-URL:https://www.facebook.com/twharmonica/posts/pfbid02676rr26nHtTsSNejQMDG7
- Ds86zjUy6csA1YvGWAduGDe2EopZ2AYrQgS7tXe1iKal
-END:VEVENT
-BEGIN:VEVENT
-UID:48d83da0d3424f97@harmonica.observe.tw
-DTSTAMP:20260713T101013Z
-DTSTART;TZID=Asia/Taipei:20260808T190000
-DTEND;TZID=Asia/Taipei:20260808T210000
-SUMMARY:臺灣口琴音樂節 THMF｜(English version shown below)
-LOCATION:風城Show琴 Harmonica Fest in Windy City
-DESCRIPTION:https://www.facebook.com/twharmonica/posts/pfbid02676rr26nHtTsS
- NejQMDG7Ds86zjUy6csA1YvGWAduGDe2EopZ2AYrQgS7tXe1iKal
+SUMMARY:2026臺灣口琴音樂節 Gala音樂會
+LOCATION:新竹市文化局演藝廳音樂廳
+DESCRIPTION:風城Show琴音樂會於8月7日19:00舉行，由茱蒂口琴
+ 樂團與狂響口琴樂團等多位演奏家演出。為三場Gala音樂
+ 會的首場。\nhttps://www.facebook.com/twharmonica/posts/pfbid02676rr26
+ nHtTsSNejQMDG7Ds86zjUy6csA1YvGWAduGDe2EopZ2AYrQgS7tXe1iKal
 URL:https://www.facebook.com/twharmonica/posts/pfbid02676rr26nHtTsSNejQMDG7
  Ds86zjUy6csA1YvGWAduGDe2EopZ2AYrQgS7tXe1iKal
 END:VEVENT
 BEGIN:VEVENT
 UID:6670d32764968444@harmonica.observe.tw
-DTSTAMP:20260713T101013Z
+DTSTAMP:20260713T111923Z
 DTSTART;TZID=Asia/Taipei:20260821T183000
 DTEND;TZID=Asia/Taipei:20260821T203000
 SUMMARY:臺中一中口琴之狼校友音樂會《天琴聲等煙雨》
