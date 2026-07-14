@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 423,
+  "count": 424,
   "items": [
     {
       "title": "Filip Jers 🎶 Harmonica｜Instagram story @filipjersharmonica",
@@ -88,6 +88,83 @@
         "公開活動"
       ],
       "key": "ig_story_filipjersharmonica:3940658936653448430_8973981931"
+    },
+    {
+      "title": "Howard Levy｜Is there a city that shaped who you became? New York certainly did that for me. If you’re in town, I hope y…",
+      "headline": "Is there a city that shaped who you became? New York certainly did that for me.",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/Dav_-h7JJIS/",
+      "source_id": "ig_howardlevyland",
+      "source": "Howard Levy",
+      "source_system_name": "Howard Levy",
+      "source_profile_url": "https://www.instagram.com/howardlevyland/",
+      "country": "美國",
+      "region": "美國",
+      "directory_entry_id": "watchlist-142",
+      "directory_entry_name": "Howard Levy",
+      "account": "howardlevyland",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Mon, 13 Jul 2026 22:36:55 GMT",
+      "posted_at_local": "2026-07-14 06:36",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-14T08:03:43.314823+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/howardlevyland",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "知名口琴演奏者 Howard Levy 公開其即將在紐約 Iridium 的演出資訊，屬於口琴演奏者的公開演出更新。",
+      "text": "Is there a city that shaped who you became? New York certainly did that for me.\nIf you’re in town, I hope you’ll join us @theiridium at 8:30pm on July 24.\n#howardlevy #harmonica #thehowardlevy4 #ontheroad",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746294898_18421721671199556_8473088901119929642_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=Mzk0MDY0OTU3MjkzNTk2MzE1NDE4NDIxNzIxNjY4MTk5NTU2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=JavgWrvDYwIQ7kNvwHBBIHl&_nc_oc=AdrSkC3NSJlCC02cNSRIfsRCuHWKvuPUoQELEVoeE8kfZufq7XUHA_2cod7Cm33WgZc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=cN3bTC4uJeWqqdmf8l6bwQ&_nc_ss=7a22e&oh=00_AQDZ7w_1cu91LydK19VDfJj_1qWzLgtE-l367XUXe9K3DA&oe=6A5BDBB3"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQPn5vgyDjK_rPl6WDHH70UY1uMcyniXoEnZUdqwroFBQNkjvu30_I7jVeEyfN4P4tv-kV7UAHDgXIHQJI2giJEs3yz5iwltEii-VKM.mp4?_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=gvV7jMt6IkkQ7kNvwGqE8fG&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NzA4OTc4MTQyMzExMDM4LCJhc3NldF9hZ2VfZGF5cyI6MCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjU2LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=bf3b0bcf1cf8fe65&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC80MTQ0ODFBMjQ4MEVFNDY3OUIyMzRDRkU4QkE4NzU4RF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzI0NDg5MTkwRjg4QkVFQUQ2MUU4QzcxRjhCMzkyOTg0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb8yZvl-rPCAhUCKAJDMywXQEwIcrAgxJwYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=cN3bTC4uJeWqqdmf8l6bwQ&_nc_zt=28&_nc_ss=7a22e&oh=00_AQBMbReV-9QnpEzVEUVE0W0Roj1KDxIOyFIc3zNjsLxVxg&oe=6A57DA16"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746294898_18421721671199556_8473088901119929642_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=Mzk0MDY0OTU3MjkzNTk2MzE1NDE4NDIxNzIxNjY4MTk5NTU2.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=JavgWrvDYwIQ7kNvwHBBIHl&_nc_oc=AdrSkC3NSJlCC02cNSRIfsRCuHWKvuPUoQELEVoeE8kfZufq7XUHA_2cod7Cm33WgZc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=cN3bTC4uJeWqqdmf8l6bwQ&_nc_ss=7a22e&oh=00_AQDZ7w_1cu91LydK19VDfJj_1qWzLgtE-l367XUXe9K3DA&oe=6A5BDBB3",
+      "image_url": "/assets/feed-images/82414315c55f48f0c8c8.webp",
+      "image_width": 800,
+      "image_height": 1423,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/598119333_18388718467199556_5709243006345670319_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmJvbHQifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gHDxazfP14-4Bn6GzVEoC2ksFiGlmsUqXyFjaC49PAwNRroxLqwVJ3y9aOE3fWHX4M&_nc_ohc=0RFS4o97zgEQ7kNvwFgo0xG&_nc_gid=p1kpa5odQdE7J1hW73OUXg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQBSdRwbrPQu4YUslKaqtIgs2xyGqSG-y6KpX-r0gtHkkw&oe=6A5BCBF5&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/406eb1edfb9dbbc0dc54.webp",
+      "source_initials": "HL",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_howardlevyland:https://www.instagram.com/p/Dav_-h7JJIS/"
     },
     {
       "title": "山下伶 / Rei Yamashita｜RT MBSラジオ『NAOTOの月イチな音』公式アカウント: #山下怜 さん、コメントありがとうございました！ 「希望の種を音に乗せて」をオンエア📻 #MBSラジオ #月... RT MBSラジオ『…",
