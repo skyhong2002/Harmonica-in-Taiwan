@@ -1,6 +1,6 @@
 window.publicCalendarEvents = {
   "version": 1,
-  "generatedAt": "2026-07-14T11:43:32+08:00",
+  "generatedAt": "2026-07-14T12:48:04+08:00",
   "timezone": "Asia/Taipei",
   "count": 6,
   "source": "/api/events.json",
