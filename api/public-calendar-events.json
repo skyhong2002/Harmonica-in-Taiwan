@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-15T03:44:20+08:00",
+  "generatedAt": "2026-07-15T04:17:22+08:00",
   "timezone": "Asia/Taipei",
-  "count": 5,
+  "count": 6,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -80,6 +80,37 @@
         "https://i.ytimg.com/vi/PA11sSFkJeA/maxresdefault.jpg"
       ],
       "image_url": "/assets/feed-images/17f8a4214970bdefa716.webp"
+    },
+    {
+      "id": "69965f026040fd61",
+      "title": "2026 臺灣口琴音樂節：前導音樂會",
+      "eventName": "2026 臺灣口琴音樂節：前導音樂會",
+      "source": "臺灣口琴音樂節 Taiwan Harmonica Music Festival",
+      "platform": "instagram",
+      "start": "2026-07-25T14:00:00+08:00",
+      "end": "2026-07-25T16:00:00+08:00",
+      "allDay": false,
+      "location": "新竹縣竹東鎮 竹東親愛愛樂音樂巷-音樂廳",
+      "venue": "竹東親愛愛樂音樂巷-音樂廳",
+      "city": "新竹縣竹東鎮",
+      "details": "邀請 Do Not Disturb、Attack on Harmonica、Triangle Harmonica Ensemble 三組新生代口琴重奏團體演出。活動免費參與，限額 65 位觀眾，需線上報名。",
+      "evidenceUrl": "https://www.instagram.com/p/Daw_UL_kxiZ/",
+      "confidence": 0.98,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventName": "2026 臺灣口琴音樂節：前導音樂會",
+        "venue": "竹東親愛愛樂音樂巷-音樂廳",
+        "city": "新竹縣竹東鎮",
+        "details": "邀請 Do Not Disturb、Attack on Harmonica、Triangle Harmonica Ensemble 三組新生代口琴重奏團體演出。活動免費參與，限額 65 位觀眾，需線上報名。",
+        "reason": "候選時間與內文中的前導音樂會資訊一致，且為台灣實體口琴活動，符合收錄範圍。",
+        "confidence": 0.98
+      },
+      "postedAt": "2026-07-14 15:47",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/744333130_17949042612238733_3904711897503766911_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=Mzk0MDkyODEzODE0NjY4MzAzMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzU1NS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=YCjZbNcpxMgQ7kNvwFbsVdX&_nc_oc=Adr1Q6Vd2FGa_M4YzNtndt_dbRj-_JycbXRiGKLkJsdeiT8EGr-xdlpI1uv9xfPZgOk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=kRhQAABkBE9MpqkcL8i7BA&_nc_ss=7a22e&oh=00_AQCp304_sat5HFBnPcY_H6gYrhz3S5oZ1l5xRzVyGVUVtA&oe=6A5BE8D2"
+      ],
+      "image_url": "/assets/feed-images/e9961a602a60b36913ac.webp"
     },
     {
       "id": "7ee2f2b245bae865",
