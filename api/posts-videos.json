@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/posts-videos.xml",
   "json": "https://harmonica.observe.tw/api/posts-videos.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/posts-videos.json",
-  "count": 1531,
+  "count": 1535,
   "items": [
     {
       "title": "Kif Valentine｜Instagram story @kif768",
@@ -86,6 +86,75 @@
         "貼文影片"
       ],
       "key": "ig_story_kif768:3940629036640573050_4574132"
+    },
+    {
+      "title": "山下伶 / Rei Yamashita｜RT MBSラジオ『NAOTOの月イチな音』公式アカウント: #山下怜 さん、コメントありがとうございました！ 「希望の種を音に乗せて」をオンエア📻 #MBSラジオ #月... RT MBSラジオ『…",
+      "headline": "RT MBSラジオ『NAOTOの月イチな音』公式アカウント: #山下怜 さん、コメントありがとうございました！ 「希望の種を音に乗せて」をオンエア📻 #MBSラジオ #月...",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://x.com/rei_harmonica/status/2076818634618687673",
+      "source_id": "x_rei_harmonica",
+      "source": "山下伶 / Rei Yamashita",
+      "source_system_name": "山下伶 Rei Yamashita",
+      "source_profile_url": "https://x.com/rei_harmonica",
+      "country": "日本",
+      "region": "日本",
+      "directory_entry_id": "watchlist-57",
+      "directory_entry_name": "山下伶 Rei Yamashita",
+      "account": "rei_harmonica",
+      "platform": "x",
+      "platform_label": "X",
+      "posted_at": "Mon, 13 Jul 2026 19:17:52 GMT",
+      "posted_at_local": "2026-07-14 03:17",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-14T00:23:30.814382+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/twitter/user/rei_harmonica",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "音樂會"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "口琴",
+        "音樂會"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "貼文提及口琴演奏者山下伶的10週年紀念音樂會宣傳，與口琴演出直接相關。",
+      "text": "RT MBSラジオ『NAOTOの月イチな音』公式アカウント: #山下怜 さん、コメントありがとうございました！ 「希望の種を音に乗せて」をオンエア📻 #MBSラジオ #月...\nRT MBSラジオ『NAOTOの月イチな音』公式アカウント\n#山下怜 さん、コメントありがとうございました！\n「希望の種を音に乗せて」をオンエア📻\n#MBSラジオ #月イチな音\n山下伶 10th Anniversary Concert 〜希望の種を音に\n乗せて〜　公演情報はこちらから！\nhttps://www.rei-yamashita.com",
+      "images": [],
+      "videos": [],
+      "source_image_url": "",
+      "image_url": "",
+      "image_width": null,
+      "image_height": null,
+      "source_avatar_url": "https://pbs.twimg.com/profile_images/1920904652691841024/rFUus9V4.jpg",
+      "avatar_url": "/assets/source-avatars/d350740a2547c7804927.webp",
+      "source_initials": "RY",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "x_rei_harmonica:https://twitter.com/rei_harmonica/status/2076818634618687673"
     },
     {
       "title": "韋笙堡口琴 Weissenberg Harmonicas｜Instagram story @weissenbergtw",
@@ -317,6 +386,71 @@
         "貼文影片"
       ],
       "key": "ig_story_sgyouthfest:3940424297143744695_409753185"
+    },
+    {
+      "title": "口琴保存與推廣協會 SPAH｜29 days! #spah #becomeamember #harp #harmonica",
+      "headline": "29 days!",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DavMA3pKzdj/",
+      "source_id": "ig_official_spah63",
+      "source": "口琴保存與推廣協會 SPAH",
+      "source_system_name": "口琴保存與推廣協會 SPAH",
+      "source_profile_url": "https://www.instagram.com/official_spah63/",
+      "country": "美國",
+      "region": "美國/密蘇里",
+      "directory_entry_id": "watchlist-171",
+      "directory_entry_name": "口琴保存與推廣協會 SPAH",
+      "account": "official_spah63",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Mon, 13 Jul 2026 15:00:36 GMT",
+      "posted_at_local": "2026-07-13 23:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-13T23:56:25.780809+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/official_spah63",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": null,
+      "llm_confidence": null,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "",
+      "text": "29 days!\n#spah #becomeamember #harp #harmonica",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/743951480_18094805993617644_4020037666517758009_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzk0MDQyMTAzNTI3NzEwNDk5NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzU0My5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=qdRWRGMitOoQ7kNvwHLbiZ7&_nc_oc=Adqi74T0PlQX7G7H-TuBFfIAwH7sf12vchSoP2w-F_ZjjbtmeA18MyKewcc5uysifn4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=DPWrwdMxpXS8HCW6Ct1qNQ&_nc_ss=7a22e&oh=00_AQALt06PAcm9QHhK3FxjAnAK2WM3zzJvUECayqX6RxBrCw&oe=6A5B48E6"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/743951480_18094805993617644_4020037666517758009_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzk0MDQyMTAzNTI3NzEwNDk5NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzU0My5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=qdRWRGMitOoQ7kNvwHLbiZ7&_nc_oc=Adqi74T0PlQX7G7H-TuBFfIAwH7sf12vchSoP2w-F_ZjjbtmeA18MyKewcc5uysifn4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=DPWrwdMxpXS8HCW6Ct1qNQ&_nc_ss=7a22e&oh=00_AQALt06PAcm9QHhK3FxjAnAK2WM3zzJvUECayqX6RxBrCw&oe=6A5B48E6",
+      "image_url": "/assets/feed-images/d9c13583d872206b828a.webp",
+      "image_width": 800,
+      "image_height": 683,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/209791493_219061040066058_8705502841002796604_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gGD-UVv-LuaPX1HGJzx0mOKkB2hUFEi3dZvkzIe4K_6mnhwDUJlxVQMRnfl_2gSLas&_nc_ohc=u4nsjvx6uBAQ7kNvwHzMr4n&_nc_gid=i85HjFM6Y4UNxov50jYbmA&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQAHszDu55Hn1ZW_SWbdn3M0Ua_qbKqx96SWOY9sgvrifA&oe=6A5B454F&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/a08679d6bc07a988482f.webp",
+      "source_initials": "S",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_official_spah63:https://www.instagram.com/p/DavMA3pKzdj/"
     },
     {
       "title": "黃冠誌｜Instagram story @hk91f06",
@@ -1232,6 +1366,73 @@
       "key": "ig_nationaltaichungtheater:https://www.instagram.com/p/Dau-VgkCDdU/"
     },
     {
+      "title": "曹小歐 OtisTsao｜《不想當YTR》 ※影片錄製於2025/6/14 小歐專場《OG》 #影片內容純屬台上玩笑 #如有冒犯之處請勿當真 #單口喜劇 #小歐 #脫口秀",
+      "headline": "《不想當YTR》",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/Dau-QrXTZxQ/",
+      "source_id": "ig_otistsao",
+      "source": "曹小歐 OtisTsao",
+      "source_system_name": "曹小歐",
+      "source_profile_url": "https://www.instagram.com/otistsao/",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-100",
+      "directory_entry_name": "曹小歐",
+      "account": "otistsao",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Mon, 13 Jul 2026 13:00:11 GMT",
+      "posted_at_local": "2026-07-13 21:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-13T23:56:25.780809+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/otistsao",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "影片"
+      ],
+      "keyword_matches": [
+        "影片"
+      ],
+      "llm_relevant": null,
+      "llm_confidence": null,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "",
+      "text": "《不想當YTR》\n※影片錄製於2025/6/14 小歐專場《OG》\n#影片內容純屬台上玩笑\n#如有冒犯之處請勿當真\n#單口喜劇 #小歐 #脫口秀",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/747422951_18597364723061825_5241811212071835317_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=Mzk0MDM2MDU0ODk1MjkzOTYwMDE4NTk3MzY0NzE0MDYxODI1.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjkwOC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=vSTt-pE5F-EQ7kNvwEm8WXF&_nc_oc=AdrsG0a0BC_rY7u8Zgg_o5nsKZ1SggrajWClNfTyfpWcoTcyLwc6VpFBZwu8EBpiOxY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=RjD5tq8wNw6YmnMrRPHdxw&_nc_ss=7a22e&oh=00_AQDpMjvJumirsRILM5K4HAXTySYjg_o4qwj5eLo_KVOcJQ&oe=6A5B334C"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQObXgr16K_qITHvB8IY1g6c3qG7602Obhe67MPK7Cz530Qvun0CNYVeZ708UiJgRmj7ITdb6I-fbMKfDUUU16LRtrbOPYnu_lPseew.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=i1q2bBz9FBsQ7kNvwHh-YBz&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MzEzMjkyNTg0MzU2MzU4NywiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo3MSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=62d0e64d38d4ee4d&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83NDRDNDQ0NTA1QTMzRkE1ODAzMTJFNjUzQTg3NkRCOV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzAyNEQ1MjI0NTJBMUE3MjMxMkEzQzg1MUE0QzY1NUFFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaGkZvApNiQCxUCKAJDMywXQFH1T987ZFoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=RjD5tq8wNw6YmnMrRPHdxw&_nc_zt=28&_nc_ss=7a22e&oh=00_AQCXhUKUI1xEMPJGLi7ZTKtamCFbgbOQfAcqbn29GO7fOg&oe=6A576BF7"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/747422951_18597364723061825_5241811212071835317_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=Mzk0MDM2MDU0ODk1MjkzOTYwMDE4NTk3MzY0NzE0MDYxODI1.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjkwOC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=vSTt-pE5F-EQ7kNvwEm8WXF&_nc_oc=AdrsG0a0BC_rY7u8Zgg_o5nsKZ1SggrajWClNfTyfpWcoTcyLwc6VpFBZwu8EBpiOxY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=RjD5tq8wNw6YmnMrRPHdxw&_nc_ss=7a22e&oh=00_AQDpMjvJumirsRILM5K4HAXTySYjg_o4qwj5eLo_KVOcJQ&oe=6A5B334C",
+      "image_url": "/assets/feed-images/3996b0440ed05c9df331.webp",
+      "image_width": 800,
+      "image_height": 1423,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/564773496_18527480284061825_4311855118159863354_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gEJtZMQzpFShbBNSrqjKTliImCW9iWW0jfzISaphnUBO_DT7ho208v9PXJUmxbEFPc&_nc_ohc=xsj-krX0n3MQ7kNvwG-g0QP&_nc_gid=9KremFnEtSkIXaMIydHZ1g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQCKLuds19055QBPNBnqDjLHAzokLholbpEkNrO0sVuHsw&oe=6A5B4A53&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/4023dce27985c1518bb9.webp",
+      "source_initials": "O",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_otistsao:https://www.instagram.com/p/Dau-QrXTZxQ/"
+    },
+    {
       "title": "王衍華｜Instagram story @yenhua_wang",
       "headline": "Instagram story @yenhua_wang",
       "display_title": "",
@@ -1614,6 +1815,73 @@
         "補助比賽"
       ],
       "key": "ig_hkharmonica:https://www.instagram.com/p/Dau2zI_E-4m/"
+    },
+    {
+      "title": "山下伶 / Rei Yamashita｜RT 押尾コータローの押しても弾いても【公式】: 【 #押し弾き スタジオ日記更新📝】 先週は、クロマチックハーモニカ奏者の #山下伶 さんをゲストに迎えてお送... RT 押尾コータローの押しても…",
+      "headline": "RT 押尾コータローの押しても弾いても【公式】: 【 #押し弾き スタジオ日記更新📝】 先週は、クロマチックハーモニカ奏者の #山下伶 さんをゲストに迎えてお送...",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://x.com/rei_harmonica/status/2076818616738263553",
+      "source_id": "x_rei_harmonica",
+      "source": "山下伶 / Rei Yamashita",
+      "source_system_name": "山下伶 Rei Yamashita",
+      "source_profile_url": "https://x.com/rei_harmonica",
+      "country": "日本",
+      "region": "日本",
+      "directory_entry_id": "watchlist-57",
+      "directory_entry_name": "山下伶 Rei Yamashita",
+      "account": "rei_harmonica",
+      "platform": "x",
+      "platform_label": "X",
+      "posted_at": "Mon, 13 Jul 2026 11:36:17 GMT",
+      "posted_at_local": "2026-07-13 19:36",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-14T00:23:30.814382+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/twitter/user/rei_harmonica",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "影片"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "口琴",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文內容提及半音階口琴演奏者山下伶作為嘉賓參與電台節目，並分享節目錄音連結，屬於口琴演奏者公開影音更新。",
+      "text": "RT 押尾コータローの押しても弾いても【公式】: 【 #押し弾き スタジオ日記更新📝】 先週は、クロマチックハーモニカ奏者の #山下伶 さんをゲストに迎えてお送...\nRT 押尾コータローの押しても弾いても【公式】\n【 #押し弾き スタジオ日記更新📝】\n先週は、クロマチックハーモニカ奏者の #山下伶 さんをゲストに迎えてお送りしました📻✨\nセッション曲は\n♪Englishman in New York / Sting\n聴き逃した方は⬇️\nhttps://radiko.jp/share/?t=20260710240000&sid=MBS\n💻HP\nhttp://www.mbs1179.com/oshio/\n#MBSラジオ\n#押尾コータロー\n#南かおり",
+      "images": [],
+      "videos": [],
+      "source_image_url": "",
+      "image_url": "",
+      "image_width": null,
+      "image_height": null,
+      "source_avatar_url": "https://pbs.twimg.com/profile_images/1920904652691841024/rFUus9V4.jpg",
+      "avatar_url": "/assets/source-avatars/d350740a2547c7804927.webp",
+      "source_initials": "RY",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "x_rei_harmonica:https://twitter.com/rei_harmonica/status/2076818616738263553"
     },
     {
       "title": "山下伶 / Rei Yamashita｜Instagram story @rei_harmonica",

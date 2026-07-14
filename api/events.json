@@ -7,8 +7,77 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 425,
+  "count": 426,
   "items": [
+    {
+      "title": "山下伶 / Rei Yamashita｜RT MBSラジオ『NAOTOの月イチな音』公式アカウント: #山下怜 さん、コメントありがとうございました！ 「希望の種を音に乗せて」をオンエア📻 #MBSラジオ #月... RT MBSラジオ『…",
+      "headline": "RT MBSラジオ『NAOTOの月イチな音』公式アカウント: #山下怜 さん、コメントありがとうございました！ 「希望の種を音に乗せて」をオンエア📻 #MBSラジオ #月...",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://x.com/rei_harmonica/status/2076818634618687673",
+      "source_id": "x_rei_harmonica",
+      "source": "山下伶 / Rei Yamashita",
+      "source_system_name": "山下伶 Rei Yamashita",
+      "source_profile_url": "https://x.com/rei_harmonica",
+      "country": "日本",
+      "region": "日本",
+      "directory_entry_id": "watchlist-57",
+      "directory_entry_name": "山下伶 Rei Yamashita",
+      "account": "rei_harmonica",
+      "platform": "x",
+      "platform_label": "X",
+      "posted_at": "Mon, 13 Jul 2026 19:17:52 GMT",
+      "posted_at_local": "2026-07-14 03:17",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-14T00:23:30.814382+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/twitter/user/rei_harmonica",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "音樂會"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.9,
+      "llm_labels": [
+        "口琴",
+        "音樂會"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "貼文提及口琴演奏者山下伶的10週年紀念音樂會宣傳，與口琴演出直接相關。",
+      "text": "RT MBSラジオ『NAOTOの月イチな音』公式アカウント: #山下怜 さん、コメントありがとうございました！ 「希望の種を音に乗せて」をオンエア📻 #MBSラジオ #月...\nRT MBSラジオ『NAOTOの月イチな音』公式アカウント\n#山下怜 さん、コメントありがとうございました！\n「希望の種を音に乗せて」をオンエア📻\n#MBSラジオ #月イチな音\n山下伶 10th Anniversary Concert 〜希望の種を音に\n乗せて〜　公演情報はこちらから！\nhttps://www.rei-yamashita.com",
+      "images": [],
+      "videos": [],
+      "source_image_url": "",
+      "image_url": "",
+      "image_width": null,
+      "image_height": null,
+      "source_avatar_url": "https://pbs.twimg.com/profile_images/1920904652691841024/rFUus9V4.jpg",
+      "avatar_url": "/assets/source-avatars/d350740a2547c7804927.webp",
+      "source_initials": "RY",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "x_rei_harmonica:https://twitter.com/rei_harmonica/status/2076818634618687673"
+    },
     {
       "title": "黃冠誌｜Instagram story @hk91f06",
       "headline": "Instagram story @hk91f06",
