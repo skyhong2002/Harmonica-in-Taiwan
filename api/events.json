@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 426,
+  "count": 425,
   "items": [
     {
       "title": "臺灣口琴音樂節 Taiwan Harmonica Music Festival｜📌2026 臺灣口琴音樂節即將於 8 月 7 日至 8 月 9 日，在國立陽明交通大學光復校區與新竹市文化局演藝廳熱鬧登場！除了作為臺灣及亞洲各地口琴愛好者的…",
@@ -32821,86 +32821,6 @@
         "補助比賽"
       ],
       "key": "ig_malaysia_harmonica_festival:https://www.instagram.com/p/DZM608Fk5lB/"
-    },
-    {
-      "title": "Hong Kong Harmonica Association｜琴聲貢聚音樂會：The Good, the Bad & the Ugly 誰說口琴只能吹奏小品？在《十八有藝》西貢社區演藝計劃的壓軸音樂會上，10位星級口琴導師聯手，為你帶來…",
-      "headline": "琴聲貢聚音樂會：The Good, the Bad & the Ugly",
-      "display_title": "琴聲貢聚音樂會：The Good, the Bad & the Ugly",
-      "title_kind": "title",
-      "link": "https://www.youtube.com/watch?v=WrO0llqcojY",
-      "source_id": "yt_hkharmonica",
-      "source": "Hong Kong Harmonica Association",
-      "source_system_name": "香港口琴協會 Hong Kong Harmonica Association",
-      "source_profile_url": "https://www.youtube.com/channel/UC9gMCibnN1o-RIBFQGvTZDA",
-      "country": "香港",
-      "region": "香港",
-      "directory_entry_id": "watchlist-130",
-      "directory_entry_name": "香港口琴協會 Hong Kong Harmonica Association",
-      "account": "https://www.youtube.com/channel/UC9gMCibnN1o-RIBFQGvTZDA",
-      "platform": "youtube",
-      "platform_label": "YouTube",
-      "posted_at": "2026-06-14T12:00:06+00:00",
-      "posted_at_local": "2026-06-14 20:00",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-06-29T21:28:10.748397+00:00",
-      "media_type": "video",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "公開更新",
-        "音樂會",
-        "演出"
-      ],
-      "keyword_matches": [
-        "口琴",
-        "音樂會",
-        "演出",
-        "harmonica"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 1.0,
-      "llm_labels": [
-        "口琴",
-        "公開更新",
-        "音樂會",
-        "演出"
-      ],
-      "llm_categories": [
-        "events"
-      ],
-      "llm_reason": "貼文為香港口琴協會發佈的口琴音樂會資訊，內容包含演出亮點、導師陣容及活動詳情，與口琴演出直接相關。",
-      "text": "琴聲貢聚音樂會：The Good, the Bad & the Ugly\n誰說口琴只能吹奏小品？在《十八有藝》西貢社區演藝計劃的壓軸音樂會上，10位星級口琴導師聯手，為你帶來史詩級的聽覺震撼！\n🔥 演出亮點：\n• 完美重現經典西部名曲《The Good, the Bad & the Ugly》，展現黃沙萬里的戲劇張力！\n• 10位專業導師破天荒同台飆技，將頂級音樂水準帶入社區。\n• 香港口琴協會精心策劃，為2025-26年度西貢音樂會畫上完美句號。\n👥 星級演出陣容：\n梁芷菁、黃頌祺、蔡偉鏗、歐俊樂、何湛彥、潘倩衡、鍾穎昕、葉梓翀、鄭智源、梁栢渝\n喜歡這場演出的朋友，請記得按讚、訂閱我們的頻道，並留言告訴我們你最震撼的是哪一段！想了解更多社區音樂活動與口琴課程資訊，請點擊這裡：\nhttps://linktr.ee/hkharmonica\n#琴聲貢聚 #香港口琴協會 #西貢好去處 #十八有藝",
-      "images": [
-        "https://i.ytimg.com/vi/WrO0llqcojY/maxresdefault.jpg"
-      ],
-      "videos": [],
-      "source_image_url": "https://i.ytimg.com/vi/WrO0llqcojY/maxresdefault.jpg",
-      "image_url": "/assets/feed-images/122ec97022f20548857b.webp",
-      "image_width": 800,
-      "image_height": 450,
-      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_nz6hS2wS0keZ1BTmKEPfxM7rmUttm1jVundDKK6mKtcA=s900-c-k-c0x00ffffff-no-rj",
-      "avatar_url": "/assets/source-avatars/413e26e138f6b36aa99c.webp",
-      "source_initials": "HKH",
-      "categories": [
-        "posts-videos",
-        "events"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動"
-      ],
-      "key": "yt_hkharmonica:WrO0llqcojY"
     }
   ]
 }
