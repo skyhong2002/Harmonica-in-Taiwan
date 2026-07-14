@@ -588,7 +588,7 @@ def extract_events(
     *,
     overrides: dict[str, dict[str, Any]] | None = None,
     llm_token: str = "",
-    llm_base_url: str = watchdog.OPENCODE_GO_BASE_URL,
+    llm_base_url: str = watchdog.OPENAI_BASE_URL,
     llm_model: str = watchdog.DEFAULT_LLM_MODEL,
     llm_timeout: int = 45,
     llm_cache: dict[str, Any] | None = None,
@@ -814,16 +814,16 @@ def write_ics(events: list[dict[str, Any]], generated_at: str) -> None:
 
 
 def main() -> int:
+    load_dotenv(PROJECT_ROOT / ".env")
     parser = argparse.ArgumentParser()
     parser.add_argument("--no-llm", action="store_true")
     parser.add_argument("--llm-cache", type=Path, default=DEFAULT_LLM_CACHE)
-    parser.add_argument("--llm-base-url", default=os.environ.get("HARMONICA_LLM_BASE_URL", watchdog.OPENCODE_GO_BASE_URL))
+    parser.add_argument("--llm-base-url", default=os.environ.get("HARMONICA_LLM_BASE_URL", watchdog.OPENAI_BASE_URL))
     parser.add_argument("--llm-model", default=os.environ.get("HARMONICA_LLM_MODEL", watchdog.DEFAULT_LLM_MODEL))
     parser.add_argument("--llm-timeout", type=int, default=int(os.environ.get("HARMONICA_LLM_TIMEOUT", "45")))
-    parser.add_argument("--llm-keychain-service", default=os.environ.get("HARMONICA_LLM_KEYCHAIN_SERVICE", "harmonica-opencode-go"))
-    parser.add_argument("--llm-keychain-account", default=os.environ.get("HARMONICA_LLM_KEYCHAIN_ACCOUNT", "harmonica"))
+    parser.add_argument("--llm-keychain-service", default=os.environ.get("HARMONICA_LLM_KEYCHAIN_SERVICE", watchdog.DEFAULT_LLM_KEYCHAIN_SERVICE))
+    parser.add_argument("--llm-keychain-account", default=os.environ.get("HARMONICA_LLM_KEYCHAIN_ACCOUNT", watchdog.DEFAULT_LLM_KEYCHAIN_ACCOUNT))
     args = parser.parse_args()
-    load_dotenv(PROJECT_ROOT / ".env")
     payload = json.loads(SOURCE_PATH.read_text(encoding="utf-8"))
     items = payload.get("items") if isinstance(payload, dict) else []
     if not isinstance(items, list):

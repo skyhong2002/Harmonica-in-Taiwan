@@ -166,7 +166,7 @@ def classify_entry(
         "model": model,
         "messages": prompt_for_entry(entry),
         "temperature": 0,
-        "max_tokens": 500,
+        "max_completion_tokens": 500,
         "response_format": {"type": "json_object"},
         "stream": False,
     }
@@ -197,7 +197,7 @@ def cached_classify(
     attempts = max(1, int(os.environ.get("HARMONICA_LLM_RETRIES", "3") or "3"))
     fallback_models = [
         item.strip()
-        for item in os.environ.get("HARMONICA_LLM_FALLBACK_MODELS", "kimi-k2.6").split(",")
+        for item in os.environ.get("HARMONICA_LLM_FALLBACK_MODELS", "").split(",")
         if item.strip()
     ]
     models = watchdog.unique_limited([model, *fallback_models])
@@ -233,13 +233,14 @@ def cached_classify(
 
 
 def main() -> int:
+    watchdog.load_dotenv(PROJECT_ROOT / ".env")
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
-    parser.add_argument("--llm-base-url", default=os.environ.get("HARMONICA_LLM_BASE_URL", watchdog.OPENCODE_GO_BASE_URL))
+    parser.add_argument("--llm-base-url", default=os.environ.get("HARMONICA_LLM_BASE_URL", watchdog.OPENAI_BASE_URL))
     parser.add_argument("--llm-model", default=os.environ.get("HARMONICA_LLM_MODEL", watchdog.DEFAULT_LLM_MODEL))
     parser.add_argument("--llm-timeout", type=int, default=int(os.environ.get("HARMONICA_LLM_TIMEOUT", "45")))
-    parser.add_argument("--llm-keychain-service", default=os.environ.get("HARMONICA_LLM_KEYCHAIN_SERVICE", "harmonica-opencode-go"))
-    parser.add_argument("--llm-keychain-account", default=os.environ.get("HARMONICA_LLM_KEYCHAIN_ACCOUNT", "harmonica"))
+    parser.add_argument("--llm-keychain-service", default=os.environ.get("HARMONICA_LLM_KEYCHAIN_SERVICE", watchdog.DEFAULT_LLM_KEYCHAIN_SERVICE))
+    parser.add_argument("--llm-keychain-account", default=os.environ.get("HARMONICA_LLM_KEYCHAIN_ACCOUNT", watchdog.DEFAULT_LLM_KEYCHAIN_ACCOUNT))
     parser.add_argument("--limit", type=int, default=0)
     parser.add_argument("--write", action="store_true")
     parser.add_argument("--refresh", action="store_true")
@@ -249,7 +250,7 @@ def main() -> int:
 
     token, token_source = watchdog.read_llm_token(args.llm_keychain_service, args.llm_keychain_account)
     if not token:
-        raise SystemExit("Missing OpenCode Go token. Set HARMONICA_OPENCODE_GO_API_KEY or store one in Keychain.")
+        raise SystemExit("Missing OpenAI API key. Set HARMONICA_LLM_API_KEY in .env or store one in Keychain.")
 
     cache = load_cache(args.output)
     entries = build_public_data.build_entries()

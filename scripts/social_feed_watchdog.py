@@ -74,8 +74,10 @@ DEFAULT_INSTAGRAM_BOOTSTRAP_COOLDOWN_HOURS = 6.0
 DEFAULT_INSTAGRAM_MAX_ATTEMPTS_PER_RUN = 40
 INSTAGRAM_SCHEDULE_EPOCH = dt.datetime(1970, 1, 1, tzinfo=dt.timezone.utc)
 DEFAULT_RSS_DELAY_SECS = 0.25
-OPENCODE_GO_BASE_URL = "https://opencode.ai/zen/go/v1"
-DEFAULT_LLM_MODEL = "mimo-v2.5"
+OPENAI_BASE_URL = "https://api.openai.com/v1"
+DEFAULT_LLM_MODEL = "gpt-5.4-mini"
+DEFAULT_LLM_KEYCHAIN_SERVICE = "harmonica-openai"
+DEFAULT_LLM_KEYCHAIN_ACCOUNT = "harmonica"
 LLM_CATEGORIES = {"events", "posts-videos", "student-clubs", "opportunities"}
 LLM_LABELS = set(public_tags.PUBLIC_TAGS)
 TRUTHY = {"1", "true", "yes", "y", "on"}
@@ -87,6 +89,20 @@ def load_json(path: Path, default: Any) -> Any:
         return default
     with path.open("r", encoding="utf-8") as handle:
         return json.load(handle)
+
+
+def load_dotenv(path: Path) -> None:
+    if not path.exists():
+        return
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.split("=", 1)
+        key = key.strip()
+        value = value.strip().strip('"').strip("'")
+        if key and key not in os.environ:
+            os.environ[key] = value
 
 
 def save_json(path: Path, data: Any) -> None:
@@ -1313,15 +1329,15 @@ def merge_tags(primary: list[Any], fallback: list[Any], *, limit: int = 8) -> li
 
 
 def read_llm_token(service: str, account: str) -> tuple[str, str]:
-    for key in ("HARMONICA_OPENCODE_GO_API_KEY", "OPENCODE_GO_API_KEY", "HARMONICA_LLM_API_KEY"):
+    for key in ("HARMONICA_LLM_API_KEY", "HARMONICA_OPENAI_API_KEY", "OPENAI_API_KEY"):
         value = os.environ.get(key)
         if value:
             return value.strip(), f"env:{key}"
 
     candidates = [
         (service, account),
-        (service, "harmonica"),
-        ("harmonica-opencode-go", "harmonica"),
+        (service, DEFAULT_LLM_KEYCHAIN_ACCOUNT),
+        (DEFAULT_LLM_KEYCHAIN_SERVICE, DEFAULT_LLM_KEYCHAIN_ACCOUNT),
     ]
     seen_pairs: set[tuple[str, str]] = set()
     for keychain_service, keychain_account in candidates:
@@ -1344,7 +1360,7 @@ def read_llm_token(service: str, account: str) -> tuple[str, str]:
 
 
 def llm_endpoint(base_url: str) -> str:
-    base = (base_url or OPENCODE_GO_BASE_URL).rstrip("/")
+    base = (base_url or OPENAI_BASE_URL).rstrip("/")
     if base.endswith("/chat/completions"):
         return base
     return f"{base}/chat/completions"
@@ -1519,7 +1535,7 @@ def classify_with_llm(
         "model": model,
         "messages": llm_prompt(post, keyword_matches),
         "temperature": 0,
-        "max_tokens": 500,
+        "max_completion_tokens": 500,
         "response_format": {"type": "json_object"},
         "stream": False,
     }
@@ -1566,7 +1582,7 @@ def cached_llm_classification(
     attempts = max(1, int(os.environ.get("HARMONICA_LLM_RETRIES", "3") or "3"))
     fallback_models = [
         item.strip()
-        for item in os.environ.get("HARMONICA_LLM_FALLBACK_MODELS", "kimi-k2.6").split(",")
+        for item in os.environ.get("HARMONICA_LLM_FALLBACK_MODELS", "").split(",")
         if item.strip()
     ]
     models = unique_limited([model, *fallback_models])
@@ -1647,6 +1663,7 @@ def append_errors(path: Path, errors: list[dict[str, str]]) -> None:
 
 
 def main() -> int:
+    load_dotenv(PROJECT_ROOT / ".env")
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
     parser.add_argument("--seen", type=Path, default=DEFAULT_SEEN)
@@ -1705,7 +1722,7 @@ def main() -> int:
     parser.add_argument("--llm-tags", dest="llm_tags", action="store_true", default=env_truthy("HARMONICA_ENABLE_LLM_TAGS", True))
     parser.add_argument("--no-llm-tags", dest="llm_tags", action="store_false")
     parser.add_argument("--llm-cache", type=Path, default=DEFAULT_LLM_CACHE)
-    parser.add_argument("--llm-base-url", default=os.environ.get("HARMONICA_LLM_BASE_URL", OPENCODE_GO_BASE_URL))
+    parser.add_argument("--llm-base-url", default=os.environ.get("HARMONICA_LLM_BASE_URL", OPENAI_BASE_URL))
     parser.add_argument("--llm-model", default=os.environ.get("HARMONICA_LLM_MODEL", DEFAULT_LLM_MODEL))
     parser.add_argument("--llm-timeout", type=int, default=int(os.environ.get("HARMONICA_LLM_TIMEOUT", "45")))
     parser.add_argument(
@@ -1715,11 +1732,11 @@ def main() -> int:
     )
     parser.add_argument(
         "--llm-keychain-service",
-        default=os.environ.get("HARMONICA_LLM_KEYCHAIN_SERVICE", "harmonica-opencode-go"),
+        default=os.environ.get("HARMONICA_LLM_KEYCHAIN_SERVICE", DEFAULT_LLM_KEYCHAIN_SERVICE),
     )
     parser.add_argument(
         "--llm-keychain-account",
-        default=os.environ.get("HARMONICA_LLM_KEYCHAIN_ACCOUNT", "harmonica"),
+        default=os.environ.get("HARMONICA_LLM_KEYCHAIN_ACCOUNT", DEFAULT_LLM_KEYCHAIN_ACCOUNT),
     )
     parser.add_argument("--rsshub-base", default=os.environ.get("HARMONICA_RSSHUB_BASE", ""))
     parser.add_argument("--request-timeout", type=int, default=10)
@@ -1758,7 +1775,7 @@ def main() -> int:
                     "llm_keychain_account": args.llm_keychain_account,
                     "has_llm_env_token": any(
                         bool(os.environ.get(key))
-                        for key in ("HARMONICA_OPENCODE_GO_API_KEY", "OPENCODE_GO_API_KEY", "HARMONICA_LLM_API_KEY")
+                        for key in ("HARMONICA_LLM_API_KEY", "HARMONICA_OPENAI_API_KEY", "OPENAI_API_KEY")
                     ),
                     "instagram_profile_interval_hours": args.instagram_profile_interval_hours,
                     "instagram_story_interval_hours": args.instagram_story_interval_hours,
