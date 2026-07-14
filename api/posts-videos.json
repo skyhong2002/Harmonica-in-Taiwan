@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/posts-videos.xml",
   "json": "https://harmonica.observe.tw/api/posts-videos.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/posts-videos.json",
-  "count": 1616,
+  "count": 1617,
   "items": [
     {
       "title": "Howard Levy｜Instagram story @howardlevyland",
@@ -1984,6 +1984,71 @@
         "公開活動"
       ],
       "key": "ig_minami_risa:https://www.instagram.com/p/DaxjzVIyD1R/"
+    },
+    {
+      "title": "Rodrigo Eberienos｜See you at @official_spah63 ❤️🎵😎 Endorser @jdr_harmonica",
+      "headline": "See you at @official_spah63 ❤️🎵😎",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DaxjfLiR_KF/",
+      "source_id": "ig_rodrigoeberienos",
+      "source": "Rodrigo Eberienos",
+      "source_system_name": "Rodrigo Eberienos",
+      "source_profile_url": "https://www.instagram.com/rodrigoeberienos/",
+      "country": "巴西",
+      "region": "巴西",
+      "directory_entry_id": "watchlist-108",
+      "directory_entry_name": "Rodrigo Eberienos",
+      "account": "rodrigoeberienos",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Tue, 14 Jul 2026 13:06:44 GMT",
+      "posted_at_local": "2026-07-14 21:06",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-14T22:56:26.684529+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/rodrigoeberienos",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": null,
+      "llm_confidence": null,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "",
+      "text": "See you at @official_spah63 ❤️🎵😎\nEndorser @jdr_harmonica",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/748360259_18273069190290526_3431676439816155024_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk0MTA4NzIyMzI0Mzg2MjY2MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQwNi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=fMZSmN3tl64Q7kNvwFkwzCl&_nc_oc=AdrspiTpYjJWzrNKOMrWlrqcy3QZsmcLEkqQFxDGoq9jaK0cSOU5XIdMQUw8KaBxhFs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=J3Y-6qaFPAybzVsM8XDJgw&_nc_ss=7a22e&oh=00_AQD9ohYXC6UWGHRu2EwaIniE0kuLBj5d_Jyb8QGW_6Arwg&oe=6A5C907C"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/748360259_18273069190290526_3431676439816155024_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk0MTA4NzIyMzI0Mzg2MjY2MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQwNi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=fMZSmN3tl64Q7kNvwFkwzCl&_nc_oc=AdrspiTpYjJWzrNKOMrWlrqcy3QZsmcLEkqQFxDGoq9jaK0cSOU5XIdMQUw8KaBxhFs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=J3Y-6qaFPAybzVsM8XDJgw&_nc_ss=7a22e&oh=00_AQD9ohYXC6UWGHRu2EwaIniE0kuLBj5d_Jyb8QGW_6Arwg&oe=6A5C907C",
+      "image_url": "/assets/feed-images/1e95606c36aa2573ba18.webp",
+      "image_width": 800,
+      "image_height": 637,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/670360835_18265861279290526_6331199284245504105_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmV4cGVyaW1lbnRhbCJ9&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gGcHtm1Sgci8Zf5Qihe4tnhiKolbDXmjKgrXq5NJEshyr9UNcZRPn9dGkox94xniwk&_nc_ohc=DDuiVagE9toQ7kNvwGq3aRd&_nc_gid=J0eQbXIBFDn7DA6Mwmpq0A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQBDeXxUWDp6gbc-XZt0e9N4crUfCSu6ChZ0iHUqD4S0zw&oe=6A5C7A1A&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/79e58e3878c6df28fc39.webp",
+      "source_initials": "RE",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_rodrigoeberienos:https://www.instagram.com/p/DaxjfLiR_KF/"
     },
     {
       "title": "菜鳥琴老師很菜｜Instagram story @chindiary_harmonica",
