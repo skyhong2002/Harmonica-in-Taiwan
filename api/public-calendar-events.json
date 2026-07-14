@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-14T09:31:10+08:00",
+  "generatedAt": "2026-07-14T11:08:22+08:00",
   "timezone": "Asia/Taipei",
-  "count": 5,
+  "count": 6,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,7 +14,7 @@
     "model": "mimo-v2.5",
     "stats": {
       "requests": 0,
-      "cached": 22,
+      "cached": 23,
       "errors": 0
     }
   },
@@ -142,6 +142,35 @@
         "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/739470687_1040056295068096_7293253133308599774_n.jpg?stp=dst-jpg_tt6&cstp=mx1365x2048&ctp=p526x296&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=2Y1z_Jz5Dh8Q7kNvwFu7VK-&_nc_oc=AdqxjQbb6wJT970ZnT5Z_rs1p-cS4quxZMheCf-q54835u_qYflx85m8deFTmC-EPow&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=fC0baYd0G3S4wa4B0Xtonw&_nc_ss=72289&oh=00_AQD5RdqSWLacQo-8-SAlB867k8FV6ZdIPrmBg_e1-da7CA&oe=6A55CCA3"
       ],
       "image_url": "/assets/feed-images/37059a2ebd980acbaf3f.webp"
+    },
+    {
+      "id": "290ed9103b60d6e4",
+      "title": "2026臺灣口琴音樂節",
+      "eventName": "2026臺灣口琴音樂節",
+      "source": "胖擊口琴樂團Punch Harmonica Ensemble",
+      "platform": "facebook",
+      "start": "2026-08-08",
+      "end": "2026-08-09",
+      "allDay": true,
+      "location": "open Stage",
+      "venue": "open Stage",
+      "city": "",
+      "details": "包含8/8(六)晚上的《桂冠之聲：2026臺灣口琴音樂節Gala音樂會》演出。",
+      "evidenceUrl": "https://www.facebook.com/Punch.Harp/posts/pfbid02tDSb1bXZ5dDKvwEgPoMjznNjS8qHc59cMXkjkV3GMZsyQF8tidGAtMsCcCaVcnKMl",
+      "confidence": 0.9,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventName": "2026臺灣口琴音樂節",
+        "venue": "open Stage",
+        "city": "",
+        "details": "包含8/8(六)晚上的《桂冠之聲：2026臺灣口琴音樂節Gala音樂會》演出。",
+        "reason": "活動名稱「2026臺灣口琴音樂節」與具體日期8/8(六)明確提及，地點在臺灣，為口琴公開活動。",
+        "confidence": 0.9
+      },
+      "postedAt": "2026-07-13 10:00",
+      "images": [],
+      "image_url": ""
     },
     {
       "eventName": "臺中一中口琴之狼校友音樂會《天琴聲等煙雨》",
