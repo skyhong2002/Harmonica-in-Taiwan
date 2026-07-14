@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-14T17:44:14+08:00",
+  "generatedAt": "2026-07-14T19:53:15+08:00",
   "timezone": "Asia/Taipei",
-  "count": 6,
+  "count": 7,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@
     "stats": {
       "requests": 0,
       "cached": 23,
-      "errors": 0
+      "errors": 1
     }
   },
   "events": [
@@ -142,6 +142,37 @@
         "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/739470687_1040056295068096_7293253133308599774_n.jpg?stp=dst-jpg_tt6&cstp=mx1365x2048&ctp=p526x296&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=2Y1z_Jz5Dh8Q7kNvwFu7VK-&_nc_oc=AdqxjQbb6wJT970ZnT5Z_rs1p-cS4quxZMheCf-q54835u_qYflx85m8deFTmC-EPow&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=fC0baYd0G3S4wa4B0Xtonw&_nc_ss=72289&oh=00_AQD5RdqSWLacQo-8-SAlB867k8FV6ZdIPrmBg_e1-da7CA&oe=6A55CCA3"
       ],
       "image_url": "/assets/feed-images/37059a2ebd980acbaf3f.webp"
+    },
+    {
+      "id": "8d1350cf7a22233a",
+      "title": "臺灣口琴音樂節 Taiwan Harmonica Music Festival｜📌2026 臺灣口琴音樂節即將於 8 月 7 日至 8 月 9 日，在國立陽明交通大",
+      "eventName": "臺灣口琴音樂節 Taiwan Harmonica Music Festival｜📌2026 臺灣口琴音樂節即將於 8 月 7 日至 8 月 9 日，在國立陽明交通大",
+      "source": "臺灣口琴音樂節 Taiwan Harmonica Music Festival",
+      "platform": "instagram",
+      "start": "2026-08-07",
+      "end": "2026-08-10",
+      "allDay": true,
+      "location": "時間：2026/07/25 (六) 14:00",
+      "venue": "時間：2026/07/25 (六) 14:00",
+      "city": "",
+      "details": "",
+      "evidenceUrl": "https://www.instagram.com/p/Daw_UL_kxiZ/",
+      "confidence": 0.35,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventName": "臺灣口琴音樂節 Taiwan Harmonica Music Festival｜📌2026 臺灣口琴音樂節即將於 8 月 7 日至 8 月 9 日，在國立陽明交通大",
+        "venue": "時間：2026/07/25 (六) 14:00",
+        "city": "",
+        "details": "",
+        "reason": "fallback public harmonica event match",
+        "confidence": 0.35
+      },
+      "postedAt": "2026-07-14 15:47",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/744333130_17949042612238733_3904711897503766911_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=Mzk0MDkyODEzODE0NjY4MzAzMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzU1NS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=YCjZbNcpxMgQ7kNvwFbsVdX&_nc_oc=Adr1Q6Vd2FGa_M4YzNtndt_dbRj-_JycbXRiGKLkJsdeiT8EGr-xdlpI1uv9xfPZgOk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=kRhQAABkBE9MpqkcL8i7BA&_nc_ss=7a22e&oh=00_AQCp304_sat5HFBnPcY_H6gYrhz3S5oZ1l5xRzVyGVUVtA&oe=6A5BE8D2"
+      ],
+      "image_url": "/assets/feed-images/e9961a602a60b36913ac.webp"
     },
     {
       "id": "290ed9103b60d6e4",
