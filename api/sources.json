@@ -65,6 +65,91 @@
   },
   "entries": [
     {
+      "id": "watchlist-142",
+      "publicId": "142",
+      "name": "Howard Levy",
+      "nameEn": "Howard Levy",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "美國",
+      "region": "美國",
+      "cityOrFocus": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興",
+      "structuredSummary": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興 / 半音階/十孔/鋼琴 / 國際演出人員/作曲者/教育者",
+      "summary": "美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。",
+      "keywords": "Howard Levy harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://levyland.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HowardLevyFanPage/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/howardlevyland/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-14T19:55:00+00:00",
+      "latestUpdateLocal": "2026-07-15 03:55",
+      "latestUpdateSource": "Howard Levy",
+      "latestUpdateUrl": "https://www.instagram.com/stories/howardlevyland/3941294185114079798/",
+      "avatarUrl": "/assets/source-avatars/fdb08c71103b5e8ceb5b.webp",
+      "sourceInitials": "HL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_howardlevyfanpage",
+          "name": "Howard Levy",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HowardLevyFanPage",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_howardlevyland",
+          "name": "Howard Levy",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "howardlevyland",
+          "profileUrl": "https://www.instagram.com/howardlevyland/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_howardlevyland",
+          "name": "Howard Levy",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "howardlevyland",
+          "profileUrl": "https://www.instagram.com/howardlevyland/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/howardlevyland/story/0"
+        },
+        {
+          "id": "yt_uc86aeg8s_npzmfuj_cyxw",
+          "name": "Howard Levy",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-97",
       "publicId": "97",
       "name": "進擊的口琴樂團",
@@ -1152,6 +1237,101 @@
       ]
     },
     {
+      "id": "watchlist-103",
+      "publicId": "103",
+      "name": "陳瑤容 Yora Chen",
+      "nameEn": "Yora Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "鋼琴合作/編曲創作/口琴合作",
+      "structuredSummary": "鋼琴合作/編曲創作/口琴合作 / 鋼琴/編曲/口琴合作 / 合作音樂家/編曲者",
+      "summary": "臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。",
+      "keywords": "Yora Chen 陳瑤容 陳瑶容 口琴 編曲 鋼琴合作 111 Quintet",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://portaly.cc/YoraChen"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/aike9115"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/_yora._/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@iamxyora"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@_yora._"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-14T11:45:26+00:00",
+      "latestUpdateLocal": "2026-07-14 19:45",
+      "latestUpdateSource": "陳瑤容 Yora Chen",
+      "latestUpdateUrl": "https://www.instagram.com/stories/_yora._/3941047773662953598/",
+      "avatarUrl": "/assets/source-avatars/9260183f6409bf3c1918.webp",
+      "sourceInitials": "YC",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_aike9115",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/aike9115",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "_yora._",
+          "profileUrl": "https://www.instagram.com/_yora._/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/_yora._/story/0"
+        },
+        {
+          "id": "ig_yora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "_yora._",
+          "profileUrl": "https://www.instagram.com/_yora._/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_yora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "threads",
+          "type": "rss",
+          "username": "_yora._",
+          "profileUrl": "https://www.threads.net/@_yora._",
+          "feedUrl": "https://rss.observe.tw/threads/_yora._"
+        },
+        {
+          "id": "yt_iamxyora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@iamxyora",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-79",
       "publicId": "79",
       "name": "國家兩廳院",
@@ -1397,6 +1577,68 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@jensbunge",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-88",
+      "publicId": "88",
+      "name": "藍波口琴教室",
+      "nameEn": "Bluebo Harmonica",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "教學工作室",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴教學/課程/學習資源",
+      "structuredSummary": "口琴教學/課程/學習資源 / 口琴 / 教學/課程來源",
+      "summary": "臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。",
+      "keywords": "藍波口琴教室 藍波口琴網 口琴 教學",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.blueboclass.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/happyharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@lamberharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-14T10:00:37+00:00",
+      "latestUpdateLocal": "2026-07-14 18:00",
+      "latestUpdateSource": "藍波口琴教室",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=WXo5YpIUl4Y",
+      "avatarUrl": "/assets/source-avatars/002a78116b9b09a6967c.webp",
+      "sourceInitials": "藍波",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "課程"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_happyharmonica",
+          "name": "藍波口琴教室",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/happyharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_lamberharmonica",
+          "name": "藍波口琴教室",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@lamberharmonica",
           "feedUrl": ""
         }
       ]
@@ -1700,101 +1942,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-103",
-      "publicId": "103",
-      "name": "陳瑤容 Yora Chen",
-      "nameEn": "Yora Chen",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "鋼琴合作/編曲創作/口琴合作",
-      "structuredSummary": "鋼琴合作/編曲創作/口琴合作 / 鋼琴/編曲/口琴合作 / 合作音樂家/編曲者",
-      "summary": "臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。",
-      "keywords": "Yora Chen 陳瑤容 陳瑶容 口琴 編曲 鋼琴合作 111 Quintet",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/YoraChen"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/aike9115"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/_yora._/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@iamxyora"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@_yora._"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-14T08:00:38+00:00",
-      "latestUpdateLocal": "2026-07-14 16:00",
-      "latestUpdateSource": "陳瑤容 Yora Chen",
-      "latestUpdateUrl": "https://www.instagram.com/stories/_yora._/3940934645348162459/",
-      "avatarUrl": "/assets/source-avatars/9260183f6409bf3c1918.webp",
-      "sourceInitials": "YC",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_aike9115",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/aike9115",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_yora",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "_yora._",
-          "profileUrl": "https://www.instagram.com/_yora._/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/_yora._/story/0"
-        },
-        {
-          "id": "ig_yora",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "_yora._",
-          "profileUrl": "https://www.instagram.com/_yora._/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_yora",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "threads",
-          "type": "rss",
-          "username": "_yora._",
-          "profileUrl": "https://www.threads.net/@_yora._",
-          "feedUrl": "https://rss.observe.tw/threads/_yora._"
-        },
-        {
-          "id": "yt_iamxyora",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@iamxyora",
           "feedUrl": ""
         }
       ]
@@ -2153,6 +2300,55 @@
           "username": "aidensoon",
           "profileUrl": "https://www.instagram.com/aidensoon/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-86",
+      "publicId": "86",
+      "name": "吹出好心琴 + Ou Frog",
+      "nameEn": "Ou Frog",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "教學/影片來源",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴教學影片/示範",
+      "structuredSummary": "口琴教學影片/示範 / 口琴 / 教學影片來源",
+      "summary": "臺灣的口琴教學影片來源，關注口琴教學影片與示範。",
+      "keywords": "吹出好心琴 Ou Frog 口琴 教學 YouTube",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@oufrog"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-14T04:00:34+00:00",
+      "latestUpdateLocal": "2026-07-14 12:00",
+      "latestUpdateSource": "吹出好心琴 + Ou Frog",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=75QKcPpus7k",
+      "avatarUrl": "/assets/source-avatars/2241bd394301b93492ed.webp",
+      "sourceInitials": "OF",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_oufrog",
+          "name": "吹出好心琴 + Ou Frog",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@oufrog",
+          "feedUrl": ""
         }
       ]
     },
@@ -2598,91 +2794,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@filipjersmusic",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-142",
-      "publicId": "142",
-      "name": "Howard Levy",
-      "nameEn": "Howard Levy",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "美國",
-      "region": "美國",
-      "cityOrFocus": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興",
-      "structuredSummary": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興 / 半音階/十孔/鋼琴 / 國際演出人員/作曲者/教育者",
-      "summary": "美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。",
-      "keywords": "Howard Levy harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://levyland.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HowardLevyFanPage/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/howardlevyland/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-13T22:37:08+00:00",
-      "latestUpdateLocal": "2026-07-14 06:37",
-      "latestUpdateSource": "Howard Levy",
-      "latestUpdateUrl": "https://www.instagram.com/stories/howardlevyland/3940651015011428495/",
-      "avatarUrl": "/assets/source-avatars/fdb08c71103b5e8ceb5b.webp",
-      "sourceInitials": "HL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_howardlevyfanpage",
-          "name": "Howard Levy",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HowardLevyFanPage",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_howardlevyland",
-          "name": "Howard Levy",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "howardlevyland",
-          "profileUrl": "https://www.instagram.com/howardlevyland/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_howardlevyland",
-          "name": "Howard Levy",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "howardlevyland",
-          "profileUrl": "https://www.instagram.com/howardlevyland/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/howardlevyland/story/0"
-        },
-        {
-          "id": "yt_uc86aeg8s_npzmfuj_cyxw",
-          "name": "Howard Levy",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
           "feedUrl": ""
         }
       ]
@@ -4738,117 +4849,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@FedericoLinari",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-86",
-      "publicId": "86",
-      "name": "吹出好心琴 + Ou Frog",
-      "nameEn": "Ou Frog",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "教學/影片來源",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴教學影片/示範",
-      "structuredSummary": "口琴教學影片/示範 / 口琴 / 教學影片來源",
-      "summary": "臺灣的口琴教學影片來源，關注口琴教學影片與示範。",
-      "keywords": "吹出好心琴 Ou Frog 口琴 教學 YouTube",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@oufrog"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-12T04:00:28+00:00",
-      "latestUpdateLocal": "2026-07-12 12:00",
-      "latestUpdateSource": "吹出好心琴 + Ou Frog",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=9230ZHttUQQ",
-      "avatarUrl": "/assets/source-avatars/2241bd394301b93492ed.webp",
-      "sourceInitials": "OF",
-      "sourceTags": [
-        "品牌",
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "yt_oufrog",
-          "name": "吹出好心琴 + Ou Frog",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@oufrog",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-88",
-      "publicId": "88",
-      "name": "藍波口琴教室",
-      "nameEn": "Bluebo Harmonica",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "教學工作室",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴教學/課程/學習資源",
-      "structuredSummary": "口琴教學/課程/學習資源 / 口琴 / 教學/課程來源",
-      "summary": "臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。",
-      "keywords": "藍波口琴教室 藍波口琴網 口琴 教學",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.blueboclass.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/happyharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@lamberharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-12T04:00:16+00:00",
-      "latestUpdateLocal": "2026-07-12 12:00",
-      "latestUpdateSource": "藍波口琴教室",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=40z0aqaTbz4",
-      "avatarUrl": "/assets/source-avatars/002a78116b9b09a6967c.webp",
-      "sourceInitials": "藍波",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "課程"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_happyharmonica",
-          "name": "藍波口琴教室",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/happyharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_lamberharmonica",
-          "name": "藍波口琴教室",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@lamberharmonica",
           "feedUrl": ""
         }
       ]
