@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-15T03:26:06+08:00",
+  "generatedAt": "2026-07-15T03:44:20+08:00",
   "timezone": "Asia/Taipei",
   "count": 5,
   "source": "/api/events.json",
@@ -14,7 +14,7 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 23,
+      "cached": 24,
       "errors": 0
     }
   },
