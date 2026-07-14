@@ -1523,6 +1523,61 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-222",
+      "publicId": "222",
+      "name": "Do Not Disturb Harmonica Ensemble",
+      "nameEn": "Do Not Disturb Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/公演/新生代團體",
+      "structuredSummary": "重奏/公演/新生代團體 / 半音階/低音/和弦/口琴重奏 / 演出團體",
+      "summary": "臺灣的半音階、低音、和弦與口琴重奏演出團體，活動脈絡包含重奏、公演與新生代團體。",
+      "keywords": "Do Not Disturb Harmonica Ensemble donotdisturbharmonicaensemble 口琴 重奏 THMF 臺灣口琴音樂節",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/donotdisturbharmonicaensemble/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-14T07:47:46+00:00",
+      "latestUpdateLocal": "2026-07-14 15:47",
+      "latestUpdateSource": "Do Not Disturb Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/p/Daw_UL_kxiZ/",
+      "avatarUrl": "/assets/source-avatars/22da01f14949bd3fc02b.webp",
+      "sourceInitials": "DND",
+      "sourceTags": [
+        "團體樂團",
+        "音樂節",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_donotdisturbharmonicaensemble",
+          "name": "Do Not Disturb Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "donotdisturbharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_donotdisturbharmonicaensemble",
+          "name": "Do Not Disturb Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "donotdisturbharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/donotdisturbharmonicaensemble/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-100",
       "publicId": "100",
       "name": "曹小歐",
@@ -14396,11 +14451,11 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 205,
+    "totalEntries": 206,
     "categories": {
       "其他來源": 2,
       "國際交流": 10,
-      "團體樂團": 43,
+      "團體樂團": 44,
       "場館平台": 6,
       "學校社團": 36,
       "教學器材": 14,
@@ -14425,7 +14480,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "瑞士": 1,
       "紐西蘭": 1,
       "美國": 7,
-      "臺灣": 92,
+      "臺灣": 93,
       "英國": 3,
       "荷蘭": 1,
       "西班牙": 2,
@@ -14435,14 +14490,14 @@ window.HARMONICA_OBSERVE_DATA = {
       "馬來西亞": 13
     },
     "watchSources": {
-      "totalSources": 600,
-      "rsshubSources": 326,
+      "totalSources": 602,
+      "rsshubSources": 328,
       "apifySources": 147,
       "facebookSources": 147,
       "youtubeSources": 127,
       "platforms": {
         "facebook": 147,
-        "instagram": 286,
+        "instagram": 288,
         "threads": 28,
         "x": 12,
         "youtube": 127
@@ -14450,8 +14505,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "types": {
         "facebook_page_posts": 147,
         "rss": 40,
-        "rsshub_instagram_profile": 143,
-        "rsshub_instagram_story": 143,
+        "rsshub_instagram_profile": 144,
+        "rsshub_instagram_story": 144,
         "youtube_ytdlp": 127
       }
     }
