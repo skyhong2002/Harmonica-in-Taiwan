@@ -335,10 +335,23 @@ def sync_one_calendar(service, metadata: dict[str, str]) -> dict[str, Any]:
     return result
 
 
+def selected_calendar_metadata(
+    rows: list[dict[str, str]], *, calendar_key: str = "", calendar_id: str = ""
+) -> list[dict[str, str]]:
+    selected = list(rows)
+    if calendar_key:
+        selected = [row for row in selected if row.get("calendar_key") == calendar_key]
+        if not selected:
+            raise RuntimeError(f"Unknown calendar key: {calendar_key}")
+    if calendar_id:
+        selected = [dict(selected[0], calendar_id=calendar_id)]
+    return selected
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--token", type=Path, default=Path(os.environ.get("HARMONICA_GOOGLE_TOKEN_JSON", DEFAULT_TOKEN_PATH)))
-    parser.add_argument("--calendar-id", default=os.environ.get("HARMONICA_PUBLIC_CALENDAR_ID", ""))
+    parser.add_argument("--calendar-id", default="")
     parser.add_argument("--calendar-key", default="")
     parser.add_argument("--required", action="store_true")
     args = parser.parse_args()
@@ -364,15 +377,11 @@ def main() -> int:
         print(status["message"])
         return 0
 
-    calendar_metadata_rows = load_calendar_metadata_rows()
-    if args.calendar_key:
-        calendar_metadata_rows = [
-            row for row in calendar_metadata_rows if row.get("calendar_key") == args.calendar_key
-        ]
-        if not calendar_metadata_rows:
-            raise RuntimeError(f"Unknown calendar key: {args.calendar_key}")
-    if args.calendar_id:
-        calendar_metadata_rows = [dict(calendar_metadata_rows[0], calendar_id=args.calendar_id)]
+    calendar_metadata_rows = selected_calendar_metadata(
+        load_calendar_metadata_rows(),
+        calendar_key=args.calendar_key,
+        calendar_id=args.calendar_id,
+    )
     try:
         from googleapiclient.discovery import build
     except ModuleNotFoundError:

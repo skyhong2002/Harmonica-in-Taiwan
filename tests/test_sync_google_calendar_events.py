@@ -37,6 +37,14 @@ class GoogleCalendarSyncTests(unittest.TestCase):
             {"taiwan_physical", "overseas_physical", "online"},
         )
         self.assertEqual(len({row["calendar_id"] for row in rows}), 3)
+        self.assertEqual(len(sync.selected_calendar_metadata(rows)), 3)
+        self.assertEqual(
+            [row["calendar_key"] for row in sync.selected_calendar_metadata(rows, calendar_key="online")],
+            ["online"],
+        )
+        overridden = sync.selected_calendar_metadata(rows, calendar_id="explicit@example.test")
+        self.assertEqual(len(overridden), 1)
+        self.assertEqual(overridden[0]["calendar_id"], "explicit@example.test")
 
 
 if __name__ == "__main__":
