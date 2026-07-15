@@ -53,10 +53,10 @@
 - `data/sources/harmonica-clubs-public.csv`：公開學生社團資料。
 - `data/sources/harmonica-score-publications.csv`：全國學生音樂比賽口琴指定曲與出版、購譜線索，含官方歷年指定曲目 XLS 與近年 PDF 補充線索。
 - `data/sources/harmonica-score-sources.csv`：指定曲以外的口琴譜源 metadata、購買／洽詢方式與公開佐證連結；不收錄譜檔或曲譜內容。
-- `data/sources/harmonica-public-calendars.csv`：公開 Google Calendar metadata，供首頁公開演出日曆整合使用。
+- `data/sources/harmonica-public-calendars.csv`：臺灣實體、國外實體與線上活動三個公開 Google Calendar 的 metadata。
 - `data/sources/harmonica-public-calendar-overrides.csv`：公開貼文抽取不足時的日曆事件人工校正；只記 metadata、公開佐證連結與活動資訊。
-- `scripts/build_public_calendar_events.py`：從公開活動貼文抽出保守的口琴演出日期 metadata，收錄國內線下活動與國內外線上活動，輸出 JSON、JS 與 ICS。
-- `scripts/sync_google_calendar_events.py`：用本機 `.env` / Hermes Google Workspace OAuth 設定同步事件到公開 Google Calendar。
+- `scripts/build_public_calendar_events.py`：使用 `gpt-5.4-mini` 與規則驗證，從公開貼文抽出活動日期、場地與時區，分流為臺灣實體、國外實體與線上活動 JSON/ICS。
+- `scripts/sync_google_calendar_events.py`：用本機 `.env` / Hermes Google Workspace OAuth 設定同步三類事件到各自的公開 Google Calendar。
 - `data/feeds/social_sources.json`：由 CSV 轉出的公開社群監看來源設定。
 - `data/feeds/social_feed_inbox.jsonl`：YouTube / Facebook 抓取工具正規化後的公開貼文 inbox。
 - `data/feeds/social_candidates.jsonl`：watchdog 篩選後的公開候選更新。
@@ -130,7 +130,9 @@ SEO 舊網址轉址由 `data/sources/source-url-aliases.csv` 維護。Pipeline �
 
 - `https://harmonica.observe.tw/feeds/updates.xml`：公開更新總河道。
 - `https://harmonica.observe.tw/feeds/events.xml`：公開口琴活動線索。
-- `https://harmonica.observe.tw/feeds/public-calendar.ics`：首頁公開活動日曆的可訂閱 ICS。
+- `https://harmonica.observe.tw/feeds/public-calendar.ics`：臺灣口琴實體活動的可訂閱 ICS。
+- `https://harmonica.observe.tw/feeds/overseas-calendar.ics`：國外口琴實體活動的可訂閱 ICS。
+- `https://harmonica.observe.tw/feeds/online-calendar.ics`：線上口琴活動的可訂閱 ICS。
 - `https://harmonica.observe.tw/feeds/posts-videos.xml`：口琴相關貼文與影片發布。
 - `https://harmonica.observe.tw/feeds/student-clubs.xml`：口琴學生社團動態。
 - `https://harmonica.observe.tw/feeds/opportunities.xml`：補助、徵件、甄選、比賽與報名資訊。
@@ -146,6 +148,8 @@ SEO 舊網址轉址由 `data/sources/source-url-aliases.csv` 維護。Pipeline �
 - `https://harmonica.observe.tw/api/catalog.json`
 - `https://harmonica.observe.tw/api/events.json`
 - `https://harmonica.observe.tw/api/public-calendar-events.json`
+- `https://harmonica.observe.tw/api/overseas-calendar-events.json`
+- `https://harmonica.observe.tw/api/online-calendar-events.json`
 - `https://harmonica.observe.tw/api/public-calendar-sync.json`
 - `https://harmonica.observe.tw/api/posts-videos.json`
 - `https://harmonica.observe.tw/api/student-clubs.json`

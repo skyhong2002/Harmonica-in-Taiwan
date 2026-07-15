@@ -41,20 +41,27 @@ def load_dotenv(path: Path) -> None:
             os.environ[key] = value
 
 
-def load_calendar_metadata() -> dict[str, str]:
+def load_calendar_metadata_rows() -> list[dict[str, str]]:
+    rows: list[dict[str, str]] = []
     with CALENDAR_CSV.open(newline="", encoding="utf-8") as handle:
         for row in csv.DictReader(handle):
             if (row.get("calendar_id") or "").strip():
-                return {key: (value or "").strip() for key, value in row.items()}
-    raise RuntimeError(f"No calendar_id found in {CALENDAR_CSV}")
+                rows.append({key: (value or "").strip() for key, value in row.items()})
+    if not rows:
+        raise RuntimeError(f"No calendar_id found in {CALENDAR_CSV}")
+    return rows
+
+
+def load_calendar_metadata() -> dict[str, str]:
+    return load_calendar_metadata_rows()[0]
 
 
 def load_calendar_id() -> str:
     return load_calendar_metadata()["calendar_id"]
 
 
-def load_events() -> list[dict[str, Any]]:
-    payload = json.loads(EVENTS_PATH.read_text(encoding="utf-8"))
+def load_events(path: Path = EVENTS_PATH) -> list[dict[str, Any]]:
+    payload = json.loads(path.read_text(encoding="utf-8"))
     events = payload.get("events", [])
     if not isinstance(events, list):
         return []
@@ -73,6 +80,7 @@ def calendar_description(event: dict[str, Any]) -> str:
 
 
 def event_resource(event: dict[str, Any]) -> dict[str, Any]:
+    timezone = str(event.get("timezone") or "Asia/Taipei").strip()
     body: dict[str, Any] = {
         "summary": event.get("eventName") or event.get("title") or "公開口琴活動",
         "location": event.get("location") or "",
@@ -89,8 +97,8 @@ def event_resource(event: dict[str, Any]) -> dict[str, Any]:
         body["start"] = {"date": str(event.get("start"))[:10]}
         body["end"] = {"date": str(event.get("end"))[:10]}
     else:
-        body["start"] = {"dateTime": event.get("start"), "timeZone": "Asia/Taipei"}
-        body["end"] = {"dateTime": event.get("end"), "timeZone": "Asia/Taipei"}
+        body["start"] = {"dateTime": event.get("start"), "timeZone": timezone}
+        body["end"] = {"dateTime": event.get("end"), "timeZone": timezone}
     if event.get("evidenceUrl"):
         body["attachments"] = []
     return body
@@ -279,17 +287,66 @@ def write_status(payload: dict[str, Any]) -> None:
     STATUS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
 
 
+def metadata_events_path(metadata: dict[str, str]) -> Path:
+    configured = metadata.get("events_path") or str(EVENTS_PATH.relative_to(PROJECT_ROOT))
+    path = Path(configured)
+    return path if path.is_absolute() else PROJECT_ROOT / path
+
+
+def sync_one_calendar(service, metadata: dict[str, str]) -> dict[str, Any]:
+    calendar_id = metadata["calendar_id"]
+    source_events = load_events(metadata_events_path(metadata))
+    sync_calendar_metadata(service, calendar_id, metadata)
+    existing = existing_managed_events(service, calendar_id)
+    wanted_ids = {str(event.get("id") or "") for event in source_events if event.get("id")}
+    result: dict[str, Any] = {
+        "calendarKey": metadata.get("calendar_key") or "",
+        "eventMode": metadata.get("event_mode") or "",
+        "calendarId": calendar_id,
+        "calendarName": metadata.get("calendar_name") or "",
+        "eventsPath": str(metadata_events_path(metadata).relative_to(PROJECT_ROOT)),
+        "metadataUpdated": True,
+        "created": 0,
+        "updated": 0,
+        "deleted": 0,
+        "kept": len(wanted_ids),
+        "status": "ok",
+    }
+    for event in source_events:
+        event_id = str(event.get("id") or "")
+        if not event_id:
+            continue
+        body = event_resource(event)
+        if event_id in existing:
+            service.events().patch(
+                calendarId=calendar_id,
+                eventId=existing[event_id]["id"],
+                body=body,
+            ).execute()
+            result["updated"] += 1
+        else:
+            service.events().insert(calendarId=calendar_id, body=body).execute()
+            result["created"] += 1
+
+    for event_id, item in existing.items():
+        if event_id not in wanted_ids:
+            service.events().delete(calendarId=calendar_id, eventId=item["id"]).execute()
+            result["deleted"] += 1
+    return result
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--token", type=Path, default=Path(os.environ.get("HARMONICA_GOOGLE_TOKEN_JSON", DEFAULT_TOKEN_PATH)))
     parser.add_argument("--calendar-id", default=os.environ.get("HARMONICA_PUBLIC_CALENDAR_ID", ""))
+    parser.add_argument("--calendar-key", default="")
     parser.add_argument("--required", action="store_true")
     args = parser.parse_args()
     load_dotenv(PROJECT_ROOT / ".env")
 
     token_path = args.token.expanduser()
     status: dict[str, Any] = {
-        "version": 1,
+        "version": 2,
         "generatedAt": dt.datetime.now(dt.timezone.utc).isoformat(),
         "status": "skipped",
         "calendarId": args.calendar_id or "",
@@ -307,10 +364,15 @@ def main() -> int:
         print(status["message"])
         return 0
 
-    calendar_metadata = load_calendar_metadata()
-    calendar_id = args.calendar_id or calendar_metadata["calendar_id"]
-    status["calendarId"] = calendar_id
-    status["calendarName"] = calendar_metadata.get("calendar_name") or ""
+    calendar_metadata_rows = load_calendar_metadata_rows()
+    if args.calendar_key:
+        calendar_metadata_rows = [
+            row for row in calendar_metadata_rows if row.get("calendar_key") == args.calendar_key
+        ]
+        if not calendar_metadata_rows:
+            raise RuntimeError(f"Unknown calendar key: {args.calendar_key}")
+    if args.calendar_id:
+        calendar_metadata_rows = [dict(calendar_metadata_rows[0], calendar_id=args.calendar_id)]
     try:
         from googleapiclient.discovery import build
     except ModuleNotFoundError:
@@ -321,38 +383,41 @@ def main() -> int:
         creds = load_credentials(token_path)
         service = build("calendar", "v3", credentials=creds, cache_discovery=False)
         status["client"] = "google-api-python-client"
-    source_events = load_events()
-    sync_calendar_metadata(service, calendar_id, calendar_metadata)
-    status["metadataUpdated"] = True
-    existing = existing_managed_events(service, calendar_id)
-    wanted_ids = {str(event.get("id") or "") for event in source_events if event.get("id")}
-
-    for event in source_events:
-        event_id = str(event.get("id") or "")
-        if not event_id:
-            continue
-        body = event_resource(event)
-        if event_id in existing:
-            service.events().patch(calendarId=calendar_id, eventId=existing[event_id]["id"], body=body).execute()
-            status["updated"] += 1
-        else:
-            service.events().insert(calendarId=calendar_id, body=body).execute()
-            status["created"] += 1
-
-    for event_id, item in existing.items():
-        if event_id not in wanted_ids:
-            service.events().delete(calendarId=calendar_id, eventId=item["id"]).execute()
-            status["deleted"] += 1
-
-    status["kept"] = len(wanted_ids)
-    status["status"] = "ok"
-    status["message"] = "Google Calendar sync completed."
+    results: list[dict[str, Any]] = []
+    for metadata in calendar_metadata_rows:
+        try:
+            results.append(sync_one_calendar(service, metadata))
+        except Exception as exc:
+            results.append(
+                {
+                    "calendarKey": metadata.get("calendar_key") or "",
+                    "eventMode": metadata.get("event_mode") or "",
+                    "calendarId": metadata.get("calendar_id") or "",
+                    "calendarName": metadata.get("calendar_name") or "",
+                    "status": "error",
+                    "error": str(exc),
+                    "created": 0,
+                    "updated": 0,
+                    "deleted": 0,
+                    "kept": 0,
+                }
+            )
+    for field in ("created", "updated", "deleted", "kept"):
+        status[field] = sum(int(result.get(field) or 0) for result in results)
+    failures = [result for result in results if result.get("status") != "ok"]
+    status["calendars"] = results
+    status["status"] = "degraded" if failures else "ok"
+    status["message"] = (
+        f"Google Calendar sync completed for {len(results) - len(failures)}/{len(results)} calendars."
+    )
     write_status(status)
     print(
         "Google Calendar sync completed: "
-        f"created={status['created']} updated={status['updated']} deleted={status['deleted']} kept={status['kept']}"
+        f"calendars={len(results) - len(failures)}/{len(results)} "
+        f"created={status['created']} updated={status['updated']} "
+        f"deleted={status['deleted']} kept={status['kept']}"
     )
-    return 0
+    return 1 if failures and args.required else 0
 
 
 if __name__ == "__main__":

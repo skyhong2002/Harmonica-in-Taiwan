@@ -1,4 +1,5 @@
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -85,6 +86,99 @@ class PublicCalendarExtractionTests(unittest.TestCase):
         self.assertTrue(is_taiwan)
         self.assertFalse(calendar.is_online_event_text("免費參與，請先線上報名"))
         self.assertTrue(calendar.is_online_event_text("線上講座，請先線上報名"))
+
+    def test_llm_review_classifies_all_three_calendar_modes(self):
+        overseas = calendar.normalize_llm_calendar_review(
+            {
+                "include": True,
+                "eventMode": "overseas_physical",
+                "candidateDateMatches": True,
+                "country": "日本",
+                "timezone": "Asia/Tokyo",
+                "eventName": "東京口琴音樂會",
+                "venue": "Tokyo Concert Hall",
+                "city": "東京",
+                "confidence": 0.96,
+            }
+        )
+        online = calendar.normalize_llm_calendar_review(
+            {
+                "include": True,
+                "eventMode": "online",
+                "candidateDateMatches": True,
+                "country": "線上",
+                "timezone": "Europe/Berlin",
+                "eventName": "Online Harmonica Workshop",
+                "venue": "YouTube Live",
+                "confidence": 0.93,
+            }
+        )
+        taiwan = calendar.normalize_llm_calendar_review(
+            {
+                "include": True,
+                "eventMode": "taiwan_physical",
+                "candidateDateMatches": True,
+                "country": "臺灣",
+                "timezone": "UTC",
+                "eventName": "新竹口琴音樂會",
+                "venue": "新竹市文化局演藝廳",
+                "details": "採線上報名",
+                "confidence": 0.98,
+            }
+        )
+        self.assertEqual(overseas["eventMode"], calendar.OVERSEAS_PHYSICAL)
+        self.assertEqual(overseas["timezone"], "Asia/Tokyo")
+        self.assertEqual(online["eventMode"], calendar.ONLINE)
+        self.assertEqual(online["timezone"], "Europe/Berlin")
+        self.assertEqual(taiwan["eventMode"], calendar.TAIWAN_PHYSICAL)
+        self.assertEqual(taiwan["timezone"], "Asia/Taipei")
+        self.assertEqual(
+            calendar.classify_event_mode(
+                "臺灣",
+                "大阪 心斎橋PARCO 14F SPACE14",
+                calendar.TAIWAN_PHYSICAL,
+            ),
+            calendar.OVERSEAS_PHYSICAL,
+        )
+        self.assertEqual(calendar.infer_country("東京 田園調布"), "日本")
+        self.assertEqual(calendar.infer_country("中国江阴"), "中國")
+
+        mismatched = calendar.normalize_llm_calendar_review(
+            {
+                "include": True,
+                "eventMode": "overseas_physical",
+                "candidateDateMatches": False,
+                "country": "新加坡",
+                "timezone": "Asia/Singapore",
+                "eventName": "Wonderful Sunday",
+                "venue": "Singapore HAS Clubhouse",
+                "confidence": 0.99,
+            }
+        )
+        self.assertFalse(mismatched["include"])
+
+    def test_overseas_event_keeps_local_timezone_in_ics(self):
+        event = {
+            "id": "tokyo-event",
+            "title": "東京口琴音樂會",
+            "start": "2026-08-02T19:00:00+09:00",
+            "end": "2026-08-02T21:00:00+09:00",
+            "allDay": False,
+            "timezone": "Asia/Tokyo",
+            "location": "Tokyo Concert Hall",
+            "evidenceUrl": "https://example.test/tokyo",
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "overseas.ics"
+            calendar.write_ics(
+                [event],
+                "2026-07-15T12:00:00+08:00",
+                path=path,
+                calendar_name="國外口琴實體活動",
+            )
+            text = path.read_text(encoding="utf-8")
+        self.assertIn("DTSTART;TZID=Asia/Tokyo:20260802T190000", text)
+        self.assertIn("X-WR-CALNAME:國外口琴實體活動", text)
 
 
 if __name__ == "__main__":

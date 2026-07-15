@@ -13,6 +13,7 @@ import os
 import sys
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 import social_feed_watchdog as watchdog
 
@@ -27,10 +28,60 @@ OVERRIDES_PATH = PROJECT_ROOT / "data" / "sources" / "harmonica-public-calendar-
 JSON_PATH = API_DIR / "public-calendar-events.json"
 JS_PATH = DATA_DIR / "public-calendar-events.js"
 ICS_PATH = FEEDS_DIR / "public-calendar.ics"
+OVERSEAS_JSON_PATH = API_DIR / "overseas-calendar-events.json"
+ONLINE_JSON_PATH = API_DIR / "online-calendar-events.json"
+OVERSEAS_ICS_PATH = FEEDS_DIR / "overseas-calendar.ics"
+ONLINE_ICS_PATH = FEEDS_DIR / "online-calendar.ics"
 TIMEZONE = "Asia/Taipei"
 TAIWAN_TZ = dt.timezone(dt.timedelta(hours=8))
 DEFAULT_LLM_CACHE = PROJECT_ROOT / "state" / "public_calendar_llm_events.json"
-CALENDAR_REVIEW_POLICY_VERSION = 4
+CALENDAR_REVIEW_POLICY_VERSION = 6
+TAIWAN_PHYSICAL = "taiwan_physical"
+OVERSEAS_PHYSICAL = "overseas_physical"
+ONLINE = "online"
+EVENT_MODES = {TAIWAN_PHYSICAL, OVERSEAS_PHYSICAL, ONLINE}
+COUNTRY_TIMEZONES = {
+    "台灣": "Asia/Taipei",
+    "臺灣": "Asia/Taipei",
+    "Taiwan": "Asia/Taipei",
+    "日本": "Asia/Tokyo",
+    "Japan": "Asia/Tokyo",
+    "香港": "Asia/Hong_Kong",
+    "Hong Kong": "Asia/Hong_Kong",
+    "新加坡": "Asia/Singapore",
+    "Singapore": "Asia/Singapore",
+    "馬來西亞": "Asia/Kuala_Lumpur",
+    "Malaysia": "Asia/Kuala_Lumpur",
+    "韓國": "Asia/Seoul",
+    "南韓": "Asia/Seoul",
+    "South Korea": "Asia/Seoul",
+    "中國": "Asia/Shanghai",
+    "China": "Asia/Shanghai",
+}
+PLACE_COUNTRIES = {
+    "日本": "日本",
+    "東京": "日本",
+    "東京都": "日本",
+    "大阪": "日本",
+    "和歌山": "日本",
+    "名古屋": "日本",
+    "Japan": "日本",
+    "Tokyo": "日本",
+    "Osaka": "日本",
+    "香港": "香港",
+    "Hong Kong": "香港",
+    "新加坡": "新加坡",
+    "Singapore": "新加坡",
+    "馬來西亞": "馬來西亞",
+    "Malaysia": "馬來西亞",
+    "韓國": "韓國",
+    "South Korea": "韓國",
+    "中國": "中國",
+    "中国": "中國",
+    "江陰": "中國",
+    "江阴": "中國",
+    "China": "中國",
+}
 
 HARMONICA_TERMS = [
     "口琴",
@@ -192,6 +243,11 @@ def load_overrides(path: Path = OVERRIDES_PATH) -> dict[str, dict[str, Any]]:
             event_name = (row.get("event_name") or "").strip()
             venue = (row.get("venue") or "").strip()
             city = (row.get("city") or "").strip()
+            country = (row.get("country") or "臺灣").strip()
+            mode = (row.get("event_mode") or "").strip() or classify_event_mode(
+                country, f"{event_name} {venue} {city}"
+            )
+            timezone = valid_timezone(row.get("timezone")) or infer_timezone(country)
             if not start or not event_name or not venue:
                 continue
             overrides[evidence_url] = {
@@ -204,11 +260,16 @@ def load_overrides(path: Path = OVERRIDES_PATH) -> dict[str, dict[str, Any]]:
                 "city": city,
                 "location": venue if not city or city in venue else f"{city} {venue}",
                 "details": (row.get("details") or "").strip(),
+                "calendarType": mode,
+                "timezone": timezone,
                 "evidenceUrl": evidence_url,
                 "confidence": 1.0,
                 "calendarReview": {
                     "include": True,
-                    "country": "臺灣",
+                    "country": country,
+                    "eventMode": mode,
+                    "timezone": timezone,
+                    "candidateDateMatches": True,
                     "eventName": event_name,
                     "venue": venue,
                     "city": city,
@@ -230,11 +291,64 @@ def is_online_event_text(text: str) -> bool:
     return bool(ONLINE_EVENT_RE.search(event_text)) and not bool(NON_LIVE_ONLINE_RE.search(event_text))
 
 
+def valid_timezone(value: Any) -> str:
+    timezone = str(value or "").strip()
+    if not timezone:
+        return ""
+    try:
+        ZoneInfo(timezone)
+    except ZoneInfoNotFoundError:
+        return ""
+    return timezone
+
+
+def infer_timezone(country: str) -> str:
+    return COUNTRY_TIMEZONES.get(str(country or "").strip(), "")
+
+
+def infer_country(text: str) -> str:
+    for marker, country in PLACE_COUNTRIES.items():
+        if marker.casefold() in text.casefold():
+            return country
+    return ""
+
+
+def classify_event_mode(country: str, text: str, requested_mode: str = "") -> str:
+    country = str(country or "").strip()
+    requested_mode = str(requested_mode or "").strip()
+    has_taiwan_place = bool(TAIWAN_PLACE_RE.search(text))
+    has_overseas_place = bool(OVERSEAS_PLACE_RE.search(text))
+    is_taiwan = country in {"台灣", "臺灣", "Taiwan"} or has_taiwan_place
+    is_online = country == "線上" or is_online_event_text(text)
+    is_overseas = bool(country and country not in {"台灣", "臺灣", "Taiwan", "線上"}) or bool(
+        has_overseas_place
+    )
+    if requested_mode == ONLINE and is_online:
+        return ONLINE
+    if country == "線上" and is_online:
+        return ONLINE
+    if requested_mode == OVERSEAS_PHYSICAL and is_overseas and not is_taiwan:
+        return OVERSEAS_PHYSICAL
+    if requested_mode == TAIWAN_PHYSICAL and is_taiwan and not is_overseas:
+        return TAIWAN_PHYSICAL
+    if has_overseas_place and not has_taiwan_place:
+        return OVERSEAS_PHYSICAL
+    if country and country not in {"台灣", "臺灣", "Taiwan", "線上"}:
+        return OVERSEAS_PHYSICAL
+    if country in {"台灣", "臺灣", "Taiwan"}:
+        return TAIWAN_PHYSICAL
+    if is_overseas:
+        return OVERSEAS_PHYSICAL
+    if is_taiwan:
+        return TAIWAN_PHYSICAL
+    if is_online:
+        return ONLINE
+    return ""
+
+
 def review_event_modes(country: str, text: str) -> tuple[bool, bool]:
-    explicitly_taiwan = country in {"台灣", "臺灣", "Taiwan"}
-    is_online = country == "線上" or (not explicitly_taiwan and is_online_event_text(text))
-    is_taiwan = explicitly_taiwan or bool(TAIWAN_PLACE_RE.search(text))
-    return is_online, is_taiwan
+    mode = classify_event_mode(country, text)
+    return mode == ONLINE, mode == TAIWAN_PHYSICAL
 
 
 def nearby_context(text: str, start: int, end: int, radius: int = 60) -> str:
@@ -374,28 +488,34 @@ def normalize_llm_calendar_review(value: dict[str, Any]) -> dict[str, Any]:
     city = str(value.get("city") or "").strip()
     details = str(value.get("details") or "").strip()
     reason = str(value.get("reason") or "").strip()
+    requested_mode = str(value.get("eventMode") or "").strip()
+    candidate_date_matches = value.get("candidateDateMatches") is True
     confidence = value.get("confidence")
     try:
         confidence_value = max(0.0, min(1.0, float(confidence)))
     except (TypeError, ValueError):
         confidence_value = 0.0
     place_text = f"{venue} {city} {details} {reason}"
-    review_text = f"{event_name} {place_text}"
-    is_online = is_online_event_text(review_text)
-    has_overseas_place = bool(OVERSEAS_PLACE_RE.search(place_text))
-    is_taiwan = not has_overseas_place and (
-        country in {"台灣", "臺灣", "Taiwan"} or bool(TAIWAN_PLACE_RE.search(f"{venue} {city} {details}"))
-    )
-    include = include and (is_taiwan or is_online)
+    mode = classify_event_mode(country, f"{event_name} {place_text}", requested_mode)
+    timezone = valid_timezone(value.get("timezone")) or infer_timezone(country)
+    if mode == TAIWAN_PHYSICAL:
+        country = "臺灣"
+        timezone = TIMEZONE
+    elif mode == ONLINE:
+        country = "線上"
+    include = include and bool(mode) and candidate_date_matches
     if confidence_value < 0.5:
         include = False
-    if include and (not event_name or (not venue and not is_online)):
+    if include and (not event_name or (not venue and mode != ONLINE)):
         include = False
     return {
         "include": include,
-        "country": "線上" if is_online and not country else ("臺灣" if is_taiwan else country),
+        "country": country,
+        "eventMode": mode,
+        "timezone": timezone,
+        "candidateDateMatches": candidate_date_matches,
         "eventName": event_name,
-        "venue": venue or ("線上直播" if is_online else ""),
+        "venue": venue or ("線上直播" if mode == ONLINE else ""),
         "city": city,
         "details": details,
         "reason": reason,
@@ -420,8 +540,9 @@ def llm_calendar_prompt(item: dict[str, Any], start: str, end: str, context: str
             "content": (
                 "你是臺灣口琴觀測站的公開活動日曆審核器。"
                 "只根據公開貼文文字判斷，收錄公開口琴活動；"
-                "收錄範圍是：實際舉辦地點在台灣的線下活動，以及國內外有明確時間的線上直播/線上講座/線上音樂會。"
-                "排除國外線下活動、已發生的回顧影片、一般貼文、非口琴活動、沒有明確活動時間的隨選影片。"
+                "收錄範圍是：臺灣實體活動、臺灣以外的國外實體活動，以及國內外有明確時間的線上直播/線上講座/線上音樂會。"
+                "三種 eventMode 必須互斥；有直播或線上報名資訊的實體活動仍依實際舉辦地點分類。"
+                "排除已發生的回顧影片、一般貼文、非口琴活動、沒有明確活動時間的隨選影片。"
                 "必須只判斷 candidateStart、candidateEnd 與 dateContext 對應的候選；"
                 "如果全文其他段落有不同日期的另一個活動，請忽略它，不要拿來補這個候選。"
                 "請只回傳 JSON，不要 Markdown。"
@@ -434,7 +555,10 @@ def llm_calendar_prompt(item: dict[str, Any], start: str, end: str, context: str
                 "JSON schema:\n"
                 "{\n"
                 '  "include": true/false,\n'
+                '  "eventMode": "taiwan_physical、overseas_physical 或 online",\n'
+                '  "candidateDateMatches": "只有 eventName 與 details 描述的活動日期確實等於 candidateStart 候選日期時才是 true",\n'
                 '  "country": "臺灣、其他國家/地區，或線上",\n'
+                '  "timezone": "活動公告時間所使用的 IANA timezone，例如 Asia/Taipei、Asia/Tokyo；無法可靠判斷則空字串",\n'
                 '  "eventName": "活動名稱，不要放主辦帳號或貼文內文摘要",\n'
                 '  "venue": "活動地點/場館名稱；純線上活動可填線上直播或平台名稱；不要放整段內文",\n'
                 '  "city": "縣市或城市；純線上可空白",\n'
@@ -442,6 +566,8 @@ def llm_calendar_prompt(item: dict[str, Any], start: str, end: str, context: str
                 '  "confidence": 0.0,\n'
                 '  "reason": "簡短判斷理由"\n'
                 "}\n\n"
+                "若貼文同時提到其他日期的活動、旅程或比賽，不能把另一個活動名稱套到 candidateStart；"
+                "日期不一致時 include 與 candidateDateMatches 都必須是 false。\n"
                 f"候選資料：{json.dumps(payload, ensure_ascii=False)}"
             ),
         },
@@ -547,17 +673,24 @@ def item_key(item: dict[str, Any], start: dt.date) -> str:
 
 def fallback_calendar_review(item: dict[str, Any], title: str, location: str, text: str) -> dict[str, Any] | None:
     combined = f"{title} {location} {text}"
-    is_online = is_online_event_text(combined)
-    has_taiwan_place = bool(TAIWAN_PLACE_RE.search(f"{title} {location}"))
-    if not location and not is_online:
+    country = infer_country(f"{title} {location}")
+    if not country and TAIWAN_PLACE_RE.search(f"{title} {location}"):
+        country = "臺灣"
+    requested_mode = ONLINE if not location and is_online_event_text(combined) else ""
+    mode = classify_event_mode(country, combined, requested_mode)
+    if not mode:
         return None
-    if not has_taiwan_place and not is_online:
+    if not location and mode != ONLINE:
         return None
+    timezone = TIMEZONE if mode == TAIWAN_PHYSICAL else infer_timezone(country)
     return {
         "include": True,
-        "country": "線上" if is_online and not has_taiwan_place else "臺灣",
+        "country": "線上" if mode == ONLINE else country,
+        "eventMode": mode,
+        "timezone": timezone,
+        "candidateDateMatches": True,
         "eventName": title,
-        "venue": location or "線上直播",
+        "venue": location or ("線上直播" if mode == ONLINE else ""),
         "city": "",
         "details": "",
         "reason": "fallback public harmonica event match",
@@ -728,18 +861,46 @@ def extract_events(
             city = str(review.get("city") or "").strip()
             details = str(review.get("details") or "").strip()
             country = str(review.get("country") or "").strip()
-            is_review_online, is_review_taiwan = review_event_modes(
+            mode = classify_event_mode(
                 country,
                 f"{event_name} {venue} {city} {details}",
+                str(review.get("eventMode") or ""),
             )
-            if is_review_online and (not time_text or not is_online_event_text(context)):
+            if not mode:
                 continue
-            if not is_review_taiwan and not is_review_online:
+            if mode == ONLINE and (not time_text or not is_online_event_text(context)):
                 continue
-            if is_review_taiwan and not is_review_online and GENERIC_ONLINE_VENUE_RE.fullmatch(venue):
+            if mode == TAIWAN_PHYSICAL and GENERIC_ONLINE_VENUE_RE.fullmatch(venue):
                 venue = clean_location(location)
                 if not venue:
                     continue
+            timezone = valid_timezone(review.get("timezone")) or infer_timezone(country)
+            if mode == TAIWAN_PHYSICAL:
+                country = "臺灣"
+                timezone = TIMEZONE
+            elif mode == OVERSEAS_PHYSICAL:
+                location_country = infer_country(f"{venue} {city}") or infer_country(details)
+                if location_country:
+                    country = location_country
+                    timezone = infer_timezone(location_country) or timezone
+            elif mode == ONLINE:
+                country = "線上"
+            if time_text and not timezone:
+                continue
+            timezone = timezone or TIMEZONE
+            event_zone = ZoneInfo(timezone)
+            start = start_date.isoformat()
+            end = (end_date + dt.timedelta(days=1)).isoformat()
+            if time_text:
+                start_dt = dt.datetime.combine(start_date, dt.time.fromisoformat(time_text), event_zone)
+                end_dt = start_dt + dt.timedelta(hours=2)
+                if end_date > start_date:
+                    end_dt = dt.datetime.combine(end_date, dt.time(23, 59), event_zone)
+                start = start_dt.isoformat()
+                end = end_dt.isoformat()
+            review["country"] = country
+            review["eventMode"] = mode
+            review["timezone"] = timezone
             display_location = venue if not city or city in venue else f"{city} {venue}"
             events.append(
                 {
@@ -751,6 +912,8 @@ def extract_events(
                     "start": start,
                     "end": end,
                     "allDay": not bool(time_text),
+                    "calendarType": mode,
+                    "timezone": timezone,
                     "location": display_location,
                     "venue": venue,
                     "city": city,
@@ -811,11 +974,11 @@ def fold_ics_line(line: str) -> str:
     return "\r\n".join(parts)
 
 
-def ics_datetime(value: str, *, all_day: bool, is_end: bool = False) -> str:
+def ics_datetime(value: str, *, all_day: bool, timezone: str = TIMEZONE) -> str:
     if all_day:
         return value.replace("-", "")
     parsed = dt.datetime.fromisoformat(value)
-    return parsed.astimezone(TAIWAN_TZ).strftime("%Y%m%dT%H%M%S")
+    return parsed.astimezone(ZoneInfo(timezone)).strftime("%Y%m%dT%H%M%S")
 
 
 def calendar_description(event: dict[str, Any]) -> str:
@@ -829,14 +992,20 @@ def calendar_description(event: dict[str, Any]) -> str:
     )
 
 
-def write_ics(events: list[dict[str, Any]], generated_at: str) -> None:
+def write_ics(
+    events: list[dict[str, Any]],
+    generated_at: str,
+    *,
+    path: Path = ICS_PATH,
+    calendar_name: str = "臺灣口琴實體活動",
+) -> None:
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
         "PRODID:-//Harmonica Observe Taiwan//Public Calendar//ZH-TW",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
-        f"X-WR-CALNAME:{escape_ics('口琴公開活動')}",
+        f"X-WR-CALNAME:{escape_ics(calendar_name)}",
         f"X-WR-TIMEZONE:{TIMEZONE}",
     ]
     stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
@@ -848,8 +1017,15 @@ def write_ics(events: list[dict[str, Any]], generated_at: str) -> None:
             lines.append(f"DTSTART;VALUE=DATE:{ics_datetime(event['start'], all_day=True)}")
             lines.append(f"DTEND;VALUE=DATE:{ics_datetime(event['end'], all_day=True)}")
         else:
-            lines.append(f"DTSTART;TZID={TIMEZONE}:{ics_datetime(event['start'], all_day=False)}")
-            lines.append(f"DTEND;TZID={TIMEZONE}:{ics_datetime(event['end'], all_day=False)}")
+            event_timezone = valid_timezone(event.get("timezone")) or TIMEZONE
+            lines.append(
+                f"DTSTART;TZID={event_timezone}:"
+                f"{ics_datetime(event['start'], all_day=False, timezone=event_timezone)}"
+            )
+            lines.append(
+                f"DTEND;TZID={event_timezone}:"
+                f"{ics_datetime(event['end'], all_day=False, timezone=event_timezone)}"
+            )
         lines.append(f"SUMMARY:{escape_ics(event['title'])}")
         if event.get("location"):
             lines.append(f"LOCATION:{escape_ics(event['location'])}")
@@ -858,8 +1034,34 @@ def write_ics(events: list[dict[str, Any]], generated_at: str) -> None:
             lines.append(f"URL:{escape_ics(event['evidenceUrl'])}")
         lines.append("END:VEVENT")
     lines.append("END:VCALENDAR")
-    ICS_PATH.parent.mkdir(parents=True, exist_ok=True)
-    ICS_PATH.write_text("\r\n".join(fold_ics_line(line) for line in lines) + "\r\n", encoding="utf-8")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text("\r\n".join(fold_ics_line(line) for line in lines) + "\r\n", encoding="utf-8")
+
+
+def calendar_payload(
+    events: list[dict[str, Any]],
+    *,
+    mode: str,
+    generated_at: str,
+    ics_path: str,
+    criteria: str,
+    overrides: int,
+    llm: dict[str, Any],
+) -> dict[str, Any]:
+    return {
+        "version": 2,
+        "generatedAt": generated_at,
+        "timezone": TIMEZONE,
+        "calendarType": mode,
+        "count": len(events),
+        "source": "/api/events.json",
+        "ics": ics_path,
+        "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
+        "criteria": criteria,
+        "manualOverrides": overrides,
+        "llm": llm,
+        "events": events,
+    }
 
 
 def main() -> int:
@@ -895,33 +1097,74 @@ def main() -> int:
     )
     if llm_token:
         save_json(args.llm_cache, llm_cache)
-    output = {
-        "version": 1,
-        "generatedAt": generated_at,
-        "timezone": TIMEZONE,
-        "count": len(events),
-        "source": "/api/events.json",
-        "ics": "/feeds/public-calendar.ics",
-        "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
-        "criteria": "收錄實際舉辦地點在台灣的線下公開口琴活動，以及國內外有明確時間的線上直播/線上講座/線上音樂會；不收國外線下活動。",
-        "manualOverrides": len(overrides),
-        "llm": {
-            "enabled": bool(llm_token),
-            "tokenSource": llm_token_source,
-            "model": args.llm_model if llm_token else "",
-            "stats": llm_cache.get("stats") or {},
-        },
-        "events": events,
+    llm_metadata = {
+        "enabled": bool(llm_token),
+        "tokenSource": llm_token_source,
+        "model": args.llm_model if llm_token else "",
+        "stats": llm_cache.get("stats") or {},
     }
-    JSON_PATH.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    events_by_mode = {
+        mode: [event for event in events if event.get("calendarType") == mode]
+        for mode in EVENT_MODES
+    }
+    output = calendar_payload(
+        events_by_mode[TAIWAN_PHYSICAL],
+        mode=TAIWAN_PHYSICAL,
+        generated_at=generated_at,
+        ics_path="/feeds/public-calendar.ics",
+        criteria="實際舉辦地點在臺灣的公開口琴實體活動。",
+        overrides=len(overrides),
+        llm=llm_metadata,
+    )
+    overseas_output = calendar_payload(
+        events_by_mode[OVERSEAS_PHYSICAL],
+        mode=OVERSEAS_PHYSICAL,
+        generated_at=generated_at,
+        ics_path="/feeds/overseas-calendar.ics",
+        criteria="實際舉辦地點在臺灣以外的公開口琴實體活動。",
+        overrides=len(overrides),
+        llm=llm_metadata,
+    )
+    online_output = calendar_payload(
+        events_by_mode[ONLINE],
+        mode=ONLINE,
+        generated_at=generated_at,
+        ics_path="/feeds/online-calendar.ics",
+        criteria="國內外有明確日期、時間與直播或線上參與方式的公開口琴活動。",
+        overrides=len(overrides),
+        llm=llm_metadata,
+    )
+    for path, payload in [
+        (JSON_PATH, output),
+        (OVERSEAS_JSON_PATH, overseas_output),
+        (ONLINE_JSON_PATH, online_output),
+    ]:
+        path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     JS_PATH.write_text(
         "window.publicCalendarEvents = "
         + json.dumps(output, ensure_ascii=False, indent=2)
         + ";\n",
         encoding="utf-8",
     )
-    write_ics(events, generated_at)
-    print(f"Built {len(events)} public calendar events.")
+    write_ics(events_by_mode[TAIWAN_PHYSICAL], generated_at)
+    write_ics(
+        events_by_mode[OVERSEAS_PHYSICAL],
+        generated_at,
+        path=OVERSEAS_ICS_PATH,
+        calendar_name="國外口琴實體活動",
+    )
+    write_ics(
+        events_by_mode[ONLINE],
+        generated_at,
+        path=ONLINE_ICS_PATH,
+        calendar_name="線上口琴活動",
+    )
+    print(
+        "Built public calendar events: "
+        f"taiwan={len(events_by_mode[TAIWAN_PHYSICAL])} "
+        f"overseas={len(events_by_mode[OVERSEAS_PHYSICAL])} "
+        f"online={len(events_by_mode[ONLINE])}."
+    )
     return 0
 
 

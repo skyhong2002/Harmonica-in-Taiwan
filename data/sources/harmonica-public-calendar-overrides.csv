@@ -1,5 +1,5 @@
-evidence_url,event_name,start,end,all_day,venue,city,details
-https://www.facebook.com/twharmonica/posts/pfbid07CLAcEbSrP9wrHocyXC7ZaUS2ERQAN75Sh3fPjM835wmjAokvbtWrRP7Wkh5mdGal,口琴入門推廣講座,2026-07-11T14:00:00+08:00,2026-07-11T16:00:00+08:00,false,竹東親愛愛樂音樂巷-音樂廳（新竹縣竹東鎮東林路194巷8號）,新竹縣竹東鎮,臺灣口琴音樂節前導活動；天狼星口琴樂團蔡明憲老師指導，免費參與並提供複音口琴。
-https://www.instagram.com/p/DaNlIwyzK9b/,口琴入門推廣講座,2026-07-11T14:00:00+08:00,2026-07-11T16:00:00+08:00,false,竹東親愛愛樂音樂巷-音樂廳（新竹縣竹東鎮東林路194巷8號）,新竹縣竹東鎮,臺灣口琴音樂節前導活動；天狼星口琴樂團蔡明憲老師指導，免費參與並提供複音口琴。
-https://www.youtube.com/watch?v=PA11sSFkJeA,臺灣探戈樂團創團音樂會,2026-07-18T19:30:00+08:00,2026-07-18T21:30:00+08:00,false,臺北生技園區 多功能廳,臺北,演出：臺灣探戈樂團創團音樂會（Taiwan Tango Orquesta），有口琴演出者廖苡晴。
-https://www.facebook.com/tcfsh.harmonica/posts/pfbid026TX9x37qBLk1W7jif1qzR2vfQrhDWpVWSXjmo8mDw9xLn5CHnUEx5PmsZfsebB4Zl,臺中一中口琴之狼校友音樂會《天琴聲等煙雨》,2026-08-21T18:30:00+08:00,2026-08-21T20:30:00+08:00,false,大墩文化中心 B1 演講廳,臺中,校友音樂會，免費入場。
+evidence_url,event_name,start,end,all_day,venue,city,details,country,event_mode,timezone
+https://www.facebook.com/twharmonica/posts/pfbid07CLAcEbSrP9wrHocyXC7ZaUS2ERQAN75Sh3fPjM835wmjAokvbtWrRP7Wkh5mdGal,口琴入門推廣講座,2026-07-11T14:00:00+08:00,2026-07-11T16:00:00+08:00,false,竹東親愛愛樂音樂巷-音樂廳（新竹縣竹東鎮東林路194巷8號）,新竹縣竹東鎮,臺灣口琴音樂節前導活動；天狼星口琴樂團蔡明憲老師指導，免費參與並提供複音口琴。,臺灣,taiwan_physical,Asia/Taipei
+https://www.instagram.com/p/DaNlIwyzK9b/,口琴入門推廣講座,2026-07-11T14:00:00+08:00,2026-07-11T16:00:00+08:00,false,竹東親愛愛樂音樂巷-音樂廳（新竹縣竹東鎮東林路194巷8號）,新竹縣竹東鎮,臺灣口琴音樂節前導活動；天狼星口琴樂團蔡明憲老師指導，免費參與並提供複音口琴。,臺灣,taiwan_physical,Asia/Taipei
+https://www.youtube.com/watch?v=PA11sSFkJeA,臺灣探戈樂團創團音樂會,2026-07-18T19:30:00+08:00,2026-07-18T21:30:00+08:00,false,臺北生技園區 多功能廳,臺北,演出：臺灣探戈樂團創團音樂會（Taiwan Tango Orquesta），有口琴演出者廖苡晴。,臺灣,taiwan_physical,Asia/Taipei
+https://www.facebook.com/tcfsh.harmonica/posts/pfbid026TX9x37qBLk1W7jif1qzR2vfQrhDWpVWSXjmo8mDw9xLn5CHnUEx5PmsZfsebB4Zl,臺中一中口琴之狼校友音樂會《天琴聲等煙雨》,2026-08-21T18:30:00+08:00,2026-08-21T20:30:00+08:00,false,大墩文化中心 B1 演講廳,臺中,校友音樂會，免費入場。,臺灣,taiwan_physical,Asia/Taipei

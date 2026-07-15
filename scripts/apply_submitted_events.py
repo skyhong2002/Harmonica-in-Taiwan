@@ -53,6 +53,8 @@ def submitted_event(row: dict[str, str]) -> dict[str, Any] | None:
         "start": start,
         "end": clean(row.get("end")) or start,
         "allDay": truthy(row.get("all_day")),
+        "calendarType": calendar.TAIWAN_PHYSICAL,
+        "timezone": calendar.TIMEZONE,
         "location": location,
         "venue": venue,
         "city": city,
@@ -62,6 +64,8 @@ def submitted_event(row: dict[str, str]) -> dict[str, Any] | None:
         "calendarReview": {
             "include": True,
             "country": "臺灣",
+            "eventMode": calendar.TAIWAN_PHYSICAL,
+            "timezone": calendar.TIMEZONE,
             "eventName": name,
             "venue": venue,
             "city": city,
