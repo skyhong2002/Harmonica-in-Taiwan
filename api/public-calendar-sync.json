@@ -22,10 +22,10 @@
       "deleted": 0,
       "eventMode": "overseas_physical",
       "eventsPath": "site/api/overseas-calendar-events.json",
-      "kept": 6,
+      "kept": 7,
       "metadataUpdated": true,
       "status": "ok",
-      "updated": 6
+      "updated": 7
     },
     {
       "calendarId": "04afd340280f48bd593a1a7949a0a3a3e288dcf970278ca21f2ad3e32fafdc7e@group.calendar.google.com",
@@ -44,10 +44,10 @@
   "client": "google-api-python-client",
   "created": 0,
   "deleted": 0,
-  "generatedAt": "2026-07-15T17:02:04.212128+00:00",
-  "kept": 13,
+  "generatedAt": "2026-07-15T18:06:37.751949+00:00",
+  "kept": 14,
   "message": "Google Calendar sync completed for 3/3 calendars.",
   "status": "ok",
-  "updated": 13,
+  "updated": 14,
   "version": 2
 }
