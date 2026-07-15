@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 15 Jul 2026 19:11:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 20:15:59 +0000</lastBuildDate>
     <item>
       <title>Marcos Coll</title>
       <link>https://marcoscoll.com/</link>
@@ -104,6 +104,17 @@ Tag：演奏者、教學
 國家：臺灣
 地區：臺灣/中彰投
 臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。</description>
+    </item>
+    <item>
+      <title>Timothy Yip 葉進禧</title>
+      <link>https://www.timothyyipharmonica.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/f44e6396801a0c03</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、比賽、半音階、國際交流
+國家：香港
+地區：香港
+香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。</description>
     </item>
     <item>
       <title>RedBricks Harmonica</title>
@@ -500,17 +511,6 @@ Tag：演奏者、教學、重奏
 國家：臺灣
 地區：臺灣
 口琴演奏者，兼職教學與重奏活動。</description>
-    </item>
-    <item>
-      <title>Timothy Yip 葉進禧</title>
-      <link>https://www.timothyyipharmonica.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/f44e6396801a0c03</guid>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、比賽、半音階、國際交流
-國家：香港
-地區：香港
-香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。</description>
     </item>
     <item>
       <title>新竹縣文化局</title>
