@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 15 Jul 2026 03:24:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 04:28:29 +0000</lastBuildDate>
     <item>
       <title>CY Leo 何卓彥</title>
       <link>https://www.cyleomusic.io/profile</link>
@@ -27,6 +27,17 @@ Tag：教學器材、國際交流、課程、半音階、十孔
 國家：阿根廷
 地區：阿根廷/阿韋亞內達
 阿根廷的國際教育來源，關注公立流行音樂學校、正式口琴課程、爵士、探戈與民俗。</description>
+    </item>
+    <item>
+      <title>Yellow Pine Harmonica Festival</title>
+      <link>https://www.yellowpinefestival.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/8916c1898211431a</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、課程、音樂節、比賽、國際交流
+國家：美國
+地區：美國/愛達荷
+美國的國際活動來源，涵蓋戶外口琴音樂節、課程、示範與社群演出。</description>
     </item>
     <item>
       <title>Howard Levy</title>
@@ -632,17 +643,6 @@ Tag：演奏者、演出
 國家：臺灣
 地區：臺灣
 口琴演奏家，專注於演出與評審工作。</description>
-    </item>
-    <item>
-      <title>Yellow Pine Harmonica Festival</title>
-      <link>https://www.yellowpinefestival.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/8916c1898211431a</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：活動資訊、課程、音樂節、比賽、國際交流
-國家：美國
-地區：美國/愛達荷
-美國的國際活動來源，涵蓋戶外口琴音樂節、課程、示範與社群演出。</description>
     </item>
     <item>
       <title>王心禾</title>
