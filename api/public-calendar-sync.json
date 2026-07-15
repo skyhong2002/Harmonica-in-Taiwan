@@ -44,7 +44,7 @@
   "client": "google-api-python-client",
   "created": 0,
   "deleted": 0,
-  "generatedAt": "2026-07-15T18:06:37.751949+00:00",
+  "generatedAt": "2026-07-15T19:11:06.760638+00:00",
   "kept": 14,
   "message": "Google Calendar sync completed for 3/3 calendars.",
   "status": "ok",
