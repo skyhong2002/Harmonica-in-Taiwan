@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "generatedAt": "2026-07-15T17:35:09+08:00",
+  "timezone": "Asia/Taipei",
+  "calendarType": "online",
+  "count": 0,
+  "source": "/api/events.json",
+  "ics": "/feeds/online-calendar.ics",
+  "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
+  "criteria": "國內外有明確日期、時間與直播或線上參與方式的公開口琴活動。",
+  "manualOverrides": 4,
+  "llm": {
+    "enabled": true,
+    "tokenSource": "env:HARMONICA_LLM_API_KEY",
+    "model": "gpt-5.4-mini",
+    "stats": {
+      "requests": 0,
+      "cached": 22,
+      "errors": 0
+    }
+  },
+  "events": []
+}

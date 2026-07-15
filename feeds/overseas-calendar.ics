@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Harmonica Observe Taiwan//Public Calendar//ZH-TW
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:國外口琴實體活動
+X-WR-TIMEZONE:Asia/Taipei
+BEGIN:VEVENT
+UID:e40e9e2154ec8429@harmonica.observe.tw
+DTSTAMP:20260715T093509Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:RJマンスリーライブ
+LOCATION:日本 RJ
+DESCRIPTION:次回のRJマンスリーライブは7月16日(木)。貼文
+ 同時提到另有 YouTube 生配信「南里沙のココだけの話」
+ 將於6月20日晚上10點播出，但那是另一個活動。\nhttps://ww
+ w.instagram.com/p/DZv9gbPSDcC/
+URL:https://www.instagram.com/p/DZv9gbPSDcC/
+END:VEVENT
+BEGIN:VEVENT
+UID:fa1f1ad3c3f458f6@harmonica.observe.tw
+DTSTAMP:20260715T093509Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+SUMMARY:第十五届亚太口琴节
+LOCATION:中国江阴
+DESCRIPTION:本地口琴乐团及演奏者将于 2026年7月23日至27日
+ 前往中国江阴参加第十五届亚太口琴节。貼文另提到其
+ 中的新加坡專場音樂會將於 7月24日舉行。\nhttps://www.insta
+ gram.com/p/DaiInvGPyv2/
+URL:https://www.instagram.com/p/DaiInvGPyv2/
+END:VEVENT
+BEGIN:VEVENT
+UID:6d9cc793211ecff6@harmonica.observe.tw
+DTSTAMP:20260715T093509Z
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
+SUMMARY:山下伶 10th Anniversary Concert 〜希望の種を音に乗せ
+ て〜
+LOCATION:大阪・心斎橋PARCO 14F SPACE14
+DESCRIPTION:7月25日(六)開場15:30、開演16:00。票價6\,500日圓，
+ 全席指定；嘉賓為徳永延生、徳永有生，樂手包含森丘
+ ヒロキ、岡田治郎、福長雅夫。\nhttps://www.instagram.com/p/Da
+ ulz45zTDm/
+URL:https://www.instagram.com/p/Daulz45zTDm/
+END:VEVENT
+BEGIN:VEVENT
+UID:4b7c24f5e4469879@harmonica.observe.tw
+DTSTAMP:20260715T093509Z
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
+SUMMARY:南里沙 プチプチコンサート in 田園調布
+LOCATION:東京 田園調布ピアノサロンNOAH
+DESCRIPTION:南里沙獨奏的「プチプチコンサート」，2026年8
+ 月22日(六) 13:15開場、13:45開演。票價3\,000円，貼文提供
+ 預約連結。\nhttps://www.facebook.com/minamirisa/posts/pfbid02Xx1Assbv
+ jKU8DWtGxFnBKXrVEBpyjdUt2THJcrtjYrKfMfi5c8QJzYUV93EeacNMl
+URL:https://www.facebook.com/minamirisa/posts/pfbid02Xx1AssbvjKU8DWtGxFnBKX
+ rVEBpyjdUt2THJcrtjYrKfMfi5c8QJzYUV93EeacNMl
+END:VEVENT
+END:VCALENDAR

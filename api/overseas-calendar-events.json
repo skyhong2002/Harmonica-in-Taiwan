@@ -1,0 +1,168 @@
+{
+  "version": 2,
+  "generatedAt": "2026-07-15T17:35:09+08:00",
+  "timezone": "Asia/Taipei",
+  "calendarType": "overseas_physical",
+  "count": 4,
+  "source": "/api/events.json",
+  "ics": "/feeds/overseas-calendar.ics",
+  "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
+  "criteria": "實際舉辦地點在臺灣以外的公開口琴實體活動。",
+  "manualOverrides": 4,
+  "llm": {
+    "enabled": true,
+    "tokenSource": "env:HARMONICA_LLM_API_KEY",
+    "model": "gpt-5.4-mini",
+    "stats": {
+      "requests": 0,
+      "cached": 22,
+      "errors": 0
+    }
+  },
+  "events": [
+    {
+      "id": "e40e9e2154ec8429",
+      "title": "RJマンスリーライブ",
+      "eventName": "RJマンスリーライブ",
+      "source": "南里沙 / Risa MINAMI",
+      "platform": "instagram",
+      "start": "2026-07-16",
+      "end": "2026-07-17",
+      "allDay": true,
+      "calendarType": "overseas_physical",
+      "timezone": "Asia/Tokyo",
+      "location": "日本 RJ",
+      "venue": "RJ",
+      "city": "日本",
+      "details": "次回のRJマンスリーライブは7月16日(木)。貼文同時提到另有 YouTube 生配信「南里沙のココだけの話」將於6月20日晚上10點播出，但那是另一個活動。",
+      "evidenceUrl": "https://www.instagram.com/p/DZv9gbPSDcC/",
+      "confidence": 0.93,
+      "calendarReview": {
+        "include": true,
+        "country": "日本",
+        "eventMode": "overseas_physical",
+        "timezone": "Asia/Tokyo",
+        "candidateDateMatches": true,
+        "eventName": "RJマンスリーライブ",
+        "venue": "RJ",
+        "city": "日本",
+        "details": "次回のRJマンスリーライブは7月16日(木)。貼文同時提到另有 YouTube 生配信「南里沙のココだけの話」將於6月20日晚上10點播出，但那是另一個活動。",
+        "reason": "候選日期與貼文中的 RJ マンスリーライブ 日期一致，屬於實體口琴活動；地點在日本，非臺灣也非線上。",
+        "confidence": 0.93
+      },
+      "postedAt": "2026-06-19 09:46",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/726716361_18593549683053761_2802633507180942337_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=MzkyMjYyNDMwOTU3MDg0NDQxOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjE0Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=bKPeSg25NYMQ7kNvwG8sQmE&_nc_oc=AdoP6vYNOKvY-QQHoSKv5ousD5dx5N_kTZTqCYvOgwUEtb1UI68kO3p70mU1sQctg9Q&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af-xNPqMgUwQ28cy403IRkJTQbUqgL4qWRVHoqT-zvLP-g&oe=6A432B52"
+      ],
+      "image_url": "/assets/feed-images/0c394fb8df3254390b4c.webp"
+    },
+    {
+      "id": "fa1f1ad3c3f458f6",
+      "title": "第十五届亚太口琴节",
+      "eventName": "第十五届亚太口琴节",
+      "source": "口琴愛好者協會（新加坡）",
+      "platform": "instagram",
+      "start": "2026-07-23",
+      "end": "2026-07-24",
+      "allDay": true,
+      "calendarType": "overseas_physical",
+      "timezone": "Asia/Shanghai",
+      "location": "中国江阴",
+      "venue": "中国江阴",
+      "city": "江阴",
+      "details": "本地口琴乐团及演奏者将于 2026年7月23日至27日前往中国江阴参加第十五届亚太口琴节。貼文另提到其中的新加坡專場音樂會將於 7月24日舉行。",
+      "evidenceUrl": "https://www.instagram.com/p/DaiInvGPyv2/",
+      "confidence": 0.84,
+      "calendarReview": {
+        "include": true,
+        "country": "中國",
+        "eventMode": "overseas_physical",
+        "timezone": "Asia/Shanghai",
+        "candidateDateMatches": true,
+        "eventName": "第十五届亚太口琴节",
+        "venue": "中国江阴",
+        "city": "江阴",
+        "details": "本地口琴乐团及演奏者将于 2026年7月23日至27日前往中国江阴参加第十五届亚太口琴节。貼文另提到其中的新加坡專場音樂會將於 7月24日舉行。",
+        "reason": "候選日期 7/23-7/24 與貼文中提到的江陰口琴節時段相符，且屬中國江陰的實體口琴活動。",
+        "confidence": 0.84
+      },
+      "postedAt": "2026-07-08 21:20",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/735799406_18096882323185087_4905514760374953847_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkzNjc0NjkzOTI3NzU4NTM5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=YERo7dTOUwEQ7kNvwHikc7k&_nc_oc=AdoKBqtxTDbRCrF7fNaGaGCDBbZ-RbAMcUiTVKs3L24Vk2sRjkafeipQvZCNOIgRRWw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=XmR91x7lOLBmDoc4KY4bSw&_nc_ss=7a22e&oh=00_AQAX-0kxHehKmS7zVR91kQfz7krFG1E1pVX17Ly_TbecqA&oe=6A54AC86"
+      ],
+      "image_url": "/assets/feed-images/4ce2d58bed072b33b1dc.webp"
+    },
+    {
+      "id": "6d9cc793211ecff6",
+      "title": "山下伶 10th Anniversary Concert 〜希望の種を音に乗せて〜",
+      "eventName": "山下伶 10th Anniversary Concert 〜希望の種を音に乗せて〜",
+      "source": "山下伶 / Rei Yamashita",
+      "platform": "instagram",
+      "start": "2026-07-25",
+      "end": "2026-07-26",
+      "allDay": true,
+      "calendarType": "overseas_physical",
+      "timezone": "Asia/Tokyo",
+      "location": "大阪・心斎橋PARCO 14F SPACE14",
+      "venue": "大阪・心斎橋PARCO 14F SPACE14",
+      "city": "大阪",
+      "details": "7月25日(六)開場15:30、開演16:00。票價6,500日圓，全席指定；嘉賓為徳永延生、徳永有生，樂手包含森丘ヒロキ、岡田治郎、福長雅夫。",
+      "evidenceUrl": "https://www.instagram.com/p/Daulz45zTDm/",
+      "confidence": 0.98,
+      "calendarReview": {
+        "include": true,
+        "country": "日本",
+        "eventMode": "overseas_physical",
+        "timezone": "Asia/Tokyo",
+        "candidateDateMatches": true,
+        "eventName": "山下伶 10th Anniversary Concert 〜希望の種を音に乗せて〜",
+        "venue": "大阪・心斎橋PARCO 14F SPACE14",
+        "city": "大阪",
+        "details": "7月25日(六)開場15:30、開演16:00。票價6,500日圓，全席指定；嘉賓為徳永延生、徳永有生，樂手包含森丘ヒロキ、岡田治郎、福長雅夫。",
+        "reason": "貼文明確寫出7月25日大阪實體口琴演出，日期與候選一致，屬海外實體活動。",
+        "confidence": 0.98
+      },
+      "postedAt": "2026-07-13 18:08",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746074616_18547106116076837_6417081479264756442_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=Mzk0MDI1MzAxNzUwOTI3NzkyNjE4NTQ3MTA2MTEzMDc2ODM3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=AGkVtXwFN3MQ7kNvwEPF8i7&_nc_oc=Adrh0eKuyNxUx_5UtgmZzamxCds9EprUQLtrCK-x-LsXcpZeh4Dzsu0mk6qW0nl9M_0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=363eVPgWyW-37DsHAGFOpw&_nc_ss=7a22e&oh=00_AQBzuj_zOxIgOrFPYZGOEc64x4mo5N82ziBg_KXU2C5lWw&oe=6A5A8761"
+      ],
+      "image_url": "/assets/feed-images/ad6e6563008f0913e2e7.webp"
+    },
+    {
+      "id": "4b7c24f5e4469879",
+      "title": "南里沙 プチプチコンサート in 田園調布",
+      "eventName": "南里沙 プチプチコンサート in 田園調布",
+      "source": "南里沙",
+      "platform": "facebook",
+      "start": "2026-08-22",
+      "end": "2026-08-23",
+      "allDay": true,
+      "calendarType": "overseas_physical",
+      "timezone": "Asia/Tokyo",
+      "location": "東京 田園調布ピアノサロンNOAH",
+      "venue": "田園調布ピアノサロンNOAH",
+      "city": "東京",
+      "details": "南里沙獨奏的「プチプチコンサート」，2026年8月22日(六) 13:15開場、13:45開演。票價3,000円，貼文提供預約連結。",
+      "evidenceUrl": "https://www.facebook.com/minamirisa/posts/pfbid02Xx1AssbvjKU8DWtGxFnBKXrVEBpyjdUt2THJcrtjYrKfMfi5c8QJzYUV93EeacNMl",
+      "confidence": 0.95,
+      "calendarReview": {
+        "include": true,
+        "country": "日本",
+        "eventMode": "overseas_physical",
+        "timezone": "Asia/Tokyo",
+        "candidateDateMatches": true,
+        "eventName": "南里沙 プチプチコンサート in 田園調布",
+        "venue": "田園調布ピアノサロンNOAH",
+        "city": "東京",
+        "details": "南里沙獨奏的「プチプチコンサート」，2026年8月22日(六) 13:15開場、13:45開演。票價3,000円，貼文提供預約連結。",
+        "reason": "貼文明確寫出候選日期為2026年8月22日，且為實體口琴活動；地點在日本東京田園調布，屬海外實體活動。",
+        "confidence": 0.95
+      },
+      "postedAt": "2026-06-25 18:13",
+      "images": [
+        "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/732441673_1717116986717956_8602439590541491091_n.png?stp=dst-jpg_tt6&cstp=mx1492x1866&ctp=s640x640&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=_dceVs1SRd4Q7kNvwHuTwwS&_nc_oc=AdoeEmMOUfghmfgCZzdGYrInLMz5AaslSkLy5At6IJmWE3_7_jbcHqL84SmrryLJEn8&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=LxJ_Stj9k_gU-ecQ6YGK5A&_nc_ss=72289&oh=00_Af9mKFHmce4wQXAROX6arcruxh4s-hgScsQezYYaxKla5w&oe=6A446222"
+      ],
+      "image_url": "/assets/feed-images/033d9836ccc17dfe99de.webp"
+    }
+  ]
+}
