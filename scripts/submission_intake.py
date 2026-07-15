@@ -906,6 +906,10 @@ def apply_source_change(
             "changed_files": [],
         }
     write_source_rows(root, rows)
+    verification_key = next(
+        (changed[field]["to"] for field in URL_FIELDS if field in changed),
+        next(details["to"] for details in changed.values()),
+    )
     return {
         "kind": "source",
         "action": "update",
@@ -913,7 +917,7 @@ def apply_source_change(
         "name": row.get("name") or "",
         "changes": changed,
         "verification_url": "https://harmonica.observe.tw/api/sources.json",
-        "verification_key": row.get("name") or target_id,
+        "verification_key": verification_key,
         "changed_files": [str(SOURCE_CSV)],
     }
 

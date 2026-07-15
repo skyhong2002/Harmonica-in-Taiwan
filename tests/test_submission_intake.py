@@ -256,6 +256,7 @@ class ApplySourceTests(unittest.TestCase):
             [public_evidence("https://new.example.org/")],
         )
         self.assertEqual(result["public_id"], "8")
+        self.assertEqual(result["verification_key"], "重奏與公開演出")
         rows = intake.load_source_rows(self.root)
         self.assertEqual(intake.row_by_public_id(rows, "8")["focus"], "重奏與公開演出")
 
