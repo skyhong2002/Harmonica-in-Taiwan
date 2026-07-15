@@ -76,7 +76,16 @@ COMPACT_RANGE_RE = re.compile(r"(?<!\d)(?P<year>\d{2})(?P<month>\d{2})(?P<day>\d
 TIME_RE = re.compile(r"(?<!\d)(?P<hour>[01]?\d|2[0-3])[:：](?P<minute>[0-5]\d)(?!\d)")
 TIME_WITH_UNIT_RE = re.compile(r"(?P<prefix>上午|早上|中午|下午|晚上|夜|午前|午後)?\s*(?P<hour>[01]?\d|2[0-3])\s*(?:時|点|點)(?:\s*(?P<minute>[0-5]\d)\s*分?)?")
 CHINESE_TIME_RE = re.compile(r"(?P<prefix>上午|早上|中午|下午|晚上|夜)?\s*(?P<hour>[一二兩三四五六七八九十]{1,3})\s*(?:點|時)(?P<half>半)?")
-LOCATION_RE = re.compile(r"(?:地點|地点|場地|會場|会場|場所|上課地點|活動地點|舉辦地點|📍)\s*[｜|:：]?\s*(?P<place>[^\n。；;，,]{2,48})")
+LOCATION_RE = re.compile(r"(?:地點|地点|場地|會場|会場|場所|上課地點|活動地點|舉辦地點)\s*[｜|:：]?\s*(?P<place>[^\n。；;，,]{2,48})")
+PIN_LOCATION_RE = re.compile(
+    r"📍\s*(?!時間|时间|日期|日時|日时|\d{1,4}\s*[./-])"
+    r"(?P<place>[^\n。；;，,]{2,48})"
+)
+NARRATIVE_LOCATION_RE = re.compile(
+    r"(?:在|於(?!\s*(?:\d{1,4}\s*(?:年|[./-])|\d{1,2}\s*月)))\s*"
+    r"(?P<place>[^\n。；;，,]{2,80}?)"
+    r"(?=(?:熱鬧)?(?:登場|舉行|舉辦|開演|展開))"
+)
 TAIWAN_PLACE_RE = re.compile(
     r"台灣|臺灣|台北|臺北|新北|基隆|桃園|新竹|苗栗|台中|臺中|彰化|南投|雲林|嘉義|台南|臺南|高雄|屏東|宜蘭|花蓮|台東|臺東|澎湖|金門|馬祖|陽明交通大學|陽明交大|衛武營|武陵|臺北生技園區|台北生技園區|大墩文化中心"
 )
@@ -85,6 +94,12 @@ OVERSEAS_PLACE_RE = re.compile(
 )
 ONLINE_EVENT_RE = re.compile(r"線上|直播|live\s*stream|livestream|streaming|online|YouTube\s*Live|IG\s*Live|Facebook\s*Live", re.IGNORECASE)
 NON_LIVE_ONLINE_RE = re.compile(r"回顧|重播|隨選|archive|archived|アーカイブ|配信中|影片發布|影片回放", re.IGNORECASE)
+ONLINE_LOGISTICS_RE = re.compile(
+    r"(?:線上|網路|online\s+)(?:報名|購票|登記|申請|registration|tickets?)",
+    re.IGNORECASE,
+)
+GENERIC_ONLINE_VENUE_RE = re.compile(r"^(?:線上|線上直播|網路直播|online|livestream)$", re.IGNORECASE)
+CANCELLED_EVENT_RE = re.compile(r"停辦|取消(?:活動|演出|場次|音樂會|音乐会|公演|講座|工作坊)?|中止|開催中止", re.IGNORECASE)
 
 
 def load_dotenv(path: Path) -> None:
@@ -211,7 +226,15 @@ def text_has_any(text: str, terms: list[str]) -> bool:
 
 
 def is_online_event_text(text: str) -> bool:
-    return bool(ONLINE_EVENT_RE.search(text)) and not bool(NON_LIVE_ONLINE_RE.search(text))
+    event_text = ONLINE_LOGISTICS_RE.sub("", text)
+    return bool(ONLINE_EVENT_RE.search(event_text)) and not bool(NON_LIVE_ONLINE_RE.search(event_text))
+
+
+def review_event_modes(country: str, text: str) -> tuple[bool, bool]:
+    explicitly_taiwan = country in {"台灣", "臺灣", "Taiwan"}
+    is_online = country == "線上" or (not explicitly_taiwan and is_online_event_text(text))
+    is_taiwan = explicitly_taiwan or bool(TAIWAN_PLACE_RE.search(text))
+    return is_online, is_taiwan
 
 
 def nearby_context(text: str, start: int, end: int, radius: int = 60) -> str:
@@ -272,22 +295,37 @@ def clean_location(value: str) -> str:
 
 
 def extract_location(text: str) -> str:
-    match = LOCATION_RE.search(text)
+    match = LOCATION_RE.search(text) or PIN_LOCATION_RE.search(text) or NARRATIVE_LOCATION_RE.search(text)
     if not match:
         return ""
     return clean_location(match.group("place"))
 
 
-def event_title(item: dict[str, Any]) -> str:
+def event_title(item: dict[str, Any], context: str = "") -> str:
     source = str(item.get("source") or "").strip()
     text = str(item.get("text") or item.get("title") or "").strip()
-    quoted = re.search(r"《([^》]{2,36})》", text)
-    if quoted:
-        core = f"《{quoted.group(1)}》"
+    context_lines = [
+        re.sub(r"^[^\w\u3040-\u30ff\u3400-\u9fff]+", "", part).strip()
+        for part in context.splitlines()
+        if part.strip()
+    ]
+    info_lines = [
+        re.sub(r"(?:資訊|资讯|信息|案内)\s*$", "", line).rstrip("：: |｜")
+        for line in context_lines
+        if text_has_any(line, EVENT_TERMS)
+        and re.search(r"(?:資訊|资讯|信息|案内)\s*$", line)
+    ]
+    if info_lines:
+        core = max(info_lines, key=len)
     else:
-        line = next((part.strip() for part in re.split(r"[\n。]", text) if part.strip()), "")
-        core = re.sub(r"\s+", " ", line)[:42].strip()
-    if source and core and source not in core:
+        quoted = re.search(r"《([^》]{2,36})》", context or text)
+        if quoted:
+            core = f"《{quoted.group(1)}》"
+        else:
+            line = next((part.strip() for part in re.split(r"[\n。]", text) if part.strip()), "")
+            core = re.sub(r"\s+", " ", line)[:42].strip()
+    source_lead = source.split(maxsplit=1)[0] if source else ""
+    if source and core and source not in core and (not source_lead or source_lead not in core):
         return f"{source}｜{core}"
     return core or source or "公開口琴活動"
 
@@ -631,14 +669,17 @@ def extract_events(
                 used_overrides.add(link)
                 seen_links_dates.add((link, start_date.isoformat()))
             continue
-        for start_date, end_date, context in date_candidates(text, posted_at):
+        candidates = date_candidates(text, posted_at)
+        for start_date, end_date, context in candidates:
             if start_date < min_date or start_date > max_date:
                 continue
             dedupe_key = (link, start_date.isoformat())
             if dedupe_key in seen_links_dates:
                 continue
             seen_links_dates.add(dedupe_key)
-            title = event_title(item)
+            title = event_title(item, context)
+            if CANCELLED_EVENT_RE.search(f"{title} {context}"):
+                continue
             identity = normalized_event_identity(title, item.get("source"), start_date)
             if identity in seen_event_identity:
                 continue
@@ -655,7 +696,9 @@ def extract_events(
                 end = end_dt.isoformat()
             elif end_date >= start_date:
                 end = (end_date + dt.timedelta(days=1)).isoformat()
-            location = extract_location(text)
+            location = extract_location(context)
+            if not location and len(candidates) == 1:
+                location = extract_location(text)
             review: dict[str, Any] | None = None
             if llm_token:
                 try:
@@ -685,12 +728,18 @@ def extract_events(
             city = str(review.get("city") or "").strip()
             details = str(review.get("details") or "").strip()
             country = str(review.get("country") or "").strip()
-            is_review_online = country == "線上" or is_online_event_text(f"{event_name} {venue} {city} {details}")
-            is_review_taiwan = country in {"台灣", "臺灣", "Taiwan"} or bool(TAIWAN_PLACE_RE.search(f"{venue} {city} {details}"))
+            is_review_online, is_review_taiwan = review_event_modes(
+                country,
+                f"{event_name} {venue} {city} {details}",
+            )
             if is_review_online and (not time_text or not is_online_event_text(context)):
                 continue
             if not is_review_taiwan and not is_review_online:
                 continue
+            if is_review_taiwan and not is_review_online and GENERIC_ONLINE_VENUE_RE.fullmatch(venue):
+                venue = clean_location(location)
+                if not venue:
+                    continue
             display_location = venue if not city or city in venue else f"{city} {venue}"
             events.append(
                 {
