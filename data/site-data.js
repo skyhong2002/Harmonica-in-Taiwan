@@ -2,6 +2,340 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-15",
   "entries": [
     {
+      "id": "watchlist-34",
+      "publicId": "34",
+      "name": "王衍華",
+      "nameEn": "Yen-Hua Wang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/胖擊系/半音階與重奏",
+      "structuredSummary": "天狼星/胖擊系/半音階與重奏 / 半音階/重奏 / 演出人員",
+      "summary": "臺灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。",
+      "keywords": "王衍華 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://portaly.cc/yenhua_wang"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yenhua_wang/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@keriw128"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@yenhua_wang"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-15T07:54:38+00:00",
+      "latestUpdateLocal": "2026-07-15 15:54",
+      "latestUpdateSource": "王衍華",
+      "latestUpdateUrl": "https://www.threads.com/t/Dazk5ebEwHq",
+      "avatarUrl": "/assets/source-avatars/7cfd77773b52d43967ea.webp",
+      "sourceInitials": "王衍",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_yenhua_wang",
+          "name": "王衍華",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yenhua_wang",
+          "profileUrl": "https://www.instagram.com/yenhua_wang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yenhua_wang/story/0"
+        },
+        {
+          "id": "ig_yenhua_wang",
+          "name": "王衍華",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yenhua_wang",
+          "profileUrl": "https://www.instagram.com/yenhua_wang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_yenhua_wang",
+          "name": "王衍華",
+          "platform": "threads",
+          "type": "rss",
+          "username": "yenhua_wang",
+          "profileUrl": "https://www.threads.net/@yenhua_wang",
+          "feedUrl": "https://rss.observe.tw/threads/yenhua_wang"
+        },
+        {
+          "id": "yt_keriw128",
+          "name": "王衍華",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@keriw128",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-33",
+      "publicId": "33",
+      "name": "黃冠誌",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
+      "structuredSummary": "天狼星/胖擊系/和弦口琴/重奏 / 和弦/重奏 / 演出人員",
+      "summary": "口琴演奏者，專長和弦口琴與重奏演出。",
+      "keywords": "黃冠誌 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/kuanchih/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hk91f06/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-15T06:49:09+00:00",
+      "latestUpdateLocal": "2026-07-15 14:49",
+      "latestUpdateSource": "黃冠誌",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3941623423525043960/",
+      "avatarUrl": "/assets/source-avatars/1c6e560eec687ecfbf6c.webp",
+      "sourceInitials": "黃冠",
+      "sourceTags": [
+        "演奏者",
+        "合奏",
+        "和弦",
+        "重奏",
+        "演出"
+      ],
+      "sourceSummary": "口琴演奏者，專長和弦口琴與重奏演出。",
+      "sourceTagReason": "來源明確標示為個人與演奏者，且專長涉及和弦、重奏與演出。",
+      "monitorSources": [
+        {
+          "id": "ig_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
+        },
+        {
+          "id": "yt_cbd128e3de",
+          "name": "黃冠誌",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-9",
+      "publicId": "9",
+      "name": "李讓 Jang Li",
+      "nameEn": "Jang Li",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "半音階/十孔/作曲/配樂/跨界",
+      "structuredSummary": "半音階/十孔/作曲/配樂/跨界 / 半音階/十孔 / 演出人員",
+      "summary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
+      "keywords": "李讓 Jang Li",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://jangliharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Jang.Li.Harmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jangli_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/jangliharmonica"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/JangLiHarmonica"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@jangli_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-15T06:26:31+00:00",
+      "latestUpdateLocal": "2026-07-15 14:26",
+      "latestUpdateSource": "李讓 Jang Li",
+      "latestUpdateUrl": "https://www.instagram.com/stories/jangli_harmonica/3941612189652323775/",
+      "avatarUrl": "/assets/source-avatars/3eb31bb3c8355ed0f6cb.webp",
+      "sourceInitials": "JL",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "sourceSummary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
+      "sourceTagReason": "手動自 Threads 個人簡介匯入。",
+      "monitorSources": [
+        {
+          "id": "fb_jang_li_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Jang.Li.Harmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_jangli_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jangli_harmonica",
+          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jangli_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jangli_harmonica",
+          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/jangli_harmonica/story/0"
+        },
+        {
+          "id": "threads_jangli_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "threads",
+          "type": "rss",
+          "username": "jangli_harmonica",
+          "profileUrl": "https://www.threads.net/@jangli_harmonica",
+          "feedUrl": "https://rss.observe.tw/threads/jangli_harmonica"
+        },
+        {
+          "id": "x_jangliharmonica",
+          "name": "李讓 Jang Li",
+          "platform": "x",
+          "type": "rss",
+          "username": "JangLiHarmonica",
+          "profileUrl": "https://x.com/JangLiHarmonica",
+          "feedUrl": "https://rss.observe.tw/twitter/user/JangLiHarmonica"
+        },
+        {
+          "id": "yt_jangliharmonica",
+          "name": "李讓 Jang Li",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/jangliharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-42",
+      "publicId": "42",
+      "name": "王心禾",
+      "nameEn": "Hsin-Ho Wang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "胖擊系",
+      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
+      "keywords": "王心禾 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_wang/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@harmonica_wang"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-15T06:05:45+00:00",
+      "latestUpdateLocal": "2026-07-15 14:05",
+      "latestUpdateSource": "王心禾",
+      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_wang/3941601583675158944/",
+      "avatarUrl": "/assets/source-avatars/6e0443c85d9318ef71c9.webp",
+      "sourceInitials": "王心",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_harmonica_wang",
+          "name": "王心禾",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.instagram.com/harmonica_wang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_wang",
+          "name": "王心禾",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.instagram.com/harmonica_wang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_wang/story/0"
+        },
+        {
+          "id": "threads_harmonica_wang",
+          "name": "王心禾",
+          "platform": "threads",
+          "type": "rss",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.threads.net/@harmonica_wang",
+          "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
+        }
+      ]
+    },
+    {
       "id": "watchlist-50",
       "publicId": "50",
       "name": "Aiden Soon",
@@ -3081,81 +3415,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-33",
-      "publicId": "33",
-      "name": "黃冠誌",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
-      "structuredSummary": "天狼星/胖擊系/和弦口琴/重奏 / 和弦/重奏 / 演出人員",
-      "summary": "口琴演奏者，專長和弦口琴與重奏演出。",
-      "keywords": "黃冠誌 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/kuanchih/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hk91f06/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-14T08:02:41+00:00",
-      "latestUpdateLocal": "2026-07-14 16:02",
-      "latestUpdateSource": "黃冠誌",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3940935665848485390/",
-      "avatarUrl": "/assets/source-avatars/1c6e560eec687ecfbf6c.webp",
-      "sourceInitials": "黃冠",
-      "sourceTags": [
-        "演奏者",
-        "合奏",
-        "和弦",
-        "重奏",
-        "演出"
-      ],
-      "sourceSummary": "口琴演奏者，專長和弦口琴與重奏演出。",
-      "sourceTagReason": "來源明確標示為個人與演奏者，且專長涉及和弦、重奏與演出。",
-      "monitorSources": [
-        {
-          "id": "ig_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
-        },
-        {
-          "id": "yt_cbd128e3de",
-          "name": "黃冠誌",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-51",
       "publicId": "51",
       "name": "唐雪婷 Sharene Tang",
@@ -3970,90 +4229,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-34",
-      "publicId": "34",
-      "name": "王衍華",
-      "nameEn": "Yen-Hua Wang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/胖擊系/半音階與重奏",
-      "structuredSummary": "天狼星/胖擊系/半音階與重奏 / 半音階/重奏 / 演出人員",
-      "summary": "臺灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。",
-      "keywords": "王衍華 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/yenhua_wang"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yenhua_wang/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@keriw128"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@yenhua_wang"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-13T12:47:28+00:00",
-      "latestUpdateLocal": "2026-07-13 20:47",
-      "latestUpdateSource": "王衍華",
-      "latestUpdateUrl": "https://www.instagram.com/stories/yenhua_wang/3940354225028587985/",
-      "avatarUrl": "/assets/source-avatars/7cfd77773b52d43967ea.webp",
-      "sourceInitials": "王衍",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_yenhua_wang",
-          "name": "王衍華",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yenhua_wang",
-          "profileUrl": "https://www.instagram.com/yenhua_wang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yenhua_wang/story/0"
-        },
-        {
-          "id": "ig_yenhua_wang",
-          "name": "王衍華",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yenhua_wang",
-          "profileUrl": "https://www.instagram.com/yenhua_wang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_yenhua_wang",
-          "name": "王衍華",
-          "platform": "threads",
-          "type": "rss",
-          "username": "yenhua_wang",
-          "profileUrl": "https://www.threads.net/@yenhua_wang",
-          "feedUrl": "https://rss.observe.tw/threads/yenhua_wang"
-        },
-        {
-          "id": "yt_keriw128",
-          "name": "王衍華",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@keriw128",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-132",
       "publicId": "132",
       "name": "Antonio Serrano",
@@ -4383,116 +4558,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/MrWhyOfficialChannel/videos",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-9",
-      "publicId": "9",
-      "name": "李讓 Jang Li",
-      "nameEn": "Jang Li",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "半音階/十孔/作曲/配樂/跨界",
-      "structuredSummary": "半音階/十孔/作曲/配樂/跨界 / 半音階/十孔 / 演出人員",
-      "summary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
-      "keywords": "李讓 Jang Li",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://jangliharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Jang.Li.Harmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jangli_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/jangliharmonica"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/JangLiHarmonica"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@jangli_harmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-13T05:47:18+00:00",
-      "latestUpdateLocal": "2026-07-13 13:47",
-      "latestUpdateSource": "李讓 Jang Li",
-      "latestUpdateUrl": "https://www.instagram.com/stories/jangli_harmonica/3940142821948987795/",
-      "avatarUrl": "/assets/source-avatars/3eb31bb3c8355ed0f6cb.webp",
-      "sourceInitials": "JL",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "sourceSummary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
-      "sourceTagReason": "手動自 Threads 個人簡介匯入。",
-      "monitorSources": [
-        {
-          "id": "fb_jang_li_harmonica",
-          "name": "李讓 Jang Li",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Jang.Li.Harmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_jangli_harmonica",
-          "name": "李讓 Jang Li",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jangli_harmonica",
-          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jangli_harmonica",
-          "name": "李讓 Jang Li",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jangli_harmonica",
-          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jangli_harmonica/story/0"
-        },
-        {
-          "id": "threads_jangli_harmonica",
-          "name": "李讓 Jang Li",
-          "platform": "threads",
-          "type": "rss",
-          "username": "jangli_harmonica",
-          "profileUrl": "https://www.threads.net/@jangli_harmonica",
-          "feedUrl": "https://rss.observe.tw/threads/jangli_harmonica"
-        },
-        {
-          "id": "x_jangliharmonica",
-          "name": "李讓 Jang Li",
-          "platform": "x",
-          "type": "rss",
-          "username": "JangLiHarmonica",
-          "profileUrl": "https://x.com/JangLiHarmonica",
-          "feedUrl": "https://rss.observe.tw/twitter/user/JangLiHarmonica"
-        },
-        {
-          "id": "yt_jangliharmonica",
-          "name": "李讓 Jang Li",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/jangliharmonica",
           "feedUrl": ""
         }
       ]
@@ -4891,71 +4956,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@HenrysHarmonica",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-42",
-      "publicId": "42",
-      "name": "王心禾",
-      "nameEn": "Hsin-Ho Wang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "胖擊系",
-      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
-      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
-      "keywords": "王心禾 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/harmonica_wang/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@harmonica_wang"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-12T15:25:55+00:00",
-      "latestUpdateLocal": "2026-07-12 23:25",
-      "latestUpdateSource": "王心禾",
-      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_wang/3939709308225389026/",
-      "avatarUrl": "/assets/source-avatars/6e0443c85d9318ef71c9.webp",
-      "sourceInitials": "王心",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_harmonica_wang",
-          "name": "王心禾",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "harmonica_wang",
-          "profileUrl": "https://www.instagram.com/harmonica_wang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_harmonica_wang",
-          "name": "王心禾",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "harmonica_wang",
-          "profileUrl": "https://www.instagram.com/harmonica_wang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_wang/story/0"
-        },
-        {
-          "id": "threads_harmonica_wang",
-          "name": "王心禾",
-          "platform": "threads",
-          "type": "rss",
-          "username": "harmonica_wang",
-          "profileUrl": "https://www.threads.net/@harmonica_wang",
-          "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
         }
       ]
     },
