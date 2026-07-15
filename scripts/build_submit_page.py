@@ -13,7 +13,7 @@ sys.path.insert(0, str(PROJECT_ROOT))
 from scripts.configure_submission_form import FORM_TITLE, RESPONDER_URI
 
 
-TEMPLATE_PATH = PROJECT_ROOT / "site" / "templates" / "submit.html"
+TEMPLATE_PATH = PROJECT_ROOT / "templates" / "submit.html"
 OUTPUT_PATH = PROJECT_ROOT / "site" / "submit" / "index.html"
 
 
