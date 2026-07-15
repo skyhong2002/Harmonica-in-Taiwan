@@ -1579,13 +1579,49 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/event/dde2da29917d141e/</loc>
+    <lastmod>2026-06-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/event/88fb7911620b72be/</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/event/fa1f1ad3c3f458f6/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/event/52a05d962c036d72/</loc>
+    <lastmod>2026-07-08</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/event/a2cccc09941b58be/</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/event/69965f026040fd61/</loc>
+    <lastmod>2026-07-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/event/93e8a0bb8f1bb428/</loc>
+    <lastmod>2026-07-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/event/8d1350cf7a22233a/</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -1597,14 +1633,20 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/event/290ed9103b60d6e4/</loc>
-    <lastmod>2026-07-13</lastmod>
+    <loc>https://harmonica.observe.tw/event/48d83da0d3424f97/</loc>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://harmonica.observe.tw/event/6670d32764968444/</loc>
     <lastmod>2026-07-03</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/event/4b7c24f5e4469879/</loc>
+    <lastmod>2026-06-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>

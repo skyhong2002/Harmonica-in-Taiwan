@@ -7,7 +7,7 @@ X-WR-CALNAME:口琴公開活動
 X-WR-TIMEZONE:Asia/Taipei
 BEGIN:VEVENT
 UID:8e6bb6caf65dafbb@harmonica.observe.tw
-DTSTAMP:20260715T083957Z
+DTSTAMP:20260715T091457Z
 DTSTART;TZID=Asia/Taipei:20260711T140000
 DTEND;TZID=Asia/Taipei:20260711T160000
 SUMMARY:口琴入門推廣講座
@@ -21,8 +21,22 @@ URL:https://www.facebook.com/twharmonica/posts/pfbid07CLAcEbSrP9wrHocyXC7Za
  US2ERQAN75Sh3fPjM835wmjAokvbtWrRP7Wkh5mdGal
 END:VEVENT
 BEGIN:VEVENT
+UID:dde2da29917d141e@harmonica.observe.tw
+DTSTAMP:20260715T091457Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:RJマンスリーライブ
+LOCATION:RJ
+DESCRIPTION:候選日期對應 7月16日(木) 的現場月例演出。貼
+ 文另提到 6月20日的 YouTube 生配信，但那是另一個活動，
+ 已忽略。\nhttps://www.facebook.com/minamirisa/posts/pfbid02bqxbuC9dXVz
+ CscsnHxwfLeYFtHi1ZsXz9hqXtwUGJAn79SzgScBfb93p7o4KKhpnl
+URL:https://www.facebook.com/minamirisa/posts/pfbid02bqxbuC9dXVzCscsnHxwfLe
+ YFtHi1ZsXz9hqXtwUGJAn79SzgScBfb93p7o4KKhpnl
+END:VEVENT
+BEGIN:VEVENT
 UID:88fb7911620b72be@harmonica.observe.tw
-DTSTAMP:20260715T083957Z
+DTSTAMP:20260715T091457Z
 DTSTART;TZID=Asia/Taipei:20260718T193000
 DTEND;TZID=Asia/Taipei:20260718T213000
 SUMMARY:臺灣探戈樂團創團音樂會
@@ -33,48 +47,117 @@ DESCRIPTION:演出：臺灣探戈樂團創團音樂會（Taiwan Tango Orque
 URL:https://www.youtube.com/watch?v=PA11sSFkJeA
 END:VEVENT
 BEGIN:VEVENT
+UID:fa1f1ad3c3f458f6@harmonica.observe.tw
+DTSTAMP:20260715T091457Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+SUMMARY:Wonderful Sunday
+LOCATION:Singapore HAS Clubhouse
+DESCRIPTION:活動時間為 2026-07-19 14:00–15:00，免費入場，歡
+ 迎參加。內容包含口琴音樂、會員交流互動，並介紹即
+ 將前往中國江陰參加第十五屆亞太口琴節的新加坡演出
+ 團體。\nhttps://www.instagram.com/p/DaiInvGPyv2/
+URL:https://www.instagram.com/p/DaiInvGPyv2/
+END:VEVENT
+BEGIN:VEVENT
+UID:52a05d962c036d72@harmonica.observe.tw
+DTSTAMP:20260715T091457Z
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
+SUMMARY:Wonderful Sunday
+LOCATION:Singapore HAS Clubhouse
+DESCRIPTION:口琴愛好者聚會與演出活動，包含 Harmoni Spring Ha
+ rmonica Ensemble、HNHK Harmonica Group、Braddell Heights Harmonica Group
+  等演出，免費入場。貼文另提到 7 月 23 日至 27 日將前
+ 往中國江陰參加第十五屆亞太口琴節。\nhttps://www.instagram
+ .com/p/DaiInvGPyv2/
+URL:https://www.instagram.com/p/DaiInvGPyv2/
+END:VEVENT
+BEGIN:VEVENT
+UID:a2cccc09941b58be@harmonica.observe.tw
+DTSTAMP:20260715T091457Z
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
+SUMMARY:メジャーデビュー10周年記念コンサート
+LOCATION:和歌山 LURU HALL
+DESCRIPTION:山下伶（クロマチックハーモニカ）のメジャー
+ デビュー10周年記念コンサート。候選日期對應 7/26（日
+ ）和歌山場，另有東京與大阪場次。\nhttps://www.instagram.co
+ m/p/DaQA2cJzkP6/
+URL:https://www.instagram.com/p/DaQA2cJzkP6/
+END:VEVENT
+BEGIN:VEVENT
 UID:69965f026040fd61@harmonica.observe.tw
-DTSTAMP:20260715T083957Z
+DTSTAMP:20260715T091457Z
 DTSTART;TZID=Asia/Taipei:20260725T140000
 DTEND;TZID=Asia/Taipei:20260725T160000
 SUMMARY:2026 臺灣口琴音樂節：前導音樂會
 LOCATION:新竹縣竹東鎮 竹東親愛愛樂音樂巷-音樂廳
 DESCRIPTION:邀請 Do Not Disturb、Attack on Harmonica、Triangle Harmonic
  a Ensemble 三組新生代口琴重奏團體演出。活動免費參與，
- 限額 65 位觀眾，需線上報名。\nhttps://www.instagram.com/p/Daw_
- UL_kxiZ/
+ 限額 65 位，需線上報名。\nhttps://www.instagram.com/p/Daw_UL_kxi
+ Z/
+URL:https://www.instagram.com/p/Daw_UL_kxiZ/
+END:VEVENT
+BEGIN:VEVENT
+UID:93e8a0bb8f1bb428@harmonica.observe.tw
+DTSTAMP:20260715T091457Z
+DTSTART;TZID=Asia/Taipei:20260725T143000
+DTEND;TZID=Asia/Taipei:20260725T163000
+SUMMARY:山下伶 クロマチックハーモニカ 10th Anniversary Concer
+ t～希望の種を音に乗せて～
+LOCATION:大阪 心斎橋PARCO 14F SPACE14
+DESCRIPTION:山下伶的クロマチックハーモニカ出道10周年紀
+ 念音樂會，特別來賓為徳永延生、徳永有生。票價為6\,50
+ 0日圓（含稅、全席指定），7月25日開場15:30、開演16:00。
+ \nhttps://www.instagram.com/p/DakPnhqk0QY/
+URL:https://www.instagram.com/p/DakPnhqk0QY/
+END:VEVENT
+BEGIN:VEVENT
+UID:8d1350cf7a22233a@harmonica.observe.tw
+DTSTAMP:20260715T091457Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260810
+SUMMARY:2026 臺灣口琴音樂節：前導音樂會
+LOCATION:新竹縣竹東鎮 竹東親愛愛樂音樂巷-音樂廳
+DESCRIPTION:免費參與，限額65位，需線上報名。邀請 Do Not Di
+ sturb、Attack on Harmonica、Triangle Harmonica Ensemble 演出。\nhttps
+ ://www.instagram.com/p/Daw_UL_kxiZ/
 URL:https://www.instagram.com/p/Daw_UL_kxiZ/
 END:VEVENT
 BEGIN:VEVENT
 UID:7ee2f2b245bae865@harmonica.observe.tw
-DTSTAMP:20260715T083957Z
+DTSTAMP:20260715T091457Z
 DTSTART;TZID=Asia/Taipei:20260807T190000
 DTEND;TZID=Asia/Taipei:20260807T210000
-SUMMARY:2026臺灣口琴音樂節 Gala音樂會
+SUMMARY:風城Show琴 Harmonica Fest in Windy City
 LOCATION:新竹市文化局演藝廳音樂廳
-DESCRIPTION:風城Show琴音樂會於8月7日19:00舉行，由茱蒂口琴
- 樂團與狂響口琴樂團等多位演奏家演出。為三場Gala音樂
- 會的首場。\nhttps://www.facebook.com/twharmonica/posts/pfbid02676rr26
- nHtTsSNejQMDG7Ds86zjUy6csA1YvGWAduGDe2EopZ2AYrQgS7tXe1iKal
+DESCRIPTION:2026 臺灣口琴音樂節的 Gala 音樂會之一，8月7日 1
+ 9:00 舉行。演出者包含 Judy's Harmonica Ensemble 茱蒂口琴樂團
+ 、Rhapsody Harmonica Ensemble 狂響口琴樂團等口琴演奏家，購
+ 票入場。\nhttps://www.facebook.com/twharmonica/posts/pfbid02676rr26nHt
+ TsSNejQMDG7Ds86zjUy6csA1YvGWAduGDe2EopZ2AYrQgS7tXe1iKal
 URL:https://www.facebook.com/twharmonica/posts/pfbid02676rr26nHtTsSNejQMDG7
  Ds86zjUy6csA1YvGWAduGDe2EopZ2AYrQgS7tXe1iKal
 END:VEVENT
 BEGIN:VEVENT
-UID:290ed9103b60d6e4@harmonica.observe.tw
-DTSTAMP:20260715T083957Z
-DTSTART;VALUE=DATE:20260808
-DTEND;VALUE=DATE:20260809
-SUMMARY:2026臺灣口琴音樂節
-LOCATION:open Stage
-DESCRIPTION:包含8/8(六)晚上的《桂冠之聲：2026臺灣口琴音樂
- 節Gala音樂會》演出。\nhttps://www.facebook.com/Punch.Harp/posts/pf
- bid02tDSb1bXZ5dDKvwEgPoMjznNjS8qHc59cMXkjkV3GMZsyQF8tidGAtMsCcCaVcnKMl
-URL:https://www.facebook.com/Punch.Harp/posts/pfbid02tDSb1bXZ5dDKvwEgPoMjzn
- NjS8qHc59cMXkjkV3GMZsyQF8tidGAtMsCcCaVcnKMl
+UID:48d83da0d3424f97@harmonica.observe.tw
+DTSTAMP:20260715T091457Z
+DTSTART;TZID=Asia/Taipei:20260808T190000
+DTEND;TZID=Asia/Taipei:20260808T210000
+SUMMARY:桂冠之聲 Voices of the Laureates
+LOCATION:新竹市文化局演藝廳音樂廳
+DESCRIPTION:世界口琴節主題音樂會，邀請來自香港、韓國與
+ 臺灣的口琴演奏家與樂團共演。8月8日（六）19:00 開演，
+ 購票入場；參賽者憑參賽證可自由入場。\nhttps://www.facebo
+ ok.com/twharmonica/posts/pfbid02676rr26nHtTsSNejQMDG7Ds86zjUy6csA1YvGWAduG
+ De2EopZ2AYrQgS7tXe1iKal
+URL:https://www.facebook.com/twharmonica/posts/pfbid02676rr26nHtTsSNejQMDG7
+ Ds86zjUy6csA1YvGWAduGDe2EopZ2AYrQgS7tXe1iKal
 END:VEVENT
 BEGIN:VEVENT
 UID:6670d32764968444@harmonica.observe.tw
-DTSTAMP:20260715T083957Z
+DTSTAMP:20260715T091457Z
 DTSTART;TZID=Asia/Taipei:20260821T183000
 DTEND;TZID=Asia/Taipei:20260821T203000
 SUMMARY:臺中一中口琴之狼校友音樂會《天琴聲等煙雨》
@@ -84,5 +167,19 @@ DESCRIPTION:校友音樂會，免費入場。\nhttps://www.facebook.com/tcf
  nUEx5PmsZfsebB4Zl
 URL:https://www.facebook.com/tcfsh.harmonica/posts/pfbid026TX9x37qBLk1W7jif
  1qzR2vfQrhDWpVWSXjmo8mDw9xLn5CHnUEx5PmsZfsebB4Zl
+END:VEVENT
+BEGIN:VEVENT
+UID:4b7c24f5e4469879@harmonica.observe.tw
+DTSTAMP:20260715T091457Z
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
+SUMMARY:南里沙 プチプチコンサート in 田園調布
+LOCATION:東京 田園調布ピアノサロンNOAH
+DESCRIPTION:南里沙獨奏的クロマチックハーモニカ小型音樂
+ 會。2026年8月22日開場13:15、開演13:45，票價3\,000円，提供
+ 預約連結。\nhttps://www.facebook.com/minamirisa/posts/pfbid02Xx1Assbv
+ jKU8DWtGxFnBKXrVEBpyjdUt2THJcrtjYrKfMfi5c8QJzYUV93EeacNMl
+URL:https://www.facebook.com/minamirisa/posts/pfbid02Xx1AssbvjKU8DWtGxFnBKX
+ rVEBpyjdUt2THJcrtjYrKfMfi5c8QJzYUV93EeacNMl
 END:VEVENT
 END:VCALENDAR
