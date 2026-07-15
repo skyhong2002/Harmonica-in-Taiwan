@@ -1,6 +1,6 @@
 window.publicCalendarEvents = {
   "version": 1,
-  "generatedAt": "2026-07-15T14:41:18+08:00",
+  "generatedAt": "2026-07-15T15:13:30+08:00",
   "timezone": "Asia/Taipei",
   "count": 6,
   "source": "/api/events.json",
@@ -203,5 +203,6 @@ window.publicCalendarEvents = {
       ],
       "image_url": "/assets/feed-images/db6b49e57601f4e9884d.webp"
     }
-  ]
+  ],
+  "submittedEvents": 0
 };
