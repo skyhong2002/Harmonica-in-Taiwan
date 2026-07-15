@@ -7,8 +7,160 @@
   "rss": "https://harmonica.observe.tw/feeds/posts-videos.xml",
   "json": "https://harmonica.observe.tw/api/posts-videos.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/posts-videos.json",
-  "count": 1662,
+  "count": 1667,
   "items": [
+    {
+      "title": "御風裕豐 Lin Yu Feng｜A-Lin《有一種悲傷》 - 電影『比悲傷更悲傷的故事』主題曲 有一種悲傷這首歌是電影《比悲傷更悲傷的故事》的主題曲 愛情雖美好，但沒能走到最後，卻又讓人倍感傷痛。 不管是正在經歷失戀、或失去些什麼的你，…",
+      "headline": "A-Lin《有一種悲傷》 - 電影『比悲傷更悲傷的故事』主題曲",
+      "display_title": "A-Lin《有一種悲傷》 - 電影『比悲傷更悲傷的故事』主題曲",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=e0ty8CdTuMY",
+      "source_id": "yt_yfharmonica",
+      "source": "御風裕豐 Lin Yu Feng",
+      "source_system_name": "林裕豐",
+      "source_profile_url": "https://www.youtube.com/channel/UC1m2IgdRMnhARNE1rPHgAng",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-43",
+      "directory_entry_name": "林裕豐",
+      "account": "https://www.youtube.com/channel/UC1m2IgdRMnhARNE1rPHgAng",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-07-15T10:00:12+00:00",
+      "posted_at_local": "2026-07-15 18:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-15T11:02:25.082464+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "影片",
+        "演出"
+      ],
+      "keyword_matches": [
+        "口琴"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.97,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "影片",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴演奏影片，屬口琴演奏者公開更新，符合收錄範圍。",
+      "text": "A-Lin《有一種悲傷》 - 電影『比悲傷更悲傷的故事』主題曲\n有一種悲傷這首歌是電影《比悲傷更悲傷的故事》的主題曲\n愛情雖美好，但沒能走到最後，卻又讓人倍感傷痛。\n不管是正在經歷失戀、或失去些什麼的你，\n希望都能重拾自己，從一段消耗的關係中走出來，\n找回那個原本閃閃發光的自己💖\n#有一種悲傷 #ALin #口琴 #鋼琴 #音樂療癒 #好好呼吸\n御風裕豐（LIN, Yu-Feng）\n口琴演奏｜教學｜維修\nInstagram https://www.instagram.com/yf__life/\nYora\n鋼琴合作x編曲創作x音樂心理學\nInstagram https://www.instagram.com/_yora._/",
+      "images": [
+        "https://i.ytimg.com/vi/e0ty8CdTuMY/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/e0ty8CdTuMY/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/40672022f02f1a35b7b6.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/NRCtVwzM1rIFgYxXhyKf01-nOqWZ45ayUb71b0XTshsQme6BQ5JYy24Za-wiELWlEyZVZxT6=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/3e104f803d8d921f85f4.webp",
+      "source_initials": "LYF",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "yt_yfharmonica:e0ty8CdTuMY"
+    },
+    {
+      "title": "御風裕豐 Lin, Yu-Feng｜電影「比悲傷更悲傷的故事」的主題曲《有一種悲傷》 愛情雖美好，但沒能走到最後，卻又讓人倍感傷痛。 不管是正在經歷失戀、或失去些什麼的你，希望都能重拾自己，從一段消耗的關係中走出來，找回那個原本閃閃發光的…",
+      "headline": "電影「比悲傷更悲傷的故事」的主題曲《有一種悲傷》",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DazzStgE_5G/",
+      "source_id": "ig_yf_life",
+      "source": "御風裕豐 Lin, Yu-Feng",
+      "source_system_name": "林裕豐",
+      "source_profile_url": "https://www.instagram.com/yf__life/",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-43",
+      "directory_entry_name": "林裕豐",
+      "account": "yf__life",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Wed, 15 Jul 2026 10:00:03 GMT",
+      "posted_at_local": "2026-07-15 18:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-15T11:02:25.082464+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/yf__life",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "影片"
+      ],
+      "keyword_matches": [
+        "口琴"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.96,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "個人公開口琴演奏影片，內容明確為口琴演奏與教學相關更新。",
+      "text": "電影「比悲傷更悲傷的故事」的主題曲《有一種悲傷》\n愛情雖美好，但沒能走到最後，卻又讓人倍感傷痛。\n不管是正在經歷失戀、或失去些什麼的你，希望都能重拾自己，從一段消耗的關係中走出來，找回那個原本閃閃發光的自己💖\n#有一種悲傷 #ALin #口琴 #鋼琴 #音樂療癒 #好好呼吸\n御風裕豐（LIN, Yu-Feng）\n口琴演奏｜教學｜維修\nYora\n鋼琴合作x編曲創作x音樂心理學",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/748026109_18092530976578408_7853390405988960656_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=Mzk0MTcxOTY4NTA1ODUyNjc5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE3MTUuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=wkyTBTH9WsEQ7kNvwEVzpPN&_nc_oc=AdpTUpeO6W9kSCyW8jbn8Rd1411l1RQT1uZ6hsOSdNINbUXu7IkjCix5q4nw6x5bLoU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=wNSEa_WARrmb-FmeyZ0P7w&_nc_ss=7a22e&oh=00_AQCOHssUN2goXFYzzouimN2HTD_dMoiwlZDy_xUdEbJtUQ&oe=6A5D5550"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQOTzYMel274mRQI-nytVE-cznAP5knyGs6lQqX7cDVxk8XDeCdfnxEDaREvruL-m7WQCLnpVV_m5HLcccNVu9UYbeNLfL-1a4jFbCo.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=SGX1LUm_OGAQ7kNvwGrOv-D&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MzkyMTE4ODU5NDg0ODk4MywiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoxMDMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=1fd2326acdb37ceb&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC82RTRDRkRBRTRBNDI5RThFQTk3MzU4RDEyMzJDOTE5Ml92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzZDNDQ5QUE5NzVBN0VGNkQ4MzhENzMwOUEzNjQ3NjkwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACau09jUm5P3DRUCKAJDMywXQFnD52yLQ5YYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=wNSEa_WARrmb-FmeyZ0P7w&_nc_zt=28&_nc_ss=7a22e&oh=00_AQAznfdxb1efYdZICK3mx-8UJxBvwvlL7hLXnLXzprDnJA&oe=6A593A04"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/748026109_18092530976578408_7853390405988960656_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=Mzk0MTcxOTY4NTA1ODUyNjc5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjE3MTUuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=wkyTBTH9WsEQ7kNvwEVzpPN&_nc_oc=AdpTUpeO6W9kSCyW8jbn8Rd1411l1RQT1uZ6hsOSdNINbUXu7IkjCix5q4nw6x5bLoU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=wNSEa_WARrmb-FmeyZ0P7w&_nc_ss=7a22e&oh=00_AQCOHssUN2goXFYzzouimN2HTD_dMoiwlZDy_xUdEbJtUQ&oe=6A5D5550",
+      "image_url": "/assets/feed-images/7a4ed4a2dea4b8f78150.webp",
+      "image_width": 800,
+      "image_height": 1423,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/515766695_18050447750578408_2550245376790621998_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gHQbwEm703lvYiYgy9FgjYhTijFHk07WD8CpZ88W9pgs3oSD8NXzSSBI27P5qQi-mo&_nc_ohc=dWurL-PsvHQQ7kNvwF1fLuC&_nc_gid=i99WRXGbBfggEZ25IbzXgQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQByo0b301SbT9yz_coc3TFMr4gxsnV_SuEUpuY0BQ4FiQ&oe=6A5D1C59&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/7953cf28a4c5bd4dc0ac.webp",
+      "source_initials": "LYF",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_yf_life:https://www.instagram.com/p/DazzStgE_5G/"
+    },
     {
       "title": "Harmonica FEN 口琴節與學院｜Instagram story @harmonica_fen_festival",
       "headline": "Instagram story @harmonica_fen_festival",
@@ -1940,6 +2092,94 @@
       "key": "ig_story_aidensoon:3941542742296050006_1799477"
     },
     {
+      "title": "音和樂器口琴專賣店｜樹林社大115春季班成果展_「口琴輕鬆學」表演曲目：「一路生花」 📣樹林社大「口琴輕鬆學」招生中 授課老師：張宇樞 上課地點：新北市樹林國小 🟡授課內容： 🔹複音口琴獨奏基礎教學： 📍複音口琴獨奏基礎教程第一冊（基礎篇…",
+      "headline": "樹林社大115春季班成果展_「口琴輕鬆學」表演曲目：「一路生花」",
+      "display_title": "樹林社大115春季班成果展_「口琴輕鬆學」表演曲目：「一路生花」",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=9oRSC3gtUzc",
+      "source_id": "yt_peacetonesharmonica",
+      "source": "音和樂器口琴專賣店",
+      "source_system_name": "音和樂器",
+      "source_profile_url": "https://www.youtube.com/channel/UCKiGyNdLFSOtEpwcMhsM0SA",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "directory_entry_id": "watchlist-27",
+      "directory_entry_name": "音和樂器",
+      "account": "https://www.youtube.com/channel/UCKiGyNdLFSOtEpwcMhsM0SA",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-07-15T03:04:17+00:00",
+      "posted_at_local": "2026-07-15 11:04",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-15T11:02:25.082464+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "成發",
+        "招生",
+        "報名",
+        "課程"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "招生",
+        "報名"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.99,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "成發",
+        "招生",
+        "報名",
+        "課程"
+      ],
+      "llm_categories": [
+        "events",
+        "opportunities"
+      ],
+      "llm_reason": "樹林社大口琴課成果展與招生報名資訊，屬口琴課程、成發與招生公告。",
+      "text": "樹林社大115春季班成果展_「口琴輕鬆學」表演曲目：「一路生花」\n📣樹林社大「口琴輕鬆學」招生中\n授課老師：張宇樞\n上課地點：新北市樹林國小\n🟡授課內容：\n🔹複音口琴獨奏基礎教學：\n📍複音口琴獨奏基礎教程第一冊（基礎篇）：\n呼吸法、單孔單音奏法、單把口琴吹奏。\n📍複音口琴獨奏基礎教程第二冊（雙口琴轉換篇）：雙口琴轉換技巧（C+C#)、吹奏除C調以外的各種調性樂曲。\n🔔報名時間：現正報名中\n報名方式：現場報名 or 網路報名\n📌線上報名：https://shulin.twco.org.tw/course/m_course_detail.php?u=79ce9d5e4f028682d63d3ca6f08b4901\n📌現場報名：樹林社區大學（樹林國小）",
+      "images": [
+        "https://i.ytimg.com/vi/9oRSC3gtUzc/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/9oRSC3gtUzc/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/b7a3429f01d217847876.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/n9Kwg9lIo_YmPMzGguk2PAqGMURo06nJ4iaZK7wfL2UqbgqxP-6-Am85qbOjItctn6_S-dI58g=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/46150a457fec935842d3.webp",
+      "source_initials": "音和",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽",
+        "學生社團"
+      ],
+      "key": "yt_peacetonesharmonica:9oRSC3gtUzc"
+    },
+    {
       "title": "Deak Harp｜6 years later 🗓⏳👣",
       "headline": "6 years later 🗓⏳👣",
       "display_title": "",
@@ -2088,6 +2328,160 @@
         "學生社團"
       ],
       "key": "ig_cy_leo:https://www.instagram.com/p/Day_1kMjIuW/"
+    },
+    {
+      "title": "衛武營國家藝術文化中心｜Instagram story @weiwuying_centerforthearts",
+      "headline": "Instagram story @weiwuying_centerforthearts",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/weiwuying_centerforthearts/3941448800366704029/",
+      "source_id": "ig_story_weiwuying_centerforthearts",
+      "source": "衛武營國家藝術文化中心",
+      "source_system_name": "衛武營國家藝術文化中心",
+      "source_profile_url": "https://www.instagram.com/weiwuying_centerforthearts/",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "directory_entry_id": "watchlist-78",
+      "directory_entry_name": "衛武營國家藝術文化中心",
+      "account": "weiwuying_centerforthearts",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-07-15T01:02:12+00:00",
+      "posted_at_local": "2026-07-15 09:02",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-15T11:02:25.082464+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "instagram_web",
+      "story_fetched_at": "2026-07-15T10:58:07.812069+00:00",
+      "story_expires_at": "2026-07-16T01:02:12+00:00",
+      "source_feed_url": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0",
+      "rsshub_guid": "3941448800366704029_5271664429",
+      "rsshub_title": "Instagram story @weiwuying_centerforthearts",
+      "instagram_user_id": "5271664429",
+      "matched_keywords": [
+        "限時動態"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": false,
+      "llm_confidence": 0.98,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "僅見衛武營 IG 限動來源，貼文文字無口琴相關內容，判定不相關。",
+      "text": "Instagram story @weiwuying_centerforthearts",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746878248_18346994326168430_7547364265935267280_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzk0MTQ0ODgwMDM2NjcwNDAyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEyMDYuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=G4ihRLK2-MwQ7kNvwGYV4Sv&_nc_oc=AdomKWezIVKVUcOuBdVRT9McambE4Y_duN_1RakNR3TLl60nsdpTimaMzT5hPfSevKc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=eL44v1tVe6C_WRsFsQ3GtA&_nc_ss=7a22e&oh=00_AQCCXauuLwlucFJl6IH4QEWqs2oaznoKcSQPkRDvnStEMQ&oe=6A5D3D77",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746878248_18346994326168430_7547364265935267280_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&_nc_cat=101&ig_cache_key=Mzk0MTQ0ODgwMDM2NjcwNDAyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEyMDYuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=G4ihRLK2-MwQ7kNvwGYV4Sv&_nc_oc=AdomKWezIVKVUcOuBdVRT9McambE4Y_duN_1RakNR3TLl60nsdpTimaMzT5hPfSevKc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=eL44v1tVe6C_WRsFsQ3GtA&_nc_ss=7a22e&oh=00_AQBcS3U9arjnR1Jx2bmiiJUN0SAvixSRUftJahSxg9foqg&oe=6A5D3D77",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746878248_18346994326168430_7547364265935267280_n.jpg?stp=dst-jpg_e35_p720x720_tt6&_nc_cat=101&ig_cache_key=Mzk0MTQ0ODgwMDM2NjcwNDAyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEyMDYuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=G4ihRLK2-MwQ7kNvwGYV4Sv&_nc_oc=AdomKWezIVKVUcOuBdVRT9McambE4Y_duN_1RakNR3TLl60nsdpTimaMzT5hPfSevKc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=eL44v1tVe6C_WRsFsQ3GtA&_nc_ss=7a22e&oh=00_AQDPaVJY-0F-61sD2PSV4xdGPEqO62Yed9zxFbjIYc4Yug&oe=6A5D3D77",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746878248_18346994326168430_7547364265935267280_n.jpg?stp=dst-jpg_e35_p640x640_sh2.08_tt6&_nc_cat=101&ig_cache_key=Mzk0MTQ0ODgwMDM2NjcwNDAyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEyMDYuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=G4ihRLK2-MwQ7kNvwGYV4Sv&_nc_oc=AdomKWezIVKVUcOuBdVRT9McambE4Y_duN_1RakNR3TLl60nsdpTimaMzT5hPfSevKc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=eL44v1tVe6C_WRsFsQ3GtA&_nc_ss=7a22e&oh=00_AQBVuzWiWg8V__YqI1XEpD81GKtkCo0y46iC6y-zcXdD6g&oe=6A5D3D77",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746878248_18346994326168430_7547364265935267280_n.jpg?stp=dst-jpg_e35_p480x480_tt6&_nc_cat=101&ig_cache_key=Mzk0MTQ0ODgwMDM2NjcwNDAyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEyMDYuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=G4ihRLK2-MwQ7kNvwGYV4Sv&_nc_oc=AdomKWezIVKVUcOuBdVRT9McambE4Y_duN_1RakNR3TLl60nsdpTimaMzT5hPfSevKc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=eL44v1tVe6C_WRsFsQ3GtA&_nc_ss=7a22e&oh=00_AQAqz-Se4bvu__KR9XT7qUbIafIrIAoC-VoEVvu1cdW--Q&oe=6A5D3D77",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746878248_18346994326168430_7547364265935267280_n.jpg?stp=dst-jpg_e35_p320x320_tt6&_nc_cat=101&ig_cache_key=Mzk0MTQ0ODgwMDM2NjcwNDAyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEyMDYuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=G4ihRLK2-MwQ7kNvwGYV4Sv&_nc_oc=AdomKWezIVKVUcOuBdVRT9McambE4Y_duN_1RakNR3TLl60nsdpTimaMzT5hPfSevKc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=eL44v1tVe6C_WRsFsQ3GtA&_nc_ss=7a22e&oh=00_AQCSmw8M1cJjqwcuTNar181pbfdV1UzyrEtcOEiv7dsKog&oe=6A5D3D77",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746878248_18346994326168430_7547364265935267280_n.jpg?stp=dst-jpg_e35_p240x240_tt6&_nc_cat=101&ig_cache_key=Mzk0MTQ0ODgwMDM2NjcwNDAyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEyMDYuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=G4ihRLK2-MwQ7kNvwGYV4Sv&_nc_oc=AdomKWezIVKVUcOuBdVRT9McambE4Y_duN_1RakNR3TLl60nsdpTimaMzT5hPfSevKc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=eL44v1tVe6C_WRsFsQ3GtA&_nc_ss=7a22e&oh=00_AQA0W1Qz3DnTXNxdHenx8dw0DAHtIqWU5PvSAgDNEScDWA&oe=6A5D3D77",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746878248_18346994326168430_7547364265935267280_n.jpg?stp=c0.469.1206.1206a_dst-jpg_e35_s1080x1080_tt6&_nc_cat=101&ig_cache_key=Mzk0MTQ0ODgwMDM2NjcwNDAyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEyMDYuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=G4ihRLK2-MwQ7kNvwGYV4Sv&_nc_oc=AdomKWezIVKVUcOuBdVRT9McambE4Y_duN_1RakNR3TLl60nsdpTimaMzT5hPfSevKc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=eL44v1tVe6C_WRsFsQ3GtA&_nc_ss=7a22e&oh=00_AQDC049PXHhJele7rUl7o1lpL-5v5T62Ua7EC7K-PYjUIw&oe=6A5D3D77",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746878248_18346994326168430_7547364265935267280_n.jpg?stp=c0.469.1206.1206a_dst-jpg_e35_s750x750_sh2.08_tt6&_nc_cat=101&ig_cache_key=Mzk0MTQ0ODgwMDM2NjcwNDAyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEyMDYuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=G4ihRLK2-MwQ7kNvwGYV4Sv&_nc_oc=AdomKWezIVKVUcOuBdVRT9McambE4Y_duN_1RakNR3TLl60nsdpTimaMzT5hPfSevKc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=eL44v1tVe6C_WRsFsQ3GtA&_nc_ss=7a22e&oh=00_AQBD5wLqeFiWFE0TKXD_GXRK0iARFlUv4qvM7jBtqYBRRg&oe=6A5D3D77",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746878248_18346994326168430_7547364265935267280_n.jpg?stp=c0.469.1206.1206a_dst-jpg_e35_s640x640_sh2.08_tt6&_nc_cat=101&ig_cache_key=Mzk0MTQ0ODgwMDM2NjcwNDAyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEyMDYuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=G4ihRLK2-MwQ7kNvwGYV4Sv&_nc_oc=AdomKWezIVKVUcOuBdVRT9McambE4Y_duN_1RakNR3TLl60nsdpTimaMzT5hPfSevKc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=eL44v1tVe6C_WRsFsQ3GtA&_nc_ss=7a22e&oh=00_AQCwDO-mVE8kYtEiG_2gKLlP7QyNAEXpVtYQPDCBHK2pyQ&oe=6A5D3D77",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746878248_18346994326168430_7547364265935267280_n.jpg?stp=c0.469.1206.1206a_dst-jpg_e35_s480x480_tt6&_nc_cat=101&ig_cache_key=Mzk0MTQ0ODgwMDM2NjcwNDAyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEyMDYuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=G4ihRLK2-MwQ7kNvwGYV4Sv&_nc_oc=AdomKWezIVKVUcOuBdVRT9McambE4Y_duN_1RakNR3TLl60nsdpTimaMzT5hPfSevKc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=eL44v1tVe6C_WRsFsQ3GtA&_nc_ss=7a22e&oh=00_AQBwnUW_4FUg3X4M-F6Va_jB0hrlvjesKTyu3J82FVtEFw&oe=6A5D3D77",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746878248_18346994326168430_7547364265935267280_n.jpg?stp=c0.469.1206.1206a_dst-jpg_e35_s320x320_tt6&_nc_cat=101&ig_cache_key=Mzk0MTQ0ODgwMDM2NjcwNDAyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEyMDYuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=G4ihRLK2-MwQ7kNvwGYV4Sv&_nc_oc=AdomKWezIVKVUcOuBdVRT9McambE4Y_duN_1RakNR3TLl60nsdpTimaMzT5hPfSevKc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=eL44v1tVe6C_WRsFsQ3GtA&_nc_ss=7a22e&oh=00_AQBxBZsTxOf437PH_nd3hAPV5LSsvop5FdGvMHFbVAy_fA&oe=6A5D3D77",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746878248_18346994326168430_7547364265935267280_n.jpg?stp=c0.469.1206.1206a_dst-jpg_e35_s240x240_tt6&_nc_cat=101&ig_cache_key=Mzk0MTQ0ODgwMDM2NjcwNDAyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEyMDYuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=G4ihRLK2-MwQ7kNvwGYV4Sv&_nc_oc=AdomKWezIVKVUcOuBdVRT9McambE4Y_duN_1RakNR3TLl60nsdpTimaMzT5hPfSevKc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=eL44v1tVe6C_WRsFsQ3GtA&_nc_ss=7a22e&oh=00_AQDvK1U2dzEv5Hea8V5ejrzr8j9pv5UamBlODK4iS4mGCQ&oe=6A5D3D77",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746878248_18346994326168430_7547364265935267280_n.jpg?stp=c0.469.1206.1206a_dst-jpg_e35_s150x150_tt6&_nc_cat=101&ig_cache_key=Mzk0MTQ0ODgwMDM2NjcwNDAyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEyMDYuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=G4ihRLK2-MwQ7kNvwGYV4Sv&_nc_oc=AdomKWezIVKVUcOuBdVRT9McambE4Y_duN_1RakNR3TLl60nsdpTimaMzT5hPfSevKc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=eL44v1tVe6C_WRsFsQ3GtA&_nc_ss=7a22e&oh=00_AQBKmlcSIAy9AecwVT9VxfFJGRpI1HA9CZLIqIKN6isemQ&oe=6A5D3D77"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746878248_18346994326168430_7547364265935267280_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzk0MTQ0ODgwMDM2NjcwNDAyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjEyMDYuc2RyLnJlZ3VsYXJfcGhvdG8uQzMifQ%3D%3D&_nc_ohc=G4ihRLK2-MwQ7kNvwGYV4Sv&_nc_oc=AdomKWezIVKVUcOuBdVRT9McambE4Y_duN_1RakNR3TLl60nsdpTimaMzT5hPfSevKc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=eL44v1tVe6C_WRsFsQ3GtA&_nc_ss=7a22e&oh=00_AQCCXauuLwlucFJl6IH4QEWqs2oaznoKcSQPkRDvnStEMQ&oe=6A5D3D77",
+      "image_url": "/assets/feed-images/4cb6736311ad91a49916.webp",
+      "image_width": 800,
+      "image_height": 1423,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/93491909_893012574478038_1176508670427529216_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby45MzMuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gHT1FIL3A2iKVqTXwiK-lyNyr8AIfpx-hr2uf5DRXofus-eOrVKDc9_L4XMESXRM8c&_nc_ohc=I_NhE7ApvRIQ7kNvwHjYFMv&_nc_gid=eL44v1tVe6C_WRsFsQ3GtA&edm=ANmP7GQBAAAA&ccb=7-5&oh=00_AQAfrC1i1IbVl7V3m1TvNZlTDLSe1f5TCXar_ka_iO9PcA&oe=6A5D1E79&_nc_sid=982cc7",
+      "avatar_url": "/assets/source-avatars/5dc67ff6065e9af9ce6e.webp",
+      "source_initials": "衛武",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_story_weiwuying_centerforthearts:3941448800366704029_5271664429"
+    },
+    {
+      "title": "就是吹口琴 陳鴻儀Henry’s Harmonica｜【就是吹口琴Just Play Harmonica 】｜五輪真弓 – 潮騷｜複音口琴Tremolo Harmonica 演奏版本《C調》 潮騷 五輪真弓 作曲 五輪真弓 作詞 五輪真弓…",
+      "headline": "【就是吹口琴Just Play Harmonica 】｜五輪真弓 – 潮騷｜複音口琴Tremolo Harmonica 演奏版本《C調》",
+      "display_title": "【就是吹口琴Just Play Harmonica 】｜五輪真弓 – 潮騷｜複音口琴Tremolo Harmonica 演奏版本《C調》",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=h1XQTLoX26E",
+      "source_id": "yt_henrysharmonica",
+      "source": "就是吹口琴 陳鴻儀Henry’s Harmonica",
+      "source_system_name": "陳鴻儀",
+      "source_profile_url": "https://www.youtube.com/channel/UC7dQryOizHj-cKHV3xw0ASQ",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-40",
+      "directory_entry_name": "陳鴻儀",
+      "account": "https://www.youtube.com/channel/UC7dQryOizHj-cKHV3xw0ASQ",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-07-15T00:00:06+00:00",
+      "posted_at_local": "2026-07-15 08:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-15T11:02:25.082464+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "影片",
+        "演出"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "影片",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴演奏影片，屬公開更新且與口琴相關。",
+      "text": "【就是吹口琴Just Play Harmonica 】｜五輪真弓 – 潮騷｜複音口琴Tremolo Harmonica 演奏版本《C調》\n潮騷\n五輪真弓 作曲\n五輪真弓 作詞\n五輪真弓 原唱\n複音口琴演奏版本《C調》",
+      "images": [
+        "https://i.ytimg.com/vi/h1XQTLoX26E/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/h1XQTLoX26E/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/29e1da5947b38532453d.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/jRo3PEipmEqPOdl6u-yU-T8hME_tD8ty8dKJo6_cZZyY9Dz9-aPLGdXfwpBf5Y-SR2F0bk4b7Q=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/11010264a3489f5a5679.webp",
+      "source_initials": "HSH",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "yt_henrysharmonica:h1XQTLoX26E"
     },
     {
       "title": "EMPA 口琴課程｜Instagram story @empa.oficial",
