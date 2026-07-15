@@ -1,5 +1,5 @@
 window.HARMONICA_OBSERVE_DATA = {
-  "generatedAt": "2026-07-15",
+  "generatedAt": "2026-07-16",
   "entries": [
     {
       "id": "watchlist-34",
@@ -932,7 +932,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-15 16:48",
       "latestUpdateSource": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
       "latestUpdateUrl": "https://www.instagram.com/p/Dazq2m9RZfu/",
-      "avatarUrl": "/assets/source-avatars/94078177897f59538292.webp",
+      "avatarUrl": "/assets/source-avatars/5838d7cd4d79864f756c.webp",
       "sourceInitials": "JSH",
       "sourceTags": [
         "團體樂團",

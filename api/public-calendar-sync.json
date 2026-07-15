@@ -18,14 +18,14 @@
       "calendarId": "cbdc66a25ae90faf41317ce9d82f702d16ced35a2859e6a25a43ce4227e3f86a@group.calendar.google.com",
       "calendarKey": "overseas",
       "calendarName": "國外口琴實體活動",
-      "created": 2,
+      "created": 0,
       "deleted": 0,
       "eventMode": "overseas_physical",
       "eventsPath": "site/api/overseas-calendar-events.json",
       "kept": 6,
       "metadataUpdated": true,
       "status": "ok",
-      "updated": 4
+      "updated": 6
     },
     {
       "calendarId": "04afd340280f48bd593a1a7949a0a3a3e288dcf970278ca21f2ad3e32fafdc7e@group.calendar.google.com",
@@ -42,12 +42,12 @@
     }
   ],
   "client": "google-api-python-client",
-  "created": 2,
+  "created": 0,
   "deleted": 0,
-  "generatedAt": "2026-07-15T15:23:15.013079+00:00",
+  "generatedAt": "2026-07-15T16:27:02.624738+00:00",
   "kept": 13,
   "message": "Google Calendar sync completed for 3/3 calendars.",
   "status": "ok",
-  "updated": 11,
+  "updated": 13,
   "version": 2
 }
