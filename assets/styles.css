@@ -611,77 +611,12 @@ h2 {
   line-height: 0;
 }
 
-.public-calendar-filter {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 12px;
-}
-
-.public-calendar-filter-option {
-  display: inline-flex;
-  min-height: 40px;
-  align-items: center;
-  gap: 8px;
-  padding: 7px 11px;
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  background: #fff;
-  color: var(--ink);
-  cursor: pointer;
-  font-size: 0.92rem;
-  font-weight: 800;
-  line-height: 1.2;
-}
-
-.public-calendar-filter-option:has(input:focus-visible) {
-  outline: 3px solid rgba(25, 103, 210, 0.3);
-  outline-offset: 2px;
-}
-
-.public-calendar-filter-option:has(input:not(:checked)) {
-  background: #f5f7f6;
-  color: var(--muted);
-}
-
-.public-calendar-filter-option input {
-  width: 18px;
-  height: 18px;
-  margin: 0;
-}
-
-.public-calendar-color {
-  width: 10px;
-  height: 10px;
-  flex: 0 0 10px;
-  border-radius: 2px;
-  background: var(--calendar-color);
-}
-
 .public-calendar-frame iframe {
   display: block;
   width: 100%;
   height: min(720px, 82vh);
   min-height: 560px;
   border: 0;
-}
-
-.public-calendar-frame.is-empty iframe {
-  display: none;
-}
-
-.public-calendar-empty {
-  min-height: 220px;
-  margin: 0;
-  place-items: center;
-  background: #f5f7f6;
-  color: var(--muted);
-  font-weight: 800;
-  line-height: 1.5;
-}
-
-.public-calendar-frame.is-empty .public-calendar-empty {
-  display: grid;
 }
 
 .feed-filter-row {
