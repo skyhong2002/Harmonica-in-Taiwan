@@ -1,5 +1,5 @@
 {
-  "calendarId": "4c80e43dc069b1ded7c42183a377c20cb2f675e71e8a627b57b883de83d3a219@group.calendar.google.com",
+  "calendarId": "",
   "calendars": [
     {
       "calendarId": "4c80e43dc069b1ded7c42183a377c20cb2f675e71e8a627b57b883de83d3a219@group.calendar.google.com",
@@ -13,15 +13,41 @@
       "metadataUpdated": true,
       "status": "ok",
       "updated": 7
+    },
+    {
+      "calendarId": "cbdc66a25ae90faf41317ce9d82f702d16ced35a2859e6a25a43ce4227e3f86a@group.calendar.google.com",
+      "calendarKey": "overseas",
+      "calendarName": "國外口琴實體活動",
+      "created": 0,
+      "deleted": 0,
+      "eventMode": "overseas_physical",
+      "eventsPath": "site/api/overseas-calendar-events.json",
+      "kept": 4,
+      "metadataUpdated": true,
+      "status": "ok",
+      "updated": 4
+    },
+    {
+      "calendarId": "04afd340280f48bd593a1a7949a0a3a3e288dcf970278ca21f2ad3e32fafdc7e@group.calendar.google.com",
+      "calendarKey": "online",
+      "calendarName": "線上口琴活動",
+      "created": 0,
+      "deleted": 0,
+      "eventMode": "online",
+      "eventsPath": "site/api/online-calendar-events.json",
+      "kept": 0,
+      "metadataUpdated": true,
+      "status": "ok",
+      "updated": 0
     }
   ],
   "client": "google-api-python-client",
   "created": 0,
   "deleted": 0,
-  "generatedAt": "2026-07-15T09:35:09.845216+00:00",
-  "kept": 7,
-  "message": "Google Calendar sync completed for 1/1 calendars.",
+  "generatedAt": "2026-07-15T09:37:35.068252+00:00",
+  "kept": 11,
+  "message": "Google Calendar sync completed for 3/3 calendars.",
   "status": "ok",
-  "updated": 7,
+  "updated": 11,
   "version": 2
 }

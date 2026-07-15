@@ -1,11 +1,11 @@
 {
   "currentStep": "",
-  "heartbeatAt": "2026-07-15T09:35:20.417313+00:00",
+  "heartbeatAt": "2026-07-15T09:37:56.009060+00:00",
   "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
   "maxPostAgeDays": 30,
   "message": "Pipeline completed; publishing snapshot",
-  "pid": 429,
-  "startedAt": "2026-07-15T09:34:59.852760+00:00",
+  "pid": 3264,
+  "startedAt": "2026-07-15T09:37:16.146928+00:00",
   "status": "ok",
   "steps": [
     {
@@ -13,10 +13,10 @@
         "/opt/homebrew/opt/python@3.14/bin/python3.14",
         "scripts/build_social_sources.py"
       ],
-      "finishedAt": "2026-07-15T09:34:59.938493+00:00",
+      "finishedAt": "2026-07-15T09:37:16.396778+00:00",
       "name": "build social sources",
       "returnCode": 0,
-      "startedAt": "2026-07-15T09:34:59.853477+00:00",
+      "startedAt": "2026-07-15T09:37:16.149865+00:00",
       "status": "ok"
     },
     {
@@ -24,10 +24,10 @@
         "/opt/homebrew/opt/python@3.14/bin/python3.14",
         "scripts/build_public_data.py"
       ],
-      "finishedAt": "2026-07-15T09:35:01.218241+00:00",
+      "finishedAt": "2026-07-15T09:37:20.028994+00:00",
       "name": "build public data",
       "returnCode": 0,
-      "startedAt": "2026-07-15T09:34:59.939057+00:00",
+      "startedAt": "2026-07-15T09:37:16.408486+00:00",
       "status": "ok"
     },
     {
@@ -36,10 +36,10 @@
         "scripts/backfill_public_source_pages.py",
         "--skip-fetch"
       ],
-      "finishedAt": "2026-07-15T09:35:02.888201+00:00",
+      "finishedAt": "2026-07-15T09:37:22.914619+00:00",
       "name": "backfill source pages",
       "returnCode": 0,
-      "startedAt": "2026-07-15T09:35:01.218802+00:00",
+      "startedAt": "2026-07-15T09:37:20.030908+00:00",
       "status": "ok"
     },
     {
@@ -47,10 +47,10 @@
         "/opt/homebrew/opt/python@3.14/bin/python3.14",
         "scripts/build_public_data.py"
       ],
-      "finishedAt": "2026-07-15T09:35:04.119008+00:00",
+      "finishedAt": "2026-07-15T09:37:24.228316+00:00",
       "name": "rebuild public data",
       "returnCode": 0,
-      "startedAt": "2026-07-15T09:35:02.888855+00:00",
+      "startedAt": "2026-07-15T09:37:22.915618+00:00",
       "status": "ok"
     },
     {
@@ -58,10 +58,10 @@
         "/opt/homebrew/opt/python@3.14/bin/python3.14",
         "scripts/build_score_publications.py"
       ],
-      "finishedAt": "2026-07-15T09:35:04.198427+00:00",
+      "finishedAt": "2026-07-15T09:37:24.307106+00:00",
       "name": "build score publications",
       "returnCode": 0,
-      "startedAt": "2026-07-15T09:35:04.119571+00:00",
+      "startedAt": "2026-07-15T09:37:24.228751+00:00",
       "status": "ok"
     },
     {
@@ -69,10 +69,10 @@
         "/opt/homebrew/opt/python@3.14/bin/python3.14",
         "scripts/build_score_sources.py"
       ],
-      "finishedAt": "2026-07-15T09:35:04.246399+00:00",
+      "finishedAt": "2026-07-15T09:37:24.345617+00:00",
       "name": "build score sources",
       "returnCode": 0,
-      "startedAt": "2026-07-15T09:35:04.199014+00:00",
+      "startedAt": "2026-07-15T09:37:24.307557+00:00",
       "status": "ok"
     },
     {
@@ -80,10 +80,10 @@
         "/opt/homebrew/opt/python@3.14/bin/python3.14",
         "scripts/generate_rss_feeds.py"
       ],
-      "finishedAt": "2026-07-15T09:35:09.577837+00:00",
+      "finishedAt": "2026-07-15T09:37:34.669540+00:00",
       "name": "generate rss feeds",
       "returnCode": 0,
-      "startedAt": "2026-07-15T09:35:04.246942+00:00",
+      "startedAt": "2026-07-15T09:37:24.346112+00:00",
       "status": "ok"
     },
     {
@@ -91,10 +91,10 @@
         "/opt/homebrew/opt/python@3.14/bin/python3.14",
         "scripts/build_public_calendar_events.py"
       ],
-      "finishedAt": "2026-07-15T09:35:09.713590+00:00",
+      "finishedAt": "2026-07-15T09:37:34.931867+00:00",
       "name": "build public calendar events",
       "returnCode": 0,
-      "startedAt": "2026-07-15T09:35:09.578492+00:00",
+      "startedAt": "2026-07-15T09:37:34.672059+00:00",
       "status": "ok"
     },
     {
@@ -102,10 +102,10 @@
         "/opt/homebrew/opt/python@3.14/bin/python3.14",
         "scripts/apply_submitted_events.py"
       ],
-      "finishedAt": "2026-07-15T09:35:09.797747+00:00",
+      "finishedAt": "2026-07-15T09:37:35.014484+00:00",
       "name": "apply submitted events",
       "returnCode": 0,
-      "startedAt": "2026-07-15T09:35:09.714082+00:00",
+      "startedAt": "2026-07-15T09:37:34.932408+00:00",
       "status": "ok"
     },
     {
@@ -113,10 +113,10 @@
         "/Users/skyhong/.hermes/google-workspace-venv/bin/python",
         "scripts/sync_google_calendar_events.py"
       ],
-      "finishedAt": "2026-07-15T09:35:14.777423+00:00",
+      "finishedAt": "2026-07-15T09:37:45.970177+00:00",
       "name": "sync google calendar",
       "returnCode": 0,
-      "startedAt": "2026-07-15T09:35:09.798237+00:00",
+      "startedAt": "2026-07-15T09:37:35.014969+00:00",
       "status": "ok"
     },
     {
@@ -124,10 +124,10 @@
         "/opt/homebrew/opt/python@3.14/bin/python3.14",
         "scripts/build_status_page.py"
       ],
-      "finishedAt": "2026-07-15T09:35:16.317940+00:00",
+      "finishedAt": "2026-07-15T09:37:49.453148+00:00",
       "name": "build status page",
       "returnCode": 0,
-      "startedAt": "2026-07-15T09:35:14.778047+00:00",
+      "startedAt": "2026-07-15T09:37:45.973160+00:00",
       "status": "ok"
     },
     {
@@ -135,10 +135,10 @@
         "/opt/homebrew/opt/python@3.14/bin/python3.14",
         "scripts/build_submit_page.py"
       ],
-      "finishedAt": "2026-07-15T09:35:16.365565+00:00",
+      "finishedAt": "2026-07-15T09:37:49.494700+00:00",
       "name": "build submit page",
       "returnCode": 0,
-      "startedAt": "2026-07-15T09:35:16.318601+00:00",
+      "startedAt": "2026-07-15T09:37:49.454416+00:00",
       "status": "ok"
     },
     {
@@ -146,10 +146,10 @@
         "/opt/homebrew/opt/python@3.14/bin/python3.14",
         "scripts/generate_seo_pages.py"
       ],
-      "finishedAt": "2026-07-15T09:35:17.201299+00:00",
+      "finishedAt": "2026-07-15T09:37:51.018358+00:00",
       "name": "generate SEO pages",
       "returnCode": 0,
-      "startedAt": "2026-07-15T09:35:16.366269+00:00",
+      "startedAt": "2026-07-15T09:37:49.495516+00:00",
       "status": "ok"
     },
     {
@@ -157,10 +157,10 @@
         "/opt/homebrew/opt/python@3.14/bin/python3.14",
         "scripts/generate_cloudflare_redirects.py"
       ],
-      "finishedAt": "2026-07-15T09:35:17.245453+00:00",
+      "finishedAt": "2026-07-15T09:37:51.085358+00:00",
       "name": "generate cloudflare redirects",
       "returnCode": 0,
-      "startedAt": "2026-07-15T09:35:17.201940+00:00",
+      "startedAt": "2026-07-15T09:37:51.022087+00:00",
       "status": "ok"
     },
     {
@@ -168,10 +168,10 @@
         "/opt/homebrew/opt/python@3.14/bin/python3.14",
         "scripts/check_source_coverage.py"
       ],
-      "finishedAt": "2026-07-15T09:35:18.569680+00:00",
+      "finishedAt": "2026-07-15T09:37:52.583336+00:00",
       "name": "check source coverage",
       "returnCode": 0,
-      "startedAt": "2026-07-15T09:35:17.246263+00:00",
+      "startedAt": "2026-07-15T09:37:51.085786+00:00",
       "status": "ok"
     },
     {
@@ -179,10 +179,10 @@
         "/opt/homebrew/opt/python@3.14/bin/python3.14",
         "scripts/validate_public_outputs.py"
       ],
-      "finishedAt": "2026-07-15T09:35:20.415573+00:00",
+      "finishedAt": "2026-07-15T09:37:56.007712+00:00",
       "name": "validate public outputs",
       "returnCode": 0,
-      "startedAt": "2026-07-15T09:35:18.570273+00:00",
+      "startedAt": "2026-07-15T09:37:52.584251+00:00",
       "status": "ok"
     },
     {
@@ -190,10 +190,10 @@
         "/opt/homebrew/opt/python@3.14/bin/python3.14",
         "scripts/publish_github_pages.py"
       ],
-      "finishedAt": "2026-07-15T09:35:20.417090+00:00",
+      "finishedAt": "2026-07-15T09:37:56.008873+00:00",
       "name": "publish github pages",
       "returnCode": 0,
-      "startedAt": "2026-07-15T09:35:20.416766+00:00",
+      "startedAt": "2026-07-15T09:37:56.008651+00:00",
       "status": "ok"
     }
   ],
