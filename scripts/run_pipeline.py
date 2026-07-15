@@ -318,6 +318,7 @@ def main() -> int:
         run([PYTHON, "scripts/build_score_sources.py"], step="build score sources", status_hook=mark_step)
         run([PYTHON, "scripts/generate_rss_feeds.py"], step="generate rss feeds", status_hook=mark_step)
         run([PYTHON, "scripts/build_public_calendar_events.py"], step="build public calendar events", status_hook=mark_step)
+        run([PYTHON, "scripts/apply_submitted_events.py"], step="apply submitted events", status_hook=mark_step)
         if not args.skip_calendar_sync:
             run(
                 [google_workspace_python(), "scripts/sync_google_calendar_events.py"],

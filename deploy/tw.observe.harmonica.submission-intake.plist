@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>tw.observe.harmonica.submission-intake</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Users/skyhong/.hermes/google-workspace-venv/bin/python</string>
+      <string>/Users/skyhong/Documents/Harmonica-in-Taiwan/scripts/process_submission_intake.py</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/skyhong/Documents/Harmonica-in-Taiwan</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+      <key>HOME</key>
+      <string>/Users/skyhong</string>
+      <key>PATH</key>
+      <string>/Users/skyhong/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+      <key>HARMONICA_INTAKE_AI_COMMAND</key>
+      <string>/Users/skyhong/.local/bin/bamboo</string>
+      <key>HARMONICA_INTAKE_AI_PROVIDER</key>
+      <string>custom:ai-kot-gg</string>
+      <key>HARMONICA_INTAKE_AI_MODEL</key>
+      <string>gpt-5.6-sol</string>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StartInterval</key>
+    <integer>300</integer>
+
+    <key>ProcessType</key>
+    <string>Background</string>
+
+    <key>StandardOutPath</key>
+    <string>/Users/skyhong/Library/Logs/Harmonica-in-Taiwan/submission-intake.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/skyhong/Library/Logs/Harmonica-in-Taiwan/submission-intake.err.log</string>
+  </dict>
+</plist>
