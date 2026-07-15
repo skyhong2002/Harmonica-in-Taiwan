@@ -162,13 +162,13 @@ curl -A 'Mozilla/5.0' https://harmonica.observe.tw/api/sources.json
 
 ## 資料回報
 
-公開新增、修正、失效連結與來源更新應從網站回報頁開始。回報頁會依類型帶到對應的 GitHub Issue Form：
+公開新增、修正、失效連結與來源更新應從網站回報頁開始。回報頁直接嵌入由陽明交大竹韻口琴社帳號維護的 Google 表單，不需要 GitHub 帳號：
 
 ```text
 https://harmonica.observe.tw/submit/
 ```
 
-Issue 會公開顯示。請只填公開可查資料，不要放私人電話、私人信箱、未公開群組連結、會員資料或憑證。
+請只填公開可查資料，不要放私人電話、私人信箱、未公開群組連結、會員資料或憑證。表單題目與發布設定由 `scripts/configure_submission_form.py` 維護；OAuth token 留在本機 Hermes profile，不進 repo。
 
 ## License
 

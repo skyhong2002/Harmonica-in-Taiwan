@@ -48,6 +48,7 @@ REQUIRED_FILES = [
     SITE_ROOT / "scores" / "index.html",
     SITE_ROOT / "scores" / "sources" / "index.html",
     SITE_ROOT / "score-sources" / "index.html",
+    SITE_ROOT / "submit" / "index.html",
     SITE_ROOT / "status" / "index.html",
 ]
 
@@ -133,6 +134,7 @@ def asset_reference_files() -> list[Path]:
         SITE_ROOT / "scores" / "index.html",
         SITE_ROOT / "scores" / "sources" / "index.html",
         SITE_ROOT / "score-sources" / "index.html",
+        SITE_ROOT / "submit" / "index.html",
         SITE_ROOT / "status" / "index.html",
     ])
     return sorted(path for path in paths if path.exists())

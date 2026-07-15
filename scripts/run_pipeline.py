@@ -326,6 +326,7 @@ def main() -> int:
                 status_hook=mark_step,
             )
         run([PYTHON, "scripts/build_status_page.py"], step="build status page", status_hook=mark_step)
+        run([PYTHON, "scripts/build_submit_page.py"], step="build submit page", status_hook=mark_step)
         run([PYTHON, "scripts/generate_seo_pages.py"], step="generate SEO pages", status_hook=mark_step)
         run([PYTHON, "scripts/generate_cloudflare_redirects.py"], step="generate cloudflare redirects", status_hook=mark_step)
         run([PYTHON, "scripts/check_source_coverage.py"], step="check source coverage", status_hook=mark_step)
