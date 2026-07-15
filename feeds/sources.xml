@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 14 Jul 2026 23:36:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 00:08:30 +0000</lastBuildDate>
     <item>
       <title>Howard Levy</title>
       <link>https://levyland.com/</link>
@@ -27,6 +27,17 @@ Tag：品牌、演奏者、團體樂團、十孔、國際交流
 國家：丹麥
 地區：美國
 丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。</description>
+    </item>
+    <item>
+      <title>Federico Linari</title>
+      <link>https://www.hohner.de/en/federico-linari</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/fc7ebf0ba0d6424f</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、十孔、國際交流
+國家：阿根廷
+地區：阿根廷
+阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。</description>
     </item>
     <item>
       <title>進擊的口琴樂團</title>
@@ -82,6 +93,17 @@ Tag：演奏者、半音階、國際交流
 國家：日本
 地區：日本
 日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+    </item>
+    <item>
+      <title>口琴保存與推廣協會 SPAH</title>
+      <link>https://spah.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/5ca765124e708518</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：協會、活動資訊、國際交流
+國家：美國
+地區：美國/密蘇里
+美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。</description>
     </item>
     <item>
       <title>Younghoon Cho</title>
@@ -458,17 +480,6 @@ Tag：教學器材、教學
 臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。</description>
     </item>
     <item>
-      <title>口琴保存與推廣協會 SPAH</title>
-      <link>https://spah.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/5ca765124e708518</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：協會、活動資訊、國際交流
-國家：美國
-地區：美國/密蘇里
-美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。</description>
-    </item>
-    <item>
       <title>Konstantin Reinfeld</title>
       <link>https://www.konstantinreinfeld.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/1f99515f98ffec2b</guid>
@@ -665,17 +676,6 @@ Tag：團體樂團、重奏、國際交流
 國家：香港
 地區：香港/國際
 香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
-    </item>
-    <item>
-      <title>Federico Linari</title>
-      <link>https://www.hohner.de/en/federico-linari</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/fc7ebf0ba0d6424f</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學、十孔、國際交流
-國家：阿根廷
-地區：阿根廷
-阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。</description>
     </item>
     <item>
       <title>蔡明憲 DMing Studio</title>

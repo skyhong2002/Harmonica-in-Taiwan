@@ -177,6 +177,91 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-118",
+      "publicId": "118",
+      "name": "Federico Linari",
+      "nameEn": "Federico Linari",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "阿根廷",
+      "region": "阿根廷",
+      "cityOrFocus": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源",
+      "structuredSummary": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源 / 十孔/爵士口琴 / 國際演出人員/教學者/製作人",
+      "summary": "阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。",
+      "keywords": "Federico Linari harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hohner.de/en/federico-linari"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Federico.Linari.Armonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/fede.linari/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@FedericoLinari"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-14T17:01:15+00:00",
+      "latestUpdateLocal": "2026-07-15 01:01",
+      "latestUpdateSource": "Federico Linari",
+      "latestUpdateUrl": "https://www.instagram.com/stories/fede.linari/3941206732735316918/",
+      "avatarUrl": "/assets/source-avatars/d950d0555577280a56e0.webp",
+      "sourceInitials": "FL",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_federico_linari_armonica",
+          "name": "Federico Linari",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Federico.Linari.Armonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_fede_linari",
+          "name": "Federico Linari",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "fede.linari",
+          "profileUrl": "https://www.instagram.com/fede.linari/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_fede_linari",
+          "name": "Federico Linari",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "fede.linari",
+          "profileUrl": "https://www.instagram.com/fede.linari/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/fede.linari/story/0"
+        },
+        {
+          "id": "yt_federicolinari",
+          "name": "Federico Linari",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@FedericoLinari",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-97",
       "publicId": "97",
       "name": "進擊的口琴樂團",
@@ -570,6 +655,90 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@minamirisa",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-171",
+      "publicId": "171",
+      "name": "口琴保存與推廣協會 SPAH",
+      "nameEn": "Society for the Preservation and Advancement of the Harmonica",
+      "category": "活動資訊",
+      "type": "協會",
+      "originalType": "協會/活動",
+      "country": "美國",
+      "region": "美國/密蘇里",
+      "cityOrFocus": "SPAH convention/教育/青年獎學金/社群俱樂部",
+      "structuredSummary": "SPAH convention/教育/青年獎學金/社群俱樂部 / 口琴 / 國際協會/活動來源",
+      "summary": "美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。",
+      "keywords": "SPAH Society for the Preservation and Advancement of the Harmonica convention youth scholarships",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://spah.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/SPAH63/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/official_spah63/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-14T15:04:15+00:00",
+      "latestUpdateLocal": "2026-07-14 23:04",
+      "latestUpdateSource": "口琴保存與推廣協會 SPAH",
+      "latestUpdateUrl": "https://www.instagram.com/p/DaxxMncq1d5/",
+      "avatarUrl": "/assets/source-avatars/b95ef49cf0dba4544356.webp",
+      "sourceInitials": "S",
+      "sourceTags": [
+        "協會",
+        "活動資訊",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/SPAH63",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_official_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "official_spah63",
+          "profileUrl": "https://www.instagram.com/official_spah63/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_official_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "official_spah63",
+          "profileUrl": "https://www.instagram.com/official_spah63/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/official_spah63/story/0"
+        },
+        {
+          "id": "yt_ucbjlie6bvgh8jhvco_xltsg",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
           "feedUrl": ""
         }
       ]
@@ -3318,90 +3487,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-171",
-      "publicId": "171",
-      "name": "口琴保存與推廣協會 SPAH",
-      "nameEn": "Society for the Preservation and Advancement of the Harmonica",
-      "category": "活動資訊",
-      "type": "協會",
-      "originalType": "協會/活動",
-      "country": "美國",
-      "region": "美國/密蘇里",
-      "cityOrFocus": "SPAH convention/教育/青年獎學金/社群俱樂部",
-      "structuredSummary": "SPAH convention/教育/青年獎學金/社群俱樂部 / 口琴 / 國際協會/活動來源",
-      "summary": "美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。",
-      "keywords": "SPAH Society for the Preservation and Advancement of the Harmonica convention youth scholarships",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://spah.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/SPAH63/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/official_spah63/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-13T15:00:36+00:00",
-      "latestUpdateLocal": "2026-07-13 23:00",
-      "latestUpdateSource": "口琴保存與推廣協會 SPAH",
-      "latestUpdateUrl": "https://www.instagram.com/p/DavMA3pKzdj/",
-      "avatarUrl": "/assets/source-avatars/b95ef49cf0dba4544356.webp",
-      "sourceInitials": "S",
-      "sourceTags": [
-        "協會",
-        "活動資訊",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/SPAH63",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_official_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "official_spah63",
-          "profileUrl": "https://www.instagram.com/official_spah63/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_official_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "official_spah63",
-          "profileUrl": "https://www.instagram.com/official_spah63/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/official_spah63/story/0"
-        },
-        {
-          "id": "yt_ucbjlie6bvgh8jhvco_xltsg",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-107",
       "publicId": "107",
       "name": "Konstantin Reinfeld",
@@ -4867,91 +4952,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@RedBricksHarmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-118",
-      "publicId": "118",
-      "name": "Federico Linari",
-      "nameEn": "Federico Linari",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "阿根廷",
-      "region": "阿根廷",
-      "cityOrFocus": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源",
-      "structuredSummary": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源 / 十孔/爵士口琴 / 國際演出人員/教學者/製作人",
-      "summary": "阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。",
-      "keywords": "Federico Linari harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hohner.de/en/federico-linari"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Federico.Linari.Armonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/fede.linari/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@FedericoLinari"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-12T04:26:50+00:00",
-      "latestUpdateLocal": "2026-07-12 12:26",
-      "latestUpdateSource": "Federico Linari",
-      "latestUpdateUrl": "https://www.instagram.com/stories/fede.linari/3939377494034059641/",
-      "avatarUrl": "/assets/source-avatars/d950d0555577280a56e0.webp",
-      "sourceInitials": "FL",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_federico_linari_armonica",
-          "name": "Federico Linari",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Federico.Linari.Armonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_fede_linari",
-          "name": "Federico Linari",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "fede.linari",
-          "profileUrl": "https://www.instagram.com/fede.linari/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_fede_linari",
-          "name": "Federico Linari",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "fede.linari",
-          "profileUrl": "https://www.instagram.com/fede.linari/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/fede.linari/story/0"
-        },
-        {
-          "id": "yt_federicolinari",
-          "name": "Federico Linari",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@FedericoLinari",
           "feedUrl": ""
         }
       ]
