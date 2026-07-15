@@ -1788,88 +1788,37 @@ button.feed-tag-pill {
   background: #f8faf8;
 }
 
-.report-flow {
-  display: grid;
-  gap: 10px;
+.report-main {
+  background: #f3f5f4;
 }
 
-.report-flow span {
+.google-form-band {
+  padding: 24px 0 48px;
+  background: #f3f5f4;
+}
+
+.google-form-inner {
+  width: min(960px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.google-form-frame {
   display: block;
-  padding: 12px 14px;
-  color: var(--ink);
-  font-weight: 800;
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
+  width: 100%;
+  height: 2140px;
+  background: #f3f5f4;
+  border: 0;
 }
 
-.report-type-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 14px;
-}
-
-.report-type-card,
-.report-note-grid p {
-  padding: 18px;
-  background: #f8faf8;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-}
-
-.report-type-card {
-  display: grid;
-  gap: 12px;
-  align-content: start;
-}
-
-.report-card-action {
-  align-self: end;
-  justify-self: start;
-  margin-top: 4px;
-}
-
-.report-type-card h3 {
-  margin: 0;
-  font-size: 1.1rem;
-}
-
-.report-type-card p,
-.report-note-grid p {
-  margin: 0;
+.google-form-fallback {
+  margin: 16px 0 0;
   color: var(--muted);
+  text-align: center;
 }
 
-.report-note-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 14px;
-}
-
-.report-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  align-items: center;
-}
-
-.report-actions a {
-  display: inline-flex;
-  align-items: center;
-  min-height: 44px;
-  padding: 0 14px;
+.google-form-fallback a {
   color: var(--teal-deep);
   font-weight: 900;
-  text-decoration: none;
-  background: #edf8f5;
-  border: 1px solid #cfe6df;
-  border-radius: var(--radius);
-}
-
-.report-actions a:hover {
-  color: #fff;
-  background: var(--teal);
-  border-color: var(--teal);
 }
 
 .status-hero,
@@ -2860,8 +2809,6 @@ button.feed-tag-pill {
 
   .spotlight-grid,
   .directory-grid,
-  .report-type-grid,
-  .report-note-grid,
   .status-metric-grid,
   .feed-card-grid,
   .feed-category-grid {
@@ -3019,8 +2966,6 @@ button.feed-tag-pill {
 
   .spotlight-grid,
   .directory-grid,
-  .report-type-grid,
-  .report-note-grid,
   .status-metric-grid,
   .status-component-grid,
   .feed-card-grid,
@@ -3064,20 +3009,12 @@ button.feed-tag-pill {
     font-size: 1.8rem;
   }
 
-  .report-type-card,
-  .report-note-grid p {
-    padding: 14px;
-  }
-
-  .report-actions {
-    display: grid;
-  }
-
-  .report-actions .primary-link,
-  .report-actions a {
+  .google-form-inner {
     width: 100%;
-    justify-content: center;
-    white-space: normal;
+  }
+
+  .google-form-frame {
+    height: 2240px;
   }
 
   .home-feed-body {
