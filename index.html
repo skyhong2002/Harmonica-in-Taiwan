@@ -41,7 +41,7 @@
     <link rel="alternate" type="application/rss+xml" title="口琴學生社團動態" href="/feeds/student-clubs.xml">
     <link rel="alternate" type="application/rss+xml" title="補助與比賽資訊" href="/feeds/opportunities.xml">
     <link rel="alternate" type="application/rss+xml" title="臺灣口琴觀測站來源索引" href="/feeds/sources.xml">
-    <link rel="stylesheet" href="assets/styles.css?v=20260704-round-avatar">
+    <link rel="stylesheet" href="assets/styles.css?v=20260715-calendar-filter">
   </head>
   <body>
     <header class="site-header">
@@ -93,7 +93,7 @@
               <p class="section-kicker">Instagram Stories</p>
               <h2 id="latest-stories-title">近 24 小時限動</h2>
             </div>
-            <p class="data-date">Feed 更新 <span data-stat="feedGeneratedAt">2026-07-15 17:49</span></p>
+            <p class="data-date">Feed 更新 <span data-stat="feedGeneratedAt">2026-07-15 17:57</span></p>
           </div>
           <div class="home-story-strip" id="home-story-list">
             <div class="empty-state story-loading-message">載入近 24 小時限動中...</div>
@@ -120,17 +120,55 @@
               <h2 id="public-calendar-title">公開口琴活動日曆</h2>
             </div>
             <p class="data-date">
-              <a href="https://calendar.google.com/calendar/u/0/newembed?src=4c80e43dc069b1ded7c42183a377c20cb2f675e71e8a627b57b883de83d3a219%40group.calendar.google.com&ctz=Asia%2FTaipei" target="_blank" rel="noreferrer">Google Calendar</a>
+              <a href="https://calendar.google.com/calendar/u/0/newembed?src=4c80e43dc069b1ded7c42183a377c20cb2f675e71e8a627b57b883de83d3a219%40group.calendar.google.com&src=cbdc66a25ae90faf41317ce9d82f702d16ced35a2859e6a25a43ce4227e3f86a%40group.calendar.google.com&src=04afd340280f48bd593a1a7949a0a3a3e288dcf970278ca21f2ad3e32fafdc7e%40group.calendar.google.com&ctz=Asia%2FTaipei" target="_blank" rel="noreferrer">Google Calendar</a>
               ·
-              <a href="/feeds/public-calendar.ics">ICS</a>
+              <a href="/feeds/public-calendar.ics">臺灣 ICS</a>
+              ·
+              <a href="/feeds/overseas-calendar.ics">國外 ICS</a>
+              ·
+              <a href="/feeds/online-calendar.ics">線上 ICS</a>
             </p>
+          </div>
+          <div class="public-calendar-filter" role="group" aria-label="活動日曆篩選">
+            <label class="public-calendar-filter-option">
+              <input
+                type="checkbox"
+                checked
+                data-calendar-source
+                data-calendar-id="4c80e43dc069b1ded7c42183a377c20cb2f675e71e8a627b57b883de83d3a219@group.calendar.google.com"
+                data-calendar-color="#0B8043">
+              <span class="public-calendar-color" style="--calendar-color: #0b8043" aria-hidden="true"></span>
+              <span>臺灣實體</span>
+            </label>
+            <label class="public-calendar-filter-option">
+              <input
+                type="checkbox"
+                checked
+                data-calendar-source
+                data-calendar-id="cbdc66a25ae90faf41317ce9d82f702d16ced35a2859e6a25a43ce4227e3f86a@group.calendar.google.com"
+                data-calendar-color="#3F51B5">
+              <span class="public-calendar-color" style="--calendar-color: #3f51b5" aria-hidden="true"></span>
+              <span>國外實體</span>
+            </label>
+            <label class="public-calendar-filter-option">
+              <input
+                type="checkbox"
+                checked
+                data-calendar-source
+                data-calendar-id="04afd340280f48bd593a1a7949a0a3a3e288dcf970278ca21f2ad3e32fafdc7e@group.calendar.google.com"
+                data-calendar-color="#D81B60">
+              <span class="public-calendar-color" style="--calendar-color: #d81b60" aria-hidden="true"></span>
+              <span>線上活動</span>
+            </label>
           </div>
           <div class="public-calendar-frame">
             <iframe
-              title="臺灣口琴公開演出 Google Calendar"
-              src="https://calendar.google.com/calendar/embed?src=4c80e43dc069b1ded7c42183a377c20cb2f675e71e8a627b57b883de83d3a219%40group.calendar.google.com&ctz=Asia%2FTaipei&mode=AGENDA&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&showTz=0"
+              title="口琴公開活動 Google Calendar"
+              data-public-calendar-embed
+              src="https://calendar.google.com/calendar/embed?src=4c80e43dc069b1ded7c42183a377c20cb2f675e71e8a627b57b883de83d3a219%40group.calendar.google.com&color=%230B8043&src=cbdc66a25ae90faf41317ce9d82f702d16ced35a2859e6a25a43ce4227e3f86a%40group.calendar.google.com&color=%233F51B5&src=04afd340280f48bd593a1a7949a0a3a3e288dcf970278ca21f2ad3e32fafdc7e%40group.calendar.google.com&color=%23D81B60&ctz=Asia%2FTaipei&mode=AGENDA&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&showTz=0"
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p class="public-calendar-empty" hidden>目前未選取活動類型。</p>
           </div>
         </div>
       </section>
@@ -514,7 +552,7 @@
 
     <script src="data/site-data.js?v=20260704-round-avatar"></script>
     <script src="data/feed-data.js?v=20260704-round-avatar"></script>
-    <script src="assets/app.js?v=20260704-round-avatar"></script>
+    <script src="assets/app.js?v=20260715-calendar-filter"></script>
     <!-- deploy-retry-1 -->
   </body>
 </html>
