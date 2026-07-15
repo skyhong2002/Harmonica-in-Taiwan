@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 15 Jul 2026 00:08:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 01:13:43 +0000</lastBuildDate>
     <item>
       <title>Howard Levy</title>
       <link>https://levyland.com/</link>
@@ -38,6 +38,17 @@ Tag：演奏者、教學、十孔、國際交流
 國家：阿根廷
 地區：阿根廷
 阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。</description>
+    </item>
+    <item>
+      <title>CY Leo 何卓彥</title>
+      <link>https://www.cyleomusic.io/profile</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/161a953fbacb664c</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、合奏、國際交流
+國家：香港
+地區：香港
+香港半音階口琴演奏者，專注現代跨界與國際演出。</description>
     </item>
     <item>
       <title>進擊的口琴樂團</title>
@@ -82,6 +93,17 @@ Tag：活動資訊、比賽、半音階、十孔、國際交流
 國家：德國
 地區：德國/柏林
 德國的國際活動與教育來源，涵蓋柏林口琴節、Academy、演奏會、工作坊與Open Stage。</description>
+    </item>
+    <item>
+      <title>曹小歐</title>
+      <link>https://portaly.cc/otistsao</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/b08c62a560f55fb5</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、十孔
+國家：臺灣
+地區：臺灣
+臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。</description>
     </item>
     <item>
       <title>南里沙</title>
@@ -359,17 +381,6 @@ Tag：演奏者、合奏、和弦、重奏、演出
 口琴演奏者，專長和弦口琴與重奏演出。</description>
     </item>
     <item>
-      <title>曹小歐</title>
-      <link>https://portaly.cc/otistsao</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/b08c62a560f55fb5</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、十孔
-國家：臺灣
-地區：臺灣
-臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。</description>
-    </item>
-    <item>
       <title>唐雪婷 Sharene Tang</title>
       <link>https://www.facebook.com/sharenetang.fresco/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/4dc25ed2251d3a9d</guid>
@@ -533,17 +544,6 @@ Tag：團體樂團、國際交流
 國家：印尼
 地區：印尼
 印尼的口琴與跨界國際演出團體，活動脈絡包含Reyharp Naufal與Balawan合作、跨界融合與口琴與吉他。</description>
-    </item>
-    <item>
-      <title>CY Leo 何卓彥</title>
-      <link>https://www.cyleomusic.io/profile</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/161a953fbacb664c</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、合奏、國際交流
-國家：香港
-地區：香港
-香港半音階口琴演奏者，專注現代跨界與國際演出。</description>
     </item>
     <item>
       <title>mr.Why 花影樂團</title>
