@@ -272,11 +272,11 @@ class ApplySourceTests(unittest.TestCase):
                 [public_evidence("https://different.example.org/")],
             )
 
-    def test_writer_uses_lf_and_keeps_complete_schema(self):
+    def test_writer_preserves_registry_crlf_and_complete_schema(self):
         rows = intake.load_source_rows(self.root)
         intake.write_source_rows(self.root, rows)
         raw = (self.root / intake.SOURCE_CSV).read_bytes()
-        self.assertNotIn(b"\r\n", raw)
+        self.assertEqual(raw.count(b"\r\n"), raw.count(b"\n"))
         with (self.root / intake.SOURCE_CSV).open(
             newline="", encoding="utf-8-sig"
         ) as handle:

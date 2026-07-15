@@ -237,7 +237,7 @@ def validate_change(worktree: Path, result: dict[str, Any]) -> None:
             ],
             cwd=worktree,
         )
-    run(["git", "diff", "--check"], cwd=worktree)
+    run(["git", "-c", "core.whitespace=cr-at-eol", "diff", "--check"], cwd=worktree)
 
 
 def pr_title(result: dict[str, Any]) -> str:

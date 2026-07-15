@@ -825,7 +825,7 @@ def next_public_id(rows: list[dict[str, str]]) -> str:
 def write_source_rows(root: Path, rows: list[dict[str, str]]) -> None:
     path = root / SOURCE_CSV
     with path.open("w", newline="", encoding="utf-8-sig") as handle:
-        writer = csv.DictWriter(handle, fieldnames=SOURCE_FIELDS, lineterminator="\n")
+        writer = csv.DictWriter(handle, fieldnames=SOURCE_FIELDS, lineterminator="\r\n")
         writer.writeheader()
         writer.writerows({field: clean_text(row.get(field), 4000) for field in SOURCE_FIELDS} for row in rows)
 
