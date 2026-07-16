@@ -1,6 +1,6 @@
 {
   "count": 796,
-  "generatedAt": "2026-07-16T14:36:34+08:00",
+  "generatedAt": "2026-07-16T14:37:22+08:00",
   "scores": [
     {
       "arranger": "陳瑤容",
@@ -1027,6 +1027,44 @@
       "verificationStatus": "official-pdf"
     },
     {
+      "arranger": "丸玩琴音樂",
+      "category": "口琴(Harmonica)獨奏",
+      "composer": "郭芝苑",
+      "division": "大專組",
+      "id": "115-ind-010",
+      "lastVerifiedAt": "2026-07-16",
+      "links": [
+        {
+          "label": "115學年度個人項目指定曲",
+          "url": "https://web.arte.gov.tw/music/upfile/www/115/115學年度全國學生音樂比賽【決賽】指定曲%20個人項目0715..pdf"
+        },
+        {
+          "label": "出版／洽詢來源",
+          "url": "https://www.facebook.com/HarpoMusic/"
+        }
+      ],
+      "notes": "",
+      "performanceNote": "全曲演奏",
+      "program": "口琴獨奏",
+      "publisher": "丸玩琴音樂",
+      "publisherRaw": "丸玩琴音樂",
+      "publisherUrl": "https://www.facebook.com/HarpoMusic/",
+      "purchaseNote": "請洽丸玩琴音樂 Facebook",
+      "schoolYear": "115",
+      "scoreName": "紅薔薇",
+      "searchText": "紅薔薇  115 口琴獨奏 口琴(Harmonica)獨奏 大專組 郭芝苑 丸玩琴音樂 丸玩琴音樂 丸玩琴音樂 紅薔薇 全曲演奏 請洽丸玩琴音樂 Facebook  個人 複音口琴 指定曲",
+      "sourceLabel": "115學年度個人項目指定曲",
+      "sourceUrl": "https://web.arte.gov.tw/music/upfile/www/115/115學年度全國學生音樂比賽【決賽】指定曲%20個人項目0715..pdf",
+      "tags": [
+        "個人",
+        "複音口琴",
+        "指定曲"
+      ],
+      "title": "紅薔薇",
+      "titleAlt": "",
+      "verificationStatus": "official-pdf"
+    },
+    {
       "arranger": "林家靖",
       "category": "口琴(Harmonica)獨奏",
       "composer": "",
@@ -1096,44 +1134,6 @@
       ],
       "title": "婚禮的祝福",
       "titleAlt": "La Novia",
-      "verificationStatus": "official-pdf"
-    },
-    {
-      "arranger": "丸玩琴音樂",
-      "category": "口琴(Harmonica)獨奏",
-      "composer": "郭芝苑",
-      "division": "高中職組",
-      "id": "115-ind-010",
-      "lastVerifiedAt": "2026-07-16",
-      "links": [
-        {
-          "label": "115學年度個人項目指定曲",
-          "url": "https://web.arte.gov.tw/music/upfile/www/115/115學年度全國學生音樂比賽【決賽】指定曲%20個人項目0715..pdf"
-        },
-        {
-          "label": "出版／洽詢來源",
-          "url": "https://www.facebook.com/HarpoMusic/"
-        }
-      ],
-      "notes": "",
-      "performanceNote": "全曲演奏",
-      "program": "口琴獨奏",
-      "publisher": "丸玩琴音樂",
-      "publisherRaw": "丸玩琴音樂",
-      "publisherUrl": "https://www.facebook.com/HarpoMusic/",
-      "purchaseNote": "請洽丸玩琴音樂 Facebook",
-      "schoolYear": "115",
-      "scoreName": "紅薔薇",
-      "searchText": "紅薔薇  115 口琴獨奏 口琴(Harmonica)獨奏 高中職組 郭芝苑 丸玩琴音樂 丸玩琴音樂 丸玩琴音樂 紅薔薇 全曲演奏 請洽丸玩琴音樂 Facebook  個人 複音口琴 指定曲",
-      "sourceLabel": "115學年度個人項目指定曲",
-      "sourceUrl": "https://web.arte.gov.tw/music/upfile/www/115/115學年度全國學生音樂比賽【決賽】指定曲%20個人項目0715..pdf",
-      "tags": [
-        "個人",
-        "複音口琴",
-        "指定曲"
-      ],
-      "title": "紅薔薇",
-      "titleAlt": "",
       "verificationStatus": "official-pdf"
     },
     {
