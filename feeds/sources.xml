@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 16 Jul 2026 14:56:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 15:33:02 +0000</lastBuildDate>
     <item>
       <title>EMPA 口琴課程</title>
       <link>https://www.empa.edu.ar/</link>
@@ -29,6 +29,17 @@ Tag：演奏者、合奏、國際交流
 韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。</description>
     </item>
     <item>
+      <title>馬來西亞口琴節</title>
+      <link>https://www.facebook.com/malaysiaharmonicafestival/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/17d4f5097cac10dd</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、團體樂團、比賽、重奏、國際交流
+國家：馬來西亞
+地區：馬來西亞/吉隆坡
+馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。</description>
+    </item>
+    <item>
       <title>山下伶 Rei Yamashita</title>
       <link>https://rei-yamashita.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
@@ -38,6 +49,17 @@ Tag：演奏者、半音階、國際交流
 國家：日本
 地區：日本
 日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
+    </item>
+    <item>
+      <title>何家健 HarmoniKahkean</title>
+      <link>https://linktr.ee/harmonikahkean</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/3e3031f087b9c123</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、重奏、國際交流
+國家：馬來西亞
+地區：臺灣/花蓮；馬來西亞
+馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。</description>
     </item>
     <item>
       <title>唐雪婷 Sharene Tang</title>
@@ -645,17 +667,6 @@ Tag：演奏者、教學、重奏
 口琴演奏者，兼職教學與重奏活動。</description>
     </item>
     <item>
-      <title>何家健 HarmoniKahkean</title>
-      <link>https://linktr.ee/harmonikahkean</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/3e3031f087b9c123</guid>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、重奏、國際交流
-國家：馬來西亞
-地區：臺灣/花蓮；馬來西亞
-馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。</description>
-    </item>
-    <item>
       <title>千賀太郎</title>
       <link>https://www.instagram.com/taro_senga/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/351993af02b52cbc</guid>
@@ -786,17 +797,6 @@ Tag：品牌、教學器材、教學、半音階、複音、重奏
 國家：臺灣
 地區：臺灣
 臺灣的半音階、複音、Bass與Chord教學與維修來源，關注口琴教學、維修、重奏與硬體。</description>
-    </item>
-    <item>
-      <title>馬來西亞口琴節</title>
-      <link>https://www.facebook.com/malaysiaharmonicafestival/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/17d4f5097cac10dd</guid>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：活動資訊、團體樂團、比賽、重奏、國際交流
-國家：馬來西亞
-地區：馬來西亞/吉隆坡
-馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。</description>
     </item>
     <item>
       <title>Spring Harp Fest</title>

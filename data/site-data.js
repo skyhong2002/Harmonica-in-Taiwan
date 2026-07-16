@@ -148,6 +148,88 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-165",
+      "publicId": "165",
+      "name": "馬來西亞口琴節",
+      "nameEn": "Malaysia Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "比賽/資訊入口",
+      "country": "馬來西亞",
+      "region": "馬來西亞/吉隆坡",
+      "cityOrFocus": "馬來西亞口琴節/比賽/學生與樂團",
+      "structuredSummary": "馬來西亞口琴節/比賽/學生與樂團 / 口琴/重奏/合奏 / 國際活動來源",
+      "summary": "馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。",
+      "keywords": "Malaysia Harmonica Festival MYHF Malaysia Harmonica Competition",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/malaysiaharmonicafestival/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/malaysia_harmonica_festival/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@malaysiaharmonicafestival5523"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-16T12:36:55+00:00",
+      "latestUpdateLocal": "2026-07-16 20:36",
+      "latestUpdateSource": "馬來西亞口琴節",
+      "latestUpdateUrl": "https://www.instagram.com/p/Da2p_W_zZdS/",
+      "avatarUrl": "/assets/source-avatars/ff675f90d5ccd5b0e4a3.webp",
+      "sourceInitials": "馬來",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "比賽",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_malaysiaharmonicafestival",
+          "name": "馬來西亞口琴節",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/malaysiaharmonicafestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_malaysia_harmonica_festival",
+          "name": "馬來西亞口琴節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "malaysia_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_malaysia_harmonica_festival",
+          "name": "馬來西亞口琴節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "malaysia_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/malaysia_harmonica_festival/story/0"
+        },
+        {
+          "id": "yt_malaysiaharmonicafestival5523",
+          "name": "馬來西亞口琴節",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@malaysiaharmonicafestival5523",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-57",
       "publicId": "57",
       "name": "山下伶 Rei Yamashita",
@@ -240,6 +322,90 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@reiyamashita",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-101",
+      "publicId": "101",
+      "name": "何家健 HarmoniKahkean",
+      "nameEn": "Ho Kah Kean / HarmoniKahkean",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人/地方推廣",
+      "country": "馬來西亞",
+      "region": "臺灣/花蓮；馬來西亞",
+      "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
+      "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
+      "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
+      "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/harmonikahkean"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonikahkean/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kahkeanho/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@hokahkean1999"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-16T11:26:13+00:00",
+      "latestUpdateLocal": "2026-07-16 19:26",
+      "latestUpdateSource": "何家健 HarmoniKahkean",
+      "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3942487661906648173/",
+      "avatarUrl": "/assets/source-avatars/2ae8afd20e310f8d959d.webp",
+      "sourceInitials": "H",
+      "sourceTags": [
+        "演奏者",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonikahkean",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonikahkean",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/kahkeanho/story/0"
+        },
+        {
+          "id": "yt_hokahkean1999",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@hokahkean1999",
           "feedUrl": ""
         }
       ]
@@ -4720,90 +4886,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-101",
-      "publicId": "101",
-      "name": "何家健 HarmoniKahkean",
-      "nameEn": "Ho Kah Kean / HarmoniKahkean",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人/地方推廣",
-      "country": "馬來西亞",
-      "region": "臺灣/花蓮；馬來西亞",
-      "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
-      "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
-      "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
-      "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/harmonikahkean"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonikahkean/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/kahkeanho/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@hokahkean1999"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-14T10:37:37+00:00",
-      "latestUpdateLocal": "2026-07-14 18:37",
-      "latestUpdateSource": "何家健 HarmoniKahkean",
-      "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3941013651821819413/",
-      "avatarUrl": "/assets/source-avatars/2ae8afd20e310f8d959d.webp",
-      "sourceInitials": "H",
-      "sourceTags": [
-        "演奏者",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonikahkean",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonikahkean",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_kahkeanho",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "kahkeanho",
-          "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_kahkeanho",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "kahkeanho",
-          "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/kahkeanho/story/0"
-        },
-        {
-          "id": "yt_hokahkean1999",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@hokahkean1999",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-59",
       "publicId": "59",
       "name": "千賀太郎",
@@ -5739,88 +5821,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@DMingStudio",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-165",
-      "publicId": "165",
-      "name": "馬來西亞口琴節",
-      "nameEn": "Malaysia Harmonica Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "比賽/資訊入口",
-      "country": "馬來西亞",
-      "region": "馬來西亞/吉隆坡",
-      "cityOrFocus": "馬來西亞口琴節/比賽/學生與樂團",
-      "structuredSummary": "馬來西亞口琴節/比賽/學生與樂團 / 口琴/重奏/合奏 / 國際活動來源",
-      "summary": "馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。",
-      "keywords": "Malaysia Harmonica Festival MYHF Malaysia Harmonica Competition",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/malaysiaharmonicafestival/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/malaysia_harmonica_festival/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@malaysiaharmonicafestival5523"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-11T11:14:21+00:00",
-      "latestUpdateLocal": "2026-07-11 19:14",
-      "latestUpdateSource": "馬來西亞口琴節",
-      "latestUpdateUrl": "https://www.instagram.com/p/DapokjDE1xu/",
-      "avatarUrl": "/assets/source-avatars/ff675f90d5ccd5b0e4a3.webp",
-      "sourceInitials": "馬來",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "比賽",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_malaysiaharmonicafestival",
-          "name": "馬來西亞口琴節",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/malaysiaharmonicafestival",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_malaysia_harmonica_festival",
-          "name": "馬來西亞口琴節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "malaysia_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_malaysia_harmonica_festival",
-          "name": "馬來西亞口琴節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "malaysia_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/malaysia_harmonica_festival/story/0"
-        },
-        {
-          "id": "yt_malaysiaharmonicafestival5523",
-          "name": "馬來西亞口琴節",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@malaysiaharmonicafestival5523",
           "feedUrl": ""
         }
       ]

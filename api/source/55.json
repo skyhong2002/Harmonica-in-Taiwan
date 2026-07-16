@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-16T15:33:01.836625Z",
+  "source": {
+    "id": 55,
+    "slug": "kelvin-leung",
+    "name": "梁承熹 Kelvin Leung",
+    "pageUrl": "https://harmonica.observe.tw/source/55-kelvin-leung/"
+  },
+  "items": [
+    {
+      "id": "post-a7ad611563796fd9cfe7635e",
+      "title": "Ideology - CY Leo performed by Kelvin Leung",
+      "excerpt": "Ideology - CY Leo performed by Kelvin Leung some older recordings in 2022. Pianist: Zenan Kwan",
+      "url": "https://www.youtube.com/watch?v=_D9fgxrqJms",
+      "sourceName": "梁承熹 Kelvin Leung",
+      "platform": "YouTube",
+      "publishedAt": "2026-07-05T09:51:32Z"
+    },
+    {
+      "id": "post-a2a48579bd1841b52717cdc7",
+      "title": "Capricious - Tommy Reilly performed by Kelvin Leung",
+      "excerpt": "Capricious - Tommy Reilly performed by Kelvin Leung Some older recordings in 2022. One of my favourite harmonica tunes. Pianist: Zenan Kwan",
+      "url": "https://www.youtube.com/watch?v=8lw-yemwqP8",
+      "sourceName": "梁承熹 Kelvin Leung",
+      "platform": "YouTube",
+      "publishedAt": "2026-07-05T09:50:51Z"
+    },
+    {
+      "id": "post-0a735d9351412121a0973a8c",
+      "title": "Fantasy Etude - Yasuo Watani performed by Kelvin Leung",
+      "excerpt": "Fantasy Etude - Yasuo Watani performed by Kelvin Leung some older recordings in 2022. Very challenging piece. Pianist: Zenan Kwan",
+      "url": "https://www.youtube.com/watch?v=-LCtt1ErUSI",
+      "sourceName": "梁承熹 Kelvin Leung",
+      "platform": "YouTube",
+      "publishedAt": "2026-07-05T09:50:12Z"
+    }
+  ]
+}
