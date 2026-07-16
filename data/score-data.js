@@ -1,6 +1,6 @@
 window.HARMONICA_OBSERVE_SCORES = {
-  "count": 796,
-  "generatedAt": "2026-07-16T14:37:22+08:00",
+  "count": 797,
+  "generatedAt": "2026-07-16T14:58:00+08:00",
   "scores": [
     {
       "arranger": "陳瑤容",
@@ -13818,16 +13818,16 @@ window.HARMONICA_OBSERVE_SCORES = {
       "verificationStatus": "official-xls"
     },
     {
-      "arranger": "?永泰",
+      "arranger": "茒永泰",
       "category": "口琴獨奏",
       "composer": "S. C. Foster",
       "division": "國小組",
       "id": "hist-ind-101-114",
-      "lastVerifiedAt": "2026-07-03",
+      "lastVerifiedAt": "2026-07-16",
       "links": [
         {
-          "label": "官方歷年指定曲目 XLS：口琴獨奏",
-          "url": "https://web.arte.gov.tw/music/upfile/history/個人/口琴獨奏.xls"
+          "label": "101學年度全國學生音樂比賽指定曲（全）",
+          "url": "https://web.arte.gov.tw/music/upfile/history/101學年度全國學生音樂比賽指定曲(全).pdf"
         }
       ],
       "notes": "XLS備註：＜5分",
@@ -13839,16 +13839,16 @@ window.HARMONICA_OBSERVE_SCORES = {
       "purchaseNote": "",
       "schoolYear": "101",
       "scoreName": "",
-      "searchText": "老黑爵  101 口琴獨奏 口琴獨奏 國小組 S. C. Foster ?永泰 未標示     XLS備註：＜5分 個人 歷年指定曲",
-      "sourceLabel": "官方歷年指定曲目 XLS：口琴獨奏",
-      "sourceUrl": "https://web.arte.gov.tw/music/upfile/history/個人/口琴獨奏.xls",
+      "searchText": "老黑爵  101 口琴獨奏 口琴獨奏 國小組 S. C. Foster 茒永泰 未標示     XLS備註：＜5分 個人 歷年指定曲",
+      "sourceLabel": "101學年度全國學生音樂比賽指定曲（全）",
+      "sourceUrl": "https://web.arte.gov.tw/music/upfile/history/101學年度全國學生音樂比賽指定曲(全).pdf",
       "tags": [
         "個人",
         "歷年指定曲"
       ],
       "title": "老黑爵",
       "titleAlt": "",
-      "verificationStatus": "official-xls"
+      "verificationStatus": "official-pdf"
     },
     {
       "arranger": "楊樹林",
@@ -13915,6 +13915,39 @@ window.HARMONICA_OBSERVE_SCORES = {
       "title": "桂河大橋",
       "titleAlt": "",
       "verificationStatus": "official-xls"
+    },
+    {
+      "arranger": "陳鴻儀",
+      "category": "口琴獨奏",
+      "composer": "泰國民謠",
+      "division": "大專組",
+      "id": "hist-ind-101-pdf-001",
+      "lastVerifiedAt": "2026-07-16",
+      "links": [
+        {
+          "label": "101學年度全國學生音樂比賽指定曲（全）",
+          "url": "https://web.arte.gov.tw/music/upfile/history/101學年度全國學生音樂比賽指定曲(全).pdf"
+        }
+      ],
+      "notes": "官方歷年 XLS 遺漏；依 101 學年度官方指定曲 PDF 補錄",
+      "performanceNote": "",
+      "program": "口琴獨奏",
+      "publisher": "未標示",
+      "publisherRaw": "",
+      "publisherUrl": "",
+      "purchaseNote": "",
+      "schoolYear": "101",
+      "scoreName": "",
+      "searchText": "相思河畔  101 口琴獨奏 口琴獨奏 大專組 泰國民謠 陳鴻儀 未標示     官方歷年 XLS 遺漏；依 101 學年度官方指定曲 PDF 補錄 個人 歷年指定曲",
+      "sourceLabel": "101學年度全國學生音樂比賽指定曲（全）",
+      "sourceUrl": "https://web.arte.gov.tw/music/upfile/history/101學年度全國學生音樂比賽指定曲(全).pdf",
+      "tags": [
+        "個人",
+        "歷年指定曲"
+      ],
+      "title": "相思河畔",
+      "titleAlt": "",
+      "verificationStatus": "official-pdf"
     },
     {
       "arranger": "盧鴻麟",
@@ -27032,7 +27065,7 @@ window.HARMONICA_OBSERVE_SCORES = {
     "programCounts": {
       "口琴合奏": 347,
       "口琴四重奏": 242,
-      "口琴獨奏": 207
+      "口琴獨奏": 208
     },
     "programs": [
       "口琴合奏",
@@ -27056,7 +27089,7 @@ window.HARMONICA_OBSERVE_SCORES = {
       "寶島口琴樂團": 1,
       "廖訓禎": 3,
       "張甫行": 2,
-      "未標示": 137,
+      "未標示": 138,
       "林家靖／Rolabo 工作室": 19,
       "狂響口琴樂團／狂響逗嘴鼓": 25,
       "獨特音樂（The Duet）": 54,
@@ -27145,7 +27178,7 @@ window.HARMONICA_OBSERVE_SCORES = {
       "83",
       "82"
     ],
-    "totalScores": 796
+    "totalScores": 797
   },
   "version": 1
 };
