@@ -61,6 +61,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/57-rei-yamashita/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/51-sharene-tang/</loc>
     <lastmod>2026-07-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -434,12 +440,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/63-f-i-h-japan-harmonica-contest/</loc>
-    <lastmod>2026-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/57-rei-yamashita/</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
