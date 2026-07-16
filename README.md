@@ -155,6 +155,7 @@ SEO 舊網址轉址由 `data/sources/source-url-aliases.csv` 維護。Pipeline �
 - `https://harmonica.observe.tw/api/student-clubs.json`
 - `https://harmonica.observe.tw/api/opportunities.json`
 - `https://harmonica.observe.tw/api/sources.json`
+- `https://harmonica.observe.tw/api/source/<public_id>.json`：單一公開來源的輕量貼文 feed，例如竹韻為 `/api/source/198.json`。
 - `https://harmonica.observe.tw/api/scores.json`
 - `https://harmonica.observe.tw/api/score-sources.json`
 

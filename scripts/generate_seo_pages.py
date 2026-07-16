@@ -3,13 +3,16 @@
 
 from __future__ import annotations
 
+import hashlib
 import html
+import ipaddress
 import json
 import os
 import re
 import shutil
 import urllib.parse
 from datetime import datetime, timezone, timedelta
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
 
@@ -23,6 +26,27 @@ EVENTS_JSON = SITE_ROOT / "api" / "public-calendar-events.json"
 SCORES_JSON = SITE_ROOT / "api" / "scores.json"
 SITEMAP_XML = SITE_ROOT / "sitemap.xml"
 SOURCE_URL_ALIASES = PROJECT_ROOT / "data" / "sources" / "source-url-aliases.csv"
+SOURCE_API_DIR = SITE_ROOT / "api" / "source"
+SOURCE_API_SCHEMA_VERSION = 1
+SOURCE_API_EXCERPT_LIMIT = 280
+
+SOURCE_API_TRACKING_PARAMS = {
+    "fbclid",
+    "gclid",
+    "igsh",
+    "igshid",
+    "mc_cid",
+    "mc_eid",
+    "ref",
+}
+SOURCE_API_SENSITIVE_LINE_RE = re.compile(
+    r"(?:付款|匯款|轉帳|銀行帳號|信用卡|line\s*pay|街口|paypal|token|bearer|authorization|cookie|password|密碼|憑證|api[_ -]?key)",
+    re.IGNORECASE,
+)
+SOURCE_API_EMAIL_RE = re.compile(r"\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b", re.IGNORECASE)
+SOURCE_API_PHONE_RE = re.compile(r"(?<!\d)(?:\+?886[-\s]?|0)(?:\d[-\s]?){8,10}(?!\d)")
+SOURCE_API_INTERNAL_PATH_RE = re.compile(r"(?:^|\s)(?:/Users/|/home/|/var/|[A-Za-z]:\\)")
+SOURCE_API_URL_RE = re.compile(r"https?://\S+", re.IGNORECASE)
 
 # Shared HTML parts
 HEADER_HTML = """    <header class="site-header">
@@ -65,6 +89,199 @@ def normalize_generated_html(content: str) -> str:
 
 def escape(val: str | None) -> str:
     return html.escape(clean(val))
+
+
+class _PlainTextParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.parts: list[str] = []
+        self.suppressed_depth = 0
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag.casefold() in {"script", "style", "template"}:
+            self.suppressed_depth += 1
+        elif not self.suppressed_depth and tag.casefold() in {"br", "p", "div", "li"}:
+            self.parts.append("\n")
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag.casefold() in {"script", "style", "template"} and self.suppressed_depth:
+            self.suppressed_depth -= 1
+        elif not self.suppressed_depth and tag.casefold() in {"p", "div", "li"}:
+            self.parts.append("\n")
+
+    def handle_data(self, data: str) -> None:
+        if not self.suppressed_depth:
+            self.parts.append(data)
+
+
+def plain_text(value: Any) -> str:
+    parser = _PlainTextParser()
+    try:
+        parser.feed(str(value or ""))
+        parser.close()
+    except Exception:
+        return ""
+    return html.unescape("".join(parser.parts)).replace("\x00", "")
+
+
+def compact_plain_text(value: Any, limit: int) -> str:
+    text = re.sub(r"\s+", " ", plain_text(value)).strip()
+    if not text:
+        return ""
+    return text[: limit - 1].rstrip() + "…" if len(text) > limit else text
+
+
+def safe_source_excerpt(value: Any, limit: int = SOURCE_API_EXCERPT_LIMIT) -> str:
+    clean_lines: list[str] = []
+    for raw_line in plain_text(value).splitlines():
+        line = re.sub(r"[ \t]+", " ", raw_line).strip()
+        if not line:
+            continue
+        if (
+            SOURCE_API_SENSITIVE_LINE_RE.search(line)
+            or SOURCE_API_EMAIL_RE.search(line)
+            or SOURCE_API_PHONE_RE.search(line)
+            or SOURCE_API_INTERNAL_PATH_RE.search(line)
+        ):
+            continue
+        line = SOURCE_API_URL_RE.sub("", line).strip()
+        if line and (not clean_lines or clean_lines[-1] != line):
+            clean_lines.append(line)
+    return compact_plain_text(" ".join(clean_lines), limit)
+
+
+def canonical_public_https_url(value: Any) -> str:
+    raw = str(value or "").strip()
+    if not raw or any(ord(char) < 32 for char in raw):
+        return ""
+    try:
+        parsed = urllib.parse.urlsplit(raw)
+        port = parsed.port
+    except ValueError:
+        return ""
+    if parsed.scheme.casefold() != "https" or not parsed.hostname or parsed.username or parsed.password:
+        return ""
+    host = parsed.hostname.casefold()
+    if host == "localhost" or host.endswith((".localhost", ".local", ".internal")):
+        return ""
+    try:
+        address = ipaddress.ip_address(host)
+    except ValueError:
+        address = None
+    if address is not None and not address.is_global:
+        return ""
+    netloc = host if port in (None, 443) else f"{host}:{port}"
+    path = parsed.path or "/"
+    query = urllib.parse.parse_qsl(parsed.query, keep_blank_values=True)
+    query = sorted(
+        (key, val)
+        for key, val in query
+        if not key.casefold().startswith("utm_") and key.casefold() not in SOURCE_API_TRACKING_PARAMS
+    )
+    return urllib.parse.urlunsplit(("https", netloc, path, urllib.parse.urlencode(query, doseq=True), ""))
+
+
+def iso_utc(value: Any) -> str:
+    parsed = feed_render.parse_time(str(value or ""))
+    if parsed is None:
+        return ""
+    return parsed.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
+
+
+def source_updates_for_entry(entry: dict[str, Any], updates: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    entry_id = clean(entry.get("id"))
+    if not entry_id:
+        return []
+    selected: list[dict[str, Any]] = []
+    seen_urls: set[str] = set()
+    seen_content: set[str] = set()
+    for update in updates:
+        if clean(update.get("directory_entry_id")) != entry_id or feed_render.is_instagram_story_item(update):
+            continue
+        canonical_url = canonical_public_https_url(update.get("link"))
+        text_without_urls = SOURCE_API_URL_RE.sub("", plain_text(update.get("text")))
+        content_key = re.sub(r"\s+", " ", text_without_urls).strip().casefold()
+        if (canonical_url and canonical_url in seen_urls) or (content_key and content_key in seen_content):
+            continue
+        if canonical_url:
+            seen_urls.add(canonical_url)
+        if content_key:
+            seen_content.add(content_key)
+        selected.append(update)
+    return selected
+
+
+def source_api_item(update: dict[str, Any], source_name: str) -> dict[str, Any] | None:
+    if any(update.get(flag) is False for flag in ("public", "is_public", "approved")):
+        return None
+    url = canonical_public_https_url(update.get("link"))
+    published_at = iso_utc(update.get("posted_at"))
+    title = safe_source_excerpt(
+        update.get("display_title") or update.get("headline") or update.get("title"),
+        120,
+    )
+    excerpt = safe_source_excerpt(update.get("text"))
+    if not url or not published_at or not title:
+        return None
+    platform = feed_render.source_platform_label(update.get("platform") or update.get("platform_label"))
+    return {
+        "id": "post-" + hashlib.sha256(url.encode("utf-8")).hexdigest()[:24],
+        "title": title,
+        "excerpt": excerpt,
+        "url": url,
+        "sourceName": source_name,
+        "platform": platform,
+        "publishedAt": published_at,
+    }
+
+
+def source_api_items(entry: dict[str, Any], entry_updates: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    source_name = compact_plain_text(entry.get("name"), 120)
+    items: list[dict[str, Any]] = []
+    seen_urls: set[str] = set()
+    seen_content: set[str] = set()
+    for update in entry_updates:
+        item = source_api_item(update, source_name)
+        if item is None:
+            continue
+        content_key = re.sub(r"\s+", " ", f"{item['title']}\n{item['excerpt']}").strip().casefold()
+        if item["url"] in seen_urls or (content_key and content_key in seen_content):
+            continue
+        seen_urls.add(item["url"])
+        if content_key:
+            seen_content.add(content_key)
+        items.append(item)
+    return sorted(items, key=lambda item: item["publishedAt"], reverse=True)
+
+
+def source_api_payload(
+    entry: dict[str, Any],
+    entry_updates: list[dict[str, Any]],
+    generated_at: str,
+) -> dict[str, Any]:
+    public_id = source_public_id(entry)
+    slug = make_slug(entry)
+    return {
+        "schemaVersion": SOURCE_API_SCHEMA_VERSION,
+        "generatedAt": iso_utc(generated_at) or datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "source": {
+            "id": int(public_id),
+            "slug": slug.removeprefix(f"{public_id}-"),
+            "name": compact_plain_text(entry.get("name"), 120),
+            "pageUrl": f"https://harmonica.observe.tw/source/{slug}/",
+        },
+        "items": source_api_items(entry, entry_updates),
+    }
+
+
+def write_source_api(entry: dict[str, Any], entry_updates: list[dict[str, Any]], generated_at: str) -> Path:
+    path = SOURCE_API_DIR / f"{source_public_id(entry)}.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(source_api_payload(entry, entry_updates, generated_at), ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    return path
 
 
 def file_lastmod(path: Path) -> str:
@@ -453,6 +670,7 @@ def generate_source_page(
     <title>{name}｜口琴公開來源｜臺灣口琴觀測站</title>
     <meta name="description" content="{summary}">
     <link rel="canonical" href="https://harmonica.observe.tw/source/{slug}/">
+    <link rel="alternate" type="application/json" title="{name}公開貼文" href="/api/source/{source_public_id(entry)}.json">
     <meta property="og:title" content="{name}｜口琴公開來源｜臺灣口琴觀測站">
     <meta property="og:description" content="{summary}">
     <meta property="og:type" content="profile">
@@ -1764,9 +1982,11 @@ def main() -> int:
 
     # Load latest updates
     LATEST_JSON = SITE_ROOT / "api" / "latest.json"
+    latest_generated_at = ""
     try:
         latest_payload = json.loads(LATEST_JSON.read_text(encoding="utf-8"))
         updates = latest_payload.get("updates") or []
+        latest_generated_at = clean(latest_payload.get("generatedAt"))
     except Exception as e:
         print(f"Error loading latest updates: {e}")
         updates = []
@@ -1777,17 +1997,17 @@ def main() -> int:
     # 2. Pre-render Source Pages
     source_groups = source_facet_groups(entries)
     source_count = 0
+    if SOURCE_API_DIR.exists():
+        shutil.rmtree(SOURCE_API_DIR)
+    SOURCE_API_DIR.mkdir(parents=True, exist_ok=True)
     for entry in entries:
         entry_id = clean(entry.get("id"))
         if not entry_id:
             continue
 
-        # Match updates
-        entry_updates = [
-            up for up in updates
-            if clean(up.get("directory_entry_id")) == entry_id
-            and not feed_render.is_instagram_story_item(up)
-        ]
+        # Source pages and source APIs must share this exact identity-based selection.
+        entry_updates = source_updates_for_entry(entry, updates)
+        write_source_api(entry, entry_updates, latest_generated_at)
 
         slug = make_slug(entry)
 

@@ -70,11 +70,54 @@ def validate_required_files(errors: list[str]) -> None:
 
 
 def validate_json_files(errors: list[str]) -> None:
-    for path in sorted([*API_DIR.glob("*.json"), *FEEDS_DIR.glob("*.json")]):
+    for path in sorted([*API_DIR.rglob("*.json"), *FEEDS_DIR.rglob("*.json")]):
         try:
             read_json(path)
         except json.JSONDecodeError as exc:
             errors.append(f"invalid JSON: {path.relative_to(PROJECT_ROOT)}:{exc.lineno}:{exc.colno}: {exc.msg}")
+
+
+def validate_source_api_outputs(errors: list[str]) -> None:
+    sources_path = API_DIR / "sources.json"
+    if not sources_path.exists():
+        return
+    try:
+        entries = read_json(sources_path).get("entries") or []
+    except (AttributeError, json.JSONDecodeError):
+        return
+
+    expected_ids: set[str] = set()
+    for entry in entries:
+        entry_id = str(entry.get("publicId") or entry.get("id") or "").removeprefix("watchlist-")
+        if not entry_id:
+            continue
+        expected_ids.add(entry_id)
+        api_path = API_DIR / "source" / f"{entry_id}.json"
+        if not api_path.exists():
+            errors.append(f"missing source API: {api_path.relative_to(PROJECT_ROOT)}")
+            continue
+        try:
+            payload = read_json(api_path)
+        except json.JSONDecodeError:
+            continue
+        if payload.get("schemaVersion") != 1 or not isinstance(payload.get("items"), list):
+            errors.append(f"invalid source API schema: {api_path.relative_to(PROJECT_ROOT)}")
+        source = payload.get("source") if isinstance(payload.get("source"), dict) else {}
+        if str(source.get("id")) != entry_id:
+            errors.append(f"source API ID mismatch: {api_path.relative_to(PROJECT_ROOT)}")
+        for index, item in enumerate(payload.get("items") or []):
+            if not isinstance(item, dict) or not str(item.get("url") or "").startswith("https://"):
+                errors.append(f"unsafe source API item URL: {api_path.relative_to(PROJECT_ROOT)} item {index}")
+
+        slug = str(source.get("pageUrl") or "").removeprefix("https://harmonica.observe.tw/source/").strip("/")
+        source_page = SITE_ROOT / "source" / slug / "index.html"
+        alternate = f'href="/api/source/{entry_id}.json"'
+        if not source_page.exists() or alternate not in source_page.read_text(encoding="utf-8"):
+            errors.append(f"missing source API alternate link: source/{slug}/index.html")
+
+    actual_ids = {path.stem for path in (API_DIR / "source").glob("*.json")}
+    for extra_id in sorted(actual_ids - expected_ids):
+        errors.append(f"stale source API output: site/api/source/{extra_id}.json")
 
 
 def validate_js_files(errors: list[str]) -> None:
@@ -183,6 +226,7 @@ def main() -> int:
     errors: list[str] = []
     validate_required_files(errors)
     validate_json_files(errors)
+    validate_source_api_outputs(errors)
     if not args.skip_js:
         validate_js_files(errors)
     validate_status_consistency(errors)
