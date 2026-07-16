@@ -253,7 +253,6 @@
     yearMin: null,
     program: emptyFilterSet(),
     publisher: emptyFilterSet(),
-    status: emptyFilterSet(),
     sortKey: "",
     sortDirection: "asc",
     columnWidths: {},
@@ -297,7 +296,7 @@
   const nonLocationLabels = new Set(["國際", "臺灣交流", "臺灣爵士圈"]);
   const directoryFilterNames = ["country", "region", "sourceType", "hashtags"];
   const feedFilterNames = ["platform", "country", "region", "source", "tag"];
-  const scoreFilterNames = ["program", "publisher", "status"];
+  const scoreFilterNames = ["program", "publisher"];
   const scoreSourceFilterNames = ["sourceType", "platform", "availability", "format"];
   const feedApiUrl = "/api/latest.json";
   let feedSearchComposing = false;
@@ -3030,7 +3029,6 @@
         return Number.isFinite(year) ? year : "";
       },
     },
-    { key: "status", label: "狀態", defaultDirection: "asc", width: 74, minWidth: 64, value: (item) => item.sourceStatus },
     { key: "program", label: "編制", defaultDirection: "asc", width: 88, minWidth: 68, value: (item) => item.program },
     { key: "division", label: "組別", defaultDirection: "asc", width: 118, minWidth: 84, value: (item) => item.division },
     { key: "title", label: "曲名", defaultDirection: "asc", width: 228, minWidth: 140, value: scoreTitleText },
@@ -3107,7 +3105,6 @@
     if (name === "year") return [item.schoolYear ? `${item.schoolYear}學年度` : ""];
     if (name === "program") return [item.program];
     if (name === "publisher") return [item.publisher];
-    if (name === "status") return [item.sourceStatus];
     return [];
   }
 
@@ -3242,7 +3239,6 @@
           item.title,
           item.titleAlt,
           item.schoolYear,
-          item.sourceStatus,
           item.program,
           item.category,
           item.division,
@@ -3288,7 +3284,6 @@
     return `
       <tr>
         ${scoreCell(year, "score-year")}
-        ${scoreCell(item.sourceStatus, "score-status")}
         <td class="score-program" title="${escapeHtml(item.program || "-")}">
           ${item.program ? `<a href="/scores/${encodeURIComponent(item.program)}/" class="score-landing-link">${escapeHtml(item.program)}</a>` : "-"}
         </td>
@@ -3412,7 +3407,6 @@
       groups: [
         { label: "編制", name: "program", values: scoreFilterValues("program"), activeValues: scoreState.program, fallbackLabel: "全部編制", ariaLabel: "編制篩選，可複選", allowExclude: false },
         { label: "出版／洽詢來源", name: "publisher", values: scoreFilterValues("publisher"), activeValues: scoreState.publisher, fallbackLabel: "全部來源", ariaLabel: "出版或洽詢來源篩選，可複選", allowExclude: false },
-        { label: "來源狀態", name: "status", values: scoreFilterValues("status"), activeValues: scoreState.status, fallbackLabel: "全部狀態", ariaLabel: "來源狀態篩選，可複選", allowExclude: false },
       ],
     });
     bindScoreFilters();
@@ -3452,7 +3446,6 @@
     if (yearMin !== null && yearMin !== bounds.min) url.searchParams.set("yearMin", String(yearMin));
     filterIncludes(scoreState.program).forEach((value) => url.searchParams.append("program", value));
     filterIncludes(scoreState.publisher).forEach((value) => url.searchParams.append("publisher", value));
-    filterIncludes(scoreState.status).forEach((value) => url.searchParams.append("status", value));
     if (scoreSortColumn(scoreState.sortKey)) {
       url.searchParams.set("sort", scoreState.sortKey);
       url.searchParams.set("dir", normalizedScoreSortDirection(scoreState.sortDirection));
@@ -3496,7 +3489,6 @@
     }
     commaSeparatedParamValues(params, ["program"]).forEach((value) => addScoreFilterValue("program", value));
     commaSeparatedParamValues(params, ["publisher"]).forEach((value) => addScoreFilterValue("publisher", value));
-    commaSeparatedParamValues(params, ["status"]).forEach((value) => addScoreFilterValue("status", value));
     if (hasLegacyExcludeParams || hasLegacyYearParams) syncScoreFilterUrl();
   }
 
