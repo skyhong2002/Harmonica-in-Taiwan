@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 16 Jul 2026 01:09:17 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 01:41:19 +0000</lastBuildDate>
     <item>
       <title>Federico Linari</title>
       <link>https://www.hohner.de/en/federico-linari</link>
@@ -16,6 +16,17 @@ Tag：演奏者、教學、十孔、國際交流
 國家：阿根廷
 地區：阿根廷
 阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。</description>
+    </item>
+    <item>
+      <title>Jens Bunge</title>
+      <link>https://hohner.de/en/jens-bunge</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/bf85aeb31f137bd0</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：德國
+地區：德國
+德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。</description>
     </item>
     <item>
       <title>Marcos Coll</title>
@@ -291,17 +302,6 @@ Tag：團體樂團、重奏
 國家：臺灣
 地區：臺灣
 臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與教育推廣。</description>
-    </item>
-    <item>
-      <title>Jens Bunge</title>
-      <link>https://hohner.de/en/jens-bunge</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/bf85aeb31f137bd0</guid>
-      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：德國
-地區：德國
-德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。</description>
     </item>
     <item>
       <title>Reyharp and Balawan Project</title>
