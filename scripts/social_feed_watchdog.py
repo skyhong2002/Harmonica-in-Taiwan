@@ -8,10 +8,12 @@ import datetime as dt
 import email.utils
 import hashlib
 import html
+import http.cookiejar
 import json
 import os
 import re
 import signal
+import socket
 import subprocess
 import tempfile
 import time
@@ -74,6 +76,59 @@ DEFAULT_INSTAGRAM_BOOTSTRAP_COOLDOWN_HOURS = 6.0
 DEFAULT_INSTAGRAM_MAX_ATTEMPTS_PER_RUN = 40
 INSTAGRAM_SCHEDULE_EPOCH = dt.datetime(1970, 1, 1, tzinfo=dt.timezone.utc)
 DEFAULT_RSS_DELAY_SECS = 0.25
+THREADS_BASE_URL = "https://www.threads.com"
+THREADS_GRAPHQL_URL = f"{THREADS_BASE_URL}/graphql/query"
+THREADS_GRAPHQL_OPERATION = "BarcelonaProfileThreadsTabRefetchableDirectQuery"
+THREADS_GRAPHQL_FALLBACK_DOC_ID = "27422205010763282"
+THREADS_WEB_APP_ID = "238260118697367"
+THREADS_ASBD_ID = "359341"
+THREADS_USER_AGENT = (
+    "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) "
+    "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1"
+)
+THREADS_LSD_RE = re.compile(r'"LSD",\[\],\{"token":"([^"]+)"')
+THREADS_PROFILE_USER_ID_RE = re.compile(
+    r'"initial_thread_count":\d+.*?"user_id":"(\d+)"',
+    re.DOTALL,
+)
+THREADS_SCRIPT_SRC_RE = re.compile(r'<script[^>]+src="(https://static\.cdninstagram\.com/[^"]+\.js)"')
+THREADS_QUERY_DOC_ID_RE = re.compile(
+    rf'{THREADS_GRAPHQL_OPERATION}_threadsRelayOperation".*?exports="(\d+)"',
+    re.DOTALL,
+)
+THREADS_RELAY_VARIABLE_RE = re.compile(r'name:"(__relay_internal__pv__[A-Za-z0-9_]+)"')
+THREADS_RELAY_TRUE_VARIABLES = {
+    "__relay_internal__pv__BarcelonaHasCommunitiesrelayprovider",
+    "__relay_internal__pv__BarcelonaHasDearAlgoConsumptionrelayprovider",
+    "__relay_internal__pv__BarcelonaHasGameScoreSharerelayprovider",
+    "__relay_internal__pv__BarcelonaHasMusicrelayprovider",
+    "__relay_internal__pv__BarcelonaHasPublicViewCountCardrelayprovider",
+    "__relay_internal__pv__BarcelonaHasViewerRepliedrelayprovider",
+    "__relay_internal__pv__BarcelonaOptionalCookiesEnabledrelayprovider",
+}
+THREADS_RELAY_DEFAULT_VARIABLES = THREADS_RELAY_TRUE_VARIABLES | {
+    "__relay_internal__pv__BarcelonaCanSeeSponsoredContentrelayprovider",
+    "__relay_internal__pv__BarcelonaGenAIRepliesEnabledrelayprovider",
+    "__relay_internal__pv__BarcelonaHasCommunityEntityCardrelayprovider",
+    "__relay_internal__pv__BarcelonaHasCommunityTopContributorsrelayprovider",
+    "__relay_internal__pv__BarcelonaHasDearAlgoWebProductionrelayprovider",
+    "__relay_internal__pv__BarcelonaHasEventBadgerelayprovider",
+    "__relay_internal__pv__BarcelonaHasGhostPostEmojiActivationrelayprovider",
+    "__relay_internal__pv__BarcelonaHasMessagingrelayprovider",
+    "__relay_internal__pv__BarcelonaHasNewspaperLinkStylerelayprovider",
+    "__relay_internal__pv__BarcelonaHasPodcastTextFragmentsrelayprovider",
+    "__relay_internal__pv__BarcelonaHasPrivateRepliesDeprecationrelayprovider",
+    "__relay_internal__pv__BarcelonaHasProfileSelfReplyContextrelayprovider",
+    "__relay_internal__pv__BarcelonaHasScorecardCommunityrelayprovider",
+    "__relay_internal__pv__BarcelonaHasSportTeamAllegianceCardrelayprovider",
+    "__relay_internal__pv__BarcelonaHasWebFaviconsrelayprovider",
+    "__relay_internal__pv__BarcelonaIsCrawlerrelayprovider",
+    "__relay_internal__pv__BarcelonaIsInternalUserrelayprovider",
+    "__relay_internal__pv__BarcelonaIsLoggedInrelayprovider",
+    "__relay_internal__pv__BarcelonaIsSearchDiscoveryEnabledrelayprovider",
+    "__relay_internal__pv__BarcelonaShouldFulfillLightboxQueryrelayprovider",
+    "__relay_internal__pv__BarcelonaShouldShowFediverseM075Featuresrelayprovider",
+}
 OPENAI_BASE_URL = "https://api.openai.com/v1"
 DEFAULT_LLM_MODEL = "gpt-5.4-mini"
 DEFAULT_LLM_KEYCHAIN_SERVICE = "harmonica-openai"
@@ -82,6 +137,7 @@ LLM_CATEGORIES = {"events", "posts-videos", "student-clubs", "opportunities"}
 LLM_LABELS = set(public_tags.PUBLIC_TAGS)
 TRUTHY = {"1", "true", "yes", "y", "on"}
 _INSTAGRAM_USER_IDS_CACHE: dict[str, Any] | None = None
+_THREADS_QUERY_METADATA_CACHE: tuple[str, set[str]] | None = None
 
 
 def load_json(path: Path, default: Any) -> Any:
@@ -901,6 +957,178 @@ def normalize_post(
     return post
 
 
+def threads_query_metadata(opener: urllib.request.OpenerDirector, profile_html: str) -> tuple[str, set[str]]:
+    global _THREADS_QUERY_METADATA_CACHE
+    if _THREADS_QUERY_METADATA_CACHE is not None:
+        return _THREADS_QUERY_METADATA_CACHE
+
+    script_urls = list(dict.fromkeys(html.unescape(url) for url in THREADS_SCRIPT_SRC_RE.findall(profile_html)))
+    for script_url in reversed(script_urls):
+        try:
+            request = urllib.request.Request(script_url, headers={"User-Agent": THREADS_USER_AGENT})
+            with opener.open(request, timeout=REQUEST_TIMEOUT) as response:
+                script = response.read().decode("utf-8", "replace")
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, OSError):
+            continue
+        match = THREADS_QUERY_DOC_ID_RE.search(script)
+        if not match:
+            continue
+        relay_variables = set(THREADS_RELAY_VARIABLE_RE.findall(script))
+        _THREADS_QUERY_METADATA_CACHE = (match.group(1), relay_variables)
+        return _THREADS_QUERY_METADATA_CACHE
+
+    return THREADS_GRAPHQL_FALLBACK_DOC_ID, set(THREADS_RELAY_DEFAULT_VARIABLES)
+
+
+def threads_media_urls(post: dict[str, Any]) -> tuple[list[str], list[str]]:
+    images: list[str] = []
+    videos: list[str] = []
+    media_rows = post.get("carousel_media") if isinstance(post.get("carousel_media"), list) else [post]
+    for media in media_rows:
+        if not isinstance(media, dict):
+            continue
+        candidates = (media.get("image_versions2") or {}).get("candidates") or []
+        if candidates and isinstance(candidates[0], dict):
+            append_unique(images, str(candidates[0].get("url") or ""))
+        video_versions = media.get("video_versions") or []
+        if video_versions and isinstance(video_versions[0], dict):
+            append_unique(videos, str(video_versions[0].get("url") or ""))
+    return images, videos
+
+
+def normalize_threads_graphql_posts(
+    source: dict[str, Any],
+    payload: dict[str, Any],
+    *,
+    source_feed_url: str,
+) -> list[dict[str, Any]]:
+    media_data = (payload.get("data") or {}).get("mediaData") or {}
+    edges = media_data.get("edges") if isinstance(media_data, dict) else []
+    username = str(source.get("username") or "").strip().strip("@")
+    posts: list[dict[str, Any]] = []
+    seen_ids: set[str] = set()
+    for edge in edges or []:
+        node = edge.get("node") if isinstance(edge, dict) else {}
+        for thread_item in (node or {}).get("thread_items") or []:
+            post = thread_item.get("post") if isinstance(thread_item, dict) else {}
+            if not isinstance(post, dict):
+                continue
+            post_user = post.get("user") if isinstance(post.get("user"), dict) else {}
+            post_username = str(post_user.get("username") or username)
+            if username and post_username.casefold() != username.casefold():
+                continue
+            code = str(post.get("code") or "")
+            post_id = str(post.get("pk") or post.get("id") or code)
+            if not post_id or post_id in seen_ids:
+                continue
+            seen_ids.add(post_id)
+            caption = post.get("caption")
+            text = str(caption.get("text") or "") if isinstance(caption, dict) else str(caption or "")
+            images, videos = threads_media_urls(post)
+            try:
+                posted_at = dt.datetime.fromtimestamp(int(post.get("taken_at")), dt.timezone.utc).isoformat()
+            except (TypeError, ValueError, OSError):
+                posted_at = ""
+            post_url = (
+                f"{THREADS_BASE_URL}/@{urllib.parse.quote(post_username)}/post/{urllib.parse.quote(code)}"
+                if code
+                else source_feed_url
+            )
+            posts.append(
+                normalize_post(
+                    source,
+                    post_id=post_id,
+                    text=text,
+                    url=post_url,
+                    posted_at=posted_at,
+                    images=images,
+                    videos=videos,
+                    source_avatar_url=str(post_user.get("profile_pic_url") or ""),
+                    source_feed_url=source_feed_url,
+                )
+            )
+    limit = max(1, int(source.get("limit") or 5))
+    return posts[:limit]
+
+
+def fetch_threads_graphql(source: dict[str, Any]) -> list[dict[str, Any]]:
+    username = str(source.get("username") or "").strip().strip("@")
+    if not username:
+        return []
+
+    cookie_jar = http.cookiejar.CookieJar()
+    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cookie_jar))
+    profile_url = f"{THREADS_BASE_URL}/@{urllib.parse.quote(username)}"
+    profile_request = urllib.request.Request(
+        profile_url,
+        headers={
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+            "User-Agent": THREADS_USER_AGENT,
+        },
+    )
+    with opener.open(profile_request, timeout=REQUEST_TIMEOUT) as response:
+        profile_html = response.read().decode("utf-8", "replace")
+
+    lsd_match = THREADS_LSD_RE.search(profile_html)
+    user_id_match = THREADS_PROFILE_USER_ID_RE.search(profile_html)
+    if not lsd_match or not user_id_match:
+        raise ValueError(f"Threads profile metadata unavailable for @{username}")
+
+    doc_id, relay_variable_names = threads_query_metadata(opener, profile_html)
+    variables: dict[str, Any] = {
+        "after": None,
+        "allow_page_info_for_lox_user": True,
+        "before": None,
+        "first": max(1, min(int(source.get("limit") or 5), 15)),
+        "last": None,
+        "userID": user_id_match.group(1),
+    }
+    for name in relay_variable_names:
+        variables[name] = name in THREADS_RELAY_TRUE_VARIABLES
+    variables["__relay_internal__pv__BarcelonaHasProfileSelfReplyContextrelayprovider"] = False
+
+    lsd = lsd_match.group(1)
+    csrf = next((cookie.value for cookie in cookie_jar if cookie.name == "csrftoken"), "")
+    body = urllib.parse.urlencode(
+        {
+            "lsd": lsd,
+            "doc_id": doc_id,
+            "fb_api_req_friendly_name": THREADS_GRAPHQL_OPERATION,
+            "fb_api_caller_class": "RelayModern",
+            "server_timestamps": "true",
+            "variables": json.dumps(variables, separators=(",", ":")),
+        }
+    ).encode("utf-8")
+    graphql_request = urllib.request.Request(
+        THREADS_GRAPHQL_URL,
+        data=body,
+        headers={
+            "Accept": "*/*",
+            "Content-Type": "application/x-www-form-urlencoded",
+            "Origin": THREADS_BASE_URL,
+            "Referer": profile_url,
+            "User-Agent": THREADS_USER_AGENT,
+            "X-ASBD-ID": THREADS_ASBD_ID,
+            "X-CSRFToken": csrf,
+            "X-FB-Friendly-Name": THREADS_GRAPHQL_OPERATION,
+            "X-FB-LSD": lsd,
+            "X-IG-App-ID": THREADS_WEB_APP_ID,
+            "X-LOGGED-OUT-THREADS-MIGRATED-REQUEST": "true",
+            "X-Root-Field-Name": "xdt_api__v1__text_feed__user_id__profile__connection",
+        },
+        method="POST",
+    )
+    with opener.open(graphql_request, timeout=REQUEST_TIMEOUT) as response:
+        payload = json.loads(response.read().decode("utf-8"))
+    if payload.get("errors"):
+        message = compact_text(str(payload["errors"][0].get("message") or "Threads GraphQL failed"), 300)
+        raise ValueError(message)
+    if (payload.get("data") or {}).get("mediaData") is None:
+        raise ValueError(f"Threads timeline unavailable for @{username}")
+    return normalize_threads_graphql_posts(source, payload, source_feed_url=profile_url)
+
+
 def fetch_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
     url = source.get("url") or rsshub_url(source)
     if not url:
@@ -910,7 +1138,7 @@ def fetch_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
     try:
         with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as response:
             root = ET.fromstring(response.read())
-    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as exc:
+    except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError, socket.timeout) as exc:
         public_bases = {"https://rss.observe.tw", "http://rss.observe.tw"}
         is_public_rsshub = any(url.startswith(base) for base in public_bases)
         root = None
@@ -938,6 +1166,18 @@ def fetch_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
                     if posts:
                         return posts
                     return []
+            if str(source.get("platform") or "").casefold() == "threads":
+                try:
+                    return fetch_threads_graphql(source)
+                except (
+                    urllib.error.HTTPError,
+                    urllib.error.URLError,
+                    TimeoutError,
+                    OSError,
+                    ValueError,
+                    json.JSONDecodeError,
+                ):
+                    pass
             if message:
                 raise ValueError(f"RSSHub HTTP {exc.code}: {message}") from exc
             raise
@@ -1938,7 +2178,15 @@ def main() -> int:
             schedule_stats[f"{instagram_kind}_attempted"] = int(schedule_stats.get(f"{instagram_kind}_attempted") or 0) + 1
         try:
             posts = fetch_source(source, token)
-        except (urllib.error.URLError, urllib.error.HTTPError, ET.ParseError, json.JSONDecodeError, ValueError) as exc:
+        except (
+            urllib.error.URLError,
+            urllib.error.HTTPError,
+            ET.ParseError,
+            json.JSONDecodeError,
+            ValueError,
+            TimeoutError,
+            socket.timeout,
+        ) as exc:
             error_text = str(exc)
             errors.append(
                 {
