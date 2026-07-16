@@ -1,6 +1,98 @@
 window.HARMONICA_OBSERVE_DATA = {
-  "generatedAt": "2026-07-16",
+  "generatedAt": "2026-07-17",
   "entries": [
+    {
+      "id": "watchlist-184",
+      "publicId": "184",
+      "name": "蔡明勳",
+      "nameEn": "Ming-Hsun Tsai",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "低音口琴/重奏/演出/音控",
+      "structuredSummary": "低音口琴/重奏/演出/音控 / 低音口琴/重奏 / 演出人員/音控",
+      "summary": "臺灣的低音口琴與重奏演出人員與音控，活動脈絡包含演出與音控。",
+      "keywords": "蔡明勳 Ming-Hsun Tsai 低音口琴 The Duet Judy's Harmonica Ensemble",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/MingHsunTsai830618/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/minnie.o6i8/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@minghsunTsai"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@minnie.o6i8"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-16T16:17:19+00:00",
+      "latestUpdateLocal": "2026-07-17 00:17",
+      "latestUpdateSource": "蔡明勳",
+      "latestUpdateUrl": "https://www.instagram.com/stories/minnie.o6i8/3942634231620058837/",
+      "avatarUrl": "/assets/source-avatars/335861a8997a2d8e4d10.webp",
+      "sourceInitials": "蔡明",
+      "sourceTags": [
+        "演奏者",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_minghsuntsai830618",
+          "name": "蔡明勳",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/MingHsunTsai830618",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_minnie_o6i8",
+          "name": "蔡明勳",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "minnie.o6i8",
+          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_minnie_o6i8",
+          "name": "蔡明勳",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "minnie.o6i8",
+          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/minnie.o6i8/story/0"
+        },
+        {
+          "id": "threads_minnie_o6i8",
+          "name": "蔡明勳",
+          "platform": "threads",
+          "type": "rss",
+          "username": "minnie.o6i8",
+          "profileUrl": "https://www.threads.net/@minnie.o6i8",
+          "feedUrl": "https://rss.observe.tw/threads/minnie.o6i8"
+        },
+        {
+          "id": "yt_minghsuntsai",
+          "name": "蔡明勳",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@minghsunTsai",
+          "feedUrl": ""
+        }
+      ]
+    },
     {
       "id": "watchlist-58",
       "publicId": "58",
@@ -103,6 +195,92 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-31",
+      "publicId": "31",
+      "name": "張晁滕",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/Laelaps/教學/演出",
+      "structuredSummary": "天狼星/Laelaps/教學/演出 / 重奏/教學 / 演出人員/教學者",
+      "summary": "口琴演奏者，兼職教學與重奏活動。",
+      "keywords": "張晁滕 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://chaotengchang.blogspot.com/2014/06/blog-post.html"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chaotengchang/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chaotengchang/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@ChaotengChang"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-16T15:16:28+00:00",
+      "latestUpdateLocal": "2026-07-16 23:16",
+      "latestUpdateSource": "張晁滕",
+      "latestUpdateUrl": "https://www.instagram.com/p/Da28JnQyXny/",
+      "avatarUrl": "/assets/source-avatars/ee71f9a44b3bd85fda78.webp",
+      "sourceInitials": "張晁",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "重奏"
+      ],
+      "sourceSummary": "口琴演奏者，兼職教學與重奏活動。",
+      "sourceTagReason": "名稱為個人，類別標註為演奏者，摘要提及教學與演出，關鍵字包含口琴，符合演奏者與教學來源定位。",
+      "monitorSources": [
+        {
+          "id": "fb_chaotengchang",
+          "name": "張晁滕",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chaotengchang",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_chaotengchang",
+          "name": "張晁滕",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chaotengchang",
+          "profileUrl": "https://www.instagram.com/chaotengchang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chaotengchang",
+          "name": "張晁滕",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chaotengchang",
+          "profileUrl": "https://www.instagram.com/chaotengchang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chaotengchang/story/0"
+        },
+        {
+          "id": "yt_chaotengchang",
+          "name": "張晁滕",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@ChaotengChang",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-183",
       "publicId": "183",
       "name": "EMPA 口琴課程",
@@ -159,6 +337,101 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "empa.oficial",
           "profileUrl": "https://www.instagram.com/empa.oficial/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/empa.oficial/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-80",
+      "publicId": "80",
+      "name": "臺中國家歌劇院",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "臺中國家歌劇院 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-ntt.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/npac.ntt/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nationaltaichungtheater/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@nationaltaichungtheater"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-16T13:38:48+00:00",
+      "latestUpdateLocal": "2026-07-16 21:38",
+      "latestUpdateSource": "臺中國家歌劇院",
+      "latestUpdateUrl": "https://www.instagram.com/stories/nationaltaichungtheater/3942554408931959760/",
+      "avatarUrl": "/assets/source-avatars/5954411ab3632c46a220.webp",
+      "sourceInitials": "臺中",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_npac_ntt",
+          "name": "臺中國家歌劇院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/npac.ntt",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
+        },
+        {
+          "id": "threads_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "threads",
+          "type": "rss",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
+          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
+        },
+        {
+          "id": "yt_uctl1euke_x0w6tahecepgmq",
+          "name": "臺中國家歌劇院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
+          "feedUrl": ""
         }
       ]
     },
@@ -1032,101 +1305,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@reyharpnaufal5101",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-80",
-      "publicId": "80",
-      "name": "臺中國家歌劇院",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "臺中國家歌劇院 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-ntt.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/npac.ntt/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nationaltaichungtheater/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@nationaltaichungtheater"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-16T08:42:16+00:00",
-      "latestUpdateLocal": "2026-07-16 16:42",
-      "latestUpdateSource": "臺中國家歌劇院",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=xspolnK9ABo",
-      "avatarUrl": "/assets/source-avatars/5954411ab3632c46a220.webp",
-      "sourceInitials": "臺中",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_npac_ntt",
-          "name": "臺中國家歌劇院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/npac.ntt",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
-        },
-        {
-          "id": "threads_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "threads",
-          "type": "rss",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
-          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
-        },
-        {
-          "id": "yt_uctl1euke_x0w6tahecepgmq",
-          "name": "臺中國家歌劇院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
           "feedUrl": ""
         }
       ]
@@ -4800,92 +4978,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-31",
-      "publicId": "31",
-      "name": "張晁滕",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/演出",
-      "structuredSummary": "天狼星/Laelaps/教學/演出 / 重奏/教學 / 演出人員/教學者",
-      "summary": "口琴演奏者，兼職教學與重奏活動。",
-      "keywords": "張晁滕 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://chaotengchang.blogspot.com/2014/06/blog-post.html"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/chaotengchang/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/chaotengchang/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@ChaotengChang"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-14T12:42:21+00:00",
-      "latestUpdateLocal": "2026-07-14 20:42",
-      "latestUpdateSource": "張晁滕",
-      "latestUpdateUrl": "https://www.instagram.com/stories/chaotengchang/3941076418532324098/",
-      "avatarUrl": "/assets/source-avatars/ee71f9a44b3bd85fda78.webp",
-      "sourceInitials": "張晁",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "重奏"
-      ],
-      "sourceSummary": "口琴演奏者，兼職教學與重奏活動。",
-      "sourceTagReason": "名稱為個人，類別標註為演奏者，摘要提及教學與演出，關鍵字包含口琴，符合演奏者與教學來源定位。",
-      "monitorSources": [
-        {
-          "id": "fb_chaotengchang",
-          "name": "張晁滕",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/chaotengchang",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_chaotengchang",
-          "name": "張晁滕",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "chaotengchang",
-          "profileUrl": "https://www.instagram.com/chaotengchang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_chaotengchang",
-          "name": "張晁滕",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "chaotengchang",
-          "profileUrl": "https://www.instagram.com/chaotengchang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chaotengchang/story/0"
-        },
-        {
-          "id": "yt_chaotengchang",
-          "name": "張晁滕",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@ChaotengChang",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-59",
       "publicId": "59",
       "name": "千賀太郎",
@@ -5497,98 +5589,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/Harmonicagor",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-184",
-      "publicId": "184",
-      "name": "蔡明勳",
-      "nameEn": "Ming-Hsun Tsai",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "低音口琴/重奏/演出/音控",
-      "structuredSummary": "低音口琴/重奏/演出/音控 / 低音口琴/重奏 / 演出人員/音控",
-      "summary": "臺灣的低音口琴與重奏演出人員與音控，活動脈絡包含演出與音控。",
-      "keywords": "蔡明勳 Ming-Hsun Tsai 低音口琴 The Duet Judy's Harmonica Ensemble",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/MingHsunTsai830618/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/minnie.o6i8/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@minghsunTsai"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@minnie.o6i8"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-13T03:04:58+00:00",
-      "latestUpdateLocal": "2026-07-13 11:04",
-      "latestUpdateSource": "蔡明勳",
-      "latestUpdateUrl": "https://www.instagram.com/stories/minnie.o6i8/3940061062975612096/",
-      "avatarUrl": "/assets/source-avatars/335861a8997a2d8e4d10.webp",
-      "sourceInitials": "蔡明",
-      "sourceTags": [
-        "演奏者",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_minghsuntsai830618",
-          "name": "蔡明勳",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/MingHsunTsai830618",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_minnie_o6i8",
-          "name": "蔡明勳",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "minnie.o6i8",
-          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_minnie_o6i8",
-          "name": "蔡明勳",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "minnie.o6i8",
-          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/minnie.o6i8/story/0"
-        },
-        {
-          "id": "threads_minnie_o6i8",
-          "name": "蔡明勳",
-          "platform": "threads",
-          "type": "rss",
-          "username": "minnie.o6i8",
-          "profileUrl": "https://www.threads.net/@minnie.o6i8",
-          "feedUrl": "https://rss.observe.tw/threads/minnie.o6i8"
-        },
-        {
-          "id": "yt_minghsuntsai",
-          "name": "蔡明勳",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@minghsunTsai",
           "feedUrl": ""
         }
       ]
