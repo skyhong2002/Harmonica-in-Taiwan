@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 16 Jul 2026 20:20:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 21:25:31 +0000</lastBuildDate>
+    <item>
+      <title>Howard Levy</title>
+      <link>https://levyland.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/7b1b038dac5e8bbf</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、十孔、國際交流
+國家：美國
+地區：美國
+美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。</description>
+    </item>
     <item>
       <title>蔡明勳</title>
       <link>https://www.facebook.com/MingHsunTsai830618/</link>
@@ -115,6 +126,17 @@ Tag：演奏者、重奏、國際交流
 國家：馬來西亞
 地區：臺灣/花蓮；馬來西亞
 馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。</description>
+    </item>
+    <item>
+      <title>鍾靈中學口琴隊</title>
+      <link>https://sites.google.com/view/clhsharmonica/home</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/2d88fa25d9889b01</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：學校社團
+Tag：學生社團
+國家：馬來西亞
+地區：馬來西亞/檳城
+馬來西亞的口琴隊、學生合奏與華校學校社團。</description>
     </item>
     <item>
       <title>唐雪婷 Sharene Tang</title>
@@ -370,17 +392,6 @@ Tag：演奏者、教學、比賽、半音階、十孔、國際交流
 俄羅斯的十孔與半音階國際演出人員與教學者，活動脈絡包含莫斯科職業口琴演奏、藍調爵士與國際比賽得獎。</description>
     </item>
     <item>
-      <title>Howard Levy</title>
-      <link>https://levyland.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/7b1b038dac5e8bbf</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、十孔、國際交流
-國家：美國
-地區：美國
-美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。</description>
-    </item>
-    <item>
       <title>Gregoire Maret</title>
       <link>https://www.gregoiremaret.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/22c2d0cebb6fdbed</guid>
@@ -445,17 +456,6 @@ Tag：演奏者、半音階、合奏、國際交流
 國家：香港
 地區：香港
 香港半音階口琴演奏者，專注現代跨界與國際演出。</description>
-    </item>
-    <item>
-      <title>鍾靈中學口琴隊</title>
-      <link>https://sites.google.com/view/clhsharmonica/home</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/2d88fa25d9889b01</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：學校社團
-Tag：學生社團
-國家：馬來西亞
-地區：馬來西亞/檳城
-馬來西亞的口琴隊、學生合奏與華校學校社團。</description>
     </item>
     <item>
       <title>Konstantin Reinfeld</title>

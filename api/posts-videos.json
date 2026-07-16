@@ -7,8 +7,93 @@
   "rss": "https://harmonica.observe.tw/feeds/posts-videos.xml",
   "json": "https://harmonica.observe.tw/api/posts-videos.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/posts-videos.json",
-  "count": 1770,
+  "count": 1773,
   "items": [
+    {
+      "title": "Howard Levy｜Instagram story @howardlevyland",
+      "headline": "Instagram story @howardlevyland",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/howardlevyland/3942650421609311957/",
+      "source_id": "ig_story_howardlevyland",
+      "source": "Howard Levy",
+      "source_system_name": "Howard Levy",
+      "source_profile_url": "https://www.instagram.com/howardlevyland/",
+      "country": "美國",
+      "region": "美國",
+      "directory_entry_id": "watchlist-142",
+      "directory_entry_name": "Howard Levy",
+      "account": "howardlevyland",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-07-16T16:49:36+00:00",
+      "posted_at_local": "2026-07-17 00:49",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-16T21:25:19.090484+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "instagram_web",
+      "story_fetched_at": "2026-07-16T21:23:18.428524+00:00",
+      "story_expires_at": "2026-07-17T16:49:36+00:00",
+      "source_feed_url": "https://rss.observe.tw/picuki/profile/howardlevyland/story/0",
+      "rsshub_guid": "3942650421609311957_5777911555",
+      "rsshub_title": "Instagram story @howardlevyland",
+      "instagram_user_id": "5777911555",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.86,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "Howard Levy 的 Instagram 限時動態，屬口琴演奏者公開更新。",
+      "text": "Instagram story @howardlevyland",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748665473_1028430352928310_838268454278397173_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=Mzk0MjY1MDQyMTYwOTMxMTk1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=6gxApIYZYK4Q7kNvwHpsgKR&_nc_oc=AdqTBhqNqo_uV0pri-8wTz02eyCRCIcwmrWAi5f8ufznCcSm0jUecQOpBdFyBQwCzj4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQCr33rIZiiuXclMAsYzXvpsI8K5OBeiBlH8iVIKVLK6qg&oe=6A5F3A10",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748665473_1028430352928310_838268454278397173_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=111&ig_cache_key=Mzk0MjY1MDQyMTYwOTMxMTk1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=6gxApIYZYK4Q7kNvwHpsgKR&_nc_oc=AdqTBhqNqo_uV0pri-8wTz02eyCRCIcwmrWAi5f8ufznCcSm0jUecQOpBdFyBQwCzj4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQB4MTLEZwEkN-EtVwJsAfUbzq9d9pC-iLUm0BFo7BDpSg&oe=6A5F3A10",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748665473_1028430352928310_838268454278397173_n.jpg?stp=dst-jpg_e15_p320x320_tt6&_nc_cat=111&ig_cache_key=Mzk0MjY1MDQyMTYwOTMxMTk1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=6gxApIYZYK4Q7kNvwHpsgKR&_nc_oc=AdqTBhqNqo_uV0pri-8wTz02eyCRCIcwmrWAi5f8ufznCcSm0jUecQOpBdFyBQwCzj4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQDwkgAwg6P8XR0QutHxR4p9ce4UepxgeB95GsVCU0ih8w&oe=6A5F3A10",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748665473_1028430352928310_838268454278397173_n.jpg?stp=dst-jpg_e15_p240x240_tt6&_nc_cat=111&ig_cache_key=Mzk0MjY1MDQyMTYwOTMxMTk1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=6gxApIYZYK4Q7kNvwHpsgKR&_nc_oc=AdqTBhqNqo_uV0pri-8wTz02eyCRCIcwmrWAi5f8ufznCcSm0jUecQOpBdFyBQwCzj4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQDxBjqlwbj9cvILTO3WSnO_UvYgJPt0wwq95bDcOuvZhw&oe=6A5F3A10",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748665473_1028430352928310_838268454278397173_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s640x639_tt6&_nc_cat=111&ig_cache_key=Mzk0MjY1MDQyMTYwOTMxMTk1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=6gxApIYZYK4Q7kNvwHpsgKR&_nc_oc=AdqTBhqNqo_uV0pri-8wTz02eyCRCIcwmrWAi5f8ufznCcSm0jUecQOpBdFyBQwCzj4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQBJB3WzN7QSWycoMdKCpgjBNnzIJbQBoEv2CmWhMQ8whw&oe=6A5F3A10",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748665473_1028430352928310_838268454278397173_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s640x639_tt6&_nc_cat=111&ig_cache_key=Mzk0MjY1MDQyMTYwOTMxMTk1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=6gxApIYZYK4Q7kNvwHpsgKR&_nc_oc=AdqTBhqNqo_uV0pri-8wTz02eyCRCIcwmrWAi5f8ufznCcSm0jUecQOpBdFyBQwCzj4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQBJB3WzN7QSWycoMdKCpgjBNnzIJbQBoEv2CmWhMQ8whw&oe=6A5F3A10",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748665473_1028430352928310_838268454278397173_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s640x639_tt6&_nc_cat=111&ig_cache_key=Mzk0MjY1MDQyMTYwOTMxMTk1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=6gxApIYZYK4Q7kNvwHpsgKR&_nc_oc=AdqTBhqNqo_uV0pri-8wTz02eyCRCIcwmrWAi5f8ufznCcSm0jUecQOpBdFyBQwCzj4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQBJB3WzN7QSWycoMdKCpgjBNnzIJbQBoEv2CmWhMQ8whw&oe=6A5F3A10",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748665473_1028430352928310_838268454278397173_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s480x480_tt6&_nc_cat=111&ig_cache_key=Mzk0MjY1MDQyMTYwOTMxMTk1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=6gxApIYZYK4Q7kNvwHpsgKR&_nc_oc=AdqTBhqNqo_uV0pri-8wTz02eyCRCIcwmrWAi5f8ufznCcSm0jUecQOpBdFyBQwCzj4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQDXuijv6g68x9X2EOnzD4oi_iFBCjQO4T675t7qFEotKQ&oe=6A5F3A10",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748665473_1028430352928310_838268454278397173_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s320x320_tt6&_nc_cat=111&ig_cache_key=Mzk0MjY1MDQyMTYwOTMxMTk1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=6gxApIYZYK4Q7kNvwHpsgKR&_nc_oc=AdqTBhqNqo_uV0pri-8wTz02eyCRCIcwmrWAi5f8ufznCcSm0jUecQOpBdFyBQwCzj4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQCN595fCk-L7VY62sWufbt6zop7LdYG5Uo-gmtmDGHcwA&oe=6A5F3A10",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748665473_1028430352928310_838268454278397173_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s240x240_tt6&_nc_cat=111&ig_cache_key=Mzk0MjY1MDQyMTYwOTMxMTk1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=6gxApIYZYK4Q7kNvwHpsgKR&_nc_oc=AdqTBhqNqo_uV0pri-8wTz02eyCRCIcwmrWAi5f8ufznCcSm0jUecQOpBdFyBQwCzj4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQAu19PZLei6HxhZhZyhK6SDeOEh-7X38t4ILp0JFK2gZg&oe=6A5F3A10",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748665473_1028430352928310_838268454278397173_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s150x150_tt6&_nc_cat=111&ig_cache_key=Mzk0MjY1MDQyMTYwOTMxMTk1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=6gxApIYZYK4Q7kNvwHpsgKR&_nc_oc=AdqTBhqNqo_uV0pri-8wTz02eyCRCIcwmrWAi5f8ufznCcSm0jUecQOpBdFyBQwCzj4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQBAfBy9o3l8lXsn5v-Y2PtZ6XcKNns3P51F2fVCavG3TQ&oe=6A5F3A10"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m78/AQPjj0SqMU7vEZK1eziMJU2LauETBG9t5vuWieRBsChwL_KdLrSw7CAVuSqSq04lHVx7yu7N8Tt_ZR-xrDOmNWqD-_PoU9syrqOvDKA.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=0uPh3IDDxLsQ7kNvwE-m2zn&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uU1RPUlkuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg0MjIxNjcyNjQxOTk1NTYsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDEwMCwiZHVyYXRpb25fcyI6MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=a759f3ed242338d4&_nc_vs=HBksFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzczNERGMTI1Mzk5QTIyODdGOEU4NkVENzkxRERCRDlDX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhRaWdfeHB2X3BsYWNlbWVudF9wZXJtYW5lbnRfdjIvNkE0MTAwOTYyMjhEQzY2NkJEN0RGRDAwRENFQjU4OTBfYXVkaW9fZGFzaGluaXQubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJoiOtPyht7lBFQIoAkMzLBdADVP3ztkWhxgSZGFzaF9iYXNlbGluZV8xX3YxEQB16Adl6J0BAA&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_zt=28&_nc_ss=7a22e&oh=00_AQAWJKXq_yXAEWMebFgkZdYsWh9_8NrnVGABMRprVFp4pg&oe=6A5B2821",
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m78/AQPjj0SqMU7vEZK1eziMJU2LauETBG9t5vuWieRBsChwL_KdLrSw7CAVuSqSq04lHVx7yu7N8Tt_ZR-xrDOmNWqD-_PoU9syrqOvDKA.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=0uPh3IDDxLsQ7kNvwE-m2zn&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uU1RPUlkuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg0MjIxNjcyNjQxOTk1NTYsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDEwMCwiZHVyYXRpb25fcyI6MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=a759f3ed242338d4&_nc_vs=HBksFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzczNERGMTI1Mzk5QTIyODdGOEU4NkVENzkxRERCRDlDX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhRaWdfeHB2X3BsYWNlbWVudF9wZXJtYW5lbnRfdjIvNkE0MTAwOTYyMjhEQzY2NkJEN0RGRDAwRENFQjU4OTBfYXVkaW9fZGFzaGluaXQubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJoiOtPyht7lBFQIoAkMzLBdADVP3ztkWhxgSZGFzaF9iYXNlbGluZV8xX3YxEQB16Adl6J0BAA&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_zt=28&_nc_ss=7a22e&oh=00_AQAWJKXq_yXAEWMebFgkZdYsWh9_8NrnVGABMRprVFp4pg&oe=6A5B2821",
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m78/AQPjj0SqMU7vEZK1eziMJU2LauETBG9t5vuWieRBsChwL_KdLrSw7CAVuSqSq04lHVx7yu7N8Tt_ZR-xrDOmNWqD-_PoU9syrqOvDKA.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=0uPh3IDDxLsQ7kNvwE-m2zn&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uU1RPUlkuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg0MjIxNjcyNjQxOTk1NTYsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDEwMCwiZHVyYXRpb25fcyI6MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=a759f3ed242338d4&_nc_vs=HBksFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzczNERGMTI1Mzk5QTIyODdGOEU4NkVENzkxRERCRDlDX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhRaWdfeHB2X3BsYWNlbWVudF9wZXJtYW5lbnRfdjIvNkE0MTAwOTYyMjhEQzY2NkJEN0RGRDAwRENFQjU4OTBfYXVkaW9fZGFzaGluaXQubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJoiOtPyht7lBFQIoAkMzLBdADVP3ztkWhxgSZGFzaF9iYXNlbGluZV8xX3YxEQB16Adl6J0BAA&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_zt=28&_nc_ss=7a22e&oh=00_AQAWJKXq_yXAEWMebFgkZdYsWh9_8NrnVGABMRprVFp4pg&oe=6A5B2821"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748665473_1028430352928310_838268454278397173_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=Mzk0MjY1MDQyMTYwOTMxMTk1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=6gxApIYZYK4Q7kNvwHpsgKR&_nc_oc=AdqTBhqNqo_uV0pri-8wTz02eyCRCIcwmrWAi5f8ufznCcSm0jUecQOpBdFyBQwCzj4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQCr33rIZiiuXclMAsYzXvpsI8K5OBeiBlH8iVIKVLK6qg&oe=6A5F3A10",
+      "image_url": "/assets/feed-images/c3906a8a178324d97a8a.webp",
+      "image_width": 640,
+      "image_height": 1136,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/598119333_18388718467199556_5709243006345670319_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gFI96OJCjgb6keD9M-rF5gseDif6BV41aENjzCSIW6N1gEx0nKtKSfEfpHmTGTKRgU&_nc_ohc=PeHtWPid4zcQ7kNvwG48iey&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&edm=ANmP7GQBAAAA&ccb=7-5&oh=00_AQAErgDuZvDSHOrt6WBZB1ogbFE6GefoeXamUpbyFiYycw&oe=6A5F17B5&_nc_sid=982cc7",
+      "avatar_url": "/assets/source-avatars/258e7c30564f3f61fecd.webp",
+      "source_initials": "HL",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_story_howardlevyland:3942650421609311957_5777911555"
+    },
     {
       "title": "蔡明勳｜Instagram story @minnie.o6i8",
       "headline": "Instagram story @minnie.o6i8",
@@ -158,6 +243,91 @@
         "貼文影片"
       ],
       "key": "x_minami_risa:https://twitter.com/minami_risa/status/2077780028570640602"
+    },
+    {
+      "title": "Howard Levy｜Instagram story @howardlevyland",
+      "headline": "Instagram story @howardlevyland",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/howardlevyland/3942607905744671742/",
+      "source_id": "ig_story_howardlevyland",
+      "source": "Howard Levy",
+      "source_system_name": "Howard Levy",
+      "source_profile_url": "https://www.instagram.com/howardlevyland/",
+      "country": "美國",
+      "region": "美國",
+      "directory_entry_id": "watchlist-142",
+      "directory_entry_name": "Howard Levy",
+      "account": "howardlevyland",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-07-16T15:24:59+00:00",
+      "posted_at_local": "2026-07-16 23:24",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-16T21:25:19.090484+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "instagram_web",
+      "story_fetched_at": "2026-07-16T21:23:18.428524+00:00",
+      "story_expires_at": "2026-07-17T15:24:59+00:00",
+      "source_feed_url": "https://rss.observe.tw/picuki/profile/howardlevyland/story/0",
+      "rsshub_guid": "3942607905744671742_5777911555",
+      "rsshub_title": "Instagram story @howardlevyland",
+      "instagram_user_id": "5777911555",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.86,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "Howard Levy 的 Instagram 限時動態，屬口琴演奏者公開更新。",
+      "text": "Instagram story @howardlevyland",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748931063_1669108254395049_6268758056508809446_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=Mzk0MjYwNzkwNTc0NDY3MTc0Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=BckV66BfCeMQ7kNvwFcE8Qh&_nc_oc=AdrYu68neG0l5-dlBS6BZRyvArCsQs690MLQM43ODB7r6B7FZkPHfgIjfZJ8JlmMEGU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQDbn3QW_12zHTkQv8BF_N3s1bRSR_EeqTNt-6_MGwvQVw&oe=6A5F36AF",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748931063_1669108254395049_6268758056508809446_n.jpg?stp=dst-jpg_e15_p480x480_tt6&_nc_cat=100&ig_cache_key=Mzk0MjYwNzkwNTc0NDY3MTc0Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=BckV66BfCeMQ7kNvwFcE8Qh&_nc_oc=AdrYu68neG0l5-dlBS6BZRyvArCsQs690MLQM43ODB7r6B7FZkPHfgIjfZJ8JlmMEGU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQD4i4XJsIijpxWRywYYpQK50Fi9g5IyuY9OucAUERXz_A&oe=6A5F36AF",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748931063_1669108254395049_6268758056508809446_n.jpg?stp=dst-jpg_e15_p320x320_tt6&_nc_cat=100&ig_cache_key=Mzk0MjYwNzkwNTc0NDY3MTc0Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=BckV66BfCeMQ7kNvwFcE8Qh&_nc_oc=AdrYu68neG0l5-dlBS6BZRyvArCsQs690MLQM43ODB7r6B7FZkPHfgIjfZJ8JlmMEGU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQBOZzVbzTe04m2Cxl8lLC6CeCU0h_fJA7U6Mmv26tFxWA&oe=6A5F36AF",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748931063_1669108254395049_6268758056508809446_n.jpg?stp=dst-jpg_e15_p240x240_tt6&_nc_cat=100&ig_cache_key=Mzk0MjYwNzkwNTc0NDY3MTc0Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=BckV66BfCeMQ7kNvwFcE8Qh&_nc_oc=AdrYu68neG0l5-dlBS6BZRyvArCsQs690MLQM43ODB7r6B7FZkPHfgIjfZJ8JlmMEGU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQDBxT-DUYO43sVrUP3fuCwSGKhzG9ssXIwl4nvgHDcjLw&oe=6A5F36AF",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748931063_1669108254395049_6268758056508809446_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s640x639_tt6&_nc_cat=100&ig_cache_key=Mzk0MjYwNzkwNTc0NDY3MTc0Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=BckV66BfCeMQ7kNvwFcE8Qh&_nc_oc=AdrYu68neG0l5-dlBS6BZRyvArCsQs690MLQM43ODB7r6B7FZkPHfgIjfZJ8JlmMEGU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQAwOV-ECVMQFIvwWXYRbY47hqtXryzUdQF0_j2q3_u3kQ&oe=6A5F36AF",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748931063_1669108254395049_6268758056508809446_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s640x639_tt6&_nc_cat=100&ig_cache_key=Mzk0MjYwNzkwNTc0NDY3MTc0Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=BckV66BfCeMQ7kNvwFcE8Qh&_nc_oc=AdrYu68neG0l5-dlBS6BZRyvArCsQs690MLQM43ODB7r6B7FZkPHfgIjfZJ8JlmMEGU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQAwOV-ECVMQFIvwWXYRbY47hqtXryzUdQF0_j2q3_u3kQ&oe=6A5F36AF",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748931063_1669108254395049_6268758056508809446_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s640x639_tt6&_nc_cat=100&ig_cache_key=Mzk0MjYwNzkwNTc0NDY3MTc0Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=BckV66BfCeMQ7kNvwFcE8Qh&_nc_oc=AdrYu68neG0l5-dlBS6BZRyvArCsQs690MLQM43ODB7r6B7FZkPHfgIjfZJ8JlmMEGU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQAwOV-ECVMQFIvwWXYRbY47hqtXryzUdQF0_j2q3_u3kQ&oe=6A5F36AF",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748931063_1669108254395049_6268758056508809446_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s480x480_tt6&_nc_cat=100&ig_cache_key=Mzk0MjYwNzkwNTc0NDY3MTc0Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=BckV66BfCeMQ7kNvwFcE8Qh&_nc_oc=AdrYu68neG0l5-dlBS6BZRyvArCsQs690MLQM43ODB7r6B7FZkPHfgIjfZJ8JlmMEGU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQDUviGGRdOduTjt7tVIl_5BvEU7vAaaRShMJVFLCOEW3A&oe=6A5F36AF",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748931063_1669108254395049_6268758056508809446_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s320x320_tt6&_nc_cat=100&ig_cache_key=Mzk0MjYwNzkwNTc0NDY3MTc0Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=BckV66BfCeMQ7kNvwFcE8Qh&_nc_oc=AdrYu68neG0l5-dlBS6BZRyvArCsQs690MLQM43ODB7r6B7FZkPHfgIjfZJ8JlmMEGU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQAEBkArPC1tfE4oL3yTjQTv97pztH16aUxzV0Yk3tgOdw&oe=6A5F36AF",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748931063_1669108254395049_6268758056508809446_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s240x240_tt6&_nc_cat=100&ig_cache_key=Mzk0MjYwNzkwNTc0NDY3MTc0Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=BckV66BfCeMQ7kNvwFcE8Qh&_nc_oc=AdrYu68neG0l5-dlBS6BZRyvArCsQs690MLQM43ODB7r6B7FZkPHfgIjfZJ8JlmMEGU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQCBNFLvZWBQcK89oR32NHSVaLyL5BPbrp3hBbs2D3ipiQ&oe=6A5F36AF",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748931063_1669108254395049_6268758056508809446_n.jpg?stp=c0.248.640.640a_dst-jpg_e15_s150x150_tt6&_nc_cat=100&ig_cache_key=Mzk0MjYwNzkwNTc0NDY3MTc0Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=BckV66BfCeMQ7kNvwFcE8Qh&_nc_oc=AdrYu68neG0l5-dlBS6BZRyvArCsQs690MLQM43ODB7r6B7FZkPHfgIjfZJ8JlmMEGU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQDlH0JSsVT6NGX3HYoTYUrko7m_gAt7cnmuZW77LFza2g&oe=6A5F36AF"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m78/AQMfYJGih-LP5y51nSwgqUDE98A-ZkYo19gtyvgaRacdATvUuRilt6rITXJOKvuZl5gkO1LoCDnTIiO3tWwpdDpi0p3KlhpQzO0vRaw.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=R7DhdKIWBOcQ7kNvwGsgROr&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uU1RPUlkuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg0MjIxNTU0MDUxOTk1NTYsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDEwMCwiZHVyYXRpb25fcyI6NjAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=9e2715001c8740fd&_nc_vs=HBksFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzRENEUxQjQ5QUIwMUI3MEUxMEM4RjgwNzRBRjY3MUFDX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhRaWdfeHB2X3BsYWNlbWVudF9wZXJtYW5lbnRfdjIvMTg0MkYwNzY1NEI2RkY1RDdDMTczNUM1NUU4QThEOTJfYXVkaW9fZGFzaGluaXQubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJoij5M7JtrlBFQIoAkMzLBdATgAAAAAAABgSZGFzaF9iYXNlbGluZV8xX3YxEQB16Adl6J0BAA&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_zt=28&_nc_ss=7a22e&oh=00_AQBI2gNNVgQ4-TxXkwsAWl00mqbAwQR6dem6v84pE0DqaA&oe=6A5B2EDD",
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m78/AQMfYJGih-LP5y51nSwgqUDE98A-ZkYo19gtyvgaRacdATvUuRilt6rITXJOKvuZl5gkO1LoCDnTIiO3tWwpdDpi0p3KlhpQzO0vRaw.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=R7DhdKIWBOcQ7kNvwGsgROr&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uU1RPUlkuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg0MjIxNTU0MDUxOTk1NTYsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDEwMCwiZHVyYXRpb25fcyI6NjAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=9e2715001c8740fd&_nc_vs=HBksFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzRENEUxQjQ5QUIwMUI3MEUxMEM4RjgwNzRBRjY3MUFDX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhRaWdfeHB2X3BsYWNlbWVudF9wZXJtYW5lbnRfdjIvMTg0MkYwNzY1NEI2RkY1RDdDMTczNUM1NUU4QThEOTJfYXVkaW9fZGFzaGluaXQubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJoij5M7JtrlBFQIoAkMzLBdATgAAAAAAABgSZGFzaF9iYXNlbGluZV8xX3YxEQB16Adl6J0BAA&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_zt=28&_nc_ss=7a22e&oh=00_AQBI2gNNVgQ4-TxXkwsAWl00mqbAwQR6dem6v84pE0DqaA&oe=6A5B2EDD",
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m78/AQMfYJGih-LP5y51nSwgqUDE98A-ZkYo19gtyvgaRacdATvUuRilt6rITXJOKvuZl5gkO1LoCDnTIiO3tWwpdDpi0p3KlhpQzO0vRaw.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=R7DhdKIWBOcQ7kNvwGsgROr&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uU1RPUlkuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTg0MjIxNTU0MDUxOTk1NTYsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDEwMCwiZHVyYXRpb25fcyI6NjAsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=9e2715001c8740fd&_nc_vs=HBksFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzRENEUxQjQ5QUIwMUI3MEUxMEM4RjgwNzRBRjY3MUFDX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhRaWdfeHB2X3BsYWNlbWVudF9wZXJtYW5lbnRfdjIvMTg0MkYwNzY1NEI2RkY1RDdDMTczNUM1NUU4QThEOTJfYXVkaW9fZGFzaGluaXQubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJoij5M7JtrlBFQIoAkMzLBdATgAAAAAAABgSZGFzaF9iYXNlbGluZV8xX3YxEQB16Adl6J0BAA&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_zt=28&_nc_ss=7a22e&oh=00_AQBI2gNNVgQ4-TxXkwsAWl00mqbAwQR6dem6v84pE0DqaA&oe=6A5B2EDD"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/748931063_1669108254395049_6268758056508809446_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=Mzk0MjYwNzkwNTc0NDY3MTc0Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=BckV66BfCeMQ7kNvwFcE8Qh&_nc_oc=AdrYu68neG0l5-dlBS6BZRyvArCsQs690MLQM43ODB7r6B7FZkPHfgIjfZJ8JlmMEGU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&_nc_ss=7a22e&oh=00_AQDbn3QW_12zHTkQv8BF_N3s1bRSR_EeqTNt-6_MGwvQVw&oe=6A5F36AF",
+      "image_url": "/assets/feed-images/bbbb1d1940708549942e.webp",
+      "image_width": 640,
+      "image_height": 1136,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/598119333_18388718467199556_5709243006345670319_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gFI96OJCjgb6keD9M-rF5gseDif6BV41aENjzCSIW6N1gEx0nKtKSfEfpHmTGTKRgU&_nc_ohc=PeHtWPid4zcQ7kNvwG48iey&_nc_gid=WmhMiLhAYrjfc8Fyd2ABjw&edm=ANmP7GQBAAAA&ccb=7-5&oh=00_AQAErgDuZvDSHOrt6WBZB1ogbFE6GefoeXamUpbyFiYycw&oe=6A5F17B5&_nc_sid=982cc7",
+      "avatar_url": "/assets/source-avatars/258e7c30564f3f61fecd.webp",
+      "source_initials": "HL",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_story_howardlevyland:3942607905744671742_5777911555"
     },
     {
       "title": "張晁滕｜昨晚 Antonio Serrano 大師邀請，與其經紀人馬嘉駿及巧遇的口琴協會監事钟剑宾一同晚餐。在忙碌的教學後吃烤肉太幸福了！ Last night, I was invited to dinner by Maestro An…",
@@ -842,6 +1012,78 @@
         "公開活動"
       ],
       "key": "yt_reiyamashita:8ED67inY2_g"
+    },
+    {
+      "title": "鍾靈中學口琴隊｜✨CLHS Harmonica Band 2026/2027 committee✨",
+      "headline": "✨CLHS Harmonica Band 2026/2027 committee✨",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/Da2cfG5kSIZ/",
+      "source_id": "ig_clhs_harmonicaband",
+      "source": "鍾靈中學口琴隊",
+      "source_system_name": "鍾靈中學口琴隊",
+      "source_profile_url": "https://www.instagram.com/clhs_harmonicaband/",
+      "country": "馬來西亞",
+      "region": "馬來西亞/檳城",
+      "directory_entry_id": "watchlist-215",
+      "directory_entry_name": "鍾靈中學口琴隊",
+      "account": "clhs_harmonicaband",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Thu, 16 Jul 2026 10:38:53 GMT",
+      "posted_at_local": "2026-07-16 18:38",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-16T20:52:46.282516+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/clhs_harmonicaband",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": null,
+      "llm_confidence": null,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "",
+      "text": "✨CLHS Harmonica Band 2026/2027 committee✨",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/747168107_18107938907318521_4336638892450844112_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=Mzk0MjQ2Mzc5MTc3NDY3MzM5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=IsdZBbn7m9IQ7kNvwEwF-Dg&_nc_oc=AdqWl2pBVvunRinP8JqtCXErY2R8zUje_tOds5-XSCe0xH-gWe0W7nyR6uo1mWYSHzg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uQpujUNCiohYt1g2q_oDxw&_nc_ss=7a22e&oh=00_AQCMN9kSmDf2GJ59OJD6KVQqmh3oPQ3TWbkQ9hA8Jj6jMQ&oe=6A5EFCA5",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/747273845_18107938925318521_7022058021484652715_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=Mzk0MjQ2Mzc5MTQ4MTA2NTU5Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=eVH47vnDOEoQ7kNvwF2a9L0&_nc_oc=Adp_SsD9xEyyzImGu0Qt9Sed2lTYq4ICnpxWtKxStX1r_zJiAVfLhJDaOXSXQlyQP2s&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uQpujUNCiohYt1g2q_oDxw&_nc_ss=7a22e&oh=00_AQAAvM9pYwo8lpKr3CTMl4YXJwB7JbK4YveStjdY45WfWg&oe=6A5F20FA",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/747941397_18107938916318521_1298491726087314738_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk0MjQ2Mzc5MTQzOTA5MDIzNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=tgmEuYw_CLoQ7kNvwE0asjF&_nc_oc=Ado2fl5I9U8z0yE8nuPn4tnzYC--MdsXrcjjKNwuO2ccg5-ZrDTr-5_qUHDkiUJpGPo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uQpujUNCiohYt1g2q_oDxw&_nc_ss=7a22e&oh=00_AQBm8lYJr0PoWwUbte-naVFvs58p6aXU7zB6K-BHFKZRbw&oe=6A5F1756",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/747771152_18107938934318521_1016618629942117822_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzk0MjQ2Mzc5MTUxNDYwNTUzNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=m1IuYwuB5SIQ7kNvwEfEn0K&_nc_oc=Adprhxt5IJjhkQgeYzzjRYJiuK09SMifp_URpxk7MQffjFHNFN1iYHTLmEHm_k2bE0w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uQpujUNCiohYt1g2q_oDxw&_nc_ss=7a22e&oh=00_AQDcOL0fflne9MQuzInXMgTEben9D7N_7uVamOClTxFJkQ&oe=6A5F02D0",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/747127101_18107938952318521_4813631012717529196_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzk0MjQ2Mzc5MTU0ODE0NjQyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=I12AmPiiQNcQ7kNvwEr16D8&_nc_oc=AdpWgr5vjNYEyxQw5evWNoYdO40HjeLEFArg-OhxvCO7Y_iypguu5_xMoIxuijXISmQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uQpujUNCiohYt1g2q_oDxw&_nc_ss=7a22e&oh=00_AQAs4kAVeO4MTW8QIa2DX5hKCC2XtLsXZ9REi8KBWtAZYQ&oe=6A5F1515",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/747235985_18107938961318521_3816028741870264759_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=Mzk0MjQ2Mzc5MTczMjcwMjY5OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=xcZethlcEgMQ7kNvwHtQkvv&_nc_oc=Adpg8gKnIbyN1QWmLTykC90Cf9HUYnb0z9piRPurKkB2Xc1ok7hh9dvW5OjUJzOOKJs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uQpujUNCiohYt1g2q_oDxw&_nc_ss=7a22e&oh=00_AQBvNQp3apdPezD76XFexLZjQl7V0Y26mNf7dnZITRxpOQ&oe=6A5F18ED",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/748776515_18107938970318521_9024886378484124563_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzk0MjQ2Mzc5MTQ5Nzg1MDQyMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=3rnq8x0gzuQQ7kNvwEx_re0&_nc_oc=AdpIJNzHq0oAINHzj3Xh2md2UYQ9sxSLowHUGAV0tl8Msh_4uYge3KSmIHwiz0cHwz8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uQpujUNCiohYt1g2q_oDxw&_nc_ss=7a22e&oh=00_AQAlGwhh-J2Wc6GH9QZjENvkXZYhc4qLIdTEHig97kUYzg&oe=6A5F1B94",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746369731_18107938943318521_8077966648049924967_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzk0MjQ2Mzc5MTUxNDYzNTUyMA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ny4fHbajb64Q7kNvwEUKZ5V&_nc_oc=Adr-S08IftxeOvpk7gqWTb74GhgVzP-UPhRKsUSv7OqQCENalQlN-PZ3SJ_8XvaiU6s&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uQpujUNCiohYt1g2q_oDxw&_nc_ss=7a22e&oh=00_AQACqTSamOOKYBTUQ0UgOwnB3_UWUa9i6kths4L0wiTX7g&oe=6A5F1E8D"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/747168107_18107938907318521_4336638892450844112_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=Mzk0MjQ2Mzc5MTc3NDY3MzM5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=IsdZBbn7m9IQ7kNvwEwF-Dg&_nc_oc=AdqWl2pBVvunRinP8JqtCXErY2R8zUje_tOds5-XSCe0xH-gWe0W7nyR6uo1mWYSHzg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=uQpujUNCiohYt1g2q_oDxw&_nc_ss=7a22e&oh=00_AQCMN9kSmDf2GJ59OJD6KVQqmh3oPQ3TWbkQ9hA8Jj6jMQ&oe=6A5EFCA5",
+      "image_url": "/assets/feed-images/11d9c4dc1dbc24c3abbb.webp",
+      "image_width": 800,
+      "image_height": 1000,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/735636559_18106411427318521_5132336077755263724_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gHEWX_YKc9ORo_HMgvUA3lH4OXydh5NhQgHwMQDEHTTG4qq5DMyFUJIX0n1nZEdM20&_nc_ohc=v7P4OFOeeF8Q7kNvwGe7xwH&_nc_gid=7YUY_xeEusGOjKZoWPRmMw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQBS1k4JtpWZDMAKAoK7n__bTE7-NoyeOHbxkDPXeUmAlg&oe=6A5F09CA&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/48b9fbc250cdb4024355.webp",
+      "source_initials": "鍾靈",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_clhs_harmonicaband:https://www.instagram.com/p/Da2cfG5kSIZ/"
     },
     {
       "title": "唐雪婷 Sharene Tang｜Instagram story @sharene.harmonica",

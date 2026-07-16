@@ -65,6 +65,91 @@
   },
   "entries": [
     {
+      "id": "watchlist-142",
+      "publicId": "142",
+      "name": "Howard Levy",
+      "nameEn": "Howard Levy",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "美國",
+      "region": "美國",
+      "cityOrFocus": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興",
+      "structuredSummary": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興 / 半音階/十孔/鋼琴 / 國際演出人員/作曲者/教育者",
+      "summary": "美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。",
+      "keywords": "Howard Levy harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://levyland.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HowardLevyFanPage/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/howardlevyland/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-16T16:49:36+00:00",
+      "latestUpdateLocal": "2026-07-17 00:49",
+      "latestUpdateSource": "Howard Levy",
+      "latestUpdateUrl": "https://www.instagram.com/stories/howardlevyland/3942650421609311957/",
+      "avatarUrl": "/assets/source-avatars/fdb08c71103b5e8ceb5b.webp",
+      "sourceInitials": "HL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_howardlevyfanpage",
+          "name": "Howard Levy",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HowardLevyFanPage",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_howardlevyland",
+          "name": "Howard Levy",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "howardlevyland",
+          "profileUrl": "https://www.instagram.com/howardlevyland/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_howardlevyland",
+          "name": "Howard Levy",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "howardlevyland",
+          "profileUrl": "https://www.instagram.com/howardlevyland/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/howardlevyland/story/0"
+        },
+        {
+          "id": "yt_uc86aeg8s_npzmfuj_cyxw",
+          "name": "Howard Levy",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-184",
       "publicId": "184",
       "name": "蔡明勳",
@@ -929,6 +1014,75 @@
           "username": "",
           "profileUrl": "https://youtube.com/@hokahkean1999",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-215",
+      "publicId": "215",
+      "name": "鍾靈中學口琴隊",
+      "nameEn": "CLHS Harmonica Band",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "馬來西亞",
+      "region": "馬來西亞/檳城",
+      "cityOrFocus": "鍾靈中學/學校社團/日落洞",
+      "structuredSummary": "鍾靈中學/學校社團/日落洞 / 口琴隊/學生合奏/華校 / 學校社團",
+      "summary": "馬來西亞的口琴隊、學生合奏與華校學校社團。",
+      "keywords": "鍾靈中學口琴隊 CLHS Harmonica Band Chung Ling High School Penang Malaysia",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://sites.google.com/view/clhsharmonica/home"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chunglingharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/clhs_harmonicaband/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-16T10:38:53+00:00",
+      "latestUpdateLocal": "2026-07-16 18:38",
+      "latestUpdateSource": "鍾靈中學口琴隊",
+      "latestUpdateUrl": "https://www.instagram.com/p/Da2cfG5kSIZ/",
+      "avatarUrl": "/assets/source-avatars/36e9af6782e8029de15c.webp",
+      "sourceInitials": "鍾靈",
+      "sourceTags": [
+        "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_chunglingharmonica",
+          "name": "鍾靈中學口琴隊",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chunglingharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_clhs_harmonicaband",
+          "name": "鍾靈中學口琴隊",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "clhs_harmonicaband",
+          "profileUrl": "https://www.instagram.com/clhs_harmonicaband/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_clhs_harmonicaband",
+          "name": "鍾靈中學口琴隊",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "clhs_harmonicaband",
+          "profileUrl": "https://www.instagram.com/clhs_harmonicaband/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/clhs_harmonicaband/story/0"
         }
       ]
     },
@@ -2799,91 +2953,6 @@
       ]
     },
     {
-      "id": "watchlist-142",
-      "publicId": "142",
-      "name": "Howard Levy",
-      "nameEn": "Howard Levy",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "美國",
-      "region": "美國",
-      "cityOrFocus": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興",
-      "structuredSummary": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興 / 半音階/十孔/鋼琴 / 國際演出人員/作曲者/教育者",
-      "summary": "美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。",
-      "keywords": "Howard Levy harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://levyland.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HowardLevyFanPage/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/howardlevyland/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-15T16:08:03+00:00",
-      "latestUpdateLocal": "2026-07-16 00:08",
-      "latestUpdateSource": "Howard Levy",
-      "latestUpdateUrl": "https://www.instagram.com/stories/howardlevyland/3941904730066683522/",
-      "avatarUrl": "/assets/source-avatars/fdb08c71103b5e8ceb5b.webp",
-      "sourceInitials": "HL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_howardlevyfanpage",
-          "name": "Howard Levy",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HowardLevyFanPage",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_howardlevyland",
-          "name": "Howard Levy",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "howardlevyland",
-          "profileUrl": "https://www.instagram.com/howardlevyland/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_howardlevyland",
-          "name": "Howard Levy",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "howardlevyland",
-          "profileUrl": "https://www.instagram.com/howardlevyland/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/howardlevyland/story/0"
-        },
-        {
-          "id": "yt_uc86aeg8s_npzmfuj_cyxw",
-          "name": "Howard Levy",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-140",
       "publicId": "140",
       "name": "Gregoire Maret",
@@ -3387,75 +3456,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/@cyleoharmonica",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-215",
-      "publicId": "215",
-      "name": "鍾靈中學口琴隊",
-      "nameEn": "CLHS Harmonica Band",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "馬來西亞",
-      "region": "馬來西亞/檳城",
-      "cityOrFocus": "鍾靈中學/學校社團/日落洞",
-      "structuredSummary": "鍾靈中學/學校社團/日落洞 / 口琴隊/學生合奏/華校 / 學校社團",
-      "summary": "馬來西亞的口琴隊、學生合奏與華校學校社團。",
-      "keywords": "鍾靈中學口琴隊 CLHS Harmonica Band Chung Ling High School Penang Malaysia",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://sites.google.com/view/clhsharmonica/home"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/chunglingharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/clhs_harmonicaband/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-15T12:48:06+00:00",
-      "latestUpdateLocal": "2026-07-15 20:48",
-      "latestUpdateSource": "鍾靈中學口琴隊",
-      "latestUpdateUrl": "https://www.instagram.com/p/Da0GeqNEaWq/",
-      "avatarUrl": "/assets/source-avatars/36e9af6782e8029de15c.webp",
-      "sourceInitials": "鍾靈",
-      "sourceTags": [
-        "學生社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_chunglingharmonica",
-          "name": "鍾靈中學口琴隊",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/chunglingharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_clhs_harmonicaband",
-          "name": "鍾靈中學口琴隊",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "clhs_harmonicaband",
-          "profileUrl": "https://www.instagram.com/clhs_harmonicaband/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_clhs_harmonicaband",
-          "name": "鍾靈中學口琴隊",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "clhs_harmonicaband",
-          "profileUrl": "https://www.instagram.com/clhs_harmonicaband/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/clhs_harmonicaband/story/0"
         }
       ]
     },
