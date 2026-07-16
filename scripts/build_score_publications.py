@@ -163,7 +163,6 @@ def searchable_text(item: dict[str, Any]) -> str:
         item.get("title"),
         item.get("titleAlt"),
         item.get("schoolYear"),
-        item.get("sourceStatus"),
         item.get("program"),
         item.get("category"),
         item.get("division"),
@@ -190,7 +189,6 @@ def normalize_row(row: dict[str, str]) -> dict[str, Any] | None:
         "title": title,
         "titleAlt": clean(row.get("title_alt")),
         "schoolYear": clean(row.get("school_year")),
-        "sourceStatus": clean(row.get("source_status")),
         "program": clean(row.get("program")),
         "category": clean(row.get("category")),
         "division": clean(row.get("division")),
@@ -256,7 +254,6 @@ def build_payload() -> dict[str, Any]:
         "schoolYears": distinct_sorted(items, "schoolYear", reverse_numeric=True),
         "programs": distinct_sorted(items, "program"),
         "publishers": distinct_sorted(items, "publisher"),
-        "sourceStatuses": counts(items, "sourceStatus"),
         "programCounts": counts(items, "program"),
         "publisherCounts": counts(items, "publisher"),
     }

@@ -115,7 +115,6 @@ def format_update_card(up: dict[str, Any], index: int) -> str:
 
 def format_score_row(score: dict[str, Any]) -> str:
     year = escape(score.get("schoolYear") or "-")
-    status = escape(score.get("sourceStatus") or "-")
     program = escape(score.get("program") or "-")
     division = escape(score.get("division") or "-")
     title = escape(score.get("title") or "-")
@@ -133,7 +132,6 @@ def format_score_row(score: dict[str, Any]) -> str:
     return f"""
           <tr>
             <td style="padding: 10px; border-bottom: 1px solid #e0e0e0; text-align: center;">{year}</td>
-            <td style="padding: 10px; border-bottom: 1px solid #e0e0e0; text-align: center;">{status}</td>
             <td style="padding: 10px; border-bottom: 1px solid #e0e0e0;">{program}</td>
             <td style="padding: 10px; border-bottom: 1px solid #e0e0e0;">{division}</td>
             <td style="padding: 10px; border-bottom: 1px solid #e0e0e0; font-weight: bold;">{title}</td>
@@ -153,7 +151,6 @@ def format_scores_table(scores: list[dict[str, Any]]) -> str:
         <thead>
           <tr style="background: #f8faf8; border-bottom: 2px solid #ccc;">
             <th style="padding: 10px; text-align: center;">學年度</th>
-            <th style="padding: 10px; text-align: center;">狀態</th>
             <th style="padding: 10px;">項目</th>
             <th style="padding: 10px;">組別</th>
             <th style="padding: 10px;">曲目</th>
@@ -851,7 +848,6 @@ def generate_scores_category_page(category: str, items: list[dict[str, Any]]) ->
     rows_list = []
     for item in items:
         year = escape(item.get("schoolYear") or "-")
-        status = escape(item.get("sourceStatus") or "-")
         division = escape(item.get("division") or "-")
 
         title_main = clean(item.get("title"))
@@ -873,7 +869,6 @@ def generate_scores_category_page(category: str, items: list[dict[str, Any]]) ->
 
         rows_list.append(f"""                <tr style="border-bottom: 1px solid var(--border-color, #e0e0e0); font-size: 0.95rem;">
                   <td style="padding: 12px 8px;">{year}</td>
-                  <td style="padding: 12px 8px;">{status}</td>
                   <td style="padding: 12px 8px;">{division}</td>
                   <th scope="row" style="padding: 12px 8px; text-align: left; font-weight: normal;">{title_display}</th>
                   <td style="padding: 12px 8px;">{composer}</td>
@@ -952,7 +947,6 @@ def generate_scores_category_page(category: str, items: list[dict[str, Any]]) ->
               <thead>
                 <tr style="border-bottom: 2px solid var(--primary, #1a73e8); font-weight: bold;">
                   <th scope="col" style="padding: 12px 8px; width: 80px;">學年度</th>
-                  <th scope="col" style="padding: 12px 8px; width: 80px;">狀態</th>
                   <th scope="col" style="padding: 12px 8px; width: 100px;">類組</th>
                   <th scope="col" style="padding: 12px 8px;">曲名</th>
                   <th scope="col" style="padding: 12px 8px; width: 120px;">作曲者</th>
