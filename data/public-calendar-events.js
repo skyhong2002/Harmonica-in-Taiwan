@@ -1,9 +1,9 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-07-16T16:46:12+08:00",
+  "generatedAt": "2026-07-16T17:36:12+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 7,
+  "count": 6,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -163,40 +163,6 @@ window.publicCalendarEvents = {
         "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/739470687_1040056295068096_7293253133308599774_n.jpg?stp=dst-jpg_tt6&cstp=mx1365x2048&ctp=p526x296&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=2Y1z_Jz5Dh8Q7kNvwFu7VK-&_nc_oc=AdqxjQbb6wJT970ZnT5Z_rs1p-cS4quxZMheCf-q54835u_qYflx85m8deFTmC-EPow&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=fC0baYd0G3S4wa4B0Xtonw&_nc_ss=72289&oh=00_AQD5RdqSWLacQo-8-SAlB867k8FV6ZdIPrmBg_e1-da7CA&oe=6A55CCA3"
       ],
       "image_url": "/assets/feed-images/37059a2ebd980acbaf3f.webp"
-    },
-    {
-      "id": "290ed9103b60d6e4",
-      "title": "桂冠之聲：2026臺灣口琴音樂節Gala音樂會",
-      "eventName": "桂冠之聲：2026臺灣口琴音樂節Gala音樂會",
-      "source": "胖擊口琴樂團Punch Harmonica Ensemble",
-      "platform": "facebook",
-      "start": "2026-08-08",
-      "end": "2026-08-09",
-      "allDay": true,
-      "calendarType": "taiwan_physical",
-      "timezone": "Asia/Taipei",
-      "location": "臺灣口琴音樂節活動場地",
-      "venue": "臺灣口琴音樂節活動場地",
-      "city": "臺灣",
-      "details": "胖擊口琴樂團將於8/8(六)晚間演出，屬於2026臺灣口琴音樂節的Gala音樂會。貼文同時提到 open Stage 邀請，但本候選對應的是晚上的音樂會場次。",
-      "evidenceUrl": "https://www.facebook.com/Punch.Harp/posts/pfbid02tDSb1bXZ5dDKvwEgPoMjznNjS8qHc59cMXkjkV3GMZsyQF8tidGAtMsCcCaVcnKMl",
-      "confidence": 0.95,
-      "calendarReview": {
-        "include": true,
-        "country": "臺灣",
-        "eventMode": "taiwan_physical",
-        "timezone": "Asia/Taipei",
-        "candidateDateMatches": true,
-        "eventName": "桂冠之聲：2026臺灣口琴音樂節Gala音樂會",
-        "venue": "臺灣口琴音樂節活動場地",
-        "city": "臺灣",
-        "details": "胖擊口琴樂團將於8/8(六)晚間演出，屬於2026臺灣口琴音樂節的Gala音樂會。貼文同時提到 open Stage 邀請，但本候選對應的是晚上的音樂會場次。",
-        "reason": "候選日期 2026-08-08 與貼文明確提到的 8/8(六) 晚上演出一致，且為臺灣實體口琴活動。",
-        "confidence": 0.95
-      },
-      "postedAt": "2026-07-13 10:00",
-      "images": [],
-      "image_url": ""
     },
     {
       "id": "48d83da0d3424f97",
