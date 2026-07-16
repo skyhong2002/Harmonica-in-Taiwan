@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 16 Jul 2026 19:15:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jul 2026 20:20:16 +0000</lastBuildDate>
     <item>
       <title>蔡明勳</title>
       <link>https://www.facebook.com/MingHsunTsai830618/</link>
@@ -82,6 +82,17 @@ Tag：活動資訊、團體樂團、比賽、重奏、國際交流
 國家：馬來西亞
 地區：馬來西亞/吉隆坡
 馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。</description>
+    </item>
+    <item>
+      <title>Timothy Yip 葉進禧</title>
+      <link>https://www.timothyyipharmonica.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/f44e6396801a0c03</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、比賽、半音階、國際交流
+國家：香港
+地區：香港
+香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。</description>
     </item>
     <item>
       <title>山下伶 Rei Yamashita</title>
@@ -170,6 +181,17 @@ Tag：團體樂團、國際交流
 國家：印尼
 地區：印尼
 印尼的口琴與跨界國際演出團體，活動脈絡包含Reyharp Naufal與Balawan合作、跨界融合與口琴與吉他。</description>
+    </item>
+    <item>
+      <title>RedBricks Harmonica</title>
+      <link>https://www.facebook.com/redbricksharmonica/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/77378d9ca07a4f96</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏、國際交流
+國家：香港
+地區：香港/國際
+香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
     </item>
     <item>
       <title>Jens Bunge</title>
@@ -467,28 +489,6 @@ Tag：演奏者、教學
 國家：臺灣
 地區：臺灣/中彰投
 臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。</description>
-    </item>
-    <item>
-      <title>Timothy Yip 葉進禧</title>
-      <link>https://www.timothyyipharmonica.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/f44e6396801a0c03</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、比賽、半音階、國際交流
-國家：香港
-地區：香港
-香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。</description>
-    </item>
-    <item>
-      <title>RedBricks Harmonica</title>
-      <link>https://www.facebook.com/redbricksharmonica/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/77378d9ca07a4f96</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏、國際交流
-國家：香港
-地區：香港/國際
-香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
     </item>
     <item>
       <title>林裕豐</title>
