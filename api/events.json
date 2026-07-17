@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 437,
+  "count": 438,
   "items": [
     {
       "title": "Aiden Soon｜We are truly grateful to Diamond Princess for welcoming us on board, and to @starbookentertainment for makin…",
@@ -247,6 +247,79 @@
         "公開活動"
       ],
       "key": "x_moridaira_mi:https://twitter.com/moridaira_mi/status/2078069382656504032"
+    },
+    {
+      "title": "南里沙 / Risa MINAMI｜RT 谷口楽器 -リード楽器専門フロア-: 【HOHNER Super 64X 完全復刻版】プレミアム・プレビューミーティング ～南里沙 meets Super 64X～ https://x.gd/zc…",
+      "headline": "RT 谷口楽器 -リード楽器専門フロア-: 【HOHNER Super 64X 完全復刻版】プレミアム・プレビューミーティング ～南里沙 meets Super 64X～ https://x.gd/zc3M3 #H...",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://x.com/minami_risa/status/2078126693492138003",
+      "source_id": "x_minami_risa",
+      "source": "南里沙 / Risa MINAMI",
+      "source_system_name": "南里沙",
+      "source_profile_url": "https://x.com/minami_risa",
+      "country": "日本",
+      "region": "日本",
+      "directory_entry_id": "watchlist-58",
+      "directory_entry_name": "南里沙",
+      "account": "minami_risa",
+      "platform": "x",
+      "platform_label": "X",
+      "posted_at": "Fri, 17 Jul 2026 07:38:11 GMT",
+      "posted_at_local": "2026-07-17 15:38",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-17T14:55:40.329342+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/twitter/user/minami_risa",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "南里沙轉發口琴新品預覽活動，內容明確與口琴演出/公開更新相關。",
+      "text": "RT 谷口楽器 -リード楽器専門フロア-: 【HOHNER Super 64X 完全復刻版】プレミアム・プレビューミーティング ～南里沙 meets Super 64X～ https://x.gd/zc3M3 #H...\nRT 谷口楽器 -リード楽器専門フロア-\n【HOHNER Super 64X 完全復刻版】プレミアム・プレビューミーティング\n～南里沙 meets Super 64X～\nhttps://x.gd/zc3M3\n#HOHNER #64X #南里沙 #谷口楽器 #クロマチックハーモニカ",
+      "images": [
+        "https://pbs.twimg.com/media/HNacmScasAAy6NK?format=jpg&name=orig"
+      ],
+      "videos": [],
+      "source_image_url": "https://pbs.twimg.com/media/HNacmScasAAy6NK?format=jpg&name=orig",
+      "image_url": "/assets/feed-images/cfebe5d351a8ecc2dddb.webp",
+      "image_width": 800,
+      "image_height": 1132,
+      "source_avatar_url": "https://pbs.twimg.com/profile_images/1343096514319503362/lAiKQhqj.jpg",
+      "avatar_url": "/assets/source-avatars/e1b0306ebd66c0e3ac71.webp",
+      "source_initials": "RM",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "x_minami_risa:https://twitter.com/minami_risa/status/2078126693492138003"
     },
     {
       "title": "新竹縣文化局｜#2026新竹縣文資教育推廣系列活動 #文化資產專題走讀 #走進采田福地 #認識新竹縣道卡斯族 #活動花絮 7月的第一個週末迎來了晴朗好天氣，也為這場文化走讀揭開美好的序幕☀️ 感謝何明星老師帶領大家從本縣縣史館出發，一步步…",
