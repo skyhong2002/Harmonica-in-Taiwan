@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/posts-videos.xml",
   "json": "https://harmonica.observe.tw/api/posts-videos.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/posts-videos.json",
-  "count": 1861,
+  "count": 1862,
   "items": [
     {
       "title": "Howard Levy｜Instagram story @howardlevyland",
@@ -1410,6 +1410,71 @@
         "貼文影片"
       ],
       "key": "ig_story_sorhei:3943276700998183363_32225796"
+    },
+    {
+      "title": "Liam Ward & Malcolm Thorne｜The acoustic stage at Upton Blues Festival, hosted in the church, is a beautiful space to pl…",
+      "headline": "The acoustic stage at Upton Blues Festival, hosted in the church, is a beautiful space to play. Just opened the day's l…",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/Da5T-FUs72z/",
+      "source_id": "ig_liamwardmusic",
+      "source": "Liam Ward & Malcolm Thorne",
+      "source_system_name": "Liam Ward & Malcolm Thorne",
+      "source_profile_url": "https://www.instagram.com/liamwardmusic/",
+      "country": "英國",
+      "region": "英國",
+      "directory_entry_id": "watchlist-149",
+      "directory_entry_name": "Liam Ward & Malcolm Thorne",
+      "account": "liamwardmusic",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Fri, 17 Jul 2026 13:24:08 GMT",
+      "posted_at_local": "2026-07-17 21:24",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-17T23:37:29.619017+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/liamwardmusic",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": null,
+      "llm_confidence": null,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "",
+      "text": "The acoustic stage at Upton Blues Festival, hosted in the church, is a beautiful space to play. Just opened the day's line up with @markjcole #blues #...\nThe acoustic stage at Upton Blues Festival, hosted in the church, is a beautiful space to play. Just opened the day's line up with @markjcole #blues #harmonica #festival #giglife",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/750582972_18455108638190024_3964059952193105194_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=Mzk0MzI3MDc3Nzk0Njg4MTQ1OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzAyNC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=_D1XgikslCUQ7kNvwEb-O20&_nc_oc=AdoHOTcMn_s9a70v1APyYXdvP1qA10A5nqRy2Bxv8EqIuvw-Dim-88MprA08fXXnJw8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=9jqAwWapZwbpOJ11pzAvTg&_nc_ss=7a22e&oh=00_AQD2HaUC5pHm_Hp2PBvZmXitax2TskqzFgNF9BPM5IiwZQ&oe=6A608F6C"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/750582972_18455108638190024_3964059952193105194_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=Mzk0MzI3MDc3Nzk0Njg4MTQ1OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzAyNC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=_D1XgikslCUQ7kNvwEb-O20&_nc_oc=AdoHOTcMn_s9a70v1APyYXdvP1qA10A5nqRy2Bxv8EqIuvw-Dim-88MprA08fXXnJw8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=9jqAwWapZwbpOJ11pzAvTg&_nc_ss=7a22e&oh=00_AQD2HaUC5pHm_Hp2PBvZmXitax2TskqzFgNF9BPM5IiwZQ&oe=6A608F6C",
+      "image_url": "/assets/feed-images/134cf822a7aa2ab6be55.webp",
+      "image_width": 800,
+      "image_height": 800,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/272996458_7966723693353103_6317355004537738805_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42NDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gGXibLqLQuWuA3vSnpBEZkuuwlchnq0VvPmAuQUDbCeo29EImC7STSQiUiYXcoz4kY&_nc_ohc=LDW-VDsKyEcQ7kNvwELCGqb&_nc_gid=fJFFOMTfYJ5Y7NeGVHkyJw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQACRpcjjlK7JcIbYTGzBt6k-zhNCAe5S7zegNJO6S7OHw&oe=6A60A296&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/cdc23f576326f58bb2f3.webp",
+      "source_initials": "LWM",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_liamwardmusic:https://www.instagram.com/p/Da5T-FUs72z/"
     },
     {
       "title": "EMPA 口琴課程｜Instagram story @empa.oficial",

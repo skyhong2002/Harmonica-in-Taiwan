@@ -676,6 +676,91 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-149",
+      "publicId": "149",
+      "name": "Liam Ward & Malcolm Thorne",
+      "nameEn": "Liam Ward & Malcolm Thorne",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體/合作企劃",
+      "country": "英國",
+      "region": "英國",
+      "cityOrFocus": "WHF 2025/藍調口琴/吉他合作/教學",
+      "structuredSummary": "WHF 2025/藍調口琴/吉他合作/教學 / 十孔/藍調口琴/吉他 / 國際演出團體/教育者",
+      "summary": "英國的十孔、藍調口琴與吉他國際演出團體與教育者，活動脈絡包含WHF 2025、吉他合作與教學。",
+      "keywords": "Liam Ward Malcolm Thorne LearnTheHarmonica liamwardmusic harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://learntheharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/learntheharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/liamwardmusic/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@learntheharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-17T13:24:08+00:00",
+      "latestUpdateLocal": "2026-07-17 21:24",
+      "latestUpdateSource": "Liam Ward & Malcolm Thorne",
+      "latestUpdateUrl": "https://www.instagram.com/p/Da5T-FUs72z/",
+      "avatarUrl": "/assets/source-avatars/d89594f855a1ca55edfb.webp",
+      "sourceInitials": "LWM",
+      "sourceTags": [
+        "團體樂團",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_learntheharmonica",
+          "name": "Liam Ward & Malcolm Thorne",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/learntheharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_liamwardmusic",
+          "name": "Liam Ward & Malcolm Thorne",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "liamwardmusic",
+          "profileUrl": "https://www.instagram.com/liamwardmusic/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_liamwardmusic",
+          "name": "Liam Ward & Malcolm Thorne",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "liamwardmusic",
+          "profileUrl": "https://www.instagram.com/liamwardmusic/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/liamwardmusic/story/0"
+        },
+        {
+          "id": "yt_learntheharmonica",
+          "name": "Liam Ward & Malcolm Thorne",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@learntheharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-183",
       "publicId": "183",
       "name": "EMPA 口琴課程",
@@ -2904,91 +2989,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@leeoskarharmonicas",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-149",
-      "publicId": "149",
-      "name": "Liam Ward & Malcolm Thorne",
-      "nameEn": "Liam Ward & Malcolm Thorne",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體/合作企劃",
-      "country": "英國",
-      "region": "英國",
-      "cityOrFocus": "WHF 2025/藍調口琴/吉他合作/教學",
-      "structuredSummary": "WHF 2025/藍調口琴/吉他合作/教學 / 十孔/藍調口琴/吉他 / 國際演出團體/教育者",
-      "summary": "英國的十孔、藍調口琴與吉他國際演出團體與教育者，活動脈絡包含WHF 2025、吉他合作與教學。",
-      "keywords": "Liam Ward Malcolm Thorne LearnTheHarmonica liamwardmusic harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://learntheharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/learntheharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/liamwardmusic/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@learntheharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-16T12:57:51+00:00",
-      "latestUpdateLocal": "2026-07-16 20:57",
-      "latestUpdateSource": "Liam Ward & Malcolm Thorne",
-      "latestUpdateUrl": "https://www.instagram.com/p/Da2r1L_sECt/",
-      "avatarUrl": "/assets/source-avatars/d89594f855a1ca55edfb.webp",
-      "sourceInitials": "LWM",
-      "sourceTags": [
-        "團體樂團",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_learntheharmonica",
-          "name": "Liam Ward & Malcolm Thorne",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/learntheharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_liamwardmusic",
-          "name": "Liam Ward & Malcolm Thorne",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "liamwardmusic",
-          "profileUrl": "https://www.instagram.com/liamwardmusic/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_liamwardmusic",
-          "name": "Liam Ward & Malcolm Thorne",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "liamwardmusic",
-          "profileUrl": "https://www.instagram.com/liamwardmusic/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/liamwardmusic/story/0"
-        },
-        {
-          "id": "yt_learntheharmonica",
-          "name": "Liam Ward & Malcolm Thorne",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@learntheharmonica",
           "feedUrl": ""
         }
       ]
