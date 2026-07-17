@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/posts-videos.xml",
   "json": "https://harmonica.observe.tw/api/posts-videos.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/posts-videos.json",
-  "count": 1779,
+  "count": 1781,
   "items": [
     {
       "title": "피아니스트 조영훈｜Instagram story @hoontobe_piano",
@@ -713,6 +713,77 @@
       "key": "ig_chaotengchang:https://www.instagram.com/p/Da28JnQyXny/"
     },
     {
+      "title": "口琴保存與推廣協會 SPAH｜26 days! #spah #harmonica #harp #harmonicalife #joinus",
+      "headline": "26 days!",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/Da23m3NKtNM/",
+      "source_id": "ig_official_spah63",
+      "source": "口琴保存與推廣協會 SPAH",
+      "source_system_name": "口琴保存與推廣協會 SPAH",
+      "source_profile_url": "https://www.instagram.com/official_spah63/",
+      "country": "美國",
+      "region": "美國/密蘇里",
+      "directory_entry_id": "watchlist-171",
+      "directory_entry_name": "口琴保存與推廣協會 SPAH",
+      "account": "official_spah63",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Thu, 16 Jul 2026 14:36:15 GMT",
+      "posted_at_local": "2026-07-16 22:36",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-17T00:10:19.347768+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/official_spah63",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.86,
+      "llm_labels": [
+        "口琴",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "SPAH官方IG公開貼文，內容含harmonica與joinus，屬口琴相關公開更新。",
+      "text": "26 days!\n#spah #harmonica #harp #harmonicalife #joinus",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746861552_18095249234617644_6464801936483853597_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzk0MjU4MzA4Njk4NDM4NTM1Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNDAzMi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=sNx94wGJaugQ7kNvwFxOUzQ&_nc_oc=Adp35k4JFJWJ0aUEvZzBQljAAnn4ZzuG9S5CasWFtSyOLjjT_BgSbzYs28-oXz7hDrc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=U5oMJQXMwXbZnXex9rXPcg&_nc_ss=7a22e&oh=00_AQArn4uOnhy11pZcSgBG9aPhwU8ZZUWsBUDXYjrQXQCc7A&oe=6A5F367B"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746861552_18095249234617644_6464801936483853597_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzk0MjU4MzA4Njk4NDM4NTM1Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNDAzMi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=sNx94wGJaugQ7kNvwFxOUzQ&_nc_oc=Adp35k4JFJWJ0aUEvZzBQljAAnn4ZzuG9S5CasWFtSyOLjjT_BgSbzYs28-oXz7hDrc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=U5oMJQXMwXbZnXex9rXPcg&_nc_ss=7a22e&oh=00_AQArn4uOnhy11pZcSgBG9aPhwU8ZZUWsBUDXYjrQXQCc7A&oe=6A5F367B",
+      "image_url": "/assets/feed-images/270e5cce4ba4fdd5cf1a.webp",
+      "image_width": 800,
+      "image_height": 600,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/209791493_219061040066058_8705502841002796604_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gH-J3YoDWhtQvcaeyRx0PjzMgSZJYjsY3hcal9_oBX7jPx8DJ56GRgP0CYVvBUS9ZU&_nc_ohc=aDZSnDhaYnoQ7kNvwHkS7Az&_nc_gid=jEOio38eLvk7fCEoU3Z4qA&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQDDzMkbP7A2kUHXZ4ulG783yfJd3ZCmpeLt9lNeXMQclA&oe=6A5F39CF&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/a8d78b85d306542b4a3b.webp",
+      "source_initials": "S",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_official_spah63:https://www.instagram.com/p/Da23m3NKtNM/"
+    },
+    {
       "title": "EMPA 口琴課程｜Instagram story @empa.oficial",
       "headline": "Instagram story @empa.oficial",
       "display_title": "",
@@ -999,6 +1070,73 @@
         "公開活動"
       ],
       "key": "ig_nationaltaichungtheater:https://www.instagram.com/p/Da2ssMGGHtE/"
+    },
+    {
+      "title": "Liam Ward & Malcolm Thorne｜Most people don't know harmonicas come in all these sizes. From the world's smallest… to wha…",
+      "headline": "Most people don't know harmonicas come in all these sizes. From the world's smallest… to whatever that last thing is. #…",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/Da2r1L_sECt/",
+      "source_id": "ig_liamwardmusic",
+      "source": "Liam Ward & Malcolm Thorne",
+      "source_system_name": "Liam Ward & Malcolm Thorne",
+      "source_profile_url": "https://www.instagram.com/liamwardmusic/",
+      "country": "英國",
+      "region": "英國",
+      "directory_entry_id": "watchlist-149",
+      "directory_entry_name": "Liam Ward & Malcolm Thorne",
+      "account": "liamwardmusic",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Thu, 16 Jul 2026 12:57:51 GMT",
+      "posted_at_local": "2026-07-16 20:57",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-16T23:36:32.650183+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/liamwardmusic",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": null,
+      "llm_confidence": null,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "",
+      "text": "Most people don't know harmonicas come in all these sizes. From the world's smallest… to whatever that last thing is. #diatonicharmonica #chromaticha...\nMost people don't know harmonicas come in all these sizes. From the world's smallest… to whatever that last thing is. #diatonicharmonica #chromaticharmonica #bassharmonica #chordharmonica #tremoloharmonica @hohnerharmonica",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/747086804_1045639331283043_2540830476192913986_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=Mzk0MjUzMTI5NDgyMTM2Nzk4MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=ap3nCVShaMoQ7kNvwEITcYx&_nc_oc=AdpuTvqCvf480FvY4y5kFdtdnDKRRDWpjdu8nZzoWzPTsjly_HZ7L2aGDUx2Jn1CChQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=1D99G3vtDkFim-C6sdXq4A&_nc_ss=7a22e&oh=00_AQAVnGg9RucLBBz58LclYwPdUTqWs6A17O0P3xcNMP-NSQ&oe=6A5F3206"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQMfyoNTPmOCLtB5GQoXnjrUzFKiRJiHKPyQohfj2MXVRlPOzRQweLRlM_Z0iC4tIkqKRy3WknVv4NmcjfOkzLJRajlZMWljhUlYk5I.mp4?_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=e3cIEEhBvYwQ7kNvwErNabR&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc2MTMxNjE3NTExMjcxNCwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoyNywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=738969f4dc3b880e&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9BRDQxNUU5MjQxMEE4MjAzNEM1NTcxOUE4MzkyMjFCNl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzZBNEI3NTFCNjhFM0FFNkI2ODdBRTJBODA5MzAwNjk0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaUqKOPjPqgBhUCKAJDMywXQDsqfvnbItEYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=1D99G3vtDkFim-C6sdXq4A&_nc_zt=28&_nc_ss=7a22e&oh=00_AQDiuo-Gln6cPnDBymL8gN_FouEKGX4dKNOSE-wWjj0HfA&oe=6A5B4556"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/747086804_1045639331283043_2540830476192913986_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=Mzk0MjUzMTI5NDgyMTM2Nzk4MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=ap3nCVShaMoQ7kNvwEITcYx&_nc_oc=AdpuTvqCvf480FvY4y5kFdtdnDKRRDWpjdu8nZzoWzPTsjly_HZ7L2aGDUx2Jn1CChQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=1D99G3vtDkFim-C6sdXq4A&_nc_ss=7a22e&oh=00_AQAVnGg9RucLBBz58LclYwPdUTqWs6A17O0P3xcNMP-NSQ&oe=6A5F3206",
+      "image_url": "/assets/feed-images/a90e943e2351ae39fb5b.webp",
+      "image_width": 640,
+      "image_height": 1136,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/272996458_7966723693353103_6317355004537738805_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42NDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gEkz0H2CXRHTdcd2PrusTA0Q_h2yeO1ZCP-8xqHtaa3MqdVjWazfXC-hyeK66IleU0&_nc_ohc=LDW-VDsKyEcQ7kNvwELCGqb&_nc_gid=EMyQ7SXBk9W8iCLnT9OEyg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQDOwCwFh3En8RkIidW3c0cqMZwy0HV9ftYTv2q5hT_TsQ&oe=6A5F5116&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/e099f2a9340ee1759309.webp",
+      "source_initials": "LWM",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_liamwardmusic:https://www.instagram.com/p/Da2r1L_sECt/"
     },
     {
       "title": "馬來西亞口琴節｜🚨 3 Days Left for Video Submission! 🎥 The countdown is on! Submit your video before the deadline (19/7/2026, 12…",
