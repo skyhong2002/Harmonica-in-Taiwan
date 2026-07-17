@@ -5,18 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 17 Jul 2026 11:05:57 +0000</lastBuildDate>
-    <item>
-      <title>F.I.H. JAPAN ハーモニカコンテスト</title>
-      <link>https://moridaira.jp/event/20260530-01/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/0c339a088cc50dcd</guid>
-      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：活動資訊、比賽、半音階、複音、重奏、國際交流
-國家：日本
-地區：日本
-日本的國際比賽來源，涵蓋日本口琴比賽與duo trio。</description>
-    </item>
+    <lastBuildDate>Fri, 17 Jul 2026 12:11:19 +0000</lastBuildDate>
     <item>
       <title>山下伶 Rei Yamashita</title>
       <link>https://rei-yamashita.com/</link>
@@ -27,6 +16,17 @@ Tag：演奏者、半音階、國際交流
 國家：日本
 地區：日本
 日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
+    </item>
+    <item>
+      <title>F.I.H. JAPAN ハーモニカコンテスト</title>
+      <link>https://moridaira.jp/event/20260530-01/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/0c339a088cc50dcd</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、比賽、半音階、複音、重奏、國際交流
+國家：日本
+地區：日本
+日本的國際比賽來源，涵蓋日本口琴比賽與duo trio。</description>
     </item>
     <item>
       <title>梁承熹 Kelvin Leung</title>
