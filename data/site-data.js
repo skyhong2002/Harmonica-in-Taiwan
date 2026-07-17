@@ -2,6 +2,203 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-17",
   "entries": [
     {
+      "id": "watchlist-63",
+      "publicId": "63",
+      "name": "F.I.H. JAPAN ハーモニカコンテスト",
+      "nameEn": "F.I.H. JAPAN Harmonica Contest",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "比賽/資訊入口",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "日本口琴比賽/半音階/複音/duo trio",
+      "structuredSummary": "日本口琴比賽/半音階/複音/duo trio / 半音階/複音/重奏 / 國際比賽來源",
+      "summary": "日本的國際比賽來源，涵蓋日本口琴比賽與duo trio。",
+      "keywords": "F.I.H. JAPAN ハーモニカコンテスト Moridaira 半音階 複音 duo trio 口琴比賽",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://moridaira.jp/event/20260530-01/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/moridaira"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/moridaira_mi/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/Moridaira01"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/moridaira_mi"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-17T10:30:46+00:00",
+      "latestUpdateLocal": "2026-07-17 18:30",
+      "latestUpdateSource": "F.I.H. JAPAN ハーモニカコンテスト",
+      "latestUpdateUrl": "https://x.com/moridaira_mi/status/2078069382656504032",
+      "avatarUrl": "/assets/source-avatars/74b5ba02097b77779c75.webp",
+      "sourceInitials": "FIH",
+      "sourceTags": [
+        "活動資訊",
+        "比賽",
+        "半音階",
+        "複音",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_moridaira",
+          "name": "F.I.H. JAPAN ハーモニカコンテスト",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/moridaira",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_moridaira_mi",
+          "name": "F.I.H. JAPAN ハーモニカコンテスト",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "moridaira_mi",
+          "profileUrl": "https://www.instagram.com/moridaira_mi/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_moridaira_mi",
+          "name": "F.I.H. JAPAN ハーモニカコンテスト",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "moridaira_mi",
+          "profileUrl": "https://www.instagram.com/moridaira_mi/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/moridaira_mi/story/0"
+        },
+        {
+          "id": "x_moridaira_mi",
+          "name": "F.I.H. JAPAN ハーモニカコンテスト",
+          "platform": "x",
+          "type": "rss",
+          "username": "moridaira_mi",
+          "profileUrl": "https://x.com/moridaira_mi",
+          "feedUrl": "https://rss.observe.tw/twitter/user/moridaira_mi"
+        },
+        {
+          "id": "yt_moridaira01",
+          "name": "F.I.H. JAPAN ハーモニカコンテスト",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/Moridaira01",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-57",
+      "publicId": "57",
+      "name": "山下伶 Rei Yamashita",
+      "nameEn": "Rei Yamashita",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/演出",
+      "structuredSummary": "半音階/專輯/演出 / 半音階 / 國際演出人員",
+      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯與演出。",
+      "keywords": "山下伶 Rei Yamashita harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://rei-yamashita.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/rei.yamashita.5"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/rei_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@reiyamashita"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/rei_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-17T10:30:46+00:00",
+      "latestUpdateLocal": "2026-07-17 18:30",
+      "latestUpdateSource": "山下伶 Rei Yamashita",
+      "latestUpdateUrl": "https://x.com/rei_harmonica/status/2078064862706663720",
+      "avatarUrl": "/assets/source-avatars/88e248e6f1c02aaa881b.webp",
+      "sourceInitials": "RY",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_rei_yamashita_5",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/rei.yamashita.5",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "rei_harmonica",
+          "profileUrl": "https://www.instagram.com/rei_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "rei_harmonica",
+          "profileUrl": "https://www.instagram.com/rei_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/rei_harmonica/story/0"
+        },
+        {
+          "id": "x_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "x",
+          "type": "rss",
+          "username": "rei_harmonica",
+          "profileUrl": "https://x.com/rei_harmonica",
+          "feedUrl": "https://rss.observe.tw/twitter/user/rei_harmonica"
+        },
+        {
+          "id": "yt_reiyamashita",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@reiyamashita",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-55",
       "publicId": "55",
       "name": "梁承熹 Kelvin Leung",
@@ -325,6 +522,101 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-78",
+      "publicId": "78",
+      "name": "衛武營國家藝術文化中心",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "衛武營 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-weiwuying.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@weiwuyingfilm"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@weiwuying_centerforthearts"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-17T01:04:31+00:00",
+      "latestUpdateLocal": "2026-07-17 09:04",
+      "latestUpdateSource": "衛武營國家藝術文化中心",
+      "latestUpdateUrl": "https://www.instagram.com/stories/weiwuying_centerforthearts/3942899521410597683/",
+      "avatarUrl": "/assets/source-avatars/9d6119244c757a072fc5.webp",
+      "sourceInitials": "衛武",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_weiwuyingcenterforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
+        },
+        {
+          "id": "ig_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "threads",
+          "type": "rss",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
+          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
+        },
+        {
+          "id": "yt_weiwuyingfilm",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@weiwuyingfilm",
           "feedUrl": ""
         }
       ]
@@ -1912,103 +2204,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-57",
-      "publicId": "57",
-      "name": "山下伶 Rei Yamashita",
-      "nameEn": "Rei Yamashita",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/演出",
-      "structuredSummary": "半音階/專輯/演出 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯與演出。",
-      "keywords": "山下伶 Rei Yamashita harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://rei-yamashita.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/rei.yamashita.5"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/rei_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@reiyamashita"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/rei_harmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-16T11:46:08+00:00",
-      "latestUpdateLocal": "2026-07-16 19:46",
-      "latestUpdateSource": "山下伶 Rei Yamashita",
-      "latestUpdateUrl": "https://www.instagram.com/stories/rei_harmonica/3942497529439162539/",
-      "avatarUrl": "/assets/source-avatars/88e248e6f1c02aaa881b.webp",
-      "sourceInitials": "RY",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_rei_yamashita_5",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/rei.yamashita.5",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "rei_harmonica",
-          "profileUrl": "https://www.instagram.com/rei_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "rei_harmonica",
-          "profileUrl": "https://www.instagram.com/rei_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/rei_harmonica/story/0"
-        },
-        {
-          "id": "x_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "x",
-          "type": "rss",
-          "username": "rei_harmonica",
-          "profileUrl": "https://x.com/rei_harmonica",
-          "feedUrl": "https://rss.observe.tw/twitter/user/rei_harmonica"
-        },
-        {
-          "id": "yt_reiyamashita",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@reiyamashita",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-101",
       "publicId": "101",
       "name": "何家健 HarmoniKahkean",
@@ -2238,101 +2433,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-78",
-      "publicId": "78",
-      "name": "衛武營國家藝術文化中心",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/高雄",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "衛武營 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-weiwuying.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@weiwuyingfilm"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@weiwuying_centerforthearts"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-16T10:00:33+00:00",
-      "latestUpdateLocal": "2026-07-16 18:00",
-      "latestUpdateSource": "衛武營國家藝術文化中心",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=yjlrmHnArT8",
-      "avatarUrl": "/assets/source-avatars/9d6119244c757a072fc5.webp",
-      "sourceInitials": "衛武",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_weiwuyingcenterforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
-        },
-        {
-          "id": "ig_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "threads",
-          "type": "rss",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
-          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
-        },
-        {
-          "id": "yt_weiwuyingfilm",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@weiwuyingfilm",
           "feedUrl": ""
         }
       ]
@@ -5373,106 +5473,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "sgyouthfest",
           "profileUrl": "https://www.instagram.com/sgyouthfest/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/sgyouthfest/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-63",
-      "publicId": "63",
-      "name": "F.I.H. JAPAN ハーモニカコンテスト",
-      "nameEn": "F.I.H. JAPAN Harmonica Contest",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "比賽/資訊入口",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "日本口琴比賽/半音階/複音/duo trio",
-      "structuredSummary": "日本口琴比賽/半音階/複音/duo trio / 半音階/複音/重奏 / 國際比賽來源",
-      "summary": "日本的國際比賽來源，涵蓋日本口琴比賽與duo trio。",
-      "keywords": "F.I.H. JAPAN ハーモニカコンテスト Moridaira 半音階 複音 duo trio 口琴比賽",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://moridaira.jp/event/20260530-01/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/moridaira"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/moridaira_mi/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/user/Moridaira01"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/moridaira_mi"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-14T03:22:17+00:00",
-      "latestUpdateLocal": "2026-07-14 11:22",
-      "latestUpdateSource": "F.I.H. JAPAN ハーモニカコンテスト",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=TO3nFMZnIgk",
-      "avatarUrl": "/assets/source-avatars/74b5ba02097b77779c75.webp",
-      "sourceInitials": "FIH",
-      "sourceTags": [
-        "活動資訊",
-        "比賽",
-        "半音階",
-        "複音",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_moridaira",
-          "name": "F.I.H. JAPAN ハーモニカコンテスト",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/moridaira",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_moridaira_mi",
-          "name": "F.I.H. JAPAN ハーモニカコンテスト",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "moridaira_mi",
-          "profileUrl": "https://www.instagram.com/moridaira_mi/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_moridaira_mi",
-          "name": "F.I.H. JAPAN ハーモニカコンテスト",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "moridaira_mi",
-          "profileUrl": "https://www.instagram.com/moridaira_mi/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/moridaira_mi/story/0"
-        },
-        {
-          "id": "x_moridaira_mi",
-          "name": "F.I.H. JAPAN ハーモニカコンテスト",
-          "platform": "x",
-          "type": "rss",
-          "username": "moridaira_mi",
-          "profileUrl": "https://x.com/moridaira_mi",
-          "feedUrl": "https://rss.observe.tw/twitter/user/moridaira_mi"
-        },
-        {
-          "id": "yt_moridaira01",
-          "name": "F.I.H. JAPAN ハーモニカコンテスト",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/user/Moridaira01",
-          "feedUrl": ""
         }
       ]
     },
