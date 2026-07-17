@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/posts-videos.xml",
   "json": "https://harmonica.observe.tw/api/posts-videos.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/posts-videos.json",
-  "count": 1795,
+  "count": 1796,
   "items": [
     {
       "title": "Reyharp and Balawan Project｜Instagram story @reyharpnaufal",
@@ -179,6 +179,77 @@
         "貼文影片"
       ],
       "key": "ig_story_reyharpnaufal:3942898122567114318_1189782171"
+    },
+    {
+      "title": "南里沙 / Risa MINAMI｜現在発売中のウマ娘プリティーダービー「WINNING LIVE34」ステイゴールド ソロ曲 「Gold-Recollection」のハーモニカを担当させていただきました🐎 大の馬好きの私ですが、ステイゴ…",
+      "headline": "現在発売中のウマ娘プリティーダービー「WINNING LIVE34」ステイゴールド ソロ曲 「Gold-Recollection」のハーモニカを担当させていただきました🐎",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/Da36aPUS5Bi/",
+      "source_id": "ig_minami_risa",
+      "source": "南里沙 / Risa MINAMI",
+      "source_system_name": "南里沙",
+      "source_profile_url": "https://www.instagram.com/minami_risa/",
+      "country": "日本",
+      "region": "日本",
+      "directory_entry_id": "watchlist-58",
+      "directory_entry_name": "南里沙",
+      "account": "minami_risa",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Fri, 17 Jul 2026 00:40:21 GMT",
+      "posted_at_local": "2026-07-17 08:40",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-17T03:58:22.188306+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/minami_risa",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "影片"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "南里沙公開更新，提到為作品錄製口琴演奏並請大家聆聽音色，屬口琴演奏者相關更新。",
+      "text": "現在発売中のウマ娘プリティーダービー「WINNING LIVE34」ステイゴールド ソロ曲 「Gold-Recollection」のハーモニカを担当させていただきました🐎\n大の馬好きの私ですが、ステイゴールドのぬいぐるみをお守りとして大切に持っています。そして、もちろんCD今日 手にしました😊\n今やゲームといえば「ウマ娘」と言われるほど、世界の皆さんに愛されている人気作品。新人トレーナーとなったプレイヤーが、実在する競走馬の名前を冠した“ウマ娘”と呼ばれるキャラクター達を育成し、絆を深め共に成長しながらレースの勝利などの目標達成を目指していくゲームです。\nクロマチックハーモニカで参加させていただけたことを、大変光栄に思っています。ゲームやCDで、ぜひステゴのハーモニカの音色にも耳を傾けて、楽しんでいただけたら嬉しいです😊",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/749041685_18602219014053761_1413004103245004560_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzk0Mjg3Njg4ODYzNjgyMTYwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIxOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=mjth3Qdqy84Q7kNvwF4HFfq&_nc_oc=AdpUmGYgf1NrUSuUPrNHNAFGrDaXGpjB0bxGU6ixvoIym21GYMZRhKDCMOrIDtmZTPc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QcoFIYTnmTyD_tPG65hnRw&_nc_ss=7a22e&oh=00_AQA5wnxeANtmPvAj8nOPdqaAf_qsZmyBEnj3FJekhM24Uw&oe=6A5F68B8"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/749041685_18602219014053761_1413004103245004560_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzk0Mjg3Njg4ODYzNjgyMTYwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIxOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=mjth3Qdqy84Q7kNvwF4HFfq&_nc_oc=AdpUmGYgf1NrUSuUPrNHNAFGrDaXGpjB0bxGU6ixvoIym21GYMZRhKDCMOrIDtmZTPc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QcoFIYTnmTyD_tPG65hnRw&_nc_ss=7a22e&oh=00_AQA5wnxeANtmPvAj8nOPdqaAf_qsZmyBEnj3FJekhM24Uw&oe=6A5F68B8",
+      "image_url": "/assets/feed-images/7269a5abe3ff755e853a.webp",
+      "image_width": 800,
+      "image_height": 1067,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/133218541_3322351311203058_7104892131421814027_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gGcHO6p7-3QjadM31ogyA8obNwMKVrSW6mMJ_iUSF9Y_cupvWTPm5eoggNMaTcnVOo&_nc_ohc=GPuszDkuT_kQ7kNvwGRS17V&_nc_gid=LOQcPO0FLVQYyLuInC7SIw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQBFQeiPW57QgrUCLBtD2rpDSVAzflMmmDMGplrXsAI8vw&oe=6A5F63FB&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/fe47cf3e33111b9febef.webp",
+      "source_initials": "RM",
+      "categories": [
+        "posts-videos"
+      ],
+      "category_labels": [
+        "貼文影片"
+      ],
+      "key": "ig_minami_risa:https://www.instagram.com/p/Da36aPUS5Bi/"
     },
     {
       "title": "曹小歐 OtisTsao｜Instagram story @otistsao",
