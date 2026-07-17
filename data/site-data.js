@@ -2,6 +2,81 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-17",
   "entries": [
     {
+      "id": "watchlist-33",
+      "publicId": "33",
+      "name": "黃冠誌",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
+      "structuredSummary": "天狼星/胖擊系/和弦口琴/重奏 / 和弦/重奏 / 演出人員",
+      "summary": "口琴演奏者，專長和弦口琴與重奏演出。",
+      "keywords": "黃冠誌 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/kuanchih/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hk91f06/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-17T05:35:54+00:00",
+      "latestUpdateLocal": "2026-07-17 13:35",
+      "latestUpdateSource": "黃冠誌",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3943036114269451882/",
+      "avatarUrl": "/assets/source-avatars/1c6e560eec687ecfbf6c.webp",
+      "sourceInitials": "黃冠",
+      "sourceTags": [
+        "演奏者",
+        "合奏",
+        "和弦",
+        "重奏",
+        "演出"
+      ],
+      "sourceSummary": "口琴演奏者，專長和弦口琴與重奏演出。",
+      "sourceTagReason": "來源明確標示為個人與演奏者，且專長涉及和弦、重奏與演出。",
+      "monitorSources": [
+        {
+          "id": "ig_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
+        },
+        {
+          "id": "yt_cbd128e3de",
+          "name": "黃冠誌",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-76",
       "publicId": "76",
       "name": "新竹縣文化局",
@@ -350,6 +425,171 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-104",
+      "publicId": "104",
+      "name": "Timothy Yip 葉進禧",
+      "nameEn": "Timothy Yip",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/國際比賽/演出/RedBricks",
+      "structuredSummary": "半音階/國際比賽/演出/RedBricks / 半音階 / 國際演出人員",
+      "summary": "香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。",
+      "keywords": "Timothy Yip 葉進禧 harmonica chromatic harmonicist RedBricks",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.timothyyipharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/profile.php?id=100085232439912"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/timothyyip_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-16T23:43:26+00:00",
+      "latestUpdateLocal": "2026-07-17 07:43",
+      "latestUpdateSource": "Timothy Yip 葉進禧",
+      "latestUpdateUrl": "https://www.instagram.com/stories/timothyyip_harmonica/3942858702624743542/",
+      "avatarUrl": "/assets/source-avatars/b3f7aa0fd27eabb8b69a.webp",
+      "sourceInitials": "TY",
+      "sourceTags": [
+        "演奏者",
+        "比賽",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_c74bf61a25",
+          "name": "Timothy Yip 葉進禧",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/profile.php?id=100085232439912",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_timothyyip_harmonica",
+          "name": "Timothy Yip 葉進禧",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "timothyyip_harmonica",
+          "profileUrl": "https://www.instagram.com/timothyyip_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/timothyyip_harmonica/story/0"
+        },
+        {
+          "id": "ig_timothyyip_harmonica",
+          "name": "Timothy Yip 葉進禧",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "timothyyip_harmonica",
+          "profileUrl": "https://www.instagram.com/timothyyip_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucvoafkvaebakb5zgfvf7nww",
+          "name": "Timothy Yip 葉進禧",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-93",
+      "publicId": "93",
+      "name": "RedBricks Harmonica",
+      "nameEn": "RedBricks Harmonica",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "國際團體/參考來源",
+      "country": "香港",
+      "region": "香港/國際",
+      "cityOrFocus": "國際口琴重奏/臺港交流",
+      "structuredSummary": "國際口琴重奏/臺港交流 / 口琴重奏 / 國際演出團體",
+      "summary": "香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。",
+      "keywords": "RedBricks Harmonica 香港口琴五重奏 harmonica ensemble",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/redbricksharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/redbricksharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@RedBricksHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-16T23:38:56+00:00",
+      "latestUpdateLocal": "2026-07-17 07:38",
+      "latestUpdateSource": "RedBricks Harmonica",
+      "latestUpdateUrl": "https://www.instagram.com/stories/redbricksharmonica/3942856498535867316/",
+      "avatarUrl": "/assets/source-avatars/44ed1621e83c468035bf.webp",
+      "sourceInitials": "RH",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_redbricksharmonica",
+          "name": "RedBricks Harmonica",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/redbricksharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_redbricksharmonica",
+          "name": "RedBricks Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "redbricksharmonica",
+          "profileUrl": "https://www.instagram.com/redbricksharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_redbricksharmonica",
+          "name": "RedBricks Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "redbricksharmonica",
+          "profileUrl": "https://www.instagram.com/redbricksharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/redbricksharmonica/story/0"
+        },
+        {
+          "id": "yt_redbricksharmonica",
+          "name": "RedBricks Harmonica",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@RedBricksHarmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-100",
       "publicId": "100",
       "name": "曹小歐",
@@ -441,6 +681,91 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-115",
+      "publicId": "115",
+      "name": "Filip Jers",
+      "nameEn": "Filip Jers",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "瑞典",
+      "region": "瑞典",
+      "cityOrFocus": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出",
+      "structuredSummary": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出 / 半音階/十孔 / 國際演出人員/作曲者/教育者",
+      "summary": "瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。",
+      "keywords": "Filip Jers harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.filipjers.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/filipjersmusic/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/filipjersharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@filipjersmusic"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-16T21:48:38+00:00",
+      "latestUpdateLocal": "2026-07-17 05:48",
+      "latestUpdateSource": "Filip Jers",
+      "latestUpdateUrl": "https://www.instagram.com/p/Da3pBGhvyhg/",
+      "avatarUrl": "/assets/source-avatars/af9621d4008a9692446e.webp",
+      "sourceInitials": "FJ",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_filipjersmusic",
+          "name": "Filip Jers",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/filipjersmusic",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_filipjersharmonica",
+          "name": "Filip Jers",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "filipjersharmonica",
+          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_filipjersharmonica",
+          "name": "Filip Jers",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "filipjersharmonica",
+          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/filipjersharmonica/story/0"
+        },
+        {
+          "id": "yt_filipjersmusic",
+          "name": "Filip Jers",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@filipjersmusic",
           "feedUrl": ""
         }
       ]
@@ -1451,91 +1776,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-104",
-      "publicId": "104",
-      "name": "Timothy Yip 葉進禧",
-      "nameEn": "Timothy Yip",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/國際比賽/演出/RedBricks",
-      "structuredSummary": "半音階/國際比賽/演出/RedBricks / 半音階 / 國際演出人員",
-      "summary": "香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。",
-      "keywords": "Timothy Yip 葉進禧 harmonica chromatic harmonicist RedBricks",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.timothyyipharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/profile.php?id=100085232439912"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/timothyyip_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-16T12:03:14+00:00",
-      "latestUpdateLocal": "2026-07-16 20:03",
-      "latestUpdateSource": "Timothy Yip 葉進禧",
-      "latestUpdateUrl": "https://www.instagram.com/stories/timothyyip_harmonica/3942506287105119282/",
-      "avatarUrl": "/assets/source-avatars/b3f7aa0fd27eabb8b69a.webp",
-      "sourceInitials": "TY",
-      "sourceTags": [
-        "演奏者",
-        "比賽",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_c74bf61a25",
-          "name": "Timothy Yip 葉進禧",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/profile.php?id=100085232439912",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_timothyyip_harmonica",
-          "name": "Timothy Yip 葉進禧",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "timothyyip_harmonica",
-          "profileUrl": "https://www.instagram.com/timothyyip_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/timothyyip_harmonica/story/0"
-        },
-        {
-          "id": "ig_timothyyip_harmonica",
-          "name": "Timothy Yip 葉進禧",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "timothyyip_harmonica",
-          "profileUrl": "https://www.instagram.com/timothyyip_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_ucvoafkvaebakb5zgfvf7nww",
-          "name": "Timothy Yip 葉進禧",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-57",
       "publicId": "57",
       "name": "山下伶 Rei Yamashita",
@@ -2094,86 +2334,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-93",
-      "publicId": "93",
-      "name": "RedBricks Harmonica",
-      "nameEn": "RedBricks Harmonica",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "國際團體/參考來源",
-      "country": "香港",
-      "region": "香港/國際",
-      "cityOrFocus": "國際口琴重奏/臺港交流",
-      "structuredSummary": "國際口琴重奏/臺港交流 / 口琴重奏 / 國際演出團體",
-      "summary": "香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。",
-      "keywords": "RedBricks Harmonica 香港口琴五重奏 harmonica ensemble",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/redbricksharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/redbricksharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@RedBricksHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-16T09:02:20+00:00",
-      "latestUpdateLocal": "2026-07-16 17:02",
-      "latestUpdateSource": "RedBricks Harmonica",
-      "latestUpdateUrl": "https://www.instagram.com/stories/redbricksharmonica/3942415272326107962/",
-      "avatarUrl": "/assets/source-avatars/44ed1621e83c468035bf.webp",
-      "sourceInitials": "RH",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_redbricksharmonica",
-          "name": "RedBricks Harmonica",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/redbricksharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_redbricksharmonica",
-          "name": "RedBricks Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "redbricksharmonica",
-          "profileUrl": "https://www.instagram.com/redbricksharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_redbricksharmonica",
-          "name": "RedBricks Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "redbricksharmonica",
-          "profileUrl": "https://www.instagram.com/redbricksharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/redbricksharmonica/story/0"
-        },
-        {
-          "id": "yt_redbricksharmonica",
-          "name": "RedBricks Harmonica",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@RedBricksHarmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-46",
       "publicId": "46",
       "name": "廖苡晴",
@@ -2624,81 +2784,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@iamxyora",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-33",
-      "publicId": "33",
-      "name": "黃冠誌",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
-      "structuredSummary": "天狼星/胖擊系/和弦口琴/重奏 / 和弦/重奏 / 演出人員",
-      "summary": "口琴演奏者，專長和弦口琴與重奏演出。",
-      "keywords": "黃冠誌 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/kuanchih/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hk91f06/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-16T02:38:35+00:00",
-      "latestUpdateLocal": "2026-07-16 10:38",
-      "latestUpdateSource": "黃冠誌",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3942222086680188044/",
-      "avatarUrl": "/assets/source-avatars/1c6e560eec687ecfbf6c.webp",
-      "sourceInitials": "黃冠",
-      "sourceTags": [
-        "演奏者",
-        "合奏",
-        "和弦",
-        "重奏",
-        "演出"
-      ],
-      "sourceSummary": "口琴演奏者，專長和弦口琴與重奏演出。",
-      "sourceTagReason": "來源明確標示為個人與演奏者，且專長涉及和弦、重奏與演出。",
-      "monitorSources": [
-        {
-          "id": "ig_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
-        },
-        {
-          "id": "yt_cbd128e3de",
-          "name": "黃冠誌",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
           "feedUrl": ""
         }
       ]
@@ -3698,91 +3783,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@KonstantinReinfeld",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-115",
-      "publicId": "115",
-      "name": "Filip Jers",
-      "nameEn": "Filip Jers",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "瑞典",
-      "region": "瑞典",
-      "cityOrFocus": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出",
-      "structuredSummary": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出 / 半音階/十孔 / 國際演出人員/作曲者/教育者",
-      "summary": "瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。",
-      "keywords": "Filip Jers harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.filipjers.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/filipjersmusic/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/filipjersharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@filipjersmusic"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-15T11:29:09+00:00",
-      "latestUpdateLocal": "2026-07-15 19:29",
-      "latestUpdateSource": "Filip Jers",
-      "latestUpdateUrl": "https://www.instagram.com/stories/filipjersharmonica/3941764356207584418/",
-      "avatarUrl": "/assets/source-avatars/af9621d4008a9692446e.webp",
-      "sourceInitials": "FJ",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_filipjersmusic",
-          "name": "Filip Jers",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/filipjersmusic",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_filipjersharmonica",
-          "name": "Filip Jers",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "filipjersharmonica",
-          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_filipjersharmonica",
-          "name": "Filip Jers",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "filipjersharmonica",
-          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/filipjersharmonica/story/0"
-        },
-        {
-          "id": "yt_filipjersmusic",
-          "name": "Filip Jers",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@filipjersmusic",
           "feedUrl": ""
         }
       ]
