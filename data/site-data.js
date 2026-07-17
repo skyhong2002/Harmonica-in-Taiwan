@@ -736,6 +736,89 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-95",
+      "publicId": "95",
+      "name": "韋笙堡口琴 Weissenberg Harmonicas",
+      "nameEn": "Weissenberg Harmonicas",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "品牌/樂器商",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "口琴製造/器材/產品資訊",
+      "structuredSummary": "口琴製造/器材/產品資訊 / 口琴 / 器材品牌",
+      "summary": "臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。",
+      "keywords": "韋笙堡 Weissenberg Harmonicas 口琴 臺灣 Made in Taiwan",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.weissenbergwind.com/tw/product_list.php?type=4"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Weissenberg.Harmonicas/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weissenbergtw/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/weissenberg1979"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-17T13:13:56+00:00",
+      "latestUpdateLocal": "2026-07-17 21:13",
+      "latestUpdateSource": "韋笙堡口琴 Weissenberg Harmonicas",
+      "latestUpdateUrl": "https://www.instagram.com/stories/weissenbergtw/3943266705317537076/",
+      "avatarUrl": "/assets/source-avatars/be21348f3a87342f6a28.webp",
+      "sourceInitials": "WH",
+      "sourceTags": [
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_weissenberg_harmonicas",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Weissenberg.Harmonicas",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weissenbergtw",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weissenbergtw",
+          "profileUrl": "https://www.instagram.com/weissenbergtw/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weissenbergtw/story/0"
+        },
+        {
+          "id": "ig_weissenbergtw",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weissenbergtw",
+          "profileUrl": "https://www.instagram.com/weissenbergtw/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_weissenberg1979",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/weissenberg1979",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-49",
       "publicId": "49",
       "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
@@ -5551,89 +5634,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@kif768",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-95",
-      "publicId": "95",
-      "name": "韋笙堡口琴 Weissenberg Harmonicas",
-      "nameEn": "Weissenberg Harmonicas",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "品牌/樂器商",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "口琴製造/器材/產品資訊",
-      "structuredSummary": "口琴製造/器材/產品資訊 / 口琴 / 器材品牌",
-      "summary": "臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。",
-      "keywords": "韋笙堡 Weissenberg Harmonicas 口琴 臺灣 Made in Taiwan",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.weissenbergwind.com/tw/product_list.php?type=4"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Weissenberg.Harmonicas/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weissenbergtw/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/weissenberg1979"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-13T17:42:49+00:00",
-      "latestUpdateLocal": "2026-07-14 01:42",
-      "latestUpdateSource": "韋笙堡口琴 Weissenberg Harmonicas",
-      "latestUpdateUrl": "https://www.instagram.com/stories/weissenbergtw/3940502879660626078/",
-      "avatarUrl": "/assets/source-avatars/be21348f3a87342f6a28.webp",
-      "sourceInitials": "WH",
-      "sourceTags": [
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_weissenberg_harmonicas",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Weissenberg.Harmonicas",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_weissenbergtw",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weissenbergtw",
-          "profileUrl": "https://www.instagram.com/weissenbergtw/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weissenbergtw/story/0"
-        },
-        {
-          "id": "ig_weissenbergtw",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weissenbergtw",
-          "profileUrl": "https://www.instagram.com/weissenbergtw/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_weissenberg1979",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/weissenberg1979",
           "feedUrl": ""
         }
       ]

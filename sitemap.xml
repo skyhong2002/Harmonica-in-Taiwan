@@ -115,6 +115,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/95-weissenberg-harmonicas/</loc>
+    <lastmod>2026-07-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/49-aiden-n-evelyn/</loc>
     <lastmod>2026-07-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -471,12 +477,6 @@
   <url>
     <loc>https://harmonica.observe.tw/source/141-kif-valentine/</loc>
     <lastmod>2026-07-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/95-weissenberg-harmonicas/</loc>
-    <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

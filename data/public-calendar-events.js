@@ -1,6 +1,6 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-07-18T06:34:19+08:00",
+  "generatedAt": "2026-07-18T07:07:59+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
   "count": 7,
@@ -14,8 +14,8 @@ window.publicCalendarEvents = {
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 1,
-      "cached": 31,
+      "requests": 0,
+      "cached": 34,
       "errors": 0
     }
   },
