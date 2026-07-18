@@ -1,39 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-18T07:18:20.344482Z",
+  "generatedAt": "2026-07-18T08:23:00.297257Z",
   "source": {
     "id": 202,
     "slug": "waseda-university-harmonica-society",
     "name": "早稻田大學ハーモニカ・ソサィアティ",
     "pageUrl": "https://harmonica.observe.tw/source/202-waseda-university-harmonica-society/"
   },
-  "items": [
-    {
-      "id": "post-56bdc3241156fbb2a1b8848a",
-      "title": "とくべチュ、して（2026年度四大学JC・動画）",
-      "excerpt": "とくべチュ、して（2026年度四大学JC・動画）",
-      "url": "https://www.youtube.com/watch?v=6QKtmyb7Tw4",
-      "sourceName": "早稻田大學ハーモニカ・ソサィアティ",
-      "platform": "YouTube",
-      "publishedAt": "2026-06-18T08:03:07Z"
-    },
-    {
-      "id": "post-93b08ae232c97fdad55ed656",
-      "title": "海の見える街（2026年度四大学JC・動画）",
-      "excerpt": "海の見える街（2026年度四大学JC・動画）",
-      "url": "https://www.youtube.com/watch?v=fZPvsSU9jkk",
-      "sourceName": "早稻田大學ハーモニカ・ソサィアティ",
-      "platform": "YouTube",
-      "publishedAt": "2026-06-18T07:41:20Z"
-    },
-    {
-      "id": "post-0368b75ccbd1d1b0b8bea8af",
-      "title": "高嶺の花子さん（2026年度四大学JC・動画）",
-      "excerpt": "高嶺の花子さん（2026年度四大学JC・動画）",
-      "url": "https://www.youtube.com/watch?v=7GLlluHA57E",
-      "sourceName": "早稻田大學ハーモニカ・ソサィアティ",
-      "platform": "YouTube",
-      "publishedAt": "2026-06-18T07:28:28Z"
-    }
-  ]
+  "items": []
 }
