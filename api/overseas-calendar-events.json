@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-18T22:58:38+08:00",
+  "generatedAt": "2026-07-19T00:03:49+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
-  "count": 11,
+  "count": 10,
   "source": "/api/events.json",
   "ics": "/feeds/overseas-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,47 +15,11 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 34,
+      "cached": 32,
       "errors": 0
     }
   },
   "events": [
-    {
-      "id": "e40e9e2154ec8429",
-      "title": "RJマンスリーライブ",
-      "eventName": "RJマンスリーライブ",
-      "source": "南里沙 / Risa MINAMI",
-      "platform": "instagram",
-      "start": "2026-07-16",
-      "end": "2026-07-17",
-      "allDay": true,
-      "calendarType": "overseas_physical",
-      "timezone": "Asia/Tokyo",
-      "location": "日本 RJ",
-      "venue": "RJ",
-      "city": "日本",
-      "details": "次回のRJマンスリーライブは7月16日(木)。貼文同時提到另有 YouTube 生配信「南里沙のココだけの話」將於6月20日晚上10點播出，但那是另一個活動。",
-      "evidenceUrl": "https://www.instagram.com/p/DZv9gbPSDcC/",
-      "confidence": 0.93,
-      "calendarReview": {
-        "include": true,
-        "country": "日本",
-        "eventMode": "overseas_physical",
-        "timezone": "Asia/Tokyo",
-        "candidateDateMatches": true,
-        "eventName": "RJマンスリーライブ",
-        "venue": "RJ",
-        "city": "日本",
-        "details": "次回のRJマンスリーライブは7月16日(木)。貼文同時提到另有 YouTube 生配信「南里沙のココだけの話」將於6月20日晚上10點播出，但那是另一個活動。",
-        "reason": "候選日期與貼文中的 RJ マンスリーライブ 日期一致，屬於實體口琴活動；地點在日本，非臺灣也非線上。",
-        "confidence": 0.93
-      },
-      "postedAt": "2026-06-19 09:46",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/726716361_18593549683053761_2802633507180942337_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=MzkyMjYyNDMwOTU3MDg0NDQxOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjE0Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=bKPeSg25NYMQ7kNvwG8sQmE&_nc_oc=AdoP6vYNOKvY-QQHoSKv5ousD5dx5N_kTZTqCYvOgwUEtb1UI68kO3p70mU1sQctg9Q&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=aBpXDlEAhQew_rB6ZuBaiw&_nc_ss=7a22e&oh=00_Af-xNPqMgUwQ28cy403IRkJTQbUqgL4qWRVHoqT-zvLP-g&oe=6A432B52"
-      ],
-      "image_url": "/assets/feed-images/0c394fb8df3254390b4c.webp"
-    },
     {
       "id": "343d248accc7eb16",
       "title": "第十五屆亞太口琴節",
