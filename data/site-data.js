@@ -6037,7 +6037,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-09 12:02",
       "latestUpdateSource": "藤井俊充",
       "latestUpdateUrl": "https://www.instagram.com/stories/toshimiller/3937190723154316940/",
-      "avatarUrl": "/assets/source-avatars/db80d06917ef5d9965b5.webp",
+      "avatarUrl": "/assets/source-avatars/4bb635c300ca59217474.webp",
       "sourceInitials": "藤井",
       "sourceTags": [
         "演奏者",
