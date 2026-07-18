@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 18 Jul 2026 06:12:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 07:18:20 +0000</lastBuildDate>
+    <item>
+      <title>新加坡青年節藝術展演（口琴）</title>
+      <link>https://www.syf.gov.sg/general/calendar</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/cecd8b1d8d6fdb0c</guid>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、比賽
+國家：新加坡
+地區：新加坡
+新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。</description>
+    </item>
     <item>
       <title>臺中國家歌劇院</title>
       <link>https://www.npac-ntt.org/</link>
@@ -753,17 +764,6 @@ Tag：活動資訊、團體樂團、音樂節、比賽、半音階、複音、�
 國家：臺灣
 地區：臺灣
 臺灣的核心活動與活動資訊來源，涵蓋音樂節、比賽、Gala、講座與午間音樂會。</description>
-    </item>
-    <item>
-      <title>新加坡青年節藝術展演（口琴）</title>
-      <link>https://www.syf.gov.sg/general/calendar</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/cecd8b1d8d6fdb0c</guid>
-      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：活動資訊、比賽
-國家：新加坡
-地區：新加坡
-新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。</description>
     </item>
     <item>
       <title>Kif Valentine</title>
