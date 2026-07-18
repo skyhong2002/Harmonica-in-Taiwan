@@ -367,6 +367,75 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-46",
+      "publicId": "46",
+      "name": "廖苡晴",
+      "nameEn": "Alysa Liao",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "111 Trio／Quintet",
+      "structuredSummary": "111 Trio／Quintet / 口琴 / 演出人員",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含111 Trio與Quintet。",
+      "keywords": "廖苡晴 111 Trio 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://laelapsharmonica.com/zh/laelaps-club/alysa-liao/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/__yich___/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@__yich___"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-18T12:15:29+00:00",
+      "latestUpdateLocal": "2026-07-18 20:15",
+      "latestUpdateSource": "廖苡晴",
+      "latestUpdateUrl": "https://www.instagram.com/stories/__yich___/3943962004091720984/",
+      "avatarUrl": "/assets/source-avatars/5b5371b7851220afa3a1.webp",
+      "sourceInitials": "廖苡",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_yich",
+          "name": "廖苡晴",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "__yich___",
+          "profileUrl": "https://www.instagram.com/__yich___/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/__yich___/story/0"
+        },
+        {
+          "id": "ig_yich",
+          "name": "廖苡晴",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "__yich___",
+          "profileUrl": "https://www.instagram.com/__yich___/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_yich",
+          "name": "廖苡晴",
+          "platform": "threads",
+          "type": "rss",
+          "username": "__yich___",
+          "profileUrl": "https://www.threads.net/@__yich___",
+          "feedUrl": "https://rss.observe.tw/threads/__yich___"
+        }
+      ]
+    },
+    {
       "id": "watchlist-67",
       "publicId": "67",
       "name": "Marcos Coll",
@@ -450,6 +519,105 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-94",
+      "publicId": "94",
+      "name": "Duo Volce Music Studio 誼聲音樂室",
+      "nameEn": "Duo Volce Music Studio",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "工作室/團體",
+      "country": "香港",
+      "region": "香港/國際",
+      "cityOrFocus": "半音階口琴/小提琴二重奏/教學",
+      "structuredSummary": "半音階口琴/小提琴二重奏/教學 / 半音階/小提琴 / 國際教學/演出單位",
+      "summary": "香港的半音階與小提琴國際教學與演出單位，活動脈絡包含半音階口琴、小提琴二重奏與教學。",
+      "keywords": "Duo Volce Music Studio 誼聲音樂室 Harry Choi 蔡偉鏗 harmonica violin Hong Kong",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.duovolce.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/DuoVolce/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/DuoVolce/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/DuoVolce"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/duovolce"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-18T12:03:21+00:00",
+      "latestUpdateLocal": "2026-07-18 20:03",
+      "latestUpdateSource": "Duo Volce Music Studio 誼聲音樂室",
+      "latestUpdateUrl": "https://www.instagram.com/stories/DuoVolce/3943955894538901526/",
+      "avatarUrl": "/assets/source-avatars/5f856de4e7f86e6802d3.webp",
+      "sourceInitials": "DVM",
+      "sourceTags": [
+        "團體樂團",
+        "教學",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/DuoVolce",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "DuoVolce",
+          "profileUrl": "https://www.instagram.com/DuoVolce/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "DuoVolce",
+          "profileUrl": "https://www.instagram.com/DuoVolce/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/DuoVolce/story/0"
+        },
+        {
+          "id": "x_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "x",
+          "type": "rss",
+          "username": "duovolce",
+          "profileUrl": "https://x.com/duovolce",
+          "feedUrl": "https://rss.observe.tw/twitter/user/duovolce"
+        },
+        {
+          "id": "yt_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/DuoVolce",
           "feedUrl": ""
         }
       ]
@@ -3787,75 +3955,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-46",
-      "publicId": "46",
-      "name": "廖苡晴",
-      "nameEn": "Alysa Liao",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "111 Trio／Quintet",
-      "structuredSummary": "111 Trio／Quintet / 口琴 / 演出人員",
-      "summary": "臺灣的口琴演出人員，活動脈絡包含111 Trio與Quintet。",
-      "keywords": "廖苡晴 111 Trio 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://laelapsharmonica.com/zh/laelaps-club/alysa-liao/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/__yich___/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@__yich___"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-16T07:32:02+00:00",
-      "latestUpdateLocal": "2026-07-16 15:32",
-      "latestUpdateSource": "廖苡晴",
-      "latestUpdateUrl": "https://www.instagram.com/stories/__yich___/3942369807126573097/",
-      "avatarUrl": "/assets/source-avatars/5b5371b7851220afa3a1.webp",
-      "sourceInitials": "廖苡",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_yich",
-          "name": "廖苡晴",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "__yich___",
-          "profileUrl": "https://www.instagram.com/__yich___/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/__yich___/story/0"
-        },
-        {
-          "id": "ig_yich",
-          "name": "廖苡晴",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "__yich___",
-          "profileUrl": "https://www.instagram.com/__yich___/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_yich",
-          "name": "廖苡晴",
-          "platform": "threads",
-          "type": "rss",
-          "username": "__yich___",
-          "profileUrl": "https://www.threads.net/@__yich___",
-          "feedUrl": "https://rss.observe.tw/threads/__yich___"
-        }
-      ]
-    },
-    {
       "id": "watchlist-147",
       "publicId": "147",
       "name": "Yoonseok Lee",
@@ -6225,105 +6324,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-94",
-      "publicId": "94",
-      "name": "Duo Volce Music Studio 誼聲音樂室",
-      "nameEn": "Duo Volce Music Studio",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "工作室/團體",
-      "country": "香港",
-      "region": "香港/國際",
-      "cityOrFocus": "半音階口琴/小提琴二重奏/教學",
-      "structuredSummary": "半音階口琴/小提琴二重奏/教學 / 半音階/小提琴 / 國際教學/演出單位",
-      "summary": "香港的半音階與小提琴國際教學與演出單位，活動脈絡包含半音階口琴、小提琴二重奏與教學。",
-      "keywords": "Duo Volce Music Studio 誼聲音樂室 Harry Choi 蔡偉鏗 harmonica violin Hong Kong",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.duovolce.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/DuoVolce/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/DuoVolce/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/DuoVolce"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/duovolce"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-08T04:57:22+00:00",
-      "latestUpdateLocal": "2026-07-08 12:57",
-      "latestUpdateSource": "Duo Volce Music Studio 誼聲音樂室",
-      "latestUpdateUrl": "https://www.instagram.com/stories/DuoVolce/3936493752009576482/",
-      "avatarUrl": "/assets/source-avatars/5f856de4e7f86e6802d3.webp",
-      "sourceInitials": "DVM",
-      "sourceTags": [
-        "團體樂團",
-        "教學",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/DuoVolce",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "DuoVolce",
-          "profileUrl": "https://www.instagram.com/DuoVolce/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "DuoVolce",
-          "profileUrl": "https://www.instagram.com/DuoVolce/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/DuoVolce/story/0"
-        },
-        {
-          "id": "x_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "x",
-          "type": "rss",
-          "username": "duovolce",
-          "profileUrl": "https://x.com/duovolce",
-          "feedUrl": "https://rss.observe.tw/twitter/user/duovolce"
-        },
-        {
-          "id": "yt_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/DuoVolce",
           "feedUrl": ""
         }
       ]

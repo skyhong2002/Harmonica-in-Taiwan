@@ -85,7 +85,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/46-alysa-liao/</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/67-marcos-coll/</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/94-duo-volce-music-studio/</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -343,12 +355,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/46-alysa-liao/</loc>
-    <lastmod>2026-07-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/147-yoonseok-lee/</loc>
     <lastmod>2026-07-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -524,12 +530,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/105-stay-drunk-harmonica-ensemble/</loc>
-    <lastmod>2026-07-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/94-duo-volce-music-studio/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
