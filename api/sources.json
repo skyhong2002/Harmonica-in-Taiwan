@@ -65,6 +65,90 @@
   },
   "entries": [
     {
+      "id": "watchlist-171",
+      "publicId": "171",
+      "name": "口琴保存與推廣協會 SPAH",
+      "nameEn": "Society for the Preservation and Advancement of the Harmonica",
+      "category": "活動資訊",
+      "type": "協會",
+      "originalType": "協會/活動",
+      "country": "美國",
+      "region": "美國/密蘇里",
+      "cityOrFocus": "SPAH convention/教育/青年獎學金/社群俱樂部",
+      "structuredSummary": "SPAH convention/教育/青年獎學金/社群俱樂部 / 口琴 / 國際協會/活動來源",
+      "summary": "美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。",
+      "keywords": "SPAH Society for the Preservation and Advancement of the Harmonica convention youth scholarships",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://spah.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/SPAH63/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/official_spah63/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-17T21:12:12+00:00",
+      "latestUpdateLocal": "2026-07-18 05:12",
+      "latestUpdateSource": "口琴保存與推廣協會 SPAH",
+      "latestUpdateUrl": "https://www.instagram.com/p/Da6Jr-Yq32U/",
+      "avatarUrl": "/assets/source-avatars/b95ef49cf0dba4544356.webp",
+      "sourceInitials": "S",
+      "sourceTags": [
+        "協會",
+        "活動資訊",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/SPAH63",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_official_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "official_spah63",
+          "profileUrl": "https://www.instagram.com/official_spah63/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_official_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "official_spah63",
+          "profileUrl": "https://www.instagram.com/official_spah63/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/official_spah63/story/0"
+        },
+        {
+          "id": "yt_ucbjlie6bvgh8jhvco_xltsg",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-142",
       "publicId": "142",
       "name": "Howard Levy",
@@ -2791,90 +2875,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@minghsunTsai",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-171",
-      "publicId": "171",
-      "name": "口琴保存與推廣協會 SPAH",
-      "nameEn": "Society for the Preservation and Advancement of the Harmonica",
-      "category": "活動資訊",
-      "type": "協會",
-      "originalType": "協會/活動",
-      "country": "美國",
-      "region": "美國/密蘇里",
-      "cityOrFocus": "SPAH convention/教育/青年獎學金/社群俱樂部",
-      "structuredSummary": "SPAH convention/教育/青年獎學金/社群俱樂部 / 口琴 / 國際協會/活動來源",
-      "summary": "美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。",
-      "keywords": "SPAH Society for the Preservation and Advancement of the Harmonica convention youth scholarships",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://spah.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/SPAH63/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/official_spah63/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-16T14:36:15+00:00",
-      "latestUpdateLocal": "2026-07-16 22:36",
-      "latestUpdateSource": "口琴保存與推廣協會 SPAH",
-      "latestUpdateUrl": "https://www.instagram.com/p/Da23m3NKtNM/",
-      "avatarUrl": "/assets/source-avatars/b95ef49cf0dba4544356.webp",
-      "sourceInitials": "S",
-      "sourceTags": [
-        "協會",
-        "活動資訊",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/SPAH63",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_official_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "official_spah63",
-          "profileUrl": "https://www.instagram.com/official_spah63/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_official_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "official_spah63",
-          "profileUrl": "https://www.instagram.com/official_spah63/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/official_spah63/story/0"
-        },
-        {
-          "id": "yt_ucbjlie6bvgh8jhvco_xltsg",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
           "feedUrl": ""
         }
       ]
