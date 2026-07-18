@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 18 Jul 2026 19:18:51 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 19:54:18 +0000</lastBuildDate>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -16,6 +16,17 @@ Tag：演奏者、半音階、國際交流
 國家：日本
 地區：日本
 日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+    </item>
+    <item>
+      <title>藤井俊充</title>
+      <link>https://www.facebook.com/100091746706247/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/28e123623573acec</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、十孔、國際交流
+國家：日本
+地區：日本/臺灣爵士圈
+日本的十孔與爵士口琴國際演出人員，活動脈絡包含爵士與跨界。</description>
     </item>
     <item>
       <title>國家兩廳院</title>
@@ -51,6 +62,28 @@ Tag：演奏者、半音階、重奏
 臺灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。</description>
     </item>
     <item>
+      <title>黃冠誌</title>
+      <link>https://harmonica.tw/course/kuanchih/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、合奏、和弦、重奏、演出
+國家：臺灣
+地區：臺灣
+口琴演奏者，專長和弦口琴與重奏演出。</description>
+    </item>
+    <item>
+      <title>Timothy Yip 葉進禧</title>
+      <link>https://www.timothyyipharmonica.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/f44e6396801a0c03</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、比賽、半音階、國際交流
+國家：香港
+地區：香港
+香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。</description>
+    </item>
+    <item>
       <title>廖苡晴</title>
       <link>https://laelapsharmonica.com/zh/laelaps-club/alysa-liao/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/6cc08f27f2215412</guid>
@@ -82,6 +115,17 @@ Tag：團體樂團、教學、半音階、重奏、國際交流
 國家：香港
 地區：香港/國際
 香港的半音階與小提琴國際教學與演出單位，活動脈絡包含半音階口琴、小提琴二重奏與教學。</description>
+    </item>
+    <item>
+      <title>RedBricks Harmonica</title>
+      <link>https://www.facebook.com/redbricksharmonica/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/77378d9ca07a4f96</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏、國際交流
+國家：香港
+地區：香港/國際
+香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
     </item>
     <item>
       <title>Jens Bunge</title>
@@ -170,28 +214,6 @@ Tag：演奏者、半音階、國際交流
 國家：香港
 地區：香港
 香港半音階口琴演奏者，活躍於國際音樂節演出交流。</description>
-    </item>
-    <item>
-      <title>Timothy Yip 葉進禧</title>
-      <link>https://www.timothyyipharmonica.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/f44e6396801a0c03</guid>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、比賽、半音階、國際交流
-國家：香港
-地區：香港
-香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。</description>
-    </item>
-    <item>
-      <title>RedBricks Harmonica</title>
-      <link>https://www.facebook.com/redbricksharmonica/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/77378d9ca07a4f96</guid>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏、國際交流
-國家：香港
-地區：香港/國際
-香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
     </item>
     <item>
       <title>F.I.H. JAPAN ハーモニカコンテスト</title>
@@ -291,17 +313,6 @@ Tag：演奏者、半音階、十孔、國際交流
 國家：西班牙
 地區：西班牙
 西班牙的半音階與十孔國際演出人員，活動脈絡包含馬德里出生、古典藍調爵士流行與與Paco de Lucia合作。</description>
-    </item>
-    <item>
-      <title>黃冠誌</title>
-      <link>https://harmonica.tw/course/kuanchih/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、合奏、和弦、重奏、演出
-國家：臺灣
-地區：臺灣
-口琴演奏者，專長和弦口琴與重奏演出。</description>
     </item>
     <item>
       <title>Younghoon Cho</title>
@@ -841,17 +852,6 @@ Tag：學生社團
 國家：臺灣
 地區：臺灣/臺北
 臺灣的口琴隊學校團隊。</description>
-    </item>
-    <item>
-      <title>藤井俊充</title>
-      <link>https://www.facebook.com/100091746706247/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/28e123623573acec</guid>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、十孔、國際交流
-國家：日本
-地區：日本/臺灣爵士圈
-日本的十孔與爵士口琴國際演出人員，活動脈絡包含爵士與跨界。</description>
     </item>
     <item>
       <title>巴巴口琴坊</title>
