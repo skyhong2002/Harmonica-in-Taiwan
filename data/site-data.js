@@ -2274,7 +2274,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-17 16:53",
       "latestUpdateSource": "菜鳥琴老師很菜",
       "latestUpdateUrl": "https://www.instagram.com/stories/chindiary_harmonica/3943135692187618037/",
-      "avatarUrl": "/assets/source-avatars/8e325838853fc7f48c04.webp",
+      "avatarUrl": "/assets/source-avatars/2db0da6406f6fb69ab64.webp",
       "sourceInitials": "菜鳥",
       "sourceTags": [
         "演奏者",
