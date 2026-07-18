@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 18 Jul 2026 00:46:06 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 01:50:23 +0000</lastBuildDate>
     <item>
       <title>口琴保存與推廣協會 SPAH</title>
       <link>https://spah.org/</link>
@@ -16,6 +16,17 @@ Tag：協會、活動資訊、國際交流
 國家：美國
 地區：美國/密蘇里
 美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。</description>
+    </item>
+    <item>
+      <title>Jens Bunge</title>
+      <link>https://hohner.de/en/jens-bunge</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/bf85aeb31f137bd0</guid>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：德國
+地區：德國
+德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。</description>
     </item>
     <item>
       <title>Howard Levy</title>
@@ -271,17 +282,6 @@ Tag：活動資訊、比賽、半音階、複音、重奏、國際交流
 日本的國際比賽來源，涵蓋日本口琴比賽與duo trio。</description>
     </item>
     <item>
-      <title>Jens Bunge</title>
-      <link>https://hohner.de/en/jens-bunge</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/bf85aeb31f137bd0</guid>
-      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：德國
-地區：德國
-德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。</description>
-    </item>
-    <item>
       <title>Marcos Coll</title>
       <link>https://marcoscoll.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/3515abad4f43ad4a</guid>
@@ -324,6 +324,17 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/高雄
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>CY Leo 何卓彥</title>
+      <link>https://www.cyleomusic.io/profile</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/161a953fbacb664c</guid>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、合奏、國際交流
+國家：香港
+地區：香港
+香港半音階口琴演奏者，專注現代跨界與國際演出。</description>
     </item>
     <item>
       <title>張晁滕</title>
@@ -379,17 +390,6 @@ Tag：演奏者、重奏
 國家：臺灣
 地區：臺灣
 臺灣的低音口琴與重奏演出人員與音控，活動脈絡包含演出與音控。</description>
-    </item>
-    <item>
-      <title>CY Leo 何卓彥</title>
-      <link>https://www.cyleomusic.io/profile</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/161a953fbacb664c</guid>
-      <pubDate>Sat, 18 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、合奏、國際交流
-國家：香港
-地區：香港
-香港半音階口琴演奏者，專注現代跨界與國際演出。</description>
     </item>
     <item>
       <title>Lee Oskar</title>
