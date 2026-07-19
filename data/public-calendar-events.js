@@ -1,9 +1,9 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-07-19T18:48:03+08:00",
+  "generatedAt": "2026-07-19T19:53:21+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 7,
+  "count": 8,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@ window.publicCalendarEvents = {
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 32,
+      "cached": 33,
       "errors": 0
     }
   },
@@ -163,6 +163,42 @@ window.publicCalendarEvents = {
         "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/744333130_17949042612238733_3904711897503766911_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=Mzk0MDkyODEzODE0NjY4MzAzMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzU1NS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=YCjZbNcpxMgQ7kNvwFbsVdX&_nc_oc=Adr1Q6Vd2FGa_M4YzNtndt_dbRj-_JycbXRiGKLkJsdeiT8EGr-xdlpI1uv9xfPZgOk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=kRhQAABkBE9MpqkcL8i7BA&_nc_ss=7a22e&oh=00_AQCp304_sat5HFBnPcY_H6gYrhz3S5oZ1l5xRzVyGVUVtA&oe=6A5BE8D2"
       ],
       "image_url": "/assets/feed-images/e9961a602a60b36913ac.webp"
+    },
+    {
+      "id": "82dfbd24f0e88e83",
+      "title": "午間音樂會｜2026 臺灣口琴音樂節",
+      "eventName": "午間音樂會｜2026 臺灣口琴音樂節",
+      "source": "臺灣口琴音樂節 Taiwan Harmonica Music Festival",
+      "platform": "instagram",
+      "start": "2026-08-07T12:30:00+08:00",
+      "end": "2026-08-07T14:30:00+08:00",
+      "allDay": false,
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "location": "活動中心 B1 聯誼廳",
+      "venue": "活動中心 B1 聯誼廳",
+      "city": "",
+      "details": "本場為 2026 臺灣口琴音樂節的午間音樂會，自由入場，座位有限（80 張椅子）。候選日期 8/7（五）12:30-13:30，演出包含 Steffi and Friends、李志華、Do Not Disturb。",
+      "evidenceUrl": "https://www.instagram.com/p/Da9tW_ez7_D/",
+      "confidence": 0.97,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "午間音樂會｜2026 臺灣口琴音樂節",
+        "venue": "活動中心 B1 聯誼廳",
+        "city": "",
+        "details": "本場為 2026 臺灣口琴音樂節的午間音樂會，自由入場，座位有限（80 張椅子）。候選日期 8/7（五）12:30-13:30，演出包含 Steffi and Friends、李志華、Do Not Disturb。",
+        "reason": "貼文明確寫出 8/7 12:30-13:30 的午間音樂會，地點在活動中心 B1 聯誼廳，屬臺灣實體口琴活動。",
+        "confidence": 0.97
+      },
+      "postedAt": "2026-07-19 14:34",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/750016206_17949839829238733_5134501940289264708_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzk0NDUwODM0MDczMDU3NjgzNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTEwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=V59vHkezGYsQ7kNvwGllQee&_nc_oc=AdqeR7ulOj1ZUnvXKoyOm0n_9Tdu6h5I7NHRpDRzHVRILdS1ZBOzjzzD739K_ipz5Lo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=j0NsXNJOuv9ZfESDi0svSg&_nc_ss=7a22e&oh=00_AQA7xnADNjlNYbw4STbhrmEgHVW7LMM-qz56Ee0unVnIJg&oe=6A6296E3"
+      ],
+      "image_url": "/assets/feed-images/f9dd95b4e065d4162a42.webp"
     },
     {
       "id": "7ee2f2b245bae865",
