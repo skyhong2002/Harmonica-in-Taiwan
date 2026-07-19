@@ -2,6 +2,191 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-19",
   "entries": [
     {
+      "id": "watchlist-58",
+      "publicId": "58",
+      "name": "南里沙",
+      "nameEn": "Minami Risa",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
+      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
+      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
+      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://minamirisa.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/minamirisa/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/minami_risa/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@minamirisa"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/minami_risa"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@minami_risa"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-19T15:25:03+00:00",
+      "latestUpdateLocal": "2026-07-19 23:25",
+      "latestUpdateSource": "南里沙",
+      "latestUpdateUrl": "https://x.com/minami_risa/status/2078863696043106407",
+      "avatarUrl": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+      "sourceInitials": "南里",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_minamirisa",
+          "name": "南里沙",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/minamirisa",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
+        },
+        {
+          "id": "x_minami_risa",
+          "name": "南里沙",
+          "platform": "x",
+          "type": "rss",
+          "username": "minami_risa",
+          "profileUrl": "https://x.com/minami_risa",
+          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
+        },
+        {
+          "id": "yt_minamirisa",
+          "name": "南里沙",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@minamirisa",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-101",
+      "publicId": "101",
+      "name": "何家健 HarmoniKahkean",
+      "nameEn": "Ho Kah Kean / HarmoniKahkean",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人/地方推廣",
+      "country": "馬來西亞",
+      "region": "臺灣/花蓮；馬來西亞",
+      "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
+      "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
+      "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
+      "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/harmonikahkean"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonikahkean/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kahkeanho/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@hokahkean1999"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-19T13:52:10+00:00",
+      "latestUpdateLocal": "2026-07-19 21:52",
+      "latestUpdateSource": "何家健 HarmoniKahkean",
+      "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3944735448103101633/",
+      "avatarUrl": "/assets/source-avatars/2ae8afd20e310f8d959d.webp",
+      "sourceInitials": "H",
+      "sourceTags": [
+        "演奏者",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonikahkean",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonikahkean",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/kahkeanho/story/0"
+        },
+        {
+          "id": "yt_hokahkean1999",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@hokahkean1999",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-125",
       "publicId": "125",
       "name": "Jens Bunge",
@@ -225,6 +410,102 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@cyleoharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-4",
+      "publicId": "4",
+      "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+      "nameEn": "Judy's Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/公演/教育推廣",
+      "structuredSummary": "重奏/公演/教育推廣 / 口琴重奏/合奏 / 演出團體",
+      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與教育推廣。",
+      "keywords": "Judy's Harmonica Ensemble 茱蒂口琴樂團",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.judysharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Judys.Harmonica.Ensemble/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/judys.harmonica.ensemble/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@JudysHarmonicaEnsemble"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@judys.harmonica.ensemble"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-19T11:04:52+00:00",
+      "latestUpdateLocal": "2026-07-19 19:04",
+      "latestUpdateSource": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/p/Da-IN03xSrZ/",
+      "avatarUrl": "/assets/source-avatars/5838d7cd4d79864f756c.webp",
+      "sourceInitials": "JSH",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_judys_harmonica_ensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Judys.Harmonica.Ensemble",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_judys_harmonica_ensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "judys.harmonica.ensemble",
+          "profileUrl": "https://www.instagram.com/judys.harmonica.ensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_judys_harmonica_ensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "judys.harmonica.ensemble",
+          "profileUrl": "https://www.instagram.com/judys.harmonica.ensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/judys.harmonica.ensemble/story/0"
+        },
+        {
+          "id": "threads_judys_harmonica_ensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "threads",
+          "type": "rss",
+          "username": "judys.harmonica.ensemble",
+          "profileUrl": "https://www.threads.net/@judys.harmonica.ensemble",
+          "feedUrl": "https://rss.observe.tw/threads/judys.harmonica.ensemble"
+        },
+        {
+          "id": "yt_judysharmonicaensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@JudysHarmonicaEnsemble",
           "feedUrl": ""
         }
       ]
@@ -1623,107 +1904,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-58",
-      "publicId": "58",
-      "name": "南里沙",
-      "nameEn": "Minami Risa",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
-      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
-      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://minamirisa.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/minamirisa/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/minami_risa/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@minamirisa"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/minami_risa"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@minami_risa"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-18T17:18:10+00:00",
-      "latestUpdateLocal": "2026-07-19 01:18",
-      "latestUpdateSource": "南里沙",
-      "latestUpdateUrl": "https://x.com/minami_risa/status/2078529776680411140",
-      "avatarUrl": "/assets/source-avatars/fdefacea4d8029e06564.webp",
-      "sourceInitials": "南里",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_minamirisa",
-          "name": "南里沙",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/minamirisa",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
-        },
-        {
-          "id": "x_minami_risa",
-          "name": "南里沙",
-          "platform": "x",
-          "type": "rss",
-          "username": "minami_risa",
-          "profileUrl": "https://x.com/minami_risa",
-          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
-        },
-        {
-          "id": "yt_minamirisa",
-          "name": "南里沙",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@minamirisa",
           "feedUrl": ""
         }
       ]
@@ -4289,90 +4469,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-101",
-      "publicId": "101",
-      "name": "何家健 HarmoniKahkean",
-      "nameEn": "Ho Kah Kean / HarmoniKahkean",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人/地方推廣",
-      "country": "馬來西亞",
-      "region": "臺灣/花蓮；馬來西亞",
-      "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
-      "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
-      "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
-      "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/harmonikahkean"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonikahkean/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/kahkeanho/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@hokahkean1999"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-16T11:26:13+00:00",
-      "latestUpdateLocal": "2026-07-16 19:26",
-      "latestUpdateSource": "何家健 HarmoniKahkean",
-      "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3942487661906648173/",
-      "avatarUrl": "/assets/source-avatars/2ae8afd20e310f8d959d.webp",
-      "sourceInitials": "H",
-      "sourceTags": [
-        "演奏者",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonikahkean",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonikahkean",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_kahkeanho",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "kahkeanho",
-          "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_kahkeanho",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "kahkeanho",
-          "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/kahkeanho/story/0"
-        },
-        {
-          "id": "yt_hokahkean1999",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@hokahkean1999",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-215",
       "publicId": "215",
       "name": "鍾靈中學口琴隊",
@@ -5077,102 +5173,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@KonstantinReinfeld",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-4",
-      "publicId": "4",
-      "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-      "nameEn": "Judy's Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/公演/教育推廣",
-      "structuredSummary": "重奏/公演/教育推廣 / 口琴重奏/合奏 / 演出團體",
-      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與教育推廣。",
-      "keywords": "Judy's Harmonica Ensemble 茱蒂口琴樂團",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.judysharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Judys.Harmonica.Ensemble/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/judys.harmonica.ensemble/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@JudysHarmonicaEnsemble"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@judys.harmonica.ensemble"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-15T08:49:47+00:00",
-      "latestUpdateLocal": "2026-07-15 16:49",
-      "latestUpdateSource": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/stories/judys.harmonica.ensemble/3941684146343070829/",
-      "avatarUrl": "/assets/source-avatars/5838d7cd4d79864f756c.webp",
-      "sourceInitials": "JSH",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_judys_harmonica_ensemble",
-          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Judys.Harmonica.Ensemble",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_judys_harmonica_ensemble",
-          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "judys.harmonica.ensemble",
-          "profileUrl": "https://www.instagram.com/judys.harmonica.ensemble/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_judys_harmonica_ensemble",
-          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "judys.harmonica.ensemble",
-          "profileUrl": "https://www.instagram.com/judys.harmonica.ensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/judys.harmonica.ensemble/story/0"
-        },
-        {
-          "id": "threads_judys_harmonica_ensemble",
-          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "platform": "threads",
-          "type": "rss",
-          "username": "judys.harmonica.ensemble",
-          "profileUrl": "https://www.threads.net/@judys.harmonica.ensemble",
-          "feedUrl": "https://rss.observe.tw/threads/judys.harmonica.ensemble"
-        },
-        {
-          "id": "yt_judysharmonicaensemble",
-          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@JudysHarmonicaEnsemble",
           "feedUrl": ""
         }
       ]
