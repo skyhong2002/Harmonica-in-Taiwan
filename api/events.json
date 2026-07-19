@@ -7,8 +7,86 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 429,
+  "count": 430,
   "items": [
+    {
+      "title": "就是吹口琴 陳鴻儀Henry’s Harmonica｜【就是吹口琴Just Play Harmonica 】｜龍千玉 – 故鄉之戀｜複音口琴Tremolo Harmonica 演奏版本《C調》 故鄉之戀 石國人 作曲 石國人 作詞 龍千玉…",
+      "headline": "【就是吹口琴Just Play Harmonica 】｜龍千玉 – 故鄉之戀｜複音口琴Tremolo Harmonica 演奏版本《C調》",
+      "display_title": "【就是吹口琴Just Play Harmonica 】｜龍千玉 – 故鄉之戀｜複音口琴Tremolo Harmonica 演奏版本《C調》",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=HKnB6bgzLyM",
+      "source_id": "yt_henrysharmonica",
+      "source": "就是吹口琴 陳鴻儀Henry’s Harmonica",
+      "source_system_name": "陳鴻儀",
+      "source_profile_url": "https://www.youtube.com/channel/UC7dQryOizHj-cKHV3xw0ASQ",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-40",
+      "directory_entry_name": "陳鴻儀",
+      "account": "https://www.youtube.com/channel/UC7dQryOizHj-cKHV3xw0ASQ",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-07-19T00:00:05+00:00",
+      "posted_at_local": "2026-07-19 08:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-19T08:32:01.442984+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "影片",
+        "演出"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "影片",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴演奏影片，屬公開更新且與口琴直接相關。",
+      "text": "【就是吹口琴Just Play Harmonica 】｜龍千玉 – 故鄉之戀｜複音口琴Tremolo Harmonica 演奏版本《C調》\n故鄉之戀\n石國人 作曲\n石國人 作詞\n龍千玉 原唱\n複音口琴演奏版本《C調》",
+      "images": [
+        "https://i.ytimg.com/vi/HKnB6bgzLyM/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/HKnB6bgzLyM/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/44ff36b6829c5e9da2d8.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/jRo3PEipmEqPOdl6u-yU-T8hME_tD8ty8dKJo6_cZZyY9Dz9-aPLGdXfwpBf5Y-SR2F0bk4b7Q=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/11010264a3489f5a5679.webp",
+      "source_initials": "HSH",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "yt_henrysharmonica:HKnB6bgzLyM"
+    },
     {
       "title": "音和樂器口琴專賣店｜萬華社大「龍韻口琴合奏班」上課記錄_曲目「My Way」 📣萬華社大【龍韻口琴合奏班】招生中 授課老師：夏晨茹、張宇樞 上課地點：臺北市龍山國中 上課時間：週一（晚） 🟡授課內容： 📍口琴合奏分部、團練教學： 龍韻口琴…",
       "headline": "萬華社大「龍韻口琴合奏班」上課記錄_曲目「My Way」",
