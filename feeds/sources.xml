@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 19 Jul 2026 12:57:53 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 13:32:34 +0000</lastBuildDate>
     <item>
       <title>CY Leo 何卓彥</title>
       <link>https://www.cyleomusic.io/profile</link>
@@ -16,6 +16,17 @@ Tag：演奏者、半音階、合奏、國際交流
 國家：香港
 地區：香港
 香港半音階口琴演奏者，專注現代跨界與國際演出。</description>
+    </item>
+    <item>
+      <title>Jens Bunge</title>
+      <link>https://hohner.de/en/jens-bunge</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/bf85aeb31f137bd0</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：德國
+地區：德國
+德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。</description>
     </item>
     <item>
       <title>韋笙堡口琴 Weissenberg Harmonicas</title>
@@ -324,17 +335,6 @@ Tag：團體樂團、重奏、國際交流
 國家：香港
 地區：香港/國際
 香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
-    </item>
-    <item>
-      <title>Jens Bunge</title>
-      <link>https://hohner.de/en/jens-bunge</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/bf85aeb31f137bd0</guid>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：德國
-地區：德國
-德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。</description>
     </item>
     <item>
       <title>馬來西亞口琴節</title>
