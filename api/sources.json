@@ -65,6 +65,96 @@
   },
   "entries": [
     {
+      "id": "watchlist-139",
+      "publicId": "139",
+      "name": "Lee Oskar",
+      "nameEn": "Lee Oskar",
+      "category": "演奏者",
+      "type": "品牌",
+      "originalType": "個人/品牌",
+      "country": "丹麥",
+      "region": "美國",
+      "cityOrFocus": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌",
+      "structuredSummary": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌 / 十孔/藍調口琴 / 國際演出人員/品牌創辦人",
+      "summary": "丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。",
+      "keywords": "Lee Oskar harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://leeoskar.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/LeeOskarHarmonicas/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/leeoskarharmonicas/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@leeoskarharmonicas"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@leeoskarharmonicas"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-18T21:20:51+00:00",
+      "latestUpdateLocal": "2026-07-19 05:20",
+      "latestUpdateSource": "Lee Oskar",
+      "latestUpdateUrl": "https://www.instagram.com/stories/leeoskarharmonicas/3944236494419579039/",
+      "avatarUrl": "/assets/source-avatars/75801e2c8cc6b1bced0e.webp",
+      "sourceInitials": "LO",
+      "sourceTags": [
+        "品牌",
+        "演奏者",
+        "團體樂團",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_leeoskarharmonicas",
+          "name": "Lee Oskar",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/LeeOskarHarmonicas",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_leeoskarharmonicas",
+          "name": "Lee Oskar",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "leeoskarharmonicas",
+          "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_leeoskarharmonicas",
+          "name": "Lee Oskar",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "leeoskarharmonicas",
+          "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/leeoskarharmonicas/story/0"
+        },
+        {
+          "id": "yt_leeoskarharmonicas",
+          "name": "Lee Oskar",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@leeoskarharmonicas",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-142",
       "publicId": "142",
       "name": "Howard Levy",
@@ -199,6 +289,90 @@
           "type": "rsshub_instagram_profile",
           "username": "taro_senga",
           "profileUrl": "https://www.instagram.com/taro_senga/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-171",
+      "publicId": "171",
+      "name": "口琴保存與推廣協會 SPAH",
+      "nameEn": "Society for the Preservation and Advancement of the Harmonica",
+      "category": "活動資訊",
+      "type": "協會",
+      "originalType": "協會/活動",
+      "country": "美國",
+      "region": "美國/密蘇里",
+      "cityOrFocus": "SPAH convention/教育/青年獎學金/社群俱樂部",
+      "structuredSummary": "SPAH convention/教育/青年獎學金/社群俱樂部 / 口琴 / 國際協會/活動來源",
+      "summary": "美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。",
+      "keywords": "SPAH Society for the Preservation and Advancement of the Harmonica convention youth scholarships",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://spah.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/SPAH63/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/official_spah63/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-18T18:37:51+00:00",
+      "latestUpdateLocal": "2026-07-19 02:37",
+      "latestUpdateSource": "口琴保存與推廣協會 SPAH",
+      "latestUpdateUrl": "https://www.instagram.com/p/Da8MDGeK-FL/",
+      "avatarUrl": "/assets/source-avatars/b95ef49cf0dba4544356.webp",
+      "sourceInitials": "S",
+      "sourceTags": [
+        "協會",
+        "活動資訊",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/SPAH63",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_official_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "official_spah63",
+          "profileUrl": "https://www.instagram.com/official_spah63/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_official_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "official_spah63",
+          "profileUrl": "https://www.instagram.com/official_spah63/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/official_spah63/story/0"
+        },
+        {
+          "id": "yt_ucbjlie6bvgh8jhvco_xltsg",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
           "feedUrl": ""
         }
       ]
@@ -2343,90 +2517,6 @@
       ]
     },
     {
-      "id": "watchlist-171",
-      "publicId": "171",
-      "name": "口琴保存與推廣協會 SPAH",
-      "nameEn": "Society for the Preservation and Advancement of the Harmonica",
-      "category": "活動資訊",
-      "type": "協會",
-      "originalType": "協會/活動",
-      "country": "美國",
-      "region": "美國/密蘇里",
-      "cityOrFocus": "SPAH convention/教育/青年獎學金/社群俱樂部",
-      "structuredSummary": "SPAH convention/教育/青年獎學金/社群俱樂部 / 口琴 / 國際協會/活動來源",
-      "summary": "美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。",
-      "keywords": "SPAH Society for the Preservation and Advancement of the Harmonica convention youth scholarships",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://spah.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/SPAH63/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/official_spah63/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-17T21:12:12+00:00",
-      "latestUpdateLocal": "2026-07-18 05:12",
-      "latestUpdateSource": "口琴保存與推廣協會 SPAH",
-      "latestUpdateUrl": "https://www.instagram.com/p/Da6Jr-Yq32U/",
-      "avatarUrl": "/assets/source-avatars/b95ef49cf0dba4544356.webp",
-      "sourceInitials": "S",
-      "sourceTags": [
-        "協會",
-        "活動資訊",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/SPAH63",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_official_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "official_spah63",
-          "profileUrl": "https://www.instagram.com/official_spah63/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_official_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "official_spah63",
-          "profileUrl": "https://www.instagram.com/official_spah63/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/official_spah63/story/0"
-        },
-        {
-          "id": "yt_ucbjlie6bvgh8jhvco_xltsg",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-118",
       "publicId": "118",
       "name": "Federico Linari",
@@ -3858,96 +3948,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@minghsunTsai",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-139",
-      "publicId": "139",
-      "name": "Lee Oskar",
-      "nameEn": "Lee Oskar",
-      "category": "演奏者",
-      "type": "品牌",
-      "originalType": "個人/品牌",
-      "country": "丹麥",
-      "region": "美國",
-      "cityOrFocus": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌",
-      "structuredSummary": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌 / 十孔/藍調口琴 / 國際演出人員/品牌創辦人",
-      "summary": "丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。",
-      "keywords": "Lee Oskar harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://leeoskar.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/LeeOskarHarmonicas/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/leeoskarharmonicas/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@leeoskarharmonicas"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@leeoskarharmonicas"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-16T13:59:50+00:00",
-      "latestUpdateLocal": "2026-07-16 21:59",
-      "latestUpdateSource": "Lee Oskar",
-      "latestUpdateUrl": "https://www.instagram.com/stories/leeoskarharmonicas/3942564975943358336/",
-      "avatarUrl": "/assets/source-avatars/75801e2c8cc6b1bced0e.webp",
-      "sourceInitials": "LO",
-      "sourceTags": [
-        "品牌",
-        "演奏者",
-        "團體樂團",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_leeoskarharmonicas",
-          "name": "Lee Oskar",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/LeeOskarHarmonicas",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_leeoskarharmonicas",
-          "name": "Lee Oskar",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "leeoskarharmonicas",
-          "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_leeoskarharmonicas",
-          "name": "Lee Oskar",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "leeoskarharmonicas",
-          "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/leeoskarharmonicas/story/0"
-        },
-        {
-          "id": "yt_leeoskarharmonicas",
-          "name": "Lee Oskar",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@leeoskarharmonicas",
           "feedUrl": ""
         }
       ]
