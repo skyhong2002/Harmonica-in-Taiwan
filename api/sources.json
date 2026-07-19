@@ -845,6 +845,79 @@
       ]
     },
     {
+      "id": "watchlist-161",
+      "publicId": "161",
+      "name": "香港學校音樂節",
+      "nameEn": "Hong Kong Schools Music Festival",
+      "category": "活動資訊",
+      "type": "學校社團",
+      "originalType": "學校比賽/資訊入口",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "學校音樂節/口琴獨奏/二重奏/合奏/口琴隊",
+      "structuredSummary": "學校音樂節/口琴獨奏/二重奏/合奏/口琴隊 / 口琴/學生合奏 / 學生比賽來源",
+      "summary": "香港的學生比賽來源，涵蓋學校音樂節、口琴獨奏、二重奏、合奏與口琴隊。",
+      "keywords": "香港學校音樂節 Hong Kong Schools Music Festival Harmonica Melodica Recorder",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hksmsa.org.hk/en/78th-hong-kong-schools-music-festival-2026/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hksmsa/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hksmsa_official/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-19T13:12:30+00:00",
+      "latestUpdateLocal": "2026-07-19 21:12",
+      "latestUpdateSource": "香港學校音樂節",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hksmsa_official/3944715493458487482/",
+      "avatarUrl": "/assets/source-avatars/cdae648ad34b959a90a2.webp",
+      "sourceInitials": "香港",
+      "sourceTags": [
+        "學生社團",
+        "活動資訊",
+        "音樂節",
+        "比賽",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hksmsa",
+          "name": "香港學校音樂節",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hksmsa",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hksmsa_official",
+          "name": "香港學校音樂節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hksmsa_official",
+          "profileUrl": "https://www.instagram.com/hksmsa_official/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hksmsa_official",
+          "name": "香港學校音樂節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hksmsa_official",
+          "profileUrl": "https://www.instagram.com/hksmsa_official/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hksmsa_official/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-125",
       "publicId": "125",
       "name": "Jens Bunge",
@@ -982,6 +1055,73 @@
           "username": "has_singapore",
           "profileUrl": "https://www.instagram.com/has_singapore/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/has_singapore/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-53",
+      "publicId": "53",
+      "name": "Leafin Harmonica Ensemble",
+      "nameEn": "Leafin Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "口琴重奏/公演/合作演出",
+      "structuredSummary": "口琴重奏/公演/合作演出 / 口琴重奏/合奏 / 國際演出團體",
+      "summary": "馬來西亞的口琴重奏與合奏國際演出團體，活動脈絡包含公演與合作演出。",
+      "keywords": "Leafin Harmonica Ensemble _leafin_harmonicaensemble harmonica Malaysia",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/61573180934784/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/_leafin_harmonicaensemble/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-19T12:56:09+00:00",
+      "latestUpdateLocal": "2026-07-19 20:56",
+      "latestUpdateSource": "Leafin Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/stories/_leafin_harmonicaensemble/3944707248337364325/",
+      "avatarUrl": "/assets/source-avatars/4f7972d9ee649563ba48.webp",
+      "sourceInitials": "LHE",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_61573180934784",
+          "name": "Leafin Harmonica Ensemble",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/61573180934784",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_leafin_harmonicaensemble",
+          "name": "Leafin Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "_leafin_harmonicaensemble",
+          "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_leafin_harmonicaensemble",
+          "name": "Leafin Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "_leafin_harmonicaensemble",
+          "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/_leafin_harmonicaensemble/story/0"
         }
       ]
     },
@@ -6134,79 +6274,6 @@
       ]
     },
     {
-      "id": "watchlist-161",
-      "publicId": "161",
-      "name": "香港學校音樂節",
-      "nameEn": "Hong Kong Schools Music Festival",
-      "category": "活動資訊",
-      "type": "學校社團",
-      "originalType": "學校比賽/資訊入口",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "學校音樂節/口琴獨奏/二重奏/合奏/口琴隊",
-      "structuredSummary": "學校音樂節/口琴獨奏/二重奏/合奏/口琴隊 / 口琴/學生合奏 / 學生比賽來源",
-      "summary": "香港的學生比賽來源，涵蓋學校音樂節、口琴獨奏、二重奏、合奏與口琴隊。",
-      "keywords": "香港學校音樂節 Hong Kong Schools Music Festival Harmonica Melodica Recorder",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hksmsa.org.hk/en/78th-hong-kong-schools-music-festival-2026/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hksmsa/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hksmsa_official/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-13T01:45:06+00:00",
-      "latestUpdateLocal": "2026-07-13 09:45",
-      "latestUpdateSource": "香港學校音樂節",
-      "latestUpdateUrl": "https://www.instagram.com/p/DatxA9MEhet/",
-      "avatarUrl": "/assets/source-avatars/cdae648ad34b959a90a2.webp",
-      "sourceInitials": "香港",
-      "sourceTags": [
-        "學生社團",
-        "活動資訊",
-        "音樂節",
-        "比賽",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hksmsa",
-          "name": "香港學校音樂節",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hksmsa",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hksmsa_official",
-          "name": "香港學校音樂節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hksmsa_official",
-          "profileUrl": "https://www.instagram.com/hksmsa_official/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hksmsa_official",
-          "name": "香港學校音樂節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hksmsa_official",
-          "profileUrl": "https://www.instagram.com/hksmsa_official/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hksmsa_official/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-98",
       "publicId": "98",
       "name": "蔡明憲 DMing Studio",
@@ -8763,73 +8830,6 @@
           "username": "musette585",
           "profileUrl": "https://www.threads.net/@musette585",
           "feedUrl": "https://rss.observe.tw/threads/musette585"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-53",
-      "publicId": "53",
-      "name": "Leafin Harmonica Ensemble",
-      "nameEn": "Leafin Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "口琴重奏/公演/合作演出",
-      "structuredSummary": "口琴重奏/公演/合作演出 / 口琴重奏/合奏 / 國際演出團體",
-      "summary": "馬來西亞的口琴重奏與合奏國際演出團體，活動脈絡包含公演與合作演出。",
-      "keywords": "Leafin Harmonica Ensemble _leafin_harmonicaensemble harmonica Malaysia",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/61573180934784/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/_leafin_harmonicaensemble/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-14T05:44:07+00:00",
-      "latestUpdateLocal": "2026-06-14 13:44",
-      "latestUpdateSource": "Leafin Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/p/DZjg7P8zBPS/",
-      "avatarUrl": "/assets/source-avatars/4f7972d9ee649563ba48.webp",
-      "sourceInitials": "LHE",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_61573180934784",
-          "name": "Leafin Harmonica Ensemble",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/61573180934784",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_leafin_harmonicaensemble",
-          "name": "Leafin Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "_leafin_harmonicaensemble",
-          "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_leafin_harmonicaensemble",
-          "name": "Leafin Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "_leafin_harmonicaensemble",
-          "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/_leafin_harmonicaensemble/story/0"
         }
       ]
     },

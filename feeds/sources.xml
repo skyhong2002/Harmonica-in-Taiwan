@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 19 Jul 2026 21:45:16 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 22:51:30 +0000</lastBuildDate>
     <item>
       <title>Konstantin Reinfeld</title>
       <link>https://www.konstantinreinfeld.com/</link>
@@ -106,6 +106,17 @@ Tag：演奏者、合奏、和弦、重奏、演出
 口琴演奏者，專長和弦口琴與重奏演出。</description>
     </item>
     <item>
+      <title>香港學校音樂節</title>
+      <link>https://www.hksmsa.org.hk/en/78th-hong-kong-schools-music-festival-2026/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/0b21ffdb18e0cae8</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：學生社團、活動資訊、音樂節、比賽、重奏
+國家：香港
+地區：香港
+香港的學生比賽來源，涵蓋學校音樂節、口琴獨奏、二重奏、合奏與口琴隊。</description>
+    </item>
+    <item>
       <title>Jens Bunge</title>
       <link>https://hohner.de/en/jens-bunge</link>
       <guid>https://harmonica.observe.tw/feeds/sources/bf85aeb31f137bd0</guid>
@@ -126,6 +137,17 @@ Tag：協會、國際交流
 國家：新加坡
 地區：新加坡
 新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。</description>
+    </item>
+    <item>
+      <title>Leafin Harmonica Ensemble</title>
+      <link>https://www.facebook.com/61573180934784/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/ab8dbe16481dd34d</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏、國際交流
+國家：馬來西亞
+地區：馬來西亞
+馬來西亞的口琴重奏與合奏國際演出團體，活動脈絡包含公演與合作演出。</description>
     </item>
     <item>
       <title>藤井俊充</title>
@@ -832,17 +854,6 @@ Tag：演奏者、半音階、國際交流
 香港半音階口琴演奏者，擔任國際比賽嘉賓與評審。</description>
     </item>
     <item>
-      <title>香港學校音樂節</title>
-      <link>https://www.hksmsa.org.hk/en/78th-hong-kong-schools-music-festival-2026/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/0b21ffdb18e0cae8</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：學生社團、活動資訊、音樂節、比賽、重奏
-國家：香港
-地區：香港
-香港的學生比賽來源，涵蓋學校音樂節、口琴獨奏、二重奏、合奏與口琴隊。</description>
-    </item>
-    <item>
       <title>蔡明憲 DMing Studio</title>
       <link>https://dming.co/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/557b65e8af3dd511</guid>
@@ -1237,17 +1248,6 @@ Tag：演奏者
 國家：臺灣
 地區：臺灣
 臺灣的口琴演出人員與評審，活動脈絡包含演出與評審。</description>
-    </item>
-    <item>
-      <title>Leafin Harmonica Ensemble</title>
-      <link>https://www.facebook.com/61573180934784/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/ab8dbe16481dd34d</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏、國際交流
-國家：馬來西亞
-地區：馬來西亞
-馬來西亞的口琴重奏與合奏國際演出團體，活動脈絡包含公演與合作演出。</description>
     </item>
     <item>
       <title>黃石樂器</title>
