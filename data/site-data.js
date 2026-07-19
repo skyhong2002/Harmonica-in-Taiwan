@@ -1,5 +1,5 @@
 window.HARMONICA_OBSERVE_DATA = {
-  "generatedAt": "2026-07-19",
+  "generatedAt": "2026-07-20",
   "entries": [
     {
       "id": "watchlist-58",
