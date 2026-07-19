@@ -2,6 +2,61 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-19",
   "entries": [
     {
+      "id": "watchlist-222",
+      "publicId": "222",
+      "name": "Do Not Disturb Harmonica Ensemble",
+      "nameEn": "Do Not Disturb Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/公演/新生代團體",
+      "structuredSummary": "重奏/公演/新生代團體 / 半音階/低音/和弦/口琴重奏 / 演出團體",
+      "summary": "臺灣的半音階、低音、和弦與口琴重奏演出團體，活動脈絡包含重奏、公演與新生代團體。",
+      "keywords": "Do Not Disturb Harmonica Ensemble donotdisturbharmonicaensemble 口琴 重奏 THMF 臺灣口琴音樂節",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/donotdisturbharmonicaensemble/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-19T07:02:02+00:00",
+      "latestUpdateLocal": "2026-07-19 15:02",
+      "latestUpdateSource": "Do Not Disturb Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/stories/donotdisturbharmonicaensemble/3944529022151514268/",
+      "avatarUrl": "/assets/source-avatars/22da01f14949bd3fc02b.webp",
+      "sourceInitials": "DND",
+      "sourceTags": [
+        "團體樂團",
+        "音樂節",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_donotdisturbharmonicaensemble",
+          "name": "Do Not Disturb Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "donotdisturbharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_donotdisturbharmonicaensemble",
+          "name": "Do Not Disturb Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "donotdisturbharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/donotdisturbharmonicaensemble/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-33",
       "publicId": "33",
       "name": "黃冠誌",
@@ -537,6 +592,85 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@HenrysHarmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-141",
+      "publicId": "141",
+      "name": "Kif Valentine",
+      "nameEn": "Kif Valentine",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "馬來西亞世界冠軍口琴家/多樂器藝人/流行跨界演出",
+      "structuredSummary": "馬來西亞世界冠軍口琴家/多樂器藝人/流行跨界演出 / 口琴/多樂器 / 國際演出人員",
+      "summary": "馬來西亞的口琴與多樂器國際演出人員，活動脈絡包含馬來西亞世界冠軍口琴家、多樂器藝人與流行跨界演出。",
+      "keywords": "Kif Valentine 陈军凯 harmonica SIHF",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kif768/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kif768/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@kif768"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-18T23:45:20+00:00",
+      "latestUpdateLocal": "2026-07-19 07:45",
+      "latestUpdateSource": "Kif Valentine",
+      "latestUpdateUrl": "https://www.instagram.com/stories/kif768/3944309426102841841/",
+      "avatarUrl": "/assets/source-avatars/fe6290cd332c36d136ba.webp",
+      "sourceInitials": "KV",
+      "sourceTags": [
+        "演奏者",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_kif768",
+          "name": "Kif Valentine",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/kif768",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_kif768",
+          "name": "Kif Valentine",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "kif768",
+          "profileUrl": "https://www.instagram.com/kif768/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_kif768",
+          "name": "Kif Valentine",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "kif768",
+          "profileUrl": "https://www.instagram.com/kif768/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/kif768/story/0"
+        },
+        {
+          "id": "yt_kif768",
+          "name": "Kif Valentine",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@kif768",
           "feedUrl": ""
         }
       ]
@@ -5595,61 +5729,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-222",
-      "publicId": "222",
-      "name": "Do Not Disturb Harmonica Ensemble",
-      "nameEn": "Do Not Disturb Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/公演/新生代團體",
-      "structuredSummary": "重奏/公演/新生代團體 / 半音階/低音/和弦/口琴重奏 / 演出團體",
-      "summary": "臺灣的半音階、低音、和弦與口琴重奏演出團體，活動脈絡包含重奏、公演與新生代團體。",
-      "keywords": "Do Not Disturb Harmonica Ensemble donotdisturbharmonicaensemble 口琴 重奏 THMF 臺灣口琴音樂節",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/donotdisturbharmonicaensemble/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-14T09:29:18+00:00",
-      "latestUpdateLocal": "2026-07-14 17:29",
-      "latestUpdateSource": "Do Not Disturb Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/stories/donotdisturbharmonicaensemble/3940979260088126827/",
-      "avatarUrl": "/assets/source-avatars/22da01f14949bd3fc02b.webp",
-      "sourceInitials": "DND",
-      "sourceTags": [
-        "團體樂團",
-        "音樂節",
-        "半音階",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_donotdisturbharmonicaensemble",
-          "name": "Do Not Disturb Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "donotdisturbharmonicaensemble",
-          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_donotdisturbharmonicaensemble",
-          "name": "Do Not Disturb Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "donotdisturbharmonicaensemble",
-          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/donotdisturbharmonicaensemble/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-2",
       "publicId": "2",
       "name": "臺灣口琴音樂節 THMF",
@@ -5734,85 +5813,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@thmc6470",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-141",
-      "publicId": "141",
-      "name": "Kif Valentine",
-      "nameEn": "Kif Valentine",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "馬來西亞世界冠軍口琴家/多樂器藝人/流行跨界演出",
-      "structuredSummary": "馬來西亞世界冠軍口琴家/多樂器藝人/流行跨界演出 / 口琴/多樂器 / 國際演出人員",
-      "summary": "馬來西亞的口琴與多樂器國際演出人員，活動脈絡包含馬來西亞世界冠軍口琴家、多樂器藝人與流行跨界演出。",
-      "keywords": "Kif Valentine 陈军凯 harmonica SIHF",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/kif768/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/kif768/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@kif768"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-14T00:02:49+00:00",
-      "latestUpdateLocal": "2026-07-14 08:02",
-      "latestUpdateSource": "Kif Valentine",
-      "latestUpdateUrl": "https://www.instagram.com/stories/kif768/3940694318549756200/",
-      "avatarUrl": "/assets/source-avatars/fe6290cd332c36d136ba.webp",
-      "sourceInitials": "KV",
-      "sourceTags": [
-        "演奏者",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_kif768",
-          "name": "Kif Valentine",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/kif768",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_kif768",
-          "name": "Kif Valentine",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "kif768",
-          "profileUrl": "https://www.instagram.com/kif768/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_kif768",
-          "name": "Kif Valentine",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "kif768",
-          "profileUrl": "https://www.instagram.com/kif768/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/kif768/story/0"
-        },
-        {
-          "id": "yt_kif768",
-          "name": "Kif Valentine",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@kif768",
           "feedUrl": ""
         }
       ]
