@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 19 Jul 2026 16:49:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 17:54:50 +0000</lastBuildDate>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -16,6 +16,17 @@ Tag：演奏者、半音階、國際交流
 國家：日本
 地區：日本
 日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+    </item>
+    <item>
+      <title>臺中國家歌劇院</title>
+      <link>https://www.npac-ntt.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/臺中
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>何家健 HarmoniKahkean</title>
@@ -71,6 +82,17 @@ Tag：團體樂團、重奏
 國家：臺灣
 地區：臺灣
 臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與教育推廣。</description>
+    </item>
+    <item>
+      <title>陳彥銘</title>
+      <link>https://mx.nthu.edu.tw/~ymchen/sirius/CT.htm</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/294a4e588c327308</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、和弦、重奏、交流
+國家：臺灣
+地區：臺灣
+天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。</description>
     </item>
     <item>
       <title>韋笙堡口琴 Weissenberg Harmonicas</title>
@@ -423,17 +445,6 @@ Tag：活動資訊、比賽、半音階、複音、重奏、國際交流
 國家：日本
 地區：日本
 日本的國際比賽來源，涵蓋日本口琴比賽與duo trio。</description>
-    </item>
-    <item>
-      <title>臺中國家歌劇院</title>
-      <link>https://www.npac-ntt.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/臺中
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>藍波口琴教室</title>
@@ -1028,17 +1039,6 @@ Tag：演奏者、半音階、國際交流
 國家：挪威
 地區：挪威
 挪威的半音階國際演出人員與作曲者，活動脈絡包含WHF 2025、Tommy Reilly Memorial Concert與古典與跨界半音階。</description>
-    </item>
-    <item>
-      <title>陳彥銘</title>
-      <link>https://mx.nthu.edu.tw/~ymchen/sirius/CT.htm</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/294a4e588c327308</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、和弦、重奏、交流
-國家：臺灣
-地區：臺灣
-天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。</description>
     </item>
     <item>
       <title>逢甲口琴社</title>

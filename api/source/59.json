@@ -1,11 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-19T16:49:45.089649Z",
+  "generatedAt": "2026-07-19T17:54:49.428160Z",
   "source": {
     "id": 59,
     "slug": "taro-senga",
     "name": "千賀太郎",
     "pageUrl": "https://harmonica.observe.tw/source/59-taro-senga/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-9618b975c7e5eff6ad85a002",
+      "title": "해외 아티스트 투어 공지",
+      "excerpt": "해외 아티스트 투어 공지 Taro Senga X Beard&Youngblood 2026. 07. 23 목요일 -24 금요일 장소 : 종로 이들스 (@edls_official ) 시각 : 저녁 7시 30분 안녕하세요! 털보와 젊은피들 입니다. 천재 하모니카 아티스트 Taro Senga 와의 서울 공연 일정이 올해도 확정되었습니다! 종로의 재즈클럽 이들스와 일본의 악기사 Tombo의 지원으로 큰 도움을 받게되어 매우 감사합니다. 세계 하모니카 페스티벌의 심사위원이자 Tombo의 아티스트, 미국과 중…",
+      "url": "https://www.instagram.com/p/Da8COWhj_W5/",
+      "sourceName": "千賀太郎",
+      "platform": "Instagram",
+      "publishedAt": "2026-07-18T14:45:22Z"
+    }
+  ]
 }
