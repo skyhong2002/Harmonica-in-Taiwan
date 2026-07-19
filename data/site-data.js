@@ -561,7 +561,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-19 21:52",
       "latestUpdateSource": "何家健 HarmoniKahkean",
       "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3944735448103101633/",
-      "avatarUrl": "/assets/source-avatars/2ae8afd20e310f8d959d.webp",
+      "avatarUrl": "/assets/source-avatars/7b33f34d52077af131e9.webp",
       "sourceInitials": "H",
       "sourceTags": [
         "演奏者",
