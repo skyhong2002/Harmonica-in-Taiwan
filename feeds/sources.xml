@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 19 Jul 2026 09:08:17 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2026 09:42:32 +0000</lastBuildDate>
     <item>
       <title>黃冠誌</title>
       <link>https://harmonica.tw/course/kuanchih/</link>
@@ -16,6 +16,17 @@ Tag：演奏者、合奏、和弦、重奏、演出
 國家：臺灣
 地區：臺灣
 口琴演奏者，專長和弦口琴與重奏演出。</description>
+    </item>
+    <item>
+      <title>陳瑤容 Yora Chen</title>
+      <link>https://portaly.cc/YoraChen</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/13f74469b6747459</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者
+國家：臺灣
+地區：臺灣
+臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。</description>
     </item>
     <item>
       <title>藤井俊充</title>
@@ -269,17 +280,6 @@ Tag：團體樂團、重奏、國際交流
 國家：香港
 地區：香港/國際
 香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
-    </item>
-    <item>
-      <title>陳瑤容 Yora Chen</title>
-      <link>https://portaly.cc/YoraChen</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/13f74469b6747459</guid>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者
-國家：臺灣
-地區：臺灣
-臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。</description>
     </item>
     <item>
       <title>Jens Bunge</title>
