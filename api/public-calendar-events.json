@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-20T04:05:08+08:00",
+  "generatedAt": "2026-07-20T05:12:12+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 8,
+  "count": 9,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,7 +14,7 @@
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
+      "requests": 1,
       "cached": 33,
       "errors": 0
     }
@@ -163,6 +163,46 @@
         "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/744333130_17949042612238733_3904711897503766911_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=Mzk0MDkyODEzODE0NjY4MzAzMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzU1NS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=YCjZbNcpxMgQ7kNvwFbsVdX&_nc_oc=Adr1Q6Vd2FGa_M4YzNtndt_dbRj-_JycbXRiGKLkJsdeiT8EGr-xdlpI1uv9xfPZgOk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=kRhQAABkBE9MpqkcL8i7BA&_nc_ss=7a22e&oh=00_AQCp304_sat5HFBnPcY_H6gYrhz3S5oZ1l5xRzVyGVUVtA&oe=6A5BE8D2"
       ],
       "image_url": "/assets/feed-images/e9961a602a60b36913ac.webp"
+    },
+    {
+      "id": "c635fbb4c2d1e633",
+      "title": "何家健口琴四重奏：巴西計劃",
+      "eventName": "何家健口琴四重奏：巴西計劃",
+      "source": "何家健HoKahKean",
+      "platform": "instagram",
+      "start": "2026-08-01T20:00:00+08:00",
+      "end": "2026-08-01T22:00:00+08:00",
+      "allDay": false,
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "location": "臺中市西區 Jazzhead",
+      "venue": "Jazzhead",
+      "city": "臺中市西區",
+      "details": "預購票價500元、現場550元，19:45開放入場，座位有限。演出曲目包含巴西音樂與當代爵士口琴手 Yotam Ben-Or 的作品。",
+      "evidenceUrl": "https://www.instagram.com/p/Da-fGjNmNs7/",
+      "confidence": 0.98,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "何家健口琴四重奏：巴西計劃",
+        "venue": "Jazzhead",
+        "city": "臺中市西區",
+        "details": "預購票價500元、現場550元，19:45開放入場，座位有限。演出曲目包含巴西音樂與當代爵士口琴手 Yotam Ben-Or 的作品。",
+        "reason": "貼文明確寫出 8/01 20:00~22:00、地點在臺中 Jazzhead，屬臺灣實體口琴演出，日期與候選一致。",
+        "confidence": 0.98
+      },
+      "postedAt": "2026-07-19 21:35",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/752475410_18387193555167009_6781781501755591671_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzk0NDcyMTc1Njc2MTM4OTY1Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjAwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=EqKkOdGjdQwQ7kNvwH-2Fhy&_nc_oc=AdpT0vVeZD27yhbRNX_JKQayhzwLhPcnmYibxk1HG8pZc7F0HYVbFdzKpqFmqp6yIyE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=qQMsj1FStzeCNBwKUGxjjg&_nc_ss=7a22e&oh=00_AQAnGxKlXySqxfdqoCcTOwTcDFnGr1jUpQqD5XTPBJjP8Q&oe=6A6303E2",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753125285_18387193546167009_516250671512019833_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzk0NDcyMTc1NTUxNjEzMjgxNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTYwLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=FAau9dTGhDYQ7kNvwEofqt4&_nc_oc=AdofRHdA1RAu6CxV53axPDqxBpIX6heADbWeu_e9EHgyt-teVVfCbdCj5S2_9huUpOM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=qQMsj1FStzeCNBwKUGxjjg&_nc_ss=7a22e&oh=00_AQAN23e7e3c06H8flVEiaMl5bi9FBdRGAS2Unoy3DsBfpA&oe=6A6310B8",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/751784184_18387193543167009_4321962281591778558_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=Mzk0NDcyMTc1NzIwOTYwNjUyMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTE3MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=9r0PXx_iX_wQ7kNvwHEo3vM&_nc_oc=AdoaCO6wPpciOY04hdEVaPoLpWsMRvK9z4rslTyxEhaZqlGcN2xsq_KBfYdNn8zZfCk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=qQMsj1FStzeCNBwKUGxjjg&_nc_ss=7a22e&oh=00_AQCW7D8p6ODCu2j2zlP_zGgGxJvH3UF0Nuvjmq6x0xFPvA&oe=6A630CF4",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/752638893_18387193528167009_7292336230589063075_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=Mzk0NDcyMTc1NTg5MjE1OTkxOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuODUzLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=1s0j7aSb1wcQ7kNvwGLfsS1&_nc_oc=AdqOUxPNV40Wnc5JGGDuPI4t8QaOtwNbeouAzpoFhMy6Q53wXou0ps9spoqXiuZmxfU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=qQMsj1FStzeCNBwKUGxjjg&_nc_ss=7a22e&oh=00_AQD4lAQ7wE8aODGEAUbGQlNSZcgFvy3ai3zE0Hn26fdSpA&oe=6A63100D",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753225482_18387193525167009_3008364526207021053_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzk0NDcyMTc1NjE2MDQwMTk1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTE3MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=jRwAGa274TwQ7kNvwHA0nrC&_nc_oc=AdrHtvb0Tf-qpOmMi0xf4iGjkmLxJD4DifC4YPNDssZHecNmy8clmaYUnivD7OvLnT8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=qQMsj1FStzeCNBwKUGxjjg&_nc_ss=7a22e&oh=00_AQDsWs4txtm3Fvhpxdyb-9BfR9f0OwAmIKheyhBf-AxwzQ&oe=6A631510"
+      ],
+      "image_url": "/assets/feed-images/21c5e0c1c3db8098d922.webp"
     },
     {
       "id": "82dfbd24f0e88e83",
