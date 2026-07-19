@@ -5,18 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 19 Jul 2026 13:32:34 +0000</lastBuildDate>
-    <item>
-      <title>CY Leo 何卓彥</title>
-      <link>https://www.cyleomusic.io/profile</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/161a953fbacb664c</guid>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、合奏、國際交流
-國家：香港
-地區：香港
-香港半音階口琴演奏者，專注現代跨界與國際演出。</description>
-    </item>
+    <lastBuildDate>Sun, 19 Jul 2026 14:39:09 +0000</lastBuildDate>
     <item>
       <title>Jens Bunge</title>
       <link>https://hohner.de/en/jens-bunge</link>
@@ -29,6 +18,28 @@ Tag：演奏者、半音階、國際交流
 德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。</description>
     </item>
     <item>
+      <title>口琴愛好者協會（新加坡）</title>
+      <link>https://www.harmonica-as.com/about</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/62b26986382b2eb9</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：國際交流
+Tag：協會、國際交流
+國家：新加坡
+地區：新加坡
+新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。</description>
+    </item>
+    <item>
+      <title>CY Leo 何卓彥</title>
+      <link>https://www.cyleomusic.io/profile</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/161a953fbacb664c</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、合奏、國際交流
+國家：香港
+地區：香港
+香港半音階口琴演奏者，專注現代跨界與國際演出。</description>
+    </item>
+    <item>
       <title>韋笙堡口琴 Weissenberg Harmonicas</title>
       <link>https://www.weissenbergwind.com/tw/product_list.php?type=4</link>
       <guid>https://harmonica.observe.tw/feeds/sources/6943943f14cc844d</guid>
@@ -38,6 +49,17 @@ Tag：教學器材、教學
 國家：臺灣
 地區：臺灣/臺中
 臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。</description>
+    </item>
+    <item>
+      <title>天狼星口琴樂團 Sirius Harmonica Ensemble</title>
+      <link>https://www.facebook.com/SiriusHarp/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/5cea8f6e4720f081</guid>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏、國際交流
+國家：臺灣
+地區：臺灣
+臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與THMF。</description>
     </item>
     <item>
       <title>Do Not Disturb Harmonica Ensemble</title>
@@ -346,17 +368,6 @@ Tag：活動資訊、團體樂團、比賽、重奏、國際交流
 國家：馬來西亞
 地區：馬來西亞/吉隆坡
 馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。</description>
-    </item>
-    <item>
-      <title>口琴愛好者協會（新加坡）</title>
-      <link>https://www.harmonica-as.com/about</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/62b26986382b2eb9</guid>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：國際交流
-Tag：協會、國際交流
-國家：新加坡
-地區：新加坡
-新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。</description>
     </item>
     <item>
       <title>新加坡青年節藝術展演（口琴）</title>
@@ -885,17 +896,6 @@ Tag：場館平台、國際交流
 國家：德國
 地區：德國/特羅辛根
 德國的國際教育來源，關注Hohner、Trossingen、Harmonica Masters與青年與專業教育。</description>
-    </item>
-    <item>
-      <title>天狼星口琴樂團 Sirius Harmonica Ensemble</title>
-      <link>https://www.facebook.com/SiriusHarp/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/5cea8f6e4720f081</guid>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏、國際交流
-國家：臺灣
-地區：臺灣
-臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與THMF。</description>
     </item>
     <item>
       <title>Dr. Blue 口琴樂團</title>
