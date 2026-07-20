@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 20 Jul 2026 21:52:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 22:58:55 +0000</lastBuildDate>
     <item>
       <title>Howard Levy</title>
       <link>https://levyland.com/</link>
@@ -93,6 +93,17 @@ Tag：演奏者、教學、重奏
 國家：臺灣
 地區：臺灣
 臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。</description>
+    </item>
+    <item>
+      <title>香港學校音樂節</title>
+      <link>https://www.hksmsa.org.hk/en/78th-hong-kong-schools-music-festival-2026/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/0b21ffdb18e0cae8</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：學生社團、活動資訊、音樂節、比賽、重奏
+國家：香港
+地區：香港
+香港的學生比賽來源，涵蓋學校音樂節、口琴獨奏、二重奏、合奏與口琴隊。</description>
     </item>
     <item>
       <title>陳瑤容 Yora Chen</title>
@@ -412,17 +423,6 @@ Tag：團體樂團、教學、半音階、重奏、國際交流
 國家：香港
 地區：香港/國際
 香港的半音階與小提琴國際教學與演出單位，活動脈絡包含半音階口琴、小提琴二重奏與教學。</description>
-    </item>
-    <item>
-      <title>香港學校音樂節</title>
-      <link>https://www.hksmsa.org.hk/en/78th-hong-kong-schools-music-festival-2026/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/0b21ffdb18e0cae8</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：學生社團、活動資訊、音樂節、比賽、重奏
-國家：香港
-地區：香港
-香港的學生比賽來源，涵蓋學校音樂節、口琴獨奏、二重奏、合奏與口琴隊。</description>
     </item>
     <item>
       <title>口琴愛好者協會（新加坡）</title>
