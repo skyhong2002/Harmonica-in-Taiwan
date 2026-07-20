@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
   "json": "https://harmonica.observe.tw/api/opportunities.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/opportunities.json",
-  "count": 92,
+  "count": 95,
   "items": [
     {
       "title": "何家健HoKahKean｜【何家健口琴四重奏：巴西計劃】 炎日的夏天就是要來一點熱情的巴西音樂 ！！ Kahkean Quartet是由口琴｜家健（Kahkean）、吉他｜敬典（Justin）、貝斯｜成員（Kendrick）和鼓組｜昀凱（…",
@@ -340,6 +340,85 @@
         "公開活動"
       ],
       "key": "yt_peacetonesharmonica:IK4Jc5_Xgqc"
+    },
+    {
+      "title": "馬來西亞口琴節｜Attention! Attention! ⏰ Only 1 Day Left to Submit Your Competition Video! Don’t miss your chance! Make sure to …",
+      "headline": "Attention! Attention!",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/malaysiaharmonicafestival/posts/pfbid02gaXVKkk4dhNwSitqYxbgkcV1xzAdh9CwsrNuUN7JwF8jqAFf7zLLCgEMMb3oZrZ8l",
+      "source_id": "fb_malaysiaharmonicafestival",
+      "source": "馬來西亞口琴節",
+      "source_system_name": "馬來西亞口琴節",
+      "source_profile_url": "https://facebook.com/malaysiaharmonicafestival",
+      "country": "馬來西亞",
+      "region": "馬來西亞/吉隆坡",
+      "directory_entry_id": "watchlist-165",
+      "directory_entry_name": "馬來西亞口琴節",
+      "account": "malaysiaharmonicafestival",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-18T08:38:20.000Z",
+      "posted_at_local": "2026-07-18 16:38",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-20T01:04:58.222786+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "比賽",
+        "報名",
+        "口琴",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.99,
+      "llm_labels": [
+        "比賽",
+        "報名",
+        "口琴",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "opportunities"
+      ],
+      "llm_reason": "口琴節公告比賽影片提交截止，屬比賽報名/公開更新。",
+      "text": "Attention! Attention!\n⏰ Only 1 Day Left to Submit Your Competition Video!\nDon’t miss your chance! Make sure to submit your video before 19/7/2026, 12PM.\nSubmit your competition video today!\n⏰ 比赛视频提交倒数一天！\n千万别错过！请务必于 2026年7月19日，中午12:00时前完成视频提交。\n❤️别等到最后一刻，现在就提交你的比赛视频吧！\n🔗 Submission Link 提交链接:\nhttps://forms.gle/t8afmqeVJGTjsmPEA (Solo)\nhttps://forms.gle/qkBJSbMZU31ApcGw9 (Group)\n#MalaysiaHarmonicaFestival\nhttps://www.facebook.com/photo/?fbid=1025720130216152&set=a.131932856261555",
+      "images": [
+        "https://scontent-hou1-1.xx.fbcdn.net/v/t51.82787-15/741678851_17957992275171812_338082563920298043_n.jpg?stp=dst-jpg_tt6&cstp=mx1350x1688&ctp=s640x640&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=eMQ_186pDxsQ7kNvwGqCtfZ&_nc_oc=AdpW9xfItG0G2GVsVvV-mhTJ_Duz3H_GnqBCQux89lKBcxe5yOEVlTd1E0M5AeJ-Diw&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=xR9QhS-RTRn6muXNvU0Jag&_nc_ss=72289&oh=00_AQDAIK513Ex0RH71W79bn6TwokzkKaMGxtuT7fE4hAhwCg&oe=6A635A91"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-hou1-1.xx.fbcdn.net/v/t51.82787-15/741678851_17957992275171812_338082563920298043_n.jpg?stp=dst-jpg_tt6&cstp=mx1350x1688&ctp=s640x640&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=eMQ_186pDxsQ7kNvwGqCtfZ&_nc_oc=AdpW9xfItG0G2GVsVvV-mhTJ_Duz3H_GnqBCQux89lKBcxe5yOEVlTd1E0M5AeJ-Diw&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=xR9QhS-RTRn6muXNvU0Jag&_nc_ss=72289&oh=00_AQDAIK513Ex0RH71W79bn6TwokzkKaMGxtuT7fE4hAhwCg&oe=6A635A91",
+      "image_url": "/assets/feed-images/70d44fdb52621ed36073.webp",
+      "image_width": 512,
+      "image_height": 640,
+      "source_avatar_url": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-1/278614367_124189700215706_1238611269500334535_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx937x937&ctp=s50x50&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=J_tA1LnFNOAQ7kNvwEjGfor&_nc_oc=Adp67t-v7Yul4AItceIgqbwK5i7lscpBXDsWa7RhsiQTXPEBiIn-1ncMntjl-Y2dMqo&_nc_zt=24&_nc_ht=scontent-hou1-1.xx&_nc_gid=xR9QhS-RTRn6muXNvU0Jag&_nc_ss=72289&oh=00_AQB6WO3V18ZE_nvTzkvJTteM-Zfri_sApILJt_9q2iJgng&oe=6A633741",
+      "avatar_url": "/assets/source-avatars/8d14f2306add68210991.webp",
+      "source_initials": "馬來",
+      "categories": [
+        "posts-videos",
+        "opportunities",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽",
+        "公開活動"
+      ],
+      "key": "fb_malaysiaharmonicafestival:1025720146882817"
     },
     {
       "title": "F.I.H. JAPAN ハーモニカコンテスト｜Instagram story @moridaira_mi",
@@ -736,6 +815,86 @@
         "補助比賽"
       ],
       "key": "ig_hsinchucounty_culture:https://www.instagram.com/p/Da4oRS5AUqJ/"
+    },
+    {
+      "title": "馬來西亞口琴節｜🚨 3 Days Left for Video Submission! 🎥 The countdown is on! Submit your video before the deadline (19/7/2026, 12…",
+      "headline": "🚨 3 Days Left for Video Submission! 🎥",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/malaysiaharmonicafestival/posts/pfbid02wWzvVioxKVSYvDsB3Dc8WB3yoEsLRbdRupUELursbAhAZG1ezc4qJ9xVimCy6ZAHl",
+      "source_id": "fb_malaysiaharmonicafestival",
+      "source": "馬來西亞口琴節",
+      "source_system_name": "馬來西亞口琴節",
+      "source_profile_url": "https://facebook.com/malaysiaharmonicafestival",
+      "country": "馬來西亞",
+      "region": "馬來西亞/吉隆坡",
+      "directory_entry_id": "watchlist-165",
+      "directory_entry_name": "馬來西亞口琴節",
+      "account": "malaysiaharmonicafestival",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-16T12:37:01.000Z",
+      "posted_at_local": "2026-07-16 20:37",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-20T01:04:58.222786+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "比賽",
+        "報名",
+        "口琴",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "截止",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "比賽",
+        "報名",
+        "口琴",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "opportunities"
+      ],
+      "llm_reason": "口琴節公告影片提交截止，屬比賽報名/徵件公開更新。",
+      "text": "🚨 3 Days Left for Video Submission! 🎥\nThe countdown is on! Submit your video before the deadline (19/7/2026, 12PM).\n🔗 Submission Link:\nhttps://forms.gle/t8afmqeVJGTjsmPEA (Solo)\nhttps://forms.gle/qkBJSbMZU31ApcGw9 (Group)\nWe can‘t wait to see you! ✨\n🚨 视频提交倒数 3 天！ 🎥\n倒数开始！记得在截止日期前（19/7/2026，中午12时）提交您的比赛视频。\n期待大家的精彩表现！✨\n#MalaysiaHarmonicaFestival\nhttps://www.facebook.com/photo/?fbid=1024212570366908&set=a.131932856261555",
+      "images": [
+        "https://scontent-hou1-1.xx.fbcdn.net/v/t51.82787-15/747197952_17957703063171812_8782170037688608716_n.jpg?stp=dst-jpg_tt6&cstp=mx1350x1688&ctp=s640x640&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=g8OiUn7V778Q7kNvwEa_Onh&_nc_oc=AdomM8yOjKqknF7cjDZd5yXqWnMAmd4_WB9tnybUBmW38MmPo5f4SC8PQ3ekQ8uV1gg&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=xR9QhS-RTRn6muXNvU0Jag&_nc_ss=72289&oh=00_AQBPbD6Hwyih46cSa2Lf534EO8NbUZ31gRlBK_YqH2N2LQ&oe=6A6331E4"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-hou1-1.xx.fbcdn.net/v/t51.82787-15/747197952_17957703063171812_8782170037688608716_n.jpg?stp=dst-jpg_tt6&cstp=mx1350x1688&ctp=s640x640&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=g8OiUn7V778Q7kNvwEa_Onh&_nc_oc=AdomM8yOjKqknF7cjDZd5yXqWnMAmd4_WB9tnybUBmW38MmPo5f4SC8PQ3ekQ8uV1gg&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=xR9QhS-RTRn6muXNvU0Jag&_nc_ss=72289&oh=00_AQBPbD6Hwyih46cSa2Lf534EO8NbUZ31gRlBK_YqH2N2LQ&oe=6A6331E4",
+      "image_url": "/assets/feed-images/9f8c021aa8b9163a548e.webp",
+      "image_width": 512,
+      "image_height": 640,
+      "source_avatar_url": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-1/278614367_124189700215706_1238611269500334535_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx937x937&ctp=s50x50&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=J_tA1LnFNOAQ7kNvwEjGfor&_nc_oc=Adp67t-v7Yul4AItceIgqbwK5i7lscpBXDsWa7RhsiQTXPEBiIn-1ncMntjl-Y2dMqo&_nc_zt=24&_nc_ht=scontent-hou1-1.xx&_nc_gid=xR9QhS-RTRn6muXNvU0Jag&_nc_ss=72289&oh=00_AQB6WO3V18ZE_nvTzkvJTteM-Zfri_sApILJt_9q2iJgng&oe=6A633741",
+      "avatar_url": "/assets/source-avatars/8d14f2306add68210991.webp",
+      "source_initials": "馬來",
+      "categories": [
+        "posts-videos",
+        "opportunities",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽",
+        "公開活動"
+      ],
+      "key": "fb_malaysiaharmonicafestival:1024212607033571"
     },
     {
       "title": "馬來西亞口琴節｜🚨 3 Days Left for Video Submission! 🎥 The countdown is on! Submit your video before the deadline (19/7/2026, 12…",
@@ -2499,6 +2658,89 @@
         "學生社團"
       ],
       "key": "yt_dmingstudio:SlplPVcjHSg"
+    },
+    {
+      "title": "馬來西亞口琴節｜OHRSC 2026 - Video Submission Steps Video Submission Deadline is Approaching! 🎥 Don‘t miss the video submission…",
+      "headline": "OHRSC 2026 - Video Submission Steps",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/malaysiaharmonicafestival/posts/pfbid02aDiy2aeFNUcEiojkv7MTE8M5s2pag5432D4mTRd7yo6TxAdT2MfgRUDDqxoawCaYl",
+      "source_id": "fb_malaysiaharmonicafestival",
+      "source": "馬來西亞口琴節",
+      "source_system_name": "馬來西亞口琴節",
+      "source_profile_url": "https://facebook.com/malaysiaharmonicafestival",
+      "country": "馬來西亞",
+      "region": "馬來西亞/吉隆坡",
+      "directory_entry_id": "watchlist-165",
+      "directory_entry_name": "馬來西亞口琴節",
+      "account": "malaysiaharmonicafestival",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-11T11:14:26.000Z",
+      "posted_at_local": "2026-07-11 19:14",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-20T01:04:58.222786+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "比賽",
+        "報名",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "截止",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.99,
+      "llm_labels": [
+        "口琴",
+        "比賽",
+        "報名",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "opportunities"
+      ],
+      "llm_reason": "口琴節競賽影片提交截止，屬比賽報名/提交更新，與口琴直接相關。",
+      "text": "OHRSC 2026 - Video Submission Steps\nVideo Submission Deadline is Approaching! 🎥\nDon‘t miss the video submission deadline! ⏰ Be sure to upload your competition video to YouTube and complete your submission before the closing date.\n🔗 Submission Link:\nhttps://forms.gle/t8afmqeVJGTjsmPEA (Solo)\nhttps://forms.gle/qkBJSbMZU31ApcGw9 (Group)\nAll the Best!\n视频提交截止日期即将到来！🎥\n别错过视频提交截止时间！⏰ 请记得将参赛视频上传至 YouTube，并在截止日期前完成提交。按照视频提交步骤完成上传。\n🔗 提交链接：\nhttps://forms.gle/t8afmqeVJGTjsmPEA (Solo)\nhttps://forms.gle/qkBJSbMZU31ApcGw9 (Group)\n#MalaysiaHarmonicaFestival\nhttps://www.facebook.com/malaysiaharmonicafestival/posts/pfbid02aDiy2aeFNUcEiojkv7MTE8M5s2pag5432D4mTRd7yo6TxAdT2MfgRUDDqxoawCaYl",
+      "images": [
+        "https://scontent-hou1-1.xx.fbcdn.net/v/t51.82787-15/743673493_17956918599171812_2413308745030139731_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pSFDEmaXy2YQ7kNvwH4BYex&_nc_oc=AdodDVD1PBZtt68mD89zEM0MoNJYBQY1U9ZxCZOFhHg4VEj3I0Dda4LAn_7T-r0tLd0&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=xR9QhS-RTRn6muXNvU0Jag&_nc_ss=72289&oh=00_AQB6U5koghzddJ1XzCD659LiAX3HK4fusTyiKO2GmLN5lQ&oe=6A632C42",
+        "https://scontent-hou1-1.xx.fbcdn.net/v/t51.82787-15/744737348_17956918587171812_4782703086303620551_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=F4ohOSgUFF0Q7kNvwFzWmUM&_nc_oc=AdqLJ14VkaAX1RHl09nIXCWMTA15yZ0nSWOSEjrdgsHJL3es13i06V8f-hm0AMiZu4U&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=xR9QhS-RTRn6muXNvU0Jag&_nc_ss=72289&oh=00_AQBI02lUKGMNKWChQeFrSVkqY_C-irGy69RrC376zFAdZg&oe=6A6341F9",
+        "https://scontent-hou1-1.xx.fbcdn.net/v/t51.82787-15/744028182_17956918572171812_2011443863691284780_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=MEel8WJOXbwQ7kNvwFTVyg-&_nc_oc=AdqByVxLvsB8uXWbkN5XDCFlXTHkoI84gkJVh8QOfS7SMl19x6jttI1sseFY7wMr5yo&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=xR9QhS-RTRn6muXNvU0Jag&_nc_ss=72289&oh=00_AQBPEePREh6nATBUt5L4ZSfH1gtLSV_BHpwIz-mX8k5Q-g&oe=6A633D94",
+        "https://scontent-hou1-1.xx.fbcdn.net/v/t51.82787-15/744820058_17956918590171812_3728591000892224464_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=VBjngLnkV08Q7kNvwFQnUIo&_nc_oc=Adon7aJEVFBvCBKapYp1EGk98znCzCiE7w9XJ80uR7TNFRC_gBvL0Bx3iwOlftomX0s&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=xR9QhS-RTRn6muXNvU0Jag&_nc_ss=72289&oh=00_AQAsQQ8ZALrX-m1AYJFSsj4-bF35luZf_S6TwvujD9ZNUw&oe=6A635D6C"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-hou1-1.xx.fbcdn.net/v/t51.82787-15/743673493_17956918599171812_2413308745030139731_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pSFDEmaXy2YQ7kNvwH4BYex&_nc_oc=AdodDVD1PBZtt68mD89zEM0MoNJYBQY1U9ZxCZOFhHg4VEj3I0Dda4LAn_7T-r0tLd0&_nc_zt=23&_nc_ht=scontent-hou1-1.xx&_nc_gid=xR9QhS-RTRn6muXNvU0Jag&_nc_ss=72289&oh=00_AQB6U5koghzddJ1XzCD659LiAX3HK4fusTyiKO2GmLN5lQ&oe=6A632C42",
+      "image_url": "/assets/feed-images/ac9668a4d86409355f2b.webp",
+      "image_width": 472,
+      "image_height": 590,
+      "source_avatar_url": "https://scontent-hou1-1.xx.fbcdn.net/v/t39.30808-1/278614367_124189700215706_1238611269500334535_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx937x937&ctp=s50x50&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=J_tA1LnFNOAQ7kNvwEjGfor&_nc_oc=Adp67t-v7Yul4AItceIgqbwK5i7lscpBXDsWa7RhsiQTXPEBiIn-1ncMntjl-Y2dMqo&_nc_zt=24&_nc_ht=scontent-hou1-1.xx&_nc_gid=xR9QhS-RTRn6muXNvU0Jag&_nc_ss=72289&oh=00_AQB6WO3V18ZE_nvTzkvJTteM-Zfri_sApILJt_9q2iJgng&oe=6A633741",
+      "avatar_url": "/assets/source-avatars/8d14f2306add68210991.webp",
+      "source_initials": "馬來",
+      "categories": [
+        "posts-videos",
+        "opportunities",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽",
+        "公開活動"
+      ],
+      "key": "fb_malaysiaharmonicafestival:1019990737455758"
     },
     {
       "title": "馬來西亞口琴節｜OHRSC 2026 - Video Submission Steps Video Submission Deadline is Approaching! 🎥 Don‘t miss the video submission…",

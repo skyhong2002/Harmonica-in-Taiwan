@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-20T00:31:39.632164Z",
+  "generatedAt": "2026-07-20T01:05:24.752007Z",
   "source": {
     "id": 109,
     "slug": "boris-plotnikov",
@@ -16,6 +16,15 @@
       "sourceName": "Boris Plotnikov",
       "platform": "YouTube",
       "publishedAt": "2026-07-07T09:25:16Z"
+    },
+    {
+      "id": "post-8011bddb044fb92bbd40485c",
+      "title": "Boris Plotnikov plays \"Georgia On My Mind\" on the JDR Trochilus in Bb.",
+      "excerpt": "Boris Plotnikov plays \"Georgia On My Mind\" on the JDR Trochilus in Bb. Some songs just seem to ask for the Trochilus. Could I play this on a diatonic harmonica? Absolutely. But following the chord changes faithfully requires a lot of overblows. That's why many diatonic players s…",
+      "url": "https://www.facebook.com/reel/1645666130609802/",
+      "sourceName": "Boris Plotnikov",
+      "platform": "Facebook",
+      "publishedAt": "2026-07-07T09:22:39Z"
     },
     {
       "id": "post-a7dd146bc65e9703850c2824",

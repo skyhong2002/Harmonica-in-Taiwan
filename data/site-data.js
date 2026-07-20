@@ -2,6 +2,79 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-20",
   "entries": [
     {
+      "id": "watchlist-174",
+      "publicId": "174",
+      "name": "Yellow Pine Harmonica Festival",
+      "nameEn": "Yellow Pine Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
+      "country": "美國",
+      "region": "美國/愛達荷",
+      "cityOrFocus": "戶外口琴音樂節/課程/示範/社群演出",
+      "structuredSummary": "戶外口琴音樂節/課程/示範/社群演出 / 口琴 / 國際活動來源",
+      "summary": "美國的國際活動來源，涵蓋戶外口琴音樂節、課程、示範與社群演出。",
+      "keywords": "Yellow Pine Harmonica Festival Idaho harmonica festival",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.yellowpinefestival.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/YellowPineHarmonicaFestival/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://instagram.com/yellowpinemusicfestival"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-20T00:20:01+00:00",
+      "latestUpdateLocal": "2026-07-20 08:20",
+      "latestUpdateSource": "Yellow Pine Harmonica Festival",
+      "latestUpdateUrl": "https://www.facebook.com/YellowPineHarmonicaFestival/posts/pfbid08DCtP7kPPhz4VMPNcmFGW2FmwRPiWQJJMESUe1TQjp1gz9tnBXrJRMf2qwCJ985Vl",
+      "avatarUrl": "/assets/source-avatars/4a074459bb09346a90ec.webp",
+      "sourceInitials": "YPH",
+      "sourceTags": [
+        "活動資訊",
+        "課程",
+        "音樂節",
+        "比賽",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_yellowpineharmonicafestival",
+          "name": "Yellow Pine Harmonica Festival",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/YellowPineHarmonicaFestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yellowpinemusicfestival",
+          "name": "Yellow Pine Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yellowpinemusicfestival",
+          "profileUrl": "https://www.instagram.com/yellowpinemusicfestival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yellowpinemusicfestival/story/0"
+        },
+        {
+          "id": "ig_yellowpinemusicfestival",
+          "name": "Yellow Pine Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yellowpinemusicfestival",
+          "profileUrl": "https://www.instagram.com/yellowpinemusicfestival/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-107",
       "publicId": "107",
       "name": "Konstantin Reinfeld",
@@ -495,6 +568,93 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "damingtsai",
           "profileUrl": "https://www.instagram.com/damingtsai/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-54",
+      "publicId": "54",
+      "name": "CY Leo 何卓彥",
+      "nameEn": "CY Leo",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/現代跨界",
+      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
+      "summary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
+      "keywords": "CY Leo 何卓彥 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.cyleomusic.io/profile"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Cyleoharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cy_leo/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@cyleoharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-19T15:46:53+00:00",
+      "latestUpdateLocal": "2026-07-19 23:46",
+      "latestUpdateSource": "CY Leo 何卓彥",
+      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3944793180797027692/",
+      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
+      "sourceInitials": "CL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
+      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
+      "monitorSources": [
+        {
+          "id": "fb_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Cyleoharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
+        },
+        {
+          "id": "yt_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@cyleoharmonica",
+          "feedUrl": ""
         }
       ]
     },
@@ -1309,93 +1469,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-54",
-      "publicId": "54",
-      "name": "CY Leo 何卓彥",
-      "nameEn": "CY Leo",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/現代跨界",
-      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
-      "summary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "keywords": "CY Leo 何卓彥 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.cyleomusic.io/profile"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Cyleoharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/cy_leo/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@cyleoharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-19T11:49:15+00:00",
-      "latestUpdateLocal": "2026-07-19 19:49",
-      "latestUpdateSource": "CY Leo 何卓彥",
-      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3944673572240888333/",
-      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
-      "sourceInitials": "CL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
-      "monitorSources": [
-        {
-          "id": "fb_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Cyleoharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
-        },
-        {
-          "id": "yt_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@cyleoharmonica",
           "feedUrl": ""
         }
       ]
@@ -2805,6 +2878,91 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_profile",
           "username": "taro_senga",
           "profileUrl": "https://www.instagram.com/taro_senga/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-158",
+      "publicId": "158",
+      "name": "Deak Harp",
+      "nameEn": "Deak Harp",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "美國",
+      "region": "美國",
+      "cityOrFocus": "WHF 2025/藍調十孔/Chicago blues/演出與教學",
+      "structuredSummary": "WHF 2025/藍調十孔/Chicago blues/演出與教學 / 十孔/藍調口琴 / 國際演出人員",
+      "summary": "美國的十孔與藍調口琴國際演出人員，活動脈絡包含WHF 2025、藍調十孔與Chicago blues。",
+      "keywords": "Deak Harp blues harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://deakharp.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/deak.harp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/deakharp/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@deakharp"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-18T17:37:31+00:00",
+      "latestUpdateLocal": "2026-07-19 01:37",
+      "latestUpdateSource": "Deak Harp",
+      "latestUpdateUrl": "https://www.facebook.com/deak.harp/posts/pfbid02HudunsNeuNP2XpR9u5YdJXKKJvf5WoTkBAyoQZge7Na7PGmdqDeHZ3ooJgY4YBFwl",
+      "avatarUrl": "/assets/source-avatars/dcefb96084c66ffe6cf6.webp",
+      "sourceInitials": "DH",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_deak_harp",
+          "name": "Deak Harp",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/deak.harp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_deakharp",
+          "name": "Deak Harp",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "deakharp",
+          "profileUrl": "https://www.instagram.com/deakharp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_deakharp",
+          "name": "Deak Harp",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "deakharp",
+          "profileUrl": "https://www.instagram.com/deakharp/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/deakharp/story/0"
+        },
+        {
+          "id": "yt_deakharp",
+          "name": "Deak Harp",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@deakharp",
           "feedUrl": ""
         }
       ]
@@ -5925,164 +6083,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@punchharp",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-158",
-      "publicId": "158",
-      "name": "Deak Harp",
-      "nameEn": "Deak Harp",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "美國",
-      "region": "美國",
-      "cityOrFocus": "WHF 2025/藍調十孔/Chicago blues/演出與教學",
-      "structuredSummary": "WHF 2025/藍調十孔/Chicago blues/演出與教學 / 十孔/藍調口琴 / 國際演出人員",
-      "summary": "美國的十孔與藍調口琴國際演出人員，活動脈絡包含WHF 2025、藍調十孔與Chicago blues。",
-      "keywords": "Deak Harp blues harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://deakharp.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/deak.harp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/deakharp/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@deakharp"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-15T02:34:34+00:00",
-      "latestUpdateLocal": "2026-07-15 10:34",
-      "latestUpdateSource": "Deak Harp",
-      "latestUpdateUrl": "https://www.facebook.com/deak.harp/posts/pfbid04x3vkgi8RNkhUNf9GxQ5Hkb48PePuRRKMm5d13kegaZPsVGn4dUjfjqNuXB6NQJ2l",
-      "avatarUrl": "/assets/source-avatars/dcefb96084c66ffe6cf6.webp",
-      "sourceInitials": "DH",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_deak_harp",
-          "name": "Deak Harp",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/deak.harp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_deakharp",
-          "name": "Deak Harp",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "deakharp",
-          "profileUrl": "https://www.instagram.com/deakharp/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_deakharp",
-          "name": "Deak Harp",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "deakharp",
-          "profileUrl": "https://www.instagram.com/deakharp/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/deakharp/story/0"
-        },
-        {
-          "id": "yt_deakharp",
-          "name": "Deak Harp",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@deakharp",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-174",
-      "publicId": "174",
-      "name": "Yellow Pine Harmonica Festival",
-      "nameEn": "Yellow Pine Harmonica Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "活動/資訊入口",
-      "country": "美國",
-      "region": "美國/愛達荷",
-      "cityOrFocus": "戶外口琴音樂節/課程/示範/社群演出",
-      "structuredSummary": "戶外口琴音樂節/課程/示範/社群演出 / 口琴 / 國際活動來源",
-      "summary": "美國的國際活動來源，涵蓋戶外口琴音樂節、課程、示範與社群演出。",
-      "keywords": "Yellow Pine Harmonica Festival Idaho harmonica festival",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.yellowpinefestival.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/YellowPineHarmonicaFestival/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://instagram.com/yellowpinemusicfestival"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-14T23:38:15+00:00",
-      "latestUpdateLocal": "2026-07-15 07:38",
-      "latestUpdateSource": "Yellow Pine Harmonica Festival",
-      "latestUpdateUrl": "https://www.instagram.com/p/DaysFcxCAsA/",
-      "avatarUrl": "/assets/source-avatars/4a074459bb09346a90ec.webp",
-      "sourceInitials": "YPH",
-      "sourceTags": [
-        "活動資訊",
-        "課程",
-        "音樂節",
-        "比賽",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_yellowpineharmonicafestival",
-          "name": "Yellow Pine Harmonica Festival",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/YellowPineHarmonicaFestival",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_yellowpinemusicfestival",
-          "name": "Yellow Pine Harmonica Festival",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yellowpinemusicfestival",
-          "profileUrl": "https://www.instagram.com/yellowpinemusicfestival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yellowpinemusicfestival/story/0"
-        },
-        {
-          "id": "ig_yellowpinemusicfestival",
-          "name": "Yellow Pine Harmonica Festival",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yellowpinemusicfestival",
-          "profileUrl": "https://www.instagram.com/yellowpinemusicfestival/",
           "feedUrl": ""
         }
       ]
