@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 20 Jul 2026 03:17:21 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 04:22:25 +0000</lastBuildDate>
     <item>
       <title>Yellow Pine Harmonica Festival</title>
       <link>https://www.yellowpinefestival.org/</link>
@@ -16,6 +16,17 @@ Tag：活動資訊、課程、音樂節、比賽、國際交流
 國家：美國
 地區：美國/愛達荷
 美國的國際活動來源，涵蓋戶外口琴音樂節、課程、示範與社群演出。</description>
+    </item>
+    <item>
+      <title>F.I.H. JAPAN ハーモニカコンテスト</title>
+      <link>https://moridaira.jp/event/20260530-01/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/0c339a088cc50dcd</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、比賽、半音階、複音、重奏、國際交流
+國家：日本
+地區：日本
+日本的國際比賽來源，涵蓋日本口琴比賽與duo trio。</description>
     </item>
     <item>
       <title>Reyharp and Balawan Project</title>
@@ -566,17 +577,6 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/高雄
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
-    </item>
-    <item>
-      <title>F.I.H. JAPAN ハーモニカコンテスト</title>
-      <link>https://moridaira.jp/event/20260530-01/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/0c339a088cc50dcd</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：活動資訊、比賽、半音階、複音、重奏、國際交流
-國家：日本
-地區：日本
-日本的國際比賽來源，涵蓋日本口琴比賽與duo trio。</description>
     </item>
     <item>
       <title>吹出好心琴 + Ou Frog</title>
