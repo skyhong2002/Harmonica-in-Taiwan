@@ -2,6 +2,101 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-21",
   "entries": [
     {
+      "id": "watchlist-80",
+      "publicId": "80",
+      "name": "臺中國家歌劇院",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "臺中國家歌劇院 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-ntt.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/npac.ntt/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nationaltaichungtheater/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@nationaltaichungtheater"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-20T15:07:15+00:00",
+      "latestUpdateLocal": "2026-07-20 23:07",
+      "latestUpdateSource": "臺中國家歌劇院",
+      "latestUpdateUrl": "https://www.instagram.com/stories/nationaltaichungtheater/3945498095655757029/",
+      "avatarUrl": "/assets/source-avatars/5954411ab3632c46a220.webp",
+      "sourceInitials": "臺中",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_npac_ntt",
+          "name": "臺中國家歌劇院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/npac.ntt",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
+        },
+        {
+          "id": "threads_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "threads",
+          "type": "rss",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
+          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
+        },
+        {
+          "id": "yt_uctl1euke_x0w6tahecepgmq",
+          "name": "臺中國家歌劇院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-101",
       "publicId": "101",
       "name": "何家健 HarmoniKahkean",
@@ -920,6 +1015,90 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-122",
+      "publicId": "122",
+      "name": "Perfect Fourth",
+      "nameEn": "Perfect Fourth",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "香港現代風格口琴四重奏/傳統與現代和聲/舞台演出",
+      "structuredSummary": "香港現代風格口琴四重奏/傳統與現代和聲/舞台演出 / 口琴重奏 / 國際演出團體",
+      "summary": "香港的口琴重奏國際演出團體，活動脈絡包含香港現代風格口琴四重奏、傳統與現代和聲與舞台演出。",
+      "keywords": "Perfect Fourth Harmonica Quartet Hong Kong SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.perfectfourth.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/perfectfourth.org/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/perfect.fourth/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@PerfectFourth"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-20T05:47:27+00:00",
+      "latestUpdateLocal": "2026-07-20 13:47",
+      "latestUpdateSource": "Perfect Fourth",
+      "latestUpdateUrl": "https://www.instagram.com/stories/perfect.fourth/3945216253963099014/",
+      "avatarUrl": "/assets/source-avatars/aec445101e1fb9c73bbf.webp",
+      "sourceInitials": "PF",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_perfectfourth_org",
+          "name": "Perfect Fourth",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/perfectfourth.org",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_perfect_fourth",
+          "name": "Perfect Fourth",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "perfect.fourth",
+          "profileUrl": "https://www.instagram.com/perfect.fourth/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_perfect_fourth",
+          "name": "Perfect Fourth",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "perfect.fourth",
+          "profileUrl": "https://www.instagram.com/perfect.fourth/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/perfect.fourth/story/0"
+        },
+        {
+          "id": "yt_perfectfourth",
+          "name": "Perfect Fourth",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@PerfectFourth",
           "feedUrl": ""
         }
       ]
@@ -2310,101 +2489,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@minamirisa",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-80",
-      "publicId": "80",
-      "name": "臺中國家歌劇院",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "臺中國家歌劇院 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-ntt.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/npac.ntt/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nationaltaichungtheater/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@nationaltaichungtheater"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-19T15:13:02+00:00",
-      "latestUpdateLocal": "2026-07-19 23:13",
-      "latestUpdateSource": "臺中國家歌劇院",
-      "latestUpdateUrl": "https://www.instagram.com/stories/nationaltaichungtheater/3944776281942063862/",
-      "avatarUrl": "/assets/source-avatars/5954411ab3632c46a220.webp",
-      "sourceInitials": "臺中",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_npac_ntt",
-          "name": "臺中國家歌劇院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/npac.ntt",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
-        },
-        {
-          "id": "threads_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "threads",
-          "type": "rss",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
-          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
-        },
-        {
-          "id": "yt_uctl1euke_x0w6tahecepgmq",
-          "name": "臺中國家歌劇院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
           "feedUrl": ""
         }
       ]
@@ -11434,90 +11518,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "團體樂團",
         "國際交流"
-      ]
-    },
-    {
-      "id": "watchlist-122",
-      "publicId": "122",
-      "name": "Perfect Fourth",
-      "nameEn": "Perfect Fourth",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "香港現代風格口琴四重奏/傳統與現代和聲/舞台演出",
-      "structuredSummary": "香港現代風格口琴四重奏/傳統與現代和聲/舞台演出 / 口琴重奏 / 國際演出團體",
-      "summary": "香港的口琴重奏國際演出團體，活動脈絡包含香港現代風格口琴四重奏、傳統與現代和聲與舞台演出。",
-      "keywords": "Perfect Fourth Harmonica Quartet Hong Kong SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.perfectfourth.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/perfectfourth.org/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/perfect.fourth/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@PerfectFourth"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/4814591a65130cd0ba97.webp",
-      "sourceInitials": "PF",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_perfectfourth_org",
-          "name": "Perfect Fourth",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/perfectfourth.org",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_perfect_fourth",
-          "name": "Perfect Fourth",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "perfect.fourth",
-          "profileUrl": "https://www.instagram.com/perfect.fourth/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_perfect_fourth",
-          "name": "Perfect Fourth",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "perfect.fourth",
-          "profileUrl": "https://www.instagram.com/perfect.fourth/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/perfect.fourth/story/0"
-        },
-        {
-          "id": "yt_perfectfourth",
-          "name": "Perfect Fourth",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@PerfectFourth",
-          "feedUrl": ""
-        }
       ]
     },
     {
