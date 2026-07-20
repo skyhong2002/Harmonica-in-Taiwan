@@ -1,21 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-20T09:14:32.264888Z",
+  "generatedAt": "2026-07-20T10:21:13.788691Z",
   "source": {
     "id": 71,
     "slug": "ntu-blue-sound-harmonica-club",
     "name": "台大藍聲口琴社",
     "pageUrl": "https://harmonica.observe.tw/source/71-ntu-blue-sound-harmonica-club/"
   },
-  "items": [
-    {
-      "id": "post-46f77bcc9df01266b96da0d3",
-      "title": "倒數1️⃣天！",
-      "excerpt": "倒數1️⃣天！ 臺大X師大口琴社聯合成發 《盛琴難卻》 6/21（日） 14:00-16:00 13:30開放入場 臺大第二學生活動中心 三樓沃思空間",
-      "url": "https://www.instagram.com/p/DZzW-psz3gR/",
-      "sourceName": "台大藍聲口琴社",
-      "platform": "Instagram",
-      "publishedAt": "2026-06-20T09:25:03Z"
-    }
-  ]
+  "items": []
 }
