@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/submit/</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -62,6 +62,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/101-ho-kah-kean-harmonikahkean/</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/63-f-i-h-japan-harmonica-contest/</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -127,6 +133,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/99/</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/30/</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -164,12 +176,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/60-toshi-fujii/</loc>
-    <lastmod>2026-07-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/63-f-i-h-japan-harmonica-contest/</loc>
     <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -716,12 +722,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/143-brendan-power/</loc>
-    <lastmod>2026-06-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/99/</loc>
     <lastmod>2026-06-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
