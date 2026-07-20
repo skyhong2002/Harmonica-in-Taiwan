@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-20T18:53:41+08:00",
+  "generatedAt": "2026-07-20T19:59:28+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
-  "count": 10,
+  "count": 11,
   "source": "/api/events.json",
   "ics": "/feeds/overseas-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 37,
+      "cached": 39,
       "errors": 0
     }
   },
@@ -93,9 +93,9 @@
       "image_url": "/assets/feed-images/b02de8639e1ec34f713d.webp"
     },
     {
-      "id": "af976949c3f0c97e",
-      "title": "山下伶 クロマチックハーモニカ 10th Anniversary Concert～希望の種を音に乗せて～",
-      "eventName": "山下伶 クロマチックハーモニカ 10th Anniversary Concert～希望の種を音に乗せて～",
+      "id": "8a0b1756ef821535",
+      "title": "10周年記念コンサート 大阪公演",
+      "eventName": "10周年記念コンサート 大阪公演",
       "source": "山下伶 / Rei Yamashita",
       "platform": "instagram",
       "start": "2026-07-25T15:30:00+09:00",
@@ -103,11 +103,11 @@
       "allDay": false,
       "calendarType": "overseas_physical",
       "timezone": "Asia/Tokyo",
-      "location": "大阪・心斎橋PARCO 14F SPACE14",
-      "venue": "大阪・心斎橋PARCO 14F SPACE14",
+      "location": "大阪 心斎橋PARCO 14F SPACE14",
+      "venue": "心斎橋PARCO 14F SPACE14",
       "city": "大阪",
-      "details": "7月25日(六)開場15:30、開演16:00。票價6,500円（含稅、全席指定），並有特別來賓 Chromatic Harmonica 徳永延生・徳永有生，鋼琴森丘ヒロキ等演出。",
-      "evidenceUrl": "https://www.instagram.com/p/Da5GHqazhNn/",
+      "details": "7月25日(土) 開場15:30 / 開演16:00，票價6,500円（全席指定）。ゲスト為徳永延生・徳永有生，メンバー為森丘ヒロキ、岡田治郎、福長雅夫。",
+      "evidenceUrl": "https://www.instagram.com/p/Da_1_YIT0zi/",
       "confidence": 0.98,
       "calendarReview": {
         "include": true,
@@ -115,18 +115,18 @@
         "eventMode": "overseas_physical",
         "timezone": "Asia/Tokyo",
         "candidateDateMatches": true,
-        "eventName": "山下伶 クロマチックハーモニカ 10th Anniversary Concert～希望の種を音に乗せて～",
-        "venue": "大阪・心斎橋PARCO 14F SPACE14",
+        "eventName": "10周年記念コンサート 大阪公演",
+        "venue": "心斎橋PARCO 14F SPACE14",
         "city": "大阪",
-        "details": "7月25日(六)開場15:30、開演16:00。票價6,500円（含稅、全席指定），並有特別來賓 Chromatic Harmonica 徳永延生・徳永有生，鋼琴森丘ヒロキ等演出。",
-        "reason": "候選日期與貼文中的7月25日大阪場完全一致，為實體口琴演出活動；但地點在日本，應歸類為海外實體活動。",
+        "details": "7月25日(土) 開場15:30 / 開演16:00，票價6,500円（全席指定）。ゲスト為徳永延生・徳永有生，メンバー為森丘ヒロキ、岡田治郎、福長雅夫。",
+        "reason": "候選日期與大阪公演時間一致，為日本實體口琴演出，符合收錄範圍。",
         "confidence": 0.98
       },
-      "postedAt": "2026-07-17 19:28",
+      "postedAt": "2026-07-20 10:18",
       "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/747881567_18548108845076837_2130212474912783316_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=Mzk0MzIwOTg2MzYwMTg1MzI4NzE4NTQ4MTA4ODM5MDc2ODM3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=h_HJsznLbucQ7kNvwFvfgft&_nc_oc=AdqeExMgCmWJg14WuXUIJxkY0_xE4JPgncNtqWo7a_n0NCejt6ruDe8XWUF5i9kwfoo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=1-eWXY1ywzs5btGTIrtsYg&_nc_ss=7a22e&oh=00_AQDcQa-9KDPeXJhNiyHu6MBmtV8re881KOAFji_iAEiFzw&oe=6A607554"
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/752609789_1670470004061580_2473922027819087496_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=Mzk0NTEwOTI1MDMwMTE4NTI1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=kty3lehbIZEQ7kNvwHf8oEB&_nc_oc=Adpt8fKl9z4i-utB__MtyaYvextQbbh_2wfHj25xdqubwt6zB3nqIE2HxJHS6FSx-zY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=hKCroBSRlof1I7AYbegNyQ&_nc_ss=7a22e&oh=00_AQC-MQUQcMd291MV_Z27oTHqVeTEMWPZst5q0sB3U_o4NA&oe=6A63C710"
       ],
-      "image_url": "/assets/feed-images/cdbf5df0b3cbbaa98f25.webp"
+      "image_url": "/assets/feed-images/88ddfcd46d5f0c6a6067.webp"
     },
     {
       "id": "62997c2a208c15e1",
@@ -235,6 +235,42 @@
         "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/747881567_18548108845076837_2130212474912783316_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=Mzk0MzIwOTg2MzYwMTg1MzI4NzE4NTQ4MTA4ODM5MDc2ODM3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=h_HJsznLbucQ7kNvwFvfgft&_nc_oc=AdqeExMgCmWJg14WuXUIJxkY0_xE4JPgncNtqWo7a_n0NCejt6ruDe8XWUF5i9kwfoo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=1-eWXY1ywzs5btGTIrtsYg&_nc_ss=7a22e&oh=00_AQDcQa-9KDPeXJhNiyHu6MBmtV8re881KOAFji_iAEiFzw&oe=6A607554"
       ],
       "image_url": "/assets/feed-images/cdbf5df0b3cbbaa98f25.webp"
+    },
+    {
+      "id": "6de153125ea80039",
+      "title": "山下伶 10周年記念コンサート 和歌山公演",
+      "eventName": "山下伶 10周年記念コンサート 和歌山公演",
+      "source": "山下伶 / Rei Yamashita",
+      "platform": "instagram",
+      "start": "2026-07-26T18:00:00+09:00",
+      "end": "2026-07-26T20:00:00+09:00",
+      "allDay": false,
+      "calendarType": "overseas_physical",
+      "timezone": "Asia/Tokyo",
+      "location": "和歌山 LURUHALL（ルルホール）",
+      "venue": "LURUHALL（ルルホール）",
+      "city": "和歌山",
+      "details": "7月26日(日) 開演18:00，出演山下伶／森丘ヒロキ。票價5,000円，貼文提到夜の部剩餘座位不多。",
+      "evidenceUrl": "https://www.instagram.com/p/Da_1_YIT0zi/",
+      "confidence": 0.95,
+      "calendarReview": {
+        "include": true,
+        "country": "日本",
+        "eventMode": "overseas_physical",
+        "timezone": "Asia/Tokyo",
+        "candidateDateMatches": true,
+        "eventName": "山下伶 10周年記念コンサート 和歌山公演",
+        "venue": "LURUHALL（ルルホール）",
+        "city": "和歌山",
+        "details": "7月26日(日) 開演18:00，出演山下伶／森丘ヒロキ。票價5,000円，貼文提到夜の部剩餘座位不多。",
+        "reason": "候選日期與貼文中的和歌山公演時間一致，且為實體口琴演出；但地點在日本，應屬海外實體活動。",
+        "confidence": 0.95
+      },
+      "postedAt": "2026-07-20 10:18",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/752609789_1670470004061580_2473922027819087496_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=Mzk0NTEwOTI1MDMwMTE4NTI1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=kty3lehbIZEQ7kNvwHf8oEB&_nc_oc=Adpt8fKl9z4i-utB__MtyaYvextQbbh_2wfHj25xdqubwt6zB3nqIE2HxJHS6FSx-zY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=hKCroBSRlof1I7AYbegNyQ&_nc_ss=7a22e&oh=00_AQC-MQUQcMd291MV_Z27oTHqVeTEMWPZst5q0sB3U_o4NA&oe=6A63C710"
+      ],
+      "image_url": "/assets/feed-images/88ddfcd46d5f0c6a6067.webp"
     },
     {
       "id": "e7b34d256e01c51e",

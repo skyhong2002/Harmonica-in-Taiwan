@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 20 Jul 2026 10:53:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 11:59:28 +0000</lastBuildDate>
     <item>
       <title>唐雪婷 Sharene Tang</title>
       <link>https://www.facebook.com/sharenetang.fresco/</link>
@@ -38,6 +38,17 @@ Tag：演奏者、教學、重奏
 國家：臺灣
 地區：臺灣
 臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。</description>
+    </item>
+    <item>
+      <title>山下伶 Rei Yamashita</title>
+      <link>https://rei-yamashita.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：日本
+地區：日本
+日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
     </item>
     <item>
       <title>衛武營國家藝術文化中心</title>
@@ -698,17 +709,6 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/新竹
 臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
-    </item>
-    <item>
-      <title>山下伶 Rei Yamashita</title>
-      <link>https://rei-yamashita.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：日本
-地區：日本
-日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
     </item>
     <item>
       <title>蔡明勳</title>

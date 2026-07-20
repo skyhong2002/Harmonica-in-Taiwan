@@ -229,6 +229,103 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-57",
+      "publicId": "57",
+      "name": "山下伶 Rei Yamashita",
+      "nameEn": "Rei Yamashita",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/演出",
+      "structuredSummary": "半音階/專輯/演出 / 半音階 / 國際演出人員",
+      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯與演出。",
+      "keywords": "山下伶 Rei Yamashita harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://rei-yamashita.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/rei.yamashita.5"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/rei_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@reiyamashita"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/rei_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-20T02:18:06+00:00",
+      "latestUpdateLocal": "2026-07-20 10:18",
+      "latestUpdateSource": "山下伶 Rei Yamashita",
+      "latestUpdateUrl": "https://www.instagram.com/p/Da_1_YIT0zi/",
+      "avatarUrl": "/assets/source-avatars/88e248e6f1c02aaa881b.webp",
+      "sourceInitials": "RY",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_rei_yamashita_5",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/rei.yamashita.5",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "rei_harmonica",
+          "profileUrl": "https://www.instagram.com/rei_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "rei_harmonica",
+          "profileUrl": "https://www.instagram.com/rei_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/rei_harmonica/story/0"
+        },
+        {
+          "id": "x_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "x",
+          "type": "rss",
+          "username": "rei_harmonica",
+          "profileUrl": "https://x.com/rei_harmonica",
+          "feedUrl": "https://rss.observe.tw/twitter/user/rei_harmonica"
+        },
+        {
+          "id": "yt_reiyamashita",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@reiyamashita",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-78",
       "publicId": "78",
       "name": "衛武營國家藝術文化中心",
@@ -4999,103 +5096,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-57",
-      "publicId": "57",
-      "name": "山下伶 Rei Yamashita",
-      "nameEn": "Rei Yamashita",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/演出",
-      "structuredSummary": "半音階/專輯/演出 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯與演出。",
-      "keywords": "山下伶 Rei Yamashita harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://rei-yamashita.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/rei.yamashita.5"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/rei_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@reiyamashita"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/rei_harmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-17T11:28:47+00:00",
-      "latestUpdateLocal": "2026-07-17 19:28",
-      "latestUpdateSource": "山下伶 Rei Yamashita",
-      "latestUpdateUrl": "https://www.instagram.com/stories/rei_harmonica/3943213680263679948/",
-      "avatarUrl": "/assets/source-avatars/88e248e6f1c02aaa881b.webp",
-      "sourceInitials": "RY",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_rei_yamashita_5",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/rei.yamashita.5",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "rei_harmonica",
-          "profileUrl": "https://www.instagram.com/rei_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "rei_harmonica",
-          "profileUrl": "https://www.instagram.com/rei_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/rei_harmonica/story/0"
-        },
-        {
-          "id": "x_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "x",
-          "type": "rss",
-          "username": "rei_harmonica",
-          "profileUrl": "https://x.com/rei_harmonica",
-          "feedUrl": "https://rss.observe.tw/twitter/user/rei_harmonica"
-        },
-        {
-          "id": "yt_reiyamashita",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@reiyamashita",
           "feedUrl": ""
         }
       ]

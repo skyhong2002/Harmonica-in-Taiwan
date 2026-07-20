@@ -1,6 +1,6 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-07-20T18:53:41+08:00",
+  "generatedAt": "2026-07-20T19:59:28+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
   "count": 9,
@@ -15,7 +15,7 @@ window.publicCalendarEvents = {
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 37,
+      "cached": 39,
       "errors": 0
     }
   },
