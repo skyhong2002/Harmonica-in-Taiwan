@@ -1672,7 +1672,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-19 18:11",
       "latestUpdateSource": "藍波口琴教室",
       "latestUpdateUrl": "https://www.facebook.com/reel/1211105648759100/",
-      "avatarUrl": "/assets/source-avatars/002a78116b9b09a6967c.webp",
+      "avatarUrl": "/assets/source-avatars/8f1ae2810f807d60d81f.webp",
       "sourceInitials": "藍波",
       "sourceTags": [
         "教學器材",
@@ -8231,6 +8231,70 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-143",
+      "publicId": "143",
+      "name": "Brendan Power",
+      "nameEn": "Brendan Power",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "紐西蘭",
+      "region": "英國",
+      "cityOrFocus": "口琴演奏與教學/客製口琴設計/半音階與十孔技術",
+      "structuredSummary": "口琴演奏與教學/客製口琴設計/半音階與十孔技術 / 十孔/半音階 / 國際演出人員/教育者/製作者",
+      "summary": "紐西蘭的十孔與半音階國際演出人員、教育者與製作者，活動脈絡包含口琴演奏與教學、客製口琴設計與半音階與十孔技術。",
+      "keywords": "Brendan Power harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://brendan-power.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/BrendanPowerMusic"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/BrendanPowerMusic"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-06-24T06:47:54+00:00",
+      "latestUpdateLocal": "2026-06-24 14:47",
+      "latestUpdateSource": "Brendan Power",
+      "latestUpdateUrl": "https://www.facebook.com/BrendanPowerMusic/posts/pfbid02N6dUXofCXZbVUkSwWaftWhWdYGjxkz991aWUzHGj6hM8mD8EiYHTtziFwRwAMEn8l",
+      "avatarUrl": "/assets/source-avatars/c84da1a11d2e3077b55e.webp",
+      "sourceInitials": "BP",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_brendanpowermusic",
+          "name": "Brendan Power",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/BrendanPowerMusic",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_brendanpowermusic",
+          "name": "Brendan Power",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/BrendanPowerMusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-99",
       "publicId": "99",
       "name": "范曉怡",
@@ -8307,70 +8371,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "fanhsiaoyi",
           "profileUrl": "https://www.threads.net/@fanhsiaoyi",
           "feedUrl": "https://rss.observe.tw/threads/fanhsiaoyi"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-143",
-      "publicId": "143",
-      "name": "Brendan Power",
-      "nameEn": "Brendan Power",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "紐西蘭",
-      "region": "英國",
-      "cityOrFocus": "口琴演奏與教學/客製口琴設計/半音階與十孔技術",
-      "structuredSummary": "口琴演奏與教學/客製口琴設計/半音階與十孔技術 / 十孔/半音階 / 國際演出人員/教育者/製作者",
-      "summary": "紐西蘭的十孔與半音階國際演出人員、教育者與製作者，活動脈絡包含口琴演奏與教學、客製口琴設計與半音階與十孔技術。",
-      "keywords": "Brendan Power harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://brendan-power.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/BrendanPowerMusic"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/user/BrendanPowerMusic"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-23T20:40:04+00:00",
-      "latestUpdateLocal": "2026-06-24 04:40",
-      "latestUpdateSource": "Brendan Power",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=lTubSs5QwIY",
-      "avatarUrl": "/assets/source-avatars/c84da1a11d2e3077b55e.webp",
-      "sourceInitials": "BP",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_brendanpowermusic",
-          "name": "Brendan Power",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/BrendanPowerMusic",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_brendanpowermusic",
-          "name": "Brendan Power",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/user/BrendanPowerMusic",
-          "feedUrl": ""
         }
       ]
     },
