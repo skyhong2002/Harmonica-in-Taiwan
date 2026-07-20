@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 445,
+  "count": 451,
   "items": [
     {
       "title": "Yellow Pine Harmonica Festival｜The FULL PERFORMANCE SCHEDULE is now official for the 2026 Yellow Pine Harmonica Festiva…",
@@ -474,6 +474,84 @@
         "公開活動"
       ],
       "key": "fb_judys_harmonica_ensemble:1637970148334568"
+    },
+    {
+      "title": "藍波口琴教室｜《花海-周杰倫》 今年板橋班同樂會大升格，每位同學都有客製化的背板，演出結束還提供後製剪輯，同學甚至認真的準備了大字報，說這樣就不用低頭看譜，保證有完美鏡頭，加上現場熱情提供的餐點、練琴歷程的心靈雞湯分享，連老師都因同學們的…",
+      "headline": "《花海-周杰倫》",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/reel/1211105648759100/",
+      "source_id": "fb_happyharmonica",
+      "source": "藍波口琴教室",
+      "source_system_name": "藍波口琴教室",
+      "source_profile_url": "https://facebook.com/happyharmonica",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-88",
+      "directory_entry_name": "藍波口琴教室",
+      "account": "happyharmonica",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-19T10:11:50.000Z",
+      "posted_at_local": "2026-07-19 18:11",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-20T01:38:38.994511+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "影片"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "演出"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴班同樂會演出影片，屬口琴演奏者公開更新，內容明確相關。",
+      "text": "《花海-周杰倫》\n今年板橋班同樂會大升格，每位同學都有客製化的背板，演出結束還提供後製剪輯，同學甚至認真的準備了大字報，說這樣就不用低頭看譜，保證有完美鏡頭，加上現場熱情提供的餐點、練琴歷程的心靈雞湯分享，連老師都因同學們的用心受到很大的鼓舞，熱淚在眼眶打轉。\n子嵐同學因工作忙碌，很難得才能進教室一次，但生活中練琴的熱血從沒間斷，為了這次演出，她投入很多時間準備，不僅吹口琴、加入歌聲、還有自己打爵士鼓，超帥的，她的音樂如同娓娓道來般讓人深受感動。\n#板橋社大口琴班(四)晚上\nhttps://www.facebook.com/reel/1211105648759100/",
+      "images": [
+        "https://scontent-ord5-3.xx.fbcdn.net/v/t15.5256-10/751536315_1514023526612040_3157608036364973528_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=oeDqXwPDhiAQ7kNvwFEOqYs&_nc_oc=AdpIxN7UcFpRZEC3sCPPSrjAyOD4lOoDG6qdDPKNvjQOhhcJ02zCQeP8GDo-FhdzU0o&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=glmb7l_NBD-f5r-p-PlSJg&_nc_ss=72289&oh=00_AQDZeBn_gRu_yMMxJvRqRKG2XUtWUYDtcTQhCgLnZAexJQ&oe=6A634F78"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-ord5-3.xx.fbcdn.net/v/t15.5256-10/751536315_1514023526612040_3157608036364973528_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=oeDqXwPDhiAQ7kNvwFEOqYs&_nc_oc=AdpIxN7UcFpRZEC3sCPPSrjAyOD4lOoDG6qdDPKNvjQOhhcJ02zCQeP8GDo-FhdzU0o&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=glmb7l_NBD-f5r-p-PlSJg&_nc_ss=72289&oh=00_AQDZeBn_gRu_yMMxJvRqRKG2XUtWUYDtcTQhCgLnZAexJQ&oe=6A634F78",
+      "image_url": "/assets/feed-images/9dfb6fbb589211169e2e.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/358664214_753920859867193_3224395817038140154_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1200x1200&ctp=s50x50&_nc_cat=106&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=dge035vaXF8Q7kNvwHl_Aj7&_nc_oc=Adp1uEQ_1LXX78QEKA73bShwFxMRElfRNnuElsYD1cyXqS6abCKQbxvutybL0aa2HDE&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=glmb7l_NBD-f5r-p-PlSJg&_nc_ss=72289&oh=00_AQDFD1yIO4mYRykoylkWg_CaLd79SwUIbWB74BPydQXIoA&oe=6A634147",
+      "avatar_url": "/assets/source-avatars/8f1ae2810f807d60d81f.webp",
+      "source_initials": "藍波",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "fb_happyharmonica:1527855755807029"
     },
     {
       "title": "臺灣口琴音樂節 Taiwan Harmonica Music Festival｜【午間音樂會總覽】(English version shown below) ✨ 午間音樂會｜精彩演出不停歇！ 🎶 除了緊張刺激的賽事之外，2026 臺灣口琴…",
@@ -946,6 +1024,84 @@
         "公開活動"
       ],
       "key": "ig_taro_senga:https://www.instagram.com/p/Da8COWhj_W5/"
+    },
+    {
+      "title": "RedBricks Harmonica｜🛫 香港國際機場 現場演出系列 🛫 一連三日的機場表演完滿結束😆 非常感謝香港機管局對RedBricks的信任和邀請📨 讓我們在暑假期間為各位旅客送上歡快的口琴重奏音樂💨祝大家有一個難忘的暑假旅程🧸…",
+      "headline": "🛫 香港國際機場 現場演出系列 🛫",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/redbricksharmonica/posts/pfbid02SqqbmHxABKSyytGvdrfCmAnMwDyQRy1DgQ1NsZANQ6eYMLKJ5GPiDVsp8u6LA1HWl",
+      "source_id": "fb_redbricksharmonica",
+      "source": "RedBricks Harmonica",
+      "source_system_name": "RedBricks Harmonica",
+      "source_profile_url": "https://facebook.com/redbricksharmonica",
+      "country": "香港",
+      "region": "香港/國際",
+      "directory_entry_id": "watchlist-93",
+      "directory_entry_name": "RedBricks Harmonica",
+      "account": "redbricksharmonica",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-18T10:49:38.000Z",
+      "posted_at_local": "2026-07-18 18:49",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-20T01:38:38.994511+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "演出",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴重奏於香港國際機場公開演出，屬口琴演奏者更新。",
+      "text": "🛫 香港國際機場 現場演出系列 🛫\n一連三日的機場表演完滿結束😆 非常感謝香港機管局對RedBricks的信任和邀請📨 讓我們在暑假期間為各位旅客送上歡快的口琴重奏音樂💨祝大家有一個難忘的暑假旅程🧸🦖\nThe three-day airport performances have successfully concluded 😆 Many thanks to the Hong Kong Airport Authority for trusting and inviting RedBricks 📨 to bring cheerful harmonica ensemble music to all the travelers during the summer holiday 💨 Wishing everyone an unforgettable summer vacation journey 🧸🦖\nHong Kong International Airport 香港國際機場\n#香港國際機場 #airport #performance #redbricksharmonica #music\nhttps://www.facebook.com/redbricksharmonica/posts/pfbid02SqqbmHxABKSyytGvdrfCmAnMwDyQRy1DgQ1NsZANQ6eYMLKJ5GPiDVsp8u6LA1HWl",
+      "images": [
+        "https://scontent.fdtw2-1.fna.fbcdn.net/v/t39.30808-6/749681388_1507074891432084_7095418373217642061_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=V157FXbY59YQ7kNvwHZdJoP&_nc_oc=AdoBLwpAvgwXY_8wPaNPLekwB7PxS2pc1443p7KVRs-fowOym7xGlFXdx0XDGSmni04&_nc_zt=23&_nc_ht=scontent.fdtw2-1.fna&_nc_gid=2kpnlwLdusHIZEXSahP9bQ&_nc_ss=72289&oh=00_AQDyE0I9XeMa3GI-l6hQ6HNMpLv2vZZFbgQ_Zmk3IWFoVw&oe=6A6345FF",
+        "https://scontent.fdtw2-1.fna.fbcdn.net/v/t39.30808-6/752150889_1507074894765417_2305544755682275123_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=XX_M1MTJRpwQ7kNvwGKvJZL&_nc_oc=AdoAvamF9P2ePbuYwSyy0HwxPM_DPROdR9rhoNs44QxIPCrjV_BP4er6zixFiJdu50o&_nc_zt=23&_nc_ht=scontent.fdtw2-1.fna&_nc_gid=2kpnlwLdusHIZEXSahP9bQ&_nc_ss=72289&oh=00_AQBhCoFW4LcxLdnPpENctJgL3k7Z85xFH-dyLI8k529lkg&oe=6A634D6F"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent.fdtw2-1.fna.fbcdn.net/v/t39.30808-6/749681388_1507074891432084_7095418373217642061_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=V157FXbY59YQ7kNvwHZdJoP&_nc_oc=AdoBLwpAvgwXY_8wPaNPLekwB7PxS2pc1443p7KVRs-fowOym7xGlFXdx0XDGSmni04&_nc_zt=23&_nc_ht=scontent.fdtw2-1.fna&_nc_gid=2kpnlwLdusHIZEXSahP9bQ&_nc_ss=72289&oh=00_AQDyE0I9XeMa3GI-l6hQ6HNMpLv2vZZFbgQ_Zmk3IWFoVw&oe=6A6345FF",
+      "image_url": "/assets/feed-images/89e7833ce6d0d3771a0d.webp",
+      "image_width": 443,
+      "image_height": 590,
+      "source_avatar_url": "https://scontent.fdtw2-1.fna.fbcdn.net/v/t39.30808-1/450268914_915859723886940_4908375360218517551_n.jpg?stp=c282.257.1400.1400a_cp0_dst-jpg_tt6&cstp=mx1400x1400&ctp=s50x50&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=N1zS3C72zGkQ7kNvwGdTPYs&_nc_oc=AdpRYpWBjG8L_qUzbYpOBcTkuN19VZtS69B_dxh3wpcyGlsjnquxtW3e8FmZHUULi74&_nc_zt=24&_nc_ht=scontent.fdtw2-1.fna&_nc_gid=2kpnlwLdusHIZEXSahP9bQ&_nc_ss=72289&oh=00_AQBVLQvFUqjGIZVrrel0NUABG0siC0UTDu2QUoNA2eJpNQ&oe=6A634A27",
+      "avatar_url": "/assets/source-avatars/dcdc7e3a62e244bd656a.webp",
+      "source_initials": "RH",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "fb_redbricksharmonica:1507074801432093"
     },
     {
       "title": "臺北黃石口琴樂團｜連續9天共14場高雄偏鄉弱勢巡迴義演已完成告一段落，老媽及孩子協助非常多。 多待兩天陪伴老媽及孩子，下週一回臺北陪老婆。 https://www.facebook.com/photo/?fbid=150536452494…",
@@ -3573,6 +3729,156 @@
         "公開活動"
       ],
       "key": "threads_yenhua_wang:https://www.threads.com/t/Da0Mgs2k4LT"
+    },
+    {
+      "title": "藍波口琴教室｜《又見炊煙》 中山班的同學，頂著大熱天在榮星花園表演，這些人許多都是初學者，跟著學長姊一起出來表演，實現自己的退休夢想~ #中山社大口琴班(三)晚上 https://www.facebook.com/reel/1766146…",
+      "headline": "《又見炊煙》",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/reel/1766146941412902/",
+      "source_id": "fb_happyharmonica",
+      "source": "藍波口琴教室",
+      "source_system_name": "藍波口琴教室",
+      "source_profile_url": "https://facebook.com/happyharmonica",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-88",
+      "directory_entry_name": "藍波口琴教室",
+      "account": "happyharmonica",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-15T11:14:22.000Z",
+      "posted_at_local": "2026-07-15 19:14",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-20T01:38:38.994511+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "演出",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "口琴"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.97,
+      "llm_labels": [
+        "口琴",
+        "演出",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴教室貼出中山社大口琴班學員公開表演影片，屬口琴演出更新。",
+      "text": "《又見炊煙》\n中山班的同學，頂著大熱天在榮星花園表演，這些人許多都是初學者，跟著學長姊一起出來表演，實現自己的退休夢想~\n#中山社大口琴班(三)晚上\nhttps://www.facebook.com/reel/1766146941412902/",
+      "images": [
+        "https://scontent-ord5-3.xx.fbcdn.net/v/t15.5256-10/748648201_1389641026370417_7842514348582572430_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=HOHDFhJ_RFMQ7kNvwG2BTzj&_nc_oc=AdqvfgryCeHviOsPACzDE6NjC9jnWPsmFuV9WdLO_BhDd5N4f3UvfsAxHa8KtXvz8xA&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=glmb7l_NBD-f5r-p-PlSJg&_nc_ss=72289&oh=00_AQBySCxH-xuCEx9a467i2_quqa4PfTxxdW2uSK-xeso6Pw&oe=6A6364F9"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-ord5-3.xx.fbcdn.net/v/t15.5256-10/748648201_1389641026370417_7842514348582572430_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=HOHDFhJ_RFMQ7kNvwG2BTzj&_nc_oc=AdqvfgryCeHviOsPACzDE6NjC9jnWPsmFuV9WdLO_BhDd5N4f3UvfsAxHa8KtXvz8xA&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=glmb7l_NBD-f5r-p-PlSJg&_nc_ss=72289&oh=00_AQBySCxH-xuCEx9a467i2_quqa4PfTxxdW2uSK-xeso6Pw&oe=6A6364F9",
+      "image_url": "/assets/feed-images/d7e68a7301cef16af3f8.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/358664214_753920859867193_3224395817038140154_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1200x1200&ctp=s50x50&_nc_cat=106&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=dge035vaXF8Q7kNvwHl_Aj7&_nc_oc=Adp1uEQ_1LXX78QEKA73bShwFxMRElfRNnuElsYD1cyXqS6abCKQbxvutybL0aa2HDE&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=glmb7l_NBD-f5r-p-PlSJg&_nc_ss=72289&oh=00_AQDFD1yIO4mYRykoylkWg_CaLd79SwUIbWB74BPydQXIoA&oe=6A634147",
+      "avatar_url": "/assets/source-avatars/8f1ae2810f807d60d81f.webp",
+      "source_initials": "藍波",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "fb_happyharmonica:1524612419464696"
+    },
+    {
+      "title": "RedBricks Harmonica｜RedBricks is going to return to this amazing stage🌍 Thanks for the invitation from Hong Kong Intern…",
+      "headline": "RedBricks is going to return to this amazing stage🌍 Thanks for the invitation from Hong Kong International Airport 香港國際…",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/redbricksharmonica/posts/pfbid02EoYp7SBCBgSqbsCF8kFxVz1c8q3S2hsq6UaRpnMyjrCCEvv3TM1mEC5qVfpY8Lf8l",
+      "source_id": "fb_redbricksharmonica",
+      "source": "RedBricks Harmonica",
+      "source_system_name": "RedBricks Harmonica",
+      "source_profile_url": "https://facebook.com/redbricksharmonica",
+      "country": "香港",
+      "region": "香港/國際",
+      "directory_entry_id": "watchlist-93",
+      "directory_entry_name": "RedBricks Harmonica",
+      "account": "redbricksharmonica",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-15T10:50:58.000Z",
+      "posted_at_local": "2026-07-15 18:50",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-20T01:38:38.994511+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.96,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴團體公開演出預告，屬口琴演奏者更新，非一般藝文活動。",
+      "text": "RedBricks is going to return to this amazing stage🌍 Thanks for the invitation from Hong Kong International Airport 香港國際機場 ✈️ We are looking forward to presenting our music in the departures level in the coming few days🎶\n📅 Date: 16 - 18 July 2026\n⌚️ Time: 10:00 | 12:00 | 13:30 | 16:00\n✈️ Venue: East Hall, Departures Level 6\n#香港國際機場 #airport #redbricksharmonica #music #performance\nhttps://www.facebook.com/photo/?fbid=1504440168362223&set=a.120872000052387",
+      "images": [
+        "https://scontent.fdtw2-1.fna.fbcdn.net/v/t39.30808-6/748938949_1504440171695556_1876271944800210176_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1172x2048&ctp=p526x296&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kJGnt88csxEQ7kNvwECyWNW&_nc_oc=AdoZJDk2vz7PwJrK-LcbVjTu6mZ6WOFSaS5IQxz1LZ0-53jyKzvyT7MvotGGyeXDVRE&_nc_zt=23&_nc_ht=scontent.fdtw2-1.fna&_nc_gid=2kpnlwLdusHIZEXSahP9bQ&_nc_ss=72289&oh=00_AQBt7LxAaxspMD37rpB0oHp90u0i2uFjmUF9wB8ZCHfGyw&oe=6A63600C"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent.fdtw2-1.fna.fbcdn.net/v/t39.30808-6/748938949_1504440171695556_1876271944800210176_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1172x2048&ctp=p526x296&_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kJGnt88csxEQ7kNvwECyWNW&_nc_oc=AdoZJDk2vz7PwJrK-LcbVjTu6mZ6WOFSaS5IQxz1LZ0-53jyKzvyT7MvotGGyeXDVRE&_nc_zt=23&_nc_ht=scontent.fdtw2-1.fna&_nc_gid=2kpnlwLdusHIZEXSahP9bQ&_nc_ss=72289&oh=00_AQBt7LxAaxspMD37rpB0oHp90u0i2uFjmUF9wB8ZCHfGyw&oe=6A63600C",
+      "image_url": "/assets/feed-images/73c40c2c174d4d9c0e5b.webp",
+      "image_width": 526,
+      "image_height": 919,
+      "source_avatar_url": "https://scontent.fdtw2-1.fna.fbcdn.net/v/t39.30808-1/450268914_915859723886940_4908375360218517551_n.jpg?stp=c282.257.1400.1400a_cp0_dst-jpg_tt6&cstp=mx1400x1400&ctp=s50x50&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=N1zS3C72zGkQ7kNvwGdTPYs&_nc_oc=AdpRYpWBjG8L_qUzbYpOBcTkuN19VZtS69B_dxh3wpcyGlsjnquxtW3e8FmZHUULi74&_nc_zt=24&_nc_ht=scontent.fdtw2-1.fna&_nc_gid=2kpnlwLdusHIZEXSahP9bQ&_nc_ss=72289&oh=00_AQBVLQvFUqjGIZVrrel0NUABG0siC0UTDu2QUoNA2eJpNQ&oe=6A634A27",
+      "avatar_url": "/assets/source-avatars/dcdc7e3a62e244bd656a.webp",
+      "source_initials": "RH",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "fb_redbricksharmonica:1504441038362136"
     },
     {
       "title": "衛武營國家藝術文化中心 weiwuying_centerforthearts｜傳藝金曲獎導演及編劇聯手打造，春美歌劇團年度大戲《伽羅香》，重構莎翁經典名作《安東尼與克麗奧佩脱拉》！ 改編自莎士比亞《安東尼與克麗奧佩脱拉》，《伽羅香》最初創…",
@@ -7532,6 +7838,92 @@
         "補助比賽"
       ],
       "key": "fb_punch_harp:1534994261974154"
+    },
+    {
+      "title": "RedBricks Harmonica｜🎊 英皇書院一百周年校慶音樂會 🎊 能夠在自己母校的百年校慶音樂會上演出，總是讓我們感到無比驕傲🌟 在孕育RedBricks成長的地方，激勵那些未來比我們更優秀的後輩，這就是英皇書院的精神 一 薪火…",
+      "headline": "🎊 英皇書院一百周年校慶音樂會 🎊",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/redbricksharmonica/posts/pfbid02idTRCTeddPxXyf7goLszSTQWydjnusBUmQuBiX1AQWJcuQerSnF7oSpraeDQwbuEl",
+      "source_id": "fb_redbricksharmonica",
+      "source": "RedBricks Harmonica",
+      "source_system_name": "RedBricks Harmonica",
+      "source_profile_url": "https://facebook.com/redbricksharmonica",
+      "country": "香港",
+      "region": "香港/國際",
+      "directory_entry_id": "watchlist-93",
+      "directory_entry_name": "RedBricks Harmonica",
+      "account": "redbricksharmonica",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-12T04:30:33.000Z",
+      "posted_at_local": "2026-07-12 12:30",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-20T01:38:38.994511+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "音樂會"
+      ],
+      "keyword_matches": [
+        "音樂會",
+        "演出",
+        "校慶",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "音樂會"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "口琴社團公開分享校慶音樂會演出，屬口琴相關公開更新與活動。",
+      "text": "🎊 英皇書院一百周年校慶音樂會 🎊\n能夠在自己母校的百年校慶音樂會上演出，總是讓我們感到無比驕傲🌟 在孕育RedBricks成長的地方，激勵那些未來比我們更優秀的後輩，這就是英皇書院的精神 一 薪火相傳✨\n紅 牆 百 載 記 初 心 ，\n磚 瓦 齊 鳴 奏 妙 音 。\n口 傳 樂 章 承 盛 世 ，\n琴 聲 迴 盪 赤 子 心 。\n祝英皇書院100週年生日快樂🎂\n#英皇書院 #100周年 #校慶音樂會 #redbricksharmonica #performance\nhttps://www.facebook.com/redbricksharmonica/posts/pfbid02idTRCTeddPxXyf7goLszSTQWydjnusBUmQuBiX1AQWJcuQerSnF7oSpraeDQwbuEl",
+      "images": [
+        "https://scontent.fdtw2-1.fna.fbcdn.net/v/t39.30808-6/744740052_1501327625340144_3434534575661569901_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1366&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=5p1HT00sKswQ7kNvwF0qHwX&_nc_oc=AdpE3LckJ9JMwGgDcWvONuU0pN_ArTWgFjDrhiw-XNdaW2RwhJL-q_TE6OVizEYfHzE&_nc_zt=23&_nc_ht=scontent.fdtw2-1.fna&_nc_gid=2kpnlwLdusHIZEXSahP9bQ&_nc_ss=72289&oh=00_AQAuSAKI0WL1PYTKNfAB3xBm42rmltdbrUQXuGw6oxWAAA&oe=6A6345D8",
+        "https://scontent.fdtw2-1.fna.fbcdn.net/v/t39.30808-6/743796666_1501327715340135_6333393887888868459_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=9BFmZclnRPwQ7kNvwHSfHBe&_nc_oc=AdqdUFtYnbEr3FqvHxvUhzrD1c0caiGsHid2ggpq1F3Nf31a9vwshrwsSPu1pymycMQ&_nc_zt=23&_nc_ht=scontent.fdtw2-1.fna&_nc_gid=2kpnlwLdusHIZEXSahP9bQ&_nc_ss=72289&oh=00_AQDnRi1yG0k4JZZT1Q9TpoSfJobFcwH_CKhZAKRjTyNzyw&oe=6A636394",
+        "https://scontent.fdtw2-1.fna.fbcdn.net/v/t39.30808-6/744782820_1501327698673470_6626349162048367957_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1366&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=INvjznBrXLgQ7kNvwFba1g_&_nc_oc=AdoWk0hEJxsyqgyfgCxfe04p9QepW_lsxQGaI9loQLvxv4iVuho7p90Lwxb8K24CJhc&_nc_zt=23&_nc_ht=scontent.fdtw2-1.fna&_nc_gid=2kpnlwLdusHIZEXSahP9bQ&_nc_ss=72289&oh=00_AQB0JgbY3s3lZNsh9P9yVeFn4X7w1yHIaIp4k93gLDM-xA&oe=6A6365CC",
+        "https://scontent.fdtw2-1.fna.fbcdn.net/v/t39.30808-6/744440770_1501327652006808_8549469725394705444_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1366&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=MTgPouAUrNEQ7kNvwGJ305M&_nc_oc=AdpFV0gT9gVg8pBofcMTYXarfgpiZpRbPXOwgjIrDfG-Z70FB1YDH9995r_YzfjHGH4&_nc_zt=23&_nc_ht=scontent.fdtw2-1.fna&_nc_gid=2kpnlwLdusHIZEXSahP9bQ&_nc_ss=72289&oh=00_AQAb3Bx58PHO1SbezoOekAGgvhdd5SJvTarvf28pYEFwqg&oe=6A636202",
+        "https://scontent.fdtw2-1.fna.fbcdn.net/v/t39.30808-6/746394783_1501327758673464_598653916219003890_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1067&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=KVdojQ9-mhQQ7kNvwHOf86c&_nc_oc=AdrdQQ75BFe02iEOKcQItApU5z9z-0bvRCMIOsP8vRMXP_A2rMApRBfpiGVF-Pw5U28&_nc_zt=23&_nc_ht=scontent.fdtw2-1.fna&_nc_gid=2kpnlwLdusHIZEXSahP9bQ&_nc_ss=72289&oh=00_AQBXzmoJ1s1zfWzeJ8WuRnGxyFpdi6Pcnc0LolAD8pkZzQ&oe=6A636622"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent.fdtw2-1.fna.fbcdn.net/v/t39.30808-6/744740052_1501327625340144_3434534575661569901_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1366&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=5p1HT00sKswQ7kNvwF0qHwX&_nc_oc=AdpE3LckJ9JMwGgDcWvONuU0pN_ArTWgFjDrhiw-XNdaW2RwhJL-q_TE6OVizEYfHzE&_nc_zt=23&_nc_ht=scontent.fdtw2-1.fna&_nc_gid=2kpnlwLdusHIZEXSahP9bQ&_nc_ss=72289&oh=00_AQAuSAKI0WL1PYTKNfAB3xBm42rmltdbrUQXuGw6oxWAAA&oe=6A6345D8",
+      "image_url": "/assets/feed-images/6f67203f439230fbf9e3.webp",
+      "image_width": 590,
+      "image_height": 394,
+      "source_avatar_url": "https://scontent.fdtw2-1.fna.fbcdn.net/v/t39.30808-1/450268914_915859723886940_4908375360218517551_n.jpg?stp=c282.257.1400.1400a_cp0_dst-jpg_tt6&cstp=mx1400x1400&ctp=s50x50&_nc_cat=104&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=N1zS3C72zGkQ7kNvwGdTPYs&_nc_oc=AdpRYpWBjG8L_qUzbYpOBcTkuN19VZtS69B_dxh3wpcyGlsjnquxtW3e8FmZHUULi74&_nc_zt=24&_nc_ht=scontent.fdtw2-1.fna&_nc_gid=2kpnlwLdusHIZEXSahP9bQ&_nc_ss=72289&oh=00_AQBVLQvFUqjGIZVrrel0NUABG0siC0UTDu2QUoNA2eJpNQ&oe=6A634A27",
+      "avatar_url": "/assets/source-avatars/dcdc7e3a62e244bd656a.webp",
+      "source_initials": "RH",
+      "categories": [
+        "posts-videos",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "學生社團"
+      ],
+      "key": "fb_redbricksharmonica:1501327542006819"
     },
     {
       "title": "RedBricks Harmonica｜🎊 英皇書院一百周年校慶音樂會 🎊 能夠在自己母校的百年校慶音樂會上演出，總是讓我們感到無比驕傲🌟 在孕育RedBricks成長的地方，激勵那些未來比我們更優秀的後輩，這就是英皇書院的精神 一 薪火…",
@@ -16962,6 +17354,86 @@
         "公開活動"
       ],
       "key": "fb_61574004532712:122183780174800151"
+    },
+    {
+      "title": "陽明交大竹韻口琴社｜各位竹韻口琴社的學長姊，大家午安~ 竹韻口琴社的discord正式上線啦🥳 連結： https://discord.gg/GN6VmPGVnR 加入後，記得填寫您的背景資料 這樣一來可以更快速認識彼此。 在這裡你可以收…",
+      "headline": "各位竹韻口琴社的學長姊，大家午安~",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/nycubmhc/posts/pfbid0nVzb9bvXdMpPV7bQdSgSGnoGQKzNhvRe4WJEieapwStaNUwN5VSQ9nzHESNWwGwwl",
+      "source_id": "fb_nycubmhc",
+      "source": "陽明交大竹韻口琴社",
+      "source_system_name": "陽明交大竹韻口琴社",
+      "source_profile_url": "https://facebook.com/nycubmhc",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "directory_entry_id": "watchlist-198",
+      "directory_entry_name": "陽明交大竹韻口琴社",
+      "account": "nycubmhc",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-04T06:56:17.000Z",
+      "posted_at_local": "2026-07-04 14:56",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-20T01:38:38.994511+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "交流",
+        "學生社團"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "交流"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.96,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "交流",
+        "學生社團"
+      ],
+      "llm_categories": [
+        "student-clubs"
+      ],
+      "llm_reason": "竹韻口琴社公告Discord上線與社團交流資訊，屬口琴社團公開更新。",
+      "text": "各位竹韻口琴社的學長姊，大家午安~\n竹韻口琴社的discord正式上線啦🥳\n連結：\nhttps://discord.gg/GN6VmPGVnR\n加入後，記得填寫您的背景資料\n這樣一來可以更快速認識彼此。\n在這裡你可以收到第一手竹韻口琴社的最新消息\nex：\n曲目的討論、幹部的工作分配、未來活動的邀約\n想知道我們正在籌備什麼事情或是想一起交流的學長姊歡迎加入~\nhttps://www.facebook.com/photo/?fbid=1641263307999213&set=a.504956804963208",
+      "images": [
+        "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/738759118_1641263314665879_6832544197200909976_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GQQhOdLgZPwQ7kNvwFJlQKQ&_nc_oc=AdrVYL2Nzxj6hvGjMZ2FiW13qm7LUnwwteHbhP5uyqGafJ-ZRxWAwDzwkU11f6bfzSoWCEcShjgduJkxf1i-1iqi&_nc_zt=23&_nc_ht=scontent-sea1-1.xx&_nc_gid=xouhZiyc2VrR71gNHipgsA&_nc_ss=7d289&oh=00_AQBokumQqFwK1BgBc-7toiwbvSPzwzJUlo4GMAJTzjNShg&oe=6A634BE3"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/738759118_1641263314665879_6832544197200909976_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GQQhOdLgZPwQ7kNvwFJlQKQ&_nc_oc=AdrVYL2Nzxj6hvGjMZ2FiW13qm7LUnwwteHbhP5uyqGafJ-ZRxWAwDzwkU11f6bfzSoWCEcShjgduJkxf1i-1iqi&_nc_zt=23&_nc_ht=scontent-sea1-1.xx&_nc_gid=xouhZiyc2VrR71gNHipgsA&_nc_ss=7d289&oh=00_AQBokumQqFwK1BgBc-7toiwbvSPzwzJUlo4GMAJTzjNShg&oe=6A634BE3",
+      "image_url": "/assets/feed-images/5df58ce4300a663aa190.webp",
+      "image_width": 512,
+      "image_height": 640,
+      "source_avatar_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-1/702399010_1594746349317576_6447986012116749468_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx877x880&ctp=s50x50&_nc_cat=100&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T1pwa2RI2UoQ7kNvwEt3cx0&_nc_oc=Ado673Swx9_u_UBof1NOb46r-GmjY6dVJyADqTGd8MYxDq-CePvP8oZsJ_TMQ3Qjf9EDRXiwZaKvdzPvUbiTDS31&_nc_zt=24&_nc_ht=scontent-sea1-1.xx&_nc_gid=xouhZiyc2VrR71gNHipgsA&_nc_ss=7d289&oh=00_AQC6vo7AR37ZpDPtMxynMKURA6Ee5mlmrFqQwk595igbSw&oe=6A635DE8",
+      "avatar_url": "/assets/source-avatars/12a47fe392ac174890b4.webp",
+      "source_initials": "陽明",
+      "categories": [
+        "posts-videos",
+        "student-clubs",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "學生社團",
+        "公開活動"
+      ],
+      "key": "fb_nycubmhc:1640225061436371"
     },
     {
       "title": "天狼星口琴樂團 Sirius Harmonica Ensemble｜🎉 賀！天狼星口琴樂團張晁滕老師榮獲「115年臺北市杏壇芬芳獎」！ 「杏壇」象徵著教育現場，而「芬芳」則是默默奉獻所散發的良善氣息。「杏壇芬芳獎」的核心價值，不在於追求絕…",

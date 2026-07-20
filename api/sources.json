@@ -1702,6 +1702,68 @@
       ]
     },
     {
+      "id": "watchlist-88",
+      "publicId": "88",
+      "name": "藍波口琴教室",
+      "nameEn": "Bluebo Harmonica",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "教學工作室",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴教學/課程/學習資源",
+      "structuredSummary": "口琴教學/課程/學習資源 / 口琴 / 教學/課程來源",
+      "summary": "臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。",
+      "keywords": "藍波口琴教室 藍波口琴網 口琴 教學",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.blueboclass.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/happyharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@lamberharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-19T10:11:50+00:00",
+      "latestUpdateLocal": "2026-07-19 18:11",
+      "latestUpdateSource": "藍波口琴教室",
+      "latestUpdateUrl": "https://www.facebook.com/reel/1211105648759100/",
+      "avatarUrl": "/assets/source-avatars/002a78116b9b09a6967c.webp",
+      "sourceInitials": "藍波",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "課程"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_happyharmonica",
+          "name": "藍波口琴教室",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/happyharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_lamberharmonica",
+          "name": "藍波口琴教室",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@lamberharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-220",
       "publicId": "220",
       "name": "菜鳥琴老師很菜",
@@ -3655,10 +3717,10 @@
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-07-18T10:43:49+00:00",
-      "latestUpdateLocal": "2026-07-18 18:43",
+      "latestUpdateAt": "2026-07-18T10:49:38+00:00",
+      "latestUpdateLocal": "2026-07-18 18:49",
       "latestUpdateSource": "RedBricks Harmonica",
-      "latestUpdateUrl": "https://www.instagram.com/stories/redbricksharmonica/3943915865246938753/",
+      "latestUpdateUrl": "https://www.facebook.com/redbricksharmonica/posts/pfbid02SqqbmHxABKSyytGvdrfCmAnMwDyQRy1DgQ1NsZANQ6eYMLKJ5GPiDVsp8u6LA1HWl",
       "avatarUrl": "/assets/source-avatars/44ed1621e83c468035bf.webp",
       "sourceInitials": "RH",
       "sourceTags": [
@@ -4091,68 +4153,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/Moridaira01",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-88",
-      "publicId": "88",
-      "name": "藍波口琴教室",
-      "nameEn": "Bluebo Harmonica",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "教學工作室",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴教學/課程/學習資源",
-      "structuredSummary": "口琴教學/課程/學習資源 / 口琴 / 教學/課程來源",
-      "summary": "臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。",
-      "keywords": "藍波口琴教室 藍波口琴網 口琴 教學",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.blueboclass.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/happyharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@lamberharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-18T04:00:15+00:00",
-      "latestUpdateLocal": "2026-07-18 12:00",
-      "latestUpdateSource": "藍波口琴教室",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=ZfqgLRcYPyI",
-      "avatarUrl": "/assets/source-avatars/002a78116b9b09a6967c.webp",
-      "sourceInitials": "藍波",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "課程"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_happyharmonica",
-          "name": "藍波口琴教室",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/happyharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_lamberharmonica",
-          "name": "藍波口琴教室",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@lamberharmonica",
           "feedUrl": ""
         }
       ]
@@ -6231,6 +6231,50 @@
       ]
     },
     {
+      "id": "watchlist-37",
+      "publicId": "37",
+      "name": "陳晟禕",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "狂響口琴樂團",
+      "structuredSummary": "狂響口琴樂團 / 口琴 / 演出人員",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含狂響口琴樂團。",
+      "keywords": "陳晟禕 口琴 狂響",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chen.cheng.yi.487430/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-13T08:06:25+00:00",
+      "latestUpdateLocal": "2026-07-13 16:06",
+      "latestUpdateSource": "陳晟禕",
+      "latestUpdateUrl": "https://www.facebook.com/reel/1870522134353852/",
+      "avatarUrl": "/assets/source-avatars/cc59e554f78aa2c3c136.webp",
+      "sourceInitials": "陳晟",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_chen_cheng_yi_487430",
+          "name": "陳晟禕",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chen.cheng.yi.487430",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-68",
       "publicId": "68",
       "name": "Gordon Lee 李俊樂",
@@ -7249,6 +7293,85 @@
       ]
     },
     {
+      "id": "watchlist-198",
+      "publicId": "198",
+      "name": "陽明交大竹韻口琴社",
+      "nameEn": "Bamboo Melody Harmonica Club",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "國立陽明交通大學/學校社團/新竹",
+      "structuredSummary": "國立陽明交通大學/學校社團/新竹 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "陽明交大竹韻口琴社 Bamboo Melody Harmonica Club NYCU 交通大學竹韻口琴社 口琴社",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/nycubmhc/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nycu_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-04T06:56:17+00:00",
+      "latestUpdateLocal": "2026-07-04 14:56",
+      "latestUpdateSource": "陽明交大竹韻口琴社",
+      "latestUpdateUrl": "https://www.facebook.com/nycubmhc/posts/pfbid0nVzb9bvXdMpPV7bQdSgSGnoGQKzNhvRe4WJEieapwStaNUwN5VSQ9nzHESNWwGwwl",
+      "avatarUrl": "/assets/source-avatars/f9da11b227a1c2238a68.webp",
+      "sourceInitials": "陽明",
+      "sourceTags": [
+        "學生社團",
+        "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_nycubmhc",
+          "name": "陽明交大竹韻口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/nycubmhc",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nycu_harmonica",
+          "name": "陽明交大竹韻口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nycu_harmonica",
+          "profileUrl": "https://www.instagram.com/nycu_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nycu_harmonica",
+          "name": "陽明交大竹韻口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nycu_harmonica",
+          "profileUrl": "https://www.instagram.com/nycu_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nycu_harmonica/story/0"
+        },
+        {
+          "id": "yt_ucliodayl9_jvnbpc4nfthgw",
+          "name": "陽明交大竹韻口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-186",
       "publicId": "186",
       "name": "中一中口琴社",
@@ -8167,129 +8290,6 @@
           "username": "fourtissimo_harmonica_ensemble",
           "profileUrl": "https://www.instagram.com/fourtissimo_harmonica_ensemble/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/fourtissimo_harmonica_ensemble/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-198",
-      "publicId": "198",
-      "name": "陽明交大竹韻口琴社",
-      "nameEn": "Bamboo Melody Harmonica Club",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/新竹",
-      "cityOrFocus": "國立陽明交通大學/學校社團/新竹",
-      "structuredSummary": "國立陽明交通大學/學校社團/新竹 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "陽明交大竹韻口琴社 Bamboo Melody Harmonica Club NYCU 交通大學竹韻口琴社 口琴社",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/nycubmhc/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nycu_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-25T17:00:11+00:00",
-      "latestUpdateLocal": "2026-06-26 01:00",
-      "latestUpdateSource": "陽明交大竹韻口琴社",
-      "latestUpdateUrl": "https://www.facebook.com/nycubmhc/posts/pfbid0TCo5gNa2fk9WoVP3wsNii4ui3UbFkBqFigfULz3pHRZaSnd7zAwzNQKk2n4FFWkcl",
-      "avatarUrl": "/assets/source-avatars/f9da11b227a1c2238a68.webp",
-      "sourceInitials": "陽明",
-      "sourceTags": [
-        "學生社團",
-        "大專社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_nycubmhc",
-          "name": "陽明交大竹韻口琴社",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/nycubmhc",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nycu_harmonica",
-          "name": "陽明交大竹韻口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nycu_harmonica",
-          "profileUrl": "https://www.instagram.com/nycu_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nycu_harmonica",
-          "name": "陽明交大竹韻口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nycu_harmonica",
-          "profileUrl": "https://www.instagram.com/nycu_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nycu_harmonica/story/0"
-        },
-        {
-          "id": "yt_ucliodayl9_jvnbpc4nfthgw",
-          "name": "陽明交大竹韻口琴社",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-37",
-      "publicId": "37",
-      "name": "陳晟禕",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "狂響口琴樂團",
-      "structuredSummary": "狂響口琴樂團 / 口琴 / 演出人員",
-      "summary": "臺灣的口琴演出人員，活動脈絡包含狂響口琴樂團。",
-      "keywords": "陳晟禕 口琴 狂響",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/chen.cheng.yi.487430/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-24T08:33:07+00:00",
-      "latestUpdateLocal": "2026-06-24 16:33",
-      "latestUpdateSource": "陳晟禕",
-      "latestUpdateUrl": "https://www.facebook.com/chen.cheng.yi.487430/posts/pfbid02gYu7KjkzjddwnrnZggk1pT4DFwfnCWpRT5xN4rpbQ1cggd57QKFxRo2RHJcgu9Nl",
-      "avatarUrl": "/assets/source-avatars/cc59e554f78aa2c3c136.webp",
-      "sourceInitials": "陳晟",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_chen_cheng_yi_487430",
-          "name": "陳晟禕",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/chen.cheng.yi.487430",
-          "feedUrl": ""
         }
       ]
     },

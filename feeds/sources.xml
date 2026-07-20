@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 20 Jul 2026 01:05:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 01:39:04 +0000</lastBuildDate>
     <item>
       <title>Yellow Pine Harmonica Festival</title>
       <link>https://www.yellowpinefestival.org/</link>
@@ -225,6 +225,17 @@ Tag：演奏者
 國家：臺灣
 地區：臺灣
 臺灣的口琴演出人員，活動脈絡包含111 Trio與Quintet。</description>
+    </item>
+    <item>
+      <title>藍波口琴教室</title>
+      <link>https://www.blueboclass.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/208580c304c32492</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：教學器材、教學、課程
+國家：臺灣
+地區：臺灣
+臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。</description>
     </item>
     <item>
       <title>菜鳥琴老師很菜</title>
@@ -557,17 +568,6 @@ Tag：活動資訊、比賽、半音階、複音、重奏、國際交流
 日本的國際比賽來源，涵蓋日本口琴比賽與duo trio。</description>
     </item>
     <item>
-      <title>藍波口琴教室</title>
-      <link>https://www.blueboclass.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/208580c304c32492</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：教學器材、教學、課程
-國家：臺灣
-地區：臺灣
-臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。</description>
-    </item>
-    <item>
       <title>吹出好心琴 + Ou Frog</title>
       <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
       <guid>https://harmonica.observe.tw/feeds/sources/a7900260c88a5842</guid>
@@ -854,6 +854,17 @@ Tag：演奏者、教學、國際交流
 巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。</description>
     </item>
     <item>
+      <title>陳晟禕</title>
+      <link>https://www.facebook.com/chen.cheng.yi.487430/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/5cc686f1563cd9ac</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、團體樂團
+國家：臺灣
+地區：臺灣
+臺灣的口琴演出人員，活動脈絡包含狂響口琴樂團。</description>
+    </item>
+    <item>
       <title>Gordon Lee 李俊樂</title>
       <link>https://www.hkco.org/tc/Other-Members/Gordon-Lee.html</link>
       <guid>https://harmonica.observe.tw/feeds/sources/394595ecabaaf5c7</guid>
@@ -1008,6 +1019,17 @@ Tag：團體樂團、重奏
 「IniXial Harmonica Ensemble 源創口琴樂團」成立於2024年，由半音階口琴、倍低音口琴、和弦口琴等純口琴樂器組成，是個融合不同聲部的特殊編制重奏團體。團員除身為演奏者之外，同時具有創作編曲與現場演出能力。源創口琴樂團期許透過演出，呈現樂曲的原創概念以及熱愛音樂的初衷。 See the latest...</description>
     </item>
     <item>
+      <title>陽明交大竹韻口琴社</title>
+      <link>https://www.facebook.com/nycubmhc/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/3a59c106034dfcfa</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：學校社團
+Tag：學生社團、大專社團
+國家：臺灣
+地區：臺灣/新竹
+臺灣的口琴學校社團。</description>
+    </item>
+    <item>
       <title>中一中口琴社</title>
       <link>https://www.tcfshclub.com/%E7%A4%BE%E5%9C%98/%E8%97%9D%E8%A1%93%E6%80%A7%E7%A4%BE%E5%9C%98/015-%E5%8F%A3%E7%90%B4%E7%A4%BE</link>
       <guid>https://harmonica.observe.tw/feeds/sources/6a3f9c37c1d01cbc</guid>
@@ -1149,28 +1171,6 @@ Tag：團體樂團、重奏、國際交流
 國家：馬來西亞
 地區：馬來西亞
 馬來西亞的口琴重奏與合奏國際演出團體與青年團體，活動脈絡包含青少年口琴重奏、演出與交流。</description>
-    </item>
-    <item>
-      <title>陽明交大竹韻口琴社</title>
-      <link>https://www.facebook.com/nycubmhc/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/3a59c106034dfcfa</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：學校社團
-Tag：學生社團、大專社團
-國家：臺灣
-地區：臺灣/新竹
-臺灣的口琴學校社團。</description>
-    </item>
-    <item>
-      <title>陳晟禕</title>
-      <link>https://www.facebook.com/chen.cheng.yi.487430/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/5cc686f1563cd9ac</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、團體樂團
-國家：臺灣
-地區：臺灣
-臺灣的口琴演出人員，活動脈絡包含狂響口琴樂團。</description>
     </item>
     <item>
       <title>范曉怡</title>
