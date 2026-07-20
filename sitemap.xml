@@ -79,6 +79,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/171-society-for-the-preservation-and-advancement-of-the-harmonica/</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/104-timothy-yip/</loc>
     <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -265,12 +271,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/171-society-for-the-preservation-and-advancement-of-the-harmonica/</loc>
-    <lastmod>2026-07-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/67-marcos-coll/</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -314,6 +314,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/93-redbricks-harmonica/</loc>
+    <lastmod>2026-07-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/91-taipei-yellowstone-harmonica-ensemble/</loc>
     <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -699,12 +705,6 @@
   <url>
     <loc>https://harmonica.observe.tw/source/143-brendan-power/</loc>
     <lastmod>2026-06-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/91-taipei-yellowstone-harmonica-ensemble/</loc>
-    <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1591,7 +1591,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/event/69965f026040fd61/</loc>
+    <loc>https://harmonica.observe.tw/event/8eb9e9dcc78af9d8/</loc>
     <lastmod>2026-07-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -1603,7 +1603,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/event/82dfbd24f0e88e83/</loc>
+    <loc>https://harmonica.observe.tw/event/8436208ae40d8444/</loc>
     <lastmod>2026-07-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>

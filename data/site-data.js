@@ -259,6 +259,90 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-171",
+      "publicId": "171",
+      "name": "口琴保存與推廣協會 SPAH",
+      "nameEn": "Society for the Preservation and Advancement of the Harmonica",
+      "category": "活動資訊",
+      "type": "協會",
+      "originalType": "協會/活動",
+      "country": "美國",
+      "region": "美國/密蘇里",
+      "cityOrFocus": "SPAH convention/教育/青年獎學金/社群俱樂部",
+      "structuredSummary": "SPAH convention/教育/青年獎學金/社群俱樂部 / 口琴 / 國際協會/活動來源",
+      "summary": "美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。",
+      "keywords": "SPAH Society for the Preservation and Advancement of the Harmonica convention youth scholarships",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://spah.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/SPAH63/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/official_spah63/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-19T17:19:19+00:00",
+      "latestUpdateLocal": "2026-07-20 01:19",
+      "latestUpdateSource": "口琴保存與推廣協會 SPAH",
+      "latestUpdateUrl": "https://www.instagram.com/p/Da-3PymqgJy/",
+      "avatarUrl": "/assets/source-avatars/b95ef49cf0dba4544356.webp",
+      "sourceInitials": "S",
+      "sourceTags": [
+        "協會",
+        "活動資訊",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/SPAH63",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_official_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "official_spah63",
+          "profileUrl": "https://www.instagram.com/official_spah63/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_official_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "official_spah63",
+          "profileUrl": "https://www.instagram.com/official_spah63/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/official_spah63/story/0"
+        },
+        {
+          "id": "yt_ucbjlie6bvgh8jhvco_xltsg",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-104",
       "publicId": "104",
       "name": "Timothy Yip 葉進禧",
@@ -2726,90 +2810,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-171",
-      "publicId": "171",
-      "name": "口琴保存與推廣協會 SPAH",
-      "nameEn": "Society for the Preservation and Advancement of the Harmonica",
-      "category": "活動資訊",
-      "type": "協會",
-      "originalType": "協會/活動",
-      "country": "美國",
-      "region": "美國/密蘇里",
-      "cityOrFocus": "SPAH convention/教育/青年獎學金/社群俱樂部",
-      "structuredSummary": "SPAH convention/教育/青年獎學金/社群俱樂部 / 口琴 / 國際協會/活動來源",
-      "summary": "美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。",
-      "keywords": "SPAH Society for the Preservation and Advancement of the Harmonica convention youth scholarships",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://spah.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/SPAH63/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/official_spah63/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-18T18:37:51+00:00",
-      "latestUpdateLocal": "2026-07-19 02:37",
-      "latestUpdateSource": "口琴保存與推廣協會 SPAH",
-      "latestUpdateUrl": "https://www.instagram.com/p/Da8MDGeK-FL/",
-      "avatarUrl": "/assets/source-avatars/b95ef49cf0dba4544356.webp",
-      "sourceInitials": "S",
-      "sourceTags": [
-        "協會",
-        "活動資訊",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/SPAH63",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_official_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "official_spah63",
-          "profileUrl": "https://www.instagram.com/official_spah63/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_official_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "official_spah63",
-          "profileUrl": "https://www.instagram.com/official_spah63/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/official_spah63/story/0"
-        },
-        {
-          "id": "yt_ucbjlie6bvgh8jhvco_xltsg",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-67",
       "publicId": "67",
       "name": "Marcos Coll",
@@ -3480,6 +3480,49 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@RedBricksHarmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-91",
+      "publicId": "91",
+      "name": "臺北黃石口琴樂團",
+      "nameEn": "Taipei Yellowstone Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "口琴樂團/年度公演",
+      "structuredSummary": "口琴樂團/年度公演 / 口琴 / 演出團體",
+      "summary": "臺灣的口琴演出團體，活動脈絡包含口琴樂團與年度公演。",
+      "keywords": "臺北黃石口琴樂團 Taipei Yellowstone Harmonica Ensemble 口琴 年度公演",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-18T08:54:26+00:00",
+      "latestUpdateLocal": "2026-07-18 16:54",
+      "latestUpdateSource": "臺北黃石口琴樂團",
+      "latestUpdateUrl": "https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/posts/pfbid0JYYvebNe8GxH2eGzZZJNkVNiB6AN9WbF2RqP4h88fdjLtyykxrLxskwzxFk6PisZl",
+      "avatarUrl": "/assets/source-avatars/5c7f37af162eacf64845.webp",
+      "sourceInitials": "臺北",
+      "sourceTags": [
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_taipeiyellowstoneharmonicaensemble",
+          "name": "臺北黃石口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/TaipeiYellowstoneHarmonicaEnsemble",
           "feedUrl": ""
         }
       ]
@@ -8327,49 +8370,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/BrendanPowerMusic",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-91",
-      "publicId": "91",
-      "name": "臺北黃石口琴樂團",
-      "nameEn": "Taipei Yellowstone Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "口琴樂團/年度公演",
-      "structuredSummary": "口琴樂團/年度公演 / 口琴 / 演出團體",
-      "summary": "臺灣的口琴演出團體，活動脈絡包含口琴樂團與年度公演。",
-      "keywords": "臺北黃石口琴樂團 Taipei Yellowstone Harmonica Ensemble 口琴 年度公演",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-22T14:15:21+00:00",
-      "latestUpdateLocal": "2026-06-22 22:15",
-      "latestUpdateSource": "臺北黃石口琴樂團",
-      "latestUpdateUrl": "https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/posts/pfbid02dZtHRhB1dCnPFBfhX1xQ6E2yXeqqCeijXD2xDanh5H2k31Lgmj87ebVwSK3QdRPul",
-      "avatarUrl": "/assets/source-avatars/5c7f37af162eacf64845.webp",
-      "sourceInitials": "臺北",
-      "sourceTags": [
-        "團體樂團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_taipeiyellowstoneharmonicaensemble",
-          "name": "臺北黃石口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/TaipeiYellowstoneHarmonicaEnsemble",
           "feedUrl": ""
         }
       ]
