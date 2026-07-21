@@ -1703,6 +1703,53 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-72",
+      "publicId": "72",
+      "name": "雲林縣二崙國中藝才班口琴隊",
+      "nameEn": "",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校/青年",
+      "country": "臺灣",
+      "region": "臺灣/雲林",
+      "cityOrFocus": "國中藝才班/口琴隊",
+      "structuredSummary": "國中藝才班/口琴隊 / 口琴隊 / 學校團隊",
+      "summary": "臺灣的口琴隊學校團隊。",
+      "keywords": "二崙國中 藝才班 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://eljh.ylc.edu.tw/News_Photo_Content.aspx?n=55064&s=22381"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/61550868336289/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-21T00:12:50+00:00",
+      "latestUpdateLocal": "2026-07-21 08:12",
+      "latestUpdateSource": "雲林縣二崙國中藝才班口琴隊",
+      "latestUpdateUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid037chEnLNagbiGYykyyP177HDLtRQjz9PZQh8WM5J5kZ6iEdxbWb5ipMZT771pdjVAl&id=61550868336289",
+      "avatarUrl": "/assets/source-avatars/c95a0a9a44fbc7c0851f.webp",
+      "sourceInitials": "雲林",
+      "sourceTags": [
+        "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_61550868336289",
+          "name": "雲林縣二崙國中藝才班口琴隊",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/61550868336289",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-40",
       "publicId": "40",
       "name": "陳鴻儀",
@@ -6691,6 +6738,68 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-70",
+      "publicId": "70",
+      "name": "Fata Morgana 口琴四重奏",
+      "nameEn": "Fata Morgana",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "荷蘭",
+      "region": "荷蘭",
+      "cityOrFocus": "口琴四重奏/與天狼星合作",
+      "structuredSummary": "口琴四重奏/與天狼星合作 / 口琴四重奏 / 國際演出團體",
+      "summary": "荷蘭的口琴四重奏國際演出團體，活動脈絡包含與天狼星合作。",
+      "keywords": "Fata Morgana harmonica quartet",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://fatamorganamusic.nl/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/fatamorganamusic/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@fatamorganamusic"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-13T08:48:03+00:00",
+      "latestUpdateLocal": "2026-07-13 16:48",
+      "latestUpdateSource": "Fata Morgana 口琴四重奏",
+      "latestUpdateUrl": "https://www.facebook.com/fatamorganamusic/posts/pfbid031GSMxwQYDkKuHB3FHLDKC4uqsnEbGPgKmVEJtxWVXxLJ8CJuB68d4VUov7fNMegDl",
+      "avatarUrl": "/assets/source-avatars/fafe18ba9c8f3e5d19ee.webp",
+      "sourceInitials": "FM",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_fatamorganamusic",
+          "name": "Fata Morgana 口琴四重奏",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/fatamorganamusic",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_fatamorganamusic",
+          "name": "Fata Morgana 口琴四重奏",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@fatamorganamusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-37",
       "publicId": "37",
       "name": "陳晟禕",
@@ -7197,7 +7306,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-08 22:53",
       "latestUpdateSource": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
       "latestUpdateUrl": "https://www.facebook.com/RhapsodyHarmonicaEnsemble/posts/pfbid0CN8B9ucWtxt9hkw2fcsPfRveJjUd5Y5D6noberkwy4MMM6bmgnCd9K6vtGGmxAtfl",
-      "avatarUrl": "/assets/source-avatars/304ed213cf955de4f999.webp",
+      "avatarUrl": "/assets/source-avatars/d1c83ae5982243988cbe.webp",
       "sourceInitials": "RHE",
       "sourceTags": [
         "團體樂團",
@@ -10988,68 +11097,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-70",
-      "publicId": "70",
-      "name": "Fata Morgana 口琴四重奏",
-      "nameEn": "Fata Morgana",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "荷蘭",
-      "region": "荷蘭",
-      "cityOrFocus": "口琴四重奏/與天狼星合作",
-      "structuredSummary": "口琴四重奏/與天狼星合作 / 口琴四重奏 / 國際演出團體",
-      "summary": "荷蘭的口琴四重奏國際演出團體，活動脈絡包含與天狼星合作。",
-      "keywords": "Fata Morgana harmonica quartet",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://fatamorganamusic.nl/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/fatamorganamusic/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@fatamorganamusic"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2016-12-19T19:33:56+00:00",
-      "latestUpdateLocal": "2016-12-20 03:33",
-      "latestUpdateSource": "Fata Morgana 口琴四重奏",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=RFwNkLaqyYI",
-      "avatarUrl": "/assets/source-avatars/fafe18ba9c8f3e5d19ee.webp",
-      "sourceInitials": "FM",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_fatamorganamusic",
-          "name": "Fata Morgana 口琴四重奏",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/fatamorganamusic",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_fatamorganamusic",
-          "name": "Fata Morgana 口琴四重奏",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@fatamorganamusic",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-28",
       "publicId": "28",
       "name": "簧格音樂有限公司",
@@ -12996,53 +13043,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCbJuCgOCEQK8HxsX7A7ZCuQ",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-72",
-      "publicId": "72",
-      "name": "雲林縣二崙國中藝才班口琴隊",
-      "nameEn": "",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校/青年",
-      "country": "臺灣",
-      "region": "臺灣/雲林",
-      "cityOrFocus": "國中藝才班/口琴隊",
-      "structuredSummary": "國中藝才班/口琴隊 / 口琴隊 / 學校團隊",
-      "summary": "臺灣的口琴隊學校團隊。",
-      "keywords": "二崙國中 藝才班 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://eljh.ylc.edu.tw/News_Photo_Content.aspx?n=55064&s=22381"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/61550868336289/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/c95a0a9a44fbc7c0851f.webp",
-      "sourceInitials": "雲林",
-      "sourceTags": [
-        "學生社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_61550868336289",
-          "name": "雲林縣二崙國中藝才班口琴隊",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/61550868336289",
           "feedUrl": ""
         }
       ]
