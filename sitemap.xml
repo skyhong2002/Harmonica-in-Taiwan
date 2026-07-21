@@ -61,6 +61,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/54-cy-leo/</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/80/</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -73,6 +79,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/100-otis-tsao/</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/125-jens-bunge/</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/103-yora-chen/</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -80,6 +98,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/65-jong-seong-park/</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/3-sirius-harmonica-ensemble/</loc>
     <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -151,18 +175,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/54-cy-leo/</loc>
-    <lastmod>2026-07-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/100-otis-tsao/</loc>
-    <lastmod>2026-07-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/97/</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -170,12 +182,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/42-hsin-ho-wang/</loc>
-    <lastmod>2026-07-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/125-jens-bunge/</loc>
     <lastmod>2026-07-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -356,12 +362,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/95-weissenberg-harmonicas/</loc>
-    <lastmod>2026-07-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/3-sirius-harmonica-ensemble/</loc>
     <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

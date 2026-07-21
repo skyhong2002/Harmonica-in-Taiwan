@@ -65,6 +65,93 @@
   },
   "entries": [
     {
+      "id": "watchlist-54",
+      "publicId": "54",
+      "name": "CY Leo 何卓彥",
+      "nameEn": "CY Leo",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/現代跨界",
+      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
+      "summary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
+      "keywords": "CY Leo 何卓彥 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.cyleomusic.io/profile"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Cyleoharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cy_leo/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@cyleoharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-21T12:57:06+00:00",
+      "latestUpdateLocal": "2026-07-21 20:57",
+      "latestUpdateSource": "CY Leo 何卓彥",
+      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3946157277740925441/",
+      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
+      "sourceInitials": "CL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
+      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
+      "monitorSources": [
+        {
+          "id": "fb_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Cyleoharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
+        },
+        {
+          "id": "yt_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@cyleoharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-80",
       "publicId": "80",
       "name": "臺中國家歌劇院",
@@ -257,6 +344,173 @@
       ]
     },
     {
+      "id": "watchlist-100",
+      "publicId": "100",
+      "name": "曹小歐",
+      "nameEn": "Otis Tsao",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "單口喜劇/藍調口琴/演出",
+      "structuredSummary": "單口喜劇/藍調口琴/演出 / 十孔/藍調口琴 / 演出人員",
+      "summary": "臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。",
+      "keywords": "曹小歐 Otis Tsao 口琴 單口喜劇 藍調口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://portaly.cc/otistsao"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/otis5hundredtsao/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/otistsao/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@otistsao"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-21T09:42:21+00:00",
+      "latestUpdateLocal": "2026-07-21 17:42",
+      "latestUpdateSource": "曹小歐",
+      "latestUpdateUrl": "https://www.instagram.com/stories/otistsao/3946059254691600923/",
+      "avatarUrl": "/assets/source-avatars/6bb91ef54d045d117942.webp",
+      "sourceInitials": "曹小",
+      "sourceTags": [
+        "演奏者",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_otis5hundredtsao",
+          "name": "曹小歐",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/otis5hundredtsao",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_otistsao",
+          "name": "曹小歐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "otistsao",
+          "profileUrl": "https://www.instagram.com/otistsao/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_otistsao",
+          "name": "曹小歐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "otistsao",
+          "profileUrl": "https://www.instagram.com/otistsao/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/otistsao/story/0"
+        },
+        {
+          "id": "threads_otistsao",
+          "name": "曹小歐",
+          "platform": "threads",
+          "type": "rss",
+          "username": "otistsao",
+          "profileUrl": "https://www.threads.net/@otistsao",
+          "feedUrl": "https://rss.observe.tw/threads/otistsao"
+        },
+        {
+          "id": "yt_ucbdafdgrntui_iqtg9e4bmw",
+          "name": "曹小歐",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-125",
+      "publicId": "125",
+      "name": "Jens Bunge",
+      "nameEn": "Jens Bunge",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "德國",
+      "region": "德國",
+      "cityOrFocus": "德國爵士口琴/半音階演奏/國際演出與錄音",
+      "structuredSummary": "德國爵士口琴/半音階演奏/國際演出與錄音 / 半音階/爵士口琴 / 國際演出人員",
+      "summary": "德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。",
+      "keywords": "Jens Bunge jazz harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hohner.de/en/jens-bunge"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jensbunge.jazzharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@jensbunge"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-21T08:42:44+00:00",
+      "latestUpdateLocal": "2026-07-21 16:42",
+      "latestUpdateSource": "Jens Bunge",
+      "latestUpdateUrl": "https://www.instagram.com/stories/jensbunge.jazzharmonica/3946029249508248766/",
+      "avatarUrl": "/assets/source-avatars/59b1b52b1b0ff0b2d1e7.webp",
+      "sourceInitials": "JB",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_jensbunge_jazzharmonica",
+          "name": "Jens Bunge",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jensbunge.jazzharmonica",
+          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jensbunge_jazzharmonica",
+          "name": "Jens Bunge",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jensbunge.jazzharmonica",
+          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/jensbunge.jazzharmonica/story/0"
+        },
+        {
+          "id": "yt_jensbunge",
+          "name": "Jens Bunge",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@jensbunge",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-103",
       "publicId": "103",
       "name": "陳瑤容 Yora Chen",
@@ -433,6 +687,99 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/jongseongpark",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-3",
+      "publicId": "3",
+      "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+      "nameEn": "Sirius Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/公演/THMF/國際交流",
+      "structuredSummary": "重奏/公演/THMF/國際交流 / 口琴重奏/合奏 / 演出團體",
+      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與THMF。",
+      "keywords": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/SiriusHarp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/siriusharmonicaensemble/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/SiriusHARP"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@siriusharmonicaensemble"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-21T06:53:08+00:00",
+      "latestUpdateLocal": "2026-07-21 14:53",
+      "latestUpdateSource": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/stories/siriusharmonicaensemble/3945974084098280500/",
+      "avatarUrl": "/assets/source-avatars/92b5c7da36e794579aae.webp",
+      "sourceInitials": "SHE",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_siriusharp",
+          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/SiriusHarp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_siriusharmonicaensemble",
+          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "siriusharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/siriusharmonicaensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_siriusharmonicaensemble",
+          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "siriusharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/siriusharmonicaensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/siriusharmonicaensemble/story/0"
+        },
+        {
+          "id": "threads_siriusharmonicaensemble",
+          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+          "platform": "threads",
+          "type": "rss",
+          "username": "siriusharmonicaensemble",
+          "profileUrl": "https://www.threads.net/@siriusharmonicaensemble",
+          "feedUrl": "https://rss.observe.tw/threads/siriusharmonicaensemble"
+        },
+        {
+          "id": "yt_siriusharp",
+          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/SiriusHARP",
           "feedUrl": ""
         }
       ]
@@ -1271,189 +1618,6 @@
       ]
     },
     {
-      "id": "watchlist-54",
-      "publicId": "54",
-      "name": "CY Leo 何卓彥",
-      "nameEn": "CY Leo",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/現代跨界",
-      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
-      "summary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "keywords": "CY Leo 何卓彥 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.cyleomusic.io/profile"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Cyleoharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/cy_leo/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@cyleoharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-20T16:44:19+00:00",
-      "latestUpdateLocal": "2026-07-21 00:44",
-      "latestUpdateSource": "CY Leo 何卓彥",
-      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3945546868214354710/",
-      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
-      "sourceInitials": "CL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
-      "monitorSources": [
-        {
-          "id": "fb_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Cyleoharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
-        },
-        {
-          "id": "yt_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@cyleoharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-100",
-      "publicId": "100",
-      "name": "曹小歐",
-      "nameEn": "Otis Tsao",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "單口喜劇/藍調口琴/演出",
-      "structuredSummary": "單口喜劇/藍調口琴/演出 / 十孔/藍調口琴 / 演出人員",
-      "summary": "臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。",
-      "keywords": "曹小歐 Otis Tsao 口琴 單口喜劇 藍調口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/otistsao"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/otis5hundredtsao/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/otistsao/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@otistsao"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-20T16:27:06+00:00",
-      "latestUpdateLocal": "2026-07-21 00:27",
-      "latestUpdateSource": "曹小歐",
-      "latestUpdateUrl": "https://www.instagram.com/stories/otistsao/3945538200533571069/",
-      "avatarUrl": "/assets/source-avatars/6bb91ef54d045d117942.webp",
-      "sourceInitials": "曹小",
-      "sourceTags": [
-        "演奏者",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_otis5hundredtsao",
-          "name": "曹小歐",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/otis5hundredtsao",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_otistsao",
-          "name": "曹小歐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "otistsao",
-          "profileUrl": "https://www.instagram.com/otistsao/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_otistsao",
-          "name": "曹小歐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "otistsao",
-          "profileUrl": "https://www.instagram.com/otistsao/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/otistsao/story/0"
-        },
-        {
-          "id": "threads_otistsao",
-          "name": "曹小歐",
-          "platform": "threads",
-          "type": "rss",
-          "username": "otistsao",
-          "profileUrl": "https://www.threads.net/@otistsao",
-          "feedUrl": "https://rss.observe.tw/threads/otistsao"
-        },
-        {
-          "id": "yt_ucbdafdgrntui_iqtg9e4bmw",
-          "name": "曹小歐",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-97",
       "publicId": "97",
       "name": "進擊的口琴樂團",
@@ -1581,77 +1745,6 @@
           "username": "harmonica_wang",
           "profileUrl": "https://www.threads.net/@harmonica_wang",
           "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-125",
-      "publicId": "125",
-      "name": "Jens Bunge",
-      "nameEn": "Jens Bunge",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "德國",
-      "region": "德國",
-      "cityOrFocus": "德國爵士口琴/半音階演奏/國際演出與錄音",
-      "structuredSummary": "德國爵士口琴/半音階演奏/國際演出與錄音 / 半音階/爵士口琴 / 國際演出人員",
-      "summary": "德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。",
-      "keywords": "Jens Bunge jazz harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://hohner.de/en/jens-bunge"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jensbunge.jazzharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@jensbunge"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-20T13:35:49+00:00",
-      "latestUpdateLocal": "2026-07-20 21:35",
-      "latestUpdateSource": "Jens Bunge",
-      "latestUpdateUrl": "https://www.instagram.com/stories/jensbunge.jazzharmonica/3945451996625664814/",
-      "avatarUrl": "/assets/source-avatars/59b1b52b1b0ff0b2d1e7.webp",
-      "sourceInitials": "JB",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_jensbunge_jazzharmonica",
-          "name": "Jens Bunge",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jensbunge.jazzharmonica",
-          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jensbunge_jazzharmonica",
-          "name": "Jens Bunge",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jensbunge.jazzharmonica",
-          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jensbunge.jazzharmonica/story/0"
-        },
-        {
-          "id": "yt_jensbunge",
-          "name": "Jens Bunge",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@jensbunge",
-          "feedUrl": ""
         }
       ]
     },
@@ -4057,99 +4150,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/weissenberg1979",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-3",
-      "publicId": "3",
-      "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-      "nameEn": "Sirius Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/公演/THMF/國際交流",
-      "structuredSummary": "重奏/公演/THMF/國際交流 / 口琴重奏/合奏 / 演出團體",
-      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與THMF。",
-      "keywords": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/SiriusHarp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/siriusharmonicaensemble/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/SiriusHARP"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@siriusharmonicaensemble"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-19T07:20:38+00:00",
-      "latestUpdateLocal": "2026-07-19 15:20",
-      "latestUpdateSource": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/stories/siriusharmonicaensemble/3944538374119718569/",
-      "avatarUrl": "/assets/source-avatars/92b5c7da36e794579aae.webp",
-      "sourceInitials": "SHE",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_siriusharp",
-          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/SiriusHarp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_siriusharmonicaensemble",
-          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "siriusharmonicaensemble",
-          "profileUrl": "https://www.instagram.com/siriusharmonicaensemble/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_siriusharmonicaensemble",
-          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "siriusharmonicaensemble",
-          "profileUrl": "https://www.instagram.com/siriusharmonicaensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/siriusharmonicaensemble/story/0"
-        },
-        {
-          "id": "threads_siriusharmonicaensemble",
-          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-          "platform": "threads",
-          "type": "rss",
-          "username": "siriusharmonicaensemble",
-          "profileUrl": "https://www.threads.net/@siriusharmonicaensemble",
-          "feedUrl": "https://rss.observe.tw/threads/siriusharmonicaensemble"
-        },
-        {
-          "id": "yt_siriusharp",
-          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/SiriusHARP",
           "feedUrl": ""
         }
       ]
