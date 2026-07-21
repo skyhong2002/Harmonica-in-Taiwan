@@ -7,8 +7,256 @@
   "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
   "json": "https://harmonica.observe.tw/api/student-clubs.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/student-clubs.json",
-  "count": 105,
+  "count": 108,
   "items": [
+    {
+      "title": "中山醫學大學藍韻口琴社｜50屆藍韻口琴社成發 星空下的珍珠情懷 【獨奏-Les rois du monde（世界之王）】+串場 曲目：Les rois du monde（世界之王） 複音口琴：陳姵羽",
+      "headline": "50屆藍韻口琴社成發 星空下的珍珠情懷 【獨奏-Les rois du monde（世界之王）】+串場",
+      "display_title": "50屆藍韻口琴社成發 星空下的珍珠情懷 【獨奏-Les rois du monde（世界之王）】+串場",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=ez9S0OY4_NE",
+      "source_id": "yt_10f4784559",
+      "source": "中山醫學大學藍韻口琴社",
+      "source_system_name": "中山醫藍韻口琴社",
+      "source_profile_url": "https://www.youtube.com/channel/UCaurSOmVAe602-tib7bHRaQ",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "directory_entry_id": "watchlist-187",
+      "directory_entry_name": "中山醫藍韻口琴社",
+      "account": "https://www.youtube.com/channel/UCaurSOmVAe602-tib7bHRaQ",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-07-21T12:00:10+00:00",
+      "posted_at_local": "2026-07-21 20:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-21T23:05:21.105833+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "成發",
+        "影片"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "成發"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.99,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "成發",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴社成發影片，內容明確為口琴演出與公開更新。",
+      "text": "50屆藍韻口琴社成發 星空下的珍珠情懷 【獨奏-Les rois du monde（世界之王）】+串場\n曲目：Les rois du monde（世界之王）\n複音口琴：陳姵羽",
+      "images": [
+        "https://i.ytimg.com/vi/ez9S0OY4_NE/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/ez9S0OY4_NE/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/96c207aba20fee109ddc.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_kFcXQiAWnJFS3A667SUFtMlonE7gOQNPEQ92GovHE=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/542e90d390490a3d0562.webp",
+      "source_initials": "中山",
+      "categories": [
+        "posts-videos",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "學生社團"
+      ],
+      "key": "yt_10f4784559:ez9S0OY4_NE"
+    },
+    {
+      "title": "中山醫學大學藍韻口琴社｜50屆藍韻口琴社成發 星空下的珍珠情懷 【獨奏-余花にみとれて】+串場 曲目：余花にみとれて 複音口琴：曹菀霖",
+      "headline": "50屆藍韻口琴社成發 星空下的珍珠情懷 【獨奏-余花にみとれて】+串場",
+      "display_title": "50屆藍韻口琴社成發 星空下的珍珠情懷 【獨奏-余花にみとれて】+串場",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=l7SltDoMFgk",
+      "source_id": "yt_10f4784559",
+      "source": "中山醫學大學藍韻口琴社",
+      "source_system_name": "中山醫藍韻口琴社",
+      "source_profile_url": "https://www.youtube.com/channel/UCaurSOmVAe602-tib7bHRaQ",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "directory_entry_id": "watchlist-187",
+      "directory_entry_name": "中山醫藍韻口琴社",
+      "account": "https://www.youtube.com/channel/UCaurSOmVAe602-tib7bHRaQ",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-07-21T11:54:53+00:00",
+      "posted_at_local": "2026-07-21 19:54",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-21T23:05:21.105833+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "成發",
+        "演出",
+        "影片",
+        "學生社團"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "成發"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.99,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "成發",
+        "演出",
+        "影片",
+        "學生社團"
+      ],
+      "llm_categories": [
+        "posts-videos",
+        "student-clubs"
+      ],
+      "llm_reason": "中山醫藍韻口琴社成發影片，內容明確為口琴演出與社團公開更新。",
+      "text": "50屆藍韻口琴社成發 星空下的珍珠情懷 【獨奏-余花にみとれて】+串場\n曲目：余花にみとれて\n複音口琴：曹菀霖",
+      "images": [
+        "https://i.ytimg.com/vi/l7SltDoMFgk/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/l7SltDoMFgk/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/f199f9f52f7ab374a0f4.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_kFcXQiAWnJFS3A667SUFtMlonE7gOQNPEQ92GovHE=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/542e90d390490a3d0562.webp",
+      "source_initials": "中山",
+      "categories": [
+        "posts-videos",
+        "student-clubs",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "學生社團",
+        "公開活動"
+      ],
+      "key": "yt_10f4784559:l7SltDoMFgk"
+    },
+    {
+      "title": "中山醫學大學藍韻口琴社｜50屆藍韻口琴社成發 星空下的珍珠情懷 【獨奏-Still Into You】+串場 曲目：Still Into You 複音口琴：溫子晴",
+      "headline": "50屆藍韻口琴社成發 星空下的珍珠情懷 【獨奏-Still Into You】+串場",
+      "display_title": "50屆藍韻口琴社成發 星空下的珍珠情懷 【獨奏-Still Into You】+串場",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=NXYmm0xUYJo",
+      "source_id": "yt_10f4784559",
+      "source": "中山醫學大學藍韻口琴社",
+      "source_system_name": "中山醫藍韻口琴社",
+      "source_profile_url": "https://www.youtube.com/channel/UCaurSOmVAe602-tib7bHRaQ",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "directory_entry_id": "watchlist-187",
+      "directory_entry_name": "中山醫藍韻口琴社",
+      "account": "https://www.youtube.com/channel/UCaurSOmVAe602-tib7bHRaQ",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-07-21T11:50:29+00:00",
+      "posted_at_local": "2026-07-21 19:50",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-21T23:05:21.105833+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "成發",
+        "演出",
+        "影片",
+        "學生社團"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "成發"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.99,
+      "llm_labels": [
+        "口琴",
+        "成發",
+        "演出",
+        "影片",
+        "學生社團"
+      ],
+      "llm_categories": [
+        "posts-videos",
+        "student-clubs"
+      ],
+      "llm_reason": "中山醫藍韻口琴社成發影片，內容明確為口琴演出與社團公開更新。",
+      "text": "50屆藍韻口琴社成發 星空下的珍珠情懷 【獨奏-Still Into You】+串場\n曲目：Still Into You\n複音口琴：溫子晴",
+      "images": [
+        "https://i.ytimg.com/vi/NXYmm0xUYJo/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/NXYmm0xUYJo/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/de419b2e7b6f93aface0.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_kFcXQiAWnJFS3A667SUFtMlonE7gOQNPEQ92GovHE=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/542e90d390490a3d0562.webp",
+      "source_initials": "中山",
+      "categories": [
+        "posts-videos",
+        "student-clubs",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "學生社團",
+        "公開活動"
+      ],
+      "key": "yt_10f4784559:NXYmm0xUYJo"
+    },
     {
       "title": "臺中國家歌劇院｜@nationaltaichungtheater: 《如蝶翩翩》演出倒數中！ ​ 直擊舞者排練現場❤️‍🔥 首爾藝術團@spac_stagram 編舞家柳會雄，親自指導臺灣體育大學舞蹈系的學... @nationaltai…",
       "headline": "@nationaltaichungtheater: 《如蝶翩翩》演出倒數中！ ​ 直擊舞者排練現場❤️‍🔥 首爾藝術團@spac_stagram 編舞家柳會雄，親自指導臺灣體育大學舞蹈系的學...",
