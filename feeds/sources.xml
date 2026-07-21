@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 21 Jul 2026 19:11:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 19:44:16 +0000</lastBuildDate>
+    <item>
+      <title>黃冠誌</title>
+      <link>https://harmonica.tw/course/kuanchih/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、合奏、和弦、重奏、演出
+國家：臺灣
+地區：臺灣
+口琴演奏者，專長和弦口琴與重奏演出。</description>
+    </item>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -27,6 +38,17 @@ Tag：演奏者、半音階、重奏
 國家：臺灣
 地區：臺灣
 臺灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。</description>
+    </item>
+    <item>
+      <title>藤井俊充</title>
+      <link>https://www.facebook.com/100091746706247/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/28e123623573acec</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、十孔、國際交流
+國家：日本
+地區：日本/臺灣爵士圈
+日本的十孔與爵士口琴國際演出人員，活動脈絡包含爵士與跨界。</description>
     </item>
     <item>
       <title>臺中國家歌劇院</title>
@@ -170,17 +192,6 @@ Tag：教學器材、教學、課程
 國家：臺灣
 地區：臺灣
 臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。</description>
-    </item>
-    <item>
-      <title>黃冠誌</title>
-      <link>https://harmonica.tw/course/kuanchih/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、合奏、和弦、重奏、演出
-國家：臺灣
-地區：臺灣
-口琴演奏者，專長和弦口琴與重奏演出。</description>
     </item>
     <item>
       <title>菜鳥琴老師很菜</title>
@@ -335,17 +346,6 @@ Tag：演奏者、比賽、半音階、國際交流
 國家：香港
 地區：香港
 香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。</description>
-    </item>
-    <item>
-      <title>藤井俊充</title>
-      <link>https://www.facebook.com/100091746706247/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/28e123623573acec</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、十孔、國際交流
-國家：日本
-地區：日本/臺灣爵士圈
-日本的十孔與爵士口琴國際演出人員，活動脈絡包含爵士與跨界。</description>
     </item>
     <item>
       <title>茱蒂口琴樂團 Judy's Harmonica Ensemble</title>
@@ -1006,6 +1006,17 @@ Tag：演奏者、教學、複音
 國家：臺灣
 地區：臺灣
 臺灣的複音演出人員，活動脈絡包含教學與演出。</description>
+    </item>
+    <item>
+      <title>狂響口琴樂團 Rhapsody Harmonica Ensemble</title>
+      <link>https://www.facebook.com/RhapsodyHarmonicaEnsemble/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/7bae1fa1cd9216f6</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏
+國家：臺灣
+地區：臺灣
+臺灣的口琴重奏與合奏演出團體，活動脈絡包含地方演出與老牌合奏。</description>
     </item>
     <item>
       <title>巴巴口琴坊</title>
@@ -1787,17 +1798,6 @@ Tag：團體樂團、國際交流
 國家：新加坡
 地區：新加坡
 新加坡的口琴合奏國際演出團體，活動脈絡包含會館口琴樂團、社區合奏與演出。</description>
-    </item>
-    <item>
-      <title>狂響口琴樂團 Rhapsody Harmonica Ensemble</title>
-      <link>https://www.facebook.com/RhapsodyHarmonicaEnsemble/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/7bae1fa1cd9216f6</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏
-國家：臺灣
-地區：臺灣
-臺灣的口琴重奏與合奏演出團體，活動脈絡包含地方演出與老牌合奏。</description>
     </item>
     <item>
       <title>臺中市中華口琴會</title>

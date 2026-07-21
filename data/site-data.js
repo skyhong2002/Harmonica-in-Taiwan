@@ -2,6 +2,81 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-22",
   "entries": [
     {
+      "id": "watchlist-33",
+      "publicId": "33",
+      "name": "黃冠誌",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
+      "structuredSummary": "天狼星/胖擊系/和弦口琴/重奏 / 和弦/重奏 / 演出人員",
+      "summary": "口琴演奏者，專長和弦口琴與重奏演出。",
+      "keywords": "黃冠誌 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/kuanchih/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hk91f06/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-21T18:42:17+00:00",
+      "latestUpdateLocal": "2026-07-22 02:42",
+      "latestUpdateSource": "黃冠誌",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3946331022866052623/",
+      "avatarUrl": "/assets/source-avatars/1c6e560eec687ecfbf6c.webp",
+      "sourceInitials": "黃冠",
+      "sourceTags": [
+        "演奏者",
+        "合奏",
+        "和弦",
+        "重奏",
+        "演出"
+      ],
+      "sourceSummary": "口琴演奏者，專長和弦口琴與重奏演出。",
+      "sourceTagReason": "來源明確標示為個人與演奏者，且專長涉及和弦、重奏與演出。",
+      "monitorSources": [
+        {
+          "id": "ig_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
+        },
+        {
+          "id": "yt_cbd128e3de",
+          "name": "黃冠誌",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -182,6 +257,86 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@keriw128",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-60",
+      "publicId": "60",
+      "name": "藤井俊充",
+      "nameEn": "Toshi Fujii",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本/臺灣爵士圈",
+      "cityOrFocus": "爵士/跨界",
+      "structuredSummary": "爵士/跨界 / 十孔/爵士口琴 / 國際演出人員",
+      "summary": "日本的十孔與爵士口琴國際演出人員，活動脈絡包含爵士與跨界。",
+      "keywords": "藤井俊充 Toshi Fujii harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/100091746706247/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/toshimiller/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-21T15:21:37+00:00",
+      "latestUpdateLocal": "2026-07-21 23:21",
+      "latestUpdateSource": "藤井俊充",
+      "latestUpdateUrl": "https://www.instagram.com/stories/toshimiller/3946230016228932604/",
+      "avatarUrl": "/assets/source-avatars/4bb635c300ca59217474.webp",
+      "sourceInitials": "藤井",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_100091746706247",
+          "name": "藤井俊充",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/100091746706247",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_toshimiller",
+          "name": "藤井俊充",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "toshimiller",
+          "profileUrl": "https://www.instagram.com/toshimiller/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/toshimiller/story/0"
+        },
+        {
+          "id": "ig_toshimiller",
+          "name": "藤井俊充",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "toshimiller",
+          "profileUrl": "https://www.instagram.com/toshimiller/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_uczvwagm6xsebpi_x5h1zohw",
+          "name": "藤井俊充",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw",
           "feedUrl": ""
         }
       ]
@@ -1272,81 +1427,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@lamberharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-33",
-      "publicId": "33",
-      "name": "黃冠誌",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
-      "structuredSummary": "天狼星/胖擊系/和弦口琴/重奏 / 和弦/重奏 / 演出人員",
-      "summary": "口琴演奏者，專長和弦口琴與重奏演出。",
-      "keywords": "黃冠誌 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/kuanchih/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hk91f06/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-21T03:01:34+00:00",
-      "latestUpdateLocal": "2026-07-21 11:01",
-      "latestUpdateSource": "黃冠誌",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3945857535785205379/",
-      "avatarUrl": "/assets/source-avatars/1c6e560eec687ecfbf6c.webp",
-      "sourceInitials": "黃冠",
-      "sourceTags": [
-        "演奏者",
-        "合奏",
-        "和弦",
-        "重奏",
-        "演出"
-      ],
-      "sourceSummary": "口琴演奏者，專長和弦口琴與重奏演出。",
-      "sourceTagReason": "來源明確標示為個人與演奏者，且專長涉及和弦、重奏與演出。",
-      "monitorSources": [
-        {
-          "id": "ig_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
-        },
-        {
-          "id": "yt_cbd128e3de",
-          "name": "黃冠誌",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
           "feedUrl": ""
         }
       ]
@@ -2458,86 +2538,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-60",
-      "publicId": "60",
-      "name": "藤井俊充",
-      "nameEn": "Toshi Fujii",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本/臺灣爵士圈",
-      "cityOrFocus": "爵士/跨界",
-      "structuredSummary": "爵士/跨界 / 十孔/爵士口琴 / 國際演出人員",
-      "summary": "日本的十孔與爵士口琴國際演出人員，活動脈絡包含爵士與跨界。",
-      "keywords": "藤井俊充 Toshi Fujii harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/100091746706247/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/toshimiller/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-20T09:49:52+00:00",
-      "latestUpdateLocal": "2026-07-20 17:49",
-      "latestUpdateSource": "藤井俊充",
-      "latestUpdateUrl": "https://www.instagram.com/stories/toshimiller/3945338264424966739/",
-      "avatarUrl": "/assets/source-avatars/4bb635c300ca59217474.webp",
-      "sourceInitials": "藤井",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_100091746706247",
-          "name": "藤井俊充",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/100091746706247",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_toshimiller",
-          "name": "藤井俊充",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "toshimiller",
-          "profileUrl": "https://www.instagram.com/toshimiller/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/toshimiller/story/0"
-        },
-        {
-          "id": "ig_toshimiller",
-          "name": "藤井俊充",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "toshimiller",
-          "profileUrl": "https://www.instagram.com/toshimiller/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_uczvwagm6xsebpi_x5h1zohw",
-          "name": "藤井俊充",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw",
           "feedUrl": ""
         }
       ]
@@ -6043,7 +6043,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-16 01:37",
       "latestUpdateSource": "Harmonica FEN 口琴節與學院",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=w4nD-kaUzE4",
-      "avatarUrl": "/assets/source-avatars/93a3e78c4a746305a908.webp",
+      "avatarUrl": "/assets/source-avatars/592a4c11d6fb56190c0b.webp",
       "sourceInitials": "HF",
       "sourceTags": [
         "活動資訊",
@@ -7167,6 +7167,50 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/mandy730508",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-6",
+      "publicId": "6",
+      "name": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
+      "nameEn": "Rhapsody Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "合奏/地方演出/老牌合奏",
+      "structuredSummary": "合奏/地方演出/老牌合奏 / 口琴重奏/合奏 / 演出團體",
+      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含地方演出與老牌合奏。",
+      "keywords": "Rhapsody Harmonica Ensemble 狂響口琴樂團",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/RhapsodyHarmonicaEnsemble/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-08T14:53:31+00:00",
+      "latestUpdateLocal": "2026-07-08 22:53",
+      "latestUpdateSource": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.facebook.com/RhapsodyHarmonicaEnsemble/posts/pfbid0CN8B9ucWtxt9hkw2fcsPfRveJjUd5Y5D6noberkwy4MMM6bmgnCd9K6vtGGmxAtfl",
+      "avatarUrl": "/assets/source-avatars/304ed213cf955de4f999.webp",
+      "sourceInitials": "RHE",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_rhapsodyharmonicaensemble",
+          "name": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/RhapsodyHarmonicaEnsemble",
           "feedUrl": ""
         }
       ]
@@ -11969,50 +12013,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@hnhkharmonica5296",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-6",
-      "publicId": "6",
-      "name": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
-      "nameEn": "Rhapsody Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "合奏/地方演出/老牌合奏",
-      "structuredSummary": "合奏/地方演出/老牌合奏 / 口琴重奏/合奏 / 演出團體",
-      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含地方演出與老牌合奏。",
-      "keywords": "Rhapsody Harmonica Ensemble 狂響口琴樂團",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/RhapsodyHarmonicaEnsemble/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/304ed213cf955de4f999.webp",
-      "sourceInitials": "RHE",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_rhapsodyharmonicaensemble",
-          "name": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/RhapsodyHarmonicaEnsemble",
           "feedUrl": ""
         }
       ]

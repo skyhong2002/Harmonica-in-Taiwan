@@ -1,11 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-21T19:11:02.931190Z",
+  "generatedAt": "2026-07-21T19:44:16.138477Z",
   "source": {
     "id": 6,
     "slug": "rhapsody-harmonica-ensemble",
     "name": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
     "pageUrl": "https://harmonica.observe.tw/source/6-rhapsody-harmonica-ensemble/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-e3c1a4e127e93507c8e47a74",
+      "title": "狂響團長的複音大作(?)，曲子乍聽不難，但其實隱藏許多細節。",
+      "excerpt": "狂響團長的複音大作(?)，曲子乍聽不難，但其實隱藏許多細節。",
+      "url": "https://www.facebook.com/RhapsodyHarmonicaEnsemble/posts/pfbid0CN8B9ucWtxt9hkw2fcsPfRveJjUd5Y5D6noberkwy4MMM6bmgnCd9K6vtGGmxAtfl",
+      "sourceName": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
+      "platform": "Facebook",
+      "publishedAt": "2026-07-08T14:53:31Z"
+    }
+  ]
 }
