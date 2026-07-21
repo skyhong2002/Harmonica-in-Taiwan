@@ -880,6 +880,87 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-219",
+      "publicId": "219",
+      "name": "IniXial Harmonica Ensemble 源創口琴樂團",
+      "nameEn": "IniXial Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/公演/新興團體",
+      "structuredSummary": "重奏/公演/新興團體 / 口琴重奏 / 演出團體",
+      "summary": "「IniXial Harmonica Ensemble 源創口琴樂團」成立於2024年，由半音階口琴、倍低音口琴、和弦口琴等純口琴樂器組成，是個融合不同聲部的特殊編制重奏團體。團員除身為演奏者之外，同時具有創作編曲與現場演出能力。源創口琴樂團期許透過演出，呈現樂曲的原創概念以及熱愛音樂的初衷。 See the latest...",
+      "keywords": "IniXial Harmonica Ensemble 源創口琴樂團 IniXial 口琴樂團",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/profile.php?id=61590218560112"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/inixial.muse/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@inixial.muse"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-20T13:03:51+00:00",
+      "latestUpdateLocal": "2026-07-20 21:03",
+      "latestUpdateSource": "IniXial Harmonica Ensemble 源創口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/stories/inixial.muse/3945435964457843271/",
+      "avatarUrl": "/assets/source-avatars/25eb88e4d5f5e15f0167.webp",
+      "sourceInitials": "IHE",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "sourceSummary": "「IniXial Harmonica Ensemble 源創口琴樂團」成立於2024年，由半音階口琴、倍低音口琴、和弦口琴等純口琴樂器組成，是個融合不同聲部的特殊編制重奏團體。團員除身為演奏者之外，同時具有創作編曲與現場演出能力。源創口琴樂團期許透過演出，呈現樂曲的原創概念以及熱愛音樂的初衷。 See the latest...",
+      "sourceTagReason": "社群網站公開自我敘述。",
+      "monitorSources": [
+        {
+          "id": "fb_7112134202",
+          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/profile.php?id=61590218560112",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_inixial_muse",
+          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "inixial.muse",
+          "profileUrl": "https://www.instagram.com/inixial.muse/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_inixial_muse",
+          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "inixial.muse",
+          "profileUrl": "https://www.instagram.com/inixial.muse/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/inixial.muse/story/0"
+        },
+        {
+          "id": "threads_inixial_muse",
+          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
+          "platform": "threads",
+          "type": "rss",
+          "username": "inixial.muse",
+          "profileUrl": "https://www.threads.net/@inixial.muse",
+          "feedUrl": "https://rss.observe.tw/threads/inixial.muse"
+        }
+      ]
+    },
+    {
       "id": "watchlist-139",
       "publicId": "139",
       "name": "Lee Oskar",
@@ -7513,87 +7594,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/c/jongseongpark",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-219",
-      "publicId": "219",
-      "name": "IniXial Harmonica Ensemble 源創口琴樂團",
-      "nameEn": "IniXial Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/公演/新興團體",
-      "structuredSummary": "重奏/公演/新興團體 / 口琴重奏 / 演出團體",
-      "summary": "「IniXial Harmonica Ensemble 源創口琴樂團」成立於2024年，由半音階口琴、倍低音口琴、和弦口琴等純口琴樂器組成，是個融合不同聲部的特殊編制重奏團體。團員除身為演奏者之外，同時具有創作編曲與現場演出能力。源創口琴樂團期許透過演出，呈現樂曲的原創概念以及熱愛音樂的初衷。 See the latest...",
-      "keywords": "IniXial Harmonica Ensemble 源創口琴樂團 IniXial 口琴樂團",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/profile.php?id=61590218560112"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/inixial.muse/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@inixial.muse"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-04T15:24:19+00:00",
-      "latestUpdateLocal": "2026-07-04 23:24",
-      "latestUpdateSource": "IniXial Harmonica Ensemble 源創口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/inixial.muse/3933910278521957049/",
-      "avatarUrl": "/assets/source-avatars/25eb88e4d5f5e15f0167.webp",
-      "sourceInitials": "IHE",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "sourceSummary": "「IniXial Harmonica Ensemble 源創口琴樂團」成立於2024年，由半音階口琴、倍低音口琴、和弦口琴等純口琴樂器組成，是個融合不同聲部的特殊編制重奏團體。團員除身為演奏者之外，同時具有創作編曲與現場演出能力。源創口琴樂團期許透過演出，呈現樂曲的原創概念以及熱愛音樂的初衷。 See the latest...",
-      "sourceTagReason": "社群網站公開自我敘述。",
-      "monitorSources": [
-        {
-          "id": "fb_7112134202",
-          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/profile.php?id=61590218560112",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_inixial_muse",
-          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "inixial.muse",
-          "profileUrl": "https://www.instagram.com/inixial.muse/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_inixial_muse",
-          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "inixial.muse",
-          "profileUrl": "https://www.instagram.com/inixial.muse/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/inixial.muse/story/0"
-        },
-        {
-          "id": "threads_inixial_muse",
-          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
-          "platform": "threads",
-          "type": "rss",
-          "username": "inixial.muse",
-          "profileUrl": "https://www.threads.net/@inixial.muse",
-          "feedUrl": "https://rss.observe.tw/threads/inixial.muse"
         }
       ]
     },
