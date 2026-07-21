@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-21T06:37:19.245377Z",
+  "generatedAt": "2026-07-21T07:41:20.635395Z",
   "source": {
     "id": 54,
     "slug": "cy-leo",
@@ -124,15 +124,6 @@
       "sourceName": "CY Leo 何卓彥",
       "platform": "Facebook",
       "publishedAt": "2026-06-22T13:22:01Z"
-    },
-    {
-      "id": "post-01ed8cbc87db4cb3e010a499",
-      "title": "(Cover) 單車 - 陳奕迅 by Cy Leo & PC Ho",
-      "excerpt": "(Cover) 單車 - 陳奕迅 by Cy Leo & PC Ho Happy Father's Day! A cover on the classic canto pop together with our friend Freeman Lok and Justin Siu. Comment below if you would like to get the PDF of the duo score.",
-      "url": "https://www.youtube.com/watch?v=zter9cMnXFQ",
-      "sourceName": "CY Leo 何卓彥",
-      "platform": "YouTube",
-      "publishedAt": "2026-06-21T07:05:36Z"
     }
   ]
 }
