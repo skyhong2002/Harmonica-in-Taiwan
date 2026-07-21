@@ -2,6 +2,101 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-21",
   "entries": [
     {
+      "id": "watchlist-103",
+      "publicId": "103",
+      "name": "陳瑤容 Yora Chen",
+      "nameEn": "Yora Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "鋼琴合作/編曲創作/口琴合作",
+      "structuredSummary": "鋼琴合作/編曲創作/口琴合作 / 鋼琴/編曲/口琴合作 / 合作音樂家/編曲者",
+      "summary": "臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。",
+      "keywords": "Yora Chen 陳瑤容 陳瑶容 口琴 編曲 鋼琴合作 111 Quintet",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://portaly.cc/YoraChen"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/aike9115"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/_yora._/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@iamxyora"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@_yora._"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-21T08:41:27+00:00",
+      "latestUpdateLocal": "2026-07-21 16:41",
+      "latestUpdateSource": "陳瑤容 Yora Chen",
+      "latestUpdateUrl": "https://www.instagram.com/stories/_yora._/3946028639082079124/",
+      "avatarUrl": "/assets/source-avatars/9260183f6409bf3c1918.webp",
+      "sourceInitials": "YC",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_aike9115",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/aike9115",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "_yora._",
+          "profileUrl": "https://www.instagram.com/_yora._/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/_yora._/story/0"
+        },
+        {
+          "id": "ig_yora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "_yora._",
+          "profileUrl": "https://www.instagram.com/_yora._/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_yora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "threads",
+          "type": "rss",
+          "username": "_yora._",
+          "profileUrl": "https://www.threads.net/@_yora._",
+          "feedUrl": "https://rss.observe.tw/threads/_yora._"
+        },
+        {
+          "id": "yt_iamxyora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@iamxyora",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-65",
       "publicId": "65",
       "name": "Jong-seong Park 朴鍾聲",
@@ -529,6 +624,91 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-142",
+      "publicId": "142",
+      "name": "Howard Levy",
+      "nameEn": "Howard Levy",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "美國",
+      "region": "美國",
+      "cityOrFocus": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興",
+      "structuredSummary": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興 / 半音階/十孔/鋼琴 / 國際演出人員/作曲者/教育者",
+      "summary": "美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。",
+      "keywords": "Howard Levy harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://levyland.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HowardLevyFanPage/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/howardlevyland/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-20T21:22:36+00:00",
+      "latestUpdateLocal": "2026-07-21 05:22",
+      "latestUpdateSource": "Howard Levy",
+      "latestUpdateUrl": "https://www.instagram.com/stories/howardlevyland/3945686936844851906/",
+      "avatarUrl": "/assets/source-avatars/fdb08c71103b5e8ceb5b.webp",
+      "sourceInitials": "HL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_howardlevyfanpage",
+          "name": "Howard Levy",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HowardLevyFanPage",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_howardlevyland",
+          "name": "Howard Levy",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "howardlevyland",
+          "profileUrl": "https://www.instagram.com/howardlevyland/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_howardlevyland",
+          "name": "Howard Levy",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "howardlevyland",
+          "profileUrl": "https://www.instagram.com/howardlevyland/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/howardlevyland/story/0"
+        },
+        {
+          "id": "yt_uc86aeg8s_npzmfuj_cyxw",
+          "name": "Howard Levy",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-183",
       "publicId": "183",
       "name": "EMPA 口琴課程",
@@ -585,91 +765,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "empa.oficial",
           "profileUrl": "https://www.instagram.com/empa.oficial/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/empa.oficial/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-142",
-      "publicId": "142",
-      "name": "Howard Levy",
-      "nameEn": "Howard Levy",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "美國",
-      "region": "美國",
-      "cityOrFocus": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興",
-      "structuredSummary": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興 / 半音階/十孔/鋼琴 / 國際演出人員/作曲者/教育者",
-      "summary": "美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。",
-      "keywords": "Howard Levy harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://levyland.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HowardLevyFanPage/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/howardlevyland/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-20T18:06:34+00:00",
-      "latestUpdateLocal": "2026-07-21 02:06",
-      "latestUpdateSource": "Howard Levy",
-      "latestUpdateUrl": "https://www.instagram.com/stories/howardlevyland/3945588262487809214/",
-      "avatarUrl": "/assets/source-avatars/fdb08c71103b5e8ceb5b.webp",
-      "sourceInitials": "HL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_howardlevyfanpage",
-          "name": "Howard Levy",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HowardLevyFanPage",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_howardlevyland",
-          "name": "Howard Levy",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "howardlevyland",
-          "profileUrl": "https://www.instagram.com/howardlevyland/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_howardlevyland",
-          "name": "Howard Levy",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "howardlevyland",
-          "profileUrl": "https://www.instagram.com/howardlevyland/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/howardlevyland/story/0"
-        },
-        {
-          "id": "yt_uc86aeg8s_npzmfuj_cyxw",
-          "name": "Howard Levy",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
-          "feedUrl": ""
         }
       ]
     },
@@ -1223,101 +1318,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "hksmsa_official",
           "profileUrl": "https://www.instagram.com/hksmsa_official/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/hksmsa_official/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-103",
-      "publicId": "103",
-      "name": "陳瑤容 Yora Chen",
-      "nameEn": "Yora Chen",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "鋼琴合作/編曲創作/口琴合作",
-      "structuredSummary": "鋼琴合作/編曲創作/口琴合作 / 鋼琴/編曲/口琴合作 / 合作音樂家/編曲者",
-      "summary": "臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。",
-      "keywords": "Yora Chen 陳瑤容 陳瑶容 口琴 編曲 鋼琴合作 111 Quintet",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/YoraChen"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/aike9115"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/_yora._/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@iamxyora"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@_yora._"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-20T13:07:17+00:00",
-      "latestUpdateLocal": "2026-07-20 21:07",
-      "latestUpdateSource": "陳瑤容 Yora Chen",
-      "latestUpdateUrl": "https://www.instagram.com/stories/_yora._/3945437722474273884/",
-      "avatarUrl": "/assets/source-avatars/9260183f6409bf3c1918.webp",
-      "sourceInitials": "YC",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_aike9115",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/aike9115",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_yora",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "_yora._",
-          "profileUrl": "https://www.instagram.com/_yora._/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/_yora._/story/0"
-        },
-        {
-          "id": "ig_yora",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "_yora._",
-          "profileUrl": "https://www.instagram.com/_yora._/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_yora",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "threads",
-          "type": "rss",
-          "username": "_yora._",
-          "profileUrl": "https://www.threads.net/@_yora._",
-          "feedUrl": "https://rss.observe.tw/threads/_yora._"
-        },
-        {
-          "id": "yt_iamxyora",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@iamxyora",
-          "feedUrl": ""
         }
       ]
     },
