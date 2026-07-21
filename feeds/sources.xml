@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 21 Jul 2026 16:59:46 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 18:05:13 +0000</lastBuildDate>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -29,17 +29,6 @@ Tag：演奏者、半音階、重奏
 臺灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。</description>
     </item>
     <item>
-      <title>CY Leo 何卓彥</title>
-      <link>https://www.cyleomusic.io/profile</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/161a953fbacb664c</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、合奏、國際交流
-國家：香港
-地區：香港
-香港半音階口琴演奏者，專注現代跨界與國際演出。</description>
-    </item>
-    <item>
       <title>臺中國家歌劇院</title>
       <link>https://www.npac-ntt.org/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
@@ -49,6 +38,17 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/臺中
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>CY Leo 何卓彥</title>
+      <link>https://www.cyleomusic.io/profile</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/161a953fbacb664c</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、合奏、國際交流
+國家：香港
+地區：香港
+香港半音階口琴演奏者，專注現代跨界與國際演出。</description>
     </item>
     <item>
       <title>山下伶 Rei Yamashita</title>
