@@ -9,7 +9,7 @@
       "page": "https://harmonica.observe.tw/feeds/events/",
       "rss": "https://harmonica.observe.tw/feeds/events.xml",
       "json": "https://harmonica.observe.tw/api/events.json",
-      "count": 447
+      "count": 446
     },
     {
       "id": "posts-videos",
@@ -29,7 +29,7 @@
       "page": "https://harmonica.observe.tw/feeds/student-clubs/",
       "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
       "json": "https://harmonica.observe.tw/api/student-clubs.json",
-      "count": 103
+      "count": 104
     },
     {
       "id": "opportunities",

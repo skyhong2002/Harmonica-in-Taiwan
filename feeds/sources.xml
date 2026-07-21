@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 21 Jul 2026 10:57:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 12:02:01 +0000</lastBuildDate>
     <item>
       <title>臺中國家歌劇院</title>
       <link>https://www.npac-ntt.org/</link>
@@ -16,6 +16,17 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/臺中
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>山下伶 Rei Yamashita</title>
+      <link>https://rei-yamashita.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：日本
+地區：日本
+日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
     </item>
     <item>
       <title>陳瑤容 Yora Chen</title>
@@ -38,6 +49,17 @@ Tag：演奏者、半音階、國際交流
 國家：韓國
 地區：韓國
 韓國半音階口琴演奏家，活躍於國際舞台。</description>
+    </item>
+    <item>
+      <title>藍波口琴教室</title>
+      <link>https://www.blueboclass.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/208580c304c32492</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：教學器材、教學、課程
+國家：臺灣
+地區：臺灣
+臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。</description>
     </item>
     <item>
       <title>蔡明憲</title>
@@ -392,17 +414,6 @@ Tag：品牌、教學器材、教學
 臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
     </item>
     <item>
-      <title>山下伶 Rei Yamashita</title>
-      <link>https://rei-yamashita.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：日本
-地區：日本
-日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
-    </item>
-    <item>
       <title>Yellow Pine Harmonica Festival</title>
       <link>https://www.yellowpinefestival.org/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/8916c1898211431a</guid>
@@ -511,17 +522,6 @@ Tag：團體樂團、重奏、國際交流
 國家：馬來西亞
 地區：馬來西亞
 馬來西亞的口琴重奏與合奏國際演出團體，活動脈絡包含公演與合作演出。</description>
-    </item>
-    <item>
-      <title>藍波口琴教室</title>
-      <link>https://www.blueboclass.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/208580c304c32492</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：教學器材、教學、課程
-國家：臺灣
-地區：臺灣
-臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。</description>
     </item>
     <item>
       <title>國家兩廳院</title>

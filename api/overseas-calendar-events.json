@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-21T18:57:12+08:00",
+  "generatedAt": "2026-07-21T20:02:02+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
-  "count": 11,
+  "count": 12,
   "source": "/api/events.json",
   "ics": "/feeds/overseas-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 39,
+      "cached": 41,
       "errors": 0
     }
   },
@@ -235,6 +235,42 @@
         "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/747881567_18548108845076837_2130212474912783316_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=Mzk0MzIwOTg2MzYwMTg1MzI4NzE4NTQ4MTA4ODM5MDc2ODM3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=h_HJsznLbucQ7kNvwFvfgft&_nc_oc=AdqeExMgCmWJg14WuXUIJxkY0_xE4JPgncNtqWo7a_n0NCejt6ruDe8XWUF5i9kwfoo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=1-eWXY1ywzs5btGTIrtsYg&_nc_ss=7a22e&oh=00_AQDcQa-9KDPeXJhNiyHu6MBmtV8re881KOAFji_iAEiFzw&oe=6A607554"
       ],
       "image_url": "/assets/feed-images/cdbf5df0b3cbbaa98f25.webp"
+    },
+    {
+      "id": "2071606380b9dca3",
+      "title": "山下伶 クロマチックハーモニカ公演",
+      "eventName": "山下伶 クロマチックハーモニカ公演",
+      "source": "山下伶 / Rei Yamashita",
+      "platform": "instagram",
+      "start": "2026-07-26T17:30:00+09:00",
+      "end": "2026-07-26T19:30:00+09:00",
+      "allDay": false,
+      "calendarType": "overseas_physical",
+      "timezone": "Asia/Tokyo",
+      "location": "和歌山 LURUHALL（ルルホール）",
+      "venue": "LURUHALL（ルルホール）",
+      "city": "和歌山",
+      "details": "7月26日(日)夜の部，開場17:30／開演18:00。出演為山下伶（クロマチックハーモニカ）與森丘ヒロキ（ピアノ），通常票價5,000円，限定33席。",
+      "evidenceUrl": "https://www.instagram.com/p/DbDTnrvzyqk/",
+      "confidence": 0.96,
+      "calendarReview": {
+        "include": true,
+        "country": "日本",
+        "eventMode": "overseas_physical",
+        "timezone": "Asia/Tokyo",
+        "candidateDateMatches": true,
+        "eventName": "山下伶 クロマチックハーモニカ公演",
+        "venue": "LURUHALL（ルルホール）",
+        "city": "和歌山",
+        "details": "7月26日(日)夜の部，開場17:30／開演18:00。出演為山下伶（クロマチックハーモニカ）與森丘ヒロキ（ピアノ），通常票價5,000円，限定33席。",
+        "reason": "候選日期與貼文中的和歌山公演時間一致，且為實體演出；地點在日本和歌山，屬臺灣以外的國外實體活動。",
+        "confidence": 0.96
+      },
+      "postedAt": "2026-07-21 18:32",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/751125601_1005825955608467_9070518372194682193_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=Mzk0NjA4Mzk4ODQyMjk5NDU5Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=4IVNLjsyIb4Q7kNvwGwus8f&_nc_oc=AdqWgBUUcnVDma-ipxJwTG2-njlgwAw1y4qbjy7zd5masw5o-rvIVXT9l9UrPmK32x0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=ghZR07Fi8IHPa_6Upyp6SQ&_nc_ss=7a22e&oh=00_AQCdFz7iCzhTLSUJFWZllKCi_RF1sUgqeKYgXfgxrwZRag&oe=6A651C3B"
+      ],
+      "image_url": "/assets/feed-images/72a779078588cd855e05.webp"
     },
     {
       "id": "6de153125ea80039",
