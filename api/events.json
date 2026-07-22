@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 454,
+  "count": 455,
   "items": [
     {
       "title": "南里沙 / Risa MINAMI｜ウェスティンホテル大阪 | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by Ameba https://ameblo.jp/risa-harmonica/ent…",
@@ -458,6 +458,83 @@
         "公開活動"
       ],
       "key": "ig_csmu_bluemelody:https://www.instagram.com/p/DbFOD_fMBQU/"
+    },
+    {
+      "title": "Evelyn Choong 鍾雪兒｜這屆的亞太口琴藝術周責任重大 為了與孩子一起奮鬥 這是我們闊別13年後再次成為參賽者的一次 緊張啊啊啊啊 出發🛫中國江陰",
+      "headline": "這屆的亞太口琴藝術周責任重大",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DbE1jCVzblH/",
+      "source_id": "ig_evelyn_harmonica",
+      "source": "Evelyn Choong 鍾雪兒",
+      "source_system_name": "Evelyn Choong 鍾雪兒",
+      "source_profile_url": "https://www.instagram.com/evelyn_harmonica/",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "directory_entry_id": "watchlist-218",
+      "directory_entry_name": "Evelyn Choong 鍾雪兒",
+      "account": "evelyn_harmonica",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Wed, 22 Jul 2026 00:50:23 GMT",
+      "posted_at_local": "2026-07-22 08:50",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-22T21:30:25.063786+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/evelyn_harmonica",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "比賽",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "口琴"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "比賽",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "貼文明確提到亞太口琴藝術周參賽與出發，屬口琴比賽相關公開更新。",
+      "text": "這屆的亞太口琴藝術周責任重大\n為了與孩子一起奮鬥\n這是我們闊別13年後再次成為參賽者的一次\n緊張啊啊啊啊\n出發🛫中國江陰",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/751883534_18481130554098644_4547405789796230107_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=106&ig_cache_key=Mzk0NjUxNDY3NzY0MzQ1ODg4Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNDAzMi5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=XBLkrxQp0FcQ7kNvwHfTuWI&_nc_oc=Adp32KIsTzRY95xor3H_GvOkxeoHlv_p9ySe0WPluLVLFm4NLxr2hYN-fz4S09K55PM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=9aUSJYXKl960Llxj6iYQYw&_nc_ss=7a22e&oh=00_AQDp3gwvuxDVw-80ADPHIkXWyLR2JgmvEU4leteWHtzL2g&oe=6A6708EC"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/751883534_18481130554098644_4547405789796230107_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=106&ig_cache_key=Mzk0NjUxNDY3NzY0MzQ1ODg4Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNDAzMi5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=XBLkrxQp0FcQ7kNvwHfTuWI&_nc_oc=Adp32KIsTzRY95xor3H_GvOkxeoHlv_p9ySe0WPluLVLFm4NLxr2hYN-fz4S09K55PM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=9aUSJYXKl960Llxj6iYQYw&_nc_ss=7a22e&oh=00_AQDp3gwvuxDVw-80ADPHIkXWyLR2JgmvEU4leteWHtzL2g&oe=6A6708EC",
+      "image_url": "/assets/feed-images/81c758381ca1e65daa7a.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/519547928_18524822506061865_262803837156621649_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gFIlyhSg76wXnQ5EJ-YbMY2U9vdupmceyoQNQbDid6xHVYr6dr25DclRcvDmJT1Qmo&_nc_ohc=5oaOCSv8EZ8Q7kNvwGZCOve&_nc_gid=oVhR_WFFhwTvGNSG74gLGQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQDyVqcZWfTAURNeJSCPHSGf123aJYH4i-bRLyZQLp0smg&oe=6A670528&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/8e11569d285745bbb86e.webp",
+      "source_initials": "EC",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽"
+      ],
+      "key": "ig_evelyn_harmonica:https://www.instagram.com/p/DbE1jCVzblH/"
     },
     {
       "title": "新加坡國立大學口琴社｜At NUS Harmonica, diversity is at the heart of everything we do. From pop and anime to classical and movie s…",
