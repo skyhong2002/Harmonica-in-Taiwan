@@ -7,7 +7,7 @@
       "page": "https://harmonica.observe.tw/feeds/events/",
       "rss": "https://harmonica.observe.tw/feeds/events.xml",
       "json": "https://harmonica.observe.tw/feeds/events.json",
-      "items": 457
+      "items": 455
     },
     {
       "id": "posts-videos",
@@ -25,7 +25,7 @@
       "page": "https://harmonica.observe.tw/feeds/student-clubs/",
       "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
       "json": "https://harmonica.observe.tw/feeds/student-clubs.json",
-      "items": 114
+      "items": 115
     },
     {
       "id": "opportunities",

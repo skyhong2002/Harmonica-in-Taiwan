@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 22 Jul 2026 10:37:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 11:43:59 +0000</lastBuildDate>
+    <item>
+      <title>南里沙</title>
+      <link>https://minamirisa.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/ad86c3570665b36e</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：日本
+地區：日本
+日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+    </item>
     <item>
       <title>臺中國家歌劇院</title>
       <link>https://www.npac-ntt.org/</link>
@@ -73,6 +84,17 @@ Tag：品牌、教學器材、教學
 臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
     </item>
     <item>
+      <title>衛武營國家藝術文化中心</title>
+      <link>https://www.npac-weiwuying.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/886a3e69f2bc562c</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/高雄
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
       <title>Evelyn Choong 鍾雪兒</title>
       <link>https://www.facebook.com/evelyn.choong.3/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/78ffab148f49419e</guid>
@@ -137,17 +159,6 @@ Tag：品牌、演奏者、團體樂團、十孔、國際交流
 國家：丹麥
 地區：美國
 丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。</description>
-    </item>
-    <item>
-      <title>南里沙</title>
-      <link>https://minamirisa.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/ad86c3570665b36e</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：日本
-地區：日本
-日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
     </item>
     <item>
       <title>Howard Levy</title>
@@ -346,17 +357,6 @@ Tag：演奏者、教學
 國家：臺灣
 地區：臺灣/中彰投
 臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。</description>
-    </item>
-    <item>
-      <title>衛武營國家藝術文化中心</title>
-      <link>https://www.npac-weiwuying.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/886a3e69f2bc562c</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/高雄
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>何家健 HarmoniKahkean</title>
