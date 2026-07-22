@@ -65,6 +65,75 @@
   },
   "entries": [
     {
+      "id": "watchlist-46",
+      "publicId": "46",
+      "name": "廖苡晴",
+      "nameEn": "Alysa Liao",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "111 Trio／Quintet",
+      "structuredSummary": "111 Trio／Quintet / 口琴 / 演出人員",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含111 Trio與Quintet。",
+      "keywords": "廖苡晴 111 Trio 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://laelapsharmonica.com/zh/laelaps-club/alysa-liao/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/__yich___/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@__yich___"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-22T17:21:36+00:00",
+      "latestUpdateLocal": "2026-07-23 01:21",
+      "latestUpdateSource": "廖苡晴",
+      "latestUpdateUrl": "https://www.instagram.com/stories/__yich___/3947015187357346145/",
+      "avatarUrl": "/assets/source-avatars/5b5371b7851220afa3a1.webp",
+      "sourceInitials": "廖苡",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_yich",
+          "name": "廖苡晴",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "__yich___",
+          "profileUrl": "https://www.instagram.com/__yich___/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/__yich___/story/0"
+        },
+        {
+          "id": "ig_yich",
+          "name": "廖苡晴",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "__yich___",
+          "profileUrl": "https://www.instagram.com/__yich___/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_yich",
+          "name": "廖苡晴",
+          "platform": "threads",
+          "type": "rss",
+          "username": "__yich___",
+          "profileUrl": "https://www.threads.net/@__yich___",
+          "feedUrl": "https://rss.observe.tw/threads/__yich___"
+        }
+      ]
+    },
+    {
       "id": "watchlist-115",
       "publicId": "115",
       "name": "Filip Jers",
@@ -589,6 +658,102 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@FrescoHarmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-4",
+      "publicId": "4",
+      "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+      "nameEn": "Judy's Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/公演/教育推廣",
+      "structuredSummary": "重奏/公演/教育推廣 / 口琴重奏/合奏 / 演出團體",
+      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與教育推廣。",
+      "keywords": "Judy's Harmonica Ensemble 茱蒂口琴樂團",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.judysharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Judys.Harmonica.Ensemble/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/judys.harmonica.ensemble/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@JudysHarmonicaEnsemble"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@judys.harmonica.ensemble"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-22T10:45:42+00:00",
+      "latestUpdateLocal": "2026-07-22 18:45",
+      "latestUpdateSource": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/stories/judys.harmonica.ensemble/3946815913134193266/",
+      "avatarUrl": "/assets/source-avatars/5838d7cd4d79864f756c.webp",
+      "sourceInitials": "JSH",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_judys_harmonica_ensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Judys.Harmonica.Ensemble",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_judys_harmonica_ensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "judys.harmonica.ensemble",
+          "profileUrl": "https://www.instagram.com/judys.harmonica.ensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_judys_harmonica_ensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "judys.harmonica.ensemble",
+          "profileUrl": "https://www.instagram.com/judys.harmonica.ensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/judys.harmonica.ensemble/story/0"
+        },
+        {
+          "id": "threads_judys_harmonica_ensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "threads",
+          "type": "rss",
+          "username": "judys.harmonica.ensemble",
+          "profileUrl": "https://www.threads.net/@judys.harmonica.ensemble",
+          "feedUrl": "https://rss.observe.tw/threads/judys.harmonica.ensemble"
+        },
+        {
+          "id": "yt_judysharmonicaensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@JudysHarmonicaEnsemble",
           "feedUrl": ""
         }
       ]
@@ -2342,75 +2507,6 @@
       ]
     },
     {
-      "id": "watchlist-46",
-      "publicId": "46",
-      "name": "廖苡晴",
-      "nameEn": "Alysa Liao",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "111 Trio／Quintet",
-      "structuredSummary": "111 Trio／Quintet / 口琴 / 演出人員",
-      "summary": "臺灣的口琴演出人員，活動脈絡包含111 Trio與Quintet。",
-      "keywords": "廖苡晴 111 Trio 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://laelapsharmonica.com/zh/laelaps-club/alysa-liao/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/__yich___/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@__yich___"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-21T11:29:42+00:00",
-      "latestUpdateLocal": "2026-07-21 19:29",
-      "latestUpdateSource": "廖苡晴",
-      "latestUpdateUrl": "https://www.instagram.com/stories/__yich___/3946113287813531468/",
-      "avatarUrl": "/assets/source-avatars/5b5371b7851220afa3a1.webp",
-      "sourceInitials": "廖苡",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_yich",
-          "name": "廖苡晴",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "__yich___",
-          "profileUrl": "https://www.instagram.com/__yich___/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/__yich___/story/0"
-        },
-        {
-          "id": "ig_yich",
-          "name": "廖苡晴",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "__yich___",
-          "profileUrl": "https://www.instagram.com/__yich___/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_yich",
-          "name": "廖苡晴",
-          "platform": "threads",
-          "type": "rss",
-          "username": "__yich___",
-          "profileUrl": "https://www.threads.net/@__yich___",
-          "feedUrl": "https://rss.observe.tw/threads/__yich___"
-        }
-      ]
-    },
-    {
       "id": "watchlist-57",
       "publicId": "57",
       "name": "山下伶 Rei Yamashita",
@@ -3568,102 +3664,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-4",
-      "publicId": "4",
-      "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-      "nameEn": "Judy's Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/公演/教育推廣",
-      "structuredSummary": "重奏/公演/教育推廣 / 口琴重奏/合奏 / 演出團體",
-      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與教育推廣。",
-      "keywords": "Judy's Harmonica Ensemble 茱蒂口琴樂團",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.judysharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Judys.Harmonica.Ensemble/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/judys.harmonica.ensemble/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@JudysHarmonicaEnsemble"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@judys.harmonica.ensemble"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-20T09:35:44+00:00",
-      "latestUpdateLocal": "2026-07-20 17:35",
-      "latestUpdateSource": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/stories/judys.harmonica.ensemble/3945331340077838879/",
-      "avatarUrl": "/assets/source-avatars/5838d7cd4d79864f756c.webp",
-      "sourceInitials": "JSH",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_judys_harmonica_ensemble",
-          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Judys.Harmonica.Ensemble",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_judys_harmonica_ensemble",
-          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "judys.harmonica.ensemble",
-          "profileUrl": "https://www.instagram.com/judys.harmonica.ensemble/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_judys_harmonica_ensemble",
-          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "judys.harmonica.ensemble",
-          "profileUrl": "https://www.instagram.com/judys.harmonica.ensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/judys.harmonica.ensemble/story/0"
-        },
-        {
-          "id": "threads_judys_harmonica_ensemble",
-          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "platform": "threads",
-          "type": "rss",
-          "username": "judys.harmonica.ensemble",
-          "profileUrl": "https://www.threads.net/@judys.harmonica.ensemble",
-          "feedUrl": "https://rss.observe.tw/threads/judys.harmonica.ensemble"
-        },
-        {
-          "id": "yt_judysharmonicaensemble",
-          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@JudysHarmonicaEnsemble",
           "feedUrl": ""
         }
       ]
