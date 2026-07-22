@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-22T08:11:30+08:00",
+  "generatedAt": "2026-07-22T09:18:44+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
   "count": 12,
@@ -14,8 +14,8 @@
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
-      "cached": 40,
+      "requests": 1,
+      "cached": 39,
       "errors": 0
     }
   },
@@ -381,11 +381,11 @@
       "image_url": "/assets/feed-images/b02de8639e1ec34f713d.webp"
     },
     {
-      "id": "06d062fa6d62e92c",
+      "id": "ae850f4709bfd8ab",
       "title": "首爾國際口琴節",
       "eventName": "首爾國際口琴節",
       "source": "胖擊口琴樂團Punch Harmonica Ensemble",
-      "platform": "instagram",
+      "platform": "facebook",
       "start": "2026-08-02",
       "end": "2026-08-03",
       "allDay": true,
@@ -394,8 +394,8 @@
       "location": "首爾 Yeongdeungpo Art Hall",
       "venue": "Yeongdeungpo Art Hall",
       "city": "首爾",
-      "details": "胖擊口琴樂團將受邀登上首爾國際口琴節舞台演出。貼文標示演出時間為 2026.08.02 (Sun.)，地點在 Yeongdeungpo Art Hall。",
-      "evidenceUrl": "https://www.instagram.com/p/Daxu9w0vA0R/",
+      "details": "胖擊口琴樂團將於 2026.08.02 登上首爾國際口琴節舞台，地點為 Yeongdeungpo Art Hall。貼文提到這是國際交流演出，並未提供票價或報名資訊。",
+      "evidenceUrl": "https://www.facebook.com/Punch.Harp/posts/pfbid02yjRzymJDbo5K4MECbYHm11mX89CHmoeazAVWLN32c9AJFdm8gLNAL7NCErS5maGAl",
       "confidence": 0.95,
       "calendarReview": {
         "include": true,
@@ -406,15 +406,15 @@
         "eventName": "首爾國際口琴節",
         "venue": "Yeongdeungpo Art Hall",
         "city": "首爾",
-        "details": "胖擊口琴樂團將受邀登上首爾國際口琴節舞台演出。貼文標示演出時間為 2026.08.02 (Sun.)，地點在 Yeongdeungpo Art Hall。",
-        "reason": "貼文明確寫出韓國首爾的實體演出時間與地點，且與 candidateStart 2026-08-02 相符，屬海外口琴活動。",
+        "details": "胖擊口琴樂團將於 2026.08.02 登上首爾國際口琴節舞台，地點為 Yeongdeungpo Art Hall。貼文提到這是國際交流演出，並未提供票價或報名資訊。",
+        "reason": "候選日期與貼文中的演出時間 2026.08.02 一致，且地點在韓國首爾，屬海外實體口琴活動。",
         "confidence": 0.95
       },
       "postedAt": "2026-07-15 14:00",
       "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/746742954_18079488995656565_293152387329542107_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzk0MTEzNzcwMzM3NzgzMzIzMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=lEWZ_j-T2dkQ7kNvwGn8CBy&_nc_oc=AdpRhEjwdDTdPjbc0NgALakv_v5FDZNQbeDDg_MfblWkw-ioW-iBRSF8yQFbrbOQA1w&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=547w5N2fyNaL2KPrif-TFw&_nc_ss=7a22e&oh=00_AQCBSLxLMi-YUA28Ik06GoJJamwfGIZRrmg2OMo7G0oKyg&oe=6A5D9ED8"
+        "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-6/746540681_1537607941712786_8813930596625944430_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1528&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=3dKPUf5ZxqUQ7kNvwFQ7cZr&_nc_oc=Adp69462nIGm5dca_gVbm9mWFq85z6MLU6dIUUrv7M2W80A9tHeT_iK_OXISbEcqR9Q&_nc_zt=23&_nc_ht=scontent-sea5-1.xx&_nc_gid=8df-TbECUgKUzYdf1gCg4g&_nc_ss=7d289&oh=00_AQCSCeiWbRJB-np-m8OpZLiAfPJUieVEj588U8O7gretYw&oe=6A65F09C"
       ],
-      "image_url": "/assets/feed-images/de5ed01aa6a2359ed94f.webp"
+      "image_url": "/assets/feed-images/61abeb28235491abd781.webp"
     },
     {
       "id": "4b7c24f5e4469879",
