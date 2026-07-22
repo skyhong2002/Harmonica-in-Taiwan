@@ -370,7 +370,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-22 12:26",
       "latestUpdateSource": "中山醫藍韻口琴社",
       "latestUpdateUrl": "https://www.threads.com/t/DbFOo72ElEu",
-      "avatarUrl": "/assets/source-avatars/c80a7a9dba8d47f96adb.webp",
+      "avatarUrl": "/assets/source-avatars/c7978aa9fb61dbd1b5f3.webp",
       "sourceInitials": "中山",
       "sourceTags": [
         "學生社團",
@@ -538,6 +538,90 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "evelyn_harmonica",
           "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/evelyn_harmonica/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-211",
+      "publicId": "211",
+      "name": "新加坡國立大學口琴社",
+      "nameEn": "NUS Harmonica",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "新加坡",
+      "region": "新加坡/肯特崗",
+      "cityOrFocus": "新加坡國立大學/學校社團/肯特崗",
+      "structuredSummary": "新加坡國立大學/學校社團/肯特崗 / 口琴樂團/學生合奏 / 學校社團",
+      "summary": "新加坡的口琴樂團與學生合奏學校社團。",
+      "keywords": "新加坡國立大學口琴社 NUS Harmonica NUS Harmonica Orchestra Singapore student harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://osa.nus.edu.sg/nusartsfestival/event/constellations-under-starlit-skies/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/nusharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nusharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@NUSHO"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-22T00:19:47+00:00",
+      "latestUpdateLocal": "2026-07-22 08:19",
+      "latestUpdateSource": "新加坡國立大學口琴社",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbEyDq8PrED/",
+      "avatarUrl": "/assets/source-avatars/ddea07d62d59833c9e3f.webp",
+      "sourceInitials": "新加",
+      "sourceTags": [
+        "學生社團",
+        "大專社團",
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_nusharmonica",
+          "name": "新加坡國立大學口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/nusharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nusharmonica",
+          "name": "新加坡國立大學口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nusharmonica",
+          "profileUrl": "https://www.instagram.com/nusharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nusharmonica",
+          "name": "新加坡國立大學口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nusharmonica",
+          "profileUrl": "https://www.instagram.com/nusharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nusharmonica/story/0"
+        },
+        {
+          "id": "yt_nusho",
+          "name": "新加坡國立大學口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@NUSHO",
+          "feedUrl": ""
         }
       ]
     },
@@ -12559,90 +12643,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "山形",
       "sourceTags": [
         "學生社團"
-      ]
-    },
-    {
-      "id": "watchlist-211",
-      "publicId": "211",
-      "name": "新加坡國立大學口琴社",
-      "nameEn": "NUS Harmonica",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "新加坡",
-      "region": "新加坡/肯特崗",
-      "cityOrFocus": "新加坡國立大學/學校社團/肯特崗",
-      "structuredSummary": "新加坡國立大學/學校社團/肯特崗 / 口琴樂團/學生合奏 / 學校社團",
-      "summary": "新加坡的口琴樂團與學生合奏學校社團。",
-      "keywords": "新加坡國立大學口琴社 NUS Harmonica NUS Harmonica Orchestra Singapore student harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://osa.nus.edu.sg/nusartsfestival/event/constellations-under-starlit-skies/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/nusharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nusharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@NUSHO"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/ddea07d62d59833c9e3f.webp",
-      "sourceInitials": "新加",
-      "sourceTags": [
-        "學生社團",
-        "大專社團",
-        "團體樂團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_nusharmonica",
-          "name": "新加坡國立大學口琴社",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/nusharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nusharmonica",
-          "name": "新加坡國立大學口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nusharmonica",
-          "profileUrl": "https://www.instagram.com/nusharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nusharmonica",
-          "name": "新加坡國立大學口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nusharmonica",
-          "profileUrl": "https://www.instagram.com/nusharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nusharmonica/story/0"
-        },
-        {
-          "id": "yt_nusho",
-          "name": "新加坡國立大學口琴社",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@NUSHO",
-          "feedUrl": ""
-        }
       ]
     },
     {

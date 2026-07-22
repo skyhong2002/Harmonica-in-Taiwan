@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 22 Jul 2026 09:30:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 10:37:27 +0000</lastBuildDate>
     <item>
       <title>臺中國家歌劇院</title>
       <link>https://www.npac-ntt.org/</link>
@@ -82,6 +82,17 @@ Tag：演奏者、教學、半音階、國際交流
 國家：馬來西亞
 地區：馬來西亞
 馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。</description>
+    </item>
+    <item>
+      <title>新加坡國立大學口琴社</title>
+      <link>https://osa.nus.edu.sg/nusartsfestival/event/constellations-under-starlit-skies/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/b9b11ba09fe77d98</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：學校社團
+Tag：學生社團、大專社團、團體樂團
+國家：新加坡
+地區：新加坡/肯特崗
+新加坡的口琴樂團與學生合奏學校社團。</description>
     </item>
     <item>
       <title>Fresco Harmonica Ensemble</title>
@@ -1897,17 +1908,6 @@ Tag：學生社團
 國家：日本
 地區：日本/山形
 日本的口琴バンド與合奏學校社團。</description>
-    </item>
-    <item>
-      <title>新加坡國立大學口琴社</title>
-      <link>https://osa.nus.edu.sg/nusartsfestival/event/constellations-under-starlit-skies/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/b9b11ba09fe77d98</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：學校社團
-Tag：學生社團、大專社團、團體樂團
-國家：新加坡
-地區：新加坡/肯特崗
-新加坡的口琴樂團與學生合奏學校社團。</description>
     </item>
     <item>
       <title>檳華女中口琴隊</title>
