@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 23 Jul 2026 06:18:44 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 07:23:41 +0000</lastBuildDate>
     <item>
       <title>國家兩廳院</title>
       <link>https://npac-ntch.org/zh</link>
@@ -71,6 +71,17 @@ Tag：演奏者、和弦、重奏、交流
 國家：臺灣
 地區：臺灣
 天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。</description>
+    </item>
+    <item>
+      <title>Yoonseok Lee</title>
+      <link>https://linktr.ee/yoonseokl</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/b336a5292fd71873</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、比賽、半音階、國際交流
+國家：韓國
+地區：韓國
+韓國的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、國際比賽與教育與演出。</description>
     </item>
     <item>
       <title>南里沙</title>
@@ -874,17 +885,6 @@ Tag：學生社團
 國家：馬來西亞
 地區：馬來西亞/檳城
 馬來西亞的口琴隊、學生合奏與華校學校社團。</description>
-    </item>
-    <item>
-      <title>Yoonseok Lee</title>
-      <link>https://linktr.ee/yoonseokl</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/b336a5292fd71873</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、比賽、半音階、國際交流
-國家：韓國
-地區：韓國
-韓國的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、國際比賽與教育與演出。</description>
     </item>
     <item>
       <title>Harmonica FEN 口琴節與學院</title>
