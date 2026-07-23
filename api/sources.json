@@ -307,6 +307,87 @@
       ]
     },
     {
+      "id": "watchlist-51",
+      "publicId": "51",
+      "name": "唐雪婷 Sharene Tang",
+      "nameEn": "Sharene Tang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/國際郵輪演出",
+      "structuredSummary": "世界口琴冠軍/演出/教學/國際郵輪演出 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "唐雪婷 Sharene Tang sharene.harmonica World Harmonica Champion Fresco harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/sharenetang.fresco/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sharene.harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@Shareneharmonicamusic"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-23T16:31:40+00:00",
+      "latestUpdateLocal": "2026-07-24 00:31",
+      "latestUpdateSource": "唐雪婷 Sharene Tang",
+      "latestUpdateUrl": "https://www.instagram.com/stories/sharene.harmonica/3947714863787387652/",
+      "avatarUrl": "/assets/source-avatars/58ed53e3f8974d957fc7.webp",
+      "sourceInitials": "ST",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_sharenetang_fresco",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/sharenetang.fresco",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sharene_harmonica",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sharene.harmonica",
+          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sharene_harmonica",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sharene.harmonica",
+          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sharene.harmonica/story/0"
+        },
+        {
+          "id": "yt_shareneharmonicamusic",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-9",
       "publicId": "9",
       "name": "李讓 Jang Li",
@@ -3460,87 +3541,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-51",
-      "publicId": "51",
-      "name": "唐雪婷 Sharene Tang",
-      "nameEn": "Sharene Tang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "世界口琴冠軍/演出/教學/國際郵輪演出",
-      "structuredSummary": "世界口琴冠軍/演出/教學/國際郵輪演出 / 半音階/口琴 / 國際演出人員/教育者",
-      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
-      "keywords": "唐雪婷 Sharene Tang sharene.harmonica World Harmonica Champion Fresco harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/sharenetang.fresco/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/sharene.harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@Shareneharmonicamusic"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-22T15:47:51+00:00",
-      "latestUpdateLocal": "2026-07-22 23:47",
-      "latestUpdateSource": "唐雪婷 Sharene Tang",
-      "latestUpdateUrl": "https://www.instagram.com/stories/sharene.harmonica/3946968037970896395/",
-      "avatarUrl": "/assets/source-avatars/58ed53e3f8974d957fc7.webp",
-      "sourceInitials": "ST",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_sharenetang_fresco",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/sharenetang.fresco",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_sharene_harmonica",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "sharene.harmonica",
-          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_sharene_harmonica",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "sharene.harmonica",
-          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sharene.harmonica/story/0"
-        },
-        {
-          "id": "yt_shareneharmonicamusic",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
           "feedUrl": ""
         }
       ]
