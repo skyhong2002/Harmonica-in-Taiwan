@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-23T20:02:51.361276Z",
+  "generatedAt": "2026-07-23T21:11:50.247950Z",
   "source": {
     "id": 143,
     "slug": "brendan-power",
@@ -16,15 +16,6 @@
       "sourceName": "Brendan Power",
       "platform": "Facebook",
       "publishedAt": "2026-06-24T06:47:54Z"
-    },
-    {
-      "id": "post-a97ad568192070f9d3d7ecd6",
-      "title": "POWER-PLUGS: Insert Parts for Chromatic Harmonica Combs",
-      "excerpt": "POWER-PLUGS: Insert Parts for Chromatic Harmonica Combs MORE INFO & ORDERING:",
-      "url": "https://www.youtube.com/watch?v=lTubSs5QwIY",
-      "sourceName": "Brendan Power",
-      "platform": "YouTube",
-      "publishedAt": "2026-06-23T20:40:04Z"
     }
   ]
 }
