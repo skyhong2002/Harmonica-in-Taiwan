@@ -1,9 +1,9 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-07-24T06:54:26+08:00",
+  "generatedAt": "2026-07-24T07:29:35+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 10,
+  "count": 11,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@ window.publicCalendarEvents = {
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 42,
+      "cached": 43,
       "errors": 0
     }
   },
@@ -203,6 +203,44 @@ window.publicCalendarEvents = {
         "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753225482_18387193525167009_3008364526207021053_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzk0NDcyMTc1NjE2MDQwMTk1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTE3MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=jRwAGa274TwQ7kNvwHA0nrC&_nc_oc=AdrHtvb0Tf-qpOmMi0xf4iGjkmLxJD4DifC4YPNDssZHecNmy8clmaYUnivD7OvLnT8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=qQMsj1FStzeCNBwKUGxjjg&_nc_ss=7a22e&oh=00_AQDsWs4txtm3Fvhpxdyb-9BfR9f0OwAmIKheyhBf-AxwzQ&oe=6A631510"
       ],
       "image_url": "/assets/feed-images/21c5e0c1c3db8098d922.webp"
+    },
+    {
+      "id": "98bd0c8024e8493b",
+      "title": "臺灣口琴音樂節｜午間音樂會",
+      "eventName": "臺灣口琴音樂節｜午間音樂會",
+      "source": "臺灣口琴音樂節 Taiwan Harmonica Music Festival",
+      "platform": "instagram",
+      "start": "2026-08-07",
+      "end": "2026-08-08",
+      "allDay": true,
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "location": "臺灣口琴音樂節會場",
+      "venue": "臺灣口琴音樂節會場",
+      "city": "",
+      "details": "8/7（五）午間音樂會第一天，演出者包含 Steffi and Friends、李志華、Do Not Disturb，內容為多元口琴演奏與合奏演出。",
+      "evidenceUrl": "https://www.instagram.com/p/DbI60Cpj1bT/",
+      "confidence": 0.95,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "臺灣口琴音樂節｜午間音樂會",
+        "venue": "臺灣口琴音樂節會場",
+        "city": "",
+        "details": "8/7（五）午間音樂會第一天，演出者包含 Steffi and Friends、李志華、Do Not Disturb，內容為多元口琴演奏與合奏演出。",
+        "reason": "候選日期 2026-08-07 與貼文中的 8/7（五）午間音樂會一致，且為臺灣實體口琴活動。",
+        "confidence": 0.95
+      },
+      "postedAt": "2026-07-23 22:50",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t39.30808-6/753707682_1052723603801365_4984147258474361932_n.jpg?stp=c0.0.1920.1005a_dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=Mzk0NzY2MzcyMjkzMjA0NTIxNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTkyMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=32C_GhHHFuQQ7kNvwFSuQ6U&_nc_oc=AdoK4FMwbjJtJNYr-kI9_y6a4Bgq2ukPTECSzW7YPGZW2FAhpF7iU1ZvzdqtlT4JClU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=4RIiUWZPZi0v8fovKS5Uzg&_nc_ss=7a22e&oh=00_AQBMd8-YFjA7NUtayFiCvg4PTtyLvEnCYS71I5pBIqWBdw&oe=6A688C73",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t39.30808-6/753356755_1052723477134711_7077914908366358939_n.jpg?stp=c0.0.918.480a_dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=Mzk0NzY2MzcyMTI3MTA4NTU2NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTE4LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=YXi9pFI5NEYQ7kNvwEa2v7s&_nc_oc=Adp5wXZpp6ANBa5A4tRTGc_tjPFVo3mmYXVQY4cPk6UOGBDpc_4ijh6wI7HNwmV1nL0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=4RIiUWZPZi0v8fovKS5Uzg&_nc_ss=7a22e&oh=00_AQDllyTH2e0ZM7AiWCScDCRkB5ZolKobB9qr2tAs714MAA&oe=6A68759B",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t39.30808-6/752484547_1052723607134698_5397881142070138382_n.jpg?stp=c0.0.1567.821a_dst-jpg_e35_s1567x821_tt6&_nc_cat=108&ig_cache_key=Mzk0NzY2MzcyMDg4NTIyNjg5NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTU2OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=h844jY_EmXUQ7kNvwHbKC34&_nc_oc=AdoXGw2Xt6BCR3JCwMFwY-CSuKXgjXWg5vIP7v9kYT9abDweVwtKJMZ3gbzvvhJ4q8E&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=4RIiUWZPZi0v8fovKS5Uzg&_nc_ss=7a22e&oh=00_AQCqGzMPywsYZ5OVe5gBBCtz-ttT8i5Vrxa1kl3Z7Gjdbw&oe=6A687188"
+      ],
+      "image_url": "/assets/feed-images/db742d35fcb329b0e8ef.webp"
     },
     {
       "id": "110ad96d67d59a1c",
