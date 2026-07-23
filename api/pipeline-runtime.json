@@ -1,11 +1,11 @@
 {
   "currentStep": "",
-  "heartbeatAt": "2026-07-23T21:12:16.402478+00:00",
+  "heartbeatAt": "2026-07-23T21:46:16.870264+00:00",
   "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
   "maxPostAgeDays": 30,
   "message": "Pipeline completed; publishing snapshot",
-  "pid": 66078,
-  "startedAt": "2026-07-23T21:04:09.520781+00:00",
+  "pid": 27162,
+  "startedAt": "2026-07-23T21:42:39.032149+00:00",
   "status": "ok",
   "steps": [
     {
@@ -13,10 +13,10 @@
         "/Library/Developer/CommandLineTools/usr/bin/python3",
         "scripts/build_social_sources.py"
       ],
-      "finishedAt": "2026-07-23T21:04:09.659853+00:00",
+      "finishedAt": "2026-07-23T21:42:39.119794+00:00",
       "name": "build social sources",
       "returnCode": 0,
-      "startedAt": "2026-07-23T21:04:09.522232+00:00",
+      "startedAt": "2026-07-23T21:42:39.033495+00:00",
       "status": "ok"
     },
     {
@@ -26,10 +26,10 @@
         "--max-post-age-days",
         "30"
       ],
-      "finishedAt": "2026-07-23T21:04:24.803414+00:00",
+      "finishedAt": "2026-07-23T21:42:55.568565+00:00",
       "name": "fetch youtube",
       "returnCode": 0,
-      "startedAt": "2026-07-23T21:04:09.660445+00:00",
+      "startedAt": "2026-07-23T21:42:39.120329+00:00",
       "status": "ok"
     },
     {
@@ -42,10 +42,10 @@
         "30",
         "--run"
       ],
-      "finishedAt": "2026-07-23T21:04:25.877402+00:00",
+      "finishedAt": "2026-07-23T21:42:56.540673+00:00",
       "name": "fetch facebook apify",
       "returnCode": 0,
-      "startedAt": "2026-07-23T21:04:24.803824+00:00",
+      "startedAt": "2026-07-23T21:42:55.569271+00:00",
       "status": "ok"
     },
     {
@@ -57,10 +57,10 @@
         "--request-timeout",
         "10"
       ],
-      "finishedAt": "2026-07-23T21:11:31.577991+00:00",
+      "finishedAt": "2026-07-23T21:45:39.991736+00:00",
       "name": "watch social feeds",
       "returnCode": 0,
-      "startedAt": "2026-07-23T21:04:25.879359+00:00",
+      "startedAt": "2026-07-23T21:42:56.542819+00:00",
       "status": "ok"
     },
     {
@@ -68,10 +68,10 @@
         "/Library/Developer/CommandLineTools/usr/bin/python3",
         "scripts/build_public_data.py"
       ],
-      "finishedAt": "2026-07-23T21:11:33.184012+00:00",
+      "finishedAt": "2026-07-23T21:45:41.527648+00:00",
       "name": "build public data",
       "returnCode": 0,
-      "startedAt": "2026-07-23T21:11:31.580011+00:00",
+      "startedAt": "2026-07-23T21:45:39.993142+00:00",
       "status": "ok"
     },
     {
@@ -80,10 +80,10 @@
         "scripts/backfill_public_source_pages.py",
         "--skip-fetch"
       ],
-      "finishedAt": "2026-07-23T21:11:35.284867+00:00",
+      "finishedAt": "2026-07-23T21:45:43.630666+00:00",
       "name": "backfill source pages",
       "returnCode": 0,
-      "startedAt": "2026-07-23T21:11:33.184888+00:00",
+      "startedAt": "2026-07-23T21:45:41.528438+00:00",
       "status": "ok"
     },
     {
@@ -91,10 +91,10 @@
         "/Library/Developer/CommandLineTools/usr/bin/python3",
         "scripts/build_public_data.py"
       ],
-      "finishedAt": "2026-07-23T21:11:36.790085+00:00",
+      "finishedAt": "2026-07-23T21:45:45.026983+00:00",
       "name": "rebuild public data",
       "returnCode": 0,
-      "startedAt": "2026-07-23T21:11:35.285660+00:00",
+      "startedAt": "2026-07-23T21:45:43.631884+00:00",
       "status": "ok"
     },
     {
@@ -102,10 +102,10 @@
         "/Library/Developer/CommandLineTools/usr/bin/python3",
         "scripts/build_score_publications.py"
       ],
-      "finishedAt": "2026-07-23T21:11:36.923622+00:00",
+      "finishedAt": "2026-07-23T21:45:45.241744+00:00",
       "name": "build score publications",
       "returnCode": 0,
-      "startedAt": "2026-07-23T21:11:36.790702+00:00",
+      "startedAt": "2026-07-23T21:45:45.027586+00:00",
       "status": "ok"
     },
     {
@@ -113,10 +113,10 @@
         "/Library/Developer/CommandLineTools/usr/bin/python3",
         "scripts/build_score_sources.py"
       ],
-      "finishedAt": "2026-07-23T21:11:36.988732+00:00",
+      "finishedAt": "2026-07-23T21:45:45.308152+00:00",
       "name": "build score sources",
       "returnCode": 0,
-      "startedAt": "2026-07-23T21:11:36.924250+00:00",
+      "startedAt": "2026-07-23T21:45:45.242727+00:00",
       "status": "ok"
     },
     {
@@ -124,10 +124,10 @@
         "/Library/Developer/CommandLineTools/usr/bin/python3",
         "scripts/generate_rss_feeds.py"
       ],
-      "finishedAt": "2026-07-23T21:11:51.404139+00:00",
+      "finishedAt": "2026-07-23T21:45:53.247027+00:00",
       "name": "generate rss feeds",
       "returnCode": 0,
-      "startedAt": "2026-07-23T21:11:36.989293+00:00",
+      "startedAt": "2026-07-23T21:45:45.308740+00:00",
       "status": "ok"
     },
     {
@@ -135,10 +135,10 @@
         "/Library/Developer/CommandLineTools/usr/bin/python3",
         "scripts/build_public_calendar_events.py"
       ],
-      "finishedAt": "2026-07-23T21:11:51.584873+00:00",
+      "finishedAt": "2026-07-23T21:45:53.364609+00:00",
       "name": "build public calendar events",
       "returnCode": 0,
-      "startedAt": "2026-07-23T21:11:51.405524+00:00",
+      "startedAt": "2026-07-23T21:45:53.247595+00:00",
       "status": "ok"
     },
     {
@@ -146,10 +146,10 @@
         "/Library/Developer/CommandLineTools/usr/bin/python3",
         "scripts/apply_submitted_events.py"
       ],
-      "finishedAt": "2026-07-23T21:11:51.714875+00:00",
+      "finishedAt": "2026-07-23T21:45:53.490892+00:00",
       "name": "apply submitted events",
       "returnCode": 0,
-      "startedAt": "2026-07-23T21:11:51.585600+00:00",
+      "startedAt": "2026-07-23T21:45:53.365174+00:00",
       "status": "ok"
     },
     {
@@ -157,10 +157,10 @@
         "/Users/skyhong/.hermes/google-workspace-venv/bin/python",
         "scripts/sync_google_calendar_events.py"
       ],
-      "finishedAt": "2026-07-23T21:12:08.561708+00:00",
+      "finishedAt": "2026-07-23T21:46:11.086827+00:00",
       "name": "sync google calendar",
       "returnCode": 0,
-      "startedAt": "2026-07-23T21:11:51.715790+00:00",
+      "startedAt": "2026-07-23T21:45:53.491528+00:00",
       "status": "ok"
     },
     {
@@ -168,10 +168,10 @@
         "/Library/Developer/CommandLineTools/usr/bin/python3",
         "scripts/build_status_page.py"
       ],
-      "finishedAt": "2026-07-23T21:12:10.345754+00:00",
+      "finishedAt": "2026-07-23T21:46:12.513160+00:00",
       "name": "build status page",
       "returnCode": 0,
-      "startedAt": "2026-07-23T21:12:08.563039+00:00",
+      "startedAt": "2026-07-23T21:46:11.089428+00:00",
       "status": "ok"
     },
     {
@@ -179,10 +179,10 @@
         "/Library/Developer/CommandLineTools/usr/bin/python3",
         "scripts/build_submit_page.py"
       ],
-      "finishedAt": "2026-07-23T21:12:10.370201+00:00",
+      "finishedAt": "2026-07-23T21:46:12.542724+00:00",
       "name": "build submit page",
       "returnCode": 0,
-      "startedAt": "2026-07-23T21:12:10.346957+00:00",
+      "startedAt": "2026-07-23T21:46:12.513988+00:00",
       "status": "ok"
     },
     {
@@ -190,10 +190,10 @@
         "/Library/Developer/CommandLineTools/usr/bin/python3",
         "scripts/generate_seo_pages.py"
       ],
-      "finishedAt": "2026-07-23T21:12:11.798801+00:00",
+      "finishedAt": "2026-07-23T21:46:13.605600+00:00",
       "name": "generate SEO pages",
       "returnCode": 0,
-      "startedAt": "2026-07-23T21:12:10.370821+00:00",
+      "startedAt": "2026-07-23T21:46:12.543266+00:00",
       "status": "ok"
     },
     {
@@ -201,10 +201,10 @@
         "/Library/Developer/CommandLineTools/usr/bin/python3",
         "scripts/generate_cloudflare_redirects.py"
       ],
-      "finishedAt": "2026-07-23T21:12:11.828738+00:00",
+      "finishedAt": "2026-07-23T21:46:13.671036+00:00",
       "name": "generate cloudflare redirects",
       "returnCode": 0,
-      "startedAt": "2026-07-23T21:12:11.799816+00:00",
+      "startedAt": "2026-07-23T21:46:13.606403+00:00",
       "status": "ok"
     },
     {
@@ -212,10 +212,10 @@
         "/Library/Developer/CommandLineTools/usr/bin/python3",
         "scripts/check_source_coverage.py"
       ],
-      "finishedAt": "2026-07-23T21:12:13.506551+00:00",
+      "finishedAt": "2026-07-23T21:46:15.161621+00:00",
       "name": "check source coverage",
       "returnCode": 0,
-      "startedAt": "2026-07-23T21:12:11.829450+00:00",
+      "startedAt": "2026-07-23T21:46:13.671715+00:00",
       "status": "ok"
     },
     {
@@ -223,10 +223,10 @@
         "/Library/Developer/CommandLineTools/usr/bin/python3",
         "scripts/validate_public_outputs.py"
       ],
-      "finishedAt": "2026-07-23T21:12:16.399027+00:00",
+      "finishedAt": "2026-07-23T21:46:16.869009+00:00",
       "name": "validate public outputs",
       "returnCode": 0,
-      "startedAt": "2026-07-23T21:12:13.508085+00:00",
+      "startedAt": "2026-07-23T21:46:15.162262+00:00",
       "status": "ok"
     },
     {
@@ -234,10 +234,10 @@
         "/Library/Developer/CommandLineTools/usr/bin/python3",
         "scripts/publish_github_pages.py"
       ],
-      "finishedAt": "2026-07-23T21:12:16.401992+00:00",
+      "finishedAt": "2026-07-23T21:46:16.870001+00:00",
       "name": "publish github pages",
       "returnCode": 0,
-      "startedAt": "2026-07-23T21:12:16.400622+00:00",
+      "startedAt": "2026-07-23T21:46:16.869685+00:00",
       "status": "ok"
     }
   ],
