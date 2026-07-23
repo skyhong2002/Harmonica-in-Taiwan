@@ -61,6 +61,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/78/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/151-rachelle-plas-philippe-hervouet/</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -68,6 +74,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/60-toshi-fujii/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/80/</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -121,7 +133,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/80/</loc>
+    <loc>https://harmonica.observe.tw/source/141-kif-valentine/</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -307,12 +319,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/78/</loc>
-    <lastmod>2026-07-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/211-nus-harmonica/</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -465,12 +471,6 @@
   <url>
     <loc>https://harmonica.observe.tw/source/2-taiwan-harmonica-music-festival/</loc>
     <lastmod>2026-07-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/141-kif-valentine/</loc>
-    <lastmod>2026-07-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
