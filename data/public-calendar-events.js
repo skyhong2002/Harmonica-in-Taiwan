@@ -1,9 +1,9 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-07-23T08:17:54+08:00",
+  "generatedAt": "2026-07-23T08:51:16+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 9,
+  "count": 10,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,7 +14,7 @@ window.publicCalendarEvents = {
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
+      "requests": 2,
       "cached": 40,
       "errors": 0
     }
@@ -203,6 +203,42 @@ window.publicCalendarEvents = {
         "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753225482_18387193525167009_3008364526207021053_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzk0NDcyMTc1NjE2MDQwMTk1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTE3MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=jRwAGa274TwQ7kNvwHA0nrC&_nc_oc=AdrHtvb0Tf-qpOmMi0xf4iGjkmLxJD4DifC4YPNDssZHecNmy8clmaYUnivD7OvLnT8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=qQMsj1FStzeCNBwKUGxjjg&_nc_ss=7a22e&oh=00_AQDsWs4txtm3Fvhpxdyb-9BfR9f0OwAmIKheyhBf-AxwzQ&oe=6A631510"
       ],
       "image_url": "/assets/feed-images/21c5e0c1c3db8098d922.webp"
+    },
+    {
+      "id": "110ad96d67d59a1c",
+      "title": "臺灣口琴音樂節",
+      "eventName": "臺灣口琴音樂節",
+      "source": "音和樂器PeaceTones",
+      "platform": "facebook",
+      "start": "2026-08-07",
+      "end": "2026-08-10",
+      "allDay": true,
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "location": "新竹市 陽明交通大學活動中心B1商品販售區",
+      "venue": "陽明交通大學活動中心B1商品販售區",
+      "city": "新竹市",
+      "details": "活動時間為 8/7-8/9，貼文提到代理商會在攤位推出小活動，歡迎前往現場參與。",
+      "evidenceUrl": "https://www.facebook.com/PeaceTones.harmonica/posts/pfbid0ixa5qKpris2wNQS2Z3t4K6e8c2kxZNkVJyMwRSq76nTUKwFGQUtXmPET3Krx54Vsl",
+      "confidence": 0.95,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "臺灣口琴音樂節",
+        "venue": "陽明交通大學活動中心B1商品販售區",
+        "city": "新竹市",
+        "details": "活動時間為 8/7-8/9，貼文提到代理商會在攤位推出小活動，歡迎前往現場參與。",
+        "reason": "候選日期 2026-08-07 落在貼文明確提到的臺灣口琴音樂節期間，且地點為陽明交通大學活動中心，屬臺灣實體活動。",
+        "confidence": 0.95
+      },
+      "postedAt": "2026-07-20 09:27",
+      "images": [
+        "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-6/750758286_1528765945930336_2170406491905303540_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=p526x296&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=gnrmu5y7ZwYQ7kNvwErAqai&_nc_oc=AdpvXhZ-ZNQq36m7oK4dDLILniO4vSdQUUK8JJs2MDoKNVd1wPSmppCYF-aEQfISofk&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=_ppVbvRKXKL4fYdJuSQ0Uw&_nc_ss=72289&oh=00_AQAYg5H7oLuVYLBF7hRqjbIhvWl0fApeIsfmLcEOY3KF0A&oe=6A67392A"
+      ],
+      "image_url": "/assets/feed-images/74f49cc78c38f4b20fb1.webp"
     },
     {
       "id": "8436208ae40d8444",

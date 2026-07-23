@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
   "json": "https://harmonica.observe.tw/api/student-clubs.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/student-clubs.json",
-  "count": 113,
+  "count": 115,
   "items": [
     {
       "title": "臺中國家歌劇院 National Taichung Theater｜《WOW挖藝術》特別集｜《怪美妖仙傳》：今天來談怪美 主持人：變裝皇后 Sandra Hoe 來賓：《怪美妖仙傳》鬼才編導程鈺婷 今年夏天最瘋、最辣、最華麗的一場神話派對…",
@@ -1096,6 +1096,81 @@
       "key": "ig_timothyyip_harmonica:https://www.instagram.com/p/DbAyKkGiZwo/"
     },
     {
+      "title": "音和樂器PeaceTones｜【服務異動公告】 因支援 #臺北樂器大展 以及 #臺灣口琴音樂節 活動期間「暫停」門市以及網路購物服務，造成不便敬請見諒；歡迎到攤位找我們享優惠好康喔🤩 📍臺北樂器大展： ▫️時間：7/31-8/3 ▫️圓山…",
+      "headline": "【服務異動公告】",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/PeaceTones.harmonica/posts/pfbid0ixa5qKpris2wNQS2Z3t4K6e8c2kxZNkVJyMwRSq76nTUKwFGQUtXmPET3Krx54Vsl",
+      "source_id": "fb_peacetones_harmonica",
+      "source": "音和樂器PeaceTones",
+      "source_system_name": "音和樂器",
+      "source_profile_url": "https://facebook.com/PeaceTones.harmonica",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "directory_entry_id": "watchlist-27",
+      "directory_entry_name": "音和樂器",
+      "account": "PeaceTones.harmonica",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-20T01:27:44.000Z",
+      "posted_at_local": "2026-07-20 09:27",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-23T00:50:45.499803+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "口琴"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.93,
+      "llm_labels": [
+        "口琴",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "公告支援臺灣口琴音樂節，屬口琴相關公開更新。",
+      "text": "【服務異動公告】\n因支援 #臺北樂器大展 以及 #臺灣口琴音樂節 活動期間「暫停」門市以及網路購物服務，造成不便敬請見諒；歡迎到攤位找我們享優惠好康喔🤩\n📍臺北樂器大展：\n▫️時間：7/31-8/3\n▫️圓山花博爭艷館\n▫️雙燕樂器攤位\n📍臺灣口琴音樂節\n🔹時間：8/7-8/9\n🔹地點：陽明交通大學活動中心B1商品販售區\n這次代理商們很用心的推出小活動，請一定要到攤位走走喔！\nhttps://www.facebook.com/photo/?fbid=1528765942597003&set=a.327227742750835",
+      "images": [
+        "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-6/750758286_1528765945930336_2170406491905303540_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=p526x296&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=gnrmu5y7ZwYQ7kNvwErAqai&_nc_oc=AdpvXhZ-ZNQq36m7oK4dDLILniO4vSdQUUK8JJs2MDoKNVd1wPSmppCYF-aEQfISofk&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=_ppVbvRKXKL4fYdJuSQ0Uw&_nc_ss=72289&oh=00_AQAYg5H7oLuVYLBF7hRqjbIhvWl0fApeIsfmLcEOY3KF0A&oe=6A67392A"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-6/750758286_1528765945930336_2170406491905303540_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x2048&ctp=p526x296&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=gnrmu5y7ZwYQ7kNvwErAqai&_nc_oc=AdpvXhZ-ZNQq36m7oK4dDLILniO4vSdQUUK8JJs2MDoKNVd1wPSmppCYF-aEQfISofk&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=_ppVbvRKXKL4fYdJuSQ0Uw&_nc_ss=72289&oh=00_AQAYg5H7oLuVYLBF7hRqjbIhvWl0fApeIsfmLcEOY3KF0A&oe=6A67392A",
+      "image_url": "/assets/feed-images/74f49cc78c38f4b20fb1.webp",
+      "image_width": 526,
+      "image_height": 701,
+      "source_avatar_url": "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-1/273558016_327227779417498_8977996107877435718_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2001x2001&ctp=s50x50&_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=yP4zuc5djecQ7kNvwE7tdTn&_nc_oc=Adp7KG-03i4nw1xi8-XAFinQkjiSncxy8c-gbuojKkSnEqYWzD4N1MfAYGL12E9rX_M&_nc_zt=24&_nc_ht=scontent-den2-1.xx&_nc_gid=_ppVbvRKXKL4fYdJuSQ0Uw&_nc_ss=72289&oh=00_AQCmV3-LAU7JgOGeQ2EjPwIvNIRXHoDN0xoCTCNOdo-7Ag&oe=6A6720A8",
+      "avatar_url": "/assets/source-avatars/8d98e87509e2e05b5e04.webp",
+      "source_initials": "P",
+      "categories": [
+        "posts-videos",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "學生社團"
+      ],
+      "key": "fb_peacetones_harmonica:1528770182596579"
+    },
+    {
       "title": "何家健HoKahKean｜【何家健口琴四重奏：巴西計劃】 炎日的夏天就是要來一點熱情的巴西音樂 ！！ Kahkean Quartet是由口琴｜家健（Kahkean）、吉他｜敬典（Justin）、貝斯｜成員（Kendrick）和鼓組｜昀凱（…",
       "headline": "【何家健口琴四重奏：巴西計劃】",
       "display_title": "",
@@ -1335,6 +1410,83 @@
         "學生社團"
       ],
       "key": "yt_weiwuyingfilm:6UNW6Z479qw"
+    },
+    {
+      "title": "音和樂器PeaceTones｜臺北市萬華社區大學 #龍韻口琴合奏班 上課記錄_曲目 【My Way】 https://www.facebook.com/reel/934254316354403/",
+      "headline": "臺北市萬華社區大學 #龍韻口琴合奏班 上課記錄_曲目 【My Way】",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/reel/934254316354403/",
+      "source_id": "fb_peacetones_harmonica",
+      "source": "音和樂器PeaceTones",
+      "source_system_name": "音和樂器",
+      "source_profile_url": "https://facebook.com/PeaceTones.harmonica",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "directory_entry_id": "watchlist-27",
+      "directory_entry_name": "音和樂器",
+      "account": "PeaceTones.harmonica",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-18T15:57:08.000Z",
+      "posted_at_local": "2026-07-18 23:57",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-23T00:50:45.499803+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "課程",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "口琴"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "課程",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴合奏班上課記錄，屬口琴課程/公開更新影片。",
+      "text": "臺北市萬華社區大學 #龍韻口琴合奏班 上課記錄_曲目 【My Way】\nhttps://www.facebook.com/reel/934254316354403/",
+      "images": [
+        "https://scontent-den2-1.xx.fbcdn.net/v/t15.5256-10/751111382_27977921775164684_9029426182564958748_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=dOfW73G8CrgQ7kNvwFySlfu&_nc_oc=Adp07blOJfcqyaPKSaaRdpFLWeh6Su02DhCVa7C9Nf0p2AaZ-O8bVdKUzPbnb2ySqIA&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=_ppVbvRKXKL4fYdJuSQ0Uw&_nc_ss=72289&oh=00_AQAwg-PmeH7v28tFbvAdlM5lCQCc_SZKTvCHuzhoceP3jQ&oe=6A6751E4"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-den2-1.xx.fbcdn.net/v/t15.5256-10/751111382_27977921775164684_9029426182564958748_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x720&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=dOfW73G8CrgQ7kNvwFySlfu&_nc_oc=Adp07blOJfcqyaPKSaaRdpFLWeh6Su02DhCVa7C9Nf0p2AaZ-O8bVdKUzPbnb2ySqIA&_nc_zt=23&_nc_ht=scontent-den2-1.xx&_nc_gid=_ppVbvRKXKL4fYdJuSQ0Uw&_nc_ss=72289&oh=00_AQAwg-PmeH7v28tFbvAdlM5lCQCc_SZKTvCHuzhoceP3jQ&oe=6A6751E4",
+      "image_url": "/assets/feed-images/aa32059149fed864141e.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://scontent-den2-1.xx.fbcdn.net/v/t39.30808-1/273558016_327227779417498_8977996107877435718_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2001x2001&ctp=s50x50&_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=yP4zuc5djecQ7kNvwE7tdTn&_nc_oc=Adp7KG-03i4nw1xi8-XAFinQkjiSncxy8c-gbuojKkSnEqYWzD4N1MfAYGL12E9rX_M&_nc_zt=24&_nc_ht=scontent-den2-1.xx&_nc_gid=_ppVbvRKXKL4fYdJuSQ0Uw&_nc_ss=72289&oh=00_AQCmV3-LAU7JgOGeQ2EjPwIvNIRXHoDN0xoCTCNOdo-7Ag&oe=6A6720A8",
+      "avatar_url": "/assets/source-avatars/8d98e87509e2e05b5e04.webp",
+      "source_initials": "P",
+      "categories": [
+        "posts-videos",
+        "opportunities",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽",
+        "學生社團"
+      ],
+      "key": "fb_peacetones_harmonica:1527682369372027"
     },
     {
       "title": "Jens Bunge｜A Laid-Back Night with the Soulful Sound of Jazz Harmonica. @jensbunge.jazzharmonica #jazzharmonica #jazzdue…",
