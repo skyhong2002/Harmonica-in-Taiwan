@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 460,
+  "count": 463,
   "items": [
     {
       "title": "南里沙｜昨日は大阪・梅田にあるウェスティンホテル大阪で、クローズドイベントでの演奏でした。 青空が広がり、夏らしい暑い一日となりましたが、ご来場の皆さまにクロマチックハーモニカの音色をお聴きいただくことができました。ありがとうございました…",
@@ -611,6 +611,87 @@
       "key": "ig_csmu_bluemelody:https://www.instagram.com/p/DbFOD_fMBQU/"
     },
     {
+      "title": "Jens Bunge｜Instagram story @jensbunge.jazzharmonica",
+      "headline": "Instagram story @jensbunge.jazzharmonica",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/jensbunge.jazzharmonica/3946584916572886348/",
+      "source_id": "ig_story_jensbunge_jazzharmonica",
+      "source": "Jens Bunge",
+      "source_system_name": "Jens Bunge",
+      "source_profile_url": "https://www.instagram.com/jensbunge.jazzharmonica/",
+      "country": "德國",
+      "region": "德國",
+      "directory_entry_id": "watchlist-125",
+      "directory_entry_name": "Jens Bunge",
+      "account": "jensbunge.jazzharmonica",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-07-22T03:06:45+00:00",
+      "posted_at_local": "2026-07-22 11:06",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-23T01:56:00.372547+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "instagram_web",
+      "story_fetched_at": "2026-07-23T01:54:52.207584+00:00",
+      "story_expires_at": "2026-07-23T03:06:45+00:00",
+      "source_feed_url": "https://rss.observe.tw/picuki/profile/jensbunge.jazzharmonica/story/0",
+      "rsshub_guid": "3946584916572886348_6986420302",
+      "rsshub_title": "Instagram story @jensbunge.jazzharmonica",
+      "instagram_user_id": "6986420302",
+      "matched_keywords": [
+        "限時動態"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": false,
+      "llm_confidence": 0.93,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "僅見來源含 harmonica，貼文文字無口琴演出、課程或社團等具體公開更新內容。",
+      "text": "Instagram story @jensbunge.jazzharmonica",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753329209_18371692534236303_1793640031695002061_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk0NjU4NDkxNjU3Mjg4NjM0OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjk2MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GEwMNYBWHSQQ7kNvwG2ThK4&_nc_oc=AdouHE55NALt2jFiW3_q3Ezn5mVG6Q_sqqEJxMk1TrkKwRjT8FX-WlZPlicqanx_pR4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=816fuG2ttM2yTWVV74jfBw&_nc_ss=7a22e&oh=00_AQDO6fkDb2gLLlv_p0d6xn99LjB2uXEt03u8xZHxtZUkig&oe=6A674C20",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753329209_18371692534236303_1793640031695002061_n.jpg?stp=dst-jpg_e35_p720x720_tt6&_nc_cat=111&ig_cache_key=Mzk0NjU4NDkxNjU3Mjg4NjM0OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjk2MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GEwMNYBWHSQQ7kNvwG2ThK4&_nc_oc=AdouHE55NALt2jFiW3_q3Ezn5mVG6Q_sqqEJxMk1TrkKwRjT8FX-WlZPlicqanx_pR4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=816fuG2ttM2yTWVV74jfBw&_nc_ss=7a22e&oh=00_AQA6WK5w94hFt6tJ9day6m3H1bTU20mpRdKHSIV0EtHqKA&oe=6A674C20",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753329209_18371692534236303_1793640031695002061_n.jpg?stp=dst-jpg_e35_p640x640_sh2.08_tt6&_nc_cat=111&ig_cache_key=Mzk0NjU4NDkxNjU3Mjg4NjM0OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjk2MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GEwMNYBWHSQQ7kNvwG2ThK4&_nc_oc=AdouHE55NALt2jFiW3_q3Ezn5mVG6Q_sqqEJxMk1TrkKwRjT8FX-WlZPlicqanx_pR4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=816fuG2ttM2yTWVV74jfBw&_nc_ss=7a22e&oh=00_AQDyF1GLqm_oRq_77OWlctagVJShssr5k4HVVeKbeq84Wg&oe=6A674C20",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753329209_18371692534236303_1793640031695002061_n.jpg?stp=dst-jpg_e35_p480x480_tt6&_nc_cat=111&ig_cache_key=Mzk0NjU4NDkxNjU3Mjg4NjM0OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjk2MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GEwMNYBWHSQQ7kNvwG2ThK4&_nc_oc=AdouHE55NALt2jFiW3_q3Ezn5mVG6Q_sqqEJxMk1TrkKwRjT8FX-WlZPlicqanx_pR4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=816fuG2ttM2yTWVV74jfBw&_nc_ss=7a22e&oh=00_AQDH03WbC6GYbB3v9emtACCMnmsPg0VGqF-5gXtZMbGMbg&oe=6A674C20",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753329209_18371692534236303_1793640031695002061_n.jpg?stp=dst-jpg_e35_p320x320_tt6&_nc_cat=111&ig_cache_key=Mzk0NjU4NDkxNjU3Mjg4NjM0OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjk2MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GEwMNYBWHSQQ7kNvwG2ThK4&_nc_oc=AdouHE55NALt2jFiW3_q3Ezn5mVG6Q_sqqEJxMk1TrkKwRjT8FX-WlZPlicqanx_pR4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=816fuG2ttM2yTWVV74jfBw&_nc_ss=7a22e&oh=00_AQBJU3tnRUrg6uRn6rGtE-lE_Zmk40QcGhK-5cCTR0u0ag&oe=6A674C20",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753329209_18371692534236303_1793640031695002061_n.jpg?stp=dst-jpg_e35_p240x240_tt6&_nc_cat=111&ig_cache_key=Mzk0NjU4NDkxNjU3Mjg4NjM0OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjk2MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GEwMNYBWHSQQ7kNvwG2ThK4&_nc_oc=AdouHE55NALt2jFiW3_q3Ezn5mVG6Q_sqqEJxMk1TrkKwRjT8FX-WlZPlicqanx_pR4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=816fuG2ttM2yTWVV74jfBw&_nc_ss=7a22e&oh=00_AQAFR9xcgrQR8MoWV7eiipNjuODpbR0KBafvOTc7jWhWVg&oe=6A674C20",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753329209_18371692534236303_1793640031695002061_n.jpg?stp=c0.373.960.960a_dst-jpg_e35_s960x960_tt6&_nc_cat=111&ig_cache_key=Mzk0NjU4NDkxNjU3Mjg4NjM0OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjk2MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GEwMNYBWHSQQ7kNvwG2ThK4&_nc_oc=AdouHE55NALt2jFiW3_q3Ezn5mVG6Q_sqqEJxMk1TrkKwRjT8FX-WlZPlicqanx_pR4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=816fuG2ttM2yTWVV74jfBw&_nc_ss=7a22e&oh=00_AQCBPW6dLmhQRKU5QThb1uf6Z7bK9P6BoeiAFT9TQwGuEg&oe=6A674C20",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753329209_18371692534236303_1793640031695002061_n.jpg?stp=c0.373.960.960a_dst-jpg_e35_s750x750_sh2.08_tt6&_nc_cat=111&ig_cache_key=Mzk0NjU4NDkxNjU3Mjg4NjM0OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjk2MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GEwMNYBWHSQQ7kNvwG2ThK4&_nc_oc=AdouHE55NALt2jFiW3_q3Ezn5mVG6Q_sqqEJxMk1TrkKwRjT8FX-WlZPlicqanx_pR4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=816fuG2ttM2yTWVV74jfBw&_nc_ss=7a22e&oh=00_AQBn1PnHya2p4p_l7tVTt0s35cCT2it-EHveAfbRrGX1AA&oe=6A674C20",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753329209_18371692534236303_1793640031695002061_n.jpg?stp=c0.373.960.960a_dst-jpg_e35_s640x640_sh2.08_tt6&_nc_cat=111&ig_cache_key=Mzk0NjU4NDkxNjU3Mjg4NjM0OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjk2MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GEwMNYBWHSQQ7kNvwG2ThK4&_nc_oc=AdouHE55NALt2jFiW3_q3Ezn5mVG6Q_sqqEJxMk1TrkKwRjT8FX-WlZPlicqanx_pR4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=816fuG2ttM2yTWVV74jfBw&_nc_ss=7a22e&oh=00_AQDzPFuYa_Ub4HuU2VqmO59mWzlCG9lR2oJvFVP_uHGCtg&oe=6A674C20",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753329209_18371692534236303_1793640031695002061_n.jpg?stp=c0.373.960.960a_dst-jpg_e35_s480x480_tt6&_nc_cat=111&ig_cache_key=Mzk0NjU4NDkxNjU3Mjg4NjM0OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjk2MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GEwMNYBWHSQQ7kNvwG2ThK4&_nc_oc=AdouHE55NALt2jFiW3_q3Ezn5mVG6Q_sqqEJxMk1TrkKwRjT8FX-WlZPlicqanx_pR4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=816fuG2ttM2yTWVV74jfBw&_nc_ss=7a22e&oh=00_AQCHb3yevAe5S9WQq3WAsP0RLPnpxUHHcRafPsEvCVJfJA&oe=6A674C20",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753329209_18371692534236303_1793640031695002061_n.jpg?stp=c0.373.960.960a_dst-jpg_e35_s320x320_tt6&_nc_cat=111&ig_cache_key=Mzk0NjU4NDkxNjU3Mjg4NjM0OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjk2MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GEwMNYBWHSQQ7kNvwG2ThK4&_nc_oc=AdouHE55NALt2jFiW3_q3Ezn5mVG6Q_sqqEJxMk1TrkKwRjT8FX-WlZPlicqanx_pR4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=816fuG2ttM2yTWVV74jfBw&_nc_ss=7a22e&oh=00_AQAx-7btXtuwsghHEbzhZnislAIedYCTD6txykO27fXQqw&oe=6A674C20",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753329209_18371692534236303_1793640031695002061_n.jpg?stp=c0.373.960.960a_dst-jpg_e35_s240x240_tt6&_nc_cat=111&ig_cache_key=Mzk0NjU4NDkxNjU3Mjg4NjM0OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjk2MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GEwMNYBWHSQQ7kNvwG2ThK4&_nc_oc=AdouHE55NALt2jFiW3_q3Ezn5mVG6Q_sqqEJxMk1TrkKwRjT8FX-WlZPlicqanx_pR4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=816fuG2ttM2yTWVV74jfBw&_nc_ss=7a22e&oh=00_AQCDA-KYMOcTUzlUf9KoILw6iWXURWehMI5NSF3DboVO3g&oe=6A674C20",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753329209_18371692534236303_1793640031695002061_n.jpg?stp=c0.373.960.960a_dst-jpg_e35_s150x150_tt6&_nc_cat=111&ig_cache_key=Mzk0NjU4NDkxNjU3Mjg4NjM0OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjk2MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GEwMNYBWHSQQ7kNvwG2ThK4&_nc_oc=AdouHE55NALt2jFiW3_q3Ezn5mVG6Q_sqqEJxMk1TrkKwRjT8FX-WlZPlicqanx_pR4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=816fuG2ttM2yTWVV74jfBw&_nc_ss=7a22e&oh=00_AQByC3qOY22j0rRvatSE8xFld8UcGZXdbS8jxj3k-uU-kA&oe=6A674C20"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753329209_18371692534236303_1793640031695002061_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk0NjU4NDkxNjU3Mjg4NjM0OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IlNUT1JZLnhwaWRzLjk2MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GEwMNYBWHSQQ7kNvwG2ThK4&_nc_oc=AdouHE55NALt2jFiW3_q3Ezn5mVG6Q_sqqEJxMk1TrkKwRjT8FX-WlZPlicqanx_pR4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=816fuG2ttM2yTWVV74jfBw&_nc_ss=7a22e&oh=00_AQDO6fkDb2gLLlv_p0d6xn99LjB2uXEt03u8xZHxtZUkig&oe=6A674C20",
+      "image_url": "/assets/feed-images/6314a8161cc987c1d169.webp",
+      "image_width": 800,
+      "image_height": 1422,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/538731817_18324506119236303_5140016961001233642_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gFU5Hzt3DqpmO1Cb7t1UHDDeNSjUFck2pMDWyKlFqw0BAagYrWshfsX4y3bW7jpTYk&_nc_ohc=rK5jaGbrcFsQ7kNvwEx9c79&_nc_gid=816fuG2ttM2yTWVV74jfBw&edm=ANmP7GQBAAAA&ccb=7-5&oh=00_AQCy0TCihyqov2u8dOfM91-Xa4yGX2Cz-E8oZZgeJroMIg&oe=6A6738F4&_nc_sid=982cc7",
+      "avatar_url": "/assets/source-avatars/8d7b9f60927ba4e7464e.webp",
+      "source_initials": "JB",
+      "categories": [
+        "posts-videos",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "學生社團"
+      ],
+      "key": "ig_story_jensbunge_jazzharmonica:3946584916572886348_6986420302"
+    },
+    {
       "title": "Evelyn Choong 鍾雪兒｜這屆的亞太口琴藝術周責任重大 為了與孩子一起奮鬥 這是我們闊別13年後再次成為參賽者的一次 緊張啊啊啊啊 出發🛫中國江陰",
       "headline": "這屆的亞太口琴藝術周責任重大",
       "display_title": "",
@@ -845,6 +926,85 @@
         "學生社團"
       ],
       "key": "ig_sharene_harmonica:https://www.instagram.com/p/DbEyCBkk-7b/"
+    },
+    {
+      "title": "Yellow Pine Harmonica Festival｜There's a LOT to do at the Yellow Pine Harmonica Festival beyond listening to music! Tak…",
+      "headline": "There's a LOT to do at the Yellow Pine Harmonica Festival beyond listening to music!",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/YellowPineHarmonicaFestival/posts/pfbid03VdsdcLT2MTc2hiNLfxG8UBMHuJBkydShgeDKmruXvZDiRXyQZ3V1131UMxtNp51l",
+      "source_id": "fb_yellowpineharmonicafestival",
+      "source": "Yellow Pine Harmonica Festival",
+      "source_system_name": "Yellow Pine Harmonica Festival",
+      "source_profile_url": "https://facebook.com/YellowPineHarmonicaFestival",
+      "country": "美國",
+      "region": "美國/愛達荷",
+      "directory_entry_id": "watchlist-174",
+      "directory_entry_name": "Yellow Pine Harmonica Festival",
+      "account": "YellowPineHarmonicaFestival",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-21T23:39:03.000Z",
+      "posted_at_local": "2026-07-22 07:39",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-23T01:56:00.372547+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "課程",
+        "比賽"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "課程",
+        "比賽"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "口琴節活動公告，含課程與口琴比賽等公開更新，屬相關活動資訊。",
+      "text": "There's a LOT to do at the Yellow Pine Harmonica Festival beyond listening to music!\nTake a Class!\nListen to a presentation on Local History!\nView a Demonstration!\nParticipate the BEARD CONTEST\nPlay Bingo!\nHave Breakfast!\nWin the Harmonica Contest!\n... and MORE!!!\nCheck out our Activities Page to Find out what else is in store!!!\nSee you this summer in Yellow Pine Idaho!!!\nhttps://www.yellowpinefestival.org/activities/\nhttps://www.facebook.com/photo/?fbid=1367741138889480&set=a.480144730982463",
+      "images": [
+        "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/678602104_1291228489874079_5245232394400192607_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=p180x540&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-Q3LABHrtpgQ7kNvwHA5LLD&_nc_oc=Ado0k25ipasZo98WiDhB7Afa09UBHtZzVnU-hAKIacNcbya7J09J6fXYQfq36iE1-YU&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=NbQ65mEOfbrzc3qgsaxFrA&_nc_ss=72289&oh=00_AQAzI1yI9PzT0FPjF7ItyUJBhKzFLM7Pk_3XDUzaqVyVdw&oe=6A673CEE"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/678602104_1291228489874079_5245232394400192607_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=p180x540&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-Q3LABHrtpgQ7kNvwHA5LLD&_nc_oc=Ado0k25ipasZo98WiDhB7Afa09UBHtZzVnU-hAKIacNcbya7J09J6fXYQfq36iE1-YU&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=NbQ65mEOfbrzc3qgsaxFrA&_nc_ss=72289&oh=00_AQAzI1yI9PzT0FPjF7ItyUJBhKzFLM7Pk_3XDUzaqVyVdw&oe=6A673CEE",
+      "image_url": "/assets/feed-images/31348ce57c816827ddf7.webp",
+      "image_width": 800,
+      "image_height": 534,
+      "source_avatar_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/488459367_984147080582223_6369034247251819963_n.jpg?stp=c83.83.334.334a_cp0_dst-jpg_tt6&cstp=mx334x334&ctp=s50x50&_nc_cat=100&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=UXPnjXiNM24Q7kNvwG7XQma&_nc_oc=AdpAzgWfX0IkeO5JgoU7n6oZV5IM031F2oTF2tcnEB2qP-mpWfW0gGLdpz3z0dyK97g&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=NbQ65mEOfbrzc3qgsaxFrA&_nc_ss=72289&oh=00_AQDEPO1yaFVlD5ev1Whe2IEH6tzGZ6qWkRAzH_6cR7HYJA&oe=6A672D53",
+      "avatar_url": "/assets/source-avatars/da438f088edcabe30007.webp",
+      "source_initials": "YPH",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽"
+      ],
+      "key": "fb_yellowpineharmonicafestival:1367741172222810"
     },
     {
       "title": "南里沙｜第15回 アジア太平洋ハーモニカ大会が、2026年7月23日から27日まで中国で開催されます。南里沙は審査員・ゲストプレイヤーとして参加させていただきます。 振り返れば、この16年間、クロマチックハーモニカとともに歩んできたアジア…",
@@ -1996,6 +2156,87 @@
         "公開活動"
       ],
       "key": "ig_story_leeoskarharmonicas:3945432957887455142_2380604894"
+    },
+    {
+      "title": "馬來西亞口琴節｜OHRSC 2026 Video Submission Completion Notice 📢 OHRSC 2026 video submissions are now closed! Confirmation email…",
+      "headline": "OHRSC 2026 Video Submission Completion Notice",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/malaysiaharmonicafestival/posts/pfbid02pHCSAqons6N4JHkhgQdR6W6c36YNpEQhWxNUY7dtKdchwJzqMjfeHs7utpcNzTsHl",
+      "source_id": "fb_malaysiaharmonicafestival",
+      "source": "馬來西亞口琴節",
+      "source_system_name": "馬來西亞口琴節",
+      "source_profile_url": "https://facebook.com/malaysiaharmonicafestival",
+      "country": "馬來西亞",
+      "region": "馬來西亞/吉隆坡",
+      "directory_entry_id": "watchlist-165",
+      "directory_entry_name": "馬來西亞口琴節",
+      "account": "malaysiaharmonicafestival",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-20T11:53:00.000Z",
+      "posted_at_local": "2026-07-20 19:53",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-23T01:56:00.372547+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "比賽",
+        "影片",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "影片",
+        "截止",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "比賽",
+        "影片",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "口琴節公告OHRSC 2026比賽影片提交截止，屬公開賽事更新。",
+      "text": "OHRSC 2026 Video Submission Completion Notice\n📢 OHRSC 2026 video submissions are now closed!\nConfirmation emails have been sent to all successful submissions. Please check your Inbox and Junk/Spam folders. A total of 11 contestants/groups did not submit their videos by the deadline and are deemed to have withdrawn from the competition.\nThank you, and we wish everyone the best of luck! ✨\n📢 OHRSC 2026 参赛影片提交已正式截止！\n确认邮件已发送至所有成功提交影片的参赛者，请查阅收件箱及垃圾邮件（Junk/Spam）。共有 11 位/组参赛者未于截止日前提交影片，依据赛事规则视为自动弃权。\n感谢大家的参与，预祝比赛顺利！✨\n#MalaysiaHarmonicaFestival\nhttps://www.facebook.com/photo/?fbid=1027408770047288&set=a.131932856261555",
+      "images": [
+        "https://scontent-ord5-1.xx.fbcdn.net/v/t51.82787-15/751055507_17958358224171812_5151214513060405086_n.jpg?stp=dst-jpg_tt6&cstp=mx1350x1688&ctp=s640x640&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pu7kkuZ-BnkQ7kNvwGR8f21&_nc_oc=AdphY5v6S5JzpjPf0eP1UcvU6waXV3AcMnStp5ez5SVHMffK-Rw9FHD5wlvoFU7qDls&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=aiSOzavKTMmF0PJYVwSRIA&_nc_ss=7c289&oh=00_AQCM-sXduqW5h0Q3irsfQVZronsnLNtJrwRNVT7CA720-w&oe=6A67392E"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t51.82787-15/751055507_17958358224171812_5151214513060405086_n.jpg?stp=dst-jpg_tt6&cstp=mx1350x1688&ctp=s640x640&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pu7kkuZ-BnkQ7kNvwGR8f21&_nc_oc=AdphY5v6S5JzpjPf0eP1UcvU6waXV3AcMnStp5ez5SVHMffK-Rw9FHD5wlvoFU7qDls&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=aiSOzavKTMmF0PJYVwSRIA&_nc_ss=7c289&oh=00_AQCM-sXduqW5h0Q3irsfQVZronsnLNtJrwRNVT7CA720-w&oe=6A67392E",
+      "image_url": "/assets/feed-images/1c2c436f471162838cbf.webp",
+      "image_width": 512,
+      "image_height": 640,
+      "source_avatar_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/278614367_124189700215706_1238611269500334535_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx937x937&ctp=s50x50&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=-B4xvA2uP1wQ7kNvwHkZGX7&_nc_oc=AdocWCyWpSHckPD0r1jAJxOiTqnyvO5oIsLblCrWzZaFtBPUmDtgaHIcq1R4lK5z9_o&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=aiSOzavKTMmF0PJYVwSRIA&_nc_ss=7c289&oh=00_AQDaaY9gX-pCvkkMVGBMyudyfTs_6xz1bXguTCkJJ3Xh8Q&oe=6A672BC1",
+      "avatar_url": "/assets/source-avatars/d07a57be4ecfad2fc813.webp",
+      "source_initials": "馬來",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽"
+      ],
+      "key": "fb_malaysiaharmonicafestival:1027408786713953"
     },
     {
       "title": "Timothy Yip 葉進禧｜👑 【英皇書院一百周年校慶音樂會 | King’s College Centennial Celebration Concert】💯 非常榮幸在這個歷史性的時刻，能與 @redbricksharmonica…",

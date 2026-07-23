@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
   "json": "https://harmonica.observe.tw/api/opportunities.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/opportunities.json",
-  "count": 101,
+  "count": 103,
   "items": [
     {
       "title": "臺中國家歌劇院 National Taichung Theater｜《WOW挖藝術》特別集｜《怪美妖仙傳》：今天來談怪美 主持人：變裝皇后 Sandra Hoe 來賓：《怪美妖仙傳》鬼才編導程鈺婷 今年夏天最瘋、最辣、最華麗的一場神話派對…",
@@ -154,6 +154,85 @@
       "key": "ig_evelyn_harmonica:https://www.instagram.com/p/DbE1jCVzblH/"
     },
     {
+      "title": "Yellow Pine Harmonica Festival｜There's a LOT to do at the Yellow Pine Harmonica Festival beyond listening to music! Tak…",
+      "headline": "There's a LOT to do at the Yellow Pine Harmonica Festival beyond listening to music!",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/YellowPineHarmonicaFestival/posts/pfbid03VdsdcLT2MTc2hiNLfxG8UBMHuJBkydShgeDKmruXvZDiRXyQZ3V1131UMxtNp51l",
+      "source_id": "fb_yellowpineharmonicafestival",
+      "source": "Yellow Pine Harmonica Festival",
+      "source_system_name": "Yellow Pine Harmonica Festival",
+      "source_profile_url": "https://facebook.com/YellowPineHarmonicaFestival",
+      "country": "美國",
+      "region": "美國/愛達荷",
+      "directory_entry_id": "watchlist-174",
+      "directory_entry_name": "Yellow Pine Harmonica Festival",
+      "account": "YellowPineHarmonicaFestival",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-21T23:39:03.000Z",
+      "posted_at_local": "2026-07-22 07:39",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-23T01:56:00.372547+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "課程",
+        "比賽"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "課程",
+        "比賽"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "口琴節活動公告，含課程與口琴比賽等公開更新，屬相關活動資訊。",
+      "text": "There's a LOT to do at the Yellow Pine Harmonica Festival beyond listening to music!\nTake a Class!\nListen to a presentation on Local History!\nView a Demonstration!\nParticipate the BEARD CONTEST\nPlay Bingo!\nHave Breakfast!\nWin the Harmonica Contest!\n... and MORE!!!\nCheck out our Activities Page to Find out what else is in store!!!\nSee you this summer in Yellow Pine Idaho!!!\nhttps://www.yellowpinefestival.org/activities/\nhttps://www.facebook.com/photo/?fbid=1367741138889480&set=a.480144730982463",
+      "images": [
+        "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/678602104_1291228489874079_5245232394400192607_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=p180x540&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-Q3LABHrtpgQ7kNvwHA5LLD&_nc_oc=Ado0k25ipasZo98WiDhB7Afa09UBHtZzVnU-hAKIacNcbya7J09J6fXYQfq36iE1-YU&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=NbQ65mEOfbrzc3qgsaxFrA&_nc_ss=72289&oh=00_AQAzI1yI9PzT0FPjF7ItyUJBhKzFLM7Pk_3XDUzaqVyVdw&oe=6A673CEE"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/678602104_1291228489874079_5245232394400192607_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1365&ctp=p180x540&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-Q3LABHrtpgQ7kNvwHA5LLD&_nc_oc=Ado0k25ipasZo98WiDhB7Afa09UBHtZzVnU-hAKIacNcbya7J09J6fXYQfq36iE1-YU&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=NbQ65mEOfbrzc3qgsaxFrA&_nc_ss=72289&oh=00_AQAzI1yI9PzT0FPjF7ItyUJBhKzFLM7Pk_3XDUzaqVyVdw&oe=6A673CEE",
+      "image_url": "/assets/feed-images/31348ce57c816827ddf7.webp",
+      "image_width": 800,
+      "image_height": 534,
+      "source_avatar_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/488459367_984147080582223_6369034247251819963_n.jpg?stp=c83.83.334.334a_cp0_dst-jpg_tt6&cstp=mx334x334&ctp=s50x50&_nc_cat=100&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=UXPnjXiNM24Q7kNvwG7XQma&_nc_oc=AdpAzgWfX0IkeO5JgoU7n6oZV5IM031F2oTF2tcnEB2qP-mpWfW0gGLdpz3z0dyK97g&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=NbQ65mEOfbrzc3qgsaxFrA&_nc_ss=72289&oh=00_AQDEPO1yaFVlD5ev1Whe2IEH6tzGZ6qWkRAzH_6cR7HYJA&oe=6A672D53",
+      "avatar_url": "/assets/source-avatars/da438f088edcabe30007.webp",
+      "source_initials": "YPH",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽"
+      ],
+      "key": "fb_yellowpineharmonicafestival:1367741172222810"
+    },
+    {
       "title": "南里沙｜第15回 アジア太平洋ハーモニカ大会が、2026年7月23日から27日まで中国で開催されます。南里沙は審査員・ゲストプレイヤーとして参加させていただきます。 振り返れば、この16年間、クロマチックハーモニカとともに歩んできたアジア…",
       "headline": "第15回 アジア太平洋ハーモニカ大会が、2026年7月23日から27日まで中国で開催されます。南里沙は審査員・ゲストプレイヤーとして参加させていただきます。",
       "display_title": "",
@@ -229,6 +308,87 @@
         "補助比賽"
       ],
       "key": "fb_minamirisa:1405242181421972"
+    },
+    {
+      "title": "馬來西亞口琴節｜OHRSC 2026 Video Submission Completion Notice 📢 OHRSC 2026 video submissions are now closed! Confirmation email…",
+      "headline": "OHRSC 2026 Video Submission Completion Notice",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/malaysiaharmonicafestival/posts/pfbid02pHCSAqons6N4JHkhgQdR6W6c36YNpEQhWxNUY7dtKdchwJzqMjfeHs7utpcNzTsHl",
+      "source_id": "fb_malaysiaharmonicafestival",
+      "source": "馬來西亞口琴節",
+      "source_system_name": "馬來西亞口琴節",
+      "source_profile_url": "https://facebook.com/malaysiaharmonicafestival",
+      "country": "馬來西亞",
+      "region": "馬來西亞/吉隆坡",
+      "directory_entry_id": "watchlist-165",
+      "directory_entry_name": "馬來西亞口琴節",
+      "account": "malaysiaharmonicafestival",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-20T11:53:00.000Z",
+      "posted_at_local": "2026-07-20 19:53",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-23T01:56:00.372547+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "比賽",
+        "影片",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "影片",
+        "截止",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "比賽",
+        "影片",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "口琴節公告OHRSC 2026比賽影片提交截止，屬公開賽事更新。",
+      "text": "OHRSC 2026 Video Submission Completion Notice\n📢 OHRSC 2026 video submissions are now closed!\nConfirmation emails have been sent to all successful submissions. Please check your Inbox and Junk/Spam folders. A total of 11 contestants/groups did not submit their videos by the deadline and are deemed to have withdrawn from the competition.\nThank you, and we wish everyone the best of luck! ✨\n📢 OHRSC 2026 参赛影片提交已正式截止！\n确认邮件已发送至所有成功提交影片的参赛者，请查阅收件箱及垃圾邮件（Junk/Spam）。共有 11 位/组参赛者未于截止日前提交影片，依据赛事规则视为自动弃权。\n感谢大家的参与，预祝比赛顺利！✨\n#MalaysiaHarmonicaFestival\nhttps://www.facebook.com/photo/?fbid=1027408770047288&set=a.131932856261555",
+      "images": [
+        "https://scontent-ord5-1.xx.fbcdn.net/v/t51.82787-15/751055507_17958358224171812_5151214513060405086_n.jpg?stp=dst-jpg_tt6&cstp=mx1350x1688&ctp=s640x640&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pu7kkuZ-BnkQ7kNvwGR8f21&_nc_oc=AdphY5v6S5JzpjPf0eP1UcvU6waXV3AcMnStp5ez5SVHMffK-Rw9FHD5wlvoFU7qDls&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=aiSOzavKTMmF0PJYVwSRIA&_nc_ss=7c289&oh=00_AQCM-sXduqW5h0Q3irsfQVZronsnLNtJrwRNVT7CA720-w&oe=6A67392E"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t51.82787-15/751055507_17958358224171812_5151214513060405086_n.jpg?stp=dst-jpg_tt6&cstp=mx1350x1688&ctp=s640x640&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pu7kkuZ-BnkQ7kNvwGR8f21&_nc_oc=AdphY5v6S5JzpjPf0eP1UcvU6waXV3AcMnStp5ez5SVHMffK-Rw9FHD5wlvoFU7qDls&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=aiSOzavKTMmF0PJYVwSRIA&_nc_ss=7c289&oh=00_AQCM-sXduqW5h0Q3irsfQVZronsnLNtJrwRNVT7CA720-w&oe=6A67392E",
+      "image_url": "/assets/feed-images/1c2c436f471162838cbf.webp",
+      "image_width": 512,
+      "image_height": 640,
+      "source_avatar_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/278614367_124189700215706_1238611269500334535_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx937x937&ctp=s50x50&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=-B4xvA2uP1wQ7kNvwHkZGX7&_nc_oc=AdocWCyWpSHckPD0r1jAJxOiTqnyvO5oIsLblCrWzZaFtBPUmDtgaHIcq1R4lK5z9_o&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=aiSOzavKTMmF0PJYVwSRIA&_nc_ss=7c289&oh=00_AQDaaY9gX-pCvkkMVGBMyudyfTs_6xz1bXguTCkJJ3Xh8Q&oe=6A672BC1",
+      "avatar_url": "/assets/source-avatars/d07a57be4ecfad2fc813.webp",
+      "source_initials": "馬來",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽"
+      ],
+      "key": "fb_malaysiaharmonicafestival:1027408786713953"
     },
     {
       "title": "Fresco Harmonica｜Instagram story @frescoharmonica",
