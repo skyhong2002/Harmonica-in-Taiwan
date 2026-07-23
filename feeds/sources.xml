@@ -5,7 +5,29 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 23 Jul 2026 05:13:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 06:18:44 +0000</lastBuildDate>
+    <item>
+      <title>國家兩廳院</title>
+      <link>https://npac-ntch.org/zh</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/31f9c79620bc0e35</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/臺北
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>Marcos Coll</title>
+      <link>https://marcoscoll.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/3515abad4f43ad4a</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、十孔、國際交流、音樂會、演出
+國家：西班牙
+地區：西班牙
+西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。</description>
+    </item>
     <item>
       <title>Lee Hangyeol 이한결</title>
       <link>https://www.instagram.com/gyeoli_94/</link>
@@ -40,6 +62,17 @@ Tag：場館平台
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
+      <title>陳彥銘</title>
+      <link>https://mx.nthu.edu.tw/~ymchen/sirius/CT.htm</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/294a4e588c327308</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、和弦、重奏、交流
+國家：臺灣
+地區：臺灣
+天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。</description>
+    </item>
+    <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/ad86c3570665b36e</guid>
@@ -49,6 +82,17 @@ Tag：演奏者、半音階、國際交流
 國家：日本
 地區：日本
 日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+    </item>
+    <item>
+      <title>陳鴻儀</title>
+      <link>https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/49b1bf57125f847c</guid>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、演出
+國家：臺灣
+地區：臺灣
+口琴演奏家，專注於演出與評審工作。</description>
     </item>
     <item>
       <title>Howard Levy</title>
@@ -403,17 +447,6 @@ Tag：活動資訊、課程、音樂節、比賽、國際交流
 美國的國際活動來源，涵蓋戶外口琴音樂節、課程、示範與社群演出。</description>
     </item>
     <item>
-      <title>Marcos Coll</title>
-      <link>https://marcoscoll.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/3515abad4f43ad4a</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、十孔、國際交流、音樂會、演出
-國家：西班牙
-地區：西班牙
-西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。</description>
-    </item>
-    <item>
       <title>王衍華</title>
       <link>https://portaly.cc/yenhua_wang</link>
       <guid>https://harmonica.observe.tw/feeds/sources/d4be998cbe5b2da8</guid>
@@ -500,17 +533,6 @@ Tag：學生社團
 國家：臺灣
 地區：臺灣/雲林
 臺灣的口琴隊學校團隊。</description>
-    </item>
-    <item>
-      <title>陳鴻儀</title>
-      <link>https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/49b1bf57125f847c</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、演出
-國家：臺灣
-地區：臺灣
-口琴演奏家，專注於演出與評審工作。</description>
     </item>
     <item>
       <title>EMPA 口琴課程</title>
@@ -676,28 +698,6 @@ Tag：團體樂團、重奏、國際交流
 國家：馬來西亞
 地區：馬來西亞
 馬來西亞的口琴重奏與合奏國際演出團體，活動脈絡包含公演與合作演出。</description>
-    </item>
-    <item>
-      <title>國家兩廳院</title>
-      <link>https://npac-ntch.org/zh</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/31f9c79620bc0e35</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/臺北
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
-    </item>
-    <item>
-      <title>陳彥銘</title>
-      <link>https://mx.nthu.edu.tw/~ymchen/sirius/CT.htm</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/294a4e588c327308</guid>
-      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、和弦、重奏、交流
-國家：臺灣
-地區：臺灣
-天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。</description>
     </item>
     <item>
       <title>韋笙堡口琴 Weissenberg Harmonicas</title>
