@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-23T12:19:59.360311Z",
+  "generatedAt": "2026-07-23T13:25:56.620437Z",
   "source": {
     "id": 100,
     "slug": "otis-tsao",
@@ -34,15 +34,6 @@
       "sourceName": "曹小歐",
       "platform": "Instagram",
       "publishedAt": "2026-06-29T12:11:50Z"
-    },
-    {
-      "id": "post-c53ac657377c7b4df7530ad5",
-      "title": "用口琴變魔術",
-      "excerpt": "用口琴變魔術",
-      "url": "https://www.facebook.com/reel/1674318240492435/",
-      "sourceName": "曹小歐",
-      "platform": "Facebook",
-      "publishedAt": "2026-06-23T13:17:34Z"
     }
   ]
 }
