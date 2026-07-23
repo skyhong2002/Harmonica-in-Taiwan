@@ -65,6 +65,74 @@
   },
   "entries": [
     {
+      "id": "watchlist-111",
+      "publicId": "111",
+      "name": "Lee Hangyeol 이한결",
+      "nameEn": "Lee Hangyeol",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "韓國口琴演奏/演出與教學/半音階爵士",
+      "structuredSummary": "韓國口琴演奏/演出與教學/半音階爵士 / 半音階/口琴 / 國際演出人員/教學者",
+      "summary": "韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。",
+      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica SIHF",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/gyeoli_94/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@gyeoli_94"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-23T03:44:25+00:00",
+      "latestUpdateLocal": "2026-07-23 11:44",
+      "latestUpdateSource": "Lee Hangyeol 이한결",
+      "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3947328654718941926/",
+      "avatarUrl": "/assets/source-avatars/78583b8211432c5fa188.webp",
+      "sourceInitials": "LH",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "gyeoli_94",
+          "profileUrl": "https://www.instagram.com/gyeoli_94/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "gyeoli_94",
+          "profileUrl": "https://www.instagram.com/gyeoli_94/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/gyeoli_94/story/0"
+        },
+        {
+          "id": "yt_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@gyeoli_94",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-127",
       "publicId": "127",
       "name": "Reyharp and Balawan Project",
@@ -804,6 +872,90 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/hoontobe",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-101",
+      "publicId": "101",
+      "name": "何家健 HarmoniKahkean",
+      "nameEn": "Ho Kah Kean / HarmoniKahkean",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人/地方推廣",
+      "country": "馬來西亞",
+      "region": "臺灣/花蓮；馬來西亞",
+      "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
+      "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
+      "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
+      "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/harmonikahkean"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonikahkean/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kahkeanho/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@hokahkean1999"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-22T15:52:18+00:00",
+      "latestUpdateLocal": "2026-07-22 23:52",
+      "latestUpdateSource": "何家健 HarmoniKahkean",
+      "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3946970238293706673/",
+      "avatarUrl": "/assets/source-avatars/7b33f34d52077af131e9.webp",
+      "sourceInitials": "H",
+      "sourceTags": [
+        "演奏者",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonikahkean",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonikahkean",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/kahkeanho/story/0"
+        },
+        {
+          "id": "yt_hokahkean1999",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@hokahkean1999",
           "feedUrl": ""
         }
       ]
@@ -1649,6 +1801,86 @@
       ]
     },
     {
+      "id": "watchlist-99",
+      "publicId": "99",
+      "name": "范曉怡",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "狂響口琴樂團/教學/地方推廣",
+      "structuredSummary": "狂響口琴樂團/教學/地方推廣 / 低音口琴/口琴 / 演出人員/教學者",
+      "summary": "臺灣的低音口琴與口琴演出人員與教學者，活動脈絡包含狂響口琴樂團、教學與地方推廣。",
+      "keywords": "范曉怡 fanhsiaoyi 口琴 狂響",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/fanhsiaoyi/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/fanhsiaoyi/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@fanhsiaoyi"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-22T11:46:59+00:00",
+      "latestUpdateLocal": "2026-07-22 19:46",
+      "latestUpdateSource": "范曉怡",
+      "latestUpdateUrl": "https://www.instagram.com/stories/fanhsiaoyi/3946846805907602142/",
+      "avatarUrl": "/assets/source-avatars/381e810a5b224700d5dd.webp",
+      "sourceInitials": "范曉",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/fanhsiaoyi",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "fanhsiaoyi",
+          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "fanhsiaoyi",
+          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/fanhsiaoyi/story/0"
+        },
+        {
+          "id": "threads_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "threads",
+          "type": "rss",
+          "username": "fanhsiaoyi",
+          "profileUrl": "https://www.threads.net/@fanhsiaoyi",
+          "feedUrl": "https://rss.observe.tw/threads/fanhsiaoyi"
+        }
+      ]
+    },
+    {
       "id": "watchlist-121",
       "publicId": "121",
       "name": "Fresco Harmonica Ensemble",
@@ -1807,6 +2039,89 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@JudysHarmonicaEnsemble",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-27",
+      "publicId": "27",
+      "name": "音和樂器",
+      "nameEn": "PeaceTones Harmonica",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "樂器行/口琴專賣店",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務",
+      "structuredSummary": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務 / 口琴 / 器材/教學來源",
+      "summary": "臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。",
+      "keywords": "音和樂器 PeaceTones Harmonica 口琴專賣店 口琴 維修 教學",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://0223120930.web66.com.tw/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/PeaceTones.harmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/peacetones.harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@peacetonesharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-22T10:39:28+00:00",
+      "latestUpdateLocal": "2026-07-22 18:39",
+      "latestUpdateSource": "音和樂器",
+      "latestUpdateUrl": "https://www.instagram.com/stories/peacetones.harmonica/3946812781161459831/",
+      "avatarUrl": "/assets/source-avatars/dfeeb9533e5153db60b9.webp",
+      "sourceInitials": "音和",
+      "sourceTags": [
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/PeaceTones.harmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "peacetones.harmonica",
+          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "peacetones.harmonica",
+          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/peacetones.harmonica/story/0"
+        },
+        {
+          "id": "yt_peacetonesharmonica",
+          "name": "音和樂器",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@peacetonesharmonica",
           "feedUrl": ""
         }
       ]
@@ -3166,89 +3481,6 @@
       ]
     },
     {
-      "id": "watchlist-27",
-      "publicId": "27",
-      "name": "音和樂器",
-      "nameEn": "PeaceTones Harmonica",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "樂器行/口琴專賣店",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務",
-      "structuredSummary": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務 / 口琴 / 器材/教學來源",
-      "summary": "臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。",
-      "keywords": "音和樂器 PeaceTones Harmonica 口琴專賣店 口琴 維修 教學",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://0223120930.web66.com.tw/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/PeaceTones.harmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/peacetones.harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@peacetonesharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-21T05:13:10+00:00",
-      "latestUpdateLocal": "2026-07-21 13:13",
-      "latestUpdateSource": "音和樂器",
-      "latestUpdateUrl": "https://www.instagram.com/stories/peacetones.harmonica/3945923771806090116/",
-      "avatarUrl": "/assets/source-avatars/dfeeb9533e5153db60b9.webp",
-      "sourceInitials": "音和",
-      "sourceTags": [
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_peacetones_harmonica",
-          "name": "音和樂器",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/PeaceTones.harmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_peacetones_harmonica",
-          "name": "音和樂器",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "peacetones.harmonica",
-          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_peacetones_harmonica",
-          "name": "音和樂器",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "peacetones.harmonica",
-          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/peacetones.harmonica/story/0"
-        },
-        {
-          "id": "yt_peacetonesharmonica",
-          "name": "音和樂器",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@peacetonesharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-88",
       "publicId": "88",
       "name": "藍波口琴教室",
@@ -3398,90 +3630,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-101",
-      "publicId": "101",
-      "name": "何家健 HarmoniKahkean",
-      "nameEn": "Ho Kah Kean / HarmoniKahkean",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人/地方推廣",
-      "country": "馬來西亞",
-      "region": "臺灣/花蓮；馬來西亞",
-      "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
-      "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
-      "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
-      "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/harmonikahkean"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonikahkean/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/kahkeanho/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@hokahkean1999"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-21T01:04:48+00:00",
-      "latestUpdateLocal": "2026-07-21 09:04",
-      "latestUpdateSource": "何家健 HarmoniKahkean",
-      "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3945798789952923619/",
-      "avatarUrl": "/assets/source-avatars/7b33f34d52077af131e9.webp",
-      "sourceInitials": "H",
-      "sourceTags": [
-        "演奏者",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonikahkean",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonikahkean",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_kahkeanho",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "kahkeanho",
-          "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_kahkeanho",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "kahkeanho",
-          "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/kahkeanho/story/0"
-        },
-        {
-          "id": "yt_hokahkean1999",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@hokahkean1999",
           "feedUrl": ""
         }
       ]
@@ -4196,6 +4344,54 @@
       ]
     },
     {
+      "id": "watchlist-209",
+      "publicId": "209",
+      "name": "英皇書院同學會小學口琴隊",
+      "nameEn": "KCOBAPS Harmonica Band",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校/青年",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "英皇書院同學會小學/學校/青年/香港",
+      "structuredSummary": "英皇書院同學會小學/學校/青年/香港 / 口琴隊/半音階/學生合奏 / 學校團隊",
+      "summary": "香港的口琴隊、半音階與學生合奏學校團隊。",
+      "keywords": "英皇書院同學會小學口琴隊 KCOBAPS Harmonica Band 世界口琴節 學生口琴隊 香港",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.kcobaps1.edu.hk/tc/latest_new/英小小航海家-口琴演奏交流"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kcobaps/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-20T10:41:24+00:00",
+      "latestUpdateLocal": "2026-07-20 18:41",
+      "latestUpdateSource": "英皇書院同學會小學口琴隊",
+      "latestUpdateUrl": "https://www.facebook.com/kcobaps/posts/pfbid02f96J36KkZMKcsER5nj2ZabNMJJcKs8wrUwYeJdU4mpVYkUSNLthnFT1gBuoQAQNUl",
+      "avatarUrl": "/assets/source-avatars/eee21e2828c60dffa72c.webp",
+      "sourceInitials": "英皇",
+      "sourceTags": [
+        "學生社團",
+        "半音階"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_kcobaps",
+          "name": "英皇書院同學會小學口琴隊",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/kcobaps",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-50",
       "publicId": "50",
       "name": "Aiden Soon",
@@ -4397,86 +4593,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-99",
-      "publicId": "99",
-      "name": "范曉怡",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "狂響口琴樂團/教學/地方推廣",
-      "structuredSummary": "狂響口琴樂團/教學/地方推廣 / 低音口琴/口琴 / 演出人員/教學者",
-      "summary": "臺灣的低音口琴與口琴演出人員與教學者，活動脈絡包含狂響口琴樂團、教學與地方推廣。",
-      "keywords": "范曉怡 fanhsiaoyi 口琴 狂響",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/fanhsiaoyi/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/fanhsiaoyi/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@fanhsiaoyi"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-20T05:15:47+00:00",
-      "latestUpdateLocal": "2026-07-20 13:15",
-      "latestUpdateSource": "范曉怡",
-      "latestUpdateUrl": "https://www.instagram.com/stories/fanhsiaoyi/3945200528443571832/",
-      "avatarUrl": "/assets/source-avatars/381e810a5b224700d5dd.webp",
-      "sourceInitials": "范曉",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_fanhsiaoyi",
-          "name": "范曉怡",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/fanhsiaoyi",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_fanhsiaoyi",
-          "name": "范曉怡",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "fanhsiaoyi",
-          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_fanhsiaoyi",
-          "name": "范曉怡",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "fanhsiaoyi",
-          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/fanhsiaoyi/story/0"
-        },
-        {
-          "id": "threads_fanhsiaoyi",
-          "name": "范曉怡",
-          "platform": "threads",
-          "type": "rss",
-          "username": "fanhsiaoyi",
-          "profileUrl": "https://www.threads.net/@fanhsiaoyi",
-          "feedUrl": "https://rss.observe.tw/threads/fanhsiaoyi"
         }
       ]
     },
@@ -5900,74 +6016,6 @@
       ]
     },
     {
-      "id": "watchlist-111",
-      "publicId": "111",
-      "name": "Lee Hangyeol 이한결",
-      "nameEn": "Lee Hangyeol",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "韓國口琴演奏/演出與教學/半音階爵士",
-      "structuredSummary": "韓國口琴演奏/演出與教學/半音階爵士 / 半音階/口琴 / 國際演出人員/教學者",
-      "summary": "韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。",
-      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica SIHF",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/gyeoli_94/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@gyeoli_94"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-17T12:09:43+00:00",
-      "latestUpdateLocal": "2026-07-17 20:09",
-      "latestUpdateSource": "Lee Hangyeol 이한결",
-      "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3943234320277034166/",
-      "avatarUrl": "/assets/source-avatars/78583b8211432c5fa188.webp",
-      "sourceInitials": "LH",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "gyeoli_94",
-          "profileUrl": "https://www.instagram.com/gyeoli_94/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "gyeoli_94",
-          "profileUrl": "https://www.instagram.com/gyeoli_94/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/gyeoli_94/story/0"
-        },
-        {
-          "id": "yt_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@gyeoli_94",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-76",
       "publicId": "76",
       "name": "新竹縣文化局",
@@ -7242,54 +7290,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@DMingStudio",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-209",
-      "publicId": "209",
-      "name": "英皇書院同學會小學口琴隊",
-      "nameEn": "KCOBAPS Harmonica Band",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校/青年",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "英皇書院同學會小學/學校/青年/香港",
-      "structuredSummary": "英皇書院同學會小學/學校/青年/香港 / 口琴隊/半音階/學生合奏 / 學校團隊",
-      "summary": "香港的口琴隊、半音階與學生合奏學校團隊。",
-      "keywords": "英皇書院同學會小學口琴隊 KCOBAPS Harmonica Band 世界口琴節 學生口琴隊 香港",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.kcobaps1.edu.hk/tc/latest_new/英小小航海家-口琴演奏交流"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/kcobaps/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-10T09:28:03+00:00",
-      "latestUpdateLocal": "2026-07-10 17:28",
-      "latestUpdateSource": "英皇書院同學會小學口琴隊",
-      "latestUpdateUrl": "https://www.facebook.com/reel/1444712454353040/",
-      "avatarUrl": "/assets/source-avatars/eee21e2828c60dffa72c.webp",
-      "sourceInitials": "英皇",
-      "sourceTags": [
-        "學生社團",
-        "半音階"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_kcobaps",
-          "name": "英皇書院同學會小學口琴隊",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/kcobaps",
           "feedUrl": ""
         }
       ]
