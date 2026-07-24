@@ -77,6 +77,89 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-27",
+      "publicId": "27",
+      "name": "音和樂器",
+      "nameEn": "PeaceTones Harmonica",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "樂器行/口琴專賣店",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務",
+      "structuredSummary": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務 / 口琴 / 器材/教學來源",
+      "summary": "臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。",
+      "keywords": "音和樂器 PeaceTones Harmonica 口琴專賣店 口琴 維修 教學",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://0223120930.web66.com.tw/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/PeaceTones.harmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/peacetones.harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@peacetonesharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-24T16:25:44+00:00",
+      "latestUpdateLocal": "2026-07-25 00:25",
+      "latestUpdateSource": "音和樂器",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=pgDKbspaJjg",
+      "avatarUrl": "/assets/source-avatars/dfeeb9533e5153db60b9.webp",
+      "sourceInitials": "音和",
+      "sourceTags": [
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/PeaceTones.harmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "peacetones.harmonica",
+          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "peacetones.harmonica",
+          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/peacetones.harmonica/story/0"
+        },
+        {
+          "id": "yt_peacetonesharmonica",
+          "name": "音和樂器",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@peacetonesharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-59",
       "publicId": "59",
       "name": "千賀太郎",
@@ -212,6 +295,91 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/jongseongpark",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-142",
+      "publicId": "142",
+      "name": "Howard Levy",
+      "nameEn": "Howard Levy",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "美國",
+      "region": "美國",
+      "cityOrFocus": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興",
+      "structuredSummary": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興 / 半音階/十孔/鋼琴 / 國際演出人員/作曲者/教育者",
+      "summary": "美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。",
+      "keywords": "Howard Levy harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://levyland.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HowardLevyFanPage/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/howardlevyland/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-24T14:48:22+00:00",
+      "latestUpdateLocal": "2026-07-24 22:48",
+      "latestUpdateSource": "Howard Levy",
+      "latestUpdateUrl": "https://www.instagram.com/stories/howardlevyland/3948387626650604296/",
+      "avatarUrl": "/assets/source-avatars/fdb08c71103b5e8ceb5b.webp",
+      "sourceInitials": "HL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_howardlevyfanpage",
+          "name": "Howard Levy",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HowardLevyFanPage",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_howardlevyland",
+          "name": "Howard Levy",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "howardlevyland",
+          "profileUrl": "https://www.instagram.com/howardlevyland/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_howardlevyland",
+          "name": "Howard Levy",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "howardlevyland",
+          "profileUrl": "https://www.instagram.com/howardlevyland/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/howardlevyland/story/0"
+        },
+        {
+          "id": "yt_uc86aeg8s_npzmfuj_cyxw",
+          "name": "Howard Levy",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
           "feedUrl": ""
         }
       ]
@@ -2085,89 +2253,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-27",
-      "publicId": "27",
-      "name": "音和樂器",
-      "nameEn": "PeaceTones Harmonica",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "樂器行/口琴專賣店",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務",
-      "structuredSummary": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務 / 口琴 / 器材/教學來源",
-      "summary": "臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。",
-      "keywords": "音和樂器 PeaceTones Harmonica 口琴專賣店 口琴 維修 教學",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://0223120930.web66.com.tw/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/PeaceTones.harmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/peacetones.harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@peacetonesharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-24T05:47:05+00:00",
-      "latestUpdateLocal": "2026-07-24 13:47",
-      "latestUpdateSource": "音和樂器",
-      "latestUpdateUrl": "https://www.instagram.com/stories/peacetones.harmonica/3948115174169665045/",
-      "avatarUrl": "/assets/source-avatars/dfeeb9533e5153db60b9.webp",
-      "sourceInitials": "音和",
-      "sourceTags": [
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_peacetones_harmonica",
-          "name": "音和樂器",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/PeaceTones.harmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_peacetones_harmonica",
-          "name": "音和樂器",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "peacetones.harmonica",
-          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_peacetones_harmonica",
-          "name": "音和樂器",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "peacetones.harmonica",
-          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/peacetones.harmonica/story/0"
-        },
-        {
-          "id": "yt_peacetonesharmonica",
-          "name": "音和樂器",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@peacetonesharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-147",
       "publicId": "147",
       "name": "Yoonseok Lee",
@@ -2429,91 +2514,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/hoontobe",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-142",
-      "publicId": "142",
-      "name": "Howard Levy",
-      "nameEn": "Howard Levy",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "美國",
-      "region": "美國",
-      "cityOrFocus": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興",
-      "structuredSummary": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興 / 半音階/十孔/鋼琴 / 國際演出人員/作曲者/教育者",
-      "summary": "美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。",
-      "keywords": "Howard Levy harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://levyland.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HowardLevyFanPage/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/howardlevyland/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-24T05:13:01+00:00",
-      "latestUpdateLocal": "2026-07-24 13:13",
-      "latestUpdateSource": "Howard Levy",
-      "latestUpdateUrl": "https://www.instagram.com/stories/howardlevyland/3948098017181952849/",
-      "avatarUrl": "/assets/source-avatars/fdb08c71103b5e8ceb5b.webp",
-      "sourceInitials": "HL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_howardlevyfanpage",
-          "name": "Howard Levy",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HowardLevyFanPage",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_howardlevyland",
-          "name": "Howard Levy",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "howardlevyland",
-          "profileUrl": "https://www.instagram.com/howardlevyland/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_howardlevyland",
-          "name": "Howard Levy",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "howardlevyland",
-          "profileUrl": "https://www.instagram.com/howardlevyland/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/howardlevyland/story/0"
-        },
-        {
-          "id": "yt_uc86aeg8s_npzmfuj_cyxw",
-          "name": "Howard Levy",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
           "feedUrl": ""
         }
       ]
