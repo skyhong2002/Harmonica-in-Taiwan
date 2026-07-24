@@ -5,7 +5,29 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 24 Jul 2026 05:14:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 05:49:33 +0000</lastBuildDate>
+    <item>
+      <title>國家兩廳院</title>
+      <link>https://npac-ntch.org/zh</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/31f9c79620bc0e35</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/臺北
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>吹出好心琴 + Ou Frog</title>
+      <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/a7900260c88a5842</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：品牌、教學器材、教學
+國家：臺灣
+地區：臺灣
+臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
+    </item>
     <item>
       <title>Filip Jers</title>
       <link>https://www.filipjers.com/</link>
@@ -381,17 +403,6 @@ Tag：活動資訊、團體樂團、音樂節、重奏、國際交流
 馬來西亞的國際演出團體，涵蓋馬來西亞口琴重奏、跨國音樂節與社群演出。</description>
     </item>
     <item>
-      <title>國家兩廳院</title>
-      <link>https://npac-ntch.org/zh</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/31f9c79620bc0e35</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/臺北
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
-    </item>
-    <item>
       <title>Marcos Coll</title>
       <link>https://marcoscoll.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/3515abad4f43ad4a</guid>
@@ -643,17 +654,6 @@ Tag：學生社團、大專社團
 國家：臺灣
 地區：臺灣/臺中
 臺灣的口琴學校社團。</description>
-    </item>
-    <item>
-      <title>吹出好心琴 + Ou Frog</title>
-      <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/a7900260c88a5842</guid>
-      <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：品牌、教學器材、教學
-國家：臺灣
-地區：臺灣
-臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
     </item>
     <item>
       <title>新加坡國立大學口琴社</title>

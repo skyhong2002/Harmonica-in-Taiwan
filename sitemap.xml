@@ -61,6 +61,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/79/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/86-ou-frog/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/115-filip-jers/</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -265,12 +277,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/79/</loc>
-    <lastmod>2026-07-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/67-marcos-coll/</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -404,12 +410,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/187-csmu-blue-melody/</loc>
-    <lastmod>2026-07-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/86-ou-frog/</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
