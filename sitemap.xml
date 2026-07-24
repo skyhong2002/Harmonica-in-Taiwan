@@ -61,6 +61,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/33/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/101-ho-kah-kean-harmonikahkean/</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -80,6 +86,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/132-antonio-serrano/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/4-judy-s-harmonica-ensemble/</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -121,13 +133,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/3-sirius-harmonica-ensemble/</loc>
+    <loc>https://harmonica.observe.tw/source/30/</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/30/</loc>
+    <loc>https://harmonica.observe.tw/source/3-sirius-harmonica-ensemble/</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -169,12 +181,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/33/</loc>
-    <lastmod>2026-07-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/218-evelyn-choong/</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -194,12 +200,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/65-jong-seong-park/</loc>
-    <lastmod>2026-07-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/4-judy-s-harmonica-ensemble/</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -583,6 +583,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/87/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/178-harmonica-fen-festival-academy/</loc>
     <lastmod>2026-07-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -825,12 +831,6 @@
   <url>
     <loc>https://harmonica.observe.tw/source/191-hsnu-cozy-harmonica/</loc>
     <lastmod>2026-05-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/87/</loc>
-    <lastmod>2026-05-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

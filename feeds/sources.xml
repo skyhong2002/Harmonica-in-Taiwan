@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 24 Jul 2026 19:12:55 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 19:46:10 +0000</lastBuildDate>
+    <item>
+      <title>黃冠誌</title>
+      <link>https://harmonica.tw/course/kuanchih/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、合奏、和弦、重奏、演出
+國家：臺灣
+地區：臺灣
+口琴演奏者，專長和弦口琴與重奏演出。</description>
+    </item>
     <item>
       <title>何家健 HarmoniKahkean</title>
       <link>https://linktr.ee/harmonikahkean</link>
@@ -49,6 +60,17 @@ Tag：演奏者、半音階、十孔、國際交流
 國家：西班牙
 地區：西班牙
 西班牙的半音階與十孔國際演出人員，活動脈絡包含馬德里出生、古典藍調爵士流行與與Paco de Lucia合作。</description>
+    </item>
+    <item>
+      <title>茱蒂口琴樂團 Judy's Harmonica Ensemble</title>
+      <link>https://www.judysharmonica.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/da11065f59c239fe</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏
+國家：臺灣
+地區：臺灣
+臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與教育推廣。</description>
     </item>
     <item>
       <title>Jens Bunge</title>
@@ -117,17 +139,6 @@ Tag：團體樂團、重奏
 臺灣的大學生新生代口琴重奏演出團體。</description>
     </item>
     <item>
-      <title>天狼星口琴樂團 Sirius Harmonica Ensemble</title>
-      <link>https://www.facebook.com/SiriusHarp/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/5cea8f6e4720f081</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏、國際交流
-國家：臺灣
-地區：臺灣
-臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與THMF。</description>
-    </item>
-    <item>
       <title>蔡明憲</title>
       <link>https://studio.dming.co/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/3881b1c9af7db824</guid>
@@ -137,6 +148,17 @@ Tag：演奏者、教學、重奏
 國家：臺灣
 地區：臺灣
 臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。</description>
+    </item>
+    <item>
+      <title>天狼星口琴樂團 Sirius Harmonica Ensemble</title>
+      <link>https://www.facebook.com/SiriusHarp/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/5cea8f6e4720f081</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏、國際交流
+國家：臺灣
+地區：臺灣
+臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與THMF。</description>
     </item>
     <item>
       <title>陳彥銘</title>
@@ -205,17 +227,6 @@ Tag：演奏者、半音階、國際交流
 日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
     </item>
     <item>
-      <title>黃冠誌</title>
-      <link>https://harmonica.tw/course/kuanchih/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、合奏、和弦、重奏、演出
-國家：臺灣
-地區：臺灣
-口琴演奏者，專長和弦口琴與重奏演出。</description>
-    </item>
-    <item>
       <title>Evelyn Choong 鍾雪兒</title>
       <link>https://www.facebook.com/evelyn.choong.3/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/78ffab148f49419e</guid>
@@ -258,17 +269,6 @@ Tag：演奏者、半音階、國際交流
 國家：韓國
 地區：韓國
 韓國半音階口琴演奏家，活躍於國際舞台。</description>
-    </item>
-    <item>
-      <title>茱蒂口琴樂團 Judy's Harmonica Ensemble</title>
-      <link>https://www.judysharmonica.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/da11065f59c239fe</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏
-國家：臺灣
-地區：臺灣
-臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與教育推廣。</description>
     </item>
     <item>
       <title>音和樂器</title>
@@ -964,6 +964,17 @@ Tag：學生社團
 馬來西亞的口琴隊、學生合奏與華校學校社團。</description>
     </item>
     <item>
+      <title>桃園玩口琴</title>
+      <link>https://www.facebook.com/p/%E6%A1%83%E5%9C%92%E7%8E%A9%E5%8F%A3%E7%90%B4-100057424090624/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/51d5dfa685c7370c</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：教學器材、教學、課程
+國家：臺灣
+地區：臺灣/桃園
+臺灣的口琴教學與課程來源，關注口琴課程與地方社群活動。</description>
+    </item>
+    <item>
       <title>Harmonica FEN 口琴節與學院</title>
       <link>https://harmonica-fen-festival.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/b9d265ee651e1480</guid>
@@ -1413,17 +1424,6 @@ Tag：學生社團
 國家：臺灣
 地區：臺灣/臺北
 臺灣的口琴學校社團。</description>
-    </item>
-    <item>
-      <title>桃園玩口琴</title>
-      <link>https://www.facebook.com/p/%E6%A1%83%E5%9C%92%E7%8E%A9%E5%8F%A3%E7%90%B4-100057424090624/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/51d5dfa685c7370c</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：教學器材、教學、課程
-國家：臺灣
-地區：臺灣/桃園
-臺灣的口琴教學與課程來源，關注口琴課程與地方社群活動。</description>
     </item>
     <item>
       <title>清華大學口琴社</title>
