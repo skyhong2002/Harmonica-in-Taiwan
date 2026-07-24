@@ -2,6 +2,87 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-24",
   "entries": [
     {
+      "id": "watchlist-219",
+      "publicId": "219",
+      "name": "IniXial Harmonica Ensemble 源創口琴樂團",
+      "nameEn": "IniXial Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/公演/新興團體",
+      "structuredSummary": "重奏/公演/新興團體 / 口琴重奏 / 演出團體",
+      "summary": "「IniXial Harmonica Ensemble 源創口琴樂團」成立於2024年，由半音階口琴、倍低音口琴、和弦口琴等純口琴樂器組成，是個融合不同聲部的特殊編制重奏團體。團員除身為演奏者之外，同時具有創作編曲與現場演出能力。源創口琴樂團期許透過演出，呈現樂曲的原創概念以及熱愛音樂的初衷。 See the latest...",
+      "keywords": "IniXial Harmonica Ensemble 源創口琴樂團 IniXial 口琴樂團",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/profile.php?id=61590218560112"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/inixial.muse/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@inixial.muse"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-24T10:09:19+00:00",
+      "latestUpdateLocal": "2026-07-24 18:09",
+      "latestUpdateSource": "IniXial Harmonica Ensemble 源創口琴樂團",
+      "latestUpdateUrl": "https://www.threads.com/t/DbK_djwiWia",
+      "avatarUrl": "/assets/source-avatars/25eb88e4d5f5e15f0167.webp",
+      "sourceInitials": "IHE",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "sourceSummary": "「IniXial Harmonica Ensemble 源創口琴樂團」成立於2024年，由半音階口琴、倍低音口琴、和弦口琴等純口琴樂器組成，是個融合不同聲部的特殊編制重奏團體。團員除身為演奏者之外，同時具有創作編曲與現場演出能力。源創口琴樂團期許透過演出，呈現樂曲的原創概念以及熱愛音樂的初衷。 See the latest...",
+      "sourceTagReason": "社群網站公開自我敘述。",
+      "monitorSources": [
+        {
+          "id": "fb_7112134202",
+          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/profile.php?id=61590218560112",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_inixial_muse",
+          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "inixial.muse",
+          "profileUrl": "https://www.instagram.com/inixial.muse/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_inixial_muse",
+          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "inixial.muse",
+          "profileUrl": "https://www.instagram.com/inixial.muse/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/inixial.muse/story/0"
+        },
+        {
+          "id": "threads_inixial_muse",
+          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
+          "platform": "threads",
+          "type": "rss",
+          "username": "inixial.muse",
+          "profileUrl": "https://www.threads.net/@inixial.muse",
+          "feedUrl": "https://rss.observe.tw/threads/inixial.muse"
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -535,6 +616,92 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/ntcharts",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-66",
+      "publicId": "66",
+      "name": "Younghoon Cho",
+      "nameEn": "Younghoon Cho",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
+      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
+      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "keywords": "Younghoon Cho Jong-seong Park",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/hoontobe"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hoontobe/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hoontobe_piano/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/hoontobe"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-24T05:23:35+00:00",
+      "latestUpdateLocal": "2026-07-24 13:23",
+      "latestUpdateSource": "Younghoon Cho",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3948103375707668036/",
+      "avatarUrl": "/assets/source-avatars/4168baa97b6613dcf6d7.webp",
+      "sourceInitials": "YC",
+      "sourceTags": [
+        "演奏者",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
+      "monitorSources": [
+        {
+          "id": "fb_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hoontobe",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
+        },
+        {
+          "id": "yt_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/hoontobe",
           "feedUrl": ""
         }
       ]
@@ -1745,92 +1912,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@YFHarmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-66",
-      "publicId": "66",
-      "name": "Younghoon Cho",
-      "nameEn": "Younghoon Cho",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
-      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
-      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "keywords": "Younghoon Cho Jong-seong Park",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/hoontobe"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hoontobe/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hoontobe_piano/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/hoontobe"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-23T17:25:27+00:00",
-      "latestUpdateLocal": "2026-07-24 01:25",
-      "latestUpdateSource": "Younghoon Cho",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=hMZjEzpPBqI",
-      "avatarUrl": "/assets/source-avatars/4168baa97b6613dcf6d7.webp",
-      "sourceInitials": "YC",
-      "sourceTags": [
-        "演奏者",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
-      "monitorSources": [
-        {
-          "id": "fb_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hoontobe",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
-        },
-        {
-          "id": "yt_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/hoontobe",
           "feedUrl": ""
         }
       ]
@@ -4400,7 +4481,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-22 23:24",
       "latestUpdateSource": "山下伶 Rei Yamashita",
       "latestUpdateUrl": "https://www.instagram.com/stories/rei_harmonica/3946956078709971965/",
-      "avatarUrl": "/assets/source-avatars/88e248e6f1c02aaa881b.webp",
+      "avatarUrl": "/assets/source-avatars/9628724a6f3368b6ce7e.webp",
       "sourceInitials": "RY",
       "sourceTags": [
         "演奏者",
@@ -4656,7 +4737,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-22 18:14",
       "latestUpdateSource": "張晁滕",
       "latestUpdateUrl": "https://www.instagram.com/stories/chaotengchang/3946800259716036093/",
-      "avatarUrl": "/assets/source-avatars/ee71f9a44b3bd85fda78.webp",
+      "avatarUrl": "/assets/source-avatars/6dcd46b5676743756a83.webp",
       "sourceInitials": "張晁",
       "sourceTags": [
         "演奏者",
@@ -5573,87 +5654,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "hksmsa_official",
           "profileUrl": "https://www.instagram.com/hksmsa_official/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/hksmsa_official/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-219",
-      "publicId": "219",
-      "name": "IniXial Harmonica Ensemble 源創口琴樂團",
-      "nameEn": "IniXial Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/公演/新興團體",
-      "structuredSummary": "重奏/公演/新興團體 / 口琴重奏 / 演出團體",
-      "summary": "「IniXial Harmonica Ensemble 源創口琴樂團」成立於2024年，由半音階口琴、倍低音口琴、和弦口琴等純口琴樂器組成，是個融合不同聲部的特殊編制重奏團體。團員除身為演奏者之外，同時具有創作編曲與現場演出能力。源創口琴樂團期許透過演出，呈現樂曲的原創概念以及熱愛音樂的初衷。 See the latest...",
-      "keywords": "IniXial Harmonica Ensemble 源創口琴樂團 IniXial 口琴樂團",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/profile.php?id=61590218560112"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/inixial.muse/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@inixial.muse"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-20T13:03:51+00:00",
-      "latestUpdateLocal": "2026-07-20 21:03",
-      "latestUpdateSource": "IniXial Harmonica Ensemble 源創口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/inixial.muse/3945435964457843271/",
-      "avatarUrl": "/assets/source-avatars/25eb88e4d5f5e15f0167.webp",
-      "sourceInitials": "IHE",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "sourceSummary": "「IniXial Harmonica Ensemble 源創口琴樂團」成立於2024年，由半音階口琴、倍低音口琴、和弦口琴等純口琴樂器組成，是個融合不同聲部的特殊編制重奏團體。團員除身為演奏者之外，同時具有創作編曲與現場演出能力。源創口琴樂團期許透過演出，呈現樂曲的原創概念以及熱愛音樂的初衷。 See the latest...",
-      "sourceTagReason": "社群網站公開自我敘述。",
-      "monitorSources": [
-        {
-          "id": "fb_7112134202",
-          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/profile.php?id=61590218560112",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_inixial_muse",
-          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "inixial.muse",
-          "profileUrl": "https://www.instagram.com/inixial.muse/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_inixial_muse",
-          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "inixial.muse",
-          "profileUrl": "https://www.instagram.com/inixial.muse/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/inixial.muse/story/0"
-        },
-        {
-          "id": "threads_inixial_muse",
-          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
-          "platform": "threads",
-          "type": "rss",
-          "username": "inixial.muse",
-          "profileUrl": "https://www.threads.net/@inixial.muse",
-          "feedUrl": "https://rss.observe.tw/threads/inixial.muse"
         }
       ]
     },
