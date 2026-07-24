@@ -976,6 +976,92 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-68",
+      "publicId": "68",
+      "name": "Gordon Lee 李俊樂",
+      "nameEn": "Gordon Lee",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/THMC嘉賓/評審",
+      "structuredSummary": "半音階/THMC嘉賓/評審 / 半音階 / 國際演出人員/評審",
+      "summary": "香港半音階口琴演奏者，擔任國際比賽嘉賓與評審。",
+      "keywords": "Gordon Lee 李俊樂 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hkco.org/tc/Other-Members/Gordon-Lee.html"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/gordonleeharmonicist/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/gordonleeharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/Harmonicagor"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-23T14:35:23+00:00",
+      "latestUpdateLocal": "2026-07-23 22:35",
+      "latestUpdateSource": "Gordon Lee 李俊樂",
+      "latestUpdateUrl": "https://www.instagram.com/stories/gordonleeharmonica/3947656315472077365/",
+      "avatarUrl": "/assets/source-avatars/cd3038470adf7d527173.webp",
+      "sourceInitials": "GL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "sourceSummary": "香港半音階口琴演奏者，擔任國際比賽嘉賓與評審。",
+      "sourceTagReason": "資料明確標註為「演奏者」及「半音階」，並提及國際演出與評審角色，故優先標註演奏者、口琴、半音階及國際交流。",
+      "monitorSources": [
+        {
+          "id": "fb_gordonleeharmonicist",
+          "name": "Gordon Lee 李俊樂",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/gordonleeharmonicist",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_gordonleeharmonica",
+          "name": "Gordon Lee 李俊樂",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "gordonleeharmonica",
+          "profileUrl": "https://www.instagram.com/gordonleeharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_gordonleeharmonica",
+          "name": "Gordon Lee 李俊樂",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "gordonleeharmonica",
+          "profileUrl": "https://www.instagram.com/gordonleeharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/gordonleeharmonica/story/0"
+        },
+        {
+          "id": "yt_harmonicagor",
+          "name": "Gordon Lee 李俊樂",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/Harmonicagor",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-59",
       "publicId": "59",
       "name": "千賀太郎",
@@ -7303,92 +7389,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/chen.cheng.yi.487430",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-68",
-      "publicId": "68",
-      "name": "Gordon Lee 李俊樂",
-      "nameEn": "Gordon Lee",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/THMC嘉賓/評審",
-      "structuredSummary": "半音階/THMC嘉賓/評審 / 半音階 / 國際演出人員/評審",
-      "summary": "香港半音階口琴演奏者，擔任國際比賽嘉賓與評審。",
-      "keywords": "Gordon Lee 李俊樂 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hkco.org/tc/Other-Members/Gordon-Lee.html"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/gordonleeharmonicist/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/gordonleeharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/Harmonicagor"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-13T03:32:55+00:00",
-      "latestUpdateLocal": "2026-07-13 11:32",
-      "latestUpdateSource": "Gordon Lee 李俊樂",
-      "latestUpdateUrl": "https://www.instagram.com/stories/gordonleeharmonica/3940075111547724398/",
-      "avatarUrl": "/assets/source-avatars/cd3038470adf7d527173.webp",
-      "sourceInitials": "GL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "sourceSummary": "香港半音階口琴演奏者，擔任國際比賽嘉賓與評審。",
-      "sourceTagReason": "資料明確標註為「演奏者」及「半音階」，並提及國際演出與評審角色，故優先標註演奏者、口琴、半音階及國際交流。",
-      "monitorSources": [
-        {
-          "id": "fb_gordonleeharmonicist",
-          "name": "Gordon Lee 李俊樂",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/gordonleeharmonicist",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_gordonleeharmonica",
-          "name": "Gordon Lee 李俊樂",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "gordonleeharmonica",
-          "profileUrl": "https://www.instagram.com/gordonleeharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_gordonleeharmonica",
-          "name": "Gordon Lee 李俊樂",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "gordonleeharmonica",
-          "profileUrl": "https://www.instagram.com/gordonleeharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/gordonleeharmonica/story/0"
-        },
-        {
-          "id": "yt_harmonicagor",
-          "name": "Gordon Lee 李俊樂",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/Harmonicagor",
           "feedUrl": ""
         }
       ]
