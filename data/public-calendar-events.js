@@ -1,9 +1,9 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-07-24T23:54:44+08:00",
+  "generatedAt": "2026-07-25T01:00:19+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 10,
+  "count": 11,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@ window.publicCalendarEvents = {
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 44,
+      "cached": 45,
       "errors": 0
     }
   },
@@ -347,6 +347,43 @@ window.publicCalendarEvents = {
         "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/739470687_1040056295068096_7293253133308599774_n.jpg?stp=dst-jpg_tt6&cstp=mx1365x2048&ctp=p526x296&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=2Y1z_Jz5Dh8Q7kNvwFu7VK-&_nc_oc=AdqxjQbb6wJT970ZnT5Z_rs1p-cS4quxZMheCf-q54835u_qYflx85m8deFTmC-EPow&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=fC0baYd0G3S4wa4B0Xtonw&_nc_ss=72289&oh=00_AQD5RdqSWLacQo-8-SAlB867k8FV6ZdIPrmBg_e1-da7CA&oe=6A55CCA3"
       ],
       "image_url": "/assets/feed-images/37059a2ebd980acbaf3f.webp"
+    },
+    {
+      "id": "e3d638745ae65855",
+      "title": "竹韻，再次響起",
+      "eventName": "竹韻，再次響起",
+      "source": "陽明交大竹韻口琴社",
+      "platform": "instagram",
+      "start": "2026-08-09",
+      "end": "2026-08-10",
+      "allDay": true,
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "location": "新竹市 陽明交大活動中心四樓交誼廳",
+      "venue": "陽明交大活動中心四樓交誼廳",
+      "city": "新竹市",
+      "details": "為慶祝陽明交大竹韻口琴社重新復社舉辦的復社茶會，活動包含開場、回顧、音樂表演、簡報介紹與大合照。時間為 115/8/9（日）13:30–15:00。",
+      "evidenceUrl": "https://www.instagram.com/p/DbLX1c9lGv9/",
+      "confidence": 0.97,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "竹韻，再次響起",
+        "venue": "陽明交大活動中心四樓交誼廳",
+        "city": "新竹市",
+        "details": "為慶祝陽明交大竹韻口琴社重新復社舉辦的復社茶會，活動包含開場、回顧、音樂表演、簡報介紹與大合照。時間為 115/8/9（日）13:30–15:00。",
+        "reason": "貼文明確寫出活動時間為 115.8.9（日），對應候選日期 2026-08-09；地點在陽明交大活動中心，屬臺灣實體口琴活動。",
+        "confidence": 0.97
+      },
+      "postedAt": "2026-07-24 22:44",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/755331924_18119774629745725_8646370655350030153_n.webp?_nc_cat=111&ig_cache_key=Mzk0ODM0NjQ5NDM2MDMyOTUxMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=iblEceIab-AQ7kNvwFZGj26&_nc_oc=Adr-rq-yupLfQHUh_gCpVHSFaWFeW9QmzPXuqjWoZoc8o4fqOwe-4blRBDnCQV1KskI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=pI4gpyBmH7RBsvowS5teEg&_nc_ss=7a22e&oh=00_AQA--eFbzXJObhtxGq0OmmXf7Z5cS14XRL4nUMes7j2XhQ&oe=6A695DC3",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753989719_18119774632745725_8736528983331120896_n.webp?_nc_cat=110&ig_cache_key=Mzk0ODM0NjQ5NjY5MjM1OTA2NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=DaGz83LbWscQ7kNvwEwxAWJ&_nc_oc=AdoyRBnEi7FwsS--Upr6K5BqxHcvGzWhxYRCCK0qctaI3B8saZF9XhDZHcx9Wz4bEuQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=pI4gpyBmH7RBsvowS5teEg&_nc_ss=7a22e&oh=00_AQATBeBFiLomnwnweO9TFzOC45tRwzzlzMTvjQRfLtetiw&oe=6A694CA4"
+      ],
+      "image_url": "/assets/feed-images/6b7dd80dd7408fb12c33.webp"
     },
     {
       "eventName": "臺中一中口琴之狼校友音樂會《天琴聲等煙雨》",

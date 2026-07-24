@@ -1,6 +1,6 @@
 {
   "site": "https://harmonica.observe.tw",
-  "generatedAt": "2026-07-24",
+  "generatedAt": "2026-07-25",
   "count": 206,
   "stats": {
     "totalEntries": 206,
@@ -144,6 +144,85 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@hokahkean1999",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-198",
+      "publicId": "198",
+      "name": "陽明交大竹韻口琴社",
+      "nameEn": "Bamboo Melody Harmonica Club",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "國立陽明交通大學/學校社團/新竹",
+      "structuredSummary": "國立陽明交通大學/學校社團/新竹 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "陽明交大竹韻口琴社 Bamboo Melody Harmonica Club NYCU 交通大學竹韻口琴社 口琴社",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/nycubmhc/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nycu_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-24T14:44:05+00:00",
+      "latestUpdateLocal": "2026-07-24 22:44",
+      "latestUpdateSource": "陽明交大竹韻口琴社",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbLX1c9lGv9/",
+      "avatarUrl": "/assets/source-avatars/f9da11b227a1c2238a68.webp",
+      "sourceInitials": "陽明",
+      "sourceTags": [
+        "學生社團",
+        "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_nycubmhc",
+          "name": "陽明交大竹韻口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/nycubmhc",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nycu_harmonica",
+          "name": "陽明交大竹韻口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nycu_harmonica",
+          "profileUrl": "https://www.instagram.com/nycu_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nycu_harmonica",
+          "name": "陽明交大竹韻口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nycu_harmonica",
+          "profileUrl": "https://www.instagram.com/nycu_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nycu_harmonica/story/0"
+        },
+        {
+          "id": "yt_ucliodayl9_jvnbpc4nfthgw",
+          "name": "陽明交大竹韻口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw",
           "feedUrl": ""
         }
       ]
@@ -401,6 +480,98 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@jensbunge",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-184",
+      "publicId": "184",
+      "name": "蔡明勳",
+      "nameEn": "Ming-Hsun Tsai",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "低音口琴/重奏/演出/音控",
+      "structuredSummary": "低音口琴/重奏/演出/音控 / 低音口琴/重奏 / 演出人員/音控",
+      "summary": "臺灣的低音口琴與重奏演出人員與音控，活動脈絡包含演出與音控。",
+      "keywords": "蔡明勳 Ming-Hsun Tsai 低音口琴 The Duet Judy's Harmonica Ensemble",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/MingHsunTsai830618/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/minnie.o6i8/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@minghsunTsai"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@minnie.o6i8"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-24T13:08:07+00:00",
+      "latestUpdateLocal": "2026-07-24 21:08",
+      "latestUpdateSource": "蔡明勳",
+      "latestUpdateUrl": "https://www.instagram.com/stories/minnie.o6i8/3948337335712596653/",
+      "avatarUrl": "/assets/source-avatars/335861a8997a2d8e4d10.webp",
+      "sourceInitials": "蔡明",
+      "sourceTags": [
+        "演奏者",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_minghsuntsai830618",
+          "name": "蔡明勳",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/MingHsunTsai830618",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_minnie_o6i8",
+          "name": "蔡明勳",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "minnie.o6i8",
+          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_minnie_o6i8",
+          "name": "蔡明勳",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "minnie.o6i8",
+          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/minnie.o6i8/story/0"
+        },
+        {
+          "id": "threads_minnie_o6i8",
+          "name": "蔡明勳",
+          "platform": "threads",
+          "type": "rss",
+          "username": "minnie.o6i8",
+          "profileUrl": "https://www.threads.net/@minnie.o6i8",
+          "feedUrl": "https://rss.observe.tw/threads/minnie.o6i8"
+        },
+        {
+          "id": "yt_minghsuntsai",
+          "name": "蔡明勳",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@minghsunTsai",
           "feedUrl": ""
         }
       ]
@@ -881,6 +1052,80 @@
           "username": "damingtsai",
           "profileUrl": "https://www.instagram.com/damingtsai/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-32",
+      "publicId": "32",
+      "name": "陳彥銘",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/THMF/和弦口琴/推廣",
+      "structuredSummary": "天狼星/THMF/和弦口琴/推廣 / 和弦/重奏 / 演出人員/推廣者",
+      "summary": "天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。",
+      "keywords": "陳彥銘 口琴 天狼星 THMF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://mx.nthu.edu.tw/~ymchen/sirius/CT.htm"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/emerychen.cm/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yenmingchen/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-24T10:15:08+00:00",
+      "latestUpdateLocal": "2026-07-24 18:15",
+      "latestUpdateSource": "陳彥銘",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbLAJN3R1ww/",
+      "avatarUrl": "/assets/source-avatars/20f4be3eb6d87d7b412d.webp",
+      "sourceInitials": "陳彥",
+      "sourceTags": [
+        "演奏者",
+        "和弦",
+        "重奏",
+        "交流"
+      ],
+      "sourceSummary": "天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。",
+      "sourceTagReason": "資料明確標註為演奏者，並提及天狼星樂團、和弦口琴及推廣，符合演奏者與相關標籤。",
+      "monitorSources": [
+        {
+          "id": "fb_emerychen_cm",
+          "name": "陳彥銘",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/emerychen.cm",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yenmingchen",
+          "name": "陳彥銘",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yenmingchen",
+          "profileUrl": "https://www.instagram.com/yenmingchen/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yenmingchen/story/0"
+        },
+        {
+          "id": "ig_yenmingchen",
+          "name": "陳彥銘",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yenmingchen",
+          "profileUrl": "https://www.instagram.com/yenmingchen/",
+          "feedUrl": ""
         }
       ]
     },
@@ -4569,80 +4814,6 @@
       ]
     },
     {
-      "id": "watchlist-32",
-      "publicId": "32",
-      "name": "陳彥銘",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/THMF/和弦口琴/推廣",
-      "structuredSummary": "天狼星/THMF/和弦口琴/推廣 / 和弦/重奏 / 演出人員/推廣者",
-      "summary": "天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。",
-      "keywords": "陳彥銘 口琴 天狼星 THMF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://mx.nthu.edu.tw/~ymchen/sirius/CT.htm"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/emerychen.cm/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yenmingchen/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-23T01:04:56+00:00",
-      "latestUpdateLocal": "2026-07-23 09:04",
-      "latestUpdateSource": "陳彥銘",
-      "latestUpdateUrl": "https://www.instagram.com/stories/yenmingchen/3947248387375893215/",
-      "avatarUrl": "/assets/source-avatars/20f4be3eb6d87d7b412d.webp",
-      "sourceInitials": "陳彥",
-      "sourceTags": [
-        "演奏者",
-        "和弦",
-        "重奏",
-        "交流"
-      ],
-      "sourceSummary": "天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。",
-      "sourceTagReason": "資料明確標註為演奏者，並提及天狼星樂團、和弦口琴及推廣，符合演奏者與相關標籤。",
-      "monitorSources": [
-        {
-          "id": "fb_emerychen_cm",
-          "name": "陳彥銘",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/emerychen.cm",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_yenmingchen",
-          "name": "陳彥銘",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yenmingchen",
-          "profileUrl": "https://www.instagram.com/yenmingchen/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yenmingchen/story/0"
-        },
-        {
-          "id": "ig_yenmingchen",
-          "name": "陳彥銘",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yenmingchen",
-          "profileUrl": "https://www.instagram.com/yenmingchen/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-40",
       "publicId": "40",
       "name": "陳鴻儀",
@@ -6699,98 +6870,6 @@
       ]
     },
     {
-      "id": "watchlist-184",
-      "publicId": "184",
-      "name": "蔡明勳",
-      "nameEn": "Ming-Hsun Tsai",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "低音口琴/重奏/演出/音控",
-      "structuredSummary": "低音口琴/重奏/演出/音控 / 低音口琴/重奏 / 演出人員/音控",
-      "summary": "臺灣的低音口琴與重奏演出人員與音控，活動脈絡包含演出與音控。",
-      "keywords": "蔡明勳 Ming-Hsun Tsai 低音口琴 The Duet Judy's Harmonica Ensemble",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/MingHsunTsai830618/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/minnie.o6i8/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@minghsunTsai"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@minnie.o6i8"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-16T16:17:19+00:00",
-      "latestUpdateLocal": "2026-07-17 00:17",
-      "latestUpdateSource": "蔡明勳",
-      "latestUpdateUrl": "https://www.instagram.com/stories/minnie.o6i8/3942634231620058837/",
-      "avatarUrl": "/assets/source-avatars/335861a8997a2d8e4d10.webp",
-      "sourceInitials": "蔡明",
-      "sourceTags": [
-        "演奏者",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_minghsuntsai830618",
-          "name": "蔡明勳",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/MingHsunTsai830618",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_minnie_o6i8",
-          "name": "蔡明勳",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "minnie.o6i8",
-          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_minnie_o6i8",
-          "name": "蔡明勳",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "minnie.o6i8",
-          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/minnie.o6i8/story/0"
-        },
-        {
-          "id": "threads_minnie_o6i8",
-          "name": "蔡明勳",
-          "platform": "threads",
-          "type": "rss",
-          "username": "minnie.o6i8",
-          "profileUrl": "https://www.threads.net/@minnie.o6i8",
-          "feedUrl": "https://rss.observe.tw/threads/minnie.o6i8"
-        },
-        {
-          "id": "yt_minghsuntsai",
-          "name": "蔡明勳",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@minghsunTsai",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-215",
       "publicId": "215",
       "name": "鍾靈中學口琴隊",
@@ -8221,85 +8300,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@markbandoneon",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-198",
-      "publicId": "198",
-      "name": "陽明交大竹韻口琴社",
-      "nameEn": "Bamboo Melody Harmonica Club",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/新竹",
-      "cityOrFocus": "國立陽明交通大學/學校社團/新竹",
-      "structuredSummary": "國立陽明交通大學/學校社團/新竹 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "陽明交大竹韻口琴社 Bamboo Melody Harmonica Club NYCU 交通大學竹韻口琴社 口琴社",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/nycubmhc/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nycu_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-04T06:56:17+00:00",
-      "latestUpdateLocal": "2026-07-04 14:56",
-      "latestUpdateSource": "陽明交大竹韻口琴社",
-      "latestUpdateUrl": "https://www.facebook.com/nycubmhc/posts/pfbid0nVzb9bvXdMpPV7bQdSgSGnoGQKzNhvRe4WJEieapwStaNUwN5VSQ9nzHESNWwGwwl",
-      "avatarUrl": "/assets/source-avatars/f9da11b227a1c2238a68.webp",
-      "sourceInitials": "陽明",
-      "sourceTags": [
-        "學生社團",
-        "大專社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_nycubmhc",
-          "name": "陽明交大竹韻口琴社",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/nycubmhc",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nycu_harmonica",
-          "name": "陽明交大竹韻口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nycu_harmonica",
-          "profileUrl": "https://www.instagram.com/nycu_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nycu_harmonica",
-          "name": "陽明交大竹韻口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nycu_harmonica",
-          "profileUrl": "https://www.instagram.com/nycu_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nycu_harmonica/story/0"
-        },
-        {
-          "id": "yt_ucliodayl9_jvnbpc4nfthgw",
-          "name": "陽明交大竹韻口琴社",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw",
           "feedUrl": ""
         }
       ]
