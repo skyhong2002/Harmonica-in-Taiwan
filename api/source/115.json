@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-24T21:25:37.734574Z",
+  "generatedAt": "2026-07-24T22:32:46.504751Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -142,15 +142,6 @@
       "sourceName": "Filip Jers",
       "platform": "Facebook",
       "publishedAt": "2026-06-25T14:14:47Z"
-    },
-    {
-      "id": "post-41cb44b52a13e203f92a8040",
-      "title": "Harmonica Warm Up nr 1 (recorded live video, unedited)",
-      "excerpt": "Harmonica Warm Up nr 1 (recorded live video, unedited) I am live streaming the warm-ups on Patreon and then sharing the video as a post. Welcome to join and get ready to play harmonica! Diatonic players: Use a G diatonic - pattern DDBB DDBB then DDDDBB DDDDBB Chromatic players:…",
-      "url": "https://www.youtube.com/watch?v=eipAYpsMKq4",
-      "sourceName": "Filip Jers",
-      "platform": "YouTube",
-      "publishedAt": "2026-06-24T21:40:21Z"
     }
   ]
 }
