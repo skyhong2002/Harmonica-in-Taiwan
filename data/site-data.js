@@ -1026,7 +1026,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-24 18:15",
       "latestUpdateSource": "陳彥銘",
       "latestUpdateUrl": "https://www.instagram.com/p/DbLAJN3R1ww/",
-      "avatarUrl": "/assets/source-avatars/20f4be3eb6d87d7b412d.webp",
+      "avatarUrl": "/assets/source-avatars/7a61bb827bdf8bab8c48.webp",
       "sourceInitials": "陳彥",
       "sourceTags": [
         "演奏者",
