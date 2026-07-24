@@ -61,7 +61,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/101-ho-kah-kean-harmonikahkean/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/58-minami-risa/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/132-antonio-serrano/</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -109,6 +121,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/63-f-i-h-japan-harmonica-contest/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/219-inixial-harmonica-ensemble/</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -139,6 +157,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/49-aiden-n-evelyn/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/100-otis-tsao/</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -152,6 +176,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/4-judy-s-harmonica-ensemble/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/27-peacetones-harmonica/</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -229,12 +259,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/63-f-i-h-japan-harmonica-contest/</loc>
-    <lastmod>2026-07-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/60-toshi-fujii/</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -289,12 +313,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/101-ho-kah-kean-harmonikahkean/</loc>
-    <lastmod>2026-07-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/80/</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -314,12 +332,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/154-orchester-hohnerklang/</loc>
-    <lastmod>2026-07-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/49-aiden-n-evelyn/</loc>
     <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -416,12 +428,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/99/</loc>
-    <lastmod>2026-07-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/27-peacetones-harmonica/</loc>
     <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -549,12 +555,6 @@
   <url>
     <loc>https://harmonica.observe.tw/source/91-taipei-yellowstone-harmonica-ensemble/</loc>
     <lastmod>2026-07-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/132-antonio-serrano/</loc>
-    <lastmod>2026-07-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
