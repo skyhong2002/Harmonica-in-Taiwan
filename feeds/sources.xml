@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 24 Jul 2026 19:46:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 20:52:49 +0000</lastBuildDate>
     <item>
       <title>黃冠誌</title>
       <link>https://harmonica.tw/course/kuanchih/</link>
@@ -16,6 +16,28 @@ Tag：演奏者、合奏、和弦、重奏、演出
 國家：臺灣
 地區：臺灣
 口琴演奏者，專長和弦口琴與重奏演出。</description>
+    </item>
+    <item>
+      <title>千賀太郎</title>
+      <link>https://www.instagram.com/taro_senga/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/351993af02b52cbc</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、十孔、國際交流
+國家：日本
+地區：日本
+日本的十孔國際演出人員，活動脈絡包含藍調。</description>
+    </item>
+    <item>
+      <title>Jong-seong Park 朴鍾聲</title>
+      <link>https://www.mnac.co.kr/jongseongpark</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/7375d9cceaab9077</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：韓國
+地區：韓國
+韓國半音階口琴演奏家，活躍於國際舞台。</description>
     </item>
     <item>
       <title>何家健 HarmoniKahkean</title>
@@ -260,17 +282,6 @@ Tag：演奏者、十孔
 臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。</description>
     </item>
     <item>
-      <title>Jong-seong Park 朴鍾聲</title>
-      <link>https://www.mnac.co.kr/jongseongpark</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/7375d9cceaab9077</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：韓國
-地區：韓國
-韓國半音階口琴演奏家，活躍於國際舞台。</description>
-    </item>
-    <item>
       <title>音和樂器</title>
       <link>https://0223120930.web66.com.tw/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/946384acc3afb19b</guid>
@@ -434,17 +445,6 @@ Tag：協會、國際交流
 國家：新加坡
 地區：新加坡
 新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。</description>
-    </item>
-    <item>
-      <title>千賀太郎</title>
-      <link>https://www.instagram.com/taro_senga/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/351993af02b52cbc</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、十孔、國際交流
-國家：日本
-地區：日本
-日本的十孔國際演出人員，活動脈絡包含藍調。</description>
     </item>
     <item>
       <title>Boris Plotnikov</title>
