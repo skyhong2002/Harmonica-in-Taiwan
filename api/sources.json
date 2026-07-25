@@ -236,6 +236,147 @@
       ]
     },
     {
+      "id": "watchlist-66",
+      "publicId": "66",
+      "name": "Younghoon Cho",
+      "nameEn": "Younghoon Cho",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
+      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
+      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "keywords": "Younghoon Cho Jong-seong Park",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/hoontobe"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hoontobe/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hoontobe_piano/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/hoontobe"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-25T16:23:06+00:00",
+      "latestUpdateLocal": "2026-07-26 00:23",
+      "latestUpdateSource": "Younghoon Cho",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3949160096802790391/",
+      "avatarUrl": "/assets/source-avatars/4168baa97b6613dcf6d7.webp",
+      "sourceInitials": "YC",
+      "sourceTags": [
+        "演奏者",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
+      "monitorSources": [
+        {
+          "id": "fb_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hoontobe",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
+        },
+        {
+          "id": "yt_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/hoontobe",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-222",
+      "publicId": "222",
+      "name": "Do Not Disturb Harmonica Ensemble",
+      "nameEn": "Do Not Disturb Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/公演/新生代團體",
+      "structuredSummary": "重奏/公演/新生代團體 / 半音階/低音/和弦/口琴重奏 / 演出團體",
+      "summary": "臺灣的半音階、低音、和弦與口琴重奏演出團體，活動脈絡包含重奏、公演與新生代團體。",
+      "keywords": "Do Not Disturb Harmonica Ensemble donotdisturbharmonicaensemble 口琴 重奏 THMF 臺灣口琴音樂節",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/donotdisturbharmonicaensemble/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-25T15:59:58+00:00",
+      "latestUpdateLocal": "2026-07-25 23:59",
+      "latestUpdateSource": "Do Not Disturb Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/stories/donotdisturbharmonicaensemble/3949148524021507961/",
+      "avatarUrl": "/assets/source-avatars/22da01f14949bd3fc02b.webp",
+      "sourceInitials": "DND",
+      "sourceTags": [
+        "團體樂團",
+        "音樂節",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_donotdisturbharmonicaensemble",
+          "name": "Do Not Disturb Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "donotdisturbharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_donotdisturbharmonicaensemble",
+          "name": "Do Not Disturb Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "donotdisturbharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/donotdisturbharmonicaensemble/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-39",
       "publicId": "39",
       "name": "林士傑",
@@ -520,6 +661,87 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/jangliharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-51",
+      "publicId": "51",
+      "name": "唐雪婷 Sharene Tang",
+      "nameEn": "Sharene Tang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/國際郵輪演出",
+      "structuredSummary": "世界口琴冠軍/演出/教學/國際郵輪演出 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "唐雪婷 Sharene Tang sharene.harmonica World Harmonica Champion Fresco harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/sharenetang.fresco/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sharene.harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@Shareneharmonicamusic"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-25T15:09:43+00:00",
+      "latestUpdateLocal": "2026-07-25 23:09",
+      "latestUpdateSource": "唐雪婷 Sharene Tang",
+      "latestUpdateUrl": "https://www.instagram.com/stories/sharene.harmonica/3949123114047331918/",
+      "avatarUrl": "/assets/source-avatars/58ed53e3f8974d957fc7.webp",
+      "sourceInitials": "ST",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_sharenetang_fresco",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/sharenetang.fresco",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sharene_harmonica",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sharene.harmonica",
+          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sharene_harmonica",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sharene.harmonica",
+          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sharene.harmonica/story/0"
+        },
+        {
+          "id": "yt_shareneharmonicamusic",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
           "feedUrl": ""
         }
       ]
@@ -1798,6 +2020,85 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@jensbunge",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-141",
+      "publicId": "141",
+      "name": "Kif Valentine",
+      "nameEn": "Kif Valentine",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "馬來西亞世界冠軍口琴家/多樂器藝人/流行跨界演出",
+      "structuredSummary": "馬來西亞世界冠軍口琴家/多樂器藝人/流行跨界演出 / 口琴/多樂器 / 國際演出人員",
+      "summary": "馬來西亞的口琴與多樂器國際演出人員，活動脈絡包含馬來西亞世界冠軍口琴家、多樂器藝人與流行跨界演出。",
+      "keywords": "Kif Valentine 陈军凯 harmonica SIHF",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kif768/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kif768/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@kif768"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-25T11:08:28+00:00",
+      "latestUpdateLocal": "2026-07-25 19:08",
+      "latestUpdateSource": "Kif Valentine",
+      "latestUpdateUrl": "https://www.instagram.com/stories/kif768/3949001933717666668/",
+      "avatarUrl": "/assets/source-avatars/fe6290cd332c36d136ba.webp",
+      "sourceInitials": "KV",
+      "sourceTags": [
+        "演奏者",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_kif768",
+          "name": "Kif Valentine",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/kif768",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_kif768",
+          "name": "Kif Valentine",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "kif768",
+          "profileUrl": "https://www.instagram.com/kif768/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_kif768",
+          "name": "Kif Valentine",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "kif768",
+          "profileUrl": "https://www.instagram.com/kif768/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/kif768/story/0"
+        },
+        {
+          "id": "yt_kif768",
+          "name": "Kif Valentine",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@kif768",
           "feedUrl": ""
         }
       ]
@@ -3197,137 +3498,136 @@
       ]
     },
     {
-      "id": "watchlist-222",
-      "publicId": "222",
-      "name": "Do Not Disturb Harmonica Ensemble",
-      "nameEn": "Do Not Disturb Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/公演/新生代團體",
-      "structuredSummary": "重奏/公演/新生代團體 / 半音階/低音/和弦/口琴重奏 / 演出團體",
-      "summary": "臺灣的半音階、低音、和弦與口琴重奏演出團體，活動脈絡包含重奏、公演與新生代團體。",
-      "keywords": "Do Not Disturb Harmonica Ensemble donotdisturbharmonicaensemble 口琴 重奏 THMF 臺灣口琴音樂節",
+      "id": "watchlist-173",
+      "publicId": "173",
+      "name": "Spring Harp Fest",
+      "nameEn": "Spring Harp Fest",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
+      "country": "美國",
+      "region": "美國/加州",
+      "cityOrFocus": "美國地方口琴節/藍調口琴/jam/社群比賽",
+      "structuredSummary": "美國地方口琴節/藍調口琴/jam/社群比賽 / 十孔/藍調口琴 / 國際活動來源",
+      "summary": "美國的國際活動來源，涵蓋美國地方口琴節、jam與社群比賽。",
+      "keywords": "Spring Harp Fest harmonica festival La Mesa blues harmonica",
       "links": [
         {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/donotdisturbharmonicaensemble/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-24T23:36:08+00:00",
-      "latestUpdateLocal": "2026-07-25 07:36",
-      "latestUpdateSource": "Do Not Disturb Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/stories/donotdisturbharmonicaensemble/3948653251021072549/",
-      "avatarUrl": "/assets/source-avatars/22da01f14949bd3fc02b.webp",
-      "sourceInitials": "DND",
-      "sourceTags": [
-        "團體樂團",
-        "音樂節",
-        "半音階",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_donotdisturbharmonicaensemble",
-          "name": "Do Not Disturb Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "donotdisturbharmonicaensemble",
-          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
-          "feedUrl": ""
+          "label": "網站",
+          "url": "https://springharpfest.org/"
         },
-        {
-          "id": "ig_story_donotdisturbharmonicaensemble",
-          "name": "Do Not Disturb Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "donotdisturbharmonicaensemble",
-          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/donotdisturbharmonicaensemble/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-51",
-      "publicId": "51",
-      "name": "唐雪婷 Sharene Tang",
-      "nameEn": "Sharene Tang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "世界口琴冠軍/演出/教學/國際郵輪演出",
-      "structuredSummary": "世界口琴冠軍/演出/教學/國際郵輪演出 / 半音階/口琴 / 國際演出人員/教育者",
-      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
-      "keywords": "唐雪婷 Sharene Tang sharene.harmonica World Harmonica Champion Fresco harmonica",
-      "links": [
         {
           "label": "Facebook",
-          "url": "https://www.facebook.com/sharenetang.fresco/"
+          "url": "https://www.facebook.com/springharpfest/"
         },
         {
           "label": "Instagram",
-          "url": "https://www.instagram.com/sharene.harmonica/"
+          "url": "https://www.instagram.com/springharpfest/"
         },
         {
           "label": "YouTube",
-          "url": "https://www.youtube.com/@Shareneharmonicamusic"
+          "url": "https://www.youtube.com/@springharpfest/"
         }
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-07-24T23:20:49+00:00",
-      "latestUpdateLocal": "2026-07-25 07:20",
-      "latestUpdateSource": "唐雪婷 Sharene Tang",
-      "latestUpdateUrl": "https://www.instagram.com/stories/sharene.harmonica/3948645519539284791/",
-      "avatarUrl": "/assets/source-avatars/58ed53e3f8974d957fc7.webp",
-      "sourceInitials": "ST",
+      "latestUpdateAt": "2026-07-25T00:08:25+00:00",
+      "latestUpdateLocal": "2026-07-25 08:08",
+      "latestUpdateSource": "Spring Harp Fest",
+      "latestUpdateUrl": "https://www.instagram.com/stories/springharpfest/3948669540435243167/",
+      "avatarUrl": "/assets/source-avatars/be48260b41b25a6839a5.webp",
+      "sourceInitials": "SHF",
       "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
+        "活動資訊",
+        "比賽",
+        "十孔",
         "國際交流"
       ],
       "monitorSources": [
         {
-          "id": "fb_sharenetang_fresco",
-          "name": "唐雪婷 Sharene Tang",
+          "id": "fb_springharpfest",
+          "name": "Spring Harp Fest",
           "platform": "facebook",
           "type": "facebook_page_posts",
           "username": "",
-          "profileUrl": "https://facebook.com/sharenetang.fresco",
+          "profileUrl": "https://facebook.com/springharpfest",
           "feedUrl": ""
         },
         {
-          "id": "ig_sharene_harmonica",
-          "name": "唐雪婷 Sharene Tang",
+          "id": "ig_springharpfest",
+          "name": "Spring Harp Fest",
           "platform": "instagram",
           "type": "rsshub_instagram_profile",
-          "username": "sharene.harmonica",
-          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
+          "username": "springharpfest",
+          "profileUrl": "https://www.instagram.com/springharpfest/",
           "feedUrl": ""
         },
         {
-          "id": "ig_story_sharene_harmonica",
-          "name": "唐雪婷 Sharene Tang",
+          "id": "ig_story_springharpfest",
+          "name": "Spring Harp Fest",
           "platform": "instagram",
           "type": "rsshub_instagram_story",
-          "username": "sharene.harmonica",
-          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sharene.harmonica/story/0"
+          "username": "springharpfest",
+          "profileUrl": "https://www.instagram.com/springharpfest/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/springharpfest/story/0"
         },
         {
-          "id": "yt_shareneharmonicamusic",
-          "name": "唐雪婷 Sharene Tang",
+          "id": "yt_springharpfest",
+          "name": "Spring Harp Fest",
           "platform": "youtube",
           "type": "youtube_ytdlp",
           "username": "",
-          "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
+          "profileUrl": "https://youtube.com/@springharpfest",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-40",
+      "publicId": "40",
+      "name": "陳鴻儀",
+      "nameEn": "Henry Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "演出/評審",
+      "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
+      "summary": "口琴演奏家，專注於演出與評審工作。",
+      "keywords": "陳鴻儀 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@HenrysHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-25T00:00:06+00:00",
+      "latestUpdateLocal": "2026-07-25 08:00",
+      "latestUpdateSource": "陳鴻儀",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=FXwHZeNgUKc",
+      "avatarUrl": "/assets/source-avatars/11010264a3489f5a5679.webp",
+      "sourceInitials": "陳鴻",
+      "sourceTags": [
+        "演奏者",
+        "演出"
+      ],
+      "sourceSummary": "口琴演奏家，專注於演出與評審工作。",
+      "sourceTagReason": "來源類別為「演奏者」，類型為「個人」，城市焦點為「演出/評審」，因此標記演奏者、口琴及演出。",
+      "monitorSources": [
+        {
+          "id": "yt_henrysharmonica",
+          "name": "陳鴻儀",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@HenrysHarmonica",
           "feedUrl": ""
         }
       ]
@@ -4343,92 +4643,6 @@
           "username": "inixial.muse",
           "profileUrl": "https://www.threads.net/@inixial.muse",
           "feedUrl": "https://rss.observe.tw/threads/inixial.muse"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-66",
-      "publicId": "66",
-      "name": "Younghoon Cho",
-      "nameEn": "Younghoon Cho",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
-      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
-      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "keywords": "Younghoon Cho Jong-seong Park",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/hoontobe"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hoontobe/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hoontobe_piano/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/hoontobe"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-24T11:21:46+00:00",
-      "latestUpdateLocal": "2026-07-24 19:21",
-      "latestUpdateSource": "Younghoon Cho",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3948283702321035704/",
-      "avatarUrl": "/assets/source-avatars/4168baa97b6613dcf6d7.webp",
-      "sourceInitials": "YC",
-      "sourceTags": [
-        "演奏者",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
-      "monitorSources": [
-        {
-          "id": "fb_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hoontobe",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
-        },
-        {
-          "id": "yt_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/hoontobe",
-          "feedUrl": ""
         }
       ]
     },
@@ -5754,135 +5968,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@gyeoli_94",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-141",
-      "publicId": "141",
-      "name": "Kif Valentine",
-      "nameEn": "Kif Valentine",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "馬來西亞世界冠軍口琴家/多樂器藝人/流行跨界演出",
-      "structuredSummary": "馬來西亞世界冠軍口琴家/多樂器藝人/流行跨界演出 / 口琴/多樂器 / 國際演出人員",
-      "summary": "馬來西亞的口琴與多樂器國際演出人員，活動脈絡包含馬來西亞世界冠軍口琴家、多樂器藝人與流行跨界演出。",
-      "keywords": "Kif Valentine 陈军凯 harmonica SIHF",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/kif768/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/kif768/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@kif768"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-23T02:01:40+00:00",
-      "latestUpdateLocal": "2026-07-23 10:01",
-      "latestUpdateSource": "Kif Valentine",
-      "latestUpdateUrl": "https://www.instagram.com/stories/kif768/3947276956639352705/",
-      "avatarUrl": "/assets/source-avatars/fe6290cd332c36d136ba.webp",
-      "sourceInitials": "KV",
-      "sourceTags": [
-        "演奏者",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_kif768",
-          "name": "Kif Valentine",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/kif768",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_kif768",
-          "name": "Kif Valentine",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "kif768",
-          "profileUrl": "https://www.instagram.com/kif768/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_kif768",
-          "name": "Kif Valentine",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "kif768",
-          "profileUrl": "https://www.instagram.com/kif768/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/kif768/story/0"
-        },
-        {
-          "id": "yt_kif768",
-          "name": "Kif Valentine",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@kif768",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-40",
-      "publicId": "40",
-      "name": "陳鴻儀",
-      "nameEn": "Henry Chen",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "演出/評審",
-      "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
-      "summary": "口琴演奏家，專注於演出與評審工作。",
-      "keywords": "陳鴻儀 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@HenrysHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-23T00:00:06+00:00",
-      "latestUpdateLocal": "2026-07-23 08:00",
-      "latestUpdateSource": "陳鴻儀",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=2ENbECxsy5Q",
-      "avatarUrl": "/assets/source-avatars/11010264a3489f5a5679.webp",
-      "sourceInitials": "陳鴻",
-      "sourceTags": [
-        "演奏者",
-        "演出"
-      ],
-      "sourceSummary": "口琴演奏家，專注於演出與評審工作。",
-      "sourceTagReason": "來源類別為「演奏者」，類型為「個人」，城市焦點為「演出/評審」，因此標記演奏者、口琴及演出。",
-      "monitorSources": [
-        {
-          "id": "yt_henrysharmonica",
-          "name": "陳鴻儀",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@HenrysHarmonica",
           "feedUrl": ""
         }
       ]
@@ -7949,91 +8034,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@DMingStudio",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-173",
-      "publicId": "173",
-      "name": "Spring Harp Fest",
-      "nameEn": "Spring Harp Fest",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "活動/資訊入口",
-      "country": "美國",
-      "region": "美國/加州",
-      "cityOrFocus": "美國地方口琴節/藍調口琴/jam/社群比賽",
-      "structuredSummary": "美國地方口琴節/藍調口琴/jam/社群比賽 / 十孔/藍調口琴 / 國際活動來源",
-      "summary": "美國的國際活動來源，涵蓋美國地方口琴節、jam與社群比賽。",
-      "keywords": "Spring Harp Fest harmonica festival La Mesa blues harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://springharpfest.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/springharpfest/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/springharpfest/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@springharpfest/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-10T06:03:08+00:00",
-      "latestUpdateLocal": "2026-07-10 14:03",
-      "latestUpdateSource": "Spring Harp Fest",
-      "latestUpdateUrl": "https://www.instagram.com/stories/springharpfest/3937976443706989771/",
-      "avatarUrl": "/assets/source-avatars/be48260b41b25a6839a5.webp",
-      "sourceInitials": "SHF",
-      "sourceTags": [
-        "活動資訊",
-        "比賽",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_springharpfest",
-          "name": "Spring Harp Fest",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/springharpfest",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_springharpfest",
-          "name": "Spring Harp Fest",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "springharpfest",
-          "profileUrl": "https://www.instagram.com/springharpfest/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_springharpfest",
-          "name": "Spring Harp Fest",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "springharpfest",
-          "profileUrl": "https://www.instagram.com/springharpfest/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/springharpfest/story/0"
-        },
-        {
-          "id": "yt_springharpfest",
-          "name": "Spring Harp Fest",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@springharpfest",
           "feedUrl": ""
         }
       ]
