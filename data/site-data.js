@@ -2,6 +2,101 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-25",
   "entries": [
     {
+      "id": "watchlist-80",
+      "publicId": "80",
+      "name": "臺中國家歌劇院",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "臺中國家歌劇院 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-ntt.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/npac.ntt/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nationaltaichungtheater/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@nationaltaichungtheater"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-25T03:05:32+00:00",
+      "latestUpdateLocal": "2026-07-25 11:05",
+      "latestUpdateSource": "臺中國家歌劇院",
+      "latestUpdateUrl": "https://www.instagram.com/stories/nationaltaichungtheater/3948758670099762771/",
+      "avatarUrl": "/assets/source-avatars/5954411ab3632c46a220.webp",
+      "sourceInitials": "臺中",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_npac_ntt",
+          "name": "臺中國家歌劇院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/npac.ntt",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
+        },
+        {
+          "id": "threads_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "threads",
+          "type": "rss",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
+          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
+        },
+        {
+          "id": "yt_uctl1euke_x0w6tahecepgmq",
+          "name": "臺中國家歌劇院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-34",
       "publicId": "34",
       "name": "王衍華",
@@ -676,6 +771,89 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@eberienos",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-154",
+      "publicId": "154",
+      "name": "Orchestra Hohnerklang",
+      "nameEn": "Orchester Hohnerklang",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "德國",
+      "region": "德國/特羅辛根",
+      "cityOrFocus": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏",
+      "structuredSummary": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏 / 口琴合奏 / 國際演出團體",
+      "summary": "德國的口琴合奏國際演出團體，活動脈絡包含WHF 2025開幕、HOHNER orchestral harmonica tradition與大型合奏。",
+      "keywords": "Orchester Hohnerklang Orchestra Hohnerklang harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hohnerklang.de/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hohnerklang"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hohnerklang"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/hohnerklang"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-24T18:16:36+00:00",
+      "latestUpdateLocal": "2026-07-25 02:16",
+      "latestUpdateSource": "Orchestra Hohnerklang",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hohnerklang/3948492455016240996/",
+      "avatarUrl": "/assets/source-avatars/9b8ab6d7f7f9669c17c0.webp",
+      "sourceInitials": "OH",
+      "sourceTags": [
+        "團體樂團",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hohnerklang",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hohnerklang",
+          "profileUrl": "https://www.instagram.com/hohnerklang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hohnerklang",
+          "profileUrl": "https://www.instagram.com/hohnerklang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerklang/story/0"
+        },
+        {
+          "id": "yt_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/hohnerklang",
           "feedUrl": ""
         }
       ]
@@ -3171,101 +3349,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-80",
-      "publicId": "80",
-      "name": "臺中國家歌劇院",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "臺中國家歌劇院 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-ntt.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/npac.ntt/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nationaltaichungtheater/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@nationaltaichungtheater"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-24T07:21:07+00:00",
-      "latestUpdateLocal": "2026-07-24 15:21",
-      "latestUpdateSource": "臺中國家歌劇院",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=8AhNPvS-ZdI",
-      "avatarUrl": "/assets/source-avatars/5954411ab3632c46a220.webp",
-      "sourceInitials": "臺中",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_npac_ntt",
-          "name": "臺中國家歌劇院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/npac.ntt",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
-        },
-        {
-          "id": "threads_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "threads",
-          "type": "rss",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
-          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
-        },
-        {
-          "id": "yt_uctl1euke_x0w6tahecepgmq",
-          "name": "臺中國家歌劇院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-147",
       "publicId": "147",
       "name": "Yoonseok Lee",
@@ -4593,89 +4676,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@thmc6470",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-154",
-      "publicId": "154",
-      "name": "Orchestra Hohnerklang",
-      "nameEn": "Orchester Hohnerklang",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "德國",
-      "region": "德國/特羅辛根",
-      "cityOrFocus": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏",
-      "structuredSummary": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏 / 口琴合奏 / 國際演出團體",
-      "summary": "德國的口琴合奏國際演出團體，活動脈絡包含WHF 2025開幕、HOHNER orchestral harmonica tradition與大型合奏。",
-      "keywords": "Orchester Hohnerklang Orchestra Hohnerklang harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://hohnerklang.de/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hohnerklang"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hohnerklang"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/hohnerklang"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-23T12:15:17+00:00",
-      "latestUpdateLocal": "2026-07-23 20:15",
-      "latestUpdateSource": "Orchestra Hohnerklang",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hohnerklang/3947585782515376150/",
-      "avatarUrl": "/assets/source-avatars/9b8ab6d7f7f9669c17c0.webp",
-      "sourceInitials": "OH",
-      "sourceTags": [
-        "團體樂團",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hohnerklang",
-          "name": "Orchestra Hohnerklang",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hohnerklang",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hohnerklang",
-          "name": "Orchestra Hohnerklang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hohnerklang",
-          "profileUrl": "https://www.instagram.com/hohnerklang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hohnerklang",
-          "name": "Orchestra Hohnerklang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hohnerklang",
-          "profileUrl": "https://www.instagram.com/hohnerklang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerklang/story/0"
-        },
-        {
-          "id": "yt_hohnerklang",
-          "name": "Orchestra Hohnerklang",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/hohnerklang",
           "feedUrl": ""
         }
       ]
