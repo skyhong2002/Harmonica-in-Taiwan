@@ -665,6 +665,91 @@
       ]
     },
     {
+      "id": "watchlist-147",
+      "publicId": "147",
+      "name": "Yoonseok Lee",
+      "nameEn": "Yoonseok Lee",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "WHF 2025/半音階/國際比賽/教育與演出",
+      "structuredSummary": "WHF 2025/半音階/國際比賽/教育與演出 / 半音階 / 國際演出人員/教育者",
+      "summary": "韓國的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、國際比賽與教育與演出。",
+      "keywords": "Yoonseok Lee yoonseokhca harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/yoonseokl"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/yoonseokhca/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yoonseoklee_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/YoonseokLee_HARMONICA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-25T00:06:41+00:00",
+      "latestUpdateLocal": "2026-07-25 08:06",
+      "latestUpdateSource": "Yoonseok Lee",
+      "latestUpdateUrl": "https://www.instagram.com/stories/yoonseoklee_harmonica/3948668636114165797/",
+      "avatarUrl": "/assets/source-avatars/63ea51f7f97c4e71df8b.webp",
+      "sourceInitials": "YL",
+      "sourceTags": [
+        "演奏者",
+        "比賽",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_yoonseokhca",
+          "name": "Yoonseok Lee",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/yoonseokhca",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yoonseoklee_harmonica",
+          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yoonseoklee_harmonica/story/0"
+        },
+        {
+          "id": "ig_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yoonseoklee_harmonica",
+          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/YoonseokLee_HARMONICA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-115",
       "publicId": "115",
       "name": "Filip Jers",
@@ -846,7 +931,7 @@
       "latestUpdateLocal": "2026-07-25 05:33",
       "latestUpdateSource": "山下伶 Rei Yamashita",
       "latestUpdateUrl": "https://www.instagram.com/stories/rei_harmonica/3948591248252533273/",
-      "avatarUrl": "/assets/source-avatars/9628724a6f3368b6ce7e.webp",
+      "avatarUrl": "/assets/source-avatars/baf5605ed204d56fc2d4.webp",
       "sourceInitials": "RY",
       "sourceTags": [
         "演奏者",
@@ -3463,91 +3548,6 @@
           "username": "inixial.muse",
           "profileUrl": "https://www.threads.net/@inixial.muse",
           "feedUrl": "https://rss.observe.tw/threads/inixial.muse"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-147",
-      "publicId": "147",
-      "name": "Yoonseok Lee",
-      "nameEn": "Yoonseok Lee",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "WHF 2025/半音階/國際比賽/教育與演出",
-      "structuredSummary": "WHF 2025/半音階/國際比賽/教育與演出 / 半音階 / 國際演出人員/教育者",
-      "summary": "韓國的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、國際比賽與教育與演出。",
-      "keywords": "Yoonseok Lee yoonseokhca harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/yoonseokl"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/yoonseokhca/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yoonseoklee_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/YoonseokLee_HARMONICA"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-24T05:31:44+00:00",
-      "latestUpdateLocal": "2026-07-24 13:31",
-      "latestUpdateSource": "Yoonseok Lee",
-      "latestUpdateUrl": "https://www.instagram.com/stories/yoonseoklee_harmonica/3948107529280339567/",
-      "avatarUrl": "/assets/source-avatars/63ea51f7f97c4e71df8b.webp",
-      "sourceInitials": "YL",
-      "sourceTags": [
-        "演奏者",
-        "比賽",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_yoonseokhca",
-          "name": "Yoonseok Lee",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/yoonseokhca",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_yoonseoklee_harmonica",
-          "name": "Yoonseok Lee",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yoonseoklee_harmonica",
-          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yoonseoklee_harmonica/story/0"
-        },
-        {
-          "id": "ig_yoonseoklee_harmonica",
-          "name": "Yoonseok Lee",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yoonseoklee_harmonica",
-          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_yoonseoklee_harmonica",
-          "name": "Yoonseok Lee",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/YoonseokLee_HARMONICA",
-          "feedUrl": ""
         }
       ]
     },
