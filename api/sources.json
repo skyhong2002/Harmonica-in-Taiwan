@@ -503,6 +503,98 @@
       ]
     },
     {
+      "id": "watchlist-184",
+      "publicId": "184",
+      "name": "蔡明勳",
+      "nameEn": "Ming-Hsun Tsai",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "低音口琴/重奏/演出/音控",
+      "structuredSummary": "低音口琴/重奏/演出/音控 / 低音口琴/重奏 / 演出人員/音控",
+      "summary": "臺灣的低音口琴與重奏演出人員與音控，活動脈絡包含演出與音控。",
+      "keywords": "蔡明勳 Ming-Hsun Tsai 低音口琴 The Duet Judy's Harmonica Ensemble",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/MingHsunTsai830618/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/minnie.o6i8/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@minghsunTsai"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@minnie.o6i8"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-25T14:34:07+00:00",
+      "latestUpdateLocal": "2026-07-25 22:34",
+      "latestUpdateSource": "蔡明勳",
+      "latestUpdateUrl": "https://www.instagram.com/stories/minnie.o6i8/3949105218536519356/",
+      "avatarUrl": "/assets/source-avatars/335861a8997a2d8e4d10.webp",
+      "sourceInitials": "蔡明",
+      "sourceTags": [
+        "演奏者",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_minghsuntsai830618",
+          "name": "蔡明勳",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/MingHsunTsai830618",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_minnie_o6i8",
+          "name": "蔡明勳",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "minnie.o6i8",
+          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_minnie_o6i8",
+          "name": "蔡明勳",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "minnie.o6i8",
+          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/minnie.o6i8/story/0"
+        },
+        {
+          "id": "threads_minnie_o6i8",
+          "name": "蔡明勳",
+          "platform": "threads",
+          "type": "rss",
+          "username": "minnie.o6i8",
+          "profileUrl": "https://www.threads.net/@minnie.o6i8",
+          "feedUrl": "https://rss.observe.tw/threads/minnie.o6i8"
+        },
+        {
+          "id": "yt_minghsuntsai",
+          "name": "蔡明勳",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@minghsunTsai",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-2",
       "publicId": "2",
       "name": "臺灣口琴音樂節 THMF",
@@ -918,6 +1010,89 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@GregoireMaret",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-154",
+      "publicId": "154",
+      "name": "Orchestra Hohnerklang",
+      "nameEn": "Orchester Hohnerklang",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "德國",
+      "region": "德國/特羅辛根",
+      "cityOrFocus": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏",
+      "structuredSummary": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏 / 口琴合奏 / 國際演出團體",
+      "summary": "德國的口琴合奏國際演出團體，活動脈絡包含WHF 2025開幕、HOHNER orchestral harmonica tradition與大型合奏。",
+      "keywords": "Orchester Hohnerklang Orchestra Hohnerklang harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hohnerklang.de/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hohnerklang"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hohnerklang"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/hohnerklang"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-25T11:37:14+00:00",
+      "latestUpdateLocal": "2026-07-25 19:37",
+      "latestUpdateSource": "Orchestra Hohnerklang",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hohnerklang/3949016185579101983/",
+      "avatarUrl": "/assets/source-avatars/9b8ab6d7f7f9669c17c0.webp",
+      "sourceInitials": "OH",
+      "sourceTags": [
+        "團體樂團",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hohnerklang",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hohnerklang",
+          "profileUrl": "https://www.instagram.com/hohnerklang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hohnerklang",
+          "profileUrl": "https://www.instagram.com/hohnerklang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerklang/story/0"
+        },
+        {
+          "id": "yt_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/hohnerklang",
           "feedUrl": ""
         }
       ]
@@ -3017,89 +3192,6 @@
       ]
     },
     {
-      "id": "watchlist-154",
-      "publicId": "154",
-      "name": "Orchestra Hohnerklang",
-      "nameEn": "Orchester Hohnerklang",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "德國",
-      "region": "德國/特羅辛根",
-      "cityOrFocus": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏",
-      "structuredSummary": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏 / 口琴合奏 / 國際演出團體",
-      "summary": "德國的口琴合奏國際演出團體，活動脈絡包含WHF 2025開幕、HOHNER orchestral harmonica tradition與大型合奏。",
-      "keywords": "Orchester Hohnerklang Orchestra Hohnerklang harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://hohnerklang.de/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hohnerklang"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hohnerklang"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/hohnerklang"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-24T18:16:36+00:00",
-      "latestUpdateLocal": "2026-07-25 02:16",
-      "latestUpdateSource": "Orchestra Hohnerklang",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hohnerklang/3948492455016240996/",
-      "avatarUrl": "/assets/source-avatars/9b8ab6d7f7f9669c17c0.webp",
-      "sourceInitials": "OH",
-      "sourceTags": [
-        "團體樂團",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hohnerklang",
-          "name": "Orchestra Hohnerklang",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hohnerklang",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hohnerklang",
-          "name": "Orchestra Hohnerklang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hohnerklang",
-          "profileUrl": "https://www.instagram.com/hohnerklang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hohnerklang",
-          "name": "Orchestra Hohnerklang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hohnerklang",
-          "profileUrl": "https://www.instagram.com/hohnerklang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerklang/story/0"
-        },
-        {
-          "id": "yt_hohnerklang",
-          "name": "Orchestra Hohnerklang",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/hohnerklang",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-68",
       "publicId": "68",
       "name": "Gordon Lee 李俊樂",
@@ -3768,7 +3860,7 @@
       "latestUpdateLocal": "2026-07-24 22:44",
       "latestUpdateSource": "陽明交大竹韻口琴社",
       "latestUpdateUrl": "https://www.instagram.com/p/DbLX1c9lGv9/",
-      "avatarUrl": "/assets/source-avatars/f9da11b227a1c2238a68.webp",
+      "avatarUrl": "/assets/source-avatars/e96564b38754b09b8e96.webp",
       "sourceInitials": "陽明",
       "sourceTags": [
         "學生社團",
@@ -3894,98 +3986,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@antonioserranoofficial",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-184",
-      "publicId": "184",
-      "name": "蔡明勳",
-      "nameEn": "Ming-Hsun Tsai",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "低音口琴/重奏/演出/音控",
-      "structuredSummary": "低音口琴/重奏/演出/音控 / 低音口琴/重奏 / 演出人員/音控",
-      "summary": "臺灣的低音口琴與重奏演出人員與音控，活動脈絡包含演出與音控。",
-      "keywords": "蔡明勳 Ming-Hsun Tsai 低音口琴 The Duet Judy's Harmonica Ensemble",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/MingHsunTsai830618/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/minnie.o6i8/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@minghsunTsai"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@minnie.o6i8"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-24T13:08:07+00:00",
-      "latestUpdateLocal": "2026-07-24 21:08",
-      "latestUpdateSource": "蔡明勳",
-      "latestUpdateUrl": "https://www.instagram.com/stories/minnie.o6i8/3948337335712596653/",
-      "avatarUrl": "/assets/source-avatars/335861a8997a2d8e4d10.webp",
-      "sourceInitials": "蔡明",
-      "sourceTags": [
-        "演奏者",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_minghsuntsai830618",
-          "name": "蔡明勳",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/MingHsunTsai830618",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_minnie_o6i8",
-          "name": "蔡明勳",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "minnie.o6i8",
-          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_minnie_o6i8",
-          "name": "蔡明勳",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "minnie.o6i8",
-          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/minnie.o6i8/story/0"
-        },
-        {
-          "id": "threads_minnie_o6i8",
-          "name": "蔡明勳",
-          "platform": "threads",
-          "type": "rss",
-          "username": "minnie.o6i8",
-          "profileUrl": "https://www.threads.net/@minnie.o6i8",
-          "feedUrl": "https://rss.observe.tw/threads/minnie.o6i8"
-        },
-        {
-          "id": "yt_minghsuntsai",
-          "name": "蔡明勳",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@minghsunTsai",
           "feedUrl": ""
         }
       ]
