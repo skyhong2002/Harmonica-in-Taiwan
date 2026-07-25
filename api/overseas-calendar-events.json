@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-25T17:29:21+08:00",
+  "generatedAt": "2026-07-25T18:37:10+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
-  "count": 12,
+  "count": 11,
   "source": "/api/events.json",
   "ics": "/feeds/overseas-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,8 +14,8 @@
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
-      "cached": 46,
+      "requests": 1,
+      "cached": 44,
       "errors": 0
     }
   },
@@ -415,42 +415,6 @@
         "https://scontent-sea5-1.xx.fbcdn.net/v/t39.30808-6/746540681_1537607941712786_8813930596625944430_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1528&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=3dKPUf5ZxqUQ7kNvwFQ7cZr&_nc_oc=Adp69462nIGm5dca_gVbm9mWFq85z6MLU6dIUUrv7M2W80A9tHeT_iK_OXISbEcqR9Q&_nc_zt=23&_nc_ht=scontent-sea5-1.xx&_nc_gid=8df-TbECUgKUzYdf1gCg4g&_nc_ss=7d289&oh=00_AQCSCeiWbRJB-np-m8OpZLiAfPJUieVEj588U8O7gretYw&oe=6A65F09C"
       ],
       "image_url": "/assets/feed-images/61abeb28235491abd781.webp"
-    },
-    {
-      "id": "4b7c24f5e4469879",
-      "title": "南里沙 プチプチコンサート in 田園調布",
-      "eventName": "南里沙 プチプチコンサート in 田園調布",
-      "source": "南里沙",
-      "platform": "facebook",
-      "start": "2026-08-22",
-      "end": "2026-08-23",
-      "allDay": true,
-      "calendarType": "overseas_physical",
-      "timezone": "Asia/Tokyo",
-      "location": "東京 田園調布ピアノサロンNOAH",
-      "venue": "田園調布ピアノサロンNOAH",
-      "city": "東京",
-      "details": "南里沙獨奏的「プチプチコンサート」，2026年8月22日(六) 13:15開場、13:45開演。票價3,000円，貼文提供預約連結。",
-      "evidenceUrl": "https://www.facebook.com/minamirisa/posts/pfbid02Xx1AssbvjKU8DWtGxFnBKXrVEBpyjdUt2THJcrtjYrKfMfi5c8QJzYUV93EeacNMl",
-      "confidence": 0.95,
-      "calendarReview": {
-        "include": true,
-        "country": "日本",
-        "eventMode": "overseas_physical",
-        "timezone": "Asia/Tokyo",
-        "candidateDateMatches": true,
-        "eventName": "南里沙 プチプチコンサート in 田園調布",
-        "venue": "田園調布ピアノサロンNOAH",
-        "city": "東京",
-        "details": "南里沙獨奏的「プチプチコンサート」，2026年8月22日(六) 13:15開場、13:45開演。票價3,000円，貼文提供預約連結。",
-        "reason": "貼文明確寫出候選日期為2026年8月22日，且為實體口琴活動；地點在日本東京田園調布，屬海外實體活動。",
-        "confidence": 0.95
-      },
-      "postedAt": "2026-06-25 18:13",
-      "images": [
-        "https://scontent-iad6-1.xx.fbcdn.net/v/t39.99422-6/732441673_1717116986717956_8602439590541491091_n.png?stp=dst-jpg_tt6&cstp=mx1492x1866&ctp=s640x640&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=_dceVs1SRd4Q7kNvwHuTwwS&_nc_oc=AdoeEmMOUfghmfgCZzdGYrInLMz5AaslSkLy5At6IJmWE3_7_jbcHqL84SmrryLJEn8&_nc_zt=14&_nc_ht=scontent-iad6-1.xx&_nc_gid=LxJ_Stj9k_gU-ecQ6YGK5A&_nc_ss=72289&oh=00_Af9mKFHmce4wQXAROX6arcruxh4s-hgScsQezYYaxKla5w&oe=6A446222"
-      ],
-      "image_url": "/assets/feed-images/033d9836ccc17dfe99de.webp"
     }
   ]
 }
