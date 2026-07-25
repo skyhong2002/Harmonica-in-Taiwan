@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 25 Jul 2026 00:12:55 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jul 2026 00:46:16 +0000</lastBuildDate>
+    <item>
+      <title>南里沙</title>
+      <link>https://minamirisa.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/ad86c3570665b36e</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：日本
+地區：日本
+日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+    </item>
     <item>
       <title>山下伶 Rei Yamashita</title>
       <link>https://rei-yamashita.com/</link>
@@ -38,6 +49,17 @@ Tag：演奏者、合奏、和弦、重奏、演出
 國家：臺灣
 地區：臺灣
 口琴演奏者，專長和弦口琴與重奏演出。</description>
+    </item>
+    <item>
+      <title>Lee Oskar</title>
+      <link>https://leeoskar.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/46bea6a12ee3ef49</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：品牌、演奏者、團體樂團、十孔、國際交流
+國家：丹麥
+地區：美國
+丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。</description>
     </item>
     <item>
       <title>音和樂器</title>
@@ -117,15 +139,15 @@ Tag：學生社團、大專社團
 臺灣的口琴學校社團。</description>
     </item>
     <item>
-      <title>南里沙</title>
-      <link>https://minamirisa.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/ad86c3570665b36e</guid>
+      <title>曹小歐</title>
+      <link>https://portaly.cc/otistsao</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/b08c62a560f55fb5</guid>
       <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
       <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：日本
-地區：日本
-日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+Tag：演奏者、十孔
+國家：臺灣
+地區：臺灣
+臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。</description>
     </item>
     <item>
       <title>Antonio Serrano</title>
@@ -324,17 +346,6 @@ Tag：團體樂團、半音階、重奏、國際交流
 國家：馬來西亞
 地區：馬來西亞
 馬來西亞的半音階與重奏國際演出團體與二重奏，活動脈絡包含二重奏、影片與THMF。</description>
-    </item>
-    <item>
-      <title>曹小歐</title>
-      <link>https://portaly.cc/otistsao</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/b08c62a560f55fb5</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、十孔
-國家：臺灣
-地區：臺灣
-臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。</description>
     </item>
     <item>
       <title>Yoonseok Lee</title>
@@ -588,17 +599,6 @@ Tag：團體樂團、重奏、國際交流
 國家：馬來西亞
 地區：馬來西亞
 馬來西亞的口琴重奏國際演出團體，活動脈絡包含馬來西亞世界冠軍口琴團、2006成立與國際巡演。</description>
-    </item>
-    <item>
-      <title>Lee Oskar</title>
-      <link>https://leeoskar.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/46bea6a12ee3ef49</guid>
-      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：品牌、演奏者、團體樂團、十孔、國際交流
-國家：丹麥
-地區：美國
-丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。</description>
     </item>
     <item>
       <title>Rachelle Plas &amp; Philippe Hervouet</title>
