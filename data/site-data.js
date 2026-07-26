@@ -2,6 +2,89 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-27",
   "entries": [
     {
+      "id": "watchlist-154",
+      "publicId": "154",
+      "name": "Orchestra Hohnerklang",
+      "nameEn": "Orchester Hohnerklang",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "德國",
+      "region": "德國/特羅辛根",
+      "cityOrFocus": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏",
+      "structuredSummary": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏 / 口琴合奏 / 國際演出團體",
+      "summary": "德國的口琴合奏國際演出團體，活動脈絡包含WHF 2025開幕、HOHNER orchestral harmonica tradition與大型合奏。",
+      "keywords": "Orchester Hohnerklang Orchestra Hohnerklang harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hohnerklang.de/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hohnerklang"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hohnerklang"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/hohnerklang"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-26T15:45:20+00:00",
+      "latestUpdateLocal": "2026-07-26 23:45",
+      "latestUpdateSource": "Orchestra Hohnerklang",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hohnerklang/3949865837803336942/",
+      "avatarUrl": "/assets/source-avatars/9b8ab6d7f7f9669c17c0.webp",
+      "sourceInitials": "OH",
+      "sourceTags": [
+        "團體樂團",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hohnerklang",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hohnerklang",
+          "profileUrl": "https://www.instagram.com/hohnerklang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hohnerklang",
+          "profileUrl": "https://www.instagram.com/hohnerklang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerklang/story/0"
+        },
+        {
+          "id": "yt_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/hohnerklang",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-34",
       "publicId": "34",
       "name": "王衍華",
@@ -81,6 +164,101 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@keriw128",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-80",
+      "publicId": "80",
+      "name": "臺中國家歌劇院",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "臺中國家歌劇院 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-ntt.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/npac.ntt/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nationaltaichungtheater/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@nationaltaichungtheater"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-26T13:55:43+00:00",
+      "latestUpdateLocal": "2026-07-26 21:55",
+      "latestUpdateSource": "臺中國家歌劇院",
+      "latestUpdateUrl": "https://www.instagram.com/stories/nationaltaichungtheater/3949811812312699618/",
+      "avatarUrl": "/assets/source-avatars/0f7738498e8c412fd3e2.webp",
+      "sourceInitials": "臺中",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_npac_ntt",
+          "name": "臺中國家歌劇院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/npac.ntt",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
+        },
+        {
+          "id": "threads_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "threads",
+          "type": "rss",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
+          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
+        },
+        {
+          "id": "yt_uctl1euke_x0w6tahecepgmq",
+          "name": "臺中國家歌劇院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
           "feedUrl": ""
         }
       ]
@@ -1472,6 +1650,91 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@jensbunge",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-10",
+      "publicId": "10",
+      "name": "林家靖 Rolabo Lin",
+      "nameEn": "Rolabo Lin",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "半音階/複音/原創/比賽曲",
+      "structuredSummary": "半音階/複音/原創/比賽曲 / 半音階/複音 / 演出人員",
+      "summary": "臺灣的半音階與複音演出人員，活動脈絡包含原創與比賽曲。",
+      "keywords": "林家靖 Rolabo Lin",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/jia-jing/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HarmonicaLin/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/rolabo_lin/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-26T07:21:59+00:00",
+      "latestUpdateLocal": "2026-07-26 15:21",
+      "latestUpdateSource": "林家靖 Rolabo Lin",
+      "latestUpdateUrl": "https://www.instagram.com/stories/rolabo_lin/3949612481707981499/",
+      "avatarUrl": "/assets/source-avatars/3b0659f094e3af703b77.webp",
+      "sourceInitials": "RL",
+      "sourceTags": [
+        "演奏者",
+        "比賽",
+        "半音階",
+        "複音"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicalin",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HarmonicaLin",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_rolabo_lin",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "rolabo_lin",
+          "profileUrl": "https://www.instagram.com/rolabo_lin/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_rolabo_lin",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "rolabo_lin",
+          "profileUrl": "https://www.instagram.com/rolabo_lin/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/rolabo_lin/story/0"
+        },
+        {
+          "id": "yt_ucq7wiztevpndeaaj6rdxzea",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA",
           "feedUrl": ""
         }
       ]
@@ -2992,101 +3255,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-80",
-      "publicId": "80",
-      "name": "臺中國家歌劇院",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "臺中國家歌劇院 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-ntt.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/npac.ntt/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nationaltaichungtheater/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@nationaltaichungtheater"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-25T15:00:02+00:00",
-      "latestUpdateLocal": "2026-07-25 23:00",
-      "latestUpdateSource": "臺中國家歌劇院",
-      "latestUpdateUrl": "https://www.threads.com/t/DbOFMdrAZ2j",
-      "avatarUrl": "/assets/source-avatars/0f7738498e8c412fd3e2.webp",
-      "sourceInitials": "臺中",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_npac_ntt",
-          "name": "臺中國家歌劇院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/npac.ntt",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
-        },
-        {
-          "id": "threads_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "threads",
-          "type": "rss",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
-          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
-        },
-        {
-          "id": "yt_uctl1euke_x0w6tahecepgmq",
-          "name": "臺中國家歌劇院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-52",
       "publicId": "52",
       "name": "Fourtissimo Harmonica Ensemble",
@@ -3582,89 +3750,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/SiriusHARP",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-154",
-      "publicId": "154",
-      "name": "Orchestra Hohnerklang",
-      "nameEn": "Orchester Hohnerklang",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "德國",
-      "region": "德國/特羅辛根",
-      "cityOrFocus": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏",
-      "structuredSummary": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏 / 口琴合奏 / 國際演出團體",
-      "summary": "德國的口琴合奏國際演出團體，活動脈絡包含WHF 2025開幕、HOHNER orchestral harmonica tradition與大型合奏。",
-      "keywords": "Orchester Hohnerklang Orchestra Hohnerklang harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://hohnerklang.de/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hohnerklang"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hohnerklang"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/hohnerklang"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-25T11:37:14+00:00",
-      "latestUpdateLocal": "2026-07-25 19:37",
-      "latestUpdateSource": "Orchestra Hohnerklang",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hohnerklang/3949016185579101983/",
-      "avatarUrl": "/assets/source-avatars/9b8ab6d7f7f9669c17c0.webp",
-      "sourceInitials": "OH",
-      "sourceTags": [
-        "團體樂團",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hohnerklang",
-          "name": "Orchestra Hohnerklang",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hohnerklang",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hohnerklang",
-          "name": "Orchestra Hohnerklang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hohnerklang",
-          "profileUrl": "https://www.instagram.com/hohnerklang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hohnerklang",
-          "name": "Orchestra Hohnerklang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hohnerklang",
-          "profileUrl": "https://www.instagram.com/hohnerklang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerklang/story/0"
-        },
-        {
-          "id": "yt_hohnerklang",
-          "name": "Orchestra Hohnerklang",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/hohnerklang",
           "feedUrl": ""
         }
       ]
@@ -8629,91 +8714,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/oulingou",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-10",
-      "publicId": "10",
-      "name": "林家靖 Rolabo Lin",
-      "nameEn": "Rolabo Lin",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "半音階/複音/原創/比賽曲",
-      "structuredSummary": "半音階/複音/原創/比賽曲 / 半音階/複音 / 演出人員",
-      "summary": "臺灣的半音階與複音演出人員，活動脈絡包含原創與比賽曲。",
-      "keywords": "林家靖 Rolabo Lin",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/jia-jing/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HarmonicaLin/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/rolabo_lin/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-02T11:33:13+00:00",
-      "latestUpdateLocal": "2026-07-02 19:33",
-      "latestUpdateSource": "林家靖 Rolabo Lin",
-      "latestUpdateUrl": "https://www.facebook.com/HarmonicaLin/posts/pfbid0eDgScWN7E8M3SJuRF8FZZpL2gZUrNv4v76B82gHAjT4jyAGy2yjfHB1HDQeHn4AJl",
-      "avatarUrl": "/assets/source-avatars/061a8061609c91a19ea5.webp",
-      "sourceInitials": "RL",
-      "sourceTags": [
-        "演奏者",
-        "比賽",
-        "半音階",
-        "複音"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonicalin",
-          "name": "林家靖 Rolabo Lin",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HarmonicaLin",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_rolabo_lin",
-          "name": "林家靖 Rolabo Lin",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "rolabo_lin",
-          "profileUrl": "https://www.instagram.com/rolabo_lin/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_rolabo_lin",
-          "name": "林家靖 Rolabo Lin",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "rolabo_lin",
-          "profileUrl": "https://www.instagram.com/rolabo_lin/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/rolabo_lin/story/0"
-        },
-        {
-          "id": "yt_ucq7wiztevpndeaaj6rdxzea",
-          "name": "林家靖 Rolabo Lin",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA",
           "feedUrl": ""
         }
       ]
