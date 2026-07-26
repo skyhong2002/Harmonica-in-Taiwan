@@ -2,6 +2,90 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-26",
   "entries": [
     {
+      "id": "watchlist-140",
+      "publicId": "140",
+      "name": "Gregoire Maret",
+      "nameEn": "Gregoire Maret",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "瑞士",
+      "region": "美國",
+      "cityOrFocus": "紐約發展/Grammy得主/現代爵士半音階/作曲",
+      "structuredSummary": "紐約發展/Grammy得主/現代爵士半音階/作曲 / 半音階 / 國際演出人員/作曲者",
+      "summary": "瑞士的半音階國際演出人員與作曲者，活動脈絡包含紐約發展、Grammy得主與現代爵士半音階。",
+      "keywords": "Gregoire Maret Grégoire Maret harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.gregoiremaret.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/gregoiremaret1/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/gregoiremaret/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@GregoireMaret"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-26T13:53:29+00:00",
+      "latestUpdateLocal": "2026-07-26 21:53",
+      "latestUpdateSource": "Gregoire Maret",
+      "latestUpdateUrl": "https://www.instagram.com/stories/gregoiremaret/3949809530426996559/",
+      "avatarUrl": "/assets/source-avatars/e781a4f4250a052d9036.webp",
+      "sourceInitials": "GM",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_gregoiremaret1",
+          "name": "Gregoire Maret",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/gregoiremaret1",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_gregoiremaret",
+          "name": "Gregoire Maret",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "gregoiremaret",
+          "profileUrl": "https://www.instagram.com/gregoiremaret/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_gregoiremaret",
+          "name": "Gregoire Maret",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "gregoiremaret",
+          "profileUrl": "https://www.instagram.com/gregoiremaret/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/gregoiremaret/story/0"
+        },
+        {
+          "id": "yt_gregoiremaret",
+          "name": "Gregoire Maret",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@GregoireMaret",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-219",
       "publicId": "219",
       "name": "IniXial Harmonica Ensemble 源創口琴樂團",
@@ -408,6 +492,160 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/c/jongseongpark",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-67",
+      "publicId": "67",
+      "name": "Marcos Coll",
+      "nameEn": "Marcos Coll",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "西班牙",
+      "region": "西班牙",
+      "cityOrFocus": "十孔/藍調",
+      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
+      "summary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
+      "keywords": "Marcos Coll harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://marcoscoll.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/marcoscollharp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/marcoscollgonzalez/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-26T08:31:34+00:00",
+      "latestUpdateLocal": "2026-07-26 16:31",
+      "latestUpdateSource": "Marcos Coll",
+      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3949647513313225615/",
+      "avatarUrl": "/assets/source-avatars/2fae7bbbeeb2fd0deb34.webp",
+      "sourceInitials": "MC",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流",
+        "音樂會",
+        "演出"
+      ],
+      "sourceSummary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
+      "sourceTagReason": "category為演奏者，type為個人，focus在十孔/藍調，並有國際演出經歷。",
+      "monitorSources": [
+        {
+          "id": "fb_marcoscollharp",
+          "name": "Marcos Coll",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/marcoscollharp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
+        },
+        {
+          "id": "yt_marcoscollharpandsoul",
+          "name": "Marcos Coll",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-97",
+      "publicId": "97",
+      "name": "進擊的口琴樂團",
+      "nameEn": "",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/青年團體/演出",
+      "structuredSummary": "重奏/青年團體/演出 / 口琴重奏 / 演出團體",
+      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含重奏、青年團體與演出。",
+      "keywords": "進擊的口琴樂團 attack_on_harmonica_ensemble 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/attack_on_harmonica_ensemble/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@attack_on_harmonica_ensemble"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-26T08:30:30+00:00",
+      "latestUpdateLocal": "2026-07-26 16:30",
+      "latestUpdateSource": "進擊的口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbP9vjJE_TV/",
+      "avatarUrl": "/assets/source-avatars/99ba86157fce299ca915.webp",
+      "sourceInitials": "進擊",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_attack_on_harmonica_ensemble",
+          "name": "進擊的口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "attack_on_harmonica_ensemble",
+          "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_attack_on_harmonica_ensemble",
+          "name": "進擊的口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "attack_on_harmonica_ensemble",
+          "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/attack_on_harmonica_ensemble/story/0"
+        },
+        {
+          "id": "threads_attack_on_harmonica_ensemble",
+          "name": "進擊的口琴樂團",
+          "platform": "threads",
+          "type": "rss",
+          "username": "attack_on_harmonica_ensemble",
+          "profileUrl": "https://www.threads.net/@attack_on_harmonica_ensemble",
+          "feedUrl": "https://rss.observe.tw/threads/attack_on_harmonica_ensemble"
         }
       ]
     },
@@ -1891,7 +2129,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-26 08:32",
       "latestUpdateSource": "Reyharp and Balawan Project",
       "latestUpdateUrl": "https://www.instagram.com/p/DbPGogNvrf0/",
-      "avatarUrl": "/assets/source-avatars/85b92889b6a183b8e952.webp",
+      "avatarUrl": "/assets/source-avatars/caa1b3e68d958e158e3c.webp",
       "sourceInitials": "RAB",
       "sourceTags": [
         "團體樂團",
@@ -2838,72 +3076,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-97",
-      "publicId": "97",
-      "name": "進擊的口琴樂團",
-      "nameEn": "",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/青年團體/演出",
-      "structuredSummary": "重奏/青年團體/演出 / 口琴重奏 / 演出團體",
-      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含重奏、青年團體與演出。",
-      "keywords": "進擊的口琴樂團 attack_on_harmonica_ensemble 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/attack_on_harmonica_ensemble/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@attack_on_harmonica_ensemble"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-25T13:57:02+00:00",
-      "latestUpdateLocal": "2026-07-25 21:57",
-      "latestUpdateSource": "進擊的口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/attack_on_harmonica_ensemble/3949086547979147116/",
-      "avatarUrl": "/assets/source-avatars/99ba86157fce299ca915.webp",
-      "sourceInitials": "進擊",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_attack_on_harmonica_ensemble",
-          "name": "進擊的口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "attack_on_harmonica_ensemble",
-          "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_attack_on_harmonica_ensemble",
-          "name": "進擊的口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "attack_on_harmonica_ensemble",
-          "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/attack_on_harmonica_ensemble/story/0"
-        },
-        {
-          "id": "threads_attack_on_harmonica_ensemble",
-          "name": "進擊的口琴樂團",
-          "platform": "threads",
-          "type": "rss",
-          "username": "attack_on_harmonica_ensemble",
-          "profileUrl": "https://www.threads.net/@attack_on_harmonica_ensemble",
-          "feedUrl": "https://rss.observe.tw/threads/attack_on_harmonica_ensemble"
-        }
-      ]
-    },
-    {
       "id": "watchlist-60",
       "publicId": "60",
       "name": "藤井俊充",
@@ -3157,178 +3329,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/SiriusHARP",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-67",
-      "publicId": "67",
-      "name": "Marcos Coll",
-      "nameEn": "Marcos Coll",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "西班牙",
-      "region": "西班牙",
-      "cityOrFocus": "十孔/藍調",
-      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
-      "summary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
-      "keywords": "Marcos Coll harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://marcoscoll.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/marcoscollharp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/marcoscollgonzalez/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-25T11:43:34+00:00",
-      "latestUpdateLocal": "2026-07-25 19:43",
-      "latestUpdateSource": "Marcos Coll",
-      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3949019385452707528/",
-      "avatarUrl": "/assets/source-avatars/2fae7bbbeeb2fd0deb34.webp",
-      "sourceInitials": "MC",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "國際交流",
-        "音樂會",
-        "演出"
-      ],
-      "sourceSummary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
-      "sourceTagReason": "category為演奏者，type為個人，focus在十孔/藍調，並有國際演出經歷。",
-      "monitorSources": [
-        {
-          "id": "fb_marcoscollharp",
-          "name": "Marcos Coll",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/marcoscollharp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
-        },
-        {
-          "id": "yt_marcoscollharpandsoul",
-          "name": "Marcos Coll",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-140",
-      "publicId": "140",
-      "name": "Gregoire Maret",
-      "nameEn": "Gregoire Maret",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "瑞士",
-      "region": "美國",
-      "cityOrFocus": "紐約發展/Grammy得主/現代爵士半音階/作曲",
-      "structuredSummary": "紐約發展/Grammy得主/現代爵士半音階/作曲 / 半音階 / 國際演出人員/作曲者",
-      "summary": "瑞士的半音階國際演出人員與作曲者，活動脈絡包含紐約發展、Grammy得主與現代爵士半音階。",
-      "keywords": "Gregoire Maret Grégoire Maret harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.gregoiremaret.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/gregoiremaret1/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/gregoiremaret/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@GregoireMaret"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-25T11:38:25+00:00",
-      "latestUpdateLocal": "2026-07-25 19:38",
-      "latestUpdateSource": "Gregoire Maret",
-      "latestUpdateUrl": "https://www.instagram.com/stories/gregoiremaret/3949016772007259767/",
-      "avatarUrl": "/assets/source-avatars/e781a4f4250a052d9036.webp",
-      "sourceInitials": "GM",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_gregoiremaret1",
-          "name": "Gregoire Maret",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/gregoiremaret1",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_gregoiremaret",
-          "name": "Gregoire Maret",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "gregoiremaret",
-          "profileUrl": "https://www.instagram.com/gregoiremaret/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_gregoiremaret",
-          "name": "Gregoire Maret",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "gregoiremaret",
-          "profileUrl": "https://www.instagram.com/gregoiremaret/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/gregoiremaret/story/0"
-        },
-        {
-          "id": "yt_gregoiremaret",
-          "name": "Gregoire Maret",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@GregoireMaret",
           "feedUrl": ""
         }
       ]
