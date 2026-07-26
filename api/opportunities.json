@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
   "json": "https://harmonica.observe.tw/api/opportunities.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/opportunities.json",
-  "count": 112,
+  "count": 113,
   "items": [
     {
       "title": "Marcos Coll｜In Asia the harmonica scene is huge as you can see in this video…yesterday i had to judge diferent categori…",
@@ -87,6 +87,81 @@
         "補助比賽"
       ],
       "key": "ig_marcoscollgonzalez:https://www.instagram.com/p/DbNDjMBKK8o/"
+    },
+    {
+      "title": "Yellow Pine Harmonica Festival｜The Yellow Pine Harmonica Festival is looking for help during the event! This magical we…",
+      "headline": "The Yellow Pine Harmonica Festival is looking for help during the event! This magical weekend comes together in large p…",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/YellowPineHarmonicaFestival/posts/pfbid02xqzkHieyNnVXmp53pakengZzYtKeC3r7Qk5Dbd1Rh9FKVBufut8aZzhntWMRWuyul",
+      "source_id": "fb_yellowpineharmonicafestival",
+      "source": "Yellow Pine Harmonica Festival",
+      "source_system_name": "Yellow Pine Harmonica Festival",
+      "source_profile_url": "https://facebook.com/YellowPineHarmonicaFestival",
+      "country": "美國",
+      "region": "美國/愛達荷",
+      "directory_entry_id": "watchlist-174",
+      "directory_entry_name": "Yellow Pine Harmonica Festival",
+      "account": "YellowPineHarmonicaFestival",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-25T00:46:04.000Z",
+      "posted_at_local": "2026-07-25 08:46",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-26T02:58:49.728632+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "報名"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.93,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "報名"
+      ],
+      "llm_categories": [
+        "opportunities"
+      ],
+      "llm_reason": "口琴節活動招募志工並提供報名連結，屬口琴相關公開更新與報名資訊。",
+      "text": "The Yellow Pine Harmonica Festival is looking for help during the event! This magical weekend comes together in large part by the efforts of our VOLUNTEERS!!!\nWE WANT YOU!!!!... to lend a hand, AND have a great time at the event!!!\n... And we'll give you a free Volunteer Tshirt!\nSign up here:",
+      "images": [],
+      "videos": [],
+      "source_image_url": "",
+      "image_url": "",
+      "image_width": null,
+      "image_height": null,
+      "source_avatar_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/488459367_984147080582223_6369034247251819963_n.jpg?stp=c83.83.334.334a_cp0_dst-jpg_tt6&cstp=mx334x334&ctp=s50x50&_nc_cat=100&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=cVGgfjlKrEEQ7kNvwFGrxYg&_nc_oc=AdrBIr88ZOss3mbMWdUuXQIDOxOq58ktTJpZtgut4_SR-Wlui-MtmJCfjAtDlKqgHvM&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=3NmVP8KXc8Xqt2RYPDdHZw&_nc_ss=72289&oh=00_AQAU73RZ_Al8Dk8bGNl_1z33v2nXr1P0QgnqR-OXXiR9DA&oe=6A6B5A13",
+      "avatar_url": "/assets/source-avatars/8b1a1d9bb317210005d9.webp",
+      "source_initials": "YPH",
+      "categories": [
+        "posts-videos",
+        "opportunities",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽",
+        "公開活動"
+      ],
+      "key": "fb_yellowpineharmonicafestival:1370203785309882"
     },
     {
       "title": "音和樂器口琴專賣店｜「郵韻口琴班」上課記錄_「城裡的月光」 學口琴請至 #萬華社大龍韻口琴班 📍（週一）龍韻口琴合奏班 📍（週三）龍韻口琴獨奏A班（複音口琴獨奏） 📍（週四）龍韻口琴獨奏B班（半音階口琴獨奏） #樹林社大口琴輕鬆學 📍（週…",
