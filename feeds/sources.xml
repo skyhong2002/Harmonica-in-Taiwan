@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 26 Jul 2026 08:25:43 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 09:31:08 +0000</lastBuildDate>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -60,6 +60,17 @@ Tag：品牌、教學器材、教學
 國家：臺灣
 地區：臺灣
 臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
+    </item>
+    <item>
+      <title>Jong-seong Park 朴鍾聲</title>
+      <link>https://www.mnac.co.kr/jongseongpark</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/7375d9cceaab9077</guid>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：韓國
+地區：韓國
+韓國半音階口琴演奏家，活躍於國際舞台。</description>
     </item>
     <item>
       <title>張晁滕</title>
@@ -139,15 +150,15 @@ Tag：團體樂團、國際交流
 印尼的口琴與跨界國際演出團體，活動脈絡包含Reyharp Naufal與Balawan合作、跨界融合與口琴與吉他。</description>
     </item>
     <item>
-      <title>Evelyn Choong 鍾雪兒</title>
-      <link>https://www.facebook.com/evelyn.choong.3/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/78ffab148f49419e</guid>
+      <title>千賀太郎</title>
+      <link>https://www.instagram.com/taro_senga/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/351993af02b52cbc</guid>
       <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
       <description>分類：演奏者
-Tag：演奏者、教學、半音階、國際交流
-國家：馬來西亞
-地區：馬來西亞
-馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。</description>
+Tag：演奏者、十孔、國際交流
+國家：日本
+地區：日本
+日本的十孔國際演出人員，活動脈絡包含藍調。</description>
     </item>
     <item>
       <title>Howard Levy</title>
@@ -161,15 +172,15 @@ Tag：演奏者、半音階、十孔、國際交流
 美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。</description>
     </item>
     <item>
-      <title>Jong-seong Park 朴鍾聲</title>
-      <link>https://www.mnac.co.kr/jongseongpark</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/7375d9cceaab9077</guid>
+      <title>Evelyn Choong 鍾雪兒</title>
+      <link>https://www.facebook.com/evelyn.choong.3/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/78ffab148f49419e</guid>
       <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
       <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：韓國
-地區：韓國
-韓國半音階口琴演奏家，活躍於國際舞台。</description>
+Tag：演奏者、教學、半音階、國際交流
+國家：馬來西亞
+地區：馬來西亞
+馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。</description>
     </item>
     <item>
       <title>Younghoon Cho</title>
@@ -654,17 +665,6 @@ Tag：教學器材、教學
 國家：臺灣
 地區：臺灣/臺北
 臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。</description>
-    </item>
-    <item>
-      <title>千賀太郎</title>
-      <link>https://www.instagram.com/taro_senga/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/351993af02b52cbc</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、十孔、國際交流
-國家：日本
-地區：日本
-日本的十孔國際演出人員，活動脈絡包含藍調。</description>
     </item>
     <item>
       <title>陽明交大竹韻口琴社</title>
