@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 26 Jul 2026 19:23:39 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 20:27:43 +0000</lastBuildDate>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -16,6 +16,17 @@ Tag：演奏者、半音階、國際交流
 國家：日本
 地區：日本
 日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+    </item>
+    <item>
+      <title>黃冠誌</title>
+      <link>https://harmonica.tw/course/kuanchih/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、合奏、和弦、重奏、演出
+國家：臺灣
+地區：臺灣
+口琴演奏者，專長和弦口琴與重奏演出。</description>
     </item>
     <item>
       <title>Orchestra Hohnerklang</title>
@@ -137,6 +148,17 @@ Tag：團體樂團、重奏
 國家：臺灣
 地區：臺灣
 臺灣的大學生新生代口琴重奏演出團體。</description>
+    </item>
+    <item>
+      <title>RedBricks Harmonica</title>
+      <link>https://www.facebook.com/redbricksharmonica/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/77378d9ca07a4f96</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏、國際交流
+國家：香港
+地區：香港/國際
+香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
     </item>
     <item>
       <title>CY Leo 何卓彥</title>
@@ -346,17 +368,6 @@ Tag：演奏者
 國家：臺灣
 地區：臺灣
 臺灣的口琴演出人員，活動脈絡包含胖擊系。</description>
-    </item>
-    <item>
-      <title>黃冠誌</title>
-      <link>https://harmonica.tw/course/kuanchih/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、合奏、和弦、重奏、演出
-國家：臺灣
-地區：臺灣
-口琴演奏者，專長和弦口琴與重奏演出。</description>
     </item>
     <item>
       <title>吹出好心琴 + Ou Frog</title>
@@ -1017,17 +1028,6 @@ Tag：演奏者、教學、十孔、國際交流
 國家：美國
 地區：美國
 美國的十孔與藍調口琴國際演出人員，活動脈絡包含WHF 2025、藍調十孔與Chicago blues。</description>
-    </item>
-    <item>
-      <title>RedBricks Harmonica</title>
-      <link>https://www.facebook.com/redbricksharmonica/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/77378d9ca07a4f96</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏、國際交流
-國家：香港
-地區：香港/國際
-香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
     </item>
     <item>
       <title>臺北黃石口琴樂團</title>
