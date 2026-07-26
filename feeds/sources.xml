@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 26 Jul 2026 09:31:08 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 10:38:29 +0000</lastBuildDate>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -18,6 +18,28 @@ Tag：演奏者、半音階、國際交流
 日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
     </item>
     <item>
+      <title>Younghoon Cho</title>
+      <link>https://linktr.ee/hoontobe</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/2a1ec747c34bfb28</guid>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、合奏、國際交流
+國家：韓國
+地區：韓國
+韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。</description>
+    </item>
+    <item>
+      <title>Leafin Harmonica Ensemble</title>
+      <link>https://www.facebook.com/61573180934784/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/ab8dbe16481dd34d</guid>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏、國際交流
+國家：馬來西亞
+地區：馬來西亞
+馬來西亞的口琴重奏與合奏國際演出團體，活動脈絡包含公演與合作演出。</description>
+    </item>
+    <item>
       <title>Aiden Soon</title>
       <link>https://www.instagram.com/aidensoon/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/a061c7a8cdab4537</guid>
@@ -27,6 +49,17 @@ Tag：演奏者、教學、半音階、國際交流
 國家：馬來西亞
 地區：馬來西亞
 馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。</description>
+    </item>
+    <item>
+      <title>Santiago Alvarez</title>
+      <link>https://worldharmonicafestival.de/artist-profile-santiago-alvarez/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/2cffec8e56b63330</guid>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、半音階、國際交流
+國家：阿根廷
+地區：阿根廷
+阿根廷的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、半音階口琴與世界冠軍。</description>
     </item>
     <item>
       <title>王心禾</title>
@@ -139,6 +172,17 @@ Tag：團體樂團、重奏
 臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與教育推廣。</description>
     </item>
     <item>
+      <title>唐雪婷 Sharene Tang</title>
+      <link>https://www.facebook.com/sharenetang.fresco/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/4dc25ed2251d3a9d</guid>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、半音階、國際交流
+國家：馬來西亞
+地區：馬來西亞
+馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。</description>
+    </item>
+    <item>
       <title>Reyharp and Balawan Project</title>
       <link>https://www.facebook.com/reyharp/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/991cb6d8b28b3c46</guid>
@@ -181,17 +225,6 @@ Tag：演奏者、教學、半音階、國際交流
 國家：馬來西亞
 地區：馬來西亞
 馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。</description>
-    </item>
-    <item>
-      <title>Younghoon Cho</title>
-      <link>https://linktr.ee/hoontobe</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/2a1ec747c34bfb28</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、合奏、國際交流
-國家：韓國
-地區：韓國
-韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。</description>
     </item>
     <item>
       <title>Do Not Disturb Harmonica Ensemble</title>
@@ -258,17 +291,6 @@ Tag：演奏者、半音階、國際交流
 國家：日本
 地區：日本
 日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
-    </item>
-    <item>
-      <title>唐雪婷 Sharene Tang</title>
-      <link>https://www.facebook.com/sharenetang.fresco/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/4dc25ed2251d3a9d</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學、半音階、國際交流
-國家：馬來西亞
-地區：馬來西亞
-馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。</description>
     </item>
     <item>
       <title>CY Leo 何卓彥</title>
@@ -568,17 +590,6 @@ Tag：學生社團、半音階
 香港的口琴隊、半音階與學生合奏學校團隊。</description>
     </item>
     <item>
-      <title>Santiago Alvarez</title>
-      <link>https://worldharmonicafestival.de/artist-profile-santiago-alvarez/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/2cffec8e56b63330</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學、半音階、國際交流
-國家：阿根廷
-地區：阿根廷
-阿根廷的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、半音階口琴與世界冠軍。</description>
-    </item>
-    <item>
       <title>Yellow Pine Harmonica Festival</title>
       <link>https://www.yellowpinefestival.org/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/8916c1898211431a</guid>
@@ -852,17 +863,6 @@ Tag：活動資訊、團體樂團、音樂節、重奏、國際交流
 國家：馬來西亞
 地區：馬來西亞
 馬來西亞的國際演出團體，涵蓋馬來西亞口琴重奏、跨國音樂節與社群演出。</description>
-    </item>
-    <item>
-      <title>Leafin Harmonica Ensemble</title>
-      <link>https://www.facebook.com/61573180934784/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/ab8dbe16481dd34d</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏、國際交流
-國家：馬來西亞
-地區：馬來西亞
-馬來西亞的口琴重奏與合奏國際演出團體，活動脈絡包含公演與合作演出。</description>
     </item>
     <item>
       <title>Indiara Sfair</title>

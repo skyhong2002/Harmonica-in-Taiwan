@@ -67,7 +67,25 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/66-younghoon-cho/</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/53-leafin-harmonica-ensemble/</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/50-aiden-soon/</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/153-santiago-alvarez/</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -133,6 +151,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/51-sharene-tang/</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/127-reyharp-and-balawan-project/</loc>
     <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -152,12 +176,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/218-evelyn-choong/</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/66-younghoon-cho/</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -194,12 +212,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/57-rei-yamashita/</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/51-sharene-tang/</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -367,12 +379,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/153-santiago-alvarez/</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/174-yellow-pine-harmonica-festival/</loc>
     <lastmod>2026-07-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -519,12 +525,6 @@
   <url>
     <loc>https://harmonica.observe.tw/source/166-the-hummingway-harmonica-ensemble/</loc>
     <lastmod>2026-07-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/53-leafin-harmonica-ensemble/</loc>
-    <lastmod>2026-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1575,12 +1575,6 @@
   <url>
     <loc>https://harmonica.observe.tw/event/8e6bb6caf65dafbb/</loc>
     <lastmod>2026-07-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/event/88fb7911620b72be/</loc>
-    <lastmod>2026-06-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>

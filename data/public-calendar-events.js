@@ -1,9 +1,9 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-07-26T17:31:09+08:00",
+  "generatedAt": "2026-07-26T18:38:29+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 11,
+  "count": 10,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -55,42 +55,6 @@ window.publicCalendarEvents = {
         "https://scontent.ffar2-1.fna.fbcdn.net/v/t39.30808-6/735317499_1034756378931421_5947744582797300780_n.jpg?stp=dst-jpg_tt6&cstp=mx1100x492&ctp=s1100x492&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=R-xoDCbeJIkQ7kNvwFAiL1y&_nc_oc=Adohuo57pievfv5k3Q1Xu4HhbwMCs2nmAXzd2wdC2gZOrelXKOTMNujjshWpcieeJ7Q&_nc_zt=23&_nc_ht=scontent.ffar2-1.fna&_nc_gid=aJVyHrXM02x2EhXODrv9kg&_nc_ss=72289&oh=00_AQDFvsyVbBbDLvMD9cnKGUMMQuVHZcsNC0SvUy6BeLZWmA&oe=6A4B0954"
       ],
       "image_url": "/assets/feed-images/ab515c44a5d476022d4a.webp"
-    },
-    {
-      "eventName": "臺灣探戈樂團創團音樂會",
-      "title": "臺灣探戈樂團創團音樂會",
-      "start": "2026-07-18T19:30:00+08:00",
-      "end": "2026-07-18T21:30:00+08:00",
-      "allDay": false,
-      "venue": "臺北生技園區 多功能廳",
-      "city": "臺北",
-      "location": "臺北生技園區 多功能廳",
-      "details": "演出：臺灣探戈樂團創團音樂會（Taiwan Tango Orquesta），有口琴演出者廖苡晴。",
-      "calendarType": "taiwan_physical",
-      "timezone": "Asia/Taipei",
-      "evidenceUrl": "https://www.youtube.com/watch?v=PA11sSFkJeA",
-      "confidence": 1.0,
-      "calendarReview": {
-        "include": true,
-        "country": "臺灣",
-        "eventMode": "taiwan_physical",
-        "timezone": "Asia/Taipei",
-        "candidateDateMatches": true,
-        "eventName": "臺灣探戈樂團創團音樂會",
-        "venue": "臺北生技園區 多功能廳",
-        "city": "臺北",
-        "details": "演出：臺灣探戈樂團創團音樂會（Taiwan Tango Orquesta），有口琴演出者廖苡晴。",
-        "reason": "manual override from public calendar overrides CSV",
-        "confidence": 1.0
-      },
-      "id": "88fb7911620b72be",
-      "source": "Yora",
-      "platform": "youtube",
-      "postedAt": "2026-06-26 18:30",
-      "images": [
-        "https://i.ytimg.com/vi/PA11sSFkJeA/maxresdefault.jpg"
-      ],
-      "image_url": "/assets/feed-images/17f8a4214970bdefa716.webp"
     },
     {
       "id": "3d5cf0e0c563d733",
