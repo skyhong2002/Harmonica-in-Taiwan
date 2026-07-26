@@ -140,7 +140,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-26 23:45",
       "latestUpdateSource": "Orchestra Hohnerklang",
       "latestUpdateUrl": "https://www.instagram.com/stories/hohnerklang/3949865837803336942/",
-      "avatarUrl": "/assets/source-avatars/9b8ab6d7f7f9669c17c0.webp",
+      "avatarUrl": "/assets/source-avatars/66c24423265964844869.webp",
       "sourceInitials": "OH",
       "sourceTags": [
         "團體樂團",
@@ -533,6 +533,91 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-147",
+      "publicId": "147",
+      "name": "Yoonseok Lee",
+      "nameEn": "Yoonseok Lee",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "WHF 2025/半音階/國際比賽/教育與演出",
+      "structuredSummary": "WHF 2025/半音階/國際比賽/教育與演出 / 半音階 / 國際演出人員/教育者",
+      "summary": "韓國的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、國際比賽與教育與演出。",
+      "keywords": "Yoonseok Lee yoonseokhca harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/yoonseokl"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/yoonseokhca/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yoonseoklee_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/YoonseokLee_HARMONICA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-26T12:53:43+00:00",
+      "latestUpdateLocal": "2026-07-26 20:53",
+      "latestUpdateSource": "Yoonseok Lee",
+      "latestUpdateUrl": "https://www.instagram.com/stories/yoonseoklee_harmonica/3949779455598384674/",
+      "avatarUrl": "/assets/source-avatars/ccb8d9218f1b5b48bbc3.webp",
+      "sourceInitials": "YL",
+      "sourceTags": [
+        "演奏者",
+        "比賽",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_yoonseokhca",
+          "name": "Yoonseok Lee",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/yoonseokhca",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yoonseoklee_harmonica",
+          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yoonseoklee_harmonica/story/0"
+        },
+        {
+          "id": "ig_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yoonseoklee_harmonica",
+          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/YoonseokLee_HARMONICA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-111",
       "publicId": "111",
       "name": "Lee Hangyeol 이한결",
@@ -853,6 +938,85 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-18",
+      "publicId": "18",
+      "name": "Up Side Down",
+      "nameEn": "Up Side Down Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "大學生新生代團體",
+      "structuredSummary": "大學生新生代團體 / 口琴重奏 / 演出團體",
+      "summary": "臺灣的大學生新生代口琴重奏演出團體。",
+      "keywords": "Up Side Down 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/usd_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@UpSideDownharmonicaensemble"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@usd_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-26T11:28:55+00:00",
+      "latestUpdateLocal": "2026-07-26 19:28",
+      "latestUpdateSource": "Up Side Down",
+      "latestUpdateUrl": "https://www.instagram.com/stories/usd_harmonica/3949736783235389994/",
+      "avatarUrl": "/assets/source-avatars/f6348ba8ea6dd61f710e.webp",
+      "sourceInitials": "USD",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_usd_harmonica",
+          "name": "Up Side Down",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "usd_harmonica",
+          "profileUrl": "https://www.instagram.com/usd_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/usd_harmonica/story/0"
+        },
+        {
+          "id": "ig_usd_harmonica",
+          "name": "Up Side Down",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "usd_harmonica",
+          "profileUrl": "https://www.instagram.com/usd_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_usd_harmonica",
+          "name": "Up Side Down",
+          "platform": "threads",
+          "type": "rss",
+          "username": "usd_harmonica",
+          "profileUrl": "https://www.threads.net/@usd_harmonica",
+          "feedUrl": "https://rss.observe.tw/threads/usd_harmonica"
+        },
+        {
+          "id": "yt_upsidedownharmonicaensemble",
+          "name": "Up Side Down",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@UpSideDownharmonicaensemble",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-54",
       "publicId": "54",
       "name": "CY Leo 何卓彥",
@@ -1147,10 +1311,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-07-26T08:47:22+00:00",
-      "latestUpdateLocal": "2026-07-26 16:47",
+      "latestUpdateAt": "2026-07-26T08:49:25+00:00",
+      "latestUpdateLocal": "2026-07-26 16:49",
       "latestUpdateSource": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbP_rF0kSNJ/",
+      "latestUpdateUrl": "https://www.instagram.com/stories/judys.harmonica.ensemble/3949656498511124579/",
       "avatarUrl": "/assets/source-avatars/5838d7cd4d79864f756c.webp",
       "sourceInitials": "JSH",
       "sourceTags": [
@@ -3664,91 +3828,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-147",
-      "publicId": "147",
-      "name": "Yoonseok Lee",
-      "nameEn": "Yoonseok Lee",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "WHF 2025/半音階/國際比賽/教育與演出",
-      "structuredSummary": "WHF 2025/半音階/國際比賽/教育與演出 / 半音階 / 國際演出人員/教育者",
-      "summary": "韓國的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、國際比賽與教育與演出。",
-      "keywords": "Yoonseok Lee yoonseokhca harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/yoonseokl"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/yoonseokhca/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yoonseoklee_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/YoonseokLee_HARMONICA"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-25T12:40:20+00:00",
-      "latestUpdateLocal": "2026-07-25 20:40",
-      "latestUpdateSource": "Yoonseok Lee",
-      "latestUpdateUrl": "https://www.instagram.com/stories/yoonseoklee_harmonica/3949047963695958805/",
-      "avatarUrl": "/assets/source-avatars/ccb8d9218f1b5b48bbc3.webp",
-      "sourceInitials": "YL",
-      "sourceTags": [
-        "演奏者",
-        "比賽",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_yoonseokhca",
-          "name": "Yoonseok Lee",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/yoonseokhca",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_yoonseoklee_harmonica",
-          "name": "Yoonseok Lee",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yoonseoklee_harmonica",
-          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yoonseoklee_harmonica/story/0"
-        },
-        {
-          "id": "ig_yoonseoklee_harmonica",
-          "name": "Yoonseok Lee",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yoonseoklee_harmonica",
-          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_yoonseoklee_harmonica",
-          "name": "Yoonseok Lee",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/YoonseokLee_HARMONICA",
           "feedUrl": ""
         }
       ]
@@ -10694,85 +10773,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UC6XjefSoJNiEjSni3vZ-wsA",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-18",
-      "publicId": "18",
-      "name": "Up Side Down",
-      "nameEn": "Up Side Down Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "大學生新生代團體",
-      "structuredSummary": "大學生新生代團體 / 口琴重奏 / 演出團體",
-      "summary": "臺灣的大學生新生代口琴重奏演出團體。",
-      "keywords": "Up Side Down 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/usd_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@UpSideDownharmonicaensemble"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@usd_harmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2025-08-20T12:45:11+00:00",
-      "latestUpdateLocal": "2025-08-20 20:45",
-      "latestUpdateSource": "Up Side Down",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=zBXwfnblSkw",
-      "avatarUrl": "/assets/source-avatars/f6348ba8ea6dd61f710e.webp",
-      "sourceInitials": "USD",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_usd_harmonica",
-          "name": "Up Side Down",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "usd_harmonica",
-          "profileUrl": "https://www.instagram.com/usd_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/usd_harmonica/story/0"
-        },
-        {
-          "id": "ig_usd_harmonica",
-          "name": "Up Side Down",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "usd_harmonica",
-          "profileUrl": "https://www.instagram.com/usd_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_usd_harmonica",
-          "name": "Up Side Down",
-          "platform": "threads",
-          "type": "rss",
-          "username": "usd_harmonica",
-          "profileUrl": "https://www.threads.net/@usd_harmonica",
-          "feedUrl": "https://rss.observe.tw/threads/usd_harmonica"
-        },
-        {
-          "id": "yt_upsidedownharmonicaensemble",
-          "name": "Up Side Down",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@UpSideDownharmonicaensemble",
           "feedUrl": ""
         }
       ]
