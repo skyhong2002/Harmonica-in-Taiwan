@@ -65,6 +65,141 @@
   },
   "entries": [
     {
+      "id": "watchlist-86",
+      "publicId": "86",
+      "name": "吹出好心琴 + Ou Frog",
+      "nameEn": "Ou Frog",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "教學/影片來源",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴教學影片/示範",
+      "structuredSummary": "口琴教學影片/示範 / 口琴 / 教學影片來源",
+      "summary": "臺灣的口琴教學影片來源，關注口琴教學影片與示範。",
+      "keywords": "吹出好心琴 Ou Frog 口琴 教學 YouTube",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@oufrog"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-26T04:00:06+00:00",
+      "latestUpdateLocal": "2026-07-26 12:00",
+      "latestUpdateSource": "吹出好心琴 + Ou Frog",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=ufpqFMQWSDk",
+      "avatarUrl": "/assets/source-avatars/2241bd394301b93492ed.webp",
+      "sourceInitials": "OF",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_oufrog",
+          "name": "吹出好心琴 + Ou Frog",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@oufrog",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-31",
+      "publicId": "31",
+      "name": "張晁滕",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/Laelaps/教學/演出",
+      "structuredSummary": "天狼星/Laelaps/教學/演出 / 重奏/教學 / 演出人員/教學者",
+      "summary": "口琴演奏者，兼職教學與重奏活動。",
+      "keywords": "張晁滕 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://chaotengchang.blogspot.com/2014/06/blog-post.html"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chaotengchang/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chaotengchang/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@ChaotengChang"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-26T03:55:13+00:00",
+      "latestUpdateLocal": "2026-07-26 11:55",
+      "latestUpdateSource": "張晁滕",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbPeGqDS6oo/",
+      "avatarUrl": "/assets/source-avatars/6dcd46b5676743756a83.webp",
+      "sourceInitials": "張晁",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "重奏"
+      ],
+      "sourceSummary": "口琴演奏者，兼職教學與重奏活動。",
+      "sourceTagReason": "名稱為個人，類別標註為演奏者，摘要提及教學與演出，關鍵字包含口琴，符合演奏者與教學來源定位。",
+      "monitorSources": [
+        {
+          "id": "fb_chaotengchang",
+          "name": "張晁滕",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chaotengchang",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_chaotengchang",
+          "name": "張晁滕",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chaotengchang",
+          "profileUrl": "https://www.instagram.com/chaotengchang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chaotengchang",
+          "name": "張晁滕",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chaotengchang",
+          "profileUrl": "https://www.instagram.com/chaotengchang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chaotengchang/story/0"
+        },
+        {
+          "id": "yt_chaotengchang",
+          "name": "張晁滕",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@ChaotengChang",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-111",
       "publicId": "111",
       "name": "Lee Hangyeol 이한결",
@@ -3450,92 +3585,6 @@
       ]
     },
     {
-      "id": "watchlist-31",
-      "publicId": "31",
-      "name": "張晁滕",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/演出",
-      "structuredSummary": "天狼星/Laelaps/教學/演出 / 重奏/教學 / 演出人員/教學者",
-      "summary": "口琴演奏者，兼職教學與重奏活動。",
-      "keywords": "張晁滕 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://chaotengchang.blogspot.com/2014/06/blog-post.html"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/chaotengchang/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/chaotengchang/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@ChaotengChang"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-25T06:29:59+00:00",
-      "latestUpdateLocal": "2026-07-25 14:29",
-      "latestUpdateSource": "張晁滕",
-      "latestUpdateUrl": "https://www.instagram.com/stories/chaotengchang/3948861539013028708/",
-      "avatarUrl": "/assets/source-avatars/6dcd46b5676743756a83.webp",
-      "sourceInitials": "張晁",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "重奏"
-      ],
-      "sourceSummary": "口琴演奏者，兼職教學與重奏活動。",
-      "sourceTagReason": "名稱為個人，類別標註為演奏者，摘要提及教學與演出，關鍵字包含口琴，符合演奏者與教學來源定位。",
-      "monitorSources": [
-        {
-          "id": "fb_chaotengchang",
-          "name": "張晁滕",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/chaotengchang",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_chaotengchang",
-          "name": "張晁滕",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "chaotengchang",
-          "profileUrl": "https://www.instagram.com/chaotengchang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_chaotengchang",
-          "name": "張晁滕",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "chaotengchang",
-          "profileUrl": "https://www.instagram.com/chaotengchang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chaotengchang/story/0"
-        },
-        {
-          "id": "yt_chaotengchang",
-          "name": "張晁滕",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@ChaotengChang",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-178",
       "publicId": "178",
       "name": "Harmonica FEN 口琴節與學院",
@@ -3617,6 +3666,68 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-88",
+      "publicId": "88",
+      "name": "藍波口琴教室",
+      "nameEn": "Bluebo Harmonica",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "教學工作室",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴教學/課程/學習資源",
+      "structuredSummary": "口琴教學/課程/學習資源 / 口琴 / 教學/課程來源",
+      "summary": "臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。",
+      "keywords": "藍波口琴教室 藍波口琴網 口琴 教學",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.blueboclass.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/happyharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@lamberharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-25T04:00:31+00:00",
+      "latestUpdateLocal": "2026-07-25 12:00",
+      "latestUpdateSource": "藍波口琴教室",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=TZW1efl6nsE",
+      "avatarUrl": "/assets/source-avatars/8f1ae2810f807d60d81f.webp",
+      "sourceInitials": "藍波",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "課程"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_happyharmonica",
+          "name": "藍波口琴教室",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/happyharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_lamberharmonica",
+          "name": "藍波口琴教室",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@lamberharmonica",
           "feedUrl": ""
         }
       ]
@@ -3712,6 +3823,54 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@iamxyora",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-209",
+      "publicId": "209",
+      "name": "英皇書院同學會小學口琴隊",
+      "nameEn": "KCOBAPS Harmonica Band",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校/青年",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "英皇書院同學會小學/學校/青年/香港",
+      "structuredSummary": "英皇書院同學會小學/學校/青年/香港 / 口琴隊/半音階/學生合奏 / 學校團隊",
+      "summary": "香港的口琴隊、半音階與學生合奏學校團隊。",
+      "keywords": "英皇書院同學會小學口琴隊 KCOBAPS Harmonica Band 世界口琴節 學生口琴隊 香港",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.kcobaps1.edu.hk/tc/latest_new/英小小航海家-口琴演奏交流"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kcobaps/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-25T03:00:36+00:00",
+      "latestUpdateLocal": "2026-07-25 11:00",
+      "latestUpdateSource": "英皇書院同學會小學口琴隊",
+      "latestUpdateUrl": "https://www.facebook.com/kcobaps/posts/pfbid0QRqRxaQ4A71QMCJTUuvffA4jxQUmTReKgqC3Gs7qFg3huWuJrrRTjvxkFxbuQPful",
+      "avatarUrl": "/assets/source-avatars/eee21e2828c60dffa72c.webp",
+      "sourceInitials": "英皇",
+      "sourceTags": [
+        "學生社團",
+        "半音階"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_kcobaps",
+          "name": "英皇書院同學會小學口琴隊",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/kcobaps",
           "feedUrl": ""
         }
       ]
@@ -5218,55 +5377,6 @@
       ]
     },
     {
-      "id": "watchlist-86",
-      "publicId": "86",
-      "name": "吹出好心琴 + Ou Frog",
-      "nameEn": "Ou Frog",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "教學/影片來源",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴教學影片/示範",
-      "structuredSummary": "口琴教學影片/示範 / 口琴 / 教學影片來源",
-      "summary": "臺灣的口琴教學影片來源，關注口琴教學影片與示範。",
-      "keywords": "吹出好心琴 Ou Frog 口琴 教學 YouTube",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@oufrog"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-24T04:00:27+00:00",
-      "latestUpdateLocal": "2026-07-24 12:00",
-      "latestUpdateSource": "吹出好心琴 + Ou Frog",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=rTybFvybqjk",
-      "avatarUrl": "/assets/source-avatars/2241bd394301b93492ed.webp",
-      "sourceInitials": "OF",
-      "sourceTags": [
-        "品牌",
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "yt_oufrog",
-          "name": "吹出好心琴 + Ou Frog",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@oufrog",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-164",
       "publicId": "164",
       "name": "新加坡青年節藝術展演（口琴）",
@@ -5979,68 +6089,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@hummingwaythe9424",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-88",
-      "publicId": "88",
-      "name": "藍波口琴教室",
-      "nameEn": "Bluebo Harmonica",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "教學工作室",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴教學/課程/學習資源",
-      "structuredSummary": "口琴教學/課程/學習資源 / 口琴 / 教學/課程來源",
-      "summary": "臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。",
-      "keywords": "藍波口琴教室 藍波口琴網 口琴 教學",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.blueboclass.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/happyharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@lamberharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-23T04:00:29+00:00",
-      "latestUpdateLocal": "2026-07-23 12:00",
-      "latestUpdateSource": "藍波口琴教室",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=kJi01KYz2VY",
-      "avatarUrl": "/assets/source-avatars/8f1ae2810f807d60d81f.webp",
-      "sourceInitials": "藍波",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "課程"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_happyharmonica",
-          "name": "藍波口琴教室",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/happyharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_lamberharmonica",
-          "name": "藍波口琴教室",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@lamberharmonica",
           "feedUrl": ""
         }
       ]
@@ -6811,54 +6859,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@malaysiaharmonicafestival5523",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-209",
-      "publicId": "209",
-      "name": "英皇書院同學會小學口琴隊",
-      "nameEn": "KCOBAPS Harmonica Band",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校/青年",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "英皇書院同學會小學/學校/青年/香港",
-      "structuredSummary": "英皇書院同學會小學/學校/青年/香港 / 口琴隊/半音階/學生合奏 / 學校團隊",
-      "summary": "香港的口琴隊、半音階與學生合奏學校團隊。",
-      "keywords": "英皇書院同學會小學口琴隊 KCOBAPS Harmonica Band 世界口琴節 學生口琴隊 香港",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.kcobaps1.edu.hk/tc/latest_new/英小小航海家-口琴演奏交流"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/kcobaps/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-20T10:41:24+00:00",
-      "latestUpdateLocal": "2026-07-20 18:41",
-      "latestUpdateSource": "英皇書院同學會小學口琴隊",
-      "latestUpdateUrl": "https://www.facebook.com/kcobaps/posts/pfbid02f96J36KkZMKcsER5nj2ZabNMJJcKs8wrUwYeJdU4mpVYkUSNLthnFT1gBuoQAQNUl",
-      "avatarUrl": "/assets/source-avatars/eee21e2828c60dffa72c.webp",
-      "sourceInitials": "英皇",
-      "sourceTags": [
-        "學生社團",
-        "半音階"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_kcobaps",
-          "name": "英皇書院同學會小學口琴隊",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/kcobaps",
           "feedUrl": ""
         }
       ]

@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
   "json": "https://harmonica.observe.tw/api/opportunities.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/opportunities.json",
-  "count": 114,
+  "count": 116,
   "items": [
     {
       "title": "南里沙 / Risa MINAMI｜🎶アジア大会 2日目・3日目🎶 2日目・3日目は、クロマチックハーモニカ ソロ【ジュニア】【オープン】【シニア】部門の予選審査をさせていただきました。 なんと、【ジュニアの部】だけで171名が予選に出場…",
@@ -163,6 +163,96 @@
         "補助比賽"
       ],
       "key": "ig_marcoscollgonzalez:https://www.instagram.com/p/DbNDjMBKK8o/"
+    },
+    {
+      "title": "英皇書院同學會小學口琴隊｜英小口琴精英參與兩場導師音樂會演出 本校21位學生分別於7月11和19日參與兩場口琴導師舉辦之學生音樂會演出，這次難能可貴的機會不僅讓低年級學生展示努力成果，亦為即將於本月下旬出發參加首爾國際口琴節的英小口琴精英…",
+      "headline": "英小口琴精英參與兩場導師音樂會演出",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/kcobaps/posts/pfbid0QRqRxaQ4A71QMCJTUuvffA4jxQUmTReKgqC3Gs7qFg3huWuJrrRTjvxkFxbuQPful",
+      "source_id": "fb_kcobaps",
+      "source": "英皇書院同學會小學口琴隊",
+      "source_system_name": "英皇書院同學會小學口琴隊",
+      "source_profile_url": "https://facebook.com/kcobaps",
+      "country": "香港",
+      "region": "香港",
+      "directory_entry_id": "watchlist-209",
+      "directory_entry_name": "英皇書院同學會小學口琴隊",
+      "account": "kcobaps",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-25T03:00:36.000Z",
+      "posted_at_local": "2026-07-25 11:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-26T05:09:58.064273+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "音樂會",
+        "報名"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "音樂會",
+        "演出",
+        "報名"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "音樂會",
+        "報名"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "英小口琴隊分享學生音樂會演出與校園簡介會報名，屬口琴公開更新與活動資訊。",
+      "text": "英小口琴精英參與兩場導師音樂會演出\n本校21位學生分別於7月11和19日參與兩場口琴導師舉辦之學生音樂會演出，這次難能可貴的機會不僅讓低年級學生展示努力成果，亦為即將於本月下旬出發參加首爾國際口琴節的英小口琴精英隊成員提供舞台經驗。\n只要在英小，誰都可發光。\n如欲了解更多英小的學生培育，歡迎參加九月的校園簡介會及學習體驗日。\n報名連結🔗\nhttps://forms.gle/bimSwg44jyp6CpwC9\n#英小口琴 #kcobaps1 #英皇書院同學會小學 #中西區小學 #SIHF #首爾國際口琴節\nhttps://www.facebook.com/kcobaps/posts/pfbid0QRqRxaQ4A71QMCJTUuvffA4jxQUmTReKgqC3Gs7qFg3huWuJrrRTjvxkFxbuQPful",
+      "images": [
+        "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/752488732_1737508810897673_3131583579199580673_n.png?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=sOhQO6rEIt0Q7kNvwFhRbuP&_nc_oc=Ado9-k_64vxrU5AUdAPu8fiooCbPVSBljKGO8gIYr7z1eRnv0tIySLq9bUZ0lbttcgc&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=7EpsLAB9QdkZtb1sWr8EPA&_nc_ss=72289&oh=00_AQC0yqO7f8yMyV9CI5bj_QSDbyqHWAlczerOpm40M4LIyA&oe=6A6B8232",
+        "https://scontent-lga3-1.xx.fbcdn.net/v/t39.99422-6/752488591_2013817645968425_984964947026806071_n.png?stp=dst-jpg_tt6&cstp=mx2048x1124&ctp=p320x320&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=tKZu7LL5tHcQ7kNvwHXhzXe&_nc_oc=Adpa9T9D4e3NdqHTaeA0WMAofke1rA6ZkMvaV2sypjfL3OANkc9idi7A08wkubVNgdE&_nc_zt=14&_nc_ht=scontent-lga3-1.xx&_nc_gid=7EpsLAB9QdkZtb1sWr8EPA&_nc_ss=72289&oh=00_AQDncLJsSJO2ydr_yNeppnGM1oXfBTOC1lwXHODmD2ezPg&oe=6A6B6D03",
+        "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/750229712_1686278256007303_3381514505474926012_n.png?stp=dst-jpg_tt6&cstp=mx2048x1276&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=xvLVyVPuX8EQ7kNvwFHQCu_&_nc_oc=AdojWYErOD31BVIuJvvqsMSIChf5KlhF04gIEJMXKKCVbFBRfU4jtjGf2w884LxbfTs&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=7EpsLAB9QdkZtb1sWr8EPA&_nc_ss=72289&oh=00_AQCfJd2SmKtvN3L0uCsQPIH74n3JTKBVR-YDF_Y0QPOr3w&oe=6A6B5B79",
+        "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/754015720_1601849734737829_5663606787328204249_n.png?stp=dst-jpg_tt6&cstp=mx1600x1070&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Dhs8DaSOkIAQ7kNvwH8boC9&_nc_oc=AdqCZBO6jV6mJowYdmucS-7CIaI_ZKOvcyGh8VAiu_M_t1LNsBptqaRh6_WgdLXlzU0&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=7EpsLAB9QdkZtb1sWr8EPA&_nc_ss=72289&oh=00_AQBOycLgaQo_z0FTMsVOcSu6KiwGgFoHS6UWYOmxmDjYJg&oe=6A6B5B3A",
+        "https://scontent-lga3-1.xx.fbcdn.net/v/t39.99422-6/752151077_1208786585654261_7107028834166380881_n.png?stp=dst-jpg_tt6&cstp=mx2048x1368&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=MLVo1zYw1qgQ7kNvwEf3TGB&_nc_oc=AdrJ6S_3tjOQyLHjQpUXvFcVm0Qf9dyAaHDt3gTNOIJnjeHUxRXLeFwENb4iZE3Ouu8&_nc_zt=14&_nc_ht=scontent-lga3-1.xx&_nc_gid=7EpsLAB9QdkZtb1sWr8EPA&_nc_ss=72289&oh=00_AQCsw0tJB1aoom1Rj4dFyPU57yY657mEN6gHS3mvIAtqYA&oe=6A6B5B44"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/752488732_1737508810897673_3131583579199580673_n.png?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=sOhQO6rEIt0Q7kNvwFhRbuP&_nc_oc=Ado9-k_64vxrU5AUdAPu8fiooCbPVSBljKGO8gIYr7z1eRnv0tIySLq9bUZ0lbttcgc&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=7EpsLAB9QdkZtb1sWr8EPA&_nc_ss=72289&oh=00_AQC0yqO7f8yMyV9CI5bj_QSDbyqHWAlczerOpm40M4LIyA&oe=6A6B8232",
+      "image_url": "/assets/feed-images/1b23bdaac2e6107d8d9e.webp",
+      "image_width": 590,
+      "image_height": 443,
+      "source_avatar_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/313900442_556580959806688_4950287615766432186_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s50x50&_nc_cat=107&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=dMSJQgwb7XsQ7kNvwGY-nYV&_nc_oc=AdrdpbsCmvXan7kmr_mTiDBuwV2VvlivsVXSDkiRLRBhrUVuc8AUcbEuNro9Wewd9oU&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=7EpsLAB9QdkZtb1sWr8EPA&_nc_ss=72289&oh=00_AQDMU-R4tQ0ehsZ8_lKfvGRiSEn0Ms9gCUcVlAQbdt26ig&oe=6A6B698A",
+      "avatar_url": "/assets/source-avatars/cf47e7ce689eb4004573.webp",
+      "source_initials": "英皇",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽",
+        "學生社團"
+      ],
+      "key": "fb_kcobaps:1669337345197705"
     },
     {
       "title": "Yellow Pine Harmonica Festival｜The Yellow Pine Harmonica Festival is looking for help during the event! This magical we…",
@@ -914,6 +1004,99 @@
         "補助比賽"
       ],
       "key": "ig_story_moridaira_mi:3948221106158477385_51153364218"
+    },
+    {
+      "title": "英皇書院同學會小學口琴隊｜英小音樂年度總結 持續發光發亮的音樂家 英小口琴隊本學年登上世界冠軍寶座！繼去年八月成員在首爾國際口琴節勇奪包括「首爾市獎盃」全場總冠軍在內的13個獎項之外，更成功在四年一度於德國舉行的世界口琴節豪取3個世界冠軍…",
+      "headline": "英小音樂年度總結 持續發光發亮的音樂家",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/kcobaps/posts/pfbid0Eiy4RG8jBH92GFj9aZZAmtVER311zXUWNij9brmUbc3S72Dnk2A9XBHRE3q4Aiinl",
+      "source_id": "fb_kcobaps",
+      "source": "英皇書院同學會小學口琴隊",
+      "source_system_name": "英皇書院同學會小學口琴隊",
+      "source_profile_url": "https://facebook.com/kcobaps",
+      "country": "香港",
+      "region": "香港",
+      "directory_entry_id": "watchlist-209",
+      "directory_entry_name": "英皇書院同學會小學口琴隊",
+      "account": "kcobaps",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-24T09:00:58.000Z",
+      "posted_at_local": "2026-07-24 17:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-26T05:09:58.064273+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "交流",
+        "報名",
+        "演出",
+        "音樂會"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "音樂會",
+        "演出",
+        "交流",
+        "報名"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "交流",
+        "報名",
+        "演出",
+        "音樂會"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "英小口琴隊年度成果與交流、音樂會及校園簡介會報名，屬口琴公開更新。",
+      "text": "英小音樂年度總結 持續發光發亮的音樂家\n英小口琴隊本學年登上世界冠軍寶座！繼去年八月成員在首爾國際口琴節勇奪包括「首爾市獎盃」全場總冠軍在內的13個獎項之外，更成功在四年一度於德國舉行的世界口琴節豪取3個世界冠軍等6個獎項。\n另一方面，英小合唱團成軍第2年，隨即奪得JSMA聯校音樂大賽小組合唱金獎，成果備受肯定；整項賽事英小學生共奪24個獎項，當中包括15項最高級別的金獎。而在第78屆香港學校音樂節，英小學生除了口琴之外，亦取得鋼琴、歌唱、小提琴和二胡等樂器的多個獎項，充分表現出英小學生的多才多藝。\n英小亦期望透過表演和交流，擴闊學生視野，本學年重點項目包括參與「國際笙簧節」共創世界紀錄活動、樂施音樂馬拉松、世界口琴節祝捷音樂會、「藝萃·中西」音樂匯演出和Aiden N Evelyn X 英小口琴音樂交流會等等，締造不一樣的學習經歷。\n只要在英小，誰都可發光。\n如欲了解更多英小的學生培育，歡迎參加九月的校園簡介會及學習體驗日。\n報名連結🔗\nhttps://forms.gle/bimSwg44jyp6CpwC9\n#kcobaps1 #英皇書院同學會小學 #中西區小學 #英小口琴 #英小合唱團 #SIHF #首爾國際口琴節 #WHF #世界口琴節 #香港學校音樂節 #JSMA\nhttps://www.facebook.com/kcobaps/posts/pfbid0Eiy4RG8jBH92GFj9aZZAmtVER311zXUWNij9brmUbc3S72Dnk2A9XBHRE3q4Aiinl",
+      "images": [
+        "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/752699198_1911211116211719_1644699444487775951_n.png?stp=dst-jpg_tt6&cstp=mx2048x1150&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Exy1_m8Iv34Q7kNvwFphh35&_nc_oc=AdpMCgcU_MOVBwU4uyhKHqap16rlNoB0XYK9qNJQRznXQKMetsbKWuSoYZaHAPlAnAQ&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=7EpsLAB9QdkZtb1sWr8EPA&_nc_ss=72289&oh=00_AQBWxTud6QX07mt6DfMXnxs-lG7SDG69-OYpEU0eSPtKzA&oe=6A6B5A57",
+        "https://scontent-lga3-3.xx.fbcdn.net/v/t39.99422-6/753881028_911546681993671_2038594180758572864_n.png?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=jBbmFSF2TRAQ7kNvwHoGCil&_nc_oc=Adq5XLtOQpm_XmCvJ0c97BcV3ltAhga_oM6Cjtne2EpjGRerMpPUkRxKQplEtuZHx5o&_nc_zt=14&_nc_ht=scontent-lga3-3.xx&_nc_gid=7EpsLAB9QdkZtb1sWr8EPA&_nc_ss=72289&oh=00_AQCprjmoAD1yn6sCyJ1Ps_1oVJR9i2d-cm7qqx_phcmUMA&oe=6A6B5FEA",
+        "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/756612747_1688759432192504_3211502624094982102_n.png?stp=dst-jpg_tt6&cstp=mx2048x1164&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=OchRMMNDM8sQ7kNvwHUGNDt&_nc_oc=AdrCs-y8pczOq8_hTkM_T0YimF2EDYpCsP4skBQn7j16Zo_XPya2r9iW1ddLznVseX8&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=7EpsLAB9QdkZtb1sWr8EPA&_nc_ss=72289&oh=00_AQDpGtuFbvXyKgQCOSCWfAx7dekxRmyZ_t5Q9uZj5zNhHQ&oe=6A6B4DE4",
+        "https://scontent-lga3-1.xx.fbcdn.net/v/t39.99422-6/753287842_1019504500979760_3369103653317833462_n.png?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Qo8GNX5zXDMQ7kNvwH1f_yI&_nc_oc=AdpmDUG4tVjpRwaLKuRcTuxvzzEIe6k0xpbJlrz4-Ronmev7oXk_0MGWoNUWZjV6RHI&_nc_zt=14&_nc_ht=scontent-lga3-1.xx&_nc_gid=7EpsLAB9QdkZtb1sWr8EPA&_nc_ss=72289&oh=00_AQAgWDPsGfKnO3Fttf4qSc3ONRfPRgOeQ2W-5Hmo0o3c9Q&oe=6A6B82DF",
+        "https://scontent-lga3-3.xx.fbcdn.net/v/t39.99422-6/753306634_1062684359534845_8766822320311239108_n.png?stp=dst-jpg_tt6&cstp=mx2048x1364&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=WPgLi3CvNvgQ7kNvwH8n6zA&_nc_oc=AdqVGVmEt7nDwDOVeTVbsBrtJn4DkERBNIXM082XCFovhD06x-gbdYwriuW6I48I0pc&_nc_zt=14&_nc_ht=scontent-lga3-3.xx&_nc_gid=7EpsLAB9QdkZtb1sWr8EPA&_nc_ss=72289&oh=00_AQCIcHArcNOIV_CAS914N8O4bUfyvVx34TXXQ0_HClZNaQ&oe=6A6B5B04"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.99422-6/752699198_1911211116211719_1644699444487775951_n.png?stp=dst-jpg_tt6&cstp=mx2048x1150&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Exy1_m8Iv34Q7kNvwFphh35&_nc_oc=AdpMCgcU_MOVBwU4uyhKHqap16rlNoB0XYK9qNJQRznXQKMetsbKWuSoYZaHAPlAnAQ&_nc_zt=14&_nc_ht=scontent-lga3-2.xx&_nc_gid=7EpsLAB9QdkZtb1sWr8EPA&_nc_ss=72289&oh=00_AQBWxTud6QX07mt6DfMXnxs-lG7SDG69-OYpEU0eSPtKzA&oe=6A6B5A57",
+      "image_url": "/assets/feed-images/61b0b56539e8a0617d7a.webp",
+      "image_width": 590,
+      "image_height": 331,
+      "source_avatar_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/313900442_556580959806688_4950287615766432186_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s50x50&_nc_cat=107&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=dMSJQgwb7XsQ7kNvwGY-nYV&_nc_oc=AdrdpbsCmvXan7kmr_mTiDBuwV2VvlivsVXSDkiRLRBhrUVuc8AUcbEuNro9Wewd9oU&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=7EpsLAB9QdkZtb1sWr8EPA&_nc_ss=72289&oh=00_AQDMU-R4tQ0ehsZ8_lKfvGRiSEn0Ms9gCUcVlAQbdt26ig&oe=6A6B698A",
+      "avatar_url": "/assets/source-avatars/cf47e7ce689eb4004573.webp",
+      "source_initials": "英皇",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽",
+        "學生社團"
+      ],
+      "key": "fb_kcobaps:1669335341864572"
     },
     {
       "title": "臺中國家歌劇院 National Taichung Theater｜2026 夏日放／FUN時光｜《聽見你的聲音》歷時3年，讓手語和口語在舞台上真正並肩存在✨ 在複象公場《聽見你的聲音》中，聾人演員比劃手語、聽人角色念讀文本，「臺灣手語」…",
