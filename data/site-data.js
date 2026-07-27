@@ -2,6 +2,81 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-27",
   "entries": [
     {
+      "id": "watchlist-33",
+      "publicId": "33",
+      "name": "黃冠誌",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
+      "structuredSummary": "天狼星/胖擊系/和弦口琴/重奏 / 和弦/重奏 / 演出人員",
+      "summary": "口琴演奏者，專長和弦口琴與重奏演出。",
+      "keywords": "黃冠誌 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/kuanchih/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hk91f06/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-27T06:30:30+00:00",
+      "latestUpdateLocal": "2026-07-27 14:30",
+      "latestUpdateSource": "黃冠誌",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3950311346797613163/",
+      "avatarUrl": "/assets/source-avatars/1c6e560eec687ecfbf6c.webp",
+      "sourceInitials": "黃冠",
+      "sourceTags": [
+        "演奏者",
+        "合奏",
+        "和弦",
+        "重奏",
+        "演出"
+      ],
+      "sourceSummary": "口琴演奏者，專長和弦口琴與重奏演出。",
+      "sourceTagReason": "來源明確標示為個人與演奏者，且專長涉及和弦、重奏與演出。",
+      "monitorSources": [
+        {
+          "id": "ig_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
+        },
+        {
+          "id": "yt_cbd128e3de",
+          "name": "黃冠誌",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-50",
       "publicId": "50",
       "name": "Aiden Soon",
@@ -120,6 +195,73 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@gyeoli_94",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-121",
+      "publicId": "121",
+      "name": "Fresco Harmonica Ensemble",
+      "nameEn": "Fresco Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "馬來西亞世界冠軍口琴團/2006成立/國際巡演/教育推廣",
+      "structuredSummary": "馬來西亞世界冠軍口琴團/2006成立/國際巡演/教育推廣 / 口琴重奏 / 國際演出團體",
+      "summary": "馬來西亞的口琴重奏國際演出團體，活動脈絡包含馬來西亞世界冠軍口琴團、2006成立與國際巡演。",
+      "keywords": "Fresco Harmonica Ensemble harmonica Malaysia SIHF",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/frescoharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@FrescoHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-27T04:20:22+00:00",
+      "latestUpdateLocal": "2026-07-27 12:20",
+      "latestUpdateSource": "Fresco Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbSEoHhTOZn/",
+      "avatarUrl": "/assets/source-avatars/1dd6664eade98f42e067.webp",
+      "sourceInitials": "FHE",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_frescoharmonica",
+          "name": "Fresco Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "frescoharmonica",
+          "profileUrl": "https://www.instagram.com/frescoharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_frescoharmonica",
+          "name": "Fresco Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "frescoharmonica",
+          "profileUrl": "https://www.instagram.com/frescoharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/frescoharmonica/story/0"
+        },
+        {
+          "id": "yt_frescoharmonica",
+          "name": "Fresco Harmonica Ensemble",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@FrescoHarmonica",
           "feedUrl": ""
         }
       ]
@@ -501,7 +643,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-27 08:24",
       "latestUpdateSource": "南里沙",
       "latestUpdateUrl": "https://www.instagram.com/p/DbRqyQYyhbF/",
-      "avatarUrl": "/assets/source-avatars/fdefacea4d8029e06564.webp",
+      "avatarUrl": "/assets/source-avatars/cf9c521a3489d5ec2267.webp",
       "sourceInitials": "南里",
       "sourceTags": [
         "演奏者",
@@ -828,81 +970,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "plashervouetband",
           "profileUrl": "https://www.instagram.com/plashervouetband/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/plashervouetband/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-33",
-      "publicId": "33",
-      "name": "黃冠誌",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
-      "structuredSummary": "天狼星/胖擊系/和弦口琴/重奏 / 和弦/重奏 / 演出人員",
-      "summary": "口琴演奏者，專長和弦口琴與重奏演出。",
-      "keywords": "黃冠誌 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/kuanchih/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hk91f06/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-26T16:01:53+00:00",
-      "latestUpdateLocal": "2026-07-27 00:01",
-      "latestUpdateSource": "黃冠誌",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3949874241876790391/",
-      "avatarUrl": "/assets/source-avatars/1c6e560eec687ecfbf6c.webp",
-      "sourceInitials": "黃冠",
-      "sourceTags": [
-        "演奏者",
-        "合奏",
-        "和弦",
-        "重奏",
-        "演出"
-      ],
-      "sourceSummary": "口琴演奏者，專長和弦口琴與重奏演出。",
-      "sourceTagReason": "來源明確標示為個人與演奏者，且專長涉及和弦、重奏與演出。",
-      "monitorSources": [
-        {
-          "id": "ig_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
-        },
-        {
-          "id": "yt_cbd128e3de",
-          "name": "黃冠誌",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
-          "feedUrl": ""
         }
       ]
     },
@@ -2858,7 +2925,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-26 16:30",
       "latestUpdateSource": "臺灣口琴音樂節 THMF",
       "latestUpdateUrl": "https://www.instagram.com/p/DbP9vjJE_TV/",
-      "avatarUrl": "/assets/source-avatars/9f90966dec429229a169.webp",
+      "avatarUrl": "/assets/source-avatars/3d6b8366a75c923a4d27.webp",
       "sourceInitials": "T",
       "sourceTags": [
         "活動資訊",
@@ -3802,73 +3869,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/aidennevelyn",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-121",
-      "publicId": "121",
-      "name": "Fresco Harmonica Ensemble",
-      "nameEn": "Fresco Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "馬來西亞世界冠軍口琴團/2006成立/國際巡演/教育推廣",
-      "structuredSummary": "馬來西亞世界冠軍口琴團/2006成立/國際巡演/教育推廣 / 口琴重奏 / 國際演出團體",
-      "summary": "馬來西亞的口琴重奏國際演出團體，活動脈絡包含馬來西亞世界冠軍口琴團、2006成立與國際巡演。",
-      "keywords": "Fresco Harmonica Ensemble harmonica Malaysia SIHF",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/frescoharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@FrescoHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-26T02:15:49+00:00",
-      "latestUpdateLocal": "2026-07-26 10:15",
-      "latestUpdateSource": "Fresco Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/stories/frescoharmonica/3949458494361000721/",
-      "avatarUrl": "/assets/source-avatars/1dd6664eade98f42e067.webp",
-      "sourceInitials": "FHE",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_frescoharmonica",
-          "name": "Fresco Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "frescoharmonica",
-          "profileUrl": "https://www.instagram.com/frescoharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_frescoharmonica",
-          "name": "Fresco Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "frescoharmonica",
-          "profileUrl": "https://www.instagram.com/frescoharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/frescoharmonica/story/0"
-        },
-        {
-          "id": "yt_frescoharmonica",
-          "name": "Fresco Harmonica Ensemble",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@FrescoHarmonica",
           "feedUrl": ""
         }
       ]
