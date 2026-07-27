@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
   "json": "https://harmonica.observe.tw/api/student-clubs.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/student-clubs.json",
-  "count": 129,
+  "count": 130,
   "items": [
     {
       "title": "國家兩廳院NTCH｜台新藝術獎得主🏆全新跨國共製舞作！李貞葳 ✕ 法庫亞．佐坦✕德國黑森州當代舞團《成為海洋》｜2026秋天藝術節 當極地的融冰化為地底暗流，人類的存在是否也隨之消融？ 台新藝術獎得主 LEE/VAKULYA 攜手德國黑森…",
@@ -140,6 +140,85 @@
         "學生社團"
       ],
       "key": "yt_ntcharts:9dZ1aNbo4rA"
+    },
+    {
+      "title": "張晁滕｜捷報🎉！昨天收到訊息，我的一位來自廣東的學生何梓韜在這次亞太口琴節獲得了亞太青少年組半音階獨奏冠軍🏆 恭喜！ 梓韜平時每兩週透過網課指導，一年大約只有寒暑假集訓營能夠面對面，音色方面還是得要面對面才有辦法感受，特別感謝平時有Sim…",
+      "headline": "捷報🎉！昨天收到訊息，我的一位來自廣東的學生何梓韜在這次亞太口琴節獲得了亞太青少年組半音階獨奏冠軍🏆 恭喜！",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DbRwnY9khXK/",
+      "source_id": "ig_chaotengchang",
+      "source": "張晁滕",
+      "source_system_name": "張晁滕",
+      "source_profile_url": "https://www.instagram.com/chaotengchang/",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-31",
+      "directory_entry_name": "張晁滕",
+      "account": "chaotengchang",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Mon, 27 Jul 2026 01:14:16 GMT",
+      "posted_at_local": "2026-07-27 09:14",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-27T05:11:48.765556+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/chaotengchang",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "比賽"
+      ],
+      "keyword_matches": [
+        "口琴"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.96,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "比賽"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴老師分享學生於亞太口琴節奪冠的公開更新，屬口琴比賽相關內容。",
+      "text": "捷報🎉！昨天收到訊息，我的一位來自廣東的學生何梓韜在這次亞太口琴節獲得了亞太青少年組半音階獨奏冠軍🏆 恭喜！\n梓韜平時每兩週透過網課指導，一年大約只有寒暑假集訓營能夠面對面，音色方面還是得要面對面才有辦法感受，特別感謝平時有Simon老師線下指導，也要感謝爸爸Jaymen的信任。\n#線上課#亞太口琴節#獨奏冠軍",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/756757618_18610416637014517_3875597408717242812_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=100&ig_cache_key=Mzk1MDE1MTg2MTQyODUzNDYyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=xi4AzVUmRJYQ7kNvwE1YkOj&_nc_oc=AdpoPX7xiNDb9dhFDYsgPSj88HTUdexriBFwA20AmX66ClI_w4XA7pw4avPbstGQe68&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=4T97qSHdo56qT-fP3Pa0CQ&_nc_ss=7a22e&oh=00_AQCIF3FY7U0cwZZErm6UiNQ-Dd8mJviBz8fpjedn82tIYQ&oe=6A6CAA41",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/756832944_18610416622014517_1582909100248183628_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzk1MDE1MTg2MTY1NTA0MDM3NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTI4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=kgWvQsMVp4oQ7kNvwGe-8-r&_nc_oc=AdodYJdvAbgQ0pw9LXlvh5aBkCpmsMg0hjfpf5o6MbjHI95jUcjyKv9iL9Au602MU4U&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=4T97qSHdo56qT-fP3Pa0CQ&_nc_ss=7a22e&oh=00_AQDelmpuJaT0Sfftdkh9FJ9Ln_mGwJti7tqirVArFr_wgA&oe=6A6CC6FE",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/757417197_18610416640014517_3409539603092262273_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=Mzk1MDE1MTg2NDA5NTg4MTcwOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTMyMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=9sPlTOd0JtgQ7kNvwEzd1hE&_nc_oc=Adr88lyxn8Zemn-7pLdLt-0H4qwrkOUp5T_yCrfDjuYjvbjmxBa-pSlJCiMtyQF5mBg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=4T97qSHdo56qT-fP3Pa0CQ&_nc_ss=7a22e&oh=00_AQBBhFlDzESsHaLRBKanYBISzfKO49As7SbEx4a01uawmA&oe=6A6CAE3F"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/756757618_18610416637014517_3875597408717242812_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=100&ig_cache_key=Mzk1MDE1MTg2MTQyODUzNDYyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=xi4AzVUmRJYQ7kNvwE1YkOj&_nc_oc=AdpoPX7xiNDb9dhFDYsgPSj88HTUdexriBFwA20AmX66ClI_w4XA7pw4avPbstGQe68&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=4T97qSHdo56qT-fP3Pa0CQ&_nc_ss=7a22e&oh=00_AQCIF3FY7U0cwZZErm6UiNQ-Dd8mJviBz8fpjedn82tIYQ&oe=6A6CAA41",
+      "image_url": "/assets/feed-images/e0561a458ee39606f168.webp",
+      "image_width": 800,
+      "image_height": 1067,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/482775715_1706058196672905_5793943258412973967_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gE8D1ogKEbtzqkG6PgftEsq6Dw7rR-yiH09WTKotRkzfTuZpi3R0QLtsPpDn9An4wE&_nc_ohc=Zkvdn2WKaSMQ7kNvwE3Vy6I&_nc_gid=HxrBhxlUlyplIyIeTmGY6A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQBG55580nZYSRCKbEIeS9zvQUiWYjd2R-2iaZ96C8zjzw&oe=6A6CC1E5&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/2a8c801f19dc8dd0d37c.webp",
+      "source_initials": "張晁",
+      "categories": [
+        "posts-videos",
+        "opportunities",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽",
+        "學生社團"
+      ],
+      "key": "ig_chaotengchang:https://www.instagram.com/p/DbRwnY9khXK/"
     },
     {
       "title": "臺灣口琴音樂節 Taiwan Harmonica Music Festival｜2026 臺灣口琴音樂節前導音樂會精彩落幕，感謝所有參與演出的團隊，以及到場支持的觀眾朋友們！ 本次前導活動不僅是 8 月臺灣口琴音樂節正式登場前的暖身，也希…",
