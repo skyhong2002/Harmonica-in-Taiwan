@@ -2,6 +2,56 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-27",
   "entries": [
     {
+      "id": "watchlist-40",
+      "publicId": "40",
+      "name": "陳鴻儀",
+      "nameEn": "Henry Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "演出/評審",
+      "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
+      "summary": "口琴演奏家，專注於演出與評審工作。",
+      "keywords": "陳鴻儀 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@HenrysHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-27T00:00:06+00:00",
+      "latestUpdateLocal": "2026-07-27 08:00",
+      "latestUpdateSource": "陳鴻儀",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=5JFiWuvVWv4",
+      "avatarUrl": "/assets/source-avatars/11010264a3489f5a5679.webp",
+      "sourceInitials": "陳鴻",
+      "sourceTags": [
+        "演奏者",
+        "演出"
+      ],
+      "sourceSummary": "口琴演奏家，專注於演出與評審工作。",
+      "sourceTagReason": "來源類別為「演奏者」，類型為「個人」，城市焦點為「演出/評審」，因此標記演奏者、口琴及演出。",
+      "monitorSources": [
+        {
+          "id": "yt_henrysharmonica",
+          "name": "陳鴻儀",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@HenrysHarmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-142",
       "publicId": "142",
       "name": "Howard Levy",
@@ -367,10 +417,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-07-26T15:45:20+00:00",
-      "latestUpdateLocal": "2026-07-26 23:45",
+      "latestUpdateAt": "2026-07-26T16:00:32+00:00",
+      "latestUpdateLocal": "2026-07-27 00:00",
       "latestUpdateSource": "Orchestra Hohnerklang",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hohnerklang/3949865837803336942/",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbQwiPjNod7/",
       "avatarUrl": "/assets/source-avatars/66c24423265964844869.webp",
       "sourceInitials": "OH",
       "sourceTags": [
@@ -759,6 +809,91 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@hokahkean1999",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-149",
+      "publicId": "149",
+      "name": "Liam Ward & Malcolm Thorne",
+      "nameEn": "Liam Ward & Malcolm Thorne",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體/合作企劃",
+      "country": "英國",
+      "region": "英國",
+      "cityOrFocus": "WHF 2025/藍調口琴/吉他合作/教學",
+      "structuredSummary": "WHF 2025/藍調口琴/吉他合作/教學 / 十孔/藍調口琴/吉他 / 國際演出團體/教育者",
+      "summary": "英國的十孔、藍調口琴與吉他國際演出團體與教育者，活動脈絡包含WHF 2025、吉他合作與教學。",
+      "keywords": "Liam Ward Malcolm Thorne LearnTheHarmonica liamwardmusic harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://learntheharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/learntheharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/liamwardmusic/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@learntheharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-26T13:00:20+00:00",
+      "latestUpdateLocal": "2026-07-26 21:00",
+      "latestUpdateSource": "Liam Ward & Malcolm Thorne",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbQcmrEk0id/",
+      "avatarUrl": "/assets/source-avatars/d89594f855a1ca55edfb.webp",
+      "sourceInitials": "LWM",
+      "sourceTags": [
+        "團體樂團",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_learntheharmonica",
+          "name": "Liam Ward & Malcolm Thorne",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/learntheharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_liamwardmusic",
+          "name": "Liam Ward & Malcolm Thorne",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "liamwardmusic",
+          "profileUrl": "https://www.instagram.com/liamwardmusic/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_liamwardmusic",
+          "name": "Liam Ward & Malcolm Thorne",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "liamwardmusic",
+          "profileUrl": "https://www.instagram.com/liamwardmusic/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/liamwardmusic/story/0"
+        },
+        {
+          "id": "yt_learntheharmonica",
+          "name": "Liam Ward & Malcolm Thorne",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@learntheharmonica",
           "feedUrl": ""
         }
       ]
@@ -1215,10 +1350,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-07-26T11:45:49+00:00",
-      "latestUpdateLocal": "2026-07-26 19:45",
+      "latestUpdateAt": "2026-07-26T11:46:19+00:00",
+      "latestUpdateLocal": "2026-07-26 19:46",
       "latestUpdateSource": "IniXial Harmonica Ensemble 源創口琴樂團",
-      "latestUpdateUrl": "https://www.threads.com/t/DbQUF87iUQO",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbQT71EPd-f/",
       "avatarUrl": "/assets/source-avatars/2973a6fd1da84a605c30.webp",
       "sourceInitials": "IHE",
       "sourceTags": [
@@ -5139,56 +5274,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-40",
-      "publicId": "40",
-      "name": "陳鴻儀",
-      "nameEn": "Henry Chen",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "演出/評審",
-      "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
-      "summary": "口琴演奏家，專注於演出與評審工作。",
-      "keywords": "陳鴻儀 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@HenrysHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-25T00:00:06+00:00",
-      "latestUpdateLocal": "2026-07-25 08:00",
-      "latestUpdateSource": "陳鴻儀",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=FXwHZeNgUKc",
-      "avatarUrl": "/assets/source-avatars/11010264a3489f5a5679.webp",
-      "sourceInitials": "陳鴻",
-      "sourceTags": [
-        "演奏者",
-        "演出"
-      ],
-      "sourceSummary": "口琴演奏家，專注於演出與評審工作。",
-      "sourceTagReason": "來源類別為「演奏者」，類型為「個人」，城市焦點為「演出/評審」，因此標記演奏者、口琴及演出。",
-      "monitorSources": [
-        {
-          "id": "yt_henrysharmonica",
-          "name": "陳鴻儀",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@HenrysHarmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-68",
       "publicId": "68",
       "name": "Gordon Lee 李俊樂",
@@ -6848,91 +6933,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@NUSHO",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-149",
-      "publicId": "149",
-      "name": "Liam Ward & Malcolm Thorne",
-      "nameEn": "Liam Ward & Malcolm Thorne",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體/合作企劃",
-      "country": "英國",
-      "region": "英國",
-      "cityOrFocus": "WHF 2025/藍調口琴/吉他合作/教學",
-      "structuredSummary": "WHF 2025/藍調口琴/吉他合作/教學 / 十孔/藍調口琴/吉他 / 國際演出團體/教育者",
-      "summary": "英國的十孔、藍調口琴與吉他國際演出團體與教育者，活動脈絡包含WHF 2025、吉他合作與教學。",
-      "keywords": "Liam Ward Malcolm Thorne LearnTheHarmonica liamwardmusic harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://learntheharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/learntheharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/liamwardmusic/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@learntheharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-21T12:15:03+00:00",
-      "latestUpdateLocal": "2026-07-21 20:15",
-      "latestUpdateSource": "Liam Ward & Malcolm Thorne",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbDfY3XDc77/",
-      "avatarUrl": "/assets/source-avatars/d89594f855a1ca55edfb.webp",
-      "sourceInitials": "LWM",
-      "sourceTags": [
-        "團體樂團",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_learntheharmonica",
-          "name": "Liam Ward & Malcolm Thorne",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/learntheharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_liamwardmusic",
-          "name": "Liam Ward & Malcolm Thorne",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "liamwardmusic",
-          "profileUrl": "https://www.instagram.com/liamwardmusic/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_liamwardmusic",
-          "name": "Liam Ward & Malcolm Thorne",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "liamwardmusic",
-          "profileUrl": "https://www.instagram.com/liamwardmusic/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/liamwardmusic/story/0"
-        },
-        {
-          "id": "yt_learntheharmonica",
-          "name": "Liam Ward & Malcolm Thorne",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@learntheharmonica",
           "feedUrl": ""
         }
       ]
