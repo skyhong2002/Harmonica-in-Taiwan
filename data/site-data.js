@@ -2,6 +2,177 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-28",
   "entries": [
     {
+      "id": "watchlist-142",
+      "publicId": "142",
+      "name": "Howard Levy",
+      "nameEn": "Howard Levy",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "美國",
+      "region": "美國",
+      "cityOrFocus": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興",
+      "structuredSummary": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興 / 半音階/十孔/鋼琴 / 國際演出人員/作曲者/教育者",
+      "summary": "美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。",
+      "keywords": "Howard Levy harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://levyland.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HowardLevyFanPage/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/howardlevyland/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-27T19:26:49+00:00",
+      "latestUpdateLocal": "2026-07-28 03:26",
+      "latestUpdateSource": "Howard Levy",
+      "latestUpdateUrl": "https://www.instagram.com/stories/howardlevyland/3950702084376258412/",
+      "avatarUrl": "/assets/source-avatars/fdb08c71103b5e8ceb5b.webp",
+      "sourceInitials": "HL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_howardlevyfanpage",
+          "name": "Howard Levy",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HowardLevyFanPage",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_howardlevyland",
+          "name": "Howard Levy",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "howardlevyland",
+          "profileUrl": "https://www.instagram.com/howardlevyland/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_howardlevyland",
+          "name": "Howard Levy",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "howardlevyland",
+          "profileUrl": "https://www.instagram.com/howardlevyland/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/howardlevyland/story/0"
+        },
+        {
+          "id": "yt_uc86aeg8s_npzmfuj_cyxw",
+          "name": "Howard Levy",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-55",
+      "publicId": "55",
+      "name": "梁承熹 Kelvin Leung",
+      "nameEn": "Kelvin Leung",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "THMF交流/演出",
+      "structuredSummary": "THMF交流/演出 / 半音階 / 國際演出人員",
+      "summary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
+      "keywords": "梁承熹 Kelvin Leung harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica-kelvin.weebly.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kelvinleungsh/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sorhei/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@KelvinLeungharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-27T17:07:54+00:00",
+      "latestUpdateLocal": "2026-07-28 01:07",
+      "latestUpdateSource": "梁承熹 Kelvin Leung",
+      "latestUpdateUrl": "https://www.instagram.com/stories/sorhei/3950632164584364231/",
+      "avatarUrl": "/assets/source-avatars/0c9e9143d106ffe600b5.webp",
+      "sourceInitials": "KL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "sourceSummary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
+      "sourceTagReason": "來源明確標示為『演奏者』，類型為『個人』，區域為『香港』，摘要提及『THMF交流/演出』與『半音階』。",
+      "monitorSources": [
+        {
+          "id": "fb_kelvinleungsh",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/kelvinleungsh",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sorhei",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sorhei",
+          "profileUrl": "https://www.instagram.com/sorhei/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sorhei",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sorhei",
+          "profileUrl": "https://www.instagram.com/sorhei/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sorhei/story/0"
+        },
+        {
+          "id": "yt_kelvinleungharmonica",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@KelvinLeungharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-4",
       "publicId": "4",
       "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
@@ -2274,91 +2445,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-142",
-      "publicId": "142",
-      "name": "Howard Levy",
-      "nameEn": "Howard Levy",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "美國",
-      "region": "美國",
-      "cityOrFocus": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興",
-      "structuredSummary": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興 / 半音階/十孔/鋼琴 / 國際演出人員/作曲者/教育者",
-      "summary": "美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。",
-      "keywords": "Howard Levy harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://levyland.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HowardLevyFanPage/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/howardlevyland/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-27T02:17:07+00:00",
-      "latestUpdateLocal": "2026-07-27 10:17",
-      "latestUpdateSource": "Howard Levy",
-      "latestUpdateUrl": "https://www.instagram.com/stories/howardlevyland/3950183818399443670/",
-      "avatarUrl": "/assets/source-avatars/fdb08c71103b5e8ceb5b.webp",
-      "sourceInitials": "HL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_howardlevyfanpage",
-          "name": "Howard Levy",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HowardLevyFanPage",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_howardlevyland",
-          "name": "Howard Levy",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "howardlevyland",
-          "profileUrl": "https://www.instagram.com/howardlevyland/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_howardlevyland",
-          "name": "Howard Levy",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "howardlevyland",
-          "profileUrl": "https://www.instagram.com/howardlevyland/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/howardlevyland/story/0"
-        },
-        {
-          "id": "yt_uc86aeg8s_npzmfuj_cyxw",
-          "name": "Howard Levy",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-78",
       "publicId": "78",
       "name": "衛武營國家藝術文化中心",
@@ -3817,92 +3903,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@RedBricksHarmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-55",
-      "publicId": "55",
-      "name": "梁承熹 Kelvin Leung",
-      "nameEn": "Kelvin Leung",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "THMF交流/演出",
-      "structuredSummary": "THMF交流/演出 / 半音階 / 國際演出人員",
-      "summary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
-      "keywords": "梁承熹 Kelvin Leung harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica-kelvin.weebly.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/kelvinleungsh/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/sorhei/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@KelvinLeungharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-26T10:08:12+00:00",
-      "latestUpdateLocal": "2026-07-26 18:08",
-      "latestUpdateSource": "梁承熹 Kelvin Leung",
-      "latestUpdateUrl": "https://www.instagram.com/stories/sorhei/3949696143545935188/",
-      "avatarUrl": "/assets/source-avatars/0c9e9143d106ffe600b5.webp",
-      "sourceInitials": "KL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "sourceSummary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
-      "sourceTagReason": "來源明確標示為『演奏者』，類型為『個人』，區域為『香港』，摘要提及『THMF交流/演出』與『半音階』。",
-      "monitorSources": [
-        {
-          "id": "fb_kelvinleungsh",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/kelvinleungsh",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_sorhei",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "sorhei",
-          "profileUrl": "https://www.instagram.com/sorhei/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_sorhei",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "sorhei",
-          "profileUrl": "https://www.instagram.com/sorhei/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sorhei/story/0"
-        },
-        {
-          "id": "yt_kelvinleungharmonica",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@KelvinLeungharmonica",
           "feedUrl": ""
         }
       ]
