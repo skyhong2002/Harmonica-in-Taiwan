@@ -2424,6 +2424,89 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-154",
+      "publicId": "154",
+      "name": "Orchestra Hohnerklang",
+      "nameEn": "Orchester Hohnerklang",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "德國",
+      "region": "德國/特羅辛根",
+      "cityOrFocus": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏",
+      "structuredSummary": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏 / 口琴合奏 / 國際演出團體",
+      "summary": "德國的口琴合奏國際演出團體，活動脈絡包含WHF 2025開幕、HOHNER orchestral harmonica tradition與大型合奏。",
+      "keywords": "Orchester Hohnerklang Orchestra Hohnerklang harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hohnerklang.de/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hohnerklang"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hohnerklang"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/hohnerklang"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-26T20:24:53+00:00",
+      "latestUpdateLocal": "2026-07-27 04:24",
+      "latestUpdateSource": "Orchestra Hohnerklang",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hohnerklang/3950006528346276695/",
+      "avatarUrl": "/assets/source-avatars/66c24423265964844869.webp",
+      "sourceInitials": "OH",
+      "sourceTags": [
+        "團體樂團",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hohnerklang",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hohnerklang",
+          "profileUrl": "https://www.instagram.com/hohnerklang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hohnerklang",
+          "profileUrl": "https://www.instagram.com/hohnerklang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerklang/story/0"
+        },
+        {
+          "id": "yt_hohnerklang",
+          "name": "Orchestra Hohnerklang",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/hohnerklang",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-151",
       "publicId": "151",
       "name": "Rachelle Plas & Philippe Hervouet",
@@ -2491,89 +2574,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "plashervouetband",
           "profileUrl": "https://www.instagram.com/plashervouetband/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/plashervouetband/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-154",
-      "publicId": "154",
-      "name": "Orchestra Hohnerklang",
-      "nameEn": "Orchester Hohnerklang",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "德國",
-      "region": "德國/特羅辛根",
-      "cityOrFocus": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏",
-      "structuredSummary": "WHF 2025開幕/HOHNER orchestral harmonica tradition/大型合奏 / 口琴合奏 / 國際演出團體",
-      "summary": "德國的口琴合奏國際演出團體，活動脈絡包含WHF 2025開幕、HOHNER orchestral harmonica tradition與大型合奏。",
-      "keywords": "Orchester Hohnerklang Orchestra Hohnerklang harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://hohnerklang.de/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hohnerklang"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hohnerklang"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/hohnerklang"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-26T16:00:32+00:00",
-      "latestUpdateLocal": "2026-07-27 00:00",
-      "latestUpdateSource": "Orchestra Hohnerklang",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbQwiPjNod7/",
-      "avatarUrl": "/assets/source-avatars/66c24423265964844869.webp",
-      "sourceInitials": "OH",
-      "sourceTags": [
-        "團體樂團",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hohnerklang",
-          "name": "Orchestra Hohnerklang",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hohnerklang",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hohnerklang",
-          "name": "Orchestra Hohnerklang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hohnerklang",
-          "profileUrl": "https://www.instagram.com/hohnerklang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hohnerklang",
-          "name": "Orchestra Hohnerklang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hohnerklang",
-          "profileUrl": "https://www.instagram.com/hohnerklang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerklang/story/0"
-        },
-        {
-          "id": "yt_hohnerklang",
-          "name": "Orchestra Hohnerklang",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/hohnerklang",
-          "feedUrl": ""
         }
       ]
     },
