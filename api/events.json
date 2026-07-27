@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 493,
+  "count": 494,
   "items": [
     {
       "title": "就是吹口琴 陳鴻儀Henry’s Harmonica｜【就是吹口琴Just Play Harmonica 】｜第九月台組曲《1.故鄉之戀 2.風鈴聲 3.第九月台》｜複音口琴Tremolo Harmonica 演奏版本《C調》 第九月台組…",
@@ -1067,6 +1067,79 @@
         "學生社團"
       ],
       "key": "yt_chaotengchang:C_afZGaDtjc"
+    },
+    {
+      "title": "Cy Leo｜Rising Tide - Jahari Stampley & Cy Leo Had an impromptu session at home with the great Jahari Stampley on his or…",
+      "headline": "Rising Tide - Jahari Stampley & Cy Leo",
+      "display_title": "Rising Tide - Jahari Stampley & Cy Leo",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=KvkxUn4-hac",
+      "source_id": "yt_cyleoharmonica",
+      "source": "Cy Leo",
+      "source_system_name": "CY Leo 何卓彥",
+      "source_profile_url": "https://www.youtube.com/channel/UCpvusy6XzL5Blx_wE9dmzKA",
+      "country": "香港",
+      "region": "香港",
+      "directory_entry_id": "watchlist-54",
+      "directory_entry_name": "CY Leo 何卓彥",
+      "account": "https://www.youtube.com/channel/UCpvusy6XzL5Blx_wE9dmzKA",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-07-26T02:27:29+00:00",
+      "posted_at_local": "2026-07-26 10:27",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-27T00:50:39.592526+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "影片"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.93,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "CY Leo公開演奏影片，內容為口琴演出/即興合奏，屬口琴演奏者公開更新。",
+      "text": "Rising Tide - Jahari Stampley & Cy Leo\nHad an impromptu session at home with the great Jahari Stampley on his original Rising Tide",
+      "images": [
+        "https://i.ytimg.com/vi/KvkxUn4-hac/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/KvkxUn4-hac/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/c88cf7a45317be22e049.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_kh6Ku-Pxv1VxvjLejjXLO5u1Ah9_F2pAGZPP5UhuwrfCw=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/1ac686448d46e505db14.webp",
+      "source_initials": "CL",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "yt_cyleoharmonica:KvkxUn4-hac"
     },
     {
       "title": "南里沙 / Risa MINAMI｜🎶アジア大会 2日目・3日目🎶 2日目・3日目は、クロマチックハーモニカ ソロ【ジュニア】【オープン】【シニア】部門の予選審査をさせていただきました。 なんと、【ジュニアの部】だけで171名が予選に出場…",
