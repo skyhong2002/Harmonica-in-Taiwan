@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 495,
+  "count": 494,
   "items": [
     {
       "title": "南里沙 / Risa MINAMI｜アジア太平洋ハーモニカ大会2026・閉会式 | クロマチックハーモニカ 南里沙オフィシャルブログ... https://ameblo.jp/risa-harmonica/entry-1297397736…",
@@ -38319,77 +38319,6 @@
         "公開活動"
       ],
       "key": "ig_story_cy_leo:3928898026245066342_176114239"
-    },
-    {
-      "title": "Yellow Pine Harmonica Festival｜Harmonica Festival Family!!!! Are you getting excited??? We're a few short weeks away...…",
-      "headline": "Harmonica Festival Family!!!! Are you getting excited??? We're a few short weeks away... get HYPED UP and ready by visi…",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.facebook.com/YellowPineHarmonicaFestival/posts/pfbid0s95JmA3HnVwujcapuYXoZfrMbEdiJQdJHMde7fQx3zXjNzySbcTn3Ei8SAPUNy1xl",
-      "source_id": "fb_yellowpineharmonicafestival",
-      "source": "Yellow Pine Harmonica Festival",
-      "source_system_name": "Yellow Pine Harmonica Festival",
-      "source_profile_url": "https://facebook.com/YellowPineHarmonicaFestival",
-      "country": "美國",
-      "region": "美國/愛達荷",
-      "directory_entry_id": "watchlist-174",
-      "directory_entry_name": "Yellow Pine Harmonica Festival",
-      "account": "YellowPineHarmonicaFestival",
-      "platform": "facebook",
-      "platform_label": "Facebook",
-      "posted_at": "2026-06-27T16:00:07.000Z",
-      "posted_at_local": "2026-06-28 00:00",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-06-28T17:04:39.556709+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "音樂會"
-      ],
-      "keyword_matches": [
-        "harmonica"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.9,
-      "llm_labels": [
-        "口琴",
-        "音樂會"
-      ],
-      "llm_categories": [
-        "events"
-      ],
-      "llm_reason": "貼文提及「Harmonica Festival」，為口琴音樂節的宣傳，屬於口琴演出與音樂會相關活動。",
-      "text": "Harmonica Festival Family!!!! Are you getting excited??? We're a few short weeks away... get HYPED UP and ready by visiting our Musician's Social Media Pages to get a sneak peek of what's to come at this year's Festival!!! See you July 30th, 31st, and August 1st in Yellow Pine Idaho!!!\nGary Tackett & Full Moon Rude\n@hudson_powder_co\nAlmost Famous Band\nDOZEY Dubs\nMuddy Boots and the Porch Pounders\n@vibekaamadormusic\nCoel Harris & The Valkories\nTurtle Poppers\nHalf Fast Hillbillies\nCattleAx\n@brooksherringmusic\n@moodyjewsboise\n@clayne.zollinger\nPaddywagon (County Blaine)\nSpike Coggins music\nSide Hustle\nWest of Ustick\nHigh Country Music\nBlackwaterdan Guitars O'Brien\nThe Kap Brothers Band",
-      "images": [],
-      "videos": [],
-      "source_image_url": "",
-      "image_url": "",
-      "image_width": null,
-      "image_height": null,
-      "source_avatar_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/488459367_984147080582223_6369034247251819963_n.jpg?stp=c83.83.334.334a_cp0_dst-jpg_tt6&cstp=mx334x334&ctp=s50x50&_nc_cat=100&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=hSQszhrNYn8Q7kNvwHGdmz1&_nc_oc=AdpKDyYMQg6QmHaNWjrRdHf5jtZYrcB5UAsY35EggfhpdH_IvFkmc-K-fH54l1cDEQo&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=AYo_xJ6H9XAalkU_gUwHFA&_nc_ss=72289&oh=00_Af_xkTKypewjxMgSBj4xX61Sr8vDiHSDGogWhECYyGrUYQ&oe=6A4718D3",
-      "avatar_url": "/assets/source-avatars/cce289ff9e4d63e2b2ae.webp",
-      "source_initials": "YPH",
-      "categories": [
-        "posts-videos",
-        "events"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動"
-      ],
-      "key": "fb_yellowpineharmonicafestival:1347148597615401"
     }
   ]
 }

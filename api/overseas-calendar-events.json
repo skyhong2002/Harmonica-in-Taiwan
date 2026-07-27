@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T23:07:45+08:00",
+  "generatedAt": "2026-07-28T00:13:29+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
-  "count": 10,
+  "count": 7,
   "source": "/api/events.json",
   "ics": "/feeds/overseas-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,119 +15,11 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 44,
+      "cached": 27,
       "errors": 0
     }
   },
   "events": [
-    {
-      "id": "550fae93b1d128f3",
-      "title": "第十五屆亞太口琴節",
-      "eventName": "第十五屆亞太口琴節",
-      "source": "Judy’s Harmonica Ensemble 茱蒂口琴樂團",
-      "platform": "instagram",
-      "start": "2026-07-25",
-      "end": "2026-07-26",
-      "allDay": true,
-      "calendarType": "overseas_physical",
-      "timezone": "Asia/Shanghai",
-      "location": "中國無錫",
-      "venue": "中國無錫",
-      "city": "無錫",
-      "details": "茱蒂口琴樂團受邀擔任嘉賓，將於 7/24–7/28 參與亞太口琴節，並提到 7/25 的《亞太和聲——重奏專場音樂會》演出。貼文內容顯示活動地點在中國無錫，屬實體口琴活動。",
-      "evidenceUrl": "https://www.instagram.com/p/Dazq2m9RZfu/",
-      "confidence": 0.95,
-      "calendarReview": {
-        "include": true,
-        "country": "中國",
-        "eventMode": "overseas_physical",
-        "timezone": "Asia/Shanghai",
-        "candidateDateMatches": true,
-        "eventName": "第十五屆亞太口琴節",
-        "venue": "中國無錫",
-        "city": "無錫",
-        "details": "茱蒂口琴樂團受邀擔任嘉賓，將於 7/24–7/28 參與亞太口琴節，並提到 7/25 的《亞太和聲——重奏專場音樂會》演出。貼文內容顯示活動地點在中國無錫，屬實體口琴活動。",
-        "reason": "候選日期 7/25 與貼文明確提到的活動日期一致，且為中國無錫舉辦的實體口琴節活動。",
-        "confidence": 0.95
-      },
-      "postedAt": "2026-07-15 16:48",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/748954473_18016624304880937_1360289888685038641_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzk0MTY4MjU2OTUxNDY4NjQ0Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTAzMS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=YTJC9LXSviUQ7kNvwGEUKA7&_nc_oc=AdqMvv48l3HwGwgjO6qiesKPzOCMavMgFjc4ibGm8biyEV01K4u9_TzWWq2TdTDYEaU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=u5MvoUGUVMzs0AR_ZNTWcA&_nc_ss=7a22e&oh=00_AQDlxyq9gRL4j6FTpIJ8SdPwMpZvCJlLV3dlAvCtE7BT5Q&oe=6A5D5FC8"
-      ],
-      "image_url": "/assets/feed-images/92d3e4aed818e3e37e10.webp"
-    },
-    {
-      "id": "8a0b1756ef821535",
-      "title": "10周年記念コンサート 大阪公演",
-      "eventName": "10周年記念コンサート 大阪公演",
-      "source": "山下伶 / Rei Yamashita",
-      "platform": "instagram",
-      "start": "2026-07-25T15:30:00+09:00",
-      "end": "2026-07-25T17:30:00+09:00",
-      "allDay": false,
-      "calendarType": "overseas_physical",
-      "timezone": "Asia/Tokyo",
-      "location": "大阪 心斎橋PARCO 14F SPACE14",
-      "venue": "心斎橋PARCO 14F SPACE14",
-      "city": "大阪",
-      "details": "7月25日(土) 開場15:30 / 開演16:00，票價6,500円（全席指定）。ゲスト為徳永延生・徳永有生，メンバー為森丘ヒロキ、岡田治郎、福長雅夫。",
-      "evidenceUrl": "https://www.instagram.com/p/Da_1_YIT0zi/",
-      "confidence": 0.98,
-      "calendarReview": {
-        "include": true,
-        "country": "日本",
-        "eventMode": "overseas_physical",
-        "timezone": "Asia/Tokyo",
-        "candidateDateMatches": true,
-        "eventName": "10周年記念コンサート 大阪公演",
-        "venue": "心斎橋PARCO 14F SPACE14",
-        "city": "大阪",
-        "details": "7月25日(土) 開場15:30 / 開演16:00，票價6,500円（全席指定）。ゲスト為徳永延生・徳永有生，メンバー為森丘ヒロキ、岡田治郎、福長雅夫。",
-        "reason": "候選日期與大阪公演時間一致，為日本實體口琴演出，符合收錄範圍。",
-        "confidence": 0.98
-      },
-      "postedAt": "2026-07-20 10:18",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/752609789_1670470004061580_2473922027819087496_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=Mzk0NTEwOTI1MDMwMTE4NTI1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=kty3lehbIZEQ7kNvwHf8oEB&_nc_oc=Adpt8fKl9z4i-utB__MtyaYvextQbbh_2wfHj25xdqubwt6zB3nqIE2HxJHS6FSx-zY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=hKCroBSRlof1I7AYbegNyQ&_nc_ss=7a22e&oh=00_AQC-MQUQcMd291MV_Z27oTHqVeTEMWPZst5q0sB3U_o4NA&oe=6A63C710"
-      ],
-      "image_url": "/assets/feed-images/88ddfcd46d5f0c6a6067.webp"
-    },
-    {
-      "id": "62997c2a208c15e1",
-      "title": "簧鸣世界 口琴大师音乐会",
-      "eventName": "簧鸣世界 口琴大师音乐会",
-      "source": "Aiden Soon",
-      "platform": "instagram",
-      "start": "2026-07-25T07:30:00+08:00",
-      "end": "2026-07-25T09:30:00+08:00",
-      "allDay": false,
-      "calendarType": "overseas_physical",
-      "timezone": "Asia/Shanghai",
-      "location": "中國江蘇",
-      "venue": "中國江蘇",
-      "city": "江蘇",
-      "details": "2026第15届亚太口琴艺术周活動之一，公告列出 7月25日晚上7:30 舉行。貼文同時還提到其他日期的演出與講座，但本候選對應的是這場音樂會。",
-      "evidenceUrl": "https://www.instagram.com/p/Da5K-JKsXVq/",
-      "confidence": 0.95,
-      "calendarReview": {
-        "include": true,
-        "country": "中國",
-        "eventMode": "overseas_physical",
-        "timezone": "Asia/Shanghai",
-        "candidateDateMatches": true,
-        "eventName": "簧鸣世界 口琴大师音乐会",
-        "venue": "中國江蘇",
-        "city": "江蘇",
-        "details": "2026第15届亚太口琴艺术周活動之一，公告列出 7月25日晚上7:30 舉行。貼文同時還提到其他日期的演出與講座，但本候選對應的是這場音樂會。",
-        "reason": "候選時間與貼文中 7月25日晚上7:30 的活動一致，且為中國江蘇的實體口琴活動，符合收錄範圍。",
-        "confidence": 0.95
-      },
-      "postedAt": "2026-07-17 20:15",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/750085064_18480227572098644_8938972431904224669_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=101&ig_cache_key=Mzk0MzIzMTE5OTY1NTMyNzA4Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNDA5Ni5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=sUTAUZNXFZIQ7kNvwGa3ys-&_nc_oc=AdpQ72_SkDyPYzTo5cr6hw3r8YQly3QyRHh-YBcv3sN4JaLe6YQ2VUPzUlkEq-6kAiM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=n7384c6J-T3PU9krpp0MNw&_nc_ss=7a22e&oh=00_AQBEANoOTBoczu9d-uGf1pP5eOEcoqhnEwpCyLGwQIfF6A&oe=6A600E07"
-      ],
-      "image_url": "/assets/feed-images/b02de8639e1ec34f713d.webp"
-    },
     {
       "id": "271f57cf1189c0c1",
       "title": "亞太芳華音樂會",

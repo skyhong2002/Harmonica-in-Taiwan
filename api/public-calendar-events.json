@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-07-27T23:07:45+08:00",
+  "generatedAt": "2026-07-28T00:13:29+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 10,
+  "count": 8,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 44,
+      "cached": 27,
       "errors": 0
     }
   },
@@ -55,78 +55,6 @@
         "https://scontent.ffar2-1.fna.fbcdn.net/v/t39.30808-6/735317499_1034756378931421_5947744582797300780_n.jpg?stp=dst-jpg_tt6&cstp=mx1100x492&ctp=s1100x492&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=R-xoDCbeJIkQ7kNvwFAiL1y&_nc_oc=Adohuo57pievfv5k3Q1Xu4HhbwMCs2nmAXzd2wdC2gZOrelXKOTMNujjshWpcieeJ7Q&_nc_zt=23&_nc_ht=scontent.ffar2-1.fna&_nc_gid=aJVyHrXM02x2EhXODrv9kg&_nc_ss=72289&oh=00_AQDFvsyVbBbDLvMD9cnKGUMMQuVHZcsNC0SvUy6BeLZWmA&oe=6A4B0954"
       ],
       "image_url": "/assets/feed-images/ab515c44a5d476022d4a.webp"
-    },
-    {
-      "id": "3d5cf0e0c563d733",
-      "title": "琴境旅程",
-      "eventName": "琴境旅程",
-      "source": "御風裕豐 Lin, Yu-Feng",
-      "platform": "instagram",
-      "start": "2026-07-25",
-      "end": "2026-07-26",
-      "allDay": true,
-      "calendarType": "taiwan_physical",
-      "timezone": "Asia/Taipei",
-      "location": "臺北市大安區 黃石樂器 Case 展演空間",
-      "venue": "黃石樂器 Case 展演空間",
-      "city": "臺北市大安區",
-      "details": "十孔口琴學生音樂會，將演出爵士、藍調、歐洲民謠與流行歌曲。免費入場，座位有限，需訊息報名人數，7/25（週六）14:00進場、14:30開始。",
-      "evidenceUrl": "https://www.instagram.com/p/Da5LI_YE6-y/",
-      "confidence": 0.98,
-      "calendarReview": {
-        "include": true,
-        "country": "臺灣",
-        "eventMode": "taiwan_physical",
-        "timezone": "Asia/Taipei",
-        "candidateDateMatches": true,
-        "eventName": "琴境旅程",
-        "venue": "黃石樂器 Case 展演空間",
-        "city": "臺北市大安區",
-        "details": "十孔口琴學生音樂會，將演出爵士、藍調、歐洲民謠與流行歌曲。免費入場，座位有限，需訊息報名人數，7/25（週六）14:00進場、14:30開始。",
-        "reason": "貼文明確寫出 7/25 舉辦的實體學生音樂會，地點在臺北市，符合臺灣口琴公開活動收錄範圍。",
-        "confidence": 0.98
-      },
-      "postedAt": "2026-07-17 22:58",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/749848220_18092818733578408_6495520650206866080_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk0MzIzMTk0NTA1NjY5NDE5NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=0SaLTGAVJR8Q7kNvwFICTK5&_nc_oc=AdrYugC5unKNpAENaTXcR2wjjHNdDqVh0PzkxFh06Q601wWkodAwpKmOntTWsNcQGXc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=fhpwvTfYFhJUMYmz9a_TUg&_nc_ss=7a22e&oh=00_AQC3TIKb6uq6UDDQdO3WKVrn_UH94AMg9VDTITNpfl0FGw&oe=6A608503"
-      ],
-      "image_url": "/assets/feed-images/b67c71032122735a6b3c.webp"
-    },
-    {
-      "id": "8eb9e9dcc78af9d8",
-      "title": "2026 臺灣口琴音樂節：前導音樂會",
-      "eventName": "2026 臺灣口琴音樂節：前導音樂會",
-      "source": "臺灣口琴音樂節 THMF",
-      "platform": "facebook",
-      "start": "2026-07-25T14:00:00+08:00",
-      "end": "2026-07-25T16:00:00+08:00",
-      "allDay": false,
-      "calendarType": "taiwan_physical",
-      "timezone": "Asia/Taipei",
-      "location": "新竹縣竹東鎮 竹東親愛愛樂音樂巷-音樂廳",
-      "venue": "竹東親愛愛樂音樂巷-音樂廳",
-      "city": "新竹縣竹東鎮",
-      "details": "邀請 Do Not Disturb、Attack on Harmonica、Triangle Harmonica Ensemble 三組新生代口琴重奏團體演出。活動免費參與，限額 65 位觀眾，需線上報名。",
-      "evidenceUrl": "https://www.facebook.com/twharmonica/posts/pfbid0vmeJzV5bBsNuLFRZsgZPxaZ8kqhtazfFr6piC9hvTALzBnpAPDoXEmH8bkXGZEBfl",
-      "confidence": 0.98,
-      "calendarReview": {
-        "include": true,
-        "country": "臺灣",
-        "eventMode": "taiwan_physical",
-        "timezone": "Asia/Taipei",
-        "candidateDateMatches": true,
-        "eventName": "2026 臺灣口琴音樂節：前導音樂會",
-        "venue": "竹東親愛愛樂音樂巷-音樂廳",
-        "city": "新竹縣竹東鎮",
-        "details": "邀請 Do Not Disturb、Attack on Harmonica、Triangle Harmonica Ensemble 三組新生代口琴重奏團體演出。活動免費參與，限額 65 位觀眾，需線上報名。",
-        "reason": "候選日期 2026/07/25 14:00 與貼文中的前導音樂會時間一致，且地點在新竹縣竹東鎮，屬臺灣實體口琴活動。",
-        "confidence": 0.98
-      },
-      "postedAt": "2026-07-14 14:27",
-      "images": [
-        "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-6/745623475_1045445294529196_1959409607695854332_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1456&ctp=s720x720&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=NA-DQfOPAZcQ7kNvwHcu3pU&_nc_oc=AdpRU2jr9ZoG-36cz0Wib5A8vjuZoW4BBfUQ_ZskRRzrWfPggcSwqYZsZmTo7puXxA0&_nc_zt=23&_nc_ht=scontent-dfw6-2.xx&_nc_gid=P0SKbVpNnV7M6fEv-oOBZQ&_nc_ss=72289&oh=00_AQCjtt9YH3A1raff2K-Ko6wPGhT1MmIA2yNFsJd5m8jRXA&oe=6A634D05"
-      ],
-      "image_url": "/assets/feed-images/d2745d25353cd580782d.webp"
     },
     {
       "id": "c635fbb4c2d1e633",
