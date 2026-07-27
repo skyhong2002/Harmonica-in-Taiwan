@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-27T18:56:46.596828Z",
+  "generatedAt": "2026-07-27T20:03:53.289708Z",
   "source": {
     "id": 154,
     "slug": "orchester-hohnerklang",
@@ -9,13 +9,13 @@
   },
   "items": [
     {
-      "id": "post-60c846e9f33aeb6a53ac8b8a",
+      "id": "post-c881bcca2b3348ddde2ca5cd",
       "title": "Das war die Mundharmonika-Stadtmeisterschaft 2026 🎶🏆",
       "excerpt": "Das war die Mundharmonika-Stadtmeisterschaft 2026 🎶🏆 #vereinsarbeit #jugendarbeit #hohnerklang #mundharmonika",
-      "url": "https://www.instagram.com/p/DbQwiPjNod7/",
+      "url": "https://www.facebook.com/reel/1714315993194538/",
       "sourceName": "Orchestra Hohnerklang",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-26T16:00:32Z"
+      "platform": "Facebook",
+      "publishedAt": "2026-07-26T16:00:45Z"
     },
     {
       "id": "post-5bd1e819710adde1f26d9f5a",
@@ -25,6 +25,24 @@
       "sourceName": "Orchestra Hohnerklang",
       "platform": "Instagram",
       "publishedAt": "2026-07-26T15:21:26Z"
+    },
+    {
+      "id": "post-87f3a1fcb266751beb18199d",
+      "title": "Wir gratulieren allen Wettbewerbsteilnehmern zu ihren hervorragenden Ergebnissen.",
+      "excerpt": "Wir gratulieren allen Wettbewerbsteilnehmern zu ihren hervorragenden Ergebnissen. Trossinger Stadtmeisterin 2026 ist Emma Viel, die mit ihrem Titel Czardas-Intermezzo in der Kategorie 2 insgesamt 40,5 Punkte und das Prädikat ausgezeichnet erreichte. Grundschulstadtmeisterin 2026…",
+      "url": "https://www.facebook.com/hohnerklang/posts/pfbid02KvoU8bgdoxKRs7t1BgHNGQ5E3uyuRbLTm7ffVkf3xnaTqFnMV9pkvv1UjRDKKTBl",
+      "sourceName": "Orchestra Hohnerklang",
+      "platform": "Facebook",
+      "publishedAt": "2026-07-26T14:46:14Z"
+    },
+    {
+      "id": "post-2e8f4d2b63341ef1697e0e49",
+      "title": "Es ist wieder so weit, die Mundharmonika-Stadtmeisterschaft 2026 steht vor der Tür🎶",
+      "excerpt": "Es ist wieder so weit, die Mundharmonika-Stadtmeisterschaft 2026 steht vor der Tür🎶 Freut euch auf spannende Wettbewerbe, beeindruckende musikalische Leistungen von Solistinnen, Solisten und Ensembles sowie das Jugendkonzert mit Siegerehrung am Samstag. Auch für das leibliche Wo…",
+      "url": "https://www.facebook.com/hohnerklang/posts/pfbid02ztGijgK6UiosGQtDKUgLLz294yBdR2fdNDCCVipLrgqxKYKQh1AyEBBng53sDPmUl",
+      "sourceName": "Orchestra Hohnerklang",
+      "platform": "Facebook",
+      "publishedAt": "2026-07-22T17:37:05Z"
     }
   ]
 }

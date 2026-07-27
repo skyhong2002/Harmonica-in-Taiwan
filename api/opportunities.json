@@ -7,8 +7,87 @@
   "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
   "json": "https://harmonica.observe.tw/api/opportunities.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/opportunities.json",
-  "count": 121,
+  "count": 125,
   "items": [
+    {
+      "title": "張晁滕｜捷報🎉！昨天收到訊息，我的一位來自廣東的學生何梓韜在這次亞太口琴節獲得了亞太青少年組半音階獨奏冠軍🏆 恭喜！ 梓韜平時每兩週透過網課指導，一年大約只有寒暑假集訓營能夠面對面，音色方面還是得要面對面才有辦法感受，特別感謝平時有Sim…",
+      "headline": "捷報🎉！昨天收到訊息，我的一位來自廣東的學生何梓韜在這次亞太口琴節獲得了亞太青少年組半音階獨奏冠軍🏆 恭喜！",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/chaotengchang/posts/pfbid028sei1auu9FiLQYT9nZN2en2NNiatn5XZ4oqmTejXybAy2KXDPvNnUYoZiAEmsRhUl",
+      "source_id": "fb_chaotengchang",
+      "source": "張晁滕",
+      "source_system_name": "張晁滕",
+      "source_profile_url": "https://facebook.com/chaotengchang",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-31",
+      "directory_entry_name": "張晁滕",
+      "account": "chaotengchang",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-27T01:14:22.000Z",
+      "posted_at_local": "2026-07-27 09:14",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-27T20:03:26.005930+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "比賽",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "口琴"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.96,
+      "llm_labels": [
+        "口琴",
+        "比賽",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴學生於亞太口琴節奪冠，屬口琴比賽成果公開更新。",
+      "text": "捷報🎉！昨天收到訊息，我的一位來自廣東的學生何梓韜在這次亞太口琴節獲得了亞太青少年組半音階獨奏冠軍🏆 恭喜！\n梓韜平時每兩週透過網課指導，一年大約只有寒暑假集訓營能夠面對面，音色方面還是得要面對面才有辦法感受，特別感謝平時有Simon老師線下指導，也要感謝爸爸Jaymen的信任。\n#線上課#亞太口琴節#獨奏冠軍\nhttps://www.facebook.com/chaotengchang/posts/pfbid028sei1auu9FiLQYT9nZN2en2NNiatn5XZ4oqmTejXybAy2KXDPvNnUYoZiAEmsRhUl",
+      "images": [
+        "https://scontent-ord5-3.xx.fbcdn.net/v/t51.82787-15/756757618_18610416637014517_3875597408717242812_n.jpg?stp=dst-jpegr_tt6&cstp=mx3072x4096&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=xi4AzVUmRJYQ7kNvwHZKYLp&_nc_oc=Ado45iGr_4HkcTV5qTBqw9t4L8puKVaC0N51ALf3W1kU1P0-FHjWij9wLtstXv6Kp_FH40PEue8qTcnP-iUks7r5&_nc_zt=23&se=-1&_nc_ht=scontent-ord5-3.xx&_nc_gid=SZ_y95Ykkezop3kDrSG_yA&_nc_ss=7c289&oh=00_AQCl5O8P0HRKncO7m67e8lKiJdviZw3HboLYEWW7Hj1ACg&oe=6A6D8B41",
+        "https://scontent-ord5-1.xx.fbcdn.net/v/t51.82787-15/756832944_18610416622014517_1582909100248183628_n.jpg?stp=dst-jpg_tt6&cstp=mx1280x1706&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kgWvQsMVp4oQ7kNvwFPmVc7&_nc_oc=Adq43FLcmcLLvCfiOu8DStyD9TLywQWOcbT13NQDOP8_tOPBOaC-vXeRdTIxUVE2_xuYttnWlF4mFAFLhTtvz9QK&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=SZ_y95Ykkezop3kDrSG_yA&_nc_ss=7c289&oh=00_AQAI8i4OohuqClRlZEPR-HtB0cGzKXhrgMMW4W-vsACarg&oe=6A6D6FBE",
+        "https://scontent-ord5-3.xx.fbcdn.net/v/t51.82787-15/757417197_18610416640014517_3409539603092262273_n.jpg?stp=dst-jpg_tt6&cstp=mx1320x1760&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=9sPlTOd0JtgQ7kNvwH2y-by&_nc_oc=AdpW095KV3EdgZoVTlEkiRTxtzJU2SsKiCrW5cTnKab0713AQ8C_NcSoYIoeSzmu7KSCdIGoRawBELJ8Nd9v7AKI&_nc_zt=23&_nc_ht=scontent-ord5-3.xx&_nc_gid=SZ_y95Ykkezop3kDrSG_yA&_nc_ss=7c289&oh=00_AQANsQrVcBAx2Eppt8gLElq5Gdajv3OisBOJRQPw1a_txQ&oe=6A6D8F3F"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-ord5-3.xx.fbcdn.net/v/t51.82787-15/756757618_18610416637014517_3875597408717242812_n.jpg?stp=dst-jpegr_tt6&cstp=mx3072x4096&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=xi4AzVUmRJYQ7kNvwHZKYLp&_nc_oc=Ado45iGr_4HkcTV5qTBqw9t4L8puKVaC0N51ALf3W1kU1P0-FHjWij9wLtstXv6Kp_FH40PEue8qTcnP-iUks7r5&_nc_zt=23&se=-1&_nc_ht=scontent-ord5-3.xx&_nc_gid=SZ_y95Ykkezop3kDrSG_yA&_nc_ss=7c289&oh=00_AQCl5O8P0HRKncO7m67e8lKiJdviZw3HboLYEWW7Hj1ACg&oe=6A6D8B41",
+      "image_url": "/assets/feed-images/8a29f788831c9a71c4b3.webp",
+      "image_width": 443,
+      "image_height": 590,
+      "source_avatar_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/481211749_10226256655301514_7164570071186048255_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1080x1080&ctp=s50x50&_nc_cat=106&ccb=1-7&_nc_sid=e99d92&_nc_ohc=py8zFDyC9yEQ7kNvwFByzx-&_nc_oc=AdrI7O_bTbupXqB6ESddnD3y525Fh4ZTDEvt-i2e1qs6BtnNzlq7KxxsEKRvTebbZf83F9lIWUAP1qg_QT6pSnVz&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=SZ_y95Ykkezop3kDrSG_yA&_nc_ss=7c289&oh=00_AQBQVeOWBlc6uw8kQrjfeGVGCgGo7kTc_uRsMf61KwNERA&oe=6A6D8433",
+      "avatar_url": "/assets/source-avatars/0ba2c0c7f65baecfcb10.webp",
+      "source_initials": "張晁",
+      "categories": [
+        "posts-videos",
+        "opportunities",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽",
+        "學生社團"
+      ],
+      "key": "fb_chaotengchang:10231849989251367"
+    },
     {
       "title": "張晁滕｜捷報🎉！昨天收到訊息，我的一位來自廣東的學生何梓韜在這次亞太口琴節獲得了亞太青少年組半音階獨奏冠軍🏆 恭喜！ 梓韜平時每兩週透過網課指導，一年大約只有寒暑假集訓營能夠面對面，音色方面還是得要面對面才有辦法感受，特別感謝平時有Sim…",
       "headline": "捷報🎉！昨天收到訊息，我的一位來自廣東的學生何梓韜在這次亞太口琴節獲得了亞太青少年組半音階獨奏冠軍🏆 恭喜！",
@@ -87,6 +166,81 @@
         "學生社團"
       ],
       "key": "ig_chaotengchang:https://www.instagram.com/p/DbRwnY9khXK/"
+    },
+    {
+      "title": "Orchestra Hohnerklang｜Das war die Mundharmonika-Stadtmeisterschaft 2026 🎶🏆 #vereinsarbeit #jugendarbeit #hohnerklang #m…",
+      "headline": "Das war die Mundharmonika-Stadtmeisterschaft 2026 🎶🏆",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/reel/1714315993194538/",
+      "source_id": "fb_hohnerklang",
+      "source": "Orchestra Hohnerklang",
+      "source_system_name": "Orchestra Hohnerklang",
+      "source_profile_url": "https://facebook.com/hohnerklang",
+      "country": "德國",
+      "region": "德國/特羅辛根",
+      "directory_entry_id": "watchlist-154",
+      "directory_entry_name": "Orchestra Hohnerklang",
+      "account": "hohnerklang",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-26T16:00:45.000Z",
+      "posted_at_local": "2026-07-27 00:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-27T20:03:26.005930+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "比賽",
+        "影片",
+        "公開更新"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.96,
+      "llm_labels": [
+        "口琴",
+        "比賽",
+        "影片",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "內容提到口琴市錦標賽，屬口琴比賽相關公開影片更新。",
+      "text": "Das war die Mundharmonika-Stadtmeisterschaft 2026 🎶🏆\n#vereinsarbeit #jugendarbeit #hohnerklang #mundharmonika\nhttps://www.facebook.com/reel/1714315993194538/",
+      "images": [
+        "https://scontent-lga3-2.xx.fbcdn.net/v/t51.82787-10/758287810_18116773957936925_201365224367433687_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=qLcflfv-9iMQ7kNvwEEl5x4&_nc_oc=Adosaq1DTUbszlS9V6yJvvBYR-x2YnZ9yIFUT4eQw-fQ944Se0Pmk7So9I_4We88X-E&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=VoyWbKqd5SJMrFRCvVJQPg&_nc_ss=72289&oh=00_AQAtJEHarulN2YH4YOU3hi2YtWooqvBUDLJYU4OVwszUng&oe=6A6D81F4"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t51.82787-10/758287810_18116773957936925_201365224367433687_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=qLcflfv-9iMQ7kNvwEEl5x4&_nc_oc=Adosaq1DTUbszlS9V6yJvvBYR-x2YnZ9yIFUT4eQw-fQ944Se0Pmk7So9I_4We88X-E&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=VoyWbKqd5SJMrFRCvVJQPg&_nc_ss=72289&oh=00_AQAtJEHarulN2YH4YOU3hi2YtWooqvBUDLJYU4OVwszUng&oe=6A6D81F4",
+      "image_url": "/assets/feed-images/fb7b0e79178d66f2ac81.webp",
+      "image_width": 540,
+      "image_height": 960,
+      "source_avatar_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/309282138_622299312733141_6905974328627192410_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx540x540&ctp=s50x50&_nc_cat=108&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=diuBEu_bpyYQ7kNvwFlfNoP&_nc_oc=AdqMklrKfmNscrxtp3VRideTKE13i6yA-QLiq5_UbxXFp3ZhZF12mic6S0FV3uv8HjA&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=VoyWbKqd5SJMrFRCvVJQPg&_nc_ss=72289&oh=00_AQA-oSK8kDfnugoQMdckADjsWEa0AP78OouXOIH_tLrldQ&oe=6A6D769E",
+      "avatar_url": "/assets/source-avatars/15deebb8baab962c0bac.webp",
+      "source_initials": "OH",
+      "categories": [
+        "posts-videos",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽"
+      ],
+      "key": "fb_hohnerklang:1735516034744791"
     },
     {
       "title": "Orchestra Hohnerklang｜Das war die Mundharmonika-Stadtmeisterschaft 2026 🎶🏆 #vereinsarbeit #jugendarbeit #hohnerklang #m…",
@@ -252,6 +406,81 @@
         "補助比賽"
       ],
       "key": "ig_hohnerklang:https://www.instagram.com/p/DbQotZ7Dcf2/"
+    },
+    {
+      "title": "Orchestra Hohnerklang｜Wir gratulieren allen Wettbewerbsteilnehmern zu ihren hervorragenden Ergebnissen. Trossinger Stad…",
+      "headline": "Wir gratulieren allen Wettbewerbsteilnehmern zu ihren hervorragenden Ergebnissen.",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/hohnerklang/posts/pfbid02KvoU8bgdoxKRs7t1BgHNGQ5E3uyuRbLTm7ffVkf3xnaTqFnMV9pkvv1UjRDKKTBl",
+      "source_id": "fb_hohnerklang",
+      "source": "Orchestra Hohnerklang",
+      "source_system_name": "Orchestra Hohnerklang",
+      "source_profile_url": "https://facebook.com/hohnerklang",
+      "country": "德國",
+      "region": "德國/特羅辛根",
+      "directory_entry_id": "watchlist-154",
+      "directory_entry_name": "Orchestra Hohnerklang",
+      "account": "hohnerklang",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-26T14:46:14.000Z",
+      "posted_at_local": "2026-07-26 22:46",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-27T20:03:26.005930+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "比賽",
+        "公開更新"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.92,
+      "llm_labels": [
+        "比賽",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴團體公開發布比賽成績與得獎資訊，屬口琴相關公開更新。",
+      "text": "Wir gratulieren allen Wettbewerbsteilnehmern zu ihren hervorragenden Ergebnissen.\nTrossinger Stadtmeisterin 2026 ist Emma Viel, die mit ihrem Titel Czardas-Intermezzo in der Kategorie 2 insgesamt 40,5 Punkte und das Prädikat ausgezeichnet erreichte.\nGrundschulstadtmeisterin 2026 ist Rahela Barbacariu, die mit ihrem Titel Jerry go round in der Kategorie 3 insgesamt 45 Punkte und das Prädikat hervorragend erreichte.\nGewinner der Kategorie 1 ist Samuel Mate, der mit seinem Titel Toledo insgesamt 42,5 Punkte und das Prädikat hervorragend erreichte.\nAlle Ergebnisse auf https://stadtmeisterschaft-trossingen.de\nhttps://www.facebook.com/hohnerklang/posts/pfbid02KvoU8bgdoxKRs7t1BgHNGQ5E3uyuRbLTm7ffVkf3xnaTqFnMV9pkvv1UjRDKKTBl",
+      "images": [
+        "https://scontent-lga3-2.xx.fbcdn.net/v/t51.82787-15/756620665_18116765674936925_8388803028381877319_n.jpg?stp=dst-jpg_tt6&cstp=mx1512x1134&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=LyyOj3lCV8IQ7kNvwFlLx6o&_nc_oc=AdrZETEp9JQTAZ0vAMTZV6cdcKMrBzS2uzFu9s6Rvl0YX9bwruTdT_hw108F0sXCX-c&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=VoyWbKqd5SJMrFRCvVJQPg&_nc_ss=72289&oh=00_AQCv7lQ5wqSoszwioapsNKaByYuuBWGDNHJJREElSJ3Gsg&oe=6A6D7FC0",
+        "https://scontent-lga3-1.xx.fbcdn.net/v/t51.82787-15/756535423_18116765692936925_5673836960253579629_n.jpg?stp=dst-jpegr_tt6&cstp=mx3024x4032&ctp=s590x590&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=EgvEz04k11kQ7kNvwEj80HZ&_nc_oc=AdqgE0_sUCUzm7fEy7GmoTgrZ3_x2eOtmGamKHbooe7SrE_zGg8Gr03vU5DWYAA-Gd0&_nc_zt=23&se=-1&_nc_ht=scontent-lga3-1.xx&_nc_gid=VoyWbKqd5SJMrFRCvVJQPg&_nc_ss=72289&oh=00_AQCLL1KIFd5wmrYxCKlPuiPAibt_tdtCJEZehIMSvAvu3g&oe=6A6D9537",
+        "https://scontent-lga3-3.xx.fbcdn.net/v/t51.82787-15/756612963_18116765704936925_5805685882121882165_n.jpg?stp=dst-jpegr_tt6&cstp=mx3024x4032&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=oM8kOSPijfEQ7kNvwF2SdIR&_nc_oc=AdqmouL74zOhUw3wrqh2RNmnAzzb08z0lav3o2mj8HfhVhRc2cQhDQShnGuvKN6W8bA&_nc_zt=23&se=-1&_nc_ht=scontent-lga3-3.xx&_nc_gid=VoyWbKqd5SJMrFRCvVJQPg&_nc_ss=72289&oh=00_AQCKHy84IKbNjOmcsEIl99xn5LjuCfp3C41EeRTWXeIasQ&oe=6A6D9F7B",
+        "https://scontent-lga3-2.xx.fbcdn.net/v/t51.82787-15/758427555_18116765713936925_2020814620947760328_n.jpg?stp=dst-jpegr_tt6&cstp=mx3024x4032&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wIln4wQ8uB8Q7kNvwEUXIe3&_nc_oc=Ado9_comCUznRf04GRyT5aCGt_ozlPWSzfw-foby3wkZDyr8CV5q2mKMBLB-5A1NGho&_nc_zt=23&se=-1&_nc_ht=scontent-lga3-2.xx&_nc_gid=VoyWbKqd5SJMrFRCvVJQPg&_nc_ss=72289&oh=00_AQBMRAOohJRlzSgBFhXpprSXp3OyAgkj_DFEm8abghq7xg&oe=6A6D8531",
+        "https://scontent-lga3-3.xx.fbcdn.net/v/t51.82787-15/758264584_18116765722936925_6215602210363115228_n.jpg?stp=dst-jpegr_tt6&cstp=mx3024x4032&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=N-o7h0cu9VsQ7kNvwEJSc4J&_nc_oc=AdoiPjkcy9wfZ6hOEluM_PzRfAcyNOoKwlT_aQ8BHE78QJ_jRal3XzJ3P_GhS-VgNmA&_nc_zt=23&se=-1&_nc_ht=scontent-lga3-3.xx&_nc_gid=VoyWbKqd5SJMrFRCvVJQPg&_nc_ss=72289&oh=00_AQARe3U6wG_g2-lItd04QdSq_r86_PlW4KB0EE348DOavg&oe=6A6D8F3A"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t51.82787-15/756620665_18116765674936925_8388803028381877319_n.jpg?stp=dst-jpg_tt6&cstp=mx1512x1134&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=LyyOj3lCV8IQ7kNvwFlLx6o&_nc_oc=AdrZETEp9JQTAZ0vAMTZV6cdcKMrBzS2uzFu9s6Rvl0YX9bwruTdT_hw108F0sXCX-c&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=VoyWbKqd5SJMrFRCvVJQPg&_nc_ss=72289&oh=00_AQCv7lQ5wqSoszwioapsNKaByYuuBWGDNHJJREElSJ3Gsg&oe=6A6D7FC0",
+      "image_url": "/assets/feed-images/2818c605f23e8598718b.webp",
+      "image_width": 590,
+      "image_height": 443,
+      "source_avatar_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/309282138_622299312733141_6905974328627192410_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx540x540&ctp=s50x50&_nc_cat=108&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=diuBEu_bpyYQ7kNvwFlfNoP&_nc_oc=AdqMklrKfmNscrxtp3VRideTKE13i6yA-QLiq5_UbxXFp3ZhZF12mic6S0FV3uv8HjA&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=VoyWbKqd5SJMrFRCvVJQPg&_nc_ss=72289&oh=00_AQA-oSK8kDfnugoQMdckADjsWEa0AP78OouXOIH_tLrldQ&oe=6A6D769E",
+      "avatar_url": "/assets/source-avatars/15deebb8baab962c0bac.webp",
+      "source_initials": "OH",
+      "categories": [
+        "posts-videos",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽"
+      ],
+      "key": "fb_hohnerklang:1735457984750596"
     },
     {
       "title": "Leafin Harmonica Ensemble｜Instagram story @_leafin_harmonicaensemble",
@@ -2005,6 +2234,86 @@
         "補助比賽"
       ],
       "key": "ig_damingtsai:https://www.instagram.com/p/DbHmD6Gy-Xo/"
+    },
+    {
+      "title": "Orchestra Hohnerklang｜Es ist wieder so weit, die Mundharmonika-Stadtmeisterschaft 2026 steht vor der Tür🎶 Freut euch au…",
+      "headline": "Es ist wieder so weit, die Mundharmonika-Stadtmeisterschaft 2026 steht vor der Tür🎶",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/hohnerklang/posts/pfbid02ztGijgK6UiosGQtDKUgLLz294yBdR2fdNDCCVipLrgqxKYKQh1AyEBBng53sDPmUl",
+      "source_id": "fb_hohnerklang",
+      "source": "Orchestra Hohnerklang",
+      "source_system_name": "Orchestra Hohnerklang",
+      "source_profile_url": "https://facebook.com/hohnerklang",
+      "country": "德國",
+      "region": "德國/特羅辛根",
+      "directory_entry_id": "watchlist-154",
+      "directory_entry_name": "Orchestra Hohnerklang",
+      "account": "hohnerklang",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-22T17:37:05.000Z",
+      "posted_at_local": "2026-07-23 01:37",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-27T20:03:26.005930+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "比賽",
+        "音樂會",
+        "演出",
+        "公開更新"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "比賽",
+        "音樂會",
+        "演出",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "內容為口琴城市錦標賽與青年音樂會，屬口琴比賽與公開活動更新。",
+      "text": "Es ist wieder so weit, die Mundharmonika-Stadtmeisterschaft 2026 steht vor der Tür🎶\nFreut euch auf spannende Wettbewerbe, beeindruckende musikalische Leistungen von Solistinnen, Solisten und Ensembles sowie das Jugendkonzert mit Siegerehrung am Samstag. Auch für das leibliche Wohl ist an beiden Tagen bestens gesorgt – am Freitagabend sorgt zudem die All Stars für musikalische Unterhaltung im Foyer. 🎵\nKommt vorbei, unterstützt die Teilnehmenden und erlebt ein Wochenende voller Musik, Begegnungen und Begeisterung für die Mundharmonika. Wir freuen uns auf euch! ❤️\nhttps://www.facebook.com/hohnerklang/posts/pfbid02ztGijgK6UiosGQtDKUgLLz294yBdR2fdNDCCVipLrgqxKYKQh1AyEBBng53sDPmUl",
+      "images": [
+        "https://scontent-lga3-3.xx.fbcdn.net/v/t51.82787-15/754408961_18116396917936925_3525477504098252531_n.jpg?stp=dst-jpg_tt6&cstp=mx1191x1588&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=nVyJHQF_F_UQ7kNvwGvAyZv&_nc_oc=AdpKcDap8Ungi21N4MuBepWNKdXQ72JpVcGDmlZmeVlTmddxedCDN7OQ3MGA28S4W3Y&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=VoyWbKqd5SJMrFRCvVJQPg&_nc_ss=72289&oh=00_AQBwyrd2nJ_N6IWWI-pz3rKcnWlk8BMcjiB86fp5vWIDzA&oe=6A6D93EA",
+        "https://scontent-lga3-1.xx.fbcdn.net/v/t51.82787-15/754143805_18116396914936925_3570044935583211238_n.jpg?stp=dst-jpg_tt6&cstp=mx1190x1576&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=d9-CwHbtjTsQ7kNvwFAvttu&_nc_oc=AdqbscbLrQOdzpwQZVVDS2Ln4DYnAzL2dXoc9KFTVkMo3JoL2ewU6TyWBBeZSnzGcr0&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=VoyWbKqd5SJMrFRCvVJQPg&_nc_ss=72289&oh=00_AQCqlNYECmTN5NpjSbbkcYExo43T412Y77cl8As2_5TVjQ&oe=6A6D81B9"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t51.82787-15/754408961_18116396917936925_3525477504098252531_n.jpg?stp=dst-jpg_tt6&cstp=mx1191x1588&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=nVyJHQF_F_UQ7kNvwGvAyZv&_nc_oc=AdpKcDap8Ungi21N4MuBepWNKdXQ72JpVcGDmlZmeVlTmddxedCDN7OQ3MGA28S4W3Y&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=VoyWbKqd5SJMrFRCvVJQPg&_nc_ss=72289&oh=00_AQBwyrd2nJ_N6IWWI-pz3rKcnWlk8BMcjiB86fp5vWIDzA&oe=6A6D93EA",
+      "image_url": "/assets/feed-images/5cabb76ef9f0c2c4e7af.webp",
+      "image_width": 442,
+      "image_height": 590,
+      "source_avatar_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/309282138_622299312733141_6905974328627192410_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx540x540&ctp=s50x50&_nc_cat=108&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=diuBEu_bpyYQ7kNvwFlfNoP&_nc_oc=AdqMklrKfmNscrxtp3VRideTKE13i6yA-QLiq5_UbxXFp3ZhZF12mic6S0FV3uv8HjA&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=VoyWbKqd5SJMrFRCvVJQPg&_nc_ss=72289&oh=00_AQA-oSK8kDfnugoQMdckADjsWEa0AP78OouXOIH_tLrldQ&oe=6A6D769E",
+      "avatar_url": "/assets/source-avatars/15deebb8baab962c0bac.webp",
+      "source_initials": "OH",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽"
+      ],
+      "key": "fb_hohnerklang:1731994758430252"
     },
     {
       "title": "臺中國家歌劇院 National Taichung Theater｜《WOW挖藝術》特別集｜《怪美妖仙傳》：今天來談怪美 主持人：變裝皇后 Sandra Hoe 來賓：《怪美妖仙傳》鬼才編導程鈺婷 今年夏天最瘋、最辣、最華麗的一場神話派對…",
