@@ -6402,7 +6402,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-24 15:57",
       "latestUpdateSource": "Brendan Power",
       "latestUpdateUrl": "https://www.facebook.com/BrendanPowerMusic/posts/pfbid034BwDZMsZmQ4CvjTAVwiSWMcxNibQ8uwPqdatEaGpEGvL536esxYDELrdxChDoiX5l",
-      "avatarUrl": "/assets/source-avatars/e3a877c1e2433de3c4b1.webp",
+      "avatarUrl": "/assets/source-avatars/a87274760593ceec62c6.webp",
       "sourceInitials": "BP",
       "sourceTags": [
         "演奏者",
