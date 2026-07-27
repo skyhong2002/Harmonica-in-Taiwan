@@ -7,8 +7,83 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 495,
+  "count": 496,
   "items": [
+    {
+      "title": "南里沙 / Risa MINAMI｜アジア太平洋ハーモニカ大会2026・閉会式 | クロマチックハーモニカ 南里沙オフィシャルブログ... https://ameblo.jp/risa-harmonica/entry-1297397736…",
+      "headline": "アジア太平洋ハーモニカ大会2026・閉会式 | クロマチックハーモニカ 南里沙オフィシャルブログ... https://ameblo.jp/risa-harmonica/entry-12973977360.html #A...",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://x.com/minami_risa/status/2081734744610648490",
+      "source_id": "x_minami_risa",
+      "source": "南里沙 / Risa MINAMI",
+      "source_system_name": "南里沙",
+      "source_profile_url": "https://x.com/minami_risa",
+      "country": "日本",
+      "region": "日本",
+      "directory_entry_id": "watchlist-58",
+      "directory_entry_name": "南里沙",
+      "account": "minami_risa",
+      "platform": "x",
+      "platform_label": "X",
+      "posted_at": "Mon, 27 Jul 2026 13:33:34 GMT",
+      "posted_at_local": "2026-07-27 21:33",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-27T14:01:02.362170+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/twitter/user/minami_risa",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "交流"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.96,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "交流"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "提及亞太口琴大會閉會式，屬口琴演奏者公開更新與交流相關。",
+      "text": "アジア太平洋ハーモニカ大会2026・閉会式 | クロマチックハーモニカ 南里沙オフィシャルブログ... https://ameblo.jp/risa-harmonica/entry-12973977360.html #A...\nアジア太平洋ハーモニカ大会2026・閉会式 | クロマチックハーモニカ 南里沙オフィシャルブログ...\nhttps://ameblo.jp/risa-harmonica/entry-12973977360.html\n#Amebaブログ #アメブロ #南里沙 #クロマチックハーモニカ",
+      "images": [
+        "https://pbs.twimg.com/media/HOPOtYNbgAAJxzN?format=jpg&name=orig"
+      ],
+      "videos": [],
+      "source_image_url": "https://pbs.twimg.com/media/HOPOtYNbgAAJxzN?format=jpg&name=orig",
+      "image_url": "/assets/feed-images/c031ddf7b0333eb7c95b.webp",
+      "image_width": 800,
+      "image_height": 600,
+      "source_avatar_url": "https://pbs.twimg.com/profile_images/1343096514319503362/lAiKQhqj.jpg",
+      "avatar_url": "/assets/source-avatars/e1b0306ebd66c0e3ac71.webp",
+      "source_initials": "RM",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "x_minami_risa:https://twitter.com/minami_risa/status/2081734744610648490"
+    },
     {
       "title": "Lee Hangyeol 이한결｜제 12회 서울국제하모니카페스티벌에서 심사위원, 갈라콘서트, 재즈크로매틱 마스터클래스로 함께하게 되었습니다. 한국에서 수많은 하모니카 러버들을 만날 생각에 벌써부터 설렙니다. 3일동안…",
       "headline": "제 12회 서울국제하모니카페스티벌에서 심사위원, 갈라콘서트, 재즈크로매틱 마스터클래스로 함께하게 되었습니다.",
