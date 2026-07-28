@@ -7,8 +7,83 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 484,
+  "count": 485,
   "items": [
+    {
+      "title": "Jens Bunge｜Jam session at Sounddog",
+      "headline": "Jam session at Sounddog",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DbVUenMuAnM/",
+      "source_id": "ig_jensbunge_jazzharmonica",
+      "source": "Jens Bunge",
+      "source_system_name": "Jens Bunge",
+      "source_profile_url": "https://www.instagram.com/jensbunge.jazzharmonica/",
+      "country": "德國",
+      "region": "德國",
+      "directory_entry_id": "watchlist-125",
+      "directory_entry_name": "Jens Bunge",
+      "account": "jensbunge.jazzharmonica",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Tue, 28 Jul 2026 10:36:59 GMT",
+      "posted_at_local": "2026-07-28 18:36",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-28T13:38:43.295740+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/jensbunge.jazzharmonica",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.78,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "來源為口琴演奏者帳號，貼文提到 jam session，屬口琴公開更新。",
+      "text": "Jam session at Sounddog",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/756654935_1748989259576539_7879045376477421110_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&ig_cache_key=Mzk1MTE1NDMxMjY5MTMyMTI5Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=gwmGNW7oTIkQ7kNvwEvCCMh&_nc_oc=AdoUjj9OVD4wKH-a0iboHLJlNYobHxkWZ9CvQsK5vLV-YMUFyjBbmBhon4rvQ1FBHdU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=IgNO69sCESe_1PU8MIfSmQ&_nc_ss=7a22e&oh=00_AQDwM7BqQWZaMDXrNM3HmROHIbc6GHsQBDikPliV6IXfBw&oe=6A6E7555"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQM6lHE-RG5h4-x4HX46cOoqsnAvyT_Wdc8p5O997EsMVRWPzRgR2P9SL0-kCbzh5cZuzFW2vA93E8SvhujLa5XU4G4Ol7LvNEM8A2o.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=zpuWLcLpc-oQ7kNvwFVmZSe&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTU5NDU0ODUxNTcxNTY1NiwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo2MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=1e81b8ffc1b7d895&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9DNTQyNEU0ODFDQ0FFOTQ0NzY3MUY4MTdDNDAyRjk5Nl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzAzNDFFNjZGODAyQUNGNkJDMkI2MTgyMjQ0QTk0NDhFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaQ6dmd-I7VBRUCKAJDMywXQFAAAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=IgNO69sCESe_1PU8MIfSmQ&_nc_zt=28&_nc_ss=7a22e&oh=00_AQAe_gfsL_-6xVF3HP242PpjrwauAJ-cngnUTNC0jw5HvQ&oe=6A6AA8E7"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/756654935_1748989259576539_7879045376477421110_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&ig_cache_key=Mzk1MTE1NDMxMjY5MTMyMTI5Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=gwmGNW7oTIkQ7kNvwEvCCMh&_nc_oc=AdoUjj9OVD4wKH-a0iboHLJlNYobHxkWZ9CvQsK5vLV-YMUFyjBbmBhon4rvQ1FBHdU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=IgNO69sCESe_1PU8MIfSmQ&_nc_ss=7a22e&oh=00_AQDwM7BqQWZaMDXrNM3HmROHIbc6GHsQBDikPliV6IXfBw&oe=6A6E7555",
+      "image_url": "/assets/feed-images/ca765f998d21b677fa01.webp",
+      "image_width": 640,
+      "image_height": 1136,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/538731817_18324506119236303_5140016961001233642_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gFzzqGyG_XemZ71SwXv9-keTjclMM8KynnLxMDemBLE0vVvDmSKRDKymtunbJrIQWs&_nc_ohc=v2uu2-5YyWEQ7kNvwH331iL&_nc_gid=dtGyESsqs4DFh8t5z3Q1fg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQCW8UaGL-RJ0Fabur6_0y3pRhmL3-OydzLRfUF-_Urx4A&oe=6A6E7934&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/cd3d661a3e089af6a8fe.webp",
+      "source_initials": "JB",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_jensbunge_jazzharmonica:https://www.instagram.com/p/DbVUenMuAnM/"
+    },
     {
       "title": "Timothy Yip 葉進禧｜🎶【璀璨藝匯2026 | Kaleidoscope of the ARTS】🇭🇰 非常榮幸與隊友 @sorhei 🎹 一同帶領英皇書院同學會小學第二校口琴隊，受邀參與由教育局主辦的《璀璨藝匯2026》🌈 向…",
       "headline": "🎶【璀璨藝匯2026 | Kaleidoscope of the ARTS】🇭🇰",
