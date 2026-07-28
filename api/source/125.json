@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-28T00:28:14.103809Z",
+  "generatedAt": "2026-07-28T01:33:16.121958Z",
   "source": {
     "id": 125,
     "slug": "jens-bunge",
@@ -8,6 +8,15 @@
     "pageUrl": "https://harmonica.observe.tw/source/125-jens-bunge/"
   },
   "items": [
+    {
+      "id": "post-15ab1388169ef1eda4015db6",
+      "title": "Jam Session at Club Evans",
+      "excerpt": "Jam Session at Club Evans",
+      "url": "https://www.instagram.com/p/DbTW3RUjw9V/",
+      "sourceName": "Jens Bunge",
+      "platform": "Instagram",
+      "publishedAt": "2026-07-27T16:07:43Z"
+    },
     {
       "id": "post-f71548bb9946c82acb1660f2",
       "title": "On my way to the next gig - this time by metro",
