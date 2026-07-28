@@ -404,6 +404,77 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-30",
+      "publicId": "30",
+      "name": "蔡明憲",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
+      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
+      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
+      "keywords": "蔡明憲 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://studio.dming.co/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/dming.tsai/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/damingtsai/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-28T13:37:35+00:00",
+      "latestUpdateLocal": "2026-07-28 21:37",
+      "latestUpdateSource": "蔡明憲",
+      "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3951251082483109869/",
+      "avatarUrl": "/assets/source-avatars/2d3d2a653c17782a0b8a.webp",
+      "sourceInitials": "蔡明",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_dming_tsai",
+          "name": "蔡明憲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/dming.tsai",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-100",
       "publicId": "100",
       "name": "曹小歐",
@@ -3919,77 +3990,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@learntheharmonica",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-30",
-      "publicId": "30",
-      "name": "蔡明憲",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
-      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
-      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
-      "keywords": "蔡明憲 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://studio.dming.co/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/dming.tsai/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/damingtsai/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-26T12:36:58+00:00",
-      "latestUpdateLocal": "2026-07-26 20:36",
-      "latestUpdateSource": "蔡明憲",
-      "latestUpdateUrl": "https://www.facebook.com/dming.tsai/posts/pfbid02n23CbcZy67wAhhfTx4oc2JaycoAEtJYqXTXDN5kzWN78Sg6cJ2rqoBuCkU9Z6YtVl",
-      "avatarUrl": "/assets/source-avatars/2d3d2a653c17782a0b8a.webp",
-      "sourceInitials": "蔡明",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_dming_tsai",
-          "name": "蔡明憲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/dming.tsai",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
         }
       ]
     },
