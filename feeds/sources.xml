@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 28 Jul 2026 10:53:07 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 12:00:14 +0000</lastBuildDate>
     <item>
       <title>唐雪婷 Sharene Tang</title>
       <link>https://www.facebook.com/sharenetang.fresco/</link>
@@ -62,17 +62,6 @@ Tag：場館平台
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
-      <title>吹出好心琴 + Ou Frog</title>
-      <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/a7900260c88a5842</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：品牌、教學器材、教學
-國家：臺灣
-地區：臺灣
-臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
-    </item>
-    <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/ad86c3570665b36e</guid>
@@ -82,6 +71,17 @@ Tag：演奏者、半音階、國際交流
 國家：日本
 地區：日本
 日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+    </item>
+    <item>
+      <title>吹出好心琴 + Ou Frog</title>
+      <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/a7900260c88a5842</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：品牌、教學器材、教學
+國家：臺灣
+地區：臺灣
+臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
     </item>
     <item>
       <title>Fresco Harmonica Ensemble</title>
