@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
   "json": "https://harmonica.observe.tw/api/opportunities.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/opportunities.json",
-  "count": 125,
+  "count": 124,
   "items": [
     {
       "title": "南里沙 / Risa MINAMI｜昨日、上海空港から日本へ帰国する飛行機の中で、熊本で地震が発生したとの情報が入ってきました。 「震度7」と聞き、心配が大きくなりました。 羽田空港に到着し、被害の状況を知るにつれ、10年前の熊本地震のこ…",
@@ -9867,81 +9867,6 @@
         "補助比賽"
       ],
       "key": "ig_hsinchucounty_culture:https://www.instagram.com/p/DaMGrvJDDJ9/"
-    },
-    {
-      "title": "曹小歐 OtisTsao｜試著跟女巫店的觀眾解釋什麼是大力士比賽",
-      "headline": "試著跟女巫店的觀眾解釋什麼是大力士比賽",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.instagram.com/p/DaK1S30p4Qw/",
-      "source_id": "ig_otistsao",
-      "source": "曹小歐 OtisTsao",
-      "source_system_name": "曹小歐",
-      "source_profile_url": "https://www.instagram.com/otistsao/",
-      "country": "臺灣",
-      "region": "臺灣",
-      "directory_entry_id": "watchlist-100",
-      "directory_entry_name": "曹小歐",
-      "account": "otistsao",
-      "platform": "instagram",
-      "platform_label": "Instagram",
-      "posted_at": "Mon, 29 Jun 2026 12:11:50 GMT",
-      "posted_at_local": "2026-06-29 20:11",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-06-29T16:23:29.077721+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "https://rss.observe.tw/instagram/2/user/otistsao",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "比賽"
-      ],
-      "keyword_matches": [
-        "比賽"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.9,
-      "llm_labels": [
-        "口琴",
-        "比賽"
-      ],
-      "llm_categories": [
-        "posts-videos"
-      ],
-      "llm_reason": "貼文提及「大力士比賽」，為口琴比賽相關，來源為口琴演奏者曹小歐的公開更新。",
-      "text": "試著跟女巫店的觀眾解釋什麼是大力士比賽",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/728861550_997575652901780_8204780423407944_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=105&ig_cache_key=MzkzMDE4ODAxODE4OTA0MjczNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=AAyeFqDusfAQ7kNvwFtaO_z&_nc_oc=AdoeA1Vl9i6gpqTfOVYQ-6fJbddyHm52oWJeoSKFQ3xomQb-jGc0eKKSbtCsvZHFajM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=OVoRfLTk4s0ttukHy8aE1g&_nc_ss=7a22e&oh=00_Af_xbX0MZzdQT59xWiC2NBPos9ZDLGhSz1w0AQNq8GFuoQ&oe=6A4885AB"
-      ],
-      "videos": [
-        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQMR5av5hJCKZ-KJ55wX6IjnOGxHh5lTJDMA8toftwJWUJ2xu_ZaCyoRMObrwniRSEjR4grSAaOgwkPwKpIejQve-cLQcWGAWJ2JDQc.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=jylU3i8MCLYQ7kNvwGZO2a7&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6OTkwMTc1MTAzOTkzNTM3LCJhc3NldF9hZ2VfZGF5cyI6MCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjI1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=7503461cc1c9e33d&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xQTRERDBEMDJCQUIyQTQ1NTNBREYwNTgzMUYwOUM4Ql92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0U2NEJCMzEyMEIwODQyN0Q0NzYzNjEyRDAyMzI4Qzk1X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaCm7a146PCAxUCKAJDMywXQDnEGJN0vGoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=OVoRfLTk4s0ttukHy8aE1g&_nc_zt=28&_nc_ss=7a22e&oh=00_Af8FBK5r2ABdBikGzbPFZ_nwSp25VJ9f1PVGP2HIjiWrdQ&oe=6A446D0A"
-      ],
-      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/728861550_997575652901780_8204780423407944_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=105&ig_cache_key=MzkzMDE4ODAxODE4OTA0MjczNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=AAyeFqDusfAQ7kNvwFtaO_z&_nc_oc=AdoeA1Vl9i6gpqTfOVYQ-6fJbddyHm52oWJeoSKFQ3xomQb-jGc0eKKSbtCsvZHFajM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=OVoRfLTk4s0ttukHy8aE1g&_nc_ss=7a22e&oh=00_Af_xbX0MZzdQT59xWiC2NBPos9ZDLGhSz1w0AQNq8GFuoQ&oe=6A4885AB",
-      "image_url": "/assets/feed-images/5fa52da779e3c3f4b0a0.webp",
-      "image_width": 640,
-      "image_height": 1136,
-      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/564773496_18527480284061825_4311855118159863354_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gHFCivETPjgQSKGJeZdJyEDT5lvyvQYe1aoZtWFCRLGXenmf1lcbD_cEazGW2DlPHk&_nc_ohc=ngYPQFLA6zIQ7kNvwFnFFDJ&_nc_gid=FPcFR7y3CwlS0EvdL8qg3g&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af_oECmrMpPN_Mgw2_US7tK2ns9k69FWN81KKI-9vBzPiw&oe=6A4864D3&_nc_sid=8b3546",
-      "avatar_url": "/assets/source-avatars/43123b14fe5eaa70e759.webp",
-      "source_initials": "O",
-      "categories": [
-        "posts-videos",
-        "opportunities"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "補助比賽"
-      ],
-      "key": "ig_otistsao:https://www.instagram.com/p/DaK1S30p4Qw/"
     }
   ]
 }
