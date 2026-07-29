@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 467,
+  "count": 468,
   "items": [
     {
       "title": "Marcos Coll｜리치맨 따라 한국에 온 것인지, 리치맨이 한국에 데려온 것인지 그게 중요한 게 아닌 스페인 대표 블루스 하프 연주자 마르코스. 심지어 방콕 애드히어 써틴 블루스바의 블루스 패밀리들과 겹친이라니…",
@@ -692,6 +692,84 @@
         "學生社團"
       ],
       "key": "yt_ucqrgye_3lymvt7ewhrzbtzg:K4d1Cv-ozYQ"
+    },
+    {
+      "title": "就是吹口琴 陳鴻儀Henry’s Harmonica｜【就是吹口琴Just Play Harmonica 】｜晚霞 (夕燒小燒)– 日本童謠｜複音口琴Tremolo Harmonica 演奏版本《C調》 晚霞 《日本童謠》 （日語：夕焼小…",
+      "headline": "【就是吹口琴Just Play Harmonica 】｜晚霞 (夕燒小燒)– 日本童謠｜複音口琴Tremolo Harmonica 演奏版本《C調》",
+      "display_title": "【就是吹口琴Just Play Harmonica 】｜晚霞 (夕燒小燒)– 日本童謠｜複音口琴Tremolo Harmonica 演奏版本《C調》",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=YrIQXfJLPpk",
+      "source_id": "yt_henrysharmonica",
+      "source": "就是吹口琴 陳鴻儀Henry’s Harmonica",
+      "source_system_name": "陳鴻儀",
+      "source_profile_url": "https://www.youtube.com/channel/UC7dQryOizHj-cKHV3xw0ASQ",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-40",
+      "directory_entry_name": "陳鴻儀",
+      "account": "https://www.youtube.com/channel/UC7dQryOizHj-cKHV3xw0ASQ",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-07-29T00:00:06+00:00",
+      "posted_at_local": "2026-07-29 08:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-29T21:46:02.539775+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "影片",
+        "演出",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "影片",
+        "演出",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴YouTube演奏影片，屬公開更新且與口琴相關。",
+      "text": "【就是吹口琴Just Play Harmonica 】｜晚霞 (夕燒小燒)– 日本童謠｜複音口琴Tremolo Harmonica 演奏版本《C調》\n晚霞\n《日本童謠》\n（日語：夕焼小焼，羅馬化：Yūyakekoyake），又稱夕燒小燒，是描寫鄉村日落景象時分的抒情歌曲。\n草川信(1923) 作曲\n中村雨紅(1919) 作詞\n複音口琴演奏版本《C調》",
+      "images": [
+        "https://i.ytimg.com/vi/YrIQXfJLPpk/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/YrIQXfJLPpk/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/ab6042f9e4be8b8ff447.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/jRo3PEipmEqPOdl6u-yU-T8hME_tD8ty8dKJo6_cZZyY9Dz9-aPLGdXfwpBf5Y-SR2F0bk4b7Q=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/11010264a3489f5a5679.webp",
+      "source_initials": "HSH",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "yt_henrysharmonica:YrIQXfJLPpk"
     },
     {
       "title": "Santiago Alvarez｜Algunos fragmentos de lo que fue nuestra presentación en en Asian Pacific Harmonica Festival en Julio …",

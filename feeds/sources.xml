@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 29 Jul 2026 21:13:35 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 21:46:15 +0000</lastBuildDate>
     <item>
       <title>Howard Levy</title>
       <link>https://levyland.com/</link>
@@ -381,6 +381,17 @@ Tag：場館平台
 臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
     </item>
     <item>
+      <title>陳鴻儀</title>
+      <link>https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/49b1bf57125f847c</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、演出
+國家：臺灣
+地區：臺灣
+口琴演奏家，專注於演出與評審工作。</description>
+    </item>
+    <item>
       <title>Filip Jers</title>
       <link>https://www.filipjers.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/e1ed5a88d3ff4ee4</guid>
@@ -643,17 +654,6 @@ Tag：演奏者
 國家：臺灣
 地區：臺灣
 臺灣的口琴演出人員，活動脈絡包含111 Trio與Quintet。</description>
-    </item>
-    <item>
-      <title>陳鴻儀</title>
-      <link>https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/49b1bf57125f847c</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、演出
-國家：臺灣
-地區：臺灣
-口琴演奏家，專注於演出與評審工作。</description>
     </item>
     <item>
       <title>Orchestra Hohnerklang</title>
