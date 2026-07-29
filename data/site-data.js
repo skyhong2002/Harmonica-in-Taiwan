@@ -2,6 +2,102 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-29",
   "entries": [
     {
+      "id": "watchlist-100",
+      "publicId": "100",
+      "name": "曹小歐",
+      "nameEn": "Otis Tsao",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "單口喜劇/藍調口琴/演出",
+      "structuredSummary": "單口喜劇/藍調口琴/演出 / 十孔/藍調口琴 / 演出人員",
+      "summary": "臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。",
+      "keywords": "曹小歐 Otis Tsao 口琴 單口喜劇 藍調口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://portaly.cc/otistsao"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/otis5hundredtsao/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/otistsao/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@otistsao"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-29T09:34:15+00:00",
+      "latestUpdateLocal": "2026-07-29 17:34",
+      "latestUpdateSource": "曹小歐",
+      "latestUpdateUrl": "https://www.instagram.com/stories/otistsao/3951853521670344598/",
+      "avatarUrl": "/assets/source-avatars/65a4f70590bebaffa467.webp",
+      "sourceInitials": "曹小",
+      "sourceTags": [
+        "演奏者",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_otis5hundredtsao",
+          "name": "曹小歐",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/otis5hundredtsao",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_otistsao",
+          "name": "曹小歐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "otistsao",
+          "profileUrl": "https://www.instagram.com/otistsao/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_otistsao",
+          "name": "曹小歐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "otistsao",
+          "profileUrl": "https://www.instagram.com/otistsao/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/otistsao/story/0"
+        },
+        {
+          "id": "threads_otistsao",
+          "name": "曹小歐",
+          "platform": "threads",
+          "type": "rss",
+          "username": "otistsao",
+          "profileUrl": "https://www.threads.net/@otistsao",
+          "feedUrl": "https://rss.observe.tw/threads/otistsao"
+        },
+        {
+          "id": "yt_ucbdafdgrntui_iqtg9e4bmw",
+          "name": "曹小歐",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-57",
       "publicId": "57",
       "name": "山下伶 Rei Yamashita",
@@ -345,6 +441,93 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-54",
+      "publicId": "54",
+      "name": "CY Leo 何卓彥",
+      "nameEn": "CY Leo",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/現代跨界",
+      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
+      "summary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
+      "keywords": "CY Leo 何卓彥 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.cyleomusic.io/profile"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Cyleoharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cy_leo/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@cyleoharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-29T05:46:53+00:00",
+      "latestUpdateLocal": "2026-07-29 13:46",
+      "latestUpdateSource": "CY Leo 何卓彥",
+      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3951738971461795260/",
+      "avatarUrl": "/assets/source-avatars/d161bb073ba34b8b94e6.webp",
+      "sourceInitials": "CL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
+      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
+      "monitorSources": [
+        {
+          "id": "fb_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Cyleoharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
+        },
+        {
+          "id": "yt_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@cyleoharmonica",
           "feedUrl": ""
         }
       ]
@@ -1375,7 +1558,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-29 08:49",
       "latestUpdateSource": "Lee Hangyeol 이한결",
       "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3951589038465482714/",
-      "avatarUrl": "/assets/source-avatars/fd7d39ed400cd98c1803.webp",
+      "avatarUrl": "/assets/source-avatars/a0a12188acd5e98c888c.webp",
       "sourceInitials": "LH",
       "sourceTags": [
         "演奏者",
@@ -2486,189 +2669,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@hokahkean1999",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-54",
-      "publicId": "54",
-      "name": "CY Leo 何卓彥",
-      "nameEn": "CY Leo",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/現代跨界",
-      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
-      "summary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "keywords": "CY Leo 何卓彥 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.cyleomusic.io/profile"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Cyleoharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/cy_leo/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@cyleoharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-28T14:44:47+00:00",
-      "latestUpdateLocal": "2026-07-28 22:44",
-      "latestUpdateSource": "CY Leo 何卓彥",
-      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3951284911546225824/",
-      "avatarUrl": "/assets/source-avatars/434809aad9011f57c464.webp",
-      "sourceInitials": "CL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
-      "monitorSources": [
-        {
-          "id": "fb_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Cyleoharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
-        },
-        {
-          "id": "yt_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@cyleoharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-100",
-      "publicId": "100",
-      "name": "曹小歐",
-      "nameEn": "Otis Tsao",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "單口喜劇/藍調口琴/演出",
-      "structuredSummary": "單口喜劇/藍調口琴/演出 / 十孔/藍調口琴 / 演出人員",
-      "summary": "臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。",
-      "keywords": "曹小歐 Otis Tsao 口琴 單口喜劇 藍調口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/otistsao"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/otis5hundredtsao/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/otistsao/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@otistsao"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-28T14:06:39+00:00",
-      "latestUpdateLocal": "2026-07-28 22:06",
-      "latestUpdateSource": "曹小歐",
-      "latestUpdateUrl": "https://www.instagram.com/stories/otistsao/3951265708614358107/",
-      "avatarUrl": "/assets/source-avatars/43123b14fe5eaa70e759.webp",
-      "sourceInitials": "曹小",
-      "sourceTags": [
-        "演奏者",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_otis5hundredtsao",
-          "name": "曹小歐",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/otis5hundredtsao",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_otistsao",
-          "name": "曹小歐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "otistsao",
-          "profileUrl": "https://www.instagram.com/otistsao/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_otistsao",
-          "name": "曹小歐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "otistsao",
-          "profileUrl": "https://www.instagram.com/otistsao/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/otistsao/story/0"
-        },
-        {
-          "id": "threads_otistsao",
-          "name": "曹小歐",
-          "platform": "threads",
-          "type": "rss",
-          "username": "otistsao",
-          "profileUrl": "https://www.threads.net/@otistsao",
-          "feedUrl": "https://rss.observe.tw/threads/otistsao"
-        },
-        {
-          "id": "yt_ucbdafdgrntui_iqtg9e4bmw",
-          "name": "曹小歐",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
           "feedUrl": ""
         }
       ]
