@@ -7,8 +7,86 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 478,
+  "count": 479,
   "items": [
+    {
+      "title": "Judy’s Harmonica Ensemble 茱蒂口琴樂團｜@judys.harmonica.ensemble: 演出前彩妝～～～💄😻 @judys.harmonica.ensemble : 演出前彩妝～～～💄😻",
+      "headline": "@judys.harmonica.ensemble: 演出前彩妝～～～💄😻",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.threads.com/t/DbXT0qXEWJJ",
+      "source_id": "threads_judys_harmonica_ensemble",
+      "source": "Judy’s Harmonica Ensemble 茱蒂口琴樂團",
+      "source_system_name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+      "source_profile_url": "https://www.threads.net/@judys.harmonica.ensemble",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-4",
+      "directory_entry_name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+      "account": "judys.harmonica.ensemble",
+      "platform": "threads",
+      "platform_label": "Threads",
+      "posted_at": "Wed, 29 Jul 2026 04:58:05 GMT",
+      "posted_at_local": "2026-07-29 12:58",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-29T05:09:18.671307+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/threads/judys.harmonica.ensemble",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "keyword_matches": [
+        "演出",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴樂團公開貼文，內容為演出前準備更新，屬口琴演奏者公開更新。",
+      "text": "@judys.harmonica.ensemble: 演出前彩妝～～～💄😻\n@judys.harmonica.ensemble : 演出前彩妝～～～💄😻",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/757754071_18114114997845334_3400479985307293620_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzk1MTcxNDE5MTM2NjUyOTA4Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjA0OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=X1DewDEyOZgQ7kNvwEtuPOF&_nc_oc=Adpk9SZtGRvoZExB6sb1CpTB_l1QdNre3FAntm0Dir8AumlAlxohEcYSsI_hzBcSaDc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=7&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=tPit21sew7smaYDjUcF0QQ&_nc_ss=7a22e&oh=00_AQBzO1WIHbZP1YGT_grWtlfW5sjMh3ahr1kMyKgyaXSTPw&oe=6A6F509A",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/758750873_18114115006845334_4196569720916462416_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzk1MTcxNDE5Mzg2NjQ2MzAwMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjA0OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=sNdt9A30ttkQ7kNvwGsFQl4&_nc_oc=AdpMgwQD6aRBKQxBNW1-viZKIbZLG3Du5EWFXmI_LbZNVRjE26cyR1M2mF5Xa-FtNDs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=7&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=tPit21sew7smaYDjUcF0QQ&_nc_ss=7a22e&oh=00_AQDe0jmdykVw85Y7z1vOVE89FRQJlUAoeaYHtm6jcaut8g&oe=6A6F7410",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/759698425_18114115015845334_1347725751293327296_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzk1MTcxNDE5ODA4NTgxOTE2Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjA0OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=A8vdAN6Ij4QQ7kNvwHoCCng&_nc_oc=Adq1eM_gSrcdQ3ngRE2CAlLwd1r1W8akA4dUa2-jNNhxsPYD5nm6Jy7WVx40znO9VZE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=7&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=tPit21sew7smaYDjUcF0QQ&_nc_ss=7a22e&oh=00_AQBJnbV4jwDJ62j_MCHrN6T7X28fVZpHdTnZ_FLE9xQ4ug&oe=6A6F605B"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/757754071_18114114997845334_3400479985307293620_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzk1MTcxNDE5MTM2NjUyOTA4Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjA0OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=X1DewDEyOZgQ7kNvwEtuPOF&_nc_oc=Adpk9SZtGRvoZExB6sb1CpTB_l1QdNre3FAntm0Dir8AumlAlxohEcYSsI_hzBcSaDc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=7&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=tPit21sew7smaYDjUcF0QQ&_nc_ss=7a22e&oh=00_AQBzO1WIHbZP1YGT_grWtlfW5sjMh3ahr1kMyKgyaXSTPw&oe=6A6F509A",
+      "image_url": "/assets/feed-images/3f385844c4ae8a447799.webp",
+      "image_width": 800,
+      "image_height": 535,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/714774813_18101641780845334_2571023096209210600_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=110&_nc_oc=Q6cZ2gH5TAwOeyRETqU3Dvyz3dLLzUhJwiO9ODCa_HEBX2oHQogX63i6Dzh7yMjnLwxulMc&_nc_ohc=2a7L0nBmcSsQ7kNvwGLCBwt&_nc_gid=tPit21sew7smaYDjUcF0QQ&edm=APs17CUBAAAA&ccb=7-5&oh=00_AQDLNCTOqTuSYqu--rKDXX0HBKrg-RIEn1k-eI4x3L9kCQ&oe=6A6F6993&_nc_sid=10d13b",
+      "avatar_url": "/assets/source-avatars/ec8dea4e77610ffd7923.webp",
+      "source_initials": "JSH",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "threads_judys_harmonica_ensemble:https://www.threads.com/t/DbXT0qXEWJJ"
+    },
     {
       "title": "南里沙 / Risa MINAMI｜昨日、上海空港から日本へ帰国する飛行機の中で、熊本で地震が発生したとの情報が入ってきました。 「震度7」と聞き、心配が大きくなりました。 羽田空港に到着し、被害の状況を知るにつれ、10年前の熊本地震のこ…",
       "headline": "昨日、上海空港から日本へ帰国する飛行機の中で、熊本で地震が発生したとの情報が入ってきました。",
