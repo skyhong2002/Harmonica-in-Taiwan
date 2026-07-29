@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
   "json": "https://harmonica.observe.tw/api/opportunities.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/opportunities.json",
-  "count": 124,
+  "count": 125,
   "items": [
     {
       "title": "南里沙 / Risa MINAMI｜昨日、上海空港から日本へ帰国する飛行機の中で、熊本で地震が発生したとの情報が入ってきました。 「震度7」と聞き、心配が大きくなりました。 羽田空港に到着し、被害の状況を知るにつれ、10年前の熊本地震のこ…",
@@ -165,6 +165,91 @@
         "學生社團"
       ],
       "key": "ig_frescoharmonica:https://www.instagram.com/p/DbUfWcPp9FP/"
+    },
+    {
+      "title": "英皇書院同學會小學口琴隊｜💫邁向全國 閃耀國際✨ 英小口琴精英隊出發參加2026首爾國際口琴節 英小口琴精英隊成員繼上學年於首爾國際口琴節及世界口琴節取得驕人成績後，今年16位學生及多位畢業生再度參加首爾國際口琴節，汲取世界賽經驗。本次旅…",
+      "headline": "💫邁向全國 閃耀國際✨",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/kcobaps/posts/pfbid09wTzTDuoYukN8cNs9ajTRdSxTzkdo2n1Chw6HPXgHyP6U4n2UvxfzW83xHpwy7xUl",
+      "source_id": "fb_kcobaps",
+      "source": "英皇書院同學會小學口琴隊",
+      "source_system_name": "英皇書院同學會小學口琴隊",
+      "source_profile_url": "https://facebook.com/kcobaps",
+      "country": "香港",
+      "region": "香港",
+      "directory_entry_id": "watchlist-209",
+      "directory_entry_name": "英皇書院同學會小學口琴隊",
+      "account": "kcobaps",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-28T01:03:23.000Z",
+      "posted_at_local": "2026-07-28 09:03",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-29T06:27:03.504780+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "比賽",
+        "演出"
+      ],
+      "keyword_matches": [
+        "口琴"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.99,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "比賽",
+        "演出"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "英小口琴隊赴首爾國際口琴節參賽，屬口琴公開更新與比賽相關。",
+      "text": "💫邁向全國 閃耀國際✨\n英小口琴精英隊出發參加2026首爾國際口琴節\n英小口琴精英隊成員繼上學年於首爾國際口琴節及世界口琴節取得驕人成績後，今年16位學生及多位畢業生再度參加首爾國際口琴節，汲取世界賽經驗。本次旅程彰顯英小口琴的傳承，近半為低年級學生，更有一年級成員參與這項國際賽事。大家一起為英小口琴精英隊加油打氣！\n#kcobaps1 #英皇書院同學會小學 #英小口琴 #首爾國際口琴節 #SIHF\nhttps://www.facebook.com/kcobaps/posts/pfbid09wTzTDuoYukN8cNs9ajTRdSxTzkdo2n1Chw6HPXgHyP6U4n2UvxfzW83xHpwy7xUl",
+      "images": [
+        "https://scontent.fpit1-1.fna.fbcdn.net/v/t39.30808-6/758016692_1673085594822880_3673221918141458833_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1200&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=OFZM_FNSx_8Q7kNvwFQz0AG&_nc_oc=AdqG9e_5rsLG-WvHyCB7lEWMAzS49tYga3Z6O0sVUqJZibiUhLja1h0Up82faKhl-BM&_nc_zt=23&_nc_ht=scontent.fpit1-1.fna&_nc_gid=aJouAx-YmA1Mq82HES0RbA&_nc_ss=72289&oh=00_AQD5pvkBjPuCcTsCri6h8wEOWunCnCr-1H7MpGxxzMux1g&oe=6A6F7F1F",
+        "https://scontent.fpit1-1.fna.fbcdn.net/v/t39.30808-6/757934235_1673085678156205_3808521325961864097_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x952&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=oLmGHD3VzOIQ7kNvwHmGKI-&_nc_oc=AdrQL9Y7eDbHELCar9Q83taQ7miQa2iT1JqRUYGWEdzX0z32BziJf_j3tv9-Z7rmAt8&_nc_zt=23&_nc_ht=scontent.fpit1-1.fna&_nc_gid=aJouAx-YmA1Mq82HES0RbA&_nc_ss=72289&oh=00_AQCKe2rA9M5fZkONnA2nOduRXVDtWHayfWpzbnOUsRwitA&oe=6A6F7D6D",
+        "https://scontent.fpit1-1.fna.fbcdn.net/v/t39.30808-6/758386646_1673085651489541_5692851223358673767_n.jpg?stp=dst-jpg_tt6&cstp=mx1366x2048&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=mi8ffNPgGscQ7kNvwF4dg_Q&_nc_oc=AdqtTfNl8SZ_Xn6dwqPukQqcBsgksa2h9ujEcnr-XMBNFbA4ZvBjSExVGDMhc0lT3PI&_nc_zt=23&_nc_ht=scontent.fpit1-1.fna&_nc_gid=aJouAx-YmA1Mq82HES0RbA&_nc_ss=72289&oh=00_AQALAn3OVOyGBWcWjrqBaFlsToTuJDvwih5zsGNWyssieg&oe=6A6F617B",
+        "https://scontent.fpit1-1.fna.fbcdn.net/v/t39.30808-6/759101944_1673085708156202_7172219188651569403_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1200&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=mErBo1ki46YQ7kNvwGq3Mf1&_nc_oc=AdpacPaq9lIqAlby39jLapl3sgmlWMzJCNPVnSIl8P6pjAeqdcUs5PZ4PYHFpJ_wAAk&_nc_zt=23&_nc_ht=scontent.fpit1-1.fna&_nc_gid=aJouAx-YmA1Mq82HES0RbA&_nc_ss=72289&oh=00_AQB2TaJ7yVQsoJfEOaQY9N43Mj0ZpT1ZYWezLh9afUEgsw&oe=6A6F73A0",
+        "https://scontent.fpit1-1.fna.fbcdn.net/v/t39.30808-6/758943933_1673085728156200_4864211372803019505_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1234&ctp=s590x590&_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=hIf0GYweApMQ7kNvwHzmc2X&_nc_oc=AdrWkPgTrV7fBfE5B-um6j06uXTcELQu5-9_HIQ0qrg0BQWGiFSrzx_24wUL4lMFWcI&_nc_zt=23&_nc_ht=scontent.fpit1-1.fna&_nc_gid=aJouAx-YmA1Mq82HES0RbA&_nc_ss=72289&oh=00_AQDGwhAisoKN3Y1Wze1DA55stZ9xZF7WLLZoTCV072rDbw&oe=6A6F62F5"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent.fpit1-1.fna.fbcdn.net/v/t39.30808-6/758016692_1673085594822880_3673221918141458833_n.jpg?stp=dst-jpg_tt6&cstp=mx1600x1200&ctp=s590x590&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=OFZM_FNSx_8Q7kNvwFQz0AG&_nc_oc=AdqG9e_5rsLG-WvHyCB7lEWMAzS49tYga3Z6O0sVUqJZibiUhLja1h0Up82faKhl-BM&_nc_zt=23&_nc_ht=scontent.fpit1-1.fna&_nc_gid=aJouAx-YmA1Mq82HES0RbA&_nc_ss=72289&oh=00_AQD5pvkBjPuCcTsCri6h8wEOWunCnCr-1H7MpGxxzMux1g&oe=6A6F7F1F",
+      "image_url": "/assets/feed-images/f315f7c0873d22534646.webp",
+      "image_width": 590,
+      "image_height": 443,
+      "source_avatar_url": "https://scontent.fpit1-1.fna.fbcdn.net/v/t39.30808-1/313900442_556580959806688_4950287615766432186_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s50x50&_nc_cat=107&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=hdWz0ZnyEl0Q7kNvwF45D0-&_nc_oc=AdqDwBwPd1aEdDontSe4hKrlIYtEwlebdw_4Nh_Zf5o4IzU1cBF518ABEF1-DvTQmdQ&_nc_zt=24&_nc_ht=scontent.fpit1-1.fna&_nc_gid=aJouAx-YmA1Mq82HES0RbA&_nc_ss=72289&oh=00_AQClkjkmeo50BP8WEfs4sUYnZ5j2ymUltjUWxUwUp2-nrA&oe=6A6F5E0A",
+      "avatar_url": "/assets/source-avatars/1acda6df76662cd96580.webp",
+      "source_initials": "英皇",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽",
+        "學生社團"
+      ],
+      "key": "fb_kcobaps:1673085488156224"
     },
     {
       "title": "音和樂器口琴專賣店｜萬華社大「龍韻口琴合奏班」上課記錄_五月天「傷心的人別聽慢歌」 📣萬華社大【龍韻口琴合奏班】招生中 授課老師：夏晨茹、張宇樞 上課地點：臺北市龍山國中 上課時間：週一（晚） 🟡授課內容： 📍口琴合奏分部、團練教學： 龍…",
