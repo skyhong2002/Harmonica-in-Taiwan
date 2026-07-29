@@ -4666,7 +4666,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-27 04:24",
       "latestUpdateSource": "Orchestra Hohnerklang",
       "latestUpdateUrl": "https://www.instagram.com/stories/hohnerklang/3950006528346276695/",
-      "avatarUrl": "/assets/source-avatars/e48917d85705865378a9.webp",
+      "avatarUrl": "/assets/source-avatars/bc2433fac4dfe24a1f63.webp",
       "sourceInitials": "OH",
       "sourceTags": [
         "團體樂團",
@@ -7494,7 +7494,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-19 01:37",
       "latestUpdateSource": "Deak Harp",
       "latestUpdateUrl": "https://www.facebook.com/deak.harp/posts/pfbid02HudunsNeuNP2XpR9u5YdJXKKJvf5WoTkBAyoQZge7Na7PGmdqDeHZ3ooJgY4YBFwl",
-      "avatarUrl": "/assets/source-avatars/dcefb96084c66ffe6cf6.webp",
+      "avatarUrl": "/assets/source-avatars/25a2584fef8be3c36c91.webp",
       "sourceInitials": "DH",
       "sourceTags": [
         "演奏者",
