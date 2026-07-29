@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-29T19:34:31.630052Z",
+  "generatedAt": "2026-07-29T20:06:58.646936Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -124,15 +124,6 @@
       "sourceName": "Filip Jers",
       "platform": "Instagram",
       "publishedAt": "2026-07-04T13:31:52Z"
-    },
-    {
-      "id": "post-9f87478558bf0b18ceb84c6a",
-      "title": "Just playing jazz harmonica 🥳",
-      "excerpt": "Just playing jazz harmonica 🥳",
-      "url": "https://www.facebook.com/filipjersmusic/videos/1584829563359183/",
-      "sourceName": "Filip Jers",
-      "platform": "Facebook",
-      "publishedAt": "2026-06-29T19:58:38Z"
     }
   ]
 }
