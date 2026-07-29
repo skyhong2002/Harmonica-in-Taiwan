@@ -515,6 +515,73 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-121",
+      "publicId": "121",
+      "name": "Fresco Harmonica Ensemble",
+      "nameEn": "Fresco Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "馬來西亞世界冠軍口琴團/2006成立/國際巡演/教育推廣",
+      "structuredSummary": "馬來西亞世界冠軍口琴團/2006成立/國際巡演/教育推廣 / 口琴重奏 / 國際演出團體",
+      "summary": "馬來西亞的口琴重奏國際演出團體，活動脈絡包含馬來西亞世界冠軍口琴團、2006成立與國際巡演。",
+      "keywords": "Fresco Harmonica Ensemble harmonica Malaysia SIHF",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/frescoharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@FrescoHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-29T02:50:18+00:00",
+      "latestUpdateLocal": "2026-07-29 10:50",
+      "latestUpdateSource": "Fresco Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbXDqdSTf7f/",
+      "avatarUrl": "/assets/source-avatars/1dd6664eade98f42e067.webp",
+      "sourceInitials": "FHE",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_frescoharmonica",
+          "name": "Fresco Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "frescoharmonica",
+          "profileUrl": "https://www.instagram.com/frescoharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_frescoharmonica",
+          "name": "Fresco Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "frescoharmonica",
+          "profileUrl": "https://www.instagram.com/frescoharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/frescoharmonica/story/0"
+        },
+        {
+          "id": "yt_frescoharmonica",
+          "name": "Fresco Harmonica Ensemble",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@FrescoHarmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-111",
       "publicId": "111",
       "name": "Lee Hangyeol 이한결",
@@ -2991,73 +3058,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/ntcharts",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-121",
-      "publicId": "121",
-      "name": "Fresco Harmonica Ensemble",
-      "nameEn": "Fresco Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "馬來西亞世界冠軍口琴團/2006成立/國際巡演/教育推廣",
-      "structuredSummary": "馬來西亞世界冠軍口琴團/2006成立/國際巡演/教育推廣 / 口琴重奏 / 國際演出團體",
-      "summary": "馬來西亞的口琴重奏國際演出團體，活動脈絡包含馬來西亞世界冠軍口琴團、2006成立與國際巡演。",
-      "keywords": "Fresco Harmonica Ensemble harmonica Malaysia SIHF",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/frescoharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@FrescoHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-28T07:32:57+00:00",
-      "latestUpdateLocal": "2026-07-28 15:32",
-      "latestUpdateSource": "Fresco Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/stories/frescoharmonica/3951067558746302073/",
-      "avatarUrl": "/assets/source-avatars/1dd6664eade98f42e067.webp",
-      "sourceInitials": "FHE",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_frescoharmonica",
-          "name": "Fresco Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "frescoharmonica",
-          "profileUrl": "https://www.instagram.com/frescoharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_frescoharmonica",
-          "name": "Fresco Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "frescoharmonica",
-          "profileUrl": "https://www.instagram.com/frescoharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/frescoharmonica/story/0"
-        },
-        {
-          "id": "yt_frescoharmonica",
-          "name": "Fresco Harmonica Ensemble",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@FrescoHarmonica",
           "feedUrl": ""
         }
       ]
