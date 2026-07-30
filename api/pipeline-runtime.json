@@ -1,6 +1,6 @@
 {
-  "currentStep": "watch social feeds",
-  "heartbeatAt": "2026-07-30T13:36:43.644386+00:00",
+  "currentStep": "sync google calendar",
+  "heartbeatAt": "2026-07-30T13:41:07.525484+00:00",
   "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
   "maxPostAgeDays": 30,
   "message": "",
@@ -57,10 +57,110 @@
         "--request-timeout",
         "10"
       ],
-      "finishedAt": "",
+      "finishedAt": "2026-07-30T13:40:53.551131+00:00",
       "name": "watch social feeds",
-      "returnCode": null,
+      "returnCode": 0,
       "startedAt": "2026-07-30T13:36:43.644360+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_public_data.py"
+      ],
+      "finishedAt": "2026-07-30T13:40:55.128086+00:00",
+      "name": "build public data",
+      "returnCode": 0,
+      "startedAt": "2026-07-30T13:40:53.552473+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/backfill_public_source_pages.py",
+        "--skip-fetch"
+      ],
+      "finishedAt": "2026-07-30T13:40:57.334082+00:00",
+      "name": "backfill source pages",
+      "returnCode": 0,
+      "startedAt": "2026-07-30T13:40:55.128642+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_public_data.py"
+      ],
+      "finishedAt": "2026-07-30T13:40:58.805673+00:00",
+      "name": "rebuild public data",
+      "returnCode": 0,
+      "startedAt": "2026-07-30T13:40:57.335984+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_score_publications.py"
+      ],
+      "finishedAt": "2026-07-30T13:40:58.903068+00:00",
+      "name": "build score publications",
+      "returnCode": 0,
+      "startedAt": "2026-07-30T13:40:58.806362+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_score_sources.py"
+      ],
+      "finishedAt": "2026-07-30T13:40:58.945189+00:00",
+      "name": "build score sources",
+      "returnCode": 0,
+      "startedAt": "2026-07-30T13:40:58.903801+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/generate_rss_feeds.py"
+      ],
+      "finishedAt": "2026-07-30T13:41:07.283223+00:00",
+      "name": "generate rss feeds",
+      "returnCode": 0,
+      "startedAt": "2026-07-30T13:40:58.945737+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_public_calendar_events.py"
+      ],
+      "finishedAt": "2026-07-30T13:41:07.460256+00:00",
+      "name": "build public calendar events",
+      "returnCode": 0,
+      "startedAt": "2026-07-30T13:41:07.284633+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/apply_submitted_events.py"
+      ],
+      "finishedAt": "2026-07-30T13:41:07.524892+00:00",
+      "name": "apply submitted events",
+      "returnCode": 0,
+      "startedAt": "2026-07-30T13:41:07.460815+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Users/skyhong/.hermes/google-workspace-venv/bin/python",
+        "scripts/sync_google_calendar_events.py"
+      ],
+      "finishedAt": "",
+      "name": "sync google calendar",
+      "returnCode": null,
+      "startedAt": "2026-07-30T13:41:07.525479+00:00",
       "status": "running"
     }
   ],
