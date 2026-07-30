@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 473,
+  "count": 474,
   "items": [
     {
       "title": "Judy’s Harmonica Ensemble 茱蒂口琴樂團｜【2026 蕉城口琴文化周 Day 3】 最後一天迎來最刺激的擂台賽！！😼😼 Judy 團長受邀擔任擂台賽評審，來自西班牙的半音階口琴大師 @antonioserranoa…",
@@ -391,6 +391,74 @@
         "公開活動"
       ],
       "key": "ig_rei_harmonica:https://www.instagram.com/p/DbaFJMoE6x7/"
+    },
+    {
+      "title": "國家兩廳院NTCH｜跟著馬世芳走一段路 ᯓ 從建國中學到兩廳院，走讀四條通往劇場的曲徑｜2026秋天藝術節 ⛐ 𝟸𝟶𝟸𝟼秋天藝術節 ᯓ 跟著馬世芳走一段路 ​ 有些作品 走進劇場之前，不妨先走進城市 ​ 這一次，就跟著樂評人 #馬世芳 從…",
+      "headline": "跟著馬世芳走一段路 ᯓ 從建國中學到兩廳院，走讀四條通往劇場的曲徑｜2026秋天藝術節",
+      "display_title": "跟著馬世芳走一段路 ᯓ 從建國中學到兩廳院，走讀四條通往劇場的曲徑｜2026秋天藝術節",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=zi_GxRem7VM",
+      "source_id": "yt_ntcharts",
+      "source": "國家兩廳院NTCH",
+      "source_system_name": "國家兩廳院",
+      "source_profile_url": "https://www.youtube.com/channel/UCVSNSvU31VPTG-99nwy7Bhw",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "directory_entry_id": "watchlist-79",
+      "directory_entry_name": "國家兩廳院",
+      "account": "https://www.youtube.com/channel/UCVSNSvU31VPTG-99nwy7Bhw",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-07-30T04:00:32+00:00",
+      "posted_at_local": "2026-07-30 12:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-30T23:16:46.040229+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [],
+      "keyword_matches": [
+        "演出",
+        "影片"
+      ],
+      "llm_relevant": false,
+      "llm_confidence": 0.98,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "內容為兩廳院秋天藝術節宣傳，未提口琴、口琴社團或口琴演奏者，屬一般藝文活動。",
+      "text": "跟著馬世芳走一段路 ᯓ 從建國中學到兩廳院，走讀四條通往劇場的曲徑｜2026秋天藝術節\n⛐ 𝟸𝟶𝟸𝟼秋天藝術節 ᯓ 跟著馬世芳走一段路\n​\n有些作品\n走進劇場之前，不妨先走進城市\n​\n這一次，就跟著樂評人 #馬世芳\n從建國中學、228 國家紀念館、臺北植物園，一路散步到兩廳院\n​\n沿著城市裡的歷史、記憶與風景\n重新閱讀今年秋天藝術節的四條曲徑\n​\n𖠰 巴奈《流浪邊界》\n七年的搭棚歲月，如何化作一場劇場演出？\n​\n𖠰 馬里喬．瓦卡．瓦倫蘇埃拉《追憶之徑》\n一趟從 Google 地圖展開的家族記憶\n​\n𖠰 李貞葳 ✕ 法庫亞．佐坦 ✕ 德國黑森州當代舞團《成為海洋》\n普立茲音樂獎作品，化作十二位舞者的海洋\n​\n𖠰 菲利普．肯恩《人間樂園》\n五百年前的名畫裡，藏著一首「屁股之歌」\n​\n四個故事，也是四條通往劇場的路\n哪一條，最吸引你？\n一起點開影片，跟著馬世芳出發ᯓ⛟\n​\n▎會員預購　𝟪.𝟣\n▎全面啟售　𝟪.𝟪\n​\nᯓ⛟⎽؄ ↟𖠰˚𖤣ᨒ↟𖠰𖥧˚ᯓ\n𝟸𝟶𝟸𝟼秋天藝術節\n𝟷𝟶.𝟸𝟸 ─ 𝟷𝟷.𝟸𝟿\n林中尋路\nhttps://m.ntch.art/2026AIAF",
+      "images": [
+        "https://i.ytimg.com/vi/zi_GxRem7VM/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/zi_GxRem7VM/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/710a2b0c64d32131d853.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/RJMDYTXv-jL2R07KIm9CfzQu979ofWmKq-7p9dTqoLwOmKGZ8YVwOStw6RB0X5LDQhdZLefawA=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/6c6b9a140a4aa8945aa0.webp",
+      "source_initials": "N",
+      "categories": [
+        "posts-videos",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "學生社團"
+      ],
+      "key": "yt_ntcharts:zi_GxRem7VM"
     },
     {
       "title": "臺灣口琴音樂節 Taiwan Harmonica Music Festival｜☀️午間音樂會｜8/8 (六) 演出者/團體介紹 🎶 Baba & Needem｜施沛心｜Cookie Monster 環島旅行在臺灣是熱門的活動之一，第二天…",

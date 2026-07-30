@@ -1261,10 +1261,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-07-30T13:01:44+00:00",
-      "latestUpdateLocal": "2026-07-30 21:01",
+      "latestUpdateAt": "2026-07-30T13:08:48+00:00",
+      "latestUpdateLocal": "2026-07-30 21:08",
       "latestUpdateSource": "南里沙",
-      "latestUpdateUrl": "https://x.com/minami_risa/status/2082813898156372325",
+      "latestUpdateUrl": "https://www.instagram.com/stories/minami_risa/3952686150166666492/",
       "avatarUrl": "/assets/source-avatars/cf9c521a3489d5ec2267.webp",
       "sourceInitials": "南里",
       "sourceTags": [
