@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 30 Jul 2026 07:02:52 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 08:08:40 +0000</lastBuildDate>
     <item>
       <title>國家兩廳院</title>
       <link>https://npac-ntch.org/zh</link>
@@ -27,6 +27,28 @@ Tag：演奏者、教學、重奏
 國家：臺灣
 地區：臺灣
 臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。</description>
+    </item>
+    <item>
+      <title>黃冠誌</title>
+      <link>https://harmonica.tw/course/kuanchih/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、合奏、和弦、重奏、演出
+國家：臺灣
+地區：臺灣
+口琴演奏者，專長和弦口琴與重奏演出。</description>
+    </item>
+    <item>
+      <title>王心禾</title>
+      <link>https://www.instagram.com/harmonica_wang/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/81d8ceaa7e7b789c</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者
+國家：臺灣
+地區：臺灣
+臺灣的口琴演出人員，活動脈絡包含胖擊系。</description>
     </item>
     <item>
       <title>王衍華</title>
@@ -214,17 +236,6 @@ Tag：團體樂團、重奏
 國家：臺灣
 地區：臺灣
 臺灣的大學生新生代口琴重奏演出團體。</description>
-    </item>
-    <item>
-      <title>黃冠誌</title>
-      <link>https://harmonica.tw/course/kuanchih/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、合奏、和弦、重奏、演出
-國家：臺灣
-地區：臺灣
-口琴演奏者，專長和弦口琴與重奏演出。</description>
     </item>
     <item>
       <title>臺灣口琴音樂節 THMF</title>
@@ -786,17 +797,6 @@ Tag：演奏者、比賽、半音階、複音
 國家：臺灣
 地區：臺灣
 臺灣的半音階與複音演出人員，活動脈絡包含原創與比賽曲。</description>
-    </item>
-    <item>
-      <title>王心禾</title>
-      <link>https://www.instagram.com/harmonica_wang/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/81d8ceaa7e7b789c</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者
-國家：臺灣
-地區：臺灣
-臺灣的口琴演出人員，活動脈絡包含胖擊系。</description>
     </item>
     <item>
       <title>天狼星口琴樂團 Sirius Harmonica Ensemble</title>
