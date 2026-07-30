@@ -3348,21 +3348,6 @@
     const source = sourceLink
       ? `<a class="score-source-link" href="${escapeHtml(sourceLink.url)}" target="_blank" rel="noreferrer" title="${escapeHtml(sourceLink.label)}">來源</a>`
       : `<span class="score-source-link muted" title="未標示來源">來源</span>`;
-    const report = reportAnchor("correct", {
-      name: title,
-      source: sourceLink?.url || "",
-      page: window.location.href,
-      desired: [
-        `學年度：${item.schoolYear || "未標示"}`,
-        `編制：${item.program || "未標示"}`,
-        `組別：${item.division || "未標示"}`,
-        `作曲：${item.composer || "未標示"}`,
-        `編曲：${item.arranger || "未標示"}`,
-        `出版／洽詢來源：${publisher}`,
-        `目前備註：${note || "未標示"}`,
-        "請修正這筆指定曲、出版或洽詢線索。",
-      ].join("\n"),
-    }, "回報");
     return `
       <tr>
         ${scoreCell(year, "score-year")}
@@ -3375,7 +3360,7 @@
         ${scoreCell(item.arranger, "score-arranger")}
         ${scoreCell(publisher, "score-publisher")}
         ${scoreCell(note, "score-note-inline")}
-        <td class="score-source-cell"><div class="score-source-actions">${source}${report}</div></td>
+        <td class="score-source-cell">${source}</td>
       </tr>
     `;
   }
