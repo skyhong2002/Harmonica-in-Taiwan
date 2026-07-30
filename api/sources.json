@@ -1,21 +1,21 @@
 {
   "site": "https://harmonica.observe.tw",
-  "generatedAt": "2026-07-30",
-  "count": 206,
+  "generatedAt": "2026-07-31",
+  "count": 209,
   "stats": {
-    "totalEntries": 206,
+    "totalEntries": 209,
     "categories": {
       "其他來源": 2,
       "國際交流": 10,
-      "團體樂團": 44,
+      "團體樂團": 46,
       "場館平台": 6,
       "學校社團": 36,
-      "教學器材": 14,
+      "教學器材": 15,
       "活動資訊": 20,
       "演奏者": 74
     },
     "countries": {
-      "中國": 9,
+      "中國": 10,
       "丹麥": 1,
       "以色列": 1,
       "俄羅斯": 1,
@@ -37,29 +37,29 @@
       "荷蘭": 1,
       "西班牙": 2,
       "阿根廷": 4,
-      "韓國": 10,
-      "香港": 16,
+      "韓國": 11,
+      "香港": 17,
       "馬來西亞": 13
     },
     "watchSources": {
-      "totalSources": 602,
-      "rsshubSources": 328,
-      "apifySources": 147,
-      "facebookSources": 147,
-      "youtubeSources": 127,
+      "totalSources": 614,
+      "rsshubSources": 334,
+      "apifySources": 149,
+      "facebookSources": 149,
+      "youtubeSources": 131,
       "platforms": {
-        "facebook": 147,
-        "instagram": 288,
+        "facebook": 149,
+        "instagram": 294,
         "threads": 28,
         "x": 12,
-        "youtube": 127
+        "youtube": 131
       },
       "types": {
-        "facebook_page_posts": 147,
+        "facebook_page_posts": 149,
         "rss": 40,
-        "rsshub_instagram_profile": 144,
-        "rsshub_instagram_story": 144,
-        "youtube_ytdlp": 127
+        "rsshub_instagram_profile": 147,
+        "rsshub_instagram_story": 147,
+        "youtube_ytdlp": 131
       }
     }
   },
@@ -508,10 +508,10 @@
       "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "111 Trio／Quintet",
-      "structuredSummary": "111 Trio／Quintet / 口琴 / 演出人員",
-      "summary": "臺灣的口琴演出人員，活動脈絡包含111 Trio與Quintet。",
-      "keywords": "廖苡晴 111 Trio 口琴",
+      "cityOrFocus": "半音階獨奏／111 Duo／111 Trio／111 Quintet／國際比賽",
+      "structuredSummary": "半音階獨奏／111 Duo／111 Trio／111 Quintet／國際比賽 / 半音階 / 演出人員",
+      "summary": "臺灣半音階口琴演奏者，2025 世界口琴節獲公開組冠軍，並參與 111 Duo、Trio 與 Quintet。",
+      "keywords": "廖苡晴 Alysa Liao 111 Duo 111 Trio 111 Quintet 世界口琴節 口琴",
       "links": [
         {
           "label": "網站",
@@ -520,6 +520,10 @@
         {
           "label": "Instagram",
           "url": "https://www.instagram.com/__yich___/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@alysaliao"
         },
         {
           "label": "Threads",
@@ -535,8 +539,14 @@
       "avatarUrl": "/assets/source-avatars/5b5371b7851220afa3a1.webp",
       "sourceInitials": "廖苡",
       "sourceTags": [
-        "演奏者"
+        "演奏者",
+        "半音階",
+        "重奏",
+        "國際交流",
+        "比賽"
       ],
+      "sourceSummary": "臺灣半音階口琴演奏者，2025 世界口琴節獲公開組冠軍，並參與 111 Duo、Trio 與 Quintet。",
+      "sourceTagReason": "整合自官方 YouTube 簡介、Instagram 與公開演奏者頁面。",
       "monitorSources": [
         {
           "id": "ig_story_yich",
@@ -564,6 +574,15 @@
           "username": "__yich___",
           "profileUrl": "https://www.threads.net/@__yich___",
           "feedUrl": "https://rss.observe.tw/threads/__yich___"
+        },
+        {
+          "id": "yt_alysaliao",
+          "name": "廖苡晴",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@alysaliao",
+          "feedUrl": ""
         }
       ]
     },
@@ -5425,10 +5444,10 @@
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "重奏/公演/新興團體",
-      "structuredSummary": "重奏/公演/新興團體 / 口琴重奏 / 演出團體",
-      "summary": "「IniXial Harmonica Ensemble 源創口琴樂團」成立於2024年，由半音階口琴、倍低音口琴、和弦口琴等純口琴樂器組成，是個融合不同聲部的特殊編制重奏團體。團員除身為演奏者之外，同時具有創作編曲與現場演出能力。源創口琴樂團期許透過演出，呈現樂曲的原創概念以及熱愛音樂的初衷。 See the latest...",
-      "keywords": "IniXial Harmonica Ensemble 源創口琴樂團 IniXial 口琴樂團",
+      "cityOrFocus": "重奏/公演/新興團體/創作編曲",
+      "structuredSummary": "重奏/公演/新興團體/創作編曲 / 半音階/倍低音/和弦/口琴重奏 / 演出團體",
+      "summary": "成立於 2024 年的臺灣口琴重奏團體，由半音階、倍低音與和弦口琴組成，兼具創作編曲與現場演出能力。",
+      "keywords": "IniXial Harmonica Ensemble 源創口琴樂團 IniXial 口琴樂團 創作 編曲",
       "links": [
         {
           "label": "Facebook",
@@ -5437,6 +5456,10 @@
         {
           "label": "Instagram",
           "url": "https://www.instagram.com/inixial.muse/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@IniXialMuse"
         },
         {
           "label": "Threads",
@@ -5453,10 +5476,14 @@
       "sourceInitials": "IHE",
       "sourceTags": [
         "團體樂團",
-        "重奏"
+        "半音階",
+        "低音",
+        "和弦",
+        "重奏",
+        "演出"
       ],
-      "sourceSummary": "「IniXial Harmonica Ensemble 源創口琴樂團」成立於2024年，由半音階口琴、倍低音口琴、和弦口琴等純口琴樂器組成，是個融合不同聲部的特殊編制重奏團體。團員除身為演奏者之外，同時具有創作編曲與現場演出能力。源創口琴樂團期許透過演出，呈現樂曲的原創概念以及熱愛音樂的初衷。 See the latest...",
-      "sourceTagReason": "社群網站公開自我敘述。",
+      "sourceSummary": "成立於 2024 年的臺灣口琴重奏團體，由半音階、倍低音與和弦口琴組成，兼具創作編曲與現場演出能力。",
+      "sourceTagReason": "整合自樂團官方 Instagram、Facebook 與 YouTube 自介。",
       "monitorSources": [
         {
           "id": "fb_7112134202",
@@ -5493,6 +5520,15 @@
           "username": "inixial.muse",
           "profileUrl": "https://www.threads.net/@inixial.muse",
           "feedUrl": "https://rss.observe.tw/threads/inixial.muse"
+        },
+        {
+          "id": "yt_inixialmuse",
+          "name": "IniXial Harmonica Ensemble 源創口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@IniXialMuse",
+          "feedUrl": ""
         }
       ]
     },
@@ -11583,6 +11619,65 @@
       ]
     },
     {
+      "id": "watchlist-225",
+      "publicId": "225",
+      "name": "408 Harmonica Ensemble",
+      "nameEn": "408 Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "香港口琴六重奏/重奏/演出",
+      "structuredSummary": "香港口琴六重奏/重奏/演出 / 半音階/和弦/倍低音/口琴重奏 / 國際演出團體",
+      "summary": "香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。",
+      "keywords": "408 Harmonica Ensemble Hong Kong cy_long biscuit_1217 an_arthur__1 char1am_ ryaantheguy windh_y10 香港 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/408.harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/ab8417f459b57ad3eb05.webp",
+      "sourceInitials": "4HE",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "和弦",
+        "低音",
+        "重奏",
+        "演出"
+      ],
+      "sourceSummary": "香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。",
+      "sourceTagReason": "整合自團體官方 Instagram 自介與成員編制貼文。",
+      "monitorSources": [
+        {
+          "id": "ig_408_harmonica",
+          "name": "408 Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "408.harmonica",
+          "profileUrl": "https://www.instagram.com/408.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_408_harmonica",
+          "name": "408 Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "408.harmonica",
+          "profileUrl": "https://www.instagram.com/408.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/408.harmonica/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-124",
       "publicId": "124",
       "name": "Ausgelassen x Wesley Wong",
@@ -11721,6 +11816,94 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@harpdonuts",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-223",
+      "publicId": "223",
+      "name": "El Caminito 엘 까미니또",
+      "nameEn": "El Caminito",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "Nuevo Tango/世界音樂/口琴與鋼琴二重奏/作曲/演出",
+      "structuredSummary": "Nuevo Tango/世界音樂/口琴與鋼琴二重奏/作曲/演出 / 半音階口琴/鋼琴 / 國際演出團體/二重奏",
+      "summary": "韓國口琴與鋼琴 Nuevo Tango 二重奏，由口琴演奏者 최희중 與鋼琴家 명나영 組成。",
+      "keywords": "El Caminito 엘까미니또 최희중 명나영 harmonica piano Nuevo Tango Korea",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.cjazit.org/support/tune-up/entry/64/26710?p=26"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/duo.elcaminito/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/elcaminito_official/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCaHrTB0aiwNv-9wCSeB8eKg"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/8a5f8f506377e125491f.webp",
+      "sourceInitials": "EC",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "國際交流",
+        "重奏",
+        "演出"
+      ],
+      "sourceSummary": "韓國口琴與鋼琴 Nuevo Tango 二重奏，由口琴演奏者 최희중 與鋼琴家 명나영 組成。",
+      "sourceTagReason": "整合自官方 Instagram、Facebook、YouTube 與 CJ 文化財團介紹。",
+      "monitorSources": [
+        {
+          "id": "fb_duo_elcaminito",
+          "name": "El Caminito 엘 까미니또",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/duo.elcaminito",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_elcaminito_official",
+          "name": "El Caminito 엘 까미니또",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "elcaminito_official",
+          "profileUrl": "https://www.instagram.com/elcaminito_official/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_elcaminito_official",
+          "name": "El Caminito 엘 까미니또",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "elcaminito_official",
+          "profileUrl": "https://www.instagram.com/elcaminito_official/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/elcaminito_official/story/0"
+        },
+        {
+          "id": "yt_ucahrtb0aiwnv_9wcseb8ekg",
+          "name": "El Caminito 엘 까미니또",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCaHrTB0aiwNv-9wCSeB8eKg",
           "feedUrl": ""
         }
       ]
@@ -13177,6 +13360,98 @@
           "username": "kadaihamoban",
           "profileUrl": "https://x.com/kadaihamoban",
           "feedUrl": "https://rss.observe.tw/twitter/user/kadaihamoban"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-224",
+      "publicId": "224",
+      "name": "Easttop Harmonicas",
+      "nameEn": "Easttop Harmonicas",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌/樂器製造商",
+      "country": "中國",
+      "region": "中國/江蘇/無錫/江陰",
+      "cityOrFocus": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節",
+      "structuredSummary": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節 / 口琴 / 器材品牌/活動主辦單位",
+      "summary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
+      "keywords": "Easttop EAST TOP Jiangsu East Musical Instrument APHF Huaxia Harmonica Festival 口琴 品牌",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://easttop-harmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/EasttopMusic/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/easttopharmonicas/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@easttopmusic"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@easttopharmonicaofficial"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/f178282cf492ad415c33.webp",
+      "sourceInitials": "EH",
+      "sourceTags": [
+        "品牌",
+        "器材",
+        "活動資訊",
+        "音樂節",
+        "國際交流"
+      ],
+      "sourceSummary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
+      "sourceTagReason": "整合自 Easttop 官網、官方 Linktree、Instagram 與 YouTube 自介。",
+      "monitorSources": [
+        {
+          "id": "fb_easttopmusic",
+          "name": "Easttop Harmonicas",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/EasttopMusic",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_easttopharmonicas",
+          "name": "Easttop Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "easttopharmonicas",
+          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_easttopharmonicas",
+          "name": "Easttop Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "easttopharmonicas",
+          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/easttopharmonicas/story/0"
+        },
+        {
+          "id": "yt_easttopmusic",
+          "name": "Easttop Harmonicas",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@easttopmusic",
+          "feedUrl": ""
         }
       ]
     },
