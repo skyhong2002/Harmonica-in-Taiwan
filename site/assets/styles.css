@@ -1797,6 +1797,91 @@ button.feed-tag-pill {
   background: #f3f5f4;
 }
 
+.report-options-band {
+  padding: 28px 0 4px;
+  background: #f3f5f4;
+}
+
+.report-options-header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.report-options-header h2 {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.report-kind-options {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.report-kind-options a,
+.report-clear-link {
+  color: var(--teal-deep);
+  font-weight: 850;
+  text-decoration: none;
+}
+
+.report-kind-options a {
+  min-height: 44px;
+  padding: 11px 12px;
+  text-align: center;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+
+.report-kind-options a:hover,
+.report-kind-options a:focus-visible {
+  color: var(--ink);
+  background: #edf4f0;
+  border-color: var(--teal);
+}
+
+.report-prefill-summary {
+  display: grid;
+  gap: 4px;
+  margin-top: 14px;
+  padding: 14px 16px;
+  color: var(--ink);
+  background: #eef7f2;
+  border-left: 4px solid var(--teal);
+}
+
+.report-prefill-summary[hidden] {
+  display: none;
+}
+
+.report-prefill-summary p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.context-report-link {
+  color: var(--teal-deep);
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.feed-card-links,
+.score-source-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px 12px;
+}
+
+.entry-links .context-report-link {
+  color: var(--teal-deep);
+}
+
 .google-form-inner {
   width: min(960px, calc(100% - 32px));
   margin: 0 auto;
@@ -2855,26 +2940,29 @@ button.feed-tag-pill {
   }
 
   .site-nav {
-    display: flex;
+    display: grid;
     flex: 1 1 100%;
-    flex-wrap: nowrap;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     align-items: center;
-    justify-content: space-between;
     gap: 4px;
+    width: 100%;
     min-width: 0;
-    overflow-x: auto;
-    scrollbar-width: none;
-  }
-
-  .site-nav::-webkit-scrollbar {
-    display: none;
   }
 
   .site-nav a {
-    flex: 0 0 auto;
-    padding: 6px 8px;
+    min-width: 0;
+    padding: 6px 4px;
+    text-align: center;
     font-size: 0.9rem;
     white-space: nowrap;
+  }
+
+  .report-options-header {
+    align-items: start;
+  }
+
+  .report-kind-options {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .hero {
@@ -3011,6 +3099,10 @@ button.feed-tag-pill {
 
   .google-form-inner {
     width: 100%;
+  }
+
+  .report-options-band .google-form-inner {
+    width: calc(100% - 32px);
   }
 
   .google-form-frame {

@@ -1,0 +1,18 @@
+{
+  "entryIds": {
+    "desired": "1465163365",
+    "event": "1331967389",
+    "extra": "1024246829",
+    "kind": "1403301262",
+    "name": "1438102442",
+    "page": "1174997999",
+    "source": "118743945"
+  },
+  "kindLabels": {
+    "add-source": "新增來源或社團",
+    "correct": "修正既有資料",
+    "event": "新增活動、比賽或補助資訊",
+    "remove": "移除或停止收錄"
+  },
+  "responderUri": "https://docs.google.com/forms/d/e/1FAIpQLSe8hVzkjRzG7gk5uj_zVwF4mYHV61G5164J0pNfctpPcdid9Q/viewform"
+}

@@ -21,6 +21,7 @@ from pathlib import Path
 from typing import Any
 
 import public_tags
+import report_links
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -2104,6 +2105,24 @@ def render_home_feed_item(item: dict[str, Any], index: int = 0) -> str:
     engagement_html = render_home_engagement(item)
     meta_html = f'<div class="entry-meta">{tag_html}{engagement_html}</div>' if tag_html or engagement_html else ""
     title_html = f'<h3 class="home-feed-title">{html_escape(display_title)}</h3>' if display_title else ""
+    report_context = "\n".join(
+        value
+        for value in (
+            f"來源：{item.get('source') or '未標示'}",
+            f"平台：{item.get('platform_label') or item.get('platform') or '未標示'}",
+            f"發布時間：{item.get('posted_at_local') or item.get('posted_at') or '未標示'}",
+            f"目前標籤：{'、'.join(item.get('matched_keywords') or [])}" if item.get("matched_keywords") else "",
+            "請確認這則公開更新的來源、分類與顯示內容；若包含活動，也請確認日期、地點與日曆資訊。",
+        )
+        if value
+    )
+    report_href = report_links.report_url(
+        "correct",
+        name="｜".join(value for value in (item.get("source"), display_title) if value) or "公開更新",
+        source=item.get("link"),
+        page=item.get("report_page") or "/post/",
+        desired=report_context,
+    )
     return f"""
       <article class="home-feed-card">
         <div class="home-feed-source">
@@ -2119,7 +2138,10 @@ def render_home_feed_item(item: dict[str, Any], index: int = 0) -> str:
         </div>
         <div class="home-feed-footer">
           {meta_html}
-          <a class="feed-open-link" href="{html_escape(item.get("link"))}" target="_blank" rel="noreferrer">開啟來源</a>
+          <div class="feed-card-links">
+            <a class="context-report-link" href="{html_escape(report_href)}">回報這筆資料</a>
+            <a class="feed-open-link" href="{html_escape(item.get("link"))}" target="_blank" rel="noreferrer">開啟來源</a>
+          </div>
         </div>
       </article>
     """
@@ -2490,6 +2512,21 @@ def render_pagination_nav(current_page: int, total_pages: int) -> str:
 """
 
 
+def modernize_submission_links(page: str) -> str:
+    updated = page.replace(
+        "請先看回報頁整理需要準備的公開來源，再送出 GitHub 表單。",
+        "請從內容旁的「回報這筆資料」開始，或直接開啟免登入的 Google 表單。",
+    ).replace(
+        '<a href="https://github.com/skyhong2002/Harmonica-in-Taiwan/issues" target="_blank" rel="noreferrer">查看處理中的回報</a>',
+        '<a href="/submit/?kind=add-source">新增來源或頻道</a>',
+    )
+    nav_anchor = '        <a href="/status/">狀態</a>'
+    nav_with_report = f'{nav_anchor}\n        <a href="/submit/">資料回報</a>'
+    if nav_anchor in updated and nav_with_report not in updated:
+        updated = updated.replace(nav_anchor, nav_with_report, 1)
+    return updated
+
+
 def write_homepage_latest(public_rows: list[dict[str, Any]], categorized: dict[str, list[dict[str, Any]]], window_days: int) -> None:
     start = "            <!-- FEED_LATEST_START -->"
     end = "            <!-- FEED_LATEST_END -->"
@@ -2512,7 +2549,10 @@ def write_homepage_latest(public_rows: list[dict[str, Any]], categorized: dict[s
         if start in text and end in text:
             before, rest = text.split(start, 1)
             _, after = rest.split(end, 1)
-            HOME_PAGE.write_text(f"{before}{start}\n{latest_html_home}\n            {end}{after}", encoding="utf-8")
+            HOME_PAGE.write_text(
+                modernize_submission_links(f"{before}{start}\n{latest_html_home}\n            {end}{after}"),
+                encoding="utf-8",
+            )
 
     # 2. Update site/post/index.html
     pagination_nav_p1 = render_pagination_nav(1, total_pages)
@@ -2530,7 +2570,10 @@ def write_homepage_latest(public_rows: list[dict[str, Any]], categorized: dict[s
         if start in text and end in text:
             before, rest = text.split(start, 1)
             _, after = rest.split(end, 1)
-            posts_page.write_text(f"{before}{start}\n{latest_html_post}\n            {end}{after}", encoding="utf-8")
+            posts_page.write_text(
+                modernize_submission_links(f"{before}{start}\n{latest_html_post}\n            {end}{after}"),
+                encoding="utf-8",
+            )
 
     # 3. Generate static pagination pages for 2, 3, etc.
     for p in range(2, total_pages + 1):
@@ -2548,7 +2591,7 @@ def write_homepage_latest(public_rows: list[dict[str, Any]], categorized: dict[s
         )
         latest_html_p = "\n".join(line.rstrip() for line in latest_html_p.splitlines())
 
-        baseline_text = posts_page.read_text(encoding="utf-8")
+        baseline_text = modernize_submission_links(posts_page.read_text(encoding="utf-8"))
         baseline_text = baseline_text.replace(
             '<link rel="canonical" href="https://harmonica.observe.tw/post/">',
             f'<link rel="canonical" href="https://harmonica.observe.tw/post/page/{p}/">'
@@ -2578,6 +2621,17 @@ def render_update_cards(items: list[dict[str, Any]]) -> str:
             if image
             else ""
         )
+        report_href = report_links.report_url(
+            "correct",
+            name="｜".join(
+                value
+                for value in (item.get("source"), item.get("headline") or item.get("title"))
+                if value
+            ),
+            source=item.get("link"),
+            page="/post/",
+            desired="請確認這則公開更新的來源、分類與顯示內容；若包含活動，也請確認日期、地點與日曆資訊。",
+        )
         cards.append(
             f"""
             <article class="feed-item-card">
@@ -2591,7 +2645,10 @@ def render_update_cards(items: list[dict[str, Any]]) -> str:
               </div>
               <div class="feed-item-actions">
                 <div class="entry-meta">{keywords}</div>
-                <a class="primary-link" href="{html_escape(item.get("link"))}" target="_blank" rel="noreferrer">開啟來源</a>
+                <div class="feed-card-links">
+                  <a class="context-report-link" href="{html_escape(report_href)}">回報這筆資料</a>
+                  <a class="primary-link" href="{html_escape(item.get("link"))}" target="_blank" rel="noreferrer">開啟來源</a>
+                </div>
               </div>
             </article>
             """
@@ -2642,6 +2699,7 @@ def render_feed_page(category: dict[str, str], items: list[dict[str, Any]]) -> s
         <a href="/source/">公開來源</a>
         <a href="/scores/">比賽指定曲</a>
         <a href="/status/">狀態</a>
+        <a href="/submit/">資料回報</a>
       </nav>
     </header>
 
@@ -2712,6 +2770,7 @@ def render_feed_index(categorized: dict[str, list[dict[str, Any]]]) -> str:
         <a href="/source/">公開來源</a>
         <a href="/scores/">比賽指定曲</a>
         <a href="/status/">狀態</a>
+        <a href="/submit/">資料回報</a>
       </nav>
     </header>
 

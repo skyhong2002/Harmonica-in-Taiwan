@@ -17,6 +17,7 @@ from pathlib import Path
 from typing import Any
 
 import generate_rss_feeds as feed_render
+import report_links
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SITE_ROOT = PROJECT_ROOT / "site"
@@ -58,6 +59,7 @@ HEADER_HTML = """    <header class="site-header">
         <a href="/source/">公開來源</a>
         <a href="/scores/">比賽指定曲</a>
         <a href="/status/">狀態</a>
+        <a href="/submit/">資料回報</a>
       </nav>
     </header>"""
 
@@ -622,6 +624,26 @@ def generate_source_page(
     else:
         links_html = '<p style="color: var(--text-muted, #666);">暫無公開社群連結</p>'
 
+    primary_link = next((clean(link.get("url")) for link in links if clean(link.get("url"))), "")
+    report_context = "\n".join(
+        value
+        for value in (
+            f"目前類型：{clean(entry.get('type') or entry.get('category')) or '未標示'}",
+            f"目前國家：{clean(entry.get('country'))}" if clean(entry.get("country")) else "",
+            f"目前地區：{clean(entry.get('region'))}" if clean(entry.get("region")) else "",
+            f"目前標籤：{'、'.join(clean(tag) for tag in (entry.get('sourceTags') or []) if clean(tag))}" if entry.get("sourceTags") else "",
+            "請確認名稱、類型、地區、公開連結與公開更新監看狀態，並修正缺漏、錯誤或失效內容。",
+        )
+        if value
+    )
+    report_href = report_links.report_url(
+        "correct",
+        name=entry.get("name"),
+        source=primary_link,
+        page=f"/source/{slug}/",
+        desired=report_context,
+    )
+
     og_image = f"https://harmonica.observe.tw{avatar_url}" if avatar_url and avatar_url.startswith("/") else "https://harmonica.observe.tw/assets/hero-harmonica-observe.webp"
 
     # Related Updates Section
@@ -715,6 +737,7 @@ def generate_source_page(
             <div class="feed-links">
               <a href="/source/">返回公開來源列表</a>
               <a href="/">前往首頁</a>
+              <a class="context-report-link" href="{escape(report_href)}">回報這個來源</a>
             </div>
           </div>
         </div>
@@ -920,6 +943,23 @@ def generate_event_page(event: dict[str, Any], source_by_name: dict[str, dict[st
     location_row = f'<tr><th scope="row" style="width: 25%; padding: 10px; text-align: left; font-weight: bold; border-bottom: 1px solid var(--border-color, #e0e0e0);">地點</th><td style="padding: 10px; border-bottom: 1px solid var(--border-color, #e0e0e0);">{location}</td></tr>' if location else ""
     source_row = f'<tr><th scope="row" style="width: 25%; padding: 10px; text-align: left; font-weight: bold; border-bottom: 1px solid var(--border-color, #e0e0e0);">資訊來源</th><td style="padding: 10px; border-bottom: 1px solid var(--border-color, #e0e0e0);">{source}</td></tr>' if source else ""
     details_row = f'<tr><th scope="row" style="width: 25%; padding: 10px; text-align: left; font-weight: bold; border-bottom: 1px solid var(--border-color, #e0e0e0);">活動說明</th><td style="padding: 10px; border-bottom: 1px solid var(--border-color, #e0e0e0);">{details}</td></tr>' if details else ""
+    event_report_href = report_links.report_url(
+        "correct",
+        name=event.get("title") or event.get("eventName") or "公開口琴活動",
+        source=evidence_url,
+        page=f"/event/{clean(event.get('id'))}/",
+        desired="請確認活動名稱、時間、地點、主辦單位、分類與日曆資訊，並修正缺漏或異動。",
+        event="\n".join(
+            value
+            for value in (
+                f"日期時間：{clean(event.get('start'))}" if clean(event.get("start")) else "",
+                f"結束時間：{clean(event.get('end'))}" if clean(event.get("end")) else "",
+                f"地點：{clean(event.get('location'))}" if clean(event.get("location")) else "",
+                f"主辦／來源：{clean(event.get('source'))}" if clean(event.get("source")) else "",
+            )
+            if value
+        ),
+    )
 
     action_button = ""
     if evidence_url:
@@ -982,6 +1022,7 @@ def generate_event_page(event: dict[str, Any], source_by_name: dict[str, dict[st
             <div class="feed-links">
               <a href="/">返回演出日曆</a>
               <a href="/post/">看公開貼文</a>
+              <a class="context-report-link" href="{escape(event_report_href)}">回報活動異動</a>
             </div>
           </div>
         </div>
@@ -1456,6 +1497,14 @@ def render_static_source_index_card(entry: dict[str, Any]) -> str:
         if url:
             links.append(f'<a href="{url}" target="_blank" rel="noreferrer">{label}</a>')
     links_html = "".join(links)
+    primary_link = next((clean(link.get("url")) for link in (entry.get("links") or []) if clean(link.get("url"))), "")
+    report_href = report_links.report_url(
+        "correct",
+        name=entry.get("name"),
+        source=primary_link,
+        page=f"/source/{slug}/",
+        desired="請確認名稱、類型、地區、公開連結與公開更新監看狀態，並修正缺漏、錯誤或失效內容。",
+    )
     return f"""
       <article class="entry-card">
         <div class="entry-title-block">
@@ -1464,7 +1513,7 @@ def render_static_source_index_card(entry: dict[str, Any]) -> str:
         </div>
         <div class="entry-context"><span>{category}</span>{location_html}</div>
         <p class="entry-summary">{summary}</p>
-        <div class="entry-links"><a href="/source/{slug}/">詳細資料</a>{links_html}</div>
+        <div class="entry-links"><a href="/source/{slug}/">詳細資料</a>{links_html}<a class="context-report-link" href="{escape(report_href)}">回報</a></div>
       </article>
 """
 
@@ -1564,6 +1613,7 @@ def generate_source_index_base_page() -> str:
             <div class="feed-links">
               <a href="/feeds/sources.xml">RSS 訂閱</a>
               <a href="/api/sources.json">JSON</a>
+              <a href="/submit/?kind=add-source">新增來源或頻道</a>
             </div>
           </div>
         </div>

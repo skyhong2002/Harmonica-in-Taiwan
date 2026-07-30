@@ -13,6 +13,8 @@ from typing import Any
 
 DEFAULT_FORM_ID = "1yU36b4wOEH2nUXNicFEdWTWYjAUjdTnNEE9Q45lQCP8"
 RESPONDER_URI = "https://docs.google.com/forms/d/e/1FAIpQLSe8hVzkjRzG7gk5uj_zVwF4mYHV61G5164J0pNfctpPcdid9Q/viewform"
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PUBLIC_CONFIG_PATH = PROJECT_ROOT / "data" / "submission-form-public.json"
 FORM_TITLE = "臺灣口琴觀測站資料回報"
 FORM_DESCRIPTION = (
     "回報公開口琴活動、社團、演奏者、教學單位、場館與社群來源。"
@@ -120,9 +122,51 @@ FORM_ITEMS = [
     ),
 ]
 
+KIND_LABELS = {
+    "add-source": "新增來源或社團",
+    "correct": "修正既有資料",
+    "event": "新增活動、比賽或補助資訊",
+    "remove": "移除或停止收錄",
+}
+PUBLIC_ENTRY_KEYS = {
+    "回報類型": "kind",
+    "名稱": "name",
+    "主要公開來源 URL": "source",
+    "目前的觀測站頁面或 public_id": "page",
+    "希望網站最後怎麼呈現": "desired",
+    "活動日期、地點與主辦單位": "event",
+    "補充公開來源": "extra",
+}
+
 
 def item_titles(items: list[dict[str, Any]]) -> list[str]:
     return [str(item.get("title") or "") for item in items]
+
+
+def public_entry_ids(items: list[dict[str, Any]]) -> dict[str, str]:
+    result: dict[str, str] = {}
+    for item in items:
+        key = PUBLIC_ENTRY_KEYS.get(str(item.get("title") or ""))
+        question_id = item.get("questionItem", {}).get("question", {}).get("questionId")
+        if key and question_id:
+            result[key] = str(question_id)
+    missing = sorted(set(PUBLIC_ENTRY_KEYS.values()) - set(result))
+    if missing:
+        raise ValueError(f"Published form is missing public entry IDs: {', '.join(missing)}")
+    return result
+
+
+def write_public_config(form: dict[str, Any]) -> dict[str, Any]:
+    config = {
+        "entryIds": public_entry_ids(form.get("items", [])),
+        "kindLabels": KIND_LABELS,
+        "responderUri": form.get("responderUri") or RESPONDER_URI,
+    }
+    PUBLIC_CONFIG_PATH.write_text(
+        json.dumps(config, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
+    return config
 
 
 def build_requests(existing_items: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -261,6 +305,7 @@ def main() -> int:
             "Published responder URI differs from the checked-in site configuration: "
             f"{updated.get('responderUri')!r}"
         )
+    public_config = write_public_config(updated)
     output = {
         "formId": updated.get("formId"),
         "title": updated.get("info", {}).get("title"),
@@ -268,6 +313,7 @@ def main() -> int:
         "linkedSheetId": updated.get("linkedSheetId"),
         "publishSettings": updated.get("publishSettings"),
         "responderUri": updated.get("responderUri"),
+        "publicEntryIds": public_config["entryIds"],
     }
     print(json.dumps(output, ensure_ascii=False, indent=2))
     return 0

@@ -856,6 +856,7 @@ def render_status_page(status: dict[str, Any]) -> str:
         <a href="/source/">公開來源</a>
         <a href="/scores/">比賽指定曲</a>
         <a href="/status/">狀態</a>
+        <a href="/submit/">資料回報</a>
       </nav>
     </header>
 

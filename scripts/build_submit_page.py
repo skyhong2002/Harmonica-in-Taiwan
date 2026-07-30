@@ -3,6 +3,8 @@
 
 from __future__ import annotations
 
+import html
+import json
 import sys
 from pathlib import Path
 
@@ -15,12 +17,20 @@ from scripts.configure_submission_form import FORM_TITLE, RESPONDER_URI
 
 TEMPLATE_PATH = PROJECT_ROOT / "templates" / "submit.html"
 OUTPUT_PATH = PROJECT_ROOT / "site" / "submit" / "index.html"
+PUBLIC_CONFIG_PATH = PROJECT_ROOT / "data" / "submission-form-public.json"
 
 
 def render_submit_page() -> str:
     template = TEMPLATE_PATH.read_text(encoding="utf-8")
+    public_config = json.loads(PUBLIC_CONFIG_PATH.read_text(encoding="utf-8"))
+    if public_config.get("responderUri") != RESPONDER_URI:
+        raise ValueError("Submission form responder URI differs from public configuration")
     rendered = template.replace("__GOOGLE_FORM_URL__", RESPONDER_URI)
     rendered = rendered.replace("__GOOGLE_FORM_TITLE__", FORM_TITLE)
+    rendered = rendered.replace(
+        "__GOOGLE_FORM_PUBLIC_CONFIG__",
+        html.escape(json.dumps(public_config, ensure_ascii=False), quote=False),
+    )
     if "__GOOGLE_FORM_" in rendered:
         raise ValueError("Unresolved Google Form placeholder in submit template")
     return rendered

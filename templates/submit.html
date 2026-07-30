@@ -36,7 +36,7 @@
     }
     </script>
     <link rel="icon" href="/assets/favicon-20260623.svg?v=20260704-avatar" type="image/svg+xml">
-    <link rel="stylesheet" href="/assets/styles.css?v=20260715-google-form">
+    <link rel="stylesheet" href="/assets/styles.css?v=20260730-report-prefill">
   </head>
   <body>
     <header class="site-header">
@@ -48,6 +48,7 @@
         <a href="/source/">公開來源</a>
         <a href="/scores/">比賽指定曲</a>
         <a href="/status/">狀態</a>
+        <a href="/submit/" aria-current="page">資料回報</a>
       </nav>
     </header>
 
@@ -64,6 +65,28 @@
         </div>
       </section>
 
+      <section class="report-options-band" aria-labelledby="report-options-title">
+        <div class="google-form-inner">
+          <div class="report-options-header">
+            <div>
+              <p class="section-kicker">Quick Report</p>
+              <h2 id="report-options-title">選擇回報內容</h2>
+            </div>
+            <a class="report-clear-link" href="/submit/" data-report-clear hidden>清除預填</a>
+          </div>
+          <nav class="report-kind-options" aria-label="回報類型">
+            <a href="/submit/?kind=add-source">新增來源或頻道</a>
+            <a href="/submit/?kind=correct">修正既有資料</a>
+            <a href="/submit/?kind=event">新增活動資訊</a>
+            <a href="/submit/?kind=remove">停止或合併收錄</a>
+          </nav>
+          <div class="report-prefill-summary" data-report-prefill-summary hidden>
+            <strong data-report-prefill-title>已帶入相關資料</strong>
+            <p data-report-prefill-fields></p>
+          </div>
+        </div>
+      </section>
+
       <section class="google-form-band" aria-label="臺灣口琴觀測站資料回報表單">
         <div class="google-form-inner">
           <iframe
@@ -72,10 +95,11 @@
             title="__GOOGLE_FORM_TITLE__"
             loading="eager"
             referrerpolicy="strict-origin-when-cross-origin"
+            data-report-form-frame
           >載入中…</iframe>
           <p class="google-form-fallback">
             表單沒有顯示時，請
-            <a href="__GOOGLE_FORM_URL__" target="_blank" rel="noreferrer">開啟 Google 表單</a>。
+            <a href="__GOOGLE_FORM_URL__" target="_blank" rel="noreferrer" data-report-form-link>開啟已預填的 Google 表單</a>。
           </p>
         </div>
       </section>
@@ -97,5 +121,7 @@
         <p class="footer-meta">只收錄公開可查資料 · 由 <a href="https://www.facebook.com/nycubmhc/" target="_blank" rel="noreferrer">陽明交大竹韻口琴社</a> 維運 · MIT License · © 2026 Sky Hong</p>
       </div>
     </footer>
+    <script id="submission-form-public-config" type="application/json">__GOOGLE_FORM_PUBLIC_CONFIG__</script>
+    <script src="/assets/report-form.js?v=20260730"></script>
   </body>
 </html>
