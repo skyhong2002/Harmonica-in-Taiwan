@@ -2,6 +2,81 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-31",
   "entries": [
     {
+      "id": "watchlist-33",
+      "publicId": "33",
+      "name": "黃冠誌",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
+      "structuredSummary": "天狼星/胖擊系/和弦口琴/重奏 / 和弦/重奏 / 演出人員",
+      "summary": "口琴演奏者，專長和弦口琴與重奏演出。",
+      "keywords": "黃冠誌 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/kuanchih/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hk91f06/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-30T16:00:33+00:00",
+      "latestUpdateLocal": "2026-07-31 00:00",
+      "latestUpdateSource": "黃冠誌",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3952772625411405499/",
+      "avatarUrl": "/assets/source-avatars/58cd7a6c4fe4aba53011.webp",
+      "sourceInitials": "黃冠",
+      "sourceTags": [
+        "演奏者",
+        "合奏",
+        "和弦",
+        "重奏",
+        "演出"
+      ],
+      "sourceSummary": "口琴演奏者，專長和弦口琴與重奏演出。",
+      "sourceTagReason": "來源明確標示為個人與演奏者，且專長涉及和弦、重奏與演出。",
+      "monitorSources": [
+        {
+          "id": "ig_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
+        },
+        {
+          "id": "yt_cbd128e3de",
+          "name": "黃冠誌",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-132",
       "publicId": "132",
       "name": "Antonio Serrano",
@@ -82,6 +157,86 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@antonioserranoofficial",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-93",
+      "publicId": "93",
+      "name": "RedBricks Harmonica",
+      "nameEn": "RedBricks Harmonica",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "國際團體/參考來源",
+      "country": "香港",
+      "region": "香港/國際",
+      "cityOrFocus": "國際口琴重奏/臺港交流",
+      "structuredSummary": "國際口琴重奏/臺港交流 / 口琴重奏 / 國際演出團體",
+      "summary": "香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。",
+      "keywords": "RedBricks Harmonica 香港口琴五重奏 harmonica ensemble",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/redbricksharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/redbricksharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@RedBricksHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-30T14:56:03+00:00",
+      "latestUpdateLocal": "2026-07-30 22:56",
+      "latestUpdateSource": "RedBricks Harmonica",
+      "latestUpdateUrl": "https://www.instagram.com/stories/redbricksharmonica/3952740126048792978/",
+      "avatarUrl": "/assets/source-avatars/f993ac0bfc49363b4a15.webp",
+      "sourceInitials": "RH",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_redbricksharmonica",
+          "name": "RedBricks Harmonica",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/redbricksharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_redbricksharmonica",
+          "name": "RedBricks Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "redbricksharmonica",
+          "profileUrl": "https://www.instagram.com/redbricksharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_redbricksharmonica",
+          "name": "RedBricks Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "redbricksharmonica",
+          "profileUrl": "https://www.instagram.com/redbricksharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/redbricksharmonica/story/0"
+        },
+        {
+          "id": "yt_redbricksharmonica",
+          "name": "RedBricks Harmonica",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@RedBricksHarmonica",
           "feedUrl": ""
         }
       ]
@@ -594,10 +749,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-07-30T14:20:12+00:00",
+      "latestUpdateAt": "2026-07-30T14:20:28+00:00",
       "latestUpdateLocal": "2026-07-30 22:20",
       "latestUpdateSource": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dba4x2qFJbP/",
+      "latestUpdateUrl": "https://www.instagram.com/stories/judys.harmonica.ensemble/3952722213277854780/",
       "avatarUrl": "/assets/source-avatars/5838d7cd4d79864f756c.webp",
       "sourceInitials": "JSH",
       "sourceTags": [
@@ -2616,81 +2771,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "damingtsai",
           "profileUrl": "https://www.instagram.com/damingtsai/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-33",
-      "publicId": "33",
-      "name": "黃冠誌",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
-      "structuredSummary": "天狼星/胖擊系/和弦口琴/重奏 / 和弦/重奏 / 演出人員",
-      "summary": "口琴演奏者，專長和弦口琴與重奏演出。",
-      "keywords": "黃冠誌 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/kuanchih/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hk91f06/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-30T03:44:30+00:00",
-      "latestUpdateLocal": "2026-07-30 11:44",
-      "latestUpdateSource": "黃冠誌",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3952402128069321323/",
-      "avatarUrl": "/assets/source-avatars/58cd7a6c4fe4aba53011.webp",
-      "sourceInitials": "黃冠",
-      "sourceTags": [
-        "演奏者",
-        "合奏",
-        "和弦",
-        "重奏",
-        "演出"
-      ],
-      "sourceSummary": "口琴演奏者，專長和弦口琴與重奏演出。",
-      "sourceTagReason": "來源明確標示為個人與演奏者，且專長涉及和弦、重奏與演出。",
-      "monitorSources": [
-        {
-          "id": "ig_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
-        },
-        {
-          "id": "yt_cbd128e3de",
-          "name": "黃冠誌",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
-          "feedUrl": ""
         }
       ]
     },
@@ -5697,86 +5777,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@IniXialMuse",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-93",
-      "publicId": "93",
-      "name": "RedBricks Harmonica",
-      "nameEn": "RedBricks Harmonica",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "國際團體/參考來源",
-      "country": "香港",
-      "region": "香港/國際",
-      "cityOrFocus": "國際口琴重奏/臺港交流",
-      "structuredSummary": "國際口琴重奏/臺港交流 / 口琴重奏 / 國際演出團體",
-      "summary": "香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。",
-      "keywords": "RedBricks Harmonica 香港口琴五重奏 harmonica ensemble",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/redbricksharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/redbricksharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@RedBricksHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-26T11:08:30+00:00",
-      "latestUpdateLocal": "2026-07-26 19:08",
-      "latestUpdateSource": "RedBricks Harmonica",
-      "latestUpdateUrl": "https://www.instagram.com/stories/redbricksharmonica/3949726492481110715/",
-      "avatarUrl": "/assets/source-avatars/f993ac0bfc49363b4a15.webp",
-      "sourceInitials": "RH",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_redbricksharmonica",
-          "name": "RedBricks Harmonica",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/redbricksharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_redbricksharmonica",
-          "name": "RedBricks Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "redbricksharmonica",
-          "profileUrl": "https://www.instagram.com/redbricksharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_redbricksharmonica",
-          "name": "RedBricks Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "redbricksharmonica",
-          "profileUrl": "https://www.instagram.com/redbricksharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/redbricksharmonica/story/0"
-        },
-        {
-          "id": "yt_redbricksharmonica",
-          "name": "RedBricks Harmonica",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@RedBricksHarmonica",
           "feedUrl": ""
         }
       ]
