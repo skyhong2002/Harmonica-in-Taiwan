@@ -173,6 +173,103 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-57",
+      "publicId": "57",
+      "name": "山下伶 Rei Yamashita",
+      "nameEn": "Rei Yamashita",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/演出",
+      "structuredSummary": "半音階/專輯/演出 / 半音階 / 國際演出人員",
+      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯與演出。",
+      "keywords": "山下伶 Rei Yamashita harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://rei-yamashita.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/rei.yamashita.5"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/rei_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@reiyamashita"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/rei_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-30T06:48:55+00:00",
+      "latestUpdateLocal": "2026-07-30 14:48",
+      "latestUpdateSource": "山下伶 Rei Yamashita",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbaFJMoE6x7/",
+      "avatarUrl": "/assets/source-avatars/eef30e1c8257053c8828.webp",
+      "sourceInitials": "RY",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_rei_yamashita_5",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/rei.yamashita.5",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "rei_harmonica",
+          "profileUrl": "https://www.instagram.com/rei_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "rei_harmonica",
+          "profileUrl": "https://www.instagram.com/rei_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/rei_harmonica/story/0"
+        },
+        {
+          "id": "x_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "x",
+          "type": "rss",
+          "username": "rei_harmonica",
+          "profileUrl": "https://x.com/rei_harmonica",
+          "feedUrl": "https://rss.observe.tw/twitter/user/rei_harmonica"
+        },
+        {
+          "id": "yt_reiyamashita",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@reiyamashita",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-66",
       "publicId": "66",
       "name": "Younghoon Cho",
@@ -815,6 +912,101 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@keriw128",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-78",
+      "publicId": "78",
+      "name": "衛武營國家藝術文化中心",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "衛武營 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-weiwuying.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@weiwuyingfilm"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@weiwuying_centerforthearts"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-30T00:58:52+00:00",
+      "latestUpdateLocal": "2026-07-30 08:58",
+      "latestUpdateSource": "衛武營國家藝術文化中心",
+      "latestUpdateUrl": "https://www.instagram.com/stories/weiwuying_centerforthearts/3952318754326337314/",
+      "avatarUrl": "/assets/source-avatars/9a000b7ac5c577150788.webp",
+      "sourceInitials": "衛武",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_weiwuyingcenterforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
+        },
+        {
+          "id": "ig_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "threads",
+          "type": "rss",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
+          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
+        },
+        {
+          "id": "yt_weiwuyingfilm",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@weiwuyingfilm",
           "feedUrl": ""
         }
       ]
@@ -2649,103 +2841,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-57",
-      "publicId": "57",
-      "name": "山下伶 Rei Yamashita",
-      "nameEn": "Rei Yamashita",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/演出",
-      "structuredSummary": "半音階/專輯/演出 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯與演出。",
-      "keywords": "山下伶 Rei Yamashita harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://rei-yamashita.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/rei.yamashita.5"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/rei_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@reiyamashita"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/rei_harmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-29T09:21:06+00:00",
-      "latestUpdateLocal": "2026-07-29 17:21",
-      "latestUpdateSource": "山下伶 Rei Yamashita",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbXw2QFk98U/",
-      "avatarUrl": "/assets/source-avatars/eef30e1c8257053c8828.webp",
-      "sourceInitials": "RY",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_rei_yamashita_5",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/rei.yamashita.5",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "rei_harmonica",
-          "profileUrl": "https://www.instagram.com/rei_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "rei_harmonica",
-          "profileUrl": "https://www.instagram.com/rei_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/rei_harmonica/story/0"
-        },
-        {
-          "id": "x_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "x",
-          "type": "rss",
-          "username": "rei_harmonica",
-          "profileUrl": "https://x.com/rei_harmonica",
-          "feedUrl": "https://rss.observe.tw/twitter/user/rei_harmonica"
-        },
-        {
-          "id": "yt_reiyamashita",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@reiyamashita",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-109",
       "publicId": "109",
       "name": "Boris Plotnikov",
@@ -2913,101 +3008,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/YoonseokLee_HARMONICA",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-78",
-      "publicId": "78",
-      "name": "衛武營國家藝術文化中心",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/高雄",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "衛武營 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-weiwuying.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@weiwuyingfilm"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@weiwuying_centerforthearts"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-29T08:13:45+00:00",
-      "latestUpdateLocal": "2026-07-29 16:13",
-      "latestUpdateSource": "衛武營國家藝術文化中心",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=OE3YXwl-5mE",
-      "avatarUrl": "/assets/source-avatars/9a000b7ac5c577150788.webp",
-      "sourceInitials": "衛武",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_weiwuyingcenterforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
-        },
-        {
-          "id": "ig_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "threads",
-          "type": "rss",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
-          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
-        },
-        {
-          "id": "yt_weiwuyingfilm",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@weiwuyingfilm",
           "feedUrl": ""
         }
       ]
