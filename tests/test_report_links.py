@@ -81,7 +81,7 @@ class ReportLinkTests(unittest.TestCase):
         self.assertIn("%E6%B8%AC%E8%A9%A6%E5%8F%A3%E7%90%B4%E9%A0%BB%E9%81%93", rendered)
         self.assertIn("https%3A%2F%2Fexample.com%2Fwatch%3Fv%3D123", rendered)
 
-    def test_generated_source_card_prefills_source_context(self):
+    def test_generated_source_index_card_omits_redundant_report_link(self):
         rendered = generate_seo_pages.render_static_source_index_card(
             {
                 "id": "watchlist-77",
@@ -93,13 +93,9 @@ class ReportLinkTests(unittest.TestCase):
                 "links": [{"label": "Instagram", "url": "https://instagram.com/test"}],
             }
         )
-        self.assertIn('class="context-report-link"', rendered)
-        self.assertIn("kind=correct", rendered)
-        self.assertIn("https%3A%2F%2Finstagram.com%2Ftest", rendered)
-        self.assertIn(
-            "page=https%3A%2F%2Fharmonica.observe.tw%2Fsource%2F77-test-harmonica-club%2F",
-            rendered,
-        )
+        self.assertNotIn('class="context-report-link"', rendered)
+        self.assertNotIn(">回報</a>", rendered)
+        self.assertIn('href="/source/77-test-harmonica-club/"', rendered)
 
     def test_generated_pages_replace_obsolete_github_form_wording(self):
         original = """<nav>\n        <a href=\"/status/\">狀態</a>\n</nav>\n<p>請先看回報頁整理需要準備的公開來源，再送出 GitHub 表單。</p>\n<a href=\"https://github.com/skyhong2002/Harmonica-in-Taiwan/issues\" target=\"_blank\" rel=\"noreferrer\">查看處理中的回報</a>\n<footer><a href=\"/submit/\">資料回報</a></footer>"""

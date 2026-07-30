@@ -1498,14 +1498,6 @@ def render_static_source_index_card(entry: dict[str, Any]) -> str:
         if url:
             links.append(f'<a href="{url}" target="_blank" rel="noreferrer">{label}</a>')
     links_html = "".join(links)
-    primary_link = next((clean(link.get("url")) for link in (entry.get("links") or []) if clean(link.get("url"))), "")
-    report_href = report_links.report_url(
-        "correct",
-        name=entry.get("name"),
-        source=primary_link,
-        page=f"/source/{slug}/",
-        desired="請確認並修正這筆公開來源資料。",
-    )
     return f"""
       <article class="entry-card">
         <div class="entry-title-block">
@@ -1514,7 +1506,7 @@ def render_static_source_index_card(entry: dict[str, Any]) -> str:
         </div>
         <div class="entry-context"><span>{category}</span>{location_html}</div>
         <p class="entry-summary">{summary}</p>
-        <div class="entry-links"><a href="/source/{slug}/">詳細資料</a>{links_html}<a class="context-report-link" href="{escape(report_href)}">回報</a></div>
+        <div class="entry-links"><a href="/source/{slug}/">詳細資料</a>{links_html}</div>
       </article>
 """
 

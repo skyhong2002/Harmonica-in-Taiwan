@@ -765,22 +765,6 @@
     };
   }
 
-  function entryReportFields(entry) {
-    const link = (entry.links || []).find((item) => /^https?:\/\//i.test(item.url || ""));
-    return {
-      name: entry.name,
-      source: link?.url || "",
-      page: `${window.location.origin}/source/${makeSlug(entry)}/`,
-      desired: [
-        `目前類型：${entry.type || entry.category || "未標示"}`,
-        entry.country ? `目前國家：${entry.country}` : "",
-        entry.region ? `目前地區：${entry.region}` : "",
-        (entry.sourceTags || []).length ? `目前標籤：${entry.sourceTags.join("、")}` : "",
-        "請確認名稱、類型、地區、公開連結與公開更新監看狀態，並修正缺漏、錯誤或失效內容。",
-      ].filter(Boolean).join("\n"),
-    };
-  }
-
   function textLines(value, skipFirst = false) {
     let text = String(value || "").trim();
     if (!text) return [];
@@ -1265,7 +1249,7 @@
             : ""
         }
         <p class="entry-summary">${escapeHtml(summary)}</p>
-        <div class="entry-links">${renderLinks(entry.links)}${reportAnchor("correct", entryReportFields(entry))}</div>
+        <div class="entry-links">${renderLinks(entry.links)}</div>
       </article>
     `;
   }
@@ -2994,7 +2978,6 @@
         </th>
         <td class="score-source-cell directory-link-cell">
           ${links.length ? links.map(directoryLinkIcon).join("") : `<span class="directory-link-icon is-muted" title="未標示連結">${platformIconSvg("public")}<span class="sr-only">未標示連結</span></span>`}
-          ${reportAnchor("correct", entryReportFields(entry), "回報")}
         </td>
         ${scoreCell(entry.latestUpdateLocal || "-", "score-year")}
         ${scoreCell(sourceTypeGroup(entry) || "-", "score-program")}
