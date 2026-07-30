@@ -108,6 +108,13 @@ def validate_source_api_outputs(errors: list[str]) -> None:
         for index, item in enumerate(payload.get("items") or []):
             if not isinstance(item, dict) or not str(item.get("url") or "").startswith("https://"):
                 errors.append(f"unsafe source API item URL: {api_path.relative_to(PROJECT_ROOT)} item {index}")
+            image = item.get("image") if isinstance(item, dict) else None
+            if image is not None:
+                image_url = str(image.get("url") or "") if isinstance(image, dict) else ""
+                if not image_url.startswith("https://harmonica.observe.tw/assets/"):
+                    errors.append(
+                        f"unsafe source API item image: {api_path.relative_to(PROJECT_ROOT)} item {index}"
+                    )
 
         slug = str(source.get("pageUrl") or "").removeprefix("https://harmonica.observe.tw/source/").strip("/")
         source_page = SITE_ROOT / "source" / slug / "index.html"

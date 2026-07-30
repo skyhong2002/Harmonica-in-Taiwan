@@ -106,6 +106,37 @@ class SourceJsonApiTests(unittest.TestCase):
         for forbidden in ("<script", "付款帳號", "provider.example", "/Users/", "0912"):
             self.assertNotIn(forbidden, serialized)
 
+    def test_only_locally_cached_images_are_published(self):
+        # 內文必須各自不同,否則會先被既有的重複內容過濾掉。
+        remote = self.update(
+            link="https://example.com/remote-image",
+            text="第一則公開貼文。",
+            image_url="https://scontent.cdninstagram.com/v/expiring.jpg",
+        )
+        missing_local = self.update(
+            link="https://example.com/missing-image",
+            text="第二則公開貼文。",
+            image_url="/assets/feed-images/not-on-disk.webp",
+        )
+        cached = self.update(
+            link="https://example.com/cached-image",
+            text="第三則公開貼文。",
+            image_url="/assets/feed-images/ok.webp",
+        )
+
+        with mock.patch.object(seo.feed_render, "local_image_asset_valid", lambda url: url.endswith("ok.webp")), \
+             mock.patch.object(seo.feed_render, "image_dimensions", lambda url: (1080, 1350)):
+            items = seo.source_api_items(self.entry, seo.source_updates_for_entry(self.entry, [remote, missing_local, cached]))
+
+        by_url = {item["url"]: item for item in items}
+        self.assertNotIn("image", by_url["https://example.com/remote-image"])
+        self.assertNotIn("image", by_url["https://example.com/missing-image"])
+        self.assertEqual(
+            by_url["https://example.com/cached-image"]["image"],
+            {"url": "https://harmonica.observe.tw/assets/feed-images/ok.webp", "width": 1080, "height": 1350},
+        )
+        self.assertNotIn("cdninstagram", json.dumps(items, ensure_ascii=False))
+
     def test_empty_source_writes_valid_schema(self):
         with tempfile.TemporaryDirectory() as temp_dir:
             with mock.patch.object(seo, "SOURCE_API_DIR", Path(temp_dir)):

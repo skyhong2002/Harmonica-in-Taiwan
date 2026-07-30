@@ -30,6 +30,7 @@ SOURCE_URL_ALIASES = PROJECT_ROOT / "data" / "sources" / "source-url-aliases.csv
 SOURCE_API_DIR = SITE_ROOT / "api" / "source"
 SOURCE_API_SCHEMA_VERSION = 1
 SOURCE_API_EXCERPT_LIMIT = 280
+SOURCE_API_SITE_ORIGIN = "https://harmonica.observe.tw"
 ASSET_VERSION = feed_render.ASSET_VERSION
 
 SOURCE_API_TRACKING_PARAMS = {
@@ -214,6 +215,22 @@ def source_updates_for_entry(entry: dict[str, Any], updates: list[dict[str, Any]
     return selected
 
 
+def source_api_image(update: dict[str, Any]) -> dict[str, Any] | None:
+    """只輸出觀測站自己快取的圖片。
+
+    平台原始 CDN 網址會過期,而且轉給下游網站等於把訪客的請求送去第三方,
+    因此只接受 /assets/ 下已驗證過的本地檔案,並附上尺寸讓下游能預留版位。
+    """
+    public_url = str(update.get("image_url") or "").strip()
+    if not public_url.startswith("/assets/") or not feed_render.local_image_asset_valid(public_url):
+        return None
+    image: dict[str, Any] = {"url": SOURCE_API_SITE_ORIGIN + public_url}
+    dimensions = feed_render.image_dimensions(public_url)
+    if dimensions:
+        image["width"], image["height"] = dimensions
+    return image
+
+
 def source_api_item(update: dict[str, Any], source_name: str) -> dict[str, Any] | None:
     if any(update.get(flag) is False for flag in ("public", "is_public", "approved")):
         return None
@@ -227,7 +244,7 @@ def source_api_item(update: dict[str, Any], source_name: str) -> dict[str, Any] 
     if not url or not published_at or not title:
         return None
     platform = feed_render.source_platform_label(update.get("platform") or update.get("platform_label"))
-    return {
+    item = {
         "id": "post-" + hashlib.sha256(url.encode("utf-8")).hexdigest()[:24],
         "title": title,
         "excerpt": excerpt,
@@ -236,6 +253,11 @@ def source_api_item(update: dict[str, Any], source_name: str) -> dict[str, Any] 
         "platform": platform,
         "publishedAt": published_at,
     }
+    # 選用欄位:沒有可用的本地快取圖片時整個省略,既有消費者不受影響。
+    image = source_api_image(update)
+    if image:
+        item["image"] = image
+    return item
 
 
 def source_api_items(entry: dict[str, Any], entry_updates: list[dict[str, Any]]) -> list[dict[str, Any]]:
