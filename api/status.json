@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T00:31:02+08:00",
+  "generatedAt": "2026-07-31T00:34:53+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "degraded",
@@ -12,7 +12,7 @@
     "directoryEntries": 209,
     "watchSources": 614,
     "currentErrors": 5,
-    "latestDataAt": "2026-07-31T00:30:48+08:00",
+    "latestDataAt": "2026-07-31T00:34:51+08:00",
     "latestSocialObservationAt": "2026-07-31T00:30:28+08:00"
   },
   "watchSources": {
@@ -71,10 +71,10 @@
       "label": "正常",
       "summary": "定期 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-07-31 00:30:48",
+        "最新公開資料：2026-07-31 00:34:51",
         "pipeline.log 更新：2026-07-12 02:58:29",
         "pipeline.err.log 更新：2026-07-11 14:33:03",
-        "LaunchAgent：running，last exit 0"
+        "LaunchAgent：not running，last exit 0"
       ]
     },
     {
@@ -96,7 +96,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：68 ms"
+        "耗時：51 ms"
       ]
     },
     {
@@ -110,7 +110,7 @@
         "story 無公開內容/空路由略過：0",
         "IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。",
         "本輪 IG：抓取 2、排程略過 292、延後 0、錯誤 0。",
-        "下一個 IG 來源：約 2026-07-31 00:31:06"
+        "下一個 IG 來源：約 2026-07-31 00:42:18"
       ]
     },
     {
@@ -207,178 +207,123 @@
   "runtime": {
     "pipeline": {
       "currentStep": "build status page",
-      "heartbeatAt": "2026-07-30T16:31:02.605883+00:00",
+      "heartbeatAt": "2026-07-30T16:34:53.038891+00:00",
       "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
       "maxPostAgeDays": 30,
       "message": "",
-      "pid": 25321,
-      "startedAt": "2026-07-30T16:27:17.405797+00:00",
+      "pid": 33527,
+      "startedAt": "2026-07-30T16:34:42.354429+00:00",
       "status": "running",
       "steps": [
         {
           "command": [
-            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_social_sources.py"
           ],
-          "finishedAt": "2026-07-30T16:27:17.472190+00:00",
+          "finishedAt": "2026-07-30T16:34:42.432652+00:00",
           "name": "build social sources",
           "returnCode": 0,
-          "startedAt": "2026-07-30T16:27:17.406803+00:00",
+          "startedAt": "2026-07-30T16:34:42.354799+00:00",
           "status": "ok"
         },
         {
           "command": [
-            "/Library/Developer/CommandLineTools/usr/bin/python3",
-            "scripts/youtube_ytdlp_fetcher.py",
-            "--max-post-age-days",
-            "30"
-          ],
-          "finishedAt": "2026-07-30T16:27:33.116932+00:00",
-          "name": "fetch youtube",
-          "returnCode": 0,
-          "startedAt": "2026-07-30T16:27:17.472657+00:00",
-          "status": "ok"
-        },
-        {
-          "command": [
-            "/Library/Developer/CommandLineTools/usr/bin/python3",
-            "scripts/apify_facebook_fetcher.py",
-            "--days-back",
-            "30",
-            "--local-max-post-age-days",
-            "30",
-            "--run"
-          ],
-          "finishedAt": "2026-07-30T16:27:51.154533+00:00",
-          "name": "fetch facebook apify",
-          "returnCode": 0,
-          "startedAt": "2026-07-30T16:27:33.117330+00:00",
-          "status": "ok"
-        },
-        {
-          "command": [
-            "/Library/Developer/CommandLineTools/usr/bin/python3",
-            "scripts/social_feed_watchdog.py",
-            "--max-post-age-days",
-            "30",
-            "--request-timeout",
-            "10"
-          ],
-          "finishedAt": "2026-07-30T16:30:28.803016+00:00",
-          "name": "watch social feeds",
-          "returnCode": 0,
-          "startedAt": "2026-07-30T16:27:51.157027+00:00",
-          "status": "ok"
-        },
-        {
-          "command": [
-            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-07-30T16:30:30.278688+00:00",
+          "finishedAt": "2026-07-30T16:34:43.664545+00:00",
           "name": "build public data",
           "returnCode": 0,
-          "startedAt": "2026-07-30T16:30:28.804557+00:00",
+          "startedAt": "2026-07-30T16:34:42.433128+00:00",
           "status": "ok"
         },
         {
           "command": [
-            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/backfill_public_source_pages.py",
             "--skip-fetch"
           ],
-          "finishedAt": "2026-07-30T16:30:32.451526+00:00",
+          "finishedAt": "2026-07-30T16:34:45.359226+00:00",
           "name": "backfill source pages",
           "returnCode": 0,
-          "startedAt": "2026-07-30T16:30:30.279298+00:00",
+          "startedAt": "2026-07-30T16:34:43.665076+00:00",
           "status": "ok"
         },
         {
           "command": [
-            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-07-30T16:30:33.975732+00:00",
+          "finishedAt": "2026-07-30T16:34:46.591805+00:00",
           "name": "rebuild public data",
           "returnCode": 0,
-          "startedAt": "2026-07-30T16:30:32.452709+00:00",
+          "startedAt": "2026-07-30T16:34:45.359755+00:00",
           "status": "ok"
         },
         {
           "command": [
-            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_score_publications.py"
           ],
-          "finishedAt": "2026-07-30T16:30:34.172854+00:00",
+          "finishedAt": "2026-07-30T16:34:46.681923+00:00",
           "name": "build score publications",
           "returnCode": 0,
-          "startedAt": "2026-07-30T16:30:33.976909+00:00",
+          "startedAt": "2026-07-30T16:34:46.592305+00:00",
           "status": "ok"
         },
         {
           "command": [
-            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_score_sources.py"
           ],
-          "finishedAt": "2026-07-30T16:30:34.238701+00:00",
+          "finishedAt": "2026-07-30T16:34:46.729679+00:00",
           "name": "build score sources",
           "returnCode": 0,
-          "startedAt": "2026-07-30T16:30:34.173764+00:00",
+          "startedAt": "2026-07-30T16:34:46.682445+00:00",
           "status": "ok"
         },
         {
           "command": [
-            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/generate_rss_feeds.py"
           ],
-          "finishedAt": "2026-07-30T16:30:50.426321+00:00",
+          "finishedAt": "2026-07-30T16:34:52.808007+00:00",
           "name": "generate rss feeds",
           "returnCode": 0,
-          "startedAt": "2026-07-30T16:30:34.239376+00:00",
+          "startedAt": "2026-07-30T16:34:46.730110+00:00",
           "status": "ok"
         },
         {
           "command": [
-            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_public_calendar_events.py"
           ],
-          "finishedAt": "2026-07-30T16:30:50.996677+00:00",
+          "finishedAt": "2026-07-30T16:34:52.958647+00:00",
           "name": "build public calendar events",
           "returnCode": 0,
-          "startedAt": "2026-07-30T16:30:50.426804+00:00",
+          "startedAt": "2026-07-30T16:34:52.808625+00:00",
           "status": "ok"
         },
         {
           "command": [
-            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/apply_submitted_events.py"
           ],
-          "finishedAt": "2026-07-30T16:30:51.069188+00:00",
+          "finishedAt": "2026-07-30T16:34:53.038428+00:00",
           "name": "apply submitted events",
           "returnCode": 0,
-          "startedAt": "2026-07-30T16:30:50.997241+00:00",
+          "startedAt": "2026-07-30T16:34:52.959152+00:00",
           "status": "ok"
         },
         {
           "command": [
-            "/Users/skyhong/.hermes/google-workspace-venv/bin/python",
-            "scripts/sync_google_calendar_events.py"
-          ],
-          "finishedAt": "2026-07-30T16:31:02.602835+00:00",
-          "name": "sync google calendar",
-          "returnCode": 0,
-          "startedAt": "2026-07-30T16:30:51.069774+00:00",
-          "status": "ok"
-        },
-        {
-          "command": [
-            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_status_page.py"
           ],
           "finishedAt": "",
           "name": "build status page",
           "returnCode": null,
-          "startedAt": "2026-07-30T16:31:02.605849+00:00",
+          "startedAt": "2026-07-30T16:34:53.038887+00:00",
           "status": "running"
         }
       ],
