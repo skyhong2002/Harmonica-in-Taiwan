@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 471,
+  "count": 472,
   "items": [
     {
       "title": "Judy’s Harmonica Ensemble 茱蒂口琴樂團｜【2026 蕉城口琴文化周 Day 3】 最後一天迎來最刺激的擂台賽！！😼😼 Judy 團長受邀擔任擂台賽評審，來自西班牙的半音階口琴大師 @antonioserranoa…",
@@ -2815,6 +2815,82 @@
         "學生社團"
       ],
       "key": "ig_timothyyip_harmonica:https://www.instagram.com/p/DbS1ekGgVD2/"
+    },
+    {
+      "title": "蔡明憲｜每年夏季都在創歷史忙碌新高點，這場前導音樂會演出主要都是來自雲林的新生代，經歷過十幾年的教學終於累積出了一點成果。 除了演出外，我看到更多的是他們願意去嘗試新東西，在樂曲裡面即興、唱歌，把自己想表達的東西寫進去，甚至編寫全新曲目而…",
+      "headline": "每年夏季都在創歷史忙碌新高點，這場前導音樂會演出主要都是來自雲林的新生代，經歷過十幾年的教學終於累積出了一點成果。",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/dming.tsai/posts/pfbid036vBXYjQJVgNb619D39kCFciYunWfdCwzpa71tLk72LHspHQokDm6qEE4M4QRXqMtl",
+      "source_id": "fb_dming_tsai",
+      "source": "蔡明憲",
+      "source_system_name": "蔡明憲",
+      "source_profile_url": "https://facebook.com/dming.tsai",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-30",
+      "directory_entry_name": "蔡明憲",
+      "account": "dming.tsai",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-28T02:05:25.000Z",
+      "posted_at_local": "2026-07-28 10:05",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-30T21:27:40.608079+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "音樂會",
+        "演出"
+      ],
+      "keyword_matches": [
+        "音樂會",
+        "演出"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.89,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "音樂會",
+        "演出"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "貼文提到前導音樂會與演出，且為口琴相關公開更新，符合收錄範圍。",
+      "text": "每年夏季都在創歷史忙碌新高點，這場前導音樂會演出主要都是來自雲林的新生代，經歷過十幾年的教學終於累積出了一點成果。\n除了演出外，我看到更多的是他們願意去嘗試新東西，在樂曲裡面即興、唱歌，把自己想表達的東西寫進去，甚至編寫全新曲目而非走之前樂團走過的路、吹過的曲子。\n這些才是我心中這個世代應該要有的樣子。",
+      "images": [],
+      "videos": [],
+      "source_image_url": "",
+      "image_url": "",
+      "image_width": null,
+      "image_height": null,
+      "source_avatar_url": "https://scontent.fcps4-2.fna.fbcdn.net/v/t39.30808-1/453008565_7563978673731534_3023779507488071061_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx640x640&ctp=s50x50&_nc_cat=106&ccb=1-7&_nc_sid=1d2534&_nc_ohc=6TzI412jJRgQ7kNvwHhvABf&_nc_oc=AdrKIp7EgUV9X_FBqb92jB_bUy4BmxvEa5JcyzhMpACxM3jDOvrevdNmqrd7f0iAMi_bt7aKFL39lhKx7hRTzKwk&_nc_zt=24&_nc_ht=scontent.fcps4-2.fna&_nc_gid=0IjiRRjE3kAexRG_clNH_w&_nc_ss=72289&oh=00_AQFdcOTpiCRhCzxRKezbWSj0Y1ZcpvLxkh-gbhlZu1VnSQ&oe=6A71A4FB",
+      "avatar_url": "/assets/source-avatars/f079015cf94a3b52f6d4.webp",
+      "source_initials": "蔡明",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "fb_dming_tsai:27217078944661548"
     },
     {
       "title": "Evelyn Choong 鍾雪兒｜每隔兩年舉辦一次的亞太口琴節，今年迎來了第十五屆，也正好是30週年，是特別有意義的一年。 我們可以說是在亞太口琴節一路成長起來的。 從2002年（第四屆，日本）開始，以參賽者的身份踏上這個舞台，不斷比賽…",
