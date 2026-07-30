@@ -30,6 +30,7 @@ SOURCE_URL_ALIASES = PROJECT_ROOT / "data" / "sources" / "source-url-aliases.csv
 SOURCE_API_DIR = SITE_ROOT / "api" / "source"
 SOURCE_API_SCHEMA_VERSION = 1
 SOURCE_API_EXCERPT_LIMIT = 280
+ASSET_VERSION = feed_render.ASSET_VERSION
 
 SOURCE_API_TRACKING_PARAMS = {
     "fbclid",
@@ -50,9 +51,9 @@ SOURCE_API_INTERNAL_PATH_RE = re.compile(r"(?:^|\s)(?:/Users/|/home/|/var/|[A-Za
 SOURCE_API_URL_RE = re.compile(r"https?://\S+", re.IGNORECASE)
 
 # Shared HTML parts
-HEADER_HTML = """    <header class="site-header">
+HEADER_HTML = f"""    <header class="site-header">
       <a class="brand" href="/" aria-label="臺灣口琴觀測站首頁">
-        <img class="brand-logo" src="/assets/logo.svg?v=20260704-round-avatar" alt="臺灣口琴觀測站" width="200" height="47">
+        <img class="brand-logo" src="/assets/logo.svg?v={ASSET_VERSION}" alt="臺灣口琴觀測站" width="200" height="47">
       </a>
       <nav class="site-nav" aria-label="主要導覽">
         <a href="/post/">公開貼文</a>
@@ -703,8 +704,8 @@ def generate_source_page(
     <meta name="twitter:title" content="{name}｜口琴公開來源｜臺灣口琴觀測站">
     <meta name="twitter:description" content="{summary}">
     <meta name="twitter:image" content="{og_image}">
-    <link rel="icon" href="/assets/favicon-20260623.svg?v=20260704-round-avatar" type="image/svg+xml">
-    <link rel="stylesheet" href="/assets/styles.css?v=20260704-round-avatar">
+    <link rel="icon" href="/assets/favicon-20260623.svg?v={ASSET_VERSION}" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/styles.css?v={ASSET_VERSION}">
     <script type="application/ld+json">
 {json_ld}
     </script>
@@ -773,7 +774,7 @@ def generate_source_page(
     </main>
 
 {FOOTER_HTML}
-    <script src="/assets/app.js?v=20260704-round-avatar"></script>
+    <script src="/assets/app.js?v={ASSET_VERSION}"></script>
   </body>
 </html>
 """
@@ -992,8 +993,8 @@ def generate_event_page(event: dict[str, Any], source_by_name: dict[str, dict[st
     <meta name="twitter:title" content="{title}｜臺灣口琴公開演出">
     <meta name="twitter:description" content="{description}">
     <meta name="twitter:image" content="{image_abs_url}">
-    <link rel="icon" href="/assets/favicon-20260623.svg?v=20260704-round-avatar" type="image/svg+xml">
-    <link rel="stylesheet" href="/assets/styles.css?v=20260704-round-avatar">
+    <link rel="icon" href="/assets/favicon-20260623.svg?v={ASSET_VERSION}" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/styles.css?v={ASSET_VERSION}">
     <script type="application/ld+json">
 {json_ld}
     </script>
@@ -1157,8 +1158,8 @@ def generate_scores_category_page(category: str, items: list[dict[str, Any]]) ->
     <meta name="twitter:title" content="{escape(category)}指定曲索引｜全國學生音樂比賽指定曲｜臺灣口琴觀測站">
     <meta name="twitter:description" content="{description}">
     <meta name="twitter:image" content="https://harmonica.observe.tw/assets/hero-harmonica-observe.webp">
-    <link rel="icon" href="/assets/favicon-20260623.svg?v=20260704-round-avatar" type="image/svg+xml">
-    <link rel="stylesheet" href="/assets/styles.css?v=20260704-round-avatar">
+    <link rel="icon" href="/assets/favicon-20260623.svg?v={ASSET_VERSION}" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/styles.css?v={ASSET_VERSION}">
     <script type="application/ld+json">
 {json_ld}
     </script>
@@ -1562,7 +1563,7 @@ def format_static_directory_cards(entries: list[dict[str, Any]]) -> str:
 
 
 def generate_source_index_base_page() -> str:
-    return """<!doctype html>
+    return ("""<!doctype html>
 <html lang="zh-Hant">
   <head>
     <meta charset="utf-8">
@@ -1595,8 +1596,8 @@ def generate_source_index_base_page() -> str:
       }
     }
     </script>
-    <link rel="icon" href="/assets/favicon-20260623.svg?v=20260704-round-avatar" type="image/svg+xml">
-    <link rel="stylesheet" href="/assets/styles.css?v=20260704-round-avatar">
+    <link rel="icon" href="/assets/favicon-20260623.svg?v=__ASSET_VERSION__" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/styles.css?v=__ASSET_VERSION__">
   </head>
   <body>
 """ + HEADER_HTML + """
@@ -1653,11 +1654,11 @@ def generate_source_index_base_page() -> str:
 
 """ + FOOTER_HTML + """
 
-    <script src="/data/site-data.js?v=20260704-round-avatar"></script>
-    <script src="/assets/app.js?v=20260704-round-avatar"></script>
+    <script src="/data/site-data.js?v=__ASSET_VERSION__"></script>
+    <script src="/assets/app.js?v=__ASSET_VERSION__"></script>
   </body>
 </html>
-"""
+""").replace("__ASSET_VERSION__", ASSET_VERSION)
 
 
 def write_source_index_redirect() -> None:
@@ -1742,8 +1743,8 @@ def generate_source_facet_page(group: dict[str, Any], value: str, entries: list[
     <script type="application/ld+json">
 {json_ld_breadcrumb}
     </script>
-    <link rel="icon" href="/assets/favicon-20260623.svg?v=20260704-round-avatar" type="image/svg+xml">
-    <link rel="stylesheet" href="/assets/styles.css?v=20260704-round-avatar">
+    <link rel="icon" href="/assets/favicon-20260623.svg?v={ASSET_VERSION}" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/styles.css?v={ASSET_VERSION}">
   </head>
   <body>
 {HEADER_HTML}

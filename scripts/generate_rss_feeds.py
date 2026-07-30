@@ -39,7 +39,7 @@ API_DIR = SITE_ROOT / "api"
 FEED_IMAGE_DIR = SITE_ROOT / "assets" / "feed-images"
 SOURCE_AVATAR_DIR = SITE_ROOT / "assets" / "source-avatars"
 PUBLIC_BASE_URL = "https://harmonica.observe.tw"
-ASSET_VERSION = "20260704-round-avatar"
+ASSET_VERSION = "20260730-report-prefill"
 HOME_FEED_BATCH_SIZE = 12
 DEFAULT_UPDATE_WINDOW_DAYS = 30
 HOME_FEED_DEFAULT_COUNTRIES = ("臺灣",)
@@ -2829,7 +2829,7 @@ def write_feed_pages(categorized: dict[str, list[dict[str, Any]]]) -> None:
 def bump_html_asset_versions() -> None:
     for path in SITE_ROOT.rglob("*.html"):
         text = path.read_text(encoding="utf-8")
-        updated = re.sub(r"\?v=\d{8}-\d{4}", f"?v={ASSET_VERSION}", text)
+        updated = re.sub(r"\?v=[A-Za-z0-9._-]+", f"?v={ASSET_VERSION}", text)
         updated = "\n".join(line.rstrip() for line in updated.splitlines()) + "\n"
         if updated != text:
             path.write_text(updated, encoding="utf-8")
