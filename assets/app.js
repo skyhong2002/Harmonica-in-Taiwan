@@ -718,6 +718,69 @@
       .replaceAll("'", "&#039;");
   }
 
+  const reportFieldLimits = {
+    name: 240,
+    source: 1500,
+    page: 1500,
+    desired: 2400,
+    event: 1800,
+    extra: 1800,
+  };
+
+  function reportValue(value, limit = 120) {
+    return String(value || "")
+      .replace(/[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f]/g, "")
+      .trim()
+      .slice(0, limit);
+  }
+
+  function reportUrl(kind, fields = {}) {
+    const url = new URL("/submit/", window.location.origin);
+    url.searchParams.set("kind", ["add-source", "correct", "event", "remove"].includes(kind) ? kind : "correct");
+    Object.entries(fields).forEach(([key, value]) => {
+      const cleaned = reportValue(value, reportFieldLimits[key] || 120);
+      if (cleaned) url.searchParams.set(key, cleaned);
+    });
+    return `${url.pathname}${url.search}`;
+  }
+
+  function reportAnchor(kind, fields, label = "回報這筆資料") {
+    return `<a class="context-report-link" href="${escapeHtml(reportUrl(kind, fields))}">${escapeHtml(label)}</a>`;
+  }
+
+  function feedReportFields(item) {
+    const title = homepageDisplayTitle(item);
+    const tags = (item.matched_keywords || []).join("、");
+    return {
+      name: [item.source, title].filter(Boolean).join("｜") || "公開更新",
+      source: item.link,
+      page: window.location.href,
+      desired: [
+        `來源：${item.source || "未標示"}`,
+        `平台：${item.platform_label || item.platform || "未標示"}`,
+        `發布時間：${item.posted_at_local || item.posted_at || "未標示"}`,
+        tags ? `目前標籤：${tags}` : "",
+        "請確認這則公開更新的來源、分類與顯示內容；若包含活動，也請確認日期、地點與日曆資訊。",
+      ].filter(Boolean).join("\n"),
+    };
+  }
+
+  function entryReportFields(entry) {
+    const link = (entry.links || []).find((item) => /^https?:\/\//i.test(item.url || ""));
+    return {
+      name: entry.name,
+      source: link?.url || "",
+      page: `${window.location.origin}/source/${makeSlug(entry)}/`,
+      desired: [
+        `目前類型：${entry.type || entry.category || "未標示"}`,
+        entry.country ? `目前國家：${entry.country}` : "",
+        entry.region ? `目前地區：${entry.region}` : "",
+        (entry.sourceTags || []).length ? `目前標籤：${entry.sourceTags.join("、")}` : "",
+        "請確認名稱、類型、地區、公開連結與公開更新監看狀態，並修正缺漏、錯誤或失效內容。",
+      ].filter(Boolean).join("\n"),
+    };
+  }
+
   function textLines(value, skipFirst = false) {
     let text = String(value || "").trim();
     if (!text) return [];
@@ -1202,7 +1265,7 @@
             : ""
         }
         <p class="entry-summary">${escapeHtml(summary)}</p>
-        <div class="entry-links">${renderLinks(entry.links)}</div>
+        <div class="entry-links">${renderLinks(entry.links)}${reportAnchor("correct", entryReportFields(entry))}</div>
       </article>
     `;
   }
@@ -1548,7 +1611,10 @@
         </div>
         <div class="home-feed-footer">
           ${metaContainer}
-          <a class="feed-open-link" href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">開啟來源</a>
+          <div class="feed-card-links">
+            ${reportAnchor("correct", feedReportFields(item))}
+            <a class="feed-open-link" href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">開啟來源</a>
+          </div>
         </div>
       </article>
     `;
@@ -2928,6 +2994,7 @@
         </th>
         <td class="score-source-cell directory-link-cell">
           ${links.length ? links.map(directoryLinkIcon).join("") : `<span class="directory-link-icon is-muted" title="未標示連結">${platformIconSvg("public")}<span class="sr-only">未標示連結</span></span>`}
+          ${reportAnchor("correct", entryReportFields(entry), "回報")}
         </td>
         ${scoreCell(entry.latestUpdateLocal || "-", "score-year")}
         ${scoreCell(sourceTypeGroup(entry) || "-", "score-program")}
@@ -3281,6 +3348,21 @@
     const source = sourceLink
       ? `<a class="score-source-link" href="${escapeHtml(sourceLink.url)}" target="_blank" rel="noreferrer" title="${escapeHtml(sourceLink.label)}">來源</a>`
       : `<span class="score-source-link muted" title="未標示來源">來源</span>`;
+    const report = reportAnchor("correct", {
+      name: title,
+      source: sourceLink?.url || "",
+      page: window.location.href,
+      desired: [
+        `學年度：${item.schoolYear || "未標示"}`,
+        `編制：${item.program || "未標示"}`,
+        `組別：${item.division || "未標示"}`,
+        `作曲：${item.composer || "未標示"}`,
+        `編曲：${item.arranger || "未標示"}`,
+        `出版／洽詢來源：${publisher}`,
+        `目前備註：${note || "未標示"}`,
+        "請修正這筆指定曲、出版或洽詢線索。",
+      ].join("\n"),
+    }, "回報");
     return `
       <tr>
         ${scoreCell(year, "score-year")}
@@ -3293,7 +3375,7 @@
         ${scoreCell(item.arranger, "score-arranger")}
         ${scoreCell(publisher, "score-publisher")}
         ${scoreCell(note, "score-note-inline")}
-        <td class="score-source-cell">${source}</td>
+        <td class="score-source-cell"><div class="score-source-actions">${source}${report}</div></td>
       </tr>
     `;
   }
@@ -3821,6 +3903,20 @@
     const source = sourceLink
       ? `<a class="score-source-link" href="${escapeHtml(sourceLink.url)}" target="_blank" rel="noreferrer" title="${escapeHtml(sourceLink.label)}">佐證</a>`
       : `<span class="score-source-link muted" title="未標示佐證">佐證</span>`;
+    const report = reportAnchor("correct", {
+      name: item.scoreTitle ? `${item.sourceName}｜${item.scoreTitle}` : item.sourceName,
+      source: sourceLink?.url || item.url || "",
+      page: window.location.href,
+      desired: [
+        `來源類型：${item.sourceType || "未標示"}`,
+        `平台：${item.platform || "未標示"}`,
+        `曲名／譜集：${item.scoreTitle || "未標示"}`,
+        `形式：${item.format || "未標示"}`,
+        `購買／洽詢方式：${item.purchaseMethod || "未標示"}`,
+        `目前狀態：${item.availability || "未標示"}`,
+        "請修正這筆口琴譜源或公開佐證。",
+      ].join("\n"),
+    }, "回報");
     return `
       <tr>
         <th scope="row" class="score-title-cell" title="${escapeHtml(item.sourceName || "-")}">${escapeHtml(item.sourceName || "-")}</th>
@@ -3834,7 +3930,7 @@
         ${scoreCell(item.purchaseMethod, "score-publisher")}
         ${scoreCell(item.price, "score-year")}
         ${scoreCell(item.availability, "score-status")}
-        <td class="score-source-cell">${source}</td>
+        <td class="score-source-cell"><div class="score-source-actions">${source}${report}</div></td>
         ${scoreCell(item.rightsNote, "score-note-inline")}
       </tr>
     `;
