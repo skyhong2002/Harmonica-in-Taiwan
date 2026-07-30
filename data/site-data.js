@@ -1108,6 +1108,52 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-221",
+      "publicId": "221",
+      "name": "吹口琴的小园园",
+      "nameEn": "Yuanyuan Harmonica",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "中國",
+      "region": "中國",
+      "cityOrFocus": "十孔/藍調/流行/教學",
+      "structuredSummary": "十孔/藍調/流行/教學 / 十孔/半音階 / 演出人員/教學者",
+      "summary": "中國的十孔與半音階演出人員與教學者，活動脈絡包含藍調、流行與教學。",
+      "keywords": "吹口琴的小园园 Yuanyuan Harmonica 口琴 藍調口琴 十孔口琴",
+      "links": [
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@yuanyuanharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-30T10:00:14+00:00",
+      "latestUpdateLocal": "2026-07-30 18:00",
+      "latestUpdateSource": "吹口琴的小园园",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=U9_SVRkqLmY",
+      "avatarUrl": "/assets/source-avatars/aed956184d6a75510a0c.webp",
+      "sourceInitials": "吹口",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_yuanyuanharmonica",
+          "name": "吹口琴的小园园",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@yuanyuanharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-54",
       "publicId": "54",
       "name": "CY Leo 何卓彥",
@@ -3314,6 +3360,76 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-162",
+      "publicId": "162",
+      "name": "口琴愛好者協會（新加坡）",
+      "nameEn": "Harmonica Aficionados Society Singapore",
+      "category": "國際交流",
+      "type": "協會",
+      "originalType": "協會",
+      "country": "新加坡",
+      "region": "新加坡",
+      "cityOrFocus": "口琴協會/工作坊/音樂會/社群推廣",
+      "structuredSummary": "口琴協會/工作坊/音樂會/社群推廣 / 口琴 / 國際協會/資訊來源",
+      "summary": "新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。",
+      "keywords": "口琴愛好者協會 新加坡 Harmonica Aficionados Society Singapore HAS Singapore",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.harmonica-as.com/about"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HARMONICAMUSICLOVERS/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/has_singapore/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-29T13:48:41+00:00",
+      "latestUpdateLocal": "2026-07-29 21:48",
+      "latestUpdateSource": "口琴愛好者協會（新加坡）",
+      "latestUpdateUrl": "https://www.facebook.com/HARMONICAMUSICLOVERS/posts/pfbid02spJFzZxStyLmwmVYbepLDVLSKjZpqqaUQ8NhLuzBh6UPXEgM5URKgZiTqHP7YEu7l",
+      "avatarUrl": "/assets/source-avatars/d62a15159ec28b223ee3.webp",
+      "sourceInitials": "口琴",
+      "sourceTags": [
+        "協會",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicamusiclovers",
+          "name": "口琴愛好者協會（新加坡）",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HARMONICAMUSICLOVERS",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_has_singapore",
+          "name": "口琴愛好者協會（新加坡）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "has_singapore",
+          "profileUrl": "https://www.instagram.com/has_singapore/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_has_singapore",
+          "name": "口琴愛好者協會（新加坡）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "has_singapore",
+          "profileUrl": "https://www.instagram.com/has_singapore/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/has_singapore/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-80",
       "publicId": "80",
       "name": "臺中國家歌劇院",
@@ -4611,52 +4727,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-221",
-      "publicId": "221",
-      "name": "吹口琴的小园园",
-      "nameEn": "Yuanyuan Harmonica",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "中國",
-      "region": "中國",
-      "cityOrFocus": "十孔/藍調/流行/教學",
-      "structuredSummary": "十孔/藍調/流行/教學 / 十孔/半音階 / 演出人員/教學者",
-      "summary": "中國的十孔與半音階演出人員與教學者，活動脈絡包含藍調、流行與教學。",
-      "keywords": "吹口琴的小园园 Yuanyuan Harmonica 口琴 藍調口琴 十孔口琴",
-      "links": [
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@yuanyuanharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-28T10:00:28+00:00",
-      "latestUpdateLocal": "2026-07-28 18:00",
-      "latestUpdateSource": "吹口琴的小园园",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=3n2_mu7OUzs",
-      "avatarUrl": "/assets/source-avatars/aed956184d6a75510a0c.webp",
-      "sourceInitials": "吹口",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "yt_yuanyuanharmonica",
-          "name": "吹口琴的小园园",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@yuanyuanharmonica",
           "feedUrl": ""
         }
       ]
@@ -6873,76 +6943,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-162",
-      "publicId": "162",
-      "name": "口琴愛好者協會（新加坡）",
-      "nameEn": "Harmonica Aficionados Society Singapore",
-      "category": "國際交流",
-      "type": "協會",
-      "originalType": "協會",
-      "country": "新加坡",
-      "region": "新加坡",
-      "cityOrFocus": "口琴協會/工作坊/音樂會/社群推廣",
-      "structuredSummary": "口琴協會/工作坊/音樂會/社群推廣 / 口琴 / 國際協會/資訊來源",
-      "summary": "新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。",
-      "keywords": "口琴愛好者協會 新加坡 Harmonica Aficionados Society Singapore HAS Singapore",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.harmonica-as.com/about"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HARMONICAMUSICLOVERS/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/has_singapore/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-23T23:39:45+00:00",
-      "latestUpdateLocal": "2026-07-24 07:39",
-      "latestUpdateSource": "口琴愛好者協會（新加坡）",
-      "latestUpdateUrl": "https://www.instagram.com/stories/has_singapore/3947930288093133494/",
-      "avatarUrl": "/assets/source-avatars/d62a15159ec28b223ee3.webp",
-      "sourceInitials": "口琴",
-      "sourceTags": [
-        "協會",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonicamusiclovers",
-          "name": "口琴愛好者協會（新加坡）",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HARMONICAMUSICLOVERS",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_has_singapore",
-          "name": "口琴愛好者協會（新加坡）",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "has_singapore",
-          "profileUrl": "https://www.instagram.com/has_singapore/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_has_singapore",
-          "name": "口琴愛好者協會（新加坡）",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "has_singapore",
-          "profileUrl": "https://www.instagram.com/has_singapore/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/has_singapore/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-99",
       "publicId": "99",
       "name": "范曉怡",
@@ -7617,6 +7617,77 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://facebook.com/TaipeiYellowstoneHarmonicaEnsemble",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-156",
+      "publicId": "156",
+      "name": "Sigmund Groven",
+      "nameEn": "Sigmund Groven",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "挪威",
+      "region": "挪威",
+      "cityOrFocus": "WHF 2025/Tommy Reilly Memorial Concert/古典與跨界半音階",
+      "structuredSummary": "WHF 2025/Tommy Reilly Memorial Concert/古典與跨界半音階 / 半音階 / 國際演出人員/作曲者",
+      "summary": "挪威的半音階國際演出人員與作曲者，活動脈絡包含WHF 2025、Tommy Reilly Memorial Concert與古典與跨界半音階。",
+      "keywords": "Sigmund Groven harmonica WHF 2025 Tommy Reilly",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://sigmundgroven.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TheSigmundGrovenPage"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sigmundgroven/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-16T19:10:40+00:00",
+      "latestUpdateLocal": "2026-07-17 03:10",
+      "latestUpdateSource": "Sigmund Groven",
+      "latestUpdateUrl": "https://www.facebook.com/TheSigmundGrovenPage/posts/pfbid02sTSRsroVaZaLUXwnXkhLDwawfVGr6ugmCvGmbCe6QAk9b2LZ33u52nh9EjQJrvNLl",
+      "avatarUrl": "/assets/source-avatars/c381e2362ad5ae638a2e.webp",
+      "sourceInitials": "SG",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_thesigmundgrovenpage",
+          "name": "Sigmund Groven",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/TheSigmundGrovenPage",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sigmundgroven",
+          "name": "Sigmund Groven",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sigmundgroven",
+          "profileUrl": "https://www.instagram.com/sigmundgroven/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sigmundgroven",
+          "name": "Sigmund Groven",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sigmundgroven",
+          "profileUrl": "https://www.instagram.com/sigmundgroven/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sigmundgroven/story/0"
         }
       ]
     },
@@ -8894,77 +8965,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://facebook.com/oulingou",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-156",
-      "publicId": "156",
-      "name": "Sigmund Groven",
-      "nameEn": "Sigmund Groven",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "挪威",
-      "region": "挪威",
-      "cityOrFocus": "WHF 2025/Tommy Reilly Memorial Concert/古典與跨界半音階",
-      "structuredSummary": "WHF 2025/Tommy Reilly Memorial Concert/古典與跨界半音階 / 半音階 / 國際演出人員/作曲者",
-      "summary": "挪威的半音階國際演出人員與作曲者，活動脈絡包含WHF 2025、Tommy Reilly Memorial Concert與古典與跨界半音階。",
-      "keywords": "Sigmund Groven harmonica WHF 2025 Tommy Reilly",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://sigmundgroven.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/TheSigmundGrovenPage"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/sigmundgroven/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-02T05:43:01+00:00",
-      "latestUpdateLocal": "2026-07-02 13:43",
-      "latestUpdateSource": "Sigmund Groven",
-      "latestUpdateUrl": "https://www.facebook.com/TheSigmundGrovenPage/posts/pfbid0iPUCy39dSPRmQdBdhc8wbjyP8TBnnQ3AAqE9sHKPG1iBTsFnGL8S4GKecVYzm94Ul",
-      "avatarUrl": "/assets/source-avatars/c381e2362ad5ae638a2e.webp",
-      "sourceInitials": "SG",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_thesigmundgrovenpage",
-          "name": "Sigmund Groven",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/TheSigmundGrovenPage",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_sigmundgroven",
-          "name": "Sigmund Groven",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "sigmundgroven",
-          "profileUrl": "https://www.instagram.com/sigmundgroven/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_sigmundgroven",
-          "name": "Sigmund Groven",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "sigmundgroven",
-          "profileUrl": "https://www.instagram.com/sigmundgroven/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sigmundgroven/story/0"
         }
       ]
     },
