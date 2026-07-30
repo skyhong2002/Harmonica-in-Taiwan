@@ -1504,7 +1504,7 @@ def render_static_source_index_card(entry: dict[str, Any]) -> str:
         name=entry.get("name"),
         source=primary_link,
         page=f"/source/{slug}/",
-        desired="請確認名稱、類型、地區、公開連結與公開更新監看狀態，並修正缺漏、錯誤或失效內容。",
+        desired="請確認並修正這筆公開來源資料。",
     )
     return f"""
       <article class="entry-card">
