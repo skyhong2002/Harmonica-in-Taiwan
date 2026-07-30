@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
   "json": "https://harmonica.observe.tw/api/opportunities.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/opportunities.json",
-  "count": 119,
+  "count": 120,
   "items": [
     {
       "title": "Judy’s Harmonica Ensemble 茱蒂口琴樂團｜【2026 蕉城口琴文化周 Day 3】 最後一天迎來最刺激的擂台賽！！😼😼 Judy 團長受邀擔任擂台賽評審，來自西班牙的半音階口琴大師 @antonioserranoa…",
@@ -173,6 +173,91 @@
         "學生社團"
       ],
       "key": "ig_taiwanharmonica:https://www.instagram.com/p/DbZvnL4E4fX/"
+    },
+    {
+      "title": "口琴愛好者協會（新加坡）｜🎉 Congratulations to all the Singapore participants at the Asia Pacific Harmonica Art Week 2026! 🎶 From th…",
+      "headline": "🎉 Congratulations to all the Singapore participants at the Asia Pacific Harmonica Art Week 2026! 🎶",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/HARMONICAMUSICLOVERS/posts/pfbid02spJFzZxStyLmwmVYbepLDVLSKjZpqqaUQ8NhLuzBh6UPXEgM5URKgZiTqHP7YEu7l",
+      "source_id": "fb_harmonicamusiclovers",
+      "source": "口琴愛好者協會（新加坡）",
+      "source_system_name": "口琴愛好者協會（新加坡）",
+      "source_profile_url": "https://facebook.com/HARMONICAMUSICLOVERS",
+      "country": "新加坡",
+      "region": "新加坡",
+      "directory_entry_id": "watchlist-162",
+      "directory_entry_name": "口琴愛好者協會（新加坡）",
+      "account": "HARMONICAMUSICLOVERS",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-29T13:48:41.000Z",
+      "posted_at_local": "2026-07-29 21:48",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-30T16:30:28.700545+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "比賽",
+        "音樂會",
+        "演出"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "演出",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "比賽",
+        "音樂會",
+        "演出"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "口琴藝術週賽事與專場音樂會成果公告，屬口琴公開更新且含比賽與演出資訊。",
+      "text": "🎉 Congratulations to all the Singapore participants at the Asia Pacific Harmonica Art Week 2026! 🎶\nFrom the competition stage to the 《亚太琴缘》新加坡专场音乐会 (Qin Yuan - a Singapore Concert), your months of preparation, dedication, and hard work have truly paid off. We are proud to see so many outstanding performances recognised with Gold Awards and other top honours.\nHNHK Harmonica Orchestra 海南会馆口琴乐团\nBraddell Heights Community Club Harmonica Group 布莱德岭民众俱乐部口琴团\nSingapore Broadway Harmonica Ensemble (新加坡大路口琴重奏团)\nTJ Harmonics\nJurong Spring CACC / HarmoniSpring Harmonica Ensemble.\nA heartfelt thank you as well to our Singapore representatives who served as competition judges. Your professionalism, dedication, and commitment contributed greatly to the success of the festival.\nCongratulations once again to everyone for your excellence!\n---\n🎉恭喜所有参加亚太口琴艺术周的新加坡代表！🎶\n无论是在比赛舞台，还是在《亚太琴缘》新加坡专场音乐会上的精彩演出，大家数月来的努力、付出与准备都获得了丰硕成果。很高兴看到许多参赛者荣获金奖及其他优异成绩，为新加坡争光。\n同时，也衷心感谢担任比赛评委的新加坡代表。感谢你们的专业、奉献与辛勤付出，为本届口琴节的圆满成功作出了重要贡献。\n再次恭喜所有参与者，也感谢大家精彩的表现！\nhttps://www.facebook.com/photo/?fbid=1675860247879381&set=a.488903716575046",
+      "images": [
+        "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/759281597_1675860251212714_8849913997116149796_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=YIp0G168lUgQ7kNvwEHstI9&_nc_oc=AdpRCH29Z28k8gRx8ZcxtAjLEnESw1Ut7yEuBzIwqxJyyPK-FjNSHHubCzevv3KK8qo&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=uNkw6TebS1NcIGxGA9WfVQ&_nc_ss=72289&oh=00_AQHhHnaIzHCK3xMxVvu6qcTbK2n1FNCjrRhIdJ4ceWzRaQ&oe=6A713B26"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/759281597_1675860251212714_8849913997116149796_n.jpg?stp=dst-jpg_tt6&cstp=mx2048x1536&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=YIp0G168lUgQ7kNvwEHstI9&_nc_oc=AdpRCH29Z28k8gRx8ZcxtAjLEnESw1Ut7yEuBzIwqxJyyPK-FjNSHHubCzevv3KK8qo&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=uNkw6TebS1NcIGxGA9WfVQ&_nc_ss=72289&oh=00_AQHhHnaIzHCK3xMxVvu6qcTbK2n1FNCjrRhIdJ4ceWzRaQ&oe=6A713B26",
+      "image_url": "/assets/feed-images/cd842d6cb48ca508ced3.webp",
+      "image_width": 720,
+      "image_height": 540,
+      "source_avatar_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/298565682_488903729908378_7612313088604557586_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1615x1613&ctp=s50x50&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=P9s3SPqFaWgQ7kNvwFvZE_i&_nc_oc=AdrSHf5ofi4rjv6-m3XZ0A-GkVUVl2glXQ5DZPyM2Hhg6fVnPpdWpjxuyLTiWvfmiNE&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=uNkw6TebS1NcIGxGA9WfVQ&_nc_ss=72289&oh=00_AQFMmA3buH4GO4FNZ1ohbhrgeRa9cdhvHNt7R5Ce1zFsTg&oe=6A71569A",
+      "avatar_url": "/assets/source-avatars/56637550fe6daf4c90b8.webp",
+      "source_initials": "口琴",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽",
+        "學生社團"
+      ],
+      "key": "fb_harmonicamusiclovers:1675860304546042"
     },
     {
       "title": "南里沙 / Risa MINAMI｜昨日、上海空港から日本へ帰国する飛行機の中で、熊本で地震が発生したとの情報が入ってきました。 「震度7」と聞き、心配が大きくなりました。 羽田空港に到着し、被害の状況を知るにつれ、10年前の熊本地震のこ…",
