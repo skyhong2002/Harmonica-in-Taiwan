@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 33,
     "slug": "33",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/DbNCOhYTnu4/",
       "sourceName": "黃冠誌",
       "platform": "Instagram",
-      "publishedAt": "2026-07-25T05:25:26Z"
+      "publishedAt": "2026-07-25T05:25:26Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9a126fa323528dfa9303.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-de83888bcd14d701e0852320",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/Da__8LmRYeb/",
       "sourceName": "黃冠誌",
       "platform": "Instagram",
-      "publishedAt": "2026-07-20T03:43:50Z"
+      "publishedAt": "2026-07-20T03:43:50Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6640a69cc1f54e036588.webp",
+        "width": 800,
+        "height": 600
+      }
     }
   ]
 }

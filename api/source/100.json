@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 100,
     "slug": "otis-tsao",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/Dau-QrXTZxQ/",
       "sourceName": "曹小歐",
       "platform": "Instagram",
-      "publishedAt": "2026-07-13T13:00:11Z"
+      "publishedAt": "2026-07-13T13:00:11Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3996b0440ed05c9df331.webp",
+        "width": 800,
+        "height": 1423
+      }
     },
     {
       "id": "post-31f842c586a1c9043729276a",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/DaanhUoPV3Y/",
       "sourceName": "曹小歐",
       "platform": "Instagram",
-      "publishedAt": "2026-07-05T15:17:58Z"
+      "publishedAt": "2026-07-05T15:17:58Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a942c19e672a920031e5.webp",
+        "width": 800,
+        "height": 800
+      }
     }
   ]
 }

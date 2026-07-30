@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 70,
     "slug": "fata-morgana",
@@ -15,7 +15,12 @@
       "url": "https://www.facebook.com/fatamorganamusic/posts/pfbid031GSMxwQYDkKuHB3FHLDKC4uqsnEbGPgKmVEJtxWVXxLJ8CJuB68d4VUov7fNMegDl",
       "sourceName": "Fata Morgana 口琴四重奏",
       "platform": "Facebook",
-      "publishedAt": "2026-07-13T08:48:03Z"
+      "publishedAt": "2026-07-13T08:48:03Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/bcf41f498c6d33103fca.webp",
+        "width": 640,
+        "height": 509
+      }
     },
     {
       "id": "post-9dce2febd33ecb34bd762c43",

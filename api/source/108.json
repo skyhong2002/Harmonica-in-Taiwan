@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 108,
     "slug": "rodrigo-eberienos",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/DbQQGA9PkMU/",
       "sourceName": "Rodrigo Eberienos",
       "platform": "Instagram",
-      "publishedAt": "2026-07-26T11:12:19Z"
+      "publishedAt": "2026-07-26T11:12:19Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/deb4186fa8b988c62256.webp",
+        "width": 800,
+        "height": 1423
+      }
     },
     {
       "id": "post-f1632851b857576e0e63161b",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/DaxjfLiR_KF/",
       "sourceName": "Rodrigo Eberienos",
       "platform": "Instagram",
-      "publishedAt": "2026-07-14T13:06:44Z"
+      "publishedAt": "2026-07-14T13:06:44Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1e95606c36aa2573ba18.webp",
+        "width": 800,
+        "height": 637
+      }
     },
     {
       "id": "post-b26a88bcb42c9064282a0287",
@@ -33,7 +43,12 @@
       "url": "https://www.instagram.com/p/Danj59xvfeT/",
       "sourceName": "Rodrigo Eberienos",
       "platform": "Instagram",
-      "publishedAt": "2026-07-10T15:59:50Z"
+      "publishedAt": "2026-07-10T15:59:50Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9d5f8015978b4900509c.webp",
+        "width": 800,
+        "height": 800
+      }
     },
     {
       "id": "post-749711479a5352c9d9c152dc",
@@ -42,7 +57,12 @@
       "url": "https://www.instagram.com/p/DaU-rN1vBFS/",
       "sourceName": "Rodrigo Eberienos",
       "platform": "Instagram",
-      "publishedAt": "2026-07-03T10:44:06Z"
+      "publishedAt": "2026-07-03T10:44:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/8585429b58af0d1e4e49.webp",
+        "width": 800,
+        "height": 1423
+      }
     }
   ]
 }

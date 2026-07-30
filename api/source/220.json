@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 220,
     "slug": "chindiary-harmonica",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/Dakt6cWgT0I/",
       "sourceName": "菜鳥琴老師很菜",
       "platform": "Instagram",
-      "publishedAt": "2026-07-09T13:24:50Z"
+      "publishedAt": "2026-07-09T13:24:50Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a22d180dc3eaf5b14e4d.webp",
+        "width": 800,
+        "height": 1005
+      }
     }
   ]
 }

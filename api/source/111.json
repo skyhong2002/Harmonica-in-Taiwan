@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 111,
     "slug": "lee-hangyeol",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/DbSJaBmv1oH/",
       "sourceName": "Lee Hangyeol 이한결",
       "platform": "Instagram",
-      "publishedAt": "2026-07-27T04:52:21Z"
+      "publishedAt": "2026-07-27T04:52:21Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c53580bfc841530f4f74.webp",
+        "width": 800,
+        "height": 1067
+      }
     }
   ]
 }

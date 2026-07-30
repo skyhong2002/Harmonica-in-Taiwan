@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 55,
     "slug": "kelvin-leung",
@@ -15,7 +15,12 @@
       "url": "https://www.youtube.com/watch?v=_D9fgxrqJms",
       "sourceName": "梁承熹 Kelvin Leung",
       "platform": "YouTube",
-      "publishedAt": "2026-07-05T09:51:32Z"
+      "publishedAt": "2026-07-05T09:51:32Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/840cfaf1aa5831e70763.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-a2a48579bd1841b52717cdc7",
@@ -24,7 +29,12 @@
       "url": "https://www.youtube.com/watch?v=8lw-yemwqP8",
       "sourceName": "梁承熹 Kelvin Leung",
       "platform": "YouTube",
-      "publishedAt": "2026-07-05T09:50:51Z"
+      "publishedAt": "2026-07-05T09:50:51Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/0b14d37f3dcebb6e37ee.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-0a735d9351412121a0973a8c",
@@ -33,7 +43,12 @@
       "url": "https://www.youtube.com/watch?v=-LCtt1ErUSI",
       "sourceName": "梁承熹 Kelvin Leung",
       "platform": "YouTube",
-      "publishedAt": "2026-07-05T09:50:12Z"
+      "publishedAt": "2026-07-05T09:50:12Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6530467b7944afa772ee.webp",
+        "width": 800,
+        "height": 450
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 153,
     "slug": "santiago-alvarez",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/DbWbdGDsMNg/",
       "sourceName": "Santiago Alvarez",
       "platform": "Instagram",
-      "publishedAt": "2026-07-28T20:50:04Z"
+      "publishedAt": "2026-07-28T20:50:04Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ed8e81d31cc41f96ff3f.webp",
+        "width": 800,
+        "height": 1423
+      }
     },
     {
       "id": "post-7c970344bc0848872ceb949c",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/DbPgMVFi5B9/",
       "sourceName": "Santiago Alvarez",
       "platform": "Instagram",
-      "publishedAt": "2026-07-26T04:14:30Z"
+      "publishedAt": "2026-07-26T04:14:30Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/7b596b4b2b442c589fc5.webp",
+        "width": 720,
+        "height": 1280
+      }
     },
     {
       "id": "post-dbc88f7a9ba92c745852e340",
@@ -33,7 +43,12 @@
       "url": "https://www.instagram.com/p/DbIzWD1MIMk/",
       "sourceName": "Santiago Alvarez",
       "platform": "Instagram",
-      "publishedAt": "2026-07-23T13:49:41Z"
+      "publishedAt": "2026-07-23T13:49:41Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/68b6d9ee62e1609e6f4b.webp",
+        "width": 800,
+        "height": 1423
+      }
     },
     {
       "id": "post-1f9a202e13d26d72dd57a581",
@@ -42,7 +57,12 @@
       "url": "https://www.instagram.com/p/DbGE3L-DBqQ/",
       "sourceName": "Santiago Alvarez",
       "platform": "Instagram",
-      "publishedAt": "2026-07-22T12:20:17Z"
+      "publishedAt": "2026-07-22T12:20:17Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2317b1727da5468e24c2.webp",
+        "width": 800,
+        "height": 1067
+      }
     },
     {
       "id": "post-2e1b07e29e8b470f37d3e88a",
@@ -51,7 +71,12 @@
       "url": "https://www.instagram.com/p/Da7hpCeDKrW/",
       "sourceName": "Santiago Alvarez",
       "platform": "Instagram",
-      "publishedAt": "2026-07-18T10:00:08Z"
+      "publishedAt": "2026-07-18T10:00:08Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/644c76bb0eadf405ba67.webp",
+        "width": 800,
+        "height": 800
+      }
     },
     {
       "id": "post-e48839dc7075bbede73dbf32",
@@ -60,7 +85,12 @@
       "url": "https://www.instagram.com/p/Dau_cqOGwv-/",
       "sourceName": "Santiago Alvarez",
       "platform": "Instagram",
-      "publishedAt": "2026-07-13T13:10:05Z"
+      "publishedAt": "2026-07-13T13:10:05Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/21912754307da30277db.webp",
+        "width": 800,
+        "height": 800
+      }
     }
   ]
 }

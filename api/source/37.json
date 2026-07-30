@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 37,
     "slug": "37",
@@ -15,7 +15,12 @@
       "url": "https://www.facebook.com/reel/1870522134353852/",
       "sourceName": "陳晟禕",
       "platform": "Facebook",
-      "publishedAt": "2026-07-13T08:06:25Z"
+      "publishedAt": "2026-07-13T08:06:25Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/07258a2b677eebac612e.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-0e19bf2d3768cce357f9df98",
@@ -24,7 +29,12 @@
       "url": "https://www.facebook.com/chen.cheng.yi.487430/posts/pfbid0anVHLbxoKB2Yf4DQRevKH9pbcdTkQtjRBwErs8pUCaJCJZdLjfwN17qsNzFaPFbHl",
       "sourceName": "陳晟禕",
       "platform": "Facebook",
-      "publishedAt": "2026-07-06T17:14:13Z"
+      "publishedAt": "2026-07-06T17:14:13Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6d628da46012e485b525.webp",
+        "width": 500,
+        "height": 261
+      }
     }
   ]
 }

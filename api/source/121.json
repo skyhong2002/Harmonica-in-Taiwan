@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 121,
     "slug": "fresco-harmonica-ensemble",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/DbYI1weCaac/",
       "sourceName": "Fresco Harmonica Ensemble",
       "platform": "Instagram",
-      "publishedAt": "2026-07-29T12:41:24Z"
+      "publishedAt": "2026-07-29T12:41:24Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/e39db656d29f7814c6e0.webp",
+        "width": 800,
+        "height": 533
+      }
     },
     {
       "id": "post-cae91c3e02d76ab86ae1ccbd",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/DbXDqdSTf7f/",
       "sourceName": "Fresco Harmonica Ensemble",
       "platform": "Instagram",
-      "publishedAt": "2026-07-29T02:50:18Z"
+      "publishedAt": "2026-07-29T02:50:18Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/97c120723abb5047c24c.webp",
+        "width": 720,
+        "height": 1280
+      }
     },
     {
       "id": "post-f3dd8ae0785ab12ff496a236",
@@ -33,7 +43,12 @@
       "url": "https://www.instagram.com/p/DbUfWcPp9FP/",
       "sourceName": "Fresco Harmonica Ensemble",
       "platform": "Instagram",
-      "publishedAt": "2026-07-28T02:41:57Z"
+      "publishedAt": "2026-07-28T02:41:57Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3396d5ef64e636371ab9.webp",
+        "width": 800,
+        "height": 1067
+      }
     },
     {
       "id": "post-79d5dae67027e8cd84bb3048",
@@ -42,7 +57,12 @@
       "url": "https://www.instagram.com/p/DbSEoHhTOZn/",
       "sourceName": "Fresco Harmonica Ensemble",
       "platform": "Instagram",
-      "publishedAt": "2026-07-27T04:20:22Z"
+      "publishedAt": "2026-07-27T04:20:22Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/8d1b12666df95c4c2a1f.webp",
+        "width": 800,
+        "height": 600
+      }
     },
     {
       "id": "post-de3f97b035ec47df8a3fe4a3",
@@ -51,7 +71,12 @@
       "url": "https://www.instagram.com/p/DbH585EJflK/",
       "sourceName": "Fresco Harmonica Ensemble",
       "platform": "Instagram",
-      "publishedAt": "2026-07-23T05:24:39Z"
+      "publishedAt": "2026-07-23T05:24:39Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/622b2d3e987f486862d6.webp",
+        "width": 800,
+        "height": 600
+      }
     }
   ]
 }

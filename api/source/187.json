@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 187,
     "slug": "csmu-blue-melody",
@@ -15,7 +15,12 @@
       "url": "https://www.threads.com/t/DbFOo72ElEu",
       "sourceName": "中山醫藍韻口琴社",
       "platform": "Threads",
-      "publishedAt": "2026-07-22T04:26:28Z"
+      "publishedAt": "2026-07-22T04:26:28Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/be5b49d371050020dea9.webp",
+        "width": 800,
+        "height": 1001
+      }
     },
     {
       "id": "post-235983468aa476f9502bf6ba",
@@ -24,7 +29,12 @@
       "url": "https://www.facebook.com/BMHarmonica/posts/pfbid0RuthJaDACAPPVhY4MKqaf2zhcJBSfLGWQKer3uBLvaNuCF3FcaDyeMhjfzDeriF5l",
       "sourceName": "中山醫藍韻口琴社",
       "platform": "Facebook",
-      "publishedAt": "2026-07-22T04:26:27Z"
+      "publishedAt": "2026-07-22T04:26:27Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a4c8ee1c1c8d294bf733.webp",
+        "width": 512,
+        "height": 640
+      }
     },
     {
       "id": "post-0ebbfbf228392b3122173351",
@@ -33,7 +43,12 @@
       "url": "https://www.youtube.com/watch?v=ez9S0OY4_NE",
       "sourceName": "中山醫藍韻口琴社",
       "platform": "YouTube",
-      "publishedAt": "2026-07-21T12:00:10Z"
+      "publishedAt": "2026-07-21T12:00:10Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/96c207aba20fee109ddc.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-6ab053365e18a6f6e74b8375",
@@ -42,7 +57,12 @@
       "url": "https://www.youtube.com/watch?v=l7SltDoMFgk",
       "sourceName": "中山醫藍韻口琴社",
       "platform": "YouTube",
-      "publishedAt": "2026-07-21T11:54:53Z"
+      "publishedAt": "2026-07-21T11:54:53Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f199f9f52f7ab374a0f4.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-e743059b75412bd3ec070524",
@@ -51,7 +71,12 @@
       "url": "https://www.youtube.com/watch?v=NXYmm0xUYJo",
       "sourceName": "中山醫藍韻口琴社",
       "platform": "YouTube",
-      "publishedAt": "2026-07-21T11:50:29Z"
+      "publishedAt": "2026-07-21T11:50:29Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/de419b2e7b6f93aface0.webp",
+        "width": 800,
+        "height": 450
+      }
     }
   ]
 }

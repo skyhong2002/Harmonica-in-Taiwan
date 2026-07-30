@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 27,
     "slug": "peacetones-harmonica",
@@ -15,7 +15,12 @@
       "url": "https://www.youtube.com/watch?v=coQTTFI6zb4",
       "sourceName": "音和樂器",
       "platform": "YouTube",
-      "publishedAt": "2026-07-27T15:20:45Z"
+      "publishedAt": "2026-07-27T15:20:45Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/060c450280f0277eebf7.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-f2e5fb6c379d02c855378cc5",
@@ -24,7 +29,12 @@
       "url": "https://www.youtube.com/watch?v=pgDKbspaJjg",
       "sourceName": "音和樂器",
       "platform": "YouTube",
-      "publishedAt": "2026-07-24T16:25:44Z"
+      "publishedAt": "2026-07-24T16:25:44Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/cb9865a4d3876b4c8aff.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-709380e04c1fdeab862a5973",
@@ -33,7 +43,12 @@
       "url": "https://www.facebook.com/PeaceTones.harmonica/posts/pfbid0ixa5qKpris2wNQS2Z3t4K6e8c2kxZNkVJyMwRSq76nTUKwFGQUtXmPET3Krx54Vsl",
       "sourceName": "音和樂器",
       "platform": "Facebook",
-      "publishedAt": "2026-07-20T01:27:44Z"
+      "publishedAt": "2026-07-20T01:27:44Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/74f49cc78c38f4b20fb1.webp",
+        "width": 526,
+        "height": 701
+      }
     },
     {
       "id": "post-580e84fd6d6fd8dfa37bbc35",
@@ -42,7 +57,12 @@
       "url": "https://www.facebook.com/reel/934254316354403/",
       "sourceName": "音和樂器",
       "platform": "Facebook",
-      "publishedAt": "2026-07-18T15:57:08Z"
+      "publishedAt": "2026-07-18T15:57:08Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/aa32059149fed864141e.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-2472c63b60fe92b4128fd311",
@@ -51,7 +71,12 @@
       "url": "https://www.youtube.com/watch?v=IK4Jc5_Xgqc",
       "sourceName": "音和樂器",
       "platform": "YouTube",
-      "publishedAt": "2026-07-18T15:25:03Z"
+      "publishedAt": "2026-07-18T15:25:03Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1db1b76ac0642aab8cf8.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-dde94eacda69f77a5f0e54aa",
@@ -60,7 +85,12 @@
       "url": "https://www.youtube.com/watch?v=7AkT9z5UbwU",
       "sourceName": "音和樂器",
       "platform": "YouTube",
-      "publishedAt": "2026-07-16T00:54:56Z"
+      "publishedAt": "2026-07-16T00:54:56Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f7fa67437df425d34586.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-efe8026f2d7faf154f7ce31b",
@@ -69,7 +99,12 @@
       "url": "https://www.youtube.com/watch?v=9oRSC3gtUzc",
       "sourceName": "音和樂器",
       "platform": "YouTube",
-      "publishedAt": "2026-07-15T03:04:17Z"
+      "publishedAt": "2026-07-15T03:04:17Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b7a3429f01d217847876.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-66f2931e61528754c6f3e976",
@@ -78,7 +113,12 @@
       "url": "https://www.facebook.com/reel/1392147976164632/",
       "sourceName": "音和樂器",
       "platform": "Facebook",
-      "publishedAt": "2026-07-11T09:21:00Z"
+      "publishedAt": "2026-07-11T09:21:00Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/5a1347d4546f69e35024.webp",
+        "width": 960,
+        "height": 540
+      }
     },
     {
       "id": "post-ef7fc974a50f08a4d927e157",
@@ -87,7 +127,12 @@
       "url": "https://www.youtube.com/watch?v=QaaEYYx44-g",
       "sourceName": "音和樂器",
       "platform": "YouTube",
-      "publishedAt": "2026-07-11T06:44:43Z"
+      "publishedAt": "2026-07-11T06:44:43Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/00d7010e2ba351eede63.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-a5e6128883781b4768cf190e",
@@ -96,7 +141,12 @@
       "url": "https://www.instagram.com/p/Dajm8WNGcFN/",
       "sourceName": "音和樂器",
       "platform": "Instagram",
-      "publishedAt": "2026-07-09T03:04:41Z"
+      "publishedAt": "2026-07-09T03:04:41Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2ab76f0f71b151b0385a.webp",
+        "width": 800,
+        "height": 604
+      }
     },
     {
       "id": "post-10f89c87817404660e5ff59f",
@@ -105,7 +155,12 @@
       "url": "https://www.youtube.com/watch?v=ABmNtenSvRU",
       "sourceName": "音和樂器",
       "platform": "YouTube",
-      "publishedAt": "2026-07-03T03:26:43Z"
+      "publishedAt": "2026-07-03T03:26:43Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ca956be1d055ab0ed03f.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-fa7d960a8a1e963b439012d1",
@@ -114,7 +169,12 @@
       "url": "https://www.facebook.com/PeaceTones.harmonica/posts/pfbid03nDydq9NdY4XtXVDHxfmYeF1icVk3Ji3ngzKx8iFxR6esnf3k8PWzmGr3yiTntQol",
       "sourceName": "音和樂器",
       "platform": "Facebook",
-      "publishedAt": "2026-07-02T07:13:16Z"
+      "publishedAt": "2026-07-02T07:13:16Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6c20efeb86681874d4b9.webp",
+        "width": 720,
+        "height": 540
+      }
     },
     {
       "id": "post-21d562f8185da551a0c8f9e5",
@@ -123,7 +183,12 @@
       "url": "https://www.youtube.com/watch?v=dy5kCQ_BrnY",
       "sourceName": "音和樂器",
       "platform": "YouTube",
-      "publishedAt": "2026-07-01T07:10:18Z"
+      "publishedAt": "2026-07-01T07:10:18Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1bedf93c30666ccc3a31.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-524c3b15fe8cf896eae38e83",
@@ -132,7 +197,12 @@
       "url": "https://www.facebook.com/reel/1342080537406408/",
       "sourceName": "音和樂器",
       "platform": "Facebook",
-      "publishedAt": "2026-07-01T07:06:41Z"
+      "publishedAt": "2026-07-01T07:06:41Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/336fede708c1c40e380b.webp",
+        "width": 800,
+        "height": 450
+      }
     }
   ]
 }

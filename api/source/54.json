@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 54,
     "slug": "cy-leo",
@@ -15,7 +15,12 @@
       "url": "https://www.facebook.com/reel/28392926206981017/",
       "sourceName": "CY Leo 何卓彥",
       "platform": "Facebook",
-      "publishedAt": "2026-07-27T14:58:56Z"
+      "publishedAt": "2026-07-27T14:58:56Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b5bff18e52c5b6f84568.webp",
+        "width": 540,
+        "height": 960
+      }
     },
     {
       "id": "post-092db7a5970d13a27f1b53fd",
@@ -24,7 +29,12 @@
       "url": "https://www.facebook.com/reel/1544185274115619/",
       "sourceName": "CY Leo 何卓彥",
       "platform": "Facebook",
-      "publishedAt": "2026-07-26T02:47:57Z"
+      "publishedAt": "2026-07-26T02:47:57Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3f54a8f05f13b3d6badd.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-033316c24a5e9640c5eb9c58",
@@ -33,7 +43,12 @@
       "url": "https://www.youtube.com/watch?v=KvkxUn4-hac",
       "sourceName": "CY Leo 何卓彥",
       "platform": "YouTube",
-      "publishedAt": "2026-07-26T02:27:29Z"
+      "publishedAt": "2026-07-26T02:27:29Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c88cf7a45317be22e049.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-037894a24a57f32e1ce14753",
@@ -42,7 +57,12 @@
       "url": "https://www.facebook.com/reel/899044103247518/",
       "sourceName": "CY Leo 何卓彥",
       "platform": "Facebook",
-      "publishedAt": "2026-07-22T03:58:15Z"
+      "publishedAt": "2026-07-22T03:58:15Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/241e7fab630a4b0b3d49.webp",
+        "width": 540,
+        "height": 960
+      }
     },
     {
       "id": "post-5b8c1cb784786a02e5c2de13",
@@ -51,7 +71,12 @@
       "url": "https://www.instagram.com/p/Day_1kMjIuW/",
       "sourceName": "CY Leo 何卓彥",
       "platform": "Instagram",
-      "publishedAt": "2026-07-15T02:32:14Z"
+      "publishedAt": "2026-07-15T02:32:14Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ca49fb9d5350985b594d.webp",
+        "width": 800,
+        "height": 1067
+      }
     },
     {
       "id": "post-fcdd27231b5c07f4c854f934",
@@ -60,7 +85,12 @@
       "url": "https://www.facebook.com/reel/1365544205499662/",
       "sourceName": "CY Leo 何卓彥",
       "platform": "Facebook",
-      "publishedAt": "2026-07-14T03:54:02Z"
+      "publishedAt": "2026-07-14T03:54:02Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/8f1299a21e3c70ad1dd1.webp",
+        "width": 540,
+        "height": 960
+      }
     },
     {
       "id": "post-9d56886dfe8e1d79da03fd6c",
@@ -69,7 +99,12 @@
       "url": "https://www.facebook.com/reel/1552016739645660/",
       "sourceName": "CY Leo 何卓彥",
       "platform": "Facebook",
-      "publishedAt": "2026-07-11T04:09:56Z"
+      "publishedAt": "2026-07-11T04:09:56Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2d2dc5e909ba9eb0ad66.webp",
+        "width": 540,
+        "height": 960
+      }
     },
     {
       "id": "post-af1870295d8c0f75286947ed",
@@ -78,7 +113,12 @@
       "url": "https://www.instagram.com/p/DakTSNDy4nV/",
       "sourceName": "CY Leo 何卓彥",
       "platform": "Instagram",
-      "publishedAt": "2026-07-09T09:40:08Z"
+      "publishedAt": "2026-07-09T09:40:08Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/0f206581a332daefa27c.webp",
+        "width": 720,
+        "height": 1280
+      }
     },
     {
       "id": "post-97c160962bb1badc3263069e",
@@ -87,7 +127,12 @@
       "url": "https://www.instagram.com/p/DaZ_6W7ktof/",
       "sourceName": "CY Leo 何卓彥",
       "platform": "Instagram",
-      "publishedAt": "2026-07-05T09:30:28Z"
+      "publishedAt": "2026-07-05T09:30:28Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ff9a2fb7fcd49a2ff50d.webp",
+        "width": 800,
+        "height": 437
+      }
     },
     {
       "id": "post-0ede53e8214f3753766dd5ee",
@@ -96,7 +141,12 @@
       "url": "https://www.instagram.com/p/DaXSFYKyANp/",
       "sourceName": "CY Leo 何卓彥",
       "platform": "Instagram",
-      "publishedAt": "2026-07-04T08:20:12Z"
+      "publishedAt": "2026-07-04T08:20:12Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/eadd52e6a02b4da64ca0.webp",
+        "width": 720,
+        "height": 1280
+      }
     },
     {
       "id": "post-ad5e05d6126b9b2a6f93e93b",
@@ -105,7 +155,12 @@
       "url": "https://www.youtube.com/watch?v=VqsdIdYbnMs",
       "sourceName": "CY Leo 何卓彥",
       "platform": "YouTube",
-      "publishedAt": "2026-07-03T04:00:01Z"
+      "publishedAt": "2026-07-03T04:00:01Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/e99d9f69c516590c53a2.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-0c4e722390d3d2d28c1528af",
@@ -114,7 +169,12 @@
       "url": "https://www.youtube.com/watch?v=JsJ_iUAD8cg",
       "sourceName": "CY Leo 何卓彥",
       "platform": "YouTube",
-      "publishedAt": "2026-07-03T02:38:31Z"
+      "publishedAt": "2026-07-03T02:38:31Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/dc1ccc625238a2d48734.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-0120a457620d63fe143c62eb",
@@ -123,7 +183,12 @@
       "url": "https://www.facebook.com/Cyleoharmonica/posts/pfbid02cC4PZJhNRNy2A3D5ciNJtF3ZFCPjh74GBgPPHxXDQwmEQnZepGDTDMqg4A5GHEMMl",
       "sourceName": "CY Leo 何卓彥",
       "platform": "Facebook",
-      "publishedAt": "2026-07-02T04:56:48Z"
+      "publishedAt": "2026-07-02T04:56:48Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/dfb402cc47afea6bed5c.webp",
+        "width": 332,
+        "height": 590
+      }
     },
     {
       "id": "post-b0c4599807816893c87b67e7",
@@ -132,7 +197,12 @@
       "url": "https://www.youtube.com/watch?v=3URLvMUH3yM",
       "sourceName": "CY Leo 何卓彥",
       "platform": "YouTube",
-      "publishedAt": "2026-07-01T09:13:10Z"
+      "publishedAt": "2026-07-01T09:13:10Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2c812a2d4ab9109b0b4f.webp",
+        "width": 800,
+        "height": 450
+      }
     }
   ]
 }

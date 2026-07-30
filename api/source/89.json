@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 89,
     "slug": "baba-harmonica-studio",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/Dah7v_wv47C/",
       "sourceName": "巴巴口琴坊",
       "platform": "Instagram",
-      "publishedAt": "2026-07-08T11:30:08Z"
+      "publishedAt": "2026-07-08T11:30:08Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/fef2cbdefc8a9f558738.webp",
+        "width": 800,
+        "height": 600
+      }
     }
   ]
 }

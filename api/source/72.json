@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 72,
     "slug": "72",
@@ -15,7 +15,12 @@
       "url": "https://www.facebook.com/permalink.php?id=61550868336289&story_fbid=pfbid037chEnLNagbiGYykyyP177HDLtRQjz9PZQh8WM5J5kZ6iEdxbWb5ipMZT771pdjVAl",
       "sourceName": "雲林縣二崙國中藝才班口琴隊",
       "platform": "Facebook",
-      "publishedAt": "2026-07-21T00:12:50Z"
+      "publishedAt": "2026-07-21T00:12:50Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/28f3bce8afcb903a349c.webp",
+        "width": 800,
+        "height": 447
+      }
     }
   ]
 }

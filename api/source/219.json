@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 219,
     "slug": "inixial-harmonica-ensemble",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/DbQT71EPd-f/",
       "sourceName": "IniXial Harmonica Ensemble 源創口琴樂團",
       "platform": "Instagram",
-      "publishedAt": "2026-07-26T11:46:19Z"
+      "publishedAt": "2026-07-26T11:46:19Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/916fc6b721f7faf79b5d.webp",
+        "width": 800,
+        "height": 1423
+      }
     },
     {
       "id": "post-e5eabe773154d1a146e90f90",
@@ -24,7 +29,12 @@
       "url": "https://www.threads.com/t/DbQUF87iUQO",
       "sourceName": "IniXial Harmonica Ensemble 源創口琴樂團",
       "platform": "Threads",
-      "publishedAt": "2026-07-26T11:45:49Z"
+      "publishedAt": "2026-07-26T11:45:49Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d8b558b10afac1bae2a1.webp",
+        "width": 800,
+        "height": 1423
+      }
     },
     {
       "id": "post-d8e39eca4a6f4949abcf7076",
@@ -33,7 +43,12 @@
       "url": "https://www.youtube.com/watch?v=Co5WH3HlM60",
       "sourceName": "IniXial Harmonica Ensemble 源創口琴樂團",
       "platform": "YouTube",
-      "publishedAt": "2026-07-24T17:35:31Z"
+      "publishedAt": "2026-07-24T17:35:31Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4358b77070ccdfb499d2.webp",
+        "width": 640,
+        "height": 480
+      }
     },
     {
       "id": "post-d215da262b06e7895d49f813",
@@ -42,7 +57,12 @@
       "url": "https://www.youtube.com/watch?v=h6ZEoQzyemg",
       "sourceName": "IniXial Harmonica Ensemble 源創口琴樂團",
       "platform": "YouTube",
-      "publishedAt": "2026-07-24T16:34:37Z"
+      "publishedAt": "2026-07-24T16:34:37Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/26af97a7efc2043f153d.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-0e3a665a6bf6c7ed9030cc1d",
@@ -51,7 +71,12 @@
       "url": "https://www.youtube.com/watch?v=XyFGnEE0v08",
       "sourceName": "IniXial Harmonica Ensemble 源創口琴樂團",
       "platform": "YouTube",
-      "publishedAt": "2026-07-24T16:31:22Z"
+      "publishedAt": "2026-07-24T16:31:22Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/95f48a362a1072493942.webp",
+        "width": 480,
+        "height": 360
+      }
     },
     {
       "id": "post-3a97819b500ec470ec0825a3",
@@ -60,7 +85,12 @@
       "url": "https://www.threads.com/t/DbK_djwiWia",
       "sourceName": "IniXial Harmonica Ensemble 源創口琴樂團",
       "platform": "Threads",
-      "publishedAt": "2026-07-24T10:09:19Z"
+      "publishedAt": "2026-07-24T10:09:19Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/12acfd252b64e4051a08.webp",
+        "width": 800,
+        "height": 1423
+      }
     },
     {
       "id": "post-00d1f9a138f43bb2f25d3ec8",
@@ -69,7 +99,12 @@
       "url": "https://www.instagram.com/p/DbK_Oebva5o/",
       "sourceName": "IniXial Harmonica Ensemble 源創口琴樂團",
       "platform": "Instagram",
-      "publishedAt": "2026-07-24T10:09:06Z"
+      "publishedAt": "2026-07-24T10:09:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d22fd970a85048e2a9e3.webp",
+        "width": 800,
+        "height": 1423
+      }
     }
   ]
 }

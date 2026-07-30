@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 154,
     "slug": "orchester-hohnerklang",
@@ -15,7 +15,12 @@
       "url": "https://www.facebook.com/reel/1714315993194538/",
       "sourceName": "Orchestra Hohnerklang",
       "platform": "Facebook",
-      "publishedAt": "2026-07-26T16:00:45Z"
+      "publishedAt": "2026-07-26T16:00:45Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/fb7b0e79178d66f2ac81.webp",
+        "width": 540,
+        "height": 960
+      }
     },
     {
       "id": "post-5bd1e819710adde1f26d9f5a",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/DbQotZ7Dcf2/",
       "sourceName": "Orchestra Hohnerklang",
       "platform": "Instagram",
-      "publishedAt": "2026-07-26T15:21:26Z"
+      "publishedAt": "2026-07-26T15:21:26Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b751fe514ae84e65b0a2.webp",
+        "width": 800,
+        "height": 600
+      }
     },
     {
       "id": "post-87f3a1fcb266751beb18199d",
@@ -33,7 +43,12 @@
       "url": "https://www.facebook.com/hohnerklang/posts/pfbid02KvoU8bgdoxKRs7t1BgHNGQ5E3uyuRbLTm7ffVkf3xnaTqFnMV9pkvv1UjRDKKTBl",
       "sourceName": "Orchestra Hohnerklang",
       "platform": "Facebook",
-      "publishedAt": "2026-07-26T14:46:14Z"
+      "publishedAt": "2026-07-26T14:46:14Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2818c605f23e8598718b.webp",
+        "width": 590,
+        "height": 443
+      }
     },
     {
       "id": "post-2e8f4d2b63341ef1697e0e49",
@@ -42,7 +57,12 @@
       "url": "https://www.facebook.com/hohnerklang/posts/pfbid02ztGijgK6UiosGQtDKUgLLz294yBdR2fdNDCCVipLrgqxKYKQh1AyEBBng53sDPmUl",
       "sourceName": "Orchestra Hohnerklang",
       "platform": "Facebook",
-      "publishedAt": "2026-07-22T17:37:05Z"
+      "publishedAt": "2026-07-22T17:37:05Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/5cabb76ef9f0c2c4e7af.webp",
+        "width": 442,
+        "height": 590
+      }
     }
   ]
 }

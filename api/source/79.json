@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 79,
     "slug": "79",
@@ -15,7 +15,12 @@
       "url": "https://www.youtube.com/watch?v=q9o-J2G8_wY",
       "sourceName": "國家兩廳院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-29T08:58:45Z"
+      "publishedAt": "2026-07-29T08:58:45Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6b1c89dd3759a1410f47.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-2033d9a32414b64fe748c76a",
@@ -24,7 +29,12 @@
       "url": "https://www.youtube.com/watch?v=oNC74jMhlAg",
       "sourceName": "國家兩廳院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-27T06:46:43Z"
+      "publishedAt": "2026-07-27T06:46:43Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/e4e3781eef590a8f1009.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-7ec54b9007d79d60a7802342",
@@ -33,7 +43,12 @@
       "url": "https://www.youtube.com/watch?v=OVcm0m3QfaU",
       "sourceName": "國家兩廳院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-27T04:00:34Z"
+      "publishedAt": "2026-07-27T04:00:34Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/aa89d73fb678671df2d5.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-d2a54e0fbd0f64ec02702e83",
@@ -42,7 +57,12 @@
       "url": "https://www.youtube.com/watch?v=6R8__EWpqBY",
       "sourceName": "國家兩廳院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-27T04:00:29Z"
+      "publishedAt": "2026-07-27T04:00:29Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a74c11ffe86af6c8babd.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-214ba9368e8e47a32008ced8",
@@ -51,7 +71,12 @@
       "url": "https://www.youtube.com/watch?v=9dZ1aNbo4rA",
       "sourceName": "國家兩廳院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-27T04:00:27Z"
+      "publishedAt": "2026-07-27T04:00:27Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/82376825c05ab6189d62.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-b6a64e2e7796cf8dd65180b4",
@@ -60,7 +85,12 @@
       "url": "https://www.threads.com/t/DbKe6aLCUO4",
       "sourceName": "國家兩廳院",
       "platform": "Threads",
-      "publishedAt": "2026-07-24T05:24:52Z"
+      "publishedAt": "2026-07-24T05:24:52Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d00e6c067126f25545ae.webp",
+        "width": 800,
+        "height": 1067
+      }
     },
     {
       "id": "post-514d128d4f175995e845d903",
@@ -69,7 +99,12 @@
       "url": "https://www.youtube.com/watch?v=WtXab_4bRhQ",
       "sourceName": "國家兩廳院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-23T00:09:26Z"
+      "publishedAt": "2026-07-23T00:09:26Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/670ba6a815ba597e06e9.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-be67c1d17041c233ef1d8831",
@@ -78,7 +113,12 @@
       "url": "https://www.youtube.com/watch?v=qw8nuM3aR5U",
       "sourceName": "國家兩廳院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-16T04:18:24Z"
+      "publishedAt": "2026-07-16T04:18:24Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d39567155ab6f03e9e6f.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-32ca0de244a66d1e8452b092",
@@ -87,7 +127,12 @@
       "url": "https://www.instagram.com/p/DaxVaoyzltx/",
       "sourceName": "國家兩廳院",
       "platform": "Instagram",
-      "publishedAt": "2026-07-14T11:00:16Z"
+      "publishedAt": "2026-07-14T11:00:16Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/67247274a0552585e467.webp",
+        "width": 640,
+        "height": 1136
+      }
     },
     {
       "id": "post-faebc008eb9a76db9bcee38f",
@@ -96,7 +141,12 @@
       "url": "https://www.youtube.com/watch?v=hckIXxDpKSI",
       "sourceName": "國家兩廳院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-14T10:51:26Z"
+      "publishedAt": "2026-07-14T10:51:26Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b793a04ab94bf086bdea.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-1d68a45d6c77ecde76a4813e",
@@ -105,7 +155,12 @@
       "url": "https://www.youtube.com/watch?v=GsfPg5ZVYv0",
       "sourceName": "國家兩廳院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-14T05:02:34Z"
+      "publishedAt": "2026-07-14T05:02:34Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/fe1e7e778f8b232b3741.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-e5118cd46ac7da92132cef10",
@@ -114,7 +169,12 @@
       "url": "https://www.instagram.com/p/DaujJMRIhlt/",
       "sourceName": "國家兩廳院",
       "platform": "Instagram",
-      "publishedAt": "2026-07-13T10:30:12Z"
+      "publishedAt": "2026-07-13T10:30:12Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3c8bc0bfa86efa855cfd.webp",
+        "width": 800,
+        "height": 999
+      }
     },
     {
       "id": "post-6f8e9268c7a393688d383577",
@@ -123,7 +183,12 @@
       "url": "https://www.youtube.com/watch?v=GhlukCL5-64",
       "sourceName": "國家兩廳院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-13T10:12:47Z"
+      "publishedAt": "2026-07-13T10:12:47Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/dbf4e3bb6743762b82d9.webp",
+        "width": 640,
+        "height": 480
+      }
     },
     {
       "id": "post-2d2e37a137644bff07c9298a",
@@ -132,7 +197,12 @@
       "url": "https://www.youtube.com/watch?v=c_8vEMvfVP4",
       "sourceName": "國家兩廳院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-09T00:18:51Z"
+      "publishedAt": "2026-07-09T00:18:51Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4ee7880c528dc4497410.webp",
+        "width": 800,
+        "height": 450
+      }
     }
   ]
 }

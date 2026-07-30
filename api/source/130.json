@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 130,
     "slug": "hong-kong-harmonica-association",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/Da0QTtPE0N5/",
       "sourceName": "香港口琴協會 Hong Kong Harmonica Association",
       "platform": "Instagram",
-      "publishedAt": "2026-07-15T14:13:59Z"
+      "publishedAt": "2026-07-15T14:13:59Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1daa8a4c056b35523734.webp",
+        "width": 800,
+        "height": 1001
+      }
     },
     {
       "id": "post-a732e76f1b709911315fa0df",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/Dau2zI_E-4m/",
       "sourceName": "香港口琴協會 Hong Kong Harmonica Association",
       "platform": "Instagram",
-      "publishedAt": "2026-07-13T11:54:52Z"
+      "publishedAt": "2026-07-13T11:54:52Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/39ff0ccf2a4bdb4b4bcc.webp",
+        "width": 800,
+        "height": 1001
+      }
     }
   ]
 }

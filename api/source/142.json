@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 142,
     "slug": "howard-levy",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/DaySTRFJQG7/",
       "sourceName": "Howard Levy",
       "platform": "Instagram",
-      "publishedAt": "2026-07-14T19:54:48Z"
+      "publishedAt": "2026-07-14T19:54:48Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/8b57f1285129126a9de9.webp",
+        "width": 800,
+        "height": 1423
+      }
     },
     {
       "id": "post-2cf43b4a487c4e67c19e55d5",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/Dav_-h7JJIS/",
       "sourceName": "Howard Levy",
       "platform": "Instagram",
-      "publishedAt": "2026-07-13T22:36:55Z"
+      "publishedAt": "2026-07-13T22:36:55Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/82414315c55f48f0c8c8.webp",
+        "width": 800,
+        "height": 1423
+      }
     },
     {
       "id": "post-681d298f8d13b88f20fdb381",
@@ -33,7 +43,12 @@
       "url": "https://www.instagram.com/p/DarARqBjaNM/",
       "sourceName": "Howard Levy",
       "platform": "Instagram",
-      "publishedAt": "2026-07-12T00:01:19Z"
+      "publishedAt": "2026-07-12T00:01:19Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9e24875d40606f57f3c8.webp",
+        "width": 800,
+        "height": 1423
+      }
     },
     {
       "id": "post-12ecdf98f818ff355e25e25e",
@@ -42,7 +57,12 @@
       "url": "https://www.instagram.com/p/DankVEjR0CS/",
       "sourceName": "Howard Levy",
       "platform": "Instagram",
-      "publishedAt": "2026-07-10T16:04:14Z"
+      "publishedAt": "2026-07-10T16:04:14Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d8d295ffc61bffbdfb46.webp",
+        "width": 800,
+        "height": 1423
+      }
     },
     {
       "id": "post-d03d05023ab432f2cef4ffb0",
@@ -51,7 +71,12 @@
       "url": "https://www.instagram.com/p/Dak1MKjDk0B/",
       "sourceName": "Howard Levy",
       "platform": "Instagram",
-      "publishedAt": "2026-07-09T14:28:25Z"
+      "publishedAt": "2026-07-09T14:28:25Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/06a559236972393fe8da.webp",
+        "width": 800,
+        "height": 1000
+      }
     },
     {
       "id": "post-d6fb766aec3625b38b803cdc",
@@ -60,7 +85,12 @@
       "url": "https://www.instagram.com/p/DajAf13p5M5/",
       "sourceName": "Howard Levy",
       "platform": "Instagram",
-      "publishedAt": "2026-07-08T21:33:52Z"
+      "publishedAt": "2026-07-08T21:33:52Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/87eaedd63f0cb2815a97.webp",
+        "width": 800,
+        "height": 1423
+      }
     },
     {
       "id": "post-118b2eb8c63f433aa13314a0",
@@ -69,7 +99,12 @@
       "url": "https://www.instagram.com/p/DaeGvAAJqYT/",
       "sourceName": "Howard Levy",
       "platform": "Instagram",
-      "publishedAt": "2026-07-06T23:54:00Z"
+      "publishedAt": "2026-07-06T23:54:00Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/60f790b71a7d4595ede4.webp",
+        "width": 800,
+        "height": 1423
+      }
     },
     {
       "id": "post-33ebec5528f2309728db7d92",
@@ -78,7 +113,12 @@
       "url": "https://www.instagram.com/p/Dab1noWDV68/",
       "sourceName": "Howard Levy",
       "platform": "Instagram",
-      "publishedAt": "2026-07-06T02:38:59Z"
+      "publishedAt": "2026-07-06T02:38:59Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/13f0c47db6eb08c3111d.webp",
+        "width": 608,
+        "height": 406
+      }
     },
     {
       "id": "post-b5993ce288c3dcbbbbdac46e",
@@ -87,7 +127,12 @@
       "url": "https://www.youtube.com/watch?v=3_lR0jorx6U",
       "sourceName": "Howard Levy",
       "platform": "YouTube",
-      "publishedAt": "2026-07-01T19:34:15Z"
+      "publishedAt": "2026-07-01T19:34:15Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/68c751527e33a56002f0.webp",
+        "width": 800,
+        "height": 450
+      }
     }
   ]
 }

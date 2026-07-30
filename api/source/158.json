@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 158,
     "slug": "deak-harp",
@@ -15,7 +15,12 @@
       "url": "https://www.facebook.com/deak.harp/posts/pfbid02HudunsNeuNP2XpR9u5YdJXKKJvf5WoTkBAyoQZge7Na7PGmdqDeHZ3ooJgY4YBFwl",
       "sourceName": "Deak Harp",
       "platform": "Facebook",
-      "publishedAt": "2026-07-18T17:37:31Z"
+      "publishedAt": "2026-07-18T17:37:31Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1f74a3e47a2b51ed83ce.webp",
+        "width": 443,
+        "height": 590
+      }
     },
     {
       "id": "post-778d2d9fc7df34300be882ac",
@@ -33,7 +38,12 @@
       "url": "https://www.facebook.com/deak.harp/posts/pfbid02f2CpXKuEoLjDXtJE8V8TkR1P7QUL3WRBAtK9j22FmcxdxgCzcmo9FQT8jjNSq6r7l",
       "sourceName": "Deak Harp",
       "platform": "Facebook",
-      "publishedAt": "2026-07-10T01:42:44Z"
+      "publishedAt": "2026-07-10T01:42:44Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c64ba12e6ca0111bba37.webp",
+        "width": 526,
+        "height": 701
+      }
     },
     {
       "id": "post-935fb18cfde4061480e5a0f0",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 189,
     "slug": "fcu-harmonica",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/DaRZRa2D78H/",
       "sourceName": "逢甲口琴社",
       "platform": "Instagram",
-      "publishedAt": "2026-07-02T01:18:54Z"
+      "publishedAt": "2026-07-02T01:18:54Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/aa280987edb44d249541.webp",
+        "width": 800,
+        "height": 600
+      }
     },
     {
       "id": "post-4ce0b2434ef28972d57a3b8e",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/DaRYXR7j6Ar/",
       "sourceName": "逢甲口琴社",
       "platform": "Instagram",
-      "publishedAt": "2026-07-02T01:10:58Z"
+      "publishedAt": "2026-07-02T01:10:58Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/31051a491d4d49bec2f2.webp",
+        "width": 800,
+        "height": 533
+      }
     }
   ]
 }

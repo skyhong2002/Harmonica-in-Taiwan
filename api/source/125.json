@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 125,
     "slug": "jens-bunge",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/DbVUenMuAnM/",
       "sourceName": "Jens Bunge",
       "platform": "Instagram",
-      "publishedAt": "2026-07-28T10:36:59Z"
+      "publishedAt": "2026-07-28T10:36:59Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ca765f998d21b677fa01.webp",
+        "width": 640,
+        "height": 1136
+      }
     },
     {
       "id": "post-15ab1388169ef1eda4015db6",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/DbTW3RUjw9V/",
       "sourceName": "Jens Bunge",
       "platform": "Instagram",
-      "publishedAt": "2026-07-27T16:07:43Z"
+      "publishedAt": "2026-07-27T16:07:43Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a0badc5d00be0469a9b8.webp",
+        "width": 720,
+        "height": 405
+      }
     },
     {
       "id": "post-f71548bb9946c82acb1660f2",
@@ -33,7 +43,12 @@
       "url": "https://www.instagram.com/p/DbP5Ypzu34U/",
       "sourceName": "Jens Bunge",
       "platform": "Instagram",
-      "publishedAt": "2026-07-26T07:52:57Z"
+      "publishedAt": "2026-07-26T07:52:57Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/15309a25cc962cdda0ac.webp",
+        "width": 800,
+        "height": 600
+      }
     },
     {
       "id": "post-b58dd9b36c920779fe70ae3e",
@@ -42,7 +57,12 @@
       "url": "https://www.instagram.com/p/DbPZNZcydZJ/",
       "sourceName": "Jens Bunge",
       "platform": "Instagram",
-      "publishedAt": "2026-07-26T03:16:36Z"
+      "publishedAt": "2026-07-26T03:16:36Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b06947a3a5d758be9219.webp",
+        "width": 800,
+        "height": 794
+      }
     },
     {
       "id": "post-faa31c6d47280f90f3ea55ac",
@@ -51,7 +71,12 @@
       "url": "https://www.instagram.com/p/DbMuW2TyW7V/",
       "sourceName": "Jens Bunge",
       "platform": "Instagram",
-      "publishedAt": "2026-07-25T02:46:08Z"
+      "publishedAt": "2026-07-25T02:46:08Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/40bf5adae553a43c37fa.webp",
+        "width": 800,
+        "height": 800
+      }
     },
     {
       "id": "post-6cf4f068b1af8913ba2deb54",
@@ -60,7 +85,12 @@
       "url": "https://www.instagram.com/p/DbHw9tzuNi5/",
       "sourceName": "Jens Bunge",
       "platform": "Instagram",
-      "publishedAt": "2026-07-23T04:07:37Z"
+      "publishedAt": "2026-07-23T04:07:37Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6dd8a1ad006c337b7639.webp",
+        "width": 800,
+        "height": 1067
+      }
     },
     {
       "id": "post-9aaca5bf9274630177df38cd",
@@ -69,7 +99,12 @@
       "url": "https://www.instagram.com/p/DbAUPPguP2b/",
       "sourceName": "Jens Bunge",
       "platform": "Instagram",
-      "publishedAt": "2026-07-20T06:44:07Z"
+      "publishedAt": "2026-07-20T06:44:07Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/681b877386f4a7bfff23.webp",
+        "width": 800,
+        "height": 800
+      }
     },
     {
       "id": "post-8f9d2a139d72e3cfdc2370f0",
@@ -78,7 +113,12 @@
       "url": "https://www.instagram.com/p/Da-QXJhFkxI/",
       "sourceName": "Jens Bunge",
       "platform": "Instagram",
-      "publishedAt": "2026-07-19T11:26:51Z"
+      "publishedAt": "2026-07-19T11:26:51Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ace07194416f4b96d3da.webp",
+        "width": 800,
+        "height": 600
+      }
     },
     {
       "id": "post-86f4ab54fa6aeca4f5936a7e",
@@ -87,7 +127,12 @@
       "url": "https://www.instagram.com/p/Da7ceVlxNxL/",
       "sourceName": "Jens Bunge",
       "platform": "Instagram",
-      "publishedAt": "2026-07-18T09:16:58Z"
+      "publishedAt": "2026-07-18T09:16:58Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/69136449cee5666c5e20.webp",
+        "width": 800,
+        "height": 1057
+      }
     },
     {
       "id": "post-2dd9a41b6875cd34a3b5c54d",
@@ -96,7 +141,12 @@
       "url": "https://www.instagram.com/p/Da7aYZGR2Ny/",
       "sourceName": "Jens Bunge",
       "platform": "Instagram",
-      "publishedAt": "2026-07-18T08:58:25Z"
+      "publishedAt": "2026-07-18T08:58:25Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/69657777b5ee084fdae8.webp",
+        "width": 800,
+        "height": 1067
+      }
     },
     {
       "id": "post-ee93fbc518f512e5f78693bf",
@@ -105,7 +155,12 @@
       "url": "https://www.instagram.com/p/Da3LjpEu0Xl/",
       "sourceName": "Jens Bunge",
       "platform": "Instagram",
-      "publishedAt": "2026-07-16T17:34:52Z"
+      "publishedAt": "2026-07-16T17:34:52Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/97dee07ef3d3147ed209.webp",
+        "width": 800,
+        "height": 435
+      }
     },
     {
       "id": "post-57a6cf5c246c8123a566989a",
@@ -114,7 +169,12 @@
       "url": "https://www.instagram.com/p/DawnV_9xh_W/",
       "sourceName": "Jens Bunge",
       "platform": "Instagram",
-      "publishedAt": "2026-07-14T10:17:08Z"
+      "publishedAt": "2026-07-14T10:17:08Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/fd85eda7c84221e7ca0f.webp",
+        "width": 800,
+        "height": 800
+      }
     },
     {
       "id": "post-79581cb95084d887f62be41c",
@@ -123,7 +183,12 @@
       "url": "https://www.instagram.com/p/Das1iRaPTrN/",
       "sourceName": "Jens Bunge",
       "platform": "Instagram",
-      "publishedAt": "2026-07-12T17:06:27Z"
+      "publishedAt": "2026-07-12T17:06:27Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3b41851b4b993925ebc0.webp",
+        "width": 640,
+        "height": 360
+      }
     },
     {
       "id": "post-fbf57edae748045cf7fd9769",
@@ -132,7 +197,12 @@
       "url": "https://www.instagram.com/p/Damilm_PTc_/",
       "sourceName": "Jens Bunge",
       "platform": "Instagram",
-      "publishedAt": "2026-07-10T06:33:20Z"
+      "publishedAt": "2026-07-10T06:33:20Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9fdda3e352ed0f1c6f0f.webp",
+        "width": 640,
+        "height": 356
+      }
     },
     {
       "id": "post-0d7d9e84f3f446071d08340c",
@@ -141,7 +211,12 @@
       "url": "https://www.instagram.com/p/DakdHhWFpd7/",
       "sourceName": "Jens Bunge",
       "platform": "Instagram",
-      "publishedAt": "2026-07-09T10:58:04Z"
+      "publishedAt": "2026-07-09T10:58:04Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4d59df01a2b56b7e2ba1.webp",
+        "width": 800,
+        "height": 1067
+      }
     },
     {
       "id": "post-fc75862979112278a2077e0a",
@@ -150,7 +225,12 @@
       "url": "https://www.instagram.com/p/DakYh--uj5C/",
       "sourceName": "Jens Bunge",
       "platform": "Instagram",
-      "publishedAt": "2026-07-09T10:18:28Z"
+      "publishedAt": "2026-07-09T10:18:28Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c7c54d53849f04c9b59f.webp",
+        "width": 1440,
+        "height": 1080
+      }
     },
     {
       "id": "post-b9736f8eb3d1adb6c06c9d98",
@@ -159,7 +239,12 @@
       "url": "https://www.instagram.com/p/DafpRk4y5Mq/",
       "sourceName": "Jens Bunge",
       "platform": "Instagram",
-      "publishedAt": "2026-07-07T15:26:12Z"
+      "publishedAt": "2026-07-07T15:26:12Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a5f2fdb0a69d24a2a46e.webp",
+        "width": 800,
+        "height": 1067
+      }
     },
     {
       "id": "post-e7b7e28e63c634ee5b4da9b0",
@@ -168,7 +253,12 @@
       "url": "https://www.instagram.com/p/Dac9DmmusNn/",
       "sourceName": "Jens Bunge",
       "platform": "Instagram",
-      "publishedAt": "2026-07-06T13:17:47Z"
+      "publishedAt": "2026-07-06T13:17:47Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/03ee1c3b6d709aa2591b.webp",
+        "width": 640,
+        "height": 1136
+      }
     },
     {
       "id": "post-a7bd9fa7cf71e9faf293a3ee",
@@ -177,7 +267,12 @@
       "url": "https://www.instagram.com/p/DacssDgvaIW/",
       "sourceName": "Jens Bunge",
       "platform": "Instagram",
-      "publishedAt": "2026-07-06T10:41:41Z"
+      "publishedAt": "2026-07-06T10:41:41Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2d0d457781568919209d.webp",
+        "width": 1440,
+        "height": 1440
+      }
     },
     {
       "id": "post-d2b169c35fa4f9fb35056e6f",
@@ -186,7 +281,12 @@
       "url": "https://www.instagram.com/p/DaS_nuAD8AW/",
       "sourceName": "Jens Bunge",
       "platform": "Instagram",
-      "publishedAt": "2026-07-02T16:13:13Z"
+      "publishedAt": "2026-07-02T16:13:13Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4c8b2111d2a846b6993c.webp",
+        "width": 800,
+        "height": 800
+      }
     }
   ]
 }

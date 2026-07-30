@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 221,
     "slug": "yuanyuan-harmonica",
@@ -15,7 +15,12 @@
       "url": "https://www.youtube.com/watch?v=U9_SVRkqLmY",
       "sourceName": "吹口琴的小园园",
       "platform": "YouTube",
-      "publishedAt": "2026-07-30T10:00:14Z"
+      "publishedAt": "2026-07-30T10:00:14Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4452ba747ecff454db6e.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-8aed77fdcb66162ed0f04f1e",
@@ -24,7 +29,12 @@
       "url": "https://www.youtube.com/watch?v=3n2_mu7OUzs",
       "sourceName": "吹口琴的小园园",
       "platform": "YouTube",
-      "publishedAt": "2026-07-28T10:00:28Z"
+      "publishedAt": "2026-07-28T10:00:28Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/46835f98f9f97126d91a.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-6ab6e32b91a25efad2d84ef6",
@@ -33,7 +43,12 @@
       "url": "https://www.youtube.com/watch?v=Ptxp4_q9UUM",
       "sourceName": "吹口琴的小园园",
       "platform": "YouTube",
-      "publishedAt": "2026-07-25T10:00:03Z"
+      "publishedAt": "2026-07-25T10:00:03Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/12a08b039144be5d3ace.webp",
+        "width": 640,
+        "height": 480
+      }
     },
     {
       "id": "post-ecc1d128db0b78dc009780d7",
@@ -42,7 +57,12 @@
       "url": "https://www.youtube.com/watch?v=hCpRBn_R1V0",
       "sourceName": "吹口琴的小园园",
       "platform": "YouTube",
-      "publishedAt": "2026-07-21T10:00:22Z"
+      "publishedAt": "2026-07-21T10:00:22Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/45f9503d19ac086cc4b6.webp",
+        "width": 640,
+        "height": 480
+      }
     },
     {
       "id": "post-7e7197ff3bb6df2caaf4d1a1",
@@ -51,7 +71,12 @@
       "url": "https://www.youtube.com/watch?v=DJMsjXQ00yQ",
       "sourceName": "吹口琴的小园园",
       "platform": "YouTube",
-      "publishedAt": "2026-07-16T10:00:14Z"
+      "publishedAt": "2026-07-16T10:00:14Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/5220bbdef2c48bc535af.webp",
+        "width": 640,
+        "height": 480
+      }
     },
     {
       "id": "post-a3795929ef5c26d0b657f4fd",
@@ -60,7 +85,12 @@
       "url": "https://www.youtube.com/watch?v=f1ikOwreoFU",
       "sourceName": "吹口琴的小园园",
       "platform": "YouTube",
-      "publishedAt": "2026-07-06T10:00:32Z"
+      "publishedAt": "2026-07-06T10:00:32Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2f4d943a2844f344ab2e.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-90e8889d044e13c4988a2051",
@@ -69,7 +99,12 @@
       "url": "https://www.youtube.com/watch?v=4EZtMDGSMaU",
       "sourceName": "吹口琴的小园园",
       "platform": "YouTube",
-      "publishedAt": "2026-07-02T10:00:21Z"
+      "publishedAt": "2026-07-02T10:00:21Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/869d6bb41a949c8b4977.webp",
+        "width": 640,
+        "height": 480
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 209,
     "slug": "kcobaps-harmonica-band",
@@ -15,7 +15,12 @@
       "url": "https://www.facebook.com/kcobaps/posts/pfbid09wTzTDuoYukN8cNs9ajTRdSxTzkdo2n1Chw6HPXgHyP6U4n2UvxfzW83xHpwy7xUl",
       "sourceName": "英皇書院同學會小學口琴隊",
       "platform": "Facebook",
-      "publishedAt": "2026-07-28T01:03:23Z"
+      "publishedAt": "2026-07-28T01:03:23Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f315f7c0873d22534646.webp",
+        "width": 590,
+        "height": 443
+      }
     },
     {
       "id": "post-e2178b59c0af257376967298",
@@ -24,7 +29,12 @@
       "url": "https://www.facebook.com/kcobaps/posts/pfbid0QRqRxaQ4A71QMCJTUuvffA4jxQUmTReKgqC3Gs7qFg3huWuJrrRTjvxkFxbuQPful",
       "sourceName": "英皇書院同學會小學口琴隊",
       "platform": "Facebook",
-      "publishedAt": "2026-07-25T03:00:36Z"
+      "publishedAt": "2026-07-25T03:00:36Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1b23bdaac2e6107d8d9e.webp",
+        "width": 590,
+        "height": 443
+      }
     },
     {
       "id": "post-3af22fc201abf41e66e1cb2f",
@@ -33,7 +43,12 @@
       "url": "https://www.facebook.com/kcobaps/posts/pfbid0Eiy4RG8jBH92GFj9aZZAmtVER311zXUWNij9brmUbc3S72Dnk2A9XBHRE3q4Aiinl",
       "sourceName": "英皇書院同學會小學口琴隊",
       "platform": "Facebook",
-      "publishedAt": "2026-07-24T09:00:58Z"
+      "publishedAt": "2026-07-24T09:00:58Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/61b0b56539e8a0617d7a.webp",
+        "width": 590,
+        "height": 331
+      }
     },
     {
       "id": "post-3ae044fdb139b0789f3e943b",
@@ -42,7 +57,12 @@
       "url": "https://www.facebook.com/kcobaps/posts/pfbid02f96J36KkZMKcsER5nj2ZabNMJJcKs8wrUwYeJdU4mpVYkUSNLthnFT1gBuoQAQNUl",
       "sourceName": "英皇書院同學會小學口琴隊",
       "platform": "Facebook",
-      "publishedAt": "2026-07-20T10:41:24Z"
+      "publishedAt": "2026-07-20T10:41:24Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/661c583e74be5e3c4b57.webp",
+        "width": 585,
+        "height": 414
+      }
     },
     {
       "id": "post-f41c17cb11c775470182f5b6",
@@ -51,7 +71,12 @@
       "url": "https://www.facebook.com/reel/1444712454353040/",
       "sourceName": "英皇書院同學會小學口琴隊",
       "platform": "Facebook",
-      "publishedAt": "2026-07-10T09:28:03Z"
+      "publishedAt": "2026-07-10T09:28:03Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/0698de458bd4f5a2358f.webp",
+        "width": 800,
+        "height": 450
+      }
     }
   ]
 }

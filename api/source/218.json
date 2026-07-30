@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 218,
     "slug": "evelyn-choong",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/DbUOcjezpzr/",
       "sourceName": "Evelyn Choong 鍾雪兒",
       "platform": "Instagram",
-      "publishedAt": "2026-07-28T01:39:45Z"
+      "publishedAt": "2026-07-28T01:39:45Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/96429003f6e8524ef925.webp",
+        "width": 800,
+        "height": 1057
+      }
     },
     {
       "id": "post-f3d3623a5e87042690096b74",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/DbE1jCVzblH/",
       "sourceName": "Evelyn Choong 鍾雪兒",
       "platform": "Instagram",
-      "publishedAt": "2026-07-22T00:50:23Z"
+      "publishedAt": "2026-07-22T00:50:23Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/81c758381ca1e65daa7a.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-91eb39e4da8b28433a0b0203",
@@ -33,7 +43,12 @@
       "url": "https://www.facebook.com/permalink.php?id=61571872583059&story_fbid=pfbid02tcAX2kPPTEzMxt5vc99vauYZXYpsZYUHCypY3MxAePncaT6886K8rkdA8ipgRzPFl",
       "sourceName": "Evelyn Choong 鍾雪兒",
       "platform": "Facebook",
-      "publishedAt": "2026-07-22T00:25:34Z"
+      "publishedAt": "2026-07-22T00:25:34Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c5120e61912da67c9583.webp",
+        "width": 443,
+        "height": 590
+      }
     }
   ]
 }

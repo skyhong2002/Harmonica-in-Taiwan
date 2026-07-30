@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 73,
     "slug": "73",
@@ -15,7 +15,12 @@
       "url": "https://www.facebook.com/reel/1604459288084398/",
       "sourceName": "萬興國小口琴隊",
       "platform": "Facebook",
-      "publishedAt": "2026-07-10T02:37:19Z"
+      "publishedAt": "2026-07-10T02:37:19Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/eaac6789e1a40cc8328f.webp",
+        "width": 800,
+        "height": 600
+      }
     },
     {
       "id": "post-ef1551ffa7b5a939203bc304",
@@ -24,7 +29,12 @@
       "url": "https://www.facebook.com/61574004532712/videos/1023484146953557/",
       "sourceName": "萬興國小口琴隊",
       "platform": "Facebook",
-      "publishedAt": "2026-07-04T09:21:01Z"
+      "publishedAt": "2026-07-04T09:21:01Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/984049635d2681581f85.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-7056fdee70bdf22b90cf0618",
@@ -33,7 +43,12 @@
       "url": "https://www.facebook.com/61574004532712/videos/1207146678224882/",
       "sourceName": "萬興國小口琴隊",
       "platform": "Facebook",
-      "publishedAt": "2026-07-04T09:14:30Z"
+      "publishedAt": "2026-07-04T09:14:30Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/288e046dca433c26e8d4.webp",
+        "width": 540,
+        "height": 960
+      }
     }
   ]
 }

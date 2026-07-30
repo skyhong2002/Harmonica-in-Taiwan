@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 5,
     "slug": "punch-harmonica-ensemble",
@@ -15,7 +15,12 @@
       "url": "https://www.facebook.com/Punch.Harp/posts/pfbid02yjRzymJDbo5K4MECbYHm11mX89CHmoeazAVWLN32c9AJFdm8gLNAL7NCErS5maGAl",
       "sourceName": "胖擊口琴樂團",
       "platform": "Facebook",
-      "publishedAt": "2026-07-15T06:00:12Z"
+      "publishedAt": "2026-07-15T06:00:12Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/61abeb28235491abd781.webp",
+        "width": 509,
+        "height": 720
+      }
     },
     {
       "id": "post-141ef0f84f1db65c2040e46c",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/Daxu9w0vA0R/",
       "sourceName": "胖擊口琴樂團",
       "platform": "Instagram",
-      "publishedAt": "2026-07-15T06:00:11Z"
+      "publishedAt": "2026-07-15T06:00:11Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/de5ed01aa6a2359ed94f.webp",
+        "width": 800,
+        "height": 1067
+      }
     },
     {
       "id": "post-fc6c069b4739a16f1bce8457",
@@ -51,7 +61,12 @@
       "url": "https://www.instagram.com/p/DaSmFyaDx2a/",
       "sourceName": "胖擊口琴樂團",
       "platform": "Instagram",
-      "publishedAt": "2026-07-02T12:30:10Z"
+      "publishedAt": "2026-07-02T12:30:10Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4b197f018176afc0c767.webp",
+        "width": 800,
+        "height": 533
+      }
     },
     {
       "id": "post-2d87a33f85c82d6a14234243",
@@ -60,7 +75,12 @@
       "url": "https://www.facebook.com/Punch.Harp/posts/pfbid02BAYePwbVwcPvhDLRTKb8RE17aNTrnTLzZRuNqn3hKryjFaSDrn5QwUCnfhiozZjtl",
       "sourceName": "胖擊口琴樂團",
       "platform": "Facebook",
-      "publishedAt": "2026-07-02T11:31:08Z"
+      "publishedAt": "2026-07-02T11:31:08Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3ced057b239dbad32ca7.webp",
+        "width": 590,
+        "height": 394
+      }
     }
   ]
 }

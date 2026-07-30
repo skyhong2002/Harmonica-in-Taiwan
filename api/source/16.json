@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 16,
     "slug": "dr-blue",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/Dae67MplHe5/",
       "sourceName": "Dr. Blue 口琴樂團",
       "platform": "Instagram",
-      "publishedAt": "2026-07-07T07:25:18Z"
+      "publishedAt": "2026-07-07T07:25:18Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/29e7130684a4b8b62a0d.webp",
+        "width": 800,
+        "height": 534
+      }
     },
     {
       "id": "post-6951890773228e14fd4c4b7a",
@@ -24,7 +29,12 @@
       "url": "https://www.facebook.com/dr.blueharmonica/posts/pfbid0u8jWNbypzxKV7P5gpwxMBBw6n7Vxw1Yu73NXMjKor2fuMwShFhC4afGAcpkNYVZVl",
       "sourceName": "Dr. Blue 口琴樂團",
       "platform": "Facebook",
-      "publishedAt": "2026-07-07T07:22:59Z"
+      "publishedAt": "2026-07-07T07:22:59Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/783d011eab63b9c360d7.webp",
+        "width": 590,
+        "height": 394
+      }
     }
   ]
 }

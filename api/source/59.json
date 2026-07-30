@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 59,
     "slug": "taro-senga",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/Da8COWhj_W5/",
       "sourceName": "千賀太郎",
       "platform": "Instagram",
-      "publishedAt": "2026-07-18T14:45:22Z"
+      "publishedAt": "2026-07-18T14:45:22Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f65820f9024218d57b43.webp",
+        "width": 800,
+        "height": 1000
+      }
     }
   ]
 }

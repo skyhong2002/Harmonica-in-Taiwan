@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 4,
     "slug": "judy-s-harmonica-ensemble",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/Dba4x2qFJbP/",
       "sourceName": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
       "platform": "Instagram",
-      "publishedAt": "2026-07-30T14:20:12Z"
+      "publishedAt": "2026-07-30T14:20:12Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a48dd2ac5ea0fc66f264.webp",
+        "width": 800,
+        "height": 535
+      }
     },
     {
       "id": "post-ac31267ffcce6a863e847580",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/DbYdBiVuM0U/",
       "sourceName": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
       "platform": "Instagram",
-      "publishedAt": "2026-07-29T16:15:37Z"
+      "publishedAt": "2026-07-29T16:15:37Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ae1f7c984c46d25d48ff.webp",
+        "width": 604,
+        "height": 1066
+      }
     },
     {
       "id": "post-9cb00f62c93a03bc5fbf2969",
@@ -33,7 +43,12 @@
       "url": "https://www.threads.com/t/DbXT0qXEWJJ",
       "sourceName": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
       "platform": "Threads",
-      "publishedAt": "2026-07-29T04:58:05Z"
+      "publishedAt": "2026-07-29T04:58:05Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3f385844c4ae8a447799.webp",
+        "width": 800,
+        "height": 535
+      }
     },
     {
       "id": "post-c1827bfc744e7dff031269eb",
@@ -42,7 +57,12 @@
       "url": "https://www.instagram.com/p/DbV4hU5Opno/",
       "sourceName": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
       "platform": "Instagram",
-      "publishedAt": "2026-07-29T03:38:52Z"
+      "publishedAt": "2026-07-29T03:38:52Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/353b4e35763e5c54bbf1.webp",
+        "width": 604,
+        "height": 1066
+      }
     },
     {
       "id": "post-4226e3d2ecb51ff9fee9ec71",
@@ -51,7 +71,12 @@
       "url": "https://www.facebook.com/reel/27364984283172497/",
       "sourceName": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
       "platform": "Facebook",
-      "publishedAt": "2026-07-29T01:09:55Z"
+      "publishedAt": "2026-07-29T01:09:55Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f1a259618cffc7f1db5e.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-6f59b346c4906a2ecc5da192",
@@ -60,7 +85,12 @@
       "url": "https://www.instagram.com/p/DbTdhxGmYF6/",
       "sourceName": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
       "platform": "Instagram",
-      "publishedAt": "2026-07-27T17:05:59Z"
+      "publishedAt": "2026-07-27T17:05:59Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/5be9836c7412f40bfec6.webp",
+        "width": 800,
+        "height": 534
+      }
     },
     {
       "id": "post-3667913f4fa44461c0240fd4",
@@ -78,7 +108,12 @@
       "url": "https://www.instagram.com/p/DbP_rF0kSNJ/",
       "sourceName": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
       "platform": "Instagram",
-      "publishedAt": "2026-07-26T08:47:22Z"
+      "publishedAt": "2026-07-26T08:47:22Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/cb30a00586f96396d1c9.webp",
+        "width": 800,
+        "height": 535
+      }
     },
     {
       "id": "post-15f627c7633779e5cdbcbbc8",
@@ -87,7 +122,12 @@
       "url": "https://www.instagram.com/p/Da-IN03xSrZ/",
       "sourceName": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
       "platform": "Instagram",
-      "publishedAt": "2026-07-19T11:04:52Z"
+      "publishedAt": "2026-07-19T11:04:52Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/bb29d1174d0794e8db18.webp",
+        "width": 800,
+        "height": 600
+      }
     },
     {
       "id": "post-d26c0fba301532c5af8d4f8b",
@@ -96,7 +136,12 @@
       "url": "https://www.instagram.com/p/Dazq2m9RZfu/",
       "sourceName": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
       "platform": "Instagram",
-      "publishedAt": "2026-07-15T08:48:46Z"
+      "publishedAt": "2026-07-15T08:48:46Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/92d3e4aed818e3e37e10.webp",
+        "width": 800,
+        "height": 420
+      }
     },
     {
       "id": "post-8901bb97845b4402dd7f2153",
@@ -105,7 +150,12 @@
       "url": "https://www.facebook.com/Judys.Harmonica.Ensemble/posts/pfbid0JWhDhuuNW5LPyJrSK4rGaap6W1Z8LTXK9LUtuXF5HBFEhQxX6uikZmyiw3zHiS92l",
       "sourceName": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
       "platform": "Facebook",
-      "publishedAt": "2026-07-15T08:40:19Z"
+      "publishedAt": "2026-07-15T08:40:19Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/347d06b41c646aad9b36.webp",
+        "width": 590,
+        "height": 295
+      }
     }
   ]
 }

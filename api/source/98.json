@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 98,
     "slug": "dming-studio",
@@ -15,7 +15,12 @@
       "url": "https://www.youtube.com/watch?v=SlplPVcjHSg",
       "sourceName": "蔡明憲 DMing Studio",
       "platform": "YouTube",
-      "publishedAt": "2026-07-12T01:42:22Z"
+      "publishedAt": "2026-07-12T01:42:22Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/5a0c66e86e26e332ff6d.webp",
+        "width": 800,
+        "height": 450
+      }
     }
   ]
 }

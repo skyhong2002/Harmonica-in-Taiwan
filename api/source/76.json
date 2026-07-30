@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 76,
     "slug": "76",
@@ -15,7 +15,12 @@
       "url": "https://www.youtube.com/watch?v=TBAn3cv_ywI",
       "sourceName": "新竹縣文化局",
       "platform": "YouTube",
-      "publishedAt": "2026-07-29T04:00:06Z"
+      "publishedAt": "2026-07-29T04:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f2edfabed6fb068f3cf4.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-494fef5f5073945321a28c56",
@@ -24,7 +29,12 @@
       "url": "https://www.youtube.com/watch?v=K4d1Cv-ozYQ",
       "sourceName": "新竹縣文化局",
       "platform": "YouTube",
-      "publishedAt": "2026-07-29T00:00:10Z"
+      "publishedAt": "2026-07-29T00:00:10Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/88f4f17c455518bf976c.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-ae7573a5338bbbf249601d1b",
@@ -33,7 +43,12 @@
       "url": "https://www.youtube.com/watch?v=LHD3ksHVnKE",
       "sourceName": "新竹縣文化局",
       "platform": "YouTube",
-      "publishedAt": "2026-07-28T06:43:29Z"
+      "publishedAt": "2026-07-28T06:43:29Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c55596e75fddeae55615.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-7a2adec0533d68f4f1bba6bc",
@@ -42,7 +57,12 @@
       "url": "https://www.youtube.com/watch?v=IB1btW6R4Qw",
       "sourceName": "新竹縣文化局",
       "platform": "YouTube",
-      "publishedAt": "2026-07-28T06:41:58Z"
+      "publishedAt": "2026-07-28T06:41:58Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/95c27ebfae81954527fc.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-743b74b886d7ed30281da43c",
@@ -51,7 +71,12 @@
       "url": "https://www.instagram.com/p/Da5KmLBCBfC/",
       "sourceName": "新竹縣文化局",
       "platform": "Instagram",
-      "publishedAt": "2026-07-17T12:00:19Z"
+      "publishedAt": "2026-07-17T12:00:19Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/36e39f930745be83917f.webp",
+        "width": 800,
+        "height": 1001
+      }
     },
     {
       "id": "post-0dec9e3f3a1b44bbc6af121f",
@@ -60,7 +85,12 @@
       "url": "https://www.instagram.com/p/Da4oRS5AUqJ/",
       "sourceName": "新竹縣文化局",
       "platform": "Instagram",
-      "publishedAt": "2026-07-17T07:00:20Z"
+      "publishedAt": "2026-07-17T07:00:20Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/86696e60561c123e60e0.webp",
+        "width": 800,
+        "height": 800
+      }
     },
     {
       "id": "post-c361ff00b87fcb72f0265cdf",
@@ -69,7 +99,12 @@
       "url": "https://www.instagram.com/p/Da4TqckjJjO/",
       "sourceName": "新竹縣文化局",
       "platform": "Instagram",
-      "publishedAt": "2026-07-17T04:00:15Z"
+      "publishedAt": "2026-07-17T04:00:15Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/bd88047846dd711e7170.webp",
+        "width": 800,
+        "height": 601
+      }
     },
     {
       "id": "post-586ef4e1647ba7f7a03bc0ac",
@@ -78,7 +113,12 @@
       "url": "https://www.instagram.com/p/Da1u3srjTKb/",
       "sourceName": "新竹縣文化局",
       "platform": "Instagram",
-      "publishedAt": "2026-07-16T04:00:18Z"
+      "publishedAt": "2026-07-16T04:00:18Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/01aeafadd25d229c340c.webp",
+        "width": 800,
+        "height": 1000
+      }
     },
     {
       "id": "post-73bd6b08a3e1b14aa7655a28",
@@ -87,7 +127,12 @@
       "url": "https://www.instagram.com/p/DaxcPkCFDpE/",
       "sourceName": "新竹縣文化局",
       "platform": "Instagram",
-      "publishedAt": "2026-07-14T12:00:33Z"
+      "publishedAt": "2026-07-14T12:00:33Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f266d4fe52b968ffefd5.webp",
+        "width": 800,
+        "height": 578
+      }
     },
     {
       "id": "post-d5249bf8b9dd0b7a95f01f58",
@@ -96,7 +141,12 @@
       "url": "https://www.instagram.com/p/DavFkZIk9uY/",
       "sourceName": "新竹縣文化局",
       "platform": "Instagram",
-      "publishedAt": "2026-07-13T14:03:57Z"
+      "publishedAt": "2026-07-13T14:03:57Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ce9247bc8f9ff8733ff2.webp",
+        "width": 800,
+        "height": 1001
+      }
     },
     {
       "id": "post-b556bae70aa447283eab638e",
@@ -105,7 +155,12 @@
       "url": "https://www.instagram.com/p/DatlBM-gpt6/",
       "sourceName": "新竹縣文化局",
       "platform": "Instagram",
-      "publishedAt": "2026-07-13T00:00:19Z"
+      "publishedAt": "2026-07-13T00:00:19Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/36c02c8ada34d85150ce.webp",
+        "width": 800,
+        "height": 800
+      }
     },
     {
       "id": "post-87f0124cb896fdf1f9784914",
@@ -114,7 +169,12 @@
       "url": "https://www.instagram.com/p/DanJIHODEA5/",
       "sourceName": "新竹縣文化局",
       "platform": "Instagram",
-      "publishedAt": "2026-07-10T12:01:06Z"
+      "publishedAt": "2026-07-10T12:01:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/5ed8145f5c3093ace89a.webp",
+        "width": 800,
+        "height": 600
+      }
     },
     {
       "id": "post-23f3e840c97b9430c84106f9",
@@ -123,7 +183,12 @@
       "url": "https://www.youtube.com/watch?v=J1bHbngWNo4",
       "sourceName": "新竹縣文化局",
       "platform": "YouTube",
-      "publishedAt": "2026-07-07T07:23:07Z"
+      "publishedAt": "2026-07-07T07:23:07Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/28e5681302247de5be06.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-8824eb2f9dde0882fe09be88",
@@ -132,7 +197,12 @@
       "url": "https://www.instagram.com/p/DaOrd29HdJ3/",
       "sourceName": "新竹縣文化局",
       "platform": "Instagram",
-      "publishedAt": "2026-07-01T00:00:09Z"
+      "publishedAt": "2026-07-01T00:00:09Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/12301005cd18f04d1720.webp",
+        "width": 800,
+        "height": 800
+      }
     }
   ]
 }

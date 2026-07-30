@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 149,
     "slug": "liam-ward-malcolm-thorne",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/DbQcmrEk0id/",
       "sourceName": "Liam Ward & Malcolm Thorne",
       "platform": "Instagram",
-      "publishedAt": "2026-07-26T13:00:20Z"
+      "publishedAt": "2026-07-26T13:00:20Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ddc9be7fcf3820abcb1b.webp",
+        "width": 800,
+        "height": 804
+      }
     },
     {
       "id": "post-d13e1ced5b43187a0d3858a4",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/DbDfY3XDc77/",
       "sourceName": "Liam Ward & Malcolm Thorne",
       "platform": "Instagram",
-      "publishedAt": "2026-07-21T12:15:03Z"
+      "publishedAt": "2026-07-21T12:15:03Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1518ae308d85df7ab7ca.webp",
+        "width": 800,
+        "height": 992
+      }
     },
     {
       "id": "post-dd6f805b7f0a307f670ea956",
@@ -33,7 +43,12 @@
       "url": "https://www.instagram.com/p/Da5T-FUs72z/",
       "sourceName": "Liam Ward & Malcolm Thorne",
       "platform": "Instagram",
-      "publishedAt": "2026-07-17T13:24:08Z"
+      "publishedAt": "2026-07-17T13:24:08Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/134cf822a7aa2ab6be55.webp",
+        "width": 800,
+        "height": 800
+      }
     },
     {
       "id": "post-5e49a91c8478fe725c8b24c8",
@@ -42,7 +57,12 @@
       "url": "https://www.facebook.com/reel/1362745602728865/",
       "sourceName": "Liam Ward & Malcolm Thorne",
       "platform": "Facebook",
-      "publishedAt": "2026-07-16T13:04:25Z"
+      "publishedAt": "2026-07-16T13:04:25Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/12829371d40ef9604cdc.webp",
+        "width": 541,
+        "height": 960
+      }
     },
     {
       "id": "post-9bd54feaebac68a8c7dc60be",
@@ -51,7 +71,12 @@
       "url": "https://www.instagram.com/p/Da2r1L_sECt/",
       "sourceName": "Liam Ward & Malcolm Thorne",
       "platform": "Instagram",
-      "publishedAt": "2026-07-16T12:57:51Z"
+      "publishedAt": "2026-07-16T12:57:51Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a90e943e2351ae39fb5b.webp",
+        "width": 640,
+        "height": 1136
+      }
     },
     {
       "id": "post-228f595ae2399718e1851c48",
@@ -60,7 +85,12 @@
       "url": "https://www.facebook.com/learntheharmonica/posts/pfbid0291crc2cSWzLfFcmoFw4F14KnLm1bBzCgpwxVungCXjVHs8R7Ws4aaDLujQvQsLCql",
       "sourceName": "Liam Ward & Malcolm Thorne",
       "platform": "Facebook",
-      "publishedAt": "2026-07-12T13:00:09Z"
+      "publishedAt": "2026-07-12T13:00:09Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9a47c6536f5a7f4f884c.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-49ac45477686f40e1a4b7f31",
@@ -69,7 +99,12 @@
       "url": "https://www.youtube.com/watch?v=-kIik6gtlBw",
       "sourceName": "Liam Ward & Malcolm Thorne",
       "platform": "YouTube",
-      "publishedAt": "2026-07-12T11:00:01Z"
+      "publishedAt": "2026-07-12T11:00:01Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c76fa790ad2e80389d33.webp",
+        "width": 800,
+        "height": 450
+      }
     }
   ]
 }

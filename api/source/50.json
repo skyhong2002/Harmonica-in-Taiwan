@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 50,
     "slug": "aiden-soon",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/Da5K-JKsXVq/",
       "sourceName": "Aiden Soon",
       "platform": "Instagram",
-      "publishedAt": "2026-07-17T12:15:21Z"
+      "publishedAt": "2026-07-17T12:15:21Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b02de8639e1ec34f713d.webp",
+        "width": 800,
+        "height": 600
+      }
     }
   ]
 }

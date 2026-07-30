@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 31,
     "slug": "31",
@@ -15,7 +15,12 @@
       "url": "https://www.facebook.com/chaotengchang/posts/pfbid028sei1auu9FiLQYT9nZN2en2NNiatn5XZ4oqmTejXybAy2KXDPvNnUYoZiAEmsRhUl",
       "sourceName": "張晁滕",
       "platform": "Facebook",
-      "publishedAt": "2026-07-27T01:14:22Z"
+      "publishedAt": "2026-07-27T01:14:22Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/8a29f788831c9a71c4b3.webp",
+        "width": 443,
+        "height": 590
+      }
     },
     {
       "id": "post-7a63350c98a666d3567ca6e6",
@@ -24,7 +29,12 @@
       "url": "https://www.facebook.com/reel/1665506494746605/",
       "sourceName": "張晁滕",
       "platform": "Facebook",
-      "publishedAt": "2026-07-26T03:57:24Z"
+      "publishedAt": "2026-07-26T03:57:24Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4801e4285081ee6eda8b.webp",
+        "width": 540,
+        "height": 960
+      }
     },
     {
       "id": "post-5b073d84bbb567dadcd01923",
@@ -33,7 +43,12 @@
       "url": "https://www.youtube.com/watch?v=C_afZGaDtjc",
       "sourceName": "張晁滕",
       "platform": "YouTube",
-      "publishedAt": "2026-07-26T03:01:06Z"
+      "publishedAt": "2026-07-26T03:01:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/daed201688c764c61b06.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-7ef7e332493429111b481762",
@@ -42,7 +57,12 @@
       "url": "https://www.facebook.com/reel/1498025179036864/",
       "sourceName": "張晁滕",
       "platform": "Facebook",
-      "publishedAt": "2026-07-17T00:33:22Z"
+      "publishedAt": "2026-07-17T00:33:22Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/07585c93202e460bc3df.webp",
+        "width": 540,
+        "height": 960
+      }
     },
     {
       "id": "post-54a64b918835537914abdca0",
@@ -51,7 +71,12 @@
       "url": "https://www.facebook.com/chaotengchang/posts/pfbid0xvUMqqfHqCE7mw3YPjhcSkJfvUBbgFg4XhMqjkevrSCBHb4GTxq3uvunwxuTTjxGl",
       "sourceName": "張晁滕",
       "platform": "Facebook",
-      "publishedAt": "2026-07-16T15:16:36Z"
+      "publishedAt": "2026-07-16T15:16:36Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1ff8e77a9fb599206b61.webp",
+        "width": 720,
+        "height": 539
+      }
     },
     {
       "id": "post-6024122f32bec2eee45adf63",
@@ -60,7 +85,12 @@
       "url": "https://www.facebook.com/reel/889112483745847/",
       "sourceName": "張晁滕",
       "platform": "Facebook",
-      "publishedAt": "2026-07-12T15:15:59Z"
+      "publishedAt": "2026-07-12T15:15:59Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/7eb5bb47f8efe72baa20.webp",
+        "width": 540,
+        "height": 960
+      }
     },
     {
       "id": "post-f8a188f9afef2cfd90615f29",
@@ -69,7 +99,12 @@
       "url": "https://www.instagram.com/p/DasoKEjypSR/",
       "sourceName": "張晁滕",
       "platform": "Instagram",
-      "publishedAt": "2026-07-12T15:15:37Z"
+      "publishedAt": "2026-07-12T15:15:37Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/430981a88348af0a2dcd.webp",
+        "width": 720,
+        "height": 1280
+      }
     },
     {
       "id": "post-d07faac503ecb91d36429564",
@@ -87,7 +122,12 @@
       "url": "https://www.instagram.com/p/DaUCR8NykJt/",
       "sourceName": "張晁滕",
       "platform": "Instagram",
-      "publishedAt": "2026-07-03T02:00:59Z"
+      "publishedAt": "2026-07-03T02:00:59Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/bf41d1708dc3cdd22ed0.webp",
+        "width": 800,
+        "height": 904
+      }
     }
   ]
 }

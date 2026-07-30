@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 107,
     "slug": "konstantin-reinfeld",
@@ -15,7 +15,12 @@
       "url": "https://www.youtube.com/watch?v=qOuausv1gMg",
       "sourceName": "Konstantin Reinfeld",
       "platform": "YouTube",
-      "publishedAt": "2026-07-25T15:53:22Z"
+      "publishedAt": "2026-07-25T15:53:22Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/cc0ed4282f7630e37a55.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-b201a4ae4cb57b187bdff689",
@@ -24,7 +29,12 @@
       "url": "https://www.youtube.com/watch?v=OGlm-Bpd5FE",
       "sourceName": "Konstantin Reinfeld",
       "platform": "YouTube",
-      "publishedAt": "2026-07-10T15:32:53Z"
+      "publishedAt": "2026-07-10T15:32:53Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/e53c840cc609f5b1f336.webp",
+        "width": 800,
+        "height": 450
+      }
     }
   ]
 }

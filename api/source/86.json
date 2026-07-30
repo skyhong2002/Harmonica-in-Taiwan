@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 86,
     "slug": "ou-frog",
@@ -15,7 +15,12 @@
       "url": "https://www.youtube.com/watch?v=M88HFgaSYnM",
       "sourceName": "吹出好心琴 + Ou Frog",
       "platform": "YouTube",
-      "publishedAt": "2026-07-28T04:00:24Z"
+      "publishedAt": "2026-07-28T04:00:24Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/61bbea6aba5907f1a266.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-670a3a53d43429c2bad6777b",
@@ -24,7 +29,12 @@
       "url": "https://www.youtube.com/watch?v=ufpqFMQWSDk",
       "sourceName": "吹出好心琴 + Ou Frog",
       "platform": "YouTube",
-      "publishedAt": "2026-07-26T04:00:06Z"
+      "publishedAt": "2026-07-26T04:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/03b8b362efe1371f493b.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-5625c1fbfe262127ff8bca9a",
@@ -33,7 +43,12 @@
       "url": "https://www.youtube.com/watch?v=rTybFvybqjk",
       "sourceName": "吹出好心琴 + Ou Frog",
       "platform": "YouTube",
-      "publishedAt": "2026-07-24T04:00:27Z"
+      "publishedAt": "2026-07-24T04:00:27Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/7d6b763ab102a66a4c3c.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-96b599d740be281470b9a42b",
@@ -42,7 +57,12 @@
       "url": "https://www.youtube.com/watch?v=edG1B0NDXPk",
       "sourceName": "吹出好心琴 + Ou Frog",
       "platform": "YouTube",
-      "publishedAt": "2026-07-22T04:00:19Z"
+      "publishedAt": "2026-07-22T04:00:19Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c487450b40cdc14ea769.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-bef20072da8e0d03086ccd56",
@@ -51,7 +71,12 @@
       "url": "https://www.youtube.com/watch?v=g3zJPWj4ikk",
       "sourceName": "吹出好心琴 + Ou Frog",
       "platform": "YouTube",
-      "publishedAt": "2026-07-20T04:00:19Z"
+      "publishedAt": "2026-07-20T04:00:19Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b7326c872915d303b4b2.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-26ca6039b745ba2c69c4717f",
@@ -60,7 +85,12 @@
       "url": "https://www.youtube.com/watch?v=RshcME4cTWo",
       "sourceName": "吹出好心琴 + Ou Frog",
       "platform": "YouTube",
-      "publishedAt": "2026-07-18T04:00:01Z"
+      "publishedAt": "2026-07-18T04:00:01Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/600aae929ff60e63c748.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-0bb8178e3aa82085a6116634",
@@ -69,7 +99,12 @@
       "url": "https://www.youtube.com/watch?v=Xl2TTPho8Xc",
       "sourceName": "吹出好心琴 + Ou Frog",
       "platform": "YouTube",
-      "publishedAt": "2026-07-16T04:00:24Z"
+      "publishedAt": "2026-07-16T04:00:24Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/edd88b58085b13ca9c65.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-2dfc616b069f4ff69fc5fff2",
@@ -78,7 +113,12 @@
       "url": "https://www.youtube.com/watch?v=75QKcPpus7k",
       "sourceName": "吹出好心琴 + Ou Frog",
       "platform": "YouTube",
-      "publishedAt": "2026-07-14T04:00:34Z"
+      "publishedAt": "2026-07-14T04:00:34Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b416c37d9f2f2503d93b.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-83113b572c1f7cc13087d5fb",
@@ -87,7 +127,12 @@
       "url": "https://www.youtube.com/watch?v=9230ZHttUQQ",
       "sourceName": "吹出好心琴 + Ou Frog",
       "platform": "YouTube",
-      "publishedAt": "2026-07-12T04:00:28Z"
+      "publishedAt": "2026-07-12T04:00:28Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/41a43c61f76d75b774b3.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-27d8bbfc6f47bdd423c46690",
@@ -96,7 +141,12 @@
       "url": "https://www.youtube.com/watch?v=OESGEi5WkYQ",
       "sourceName": "吹出好心琴 + Ou Frog",
       "platform": "YouTube",
-      "publishedAt": "2026-07-10T04:00:31Z"
+      "publishedAt": "2026-07-10T04:00:31Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4a325d75eea7492e1039.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-00c584197e905f069263fbe3",
@@ -105,7 +155,12 @@
       "url": "https://www.youtube.com/watch?v=NM_pjeoU3xc",
       "sourceName": "吹出好心琴 + Ou Frog",
       "platform": "YouTube",
-      "publishedAt": "2026-07-08T04:00:27Z"
+      "publishedAt": "2026-07-08T04:00:27Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/215a91d36108c11a1e02.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-95e26beb4d4f19ba2594438c",
@@ -114,7 +169,12 @@
       "url": "https://www.youtube.com/watch?v=YV6v8ATJDyc",
       "sourceName": "吹出好心琴 + Ou Frog",
       "platform": "YouTube",
-      "publishedAt": "2026-07-06T05:37:05Z"
+      "publishedAt": "2026-07-06T05:37:05Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/42756760e5a9b12955ff.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-7461ae01a6255c635007a5fe",
@@ -123,7 +183,12 @@
       "url": "https://www.youtube.com/watch?v=zyggoZU95Jw",
       "sourceName": "吹出好心琴 + Ou Frog",
       "platform": "YouTube",
-      "publishedAt": "2026-07-03T04:56:33Z"
+      "publishedAt": "2026-07-03T04:56:33Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2309cf264480b9ee031f.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-f0041104ccfb008b40643b38",
@@ -132,7 +197,12 @@
       "url": "https://www.youtube.com/watch?v=YCFtV_aG3r0",
       "sourceName": "吹出好心琴 + Ou Frog",
       "platform": "YouTube",
-      "publishedAt": "2026-07-01T04:00:20Z"
+      "publishedAt": "2026-07-01T04:00:20Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/24c91c77bf8dd02d11c2.webp",
+        "width": 800,
+        "height": 450
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 215,
     "slug": "clhs-harmonica-band",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/Da2cfG5kSIZ/",
       "sourceName": "鍾靈中學口琴隊",
       "platform": "Instagram",
-      "publishedAt": "2026-07-16T10:38:53Z"
+      "publishedAt": "2026-07-16T10:38:53Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/11d9c4dc1dbc24c3abbb.webp",
+        "width": 800,
+        "height": 1000
+      }
     },
     {
       "id": "post-c7e72204c3d6d0136669f459",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/Da0GeqNEaWq/",
       "sourceName": "鍾靈中學口琴隊",
       "platform": "Instagram",
-      "publishedAt": "2026-07-15T12:48:06Z"
+      "publishedAt": "2026-07-15T12:48:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f8009bc47d100b2bfd28.webp",
+        "width": 800,
+        "height": 1000
+      }
     }
   ]
 }

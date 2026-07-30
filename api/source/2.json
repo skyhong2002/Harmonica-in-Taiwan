@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 2,
     "slug": "taiwan-harmonica-music-festival",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/DbZvnL4E4fX/",
       "sourceName": "臺灣口琴音樂節 THMF",
       "platform": "Instagram",
-      "publishedAt": "2026-07-30T03:39:26Z"
+      "publishedAt": "2026-07-30T03:39:26Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d04156fc81d2e419d815.webp",
+        "width": 800,
+        "height": 800
+      }
     },
     {
       "id": "post-f67023346987200d9f346ece",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/DbYOrv3Twn9/",
       "sourceName": "臺灣口琴音樂節 THMF",
       "platform": "Instagram",
-      "publishedAt": "2026-07-29T13:34:50Z"
+      "publishedAt": "2026-07-29T13:34:50Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4544e607f465ced2ef4f.webp",
+        "width": 720,
+        "height": 405
+      }
     },
     {
       "id": "post-09245ab921b75fdd2523981e",
@@ -33,7 +43,12 @@
       "url": "https://www.instagram.com/p/DbP9vjJE_TV/",
       "sourceName": "臺灣口琴音樂節 THMF",
       "platform": "Instagram",
-      "publishedAt": "2026-07-26T08:30:30Z"
+      "publishedAt": "2026-07-26T08:30:30Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1a8432348dea6f1e51bf.webp",
+        "width": 800,
+        "height": 537
+      }
     },
     {
       "id": "post-68fb4ecf1687d7b780bbd370",
@@ -42,7 +57,12 @@
       "url": "https://www.facebook.com/twharmonica/posts/pfbid024SEvzxShcoRx8Fw62XHf9SNiJ9W8hpP8BL4JvvRtS62jHeWdX3XNfS3JryT9qQgZl",
       "sourceName": "臺灣口琴音樂節 THMF",
       "platform": "Facebook",
-      "publishedAt": "2026-07-23T14:50:07Z"
+      "publishedAt": "2026-07-23T14:50:07Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/cccaa049be34b9f9ec6f.webp",
+        "width": 590,
+        "height": 309
+      }
     },
     {
       "id": "post-2d6b7efcc259aef5645bbc95",
@@ -51,7 +71,12 @@
       "url": "https://www.instagram.com/p/Da9tW_ez7_D/",
       "sourceName": "臺灣口琴音樂節 THMF",
       "platform": "Instagram",
-      "publishedAt": "2026-07-19T06:34:41Z"
+      "publishedAt": "2026-07-19T06:34:41Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f9dd95b4e065d4162a42.webp",
+        "width": 800,
+        "height": 923
+      }
     },
     {
       "id": "post-32b6af324dcf01543acf9c12",
@@ -60,7 +85,12 @@
       "url": "https://www.facebook.com/twharmonica/posts/pfbid02cfUiUQecZ6P7c2MXY6MzYxSVT77i7mj4n5kGzY5cdosa29NJiNinzfpYYiNxxqXNl",
       "sourceName": "臺灣口琴音樂節 THMF",
       "platform": "Facebook",
-      "publishedAt": "2026-07-19T06:16:55Z"
+      "publishedAt": "2026-07-19T06:16:55Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c1b0354f78d9c5a9f661.webp",
+        "width": 512,
+        "height": 590
+      }
     },
     {
       "id": "post-24dd098c573e560234d8eddf",
@@ -69,7 +99,12 @@
       "url": "https://www.instagram.com/p/Daw_UL_kxiZ/",
       "sourceName": "臺灣口琴音樂節 THMF",
       "platform": "Instagram",
-      "publishedAt": "2026-07-14T07:47:46Z"
+      "publishedAt": "2026-07-14T07:47:46Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/e9961a602a60b36913ac.webp",
+        "width": 800,
+        "height": 569
+      }
     },
     {
       "id": "post-4f90d358b653bc999cafa39c",
@@ -78,7 +113,12 @@
       "url": "https://www.facebook.com/twharmonica/posts/pfbid0vmeJzV5bBsNuLFRZsgZPxaZ8kqhtazfFr6piC9hvTALzBnpAPDoXEmH8bkXGZEBfl",
       "sourceName": "臺灣口琴音樂節 THMF",
       "platform": "Facebook",
-      "publishedAt": "2026-07-14T06:27:22Z"
+      "publishedAt": "2026-07-14T06:27:22Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d2745d25353cd580782d.webp",
+        "width": 720,
+        "height": 512
+      }
     },
     {
       "id": "post-e82ba4562176cf64aff4c1ed",
@@ -87,7 +127,12 @@
       "url": "https://www.instagram.com/p/DapQwjWE417/",
       "sourceName": "臺灣口琴音樂節 THMF",
       "platform": "Instagram",
-      "publishedAt": "2026-07-12T08:02:51Z"
+      "publishedAt": "2026-07-12T08:02:51Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/17bcbd840fd2cdd07610.webp",
+        "width": 800,
+        "height": 569
+      }
     },
     {
       "id": "post-31354a3b1b862a2bc530f874",
@@ -96,7 +141,12 @@
       "url": "https://www.facebook.com/twharmonica/posts/pfbid0c2ZpZ8SxCHU6EGThWyAaDuFqHyzxCqJvsY2E1t28he2Rpt2sFBLtasGhJ1K2AvvXl",
       "sourceName": "臺灣口琴音樂節 THMF",
       "platform": "Facebook",
-      "publishedAt": "2026-07-12T04:00:20Z"
+      "publishedAt": "2026-07-12T04:00:20Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3c80de8ab16ba23a6849.webp",
+        "width": 509,
+        "height": 720
+      }
     },
     {
       "id": "post-35e9b4d6fa7814db48b01004",
@@ -105,7 +155,12 @@
       "url": "https://www.instagram.com/p/DarbsZMj9dU/",
       "sourceName": "臺灣口琴音樂節 THMF",
       "platform": "Instagram",
-      "publishedAt": "2026-07-12T04:00:18Z"
+      "publishedAt": "2026-07-12T04:00:18Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4ee61a9fda072e0d5d1b.webp",
+        "width": 800,
+        "height": 1000
+      }
     },
     {
       "id": "post-c0c054d64485bdbc17da058b",
@@ -114,7 +169,12 @@
       "url": "https://www.instagram.com/p/Dajw4iNEzf_/",
       "sourceName": "臺灣口琴音樂節 THMF",
       "platform": "Instagram",
-      "publishedAt": "2026-07-09T04:31:32Z"
+      "publishedAt": "2026-07-09T04:31:32Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6d9536462c8249442943.webp",
+        "width": 800,
+        "height": 582
+      }
     },
     {
       "id": "post-41a5ea713bf6de44685d6747",
@@ -123,7 +183,12 @@
       "url": "https://www.instagram.com/p/DafMwsikwDY/",
       "sourceName": "臺灣口琴音樂節 THMF",
       "platform": "Instagram",
-      "publishedAt": "2026-07-07T10:02:07Z"
+      "publishedAt": "2026-07-07T10:02:07Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/bfd2eef01db73daa0a5a.webp",
+        "width": 800,
+        "height": 1078
+      }
     },
     {
       "id": "post-2dc422b5ddb42577c543f1e0",
@@ -132,7 +197,12 @@
       "url": "https://www.facebook.com/twharmonica/posts/pfbid02676rr26nHtTsSNejQMDG7Ds86zjUy6csA1YvGWAduGDe2EopZ2AYrQgS7tXe1iKal",
       "sourceName": "臺灣口琴音樂節 THMF",
       "platform": "Facebook",
-      "publishedAt": "2026-07-07T09:44:57Z"
+      "publishedAt": "2026-07-07T09:44:57Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/37059a2ebd980acbaf3f.webp",
+        "width": 526,
+        "height": 789
+      }
     },
     {
       "id": "post-15a9b4270a5654c2f98a2535",
@@ -141,7 +211,12 @@
       "url": "https://www.instagram.com/p/DaR2RH_E8Nl/",
       "sourceName": "臺灣口琴音樂節 THMF",
       "platform": "Instagram",
-      "publishedAt": "2026-07-02T08:04:47Z"
+      "publishedAt": "2026-07-02T08:04:47Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a9c611b4c85507a94dcf.webp",
+        "width": 800,
+        "height": 800
+      }
     },
     {
       "id": "post-8a3df17007193680c4d41bb2",
@@ -150,7 +225,12 @@
       "url": "https://www.facebook.com/twharmonica/posts/pfbid02RBPzcQ63oBU2VwD27dvxmwya9EiPKaL3FenWBwA2cSr3RgLGDNpUyEUfaMJduGpnl",
       "sourceName": "臺灣口琴音樂節 THMF",
       "platform": "Facebook",
-      "publishedAt": "2026-07-02T05:18:55Z"
+      "publishedAt": "2026-07-02T05:18:55Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/479c0928b400d950192e.webp",
+        "width": 590,
+        "height": 393
+      }
     },
     {
       "id": "post-fd098bf64dd3873467153b3d",
@@ -159,7 +239,12 @@
       "url": "https://www.facebook.com/twharmonica/posts/pfbid07CLAcEbSrP9wrHocyXC7ZaUS2ERQAN75Sh3fPjM835wmjAokvbtWrRP7Wkh5mdGal",
       "sourceName": "臺灣口琴音樂節 THMF",
       "platform": "Facebook",
-      "publishedAt": "2026-07-01T04:07:18Z"
+      "publishedAt": "2026-07-01T04:07:18Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ab515c44a5d476022d4a.webp",
+        "width": 800,
+        "height": 358
+      }
     }
   ]
 }

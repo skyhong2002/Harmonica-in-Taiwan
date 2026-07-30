@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 30,
     "slug": "30",
@@ -33,7 +33,12 @@
       "url": "https://www.instagram.com/p/DbPaWt9EpcR/",
       "sourceName": "蔡明憲",
       "platform": "Instagram",
-      "publishedAt": "2026-07-26T03:21:16Z"
+      "publishedAt": "2026-07-26T03:21:16Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/7d4acbda1a61e08d11c3.webp",
+        "width": 800,
+        "height": 800
+      }
     },
     {
       "id": "post-ca25fd9e4df7d8f99daf64bc",
@@ -42,7 +47,12 @@
       "url": "https://www.instagram.com/p/DbLAJN3R1ww/",
       "sourceName": "蔡明憲",
       "platform": "Instagram",
-      "publishedAt": "2026-07-24T10:15:08Z"
+      "publishedAt": "2026-07-24T10:15:08Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1ea274cdc5da8a3b812e.webp",
+        "width": 720,
+        "height": 1280
+      }
     },
     {
       "id": "post-c160da70697b9d632a84ebdb",
@@ -51,7 +61,12 @@
       "url": "https://www.instagram.com/p/DbHmD6Gy-Xo/",
       "sourceName": "蔡明憲",
       "platform": "Instagram",
-      "publishedAt": "2026-07-23T02:34:07Z"
+      "publishedAt": "2026-07-23T02:34:07Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a45653feca0bf29527d8.webp",
+        "width": 800,
+        "height": 800
+      }
     },
     {
       "id": "post-517ad211cfdb5c75e856be1d",
@@ -60,7 +75,12 @@
       "url": "https://www.facebook.com/dming.tsai/posts/pfbid02dcjtUfTspztMsZHxgfYtXZ9jFaoqvUvZzr5yePoVieTmAhFcAEJQfm1aUQ6toqfNl",
       "sourceName": "蔡明憲",
       "platform": "Facebook",
-      "publishedAt": "2026-07-12T01:59:30Z"
+      "publishedAt": "2026-07-12T01:59:30Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b9cca1e4c030bbfd68d3.webp",
+        "width": 500,
+        "height": 261
+      }
     }
   ]
 }

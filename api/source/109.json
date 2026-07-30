@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 109,
     "slug": "boris-plotnikov",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/DbXw9LbM4K5/",
       "sourceName": "Boris Plotnikov",
       "platform": "Instagram",
-      "publishedAt": "2026-07-29T09:13:15Z"
+      "publishedAt": "2026-07-29T09:13:15Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4369ba1414664130079e.webp",
+        "width": 800,
+        "height": 1067
+      }
     },
     {
       "id": "post-849066c2c2002f1ee28a6442",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/DbJpUDUtyuk/",
       "sourceName": "Boris Plotnikov",
       "platform": "Instagram",
-      "publishedAt": "2026-07-23T21:37:42Z"
+      "publishedAt": "2026-07-23T21:37:42Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/7a49dac96987d90e988b.webp",
+        "width": 720,
+        "height": 720
+      }
     },
     {
       "id": "post-bcc50bf2f45d4cbab9641743",
@@ -33,7 +43,12 @@
       "url": "https://www.facebook.com/reel/1689765975638061/",
       "sourceName": "Boris Plotnikov",
       "platform": "Facebook",
-      "publishedAt": "2026-07-23T16:05:15Z"
+      "publishedAt": "2026-07-23T16:05:15Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/154df7ef12d8954b69ce.webp",
+        "width": 540,
+        "height": 960
+      }
     },
     {
       "id": "post-c09c20d655494fc837ec8653",
@@ -42,7 +57,12 @@
       "url": "https://www.youtube.com/watch?v=iGPcR-epRgA",
       "sourceName": "Boris Plotnikov",
       "platform": "YouTube",
-      "publishedAt": "2026-07-07T09:25:16Z"
+      "publishedAt": "2026-07-07T09:25:16Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b9cd70ec95cda8740cfc.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-8011bddb044fb92bbd40485c",
@@ -51,7 +71,12 @@
       "url": "https://www.facebook.com/reel/1645666130609802/",
       "sourceName": "Boris Plotnikov",
       "platform": "Facebook",
-      "publishedAt": "2026-07-07T09:22:39Z"
+      "publishedAt": "2026-07-07T09:22:39Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/453aec024066f6c3ecc2.webp",
+        "width": 800,
+        "height": 450
+      }
     }
   ]
 }

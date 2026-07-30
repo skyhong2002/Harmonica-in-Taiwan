@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 127,
     "slug": "reyharp-and-balawan-project",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/DbPGogNvrf0/",
       "sourceName": "Reyharp and Balawan Project",
       "platform": "Instagram",
-      "publishedAt": "2026-07-26T00:32:03Z"
+      "publishedAt": "2026-07-26T00:32:03Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/69bf9541e2e9dcadd2ee.webp",
+        "width": 640,
+        "height": 1136
+      }
     },
     {
       "id": "post-98f98ed3528955d1a32334d6",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/DbNMJk6EU2A/",
       "sourceName": "Reyharp and Balawan Project",
       "platform": "Instagram",
-      "publishedAt": "2026-07-25T06:38:40Z"
+      "publishedAt": "2026-07-25T06:38:40Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/7b2c5f85ceae749b359c.webp",
+        "width": 800,
+        "height": 600
+      }
     },
     {
       "id": "post-6b1e239f63a6a26cc07c657f",
@@ -33,7 +43,12 @@
       "url": "https://www.instagram.com/p/DbHkx28KAvn/",
       "sourceName": "Reyharp and Balawan Project",
       "platform": "Instagram",
-      "publishedAt": "2026-07-23T02:20:17Z"
+      "publishedAt": "2026-07-23T02:20:17Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3f2251b5fc43d4e49839.webp",
+        "width": 800,
+        "height": 1067
+      }
     },
     {
       "id": "post-ad49c39f9a6240846da77a6b",
@@ -42,7 +57,12 @@
       "url": "https://www.instagram.com/p/Da2RGYOSc7C/",
       "sourceName": "Reyharp and Balawan Project",
       "platform": "Instagram",
-      "publishedAt": "2026-07-16T09:04:11Z"
+      "publishedAt": "2026-07-16T09:04:11Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/5150f467c177343a787f.webp",
+        "width": 720,
+        "height": 1280
+      }
     },
     {
       "id": "post-22e12d5e2f519fe06e0a18c3",
@@ -51,7 +71,12 @@
       "url": "https://www.instagram.com/p/Daug3Vix0BY/",
       "sourceName": "Reyharp and Balawan Project",
       "platform": "Instagram",
-      "publishedAt": "2026-07-13T08:43:29Z"
+      "publishedAt": "2026-07-13T08:43:29Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a3a0c064af7f435ffab1.webp",
+        "width": 800,
+        "height": 992
+      }
     }
   ]
 }

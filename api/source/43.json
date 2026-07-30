@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 43,
     "slug": "yu-feng-lin",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/DbU7do7k3bQ/",
       "sourceName": "林裕豐",
       "platform": "Instagram",
-      "publishedAt": "2026-07-28T06:46:47Z"
+      "publishedAt": "2026-07-28T06:46:47Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b0621f4c1410be91e470.webp",
+        "width": 1440,
+        "height": 960
+      }
     },
     {
       "id": "post-42e91db0789edac3242b1d93",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/DbJO1ENAPht/",
       "sourceName": "林裕豐",
       "platform": "Instagram",
-      "publishedAt": "2026-07-23T17:45:28Z"
+      "publishedAt": "2026-07-23T17:45:28Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/935985854e3bd593cf3c.webp",
+        "width": 800,
+        "height": 1423
+      }
     },
     {
       "id": "post-8a9cb1d063f55adf4c171ccf",
@@ -33,7 +43,12 @@
       "url": "https://www.instagram.com/p/Da5LI_YE6-y/",
       "sourceName": "林裕豐",
       "platform": "Instagram",
-      "publishedAt": "2026-07-17T14:58:28Z"
+      "publishedAt": "2026-07-17T14:58:28Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b67c71032122735a6b3c.webp",
+        "width": 800,
+        "height": 1000
+      }
     },
     {
       "id": "post-f3edd6c9e13d3d46374df0a7",
@@ -42,7 +57,12 @@
       "url": "https://www.youtube.com/watch?v=e0ty8CdTuMY",
       "sourceName": "林裕豐",
       "platform": "YouTube",
-      "publishedAt": "2026-07-15T10:00:12Z"
+      "publishedAt": "2026-07-15T10:00:12Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/40672022f02f1a35b7b6.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-95485f10d860f9272c777cca",
@@ -51,7 +71,12 @@
       "url": "https://www.instagram.com/p/DazzStgE_5G/",
       "sourceName": "林裕豐",
       "platform": "Instagram",
-      "publishedAt": "2026-07-15T10:00:03Z"
+      "publishedAt": "2026-07-15T10:00:03Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/7a4ed4a2dea4b8f78150.webp",
+        "width": 800,
+        "height": 1423
+      }
     },
     {
       "id": "post-45959d66371f78a4717d64ad",
@@ -60,7 +85,12 @@
       "url": "https://www.youtube.com/watch?v=Rdqnr6rVeXM",
       "sourceName": "林裕豐",
       "platform": "YouTube",
-      "publishedAt": "2026-07-08T08:12:07Z"
+      "publishedAt": "2026-07-08T08:12:07Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ff145f6f3348b88c9801.webp",
+        "width": 800,
+        "height": 450
+      }
     }
   ]
 }

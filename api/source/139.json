@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 139,
     "slug": "lee-oskar",
@@ -15,7 +15,12 @@
       "url": "https://www.facebook.com/reel/2260582971346400/",
       "sourceName": "Lee Oskar",
       "platform": "Facebook",
-      "publishedAt": "2026-07-20T13:07:45Z"
+      "publishedAt": "2026-07-20T13:07:45Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/eb875548f4467af7faa8.webp",
+        "width": 540,
+        "height": 960
+      }
     },
     {
       "id": "post-e74e41c7d9fac0dc97066678",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/DayDjOLAgae/",
       "sourceName": "Lee Oskar",
       "platform": "Instagram",
-      "publishedAt": "2026-07-14T17:45:06Z"
+      "publishedAt": "2026-07-14T17:45:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d653bd10c5b3f4ba7339.webp",
+        "width": 720,
+        "height": 1280
+      }
     },
     {
       "id": "post-df06f16878f7c272c2e97c5a",
@@ -33,7 +43,12 @@
       "url": "https://www.instagram.com/p/DaqWJsYR9Yf/",
       "sourceName": "Lee Oskar",
       "platform": "Instagram",
-      "publishedAt": "2026-07-11T17:56:31Z"
+      "publishedAt": "2026-07-11T17:56:31Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a18b2bfd66d84bfaaa82.webp",
+        "width": 800,
+        "height": 1423
+      }
     },
     {
       "id": "post-287ab51dca320d1a88158cec",
@@ -42,7 +57,12 @@
       "url": "https://www.instagram.com/p/DailYW7AlRC/",
       "sourceName": "Lee Oskar",
       "platform": "Instagram",
-      "publishedAt": "2026-07-08T17:33:10Z"
+      "publishedAt": "2026-07-08T17:33:10Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f54797bca896d405db66.webp",
+        "width": 720,
+        "height": 1280
+      }
     }
   ]
 }

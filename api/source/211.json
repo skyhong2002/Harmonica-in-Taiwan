@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 211,
     "slug": "nus-harmonica",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/DbEyDq8PrED/",
       "sourceName": "新加坡國立大學口琴社",
       "platform": "Instagram",
-      "publishedAt": "2026-07-22T00:19:47Z"
+      "publishedAt": "2026-07-22T00:19:47Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d14a9e236a30429d3d89.webp",
+        "width": 760,
+        "height": 1350
+      }
     }
   ]
 }

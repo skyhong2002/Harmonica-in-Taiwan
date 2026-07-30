@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 80,
     "slug": "80",
@@ -15,7 +15,12 @@
       "url": "https://www.youtube.com/watch?v=7vKc8FY5jzw",
       "sourceName": "臺中國家歌劇院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-29T06:10:57Z"
+      "publishedAt": "2026-07-29T06:10:57Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/bfcef708200de07306d2.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-844a35fe05d90608525db3ea",
@@ -24,7 +29,12 @@
       "url": "https://www.youtube.com/watch?v=s-nrwzWEZX8",
       "sourceName": "臺中國家歌劇院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-27T07:23:48Z"
+      "publishedAt": "2026-07-27T07:23:48Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ab9c3b883a3a967a5a61.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-912d24dd4427c33c80c71c01",
@@ -33,7 +43,12 @@
       "url": "https://www.threads.com/t/DbOFMdrAZ2j",
       "sourceName": "臺中國家歌劇院",
       "platform": "Threads",
-      "publishedAt": "2026-07-25T15:00:02Z"
+      "publishedAt": "2026-07-25T15:00:02Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/47496f44a2e69acbf214.webp",
+        "width": 640,
+        "height": 360
+      }
     },
     {
       "id": "post-6e7ce1b1c44621b28d883252",
@@ -42,7 +57,12 @@
       "url": "https://www.threads.com/t/DbNf7_6gUPF",
       "sourceName": "臺中國家歌劇院",
       "platform": "Threads",
-      "publishedAt": "2026-07-25T09:31:32Z"
+      "publishedAt": "2026-07-25T09:31:32Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3c174bcb3e9e1b8a3f2d.webp",
+        "width": 800,
+        "height": 534
+      }
     },
     {
       "id": "post-0be3c700a44ce2609c34915c",
@@ -51,7 +71,12 @@
       "url": "https://www.youtube.com/watch?v=8AhNPvS-ZdI",
       "sourceName": "臺中國家歌劇院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-24T07:21:07Z"
+      "publishedAt": "2026-07-24T07:21:07Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/889e87bc471b86fd2d46.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-ebddf5abb174a69726651e7f",
@@ -60,7 +85,12 @@
       "url": "https://www.youtube.com/watch?v=O2rR41Sjc74",
       "sourceName": "臺中國家歌劇院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-24T06:35:04Z"
+      "publishedAt": "2026-07-24T06:35:04Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/0401cf81a702bce4f806.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-b9325d043420d0aa2ee47624",
@@ -69,7 +99,12 @@
       "url": "https://www.youtube.com/watch?v=_cdVEEQe0uw",
       "sourceName": "臺中國家歌劇院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-23T06:00:05Z"
+      "publishedAt": "2026-07-23T06:00:05Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4531b67d705b542b3dd8.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-c6e674cb9425f8ba906fea8c",
@@ -78,7 +113,12 @@
       "url": "https://www.youtube.com/watch?v=Si9l3CgN1qA",
       "sourceName": "臺中國家歌劇院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-22T07:00:35Z"
+      "publishedAt": "2026-07-22T07:00:35Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/e12e4d13282c376cac23.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-5a3ccb04d272597ccdb012cc",
@@ -87,7 +127,12 @@
       "url": "https://www.threads.com/t/DbDZD8bEpbx",
       "sourceName": "臺中國家歌劇院",
       "platform": "Threads",
-      "publishedAt": "2026-07-21T11:19:59Z"
+      "publishedAt": "2026-07-21T11:19:59Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b057e7e09ad5e483ba4c.webp",
+        "width": 640,
+        "height": 1136
+      }
     },
     {
       "id": "post-06bacdb9b56dfef6e308f317",
@@ -96,7 +141,12 @@
       "url": "https://www.youtube.com/watch?v=QboBuJONnTY",
       "sourceName": "臺中國家歌劇院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-21T10:00:13Z"
+      "publishedAt": "2026-07-21T10:00:13Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/71402c6ef65962edfac0.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-555c7f0ac7a8e5453807d782",
@@ -105,7 +155,12 @@
       "url": "https://www.instagram.com/p/Da2ssMGGHtE/",
       "sourceName": "臺中國家歌劇院",
       "platform": "Instagram",
-      "publishedAt": "2026-07-16T13:00:06Z"
+      "publishedAt": "2026-07-16T13:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/38f03d40edf8bbebab56.webp",
+        "width": 800,
+        "height": 1067
+      }
     },
     {
       "id": "post-32dabc90d7520aebc22345d8",
@@ -114,7 +169,12 @@
       "url": "https://www.instagram.com/p/Dau-VgkCDdU/",
       "sourceName": "臺中國家歌劇院",
       "platform": "Instagram",
-      "publishedAt": "2026-07-13T13:00:47Z"
+      "publishedAt": "2026-07-13T13:00:47Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6b2e9ede83670cbc393c.webp",
+        "width": 800,
+        "height": 1000
+      }
     },
     {
       "id": "post-e598bfc0b8be940d2bb837c0",
@@ -123,7 +183,12 @@
       "url": "https://www.instagram.com/p/Daupnf3K7zp/",
       "sourceName": "臺中國家歌劇院",
       "platform": "Instagram",
-      "publishedAt": "2026-07-13T10:00:05Z"
+      "publishedAt": "2026-07-13T10:00:05Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/df60c23ca9be7c6298e6.webp",
+        "width": 800,
+        "height": 1001
+      }
     },
     {
       "id": "post-5b2d7c55baf393aceb29f0b8",
@@ -132,7 +197,12 @@
       "url": "https://www.instagram.com/p/DauAeM0jcgS/",
       "sourceName": "臺中國家歌劇院",
       "platform": "Instagram",
-      "publishedAt": "2026-07-13T04:00:09Z"
+      "publishedAt": "2026-07-13T04:00:09Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d0404e975581582455e2.webp",
+        "width": 800,
+        "height": 1000
+      }
     },
     {
       "id": "post-dbc43ab60b6c1e2471d4b975",
@@ -141,7 +211,12 @@
       "url": "https://www.threads.com/t/DanCKLCAjd2",
       "sourceName": "臺中國家歌劇院",
       "platform": "Threads",
-      "publishedAt": "2026-07-10T11:00:11Z"
+      "publishedAt": "2026-07-10T11:00:11Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2e8eca79541fef7315b8.webp",
+        "width": 800,
+        "height": 534
+      }
     },
     {
       "id": "post-6aeedcd4f27fdc630adee608",
@@ -150,7 +225,12 @@
       "url": "https://www.youtube.com/watch?v=8FgASzxj2LQ",
       "sourceName": "臺中國家歌劇院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-10T10:00:28Z"
+      "publishedAt": "2026-07-10T10:00:28Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/779806b206e3084b85cb.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-44e42573d3f1078ce48277a5",
@@ -159,7 +239,12 @@
       "url": "https://www.instagram.com/p/DamSF9CgZ3k/",
       "sourceName": "臺中國家歌劇院",
       "platform": "Instagram",
-      "publishedAt": "2026-07-10T04:00:13Z"
+      "publishedAt": "2026-07-10T04:00:13Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/19209ba0190572874f09.webp",
+        "width": 800,
+        "height": 1000
+      }
     },
     {
       "id": "post-c223dc9f464a404baaa9531a",
@@ -168,7 +253,12 @@
       "url": "https://www.youtube.com/watch?v=EV29RtlKZ5s",
       "sourceName": "臺中國家歌劇院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-09T07:23:43Z"
+      "publishedAt": "2026-07-09T07:23:43Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1ba2e3e442e4d9327490.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-323578f1111208b18708ff1e",
@@ -177,7 +267,12 @@
       "url": "https://www.youtube.com/watch?v=K5SUAAGrvt4",
       "sourceName": "臺中國家歌劇院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-09T03:04:49Z"
+      "publishedAt": "2026-07-09T03:04:49Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d46e6d622188c3b89a0f.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-01cac93369bc5cd179d1eb7a",
@@ -186,7 +281,12 @@
       "url": "https://www.youtube.com/watch?v=vCv3EHgTlOI",
       "sourceName": "臺中國家歌劇院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-08T05:49:59Z"
+      "publishedAt": "2026-07-08T05:49:59Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/5bf57593dd50c027c34a.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-a4c91ef01a9d60ac4210b70f",
@@ -195,7 +295,12 @@
       "url": "https://www.instagram.com/p/DafhhxdjF5Z/",
       "sourceName": "臺中國家歌劇院",
       "platform": "Instagram",
-      "publishedAt": "2026-07-07T13:00:23Z"
+      "publishedAt": "2026-07-07T13:00:23Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/833dfb6de3f03ca3ea28.webp",
+        "width": 800,
+        "height": 1000
+      }
     },
     {
       "id": "post-2c0f75047850cc6b206aa0b8",
@@ -204,7 +309,12 @@
       "url": "https://www.youtube.com/watch?v=V8qbDiiH6S0",
       "sourceName": "臺中國家歌劇院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-07T07:00:28Z"
+      "publishedAt": "2026-07-07T07:00:28Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f18d001395ef56d87aa5.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-f20992f1c314d21c7aaaf818",
@@ -213,7 +323,12 @@
       "url": "https://www.youtube.com/watch?v=x_vmU7qHAjo",
       "sourceName": "臺中國家歌劇院",
       "platform": "YouTube",
-      "publishedAt": "2026-07-07T04:00:14Z"
+      "publishedAt": "2026-07-07T04:00:14Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/07a27a38dce8ddd62a66.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-8b96ae228a4b1a7de3bf0c78",
@@ -222,7 +337,12 @@
       "url": "https://www.instagram.com/p/DaaX9E-jcHb/",
       "sourceName": "臺中國家歌劇院",
       "platform": "Instagram",
-      "publishedAt": "2026-07-05T13:00:32Z"
+      "publishedAt": "2026-07-05T13:00:32Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6d10ad338debf86a1f68.webp",
+        "width": 800,
+        "height": 534
+      }
     },
     {
       "id": "post-98f559fb318ec16867f5b9a0",
@@ -231,7 +351,12 @@
       "url": "https://www.instagram.com/p/DaZaNfiiAJe/",
       "sourceName": "臺中國家歌劇院",
       "platform": "Instagram",
-      "publishedAt": "2026-07-05T04:01:34Z"
+      "publishedAt": "2026-07-05T04:01:34Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a8bc233fb2e3ecfb56ab.webp",
+        "width": 720,
+        "height": 405
+      }
     },
     {
       "id": "post-b5106146c6b2330f475c0372",
@@ -240,7 +365,12 @@
       "url": "https://www.instagram.com/p/DaX6GTbDlYE/",
       "sourceName": "臺中國家歌劇院",
       "platform": "Instagram",
-      "publishedAt": "2026-07-04T14:01:41Z"
+      "publishedAt": "2026-07-04T14:01:41Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/21edc89df3b53151e5b1.webp",
+        "width": 800,
+        "height": 1423
+      }
     },
     {
       "id": "post-73904502c0598f5afcd7e456",
@@ -249,7 +379,12 @@
       "url": "https://www.instagram.com/p/DaVUOKjqDQ1/",
       "sourceName": "臺中國家歌劇院",
       "platform": "Instagram",
-      "publishedAt": "2026-07-03T13:52:39Z"
+      "publishedAt": "2026-07-03T13:52:39Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9e3fea8f6b35bfacfba0.webp",
+        "width": 720,
+        "height": 1280
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 39,
     "slug": "39",
@@ -15,7 +15,12 @@
       "url": "https://www.threads.com/t/DbOJWgpm-7X",
       "sourceName": "林士傑",
       "platform": "Threads",
-      "publishedAt": "2026-07-25T15:33:25Z"
+      "publishedAt": "2026-07-25T15:33:25Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9565808ef661a69dc301.webp",
+        "width": 800,
+        "height": 600
+      }
     }
   ]
 }

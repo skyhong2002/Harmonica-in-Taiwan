@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 174,
     "slug": "yellow-pine-harmonica-festival",
@@ -15,7 +15,12 @@
       "url": "https://www.facebook.com/YellowPineHarmonicaFestival/posts/pfbid0qKbQ55dj3ViYBYttrevMRepDEgCRtTcARoKnuLVPqjGtXwz6GFfS5sPDZEn1nDbGl",
       "sourceName": "Yellow Pine Harmonica Festival",
       "platform": "Facebook",
-      "publishedAt": "2026-07-25T00:49:04Z"
+      "publishedAt": "2026-07-25T00:49:04Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/825de408f7ec638a029b.webp",
+        "width": 236,
+        "height": 300
+      }
     },
     {
       "id": "post-0d7ba227b1878a447936c9f4",
@@ -33,7 +38,12 @@
       "url": "https://www.facebook.com/YellowPineHarmonicaFestival/posts/pfbid03VdsdcLT2MTc2hiNLfxG8UBMHuJBkydShgeDKmruXvZDiRXyQZ3V1131UMxtNp51l",
       "sourceName": "Yellow Pine Harmonica Festival",
       "platform": "Facebook",
-      "publishedAt": "2026-07-21T23:39:03Z"
+      "publishedAt": "2026-07-21T23:39:03Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/31348ce57c816827ddf7.webp",
+        "width": 800,
+        "height": 534
+      }
     },
     {
       "id": "post-1cfca1215b7a4cf149fdadf8",
@@ -51,7 +61,12 @@
       "url": "https://www.facebook.com/YellowPineHarmonicaFestival/posts/pfbid02CpmanRx4U7GDcJZZ9MbZWbUH1aNKTr9CkeQXioxRjzWTptXFqMYgw3h5odAJsZNwl",
       "sourceName": "Yellow Pine Harmonica Festival",
       "platform": "Facebook",
-      "publishedAt": "2026-07-18T22:39:09Z"
+      "publishedAt": "2026-07-18T22:39:09Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/e23e8f2459a844cb7d1a.webp",
+        "width": 526,
+        "height": 789
+      }
     },
     {
       "id": "post-639fd88306c8333f1ec5e450",
@@ -60,7 +75,12 @@
       "url": "https://www.instagram.com/p/Datar4cCXiA/",
       "sourceName": "Yellow Pine Harmonica Festival",
       "platform": "Instagram",
-      "publishedAt": "2026-07-12T22:29:59Z"
+      "publishedAt": "2026-07-12T22:29:59Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/fe92ba3b356fe14f4001.webp",
+        "width": 236,
+        "height": 295
+      }
     },
     {
       "id": "post-a4fabfdbc93ac88313042f11",
@@ -69,7 +89,12 @@
       "url": "https://www.facebook.com/YellowPineHarmonicaFestival/posts/pfbid0bPDEQzepd1wkzehqHSMpcaVd74kGfyMaAZUunFN2dPTNC9zZ5xpiucruASpDkZcQl",
       "sourceName": "Yellow Pine Harmonica Festival",
       "platform": "Facebook",
-      "publishedAt": "2026-07-10T00:28:04Z"
+      "publishedAt": "2026-07-10T00:28:04Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ffee3af77980100df4a9.webp",
+        "width": 139,
+        "height": 139
+      }
     },
     {
       "id": "post-69afd31499537467015f0677",
@@ -78,7 +103,12 @@
       "url": "https://www.facebook.com/YellowPineHarmonicaFestival/posts/pfbid0ahMFh2B5mQHak9pEtzr8LWBogd3UkcjSatGYW1F5kS9AsQDbA3iT6bc876rNb3JLl",
       "sourceName": "Yellow Pine Harmonica Festival",
       "platform": "Facebook",
-      "publishedAt": "2026-07-09T23:11:53Z"
+      "publishedAt": "2026-07-09T23:11:53Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ba59f9f01815969291b1.webp",
+        "width": 720,
+        "height": 540
+      }
     }
   ]
 }

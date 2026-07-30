@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 48,
     "slug": "wu-yung-lung",
@@ -15,7 +15,12 @@
       "url": "https://www.facebook.com/markwu.bandoneon/posts/pfbid0fn7B1YvbksEwqCgC4WgNCVttf9ovqt2sz9aV6eCwWiQGbeSSmoAiuYctFuhmyRzvl",
       "sourceName": "吳詠隆",
       "platform": "Facebook",
-      "publishedAt": "2026-07-06T10:00:50Z"
+      "publishedAt": "2026-07-06T10:00:50Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c5e8d726536ac852f42f.webp",
+        "width": 509,
+        "height": 720
+      }
     },
     {
       "id": "post-e21db5b9f8d3852bceb0194e",

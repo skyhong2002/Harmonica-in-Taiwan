@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 147,
     "slug": "yoonseok-lee",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/DbaB69NE6ma/",
       "sourceName": "Yoonseok Lee",
       "platform": "Instagram",
-      "publishedAt": "2026-07-30T06:19:25Z"
+      "publishedAt": "2026-07-30T06:19:25Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2e412d38f0bfcb2a71b3.webp",
+        "width": 800,
+        "height": 1067
+      }
     },
     {
       "id": "post-58ebd61ecd36cf582c13aba8",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/DbXCElBkxm3/",
       "sourceName": "Yoonseok Lee",
       "platform": "Instagram",
-      "publishedAt": "2026-07-29T02:23:01Z"
+      "publishedAt": "2026-07-29T02:23:01Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/90d24b9c84dfdd88dd16.webp",
+        "width": 800,
+        "height": 783
+      }
     },
     {
       "id": "post-36ac7e75c00a6995455dd965",
@@ -33,7 +43,12 @@
       "url": "https://www.instagram.com/p/DbVw-2ZExDC/",
       "sourceName": "Yoonseok Lee",
       "platform": "Instagram",
-      "publishedAt": "2026-07-28T14:34:27Z"
+      "publishedAt": "2026-07-28T14:34:27Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d4817583acbc65171f3f.webp",
+        "width": 800,
+        "height": 800
+      }
     },
     {
       "id": "post-1c3e9de696cbfd0694138114",
@@ -42,7 +57,12 @@
       "url": "https://www.instagram.com/p/DaxFbJAEy3Q/",
       "sourceName": "Yoonseok Lee",
       "platform": "Instagram",
-      "publishedAt": "2026-07-14T08:41:10Z"
+      "publishedAt": "2026-07-14T08:41:10Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a693a70679a9252cfd47.webp",
+        "width": 800,
+        "height": 800
+      }
     },
     {
       "id": "post-58759cdc2faa1743898a4099",
@@ -51,7 +71,12 @@
       "url": "https://www.instagram.com/p/DahjEooS9PU/",
       "sourceName": "Yoonseok Lee",
       "platform": "Instagram",
-      "publishedAt": "2026-07-09T00:06:22Z"
+      "publishedAt": "2026-07-09T00:06:22Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ce08157aafbd00a9364b.webp",
+        "width": 720,
+        "height": 1280
+      }
     }
   ]
 }

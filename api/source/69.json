@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 69,
     "slug": "dror-adler-adler-trio",
@@ -15,7 +15,12 @@
       "url": "https://www.facebook.com/reel/1569597321228413/",
       "sourceName": "Dror Adler / Adler Trio",
       "platform": "Facebook",
-      "publishedAt": "2026-07-14T13:02:19Z"
+      "publishedAt": "2026-07-14T13:02:19Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/44fb2c2fca0845a23807.webp",
+        "width": 800,
+        "height": 450
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 165,
     "slug": "malaysia-harmonica-festival",
@@ -15,7 +15,12 @@
       "url": "https://www.facebook.com/malaysiaharmonicafestival/posts/pfbid0KpP8eRFVn9c8XKxM3Buv5UXXADTJmDmbtFcsVuUcGNvcdm9g3nWZgEw3JnSYfmRFl",
       "sourceName": "馬來西亞口琴節",
       "platform": "Facebook",
-      "publishedAt": "2026-07-26T11:24:02Z"
+      "publishedAt": "2026-07-26T11:24:02Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d2c6bae630635815c7c3.webp",
+        "width": 509,
+        "height": 720
+      }
     },
     {
       "id": "post-e69f58e89f0c1a3340828968",
@@ -24,7 +29,12 @@
       "url": "https://www.facebook.com/malaysiaharmonicafestival/posts/pfbid02pHCSAqons6N4JHkhgQdR6W6c36YNpEQhWxNUY7dtKdchwJzqMjfeHs7utpcNzTsHl",
       "sourceName": "馬來西亞口琴節",
       "platform": "Facebook",
-      "publishedAt": "2026-07-20T11:53:00Z"
+      "publishedAt": "2026-07-20T11:53:00Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1c2c436f471162838cbf.webp",
+        "width": 512,
+        "height": 640
+      }
     },
     {
       "id": "post-e51fdfd6ed6145d79eb52d8b",
@@ -33,7 +43,12 @@
       "url": "https://www.facebook.com/malaysiaharmonicafestival/posts/pfbid02gaXVKkk4dhNwSitqYxbgkcV1xzAdh9CwsrNuUN7JwF8jqAFf7zLLCgEMMb3oZrZ8l",
       "sourceName": "馬來西亞口琴節",
       "platform": "Facebook",
-      "publishedAt": "2026-07-18T08:38:20Z"
+      "publishedAt": "2026-07-18T08:38:20Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/70d44fdb52621ed36073.webp",
+        "width": 512,
+        "height": 640
+      }
     },
     {
       "id": "post-58675580cef36b16c1245ec0",
@@ -42,7 +57,12 @@
       "url": "https://www.facebook.com/malaysiaharmonicafestival/posts/pfbid02wWzvVioxKVSYvDsB3Dc8WB3yoEsLRbdRupUELursbAhAZG1ezc4qJ9xVimCy6ZAHl",
       "sourceName": "馬來西亞口琴節",
       "platform": "Facebook",
-      "publishedAt": "2026-07-16T12:37:01Z"
+      "publishedAt": "2026-07-16T12:37:01Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9f8c021aa8b9163a548e.webp",
+        "width": 512,
+        "height": 640
+      }
     },
     {
       "id": "post-6ed3d2f20a3cb39cb17b5bc5",
@@ -51,7 +71,12 @@
       "url": "https://www.instagram.com/p/Da2p_W_zZdS/",
       "sourceName": "馬來西亞口琴節",
       "platform": "Instagram",
-      "publishedAt": "2026-07-16T12:36:55Z"
+      "publishedAt": "2026-07-16T12:36:55Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/77dace9d02c16a8e2295.webp",
+        "width": 800,
+        "height": 1001
+      }
     },
     {
       "id": "post-f592db27ceca2b40f9ed25c2",
@@ -60,7 +85,12 @@
       "url": "https://www.facebook.com/malaysiaharmonicafestival/posts/pfbid02aDiy2aeFNUcEiojkv7MTE8M5s2pag5432D4mTRd7yo6TxAdT2MfgRUDDqxoawCaYl",
       "sourceName": "馬來西亞口琴節",
       "platform": "Facebook",
-      "publishedAt": "2026-07-11T11:14:26Z"
+      "publishedAt": "2026-07-11T11:14:26Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ac9668a4d86409355f2b.webp",
+        "width": 472,
+        "height": 590
+      }
     },
     {
       "id": "post-1618eb30fa120767946e54aa",
@@ -69,7 +99,12 @@
       "url": "https://www.instagram.com/p/DanDE2YE-mU/",
       "sourceName": "馬來西亞口琴節",
       "platform": "Instagram",
-      "publishedAt": "2026-07-10T11:08:14Z"
+      "publishedAt": "2026-07-10T11:08:14Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f4250a2e2ca677a96dbf.webp",
+        "width": 800,
+        "height": 1000
+      }
     },
     {
       "id": "post-0e925671fed8184914ff520a",
@@ -78,7 +113,12 @@
       "url": "https://www.facebook.com/malaysiaharmonicafestival/posts/pfbid02xJCykobSb94vEfaKtMfrQiaaUZMaiLDshT5ey1g3kKkwUZLVVe42F7zVLN4y2A3jl",
       "sourceName": "馬來西亞口琴節",
       "platform": "Facebook",
-      "publishedAt": "2026-07-08T11:27:18Z"
+      "publishedAt": "2026-07-08T11:27:18Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/707541eccddd4783ebee.webp",
+        "width": 472,
+        "height": 590
+      }
     },
     {
       "id": "post-c0423191ac70648c762515ec",
@@ -87,7 +127,12 @@
       "url": "https://www.facebook.com/malaysiaharmonicafestival/posts/pfbid0GhxSNjSJ84HzLkgmT7HoU95orphVLwmpkDx7M7fAk9m2ntJjvcy9yCohHrj3nYPZl",
       "sourceName": "馬來西亞口琴節",
       "platform": "Facebook",
-      "publishedAt": "2026-07-06T10:48:20Z"
+      "publishedAt": "2026-07-06T10:48:20Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/07ee63eadb74d9c00d7d.webp",
+        "width": 472,
+        "height": 590
+      }
     },
     {
       "id": "post-8c9d854e3183cb94341fb1f8",
@@ -96,7 +141,12 @@
       "url": "https://www.facebook.com/reel/1356690656430317/",
       "sourceName": "馬來西亞口琴節",
       "platform": "Facebook",
-      "publishedAt": "2026-07-03T11:05:26Z"
+      "publishedAt": "2026-07-03T11:05:26Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/70bfc92ece71c45293c1.webp",
+        "width": 540,
+        "height": 960
+      }
     }
   ]
 }

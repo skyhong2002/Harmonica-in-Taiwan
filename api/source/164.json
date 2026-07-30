@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 164,
     "slug": "singapore-youth-festival-arts-presentation-harmonica",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/DakoGW1SoDR/",
       "sourceName": "新加坡青年節藝術展演（口琴）",
       "platform": "Instagram",
-      "publishedAt": "2026-07-09T12:34:32Z"
+      "publishedAt": "2026-07-09T12:34:32Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/23159de1e6766897f274.webp",
+        "width": 800,
+        "height": 1423
+      }
     }
   ]
 }

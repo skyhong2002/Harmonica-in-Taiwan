@@ -1401,6 +1401,92 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-66",
+      "publicId": "66",
+      "name": "Younghoon Cho",
+      "nameEn": "Younghoon Cho",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
+      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
+      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "keywords": "Younghoon Cho Jong-seong Park",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/hoontobe"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hoontobe/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hoontobe_piano/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/hoontobe"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-30T13:00:06+00:00",
+      "latestUpdateLocal": "2026-07-30 21:00",
+      "latestUpdateSource": "Younghoon Cho",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=QOV2sLtuWkA",
+      "avatarUrl": "/assets/source-avatars/4168baa97b6613dcf6d7.webp",
+      "sourceInitials": "YC",
+      "sourceTags": [
+        "演奏者",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
+      "monitorSources": [
+        {
+          "id": "fb_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hoontobe",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
+        },
+        {
+          "id": "yt_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/hoontobe",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-42",
       "publicId": "42",
       "name": "王心禾",
@@ -1705,6 +1791,92 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@hokahkean1999",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-55",
+      "publicId": "55",
+      "name": "梁承熹 Kelvin Leung",
+      "nameEn": "Kelvin Leung",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "THMF交流/演出",
+      "structuredSummary": "THMF交流/演出 / 半音階 / 國際演出人員",
+      "summary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
+      "keywords": "梁承熹 Kelvin Leung harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica-kelvin.weebly.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kelvinleungsh/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sorhei/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@KelvinLeungharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-30T11:22:01+00:00",
+      "latestUpdateLocal": "2026-07-30 19:22",
+      "latestUpdateSource": "梁承熹 Kelvin Leung",
+      "latestUpdateUrl": "https://www.instagram.com/stories/sorhei/3952632398105565712/",
+      "avatarUrl": "/assets/source-avatars/0c9e9143d106ffe600b5.webp",
+      "sourceInitials": "KL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "sourceSummary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
+      "sourceTagReason": "來源明確標示為『演奏者』，類型為『個人』，區域為『香港』，摘要提及『THMF交流/演出』與『半音階』。",
+      "monitorSources": [
+        {
+          "id": "fb_kelvinleungsh",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/kelvinleungsh",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sorhei",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sorhei",
+          "profileUrl": "https://www.instagram.com/sorhei/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sorhei",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sorhei",
+          "profileUrl": "https://www.instagram.com/sorhei/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sorhei/story/0"
+        },
+        {
+          "id": "yt_kelvinleungharmonica",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@KelvinLeungharmonica",
           "feedUrl": ""
         }
       ]
@@ -2622,92 +2794,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-66",
-      "publicId": "66",
-      "name": "Younghoon Cho",
-      "nameEn": "Younghoon Cho",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
-      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
-      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "keywords": "Younghoon Cho Jong-seong Park",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/hoontobe"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hoontobe/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hoontobe_piano/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/hoontobe"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-30T05:35:29+00:00",
-      "latestUpdateLocal": "2026-07-30 13:35",
-      "latestUpdateSource": "Younghoon Cho",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3952458025978268733/",
-      "avatarUrl": "/assets/source-avatars/4168baa97b6613dcf6d7.webp",
-      "sourceInitials": "YC",
-      "sourceTags": [
-        "演奏者",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
-      "monitorSources": [
-        {
-          "id": "fb_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hoontobe",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
-        },
-        {
-          "id": "yt_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/hoontobe",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-100",
       "publicId": "100",
       "name": "曹小歐",
@@ -3045,6 +3131,94 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@thmc6470",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-223",
+      "publicId": "223",
+      "name": "El Caminito 엘 까미니또",
+      "nameEn": "El Caminito",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "Nuevo Tango/世界音樂/口琴與鋼琴二重奏/作曲/演出",
+      "structuredSummary": "Nuevo Tango/世界音樂/口琴與鋼琴二重奏/作曲/演出 / 半音階口琴/鋼琴 / 國際演出團體/二重奏",
+      "summary": "韓國口琴與鋼琴 Nuevo Tango 二重奏，由口琴演奏者 최희중 與鋼琴家 명나영 組成。",
+      "keywords": "El Caminito 엘까미니또 최희중 명나영 harmonica piano Nuevo Tango Korea",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.cjazit.org/support/tune-up/entry/64/26710?p=26"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/duo.elcaminito/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/elcaminito_official/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCaHrTB0aiwNv-9wCSeB8eKg"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-30T03:00:06+00:00",
+      "latestUpdateLocal": "2026-07-30 11:00",
+      "latestUpdateSource": "El Caminito 엘 까미니또",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbZrLu8h2nz/",
+      "avatarUrl": "/assets/source-avatars/a9d408c75bc4de7872eb.webp",
+      "sourceInitials": "EC",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "國際交流",
+        "重奏",
+        "演出"
+      ],
+      "sourceSummary": "韓國口琴與鋼琴 Nuevo Tango 二重奏，由口琴演奏者 최희중 與鋼琴家 명나영 組成。",
+      "sourceTagReason": "整合自官方 Instagram、Facebook、YouTube 與 CJ 文化財團介紹。",
+      "monitorSources": [
+        {
+          "id": "fb_duo_elcaminito",
+          "name": "El Caminito 엘 까미니또",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/duo.elcaminito",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_elcaminito_official",
+          "name": "El Caminito 엘 까미니또",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "elcaminito_official",
+          "profileUrl": "https://www.instagram.com/elcaminito_official/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_elcaminito_official",
+          "name": "El Caminito 엘 까미니또",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "elcaminito_official",
+          "profileUrl": "https://www.instagram.com/elcaminito_official/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/elcaminito_official/story/0"
+        },
+        {
+          "id": "yt_ucahrtb0aiwnv_9wcseb8ekg",
+          "name": "El Caminito 엘 까미니또",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCaHrTB0aiwNv-9wCSeB8eKg",
           "feedUrl": ""
         }
       ]
@@ -5138,92 +5312,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/kcobaps",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-55",
-      "publicId": "55",
-      "name": "梁承熹 Kelvin Leung",
-      "nameEn": "Kelvin Leung",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "THMF交流/演出",
-      "structuredSummary": "THMF交流/演出 / 半音階 / 國際演出人員",
-      "summary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
-      "keywords": "梁承熹 Kelvin Leung harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica-kelvin.weebly.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/kelvinleungsh/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/sorhei/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@KelvinLeungharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-27T17:07:54+00:00",
-      "latestUpdateLocal": "2026-07-28 01:07",
-      "latestUpdateSource": "梁承熹 Kelvin Leung",
-      "latestUpdateUrl": "https://www.instagram.com/stories/sorhei/3950632164584364231/",
-      "avatarUrl": "/assets/source-avatars/0c9e9143d106ffe600b5.webp",
-      "sourceInitials": "KL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "sourceSummary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
-      "sourceTagReason": "來源明確標示為『演奏者』，類型為『個人』，區域為『香港』，摘要提及『THMF交流/演出』與『半音階』。",
-      "monitorSources": [
-        {
-          "id": "fb_kelvinleungsh",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/kelvinleungsh",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_sorhei",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "sorhei",
-          "profileUrl": "https://www.instagram.com/sorhei/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_sorhei",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "sorhei",
-          "profileUrl": "https://www.instagram.com/sorhei/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sorhei/story/0"
-        },
-        {
-          "id": "yt_kelvinleungharmonica",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@KelvinLeungharmonica",
           "feedUrl": ""
         }
       ]
@@ -11753,94 +11841,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@harpdonuts",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-223",
-      "publicId": "223",
-      "name": "El Caminito 엘 까미니또",
-      "nameEn": "El Caminito",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "韓國",
-      "region": "韓國/首爾",
-      "cityOrFocus": "Nuevo Tango/世界音樂/口琴與鋼琴二重奏/作曲/演出",
-      "structuredSummary": "Nuevo Tango/世界音樂/口琴與鋼琴二重奏/作曲/演出 / 半音階口琴/鋼琴 / 國際演出團體/二重奏",
-      "summary": "韓國口琴與鋼琴 Nuevo Tango 二重奏，由口琴演奏者 최희중 與鋼琴家 명나영 組成。",
-      "keywords": "El Caminito 엘까미니또 최희중 명나영 harmonica piano Nuevo Tango Korea",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.cjazit.org/support/tune-up/entry/64/26710?p=26"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/duo.elcaminito/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/elcaminito_official/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCaHrTB0aiwNv-9wCSeB8eKg"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/8a5f8f506377e125491f.webp",
-      "sourceInitials": "EC",
-      "sourceTags": [
-        "團體樂團",
-        "半音階",
-        "國際交流",
-        "重奏",
-        "演出"
-      ],
-      "sourceSummary": "韓國口琴與鋼琴 Nuevo Tango 二重奏，由口琴演奏者 최희중 與鋼琴家 명나영 組成。",
-      "sourceTagReason": "整合自官方 Instagram、Facebook、YouTube 與 CJ 文化財團介紹。",
-      "monitorSources": [
-        {
-          "id": "fb_duo_elcaminito",
-          "name": "El Caminito 엘 까미니또",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/duo.elcaminito",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_elcaminito_official",
-          "name": "El Caminito 엘 까미니또",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "elcaminito_official",
-          "profileUrl": "https://www.instagram.com/elcaminito_official/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_elcaminito_official",
-          "name": "El Caminito 엘 까미니또",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "elcaminito_official",
-          "profileUrl": "https://www.instagram.com/elcaminito_official/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/elcaminito_official/story/0"
-        },
-        {
-          "id": "yt_ucahrtb0aiwnv_9wcseb8ekg",
-          "name": "El Caminito 엘 까미니또",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCaHrTB0aiwNv-9wCSeB8eKg",
           "feedUrl": ""
         }
       ]

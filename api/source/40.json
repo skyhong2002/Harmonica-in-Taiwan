@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -15,7 +15,12 @@
       "url": "https://www.youtube.com/watch?v=YrIQXfJLPpk",
       "sourceName": "陳鴻儀",
       "platform": "YouTube",
-      "publishedAt": "2026-07-29T00:00:06Z"
+      "publishedAt": "2026-07-29T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ab6042f9e4be8b8ff447.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-22f44c667526a4c7964601d3",
@@ -24,7 +29,12 @@
       "url": "https://www.youtube.com/watch?v=5JFiWuvVWv4",
       "sourceName": "陳鴻儀",
       "platform": "YouTube",
-      "publishedAt": "2026-07-27T00:00:06Z"
+      "publishedAt": "2026-07-27T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/167bfe0be689f7fe95d7.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-7d1fc3cf3860bec74f7c67a4",
@@ -33,7 +43,12 @@
       "url": "https://www.youtube.com/watch?v=FXwHZeNgUKc",
       "sourceName": "陳鴻儀",
       "platform": "YouTube",
-      "publishedAt": "2026-07-25T00:00:06Z"
+      "publishedAt": "2026-07-25T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/dce84d7929a5bb29fb8a.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-f5dba34ec856246b8737b7c0",
@@ -42,7 +57,12 @@
       "url": "https://www.youtube.com/watch?v=2ENbECxsy5Q",
       "sourceName": "陳鴻儀",
       "platform": "YouTube",
-      "publishedAt": "2026-07-23T00:00:06Z"
+      "publishedAt": "2026-07-23T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c9d93a0355b3625d14fa.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-81785bd1018152bcdba64806",
@@ -51,7 +71,12 @@
       "url": "https://www.youtube.com/watch?v=mW4PuXALm1Y",
       "sourceName": "陳鴻儀",
       "platform": "YouTube",
-      "publishedAt": "2026-07-21T00:00:05Z"
+      "publishedAt": "2026-07-21T00:00:05Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f43b2cc86fe76dbf8af5.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-975ca545179c020004e2341a",
@@ -60,7 +85,12 @@
       "url": "https://www.youtube.com/watch?v=HKnB6bgzLyM",
       "sourceName": "陳鴻儀",
       "platform": "YouTube",
-      "publishedAt": "2026-07-19T00:00:05Z"
+      "publishedAt": "2026-07-19T00:00:05Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/44ff36b6829c5e9da2d8.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-da33e8b236eb4bce40af4120",
@@ -69,7 +99,12 @@
       "url": "https://www.youtube.com/watch?v=seROsKjnqTo",
       "sourceName": "陳鴻儀",
       "platform": "YouTube",
-      "publishedAt": "2026-07-17T00:00:06Z"
+      "publishedAt": "2026-07-17T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c7fc781a507914346df1.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-30bbe8c717175d62de7bf204",
@@ -78,7 +113,12 @@
       "url": "https://www.youtube.com/watch?v=h1XQTLoX26E",
       "sourceName": "陳鴻儀",
       "platform": "YouTube",
-      "publishedAt": "2026-07-15T00:00:06Z"
+      "publishedAt": "2026-07-15T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/29e1da5947b38532453d.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-23983ae70da1809a1b059c30",
@@ -87,7 +127,12 @@
       "url": "https://www.youtube.com/watch?v=G9LLEp6qJAk",
       "sourceName": "陳鴻儀",
       "platform": "YouTube",
-      "publishedAt": "2026-07-13T00:00:06Z"
+      "publishedAt": "2026-07-13T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b470e38e6fff1f5c31e3.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-ca471c98e4cdfebed38200fe",
@@ -96,7 +141,12 @@
       "url": "https://www.youtube.com/watch?v=CUNRJiRka4M",
       "sourceName": "陳鴻儀",
       "platform": "YouTube",
-      "publishedAt": "2026-07-11T00:00:21Z"
+      "publishedAt": "2026-07-11T00:00:21Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6ac6903e9490f3e17d23.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-ddcf5343f8910adc8f813452",
@@ -105,7 +155,12 @@
       "url": "https://www.youtube.com/watch?v=p0MHX9WBT7k",
       "sourceName": "陳鴻儀",
       "platform": "YouTube",
-      "publishedAt": "2026-07-08T12:00:06Z"
+      "publishedAt": "2026-07-08T12:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/19c524390473bf01cee4.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-fa3bc19d90730a2a642ad7c9",
@@ -114,7 +169,12 @@
       "url": "https://www.youtube.com/watch?v=i8_s2uuGNV4",
       "sourceName": "陳鴻儀",
       "platform": "YouTube",
-      "publishedAt": "2026-07-08T00:00:06Z"
+      "publishedAt": "2026-07-08T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/77e599b98858cd416811.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-0f4b2e5eb3934ed2f6a36d16",
@@ -123,7 +183,12 @@
       "url": "https://www.youtube.com/watch?v=eGp8NeZDGfw",
       "sourceName": "陳鴻儀",
       "platform": "YouTube",
-      "publishedAt": "2026-07-06T00:00:06Z"
+      "publishedAt": "2026-07-06T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2683fabb19590630b2a9.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-04fd40a1288343f97e2966c4",
@@ -132,7 +197,12 @@
       "url": "https://www.youtube.com/watch?v=h1J9k2IMop8",
       "sourceName": "陳鴻儀",
       "platform": "YouTube",
-      "publishedAt": "2026-07-05T00:00:21Z"
+      "publishedAt": "2026-07-05T00:00:21Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9e8559718bbe27ae029c.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-45540a114d5b4cb51f12bb37",
@@ -141,7 +211,12 @@
       "url": "https://www.youtube.com/watch?v=RExvb2Hur8Q",
       "sourceName": "陳鴻儀",
       "platform": "YouTube",
-      "publishedAt": "2026-07-03T00:30:06Z"
+      "publishedAt": "2026-07-03T00:30:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6fd295ff141320f6fa95.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-91463cea21d068256ece7db9",
@@ -150,7 +225,12 @@
       "url": "https://www.youtube.com/watch?v=TXUBOQ71iYk",
       "sourceName": "陳鴻儀",
       "platform": "YouTube",
-      "publishedAt": "2026-07-01T00:00:06Z"
+      "publishedAt": "2026-07-01T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a16cfb57dfe7551ecb88.webp",
+        "width": 800,
+        "height": 450
+      }
     }
   ]
 }

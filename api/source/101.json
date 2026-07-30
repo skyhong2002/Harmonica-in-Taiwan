@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 101,
     "slug": "ho-kah-kean-harmonikahkean",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/Da-fGjNmNs7/",
       "sourceName": "何家健 HarmoniKahkean",
       "platform": "Instagram",
-      "publishedAt": "2026-07-19T13:35:40Z"
+      "publishedAt": "2026-07-19T13:35:40Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/21c5e0c1c3db8098d922.webp",
+        "width": 800,
+        "height": 1000
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 34,
     "slug": "yen-hua-wang",
@@ -15,7 +15,12 @@
       "url": "https://www.threads.com/t/DbD0cB5gebM",
       "sourceName": "王衍華",
       "platform": "Threads",
-      "publishedAt": "2026-07-21T15:18:18Z"
+      "publishedAt": "2026-07-21T15:18:18Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c82e0fdc4842daed23bd.webp",
+        "width": 800,
+        "height": 1423
+      }
     },
     {
       "id": "post-98a16c4fed1836d364fb66b1",
@@ -24,7 +29,12 @@
       "url": "https://www.instagram.com/p/DbD0KmpJeIS/",
       "sourceName": "王衍華",
       "platform": "Instagram",
-      "publishedAt": "2026-07-21T15:18:08Z"
+      "publishedAt": "2026-07-21T15:18:08Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/0bd4019460b43a7f8110.webp",
+        "width": 800,
+        "height": 1423
+      }
     },
     {
       "id": "post-8d2d7f7bf3b6ac5a2560e72d",
@@ -33,7 +43,12 @@
       "url": "https://www.threads.com/t/Da0Mgs2k4LT",
       "sourceName": "王衍華",
       "platform": "Threads",
-      "publishedAt": "2026-07-15T13:40:46Z"
+      "publishedAt": "2026-07-15T13:40:46Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/26761ce4cc5f620aa7b0.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-a58a93d214760fff89d8363b",
@@ -51,7 +66,12 @@
       "url": "https://www.instagram.com/p/Dau6lUepuuS/",
       "sourceName": "王衍華",
       "platform": "Instagram",
-      "publishedAt": "2026-07-13T12:28:14Z"
+      "publishedAt": "2026-07-13T12:28:14Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/781bfe4e25465de747cf.webp",
+        "width": 800,
+        "height": 1419
+      }
     },
     {
       "id": "post-6ed774a20caf35fe842a00d5",
@@ -60,7 +80,12 @@
       "url": "https://www.instagram.com/p/Dap29RBxdSX/",
       "sourceName": "王衍華",
       "platform": "Instagram",
-      "publishedAt": "2026-07-11T13:20:31Z"
+      "publishedAt": "2026-07-11T13:20:31Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/06804cdeead47227b442.webp",
+        "width": 800,
+        "height": 1423
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 198,
     "slug": "bamboo-melody-harmonica-club",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/DbLX1c9lGv9/",
       "sourceName": "陽明交大竹韻口琴社",
       "platform": "Instagram",
-      "publishedAt": "2026-07-24T14:44:05Z"
+      "publishedAt": "2026-07-24T14:44:05Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6b7dd80dd7408fb12c33.webp",
+        "width": 1440,
+        "height": 1920
+      }
     },
     {
       "id": "post-776a6fcd2c27fad6c25dd7c6",
@@ -24,7 +29,12 @@
       "url": "https://www.facebook.com/nycubmhc/posts/pfbid0nVzb9bvXdMpPV7bQdSgSGnoGQKzNhvRe4WJEieapwStaNUwN5VSQ9nzHESNWwGwwl",
       "sourceName": "陽明交大竹韻口琴社",
       "platform": "Facebook",
-      "publishedAt": "2026-07-04T06:56:17Z"
+      "publishedAt": "2026-07-04T06:56:17Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/5df58ce4300a663aa190.webp",
+        "width": 512,
+        "height": 640
+      }
     }
   ]
 }

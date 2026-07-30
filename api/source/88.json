@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -15,7 +15,12 @@
       "url": "https://www.youtube.com/watch?v=SYOqzY4FRR4",
       "sourceName": "藍波口琴教室",
       "platform": "YouTube",
-      "publishedAt": "2026-07-29T10:00:33Z"
+      "publishedAt": "2026-07-29T10:00:33Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ed53aad004f344cf9925.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-44613d9b2dfbef7e76944d9a",
@@ -24,7 +29,12 @@
       "url": "https://www.facebook.com/reel/1478697944292144/",
       "sourceName": "藍波口琴教室",
       "platform": "Facebook",
-      "publishedAt": "2026-07-29T04:24:20Z"
+      "publishedAt": "2026-07-29T04:24:20Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/19e62b473c284b347260.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-bd6e4325dd0a09a44104ee04",
@@ -33,7 +43,12 @@
       "url": "https://www.youtube.com/watch?v=H_PIv6uO8XQ",
       "sourceName": "藍波口琴教室",
       "platform": "YouTube",
-      "publishedAt": "2026-07-27T04:00:00Z"
+      "publishedAt": "2026-07-27T04:00:00Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/513df8d7861b5dff1119.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-d3a4604fa88dc2eef6f24f54",
@@ -42,7 +57,12 @@
       "url": "https://www.youtube.com/watch?v=TZW1efl6nsE",
       "sourceName": "藍波口琴教室",
       "platform": "YouTube",
-      "publishedAt": "2026-07-25T04:00:31Z"
+      "publishedAt": "2026-07-25T04:00:31Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/93bc8711ac04d2e1550d.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-4f1237777747987220ee0f6f",
@@ -51,7 +71,12 @@
       "url": "https://www.youtube.com/watch?v=kJi01KYz2VY",
       "sourceName": "藍波口琴教室",
       "platform": "YouTube",
-      "publishedAt": "2026-07-23T04:00:29Z"
+      "publishedAt": "2026-07-23T04:00:29Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/e08af99bb48bf227290a.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-ab36a51be77c89c63a5d868b",
@@ -60,7 +85,12 @@
       "url": "https://www.youtube.com/watch?v=W0yCOUvp2Fo",
       "sourceName": "藍波口琴教室",
       "platform": "YouTube",
-      "publishedAt": "2026-07-21T04:00:01Z"
+      "publishedAt": "2026-07-21T04:00:01Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/55bd41aa9c2b3edd3ad7.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-3f1dc034d688c877bccc2727",
@@ -69,7 +99,12 @@
       "url": "https://www.facebook.com/reel/1211105648759100/",
       "sourceName": "藍波口琴教室",
       "platform": "Facebook",
-      "publishedAt": "2026-07-19T10:11:50Z"
+      "publishedAt": "2026-07-19T10:11:50Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9dfb6fbb589211169e2e.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-08310a4180a4181644fec793",
@@ -78,7 +113,12 @@
       "url": "https://www.youtube.com/watch?v=ZfqgLRcYPyI",
       "sourceName": "藍波口琴教室",
       "platform": "YouTube",
-      "publishedAt": "2026-07-18T04:00:15Z"
+      "publishedAt": "2026-07-18T04:00:15Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/e2458c1bb760e4cb50e4.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-94bb013ddead55f863b6869f",
@@ -87,7 +127,12 @@
       "url": "https://www.facebook.com/reel/920526014426834/",
       "sourceName": "藍波口琴教室",
       "platform": "Facebook",
-      "publishedAt": "2026-07-17T04:06:20Z"
+      "publishedAt": "2026-07-17T04:06:20Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/8ce93772edae36569db8.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-07f76778ecbd96c9e516c8ff",
@@ -96,7 +141,12 @@
       "url": "https://www.youtube.com/watch?v=sTRNtD8S4eo",
       "sourceName": "藍波口琴教室",
       "platform": "YouTube",
-      "publishedAt": "2026-07-16T04:00:26Z"
+      "publishedAt": "2026-07-16T04:00:26Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a000a2d6995208c062b4.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-b18ae72f5ec9e5c34e540a07",
@@ -105,7 +155,12 @@
       "url": "https://www.facebook.com/reel/1766146941412902/",
       "sourceName": "藍波口琴教室",
       "platform": "Facebook",
-      "publishedAt": "2026-07-15T11:14:22Z"
+      "publishedAt": "2026-07-15T11:14:22Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d7e68a7301cef16af3f8.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-9c9d3c9ead9e6d94578519c3",
@@ -114,7 +169,12 @@
       "url": "https://www.youtube.com/watch?v=WXo5YpIUl4Y",
       "sourceName": "藍波口琴教室",
       "platform": "YouTube",
-      "publishedAt": "2026-07-14T10:00:37Z"
+      "publishedAt": "2026-07-14T10:00:37Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ab37a468169c75639565.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-1f75b718feef74e00da5196f",
@@ -123,7 +183,12 @@
       "url": "https://www.youtube.com/watch?v=40z0aqaTbz4",
       "sourceName": "藍波口琴教室",
       "platform": "YouTube",
-      "publishedAt": "2026-07-12T04:00:16Z"
+      "publishedAt": "2026-07-12T04:00:16Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/593b2b03f7da883bf54d.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-573908e8da581941abf38406",
@@ -132,7 +197,12 @@
       "url": "https://www.youtube.com/watch?v=98PNZXIdy6k",
       "sourceName": "藍波口琴教室",
       "platform": "YouTube",
-      "publishedAt": "2026-07-10T04:00:39Z"
+      "publishedAt": "2026-07-10T04:00:39Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f3882feb348a86264d4c.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-5db2bee85111de1f18744999",
@@ -141,7 +211,12 @@
       "url": "https://www.youtube.com/watch?v=zpIpRGlFMYA",
       "sourceName": "藍波口琴教室",
       "platform": "YouTube",
-      "publishedAt": "2026-07-08T10:00:23Z"
+      "publishedAt": "2026-07-08T10:00:23Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a38bce3b3d4595aa1fad.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-e1221e953bd808f464ed8391",
@@ -150,7 +225,12 @@
       "url": "https://www.youtube.com/watch?v=UHDbNG8miOI",
       "sourceName": "藍波口琴教室",
       "platform": "YouTube",
-      "publishedAt": "2026-07-04T10:00:16Z"
+      "publishedAt": "2026-07-04T10:00:16Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/35e686c42ad998de7e64.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-3b4df1fb13e5c215eaf2375b",
@@ -159,7 +239,12 @@
       "url": "https://www.youtube.com/watch?v=aWLIXhacSq8",
       "sourceName": "藍波口琴教室",
       "platform": "YouTube",
-      "publishedAt": "2026-07-02T04:00:25Z"
+      "publishedAt": "2026-07-02T04:00:25Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/30b1c5ae79acd26a3cb3.webp",
+        "width": 800,
+        "height": 450
+      }
     }
   ]
 }

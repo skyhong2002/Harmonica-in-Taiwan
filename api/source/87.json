@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 87,
     "slug": "87",
@@ -15,7 +15,12 @@
       "url": "https://www.facebook.com/permalink.php?id=100057424090624&story_fbid=pfbid02DTU3TB23GwmpJmxkdKBFPNUhzqxA2LjzpvjbEeXL3yo2LG9UTzZyZuuv4upWZLUfl",
       "sourceName": "桃園玩口琴",
       "platform": "Facebook",
-      "publishedAt": "2026-07-16T05:55:29Z"
+      "publishedAt": "2026-07-16T05:55:29Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6fd862d076f3f8d60af8.webp",
+        "width": 500,
+        "height": 261
+      }
     },
     {
       "id": "post-bb51f37c07b1b32c57cd940d",
@@ -24,7 +29,12 @@
       "url": "https://www.facebook.com/reel/1255628316528178/",
       "sourceName": "桃園玩口琴",
       "platform": "Facebook",
-      "publishedAt": "2026-07-13T11:57:49Z"
+      "publishedAt": "2026-07-13T11:57:49Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/53cb6a59d49f6d78169f.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-36e4575b99d08f04b2946524",
@@ -33,7 +43,12 @@
       "url": "https://www.facebook.com/reel/1029014089999205/",
       "sourceName": "桃園玩口琴",
       "platform": "Facebook",
-      "publishedAt": "2026-07-11T15:58:56Z"
+      "publishedAt": "2026-07-11T15:58:56Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/254c7f772845a76f67cd.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-8c137bec0283ccb0ab25ee41",
@@ -42,7 +57,12 @@
       "url": "https://www.facebook.com/reel/1647232363696384/",
       "sourceName": "桃園玩口琴",
       "platform": "Facebook",
-      "publishedAt": "2026-07-11T11:04:43Z"
+      "publishedAt": "2026-07-11T11:04:43Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1486f84cdb2777f9fbac.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-4a95d2e6773bbf10abe9c62c",
@@ -51,7 +71,12 @@
       "url": "https://www.facebook.com/reel/1016843197874754/",
       "sourceName": "桃園玩口琴",
       "platform": "Facebook",
-      "publishedAt": "2026-07-11T10:10:51Z"
+      "publishedAt": "2026-07-11T10:10:51Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ca5d77985c3095d2611d.webp",
+        "width": 800,
+        "height": 450
+      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 78,
     "slug": "78",
@@ -15,7 +15,12 @@
       "url": "https://www.youtube.com/watch?v=OE3YXwl-5mE",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "YouTube",
-      "publishedAt": "2026-07-29T08:13:45Z"
+      "publishedAt": "2026-07-29T08:13:45Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6c1fe02a190630e2081c.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-d369fd213cbc931ef00528c0",
@@ -24,7 +29,12 @@
       "url": "https://www.youtube.com/watch?v=5Q0pDHsXC7w",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "YouTube",
-      "publishedAt": "2026-07-29T08:13:27Z"
+      "publishedAt": "2026-07-29T08:13:27Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/0ec9be9be57bec6cd283.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-9cf34956663d6d994e3179e7",
@@ -33,7 +43,12 @@
       "url": "https://www.youtube.com/watch?v=7LnPhsyrMBA",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "YouTube",
-      "publishedAt": "2026-07-23T10:00:26Z"
+      "publishedAt": "2026-07-23T10:00:26Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1dcc9f9d9b163e304698.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-18318719830cf1e2d0c6f987",
@@ -42,7 +57,12 @@
       "url": "https://www.youtube.com/watch?v=NKApxqQu2RU",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "YouTube",
-      "publishedAt": "2026-07-23T03:37:37Z"
+      "publishedAt": "2026-07-23T03:37:37Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a75a6f4272cde2f71c83.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-ee8877a0a014d4cd4f24f76c",
@@ -51,7 +71,12 @@
       "url": "https://www.youtube.com/watch?v=e_1HMMxYEIM",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "YouTube",
-      "publishedAt": "2026-07-22T09:08:41Z"
+      "publishedAt": "2026-07-22T09:08:41Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1167c652cb0566a5a629.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-6f3f2411572b7d3f144f3450",
@@ -60,7 +85,12 @@
       "url": "https://www.youtube.com/watch?v=6UNW6Z479qw",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "YouTube",
-      "publishedAt": "2026-07-19T04:00:04Z"
+      "publishedAt": "2026-07-19T04:00:04Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/af8b99f8aae7b128da9b.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-8352d305c365e3f2b9292c92",
@@ -69,7 +99,12 @@
       "url": "https://www.youtube.com/watch?v=MkXVjvyn3Oc",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "YouTube",
-      "publishedAt": "2026-07-18T04:00:02Z"
+      "publishedAt": "2026-07-18T04:00:02Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/df0346fa967b0942d213.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-28a3c64af7b3b1b4146acae7",
@@ -78,7 +113,12 @@
       "url": "https://www.youtube.com/watch?v=yjlrmHnArT8",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "YouTube",
-      "publishedAt": "2026-07-16T10:00:33Z"
+      "publishedAt": "2026-07-16T10:00:33Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1ab9e052ebb1e9ad29b7.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-c2ede477345fb7591be2cf7d",
@@ -87,7 +127,12 @@
       "url": "https://www.youtube.com/watch?v=hTexvfassHE",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "YouTube",
-      "publishedAt": "2026-07-16T03:00:29Z"
+      "publishedAt": "2026-07-16T03:00:29Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c258ba75177ca6f437e8.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-f38b9dee34b2b5052afa5673",
@@ -96,7 +141,12 @@
       "url": "https://www.instagram.com/p/Da0OxTzDPUW/",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "Instagram",
-      "publishedAt": "2026-07-15T14:00:58Z"
+      "publishedAt": "2026-07-15T14:00:58Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2cc721a2da1893ba04b9.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-c7bfe2a8025e75b69f9f6ff7",
@@ -105,7 +155,12 @@
       "url": "https://www.youtube.com/watch?v=o3RvOM09Psk",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "YouTube",
-      "publishedAt": "2026-07-15T10:32:44Z"
+      "publishedAt": "2026-07-15T10:32:44Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f3bfcd07d5bc403b707c.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-40338f9929b85930175ecb5d",
@@ -114,7 +169,12 @@
       "url": "https://www.instagram.com/p/Daxp-GogYfE/",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "Instagram",
-      "publishedAt": "2026-07-14T14:00:30Z"
+      "publishedAt": "2026-07-14T14:00:30Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/35f6831933b82f3b437b.webp",
+        "width": 800,
+        "height": 800
+      }
     },
     {
       "id": "post-fb3f47284d8e76e59ece9277",
@@ -123,7 +183,12 @@
       "url": "https://www.instagram.com/p/DaiNQCOvkF7/",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "Instagram",
-      "publishedAt": "2026-07-08T14:00:09Z"
+      "publishedAt": "2026-07-08T14:00:09Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/0a4d7dfe4760dff08156.webp",
+        "width": 800,
+        "height": 1423
+      }
     },
     {
       "id": "post-43e421ff708528c6cc87b916",
@@ -132,7 +197,12 @@
       "url": "https://www.youtube.com/watch?v=16p021zt2fY",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "YouTube",
-      "publishedAt": "2026-07-08T09:00:22Z"
+      "publishedAt": "2026-07-08T09:00:22Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a6de875d70e79b5fc318.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-23a3127556bc4a8679ad3a98",
@@ -141,7 +211,12 @@
       "url": "https://www.youtube.com/watch?v=xMomNkWtS5I",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "YouTube",
-      "publishedAt": "2026-07-06T04:00:27Z"
+      "publishedAt": "2026-07-06T04:00:27Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/7bc8bf5cd97466921baa.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-45932046acdc447b338b4ccc",
@@ -150,7 +225,12 @@
       "url": "https://www.instagram.com/p/Daae2SVjaOe/",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "Instagram",
-      "publishedAt": "2026-07-05T14:01:16Z"
+      "publishedAt": "2026-07-05T14:01:16Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/8924973a2da446fc0444.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-bbe99a9c47055593846ebce4",
@@ -159,7 +239,12 @@
       "url": "https://www.facebook.com/weiwuyingcenterforthearts/posts/pfbid02wCeJvCruQ8XDXR9BN1hh7hVMKCy5vepUjtVoPTq3m6NkA9aq1MKjgPwk3tNC1nLjl",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "Facebook",
-      "publishedAt": "2026-07-05T09:59:03Z"
+      "publishedAt": "2026-07-05T09:59:03Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/971a3db37a5f8ed946b8.webp",
+        "width": 575,
+        "height": 590
+      }
     },
     {
       "id": "post-8474accba9e08156d5d4e502",
@@ -168,7 +253,12 @@
       "url": "https://www.facebook.com/weiwuyingcenterforthearts/posts/pfbid021ndjuQH1zA4ZrZpRPWAZYDj2CN11RDQaZ7rinWjWyNxPxQtdSMhxQY36LTmYNMVl",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "Facebook",
-      "publishedAt": "2026-07-05T02:59:03Z"
+      "publishedAt": "2026-07-05T02:59:03Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c8b1b099b0fa890c7d39.webp",
+        "width": 500,
+        "height": 261
+      }
     },
     {
       "id": "post-4ed3a6709af60fdba87a1914",
@@ -177,7 +267,12 @@
       "url": "https://www.facebook.com/weiwuyingcenterforthearts/posts/pfbid09vMt8uXwF1hUNcog3sPp9rMbPYVwTt5AqhvqsDoPo2KPZXm691AhkPbtESdt1wqEl",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "Facebook",
-      "publishedAt": "2026-07-04T09:59:04Z"
+      "publishedAt": "2026-07-04T09:59:04Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2e37cd559d7030b1b596.webp",
+        "width": 590,
+        "height": 393
+      }
     },
     {
       "id": "post-29d70a15f19c1a638b6ff572",
@@ -186,7 +281,12 @@
       "url": "https://www.instagram.com/p/DaWgvCQDx7W/",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "Instagram",
-      "publishedAt": "2026-07-04T01:00:06Z"
+      "publishedAt": "2026-07-04T01:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2f5b06bd63fbe08fc5fe.webp",
+        "width": 800,
+        "height": 534
+      }
     },
     {
       "id": "post-1325a21da9ecac6c2c483be4",
@@ -195,7 +295,12 @@
       "url": "https://www.instagram.com/p/DaUQj52iNvK/",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "Instagram",
-      "publishedAt": "2026-07-03T04:00:32Z"
+      "publishedAt": "2026-07-03T04:00:32Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/38af39d48893c20bf531.webp",
+        "width": 800,
+        "height": 800
+      }
     },
     {
       "id": "post-c2ebd1007a39f3e32f1e0e35",
@@ -204,7 +309,12 @@
       "url": "https://www.instagram.com/p/DaSwatKDwBl/",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "Instagram",
-      "publishedAt": "2026-07-02T14:01:01Z"
+      "publishedAt": "2026-07-02T14:01:01Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/66f9904ff36bd016593d.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-a24aedff5fe1d55e6246cb50",
@@ -213,7 +323,12 @@
       "url": "https://www.instagram.com/p/DaQLtYaAasS/",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "Instagram",
-      "publishedAt": "2026-07-01T14:05:17Z"
+      "publishedAt": "2026-07-01T14:05:17Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/49af08e832ec54721903.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-8335a6de8e81e33d4834c81f",
@@ -222,7 +337,12 @@
       "url": "https://www.youtube.com/watch?v=OpzdPcGV40g",
       "sourceName": "衛武營國家藝術文化中心",
       "platform": "YouTube",
-      "publishedAt": "2026-07-01T08:59:00Z"
+      "publishedAt": "2026-07-01T08:59:00Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/38cf6ada69ee91e3e647.webp",
+        "width": 800,
+        "height": 450
+      }
     }
   ]
 }

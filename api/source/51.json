@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 51,
     "slug": "sharene-tang",
@@ -15,7 +15,12 @@
       "url": "https://www.instagram.com/p/Dbac4-uJ358/",
       "sourceName": "唐雪婷 Sharene Tang",
       "platform": "Instagram",
-      "publishedAt": "2026-07-30T10:16:50Z"
+      "publishedAt": "2026-07-30T10:16:50Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a00c25c35ee995ecb03e.webp",
+        "width": 800,
+        "height": 600
+      }
     },
     {
       "id": "post-a66a1d532f3a9496cdfceb91",
@@ -24,7 +29,12 @@
       "url": "https://www.facebook.com/reel/2553493031770662/",
       "sourceName": "唐雪婷 Sharene Tang",
       "platform": "Facebook",
-      "publishedAt": "2026-07-29T05:17:49Z"
+      "publishedAt": "2026-07-29T05:17:49Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/0e9f76dcd80f32ab9289.webp",
+        "width": 540,
+        "height": 960
+      }
     },
     {
       "id": "post-bd160687bd080e9ccd136d7d",
@@ -33,7 +43,12 @@
       "url": "https://www.instagram.com/p/DbI7GhVT4wO/",
       "sourceName": "唐雪婷 Sharene Tang",
       "platform": "Instagram",
-      "publishedAt": "2026-07-23T15:08:36Z"
+      "publishedAt": "2026-07-23T15:08:36Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/eb2b4045c92af5135fe0.webp",
+        "width": 800,
+        "height": 600
+      }
     },
     {
       "id": "post-0df0c911ae153a92414dd70e",
@@ -42,7 +57,12 @@
       "url": "https://www.instagram.com/p/DbEyCBkk-7b/",
       "sourceName": "唐雪婷 Sharene Tang",
       "platform": "Instagram",
-      "publishedAt": "2026-07-22T00:16:31Z"
+      "publishedAt": "2026-07-22T00:16:31Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/bc3a5eef5022385b1005.webp",
+        "width": 800,
+        "height": 1067
+      }
     },
     {
       "id": "post-bbc51fdf2eb0809e39cf4ec7",
@@ -51,7 +71,12 @@
       "url": "https://www.facebook.com/sharenetang.fresco/posts/pfbid02ary9UomJVzu3mqxrmUqdFzjLVkM2JjXQEjDeGUdnKoqDNaBZNSwiS1N7wvdUZukol",
       "sourceName": "唐雪婷 Sharene Tang",
       "platform": "Facebook",
-      "publishedAt": "2026-07-21T23:30:56Z"
+      "publishedAt": "2026-07-21T23:30:56Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/860ade2e299b3793871d.webp",
+        "width": 590,
+        "height": 295
+      }
     }
   ]
 }

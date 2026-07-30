@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T21:27:55.973547Z",
+  "generatedAt": "2026-07-30T22:10:14.714309Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -15,7 +15,12 @@
       "url": "https://www.facebook.com/filipjersmusic/posts/pfbid0SbeY8E3vqZemjmAzuasBXquBQgTnRgL3A6bUmeAKApd1NtwqvzsRwSNvxnuifmTwl",
       "sourceName": "Filip Jers",
       "platform": "Facebook",
-      "publishedAt": "2026-07-28T18:17:28Z"
+      "publishedAt": "2026-07-28T18:17:28Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1f507ce05463f9eb88fb.webp",
+        "width": 590,
+        "height": 443
+      }
     },
     {
       "id": "post-a02f71ac3a578479faa13d07",
@@ -24,7 +29,12 @@
       "url": "https://www.facebook.com/filipjersmusic/posts/pfbid02uLYERrW9LjfEWPTWa7uboBVR3Fs1UsraQa9sRZCdY7Wnwrs8rjupuHqsCyua9f2ul",
       "sourceName": "Filip Jers",
       "platform": "Facebook",
-      "publishedAt": "2026-07-26T15:46:59Z"
+      "publishedAt": "2026-07-26T15:46:59Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/243e2d23767dec83b8b5.webp",
+        "width": 720,
+        "height": 540
+      }
     },
     {
       "id": "post-a6d43032693b4a7ef11e6742",
@@ -33,7 +43,12 @@
       "url": "https://www.facebook.com/reel/1730675098286940/",
       "sourceName": "Filip Jers",
       "platform": "Facebook",
-      "publishedAt": "2026-07-23T13:51:42Z"
+      "publishedAt": "2026-07-23T13:51:42Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9ee4baa86b87dae81277.webp",
+        "width": 540,
+        "height": 960
+      }
     },
     {
       "id": "post-52efa44dd6fc53ed58602279",
@@ -42,7 +57,12 @@
       "url": "https://www.facebook.com/reel/2075035770076799/",
       "sourceName": "Filip Jers",
       "platform": "Facebook",
-      "publishedAt": "2026-07-22T18:45:26Z"
+      "publishedAt": "2026-07-22T18:45:26Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/82eb0098b7fedabe7902.webp",
+        "width": 540,
+        "height": 960
+      }
     },
     {
       "id": "post-74a11ef40af9bc6baa991668",
@@ -51,7 +71,12 @@
       "url": "https://www.youtube.com/watch?v=RxltB4ycTCs",
       "sourceName": "Filip Jers",
       "platform": "YouTube",
-      "publishedAt": "2026-07-18T19:55:37Z"
+      "publishedAt": "2026-07-18T19:55:37Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/208ca4f4118fa08a72d0.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-5a84dce0362cda406d6a9add",
@@ -60,7 +85,12 @@
       "url": "https://www.instagram.com/p/Da3pBGhvyhg/",
       "sourceName": "Filip Jers",
       "platform": "Instagram",
-      "publishedAt": "2026-07-16T21:48:38Z"
+      "publishedAt": "2026-07-16T21:48:38Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1b247d0cff1c91c19ae3.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-7a0d1da1f280b4bdad0ad824",
@@ -69,7 +99,12 @@
       "url": "https://www.facebook.com/filipjersmusic/posts/pfbid0mRJjz34nuSKx3GpEzJETmXAntdCQLXpVNxfgbas4HAZ9kmFqh29y26usbwnJeSArl",
       "sourceName": "Filip Jers",
       "platform": "Facebook",
-      "publishedAt": "2026-07-15T11:29:07Z"
+      "publishedAt": "2026-07-15T11:29:07Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6b9ab82e88481bbec0c2.webp",
+        "width": 800,
+        "height": 534
+      }
     },
     {
       "id": "post-3289dee70a931e21d6ad008b",
@@ -78,7 +113,12 @@
       "url": "https://www.instagram.com/p/Daz9MjPs_ZI/",
       "sourceName": "Filip Jers",
       "platform": "Instagram",
-      "publishedAt": "2026-07-15T11:28:50Z"
+      "publishedAt": "2026-07-15T11:28:50Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/fa2fcfd9b7378f5124e5.webp",
+        "width": 800,
+        "height": 534
+      }
     },
     {
       "id": "post-228c56d0841f9a9c9eaa9d3b",
@@ -87,7 +127,12 @@
       "url": "https://www.youtube.com/watch?v=3P7rSrkoVlI",
       "sourceName": "Filip Jers",
       "platform": "YouTube",
-      "publishedAt": "2026-07-13T21:37:58Z"
+      "publishedAt": "2026-07-13T21:37:58Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/052f165dc425e24c4cf8.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-95ef5acc2c98699e2164a0fc",
@@ -96,7 +141,12 @@
       "url": "https://www.instagram.com/p/Dav15HmDE67/",
       "sourceName": "Filip Jers",
       "platform": "Instagram",
-      "publishedAt": "2026-07-13T21:06:11Z"
+      "publishedAt": "2026-07-13T21:06:11Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/edc602d66547f0b0ddce.webp",
+        "width": 800,
+        "height": 800
+      }
     },
     {
       "id": "post-d17946ac0da3e76610bb44ba",
@@ -105,7 +155,12 @@
       "url": "https://www.instagram.com/p/DajIVc9jL9l/",
       "sourceName": "Filip Jers",
       "platform": "Instagram",
-      "publishedAt": "2026-07-08T22:37:13Z"
+      "publishedAt": "2026-07-08T22:37:13Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/27b965cc510eaa47c38d.webp",
+        "width": 800,
+        "height": 1067
+      }
     },
     {
       "id": "post-9122a3cca8c372f3d2f55909",
@@ -114,7 +169,12 @@
       "url": "https://www.youtube.com/watch?v=XmEB3wxTmO0",
       "sourceName": "Filip Jers",
       "platform": "YouTube",
-      "publishedAt": "2026-07-05T17:11:51Z"
+      "publishedAt": "2026-07-05T17:11:51Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/5a51ad1e38663551eb35.webp",
+        "width": 800,
+        "height": 450
+      }
     },
     {
       "id": "post-0f4640bee4fd650f5622b379",
@@ -123,7 +183,12 @@
       "url": "https://www.instagram.com/p/DaX2viTDLB0/",
       "sourceName": "Filip Jers",
       "platform": "Instagram",
-      "publishedAt": "2026-07-04T13:31:52Z"
+      "publishedAt": "2026-07-04T13:31:52Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ffcc0b0172b331213848.webp",
+        "width": 800,
+        "height": 1067
+      }
     }
   ]
 }
