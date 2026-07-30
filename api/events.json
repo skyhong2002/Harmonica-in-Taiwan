@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 470,
+  "count": 471,
   "items": [
     {
       "title": "Judy’s Harmonica Ensemble 茱蒂口琴樂團｜【2026 蕉城口琴文化周 Day 3】 最後一天迎來最刺激的擂台賽！！😼😼 Judy 團長受邀擔任擂台賽評審，來自西班牙的半音階口琴大師 @antonioserranoa…",
@@ -24433,6 +24433,85 @@
         "公開活動"
       ],
       "key": "ig_howardlevyland:https://www.instagram.com/p/Dak1MKjDk0B/"
+    },
+    {
+      "title": "廖苡晴 Alysa Liao｜Alysa Liao 廖苡晴｜A. PIAZZOLLA – Adiós, Piazzolla (arr. Hyungjoon Kim 김형준) A. Piazzolla - Adiós, Piazzolla …",
+      "headline": "Alysa Liao 廖苡晴｜A. PIAZZOLLA – Adiós, Piazzolla (arr. Hyungjoon Kim 김형준)",
+      "display_title": "Alysa Liao 廖苡晴｜A. PIAZZOLLA – Adiós, Piazzolla (arr. Hyungjoon Kim 김형준)",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=a9tkUcHsnZ8",
+      "source_id": "yt_alysaliao",
+      "source": "廖苡晴 Alysa Liao",
+      "source_system_name": "廖苡晴",
+      "source_profile_url": "https://www.youtube.com/channel/UCviEv_QwbKGFXB6kwQ-hVXg",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-46",
+      "directory_entry_name": "廖苡晴",
+      "account": "https://www.youtube.com/channel/UCviEv_QwbKGFXB6kwQ-hVXg",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-07-09T14:00:20+00:00",
+      "posted_at_local": "2026-07-09 22:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-30T20:21:21.329826+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "影片"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴演奏影片，內容為世界口琴節得獎音樂會現場錄影，屬公開更新且與口琴相關。",
+      "text": "Alysa Liao 廖苡晴｜A. PIAZZOLLA – Adiós, Piazzolla (arr. Hyungjoon Kim 김형준)\nA. Piazzolla - Adiós, Piazzolla\n(arr. Hyungjoon Kim 김형준)\n• Adiós Nonino\n• Oblivion\n• Libertango\nHarmonica｜Alysa Liao 廖苡晴@alysaliao\nPiano｜Hedda Lu 呂函涓\nArtistic Guidance｜ Jongseong Park 박종성@jongseongpark\nInitial Coaching｜Chaoteng Chang 張晁滕@ChaotengChang\nAudio & Video Production｜Studio Andantino 小跳步攝影棚\nRecorded live at Twin Triumph\n111 Quintet World Harmonica Festival Award Concert\nMay 10, 2026｜台大藝文中心雅頌坊",
+      "images": [
+        "https://i.ytimg.com/vi/a9tkUcHsnZ8/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/a9tkUcHsnZ8/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/1eac8a6586facf247b99.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/mcB4H7yNpVUeU82LM-fbXY_KyLNIOZdqeJlvpZWiwst0LN2HRQHuw6EOE7S80XoQ1qWUvwNSkw=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/78e4ba4e9aca65d5dd82.webp",
+      "source_initials": "AL",
+      "categories": [
+        "posts-videos",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "學生社團"
+      ],
+      "key": "yt_alysaliao:a9tkUcHsnZ8"
     },
     {
       "title": "Indiara Sfair｜🔸 RECAP °2 of three amazing days full of music and great encounters in Berlin. Here are the next beautifu…",
