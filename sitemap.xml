@@ -61,7 +61,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/65-jong-seong-park/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/107-konstantin-reinfeld/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/79/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/142-howard-levy/</loc>
     <lastmod>2026-07-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -98,12 +116,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/54-cy-leo/</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/142-howard-levy/</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -175,12 +187,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/65-jong-seong-park/</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/105-stay-drunk-harmonica-ensemble/</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -194,12 +200,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/80/</loc>
-    <lastmod>2026-07-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/107-konstantin-reinfeld/</loc>
     <lastmod>2026-07-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

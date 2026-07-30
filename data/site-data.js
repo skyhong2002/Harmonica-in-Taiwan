@@ -2,6 +2,177 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-30",
   "entries": [
     {
+      "id": "watchlist-65",
+      "publicId": "65",
+      "name": "Jong-seong Park 朴鍾聲",
+      "nameEn": "Jong-seong Park",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "半音階/國際級演出",
+      "structuredSummary": "半音階/國際級演出 / 半音階 / 國際演出人員",
+      "summary": "韓國半音階口琴演奏家，活躍於國際舞台。",
+      "keywords": "Jong-seong Park 朴鍾聲 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.mnac.co.kr/jongseongpark"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonicapark/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jongseongpark_harmonicist/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/jongseongpark"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-30T08:37:17+00:00",
+      "latestUpdateLocal": "2026-07-30 16:37",
+      "latestUpdateSource": "Jong-seong Park 朴鍾聲",
+      "latestUpdateUrl": "https://www.instagram.com/stories/jongseongpark_harmonicist/3952549491983207040/",
+      "avatarUrl": "/assets/source-avatars/595074dfc1de3df28c65.webp",
+      "sourceInitials": "JSP",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "sourceSummary": "韓國半音階口琴演奏家，活躍於國際舞台。",
+      "sourceTagReason": "資料明確標註為「演奏者」與「個人」，且其專長與定位為「半音階/國際級演出」。",
+      "monitorSources": [
+        {
+          "id": "fb_harmonicapark",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonicapark",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_jongseongpark_harmonicist",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jongseongpark_harmonicist",
+          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jongseongpark_harmonicist",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jongseongpark_harmonicist",
+          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/jongseongpark_harmonicist/story/0"
+        },
+        {
+          "id": "yt_jongseongpark",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/jongseongpark",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-107",
+      "publicId": "107",
+      "name": "Konstantin Reinfeld",
+      "nameEn": "Konstantin Reinfeld",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "德國",
+      "region": "德國",
+      "cityOrFocus": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作",
+      "structuredSummary": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作 / 半音階/十孔 / 國際演出人員/製作人/教育者",
+      "summary": "德國的半音階與十孔國際演出人員、製作人與教育者，活動脈絡包含OPUS Klassik得獎、國際獨奏與製作與教育。",
+      "keywords": "Konstantin Reinfeld harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.konstantinreinfeld.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/konstantinreinfeldofficial"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/konstantin_reinfeld/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@KonstantinReinfeld"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-30T08:34:02+00:00",
+      "latestUpdateLocal": "2026-07-30 16:34",
+      "latestUpdateSource": "Konstantin Reinfeld",
+      "latestUpdateUrl": "https://www.instagram.com/stories/konstantin_reinfeld/3952547931387545024/",
+      "avatarUrl": "/assets/source-avatars/7f55bcace9d81e8ee2e4.webp",
+      "sourceInitials": "KR",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_konstantinreinfeldofficial",
+          "name": "Konstantin Reinfeld",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/konstantinreinfeldofficial",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_konstantin_reinfeld",
+          "name": "Konstantin Reinfeld",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "konstantin_reinfeld",
+          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_konstantin_reinfeld",
+          "name": "Konstantin Reinfeld",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "konstantin_reinfeld",
+          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/konstantin_reinfeld/story/0"
+        },
+        {
+          "id": "yt_konstantinreinfeld",
+          "name": "Konstantin Reinfeld",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@KonstantinReinfeld",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-79",
       "publicId": "79",
       "name": "國家兩廳院",
@@ -92,6 +263,91 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/ntcharts",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-142",
+      "publicId": "142",
+      "name": "Howard Levy",
+      "nameEn": "Howard Levy",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "美國",
+      "region": "美國",
+      "cityOrFocus": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興",
+      "structuredSummary": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興 / 半音階/十孔/鋼琴 / 國際演出人員/作曲者/教育者",
+      "summary": "美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。",
+      "keywords": "Howard Levy harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://levyland.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HowardLevyFanPage/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/howardlevyland/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-30T03:53:04+00:00",
+      "latestUpdateLocal": "2026-07-30 11:53",
+      "latestUpdateSource": "Howard Levy",
+      "latestUpdateUrl": "https://www.instagram.com/stories/howardlevyland/3952406437014473649/",
+      "avatarUrl": "/assets/source-avatars/fdb08c71103b5e8ceb5b.webp",
+      "sourceInitials": "HL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_howardlevyfanpage",
+          "name": "Howard Levy",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HowardLevyFanPage",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_howardlevyland",
+          "name": "Howard Levy",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "howardlevyland",
+          "profileUrl": "https://www.instagram.com/howardlevyland/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_howardlevyland",
+          "name": "Howard Levy",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "howardlevyland",
+          "profileUrl": "https://www.instagram.com/howardlevyland/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/howardlevyland/story/0"
+        },
+        {
+          "id": "yt_uc86aeg8s_npzmfuj_cyxw",
+          "name": "Howard Levy",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
           "feedUrl": ""
         }
       ]
@@ -559,91 +815,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@cyleoharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-142",
-      "publicId": "142",
-      "name": "Howard Levy",
-      "nameEn": "Howard Levy",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "美國",
-      "region": "美國",
-      "cityOrFocus": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興",
-      "structuredSummary": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興 / 半音階/十孔/鋼琴 / 國際演出人員/作曲者/教育者",
-      "summary": "美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。",
-      "keywords": "Howard Levy harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://levyland.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HowardLevyFanPage/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/howardlevyland/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-29T20:00:49+00:00",
-      "latestUpdateLocal": "2026-07-30 04:00",
-      "latestUpdateSource": "Howard Levy",
-      "latestUpdateUrl": "https://www.instagram.com/stories/howardlevyland/3952168745535359444/",
-      "avatarUrl": "/assets/source-avatars/fdb08c71103b5e8ceb5b.webp",
-      "sourceInitials": "HL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_howardlevyfanpage",
-          "name": "Howard Levy",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HowardLevyFanPage",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_howardlevyland",
-          "name": "Howard Levy",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "howardlevyland",
-          "profileUrl": "https://www.instagram.com/howardlevyland/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_howardlevyland",
-          "name": "Howard Levy",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "howardlevyland",
-          "profileUrl": "https://www.instagram.com/howardlevyland/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/howardlevyland/story/0"
-        },
-        {
-          "id": "yt_uc86aeg8s_npzmfuj_cyxw",
-          "name": "Howard Levy",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
           "feedUrl": ""
         }
       ]
@@ -1608,92 +1779,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-65",
-      "publicId": "65",
-      "name": "Jong-seong Park 朴鍾聲",
-      "nameEn": "Jong-seong Park",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "半音階/國際級演出",
-      "structuredSummary": "半音階/國際級演出 / 半音階 / 國際演出人員",
-      "summary": "韓國半音階口琴演奏家，活躍於國際舞台。",
-      "keywords": "Jong-seong Park 朴鍾聲 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.mnac.co.kr/jongseongpark"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonicapark/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jongseongpark_harmonicist/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/jongseongpark"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-29T14:34:36+00:00",
-      "latestUpdateLocal": "2026-07-29 22:34",
-      "latestUpdateSource": "Jong-seong Park 朴鍾聲",
-      "latestUpdateUrl": "https://www.instagram.com/stories/jongseongpark_harmonicist/3952004576627128540/",
-      "avatarUrl": "/assets/source-avatars/595074dfc1de3df28c65.webp",
-      "sourceInitials": "JSP",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "sourceSummary": "韓國半音階口琴演奏家，活躍於國際舞台。",
-      "sourceTagReason": "資料明確標註為「演奏者」與「個人」，且其專長與定位為「半音階/國際級演出」。",
-      "monitorSources": [
-        {
-          "id": "fb_harmonicapark",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonicapark",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_jongseongpark_harmonicist",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jongseongpark_harmonicist",
-          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jongseongpark_harmonicist",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jongseongpark_harmonicist",
-          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jongseongpark_harmonicist/story/0"
-        },
-        {
-          "id": "yt_jongseongpark",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/jongseongpark",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-105",
       "publicId": "105",
       "name": "Stay Drunk 口琴樂團",
@@ -1939,91 +2024,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-107",
-      "publicId": "107",
-      "name": "Konstantin Reinfeld",
-      "nameEn": "Konstantin Reinfeld",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "德國",
-      "region": "德國",
-      "cityOrFocus": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作",
-      "structuredSummary": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作 / 半音階/十孔 / 國際演出人員/製作人/教育者",
-      "summary": "德國的半音階與十孔國際演出人員、製作人與教育者，活動脈絡包含OPUS Klassik得獎、國際獨奏與製作與教育。",
-      "keywords": "Konstantin Reinfeld harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.konstantinreinfeld.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/konstantinreinfeldofficial"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/konstantin_reinfeld/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@KonstantinReinfeld"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-29T13:29:36+00:00",
-      "latestUpdateLocal": "2026-07-29 21:29",
-      "latestUpdateSource": "Konstantin Reinfeld",
-      "latestUpdateUrl": "https://www.instagram.com/stories/konstantin_reinfeld/3951971835059111432/",
-      "avatarUrl": "/assets/source-avatars/7f55bcace9d81e8ee2e4.webp",
-      "sourceInitials": "KR",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_konstantinreinfeldofficial",
-          "name": "Konstantin Reinfeld",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/konstantinreinfeldofficial",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_konstantin_reinfeld",
-          "name": "Konstantin Reinfeld",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "konstantin_reinfeld",
-          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_konstantin_reinfeld",
-          "name": "Konstantin Reinfeld",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "konstantin_reinfeld",
-          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/konstantin_reinfeld/story/0"
-        },
-        {
-          "id": "yt_konstantinreinfeld",
-          "name": "Konstantin Reinfeld",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@KonstantinReinfeld",
           "feedUrl": ""
         }
       ]
