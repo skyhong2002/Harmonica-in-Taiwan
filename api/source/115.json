@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T03:05:08.968694Z",
+  "generatedAt": "2026-07-31T04:11:03.966474Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/115-filip-jers/"
   },
   "items": [
+    {
+      "id": "post-10ad78e722a0605bb7540b83",
+      "title": "Is it too late to learn chromatic harmonica?",
+      "excerpt": "Is it too late to learn chromatic harmonica? Should I start with chromatic or diatonic harmonica? If I play diatonic, is it too late to start chromatic? Or vice versa? I get these questions often and talk about them in this short vlog. --- Join my Patreon community for exclusive…",
+      "url": "https://www.youtube.com/watch?v=zdTWCZJ1Z_8",
+      "sourceName": "Filip Jers",
+      "platform": "YouTube",
+      "publishedAt": "2026-07-30T11:29:21Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/97da4fc371c160f8053c.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-d9138c16ad244252ed065128",
       "title": "Ojojoj tack Dalhalla, publiken och Kalle Moraeus Banna Sona Band för en fantastisk konsertupplevelse i söndags! Vilken …",

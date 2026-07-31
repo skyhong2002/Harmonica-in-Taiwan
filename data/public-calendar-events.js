@@ -1,9 +1,9 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-07-31T11:05:10+08:00",
+  "generatedAt": "2026-07-31T12:11:05+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 9,
+  "count": 8,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -20,42 +20,6 @@ window.publicCalendarEvents = {
     }
   },
   "events": [
-    {
-      "eventName": "口琴入門推廣講座",
-      "title": "口琴入門推廣講座",
-      "start": "2026-07-11T14:00:00+08:00",
-      "end": "2026-07-11T16:00:00+08:00",
-      "allDay": false,
-      "venue": "竹東親愛愛樂音樂巷-音樂廳（新竹縣竹東鎮東林路194巷8號）",
-      "city": "新竹縣竹東鎮",
-      "location": "竹東親愛愛樂音樂巷-音樂廳（新竹縣竹東鎮東林路194巷8號）",
-      "details": "臺灣口琴音樂節前導活動；天狼星口琴樂團蔡明憲老師指導，免費參與並提供複音口琴。",
-      "calendarType": "taiwan_physical",
-      "timezone": "Asia/Taipei",
-      "evidenceUrl": "https://www.facebook.com/twharmonica/posts/pfbid07CLAcEbSrP9wrHocyXC7ZaUS2ERQAN75Sh3fPjM835wmjAokvbtWrRP7Wkh5mdGal",
-      "confidence": 1.0,
-      "calendarReview": {
-        "include": true,
-        "country": "臺灣",
-        "eventMode": "taiwan_physical",
-        "timezone": "Asia/Taipei",
-        "candidateDateMatches": true,
-        "eventName": "口琴入門推廣講座",
-        "venue": "竹東親愛愛樂音樂巷-音樂廳（新竹縣竹東鎮東林路194巷8號）",
-        "city": "新竹縣竹東鎮",
-        "details": "臺灣口琴音樂節前導活動；天狼星口琴樂團蔡明憲老師指導，免費參與並提供複音口琴。",
-        "reason": "manual override from public calendar overrides CSV",
-        "confidence": 1.0
-      },
-      "id": "8e6bb6caf65dafbb",
-      "source": "臺灣口琴音樂節 THMF",
-      "platform": "facebook",
-      "postedAt": "2026-07-01 12:07",
-      "images": [
-        "https://scontent.ffar2-1.fna.fbcdn.net/v/t39.30808-6/735317499_1034756378931421_5947744582797300780_n.jpg?stp=dst-jpg_tt6&cstp=mx1100x492&ctp=s1100x492&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=R-xoDCbeJIkQ7kNvwFAiL1y&_nc_oc=Adohuo57pievfv5k3Q1Xu4HhbwMCs2nmAXzd2wdC2gZOrelXKOTMNujjshWpcieeJ7Q&_nc_zt=23&_nc_ht=scontent.ffar2-1.fna&_nc_gid=aJVyHrXM02x2EhXODrv9kg&_nc_ss=72289&oh=00_AQDFvsyVbBbDLvMD9cnKGUMMQuVHZcsNC0SvUy6BeLZWmA&oe=6A4B0954"
-      ],
-      "image_url": "/assets/feed-images/ab515c44a5d476022d4a.webp"
-    },
     {
       "id": "c635fbb4c2d1e633",
       "title": "何家健口琴四重奏：巴西計劃",
