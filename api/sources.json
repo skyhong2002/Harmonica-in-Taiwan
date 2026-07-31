@@ -276,6 +276,86 @@
       ]
     },
     {
+      "id": "watchlist-108",
+      "publicId": "108",
+      "name": "Rodrigo Eberienos",
+      "nameEn": "Rodrigo Eberienos",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "巴西",
+      "region": "巴西",
+      "cityOrFocus": "巴西職業口琴演奏/教學/錄音合作",
+      "structuredSummary": "巴西職業口琴演奏/教學/錄音合作 / 口琴 / 國際演出人員/教學者",
+      "summary": "巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。",
+      "keywords": "Rodrigo Eberienos harmonica SIHF",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/rodrigoeberienos/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/rodrigoeberienos/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@eberienos"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-31T15:03:28+00:00",
+      "latestUpdateLocal": "2026-07-31 23:03",
+      "latestUpdateSource": "Rodrigo Eberienos",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbdhLF3vqii/",
+      "avatarUrl": "/assets/source-avatars/f38795bdbafd353ffb27.webp",
+      "sourceInitials": "RE",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_rodrigoeberienos",
+          "name": "Rodrigo Eberienos",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/rodrigoeberienos",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_rodrigoeberienos",
+          "name": "Rodrigo Eberienos",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "rodrigoeberienos",
+          "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_rodrigoeberienos",
+          "name": "Rodrigo Eberienos",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "rodrigoeberienos",
+          "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/rodrigoeberienos/story/0"
+        },
+        {
+          "id": "yt_eberienos",
+          "name": "Rodrigo Eberienos",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@eberienos",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-189",
       "publicId": "189",
       "name": "逢甲口琴社",
@@ -529,6 +609,88 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@hokahkean1999",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-165",
+      "publicId": "165",
+      "name": "馬來西亞口琴節",
+      "nameEn": "Malaysia Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "比賽/資訊入口",
+      "country": "馬來西亞",
+      "region": "馬來西亞/吉隆坡",
+      "cityOrFocus": "馬來西亞口琴節/比賽/學生與樂團",
+      "structuredSummary": "馬來西亞口琴節/比賽/學生與樂團 / 口琴/重奏/合奏 / 國際活動來源",
+      "summary": "馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。",
+      "keywords": "Malaysia Harmonica Festival MYHF Malaysia Harmonica Competition",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/malaysiaharmonicafestival/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/malaysia_harmonica_festival/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@malaysiaharmonicafestival5523"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-31T13:15:53+00:00",
+      "latestUpdateLocal": "2026-07-31 21:15",
+      "latestUpdateSource": "馬來西亞口琴節",
+      "latestUpdateUrl": "https://www.instagram.com/stories/malaysia_harmonica_festival/3953414484316644937/",
+      "avatarUrl": "/assets/source-avatars/fb28191c688a6cbff617.webp",
+      "sourceInitials": "馬來",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "比賽",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_malaysiaharmonicafestival",
+          "name": "馬來西亞口琴節",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/malaysiaharmonicafestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_malaysia_harmonica_festival",
+          "name": "馬來西亞口琴節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "malaysia_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_malaysia_harmonica_festival",
+          "name": "馬來西亞口琴節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "malaysia_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/malaysia_harmonica_festival/story/0"
+        },
+        {
+          "id": "yt_malaysiaharmonicafestival5523",
+          "name": "馬來西亞口琴節",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@malaysiaharmonicafestival5523",
           "feedUrl": ""
         }
       ]
@@ -1403,6 +1565,68 @@
       ]
     },
     {
+      "id": "watchlist-88",
+      "publicId": "88",
+      "name": "藍波口琴教室",
+      "nameEn": "Bluebo Harmonica",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "教學工作室",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴教學/課程/學習資源",
+      "structuredSummary": "口琴教學/課程/學習資源 / 口琴 / 教學/課程來源",
+      "summary": "臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。",
+      "keywords": "藍波口琴教室 藍波口琴網 口琴 教學",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.blueboclass.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/happyharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@lamberharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-31T11:00:30+00:00",
+      "latestUpdateLocal": "2026-07-31 19:00",
+      "latestUpdateSource": "藍波口琴教室",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=ZKMhU0ZrCLk",
+      "avatarUrl": "/assets/source-avatars/8f1ae2810f807d60d81f.webp",
+      "sourceInitials": "藍波",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "課程"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_happyharmonica",
+          "name": "藍波口琴教室",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/happyharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_lamberharmonica",
+          "name": "藍波口琴教室",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@lamberharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-5",
       "publicId": "5",
       "name": "胖擊口琴樂團",
@@ -1842,86 +2066,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@filipjersmusic",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-108",
-      "publicId": "108",
-      "name": "Rodrigo Eberienos",
-      "nameEn": "Rodrigo Eberienos",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "巴西",
-      "region": "巴西",
-      "cityOrFocus": "巴西職業口琴演奏/教學/錄音合作",
-      "structuredSummary": "巴西職業口琴演奏/教學/錄音合作 / 口琴 / 國際演出人員/教學者",
-      "summary": "巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。",
-      "keywords": "Rodrigo Eberienos harmonica SIHF",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/rodrigoeberienos/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/rodrigoeberienos/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@eberienos"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-31T06:16:38+00:00",
-      "latestUpdateLocal": "2026-07-31 14:16",
-      "latestUpdateSource": "Rodrigo Eberienos",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbcmZlHIIY2/",
-      "avatarUrl": "/assets/source-avatars/f38795bdbafd353ffb27.webp",
-      "sourceInitials": "RE",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_rodrigoeberienos",
-          "name": "Rodrigo Eberienos",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/rodrigoeberienos",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_rodrigoeberienos",
-          "name": "Rodrigo Eberienos",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "rodrigoeberienos",
-          "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_rodrigoeberienos",
-          "name": "Rodrigo Eberienos",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "rodrigoeberienos",
-          "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/rodrigoeberienos/story/0"
-        },
-        {
-          "id": "yt_eberienos",
-          "name": "Rodrigo Eberienos",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@eberienos",
           "feedUrl": ""
         }
       ]
@@ -2551,88 +2695,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/ntcharts",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-165",
-      "publicId": "165",
-      "name": "馬來西亞口琴節",
-      "nameEn": "Malaysia Harmonica Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "比賽/資訊入口",
-      "country": "馬來西亞",
-      "region": "馬來西亞/吉隆坡",
-      "cityOrFocus": "馬來西亞口琴節/比賽/學生與樂團",
-      "structuredSummary": "馬來西亞口琴節/比賽/學生與樂團 / 口琴/重奏/合奏 / 國際活動來源",
-      "summary": "馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。",
-      "keywords": "Malaysia Harmonica Festival MYHF Malaysia Harmonica Competition",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/malaysiaharmonicafestival/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/malaysia_harmonica_festival/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@malaysiaharmonicafestival5523"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-31T03:15:15+00:00",
-      "latestUpdateLocal": "2026-07-31 11:15",
-      "latestUpdateSource": "馬來西亞口琴節",
-      "latestUpdateUrl": "https://www.instagram.com/stories/malaysia_harmonica_festival/3953112177607551098/",
-      "avatarUrl": "/assets/source-avatars/fb28191c688a6cbff617.webp",
-      "sourceInitials": "馬來",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "比賽",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_malaysiaharmonicafestival",
-          "name": "馬來西亞口琴節",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/malaysiaharmonicafestival",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_malaysia_harmonica_festival",
-          "name": "馬來西亞口琴節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "malaysia_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_malaysia_harmonica_festival",
-          "name": "馬來西亞口琴節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "malaysia_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/malaysia_harmonica_festival/story/0"
-        },
-        {
-          "id": "yt_malaysiaharmonicafestival5523",
-          "name": "馬來西亞口琴節",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@malaysiaharmonicafestival5523",
           "feedUrl": ""
         }
       ]
@@ -5439,68 +5501,6 @@
           "type": "rsshub_instagram_profile",
           "username": "yenmingchen",
           "profileUrl": "https://www.instagram.com/yenmingchen/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-88",
-      "publicId": "88",
-      "name": "藍波口琴教室",
-      "nameEn": "Bluebo Harmonica",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "教學工作室",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴教學/課程/學習資源",
-      "structuredSummary": "口琴教學/課程/學習資源 / 口琴 / 教學/課程來源",
-      "summary": "臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。",
-      "keywords": "藍波口琴教室 藍波口琴網 口琴 教學",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.blueboclass.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/happyharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@lamberharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-29T10:00:33+00:00",
-      "latestUpdateLocal": "2026-07-29 18:00",
-      "latestUpdateSource": "藍波口琴教室",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=SYOqzY4FRR4",
-      "avatarUrl": "/assets/source-avatars/8f1ae2810f807d60d81f.webp",
-      "sourceInitials": "藍波",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "課程"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_happyharmonica",
-          "name": "藍波口琴教室",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/happyharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_lamberharmonica",
-          "name": "藍波口琴教室",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@lamberharmonica",
           "feedUrl": ""
         }
       ]
