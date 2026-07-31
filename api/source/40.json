@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-30T23:49:47.703613Z",
+  "generatedAt": "2026-07-31T00:54:20.166221Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -214,20 +214,6 @@
       "publishedAt": "2026-07-03T00:30:06Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/6fd295ff141320f6fa95.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-91463cea21d068256ece7db9",
-      "title": "【就是吹口琴Just Play Harmonica 】｜詹雅雯 – 人生公路｜複音口琴Tremolo Harmonica 演奏版本《A#調》",
-      "excerpt": "【就是吹口琴Just Play Harmonica 】｜詹雅雯 – 人生公路｜複音口琴Tremolo Harmonica 演奏版本《A#調》 人生公路 詹雅雯 作曲 詹雅雯 作詞 詹雅雯 原唱 複音口琴演奏版本《A#調》",
-      "url": "https://www.youtube.com/watch?v=TXUBOQ71iYk",
-      "sourceName": "陳鴻儀",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-01T00:00:06Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/a16cfb57dfe7551ecb88.webp",
         "width": 800,
         "height": 450
       }
