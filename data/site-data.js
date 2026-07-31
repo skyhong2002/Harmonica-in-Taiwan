@@ -2,6 +2,102 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-07-31",
   "entries": [
     {
+      "id": "watchlist-5",
+      "publicId": "5",
+      "name": "胖擊口琴樂團",
+      "nameEn": "Punch Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/公演/年輕團體",
+      "structuredSummary": "重奏/公演/年輕團體 / 口琴重奏/合奏 / 演出團體",
+      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。",
+      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/punch.harp"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Punch.Harp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/punch.harp/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@punchharp"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@punch.harp"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-31T03:54:45+00:00",
+      "latestUpdateLocal": "2026-07-31 11:54",
+      "latestUpdateSource": "胖擊口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/stories/punch.harp/3953132071023486403/",
+      "avatarUrl": "/assets/source-avatars/2ce966770b842112a5bc.webp",
+      "sourceInitials": "胖擊",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Punch.Harp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "punch.harp",
+          "profileUrl": "https://www.instagram.com/punch.harp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "punch.harp",
+          "profileUrl": "https://www.instagram.com/punch.harp/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/punch.harp/story/0"
+        },
+        {
+          "id": "threads_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "threads",
+          "type": "rss",
+          "username": "punch.harp",
+          "profileUrl": "https://www.threads.net/@punch.harp",
+          "feedUrl": "https://rss.observe.tw/threads/punch.harp"
+        },
+        {
+          "id": "yt_punchharp",
+          "name": "胖擊口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@punchharp",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-63",
       "publicId": "63",
       "name": "F.I.H. JAPAN ハーモニカコンテスト",
@@ -1723,102 +1819,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "aidensoon",
           "profileUrl": "https://www.instagram.com/aidensoon/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-5",
-      "publicId": "5",
-      "name": "胖擊口琴樂團",
-      "nameEn": "Punch Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/公演/年輕團體",
-      "structuredSummary": "重奏/公演/年輕團體 / 口琴重奏/合奏 / 演出團體",
-      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。",
-      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/punch.harp"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Punch.Harp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/punch.harp/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@punchharp"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@punch.harp"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-30T14:48:17+00:00",
-      "latestUpdateLocal": "2026-07-30 22:48",
-      "latestUpdateSource": "胖擊口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/punch.harp/3952736220027524843/",
-      "avatarUrl": "/assets/source-avatars/2ce966770b842112a5bc.webp",
-      "sourceInitials": "胖擊",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Punch.Harp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "punch.harp",
-          "profileUrl": "https://www.instagram.com/punch.harp/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "punch.harp",
-          "profileUrl": "https://www.instagram.com/punch.harp/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/punch.harp/story/0"
-        },
-        {
-          "id": "threads_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "threads",
-          "type": "rss",
-          "username": "punch.harp",
-          "profileUrl": "https://www.threads.net/@punch.harp",
-          "feedUrl": "https://rss.observe.tw/threads/punch.harp"
-        },
-        {
-          "id": "yt_punchharp",
-          "name": "胖擊口琴樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@punchharp",
-          "feedUrl": ""
         }
       ]
     },
