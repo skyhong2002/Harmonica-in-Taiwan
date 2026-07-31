@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 452,
+  "count": 453,
   "items": [
     {
       "title": "F.I.H. JAPAN ハーモニカコンテスト｜Instagram story @moridaira_mi",
@@ -325,6 +325,85 @@
         "公開活動"
       ],
       "key": "ig_marcoscollgonzalez:https://www.instagram.com/p/Dbb_VxEmc-g/"
+    },
+    {
+      "title": "就是吹口琴 陳鴻儀Henry’s Harmonica｜第15屆亞太口琴APH藝術週 – 臺灣專場演出｜卡農In Love｜複音口琴Tremolo Harmonica 獨奏演出 第15屆亞太口琴藝術週(地點：中國江陰市) 20260725臺…",
+      "headline": "第15屆亞太口琴APH藝術週 – 臺灣專場演出｜卡農In Love｜複音口琴Tremolo Harmonica 獨奏演出",
+      "display_title": "第15屆亞太口琴APH藝術週 – 臺灣專場演出｜卡農In Love｜複音口琴Tremolo Harmonica 獨奏演出",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=VJiMRtobfcs",
+      "source_id": "yt_henrysharmonica",
+      "source": "就是吹口琴 陳鴻儀Henry’s Harmonica",
+      "source_system_name": "陳鴻儀",
+      "source_profile_url": "https://www.youtube.com/channel/UC7dQryOizHj-cKHV3xw0ASQ",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-40",
+      "directory_entry_name": "陳鴻儀",
+      "account": "https://www.youtube.com/channel/UC7dQryOizHj-cKHV3xw0ASQ",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-07-31T00:00:06+00:00",
+      "posted_at_local": "2026-07-31 08:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-31T18:27:29.899104+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "影片"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "演出",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.99,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴演奏影片，內容為亞太口琴藝術週臺灣專場獨奏演出。",
+      "text": "第15屆亞太口琴APH藝術週 – 臺灣專場演出｜卡農In Love｜複音口琴Tremolo Harmonica 獨奏演出\n第15屆亞太口琴藝術週(地點：中國江陰市)\n20260725臺灣專場演出｜卡農In Love｜陳鴻儀複音口琴獨奏演出",
+      "images": [
+        "https://i.ytimg.com/vi/VJiMRtobfcs/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/VJiMRtobfcs/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/4c4ca14a0287fcbc3219.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/jRo3PEipmEqPOdl6u-yU-T8hME_tD8ty8dKJo6_cZZyY9Dz9-aPLGdXfwpBf5Y-SR2F0bk4b7Q=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/11010264a3489f5a5679.webp",
+      "source_initials": "HSH",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "yt_henrysharmonica:VJiMRtobfcs"
     },
     {
       "title": "Judy’s Harmonica Ensemble 茱蒂口琴樂團｜【2026 蕉城口琴文化周 Day 3】 最後一天迎來最刺激的擂台賽！！😼😼 Judy 團長受邀擔任擂台賽評審，來自西班牙的半音階口琴大師 @antonioserranoa…",
