@@ -115,7 +115,7 @@ def main() -> int:
     payload = json.loads(JSON_PATH.read_text(encoding="utf-8"))
     generated = [item for item in payload.get("events", []) if isinstance(item, dict)]
     submitted = load_submitted_events()
-    events = merge_events(generated, submitted)
+    events = calendar.deduplicate_events(merge_events(generated, submitted))
     payload["events"] = events
     payload["count"] = len(events)
     payload["submittedEvents"] = len([item for item in events if item.get("platform") == "public-form"])

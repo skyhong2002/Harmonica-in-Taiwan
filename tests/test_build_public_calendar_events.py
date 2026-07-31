@@ -11,6 +11,142 @@ import build_public_calendar_events as calendar  # noqa: E402
 
 
 class PublicCalendarExtractionTests(unittest.TestCase):
+    def test_deduplicate_events_keeps_more_complete_same_day_event(self):
+        vague = {
+            "id": "vague",
+            "eventName": "桂冠之聲：2026臺灣口琴音樂節Gala音樂會",
+            "title": "桂冠之聲：2026臺灣口琴音樂節Gala音樂會",
+            "start": "2026-08-08",
+            "location": "臺灣口琴音樂節活動場地",
+            "confidence": 0.95,
+            "source": "轉貼來源",
+        }
+        complete = {
+            "id": "complete",
+            "eventName": "桂冠之聲 Voices of the Laureates",
+            "title": "桂冠之聲 Voices of the Laureates",
+            "start": "2026-08-08T19:00:00+08:00",
+            "location": "新竹市文化局演藝廳音樂廳",
+            "confidence": 0.98,
+            "source": "主辦單位",
+        }
+
+        self.assertEqual(calendar.deduplicate_events([vague, complete]), [complete])
+
+    def test_deduplicate_events_does_not_merge_generic_festival_sessions(self):
+        events = [
+            {
+                "id": "session-a",
+                "eventName": "臺灣口琴音樂節 前導音樂會",
+                "title": "臺灣口琴音樂節 前導音樂會",
+                "start": "2026-08-08T14:00:00+08:00",
+                "location": "新竹第一會場",
+                "source": "主辦單位",
+            },
+            {
+                "id": "session-b",
+                "eventName": "臺灣口琴音樂節 Gala 音樂會",
+                "title": "臺灣口琴音樂節 Gala 音樂會",
+                "start": "2026-08-08T19:00:00+08:00",
+                "location": "新竹第二會場",
+                "source": "主辦單位",
+            },
+        ]
+
+        self.assertEqual(len(calendar.deduplicate_events(events)), 2)
+
+    def test_deduplicate_events_preserves_same_name_at_different_times(self):
+        events = [
+            {
+                "id": "matinee",
+                "eventName": "口琴體驗工作坊",
+                "title": "口琴體驗工作坊",
+                "start": "2026-08-08T14:00:00+08:00",
+                "location": "新竹市文化局演藝廳",
+                "source": "主辦單位",
+            },
+            {
+                "id": "evening",
+                "eventName": "口琴體驗工作坊",
+                "title": "口琴體驗工作坊",
+                "start": "2026-08-08T19:00:00+08:00",
+                "location": "新竹市文化局演藝廳",
+                "source": "主辦單位",
+            },
+        ]
+
+        self.assertEqual(len(calendar.deduplicate_events(events)), 2)
+
+    def test_deduplicate_events_merges_overlapping_multiday_festival_variants(self):
+        events = [
+            {
+                "id": "partial",
+                "eventName": "第十五届亚太口琴节",
+                "title": "第十五届亚太口琴节",
+                "start": "2026-07-23",
+                "end": "2026-07-24",
+                "allDay": True,
+                "calendarType": calendar.OVERSEAS_PHYSICAL,
+                "location": "中国江阴",
+                "confidence": 0.84,
+                "source": "轉貼來源",
+            },
+            {
+                "id": "complete",
+                "eventName": "第十五屆亞太口琴節",
+                "title": "第十五屆亞太口琴節",
+                "start": "2026-07-24",
+                "end": "2026-07-29",
+                "allDay": True,
+                "calendarType": calendar.OVERSEAS_PHYSICAL,
+                "location": "中國無錫",
+                "confidence": 0.98,
+                "source": "受邀演出團體",
+            },
+            {
+                "id": "single-day",
+                "eventName": "第十五屆亞太口琴節",
+                "title": "第十五屆亞太口琴節",
+                "start": "2026-07-25",
+                "end": "2026-07-26",
+                "allDay": True,
+                "calendarType": calendar.OVERSEAS_PHYSICAL,
+                "location": "中國無錫",
+                "confidence": 0.95,
+                "source": "受邀演出團體",
+            },
+        ]
+
+        self.assertEqual(calendar.deduplicate_events(events), [events[1]])
+
+    def test_deduplicate_events_preserves_adjacent_same_name_concerts(self):
+        events = [
+            {
+                "id": "day-one",
+                "eventName": "巡迴音樂會",
+                "title": "巡迴音樂會",
+                "start": "2026-07-23",
+                "end": "2026-07-24",
+                "allDay": True,
+                "calendarType": calendar.OVERSEAS_PHYSICAL,
+                "location": "東京",
+                "source": "主辦單位",
+            },
+            {
+                "id": "day-two",
+                "eventName": "巡迴音樂會",
+                "title": "巡迴音樂會",
+                "start": "2026-07-24",
+                "end": "2026-07-25",
+                "allDay": True,
+                "calendarType": calendar.OVERSEAS_PHYSICAL,
+                "location": "大阪",
+                "source": "主辦單位",
+            },
+        ]
+
+        self.assertEqual(len(calendar.deduplicate_events(events)), 2)
+
     def test_multi_event_post_uses_candidate_specific_fields(self):
         item = {
             "source": "臺灣口琴音樂節 Taiwan Harmonica Music Festival",

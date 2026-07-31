@@ -741,17 +741,146 @@ def should_replace_similar_event(existing: dict[str, Any], candidate: dict[str, 
     return False
 
 
+GENERIC_TITLE_ANCHORS = {
+    "年度音樂會",
+    "成果發表會",
+    "臺灣口琴音樂節",
+    "口琴音樂節",
+    "口琴節",
+    "演奏會",
+    "音樂會",
+}
+MULTI_DAY_EVENT_RE = re.compile(
+    r"(?:節|节|festival|大會|大会|賽|赛|contest|competition|營|营|camp)",
+    re.IGNORECASE,
+)
+TITLE_VARIANT_TRANSLATION = str.maketrans(
+    {
+        "亚": "亞",
+        "会": "會",
+        "届": "屆",
+        "节": "節",
+        "赛": "賽",
+    }
+)
+
+
+def normalized_title(value: Any) -> str:
+    return re.sub(
+        r"[^a-z0-9\u3040-\u30ff\u3400-\u9fff]+",
+        "",
+        str(value or "").translate(TITLE_VARIANT_TRANSLATION).casefold(),
+    )
+
+
+def leading_cjk_title_anchor(value: Any) -> str:
+    match = re.match(r"\s*([\u3400-\u9fff]{4,})", str(value or ""))
+    if not match:
+        return ""
+    anchor = match.group(1)
+    if anchor in GENERIC_TITLE_ANCHORS or anchor.endswith(("口琴音樂節", "成果發表會")):
+        return ""
+    return anchor
+
+
+def event_titles_match(left: dict[str, Any], right: dict[str, Any]) -> bool:
+    left_title = left.get("eventName") or left.get("title")
+    right_title = right.get("eventName") or right.get("title")
+    left_normalized = normalized_title(left_title)
+    right_normalized = normalized_title(right_title)
+    if left_normalized and left_normalized == right_normalized:
+        return True
+    left_anchor = leading_cjk_title_anchor(left_title)
+    right_anchor = leading_cjk_title_anchor(right_title)
+    return bool(left_anchor and left_anchor == right_anchor)
+
+
+def event_times_compatible(left: dict[str, Any], right: dict[str, Any]) -> bool:
+    left_start = str(left.get("start") or "")
+    right_start = str(right.get("start") or "")
+    if "T" not in left_start or "T" not in right_start:
+        return True
+    return left_start[11:16] == right_start[11:16]
+
+
+def all_day_date_range(event: dict[str, Any]) -> tuple[dt.date, dt.date] | None:
+    if not event.get("allDay"):
+        return None
+    try:
+        start = dt.date.fromisoformat(str(event.get("start") or "")[:10])
+        end = dt.date.fromisoformat(str(event.get("end") or "")[:10])
+    except ValueError:
+        return None
+    if end <= start:
+        end = start + dt.timedelta(days=1)
+    return start, end
+
+
+def multi_day_events_match(left: dict[str, Any], right: dict[str, Any]) -> bool:
+    left_title = normalized_title(left.get("eventName") or left.get("title"))
+    right_title = normalized_title(right.get("eventName") or right.get("title"))
+    if not left_title or left_title != right_title or not MULTI_DAY_EVENT_RE.search(left_title):
+        return False
+    if left.get("calendarType") != right.get("calendarType"):
+        return False
+    left_range = all_day_date_range(left)
+    right_range = all_day_date_range(right)
+    if not left_range or not right_range:
+        return False
+    left_start, left_end = left_range
+    right_start, right_end = right_range
+    return max(left_start, right_start) <= min(left_end, right_end)
+
+
 def find_similar_event_index(events: list[dict[str, Any]], candidate: dict[str, Any]) -> int | None:
     candidate_location = location_signature(candidate.get("location"))
-    if not candidate_location:
-        return None
     for index, existing in enumerate(events):
+        if multi_day_events_match(existing, candidate):
+            return index
         if event_start_date_key(existing) != event_start_date_key(candidate):
+            continue
+        if not event_times_compatible(existing, candidate):
+            continue
+        existing_url = str(existing.get("evidenceUrl") or "").strip()
+        candidate_url = str(candidate.get("evidenceUrl") or "").strip()
+        if existing_url and existing_url == candidate_url:
+            return index
+        if event_titles_match(existing, candidate):
+            return index
+        if not candidate_location:
             continue
         existing_location = location_signature(existing.get("location"))
         if len(candidate_location & existing_location) >= 2:
             return index
     return None
+
+
+def deduplicate_events(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    deduped_events: list[dict[str, Any]] = []
+    seen_final: set[tuple[str, str, str]] = set()
+    for event in sorted(
+        events,
+        key=lambda row: (
+            str(row.get("start") or ""),
+            str(row.get("source") or ""),
+            str(row.get("title") or ""),
+        ),
+    ):
+        key = (
+            normalized_title(event.get("eventName") or event.get("title")),
+            re.sub(r"\s+", "", str(event.get("location") or "")).lower(),
+            str(event.get("start") or ""),
+        )
+        if key in seen_final:
+            continue
+        similar_index = find_similar_event_index(deduped_events, event)
+        if similar_index is not None:
+            if should_replace_similar_event(deduped_events[similar_index], event):
+                deduped_events[similar_index] = event
+            continue
+        seen_final.add(key)
+        deduped_events.append(event)
+    return deduped_events
 
 
 def extract_events(
@@ -927,25 +1056,8 @@ def extract_events(
                 }
             )
 
-    deduped_events: list[dict[str, Any]] = []
-    seen_final: set[tuple[str, str, str]] = set()
-    for event in sorted(events, key=lambda row: (row["start"], row["source"], row["title"])):
-        key = (
-            re.sub(r"\s+", "", str(event.get("eventName") or event.get("title") or "")).lower(),
-            re.sub(r"\s+", "", str(event.get("location") or "")).lower(),
-            str(event.get("start") or ""),
-        )
-        if key in seen_final:
-            continue
-        similar_index = find_similar_event_index(deduped_events, event)
-        if similar_index is not None:
-            if should_replace_similar_event(deduped_events[similar_index], event):
-                deduped_events[similar_index] = event
-            continue
-        seen_final.add(key)
-        deduped_events.append(event)
     cache["stats"] = llm_stats
-    return deduped_events
+    return deduplicate_events(events)
 
 
 def escape_ics(value: Any) -> str:

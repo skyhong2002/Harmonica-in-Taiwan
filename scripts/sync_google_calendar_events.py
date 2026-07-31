@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import csv
 import datetime as dt
+import fcntl
 import json
 import os
 import sys
@@ -21,6 +22,7 @@ EVENTS_PATH = PROJECT_ROOT / "site" / "api" / "public-calendar-events.json"
 CALENDAR_CSV = PROJECT_ROOT / "data" / "sources" / "harmonica-public-calendars.csv"
 STATUS_PATH = PROJECT_ROOT / "site" / "api" / "public-calendar-sync.json"
 DEFAULT_TOKEN_PATH = Path.home() / ".hermes" / "profiles" / "bamboo" / "google_token.json"
+DEFAULT_LOCK_PATH = PROJECT_ROOT / "state" / "google-calendar-sync.lock"
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
 PRIVATE_MARKER_KEY = "harmonicaObserve"
 PRIVATE_MARKER_VALUE = "public-calendar"
@@ -258,11 +260,11 @@ def env_credentials_available() -> bool:
     )
 
 
-def existing_managed_events(service, calendar_id: str) -> dict[str, dict[str, Any]]:
+def existing_managed_events(service, calendar_id: str) -> dict[str, list[dict[str, Any]]]:
     now = dt.datetime.now(dt.timezone.utc)
     time_min = (now - dt.timedelta(days=7)).isoformat().replace("+00:00", "Z")
     page_token = None
-    found: dict[str, dict[str, Any]] = {}
+    found: dict[str, list[dict[str, Any]]] = {}
     while True:
         response = service.events().list(
             calendarId=calendar_id,
@@ -277,7 +279,7 @@ def existing_managed_events(service, calendar_id: str) -> dict[str, dict[str, An
             private = ((item.get("extendedProperties") or {}).get("private") or {})
             event_id = private.get(PRIVATE_EVENT_ID_KEY)
             if event_id:
-                found[event_id] = item
+                found.setdefault(event_id, []).append(item)
         page_token = response.get("nextPageToken")
         if not page_token:
             return found
@@ -309,6 +311,7 @@ def sync_one_calendar(service, metadata: dict[str, str]) -> dict[str, Any]:
         "created": 0,
         "updated": 0,
         "deleted": 0,
+        "duplicatesDeleted": 0,
         "kept": len(wanted_ids),
         "status": "ok",
     }
@@ -317,21 +320,33 @@ def sync_one_calendar(service, metadata: dict[str, str]) -> dict[str, Any]:
         if not event_id:
             continue
         body = event_resource(event)
-        if event_id in existing:
+        existing_copies = existing.get(event_id, [])
+        if existing_copies:
+            canonical = min(
+                existing_copies,
+                key=lambda item: (str(item.get("created") or ""), str(item.get("id") or "")),
+            )
             service.events().patch(
                 calendarId=calendar_id,
-                eventId=existing[event_id]["id"],
+                eventId=canonical["id"],
                 body=body,
             ).execute()
             result["updated"] += 1
+            for duplicate in existing_copies:
+                if duplicate.get("id") == canonical.get("id"):
+                    continue
+                service.events().delete(calendarId=calendar_id, eventId=duplicate["id"]).execute()
+                result["deleted"] += 1
+                result["duplicatesDeleted"] += 1
         else:
             service.events().insert(calendarId=calendar_id, body=body).execute()
             result["created"] += 1
 
-    for event_id, item in existing.items():
+    for event_id, items in existing.items():
         if event_id not in wanted_ids:
-            service.events().delete(calendarId=calendar_id, eventId=item["id"]).execute()
-            result["deleted"] += 1
+            for item in items:
+                service.events().delete(calendarId=calendar_id, eventId=item["id"]).execute()
+                result["deleted"] += 1
     return result
 
 
@@ -353,19 +368,21 @@ def main() -> int:
     parser.add_argument("--token", type=Path, default=Path(os.environ.get("HARMONICA_GOOGLE_TOKEN_JSON", DEFAULT_TOKEN_PATH)))
     parser.add_argument("--calendar-id", default="")
     parser.add_argument("--calendar-key", default="")
+    parser.add_argument("--lock-file", type=Path, default=DEFAULT_LOCK_PATH)
     parser.add_argument("--required", action="store_true")
     args = parser.parse_args()
     load_dotenv(PROJECT_ROOT / ".env")
 
     token_path = args.token.expanduser()
     status: dict[str, Any] = {
-        "version": 2,
+        "version": 3,
         "generatedAt": dt.datetime.now(dt.timezone.utc).isoformat(),
         "status": "skipped",
         "calendarId": args.calendar_id or "",
         "created": 0,
         "updated": 0,
         "deleted": 0,
+        "duplicatesDeleted": 0,
         "kept": 0,
     }
     if not token_path.exists() and not env_credentials_available():
@@ -382,6 +399,13 @@ def main() -> int:
         calendar_key=args.calendar_key,
         calendar_id=args.calendar_id,
     )
+    lock_path = args.lock_file.expanduser()
+    if not lock_path.is_absolute():
+        lock_path = PROJECT_ROOT / lock_path
+    lock_path.parent.mkdir(parents=True, exist_ok=True)
+    lock_handle = lock_path.open("a+", encoding="utf-8")
+    fcntl.flock(lock_handle.fileno(), fcntl.LOCK_EX)
+    status["lockFile"] = str(lock_path)
     try:
         from googleapiclient.discovery import build
     except ModuleNotFoundError:
@@ -408,10 +432,11 @@ def main() -> int:
                     "created": 0,
                     "updated": 0,
                     "deleted": 0,
+                    "duplicatesDeleted": 0,
                     "kept": 0,
                 }
             )
-    for field in ("created", "updated", "deleted", "kept"):
+    for field in ("created", "updated", "deleted", "duplicatesDeleted", "kept"):
         status[field] = sum(int(result.get(field) or 0) for result in results)
     failures = [result for result in results if result.get("status") != "ok"]
     status["calendars"] = results
@@ -424,8 +449,11 @@ def main() -> int:
         "Google Calendar sync completed: "
         f"calendars={len(results) - len(failures)}/{len(results)} "
         f"created={status['created']} updated={status['updated']} "
-        f"deleted={status['deleted']} kept={status['kept']}"
+        f"deleted={status['deleted']} duplicate_deletions={status['duplicatesDeleted']} "
+        f"kept={status['kept']}"
     )
+    fcntl.flock(lock_handle.fileno(), fcntl.LOCK_UN)
+    lock_handle.close()
     return 1 if failures and args.required else 0
 
 

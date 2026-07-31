@@ -9,6 +9,53 @@ sys.path.insert(0, str(PROJECT_ROOT / "scripts"))
 import sync_google_calendar_events as sync  # noqa: E402
 
 
+class FakeRequest:
+    def __init__(self, result=None):
+        self.result = result or {}
+
+    def execute(self):
+        return self.result
+
+
+class FakeEvents:
+    def __init__(self, existing):
+        self.existing = existing
+        self.patched = []
+        self.inserted = []
+        self.deleted = []
+
+    def list(self, **kwargs):
+        return FakeRequest({"items": self.existing})
+
+    def patch(self, **kwargs):
+        self.patched.append(kwargs)
+        return FakeRequest()
+
+    def insert(self, **kwargs):
+        self.inserted.append(kwargs)
+        return FakeRequest()
+
+    def delete(self, **kwargs):
+        self.deleted.append(kwargs)
+        return FakeRequest()
+
+
+class FakeCalendars:
+    def patch(self, **kwargs):
+        return FakeRequest()
+
+
+class FakeService:
+    def __init__(self, existing):
+        self.fake_events = FakeEvents(existing)
+
+    def events(self):
+        return self.fake_events
+
+    def calendars(self):
+        return FakeCalendars()
+
+
 class GoogleCalendarSyncTests(unittest.TestCase):
     def test_timed_event_resource_preserves_event_timezone(self):
         resource = sync.event_resource(
@@ -45,6 +92,44 @@ class GoogleCalendarSyncTests(unittest.TestCase):
         overridden = sync.selected_calendar_metadata(rows, calendar_id="explicit@example.test")
         self.assertEqual(len(overridden), 1)
         self.assertEqual(overridden[0]["calendar_id"], "explicit@example.test")
+
+    def test_sync_keeps_one_copy_and_deletes_duplicate_managed_events(self):
+        private = {
+            sync.PRIVATE_MARKER_KEY: sync.PRIVATE_MARKER_VALUE,
+            sync.PRIVATE_EVENT_ID_KEY: "same-event",
+        }
+        service = FakeService(
+            [
+                {"id": "older-copy", "created": "2026-07-01T00:00:00Z", "extendedProperties": {"private": private}},
+                {"id": "newer-copy", "created": "2026-07-02T00:00:00Z", "extendedProperties": {"private": private}},
+            ]
+        )
+        original_load_events = sync.load_events
+        try:
+            sync.load_events = lambda path: [
+                {
+                    "id": "same-event",
+                    "eventName": "同一活動",
+                    "start": "2026-08-08",
+                    "end": "2026-08-09",
+                    "allDay": True,
+                }
+            ]
+            result = sync.sync_one_calendar(
+                service,
+                {
+                    "calendar_id": "calendar@example.test",
+                    "calendar_key": "taiwan",
+                    "events_path": "site/api/public-calendar-events.json",
+                },
+            )
+        finally:
+            sync.load_events = original_load_events
+
+        self.assertEqual(service.fake_events.patched[0]["eventId"], "older-copy")
+        self.assertEqual([item["eventId"] for item in service.fake_events.deleted], ["newer-copy"])
+        self.assertEqual(result["duplicatesDeleted"], 1)
+        self.assertEqual(result["deleted"], 1)
 
 
 if __name__ == "__main__":

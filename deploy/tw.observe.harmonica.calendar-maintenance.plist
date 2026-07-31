@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>tw.observe.harmonica.calendar-maintenance</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Users/skyhong/.hermes/google-workspace-venv/bin/python</string>
+      <string>/Users/skyhong/Documents/Harmonica-in-Taiwan/scripts/sync_google_calendar_events.py</string>
+      <string>--required</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/skyhong/Documents/Harmonica-in-Taiwan</string>
+
+    <key>ProcessType</key>
+    <string>Background</string>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+      <key>Hour</key>
+      <integer>4</integer>
+      <key>Minute</key>
+      <integer>10</integer>
+    </dict>
+
+    <key>StandardOutPath</key>
+    <string>/Users/skyhong/Library/Logs/Harmonica-in-Taiwan/calendar-maintenance.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/skyhong/Library/Logs/Harmonica-in-Taiwan/calendar-maintenance.err.log</string>
+  </dict>
+</plist>
