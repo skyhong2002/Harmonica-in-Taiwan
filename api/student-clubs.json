@@ -7,8 +7,87 @@
   "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
   "json": "https://harmonica.observe.tw/api/student-clubs.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/student-clubs.json",
-  "count": 127,
+  "count": 128,
   "items": [
+    {
+      "title": "陽明交大竹韻口琴社｜【狐狸寶寶，找爸爸】 狐狸剛出生，但是沒有一個好的保溫箱.... 爸爸，我需要你 \" I need you! \" 陽明交大竹韻口琴社急需曼尼贊助，畢竟社團建立還是需要很多的曼尼凹嗚😭 歡迎填寫募款表單，謝謝您讓竹韻再呼…",
+      "headline": "【狐狸寶寶，找爸爸】",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DbdQe4VFAly/",
+      "source_id": "ig_nycu_harmonica",
+      "source": "陽明交大竹韻口琴社",
+      "source_system_name": "陽明交大竹韻口琴社",
+      "source_profile_url": "https://www.instagram.com/nycu_harmonica/",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "directory_entry_id": "watchlist-198",
+      "directory_entry_name": "陽明交大竹韻口琴社",
+      "account": "nycu_harmonica",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Fri, 31 Jul 2026 12:24:21 GMT",
+      "posted_at_local": "2026-07-31 20:24",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-07-31T16:16:19.759854+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/nycu_harmonica",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "學生社團",
+        "補助"
+      ],
+      "keyword_matches": [
+        "口琴"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.96,
+      "llm_labels": [
+        "口琴",
+        "學生社團",
+        "補助"
+      ],
+      "llm_categories": [
+        "student-clubs",
+        "opportunities"
+      ],
+      "llm_reason": "陽明交大口琴社公開募款貼文，屬口琴社團更新且涉及補助/贊助募集。",
+      "text": "【狐狸寶寶，找爸爸】\n狐狸剛出生，但是沒有一個好的保溫箱....\n爸爸，我需要你\n\" I need you! \"\n陽明交大竹韻口琴社急需曼尼贊助，畢竟社團建立還是需要很多的曼尼凹嗚😭\n歡迎填寫募款表單，謝謝您讓竹韻再呼一口氣（準備噎死）",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/762864517_18120804277745725_4068770686029554723_n.webp?_nc_cat=107&ig_cache_key=Mzk1MzM4NjAyNDQyNzcwNTEyMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=4Dy8XEgfhIAQ7kNvwFsxIxt&_nc_oc=AdreYMRlBfUXHJ1XeY8r7eoSBvrXO-JLM-1hsqqzLK_IzpJqQkQeuk-ZMil-uJ8xzuM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=KBPaMqgoKe19HAhD1ml3uQ&_nc_ss=7a22e&oh=00_AQFe-8F-PoP5uiUlfswMTM52VjMpo8rfl6ZHvkvPYUtL_Q&oe=6A7289E0",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/762998094_18120804286745725_2805312553116577312_n.webp?_nc_cat=108&ig_cache_key=Mzk1MzM4NjAyNDgzMDMxMzk4OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=qkxa4b7fYzcQ7kNvwE7WgB0&_nc_oc=AdqGPLijeEvHwnqIWasdcDfKsZswQoXxwSHYNDZiSro0jX3pRsMvxQqWvZTVQVhauR4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=KBPaMqgoKe19HAhD1ml3uQ&_nc_ss=7a22e&oh=00_AQErtRAMJtmt4wLxahs7qXDi_xQnO-GjR7Ce9X0V08bpzw&oe=6A728630"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/762864517_18120804277745725_4068770686029554723_n.webp?_nc_cat=107&ig_cache_key=Mzk1MzM4NjAyNDQyNzcwNTEyMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=4Dy8XEgfhIAQ7kNvwFsxIxt&_nc_oc=AdreYMRlBfUXHJ1XeY8r7eoSBvrXO-JLM-1hsqqzLK_IzpJqQkQeuk-ZMil-uJ8xzuM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=KBPaMqgoKe19HAhD1ml3uQ&_nc_ss=7a22e&oh=00_AQFe-8F-PoP5uiUlfswMTM52VjMpo8rfl6ZHvkvPYUtL_Q&oe=6A7289E0",
+      "image_url": "/assets/feed-images/024dbc815b937ed5a308.webp",
+      "image_width": 1440,
+      "image_height": 1920,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/701558410_18109037233745725_4881025079895106710_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gGSvlhEGlKOrHP4FWZDHSHnHA2tnOZJvRWEo94VncOccS0CNoOI5ncw7UY0QaHzFSQ&_nc_ohc=t41t9IS2JT0Q7kNvwFrjafx&_nc_gid=aeaC-MS4EDmg6dbo0XZaqQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQEmMQSDPwXgg6_iqBty9mHwULVzpaL6eTGUVx4GDFVzqg&oe=6A7286D4&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/55b53b7c1f96597c4c6e.webp",
+      "source_initials": "陽明",
+      "categories": [
+        "posts-videos",
+        "student-clubs",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "學生社團",
+        "補助比賽"
+      ],
+      "key": "ig_nycu_harmonica:https://www.instagram.com/p/DbdQe4VFAly/"
+    },
     {
       "title": "Santiago Alvarez｜De las imágenes mes sentidas que me llevo de mi paso por el “Asian Pacific Harmonica Festival “ en Chi…",
       "headline": "De las imágenes mes sentidas que me llevo de mi paso por el “Asian Pacific Harmonica Festival “ en China. El haber comp…",
