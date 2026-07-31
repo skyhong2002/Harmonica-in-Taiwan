@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T09:08:59.505210Z",
+  "generatedAt": "2026-07-31T09:41:09.751349Z",
   "source": {
     "id": 54,
     "slug": "cy-leo",
@@ -188,20 +188,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/dfb402cc47afea6bed5c.webp",
         "width": 332,
         "height": 590
-      }
-    },
-    {
-      "id": "post-b0c4599807816893c87b67e7",
-      "title": "(Harmonica Cover)【Ado】綺羅（KIRA）",
-      "excerpt": "(Harmonica Cover)【Ado】綺羅（KIRA） For the WORLD CUP!! Comment below if you like to have the lead sheet.",
-      "url": "https://www.youtube.com/watch?v=3URLvMUH3yM",
-      "sourceName": "CY Leo 何卓彥",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-01T09:13:10Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/2c812a2d4ab9109b0b4f.webp",
-        "width": 800,
-        "height": 450
       }
     }
   ]

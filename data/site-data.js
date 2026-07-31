@@ -1560,7 +1560,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-31 07:48",
       "latestUpdateSource": "布宜諾斯艾利斯口琴學校",
       "latestUpdateUrl": "https://www.instagram.com/stories/escueladearmonicaba/3953008135237604084/",
-      "avatarUrl": "/assets/source-avatars/0017e05d39e3b6947a30.webp",
+      "avatarUrl": "/assets/source-avatars/f21681f5194562a027ae.webp",
       "sourceInitials": "布宜",
       "sourceTags": [
         "教學器材",

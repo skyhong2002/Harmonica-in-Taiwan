@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T09:08:59.505210Z",
+  "generatedAt": "2026-07-31T09:41:09.751349Z",
   "source": {
     "id": 182,
     "slug": "escuela-de-arm-nica-de-buenos-aires",
     "name": "布宜諾斯艾利斯口琴學校",
     "pageUrl": "https://harmonica.observe.tw/source/182-escuela-de-arm-nica-de-buenos-aires/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-4262d7ffc756a8a1da7a692a",
+      "title": "🎵 ESTUCHE LUTHÓNICA PARA 12 ARMÓNICAS 🎵",
+      "excerpt": "🎵 ESTUCHE LUTHÓNICA PARA 12 ARMÓNICAS 🎵 Protegé tus armónicas con un estuche diseñado para músicos que necesitan llevar su instrumento de forma segura, práctica y con estilo. 🖤 ✨ Características: 🎼 Capacidad para 12 armónicas diatónicas. 🔒 Cierre reforzado para mayor seguridad.…",
+      "url": "https://www.instagram.com/p/DbbiS1bCe_q/",
+      "sourceName": "布宜諾斯艾利斯口琴學校",
+      "platform": "Instagram",
+      "publishedAt": "2026-07-30T20:21:32Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ecca95afb304f3a3ef7b.webp",
+        "width": 800,
+        "height": 1059
+      }
+    }
+  ]
 }
