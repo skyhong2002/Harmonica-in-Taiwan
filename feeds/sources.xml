@@ -5,7 +5,29 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 31 Jul 2026 16:16:33 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 17:21:55 +0000</lastBuildDate>
+    <item>
+      <title>林裕豐</title>
+      <link>https://harmonica.tw/course/yufeng/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c191270dde8c9c3d</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學
+國家：臺灣
+地區：臺灣
+臺灣口琴演奏者林裕豐，兼職教學與演出。</description>
+    </item>
+    <item>
+      <title>臺中國家歌劇院</title>
+      <link>https://www.npac-ntt.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/臺中
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
     <item>
       <title>何家健 HarmoniKahkean</title>
       <link>https://linktr.ee/harmonikahkean</link>
@@ -104,6 +126,17 @@ Tag：團體樂團、重奏
 國家：臺灣
 地區：臺灣
 臺灣的大學生新生代口琴重奏演出團體。</description>
+    </item>
+    <item>
+      <title>胖擊口琴樂團</title>
+      <link>https://linktr.ee/punch.harp</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c710aae1bf2f4665</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏
+國家：臺灣
+地區：臺灣
+臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。</description>
     </item>
     <item>
       <title>Younghoon Cho</title>
@@ -238,17 +271,6 @@ Tag：演奏者、半音階、重奏、國際交流、比賽
 臺灣半音階口琴演奏者，2025 世界口琴節獲公開組冠軍，並參與 111 Duo、Trio 與 Quintet。</description>
     </item>
     <item>
-      <title>胖擊口琴樂團</title>
-      <link>https://linktr.ee/punch.harp</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c710aae1bf2f4665</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏
-國家：臺灣
-地區：臺灣
-臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。</description>
-    </item>
-    <item>
       <title>馬來西亞口琴節</title>
       <link>https://www.facebook.com/malaysiaharmonicafestival/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/17d4f5097cac10dd</guid>
@@ -346,17 +368,6 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/高雄
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
-    </item>
-    <item>
-      <title>林裕豐</title>
-      <link>https://harmonica.tw/course/yufeng/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c191270dde8c9c3d</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學
-國家：臺灣
-地區：臺灣
-臺灣口琴演奏者林裕豐，兼職教學與演出。</description>
     </item>
     <item>
       <title>Yoonseok Lee</title>
@@ -676,17 +687,6 @@ Tag：協會、國際交流
 國家：新加坡
 地區：新加坡
 新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。</description>
-    </item>
-    <item>
-      <title>臺中國家歌劇院</title>
-      <link>https://www.npac-ntt.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/臺中
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>陳彥銘</title>
