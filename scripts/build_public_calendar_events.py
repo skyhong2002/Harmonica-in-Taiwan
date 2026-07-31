@@ -40,6 +40,7 @@ TAIWAN_PHYSICAL = "taiwan_physical"
 OVERSEAS_PHYSICAL = "overseas_physical"
 ONLINE = "online"
 EVENT_MODES = {TAIWAN_PHYSICAL, OVERSEAS_PHYSICAL, ONLINE}
+SUBMITTED_PLATFORM = "public-form"
 COUNTRY_TIMEZONES = {
     "台灣": "Asia/Taipei",
     "臺灣": "Asia/Taipei",
@@ -459,11 +460,16 @@ def load_json(path: Path, default: dict[str, Any]) -> dict[str, Any]:
     return data if isinstance(data, dict) else default
 
 
-def save_json(path: Path, data: dict[str, Any]) -> None:
+def atomic_write_text(path: Path, text: str) -> None:
+    """Publish in one rename so the calendar sync never reads a half-written file."""
     path.parent.mkdir(parents=True, exist_ok=True)
     tmp = path.with_suffix(path.suffix + ".tmp")
-    tmp.write_text(json.dumps(data, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    tmp.write_text(text, encoding="utf-8")
     tmp.replace(path)
+
+
+def save_json(path: Path, data: dict[str, Any]) -> None:
+    atomic_write_text(path, json.dumps(data, ensure_ascii=False, indent=2, sort_keys=True) + "\n")
 
 
 def candidate_fingerprint(item: dict[str, Any], start: str, end: str, context: str) -> str:
@@ -729,15 +735,22 @@ def event_confidence(event: dict[str, Any]) -> float:
         return 0.0
 
 
+def event_has_time(event: dict[str, Any]) -> bool:
+    return "T" in str(event.get("start") or "")
+
+
 def should_replace_similar_event(existing: dict[str, Any], candidate: dict[str, Any]) -> bool:
+    # Verified form submissions always beat scraped events, whichever side they land on.
+    existing_submitted = existing.get("platform") == SUBMITTED_PLATFORM
+    candidate_submitted = candidate.get("platform") == SUBMITTED_PLATFORM
+    if existing_submitted != candidate_submitted:
+        return candidate_submitted
     existing_confidence = event_confidence(existing)
     candidate_confidence = event_confidence(candidate)
     if candidate_confidence > existing_confidence:
         return True
     if candidate_confidence == existing_confidence:
-        candidate_has_time = "T" in str(candidate.get("start") or "")
-        existing_has_time = "T" in str(existing.get("start") or "")
-        return candidate_has_time and not existing_has_time
+        return event_has_time(candidate) and not event_has_time(existing)
     return False
 
 
@@ -790,6 +803,10 @@ def event_titles_match(left: dict[str, Any], right: dict[str, Any]) -> bool:
     right_normalized = normalized_title(right_title)
     if left_normalized and left_normalized == right_normalized:
         return True
+    # The anchor fallback exists to fold a truncated record into a complete one. Two
+    # equally detailed events that merely share an organiser prefix are usually distinct.
+    if event_has_time(left) == event_has_time(right):
+        return False
     left_anchor = leading_cjk_title_anchor(left_title)
     right_anchor = leading_cjk_title_anchor(right_title)
     return bool(left_anchor and left_anchor == right_anchor)
@@ -829,7 +846,16 @@ def multi_day_events_match(left: dict[str, Any], right: dict[str, Any]) -> bool:
         return False
     left_start, left_end = left_range
     right_start, right_end = right_range
-    return max(left_start, right_start) <= min(left_end, right_end)
+    overlap_start = max(left_start, right_start)
+    overlap_end = min(left_end, right_end)
+    if overlap_start < overlap_end:
+        return True
+    if overlap_start > overlap_end:
+        return False
+    # All-day end dates are exclusive, so touching ranges do not really overlap. Fold them
+    # together only when one side is short enough to look like a truncated record.
+    shortest = min(left_end - left_start, right_end - right_start)
+    return shortest <= dt.timedelta(days=2)
 
 
 def find_similar_event_index(events: list[dict[str, Any]], candidate: dict[str, Any]) -> int | None:
@@ -855,17 +881,18 @@ def find_similar_event_index(events: list[dict[str, Any]], candidate: dict[str, 
     return None
 
 
+def event_sort_key(event: dict[str, Any]) -> tuple[str, str, str]:
+    return (
+        str(event.get("start") or ""),
+        str(event.get("source") or ""),
+        str(event.get("title") or ""),
+    )
+
+
 def deduplicate_events(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
     deduped_events: list[dict[str, Any]] = []
     seen_final: set[tuple[str, str, str]] = set()
-    for event in sorted(
-        events,
-        key=lambda row: (
-            str(row.get("start") or ""),
-            str(row.get("source") or ""),
-            str(row.get("title") or ""),
-        ),
-    ):
+    for event in sorted(events, key=event_sort_key):
         key = (
             normalized_title(event.get("eventName") or event.get("title")),
             re.sub(r"\s+", "", str(event.get("location") or "")).lower(),
@@ -880,7 +907,8 @@ def deduplicate_events(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
             continue
         seen_final.add(key)
         deduped_events.append(event)
-    return deduped_events
+    # In-place replacements can leave a later event sitting at an earlier index.
+    return sorted(deduped_events, key=event_sort_key)
 
 
 def extract_events(
@@ -1146,8 +1174,7 @@ def write_ics(
             lines.append(f"URL:{escape_ics(event['evidenceUrl'])}")
         lines.append("END:VEVENT")
     lines.append("END:VCALENDAR")
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text("\r\n".join(fold_ics_line(line) for line in lines) + "\r\n", encoding="utf-8")
+    atomic_write_text(path, "\r\n".join(fold_ics_line(line) for line in lines) + "\r\n")
 
 
 def calendar_payload(
@@ -1251,12 +1278,10 @@ def main() -> int:
         (OVERSEAS_JSON_PATH, overseas_output),
         (ONLINE_JSON_PATH, online_output),
     ]:
-        path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    JS_PATH.write_text(
-        "window.publicCalendarEvents = "
-        + json.dumps(output, ensure_ascii=False, indent=2)
-        + ";\n",
-        encoding="utf-8",
+        atomic_write_text(path, json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
+    atomic_write_text(
+        JS_PATH,
+        "window.publicCalendarEvents = " + json.dumps(output, ensure_ascii=False, indent=2) + ";\n",
     )
     write_ics(events_by_mode[TAIWAN_PHYSICAL], generated_at)
     write_ics(

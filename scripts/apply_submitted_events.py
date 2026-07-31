@@ -49,7 +49,7 @@ def submitted_event(row: dict[str, str]) -> dict[str, Any] | None:
         "title": name,
         "eventName": name,
         "source": "臺灣口琴觀測站資料回報",
-        "platform": "public-form",
+        "platform": calendar.SUBMITTED_PLATFORM,
         "start": start,
         "end": clean(row.get("end")) or start,
         "allDay": truthy(row.get("all_day")),
@@ -118,12 +118,13 @@ def main() -> int:
     events = calendar.deduplicate_events(merge_events(generated, submitted))
     payload["events"] = events
     payload["count"] = len(events)
-    payload["submittedEvents"] = len([item for item in events if item.get("platform") == "public-form"])
-    JSON_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    JS_PATH.parent.mkdir(parents=True, exist_ok=True)
-    JS_PATH.write_text(
+    payload["submittedEvents"] = len(
+        [item for item in events if item.get("platform") == calendar.SUBMITTED_PLATFORM]
+    )
+    calendar.atomic_write_text(JSON_PATH, json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
+    calendar.atomic_write_text(
+        JS_PATH,
         "window.publicCalendarEvents = " + json.dumps(payload, ensure_ascii=False, indent=2) + ";\n",
-        encoding="utf-8",
     )
     calendar.write_ics(events, clean(payload.get("generatedAt")))
     print(f"Merged {len(submitted)} submitted events; {len(events)} total public calendar events.")

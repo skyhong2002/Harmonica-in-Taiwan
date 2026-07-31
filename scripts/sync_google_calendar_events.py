@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import contextlib
 import csv
 import datetime as dt
 import fcntl
@@ -27,6 +28,7 @@ SCOPES = ["https://www.googleapis.com/auth/calendar"]
 PRIVATE_MARKER_KEY = "harmonicaObserve"
 PRIVATE_MARKER_VALUE = "public-calendar"
 PRIVATE_EVENT_ID_KEY = "harmonicaObserveEventId"
+DEFAULT_HISTORY_DAYS = 7
 
 
 def load_dotenv(path: Path) -> None:
@@ -260,9 +262,11 @@ def env_credentials_available() -> bool:
     )
 
 
-def existing_managed_events(service, calendar_id: str) -> dict[str, list[dict[str, Any]]]:
+def existing_managed_events(
+    service, calendar_id: str, *, history_days: int = DEFAULT_HISTORY_DAYS
+) -> dict[str, list[dict[str, Any]]]:
     now = dt.datetime.now(dt.timezone.utc)
-    time_min = (now - dt.timedelta(days=7)).isoformat().replace("+00:00", "Z")
+    time_min = (now - dt.timedelta(days=history_days)).isoformat().replace("+00:00", "Z")
     page_token = None
     found: dict[str, list[dict[str, Any]]] = {}
     while True:
@@ -285,8 +289,30 @@ def existing_managed_events(service, calendar_id: str) -> dict[str, list[dict[st
             return found
 
 
+@contextlib.contextmanager
+def sync_lock(path: Path):
+    """Serialise concurrent syncs. Skipping a run beats queueing behind a stuck one."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    handle = path.open("a+", encoding="utf-8")
+    try:
+        try:
+            fcntl.flock(handle.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except OSError:
+            yield False
+            return
+        try:
+            yield True
+        finally:
+            fcntl.flock(handle.fileno(), fcntl.LOCK_UN)
+    finally:
+        handle.close()
+
+
 def write_status(payload: dict[str, Any]) -> None:
-    STATUS_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    STATUS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    tmp = STATUS_PATH.with_suffix(STATUS_PATH.suffix + ".tmp")
+    tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    tmp.replace(STATUS_PATH)
 
 
 def metadata_events_path(metadata: dict[str, str]) -> Path:
@@ -295,11 +321,17 @@ def metadata_events_path(metadata: dict[str, str]) -> Path:
     return path if path.is_absolute() else PROJECT_ROOT / path
 
 
-def sync_one_calendar(service, metadata: dict[str, str]) -> dict[str, Any]:
+def sync_one_calendar(
+    service,
+    metadata: dict[str, str],
+    *,
+    history_days: int = DEFAULT_HISTORY_DAYS,
+    allow_empty: bool = False,
+) -> dict[str, Any]:
     calendar_id = metadata["calendar_id"]
     source_events = load_events(metadata_events_path(metadata))
     sync_calendar_metadata(service, calendar_id, metadata)
-    existing = existing_managed_events(service, calendar_id)
+    existing = existing_managed_events(service, calendar_id, history_days=history_days)
     wanted_ids = {str(event.get("id") or "") for event in source_events if event.get("id")}
     result: dict[str, Any] = {
         "calendarKey": metadata.get("calendar_key") or "",
@@ -315,6 +347,16 @@ def sync_one_calendar(service, metadata: dict[str, str]) -> dict[str, Any]:
         "kept": len(wanted_ids),
         "status": "ok",
     }
+    # A build that failed halfway can leave an empty event list behind. Never let that
+    # wipe a calendar that still holds managed events; pass --allow-empty when the
+    # source really did run dry.
+    if not wanted_ids and existing and not allow_empty:
+        result["status"] = "error"
+        result["error"] = (
+            f"Source file has no events while the calendar still holds {len(existing)} "
+            "managed events; refusing to delete them. Re-run with --allow-empty if intended."
+        )
+        return result
     for event in source_events:
         event_id = str(event.get("id") or "")
         if not event_id:
@@ -369,6 +411,17 @@ def main() -> int:
     parser.add_argument("--calendar-id", default="")
     parser.add_argument("--calendar-key", default="")
     parser.add_argument("--lock-file", type=Path, default=DEFAULT_LOCK_PATH)
+    parser.add_argument(
+        "--history-days",
+        type=int,
+        default=DEFAULT_HISTORY_DAYS,
+        help="How far back to scan the calendar for managed events. Raise it to clean up old duplicates.",
+    )
+    parser.add_argument(
+        "--allow-empty",
+        action="store_true",
+        help="Let an empty source file delete every managed event instead of failing.",
+    )
     parser.add_argument("--required", action="store_true")
     args = parser.parse_args()
     load_dotenv(PROJECT_ROOT / ".env")
@@ -402,10 +455,18 @@ def main() -> int:
     lock_path = args.lock_file.expanduser()
     if not lock_path.is_absolute():
         lock_path = PROJECT_ROOT / lock_path
-    lock_path.parent.mkdir(parents=True, exist_ok=True)
-    lock_handle = lock_path.open("a+", encoding="utf-8")
-    fcntl.flock(lock_handle.fileno(), fcntl.LOCK_EX)
     status["lockFile"] = str(lock_path)
+    with sync_lock(lock_path) as acquired:
+        if not acquired:
+            status["message"] = f"Another calendar sync already holds {lock_path}; skipping this run."
+            write_status(status)
+            print(status["message"])
+            return 0
+        return run_sync(args, status, calendar_metadata_rows)
+
+
+def run_sync(args, status: dict[str, Any], calendar_metadata_rows: list[dict[str, str]]) -> int:
+    token_path = args.token.expanduser()
     try:
         from googleapiclient.discovery import build
     except ModuleNotFoundError:
@@ -419,7 +480,14 @@ def main() -> int:
     results: list[dict[str, Any]] = []
     for metadata in calendar_metadata_rows:
         try:
-            results.append(sync_one_calendar(service, metadata))
+            results.append(
+                sync_one_calendar(
+                    service,
+                    metadata,
+                    history_days=args.history_days,
+                    allow_empty=args.allow_empty,
+                )
+            )
         except Exception as exc:
             results.append(
                 {
@@ -452,8 +520,6 @@ def main() -> int:
         f"deleted={status['deleted']} duplicate_deletions={status['duplicatesDeleted']} "
         f"kept={status['kept']}"
     )
-    fcntl.flock(lock_handle.fileno(), fcntl.LOCK_UN)
-    lock_handle.close()
     return 1 if failures and args.required else 0
 
 

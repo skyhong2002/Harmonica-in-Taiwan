@@ -147,6 +147,129 @@ class PublicCalendarExtractionTests(unittest.TestCase):
 
         self.assertEqual(len(calendar.deduplicate_events(events)), 2)
 
+    def test_deduplicate_events_keeps_distinct_same_organiser_events_on_one_day(self):
+        events = [
+            {
+                "id": "concert",
+                "eventName": "新竹市立青少年口琴樂團 春季音樂會",
+                "title": "新竹市立青少年口琴樂團 春季音樂會",
+                "start": "2026-05-01",
+                "location": "新竹市文化局演藝廳",
+                "confidence": 0.9,
+                "source": "主辦單位",
+            },
+            {
+                "id": "recruitment",
+                "eventName": "新竹市立青少年口琴樂團 團員招募說明會",
+                "title": "新竹市立青少年口琴樂團 團員招募說明會",
+                "start": "2026-05-01",
+                "location": "竹科館",
+                "confidence": 0.8,
+                "source": "轉貼來源",
+            },
+        ]
+
+        self.assertEqual(
+            [event["id"] for event in calendar.deduplicate_events(events)],
+            ["concert", "recruitment"],
+        )
+
+    def test_deduplicate_events_keeps_verified_submission_over_scraped_event(self):
+        submitted = {
+            "id": "submission-1",
+            "eventName": "口琴音樂會",
+            "title": "口琴音樂會",
+            "start": "2026-09-01",
+            "location": "台北中山堂",
+            "confidence": 1.0,
+            "platform": calendar.SUBMITTED_PLATFORM,
+            "source": "臺灣口琴觀測站資料回報",
+        }
+        scraped = {
+            "id": "scraped-1",
+            "eventName": "口琴音樂會",
+            "title": "口琴音樂會",
+            "start": "2026-09-01T19:30:00+08:00",
+            "location": "台北中山堂",
+            "confidence": 1.0,
+            "source": "instagram",
+        }
+
+        self.assertEqual(calendar.deduplicate_events([submitted, scraped]), [submitted])
+        self.assertEqual(calendar.deduplicate_events([scraped, submitted]), [submitted])
+
+    def test_deduplicate_events_preserves_back_to_back_camp_sessions(self):
+        events = [
+            {
+                "id": "session-one",
+                "eventName": "口琴夏令營",
+                "title": "口琴夏令營",
+                "start": "2026-07-06",
+                "end": "2026-07-10",
+                "allDay": True,
+                "calendarType": calendar.TAIWAN_PHYSICAL,
+                "location": "臺北",
+                "confidence": 0.9,
+                "source": "主辦單位",
+            },
+            {
+                "id": "session-two",
+                "eventName": "口琴夏令營",
+                "title": "口琴夏令營",
+                "start": "2026-07-10",
+                "end": "2026-07-14",
+                "allDay": True,
+                "calendarType": calendar.TAIWAN_PHYSICAL,
+                "location": "高雄",
+                "confidence": 0.9,
+                "source": "主辦單位",
+            },
+        ]
+
+        self.assertEqual(len(calendar.deduplicate_events(events)), 2)
+
+    def test_deduplicate_events_returns_events_sorted_by_start(self):
+        events = [
+            {
+                "id": "partial-festival",
+                "eventName": "第十五届亚太口琴节",
+                "title": "第十五届亚太口琴节",
+                "start": "2026-07-23",
+                "end": "2026-07-24",
+                "allDay": True,
+                "calendarType": calendar.OVERSEAS_PHYSICAL,
+                "location": "中国江阴",
+                "confidence": 0.84,
+                "source": "轉貼來源",
+            },
+            {
+                "id": "complete-festival",
+                "eventName": "第十五屆亞太口琴節",
+                "title": "第十五屆亞太口琴節",
+                "start": "2026-07-24",
+                "end": "2026-07-29",
+                "allDay": True,
+                "calendarType": calendar.OVERSEAS_PHYSICAL,
+                "location": "中國無錫",
+                "confidence": 0.98,
+                "source": "受邀演出團體",
+            },
+            {
+                "id": "unrelated",
+                "eventName": "口琴獨奏會",
+                "title": "口琴獨奏會",
+                "start": "2026-07-23T10:00:00+08:00",
+                "location": "臺北",
+                "confidence": 0.9,
+                "source": "主辦單位",
+            },
+        ]
+
+        deduped = calendar.deduplicate_events(events)
+        starts = [event["start"] for event in deduped]
+        self.assertEqual(starts, sorted(starts))
+        self.assertEqual([event["id"] for event in deduped], ["unrelated", "complete-festival"])
+
     def test_multi_event_post_uses_candidate_specific_fields(self):
         item = {
             "source": "臺灣口琴音樂節 Taiwan Harmonica Music Festival",

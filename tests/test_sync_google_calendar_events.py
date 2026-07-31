@@ -1,4 +1,5 @@
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -130,6 +131,79 @@ class GoogleCalendarSyncTests(unittest.TestCase):
         self.assertEqual([item["eventId"] for item in service.fake_events.deleted], ["newer-copy"])
         self.assertEqual(result["duplicatesDeleted"], 1)
         self.assertEqual(result["deleted"], 1)
+
+    def test_sync_refuses_to_empty_a_calendar_when_source_has_no_events(self):
+        private = {
+            sync.PRIVATE_MARKER_KEY: sync.PRIVATE_MARKER_VALUE,
+            sync.PRIVATE_EVENT_ID_KEY: "existing-event",
+        }
+        service = FakeService(
+            [{"id": "live-copy", "created": "2026-07-01T00:00:00Z", "extendedProperties": {"private": private}}]
+        )
+        original_load_events = sync.load_events
+        try:
+            sync.load_events = lambda path: []
+            result = sync.sync_one_calendar(
+                service,
+                {
+                    "calendar_id": "calendar@example.test",
+                    "calendar_key": "taiwan",
+                    "events_path": "site/api/public-calendar-events.json",
+                },
+            )
+        finally:
+            sync.load_events = original_load_events
+
+        self.assertEqual(result["status"], "error")
+        self.assertEqual(service.fake_events.deleted, [])
+        self.assertEqual(result["deleted"], 0)
+
+    def test_allow_empty_lets_an_empty_source_clear_the_calendar(self):
+        private = {
+            sync.PRIVATE_MARKER_KEY: sync.PRIVATE_MARKER_VALUE,
+            sync.PRIVATE_EVENT_ID_KEY: "existing-event",
+        }
+        service = FakeService(
+            [{"id": "live-copy", "created": "2026-07-01T00:00:00Z", "extendedProperties": {"private": private}}]
+        )
+        original_load_events = sync.load_events
+        try:
+            sync.load_events = lambda path: []
+            result = sync.sync_one_calendar(
+                service,
+                {
+                    "calendar_id": "calendar@example.test",
+                    "calendar_key": "taiwan",
+                    "events_path": "site/api/public-calendar-events.json",
+                },
+                allow_empty=True,
+            )
+        finally:
+            sync.load_events = original_load_events
+
+        self.assertEqual(result["status"], "ok")
+        self.assertEqual([item["eventId"] for item in service.fake_events.deleted], ["live-copy"])
+        self.assertEqual(result["deleted"], 1)
+
+
+class SyncLockTests(unittest.TestCase):
+    def test_second_holder_does_not_block(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            lock_path = Path(tmp) / "nested" / "sync.lock"
+            with sync.sync_lock(lock_path) as first:
+                self.assertTrue(first)
+                with sync.sync_lock(lock_path) as second:
+                    self.assertFalse(second)
+
+    def test_lock_is_released_when_the_body_raises(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            lock_path = Path(tmp) / "sync.lock"
+            with self.assertRaises(RuntimeError):
+                with sync.sync_lock(lock_path) as acquired:
+                    self.assertTrue(acquired)
+                    raise RuntimeError("boom")
+            with sync.sync_lock(lock_path) as reacquired:
+                self.assertTrue(reacquired)
 
 
 if __name__ == "__main__":

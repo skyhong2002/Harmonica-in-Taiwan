@@ -10,6 +10,8 @@
     <array>
       <string>/Users/skyhong/.hermes/google-workspace-venv/bin/python</string>
       <string>/Users/skyhong/Documents/Harmonica-in-Taiwan/scripts/sync_google_calendar_events.py</string>
+      <string>--history-days</string>
+      <string>365</string>
       <string>--required</string>
     </array>
 
