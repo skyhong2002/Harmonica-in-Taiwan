@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T08:35:32.101865Z",
+  "generatedAt": "2026-07-31T09:08:59.505210Z",
   "source": {
     "id": 78,
     "slug": "78",
@@ -326,20 +326,6 @@
       "publishedAt": "2026-07-01T14:05:17Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/49af08e832ec54721903.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-8335a6de8e81e33d4834c81f",
-      "title": "親子百老匯大秀登場，《搶救魔幻飛船》幕後排練大公開！",
-      "excerpt": "親子百老匯大秀登場，《搶救魔幻飛船》幕後排練大公開！ 2026暑假必看感人親子劇，衛武營全新編製華麗回歸！ 劇本重塑、舞蹈進化！演員們在高強度的密集排練中，一次又一次挑戰極限，只為帶給觀眾最深刻的感官體驗。 花露露和夥伴們在宇宙旅行途中，因飛船失去啟動能量，意外降落在神祕的伊摩小鎮。原來是小鎮的悲傷能量把飛船的燃料吸走，連象徵小鎮精神的鐘塔也因神祕怪獸的出現，無法再次響起。 一場關於愛與勇氣的奇幻冒險，華麗程度堪比百老匯大秀。從走位調度到肢體律動，所有演員無一不拚盡全力，將舞蹈力度與視覺震撼推向極致！ 花露露舞台劇《搶救魔幻飛船》 7/11 衛武營戲劇…",
-      "url": "https://www.youtube.com/watch?v=OpzdPcGV40g",
-      "sourceName": "衛武營國家藝術文化中心",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-01T08:59:00Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/38cf6ada69ee91e3e647.webp",
         "width": 800,
         "height": 450
       }
