@@ -855,6 +855,92 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-182",
+      "publicId": "182",
+      "name": "布宜諾斯艾利斯口琴學校",
+      "nameEn": "Escuela de Armónica de Buenos Aires",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "學校/教學平台",
+      "country": "阿根廷",
+      "region": "阿根廷/布宜諾斯艾利斯",
+      "cityOrFocus": "口琴學校/探戈/民俗/藍調/工作坊/學生演出",
+      "structuredSummary": "口琴學校/探戈/民俗/藍調/工作坊/學生演出 / 十孔/半音階/armónica / 國際教育來源",
+      "summary": "阿根廷的十孔、半音階與armónica國際教育來源，關注口琴學校、探戈、民俗、藍調與工作坊。",
+      "keywords": "Escuela de Armónica de Buenos Aires harmonica school Argentina tango blues",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://escueladearmonicaba.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/escueladearmonicaba/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/escueladearmonicaba/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCln6Hrzz1NHq8TX5ZSQzgJQ"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-30T23:48:32+00:00",
+      "latestUpdateLocal": "2026-07-31 07:48",
+      "latestUpdateSource": "布宜諾斯艾利斯口琴學校",
+      "latestUpdateUrl": "https://www.instagram.com/stories/escueladearmonicaba/3953008135237604084/",
+      "avatarUrl": "/assets/source-avatars/0017e05d39e3b6947a30.webp",
+      "sourceInitials": "布宜",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_escueladearmonicaba",
+          "name": "布宜諾斯艾利斯口琴學校",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/escueladearmonicaba",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_escueladearmonicaba",
+          "name": "布宜諾斯艾利斯口琴學校",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "escueladearmonicaba",
+          "profileUrl": "https://www.instagram.com/escueladearmonicaba/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_escueladearmonicaba",
+          "name": "布宜諾斯艾利斯口琴學校",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "escueladearmonicaba",
+          "profileUrl": "https://www.instagram.com/escueladearmonicaba/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/escueladearmonicaba/story/0"
+        },
+        {
+          "id": "yt_ucln6hrzz1nhq8tx5zsqzgjq",
+          "name": "布宜諾斯艾利斯口琴學校",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCln6Hrzz1NHq8TX5ZSQzgJQ",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-50",
       "publicId": "50",
       "name": "Aiden Soon",
@@ -9315,92 +9401,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@chineseymcaofhongkongharmo9428",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-182",
-      "publicId": "182",
-      "name": "布宜諾斯艾利斯口琴學校",
-      "nameEn": "Escuela de Armónica de Buenos Aires",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "學校/教學平台",
-      "country": "阿根廷",
-      "region": "阿根廷/布宜諾斯艾利斯",
-      "cityOrFocus": "口琴學校/探戈/民俗/藍調/工作坊/學生演出",
-      "structuredSummary": "口琴學校/探戈/民俗/藍調/工作坊/學生演出 / 十孔/半音階/armónica / 國際教育來源",
-      "summary": "阿根廷的十孔、半音階與armónica國際教育來源，關注口琴學校、探戈、民俗、藍調與工作坊。",
-      "keywords": "Escuela de Armónica de Buenos Aires harmonica school Argentina tango blues",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://escueladearmonicaba.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/escueladearmonicaba/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/escueladearmonicaba/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCln6Hrzz1NHq8TX5ZSQzgJQ"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-06-28T21:13:06+00:00",
-      "latestUpdateLocal": "2026-06-29 05:13",
-      "latestUpdateSource": "布宜諾斯艾利斯口琴學校",
-      "latestUpdateUrl": "https://www.instagram.com/stories/escueladearmonicaba/3929737074810796929/",
-      "avatarUrl": "/assets/source-avatars/0017e05d39e3b6947a30.webp",
-      "sourceInitials": "布宜",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_escueladearmonicaba",
-          "name": "布宜諾斯艾利斯口琴學校",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/escueladearmonicaba",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_escueladearmonicaba",
-          "name": "布宜諾斯艾利斯口琴學校",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "escueladearmonicaba",
-          "profileUrl": "https://www.instagram.com/escueladearmonicaba/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_escueladearmonicaba",
-          "name": "布宜諾斯艾利斯口琴學校",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "escueladearmonicaba",
-          "profileUrl": "https://www.instagram.com/escueladearmonicaba/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/escueladearmonicaba/story/0"
-        },
-        {
-          "id": "yt_ucln6hrzz1nhq8tx5zsqzgjq",
-          "name": "布宜諾斯艾利斯口琴學校",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCln6Hrzz1NHq8TX5ZSQzgJQ",
           "feedUrl": ""
         }
       ]
