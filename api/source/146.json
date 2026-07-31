@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T13:31:59.864654Z",
+  "generatedAt": "2026-07-31T14:38:58.130809Z",
   "source": {
     "id": 146,
     "slug": "world-harmonica-festival",
     "name": "World Harmonica Festival",
     "pageUrl": "https://harmonica.observe.tw/source/146-world-harmonica-festival/"
   },
-  "items": [
-    {
-      "id": "post-2b7aff0cb2599d539519d709",
-      "title": "Taking it back to WHF 2025! 🔊🔙",
-      "excerpt": "Taking it back to WHF 2025! 🔊🔙 @liamwardmusic putting on an absolute masterclass on stage. 🚀 We’re still buzzing from the incredible talent on display last year. Tell us: What was your absolute favorite moment or performance from the festival? 👇🧐",
-      "url": "https://www.instagram.com/p/DaQJKKMtPqn/",
-      "sourceName": "World Harmonica Festival",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-01T13:40:23Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/3fc89ffeaa2bea3aeab3.webp",
-        "width": 800,
-        "height": 1422
-      }
-    }
-  ]
+  "items": []
 }
