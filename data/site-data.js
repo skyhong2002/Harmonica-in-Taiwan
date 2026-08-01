@@ -2,6 +2,231 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-01",
   "entries": [
     {
+      "id": "watchlist-107",
+      "publicId": "107",
+      "name": "Konstantin Reinfeld",
+      "nameEn": "Konstantin Reinfeld",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "德國",
+      "region": "德國",
+      "cityOrFocus": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作",
+      "structuredSummary": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作 / 半音階/十孔 / 國際演出人員/製作人/教育者",
+      "summary": "德國的半音階與十孔國際演出人員、製作人與教育者，活動脈絡包含OPUS Klassik得獎、國際獨奏與製作與教育。",
+      "keywords": "Konstantin Reinfeld harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.konstantinreinfeld.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/konstantinreinfeldofficial"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/konstantin_reinfeld/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@KonstantinReinfeld"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-01T07:14:53+00:00",
+      "latestUpdateLocal": "2026-08-01 15:14",
+      "latestUpdateSource": "Konstantin Reinfeld",
+      "latestUpdateUrl": "https://www.instagram.com/stories/konstantin_reinfeld/3953957581135772800/",
+      "avatarUrl": "/assets/source-avatars/7f55bcace9d81e8ee2e4.webp",
+      "sourceInitials": "KR",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_konstantinreinfeldofficial",
+          "name": "Konstantin Reinfeld",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/konstantinreinfeldofficial",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_konstantin_reinfeld",
+          "name": "Konstantin Reinfeld",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "konstantin_reinfeld",
+          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_konstantin_reinfeld",
+          "name": "Konstantin Reinfeld",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "konstantin_reinfeld",
+          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/konstantin_reinfeld/story/0"
+        },
+        {
+          "id": "yt_konstantinreinfeld",
+          "name": "Konstantin Reinfeld",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@KonstantinReinfeld",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-65",
+      "publicId": "65",
+      "name": "Jong-seong Park 朴鍾聲",
+      "nameEn": "Jong-seong Park",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "半音階/國際級演出",
+      "structuredSummary": "半音階/國際級演出 / 半音階 / 國際演出人員",
+      "summary": "韓國半音階口琴演奏家，活躍於國際舞台。",
+      "keywords": "Jong-seong Park 朴鍾聲 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.mnac.co.kr/jongseongpark"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonicapark/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jongseongpark_harmonicist/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/jongseongpark"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-01T05:07:15+00:00",
+      "latestUpdateLocal": "2026-08-01 13:07",
+      "latestUpdateSource": "Jong-seong Park 朴鍾聲",
+      "latestUpdateUrl": "https://www.instagram.com/stories/jongseongpark_harmonicist/3953893325543386257/",
+      "avatarUrl": "/assets/source-avatars/18b492947bf0f5db7754.webp",
+      "sourceInitials": "JSP",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "sourceSummary": "韓國半音階口琴演奏家，活躍於國際舞台。",
+      "sourceTagReason": "資料明確標註為「演奏者」與「個人」，且其專長與定位為「半音階/國際級演出」。",
+      "monitorSources": [
+        {
+          "id": "fb_harmonicapark",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonicapark",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_jongseongpark_harmonicist",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jongseongpark_harmonicist",
+          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jongseongpark_harmonicist",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jongseongpark_harmonicist",
+          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/jongseongpark_harmonicist/story/0"
+        },
+        {
+          "id": "yt_jongseongpark",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/jongseongpark",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-59",
+      "publicId": "59",
+      "name": "千賀太郎",
+      "nameEn": "Taro Senga",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "十孔/藍調",
+      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
+      "summary": "日本的十孔國際演出人員，活動脈絡包含藍調。",
+      "keywords": "千賀太郎 Taro Senga harmonica",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/taro_senga/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-01T04:56:40+00:00",
+      "latestUpdateLocal": "2026-08-01 12:56",
+      "latestUpdateSource": "千賀太郎",
+      "latestUpdateUrl": "https://www.instagram.com/stories/taro_senga/3953887999582620328/",
+      "avatarUrl": "/assets/source-avatars/5543138071fab2b371b8.webp",
+      "sourceInitials": "千賀",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_taro_senga",
+          "name": "千賀太郎",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "taro_senga",
+          "profileUrl": "https://www.instagram.com/taro_senga/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/taro_senga/story/0"
+        },
+        {
+          "id": "ig_taro_senga",
+          "name": "千賀太郎",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taro_senga",
+          "profileUrl": "https://www.instagram.com/taro_senga/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-33",
       "publicId": "33",
       "name": "黃冠誌",
@@ -485,6 +710,101 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_profile",
           "username": "yenmingchen",
           "profileUrl": "https://www.instagram.com/yenmingchen/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-103",
+      "publicId": "103",
+      "name": "陳瑤容 Yora Chen",
+      "nameEn": "Yora Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "鋼琴合作/編曲創作/口琴合作",
+      "structuredSummary": "鋼琴合作/編曲創作/口琴合作 / 鋼琴/編曲/口琴合作 / 合作音樂家/編曲者",
+      "summary": "臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。",
+      "keywords": "Yora Chen 陳瑤容 陳瑶容 口琴 編曲 鋼琴合作 111 Quintet",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://portaly.cc/YoraChen"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/aike9115"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/_yora._/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@iamxyora"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@_yora._"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-01T02:06:28+00:00",
+      "latestUpdateLocal": "2026-08-01 10:06",
+      "latestUpdateSource": "陳瑤容 Yora Chen",
+      "latestUpdateUrl": "https://www.instagram.com/stories/_yora._/3953802339281888161/",
+      "avatarUrl": "/assets/source-avatars/e7d643f1336f47fcdee2.webp",
+      "sourceInitials": "YC",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_aike9115",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/aike9115",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "_yora._",
+          "profileUrl": "https://www.instagram.com/_yora._/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/_yora._/story/0"
+        },
+        {
+          "id": "ig_yora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "_yora._",
+          "profileUrl": "https://www.instagram.com/_yora._/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_yora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "threads",
+          "type": "rss",
+          "username": "_yora._",
+          "profileUrl": "https://www.threads.net/@_yora._",
+          "feedUrl": "https://rss.observe.tw/threads/_yora._"
+        },
+        {
+          "id": "yt_iamxyora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@iamxyora",
           "feedUrl": ""
         }
       ]
@@ -990,91 +1310,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-107",
-      "publicId": "107",
-      "name": "Konstantin Reinfeld",
-      "nameEn": "Konstantin Reinfeld",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "德國",
-      "region": "德國",
-      "cityOrFocus": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作",
-      "structuredSummary": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作 / 半音階/十孔 / 國際演出人員/製作人/教育者",
-      "summary": "德國的半音階與十孔國際演出人員、製作人與教育者，活動脈絡包含OPUS Klassik得獎、國際獨奏與製作與教育。",
-      "keywords": "Konstantin Reinfeld harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.konstantinreinfeld.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/konstantinreinfeldofficial"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/konstantin_reinfeld/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@KonstantinReinfeld"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-31T18:28:50+00:00",
-      "latestUpdateLocal": "2026-08-01 02:28",
-      "latestUpdateSource": "Konstantin Reinfeld",
-      "latestUpdateUrl": "https://www.instagram.com/stories/konstantin_reinfeld/3953572049964739655/",
-      "avatarUrl": "/assets/source-avatars/7f55bcace9d81e8ee2e4.webp",
-      "sourceInitials": "KR",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_konstantinreinfeldofficial",
-          "name": "Konstantin Reinfeld",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/konstantinreinfeldofficial",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_konstantin_reinfeld",
-          "name": "Konstantin Reinfeld",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "konstantin_reinfeld",
-          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_konstantin_reinfeld",
-          "name": "Konstantin Reinfeld",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "konstantin_reinfeld",
-          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/konstantin_reinfeld/story/0"
-        },
-        {
-          "id": "yt_konstantinreinfeld",
-          "name": "Konstantin Reinfeld",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@KonstantinReinfeld",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-101",
       "publicId": "101",
       "name": "何家健 HarmoniKahkean",
@@ -1154,60 +1389,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@hokahkean1999",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-59",
-      "publicId": "59",
-      "name": "千賀太郎",
-      "nameEn": "Taro Senga",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "十孔/藍調",
-      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
-      "summary": "日本的十孔國際演出人員，活動脈絡包含藍調。",
-      "keywords": "千賀太郎 Taro Senga harmonica",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/taro_senga/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-31T16:17:00+00:00",
-      "latestUpdateLocal": "2026-08-01 00:17",
-      "latestUpdateSource": "千賀太郎",
-      "latestUpdateUrl": "https://www.instagram.com/stories/taro_senga/3953505644422600382/",
-      "avatarUrl": "/assets/source-avatars/5543138071fab2b371b8.webp",
-      "sourceInitials": "千賀",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_taro_senga",
-          "name": "千賀太郎",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "taro_senga",
-          "profileUrl": "https://www.instagram.com/taro_senga/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/taro_senga/story/0"
-        },
-        {
-          "id": "ig_taro_senga",
-          "name": "千賀太郎",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "taro_senga",
-          "profileUrl": "https://www.instagram.com/taro_senga/",
           "feedUrl": ""
         }
       ]
@@ -2114,92 +2295,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@GregoireMaret",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-65",
-      "publicId": "65",
-      "name": "Jong-seong Park 朴鍾聲",
-      "nameEn": "Jong-seong Park",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "半音階/國際級演出",
-      "structuredSummary": "半音階/國際級演出 / 半音階 / 國際演出人員",
-      "summary": "韓國半音階口琴演奏家，活躍於國際舞台。",
-      "keywords": "Jong-seong Park 朴鍾聲 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.mnac.co.kr/jongseongpark"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonicapark/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jongseongpark_harmonicist/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/jongseongpark"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-31T12:48:06+00:00",
-      "latestUpdateLocal": "2026-07-31 20:48",
-      "latestUpdateSource": "Jong-seong Park 朴鍾聲",
-      "latestUpdateUrl": "https://www.instagram.com/stories/jongseongpark_harmonicist/3953400502096297189/",
-      "avatarUrl": "/assets/source-avatars/595074dfc1de3df28c65.webp",
-      "sourceInitials": "JSP",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "sourceSummary": "韓國半音階口琴演奏家，活躍於國際舞台。",
-      "sourceTagReason": "資料明確標註為「演奏者」與「個人」，且其專長與定位為「半音階/國際級演出」。",
-      "monitorSources": [
-        {
-          "id": "fb_harmonicapark",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonicapark",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_jongseongpark_harmonicist",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jongseongpark_harmonicist",
-          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jongseongpark_harmonicist",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jongseongpark_harmonicist",
-          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jongseongpark_harmonicist/story/0"
-        },
-        {
-          "id": "yt_jongseongpark",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/jongseongpark",
           "feedUrl": ""
         }
       ]
@@ -3214,101 +3309,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@ChaotengChang",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-103",
-      "publicId": "103",
-      "name": "陳瑤容 Yora Chen",
-      "nameEn": "Yora Chen",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "鋼琴合作/編曲創作/口琴合作",
-      "structuredSummary": "鋼琴合作/編曲創作/口琴合作 / 鋼琴/編曲/口琴合作 / 合作音樂家/編曲者",
-      "summary": "臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。",
-      "keywords": "Yora Chen 陳瑤容 陳瑶容 口琴 編曲 鋼琴合作 111 Quintet",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/YoraChen"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/aike9115"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/_yora._/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@iamxyora"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@_yora._"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-31T05:19:49+00:00",
-      "latestUpdateLocal": "2026-07-31 13:19",
-      "latestUpdateSource": "陳瑤容 Yora Chen",
-      "latestUpdateUrl": "https://www.instagram.com/stories/_yora._/3953174916601290246/",
-      "avatarUrl": "/assets/source-avatars/e7d643f1336f47fcdee2.webp",
-      "sourceInitials": "YC",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_aike9115",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/aike9115",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_yora",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "_yora._",
-          "profileUrl": "https://www.instagram.com/_yora._/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/_yora._/story/0"
-        },
-        {
-          "id": "ig_yora",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "_yora._",
-          "profileUrl": "https://www.instagram.com/_yora._/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_yora",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "threads",
-          "type": "rss",
-          "username": "_yora._",
-          "profileUrl": "https://www.threads.net/@_yora._",
-          "feedUrl": "https://rss.observe.tw/threads/_yora._"
-        },
-        {
-          "id": "yt_iamxyora",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@iamxyora",
           "feedUrl": ""
         }
       ]
@@ -5213,7 +5213,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-30 13:13",
       "latestUpdateSource": "Harmonica FEN 口琴節與學院",
       "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_fen_festival/3952447024704012304/",
-      "avatarUrl": "/assets/source-avatars/592a4c11d6fb56190c0b.webp",
+      "avatarUrl": "/assets/source-avatars/1a7596a6364e5b2f2c95.webp",
       "sourceInitials": "HF",
       "sourceTags": [
         "活動資訊",
@@ -5348,7 +5348,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-30 11:39",
       "latestUpdateSource": "臺灣口琴音樂節 THMF",
       "latestUpdateUrl": "https://www.instagram.com/p/DbZvnL4E4fX/",
-      "avatarUrl": "/assets/source-avatars/0e3a20428eebd2d34ba7.webp",
+      "avatarUrl": "/assets/source-avatars/bfc666c0dc3ef1faa877.webp",
       "sourceInitials": "T",
       "sourceTags": [
         "活動資訊",
