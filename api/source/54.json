@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T04:19:04.332093Z",
+  "generatedAt": "2026-08-01T05:24:38.910523Z",
   "source": {
     "id": 54,
     "slug": "cy-leo",
@@ -188,20 +188,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/dc1ccc625238a2d48734.webp",
         "width": 800,
         "height": 450
-      }
-    },
-    {
-      "id": "post-0120a457620d63fe143c62eb",
-      "title": "Night run at 飛鵝山",
-      "excerpt": "Night run at 飛鵝山 58mins from 佐敦谷 to peak￼",
-      "url": "https://www.facebook.com/Cyleoharmonica/posts/pfbid02cC4PZJhNRNy2A3D5ciNJtF3ZFCPjh74GBgPPHxXDQwmEQnZepGDTDMqg4A5GHEMMl",
-      "sourceName": "CY Leo 何卓彥",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-02T04:56:48Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/dfb402cc47afea6bed5c.webp",
-        "width": 332,
-        "height": 590
       }
     }
   ]
