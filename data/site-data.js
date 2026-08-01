@@ -2,6 +2,348 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-01",
   "entries": [
     {
+      "id": "watchlist-58",
+      "publicId": "58",
+      "name": "南里沙",
+      "nameEn": "Minami Risa",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
+      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
+      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
+      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://minamirisa.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/minamirisa/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/minami_risa/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@minamirisa"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/minami_risa"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@minami_risa"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-01T12:20:36+00:00",
+      "latestUpdateLocal": "2026-08-01 20:20",
+      "latestUpdateSource": "南里沙",
+      "latestUpdateUrl": "https://x.com/minami_risa/status/2083528320592068671",
+      "avatarUrl": "/assets/source-avatars/b8b2404027f96fb5477a.webp",
+      "sourceInitials": "南里",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_minamirisa",
+          "name": "南里沙",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/minamirisa",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
+        },
+        {
+          "id": "x_minami_risa",
+          "name": "南里沙",
+          "platform": "x",
+          "type": "rss",
+          "username": "minami_risa",
+          "profileUrl": "https://x.com/minami_risa",
+          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
+        },
+        {
+          "id": "yt_minamirisa",
+          "name": "南里沙",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@minamirisa",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-187",
+      "publicId": "187",
+      "name": "中山醫藍韻口琴社",
+      "nameEn": "CSMU Blue Melody",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "中山醫學大學/學校社團/臺中",
+      "structuredSummary": "中山醫學大學/學校社團/臺中 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "中山醫藍韻口琴社 CSMU Blue Melody 口琴社",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://powerup.csmu.edu.tw/Act/act_Info/c75b7f5a-53e4-4bf9-b3d9-5af47d787fba"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/BMHarmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/csmu_bluemelody/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@csmu_bluemelody"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-01T12:20:10+00:00",
+      "latestUpdateLocal": "2026-08-01 20:20",
+      "latestUpdateSource": "中山醫藍韻口琴社",
+      "latestUpdateUrl": "https://www.threads.com/t/Dbf0zPDmAdV",
+      "avatarUrl": "/assets/source-avatars/c7978aa9fb61dbd1b5f3.webp",
+      "sourceInitials": "中山",
+      "sourceTags": [
+        "學生社團",
+        "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_csmu_bmharmonica",
+          "name": "CSMU Blue Melody",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_csmu_bluemelody",
+          "name": "CSMU Blue Melody",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "csmu_bluemelody",
+          "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_csmu_bluemelody",
+          "name": "中山醫藍韻口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "csmu_bluemelody",
+          "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/csmu_bluemelody/story/0"
+        },
+        {
+          "id": "threads_csmu_bluemelody",
+          "name": "中山醫藍韻口琴社",
+          "platform": "threads",
+          "type": "rss",
+          "username": "csmu_bluemelody",
+          "profileUrl": "https://www.threads.net/@csmu_bluemelody",
+          "feedUrl": "https://rss.observe.tw/threads/csmu_bluemelody"
+        },
+        {
+          "id": "yt_10f4784559",
+          "name": "中山醫藍韻口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-68",
+      "publicId": "68",
+      "name": "Gordon Lee 李俊樂",
+      "nameEn": "Gordon Lee",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/THMC嘉賓/評審",
+      "structuredSummary": "半音階/THMC嘉賓/評審 / 半音階 / 國際演出人員/評審",
+      "summary": "香港半音階口琴演奏者，擔任國際比賽嘉賓與評審。",
+      "keywords": "Gordon Lee 李俊樂 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hkco.org/tc/Other-Members/Gordon-Lee.html"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/gordonleeharmonicist/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/gordonleeharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/Harmonicagor"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-01T11:18:26+00:00",
+      "latestUpdateLocal": "2026-08-01 19:18",
+      "latestUpdateSource": "Gordon Lee 李俊樂",
+      "latestUpdateUrl": "https://www.instagram.com/stories/gordonleeharmonica/3954080156819695174/",
+      "avatarUrl": "/assets/source-avatars/cd3038470adf7d527173.webp",
+      "sourceInitials": "GL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "sourceSummary": "香港半音階口琴演奏者，擔任國際比賽嘉賓與評審。",
+      "sourceTagReason": "資料明確標註為「演奏者」及「半音階」，並提及國際演出與評審角色，故優先標註演奏者、口琴、半音階及國際交流。",
+      "monitorSources": [
+        {
+          "id": "fb_gordonleeharmonicist",
+          "name": "Gordon Lee 李俊樂",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/gordonleeharmonicist",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_gordonleeharmonica",
+          "name": "Gordon Lee 李俊樂",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "gordonleeharmonica",
+          "profileUrl": "https://www.instagram.com/gordonleeharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_gordonleeharmonica",
+          "name": "Gordon Lee 李俊樂",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "gordonleeharmonica",
+          "profileUrl": "https://www.instagram.com/gordonleeharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/gordonleeharmonica/story/0"
+        },
+        {
+          "id": "yt_harmonicagor",
+          "name": "Gordon Lee 李俊樂",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/Harmonicagor",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-225",
+      "publicId": "225",
+      "name": "408 Harmonica Ensemble",
+      "nameEn": "408 Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "香港口琴六重奏/重奏/演出",
+      "structuredSummary": "香港口琴六重奏/重奏/演出 / 半音階/和弦/倍低音/口琴重奏 / 國際演出團體",
+      "summary": "香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。",
+      "keywords": "408 Harmonica Ensemble Hong Kong cy_long biscuit_1217 an_arthur__1 char1am_ ryaantheguy windh_y10 香港 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/408.harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-01T08:18:44+00:00",
+      "latestUpdateLocal": "2026-08-01 16:18",
+      "latestUpdateSource": "408 Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/stories/408.harmonica/3953989707989953444/",
+      "avatarUrl": "/assets/source-avatars/ab8417f459b57ad3eb05.webp",
+      "sourceInitials": "4HE",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "和弦",
+        "低音",
+        "重奏",
+        "演出"
+      ],
+      "sourceSummary": "香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。",
+      "sourceTagReason": "整合自團體官方 Instagram 自介與成員編制貼文。",
+      "monitorSources": [
+        {
+          "id": "ig_408_harmonica",
+          "name": "408 Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "408.harmonica",
+          "profileUrl": "https://www.instagram.com/408.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_408_harmonica",
+          "name": "408 Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "408.harmonica",
+          "profileUrl": "https://www.instagram.com/408.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/408.harmonica/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-107",
       "publicId": "107",
       "name": "Konstantin Reinfeld",
@@ -1160,6 +1502,91 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-118",
+      "publicId": "118",
+      "name": "Federico Linari",
+      "nameEn": "Federico Linari",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "阿根廷",
+      "region": "阿根廷",
+      "cityOrFocus": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源",
+      "structuredSummary": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源 / 十孔/爵士口琴 / 國際演出人員/教學者/製作人",
+      "summary": "阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。",
+      "keywords": "Federico Linari harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hohner.de/en/federico-linari"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Federico.Linari.Armonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/fede.linari/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@FedericoLinari"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-01T00:21:36+00:00",
+      "latestUpdateLocal": "2026-08-01 08:21",
+      "latestUpdateSource": "Federico Linari",
+      "latestUpdateUrl": "https://www.instagram.com/stories/fede.linari/3953749564670970251/",
+      "avatarUrl": "/assets/source-avatars/d950d0555577280a56e0.webp",
+      "sourceInitials": "FL",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_federico_linari_armonica",
+          "name": "Federico Linari",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Federico.Linari.Armonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_fede_linari",
+          "name": "Federico Linari",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "fede.linari",
+          "profileUrl": "https://www.instagram.com/fede.linari/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_fede_linari",
+          "name": "Federico Linari",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "fede.linari",
+          "profileUrl": "https://www.instagram.com/fede.linari/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/fede.linari/story/0"
+        },
+        {
+          "id": "yt_federicolinari",
+          "name": "Federico Linari",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@FedericoLinari",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-42",
       "publicId": "42",
       "name": "王心禾",
@@ -1305,92 +1732,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/YoonseokLee_HARMONICA",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-68",
-      "publicId": "68",
-      "name": "Gordon Lee 李俊樂",
-      "nameEn": "Gordon Lee",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/THMC嘉賓/評審",
-      "structuredSummary": "半音階/THMC嘉賓/評審 / 半音階 / 國際演出人員/評審",
-      "summary": "香港半音階口琴演奏者，擔任國際比賽嘉賓與評審。",
-      "keywords": "Gordon Lee 李俊樂 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hkco.org/tc/Other-Members/Gordon-Lee.html"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/gordonleeharmonicist/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/gordonleeharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/Harmonicagor"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-31T22:25:20+00:00",
-      "latestUpdateLocal": "2026-08-01 06:25",
-      "latestUpdateSource": "Gordon Lee 李俊樂",
-      "latestUpdateUrl": "https://www.instagram.com/stories/gordonleeharmonica/3953691035792783365/",
-      "avatarUrl": "/assets/source-avatars/cd3038470adf7d527173.webp",
-      "sourceInitials": "GL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "sourceSummary": "香港半音階口琴演奏者，擔任國際比賽嘉賓與評審。",
-      "sourceTagReason": "資料明確標註為「演奏者」及「半音階」，並提及國際演出與評審角色，故優先標註演奏者、口琴、半音階及國際交流。",
-      "monitorSources": [
-        {
-          "id": "fb_gordonleeharmonicist",
-          "name": "Gordon Lee 李俊樂",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/gordonleeharmonicist",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_gordonleeharmonica",
-          "name": "Gordon Lee 李俊樂",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "gordonleeharmonica",
-          "profileUrl": "https://www.instagram.com/gordonleeharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_gordonleeharmonica",
-          "name": "Gordon Lee 李俊樂",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "gordonleeharmonica",
-          "profileUrl": "https://www.instagram.com/gordonleeharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/gordonleeharmonica/story/0"
-        },
-        {
-          "id": "yt_harmonicagor",
-          "name": "Gordon Lee 李俊樂",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/Harmonicagor",
           "feedUrl": ""
         }
       ]
@@ -3440,7 +3781,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-31 12:31",
       "latestUpdateSource": "Timothy Yip 葉進禧",
       "latestUpdateUrl": "https://www.instagram.com/stories/timothyyip_harmonica/3953150383180058102/",
-      "avatarUrl": "/assets/source-avatars/3606a2652c039aa108ce.webp",
+      "avatarUrl": "/assets/source-avatars/1aa2d7fda26dc9526856.webp",
       "sourceInitials": "TY",
       "sourceTags": [
         "演奏者",
@@ -3831,107 +4172,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-58",
-      "publicId": "58",
-      "name": "南里沙",
-      "nameEn": "Minami Risa",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
-      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
-      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://minamirisa.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/minamirisa/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/minami_risa/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@minamirisa"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/minami_risa"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@minami_risa"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-31T02:00:24+00:00",
-      "latestUpdateLocal": "2026-07-31 10:00",
-      "latestUpdateSource": "南里沙",
-      "latestUpdateUrl": "https://x.com/minami_risa/status/2083009854462218712",
-      "avatarUrl": "/assets/source-avatars/b8b2404027f96fb5477a.webp",
-      "sourceInitials": "南里",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_minamirisa",
-          "name": "南里沙",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/minamirisa",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
-        },
-        {
-          "id": "x_minami_risa",
-          "name": "南里沙",
-          "platform": "x",
-          "type": "rss",
-          "username": "minami_risa",
-          "profileUrl": "https://x.com/minami_risa",
-          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
-        },
-        {
-          "id": "yt_minamirisa",
-          "name": "南里沙",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@minamirisa",
           "feedUrl": ""
         }
       ]
@@ -5999,91 +6239,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-118",
-      "publicId": "118",
-      "name": "Federico Linari",
-      "nameEn": "Federico Linari",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "阿根廷",
-      "region": "阿根廷",
-      "cityOrFocus": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源",
-      "structuredSummary": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源 / 十孔/爵士口琴 / 國際演出人員/教學者/製作人",
-      "summary": "阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。",
-      "keywords": "Federico Linari harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hohner.de/en/federico-linari"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Federico.Linari.Armonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/fede.linari/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@FedericoLinari"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-28T21:45:17+00:00",
-      "latestUpdateLocal": "2026-07-29 05:45",
-      "latestUpdateSource": "Federico Linari",
-      "latestUpdateUrl": "https://www.instagram.com/stories/fede.linari/3951496583657367121/",
-      "avatarUrl": "/assets/source-avatars/d950d0555577280a56e0.webp",
-      "sourceInitials": "FL",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_federico_linari_armonica",
-          "name": "Federico Linari",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Federico.Linari.Armonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_fede_linari",
-          "name": "Federico Linari",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "fede.linari",
-          "profileUrl": "https://www.instagram.com/fede.linari/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_fede_linari",
-          "name": "Federico Linari",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "fede.linari",
-          "profileUrl": "https://www.instagram.com/fede.linari/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/fede.linari/story/0"
-        },
-        {
-          "id": "yt_federicolinari",
-          "name": "Federico Linari",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@FedericoLinari",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-18",
       "publicId": "18",
       "name": "Up Side Down",
@@ -7545,102 +7700,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "fanhsiaoyi",
           "profileUrl": "https://www.threads.net/@fanhsiaoyi",
           "feedUrl": "https://rss.observe.tw/threads/fanhsiaoyi"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-187",
-      "publicId": "187",
-      "name": "中山醫藍韻口琴社",
-      "nameEn": "CSMU Blue Melody",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "中山醫學大學/學校社團/臺中",
-      "structuredSummary": "中山醫學大學/學校社團/臺中 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "中山醫藍韻口琴社 CSMU Blue Melody 口琴社",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://powerup.csmu.edu.tw/Act/act_Info/c75b7f5a-53e4-4bf9-b3d9-5af47d787fba"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/BMHarmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/csmu_bluemelody/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@csmu_bluemelody"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-22T04:30:35+00:00",
-      "latestUpdateLocal": "2026-07-22 12:30",
-      "latestUpdateSource": "中山醫藍韻口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/stories/csmu_bluemelody/3946627128573622072/",
-      "avatarUrl": "/assets/source-avatars/c7978aa9fb61dbd1b5f3.webp",
-      "sourceInitials": "中山",
-      "sourceTags": [
-        "學生社團",
-        "大專社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_csmu_bmharmonica",
-          "name": "CSMU Blue Melody",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_csmu_bluemelody",
-          "name": "CSMU Blue Melody",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "csmu_bluemelody",
-          "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_csmu_bluemelody",
-          "name": "中山醫藍韻口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "csmu_bluemelody",
-          "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/csmu_bluemelody/story/0"
-        },
-        {
-          "id": "threads_csmu_bluemelody",
-          "name": "中山醫藍韻口琴社",
-          "platform": "threads",
-          "type": "rss",
-          "username": "csmu_bluemelody",
-          "profileUrl": "https://www.threads.net/@csmu_bluemelody",
-          "feedUrl": "https://rss.observe.tw/threads/csmu_bluemelody"
-        },
-        {
-          "id": "yt_10f4784559",
-          "name": "中山醫藍韻口琴社",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4",
-          "feedUrl": ""
         }
       ]
     },
@@ -11732,65 +11791,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@SIHF-uv5mk",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-225",
-      "publicId": "225",
-      "name": "408 Harmonica Ensemble",
-      "nameEn": "408 Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "香港口琴六重奏/重奏/演出",
-      "structuredSummary": "香港口琴六重奏/重奏/演出 / 半音階/和弦/倍低音/口琴重奏 / 國際演出團體",
-      "summary": "香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。",
-      "keywords": "408 Harmonica Ensemble Hong Kong cy_long biscuit_1217 an_arthur__1 char1am_ ryaantheguy windh_y10 香港 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/408.harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/ab8417f459b57ad3eb05.webp",
-      "sourceInitials": "4HE",
-      "sourceTags": [
-        "團體樂團",
-        "半音階",
-        "和弦",
-        "低音",
-        "重奏",
-        "演出"
-      ],
-      "sourceSummary": "香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。",
-      "sourceTagReason": "整合自團體官方 Instagram 自介與成員編制貼文。",
-      "monitorSources": [
-        {
-          "id": "ig_408_harmonica",
-          "name": "408 Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "408.harmonica",
-          "profileUrl": "https://www.instagram.com/408.harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_408_harmonica",
-          "name": "408 Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "408.harmonica",
-          "profileUrl": "https://www.instagram.com/408.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/408.harmonica/story/0"
         }
       ]
     },

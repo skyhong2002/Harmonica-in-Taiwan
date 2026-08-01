@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T11:27:20.368344Z",
+  "generatedAt": "2026-08-01T12:33:10.719874Z",
   "source": {
     "id": 30,
     "slug": "30",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/30/"
   },
   "items": [
+    {
+      "id": "post-d583f0d7d97321dc2b222b68",
+      "title": "☀️ Summertime is festival time! 🎶",
+      "excerpt": "☀️ Summertime is festival time! 🎶 This week, we’re bringing the sound of the harmonica to Seoul for the SIHF Festival 🇰🇷🎵 We’re excited to meet musicians, artists, and everyone who shares our passion for this amazing little instrument with a big voice. 💙 Come by, say hello, try…",
+      "url": "https://www.instagram.com/p/Dbe6Nr-ie_m/",
+      "sourceName": "蔡明憲",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-01T03:54:31Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2c677db4ac52487a3853.webp",
+        "width": 720,
+        "height": 1280
+      }
+    },
     {
       "id": "post-a8764e7ede13ef0b76d96183",
       "title": "每年夏季都在創歷史忙碌新高點，這場前導音樂會演出主要都是來自雲林的新生代，經歷過十幾年的教學終於累積出了一點成果。",

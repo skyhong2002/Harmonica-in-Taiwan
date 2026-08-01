@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T11:27:20.368344Z",
+  "generatedAt": "2026-08-01T12:33:10.719874Z",
   "source": {
     "id": 10,
     "slug": "rolabo-lin",
     "name": "林家靖 Rolabo Lin",
     "pageUrl": "https://harmonica.observe.tw/source/10-rolabo-lin/"
   },
-  "items": [
-    {
-      "id": "post-f0d7309101ae39adb4027b8d",
-      "title": "第二本複音口琴獨奏譜集《推拉式分解和弦》正在如火如荼的進入最終檢查階段，這邊先跟大家分享曲目以及使用調性。承襲《舌頭殺手》後期使用少量口琴的演奏風格，這次樂曲也多在挖掘單把口琴的演奏極限，因此使用的調性並不多，希望能推廣給更多複音口琴的演…",
-      "excerpt": "第二本複音口琴獨奏譜集《推拉式分解和弦》正在如火如荼的進入最終檢查階段，這邊先跟大家分享曲目以及使用調性。承襲《舌頭殺手》後期使用少量口琴的演奏風格，這次樂曲也多在挖掘單把口琴的演奏極限，因此使用的調性並不多，希望能推廣給更多複音口琴的演奏者使用。 The second volume of my tremolo harmonica solo music score book, Push-Pull Arpeggios, is now in its final check stage. I would like to take this chance to…",
-      "url": "https://www.facebook.com/HarmonicaLin/posts/pfbid0eDgScWN7E8M3SJuRF8FZZpL2gZUrNv4v76B82gHAjT4jyAGy2yjfHB1HDQeHn4AJl",
-      "sourceName": "林家靖 Rolabo Lin",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-02T11:33:13Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/d5716c1481f0f377ee35.webp",
-        "width": 509,
-        "height": 720
-      }
-    }
-  ]
+  "items": []
 }
