@@ -65,6 +65,92 @@
   },
   "entries": [
     {
+      "id": "watchlist-68",
+      "publicId": "68",
+      "name": "Gordon Lee 李俊樂",
+      "nameEn": "Gordon Lee",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/THMC嘉賓/評審",
+      "structuredSummary": "半音階/THMC嘉賓/評審 / 半音階 / 國際演出人員/評審",
+      "summary": "香港半音階口琴演奏者，擔任國際比賽嘉賓與評審。",
+      "keywords": "Gordon Lee 李俊樂 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hkco.org/tc/Other-Members/Gordon-Lee.html"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/gordonleeharmonicist/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/gordonleeharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/Harmonicagor"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-31T22:25:20+00:00",
+      "latestUpdateLocal": "2026-08-01 06:25",
+      "latestUpdateSource": "Gordon Lee 李俊樂",
+      "latestUpdateUrl": "https://www.instagram.com/stories/gordonleeharmonica/3953691035792783365/",
+      "avatarUrl": "/assets/source-avatars/cd3038470adf7d527173.webp",
+      "sourceInitials": "GL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "sourceSummary": "香港半音階口琴演奏者，擔任國際比賽嘉賓與評審。",
+      "sourceTagReason": "資料明確標註為「演奏者」及「半音階」，並提及國際演出與評審角色，故優先標註演奏者、口琴、半音階及國際交流。",
+      "monitorSources": [
+        {
+          "id": "fb_gordonleeharmonicist",
+          "name": "Gordon Lee 李俊樂",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/gordonleeharmonicist",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_gordonleeharmonica",
+          "name": "Gordon Lee 李俊樂",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "gordonleeharmonica",
+          "profileUrl": "https://www.instagram.com/gordonleeharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_gordonleeharmonica",
+          "name": "Gordon Lee 李俊樂",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "gordonleeharmonica",
+          "profileUrl": "https://www.instagram.com/gordonleeharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/gordonleeharmonica/story/0"
+        },
+        {
+          "id": "yt_harmonicagor",
+          "name": "Gordon Lee 李俊樂",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/Harmonicagor",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-107",
       "publicId": "107",
       "name": "Konstantin Reinfeld",
@@ -276,6 +362,90 @@
       ]
     },
     {
+      "id": "watchlist-171",
+      "publicId": "171",
+      "name": "口琴保存與推廣協會 SPAH",
+      "nameEn": "Society for the Preservation and Advancement of the Harmonica",
+      "category": "活動資訊",
+      "type": "協會",
+      "originalType": "協會/活動",
+      "country": "美國",
+      "region": "美國/密蘇里",
+      "cityOrFocus": "SPAH convention/教育/青年獎學金/社群俱樂部",
+      "structuredSummary": "SPAH convention/教育/青年獎學金/社群俱樂部 / 口琴 / 國際協會/活動來源",
+      "summary": "美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。",
+      "keywords": "SPAH Society for the Preservation and Advancement of the Harmonica convention youth scholarships",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://spah.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/SPAH63/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/official_spah63/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-31T15:22:26+00:00",
+      "latestUpdateLocal": "2026-07-31 23:22",
+      "latestUpdateSource": "口琴保存與推廣協會 SPAH",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbdktzOKAxE/",
+      "avatarUrl": "/assets/source-avatars/f14cdd8896d09008d5d5.webp",
+      "sourceInitials": "S",
+      "sourceTags": [
+        "協會",
+        "活動資訊",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/SPAH63",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_official_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "official_spah63",
+          "profileUrl": "https://www.instagram.com/official_spah63/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_official_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "official_spah63",
+          "profileUrl": "https://www.instagram.com/official_spah63/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/official_spah63/story/0"
+        },
+        {
+          "id": "yt_ucbjlie6bvgh8jhvco_xltsg",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-108",
       "publicId": "108",
       "name": "Rodrigo Eberienos",
@@ -430,6 +600,93 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@fengchiaharmonicaclub7692",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-54",
+      "publicId": "54",
+      "name": "CY Leo 何卓彥",
+      "nameEn": "CY Leo",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/現代跨界",
+      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
+      "summary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
+      "keywords": "CY Leo 何卓彥 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.cyleomusic.io/profile"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Cyleoharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cy_leo/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@cyleoharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-31T14:08:13+00:00",
+      "latestUpdateLocal": "2026-07-31 22:08",
+      "latestUpdateSource": "CY Leo 何卓彥",
+      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3953440822274514970/",
+      "avatarUrl": "/assets/source-avatars/69f28ca391ec2273858c.webp",
+      "sourceInitials": "CL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
+      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
+      "monitorSources": [
+        {
+          "id": "fb_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Cyleoharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
+        },
+        {
+          "id": "yt_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@cyleoharmonica",
           "feedUrl": ""
         }
       ]
@@ -1274,93 +1531,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@gyeoli_94",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-54",
-      "publicId": "54",
-      "name": "CY Leo 何卓彥",
-      "nameEn": "CY Leo",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/現代跨界",
-      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
-      "summary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "keywords": "CY Leo 何卓彥 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.cyleomusic.io/profile"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Cyleoharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/cy_leo/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@cyleoharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-31T12:10:02+00:00",
-      "latestUpdateLocal": "2026-07-31 20:10",
-      "latestUpdateSource": "CY Leo 何卓彥",
-      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3953381339474704374/",
-      "avatarUrl": "/assets/source-avatars/69f28ca391ec2273858c.webp",
-      "sourceInitials": "CL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
-      "monitorSources": [
-        {
-          "id": "fb_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Cyleoharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
-        },
-        {
-          "id": "yt_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@cyleoharmonica",
           "feedUrl": ""
         }
       ]
@@ -3901,90 +4071,6 @@
       ]
     },
     {
-      "id": "watchlist-171",
-      "publicId": "171",
-      "name": "口琴保存與推廣協會 SPAH",
-      "nameEn": "Society for the Preservation and Advancement of the Harmonica",
-      "category": "活動資訊",
-      "type": "協會",
-      "originalType": "協會/活動",
-      "country": "美國",
-      "region": "美國/密蘇里",
-      "cityOrFocus": "SPAH convention/教育/青年獎學金/社群俱樂部",
-      "structuredSummary": "SPAH convention/教育/青年獎學金/社群俱樂部 / 口琴 / 國際協會/活動來源",
-      "summary": "美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。",
-      "keywords": "SPAH Society for the Preservation and Advancement of the Harmonica convention youth scholarships",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://spah.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/SPAH63/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/official_spah63/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-30T22:42:54+00:00",
-      "latestUpdateLocal": "2026-07-31 06:42",
-      "latestUpdateSource": "口琴保存與推廣協會 SPAH",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dba9F8Yq9iN/",
-      "avatarUrl": "/assets/source-avatars/f14cdd8896d09008d5d5.webp",
-      "sourceInitials": "S",
-      "sourceTags": [
-        "協會",
-        "活動資訊",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/SPAH63",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_official_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "official_spah63",
-          "profileUrl": "https://www.instagram.com/official_spah63/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_official_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "official_spah63",
-          "profileUrl": "https://www.instagram.com/official_spah63/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/official_spah63/story/0"
-        },
-        {
-          "id": "yt_ucbjlie6bvgh8jhvco_xltsg",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-153",
       "publicId": "153",
       "name": "Santiago Alvarez",
@@ -5161,92 +5247,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCaHrTB0aiwNv-9wCSeB8eKg",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-68",
-      "publicId": "68",
-      "name": "Gordon Lee 李俊樂",
-      "nameEn": "Gordon Lee",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/THMC嘉賓/評審",
-      "structuredSummary": "半音階/THMC嘉賓/評審 / 半音階 / 國際演出人員/評審",
-      "summary": "香港半音階口琴演奏者，擔任國際比賽嘉賓與評審。",
-      "keywords": "Gordon Lee 李俊樂 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hkco.org/tc/Other-Members/Gordon-Lee.html"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/gordonleeharmonicist/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/gordonleeharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/Harmonicagor"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-29T17:13:20+00:00",
-      "latestUpdateLocal": "2026-07-30 01:13",
-      "latestUpdateSource": "Gordon Lee 李俊樂",
-      "latestUpdateUrl": "https://www.instagram.com/stories/gordonleeharmonica/3952084513358235933/",
-      "avatarUrl": "/assets/source-avatars/cd3038470adf7d527173.webp",
-      "sourceInitials": "GL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "sourceSummary": "香港半音階口琴演奏者，擔任國際比賽嘉賓與評審。",
-      "sourceTagReason": "資料明確標註為「演奏者」及「半音階」，並提及國際演出與評審角色，故優先標註演奏者、口琴、半音階及國際交流。",
-      "monitorSources": [
-        {
-          "id": "fb_gordonleeharmonicist",
-          "name": "Gordon Lee 李俊樂",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/gordonleeharmonicist",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_gordonleeharmonica",
-          "name": "Gordon Lee 李俊樂",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "gordonleeharmonica",
-          "profileUrl": "https://www.instagram.com/gordonleeharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_gordonleeharmonica",
-          "name": "Gordon Lee 李俊樂",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "gordonleeharmonica",
-          "profileUrl": "https://www.instagram.com/gordonleeharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/gordonleeharmonica/story/0"
-        },
-        {
-          "id": "yt_harmonicagor",
-          "name": "Gordon Lee 李俊樂",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/Harmonicagor",
           "feedUrl": ""
         }
       ]

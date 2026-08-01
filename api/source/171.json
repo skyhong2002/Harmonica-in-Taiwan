@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-31T23:56:15.934441Z",
+  "generatedAt": "2026-08-01T01:01:07.133594Z",
   "source": {
     "id": 171,
     "slug": "society-for-the-preservation-and-advancement-of-the-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/171-society-for-the-preservation-and-advancement-of-the-harmonica/"
   },
   "items": [
+    {
+      "id": "post-99b7d676a82d57bcebb96813",
+      "title": "12 more days till they take the stage!",
+      "excerpt": "12 more days till they take the stage! #spah #joinus #harmonica #harmonicalife",
+      "url": "https://www.instagram.com/p/DbdktzOKAxE/",
+      "sourceName": "口琴保存與推廣協會 SPAH",
+      "platform": "Instagram",
+      "publishedAt": "2026-07-31T15:22:26Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/92d1152b50a0a05edc62.webp",
+        "width": 800,
+        "height": 600
+      }
+    },
     {
       "id": "post-2d8333acb8978e50f76c77e4",
       "title": "13 days till we hear some stories!",
