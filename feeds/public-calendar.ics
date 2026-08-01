@@ -6,8 +6,23 @@ METHOD:PUBLISH
 X-WR-CALNAME:臺灣口琴實體活動
 X-WR-TIMEZONE:Asia/Taipei
 BEGIN:VEVENT
+UID:27c8aa4174ca5543@harmonica.observe.tw
+DTSTAMP:20260801T020726Z
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260804
+SUMMARY:臺北樂器大展
+LOCATION:臺北市 圓山花博爭艷館
+DESCRIPTION:7/31-8/3 於圓山花博爭艷館舉辦，攤位為 M101、M102
+ 、M103。貼文提到指定口琴試吹填線上問卷可獲 HOHNER 原
+ 子筆，現場購琴有優惠。\nhttps://www.facebook.com/PeaceTones.har
+ monica/posts/pfbid02Xs7Gfa4haBVTnFPxmCZPpPXpRb9fe9VLSEKjEh8kABA7wkraE1j2Ke
+ Tm7baS4qmyl
+URL:https://www.facebook.com/PeaceTones.harmonica/posts/pfbid02Xs7Gfa4haBVT
+ nFPxmCZPpPXpRb9fe9VLSEKjEh8kABA7wkraE1j2KeTm7baS4qmyl
+END:VEVENT
+BEGIN:VEVENT
 UID:c635fbb4c2d1e633@harmonica.observe.tw
-DTSTAMP:20260801T010108Z
+DTSTAMP:20260801T020726Z
 DTSTART;TZID=Asia/Taipei:20260801T200000
 DTEND;TZID=Asia/Taipei:20260801T220000
 SUMMARY:何家健口琴四重奏：巴西計劃
@@ -19,7 +34,7 @@ URL:https://www.instagram.com/p/Da-fGjNmNs7/
 END:VEVENT
 BEGIN:VEVENT
 UID:38402b6bac884772@harmonica.observe.tw
-DTSTAMP:20260801T010108Z
+DTSTAMP:20260801T020726Z
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
 SUMMARY:審査、講座、ゲスト演奏
@@ -30,8 +45,24 @@ DESCRIPTION:貼文提到 8 月 6 日起前往臺灣，將進行審查、講
 URL:https://www.instagram.com/p/DbXIoedyMrI/
 END:VEVENT
 BEGIN:VEVENT
+UID:5ff5d2e983b9d6f5@harmonica.observe.tw
+DTSTAMP:20260801T020726Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260810
+SUMMARY:臺灣口琴音樂節
+LOCATION:新竹市 國立陽明交通大學光復校區_學生活動中心B
+ 1
+DESCRIPTION:活動日期為 8/7-8/9，地點在國立陽明交通大學光
+ 復校區學生活動中心 B1。貼文同時提到樂器展與現場限
+ 定優惠，但候選對應的是臺灣口琴音樂節。\nhttps://www.fac
+ ebook.com/PeaceTones.harmonica/posts/pfbid02Xs7Gfa4haBVTnFPxmCZPpPXpRb9fe9
+ VLSEKjEh8kABA7wkraE1j2KeTm7baS4qmyl
+URL:https://www.facebook.com/PeaceTones.harmonica/posts/pfbid02Xs7Gfa4haBVT
+ nFPxmCZPpPXpRb9fe9VLSEKjEh8kABA7wkraE1j2KeTm7baS4qmyl
+END:VEVENT
+BEGIN:VEVENT
 UID:8436208ae40d8444@harmonica.observe.tw
-DTSTAMP:20260801T010108Z
+DTSTAMP:20260801T020726Z
 DTSTART;TZID=Asia/Taipei:20260807T123000
 DTEND;TZID=Asia/Taipei:20260807T143000
 SUMMARY:午間音樂會
@@ -46,7 +77,7 @@ URL:https://www.facebook.com/twharmonica/posts/pfbid02cfUiUQecZ6P7c2MXY6MzY
 END:VEVENT
 BEGIN:VEVENT
 UID:7ee2f2b245bae865@harmonica.observe.tw
-DTSTAMP:20260801T010108Z
+DTSTAMP:20260801T020726Z
 DTSTART;TZID=Asia/Taipei:20260807T190000
 DTEND;TZID=Asia/Taipei:20260807T210000
 SUMMARY:風城Show琴 Harmonica Fest in Windy City
@@ -61,7 +92,7 @@ URL:https://www.facebook.com/twharmonica/posts/pfbid02676rr26nHtTsSNejQMDG7
 END:VEVENT
 BEGIN:VEVENT
 UID:48d83da0d3424f97@harmonica.observe.tw
-DTSTAMP:20260801T010108Z
+DTSTAMP:20260801T020726Z
 DTSTART;TZID=Asia/Taipei:20260808T190000
 DTEND;TZID=Asia/Taipei:20260808T210000
 SUMMARY:桂冠之聲 Voices of the Laureates
@@ -76,7 +107,7 @@ URL:https://www.facebook.com/twharmonica/posts/pfbid02676rr26nHtTsSNejQMDG7
 END:VEVENT
 BEGIN:VEVENT
 UID:e3d638745ae65855@harmonica.observe.tw
-DTSTAMP:20260801T010108Z
+DTSTAMP:20260801T020726Z
 DTSTART;VALUE=DATE:20260809
 DTEND;VALUE=DATE:20260810
 SUMMARY:竹韻，再次響起
@@ -89,7 +120,7 @@ URL:https://www.instagram.com/p/DbLX1c9lGv9/
 END:VEVENT
 BEGIN:VEVENT
 UID:6670d32764968444@harmonica.observe.tw
-DTSTAMP:20260801T010108Z
+DTSTAMP:20260801T020726Z
 DTSTART;TZID=Asia/Taipei:20260821T183000
 DTEND;TZID=Asia/Taipei:20260821T203000
 SUMMARY:臺中一中口琴之狼校友音樂會《天琴聲等煙雨》
@@ -102,7 +133,7 @@ URL:https://www.facebook.com/tcfsh.harmonica/posts/pfbid026TX9x37qBLk1W7jif
 END:VEVENT
 BEGIN:VEVENT
 UID:d81eaaa4a62ef0c3@harmonica.observe.tw
-DTSTAMP:20260801T010108Z
+DTSTAMP:20260801T020726Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:衛武營小時光《跟著口琴去旅行》

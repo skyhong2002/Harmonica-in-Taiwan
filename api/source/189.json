@@ -1,40 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T01:01:07.133594Z",
+  "generatedAt": "2026-08-01T02:07:14.705173Z",
   "source": {
     "id": 189,
     "slug": "fcu-harmonica",
     "name": "逢甲口琴社",
     "pageUrl": "https://harmonica.observe.tw/source/189-fcu-harmonica/"
   },
-  "items": [
-    {
-      "id": "post-c7f447b432c83272d90c6ff0",
-      "title": "［ 61st 社 友 會 ］",
-      "excerpt": "［ 61st 社 友 會 ］ 歡迎各位社友多多回來聚聚、話家常 附圖為Lumos #逢甲口琴社",
-      "url": "https://www.instagram.com/p/DaRZRa2D78H/",
-      "sourceName": "逢甲口琴社",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-02T01:18:54Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/aa280987edb44d249541.webp",
-        "width": 800,
-        "height": 600
-      }
-    },
-    {
-      "id": "post-4ce0b2434ef28972d57a3b8e",
-      "title": "［ 國 琴 論 壇 ］",
-      "excerpt": "［ 國 琴 論 壇 ］ 與國樂社合辦會有什麼音樂的火花呢？ 詳情請YT搜尋逢甲口琴社或 Yafeng FCU —————————————————- 附圖為大家都發揮自己最好的那面 Photo by @jamieget #逢甲口琴社 #雅風國樂社",
-      "url": "https://www.instagram.com/p/DaRYXR7j6Ar/",
-      "sourceName": "逢甲口琴社",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-02T01:10:58Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/31051a491d4d49bec2f2.webp",
-        "width": 800,
-        "height": 533
-      }
-    }
-  ]
+  "items": []
 }

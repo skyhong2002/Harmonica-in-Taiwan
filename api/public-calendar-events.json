@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-01T09:01:08+08:00",
+  "generatedAt": "2026-08-01T10:07:16+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 8,
+  "count": 10,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,12 +14,48 @@
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
+      "requests": 6,
       "cached": 29,
       "errors": 0
     }
   },
   "events": [
+    {
+      "id": "27c8aa4174ca5543",
+      "title": "臺北樂器大展",
+      "eventName": "臺北樂器大展",
+      "source": "音和樂器PeaceTones",
+      "platform": "facebook",
+      "start": "2026-07-31",
+      "end": "2026-08-04",
+      "allDay": true,
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "location": "臺北市 圓山花博爭艷館",
+      "venue": "圓山花博爭艷館",
+      "city": "臺北市",
+      "details": "7/31-8/3 於圓山花博爭艷館舉辦，攤位為 M101、M102、M103。貼文提到指定口琴試吹填線上問卷可獲 HOHNER 原子筆，現場購琴有優惠。",
+      "evidenceUrl": "https://www.facebook.com/PeaceTones.harmonica/posts/pfbid02Xs7Gfa4haBVTnFPxmCZPpPXpRb9fe9VLSEKjEh8kABA7wkraE1j2KeTm7baS4qmyl",
+      "confidence": 0.96,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "臺北樂器大展",
+        "venue": "圓山花博爭艷館",
+        "city": "臺北市",
+        "details": "7/31-8/3 於圓山花博爭艷館舉辦，攤位為 M101、M102、M103。貼文提到指定口琴試吹填線上問卷可獲 HOHNER 原子筆，現場購琴有優惠。",
+        "reason": "候選日期 2026-07-31 落在貼文明確列出的臺北樂器大展期間，且地點在臺灣實體場館，符合收錄範圍。",
+        "confidence": 0.96
+      },
+      "postedAt": "2026-07-31 12:04",
+      "images": [
+        "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/760503252_1538766848263579_4733013090354386980_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1228x1332&ctp=s565x565&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jAgNKfMqBzgQ7kNvwE4p71M&_nc_oc=AdrUQ0gL9LOpwwL6T7NHSZqzoJuLPFFXbZk_sr2Z2Znlm0RvcFSH3yRsPcnTJF2xbcY&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=9q1RxOITv3FsZBEZ_3BkCA&_nc_ss=72289&oh=00_AQE18wiK2SbiQbeokUUeoAv2VUEnWqpkQpohxLNjPNPkyg&oe=6A731F03"
+      ],
+      "image_url": "/assets/feed-images/9377c8de9d88a07c3ec0.webp"
+    },
     {
       "id": "c635fbb4c2d1e633",
       "title": "何家健口琴四重奏：巴西計劃",
@@ -95,6 +131,42 @@
         "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/759751726_18605916259053761_2199208052004241025_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk1MTY2NTE2MzkwNDAxMDk1Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTYwNS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=bm9gLlYP1VEQ7kNvwGwPM-n&_nc_oc=AdpQl_4e3uxBTaqeANLnepjF6MYO72DRISbYbKICEqMPSLSZS26N-XMBUA828FSgI68&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=XgfSpF7evg2_eOvXxqc0xw&_nc_ss=7a22e&oh=00_AQBOAW_KoLO7MZ43s1aoV6ST78cDAx45MzIlkK2r9Ofzsw&oe=6A6F3399"
       ],
       "image_url": "/assets/feed-images/e43616bcd9252cb96fba.webp"
+    },
+    {
+      "id": "5ff5d2e983b9d6f5",
+      "title": "臺灣口琴音樂節",
+      "eventName": "臺灣口琴音樂節",
+      "source": "音和樂器PeaceTones",
+      "platform": "facebook",
+      "start": "2026-08-07",
+      "end": "2026-08-10",
+      "allDay": true,
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "location": "新竹市 國立陽明交通大學光復校區_學生活動中心B1",
+      "venue": "國立陽明交通大學光復校區_學生活動中心B1",
+      "city": "新竹市",
+      "details": "活動日期為 8/7-8/9，地點在國立陽明交通大學光復校區學生活動中心 B1。貼文同時提到樂器展與現場限定優惠，但候選對應的是臺灣口琴音樂節。",
+      "evidenceUrl": "https://www.facebook.com/PeaceTones.harmonica/posts/pfbid02Xs7Gfa4haBVTnFPxmCZPpPXpRb9fe9VLSEKjEh8kABA7wkraE1j2KeTm7baS4qmyl",
+      "confidence": 0.96,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "臺灣口琴音樂節",
+        "venue": "國立陽明交通大學光復校區_學生活動中心B1",
+        "city": "新竹市",
+        "details": "活動日期為 8/7-8/9，地點在國立陽明交通大學光復校區學生活動中心 B1。貼文同時提到樂器展與現場限定優惠，但候選對應的是臺灣口琴音樂節。",
+        "reason": "候選日期 2026-08-07 與貼文中的臺灣口琴音樂節 8/7-8/9 相符，且為臺灣實體口琴活動。",
+        "confidence": 0.96
+      },
+      "postedAt": "2026-07-31 12:04",
+      "images": [
+        "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/760503252_1538766848263579_4733013090354386980_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1228x1332&ctp=s565x565&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jAgNKfMqBzgQ7kNvwE4p71M&_nc_oc=AdrUQ0gL9LOpwwL6T7NHSZqzoJuLPFFXbZk_sr2Z2Znlm0RvcFSH3yRsPcnTJF2xbcY&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=9q1RxOITv3FsZBEZ_3BkCA&_nc_ss=72289&oh=00_AQE18wiK2SbiQbeokUUeoAv2VUEnWqpkQpohxLNjPNPkyg&oe=6A731F03"
+      ],
+      "image_url": "/assets/feed-images/9377c8de9d88a07c3ec0.webp"
     },
     {
       "id": "8436208ae40d8444",
