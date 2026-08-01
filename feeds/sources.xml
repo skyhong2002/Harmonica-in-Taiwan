@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 01 Aug 2026 05:24:39 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 05:56:47 +0000</lastBuildDate>
     <item>
       <title>RedBricks Harmonica</title>
       <link>https://www.facebook.com/redbricksharmonica/</link>
@@ -16,6 +16,17 @@ Tag：團體樂團、重奏、國際交流
 國家：香港
 地區：香港/國際
 香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
+    </item>
+    <item>
+      <title>陳彥銘</title>
+      <link>https://mx.nthu.edu.tw/~ymchen/sirius/CT.htm</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/294a4e588c327308</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、和弦、重奏、交流
+國家：臺灣
+地區：臺灣
+天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。</description>
     </item>
     <item>
       <title>胖擊口琴樂團</title>
@@ -742,17 +753,6 @@ Tag：協會、國際交流
 國家：新加坡
 地區：新加坡
 新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。</description>
-    </item>
-    <item>
-      <title>陳彥銘</title>
-      <link>https://mx.nthu.edu.tw/~ymchen/sirius/CT.htm</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/294a4e588c327308</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、和弦、重奏、交流
-國家：臺灣
-地區：臺灣
-天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。</description>
     </item>
     <item>
       <title>Boris Plotnikov</title>
