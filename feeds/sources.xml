@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 01 Aug 2026 05:56:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 07:01:50 +0000</lastBuildDate>
+    <item>
+      <title>菜鳥琴老師很菜</title>
+      <link>https://www.facebook.com/chin.diary</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/8a8c1e148b1195e7</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學
+國家：臺灣
+地區：臺灣/中彰投
+臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。</description>
+    </item>
     <item>
       <title>RedBricks Harmonica</title>
       <link>https://www.facebook.com/redbricksharmonica/</link>
@@ -16,6 +27,17 @@ Tag：團體樂團、重奏、國際交流
 國家：香港
 地區：香港/國際
 香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
+    </item>
+    <item>
+      <title>蔡明憲</title>
+      <link>https://studio.dming.co/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/3881b1c9af7db824</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、重奏
+國家：臺灣
+地區：臺灣
+臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。</description>
     </item>
     <item>
       <title>陳彥銘</title>
@@ -247,6 +269,17 @@ Tag：學生社團、大專社團
 國家：臺灣
 地區：臺灣/新竹
 臺灣的口琴學校社團。</description>
+    </item>
+    <item>
+      <title>英皇書院同學會小學口琴隊</title>
+      <link>https://www.kcobaps1.edu.hk/tc/latest_new/英小小航海家-口琴演奏交流</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/edb41c6135ab98c5</guid>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：學校社團
+Tag：學生社團、半音階
+國家：香港
+地區：香港
+香港的口琴隊、半音階與學生合奏學校團隊。</description>
     </item>
     <item>
       <title>Younghoon Cho</title>
@@ -568,17 +601,6 @@ Tag：演奏者、合奏、和弦、重奏、演出
 口琴演奏者，專長和弦口琴與重奏演出。</description>
     </item>
     <item>
-      <title>蔡明憲</title>
-      <link>https://studio.dming.co/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/3881b1c9af7db824</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學、重奏
-國家：臺灣
-地區：臺灣
-臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。</description>
-    </item>
-    <item>
       <title>Santiago Alvarez</title>
       <link>https://worldharmonicafestival.de/artist-profile-santiago-alvarez/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/2cffec8e56b63330</guid>
@@ -808,28 +830,6 @@ Tag：演奏者、教學、十孔、國際交流
 國家：阿根廷
 地區：阿根廷
 阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。</description>
-    </item>
-    <item>
-      <title>菜鳥琴老師很菜</title>
-      <link>https://www.facebook.com/chin.diary</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/8a8c1e148b1195e7</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學
-國家：臺灣
-地區：臺灣/中彰投
-臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。</description>
-    </item>
-    <item>
-      <title>英皇書院同學會小學口琴隊</title>
-      <link>https://www.kcobaps1.edu.hk/tc/latest_new/英小小航海家-口琴演奏交流</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/edb41c6135ab98c5</guid>
-      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：學校社團
-Tag：學生社團、半音階
-國家：香港
-地區：香港
-香港的口琴隊、半音階與學生合奏學校團隊。</description>
     </item>
     <item>
       <title>Up Side Down</title>
