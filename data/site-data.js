@@ -380,6 +380,92 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-66",
+      "publicId": "66",
+      "name": "Younghoon Cho",
+      "nameEn": "Younghoon Cho",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
+      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
+      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "keywords": "Younghoon Cho Jong-seong Park",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/hoontobe"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hoontobe/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hoontobe_piano/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/hoontobe"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-01T15:08:27+00:00",
+      "latestUpdateLocal": "2026-08-01 23:08",
+      "latestUpdateSource": "Younghoon Cho",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3954195941754628003/",
+      "avatarUrl": "/assets/source-avatars/4168baa97b6613dcf6d7.webp",
+      "sourceInitials": "YC",
+      "sourceTags": [
+        "演奏者",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
+      "monitorSources": [
+        {
+          "id": "fb_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hoontobe",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
+        },
+        {
+          "id": "yt_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/hoontobe",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-9",
       "publicId": "9",
       "name": "李讓 Jang Li",
@@ -2713,6 +2799,101 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-79",
+      "publicId": "79",
+      "name": "國家兩廳院",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "國家兩廳院 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://npac-ntch.org/zh"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/ntch.tw/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ntch.taipei/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/ntcharts"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@ntch.taipei"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-01T04:00:11+00:00",
+      "latestUpdateLocal": "2026-08-01 12:00",
+      "latestUpdateSource": "國家兩廳院",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=Uoy51h3l_Wo",
+      "avatarUrl": "/assets/source-avatars/6db2655430c826dcee10.webp",
+      "sourceInitials": "國家",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_ntch_tw",
+          "name": "國家兩廳院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/ntch.tw",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_ntch_taipei",
+          "name": "國家兩廳院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "ntch.taipei",
+          "profileUrl": "https://www.instagram.com/ntch.taipei/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_ntch_taipei",
+          "name": "國家兩廳院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "ntch.taipei",
+          "profileUrl": "https://www.instagram.com/ntch.taipei/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/ntch.taipei/story/0"
+        },
+        {
+          "id": "threads_ntch_taipei",
+          "name": "國家兩廳院",
+          "platform": "threads",
+          "type": "rss",
+          "username": "ntch.taipei",
+          "profileUrl": "https://www.threads.net/@ntch.taipei",
+          "feedUrl": "https://rss.observe.tw/threads/ntch.taipei"
+        },
+        {
+          "id": "yt_ntcharts",
+          "name": "國家兩廳院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/ntcharts",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-30",
       "publicId": "30",
       "name": "蔡明憲",
@@ -3839,92 +4020,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-66",
-      "publicId": "66",
-      "name": "Younghoon Cho",
-      "nameEn": "Younghoon Cho",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
-      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
-      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "keywords": "Younghoon Cho Jong-seong Park",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/hoontobe"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hoontobe/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hoontobe_piano/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/hoontobe"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-31T12:16:57+00:00",
-      "latestUpdateLocal": "2026-07-31 20:16",
-      "latestUpdateSource": "Younghoon Cho",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3953384853949630437/",
-      "avatarUrl": "/assets/source-avatars/4168baa97b6613dcf6d7.webp",
-      "sourceInitials": "YC",
-      "sourceTags": [
-        "演奏者",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
-      "monitorSources": [
-        {
-          "id": "fb_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hoontobe",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
-        },
-        {
-          "id": "yt_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/hoontobe",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-224",
       "publicId": "224",
       "name": "Easttop Harmonicas",
@@ -4323,101 +4418,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@ChaotengChang",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-79",
-      "publicId": "79",
-      "name": "國家兩廳院",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "國家兩廳院 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://npac-ntch.org/zh"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/ntch.tw/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/ntch.taipei/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/user/ntcharts"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@ntch.taipei"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-31T04:00:40+00:00",
-      "latestUpdateLocal": "2026-07-31 12:00",
-      "latestUpdateSource": "國家兩廳院",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=kqeAQCLhW-0",
-      "avatarUrl": "/assets/source-avatars/6db2655430c826dcee10.webp",
-      "sourceInitials": "國家",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_ntch_tw",
-          "name": "國家兩廳院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/ntch.tw",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_ntch_taipei",
-          "name": "國家兩廳院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "ntch.taipei",
-          "profileUrl": "https://www.instagram.com/ntch.taipei/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_ntch_taipei",
-          "name": "國家兩廳院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "ntch.taipei",
-          "profileUrl": "https://www.instagram.com/ntch.taipei/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/ntch.taipei/story/0"
-        },
-        {
-          "id": "threads_ntch_taipei",
-          "name": "國家兩廳院",
-          "platform": "threads",
-          "type": "rss",
-          "username": "ntch.taipei",
-          "profileUrl": "https://www.threads.net/@ntch.taipei",
-          "feedUrl": "https://rss.observe.tw/threads/ntch.taipei"
-        },
-        {
-          "id": "yt_ntcharts",
-          "name": "國家兩廳院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/user/ntcharts",
           "feedUrl": ""
         }
       ]

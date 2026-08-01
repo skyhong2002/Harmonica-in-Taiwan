@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 01 Aug 2026 21:50:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 22:55:55 +0000</lastBuildDate>
     <item>
       <title>Konstantin Reinfeld</title>
       <link>https://www.konstantinreinfeld.com/</link>
@@ -60,6 +60,17 @@ Tag：演奏者、教學、半音階、國際交流
 國家：韓國
 地區：韓國
 韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。</description>
+    </item>
+    <item>
+      <title>Younghoon Cho</title>
+      <link>https://linktr.ee/hoontobe</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/2a1ec747c34bfb28</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、合奏、國際交流
+國家：韓國
+地區：韓國
+韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。</description>
     </item>
     <item>
       <title>李讓 Jang Li</title>
@@ -370,6 +381,17 @@ Tag：團體樂團、重奏
 臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與教育推廣。</description>
     </item>
     <item>
+      <title>國家兩廳院</title>
+      <link>https://npac-ntch.org/zh</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/31f9c79620bc0e35</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/臺北
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
       <title>蔡明憲</title>
       <link>https://studio.dming.co/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/3881b1c9af7db824</guid>
@@ -524,17 +546,6 @@ Tag：學生社團、半音階
 香港的口琴隊、半音階與學生合奏學校團隊。</description>
     </item>
     <item>
-      <title>Younghoon Cho</title>
-      <link>https://linktr.ee/hoontobe</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/2a1ec747c34bfb28</guid>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、合奏、國際交流
-國家：韓國
-地區：韓國
-韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。</description>
-    </item>
-    <item>
       <title>Easttop Harmonicas</title>
       <link>https://easttop-harmonica.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/380220c8f2524380</guid>
@@ -588,17 +599,6 @@ Tag：演奏者、教學、重奏
 國家：臺灣
 地區：臺灣
 口琴演奏者，兼職教學與重奏活動。</description>
-    </item>
-    <item>
-      <title>國家兩廳院</title>
-      <link>https://npac-ntch.org/zh</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/31f9c79620bc0e35</guid>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/臺北
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>藤井俊充</title>
