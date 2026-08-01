@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T03:45:55.714202Z",
+  "generatedAt": "2026-08-01T04:19:04.332093Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -242,20 +242,6 @@
       "publishedAt": "2026-07-04T10:00:16Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/35e686c42ad998de7e64.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-3b4df1fb13e5c215eaf2375b",
-      "title": "往事只能回味丨臺北記憶館",
-      "excerpt": "往事只能回味丨臺北記憶館 臺北記憶館的舞台很特別，是一個長條形，剛好可以站11位團員，還夠空間讓團員在台上跳舞。這首老歌-往事只能回味，配上歷史復活節的主題，非常應景。 中正社大十孔口琴班(四)下午",
-      "url": "https://www.youtube.com/watch?v=aWLIXhacSq8",
-      "sourceName": "藍波口琴教室",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-02T04:00:25Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/30b1c5ae79acd26a3cb3.webp",
         "width": 800,
         "height": 450
       }

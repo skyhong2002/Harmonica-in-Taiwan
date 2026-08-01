@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T03:45:55.714202Z",
+  "generatedAt": "2026-08-01T04:19:04.332093Z",
   "source": {
     "id": 158,
     "slug": "deak-harp",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/158-deak-harp/"
   },
   "items": [
+    {
+      "id": "post-a21b124a8c2f31ad5cde9e3d",
+      "title": "Playing Reds tonight come on out me and Quicksand I’ll be there",
+      "excerpt": "Playing Reds tonight come on out me and Quicksand I’ll be there",
+      "url": "https://www.facebook.com/deak.harp/posts/pfbid0ZXykgZQxUDEhLfMFxVU8GkC2BwpH6aHtkD6rSpAYGT5B4v9zc8LMFqoPjCoo3cX2l",
+      "sourceName": "Deak Harp",
+      "platform": "Facebook",
+      "publishedAt": "2026-07-30T18:17:44Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2613730ab8483dacded4.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-b28ec9729a8ec41be2bf0fe0",
       "title": "Four going down unda .",
