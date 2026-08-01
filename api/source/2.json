@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-01T10:21:22.102515Z",
+  "generatedAt": "2026-08-01T11:27:20.368344Z",
   "source": {
     "id": 2,
     "slug": "taiwan-harmonica-music-festival",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/2-taiwan-harmonica-music-festival/"
   },
   "items": [
+    {
+      "id": "post-a9e39213d0ecdbdf4c3cf646",
+      "title": "☀️午間音樂會｜8/9 (日) 演出者/團體介紹 🎶",
+      "excerpt": "☀️午間音樂會｜8/9 (日) 演出者/團體介紹 🎶 IniXial｜Seoul Soloists Harmonica Orchestra｜Dr. Blue 最後一天的午間音樂會聚集了一群有著豐富演奏經驗，並發展出屬於自己的音樂風格的專琴人士，精彩可期的演出大家千萬不要錯過！ 🎶 IniXial ｜ 「IniXial 口琴樂團」成立於 2024 年，由半音階、倍低音及和弦口琴組成的口琴重奏樂團。團員皆曾在各式音樂團體發展多年，因緣際會下齊聚一堂，期許透過演出呈現樂曲的原創概念與熱愛音樂的初衷。 團名由「initial」與「X」兩字演變轉化，代表起源與融…",
+      "url": "https://www.instagram.com/p/DbeuN1zk-Oz/",
+      "sourceName": "臺灣口琴音樂節 THMF",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-01T02:03:26Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/637f54cf5b5e81c35be0.webp",
+        "width": 800,
+        "height": 577
+      }
+    },
     {
       "id": "post-6a16699aa231327037bb0b33",
       "title": "☀️午間音樂會｜8/8 (六) 演出者/團體介紹 🎶",
