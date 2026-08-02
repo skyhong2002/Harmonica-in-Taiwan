@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T03:55:56.828030Z",
+  "generatedAt": "2026-08-02T04:29:19.441184Z",
   "source": {
     "id": 54,
     "slug": "cy-leo",
@@ -160,20 +160,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/eadd52e6a02b4da64ca0.webp",
         "width": 720,
         "height": 1280
-      }
-    },
-    {
-      "id": "post-ad5e05d6126b9b2a6f93e93b",
-      "title": "( Live ) 單車 / 獅子山下 - Cy Leo & PC Ho",
-      "excerpt": "( Live ) 單車 / 獅子山下 - Cy Leo & PC Ho Part 2 of the live performance at HSBC event arranged by Cy Leo. Saxophone: Timothy Sun Keyboard: Freeman Lok Double Bass: Justin Siu",
-      "url": "https://www.youtube.com/watch?v=VqsdIdYbnMs",
-      "sourceName": "CY Leo 何卓彥",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-03T04:00:01Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/e99d9f69c516590c53a2.webp",
-        "width": 800,
-        "height": 450
       }
     }
   ]
