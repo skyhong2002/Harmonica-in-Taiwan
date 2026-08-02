@@ -1,14 +1,14 @@
 {
   "currentSource": {
-    "id": "ig_story_fanhsiaoyi",
-    "name": "范曉怡",
-    "platform": "instagram",
-    "type": "rsshub_instagram_story"
+    "id": "threads_yora",
+    "name": "陳瑤容 Yora Chen",
+    "platform": "threads",
+    "type": "rss"
   },
-  "errors": 5,
-  "fetchedPosts": 1496,
+  "errors": 6,
+  "fetchedPosts": 1504,
   "finishedAt": "",
-  "heartbeatAt": "2026-08-02T15:33:50.841814+00:00",
+  "heartbeatAt": "2026-08-02T15:34:12.578585+00:00",
   "instagram": {
     "attempted": 10,
     "deferred": 0,
@@ -18,13 +18,13 @@
     "profile_attempted": 6,
     "profile_deferred": 0,
     "profile_interval_hours": 12.0,
-    "profile_skipped": 69,
-    "scheduled": 125,
-    "skipped": 125,
+    "profile_skipped": 73,
+    "scheduled": 133,
+    "skipped": 133,
     "story_attempted": 4,
     "story_deferred": 0,
     "story_interval_hours": 12.0,
-    "story_skipped": 56
+    "story_skipped": 60
   },
   "llmTags": {
     "cached": 0,
@@ -32,11 +32,11 @@
     "errors": 0,
     "requests": 0
   },
-  "message": "sleeping 8.0s",
+  "message": "",
   "newRelevantPosts": 1,
-  "phase": "source sleep",
+  "phase": "source",
   "pid": 29645,
-  "processedSources": 297,
+  "processedSources": 316,
   "skippedOldPosts": 0,
   "startedAt": "2026-08-02T15:30:50.711956+00:00",
   "status": "running",
