@@ -61,6 +61,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/58-minami-risa/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/9-jang-li/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/103-yora-chen/</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -122,6 +134,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/63-f-i-h-japan-harmonica-contest/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/51-sharene-tang/</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -253,12 +271,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/9-jang-li/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/68-gordon-lee/</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
@@ -278,12 +290,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/121-fresco-harmonica-ensemble/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/51-sharene-tang/</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -314,12 +320,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/139-lee-oskar/</loc>
-    <lastmod>2026-08-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/58-minami-risa/</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

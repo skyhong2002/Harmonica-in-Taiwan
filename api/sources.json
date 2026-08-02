@@ -65,6 +65,217 @@
   },
   "entries": [
     {
+      "id": "watchlist-58",
+      "publicId": "58",
+      "name": "南里沙",
+      "nameEn": "Minami Risa",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
+      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
+      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
+      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://minamirisa.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/minamirisa/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/minami_risa/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@minamirisa"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/minami_risa"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@minami_risa"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-02T10:34:10+00:00",
+      "latestUpdateLocal": "2026-08-02 18:34",
+      "latestUpdateSource": "南里沙",
+      "latestUpdateUrl": "https://www.instagram.com/stories/minami_risa/3954782639013654496/",
+      "avatarUrl": "/assets/source-avatars/b8b2404027f96fb5477a.webp",
+      "sourceInitials": "南里",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_minamirisa",
+          "name": "南里沙",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/minamirisa",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
+        },
+        {
+          "id": "x_minami_risa",
+          "name": "南里沙",
+          "platform": "x",
+          "type": "rss",
+          "username": "minami_risa",
+          "profileUrl": "https://x.com/minami_risa",
+          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
+        },
+        {
+          "id": "yt_minamirisa",
+          "name": "南里沙",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@minamirisa",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-9",
+      "publicId": "9",
+      "name": "李讓 Jang Li",
+      "nameEn": "Jang Li",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "半音階/十孔/作曲/配樂/跨界",
+      "structuredSummary": "半音階/十孔/作曲/配樂/跨界 / 半音階/十孔 / 演出人員",
+      "summary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
+      "keywords": "李讓 Jang Li",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://jangliharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Jang.Li.Harmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jangli_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/jangliharmonica"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/JangLiHarmonica"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@jangli_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-02T10:17:28+00:00",
+      "latestUpdateLocal": "2026-08-02 18:17",
+      "latestUpdateSource": "李讓 Jang Li",
+      "latestUpdateUrl": "https://www.threads.com/t/DbiLjdek-4U",
+      "avatarUrl": "/assets/source-avatars/c2fbb00d6d74f4cd94ac.webp",
+      "sourceInitials": "JL",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "sourceSummary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
+      "sourceTagReason": "手動自 Threads 個人簡介匯入。",
+      "monitorSources": [
+        {
+          "id": "fb_jang_li_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Jang.Li.Harmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_jangli_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jangli_harmonica",
+          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jangli_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jangli_harmonica",
+          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/jangli_harmonica/story/0"
+        },
+        {
+          "id": "threads_jangli_harmonica",
+          "name": "李讓 Jang Li",
+          "platform": "threads",
+          "type": "rss",
+          "username": "jangli_harmonica",
+          "profileUrl": "https://www.threads.net/@jangli_harmonica",
+          "feedUrl": "https://rss.observe.tw/threads/jangli_harmonica"
+        },
+        {
+          "id": "x_jangliharmonica",
+          "name": "李讓 Jang Li",
+          "platform": "x",
+          "type": "rss",
+          "username": "JangLiHarmonica",
+          "profileUrl": "https://x.com/JangLiHarmonica",
+          "feedUrl": "https://rss.observe.tw/twitter/user/JangLiHarmonica"
+        },
+        {
+          "id": "yt_jangliharmonica",
+          "name": "李讓 Jang Li",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/jangliharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-103",
       "publicId": "103",
       "name": "陳瑤容 Yora Chen",
@@ -987,6 +1198,87 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/Moridaira01",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-51",
+      "publicId": "51",
+      "name": "唐雪婷 Sharene Tang",
+      "nameEn": "Sharene Tang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/國際郵輪演出",
+      "structuredSummary": "世界口琴冠軍/演出/教學/國際郵輪演出 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "唐雪婷 Sharene Tang sharene.harmonica World Harmonica Champion Fresco harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/sharenetang.fresco/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sharene.harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@Shareneharmonicamusic"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-02T03:39:05+00:00",
+      "latestUpdateLocal": "2026-08-02 11:39",
+      "latestUpdateSource": "唐雪婷 Sharene Tang",
+      "latestUpdateUrl": "https://www.instagram.com/stories/sharene.harmonica/3954573736641003397/",
+      "avatarUrl": "/assets/source-avatars/978f624b264fcd80a3ea.webp",
+      "sourceInitials": "ST",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_sharenetang_fresco",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/sharenetang.fresco",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sharene_harmonica",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sharene.harmonica",
+          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sharene_harmonica",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sharene.harmonica",
+          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sharene.harmonica/story/0"
+        },
+        {
+          "id": "yt_shareneharmonicamusic",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
           "feedUrl": ""
         }
       ]
@@ -2716,116 +3008,6 @@
       ]
     },
     {
-      "id": "watchlist-9",
-      "publicId": "9",
-      "name": "李讓 Jang Li",
-      "nameEn": "Jang Li",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "半音階/十孔/作曲/配樂/跨界",
-      "structuredSummary": "半音階/十孔/作曲/配樂/跨界 / 半音階/十孔 / 演出人員",
-      "summary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
-      "keywords": "李讓 Jang Li",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://jangliharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Jang.Li.Harmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jangli_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/jangliharmonica"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/JangLiHarmonica"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@jangli_harmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-01T15:01:09+00:00",
-      "latestUpdateLocal": "2026-08-01 23:01",
-      "latestUpdateSource": "李讓 Jang Li",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=Qm9BkdWaxDU",
-      "avatarUrl": "/assets/source-avatars/c2fbb00d6d74f4cd94ac.webp",
-      "sourceInitials": "JL",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "sourceSummary": "Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵\nChampions Winner of WHF2009&2013🌟\nDouble Awards winner of ICCCH2021🌟\nNew Video⬇️. See the latest...",
-      "sourceTagReason": "手動自 Threads 個人簡介匯入。",
-      "monitorSources": [
-        {
-          "id": "fb_jang_li_harmonica",
-          "name": "李讓 Jang Li",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Jang.Li.Harmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_jangli_harmonica",
-          "name": "李讓 Jang Li",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jangli_harmonica",
-          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jangli_harmonica",
-          "name": "李讓 Jang Li",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jangli_harmonica",
-          "profileUrl": "https://www.instagram.com/jangli_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jangli_harmonica/story/0"
-        },
-        {
-          "id": "threads_jangli_harmonica",
-          "name": "李讓 Jang Li",
-          "platform": "threads",
-          "type": "rss",
-          "username": "jangli_harmonica",
-          "profileUrl": "https://www.threads.net/@jangli_harmonica",
-          "feedUrl": "https://rss.observe.tw/threads/jangli_harmonica"
-        },
-        {
-          "id": "x_jangliharmonica",
-          "name": "李讓 Jang Li",
-          "platform": "x",
-          "type": "rss",
-          "username": "JangLiHarmonica",
-          "profileUrl": "https://x.com/JangLiHarmonica",
-          "feedUrl": "https://rss.observe.tw/twitter/user/JangLiHarmonica"
-        },
-        {
-          "id": "yt_jangliharmonica",
-          "name": "李讓 Jang Li",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/jangliharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-68",
       "publicId": "68",
       "name": "Gordon Lee 李俊樂",
@@ -3136,87 +3318,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@FrescoHarmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-51",
-      "publicId": "51",
-      "name": "唐雪婷 Sharene Tang",
-      "nameEn": "Sharene Tang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "世界口琴冠軍/演出/教學/國際郵輪演出",
-      "structuredSummary": "世界口琴冠軍/演出/教學/國際郵輪演出 / 半音階/口琴 / 國際演出人員/教育者",
-      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
-      "keywords": "唐雪婷 Sharene Tang sharene.harmonica World Harmonica Champion Fresco harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/sharenetang.fresco/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/sharene.harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@Shareneharmonicamusic"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-01T13:53:40+00:00",
-      "latestUpdateLocal": "2026-08-01 21:53",
-      "latestUpdateSource": "唐雪婷 Sharene Tang",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dbf_fzsiccl/",
-      "avatarUrl": "/assets/source-avatars/978f624b264fcd80a3ea.webp",
-      "sourceInitials": "ST",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_sharenetang_fresco",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/sharenetang.fresco",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_sharene_harmonica",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "sharene.harmonica",
-          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_sharene_harmonica",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "sharene.harmonica",
-          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sharene.harmonica/story/0"
-        },
-        {
-          "id": "yt_shareneharmonicamusic",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
           "feedUrl": ""
         }
       ]
@@ -3613,107 +3714,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@leeoskarharmonicas",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-58",
-      "publicId": "58",
-      "name": "南里沙",
-      "nameEn": "Minami Risa",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
-      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
-      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://minamirisa.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/minamirisa/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/minami_risa/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@minamirisa"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/minami_risa"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@minami_risa"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-01T12:20:36+00:00",
-      "latestUpdateLocal": "2026-08-01 20:20",
-      "latestUpdateSource": "南里沙",
-      "latestUpdateUrl": "https://x.com/minami_risa/status/2083528320592068671",
-      "avatarUrl": "/assets/source-avatars/b8b2404027f96fb5477a.webp",
-      "sourceInitials": "南里",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_minamirisa",
-          "name": "南里沙",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/minamirisa",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
-        },
-        {
-          "id": "x_minami_risa",
-          "name": "南里沙",
-          "platform": "x",
-          "type": "rss",
-          "username": "minami_risa",
-          "profileUrl": "https://x.com/minami_risa",
-          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
-        },
-        {
-          "id": "yt_minamirisa",
-          "name": "南里沙",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@minamirisa",
           "feedUrl": ""
         }
       ]
