@@ -22,6 +22,7 @@ from typing import Any
 
 import public_tags
 import report_links
+import site_chrome
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -39,7 +40,7 @@ API_DIR = SITE_ROOT / "api"
 FEED_IMAGE_DIR = SITE_ROOT / "assets" / "feed-images"
 SOURCE_AVATAR_DIR = SITE_ROOT / "assets" / "source-avatars"
 PUBLIC_BASE_URL = "https://harmonica.observe.tw"
-ASSET_VERSION = "20260731-source-report-removal"
+ASSET_VERSION = site_chrome.ASSET_VERSION
 HOME_FEED_BATCH_SIZE = 12
 DEFAULT_UPDATE_WINDOW_DAYS = 30
 HOME_FEED_DEFAULT_COUNTRIES = ("臺灣",)
@@ -59,7 +60,7 @@ TAIWAN_ORTHOGRAPHY_REPLACEMENTS = (
     (f"{LEGACY_TAI}中", "臺中"),
     (f"{LEGACY_TAI}南", "臺南"),
 )
-BRAND_LOGO_HTML = f'<img class="brand-logo" src="/assets/logo.svg?v={ASSET_VERSION}" alt="臺灣口琴觀測站" width="200" height="47">'
+BRAND_LOGO_HTML = site_chrome.BRAND_LOGO_HTML
 FOOTER_HTML = """<footer class="site-footer">
       <div class="site-footer-inner">
         <div class="footer-brand">
@@ -2520,6 +2521,7 @@ def modernize_submission_links(page: str) -> str:
         '<a href="https://github.com/skyhong2002/Harmonica-in-Taiwan/issues" target="_blank" rel="noreferrer">查看處理中的回報</a>',
         '<a href="/submit/?kind=add-source">新增來源或頻道</a>',
     )
+    updated = site_chrome.replace_site_headers(updated)
     nav_anchor = '        <a href="/status/">狀態</a>'
     nav_with_report = f'{nav_anchor}\n        <a href="/submit/">資料回報</a>'
     if nav_anchor in updated and nav_with_report not in updated:
@@ -2576,6 +2578,11 @@ def write_homepage_latest(public_rows: list[dict[str, Any]], categorized: dict[s
             )
 
     # 3. Generate static pagination pages for 2, 3, etc.
+    pagination_root = SITE_ROOT / "post" / "page"
+    if pagination_root.exists():
+        for stale_dir in pagination_root.iterdir():
+            if stale_dir.is_dir() and stale_dir.name.isdigit() and int(stale_dir.name) > total_pages:
+                shutil.rmtree(stale_dir)
     for p in range(2, total_pages + 1):
         page_dir = SITE_ROOT / "post" / "page" / str(p)
         page_dir.mkdir(parents=True, exist_ok=True)
@@ -2690,18 +2697,7 @@ def render_feed_page(category: dict[str, str], items: list[dict[str, Any]]) -> s
     <link rel="stylesheet" href="/assets/styles.css?v={ASSET_VERSION}">
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="/" aria-label="臺灣口琴觀測站首頁">
-        {BRAND_LOGO_HTML}
-      </a>
-      <nav class="site-nav" aria-label="主要導覽">
-        <a href="/post/">公開貼文</a>
-        <a href="/source/">公開來源</a>
-        <a href="/scores/">比賽指定曲</a>
-        <a href="/status/">狀態</a>
-        <a href="/submit/">資料回報</a>
-      </nav>
-    </header>
+{site_chrome.render_header()}
 
     <main class="feed-page-main">
       <section class="feed-page-hero">
@@ -2761,18 +2757,7 @@ def render_feed_index(categorized: dict[str, list[dict[str, Any]]]) -> str:
     <link rel="stylesheet" href="/assets/styles.css?v={ASSET_VERSION}">
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="/" aria-label="臺灣口琴觀測站首頁">
-        {BRAND_LOGO_HTML}
-      </a>
-      <nav class="site-nav" aria-label="主要導覽">
-        <a href="/post/">公開貼文</a>
-        <a href="/source/">公開來源</a>
-        <a href="/scores/">比賽指定曲</a>
-        <a href="/status/">狀態</a>
-        <a href="/submit/">資料回報</a>
-      </nav>
-    </header>
+{site_chrome.render_header()}
 
     <main class="feed-page-main">
       <section class="feed-page-hero">
@@ -2829,7 +2814,7 @@ def write_feed_pages(categorized: dict[str, list[dict[str, Any]]]) -> None:
 def bump_html_asset_versions() -> None:
     for path in SITE_ROOT.rglob("*.html"):
         text = path.read_text(encoding="utf-8")
-        updated = re.sub(r"\?v=[A-Za-z0-9._-]+", f"?v={ASSET_VERSION}", text)
+        updated = site_chrome.normalize_document(text)
         updated = "\n".join(line.rstrip() for line in updated.splitlines()) + "\n"
         if updated != text:
             path.write_text(updated, encoding="utf-8")

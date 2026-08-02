@@ -13,6 +13,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
 from scripts.configure_submission_form import FORM_TITLE, RESPONDER_URI
+import site_chrome
 
 
 TEMPLATE_PATH = PROJECT_ROOT / "templates" / "submit.html"
@@ -27,12 +28,14 @@ def render_submit_page() -> str:
         raise ValueError("Submission form responder URI differs from public configuration")
     rendered = template.replace("__GOOGLE_FORM_URL__", RESPONDER_URI)
     rendered = rendered.replace("__GOOGLE_FORM_TITLE__", FORM_TITLE)
+    rendered = rendered.replace("__ASSET_VERSION__", site_chrome.ASSET_VERSION)
+    rendered = rendered.replace("__SITE_HEADER__", site_chrome.render_header())
     rendered = rendered.replace(
         "__GOOGLE_FORM_PUBLIC_CONFIG__",
         html.escape(json.dumps(public_config, ensure_ascii=False), quote=False),
     )
-    if "__GOOGLE_FORM_" in rendered:
-        raise ValueError("Unresolved Google Form placeholder in submit template")
+    if "__GOOGLE_FORM_" in rendered or "__ASSET_VERSION__" in rendered or "__SITE_HEADER__" in rendered:
+        raise ValueError("Unresolved placeholder in submit template")
     return rendered
 
 

@@ -18,6 +18,7 @@ from typing import Any
 
 import generate_rss_feeds as feed_render
 import report_links
+import site_chrome
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SITE_ROOT = PROJECT_ROOT / "site"
@@ -31,7 +32,7 @@ SOURCE_API_DIR = SITE_ROOT / "api" / "source"
 SOURCE_API_SCHEMA_VERSION = 1
 SOURCE_API_EXCERPT_LIMIT = 280
 SOURCE_API_SITE_ORIGIN = "https://harmonica.observe.tw"
-ASSET_VERSION = feed_render.ASSET_VERSION
+ASSET_VERSION = site_chrome.ASSET_VERSION
 
 SOURCE_API_TRACKING_PARAMS = {
     "fbclid",
@@ -52,18 +53,7 @@ SOURCE_API_INTERNAL_PATH_RE = re.compile(r"(?:^|\s)(?:/Users/|/home/|/var/|[A-Za
 SOURCE_API_URL_RE = re.compile(r"https?://\S+", re.IGNORECASE)
 
 # Shared HTML parts
-HEADER_HTML = f"""    <header class="site-header">
-      <a class="brand" href="/" aria-label="臺灣口琴觀測站首頁">
-        <img class="brand-logo" src="/assets/logo.svg?v={ASSET_VERSION}" alt="臺灣口琴觀測站" width="200" height="47">
-      </a>
-      <nav class="site-nav" aria-label="主要導覽">
-        <a href="/post/">公開貼文</a>
-        <a href="/source/">公開來源</a>
-        <a href="/scores/">比賽指定曲</a>
-        <a href="/status/">狀態</a>
-        <a href="/submit/">資料回報</a>
-      </nav>
-    </header>"""
+HEADER_HTML = site_chrome.render_header()
 
 FOOTER_HTML = """    <footer class="site-footer">
       <div class="site-footer-inner">
@@ -2020,6 +2010,16 @@ def update_core_pages(
             print(f"Error updating feeds catalog: {e}")
 
 
+def normalize_site_html() -> None:
+    """Normalize stale and freshly generated pages through the same site chrome."""
+
+    for path in SITE_ROOT.rglob("*.html"):
+        text = path.read_text(encoding="utf-8")
+        updated = normalize_generated_html(site_chrome.normalize_document(text))
+        if updated != text:
+            path.write_text(updated, encoding="utf-8")
+
+
 def main() -> int:
     # 1. Load data
     try:
@@ -2156,6 +2156,7 @@ def main() -> int:
     # 7. Rebuild sitemap
     sitemap_content = generate_sitemap_xml(entries, events, categories, updates, scores, source_groups)
     SITEMAP_XML.write_text(sitemap_content, encoding="utf-8")
+    normalize_site_html()
 
     print(f"SEO Pre-rendering completed:")
     print(f" - Generated {source_count} source pages under /source/<id>/")

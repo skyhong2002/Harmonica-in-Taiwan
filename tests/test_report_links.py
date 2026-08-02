@@ -13,9 +13,43 @@ import configure_submission_form  # noqa: E402
 import generate_rss_feeds  # noqa: E402
 import generate_seo_pages  # noqa: E402
 import report_links  # noqa: E402
+import site_chrome  # noqa: E402
 
 
 class ReportLinkTests(unittest.TestCase):
+    def test_shared_header_is_used_by_submit_page(self):
+        rendered = build_submit_page.render_submit_page()
+        self.assertEqual(rendered.count('<header class="site-header">'), 1)
+        self.assertIn(site_chrome.render_header(), rendered)
+        self.assertNotIn("aria-current", rendered)
+        header = rendered.split('<header class="site-header">', 1)[1].split("</header>", 1)[0]
+        for href in ("/post/", "/source/", "/scores/", "/status/", "/submit/"):
+            self.assertEqual(header.count(f'href="{href}"'), 1)
+
+    def test_asset_version_replacement_does_not_change_external_query_strings(self):
+        document = (
+            '<link rel="stylesheet" href="/assets/styles.css?v=old">'
+            '<a href="https://www.youtube.com/watch?v=video-id">開啟來源</a>'
+        )
+        updated = site_chrome.replace_asset_versions(document)
+        self.assertIn(f"/assets/styles.css?v={site_chrome.ASSET_VERSION}", updated)
+        self.assertIn("https://www.youtube.com/watch?v=video-id", updated)
+
+    def test_stale_header_is_replaced_with_canonical_navigation(self):
+        document = """<body>
+  <header class="site-header">
+    <nav class="site-nav">
+      <a href="/post/">公開貼文</a>
+      <a href="/status/">狀態</a>
+    </nav>
+  </header>
+</body>"""
+        updated = site_chrome.normalize_document(document)
+        header = updated.split('<header class="site-header">', 1)[1].split("</header>", 1)[0]
+        self.assertIn("/assets/logo.svg?v=" + site_chrome.ASSET_VERSION, header)
+        self.assertIn('href="/submit/">資料回報</a>', header)
+        self.assertNotIn('href="/post/">公開貼文</a>\n      <a href="/status/">狀態</a>', header)
+
     def test_report_url_prefills_bounded_context(self):
         url = report_links.report_url(
             "correct",

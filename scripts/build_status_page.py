@@ -17,6 +17,8 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
+import site_chrome
+
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SITE_ROOT = PROJECT_ROOT / "site"
@@ -36,7 +38,8 @@ LATEST_API = SITE_ROOT / "api" / "latest.json"
 SOURCES_API = SITE_ROOT / "api" / "sources.json"
 PIPELINE_LOG = PROJECT_ROOT / "logs" / "pipeline.log"
 PIPELINE_ERR_LOG = PROJECT_ROOT / "logs" / "pipeline.err.log"
-ASSET_VERSION = "20260627-2225"
+ASSET_VERSION = site_chrome.ASSET_VERSION
+HEADER_HTML = site_chrome.render_header()
 PUBLIC_BASE_URL = "https://harmonica.observe.tw"
 TAIPEI_TZ = dt.timezone(dt.timedelta(hours=8))
 CURRENT_ERROR_WINDOW_SECONDS = 15 * 60
@@ -847,18 +850,7 @@ def render_status_page(status: dict[str, Any]) -> str:
     <link rel="stylesheet" href="/assets/styles.css?v={ASSET_VERSION}">
   </head>
   <body>
-    <header class="site-header">
-      <a class="brand" href="/" aria-label="臺灣口琴觀測站首頁">
-        <img class="brand-logo" src="/assets/logo.svg?v={ASSET_VERSION}" alt="臺灣口琴觀測站" width="200" height="47">
-      </a>
-      <nav class="site-nav" aria-label="主要導覽">
-        <a href="/post/">公開貼文</a>
-        <a href="/source/">公開來源</a>
-        <a href="/scores/">比賽指定曲</a>
-        <a href="/status/">狀態</a>
-        <a href="/submit/">資料回報</a>
-      </nav>
-    </header>
+{HEADER_HTML}
 
     <main class="status-page-main">
       <section class="feed-page-hero status-hero">
