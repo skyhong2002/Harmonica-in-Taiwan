@@ -49,6 +49,7 @@ STORY_EMPTY_ERROR_PATTERNS = (
     "user has no stories",
     "this route is empty",
     "profile is private",
+    "timed out",
 )
 
 STATUS_LABELS = {
@@ -417,6 +418,25 @@ def story_empty_error(row: dict[str, Any], source_by_id: dict[str, dict[str, Any
     return any(pattern in error for pattern in STORY_EMPTY_ERROR_PATTERNS)
 
 
+def ignorable_instagram_profile_error(row: dict[str, Any], source_by_id: dict[str, dict[str, Any]]) -> bool:
+    source_id = str(row.get("source_id") or "")
+    source = source_by_id.get(source_id, {})
+    source_type = str(row.get("source_type") or source.get("type") or "")
+    if source_type != "rsshub_instagram_profile":
+        return False
+    error = str(row.get("error") or "").casefold()
+    return "web_profile_info" in error or "instagram user feed returned no author" in error
+
+
+def ignorable_threads_upstream_error(row: dict[str, Any], source_by_id: dict[str, dict[str, Any]]) -> bool:
+    source_id = str(row.get("source_id") or "")
+    source = source_by_id.get(source_id, {})
+    source_type = str(row.get("source_type") or source.get("type") or "")
+    if source_type != "rss" or str(source.get("platform") or "").casefold() != "threads":
+        return False
+    return "failed to fetch thread data" in str(row.get("error") or "").casefold()
+
+
 def persistent_source_errors(
     fetch_state: dict[str, Any],
     source_by_id: dict[str, dict[str, Any]],
@@ -431,6 +451,20 @@ def persistent_source_errors(
         consecutive_errors = int(state.get("consecutive_errors") or 0)
         error = str(state.get("last_error") or "")
         if consecutive_errors < 2 or not error or str(source_id) not in source_by_id:
+            continue
+        source_type = str(state.get("source_type") or source_by_id[str(source_id)].get("type") or "")
+        if source_type == "rsshub_instagram_profile" and (
+            "web_profile_info" in error.casefold()
+            or "instagram user feed returned no author" in error.casefold()
+        ):
+            continue
+        if source_type == "rsshub_instagram_story" and (
+            "timed out" in error.casefold()
+            or "content does not exist" in error.casefold()
+            or "user has no stories" in error.casefold()
+            or "this route is empty" in error.casefold()
+            or "profile is private" in error.casefold()
+        ):
             continue
         persistent.append(
             {
@@ -491,6 +525,8 @@ def build_status() -> dict[str, Any]:
         if is_active_source_error(row, source_by_id)
         and not youtube_error_superseded(row, youtube_recovered_at)
         and not story_empty_error(row, source_by_id)
+        and not ignorable_instagram_profile_error(row, source_by_id)
+        and not ignorable_threads_upstream_error(row, source_by_id)
     ]
     current_errors.extend(persistent_source_errors(social_fetch_state, source_by_id, current_errors))
 
