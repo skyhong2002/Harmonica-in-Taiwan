@@ -375,6 +375,92 @@
       ]
     },
     {
+      "id": "watchlist-178",
+      "publicId": "178",
+      "name": "Harmonica FEN 口琴節與學院",
+      "nameEn": "Harmonica FEN Festival & Academy",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/教育入口",
+      "country": "德國",
+      "region": "德國/柏林",
+      "cityOrFocus": "柏林口琴節/Academy/演奏會/工作坊/Open Stage",
+      "structuredSummary": "柏林口琴節/Academy/演奏會/工作坊/Open Stage / 口琴/半音階/十孔/跨界 / 國際活動/教育來源",
+      "summary": "德國的國際活動與教育來源，涵蓋柏林口琴節、Academy、演奏會、工作坊與Open Stage。",
+      "keywords": "Harmonica FEN Festival Academy Berlin harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica-fen-festival.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonicafenfestival"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_fen_festival/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-02T16:58:39+00:00",
+      "latestUpdateLocal": "2026-08-03 00:58",
+      "latestUpdateSource": "Harmonica FEN 口琴節與學院",
+      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_fen_festival/3954976171645006395/",
+      "avatarUrl": "/assets/source-avatars/dc1f7318468adbd4e04b.webp",
+      "sourceInitials": "HF",
+      "sourceTags": [
+        "活動資訊",
+        "比賽",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicafenfestival",
+          "name": "Harmonica FEN 口琴節與學院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonicafenfestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_harmonica_fen_festival",
+          "name": "Harmonica FEN 口琴節與學院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_fen_festival",
+          "profileUrl": "https://www.instagram.com/harmonica_fen_festival/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_fen_festival",
+          "name": "Harmonica FEN 口琴節與學院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_fen_festival",
+          "profileUrl": "https://www.instagram.com/harmonica_fen_festival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_fen_festival/story/0"
+        },
+        {
+          "id": "yt_uctti8xh0v4dgrgp7hz68bww",
+          "name": "Harmonica FEN 口琴節與學院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-104",
       "publicId": "104",
       "name": "Timothy Yip 葉進禧",
@@ -455,6 +541,92 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-66",
+      "publicId": "66",
+      "name": "Younghoon Cho",
+      "nameEn": "Younghoon Cho",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
+      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
+      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "keywords": "Younghoon Cho Jong-seong Park",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/hoontobe"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hoontobe/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hoontobe_piano/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/hoontobe"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-02T16:10:14+00:00",
+      "latestUpdateLocal": "2026-08-03 00:10",
+      "latestUpdateSource": "Younghoon Cho",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3954951847215831893/",
+      "avatarUrl": "/assets/source-avatars/4168baa97b6613dcf6d7.webp",
+      "sourceInitials": "YC",
+      "sourceTags": [
+        "演奏者",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
+      "monitorSources": [
+        {
+          "id": "fb_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hoontobe",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
+        },
+        {
+          "id": "yt_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/hoontobe",
           "feedUrl": ""
         }
       ]
@@ -3928,92 +4100,6 @@
       ]
     },
     {
-      "id": "watchlist-66",
-      "publicId": "66",
-      "name": "Younghoon Cho",
-      "nameEn": "Younghoon Cho",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
-      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
-      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "keywords": "Younghoon Cho Jong-seong Park",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/hoontobe"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hoontobe/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hoontobe_piano/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/hoontobe"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-01T15:08:27+00:00",
-      "latestUpdateLocal": "2026-08-01 23:08",
-      "latestUpdateSource": "Younghoon Cho",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3954195941754628003/",
-      "avatarUrl": "/assets/source-avatars/4168baa97b6613dcf6d7.webp",
-      "sourceInitials": "YC",
-      "sourceTags": [
-        "演奏者",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
-      "monitorSources": [
-        {
-          "id": "fb_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hoontobe",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
-        },
-        {
-          "id": "yt_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/hoontobe",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-219",
       "publicId": "219",
       "name": "IniXial Harmonica Ensemble 源創口琴樂團",
@@ -5532,7 +5618,7 @@
       "latestUpdateLocal": "2026-07-31 20:57",
       "latestUpdateSource": "Gregoire Maret",
       "latestUpdateUrl": "https://www.instagram.com/stories/gregoiremaret/3953405394017935071/",
-      "avatarUrl": "/assets/source-avatars/e781a4f4250a052d9036.webp",
+      "avatarUrl": "/assets/source-avatars/aaa38b3006e2f299e510.webp",
       "sourceInitials": "GM",
       "sourceTags": [
         "演奏者",
@@ -6257,92 +6343,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@deakharp",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-178",
-      "publicId": "178",
-      "name": "Harmonica FEN 口琴節與學院",
-      "nameEn": "Harmonica FEN Festival & Academy",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "活動/教育入口",
-      "country": "德國",
-      "region": "德國/柏林",
-      "cityOrFocus": "柏林口琴節/Academy/演奏會/工作坊/Open Stage",
-      "structuredSummary": "柏林口琴節/Academy/演奏會/工作坊/Open Stage / 口琴/半音階/十孔/跨界 / 國際活動/教育來源",
-      "summary": "德國的國際活動與教育來源，涵蓋柏林口琴節、Academy、演奏會、工作坊與Open Stage。",
-      "keywords": "Harmonica FEN Festival Academy Berlin harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica-fen-festival.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonicafenfestival"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/harmonica_fen_festival/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-30T05:13:42+00:00",
-      "latestUpdateLocal": "2026-07-30 13:13",
-      "latestUpdateSource": "Harmonica FEN 口琴節與學院",
-      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_fen_festival/3952447024704012304/",
-      "avatarUrl": "/assets/source-avatars/dc1f7318468adbd4e04b.webp",
-      "sourceInitials": "HF",
-      "sourceTags": [
-        "活動資訊",
-        "比賽",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonicafenfestival",
-          "name": "Harmonica FEN 口琴節與學院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonicafenfestival",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_harmonica_fen_festival",
-          "name": "Harmonica FEN 口琴節與學院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "harmonica_fen_festival",
-          "profileUrl": "https://www.instagram.com/harmonica_fen_festival/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_harmonica_fen_festival",
-          "name": "Harmonica FEN 口琴節與學院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "harmonica_fen_festival",
-          "profileUrl": "https://www.instagram.com/harmonica_fen_festival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_fen_festival/story/0"
-        },
-        {
-          "id": "yt_uctti8xh0v4dgrgp7hz68bww",
-          "name": "Harmonica FEN 口琴節與學院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw",
           "feedUrl": ""
         }
       ]
@@ -8545,6 +8545,66 @@
           "username": "",
           "profileUrl": "https://youtube.com/@hkharmonica",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-45",
+      "publicId": "45",
+      "name": "吳采容",
+      "nameEn": "Wu Tsai Rung",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "年輕半音階/複音演奏者",
+      "structuredSummary": "年輕半音階/複音演奏者 / 半音階/複音 / 演出人員",
+      "summary": "年輕臺灣口琴演奏者，專長半音階與複音口琴。",
+      "keywords": "吳采容 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://laelapsharmonica.com/zh/laelaps-club/wu-tsai-rung/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/aurora._.harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-15T10:00:03+00:00",
+      "latestUpdateLocal": "2026-07-15 18:00",
+      "latestUpdateSource": "吳采容",
+      "latestUpdateUrl": "https://www.instagram.com/p/DazzStgE_5G/",
+      "avatarUrl": "/assets/source-avatars/ce59f537b038844570e2.webp",
+      "sourceInitials": "吳采",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "複音"
+      ],
+      "sourceSummary": "年輕臺灣口琴演奏者，專長半音階與複音口琴。",
+      "sourceTagReason": "資料明確標示為『個人』、『演奏者』，並指出專長半音階與複音口琴。",
+      "monitorSources": [
+        {
+          "id": "ig_aurora_harmonica",
+          "name": "吳采容",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "aurora._.harmonica",
+          "profileUrl": "https://www.instagram.com/aurora._.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_aurora_harmonica",
+          "name": "吳采容",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "aurora._.harmonica",
+          "profileUrl": "https://www.instagram.com/aurora._.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/aurora._.harmonica/story/0"
         }
       ]
     },
@@ -14520,66 +14580,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/@YuanmaoWang",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-45",
-      "publicId": "45",
-      "name": "吳采容",
-      "nameEn": "Wu Tsai Rung",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "年輕半音階/複音演奏者",
-      "structuredSummary": "年輕半音階/複音演奏者 / 半音階/複音 / 演出人員",
-      "summary": "年輕臺灣口琴演奏者，專長半音階與複音口琴。",
-      "keywords": "吳采容 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://laelapsharmonica.com/zh/laelaps-club/wu-tsai-rung/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/aurora._.harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/ce59f537b038844570e2.webp",
-      "sourceInitials": "吳采",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "複音"
-      ],
-      "sourceSummary": "年輕臺灣口琴演奏者，專長半音階與複音口琴。",
-      "sourceTagReason": "資料明確標示為『個人』、『演奏者』，並指出專長半音階與複音口琴。",
-      "monitorSources": [
-        {
-          "id": "ig_aurora_harmonica",
-          "name": "吳采容",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "aurora._.harmonica",
-          "profileUrl": "https://www.instagram.com/aurora._.harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_aurora_harmonica",
-          "name": "吳采容",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "aurora._.harmonica",
-          "profileUrl": "https://www.instagram.com/aurora._.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/aurora._.harmonica/story/0"
         }
       ]
     },

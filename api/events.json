@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 455,
+  "count": 458,
   "items": [
     {
       "title": "Howard Levy｜I was 17 when I came up with this bass line riding in the back of a bus in Brooklyn. At the time, I was fas…",
@@ -786,6 +786,83 @@
       "key": "ig_frescoharmonica:https://www.instagram.com/p/Dbf_fzsiccl/"
     },
     {
+      "title": "黃冠誌｜Another breathtaking performance by @jongseongpark_harmonicist at the SIHF. A true musical masterpiece that is a he…",
+      "headline": "Another breathtaking performance by @jongseongpark_harmonicist at the SIHF. A true musical masterpiece that is a heartf…",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/Dbf11s4tltZ/",
+      "source_id": "ig_hk91f06",
+      "source": "黃冠誌",
+      "source_system_name": "黃冠誌",
+      "source_profile_url": "https://www.instagram.com/hk91f06/",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-33",
+      "directory_entry_name": "黃冠誌",
+      "account": "hk91f06",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Sat, 01 Aug 2026 12:38:35 GMT",
+      "posted_at_local": "2026-08-01 20:38",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-02T22:46:24.625187+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/hk91f06",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "影片"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.93,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文明確提到口琴演奏者與演出，屬公開更新且可歸為口琴影片。",
+      "text": "Another breathtaking performance by @jongseongpark_harmonicist at the SIHF. A true musical masterpiece that is a heartfelt prayer… expressing the dee...\nAnother breathtaking performance by @jongseongpark_harmonicist at the SIHF. A true musical masterpiece that is a heartfelt prayer… expressing the deepest cries of the heart through every single note. ❤️🎶",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/762676555_18611146729012370_5945767592409436824_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&ig_cache_key=Mzk1NDExNTc4NDY0ODA1NTY0MTE4NjExMTQ2NzI2MDEyMzcw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=j-Yjb51VV3AQ7kNvwGhjzwX&_nc_oc=AdoIapDtrAp99gqmcNBC-74la03N5m6dYboc9QhYxG9X7nHu7VFQtkzZoWDhmXLJZoY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QmaeOlmBDVTmHRajY_w7Eg&_nc_ss=7a22e&oh=00_AQFLk0c06VfbwNPs1kh4a1OGd6WoVDjonKV-sJj7_5SIkw&oe=6A75A46B"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQPzPjkdSbPHUcMhewlY8OHnzdAM9D39q-ZSjJEzsr_V25rKed_W95Igs3yzkewsIoyBDq1iLOOu64e82HB-tcfHnkXbi9-n8PJPPJw.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=D_uJ0begjgwQ7kNvwEQTwbu&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjA1MTYzNTg5OTA1MTI3NiwiYXNzZXRfYWdlX2RheXMiOjEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo2MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=37a828fba318cf20&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9ERDRDQjM1MkFENjhGNUExRjExMDhERkQ3ODAxNkI4OF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzcxNEVFODcyOTk3NkU5NjA1RDkxQjVFMkRGOEE5M0E0X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaYtMXP9vykBxUCKAJDMywXQE_hR64UeuEYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=QmaeOlmBDVTmHRajY_w7Eg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQFe3PYvWQLfXUWDUtD24AmoJ5MGhnrDebEywNN0VtO3tg&oe=6A71AAF9"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/762676555_18611146729012370_5945767592409436824_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=108&ig_cache_key=Mzk1NDExNTc4NDY0ODA1NTY0MTE4NjExMTQ2NzI2MDEyMzcw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=j-Yjb51VV3AQ7kNvwGhjzwX&_nc_oc=AdoIapDtrAp99gqmcNBC-74la03N5m6dYboc9QhYxG9X7nHu7VFQtkzZoWDhmXLJZoY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QmaeOlmBDVTmHRajY_w7Eg&_nc_ss=7a22e&oh=00_AQFLk0c06VfbwNPs1kh4a1OGd6WoVDjonKV-sJj7_5SIkw&oe=6A75A46B",
+      "image_url": "/assets/feed-images/56c4068c6b418cbac979.webp",
+      "image_width": 720,
+      "image_height": 1280,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/16110277_214666652273289_3558180431058698240_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby43ODAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gHX3880Yj7VSdQZSbKbiw76naMARcm1TC2AkpHmTtFVW7NGhT8YPA28bdjaDFUIbZU&_nc_ohc=GL77pAkCMy0Q7kNvwGu3hKH&_nc_gid=qtfbU9Rz3PP38-_QhUJKYQ&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQHk57oC8BhdRqUPbW1JgwZ4KXYjRXZrI_H1pRfWAVTlGg&oe=6A75978D&_nc_sid=ee9879",
+      "avatar_url": "/assets/source-avatars/02c01dc43171d02a581d.webp",
+      "source_initials": "黃冠",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_hk91f06:https://www.instagram.com/p/Dbf11s4tltZ/"
+    },
+    {
       "title": "中山醫學大學藍韻口琴社｜@csmu_bluemelody: 《藍韻口琴社第五十一屆幹部介紹》 藍韻口琴社正式邁入嶄新的半世紀！第五十一屆已經準備好要帶給大家充滿音樂與歡樂的一年～ 來認識一下我們... @csmu_bluemelody :…",
       "headline": "@csmu_bluemelody: 《藍韻口琴社第五十一屆幹部介紹》 藍韻口琴社正式邁入嶄新的半世紀！第五十一屆已經準備好要帶給大家充滿音樂與歡樂的一年～ 來認識一下我們...",
       "display_title": "",
@@ -1266,6 +1343,83 @@
         "學生社團"
       ],
       "key": "ig_judys_harmonica_ensemble:https://www.instagram.com/p/Dbe7g60EYsv/"
+    },
+    {
+      "title": "黃冠誌｜☀️ Summertime is festival time! 🎶 This week, we’re bringing the sound of the harmonica to Seoul for the SIHF Festiv…",
+      "headline": "☀️ Summertime is festival time! 🎶",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/Dbe6Nr-ie_m/",
+      "source_id": "ig_hk91f06",
+      "source": "黃冠誌",
+      "source_system_name": "黃冠誌",
+      "source_profile_url": "https://www.instagram.com/hk91f06/",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-33",
+      "directory_entry_name": "黃冠誌",
+      "account": "hk91f06",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Sat, 01 Aug 2026 03:54:31 GMT",
+      "posted_at_local": "2026-08-01 11:54",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-02T22:46:24.625187+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/hk91f06",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.86,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文明確提到口琴與赴首爾參加SIHF Festival，屬口琴演奏者公開更新。",
+      "text": "☀️ Summertime is festival time! 🎶\nThis week, we’re bringing the sound of the harmonica to Seoul for the SIHF Festival 🇰🇷🎵\nWe’re excited to meet musicians, artists, and everyone who shares our passion for this amazing little instrument with a big voice. 💙\nCome by, say hello, try some harmonicas, and celebrate the joy of making music together!\nSee you in Seoul! 🎤✨",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/760032156_18611046604012370_1545755865872523684_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&ig_cache_key=Mzk1Mzg1MzU1MDE0ODg0MTQ0NjE4NjExMDQ2NTk4MDEyMzcw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=kcHx4Tw6e9AQ7kNvwEx4rAQ&_nc_oc=AdqsP5Aa3wY6ToCunNZS7wa33hzRVHufha0lo7QAuSfjOR_SHJ154xaaGEot5yQ2lNw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QmaeOlmBDVTmHRajY_w7Eg&_nc_ss=7a22e&oh=00_AQF-4jL8NvSpDLZy2J0EjwGJNyNSJFBiyAHo_pw-mZ2UXg&oe=6A759C2B"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQPLyOCW4qxaMImepS_BJVZOMu6cdc4I-c8eLkuFRlnGH19tdiWY7EgJBKUOI3NeBW7JGWTIRq8S8s4JHKh5rMAC1Ey-5OaRmecY7J0.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=CoIlLKrelzcQ7kNvwEFpniE&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjEwMDE3MDEzMDg4NDUxMCwiYXNzZXRfYWdlX2RheXMiOjEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo0NCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=ef28a3562ace5a3f&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8yNzRCMTAwQ0UxMzRBMDg4NzAwOUVCQTIzMTM3MTY4N192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzE0NDBDREJEODc4RkI5ODcwMTUzMjZFOTkxREJBNEI2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACa8nvTp_oW7BxUCKAJDMywXQEZMzMzMzM0YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=QmaeOlmBDVTmHRajY_w7Eg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQE60fKo_UcjTf0eLNqvf8eJ21gipSEprW7VkXuFE9M2qw&oe=6A71A956"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/760032156_18611046604012370_1545755865872523684_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&ig_cache_key=Mzk1Mzg1MzU1MDE0ODg0MTQ0NjE4NjExMDQ2NTk4MDEyMzcw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=kcHx4Tw6e9AQ7kNvwEx4rAQ&_nc_oc=AdqsP5Aa3wY6ToCunNZS7wa33hzRVHufha0lo7QAuSfjOR_SHJ154xaaGEot5yQ2lNw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QmaeOlmBDVTmHRajY_w7Eg&_nc_ss=7a22e&oh=00_AQF-4jL8NvSpDLZy2J0EjwGJNyNSJFBiyAHo_pw-mZ2UXg&oe=6A759C2B",
+      "image_url": "/assets/feed-images/9a182ea1435c9560ab3e.webp",
+      "image_width": 720,
+      "image_height": 1280,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/16110277_214666652273289_3558180431058698240_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby43ODAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gHX3880Yj7VSdQZSbKbiw76naMARcm1TC2AkpHmTtFVW7NGhT8YPA28bdjaDFUIbZU&_nc_ohc=GL77pAkCMy0Q7kNvwGu3hKH&_nc_gid=qtfbU9Rz3PP38-_QhUJKYQ&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQHk57oC8BhdRqUPbW1JgwZ4KXYjRXZrI_H1pRfWAVTlGg&oe=6A75978D&_nc_sid=ee9879",
+      "avatar_url": "/assets/source-avatars/02c01dc43171d02a581d.webp",
+      "source_initials": "黃冠",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_hk91f06:https://www.instagram.com/p/Dbe6Nr-ie_m/"
     },
     {
       "title": "臺灣口琴音樂節 Taiwan Harmonica Music Festival｜☀️午間音樂會｜8/9 (日) 演出者/團體介紹 🎶 IniXial｜Seoul Soloists Harmonica Orchestra｜Dr. Blue …",
@@ -6178,6 +6332,85 @@
         "學生社團"
       ],
       "key": "ig_timothyyip_harmonica:https://www.instagram.com/p/DbS1ekGgVD2/"
+    },
+    {
+      "title": "黃冠誌｜Some musicians impress you with their skills. Others move your heart. Yasuo Watani does both. When Yasuo Watani tak…",
+      "headline": "Some musicians impress you with their skills. Others move your heart. Yasuo Watani does both. When Yasuo Watani takes t…",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DbUzvv9tQAW/",
+      "source_id": "ig_hk91f06",
+      "source": "黃冠誌",
+      "source_system_name": "黃冠誌",
+      "source_profile_url": "https://www.instagram.com/hk91f06/",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-33",
+      "directory_entry_name": "黃冠誌",
+      "account": "hk91f06",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Tue, 28 Jul 2026 05:49:00 GMT",
+      "posted_at_local": "2026-07-28 13:49",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-02T22:46:24.625187+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/hk91f06",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "影片"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.93,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "內容明確提到口琴演奏者Yasuo Watani與演出感想，屬口琴公開更新。",
+      "text": "Some musicians impress you with their skills. Others move your heart. Yasuo Watani does both. When Yasuo Watani takes the stage, every note tells a st...\nSome musicians impress you with their skills. Others move your heart. Yasuo Watani does both. When Yasuo Watani takes the stage, every note tells a story. His incredible technique, flawless precision, and deep musical expression create performances that leave audiences around the world speechless. Every performance is a reminder of how powerful and emotional this instrument can be.\nThank you, Yasuo, for inspiring harmonica players around the world! ❤️🎵",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/758690790_18609815107012370_4417668808472532508_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=Mzk1MTAxMDM1NDc5OTM3ODQ1NDE4NjA5ODE1MTA0MDEyMzcw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=7OCcyGLYqf8Q7kNvwFzE_Fr&_nc_oc=AdoEDtr_I51BgJWxyDXfYLEDNaKWEqdqGndjq8YsxRARA5zVvYOmQu7Fzyav4M7N5ac&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QmaeOlmBDVTmHRajY_w7Eg&_nc_ss=7a22e&oh=00_AQGAbAW7ZdP49lLbcYjLyG4gV_a3q9Ogij72XnZ9C3iO6A&oe=6A7581FD"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQN9_Dd5Z20Al5VNPTJAKRcGNof_UV9rUmYdtxJ2LwCaPxR1daXkg34d_G7W904K_-9VoMrGPkxiwzub_WuU7xk7-QFApxProui2Txk.mp4?_nc_cat=103&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=zQufyteb9a4Q7kNvwGAT_Zu&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTY1NzI3MTYxMjQ5MTE0MiwiYXNzZXRfYWdlX2RheXMiOjUsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo1OCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=bd83bd90243695a5&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8yQTQ0RjY5NDEwQzg5NTBGMkZFRDYxRTcxRDU4RTBCNF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0IxNDM0NTE4MEU1NUJCOTFGQjNDMTRENTRERUE3M0FDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaMlpLc89HxBRUCKAJDMywXQE1rhR64UewYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=QmaeOlmBDVTmHRajY_w7Eg&_nc_zt=28&_nc_ss=7a22e&oh=00_AQEhFzFwTQ6ISRZTzSXrcofS4xwt4qKM7J096qRHNM8tDQ&oe=6A71AE7C"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/758690790_18609815107012370_4417668808472532508_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=Mzk1MTAxMDM1NDc5OTM3ODQ1NDE4NjA5ODE1MTA0MDEyMzcw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=7OCcyGLYqf8Q7kNvwFzE_Fr&_nc_oc=AdoEDtr_I51BgJWxyDXfYLEDNaKWEqdqGndjq8YsxRARA5zVvYOmQu7Fzyav4M7N5ac&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=QmaeOlmBDVTmHRajY_w7Eg&_nc_ss=7a22e&oh=00_AQGAbAW7ZdP49lLbcYjLyG4gV_a3q9Ogij72XnZ9C3iO6A&oe=6A7581FD",
+      "image_url": "/assets/feed-images/7a7e0b8887ea60687acd.webp",
+      "image_width": 720,
+      "image_height": 1280,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/16110277_214666652273289_3558180431058698240_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby43ODAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gHX3880Yj7VSdQZSbKbiw76naMARcm1TC2AkpHmTtFVW7NGhT8YPA28bdjaDFUIbZU&_nc_ohc=GL77pAkCMy0Q7kNvwGu3hKH&_nc_gid=qtfbU9Rz3PP38-_QhUJKYQ&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQHk57oC8BhdRqUPbW1JgwZ4KXYjRXZrI_H1pRfWAVTlGg&oe=6A75978D&_nc_sid=ee9879",
+      "avatar_url": "/assets/source-avatars/02c01dc43171d02a581d.webp",
+      "source_initials": "黃冠",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_hk91f06:https://www.instagram.com/p/DbUzvv9tQAW/"
     },
     {
       "title": "蔡明憲｜每年夏季都在創歷史忙碌新高點，這場前導音樂會演出主要都是來自雲林的新生代，經歷過十幾年的教學終於累積出了一點成果。 除了演出外，我看到更多的是他們願意去嘗試新東西，在樂曲裡面即興、唱歌，把自己想表達的東西寫進去，甚至編寫全新曲目而…",
