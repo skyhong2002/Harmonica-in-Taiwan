@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-02T23:36:13+08:00",
+  "generatedAt": "2026-08-03T00:10:29+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 10,
+  "count": 9,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,47 +15,11 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 36,
+      "cached": 31,
       "errors": 0
     }
   },
   "events": [
-    {
-      "id": "27c8aa4174ca5543",
-      "title": "臺北樂器大展",
-      "eventName": "臺北樂器大展",
-      "source": "音和樂器PeaceTones",
-      "platform": "facebook",
-      "start": "2026-07-31",
-      "end": "2026-08-04",
-      "allDay": true,
-      "calendarType": "taiwan_physical",
-      "timezone": "Asia/Taipei",
-      "location": "臺北市 圓山花博爭艷館",
-      "venue": "圓山花博爭艷館",
-      "city": "臺北市",
-      "details": "7/31-8/3 於圓山花博爭艷館舉辦，攤位為 M101、M102、M103。貼文提到指定口琴試吹填線上問卷可獲 HOHNER 原子筆，現場購琴有優惠。",
-      "evidenceUrl": "https://www.facebook.com/PeaceTones.harmonica/posts/pfbid02Xs7Gfa4haBVTnFPxmCZPpPXpRb9fe9VLSEKjEh8kABA7wkraE1j2KeTm7baS4qmyl",
-      "confidence": 0.96,
-      "calendarReview": {
-        "include": true,
-        "country": "臺灣",
-        "eventMode": "taiwan_physical",
-        "timezone": "Asia/Taipei",
-        "candidateDateMatches": true,
-        "eventName": "臺北樂器大展",
-        "venue": "圓山花博爭艷館",
-        "city": "臺北市",
-        "details": "7/31-8/3 於圓山花博爭艷館舉辦，攤位為 M101、M102、M103。貼文提到指定口琴試吹填線上問卷可獲 HOHNER 原子筆，現場購琴有優惠。",
-        "reason": "候選日期 2026-07-31 落在貼文明確列出的臺北樂器大展期間，且地點在臺灣實體場館，符合收錄範圍。",
-        "confidence": 0.96
-      },
-      "postedAt": "2026-07-31 12:04",
-      "images": [
-        "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/760503252_1538766848263579_4733013090354386980_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1228x1332&ctp=s565x565&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jAgNKfMqBzgQ7kNvwE4p71M&_nc_oc=AdrUQ0gL9LOpwwL6T7NHSZqzoJuLPFFXbZk_sr2Z2Znlm0RvcFSH3yRsPcnTJF2xbcY&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=9q1RxOITv3FsZBEZ_3BkCA&_nc_ss=72289&oh=00_AQE18wiK2SbiQbeokUUeoAv2VUEnWqpkQpohxLNjPNPkyg&oe=6A731F03"
-      ],
-      "image_url": "/assets/feed-images/9377c8de9d88a07c3ec0.webp"
-    },
     {
       "id": "c635fbb4c2d1e633",
       "title": "何家健口琴四重奏：巴西計劃",
