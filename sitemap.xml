@@ -97,7 +97,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/125-jens-bunge/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/33/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/3-sirius-harmonica-ensemble/</loc>
     <lastmod>2026-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -355,12 +367,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/125-jens-bunge/</loc>
-    <lastmod>2026-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/189-fcu-harmonica/</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -410,12 +416,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/161-hong-kong-schools-music-festival/</loc>
-    <lastmod>2026-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/3-sirius-harmonica-ensemble/</loc>
     <lastmod>2026-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
