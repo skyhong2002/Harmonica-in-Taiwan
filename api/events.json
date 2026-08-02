@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 443,
+  "count": 444,
   "items": [
     {
       "title": "臺灣口琴音樂節 Taiwan Harmonica Music Festival｜【RedBricks 來台前特別問候】 來自香港的 RedBricks Harmonica即將來台參與 2026 臺灣口琴音樂節！ 在正式來台演出之前，Red…",
@@ -2124,6 +2124,87 @@
         "公開活動"
       ],
       "key": "yt_henrysharmonica:VJiMRtobfcs"
+    },
+    {
+      "title": "cy_leo｜CY LEO ASIA TOUR 2026 30/8 Hong Kong 23/9 Taipei, Taiwan 3/10 Singapore 5/10 Penang, Malaysia 9/10 Seoul, Korea …",
+      "headline": "CY LEO ASIA TOUR 2026",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DbdOLZDjK-H/",
+      "source_id": "ig_cy_leo",
+      "source": "cy_leo",
+      "source_system_name": "CY Leo 何卓彥",
+      "source_profile_url": "https://www.instagram.com/cy_leo/",
+      "country": "香港",
+      "region": "香港",
+      "directory_entry_id": "watchlist-54",
+      "directory_entry_name": "CY Leo 何卓彥",
+      "account": "cy_leo",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "2026-07-31T00:00:00+00:00",
+      "posted_at_local": "2026-07-31 08:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-02T17:28:05.202379+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/cy_leo",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "音樂會"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "演出",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "音樂會"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "口琴演奏者 Cy Leo 亞洲巡演與臺北場演出公告，屬公開更新與音樂會/演出資訊。",
+      "text": "CY LEO ASIA TOUR 2026\n30/8 Hong Kong\n23/9 Taipei, Taiwan\n3/10 Singapore\n5/10 Penang, Malaysia\n9/10 Seoul, Korea\n「Two Worlds In One」由 Cy Leo 何卓彥發起，透過原創口琴與人聲作品，重新探索口琴音樂在爵士、流行與世界音樂中的可能性，邀請聽眾以全新角度聆聽口琴之聲，並將口琴帶入更廣泛、更多元的聆聽領域。\n本計劃以專輯製作與亞洲巡演為核心，由 Cy Leo 擔任曲詞編監與製作統籌，並於巡演期間結合地區業口琴重奏合作，同時邀請各地口琴社群中的代表參與部分演出，透過音樂連結亞洲口琴愛好者，讓彼此的熱愛在不同城市延續、共同成長。\n“Two Worlds In One,” initiated by Cy Leo, reimagines the harmonica’s possibilities through original harmonica and vocal works—exploring how the instrument can speak fluently across jazz, pop, and world music. The project invites audiences to encounter the harmonica in a fresh context, bringing its voice into a wider and more diverse musical world.\nThe project unfolds through an album production and an Asia tour, led by Cy Leo as composer/lyricist/editor and artistic director. and during the tour it will collaborate with professional harmonica ensembles from different regions. At the same time, representatives from harmonica communities around the world will be invited to join selected performances. Through this shared stage, the program connects harmonica enthusiasts across Asia and helps the harmonica tradition continue to grow from city to city.\nLink in b…",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/761653358_18612351817050240_2590188587154998094_n.jpg?stp=c655.0.1966.1966a_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6O2px-IVY5cQ7kNvwHH-Z5G&_nc_oc=AdqnT2X1NBWMguMiKHWkTVfr7qEAQtyDbu-VekrBu3anN6DdBzi0drV65JQmiZrPYOE&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YLet9VsdHRqztOzPMYljcw&_nc_ss=7b60f&oh=00_AQGVYRe6a9KHZcTPxwLC8SUrI0eUj3WUV5Z30p3UOwVAhQ&oe=6A756848"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/761653358_18612351817050240_2590188587154998094_n.jpg?stp=c655.0.1966.1966a_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6O2px-IVY5cQ7kNvwHH-Z5G&_nc_oc=AdqnT2X1NBWMguMiKHWkTVfr7qEAQtyDbu-VekrBu3anN6DdBzi0drV65JQmiZrPYOE&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YLet9VsdHRqztOzPMYljcw&_nc_ss=7b60f&oh=00_AQGVYRe6a9KHZcTPxwLC8SUrI0eUj3WUV5Z30p3UOwVAhQ&oe=6A756848",
+      "image_url": "/assets/feed-images/9d9b79fc0bcd2accabe3.webp",
+      "image_width": 640,
+      "image_height": 640,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/511531335_18513188494050240_908431060909896183_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gHcAuo6pEGNcOyRR22sq7IJ4g8bBZLZl7m-Cd_7r4rYo7ANkRG-PFXWDI59jJfCDX8&_nc_ohc=FKFUb3wgEf4Q7kNvwEkw-Ko&_nc_gid=iw8rRX_dsujKVk1KfcIMkw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af9WZxgdmhxcFUlH0rgF_O47TYrJJjV-1hljCVLcw7r4mA&oe=6A41E2D0&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/0593677b111266524b58.webp",
+      "source_initials": "CL",
+      "categories": [
+        "posts-videos",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "學生社團"
+      ],
+      "key": "ig_cy_leo:DbdOLZDjK-H"
     },
     {
       "title": "Deak Harp｜Playing Reds tonight come on out me and Quicksand I’ll be there https://www.facebook.com/photo/?fbid=10244516…",
