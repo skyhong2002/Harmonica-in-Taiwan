@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T09:29:47.859907Z",
+  "generatedAt": "2026-08-02T10:04:13.362835Z",
   "source": {
     "id": 186,
     "slug": "tcfsh-harmonica",
     "name": "中一中口琴社",
     "pageUrl": "https://harmonica.observe.tw/source/186-tcfsh-harmonica/"
   },
-  "items": [
-    {
-      "id": "post-463b69afefadb4eb1e4ee008",
-      "title": "天青色等煙雨，而我在等你🫶🏻",
-      "excerpt": "天青色等煙雨，而我在等你🫶🏻 ~ 炊煙裊裊昇起 隔江千萬里🎶 ~ 臺中一中口琴之狼校友音樂會 《天琴聲等煙雨》 倒數50天 - - - - - - - - - - - - - - - - - - - - - 活動時間：8/21（五）晚上六點半 舉辦地點：大墩文化中心 B1 演講廳 入場方式：免費入場",
-      "url": "https://www.facebook.com/tcfsh.harmonica/posts/pfbid026TX9x37qBLk1W7jif1qzR2vfQrhDWpVWSXjmo8mDw9xLn5CHnUEx5PmsZfsebB4Zl",
-      "sourceName": "中一中口琴社",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-03T09:52:52Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/db6b49e57601f4e9884d.webp",
-        "width": 800,
-        "height": 334
-      }
-    }
-  ]
+  "items": []
 }
