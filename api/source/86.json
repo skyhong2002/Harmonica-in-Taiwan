@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T04:29:19.441184Z",
+  "generatedAt": "2026-08-02T05:03:32.194561Z",
   "source": {
     "id": 86,
     "slug": "ou-frog",
@@ -200,20 +200,6 @@
       "publishedAt": "2026-07-06T05:37:05Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/42756760e5a9b12955ff.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-7461ae01a6255c635007a5fe",
-      "title": "[口琴活動 Play Harmonica] 仁濟院樂齡活化站口琴班級成果發表｜複音口琴｜Tremolo",
-      "excerpt": "[口琴活動 Play Harmonica] 仁濟院樂齡活化站口琴班級成果發表｜複音口琴｜Tremolo 表演班級：仁濟院樂齡活化站＿口琴班 曲目：愛江山更愛美人 #口琴 #複音口琴 #Harmonica #Tremolo harmonica #特效口琴 #特效鋼琴 #口琴譜 #口琴演奏",
-      "url": "https://www.youtube.com/watch?v=zyggoZU95Jw",
-      "sourceName": "吹出好心琴 + Ou Frog",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-03T04:56:33Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/2309cf264480b9ee031f.webp",
         "width": 800,
         "height": 450
       }

@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 439,
+  "count": 438,
   "items": [
     {
       "title": "Aiden & Evelyn｜Instagram story @aidennevelyn",
@@ -33714,83 +33714,6 @@
         "公開活動"
       ],
       "key": "ig_story_gyeoli_94:3932985107689741071_974569604"
-    },
-    {
-      "title": "吹出好心琴 + Ou Frog +｜[口琴活動 Play Harmonica] 仁濟院樂齡活化站口琴班級成果發表｜複音口琴｜Tremolo 表演班級：仁濟院樂齡活化站＿口琴班 曲目：愛江山更愛美人 #口琴 #複音口琴 #Harmonica…",
-      "headline": "[口琴活動 Play Harmonica] 仁濟院樂齡活化站口琴班級成果發表｜複音口琴｜Tremolo",
-      "display_title": "[口琴活動 Play Harmonica] 仁濟院樂齡活化站口琴班級成果發表｜複音口琴｜Tremolo",
-      "title_kind": "title",
-      "link": "https://www.youtube.com/watch?v=zyggoZU95Jw",
-      "source_id": "yt_oufrog",
-      "source": "吹出好心琴 + Ou Frog +",
-      "source_system_name": "歐純伶",
-      "source_profile_url": "https://www.youtube.com/channel/UCYVZf8lsckbde4dRRB0EK8A",
-      "country": "臺灣",
-      "region": "臺灣",
-      "directory_entry_id": "watchlist-86",
-      "directory_entry_name": "吹出好心琴 + Ou Frog",
-      "account": "https://www.youtube.com/channel/UCYVZf8lsckbde4dRRB0EK8A",
-      "platform": "youtube",
-      "platform_label": "YouTube",
-      "posted_at": "2026-07-03T04:56:33+00:00",
-      "posted_at_local": "2026-07-03 12:56",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-07-03T16:20:05.822364+00:00",
-      "media_type": "video",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "成發",
-        "公開更新"
-      ],
-      "keyword_matches": [
-        "口琴",
-        "成果發表",
-        "harmonica"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 1.0,
-      "llm_labels": [
-        "口琴",
-        "成發",
-        "公開更新"
-      ],
-      "llm_categories": [
-        "events"
-      ],
-      "llm_reason": "貼文為口琴班級的成果發表活動，符合口琴演出與成發類別，來源與內容皆直接相關。",
-      "text": "[口琴活動 Play Harmonica] 仁濟院樂齡活化站口琴班級成果發表｜複音口琴｜Tremolo\n表演班級：仁濟院樂齡活化站＿口琴班\n曲目：愛江山更愛美人\n#口琴 #複音口琴 #Harmonica #Tremolo harmonica #特效口琴 #特效鋼琴\n#口琴譜 #口琴演奏",
-      "images": [
-        "https://i.ytimg.com/vi/zyggoZU95Jw/maxresdefault.jpg"
-      ],
-      "videos": [],
-      "source_image_url": "https://i.ytimg.com/vi/zyggoZU95Jw/maxresdefault.jpg",
-      "image_url": "/assets/feed-images/2309cf264480b9ee031f.webp",
-      "image_width": 800,
-      "image_height": 450,
-      "source_avatar_url": "https://yt3.googleusercontent.com/zpNQ6PMxz1G01j8vDzQ53R9CJOQvK9USeamGpVffmwo3Gjpm6uktX120aOiTgmtw-fLshswvNA=s900-c-k-c0x00ffffff-no-rj",
-      "avatar_url": "/assets/source-avatars/2241bd394301b93492ed.webp",
-      "source_initials": "OF",
-      "categories": [
-        "posts-videos",
-        "events"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動"
-      ],
-      "key": "yt_oufrog:zyggoZU95Jw"
     }
   ]
 }
