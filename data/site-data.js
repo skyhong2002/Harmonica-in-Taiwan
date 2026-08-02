@@ -2,6 +2,91 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-02",
   "entries": [
     {
+      "id": "watchlist-115",
+      "publicId": "115",
+      "name": "Filip Jers",
+      "nameEn": "Filip Jers",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "瑞典",
+      "region": "瑞典",
+      "cityOrFocus": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出",
+      "structuredSummary": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出 / 半音階/十孔 / 國際演出人員/作曲者/教育者",
+      "summary": "瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。",
+      "keywords": "Filip Jers harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.filipjers.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/filipjersmusic/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/filipjersharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@filipjersmusic"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-01T22:46:30+00:00",
+      "latestUpdateLocal": "2026-08-02 06:46",
+      "latestUpdateSource": "Filip Jers",
+      "latestUpdateUrl": "https://www.instagram.com/stories/filipjersharmonica/3954426465989224447/",
+      "avatarUrl": "/assets/source-avatars/913600e9d6bc34a43a07.webp",
+      "sourceInitials": "FJ",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_filipjersmusic",
+          "name": "Filip Jers",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/filipjersmusic",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_filipjersharmonica",
+          "name": "Filip Jers",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "filipjersharmonica",
+          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_filipjersharmonica",
+          "name": "Filip Jers",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "filipjersharmonica",
+          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/filipjersharmonica/story/0"
+        },
+        {
+          "id": "yt_filipjersmusic",
+          "name": "Filip Jers",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@filipjersmusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-108",
       "publicId": "108",
       "name": "Rodrigo Eberienos",
@@ -77,6 +162,159 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@eberienos",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-218",
+      "publicId": "218",
+      "name": "Evelyn Choong 鍾雪兒",
+      "nameEn": "Evelyn Choong",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
+      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "Evelyn Choong 鍾雪兒 evelyn_harmonica World Harmonica Champion Aiden N Evelyn harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/evelyn.choong.3/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/evelyn_harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-01T22:38:30+00:00",
+      "latestUpdateLocal": "2026-08-02 06:38",
+      "latestUpdateSource": "Evelyn Choong 鍾雪兒",
+      "latestUpdateUrl": "https://www.instagram.com/stories/evelyn_harmonica/3954422433222674093/",
+      "avatarUrl": "/assets/source-avatars/55e934ceb37dbf6365f5.webp",
+      "sourceInitials": "EC",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_evelyn_choong_3",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/evelyn.choong.3",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_evelyn_harmonica",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "evelyn_harmonica",
+          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_evelyn_harmonica",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "evelyn_harmonica",
+          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/evelyn_harmonica/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-153",
+      "publicId": "153",
+      "name": "Santiago Alvarez",
+      "nameEn": "Santiago Alvarez",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "阿根廷",
+      "region": "阿根廷",
+      "cityOrFocus": "WHF 2025/半音階口琴/世界冠軍/演出與教學",
+      "structuredSummary": "WHF 2025/半音階口琴/世界冠軍/演出與教學 / 半音階 / 國際演出人員/教育者",
+      "summary": "阿根廷的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、半音階口琴與世界冠軍。",
+      "keywords": "Santiago Alvarez Santiago Alvarez Armonica harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://worldharmonicafestival.de/artist-profile-santiago-alvarez/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/santialvarezarmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/santi.alvarez.armonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCj06r7zxcQqFS26fy7n0jZw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-01T21:50:29+00:00",
+      "latestUpdateLocal": "2026-08-02 05:50",
+      "latestUpdateSource": "Santiago Alvarez",
+      "latestUpdateUrl": "https://www.instagram.com/stories/santi.alvarez.armonica/3954398281739717034/",
+      "avatarUrl": "/assets/source-avatars/44f4135c4ded7b219139.webp",
+      "sourceInitials": "SA",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_santialvarezarmonica",
+          "name": "Santiago Alvarez",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/santialvarezarmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_santi_alvarez_armonica",
+          "name": "Santiago Alvarez",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "santi.alvarez.armonica",
+          "profileUrl": "https://www.instagram.com/santi.alvarez.armonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_santi_alvarez_armonica",
+          "name": "Santiago Alvarez",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "santi.alvarez.armonica",
+          "profileUrl": "https://www.instagram.com/santi.alvarez.armonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/santi.alvarez.armonica/story/0"
+        },
+        {
+          "id": "yt_ucj06r7zxcqqfs26fy7n0jzw",
+          "name": "Santiago Alvarez",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCj06r7zxcQqFS26fy7n0jZw",
           "feedUrl": ""
         }
       ]
@@ -463,7 +701,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-01 23:56",
       "latestUpdateSource": "王心禾",
       "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_wang/3954219938210603294/",
-      "avatarUrl": "/assets/source-avatars/6e0443c85d9318ef71c9.webp",
+      "avatarUrl": "/assets/source-avatars/cc50275a452448e7cd9a.webp",
       "sourceInitials": "王心",
       "sourceTags": [
         "演奏者"
@@ -818,6 +1056,94 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-67",
+      "publicId": "67",
+      "name": "Marcos Coll",
+      "nameEn": "Marcos Coll",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "西班牙",
+      "region": "西班牙",
+      "cityOrFocus": "十孔/藍調",
+      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
+      "summary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
+      "keywords": "Marcos Coll harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://marcoscoll.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/marcoscollharp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/marcoscollgonzalez/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-01T15:31:03+00:00",
+      "latestUpdateLocal": "2026-08-01 23:31",
+      "latestUpdateSource": "Marcos Coll",
+      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3954207295258874032/",
+      "avatarUrl": "/assets/source-avatars/192db308370fb52ec951.webp",
+      "sourceInitials": "MC",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流",
+        "音樂會",
+        "演出"
+      ],
+      "sourceSummary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
+      "sourceTagReason": "category為演奏者，type為個人，focus在十孔/藍調，並有國際演出經歷。",
+      "monitorSources": [
+        {
+          "id": "fb_marcoscollharp",
+          "name": "Marcos Coll",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/marcoscollharp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
+        },
+        {
+          "id": "yt_marcoscollharpandsoul",
+          "name": "Marcos Coll",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
           "feedUrl": ""
         }
       ]
@@ -1814,94 +2140,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-67",
-      "publicId": "67",
-      "name": "Marcos Coll",
-      "nameEn": "Marcos Coll",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "西班牙",
-      "region": "西班牙",
-      "cityOrFocus": "十孔/藍調",
-      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
-      "summary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
-      "keywords": "Marcos Coll harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://marcoscoll.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/marcoscollharp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/marcoscollgonzalez/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-01T13:29:06+00:00",
-      "latestUpdateLocal": "2026-08-01 21:29",
-      "latestUpdateSource": "Marcos Coll",
-      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3954145919706563932/",
-      "avatarUrl": "/assets/source-avatars/192db308370fb52ec951.webp",
-      "sourceInitials": "MC",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "國際交流",
-        "音樂會",
-        "演出"
-      ],
-      "sourceSummary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
-      "sourceTagReason": "category為演奏者，type為個人，focus在十孔/藍調，並有國際演出經歷。",
-      "monitorSources": [
-        {
-          "id": "fb_marcoscollharp",
-          "name": "Marcos Coll",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/marcoscollharp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
-        },
-        {
-          "id": "yt_marcoscollharpandsoul",
-          "name": "Marcos Coll",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-225",
       "publicId": "225",
       "name": "408 Harmonica Ensemble",
@@ -2332,91 +2570,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-115",
-      "publicId": "115",
-      "name": "Filip Jers",
-      "nameEn": "Filip Jers",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "瑞典",
-      "region": "瑞典",
-      "cityOrFocus": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出",
-      "structuredSummary": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出 / 半音階/十孔 / 國際演出人員/作曲者/教育者",
-      "summary": "瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。",
-      "keywords": "Filip Jers harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.filipjers.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/filipjersmusic/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/filipjersharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@filipjersmusic"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-01T11:30:05+00:00",
-      "latestUpdateLocal": "2026-08-01 19:30",
-      "latestUpdateSource": "Filip Jers",
-      "latestUpdateUrl": "https://www.instagram.com/stories/filipjersharmonica/3954086012770845591/",
-      "avatarUrl": "/assets/source-avatars/913600e9d6bc34a43a07.webp",
-      "sourceInitials": "FJ",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_filipjersmusic",
-          "name": "Filip Jers",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/filipjersmusic",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_filipjersharmonica",
-          "name": "Filip Jers",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "filipjersharmonica",
-          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_filipjersharmonica",
-          "name": "Filip Jers",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "filipjersharmonica",
-          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/filipjersharmonica/story/0"
-        },
-        {
-          "id": "yt_filipjersmusic",
-          "name": "Filip Jers",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@filipjersmusic",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-63",
       "publicId": "63",
       "name": "F.I.H. JAPAN ハーモニカコンテスト",
@@ -2513,74 +2666,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/user/Moridaira01",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-218",
-      "publicId": "218",
-      "name": "Evelyn Choong 鍾雪兒",
-      "nameEn": "Evelyn Choong",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
-      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
-      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
-      "keywords": "Evelyn Choong 鍾雪兒 evelyn_harmonica World Harmonica Champion Aiden N Evelyn harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/evelyn.choong.3/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/evelyn_harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-01T10:01:18+00:00",
-      "latestUpdateLocal": "2026-08-01 18:01",
-      "latestUpdateSource": "Evelyn Choong 鍾雪兒",
-      "latestUpdateUrl": "https://www.instagram.com/stories/evelyn_harmonica/3954041354355664572/",
-      "avatarUrl": "/assets/source-avatars/55e934ceb37dbf6365f5.webp",
-      "sourceInitials": "EC",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_evelyn_choong_3",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/evelyn.choong.3",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_evelyn_harmonica",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "evelyn_harmonica",
-          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_evelyn_harmonica",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "evelyn_harmonica",
-          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/evelyn_harmonica/story/0"
         }
       ]
     },
@@ -3391,7 +3476,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-01 12:00",
       "latestUpdateSource": "國家兩廳院",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=Uoy51h3l_Wo",
-      "avatarUrl": "/assets/source-avatars/6db2655430c826dcee10.webp",
+      "avatarUrl": "/assets/source-avatars/8b23105ab16ff2bda240.webp",
       "sourceInitials": "國家",
       "sourceTags": [
         "場館平台"
@@ -4689,7 +4774,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-31 13:35",
       "latestUpdateSource": "張晁滕",
       "latestUpdateUrl": "https://www.instagram.com/stories/chaotengchang/3953182607248375079/",
-      "avatarUrl": "/assets/source-avatars/6dcd46b5676743756a83.webp",
+      "avatarUrl": "/assets/source-avatars/56e9f611310355f9cee6.webp",
       "sourceInitials": "張晁",
       "sourceTags": [
         "演奏者",
@@ -5341,91 +5426,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/aidennevelyn",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-153",
-      "publicId": "153",
-      "name": "Santiago Alvarez",
-      "nameEn": "Santiago Alvarez",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "阿根廷",
-      "region": "阿根廷",
-      "cityOrFocus": "WHF 2025/半音階口琴/世界冠軍/演出與教學",
-      "structuredSummary": "WHF 2025/半音階口琴/世界冠軍/演出與教學 / 半音階 / 國際演出人員/教育者",
-      "summary": "阿根廷的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、半音階口琴與世界冠軍。",
-      "keywords": "Santiago Alvarez Santiago Alvarez Armonica harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://worldharmonicafestival.de/artist-profile-santiago-alvarez/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/santialvarezarmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/santi.alvarez.armonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCj06r7zxcQqFS26fy7n0jZw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-30T22:27:05+00:00",
-      "latestUpdateLocal": "2026-07-31 06:27",
-      "latestUpdateSource": "Santiago Alvarez",
-      "latestUpdateUrl": "https://www.instagram.com/stories/santi.alvarez.armonica/3952967150964184964/",
-      "avatarUrl": "/assets/source-avatars/44f4135c4ded7b219139.webp",
-      "sourceInitials": "SA",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_santialvarezarmonica",
-          "name": "Santiago Alvarez",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/santialvarezarmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_santi_alvarez_armonica",
-          "name": "Santiago Alvarez",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "santi.alvarez.armonica",
-          "profileUrl": "https://www.instagram.com/santi.alvarez.armonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_santi_alvarez_armonica",
-          "name": "Santiago Alvarez",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "santi.alvarez.armonica",
-          "profileUrl": "https://www.instagram.com/santi.alvarez.armonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/santi.alvarez.armonica/story/0"
-        },
-        {
-          "id": "yt_ucj06r7zxcqqfs26fy7n0jzw",
-          "name": "Santiago Alvarez",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCj06r7zxcQqFS26fy7n0jZw",
           "feedUrl": ""
         }
       ]

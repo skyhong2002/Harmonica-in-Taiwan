@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T01:40:31.368641Z",
+  "generatedAt": "2026-08-02T02:47:10.798811Z",
   "source": {
     "id": 31,
     "slug": "31",
@@ -114,20 +114,6 @@
       "sourceName": "張晁滕",
       "platform": "Facebook",
       "publishedAt": "2026-07-11T08:16:30Z"
-    },
-    {
-      "id": "post-f9ea74297abf816b1a73e408",
-      "title": "今天剛好上到多孔和聲奏法",
-      "excerpt": "今天剛好上到多孔和聲奏法 我個人複音的和聲技巧都以孔數來分類，在樂理上比較不會混淆。最近很多新的樂譜也傾向直接標示和聲組成，我覺得可以避免很多樂理上的誤會",
-      "url": "https://www.instagram.com/p/DaUCR8NykJt/",
-      "sourceName": "張晁滕",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-03T02:00:59Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/bf41d1708dc3cdd22ed0.webp",
-        "width": 800,
-        "height": 904
-      }
     }
   ]
 }

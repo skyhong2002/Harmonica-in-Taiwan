@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T01:40:31.368641Z",
+  "generatedAt": "2026-08-02T02:47:10.798811Z",
   "source": {
     "id": 54,
     "slug": "cy-leo",
@@ -172,20 +172,6 @@
       "publishedAt": "2026-07-03T04:00:01Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/e99d9f69c516590c53a2.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-0c4e722390d3d2d28c1528af",
-      "title": "(Live) 陪著你走 - Cy Leo & PC Ho",
-      "excerpt": "(Live) 陪著你走 - Cy Leo & PC Ho A performance on the classic by Lowell Lo arranged by Cy Leo at HSBC event. Saxophone: Timothy Sun Keyboard: Freeman Lok Double Bass: Justin Siu",
-      "url": "https://www.youtube.com/watch?v=JsJ_iUAD8cg",
-      "sourceName": "CY Leo 何卓彥",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-03T02:38:31Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/dc1ccc625238a2d48734.webp",
         "width": 800,
         "height": 450
       }
