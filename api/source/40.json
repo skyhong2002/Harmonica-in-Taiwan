@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T00:02:05.198641Z",
+  "generatedAt": "2026-08-02T01:08:11.601309Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -214,20 +214,6 @@
       "publishedAt": "2026-07-05T00:00:21Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/9e8559718bbe27ae029c.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-45540a114d5b4cb51f12bb37",
-      "title": "【就是吹口琴Just Play Harmonica 】｜真的好想你｜複音口琴Tremolo Harmonica 演奏版本《C調》",
-      "excerpt": "【就是吹口琴Just Play Harmonica 】｜真的好想你｜複音口琴Tremolo Harmonica 演奏版本《C調》 真的好想你 李漢穎 作曲 楊湘粵 作詞 周冰倩 原唱 複音口琴演奏版本《C調》",
-      "url": "https://www.youtube.com/watch?v=RExvb2Hur8Q",
-      "sourceName": "陳鴻儀",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-03T00:30:06Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/6fd295ff141320f6fa95.webp",
         "width": 800,
         "height": 450
       }
