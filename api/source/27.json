@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T03:21:35.965633Z",
+  "generatedAt": "2026-08-02T03:55:56.828030Z",
   "source": {
     "id": 27,
     "slug": "peacetones-harmonica",
@@ -188,20 +188,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/2ab76f0f71b151b0385a.webp",
         "width": 800,
         "height": 604
-      }
-    },
-    {
-      "id": "post-10f89c87817404660e5ff59f",
-      "title": "半音階口琴獨奏【道別的夏天】_張宇樞｜Chromatic harmonica solo play by Paul Chang",
-      "excerpt": "半音階口琴獨奏【道別的夏天】_張宇樞｜Chromatic harmonica solo play by Paul Chang",
-      "url": "https://www.youtube.com/watch?v=ABmNtenSvRU",
-      "sourceName": "音和樂器",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-03T03:26:43Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/ca956be1d055ab0ed03f.webp",
-        "width": 800,
-        "height": 450
       }
     }
   ]
