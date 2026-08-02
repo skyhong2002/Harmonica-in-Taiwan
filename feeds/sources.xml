@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 02 Aug 2026 16:10:29 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 16:42:46 +0000</lastBuildDate>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -16,6 +16,17 @@ Tag：演奏者、半音階、國際交流
 國家：日本
 地區：日本
 日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+    </item>
+    <item>
+      <title>胖擊口琴樂團</title>
+      <link>https://linktr.ee/punch.harp</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c710aae1bf2f4665</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏
+國家：臺灣
+地區：臺灣
+臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。</description>
     </item>
     <item>
       <title>張晁滕</title>
@@ -247,17 +258,6 @@ Tag：學生社團、大專社團
 國家：臺灣
 地區：臺灣/臺中
 臺灣的口琴學校社團。</description>
-    </item>
-    <item>
-      <title>胖擊口琴樂團</title>
-      <link>https://linktr.ee/punch.harp</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c710aae1bf2f4665</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏
-國家：臺灣
-地區：臺灣
-臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。</description>
     </item>
     <item>
       <title>林裕豐</title>
