@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T06:11:03.622292Z",
+  "generatedAt": "2026-08-02T06:43:55.255158Z",
   "source": {
     "id": 166,
     "slug": "the-hummingway-harmonica-ensemble",
     "name": "海明威口琴重奏團",
     "pageUrl": "https://harmonica.observe.tw/source/166-the-hummingway-harmonica-ensemble/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-4bd9941e318046b89a62f4ed",
+      "title": "APHF2026_Closing Ceremony “Malay Fusion” performed by Hummingway Harmonica Ensemble",
+      "excerpt": "APHF2026_Closing Ceremony “Malay Fusion” performed by Hummingway Harmonica Ensemble 《打火机》 x 《Rasa Sayang》×《Wau Bulan》 熟悉的旋律，加上一点新的创意与舞台设计。 这是我们献给 2026年亚太口琴节闭幕式的一份礼物。 希望大家都能感受到属于马来西亚的活力与热情！🥳 We are proud to share the music from Malaysia with the world. 🇲🇾🎶",
+      "url": "https://www.youtube.com/watch?v=WbivpkHOtrA",
+      "sourceName": "海明威口琴重奏團",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-02T05:07:29Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2dbf2f779aa313fedc53.webp",
+        "width": 800,
+        "height": 450
+      }
+    }
+  ]
 }

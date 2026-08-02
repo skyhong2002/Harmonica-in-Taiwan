@@ -2,6 +2,159 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-02",
   "entries": [
     {
+      "id": "watchlist-30",
+      "publicId": "30",
+      "name": "蔡明憲",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
+      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
+      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
+      "keywords": "蔡明憲 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://studio.dming.co/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/dming.tsai/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/damingtsai/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-02T05:59:53+00:00",
+      "latestUpdateLocal": "2026-08-02 13:59",
+      "latestUpdateSource": "蔡明憲",
+      "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3954644594603982716/",
+      "avatarUrl": "/assets/source-avatars/5027d958b2fb59da0aa3.webp",
+      "sourceInitials": "蔡明",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_dming_tsai",
+          "name": "蔡明憲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/dming.tsai",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-166",
+      "publicId": "166",
+      "name": "海明威口琴重奏團",
+      "nameEn": "The HummingWay Harmonica Ensemble",
+      "category": "活動資訊",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "馬來西亞口琴重奏/跨國音樂節/社群演出",
+      "structuredSummary": "馬來西亞口琴重奏/跨國音樂節/社群演出 / 口琴重奏/合奏 / 國際演出團體",
+      "summary": "馬來西亞的國際演出團體，涵蓋馬來西亞口琴重奏、跨國音樂節與社群演出。",
+      "keywords": "海明威口琴重奏團 HummingWay Harmonica Ensemble Malaysia harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TheHummingWay/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hummingwayharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@hummingwaythe9424"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-02T05:07:29+00:00",
+      "latestUpdateLocal": "2026-08-02 13:07",
+      "latestUpdateSource": "海明威口琴重奏團",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=WbivpkHOtrA",
+      "avatarUrl": "/assets/source-avatars/97f646ae544536c75efd.webp",
+      "sourceInitials": "海明",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "音樂節",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_thehummingway",
+          "name": "海明威口琴重奏團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/TheHummingWay",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hummingwayharmonica",
+          "name": "海明威口琴重奏團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hummingwayharmonica",
+          "profileUrl": "https://www.instagram.com/hummingwayharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hummingwayharmonica",
+          "name": "海明威口琴重奏團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hummingwayharmonica",
+          "profileUrl": "https://www.instagram.com/hummingwayharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hummingwayharmonica/story/0"
+        },
+        {
+          "id": "yt_hummingwaythe9424",
+          "name": "海明威口琴重奏團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@hummingwaythe9424",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-5",
       "publicId": "5",
       "name": "胖擊口琴樂團",
@@ -3943,77 +4096,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-30",
-      "publicId": "30",
-      "name": "蔡明憲",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
-      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
-      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
-      "keywords": "蔡明憲 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://studio.dming.co/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/dming.tsai/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/damingtsai/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-01T03:57:32+00:00",
-      "latestUpdateLocal": "2026-08-01 11:57",
-      "latestUpdateSource": "蔡明憲",
-      "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3953858236042617778/",
-      "avatarUrl": "/assets/source-avatars/5027d958b2fb59da0aa3.webp",
-      "sourceInitials": "蔡明",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_dming_tsai",
-          "name": "蔡明憲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/dming.tsai",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-32",
       "publicId": "32",
       "name": "陳彥銘",
@@ -6248,88 +6330,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@etaborya",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-166",
-      "publicId": "166",
-      "name": "海明威口琴重奏團",
-      "nameEn": "The HummingWay Harmonica Ensemble",
-      "category": "活動資訊",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "馬來西亞口琴重奏/跨國音樂節/社群演出",
-      "structuredSummary": "馬來西亞口琴重奏/跨國音樂節/社群演出 / 口琴重奏/合奏 / 國際演出團體",
-      "summary": "馬來西亞的國際演出團體，涵蓋馬來西亞口琴重奏、跨國音樂節與社群演出。",
-      "keywords": "海明威口琴重奏團 HummingWay Harmonica Ensemble Malaysia harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/TheHummingWay/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hummingwayharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@hummingwaythe9424"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-29T04:56:07+00:00",
-      "latestUpdateLocal": "2026-07-29 12:56",
-      "latestUpdateSource": "海明威口琴重奏團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hummingwayharmonica/3951713436765877491/",
-      "avatarUrl": "/assets/source-avatars/97f646ae544536c75efd.webp",
-      "sourceInitials": "海明",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "音樂節",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_thehummingway",
-          "name": "海明威口琴重奏團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/TheHummingWay",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hummingwayharmonica",
-          "name": "海明威口琴重奏團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hummingwayharmonica",
-          "profileUrl": "https://www.instagram.com/hummingwayharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hummingwayharmonica",
-          "name": "海明威口琴重奏團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hummingwayharmonica",
-          "profileUrl": "https://www.instagram.com/hummingwayharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hummingwayharmonica/story/0"
-        },
-        {
-          "id": "yt_hummingwaythe9424",
-          "name": "海明威口琴重奏團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@hummingwaythe9424",
           "feedUrl": ""
         }
       ]
