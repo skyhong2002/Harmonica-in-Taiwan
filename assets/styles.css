@@ -1878,6 +1878,20 @@ button.feed-tag-pill {
   gap: 8px 12px;
 }
 
+.feed-card-links {
+  flex: 1 1 100%;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.feed-card-links > a {
+  font-size: 0.88rem;
+  font-weight: 900;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
 .entry-links .context-report-link {
   color: var(--teal-deep);
 }
@@ -2790,7 +2804,7 @@ button.feed-tag-pill {
   justify-items: end;
   align-content: space-between;
   gap: 12px;
-  min-width: 170px;
+  min-width: 230px;
   max-width: 100%;
 }
 
@@ -2911,6 +2925,7 @@ button.feed-tag-pill {
 
   .feed-item-actions {
     justify-items: start;
+    min-width: 0;
   }
 
   .site-footer-inner {
