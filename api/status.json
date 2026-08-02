@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T03:04:11+08:00",
+  "generatedAt": "2026-08-03T03:13:01+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "degraded",
@@ -96,7 +96,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：10 ms"
+        "耗時：7 ms"
       ]
     },
     {
@@ -110,7 +110,8 @@
         "story 無公開內容/空路由略過：0",
         "IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。",
         "本輪 IG：抓取 2、排程略過 292、延後 0、錯誤 0。",
-        "下一個 IG 來源：約 2026-08-03 03:04:13"
+        "執行中：source，123/147；目前 庫里奇巴口琴樂團；heartbeat 2026-08-03 03:12:54。",
+        "下一個 IG 來源：約 2026-08-03 03:15:54"
       ]
     },
     {
@@ -326,14 +327,14 @@
   ],
   "runtime": {
     "pipeline": {
-      "currentStep": "build status page",
-      "heartbeatAt": "2026-08-02T19:04:11.915567+00:00",
+      "currentStep": "",
+      "heartbeatAt": "2026-08-02T19:04:39.824737+00:00",
       "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
       "maxPostAgeDays": 2,
-      "message": "",
+      "message": "Pipeline completed",
       "pid": 70418,
       "startedAt": "2026-08-02T19:00:07.616573+00:00",
-      "status": "running",
+      "status": "ok",
       "steps": [
         {
           "command": [
@@ -467,37 +468,108 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_status_page.py"
           ],
-          "finishedAt": "",
+          "finishedAt": "2026-08-02T19:04:13.399182+00:00",
           "name": "build status page",
-          "returnCode": null,
+          "returnCode": 0,
           "startedAt": "2026-08-02T19:04:11.915561+00:00",
-          "status": "running"
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/build_submit_page.py"
+          ],
+          "finishedAt": "2026-08-02T19:04:13.447488+00:00",
+          "name": "build submit page",
+          "returnCode": 0,
+          "startedAt": "2026-08-02T19:04:13.399983+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/generate_seo_pages.py"
+          ],
+          "finishedAt": "2026-08-02T19:04:15.550044+00:00",
+          "name": "generate SEO pages",
+          "returnCode": 0,
+          "startedAt": "2026-08-02T19:04:13.448104+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/generate_cloudflare_redirects.py"
+          ],
+          "finishedAt": "2026-08-02T19:04:15.597977+00:00",
+          "name": "generate cloudflare redirects",
+          "returnCode": 0,
+          "startedAt": "2026-08-02T19:04:15.550917+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/check_source_coverage.py"
+          ],
+          "finishedAt": "2026-08-02T19:04:17.181622+00:00",
+          "name": "check source coverage",
+          "returnCode": 0,
+          "startedAt": "2026-08-02T19:04:15.598596+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/validate_public_outputs.py"
+          ],
+          "finishedAt": "2026-08-02T19:04:19.062789+00:00",
+          "name": "validate public outputs",
+          "returnCode": 0,
+          "startedAt": "2026-08-02T19:04:17.182393+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/publish_github_pages.py"
+          ],
+          "finishedAt": "2026-08-02T19:04:19.063878+00:00",
+          "name": "publish github pages",
+          "returnCode": 0,
+          "startedAt": "2026-08-02T19:04:19.063567+00:00",
+          "status": "ok"
         }
       ],
       "version": 1
     },
     "socialFetch": {
-      "currentSource": {},
-      "errors": 3,
-      "fetchedPosts": 1603,
-      "finishedAt": "2026-08-02T19:03:47.273355+00:00",
-      "heartbeatAt": "2026-08-02T19:03:47.273352+00:00",
+      "currentSource": {
+        "id": "ig_orquestraharmonicas",
+        "name": "庫里奇巴口琴樂團",
+        "platform": "instagram",
+        "type": "rsshub_instagram_profile"
+      },
+      "errors": 4,
+      "fetchedPosts": 1397,
+      "finishedAt": "",
+      "heartbeatAt": "2026-08-02T19:12:54.233720+00:00",
       "instagram": {
-        "attempted": 2,
+        "attempted": 123,
         "deferred": 0,
-        "delay_secs": 8.0,
-        "errors": 0,
-        "max_attempts_per_run": 40,
-        "profile_attempted": 0,
+        "delay_secs": 0.0,
+        "errors": 4,
+        "max_attempts_per_run": 147,
+        "profile_attempted": 123,
         "profile_deferred": 0,
         "profile_interval_hours": 12.0,
-        "profile_skipped": 147,
-        "scheduled": 292,
-        "skipped": 292,
-        "story_attempted": 2,
+        "profile_skipped": 0,
+        "scheduled": 0,
+        "skipped": 0,
+        "story_attempted": 0,
         "story_deferred": 0,
         "story_interval_hours": 12.0,
-        "story_skipped": 145
+        "story_skipped": 0
       },
       "llmTags": {
         "cached": 0,
@@ -506,14 +578,14 @@
         "requests": 0
       },
       "message": "",
-      "newRelevantPosts": 1,
-      "phase": "complete",
-      "pid": 70420,
-      "processedSources": 615,
-      "skippedOldPosts": 0,
-      "startedAt": "2026-08-02T19:00:07.756400+00:00",
-      "status": "ok",
-      "totalSources": 615,
+      "newRelevantPosts": 0,
+      "phase": "source",
+      "pid": 76457,
+      "processedSources": 123,
+      "skippedOldPosts": 115,
+      "startedAt": "2026-08-02T19:08:45.386433+00:00",
+      "status": "running",
+      "totalSources": 147,
       "version": 1
     }
   }
