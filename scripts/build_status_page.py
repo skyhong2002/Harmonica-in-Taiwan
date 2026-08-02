@@ -417,6 +417,32 @@ def story_empty_error(row: dict[str, Any], source_by_id: dict[str, dict[str, Any
     return any(pattern in error for pattern in STORY_EMPTY_ERROR_PATTERNS)
 
 
+def persistent_source_errors(
+    fetch_state: dict[str, Any],
+    source_by_id: dict[str, dict[str, Any]],
+    current_errors: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    current_ids = {str(row.get("source_id") or "") for row in current_errors}
+    entries = fetch_state.get("sources") if isinstance(fetch_state.get("sources"), dict) else {}
+    persistent: list[dict[str, Any]] = []
+    for source_id, state in entries.items():
+        if not isinstance(state, dict) or str(source_id) in current_ids:
+            continue
+        consecutive_errors = int(state.get("consecutive_errors") or 0)
+        error = str(state.get("last_error") or "")
+        if consecutive_errors < 2 or not error or str(source_id) not in source_by_id:
+            continue
+        persistent.append(
+            {
+                "source_id": str(source_id),
+                "source_type": state.get("source_type") or source_by_id[str(source_id)].get("type") or "",
+                "seen_at": state.get("last_error_at") or "",
+                "error": f"連續失敗 {consecutive_errors} 次：{error}",
+            }
+        )
+    return persistent
+
+
 def build_status() -> dict[str, Any]:
     now = dt.datetime.now(dt.timezone.utc)
     sources = enabled_watch_sources()
@@ -466,6 +492,7 @@ def build_status() -> dict[str, Any]:
         and not youtube_error_superseded(row, youtube_recovered_at)
         and not story_empty_error(row, source_by_id)
     ]
+    current_errors.extend(persistent_source_errors(social_fetch_state, source_by_id, current_errors))
 
     annotated_current_errors = annotate_errors(current_errors, source_by_id)
     current_error_platforms = collections.Counter(row["platform"] for row in annotated_current_errors)

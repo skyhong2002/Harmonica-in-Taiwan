@@ -155,5 +155,36 @@ class SocialFeedWatchdogThreadsTests(unittest.TestCase):
         fallback.assert_called_once_with(self.source)
 
 
+class SocialFeedWatchdogInstagramTests(unittest.TestCase):
+    def setUp(self):
+        self.source = {
+            "id": "ig_example",
+            "name": "Example Instagram",
+            "platform": "instagram",
+            "type": "rsshub_instagram_profile",
+            "username": "example",
+            "source_profile_url": "https://www.instagram.com/example/",
+        }
+
+    def test_public_post_html_fallback_normalizes_metadata(self):
+        body = """
+        <meta property="og:url" content="https://www.instagram.com/p/ABC123/">
+        <meta property="og:description" content="12 likes, 2 comments - example on July 31, 2026: &quot;口琴演出公告&quot;">
+        <meta property="og:image" content="https://cdn.example/post.jpg">
+        """
+        with mock.patch.object(watchdog.urllib.request, "urlopen", return_value=FakeResponse(body)):
+            post = watchdog.fetch_instagram_public_post(
+                self.source,
+                "https://www.instagram.com/p/ABC123/",
+            )
+
+        self.assertIsNotNone(post)
+        assert post is not None
+        self.assertEqual(post["post_id"], "ABC123")
+        self.assertEqual(post["posted_at"], "2026-07-31T00:00:00+00:00")
+        self.assertEqual(post["text"], "口琴演出公告")
+        self.assertEqual(post["images"], ["https://cdn.example/post.jpg"])
+
+
 if __name__ == "__main__":
     unittest.main()

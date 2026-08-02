@@ -21,6 +21,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
 
@@ -37,6 +38,7 @@ DEFAULT_LLM_CACHE = PROJECT_ROOT / "state" / "social_llm_tags.json"
 DEFAULT_INSTAGRAM_USER_IDS = PROJECT_ROOT / "state" / "instagram_user_ids.json"
 DEFAULT_FETCH_STATE = PROJECT_ROOT / "state" / "social_fetch_state.json"
 DEFAULT_PROGRESS = PROJECT_ROOT / "site" / "api" / "social-fetch-progress.json"
+DEFAULT_INSTAGRAM_PUBLIC_BACKFILLS = PROJECT_ROOT / "data" / "feeds" / "instagram_public_backfills.jsonl"
 
 GRAPH_VERSION = os.environ.get("HARMONICA_META_API_VERSION", "v25.0")
 GRAPH_BASE = f"https://graph.facebook.com/{GRAPH_VERSION}"
@@ -63,6 +65,8 @@ VIDEO_URL_EXT_RE = re.compile(r"\.(?:mp4|mov|m4v|webm)(?:[?#]|$)", re.IGNORECASE
 TAG_VALUE_SPLIT_RE = re.compile(r"\s*(?:[,，、/／+&]|\band\b|\s+)\s*", re.IGNORECASE)
 RSSHUB_ERROR_MESSAGE_RE = re.compile(r"Error Message:\s*<br\s*/?>\s*<code[^>]*>(.*?)</code>", re.IGNORECASE | re.DOTALL)
 INSTAGRAM_PROFILE_ID_RE = re.compile(r"\"profile_id\":\"(\d+)\"|profilePage_(\d+)|\"props\":\{\"id\":\"(\d+)\"")
+INSTAGRAM_POST_DATE_RE = re.compile(r"\bon\s+([A-Z][a-z]+\s+\d{1,2},\s+\d{4})\s*:", re.IGNORECASE)
+INSTAGRAM_POST_LEAD_RE = re.compile(r"^[\d,]+\s+likes?,\s+[\d,]+\s+comments?\s+-\s+[^:]+:\s*", re.IGNORECASE)
 STORY_EMPTY_ERROR_PATTERNS = (
     "content does not exist",
     "user has no stories",
@@ -137,6 +141,21 @@ LLM_CATEGORIES = {"events", "posts-videos", "student-clubs", "opportunities"}
 LLM_LABELS = set(public_tags.PUBLIC_TAGS)
 TRUTHY = {"1", "true", "yes", "y", "on"}
 _INSTAGRAM_USER_IDS_CACHE: dict[str, Any] | None = None
+
+
+class InstagramMetaParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.meta: dict[str, str] = {}
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag.casefold() != "meta":
+            return
+        values = {str(key).casefold(): str(value or "") for key, value in attrs}
+        key = values.get("property") or values.get("name")
+        content = values.get("content")
+        if key and content:
+            self.meta.setdefault(key.casefold(), content)
 _THREADS_QUERY_METADATA_CACHE: tuple[str, set[str]] | None = None
 
 
@@ -378,6 +397,80 @@ def instagram_user_id(username: str) -> str:
             save_instagram_user_ids_cache()
             return user_id
     return ""
+
+
+def instagram_public_backfill_urls(source: dict[str, Any]) -> list[str]:
+    if not DEFAULT_INSTAGRAM_PUBLIC_BACKFILLS.exists():
+        return []
+    source_id = str(source.get("id") or "")
+    urls: list[str] = []
+    try:
+        rows = DEFAULT_INSTAGRAM_PUBLIC_BACKFILLS.read_text(encoding="utf-8").splitlines()
+    except OSError:
+        return []
+    for line in rows:
+        try:
+            row = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if str(row.get("source_id") or "") != source_id:
+            continue
+        url = instagram_permalink_url(str(row.get("url") or ""))
+        if url and url not in urls:
+            urls.append(url)
+    return urls
+
+
+def fetch_instagram_public_post(source: dict[str, Any], url: str, *, source_feed_url: str = "") -> dict[str, Any] | None:
+    request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 HarmonicaInTaiwanSocialWatcher/1.0"})
+    try:
+        with urllib.request.urlopen(request, timeout=REQUEST_TIMEOUT) as response:
+            body = response.read().decode("utf-8", "replace")
+    except (urllib.error.URLError, TimeoutError, OSError):
+        return None
+
+    parser = InstagramMetaParser()
+    parser.feed(body)
+    meta = parser.meta
+    description = str(meta.get("og:description") or meta.get("description") or "")
+    description = INSTAGRAM_POST_LEAD_RE.sub("", description).strip().strip('"').strip()
+    if description.endswith('".'):
+        description = description[:-2].rstrip()
+    posted_at = ""
+    date_match = INSTAGRAM_POST_DATE_RE.search(str(meta.get("og:description") or meta.get("description") or ""))
+    if date_match:
+        for date_format in ("%B %d, %Y", "%b %d, %Y"):
+            try:
+                posted_at = dt.datetime.strptime(date_match.group(1), date_format).replace(tzinfo=dt.timezone.utc).isoformat()
+                break
+            except ValueError:
+                continue
+    permalink = instagram_permalink_url(str(meta.get("og:url") or url)) or url
+    shortcode_match = INSTAGRAM_PERMALINK_RE.match(urllib.parse.urlsplit(permalink).path)
+    post_id = shortcode_match.group(1) if shortcode_match else permalink
+    images = [str(meta.get("og:image"))] if meta.get("og:image") else []
+    videos = [str(meta.get("og:video"))] if meta.get("og:video") else []
+    if not description and not images and not videos:
+        return None
+    return normalize_post(
+        source,
+        post_id=post_id,
+        text=description,
+        url=permalink,
+        posted_at=posted_at,
+        images=images,
+        videos=videos,
+        source_feed_url=source_feed_url or url,
+    )
+
+
+def fetch_instagram_public_backfill(source: dict[str, Any], *, source_feed_url: str = "") -> list[dict[str, Any]]:
+    posts: list[dict[str, Any]] = []
+    for url in instagram_public_backfill_urls(source):
+        post = fetch_instagram_public_post(source, url, source_feed_url=source_feed_url)
+        if post:
+            posts.append(post)
+    return posts
 
 
 def unix_time(value: Any) -> str:
@@ -1166,6 +1259,10 @@ def fetch_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
                     if posts:
                         return posts
                     return []
+            if str(source.get("platform") or "").casefold() == "instagram" and not story_source:
+                fallback_posts = fetch_instagram_public_backfill(source, source_feed_url=url)
+                if fallback_posts:
+                    return fallback_posts
             if str(source.get("platform") or "").casefold() == "threads":
                 try:
                     return fetch_threads_graphql(source)
