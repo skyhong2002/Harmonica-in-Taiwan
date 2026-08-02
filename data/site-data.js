@@ -98,6 +98,78 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-43",
+      "publicId": "43",
+      "name": "林裕豐",
+      "nameEn": "Yu-Feng Lin",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "胖擊系",
+      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
+      "summary": "臺灣口琴演奏者林裕豐，兼職教學與演出。",
+      "keywords": "林裕豐 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/yufeng/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yf__life/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@YFHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-02T04:44:57+00:00",
+      "latestUpdateLocal": "2026-08-02 12:44",
+      "latestUpdateSource": "林裕豐",
+      "latestUpdateUrl": "https://www.instagram.com/stories/yf__life/3954606893947884864/",
+      "avatarUrl": "/assets/source-avatars/7953cf28a4c5bd4dc0ac.webp",
+      "sourceInitials": "林裕",
+      "sourceTags": [
+        "演奏者",
+        "教學"
+      ],
+      "sourceSummary": "臺灣口琴演奏者林裕豐，兼職教學與演出。",
+      "sourceTagReason": "來源為個人，類別明確標示為「演奏者」，並有網站提供教學課程資訊。",
+      "monitorSources": [
+        {
+          "id": "ig_story_yf_life",
+          "name": "林裕豐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yf__life",
+          "profileUrl": "https://www.instagram.com/yf__life/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yf__life/story/0"
+        },
+        {
+          "id": "ig_yf_life",
+          "name": "林裕豐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yf__life",
+          "profileUrl": "https://www.instagram.com/yf__life/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_yfharmonica",
+          "name": "林裕豐",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@YFHarmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-63",
       "publicId": "63",
       "name": "F.I.H. JAPAN ハーモニカコンテスト",
@@ -3263,78 +3335,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "attack_on_harmonica_ensemble",
           "profileUrl": "https://www.threads.net/@attack_on_harmonica_ensemble",
           "feedUrl": "https://rss.observe.tw/threads/attack_on_harmonica_ensemble"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-43",
-      "publicId": "43",
-      "name": "林裕豐",
-      "nameEn": "Yu-Feng Lin",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "胖擊系",
-      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
-      "summary": "臺灣口琴演奏者林裕豐，兼職教學與演出。",
-      "keywords": "林裕豐 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/yufeng/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yf__life/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@YFHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-01T07:59:15+00:00",
-      "latestUpdateLocal": "2026-08-01 15:59",
-      "latestUpdateSource": "林裕豐",
-      "latestUpdateUrl": "https://www.instagram.com/stories/yf__life/3953979895768155174/",
-      "avatarUrl": "/assets/source-avatars/7953cf28a4c5bd4dc0ac.webp",
-      "sourceInitials": "林裕",
-      "sourceTags": [
-        "演奏者",
-        "教學"
-      ],
-      "sourceSummary": "臺灣口琴演奏者林裕豐，兼職教學與演出。",
-      "sourceTagReason": "來源為個人，類別明確標示為「演奏者」，並有網站提供教學課程資訊。",
-      "monitorSources": [
-        {
-          "id": "ig_story_yf_life",
-          "name": "林裕豐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yf__life",
-          "profileUrl": "https://www.instagram.com/yf__life/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yf__life/story/0"
-        },
-        {
-          "id": "ig_yf_life",
-          "name": "林裕豐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yf__life",
-          "profileUrl": "https://www.instagram.com/yf__life/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_yfharmonica",
-          "name": "林裕豐",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@YFHarmonica",
-          "feedUrl": ""
         }
       ]
     },
