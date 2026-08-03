@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 487,
+  "count": 488,
   "items": [
     {
       "title": "TARO SENGA｜Happy time in 2026 SHIF. Thanks to Tombo (@tombo_official )Harmonica and Mano san(@tetsuo_mano ) And thank y…",
@@ -87,6 +87,81 @@
         "公開活動"
       ],
       "key": "ig_taro_senga:https://www.instagram.com/p/Dbi21zfD_Jh/"
+    },
+    {
+      "title": "Harmonica FEN 口琴節與學院｜The Power of Melody Workshop on composition and improvisation for all melodic instruments 🔶 Discov…",
+      "headline": "The Power of Melody",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/harmonicafenfestival/posts/pfbid0AGFcuVZeGSGtnmFHoosUVorGGywsdZrqAsdzyR4qLf3weoXQsgwuLzqXUWraFM2Hl",
+      "source_id": "fb_harmonicafenfestival",
+      "source": "Harmonica FEN 口琴節與學院",
+      "source_system_name": "Harmonica FEN 口琴節與學院",
+      "source_profile_url": "https://facebook.com/harmonicafenfestival",
+      "country": "德國",
+      "region": "德國/柏林",
+      "directory_entry_id": "watchlist-178",
+      "directory_entry_name": "Harmonica FEN 口琴節與學院",
+      "account": "harmonicafenfestival",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-08-02T17:14:29.000Z",
+      "posted_at_local": "2026-08-03 01:14",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-03T07:40:58.103624+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "課程"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.86,
+      "llm_labels": [
+        "口琴",
+        "課程"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "口琴學院主辦之口琴與其他旋律樂器工作坊，屬口琴相關課程活動。",
+      "text": "The Power of Melody\nWorkshop on composition and improvisation for all melodic instruments\n🔶 Discover the power of melody with jazz musician Ariel Bart. This master workshop is aimed at instrumentalists who want to explore how expressive melodic lines can be created in improvisation and composition.\nJoin Ariel Bart for a weekend immersion and learn how to build and develop exciting motifs, transform rhythms, and shape phrasing to make your melodies more vivid and memorable.\nMASTER WORKSHOP�FOR HARMONICA AND OTHER MELODIC INSTRUMENTS\nwith Ariel Bart�06-09/09/2026\nuferstudios, Berlin\n👉 www.harmonica-fen.com/academy\nhttps://www.facebook.com/photo/?fbid=1336345011818899&set=a.453855166734559",
+      "images": [
+        "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/761537186_1336345015152232_5011021378219974750_n.jpg?stp=dst-jpg_tt6&cstp=mx600x850&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=UGd94MZ-of8Q7kNvwEqEayO&_nc_oc=AdoLrrq5-5SNW9nLM3DzyeDptGLB2JWCmrX5ahY2NsvGwbVkNQIkrB8lnezM_rls4AE&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=ih2HAYUw7AzusQ9UIL88sw&_nc_ss=72289&oh=00_AQEv50Qm_dji2JDD2OfFR1ZjXS51sRDZC9D7yxLnJa9hHA&oe=6A76095A"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/761537186_1336345015152232_5011021378219974750_n.jpg?stp=dst-jpg_tt6&cstp=mx600x850&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=UGd94MZ-of8Q7kNvwEqEayO&_nc_oc=AdoLrrq5-5SNW9nLM3DzyeDptGLB2JWCmrX5ahY2NsvGwbVkNQIkrB8lnezM_rls4AE&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=ih2HAYUw7AzusQ9UIL88sw&_nc_ss=72289&oh=00_AQEv50Qm_dji2JDD2OfFR1ZjXS51sRDZC9D7yxLnJa9hHA&oe=6A76095A",
+      "image_url": "/assets/feed-images/b229a963edceeeb5ad5f.webp",
+      "image_width": 508,
+      "image_height": 720,
+      "source_avatar_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/497967372_996512039135533_8254125825651385613_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx889x889&ctp=s50x50&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=EWdoaLFJfrwQ7kNvwHztbZN&_nc_oc=Adp6_tvSOO89irgENXfduWEAnr3o79-HTIFJJ4c-_ltFEzUXhwnAAyqIE_ocSTSbcjU&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=ih2HAYUw7AzusQ9UIL88sw&_nc_ss=72289&oh=00_AQEqqbNzhXX8S5Rhbvq5OzL8PUl1UllFlMOCpc5SIAClKg&oe=6A760015",
+      "avatar_url": "/assets/source-avatars/723741ad7dea451e52cd.webp",
+      "source_initials": "HF",
+      "categories": [
+        "posts-videos",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "學生社團"
+      ],
+      "key": "fb_harmonicafenfestival:1336346885152045"
     },
     {
       "title": "Howard Levy｜I was 17 when I came up with this bass line riding in the back of a bus in Brooklyn. At the time, I was fas…",
@@ -23789,6 +23864,90 @@
       "key": "ig_minami_risa:https://www.instagram.com/p/DaxjzVIyD1R/"
     },
     {
+      "title": "Harmonica FEN 口琴節與學院｜🔸 RECAP °3 of three amazing days full of music and great encounters in Berlin. Here are the next b…",
+      "headline": "🔸 RECAP °3 of three amazing days full of music and great encounters in Berlin. Here are the next beautiful pictures of …",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/harmonicafenfestival/posts/pfbid02PXXbM6f47QWiz7hfn6vWrVwg1Z4GttaWu6e5LYTvmjDT3J1v1MnWKytJG13zpjPNl",
+      "source_id": "fb_harmonicafenfestival",
+      "source": "Harmonica FEN 口琴節與學院",
+      "source_system_name": "Harmonica FEN 口琴節與學院",
+      "source_profile_url": "https://facebook.com/harmonicafenfestival",
+      "country": "德國",
+      "region": "德國/柏林",
+      "directory_entry_id": "watchlist-178",
+      "directory_entry_name": "Harmonica FEN 口琴節與學院",
+      "account": "harmonicafenfestival",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-14T12:52:08.000Z",
+      "posted_at_local": "2026-07-14 20:52",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-03T07:40:58.103624+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "音樂會",
+        "演出",
+        "影片"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "音樂會",
+        "演出",
+        "影片"
+      ],
+      "llm_categories": [
+        "events",
+        "posts-videos"
+      ],
+      "llm_reason": "口琴節回顧貼文，含多場演出與音樂會內容，屬公開更新且與口琴直接相關。",
+      "text": "🔸 RECAP °3 of three amazing days full of music and great encounters in Berlin. Here are the next beautiful pictures of the FEN family album 2026 taken by Frank Korte May 31 at the HARMONICA FEN FESTIVAL BERLIN.\nThe music of jazz harmonica player Yotam Ben-Or enchanted the audience on our third day of the festival. He performed alongside Shachar Elnatan on guitar. We then delved deep into the world of country music with John Henry from Sweden. The final concert was dedicated to our ‘Network’ theme. The free-reed ensemble, featuring Wu Wei, Steven De Bruyn, Titti Castrini and Sören Birke, brought the Chinese sheng, the harmonica, the accordion and the archaic jaw harp to the stage and, in an incredible improvisation lasting over 50 minutes, demonstrated what musical interplay can mean. They were accompanied by double bass player Carmelo Leotta.\nHARMONICA FEN FESTIVAL 2026 - recap\n29–31/05/2026\nKulturbrauerei Berlin\nhttps://harmonica-fen-festival.com\nStay tuned and subscribe to our newsletter: https://harmonica-fen-festival.de/newsletter/\nPatronage: Wu Wei, Toots Thielemans Foundation\nSupported by Toots Thielemans Foundation, Kesselhaus und Maschinenhaus in der Kulturbrauerei, Panda …",
+      "images": [
+        "https://scontent-lga3-1.xx.fbcdn.net/v/t51.82787-15/744870827_18118102636865078_5730696947321491147_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s590x590&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=YQuNtNLbdVkQ7kNvwF_-8-3&_nc_oc=AdoxzWF5Jy_vX-YAONyabgs_uwPiGxZbND0xMMEYeS_EX0WApXSXSgRdmAc85pZDEng&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=ih2HAYUw7AzusQ9UIL88sw&_nc_ss=72289&oh=00_AQFKyoYbtWyx6dORuLkyae2R6haDbvkq1VV0a5iDLi4zKw&oe=6A760323",
+        "https://scontent-lga3-3.xx.fbcdn.net/v/t51.82787-15/747127099_18118102630865078_4044963803013978877_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=K_P9HzgxsFMQ7kNvwEDtaaW&_nc_oc=Adr2_ouCCv5NtLX_UdHvME31pbORhmfjee9FVbFLcrC-IbxBFG9Bhj4TCE_0VkVSShM&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=ih2HAYUw7AzusQ9UIL88sw&_nc_ss=72289&oh=00_AQFsYV9Ro64Luil8rNewRyvkfsp0eXjJ2O28JQZtMy9zoQ&oe=6A7604FC",
+        "https://scontent-lga3-2.xx.fbcdn.net/v/t51.82787-15/745045764_18118102648865078_6683021279534904918_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=unydEp3MRigQ7kNvwF2_TsV&_nc_oc=Ado2EZNMeK-Y0y_jbGhvT7q2uogSNLEUb1nMnHo-qkg7SdGugZZ7qqtHTtgDlduXsKs&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=ih2HAYUw7AzusQ9UIL88sw&_nc_ss=72289&oh=00_AQGtrDUM6fySl757dffD7JHuLyqYIyMcZMxNQCMzG9Bo4Q&oe=6A761DE9",
+        "https://scontent-lga3-2.xx.fbcdn.net/v/t51.82787-15/745178318_18118102633865078_60661955112679157_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Gz3lupUoda4Q7kNvwEQ5iFq&_nc_oc=Adr4tuhGEDZ2reAOthuvMkRh67_VHpUdPG4chhoiiDVdnumEYM7WiUry9yGQSvS7hXs&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=ih2HAYUw7AzusQ9UIL88sw&_nc_ss=72289&oh=00_AQFMSeOU3KdrUZWFyN3I8C7kJntIz2MXIWmhmmrHjieW0Q&oe=6A762291",
+        "https://scontent-lga3-2.xx.fbcdn.net/v/t51.82787-15/746369728_18118102591865078_761525870880691252_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=IT9eiFqid0sQ7kNvwGSIkQN&_nc_oc=Adr7lpU5r2mBHiZlHDG2L6t5aEMAELEPjoEz3KsKyvaTIsxYyVrZSzbuQ7Yz-UVmue8&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=ih2HAYUw7AzusQ9UIL88sw&_nc_ss=72289&oh=00_AQGB9ieApi6Yo-E9k4AH6_AOuPnolkXnI2clJ3KkWhLJAw&oe=6A7621C6"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t51.82787-15/744870827_18118102636865078_5730696947321491147_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s590x590&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=YQuNtNLbdVkQ7kNvwF_-8-3&_nc_oc=AdoxzWF5Jy_vX-YAONyabgs_uwPiGxZbND0xMMEYeS_EX0WApXSXSgRdmAc85pZDEng&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=ih2HAYUw7AzusQ9UIL88sw&_nc_ss=72289&oh=00_AQFKyoYbtWyx6dORuLkyae2R6haDbvkq1VV0a5iDLi4zKw&oe=6A760323",
+      "image_url": "/assets/feed-images/6982baf62350803a603d.webp",
+      "image_width": 590,
+      "image_height": 590,
+      "source_avatar_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/497967372_996512039135533_8254125825651385613_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx889x889&ctp=s50x50&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=EWdoaLFJfrwQ7kNvwHztbZN&_nc_oc=Adp6_tvSOO89irgENXfduWEAnr3o79-HTIFJJ4c-_ltFEzUXhwnAAyqIE_ocSTSbcjU&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=ih2HAYUw7AzusQ9UIL88sw&_nc_ss=72289&oh=00_AQEqqbNzhXX8S5Rhbvq5OzL8PUl1UllFlMOCpc5SIAClKg&oe=6A760015",
+      "avatar_url": "/assets/source-avatars/723741ad7dea451e52cd.webp",
+      "source_initials": "HF",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "fb_harmonicafenfestival:1321139530006114"
+    },
+    {
       "title": "新竹縣文化局｜#澄清公告 近期發現有不肖人士仿冒宣傳義民路跑賽事訊息，經排查疑為詐騙帳號，目的可能在盜取民眾個人資料或報名費用，請大家提高警覺、切勿點擊任何可疑連結或提供個資，一定要保護個人資訊安全💪！ 請大家認明【#2026義起愛運動勇…",
       "headline": "#澄清公告",
       "display_title": "",
@@ -37499,86 +37658,6 @@
         "公開活動"
       ],
       "key": "fb_61574004532712:122183780174800151"
-    },
-    {
-      "title": "陽明交大竹韻口琴社｜各位竹韻口琴社的學長姊，大家午安~ 竹韻口琴社的discord正式上線啦🥳 連結： https://discord.gg/GN6VmPGVnR 加入後，記得填寫您的背景資料 這樣一來可以更快速認識彼此。 在這裡你可以收…",
-      "headline": "各位竹韻口琴社的學長姊，大家午安~",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.facebook.com/nycubmhc/posts/pfbid0nVzb9bvXdMpPV7bQdSgSGnoGQKzNhvRe4WJEieapwStaNUwN5VSQ9nzHESNWwGwwl",
-      "source_id": "fb_nycubmhc",
-      "source": "陽明交大竹韻口琴社",
-      "source_system_name": "陽明交大竹韻口琴社",
-      "source_profile_url": "https://facebook.com/nycubmhc",
-      "country": "臺灣",
-      "region": "臺灣/新竹",
-      "directory_entry_id": "watchlist-198",
-      "directory_entry_name": "陽明交大竹韻口琴社",
-      "account": "nycubmhc",
-      "platform": "facebook",
-      "platform_label": "Facebook",
-      "posted_at": "2026-07-04T06:56:17.000Z",
-      "posted_at_local": "2026-07-04 14:56",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-07-20T01:38:38.994511+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "公開更新",
-        "交流",
-        "學生社團"
-      ],
-      "keyword_matches": [
-        "口琴",
-        "交流"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.96,
-      "llm_labels": [
-        "口琴",
-        "公開更新",
-        "交流",
-        "學生社團"
-      ],
-      "llm_categories": [
-        "student-clubs"
-      ],
-      "llm_reason": "竹韻口琴社公告Discord上線與社團交流資訊，屬口琴社團公開更新。",
-      "text": "各位竹韻口琴社的學長姊，大家午安~\n竹韻口琴社的discord正式上線啦🥳\n連結：\nhttps://discord.gg/GN6VmPGVnR\n加入後，記得填寫您的背景資料\n這樣一來可以更快速認識彼此。\n在這裡你可以收到第一手竹韻口琴社的最新消息\nex：\n曲目的討論、幹部的工作分配、未來活動的邀約\n想知道我們正在籌備什麼事情或是想一起交流的學長姊歡迎加入~\nhttps://www.facebook.com/photo/?fbid=1641263307999213&set=a.504956804963208",
-      "images": [
-        "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/738759118_1641263314665879_6832544197200909976_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GQQhOdLgZPwQ7kNvwFJlQKQ&_nc_oc=AdrVYL2Nzxj6hvGjMZ2FiW13qm7LUnwwteHbhP5uyqGafJ-ZRxWAwDzwkU11f6bfzSoWCEcShjgduJkxf1i-1iqi&_nc_zt=23&_nc_ht=scontent-sea1-1.xx&_nc_gid=xouhZiyc2VrR71gNHipgsA&_nc_ss=7d289&oh=00_AQBokumQqFwK1BgBc-7toiwbvSPzwzJUlo4GMAJTzjNShg&oe=6A634BE3"
-      ],
-      "videos": [],
-      "source_image_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/738759118_1641263314665879_6832544197200909976_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1350&ctp=s640x640&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GQQhOdLgZPwQ7kNvwFJlQKQ&_nc_oc=AdrVYL2Nzxj6hvGjMZ2FiW13qm7LUnwwteHbhP5uyqGafJ-ZRxWAwDzwkU11f6bfzSoWCEcShjgduJkxf1i-1iqi&_nc_zt=23&_nc_ht=scontent-sea1-1.xx&_nc_gid=xouhZiyc2VrR71gNHipgsA&_nc_ss=7d289&oh=00_AQBokumQqFwK1BgBc-7toiwbvSPzwzJUlo4GMAJTzjNShg&oe=6A634BE3",
-      "image_url": "/assets/feed-images/5df58ce4300a663aa190.webp",
-      "image_width": 512,
-      "image_height": 640,
-      "source_avatar_url": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-1/702399010_1594746349317576_6447986012116749468_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx877x880&ctp=s50x50&_nc_cat=100&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=T1pwa2RI2UoQ7kNvwEt3cx0&_nc_oc=Ado673Swx9_u_UBof1NOb46r-GmjY6dVJyADqTGd8MYxDq-CePvP8oZsJ_TMQ3Qjf9EDRXiwZaKvdzPvUbiTDS31&_nc_zt=24&_nc_ht=scontent-sea1-1.xx&_nc_gid=xouhZiyc2VrR71gNHipgsA&_nc_ss=7d289&oh=00_AQC6vo7AR37ZpDPtMxynMKURA6Ee5mlmrFqQwk595igbSw&oe=6A635DE8",
-      "avatar_url": "/assets/source-avatars/12a47fe392ac174890b4.webp",
-      "source_initials": "陽明",
-      "categories": [
-        "posts-videos",
-        "student-clubs",
-        "events"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "學生社團",
-        "公開活動"
-      ],
-      "key": "fb_nycubmhc:1640225061436371"
     }
   ]
 }

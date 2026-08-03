@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-03T14:43:43+08:00",
+  "generatedAt": "2026-08-03T15:41:20+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
   "count": 10,
@@ -391,5 +391,6 @@
       ],
       "image_url": "/assets/feed-images/ae1f7c984c46d25d48ff.webp"
     }
-  ]
+  ],
+  "submittedEvents": 0
 }

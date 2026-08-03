@@ -44,11 +44,11 @@
       "updated": 0
     }
   ],
-  "client": "rest",
+  "client": "google-api-python-client",
   "created": 0,
   "deleted": 0,
   "duplicatesDeleted": 0,
-  "generatedAt": "2026-08-03T06:44:38.485448+00:00",
+  "generatedAt": "2026-08-03T07:41:20.521707+00:00",
   "kept": 15,
   "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/google-calendar-sync.lock",
   "message": "Google Calendar sync completed for 3/3 calendars.",
