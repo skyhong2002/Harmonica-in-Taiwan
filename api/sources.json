@@ -314,6 +314,101 @@
       ]
     },
     {
+      "id": "watchlist-78",
+      "publicId": "78",
+      "name": "衛武營國家藝術文化中心",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "衛武營 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-weiwuying.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@weiwuyingfilm"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@weiwuying_centerforthearts"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-03T14:01:40+00:00",
+      "latestUpdateLocal": "2026-08-03 22:01",
+      "latestUpdateSource": "衛武營國家藝術文化中心",
+      "latestUpdateUrl": "https://www.instagram.com/p/DblJ4FujC0X/",
+      "avatarUrl": "/assets/source-avatars/d03574235c73e266b66e.webp",
+      "sourceInitials": "衛武",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_weiwuyingcenterforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
+        },
+        {
+          "id": "ig_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "threads",
+          "type": "rss",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
+          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
+        },
+        {
+          "id": "yt_weiwuyingfilm",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@weiwuyingfilm",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-67",
       "publicId": "67",
       "name": "Marcos Coll",
@@ -825,6 +920,77 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@eberienos",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-146",
+      "publicId": "146",
+      "name": "World Harmonica Festival",
+      "nameEn": "World Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "國際活動/資訊入口",
+      "country": "德國",
+      "region": "德國/特羅辛根",
+      "cityOrFocus": "四年一度世界口琴節/國際比賽/Gala/工作坊",
+      "structuredSummary": "四年一度世界口琴節/國際比賽/Gala/工作坊 / 口琴 / 國際活動來源",
+      "summary": "德國的國際活動來源，涵蓋四年一度世界口琴節、國際比賽、Gala與工作坊。",
+      "keywords": "World Harmonica Festival WHF Trossingen Hohner harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://worldharmonicafestival.de/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/WorldHarmonicaFestival/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/whf_world_harmonica_festival/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-03T12:00:10+00:00",
+      "latestUpdateLocal": "2026-08-03 20:00",
+      "latestUpdateSource": "World Harmonica Festival",
+      "latestUpdateUrl": "https://www.instagram.com/p/Dbk8GGzxmpT/",
+      "avatarUrl": "/assets/source-avatars/1090ff6cf6bb45d563dc.webp",
+      "sourceInitials": "WHF",
+      "sourceTags": [
+        "活動資訊",
+        "比賽",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_worldharmonicafestival",
+          "name": "World Harmonica Festival",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/WorldHarmonicaFestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_whf_world_harmonica_festival",
+          "name": "World Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "whf_world_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/whf_world_harmonica_festival/story/0"
+        },
+        {
+          "id": "ig_whf_world_harmonica_festival",
+          "name": "World Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "whf_world_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
           "feedUrl": ""
         }
       ]
@@ -3031,101 +3197,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/hoontobe",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-78",
-      "publicId": "78",
-      "name": "衛武營國家藝術文化中心",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/高雄",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "衛武營 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-weiwuying.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@weiwuyingfilm"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@weiwuying_centerforthearts"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-03T01:37:15+00:00",
-      "latestUpdateLocal": "2026-08-03 09:37",
-      "latestUpdateSource": "衛武營國家藝術文化中心",
-      "latestUpdateUrl": "https://www.instagram.com/stories/weiwuying_centerforthearts/3955237186382402965/",
-      "avatarUrl": "/assets/source-avatars/d03574235c73e266b66e.webp",
-      "sourceInitials": "衛武",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_weiwuyingcenterforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
-        },
-        {
-          "id": "ig_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "threads",
-          "type": "rss",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
-          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
-        },
-        {
-          "id": "yt_weiwuyingfilm",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@weiwuyingfilm",
           "feedUrl": ""
         }
       ]
@@ -9676,77 +9747,6 @@
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/oulingou",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-146",
-      "publicId": "146",
-      "name": "World Harmonica Festival",
-      "nameEn": "World Harmonica Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "國際活動/資訊入口",
-      "country": "德國",
-      "region": "德國/特羅辛根",
-      "cityOrFocus": "四年一度世界口琴節/國際比賽/Gala/工作坊",
-      "structuredSummary": "四年一度世界口琴節/國際比賽/Gala/工作坊 / 口琴 / 國際活動來源",
-      "summary": "德國的國際活動來源，涵蓋四年一度世界口琴節、國際比賽、Gala與工作坊。",
-      "keywords": "World Harmonica Festival WHF Trossingen Hohner harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://worldharmonicafestival.de/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/WorldHarmonicaFestival/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/whf_world_harmonica_festival/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-01T13:40:23+00:00",
-      "latestUpdateLocal": "2026-07-01 21:40",
-      "latestUpdateSource": "World Harmonica Festival",
-      "latestUpdateUrl": "https://www.instagram.com/p/DaQJKKMtPqn/",
-      "avatarUrl": "/assets/source-avatars/1090ff6cf6bb45d563dc.webp",
-      "sourceInitials": "WHF",
-      "sourceTags": [
-        "活動資訊",
-        "比賽",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_worldharmonicafestival",
-          "name": "World Harmonica Festival",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/WorldHarmonicaFestival",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_whf_world_harmonica_festival",
-          "name": "World Harmonica Festival",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "whf_world_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/whf_world_harmonica_festival/story/0"
-        },
-        {
-          "id": "ig_whf_world_harmonica_festival",
-          "name": "World Harmonica Festival",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "whf_world_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
           "feedUrl": ""
         }
       ]

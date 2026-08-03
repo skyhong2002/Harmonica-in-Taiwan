@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T17:45:38.696220Z",
+  "generatedAt": "2026-08-03T18:51:34.199766Z",
   "source": {
     "id": 80,
     "slug": "80",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/80/"
   },
   "items": [
+    {
+      "id": "post-8970492499d23572f3ba999c",
+      "title": "NTT+不藏私講堂｜蔡沛原《返鄉青年創生：找回島嶼原色》",
+      "excerpt": "NTT+不藏私講堂｜蔡沛原《返鄉青年創生：找回島嶼原色》 ✨講者：蔡沛原（鹹味島合作社 負責人） 12歲就赴臺求學的蔡沛原，因接下「北緯26度島嶼顏色計畫」專案經理一職，重新開啟了與家鄉馬祖的對話，他和團隊成員走遍島嶼，一同搜集馬祖的自然、聚落、軍事地景顏色，編撰成詳盡的環境色譜報告。正巧當時東引鄉公所欲更新門牌設計，他便順勢承接，讓顏色計畫的調查成果轉化為實體，成功打造出全臺最有質感的陶製門牌，也埋下了他返鄉創業、繁榮地方的想法。 2019年突如其來的疫情打亂了蔡沛原出國深造的計畫，卻意外促使他與兩位志同道合的國小同學重聚。三位原先各奔東西的馬祖東引…",
+      "url": "https://www.youtube.com/watch?v=MqiEbr4ZVTo",
+      "sourceName": "臺中國家歌劇院",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-03T10:00:02Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/92a36c3044f6e9cbfcb6.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-8655fd9864badd3d5605a5ac",
       "title": "2026夏日放／FUN時光─無獨有偶工作室劇團《月亮找朋友》🌙不要猶豫啦！臺北場觀眾好評熱推中👍",
