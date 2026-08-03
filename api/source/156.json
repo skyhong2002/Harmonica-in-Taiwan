@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T01:34:27.057054Z",
+  "generatedAt": "2026-08-03T02:08:07.188151Z",
   "source": {
     "id": 156,
     "slug": "sigmund-groven",
@@ -20,6 +20,20 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/7d2bd3b2e3628dea406f.webp",
         "width": 590,
         "height": 590
+      }
+    },
+    {
+      "id": "post-a51d6e63524f8b2a9ebbb52f",
+      "title": "I slutten av juni tilbrakte jeg flere dager på munnspillseminar i regi av norsk munnspillforum 🤩 Og det hele ble avslut…",
+      "excerpt": "I slutten av juni tilbrakte jeg flere dager på munnspillseminar i regi av norsk munnspillforum 🤩 Og det hele ble avsluttet med konsert i Bryne kir... I slutten av juni tilbrakte jeg flere dager på munnspillseminar i regi av norsk munnspillforum 🤩 Og det hele ble avsluttet med ko…",
+      "url": "https://www.instagram.com/p/DafBi3ku5S3/",
+      "sourceName": "Sigmund Groven",
+      "platform": "Instagram",
+      "publishedAt": "2026-07-07T08:25:56Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3b3183b3f641debb8f61.webp",
+        "width": 800,
+        "height": 1000
       }
     }
   ]

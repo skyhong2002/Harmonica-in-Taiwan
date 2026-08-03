@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 03 Aug 2026 01:34:28 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 02:08:08 +0000</lastBuildDate>
     <item>
       <title>Stay Drunk 口琴樂團</title>
       <link>https://www.instagram.com/staydrunk_h.e/</link>
@@ -16,6 +16,17 @@ Tag：團體樂團、重奏
 國家：臺灣
 地區：臺灣
 臺灣的大學生新生代口琴重奏演出團體。</description>
+    </item>
+    <item>
+      <title>天狼星口琴樂團 Sirius Harmonica Ensemble</title>
+      <link>https://www.facebook.com/SiriusHarp/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/5cea8f6e4720f081</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏、國際交流
+國家：臺灣
+地區：臺灣
+臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與THMF。</description>
     </item>
     <item>
       <title>Jens Bunge</title>
@@ -359,17 +370,6 @@ Tag：場館平台
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
-      <title>天狼星口琴樂團 Sirius Harmonica Ensemble</title>
-      <link>https://www.facebook.com/SiriusHarp/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/5cea8f6e4720f081</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏、國際交流
-國家：臺灣
-地區：臺灣
-臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與THMF。</description>
-    </item>
-    <item>
       <title>Marcos Coll</title>
       <link>https://marcoscoll.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/3515abad4f43ad4a</guid>
@@ -401,6 +401,17 @@ Tag：演奏者、半音階、十孔、國際交流
 國家：瑞典
 地區：瑞典
 瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。</description>
+    </item>
+    <item>
+      <title>進擊的口琴樂團</title>
+      <link>https://www.instagram.com/attack_on_harmonica_ensemble/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/4106ae8ef5dd2e8f</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏
+國家：臺灣
+地區：臺灣
+臺灣的口琴重奏演出團體，活動脈絡包含重奏、青年團體與演出。</description>
     </item>
     <item>
       <title>臺灣口琴音樂節 THMF</title>
@@ -632,17 +643,6 @@ Tag：演奏者、教學、半音階、十孔
 國家：中國
 地區：中國
 中國的十孔與半音階演出人員與教學者，活動脈絡包含藍調、流行與教學。</description>
-    </item>
-    <item>
-      <title>進擊的口琴樂團</title>
-      <link>https://www.instagram.com/attack_on_harmonica_ensemble/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/4106ae8ef5dd2e8f</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏
-國家：臺灣
-地區：臺灣
-臺灣的口琴重奏演出團體，活動脈絡包含重奏、青年團體與演出。</description>
     </item>
     <item>
       <title>Orchestra Hohnerklang</title>
