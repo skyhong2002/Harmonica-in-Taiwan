@@ -1,9 +1,9 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-08-03T12:55:09+08:00",
+  "generatedAt": "2026-08-03T13:42:47+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 9,
+  "count": 10,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,7 +14,7 @@ window.publicCalendarEvents = {
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
+      "requests": 5,
       "cached": 35,
       "errors": 0
     }
@@ -320,6 +320,42 @@ window.publicCalendarEvents = {
       "image_url": "/assets/feed-images/6b7dd80dd7408fb12c33.webp"
     },
     {
+      "id": "d9ba531c3f824ba0",
+      "title": "CY LEO ASIA TOUR 2026",
+      "eventName": "CY LEO ASIA TOUR 2026",
+      "source": "cy_leo",
+      "platform": "instagram",
+      "start": "2026-09-23",
+      "end": "2026-09-24",
+      "allDay": true,
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "location": "臺北市 臺北",
+      "venue": "臺北",
+      "city": "臺北市",
+      "details": "巡演行程標示 23/9 Taipei, Taiwan，屬 Cy Leo 何卓彥的亞洲巡演「Two Worlds In One」。貼文提到將以原創口琴與人聲作品演出，並與各地口琴社群合作。",
+      "evidenceUrl": "https://www.instagram.com/p/DbdOLZDjK-H/",
+      "confidence": 0.95,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "CY LEO ASIA TOUR 2026",
+        "venue": "臺北",
+        "city": "臺北市",
+        "details": "巡演行程標示 23/9 Taipei, Taiwan，屬 Cy Leo 何卓彥的亞洲巡演「Two Worlds In One」。貼文提到將以原創口琴與人聲作品演出，並與各地口琴社群合作。",
+        "reason": "候選日期 2026-09-23 與貼文中的 Taipei, Taiwan 完全一致，且為臺灣實體口琴活動。",
+        "confidence": 0.95
+      },
+      "postedAt": "2026-07-31 08:00",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/761653358_18612351817050240_2590188587154998094_n.jpg?stp=c655.0.1966.1966a_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6O2px-IVY5cQ7kNvwHH-Z5G&_nc_oc=AdqnT2X1NBWMguMiKHWkTVfr7qEAQtyDbu-VekrBu3anN6DdBzi0drV65JQmiZrPYOE&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YLet9VsdHRqztOzPMYljcw&_nc_ss=7b60f&oh=00_AQGVYRe6a9KHZcTPxwLC8SUrI0eUj3WUV5Z30p3UOwVAhQ&oe=6A756848"
+      ],
+      "image_url": "/assets/feed-images/9d9b79fc0bcd2accabe3.webp"
+    },
+    {
       "id": "d81eaaa4a62ef0c3",
       "title": "衛武營小時光《跟著口琴去旅行》",
       "eventName": "衛武營小時光《跟著口琴去旅行》",
@@ -355,6 +391,5 @@ window.publicCalendarEvents = {
       ],
       "image_url": "/assets/feed-images/ae1f7c984c46d25d48ff.webp"
     }
-  ],
-  "submittedEvents": 0
+  ]
 };
