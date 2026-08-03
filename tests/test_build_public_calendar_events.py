@@ -32,6 +32,34 @@ class PublicCalendarExtractionTests(unittest.TestCase):
             [start.isoformat() for start, _end, _context in candidates],
             ["2026-08-30", "2026-09-23", "2026-10-03"],
         )
+        self.assertEqual(
+            [context for _start, _end, context in candidates],
+            ["30/8 Hong Kong", "23/9 Taipei, Taiwan", "3/10 Singapore"],
+        )
+        caption_candidates = calendar.date_candidates(
+            "cy_leo｜CY LEO ASIA TOUR 2026 concert 30/8 Hong Kong 23/9 Taipei, Taiwan 3/10 Singapore",
+            calendar.parse_datetime("2026-07-31 08:00"),
+        )
+        self.assertEqual(
+            [context for _start, _end, context in caption_candidates],
+            ["30/8 Hong Kong", "23/9 Taipei, Taiwan", "3/10 Singapore"],
+        )
+
+    def test_tour_schedule_review_keeps_explicit_city_without_venue(self):
+        item = {
+            "title": "CY LEO ASIA TOUR 2026",
+            "text": "CY LEO ASIA TOUR 2026\n5/10 Penang, Malaysia",
+        }
+
+        review = calendar.tour_schedule_review(
+            item,
+            "CY LEO ASIA TOUR 2026",
+            "2026-10-05",
+            "5/10 Penang, Malaysia",
+        )
+        self.assertEqual(review["include"], True)
+        self.assertEqual(review["eventMode"], calendar.OVERSEAS_PHYSICAL)
+        self.assertEqual(review["venue"], "Penang")
 
     def test_deduplicate_events_keeps_more_complete_same_day_event(self):
         vague = {

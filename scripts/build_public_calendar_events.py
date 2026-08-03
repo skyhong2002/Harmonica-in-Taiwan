@@ -365,6 +365,78 @@ def nearby_context(text: str, start: int, end: int, radius: int = 60) -> str:
     return text[max(0, start - radius): min(len(text), end + radius)]
 
 
+def line_context(text: str, start: int, end: int) -> str:
+    line_start = text.rfind("\n", 0, start) + 1
+    line_end = text.find("\n", end)
+    if line_end < 0:
+        line_end = len(text)
+    return text[line_start:line_end].strip()
+
+
+def schedule_line_context(text: str, start: int, end: int) -> str:
+    """Keep only the current city segment when a caption line lists many dates."""
+    line_start = text.rfind("\n", 0, start) + 1
+    line_end = text.find("\n", end)
+    if line_end < 0:
+        line_end = len(text)
+    line = text[line_start:line_end]
+    dates = list(SLASH_DATE_RE.finditer(line))
+    if len(dates) < 2:
+        return line.strip()
+    relative_start = start - line_start
+    current_index = next(
+        (index for index, match in enumerate(dates) if match.start() <= relative_start < match.end()),
+        0,
+    )
+    segment_start = dates[current_index].start()
+    segment_end = dates[current_index + 1].start() if current_index + 1 < len(dates) else len(line)
+    return line[segment_start:segment_end].strip(" ,;|")
+
+
+TOUR_SCHEDULE_PLACES = (
+    ("Hong Kong", "香港", "香港", "Asia/Hong_Kong"),
+    ("Taipei", "臺北市", "臺北", "Asia/Taipei"),
+    ("Singapore", "Singapore", "Singapore", "Asia/Singapore"),
+    ("Penang", "檳城", "Penang", "Asia/Kuala_Lumpur"),
+    ("Seoul", "首爾", "Seoul", "Asia/Seoul"),
+)
+
+
+def tour_schedule_place(text: str) -> tuple[str, str, str, str] | None:
+    lowered = text.casefold()
+    for marker, country, city, timezone in TOUR_SCHEDULE_PLACES:
+        if marker.casefold() in lowered:
+            return country, city, city, timezone
+    return None
+
+
+def is_explicit_tour_schedule(item: dict[str, Any], context: str) -> bool:
+    text = f"{item.get('title') or ''}\n{item.get('text') or ''}"
+    return bool(re.search(r"\b(?:asia\s+)?tour\b|巡演|巡迴", text, re.IGNORECASE)) and bool(
+        tour_schedule_place(context)
+    )
+
+
+def tour_schedule_review(item: dict[str, Any], title: str, start: str, context: str) -> dict[str, Any] | None:
+    place = tour_schedule_place(context)
+    if not place or not is_explicit_tour_schedule(item, context):
+        return None
+    country, city, venue, timezone = place
+    return {
+        "include": True,
+        "country": "臺灣" if country == "臺北市" else country,
+        "eventMode": TAIWAN_PHYSICAL if country == "臺北市" else OVERSEAS_PHYSICAL,
+        "timezone": timezone,
+        "candidateDateMatches": True,
+        "eventName": title,
+        "venue": venue,
+        "city": city,
+        "details": f"亞洲巡演場次：{start[:10]}，地點為 {city}。貼文未提供更具體的場館或演出時間。",
+        "reason": "貼文明確列出巡演日期與城市，收錄為該城市的全天活動。",
+        "confidence": 0.9,
+    }
+
+
 def date_match_is_truncated(text: str, end: int) -> bool:
     return bool(re.match(r"\s*(?:…|\\.\\.\\.)", text[end:end + 6]))
 
@@ -689,7 +761,11 @@ def date_candidates(text: str, posted_at: dt.datetime | None) -> list[tuple[dt.d
             date = parse_loose_date(match.group(0), posted_at, slash_day_first=slash_day_first)
             if not date:
                 continue
-            context = nearby_context(text, match.start(), match.end())
+            context = (
+                schedule_line_context(text, match.start(), match.end())
+                if slash_schedule
+                else nearby_context(text, match.start(), match.end())
+            )
             if not text_has_any(context, EVENT_TERMS) and not slash_schedule:
                 continue
             key = (date, date)
@@ -1040,6 +1116,10 @@ def extract_events(
                     print(f"calendar LLM review failed for {link}: {exc}", file=sys.stderr)
             if review is None:
                 review = fallback_calendar_review(item, title, location, text)
+            if is_explicit_tour_schedule(item, context):
+                # A listed date/city pair is authoritative; LLM review must not
+                # merge it with the first city in a multi-stop tour caption.
+                review = tour_schedule_review(item, title, start, context) or review
             if not review or not review.get("include"):
                 continue
             if review.get("confidence") == 0.35 and not review.get("country") == "臺灣" and not time_text:
