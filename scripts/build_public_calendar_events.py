@@ -155,6 +155,7 @@ ONLINE_LOGISTICS_RE = re.compile(
 GENERIC_ONLINE_VENUE_RE = re.compile(r"^(?:線上|線上直播|網路直播|online|livestream)$", re.IGNORECASE)
 GENERIC_COUNTRY_VENUE_RE = re.compile(r"^(?:台灣|臺灣|Taiwan|其他國家/地區|其他國家地區)$", re.IGNORECASE)
 CANCELLED_EVENT_RE = re.compile(r"停辦|取消(?:活動|演出|場次|音樂會|音乐会|公演|講座|工作坊)?|中止|開催中止", re.IGNORECASE)
+NON_EVENT_ANNOUNCEMENT_RE = re.compile(r"服務異動|門市服務時間|暫停(?:門市|營業|服務)", re.IGNORECASE)
 
 
 def load_dotenv(path: Path) -> None:
@@ -797,9 +798,14 @@ def date_candidates(text: str, posted_at: dt.datetime | None) -> list[tuple[dt.d
                 candidates.append((start, end, nearby_context(text, match.start(), match.end())))
 
     occupied = [range(match.start(), match.end()) for match in DATE_RANGE_RE.finditer(text)]
+    full_date_spans = [range(match.start(), match.end()) for match in FULL_DATE_RE.finditer(text)]
     for regex in (FULL_DATE_RE, MONTH_DAY_RE):
         for match in regex.finditer(text):
             if any(match.start() in span or match.end() in span for span in occupied):
+                continue
+            if regex is MONTH_DAY_RE and any(
+                match.start() in span or match.end() in span for span in full_date_spans
+            ):
                 continue
             if date_match_is_truncated(text, match.end()):
                 continue
@@ -1125,7 +1131,7 @@ def extract_events(
                 continue
             seen_links_dates.add(dedupe_key)
             title = event_title(item, context)
-            if CANCELLED_EVENT_RE.search(f"{title} {context}"):
+            if CANCELLED_EVENT_RE.search(f"{title} {context}") or NON_EVENT_ANNOUNCEMENT_RE.search(text):
                 continue
             identity = normalized_event_identity(title, item.get("source"), start_date)
             if identity in seen_event_identity:
