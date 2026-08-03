@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-03T13:42:47+08:00",
+  "generatedAt": "2026-08-03T14:02:42+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
   "count": 10,
@@ -14,8 +14,8 @@
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 5,
-      "cached": 35,
+      "requests": 0,
+      "cached": 40,
       "errors": 0
     }
   },
@@ -34,7 +34,7 @@
       "location": "臺中市西區 Jazzhead",
       "venue": "Jazzhead",
       "city": "臺中市西區",
-      "details": "預購票價500元、現場550元，19:45開放入場，座位有限。演出曲目包含巴西音樂與當代爵士口琴手 Yotam Ben-Or 的作品。",
+      "details": "主辦／演出者：何家健 HarmoniKahkean。預購票價500元、現場550元，19:45開放入場，座位有限。演出曲目包含巴西音樂與當代爵士口琴手 Yotam Ben-Or 的作品。",
       "evidenceUrl": "https://www.instagram.com/p/Da-fGjNmNs7/",
       "confidence": 0.98,
       "calendarReview": {
@@ -46,7 +46,7 @@
         "eventName": "何家健口琴四重奏：巴西計劃",
         "venue": "Jazzhead",
         "city": "臺中市西區",
-        "details": "預購票價500元、現場550元，19:45開放入場，座位有限。演出曲目包含巴西音樂與當代爵士口琴手 Yotam Ben-Or 的作品。",
+        "details": "主辦／演出者：何家健 HarmoniKahkean。預購票價500元、現場550元，19:45開放入場，座位有限。演出曲目包含巴西音樂與當代爵士口琴手 Yotam Ben-Or 的作品。",
         "reason": "貼文明確寫出 8/01 20:00~22:00、地點在臺中 Jazzhead，屬臺灣實體口琴演出，日期與候選一致。",
         "confidence": 0.98
       },
@@ -74,7 +74,7 @@
       "location": "臺灣",
       "venue": "臺灣",
       "city": "",
-      "details": "貼文提到 8 月 6 日起前往臺灣，將進行審查、講座與客座演出。未提供更具體場館、城市或報名資訊。",
+      "details": "主辦／演出者：南里沙。貼文提到 8 月 6 日起前往臺灣，將進行審查、講座與客座演出。未提供更具體場館、城市或報名資訊。",
       "evidenceUrl": "https://www.instagram.com/p/DbXIoedyMrI/",
       "confidence": 0.72,
       "calendarReview": {
@@ -86,7 +86,7 @@
         "eventName": "審査、講座、ゲスト演奏",
         "venue": "臺灣",
         "city": "",
-        "details": "貼文提到 8 月 6 日起前往臺灣，將進行審查、講座與客座演出。未提供更具體場館、城市或報名資訊。",
+        "details": "主辦／演出者：南里沙。貼文提到 8 月 6 日起前往臺灣，將進行審查、講座與客座演出。未提供更具體場館、城市或報名資訊。",
         "reason": "候選日期與貼文明確一致，且內容顯示為在臺灣舉行的實體口琴相關活動。",
         "confidence": 0.72
       },
@@ -110,7 +110,7 @@
       "location": "新竹市 國立陽明交通大學光復校區_學生活動中心B1",
       "venue": "國立陽明交通大學光復校區_學生活動中心B1",
       "city": "新竹市",
-      "details": "活動日期為 8/7-8/9，地點在國立陽明交通大學光復校區學生活動中心 B1。貼文提到現場可試吹 HOHNER BASS78，並有樂器展購琴現場限定優惠。",
+      "details": "主辦／演出者：音和樂器。活動日期為 8/7-8/9，地點在國立陽明交通大學光復校區學生活動中心 B1。貼文提到現場可試吹 HOHNER BASS78，並有樂器展購琴現場限定優惠。",
       "evidenceUrl": "https://www.instagram.com/p/Dba49ZPuGxs/",
       "confidence": 0.97,
       "calendarReview": {
@@ -122,7 +122,7 @@
         "eventName": "臺灣口琴音樂節",
         "venue": "國立陽明交通大學光復校區_學生活動中心B1",
         "city": "新竹市",
-        "details": "活動日期為 8/7-8/9，地點在國立陽明交通大學光復校區學生活動中心 B1。貼文提到現場可試吹 HOHNER BASS78，並有樂器展購琴現場限定優惠。",
+        "details": "主辦／演出者：音和樂器。活動日期為 8/7-8/9，地點在國立陽明交通大學光復校區學生活動中心 B1。貼文提到現場可試吹 HOHNER BASS78，並有樂器展購琴現場限定優惠。",
         "reason": "候選日期 2026-08-07 與貼文中的 8/7-8/9 臺灣口琴音樂節一致，且為臺灣實體口琴活動。",
         "confidence": 0.97
       },
@@ -146,7 +146,7 @@
       "location": "活動中心 B1 聯誼廳",
       "venue": "活動中心 B1 聯誼廳",
       "city": "",
-      "details": "2026 臺灣口琴音樂節期間的午間演出，自由入場，座位有限（80張椅子）。候選日期 8/7（五）12:30-13:30 演出者為 Steffi and Friends、李志華、Do Not Disturb。",
+      "details": "主辦／演出者：臺灣口琴音樂節 THMF。2026 臺灣口琴音樂節期間的午間演出，自由入場，座位有限（80張椅子）。候選日期 8/7（五）12:30-13:30 演出者為 Steffi and Friends、李志華、Do Not Disturb。",
       "evidenceUrl": "https://www.facebook.com/twharmonica/posts/pfbid02cfUiUQecZ6P7c2MXY6MzYxSVT77i7mj4n5kGzY5cdosa29NJiNinzfpYYiNxxqXNl",
       "confidence": 0.97,
       "calendarReview": {
@@ -158,7 +158,7 @@
         "eventName": "午間音樂會",
         "venue": "活動中心 B1 聯誼廳",
         "city": "",
-        "details": "2026 臺灣口琴音樂節期間的午間演出，自由入場，座位有限（80張椅子）。候選日期 8/7（五）12:30-13:30 演出者為 Steffi and Friends、李志華、Do Not Disturb。",
+        "details": "主辦／演出者：臺灣口琴音樂節 THMF。2026 臺灣口琴音樂節期間的午間演出，自由入場，座位有限（80張椅子）。候選日期 8/7（五）12:30-13:30 演出者為 Steffi and Friends、李志華、Do Not Disturb。",
         "reason": "貼文明確寫出 8/7 12:30-13:30 的午間音樂會，地點在活動中心 B1 聯誼廳，屬臺灣實體口琴活動。",
         "confidence": 0.97
       },
@@ -182,7 +182,7 @@
       "location": "新竹市文化局演藝廳音樂廳",
       "venue": "新竹市文化局演藝廳音樂廳",
       "city": "新竹市",
-      "details": "2026 臺灣口琴音樂節的 Gala 音樂會之一，邀集臺灣、日本、韓國、香港等地口琴演奏者與樂團演出。此場為 8月7日（五）19:00，購票入場；參賽者憑參賽證可自由入場。",
+      "details": "主辦／演出者：臺灣口琴音樂節 THMF。2026 臺灣口琴音樂節的 Gala 音樂會之一，邀集臺灣、日本、韓國、香港等地口琴演奏者與樂團演出。此場為 8月7日（五）19:00，購票入場；參賽者憑參賽證可自由入場。",
       "evidenceUrl": "https://www.facebook.com/twharmonica/posts/pfbid02676rr26nHtTsSNejQMDG7Ds86zjUy6csA1YvGWAduGDe2EopZ2AYrQgS7tXe1iKal",
       "confidence": 0.98,
       "calendarReview": {
@@ -194,7 +194,7 @@
         "eventName": "風城Show琴 Harmonica Fest in Windy City",
         "venue": "新竹市文化局演藝廳音樂廳",
         "city": "新竹市",
-        "details": "2026 臺灣口琴音樂節的 Gala 音樂會之一，邀集臺灣、日本、韓國、香港等地口琴演奏者與樂團演出。此場為 8月7日（五）19:00，購票入場；參賽者憑參賽證可自由入場。",
+        "details": "主辦／演出者：臺灣口琴音樂節 THMF。2026 臺灣口琴音樂節的 Gala 音樂會之一，邀集臺灣、日本、韓國、香港等地口琴演奏者與樂團演出。此場為 8月7日（五）19:00，購票入場；參賽者憑參賽證可自由入場。",
         "reason": "候選日期與內文明確一致，且為新竹市的實體口琴音樂會，符合收錄範圍。",
         "confidence": 0.98
       },
@@ -218,7 +218,7 @@
       "location": "新竹市文化局演藝廳音樂廳",
       "venue": "新竹市文化局演藝廳音樂廳",
       "city": "新竹市",
-      "details": "2026臺灣口琴音樂節 Gala 音樂會之一，邀請來自香港、韓國與臺灣的口琴演奏者與團體共演。活動時間為 8月8日（六）19:00，購票入場，參賽者憑參賽證可自由入場。",
+      "details": "主辦／演出者：臺灣口琴音樂節 THMF。2026臺灣口琴音樂節 Gala 音樂會之一，邀請來自香港、韓國與臺灣的口琴演奏者與團體共演。活動時間為 8月8日（六）19:00，購票入場，參賽者憑參賽證可自由入場。",
       "evidenceUrl": "https://www.facebook.com/twharmonica/posts/pfbid02676rr26nHtTsSNejQMDG7Ds86zjUy6csA1YvGWAduGDe2EopZ2AYrQgS7tXe1iKal",
       "confidence": 0.98,
       "calendarReview": {
@@ -230,7 +230,7 @@
         "eventName": "桂冠之聲 Voices of the Laureates",
         "venue": "新竹市文化局演藝廳音樂廳",
         "city": "新竹市",
-        "details": "2026臺灣口琴音樂節 Gala 音樂會之一，邀請來自香港、韓國與臺灣的口琴演奏者與團體共演。活動時間為 8月8日（六）19:00，購票入場，參賽者憑參賽證可自由入場。",
+        "details": "主辦／演出者：臺灣口琴音樂節 THMF。2026臺灣口琴音樂節 Gala 音樂會之一，邀請來自香港、韓國與臺灣的口琴演奏者與團體共演。活動時間為 8月8日（六）19:00，購票入場，參賽者憑參賽證可自由入場。",
         "reason": "候選日期與貼文中該場音樂會日期完全一致，且為臺灣實體口琴活動。",
         "confidence": 0.98
       },
@@ -254,7 +254,7 @@
       "location": "臺灣口琴音樂節",
       "venue": "臺灣口琴音樂節",
       "city": "臺灣",
-      "details": "8/9（日）午間音樂會，演出者包含 IniXial、Seoul Soloists Harmonica Orchestra、Dr. Blue 等口琴團體與演奏者。貼文為活動演出者介紹，屬於臺灣實體口琴活動。",
+      "details": "主辦／演出者：臺灣口琴音樂節 THMF。8/9（日）午間音樂會，演出者包含 IniXial、Seoul Soloists Harmonica Orchestra、Dr. Blue 等口琴團體與演奏者。貼文為活動演出者介紹，屬於臺灣實體口琴活動。",
       "evidenceUrl": "https://www.instagram.com/p/DbeuN1zk-Oz/",
       "confidence": 0.95,
       "calendarReview": {
@@ -266,7 +266,7 @@
         "eventName": "午間音樂會",
         "venue": "臺灣口琴音樂節",
         "city": "臺灣",
-        "details": "8/9（日）午間音樂會，演出者包含 IniXial、Seoul Soloists Harmonica Orchestra、Dr. Blue 等口琴團體與演奏者。貼文為活動演出者介紹，屬於臺灣實體口琴活動。",
+        "details": "主辦／演出者：臺灣口琴音樂節 THMF。8/9（日）午間音樂會，演出者包含 IniXial、Seoul Soloists Harmonica Orchestra、Dr. Blue 等口琴團體與演奏者。貼文為活動演出者介紹，屬於臺灣實體口琴活動。",
         "reason": "候選日期 2026-08-09 與貼文中的 8/9（日）午間音樂會一致，且為臺灣實體口琴活動。",
         "confidence": 0.95
       },
@@ -333,7 +333,7 @@
       "location": "臺北市 臺北",
       "venue": "臺北",
       "city": "臺北市",
-      "details": "巡演行程標示 23/9 Taipei, Taiwan，屬 Cy Leo 何卓彥的亞洲巡演「Two Worlds In One」。貼文提到將以原創口琴與人聲作品演出，並與各地口琴社群合作。",
+      "details": "主辦／演出者：CY Leo 何卓彥。巡演行程標示 23/9 Taipei, Taiwan，屬 Cy Leo 何卓彥的亞洲巡演「Two Worlds In One」。貼文提到將以原創口琴與人聲作品演出，並與各地口琴社群合作。",
       "evidenceUrl": "https://www.instagram.com/p/DbdOLZDjK-H/",
       "confidence": 0.95,
       "calendarReview": {
@@ -345,7 +345,7 @@
         "eventName": "CY LEO ASIA TOUR 2026",
         "venue": "臺北",
         "city": "臺北市",
-        "details": "巡演行程標示 23/9 Taipei, Taiwan，屬 Cy Leo 何卓彥的亞洲巡演「Two Worlds In One」。貼文提到將以原創口琴與人聲作品演出，並與各地口琴社群合作。",
+        "details": "主辦／演出者：CY Leo 何卓彥。巡演行程標示 23/9 Taipei, Taiwan，屬 Cy Leo 何卓彥的亞洲巡演「Two Worlds In One」。貼文提到將以原創口琴與人聲作品演出，並與各地口琴社群合作。",
         "reason": "候選日期 2026-09-23 與貼文中的 Taipei, Taiwan 完全一致，且為臺灣實體口琴活動。",
         "confidence": 0.95
       },
@@ -369,7 +369,7 @@
       "location": "高雄衛武營國家藝術文化中心表演廳",
       "venue": "高雄衛武營國家藝術文化中心表演廳",
       "city": "高雄",
-      "details": "貼文的近期演出資訊列出 12.09 於高雄衛武營國家藝術文化中心表演廳演出。內容未提供票價或報名資訊，屬臺灣實體活動。",
+      "details": "主辦／演出者：茱蒂口琴樂團 Judy's Harmonica Ensemble。貼文的近期演出資訊列出 12.09 於高雄衛武營國家藝術文化中心表演廳演出。內容未提供票價或報名資訊，屬臺灣實體活動。",
       "evidenceUrl": "https://www.instagram.com/p/DbYdBiVuM0U/",
       "confidence": 0.96,
       "calendarReview": {
@@ -381,7 +381,7 @@
         "eventName": "衛武營小時光《跟著口琴去旅行》",
         "venue": "高雄衛武營國家藝術文化中心表演廳",
         "city": "高雄",
-        "details": "貼文的近期演出資訊列出 12.09 於高雄衛武營國家藝術文化中心表演廳演出。內容未提供票價或報名資訊，屬臺灣實體活動。",
+        "details": "主辦／演出者：茱蒂口琴樂團 Judy's Harmonica Ensemble。貼文的近期演出資訊列出 12.09 於高雄衛武營國家藝術文化中心表演廳演出。內容未提供票價或報名資訊，屬臺灣實體活動。",
         "reason": "候選日期 12/09 與貼文中的活動日期一致，且地點明確為高雄實體演出。",
         "confidence": 0.96
       },
@@ -391,5 +391,6 @@
       ],
       "image_url": "/assets/feed-images/ae1f7c984c46d25d48ff.webp"
     }
-  ]
+  ],
+  "submittedEvents": 0
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-03T13:42:47+08:00",
+  "generatedAt": "2026-08-03T14:02:42+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
   "count": 2,
@@ -14,8 +14,8 @@
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 5,
-      "cached": 35,
+      "requests": 0,
+      "cached": 40,
       "errors": 0
     }
   },
@@ -70,7 +70,7 @@
       "location": "Singapore",
       "venue": "Singapore",
       "city": "Singapore",
-      "details": "亞洲巡演「Two Worlds In One」由 Cy Leo 何卓彥發起，結合原創口琴與人聲作品，並與各地口琴社群合作演出。候選日期 2026-10-03 對應貼文中的 3/10 Singapore 場次。",
+      "details": "主辦／演出者：CY Leo 何卓彥。亞洲巡演「Two Worlds In One」由 Cy Leo 何卓彥發起，結合原創口琴與人聲作品，並與各地口琴社群合作演出。候選日期 2026-10-03 對應貼文中的 3/10 Singapore 場次。",
       "evidenceUrl": "https://www.instagram.com/p/DbdOLZDjK-H/",
       "confidence": 0.95,
       "calendarReview": {
@@ -82,7 +82,7 @@
         "eventName": "CY LEO ASIA TOUR 2026",
         "venue": "Singapore",
         "city": "Singapore",
-        "details": "亞洲巡演「Two Worlds In One」由 Cy Leo 何卓彥發起，結合原創口琴與人聲作品，並與各地口琴社群合作演出。候選日期 2026-10-03 對應貼文中的 3/10 Singapore 場次。",
+        "details": "主辦／演出者：CY Leo 何卓彥。亞洲巡演「Two Worlds In One」由 Cy Leo 何卓彥發起，結合原創口琴與人聲作品，並與各地口琴社群合作演出。候選日期 2026-10-03 對應貼文中的 3/10 Singapore 場次。",
         "reason": "貼文明確列出 3/10 Singapore 的巡演場次，屬海外實體口琴活動，且日期與候選一致。",
         "confidence": 0.95
       },
