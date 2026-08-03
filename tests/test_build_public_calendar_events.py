@@ -11,6 +11,18 @@ import build_public_calendar_events as calendar  # noqa: E402
 
 
 class PublicCalendarExtractionTests(unittest.TestCase):
+    def test_calendar_details_identify_source_person(self):
+        item = {
+            "source": "cy_leo",
+            "source_system_name": "CY Leo 何卓彥",
+            "directory_entry_name": "CY Leo 何卓彥",
+        }
+
+        self.assertEqual(
+            calendar.details_with_source(item, "臺北場演出。"),
+            "主辦／演出者：CY Leo 何卓彥。臺北場演出。",
+        )
+
     def test_date_candidates_accept_day_month_tour_dates(self):
         text = "CY LEO ASIA TOUR 2026 concert\n30/8 Hong Kong\n23/9 Taipei, Taiwan\n3/10 Singapore"
 

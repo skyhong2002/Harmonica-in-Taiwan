@@ -454,6 +454,24 @@ def event_title(item: dict[str, Any], context: str = "") -> str:
     return core or source or "公開口琴活動"
 
 
+def event_source_label(item: dict[str, Any]) -> str:
+    """Return the human-readable organizer or performer name for calendar details."""
+    for key in ("directory_entry_name", "source_system_name", "source"):
+        value = str(item.get(key) or "").strip()
+        if value:
+            return value
+    return "公開來源"
+
+
+def details_with_source(item: dict[str, Any], details: str) -> str:
+    label = event_source_label(item)
+    text = str(details or "").strip()
+    if label in text:
+        return text
+    prefix = f"主辦／演出者：{label}。"
+    return f"{prefix}{text}" if text else prefix
+
+
 def compact_for_llm(text: str, limit: int = 2200) -> str:
     cleaned = re.sub(r"\s+", " ", str(text or "")).strip()
     if len(cleaned) <= limit:
@@ -957,6 +975,7 @@ def extract_events(
             start_for_id = parse_datetime(override.get("start"))
             start_date = start_for_id.date() if start_for_id else safe_date(*[int(part) for part in str(override.get("start", ""))[:10].split("-")])
             if start_date:
+                override["details"] = details_with_source(item, override.get("details") or "")
                 override.update(
                     {
                         "id": item_key(item, start_date),
@@ -1028,7 +1047,8 @@ def extract_events(
             event_name = str(review.get("eventName") or title).strip()
             venue = clean_location(str(review.get("venue") or location))
             city = str(review.get("city") or "").strip()
-            details = str(review.get("details") or "").strip()
+            details = details_with_source(item, review.get("details") or "")
+            review["details"] = details
             country = str(review.get("country") or "").strip()
             mode = classify_event_mode(
                 country,
