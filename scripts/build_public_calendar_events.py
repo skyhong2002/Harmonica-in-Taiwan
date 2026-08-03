@@ -124,6 +124,7 @@ DATE_RANGE_RE = re.compile(
 )
 FULL_DATE_RE = re.compile(r"(?P<year>\d{2,4})\s*(?:年|[./-])\s*(?P<month>\d{1,2})\s*(?:月|[./-])\s*(?P<day>\d{1,2})\s*(?:日)?")
 MONTH_DAY_RE = re.compile(r"(?<!\d)(?P<month>\d{1,2})\s*(?:月|[./])\s*(?P<day>\d{1,2})\s*(?:日)?(?!\d)")
+SLASH_DATE_RE = re.compile(r"(?<!\d)(?P<first>\d{1,2})\s*/\s*(?P<second>\d{1,2})(?!\d)")
 COMPACT_RANGE_RE = re.compile(r"(?<!\d)(?P<year>\d{2})(?P<month>\d{2})(?P<day>\d{2})\s*[-~〜]\s*(?P<end_month>\d{2})(?P<end_day>\d{2})(?!\d)")
 TIME_RE = re.compile(r"(?<!\d)(?P<hour>[01]?\d|2[0-3])[:：](?P<minute>[0-5]\d)(?!\d)")
 TIME_WITH_UNIT_RE = re.compile(r"(?P<prefix>上午|早上|中午|下午|晚上|夜|午前|午後)?\s*(?P<hour>[01]?\d|2[0-3])\s*(?:時|点|點)(?:\s*(?P<minute>[0-5]\d)\s*分?)?")
@@ -214,12 +215,20 @@ def infer_month_day(month: int, day: int, posted_at: dt.datetime | None) -> dt.d
     return candidate
 
 
-def parse_loose_date(text: str, posted_at: dt.datetime | None) -> dt.date | None:
+def parse_loose_date(
+    text: str,
+    posted_at: dt.datetime | None,
+    *,
+    slash_day_first: bool = False,
+) -> dt.date | None:
     cleaned = text.strip().replace(" ", "")
     full = FULL_DATE_RE.search(cleaned)
     if full:
         year = normalized_year(int(full.group("year")), (posted_at or dt.datetime.now(TAIWAN_TZ)).year)
         return safe_date(year, int(full.group("month")), int(full.group("day")))
+    slash = re.fullmatch(r"(?P<first>\d{1,2})/(?P<second>\d{1,2})", cleaned)
+    if slash and slash_day_first:
+        return infer_month_day(int(slash.group("second")), int(slash.group("first")), posted_at)
     month_day = MONTH_DAY_RE.search(cleaned)
     if month_day:
         return infer_month_day(int(month_day.group("month")), int(month_day.group("day")), posted_at)
@@ -629,6 +638,9 @@ def normalized_event_identity(title: str, source: Any, start: dt.date) -> tuple[
 def date_candidates(text: str, posted_at: dt.datetime | None) -> list[tuple[dt.date, dt.date, str]]:
     candidates: list[tuple[dt.date, dt.date, str]] = []
     seen: set[tuple[dt.date, dt.date]] = set()
+    slash_dates = list(SLASH_DATE_RE.finditer(text))
+    slash_day_first = any(int(match.group("first")) > 12 for match in slash_dates)
+    slash_schedule = slash_day_first and len(slash_dates) >= 2 and text_has_any(text, EVENT_TERMS)
 
     for match in COMPACT_RANGE_RE.finditer(text):
         year = normalized_year(int(match.group("year")), (posted_at or dt.datetime.now(TAIWAN_TZ)).year)
@@ -641,8 +653,8 @@ def date_candidates(text: str, posted_at: dt.datetime | None) -> list[tuple[dt.d
                 candidates.append((start, end, nearby_context(text, match.start(), match.end())))
 
     for match in DATE_RANGE_RE.finditer(text):
-        start = parse_loose_date(match.group("left"), posted_at)
-        end = parse_loose_date(match.group("right"), posted_at)
+        start = parse_loose_date(match.group("left"), posted_at, slash_day_first=slash_day_first)
+        end = parse_loose_date(match.group("right"), posted_at, slash_day_first=slash_day_first)
         if start and end and end >= start and (end - start).days <= 14:
             key = (start, end)
             if key not in seen:
@@ -656,11 +668,11 @@ def date_candidates(text: str, posted_at: dt.datetime | None) -> list[tuple[dt.d
                 continue
             if date_match_is_truncated(text, match.end()):
                 continue
-            date = parse_loose_date(match.group(0), posted_at)
+            date = parse_loose_date(match.group(0), posted_at, slash_day_first=slash_day_first)
             if not date:
                 continue
             context = nearby_context(text, match.start(), match.end())
-            if not text_has_any(context, EVENT_TERMS):
+            if not text_has_any(context, EVENT_TERMS) and not slash_schedule:
                 continue
             key = (date, date)
             if key not in seen:

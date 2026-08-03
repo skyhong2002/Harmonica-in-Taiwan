@@ -11,6 +11,16 @@ import build_public_calendar_events as calendar  # noqa: E402
 
 
 class PublicCalendarExtractionTests(unittest.TestCase):
+    def test_date_candidates_accept_day_month_tour_dates(self):
+        text = "CY LEO ASIA TOUR 2026 concert\n30/8 Hong Kong\n23/9 Taipei, Taiwan\n3/10 Singapore"
+
+        candidates = calendar.date_candidates(text, calendar.parse_datetime("2026-07-31 08:00"))
+
+        self.assertEqual(
+            [start.isoformat() for start, _end, _context in candidates],
+            ["2026-08-30", "2026-09-23", "2026-10-03"],
+        )
+
     def test_deduplicate_events_keeps_more_complete_same_day_event(self):
         vague = {
             "id": "vague",
