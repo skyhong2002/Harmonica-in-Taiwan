@@ -24,6 +24,7 @@ API_DIR = SITE_ROOT / "api"
 DATA_DIR = SITE_ROOT / "data"
 FEEDS_DIR = SITE_ROOT / "feeds"
 SOURCE_PATH = API_DIR / "events.json"
+SOCIAL_CANDIDATES_PATH = PROJECT_ROOT / "data" / "feeds" / "social_candidates.jsonl"
 OVERRIDES_PATH = PROJECT_ROOT / "data" / "sources" / "harmonica-public-calendar-overrides.csv"
 JSON_PATH = API_DIR / "public-calendar-events.json"
 JS_PATH = DATA_DIR / "public-calendar-events.js"
@@ -538,7 +539,7 @@ def event_title(item: dict[str, Any], context: str = "") -> str:
 
 def event_source_label(item: dict[str, Any]) -> str:
     """Return the human-readable organizer or performer name for calendar details."""
-    for key in ("directory_entry_name", "source_system_name", "source"):
+    for key in ("directory_entry_name", "source_system_name", "source_name", "source"):
         value = str(item.get(key) or "").strip()
         if value:
             return value
@@ -548,6 +549,8 @@ def event_source_label(item: dict[str, Any]) -> str:
 def details_with_source(item: dict[str, Any], details: str) -> str:
     label = event_source_label(item)
     text = str(details or "").strip()
+    if text.startswith("主辦／演出者："):
+        return text
     prefix = f"主辦／演出者：{label}。"
     if text.startswith(prefix):
         return text
@@ -567,6 +570,38 @@ def load_json(path: Path, default: dict[str, Any]) -> dict[str, Any]:
     except (OSError, json.JSONDecodeError):
         return default
     return data if isinstance(data, dict) else default
+
+
+def canonical_evidence_url(value: Any) -> str:
+    """Treat X/Twitter host aliases as the same public evidence URL."""
+    url = str(value or "").strip().rstrip("/")
+    return re.sub(r"^https?://(?:www\.)?(?:twitter\.com|x\.com)/", "https://x.com/", url, flags=re.IGNORECASE)
+
+
+def load_override_candidate_items(overrides: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
+    """Bring manually confirmed posts into the calendar even if classification excluded them."""
+    if not overrides or not SOCIAL_CANDIDATES_PATH.exists():
+        return []
+    wanted = {canonical_evidence_url(url) for url in overrides}
+    found: list[dict[str, Any]] = []
+    try:
+        lines = SOCIAL_CANDIDATES_PATH.read_text(encoding="utf-8").splitlines()
+    except OSError:
+        return []
+    for line in lines:
+        try:
+            item = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        if not isinstance(item, dict):
+            continue
+        item_url = canonical_evidence_url(item.get("link") or item.get("url") or item.get("post_id"))
+        if item_url not in wanted:
+            continue
+        item = dict(item)
+        item["link"] = item.get("link") or item.get("url") or item.get("post_id") or ""
+        found.append(item)
+    return found
 
 
 def atomic_write_text(path: Path, text: str) -> None:
@@ -1042,6 +1077,9 @@ def extract_events(
     seen_event_identity: set[tuple[str, str, str]] = set()
     cache = llm_cache if isinstance(llm_cache, dict) else {"version": 1, "items": {}}
     override_by_url = overrides or {}
+    override_by_canonical_url = {
+        canonical_evidence_url(url): value for url, value in override_by_url.items()
+    }
     used_overrides: set[str] = set()
     llm_stats: dict[str, int] = {"requests": 0, "cached": 0, "errors": 0}
     now_date = dt.datetime.now(TAIWAN_TZ).date()
@@ -1050,14 +1088,16 @@ def extract_events(
 
     for item in items:
         text = "\n".join(str(item.get(key) or "") for key in ("source", "title", "text"))
-        if not text_has_any(text, HARMONICA_TERMS):
+        link = str(item.get("link") or "")
+        override_url = canonical_evidence_url(link)
+        is_manual_override = override_url in override_by_canonical_url
+        if not is_manual_override and not text_has_any(text, HARMONICA_TERMS):
             continue
-        if not text_has_any(text, EVENT_TERMS):
+        if not is_manual_override and not text_has_any(text, EVENT_TERMS):
             continue
         posted_at = parse_datetime(item.get("posted_at_local")) or parse_datetime(item.get("posted_at"))
-        link = str(item.get("link") or "")
-        if link in override_by_url:
-            override = dict(override_by_url[link])
+        if override_url in override_by_canonical_url:
+            override = dict(override_by_canonical_url[override_url])
             start_for_id = parse_datetime(override.get("start"))
             start_date = start_for_id.date() if start_for_id else safe_date(*[int(part) for part in str(override.get("start", ""))[:10].split("-")])
             if start_date:
@@ -1073,7 +1113,7 @@ def extract_events(
                     }
                 )
                 events.append(override)
-                used_overrides.add(link)
+                used_overrides.add(override_url)
                 seen_links_dates.add((link, start_date.isoformat()))
             continue
         candidates = date_candidates(text, posted_at)
@@ -1351,6 +1391,16 @@ def main() -> int:
     if not args.no_llm:
         llm_token, llm_token_source = watchdog.read_llm_token(args.llm_keychain_service, args.llm_keychain_account)
     overrides = load_overrides()
+    existing_urls = {
+        canonical_evidence_url(item.get("link"))
+        for item in items
+        if isinstance(item, dict) and item.get("link")
+    }
+    items.extend(
+        item
+        for item in load_override_candidate_items(overrides)
+        if canonical_evidence_url(item.get("link")) not in existing_urls
+    )
     generated_at = dt.datetime.now(TAIWAN_TZ).isoformat(timespec="seconds")
     events = extract_events(
         [item for item in items if isinstance(item, dict)],

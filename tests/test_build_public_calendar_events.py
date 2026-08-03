@@ -27,6 +27,41 @@ class PublicCalendarExtractionTests(unittest.TestCase):
             "主辦／演出者：CY Leo 何卓彥。CY Leo 何卓彥主辦的臺北場演出。",
         )
 
+    def test_calendar_details_preserve_explicit_performer_and_source_name(self):
+        item = {"source_name": "南里沙"}
+        self.assertEqual(
+            calendar.details_with_source(item, "主辦／演出者：南里沙；YouTube 生配信。"),
+            "主辦／演出者：南里沙；YouTube 生配信。",
+        )
+
+    def test_manual_override_can_include_candidate_without_event_keywords(self):
+        item = {
+            "link": "https://x.com/minami_risa/status/2083009854462218712",
+            "source_name": "南里沙",
+            "platform": "x",
+            "text": "クロマチックハーモニカ・ナイト！",
+        }
+        override = {
+            item["link"]: {
+                "eventName": "RJ&BME’s マンスリーライブ「公開リハーサル」",
+                "title": "RJ&BME’s マンスリーライブ「公開リハーサル」",
+                "start": "2026-08-18T20:00:00+09:00",
+                "end": "2026-08-18T22:00:00+09:00",
+                "allDay": False,
+                "venue": "RJ&BME’s",
+                "city": "西宮市",
+                "location": "西宮市 RJ&BME’s",
+                "details": "主辦／演出者：南里沙；公開彩排。",
+                "calendarType": calendar.OVERSEAS_PHYSICAL,
+                "timezone": "Asia/Tokyo",
+                "evidenceUrl": item["link"],
+                "confidence": 1.0,
+            }
+        }
+        events = calendar.extract_events([item], overrides=override)
+        self.assertEqual(len(events), 1)
+        self.assertEqual(events[0]["title"], override[item["link"]]["title"])
+
     def test_date_candidates_accept_day_month_tour_dates(self):
         text = "CY LEO ASIA TOUR 2026 concert\n30/8 Hong Kong\n23/9 Taipei, Taiwan\n3/10 Singapore"
 
@@ -339,7 +374,7 @@ class PublicCalendarExtractionTests(unittest.TestCase):
                 "本年度特別規劃兩場音樂節前導活動，而本場「前導音樂會」即為第二場活動！\n"
                 "前導音樂會採線上報名，名額有限。\n"
                 "2026 臺灣口琴音樂節：前導音樂會資訊\n"
-                "📍時間：2026/07/25 (六) 14:00\n"
+                "📍時間：2026/08/04 (二) 14:00\n"
                 "📍地點：竹東親愛愛樂音樂巷-音樂廳\n"
                 "(新竹縣竹東鎮東林路194巷8號)"
             ),
@@ -352,10 +387,10 @@ class PublicCalendarExtractionTests(unittest.TestCase):
             llm_cache={"version": 1, "items": {}},
         )
 
-        prelude = next(event for event in events if event["start"].startswith("2026-07-25"))
+        prelude = next(event for event in events if event["start"].startswith("2026-08-04"))
         self.assertEqual(prelude["title"], "2026 臺灣口琴音樂節：前導音樂會")
-        self.assertEqual(prelude["start"], "2026-07-25T14:00:00+08:00")
-        self.assertEqual(prelude["end"], "2026-07-25T16:00:00+08:00")
+        self.assertEqual(prelude["start"], "2026-08-04T14:00:00+08:00")
+        self.assertEqual(prelude["end"], "2026-08-04T16:00:00+08:00")
         self.assertEqual(prelude["location"], "竹東親愛愛樂音樂巷-音樂廳")
         self.assertFalse(prelude["allDay"])
 
