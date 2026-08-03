@@ -1063,7 +1063,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-03 08:44",
       "latestUpdateSource": "Reyharp and Balawan Project",
       "latestUpdateUrl": "https://www.instagram.com/stories/reyharpnaufal/3955210668336625805/",
-      "avatarUrl": "/assets/source-avatars/8effa6066b6e6ed90651.webp",
+      "avatarUrl": "/assets/source-avatars/10ecbf683c131db9622f.webp",
       "sourceInitials": "RAB",
       "sourceTags": [
         "團體樂團",
@@ -14477,6 +14477,50 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-226",
+      "publicId": "226",
+      "name": "Wesley Harmonica",
+      "nameEn": "Wesley Harmonica",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴演出/教學/活動資訊",
+      "structuredSummary": "口琴演出/教學/活動資訊 / 口琴 / 演出人員/教學者",
+      "summary": "臺灣的口琴演出人員與教學者，活動脈絡包含口琴演出、教學與活動資訊。",
+      "keywords": "Wesley Harmonica 口琴 演出 教學 活動",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/wesleyharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "WH",
+      "sourceTags": [
+        "演奏者",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_wesleyharmonica",
+          "name": "Wesley Harmonica",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/wesleyharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-123",
       "publicId": "123",
       "name": "Yuanmao Wang",
@@ -14723,7 +14767,7 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 209,
+    "totalEntries": 210,
     "categories": {
       "其他來源": 2,
       "國際交流": 10,
@@ -14732,7 +14776,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "學校社團": 36,
       "教學器材": 15,
       "活動資訊": 20,
-      "演奏者": 74
+      "演奏者": 75
     },
     "countries": {
       "中國": 10,
@@ -14752,7 +14796,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "瑞士": 1,
       "紐西蘭": 1,
       "美國": 7,
-      "臺灣": 93,
+      "臺灣": 94,
       "英國": 3,
       "荷蘭": 1,
       "西班牙": 2,
@@ -14762,20 +14806,20 @@ window.HARMONICA_OBSERVE_DATA = {
       "馬來西亞": 13
     },
     "watchSources": {
-      "totalSources": 614,
+      "totalSources": 615,
       "rsshubSources": 334,
-      "apifySources": 149,
-      "facebookSources": 149,
+      "apifySources": 150,
+      "facebookSources": 150,
       "youtubeSources": 131,
       "platforms": {
-        "facebook": 149,
+        "facebook": 150,
         "instagram": 294,
         "threads": 28,
         "x": 12,
         "youtube": 131
       },
       "types": {
-        "facebook_page_posts": 149,
+        "facebook_page_posts": 150,
         "rss": 40,
         "rsshub_instagram_profile": 147,
         "rsshub_instagram_story": 147,

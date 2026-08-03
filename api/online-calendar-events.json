@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-03T16:18:00+08:00",
+  "generatedAt": "2026-08-03T16:25:30+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "online",
   "count": 1,
@@ -10,12 +10,12 @@
   "criteria": "國內外有明確日期、時間與直播或線上參與方式的公開口琴活動。",
   "manualOverrides": 8,
   "llm": {
-    "enabled": false,
-    "tokenSource": "",
-    "model": "",
+    "enabled": true,
+    "tokenSource": "env:HARMONICA_LLM_API_KEY",
+    "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 0,
+      "cached": 30,
       "errors": 0
     }
   },
