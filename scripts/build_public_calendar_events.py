@@ -152,6 +152,7 @@ ONLINE_LOGISTICS_RE = re.compile(
     re.IGNORECASE,
 )
 GENERIC_ONLINE_VENUE_RE = re.compile(r"^(?:線上|線上直播|網路直播|online|livestream)$", re.IGNORECASE)
+GENERIC_COUNTRY_VENUE_RE = re.compile(r"^(?:台灣|臺灣|Taiwan|其他國家/地區|其他國家地區)$", re.IGNORECASE)
 CANCELLED_EVENT_RE = re.compile(r"停辦|取消(?:活動|演出|場次|音樂會|音乐会|公演|講座|工作坊)?|中止|開催中止", re.IGNORECASE)
 
 
@@ -1138,6 +1139,11 @@ def extract_events(
             city = str(review.get("city") or "").strip()
             details = details_with_source(item, review.get("details") or "")
             review["details"] = details
+            review_mode = str(review.get("eventMode") or "").strip()
+            if review_mode in {TAIWAN_PHYSICAL, OVERSEAS_PHYSICAL} and not city and GENERIC_COUNTRY_VENUE_RE.fullmatch(venue):
+                # A post saying someone will visit Taiwan for judging/teaching/
+                # guest performance is not enough to identify a public event.
+                continue
             country = str(review.get("country") or "").strip()
             mode = classify_event_mode(
                 country,
