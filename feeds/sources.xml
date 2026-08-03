@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 03 Aug 2026 08:47:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 09:21:21 +0000</lastBuildDate>
     <item>
       <title>陽明交大竹韻口琴社</title>
       <link>https://www.facebook.com/nycubmhc/</link>
@@ -29,6 +29,17 @@ Tag：演奏者、比賽、半音階、國際交流
 香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。</description>
     </item>
     <item>
+      <title>Evelyn Choong 鍾雪兒</title>
+      <link>https://www.facebook.com/evelyn.choong.3/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/78ffab148f49419e</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、半音階、國際交流
+國家：馬來西亞
+地區：馬來西亞
+馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。</description>
+    </item>
+    <item>
       <title>Marcos Coll</title>
       <link>https://marcoscoll.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/3515abad4f43ad4a</guid>
@@ -49,6 +60,17 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/臺北
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>Howard Levy</title>
+      <link>https://levyland.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/7b1b038dac5e8bbf</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、十孔、國際交流
+國家：美國
+地區：美國
+美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。</description>
     </item>
     <item>
       <title>Aiden Soon</title>
@@ -82,6 +104,17 @@ Tag：演奏者、合奏、和弦、重奏、演出
 國家：臺灣
 地區：臺灣
 口琴演奏者，專長和弦口琴與重奏演出。</description>
+    </item>
+    <item>
+      <title>陳瑤容 Yora Chen</title>
+      <link>https://portaly.cc/YoraChen</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/13f74469b6747459</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者
+國家：臺灣
+地區：臺灣
+臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。</description>
     </item>
     <item>
       <title>Yoonseok Lee</title>
@@ -271,17 +304,6 @@ Tag：演奏者、十孔、國際交流
 日本的十孔國際演出人員，活動脈絡包含藍調。</description>
     </item>
     <item>
-      <title>Evelyn Choong 鍾雪兒</title>
-      <link>https://www.facebook.com/evelyn.choong.3/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/78ffab148f49419e</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學、半音階、國際交流
-國家：馬來西亞
-地區：馬來西亞
-馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。</description>
-    </item>
-    <item>
       <title>Harmonica FEN 口琴節與學院</title>
       <link>https://harmonica-fen-festival.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/b9d265ee651e1480</guid>
@@ -291,17 +313,6 @@ Tag：活動資訊、比賽、半音階、十孔、國際交流
 國家：德國
 地區：德國/柏林
 德國的國際活動與教育來源，涵蓋柏林口琴節、Academy、演奏會、工作坊與Open Stage。</description>
-    </item>
-    <item>
-      <title>Howard Levy</title>
-      <link>https://levyland.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/7b1b038dac5e8bbf</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、十孔、國際交流
-國家：美國
-地區：美國
-美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。</description>
     </item>
     <item>
       <title>Younghoon Cho</title>
@@ -379,17 +390,6 @@ Tag：演奏者、半音階、合奏、國際交流
 國家：香港
 地區：香港
 香港半音階口琴演奏者，專注現代跨界與國際演出。</description>
-    </item>
-    <item>
-      <title>陳瑤容 Yora Chen</title>
-      <link>https://portaly.cc/YoraChen</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/13f74469b6747459</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者
-國家：臺灣
-地區：臺灣
-臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。</description>
     </item>
     <item>
       <title>Gordon Lee 李俊樂</title>
