@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-03T15:41:20+08:00",
+  "generatedAt": "2026-08-03T16:00:56+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 10,
+  "count": 9,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -59,42 +59,6 @@
         "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753225482_18387193525167009_3008364526207021053_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzk0NDcyMTc1NjE2MDQwMTk1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTE3MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=jRwAGa274TwQ7kNvwHA0nrC&_nc_oc=AdrHtvb0Tf-qpOmMi0xf4iGjkmLxJD4DifC4YPNDssZHecNmy8clmaYUnivD7OvLnT8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=qQMsj1FStzeCNBwKUGxjjg&_nc_ss=7a22e&oh=00_AQDsWs4txtm3Fvhpxdyb-9BfR9f0OwAmIKheyhBf-AxwzQ&oe=6A631510"
       ],
       "image_url": "/assets/feed-images/21c5e0c1c3db8098d922.webp"
-    },
-    {
-      "id": "38402b6bac884772",
-      "title": "審査、講座、ゲスト演奏",
-      "eventName": "審査、講座、ゲスト演奏",
-      "source": "南里沙 / Risa MINAMI",
-      "platform": "instagram",
-      "start": "2026-08-06",
-      "end": "2026-08-07",
-      "allDay": true,
-      "calendarType": "taiwan_physical",
-      "timezone": "Asia/Taipei",
-      "location": "臺灣",
-      "venue": "臺灣",
-      "city": "",
-      "details": "主辦／演出者：南里沙。貼文提到 8 月 6 日起前往臺灣，將進行審查、講座與客座演出。未提供更具體場館、城市或報名資訊。",
-      "evidenceUrl": "https://www.instagram.com/p/DbXIoedyMrI/",
-      "confidence": 0.72,
-      "calendarReview": {
-        "include": true,
-        "country": "臺灣",
-        "eventMode": "taiwan_physical",
-        "timezone": "Asia/Taipei",
-        "candidateDateMatches": true,
-        "eventName": "審査、講座、ゲスト演奏",
-        "venue": "臺灣",
-        "city": "",
-        "details": "主辦／演出者：南里沙。貼文提到 8 月 6 日起前往臺灣，將進行審查、講座與客座演出。未提供更具體場館、城市或報名資訊。",
-        "reason": "候選日期與貼文明確一致，且內容顯示為在臺灣舉行的實體口琴相關活動。",
-        "confidence": 0.72
-      },
-      "postedAt": "2026-07-29 11:21",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/759751726_18605916259053761_2199208052004241025_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk1MTY2NTE2MzkwNDAxMDk1Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTYwNS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=bm9gLlYP1VEQ7kNvwGwPM-n&_nc_oc=AdpQl_4e3uxBTaqeANLnepjF6MYO72DRISbYbKICEqMPSLSZS26N-XMBUA828FSgI68&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=XgfSpF7evg2_eOvXxqc0xw&_nc_ss=7a22e&oh=00_AQBOAW_KoLO7MZ43s1aoV6ST78cDAx45MzIlkK2r9Ofzsw&oe=6A6F3399"
-      ],
-      "image_url": "/assets/feed-images/e43616bcd9252cb96fba.webp"
     },
     {
       "id": "dff49d05f97ce2ba",
@@ -391,6 +355,5 @@
       ],
       "image_url": "/assets/feed-images/ae1f7c984c46d25d48ff.webp"
     }
-  ],
-  "submittedEvents": 0
+  ]
 }
