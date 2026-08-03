@@ -22,6 +22,10 @@ class PublicCalendarExtractionTests(unittest.TestCase):
             calendar.details_with_source(item, "臺北場演出。"),
             "主辦／演出者：CY Leo 何卓彥。臺北場演出。",
         )
+        self.assertEqual(
+            calendar.details_with_source(item, "CY Leo 何卓彥主辦的臺北場演出。"),
+            "主辦／演出者：CY Leo 何卓彥。CY Leo 何卓彥主辦的臺北場演出。",
+        )
 
     def test_date_candidates_accept_day_month_tour_dates(self):
         text = "CY LEO ASIA TOUR 2026 concert\n30/8 Hong Kong\n23/9 Taipei, Taiwan\n3/10 Singapore"
@@ -48,7 +52,8 @@ class PublicCalendarExtractionTests(unittest.TestCase):
     def test_tour_schedule_review_keeps_explicit_city_without_venue(self):
         item = {
             "title": "CY LEO ASIA TOUR 2026",
-            "text": "CY LEO ASIA TOUR 2026\n5/10 Penang, Malaysia",
+            "source_system_name": "CY Leo 何卓彥",
+            "text": "CY LEO ASIA TOUR 2026\n5/10 Penang, Malaysia\n「Two Worlds In One」",
         }
 
         review = calendar.tour_schedule_review(
@@ -60,6 +65,7 @@ class PublicCalendarExtractionTests(unittest.TestCase):
         self.assertEqual(review["include"], True)
         self.assertEqual(review["eventMode"], calendar.OVERSEAS_PHYSICAL)
         self.assertEqual(review["venue"], "Penang")
+        self.assertEqual(review["eventName"], "CY Leo 何卓彥｜Two Worlds In One 亞洲巡演")
 
     def test_deduplicate_events_keeps_more_complete_same_day_event(self):
         vague = {

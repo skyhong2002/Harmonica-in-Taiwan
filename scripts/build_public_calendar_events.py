@@ -422,19 +422,28 @@ def tour_schedule_review(item: dict[str, Any], title: str, start: str, context: 
     if not place or not is_explicit_tour_schedule(item, context):
         return None
     country, city, venue, timezone = place
+    event_name = tour_schedule_event_name(item, title)
     return {
         "include": True,
         "country": "臺灣" if country == "臺北市" else country,
         "eventMode": TAIWAN_PHYSICAL if country == "臺北市" else OVERSEAS_PHYSICAL,
         "timezone": timezone,
         "candidateDateMatches": True,
-        "eventName": title,
+        "eventName": event_name,
         "venue": venue,
         "city": city,
         "details": f"亞洲巡演場次：{start[:10]}，地點為 {city}。貼文未提供更具體的場館或演出時間。",
         "reason": "貼文明確列出巡演日期與城市，收錄為該城市的全天活動。",
         "confidence": 0.9,
     }
+
+
+def tour_schedule_event_name(item: dict[str, Any], fallback: str) -> str:
+    text = str(item.get("text") or item.get("title") or "")
+    match = re.search(r"「([^」]{2,80})」", text)
+    if not match:
+        return fallback
+    return f"{event_source_label(item)}｜{match.group(1)} 亞洲巡演"
 
 
 def date_match_is_truncated(text: str, end: int) -> bool:
@@ -538,9 +547,9 @@ def event_source_label(item: dict[str, Any]) -> str:
 def details_with_source(item: dict[str, Any], details: str) -> str:
     label = event_source_label(item)
     text = str(details or "").strip()
-    if label in text:
-        return text
     prefix = f"主辦／演出者：{label}。"
+    if text.startswith(prefix):
+        return text
     return f"{prefix}{text}" if text else prefix
 
 
