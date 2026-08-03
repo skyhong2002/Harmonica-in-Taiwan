@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 03 Aug 2026 18:51:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 19:57:14 +0000</lastBuildDate>
+    <item>
+      <title>黃冠誌</title>
+      <link>https://harmonica.tw/course/kuanchih/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、合奏、和弦、重奏、演出
+國家：臺灣
+地區：臺灣
+口琴演奏者，專長和弦口琴與重奏演出。</description>
+    </item>
     <item>
       <title>胖擊口琴樂團</title>
       <link>https://linktr.ee/punch.harp</link>
@@ -161,6 +172,17 @@ Tag：演奏者、半音階、國際交流
 韓國半音階口琴演奏家，活躍於國際舞台。</description>
     </item>
     <item>
+      <title>Timothy Yip 葉進禧</title>
+      <link>https://www.timothyyipharmonica.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/f44e6396801a0c03</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、比賽、半音階、國際交流
+國家：香港
+地區：香港
+香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。</description>
+    </item>
+    <item>
       <title>CY Leo 何卓彥</title>
       <link>https://www.cyleomusic.io/profile</link>
       <guid>https://harmonica.observe.tw/feeds/sources/161a953fbacb664c</guid>
@@ -238,17 +260,6 @@ Tag：演奏者、教學、重奏
 臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。</description>
     </item>
     <item>
-      <title>黃冠誌</title>
-      <link>https://harmonica.tw/course/kuanchih/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、合奏、和弦、重奏、演出
-國家：臺灣
-地區：臺灣
-口琴演奏者，專長和弦口琴與重奏演出。</description>
-    </item>
-    <item>
       <title>陽明交大竹韻口琴社</title>
       <link>https://www.facebook.com/nycubmhc/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/3a59c106034dfcfa</guid>
@@ -258,17 +269,6 @@ Tag：學生社團、大專社團
 國家：臺灣
 地區：臺灣/新竹
 臺灣的口琴學校社團。</description>
-    </item>
-    <item>
-      <title>Timothy Yip 葉進禧</title>
-      <link>https://www.timothyyipharmonica.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/f44e6396801a0c03</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、比賽、半音階、國際交流
-國家：香港
-地區：香港
-香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。</description>
     </item>
     <item>
       <title>Aiden N Evelyn / Aiden Soon &amp; Evelyn Choong</title>
@@ -379,6 +379,17 @@ Tag：演奏者、半音階、國際交流
 國家：香港
 地區：香港
 香港半音階口琴演奏者，活躍於國際音樂節演出交流。</description>
+    </item>
+    <item>
+      <title>吹出好心琴 + Ou Frog</title>
+      <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/a7900260c88a5842</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：品牌、教學器材、教學
+國家：臺灣
+地區：臺灣
+臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
     </item>
     <item>
       <title>張晁滕</title>
@@ -764,17 +775,6 @@ Tag：演奏者、教學
 國家：臺灣
 地區：臺灣/中彰投
 臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。</description>
-    </item>
-    <item>
-      <title>吹出好心琴 + Ou Frog</title>
-      <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/a7900260c88a5842</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：品牌、教學器材、教學
-國家：臺灣
-地區：臺灣
-臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
     </item>
     <item>
       <title>茱蒂口琴樂團 Judy's Harmonica Ensemble</title>
