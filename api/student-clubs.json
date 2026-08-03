@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
   "json": "https://harmonica.observe.tw/api/student-clubs.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/student-clubs.json",
-  "count": 152,
+  "count": 153,
   "items": [
     {
       "title": "黃冠誌｜The SIHF has come to an end, and we’re incredibly grateful for everyone who made it so special. Thank you for every…",
@@ -87,6 +87,79 @@
         "學生社團"
       ],
       "key": "ig_hk91f06:https://www.instagram.com/p/DbkiZgrOGU9/"
+    },
+    {
+      "title": "陽明交大竹韻口琴社｜活動詳情請見【竹韻，再次響起】",
+      "headline": "活動詳情請見【竹韻，再次響起】",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DbkYItixTKM/",
+      "source_id": "ig_nycu_harmonica",
+      "source": "陽明交大竹韻口琴社",
+      "source_system_name": "陽明交大竹韻口琴社",
+      "source_profile_url": "https://www.instagram.com/nycu_harmonica/",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "directory_entry_id": "watchlist-198",
+      "directory_entry_name": "陽明交大竹韻口琴社",
+      "account": "nycu_harmonica",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Mon, 03 Aug 2026 06:48:31 GMT",
+      "posted_at_local": "2026-08-03 14:48",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-03T16:03:53.388640+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/nycu_harmonica",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "學生社團"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.86,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "學生社團"
+      ],
+      "llm_categories": [
+        "student-clubs"
+      ],
+      "llm_reason": "來源為口琴社公開貼文，雖內容簡短但明確指向社團活動更新，屬口琴相關公開更新。",
+      "text": "活動詳情請見【竹韻，再次響起】",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/763561369_18121249978745725_4542222810523147912_n.webp?_nc_cat=111&ig_cache_key=Mzk1NTM5MjUyNDUxMTk0OTQ1Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FFfUCFwjhRsQ7kNvwHPeDQ0&_nc_oc=AdpX7tI8TusxgZRI5ZzBBwWz7c9ztP5yhaR0ySiX8nV36NQ3iRNWQKEdmpmElP8XWS8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=8aQYfqN_Gt-RKnbYXlymOg&_nc_ss=7a22e&oh=00_AQEP1oEll-43lSwf6H0si08Kw30OKgY57YTnOSIHl2a-0Q&oe=6A769598"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/763561369_18121249978745725_4542222810523147912_n.webp?_nc_cat=111&ig_cache_key=Mzk1NTM5MjUyNDUxMTk0OTQ1Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FFfUCFwjhRsQ7kNvwHPeDQ0&_nc_oc=AdpX7tI8TusxgZRI5ZzBBwWz7c9ztP5yhaR0ySiX8nV36NQ3iRNWQKEdmpmElP8XWS8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=8aQYfqN_Gt-RKnbYXlymOg&_nc_ss=7a22e&oh=00_AQEP1oEll-43lSwf6H0si08Kw30OKgY57YTnOSIHl2a-0Q&oe=6A769598",
+      "image_url": "/assets/feed-images/a07dd519a366511f1829.webp",
+      "image_width": 1440,
+      "image_height": 1920,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/701558410_18109037233745725_4881025079895106710_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmV4cGVyaW1lbnRhbCJ9&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gFzFP93UrwcJCq_-plAWKNEXw9bo0sxKCI94dsNkCKZiFRDzwnfHjbdg9td52VRACE&_nc_ohc=N5fgtYsfooEQ7kNvwGO7KXc&_nc_gid=Ho6onyBPGrVIdLw7PFg4SQ&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQFot_b0g0JMogNmvYPZ9tUudgHaAzcFY7QZdNWw1_DsLQ&oe=6A767B54&_nc_sid=ee9879",
+      "avatar_url": "/assets/source-avatars/3a5f6bac814d96ec8d05.webp",
+      "source_initials": "陽明",
+      "categories": [
+        "posts-videos",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "學生社團"
+      ],
+      "key": "ig_nycu_harmonica:https://www.instagram.com/p/DbkYItixTKM/"
     },
     {
       "title": "陽明交大竹韻口琴社｜Instagram story @nycu_harmonica",
