@@ -1,6 +1,6 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-08-03T11:14:15+08:00",
+  "generatedAt": "2026-08-03T12:21:23+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
   "count": 9,
@@ -14,8 +14,8 @@ window.publicCalendarEvents = {
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
-      "cached": 31,
+      "requests": 5,
+      "cached": 30,
       "errors": 0
     }
   },
@@ -97,11 +97,11 @@ window.publicCalendarEvents = {
       "image_url": "/assets/feed-images/e43616bcd9252cb96fba.webp"
     },
     {
-      "id": "5ff5d2e983b9d6f5",
+      "id": "dff49d05f97ce2ba",
       "title": "臺灣口琴音樂節",
       "eventName": "臺灣口琴音樂節",
       "source": "音和樂器PeaceTones",
-      "platform": "facebook",
+      "platform": "instagram",
       "start": "2026-08-07",
       "end": "2026-08-10",
       "allDay": true,
@@ -110,9 +110,9 @@ window.publicCalendarEvents = {
       "location": "新竹市 國立陽明交通大學光復校區_學生活動中心B1",
       "venue": "國立陽明交通大學光復校區_學生活動中心B1",
       "city": "新竹市",
-      "details": "活動日期為 8/7-8/9，地點在國立陽明交通大學光復校區學生活動中心 B1。貼文同時提到樂器展與現場限定優惠，但候選對應的是臺灣口琴音樂節。",
-      "evidenceUrl": "https://www.facebook.com/PeaceTones.harmonica/posts/pfbid02Xs7Gfa4haBVTnFPxmCZPpPXpRb9fe9VLSEKjEh8kABA7wkraE1j2KeTm7baS4qmyl",
-      "confidence": 0.96,
+      "details": "活動日期為 8/7-8/9，地點在國立陽明交通大學光復校區學生活動中心 B1。貼文提到現場可試吹 HOHNER BASS78，並有樂器展購琴現場限定優惠。",
+      "evidenceUrl": "https://www.instagram.com/p/Dba49ZPuGxs/",
+      "confidence": 0.97,
       "calendarReview": {
         "include": true,
         "country": "臺灣",
@@ -122,15 +122,15 @@ window.publicCalendarEvents = {
         "eventName": "臺灣口琴音樂節",
         "venue": "國立陽明交通大學光復校區_學生活動中心B1",
         "city": "新竹市",
-        "details": "活動日期為 8/7-8/9，地點在國立陽明交通大學光復校區學生活動中心 B1。貼文同時提到樂器展與現場限定優惠，但候選對應的是臺灣口琴音樂節。",
-        "reason": "候選日期 2026-08-07 與貼文中的臺灣口琴音樂節 8/7-8/9 相符，且為臺灣實體口琴活動。",
-        "confidence": 0.96
+        "details": "活動日期為 8/7-8/9，地點在國立陽明交通大學光復校區學生活動中心 B1。貼文提到現場可試吹 HOHNER BASS78，並有樂器展購琴現場限定優惠。",
+        "reason": "候選日期 2026-08-07 與貼文中的 8/7-8/9 臺灣口琴音樂節一致，且為臺灣實體口琴活動。",
+        "confidence": 0.97
       },
-      "postedAt": "2026-07-31 12:04",
+      "postedAt": "2026-07-30 22:26",
       "images": [
-        "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/760503252_1538766848263579_4733013090354386980_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1228x1332&ctp=s565x565&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jAgNKfMqBzgQ7kNvwE4p71M&_nc_oc=AdrUQ0gL9LOpwwL6T7NHSZqzoJuLPFFXbZk_sr2Z2Znlm0RvcFSH3yRsPcnTJF2xbcY&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=9q1RxOITv3FsZBEZ_3BkCA&_nc_ss=72289&oh=00_AQE18wiK2SbiQbeokUUeoAv2VUEnWqpkQpohxLNjPNPkyg&oe=6A731F03"
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/758671455_18336129265254571_3184188728490607088_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=Mzk1MjcyMjEzMjU3MTAyNDQ5Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNDAzMi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=oE6Pgr9SAN0Q7kNvwG3TQTQ&_nc_oc=Adpcbdoas0MGTPOheRvz2eXP2_QTwLmt6KoIjI2tEhxuG4vLimdUUl-s3VU9QFvMjHw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=hzxC1hF88RBkCT6Jnye5Wg&_nc_ss=7a22e&oh=00_AQF8wDLFo2mmvozmwNOHPSMMbrxq_eGfunIJirmiXEFO2Q&oe=6A75DE83"
       ],
-      "image_url": "/assets/feed-images/9377c8de9d88a07c3ec0.webp"
+      "image_url": "/assets/feed-images/28fbd878262d481d749d.webp"
     },
     {
       "id": "8436208ae40d8444",
