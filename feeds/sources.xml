@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 03 Aug 2026 12:12:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 12:45:03 +0000</lastBuildDate>
     <item>
       <title>臺灣口琴音樂節 THMF</title>
       <link>https://www.taiwanharmonica.com/</link>
@@ -27,6 +27,17 @@ Tag：演奏者、半音階、國際交流
 國家：香港
 地區：香港
 香港半音階口琴演奏者，擔任國際比賽嘉賓與評審。</description>
+    </item>
+    <item>
+      <title>Lee Oskar</title>
+      <link>https://leeoskar.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/46bea6a12ee3ef49</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：品牌、演奏者、團體樂團、十孔、國際交流
+國家：丹麥
+地區：美國
+丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。</description>
     </item>
     <item>
       <title>蔡明憲</title>
@@ -82,6 +93,17 @@ Tag：團體樂團、半音階、重奏、國際交流
 國家：馬來西亞
 地區：馬來西亞
 馬來西亞的半音階與重奏國際演出團體與二重奏，活動脈絡包含二重奏、影片與THMF。</description>
+    </item>
+    <item>
+      <title>RedBricks Harmonica</title>
+      <link>https://www.facebook.com/redbricksharmonica/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/77378d9ca07a4f96</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏、國際交流
+國家：香港
+地區：香港/國際
+香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
     </item>
     <item>
       <title>Evelyn Choong 鍾雪兒</title>
@@ -205,6 +227,17 @@ Tag：演奏者、半音階、重奏
 臺灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。</description>
     </item>
     <item>
+      <title>Stay Drunk 口琴樂團</title>
+      <link>https://www.instagram.com/staydrunk_h.e/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c1285464d10bfbbe</guid>
+      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏
+國家：臺灣
+地區：臺灣
+臺灣的大學生新生代口琴重奏演出團體。</description>
+    </item>
+    <item>
       <title>Younghoon Cho</title>
       <link>https://linktr.ee/hoontobe</link>
       <guid>https://harmonica.observe.tw/feeds/sources/2a1ec747c34bfb28</guid>
@@ -249,28 +282,6 @@ Tag：團體樂團、國際交流
 印尼的口琴與跨界國際演出團體，活動脈絡包含Reyharp Naufal與Balawan合作、跨界融合與口琴與吉他。</description>
     </item>
     <item>
-      <title>Stay Drunk 口琴樂團</title>
-      <link>https://www.instagram.com/staydrunk_h.e/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c1285464d10bfbbe</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏
-國家：臺灣
-地區：臺灣
-臺灣的大學生新生代口琴重奏演出團體。</description>
-    </item>
-    <item>
-      <title>RedBricks Harmonica</title>
-      <link>https://www.facebook.com/redbricksharmonica/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/77378d9ca07a4f96</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏、國際交流
-國家：香港
-地區：香港/國際
-香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
-    </item>
-    <item>
       <title>Konstantin Reinfeld</title>
       <link>https://www.konstantinreinfeld.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/1f99515f98ffec2b</guid>
@@ -313,17 +324,6 @@ Tag：教學器材、教學、半音階、十孔、國際交流
 國家：阿根廷
 地區：阿根廷/布宜諾斯艾利斯
 阿根廷的十孔、半音階與armónica國際教育來源，關注口琴學校、探戈、民俗、藍調與工作坊。</description>
-    </item>
-    <item>
-      <title>Lee Oskar</title>
-      <link>https://leeoskar.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/46bea6a12ee3ef49</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：品牌、演奏者、團體樂團、十孔、國際交流
-國家：丹麥
-地區：美國
-丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。</description>
     </item>
     <item>
       <title>胖擊口琴樂團</title>
