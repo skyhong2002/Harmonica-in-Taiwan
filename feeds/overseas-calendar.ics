@@ -7,7 +7,7 @@ X-WR-CALNAME:國外口琴實體活動
 X-WR-TIMEZONE:Asia/Taipei
 BEGIN:VEVENT
 UID:ae850f4709bfd8ab@harmonica.observe.tw
-DTSTAMP:20260803T060242Z
+DTSTAMP:20260803T063545Z
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
 SUMMARY:首爾國際口琴節
@@ -21,17 +21,51 @@ URL:https://www.facebook.com/Punch.Harp/posts/pfbid02yjRzymJDbo5K4MECbYHm11
  mX89CHmoeazAVWLN32c9AJFdm8gLNAL7NCErS5maGAl
 END:VEVENT
 BEGIN:VEVENT
+UID:aa75b796c9268142@harmonica.observe.tw
+DTSTAMP:20260803T063545Z
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+SUMMARY:cy_leo｜CY LEO ASIA TOUR 2026
+LOCATION:香港
+DESCRIPTION:主辦／演出者：CY Leo 何卓彥。亞洲巡演場次：20
+ 26-08-30，地點為 香港。貼文未提供更具體的場館或演出
+ 時間。\nhttps://www.instagram.com/p/DbdOLZDjK-H/
+URL:https://www.instagram.com/p/DbdOLZDjK-H/
+END:VEVENT
+BEGIN:VEVENT
 UID:2d1b19b126536402@harmonica.observe.tw
-DTSTAMP:20260803T060242Z
+DTSTAMP:20260803T063545Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
-SUMMARY:CY LEO ASIA TOUR 2026
+SUMMARY:cy_leo｜CY LEO ASIA TOUR 2026
 LOCATION:Singapore
-DESCRIPTION:主辦／演出者：CY Leo 何卓彥。亞洲巡演「Two Worl
- ds In One」由 Cy Leo 何卓彥發起，結合原創口琴與人聲作品
- ，並與各地口琴社群合作演出。候選日期 2026-10-03 對應
- 貼文中的 3/10 Singapore 場次。\nhttps://www.instagram.com/p/DbdOLZD
- jK-H/
+DESCRIPTION:主辦／演出者：CY Leo 何卓彥。亞洲巡演場次：20
+ 26-10-03，地點為 Singapore。貼文未提供更具體的場館或演
+ 出時間。\nhttps://www.instagram.com/p/DbdOLZDjK-H/
+URL:https://www.instagram.com/p/DbdOLZDjK-H/
+END:VEVENT
+BEGIN:VEVENT
+UID:4ecad43e0bebfcf8@harmonica.observe.tw
+DTSTAMP:20260803T063545Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:cy_leo｜CY LEO ASIA TOUR 2026
+LOCATION:Penang
+DESCRIPTION:主辦／演出者：CY Leo 何卓彥。亞洲巡演場次：20
+ 26-10-05，地點為 Penang。貼文未提供更具體的場館或演出
+ 時間。\nhttps://www.instagram.com/p/DbdOLZDjK-H/
+URL:https://www.instagram.com/p/DbdOLZDjK-H/
+END:VEVENT
+BEGIN:VEVENT
+UID:99e4d00a1c7615a6@harmonica.observe.tw
+DTSTAMP:20260803T063545Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:cy_leo｜CY LEO ASIA TOUR 2026
+LOCATION:Seoul
+DESCRIPTION:主辦／演出者：CY Leo 何卓彥。亞洲巡演場次：20
+ 26-10-09，地點為 Seoul。貼文未提供更具體的場館或演出時
+ 間。\nhttps://www.instagram.com/p/DbdOLZDjK-H/
 URL:https://www.instagram.com/p/DbdOLZDjK-H/
 END:VEVENT
 END:VCALENDAR

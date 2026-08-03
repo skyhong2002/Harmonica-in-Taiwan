@@ -65,6 +65,94 @@
   },
   "entries": [
     {
+      "id": "watchlist-67",
+      "publicId": "67",
+      "name": "Marcos Coll",
+      "nameEn": "Marcos Coll",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "西班牙",
+      "region": "西班牙",
+      "cityOrFocus": "十孔/藍調",
+      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
+      "summary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
+      "keywords": "Marcos Coll harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://marcoscoll.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/marcoscollharp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/marcoscollgonzalez/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-03T05:15:58+00:00",
+      "latestUpdateLocal": "2026-08-03 13:15",
+      "latestUpdateSource": "Marcos Coll",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbkLumaqHL0/",
+      "avatarUrl": "/assets/source-avatars/32de8c4fe06247a773f8.webp",
+      "sourceInitials": "MC",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流",
+        "音樂會",
+        "演出"
+      ],
+      "sourceSummary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
+      "sourceTagReason": "category為演奏者，type為個人，focus在十孔/藍調，並有國際演出經歷。",
+      "monitorSources": [
+        {
+          "id": "fb_marcoscollharp",
+          "name": "Marcos Coll",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/marcoscollharp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
+        },
+        {
+          "id": "yt_marcoscollharpandsoul",
+          "name": "Marcos Coll",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-79",
       "publicId": "79",
       "name": "國家兩廳院",
@@ -160,6 +248,61 @@
       ]
     },
     {
+      "id": "watchlist-50",
+      "publicId": "50",
+      "name": "Aiden Soon",
+      "nameEn": "Aiden Soon",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
+      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "Aiden Soon aidensoon World Harmonica Champion Aiden N Evelyn harmonica",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/aidensoon/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-03T04:59:25+00:00",
+      "latestUpdateLocal": "2026-08-03 12:59",
+      "latestUpdateSource": "Aiden Soon",
+      "latestUpdateUrl": "https://www.instagram.com/stories/aidensoon/3955338930346486733/",
+      "avatarUrl": "/assets/source-avatars/4117bef348e3faad6e18.webp",
+      "sourceInitials": "AS",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_aidensoon",
+          "name": "Aiden Soon",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "aidensoon",
+          "profileUrl": "https://www.instagram.com/aidensoon/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_aidensoon",
+          "name": "Aiden Soon",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "aidensoon",
+          "profileUrl": "https://www.instagram.com/aidensoon/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-32",
       "publicId": "32",
       "name": "陳彥銘",
@@ -230,6 +373,77 @@
           "username": "yenmingchen",
           "profileUrl": "https://www.instagram.com/yenmingchen/",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-30",
+      "publicId": "30",
+      "name": "蔡明憲",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
+      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
+      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
+      "keywords": "蔡明憲 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://studio.dming.co/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/dming.tsai/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/damingtsai/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-03T03:29:38+00:00",
+      "latestUpdateLocal": "2026-08-03 11:29",
+      "latestUpdateSource": "蔡明憲",
+      "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3955293745591186719/",
+      "avatarUrl": "/assets/source-avatars/5027d958b2fb59da0aa3.webp",
+      "sourceInitials": "蔡明",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_dming_tsai",
+          "name": "蔡明憲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/dming.tsai",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
         }
       ]
     },
@@ -859,6 +1073,92 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@jensbunge",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-182",
+      "publicId": "182",
+      "name": "布宜諾斯艾利斯口琴學校",
+      "nameEn": "Escuela de Armónica de Buenos Aires",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "學校/教學平台",
+      "country": "阿根廷",
+      "region": "阿根廷/布宜諾斯艾利斯",
+      "cityOrFocus": "口琴學校/探戈/民俗/藍調/工作坊/學生演出",
+      "structuredSummary": "口琴學校/探戈/民俗/藍調/工作坊/學生演出 / 十孔/半音階/armónica / 國際教育來源",
+      "summary": "阿根廷的十孔、半音階與armónica國際教育來源，關注口琴學校、探戈、民俗、藍調與工作坊。",
+      "keywords": "Escuela de Armónica de Buenos Aires harmonica school Argentina tango blues",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://escueladearmonicaba.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/escueladearmonicaba/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/escueladearmonicaba/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCln6Hrzz1NHq8TX5ZSQzgJQ"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-02T21:45:59+00:00",
+      "latestUpdateLocal": "2026-08-03 05:45",
+      "latestUpdateSource": "布宜諾斯艾利斯口琴學校",
+      "latestUpdateUrl": "https://www.instagram.com/stories/escueladearmonicaba/3955121135323009026/",
+      "avatarUrl": "/assets/source-avatars/f21681f5194562a027ae.webp",
+      "sourceInitials": "布宜",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_escueladearmonicaba",
+          "name": "布宜諾斯艾利斯口琴學校",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/escueladearmonicaba",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_escueladearmonicaba",
+          "name": "布宜諾斯艾利斯口琴學校",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "escueladearmonicaba",
+          "profileUrl": "https://www.instagram.com/escueladearmonicaba/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_escueladearmonicaba",
+          "name": "布宜諾斯艾利斯口琴學校",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "escueladearmonicaba",
+          "profileUrl": "https://www.instagram.com/escueladearmonicaba/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/escueladearmonicaba/story/0"
+        },
+        {
+          "id": "yt_ucln6hrzz1nhq8tx5zsqzgjq",
+          "name": "布宜諾斯艾利斯口琴學校",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCln6Hrzz1NHq8TX5ZSQzgJQ",
           "feedUrl": ""
         }
       ]
@@ -2338,77 +2638,6 @@
       ]
     },
     {
-      "id": "watchlist-30",
-      "publicId": "30",
-      "name": "蔡明憲",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
-      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
-      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
-      "keywords": "蔡明憲 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://studio.dming.co/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/dming.tsai/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/damingtsai/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-02T14:30:09+00:00",
-      "latestUpdateLocal": "2026-08-02 22:30",
-      "latestUpdateSource": "蔡明憲",
-      "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3954901420201439850/",
-      "avatarUrl": "/assets/source-avatars/5027d958b2fb59da0aa3.webp",
-      "sourceInitials": "蔡明",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_dming_tsai",
-          "name": "蔡明憲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/dming.tsai",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-103",
       "publicId": "103",
       "name": "陳瑤容 Yora Chen",
@@ -2773,61 +3002,6 @@
       ]
     },
     {
-      "id": "watchlist-50",
-      "publicId": "50",
-      "name": "Aiden Soon",
-      "nameEn": "Aiden Soon",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
-      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
-      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
-      "keywords": "Aiden Soon aidensoon World Harmonica Champion Aiden N Evelyn harmonica",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/aidensoon/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-02T12:01:04+00:00",
-      "latestUpdateLocal": "2026-08-02 20:01",
-      "latestUpdateSource": "Aiden Soon",
-      "latestUpdateUrl": "https://www.instagram.com/stories/aidensoon/3954826383562356152/",
-      "avatarUrl": "/assets/source-avatars/4117bef348e3faad6e18.webp",
-      "sourceInitials": "AS",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_aidensoon",
-          "name": "Aiden Soon",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "aidensoon",
-          "profileUrl": "https://www.instagram.com/aidensoon/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_aidensoon",
-          "name": "Aiden Soon",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "aidensoon",
-          "profileUrl": "https://www.instagram.com/aidensoon/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-88",
       "publicId": "88",
       "name": "藍波口琴教室",
@@ -3167,94 +3341,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/jangliharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-67",
-      "publicId": "67",
-      "name": "Marcos Coll",
-      "nameEn": "Marcos Coll",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "西班牙",
-      "region": "西班牙",
-      "cityOrFocus": "十孔/藍調",
-      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
-      "summary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
-      "keywords": "Marcos Coll harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://marcoscoll.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/marcoscollharp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/marcoscollgonzalez/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-02T08:20:38+00:00",
-      "latestUpdateLocal": "2026-08-02 16:20",
-      "latestUpdateSource": "Marcos Coll",
-      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3954715695208091562/",
-      "avatarUrl": "/assets/source-avatars/32de8c4fe06247a773f8.webp",
-      "sourceInitials": "MC",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "國際交流",
-        "音樂會",
-        "演出"
-      ],
-      "sourceSummary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
-      "sourceTagReason": "category為演奏者，type為個人，focus在十孔/藍調，並有國際演出經歷。",
-      "monitorSources": [
-        {
-          "id": "fb_marcoscollharp",
-          "name": "Marcos Coll",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/marcoscollharp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
-        },
-        {
-          "id": "yt_marcoscollharpandsoul",
-          "name": "Marcos Coll",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
           "feedUrl": ""
         }
       ]
@@ -6413,92 +6499,6 @@
       ]
     },
     {
-      "id": "watchlist-182",
-      "publicId": "182",
-      "name": "布宜諾斯艾利斯口琴學校",
-      "nameEn": "Escuela de Armónica de Buenos Aires",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "學校/教學平台",
-      "country": "阿根廷",
-      "region": "阿根廷/布宜諾斯艾利斯",
-      "cityOrFocus": "口琴學校/探戈/民俗/藍調/工作坊/學生演出",
-      "structuredSummary": "口琴學校/探戈/民俗/藍調/工作坊/學生演出 / 十孔/半音階/armónica / 國際教育來源",
-      "summary": "阿根廷的十孔、半音階與armónica國際教育來源，關注口琴學校、探戈、民俗、藍調與工作坊。",
-      "keywords": "Escuela de Armónica de Buenos Aires harmonica school Argentina tango blues",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://escueladearmonicaba.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/escueladearmonicaba/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/escueladearmonicaba/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCln6Hrzz1NHq8TX5ZSQzgJQ"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-30T23:48:32+00:00",
-      "latestUpdateLocal": "2026-07-31 07:48",
-      "latestUpdateSource": "布宜諾斯艾利斯口琴學校",
-      "latestUpdateUrl": "https://www.instagram.com/stories/escueladearmonicaba/3953008135237604084/",
-      "avatarUrl": "/assets/source-avatars/f21681f5194562a027ae.webp",
-      "sourceInitials": "布宜",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_escueladearmonicaba",
-          "name": "布宜諾斯艾利斯口琴學校",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/escueladearmonicaba",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_escueladearmonicaba",
-          "name": "布宜諾斯艾利斯口琴學校",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "escueladearmonicaba",
-          "profileUrl": "https://www.instagram.com/escueladearmonicaba/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_escueladearmonicaba",
-          "name": "布宜諾斯艾利斯口琴學校",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "escueladearmonicaba",
-          "profileUrl": "https://www.instagram.com/escueladearmonicaba/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/escueladearmonicaba/story/0"
-        },
-        {
-          "id": "yt_ucln6hrzz1nhq8tx5zsqzgjq",
-          "name": "布宜諾斯艾利斯口琴學校",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCln6Hrzz1NHq8TX5ZSQzgJQ",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-158",
       "publicId": "158",
       "name": "Deak Harp",
@@ -6824,6 +6824,85 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@etaborya",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-163",
+      "publicId": "163",
+      "name": "海南會館口琴樂團",
+      "nameEn": "HNHK Harmonica Orchestra",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "新加坡",
+      "region": "新加坡",
+      "cityOrFocus": "會館口琴樂團/社區合奏/演出",
+      "structuredSummary": "會館口琴樂團/社區合奏/演出 / 口琴合奏 / 國際演出團體",
+      "summary": "新加坡的口琴合奏國際演出團體，活動脈絡包含會館口琴樂團、社區合奏與演出。",
+      "keywords": "海南會館口琴樂團 HNHK Harmonica Orchestra Singapore community harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HNHK.Harmonica.Orchestra/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hnhk_harmonica_orchestra/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@hnhkharmonica5296"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-28T09:39:06+00:00",
+      "latestUpdateLocal": "2026-07-28 17:39",
+      "latestUpdateSource": "海南會館口琴樂團",
+      "latestUpdateUrl": "https://www.facebook.com/reel/3038341663034056/",
+      "avatarUrl": "/assets/source-avatars/307c4c323c461125fa3f.webp",
+      "sourceInitials": "海南",
+      "sourceTags": [
+        "團體樂團",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hnhk_harmonica_orchestra",
+          "name": "海南會館口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HNHK.Harmonica.Orchestra",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hnhk_harmonica_orchestra",
+          "name": "海南會館口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hnhk_harmonica_orchestra",
+          "profileUrl": "https://www.instagram.com/hnhk_harmonica_orchestra/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hnhk_harmonica_orchestra",
+          "name": "海南會館口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hnhk_harmonica_orchestra",
+          "profileUrl": "https://www.instagram.com/hnhk_harmonica_orchestra/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hnhk_harmonica_orchestra/story/0"
+        },
+        {
+          "id": "yt_hnhkharmonica5296",
+          "name": "海南會館口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@hnhkharmonica5296",
           "feedUrl": ""
         }
       ]
@@ -8544,6 +8623,68 @@
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/p/%E6%A1%83%E5%9C%92%E7%8E%A9%E5%8F%A3%E7%90%B4-100057424090624",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-157",
+      "publicId": "157",
+      "name": "Steve Baker",
+      "nameEn": "Steve Baker",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "英國",
+      "region": "德國/英國",
+      "cityOrFocus": "WHF 2025/藍調十孔/作曲/教育/HOHNER artist",
+      "structuredSummary": "WHF 2025/藍調十孔/作曲/教育/HOHNER artist / 十孔/藍調口琴 / 國際演出人員/教育者/作曲者",
+      "summary": "英國的十孔與藍調口琴國際演出人員、教育者與作曲者，活動脈絡包含WHF 2025、藍調十孔與作曲。",
+      "keywords": "Steve Baker blues harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.stevebaker.de/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/stevebaker.harmonica"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/stevebakerbluesharp"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-07-15T15:53:21+00:00",
+      "latestUpdateLocal": "2026-07-15 23:53",
+      "latestUpdateSource": "Steve Baker",
+      "latestUpdateUrl": "https://www.facebook.com/stevebaker.harmonica/posts/pfbid0qVD47GSu8kwUR2MBDCskLFf16ywdT62MdDHrg73zvmDMJ7nfn2bLwQyj4U4eB5STl",
+      "avatarUrl": "/assets/source-avatars/0e7897c3604d501f005a.webp",
+      "sourceInitials": "SB",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_stevebaker_harmonica",
+          "name": "Steve Baker",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/stevebaker.harmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_stevebakerbluesharp",
+          "name": "Steve Baker",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/stevebakerbluesharp",
           "feedUrl": ""
         }
       ]
@@ -12468,85 +12609,6 @@
       ]
     },
     {
-      "id": "watchlist-163",
-      "publicId": "163",
-      "name": "海南會館口琴樂團",
-      "nameEn": "HNHK Harmonica Orchestra",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "新加坡",
-      "region": "新加坡",
-      "cityOrFocus": "會館口琴樂團/社區合奏/演出",
-      "structuredSummary": "會館口琴樂團/社區合奏/演出 / 口琴合奏 / 國際演出團體",
-      "summary": "新加坡的口琴合奏國際演出團體，活動脈絡包含會館口琴樂團、社區合奏與演出。",
-      "keywords": "海南會館口琴樂團 HNHK Harmonica Orchestra Singapore community harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HNHK.Harmonica.Orchestra/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hnhk_harmonica_orchestra/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@hnhkharmonica5296"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/307c4c323c461125fa3f.webp",
-      "sourceInitials": "海南",
-      "sourceTags": [
-        "團體樂團",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hnhk_harmonica_orchestra",
-          "name": "海南會館口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HNHK.Harmonica.Orchestra",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hnhk_harmonica_orchestra",
-          "name": "海南會館口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hnhk_harmonica_orchestra",
-          "profileUrl": "https://www.instagram.com/hnhk_harmonica_orchestra/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hnhk_harmonica_orchestra",
-          "name": "海南會館口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hnhk_harmonica_orchestra",
-          "profileUrl": "https://www.instagram.com/hnhk_harmonica_orchestra/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hnhk_harmonica_orchestra/story/0"
-        },
-        {
-          "id": "yt_hnhkharmonica5296",
-          "name": "海南會館口琴樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@hnhkharmonica5296",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-8",
       "publicId": "8",
       "name": "臺中市中華口琴會",
@@ -14391,68 +14453,6 @@
           "username": "long.deng.jie",
           "profileUrl": "https://www.instagram.com/long.deng.jie/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/long.deng.jie/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-157",
-      "publicId": "157",
-      "name": "Steve Baker",
-      "nameEn": "Steve Baker",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "英國",
-      "region": "德國/英國",
-      "cityOrFocus": "WHF 2025/藍調十孔/作曲/教育/HOHNER artist",
-      "structuredSummary": "WHF 2025/藍調十孔/作曲/教育/HOHNER artist / 十孔/藍調口琴 / 國際演出人員/教育者/作曲者",
-      "summary": "英國的十孔與藍調口琴國際演出人員、教育者與作曲者，活動脈絡包含WHF 2025、藍調十孔與作曲。",
-      "keywords": "Steve Baker blues harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.stevebaker.de/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/stevebaker.harmonica"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/stevebakerbluesharp"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/0e7897c3604d501f005a.webp",
-      "sourceInitials": "SB",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_stevebaker_harmonica",
-          "name": "Steve Baker",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/stevebaker.harmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_stevebakerbluesharp",
-          "name": "Steve Baker",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/stevebakerbluesharp",
-          "feedUrl": ""
         }
       ]
     },
