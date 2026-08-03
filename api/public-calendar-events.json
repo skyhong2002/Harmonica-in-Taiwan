@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-03T14:35:44+08:00",
+  "generatedAt": "2026-08-03T14:43:43+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
   "count": 10,
@@ -296,7 +296,7 @@
       "location": "新竹市 陽明交大活動中心四樓交誼廳",
       "venue": "陽明交大活動中心四樓交誼廳",
       "city": "新竹市",
-      "details": "為慶祝陽明交大竹韻口琴社重新復社舉辦的復社茶會，活動包含開場、回顧、音樂表演、簡報介紹與大合照。時間為 115/8/9（日）13:30–15:00。",
+      "details": "主辦／演出者：陽明交大竹韻口琴社。為慶祝陽明交大竹韻口琴社重新復社舉辦的復社茶會，活動包含開場、回顧、音樂表演、簡報介紹與大合照。時間為 115/8/9（日）13:30–15:00。",
       "evidenceUrl": "https://www.instagram.com/p/DbLX1c9lGv9/",
       "confidence": 0.97,
       "calendarReview": {
@@ -308,7 +308,7 @@
         "eventName": "竹韻，再次響起",
         "venue": "陽明交大活動中心四樓交誼廳",
         "city": "新竹市",
-        "details": "為慶祝陽明交大竹韻口琴社重新復社舉辦的復社茶會，活動包含開場、回顧、音樂表演、簡報介紹與大合照。時間為 115/8/9（日）13:30–15:00。",
+        "details": "主辦／演出者：陽明交大竹韻口琴社。為慶祝陽明交大竹韻口琴社重新復社舉辦的復社茶會，活動包含開場、回顧、音樂表演、簡報介紹與大合照。時間為 115/8/9（日）13:30–15:00。",
         "reason": "貼文明確寫出活動時間為 115.8.9（日），對應候選日期 2026-08-09；地點在陽明交大活動中心，屬臺灣實體口琴活動。",
         "confidence": 0.97
       },
@@ -321,8 +321,8 @@
     },
     {
       "id": "d9ba531c3f824ba0",
-      "title": "cy_leo｜CY LEO ASIA TOUR 2026",
-      "eventName": "cy_leo｜CY LEO ASIA TOUR 2026",
+      "title": "CY Leo 何卓彥｜Two Worlds In One 亞洲巡演",
+      "eventName": "CY Leo 何卓彥｜Two Worlds In One 亞洲巡演",
       "source": "cy_leo",
       "platform": "instagram",
       "start": "2026-09-23",
@@ -342,7 +342,7 @@
         "eventMode": "taiwan_physical",
         "timezone": "Asia/Taipei",
         "candidateDateMatches": true,
-        "eventName": "cy_leo｜CY LEO ASIA TOUR 2026",
+        "eventName": "CY Leo 何卓彥｜Two Worlds In One 亞洲巡演",
         "venue": "臺北",
         "city": "臺北",
         "details": "主辦／演出者：CY Leo 何卓彥。亞洲巡演場次：2026-09-23，地點為 臺北。貼文未提供更具體的場館或演出時間。",
@@ -391,6 +391,5 @@
       ],
       "image_url": "/assets/feed-images/ae1f7c984c46d25d48ff.webp"
     }
-  ],
-  "submittedEvents": 0
+  ]
 }

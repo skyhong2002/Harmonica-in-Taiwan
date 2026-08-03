@@ -1,58 +1,13 @@
 {
   "calendarId": "",
-  "calendars": [
-    {
-      "calendarId": "4c80e43dc069b1ded7c42183a377c20cb2f675e71e8a627b57b883de83d3a219@group.calendar.google.com",
-      "calendarKey": "taiwan",
-      "calendarName": "臺灣口琴實體活動",
-      "created": 0,
-      "deleted": 0,
-      "duplicatesDeleted": 0,
-      "eventMode": "taiwan_physical",
-      "eventsPath": "site/api/public-calendar-events.json",
-      "kept": 10,
-      "metadataUpdated": true,
-      "status": "ok",
-      "updated": 10
-    },
-    {
-      "calendarId": "cbdc66a25ae90faf41317ce9d82f702d16ced35a2859e6a25a43ce4227e3f86a@group.calendar.google.com",
-      "calendarKey": "overseas",
-      "calendarName": "國外口琴實體活動",
-      "created": 0,
-      "deleted": 0,
-      "duplicatesDeleted": 0,
-      "eventMode": "overseas_physical",
-      "eventsPath": "site/api/overseas-calendar-events.json",
-      "kept": 5,
-      "metadataUpdated": true,
-      "status": "ok",
-      "updated": 5
-    },
-    {
-      "calendarId": "04afd340280f48bd593a1a7949a0a3a3e288dcf970278ca21f2ad3e32fafdc7e@group.calendar.google.com",
-      "calendarKey": "online",
-      "calendarName": "線上口琴活動",
-      "created": 0,
-      "deleted": 0,
-      "duplicatesDeleted": 0,
-      "eventMode": "online",
-      "eventsPath": "site/api/online-calendar-events.json",
-      "kept": 0,
-      "metadataUpdated": true,
-      "status": "ok",
-      "updated": 0
-    }
-  ],
-  "client": "google-api-python-client",
   "created": 0,
   "deleted": 0,
   "duplicatesDeleted": 0,
-  "generatedAt": "2026-08-03T06:35:45.341154+00:00",
-  "kept": 15,
+  "generatedAt": "2026-08-03T06:43:43.481466+00:00",
+  "kept": 0,
   "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/google-calendar-sync.lock",
-  "message": "Google Calendar sync completed for 3/3 calendars.",
-  "status": "ok",
-  "updated": 15,
+  "message": "Another calendar sync already holds /Users/skyhong/Documents/Harmonica-in-Taiwan/state/google-calendar-sync.lock; skipping this run.",
+  "status": "skipped",
+  "updated": 0,
   "version": 3
 }

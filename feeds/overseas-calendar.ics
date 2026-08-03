@@ -7,25 +7,25 @@ X-WR-CALNAME:國外口琴實體活動
 X-WR-TIMEZONE:Asia/Taipei
 BEGIN:VEVENT
 UID:ae850f4709bfd8ab@harmonica.observe.tw
-DTSTAMP:20260803T063545Z
+DTSTAMP:20260803T064343Z
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
 SUMMARY:首爾國際口琴節
 LOCATION:首爾 Yeongdeungpo Art Hall
-DESCRIPTION:胖擊口琴樂團將於 2026.08.02 登上首爾國際口琴節
- 舞台，地點為 Yeongdeungpo Art Hall。貼文提到這是國際交流
- 演出，並未提供票價或報名資訊。\nhttps://www.facebook.com/Pu
- nch.Harp/posts/pfbid02yjRzymJDbo5K4MECbYHm11mX89CHmoeazAVWLN32c9AJFdm8gLNA
- L7NCErS5maGAl
+DESCRIPTION:主辦／演出者：胖擊口琴樂團。胖擊口琴樂團將
+ 於 2026.08.02 登上首爾國際口琴節舞台，地點為 Yeongdeungpo 
+ Art Hall。貼文提到這是國際交流演出，並未提供票價或報
+ 名資訊。\nhttps://www.facebook.com/Punch.Harp/posts/pfbid02yjRzymJDbo5
+ K4MECbYHm11mX89CHmoeazAVWLN32c9AJFdm8gLNAL7NCErS5maGAl
 URL:https://www.facebook.com/Punch.Harp/posts/pfbid02yjRzymJDbo5K4MECbYHm11
  mX89CHmoeazAVWLN32c9AJFdm8gLNAL7NCErS5maGAl
 END:VEVENT
 BEGIN:VEVENT
 UID:aa75b796c9268142@harmonica.observe.tw
-DTSTAMP:20260803T063545Z
+DTSTAMP:20260803T064343Z
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
-SUMMARY:cy_leo｜CY LEO ASIA TOUR 2026
+SUMMARY:CY Leo 何卓彥｜Two Worlds In One 亞洲巡演
 LOCATION:香港
 DESCRIPTION:主辦／演出者：CY Leo 何卓彥。亞洲巡演場次：20
  26-08-30，地點為 香港。貼文未提供更具體的場館或演出
@@ -34,10 +34,10 @@ URL:https://www.instagram.com/p/DbdOLZDjK-H/
 END:VEVENT
 BEGIN:VEVENT
 UID:2d1b19b126536402@harmonica.observe.tw
-DTSTAMP:20260803T063545Z
+DTSTAMP:20260803T064343Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
-SUMMARY:cy_leo｜CY LEO ASIA TOUR 2026
+SUMMARY:CY Leo 何卓彥｜Two Worlds In One 亞洲巡演
 LOCATION:Singapore
 DESCRIPTION:主辦／演出者：CY Leo 何卓彥。亞洲巡演場次：20
  26-10-03，地點為 Singapore。貼文未提供更具體的場館或演
@@ -46,10 +46,10 @@ URL:https://www.instagram.com/p/DbdOLZDjK-H/
 END:VEVENT
 BEGIN:VEVENT
 UID:4ecad43e0bebfcf8@harmonica.observe.tw
-DTSTAMP:20260803T063545Z
+DTSTAMP:20260803T064343Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
-SUMMARY:cy_leo｜CY LEO ASIA TOUR 2026
+SUMMARY:CY Leo 何卓彥｜Two Worlds In One 亞洲巡演
 LOCATION:Penang
 DESCRIPTION:主辦／演出者：CY Leo 何卓彥。亞洲巡演場次：20
  26-10-05，地點為 Penang。貼文未提供更具體的場館或演出
@@ -58,10 +58,10 @@ URL:https://www.instagram.com/p/DbdOLZDjK-H/
 END:VEVENT
 BEGIN:VEVENT
 UID:99e4d00a1c7615a6@harmonica.observe.tw
-DTSTAMP:20260803T063545Z
+DTSTAMP:20260803T064343Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
-SUMMARY:cy_leo｜CY LEO ASIA TOUR 2026
+SUMMARY:CY Leo 何卓彥｜Two Worlds In One 亞洲巡演
 LOCATION:Seoul
 DESCRIPTION:主辦／演出者：CY Leo 何卓彥。亞洲巡演場次：20
  26-10-09，地點為 Seoul。貼文未提供更具體的場館或演出時
