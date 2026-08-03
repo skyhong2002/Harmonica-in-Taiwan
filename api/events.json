@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 488,
+  "count": 489,
   "items": [
     {
       "title": "TARO SENGA｜Happy time in 2026 SHIF. Thanks to Tombo (@tombo_official )Harmonica and Mano san(@tetsuo_mano ) And thank y…",
@@ -2527,6 +2527,88 @@
         "補助比賽"
       ],
       "key": "ig_story_moridaira_mi:3953129222231220921_51153364218"
+    },
+    {
+      "title": "Wesley Harmonica｜2026 亞太口琴節（中國江陰） 公開組 小合奏 🥈亞軍🥈 香港青年口琴樂團 Asia Pacific Harmonica Festival 2026 (Jiangyin, China) 🥈First-r…",
+      "headline": "2026 亞太口琴節（中國江陰）",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/reel/1916831842292345/",
+      "source_id": "fb_wesleyharmonica",
+      "source": "Wesley Harmonica",
+      "source_system_name": "Wesley Harmonica",
+      "source_profile_url": "https://facebook.com/wesleyharmonica",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-226",
+      "directory_entry_name": "Wesley Harmonica",
+      "account": "wesleyharmonica",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-07-31T02:07:07.000Z",
+      "posted_at_local": "2026-07-31 10:07",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-03T08:47:31.458463+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "比賽",
+        "演出",
+        "影片"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "比賽",
+        "演出",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴節公開組小合奏得獎與演出影片，屬口琴公開更新且與比賽相關。",
+      "text": "2026 亞太口琴節（中國江陰）\n公開組 小合奏 🥈亞軍🥈\n香港青年口琴樂團\nAsia Pacific Harmonica Festival 2026 (Jiangyin, China)\n🥈First-runner-up🥈 Ensemble (Open Class)\nHong Kong Youth Harmonica Choir\n===============\nMoody: Toledo (Arr. Wesley Wong)\nFor 4-part chromatic harmonicas\nhttps://www.facebook.com/reel/1916831842292345/",
+      "images": [
+        "https://scontent-mia3-3.xx.fbcdn.net/v/t15.5256-10/761363919_3134878600036049_292073672983060904_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=qOjHY-oVTPcQ7kNvwE_3zEZ&_nc_oc=AdpshWPvaN6GMvA0RsAV3NtEg5TokCh57kSCrimMARNWhn3AitN9J0LGnWhd67_K0SE&_nc_zt=23&_nc_ht=scontent-mia3-3.xx&_nc_gid=xseo-3_m5LAdDfxCL8HhMw&_nc_ss=72289&oh=00_AQHN2LiY5o_UxA2runuuJ7vVLCaCra7hyJwZvCTVEJmHpA&oe=6A7610A8"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-mia3-3.xx.fbcdn.net/v/t15.5256-10/761363919_3134878600036049_292073672983060904_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1080&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=qOjHY-oVTPcQ7kNvwE_3zEZ&_nc_oc=AdpshWPvaN6GMvA0RsAV3NtEg5TokCh57kSCrimMARNWhn3AitN9J0LGnWhd67_K0SE&_nc_zt=23&_nc_ht=scontent-mia3-3.xx&_nc_gid=xseo-3_m5LAdDfxCL8HhMw&_nc_ss=72289&oh=00_AQHN2LiY5o_UxA2runuuJ7vVLCaCra7hyJwZvCTVEJmHpA&oe=6A7610A8",
+      "image_url": "/assets/feed-images/c6cce24ae4cf645a9a11.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://scontent-mia3-1.xx.fbcdn.net/v/t39.30808-1/293063236_435676308570219_2298903649222372590_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx1365x1365&ctp=s50x50&_nc_cat=106&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=mw3BBvKK0SIQ7kNvwHxcOa8&_nc_oc=AdrryJ30FLhBJKOWEnwH1jjhi2fNoOegZuNuShxnchJkZ2c5JoXva0meqM117yT5vJk&_nc_zt=24&_nc_ht=scontent-mia3-1.xx&_nc_gid=xseo-3_m5LAdDfxCL8HhMw&_nc_ss=72289&oh=00_AQEPXfj2X4Yi3OM6M1SSwoglA3gfnuOisoH2O3j7EfjHkQ&oe=6A761603",
+      "avatar_url": "/assets/source-avatars/05e55478cfac6ed0c70e.webp",
+      "source_initials": "WH",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽"
+      ],
+      "key": "fb_wesleyharmonica:1555993463205159"
     },
     {
       "title": "香港學校音樂節｜Instagram story @hksmsa_official",

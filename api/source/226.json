@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T08:25:27.164612Z",
+  "generatedAt": "2026-08-03T08:47:54.425556Z",
   "source": {
     "id": 226,
     "slug": "wesley-harmonica",
     "name": "Wesley Harmonica",
     "pageUrl": "https://harmonica.observe.tw/source/226-wesley-harmonica/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-01c0ef7e0cfb8364403677df",
+      "title": "2026 亞太口琴節（中國江陰）",
+      "excerpt": "2026 亞太口琴節（中國江陰） 公開組 小合奏 🥈亞軍🥈 香港青年口琴樂團 Asia Pacific Harmonica Festival 2026 (Jiangyin, China) 🥈First-runner-up🥈 Ensemble (Open Class) Hong Kong Youth Harmonica Choir =============== Moody: Toledo (Arr. Wesley Wong) For 4-part chromatic harmonicas",
+      "url": "https://www.facebook.com/reel/1916831842292345/",
+      "sourceName": "Wesley Harmonica",
+      "platform": "Facebook",
+      "publishedAt": "2026-07-31T02:07:07Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c6cce24ae4cf645a9a11.webp",
+        "width": 800,
+        "height": 450
+      }
+    }
+  ]
 }
