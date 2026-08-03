@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T23:53:54.339242Z",
+  "generatedAt": "2026-08-03T01:00:08.332935Z",
   "source": {
     "id": 132,
     "slug": "antonio-serrano",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/132-antonio-serrano/"
   },
   "items": [
+    {
+      "id": "post-2e912c3523601ca175eeb893",
+      "title": "📌 Antonio Serrano, Josemi Carmona y Javier Colina estarán en concierto en el Castillo de Pedraza, Segovia, en el marco …",
+      "excerpt": "📌 Antonio Serrano, Josemi Carmona y Javier Colina estarán en concierto en el Castillo de Pedraza, Segovia, en el marco del festival @caprichosmusi... 📌 Antonio Serrano, Josemi Carmona y Javier Colina estarán en concierto en el Castillo de Pedraza, Segovia, en el marco del festiv…",
+      "url": "https://www.instagram.com/p/DbVD150gNcF/",
+      "sourceName": "Antonio Serrano",
+      "platform": "Instagram",
+      "publishedAt": "2026-07-28T08:02:09Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6fdbd47030ec900140be.webp",
+        "width": 800,
+        "height": 1067
+      }
+    },
     {
       "id": "post-d024e26ad445c8128be37caa",
       "title": "Aquí os presento mi nuevo estudio para armónica cromática: Estudio Nr. 4 “Placid Lake Etude”. Espero que os guste. Os l…",
@@ -20,6 +34,34 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/9ea132f5a2d94919ac83.webp",
         "width": 480,
         "height": 854
+      }
+    },
+    {
+      "id": "post-4ea6351e94ad4096c9a5c4fa",
+      "title": "SOLD OUT",
+      "excerpt": "SOLD OUT Entradas agotadas para Paz en el Fijazz de Alicante. Gracias por la confianza y por la acogida. Hace ilusión saber que nos encontraremos con el auditorio lleno. Con muchas ganas de compartir esta música con vosotros en el ADDA. Nos vemos muy pronto. @adda_auditorio @kam…",
+      "url": "https://www.instagram.com/p/DaxYy4SAl2O/",
+      "sourceName": "Antonio Serrano",
+      "platform": "Instagram",
+      "publishedAt": "2026-07-14T11:30:27Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b0f58def689761c74250.webp",
+        "width": 800,
+        "height": 1048
+      }
+    },
+    {
+      "id": "post-bfcdf55c9ec12ce004f87f2e",
+      "title": "#REPOST @jazz_sanjavier - ANTONIO SERRANO & KAELE JIMÉNEZ",
+      "excerpt": "#REPOST @jazz_sanjavier - ANTONIO SERRANO & KAELE JIMÉNEZ @antonioserranoarmonica @kaelejimenez 📸 @pedrosaezphotography #28sanjavierjazz",
+      "url": "https://www.instagram.com/p/Dau95DgAIR8/",
+      "sourceName": "Antonio Serrano",
+      "platform": "Instagram",
+      "publishedAt": "2026-07-13T12:56:51Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/32138a0eb4859f28a9f6.webp",
+        "width": 800,
+        "height": 533
       }
     },
     {
@@ -48,6 +90,20 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/52036430a40e07eb38fb.webp",
         "width": 800,
         "height": 1420
+      }
+    },
+    {
+      "id": "post-192a7e9ee0f5a5b429ef94ba",
+      "title": "@festival_asisa_villaviciosa - El festival se llena de ritmo y libertad creativa con @antonioserranoarmonica & @kaeleji…",
+      "excerpt": "@festival_asisa_villaviciosa - El festival se llena de ritmo y libertad creativa con @antonioserranoarmonica & @kaelejimenez 🎷🔥 “Jazz Caló” reinterpreta la tradición flamenca desde la libertad creativa del jazz en un entorno incomparable como el Jardín Histórico 🌙 📆 Hoy, 9 de ju…",
+      "url": "https://www.instagram.com/p/Dak0QnTA70K/",
+      "sourceName": "Antonio Serrano",
+      "platform": "Instagram",
+      "publishedAt": "2026-07-09T14:21:27Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/28c4413d16da03bcb5ef.webp",
+        "width": 800,
+        "height": 1001
       }
     }
   ]

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-02T23:53:54.339242Z",
+  "generatedAt": "2026-08-03T01:00:08.332935Z",
   "source": {
     "id": 171,
     "slug": "society-for-the-preservation-and-advancement-of-the-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/171-society-for-the-preservation-and-advancement-of-the-harmonica/"
   },
   "items": [
+    {
+      "id": "post-98b125ede7e29e3743b78c90",
+      "title": "Dennis says 10 days!",
+      "excerpt": "Dennis says 10 days! #spah #harmonicalife #harmonica #joinus",
+      "url": "https://www.instagram.com/p/Dbiut84q1zc/",
+      "sourceName": "口琴保存與推廣協會 SPAH",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-02T15:25:30Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1d2573dd45942aaf3000.webp",
+        "width": 800,
+        "height": 534
+      }
+    },
     {
       "id": "post-573645d1c93f0d19695e1297",
       "title": "11 days till we come together!",
