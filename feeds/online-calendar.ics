@@ -5,4 +5,16 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:線上口琴活動
 X-WR-TIMEZONE:Asia/Taipei
+BEGIN:VEVENT
+UID:c6e46eaa80bfde1d@harmonica.observe.tw
+DTSTAMP:20260803T081800Z
+DTSTART;TZID=Asia/Tokyo:20260802T220000
+DTEND;TZID=Asia/Tokyo:20260802T230000
+SUMMARY:南里沙のココだけの話｜伝えたい日本の名曲特集
+LOCATION:YouTube Live
+DESCRIPTION:主辦／演出者：南里沙；YouTube 生配信，後半特
+ 集為「傳達的日本名曲特集」。\nhttps://x.com/minami_risa/stat
+ us/2083887757550920101
+URL:https://x.com/minami_risa/status/2083887757550920101
+END:VEVENT
 END:VCALENDAR
