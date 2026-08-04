@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T23:49:37.458737Z",
+  "generatedAt": "2026-08-04T00:55:23.522826Z",
   "source": {
     "id": 127,
     "slug": "reyharp-and-balawan-project",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/127-reyharp-and-balawan-project/"
   },
   "items": [
+    {
+      "id": "post-57676ea6fd0566571b7914f3",
+      "title": "Aldi Taher feat. Reyharp - Masterplan (Tribute to Oasis)",
+      "excerpt": "Aldi Taher feat. Reyharp - Masterplan (Tribute to Oasis)",
+      "url": "https://www.youtube.com/watch?v=cLELkahuHOY",
+      "sourceName": "Reyharp and Balawan Project",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-03T07:41:15Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ebd033981e5e567ce90c.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-93516c41c41d1c959e7e63c1",
       "title": "Breath the Music....",

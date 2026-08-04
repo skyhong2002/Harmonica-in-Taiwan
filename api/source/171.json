@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-03T23:49:37.458737Z",
+  "generatedAt": "2026-08-04T00:55:23.522826Z",
   "source": {
     "id": 171,
     "slug": "society-for-the-preservation-and-advancement-of-the-harmonica",
@@ -8,6 +8,34 @@
     "pageUrl": "https://harmonica.observe.tw/source/171-society-for-the-preservation-and-advancement-of-the-harmonica/"
   },
   "items": [
+    {
+      "id": "post-9184b47b82e20cf4e8fa28dd",
+      "title": "9 days till we see some friends!",
+      "excerpt": "9 days till we see some friends! #spah #harmonica #joinus #harmonicalife",
+      "url": "https://www.instagram.com/p/DblTvp1qUp7/",
+      "sourceName": "口琴保存與推廣協會 SPAH",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-03T20:38:45Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/915850924a49c63ced00.webp",
+        "width": 800,
+        "height": 800
+      }
+    },
+    {
+      "id": "post-c85c1cb5eb255e6c90d48495",
+      "title": "Blowoff next Tuesday night with a great lineup! Be there!",
+      "excerpt": "Blowoff next Tuesday night with a great lineup! Be there! #joinus #spah #harmonica #harmonicalife",
+      "url": "https://www.instagram.com/p/Dbl0Ep-qIdt/",
+      "sourceName": "口琴保存與推廣協會 SPAH",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-03T20:10:03Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3bdb3ca848fa34ed46bb.webp",
+        "width": 800,
+        "height": 933
+      }
+    },
     {
       "id": "post-98b125ede7e29e3743b78c90",
       "title": "Dennis says 10 days!",
