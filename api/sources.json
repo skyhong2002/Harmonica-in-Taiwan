@@ -65,6 +65,299 @@
   },
   "entries": [
     {
+      "id": "watchlist-2",
+      "publicId": "2",
+      "name": "臺灣口琴音樂節 THMF",
+      "nameEn": "Taiwan Harmonica Music Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "音樂節/比賽/Gala/講座/午間音樂會/新興團體/2026 臺灣口琴音樂節",
+      "structuredSummary": "音樂節/比賽/Gala/講座/午間音樂會/新興團體/2026 臺灣口琴音樂節 / 半音階/複音/十孔/重奏 / 核心活動/活動資訊來源",
+      "summary": "臺灣的核心活動與活動資訊來源，涵蓋音樂節、比賽、Gala、講座與午間音樂會。",
+      "keywords": "THMF 臺灣口琴音樂節 Taiwan Harmonica Music Festival 午間音樂會 新團體",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/twharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/taiwanharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@thmc6470"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-04T02:18:58+00:00",
+      "latestUpdateLocal": "2026-08-04 10:18",
+      "latestUpdateSource": "臺灣口琴音樂節 THMF",
+      "latestUpdateUrl": "https://www.instagram.com/stories/taiwanharmonica/3955983101042327161/",
+      "avatarUrl": "/assets/source-avatars/bfc666c0dc3ef1faa877.webp",
+      "sourceInitials": "T",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "音樂節",
+        "比賽",
+        "半音階",
+        "複音",
+        "十孔",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_twharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/twharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/taiwanharmonica/story/0"
+        },
+        {
+          "id": "ig_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_thmc6470",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@thmc6470",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-218",
+      "publicId": "218",
+      "name": "Evelyn Choong 鍾雪兒",
+      "nameEn": "Evelyn Choong",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
+      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "Evelyn Choong 鍾雪兒 evelyn_harmonica World Harmonica Champion Aiden N Evelyn harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/evelyn.choong.3/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/evelyn_harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-04T02:04:11+00:00",
+      "latestUpdateLocal": "2026-08-04 10:04",
+      "latestUpdateSource": "Evelyn Choong 鍾雪兒",
+      "latestUpdateUrl": "https://www.instagram.com/stories/evelyn_harmonica/3955975526884182516/",
+      "avatarUrl": "/assets/source-avatars/d8ea1bf3823bad5eff81.webp",
+      "sourceInitials": "EC",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_evelyn_choong_3",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/evelyn.choong.3",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_evelyn_harmonica",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "evelyn_harmonica",
+          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_evelyn_harmonica",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "evelyn_harmonica",
+          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/evelyn_harmonica/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-195",
+      "publicId": "195",
+      "name": "彰女微光口琴社",
+      "nameEn": "CHGSH Harmonica",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/彰化",
+      "cityOrFocus": "彰化女中/學校社團/彰化",
+      "structuredSummary": "彰化女中/學校社團/彰化 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "彰女微光口琴社 CHGSH Harmonica 口琴社",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chgsh_harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-04T01:02:24+00:00",
+      "latestUpdateLocal": "2026-08-04 09:02",
+      "latestUpdateSource": "彰女微光口琴社",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbmVnfWkptu/",
+      "avatarUrl": "/assets/source-avatars/5f8970c22acc29a1e57c.webp",
+      "sourceInitials": "彰女",
+      "sourceTags": [
+        "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_chgsh_harmonica",
+          "name": "CHGSH Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chgsh_harmonica",
+          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chgsh_harmonica",
+          "name": "彰女微光口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chgsh_harmonica",
+          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chgsh_harmonica/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-133",
+      "publicId": "133",
+      "name": "Indiara Sfair",
+      "nameEn": "Indiara Sfair",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "巴西",
+      "region": "巴西",
+      "cityOrFocus": "Curitiba出身/藍調口琴/Milk'n'Blues/作曲",
+      "structuredSummary": "Curitiba出身/藍調口琴/Milk'n'Blues/作曲 / 十孔 / 國際演出人員/作曲者",
+      "summary": "巴西的十孔國際演出人員與作曲者，活動脈絡包含Curitiba出身、藍調口琴與Milk'n'Blues。",
+      "keywords": "Indiara Sfair harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hohner.de/en/indiara-sfair"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/IndiaraSfair/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/indiarasfair/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@indiarasfair"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-03T22:06:13+00:00",
+      "latestUpdateLocal": "2026-08-04 06:06",
+      "latestUpdateSource": "Indiara Sfair",
+      "latestUpdateUrl": "https://www.instagram.com/stories/indiarasfair/3955855794923208216/",
+      "avatarUrl": "/assets/source-avatars/f14d538ca230bb5b0838.webp",
+      "sourceInitials": "IS",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_indiarasfair",
+          "name": "Indiara Sfair",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/IndiaraSfair",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_indiarasfair",
+          "name": "Indiara Sfair",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "indiarasfair",
+          "profileUrl": "https://www.instagram.com/indiarasfair/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_indiarasfair",
+          "name": "Indiara Sfair",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "indiarasfair",
+          "profileUrl": "https://www.instagram.com/indiarasfair/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/indiarasfair/story/0"
+        },
+        {
+          "id": "yt_indiarasfair",
+          "name": "Indiara Sfair",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@indiarasfair",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-171",
       "publicId": "171",
       "name": "口琴保存與推廣協會 SPAH",
@@ -537,6 +830,92 @@
           "username": "harmonica_wang",
           "profileUrl": "https://www.threads.net/@harmonica_wang",
           "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-31",
+      "publicId": "31",
+      "name": "張晁滕",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/Laelaps/教學/演出",
+      "structuredSummary": "天狼星/Laelaps/教學/演出 / 重奏/教學 / 演出人員/教學者",
+      "summary": "口琴演奏者，兼職教學與重奏活動。",
+      "keywords": "張晁滕 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://chaotengchang.blogspot.com/2014/06/blog-post.html"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chaotengchang/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chaotengchang/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@ChaotengChang"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-03T15:21:40+00:00",
+      "latestUpdateLocal": "2026-08-03 23:21",
+      "latestUpdateSource": "張晁滕",
+      "latestUpdateUrl": "https://www.instagram.com/stories/chaotengchang/3955652121487495516/",
+      "avatarUrl": "/assets/source-avatars/56e9f611310355f9cee6.webp",
+      "sourceInitials": "張晁",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "重奏"
+      ],
+      "sourceSummary": "口琴演奏者，兼職教學與重奏活動。",
+      "sourceTagReason": "名稱為個人，類別標註為演奏者，摘要提及教學與演出，關鍵字包含口琴，符合演奏者與教學來源定位。",
+      "monitorSources": [
+        {
+          "id": "fb_chaotengchang",
+          "name": "張晁滕",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chaotengchang",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_chaotengchang",
+          "name": "張晁滕",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chaotengchang",
+          "profileUrl": "https://www.instagram.com/chaotengchang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chaotengchang",
+          "name": "張晁滕",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chaotengchang",
+          "profileUrl": "https://www.instagram.com/chaotengchang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chaotengchang/story/0"
+        },
+        {
+          "id": "yt_chaotengchang",
+          "name": "張晁滕",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@ChaotengChang",
+          "feedUrl": ""
         }
       ]
     },
@@ -1322,58 +1701,6 @@
       ]
     },
     {
-      "id": "watchlist-195",
-      "publicId": "195",
-      "name": "彰女微光口琴社",
-      "nameEn": "CHGSH Harmonica",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/彰化",
-      "cityOrFocus": "彰化女中/學校社團/彰化",
-      "structuredSummary": "彰化女中/學校社團/彰化 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "彰女微光口琴社 CHGSH Harmonica 口琴社",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/chgsh_harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-03T13:31:56+00:00",
-      "latestUpdateLocal": "2026-08-03 21:31",
-      "latestUpdateSource": "彰女微光口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/stories/chgsh_harmonica/3955596896301695648/",
-      "avatarUrl": "/assets/source-avatars/658bfd9cb63281146571.webp",
-      "sourceInitials": "彰女",
-      "sourceTags": [
-        "學生社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_chgsh_harmonica",
-          "name": "CHGSH Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "chgsh_harmonica",
-          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_chgsh_harmonica",
-          "name": "彰女微光口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "chgsh_harmonica",
-          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chgsh_harmonica/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-132",
       "publicId": "132",
       "name": "Antonio Serrano",
@@ -2113,90 +2440,6 @@
       ]
     },
     {
-      "id": "watchlist-133",
-      "publicId": "133",
-      "name": "Indiara Sfair",
-      "nameEn": "Indiara Sfair",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "巴西",
-      "region": "巴西",
-      "cityOrFocus": "Curitiba出身/藍調口琴/Milk'n'Blues/作曲",
-      "structuredSummary": "Curitiba出身/藍調口琴/Milk'n'Blues/作曲 / 十孔 / 國際演出人員/作曲者",
-      "summary": "巴西的十孔國際演出人員與作曲者，活動脈絡包含Curitiba出身、藍調口琴與Milk'n'Blues。",
-      "keywords": "Indiara Sfair harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hohner.de/en/indiara-sfair"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/IndiaraSfair/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/indiarasfair/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@indiarasfair"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-03T12:00:10+00:00",
-      "latestUpdateLocal": "2026-08-03 20:00",
-      "latestUpdateSource": "Indiara Sfair",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dbk8GGzxmpT/",
-      "avatarUrl": "/assets/source-avatars/f14d538ca230bb5b0838.webp",
-      "sourceInitials": "IS",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_indiarasfair",
-          "name": "Indiara Sfair",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/IndiaraSfair",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_indiarasfair",
-          "name": "Indiara Sfair",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "indiarasfair",
-          "profileUrl": "https://www.instagram.com/indiarasfair/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_indiarasfair",
-          "name": "Indiara Sfair",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "indiarasfair",
-          "profileUrl": "https://www.instagram.com/indiarasfair/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/indiarasfair/story/0"
-        },
-        {
-          "id": "yt_indiarasfair",
-          "name": "Indiara Sfair",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@indiarasfair",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-65",
       "publicId": "65",
       "name": "Jong-seong Park 朴鍾聲",
@@ -2614,95 +2857,6 @@
           "username": "attack_on_harmonica_ensemble",
           "profileUrl": "https://www.threads.net/@attack_on_harmonica_ensemble",
           "feedUrl": "https://rss.observe.tw/threads/attack_on_harmonica_ensemble"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-2",
-      "publicId": "2",
-      "name": "臺灣口琴音樂節 THMF",
-      "nameEn": "Taiwan Harmonica Music Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "活動/資訊入口",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "音樂節/比賽/Gala/講座/午間音樂會/新興團體/2026 臺灣口琴音樂節",
-      "structuredSummary": "音樂節/比賽/Gala/講座/午間音樂會/新興團體/2026 臺灣口琴音樂節 / 半音階/複音/十孔/重奏 / 核心活動/活動資訊來源",
-      "summary": "臺灣的核心活動與活動資訊來源，涵蓋音樂節、比賽、Gala、講座與午間音樂會。",
-      "keywords": "THMF 臺灣口琴音樂節 Taiwan Harmonica Music Festival 午間音樂會 新團體",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.taiwanharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/twharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/taiwanharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@thmc6470"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-03T10:53:11+00:00",
-      "latestUpdateLocal": "2026-08-03 18:53",
-      "latestUpdateSource": "臺灣口琴音樂節 THMF",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dbk0XcFJ68d/",
-      "avatarUrl": "/assets/source-avatars/bfc666c0dc3ef1faa877.webp",
-      "sourceInitials": "T",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "音樂節",
-        "比賽",
-        "半音階",
-        "複音",
-        "十孔",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_twharmonica",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/twharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_taiwanharmonica",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "taiwanharmonica",
-          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/taiwanharmonica/story/0"
-        },
-        {
-          "id": "ig_taiwanharmonica",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "taiwanharmonica",
-          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_thmc6470",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@thmc6470",
-          "feedUrl": ""
         }
       ]
     },
@@ -3411,74 +3565,6 @@
       ]
     },
     {
-      "id": "watchlist-218",
-      "publicId": "218",
-      "name": "Evelyn Choong 鍾雪兒",
-      "nameEn": "Evelyn Choong",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
-      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
-      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
-      "keywords": "Evelyn Choong 鍾雪兒 evelyn_harmonica World Harmonica Champion Aiden N Evelyn harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/evelyn.choong.3/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/evelyn_harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-03T05:34:37+00:00",
-      "latestUpdateLocal": "2026-08-03 13:34",
-      "latestUpdateSource": "Evelyn Choong 鍾雪兒",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbkPpOxMwEc/",
-      "avatarUrl": "/assets/source-avatars/d8ea1bf3823bad5eff81.webp",
-      "sourceInitials": "EC",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_evelyn_choong_3",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/evelyn.choong.3",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_evelyn_harmonica",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "evelyn_harmonica",
-          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_evelyn_harmonica",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "evelyn_harmonica",
-          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/evelyn_harmonica/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-79",
       "publicId": "79",
       "name": "國家兩廳院",
@@ -3777,92 +3863,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@oufrog",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-31",
-      "publicId": "31",
-      "name": "張晁滕",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/演出",
-      "structuredSummary": "天狼星/Laelaps/教學/演出 / 重奏/教學 / 演出人員/教學者",
-      "summary": "口琴演奏者，兼職教學與重奏活動。",
-      "keywords": "張晁滕 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://chaotengchang.blogspot.com/2014/06/blog-post.html"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/chaotengchang/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/chaotengchang/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@ChaotengChang"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-03T03:56:47+00:00",
-      "latestUpdateLocal": "2026-08-03 11:56",
-      "latestUpdateSource": "張晁滕",
-      "latestUpdateUrl": "https://www.instagram.com/stories/chaotengchang/3955307405223050746/",
-      "avatarUrl": "/assets/source-avatars/56e9f611310355f9cee6.webp",
-      "sourceInitials": "張晁",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "重奏"
-      ],
-      "sourceSummary": "口琴演奏者，兼職教學與重奏活動。",
-      "sourceTagReason": "名稱為個人，類別標註為演奏者，摘要提及教學與演出，關鍵字包含口琴，符合演奏者與教學來源定位。",
-      "monitorSources": [
-        {
-          "id": "fb_chaotengchang",
-          "name": "張晁滕",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/chaotengchang",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_chaotengchang",
-          "name": "張晁滕",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "chaotengchang",
-          "profileUrl": "https://www.instagram.com/chaotengchang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_chaotengchang",
-          "name": "張晁滕",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "chaotengchang",
-          "profileUrl": "https://www.instagram.com/chaotengchang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chaotengchang/story/0"
-        },
-        {
-          "id": "yt_chaotengchang",
-          "name": "張晁滕",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@ChaotengChang",
           "feedUrl": ""
         }
       ]
