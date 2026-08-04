@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T20:07:50.896996Z",
+  "generatedAt": "2026-08-04T21:14:01.041570Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/88-bluebo-harmonica/"
   },
   "items": [
+    {
+      "id": "post-b94d9ee25c1e1fb8257983a4",
+      "title": "青花瓷丨大安社大口琴班",
+      "excerpt": "青花瓷丨大安社大口琴班 這首周杰倫相當有名的中國風曲子，是少數大人與小孩都喜歡的流行歌，旋律由12356五聲音階組成，在2008年一推出就在金曲獎拿到超過6個獎項。菁琥同學從不會吹口琴到現在常常在公司、社區表演，從星期四上複音，到星期二也上半音階，現在又在星期三加上十孔，愈來愈有準備當街頭藝人的fu😄~ 想跟菁琥做同學嗎? 他在這裏..(下列) 大安社大口琴班(四)晚上 三重社大半音階班(二)晚上 新莊社大十孔班(三)晚上",
+      "url": "https://www.youtube.com/watch?v=ZZxiGw4EwZU",
+      "sourceName": "藍波口琴教室",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-04T10:00:25Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/e8c815baa4684fae4c02.webp",
+        "width": 480,
+        "height": 360
+      }
+    },
     {
       "id": "post-f84fa924ecc7e309193e9a3a",
       "title": "95歲爺爺 快樂學口琴",

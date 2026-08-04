@@ -349,11 +349,11 @@
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-08-04T15:13:05+00:00",
+      "latestUpdateAt": "2026-08-04T15:13:08+00:00",
       "latestUpdateLocal": "2026-08-04 23:13",
       "latestUpdateSource": "范曉怡",
-      "latestUpdateUrl": "https://www.threads.com/t/Dbn2-WuDvjW",
-      "avatarUrl": "/assets/source-avatars/381e810a5b224700d5dd.webp",
+      "latestUpdateUrl": "https://www.instagram.com/p/Dbn2-c6iT00/",
+      "avatarUrl": "/assets/source-avatars/38a18c7f7ae516612aa5.webp",
       "sourceInitials": "范曉",
       "sourceTags": [
         "演奏者",
@@ -480,6 +480,60 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@filipjersmusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-59",
+      "publicId": "59",
+      "name": "千賀太郎",
+      "nameEn": "Taro Senga",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "十孔/藍調",
+      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
+      "summary": "日本的十孔國際演出人員，活動脈絡包含藍調。",
+      "keywords": "千賀太郎 Taro Senga harmonica",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/taro_senga/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-04T14:42:27+00:00",
+      "latestUpdateLocal": "2026-08-04 22:42",
+      "latestUpdateSource": "千賀太郎",
+      "latestUpdateUrl": "https://www.instagram.com/stories/taro_senga/3956357180932948910/",
+      "avatarUrl": "/assets/source-avatars/5543138071fab2b371b8.webp",
+      "sourceInitials": "千賀",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_taro_senga",
+          "name": "千賀太郎",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "taro_senga",
+          "profileUrl": "https://www.instagram.com/taro_senga/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/taro_senga/story/0"
+        },
+        {
+          "id": "ig_taro_senga",
+          "name": "千賀太郎",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taro_senga",
+          "profileUrl": "https://www.instagram.com/taro_senga/",
           "feedUrl": ""
         }
       ]
@@ -1072,6 +1126,73 @@
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-53",
+      "publicId": "53",
+      "name": "Leafin Harmonica Ensemble",
+      "nameEn": "Leafin Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "口琴重奏/公演/合作演出",
+      "structuredSummary": "口琴重奏/公演/合作演出 / 口琴重奏/合奏 / 國際演出團體",
+      "summary": "馬來西亞的口琴重奏與合奏國際演出團體，活動脈絡包含公演與合作演出。",
+      "keywords": "Leafin Harmonica Ensemble _leafin_harmonicaensemble harmonica Malaysia",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/61573180934784/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/_leafin_harmonicaensemble/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-04T12:39:17+00:00",
+      "latestUpdateLocal": "2026-08-04 20:39",
+      "latestUpdateSource": "Leafin Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbnlXl5FFpK/",
+      "avatarUrl": "/assets/source-avatars/4f7972d9ee649563ba48.webp",
+      "sourceInitials": "LHE",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_61573180934784",
+          "name": "Leafin Harmonica Ensemble",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/61573180934784",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_leafin_harmonicaensemble",
+          "name": "Leafin Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "_leafin_harmonicaensemble",
+          "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_leafin_harmonicaensemble",
+          "name": "Leafin Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "_leafin_harmonicaensemble",
+          "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/_leafin_harmonicaensemble/story/0"
         }
       ]
     },
@@ -1792,6 +1913,68 @@
       ]
     },
     {
+      "id": "watchlist-88",
+      "publicId": "88",
+      "name": "藍波口琴教室",
+      "nameEn": "Bluebo Harmonica",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "教學工作室",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴教學/課程/學習資源",
+      "structuredSummary": "口琴教學/課程/學習資源 / 口琴 / 教學/課程來源",
+      "summary": "臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。",
+      "keywords": "藍波口琴教室 藍波口琴網 口琴 教學",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.blueboclass.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/happyharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@lamberharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-04T10:00:25+00:00",
+      "latestUpdateLocal": "2026-08-04 18:00",
+      "latestUpdateSource": "藍波口琴教室",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=ZZxiGw4EwZU",
+      "avatarUrl": "/assets/source-avatars/8f1ae2810f807d60d81f.webp",
+      "sourceInitials": "藍波",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "課程"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_happyharmonica",
+          "name": "藍波口琴教室",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/happyharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_lamberharmonica",
+          "name": "藍波口琴教室",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@lamberharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-221",
       "publicId": "221",
       "name": "吹口琴的小园园",
@@ -2101,60 +2284,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@ChaotengChang",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-59",
-      "publicId": "59",
-      "name": "千賀太郎",
-      "nameEn": "Taro Senga",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "十孔/藍調",
-      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
-      "summary": "日本的十孔國際演出人員，活動脈絡包含藍調。",
-      "keywords": "千賀太郎 Taro Senga harmonica",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/taro_senga/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-04T09:22:01+00:00",
-      "latestUpdateLocal": "2026-08-04 17:22",
-      "latestUpdateSource": "千賀太郎",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbnN3lyj3MO/",
-      "avatarUrl": "/assets/source-avatars/5543138071fab2b371b8.webp",
-      "sourceInitials": "千賀",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_taro_senga",
-          "name": "千賀太郎",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "taro_senga",
-          "profileUrl": "https://www.instagram.com/taro_senga/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/taro_senga/story/0"
-        },
-        {
-          "id": "ig_taro_senga",
-          "name": "千賀太郎",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "taro_senga",
-          "profileUrl": "https://www.instagram.com/taro_senga/",
           "feedUrl": ""
         }
       ]
@@ -5508,68 +5637,6 @@
       ]
     },
     {
-      "id": "watchlist-88",
-      "publicId": "88",
-      "name": "藍波口琴教室",
-      "nameEn": "Bluebo Harmonica",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "教學工作室",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴教學/課程/學習資源",
-      "structuredSummary": "口琴教學/課程/學習資源 / 口琴 / 教學/課程來源",
-      "summary": "臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。",
-      "keywords": "藍波口琴教室 藍波口琴網 口琴 教學",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.blueboclass.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/happyharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@lamberharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-02T11:50:31+00:00",
-      "latestUpdateLocal": "2026-08-02 19:50",
-      "latestUpdateSource": "藍波口琴教室",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=Eh_9btxwEM4",
-      "avatarUrl": "/assets/source-avatars/8f1ae2810f807d60d81f.webp",
-      "sourceInitials": "藍波",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "課程"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_happyharmonica",
-          "name": "藍波口琴教室",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/happyharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_lamberharmonica",
-          "name": "藍波口琴教室",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@lamberharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-46",
       "publicId": "46",
       "name": "廖苡晴",
@@ -7579,73 +7646,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/@hnhkharmonica5296",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-53",
-      "publicId": "53",
-      "name": "Leafin Harmonica Ensemble",
-      "nameEn": "Leafin Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "口琴重奏/公演/合作演出",
-      "structuredSummary": "口琴重奏/公演/合作演出 / 口琴重奏/合奏 / 國際演出團體",
-      "summary": "馬來西亞的口琴重奏與合奏國際演出團體，活動脈絡包含公演與合作演出。",
-      "keywords": "Leafin Harmonica Ensemble _leafin_harmonicaensemble harmonica Malaysia",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/61573180934784/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/_leafin_harmonicaensemble/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-27T11:06:32+00:00",
-      "latestUpdateLocal": "2026-07-27 19:06",
-      "latestUpdateSource": "Leafin Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/stories/_leafin_harmonicaensemble/3950450280173847877/",
-      "avatarUrl": "/assets/source-avatars/4f7972d9ee649563ba48.webp",
-      "sourceInitials": "LHE",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_61573180934784",
-          "name": "Leafin Harmonica Ensemble",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/61573180934784",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_leafin_harmonicaensemble",
-          "name": "Leafin Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "_leafin_harmonicaensemble",
-          "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_leafin_harmonicaensemble",
-          "name": "Leafin Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "_leafin_harmonicaensemble",
-          "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/_leafin_harmonicaensemble/story/0"
         }
       ]
     },
