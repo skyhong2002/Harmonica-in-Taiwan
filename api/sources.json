@@ -65,6 +65,61 @@
   },
   "entries": [
     {
+      "id": "watchlist-50",
+      "publicId": "50",
+      "name": "Aiden Soon",
+      "nameEn": "Aiden Soon",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
+      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "Aiden Soon aidensoon World Harmonica Champion Aiden N Evelyn harmonica",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/aidensoon/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-04T12:06:50+00:00",
+      "latestUpdateLocal": "2026-08-04 20:06",
+      "latestUpdateSource": "Aiden Soon",
+      "latestUpdateUrl": "https://www.instagram.com/p/Dbnhp8qCbxC/",
+      "avatarUrl": "/assets/source-avatars/4117bef348e3faad6e18.webp",
+      "sourceInitials": "AS",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_aidensoon",
+          "name": "Aiden Soon",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "aidensoon",
+          "profileUrl": "https://www.instagram.com/aidensoon/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_aidensoon",
+          "name": "Aiden Soon",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "aidensoon",
+          "profileUrl": "https://www.instagram.com/aidensoon/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-139",
       "publicId": "139",
       "name": "Lee Oskar",
@@ -1782,61 +1837,6 @@
           "username": "yellowpinemusicfestival",
           "profileUrl": "https://www.instagram.com/yellowpinemusicfestival/",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-50",
-      "publicId": "50",
-      "name": "Aiden Soon",
-      "nameEn": "Aiden Soon",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
-      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
-      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
-      "keywords": "Aiden Soon aidensoon World Harmonica Champion Aiden N Evelyn harmonica",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/aidensoon/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-03T23:36:21+00:00",
-      "latestUpdateLocal": "2026-08-04 07:36",
-      "latestUpdateSource": "Aiden Soon",
-      "latestUpdateUrl": "https://www.instagram.com/stories/aidensoon/3955901104278201624/",
-      "avatarUrl": "/assets/source-avatars/4117bef348e3faad6e18.webp",
-      "sourceInitials": "AS",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_aidensoon",
-          "name": "Aiden Soon",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "aidensoon",
-          "profileUrl": "https://www.instagram.com/aidensoon/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_aidensoon",
-          "name": "Aiden Soon",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "aidensoon",
-          "profileUrl": "https://www.instagram.com/aidensoon/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
         }
       ]
     },
