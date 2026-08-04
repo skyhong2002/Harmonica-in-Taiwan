@@ -2,6 +2,52 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-04",
   "entries": [
     {
+      "id": "watchlist-221",
+      "publicId": "221",
+      "name": "吹口琴的小园园",
+      "nameEn": "Yuanyuan Harmonica",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "中國",
+      "region": "中國",
+      "cityOrFocus": "十孔/藍調/流行/教學",
+      "structuredSummary": "十孔/藍調/流行/教學 / 十孔/半音階 / 演出人員/教學者",
+      "summary": "中國的十孔與半音階演出人員與教學者，活動脈絡包含藍調、流行與教學。",
+      "keywords": "吹口琴的小园园 Yuanyuan Harmonica 口琴 藍調口琴 十孔口琴",
+      "links": [
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@yuanyuanharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-04T10:00:14+00:00",
+      "latestUpdateLocal": "2026-08-04 18:00",
+      "latestUpdateSource": "吹口琴的小园园",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=ut0IsIuN7hA",
+      "avatarUrl": "/assets/source-avatars/aed956184d6a75510a0c.webp",
+      "sourceInitials": "吹口",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_yuanyuanharmonica",
+          "name": "吹口琴的小园园",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@yuanyuanharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-103",
       "publicId": "103",
       "name": "陳瑤容 Yora Chen",
@@ -343,6 +389,101 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-77",
+      "publicId": "77",
+      "name": "國立陽明交通大學藝文中心",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "校內場館/藝文中心",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "校內藝文/合作演出",
+      "structuredSummary": "校內藝文/合作演出 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供校內藝文與合作演出相關資訊。",
+      "keywords": "陽明交通大學 藝文中心 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://arts.nycu.edu.tw/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/NYCUArtsCenter/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nycu_artscenter/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E9%99%BD%E6%98%8E%E4%BA%A4%E5%A4%A7%E8%97%9D%E6%96%87%E4%B8%AD%E5%BF%83-k8f"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@nycu_artscenter"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-04T04:00:09+00:00",
+      "latestUpdateLocal": "2026-08-04 12:00",
+      "latestUpdateSource": "國立陽明交通大學藝文中心",
+      "latestUpdateUrl": "https://www.instagram.com/p/Dbmp9MNFy8r/",
+      "avatarUrl": "/assets/source-avatars/9bd6998b6d0d567ad131.webp",
+      "sourceInitials": "國立",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_nycuartscenter",
+          "name": "國立陽明交通大學藝文中心",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/NYCUArtsCenter",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nycu_artscenter",
+          "name": "國立陽明交通大學藝文中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nycu_artscenter",
+          "profileUrl": "https://www.instagram.com/nycu_artscenter/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nycu_artscenter",
+          "name": "國立陽明交通大學藝文中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nycu_artscenter",
+          "profileUrl": "https://www.instagram.com/nycu_artscenter/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nycu_artscenter/story/0"
+        },
+        {
+          "id": "threads_nycu_artscenter",
+          "name": "國立陽明交通大學藝文中心",
+          "platform": "threads",
+          "type": "rss",
+          "username": "nycu_artscenter",
+          "profileUrl": "https://www.threads.net/@nycu_artscenter",
+          "feedUrl": "https://rss.observe.tw/threads/nycu_artscenter"
+        },
+        {
+          "id": "yt_k8f",
+          "name": "國立陽明交通大學藝文中心",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E9%99%BD%E6%98%8E%E4%BA%A4%E5%A4%A7%E8%97%9D%E6%96%87%E4%B8%AD%E5%BF%83-k8f",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-93",
       "publicId": "93",
       "name": "RedBricks Harmonica",
@@ -514,6 +655,101 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-78",
+      "publicId": "78",
+      "name": "衛武營國家藝術文化中心",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "衛武營 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-weiwuying.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@weiwuyingfilm"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@weiwuying_centerforthearts"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-04T02:35:32+00:00",
+      "latestUpdateLocal": "2026-08-04 10:35",
+      "latestUpdateSource": "衛武營國家藝術文化中心",
+      "latestUpdateUrl": "https://www.instagram.com/stories/weiwuying_centerforthearts/3955991292445832815/",
+      "avatarUrl": "/assets/source-avatars/567482508dba06763f0c.webp",
+      "sourceInitials": "衛武",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_weiwuyingcenterforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
+        },
+        {
+          "id": "ig_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "threads",
+          "type": "rss",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
+          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
+        },
+        {
+          "id": "yt_weiwuyingfilm",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@weiwuyingfilm",
           "feedUrl": ""
         }
       ]
@@ -867,10 +1103,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-08-04T01:02:24+00:00",
+      "latestUpdateAt": "2026-08-04T01:02:37+00:00",
       "latestUpdateLocal": "2026-08-04 09:02",
       "latestUpdateSource": "彰女微光口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbmVnfWkptu/",
+      "latestUpdateUrl": "https://www.instagram.com/stories/chgsh_harmonica/3955944528389214587/",
       "avatarUrl": "/assets/source-avatars/5f8970c22acc29a1e57c.webp",
       "sourceInitials": "彰女",
       "sourceTags": [
@@ -1834,101 +2070,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-78",
-      "publicId": "78",
-      "name": "衛武營國家藝術文化中心",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/高雄",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "衛武營 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-weiwuying.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@weiwuyingfilm"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@weiwuying_centerforthearts"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-03T14:01:40+00:00",
-      "latestUpdateLocal": "2026-08-03 22:01",
-      "latestUpdateSource": "衛武營國家藝術文化中心",
-      "latestUpdateUrl": "https://www.instagram.com/p/DblJ4FujC0X/",
-      "avatarUrl": "/assets/source-avatars/567482508dba06763f0c.webp",
-      "sourceInitials": "衛武",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_weiwuyingcenterforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
-        },
-        {
-          "id": "ig_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "threads",
-          "type": "rss",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
-          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
-        },
-        {
-          "id": "yt_weiwuyingfilm",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@weiwuyingfilm",
           "feedUrl": ""
         }
       ]
@@ -2975,7 +3116,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-03 19:18",
       "latestUpdateSource": "CY Leo 何卓彥",
       "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3955529953261136406/",
-      "avatarUrl": "/assets/source-avatars/9af7ae6ae1479e11227d.webp",
+      "avatarUrl": "/assets/source-avatars/f7225128bf37720c0c02.webp",
       "sourceInitials": "CL",
       "sourceTags": [
         "演奏者",
@@ -5745,52 +5886,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@FrescoHarmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-221",
-      "publicId": "221",
-      "name": "吹口琴的小园园",
-      "nameEn": "Yuanyuan Harmonica",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "中國",
-      "region": "中國",
-      "cityOrFocus": "十孔/藍調/流行/教學",
-      "structuredSummary": "十孔/藍調/流行/教學 / 十孔/半音階 / 演出人員/教學者",
-      "summary": "中國的十孔與半音階演出人員與教學者，活動脈絡包含藍調、流行與教學。",
-      "keywords": "吹口琴的小园园 Yuanyuan Harmonica 口琴 藍調口琴 十孔口琴",
-      "links": [
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@yuanyuanharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-01T10:00:17+00:00",
-      "latestUpdateLocal": "2026-08-01 18:00",
-      "latestUpdateSource": "吹口琴的小园园",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=SnepGMKRK5o",
-      "avatarUrl": "/assets/source-avatars/aed956184d6a75510a0c.webp",
-      "sourceInitials": "吹口",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "yt_yuanyuanharmonica",
-          "name": "吹口琴的小园园",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@yuanyuanharmonica",
           "feedUrl": ""
         }
       ]
@@ -12746,101 +12841,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-77",
-      "publicId": "77",
-      "name": "國立陽明交通大學藝文中心",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "校內場館/藝文中心",
-      "country": "臺灣",
-      "region": "臺灣/新竹",
-      "cityOrFocus": "校內藝文/合作演出",
-      "structuredSummary": "校內藝文/合作演出 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供校內藝文與合作演出相關資訊。",
-      "keywords": "陽明交通大學 藝文中心 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://arts.nycu.edu.tw/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/NYCUArtsCenter/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nycu_artscenter/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E9%99%BD%E6%98%8E%E4%BA%A4%E5%A4%A7%E8%97%9D%E6%96%87%E4%B8%AD%E5%BF%83-k8f"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@nycu_artscenter"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/ce008ff11fe35f3f09fc.webp",
-      "sourceInitials": "國立",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_nycuartscenter",
-          "name": "國立陽明交通大學藝文中心",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/NYCUArtsCenter",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nycu_artscenter",
-          "name": "國立陽明交通大學藝文中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nycu_artscenter",
-          "profileUrl": "https://www.instagram.com/nycu_artscenter/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nycu_artscenter",
-          "name": "國立陽明交通大學藝文中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nycu_artscenter",
-          "profileUrl": "https://www.instagram.com/nycu_artscenter/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nycu_artscenter/story/0"
-        },
-        {
-          "id": "threads_nycu_artscenter",
-          "name": "國立陽明交通大學藝文中心",
-          "platform": "threads",
-          "type": "rss",
-          "username": "nycu_artscenter",
-          "profileUrl": "https://www.threads.net/@nycu_artscenter",
-          "feedUrl": "https://rss.observe.tw/threads/nycu_artscenter"
-        },
-        {
-          "id": "yt_k8f",
-          "name": "國立陽明交通大學藝文中心",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E9%99%BD%E6%98%8E%E4%BA%A4%E5%A4%A7%E8%97%9D%E6%96%87%E4%B8%AD%E5%BF%83-k8f",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-75",
       "publicId": "75",
       "name": "新竹市文化局",
@@ -14487,6 +14487,50 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-227",
+      "publicId": "227",
+      "name": "Tancy Liu",
+      "nameEn": "Tancy Liu",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴演出/教學/活動資訊",
+      "structuredSummary": "口琴演出/教學/活動資訊 / 口琴 / 演出人員/教學者",
+      "summary": "臺灣的口琴演出人員與教學者，活動脈絡包含口琴演出、教學與活動資訊。",
+      "keywords": "Tancy Liu 口琴 演出 教學 活動",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/tancy.liu.3"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "TL",
+      "sourceTags": [
+        "演奏者",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_tancy_liu_3",
+          "name": "Tancy Liu",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/tancy.liu.3",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-150",
       "publicId": "150",
       "name": "Tian Long Li",
@@ -14767,7 +14811,7 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 210,
+    "totalEntries": 211,
     "categories": {
       "其他來源": 2,
       "國際交流": 10,
@@ -14776,7 +14820,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "學校社團": 36,
       "教學器材": 15,
       "活動資訊": 20,
-      "演奏者": 75
+      "演奏者": 76
     },
     "countries": {
       "中國": 10,
@@ -14796,7 +14840,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "瑞士": 1,
       "紐西蘭": 1,
       "美國": 7,
-      "臺灣": 94,
+      "臺灣": 95,
       "英國": 3,
       "荷蘭": 1,
       "西班牙": 2,
@@ -14806,20 +14850,20 @@ window.HARMONICA_OBSERVE_DATA = {
       "馬來西亞": 13
     },
     "watchSources": {
-      "totalSources": 615,
+      "totalSources": 616,
       "rsshubSources": 334,
-      "apifySources": 150,
-      "facebookSources": 150,
+      "apifySources": 151,
+      "facebookSources": 151,
       "youtubeSources": 131,
       "platforms": {
-        "facebook": 150,
+        "facebook": 151,
         "instagram": 294,
         "threads": 28,
         "x": 12,
         "youtube": 131
       },
       "types": {
-        "facebook_page_posts": 150,
+        "facebook_page_posts": 151,
         "rss": 40,
         "rsshub_instagram_profile": 147,
         "rsshub_instagram_story": 147,

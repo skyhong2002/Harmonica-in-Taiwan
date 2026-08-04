@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T09:41:55.741915Z",
+  "generatedAt": "2026-08-04T10:49:29.964022Z",
   "source": {
     "id": 77,
     "slug": "77",
     "name": "國立陽明交通大學藝文中心",
     "pageUrl": "https://harmonica.observe.tw/source/77/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-5320406e562d810c1f419e8f",
+      "title": "🎹【以你為語—湯詩渝與薩繆爾．尼德豪瑟鋼琴與大提琴二重奏音樂會】🎻",
+      "excerpt": "🎹【以你為語—湯詩渝與薩繆爾．尼德豪瑟鋼琴與大提琴二重奏音樂會】🎻 🧳一場關於渴望與記憶的音樂旅程， 有些旋律如願以償，有些情感則永遠停留在未竟之處❤️‍🩹 臺灣旅歐鋼琴家湯詩渝與瑞士大提琴首席薩繆爾・尼德豪瑟強強聯手， 以樂音引領你走進渴望與記憶的世界🎶 ❣️帶上最重要的人，一起來傾聽這場深情的對話！ 📌 演出時間：2026/11/12 (四) 19:30 演出地點：陽明交大演藝廳 / 學生活動中心二樓 (新竹市大學路1001號) 售票連結請見下方留言處👇",
+      "url": "https://www.instagram.com/p/Dbmp9MNFy8r/",
+      "sourceName": "國立陽明交通大學藝文中心",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-04T04:00:09Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/719e3b2ace5730257777.webp",
+        "width": 800,
+        "height": 800
+      }
+    }
+  ]
 }
