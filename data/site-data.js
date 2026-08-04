@@ -2,6 +2,90 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-05",
   "entries": [
     {
+      "id": "watchlist-140",
+      "publicId": "140",
+      "name": "Gregoire Maret",
+      "nameEn": "Gregoire Maret",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "瑞士",
+      "region": "美國",
+      "cityOrFocus": "紐約發展/Grammy得主/現代爵士半音階/作曲",
+      "structuredSummary": "紐約發展/Grammy得主/現代爵士半音階/作曲 / 半音階 / 國際演出人員/作曲者",
+      "summary": "瑞士的半音階國際演出人員與作曲者，活動脈絡包含紐約發展、Grammy得主與現代爵士半音階。",
+      "keywords": "Gregoire Maret Grégoire Maret harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.gregoiremaret.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/gregoiremaret1/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/gregoiremaret/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@GregoireMaret"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-04T18:53:50+00:00",
+      "latestUpdateLocal": "2026-08-05 02:53",
+      "latestUpdateSource": "Gregoire Maret",
+      "latestUpdateUrl": "https://www.instagram.com/p/DboQO-CjXW1/",
+      "avatarUrl": "/assets/source-avatars/aaa38b3006e2f299e510.webp",
+      "sourceInitials": "GM",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_gregoiremaret1",
+          "name": "Gregoire Maret",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/gregoiremaret1",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_gregoiremaret",
+          "name": "Gregoire Maret",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "gregoiremaret",
+          "profileUrl": "https://www.instagram.com/gregoiremaret/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_gregoiremaret",
+          "name": "Gregoire Maret",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "gregoiremaret",
+          "profileUrl": "https://www.instagram.com/gregoiremaret/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/gregoiremaret/story/0"
+        },
+        {
+          "id": "yt_gregoiremaret",
+          "name": "Gregoire Maret",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@GregoireMaret",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-18",
       "publicId": "18",
       "name": "Up Side Down",
@@ -1096,7 +1180,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-04 20:39",
       "latestUpdateSource": "Leafin Harmonica Ensemble",
       "latestUpdateUrl": "https://www.instagram.com/p/DbnlXl5FFpK/",
-      "avatarUrl": "/assets/source-avatars/4f7972d9ee649563ba48.webp",
+      "avatarUrl": "/assets/source-avatars/8ff89f930f53d66a7b79.webp",
       "sourceInitials": "LHE",
       "sourceTags": [
         "團體樂團",
@@ -1607,6 +1691,127 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@JudysHarmonicaEnsemble",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-105",
+      "publicId": "105",
+      "name": "Stay Drunk 口琴樂團",
+      "nameEn": "Stay Drunk Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "大學生新生代團體",
+      "structuredSummary": "大學生新生代團體 / 口琴重奏 / 演出團體",
+      "summary": "臺灣的大學生新生代口琴重奏演出團體。",
+      "keywords": "Stay Drunk Stay Drunk H.E. Stay Drunk Harmonica Ensemble staydrunk_h.e 口琴樂團 大學生",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/staydrunk_h.e/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-04T11:11:24+00:00",
+      "latestUpdateLocal": "2026-08-04 19:11",
+      "latestUpdateSource": "Stay Drunk 口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbnbT47iXAC/",
+      "avatarUrl": "/assets/source-avatars/077c534fc3e6d2920bad.webp",
+      "sourceInitials": "SD",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_staydrunk_h_e",
+          "name": "Stay Drunk 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "staydrunk_h.e",
+          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_staydrunk_h_e",
+          "name": "Stay Drunk 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "staydrunk_h.e",
+          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/staydrunk_h.e/story/0"
+        },
+        {
+          "id": "yt_uct3ifdfoqpndqm8j5chesda",
+          "name": "Stay Drunk 口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-222",
+      "publicId": "222",
+      "name": "Do Not Disturb Harmonica Ensemble",
+      "nameEn": "Do Not Disturb Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/公演/新生代團體",
+      "structuredSummary": "重奏/公演/新生代團體 / 半音階/低音/和弦/口琴重奏 / 演出團體",
+      "summary": "臺灣的半音階、低音、和弦與口琴重奏演出團體，活動脈絡包含重奏、公演與新生代團體。",
+      "keywords": "Do Not Disturb Harmonica Ensemble donotdisturbharmonicaensemble 口琴 重奏 THMF 臺灣口琴音樂節",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/donotdisturbharmonicaensemble/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-04T10:51:55+00:00",
+      "latestUpdateLocal": "2026-08-04 18:51",
+      "latestUpdateSource": "Do Not Disturb Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/stories/donotdisturbharmonicaensemble/3956241273548091422/",
+      "avatarUrl": "/assets/source-avatars/22da01f14949bd3fc02b.webp",
+      "sourceInitials": "DND",
+      "sourceTags": [
+        "團體樂團",
+        "音樂節",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_donotdisturbharmonicaensemble",
+          "name": "Do Not Disturb Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "donotdisturbharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_donotdisturbharmonicaensemble",
+          "name": "Do Not Disturb Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "donotdisturbharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/donotdisturbharmonicaensemble/story/0"
         }
       ]
     },
@@ -2321,90 +2526,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-140",
-      "publicId": "140",
-      "name": "Gregoire Maret",
-      "nameEn": "Gregoire Maret",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "瑞士",
-      "region": "美國",
-      "cityOrFocus": "紐約發展/Grammy得主/現代爵士半音階/作曲",
-      "structuredSummary": "紐約發展/Grammy得主/現代爵士半音階/作曲 / 半音階 / 國際演出人員/作曲者",
-      "summary": "瑞士的半音階國際演出人員與作曲者，活動脈絡包含紐約發展、Grammy得主與現代爵士半音階。",
-      "keywords": "Gregoire Maret Grégoire Maret harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.gregoiremaret.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/gregoiremaret1/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/gregoiremaret/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@GregoireMaret"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-04T08:58:12+00:00",
-      "latestUpdateLocal": "2026-08-04 16:58",
-      "latestUpdateSource": "Gregoire Maret",
-      "latestUpdateUrl": "https://www.instagram.com/stories/gregoiremaret/3956183892398816959/",
-      "avatarUrl": "/assets/source-avatars/aaa38b3006e2f299e510.webp",
-      "sourceInitials": "GM",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_gregoiremaret1",
-          "name": "Gregoire Maret",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/gregoiremaret1",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_gregoiremaret",
-          "name": "Gregoire Maret",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "gregoiremaret",
-          "profileUrl": "https://www.instagram.com/gregoiremaret/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_gregoiremaret",
-          "name": "Gregoire Maret",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "gregoiremaret",
-          "profileUrl": "https://www.instagram.com/gregoiremaret/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/gregoiremaret/story/0"
-        },
-        {
-          "id": "yt_gregoiremaret",
-          "name": "Gregoire Maret",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@GregoireMaret",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-103",
       "publicId": "103",
       "name": "陳瑤容 Yora Chen",
@@ -2495,72 +2616,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@iamxyora",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-105",
-      "publicId": "105",
-      "name": "Stay Drunk 口琴樂團",
-      "nameEn": "Stay Drunk Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "大學生新生代團體",
-      "structuredSummary": "大學生新生代團體 / 口琴重奏 / 演出團體",
-      "summary": "臺灣的大學生新生代口琴重奏演出團體。",
-      "keywords": "Stay Drunk Stay Drunk H.E. Stay Drunk Harmonica Ensemble staydrunk_h.e 口琴樂團 大學生",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/staydrunk_h.e/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-04T08:12:48+00:00",
-      "latestUpdateLocal": "2026-08-04 16:12",
-      "latestUpdateSource": "Stay Drunk 口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/staydrunk_h.e/3956161045991109570/",
-      "avatarUrl": "/assets/source-avatars/077c534fc3e6d2920bad.webp",
-      "sourceInitials": "SD",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_staydrunk_h_e",
-          "name": "Stay Drunk 口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "staydrunk_h.e",
-          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_staydrunk_h_e",
-          "name": "Stay Drunk 口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "staydrunk_h.e",
-          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/staydrunk_h.e/story/0"
-        },
-        {
-          "id": "yt_uct3ifdfoqpndqm8j5chesda",
-          "name": "Stay Drunk 口琴樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA",
           "feedUrl": ""
         }
       ]
@@ -7739,61 +7794,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@learntheharmonica",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-222",
-      "publicId": "222",
-      "name": "Do Not Disturb Harmonica Ensemble",
-      "nameEn": "Do Not Disturb Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/公演/新生代團體",
-      "structuredSummary": "重奏/公演/新生代團體 / 半音階/低音/和弦/口琴重奏 / 演出團體",
-      "summary": "臺灣的半音階、低音、和弦與口琴重奏演出團體，活動脈絡包含重奏、公演與新生代團體。",
-      "keywords": "Do Not Disturb Harmonica Ensemble donotdisturbharmonicaensemble 口琴 重奏 THMF 臺灣口琴音樂節",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/donotdisturbharmonicaensemble/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-26T08:43:39+00:00",
-      "latestUpdateLocal": "2026-07-26 16:43",
-      "latestUpdateSource": "Do Not Disturb Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbP_P1kGovf/",
-      "avatarUrl": "/assets/source-avatars/22da01f14949bd3fc02b.webp",
-      "sourceInitials": "DND",
-      "sourceTags": [
-        "團體樂團",
-        "音樂節",
-        "半音階",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_donotdisturbharmonicaensemble",
-          "name": "Do Not Disturb Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "donotdisturbharmonicaensemble",
-          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_donotdisturbharmonicaensemble",
-          "name": "Do Not Disturb Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "donotdisturbharmonicaensemble",
-          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/donotdisturbharmonicaensemble/story/0"
         }
       ]
     },
