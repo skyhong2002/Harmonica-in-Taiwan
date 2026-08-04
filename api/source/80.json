@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T19:02:07.111484Z",
+  "generatedAt": "2026-08-04T20:07:50.896996Z",
   "source": {
     "id": 80,
     "slug": "80",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/80/"
   },
   "items": [
+    {
+      "id": "post-f41577c8bc6507eb3707e473",
+      "title": "2026 NTT 遇見巨人 | 10年的疊加，是一場關於劇場的解構與重構。",
+      "excerpt": "2026 NTT 遇見巨人 | 10年的疊加，是一場關於劇場的解構與重構。 𝟮𝟬𝟮𝟲 𝗡𝗧𝗧【遇見巨人】會員預購！𝟳𝟱折開跑！ 🥳歌劇院會員開放購票囉！🙌 𝟭𝟭部國內外經典大作，即將在歌劇院震撼登場！ ✨會員獨享專屬 𝟳𝟱折 預購優惠！✨ OPENTIX【遇見巨人】旗艦館 🔗 ☀️𝟮𝟬𝟮𝟲 𝗡𝗧𝗧【遇見巨人】☀️ 𝟭𝟬/𝟭𝟲—𝟭𝟬/𝟭𝟴 愛爾蘭鬼才編導丹．科利《迷失的李爾》 𝟭𝟬/𝟮𝟰—𝟭𝟬/𝟮𝟱 驫舞劇場《大群舞》 𝟭𝟬/𝟮𝟵—𝟭𝟭/𝟭 莫札特歌劇《女人皆如此》 𝟭𝟬/𝟯𝟭—𝟭𝟭/𝟭 亞倫．路西恩．奧文《安蒂岡妮》 𝟭𝟭/𝟲—𝟭𝟭/𝟴 𝟮𝟬𝟮𝟱-𝟮𝟬…",
+      "url": "https://www.youtube.com/watch?v=1fCpGTCDDX4",
+      "sourceName": "臺中國家歌劇院",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-04T04:02:59Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9d1da719b1e6b1facbd3.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-8970492499d23572f3ba999c",
       "title": "NTT+不藏私講堂｜蔡沛原《返鄉青年創生：找回島嶼原色》",
