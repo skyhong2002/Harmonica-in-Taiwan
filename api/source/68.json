@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T08:36:15.368902Z",
+  "generatedAt": "2026-08-04T09:41:55.741915Z",
   "source": {
     "id": 68,
     "slug": "gordon-lee",
     "name": "Gordon Lee 李俊樂",
     "pageUrl": "https://harmonica.observe.tw/source/68-gordon-lee/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-b0a04b9552018a6b7326f4cd",
+      "title": "這個夏天，領賢慈善基金聯同「國際綜藝合家歡2026｣ @hkiac 與 嘉頓 @garden.hongkong @gyeahyeah 共同呈獻「玩出藝術，築出奇想」互動藝術展覽。",
+      "excerpt": "這個夏天，領賢慈善基金聯同「國際綜藝合家歡2026｣ @hkiac 與 嘉頓 @garden.hongkong @gyeahyeah 共同呈獻「玩出藝術，築出奇想」互動藝術展覽。 我們誠摯邀請你探索這個奇妙的世界，這裡有： 🌺 本地藝術團隊@stickyline 創作的巨型紙雕花朵 💫 藝術家孔凡亮 @moooon.noooon、李俊樂與柯偉賢聯手打造的「小小作曲家」音樂創作角 ✨ 動感光影互動裝置「熒光漫舞草坪」與「魔法星空樹洞」 7月12日，作為展覽的一部分，許多家庭齊聚東九龍文化中心，參與特別的室內社區活動「邊玩邊野餐！」。世界口琴冠軍李俊樂@g…",
+      "url": "https://www.instagram.com/p/DbkmuNjExJw/",
+      "sourceName": "Gordon Lee 李俊樂",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-03T08:53:23Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/267390c6d1195d5f9d24.webp",
+        "width": 800,
+        "height": 800
+      }
+    }
+  ]
 }
