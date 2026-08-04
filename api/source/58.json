@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T15:47:26.059017Z",
+  "generatedAt": "2026-08-04T16:52:34.889189Z",
   "source": {
     "id": 58,
     "slug": "minami-risa",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/58-minami-risa/"
   },
   "items": [
+    {
+      "id": "post-c56bd8ce63d88f597bba2c9c",
+      "title": "ロイヤルホースにて♬ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」P...",
+      "excerpt": "ロイヤルホースにて♬ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」P... #Amebaブログ #アメブロ #南里沙 #クロマチックハーモニカ",
+      "url": "https://x.com/minami_risa/status/2084677673834693121",
+      "sourceName": "南里沙",
+      "platform": "X",
+      "publishedAt": "2026-08-04T16:27:43Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/808669f31e9925a3c750.webp",
+        "width": 800,
+        "height": 391
+      }
+    },
     {
       "id": "post-e2e727cb36726ead6cf765a1",
       "title": "YouTube「川の流れのように / 美空ひばり」 | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by Ameba",
@@ -630,20 +644,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/66df396c68b20b935575.webp",
         "width": 800,
         "height": 659
-      }
-    },
-    {
-      "id": "post-a4317e9e4d7ccaf563688fd2",
-      "title": "三重、そして愛知での演奏を終え、先ほど東京に到着しました。",
-      "excerpt": "三重、そして愛知での演奏を終え、先ほど東京に到着しました。 7月4日は三重県・ハヤシユナイテッド文化ホール鈴鹿にて開催された「山崎ていじ バースデー・チャリティーコンサート」に、バンドメンバーとして出演させていただきました😊 昼夜2公演、そして山崎ていじさんのデビュー30周年という記念すべきステージで演奏させていただけたこと、大変光栄に思います。改めまして、デビュー30周年、そしてお誕生日、本当におめでとうございます。 ゲストには、三善英史さん、そしてクワマンこと桑野信義さんもご出演され、会場は大きな盛り上がりに包まれました。 笑顔と拍手があふれる、心…",
-      "url": "https://www.instagram.com/p/DaaqzyHyZXp/",
-      "sourceName": "南里沙",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-05T15:58:27Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/7de2fd309638a34a3555.webp",
-        "width": 800,
-        "height": 1001
       }
     }
   ]
