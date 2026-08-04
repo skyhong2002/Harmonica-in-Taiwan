@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 04 Aug 2026 03:41:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 04:46:43 +0000</lastBuildDate>
     <item>
       <title>曹小歐</title>
       <link>https://portaly.cc/otistsao</link>
@@ -60,6 +60,17 @@ Tag：學生社團
 國家：臺灣
 地區：臺灣/彰化
 臺灣的口琴學校社團。</description>
+    </item>
+    <item>
+      <title>Yellow Pine Harmonica Festival</title>
+      <link>https://www.yellowpinefestival.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/8916c1898211431a</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、課程、音樂節、比賽、國際交流
+國家：美國
+地區：美國/愛達荷
+美國的國際活動來源，涵蓋戶外口琴音樂節、課程、示範與社群演出。</description>
     </item>
     <item>
       <title>Indiara Sfair</title>
@@ -830,17 +841,6 @@ Tag：教學器材、教學
 國家：臺灣
 地區：臺灣/臺北
 臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。</description>
-    </item>
-    <item>
-      <title>Yellow Pine Harmonica Festival</title>
-      <link>https://www.yellowpinefestival.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/8916c1898211431a</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：活動資訊、課程、音樂節、比賽、國際交流
-國家：美國
-地區：美國/愛達荷
-美國的國際活動來源，涵蓋戶外口琴音樂節、課程、示範與社群演出。</description>
     </item>
     <item>
       <title>逢甲口琴社</title>
