@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 04 Aug 2026 03:08:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 03:41:05 +0000</lastBuildDate>
+    <item>
+      <title>曹小歐</title>
+      <link>https://portaly.cc/otistsao</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/b08c62a560f55fb5</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、十孔
+國家：臺灣
+地區：臺灣
+臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。</description>
+    </item>
     <item>
       <title>臺灣口琴音樂節 THMF</title>
       <link>https://www.taiwanharmonica.com/</link>
@@ -16,6 +27,17 @@ Tag：活動資訊、團體樂團、音樂節、比賽、半音階、複音、�
 國家：臺灣
 地區：臺灣
 臺灣的核心活動與活動資訊來源，涵蓋音樂節、比賽、Gala、講座與午間音樂會。</description>
+    </item>
+    <item>
+      <title>Aiden N Evelyn / Aiden Soon &amp; Evelyn Choong</title>
+      <link>https://linktr.ee/aidennevelyn</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/35ecbc8c70aca507</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、半音階、重奏、國際交流
+國家：馬來西亞
+地區：馬來西亞
+馬來西亞的半音階與重奏國際演出團體與二重奏，活動脈絡包含二重奏、影片與THMF。</description>
     </item>
     <item>
       <title>Evelyn Choong 鍾雪兒</title>
@@ -260,17 +282,6 @@ Tag：場館平台
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
-      <title>曹小歐</title>
-      <link>https://portaly.cc/otistsao</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/b08c62a560f55fb5</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、十孔
-國家：臺灣
-地區：臺灣
-臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。</description>
-    </item>
-    <item>
       <title>王衍華</title>
       <link>https://portaly.cc/yenhua_wang</link>
       <guid>https://harmonica.observe.tw/feeds/sources/d4be998cbe5b2da8</guid>
@@ -445,17 +456,6 @@ Tag：活動資訊、比賽、十孔、國際交流
 國家：美國
 地區：美國/加州
 美國的國際活動來源，涵蓋美國地方口琴節、jam與社群比賽。</description>
-    </item>
-    <item>
-      <title>Aiden N Evelyn / Aiden Soon &amp; Evelyn Choong</title>
-      <link>https://linktr.ee/aidennevelyn</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/35ecbc8c70aca507</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、半音階、重奏、國際交流
-國家：馬來西亞
-地區：馬來西亞
-馬來西亞的半音階與重奏國際演出團體與二重奏，活動脈絡包含二重奏、影片與THMF。</description>
     </item>
     <item>
       <title>RedBricks Harmonica</title>
