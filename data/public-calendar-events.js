@@ -1,9 +1,9 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-08-06T06:45:42+08:00",
+  "generatedAt": "2026-08-06T07:51:53+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 11,
+  "count": 10,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -163,42 +163,6 @@ window.publicCalendarEvents = {
         "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/739470687_1040056295068096_7293253133308599774_n.jpg?stp=dst-jpg_tt6&cstp=mx1365x2048&ctp=p526x296&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=2Y1z_Jz5Dh8Q7kNvwFu7VK-&_nc_oc=AdqxjQbb6wJT970ZnT5Z_rs1p-cS4quxZMheCf-q54835u_qYflx85m8deFTmC-EPow&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=fC0baYd0G3S4wa4B0Xtonw&_nc_ss=72289&oh=00_AQD5RdqSWLacQo-8-SAlB867k8FV6ZdIPrmBg_e1-da7CA&oe=6A55CCA3"
       ],
       "image_url": "/assets/feed-images/37059a2ebd980acbaf3f.webp"
-    },
-    {
-      "id": "4407c9bf6fcc0cad",
-      "title": "2026臺灣口琴音樂節Gala音樂會",
-      "eventName": "2026臺灣口琴音樂節Gala音樂會",
-      "source": "RedBricks Harmonica",
-      "platform": "instagram",
-      "start": "2026-08-08",
-      "end": "2026-08-09",
-      "allDay": true,
-      "calendarType": "taiwan_physical",
-      "timezone": "Asia/Taipei",
-      "location": "臺灣口琴音樂節",
-      "venue": "臺灣口琴音樂節",
-      "city": "",
-      "details": "主辦／演出者：RedBricks Harmonica。胖擊將於 8/8（六）晚上在「桂冠之聲：2026臺灣口琴音樂節Gala音樂會」演出，並與來自香港的 Redbricks 帶來限定合作舞台。",
-      "evidenceUrl": "https://www.instagram.com/p/Dbp4DBEBGpZ/",
-      "confidence": 0.95,
-      "calendarReview": {
-        "include": true,
-        "country": "臺灣",
-        "eventMode": "taiwan_physical",
-        "timezone": "Asia/Taipei",
-        "candidateDateMatches": true,
-        "eventName": "2026臺灣口琴音樂節Gala音樂會",
-        "venue": "臺灣口琴音樂節",
-        "city": "",
-        "details": "主辦／演出者：RedBricks Harmonica。胖擊將於 8/8（六）晚上在「桂冠之聲：2026臺灣口琴音樂節Gala音樂會」演出，並與來自香港的 Redbricks 帶來限定合作舞台。",
-        "reason": "貼文明確提到 8/8（六）晚上的臺灣口琴音樂節 GALA 音樂會，屬臺灣實體口琴活動，日期與候選一致。",
-        "confidence": 0.95
-      },
-      "postedAt": "2026-08-05 18:00",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/763824282_18082729697656565_5901153025245563125_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=Mzk1Njk0MDI0NTUyNTg4MzQ4MTE4MDgyNzI5Njk0NjU2NTY1.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjc2Mi5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=pDZ6Uk3E3IYQ7kNvwHti1_P&_nc_oc=AdrMPtMbLitNE0QEMhxV1tT4u56doHcepwTV81N_7M4EUZ1mhZX_WSv1KhB_MZ8U2WE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=EIHlEwi1zgA2241simL-zw&_nc_ss=7a22e&oh=00_AQEbEYClcejfypTQhKqqGZ3z3lMe7E4gdxtJV4OE8mz8lw&oe=6A78FE0B"
-      ],
-      "image_url": "/assets/feed-images/f8bd0aac148b9f4817ce.webp"
     },
     {
       "id": "48d83da0d3424f97",
