@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 05 Aug 2026 15:06:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 15:39:41 +0000</lastBuildDate>
     <item>
       <title>Santiago Alvarez</title>
       <link>https://worldharmonicafestival.de/artist-profile-santiago-alvarez/</link>
@@ -82,6 +82,28 @@ Tag：團體樂團、重奏
 國家：臺灣
 地區：臺灣
 臺灣的口琴重奏演出團體，活動脈絡包含重奏、青年團體與演出。</description>
+    </item>
+    <item>
+      <title>茱蒂口琴樂團 Judy's Harmonica Ensemble</title>
+      <link>https://www.judysharmonica.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/da11065f59c239fe</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏
+國家：臺灣
+地區：臺灣
+臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與教育推廣。</description>
+    </item>
+    <item>
+      <title>莊筑迪</title>
+      <link>https://harmonica.tw/course/judy/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/92f6564235bea5fb</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、重奏
+國家：臺灣
+地區：臺灣
+臺灣的半音階與重奏演出人員與評審，活動脈絡包含Judy’s、演出與評審。</description>
     </item>
     <item>
       <title>408 Harmonica Ensemble</title>
@@ -194,6 +216,17 @@ Tag：演奏者、教學、半音階、國際交流
 韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。</description>
     </item>
     <item>
+      <title>王衍華</title>
+      <link>https://portaly.cc/yenhua_wang</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/d4be998cbe5b2da8</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、重奏
+國家：臺灣
+地區：臺灣
+臺灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。</description>
+    </item>
+    <item>
       <title>Jens Bunge</title>
       <link>https://hohner.de/en/jens-bunge</link>
       <guid>https://harmonica.observe.tw/feeds/sources/bf85aeb31f137bd0</guid>
@@ -258,17 +291,6 @@ Tag：演奏者、半音階、重奏、國際交流、比賽
 國家：臺灣
 地區：臺灣
 臺灣半音階口琴演奏者，2025 世界口琴節獲公開組冠軍，並參與 111 Duo、Trio 與 Quintet。</description>
-    </item>
-    <item>
-      <title>王衍華</title>
-      <link>https://portaly.cc/yenhua_wang</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/d4be998cbe5b2da8</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、重奏
-國家：臺灣
-地區：臺灣
-臺灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。</description>
     </item>
     <item>
       <title>蔡明憲</title>
@@ -513,17 +535,6 @@ Tag：活動資訊、比賽
 新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。</description>
     </item>
     <item>
-      <title>茱蒂口琴樂團 Judy's Harmonica Ensemble</title>
-      <link>https://www.judysharmonica.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/da11065f59c239fe</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏
-國家：臺灣
-地區：臺灣
-臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與教育推廣。</description>
-    </item>
-    <item>
       <title>Do Not Disturb Harmonica Ensemble</title>
       <link>https://www.instagram.com/donotdisturbharmonicaensemble/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/a8f6a070d4bc7af0</guid>
@@ -533,17 +544,6 @@ Tag：團體樂團、音樂節、半音階、重奏
 國家：臺灣
 地區：臺灣
 臺灣的半音階、低音、和弦與口琴重奏演出團體，活動脈絡包含重奏、公演與新生代團體。</description>
-    </item>
-    <item>
-      <title>莊筑迪</title>
-      <link>https://harmonica.tw/course/judy/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/92f6564235bea5fb</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、重奏
-國家：臺灣
-地區：臺灣
-臺灣的半音階與重奏演出人員與評審，活動脈絡包含Judy’s、演出與評審。</description>
     </item>
     <item>
       <title>藍波口琴教室</title>
