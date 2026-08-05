@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 05 Aug 2026 04:24:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 04:57:55 +0000</lastBuildDate>
     <item>
       <title>Lee Hangyeol 이한결</title>
       <link>https://www.instagram.com/gyeoli_94/</link>
@@ -49,6 +49,17 @@ Tag：活動資訊、團體樂團、音樂節、比賽、半音階、複音、�
 國家：臺灣
 地區：臺灣
 臺灣的核心活動與活動資訊來源，涵蓋音樂節、比賽、Gala、講座與午間音樂會。</description>
+    </item>
+    <item>
+      <title>胖擊口琴樂團</title>
+      <link>https://linktr.ee/punch.harp</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c710aae1bf2f4665</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏
+國家：臺灣
+地區：臺灣
+臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。</description>
     </item>
     <item>
       <title>CY Leo 何卓彥</title>
@@ -401,17 +412,6 @@ Tag：演奏者、教學、半音階、十孔
 國家：中國
 地區：中國
 中國的十孔與半音階演出人員與教學者，活動脈絡包含藍調、流行與教學。</description>
-    </item>
-    <item>
-      <title>胖擊口琴樂團</title>
-      <link>https://linktr.ee/punch.harp</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c710aae1bf2f4665</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏
-國家：臺灣
-地區：臺灣
-臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。</description>
     </item>
     <item>
       <title>Harmonica FEN 口琴節與學院</title>
