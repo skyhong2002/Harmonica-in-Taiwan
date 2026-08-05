@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 04 Aug 2026 22:53:53 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 00:00:29 +0000</lastBuildDate>
     <item>
       <title>Gregoire Maret</title>
       <link>https://www.gregoiremaret.com/</link>
@@ -49,6 +49,39 @@ Tag：演奏者、合奏、和弦、重奏、演出
 國家：臺灣
 地區：臺灣
 口琴演奏者，專長和弦口琴與重奏演出。</description>
+    </item>
+    <item>
+      <title>口琴保存與推廣協會 SPAH</title>
+      <link>https://spah.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/5ca765124e708518</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：協會、活動資訊、國際交流
+國家：美國
+地區：美國/密蘇里
+美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。</description>
+    </item>
+    <item>
+      <title>雙燕樂器</title>
+      <link>https://www.musix.com.tw/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/436087c2e2f29e3b</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：教學器材、教學
+國家：臺灣
+地區：臺灣
+臺灣的口琴器材來源，關注口琴器材與活動資訊。</description>
+    </item>
+    <item>
+      <title>音和樂器</title>
+      <link>https://0223120930.web66.com.tw/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/946384acc3afb19b</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：教學器材、教學
+國家：臺灣
+地區：臺灣/臺北
+臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。</description>
     </item>
     <item>
       <title>范曉怡</title>
@@ -513,17 +546,6 @@ Tag：演奏者、十孔、國際交流
 巴西的十孔國際演出人員與作曲者，活動脈絡包含Curitiba出身、藍調口琴與Milk&amp;#x27;n&amp;#x27;Blues。</description>
     </item>
     <item>
-      <title>口琴保存與推廣協會 SPAH</title>
-      <link>https://spah.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/5ca765124e708518</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：協會、活動資訊、國際交流
-國家：美國
-地區：美國/密蘇里
-美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。</description>
-    </item>
-    <item>
       <title>Jens Bunge</title>
       <link>https://hohner.de/en/jens-bunge</link>
       <guid>https://harmonica.observe.tw/feeds/sources/bf85aeb31f137bd0</guid>
@@ -929,17 +951,6 @@ Tag：活動資訊、團體樂團、比賽、重奏、國際交流
 國家：馬來西亞
 地區：馬來西亞/吉隆坡
 馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。</description>
-    </item>
-    <item>
-      <title>音和樂器</title>
-      <link>https://0223120930.web66.com.tw/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/946384acc3afb19b</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：教學器材、教學
-國家：臺灣
-地區：臺灣/臺北
-臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。</description>
     </item>
     <item>
       <title>逢甲口琴社</title>
@@ -1369,17 +1380,6 @@ Tag：教學器材、教學、工作室
 國家：臺灣
 地區：臺灣/高雄
 臺灣的口琴與手鼓教學、工作坊與活動來源，關注手鼓教學、工作室與講座。</description>
-    </item>
-    <item>
-      <title>雙燕樂器</title>
-      <link>https://www.musix.com.tw/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/436087c2e2f29e3b</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：教學器材、教學
-國家：臺灣
-地區：臺灣
-臺灣的口琴器材來源，關注口琴器材與活動資訊。</description>
     </item>
     <item>
       <title>吳詠隆</title>

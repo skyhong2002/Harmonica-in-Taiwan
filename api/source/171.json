@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-04T22:53:52.348671Z",
+  "generatedAt": "2026-08-05T00:00:28.572824Z",
   "source": {
     "id": 171,
     "slug": "society-for-the-preservation-and-advancement-of-the-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/171-society-for-the-preservation-and-advancement-of-the-harmonica/"
   },
   "items": [
+    {
+      "id": "post-c1b5a1cfc35e8e3ec64c26ec",
+      "title": "8 days! You ready for some hallway jamming?",
+      "excerpt": "8 days! You ready for some hallway jamming? #spah #joinus #harmonica #harmonicalife",
+      "url": "https://www.instagram.com/p/Dbn5cykK4ot/",
+      "sourceName": "口琴保存與推廣協會 SPAH",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-04T15:35:38Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3de5a8ba5e940a88efbb.webp",
+        "width": 800,
+        "height": 993
+      }
+    },
     {
       "id": "post-9184b47b82e20cf4e8fa28dd",
       "title": "9 days till we see some friends!",
