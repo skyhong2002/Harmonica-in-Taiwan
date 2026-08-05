@@ -245,6 +245,101 @@
       ]
     },
     {
+      "id": "watchlist-80",
+      "publicId": "80",
+      "name": "臺中國家歌劇院",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "臺中國家歌劇院 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-ntt.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/npac.ntt/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nationaltaichungtheater/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@nationaltaichungtheater"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-05T13:44:01+00:00",
+      "latestUpdateLocal": "2026-08-05 21:44",
+      "latestUpdateSource": "臺中國家歌劇院",
+      "latestUpdateUrl": "https://www.instagram.com/stories/nationaltaichungtheater/3957052551765570090/",
+      "avatarUrl": "/assets/source-avatars/87d64b1ca6edf3d5f080.webp",
+      "sourceInitials": "臺中",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_npac_ntt",
+          "name": "臺中國家歌劇院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/npac.ntt",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
+        },
+        {
+          "id": "threads_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "threads",
+          "type": "rss",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
+          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
+        },
+        {
+          "id": "yt_uctl1euke_x0w6tahecepgmq",
+          "name": "臺中國家歌劇院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-2",
       "publicId": "2",
       "name": "臺灣口琴音樂節 THMF",
@@ -851,6 +946,80 @@
       ]
     },
     {
+      "id": "watchlist-32",
+      "publicId": "32",
+      "name": "陳彥銘",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/THMF/和弦口琴/推廣",
+      "structuredSummary": "天狼星/THMF/和弦口琴/推廣 / 和弦/重奏 / 演出人員/推廣者",
+      "summary": "天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。",
+      "keywords": "陳彥銘 口琴 天狼星 THMF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://mx.nthu.edu.tw/~ymchen/sirius/CT.htm"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/emerychen.cm/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yenmingchen/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-05T09:58:26+00:00",
+      "latestUpdateLocal": "2026-08-05 17:58",
+      "latestUpdateSource": "陳彥銘",
+      "latestUpdateUrl": "https://www.instagram.com/stories/yenmingchen/3956938987649920073/",
+      "avatarUrl": "/assets/source-avatars/7a61bb827bdf8bab8c48.webp",
+      "sourceInitials": "陳彥",
+      "sourceTags": [
+        "演奏者",
+        "和弦",
+        "重奏",
+        "交流"
+      ],
+      "sourceSummary": "天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。",
+      "sourceTagReason": "資料明確標註為演奏者，並提及天狼星樂團、和弦口琴及推廣，符合演奏者與相關標籤。",
+      "monitorSources": [
+        {
+          "id": "fb_emerychen_cm",
+          "name": "陳彥銘",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/emerychen.cm",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yenmingchen",
+          "name": "陳彥銘",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yenmingchen",
+          "profileUrl": "https://www.instagram.com/yenmingchen/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yenmingchen/story/0"
+        },
+        {
+          "id": "ig_yenmingchen",
+          "name": "陳彥銘",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yenmingchen",
+          "profileUrl": "https://www.instagram.com/yenmingchen/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-4",
       "publicId": "4",
       "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
@@ -1027,101 +1196,6 @@
           "username": "judygigo",
           "profileUrl": "https://www.threads.net/@judygigo",
           "feedUrl": "https://rss.observe.tw/threads/judygigo"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-80",
-      "publicId": "80",
-      "name": "臺中國家歌劇院",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "臺中國家歌劇院 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-ntt.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/npac.ntt/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nationaltaichungtheater/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@nationaltaichungtheater"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-05T09:18:29+00:00",
-      "latestUpdateLocal": "2026-08-05 17:18",
-      "latestUpdateSource": "臺中國家歌劇院",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=lj0GxN5veho",
-      "avatarUrl": "/assets/source-avatars/87d64b1ca6edf3d5f080.webp",
-      "sourceInitials": "臺中",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_npac_ntt",
-          "name": "臺中國家歌劇院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/npac.ntt",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
-        },
-        {
-          "id": "threads_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "threads",
-          "type": "rss",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
-          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
-        },
-        {
-          "id": "yt_uctl1euke_x0w6tahecepgmq",
-          "name": "臺中國家歌劇院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
-          "feedUrl": ""
         }
       ]
     },
@@ -1618,6 +1692,105 @@
       ]
     },
     {
+      "id": "watchlist-94",
+      "publicId": "94",
+      "name": "Duo Volce Music Studio 誼聲音樂室",
+      "nameEn": "Duo Volce Music Studio",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "工作室/團體",
+      "country": "香港",
+      "region": "香港/國際",
+      "cityOrFocus": "半音階口琴/小提琴二重奏/教學",
+      "structuredSummary": "半音階口琴/小提琴二重奏/教學 / 半音階/小提琴 / 國際教學/演出單位",
+      "summary": "香港的半音階與小提琴國際教學與演出單位，活動脈絡包含半音階口琴、小提琴二重奏與教學。",
+      "keywords": "Duo Volce Music Studio 誼聲音樂室 Harry Choi 蔡偉鏗 harmonica violin Hong Kong",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.duovolce.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/DuoVolce/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/DuoVolce/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/DuoVolce"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/duovolce"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-05T06:09:56+00:00",
+      "latestUpdateLocal": "2026-08-05 14:09",
+      "latestUpdateSource": "Duo Volce Music Studio 誼聲音樂室",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbpdVHgk5-i/",
+      "avatarUrl": "/assets/source-avatars/5f856de4e7f86e6802d3.webp",
+      "sourceInitials": "DVM",
+      "sourceTags": [
+        "團體樂團",
+        "教學",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/DuoVolce",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "DuoVolce",
+          "profileUrl": "https://www.instagram.com/DuoVolce/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "DuoVolce",
+          "profileUrl": "https://www.instagram.com/DuoVolce/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/DuoVolce/story/0"
+        },
+        {
+          "id": "x_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "x",
+          "type": "rss",
+          "username": "duovolce",
+          "profileUrl": "https://x.com/duovolce",
+          "feedUrl": "https://rss.observe.tw/twitter/user/duovolce"
+        },
+        {
+          "id": "yt_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/DuoVolce",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-42",
       "publicId": "42",
       "name": "王心禾",
@@ -2004,6 +2177,55 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@keriw128",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-86",
+      "publicId": "86",
+      "name": "吹出好心琴 + Ou Frog",
+      "nameEn": "Ou Frog",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "教學/影片來源",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴教學影片/示範",
+      "structuredSummary": "口琴教學影片/示範 / 口琴 / 教學影片來源",
+      "summary": "臺灣的口琴教學影片來源，關注口琴教學影片與示範。",
+      "keywords": "吹出好心琴 Ou Frog 口琴 教學 YouTube",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@oufrog"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-05T04:00:03+00:00",
+      "latestUpdateLocal": "2026-08-05 12:00",
+      "latestUpdateSource": "吹出好心琴 + Ou Frog",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=9qVZ0Gf7CFY",
+      "avatarUrl": "/assets/source-avatars/2241bd394301b93492ed.webp",
+      "sourceInitials": "OF",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_oufrog",
+          "name": "吹出好心琴 + Ou Frog",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@oufrog",
           "feedUrl": ""
         }
       ]
@@ -3630,105 +3852,6 @@
           "username": "_leafin_harmonicaensemble",
           "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/_leafin_harmonicaensemble/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-94",
-      "publicId": "94",
-      "name": "Duo Volce Music Studio 誼聲音樂室",
-      "nameEn": "Duo Volce Music Studio",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "工作室/團體",
-      "country": "香港",
-      "region": "香港/國際",
-      "cityOrFocus": "半音階口琴/小提琴二重奏/教學",
-      "structuredSummary": "半音階口琴/小提琴二重奏/教學 / 半音階/小提琴 / 國際教學/演出單位",
-      "summary": "香港的半音階與小提琴國際教學與演出單位，活動脈絡包含半音階口琴、小提琴二重奏與教學。",
-      "keywords": "Duo Volce Music Studio 誼聲音樂室 Harry Choi 蔡偉鏗 harmonica violin Hong Kong",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.duovolce.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/DuoVolce/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/DuoVolce/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/DuoVolce"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/duovolce"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-04T12:21:51+00:00",
-      "latestUpdateLocal": "2026-08-04 20:21",
-      "latestUpdateSource": "Duo Volce Music Studio 誼聲音樂室",
-      "latestUpdateUrl": "https://www.instagram.com/stories/DuoVolce/3956286393580509901/",
-      "avatarUrl": "/assets/source-avatars/5f856de4e7f86e6802d3.webp",
-      "sourceInitials": "DVM",
-      "sourceTags": [
-        "團體樂團",
-        "教學",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/DuoVolce",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "DuoVolce",
-          "profileUrl": "https://www.instagram.com/DuoVolce/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "DuoVolce",
-          "profileUrl": "https://www.instagram.com/DuoVolce/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/DuoVolce/story/0"
-        },
-        {
-          "id": "x_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "x",
-          "type": "rss",
-          "username": "duovolce",
-          "profileUrl": "https://x.com/duovolce",
-          "feedUrl": "https://rss.observe.tw/twitter/user/duovolce"
-        },
-        {
-          "id": "yt_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/DuoVolce",
-          "feedUrl": ""
         }
       ]
     },
@@ -5717,129 +5840,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-32",
-      "publicId": "32",
-      "name": "陳彥銘",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/THMF/和弦口琴/推廣",
-      "structuredSummary": "天狼星/THMF/和弦口琴/推廣 / 和弦/重奏 / 演出人員/推廣者",
-      "summary": "天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。",
-      "keywords": "陳彥銘 口琴 天狼星 THMF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://mx.nthu.edu.tw/~ymchen/sirius/CT.htm"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/emerychen.cm/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yenmingchen/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-03T04:48:14+00:00",
-      "latestUpdateLocal": "2026-08-03 12:48",
-      "latestUpdateSource": "陳彥銘",
-      "latestUpdateUrl": "https://www.instagram.com/stories/yenmingchen/3955333305117078786/",
-      "avatarUrl": "/assets/source-avatars/7a61bb827bdf8bab8c48.webp",
-      "sourceInitials": "陳彥",
-      "sourceTags": [
-        "演奏者",
-        "和弦",
-        "重奏",
-        "交流"
-      ],
-      "sourceSummary": "天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。",
-      "sourceTagReason": "資料明確標註為演奏者，並提及天狼星樂團、和弦口琴及推廣，符合演奏者與相關標籤。",
-      "monitorSources": [
-        {
-          "id": "fb_emerychen_cm",
-          "name": "陳彥銘",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/emerychen.cm",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_yenmingchen",
-          "name": "陳彥銘",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yenmingchen",
-          "profileUrl": "https://www.instagram.com/yenmingchen/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yenmingchen/story/0"
-        },
-        {
-          "id": "ig_yenmingchen",
-          "name": "陳彥銘",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yenmingchen",
-          "profileUrl": "https://www.instagram.com/yenmingchen/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-86",
-      "publicId": "86",
-      "name": "吹出好心琴 + Ou Frog",
-      "nameEn": "Ou Frog",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "教學/影片來源",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴教學影片/示範",
-      "structuredSummary": "口琴教學影片/示範 / 口琴 / 教學影片來源",
-      "summary": "臺灣的口琴教學影片來源，關注口琴教學影片與示範。",
-      "keywords": "吹出好心琴 Ou Frog 口琴 教學 YouTube",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@oufrog"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-03T04:00:15+00:00",
-      "latestUpdateLocal": "2026-08-03 12:00",
-      "latestUpdateSource": "吹出好心琴 + Ou Frog",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=h4YVy8hFtpU",
-      "avatarUrl": "/assets/source-avatars/2241bd394301b93492ed.webp",
-      "sourceInitials": "OF",
-      "sourceTags": [
-        "品牌",
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "yt_oufrog",
-          "name": "吹出好心琴 + Ou Frog",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@oufrog",
           "feedUrl": ""
         }
       ]
