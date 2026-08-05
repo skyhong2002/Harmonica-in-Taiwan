@@ -3703,6 +3703,65 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-225",
+      "publicId": "225",
+      "name": "408 Harmonica Ensemble",
+      "nameEn": "408 Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "香港口琴六重奏/重奏/演出",
+      "structuredSummary": "香港口琴六重奏/重奏/演出 / 半音階/和弦/倍低音/口琴重奏 / 國際演出團體",
+      "summary": "香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。",
+      "keywords": "408 Harmonica Ensemble Hong Kong cy_long biscuit_1217 an_arthur__1 char1am_ ryaantheguy windh_y10 香港 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/408.harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-04T01:03:31+00:00",
+      "latestUpdateLocal": "2026-08-04 09:03",
+      "latestUpdateSource": "408 Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/stories/408.harmonica/3955944972800884269/",
+      "avatarUrl": "/assets/source-avatars/ab8417f459b57ad3eb05.webp",
+      "sourceInitials": "4HE",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "和弦",
+        "低音",
+        "重奏",
+        "演出"
+      ],
+      "sourceSummary": "香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。",
+      "sourceTagReason": "整合自團體官方 Instagram 自介與成員編制貼文。",
+      "monitorSources": [
+        {
+          "id": "ig_408_harmonica",
+          "name": "408 Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "408.harmonica",
+          "profileUrl": "https://www.instagram.com/408.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_408_harmonica",
+          "name": "408 Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "408.harmonica",
+          "profileUrl": "https://www.instagram.com/408.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/408.harmonica/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-195",
       "publicId": "195",
       "name": "彰女微光口琴社",
@@ -4306,65 +4365,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@antonioserranoofficial",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-225",
-      "publicId": "225",
-      "name": "408 Harmonica Ensemble",
-      "nameEn": "408 Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "香港口琴六重奏/重奏/演出",
-      "structuredSummary": "香港口琴六重奏/重奏/演出 / 半音階/和弦/倍低音/口琴重奏 / 國際演出團體",
-      "summary": "香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。",
-      "keywords": "408 Harmonica Ensemble Hong Kong cy_long biscuit_1217 an_arthur__1 char1am_ ryaantheguy windh_y10 香港 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/408.harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-03T13:16:43+00:00",
-      "latestUpdateLocal": "2026-08-03 21:16",
-      "latestUpdateSource": "408 Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/stories/408.harmonica/3955589230370113681/",
-      "avatarUrl": "/assets/source-avatars/ab8417f459b57ad3eb05.webp",
-      "sourceInitials": "4HE",
-      "sourceTags": [
-        "團體樂團",
-        "半音階",
-        "和弦",
-        "低音",
-        "重奏",
-        "演出"
-      ],
-      "sourceSummary": "香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。",
-      "sourceTagReason": "整合自團體官方 Instagram 自介與成員編制貼文。",
-      "monitorSources": [
-        {
-          "id": "ig_408_harmonica",
-          "name": "408 Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "408.harmonica",
-          "profileUrl": "https://www.instagram.com/408.harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_408_harmonica",
-          "name": "408 Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "408.harmonica",
-          "profileUrl": "https://www.instagram.com/408.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/408.harmonica/story/0"
         }
       ]
     },

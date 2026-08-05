@@ -337,6 +337,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/225-408-harmonica-ensemble/</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/195-chgsh-harmonica/</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -380,12 +386,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/132-antonio-serrano/</loc>
-    <lastmod>2026-08-03</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/225-408-harmonica-ensemble/</loc>
     <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
