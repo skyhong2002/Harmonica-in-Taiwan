@@ -5,7 +5,29 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 05 Aug 2026 07:12:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 07:48:12 +0000</lastBuildDate>
+    <item>
+      <title>黃冠誌</title>
+      <link>https://harmonica.tw/course/kuanchih/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、合奏、和弦、重奏、演出
+國家：臺灣
+地區：臺灣
+口琴演奏者，專長和弦口琴與重奏演出。</description>
+    </item>
+    <item>
+      <title>RedBricks Harmonica</title>
+      <link>https://www.facebook.com/redbricksharmonica/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/77378d9ca07a4f96</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏、國際交流
+國家：香港
+地區：香港/國際
+香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
+    </item>
     <item>
       <title>Lee Hangyeol 이한결</title>
       <link>https://www.instagram.com/gyeoli_94/</link>
@@ -38,6 +60,17 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/臺中
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>藤井俊充</title>
+      <link>https://www.facebook.com/100091746706247/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/28e123623573acec</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、十孔、國際交流
+國家：日本
+地區：日本/臺灣爵士圈
+日本的十孔與爵士口琴國際演出人員，活動脈絡包含爵士與跨界。</description>
     </item>
     <item>
       <title>廖苡晴</title>
@@ -194,17 +227,6 @@ Tag：團體樂團、重奏
 臺灣的大學生新生代口琴重奏演出團體。</description>
     </item>
     <item>
-      <title>黃冠誌</title>
-      <link>https://harmonica.tw/course/kuanchih/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c290f8346ba4f494</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、合奏、和弦、重奏、演出
-國家：臺灣
-地區：臺灣
-口琴演奏者，專長和弦口琴與重奏演出。</description>
-    </item>
-    <item>
       <title>口琴保存與推廣協會 SPAH</title>
       <link>https://spah.org/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/5ca765124e708518</guid>
@@ -291,17 +313,6 @@ Tag：演奏者
 國家：臺灣
 地區：臺灣
 臺灣的口琴演出人員，活動脈絡包含胖擊系。</description>
-    </item>
-    <item>
-      <title>藤井俊充</title>
-      <link>https://www.facebook.com/100091746706247/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/28e123623573acec</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、十孔、國際交流
-國家：日本
-地區：日本/臺灣爵士圈
-日本的十孔與爵士口琴國際演出人員，活動脈絡包含爵士與跨界。</description>
     </item>
     <item>
       <title>Leafin Harmonica Ensemble</title>
@@ -555,17 +566,6 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/新竹
 臺灣的場館資訊來源，提供校內藝文與合作演出相關資訊。</description>
-    </item>
-    <item>
-      <title>RedBricks Harmonica</title>
-      <link>https://www.facebook.com/redbricksharmonica/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/77378d9ca07a4f96</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏、國際交流
-國家：香港
-地區：香港/國際
-香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
     </item>
     <item>
       <title>Aiden N Evelyn / Aiden Soon &amp; Evelyn Choong</title>
