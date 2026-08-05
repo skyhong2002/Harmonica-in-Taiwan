@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T00:33:40.601972Z",
+  "generatedAt": "2026-08-05T01:06:57.948525Z",
   "source": {
     "id": 127,
     "slug": "reyharp-and-balawan-project",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/127-reyharp-and-balawan-project/"
   },
   "items": [
+    {
+      "id": "post-f7f79659ba0098ef896cc2e5",
+      "title": "Reyharp feat. Hari Pochang - Blues Improvisations (Live at Bandoeng Jazz Festive)",
+      "excerpt": "Reyharp feat. Hari Pochang - Blues Improvisations (Live at Bandoeng Jazz Festive)",
+      "url": "https://www.youtube.com/watch?v=_gTH51_Mlaw",
+      "sourceName": "Reyharp and Balawan Project",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-04T04:33:47Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d99ecaad080aa9f77250.webp",
+        "width": 480,
+        "height": 360
+      }
+    },
     {
       "id": "post-57676ea6fd0566571b7914f3",
       "title": "Aldi Taher feat. Reyharp - Masterplan (Tribute to Oasis)",
