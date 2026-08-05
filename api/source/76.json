@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T15:39:40.097158Z",
+  "generatedAt": "2026-08-05T16:45:00.840237Z",
   "source": {
     "id": 76,
     "slug": "76",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/76/"
   },
   "items": [
+    {
+      "id": "post-68dcf57db795fa07b3619653",
+      "title": "文科客家諺語教室L407【天轉笠嫲花】",
+      "excerpt": "文科客家諺語教室L407【天轉笠嫲花】 #文科客家諺語教室 開講囉👨‍🏫 ▍每週三，文科老師教您 #共下來講客家話 【天轉笠嫲花】形容一個人得意快樂的樣子! #新竹縣 #客家文化",
+      "url": "https://www.youtube.com/watch?v=fcH2iIViips",
+      "sourceName": "新竹縣文化局",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-05T04:00:01Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ec630d59c1b9f11a3ab6.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-ff0b0c09d91e1ab062569de5",
       "title": "【藝紀錄．竹縣瑰寶】第二十七集 2026新竹縣優秀藝術家薪傳展 寄情山水‧世紀凝視 司徒錦鷹山水畫展 專訪紀錄片 115.07.31",
