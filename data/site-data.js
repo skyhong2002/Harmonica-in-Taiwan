@@ -2,6 +2,103 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-05",
   "entries": [
     {
+      "id": "watchlist-57",
+      "publicId": "57",
+      "name": "山下伶 Rei Yamashita",
+      "nameEn": "Rei Yamashita",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/演出",
+      "structuredSummary": "半音階/專輯/演出 / 半音階 / 國際演出人員",
+      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯與演出。",
+      "keywords": "山下伶 Rei Yamashita harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://rei-yamashita.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/rei.yamashita.5"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/rei_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@reiyamashita"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/rei_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-05T08:32:28+00:00",
+      "latestUpdateLocal": "2026-08-05 16:32",
+      "latestUpdateSource": "山下伶 Rei Yamashita",
+      "latestUpdateUrl": "https://www.instagram.com/stories/rei_harmonica/3956895690286462493/",
+      "avatarUrl": "/assets/source-avatars/922212d7037a7b22787b.webp",
+      "sourceInitials": "RY",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_rei_yamashita_5",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/rei.yamashita.5",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "rei_harmonica",
+          "profileUrl": "https://www.instagram.com/rei_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "rei_harmonica",
+          "profileUrl": "https://www.instagram.com/rei_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/rei_harmonica/story/0"
+        },
+        {
+          "id": "x_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "x",
+          "type": "rss",
+          "username": "rei_harmonica",
+          "profileUrl": "https://x.com/rei_harmonica",
+          "feedUrl": "https://rss.observe.tw/twitter/user/rei_harmonica"
+        },
+        {
+          "id": "yt_reiyamashita",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@reiyamashita",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-33",
       "publicId": "33",
       "name": "黃冠誌",
@@ -153,6 +250,65 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@RedBricksHarmonica",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-225",
+      "publicId": "225",
+      "name": "408 Harmonica Ensemble",
+      "nameEn": "408 Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "香港口琴六重奏/重奏/演出",
+      "structuredSummary": "香港口琴六重奏/重奏/演出 / 半音階/和弦/倍低音/口琴重奏 / 國際演出團體",
+      "summary": "香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。",
+      "keywords": "408 Harmonica Ensemble Hong Kong cy_long biscuit_1217 an_arthur__1 char1am_ ryaantheguy windh_y10 香港 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/408.harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-05T05:13:27+00:00",
+      "latestUpdateLocal": "2026-08-05 13:13",
+      "latestUpdateSource": "408 Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/stories/408.harmonica/3956795553497635707/",
+      "avatarUrl": "/assets/source-avatars/ab8417f459b57ad3eb05.webp",
+      "sourceInitials": "4HE",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "和弦",
+        "低音",
+        "重奏",
+        "演出"
+      ],
+      "sourceSummary": "香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。",
+      "sourceTagReason": "整合自團體官方 Instagram 自介與成員編制貼文。",
+      "monitorSources": [
+        {
+          "id": "ig_408_harmonica",
+          "name": "408 Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "408.harmonica",
+          "profileUrl": "https://www.instagram.com/408.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_408_harmonica",
+          "name": "408 Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "408.harmonica",
+          "profileUrl": "https://www.instagram.com/408.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/408.harmonica/story/0"
         }
       ]
     },
@@ -4478,65 +4634,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-225",
-      "publicId": "225",
-      "name": "408 Harmonica Ensemble",
-      "nameEn": "408 Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "香港口琴六重奏/重奏/演出",
-      "structuredSummary": "香港口琴六重奏/重奏/演出 / 半音階/和弦/倍低音/口琴重奏 / 國際演出團體",
-      "summary": "香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。",
-      "keywords": "408 Harmonica Ensemble Hong Kong cy_long biscuit_1217 an_arthur__1 char1am_ ryaantheguy windh_y10 香港 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/408.harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-04T01:03:31+00:00",
-      "latestUpdateLocal": "2026-08-04 09:03",
-      "latestUpdateSource": "408 Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/stories/408.harmonica/3955944972800884269/",
-      "avatarUrl": "/assets/source-avatars/ab8417f459b57ad3eb05.webp",
-      "sourceInitials": "4HE",
-      "sourceTags": [
-        "團體樂團",
-        "半音階",
-        "和弦",
-        "低音",
-        "重奏",
-        "演出"
-      ],
-      "sourceSummary": "香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。",
-      "sourceTagReason": "整合自團體官方 Instagram 自介與成員編制貼文。",
-      "monitorSources": [
-        {
-          "id": "ig_408_harmonica",
-          "name": "408 Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "408.harmonica",
-          "profileUrl": "https://www.instagram.com/408.harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_408_harmonica",
-          "name": "408 Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "408.harmonica",
-          "profileUrl": "https://www.instagram.com/408.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/408.harmonica/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-195",
       "publicId": "195",
       "name": "彰女微光口琴社",
@@ -5226,103 +5323,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@FedericoLinari",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-57",
-      "publicId": "57",
-      "name": "山下伶 Rei Yamashita",
-      "nameEn": "Rei Yamashita",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/演出",
-      "structuredSummary": "半音階/專輯/演出 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯與演出。",
-      "keywords": "山下伶 Rei Yamashita harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://rei-yamashita.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/rei.yamashita.5"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/rei_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@reiyamashita"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/rei_harmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-03T12:00:10+00:00",
-      "latestUpdateLocal": "2026-08-03 20:00",
-      "latestUpdateSource": "山下伶 Rei Yamashita",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dbk8GGzxmpT/",
-      "avatarUrl": "/assets/source-avatars/922212d7037a7b22787b.webp",
-      "sourceInitials": "RY",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_rei_yamashita_5",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/rei.yamashita.5",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "rei_harmonica",
-          "profileUrl": "https://www.instagram.com/rei_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "rei_harmonica",
-          "profileUrl": "https://www.instagram.com/rei_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/rei_harmonica/story/0"
-        },
-        {
-          "id": "x_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "x",
-          "type": "rss",
-          "username": "rei_harmonica",
-          "profileUrl": "https://x.com/rei_harmonica",
-          "feedUrl": "https://rss.observe.tw/twitter/user/rei_harmonica"
-        },
-        {
-          "id": "yt_reiyamashita",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@reiyamashita",
           "feedUrl": ""
         }
       ]
