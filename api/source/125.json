@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T10:39:06.466326Z",
+  "generatedAt": "2026-08-05T11:13:18.421813Z",
   "source": {
     "id": 125,
     "slug": "jens-bunge",
@@ -258,20 +258,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/03ee1c3b6d709aa2591b.webp",
         "width": 640,
         "height": 1136
-      }
-    },
-    {
-      "id": "post-a7bd9fa7cf71e9faf293a3ee",
-      "title": "First day of recording",
-      "excerpt": "First day of recording",
-      "url": "https://www.instagram.com/p/DacssDgvaIW/",
-      "sourceName": "Jens Bunge",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-06T10:41:41Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/2d0d457781568919209d.webp",
-        "width": 1440,
-        "height": 1440
       }
     }
   ]
