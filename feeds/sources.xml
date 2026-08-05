@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 05 Aug 2026 04:57:55 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 06:03:39 +0000</lastBuildDate>
     <item>
       <title>Lee Hangyeol 이한결</title>
       <link>https://www.instagram.com/gyeoli_94/</link>
@@ -27,6 +27,17 @@ Tag：教學器材、教學
 國家：臺灣
 地區：臺灣/臺北
 臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。</description>
+    </item>
+    <item>
+      <title>臺中國家歌劇院</title>
+      <link>https://www.npac-ntt.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/臺中
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>王衍華</title>
@@ -203,17 +214,6 @@ Tag：演奏者、十孔、國際交流
 國家：日本
 地區：日本
 日本的十孔國際演出人員，活動脈絡包含藍調。</description>
-    </item>
-    <item>
-      <title>臺中國家歌劇院</title>
-      <link>https://www.npac-ntt.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/臺中
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>衛武營國家藝術文化中心</title>
