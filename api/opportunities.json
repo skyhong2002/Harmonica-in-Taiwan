@@ -7,8 +7,85 @@
   "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
   "json": "https://harmonica.observe.tw/api/opportunities.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/opportunities.json",
-  "count": 131,
+  "count": 132,
   "items": [
+    {
+      "title": "Konstantin Reinfeld｜How to Play “The Chicken” on Harmonica | 11th Position 🔥 Watch the complete 19-minute lesson on Pat…",
+      "headline": "How to Play “The Chicken” on Harmonica | 11th Position",
+      "display_title": "How to Play “The Chicken” on Harmonica | 11th Position",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=ncnv49Ly7MQ",
+      "source_id": "yt_konstantinreinfeld",
+      "source": "Konstantin Reinfeld",
+      "source_system_name": "Konstantin Reinfeld",
+      "source_profile_url": "https://www.youtube.com/channel/UC0TK6DAoV_VVnjfW6X5T_CQ",
+      "country": "德國",
+      "region": "德國",
+      "directory_entry_id": "watchlist-107",
+      "directory_entry_name": "Konstantin Reinfeld",
+      "account": "https://www.youtube.com/channel/UC0TK6DAoV_VVnjfW6X5T_CQ",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-08-05T16:51:54+00:00",
+      "posted_at_local": "2026-08-06 00:51",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-05T20:33:00.489722+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "影片",
+        "課程",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.92,
+      "llm_labels": [
+        "口琴",
+        "影片",
+        "課程",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴教學影片，含線上課程與公開更新，且提到臺灣口琴合奏團。",
+      "text": "How to Play “The Chicken” on Harmonica | 11th Position\n🔥 Watch the complete 19-minute lesson on Patreon:\n→ https://patreon.com/konstantinreinfeld\nSave 20% with the annual Patreon membership.\n🎵 The Chicken Harmonica Lesson – 11th Position on a C Harp\nIn this video, we explore The Chicken in B♭ on a C harmonica.\nThe obvious choice would be an E♭ harmonica in 2nd position. Instead, we use 11th position – a surprisingly bluesy and practical way to approach the tune.\nThis arrangement was inspired by our encore with the Sirius Harmonica Ensemble from Taiwan at the Seoul International Harmonica Festival.\nThe progression includes D7, G7 and C7 – the same dominant chords we already know from playing a regular 12-bar blues in G on a C harp. That makes several parts of the tune feel familiar and gives us a strong foundation for improvisation.\n⚠️ The complete Patreon lesson includes:\n• full 19-minute lesson\n• complete melody breakdown\n• note choices and position layout\n• improvisation ideas over the chord changes\n• practical exploration of 11th position\n👉 Get the full lesson here:\nhttps://patreon.com/konstantinreinfeld\nChoose the annual membership to save 20%.\n//\n► Online harmonica lessons:\nl…",
+      "images": [
+        "https://i.ytimg.com/vi/ncnv49Ly7MQ/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/ncnv49Ly7MQ/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/02c2bc04c4c5eb3aba6b.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_n433_f3X8URO0TSL-R8tWZd6UwzSYbifUfNIlPCYEp7w=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/11267371ae9633c34445.webp",
+      "source_initials": "KR",
+      "categories": [
+        "posts-videos",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽"
+      ],
+      "key": "yt_konstantinreinfeld:ncnv49Ly7MQ"
+    },
     {
       "title": "衛武營國家藝術文化中心｜開放新舞台，跨界交鋒 🔥 2026 臺灣舞蹈平台《混種對決》Open Call 報名時間延長 各路舞林好手武營來相會，隨現場 DJ 的音樂，即興展現舞台魅力。 誠摯邀請芭蕾功底、馬戲體技精湛的你一起加入，燃燒對舞蹈…",
       "headline": "開放新舞台，跨界交鋒 🔥 2026 臺灣舞蹈平台《混種對決》Open Call 報名時間延長",
