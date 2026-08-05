@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T12:20:21.481427Z",
+  "generatedAt": "2026-08-05T13:26:20.184461Z",
   "source": {
     "id": 125,
     "slug": "jens-bunge",
@@ -8,6 +8,34 @@
     "pageUrl": "https://harmonica.observe.tw/source/125-jens-bunge/"
   },
   "items": [
+    {
+      "id": "post-3aa047fb5b2d6eb7970db765",
+      "title": "About to board SQ326 to Frankfurt, I want to say it’s been a wonderful 35 days here in Asia (Singapore - Bangkok - Seou…",
+      "excerpt": "About to board SQ326 to Frankfurt, I want to say it’s been a wonderful 35 days here in Asia (Singapore - Bangkok - Seoul), full of music (only one da... About to board SQ326 to Frankfurt, I want to say it’s been a wonderful 35 days here in Asia (Singapore - Bangkok - Seoul), ful…",
+      "url": "https://www.instagram.com/p/DbpHHpdOhV6/",
+      "sourceName": "Jens Bunge",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-05T03:28:02Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/343d9fa41e5f3d3d6f9b.webp",
+        "width": 800,
+        "height": 1067
+      }
+    },
+    {
+      "id": "post-c3cf8cb10124bff52df0634c",
+      "title": "Jam Session at Blu Jaz Singapore",
+      "excerpt": "Jam Session at Blu Jaz Singapore",
+      "url": "https://www.instagram.com/p/DbpFzu5FpWW/",
+      "sourceName": "Jens Bunge",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-05T02:41:58Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/7315a78d70980e47b1a8.webp",
+        "width": 800,
+        "height": 599
+      }
+    },
     {
       "id": "post-55662ac7b4eb3bed13326d1e",
       "title": "Jam session at Sounddog",
@@ -244,20 +272,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/a5f2fdb0a69d24a2a46e.webp",
         "width": 800,
         "height": 1067
-      }
-    },
-    {
-      "id": "post-e7b7e28e63c634ee5b4da9b0",
-      "title": "Happening now at Bistro du Vin Singapore with Richard Jackson, vocals, and Rick Smith, guitar.",
-      "excerpt": "Happening now at Bistro du Vin Singapore with Richard Jackson, vocals, and Rick Smith, guitar.",
-      "url": "https://www.instagram.com/p/Dac9DmmusNn/",
-      "sourceName": "Jens Bunge",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-06T13:17:47Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/03ee1c3b6d709aa2591b.webp",
-        "width": 640,
-        "height": 1136
       }
     }
   ]
