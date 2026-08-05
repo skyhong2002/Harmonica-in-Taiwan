@@ -227,6 +227,175 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-140",
+      "publicId": "140",
+      "name": "Gregoire Maret",
+      "nameEn": "Gregoire Maret",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "瑞士",
+      "region": "美國",
+      "cityOrFocus": "紐約發展/Grammy得主/現代爵士半音階/作曲",
+      "structuredSummary": "紐約發展/Grammy得主/現代爵士半音階/作曲 / 半音階 / 國際演出人員/作曲者",
+      "summary": "瑞士的半音階國際演出人員與作曲者，活動脈絡包含紐約發展、Grammy得主與現代爵士半音階。",
+      "keywords": "Gregoire Maret Grégoire Maret harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.gregoiremaret.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/gregoiremaret1/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/gregoiremaret/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@GregoireMaret"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-05T16:31:00+00:00",
+      "latestUpdateLocal": "2026-08-06 00:31",
+      "latestUpdateSource": "Gregoire Maret",
+      "latestUpdateUrl": "https://www.instagram.com/p/Dbqkd-Ot0-G/",
+      "avatarUrl": "/assets/source-avatars/aaa38b3006e2f299e510.webp",
+      "sourceInitials": "GM",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_gregoiremaret1",
+          "name": "Gregoire Maret",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/gregoiremaret1",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_gregoiremaret",
+          "name": "Gregoire Maret",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "gregoiremaret",
+          "profileUrl": "https://www.instagram.com/gregoiremaret/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_gregoiremaret",
+          "name": "Gregoire Maret",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "gregoiremaret",
+          "profileUrl": "https://www.instagram.com/gregoiremaret/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/gregoiremaret/story/0"
+        },
+        {
+          "id": "yt_gregoiremaret",
+          "name": "Gregoire Maret",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@GregoireMaret",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-142",
+      "publicId": "142",
+      "name": "Howard Levy",
+      "nameEn": "Howard Levy",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "美國",
+      "region": "美國",
+      "cityOrFocus": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興",
+      "structuredSummary": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興 / 半音階/十孔/鋼琴 / 國際演出人員/作曲者/教育者",
+      "summary": "美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。",
+      "keywords": "Howard Levy harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://levyland.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HowardLevyFanPage/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/howardlevyland/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-05T16:16:57+00:00",
+      "latestUpdateLocal": "2026-08-06 00:16",
+      "latestUpdateSource": "Howard Levy",
+      "latestUpdateUrl": "https://www.instagram.com/stories/howardlevyland/3957129499309411903/",
+      "avatarUrl": "/assets/source-avatars/ed720e7dec4432a6aac1.webp",
+      "sourceInitials": "HL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_howardlevyfanpage",
+          "name": "Howard Levy",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HowardLevyFanPage",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_howardlevyland",
+          "name": "Howard Levy",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "howardlevyland",
+          "profileUrl": "https://www.instagram.com/howardlevyland/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_howardlevyland",
+          "name": "Howard Levy",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "howardlevyland",
+          "profileUrl": "https://www.instagram.com/howardlevyland/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/howardlevyland/story/0"
+        },
+        {
+          "id": "yt_uc86aeg8s_npzmfuj_cyxw",
+          "name": "Howard Levy",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-50",
       "publicId": "50",
       "name": "Aiden Soon",
@@ -278,91 +447,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "aidensoon",
           "profileUrl": "https://www.instagram.com/aidensoon/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-142",
-      "publicId": "142",
-      "name": "Howard Levy",
-      "nameEn": "Howard Levy",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "美國",
-      "region": "美國",
-      "cityOrFocus": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興",
-      "structuredSummary": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興 / 半音階/十孔/鋼琴 / 國際演出人員/作曲者/教育者",
-      "summary": "美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。",
-      "keywords": "Howard Levy harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://levyland.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HowardLevyFanPage/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/howardlevyland/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-05T15:10:47+00:00",
-      "latestUpdateLocal": "2026-08-05 23:10",
-      "latestUpdateSource": "Howard Levy",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbqawqXuuWM/",
-      "avatarUrl": "/assets/source-avatars/ed720e7dec4432a6aac1.webp",
-      "sourceInitials": "HL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_howardlevyfanpage",
-          "name": "Howard Levy",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HowardLevyFanPage",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_howardlevyland",
-          "name": "Howard Levy",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "howardlevyland",
-          "profileUrl": "https://www.instagram.com/howardlevyland/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_howardlevyland",
-          "name": "Howard Levy",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "howardlevyland",
-          "profileUrl": "https://www.instagram.com/howardlevyland/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/howardlevyland/story/0"
-        },
-        {
-          "id": "yt_uc86aeg8s_npzmfuj_cyxw",
-          "name": "Howard Levy",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
-          "feedUrl": ""
         }
       ]
     },
@@ -517,6 +601,60 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@NUSHO",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-59",
+      "publicId": "59",
+      "name": "千賀太郎",
+      "nameEn": "Taro Senga",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "十孔/藍調",
+      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
+      "summary": "日本的十孔國際演出人員，活動脈絡包含藍調。",
+      "keywords": "千賀太郎 Taro Senga harmonica",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/taro_senga/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-05T14:34:06+00:00",
+      "latestUpdateLocal": "2026-08-05 22:34",
+      "latestUpdateSource": "千賀太郎",
+      "latestUpdateUrl": "https://www.instagram.com/stories/taro_senga/3957077757745737748/",
+      "avatarUrl": "/assets/source-avatars/5543138071fab2b371b8.webp",
+      "sourceInitials": "千賀",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_taro_senga",
+          "name": "千賀太郎",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "taro_senga",
+          "profileUrl": "https://www.instagram.com/taro_senga/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/taro_senga/story/0"
+        },
+        {
+          "id": "ig_taro_senga",
+          "name": "千賀太郎",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taro_senga",
+          "profileUrl": "https://www.instagram.com/taro_senga/",
           "feedUrl": ""
         }
       ]
@@ -782,6 +920,92 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/YoonseokLee_HARMONICA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-65",
+      "publicId": "65",
+      "name": "Jong-seong Park 朴鍾聲",
+      "nameEn": "Jong-seong Park",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "半音階/國際級演出",
+      "structuredSummary": "半音階/國際級演出 / 半音階 / 國際演出人員",
+      "summary": "韓國半音階口琴演奏家，活躍於國際舞台。",
+      "keywords": "Jong-seong Park 朴鍾聲 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.mnac.co.kr/jongseongpark"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonicapark/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jongseongpark_harmonicist/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/jongseongpark"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-05T13:56:37+00:00",
+      "latestUpdateLocal": "2026-08-05 21:56",
+      "latestUpdateSource": "Jong-seong Park 朴鍾聲",
+      "latestUpdateUrl": "https://www.instagram.com/stories/jongseongpark_harmonicist/3957058904148661045/",
+      "avatarUrl": "/assets/source-avatars/18b492947bf0f5db7754.webp",
+      "sourceInitials": "JSP",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "sourceSummary": "韓國半音階口琴演奏家，活躍於國際舞台。",
+      "sourceTagReason": "資料明確標註為「演奏者」與「個人」，且其專長與定位為「半音階/國際級演出」。",
+      "monitorSources": [
+        {
+          "id": "fb_harmonicapark",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonicapark",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_jongseongpark_harmonicist",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jongseongpark_harmonicist",
+          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jongseongpark_harmonicist",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jongseongpark_harmonicist",
+          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/jongseongpark_harmonicist/story/0"
+        },
+        {
+          "id": "yt_jongseongpark",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/jongseongpark",
           "feedUrl": ""
         }
       ]
@@ -1059,6 +1283,160 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/SiriusHARP",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-218",
+      "publicId": "218",
+      "name": "Evelyn Choong 鍾雪兒",
+      "nameEn": "Evelyn Choong",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
+      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "Evelyn Choong 鍾雪兒 evelyn_harmonica World Harmonica Champion Aiden N Evelyn harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/evelyn.choong.3/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/evelyn_harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-05T13:16:21+00:00",
+      "latestUpdateLocal": "2026-08-05 21:16",
+      "latestUpdateSource": "Evelyn Choong 鍾雪兒",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbqOZ5cmvNI/",
+      "avatarUrl": "/assets/source-avatars/ebb454b0d2b789ec227e.webp",
+      "sourceInitials": "EC",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_evelyn_choong_3",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/evelyn.choong.3",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_evelyn_harmonica",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "evelyn_harmonica",
+          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_evelyn_harmonica",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "evelyn_harmonica",
+          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/evelyn_harmonica/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-16",
+      "publicId": "16",
+      "name": "Dr. Blue 口琴樂團",
+      "nameEn": "",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "青年重奏/台大藍聲系",
+      "structuredSummary": "青年重奏/台大藍聲系 / 口琴重奏 / 演出團體",
+      "summary": "台大藍聲系背景的青年口琴重奏樂團，專注於室內樂演出。",
+      "keywords": "Dr. Blue 口琴樂團",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://drblue.kktix.cc/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/dr.blueharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/dr.blue_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-05T11:26:15+00:00",
+      "latestUpdateLocal": "2026-08-05 19:26",
+      "latestUpdateSource": "Dr. Blue 口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/stories/dr.blue_harmonica/3956983296784683494/",
+      "avatarUrl": "/assets/source-avatars/aa0aaede3543a796bd61.webp",
+      "sourceInitials": "DB",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "演出"
+      ],
+      "sourceSummary": "台大藍聲系背景的青年口琴重奏樂團，專注於室內樂演出。",
+      "sourceTagReason": "資料明確標示為「團體樂團」，並強調「青年重奏」、「台大藍聲系」與「口琴重奏」，屬於演奏團體。",
+      "monitorSources": [
+        {
+          "id": "fb_dr_blueharmonica",
+          "name": "Dr. Blue 口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/dr.blueharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_dr_blue_harmonica",
+          "name": "Dr. Blue 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "dr.blue_harmonica",
+          "profileUrl": "https://www.instagram.com/dr.blue_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_dr_blue_harmonica",
+          "name": "Dr. Blue 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "dr.blue_harmonica",
+          "profileUrl": "https://www.instagram.com/dr.blue_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/dr.blue_harmonica/story/0"
+        },
+        {
+          "id": "yt_ucvhln_2awpljqbfo_9apatw",
+          "name": "Dr. Blue 口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw",
           "feedUrl": ""
         }
       ]
@@ -2499,92 +2877,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-65",
-      "publicId": "65",
-      "name": "Jong-seong Park 朴鍾聲",
-      "nameEn": "Jong-seong Park",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "半音階/國際級演出",
-      "structuredSummary": "半音階/國際級演出 / 半音階 / 國際演出人員",
-      "summary": "韓國半音階口琴演奏家，活躍於國際舞台。",
-      "keywords": "Jong-seong Park 朴鍾聲 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.mnac.co.kr/jongseongpark"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonicapark/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jongseongpark_harmonicist/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/jongseongpark"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-05T04:11:08+00:00",
-      "latestUpdateLocal": "2026-08-05 12:11",
-      "latestUpdateSource": "Jong-seong Park 朴鍾聲",
-      "latestUpdateUrl": "https://www.instagram.com/stories/jongseongpark_harmonicist/3956764209816246831/",
-      "avatarUrl": "/assets/source-avatars/18b492947bf0f5db7754.webp",
-      "sourceInitials": "JSP",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "sourceSummary": "韓國半音階口琴演奏家，活躍於國際舞台。",
-      "sourceTagReason": "資料明確標註為「演奏者」與「個人」，且其專長與定位為「半音階/國際級演出」。",
-      "monitorSources": [
-        {
-          "id": "fb_harmonicapark",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonicapark",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_jongseongpark_harmonicist",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jongseongpark_harmonicist",
-          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jongseongpark_harmonicist",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jongseongpark_harmonicist",
-          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jongseongpark_harmonicist/story/0"
-        },
-        {
-          "id": "yt_jongseongpark",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/jongseongpark",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-34",
       "publicId": "34",
       "name": "王衍華",
@@ -3426,90 +3718,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-140",
-      "publicId": "140",
-      "name": "Gregoire Maret",
-      "nameEn": "Gregoire Maret",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "瑞士",
-      "region": "美國",
-      "cityOrFocus": "紐約發展/Grammy得主/現代爵士半音階/作曲",
-      "structuredSummary": "紐約發展/Grammy得主/現代爵士半音階/作曲 / 半音階 / 國際演出人員/作曲者",
-      "summary": "瑞士的半音階國際演出人員與作曲者，活動脈絡包含紐約發展、Grammy得主與現代爵士半音階。",
-      "keywords": "Gregoire Maret Grégoire Maret harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.gregoiremaret.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/gregoiremaret1/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/gregoiremaret/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@GregoireMaret"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-04T18:53:50+00:00",
-      "latestUpdateLocal": "2026-08-05 02:53",
-      "latestUpdateSource": "Gregoire Maret",
-      "latestUpdateUrl": "https://www.instagram.com/p/DboQO-CjXW1/",
-      "avatarUrl": "/assets/source-avatars/aaa38b3006e2f299e510.webp",
-      "sourceInitials": "GM",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_gregoiremaret1",
-          "name": "Gregoire Maret",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/gregoiremaret1",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_gregoiremaret",
-          "name": "Gregoire Maret",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "gregoiremaret",
-          "profileUrl": "https://www.instagram.com/gregoiremaret/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_gregoiremaret",
-          "name": "Gregoire Maret",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "gregoiremaret",
-          "profileUrl": "https://www.instagram.com/gregoiremaret/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/gregoiremaret/story/0"
-        },
-        {
-          "id": "yt_gregoiremaret",
-          "name": "Gregoire Maret",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@GregoireMaret",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-18",
       "publicId": "18",
       "name": "Up Side Down",
@@ -3977,60 +4185,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "fanhsiaoyi",
           "profileUrl": "https://www.threads.net/@fanhsiaoyi",
           "feedUrl": "https://rss.observe.tw/threads/fanhsiaoyi"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-59",
-      "publicId": "59",
-      "name": "千賀太郎",
-      "nameEn": "Taro Senga",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "十孔/藍調",
-      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
-      "summary": "日本的十孔國際演出人員，活動脈絡包含藍調。",
-      "keywords": "千賀太郎 Taro Senga harmonica",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/taro_senga/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-04T14:42:27+00:00",
-      "latestUpdateLocal": "2026-08-04 22:42",
-      "latestUpdateSource": "千賀太郎",
-      "latestUpdateUrl": "https://www.instagram.com/stories/taro_senga/3956357180932948910/",
-      "avatarUrl": "/assets/source-avatars/5543138071fab2b371b8.webp",
-      "sourceInitials": "千賀",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_taro_senga",
-          "name": "千賀太郎",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "taro_senga",
-          "profileUrl": "https://www.instagram.com/taro_senga/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/taro_senga/story/0"
-        },
-        {
-          "id": "ig_taro_senga",
-          "name": "千賀太郎",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "taro_senga",
-          "profileUrl": "https://www.instagram.com/taro_senga/",
-          "feedUrl": ""
         }
       ]
     },
@@ -5100,74 +5254,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/c/aidennevelyn",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-218",
-      "publicId": "218",
-      "name": "Evelyn Choong 鍾雪兒",
-      "nameEn": "Evelyn Choong",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
-      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
-      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
-      "keywords": "Evelyn Choong 鍾雪兒 evelyn_harmonica World Harmonica Champion Aiden N Evelyn harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/evelyn.choong.3/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/evelyn_harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-04T02:04:11+00:00",
-      "latestUpdateLocal": "2026-08-04 10:04",
-      "latestUpdateSource": "Evelyn Choong 鍾雪兒",
-      "latestUpdateUrl": "https://www.instagram.com/stories/evelyn_harmonica/3955975526884182516/",
-      "avatarUrl": "/assets/source-avatars/ebb454b0d2b789ec227e.webp",
-      "sourceInitials": "EC",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_evelyn_choong_3",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/evelyn.choong.3",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_evelyn_harmonica",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "evelyn_harmonica",
-          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_evelyn_harmonica",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "evelyn_harmonica",
-          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/evelyn_harmonica/story/0"
         }
       ]
     },
@@ -9502,92 +9588,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@yoyo708520",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-16",
-      "publicId": "16",
-      "name": "Dr. Blue 口琴樂團",
-      "nameEn": "",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "青年重奏/台大藍聲系",
-      "structuredSummary": "青年重奏/台大藍聲系 / 口琴重奏 / 演出團體",
-      "summary": "台大藍聲系背景的青年口琴重奏樂團，專注於室內樂演出。",
-      "keywords": "Dr. Blue 口琴樂團",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://drblue.kktix.cc/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/dr.blueharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/dr.blue_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-07T07:25:18+00:00",
-      "latestUpdateLocal": "2026-07-07 15:25",
-      "latestUpdateSource": "Dr. Blue 口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dae67MplHe5/",
-      "avatarUrl": "/assets/source-avatars/aa0aaede3543a796bd61.webp",
-      "sourceInitials": "DB",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "演出"
-      ],
-      "sourceSummary": "台大藍聲系背景的青年口琴重奏樂團，專注於室內樂演出。",
-      "sourceTagReason": "資料明確標示為「團體樂團」，並強調「青年重奏」、「台大藍聲系」與「口琴重奏」，屬於演奏團體。",
-      "monitorSources": [
-        {
-          "id": "fb_dr_blueharmonica",
-          "name": "Dr. Blue 口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/dr.blueharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_dr_blue_harmonica",
-          "name": "Dr. Blue 口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "dr.blue_harmonica",
-          "profileUrl": "https://www.instagram.com/dr.blue_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_dr_blue_harmonica",
-          "name": "Dr. Blue 口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "dr.blue_harmonica",
-          "profileUrl": "https://www.instagram.com/dr.blue_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/dr.blue_harmonica/story/0"
-        },
-        {
-          "id": "yt_ucvhln_2awpljqbfo_9apatw",
-          "name": "Dr. Blue 口琴樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw",
           "feedUrl": ""
         }
       ]
