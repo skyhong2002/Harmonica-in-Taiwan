@@ -178,6 +178,72 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-97",
+      "publicId": "97",
+      "name": "進擊的口琴樂團",
+      "nameEn": "",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/青年團體/演出",
+      "structuredSummary": "重奏/青年團體/演出 / 口琴重奏 / 演出團體",
+      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含重奏、青年團體與演出。",
+      "keywords": "進擊的口琴樂團 attack_on_harmonica_ensemble 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/attack_on_harmonica_ensemble/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@attack_on_harmonica_ensemble"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-05T10:00:09+00:00",
+      "latestUpdateLocal": "2026-08-05 18:00",
+      "latestUpdateSource": "進擊的口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/p/Dbp4DBEBGpZ/",
+      "avatarUrl": "/assets/source-avatars/99ba86157fce299ca915.webp",
+      "sourceInitials": "進擊",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_attack_on_harmonica_ensemble",
+          "name": "進擊的口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "attack_on_harmonica_ensemble",
+          "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_attack_on_harmonica_ensemble",
+          "name": "進擊的口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "attack_on_harmonica_ensemble",
+          "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/attack_on_harmonica_ensemble/story/0"
+        },
+        {
+          "id": "threads_attack_on_harmonica_ensemble",
+          "name": "進擊的口琴樂團",
+          "platform": "threads",
+          "type": "rss",
+          "username": "attack_on_harmonica_ensemble",
+          "profileUrl": "https://www.threads.net/@attack_on_harmonica_ensemble",
+          "feedUrl": "https://rss.observe.tw/threads/attack_on_harmonica_ensemble"
+        }
+      ]
+    },
+    {
       "id": "watchlist-139",
       "publicId": "139",
       "name": "Lee Oskar",
@@ -527,6 +593,71 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-42",
+      "publicId": "42",
+      "name": "王心禾",
+      "nameEn": "Hsin-Ho Wang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "胖擊系",
+      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
+      "keywords": "王心禾 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_wang/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@harmonica_wang"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-05T06:09:50+00:00",
+      "latestUpdateLocal": "2026-08-05 14:09",
+      "latestUpdateSource": "王心禾",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbpZCvjnc-q/",
+      "avatarUrl": "/assets/source-avatars/cc50275a452448e7cd9a.webp",
+      "sourceInitials": "王心",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_harmonica_wang",
+          "name": "王心禾",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.instagram.com/harmonica_wang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_wang",
+          "name": "王心禾",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.instagram.com/harmonica_wang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_wang/story/0"
+        },
+        {
+          "id": "threads_harmonica_wang",
+          "name": "王心禾",
+          "platform": "threads",
+          "type": "rss",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.threads.net/@harmonica_wang",
+          "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
+        }
+      ]
+    },
+    {
       "id": "watchlist-225",
       "publicId": "225",
       "name": "408 Harmonica Ensemble",
@@ -582,6 +713,94 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "408.harmonica",
           "profileUrl": "https://www.instagram.com/408.harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/408.harmonica/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-67",
+      "publicId": "67",
+      "name": "Marcos Coll",
+      "nameEn": "Marcos Coll",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "西班牙",
+      "region": "西班牙",
+      "cityOrFocus": "十孔/藍調",
+      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
+      "summary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
+      "keywords": "Marcos Coll harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://marcoscoll.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/marcoscollharp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/marcoscollgonzalez/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-05T05:07:58+00:00",
+      "latestUpdateLocal": "2026-08-05 13:07",
+      "latestUpdateSource": "Marcos Coll",
+      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3956792801790307819/",
+      "avatarUrl": "/assets/source-avatars/32de8c4fe06247a773f8.webp",
+      "sourceInitials": "MC",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流",
+        "音樂會",
+        "演出"
+      ],
+      "sourceSummary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
+      "sourceTagReason": "category為演奏者，type為個人，focus在十孔/藍調，並有國際演出經歷。",
+      "monitorSources": [
+        {
+          "id": "fb_marcoscollharp",
+          "name": "Marcos Coll",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/marcoscollharp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
+        },
+        {
+          "id": "yt_marcoscollharpandsoul",
+          "name": "Marcos Coll",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
+          "feedUrl": ""
         }
       ]
     },
@@ -1651,71 +1870,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-42",
-      "publicId": "42",
-      "name": "王心禾",
-      "nameEn": "Hsin-Ho Wang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "胖擊系",
-      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
-      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
-      "keywords": "王心禾 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/harmonica_wang/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@harmonica_wang"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-05T00:09:11+00:00",
-      "latestUpdateLocal": "2026-08-05 08:09",
-      "latestUpdateSource": "王心禾",
-      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_wang/3956642413620212982/",
-      "avatarUrl": "/assets/source-avatars/cc50275a452448e7cd9a.webp",
-      "sourceInitials": "王心",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_harmonica_wang",
-          "name": "王心禾",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "harmonica_wang",
-          "profileUrl": "https://www.instagram.com/harmonica_wang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_harmonica_wang",
-          "name": "王心禾",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "harmonica_wang",
-          "profileUrl": "https://www.instagram.com/harmonica_wang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_wang/story/0"
-        },
-        {
-          "id": "threads_harmonica_wang",
-          "name": "王心禾",
-          "platform": "threads",
-          "type": "rss",
-          "username": "harmonica_wang",
-          "profileUrl": "https://www.threads.net/@harmonica_wang",
-          "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
-        }
-      ]
-    },
-    {
       "id": "watchlist-2",
       "publicId": "2",
       "name": "臺灣口琴音樂節 THMF",
@@ -2390,94 +2544,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@minamirisa",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-67",
-      "publicId": "67",
-      "name": "Marcos Coll",
-      "nameEn": "Marcos Coll",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "西班牙",
-      "region": "西班牙",
-      "cityOrFocus": "十孔/藍調",
-      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
-      "summary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
-      "keywords": "Marcos Coll harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://marcoscoll.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/marcoscollharp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/marcoscollgonzalez/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-04T15:57:24+00:00",
-      "latestUpdateLocal": "2026-08-04 23:57",
-      "latestUpdateSource": "Marcos Coll",
-      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3956394885972027805/",
-      "avatarUrl": "/assets/source-avatars/32de8c4fe06247a773f8.webp",
-      "sourceInitials": "MC",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "國際交流",
-        "音樂會",
-        "演出"
-      ],
-      "sourceSummary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
-      "sourceTagReason": "category為演奏者，type為個人，focus在十孔/藍調，並有國際演出經歷。",
-      "monitorSources": [
-        {
-          "id": "fb_marcoscollharp",
-          "name": "Marcos Coll",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/marcoscollharp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
-        },
-        {
-          "id": "yt_marcoscollharpandsoul",
-          "name": "Marcos Coll",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
           "feedUrl": ""
         }
       ]
@@ -3583,72 +3649,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "donotdisturbharmonicaensemble",
           "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/donotdisturbharmonicaensemble/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-97",
-      "publicId": "97",
-      "name": "進擊的口琴樂團",
-      "nameEn": "",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/青年團體/演出",
-      "structuredSummary": "重奏/青年團體/演出 / 口琴重奏 / 演出團體",
-      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含重奏、青年團體與演出。",
-      "keywords": "進擊的口琴樂團 attack_on_harmonica_ensemble 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/attack_on_harmonica_ensemble/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@attack_on_harmonica_ensemble"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-04T10:41:08+00:00",
-      "latestUpdateLocal": "2026-08-04 18:41",
-      "latestUpdateSource": "進擊的口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbnXZ3lpCPP/",
-      "avatarUrl": "/assets/source-avatars/99ba86157fce299ca915.webp",
-      "sourceInitials": "進擊",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_attack_on_harmonica_ensemble",
-          "name": "進擊的口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "attack_on_harmonica_ensemble",
-          "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_attack_on_harmonica_ensemble",
-          "name": "進擊的口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "attack_on_harmonica_ensemble",
-          "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/attack_on_harmonica_ensemble/story/0"
-        },
-        {
-          "id": "threads_attack_on_harmonica_ensemble",
-          "name": "進擊的口琴樂團",
-          "platform": "threads",
-          "type": "rss",
-          "username": "attack_on_harmonica_ensemble",
-          "profileUrl": "https://www.threads.net/@attack_on_harmonica_ensemble",
-          "feedUrl": "https://rss.observe.tw/threads/attack_on_harmonica_ensemble"
         }
       ]
     },
