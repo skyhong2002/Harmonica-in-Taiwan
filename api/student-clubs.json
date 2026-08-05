@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
   "json": "https://harmonica.observe.tw/api/student-clubs.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/student-clubs.json",
-  "count": 167,
+  "count": 168,
   "items": [
     {
       "title": "衛武營國家藝術文化中心 weiwuying_centerforthearts｜In opera, we don't say ''jealous'' ，we say...在歌劇裡，我們不說嫉妒。我們說....... 愛而不得的妒火熊熊燃起，…",
@@ -157,6 +157,89 @@
         "學生社團"
       ],
       "key": "ig_judys_harmonica_ensemble:https://www.instagram.com/p/Dbpzvl9lOrM/"
+    },
+    {
+      "title": "Duo Volce Music Studio 誼聲音樂室｜《Harry Choi's Students Recital 2026》- 蔡偉鏗口琴學生音樂會 2026 | Duo Volce Music Studio 誼聲音樂室 2026 …",
+      "headline": "《Harry Choi's Students Recital 2026》- 蔡偉鏗口琴學生音樂會 2026 | Duo Volce Music Studio 誼聲音樂室",
+      "display_title": "《Harry Choi's Students Recital 2026》- 蔡偉鏗口琴學生音樂會 2026 | Duo Volce Music Studio 誼聲音樂室",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=sraqOCD1zcU",
+      "source_id": "yt_duovolce",
+      "source": "Duo Volce Music Studio 誼聲音樂室",
+      "source_system_name": "Duo Volce Music Studio 誼聲音樂室",
+      "source_profile_url": "https://www.youtube.com/channel/UCTGWNtgJMn_TiKWVpbpd5VA",
+      "country": "香港",
+      "region": "香港/國際",
+      "directory_entry_id": "watchlist-94",
+      "directory_entry_name": "Duo Volce Music Studio 誼聲音樂室",
+      "account": "https://www.youtube.com/channel/UCTGWNtgJMn_TiKWVpbpd5VA",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-08-05T09:21:34+00:00",
+      "posted_at_local": "2026-08-05 17:21",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-05T18:55:44.349541+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "音樂會",
+        "演出",
+        "影片"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "音樂會",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "音樂會",
+        "演出",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴學生音樂會公開影片，內容明確為口琴演出與學生發表，屬可收錄的公開更新。",
+      "text": "《Harry Choi's Students Recital 2026》- 蔡偉鏗口琴學生音樂會 2026 | Duo Volce Music Studio 誼聲音樂室\n2026 Harry Choi Students Recital | Duo Volce Music Studio 誼聲音樂室\nPrimary Session\n0:00 Adam Ip - 《Bulgarian Wedding Dance》\n3:01 Marco Lee - 《Les Champs-Élysées》\n4:50 Isaac Lam - 《Hunter's Chrous》\n7:30 Raphael Wan - 《Over the Rainbow》\n10:05 Hayvis Ng - 《Bolero from Toledo》\n11:42 Adam Ip, Marco Lee, Isaac Lam, Raphael Wan, Hayvis Ng, Hayden Ng - 《數字人生》\n15:26 Winston Hong - 《Beethoven Boogie》\n17:59 Jolie Lai - 《Sonatina - III: Allegro Moderato》\n22:36 Hayden Ng - 《Carmen Fantasy》\n27:42 Jeffrey Lai - 《Concerto for Harmonica - III: Scherzo》\n32:10 Carson Chan - 《Mendelssohn's Violin Concerto in E minor, Op.64 - I. Allegro molto appassionato》\n41:41 英皇書院同學會小學口琴精英C隊 - 《La La Land's Medley》\n47:19 英皇書院同學會小學口琴精英D隊 - 《Caprice》\n54:30 英皇書院同學會小學口琴精英CD隊 - 《Danse Mexicaine du feu》\n57:50 Jolie Lai, Jeffrey Lai - 《Allegro and Minuet》\n1:03:38 Aiden Chui, Carson Chan -《Overture to Il barbiere di Siviglia》\n1:09:55 Katniss Ng, Matthew Ng -《Passacaglia》\n1:17:42 Aiden Chui - 《Romanian Fantasy》\n1:26:21 Sherlock Kwong - 《Rhapsody in Blue》\nSecondary Session\n1:34:32 Lavelle Chan - 《Duo Baroque》\n1:39:47 Cyrus Lam -《Toledo》\n1:47:28…",
+      "images": [
+        "https://i.ytimg.com/vi/sraqOCD1zcU/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/sraqOCD1zcU/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/df29aa68dd7e40b8dd29.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/e1A2Ky8rXGqkSnB-UBUhYW_pIlGqrHu9nHUgODN2ZVAfhTuHIGa8929lECTSvZagjHnsKDaZKA=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/04cb48edf0a82db85d36.webp",
+      "source_initials": "DVM",
+      "categories": [
+        "posts-videos",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "學生社團"
+      ],
+      "key": "yt_duovolce:sraqOCD1zcU"
     },
     {
       "title": "臺中國家歌劇院 National Taichung Theater｜2026 NTT 遇見巨人 | 比利時莫蘇邦特跨界劇場《女巫安息日》 創團40週年，歐洲暗黑美學代表 比利時莫蘇邦特跨界劇場首度來臺，一生必看一次的超現實劇場 一場美術館…",

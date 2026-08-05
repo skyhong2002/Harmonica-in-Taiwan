@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-05T17:50:48.979993Z",
+  "generatedAt": "2026-08-05T18:55:58.704106Z",
   "source": {
     "id": 94,
     "slug": "duo-volce-music-studio",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/94-duo-volce-music-studio/"
   },
   "items": [
+    {
+      "id": "post-b85d74fd36a7b1f1f0ef1b97",
+      "title": "《Harry Choi's Students Recital 2026》- 蔡偉鏗口琴學生音樂會 2026 | Duo Volce Music Studio 誼聲音樂室",
+      "excerpt": "《Harry Choi's Students Recital 2026》- 蔡偉鏗口琴學生音樂會 2026 | Duo Volce Music Studio 誼聲音樂室 2026 Harry Choi Students Recital | Duo Volce Music Studio 誼聲音樂室 Primary Session 0:00 Adam Ip - 《Bulgarian Wedding Dance》 3:01 Marco Lee - 《Les Champs-Élysées》 4:50 Isaac Lam - 《Hunter's Chrous》…",
+      "url": "https://www.youtube.com/watch?v=sraqOCD1zcU",
+      "sourceName": "Duo Volce Music Studio 誼聲音樂室",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-05T09:21:34Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/df29aa68dd7e40b8dd29.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-60ce07286fa3bc075dc2a797",
       "title": "【中學組】2026 Harry Choi‘s Students Recital 🎵",

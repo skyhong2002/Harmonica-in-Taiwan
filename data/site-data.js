@@ -2,6 +2,132 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-06",
   "entries": [
     {
+      "id": "watchlist-50",
+      "publicId": "50",
+      "name": "Aiden Soon",
+      "nameEn": "Aiden Soon",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
+      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "Aiden Soon aidensoon World Harmonica Champion Aiden N Evelyn harmonica",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/aidensoon/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-05T15:25:24+00:00",
+      "latestUpdateLocal": "2026-08-05 23:25",
+      "latestUpdateSource": "Aiden Soon",
+      "latestUpdateUrl": "https://www.instagram.com/stories/aidensoon/3957103552966827665/",
+      "avatarUrl": "/assets/source-avatars/ef75db8a517ec4da9d56.webp",
+      "sourceInitials": "AS",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_aidensoon",
+          "name": "Aiden Soon",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "aidensoon",
+          "profileUrl": "https://www.instagram.com/aidensoon/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_aidensoon",
+          "name": "Aiden Soon",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "aidensoon",
+          "profileUrl": "https://www.instagram.com/aidensoon/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-30",
+      "publicId": "30",
+      "name": "蔡明憲",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
+      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
+      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
+      "keywords": "蔡明憲 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://studio.dming.co/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/dming.tsai/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/damingtsai/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-05T15:05:38+00:00",
+      "latestUpdateLocal": "2026-08-05 23:05",
+      "latestUpdateSource": "蔡明憲",
+      "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3957093668544781232/",
+      "avatarUrl": "/assets/source-avatars/5027d958b2fb59da0aa3.webp",
+      "sourceInitials": "蔡明",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_dming_tsai",
+          "name": "蔡明憲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/dming.tsai",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-153",
       "publicId": "153",
       "name": "Santiago Alvarez",
@@ -124,10 +250,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-08-05T13:59:49+00:00",
-      "latestUpdateLocal": "2026-08-05 21:59",
+      "latestUpdateAt": "2026-08-05T14:00:30+00:00",
+      "latestUpdateLocal": "2026-08-05 22:00",
       "latestUpdateSource": "衛武營國家藝術文化中心",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=skR_ntzsObI",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbqTdZ5DdPR/",
       "avatarUrl": "/assets/source-avatars/a50efd3809f34f57dc6d.webp",
       "sourceInitials": "衛武",
       "sourceTags": [
@@ -1137,6 +1263,105 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-94",
+      "publicId": "94",
+      "name": "Duo Volce Music Studio 誼聲音樂室",
+      "nameEn": "Duo Volce Music Studio",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "工作室/團體",
+      "country": "香港",
+      "region": "香港/國際",
+      "cityOrFocus": "半音階口琴/小提琴二重奏/教學",
+      "structuredSummary": "半音階口琴/小提琴二重奏/教學 / 半音階/小提琴 / 國際教學/演出單位",
+      "summary": "香港的半音階與小提琴國際教學與演出單位，活動脈絡包含半音階口琴、小提琴二重奏與教學。",
+      "keywords": "Duo Volce Music Studio 誼聲音樂室 Harry Choi 蔡偉鏗 harmonica violin Hong Kong",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.duovolce.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/DuoVolce/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/DuoVolce/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/DuoVolce"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/duovolce"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-05T09:21:34+00:00",
+      "latestUpdateLocal": "2026-08-05 17:21",
+      "latestUpdateSource": "Duo Volce Music Studio 誼聲音樂室",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=sraqOCD1zcU",
+      "avatarUrl": "/assets/source-avatars/f578259a603437e828c4.webp",
+      "sourceInitials": "DVM",
+      "sourceTags": [
+        "團體樂團",
+        "教學",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/DuoVolce",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "DuoVolce",
+          "profileUrl": "https://www.instagram.com/DuoVolce/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "DuoVolce",
+          "profileUrl": "https://www.instagram.com/DuoVolce/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/DuoVolce/story/0"
+        },
+        {
+          "id": "x_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "x",
+          "type": "rss",
+          "username": "duovolce",
+          "profileUrl": "https://x.com/duovolce",
+          "feedUrl": "https://rss.observe.tw/twitter/user/duovolce"
+        },
+        {
+          "id": "yt_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/DuoVolce",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-225",
       "publicId": "225",
       "name": "408 Harmonica Ensemble",
@@ -1624,105 +1849,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@cyleoharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-94",
-      "publicId": "94",
-      "name": "Duo Volce Music Studio 誼聲音樂室",
-      "nameEn": "Duo Volce Music Studio",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "工作室/團體",
-      "country": "香港",
-      "region": "香港/國際",
-      "cityOrFocus": "半音階口琴/小提琴二重奏/教學",
-      "structuredSummary": "半音階口琴/小提琴二重奏/教學 / 半音階/小提琴 / 國際教學/演出單位",
-      "summary": "香港的半音階與小提琴國際教學與演出單位，活動脈絡包含半音階口琴、小提琴二重奏與教學。",
-      "keywords": "Duo Volce Music Studio 誼聲音樂室 Harry Choi 蔡偉鏗 harmonica violin Hong Kong",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.duovolce.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/DuoVolce/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/DuoVolce/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/DuoVolce"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/duovolce"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-05T06:09:56+00:00",
-      "latestUpdateLocal": "2026-08-05 14:09",
-      "latestUpdateSource": "Duo Volce Music Studio 誼聲音樂室",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbpdVHgk5-i/",
-      "avatarUrl": "/assets/source-avatars/5f856de4e7f86e6802d3.webp",
-      "sourceInitials": "DVM",
-      "sourceTags": [
-        "團體樂團",
-        "教學",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/DuoVolce",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "DuoVolce",
-          "profileUrl": "https://www.instagram.com/DuoVolce/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "DuoVolce",
-          "profileUrl": "https://www.instagram.com/DuoVolce/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/DuoVolce/story/0"
-        },
-        {
-          "id": "x_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "x",
-          "type": "rss",
-          "username": "duovolce",
-          "profileUrl": "https://x.com/duovolce",
-          "feedUrl": "https://rss.observe.tw/twitter/user/duovolce"
-        },
-        {
-          "id": "yt_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/DuoVolce",
           "feedUrl": ""
         }
       ]
@@ -2654,77 +2780,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@alysaliao",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-30",
-      "publicId": "30",
-      "name": "蔡明憲",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
-      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
-      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
-      "keywords": "蔡明憲 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://studio.dming.co/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/dming.tsai/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/damingtsai/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-05T02:33:41+00:00",
-      "latestUpdateLocal": "2026-08-05 10:33",
-      "latestUpdateSource": "蔡明憲",
-      "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3956715139751281316/",
-      "avatarUrl": "/assets/source-avatars/5027d958b2fb59da0aa3.webp",
-      "sourceInitials": "蔡明",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_dming_tsai",
-          "name": "蔡明憲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/dming.tsai",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
         }
       ]
     },
@@ -3856,61 +3911,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@FrescoHarmonica",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-50",
-      "publicId": "50",
-      "name": "Aiden Soon",
-      "nameEn": "Aiden Soon",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
-      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
-      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
-      "keywords": "Aiden Soon aidensoon World Harmonica Champion Aiden N Evelyn harmonica",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/aidensoon/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-04T12:06:50+00:00",
-      "latestUpdateLocal": "2026-08-04 20:06",
-      "latestUpdateSource": "Aiden Soon",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dbnhp8qCbxC/",
-      "avatarUrl": "/assets/source-avatars/ef75db8a517ec4da9d56.webp",
-      "sourceInitials": "AS",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_aidensoon",
-          "name": "Aiden Soon",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "aidensoon",
-          "profileUrl": "https://www.instagram.com/aidensoon/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_aidensoon",
-          "name": "Aiden Soon",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "aidensoon",
-          "profileUrl": "https://www.instagram.com/aidensoon/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
         }
       ]
     },
