@@ -5094,7 +5094,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-04 17:14",
       "latestUpdateSource": "國家兩廳院",
       "latestUpdateUrl": "https://www.instagram.com/stories/ntch.taipei/3956192067390586433/",
-      "avatarUrl": "/assets/source-avatars/91da395b9551e917b89b.webp",
+      "avatarUrl": "/assets/source-avatars/68c9bfc446dccad6087c.webp",
       "sourceInitials": "國家",
       "sourceTags": [
         "場館平台"
