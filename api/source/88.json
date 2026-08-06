@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T16:57:45.785336Z",
+  "generatedAt": "2026-08-06T18:03:37.095109Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/88-bluebo-harmonica/"
   },
   "items": [
+    {
+      "id": "post-c932c52b1a12aa418d3d8f0b",
+      "title": "美酒加咖啡丨佛光山講堂丨崇光社大口琴班",
+      "excerpt": "美酒加咖啡丨佛光山講堂丨崇光社大口琴班 崇光口琴班受邀到佛光山表演，現場有數百人，同學也是第一次參加那麼多觀眾的演出，不曉得吹的這首美酒加咖啡佛祖是否滿意~ 崇光社大口琴班(五)晚上",
+      "url": "https://www.youtube.com/watch?v=aUxAHiaxo0o",
+      "sourceName": "藍波口琴教室",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-06T10:00:38Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6f407bbc1f921854713d.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-b94d9ee25c1e1fb8257983a4",
       "title": "青花瓷丨大安社大口琴班",

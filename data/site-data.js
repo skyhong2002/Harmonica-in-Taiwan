@@ -2,6 +2,60 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-07",
   "entries": [
     {
+      "id": "watchlist-59",
+      "publicId": "59",
+      "name": "千賀太郎",
+      "nameEn": "Taro Senga",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "十孔/藍調",
+      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
+      "summary": "日本的十孔國際演出人員，活動脈絡包含藍調。",
+      "keywords": "千賀太郎 Taro Senga harmonica",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/taro_senga/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-06T17:57:59+00:00",
+      "latestUpdateLocal": "2026-08-07 01:57",
+      "latestUpdateSource": "千賀太郎",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbtS-y7PR-k/",
+      "avatarUrl": "/assets/source-avatars/5543138071fab2b371b8.webp",
+      "sourceInitials": "千賀",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_taro_senga",
+          "name": "千賀太郎",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "taro_senga",
+          "profileUrl": "https://www.instagram.com/taro_senga/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/taro_senga/story/0"
+        },
+        {
+          "id": "ig_taro_senga",
+          "name": "千賀太郎",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taro_senga",
+          "profileUrl": "https://www.instagram.com/taro_senga/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-39",
       "publicId": "39",
       "name": "林士傑",
@@ -76,6 +130,101 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "musette585",
           "profileUrl": "https://www.threads.net/@musette585",
           "feedUrl": "https://rss.observe.tw/threads/musette585"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-80",
+      "publicId": "80",
+      "name": "臺中國家歌劇院",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "臺中國家歌劇院 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-ntt.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/npac.ntt/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nationaltaichungtheater/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@nationaltaichungtheater"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-06T15:46:03+00:00",
+      "latestUpdateLocal": "2026-08-06 23:46",
+      "latestUpdateSource": "臺中國家歌劇院",
+      "latestUpdateUrl": "https://www.instagram.com/stories/nationaltaichungtheater/3957838723752268409/",
+      "avatarUrl": "/assets/source-avatars/bc7049fe5cb137813be9.webp",
+      "sourceInitials": "臺中",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_npac_ntt",
+          "name": "臺中國家歌劇院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/npac.ntt",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
+        },
+        {
+          "id": "threads_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "threads",
+          "type": "rss",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
+          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
+        },
+        {
+          "id": "yt_uctl1euke_x0w6tahecepgmq",
+          "name": "臺中國家歌劇院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
+          "feedUrl": ""
         }
       ]
     },
@@ -1078,6 +1227,68 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-88",
+      "publicId": "88",
+      "name": "藍波口琴教室",
+      "nameEn": "Bluebo Harmonica",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "教學工作室",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴教學/課程/學習資源",
+      "structuredSummary": "口琴教學/課程/學習資源 / 口琴 / 教學/課程來源",
+      "summary": "臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。",
+      "keywords": "藍波口琴教室 藍波口琴網 口琴 教學",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.blueboclass.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/happyharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@lamberharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-06T10:00:38+00:00",
+      "latestUpdateLocal": "2026-08-06 18:00",
+      "latestUpdateSource": "藍波口琴教室",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=aUxAHiaxo0o",
+      "avatarUrl": "/assets/source-avatars/8f1ae2810f807d60d81f.webp",
+      "sourceInitials": "藍波",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "課程"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_happyharmonica",
+          "name": "藍波口琴教室",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/happyharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_lamberharmonica",
+          "name": "藍波口琴教室",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@lamberharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-105",
       "publicId": "105",
       "name": "Stay Drunk 口琴樂團",
@@ -1219,6 +1430,102 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@RedBricksHarmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-5",
+      "publicId": "5",
+      "name": "胖擊口琴樂團",
+      "nameEn": "Punch Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/公演/年輕團體",
+      "structuredSummary": "重奏/公演/年輕團體 / 口琴重奏/合奏 / 演出團體",
+      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。",
+      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/punch.harp"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Punch.Harp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/punch.harp/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@punchharp"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@punch.harp"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-06T08:08:14+00:00",
+      "latestUpdateLocal": "2026-08-06 16:08",
+      "latestUpdateSource": "胖擊口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbsLa68zA-Y/",
+      "avatarUrl": "/assets/source-avatars/c33a54dfd25e5ef2d0cf.webp",
+      "sourceInitials": "胖擊",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Punch.Harp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "punch.harp",
+          "profileUrl": "https://www.instagram.com/punch.harp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "punch.harp",
+          "profileUrl": "https://www.instagram.com/punch.harp/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/punch.harp/story/0"
+        },
+        {
+          "id": "threads_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "threads",
+          "type": "rss",
+          "username": "punch.harp",
+          "profileUrl": "https://www.threads.net/@punch.harp",
+          "feedUrl": "https://rss.observe.tw/threads/punch.harp"
+        },
+        {
+          "id": "yt_punchharp",
+          "name": "胖擊口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@punchharp",
           "feedUrl": ""
         }
       ]
@@ -1435,101 +1742,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@KHS_musix",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-80",
-      "publicId": "80",
-      "name": "臺中國家歌劇院",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "臺中國家歌劇院 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-ntt.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/npac.ntt/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nationaltaichungtheater/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@nationaltaichungtheater"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-06T07:48:15+00:00",
-      "latestUpdateLocal": "2026-08-06 15:48",
-      "latestUpdateSource": "臺中國家歌劇院",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=wuldRKmHSbc",
-      "avatarUrl": "/assets/source-avatars/bc7049fe5cb137813be9.webp",
-      "sourceInitials": "臺中",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_npac_ntt",
-          "name": "臺中國家歌劇院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/npac.ntt",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
-        },
-        {
-          "id": "threads_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "threads",
-          "type": "rss",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
-          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
-        },
-        {
-          "id": "yt_uctl1euke_x0w6tahecepgmq",
-          "name": "臺中國家歌劇院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
           "feedUrl": ""
         }
       ]
@@ -2517,60 +2729,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@JudysHarmonicaEnsemble",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-59",
-      "publicId": "59",
-      "name": "千賀太郎",
-      "nameEn": "Taro Senga",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "十孔/藍調",
-      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
-      "summary": "日本的十孔國際演出人員，活動脈絡包含藍調。",
-      "keywords": "千賀太郎 Taro Senga harmonica",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/taro_senga/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-06T00:43:51+00:00",
-      "latestUpdateLocal": "2026-08-06 08:43",
-      "latestUpdateSource": "千賀太郎",
-      "latestUpdateUrl": "https://www.instagram.com/stories/taro_senga/3957384630466948572/",
-      "avatarUrl": "/assets/source-avatars/5543138071fab2b371b8.webp",
-      "sourceInitials": "千賀",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_taro_senga",
-          "name": "千賀太郎",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "taro_senga",
-          "profileUrl": "https://www.instagram.com/taro_senga/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/taro_senga/story/0"
-        },
-        {
-          "id": "ig_taro_senga",
-          "name": "千賀太郎",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "taro_senga",
-          "profileUrl": "https://www.instagram.com/taro_senga/",
           "feedUrl": ""
         }
       ]
@@ -3952,102 +4110,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-5",
-      "publicId": "5",
-      "name": "胖擊口琴樂團",
-      "nameEn": "Punch Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/公演/年輕團體",
-      "structuredSummary": "重奏/公演/年輕團體 / 口琴重奏/合奏 / 演出團體",
-      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。",
-      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/punch.harp"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Punch.Harp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/punch.harp/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@punchharp"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@punch.harp"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-05T10:17:11+00:00",
-      "latestUpdateLocal": "2026-08-05 18:17",
-      "latestUpdateSource": "胖擊口琴樂團",
-      "latestUpdateUrl": "https://www.facebook.com/reel/1354341966291422/",
-      "avatarUrl": "/assets/source-avatars/c33a54dfd25e5ef2d0cf.webp",
-      "sourceInitials": "胖擊",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Punch.Harp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "punch.harp",
-          "profileUrl": "https://www.instagram.com/punch.harp/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "punch.harp",
-          "profileUrl": "https://www.instagram.com/punch.harp/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/punch.harp/story/0"
-        },
-        {
-          "id": "threads_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "threads",
-          "type": "rss",
-          "username": "punch.harp",
-          "profileUrl": "https://www.threads.net/@punch.harp",
-          "feedUrl": "https://rss.observe.tw/threads/punch.harp"
-        },
-        {
-          "id": "yt_punchharp",
-          "name": "胖擊口琴樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@punchharp",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-32",
       "publicId": "32",
       "name": "陳彥銘",
@@ -5078,68 +5140,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "donotdisturbharmonicaensemble",
           "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/donotdisturbharmonicaensemble/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-88",
-      "publicId": "88",
-      "name": "藍波口琴教室",
-      "nameEn": "Bluebo Harmonica",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "教學工作室",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴教學/課程/學習資源",
-      "structuredSummary": "口琴教學/課程/學習資源 / 口琴 / 教學/課程來源",
-      "summary": "臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。",
-      "keywords": "藍波口琴教室 藍波口琴網 口琴 教學",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.blueboclass.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/happyharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@lamberharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-04T10:00:25+00:00",
-      "latestUpdateLocal": "2026-08-04 18:00",
-      "latestUpdateSource": "藍波口琴教室",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=ZZxiGw4EwZU",
-      "avatarUrl": "/assets/source-avatars/8f1ae2810f807d60d81f.webp",
-      "sourceInitials": "藍波",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "課程"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_happyharmonica",
-          "name": "藍波口琴教室",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/happyharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_lamberharmonica",
-          "name": "藍波口琴教室",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@lamberharmonica",
-          "feedUrl": ""
         }
       ]
     },
