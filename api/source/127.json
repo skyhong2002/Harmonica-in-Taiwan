@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T21:54:35.058433Z",
+  "generatedAt": "2026-08-06T23:01:07.837635Z",
   "source": {
     "id": 127,
     "slug": "reyharp-and-balawan-project",
@@ -9,17 +9,17 @@
   },
   "items": [
     {
-      "id": "post-f7f79659ba0098ef896cc2e5",
+      "id": "post-8de4906f42498462417838c6",
       "title": "Reyharp feat. Hari Pochang - Blues Improvisations (Live at Bandoeng Jazz Festive)",
       "excerpt": "Reyharp feat. Hari Pochang - Blues Improvisations (Live at Bandoeng Jazz Festive)",
-      "url": "https://www.youtube.com/watch?v=_gTH51_Mlaw",
+      "url": "https://www.youtube.com/watch?v=s__jKCE5n1c",
       "sourceName": "Reyharp and Balawan Project",
       "platform": "YouTube",
-      "publishedAt": "2026-08-04T04:33:47Z",
+      "publishedAt": "2026-08-05T04:05:39Z",
       "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/d99ecaad080aa9f77250.webp",
-        "width": 480,
-        "height": 360
+        "url": "https://harmonica.observe.tw/assets/feed-images/04a35e201763806e5116.webp",
+        "width": 640,
+        "height": 480
       }
     },
     {

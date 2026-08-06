@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T21:54:35.058433Z",
+  "generatedAt": "2026-08-06T23:01:07.837635Z",
   "source": {
     "id": 211,
     "slug": "nus-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/211-nus-harmonica/"
   },
   "items": [
+    {
+      "id": "post-b206eeb8fa416ea96095cff7",
+      "title": "🔊SOUND ON! 🫂 No one is ever alone.",
+      "excerpt": "🔊SOUND ON! 🫂 No one is ever alone. 🔊SOUND ON! 🫂 No one is ever alone. In GENUS, we pride ourselves on our collaborations with other performing arts groups. Watch how our craft is transformed as we get to understand others from a variety of backgrounds and interests, and come tog…",
+      "url": "https://www.instagram.com/p/Dbs3NXQj1ql/",
+      "sourceName": "新加坡國立大學口琴社",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-06T14:42:31Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ae9110a5595cc4263b40.webp",
+        "width": 1440,
+        "height": 1920
+      }
+    },
     {
       "id": "post-ccb841da833ef6894585d6cd",
       "title": "How does GENUS collab with other CCAs? By using the recent transitions trend to show off our various instruments, of co…",
