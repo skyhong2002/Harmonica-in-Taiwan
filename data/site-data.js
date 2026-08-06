@@ -2,6 +2,159 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-06",
   "entries": [
     {
+      "id": "watchlist-54",
+      "publicId": "54",
+      "name": "CY Leo 何卓彥",
+      "nameEn": "CY Leo",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/現代跨界",
+      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
+      "summary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
+      "keywords": "CY Leo 何卓彥 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.cyleomusic.io/profile"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Cyleoharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cy_leo/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@cyleoharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-06T11:14:10+00:00",
+      "latestUpdateLocal": "2026-08-06 19:14",
+      "latestUpdateSource": "CY Leo 何卓彥",
+      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3957701884517707682/",
+      "avatarUrl": "/assets/source-avatars/f7225128bf37720c0c02.webp",
+      "sourceInitials": "CL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
+      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
+      "monitorSources": [
+        {
+          "id": "fb_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Cyleoharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
+        },
+        {
+          "id": "yt_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@cyleoharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-105",
+      "publicId": "105",
+      "name": "Stay Drunk 口琴樂團",
+      "nameEn": "Stay Drunk Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "大學生新生代團體",
+      "structuredSummary": "大學生新生代團體 / 口琴重奏 / 演出團體",
+      "summary": "臺灣的大學生新生代口琴重奏演出團體。",
+      "keywords": "Stay Drunk Stay Drunk H.E. Stay Drunk Harmonica Ensemble staydrunk_h.e 口琴樂團 大學生",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/staydrunk_h.e/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-06T09:52:47+00:00",
+      "latestUpdateLocal": "2026-08-06 17:52",
+      "latestUpdateSource": "Stay Drunk 口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/stories/staydrunk_h.e/3957660922172499537/",
+      "avatarUrl": "/assets/source-avatars/19fce96d7d9e82ac27e7.webp",
+      "sourceInitials": "SD",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_staydrunk_h_e",
+          "name": "Stay Drunk 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "staydrunk_h.e",
+          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_staydrunk_h_e",
+          "name": "Stay Drunk 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "staydrunk_h.e",
+          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/staydrunk_h.e/story/0"
+        },
+        {
+          "id": "yt_uct3ifdfoqpndqm8j5chesda",
+          "name": "Stay Drunk 口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-93",
       "publicId": "93",
       "name": "RedBricks Harmonica",
@@ -510,6 +663,102 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-100",
+      "publicId": "100",
+      "name": "曹小歐",
+      "nameEn": "Otis Tsao",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "單口喜劇/藍調口琴/演出",
+      "structuredSummary": "單口喜劇/藍調口琴/演出 / 十孔/藍調口琴 / 演出人員",
+      "summary": "臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。",
+      "keywords": "曹小歐 Otis Tsao 口琴 單口喜劇 藍調口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://portaly.cc/otistsao"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/otis5hundredtsao/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/otistsao/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@otistsao"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-06T04:23:56+00:00",
+      "latestUpdateLocal": "2026-08-06 12:23",
+      "latestUpdateSource": "曹小歐",
+      "latestUpdateUrl": "https://www.instagram.com/stories/otistsao/3957495405130350601/",
+      "avatarUrl": "/assets/source-avatars/4023dce27985c1518bb9.webp",
+      "sourceInitials": "曹小",
+      "sourceTags": [
+        "演奏者",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_otis5hundredtsao",
+          "name": "曹小歐",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/otis5hundredtsao",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_otistsao",
+          "name": "曹小歐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "otistsao",
+          "profileUrl": "https://www.instagram.com/otistsao/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_otistsao",
+          "name": "曹小歐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "otistsao",
+          "profileUrl": "https://www.instagram.com/otistsao/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/otistsao/story/0"
+        },
+        {
+          "id": "threads_otistsao",
+          "name": "曹小歐",
+          "platform": "threads",
+          "type": "rss",
+          "username": "otistsao",
+          "profileUrl": "https://www.threads.net/@otistsao",
+          "feedUrl": "https://rss.observe.tw/threads/otistsao"
+        },
+        {
+          "id": "yt_ucbdafdgrntui_iqtg9e4bmw",
+          "name": "曹小歐",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
           "feedUrl": ""
         }
       ]
@@ -1240,93 +1489,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-54",
-      "publicId": "54",
-      "name": "CY Leo 何卓彥",
-      "nameEn": "CY Leo",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/現代跨界",
-      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
-      "summary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "keywords": "CY Leo 何卓彥 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.cyleomusic.io/profile"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Cyleoharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/cy_leo/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@cyleoharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-06T00:37:33+00:00",
-      "latestUpdateLocal": "2026-08-06 08:37",
-      "latestUpdateSource": "CY Leo 何卓彥",
-      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3957381468926406420/",
-      "avatarUrl": "/assets/source-avatars/f7225128bf37720c0c02.webp",
-      "sourceInitials": "CL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
-      "monitorSources": [
-        {
-          "id": "fb_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Cyleoharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
-        },
-        {
-          "id": "yt_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@cyleoharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-153",
       "publicId": "153",
       "name": "Santiago Alvarez",
@@ -1494,67 +1656,51 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-105",
-      "publicId": "105",
-      "name": "Stay Drunk 口琴樂團",
-      "nameEn": "Stay Drunk Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
+      "id": "watchlist-40",
+      "publicId": "40",
+      "name": "陳鴻儀",
+      "nameEn": "Henry Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "大學生新生代團體",
-      "structuredSummary": "大學生新生代團體 / 口琴重奏 / 演出團體",
-      "summary": "臺灣的大學生新生代口琴重奏演出團體。",
-      "keywords": "Stay Drunk Stay Drunk H.E. Stay Drunk Harmonica Ensemble staydrunk_h.e 口琴樂團 大學生",
+      "cityOrFocus": "演出/評審",
+      "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
+      "summary": "口琴演奏家，專注於演出與評審工作。",
+      "keywords": "陳鴻儀 口琴",
       "links": [
         {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/staydrunk_h.e/"
+          "label": "網站",
+          "url": "https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be"
         },
         {
           "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA"
+          "url": "https://www.youtube.com/@HenrysHarmonica"
         }
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-08-05T23:53:20+00:00",
-      "latestUpdateLocal": "2026-08-06 07:53",
-      "latestUpdateSource": "Stay Drunk 口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/staydrunk_h.e/3957359205766107420/",
-      "avatarUrl": "/assets/source-avatars/19fce96d7d9e82ac27e7.webp",
-      "sourceInitials": "SD",
+      "latestUpdateAt": "2026-08-06T00:00:06+00:00",
+      "latestUpdateLocal": "2026-08-06 08:00",
+      "latestUpdateSource": "陳鴻儀",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=tKugOnXF-3M",
+      "avatarUrl": "/assets/source-avatars/11010264a3489f5a5679.webp",
+      "sourceInitials": "陳鴻",
       "sourceTags": [
-        "團體樂團",
-        "重奏"
+        "演奏者",
+        "演出"
       ],
+      "sourceSummary": "口琴演奏家，專注於演出與評審工作。",
+      "sourceTagReason": "來源類別為「演奏者」，類型為「個人」，城市焦點為「演出/評審」，因此標記演奏者、口琴及演出。",
       "monitorSources": [
         {
-          "id": "ig_staydrunk_h_e",
-          "name": "Stay Drunk 口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "staydrunk_h.e",
-          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_staydrunk_h_e",
-          "name": "Stay Drunk 口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "staydrunk_h.e",
-          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/staydrunk_h.e/story/0"
-        },
-        {
-          "id": "yt_uct3ifdfoqpndqm8j5chesda",
-          "name": "Stay Drunk 口琴樂團",
+          "id": "yt_henrysharmonica",
+          "name": "陳鴻儀",
           "platform": "youtube",
           "type": "youtube_ytdlp",
           "username": "",
-          "profileUrl": "https://youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA",
+          "profileUrl": "https://youtube.com/@HenrysHarmonica",
           "feedUrl": ""
         }
       ]
@@ -3260,102 +3406,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-100",
-      "publicId": "100",
-      "name": "曹小歐",
-      "nameEn": "Otis Tsao",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "單口喜劇/藍調口琴/演出",
-      "structuredSummary": "單口喜劇/藍調口琴/演出 / 十孔/藍調口琴 / 演出人員",
-      "summary": "臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。",
-      "keywords": "曹小歐 Otis Tsao 口琴 單口喜劇 藍調口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/otistsao"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/otis5hundredtsao/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/otistsao/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@otistsao"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-05T10:27:18+00:00",
-      "latestUpdateLocal": "2026-08-05 18:27",
-      "latestUpdateSource": "曹小歐",
-      "latestUpdateUrl": "https://www.instagram.com/stories/otistsao/3956953512002559209/",
-      "avatarUrl": "/assets/source-avatars/4023dce27985c1518bb9.webp",
-      "sourceInitials": "曹小",
-      "sourceTags": [
-        "演奏者",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_otis5hundredtsao",
-          "name": "曹小歐",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/otis5hundredtsao",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_otistsao",
-          "name": "曹小歐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "otistsao",
-          "profileUrl": "https://www.instagram.com/otistsao/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_otistsao",
-          "name": "曹小歐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "otistsao",
-          "profileUrl": "https://www.instagram.com/otistsao/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/otistsao/story/0"
-        },
-        {
-          "id": "threads_otistsao",
-          "name": "曹小歐",
-          "platform": "threads",
-          "type": "rss",
-          "username": "otistsao",
-          "profileUrl": "https://www.threads.net/@otistsao",
-          "feedUrl": "https://rss.observe.tw/threads/otistsao"
-        },
-        {
-          "id": "yt_ucbdafdgrntui_iqtg9e4bmw",
-          "name": "曹小歐",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
           "feedUrl": ""
         }
       ]
@@ -6033,56 +6083,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@springharpfest",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-40",
-      "publicId": "40",
-      "name": "陳鴻儀",
-      "nameEn": "Henry Chen",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "演出/評審",
-      "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
-      "summary": "口琴演奏家，專注於演出與評審工作。",
-      "keywords": "陳鴻儀 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@HenrysHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-03T00:00:06+00:00",
-      "latestUpdateLocal": "2026-08-03 08:00",
-      "latestUpdateSource": "陳鴻儀",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=JDs-QWtRPCI",
-      "avatarUrl": "/assets/source-avatars/11010264a3489f5a5679.webp",
-      "sourceInitials": "陳鴻",
-      "sourceTags": [
-        "演奏者",
-        "演出"
-      ],
-      "sourceSummary": "口琴演奏家，專注於演出與評審工作。",
-      "sourceTagReason": "來源類別為「演奏者」，類型為「個人」，城市焦點為「演出/評審」，因此標記演奏者、口琴及演出。",
-      "monitorSources": [
-        {
-          "id": "yt_henrysharmonica",
-          "name": "陳鴻儀",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@HenrysHarmonica",
           "feedUrl": ""
         }
       ]

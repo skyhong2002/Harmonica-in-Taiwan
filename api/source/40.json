@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T12:30:49.341572Z",
+  "generatedAt": "2026-08-06T13:03:57.169872Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/40-henry-chen/"
   },
   "items": [
+    {
+      "id": "post-a5dbf22329e32d8357d85d81",
+      "title": "第15屆亞太口琴APH藝術週 – 臺灣專場演出｜雨的旋律組曲｜複音口琴Tremolo Harmonica 獨奏演出",
+      "excerpt": "第15屆亞太口琴APH藝術週 – 臺灣專場演出｜雨的旋律組曲｜複音口琴Tremolo Harmonica 獨奏演出 第15屆亞太口琴藝術週(地點：中國江陰市) 20260725臺灣專場演出｜雨的旋律組曲｜陳鴻儀複音口琴獨奏演出 曲目：1.雨的旋律 2.愛你在心口難開 3.多少柔情多少淚",
+      "url": "https://www.youtube.com/watch?v=tKugOnXF-3M",
+      "sourceName": "陳鴻儀",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-06T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/df70d5bce18b6f6b6997.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-175f83eef87844281b15acd0",
       "title": "第15屆亞太口琴APH藝術週 – 閉幕式壓軸演出｜阿里山之歌｜臺灣口琴樂團THE室內樂團演出",
