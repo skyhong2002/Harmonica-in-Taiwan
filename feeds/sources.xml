@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 06 Aug 2026 11:24:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 12:30:50 +0000</lastBuildDate>
+    <item>
+      <title>RedBricks Harmonica</title>
+      <link>https://www.facebook.com/redbricksharmonica/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/77378d9ca07a4f96</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏、國際交流
+國家：香港
+地區：香港/國際
+香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
+    </item>
     <item>
       <title>臺灣口琴音樂節 THMF</title>
       <link>https://www.taiwanharmonica.com/</link>
@@ -18,6 +29,17 @@ Tag：活動資訊、團體樂團、音樂節、比賽、半音階、複音、�
 臺灣的核心活動與活動資訊來源，涵蓋音樂節、比賽、Gala、講座與午間音樂會。</description>
     </item>
     <item>
+      <title>山下伶 Rei Yamashita</title>
+      <link>https://rei-yamashita.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：日本
+地區：日本
+日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
+    </item>
+    <item>
       <title>梁承熹 Kelvin Leung</title>
       <link>https://harmonica-kelvin.weebly.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/fbf9a193b1b32198</guid>
@@ -27,17 +49,6 @@ Tag：演奏者、半音階、國際交流
 國家：香港
 地區：香港
 香港半音階口琴演奏者，活躍於國際音樂節演出交流。</description>
-    </item>
-    <item>
-      <title>RedBricks Harmonica</title>
-      <link>https://www.facebook.com/redbricksharmonica/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/77378d9ca07a4f96</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏、國際交流
-國家：香港
-地區：香港/國際
-香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
     </item>
     <item>
       <title>唐雪婷 Sharene Tang</title>
@@ -423,17 +434,6 @@ Tag：團體樂團、重奏、國際交流
 國家：臺灣
 地區：臺灣
 臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與THMF。</description>
-    </item>
-    <item>
-      <title>山下伶 Rei Yamashita</title>
-      <link>https://rei-yamashita.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：日本
-地區：日本
-日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
     </item>
     <item>
       <title>Dr. Blue 口琴樂團</title>
