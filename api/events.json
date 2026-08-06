@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 521,
+  "count": 522,
   "items": [
     {
       "title": "林士傑｜@musette585: 演出前一天斷簧^ _ ^ 放崩10幾20年的簧片終於拿出來用了。 @musette585 : 演出前一天斷簧^ _ ^ 放崩10幾20年的簧片終於拿出來用了。",
@@ -367,6 +367,71 @@
         "公開活動"
       ],
       "key": "ig_taiwanharmonica:https://www.instagram.com/p/DbsLa68zA-Y/"
+    },
+    {
+      "title": "臺中國家歌劇院 National Taichung Theater｜2026 NTT遇見巨人｜亞洲首演！愛爾蘭鬼才編導丹．科利《迷失的李爾》 #全臺獨家 #亞洲首演 備受矚目的愛爾蘭鬼才編導丹．科利（𝐃𝐚𝐧 𝐂𝐨𝐥𝐥𝐞𝐲），即將帶著國際獲…",
+      "headline": "2026 NTT遇見巨人｜亞洲首演！愛爾蘭鬼才編導丹．科利《迷失的李爾》",
+      "display_title": "2026 NTT遇見巨人｜亞洲首演！愛爾蘭鬼才編導丹．科利《迷失的李爾》",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=wuldRKmHSbc",
+      "source_id": "yt_uctl1euke_x0w6tahecepgmq",
+      "source": "臺中國家歌劇院 National Taichung Theater",
+      "source_system_name": "臺中國家歌劇院",
+      "source_profile_url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "directory_entry_id": "watchlist-80",
+      "directory_entry_name": "臺中國家歌劇院",
+      "account": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-08-06T07:48:15+00:00",
+      "posted_at_local": "2026-08-06 15:48",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-06T16:57:33.131068+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [],
+      "keyword_matches": [
+        "演出"
+      ],
+      "llm_relevant": false,
+      "llm_confidence": 0.98,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "歌劇院戲劇演出，內容無口琴相關",
+      "text": "2026 NTT遇見巨人｜亞洲首演！愛爾蘭鬼才編導丹．科利《迷失的李爾》\n#全臺獨家 #亞洲首演\n備受矚目的愛爾蘭鬼才編導丹．科利（𝐃𝐚𝐧 𝐂𝐨𝐥𝐥𝐞𝐲），即將帶著國際獲獎無數的《迷失的李爾》（𝑳𝒐𝒔𝒕 𝑳𝒆𝒂𝒓）登上歌劇院舞台！\n🏆2022都柏林戲劇節震撼首演\n🏆2022《愛爾蘭時報》劇藝獎4項大獎提名\n🏆2025愛丁堡藝穗節《蘇格蘭人報》首獎\n故事講述患有失智症的老演員喬伊，她的現實與莎翁經典《李爾王》的戲劇世界交織在一起；醫護人員配合演出這場永無止境的「戲劇排練」，以穩定她的情緒。然而，這種平衡被與她長期疏遠的兒子康納打破，母子兩人在有限的對白裡，尋找真心對話的縫隙…\n—𝟮𝟬𝟮𝟲 𝙉𝙏𝙏遇見巨人—\n愛爾蘭鬼才編導丹．科利《迷失的李爾》\n𝟏𝟎/𝟏𝟔(五)—𝟏𝟎/𝟏𝟖 (日)📍中劇院\n搶先卡好位▶︎ https://npacntt.tw/n02Wuiqa\n#莎士比亞 #李爾王 #翻轉經典 #迷失的李爾 #DanColley #LostLear",
+      "images": [
+        "https://i.ytimg.com/vi/wuldRKmHSbc/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/wuldRKmHSbc/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/b8e0bae70f851f331f8e.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_kROflWtLDL5SN4-6xo3VZ9f2D2DI55Oh08zxVDWzjDjg=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/6503895ebdafdcd31f05.webp",
+      "source_initials": "NTT",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "yt_uctl1euke_x0w6tahecepgmq:wuldRKmHSbc"
     },
     {
       "title": "音和樂器PeaceTones｜🎵 在 #臺灣口琴音樂藝術節 B1口琴展售攤位體驗 #TOMBO #1248UX 半音階口琴並填寫線上問卷；即贈送 TOMBO日系小扇子乙支（每人限領取乙次，數量有限；送完為止... 🎵 在 #臺灣口琴音樂藝…",

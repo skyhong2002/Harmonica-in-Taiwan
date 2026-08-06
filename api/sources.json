@@ -1442,6 +1442,162 @@
       ]
     },
     {
+      "id": "watchlist-81",
+      "publicId": "81",
+      "name": "雙燕樂器",
+      "nameEn": "Musix Co., Ltd.",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "樂器行/單位",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴器材/活動資訊",
+      "structuredSummary": "口琴器材/活動資訊 / 口琴 / 器材來源",
+      "summary": "臺灣的口琴器材來源，關注口琴器材與活動資訊。",
+      "keywords": "雙燕樂器 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.musix.com.tw/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/MusixKHS/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@KHS_musix"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-06T07:54:54+00:00",
+      "latestUpdateLocal": "2026-08-06 15:54",
+      "latestUpdateSource": "雙燕樂器",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=c8zpEmWLwRI",
+      "avatarUrl": "/assets/source-avatars/8aee7cfbac001d68d0b8.webp",
+      "sourceInitials": "雙燕",
+      "sourceTags": [
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_musixkhs",
+          "name": "雙燕樂器",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/MusixKHS",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_khs_musix",
+          "name": "雙燕樂器",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@KHS_musix",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-80",
+      "publicId": "80",
+      "name": "臺中國家歌劇院",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "臺中國家歌劇院 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-ntt.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/npac.ntt/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nationaltaichungtheater/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@nationaltaichungtheater"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-06T07:48:15+00:00",
+      "latestUpdateLocal": "2026-08-06 15:48",
+      "latestUpdateSource": "臺中國家歌劇院",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=wuldRKmHSbc",
+      "avatarUrl": "/assets/source-avatars/bc7049fe5cb137813be9.webp",
+      "sourceInitials": "臺中",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_npac_ntt",
+          "name": "臺中國家歌劇院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/npac.ntt",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
+        },
+        {
+          "id": "threads_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "threads",
+          "type": "rss",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
+          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
+        },
+        {
+          "id": "yt_uctl1euke_x0w6tahecepgmq",
+          "name": "臺中國家歌劇院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-57",
       "publicId": "57",
       "name": "山下伶 Rei Yamashita",
@@ -3688,101 +3844,6 @@
       ]
     },
     {
-      "id": "watchlist-80",
-      "publicId": "80",
-      "name": "臺中國家歌劇院",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "臺中國家歌劇院 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-ntt.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/npac.ntt/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nationaltaichungtheater/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@nationaltaichungtheater"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-05T13:44:01+00:00",
-      "latestUpdateLocal": "2026-08-05 21:44",
-      "latestUpdateSource": "臺中國家歌劇院",
-      "latestUpdateUrl": "https://www.instagram.com/stories/nationaltaichungtheater/3957052551765570090/",
-      "avatarUrl": "/assets/source-avatars/bc7049fe5cb137813be9.webp",
-      "sourceInitials": "臺中",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_npac_ntt",
-          "name": "臺中國家歌劇院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/npac.ntt",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
-        },
-        {
-          "id": "threads_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "threads",
-          "type": "rss",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
-          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
-        },
-        {
-          "id": "yt_uctl1euke_x0w6tahecepgmq",
-          "name": "臺中國家歌劇院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-16",
       "publicId": "16",
       "name": "Dr. Blue 口琴樂團",
@@ -4820,67 +4881,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@UpSideDownharmonicaensemble",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-81",
-      "publicId": "81",
-      "name": "雙燕樂器",
-      "nameEn": "Musix Co., Ltd.",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "樂器行/單位",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴器材/活動資訊",
-      "structuredSummary": "口琴器材/活動資訊 / 口琴 / 器材來源",
-      "summary": "臺灣的口琴器材來源，關注口琴器材與活動資訊。",
-      "keywords": "雙燕樂器 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.musix.com.tw/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/MusixKHS/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@KHS_musix"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-04T15:15:53+00:00",
-      "latestUpdateLocal": "2026-08-04 23:15",
-      "latestUpdateSource": "音和樂器",
-      "latestUpdateUrl": "https://www.facebook.com/MusixKHS/posts/pfbid023c5vi7CboP8E7LGqfU2AAj3XUyAJQFXLM5UjPH55PY5Rxmkod3W8TmWcff9grty3l",
-      "avatarUrl": "/assets/source-avatars/8aee7cfbac001d68d0b8.webp",
-      "sourceInitials": "雙燕",
-      "sourceTags": [
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_musixkhs",
-          "name": "雙燕樂器",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/MusixKHS",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_khs_musix",
-          "name": "雙燕樂器",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@KHS_musix",
           "feedUrl": ""
         }
       ]
