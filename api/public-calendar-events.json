@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-06T17:43:46+08:00",
+  "generatedAt": "2026-08-06T18:50:44+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
   "count": 10,
@@ -15,7 +15,7 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 34,
+      "cached": 30,
       "errors": 0
     }
   },
@@ -93,6 +93,42 @@
       "image_url": "https://i.ytimg.com/vi/PA11sSFkJeA/maxresdefault.jpg"
     },
     {
+      "id": "ee9dae5241f521fb",
+      "title": "臺灣口琴音樂節",
+      "eventName": "臺灣口琴音樂節",
+      "source": "Judy’s Harmonica Ensemble 茱蒂口琴樂團",
+      "platform": "instagram",
+      "start": "2026-08-07",
+      "end": "2026-08-08",
+      "allDay": true,
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "location": "新竹市文化局演藝廳",
+      "venue": "新竹市文化局演藝廳",
+      "city": "新竹市",
+      "details": "主辦／演出者：茱蒂口琴樂團 Judy's Harmonica Ensemble。貼文列出 08.07 的近期演出資訊，地點為新竹市文化局演藝廳。內容同時提到茱蒂口琴樂團演出與相關標籤。",
+      "evidenceUrl": "https://www.instagram.com/p/DbYdBiVuM0U/",
+      "confidence": 0.95,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "臺灣口琴音樂節",
+        "venue": "新竹市文化局演藝廳",
+        "city": "新竹市",
+        "details": "主辦／演出者：茱蒂口琴樂團 Judy's Harmonica Ensemble。貼文列出 08.07 的近期演出資訊，地點為新竹市文化局演藝廳。內容同時提到茱蒂口琴樂團演出與相關標籤。",
+        "reason": "候選日期 2026-08-07 與貼文中的 08.07 活動一致，且為臺灣實體口琴活動。",
+        "confidence": 0.95
+      },
+      "postedAt": "2026-07-30 00:15",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/758351015_18018663092880937_9015358826940879542_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=Mzk1MjAzNjMyMTk1NzU2MzY2ODE4MDE4NjYzMDg2ODgwOTM3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjYwNC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=DKwP2Y1_pccQ7kNvwEQdjXm&_nc_oc=AdqgT3CAGot5X7TW1eK_53aoqmVATpgb5A4Gun-qDVPuuQmZBPQJmJMZcVcp5D5S06k&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=4cFNjVQbDoxb-8Kaglh_uQ&_nc_ss=7a22e&oh=00_AQHu-H5VIa-iDuUw5THuZNSqDCm8qqbtuY8PkQuIzeZQfA&oe=6A709911"
+      ],
+      "image_url": "/assets/feed-images/ae1f7c984c46d25d48ff.webp"
+    },
+    {
       "id": "8436208ae40d8444",
       "title": "午間音樂會",
       "eventName": "午間音樂會",
@@ -129,76 +165,38 @@
       "image_url": "/assets/feed-images/c1b0354f78d9c5a9f661.webp"
     },
     {
-      "id": "7ee2f2b245bae865",
-      "title": "風城Show琴 Harmonica Fest in Windy City",
-      "eventName": "風城Show琴 Harmonica Fest in Windy City",
-      "source": "臺灣口琴音樂節 THMF",
+      "id": "290ed9103b60d6e4",
+      "title": "桂冠之聲：2026臺灣口琴音樂節Gala音樂會",
+      "eventName": "桂冠之聲：2026臺灣口琴音樂節Gala音樂會",
+      "source": "胖擊口琴樂團Punch Harmonica Ensemble",
       "platform": "facebook",
-      "start": "2026-08-07T19:00:00+08:00",
-      "end": "2026-08-07T21:00:00+08:00",
-      "allDay": false,
+      "start": "2026-08-08",
+      "end": "2026-08-09",
+      "allDay": true,
       "calendarType": "taiwan_physical",
       "timezone": "Asia/Taipei",
-      "location": "新竹市文化局演藝廳音樂廳",
-      "venue": "新竹市文化局演藝廳音樂廳",
-      "city": "新竹市",
-      "details": "主辦／演出者：臺灣口琴音樂節 THMF。2026 臺灣口琴音樂節的 Gala 音樂會之一，邀集臺灣、日本、韓國、香港等地口琴演奏者與樂團演出。此場為 8月7日（五）19:00，購票入場；參賽者憑參賽證可自由入場。",
-      "evidenceUrl": "https://www.facebook.com/twharmonica/posts/pfbid02676rr26nHtTsSNejQMDG7Ds86zjUy6csA1YvGWAduGDe2EopZ2AYrQgS7tXe1iKal",
-      "confidence": 0.98,
+      "location": "臺灣口琴音樂節活動場地",
+      "venue": "臺灣口琴音樂節活動場地",
+      "city": "臺灣",
+      "details": "主辦／演出者：胖擊口琴樂團。胖擊口琴樂團將於8/8(六)晚間演出，屬於2026臺灣口琴音樂節的Gala音樂會。貼文同時提到 open Stage 邀請，但本候選對應的是晚上的音樂會場次。",
+      "evidenceUrl": "https://www.facebook.com/Punch.Harp/posts/pfbid02tDSb1bXZ5dDKvwEgPoMjznNjS8qHc59cMXkjkV3GMZsyQF8tidGAtMsCcCaVcnKMl",
+      "confidence": 0.95,
       "calendarReview": {
         "include": true,
         "country": "臺灣",
         "eventMode": "taiwan_physical",
         "timezone": "Asia/Taipei",
         "candidateDateMatches": true,
-        "eventName": "風城Show琴 Harmonica Fest in Windy City",
-        "venue": "新竹市文化局演藝廳音樂廳",
-        "city": "新竹市",
-        "details": "主辦／演出者：臺灣口琴音樂節 THMF。2026 臺灣口琴音樂節的 Gala 音樂會之一，邀集臺灣、日本、韓國、香港等地口琴演奏者與樂團演出。此場為 8月7日（五）19:00，購票入場；參賽者憑參賽證可自由入場。",
-        "reason": "候選日期與內文明確一致，且為新竹市的實體口琴音樂會，符合收錄範圍。",
-        "confidence": 0.98
+        "eventName": "桂冠之聲：2026臺灣口琴音樂節Gala音樂會",
+        "venue": "臺灣口琴音樂節活動場地",
+        "city": "臺灣",
+        "details": "主辦／演出者：胖擊口琴樂團。胖擊口琴樂團將於8/8(六)晚間演出，屬於2026臺灣口琴音樂節的Gala音樂會。貼文同時提到 open Stage 邀請，但本候選對應的是晚上的音樂會場次。",
+        "reason": "候選日期 2026-08-08 與貼文明確提到的 8/8(六) 晚上演出一致，且為臺灣實體口琴活動。",
+        "confidence": 0.95
       },
-      "postedAt": "2026-07-07 17:44",
-      "images": [
-        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/739470687_1040056295068096_7293253133308599774_n.jpg?stp=dst-jpg_tt6&cstp=mx1365x2048&ctp=p526x296&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=2Y1z_Jz5Dh8Q7kNvwFu7VK-&_nc_oc=AdqxjQbb6wJT970ZnT5Z_rs1p-cS4quxZMheCf-q54835u_qYflx85m8deFTmC-EPow&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=fC0baYd0G3S4wa4B0Xtonw&_nc_ss=72289&oh=00_AQD5RdqSWLacQo-8-SAlB867k8FV6ZdIPrmBg_e1-da7CA&oe=6A55CCA3"
-      ],
-      "image_url": "/assets/feed-images/37059a2ebd980acbaf3f.webp"
-    },
-    {
-      "id": "48d83da0d3424f97",
-      "title": "桂冠之聲 Voices of the Laureates",
-      "eventName": "桂冠之聲 Voices of the Laureates",
-      "source": "臺灣口琴音樂節 THMF",
-      "platform": "facebook",
-      "start": "2026-08-08T19:00:00+08:00",
-      "end": "2026-08-08T21:00:00+08:00",
-      "allDay": false,
-      "calendarType": "taiwan_physical",
-      "timezone": "Asia/Taipei",
-      "location": "新竹市文化局演藝廳音樂廳",
-      "venue": "新竹市文化局演藝廳音樂廳",
-      "city": "新竹市",
-      "details": "主辦／演出者：臺灣口琴音樂節 THMF。2026臺灣口琴音樂節 Gala 音樂會之一，邀請來自香港、韓國與臺灣的口琴演奏者與團體共演。活動時間為 8月8日（六）19:00，購票入場，參賽者憑參賽證可自由入場。",
-      "evidenceUrl": "https://www.facebook.com/twharmonica/posts/pfbid02676rr26nHtTsSNejQMDG7Ds86zjUy6csA1YvGWAduGDe2EopZ2AYrQgS7tXe1iKal",
-      "confidence": 0.98,
-      "calendarReview": {
-        "include": true,
-        "country": "臺灣",
-        "eventMode": "taiwan_physical",
-        "timezone": "Asia/Taipei",
-        "candidateDateMatches": true,
-        "eventName": "桂冠之聲 Voices of the Laureates",
-        "venue": "新竹市文化局演藝廳音樂廳",
-        "city": "新竹市",
-        "details": "主辦／演出者：臺灣口琴音樂節 THMF。2026臺灣口琴音樂節 Gala 音樂會之一，邀請來自香港、韓國與臺灣的口琴演奏者與團體共演。活動時間為 8月8日（六）19:00，購票入場，參賽者憑參賽證可自由入場。",
-        "reason": "候選日期與貼文中該場音樂會日期完全一致，且為臺灣實體口琴活動。",
-        "confidence": 0.98
-      },
-      "postedAt": "2026-07-07 17:44",
-      "images": [
-        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/739470687_1040056295068096_7293253133308599774_n.jpg?stp=dst-jpg_tt6&cstp=mx1365x2048&ctp=p526x296&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=2Y1z_Jz5Dh8Q7kNvwFu7VK-&_nc_oc=AdqxjQbb6wJT970ZnT5Z_rs1p-cS4quxZMheCf-q54835u_qYflx85m8deFTmC-EPow&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=fC0baYd0G3S4wa4B0Xtonw&_nc_ss=72289&oh=00_AQD5RdqSWLacQo-8-SAlB867k8FV6ZdIPrmBg_e1-da7CA&oe=6A55CCA3"
-      ],
-      "image_url": "/assets/feed-images/37059a2ebd980acbaf3f.webp"
+      "postedAt": "2026-07-13 10:00",
+      "images": [],
+      "image_url": ""
     },
     {
       "id": "b97c65ab151a748d",
