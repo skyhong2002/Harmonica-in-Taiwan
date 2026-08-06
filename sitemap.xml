@@ -67,6 +67,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/104-timothy-yip/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/42-hsin-ho-wang/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/39/</loc>
     <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -80,6 +92,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/111-lee-hangyeol/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/33/</loc>
     <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -128,6 +146,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/66-younghoon-cho/</loc>
+    <lastmod>2026-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/121-fresco-harmonica-ensemble/</loc>
     <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -271,12 +295,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/33/</loc>
-    <lastmod>2026-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/65-jong-seong-park/</loc>
     <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -308,12 +326,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/108-rodrigo-eberienos/</loc>
-    <lastmod>2026-08-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/42-hsin-ho-wang/</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -368,12 +380,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/16-dr-blue/</loc>
-    <lastmod>2026-08-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/104-timothy-yip/</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -434,12 +440,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/53-leafin-harmonica-ensemble/</loc>
-    <lastmod>2026-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/121-fresco-harmonica-ensemble/</loc>
     <lastmod>2026-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
