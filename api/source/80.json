@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T03:09:06.912634Z",
+  "generatedAt": "2026-08-06T04:14:56.758989Z",
   "source": {
     "id": 80,
     "slug": "80",
@@ -382,20 +382,6 @@
       "publishedAt": "2026-07-07T07:00:28Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/f18d001395ef56d87aa5.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-f20992f1c314d21c7aaaf818",
-      "title": "2026 NTT 夏日放／FUN時光｜《月亮找朋友》主創藝術家們，現身揭密製作的小秘密！",
-      "excerpt": "2026 NTT 夏日放／FUN時光｜《月亮找朋友》主創藝術家們，現身揭密製作的小秘密！ 「這齣戲蠻能讓我們回到小朋友的時候，那時候有很多未知、不確定的事情；想像如果我們是月亮，我們會怎麼做？」─無獨有偶工作室劇團藝術總監 鄭嘉音 《月亮找朋友》從繪本、故事到戲偶設計，每個細節都藏有藝術家們想讓大朋友、小朋友發現的小秘密。3位主創藝術家，在不同領域發揮各自的想像力與創造力，慢慢孵育出這個作品，一起來看看精彩的幕後故事吧！ 進入劇場，睜大眼睛👀找看看藏在故事中的小細節！ ↪ ☾ ②⓪②⑥ ⓃⓉⓉ 夏日放／ⒻⓊⓃ時光 ☽ 無獨有偶工作室劇團《月亮找朋友》…",
-      "url": "https://www.youtube.com/watch?v=x_vmU7qHAjo",
-      "sourceName": "臺中國家歌劇院",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-07T04:00:14Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/07a27a38dce8ddd62a66.webp",
         "width": 800,
         "height": 450
       }
