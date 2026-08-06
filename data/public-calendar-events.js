@@ -1,9 +1,9 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-08-06T18:50:44+08:00",
+  "generatedAt": "2026-08-06T19:24:02+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 10,
+  "count": 11,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@ window.publicCalendarEvents = {
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 30,
+      "cached": 31,
       "errors": 0
     }
   },
@@ -197,6 +197,42 @@ window.publicCalendarEvents = {
       "postedAt": "2026-07-13 10:00",
       "images": [],
       "image_url": ""
+    },
+    {
+      "id": "40f2bd64e884b535",
+      "title": "2026 臺灣口琴音樂節 Gala 音樂會",
+      "eventName": "2026 臺灣口琴音樂節 Gala 音樂會",
+      "source": "臺灣口琴音樂節 Taiwan Harmonica Music Festival",
+      "platform": "instagram",
+      "start": "2026-08-08",
+      "end": "2026-08-09",
+      "allDay": true,
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "location": "B1 聯誼廳",
+      "venue": "B1 聯誼廳",
+      "city": "",
+      "details": "主辦／演出者：臺灣口琴音樂節 THMF。Punch Harmonica Ensemble 胖擊口琴樂團將於 8/8 在 2026 臺灣口琴音樂節的《桂冠之聲：2026 臺灣口琴音樂節 Gala 音樂會》演出。貼文也提到音樂節期間還有開放舞台、午間音樂會與迷你賽等活動。",
+      "evidenceUrl": "https://www.instagram.com/p/DbsLa68zA-Y/",
+      "confidence": 0.95,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "2026 臺灣口琴音樂節 Gala 音樂會",
+        "venue": "B1 聯誼廳",
+        "city": "",
+        "details": "主辦／演出者：臺灣口琴音樂節 THMF。Punch Harmonica Ensemble 胖擊口琴樂團將於 8/8 在 2026 臺灣口琴音樂節的《桂冠之聲：2026 臺灣口琴音樂節 Gala 音樂會》演出。貼文也提到音樂節期間還有開放舞台、午間音樂會與迷你賽等活動。",
+        "reason": "候選日期 2026-08-08 與貼文明確提到的 8/8 演出一致，且為臺灣實體口琴活動。",
+        "confidence": 0.95
+      },
+      "postedAt": "2026-08-06 16:08",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/764954099_17952798378238733_4494642264376600746_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=Mzk1NzU4ODQwMTA2Njg3MjcyODE3OTUyNzk4MzcyMjM4NzMz.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=aCGuAteA6-oQ7kNvwE2xtfV&_nc_oc=AdqRRyZ5ckGF9D-vYVOoNiAe3heFRFwloRbQiuPuJm_bbaxdqpGfd13m-CdsazchHu0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=NInNX5ZKi8g3-fpeGPSFXA&_nc_ss=7a22e&oh=00_AQFLdLnIe86_qog5qLLkZsC7ba0Xpw2Xy4bxz8OTGn7VhQ&oe=6A7A3268"
+      ],
+      "image_url": "/assets/feed-images/55a48d3e419b2006b2dc.webp"
     },
     {
       "id": "b97c65ab151a748d",
