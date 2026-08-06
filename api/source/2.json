@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T04:14:56.758989Z",
+  "generatedAt": "2026-08-06T05:21:39.677600Z",
   "source": {
     "id": 2,
     "slug": "taiwan-harmonica-music-festival",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/2-taiwan-harmonica-music-festival/"
   },
   "items": [
+    {
+      "id": "post-4c5e692d1f37ba6a1449e88a",
+      "title": "🎉【迷你賽名單公布】🎉",
+      "excerpt": "🎉【迷你賽名單公布】🎉 大家好～迷你賽的參賽名單公布啦！ 這次所有報名的琴友皆順利錄取，歡迎大家一起來同樂🎶 另外，目前旋律部、低音口琴部仍有名額空缺，還想參加的琴友，歡迎到 B1 聯誼廳現場報名！ 如果有需要尋找演出夥伴，或任何相關問題需要協助，也歡迎直接到現場，我們會幫忙大家🙌 期待和大家一起享受迷你賽熱鬧且歡樂的時光😁",
+      "url": "https://www.facebook.com/twharmonica/posts/pfbid02ywEb2MbteugS8Rf9N3yyQmHShPZBW2BihbbWCQvzAuLZ3EuirUuG1LH4QfpoNvHsl",
+      "sourceName": "臺灣口琴音樂節 THMF",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-06T01:00:05Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/64729dd133c65b507872.webp",
+        "width": 509,
+        "height": 720
+      }
+    },
     {
       "id": "post-03b05710c89320258e7b6aeb",
       "title": "【演出預告｜臺灣口琴音樂節】",

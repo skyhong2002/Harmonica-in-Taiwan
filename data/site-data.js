@@ -321,6 +321,95 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-2",
+      "publicId": "2",
+      "name": "臺灣口琴音樂節 THMF",
+      "nameEn": "Taiwan Harmonica Music Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "音樂節/比賽/Gala/講座/午間音樂會/新興團體/2026 臺灣口琴音樂節",
+      "structuredSummary": "音樂節/比賽/Gala/講座/午間音樂會/新興團體/2026 臺灣口琴音樂節 / 半音階/複音/十孔/重奏 / 核心活動/活動資訊來源",
+      "summary": "臺灣的核心活動與活動資訊來源，涵蓋音樂節、比賽、Gala、講座與午間音樂會。",
+      "keywords": "THMF 臺灣口琴音樂節 Taiwan Harmonica Music Festival 午間音樂會 新團體",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/twharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/taiwanharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@thmc6470"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-06T01:00:05+00:00",
+      "latestUpdateLocal": "2026-08-06 09:00",
+      "latestUpdateSource": "臺灣口琴音樂節 THMF",
+      "latestUpdateUrl": "https://www.facebook.com/twharmonica/posts/pfbid02ywEb2MbteugS8Rf9N3yyQmHShPZBW2BihbbWCQvzAuLZ3EuirUuG1LH4QfpoNvHsl",
+      "avatarUrl": "/assets/source-avatars/bfc666c0dc3ef1faa877.webp",
+      "sourceInitials": "T",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "音樂節",
+        "比賽",
+        "半音階",
+        "複音",
+        "十孔",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_twharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/twharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/taiwanharmonica/story/0"
+        },
+        {
+          "id": "ig_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_thmc6470",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@thmc6470",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-54",
       "publicId": "54",
       "name": "CY Leo 何卓彥",
@@ -488,95 +577,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCj06r7zxcQqFS26fy7n0jZw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-2",
-      "publicId": "2",
-      "name": "臺灣口琴音樂節 THMF",
-      "nameEn": "Taiwan Harmonica Music Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "活動/資訊入口",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "音樂節/比賽/Gala/講座/午間音樂會/新興團體/2026 臺灣口琴音樂節",
-      "structuredSummary": "音樂節/比賽/Gala/講座/午間音樂會/新興團體/2026 臺灣口琴音樂節 / 半音階/複音/十孔/重奏 / 核心活動/活動資訊來源",
-      "summary": "臺灣的核心活動與活動資訊來源，涵蓋音樂節、比賽、Gala、講座與午間音樂會。",
-      "keywords": "THMF 臺灣口琴音樂節 Taiwan Harmonica Music Festival 午間音樂會 新團體",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.taiwanharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/twharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/taiwanharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@thmc6470"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-06T00:01:13+00:00",
-      "latestUpdateLocal": "2026-08-06 08:01",
-      "latestUpdateSource": "臺灣口琴音樂節 THMF",
-      "latestUpdateUrl": "https://www.instagram.com/stories/taiwanharmonica/3957363171887628586/",
-      "avatarUrl": "/assets/source-avatars/bfc666c0dc3ef1faa877.webp",
-      "sourceInitials": "T",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "音樂節",
-        "比賽",
-        "半音階",
-        "複音",
-        "十孔",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_twharmonica",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/twharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_taiwanharmonica",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "taiwanharmonica",
-          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/taiwanharmonica/story/0"
-        },
-        {
-          "id": "ig_taiwanharmonica",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "taiwanharmonica",
-          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_thmc6470",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@thmc6470",
           "feedUrl": ""
         }
       ]
@@ -3108,6 +3108,102 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-5",
+      "publicId": "5",
+      "name": "胖擊口琴樂團",
+      "nameEn": "Punch Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/公演/年輕團體",
+      "structuredSummary": "重奏/公演/年輕團體 / 口琴重奏/合奏 / 演出團體",
+      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。",
+      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/punch.harp"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Punch.Harp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/punch.harp/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@punchharp"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@punch.harp"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-05T10:17:11+00:00",
+      "latestUpdateLocal": "2026-08-05 18:17",
+      "latestUpdateSource": "胖擊口琴樂團",
+      "latestUpdateUrl": "https://www.facebook.com/reel/1354341966291422/",
+      "avatarUrl": "/assets/source-avatars/b7f4f9bdf705037b1da7.webp",
+      "sourceInitials": "胖擊",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Punch.Harp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "punch.harp",
+          "profileUrl": "https://www.instagram.com/punch.harp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "punch.harp",
+          "profileUrl": "https://www.instagram.com/punch.harp/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/punch.harp/story/0"
+        },
+        {
+          "id": "threads_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "threads",
+          "type": "rss",
+          "username": "punch.harp",
+          "profileUrl": "https://www.threads.net/@punch.harp",
+          "feedUrl": "https://rss.observe.tw/threads/punch.harp"
+        },
+        {
+          "id": "yt_punchharp",
+          "name": "胖擊口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@punchharp",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-93",
       "publicId": "93",
       "name": "RedBricks Harmonica",
@@ -3183,102 +3279,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@RedBricksHarmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-5",
-      "publicId": "5",
-      "name": "胖擊口琴樂團",
-      "nameEn": "Punch Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/公演/年輕團體",
-      "structuredSummary": "重奏/公演/年輕團體 / 口琴重奏/合奏 / 演出團體",
-      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。",
-      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/punch.harp"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Punch.Harp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/punch.harp/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@punchharp"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@punch.harp"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-05T10:06:48+00:00",
-      "latestUpdateLocal": "2026-08-05 18:06",
-      "latestUpdateSource": "胖擊口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/punch.harp/3956943195858755361/",
-      "avatarUrl": "/assets/source-avatars/b7f4f9bdf705037b1da7.webp",
-      "sourceInitials": "胖擊",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Punch.Harp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "punch.harp",
-          "profileUrl": "https://www.instagram.com/punch.harp/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "punch.harp",
-          "profileUrl": "https://www.instagram.com/punch.harp/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/punch.harp/story/0"
-        },
-        {
-          "id": "threads_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "threads",
-          "type": "rss",
-          "username": "punch.harp",
-          "profileUrl": "https://www.threads.net/@punch.harp",
-          "feedUrl": "https://rss.observe.tw/threads/punch.harp"
-        },
-        {
-          "id": "yt_punchharp",
-          "name": "胖擊口琴樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@punchharp",
           "feedUrl": ""
         }
       ]
