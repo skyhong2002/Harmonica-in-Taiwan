@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 524,
+  "count": 523,
   "items": [
     {
       "title": "進擊的口琴樂團｜🎉【迷你賽名單公布】🎉 大家好～迷你賽的參賽名單公布啦！ 這次所有報名的琴友皆順利錄取，歡迎大家一起來同樂🎶 另外，目前旋律部、低音口琴部仍有名額空缺，還想參加的琴友，歡迎到 B1 聯誼廳現場報名！ 如果有需要尋找演出夥伴…",
@@ -40601,81 +40601,6 @@
         "補助比賽"
       ],
       "key": "fb_twharmonica:1040069735066752"
-    },
-    {
-      "title": "Boris Plotnikov｜Boris Plotnikov - Georgia On My Mind - JDR Trochilus Bb Boris Plotnikov plays \"Georgia On My Mind\" on t…",
-      "headline": "Boris Plotnikov - Georgia On My Mind - JDR Trochilus Bb",
-      "display_title": "Boris Plotnikov - Georgia On My Mind - JDR Trochilus Bb",
-      "title_kind": "title",
-      "link": "https://www.youtube.com/watch?v=iGPcR-epRgA",
-      "source_id": "yt_etaborya",
-      "source": "Boris Plotnikov",
-      "source_system_name": "Boris Plotnikov",
-      "source_profile_url": "https://www.youtube.com/channel/UCGQ3vhq2otLC9XlZokUDLnQ",
-      "country": "俄羅斯",
-      "region": "俄羅斯",
-      "directory_entry_id": "watchlist-109",
-      "directory_entry_name": "Boris Plotnikov",
-      "account": "https://www.youtube.com/channel/UCGQ3vhq2otLC9XlZokUDLnQ",
-      "platform": "youtube",
-      "platform_label": "YouTube",
-      "posted_at": "2026-07-07T09:25:16+00:00",
-      "posted_at_local": "2026-07-07 17:25",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-07-07T17:35:42.182463+00:00",
-      "media_type": "video",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "影片",
-        "演出"
-      ],
-      "keyword_matches": [
-        "harmonica"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.9,
-      "llm_labels": [
-        "口琴",
-        "影片",
-        "演出"
-      ],
-      "llm_categories": [
-        "posts-videos"
-      ],
-      "llm_reason": "影片為口琴演奏者Boris Plotnikov演奏口琴曲目，並提供口琴教學與演出資訊，內容與口琴直接相關。",
-      "text": "Boris Plotnikov - Georgia On My Mind - JDR Trochilus Bb\nBoris Plotnikov plays \"Georgia On My Mind\" on the JDR Trochilus in Bb.\nSome songs just seem to ask for the Trochilus.\nCould I play this on a diatonic harmonica? Absolutely. But following the chord changes faithfully requires a lot of overblows. That's why many diatonic players simplify the melody, leaving out some of the beautiful notes that highlight the harmony.\nCould I play it on a chromatic? Of course. But for a bluesy song like this, the chromatic still has a slightly more academic sound.\nFor me, the Trochilus is the perfect fit.\nVisit my website | Заходите на мой сайт\nhttp://borisplotnikov.ru\nПодписывайтесь на мою группу вконтакте:\nhttps://vk.com/boris_plotnikov_harmonica\nУроки губной гармоника, губная гармоника на запись, организация концертов и мастерклассов.\nHarmonica lesson, harmonica for your track, gigs and workshops.\nContact:\ninfo@borisplotnikov.ru\nhttps://vk.com/boris_plotnikov\nhttps://t.me/boris_plotnikov\nTel: +79857831930",
-      "images": [
-        "https://i.ytimg.com/vi/iGPcR-epRgA/maxresdefault.jpg"
-      ],
-      "videos": [],
-      "source_image_url": "https://i.ytimg.com/vi/iGPcR-epRgA/maxresdefault.jpg",
-      "image_url": "/assets/feed-images/b9cd70ec95cda8740cfc.webp",
-      "image_width": 800,
-      "image_height": 450,
-      "source_avatar_url": "https://yt3.googleusercontent.com/h_kW-81Hwrfr8LBssdYv9PftOetaIE33AE-fPLwcbC9_TBwpErnYAw8HnbRpZZ5pLs_XPVA_Ew=s900-c-k-c0x00ffffff-no-rj",
-      "avatar_url": "/assets/source-avatars/3705b6c2fe9b1000f106.webp",
-      "source_initials": "BP",
-      "categories": [
-        "posts-videos",
-        "events"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動"
-      ],
-      "key": "yt_etaborya:iGPcR-epRgA"
     }
   ]
 }
