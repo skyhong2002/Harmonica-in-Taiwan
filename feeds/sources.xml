@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 06 Aug 2026 21:21:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 21:54:36 +0000</lastBuildDate>
     <item>
       <title>Konstantin Reinfeld</title>
       <link>https://www.konstantinreinfeld.com/</link>
@@ -60,6 +60,17 @@ Tag：演奏者
 國家：臺灣
 地區：臺灣
 臺灣的口琴演出人員與評審，活動脈絡包含演出與評審。</description>
+    </item>
+    <item>
+      <title>梁承熹 Kelvin Leung</title>
+      <link>https://harmonica-kelvin.weebly.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/fbf9a193b1b32198</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：香港
+地區：香港
+香港半音階口琴演奏者，活躍於國際音樂節演出交流。</description>
     </item>
     <item>
       <title>臺中國家歌劇院</title>
@@ -390,17 +401,6 @@ Tag：教學器材、教學
 國家：臺灣
 地區：臺灣/臺北
 臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。</description>
-    </item>
-    <item>
-      <title>梁承熹 Kelvin Leung</title>
-      <link>https://harmonica-kelvin.weebly.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/fbf9a193b1b32198</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：香港
-地區：香港
-香港半音階口琴演奏者，活躍於國際音樂節演出交流。</description>
     </item>
     <item>
       <title>范曉怡</title>
