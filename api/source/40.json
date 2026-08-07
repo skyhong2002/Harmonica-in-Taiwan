@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-06T23:01:07.837635Z",
+  "generatedAt": "2026-08-07T00:07:15.335900Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -200,20 +200,6 @@
       "publishedAt": "2026-07-08T12:00:06Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/19c524390473bf01cee4.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-fa3bc19d90730a2a642ad7c9",
-      "title": "【公益活動】｜蔡小虎 – 你甘擱會想起我｜基隆社大就是吹口琴班",
-      "excerpt": "【公益活動】｜蔡小虎 – 你甘擱會想起我｜基隆社大就是吹口琴班 115.07.07公益活動 你甘擱會想起我 李友雄 作曲 陳金同/李友雄 作詞 蔡小虎 原唱 複音口琴演奏版本《C調》",
-      "url": "https://www.youtube.com/watch?v=i8_s2uuGNV4",
-      "sourceName": "陳鴻儀",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-08T00:00:06Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/77e599b98858cd416811.webp",
         "width": 800,
         "height": 450
       }

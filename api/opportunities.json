@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
   "json": "https://harmonica.observe.tw/api/opportunities.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/opportunities.json",
-  "count": 139,
+  "count": 138,
   "items": [
     {
       "title": "林士傑｜這次會遇到多少（小白的）口琴朋友⋯⋯",
@@ -11067,79 +11067,6 @@
         "補助比賽"
       ],
       "key": "fb_malaysiaharmonicafestival:1017557451032420"
-    },
-    {
-      "title": "Yellow Pine Harmonica Festival｜There's a LOT to do at the Yellow Pine Harmonica Festival beyond listening to music! Tak…",
-      "headline": "There's a LOT to do at the Yellow Pine Harmonica Festival beyond listening to music!",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.instagram.com/p/DagqZjLjy9J/",
-      "source_id": "ig_yellowpinemusicfestival",
-      "source": "Yellow Pine Harmonica Festival",
-      "source_system_name": "Yellow Pine Harmonica Festival",
-      "source_profile_url": "https://www.instagram.com/yellowpinemusicfestival/",
-      "country": "美國",
-      "region": "美國/愛達荷",
-      "directory_entry_id": "watchlist-174",
-      "directory_entry_name": "Yellow Pine Harmonica Festival",
-      "account": "yellowpinemusicfestival",
-      "platform": "instagram",
-      "platform_label": "Instagram",
-      "posted_at": "Tue, 07 Jul 2026 23:37:10 GMT",
-      "posted_at_local": "2026-07-08 07:37",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-07-08T03:59:14.687165+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "https://rss.observe.tw/instagram/2/user/yellowpinemusicfestival",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "公開更新"
-      ],
-      "keyword_matches": [
-        "harmonica"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.9,
-      "llm_labels": [
-        "口琴",
-        "公開更新"
-      ],
-      "llm_categories": [
-        "posts-videos"
-      ],
-      "llm_reason": "貼文來自黃松口琴節，提及口琴比賽、課程與示範，屬於口琴相關公開活動更新。",
-      "text": "There's a LOT to do at the Yellow Pine Harmonica Festival beyond listening to music!\nTake a Class!\nListen to a presentation on Local History!\nView a Demonstration!\nParticipate the BEARD CONTEST\nPlay Bingo!\nHave Breakfast!\nWin the Harmonica Contest!\n... and MORE!!!\nCheck out our Activities Page to Find out what else is in store!!!\nSee you this summer in Yellow Pine Idaho!!!\nhttps://www.yellowpinefestival.org/activities/",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t39.30808-6/678602104_1291228489874079_5245232394400192607_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkzNjMzMjU0ODAzNzA5NTI0MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjA0OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=bsBKb-FVrAAQ7kNvwHZkwIY&_nc_oc=AdrIzWK_KTkrU1qa-uM4uVzseHGKaCJuyPIVajVG0aKPcMz16IkMffSzKgB55gMpIrM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=6mF9qsKAVa6uEvZx9H6Zhw&_nc_ss=7a22e&oh=00_AQAlMw2MuVj-rANG1EKDFJ7tkGwfAwKoYIxPIhhe19ezJA&oe=6A53AEAE"
-      ],
-      "videos": [],
-      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t39.30808-6/678602104_1291228489874079_5245232394400192607_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=MzkzNjMzMjU0ODAzNzA5NTI0MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjA0OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=bsBKb-FVrAAQ7kNvwHZkwIY&_nc_oc=AdrIzWK_KTkrU1qa-uM4uVzseHGKaCJuyPIVajVG0aKPcMz16IkMffSzKgB55gMpIrM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=6mF9qsKAVa6uEvZx9H6Zhw&_nc_ss=7a22e&oh=00_AQAlMw2MuVj-rANG1EKDFJ7tkGwfAwKoYIxPIhhe19ezJA&oe=6A53AEAE",
-      "image_url": "/assets/feed-images/aab9bc8bf57ab7d2fec0.webp",
-      "image_width": 800,
-      "image_height": 534,
-      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/355134462_1710356866069400_2026509270452807418_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby40NTQuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gEoKZl89wreSRVWjW69HJ1CD5zwMwZ4kr2NhL5JTYm6Myppy2cxfH4PPQdXm6nMfjA&_nc_ohc=MLEeNK-2ZQsQ7kNvwFseMCi&_nc_gid=T2QXOpggjJuecWEctXRA1A&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQAeCH2ERRYbejxOKT631j_4cwymsjyyCMJ212UH8X0y8w&oe=6A53A74B&_nc_sid=8b3546",
-      "avatar_url": "/assets/source-avatars/ad059b7d2f95b4aa2a78.webp",
-      "source_initials": "YPH",
-      "categories": [
-        "posts-videos",
-        "opportunities"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "補助比賽"
-      ],
-      "key": "ig_yellowpinemusicfestival:https://www.instagram.com/p/DagqZjLjy9J/"
     }
   ]
 }

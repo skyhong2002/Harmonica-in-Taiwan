@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 06 Aug 2026 23:01:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 00:07:16 +0000</lastBuildDate>
+    <item>
+      <title>南里沙</title>
+      <link>https://minamirisa.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/ad86c3570665b36e</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：日本
+地區：日本
+日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+    </item>
     <item>
       <title>Konstantin Reinfeld</title>
       <link>https://www.konstantinreinfeld.com/</link>
@@ -95,6 +106,17 @@ Tag：場館平台
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
+      <title>Federico Linari</title>
+      <link>https://www.hohner.de/en/federico-linari</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/fc7ebf0ba0d6424f</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、十孔、國際交流
+國家：阿根廷
+地區：阿根廷
+阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。</description>
+    </item>
+    <item>
       <title>Lee Hangyeol 이한결</title>
       <link>https://www.instagram.com/gyeoli_94/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/7a632dfd1b5ac9e9</guid>
@@ -126,17 +148,6 @@ Tag：演奏者、半音階、國際交流
 國家：韓國
 地區：韓國
 韓國半音階口琴演奏家，活躍於國際舞台。</description>
-    </item>
-    <item>
-      <title>南里沙</title>
-      <link>https://minamirisa.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/ad86c3570665b36e</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：日本
-地區：日本
-日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
     </item>
     <item>
       <title>Aiden N Evelyn / Aiden Soon &amp; Evelyn Choong</title>
@@ -269,6 +280,17 @@ Tag：演奏者、重奏、國際交流
 國家：馬來西亞
 地區：臺灣/花蓮；馬來西亞
 馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。</description>
+    </item>
+    <item>
+      <title>韋笙堡口琴 Weissenberg Harmonicas</title>
+      <link>https://www.weissenbergwind.com/tw/product_list.php?type=4</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/6943943f14cc844d</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：教學器材、教學
+國家：臺灣
+地區：臺灣/臺中
+臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。</description>
     </item>
     <item>
       <title>CY Leo 何卓彥</title>
@@ -843,17 +865,6 @@ Tag：活動資訊、比賽、國際交流
 德國的國際活動來源，涵蓋四年一度世界口琴節、國際比賽、Gala與工作坊。</description>
     </item>
     <item>
-      <title>Federico Linari</title>
-      <link>https://www.hohner.de/en/federico-linari</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/fc7ebf0ba0d6424f</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學、十孔、國際交流
-國家：阿根廷
-地區：阿根廷
-阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。</description>
-    </item>
-    <item>
       <title>陽明交大竹韻口琴社</title>
       <link>https://www.facebook.com/nycubmhc/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/3a59c106034dfcfa</guid>
@@ -962,17 +973,6 @@ Tag：演奏者、教學、複音
 國家：臺灣
 地區：臺灣
 臺灣的複音演出人員，活動脈絡包含教學與演出。</description>
-    </item>
-    <item>
-      <title>韋笙堡口琴 Weissenberg Harmonicas</title>
-      <link>https://www.weissenbergwind.com/tw/product_list.php?type=4</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/6943943f14cc844d</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：教學器材、教學
-國家：臺灣
-地區：臺灣/臺中
-臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。</description>
     </item>
     <item>
       <title>IniXial Harmonica Ensemble 源創口琴樂團</title>

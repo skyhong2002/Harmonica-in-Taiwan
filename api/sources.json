@@ -65,6 +65,107 @@
   },
   "entries": [
     {
+      "id": "watchlist-58",
+      "publicId": "58",
+      "name": "南里沙",
+      "nameEn": "Minami Risa",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
+      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
+      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
+      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://minamirisa.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/minamirisa/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/minami_risa/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@minamirisa"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/minami_risa"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@minami_risa"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-06T23:49:30+00:00",
+      "latestUpdateLocal": "2026-08-07 07:49",
+      "latestUpdateSource": "南里沙",
+      "latestUpdateUrl": "https://x.com/minami_risa/status/2085513626358776236",
+      "avatarUrl": "/assets/source-avatars/d4ddc4aa7561b64ea9b4.webp",
+      "sourceInitials": "南里",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_minamirisa",
+          "name": "南里沙",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/minamirisa",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
+        },
+        {
+          "id": "x_minami_risa",
+          "name": "南里沙",
+          "platform": "x",
+          "type": "rss",
+          "username": "minami_risa",
+          "profileUrl": "https://x.com/minami_risa",
+          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
+        },
+        {
+          "id": "yt_minamirisa",
+          "name": "南里沙",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@minamirisa",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-107",
       "publicId": "107",
       "name": "Konstantin Reinfeld",
@@ -473,7 +574,7 @@
       "latestUpdateLocal": "2026-08-07 00:16",
       "latestUpdateSource": "林士傑",
       "latestUpdateUrl": "https://www.threads.com/t/DbtHxF9E25N",
-      "avatarUrl": "/assets/source-avatars/63e95b797b2ffd1ec507.webp",
+      "avatarUrl": "/assets/source-avatars/c2e23c5b2da5fd37bb4e.webp",
       "sourceInitials": "林士",
       "sourceTags": [
         "演奏者"
@@ -699,6 +800,91 @@
       ]
     },
     {
+      "id": "watchlist-118",
+      "publicId": "118",
+      "name": "Federico Linari",
+      "nameEn": "Federico Linari",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "阿根廷",
+      "region": "阿根廷",
+      "cityOrFocus": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源",
+      "structuredSummary": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源 / 十孔/爵士口琴 / 國際演出人員/教學者/製作人",
+      "summary": "阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。",
+      "keywords": "Federico Linari harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hohner.de/en/federico-linari"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Federico.Linari.Armonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/fede.linari/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@FedericoLinari"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-06T15:38:20+00:00",
+      "latestUpdateLocal": "2026-08-06 23:38",
+      "latestUpdateSource": "Federico Linari",
+      "latestUpdateUrl": "https://www.instagram.com/stories/fede.linari/3957834844189334424/",
+      "avatarUrl": "/assets/source-avatars/f86f36ff18abb0ec10a0.webp",
+      "sourceInitials": "FL",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_federico_linari_armonica",
+          "name": "Federico Linari",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Federico.Linari.Armonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_fede_linari",
+          "name": "Federico Linari",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "fede.linari",
+          "profileUrl": "https://www.instagram.com/fede.linari/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_fede_linari",
+          "name": "Federico Linari",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "fede.linari",
+          "profileUrl": "https://www.instagram.com/fede.linari/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/fede.linari/story/0"
+        },
+        {
+          "id": "yt_federicolinari",
+          "name": "Federico Linari",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@FedericoLinari",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-111",
       "publicId": "111",
       "name": "Lee Hangyeol 이한결",
@@ -800,7 +986,7 @@
       "latestUpdateLocal": "2026-08-06 23:27",
       "latestUpdateSource": "黃冠誌",
       "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3957829241892000462/",
-      "avatarUrl": "/assets/source-avatars/69c3389ee7560a61b1a5.webp",
+      "avatarUrl": "/assets/source-avatars/4a25ffe52fa7ce9dd0a9.webp",
       "sourceInitials": "黃冠",
       "sourceTags": [
         "演奏者",
@@ -923,107 +1109,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/jongseongpark",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-58",
-      "publicId": "58",
-      "name": "南里沙",
-      "nameEn": "Minami Risa",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
-      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
-      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://minamirisa.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/minamirisa/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/minami_risa/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@minamirisa"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/minami_risa"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@minami_risa"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-06T15:07:08+00:00",
-      "latestUpdateLocal": "2026-08-06 23:07",
-      "latestUpdateSource": "南里沙",
-      "latestUpdateUrl": "https://x.com/minami_risa/status/2085382170387042564",
-      "avatarUrl": "/assets/source-avatars/d4ddc4aa7561b64ea9b4.webp",
-      "sourceInitials": "南里",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_minamirisa",
-          "name": "南里沙",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/minamirisa",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
-        },
-        {
-          "id": "x_minami_risa",
-          "name": "南里沙",
-          "platform": "x",
-          "type": "rss",
-          "username": "minami_risa",
-          "profileUrl": "https://x.com/minami_risa",
-          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
-        },
-        {
-          "id": "yt_minamirisa",
-          "name": "南里沙",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@minamirisa",
           "feedUrl": ""
         }
       ]
@@ -1945,6 +2030,89 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@hokahkean1999",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-95",
+      "publicId": "95",
+      "name": "韋笙堡口琴 Weissenberg Harmonicas",
+      "nameEn": "Weissenberg Harmonicas",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "品牌/樂器商",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "口琴製造/器材/產品資訊",
+      "structuredSummary": "口琴製造/器材/產品資訊 / 口琴 / 器材品牌",
+      "summary": "臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。",
+      "keywords": "韋笙堡 Weissenberg Harmonicas 口琴 臺灣 Made in Taiwan",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.weissenbergwind.com/tw/product_list.php?type=4"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Weissenberg.Harmonicas/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weissenbergtw/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/weissenberg1979"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-06T11:28:06+00:00",
+      "latestUpdateLocal": "2026-08-06 19:28",
+      "latestUpdateSource": "韋笙堡口琴 Weissenberg Harmonicas",
+      "latestUpdateUrl": "https://www.instagram.com/stories/weissenbergtw/3957708900086799788/",
+      "avatarUrl": "/assets/source-avatars/c1266b6c2fd37d753575.webp",
+      "sourceInitials": "WH",
+      "sourceTags": [
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_weissenberg_harmonicas",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Weissenberg.Harmonicas",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weissenbergtw",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weissenbergtw",
+          "profileUrl": "https://www.instagram.com/weissenbergtw/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weissenbergtw/story/0"
+        },
+        {
+          "id": "ig_weissenbergtw",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weissenbergtw",
+          "profileUrl": "https://www.instagram.com/weissenbergtw/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_weissenberg1979",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/weissenberg1979",
           "feedUrl": ""
         }
       ]
@@ -6066,91 +6234,6 @@
       ]
     },
     {
-      "id": "watchlist-118",
-      "publicId": "118",
-      "name": "Federico Linari",
-      "nameEn": "Federico Linari",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "阿根廷",
-      "region": "阿根廷",
-      "cityOrFocus": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源",
-      "structuredSummary": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源 / 十孔/爵士口琴 / 國際演出人員/教學者/製作人",
-      "summary": "阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。",
-      "keywords": "Federico Linari harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hohner.de/en/federico-linari"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Federico.Linari.Armonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/fede.linari/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@FedericoLinari"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-03T12:00:10+00:00",
-      "latestUpdateLocal": "2026-08-03 20:00",
-      "latestUpdateSource": "Federico Linari",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dbk8GGzxmpT/",
-      "avatarUrl": "/assets/source-avatars/f86f36ff18abb0ec10a0.webp",
-      "sourceInitials": "FL",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_federico_linari_armonica",
-          "name": "Federico Linari",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Federico.Linari.Armonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_fede_linari",
-          "name": "Federico Linari",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "fede.linari",
-          "profileUrl": "https://www.instagram.com/fede.linari/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_fede_linari",
-          "name": "Federico Linari",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "fede.linari",
-          "profileUrl": "https://www.instagram.com/fede.linari/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/fede.linari/story/0"
-        },
-        {
-          "id": "yt_federicolinari",
-          "name": "Federico Linari",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@FedericoLinari",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-198",
       "publicId": "198",
       "name": "陽明交大竹韻口琴社",
@@ -7051,89 +7134,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/mandy730508",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-95",
-      "publicId": "95",
-      "name": "韋笙堡口琴 Weissenberg Harmonicas",
-      "nameEn": "Weissenberg Harmonicas",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "品牌/樂器商",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "口琴製造/器材/產品資訊",
-      "structuredSummary": "口琴製造/器材/產品資訊 / 口琴 / 器材品牌",
-      "summary": "臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。",
-      "keywords": "韋笙堡 Weissenberg Harmonicas 口琴 臺灣 Made in Taiwan",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.weissenbergwind.com/tw/product_list.php?type=4"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Weissenberg.Harmonicas/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weissenbergtw/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/weissenberg1979"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-02T01:02:21+00:00",
-      "latestUpdateLocal": "2026-08-02 09:02",
-      "latestUpdateSource": "韋笙堡口琴 Weissenberg Harmonicas",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbhLomLTp5n/",
-      "avatarUrl": "/assets/source-avatars/c1266b6c2fd37d753575.webp",
-      "sourceInitials": "WH",
-      "sourceTags": [
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_weissenberg_harmonicas",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Weissenberg.Harmonicas",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_weissenbergtw",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weissenbergtw",
-          "profileUrl": "https://www.instagram.com/weissenbergtw/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weissenbergtw/story/0"
-        },
-        {
-          "id": "ig_weissenbergtw",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weissenbergtw",
-          "profileUrl": "https://www.instagram.com/weissenbergtw/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_weissenberg1979",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/weissenberg1979",
           "feedUrl": ""
         }
       ]
