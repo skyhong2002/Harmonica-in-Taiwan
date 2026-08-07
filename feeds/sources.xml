@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 07 Aug 2026 16:04:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 16:37:50 +0000</lastBuildDate>
+    <item>
+      <title>南里沙</title>
+      <link>https://minamirisa.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/ad86c3570665b36e</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：日本
+地區：日本
+日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+    </item>
     <item>
       <title>Lee Hangyeol 이한결</title>
       <link>https://www.instagram.com/gyeoli_94/</link>
@@ -16,6 +27,17 @@ Tag：演奏者、教學、半音階、國際交流
 國家：韓國
 地區：韓國
 韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。</description>
+    </item>
+    <item>
+      <title>音和樂器</title>
+      <link>https://0223120930.web66.com.tw/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/946384acc3afb19b</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：教學器材、教學
+國家：臺灣
+地區：臺灣/臺北
+臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。</description>
     </item>
     <item>
       <title>Santiago Alvarez</title>
@@ -60,6 +82,17 @@ Tag：演奏者、教學、十孔、國際交流
 國家：阿根廷
 地區：阿根廷
 阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。</description>
+    </item>
+    <item>
+      <title>陳彥銘</title>
+      <link>https://mx.nthu.edu.tw/~ymchen/sirius/CT.htm</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/294a4e588c327308</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、和弦、重奏、交流
+國家：臺灣
+地區：臺灣
+天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。</description>
     </item>
     <item>
       <title>F.I.H. JAPAN ハーモニカコンテスト</title>
@@ -216,6 +249,17 @@ Tag：演奏者、半音階、重奏、國際交流、比賽
 臺灣半音階口琴演奏者，2025 世界口琴節獲公開組冠軍，並參與 111 Duo、Trio 與 Quintet。</description>
     </item>
     <item>
+      <title>國家兩廳院</title>
+      <link>https://npac-ntch.org/zh</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/31f9c79620bc0e35</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/臺北
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
       <title>王衍華</title>
       <link>https://portaly.cc/yenhua_wang</link>
       <guid>https://harmonica.observe.tw/feeds/sources/d4be998cbe5b2da8</guid>
@@ -280,17 +324,6 @@ Tag：演奏者
 國家：臺灣
 地區：臺灣
 臺灣的口琴演出人員，活動脈絡包含胖擊系。</description>
-    </item>
-    <item>
-      <title>南里沙</title>
-      <link>https://minamirisa.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/ad86c3570665b36e</guid>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：日本
-地區：日本
-日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
     </item>
     <item>
       <title>Younghoon Cho</title>
@@ -557,28 +590,6 @@ Tag：教學器材、教學
 臺灣的口琴器材來源，關注口琴器材與活動資訊。</description>
     </item>
     <item>
-      <title>國家兩廳院</title>
-      <link>https://npac-ntch.org/zh</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/31f9c79620bc0e35</guid>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/臺北
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
-    </item>
-    <item>
-      <title>音和樂器</title>
-      <link>https://0223120930.web66.com.tw/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/946384acc3afb19b</guid>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：教學器材、教學
-國家：臺灣
-地區：臺灣/臺北
-臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。</description>
-    </item>
-    <item>
       <title>范曉怡</title>
       <link>https://www.facebook.com/fanhsiaoyi/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/cabba71c598fef9e</guid>
@@ -698,17 +709,6 @@ Tag：團體樂團、重奏、演出
 國家：臺灣
 地區：臺灣
 台大藍聲系背景的青年口琴重奏樂團，專注於室內樂演出。</description>
-    </item>
-    <item>
-      <title>陳彥銘</title>
-      <link>https://mx.nthu.edu.tw/~ymchen/sirius/CT.htm</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/294a4e588c327308</guid>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、和弦、重奏、交流
-國家：臺灣
-地區：臺灣
-天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。</description>
     </item>
     <item>
       <title>莊筑迪</title>
