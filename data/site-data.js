@@ -2,6 +2,91 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-07",
   "entries": [
     {
+      "id": "watchlist-118",
+      "publicId": "118",
+      "name": "Federico Linari",
+      "nameEn": "Federico Linari",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "阿根廷",
+      "region": "阿根廷",
+      "cityOrFocus": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源",
+      "structuredSummary": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源 / 十孔/爵士口琴 / 國際演出人員/教學者/製作人",
+      "summary": "阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。",
+      "keywords": "Federico Linari harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hohner.de/en/federico-linari"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Federico.Linari.Armonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/fede.linari/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@FedericoLinari"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-07T12:00:07+00:00",
+      "latestUpdateLocal": "2026-08-07 20:00",
+      "latestUpdateSource": "Federico Linari",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbvPWVvRcq-/",
+      "avatarUrl": "/assets/source-avatars/f86f36ff18abb0ec10a0.webp",
+      "sourceInitials": "FL",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_federico_linari_armonica",
+          "name": "Federico Linari",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Federico.Linari.Armonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_fede_linari",
+          "name": "Federico Linari",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "fede.linari",
+          "profileUrl": "https://www.instagram.com/fede.linari/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_fede_linari",
+          "name": "Federico Linari",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "fede.linari",
+          "profileUrl": "https://www.instagram.com/fede.linari/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/fede.linari/story/0"
+        },
+        {
+          "id": "yt_federicolinari",
+          "name": "Federico Linari",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@FedericoLinari",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-51",
       "publicId": "51",
       "name": "唐雪婷 Sharene Tang",
@@ -1576,6 +1661,89 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-130",
+      "publicId": "130",
+      "name": "香港口琴協會 Hong Kong Harmonica Association",
+      "nameEn": "Hong Kong Harmonica Association",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "協會/團體",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "香港口琴協會/官方頻道/教育推廣/國際賽事與交流",
+      "structuredSummary": "香港口琴協會/官方頻道/教育推廣/國際賽事與交流 / 口琴 / 國際演出團體/協會來源",
+      "summary": "香港的口琴國際演出團體與協會來源，活動脈絡包含香港口琴協會、官方頻道與教育推廣。",
+      "keywords": "Hong Kong Harmonica Association Orchestra HKHA 香港口琴協會 SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hkharmonica.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hkharmonica"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hkharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@hkharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-07T02:26:27+00:00",
+      "latestUpdateLocal": "2026-08-07 10:26",
+      "latestUpdateSource": "香港口琴協會 Hong Kong Harmonica Association",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbuNnteExyo/",
+      "avatarUrl": "/assets/source-avatars/83ff018cf3f12aaaf7c6.webp",
+      "sourceInitials": "HKH",
+      "sourceTags": [
+        "團體樂團",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hkharmonica",
+          "name": "香港口琴協會 Hong Kong Harmonica Association",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hkharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hkharmonica",
+          "name": "香港口琴協會 Hong Kong Harmonica Association",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hkharmonica",
+          "profileUrl": "https://www.instagram.com/hkharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hkharmonica",
+          "name": "香港口琴協會 Hong Kong Harmonica Association",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hkharmonica",
+          "profileUrl": "https://www.instagram.com/hkharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hkharmonica/story/0"
+        },
+        {
+          "id": "yt_hkharmonica",
+          "name": "香港口琴協會 Hong Kong Harmonica Association",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@hkharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-54",
       "publicId": "54",
       "name": "CY Leo 何卓彥",
@@ -1609,10 +1777,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-08-07T01:55:22+00:00",
-      "latestUpdateLocal": "2026-08-07 09:55",
+      "latestUpdateAt": "2026-08-07T01:58:20+00:00",
+      "latestUpdateLocal": "2026-08-07 09:58",
       "latestUpdateSource": "CY Leo 何卓彥",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbuKEFHEhJz/",
+      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3958146898083365951/",
       "avatarUrl": "/assets/source-avatars/f7225128bf37720c0c02.webp",
       "sourceInitials": "CL",
       "sourceTags": [
@@ -2564,91 +2732,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-118",
-      "publicId": "118",
-      "name": "Federico Linari",
-      "nameEn": "Federico Linari",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "阿根廷",
-      "region": "阿根廷",
-      "cityOrFocus": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源",
-      "structuredSummary": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源 / 十孔/爵士口琴 / 國際演出人員/教學者/製作人",
-      "summary": "阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。",
-      "keywords": "Federico Linari harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hohner.de/en/federico-linari"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Federico.Linari.Armonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/fede.linari/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@FedericoLinari"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-06T15:38:20+00:00",
-      "latestUpdateLocal": "2026-08-06 23:38",
-      "latestUpdateSource": "Federico Linari",
-      "latestUpdateUrl": "https://www.instagram.com/stories/fede.linari/3957834844189334424/",
-      "avatarUrl": "/assets/source-avatars/f86f36ff18abb0ec10a0.webp",
-      "sourceInitials": "FL",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_federico_linari_armonica",
-          "name": "Federico Linari",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Federico.Linari.Armonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_fede_linari",
-          "name": "Federico Linari",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "fede.linari",
-          "profileUrl": "https://www.instagram.com/fede.linari/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_fede_linari",
-          "name": "Federico Linari",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "fede.linari",
-          "profileUrl": "https://www.instagram.com/fede.linari/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/fede.linari/story/0"
-        },
-        {
-          "id": "yt_federicolinari",
-          "name": "Federico Linari",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@FedericoLinari",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-111",
       "publicId": "111",
       "name": "Lee Hangyeol 이한결",
@@ -3311,7 +3394,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-06 20:24",
       "latestUpdateSource": "Aiden Soon",
       "latestUpdateUrl": "https://www.instagram.com/p/DbstBffJBjz/",
-      "avatarUrl": "/assets/source-avatars/ef75db8a517ec4da9d56.webp",
+      "avatarUrl": "/assets/source-avatars/cd53f7a662da798f6004.webp",
       "sourceInitials": "AS",
       "sourceTags": [
         "演奏者",
@@ -8527,89 +8610,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/BrendanPowerMusic",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-130",
-      "publicId": "130",
-      "name": "香港口琴協會 Hong Kong Harmonica Association",
-      "nameEn": "Hong Kong Harmonica Association",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "協會/團體",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "香港口琴協會/官方頻道/教育推廣/國際賽事與交流",
-      "structuredSummary": "香港口琴協會/官方頻道/教育推廣/國際賽事與交流 / 口琴 / 國際演出團體/協會來源",
-      "summary": "香港的口琴國際演出團體與協會來源，活動脈絡包含香港口琴協會、官方頻道與教育推廣。",
-      "keywords": "Hong Kong Harmonica Association Orchestra HKHA 香港口琴協會 SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hkharmonica.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hkharmonica"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hkharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@hkharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-21T11:30:13+00:00",
-      "latestUpdateLocal": "2026-07-21 19:30",
-      "latestUpdateSource": "香港口琴協會 Hong Kong Harmonica Association",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbDaVjwjKF4/",
-      "avatarUrl": "/assets/source-avatars/83ff018cf3f12aaaf7c6.webp",
-      "sourceInitials": "HKH",
-      "sourceTags": [
-        "團體樂團",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hkharmonica",
-          "name": "香港口琴協會 Hong Kong Harmonica Association",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hkharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hkharmonica",
-          "name": "香港口琴協會 Hong Kong Harmonica Association",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hkharmonica",
-          "profileUrl": "https://www.instagram.com/hkharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hkharmonica",
-          "name": "香港口琴協會 Hong Kong Harmonica Association",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hkharmonica",
-          "profileUrl": "https://www.instagram.com/hkharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hkharmonica/story/0"
-        },
-        {
-          "id": "yt_hkharmonica",
-          "name": "香港口琴協會 Hong Kong Harmonica Association",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@hkharmonica",
           "feedUrl": ""
         }
       ]

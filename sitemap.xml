@@ -61,6 +61,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/118-federico-linari/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/51-sharene-tang/</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -175,6 +181,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/130-hong-kong-harmonica-association/</loc>
+    <lastmod>2026-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/54-cy-leo/</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -242,12 +254,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/225-408-harmonica-ensemble/</loc>
-    <lastmod>2026-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/118-federico-linari/</loc>
     <lastmod>2026-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -699,12 +705,6 @@
   <url>
     <loc>https://harmonica.observe.tw/source/143-brendan-power/</loc>
     <lastmod>2026-07-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/130-hong-kong-harmonica-association/</loc>
-    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
