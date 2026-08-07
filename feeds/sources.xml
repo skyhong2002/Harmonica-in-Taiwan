@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 07 Aug 2026 07:47:43 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 08:54:01 +0000</lastBuildDate>
     <item>
       <title>蔡明憲</title>
       <link>https://studio.dming.co/</link>
@@ -73,6 +73,17 @@ Tag：團體樂團、重奏
 臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。</description>
     </item>
     <item>
+      <title>王心禾</title>
+      <link>https://www.instagram.com/harmonica_wang/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/81d8ceaa7e7b789c</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者
+國家：臺灣
+地區：臺灣
+臺灣的口琴演出人員，活動脈絡包含胖擊系。</description>
+    </item>
+    <item>
       <title>何家健 HarmoniKahkean</title>
       <link>https://linktr.ee/harmonikahkean</link>
       <guid>https://harmonica.observe.tw/feeds/sources/3e3031f087b9c123</guid>
@@ -115,6 +126,17 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/臺中
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>Jong-seong Park 朴鍾聲</title>
+      <link>https://www.mnac.co.kr/jongseongpark</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/7375d9cceaab9077</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：韓國
+地區：韓國
+韓國半音階口琴演奏家，活躍於國際舞台。</description>
     </item>
     <item>
       <title>臺灣口琴音樂節 THMF</title>
@@ -205,17 +227,6 @@ Tag：演奏者、合奏、國際交流
 韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。</description>
     </item>
     <item>
-      <title>王心禾</title>
-      <link>https://www.instagram.com/harmonica_wang/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/81d8ceaa7e7b789c</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者
-國家：臺灣
-地區：臺灣
-臺灣的口琴演出人員，活動脈絡包含胖擊系。</description>
-    </item>
-    <item>
       <title>林士傑</title>
       <link>https://www.facebook.com/lin.shi.jie.661489</link>
       <guid>https://harmonica.observe.tw/feeds/sources/a20d61bd03035c39</guid>
@@ -269,17 +280,6 @@ Tag：演奏者、教學、半音階、國際交流
 國家：韓國
 地區：韓國
 韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。</description>
-    </item>
-    <item>
-      <title>Jong-seong Park 朴鍾聲</title>
-      <link>https://www.mnac.co.kr/jongseongpark</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/7375d9cceaab9077</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：韓國
-地區：韓國
-韓國半音階口琴演奏家，活躍於國際舞台。</description>
     </item>
     <item>
       <title>Aiden N Evelyn / Aiden Soon &amp; Evelyn Choong</title>
