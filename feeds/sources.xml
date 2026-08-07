@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 07 Aug 2026 00:07:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 00:40:13 +0000</lastBuildDate>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -27,6 +27,17 @@ Tag：演奏者、半音階、十孔、國際交流
 國家：德國
 地區：德國
 德國的半音階與十孔國際演出人員、製作人與教育者，活動脈絡包含OPUS Klassik得獎、國際獨奏與製作與教育。</description>
+    </item>
+    <item>
+      <title>Lee Oskar</title>
+      <link>https://leeoskar.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/46bea6a12ee3ef49</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：品牌、演奏者、團體樂團、十孔、國際交流
+國家：丹麥
+地區：美國
+丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。</description>
     </item>
     <item>
       <title>千賀太郎</title>
@@ -82,6 +93,17 @@ Tag：演奏者
 國家：臺灣
 地區：臺灣
 臺灣的口琴演出人員與評審，活動脈絡包含演出與評審。</description>
+    </item>
+    <item>
+      <title>408 Harmonica Ensemble</title>
+      <link>https://www.instagram.com/408.harmonica/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/7f072571720ed065</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、半音階、和弦、低音、重奏、演出
+國家：香港
+地區：香港
+香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。</description>
     </item>
     <item>
       <title>梁承熹 Kelvin Leung</title>
@@ -458,17 +480,6 @@ Tag：演奏者、教學、半音階、國際交流
 馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。</description>
     </item>
     <item>
-      <title>408 Harmonica Ensemble</title>
-      <link>https://www.instagram.com/408.harmonica/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/7f072571720ed065</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、半音階、和弦、低音、重奏、演出
-國家：香港
-地區：香港
-香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。</description>
-    </item>
-    <item>
       <title>藤井俊充</title>
       <link>https://www.facebook.com/100091746706247/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/28e123623573acec</guid>
@@ -588,17 +599,6 @@ Tag：協會、活動資訊、國際交流
 國家：美國
 地區：美國/密蘇里
 美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。</description>
-    </item>
-    <item>
-      <title>Lee Oskar</title>
-      <link>https://leeoskar.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/46bea6a12ee3ef49</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：品牌、演奏者、團體樂團、十孔、國際交流
-國家：丹麥
-地區：美國
-丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。</description>
     </item>
     <item>
       <title>Reyharp and Balawan Project</title>

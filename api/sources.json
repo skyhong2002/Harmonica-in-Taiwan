@@ -251,6 +251,96 @@
       ]
     },
     {
+      "id": "watchlist-139",
+      "publicId": "139",
+      "name": "Lee Oskar",
+      "nameEn": "Lee Oskar",
+      "category": "演奏者",
+      "type": "品牌",
+      "originalType": "個人/品牌",
+      "country": "丹麥",
+      "region": "美國",
+      "cityOrFocus": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌",
+      "structuredSummary": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌 / 十孔/藍調口琴 / 國際演出人員/品牌創辦人",
+      "summary": "丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。",
+      "keywords": "Lee Oskar harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://leeoskar.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/LeeOskarHarmonicas/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/leeoskarharmonicas/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@leeoskarharmonicas"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@leeoskarharmonicas"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-06T18:22:17+00:00",
+      "latestUpdateLocal": "2026-08-07 02:22",
+      "latestUpdateSource": "Lee Oskar",
+      "latestUpdateUrl": "https://www.instagram.com/stories/leeoskarharmonicas/3957917354947538009/",
+      "avatarUrl": "/assets/source-avatars/fce823dc684beb439214.webp",
+      "sourceInitials": "LO",
+      "sourceTags": [
+        "品牌",
+        "演奏者",
+        "團體樂團",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_leeoskarharmonicas",
+          "name": "Lee Oskar",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/LeeOskarHarmonicas",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_leeoskarharmonicas",
+          "name": "Lee Oskar",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "leeoskarharmonicas",
+          "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_leeoskarharmonicas",
+          "name": "Lee Oskar",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "leeoskarharmonicas",
+          "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/leeoskarharmonicas/story/0"
+        },
+        {
+          "id": "yt_leeoskarharmonicas",
+          "name": "Lee Oskar",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@leeoskarharmonicas",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-59",
       "publicId": "59",
       "name": "千賀太郎",
@@ -619,6 +709,65 @@
       ]
     },
     {
+      "id": "watchlist-225",
+      "publicId": "225",
+      "name": "408 Harmonica Ensemble",
+      "nameEn": "408 Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "香港口琴六重奏/重奏/演出",
+      "structuredSummary": "香港口琴六重奏/重奏/演出 / 半音階/和弦/倍低音/口琴重奏 / 國際演出團體",
+      "summary": "香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。",
+      "keywords": "408 Harmonica Ensemble Hong Kong cy_long biscuit_1217 an_arthur__1 char1am_ ryaantheguy windh_y10 香港 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/408.harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-06T15:59:57+00:00",
+      "latestUpdateLocal": "2026-08-06 23:59",
+      "latestUpdateSource": "408 Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/stories/408.harmonica/3957845744908655142/",
+      "avatarUrl": "/assets/source-avatars/496be713ac45a949eead.webp",
+      "sourceInitials": "4HE",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "和弦",
+        "低音",
+        "重奏",
+        "演出"
+      ],
+      "sourceSummary": "香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。",
+      "sourceTagReason": "整合自團體官方 Instagram 自介與成員編制貼文。",
+      "monitorSources": [
+        {
+          "id": "ig_408_harmonica",
+          "name": "408 Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "408.harmonica",
+          "profileUrl": "https://www.instagram.com/408.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_408_harmonica",
+          "name": "408 Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "408.harmonica",
+          "profileUrl": "https://www.instagram.com/408.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/408.harmonica/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-55",
       "publicId": "55",
       "name": "梁承熹 Kelvin Leung",
@@ -746,7 +895,7 @@
       "latestUpdateLocal": "2026-08-06 23:46",
       "latestUpdateSource": "臺中國家歌劇院",
       "latestUpdateUrl": "https://www.instagram.com/stories/nationaltaichungtheater/3957838723752268409/",
-      "avatarUrl": "/assets/source-avatars/bc7049fe5cb137813be9.webp",
+      "avatarUrl": "/assets/source-avatars/d8548e34482e971bcee3.webp",
       "sourceInitials": "臺中",
       "sourceTags": [
         "場館平台"
@@ -3320,65 +3469,6 @@
       ]
     },
     {
-      "id": "watchlist-225",
-      "publicId": "225",
-      "name": "408 Harmonica Ensemble",
-      "nameEn": "408 Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "香港口琴六重奏/重奏/演出",
-      "structuredSummary": "香港口琴六重奏/重奏/演出 / 半音階/和弦/倍低音/口琴重奏 / 國際演出團體",
-      "summary": "香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。",
-      "keywords": "408 Harmonica Ensemble Hong Kong cy_long biscuit_1217 an_arthur__1 char1am_ ryaantheguy windh_y10 香港 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/408.harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-06T04:58:45+00:00",
-      "latestUpdateLocal": "2026-08-06 12:58",
-      "latestUpdateSource": "408 Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dbr6QSwmup8/",
-      "avatarUrl": "/assets/source-avatars/496be713ac45a949eead.webp",
-      "sourceInitials": "4HE",
-      "sourceTags": [
-        "團體樂團",
-        "半音階",
-        "和弦",
-        "低音",
-        "重奏",
-        "演出"
-      ],
-      "sourceSummary": "香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。",
-      "sourceTagReason": "整合自團體官方 Instagram 自介與成員編制貼文。",
-      "monitorSources": [
-        {
-          "id": "ig_408_harmonica",
-          "name": "408 Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "408.harmonica",
-          "profileUrl": "https://www.instagram.com/408.harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_408_harmonica",
-          "name": "408 Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "408.harmonica",
-          "profileUrl": "https://www.instagram.com/408.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/408.harmonica/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-60",
       "publicId": "60",
       "name": "藤井俊充",
@@ -4292,96 +4382,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-139",
-      "publicId": "139",
-      "name": "Lee Oskar",
-      "nameEn": "Lee Oskar",
-      "category": "演奏者",
-      "type": "品牌",
-      "originalType": "個人/品牌",
-      "country": "丹麥",
-      "region": "美國",
-      "cityOrFocus": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌",
-      "structuredSummary": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌 / 十孔/藍調口琴 / 國際演出人員/品牌創辦人",
-      "summary": "丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。",
-      "keywords": "Lee Oskar harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://leeoskar.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/LeeOskarHarmonicas/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/leeoskarharmonicas/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@leeoskarharmonicas"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@leeoskarharmonicas"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-05T15:36:52+00:00",
-      "latestUpdateLocal": "2026-08-05 23:36",
-      "latestUpdateSource": "Lee Oskar",
-      "latestUpdateUrl": "https://www.instagram.com/stories/leeoskarharmonicas/3957109325461718742/",
-      "avatarUrl": "/assets/source-avatars/fce823dc684beb439214.webp",
-      "sourceInitials": "LO",
-      "sourceTags": [
-        "品牌",
-        "演奏者",
-        "團體樂團",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_leeoskarharmonicas",
-          "name": "Lee Oskar",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/LeeOskarHarmonicas",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_leeoskarharmonicas",
-          "name": "Lee Oskar",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "leeoskarharmonicas",
-          "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_leeoskarharmonicas",
-          "name": "Lee Oskar",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "leeoskarharmonicas",
-          "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/leeoskarharmonicas/story/0"
-        },
-        {
-          "id": "yt_leeoskarharmonicas",
-          "name": "Lee Oskar",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@leeoskarharmonicas",
           "feedUrl": ""
         }
       ]
@@ -5954,7 +5954,7 @@
       "latestUpdateLocal": "2026-08-04 08:17",
       "latestUpdateSource": "Yellow Pine Harmonica Festival",
       "latestUpdateUrl": "https://www.instagram.com/p/DbmQb33k5i5/",
-      "avatarUrl": "/assets/source-avatars/ad059b7d2f95b4aa2a78.webp",
+      "avatarUrl": "/assets/source-avatars/97b7fd7f9dffa7fa0834.webp",
       "sourceInitials": "YPH",
       "sourceTags": [
         "活動資訊",
