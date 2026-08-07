@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T11:07:29.281283Z",
+  "generatedAt": "2026-08-07T12:12:54.340423Z",
   "source": {
     "id": 89,
     "slug": "baba-harmonica-studio",
     "name": "巴巴口琴坊",
     "pageUrl": "https://harmonica.observe.tw/source/89-baba-harmonica-studio/"
   },
-  "items": [
-    {
-      "id": "post-740a173db2ac0a3bd44c7532",
-      "title": "合奏口琴Chord、Bass課，開課囉！",
-      "excerpt": "合奏口琴Chord、Bass課，開課囉！ 這次請到李勤道老師為大家授課！",
-      "url": "https://www.instagram.com/p/Dah7v_wv47C/",
-      "sourceName": "巴巴口琴坊",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-08T11:30:08Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/fef2cbdefc8a9f558738.webp",
-        "width": 800,
-        "height": 600
-      }
-    }
-  ]
+  "items": []
 }
