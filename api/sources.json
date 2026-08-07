@@ -1,6 +1,6 @@
 {
   "site": "https://harmonica.observe.tw",
-  "generatedAt": "2026-08-07",
+  "generatedAt": "2026-08-08",
   "count": 211,
   "stats": {
     "totalEntries": 211,
@@ -64,6 +64,74 @@
     }
   },
   "entries": [
+    {
+      "id": "watchlist-111",
+      "publicId": "111",
+      "name": "Lee Hangyeol 이한결",
+      "nameEn": "Lee Hangyeol",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "韓國口琴演奏/演出與教學/半音階爵士",
+      "structuredSummary": "韓國口琴演奏/演出與教學/半音階爵士 / 半音階/口琴 / 國際演出人員/教學者",
+      "summary": "韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。",
+      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica SIHF",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/gyeoli_94/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@gyeoli_94"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-07T15:33:44+00:00",
+      "latestUpdateLocal": "2026-08-07 23:33",
+      "latestUpdateSource": "Lee Hangyeol 이한결",
+      "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3958557300825751978/",
+      "avatarUrl": "/assets/source-avatars/43b84ddf1cf49f6a600d.webp",
+      "sourceInitials": "LH",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "gyeoli_94",
+          "profileUrl": "https://www.instagram.com/gyeoli_94/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "gyeoli_94",
+          "profileUrl": "https://www.instagram.com/gyeoli_94/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/gyeoli_94/story/0"
+        },
+        {
+          "id": "yt_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@gyeoli_94",
+          "feedUrl": ""
+        }
+      ]
+    },
     {
       "id": "watchlist-153",
       "publicId": "153",
@@ -239,6 +307,90 @@
       ]
     },
     {
+      "id": "watchlist-101",
+      "publicId": "101",
+      "name": "何家健 HarmoniKahkean",
+      "nameEn": "Ho Kah Kean / HarmoniKahkean",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人/地方推廣",
+      "country": "馬來西亞",
+      "region": "臺灣/花蓮；馬來西亞",
+      "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
+      "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
+      "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
+      "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/harmonikahkean"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonikahkean/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kahkeanho/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@hokahkean1999"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-07T12:53:29+00:00",
+      "latestUpdateLocal": "2026-08-07 20:53",
+      "latestUpdateSource": "何家健 HarmoniKahkean",
+      "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3958476667513257710/",
+      "avatarUrl": "/assets/source-avatars/7b33f34d52077af131e9.webp",
+      "sourceInitials": "H",
+      "sourceTags": [
+        "演奏者",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonikahkean",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonikahkean",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/kahkeanho/story/0"
+        },
+        {
+          "id": "yt_hokahkean1999",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@hokahkean1999",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-118",
       "publicId": "118",
       "name": "Federico Linari",
@@ -319,6 +471,106 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@FedericoLinari",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-63",
+      "publicId": "63",
+      "name": "F.I.H. JAPAN ハーモニカコンテスト",
+      "nameEn": "F.I.H. JAPAN Harmonica Contest",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "比賽/資訊入口",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "日本口琴比賽/半音階/複音/duo trio",
+      "structuredSummary": "日本口琴比賽/半音階/複音/duo trio / 半音階/複音/重奏 / 國際比賽來源",
+      "summary": "日本的國際比賽來源，涵蓋日本口琴比賽與duo trio。",
+      "keywords": "F.I.H. JAPAN ハーモニカコンテスト Moridaira 半音階 複音 duo trio 口琴比賽",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://moridaira.jp/event/20260530-01/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/moridaira"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/moridaira_mi/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/Moridaira01"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/moridaira_mi"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-07T11:48:54+00:00",
+      "latestUpdateLocal": "2026-08-07 19:48",
+      "latestUpdateSource": "F.I.H. JAPAN ハーモニカコンテスト",
+      "latestUpdateUrl": "https://www.instagram.com/stories/moridaira_mi/3958444142405046490/",
+      "avatarUrl": "/assets/source-avatars/74b5ba02097b77779c75.webp",
+      "sourceInitials": "FIH",
+      "sourceTags": [
+        "活動資訊",
+        "比賽",
+        "半音階",
+        "複音",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_moridaira",
+          "name": "F.I.H. JAPAN ハーモニカコンテスト",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/moridaira",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_moridaira_mi",
+          "name": "F.I.H. JAPAN ハーモニカコンテスト",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "moridaira_mi",
+          "profileUrl": "https://www.instagram.com/moridaira_mi/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_moridaira_mi",
+          "name": "F.I.H. JAPAN ハーモニカコンテスト",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "moridaira_mi",
+          "profileUrl": "https://www.instagram.com/moridaira_mi/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/moridaira_mi/story/0"
+        },
+        {
+          "id": "x_moridaira_mi",
+          "name": "F.I.H. JAPAN ハーモニカコンテスト",
+          "platform": "x",
+          "type": "rss",
+          "username": "moridaira_mi",
+          "profileUrl": "https://x.com/moridaira_mi",
+          "feedUrl": "https://rss.observe.tw/twitter/user/moridaira_mi"
+        },
+        {
+          "id": "yt_moridaira01",
+          "name": "F.I.H. JAPAN ハーモニカコンテスト",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/Moridaira01",
           "feedUrl": ""
         }
       ]
@@ -740,90 +992,6 @@
       ]
     },
     {
-      "id": "watchlist-101",
-      "publicId": "101",
-      "name": "何家健 HarmoniKahkean",
-      "nameEn": "Ho Kah Kean / HarmoniKahkean",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人/地方推廣",
-      "country": "馬來西亞",
-      "region": "臺灣/花蓮；馬來西亞",
-      "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
-      "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
-      "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
-      "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/harmonikahkean"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonikahkean/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/kahkeanho/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@hokahkean1999"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-07T07:51:06+00:00",
-      "latestUpdateLocal": "2026-08-07 15:51",
-      "latestUpdateSource": "何家健 HarmoniKahkean",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dbuwn-wGCOL/",
-      "avatarUrl": "/assets/source-avatars/7b33f34d52077af131e9.webp",
-      "sourceInitials": "H",
-      "sourceTags": [
-        "演奏者",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonikahkean",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonikahkean",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_kahkeanho",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "kahkeanho",
-          "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_kahkeanho",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "kahkeanho",
-          "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/kahkeanho/story/0"
-        },
-        {
-          "id": "yt_hokahkean1999",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@hokahkean1999",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-222",
       "publicId": "222",
       "name": "Do Not Disturb Harmonica Ensemble",
@@ -1234,7 +1402,7 @@
       "latestUpdateLocal": "2026-08-07 13:52",
       "latestUpdateSource": "黃冠誌",
       "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3958264912597552700/",
-      "avatarUrl": "/assets/source-avatars/4a25ffe52fa7ce9dd0a9.webp",
+      "avatarUrl": "/assets/source-avatars/add27897a4a4288da692.webp",
       "sourceInitials": "黃冠",
       "sourceTags": [
         "演奏者",
@@ -1443,6 +1611,90 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@alysaliao",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-34",
+      "publicId": "34",
+      "name": "王衍華",
+      "nameEn": "Yen-Hua Wang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/胖擊系/半音階與重奏",
+      "structuredSummary": "天狼星/胖擊系/半音階與重奏 / 半音階/重奏 / 演出人員",
+      "summary": "臺灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。",
+      "keywords": "王衍華 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://portaly.cc/yenhua_wang"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yenhua_wang/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@keriw128"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@yenhua_wang"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-07T05:04:08+00:00",
+      "latestUpdateLocal": "2026-08-07 13:04",
+      "latestUpdateSource": "王衍華",
+      "latestUpdateUrl": "https://www.instagram.com/stories/yenhua_wang/3958240408395941871/",
+      "avatarUrl": "/assets/source-avatars/7cfd77773b52d43967ea.webp",
+      "sourceInitials": "王衍",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_yenhua_wang",
+          "name": "王衍華",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yenhua_wang",
+          "profileUrl": "https://www.instagram.com/yenhua_wang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yenhua_wang/story/0"
+        },
+        {
+          "id": "ig_yenhua_wang",
+          "name": "王衍華",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yenhua_wang",
+          "profileUrl": "https://www.instagram.com/yenhua_wang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_yenhua_wang",
+          "name": "王衍華",
+          "platform": "threads",
+          "type": "rss",
+          "username": "yenhua_wang",
+          "profileUrl": "https://www.threads.net/@yenhua_wang",
+          "feedUrl": "https://rss.observe.tw/threads/yenhua_wang"
+        },
+        {
+          "id": "yt_keriw128",
+          "name": "王衍華",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@keriw128",
           "feedUrl": ""
         }
       ]
@@ -3032,74 +3284,6 @@
           "username": "musette585",
           "profileUrl": "https://www.threads.net/@musette585",
           "feedUrl": "https://rss.observe.tw/threads/musette585"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-111",
-      "publicId": "111",
-      "name": "Lee Hangyeol 이한결",
-      "nameEn": "Lee Hangyeol",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "韓國口琴演奏/演出與教學/半音階爵士",
-      "structuredSummary": "韓國口琴演奏/演出與教學/半音階爵士 / 半音階/口琴 / 國際演出人員/教學者",
-      "summary": "韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。",
-      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica SIHF",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/gyeoli_94/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@gyeoli_94"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-06T15:33:02+00:00",
-      "latestUpdateLocal": "2026-08-06 23:33",
-      "latestUpdateSource": "Lee Hangyeol 이한결",
-      "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3957832170633787722/",
-      "avatarUrl": "/assets/source-avatars/43b84ddf1cf49f6a600d.webp",
-      "sourceInitials": "LH",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "gyeoli_94",
-          "profileUrl": "https://www.instagram.com/gyeoli_94/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "gyeoli_94",
-          "profileUrl": "https://www.instagram.com/gyeoli_94/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/gyeoli_94/story/0"
-        },
-        {
-          "id": "yt_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@gyeoli_94",
-          "feedUrl": ""
         }
       ]
     },
@@ -5200,90 +5384,6 @@
       ]
     },
     {
-      "id": "watchlist-34",
-      "publicId": "34",
-      "name": "王衍華",
-      "nameEn": "Yen-Hua Wang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/胖擊系/半音階與重奏",
-      "structuredSummary": "天狼星/胖擊系/半音階與重奏 / 半音階/重奏 / 演出人員",
-      "summary": "臺灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。",
-      "keywords": "王衍華 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/yenhua_wang"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yenhua_wang/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@keriw128"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@yenhua_wang"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-05T04:06:21+00:00",
-      "latestUpdateLocal": "2026-08-05 12:06",
-      "latestUpdateSource": "王衍華",
-      "latestUpdateUrl": "https://www.instagram.com/stories/yenhua_wang/3956761774980193594/",
-      "avatarUrl": "/assets/source-avatars/7cfd77773b52d43967ea.webp",
-      "sourceInitials": "王衍",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_yenhua_wang",
-          "name": "王衍華",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yenhua_wang",
-          "profileUrl": "https://www.instagram.com/yenhua_wang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yenhua_wang/story/0"
-        },
-        {
-          "id": "ig_yenhua_wang",
-          "name": "王衍華",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yenhua_wang",
-          "profileUrl": "https://www.instagram.com/yenhua_wang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_yenhua_wang",
-          "name": "王衍華",
-          "platform": "threads",
-          "type": "rss",
-          "username": "yenhua_wang",
-          "profileUrl": "https://www.threads.net/@yenhua_wang",
-          "feedUrl": "https://rss.observe.tw/threads/yenhua_wang"
-        },
-        {
-          "id": "yt_keriw128",
-          "name": "王衍華",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@keriw128",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-86",
       "publicId": "86",
       "name": "吹出好心琴 + Ou Frog",
@@ -7010,106 +7110,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-63",
-      "publicId": "63",
-      "name": "F.I.H. JAPAN ハーモニカコンテスト",
-      "nameEn": "F.I.H. JAPAN Harmonica Contest",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "比賽/資訊入口",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "日本口琴比賽/半音階/複音/duo trio",
-      "structuredSummary": "日本口琴比賽/半音階/複音/duo trio / 半音階/複音/重奏 / 國際比賽來源",
-      "summary": "日本的國際比賽來源，涵蓋日本口琴比賽與duo trio。",
-      "keywords": "F.I.H. JAPAN ハーモニカコンテスト Moridaira 半音階 複音 duo trio 口琴比賽",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://moridaira.jp/event/20260530-01/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/moridaira"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/moridaira_mi/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/user/Moridaira01"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/moridaira_mi"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-02T03:40:36+00:00",
-      "latestUpdateLocal": "2026-08-02 11:40",
-      "latestUpdateSource": "F.I.H. JAPAN ハーモニカコンテスト",
-      "latestUpdateUrl": "https://www.instagram.com/stories/moridaira_mi/3954574486401969542/",
-      "avatarUrl": "/assets/source-avatars/74b5ba02097b77779c75.webp",
-      "sourceInitials": "FIH",
-      "sourceTags": [
-        "活動資訊",
-        "比賽",
-        "半音階",
-        "複音",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_moridaira",
-          "name": "F.I.H. JAPAN ハーモニカコンテスト",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/moridaira",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_moridaira_mi",
-          "name": "F.I.H. JAPAN ハーモニカコンテスト",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "moridaira_mi",
-          "profileUrl": "https://www.instagram.com/moridaira_mi/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_moridaira_mi",
-          "name": "F.I.H. JAPAN ハーモニカコンテスト",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "moridaira_mi",
-          "profileUrl": "https://www.instagram.com/moridaira_mi/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/moridaira_mi/story/0"
-        },
-        {
-          "id": "x_moridaira_mi",
-          "name": "F.I.H. JAPAN ハーモニカコンテスト",
-          "platform": "x",
-          "type": "rss",
-          "username": "moridaira_mi",
-          "profileUrl": "https://x.com/moridaira_mi",
-          "feedUrl": "https://rss.observe.tw/twitter/user/moridaira_mi"
-        },
-        {
-          "id": "yt_moridaira01",
-          "name": "F.I.H. JAPAN ハーモニカコンテスト",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/user/Moridaira01",
           "feedUrl": ""
         }
       ]
