@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 07 Aug 2026 16:37:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 17:43:55 +0000</lastBuildDate>
+    <item>
+      <title>臺中國家歌劇院</title>
+      <link>https://www.npac-ntt.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/臺中
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -326,6 +337,17 @@ Tag：演奏者
 臺灣的口琴演出人員，活動脈絡包含胖擊系。</description>
     </item>
     <item>
+      <title>吹出好心琴 + Ou Frog</title>
+      <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/a7900260c88a5842</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：品牌、教學器材、教學
+國家：臺灣
+地區：臺灣
+臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
+    </item>
+    <item>
       <title>Younghoon Cho</title>
       <link>https://linktr.ee/hoontobe</link>
       <guid>https://harmonica.observe.tw/feeds/sources/2a1ec747c34bfb28</guid>
@@ -379,17 +401,6 @@ Tag：演奏者、半音階、合奏、國際交流
 國家：香港
 地區：香港
 香港半音階口琴演奏者，專注現代跨界與國際演出。</description>
-    </item>
-    <item>
-      <title>臺中國家歌劇院</title>
-      <link>https://www.npac-ntt.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/臺中
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>Jong-seong Park 朴鍾聲</title>
@@ -731,17 +742,6 @@ Tag：團體樂團、教學、半音階、重奏、國際交流
 國家：香港
 地區：香港/國際
 香港的半音階與小提琴國際教學與演出單位，活動脈絡包含半音階口琴、小提琴二重奏與教學。</description>
-    </item>
-    <item>
-      <title>吹出好心琴 + Ou Frog</title>
-      <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/a7900260c88a5842</guid>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：品牌、教學器材、教學
-國家：臺灣
-地區：臺灣
-臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
     </item>
     <item>
       <title>香港學校音樂節</title>
