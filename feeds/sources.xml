@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 07 Aug 2026 05:04:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 06:09:53 +0000</lastBuildDate>
     <item>
       <title>胖擊口琴樂團</title>
       <link>https://linktr.ee/punch.harp</link>
@@ -480,6 +480,17 @@ Tag：演奏者、半音階、國際交流
 日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
     </item>
     <item>
+      <title>國家兩廳院</title>
+      <link>https://npac-ntch.org/zh</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/31f9c79620bc0e35</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/臺北
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
       <title>音和樂器</title>
       <link>https://0223120930.web66.com.tw/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/946384acc3afb19b</guid>
@@ -533,17 +544,6 @@ Tag：團體樂團、重奏
 國家：臺灣
 地區：臺灣
 臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與教育推廣。</description>
-    </item>
-    <item>
-      <title>國家兩廳院</title>
-      <link>https://npac-ntch.org/zh</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/31f9c79620bc0e35</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/臺北
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>新竹縣文化局</title>
