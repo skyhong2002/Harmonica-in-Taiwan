@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T08:54:00.653455Z",
+  "generatedAt": "2026-08-07T09:26:14.807741Z",
   "source": {
     "id": 101,
     "slug": "ho-kah-kean-harmonikahkean",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/101-ho-kah-kean-harmonikahkean/"
   },
   "items": [
+    {
+      "id": "post-cd16b380de199c03a3b85cfb",
+      "title": "【SUFU Project ft. 劉佳恩】",
+      "excerpt": "【SUFU Project ft. 劉佳恩】 由臺灣的 Chia Fu 與來自韓國的 Sujong 組成之跨文化創作樂團： —> Taiwan × Korea Duo Project <— 兩位創作者皆具深厚古典音樂訓練背景，並長期活躍於流行、爵士音樂、跨界演出與當代聲響創作領域。基於對聲音語言與跨文化創作的共同理念，兩人共同成立 SUFU Project，致力於發展兼具藝術性與流行音樂能量的原創作品，並透過音樂建立國際交流的可能性。 以「讓音樂成為文化交流的共同語言」為核心概念，透過共同創作與即時共創機制，探索當代流行音樂的全新語法與可能性。藉著輕便…",
+      "url": "https://www.instagram.com/p/Dbuwn-wGCOL/",
+      "sourceName": "何家健 HarmoniKahkean",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-07T07:51:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1c54c5b5a8956878a159.webp",
+        "width": 800,
+        "height": 1001
+      }
+    },
     {
       "id": "post-9a9b81dcb52f3e0dbda12e46",
       "title": "【何家健口琴四重奏：巴西計劃】",
