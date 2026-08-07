@@ -1008,7 +1008,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-07 12:59",
       "latestUpdateSource": "韋笙堡口琴 Weissenberg Harmonicas",
       "latestUpdateUrl": "https://www.instagram.com/stories/weissenbergtw/3958238170743695619/",
-      "avatarUrl": "/assets/source-avatars/c1266b6c2fd37d753575.webp",
+      "avatarUrl": "/assets/source-avatars/82dd9e573618898bf496.webp",
       "sourceInitials": "WH",
       "sourceTags": [
         "教學器材",
@@ -3007,7 +3007,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-06 22:19",
       "latestUpdateSource": "Marcos Coll",
       "latestUpdateUrl": "https://www.instagram.com/p/Dbs53Zso1D7/",
-      "avatarUrl": "/assets/source-avatars/427fb44bb8ac05fd6ab1.webp",
+      "avatarUrl": "/assets/source-avatars/84fc07e5aec602bc2a41.webp",
       "sourceInitials": "MC",
       "sourceTags": [
         "演奏者",
@@ -4663,7 +4663,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-05 22:45",
       "latestUpdateSource": "Reyharp and Balawan Project",
       "latestUpdateUrl": "https://www.instagram.com/stories/reyharpnaufal/3957083442791474926/",
-      "avatarUrl": "/assets/source-avatars/10ecbf683c131db9622f.webp",
+      "avatarUrl": "/assets/source-avatars/436c64c70dfad12142e1.webp",
       "sourceInitials": "RAB",
       "sourceTags": [
         "團體樂團",
