@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T09:26:14.807741Z",
+  "generatedAt": "2026-08-07T10:34:25.281440Z",
   "source": {
     "id": 211,
     "slug": "nus-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/211-nus-harmonica/"
   },
   "items": [
+    {
+      "id": "post-08fc001e92086fe5100a339a",
+      "title": "Introducing NUS Harmonica AY26/27’s EXCOs ✨",
+      "excerpt": "Introducing NUS Harmonica AY26/27’s EXCOs ✨ Swipe to get to know each of our EXCOs ➡️ Hi! I’m Dwayne, the President for NUS Harmonica for AY26/27!! I love NUS Harmonica because it’s a place for me to relax and have fun with friends, and I get to experiment and learn new things a…",
+      "url": "https://www.instagram.com/p/DbubXo-ndbw/",
+      "sourceName": "新加坡國立大學口琴社",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-07T04:26:36Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9c7b7168c984e876d0b9.webp",
+        "width": 800,
+        "height": 1000
+      }
+    },
     {
       "id": "post-b206eeb8fa416ea96095cff7",
       "title": "🔊SOUND ON! 🫂 No one is ever alone.",
