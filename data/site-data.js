@@ -2,6 +2,177 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-07",
   "entries": [
     {
+      "id": "watchlist-101",
+      "publicId": "101",
+      "name": "何家健 HarmoniKahkean",
+      "nameEn": "Ho Kah Kean / HarmoniKahkean",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人/地方推廣",
+      "country": "馬來西亞",
+      "region": "臺灣/花蓮；馬來西亞",
+      "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
+      "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
+      "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
+      "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/harmonikahkean"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonikahkean/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kahkeanho/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@hokahkean1999"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-07T03:11:36+00:00",
+      "latestUpdateLocal": "2026-08-07 11:11",
+      "latestUpdateSource": "何家健 HarmoniKahkean",
+      "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3958183779978093642/",
+      "avatarUrl": "/assets/source-avatars/7b33f34d52077af131e9.webp",
+      "sourceInitials": "H",
+      "sourceTags": [
+        "演奏者",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonikahkean",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonikahkean",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/kahkeanho/story/0"
+        },
+        {
+          "id": "yt_hokahkean1999",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@hokahkean1999",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-54",
+      "publicId": "54",
+      "name": "CY Leo 何卓彥",
+      "nameEn": "CY Leo",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/現代跨界",
+      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
+      "summary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
+      "keywords": "CY Leo 何卓彥 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.cyleomusic.io/profile"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Cyleoharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cy_leo/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@cyleoharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-07T01:55:22+00:00",
+      "latestUpdateLocal": "2026-08-07 09:55",
+      "latestUpdateSource": "CY Leo 何卓彥",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbuKEFHEhJz/",
+      "avatarUrl": "/assets/source-avatars/f7225128bf37720c0c02.webp",
+      "sourceInitials": "CL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
+      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
+      "monitorSources": [
+        {
+          "id": "fb_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Cyleoharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
+        },
+        {
+          "id": "yt_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@cyleoharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-2",
       "publicId": "2",
       "name": "臺灣口琴音樂節 THMF",
@@ -2442,90 +2613,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-101",
-      "publicId": "101",
-      "name": "何家健 HarmoniKahkean",
-      "nameEn": "Ho Kah Kean / HarmoniKahkean",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人/地方推廣",
-      "country": "馬來西亞",
-      "region": "臺灣/花蓮；馬來西亞",
-      "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
-      "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
-      "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
-      "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/harmonikahkean"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonikahkean/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/kahkeanho/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@hokahkean1999"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-06T11:37:19+00:00",
-      "latestUpdateLocal": "2026-08-06 19:37",
-      "latestUpdateSource": "何家健 HarmoniKahkean",
-      "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3957713558339526893/",
-      "avatarUrl": "/assets/source-avatars/7b33f34d52077af131e9.webp",
-      "sourceInitials": "H",
-      "sourceTags": [
-        "演奏者",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonikahkean",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonikahkean",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_kahkeanho",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "kahkeanho",
-          "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_kahkeanho",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "kahkeanho",
-          "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/kahkeanho/story/0"
-        },
-        {
-          "id": "yt_hokahkean1999",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@hokahkean1999",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-95",
       "publicId": "95",
       "name": "韋笙堡口琴 Weissenberg Harmonicas",
@@ -2604,93 +2691,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/weissenberg1979",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-54",
-      "publicId": "54",
-      "name": "CY Leo 何卓彥",
-      "nameEn": "CY Leo",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/現代跨界",
-      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
-      "summary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "keywords": "CY Leo 何卓彥 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.cyleomusic.io/profile"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Cyleoharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/cy_leo/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@cyleoharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-06T11:14:10+00:00",
-      "latestUpdateLocal": "2026-08-06 19:14",
-      "latestUpdateSource": "CY Leo 何卓彥",
-      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3957701884517707682/",
-      "avatarUrl": "/assets/source-avatars/f7225128bf37720c0c02.webp",
-      "sourceInitials": "CL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
-      "monitorSources": [
-        {
-          "id": "fb_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Cyleoharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
-        },
-        {
-          "id": "yt_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@cyleoharmonica",
           "feedUrl": ""
         }
       ]
