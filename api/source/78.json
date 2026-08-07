@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-07T17:43:54.496464Z",
+  "generatedAt": "2026-08-07T18:16:59.212919Z",
   "source": {
     "id": 78,
     "slug": "78",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/78/"
   },
   "items": [
+    {
+      "id": "post-6bffa0ef612658b7f1099171",
+      "title": "2026 臺灣舞蹈平台必賞 ✴《身體實驗場：亞洲焦點》",
+      "excerpt": "2026 臺灣舞蹈平台必賞 ✴《身體實驗場：亞洲焦點》 ▋臺灣：郭爵愷《搏筊 Pua̍h-pue》 現代舞搭配高難度街舞技巧，將臺灣求神儀式巧妙轉譯為舞作。 ▋新加坡：謝里夫丁・沙哈里 《臀廓²》 以臀部為核心，探索身體中的場所與身份間的相似性。 ▋臺灣：林品碩《拋接的身體-之二》 在拋接的過程中，物體經過初速、加速、減速，達到歸零。 ▋韓國：河志惠 《P.R.I.D.E.S.》 重新回顧並詮釋已流逝的時間，發掘自己也未曾理解的自己。 ▋日本：高橋萌登《仄仄》 融合古典芭蕾與嘻哈，以當代舞蹈重新詮釋日本怪談。 ▋以色列：奧爾・瑪琳《瞬息與共》 透過一只…",
+      "url": "https://www.instagram.com/p/DbvdBrRDuVN/",
+      "sourceName": "衛武營國家藝術文化中心",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-07T14:00:18Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3f4ac2e4bd12b5315980.webp",
+        "width": 800,
+        "height": 1000
+      }
+    },
     {
       "id": "post-f06a3c1310ee99d39545d25e",
       "title": "當第一個音符響起，我們說著同一種語言！｜2026 衛武營音樂營&歐洲銅管之聲",
