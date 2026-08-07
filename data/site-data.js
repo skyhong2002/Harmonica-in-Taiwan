@@ -2,6 +2,87 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-07",
   "entries": [
     {
+      "id": "watchlist-51",
+      "publicId": "51",
+      "name": "唐雪婷 Sharene Tang",
+      "nameEn": "Sharene Tang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/國際郵輪演出",
+      "structuredSummary": "世界口琴冠軍/演出/教學/國際郵輪演出 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "唐雪婷 Sharene Tang sharene.harmonica World Harmonica Champion Fresco harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/sharenetang.fresco/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sharene.harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@Shareneharmonicamusic"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-07T09:22:30+00:00",
+      "latestUpdateLocal": "2026-08-07 17:22",
+      "latestUpdateSource": "唐雪婷 Sharene Tang",
+      "latestUpdateUrl": "https://www.instagram.com/stories/sharene.harmonica/3958370448228722532/",
+      "avatarUrl": "/assets/source-avatars/978f624b264fcd80a3ea.webp",
+      "sourceInitials": "ST",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_sharenetang_fresco",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/sharenetang.fresco",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sharene_harmonica",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sharene.harmonica",
+          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sharene_harmonica",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sharene.harmonica",
+          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sharene.harmonica/story/0"
+        },
+        {
+          "id": "yt_shareneharmonicamusic",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-101",
       "publicId": "101",
       "name": "何家健 HarmoniKahkean",
@@ -626,6 +707,89 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-95",
+      "publicId": "95",
+      "name": "韋笙堡口琴 Weissenberg Harmonicas",
+      "nameEn": "Weissenberg Harmonicas",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "品牌/樂器商",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "口琴製造/器材/產品資訊",
+      "structuredSummary": "口琴製造/器材/產品資訊 / 口琴 / 器材品牌",
+      "summary": "臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。",
+      "keywords": "韋笙堡 Weissenberg Harmonicas 口琴 臺灣 Made in Taiwan",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.weissenbergwind.com/tw/product_list.php?type=4"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Weissenberg.Harmonicas/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weissenbergtw/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/weissenberg1979"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-07T04:59:30+00:00",
+      "latestUpdateLocal": "2026-08-07 12:59",
+      "latestUpdateSource": "韋笙堡口琴 Weissenberg Harmonicas",
+      "latestUpdateUrl": "https://www.instagram.com/stories/weissenbergtw/3958238170743695619/",
+      "avatarUrl": "/assets/source-avatars/c1266b6c2fd37d753575.webp",
+      "sourceInitials": "WH",
+      "sourceTags": [
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_weissenberg_harmonicas",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Weissenberg.Harmonicas",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weissenbergtw",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weissenbergtw",
+          "profileUrl": "https://www.instagram.com/weissenbergtw/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weissenbergtw/story/0"
+        },
+        {
+          "id": "ig_weissenbergtw",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weissenbergtw",
+          "profileUrl": "https://www.instagram.com/weissenbergtw/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_weissenberg1979",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/weissenberg1979",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-211",
       "publicId": "211",
       "name": "新加坡國立大學口琴社",
@@ -867,6 +1031,107 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "harmonica_wang",
           "profileUrl": "https://www.threads.net/@harmonica_wang",
           "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-58",
+      "publicId": "58",
+      "name": "南里沙",
+      "nameEn": "Minami Risa",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
+      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
+      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
+      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://minamirisa.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/minamirisa/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/minami_risa/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@minamirisa"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/minami_risa"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@minami_risa"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-07T03:51:57+00:00",
+      "latestUpdateLocal": "2026-08-07 11:51",
+      "latestUpdateSource": "南里沙",
+      "latestUpdateUrl": "https://www.instagram.com/stories/minami_risa/3958204082745905578/",
+      "avatarUrl": "/assets/source-avatars/d4ddc4aa7561b64ea9b4.webp",
+      "sourceInitials": "南里",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_minamirisa",
+          "name": "南里沙",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/minamirisa",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
+        },
+        {
+          "id": "x_minami_risa",
+          "name": "南里沙",
+          "platform": "x",
+          "type": "rss",
+          "username": "minami_risa",
+          "profileUrl": "https://x.com/minami_risa",
+          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
+        },
+        {
+          "id": "yt_minamirisa",
+          "name": "南里沙",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@minamirisa",
+          "feedUrl": ""
         }
       ]
     },
@@ -1260,7 +1525,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-07 09:30",
       "latestUpdateSource": "臺中國家歌劇院",
       "latestUpdateUrl": "https://www.instagram.com/stories/nationaltaichungtheater/3958132751829920538/",
-      "avatarUrl": "/assets/source-avatars/d8548e34482e971bcee3.webp",
+      "avatarUrl": "/assets/source-avatars/9b4af53095160de8f7b3.webp",
       "sourceInitials": "臺中",
       "sourceTags": [
         "場館平台"
@@ -1400,6 +1665,101 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-78",
+      "publicId": "78",
+      "name": "衛武營國家藝術文化中心",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "衛武營 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-weiwuying.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@weiwuyingfilm"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@weiwuying_centerforthearts"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-07T00:54:05+00:00",
+      "latestUpdateLocal": "2026-08-07 08:54",
+      "latestUpdateSource": "衛武營國家藝術文化中心",
+      "latestUpdateUrl": "https://www.instagram.com/stories/weiwuying_centerforthearts/3958114558526080990/",
+      "avatarUrl": "/assets/source-avatars/be47000832e3c41d86b4.webp",
+      "sourceInitials": "衛武",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_weiwuyingcenterforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
+        },
+        {
+          "id": "ig_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "threads",
+          "type": "rss",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
+          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
+        },
+        {
+          "id": "yt_weiwuyingfilm",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@weiwuyingfilm",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-2",
       "publicId": "2",
       "name": "臺灣口琴音樂節 THMF",
@@ -1484,107 +1844,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@thmc6470",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-58",
-      "publicId": "58",
-      "name": "南里沙",
-      "nameEn": "Minami Risa",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
-      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
-      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://minamirisa.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/minamirisa/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/minami_risa/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@minamirisa"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/minami_risa"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@minami_risa"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-06T23:49:30+00:00",
-      "latestUpdateLocal": "2026-08-07 07:49",
-      "latestUpdateSource": "南里沙",
-      "latestUpdateUrl": "https://x.com/minami_risa/status/2085513626358776236",
-      "avatarUrl": "/assets/source-avatars/d4ddc4aa7561b64ea9b4.webp",
-      "sourceInitials": "南里",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_minamirisa",
-          "name": "南里沙",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/minamirisa",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
-        },
-        {
-          "id": "x_minami_risa",
-          "name": "南里沙",
-          "platform": "x",
-          "type": "rss",
-          "username": "minami_risa",
-          "profileUrl": "https://x.com/minami_risa",
-          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
-        },
-        {
-          "id": "yt_minamirisa",
-          "name": "南里沙",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@minamirisa",
           "feedUrl": ""
         }
       ]
@@ -2967,265 +3226,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "evelyn_harmonica",
           "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/evelyn_harmonica/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-51",
-      "publicId": "51",
-      "name": "唐雪婷 Sharene Tang",
-      "nameEn": "Sharene Tang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "世界口琴冠軍/演出/教學/國際郵輪演出",
-      "structuredSummary": "世界口琴冠軍/演出/教學/國際郵輪演出 / 半音階/口琴 / 國際演出人員/教育者",
-      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
-      "keywords": "唐雪婷 Sharene Tang sharene.harmonica World Harmonica Champion Fresco harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/sharenetang.fresco/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/sharene.harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@Shareneharmonicamusic"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-06T12:24:14+00:00",
-      "latestUpdateLocal": "2026-08-06 20:24",
-      "latestUpdateSource": "唐雪婷 Sharene Tang",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbstBffJBjz/",
-      "avatarUrl": "/assets/source-avatars/978f624b264fcd80a3ea.webp",
-      "sourceInitials": "ST",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_sharenetang_fresco",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/sharenetang.fresco",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_sharene_harmonica",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "sharene.harmonica",
-          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_sharene_harmonica",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "sharene.harmonica",
-          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sharene.harmonica/story/0"
-        },
-        {
-          "id": "yt_shareneharmonicamusic",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-95",
-      "publicId": "95",
-      "name": "韋笙堡口琴 Weissenberg Harmonicas",
-      "nameEn": "Weissenberg Harmonicas",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "品牌/樂器商",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "口琴製造/器材/產品資訊",
-      "structuredSummary": "口琴製造/器材/產品資訊 / 口琴 / 器材品牌",
-      "summary": "臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。",
-      "keywords": "韋笙堡 Weissenberg Harmonicas 口琴 臺灣 Made in Taiwan",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.weissenbergwind.com/tw/product_list.php?type=4"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Weissenberg.Harmonicas/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weissenbergtw/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/weissenberg1979"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-06T11:28:06+00:00",
-      "latestUpdateLocal": "2026-08-06 19:28",
-      "latestUpdateSource": "韋笙堡口琴 Weissenberg Harmonicas",
-      "latestUpdateUrl": "https://www.instagram.com/stories/weissenbergtw/3957708900086799788/",
-      "avatarUrl": "/assets/source-avatars/c1266b6c2fd37d753575.webp",
-      "sourceInitials": "WH",
-      "sourceTags": [
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_weissenberg_harmonicas",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Weissenberg.Harmonicas",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_weissenbergtw",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weissenbergtw",
-          "profileUrl": "https://www.instagram.com/weissenbergtw/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weissenbergtw/story/0"
-        },
-        {
-          "id": "ig_weissenbergtw",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weissenbergtw",
-          "profileUrl": "https://www.instagram.com/weissenbergtw/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_weissenberg1979",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/weissenberg1979",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-78",
-      "publicId": "78",
-      "name": "衛武營國家藝術文化中心",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/高雄",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "衛武營 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-weiwuying.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@weiwuyingfilm"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@weiwuying_centerforthearts"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-06T10:06:44+00:00",
-      "latestUpdateLocal": "2026-08-06 18:06",
-      "latestUpdateSource": "衛武營國家藝術文化中心",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=-PMPxcghcsk",
-      "avatarUrl": "/assets/source-avatars/be47000832e3c41d86b4.webp",
-      "sourceInitials": "衛武",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_weiwuyingcenterforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
-        },
-        {
-          "id": "ig_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "threads",
-          "type": "rss",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
-          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
-        },
-        {
-          "id": "yt_weiwuyingfilm",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@weiwuyingfilm",
-          "feedUrl": ""
         }
       ]
     },
