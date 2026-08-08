@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T11:55:54.456600Z",
+  "generatedAt": "2026-08-08T13:01:23.374086Z",
   "source": {
     "id": 164,
     "slug": "singapore-youth-festival-arts-presentation-harmonica",
     "name": "新加坡青年節藝術展演（口琴）",
     "pageUrl": "https://harmonica.observe.tw/source/164-singapore-youth-festival-arts-presentation-harmonica/"
   },
-  "items": [
-    {
-      "id": "post-aa4b10e05a5c17c01117878c",
-      "title": "Here are the highlights from ASEAN Youth Connect (Malaysia) @ SYF 2026. 🎵",
-      "excerpt": "Here are the highlights from ASEAN Youth Connect (Malaysia) @ SYF 2026. 🎵 Coinciding with Singapore’s ASEAN Education Chairmanship, SYF’s ASEAN Youth Connect brings our students together with young artists from across the region, fostering meaningful connections through the arts…",
-      "url": "https://www.instagram.com/p/DakoGW1SoDR/",
-      "sourceName": "新加坡青年節藝術展演（口琴）",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-09T12:34:32Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/23159de1e6766897f274.webp",
-        "width": 800,
-        "height": 1423
-      }
-    }
-  ]
+  "items": []
 }
