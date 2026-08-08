@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-08T08:21:43+08:00",
+  "generatedAt": "2026-08-08T08:55:46+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
-  "count": 7,
+  "count": 8,
   "source": "/api/events.json",
   "ics": "/feeds/overseas-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,7 +14,7 @@
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
+      "requests": 1,
       "cached": 32,
       "errors": 0
     }
@@ -127,6 +127,42 @@
         "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/761537186_1336345015152232_5011021378219974750_n.jpg?stp=dst-jpg_tt6&cstp=mx600x850&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=UGd94MZ-of8Q7kNvwEqEayO&_nc_oc=AdoLrrq5-5SNW9nLM3DzyeDptGLB2JWCmrX5ahY2NsvGwbVkNQIkrB8lnezM_rls4AE&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=ih2HAYUw7AzusQ9UIL88sw&_nc_ss=72289&oh=00_AQEv50Qm_dji2JDD2OfFR1ZjXS51sRDZC9D7yxLnJa9hHA&oe=6A76095A"
       ],
       "image_url": "/assets/feed-images/b229a963edceeeb5ad5f.webp"
+    },
+    {
+      "id": "46dc72de3cf11370",
+      "title": "《回望演奏與教學的十年》",
+      "eventName": "《回望演奏與教學的十年》",
+      "source": "香港口琴協會 HKHA",
+      "platform": "instagram",
+      "start": "2026-09-06T04:15:00+08:00",
+      "end": "2026-09-06T06:15:00+08:00",
+      "allDay": false,
+      "calendarType": "overseas_physical",
+      "timezone": "Asia/Hong_Kong",
+      "location": "將軍澳 景林鄰里社區中心",
+      "venue": "景林鄰里社區中心",
+      "city": "將軍澳",
+      "details": "主辦／演出者：香港口琴協會 Hong Kong Harmonica Association。免費社區講座，講者為世界口琴節冠軍梁承熹（Kelvin Leung）。活動於 2026 年 9 月 6 日下午 4:15 舉行，憑登記免費入場，不設劃位。",
+      "evidenceUrl": "https://www.instagram.com/p/DbvgdtQk3mM/",
+      "confidence": 0.97,
+      "calendarReview": {
+        "include": true,
+        "country": "香港",
+        "eventMode": "overseas_physical",
+        "timezone": "Asia/Hong_Kong",
+        "candidateDateMatches": true,
+        "eventName": "《回望演奏與教學的十年》",
+        "venue": "景林鄰里社區中心",
+        "city": "將軍澳",
+        "details": "主辦／演出者：香港口琴協會 Hong Kong Harmonica Association。免費社區講座，講者為世界口琴節冠軍梁承熹（Kelvin Leung）。活動於 2026 年 9 月 6 日下午 4:15 舉行，憑登記免費入場，不設劃位。",
+        "reason": "貼文明確寫出候選日期與地點，屬口琴公開實體活動；但主辦為香港活動，依收錄範圍應歸類為海外實體活動。",
+        "confidence": 0.97
+      },
+      "postedAt": "2026-08-07 22:30",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t39.30808-6/765732562_1494441509384510_5211386474366932498_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzk1ODUyNTM3NjQzMTYxODQ0NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTYzOC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=QBqsGxS6IEkQ7kNvwF3YGY7&_nc_oc=Adr0iSD1KmdweKL6tSmkDFkV7-Xdgc6QI0l4AeftTQ1vKzGUmS2BIutjAzAqEveAa8s&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=82L73KL73HuqxmjZz-5VQQ&_nc_ss=7a22e&oh=00_AQHVarWLEgE2PMU0OQlsWp_XN9Ea1p4uPN8ZIt3CO4Ymxw&oe=6A7C6A09"
+      ],
+      "image_url": "/assets/feed-images/146fd5b4c900cef01252.webp"
     },
     {
       "eventName": "南里沙 ティータイムコンサート",
