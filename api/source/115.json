@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T07:33:10.205339Z",
+  "generatedAt": "2026-08-08T08:38:01.431638Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -8,6 +8,34 @@
     "pageUrl": "https://harmonica.observe.tw/source/115-filip-jers/"
   },
   "items": [
+    {
+      "id": "post-8af8ecd2b1b2f58dafdebb73",
+      "title": "My harmonicas from yesterdays concert ☀️",
+      "excerpt": "My harmonicas from yesterdays concert ☀️",
+      "url": "https://www.instagram.com/p/DbxTdesDGet/",
+      "sourceName": "Filip Jers",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-08T07:15:04Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2f236ffc0b596ece8104.webp",
+        "width": 800,
+        "height": 1067
+      }
+    },
+    {
+      "id": "post-d8639e4fb5f3179412a3861d",
+      "title": "Jamming on a Swedish traditional tune, “Jag vet en dejlig rosa,” in a spontaneous jazz version with singer @malinfoxdal…",
+      "excerpt": "Jamming on a Swedish traditional tune, “Jag vet en dejlig rosa,” in a spontaneous jazz version with singer @malinfoxdal ☀️ Such a great sound and ... Jamming on a Swedish traditional tune, “Jag vet en dejlig rosa,” in a spontaneous jazz version with singer @malinfoxdal ☀️ Such a…",
+      "url": "https://www.instagram.com/p/DbwTDR5M5Rk/",
+      "sourceName": "Filip Jers",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-07T21:55:16Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d937e62e4aeda7744617.webp",
+        "width": 800,
+        "height": 1423
+      }
+    },
     {
       "id": "post-d11106a482978e6e3665e11f",
       "title": "minor blues on the chromatic harmonica ☀️",
