@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
   "json": "https://harmonica.observe.tw/api/student-clubs.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/student-clubs.json",
-  "count": 187,
+  "count": 186,
   "items": [
     {
       "title": "黃冠誌｜Instagram story @hk91f06",
@@ -14492,85 +14492,6 @@
         "學生社團"
       ],
       "key": "yt_alysaliao:a9tkUcHsnZ8"
-    },
-    {
-      "title": "cy_leo｜Opportunity of the century. At Centennial Celebration of King’s College, this harmonica orchestra gathered some …",
-      "headline": "Opportunity of the century.",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.instagram.com/p/DakTSNDy4nV/",
-      "source_id": "ig_cy_leo",
-      "source": "cy_leo",
-      "source_system_name": "CY Leo 何卓彥",
-      "source_profile_url": "https://www.instagram.com/cy_leo/",
-      "country": "香港",
-      "region": "香港",
-      "directory_entry_id": "watchlist-54",
-      "directory_entry_name": "CY Leo 何卓彥",
-      "account": "cy_leo",
-      "platform": "instagram",
-      "platform_label": "Instagram",
-      "posted_at": "Thu, 09 Jul 2026 09:40:08 GMT",
-      "posted_at_local": "2026-07-09 17:40",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-07-09T15:45:45.495867+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "https://rss.observe.tw/instagram/2/user/cy_leo",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "演出",
-        "音樂會"
-      ],
-      "keyword_matches": [
-        "harmonica"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.9,
-      "llm_labels": [
-        "口琴",
-        "演出",
-        "音樂會"
-      ],
-      "llm_categories": [
-        "events"
-      ],
-      "llm_reason": "貼文描述口琴管弦樂團在百年慶典上的公開演出，包含表演曲目與學生同台，符合口琴演出與音樂會定義。",
-      "text": "Opportunity of the century.\nAt Centennial Celebration of King’s College, this harmonica orchestra gathered some of the best harmonica players in the world to make this evening unbelievably memorable.\nWe performed Rhapsody In Blue, co-solo with me was my student @iamyipyip._.0929\nSoli arranged by yours truly\nOrchestration & conducted by @shartsir",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/741614100_18605511040050240_2489186896503061745_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&ig_cache_key=MzkzNzM1Njc4ODA4NTI2MjgwNTE4NjA1NTExMDM3MDUwMjQw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=UGob89Pk6I8Q7kNvwHI0IRo&_nc_oc=AdodcMheMRtuitqKPEfjoVKZQ4Ta8F3GgdQQSBB3y0YnACu4hYbaQ7XTRhT3rfL41YU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=_T5gzFU5bfV9prw82mR_Ng&_nc_ss=7a22e&oh=00_AQARq8h6dN5oFmzIspM6WALjQV-U5XlHxE40r9FSx-fCGQ&oe=6A55AF55"
-      ],
-      "videos": [
-        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQNfuG0TUmvHKho3d4LPvjkiPxhftWdFu32fv28UneR1vrxGgoyx7a3JSVbfqxIAPY2dJLMNHrd04e-Q_GBnck-NOI8mq5qoVfZ6whI.mp4?_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=yzzrPJzc4wwQ7kNvwEpStNE&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTQ5NTAzNjU2MTkyNzEyNiwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo3MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=94107a8627d519f1&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8xQjQ3NUY0M0FERUIwMEU4QjYzOEE3QkE3MDc0QjNCRl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzQwNDMzRjk4RjREOTQ1NEVCOTVFNjIzNDRDNDNCQjg2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACasr5mzyu6nBRUCKAJDMywXQFJgAAAAAAAYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=_T5gzFU5bfV9prw82mR_Ng&_nc_zt=28&_nc_ss=7a22e&oh=00_AQDNVjBJOP6HbHXooTGn7Q6dJnJwRKI5WgGzZk_gPi6xnQ&oe=6A51AA92"
-      ],
-      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/741614100_18605511040050240_2489186896503061745_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&ig_cache_key=MzkzNzM1Njc4ODA4NTI2MjgwNTE4NjA1NTExMDM3MDUwMjQw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=UGob89Pk6I8Q7kNvwHI0IRo&_nc_oc=AdodcMheMRtuitqKPEfjoVKZQ4Ta8F3GgdQQSBB3y0YnACu4hYbaQ7XTRhT3rfL41YU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=_T5gzFU5bfV9prw82mR_Ng&_nc_ss=7a22e&oh=00_AQARq8h6dN5oFmzIspM6WALjQV-U5XlHxE40r9FSx-fCGQ&oe=6A55AF55",
-      "image_url": "/assets/feed-images/0f206581a332daefa27c.webp",
-      "image_width": 720,
-      "image_height": 1280,
-      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/511531335_18513188494050240_908431060909896183_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gFss4DIHO_CK5VFqOTyXOMcIpQkzfhOY_IhgN_ibAndnbiYUnTF6oHMitU8rMqc000&_nc_ohc=sxwafHy3GjYQ7kNvwF12mfz&_nc_gid=6Kz6I_1v_u_S9ZGJWhUPsw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQCgkzgBXq7vdC54agFs1KPx9yXs0RBk128z3KKhp-iQEw&oe=6A55A950&_nc_sid=8b3546",
-      "avatar_url": "/assets/source-avatars/f7225128bf37720c0c02.webp",
-      "source_initials": "CL",
-      "categories": [
-        "posts-videos",
-        "events",
-        "student-clubs"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動",
-        "學生社團"
-      ],
-      "key": "ig_cy_leo:https://www.instagram.com/p/DakTSNDy4nV/"
     }
   ]
 }

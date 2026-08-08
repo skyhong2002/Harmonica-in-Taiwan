@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T08:38:01.431638Z",
+  "generatedAt": "2026-08-08T09:43:40.816788Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/40-henry-chen/"
   },
   "items": [
+    {
+      "id": "post-f8bf001b83e487f4040ae0db",
+      "title": "【就是吹口琴Just Play Harmonica 】｜幾時再回頭【逢わずに愛して】｜複音口琴Tremolo Harmonica 獨奏版本《C調》",
+      "excerpt": "【就是吹口琴Just Play Harmonica 】｜幾時再回頭【逢わずに愛して】｜複音口琴Tremolo Harmonica 獨奏版本《C調》 幾時再回頭【逢わずに愛して】 彩木雅夫 作曲 陳 鴻 儀 編曲 複音口琴獨奏版本《C調》",
+      "url": "https://www.youtube.com/watch?v=cDpDVxekEBY",
+      "sourceName": "陳鴻儀",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-08T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/7330c928bc8cf8f1d113.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-a5dbf22329e32d8357d85d81",
       "title": "第15屆亞太口琴APH藝術週 – 臺灣專場演出｜雨的旋律組曲｜複音口琴Tremolo Harmonica 獨奏演出",
