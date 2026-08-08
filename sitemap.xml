@@ -61,6 +61,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/220-chindiary-harmonica/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/165-malaysia-harmonica-festival/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/222-do-not-disturb-harmonica-ensemble/</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -127,12 +139,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/220-chindiary-harmonica/</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/42-hsin-ho-wang/</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -140,6 +146,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/5-punch-harmonica-ensemble/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/187-csmu-blue-melody/</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -356,12 +368,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/67-marcos-coll/</loc>
-    <lastmod>2026-08-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/165-malaysia-harmonica-festival/</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -596,12 +602,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/166-the-hummingway-harmonica-ensemble/</loc>
-    <lastmod>2026-08-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/187-csmu-blue-melody/</loc>
     <lastmod>2026-08-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

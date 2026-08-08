@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T10:50:01.961480Z",
+  "generatedAt": "2026-08-08T11:55:54.456600Z",
   "source": {
     "id": 125,
     "slug": "jens-bunge",
@@ -230,20 +230,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/9fdda3e352ed0f1c6f0f.webp",
         "width": 640,
         "height": 356
-      }
-    },
-    {
-      "id": "post-0d7d9e84f3f446071d08340c",
-      "title": "Another gratification for the successful recording!",
-      "excerpt": "Another gratification for the successful recording!",
-      "url": "https://www.instagram.com/p/DakdHhWFpd7/",
-      "sourceName": "Jens Bunge",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-09T10:58:04Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/4d59df01a2b56b7e2ba1.webp",
-        "width": 800,
-        "height": 1067
       }
     }
   ]

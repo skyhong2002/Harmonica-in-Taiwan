@@ -2,6 +2,180 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-08",
   "entries": [
     {
+      "id": "watchlist-220",
+      "publicId": "220",
+      "name": "菜鳥琴老師很菜",
+      "nameEn": "chindiary_harmonica",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/中彰投",
+      "cityOrFocus": "中彰投口琴教學/演出/推廣",
+      "structuredSummary": "中彰投口琴教學/演出/推廣 / 口琴 / 演出人員/教學者",
+      "summary": "臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。",
+      "keywords": "菜鳥琴老師很菜 chindiary_harmonica 口琴 彰化 臺中 南投",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chin.diary"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chindiary_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@chindiary_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-08T11:01:28+00:00",
+      "latestUpdateLocal": "2026-08-08 19:01",
+      "latestUpdateSource": "菜鳥琴老師很菜",
+      "latestUpdateUrl": "https://www.threads.com/t/DbxtWuMATxS",
+      "avatarUrl": "/assets/source-avatars/2db0da6406f6fb69ab64.webp",
+      "sourceInitials": "菜鳥",
+      "sourceTags": [
+        "演奏者",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_chin_diary",
+          "name": "菜鳥琴老師很菜",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chin.diary",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_chindiary_harmonica",
+          "name": "菜鳥琴老師很菜",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chindiary_harmonica",
+          "profileUrl": "https://www.instagram.com/chindiary_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chindiary_harmonica",
+          "name": "菜鳥琴老師很菜",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chindiary_harmonica",
+          "profileUrl": "https://www.instagram.com/chindiary_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chindiary_harmonica/story/0"
+        },
+        {
+          "id": "threads_chindiary_harmonica",
+          "name": "菜鳥琴老師很菜",
+          "platform": "threads",
+          "type": "rss",
+          "username": "chindiary_harmonica",
+          "profileUrl": "https://www.threads.net/@chindiary_harmonica",
+          "feedUrl": "https://rss.observe.tw/threads/chindiary_harmonica"
+        },
+        {
+          "id": "yt_ucltib8yoa0dsd4i6n4ykfvq",
+          "name": "菜鳥琴老師很菜",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-165",
+      "publicId": "165",
+      "name": "馬來西亞口琴節",
+      "nameEn": "Malaysia Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "比賽/資訊入口",
+      "country": "馬來西亞",
+      "region": "馬來西亞/吉隆坡",
+      "cityOrFocus": "馬來西亞口琴節/比賽/學生與樂團",
+      "structuredSummary": "馬來西亞口琴節/比賽/學生與樂團 / 口琴/重奏/合奏 / 國際活動來源",
+      "summary": "馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。",
+      "keywords": "Malaysia Harmonica Festival MYHF Malaysia Harmonica Competition",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/malaysiaharmonicafestival/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/malaysia_harmonica_festival/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@malaysiaharmonicafestival5523"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-08T10:50:46+00:00",
+      "latestUpdateLocal": "2026-08-08 18:50",
+      "latestUpdateSource": "馬來西亞口琴節",
+      "latestUpdateUrl": "https://www.instagram.com/stories/malaysia_harmonica_festival/3959139658273871154/",
+      "avatarUrl": "/assets/source-avatars/01f1b9c656c5a7b28043.webp",
+      "sourceInitials": "馬來",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "比賽",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_malaysiaharmonicafestival",
+          "name": "馬來西亞口琴節",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/malaysiaharmonicafestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_malaysia_harmonica_festival",
+          "name": "馬來西亞口琴節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "malaysia_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_malaysia_harmonica_festival",
+          "name": "馬來西亞口琴節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "malaysia_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/malaysia_harmonica_festival/story/0"
+        },
+        {
+          "id": "yt_malaysiaharmonicafestival5523",
+          "name": "馬來西亞口琴節",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@malaysiaharmonicafestival5523",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-222",
       "publicId": "222",
       "name": "Do Not Disturb Harmonica Ensemble",
@@ -187,7 +361,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-08 17:06",
       "latestUpdateSource": "Rachelle Plas & Philippe Hervouet",
       "latestUpdateUrl": "https://www.instagram.com/stories/plashervouetband/3959087238636428918/",
-      "avatarUrl": "/assets/source-avatars/eab4e055b38602687a40.webp",
+      "avatarUrl": "/assets/source-avatars/2f441ce48836815f3dc9.webp",
       "sourceInitials": "RPP",
       "sourceTags": [
         "團體樂團",
@@ -906,98 +1080,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-220",
-      "publicId": "220",
-      "name": "菜鳥琴老師很菜",
-      "nameEn": "chindiary_harmonica",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/中彰投",
-      "cityOrFocus": "中彰投口琴教學/演出/推廣",
-      "structuredSummary": "中彰投口琴教學/演出/推廣 / 口琴 / 演出人員/教學者",
-      "summary": "臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。",
-      "keywords": "菜鳥琴老師很菜 chindiary_harmonica 口琴 彰化 臺中 南投",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/chin.diary"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/chindiary_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@chindiary_harmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-08T05:35:52+00:00",
-      "latestUpdateLocal": "2026-08-08 13:35",
-      "latestUpdateSource": "菜鳥琴老師很菜",
-      "latestUpdateUrl": "https://www.instagram.com/stories/chindiary_harmonica/3958981501017750103/",
-      "avatarUrl": "/assets/source-avatars/2db0da6406f6fb69ab64.webp",
-      "sourceInitials": "菜鳥",
-      "sourceTags": [
-        "演奏者",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_chin_diary",
-          "name": "菜鳥琴老師很菜",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/chin.diary",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_chindiary_harmonica",
-          "name": "菜鳥琴老師很菜",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "chindiary_harmonica",
-          "profileUrl": "https://www.instagram.com/chindiary_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_chindiary_harmonica",
-          "name": "菜鳥琴老師很菜",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "chindiary_harmonica",
-          "profileUrl": "https://www.instagram.com/chindiary_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chindiary_harmonica/story/0"
-        },
-        {
-          "id": "threads_chindiary_harmonica",
-          "name": "菜鳥琴老師很菜",
-          "platform": "threads",
-          "type": "rss",
-          "username": "chindiary_harmonica",
-          "profileUrl": "https://www.threads.net/@chindiary_harmonica",
-          "feedUrl": "https://rss.observe.tw/threads/chindiary_harmonica"
-        },
-        {
-          "id": "yt_ucltib8yoa0dsd4i6n4ykfvq",
-          "name": "菜鳥琴老師很菜",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-42",
       "publicId": "42",
       "name": "王心禾",
@@ -1154,6 +1236,102 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@punchharp",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-187",
+      "publicId": "187",
+      "name": "中山醫藍韻口琴社",
+      "nameEn": "CSMU Blue Melody",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "中山醫學大學/學校社團/臺中",
+      "structuredSummary": "中山醫學大學/學校社團/臺中 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "中山醫藍韻口琴社 CSMU Blue Melody 口琴社",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://powerup.csmu.edu.tw/Act/act_Info/c75b7f5a-53e4-4bf9-b3d9-5af47d787fba"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/BMHarmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/csmu_bluemelody/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@csmu_bluemelody"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-08T04:22:27+00:00",
+      "latestUpdateLocal": "2026-08-08 12:22",
+      "latestUpdateSource": "中山醫藍韻口琴社",
+      "latestUpdateUrl": "https://www.instagram.com/stories/csmu_bluemelody/3958944210521041721/",
+      "avatarUrl": "/assets/source-avatars/c7978aa9fb61dbd1b5f3.webp",
+      "sourceInitials": "中山",
+      "sourceTags": [
+        "學生社團",
+        "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_csmu_bmharmonica",
+          "name": "CSMU Blue Melody",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_csmu_bluemelody",
+          "name": "CSMU Blue Melody",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "csmu_bluemelody",
+          "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_csmu_bluemelody",
+          "name": "中山醫藍韻口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "csmu_bluemelody",
+          "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/csmu_bluemelody/story/0"
+        },
+        {
+          "id": "threads_csmu_bluemelody",
+          "name": "中山醫藍韻口琴社",
+          "platform": "threads",
+          "type": "rss",
+          "username": "csmu_bluemelody",
+          "profileUrl": "https://www.threads.net/@csmu_bluemelody",
+          "feedUrl": "https://rss.observe.tw/threads/csmu_bluemelody"
+        },
+        {
+          "id": "yt_10f4784559",
+          "name": "中山醫藍韻口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4",
           "feedUrl": ""
         }
       ]
@@ -2306,7 +2484,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-08 08:54",
       "latestUpdateSource": "Timothy Yip 葉進禧",
       "latestUpdateUrl": "https://www.instagram.com/stories/timothyyip_harmonica/3958839569176196844/",
-      "avatarUrl": "/assets/source-avatars/e6f6ffd0296166a1aa21.webp",
+      "avatarUrl": "/assets/source-avatars/9fc0f58c4d55ef69d13e.webp",
       "sourceInitials": "TY",
       "sourceTags": [
         "演奏者",
@@ -4174,88 +4352,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-165",
-      "publicId": "165",
-      "name": "馬來西亞口琴節",
-      "nameEn": "Malaysia Harmonica Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "比賽/資訊入口",
-      "country": "馬來西亞",
-      "region": "馬來西亞/吉隆坡",
-      "cityOrFocus": "馬來西亞口琴節/比賽/學生與樂團",
-      "structuredSummary": "馬來西亞口琴節/比賽/學生與樂團 / 口琴/重奏/合奏 / 國際活動來源",
-      "summary": "馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。",
-      "keywords": "Malaysia Harmonica Festival MYHF Malaysia Harmonica Competition",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/malaysiaharmonicafestival/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/malaysia_harmonica_festival/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@malaysiaharmonicafestival5523"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-07T08:09:54+00:00",
-      "latestUpdateLocal": "2026-08-07 16:09",
-      "latestUpdateSource": "馬來西亞口琴節",
-      "latestUpdateUrl": "https://www.instagram.com/stories/malaysia_harmonica_festival/3958333908282610965/",
-      "avatarUrl": "/assets/source-avatars/01f1b9c656c5a7b28043.webp",
-      "sourceInitials": "馬來",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "比賽",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_malaysiaharmonicafestival",
-          "name": "馬來西亞口琴節",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/malaysiaharmonicafestival",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_malaysia_harmonica_festival",
-          "name": "馬來西亞口琴節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "malaysia_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_malaysia_harmonica_festival",
-          "name": "馬來西亞口琴節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "malaysia_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/malaysia_harmonica_festival/story/0"
-        },
-        {
-          "id": "yt_malaysiaharmonicafestival5523",
-          "name": "馬來西亞口琴節",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@malaysiaharmonicafestival5523",
           "feedUrl": ""
         }
       ]
@@ -7211,102 +7307,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@hummingwaythe9424",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-187",
-      "publicId": "187",
-      "name": "中山醫藍韻口琴社",
-      "nameEn": "CSMU Blue Melody",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "中山醫學大學/學校社團/臺中",
-      "structuredSummary": "中山醫學大學/學校社團/臺中 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "中山醫藍韻口琴社 CSMU Blue Melody 口琴社",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://powerup.csmu.edu.tw/Act/act_Info/c75b7f5a-53e4-4bf9-b3d9-5af47d787fba"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/BMHarmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/csmu_bluemelody/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@csmu_bluemelody"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-02T04:50:34+00:00",
-      "latestUpdateLocal": "2026-08-02 12:50",
-      "latestUpdateSource": "中山醫藍韻口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/stories/csmu_bluemelody/3954609747248563880/",
-      "avatarUrl": "/assets/source-avatars/c7978aa9fb61dbd1b5f3.webp",
-      "sourceInitials": "中山",
-      "sourceTags": [
-        "學生社團",
-        "大專社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_csmu_bmharmonica",
-          "name": "CSMU Blue Melody",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_csmu_bluemelody",
-          "name": "CSMU Blue Melody",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "csmu_bluemelody",
-          "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_csmu_bluemelody",
-          "name": "中山醫藍韻口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "csmu_bluemelody",
-          "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/csmu_bluemelody/story/0"
-        },
-        {
-          "id": "threads_csmu_bluemelody",
-          "name": "中山醫藍韻口琴社",
-          "platform": "threads",
-          "type": "rss",
-          "username": "csmu_bluemelody",
-          "profileUrl": "https://www.threads.net/@csmu_bluemelody",
-          "feedUrl": "https://rss.observe.tw/threads/csmu_bluemelody"
-        },
-        {
-          "id": "yt_10f4784559",
-          "name": "中山醫藍韻口琴社",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4",
           "feedUrl": ""
         }
       ]
