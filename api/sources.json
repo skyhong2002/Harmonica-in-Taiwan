@@ -65,6 +65,181 @@
   },
   "entries": [
     {
+      "id": "watchlist-2",
+      "publicId": "2",
+      "name": "臺灣口琴音樂節 THMF",
+      "nameEn": "Taiwan Harmonica Music Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "音樂節/比賽/Gala/講座/午間音樂會/新興團體/2026 臺灣口琴音樂節",
+      "structuredSummary": "音樂節/比賽/Gala/講座/午間音樂會/新興團體/2026 臺灣口琴音樂節 / 半音階/複音/十孔/重奏 / 核心活動/活動資訊來源",
+      "summary": "臺灣的核心活動與活動資訊來源，涵蓋音樂節、比賽、Gala、講座與午間音樂會。",
+      "keywords": "THMF 臺灣口琴音樂節 Taiwan Harmonica Music Festival 午間音樂會 新團體",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/twharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/taiwanharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@thmc6470"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-08T02:06:53+00:00",
+      "latestUpdateLocal": "2026-08-08 10:06",
+      "latestUpdateSource": "臺灣口琴音樂節 THMF",
+      "latestUpdateUrl": "https://www.instagram.com/stories/taiwanharmonica/3958875970094495497/",
+      "avatarUrl": "/assets/source-avatars/0cba7a339fb4293da235.webp",
+      "sourceInitials": "T",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "音樂節",
+        "比賽",
+        "半音階",
+        "複音",
+        "十孔",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_twharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/twharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/taiwanharmonica/story/0"
+        },
+        {
+          "id": "ig_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_thmc6470",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@thmc6470",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-31",
+      "publicId": "31",
+      "name": "張晁滕",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/Laelaps/教學/演出",
+      "structuredSummary": "天狼星/Laelaps/教學/演出 / 重奏/教學 / 演出人員/教學者",
+      "summary": "口琴演奏者，兼職教學與重奏活動。",
+      "keywords": "張晁滕 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://chaotengchang.blogspot.com/2014/06/blog-post.html"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chaotengchang/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chaotengchang/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@ChaotengChang"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-08T01:26:05+00:00",
+      "latestUpdateLocal": "2026-08-08 09:26",
+      "latestUpdateSource": "張晁滕",
+      "latestUpdateUrl": "https://www.instagram.com/stories/chaotengchang/3958855438435545804/",
+      "avatarUrl": "/assets/source-avatars/56e9f611310355f9cee6.webp",
+      "sourceInitials": "張晁",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "重奏"
+      ],
+      "sourceSummary": "口琴演奏者，兼職教學與重奏活動。",
+      "sourceTagReason": "名稱為個人，類別標註為演奏者，摘要提及教學與演出，關鍵字包含口琴，符合演奏者與教學來源定位。",
+      "monitorSources": [
+        {
+          "id": "fb_chaotengchang",
+          "name": "張晁滕",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chaotengchang",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_chaotengchang",
+          "name": "張晁滕",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chaotengchang",
+          "profileUrl": "https://www.instagram.com/chaotengchang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chaotengchang",
+          "name": "張晁滕",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chaotengchang",
+          "profileUrl": "https://www.instagram.com/chaotengchang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chaotengchang/story/0"
+        },
+        {
+          "id": "yt_chaotengchang",
+          "name": "張晁滕",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@ChaotengChang",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -1277,6 +1452,90 @@
       ]
     },
     {
+      "id": "watchlist-36",
+      "publicId": "36",
+      "name": "莊筑迪",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "Judy’s/演出/評審",
+      "structuredSummary": "Judy’s/演出/評審 / 半音階/重奏 / 演出人員/評審",
+      "summary": "臺灣的半音階與重奏演出人員與評審，活動脈絡包含Judy’s、演出與評審。",
+      "keywords": "莊筑迪 口琴 Judy",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/judy/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chuti.chuang/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/judygigo/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@judygigo"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-07T15:43:35+00:00",
+      "latestUpdateLocal": "2026-08-07 23:43",
+      "latestUpdateSource": "莊筑迪",
+      "latestUpdateUrl": "https://www.instagram.com/stories/judygigo/3958562254358556525/",
+      "avatarUrl": "/assets/source-avatars/0eb215eea1a44d62798e.webp",
+      "sourceInitials": "莊筑",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_chuti_chuang",
+          "name": "莊筑迪",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chuti.chuang",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_judygigo",
+          "name": "莊筑迪",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "judygigo",
+          "profileUrl": "https://www.instagram.com/judygigo/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_judygigo",
+          "name": "莊筑迪",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "judygigo",
+          "profileUrl": "https://www.instagram.com/judygigo/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/judygigo/story/0"
+        },
+        {
+          "id": "threads_judygigo",
+          "name": "莊筑迪",
+          "platform": "threads",
+          "type": "rss",
+          "username": "judygigo",
+          "profileUrl": "https://www.threads.net/@judygigo",
+          "feedUrl": "https://rss.observe.tw/threads/judygigo"
+        }
+      ]
+    },
+    {
       "id": "watchlist-100",
       "publicId": "100",
       "name": "曹小歐",
@@ -1938,95 +2197,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCj06r7zxcQqFS26fy7n0jZw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-2",
-      "publicId": "2",
-      "name": "臺灣口琴音樂節 THMF",
-      "nameEn": "Taiwan Harmonica Music Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "活動/資訊入口",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "音樂節/比賽/Gala/講座/午間音樂會/新興團體/2026 臺灣口琴音樂節",
-      "structuredSummary": "音樂節/比賽/Gala/講座/午間音樂會/新興團體/2026 臺灣口琴音樂節 / 半音階/複音/十孔/重奏 / 核心活動/活動資訊來源",
-      "summary": "臺灣的核心活動與活動資訊來源，涵蓋音樂節、比賽、Gala、講座與午間音樂會。",
-      "keywords": "THMF 臺灣口琴音樂節 Taiwan Harmonica Music Festival 午間音樂會 新團體",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.taiwanharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/twharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/taiwanharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@thmc6470"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-07T12:54:51+00:00",
-      "latestUpdateLocal": "2026-08-07 20:54",
-      "latestUpdateSource": "臺灣口琴音樂節 THMF",
-      "latestUpdateUrl": "https://www.instagram.com/stories/taiwanharmonica/3958477329337094425/",
-      "avatarUrl": "/assets/source-avatars/0cba7a339fb4293da235.webp",
-      "sourceInitials": "T",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "音樂節",
-        "比賽",
-        "半音階",
-        "複音",
-        "十孔",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_twharmonica",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/twharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_taiwanharmonica",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "taiwanharmonica",
-          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/taiwanharmonica/story/0"
-        },
-        {
-          "id": "ig_taiwanharmonica",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "taiwanharmonica",
-          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_thmc6470",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@thmc6470",
           "feedUrl": ""
         }
       ]
@@ -2748,7 +2918,7 @@
       "latestUpdateLocal": "2026-08-07 19:28",
       "latestUpdateSource": "Evelyn Choong 鍾雪兒",
       "latestUpdateUrl": "https://www.instagram.com/stories/evelyn_harmonica/3958434046250513935/",
-      "avatarUrl": "/assets/source-avatars/44570711c170ab9ae0c8.webp",
+      "avatarUrl": "/assets/source-avatars/ea634ba28bb7683cb492.webp",
       "sourceInitials": "EC",
       "sourceTags": [
         "演奏者",
@@ -4947,92 +5117,6 @@
       ]
     },
     {
-      "id": "watchlist-31",
-      "publicId": "31",
-      "name": "張晁滕",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/演出",
-      "structuredSummary": "天狼星/Laelaps/教學/演出 / 重奏/教學 / 演出人員/教學者",
-      "summary": "口琴演奏者，兼職教學與重奏活動。",
-      "keywords": "張晁滕 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://chaotengchang.blogspot.com/2014/06/blog-post.html"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/chaotengchang/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/chaotengchang/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@ChaotengChang"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-05T16:37:46+00:00",
-      "latestUpdateLocal": "2026-08-06 00:37",
-      "latestUpdateSource": "張晁滕",
-      "latestUpdateUrl": "https://www.instagram.com/stories/chaotengchang/3957139973233373791/",
-      "avatarUrl": "/assets/source-avatars/56e9f611310355f9cee6.webp",
-      "sourceInitials": "張晁",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "重奏"
-      ],
-      "sourceSummary": "口琴演奏者，兼職教學與重奏活動。",
-      "sourceTagReason": "名稱為個人，類別標註為演奏者，摘要提及教學與演出，關鍵字包含口琴，符合演奏者與教學來源定位。",
-      "monitorSources": [
-        {
-          "id": "fb_chaotengchang",
-          "name": "張晁滕",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/chaotengchang",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_chaotengchang",
-          "name": "張晁滕",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "chaotengchang",
-          "profileUrl": "https://www.instagram.com/chaotengchang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_chaotengchang",
-          "name": "張晁滕",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "chaotengchang",
-          "profileUrl": "https://www.instagram.com/chaotengchang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chaotengchang/story/0"
-        },
-        {
-          "id": "yt_chaotengchang",
-          "name": "張晁滕",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@ChaotengChang",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-142",
       "publicId": "142",
       "name": "Howard Levy",
@@ -5448,90 +5532,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-36",
-      "publicId": "36",
-      "name": "莊筑迪",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "Judy’s/演出/評審",
-      "structuredSummary": "Judy’s/演出/評審 / 半音階/重奏 / 演出人員/評審",
-      "summary": "臺灣的半音階與重奏演出人員與評審，活動脈絡包含Judy’s、演出與評審。",
-      "keywords": "莊筑迪 口琴 Judy",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/judy/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/chuti.chuang/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/judygigo/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@judygigo"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-05T09:26:00+00:00",
-      "latestUpdateLocal": "2026-08-05 17:26",
-      "latestUpdateSource": "莊筑迪",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dbpzvl9lOrM/",
-      "avatarUrl": "/assets/source-avatars/0eb215eea1a44d62798e.webp",
-      "sourceInitials": "莊筑",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_chuti_chuang",
-          "name": "莊筑迪",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/chuti.chuang",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_judygigo",
-          "name": "莊筑迪",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "judygigo",
-          "profileUrl": "https://www.instagram.com/judygigo/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_judygigo",
-          "name": "莊筑迪",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "judygigo",
-          "profileUrl": "https://www.instagram.com/judygigo/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/judygigo/story/0"
-        },
-        {
-          "id": "threads_judygigo",
-          "name": "莊筑迪",
-          "platform": "threads",
-          "type": "rss",
-          "username": "judygigo",
-          "profileUrl": "https://www.threads.net/@judygigo",
-          "feedUrl": "https://rss.observe.tw/threads/judygigo"
         }
       ]
     },
