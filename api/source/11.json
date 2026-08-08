@@ -1,21 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T07:00:37.695456Z",
+  "generatedAt": "2026-08-08T07:33:10.205339Z",
   "source": {
     "id": 11,
     "slug": "11",
     "name": "張筑婷",
     "pageUrl": "https://harmonica.observe.tw/source/11/"
   },
-  "items": [
-    {
-      "id": "post-6455413f4dd77ba78ce3d4ef",
-      "title": "張筑婷",
-      "excerpt": "",
-      "url": "https://www.facebook.com/permalink.php?id=100066550038070&story_fbid=pfbid02WjfT5ZTzAEEFhGczSzce98BaAPuwHdafLzqGYvBrxRTkJLchWoXKHZrtBYV3uKGl",
-      "sourceName": "張筑婷",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-09T07:12:36Z"
-    }
-  ]
+  "items": []
 }
