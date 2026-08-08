@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 08 Aug 2026 16:18:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 16:50:57 +0000</lastBuildDate>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -38,6 +38,17 @@ Tag：演奏者、教學、半音階、國際交流
 國家：韓國
 地區：韓國
 韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。</description>
+    </item>
+    <item>
+      <title>胖擊口琴樂團</title>
+      <link>https://linktr.ee/punch.harp</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c710aae1bf2f4665</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏
+國家：臺灣
+地區：臺灣
+臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。</description>
     </item>
     <item>
       <title>Jens Bunge</title>
@@ -315,6 +326,17 @@ Tag：演奏者、教學、重奏
 臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。</description>
     </item>
     <item>
+      <title>蔡明勳</title>
+      <link>https://www.facebook.com/MingHsunTsai830618/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/7bf3379f511d6aed</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、重奏
+國家：臺灣
+地區：臺灣
+臺灣的低音口琴與重奏演出人員與音控，活動脈絡包含演出與音控。</description>
+    </item>
+    <item>
       <title>音和樂器</title>
       <link>https://0223120930.web66.com.tw/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/946384acc3afb19b</guid>
@@ -346,17 +368,6 @@ Tag：演奏者、半音階、合奏、國際交流
 國家：香港
 地區：香港
 香港半音階口琴演奏者，專注現代跨界與國際演出。</description>
-    </item>
-    <item>
-      <title>胖擊口琴樂團</title>
-      <link>https://linktr.ee/punch.harp</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c710aae1bf2f4665</guid>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏
-國家：臺灣
-地區：臺灣
-臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。</description>
     </item>
     <item>
       <title>中山醫藍韻口琴社</title>
@@ -1017,17 +1028,6 @@ Tag：活動資訊、團體樂團、音樂節、重奏、國際交流
 國家：馬來西亞
 地區：馬來西亞
 馬來西亞的國際演出團體，涵蓋馬來西亞口琴重奏、跨國音樂節與社群演出。</description>
-    </item>
-    <item>
-      <title>蔡明勳</title>
-      <link>https://www.facebook.com/MingHsunTsai830618/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/7bf3379f511d6aed</guid>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、重奏
-國家：臺灣
-地區：臺灣
-臺灣的低音口琴與重奏演出人員與音控，活動脈絡包含演出與音控。</description>
     </item>
     <item>
       <title>IniXial Harmonica Ensemble 源創口琴樂團</title>
