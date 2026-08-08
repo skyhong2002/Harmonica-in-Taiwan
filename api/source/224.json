@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T04:15:43.953195Z",
+  "generatedAt": "2026-08-08T05:21:28.423968Z",
   "source": {
     "id": 224,
     "slug": "easttop-harmonicas",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/224-easttop-harmonicas/"
   },
   "items": [
+    {
+      "id": "post-4e4a3819f46fab282f5a511f",
+      "title": "The Opening Ceremony of the 15th Asia Pacific Harmonica Art Week",
+      "excerpt": "The Opening Ceremony of the 15th Asia Pacific Harmonica Art Week The opening ceremony marks the grand kick‑off of the 15th Asia‑Pacific Harmonica Art Week. This large‑scale gala gathers a huge number of harmonica enthusiasts, professional performers, educators and industry guest…",
+      "url": "https://www.youtube.com/watch?v=kkwEsPEbRzU",
+      "sourceName": "Easttop Harmonicas",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-08T02:50:09Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/eef9c61bff82359d67e3.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-d6580ab66b726d2b31c71a53",
       "title": "The Promotional Video of Jiangsu East Musical Instrument Co.,ltd",

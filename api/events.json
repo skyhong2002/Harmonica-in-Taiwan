@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 555,
+  "count": 554,
   "items": [
     {
       "title": "臺中國家歌劇院｜@nationaltaichungtheater: 🌸瑤池金母來歌劇院看戲！還繞館大賜福！ ​ #母娘真的來了 #瑤池金母與劇場的千載難逢相遇 ​ 《怪美妖仙傳》導演KIM向瑤池金母請... @nationaltaichu…",
@@ -77,6 +77,85 @@
         "公開活動"
       ],
       "key": "threads_nationaltaichungtheater:https://www.threads.com/t/Dbw9qsOAeid"
+    },
+    {
+      "title": "Easttop Music｜The Opening Ceremony of the 15th Asia Pacific Harmonica Art Week The opening ceremony marks the grand kic…",
+      "headline": "The Opening Ceremony of the 15th Asia Pacific Harmonica Art Week",
+      "display_title": "The Opening Ceremony of the 15th Asia Pacific Harmonica Art Week",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=kkwEsPEbRzU",
+      "source_id": "yt_easttopmusic",
+      "source": "Easttop Music",
+      "source_system_name": "Easttop Harmonicas",
+      "source_profile_url": "https://www.youtube.com/channel/UCFhX-vhRULB63C3Y-77oZyw",
+      "country": "中國",
+      "region": "中國/江蘇/無錫/江陰",
+      "directory_entry_id": "watchlist-224",
+      "directory_entry_name": "Easttop Harmonicas",
+      "account": "https://www.youtube.com/channel/UCFhX-vhRULB63C3Y-77oZyw",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-08-08T02:50:09+00:00",
+      "posted_at_local": "2026-08-08 10:50",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-08T05:21:14.155639+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "交流",
+        "演出"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "交流",
+        "演出"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "口琴藝術週開幕典禮，屬口琴社群公開活動與演出交流更新。",
+      "text": "The Opening Ceremony of the 15th Asia Pacific Harmonica Art Week\nThe opening ceremony marks the grand kick‑off of the 15th Asia‑Pacific Harmonica Art Week. This large‑scale gala gathers a huge number of harmonica enthusiasts, professional performers, educators and industry guests from all of the world.\nDrawing participants of diverse ages and backgrounds, the event brings together more than 2000 harmonica lovers, top artists and music groups. Spectacular stage performances, artistic exchanges and ceremonial moments unfold on site, showcasing the charm of harmonica art to a broad audience.\nAs a landmark gathering for the harmonica community, the opening ceremony sets a vibrant tone for the whole art week, creating a magnificent platform for cross‑regional musical communication and cultural interaction.#APHF#ASIA PACIFIC HARMONICA ART WEEK#easttop#easttopharmonica#easttopmusic#music#harmonica",
+      "images": [
+        "https://i.ytimg.com/vi/kkwEsPEbRzU/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/kkwEsPEbRzU/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/eef9c61bff82359d67e3.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_n6woqGpzLLWwgpxSsNU6BHY3vHsAtxc9_sllUOXG5ySg=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/91ae6836e4958d016a37.webp",
+      "source_initials": "EM",
+      "categories": [
+        "posts-videos",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "學生社團"
+      ],
+      "key": "yt_easttopmusic:kkwEsPEbRzU"
     },
     {
       "title": "南里沙 / Risa MINAMI｜台湾2日目の昨日は午前、午後ともに審査を担当し、審査の一日となりました。 会場は、國立陽明交通大学のキャンパス内。 皆さんの素晴らしい演奏が続き、一人ひとりの音色や表現に、たくさんの拍手を送りたい気持ち…",
@@ -43151,159 +43230,6 @@
         "補助比賽"
       ],
       "key": "ig_rei_harmonica:https://www.instagram.com/p/DakPnhqk0QY/"
-    },
-    {
-      "title": "臺灣口琴音樂節 Taiwan Harmonica Music Festival｜⚠️【活動停辦公告】⚠️ 原訂於 2026 年 7 月 11 日（六）14:00 於竹東親愛愛樂音樂巷－音樂廳舉辦之「口琴入門推廣講座」，因巴威颱風襲台，考量…",
-      "headline": "⚠️【活動停辦公告】⚠️",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.instagram.com/p/Dajw4iNEzf_/",
-      "source_id": "ig_taiwanharmonica",
-      "source": "臺灣口琴音樂節 Taiwan Harmonica Music Festival",
-      "source_system_name": "臺灣口琴音樂節 THMF",
-      "source_profile_url": "https://www.instagram.com/taiwanharmonica/",
-      "country": "臺灣",
-      "region": "臺灣",
-      "directory_entry_id": "watchlist-2",
-      "directory_entry_name": "臺灣口琴音樂節 THMF",
-      "account": "taiwanharmonica",
-      "platform": "instagram",
-      "platform_label": "Instagram",
-      "posted_at": "Thu, 09 Jul 2026 04:31:32 GMT",
-      "posted_at_local": "2026-07-09 12:31",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-07-09T11:25:45.860427+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "https://rss.observe.tw/instagram/2/user/taiwanharmonica",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "報名"
-      ],
-      "keyword_matches": [
-        "口琴",
-        "報名"
-      ],
-      "llm_relevant": null,
-      "llm_confidence": null,
-      "llm_labels": [],
-      "llm_categories": [],
-      "llm_reason": "",
-      "text": "⚠️【活動停辦公告】⚠️\n原訂於 2026 年 7 月 11 日（六）14:00 於竹東親愛愛樂音樂巷－音樂廳舉辦之「口琴入門推廣講座」，因巴威颱風襲台，考量天候狀況及所有參與者、講師與工作人員之安全，經審慎評估後，決定停辦本場活動。\n感謝各位朋友對 2026 臺灣口琴音樂節前導活動的支持與關注，也謝謝大家對本次活動的熱情報名。造成不便之處，敬請見諒。\n🌧️ 颱風期間也提醒大家留意最新天氣資訊，減少不必要外出，注意自身安全。\n👉 2026 臺灣口琴音樂節將於 8 月 7 日至 8 月 9 日在國立陽明交通大學光復校區與新竹市文化局演藝廳舉行，後續相關活動資訊也將陸續公告，敬請持續關注！",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/736622377_17948196804238733_20642984075717250_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkzNzIwNTQ5MDUwMTc2MTAyMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTEwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=OP989fZmqA8Q7kNvwHYgejl&_nc_oc=AdoMsZv3IgJp-d274qXgDf7V3Qv2c0p_OlNbo7r2PHi8fcKNUaSYeUwTOzCrG_Zc-ss&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=2wTRZGUEHQ_AW8eW7bjKnQ&_nc_ss=7a22e&oh=00_AQCInoKcV0rFznYt3_UgT1LtXA1FelvvkVjjOgKS_5vb8g&oe=6A556F45"
-      ],
-      "videos": [],
-      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/736622377_17948196804238733_20642984075717250_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=MzkzNzIwNTQ5MDUwMTc2MTAyMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTEwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=OP989fZmqA8Q7kNvwHYgejl&_nc_oc=AdoMsZv3IgJp-d274qXgDf7V3Qv2c0p_OlNbo7r2PHi8fcKNUaSYeUwTOzCrG_Zc-ss&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=2wTRZGUEHQ_AW8eW7bjKnQ&_nc_ss=7a22e&oh=00_AQCInoKcV0rFznYt3_UgT1LtXA1FelvvkVjjOgKS_5vb8g&oe=6A556F45",
-      "image_url": "/assets/feed-images/6d9536462c8249442943.webp",
-      "image_width": 800,
-      "image_height": 582,
-      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/447992418_962944642277635_2609615645552309724_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=107&_nc_oc=Q6cZ2gGUeXaIg1AgfrXcO5SXkcJut1IJbdsArvoyakxxMeurSIMdDNufV35OSTselMUtbBk&_nc_ohc=2Pgy7tKIv-8Q7kNvwG685tn&_nc_gid=Ul3YRCtgb5IIY5VATl-Yzg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQBAcnl4xsT0G26a4XSVS0pvrfoj8Jfdw-OAXlWXSBANUA&oe=6A556610&_nc_sid=8b3546",
-      "avatar_url": "/assets/source-avatars/0cba7a339fb4293da235.webp",
-      "source_initials": "THM",
-      "categories": [
-        "posts-videos",
-        "events",
-        "opportunities",
-        "student-clubs"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動",
-        "補助比賽",
-        "學生社團"
-      ],
-      "key": "ig_taiwanharmonica:https://www.instagram.com/p/Dajw4iNEzf_/"
-    },
-    {
-      "title": "臺灣口琴音樂節 THMF｜⚠️【活動停辦公告】⚠️ 原訂於 2026 年 7 月 11 日（六）14:00 於竹東親愛愛樂音樂巷－音樂廳舉辦之「口琴入門推廣講座」，因巴威颱風襲台，考量天候狀況及所有參與者、講師與工作人員之安全，經審慎評估…",
-      "headline": "⚠️【活動停辦公告】⚠️",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.facebook.com/twharmonica/posts/pfbid0Ed4UB9JgaLXhFpvFxQkf6fwNDJjE6Mkfw4ydiqJe1JDszdxhJXifFxgiSfQkCvJJl",
-      "source_id": "fb_twharmonica",
-      "source": "臺灣口琴音樂節 THMF",
-      "source_system_name": "臺灣口琴音樂節 THMF",
-      "source_profile_url": "https://facebook.com/twharmonica",
-      "country": "臺灣",
-      "region": "臺灣",
-      "directory_entry_id": "watchlist-2",
-      "directory_entry_name": "臺灣口琴音樂節 THMF",
-      "account": "twharmonica",
-      "platform": "facebook",
-      "platform_label": "Facebook",
-      "posted_at": "2026-07-09T04:26:09.000Z",
-      "posted_at_local": "2026-07-09 12:26",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-07-09T17:54:55.485909+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "公開更新",
-        "課程"
-      ],
-      "keyword_matches": [
-        "口琴",
-        "報名"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.95,
-      "llm_labels": [
-        "口琴",
-        "公開更新",
-        "課程"
-      ],
-      "llm_categories": [
-        "posts-videos"
-      ],
-      "llm_reason": "貼文為「臺灣口琴音樂節」官方發布的活動停辦公告，內容提及原訂的「口琴入門推廣講座」，並宣傳後續主活動，直接與口琴活動資訊相關。",
-      "text": "⚠️【活動停辦公告】⚠️\n原訂於 2026 年 7 月 11 日（六）14:00 於竹東親愛愛樂音樂巷－音樂廳舉辦之「口琴入門推廣講座」，因巴威颱風襲台，考量天候狀況及所有參與者、講師與工作人員之安全，經審慎評估後，決定停辦本場活動。\n感謝各位朋友對 2026 臺灣口琴音樂節前導活動的支持與關注，也謝謝大家對本次活動的熱情報名。造成不便之處，敬請見諒。\n🌧️ 颱風期間也提醒大家留意最新天氣資訊，減少不必要外出，注意自身安全。\n👉 2026 臺灣口琴音樂節將於 8 月 7 日至 8 月 9 日在國立陽明交通大學光復校區與新竹市文化局演藝廳舉行，後續相關活動資訊也將陸續公告，敬請持續關注！\nhttps://www.facebook.com/photo/?fbid=1041533048253754&set=a.205167895223611",
-      "images": [
-        "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/742345827_1041533054920420_231507666045109969_n.jpg?stp=dst-jpg_tt6&cstp=mx1100x492&ctp=s1100x492&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=HMn-ec3vECwQ7kNvwFhjnw3&_nc_oc=AdoT_KcZllk_9LzlVgMSQdfhb6XD-K3UMsH4m5D8MG6PpsrchWilqLHvXcoDz8xv5I0&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=fC0baYd0G3S4wa4B0Xtonw&_nc_ss=72289&oh=00_AQCWNf0t9tRRIyYZFDaXji-AwX53e2v0AfpN6zXCb0KSyg&oe=6A55BE11"
-      ],
-      "videos": [],
-      "source_image_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-6/742345827_1041533054920420_231507666045109969_n.jpg?stp=dst-jpg_tt6&cstp=mx1100x492&ctp=s1100x492&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=HMn-ec3vECwQ7kNvwFhjnw3&_nc_oc=AdoT_KcZllk_9LzlVgMSQdfhb6XD-K3UMsH4m5D8MG6PpsrchWilqLHvXcoDz8xv5I0&_nc_zt=23&_nc_ht=scontent-ord5-1.xx&_nc_gid=fC0baYd0G3S4wa4B0Xtonw&_nc_ss=72289&oh=00_AQCWNf0t9tRRIyYZFDaXji-AwX53e2v0AfpN6zXCb0KSyg&oe=6A55BE11",
-      "image_url": "/assets/feed-images/111489cebb36f5f0b795.webp",
-      "image_width": 800,
-      "image_height": 358,
-      "source_avatar_url": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/343445865_748320516783289_1291576289381405694_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s50x50&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=uc2YCPRtDgoQ7kNvwG-PXgO&_nc_oc=AdodchzkUuSP1ORANoiyC1Bf9AjByY_vBoroTY893vi8bJu0nKbBOULXyBzcyfNbdvw&_nc_zt=24&_nc_ht=scontent-ord5-1.xx&_nc_gid=fC0baYd0G3S4wa4B0Xtonw&_nc_ss=72289&oh=00_AQD7UUpLMYCQyhJpOPGpRbp3vHab5faKddgKNmXBHj8ONw&oe=6A55BD6A",
-      "avatar_url": "/assets/source-avatars/d9602f524fd7bc9d9d5b.webp",
-      "source_initials": "T",
-      "categories": [
-        "posts-videos",
-        "events",
-        "opportunities",
-        "student-clubs"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動",
-        "補助比賽",
-        "學生社團"
-      ],
-      "key": "fb_twharmonica:1041534844920241"
     }
   ]
 }
