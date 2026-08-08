@@ -65,6 +65,78 @@
   },
   "entries": [
     {
+      "id": "watchlist-43",
+      "publicId": "43",
+      "name": "林裕豐",
+      "nameEn": "Yu-Feng Lin",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "胖擊系",
+      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
+      "summary": "臺灣口琴演奏者林裕豐，兼職教學與演出。",
+      "keywords": "林裕豐 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/yufeng/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yf__life/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@YFHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-08T17:14:49+00:00",
+      "latestUpdateLocal": "2026-08-09 01:14",
+      "latestUpdateSource": "林裕豐",
+      "latestUpdateUrl": "https://www.instagram.com/stories/yf__life/3959332950182898690/",
+      "avatarUrl": "/assets/source-avatars/7953cf28a4c5bd4dc0ac.webp",
+      "sourceInitials": "林裕",
+      "sourceTags": [
+        "演奏者",
+        "教學"
+      ],
+      "sourceSummary": "臺灣口琴演奏者林裕豐，兼職教學與演出。",
+      "sourceTagReason": "來源為個人，類別明確標示為「演奏者」，並有網站提供教學課程資訊。",
+      "monitorSources": [
+        {
+          "id": "ig_story_yf_life",
+          "name": "林裕豐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yf__life",
+          "profileUrl": "https://www.instagram.com/yf__life/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yf__life/story/0"
+        },
+        {
+          "id": "ig_yf_life",
+          "name": "林裕豐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yf__life",
+          "profileUrl": "https://www.instagram.com/yf__life/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_yfharmonica",
+          "name": "林裕豐",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@YFHarmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -419,6 +491,101 @@
       ]
     },
     {
+      "id": "watchlist-80",
+      "publicId": "80",
+      "name": "臺中國家歌劇院",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "臺中國家歌劇院 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-ntt.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/npac.ntt/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nationaltaichungtheater/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@nationaltaichungtheater"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-08T13:52:31+00:00",
+      "latestUpdateLocal": "2026-08-08 21:52",
+      "latestUpdateSource": "臺中國家歌劇院",
+      "latestUpdateUrl": "https://www.instagram.com/stories/nationaltaichungtheater/3959231140254597366/",
+      "avatarUrl": "/assets/source-avatars/c24e53f63455fddd8dca.webp",
+      "sourceInitials": "臺中",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_npac_ntt",
+          "name": "臺中國家歌劇院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/npac.ntt",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
+        },
+        {
+          "id": "threads_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "threads",
+          "type": "rss",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
+          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
+        },
+        {
+          "id": "yt_uctl1euke_x0w6tahecepgmq",
+          "name": "臺中國家歌劇院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-125",
       "publicId": "125",
       "name": "Jens Bunge",
@@ -734,101 +901,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@ChaotengChang",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-80",
-      "publicId": "80",
-      "name": "臺中國家歌劇院",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "臺中國家歌劇院 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-ntt.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/npac.ntt/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nationaltaichungtheater/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@nationaltaichungtheater"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-08T12:48:05+00:00",
-      "latestUpdateLocal": "2026-08-08 20:48",
-      "latestUpdateSource": "臺中國家歌劇院",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=XUlUusKBlTw",
-      "avatarUrl": "/assets/source-avatars/e8cb0b10636f91d5a338.webp",
-      "sourceInitials": "臺中",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_npac_ntt",
-          "name": "臺中國家歌劇院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/npac.ntt",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
-        },
-        {
-          "id": "threads_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "threads",
-          "type": "rss",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
-          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
-        },
-        {
-          "id": "yt_uctl1euke_x0w6tahecepgmq",
-          "name": "臺中國家歌劇院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
           "feedUrl": ""
         }
       ]
@@ -3047,78 +3119,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-43",
-      "publicId": "43",
-      "name": "林裕豐",
-      "nameEn": "Yu-Feng Lin",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "胖擊系",
-      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
-      "summary": "臺灣口琴演奏者林裕豐，兼職教學與演出。",
-      "keywords": "林裕豐 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/yufeng/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yf__life/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@YFHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-08T03:05:34+00:00",
-      "latestUpdateLocal": "2026-08-08 11:05",
-      "latestUpdateSource": "林裕豐",
-      "latestUpdateUrl": "https://www.instagram.com/stories/yf__life/3958906075932253154/",
-      "avatarUrl": "/assets/source-avatars/7953cf28a4c5bd4dc0ac.webp",
-      "sourceInitials": "林裕",
-      "sourceTags": [
-        "演奏者",
-        "教學"
-      ],
-      "sourceSummary": "臺灣口琴演奏者林裕豐，兼職教學與演出。",
-      "sourceTagReason": "來源為個人，類別明確標示為「演奏者」，並有網站提供教學課程資訊。",
-      "monitorSources": [
-        {
-          "id": "ig_story_yf_life",
-          "name": "林裕豐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yf__life",
-          "profileUrl": "https://www.instagram.com/yf__life/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yf__life/story/0"
-        },
-        {
-          "id": "ig_yf_life",
-          "name": "林裕豐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yf__life",
-          "profileUrl": "https://www.instagram.com/yf__life/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_yfharmonica",
-          "name": "林裕豐",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@YFHarmonica",
           "feedUrl": ""
         }
       ]

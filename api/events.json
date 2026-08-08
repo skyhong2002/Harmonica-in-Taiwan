@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 581,
+  "count": 583,
   "items": [
     {
       "title": "南里沙 / Risa MINAMI｜台湾3日目 | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powere... https://ameblo.jp/risa-harmonica/entry-1297518498…",
@@ -1130,6 +1130,83 @@
       "key": "yt_uctl1euke_x0w6tahecepgmq:XUlUusKBlTw"
     },
     {
+      "title": "Indiara Sfair｜@daiigallo on stage with Stand by Me is still an absolute mood. 🔥 Pure feeling and soulful expression in …",
+      "headline": "@daiigallo on stage with Stand by Me is still an absolute mood. 🔥",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/Dbx0HuoRsZW/",
+      "source_id": "ig_indiarasfair",
+      "source": "Indiara Sfair",
+      "source_system_name": "Indiara Sfair",
+      "source_profile_url": "https://www.instagram.com/indiarasfair/",
+      "country": "巴西",
+      "region": "巴西",
+      "directory_entry_id": "watchlist-133",
+      "directory_entry_name": "Indiara Sfair",
+      "account": "indiarasfair",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Sat, 08 Aug 2026 12:00:07 GMT",
+      "posted_at_local": "2026-08-08 20:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-08T17:56:08.832824+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/indiarasfair",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "演出",
+        "影片",
+        "公開更新"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.72,
+      "llm_labels": [
+        "口琴",
+        "演出",
+        "影片",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文為口琴演奏者公開演出影片分享，屬口琴相關公開更新。",
+      "text": "@daiigallo on stage with Stand by Me is still an absolute mood. 🔥\nPure feeling and soulful expression in every single note.\nWe love it 👏🏻",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/755440578_18608566909012370_1471413978781285348_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=Mzk1OTE3NDc3Njk1ODE0MjAzODE4NjA4NTY2OTA2MDEyMzcw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=Pv0YLIQl-wQQ7kNvwEylit9&_nc_oc=AdrsoXeSJzDrjF1_rh2z2F3K93gG74JUYOvLDM2y4RgrKHZMiFvHBu7g_Z9bjVBj25k&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Yn5GPU9KOKOwA72c2N-ykQ&_nc_ss=7a22e&oh=00_AQEY-H8H4W4bLYkHRbEKdpAStmBA_GDye08b_bU4iIMIrQ&oe=6A7D3425"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQNuSI8OtqGAZhdYNnkpXVqkcx9PHatMxO-Nry1NPq1aScDpDo-G9Nd4vpyXbjrkexyE6TWwZgwSwWB-6c_QCVTZ-EEDYIEGToT7-hs.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=7iIpntFkDzEQ7kNvwHC2D-O&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTM1MzcyNDcxNjI1OTMyOCwiYXNzZXRfYWdlX2RheXMiOjE1LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NDgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=232c073ea5902b53&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC82MjQwNUQ1REE0NDI4NTU2MkM0N0QzMkNGMjk5NjlBRF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0E2NDQxQUY5QjZFNUQwRjkzQ0IxNTFBQzczQzUyREE5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaA4LCNk83nBBUCKAJDMywXQEgEOVgQYk4YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=Yn5GPU9KOKOwA72c2N-ykQ&_nc_ss=7a22e&_nc_zt=28&oh=00_AQHcUIKu8Sg-NZdCTSO4hQI6w2nEleaTGYwOLDt-kFt3ng&oe=6A7933F0"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/755440578_18608566909012370_1471413978781285348_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=106&ig_cache_key=Mzk1OTE3NDc3Njk1ODE0MjAzODE4NjA4NTY2OTA2MDEyMzcw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=Pv0YLIQl-wQQ7kNvwEylit9&_nc_oc=AdrsoXeSJzDrjF1_rh2z2F3K93gG74JUYOvLDM2y4RgrKHZMiFvHBu7g_Z9bjVBj25k&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Yn5GPU9KOKOwA72c2N-ykQ&_nc_ss=7a22e&oh=00_AQEY-H8H4W4bLYkHRbEKdpAStmBA_GDye08b_bU4iIMIrQ&oe=6A7D3425",
+      "image_url": "/assets/feed-images/985b3dc49e97858388ae.webp",
+      "image_width": 720,
+      "image_height": 1280,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/16110277_214666652273289_3558180431058698240_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby43ODAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gE6GGSaFJlvlwWMPOVrzk0JCjTzQvZZD14FRKB-3WPkEVJ7IujfqeZBFiDYcVZgQsQ&_nc_ohc=BA_ARfvNENIQ7kNvwEV-MDs&_nc_gid=GZSl49PtIUvVsPhITHgXJg&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQEPVjGMCbvMlgIFg9y6zGpE23R0yqb4bJrl51EsBVtf5A&oe=6A7D484D&_nc_sid=ee9879",
+      "avatar_url": "/assets/source-avatars/1ce2b6d48cae4d2dd3c2.webp",
+      "source_initials": "IS",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_indiarasfair:https://www.instagram.com/p/Dbx0HuoRsZW/"
+    },
+    {
       "title": "臺灣口琴音樂節 Taiwan Harmonica Music Festival｜Instagram story @taiwanharmonica",
       "headline": "Instagram story @taiwanharmonica",
       "display_title": "",
@@ -1452,6 +1529,83 @@
         "補助比賽"
       ],
       "key": "threads_mandy730508_harmonica:https://www.threads.com/t/DbxivwWkvWu"
+    },
+    {
+      "title": "張筑婷｜《臺灣口琴音樂節》 來到了臺灣最大口琴活動 臺灣口琴音樂節 今天跟明天都是一整天的評審 各位選手加油👏",
+      "headline": "《臺灣口琴音樂節》",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DbxiucVS8Rj/",
+      "source_id": "ig_mandy730508_harmonica",
+      "source": "張筑婷",
+      "source_system_name": "張筑婷",
+      "source_profile_url": "https://www.instagram.com/mandy730508_harmonica/",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-11",
+      "directory_entry_name": "張筑婷",
+      "account": "mandy730508_harmonica",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Sat, 08 Aug 2026 09:28:39 GMT",
+      "posted_at_local": "2026-08-08 17:28",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-08T17:56:08.832824+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/mandy730508_harmonica",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "比賽"
+      ],
+      "keyword_matches": [
+        "口琴"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "比賽"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "內容為臺灣口琴音樂節與評審、選手加油，明確屬口琴比賽/活動公開更新。",
+      "text": "《臺灣口琴音樂節》\n來到了臺灣最大口琴活動\n臺灣口琴音樂節\n今天跟明天都是一整天的評審\n各位選手加油👏",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/768747087_18453785365190301_8785768686903247215_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=108&ig_cache_key=Mzk1OTA5ODI3MjUzNDc0MjExNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzA3Mi5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=pKj8H_9Q5fgQ7kNvwEL9cKC&_nc_oc=AdqUM40Wx7xWrzMMhsEJmPZZCBFTRtrIxQT8EZMQSx-K8xPhXRCR4_kbfdXlkwnJB2o&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=nHy6QUi7eOQZ6ynxUKg58w&_nc_ss=7a22e&oh=00_AQGWDn05DJCvtMs5jM7Osajk8EsuUJtgFgwsI--0coRLRw&oe=6A7D571C"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/768747087_18453785365190301_8785768686903247215_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=108&ig_cache_key=Mzk1OTA5ODI3MjUzNDc0MjExNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzA3Mi5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=pKj8H_9Q5fgQ7kNvwEL9cKC&_nc_oc=AdqUM40Wx7xWrzMMhsEJmPZZCBFTRtrIxQT8EZMQSx-K8xPhXRCR4_kbfdXlkwnJB2o&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=nHy6QUi7eOQZ6ynxUKg58w&_nc_ss=7a22e&oh=00_AQGWDn05DJCvtMs5jM7Osajk8EsuUJtgFgwsI--0coRLRw&oe=6A7D571C",
+      "image_url": "/assets/feed-images/a1475fc758a6df00c786.webp",
+      "image_width": 800,
+      "image_height": 1067,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/441176723_1160329471988292_366002489502708529_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby45NjAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gEvfY6i9GEmByxB__5TDNuyNfoS6mQoOnodgqWy5-mJ4Y0vXZMAvqJTdkFFqp6HUIM&_nc_ohc=4h74a2gn5DcQ7kNvwGW0XF6&_nc_gid=RHqlSUaNfTyc2ttSZ_lM8w&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQFGb2NVLdhE9x6QG2Ta1wa5K4p2aDSofnhBhV4IyEfa4A&oe=6A7D4F8C&_nc_sid=ee9879",
+      "avatar_url": "/assets/source-avatars/3ee7369a460eff2127e2.webp",
+      "source_initials": "張筑",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽"
+      ],
+      "key": "ig_mandy730508_harmonica:https://www.instagram.com/p/DbxiucVS8Rj/"
     },
     {
       "title": "臺灣口琴音樂節 Taiwan Harmonica Music Festival｜Instagram story @taiwanharmonica",
