@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T02:35:58.639116Z",
+  "generatedAt": "2026-08-08T03:10:09.039733Z",
   "source": {
     "id": 80,
     "slug": "80",
@@ -340,20 +340,6 @@
       "publishedAt": "2026-07-09T07:23:43Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/1ba2e3e442e4d9327490.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-323578f1111208b18708ff1e",
-      "title": "2026 夏日放／FUN時光｜歌劇院第一部手語劇場！《聽見你的聲音》聽人、聾人演員排練秘辛大公開✨",
-      "excerpt": "2026 夏日放／FUN時光｜歌劇院第一部手語劇場！《聽見你的聲音》聽人、聾人演員排練秘辛大公開✨ 當聽人帶著聾人面對世界，究竟應該忠實地轉譯，還是出於保護的超譯？ 在複象公場的《聽見你的聲音》中，聾人與聽人演員同台共演，舞台上手語和口語不再有界線；演員們最大的挑戰不僅是記台詞，更需要練習眼神、肢體與手語手勢的搭配、融合，讓全場的聾、聽觀眾都能毫無阻礙地直接感受劇場最純粹的魅力！ 在排練空檔，特別邀請3位主演—羅振佑、廖曉彤、鄭昆興聊聊這個特別的作品，以及他們在日常與排練中如何打破慣常的溝通方式，在角色與自我之間找到交集。 🌊𝟮𝟬𝟮𝟲 𝙉𝙏𝙏夏日放／𝙁…",
-      "url": "https://www.youtube.com/watch?v=K5SUAAGrvt4",
-      "sourceName": "臺中國家歌劇院",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-09T03:04:49Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/d46e6d622188c3b89a0f.webp",
         "width": 800,
         "height": 450
       }
