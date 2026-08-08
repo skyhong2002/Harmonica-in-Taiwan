@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 584,
+  "count": 585,
   "items": [
     {
       "title": "Howard Levy｜Paganini’s “Moto Perpetuo” has fascinated me for years, and it inspired me to compose a perpetual-motion pi…",
@@ -87,6 +87,80 @@
         "公開活動"
       ],
       "key": "ig_howardlevyland:https://www.instagram.com/p/DbyQ_YVOM1o/"
+    },
+    {
+      "title": "Santiago Alvarez｜El VIERNES 14/08 20hs con Entrada Libre! Después de algún tiempo @chucaratrio vuelve a los escenarios …",
+      "headline": "El VIERNES 14/08 20hs con Entrada Libre!",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DbyVvRlkWgA/",
+      "source_id": "ig_santi_alvarez_armonica",
+      "source": "Santiago Alvarez",
+      "source_system_name": "Santiago Alvarez",
+      "source_profile_url": "https://www.instagram.com/santi.alvarez.armonica/",
+      "country": "阿根廷",
+      "region": "阿根廷",
+      "directory_entry_id": "watchlist-153",
+      "directory_entry_name": "Santiago Alvarez",
+      "account": "santi.alvarez.armonica",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Sat, 08 Aug 2026 16:54:20 GMT",
+      "posted_at_local": "2026-08-09 00:54",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-08T22:53:55.590590+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/santi.alvarez.armonica",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "演出",
+        "公開更新"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.93,
+      "llm_labels": [
+        "口琴",
+        "演出",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文明確提到 Santiago Alvarez 演奏口琴並宣傳公開演出，屬口琴演奏者更新。",
+      "text": "El VIERNES 14/08 20hs con Entrada Libre!\nDespués de algún tiempo @chucaratrio vuelve a los escenarios junto a @bomboleguero.folk como invitada especial! Será una noche única que nos vuelve a juntar gracias a la invitación del @centroborges\n📍VIERNES 14/08 20hs. Entrada libre por orden de llegada. @centroborges. Viamonte 525.CABA.\nSomos:\nChúcara trio\nTango & Folklore argentino música tradicional ejecutada con instrumentos no tradicionales.\nUna performance repleta de momentos enérgicos, viscerales y emotivos que nos transportarán a las calles empedradas de Buenos Aires, así como a las verdes llanuras pampeanas y áridos desiertos del norte argentino.\nUn viaje introspectivo potenciado por la amistad y simbiosis humana a la esencia misma de la identidad cultural argentina\nWilly Gonzalez (bajo y dirección) @willygonzalezbajo\nSantiago Alvarez (armónica) @santi.alvarez.armonica\nAlfredo Pittis (voz y bombo) @pittisalfredo",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/771808415_18160157731486291_4444316733230901346_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzk1OTMxOTMzMTEzNzM4NDc5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTI3OS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=dyVN9-NxzPYQ7kNvwGIBLxO&_nc_oc=Ado3j0WutkmM5RHay__XYDtu2A-gj1IHtS2bB8tS6gtCbCvWqxLS8J1yKde416TchWU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=cl_0DLl73dN_n63v5MPyxQ&_nc_ss=7a22e&oh=00_AQFEJCLU4Q4T9Nw2clmhnk1SWNM3GgzT01txZQ-PmAYwzQ&oe=6A7D6ABC",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/769691895_18160157746486291_5638310121393176505_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzk1OTMxOTM0NjY3MjgyOTkxNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=O8_3W2gTUP4Q7kNvwEF_zGI&_nc_oc=Adq8wKl2YJn4yFXFnfq5IL_zSXpwO7JR7Bw8l-nVH1R09IpsephtqpCGyN8TwAH5PH0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=cl_0DLl73dN_n63v5MPyxQ&_nc_ss=7a22e&oh=00_AQGzkZnMBxT8tDETuwryzzqDDni5in3zWpfygiWJDktCVg&oe=6A7D9983"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/771808415_18160157731486291_4444316733230901346_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzk1OTMxOTMzMTEzNzM4NDc5MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTI3OS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=dyVN9-NxzPYQ7kNvwGIBLxO&_nc_oc=Ado3j0WutkmM5RHay__XYDtu2A-gj1IHtS2bB8tS6gtCbCvWqxLS8J1yKde416TchWU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=cl_0DLl73dN_n63v5MPyxQ&_nc_ss=7a22e&oh=00_AQFEJCLU4Q4T9Nw2clmhnk1SWNM3GgzT01txZQ-PmAYwzQ&oe=6A7D6ABC",
+      "image_url": "/assets/feed-images/8523669e2b7ef8af230d.webp",
+      "image_width": 800,
+      "image_height": 1001,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/317600911_204819018618932_2525964416684993808_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NTMuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFDqw5OXFdvb4QL7e8s9Uj0fswa60jN_Z5OuXxuRqJjSGQqde6m2S3pa5UFoQx7--w&_nc_ohc=ZYbd32kb7WsQ7kNvwFvBx9H&_nc_gid=z_EToYti5uaE7lEyQ3eIwg&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQHp91XW1YHPMsljTltaK0KxXBVDj1KMKonzizXowQw7wQ&oe=6A7D985E&_nc_sid=ee9879",
+      "avatar_url": "/assets/source-avatars/c8ea47e0989979b803b9.webp",
+      "source_initials": "SA",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_santi_alvarez_armonica:https://www.instagram.com/p/DbyVvRlkWgA/"
     },
     {
       "title": "南里沙 / Risa MINAMI｜台湾3日目 | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powere... https://ameblo.jp/risa-harmonica/entry-1297518498…",
