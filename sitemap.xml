@@ -61,7 +61,43 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/2-taiwan-harmonica-music-festival/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/125-jens-bunge/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/101-ho-kah-kean-harmonikahkean/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/127-reyharp-and-balawan-project/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/31/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/80/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/133-indiara-sfair/</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -187,12 +223,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/80/</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/39/</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -248,18 +278,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/4-judy-s-harmonica-ensemble/</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/2-taiwan-harmonica-music-festival/</loc>
-    <lastmod>2026-08-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/31/</loc>
     <lastmod>2026-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -356,12 +374,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/153-santiago-alvarez/</loc>
-    <lastmod>2026-08-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/101-ho-kah-kean-harmonikahkean/</loc>
     <lastmod>2026-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -493,12 +505,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/127-reyharp-and-balawan-project/</loc>
-    <lastmod>2026-08-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/147-yoonseok-lee/</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -567,12 +573,6 @@
   <url>
     <loc>https://harmonica.observe.tw/source/174-yellow-pine-harmonica-festival/</loc>
     <lastmod>2026-08-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/133-indiara-sfair/</loc>
-    <lastmod>2026-08-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
