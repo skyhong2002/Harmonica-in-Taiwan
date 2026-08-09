@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T18:15:36.306517Z",
+  "generatedAt": "2026-08-09T19:22:19.984227Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/115-filip-jers/"
   },
   "items": [
+    {
+      "id": "post-d4a8743bce3ef544f159c865",
+      "title": "Join me walking to the stage where all my harmonicas are 🎶🎶🎶",
+      "excerpt": "Join me walking to the stage where all my harmonicas are 🎶🎶🎶",
+      "url": "https://www.facebook.com/reel/855458947505233/",
+      "sourceName": "Filip Jers",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-09T08:36:31Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/7db1f28365837ca0472a.webp",
+        "width": 541,
+        "height": 960
+      }
+    },
     {
       "id": "post-8af8ecd2b1b2f58dafdebb73",
       "title": "My harmonicas from yesterdays concert ☀️",
