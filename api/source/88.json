@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T03:18:26.079678Z",
+  "generatedAt": "2026-08-09T04:25:12.750034Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -256,20 +256,6 @@
       "publishedAt": "2026-07-12T04:00:16Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/593b2b03f7da883bf54d.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-573908e8da581941abf38406",
-      "title": "午夜的陌生人丨大安社大口琴班",
-      "excerpt": "午夜的陌生人丨大安社大口琴班 當同學程度愈來愈好，老師也愈花心神到底要教什麼曲子，這首英文老歌前段是F調，後段升Key變G調，剛好可以給同學練練升降音，順便認識一下五線譜，想不到大安同學不畏困難打壓，依然吹得嚇嚇叫~ 大安社大口琴班(四)晚上",
-      "url": "https://www.youtube.com/watch?v=98PNZXIdy6k",
-      "sourceName": "藍波口琴教室",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-10T04:00:39Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/f3882feb348a86264d4c.webp",
         "width": 800,
         "height": 450
       }

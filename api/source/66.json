@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T03:18:26.079678Z",
+  "generatedAt": "2026-08-09T04:25:12.750034Z",
   "source": {
     "id": 66,
     "slug": "younghoon-cho",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/66-younghoon-cho/"
   },
   "items": [
+    {
+      "id": "post-13c607fc1474d54c9f7a5095",
+      "title": "SSHO in THMF 2026",
+      "excerpt": "SSHO in THMF 2026 🇹🇼🇰🇷 #SeoulSoloistsHarmonicaOrchestea #TaiwanHarmonicaMusicFestival",
+      "url": "https://www.instagram.com/p/DbyeZk9zKJK/",
+      "sourceName": "Younghoon Cho",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-08T18:15:20Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b056808024dea2fc3e5d.webp",
+        "width": 640,
+        "height": 1136
+      }
+    },
     {
       "id": "post-b09344af6f621dcb8cb60d83",
       "title": "이오공감(2·5·共·感) - 한 사람을 위한 마음／Lee Oh Gong Gam - Heart for One Person (piano cover)",
