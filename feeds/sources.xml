@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 08 Aug 2026 23:27:35 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 00:32:49 +0000</lastBuildDate>
     <item>
       <title>Harmonica FEN 口琴節與學院</title>
       <link>https://harmonica-fen-festival.com/</link>
@@ -181,6 +181,17 @@ Tag：活動資訊、團體樂團、比賽、重奏、國際交流
 國家：馬來西亞
 地區：馬來西亞/吉隆坡
 馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。</description>
+    </item>
+    <item>
+      <title>口琴保存與推廣協會 SPAH</title>
+      <link>https://spah.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/5ca765124e708518</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：協會、活動資訊、國際交流
+國家：美國
+地區：美國/密蘇里
+美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。</description>
     </item>
     <item>
       <title>蔡明憲</title>
@@ -874,17 +885,6 @@ Tag：演奏者、團體樂團、教學
 國家：臺灣
 地區：臺灣
 臺灣的低音口琴與口琴演出人員與教學者，活動脈絡包含狂響口琴樂團、教學與地方推廣。</description>
-    </item>
-    <item>
-      <title>口琴保存與推廣協會 SPAH</title>
-      <link>https://spah.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/5ca765124e708518</guid>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：協會、活動資訊、國際交流
-國家：美國
-地區：美國/密蘇里
-美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。</description>
     </item>
     <item>
       <title>Yoonseok Lee</title>

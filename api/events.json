@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 584,
+  "count": 583,
   "items": [
     {
       "title": "Howard Levy｜Paganini’s “Moto Perpetuo” has fascinated me for years, and it inspired me to compose a perpetual-motion pi…",
@@ -45562,81 +45562,6 @@
         "公開活動"
       ],
       "key": "ig_story_aidennevelyn:3937843408639567176_3069466643"
-    },
-    {
-      "title": "Yellow Pine Harmonica Festival｜Have you ever wanted to learn how to play the Harmonica? Have you started playing, but w…",
-      "headline": "Have you ever wanted to learn how to play the Harmonica? Have you started playing, but want to take your skills to the …",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.facebook.com/YellowPineHarmonicaFestival/posts/pfbid0bPDEQzepd1wkzehqHSMpcaVd74kGfyMaAZUunFN2dPTNC9zZ5xpiucruASpDkZcQl",
-      "source_id": "fb_yellowpineharmonicafestival",
-      "source": "Yellow Pine Harmonica Festival",
-      "source_system_name": "Yellow Pine Harmonica Festival",
-      "source_profile_url": "https://facebook.com/YellowPineHarmonicaFestival",
-      "country": "美國",
-      "region": "美國/愛達荷",
-      "directory_entry_id": "watchlist-174",
-      "directory_entry_name": "Yellow Pine Harmonica Festival",
-      "account": "YellowPineHarmonicaFestival",
-      "platform": "facebook",
-      "platform_label": "Facebook",
-      "posted_at": "2026-07-10T00:28:04.000Z",
-      "posted_at_local": "2026-07-10 08:28",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-07-10T17:45:11.788190+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "課程",
-        "公開更新"
-      ],
-      "keyword_matches": [
-        "harmonica"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 1.0,
-      "llm_labels": [
-        "口琴",
-        "課程",
-        "公開更新"
-      ],
-      "llm_categories": [
-        "events"
-      ],
-      "llm_reason": "貼文明確宣傳口琴課程（工作坊），由口琴節主辦單位發布，符合口琴演出、課程相關定義。",
-      "text": "Have you ever wanted to learn how to play the Harmonica? Have you started playing, but want to take your skills to the next level? Come take a class at the Community Hall this year while you're at the Festival!!!\nDennis Cooper and Robbie Kap are back to help you get the most out of this instrument!!! Details available on our website:\nhttps://www.yellowpinefestival.org/idaho-harmonica-workshop/\nSee you this summer in Yellow Pine Idaho!!!",
-      "images": [
-        "https://external-sjc3-1.xx.fbcdn.net/emg1/v/t13/4443140013201793139?url=https%3A%2F%2Fwww.yellowpinefestival.org%2Fwp-content%2Fuploads%2Fsocial-5.jpg&fb_obo=1&utld=yellowpinefestival.org&stp=c0.5000x0.5000f_dst-jpg_flffffff_p139x139_q75_tt6&_nc_gid=lA4wQ4Q4KaTEpG0qlpWkNQ&_nc_oc=Adrqy_OsbRohzzSluTo0GkAG8UyIjGryLT5RyvypI0IkraJ_iTdvLYEO-d2Aw3Oc3EY&ccb=13-1&oh=06_Q3_BAQj4atrjDMDvHJOTRE3ygCO5UF_vXSSDVcZkeyZ4zQCg&oe=6A531689&_nc_sid=139b9a"
-      ],
-      "videos": [],
-      "source_image_url": "https://external-sjc3-1.xx.fbcdn.net/emg1/v/t13/4443140013201793139?url=https%3A%2F%2Fwww.yellowpinefestival.org%2Fwp-content%2Fuploads%2Fsocial-5.jpg&fb_obo=1&utld=yellowpinefestival.org&stp=c0.5000x0.5000f_dst-jpg_flffffff_p139x139_q75_tt6&_nc_gid=lA4wQ4Q4KaTEpG0qlpWkNQ&_nc_oc=Adrqy_OsbRohzzSluTo0GkAG8UyIjGryLT5RyvypI0IkraJ_iTdvLYEO-d2Aw3Oc3EY&ccb=13-1&oh=06_Q3_BAQj4atrjDMDvHJOTRE3ygCO5UF_vXSSDVcZkeyZ4zQCg&oe=6A531689&_nc_sid=139b9a",
-      "image_url": "/assets/feed-images/ffee3af77980100df4a9.webp",
-      "image_width": 139,
-      "image_height": 139,
-      "source_avatar_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/488459367_984147080582223_6369034247251819963_n.jpg?stp=c83.83.334.334a_cp0_dst-jpg_tt6&cstp=mx334x334&ctp=s50x50&_nc_cat=100&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=WSFPubXlPuoQ7kNvwHOHzT4&_nc_oc=AdohLfjRZUgwdF8bTuZLpzrTSzTwfafYLDKN2iTQlmmqyJcLBjVhY9pomXm_5An7YwE&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=lA4wQ4Q4KaTEpG0qlpWkNQ&_nc_ss=72289&oh=00_AQCEK95bypp5oYRnoS3V3DzxFIzwRMyiTiV6Vo2MgswbDg&oe=6A56EAD3",
-      "avatar_url": "/assets/source-avatars/4416de28cb40dca66684.webp",
-      "source_initials": "YPH",
-      "categories": [
-        "posts-videos",
-        "events"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動"
-      ],
-      "key": "fb_yellowpineharmonicafestival:1357995526530708"
     }
   ]
 }
