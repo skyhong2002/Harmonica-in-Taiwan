@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 593,
+  "count": 595,
   "items": [
     {
       "title": "音和樂器PeaceTones｜🎵 #臺灣口琴音樂節 Day3佈置完成；颱風影響，新竹雨挺大的，但不影響口琴人的心情～ 今天會提早打烊收拾，對產品有興趣的朋友把握時間囉！ #TOMBO #HOHNER #SUZUKI #JDR ——————…",
@@ -83,6 +83,165 @@
         "學生社團"
       ],
       "key": "ig_peacetones_harmonica:https://www.instagram.com/p/DbzVvLTPUKB/"
+    },
+    {
+      "title": "Easttop Music｜Harmonic Bonds of the Asia-Pacific — Singapore Special Concert of 15th APHF(EAST TOP) Harmonic Bonds of t…",
+      "headline": "Harmonic Bonds of the Asia-Pacific — Singapore Special Concert of 15th APHF(EAST TOP)",
+      "display_title": "Harmonic Bonds of the Asia-Pacific — Singapore Special Concert of 15th APHF(EAST TOP)",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=eKhS5GA7xmY",
+      "source_id": "yt_easttopmusic",
+      "source": "Easttop Music",
+      "source_system_name": "Easttop Harmonicas",
+      "source_profile_url": "https://www.youtube.com/channel/UCFhX-vhRULB63C3Y-77oZyw",
+      "country": "中國",
+      "region": "中國/江蘇/無錫/江陰",
+      "directory_entry_id": "watchlist-224",
+      "directory_entry_name": "Easttop Harmonicas",
+      "account": "https://www.youtube.com/channel/UCFhX-vhRULB63C3Y-77oZyw",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-08-09T02:10:18+00:00",
+      "posted_at_local": "2026-08-09 10:10",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-09T05:33:15.455968+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "音樂會",
+        "演出",
+        "影片"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "音樂會",
+        "演出",
+        "影片"
+      ],
+      "llm_categories": [
+        "events",
+        "posts-videos"
+      ],
+      "llm_reason": "口琴品牌YouTube公開影片，內容為APHF新加坡特別音樂會與口琴演出。",
+      "text": "Harmonic Bonds of the Asia-Pacific — Singapore Special Concert of 15th APHF(EAST TOP)\nHarmonic Bonds of the Asia-Pacific — Singapore Special Concert of 15th APHF(EAST TOP) features exquisite and virtuosic performances by the guest artist.Including Orchestra,Chromatic Solo,Ensemble etc.\nWith superb breathing control, delicate tone shaping and brilliant improvisation, the performer delivers expressive and mesmerizing harmonica music of top-tier professionalism.\nThe show is paired with stunning stage facilities. Soft, immersive stage lighting creates an elegant, cozy musical atmosphere, while high-fidelity sound equipment presents pure, balanced and layered audio effects. Brilliant performance skills paired with premium audiovisual craftsmanship bring the audience an immersive, upscale and unforgettable live music experience.\n#APHF#easttop#easttopharmonica#harmonica#chromaticharmonica#blues harmonica#music#concert",
+      "images": [
+        "https://i.ytimg.com/vi/eKhS5GA7xmY/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/eKhS5GA7xmY/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/3c9dc131c376a8800908.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_n6woqGpzLLWwgpxSsNU6BHY3vHsAtxc9_sllUOXG5ySg=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/91ae6836e4958d016a37.webp",
+      "source_initials": "EM",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "yt_easttopmusic:eKhS5GA7xmY"
+    },
+    {
+      "title": "Easttop Music｜Voices of the World — Jazz Night Concert of 15th APHF(EAST TOP) Voices of the World — Jazz Night Concert …",
+      "headline": "Voices of the World — Jazz Night Concert of 15th APHF(EAST TOP)",
+      "display_title": "Voices of the World — Jazz Night Concert of 15th APHF(EAST TOP)",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=WPWUVECjxB8",
+      "source_id": "yt_easttopmusic",
+      "source": "Easttop Music",
+      "source_system_name": "Easttop Harmonicas",
+      "source_profile_url": "https://www.youtube.com/channel/UCFhX-vhRULB63C3Y-77oZyw",
+      "country": "中國",
+      "region": "中國/江蘇/無錫/江陰",
+      "directory_entry_id": "watchlist-224",
+      "directory_entry_name": "Easttop Harmonicas",
+      "account": "https://www.youtube.com/channel/UCFhX-vhRULB63C3Y-77oZyw",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-08-09T01:34:42+00:00",
+      "posted_at_local": "2026-08-09 09:34",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-09T05:33:15.455968+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "音樂會",
+        "演出",
+        "影片"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "音樂會",
+        "演出",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴品牌公開發布之APHF爵士之夜音樂會影片，內容明確為口琴演出與音樂會。",
+      "text": "Voices of the World — Jazz Night Concert of 15th APHF(EAST TOP)\nVoices of the World — Jazz Night Concert of 15th APHF(EAST TOP) presents a cozy and immersive live music atmosphere. The stage is illuminated with soft, warm ambient lights, mainly featuring dim golden, deep blue and warm purple tones that perfectly fit the mellow and soulful vibe of jazz and blues. Gentle flowing light shifts and subtle spotlight tracking avoid harsh brightness, creating a hazy, romantic and retro stage texture that wraps up the whole venue.The performancer including Reyharp Balawan Indro,Marcos Coll,Dhimant Adak,Antonio Serrano,they play blues harmonica,chromatic harmonica.#APHF#easttop#easttopharmonica#harmonica#blues harmonica#chromaticharmonica #music",
+      "images": [
+        "https://i.ytimg.com/vi/WPWUVECjxB8/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/WPWUVECjxB8/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/92a5d7b8345a104a54a9.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_n6woqGpzLLWwgpxSsNU6BHY3vHsAtxc9_sllUOXG5ySg=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/91ae6836e4958d016a37.webp",
+      "source_initials": "EM",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "yt_easttopmusic:WPWUVECjxB8"
     },
     {
       "title": "臺灣口琴音樂節 Taiwan Harmonica Music Festival｜Instagram story @taiwanharmonica",

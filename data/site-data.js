@@ -2,6 +2,101 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-09",
   "entries": [
     {
+      "id": "watchlist-80",
+      "publicId": "80",
+      "name": "臺中國家歌劇院",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "臺中國家歌劇院 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-ntt.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/npac.ntt/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nationaltaichungtheater/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@nationaltaichungtheater"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-09T05:10:10+00:00",
+      "latestUpdateLocal": "2026-08-09 13:10",
+      "latestUpdateSource": "臺中國家歌劇院",
+      "latestUpdateUrl": "https://www.instagram.com/stories/nationaltaichungtheater/3959693002205169833/",
+      "avatarUrl": "/assets/source-avatars/c24e53f63455fddd8dca.webp",
+      "sourceInitials": "臺中",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_npac_ntt",
+          "name": "臺中國家歌劇院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/npac.ntt",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
+        },
+        {
+          "id": "threads_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "threads",
+          "type": "rss",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
+          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
+        },
+        {
+          "id": "yt_uctl1euke_x0w6tahecepgmq",
+          "name": "臺中國家歌劇院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-34",
       "publicId": "34",
       "name": "王衍華",
@@ -81,6 +176,78 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@keriw128",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-43",
+      "publicId": "43",
+      "name": "林裕豐",
+      "nameEn": "Yu-Feng Lin",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "胖擊系",
+      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
+      "summary": "臺灣口琴演奏者林裕豐，兼職教學與演出。",
+      "keywords": "林裕豐 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/yufeng/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yf__life/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@YFHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-09T03:29:32+00:00",
+      "latestUpdateLocal": "2026-08-09 11:29",
+      "latestUpdateSource": "林裕豐",
+      "latestUpdateUrl": "https://www.instagram.com/stories/yf__life/3959642372376354792/",
+      "avatarUrl": "/assets/source-avatars/7953cf28a4c5bd4dc0ac.webp",
+      "sourceInitials": "林裕",
+      "sourceTags": [
+        "演奏者",
+        "教學"
+      ],
+      "sourceSummary": "臺灣口琴演奏者林裕豐，兼職教學與演出。",
+      "sourceTagReason": "來源為個人，類別明確標示為「演奏者」，並有網站提供教學課程資訊。",
+      "monitorSources": [
+        {
+          "id": "ig_story_yf_life",
+          "name": "林裕豐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yf__life",
+          "profileUrl": "https://www.instagram.com/yf__life/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yf__life/story/0"
+        },
+        {
+          "id": "ig_yf_life",
+          "name": "林裕豐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yf__life",
+          "profileUrl": "https://www.instagram.com/yf__life/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_yfharmonica",
+          "name": "林裕豐",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@YFHarmonica",
           "feedUrl": ""
         }
       ]
@@ -514,6 +681,98 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "evelyn_harmonica",
           "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/evelyn_harmonica/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-224",
+      "publicId": "224",
+      "name": "Easttop Harmonicas",
+      "nameEn": "Easttop Harmonicas",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌/樂器製造商",
+      "country": "中國",
+      "region": "中國/江蘇/無錫/江陰",
+      "cityOrFocus": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節",
+      "structuredSummary": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節 / 口琴 / 器材品牌/活動主辦單位",
+      "summary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
+      "keywords": "Easttop EAST TOP Jiangsu East Musical Instrument APHF Huaxia Harmonica Festival 口琴 品牌",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://easttop-harmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/EasttopMusic/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/easttopharmonicas/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@easttopmusic"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@easttopharmonicaofficial"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-09T02:10:18+00:00",
+      "latestUpdateLocal": "2026-08-09 10:10",
+      "latestUpdateSource": "Easttop Harmonicas",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=eKhS5GA7xmY",
+      "avatarUrl": "/assets/source-avatars/e3f9b364fa18148f074e.webp",
+      "sourceInitials": "EH",
+      "sourceTags": [
+        "品牌",
+        "器材",
+        "活動資訊",
+        "音樂節",
+        "國際交流"
+      ],
+      "sourceSummary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
+      "sourceTagReason": "整合自 Easttop 官網、官方 Linktree、Instagram 與 YouTube 自介。",
+      "monitorSources": [
+        {
+          "id": "fb_easttopmusic",
+          "name": "Easttop Harmonicas",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/EasttopMusic",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_easttopharmonicas",
+          "name": "Easttop Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "easttopharmonicas",
+          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_easttopharmonicas",
+          "name": "Easttop Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "easttopharmonicas",
+          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/easttopharmonicas/story/0"
+        },
+        {
+          "id": "yt_easttopmusic",
+          "name": "Easttop Harmonicas",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@easttopmusic",
+          "feedUrl": ""
         }
       ]
     },
@@ -1610,78 +1869,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-43",
-      "publicId": "43",
-      "name": "林裕豐",
-      "nameEn": "Yu-Feng Lin",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "胖擊系",
-      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
-      "summary": "臺灣口琴演奏者林裕豐，兼職教學與演出。",
-      "keywords": "林裕豐 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/yufeng/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yf__life/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@YFHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-08T17:14:49+00:00",
-      "latestUpdateLocal": "2026-08-09 01:14",
-      "latestUpdateSource": "林裕豐",
-      "latestUpdateUrl": "https://www.instagram.com/stories/yf__life/3959332950182898690/",
-      "avatarUrl": "/assets/source-avatars/7953cf28a4c5bd4dc0ac.webp",
-      "sourceInitials": "林裕",
-      "sourceTags": [
-        "演奏者",
-        "教學"
-      ],
-      "sourceSummary": "臺灣口琴演奏者林裕豐，兼職教學與演出。",
-      "sourceTagReason": "來源為個人，類別明確標示為「演奏者」，並有網站提供教學課程資訊。",
-      "monitorSources": [
-        {
-          "id": "ig_story_yf_life",
-          "name": "林裕豐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yf__life",
-          "profileUrl": "https://www.instagram.com/yf__life/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yf__life/story/0"
-        },
-        {
-          "id": "ig_yf_life",
-          "name": "林裕豐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yf__life",
-          "profileUrl": "https://www.instagram.com/yf__life/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_yfharmonica",
-          "name": "林裕豐",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@YFHarmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-33",
       "publicId": "33",
       "name": "黃冠誌",
@@ -2585,101 +2772,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "damingtsai",
           "profileUrl": "https://www.instagram.com/damingtsai/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-80",
-      "publicId": "80",
-      "name": "臺中國家歌劇院",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "臺中國家歌劇院 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-ntt.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/npac.ntt/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nationaltaichungtheater/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@nationaltaichungtheater"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-08T13:52:31+00:00",
-      "latestUpdateLocal": "2026-08-08 21:52",
-      "latestUpdateSource": "臺中國家歌劇院",
-      "latestUpdateUrl": "https://www.instagram.com/stories/nationaltaichungtheater/3959231140254597366/",
-      "avatarUrl": "/assets/source-avatars/c24e53f63455fddd8dca.webp",
-      "sourceInitials": "臺中",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_npac_ntt",
-          "name": "臺中國家歌劇院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/npac.ntt",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
-        },
-        {
-          "id": "threads_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "threads",
-          "type": "rss",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
-          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
-        },
-        {
-          "id": "yt_uctl1euke_x0w6tahecepgmq",
-          "name": "臺中國家歌劇院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
-          "feedUrl": ""
         }
       ]
     },
@@ -4212,98 +4304,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-224",
-      "publicId": "224",
-      "name": "Easttop Harmonicas",
-      "nameEn": "Easttop Harmonicas",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "品牌/樂器製造商",
-      "country": "中國",
-      "region": "中國/江蘇/無錫/江陰",
-      "cityOrFocus": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節",
-      "structuredSummary": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節 / 口琴 / 器材品牌/活動主辦單位",
-      "summary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
-      "keywords": "Easttop EAST TOP Jiangsu East Musical Instrument APHF Huaxia Harmonica Festival 口琴 品牌",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://easttop-harmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/EasttopMusic/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/easttopharmonicas/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@easttopmusic"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@easttopharmonicaofficial"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-08T02:50:09+00:00",
-      "latestUpdateLocal": "2026-08-08 10:50",
-      "latestUpdateSource": "Easttop Harmonicas",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=kkwEsPEbRzU",
-      "avatarUrl": "/assets/source-avatars/e3f9b364fa18148f074e.webp",
-      "sourceInitials": "EH",
-      "sourceTags": [
-        "品牌",
-        "器材",
-        "活動資訊",
-        "音樂節",
-        "國際交流"
-      ],
-      "sourceSummary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
-      "sourceTagReason": "整合自 Easttop 官網、官方 Linktree、Instagram 與 YouTube 自介。",
-      "monitorSources": [
-        {
-          "id": "fb_easttopmusic",
-          "name": "Easttop Harmonicas",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/EasttopMusic",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_easttopharmonicas",
-          "name": "Easttop Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "easttopharmonicas",
-          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_easttopharmonicas",
-          "name": "Easttop Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "easttopharmonicas",
-          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/easttopharmonicas/story/0"
-        },
-        {
-          "id": "yt_easttopmusic",
-          "name": "Easttop Harmonicas",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@easttopmusic",
           "feedUrl": ""
         }
       ]

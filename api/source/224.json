@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T04:59:01.435082Z",
+  "generatedAt": "2026-08-09T05:33:29.678519Z",
   "source": {
     "id": 224,
     "slug": "easttop-harmonicas",
@@ -8,6 +8,34 @@
     "pageUrl": "https://harmonica.observe.tw/source/224-easttop-harmonicas/"
   },
   "items": [
+    {
+      "id": "post-2a66e98c40906005a65a1fbf",
+      "title": "Harmonic Bonds of the Asia-Pacific — Singapore Special Concert of 15th APHF(EAST TOP)",
+      "excerpt": "Harmonic Bonds of the Asia-Pacific — Singapore Special Concert of 15th APHF(EAST TOP) Harmonic Bonds of the Asia-Pacific — Singapore Special Concert of 15th APHF(EAST TOP) features exquisite and virtuosic performances by the guest artist.Including Orchestra,Chromatic Solo,Ensemb…",
+      "url": "https://www.youtube.com/watch?v=eKhS5GA7xmY",
+      "sourceName": "Easttop Harmonicas",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-09T02:10:18Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3c9dc131c376a8800908.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-ed67a1a3159b7db659afc5e4",
+      "title": "Voices of the World — Jazz Night Concert of 15th APHF(EAST TOP)",
+      "excerpt": "Voices of the World — Jazz Night Concert of 15th APHF(EAST TOP) Voices of the World — Jazz Night Concert of 15th APHF(EAST TOP) presents a cozy and immersive live music atmosphere. The stage is illuminated with soft, warm ambient lights, mainly featuring dim golden, deep blue an…",
+      "url": "https://www.youtube.com/watch?v=WPWUVECjxB8",
+      "sourceName": "Easttop Harmonicas",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-09T01:34:42Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/92a5d7b8345a104a54a9.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-4e4a3819f46fab282f5a511f",
       "title": "The Opening Ceremony of the 15th Asia Pacific Harmonica Art Week",
