@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 09 Aug 2026 05:33:30 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 06:06:24 +0000</lastBuildDate>
     <item>
       <title>臺中國家歌劇院</title>
       <link>https://www.npac-ntt.org/</link>
@@ -16,6 +16,28 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/臺中
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>國家兩廳院</title>
+      <link>https://npac-ntch.org/zh</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/31f9c79620bc0e35</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/臺北
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>菜鳥琴老師很菜</title>
+      <link>https://www.facebook.com/chin.diary</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/8a8c1e148b1195e7</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學
+國家：臺灣
+地區：臺灣/中彰投
+臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。</description>
     </item>
     <item>
       <title>王衍華</title>
@@ -425,17 +447,6 @@ Tag：演奏者
 Harmonica music virtuoso performer,composer,and educator from TAIWAN🎵 Champions Winner of WHF2009&amp;amp;2013🌟 Double Awards winner of ICCCH2021🌟 New Video⬇️. See the latest...</description>
     </item>
     <item>
-      <title>菜鳥琴老師很菜</title>
-      <link>https://www.facebook.com/chin.diary</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/8a8c1e148b1195e7</guid>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學
-國家：臺灣
-地區：臺灣/中彰投
-臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。</description>
-    </item>
-    <item>
       <title>林士傑</title>
       <link>https://www.facebook.com/lin.shi.jie.661489</link>
       <guid>https://harmonica.observe.tw/feeds/sources/a20d61bd03035c39</guid>
@@ -643,17 +654,6 @@ Tag：演奏者、半音階、重奏
 國家：臺灣
 地區：臺灣
 臺灣的半音階與重奏演出人員與評審，活動脈絡包含Judy’s、演出與評審。</description>
-    </item>
-    <item>
-      <title>國家兩廳院</title>
-      <link>https://npac-ntch.org/zh</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/31f9c79620bc0e35</guid>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/臺北
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>Lee Oskar</title>
