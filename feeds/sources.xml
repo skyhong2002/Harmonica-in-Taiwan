@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 09 Aug 2026 04:25:13 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 04:59:02 +0000</lastBuildDate>
     <item>
       <title>王衍華</title>
       <link>https://portaly.cc/yenhua_wang</link>
@@ -16,6 +16,17 @@ Tag：演奏者、半音階、重奏
 國家：臺灣
 地區：臺灣
 臺灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。</description>
+    </item>
+    <item>
+      <title>胖擊口琴樂團</title>
+      <link>https://linktr.ee/punch.harp</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c710aae1bf2f4665</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏
+國家：臺灣
+地區：臺灣
+臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。</description>
     </item>
     <item>
       <title>南里沙</title>
@@ -335,17 +346,6 @@ Tag：演奏者、教學、重奏
 國家：臺灣
 地區：臺灣
 臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。</description>
-    </item>
-    <item>
-      <title>胖擊口琴樂團</title>
-      <link>https://linktr.ee/punch.harp</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c710aae1bf2f4665</guid>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏
-國家：臺灣
-地區：臺灣
-臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。</description>
     </item>
     <item>
       <title>臺中國家歌劇院</title>
