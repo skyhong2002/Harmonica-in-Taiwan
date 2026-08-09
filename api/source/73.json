@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T02:12:54.676610Z",
+  "generatedAt": "2026-08-09T03:18:26.079678Z",
   "source": {
     "id": 73,
     "slug": "73",
     "name": "萬興國小口琴隊",
     "pageUrl": "https://harmonica.observe.tw/source/73/"
   },
-  "items": [
-    {
-      "id": "post-8b924d65183048b3b667012c",
-      "title": "暑假開始，老師及小朋友們也沒閒著，直接開啟暑訓之旅🎵💪",
-      "excerpt": "暑假開始，老師及小朋友們也沒閒著，直接開啟暑訓之旅🎵💪 每天認真練習、一次次磨合，雖然辛苦，但也在音樂裡慢慢累積實力與默契！ 暑假不只是放假，更是偷偷進步、為下一次舞台做好準備的時候！ 萬興國小口琴隊，暑訓加油🔥",
-      "url": "https://www.facebook.com/reel/1604459288084398/",
-      "sourceName": "萬興國小口琴隊",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-10T02:37:19Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/eaac6789e1a40cc8328f.webp",
-        "width": 800,
-        "height": 600
-      }
-    }
-  ]
+  "items": []
 }
