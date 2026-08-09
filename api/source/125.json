@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T06:06:23.129062Z",
+  "generatedAt": "2026-08-09T07:12:24.919571Z",
   "source": {
     "id": 125,
     "slug": "jens-bunge",
@@ -216,20 +216,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/3b41851b4b993925ebc0.webp",
         "width": 640,
         "height": 360
-      }
-    },
-    {
-      "id": "post-fbf57edae748045cf7fd9769",
-      "title": "Some snippets from our recording session at Greenroom Suite Studio Singapore this week. A tribute to Michel Legrand, wi…",
-      "excerpt": "Some snippets from our recording session at Greenroom Suite Studio Singapore this week. A tribute to Michel Legrand, with some well and some less know... Some snippets from our recording session at Greenroom Suite Studio Singapore this week. A tribute to Michel Legrand, with som…",
-      "url": "https://www.instagram.com/p/Damilm_PTc_/",
-      "sourceName": "Jens Bunge",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-10T06:33:20Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/9fdda3e352ed0f1c6f0f.webp",
-        "width": 640,
-        "height": 356
       }
     }
   ]
