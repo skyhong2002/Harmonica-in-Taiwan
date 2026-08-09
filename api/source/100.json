@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T11:05:16.733132Z",
+  "generatedAt": "2026-08-09T12:10:59.070368Z",
   "source": {
     "id": 100,
     "slug": "otis-tsao",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/100-otis-tsao/"
   },
   "items": [
+    {
+      "id": "post-958f913649f024e325f0050b",
+      "title": "OPEN JAM 8/13週四見～",
+      "excerpt": "OPEN JAM 8/13週四見～ ＊開聲音",
+      "url": "https://www.instagram.com/p/Db0NGyjyMcg/",
+      "sourceName": "曹小歐",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-09T10:17:40Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2adea5492ed57f39f136.webp",
+        "width": 800,
+        "height": 1423
+      }
+    },
     {
       "id": "post-487d1c975f348faa1ffad571",
       "title": "1.這張是在學麥可",
