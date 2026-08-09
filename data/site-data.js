@@ -1,5 +1,5 @@
 window.HARMONICA_OBSERVE_DATA = {
-  "generatedAt": "2026-08-09",
+  "generatedAt": "2026-08-10",
   "entries": [
     {
       "id": "watchlist-101",
@@ -1273,6 +1273,98 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-184",
+      "publicId": "184",
+      "name": "蔡明勳",
+      "nameEn": "Ming-Hsun Tsai",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "低音口琴/重奏/演出/音控",
+      "structuredSummary": "低音口琴/重奏/演出/音控 / 低音口琴/重奏 / 演出人員/音控",
+      "summary": "臺灣的低音口琴與重奏演出人員與音控，活動脈絡包含演出與音控。",
+      "keywords": "蔡明勳 Ming-Hsun Tsai 低音口琴 The Duet Judy's Harmonica Ensemble",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/MingHsunTsai830618/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/minnie.o6i8/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@minghsunTsai"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@minnie.o6i8"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-09T09:47:48+00:00",
+      "latestUpdateLocal": "2026-08-09 17:47",
+      "latestUpdateSource": "蔡明勳",
+      "latestUpdateUrl": "https://www.instagram.com/stories/minnie.o6i8/3959832756858922441/",
+      "avatarUrl": "/assets/source-avatars/b7291469db4f3e11a2f2.webp",
+      "sourceInitials": "蔡明",
+      "sourceTags": [
+        "演奏者",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_minghsuntsai830618",
+          "name": "蔡明勳",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/MingHsunTsai830618",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_minnie_o6i8",
+          "name": "蔡明勳",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "minnie.o6i8",
+          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_minnie_o6i8",
+          "name": "蔡明勳",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "minnie.o6i8",
+          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/minnie.o6i8/story/0"
+        },
+        {
+          "id": "threads_minnie_o6i8",
+          "name": "蔡明勳",
+          "platform": "threads",
+          "type": "rss",
+          "username": "minnie.o6i8",
+          "profileUrl": "https://www.threads.net/@minnie.o6i8",
+          "feedUrl": "https://rss.observe.tw/threads/minnie.o6i8"
+        },
+        {
+          "id": "yt_minghsuntsai",
+          "name": "蔡明勳",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@minghsunTsai",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-103",
       "publicId": "103",
       "name": "陳瑤容 Yora Chen",
@@ -1451,6 +1543,74 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-111",
+      "publicId": "111",
+      "name": "Lee Hangyeol 이한결",
+      "nameEn": "Lee Hangyeol",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "韓國口琴演奏/演出與教學/半音階爵士",
+      "structuredSummary": "韓國口琴演奏/演出與教學/半音階爵士 / 半音階/口琴 / 國際演出人員/教學者",
+      "summary": "韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。",
+      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica SIHF",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/gyeoli_94/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@gyeoli_94"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-09T07:28:07+00:00",
+      "latestUpdateLocal": "2026-08-09 15:28",
+      "latestUpdateSource": "Lee Hangyeol 이한결",
+      "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3959762438195211361/",
+      "avatarUrl": "/assets/source-avatars/f2b6c744032c522f8fc2.webp",
+      "sourceInitials": "LH",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "gyeoli_94",
+          "profileUrl": "https://www.instagram.com/gyeoli_94/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "gyeoli_94",
+          "profileUrl": "https://www.instagram.com/gyeoli_94/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/gyeoli_94/story/0"
+        },
+        {
+          "id": "yt_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@gyeoli_94",
           "feedUrl": ""
         }
       ]
@@ -3431,74 +3591,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-111",
-      "publicId": "111",
-      "name": "Lee Hangyeol 이한결",
-      "nameEn": "Lee Hangyeol",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "韓國口琴演奏/演出與教學/半音階爵士",
-      "structuredSummary": "韓國口琴演奏/演出與教學/半音階爵士 / 半音階/口琴 / 國際演出人員/教學者",
-      "summary": "韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。",
-      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica SIHF",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/gyeoli_94/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@gyeoli_94"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-09T00:31:26+00:00",
-      "latestUpdateLocal": "2026-08-09 08:31",
-      "latestUpdateSource": "Lee Hangyeol 이한결",
-      "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3959552710529724944/",
-      "avatarUrl": "/assets/source-avatars/f2b6c744032c522f8fc2.webp",
-      "sourceInitials": "LH",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "gyeoli_94",
-          "profileUrl": "https://www.instagram.com/gyeoli_94/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "gyeoli_94",
-          "profileUrl": "https://www.instagram.com/gyeoli_94/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/gyeoli_94/story/0"
-        },
-        {
-          "id": "yt_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@gyeoli_94",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-142",
       "publicId": "142",
       "name": "Howard Levy",
@@ -5096,98 +5188,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-184",
-      "publicId": "184",
-      "name": "蔡明勳",
-      "nameEn": "Ming-Hsun Tsai",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "低音口琴/重奏/演出/音控",
-      "structuredSummary": "低音口琴/重奏/演出/音控 / 低音口琴/重奏 / 演出人員/音控",
-      "summary": "臺灣的低音口琴與重奏演出人員與音控，活動脈絡包含演出與音控。",
-      "keywords": "蔡明勳 Ming-Hsun Tsai 低音口琴 The Duet Judy's Harmonica Ensemble",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/MingHsunTsai830618/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/minnie.o6i8/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@minghsunTsai"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@minnie.o6i8"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-08T05:12:04+00:00",
-      "latestUpdateLocal": "2026-08-08 13:12",
-      "latestUpdateSource": "蔡明勳",
-      "latestUpdateUrl": "https://www.instagram.com/stories/minnie.o6i8/3958969280653044786/",
-      "avatarUrl": "/assets/source-avatars/b7291469db4f3e11a2f2.webp",
-      "sourceInitials": "蔡明",
-      "sourceTags": [
-        "演奏者",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_minghsuntsai830618",
-          "name": "蔡明勳",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/MingHsunTsai830618",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_minnie_o6i8",
-          "name": "蔡明勳",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "minnie.o6i8",
-          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_minnie_o6i8",
-          "name": "蔡明勳",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "minnie.o6i8",
-          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/minnie.o6i8/story/0"
-        },
-        {
-          "id": "threads_minnie_o6i8",
-          "name": "蔡明勳",
-          "platform": "threads",
-          "type": "rss",
-          "username": "minnie.o6i8",
-          "profileUrl": "https://www.threads.net/@minnie.o6i8",
-          "feedUrl": "https://rss.observe.tw/threads/minnie.o6i8"
-        },
-        {
-          "id": "yt_minghsuntsai",
-          "name": "蔡明勳",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@minghsunTsai",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-4",
       "publicId": "4",
       "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
@@ -6322,7 +6322,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-06 21:53",
       "latestUpdateSource": "Rodrigo Eberienos",
       "latestUpdateUrl": "https://www.instagram.com/stories/rodrigoeberienos/3957805295661596415/",
-      "avatarUrl": "/assets/source-avatars/e6fd7c8515200c790e1b.webp",
+      "avatarUrl": "/assets/source-avatars/79e58e3878c6df28fc39.webp",
       "sourceInitials": "RE",
       "sourceTags": [
         "演奏者",

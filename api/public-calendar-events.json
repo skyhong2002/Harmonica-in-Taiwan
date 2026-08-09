@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-09T23:30:34+08:00",
+  "generatedAt": "2026-08-10T00:35:35+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 11,
+  "count": 9,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 32,
+      "cached": 20,
       "errors": 0
     }
   },
@@ -91,78 +91,6 @@
         "https://i.ytimg.com/vi/PA11sSFkJeA/maxresdefault.jpg"
       ],
       "image_url": "https://i.ytimg.com/vi/PA11sSFkJeA/maxresdefault.jpg"
-    },
-    {
-      "id": "ee9dae5241f521fb",
-      "title": "臺灣口琴音樂節",
-      "eventName": "臺灣口琴音樂節",
-      "source": "Judy’s Harmonica Ensemble 茱蒂口琴樂團",
-      "platform": "instagram",
-      "start": "2026-08-07",
-      "end": "2026-08-08",
-      "allDay": true,
-      "calendarType": "taiwan_physical",
-      "timezone": "Asia/Taipei",
-      "location": "新竹市文化局演藝廳",
-      "venue": "新竹市文化局演藝廳",
-      "city": "新竹市",
-      "details": "主辦／演出者：茱蒂口琴樂團 Judy's Harmonica Ensemble。貼文列出 08.07 的近期演出資訊，地點為新竹市文化局演藝廳。內容同時提到茱蒂口琴樂團演出與相關標籤。",
-      "evidenceUrl": "https://www.instagram.com/p/DbYdBiVuM0U/",
-      "confidence": 0.95,
-      "calendarReview": {
-        "include": true,
-        "country": "臺灣",
-        "eventMode": "taiwan_physical",
-        "timezone": "Asia/Taipei",
-        "candidateDateMatches": true,
-        "eventName": "臺灣口琴音樂節",
-        "venue": "新竹市文化局演藝廳",
-        "city": "新竹市",
-        "details": "主辦／演出者：茱蒂口琴樂團 Judy's Harmonica Ensemble。貼文列出 08.07 的近期演出資訊，地點為新竹市文化局演藝廳。內容同時提到茱蒂口琴樂團演出與相關標籤。",
-        "reason": "候選日期 2026-08-07 與貼文中的 08.07 活動一致，且為臺灣實體口琴活動。",
-        "confidence": 0.95
-      },
-      "postedAt": "2026-07-30 00:15",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/758351015_18018663092880937_9015358826940879542_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=Mzk1MjAzNjMyMTk1NzU2MzY2ODE4MDE4NjYzMDg2ODgwOTM3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjYwNC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=DKwP2Y1_pccQ7kNvwEQdjXm&_nc_oc=AdqgT3CAGot5X7TW1eK_53aoqmVATpgb5A4Gun-qDVPuuQmZBPQJmJMZcVcp5D5S06k&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=4cFNjVQbDoxb-8Kaglh_uQ&_nc_ss=7a22e&oh=00_AQHu-H5VIa-iDuUw5THuZNSqDCm8qqbtuY8PkQuIzeZQfA&oe=6A709911"
-      ],
-      "image_url": "/assets/feed-images/ae1f7c984c46d25d48ff.webp"
-    },
-    {
-      "id": "8436208ae40d8444",
-      "title": "午間音樂會",
-      "eventName": "午間音樂會",
-      "source": "臺灣口琴音樂節 THMF",
-      "platform": "facebook",
-      "start": "2026-08-07T12:30:00+08:00",
-      "end": "2026-08-07T14:30:00+08:00",
-      "allDay": false,
-      "calendarType": "taiwan_physical",
-      "timezone": "Asia/Taipei",
-      "location": "活動中心 B1 聯誼廳",
-      "venue": "活動中心 B1 聯誼廳",
-      "city": "",
-      "details": "主辦／演出者：臺灣口琴音樂節 THMF。2026 臺灣口琴音樂節期間的午間演出，自由入場，座位有限（80張椅子）。候選日期 8/7（五）12:30-13:30 演出者為 Steffi and Friends、李志華、Do Not Disturb。",
-      "evidenceUrl": "https://www.facebook.com/twharmonica/posts/pfbid02cfUiUQecZ6P7c2MXY6MzYxSVT77i7mj4n5kGzY5cdosa29NJiNinzfpYYiNxxqXNl",
-      "confidence": 0.97,
-      "calendarReview": {
-        "include": true,
-        "country": "臺灣",
-        "eventMode": "taiwan_physical",
-        "timezone": "Asia/Taipei",
-        "candidateDateMatches": true,
-        "eventName": "午間音樂會",
-        "venue": "活動中心 B1 聯誼廳",
-        "city": "",
-        "details": "主辦／演出者：臺灣口琴音樂節 THMF。2026 臺灣口琴音樂節期間的午間演出，自由入場，座位有限（80張椅子）。候選日期 8/7（五）12:30-13:30 演出者為 Steffi and Friends、李志華、Do Not Disturb。",
-        "reason": "貼文明確寫出 8/7 12:30-13:30 的午間音樂會，地點在活動中心 B1 聯誼廳，屬臺灣實體口琴活動。",
-        "confidence": 0.97
-      },
-      "postedAt": "2026-07-19 14:16",
-      "images": [
-        "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/751819210_1049356434138082_8553289026411067762_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx955x1100&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=nXZBR7rYRuYQ7kNvwE67DmQ&_nc_oc=AdoIs1mw8_AcI4yI2qv97dZr-5Hgc_BQYjoYVD0-hSjAou-h3sqQr_eUx5Tpu7ZtGtA&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=P0SKbVpNnV7M6fEv-oOBZQ&_nc_ss=72289&oh=00_AQAlScItq_5DBQZcOwA8kub1QuWnnQY1qR22DyxBgKdjsg&oe=6A633C92"
-      ],
-      "image_url": "/assets/feed-images/c1b0354f78d9c5a9f661.webp"
     },
     {
       "id": "290ed9103b60d6e4",

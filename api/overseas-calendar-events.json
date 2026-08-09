@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-09T23:30:34+08:00",
+  "generatedAt": "2026-08-10T00:35:35+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
   "count": 8,
@@ -15,7 +15,7 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 32,
+      "cached": 20,
       "errors": 0
     }
   },
