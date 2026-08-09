@@ -250,6 +250,71 @@
       ]
     },
     {
+      "id": "watchlist-42",
+      "publicId": "42",
+      "name": "王心禾",
+      "nameEn": "Hsin-Ho Wang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "胖擊系",
+      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
+      "keywords": "王心禾 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_wang/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@harmonica_wang"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-09T18:16:46+00:00",
+      "latestUpdateLocal": "2026-08-10 02:16",
+      "latestUpdateSource": "王心禾",
+      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_wang/3960088907685762881/",
+      "avatarUrl": "/assets/source-avatars/cc50275a452448e7cd9a.webp",
+      "sourceInitials": "王心",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_harmonica_wang",
+          "name": "王心禾",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.instagram.com/harmonica_wang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_wang",
+          "name": "王心禾",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.instagram.com/harmonica_wang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_wang/story/0"
+        },
+        {
+          "id": "threads_harmonica_wang",
+          "name": "王心禾",
+          "platform": "threads",
+          "type": "rss",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.threads.net/@harmonica_wang",
+          "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -2783,71 +2848,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/mandy730508",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-42",
-      "publicId": "42",
-      "name": "王心禾",
-      "nameEn": "Hsin-Ho Wang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "胖擊系",
-      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
-      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
-      "keywords": "王心禾 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/harmonica_wang/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@harmonica_wang"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-09T05:38:37+00:00",
-      "latestUpdateLocal": "2026-08-09 13:38",
-      "latestUpdateSource": "王心禾",
-      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_wang/3959707381462701796/",
-      "avatarUrl": "/assets/source-avatars/cc50275a452448e7cd9a.webp",
-      "sourceInitials": "王心",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_harmonica_wang",
-          "name": "王心禾",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "harmonica_wang",
-          "profileUrl": "https://www.instagram.com/harmonica_wang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_harmonica_wang",
-          "name": "王心禾",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "harmonica_wang",
-          "profileUrl": "https://www.instagram.com/harmonica_wang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_wang/story/0"
-        },
-        {
-          "id": "threads_harmonica_wang",
-          "name": "王心禾",
-          "platform": "threads",
-          "type": "rss",
-          "username": "harmonica_wang",
-          "profileUrl": "https://www.threads.net/@harmonica_wang",
-          "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
         }
       ]
     },

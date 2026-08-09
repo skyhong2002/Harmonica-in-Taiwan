@@ -73,6 +73,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/42-hsin-ho-wang/</loc>
+    <lastmod>2026-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/58-minami-risa/</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -248,12 +254,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/11/</loc>
-    <lastmod>2026-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/42-hsin-ho-wang/</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
