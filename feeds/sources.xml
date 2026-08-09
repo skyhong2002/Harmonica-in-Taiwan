@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 09 Aug 2026 09:25:29 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 09:59:07 +0000</lastBuildDate>
+    <item>
+      <title>中山醫藍韻口琴社</title>
+      <link>https://powerup.csmu.edu.tw/Act/act_Info/c75b7f5a-53e4-4bf9-b3d9-5af47d787fba</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/edff637b42d1d782</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：學校社團
+Tag：學生社團、大專社團
+國家：臺灣
+地區：臺灣/臺中
+臺灣的口琴學校社團。</description>
+    </item>
     <item>
       <title>陳瑤容 Yora Chen</title>
       <link>https://portaly.cc/YoraChen</link>
@@ -16,6 +27,17 @@ Tag：演奏者
 國家：臺灣
 地區：臺灣
 臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。</description>
+    </item>
+    <item>
+      <title>Younghoon Cho</title>
+      <link>https://linktr.ee/hoontobe</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/2a1ec747c34bfb28</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、合奏、國際交流
+國家：韓國
+地區：韓國
+韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。</description>
     </item>
     <item>
       <title>張筑婷</title>
@@ -82,6 +104,17 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/臺中
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>梁承熹 Kelvin Leung</title>
+      <link>https://harmonica-kelvin.weebly.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/fbf9a193b1b32198</guid>
+      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：香港
+地區：香港
+香港半音階口琴演奏者，活躍於國際音樂節演出交流。</description>
     </item>
     <item>
       <title>國家兩廳院</title>
@@ -337,17 +370,6 @@ Tag：演奏者、半音階、國際交流
 韓國半音階口琴演奏家，活躍於國際舞台。</description>
     </item>
     <item>
-      <title>Younghoon Cho</title>
-      <link>https://linktr.ee/hoontobe</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/2a1ec747c34bfb28</guid>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、合奏、國際交流
-國家：韓國
-地區：韓國
-韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。</description>
-    </item>
-    <item>
       <title>Boris Plotnikov</title>
       <link>https://borisplotnikov.ru/en</link>
       <guid>https://harmonica.observe.tw/feeds/sources/b9affa11fa2aaf4c</guid>
@@ -557,17 +579,6 @@ Tag：團體樂團、十孔、國際交流
 法國的十孔、藍調口琴、吉他與人聲國際演出團體，活動脈絡包含WHF 2025、吉他與歌唱與Golden Melody ambassador。</description>
     </item>
     <item>
-      <title>梁承熹 Kelvin Leung</title>
-      <link>https://harmonica-kelvin.weebly.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/fbf9a193b1b32198</guid>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：香港
-地區：香港
-香港半音階口琴演奏者，活躍於國際音樂節演出交流。</description>
-    </item>
-    <item>
       <title>Filip Jers</title>
       <link>https://www.filipjers.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/e1ed5a88d3ff4ee4</guid>
@@ -599,17 +610,6 @@ Tag：演奏者、重奏
 國家：臺灣
 地區：臺灣
 臺灣的低音口琴與重奏演出人員與音控，活動脈絡包含演出與音控。</description>
-    </item>
-    <item>
-      <title>中山醫藍韻口琴社</title>
-      <link>https://powerup.csmu.edu.tw/Act/act_Info/c75b7f5a-53e4-4bf9-b3d9-5af47d787fba</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/edff637b42d1d782</guid>
-      <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：學校社團
-Tag：學生社團、大專社團
-國家：臺灣
-地區：臺灣/臺中
-臺灣的口琴學校社團。</description>
     </item>
     <item>
       <title>茱蒂口琴樂團 Judy's Harmonica Ensemble</title>
