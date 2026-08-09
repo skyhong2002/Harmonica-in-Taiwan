@@ -3628,7 +3628,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-09 05:42",
       "latestUpdateSource": "Howard Levy",
       "latestUpdateUrl": "https://www.instagram.com/stories/howardlevyland/3959549834260205337/",
-      "avatarUrl": "/assets/source-avatars/1682fdfba902227c66a7.webp",
+      "avatarUrl": "/assets/source-avatars/9a4b3e7057a383cd565d.webp",
       "sourceInitials": "HL",
       "sourceTags": [
         "演奏者",
