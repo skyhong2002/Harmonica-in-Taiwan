@@ -33,7 +33,7 @@
       "calendarId": "04afd340280f48bd593a1a7949a0a3a3e288dcf970278ca21f2ad3e32fafdc7e@group.calendar.google.com",
       "calendarKey": "online",
       "calendarName": "線上口琴活動",
-      "created": 0,
+      "created": 1,
       "deleted": 0,
       "duplicatesDeleted": 0,
       "eventMode": "online",
@@ -41,18 +41,18 @@
       "kept": 1,
       "metadataUpdated": true,
       "status": "ok",
-      "updated": 1
+      "updated": 0
     }
   ],
   "client": "google-api-python-client",
-  "created": 2,
+  "created": 3,
   "deleted": 0,
   "duplicatesDeleted": 0,
-  "generatedAt": "2026-08-09T13:50:01.789940+00:00",
+  "generatedAt": "2026-08-09T14:57:37.867385+00:00",
   "kept": 20,
   "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/google-calendar-sync.lock",
   "message": "Google Calendar sync completed for 3/3 calendars.",
   "status": "ok",
-  "updated": 18,
+  "updated": 17,
   "version": 3
 }
