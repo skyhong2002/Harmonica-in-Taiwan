@@ -2,6 +2,91 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-09",
   "entries": [
     {
+      "id": "watchlist-49",
+      "publicId": "49",
+      "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+      "nameEn": "Aiden N Evelyn",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "二重奏/影片/THMF",
+      "structuredSummary": "二重奏/影片/THMF / 半音階/重奏 / 國際演出團體/二重奏",
+      "summary": "馬來西亞的半音階與重奏國際演出團體與二重奏，活動脈絡包含二重奏、影片與THMF。",
+      "keywords": "Aiden N Evelyn Aiden Soon Evelyn Choong harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/aidennevelyn"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/AidenNEvelyn/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/aidennevelyn/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/aidennevelyn"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-09T09:58:17+00:00",
+      "latestUpdateLocal": "2026-08-09 17:58",
+      "latestUpdateSource": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+      "latestUpdateUrl": "https://www.instagram.com/p/Db0KvD1GoDK/",
+      "avatarUrl": "/assets/source-avatars/82a1bd5f02d771a40f46.webp",
+      "sourceInitials": "ANE",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_aidennevelyn",
+          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/AidenNEvelyn",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_aidennevelyn",
+          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "aidennevelyn",
+          "profileUrl": "https://www.instagram.com/aidennevelyn/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_aidennevelyn",
+          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "aidennevelyn",
+          "profileUrl": "https://www.instagram.com/aidennevelyn/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/aidennevelyn/story/0"
+        },
+        {
+          "id": "yt_aidennevelyn",
+          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/aidennevelyn",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-187",
       "publicId": "187",
       "name": "中山醫藍韻口琴社",
@@ -895,6 +980,89 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-95",
+      "publicId": "95",
+      "name": "韋笙堡口琴 Weissenberg Harmonicas",
+      "nameEn": "Weissenberg Harmonicas",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "品牌/樂器商",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "口琴製造/器材/產品資訊",
+      "structuredSummary": "口琴製造/器材/產品資訊 / 口琴 / 器材品牌",
+      "summary": "臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。",
+      "keywords": "韋笙堡 Weissenberg Harmonicas 口琴 臺灣 Made in Taiwan",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.weissenbergwind.com/tw/product_list.php?type=4"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Weissenberg.Harmonicas/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weissenbergtw/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/weissenberg1979"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-09T04:12:41+00:00",
+      "latestUpdateLocal": "2026-08-09 12:12",
+      "latestUpdateSource": "韋笙堡口琴 Weissenberg Harmonicas",
+      "latestUpdateUrl": "https://www.instagram.com/stories/weissenbergtw/3959664070425151201/",
+      "avatarUrl": "/assets/source-avatars/82dd9e573618898bf496.webp",
+      "sourceInitials": "WH",
+      "sourceTags": [
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_weissenberg_harmonicas",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Weissenberg.Harmonicas",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weissenbergtw",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weissenbergtw",
+          "profileUrl": "https://www.instagram.com/weissenbergtw/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weissenbergtw/story/0"
+        },
+        {
+          "id": "ig_weissenbergtw",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weissenbergtw",
+          "profileUrl": "https://www.instagram.com/weissenbergtw/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_weissenberg1979",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/weissenberg1979",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-79",
       "publicId": "79",
       "name": "國家兩廳院",
@@ -1614,7 +1782,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-09 10:47",
       "latestUpdateSource": "南里沙",
       "latestUpdateUrl": "https://x.com/minami_risa/status/2086283093024116868",
-      "avatarUrl": "/assets/source-avatars/d4ddc4aa7561b64ea9b4.webp",
+      "avatarUrl": "/assets/source-avatars/22fb082262f2ae5a4b00.webp",
       "sourceInitials": "南里",
       "sourceTags": [
         "演奏者",
@@ -1666,6 +1834,61 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@minamirisa",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-222",
+      "publicId": "222",
+      "name": "Do Not Disturb Harmonica Ensemble",
+      "nameEn": "Do Not Disturb Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/公演/新生代團體",
+      "structuredSummary": "重奏/公演/新生代團體 / 半音階/低音/和弦/口琴重奏 / 演出團體",
+      "summary": "臺灣的半音階、低音、和弦與口琴重奏演出團體，活動脈絡包含重奏、公演與新生代團體。",
+      "keywords": "Do Not Disturb Harmonica Ensemble donotdisturbharmonicaensemble 口琴 重奏 THMF 臺灣口琴音樂節",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/donotdisturbharmonicaensemble/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-09T02:27:57+00:00",
+      "latestUpdateLocal": "2026-08-09 10:27",
+      "latestUpdateSource": "Do Not Disturb Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/stories/donotdisturbharmonicaensemble/3959611354701082369/",
+      "avatarUrl": "/assets/source-avatars/22da01f14949bd3fc02b.webp",
+      "sourceInitials": "DND",
+      "sourceTags": [
+        "團體樂團",
+        "音樂節",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_donotdisturbharmonicaensemble",
+          "name": "Do Not Disturb Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "donotdisturbharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_donotdisturbharmonicaensemble",
+          "name": "Do Not Disturb Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "donotdisturbharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/donotdisturbharmonicaensemble/story/0"
         }
       ]
     },
@@ -3981,61 +4204,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-222",
-      "publicId": "222",
-      "name": "Do Not Disturb Harmonica Ensemble",
-      "nameEn": "Do Not Disturb Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/公演/新生代團體",
-      "structuredSummary": "重奏/公演/新生代團體 / 半音階/低音/和弦/口琴重奏 / 演出團體",
-      "summary": "臺灣的半音階、低音、和弦與口琴重奏演出團體，活動脈絡包含重奏、公演與新生代團體。",
-      "keywords": "Do Not Disturb Harmonica Ensemble donotdisturbharmonicaensemble 口琴 重奏 THMF 臺灣口琴音樂節",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/donotdisturbharmonicaensemble/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-08T10:10:27+00:00",
-      "latestUpdateLocal": "2026-08-08 18:10",
-      "latestUpdateSource": "Do Not Disturb Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/stories/donotdisturbharmonicaensemble/3959119360207870140/",
-      "avatarUrl": "/assets/source-avatars/22da01f14949bd3fc02b.webp",
-      "sourceInitials": "DND",
-      "sourceTags": [
-        "團體樂團",
-        "音樂節",
-        "半音階",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_donotdisturbharmonicaensemble",
-          "name": "Do Not Disturb Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "donotdisturbharmonicaensemble",
-          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_donotdisturbharmonicaensemble",
-          "name": "Do Not Disturb Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "donotdisturbharmonicaensemble",
-          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/donotdisturbharmonicaensemble/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-88",
       "publicId": "88",
       "name": "藍波口琴教室",
@@ -5640,89 +5808,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-95",
-      "publicId": "95",
-      "name": "韋笙堡口琴 Weissenberg Harmonicas",
-      "nameEn": "Weissenberg Harmonicas",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "品牌/樂器商",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "口琴製造/器材/產品資訊",
-      "structuredSummary": "口琴製造/器材/產品資訊 / 口琴 / 器材品牌",
-      "summary": "臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。",
-      "keywords": "韋笙堡 Weissenberg Harmonicas 口琴 臺灣 Made in Taiwan",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.weissenbergwind.com/tw/product_list.php?type=4"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Weissenberg.Harmonicas/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weissenbergtw/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/weissenberg1979"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-07T04:59:30+00:00",
-      "latestUpdateLocal": "2026-08-07 12:59",
-      "latestUpdateSource": "韋笙堡口琴 Weissenberg Harmonicas",
-      "latestUpdateUrl": "https://www.instagram.com/stories/weissenbergtw/3958238170743695619/",
-      "avatarUrl": "/assets/source-avatars/82dd9e573618898bf496.webp",
-      "sourceInitials": "WH",
-      "sourceTags": [
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_weissenberg_harmonicas",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Weissenberg.Harmonicas",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_weissenbergtw",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weissenbergtw",
-          "profileUrl": "https://www.instagram.com/weissenbergtw/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weissenbergtw/story/0"
-        },
-        {
-          "id": "ig_weissenbergtw",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weissenbergtw",
-          "profileUrl": "https://www.instagram.com/weissenbergtw/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_weissenberg1979",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/weissenberg1979",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-225",
       "publicId": "225",
       "name": "408 Harmonica Ensemble",
@@ -5964,91 +6049,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_profile",
           "username": "taro_senga",
           "profileUrl": "https://www.instagram.com/taro_senga/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-49",
-      "publicId": "49",
-      "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
-      "nameEn": "Aiden N Evelyn",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "二重奏/影片/THMF",
-      "structuredSummary": "二重奏/影片/THMF / 半音階/重奏 / 國際演出團體/二重奏",
-      "summary": "馬來西亞的半音階與重奏國際演出團體與二重奏，活動脈絡包含二重奏、影片與THMF。",
-      "keywords": "Aiden N Evelyn Aiden Soon Evelyn Choong harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/aidennevelyn"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/AidenNEvelyn/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/aidennevelyn/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/aidennevelyn"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-06T15:06:28+00:00",
-      "latestUpdateLocal": "2026-08-06 23:06",
-      "latestUpdateSource": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
-      "latestUpdateUrl": "https://www.instagram.com/stories/aidennevelyn/3957818796597350305/",
-      "avatarUrl": "/assets/source-avatars/82a1bd5f02d771a40f46.webp",
-      "sourceInitials": "ANE",
-      "sourceTags": [
-        "團體樂團",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_aidennevelyn",
-          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/AidenNEvelyn",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_aidennevelyn",
-          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "aidennevelyn",
-          "profileUrl": "https://www.instagram.com/aidennevelyn/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_aidennevelyn",
-          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "aidennevelyn",
-          "profileUrl": "https://www.instagram.com/aidennevelyn/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/aidennevelyn/story/0"
-        },
-        {
-          "id": "yt_aidennevelyn",
-          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/aidennevelyn",
           "feedUrl": ""
         }
       ]
