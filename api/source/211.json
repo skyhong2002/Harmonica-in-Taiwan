@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T20:09:00.361238Z",
+  "generatedAt": "2026-08-10T21:19:23.972462Z",
   "source": {
     "id": 211,
     "slug": "nus-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/211-nus-harmonica/"
   },
   "items": [
+    {
+      "id": "post-b181798bf2bd8a4ddaee7f16",
+      "title": "🎶 Come say hi to NUS Harmonica at Student Life Fair!",
+      "excerpt": "🎶 Come say hi to NUS Harmonica at Student Life Fair! Curious about what a harmonica orchestra is all about? Drop by our booth to discover the world of harmonica music and meet the people behind it! 🗓12 - 13 August 2026 📍Booth A-12 (SRC Level 1, beside Octobox) Visit our booth to…",
+      "url": "https://www.instagram.com/p/Db2WCXDIEtz/",
+      "sourceName": "新加坡國立大學口琴社",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-10T06:25:29Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3ff1e8687e437ac6cccf.webp",
+        "width": 800,
+        "height": 1067
+      }
+    },
     {
       "id": "post-08fc001e92086fe5100a339a",
       "title": "Introducing NUS Harmonica AY26/27’s EXCOs ✨",

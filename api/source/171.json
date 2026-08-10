@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T20:09:00.361238Z",
+  "generatedAt": "2026-08-10T21:19:23.972462Z",
   "source": {
     "id": 171,
     "slug": "society-for-the-preservation-and-advancement-of-the-harmonica",
@@ -8,6 +8,34 @@
     "pageUrl": "https://harmonica.observe.tw/source/171-society-for-the-preservation-and-advancement-of-the-harmonica/"
   },
   "items": [
+    {
+      "id": "post-4cfed4b1a57edae429f9432e",
+      "title": "Two more days till we get a few lessons from some of the masters!",
+      "excerpt": "Two more days till we get a few lessons from some of the masters! #joinus #spah #harmonica #harmonicalife",
+      "url": "https://www.instagram.com/p/Db3IxpZqr4B/",
+      "sourceName": "口琴保存與推廣協會 SPAH",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-10T13:45:24Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c29edb555594a2194270.webp",
+        "width": 800,
+        "height": 800
+      }
+    },
+    {
+      "id": "post-5afbc3bc879460eaf49e3978",
+      "title": "3 days!",
+      "excerpt": "3 days! #joinus #spah #harmonicalife #harmonicamaster",
+      "url": "https://www.instagram.com/p/Db0vGppK1w3/",
+      "sourceName": "口琴保存與推廣協會 SPAH",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-09T15:15:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b4a705614688d5b51058.webp",
+        "width": 800,
+        "height": 800
+      }
+    },
     {
       "id": "post-991dcfd8d3dc9ad92bffd257",
       "title": "4 days till we make music together!",

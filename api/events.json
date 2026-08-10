@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 637,
+  "count": 638,
   "items": [
     {
       "title": "Santiago Alvarez｜MÚSICA EN EL BORGES Chúcara Trío El folclore y el tango vuelven a encontrarse en una novedosa y fascin…",
@@ -724,6 +724,86 @@
         "公開活動"
       ],
       "key": "ig_aidennevelyn:https://www.instagram.com/p/Db2_ymxiXl7/"
+    },
+    {
+      "title": "新加坡國立大學口琴社｜🎶 Come say hi to NUS Harmonica at Student Life Fair! Curious about what a harmonica orchestra is all about? …",
+      "headline": "🎶 Come say hi to NUS Harmonica at Student Life Fair!",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/Db2WCXDIEtz/",
+      "source_id": "ig_nusharmonica",
+      "source": "新加坡國立大學口琴社",
+      "source_system_name": "新加坡國立大學口琴社",
+      "source_profile_url": "https://www.instagram.com/nusharmonica/",
+      "country": "新加坡",
+      "region": "新加坡/肯特崗",
+      "directory_entry_id": "watchlist-211",
+      "directory_entry_name": "新加坡國立大學口琴社",
+      "account": "nusharmonica",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Mon, 10 Aug 2026 06:25:29 GMT",
+      "posted_at_local": "2026-08-10 14:25",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-10T21:19:09.507023+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/nusharmonica",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "學生社團",
+        "招生",
+        "交流",
+        "演出"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "學生社團",
+        "招生",
+        "交流",
+        "演出"
+      ],
+      "llm_categories": [
+        "student-clubs",
+        "events"
+      ],
+      "llm_reason": "NUS口琴社迎新社博，含招新、交流與現場演出，屬口琴社團公開更新。",
+      "text": "🎶 Come say hi to NUS Harmonica at Student Life Fair!\nCurious about what a harmonica orchestra is all about? Drop by our booth to discover the world of harmonica music and meet the people behind it!\n🗓12 - 13 August 2026\n📍Booth A-12 (SRC Level 1, beside Octobox)\nVisit our booth to:\n🎵 Learn more about NUS Harmonica and what we do\n💬 Chat with our members and find out more about our culture\n🎼 Check out the different kinds of harmonica we play\n📱Join our welcome tea group chat to stay updated\nDon’t miss our live small group performances!\n🗓 12 August 2026\n🕐 10:45 - 11:05 am\nStop by our booth, catch our performance, and say hello! We can’t wait to meet you! 💙\n#SLF2026 #NUS #NUSSU",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/766723895_18386774914164131_3757511738836245087_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk2MDQ0OTg0MTUyOTYzNzc0Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjExNi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=1dn9Dbt_6iEQ7kNvwGSKLG8&_nc_oc=AdrEY1876YyHrTwGbnp6pvS_JLOcG3CMxO6Lo218dWreyXv74wKG_amy2eZRkOG1adA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=-35r_IOkmbhvM0BfvrMNkw&_nc_ss=7a22e&oh=00_AQECOi9Z30N7TnEBgWVMxHNc0rxTACouY1y3o6vvvbxTRw&oe=6A7FFC87"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/766723895_18386774914164131_3757511738836245087_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk2MDQ0OTg0MTUyOTYzNzc0Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMjExNi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=1dn9Dbt_6iEQ7kNvwGSKLG8&_nc_oc=AdrEY1876YyHrTwGbnp6pvS_JLOcG3CMxO6Lo218dWreyXv74wKG_amy2eZRkOG1adA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=-35r_IOkmbhvM0BfvrMNkw&_nc_ss=7a22e&oh=00_AQECOi9Z30N7TnEBgWVMxHNc0rxTACouY1y3o6vvvbxTRw&oe=6A7FFC87",
+      "image_url": "/assets/feed-images/3ff1e8687e437ac6cccf.webp",
+      "image_width": 800,
+      "image_height": 1067,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/277821478_1022532448355045_173790844923276335_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=105&_nc_oc=Q6cZ2gHdNGTGMexHarwSMVNWn2Rga8b34WIvYo4k2KARnr6Sl8Xy31X0RMoDQ2bxy-fJ_zg&_nc_ohc=_cMFr7PHR4MQ7kNvwGLaQxP&_nc_gid=-vxHCRx3zPdKgPQg4DjgRA&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQGPsmY86vqMeKRNdiJWcAm7AtDq8SgHDjfdEwfkYwgZcA&oe=6A800550&_nc_sid=ee9879",
+      "avatar_url": "/assets/source-avatars/823ccdfa502d1d0bab3e.webp",
+      "source_initials": "新加",
+      "categories": [
+        "posts-videos",
+        "student-clubs",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "學生社團",
+        "公開活動"
+      ],
+      "key": "ig_nusharmonica:https://www.instagram.com/p/Db2WCXDIEtz/"
     },
     {
       "title": "臺灣口琴音樂節 Taiwan Harmonica Music Festival｜Instagram story @taiwanharmonica",
