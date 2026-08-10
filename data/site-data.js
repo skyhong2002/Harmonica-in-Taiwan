@@ -2,6 +2,179 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-11",
   "entries": [
     {
+      "id": "watchlist-107",
+      "publicId": "107",
+      "name": "Konstantin Reinfeld",
+      "nameEn": "Konstantin Reinfeld",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "德國",
+      "region": "德國",
+      "cityOrFocus": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作",
+      "structuredSummary": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作 / 半音階/十孔 / 國際演出人員/製作人/教育者",
+      "summary": "德國的半音階與十孔國際演出人員、製作人與教育者，活動脈絡包含OPUS Klassik得獎、國際獨奏與製作與教育。",
+      "keywords": "Konstantin Reinfeld harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.konstantinreinfeld.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/konstantinreinfeldofficial"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/konstantin_reinfeld/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@KonstantinReinfeld"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-10T17:48:06+00:00",
+      "latestUpdateLocal": "2026-08-11 01:48",
+      "latestUpdateSource": "Konstantin Reinfeld",
+      "latestUpdateUrl": "https://www.instagram.com/stories/konstantin_reinfeld/3960799316574734267/",
+      "avatarUrl": "/assets/source-avatars/7f55bcace9d81e8ee2e4.webp",
+      "sourceInitials": "KR",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_konstantinreinfeldofficial",
+          "name": "Konstantin Reinfeld",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/konstantinreinfeldofficial",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_konstantin_reinfeld",
+          "name": "Konstantin Reinfeld",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "konstantin_reinfeld",
+          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_konstantin_reinfeld",
+          "name": "Konstantin Reinfeld",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "konstantin_reinfeld",
+          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/konstantin_reinfeld/story/0"
+        },
+        {
+          "id": "yt_konstantinreinfeld",
+          "name": "Konstantin Reinfeld",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@KonstantinReinfeld",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-67",
+      "publicId": "67",
+      "name": "Marcos Coll",
+      "nameEn": "Marcos Coll",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "西班牙",
+      "region": "西班牙",
+      "cityOrFocus": "十孔/藍調",
+      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
+      "summary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
+      "keywords": "Marcos Coll harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://marcoscoll.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/marcoscollharp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/marcoscollgonzalez/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-10T17:31:46+00:00",
+      "latestUpdateLocal": "2026-08-11 01:31",
+      "latestUpdateSource": "Marcos Coll",
+      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3960791073978600260/",
+      "avatarUrl": "/assets/source-avatars/84fc07e5aec602bc2a41.webp",
+      "sourceInitials": "MC",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流",
+        "音樂會",
+        "演出"
+      ],
+      "sourceSummary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
+      "sourceTagReason": "category為演奏者，type為個人，focus在十孔/藍調，並有國際演出經歷。",
+      "monitorSources": [
+        {
+          "id": "fb_marcoscollharp",
+          "name": "Marcos Coll",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/marcoscollharp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
+        },
+        {
+          "id": "yt_marcoscollharpandsoul",
+          "name": "Marcos Coll",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -372,6 +545,93 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-54",
+      "publicId": "54",
+      "name": "CY Leo 何卓彥",
+      "nameEn": "CY Leo",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/現代跨界",
+      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
+      "summary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
+      "keywords": "CY Leo 何卓彥 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.cyleomusic.io/profile"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Cyleoharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cy_leo/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@cyleoharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-10T15:27:40+00:00",
+      "latestUpdateLocal": "2026-08-10 23:27",
+      "latestUpdateSource": "CY Leo 何卓彥",
+      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3960728572327080091/",
+      "avatarUrl": "/assets/source-avatars/17af7d0dcc2dd5cb6463.webp",
+      "sourceInitials": "CL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
+      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
+      "monitorSources": [
+        {
+          "id": "fb_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Cyleoharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
+        },
+        {
+          "id": "yt_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@cyleoharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-46",
       "publicId": "46",
       "name": "廖苡晴",
@@ -460,6 +720,103 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-57",
+      "publicId": "57",
+      "name": "山下伶 Rei Yamashita",
+      "nameEn": "Rei Yamashita",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/演出",
+      "structuredSummary": "半音階/專輯/演出 / 半音階 / 國際演出人員",
+      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯與演出。",
+      "keywords": "山下伶 Rei Yamashita harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://rei-yamashita.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/rei.yamashita.5"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/rei_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@reiyamashita"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/rei_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-10T15:00:06+00:00",
+      "latestUpdateLocal": "2026-08-10 23:00",
+      "latestUpdateSource": "山下伶 Rei Yamashita",
+      "latestUpdateUrl": "https://www.instagram.com/p/Db3SViLRB1m/",
+      "avatarUrl": "/assets/source-avatars/1cb9e2781f140770f220.webp",
+      "sourceInitials": "RY",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_rei_yamashita_5",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/rei.yamashita.5",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "rei_harmonica",
+          "profileUrl": "https://www.instagram.com/rei_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "rei_harmonica",
+          "profileUrl": "https://www.instagram.com/rei_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/rei_harmonica/story/0"
+        },
+        {
+          "id": "x_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "x",
+          "type": "rss",
+          "username": "rei_harmonica",
+          "profileUrl": "https://x.com/rei_harmonica",
+          "feedUrl": "https://rss.observe.tw/twitter/user/rei_harmonica"
+        },
+        {
+          "id": "yt_reiyamashita",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@reiyamashita",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-32",
       "publicId": "32",
       "name": "陳彥銘",
@@ -529,6 +886,102 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_profile",
           "username": "yenmingchen",
           "profileUrl": "https://www.instagram.com/yenmingchen/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-100",
+      "publicId": "100",
+      "name": "曹小歐",
+      "nameEn": "Otis Tsao",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "單口喜劇/藍調口琴/演出",
+      "structuredSummary": "單口喜劇/藍調口琴/演出 / 十孔/藍調口琴 / 演出人員",
+      "summary": "臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。",
+      "keywords": "曹小歐 Otis Tsao 口琴 單口喜劇 藍調口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://portaly.cc/otistsao"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/otis5hundredtsao/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/otistsao/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@otistsao"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-10T14:56:50+00:00",
+      "latestUpdateLocal": "2026-08-10 22:56",
+      "latestUpdateSource": "曹小歐",
+      "latestUpdateUrl": "https://www.instagram.com/stories/otistsao/3960713034917857816/",
+      "avatarUrl": "/assets/source-avatars/4023dce27985c1518bb9.webp",
+      "sourceInitials": "曹小",
+      "sourceTags": [
+        "演奏者",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_otis5hundredtsao",
+          "name": "曹小歐",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/otis5hundredtsao",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_otistsao",
+          "name": "曹小歐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "otistsao",
+          "profileUrl": "https://www.instagram.com/otistsao/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_otistsao",
+          "name": "曹小歐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "otistsao",
+          "profileUrl": "https://www.instagram.com/otistsao/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/otistsao/story/0"
+        },
+        {
+          "id": "threads_otistsao",
+          "name": "曹小歐",
+          "platform": "threads",
+          "type": "rss",
+          "username": "otistsao",
+          "profileUrl": "https://www.threads.net/@otistsao",
+          "feedUrl": "https://rss.observe.tw/threads/otistsao"
+        },
+        {
+          "id": "yt_ucbdafdgrntui_iqtg9e4bmw",
+          "name": "曹小歐",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
           "feedUrl": ""
         }
       ]
@@ -619,6 +1072,72 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@thmc6470",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-97",
+      "publicId": "97",
+      "name": "進擊的口琴樂團",
+      "nameEn": "",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/青年團體/演出",
+      "structuredSummary": "重奏/青年團體/演出 / 口琴重奏 / 演出團體",
+      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含重奏、青年團體與演出。",
+      "keywords": "進擊的口琴樂團 attack_on_harmonica_ensemble 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/attack_on_harmonica_ensemble/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@attack_on_harmonica_ensemble"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-10T14:04:11+00:00",
+      "latestUpdateLocal": "2026-08-10 22:04",
+      "latestUpdateSource": "進擊的口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/stories/attack_on_harmonica_ensemble/3960686549653889457/",
+      "avatarUrl": "/assets/source-avatars/99ba86157fce299ca915.webp",
+      "sourceInitials": "進擊",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_attack_on_harmonica_ensemble",
+          "name": "進擊的口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "attack_on_harmonica_ensemble",
+          "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_attack_on_harmonica_ensemble",
+          "name": "進擊的口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "attack_on_harmonica_ensemble",
+          "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/attack_on_harmonica_ensemble/story/0"
+        },
+        {
+          "id": "threads_attack_on_harmonica_ensemble",
+          "name": "進擊的口琴樂團",
+          "platform": "threads",
+          "type": "rss",
+          "username": "attack_on_harmonica_ensemble",
+          "profileUrl": "https://www.threads.net/@attack_on_harmonica_ensemble",
+          "feedUrl": "https://rss.observe.tw/threads/attack_on_harmonica_ensemble"
         }
       ]
     },
@@ -775,6 +1294,187 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@ChaotengChang",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-79",
+      "publicId": "79",
+      "name": "國家兩廳院",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "國家兩廳院 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://npac-ntch.org/zh"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/ntch.tw/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ntch.taipei/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/ntcharts"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@ntch.taipei"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-10T12:54:00+00:00",
+      "latestUpdateLocal": "2026-08-10 20:54",
+      "latestUpdateSource": "國家兩廳院",
+      "latestUpdateUrl": "https://www.instagram.com/p/Db29qIezo-J/",
+      "avatarUrl": "/assets/source-avatars/383a081ea65a854a0259.webp",
+      "sourceInitials": "國家",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_ntch_tw",
+          "name": "國家兩廳院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/ntch.tw",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_ntch_taipei",
+          "name": "國家兩廳院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "ntch.taipei",
+          "profileUrl": "https://www.instagram.com/ntch.taipei/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_ntch_taipei",
+          "name": "國家兩廳院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "ntch.taipei",
+          "profileUrl": "https://www.instagram.com/ntch.taipei/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/ntch.taipei/story/0"
+        },
+        {
+          "id": "threads_ntch_taipei",
+          "name": "國家兩廳院",
+          "platform": "threads",
+          "type": "rss",
+          "username": "ntch.taipei",
+          "profileUrl": "https://www.threads.net/@ntch.taipei",
+          "feedUrl": "https://rss.observe.tw/threads/ntch.taipei"
+        },
+        {
+          "id": "yt_ntcharts",
+          "name": "國家兩廳院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/ntcharts",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-65",
+      "publicId": "65",
+      "name": "Jong-seong Park 朴鍾聲",
+      "nameEn": "Jong-seong Park",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "半音階/國際級演出",
+      "structuredSummary": "半音階/國際級演出 / 半音階 / 國際演出人員",
+      "summary": "韓國半音階口琴演奏家，活躍於國際舞台。",
+      "keywords": "Jong-seong Park 朴鍾聲 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.mnac.co.kr/jongseongpark"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonicapark/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jongseongpark_harmonicist/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/jongseongpark"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-10T12:24:43+00:00",
+      "latestUpdateLocal": "2026-08-10 20:24",
+      "latestUpdateSource": "Jong-seong Park 朴鍾聲",
+      "latestUpdateUrl": "https://www.instagram.com/stories/jongseongpark_harmonicist/3960636508709541552/",
+      "avatarUrl": "/assets/source-avatars/18b492947bf0f5db7754.webp",
+      "sourceInitials": "JSP",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "sourceSummary": "韓國半音階口琴演奏家，活躍於國際舞台。",
+      "sourceTagReason": "資料明確標註為「演奏者」與「個人」，且其專長與定位為「半音階/國際級演出」。",
+      "monitorSources": [
+        {
+          "id": "fb_harmonicapark",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonicapark",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_jongseongpark_harmonicist",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jongseongpark_harmonicist",
+          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jongseongpark_harmonicist",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jongseongpark_harmonicist",
+          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/jongseongpark_harmonicist/story/0"
+        },
+        {
+          "id": "yt_jongseongpark",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/jongseongpark",
           "feedUrl": ""
         }
       ]
@@ -1013,6 +1713,239 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-51",
+      "publicId": "51",
+      "name": "唐雪婷 Sharene Tang",
+      "nameEn": "Sharene Tang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/國際郵輪演出",
+      "structuredSummary": "世界口琴冠軍/演出/教學/國際郵輪演出 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "唐雪婷 Sharene Tang sharene.harmonica World Harmonica Champion Fresco harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/sharenetang.fresco/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sharene.harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@Shareneharmonicamusic"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-10T12:18:47+00:00",
+      "latestUpdateLocal": "2026-08-10 20:18",
+      "latestUpdateSource": "唐雪婷 Sharene Tang",
+      "latestUpdateUrl": "https://www.instagram.com/p/Db2_ymxiXl7/",
+      "avatarUrl": "/assets/source-avatars/a022fec81a013f5814e0.webp",
+      "sourceInitials": "ST",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_sharenetang_fresco",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/sharenetang.fresco",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sharene_harmonica",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sharene.harmonica",
+          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sharene_harmonica",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sharene.harmonica",
+          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sharene.harmonica/story/0"
+        },
+        {
+          "id": "yt_shareneharmonicamusic",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-66",
+      "publicId": "66",
+      "name": "Younghoon Cho",
+      "nameEn": "Younghoon Cho",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
+      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
+      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "keywords": "Younghoon Cho Jong-seong Park",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/hoontobe"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hoontobe/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hoontobe_piano/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/hoontobe"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-10T11:18:29+00:00",
+      "latestUpdateLocal": "2026-08-10 19:18",
+      "latestUpdateSource": "Younghoon Cho",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3960603204551680313/",
+      "avatarUrl": "/assets/source-avatars/ce8582690611be231fa9.webp",
+      "sourceInitials": "YC",
+      "sourceTags": [
+        "演奏者",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
+      "monitorSources": [
+        {
+          "id": "fb_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hoontobe",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
+        },
+        {
+          "id": "yt_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/hoontobe",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-105",
+      "publicId": "105",
+      "name": "Stay Drunk 口琴樂團",
+      "nameEn": "Stay Drunk Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "大學生新生代團體",
+      "structuredSummary": "大學生新生代團體 / 口琴重奏 / 演出團體",
+      "summary": "臺灣的大學生新生代口琴重奏演出團體。",
+      "keywords": "Stay Drunk Stay Drunk H.E. Stay Drunk Harmonica Ensemble staydrunk_h.e 口琴樂團 大學生",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/staydrunk_h.e/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-10T11:02:08+00:00",
+      "latestUpdateLocal": "2026-08-10 19:02",
+      "latestUpdateSource": "Stay Drunk 口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/stories/staydrunk_h.e/3960594938718679120/",
+      "avatarUrl": "/assets/source-avatars/19fce96d7d9e82ac27e7.webp",
+      "sourceInitials": "SD",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_staydrunk_h_e",
+          "name": "Stay Drunk 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "staydrunk_h.e",
+          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_staydrunk_h_e",
+          "name": "Stay Drunk 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "staydrunk_h.e",
+          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/staydrunk_h.e/story/0"
+        },
+        {
+          "id": "yt_uct3ifdfoqpndqm8j5chesda",
+          "name": "Stay Drunk 口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-42",
       "publicId": "42",
       "name": "王心禾",
@@ -1074,6 +2007,321 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "harmonica_wang",
           "profileUrl": "https://www.threads.net/@harmonica_wang",
           "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-55",
+      "publicId": "55",
+      "name": "梁承熹 Kelvin Leung",
+      "nameEn": "Kelvin Leung",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "THMF交流/演出",
+      "structuredSummary": "THMF交流/演出 / 半音階 / 國際演出人員",
+      "summary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
+      "keywords": "梁承熹 Kelvin Leung harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica-kelvin.weebly.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kelvinleungsh/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sorhei/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@KelvinLeungharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-10T10:10:54+00:00",
+      "latestUpdateLocal": "2026-08-10 18:10",
+      "latestUpdateSource": "梁承熹 Kelvin Leung",
+      "latestUpdateUrl": "https://www.instagram.com/stories/sorhei/3960569142251702264/",
+      "avatarUrl": "/assets/source-avatars/0c9e9143d106ffe600b5.webp",
+      "sourceInitials": "KL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "sourceSummary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
+      "sourceTagReason": "來源明確標示為『演奏者』，類型為『個人』，區域為『香港』，摘要提及『THMF交流/演出』與『半音階』。",
+      "monitorSources": [
+        {
+          "id": "fb_kelvinleungsh",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/kelvinleungsh",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sorhei",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sorhei",
+          "profileUrl": "https://www.instagram.com/sorhei/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sorhei",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sorhei",
+          "profileUrl": "https://www.instagram.com/sorhei/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sorhei/story/0"
+        },
+        {
+          "id": "yt_kelvinleungharmonica",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@KelvinLeungharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-80",
+      "publicId": "80",
+      "name": "臺中國家歌劇院",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "臺中國家歌劇院 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-ntt.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/npac.ntt/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nationaltaichungtheater/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@nationaltaichungtheater"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-10T10:01:32+00:00",
+      "latestUpdateLocal": "2026-08-10 18:01",
+      "latestUpdateSource": "臺中國家歌劇院",
+      "latestUpdateUrl": "https://www.instagram.com/stories/nationaltaichungtheater/3960564427801601773/",
+      "avatarUrl": "/assets/source-avatars/c691bf893a45ce9251e5.webp",
+      "sourceInitials": "臺中",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_npac_ntt",
+          "name": "臺中國家歌劇院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/npac.ntt",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
+        },
+        {
+          "id": "threads_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "threads",
+          "type": "rss",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
+          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
+        },
+        {
+          "id": "yt_uctl1euke_x0w6tahecepgmq",
+          "name": "臺中國家歌劇院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-60",
+      "publicId": "60",
+      "name": "藤井俊充",
+      "nameEn": "Toshi Fujii",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本/臺灣爵士圈",
+      "cityOrFocus": "爵士/跨界",
+      "structuredSummary": "爵士/跨界 / 十孔/爵士口琴 / 國際演出人員",
+      "summary": "日本的十孔與爵士口琴國際演出人員，活動脈絡包含爵士與跨界。",
+      "keywords": "藤井俊充 Toshi Fujii harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/100091746706247/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/toshimiller/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-10T08:49:07+00:00",
+      "latestUpdateLocal": "2026-08-10 16:49",
+      "latestUpdateSource": "藤井俊充",
+      "latestUpdateUrl": "https://www.instagram.com/stories/toshimiller/3960527974835641083/",
+      "avatarUrl": "/assets/source-avatars/4bb635c300ca59217474.webp",
+      "sourceInitials": "藤井",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_100091746706247",
+          "name": "藤井俊充",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/100091746706247",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_toshimiller",
+          "name": "藤井俊充",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "toshimiller",
+          "profileUrl": "https://www.instagram.com/toshimiller/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/toshimiller/story/0"
+        },
+        {
+          "id": "ig_toshimiller",
+          "name": "藤井俊充",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "toshimiller",
+          "profileUrl": "https://www.instagram.com/toshimiller/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_uczvwagm6xsebpi_x5h1zohw",
+          "name": "藤井俊充",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-59",
+      "publicId": "59",
+      "name": "千賀太郎",
+      "nameEn": "Taro Senga",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "十孔/藍調",
+      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
+      "summary": "日本的十孔國際演出人員，活動脈絡包含藍調。",
+      "keywords": "千賀太郎 Taro Senga harmonica",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/taro_senga/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-10T06:34:02+00:00",
+      "latestUpdateLocal": "2026-08-10 14:34",
+      "latestUpdateSource": "千賀太郎",
+      "latestUpdateUrl": "https://www.instagram.com/stories/taro_senga/3960460005094544389/",
+      "avatarUrl": "/assets/source-avatars/5543138071fab2b371b8.webp",
+      "sourceInitials": "千賀",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_taro_senga",
+          "name": "千賀太郎",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "taro_senga",
+          "profileUrl": "https://www.instagram.com/taro_senga/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/taro_senga/story/0"
+        },
+        {
+          "id": "ig_taro_senga",
+          "name": "千賀太郎",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taro_senga",
+          "profileUrl": "https://www.instagram.com/taro_senga/",
+          "feedUrl": ""
         }
       ]
     },
@@ -1430,6 +2678,367 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-101",
+      "publicId": "101",
+      "name": "何家健 HarmoniKahkean",
+      "nameEn": "Ho Kah Kean / HarmoniKahkean",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人/地方推廣",
+      "country": "馬來西亞",
+      "region": "臺灣/花蓮；馬來西亞",
+      "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
+      "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
+      "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
+      "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/harmonikahkean"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonikahkean/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kahkeanho/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@hokahkean1999"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-10T02:10:24+00:00",
+      "latestUpdateLocal": "2026-08-10 10:10",
+      "latestUpdateSource": "何家健 HarmoniKahkean",
+      "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3960327312876992629/",
+      "avatarUrl": "/assets/source-avatars/7b33f34d52077af131e9.webp",
+      "sourceInitials": "H",
+      "sourceTags": [
+        "演奏者",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonikahkean",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonikahkean",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/kahkeanho/story/0"
+        },
+        {
+          "id": "yt_hokahkean1999",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@hokahkean1999",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-78",
+      "publicId": "78",
+      "name": "衛武營國家藝術文化中心",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "衛武營 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-weiwuying.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@weiwuyingfilm"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@weiwuying_centerforthearts"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-10T01:24:19+00:00",
+      "latestUpdateLocal": "2026-08-10 09:24",
+      "latestUpdateSource": "衛武營國家藝術文化中心",
+      "latestUpdateUrl": "https://www.instagram.com/stories/weiwuying_centerforthearts/3960304102385912161/",
+      "avatarUrl": "/assets/source-avatars/1ee39d2899be3794171c.webp",
+      "sourceInitials": "衛武",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_weiwuyingcenterforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
+        },
+        {
+          "id": "ig_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "threads",
+          "type": "rss",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
+          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
+        },
+        {
+          "id": "yt_weiwuyingfilm",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@weiwuyingfilm",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-76",
+      "publicId": "76",
+      "name": "新竹縣文化局",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館/文化局",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "場館/文化活動",
+      "structuredSummary": "場館/文化活動 / 口琴/藝文 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供場館與文化活動相關資訊。",
+      "keywords": "新竹縣文化局 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hchcc.gov.tw/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hchcc.gov/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hsinchucounty_culture/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-10T00:49:59+00:00",
+      "latestUpdateLocal": "2026-08-10 08:49",
+      "latestUpdateSource": "新竹縣文化局",
+      "latestUpdateUrl": "https://www.instagram.com/p/Db1w90TmGdz/",
+      "avatarUrl": "/assets/source-avatars/33eaa804748ecb2fd4af.webp",
+      "sourceInitials": "新竹",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hchcc_gov",
+          "name": "新竹縣文化局",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hchcc.gov",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hsinchucounty_culture",
+          "name": "新竹縣文化局",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hsinchucounty_culture",
+          "profileUrl": "https://www.instagram.com/hsinchucounty_culture/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hsinchucounty_culture",
+          "name": "新竹縣文化局",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hsinchucounty_culture",
+          "profileUrl": "https://www.instagram.com/hsinchucounty_culture/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hsinchucounty_culture/story/0"
+        },
+        {
+          "id": "yt_ucqrgye_3lymvt7ewhrzbtzg",
+          "name": "新竹縣文化局",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-63",
+      "publicId": "63",
+      "name": "F.I.H. JAPAN ハーモニカコンテスト",
+      "nameEn": "F.I.H. JAPAN Harmonica Contest",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "比賽/資訊入口",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "日本口琴比賽/半音階/複音/duo trio",
+      "structuredSummary": "日本口琴比賽/半音階/複音/duo trio / 半音階/複音/重奏 / 國際比賽來源",
+      "summary": "日本的國際比賽來源，涵蓋日本口琴比賽與duo trio。",
+      "keywords": "F.I.H. JAPAN ハーモニカコンテスト Moridaira 半音階 複音 duo trio 口琴比賽",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://moridaira.jp/event/20260530-01/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/moridaira"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/moridaira_mi/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/Moridaira01"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/moridaira_mi"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-09T21:38:16+00:00",
+      "latestUpdateLocal": "2026-08-10 05:38",
+      "latestUpdateSource": "F.I.H. JAPAN ハーモニカコンテスト",
+      "latestUpdateUrl": "https://www.instagram.com/stories/moridaira_mi/3960190312865711940/",
+      "avatarUrl": "/assets/source-avatars/74b5ba02097b77779c75.webp",
+      "sourceInitials": "FIH",
+      "sourceTags": [
+        "活動資訊",
+        "比賽",
+        "半音階",
+        "複音",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_moridaira",
+          "name": "F.I.H. JAPAN ハーモニカコンテスト",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/moridaira",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_moridaira_mi",
+          "name": "F.I.H. JAPAN ハーモニカコンテスト",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "moridaira_mi",
+          "profileUrl": "https://www.instagram.com/moridaira_mi/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_moridaira_mi",
+          "name": "F.I.H. JAPAN ハーモニカコンテスト",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "moridaira_mi",
+          "profileUrl": "https://www.instagram.com/moridaira_mi/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/moridaira_mi/story/0"
+        },
+        {
+          "id": "x_moridaira_mi",
+          "name": "F.I.H. JAPAN ハーモニカコンテスト",
+          "platform": "x",
+          "type": "rss",
+          "username": "moridaira_mi",
+          "profileUrl": "https://x.com/moridaira_mi",
+          "feedUrl": "https://rss.observe.tw/twitter/user/moridaira_mi"
+        },
+        {
+          "id": "yt_moridaira01",
+          "name": "F.I.H. JAPAN ハーモニカコンテスト",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/Moridaira01",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-104",
       "publicId": "104",
       "name": "Timothy Yip 葉進禧",
@@ -1510,90 +3119,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-101",
-      "publicId": "101",
-      "name": "何家健 HarmoniKahkean",
-      "nameEn": "Ho Kah Kean / HarmoniKahkean",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人/地方推廣",
-      "country": "馬來西亞",
-      "region": "臺灣/花蓮；馬來西亞",
-      "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
-      "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
-      "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
-      "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/harmonikahkean"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonikahkean/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/kahkeanho/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@hokahkean1999"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-09T15:17:56+00:00",
-      "latestUpdateLocal": "2026-08-09 23:17",
-      "latestUpdateSource": "何家健 HarmoniKahkean",
-      "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3959998968839246959/",
-      "avatarUrl": "/assets/source-avatars/7b33f34d52077af131e9.webp",
-      "sourceInitials": "H",
-      "sourceTags": [
-        "演奏者",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonikahkean",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonikahkean",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_kahkeanho",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "kahkeanho",
-          "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_kahkeanho",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "kahkeanho",
-          "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/kahkeanho/story/0"
-        },
-        {
-          "id": "yt_hokahkean1999",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@hokahkean1999",
           "feedUrl": ""
         }
       ]
@@ -1763,92 +3288,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-65",
-      "publicId": "65",
-      "name": "Jong-seong Park 朴鍾聲",
-      "nameEn": "Jong-seong Park",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "半音階/國際級演出",
-      "structuredSummary": "半音階/國際級演出 / 半音階 / 國際演出人員",
-      "summary": "韓國半音階口琴演奏家，活躍於國際舞台。",
-      "keywords": "Jong-seong Park 朴鍾聲 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.mnac.co.kr/jongseongpark"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonicapark/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jongseongpark_harmonicist/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/jongseongpark"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-09T13:50:02+00:00",
-      "latestUpdateLocal": "2026-08-09 21:50",
-      "latestUpdateSource": "Jong-seong Park 朴鍾聲",
-      "latestUpdateUrl": "https://www.instagram.com/stories/jongseongpark_harmonicist/3959954727203229059/",
-      "avatarUrl": "/assets/source-avatars/18b492947bf0f5db7754.webp",
-      "sourceInitials": "JSP",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "sourceSummary": "韓國半音階口琴演奏家，活躍於國際舞台。",
-      "sourceTagReason": "資料明確標註為「演奏者」與「個人」，且其專長與定位為「半音階/國際級演出」。",
-      "monitorSources": [
-        {
-          "id": "fb_harmonicapark",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonicapark",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_jongseongpark_harmonicist",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jongseongpark_harmonicist",
-          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jongseongpark_harmonicist",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jongseongpark_harmonicist",
-          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jongseongpark_harmonicist/story/0"
-        },
-        {
-          "id": "yt_jongseongpark",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/jongseongpark",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-121",
       "publicId": "121",
       "name": "Fresco Harmonica Ensemble",
@@ -1996,213 +3435,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-105",
-      "publicId": "105",
-      "name": "Stay Drunk 口琴樂團",
-      "nameEn": "Stay Drunk Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "大學生新生代團體",
-      "structuredSummary": "大學生新生代團體 / 口琴重奏 / 演出團體",
-      "summary": "臺灣的大學生新生代口琴重奏演出團體。",
-      "keywords": "Stay Drunk Stay Drunk H.E. Stay Drunk Harmonica Ensemble staydrunk_h.e 口琴樂團 大學生",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/staydrunk_h.e/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-09T12:27:15+00:00",
-      "latestUpdateLocal": "2026-08-09 20:27",
-      "latestUpdateSource": "Stay Drunk 口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/staydrunk_h.e/3959912994265396652/",
-      "avatarUrl": "/assets/source-avatars/19fce96d7d9e82ac27e7.webp",
-      "sourceInitials": "SD",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_staydrunk_h_e",
-          "name": "Stay Drunk 口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "staydrunk_h.e",
-          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_staydrunk_h_e",
-          "name": "Stay Drunk 口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "staydrunk_h.e",
-          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/staydrunk_h.e/story/0"
-        },
-        {
-          "id": "yt_uct3ifdfoqpndqm8j5chesda",
-          "name": "Stay Drunk 口琴樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-54",
-      "publicId": "54",
-      "name": "CY Leo 何卓彥",
-      "nameEn": "CY Leo",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/現代跨界",
-      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
-      "summary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "keywords": "CY Leo 何卓彥 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.cyleomusic.io/profile"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Cyleoharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/cy_leo/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@cyleoharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-09T12:11:05+00:00",
-      "latestUpdateLocal": "2026-08-09 20:11",
-      "latestUpdateSource": "CY Leo 何卓彥",
-      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3959904852301704529/",
-      "avatarUrl": "/assets/source-avatars/17af7d0dcc2dd5cb6463.webp",
-      "sourceInitials": "CL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
-      "monitorSources": [
-        {
-          "id": "fb_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Cyleoharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
-        },
-        {
-          "id": "yt_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@cyleoharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-59",
-      "publicId": "59",
-      "name": "千賀太郎",
-      "nameEn": "Taro Senga",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "十孔/藍調",
-      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
-      "summary": "日本的十孔國際演出人員，活動脈絡包含藍調。",
-      "keywords": "千賀太郎 Taro Senga harmonica",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/taro_senga/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-09T11:50:44+00:00",
-      "latestUpdateLocal": "2026-08-09 19:50",
-      "latestUpdateSource": "千賀太郎",
-      "latestUpdateUrl": "https://www.instagram.com/stories/taro_senga/3959894608997885494/",
-      "avatarUrl": "/assets/source-avatars/5543138071fab2b371b8.webp",
-      "sourceInitials": "千賀",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_taro_senga",
-          "name": "千賀太郎",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "taro_senga",
-          "profileUrl": "https://www.instagram.com/taro_senga/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/taro_senga/story/0"
-        },
-        {
-          "id": "ig_taro_senga",
-          "name": "千賀太郎",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "taro_senga",
-          "profileUrl": "https://www.instagram.com/taro_senga/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-139",
       "publicId": "139",
       "name": "Lee Oskar",
@@ -2244,7 +3476,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-09 19:28",
       "latestUpdateSource": "Lee Oskar",
       "latestUpdateUrl": "https://www.instagram.com/stories/leeoskarharmonicas/3959883596688315297/",
-      "avatarUrl": "/assets/source-avatars/370ef8b638094d62130d.webp",
+      "avatarUrl": "/assets/source-avatars/b56a2affdf591e0e1fca.webp",
       "sourceInitials": "LO",
       "sourceTags": [
         "品牌",
@@ -2288,199 +3520,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@leeoskarharmonicas",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-57",
-      "publicId": "57",
-      "name": "山下伶 Rei Yamashita",
-      "nameEn": "Rei Yamashita",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/演出",
-      "structuredSummary": "半音階/專輯/演出 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯與演出。",
-      "keywords": "山下伶 Rei Yamashita harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://rei-yamashita.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/rei.yamashita.5"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/rei_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@reiyamashita"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/rei_harmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-09T11:14:46+00:00",
-      "latestUpdateLocal": "2026-08-09 19:14",
-      "latestUpdateSource": "山下伶 Rei Yamashita",
-      "latestUpdateUrl": "https://www.instagram.com/stories/rei_harmonica/3959876466716675462/",
-      "avatarUrl": "/assets/source-avatars/1cb9e2781f140770f220.webp",
-      "sourceInitials": "RY",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_rei_yamashita_5",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/rei.yamashita.5",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "rei_harmonica",
-          "profileUrl": "https://www.instagram.com/rei_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "rei_harmonica",
-          "profileUrl": "https://www.instagram.com/rei_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/rei_harmonica/story/0"
-        },
-        {
-          "id": "x_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "x",
-          "type": "rss",
-          "username": "rei_harmonica",
-          "profileUrl": "https://x.com/rei_harmonica",
-          "feedUrl": "https://rss.observe.tw/twitter/user/rei_harmonica"
-        },
-        {
-          "id": "yt_reiyamashita",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@reiyamashita",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-100",
-      "publicId": "100",
-      "name": "曹小歐",
-      "nameEn": "Otis Tsao",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "單口喜劇/藍調口琴/演出",
-      "structuredSummary": "單口喜劇/藍調口琴/演出 / 十孔/藍調口琴 / 演出人員",
-      "summary": "臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。",
-      "keywords": "曹小歐 Otis Tsao 口琴 單口喜劇 藍調口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/otistsao"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/otis5hundredtsao/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/otistsao/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@otistsao"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-09T10:17:40+00:00",
-      "latestUpdateLocal": "2026-08-09 18:17",
-      "latestUpdateSource": "曹小歐",
-      "latestUpdateUrl": "https://www.instagram.com/p/Db0NGyjyMcg/",
-      "avatarUrl": "/assets/source-avatars/4023dce27985c1518bb9.webp",
-      "sourceInitials": "曹小",
-      "sourceTags": [
-        "演奏者",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_otis5hundredtsao",
-          "name": "曹小歐",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/otis5hundredtsao",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_otistsao",
-          "name": "曹小歐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "otistsao",
-          "profileUrl": "https://www.instagram.com/otistsao/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_otistsao",
-          "name": "曹小歐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "otistsao",
-          "profileUrl": "https://www.instagram.com/otistsao/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/otistsao/story/0"
-        },
-        {
-          "id": "threads_otistsao",
-          "name": "曹小歐",
-          "platform": "threads",
-          "type": "rss",
-          "username": "otistsao",
-          "profileUrl": "https://www.threads.net/@otistsao",
-          "feedUrl": "https://rss.observe.tw/threads/otistsao"
-        },
-        {
-          "id": "yt_ucbdafdgrntui_iqtg9e4bmw",
-          "name": "曹小歐",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
           "feedUrl": ""
         }
       ]
@@ -2928,94 +3967,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-67",
-      "publicId": "67",
-      "name": "Marcos Coll",
-      "nameEn": "Marcos Coll",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "西班牙",
-      "region": "西班牙",
-      "cityOrFocus": "十孔/藍調",
-      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
-      "summary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
-      "keywords": "Marcos Coll harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://marcoscoll.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/marcoscollharp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/marcoscollgonzalez/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-09T08:48:46+00:00",
-      "latestUpdateLocal": "2026-08-09 16:48",
-      "latestUpdateSource": "Marcos Coll",
-      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3959803025946054572/",
-      "avatarUrl": "/assets/source-avatars/84fc07e5aec602bc2a41.webp",
-      "sourceInitials": "MC",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "國際交流",
-        "音樂會",
-        "演出"
-      ],
-      "sourceSummary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
-      "sourceTagReason": "category為演奏者，type為個人，focus在十孔/藍調，並有國際演出經歷。",
-      "monitorSources": [
-        {
-          "id": "fb_marcoscollharp",
-          "name": "Marcos Coll",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/marcoscollharp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
-        },
-        {
-          "id": "yt_marcoscollharpandsoul",
-          "name": "Marcos Coll",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-115",
       "publicId": "115",
       "name": "Filip Jers",
@@ -3164,273 +4115,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@gyeoli_94",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-66",
-      "publicId": "66",
-      "name": "Younghoon Cho",
-      "nameEn": "Younghoon Cho",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
-      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
-      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "keywords": "Younghoon Cho Jong-seong Park",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/hoontobe"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hoontobe/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hoontobe_piano/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/hoontobe"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-09T06:56:58+00:00",
-      "latestUpdateLocal": "2026-08-09 14:56",
-      "latestUpdateSource": "Younghoon Cho",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3959746762852268147/",
-      "avatarUrl": "/assets/source-avatars/ce8582690611be231fa9.webp",
-      "sourceInitials": "YC",
-      "sourceTags": [
-        "演奏者",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
-      "monitorSources": [
-        {
-          "id": "fb_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hoontobe",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
-        },
-        {
-          "id": "yt_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/hoontobe",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-80",
-      "publicId": "80",
-      "name": "臺中國家歌劇院",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "臺中國家歌劇院 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-ntt.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/npac.ntt/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nationaltaichungtheater/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@nationaltaichungtheater"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-09T05:10:10+00:00",
-      "latestUpdateLocal": "2026-08-09 13:10",
-      "latestUpdateSource": "臺中國家歌劇院",
-      "latestUpdateUrl": "https://www.instagram.com/stories/nationaltaichungtheater/3959693002205169833/",
-      "avatarUrl": "/assets/source-avatars/c691bf893a45ce9251e5.webp",
-      "sourceInitials": "臺中",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_npac_ntt",
-          "name": "臺中國家歌劇院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/npac.ntt",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
-        },
-        {
-          "id": "threads_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "threads",
-          "type": "rss",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
-          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
-        },
-        {
-          "id": "yt_uctl1euke_x0w6tahecepgmq",
-          "name": "臺中國家歌劇院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-55",
-      "publicId": "55",
-      "name": "梁承熹 Kelvin Leung",
-      "nameEn": "Kelvin Leung",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "THMF交流/演出",
-      "structuredSummary": "THMF交流/演出 / 半音階 / 國際演出人員",
-      "summary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
-      "keywords": "梁承熹 Kelvin Leung harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica-kelvin.weebly.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/kelvinleungsh/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/sorhei/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@KelvinLeungharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-09T04:19:18+00:00",
-      "latestUpdateLocal": "2026-08-09 12:19",
-      "latestUpdateSource": "梁承熹 Kelvin Leung",
-      "latestUpdateUrl": "https://www.instagram.com/stories/sorhei/3959667397212899461/",
-      "avatarUrl": "/assets/source-avatars/0c9e9143d106ffe600b5.webp",
-      "sourceInitials": "KL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "sourceSummary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
-      "sourceTagReason": "來源明確標示為『演奏者』，類型為『個人』，區域為『香港』，摘要提及『THMF交流/演出』與『半音階』。",
-      "monitorSources": [
-        {
-          "id": "fb_kelvinleungsh",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/kelvinleungsh",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_sorhei",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "sorhei",
-          "profileUrl": "https://www.instagram.com/sorhei/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_sorhei",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "sorhei",
-          "profileUrl": "https://www.instagram.com/sorhei/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sorhei/story/0"
-        },
-        {
-          "id": "yt_kelvinleungharmonica",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@KelvinLeungharmonica",
           "feedUrl": ""
         }
       ]
@@ -3645,101 +4329,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@oufrog",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-79",
-      "publicId": "79",
-      "name": "國家兩廳院",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "國家兩廳院 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://npac-ntch.org/zh"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/ntch.tw/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/ntch.taipei/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/user/ntcharts"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@ntch.taipei"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-09T04:00:11+00:00",
-      "latestUpdateLocal": "2026-08-09 12:00",
-      "latestUpdateSource": "國家兩廳院",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbsNHfbI2jl/",
-      "avatarUrl": "/assets/source-avatars/383a081ea65a854a0259.webp",
-      "sourceInitials": "國家",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_ntch_tw",
-          "name": "國家兩廳院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/ntch.tw",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_ntch_taipei",
-          "name": "國家兩廳院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "ntch.taipei",
-          "profileUrl": "https://www.instagram.com/ntch.taipei/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_ntch_taipei",
-          "name": "國家兩廳院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "ntch.taipei",
-          "profileUrl": "https://www.instagram.com/ntch.taipei/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/ntch.taipei/story/0"
-        },
-        {
-          "id": "threads_ntch_taipei",
-          "name": "國家兩廳院",
-          "platform": "threads",
-          "type": "rss",
-          "username": "ntch.taipei",
-          "profileUrl": "https://www.threads.net/@ntch.taipei",
-          "feedUrl": "https://rss.observe.tw/threads/ntch.taipei"
-        },
-        {
-          "id": "yt_ntcharts",
-          "name": "國家兩廳院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/user/ntcharts",
           "feedUrl": ""
         }
       ]
@@ -3975,72 +4564,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-97",
-      "publicId": "97",
-      "name": "進擊的口琴樂團",
-      "nameEn": "",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/青年團體/演出",
-      "structuredSummary": "重奏/青年團體/演出 / 口琴重奏 / 演出團體",
-      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含重奏、青年團體與演出。",
-      "keywords": "進擊的口琴樂團 attack_on_harmonica_ensemble 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/attack_on_harmonica_ensemble/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@attack_on_harmonica_ensemble"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-09T02:01:16+00:00",
-      "latestUpdateLocal": "2026-08-09 10:01",
-      "latestUpdateSource": "進擊的口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/attack_on_harmonica_ensemble/3959597920916007169/",
-      "avatarUrl": "/assets/source-avatars/99ba86157fce299ca915.webp",
-      "sourceInitials": "進擊",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_attack_on_harmonica_ensemble",
-          "name": "進擊的口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "attack_on_harmonica_ensemble",
-          "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_attack_on_harmonica_ensemble",
-          "name": "進擊的口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "attack_on_harmonica_ensemble",
-          "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/attack_on_harmonica_ensemble/story/0"
-        },
-        {
-          "id": "threads_attack_on_harmonica_ensemble",
-          "name": "進擊的口琴樂團",
-          "platform": "threads",
-          "type": "rss",
-          "username": "attack_on_harmonica_ensemble",
-          "profileUrl": "https://www.threads.net/@attack_on_harmonica_ensemble",
-          "feedUrl": "https://rss.observe.tw/threads/attack_on_harmonica_ensemble"
-        }
-      ]
-    },
-    {
       "id": "watchlist-142",
       "publicId": "142",
       "name": "Howard Levy",
@@ -4121,106 +4644,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-63",
-      "publicId": "63",
-      "name": "F.I.H. JAPAN ハーモニカコンテスト",
-      "nameEn": "F.I.H. JAPAN Harmonica Contest",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "比賽/資訊入口",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "日本口琴比賽/半音階/複音/duo trio",
-      "structuredSummary": "日本口琴比賽/半音階/複音/duo trio / 半音階/複音/重奏 / 國際比賽來源",
-      "summary": "日本的國際比賽來源，涵蓋日本口琴比賽與duo trio。",
-      "keywords": "F.I.H. JAPAN ハーモニカコンテスト Moridaira 半音階 複音 duo trio 口琴比賽",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://moridaira.jp/event/20260530-01/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/moridaira"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/moridaira_mi/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/user/Moridaira01"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/moridaira_mi"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-08T20:56:12+00:00",
-      "latestUpdateLocal": "2026-08-09 04:56",
-      "latestUpdateSource": "F.I.H. JAPAN ハーモニカコンテスト",
-      "latestUpdateUrl": "https://www.instagram.com/stories/moridaira_mi/3959444441778034767/",
-      "avatarUrl": "/assets/source-avatars/74b5ba02097b77779c75.webp",
-      "sourceInitials": "FIH",
-      "sourceTags": [
-        "活動資訊",
-        "比賽",
-        "半音階",
-        "複音",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_moridaira",
-          "name": "F.I.H. JAPAN ハーモニカコンテスト",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/moridaira",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_moridaira_mi",
-          "name": "F.I.H. JAPAN ハーモニカコンテスト",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "moridaira_mi",
-          "profileUrl": "https://www.instagram.com/moridaira_mi/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_moridaira_mi",
-          "name": "F.I.H. JAPAN ハーモニカコンテスト",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "moridaira_mi",
-          "profileUrl": "https://www.instagram.com/moridaira_mi/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/moridaira_mi/story/0"
-        },
-        {
-          "id": "x_moridaira_mi",
-          "name": "F.I.H. JAPAN ハーモニカコンテスト",
-          "platform": "x",
-          "type": "rss",
-          "username": "moridaira_mi",
-          "profileUrl": "https://x.com/moridaira_mi",
-          "feedUrl": "https://rss.observe.tw/twitter/user/moridaira_mi"
-        },
-        {
-          "id": "yt_moridaira01",
-          "name": "F.I.H. JAPAN ハーモニカコンテスト",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/user/Moridaira01",
           "feedUrl": ""
         }
       ]
@@ -4629,87 +5052,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@jensbunge",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-51",
-      "publicId": "51",
-      "name": "唐雪婷 Sharene Tang",
-      "nameEn": "Sharene Tang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "世界口琴冠軍/演出/教學/國際郵輪演出",
-      "structuredSummary": "世界口琴冠軍/演出/教學/國際郵輪演出 / 半音階/口琴 / 國際演出人員/教育者",
-      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
-      "keywords": "唐雪婷 Sharene Tang sharene.harmonica World Harmonica Champion Fresco harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/sharenetang.fresco/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/sharene.harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@Shareneharmonicamusic"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-08T15:39:12+00:00",
-      "latestUpdateLocal": "2026-08-08 23:39",
-      "latestUpdateSource": "唐雪婷 Sharene Tang",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbyMpc4zHXp/",
-      "avatarUrl": "/assets/source-avatars/a022fec81a013f5814e0.webp",
-      "sourceInitials": "ST",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_sharenetang_fresco",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/sharenetang.fresco",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_sharene_harmonica",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "sharene.harmonica",
-          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_sharene_harmonica",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "sharene.harmonica",
-          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sharene.harmonica/story/0"
-        },
-        {
-          "id": "yt_shareneharmonicamusic",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
           "feedUrl": ""
         }
       ]
@@ -5387,86 +5729,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-60",
-      "publicId": "60",
-      "name": "藤井俊充",
-      "nameEn": "Toshi Fujii",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本/臺灣爵士圈",
-      "cityOrFocus": "爵士/跨界",
-      "structuredSummary": "爵士/跨界 / 十孔/爵士口琴 / 國際演出人員",
-      "summary": "日本的十孔與爵士口琴國際演出人員，活動脈絡包含爵士與跨界。",
-      "keywords": "藤井俊充 Toshi Fujii harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/100091746706247/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/toshimiller/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-08T05:48:42+00:00",
-      "latestUpdateLocal": "2026-08-08 13:48",
-      "latestUpdateSource": "藤井俊充",
-      "latestUpdateUrl": "https://www.instagram.com/stories/toshimiller/3958987621322187867/",
-      "avatarUrl": "/assets/source-avatars/4bb635c300ca59217474.webp",
-      "sourceInitials": "藤井",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_100091746706247",
-          "name": "藤井俊充",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/100091746706247",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_toshimiller",
-          "name": "藤井俊充",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "toshimiller",
-          "profileUrl": "https://www.instagram.com/toshimiller/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/toshimiller/story/0"
-        },
-        {
-          "id": "ig_toshimiller",
-          "name": "藤井俊充",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "toshimiller",
-          "profileUrl": "https://www.instagram.com/toshimiller/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_uczvwagm6xsebpi_x5h1zohw",
-          "name": "藤井俊充",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCZVWAgM6XSEbPi_x5H1ZoHw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-4",
       "publicId": "4",
       "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
@@ -5857,91 +6119,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-107",
-      "publicId": "107",
-      "name": "Konstantin Reinfeld",
-      "nameEn": "Konstantin Reinfeld",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "德國",
-      "region": "德國",
-      "cityOrFocus": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作",
-      "structuredSummary": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作 / 半音階/十孔 / 國際演出人員/製作人/教育者",
-      "summary": "德國的半音階與十孔國際演出人員、製作人與教育者，活動脈絡包含OPUS Klassik得獎、國際獨奏與製作與教育。",
-      "keywords": "Konstantin Reinfeld harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.konstantinreinfeld.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/konstantinreinfeldofficial"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/konstantin_reinfeld/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@KonstantinReinfeld"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-07T18:40:39+00:00",
-      "latestUpdateLocal": "2026-08-08 02:40",
-      "latestUpdateSource": "Konstantin Reinfeld",
-      "latestUpdateUrl": "https://www.instagram.com/stories/konstantin_reinfeld/3958651387667813015/",
-      "avatarUrl": "/assets/source-avatars/7f55bcace9d81e8ee2e4.webp",
-      "sourceInitials": "KR",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_konstantinreinfeldofficial",
-          "name": "Konstantin Reinfeld",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/konstantinreinfeldofficial",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_konstantin_reinfeld",
-          "name": "Konstantin Reinfeld",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "konstantin_reinfeld",
-          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_konstantin_reinfeld",
-          "name": "Konstantin Reinfeld",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "konstantin_reinfeld",
-          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/konstantin_reinfeld/story/0"
-        },
-        {
-          "id": "yt_konstantinreinfeld",
-          "name": "Konstantin Reinfeld",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@KonstantinReinfeld",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-36",
       "publicId": "36",
       "name": "莊筑迪",
@@ -6104,183 +6281,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@hkharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-78",
-      "publicId": "78",
-      "name": "衛武營國家藝術文化中心",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/高雄",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "衛武營 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-weiwuying.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@weiwuyingfilm"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@weiwuying_centerforthearts"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-07T14:00:18+00:00",
-      "latestUpdateLocal": "2026-08-07 22:00",
-      "latestUpdateSource": "衛武營國家藝術文化中心",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbvdBrRDuVN/",
-      "avatarUrl": "/assets/source-avatars/1ee39d2899be3794171c.webp",
-      "sourceInitials": "衛武",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_weiwuyingcenterforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
-        },
-        {
-          "id": "ig_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "threads",
-          "type": "rss",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
-          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
-        },
-        {
-          "id": "yt_weiwuyingfilm",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@weiwuyingfilm",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-76",
-      "publicId": "76",
-      "name": "新竹縣文化局",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館/文化局",
-      "country": "臺灣",
-      "region": "臺灣/新竹",
-      "cityOrFocus": "場館/文化活動",
-      "structuredSummary": "場館/文化活動 / 口琴/藝文 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供場館與文化活動相關資訊。",
-      "keywords": "新竹縣文化局 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hchcc.gov.tw/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hchcc.gov/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hsinchucounty_culture/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-07T12:00:53+00:00",
-      "latestUpdateLocal": "2026-08-07 20:00",
-      "latestUpdateSource": "新竹縣文化局",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbvPTqEIK_c/",
-      "avatarUrl": "/assets/source-avatars/33eaa804748ecb2fd4af.webp",
-      "sourceInitials": "新竹",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hchcc_gov",
-          "name": "新竹縣文化局",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hchcc.gov",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hsinchucounty_culture",
-          "name": "新竹縣文化局",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hsinchucounty_culture",
-          "profileUrl": "https://www.instagram.com/hsinchucounty_culture/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hsinchucounty_culture",
-          "name": "新竹縣文化局",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hsinchucounty_culture",
-          "profileUrl": "https://www.instagram.com/hsinchucounty_culture/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hsinchucounty_culture/story/0"
-        },
-        {
-          "id": "yt_ucqrgye_3lymvt7ewhrzbtzg",
-          "name": "新竹縣文化局",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg",
           "feedUrl": ""
         }
       ]
