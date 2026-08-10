@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T20:56:42.388584Z",
+  "generatedAt": "2026-08-10T17:46:14.460193Z",
   "source": {
     "id": 3,
     "slug": "sirius-harmonica-ensemble",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/3-sirius-harmonica-ensemble/"
   },
   "items": [
+    {
+      "id": "post-44b251fbe87c4bcb0ce03fca",
+      "title": "Some great moments backstage! ✨",
+      "excerpt": "Some great moments backstage! ✨ #aphf2026 #harmonicaartists #harmonica",
+      "url": "https://www.instagram.com/p/Db2_ymxiXl7/",
+      "sourceName": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-10T12:18:47Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/7c10346a73f6fc7aba40.webp",
+        "width": 800,
+        "height": 455
+      }
+    },
     {
       "id": "post-9355bdeaa95fc0fa1da9c874",
       "title": "第一次帶著兩個小瓜跟著我們去參加口琴節，說不上很難但也不容易",

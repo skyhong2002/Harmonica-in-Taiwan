@@ -10,10 +10,10 @@
       "duplicatesDeleted": 0,
       "eventMode": "taiwan_physical",
       "eventsPath": "site/api/public-calendar-events.json",
-      "kept": 9,
+      "kept": 7,
       "metadataUpdated": true,
       "status": "ok",
-      "updated": 7
+      "updated": 5
     },
     {
       "calendarId": "cbdc66a25ae90faf41317ce9d82f702d16ced35a2859e6a25a43ce4227e3f86a@group.calendar.google.com",
@@ -48,11 +48,11 @@
   "created": 3,
   "deleted": 0,
   "duplicatesDeleted": 0,
-  "generatedAt": "2026-08-10T16:33:30.899258+00:00",
-  "kept": 18,
+  "generatedAt": "2026-08-10T17:46:17.725765+00:00",
+  "kept": 16,
   "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/google-calendar-sync.lock",
   "message": "Google Calendar sync completed for 3/3 calendars.",
   "status": "ok",
-  "updated": 15,
+  "updated": 13,
   "version": 3
 }

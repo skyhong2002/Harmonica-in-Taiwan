@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T20:56:42.388584Z",
+  "generatedAt": "2026-08-10T17:46:14.460193Z",
   "source": {
     "id": 54,
     "slug": "cy-leo",
@@ -144,20 +144,6 @@
       "publishedAt": "2026-07-14T03:54:02Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/8f1299a21e3c70ad1dd1.webp",
-        "width": 540,
-        "height": 960
-      }
-    },
-    {
-      "id": "post-9d56886dfe8e1d79da03fd6c",
-      "title": "Pull up check",
-      "excerpt": "Pull up check",
-      "url": "https://www.facebook.com/reel/1552016739645660/",
-      "sourceName": "CY Leo 何卓彥",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-11T04:09:56Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/2d2dc5e909ba9eb0ad66.webp",
         "width": 540,
         "height": 960
       }

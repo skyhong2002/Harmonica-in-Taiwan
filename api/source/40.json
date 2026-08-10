@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T20:56:42.388584Z",
+  "generatedAt": "2026-08-10T17:46:14.460193Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -186,20 +186,6 @@
       "publishedAt": "2026-07-13T00:00:06Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/b470e38e6fff1f5c31e3.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-ca471c98e4cdfebed38200fe",
-      "title": "【就是吹口琴Just Play Harmonica 】｜林志炫 – 單身情歌｜複音口琴Tremolo Harmonica 演奏版本《C C#調》",
-      "excerpt": "【就是吹口琴Just Play Harmonica 】｜林志炫 – 單身情歌｜複音口琴Tremolo Harmonica 演奏版本《C C#調》 單身情歌 陳耀川 作曲 易家揚 作詞 林志炫 原唱 複音口琴演奏版本《C C#調》",
-      "url": "https://www.youtube.com/watch?v=CUNRJiRka4M",
-      "sourceName": "陳鴻儀",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-11T00:00:21Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/6ac6903e9490f3e17d23.webp",
         "width": 800,
         "height": 450
       }

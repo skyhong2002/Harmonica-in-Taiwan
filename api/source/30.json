@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-09T20:56:42.388584Z",
+  "generatedAt": "2026-08-10T17:46:14.460193Z",
   "source": {
     "id": 30,
     "slug": "30",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/30/"
   },
   "items": [
+    {
+      "id": "post-c241cdced5d4f2139dddfc62",
+      "title": "「人在台上不用吹琴，單純享受音樂」，",
+      "excerpt": "「人在台上不用吹琴，單純享受音樂」， 這就是我心中最美的畫面。 2026 THMF 收工， 我們帶著更多夢想，又或者些許遺憾，期待明年再次相會：）",
+      "url": "https://www.instagram.com/p/Db3JxwekuQq/",
+      "sourceName": "蔡明憲",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-10T13:46:02Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a2114e89c583524cb401.webp",
+        "width": 800,
+        "height": 800
+      }
+    },
     {
       "id": "post-bcf15e5721d6ca21fd988229",
       "title": "「這是你心中理想口琴節的樣子嗎？」",
