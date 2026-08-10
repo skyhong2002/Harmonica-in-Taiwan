@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T18:57:40.944107Z",
+  "generatedAt": "2026-08-10T20:09:00.361238Z",
   "source": {
     "id": 153,
     "slug": "santiago-alvarez",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/153-santiago-alvarez/"
   },
   "items": [
+    {
+      "id": "post-5f276a48743397d71e0a8253",
+      "title": "MÚSICA EN EL BORGES",
+      "excerpt": "MÚSICA EN EL BORGES Chúcara Trío El folclore y el tango vuelven a encontrarse en una novedosa y fascinante formación: bajo acústico de seis cuerdas, armónica y voz. Este concierto recorre algunas de las interpretaciones y composiciones más significativas de la historia del trío.…",
+      "url": "https://www.instagram.com/p/Db3t25FJVMF/",
+      "sourceName": "Santiago Alvarez",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-10T19:08:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f52acfda45371bd2b142.webp",
+        "width": 640,
+        "height": 1136
+      }
+    },
     {
       "id": "post-760e812e49d9a99346191475",
       "title": "El VIERNES 14/08 20hs con Entrada Libre!",

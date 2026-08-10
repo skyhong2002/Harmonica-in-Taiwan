@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-10T18:57:40.944107Z",
+  "generatedAt": "2026-08-10T20:09:00.361238Z",
   "source": {
     "id": 149,
     "slug": "liam-ward-malcolm-thorne",
@@ -8,6 +8,48 @@
     "pageUrl": "https://harmonica.observe.tw/source/149-liam-ward-malcolm-thorne/"
   },
   "items": [
+    {
+      "id": "post-c11da6784d8d641e93d49b6b",
+      "title": "Trying out some free harp software with the Lekholm DM48X digital harmonica",
+      "excerpt": "Trying out some free harp software with the Lekholm DM48X digital harmonica Full review and demos #linkinbio",
+      "url": "https://www.instagram.com/p/Db29u9fRKb0/",
+      "sourceName": "Liam Ward & Malcolm Thorne",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-10T12:00:09Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d84503d71fd69d0bbd0d.webp",
+        "width": 800,
+        "height": 1423
+      }
+    },
+    {
+      "id": "post-2133c6bd78d497a390fb119f",
+      "title": "Stranger on the Shore with @audiomodeling and Lekholm DM48X. Full review click #linkinbio",
+      "excerpt": "Stranger on the Shore with @audiomodeling and Lekholm DM48X. Full review click #linkinbio",
+      "url": "https://www.instagram.com/p/Db07L7wxZ-3/",
+      "sourceName": "Liam Ward & Malcolm Thorne",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-09T17:00:05Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/cd52ebc336bcbe254f5f.webp",
+        "width": 640,
+        "height": 1136
+      }
+    },
+    {
+      "id": "post-25a17fb7a8f4046824e3f96a",
+      "title": "How do you play a harmonica with no reeds? In my new lesson I'll be testing the Lekholm DM48X \"digital harmonica\" #link…",
+      "excerpt": "How do you play a harmonica with no reeds? In my new lesson I'll be testing the Lekholm DM48X \"digital harmonica\" #linkinbio",
+      "url": "https://www.instagram.com/p/Db0fuVQGxyz/",
+      "sourceName": "Liam Ward & Malcolm Thorne",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-09T13:00:17Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a2561240a81f3851c8b2.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-2cd8d409b2694fe267a2fd98",
       "title": "Top Disney Songs on Harmonica with Free Video Lessons and Tabs #linkinbio",
