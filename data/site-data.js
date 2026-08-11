@@ -81,6 +81,89 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-27",
+      "publicId": "27",
+      "name": "音和樂器",
+      "nameEn": "PeaceTones Harmonica",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "樂器行/口琴專賣店",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務",
+      "structuredSummary": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務 / 口琴 / 器材/教學來源",
+      "summary": "臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。",
+      "keywords": "音和樂器 PeaceTones Harmonica 口琴專賣店 口琴 維修 教學",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://0223120930.web66.com.tw/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/PeaceTones.harmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/peacetones.harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@peacetonesharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-11T00:15:08+00:00",
+      "latestUpdateLocal": "2026-08-11 08:15",
+      "latestUpdateSource": "音和樂器",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=gmEEvShEO5k",
+      "avatarUrl": "/assets/source-avatars/1a76c469d7e0745e439b.webp",
+      "sourceInitials": "音和",
+      "sourceTags": [
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/PeaceTones.harmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "peacetones.harmonica",
+          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "peacetones.harmonica",
+          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/peacetones.harmonica/story/0"
+        },
+        {
+          "id": "yt_peacetonesharmonica",
+          "name": "音和樂器",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@peacetonesharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-183",
       "publicId": "183",
       "name": "EMPA 口琴課程",
@@ -5267,89 +5350,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "donotdisturbharmonicaensemble",
           "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/donotdisturbharmonicaensemble/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-27",
-      "publicId": "27",
-      "name": "音和樂器",
-      "nameEn": "PeaceTones Harmonica",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "樂器行/口琴專賣店",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務",
-      "structuredSummary": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務 / 口琴 / 器材/教學來源",
-      "summary": "臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。",
-      "keywords": "音和樂器 PeaceTones Harmonica 口琴專賣店 口琴 維修 教學",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://0223120930.web66.com.tw/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/PeaceTones.harmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/peacetones.harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@peacetonesharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-09T02:16:22+00:00",
-      "latestUpdateLocal": "2026-08-09 10:16",
-      "latestUpdateSource": "音和樂器",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbzVvLTPUKB/",
-      "avatarUrl": "/assets/source-avatars/1a76c469d7e0745e439b.webp",
-      "sourceInitials": "音和",
-      "sourceTags": [
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_peacetones_harmonica",
-          "name": "音和樂器",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/PeaceTones.harmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_peacetones_harmonica",
-          "name": "音和樂器",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "peacetones.harmonica",
-          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_peacetones_harmonica",
-          "name": "音和樂器",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "peacetones.harmonica",
-          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/peacetones.harmonica/story/0"
-        },
-        {
-          "id": "yt_peacetonesharmonica",
-          "name": "音和樂器",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@peacetonesharmonica",
-          "feedUrl": ""
         }
       ]
     },
