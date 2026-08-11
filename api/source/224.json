@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T00:07:30.210599Z",
+  "generatedAt": "2026-08-11T00:40:20.637677Z",
   "source": {
     "id": 224,
     "slug": "easttop-harmonicas",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/224-easttop-harmonicas/"
   },
   "items": [
+    {
+      "id": "post-35d56db33a055315aaaa1c4b",
+      "title": "Voices of the World — Blues Night Concert of 15th APHF(EAST TOP)",
+      "excerpt": "Voices of the World — Blues Night Concert of 15th APHF(EAST TOP) Voices of the World — Blues Night Concert of 15th APHF(EAST TOP) was an absolute hit! Our featured guest artists demonstrated breathtaking mastery of wind instruments with brilliant, expressive performances. Dazzli…",
+      "url": "https://www.youtube.com/watch?v=m5y5UsRD5G8",
+      "sourceName": "Easttop Harmonicas",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-10T09:28:02Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f7e8c7c5757583e4905b.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-9842b0b16d3a0ac3831c2a31",
       "title": "Our brand-new employee cafeteria at Easttop is officially open!",
@@ -20,6 +34,20 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/a41ecf189b3f254c1715.webp",
         "width": 576,
         "height": 1024
+      }
+    },
+    {
+      "id": "post-b476e24d49d11d85b944f488",
+      "title": "World of Resonant Reeds — Harmonica Masters Concert of 15th APHF(EAST TOP)",
+      "excerpt": "World of Resonant Reeds — Harmonica Masters Concert of 15th APHF(EAST TOP) World of Resonant Reeds — Harmonica Masters Concert of 15th APHF(EAST TOP) features the world‑renowned harmonica virtuoso, whose supreme mastery of the harmonica delivers breathtaking, expressive performa…",
+      "url": "https://www.youtube.com/watch?v=WTfaIAU4gsY",
+      "sourceName": "Easttop Harmonicas",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-10T02:50:36Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/336465fd8376143104f1.webp",
+        "width": 800,
+        "height": 450
       }
     },
     {
