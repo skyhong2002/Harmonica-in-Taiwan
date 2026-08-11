@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T22:42:23.253715Z",
+  "generatedAt": "2026-08-11T23:48:30.361761Z",
   "source": {
     "id": 224,
     "slug": "easttop-harmonicas",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/224-easttop-harmonicas/"
   },
   "items": [
+    {
+      "id": "post-ca09558ee16b0ca738c0717e",
+      "title": "Harmony of the Asia-Pacific — Ensemble Special Concert of 15th APHF(EAST TOP)",
+      "excerpt": "Harmony of the Asia-Pacific — Ensemble Special Concert of 15th APHF(EAST TOP) Harmony of the Asia-Pacific — Ensemble Special Concert of 15th APHF(EAST TOP) brings together elite performers with extraordinary virtuosity. Each artist delivers breathtaking, master‑level harmonica r…",
+      "url": "https://www.youtube.com/watch?v=vmFrE4bvfsQ",
+      "sourceName": "Easttop Harmonicas",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-11T02:58:15Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/126fe944a15b11c51232.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-35d56db33a055315aaaa1c4b",
       "title": "Voices of the World — Blues Night Concert of 15th APHF(EAST TOP)",
