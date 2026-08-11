@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T05:37:30.495384Z",
+  "generatedAt": "2026-08-11T06:43:10.682868Z",
   "source": {
     "id": 111,
     "slug": "lee-hangyeol",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/111-lee-hangyeol/"
   },
   "items": [
+    {
+      "id": "post-5ce7e17ca9800438f8b50cb8",
+      "title": "8.7~8.9 THMF @taiwanharmonica",
+      "excerpt": "8.7~8.9 THMF @taiwanharmonica 좋은 사람들과 좋은 시간 보내다 갑니다! I had a wonderful time with great people! #서울솔리스츠하모니카오케스트라 #ssho #thmf",
+      "url": "https://www.instagram.com/p/Db4WchTD15Z/",
+      "sourceName": "Lee Hangyeol 이한결",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-11T00:55:58Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/8990f0ec5ade6dc572e2.webp",
+        "width": 800,
+        "height": 800
+      }
+    },
     {
       "id": "post-01d24109445a04807e46841c",
       "title": "☁️",

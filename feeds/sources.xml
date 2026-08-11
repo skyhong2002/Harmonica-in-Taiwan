@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 11 Aug 2026 05:37:32 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 06:43:12 +0000</lastBuildDate>
+    <item>
+      <title>蔡明憲</title>
+      <link>https://studio.dming.co/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/3881b1c9af7db824</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、重奏
+國家：臺灣
+地區：臺灣
+臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。</description>
+    </item>
     <item>
       <title>Lee Hangyeol 이한결</title>
       <link>https://www.instagram.com/gyeoli_94/</link>
@@ -38,6 +49,17 @@ Tag：教學器材、教學
 國家：臺灣
 地區：臺灣/臺北
 臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。</description>
+    </item>
+    <item>
+      <title>新竹縣文化局</title>
+      <link>https://www.hchcc.gov.tw/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/764c874d5d511c0a</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/新竹
+臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
     </item>
     <item>
       <title>EMPA 口琴課程</title>
@@ -280,17 +302,6 @@ Tag：團體樂團、重奏
 國家：臺灣
 地區：臺灣
 臺灣的口琴重奏演出團體，活動脈絡包含重奏、青年團體與演出。</description>
-    </item>
-    <item>
-      <title>蔡明憲</title>
-      <link>https://studio.dming.co/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/3881b1c9af7db824</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學、重奏
-國家：臺灣
-地區：臺灣
-臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。</description>
     </item>
     <item>
       <title>口琴保存與推廣協會 SPAH</title>
@@ -588,17 +599,6 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/高雄
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
-    </item>
-    <item>
-      <title>新竹縣文化局</title>
-      <link>https://www.hchcc.gov.tw/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/764c874d5d511c0a</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/新竹
-臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
     </item>
     <item>
       <title>Howard Levy</title>
