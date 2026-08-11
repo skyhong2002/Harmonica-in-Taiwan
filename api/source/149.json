@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T16:03:36.114176Z",
+  "generatedAt": "2026-08-11T16:38:27.026245Z",
   "source": {
     "id": 149,
     "slug": "liam-ward-malcolm-thorne",
@@ -48,6 +48,34 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/a2561240a81f3851c8b2.webp",
         "width": 800,
         "height": 450
+      }
+    },
+    {
+      "id": "post-97e4bd8fa74781f696414a8c",
+      "title": "Audio Modeling SWAM Suite demo (with Lekholm DM48X digital harmonica)",
+      "excerpt": "Audio Modeling SWAM Suite demo (with Lekholm DM48X digital harmonica) In today's video I am demonstrating the Audio Modeling SWAM Suite. It's incredible and I highly recommend it. ► AUDIO MODELING SWAM INSTRUMENTS PACKAGE - You might also like Audio Modeling's full demonstration…",
+      "url": "https://www.youtube.com/watch?v=GQ4xJZ-_mPY",
+      "sourceName": "Liam Ward & Malcolm Thorne",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-09T11:00:08Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c93b48531119a12536e3.webp",
+        "width": 640,
+        "height": 480
+      }
+    },
+    {
+      "id": "post-396deb684acef96e30d6583b",
+      "title": "Review & Demo: Lekholm DM48X - Digital Harmonica",
+      "excerpt": "Review & Demo: Lekholm DM48X - Digital Harmonica Today I am reviewing the Lekholm DM48X digital harmonica, which is one of the most interesting products to appear in the harmonica world for years. I've included demos so you can get a sense of exactly how it works. You can find m…",
+      "url": "https://www.youtube.com/watch?v=vurtE0_XHKk",
+      "sourceName": "Liam Ward & Malcolm Thorne",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-09T11:00:00Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b5730c4369b9eedeb9b1.webp",
+        "width": 640,
+        "height": 480
       }
     },
     {

@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 11 Aug 2026 16:03:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 16:38:28 +0000</lastBuildDate>
     <item>
       <title>Lee Hangyeol 이한결</title>
       <link>https://www.instagram.com/gyeoli_94/</link>
@@ -40,6 +40,17 @@ Tag：演奏者、教學、十孔、國際交流
 阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。</description>
     </item>
     <item>
+      <title>陳彥銘</title>
+      <link>https://mx.nthu.edu.tw/~ymchen/sirius/CT.htm</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/294a4e588c327308</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、和弦、重奏、交流
+國家：臺灣
+地區：臺灣
+天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。</description>
+    </item>
+    <item>
       <title>mr.Why 花影樂團</title>
       <link>https://portaly.cc/mr.Why</link>
       <guid>https://harmonica.observe.tw/feeds/sources/8f72f2250c354857</guid>
@@ -71,6 +82,17 @@ Tag：團體樂團、重奏、國際交流
 國家：香港
 地區：香港/國際
 香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
+    </item>
+    <item>
+      <title>胖擊口琴樂團</title>
+      <link>https://linktr.ee/punch.harp</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c710aae1bf2f4665</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏
+國家：臺灣
+地區：臺灣
+臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。</description>
     </item>
     <item>
       <title>Marcos Coll</title>
@@ -313,17 +335,6 @@ Tag：演奏者、教學、重奏
 國家：臺灣
 地區：臺灣
 口琴演奏者，兼職教學與重奏活動。</description>
-    </item>
-    <item>
-      <title>陳彥銘</title>
-      <link>https://mx.nthu.edu.tw/~ymchen/sirius/CT.htm</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/294a4e588c327308</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、和弦、重奏、交流
-國家：臺灣
-地區：臺灣
-天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。</description>
     </item>
     <item>
       <title>Konstantin Reinfeld</title>
@@ -632,17 +643,6 @@ Tag：演奏者、教學
 國家：臺灣
 地區：臺灣
 臺灣口琴演奏者林裕豐，兼職教學與演出。</description>
-    </item>
-    <item>
-      <title>胖擊口琴樂團</title>
-      <link>https://linktr.ee/punch.harp</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c710aae1bf2f4665</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏
-國家：臺灣
-地區：臺灣
-臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。</description>
     </item>
     <item>
       <title>何家健 HarmoniKahkean</title>
