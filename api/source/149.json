@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T12:46:02.245590Z",
+  "generatedAt": "2026-08-11T13:51:03.960750Z",
   "source": {
     "id": 149,
     "slug": "liam-ward-malcolm-thorne",
@@ -132,20 +132,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/a90e943e2351ae39fb5b.webp",
         "width": 640,
         "height": 1136
-      }
-    },
-    {
-      "id": "post-228f595ae2399718e1851c48",
-      "title": "NEW LESSON: Hangman Jury by Aerosmith",
-      "excerpt": "NEW LESSON: Hangman Jury by Aerosmith",
-      "url": "https://www.facebook.com/learntheharmonica/posts/pfbid0291crc2cSWzLfFcmoFw4F14KnLm1bBzCgpwxVungCXjVHs8R7Ws4aaDLujQvQsLCql",
-      "sourceName": "Liam Ward & Malcolm Thorne",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-12T13:00:09Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/9a47c6536f5a7f4f884c.webp",
-        "width": 800,
-        "height": 450
       }
     }
   ]
