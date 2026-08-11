@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T00:40:20.637677Z",
+  "generatedAt": "2026-08-11T01:45:32.115589Z",
   "source": {
     "id": 98,
     "slug": "dming-studio",
     "name": "蔡明憲 DMing Studio",
     "pageUrl": "https://harmonica.observe.tw/source/98-dming-studio/"
   },
-  "items": [
-    {
-      "id": "post-671b5e4840610e2be720b56c",
-      "title": "女神來了！與 Risa MINAMI 首次線上合作，經典中的經典《つばめ 飛燕》｜[ DMing Studio ]",
-      "excerpt": "女神來了！與 Risa MINAMI 首次線上合作，經典中的經典《つばめ 飛燕》｜[ DMing Studio ] 《飛燕》一直是我很喜歡的曲目，其中細膩的旋律線條與音色更是刻畫在心中，在確定 THMF 南里沙會來到臺灣演出之後，我向 Minami Risa 與 黃冠誌 提出一起拍演奏影片的邀約，他們也很快就答應。 世界口琴節後，我把飛燕這首口琴搭配吉他二重奏曲目改編成為口琴六重奏，希望用不一樣的層次呈現給口琴迷們。 相信南里沙的經典音色一直是讓口琴迷們印象深刻的，在後製混音過程中，我也特別保留大家印象中在現場聽或 Youtube 影片中那個經典音色，…",
-      "url": "https://www.youtube.com/watch?v=SlplPVcjHSg",
-      "sourceName": "蔡明憲 DMing Studio",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-12T01:42:22Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/5a0c66e86e26e332ff6d.webp",
-        "width": 800,
-        "height": 450
-      }
-    }
-  ]
+  "items": []
 }
