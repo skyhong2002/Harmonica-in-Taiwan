@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T03:59:30.874379Z",
+  "generatedAt": "2026-08-11T04:31:46.342846Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -242,20 +242,6 @@
       "publishedAt": "2026-07-14T10:00:37Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/ab37a468169c75639565.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-1f75b718feef74e00da5196f",
-      "title": "展開清晨的翅膀丨十孔口琴",
-      "excerpt": "展開清晨的翅膀丨十孔口琴 你可以想像十孔口琴居然可以吹的那麼靈透嗎? 早上起來，翅膀慢慢地舒展開，迎接美好的一天，心情是多麼舒暢。來聽聽宜貞的表演。 中正社大十孔口琴班(四)下午 新莊社大十孔新開班(三)晚上",
-      "url": "https://www.youtube.com/watch?v=40z0aqaTbz4",
-      "sourceName": "藍波口琴教室",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-12T04:00:16Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/593b2b03f7da883bf54d.webp",
         "width": 800,
         "height": 450
       }
