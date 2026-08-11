@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T09:25:38.771716Z",
+  "generatedAt": "2026-08-11T10:33:51.944080Z",
   "source": {
     "id": 89,
     "slug": "baba-harmonica-studio",
     "name": "巴巴口琴坊",
     "pageUrl": "https://harmonica.observe.tw/source/89-baba-harmonica-studio/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-a3972db409e0d7809bbde61e",
+      "title": "2026THMF 臺灣口琴音樂節 | 公開組大合奏 | Disney Fantasy | 亞軍",
+      "excerpt": "2026THMF 臺灣口琴音樂節 | 公開組大合奏 | Disney Fantasy | 亞軍 Disney Fantasy 迪士尼幻想曲 作曲者：Naohiro Iwai 編曲者：林家靖 指揮：李勤道 演奏者： 巴巴口琴坊 黃渝雯 成大口琴社 柏臻、昕渝、星馳、葉庭、丞安、嘉鍾、紹安 公園口琴隊及校友 指導：黃渝雯 睿鍾、沛芳、進躍、翔宥、喬閔、威程、晨蓁、丞沛 德南口琴隊及校友 指導：黃渝雯 旭洧、佳曦、佳晨、允樂、品綾、恩允、妘苹 臺南社大口琴班 指導：黃渝雯 美鈴、子翰、偉智、政道、世明、建禮、淑琴、素芬、炳璋、道英",
+      "url": "https://www.youtube.com/watch?v=WOgRH5AqIkA",
+      "sourceName": "巴巴口琴坊",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-10T09:40:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6e23a4e3939fdc3b357c.webp",
+        "width": 800,
+        "height": 450
+      }
+    }
+  ]
 }

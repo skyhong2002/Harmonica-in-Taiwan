@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
   "json": "https://harmonica.observe.tw/api/opportunities.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/opportunities.json",
-  "count": 137,
+  "count": 138,
   "items": [
     {
       "title": "音和樂器口琴專賣店｜「郵龍口琴樂團」臺灣口琴音樂節_交流音樂會演出 曲目：北方民族生活素描第一樂章【賽馬】 📣萬華社大【龍韻口琴合奏班】招生中 授課老師：夏晨茹、張宇樞 上課地點：臺北市龍山國中 上課時間：週一（晚） 🟡授課內容： 📍口琴…",
@@ -170,6 +170,87 @@
         "學生社團"
       ],
       "key": "ig_hsinchucounty_culture:https://www.instagram.com/p/Db4QGWDjDHz/"
+    },
+    {
+      "title": "baba Huang｜2026THMF 臺灣口琴音樂節 | 公開組大合奏 | Disney Fantasy | 亞軍 Disney Fantasy 迪士尼幻想曲 作曲者：Naohiro Iwai 編曲者：林家靖 指揮：李勤道 演奏者： 巴…",
+      "headline": "2026THMF 臺灣口琴音樂節 | 公開組大合奏 | Disney Fantasy | 亞軍",
+      "display_title": "2026THMF 臺灣口琴音樂節 | 公開組大合奏 | Disney Fantasy | 亞軍",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=WOgRH5AqIkA",
+      "source_id": "yt_yoyo708520",
+      "source": "baba Huang",
+      "source_system_name": "巴巴口琴坊",
+      "source_profile_url": "https://www.youtube.com/channel/UCnTZx_mYh7a4fSQZwqdt-0w",
+      "country": "臺灣",
+      "region": "臺灣/臺南",
+      "directory_entry_id": "watchlist-89",
+      "directory_entry_name": "巴巴口琴坊",
+      "account": "https://www.youtube.com/channel/UCnTZx_mYh7a4fSQZwqdt-0w",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-08-10T09:40:06+00:00",
+      "posted_at_local": "2026-08-10 17:40",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-11T10:33:35.955329+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "影片",
+        "比賽"
+      ],
+      "keyword_matches": [
+        "口琴"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.99,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "影片",
+        "比賽"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴音樂節公開組大合奏得獎影片，屬口琴公開更新與比賽相關。",
+      "text": "2026THMF 臺灣口琴音樂節 | 公開組大合奏 | Disney Fantasy | 亞軍\nDisney Fantasy 迪士尼幻想曲\n作曲者：Naohiro Iwai\n編曲者：林家靖\n指揮：李勤道\n演奏者：\n巴巴口琴坊\n黃渝雯\n成大口琴社\n柏臻、昕渝、星馳、葉庭、丞安、嘉鍾、紹安\n公園口琴隊及校友 指導：黃渝雯\n睿鍾、沛芳、進躍、翔宥、喬閔、威程、晨蓁、丞沛\n德南口琴隊及校友 指導：黃渝雯\n旭洧、佳曦、佳晨、允樂、品綾、恩允、妘苹\n臺南社大口琴班 指導：黃渝雯\n美鈴、子翰、偉智、政道、世明、建禮、淑琴、素芬、炳璋、道英",
+      "images": [
+        "https://i.ytimg.com/vi/WOgRH5AqIkA/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/WOgRH5AqIkA/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/6e23a4e3939fdc3b357c.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_k1VTc1Tx6tzd08T2ws0LtlnhtrhGK6uCO7R2aRt5okzCcn=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/984f994442c9c304149b.webp",
+      "source_initials": "BH",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽",
+        "學生社團"
+      ],
+      "key": "yt_yoyo708520:WOgRH5AqIkA"
     },
     {
       "title": "張筑婷｜恭喜家靖老師出了第二本複音口琴獨奏曲集 《推拉式分解和弦》 也很榮幸家靖老師的邀請 為他寫推薦序 家靖老師擅長高難度的技巧 以及靈活的舌頭轉換 非常適合正在學習複音口琴的學生來鑽研 其中也有適合不同程度的比賽曲 希望可以讓學習複音…",

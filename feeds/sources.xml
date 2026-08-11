@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 11 Aug 2026 09:25:40 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 10:33:53 +0000</lastBuildDate>
+    <item>
+      <title>梁承熹 Kelvin Leung</title>
+      <link>https://harmonica-kelvin.weebly.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/fbf9a193b1b32198</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：香港
+地區：香港
+香港半音階口琴演奏者，活躍於國際音樂節演出交流。</description>
+    </item>
     <item>
       <title>新加坡國立大學口琴社</title>
       <link>https://osa.nus.edu.sg/nusartsfestival/event/constellations-under-starlit-skies/</link>
@@ -71,6 +82,17 @@ Tag：品牌、教學器材、教學
 國家：臺灣
 地區：臺灣
 臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
+    </item>
+    <item>
+      <title>臺中國家歌劇院</title>
+      <link>https://www.npac-ntt.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/臺中
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>Lee Hangyeol 이한결</title>
@@ -469,28 +491,6 @@ Tag：演奏者
 臺灣的口琴演出人員，活動脈絡包含胖擊系。</description>
     </item>
     <item>
-      <title>梁承熹 Kelvin Leung</title>
-      <link>https://harmonica-kelvin.weebly.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/fbf9a193b1b32198</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：香港
-地區：香港
-香港半音階口琴演奏者，活躍於國際音樂節演出交流。</description>
-    </item>
-    <item>
-      <title>臺中國家歌劇院</title>
-      <link>https://www.npac-ntt.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/臺中
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
-    </item>
-    <item>
       <title>Lee Oskar</title>
       <link>https://leeoskar.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/46bea6a12ee3ef49</guid>
@@ -500,6 +500,17 @@ Tag：品牌、演奏者、團體樂團、十孔、國際交流
 國家：丹麥
 地區：美國
 丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。</description>
+    </item>
+    <item>
+      <title>巴巴口琴坊</title>
+      <link>https://www.facebook.com/babaharmonica/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/622b83405706e03b</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：品牌、教學器材、教學
+國家：臺灣
+地區：臺灣/臺南
+臺灣的口琴教學與活動來源，關注口琴教學、演出與社團經營。</description>
     </item>
     <item>
       <title>Easttop Harmonicas</title>
@@ -1369,17 +1380,6 @@ Tag：團體樂團、重奏
 國家：臺灣
 地區：臺灣
 臺灣的口琴重奏與合奏演出團體，活動脈絡包含地方演出與老牌合奏。</description>
-    </item>
-    <item>
-      <title>巴巴口琴坊</title>
-      <link>https://www.facebook.com/babaharmonica/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/622b83405706e03b</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：品牌、教學器材、教學
-國家：臺灣
-地區：臺灣/臺南
-臺灣的口琴教學與活動來源，關注口琴教學、演出與社團經營。</description>
     </item>
     <item>
       <title>狂響逗嘴鼓口琴樂坊</title>
