@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 646,
+  "count": 647,
   "items": [
     {
       "title": "RedBricks Harmonica｜感謝臺灣口琴音樂節各位琴友的大力支持💖 攤位上的實體樂譜已全數售罄😮 如果還有琴友們對RedBricks樂譜有興趣的話，本地及海外朋友都可以查詢RedBricks口琴樂團樂譜🧱 大家可以私訊FB /…",
@@ -295,6 +295,83 @@
         "公開活動"
       ],
       "key": "ig_nationaltaichungtheater:https://www.instagram.com/p/Db4rhpDl_FW/"
+    },
+    {
+      "title": "Reyharp and Balawan Project｜Nice Duet Harmonica and Keys with one and only @jeremymonteiro 😎",
+      "headline": "Nice Duet Harmonica and Keys with one and only @jeremymonteiro 😎",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/Db4k0FyKTSr/",
+      "source_id": "ig_reyharpnaufal",
+      "source": "Reyharp and Balawan Project",
+      "source_system_name": "Reyharp and Balawan Project",
+      "source_profile_url": "https://www.instagram.com/reyharpnaufal/",
+      "country": "印尼",
+      "region": "印尼",
+      "directory_entry_id": "watchlist-127",
+      "directory_entry_name": "Reyharp and Balawan Project",
+      "account": "reyharpnaufal",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Tue, 11 Aug 2026 03:02:20 GMT",
+      "posted_at_local": "2026-08-11 11:02",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-11T14:57:32.174686+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/reyharpnaufal",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "演出",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.86,
+      "llm_labels": [
+        "口琴",
+        "演出",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文明確提到口琴與鍵盤合奏的公開更新，屬口琴演奏內容。",
+      "text": "Nice Duet Harmonica and Keys with one and only @jeremymonteiro 😎",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/766194206_18614798509022172_7557451034254815512_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=Mzk2MTA3Nzc4MTU2OTgxMTYyNzE4NjE0Nzk4NTA2MDIyMTcy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjQ4MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=URbCzAoNbbUQ7kNvwG16epp&_nc_oc=AdoDbTbovDcjvkC3NJWf93IKckbNHCpBIahtxiKPYDEpxunFlNB6VLwmBzDog-GrZpA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=5TDoxoXBUVhBYnddhqje7w&_nc_ss=7a22e&oh=00_AQGHnD7IEtAqx1rRxtOzUzVOKQ4B793IsIpBcEZlUkBguw&oe=6A8106A1"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQNHtB_UwfBrqlfV5mj4v_zYrK-EgNUumriZMCxbtKp0LX_JgKB2IEsU_tPBE6_yBiO4_B8dWS01QJxPq_G3ulZaSFJm4-GTQ5KeCsY.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=nn0S1oyIlNQQ7kNvwFHjwMI&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNDgwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTA3MjcyNDgzMTk1NzgwOSwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo2MCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=b4ce933c008d174e&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8zQzQ4NjBCNDY2RURDODFCMjZGRDE1OEU4MTY4RDZBRl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzg0NEEwNzNDOTNBMEUwRUQwMTJGRDEwRTA5QjY4M0E2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbizOfo5ujnAxUCKAJDMywXQE5zMzMzMzMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=5TDoxoXBUVhBYnddhqje7w&_nc_ss=7a22e&_nc_zt=28&oh=00_AQFUZSp-IUqIlCWMEj4MAH2VN8HcMxS5AIUDioq64t2pWA&oe=6A7D1E45"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/766194206_18614798509022172_7557451034254815512_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=Mzk2MTA3Nzc4MTU2OTgxMTYyNzE4NjE0Nzk4NTA2MDIyMTcy.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjQ4MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=URbCzAoNbbUQ7kNvwG16epp&_nc_oc=AdoDbTbovDcjvkC3NJWf93IKckbNHCpBIahtxiKPYDEpxunFlNB6VLwmBzDog-GrZpA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=5TDoxoXBUVhBYnddhqje7w&_nc_ss=7a22e&oh=00_AQGHnD7IEtAqx1rRxtOzUzVOKQ4B793IsIpBcEZlUkBguw&oe=6A8106A1",
+      "image_url": "/assets/feed-images/bddc4eafd90c7dcf2e46.webp",
+      "image_width": 480,
+      "image_height": 854,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/330881311_695891772241917_6829535965100579131_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby43MzAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=109&_nc_oc=Q6cZ2gHwjyArsnG80brXrXQe1Ub0iogszsjwhmFv2OtlVe_uGJX2EmotLlM8eGB1SEcwHfs&_nc_ohc=jTAJ0DqTy0sQ7kNvwH83RK9&_nc_gid=EFDCpk23uBbQ_vsVVwsU1w&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQEB7nHHGMSWsPtT0xQEQNzXy6eNrqGsdkvnj-jVaM2lBg&oe=6A8107EF&_nc_sid=ee9879",
+      "avatar_url": "/assets/source-avatars/e1fe68fe8c619da1c9cd.webp",
+      "source_initials": "RAB",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_reyharpnaufal:https://www.instagram.com/p/Db4k0FyKTSr/"
     },
     {
       "title": "Lee Hangyeol 이한결｜8.7~8.9 THMF @taiwanharmonica 좋은 사람들과 좋은 시간 보내다 갑니다! I had a wonderful time with great people! #서울솔리스츠…",
