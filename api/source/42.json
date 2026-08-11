@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T04:31:46.342846Z",
+  "generatedAt": "2026-08-11T05:37:30.495384Z",
   "source": {
     "id": 42,
     "slug": "hsin-ho-wang",
@@ -20,20 +20,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/da1df4fc6626d5424330.webp",
         "width": 720,
         "height": 397
-      }
-    },
-    {
-      "id": "post-efcfd590d21d575721d2a3ef",
-      "title": "【Cover | Laufey - Lucky for me】",
-      "excerpt": "【Cover | Laufey - Lucky for me】 #harmonica #cover #laufey",
-      "url": "https://www.instagram.com/p/DarmAbgTvaC/",
-      "sourceName": "王心禾",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-12T05:30:13Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/947f6750c42c368c0aea.webp",
-        "width": 800,
-        "height": 1423
       }
     }
   ]

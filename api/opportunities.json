@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
   "json": "https://harmonica.observe.tw/api/opportunities.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/opportunities.json",
-  "count": 137,
+  "count": 136,
   "items": [
     {
       "title": "音和樂器口琴專賣店｜「郵龍口琴樂團」臺灣口琴音樂節_交流音樂會演出 曲目：北方民族生活素描第一樂章【賽馬】 📣萬華社大【龍韻口琴合奏班】招生中 授課老師：夏晨茹、張宇樞 上課地點：臺北市龍山國中 上課時間：週一（晚） 🟡授課內容： 📍口琴…",
@@ -10968,79 +10968,6 @@
         "補助比賽"
       ],
       "key": "ig_yellowpinemusicfestival:https://www.instagram.com/p/Datar4cCXiA/"
-    },
-    {
-      "title": "胖擊口琴樂團Punch Harmonica Ensemble｜胖擊今年一樣負責B1聯誼廳相關活動，其中就包含迷你賽！ 迷你賽主旨為：讓本不相識的琴友共同完成曲目並演出。 每年都有許多精彩又充滿創意的演出輪番登場，大家一起欣賞、一起歡笑，也…",
-      "headline": "胖擊今年一樣負責B1聯誼廳相關活動，其中就包含迷你賽！",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.facebook.com/Punch.Harp/posts/pfbid0JG4EvsemPE17rYMWtiH9Rj7TkbrTphsfvyF71rhCTQm5Kb47amg6qe9uxGFuXREfl",
-      "source_id": "fb_punch_harp",
-      "source": "胖擊口琴樂團Punch Harmonica Ensemble",
-      "source_system_name": "胖擊口琴樂團",
-      "source_profile_url": "https://facebook.com/Punch.Harp",
-      "country": "臺灣",
-      "region": "臺灣",
-      "directory_entry_id": "watchlist-5",
-      "directory_entry_name": "胖擊口琴樂團",
-      "account": "Punch.Harp",
-      "platform": "facebook",
-      "platform_label": "Facebook",
-      "posted_at": "2026-07-12T04:42:08.000Z",
-      "posted_at_local": "2026-07-12 12:42",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-07-14T02:40:52.018497+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "演出",
-        "交流",
-        "比賽",
-        "報名"
-      ],
-      "keyword_matches": [
-        "演出",
-        "交流",
-        "比賽",
-        "報名"
-      ],
-      "llm_relevant": null,
-      "llm_confidence": null,
-      "llm_labels": [],
-      "llm_categories": [],
-      "llm_reason": "",
-      "text": "胖擊今年一樣負責B1聯誼廳相關活動，其中就包含迷你賽！\n迷你賽主旨為：讓本不相識的琴友共同完成曲目並演出。\n每年都有許多精彩又充滿創意的演出輪番登場，大家一起欣賞、一起歡笑，也認識了不少新朋友！\n期待和大家一起，度過趣味歡快的迷你賽😉\n❗ 迷你賽規則暨報名連結：\nhttps://reurl.cc/eQx897\n#本活動以交流為主\n#本比賽毫無公正性",
-      "images": [],
-      "videos": [],
-      "source_image_url": "",
-      "image_url": "",
-      "image_width": null,
-      "image_height": null,
-      "source_avatar_url": "https://scontent-atl3-2.xx.fbcdn.net/v/t39.30808-1/306089315_495862175887373_2060476016251702140_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx800x800&ctp=s50x50&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=aweGCJee0WcQ7kNvwG7rzzJ&_nc_oc=Adp4bnK7DlCNQnjbpNy46oHEx4mmiux2g8Gpzua4k2xcjSBrAAkPSKfuyNkbyes2iTg&_nc_zt=24&_nc_ht=scontent-atl3-2.xx&_nc_gid=0eDVkGhHBAmJffNFfNPVTg&_nc_ss=72289&oh=00_AQDhBDnd4O1We4YqDjtqnpSLlBas4xoW7QzY3SUlQZqwwQ&oe=6A5B76BC",
-      "avatar_url": "/assets/source-avatars/90681bacf927a6e01c1f.webp",
-      "source_initials": "PHE",
-      "categories": [
-        "posts-videos",
-        "events",
-        "opportunities"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動",
-        "補助比賽"
-      ],
-      "key": "fb_punch_harp:1534994261974154"
     }
   ]
 }
