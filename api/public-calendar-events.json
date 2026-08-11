@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-11T22:57:52+08:00",
+  "generatedAt": "2026-08-12T00:03:39+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 7,
+  "count": 5,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 14,
+      "cached": 12,
       "errors": 0
     }
   },
@@ -91,85 +91,6 @@
         "https://i.ytimg.com/vi/PA11sSFkJeA/maxresdefault.jpg"
       ],
       "image_url": "https://i.ytimg.com/vi/PA11sSFkJeA/maxresdefault.jpg"
-    },
-    {
-      "id": "b97c65ab151a748d",
-      "title": "午間音樂會",
-      "eventName": "午間音樂會",
-      "source": "臺灣口琴音樂節 Taiwan Harmonica Music Festival",
-      "platform": "instagram",
-      "start": "2026-08-09",
-      "end": "2026-08-10",
-      "allDay": true,
-      "calendarType": "taiwan_physical",
-      "timezone": "Asia/Taipei",
-      "location": "臺灣口琴音樂節",
-      "venue": "臺灣口琴音樂節",
-      "city": "臺灣",
-      "details": "主辦／演出者：臺灣口琴音樂節 THMF。8/9（日）午間音樂會，演出者包含 IniXial、Seoul Soloists Harmonica Orchestra、Dr. Blue 等口琴團體與演奏者。貼文為活動演出者介紹，屬於臺灣實體口琴活動。",
-      "evidenceUrl": "https://www.instagram.com/p/DbeuN1zk-Oz/",
-      "confidence": 0.95,
-      "calendarReview": {
-        "include": true,
-        "country": "臺灣",
-        "eventMode": "taiwan_physical",
-        "timezone": "Asia/Taipei",
-        "candidateDateMatches": true,
-        "eventName": "午間音樂會",
-        "venue": "臺灣口琴音樂節",
-        "city": "臺灣",
-        "details": "主辦／演出者：臺灣口琴音樂節 THMF。8/9（日）午間音樂會，演出者包含 IniXial、Seoul Soloists Harmonica Orchestra、Dr. Blue 等口琴團體與演奏者。貼文為活動演出者介紹，屬於臺灣實體口琴活動。",
-        "reason": "候選日期 2026-08-09 與貼文中的 8/9（日）午間音樂會一致，且為臺灣實體口琴活動。",
-        "confidence": 0.95
-      },
-      "postedAt": "2026-08-01 10:03",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/761016013_17951919954238733_6150926269827049830_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzk1Mzc5OTkzOTA2Mjg3MjI1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTg0My5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GwHUuwbU1dMQ7kNvwF1cpS0&_nc_oc=AdplkrkzLmBVCQIqShg0cm3zbi34zA8hfuZNqjoo1TSJPtiC-_IrESwXW_GwKACgasI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=ZX2TQk8BymZKXF-qUcOKiw&_nc_ss=7a22e&oh=00_AQGqeXCDzqJ1dUZF_TsHNQD5Ob54gD4GOAQ4_YNJy3eNhg&oe=6A73B7F0",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/760366329_17951919963238733_7048605284604875427_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=Mzk1Mzc5OTk0MTUyOTE5MDcxNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjYyOS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Wb8qKmr6S4AQ7kNvwG0Any7&_nc_oc=Adq6-vm3UamkzW3WvX1x1wh0gpNd-kYp7EUMEo3I9QpbnfHO-cIht0nECyWHzedE2KU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=ZX2TQk8BymZKXF-qUcOKiw&_nc_ss=7a22e&oh=00_AQH0RLKs-TlnvK9cxlhhiInE2uoTE8IcvHbFwy_YAX_fBQ&oe=6A73BD29",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/762512754_17951919972238733_3625218622646896448_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk1Mzc5OTk0OTQ4MTYxMDY0Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjE1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=NsHfrcRKAKsQ7kNvwENJSug&_nc_oc=AdomjbjEtexMs2Hc0QPNq67I0u_i8h1OCoszhfs38Q-YLU49_oWLEzOGL7iZ2uScgfw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=ZX2TQk8BymZKXF-qUcOKiw&_nc_ss=7a22e&oh=00_AQGa-bJQaIUQ1LmkySJS7uPnKUo-r9xJpNonM4m50bqd0A&oe=6A73B1C4",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/759456392_17951919990238733_1835683205177907229_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzk1Mzc5OTk1MjM5MjUxODQyNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzY0OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FlBAxqAWq9wQ7kNvwGzSYdp&_nc_oc=Adq2hhd05Jwllps_s6LatNlcyBQpXg6zbYak1Pt8JBeUxzLaKRXE6FWvBKsHZj-ChPU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=ZX2TQk8BymZKXF-qUcOKiw&_nc_ss=7a22e&oh=00_AQFIz5wyQNA_STMrMnhKhQRtgpROV6EZa_SCOTFwE86QAA&oe=6A739362",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/759803703_17951919999238733_6527632589464096676_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=Mzk1Mzc5OTk2NDYyMjg4MjQ2Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNDA5Ni5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=SoWL4OH9wcYQ7kNvwFkBbIO&_nc_oc=AdryKVRJVHc1FjNi2yoQ06RfxdjyIU1p4iLEZZ5jTPs4LzsbojYsylZGhIw-c1hbf00&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=ZX2TQk8BymZKXF-qUcOKiw&_nc_ss=7a22e&oh=00_AQENz2PladsyDAWhYAz2f6SlprOl0uHWGEsh1DFA9nmHOA&oe=6A73AD13",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/760285770_17951919981238733_4760071639825166033_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=Mzk1Mzc5OTk2NTE2ODM0NzQ2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTE0OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GbS_tBp9A04Q7kNvwEf1hVN&_nc_oc=AdrmhYVpXcgdtly0IHK6DAArnhNZ0aPfOID9P79D90GISMFwYdJczIxTszNx1iEwjCY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=ZX2TQk8BymZKXF-qUcOKiw&_nc_ss=7a22e&oh=00_AQEDbSzgH5MMe_GxcQJnEjogdin1fxCDVxArf4oTVmTPyw&oe=6A73B6FA",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/760938940_17951920008238733_2140003039523346941_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=Mzk1Mzc5OTk2NTA5Mjc1MDIyMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzE4OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=B7M7agf4AM0Q7kNvwGIDn7z&_nc_oc=AdpT-y_w53LOYq5s_7OqFKZxbF4wccEQlA1yCnyM_SFVmLok0fCaqOW0kIegCkD3UsA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=ZX2TQk8BymZKXF-qUcOKiw&_nc_ss=7a22e&oh=00_AQGYERokwoJ9Z3ohcgzpIujO23k8mLw55xaKtX0J_CLX8A&oe=6A739D94"
-      ],
-      "image_url": "/assets/feed-images/637f54cf5b5e81c35be0.webp"
-    },
-    {
-      "id": "e3d638745ae65855",
-      "title": "竹韻，再次響起",
-      "eventName": "竹韻，再次響起",
-      "source": "陽明交大竹韻口琴社",
-      "platform": "instagram",
-      "start": "2026-08-09",
-      "end": "2026-08-10",
-      "allDay": true,
-      "calendarType": "taiwan_physical",
-      "timezone": "Asia/Taipei",
-      "location": "新竹市 陽明交大活動中心四樓交誼廳",
-      "venue": "陽明交大活動中心四樓交誼廳",
-      "city": "新竹市",
-      "details": "主辦／演出者：陽明交大竹韻口琴社。為慶祝陽明交大竹韻口琴社重新復社舉辦的復社茶會，活動包含開場、回顧、音樂表演、簡報介紹與大合照。時間為 115/8/9（日）13:30–15:00。",
-      "evidenceUrl": "https://www.instagram.com/p/DbLX1c9lGv9/",
-      "confidence": 0.97,
-      "calendarReview": {
-        "include": true,
-        "country": "臺灣",
-        "eventMode": "taiwan_physical",
-        "timezone": "Asia/Taipei",
-        "candidateDateMatches": true,
-        "eventName": "竹韻，再次響起",
-        "venue": "陽明交大活動中心四樓交誼廳",
-        "city": "新竹市",
-        "details": "主辦／演出者：陽明交大竹韻口琴社。為慶祝陽明交大竹韻口琴社重新復社舉辦的復社茶會，活動包含開場、回顧、音樂表演、簡報介紹與大合照。時間為 115/8/9（日）13:30–15:00。",
-        "reason": "貼文明確寫出活動時間為 115.8.9（日），對應候選日期 2026-08-09；地點在陽明交大活動中心，屬臺灣實體口琴活動。",
-        "confidence": 0.97
-      },
-      "postedAt": "2026-07-24 22:44",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/755331924_18119774629745725_8646370655350030153_n.webp?_nc_cat=111&ig_cache_key=Mzk0ODM0NjQ5NDM2MDMyOTUxMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=iblEceIab-AQ7kNvwFZGj26&_nc_oc=Adr-rq-yupLfQHUh_gCpVHSFaWFeW9QmzPXuqjWoZoc8o4fqOwe-4blRBDnCQV1KskI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=pI4gpyBmH7RBsvowS5teEg&_nc_ss=7a22e&oh=00_AQA--eFbzXJObhtxGq0OmmXf7Z5cS14XRL4nUMes7j2XhQ&oe=6A695DC3",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/753989719_18119774632745725_8736528983331120896_n.webp?_nc_cat=110&ig_cache_key=Mzk0ODM0NjQ5NjY5MjM1OTA2NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=DaGz83LbWscQ7kNvwEwxAWJ&_nc_oc=AdoyRBnEi7FwsS--Upr6K5BqxHcvGzWhxYRCCK0qctaI3B8saZF9XhDZHcx9Wz4bEuQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=pI4gpyBmH7RBsvowS5teEg&_nc_ss=7a22e&oh=00_AQATBeBFiLomnwnweO9TFzOC45tRwzzlzMTvjQRfLtetiw&oe=6A694CA4"
-      ],
-      "image_url": "/assets/feed-images/6b7dd80dd7408fb12c33.webp"
     },
     {
       "eventName": "臺中一中口琴之狼校友音樂會《天琴聲等煙雨》",

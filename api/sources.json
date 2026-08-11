@@ -1,6 +1,6 @@
 {
   "site": "https://harmonica.observe.tw",
-  "generatedAt": "2026-08-11",
+  "generatedAt": "2026-08-12",
   "count": 211,
   "stats": {
     "totalEntries": 211,
@@ -64,6 +64,74 @@
     }
   },
   "entries": [
+    {
+      "id": "watchlist-111",
+      "publicId": "111",
+      "name": "Lee Hangyeol 이한결",
+      "nameEn": "Lee Hangyeol",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "韓國口琴演奏/演出與教學/半音階爵士",
+      "structuredSummary": "韓國口琴演奏/演出與教學/半音階爵士 / 半音階/口琴 / 國際演出人員/教學者",
+      "summary": "韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。",
+      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica SIHF",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/gyeoli_94/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@gyeoli_94"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-11T15:04:51+00:00",
+      "latestUpdateLocal": "2026-08-11 23:04",
+      "latestUpdateSource": "Lee Hangyeol 이한결",
+      "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3961441865294553645/",
+      "avatarUrl": "/assets/source-avatars/f2b6c744032c522f8fc2.webp",
+      "sourceInitials": "LH",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "gyeoli_94",
+          "profileUrl": "https://www.instagram.com/gyeoli_94/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "gyeoli_94",
+          "profileUrl": "https://www.instagram.com/gyeoli_94/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/gyeoli_94/story/0"
+        },
+        {
+          "id": "yt_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@gyeoli_94",
+          "feedUrl": ""
+        }
+      ]
+    },
     {
       "id": "watchlist-58",
       "publicId": "58",
@@ -246,6 +314,177 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@FedericoLinari",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-14",
+      "publicId": "14",
+      "name": "mr.Why 花影樂團",
+      "nameEn": "",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "跨界/流行/李讓相關",
+      "structuredSummary": "跨界/流行/李讓相關 / 口琴/跨界 / 演出團體",
+      "summary": "以李讓為核心的跨界流行口琴演出團體。",
+      "keywords": "mr.Why 花影樂團 李讓",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://portaly.cc/mr.Why"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Mr.WhyWhy/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/mr.why.why/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/MrWhyOfficialChannel/videos"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-11T11:49:08+00:00",
+      "latestUpdateLocal": "2026-08-11 19:49",
+      "latestUpdateSource": "mr.Why 花影樂團",
+      "latestUpdateUrl": "https://www.instagram.com/stories/mr.why.why/3961343359403124643/",
+      "avatarUrl": "/assets/source-avatars/054a9ebb35d30876f114.webp",
+      "sourceInitials": "MW",
+      "sourceTags": [
+        "團體樂團",
+        "演奏者",
+        "演出",
+        "音樂會"
+      ],
+      "sourceSummary": "以李讓為核心的跨界流行口琴演出團體。",
+      "sourceTagReason": "資料明確標示為「團體樂團」，名稱與描述含「演出」、「跨界」、「流行」，並提及核心人物李讓，符合演奏者與團體特徵。",
+      "monitorSources": [
+        {
+          "id": "fb_mr_whywhy",
+          "name": "mr.Why 花影樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Mr.WhyWhy",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_mr_why_why",
+          "name": "mr.Why 花影樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "mr.why.why",
+          "profileUrl": "https://www.instagram.com/mr.why.why/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_mr_why_why",
+          "name": "mr.Why 花影樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "mr.why.why",
+          "profileUrl": "https://www.instagram.com/mr.why.why/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/mr.why.why/story/0"
+        },
+        {
+          "id": "yt_mrwhyofficialchannel",
+          "name": "mr.Why 花影樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/MrWhyOfficialChannel/videos",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-34",
+      "publicId": "34",
+      "name": "王衍華",
+      "nameEn": "Yen-Hua Wang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/胖擊系/半音階與重奏",
+      "structuredSummary": "天狼星/胖擊系/半音階與重奏 / 半音階/重奏 / 演出人員",
+      "summary": "臺灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。",
+      "keywords": "王衍華 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://portaly.cc/yenhua_wang"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yenhua_wang/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@keriw128"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@yenhua_wang"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-11T11:37:00+00:00",
+      "latestUpdateLocal": "2026-08-11 19:37",
+      "latestUpdateSource": "王衍華",
+      "latestUpdateUrl": "https://www.instagram.com/stories/yenhua_wang/3961337256270744853/",
+      "avatarUrl": "/assets/source-avatars/5cad69b7d35250fc250b.webp",
+      "sourceInitials": "王衍",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_yenhua_wang",
+          "name": "王衍華",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yenhua_wang",
+          "profileUrl": "https://www.instagram.com/yenhua_wang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yenhua_wang/story/0"
+        },
+        {
+          "id": "ig_yenhua_wang",
+          "name": "王衍華",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yenhua_wang",
+          "profileUrl": "https://www.instagram.com/yenhua_wang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_yenhua_wang",
+          "name": "王衍華",
+          "platform": "threads",
+          "type": "rss",
+          "username": "yenhua_wang",
+          "profileUrl": "https://www.threads.net/@yenhua_wang",
+          "feedUrl": "https://rss.observe.tw/threads/yenhua_wang"
+        },
+        {
+          "id": "yt_keriw128",
+          "name": "王衍華",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@keriw128",
           "feedUrl": ""
         }
       ]
@@ -743,6 +982,91 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@KelvinLeungharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-132",
+      "publicId": "132",
+      "name": "Antonio Serrano",
+      "nameEn": "Antonio Serrano",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "西班牙",
+      "region": "西班牙",
+      "cityOrFocus": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025",
+      "structuredSummary": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025 / 半音階/十孔 / 國際演出人員",
+      "summary": "西班牙的半音階與十孔國際演出人員，活動脈絡包含馬德里出生、古典藍調爵士流行與與Paco de Lucia合作。",
+      "keywords": "Antonio Serrano harmonica SIHF WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hohner.de/en/antonio-serrano"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/antonioserranoarmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/antonioserranoarmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@antonioserranoofficial"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-11T08:41:00+00:00",
+      "latestUpdateLocal": "2026-08-11 16:41",
+      "latestUpdateSource": "Antonio Serrano",
+      "latestUpdateUrl": "https://www.instagram.com/stories/antonioserranoarmonica/3961248835023951063/",
+      "avatarUrl": "/assets/source-avatars/0bd7a26bd583f0482b3c.webp",
+      "sourceInitials": "AS",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_antonioserranoarmonica",
+          "name": "Antonio Serrano",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/antonioserranoarmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_antonioserranoarmonica",
+          "name": "Antonio Serrano",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "antonioserranoarmonica",
+          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_antonioserranoarmonica",
+          "name": "Antonio Serrano",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "antonioserranoarmonica",
+          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/antonioserranoarmonica/story/0"
+        },
+        {
+          "id": "yt_antonioserranoofficial",
+          "name": "Antonio Serrano",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@antonioserranoofficial",
           "feedUrl": ""
         }
       ]
@@ -1495,74 +1819,6 @@
       ]
     },
     {
-      "id": "watchlist-111",
-      "publicId": "111",
-      "name": "Lee Hangyeol 이한결",
-      "nameEn": "Lee Hangyeol",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "韓國口琴演奏/演出與教學/半音階爵士",
-      "structuredSummary": "韓國口琴演奏/演出與教學/半音階爵士 / 半音階/口琴 / 國際演出人員/教學者",
-      "summary": "韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。",
-      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica SIHF",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/gyeoli_94/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@gyeoli_94"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-11T01:32:44+00:00",
-      "latestUpdateLocal": "2026-08-11 09:32",
-      "latestUpdateSource": "Lee Hangyeol 이한결",
-      "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3961033114364406588/",
-      "avatarUrl": "/assets/source-avatars/f2b6c744032c522f8fc2.webp",
-      "sourceInitials": "LH",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "gyeoli_94",
-          "profileUrl": "https://www.instagram.com/gyeoli_94/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "gyeoli_94",
-          "profileUrl": "https://www.instagram.com/gyeoli_94/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/gyeoli_94/story/0"
-        },
-        {
-          "id": "yt_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@gyeoli_94",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-78",
       "publicId": "78",
       "name": "衛武營國家藝術文化中心",
@@ -2090,7 +2346,7 @@
       "latestUpdateLocal": "2026-08-11 01:55",
       "latestUpdateSource": "張晁滕",
       "latestUpdateUrl": "https://www.instagram.com/stories/chaotengchang/3960802950901376744/",
-      "avatarUrl": "/assets/source-avatars/56e9f611310355f9cee6.webp",
+      "avatarUrl": "/assets/source-avatars/6382a126c455cefadf49.webp",
       "sourceInitials": "張晁",
       "sourceTags": [
         "演奏者",
@@ -2382,90 +2638,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@thmc6470",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-34",
-      "publicId": "34",
-      "name": "王衍華",
-      "nameEn": "Yen-Hua Wang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/胖擊系/半音階與重奏",
-      "structuredSummary": "天狼星/胖擊系/半音階與重奏 / 半音階/重奏 / 演出人員",
-      "summary": "臺灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。",
-      "keywords": "王衍華 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/yenhua_wang"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yenhua_wang/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@keriw128"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@yenhua_wang"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-10T16:07:09+00:00",
-      "latestUpdateLocal": "2026-08-11 00:07",
-      "latestUpdateSource": "王衍華",
-      "latestUpdateUrl": "https://www.instagram.com/stories/yenhua_wang/3960748447361222740/",
-      "avatarUrl": "/assets/source-avatars/5cad69b7d35250fc250b.webp",
-      "sourceInitials": "王衍",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_yenhua_wang",
-          "name": "王衍華",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yenhua_wang",
-          "profileUrl": "https://www.instagram.com/yenhua_wang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yenhua_wang/story/0"
-        },
-        {
-          "id": "ig_yenhua_wang",
-          "name": "王衍華",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yenhua_wang",
-          "profileUrl": "https://www.instagram.com/yenhua_wang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_yenhua_wang",
-          "name": "王衍華",
-          "platform": "threads",
-          "type": "rss",
-          "username": "yenhua_wang",
-          "profileUrl": "https://www.threads.net/@yenhua_wang",
-          "feedUrl": "https://rss.observe.tw/threads/yenhua_wang"
-        },
-        {
-          "id": "yt_keriw128",
-          "name": "王衍華",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@keriw128",
           "feedUrl": ""
         }
       ]
@@ -2813,91 +2985,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-132",
-      "publicId": "132",
-      "name": "Antonio Serrano",
-      "nameEn": "Antonio Serrano",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "西班牙",
-      "region": "西班牙",
-      "cityOrFocus": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025",
-      "structuredSummary": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025 / 半音階/十孔 / 國際演出人員",
-      "summary": "西班牙的半音階與十孔國際演出人員，活動脈絡包含馬德里出生、古典藍調爵士流行與與Paco de Lucia合作。",
-      "keywords": "Antonio Serrano harmonica SIHF WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hohner.de/en/antonio-serrano"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/antonioserranoarmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/antonioserranoarmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@antonioserranoofficial"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-10T14:15:29+00:00",
-      "latestUpdateLocal": "2026-08-10 22:15",
-      "latestUpdateSource": "Antonio Serrano",
-      "latestUpdateUrl": "https://www.instagram.com/stories/antonioserranoarmonica/3960692389371050579/",
-      "avatarUrl": "/assets/source-avatars/0bd7a26bd583f0482b3c.webp",
-      "sourceInitials": "AS",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_antonioserranoarmonica",
-          "name": "Antonio Serrano",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/antonioserranoarmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_antonioserranoarmonica",
-          "name": "Antonio Serrano",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "antonioserranoarmonica",
-          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_antonioserranoarmonica",
-          "name": "Antonio Serrano",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "antonioserranoarmonica",
-          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/antonioserranoarmonica/story/0"
-        },
-        {
-          "id": "yt_antonioserranoofficial",
-          "name": "Antonio Serrano",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@antonioserranoofficial",
           "feedUrl": ""
         }
       ]
@@ -4504,93 +4591,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/mandy730508",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-14",
-      "publicId": "14",
-      "name": "mr.Why 花影樂團",
-      "nameEn": "",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "跨界/流行/李讓相關",
-      "structuredSummary": "跨界/流行/李讓相關 / 口琴/跨界 / 演出團體",
-      "summary": "以李讓為核心的跨界流行口琴演出團體。",
-      "keywords": "mr.Why 花影樂團 李讓",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/mr.Why"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Mr.WhyWhy/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/mr.why.why/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/MrWhyOfficialChannel/videos"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-10T05:03:42+00:00",
-      "latestUpdateLocal": "2026-08-10 13:03",
-      "latestUpdateSource": "mr.Why 花影樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/mr.why.why/3960414561333637744/",
-      "avatarUrl": "/assets/source-avatars/054a9ebb35d30876f114.webp",
-      "sourceInitials": "MW",
-      "sourceTags": [
-        "團體樂團",
-        "演奏者",
-        "演出",
-        "音樂會"
-      ],
-      "sourceSummary": "以李讓為核心的跨界流行口琴演出團體。",
-      "sourceTagReason": "資料明確標示為「團體樂團」，名稱與描述含「演出」、「跨界」、「流行」，並提及核心人物李讓，符合演奏者與團體特徵。",
-      "monitorSources": [
-        {
-          "id": "fb_mr_whywhy",
-          "name": "mr.Why 花影樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Mr.WhyWhy",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_mr_why_why",
-          "name": "mr.Why 花影樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "mr.why.why",
-          "profileUrl": "https://www.instagram.com/mr.why.why/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_mr_why_why",
-          "name": "mr.Why 花影樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "mr.why.why",
-          "profileUrl": "https://www.instagram.com/mr.why.why/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/mr.why.why/story/0"
-        },
-        {
-          "id": "yt_mrwhyofficialchannel",
-          "name": "mr.Why 花影樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/MrWhyOfficialChannel/videos",
           "feedUrl": ""
         }
       ]

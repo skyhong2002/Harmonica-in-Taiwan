@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T14:57:49.404310Z",
+  "generatedAt": "2026-08-11T16:03:36.114176Z",
   "source": {
     "id": 171,
     "slug": "society-for-the-preservation-and-advancement-of-the-harmonica",
@@ -370,20 +370,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/d9c13583d872206b828a.webp",
         "width": 800,
         "height": 683
-      }
-    },
-    {
-      "id": "post-9ceba47643448eb1fa98a0a4",
-      "title": "The 30 day countdown has begun!",
-      "excerpt": "The 30 day countdown has begun! #spah #harmonicalife #harp #bluesharp #harmonica",
-      "url": "https://www.instagram.com/p/DassBMbKp8x/",
-      "sourceName": "口琴保存與推廣協會 SPAH",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-12T15:42:53Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/88ce985e725c4690db4a.webp",
-        "width": 800,
-        "height": 800
       }
     }
   ]
