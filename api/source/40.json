@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T03:26:08.873104Z",
+  "generatedAt": "2026-08-11T03:59:30.874379Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -8,6 +8,34 @@
     "pageUrl": "https://harmonica.observe.tw/source/40-henry-chen/"
   },
   "items": [
+    {
+      "id": "post-ecb8f0ee08ee61324749bbc8",
+      "title": "【就是吹口琴Just Play Harmonica 】｜天上人間｜複音口琴Tremolo Harmonica 演奏版本《C調》",
+      "excerpt": "【就是吹口琴Just Play Harmonica 】｜天上人間｜複音口琴Tremolo Harmonica 演奏版本《C調》 樹上小鳥啼 江畔帆影移 片片雲霞 停留在天空間 天上人間 1941《新茶花女》電影插曲 姚敏 作曲 楊彥歧 作詞 李麗華 原唱 複音口琴演奏版本《C調》",
+      "url": "https://www.youtube.com/watch?v=kBI4tZfFiNU",
+      "sourceName": "陳鴻儀",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-10T09:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/80cf9aecc46ef03973bc.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-eb2786d54cf9aae9fa99a694",
+      "title": "【公益演出】｜基隆慈濟光隆日照中心｜懷春曲｜基隆社大就是吹口琴班演出",
+      "excerpt": "【公益演出】｜基隆慈濟光隆日照中心｜懷春曲｜基隆社大就是吹口琴班演出 懷春曲 《日本演歌 いとしあの星 》 (電影「白蘭の歌」的插曲) 服部良一 作曲 佐藤八郎 作詞 〔台語作詞：高全福〕 原唱：渡辺はま子.1940年 〔台語原演唱：林英美〕 複音口琴演奏版本《Am調》",
+      "url": "https://www.youtube.com/watch?v=94WAlR9Niv0",
+      "sourceName": "陳鴻儀",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-10T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4e819b54c673b7d9c230.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-f8bf001b83e487f4040ae0db",
       "title": "【就是吹口琴Just Play Harmonica 】｜幾時再回頭【逢わずに愛して】｜複音口琴Tremolo Harmonica 獨奏版本《C調》",
