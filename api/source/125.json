@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T16:38:27.026245Z",
+  "generatedAt": "2026-08-11T17:12:34.602167Z",
   "source": {
     "id": 125,
     "slug": "jens-bunge",
@@ -202,20 +202,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/fd85eda7c84221e7ca0f.webp",
         "width": 800,
         "height": 800
-      }
-    },
-    {
-      "id": "post-79581cb95084d887f62be41c",
-      "title": "Jazz On Sukhumvit - “It Could Happen To You”",
-      "excerpt": "Jazz On Sukhumvit - “It Could Happen To You”",
-      "url": "https://www.instagram.com/p/Das1iRaPTrN/",
-      "sourceName": "Jens Bunge",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-12T17:06:27Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/3b41851b4b993925ebc0.webp",
-        "width": 640,
-        "height": 360
       }
     }
   ]

@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Tue, 11 Aug 2026 16:38:28 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 17:12:35 +0000</lastBuildDate>
     <item>
       <title>Lee Hangyeol 이한결</title>
       <link>https://www.instagram.com/gyeoli_94/</link>
@@ -27,6 +27,17 @@ Tag：演奏者、半音階、國際交流
 國家：日本
 地區：日本
 日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+    </item>
+    <item>
+      <title>臺中國家歌劇院</title>
+      <link>https://www.npac-ntt.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/臺中
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>Federico Linari</title>
@@ -62,6 +73,17 @@ Tag：團體樂團、演奏者、演出、音樂會
 以李讓為核心的跨界流行口琴演出團體。</description>
     </item>
     <item>
+      <title>胖擊口琴樂團</title>
+      <link>https://linktr.ee/punch.harp</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c710aae1bf2f4665</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏
+國家：臺灣
+地區：臺灣
+臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。</description>
+    </item>
+    <item>
       <title>王衍華</title>
       <link>https://portaly.cc/yenhua_wang</link>
       <guid>https://harmonica.observe.tw/feeds/sources/d4be998cbe5b2da8</guid>
@@ -82,17 +104,6 @@ Tag：團體樂團、重奏、國際交流
 國家：香港
 地區：香港/國際
 香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
-    </item>
-    <item>
-      <title>胖擊口琴樂團</title>
-      <link>https://linktr.ee/punch.harp</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c710aae1bf2f4665</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏
-國家：臺灣
-地區：臺灣
-臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。</description>
     </item>
     <item>
       <title>Marcos Coll</title>
@@ -247,17 +258,6 @@ Tag：品牌、教學器材、教學
 國家：臺灣
 地區：臺灣
 臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
-    </item>
-    <item>
-      <title>臺中國家歌劇院</title>
-      <link>https://www.npac-ntt.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/臺中
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>衛武營國家藝術文化中心</title>

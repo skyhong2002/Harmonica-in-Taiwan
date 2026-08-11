@@ -171,6 +171,101 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-80",
+      "publicId": "80",
+      "name": "臺中國家歌劇院",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "臺中國家歌劇院 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-ntt.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/npac.ntt/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nationaltaichungtheater/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@nationaltaichungtheater"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-11T13:12:27+00:00",
+      "latestUpdateLocal": "2026-08-11 21:12",
+      "latestUpdateSource": "臺中國家歌劇院",
+      "latestUpdateUrl": "https://www.instagram.com/stories/nationaltaichungtheater/3961385305672156733/",
+      "avatarUrl": "/assets/source-avatars/c691bf893a45ce9251e5.webp",
+      "sourceInitials": "臺中",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_npac_ntt",
+          "name": "臺中國家歌劇院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/npac.ntt",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
+        },
+        {
+          "id": "threads_nationaltaichungtheater",
+          "name": "臺中國家歌劇院",
+          "platform": "threads",
+          "type": "rss",
+          "username": "nationaltaichungtheater",
+          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
+          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
+        },
+        {
+          "id": "yt_uctl1euke_x0w6tahecepgmq",
+          "name": "臺中國家歌劇院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-118",
       "publicId": "118",
       "name": "Federico Linari",
@@ -417,6 +512,102 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-5",
+      "publicId": "5",
+      "name": "胖擊口琴樂團",
+      "nameEn": "Punch Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/公演/年輕團體",
+      "structuredSummary": "重奏/公演/年輕團體 / 口琴重奏/合奏 / 演出團體",
+      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。",
+      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/punch.harp"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Punch.Harp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/punch.harp/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@punchharp"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@punch.harp"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-11T11:39:53+00:00",
+      "latestUpdateLocal": "2026-08-11 19:39",
+      "latestUpdateSource": "胖擊口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/p/Db5cukFj-rs/",
+      "avatarUrl": "/assets/source-avatars/e483e3aa80cc3befdab7.webp",
+      "sourceInitials": "胖擊",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Punch.Harp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "punch.harp",
+          "profileUrl": "https://www.instagram.com/punch.harp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "punch.harp",
+          "profileUrl": "https://www.instagram.com/punch.harp/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/punch.harp/story/0"
+        },
+        {
+          "id": "threads_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "threads",
+          "type": "rss",
+          "username": "punch.harp",
+          "profileUrl": "https://www.threads.net/@punch.harp",
+          "feedUrl": "https://rss.observe.tw/threads/punch.harp"
+        },
+        {
+          "id": "yt_punchharp",
+          "name": "胖擊口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@punchharp",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-34",
       "publicId": "34",
       "name": "王衍華",
@@ -576,102 +767,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@RedBricksHarmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-5",
-      "publicId": "5",
-      "name": "胖擊口琴樂團",
-      "nameEn": "Punch Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/公演/年輕團體",
-      "structuredSummary": "重奏/公演/年輕團體 / 口琴重奏/合奏 / 演出團體",
-      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。",
-      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/punch.harp"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Punch.Harp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/punch.harp/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@punchharp"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@punch.harp"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-11T11:23:34+00:00",
-      "latestUpdateLocal": "2026-08-11 19:23",
-      "latestUpdateSource": "胖擊口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/punch.harp/3961330485917880396/",
-      "avatarUrl": "/assets/source-avatars/e483e3aa80cc3befdab7.webp",
-      "sourceInitials": "胖擊",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Punch.Harp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "punch.harp",
-          "profileUrl": "https://www.instagram.com/punch.harp/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "punch.harp",
-          "profileUrl": "https://www.instagram.com/punch.harp/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/punch.harp/story/0"
-        },
-        {
-          "id": "threads_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "threads",
-          "type": "rss",
-          "username": "punch.harp",
-          "profileUrl": "https://www.threads.net/@punch.harp",
-          "feedUrl": "https://rss.observe.tw/threads/punch.harp"
-        },
-        {
-          "id": "yt_punchharp",
-          "name": "胖擊口琴樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@punchharp",
           "feedUrl": ""
         }
       ]
@@ -1559,7 +1654,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-11 13:40",
       "latestUpdateSource": "黃冠誌",
       "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3961157853091563014/",
-      "avatarUrl": "/assets/source-avatars/62a00b9ac1e921cab639.webp",
+      "avatarUrl": "/assets/source-avatars/463444effe2e8bcd08fa.webp",
       "sourceInitials": "黃冠",
       "sourceTags": [
         "演奏者",
@@ -1826,101 +1921,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@oufrog",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-80",
-      "publicId": "80",
-      "name": "臺中國家歌劇院",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "臺中國家歌劇院 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-ntt.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/npac.ntt/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nationaltaichungtheater/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@nationaltaichungtheater"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-11T04:00:10+00:00",
-      "latestUpdateLocal": "2026-08-11 12:00",
-      "latestUpdateSource": "臺中國家歌劇院",
-      "latestUpdateUrl": "https://www.instagram.com/p/Db4rhpDl_FW/",
-      "avatarUrl": "/assets/source-avatars/c691bf893a45ce9251e5.webp",
-      "sourceInitials": "臺中",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_npac_ntt",
-          "name": "臺中國家歌劇院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/npac.ntt",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
-        },
-        {
-          "id": "threads_nationaltaichungtheater",
-          "name": "臺中國家歌劇院",
-          "platform": "threads",
-          "type": "rss",
-          "username": "nationaltaichungtheater",
-          "profileUrl": "https://www.threads.net/@nationaltaichungtheater",
-          "feedUrl": "https://rss.observe.tw/threads/nationaltaichungtheater"
-        },
-        {
-          "id": "yt_uctl1euke_x0w6tahecepgmq",
-          "name": "臺中國家歌劇院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
           "feedUrl": ""
         }
       ]
