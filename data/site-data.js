@@ -2,6 +2,178 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-11",
   "entries": [
     {
+      "id": "watchlist-211",
+      "publicId": "211",
+      "name": "新加坡國立大學口琴社",
+      "nameEn": "NUS Harmonica",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "新加坡",
+      "region": "新加坡/肯特崗",
+      "cityOrFocus": "新加坡國立大學/學校社團/肯特崗",
+      "structuredSummary": "新加坡國立大學/學校社團/肯特崗 / 口琴樂團/學生合奏 / 學校社團",
+      "summary": "新加坡的口琴樂團與學生合奏學校社團。",
+      "keywords": "新加坡國立大學口琴社 NUS Harmonica NUS Harmonica Orchestra Singapore student harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://osa.nus.edu.sg/nusartsfestival/event/constellations-under-starlit-skies/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/nusharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nusharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@NUSHO"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-11T06:18:37+00:00",
+      "latestUpdateLocal": "2026-08-11 14:18",
+      "latestUpdateSource": "新加坡國立大學口琴社",
+      "latestUpdateUrl": "https://www.instagram.com/stories/nusharmonica/3961177025779613455/",
+      "avatarUrl": "/assets/source-avatars/2f3a7bd2bf72fd2dec84.webp",
+      "sourceInitials": "新加",
+      "sourceTags": [
+        "學生社團",
+        "大專社團",
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_nusharmonica",
+          "name": "新加坡國立大學口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/nusharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nusharmonica",
+          "name": "新加坡國立大學口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nusharmonica",
+          "profileUrl": "https://www.instagram.com/nusharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nusharmonica",
+          "name": "新加坡國立大學口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nusharmonica",
+          "profileUrl": "https://www.instagram.com/nusharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nusharmonica/story/0"
+        },
+        {
+          "id": "yt_nusho",
+          "name": "新加坡國立大學口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@NUSHO",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-46",
+      "publicId": "46",
+      "name": "廖苡晴",
+      "nameEn": "Alysa Liao",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "半音階獨奏／111 Duo／111 Trio／111 Quintet／國際比賽",
+      "structuredSummary": "半音階獨奏／111 Duo／111 Trio／111 Quintet／國際比賽 / 半音階 / 演出人員",
+      "summary": "臺灣半音階口琴演奏者，2025 世界口琴節獲公開組冠軍，並參與 111 Duo、Trio 與 Quintet。",
+      "keywords": "廖苡晴 Alysa Liao 111 Duo 111 Trio 111 Quintet 世界口琴節 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://laelapsharmonica.com/zh/laelaps-club/alysa-liao/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/__yich___/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@alysaliao"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@__yich___"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-11T06:00:00+00:00",
+      "latestUpdateLocal": "2026-08-11 14:00",
+      "latestUpdateSource": "廖苡晴",
+      "latestUpdateUrl": "https://www.instagram.com/stories/__yich___/3961167634187237401/",
+      "avatarUrl": "/assets/source-avatars/5b5371b7851220afa3a1.webp",
+      "sourceInitials": "廖苡",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "重奏",
+        "國際交流",
+        "比賽"
+      ],
+      "sourceSummary": "臺灣半音階口琴演奏者，2025 世界口琴節獲公開組冠軍，並參與 111 Duo、Trio 與 Quintet。",
+      "sourceTagReason": "整合自官方 YouTube 簡介、Instagram 與公開演奏者頁面。",
+      "monitorSources": [
+        {
+          "id": "ig_story_yich",
+          "name": "廖苡晴",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "__yich___",
+          "profileUrl": "https://www.instagram.com/__yich___/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/__yich___/story/0"
+        },
+        {
+          "id": "ig_yich",
+          "name": "廖苡晴",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "__yich___",
+          "profileUrl": "https://www.instagram.com/__yich___/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_yich",
+          "name": "廖苡晴",
+          "platform": "threads",
+          "type": "rss",
+          "username": "__yich___",
+          "profileUrl": "https://www.threads.net/@__yich___",
+          "feedUrl": "https://rss.observe.tw/threads/__yich___"
+        },
+        {
+          "id": "yt_alysaliao",
+          "name": "廖苡晴",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@alysaliao",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-30",
       "publicId": "30",
       "name": "蔡明憲",
@@ -1489,94 +1661,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@cyleoharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-46",
-      "publicId": "46",
-      "name": "廖苡晴",
-      "nameEn": "Alysa Liao",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "半音階獨奏／111 Duo／111 Trio／111 Quintet／國際比賽",
-      "structuredSummary": "半音階獨奏／111 Duo／111 Trio／111 Quintet／國際比賽 / 半音階 / 演出人員",
-      "summary": "臺灣半音階口琴演奏者，2025 世界口琴節獲公開組冠軍，並參與 111 Duo、Trio 與 Quintet。",
-      "keywords": "廖苡晴 Alysa Liao 111 Duo 111 Trio 111 Quintet 世界口琴節 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://laelapsharmonica.com/zh/laelaps-club/alysa-liao/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/__yich___/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@alysaliao"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@__yich___"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-10T15:17:24+00:00",
-      "latestUpdateLocal": "2026-08-10 23:17",
-      "latestUpdateSource": "廖苡晴",
-      "latestUpdateUrl": "https://www.instagram.com/stories/__yich___/3960723403899840512/",
-      "avatarUrl": "/assets/source-avatars/5b5371b7851220afa3a1.webp",
-      "sourceInitials": "廖苡",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "重奏",
-        "國際交流",
-        "比賽"
-      ],
-      "sourceSummary": "臺灣半音階口琴演奏者，2025 世界口琴節獲公開組冠軍，並參與 111 Duo、Trio 與 Quintet。",
-      "sourceTagReason": "整合自官方 YouTube 簡介、Instagram 與公開演奏者頁面。",
-      "monitorSources": [
-        {
-          "id": "ig_story_yich",
-          "name": "廖苡晴",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "__yich___",
-          "profileUrl": "https://www.instagram.com/__yich___/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/__yich___/story/0"
-        },
-        {
-          "id": "ig_yich",
-          "name": "廖苡晴",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "__yich___",
-          "profileUrl": "https://www.instagram.com/__yich___/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_yich",
-          "name": "廖苡晴",
-          "platform": "threads",
-          "type": "rss",
-          "username": "__yich___",
-          "profileUrl": "https://www.threads.net/@__yich___",
-          "feedUrl": "https://rss.observe.tw/threads/__yich___"
-        },
-        {
-          "id": "yt_alysaliao",
-          "name": "廖苡晴",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@alysaliao",
           "feedUrl": ""
         }
       ]
@@ -3803,90 +3887,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_profile",
           "username": "taro_senga",
           "profileUrl": "https://www.instagram.com/taro_senga/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-211",
-      "publicId": "211",
-      "name": "新加坡國立大學口琴社",
-      "nameEn": "NUS Harmonica",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "新加坡",
-      "region": "新加坡/肯特崗",
-      "cityOrFocus": "新加坡國立大學/學校社團/肯特崗",
-      "structuredSummary": "新加坡國立大學/學校社團/肯特崗 / 口琴樂團/學生合奏 / 學校社團",
-      "summary": "新加坡的口琴樂團與學生合奏學校社團。",
-      "keywords": "新加坡國立大學口琴社 NUS Harmonica NUS Harmonica Orchestra Singapore student harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://osa.nus.edu.sg/nusartsfestival/event/constellations-under-starlit-skies/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/nusharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nusharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@NUSHO"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-10T06:25:29+00:00",
-      "latestUpdateLocal": "2026-08-10 14:25",
-      "latestUpdateSource": "新加坡國立大學口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/p/Db2WCXDIEtz/",
-      "avatarUrl": "/assets/source-avatars/2f3a7bd2bf72fd2dec84.webp",
-      "sourceInitials": "新加",
-      "sourceTags": [
-        "學生社團",
-        "大專社團",
-        "團體樂團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_nusharmonica",
-          "name": "新加坡國立大學口琴社",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/nusharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nusharmonica",
-          "name": "新加坡國立大學口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nusharmonica",
-          "profileUrl": "https://www.instagram.com/nusharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nusharmonica",
-          "name": "新加坡國立大學口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nusharmonica",
-          "profileUrl": "https://www.instagram.com/nusharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nusharmonica/story/0"
-        },
-        {
-          "id": "yt_nusho",
-          "name": "新加坡國立大學口琴社",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@NUSHO",
           "feedUrl": ""
         }
       ]
