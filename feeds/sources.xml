@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 12 Aug 2026 16:48:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 17:54:29 +0000</lastBuildDate>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -60,6 +60,17 @@ Tag：團體樂團、國際交流
 國家：印尼
 地區：印尼
 印尼的口琴與跨界國際演出團體，活動脈絡包含Reyharp Naufal與Balawan合作、跨界融合與口琴與吉他。</description>
+    </item>
+    <item>
+      <title>臺中國家歌劇院</title>
+      <link>https://www.npac-ntt.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/臺中
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>藍波口琴教室</title>
@@ -194,6 +205,17 @@ Tag：團體樂團、重奏、國際交流
 香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
     </item>
     <item>
+      <title>林裕豐</title>
+      <link>https://harmonica.tw/course/yufeng/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c191270dde8c9c3d</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學
+國家：臺灣
+地區：臺灣
+臺灣口琴演奏者林裕豐，兼職教學與演出。</description>
+    </item>
+    <item>
       <title>胖擊口琴樂團</title>
       <link>https://linktr.ee/punch.harp</link>
       <guid>https://harmonica.observe.tw/feeds/sources/c710aae1bf2f4665</guid>
@@ -214,17 +236,6 @@ Tag：演奏者
 國家：臺灣
 地區：臺灣
 臺灣的口琴演出人員，活動脈絡包含胖擊系。</description>
-    </item>
-    <item>
-      <title>林裕豐</title>
-      <link>https://harmonica.tw/course/yufeng/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c191270dde8c9c3d</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學
-國家：臺灣
-地區：臺灣
-臺灣口琴演奏者林裕豐，兼職教學與演出。</description>
     </item>
     <item>
       <title>黃冠誌</title>
@@ -302,17 +313,6 @@ Tag：演奏者、半音階、國際交流
 國家：香港
 地區：香港
 香港半音階口琴演奏者，活躍於國際音樂節演出交流。</description>
-    </item>
-    <item>
-      <title>臺中國家歌劇院</title>
-      <link>https://www.npac-ntt.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/92ab8199d15afe34</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/臺中
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>菜鳥琴老師很菜</title>
