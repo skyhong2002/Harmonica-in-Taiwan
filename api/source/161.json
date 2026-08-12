@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T00:53:14.839839Z",
+  "generatedAt": "2026-08-12T01:58:14.739024Z",
   "source": {
     "id": 161,
     "slug": "hong-kong-schools-music-festival",
     "name": "香港學校音樂節",
     "pageUrl": "https://harmonica.observe.tw/source/161-hong-kong-schools-music-festival/"
   },
-  "items": [
-    {
-      "id": "post-e24dce04e46a3d72d17e4142",
-      "title": "※ IPSC 2026 Representative │ 2026 年度國際公開演講比賽 香港代表 ※",
-      "excerpt": "※ IPSC 2026 Representative │ 2026 年度國際公開演講比賽 香港代表 ※ ✈️ This week, our IPSC 2026 Hong Kong representative, Tai Ka Ho Ian, begins his journey to the United Kingdom! Having emerged as the representative at the audition in December 2025, Ian has spent the past months preparing for t…",
-      "url": "https://www.instagram.com/p/DatxA9MEhet/",
-      "sourceName": "香港學校音樂節",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-13T01:45:06Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/e1083ebce6c82f3f1cb5.webp",
-        "width": 800,
-        "height": 534
-      }
-    }
-  ]
+  "items": []
 }
