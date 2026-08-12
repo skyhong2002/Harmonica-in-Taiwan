@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T08:32:25.942767Z",
+  "generatedAt": "2026-08-12T09:37:15.387437Z",
   "source": {
     "id": 70,
     "slug": "fata-morgana",
     "name": "Fata Morgana 口琴四重奏",
     "pageUrl": "https://harmonica.observe.tw/source/70-fata-morgana/"
   },
-  "items": [
-    {
-      "id": "post-33e098a311d09be91b47e455",
-      "title": "Met 臺灣口琴音樂節 Taiwan Harmonica Music Festival – Ik ben zojuist erkend als een van de topfans! 🎉",
-      "excerpt": "Met 臺灣口琴音樂節 Taiwan Harmonica Music Festival – Ik ben zojuist erkend als een van de topfans! 🎉",
-      "url": "https://www.facebook.com/fatamorganamusic/posts/pfbid031GSMxwQYDkKuHB3FHLDKC4uqsnEbGPgKmVEJtxWVXxLJ8CJuB68d4VUov7fNMegDl",
-      "sourceName": "Fata Morgana 口琴四重奏",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-13T08:48:03Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/bcf41f498c6d33103fca.webp",
-        "width": 640,
-        "height": 509
-      }
-    }
-  ]
+  "items": []
 }
