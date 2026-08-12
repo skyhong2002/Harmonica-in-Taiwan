@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T03:03:48.087070Z",
+  "generatedAt": "2026-08-12T04:09:27.485439Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/40-henry-chen/"
   },
   "items": [
+    {
+      "id": "post-513d1f157b4ab04a6801fb22",
+      "title": "【就是吹口琴Just Play Harmonica 】｜粉紅超跑《戲說臺灣 片尾曲》｜複音口琴Tremolo Harmonica 演奏版本《C調》",
+      "excerpt": "【就是吹口琴Just Play Harmonica 】｜粉紅超跑《戲說臺灣 片尾曲》｜複音口琴Tremolo Harmonica 演奏版本《C調》 粉紅超跑 《戲說臺灣 片尾曲》 石國人 作曲 石國人 作詞 林 姍 原唱 複音口琴演奏版本《C調》",
+      "url": "https://www.youtube.com/watch?v=x7pmpGGc2Jg",
+      "sourceName": "陳鴻儀",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-12T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1702ee9988b3940c29a2.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-ecb8f0ee08ee61324749bbc8",
       "title": "【就是吹口琴Just Play Harmonica 】｜天上人間｜複音口琴Tremolo Harmonica 演奏版本《C調》",

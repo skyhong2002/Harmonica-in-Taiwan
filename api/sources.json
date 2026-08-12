@@ -65,6 +65,74 @@
   },
   "entries": [
     {
+      "id": "watchlist-111",
+      "publicId": "111",
+      "name": "Lee Hangyeol 이한결",
+      "nameEn": "Lee Hangyeol",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "韓國口琴演奏/演出與教學/半音階爵士",
+      "structuredSummary": "韓國口琴演奏/演出與教學/半音階爵士 / 半音階/口琴 / 國際演出人員/教學者",
+      "summary": "韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。",
+      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica SIHF",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/gyeoli_94/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@gyeoli_94"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-12T03:53:57+00:00",
+      "latestUpdateLocal": "2026-08-12 11:53",
+      "latestUpdateSource": "Lee Hangyeol 이한결",
+      "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3961829003795327267/",
+      "avatarUrl": "/assets/source-avatars/f2b6c744032c522f8fc2.webp",
+      "sourceInitials": "LH",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "gyeoli_94",
+          "profileUrl": "https://www.instagram.com/gyeoli_94/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "gyeoli_94",
+          "profileUrl": "https://www.instagram.com/gyeoli_94/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/gyeoli_94/story/0"
+        },
+        {
+          "id": "yt_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@gyeoli_94",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-133",
       "publicId": "133",
       "name": "Indiara Sfair",
@@ -144,6 +212,107 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@indiarasfair",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-58",
+      "publicId": "58",
+      "name": "南里沙",
+      "nameEn": "Minami Risa",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
+      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
+      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
+      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://minamirisa.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/minamirisa/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/minami_risa/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@minamirisa"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/minami_risa"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@minami_risa"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-12T00:33:45+00:00",
+      "latestUpdateLocal": "2026-08-12 08:33",
+      "latestUpdateSource": "南里沙",
+      "latestUpdateUrl": "https://www.instagram.com/p/Db63Pb8ys5b/",
+      "avatarUrl": "/assets/source-avatars/22fb082262f2ae5a4b00.webp",
+      "sourceInitials": "南里",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_minamirisa",
+          "name": "南里沙",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/minamirisa",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
+        },
+        {
+          "id": "x_minami_risa",
+          "name": "南里沙",
+          "platform": "x",
+          "type": "rss",
+          "username": "minami_risa",
+          "profileUrl": "https://x.com/minami_risa",
+          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
+        },
+        {
+          "id": "yt_minamirisa",
+          "name": "南里沙",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@minamirisa",
           "feedUrl": ""
         }
       ]
@@ -304,6 +473,56 @@
           "username": "has_singapore",
           "profileUrl": "https://www.instagram.com/has_singapore/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/has_singapore/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-40",
+      "publicId": "40",
+      "name": "陳鴻儀",
+      "nameEn": "Henry Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "演出/評審",
+      "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
+      "summary": "口琴演奏家，專注於演出與評審工作。",
+      "keywords": "陳鴻儀 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@HenrysHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-12T00:00:06+00:00",
+      "latestUpdateLocal": "2026-08-12 08:00",
+      "latestUpdateSource": "陳鴻儀",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=x7pmpGGc2Jg",
+      "avatarUrl": "/assets/source-avatars/11010264a3489f5a5679.webp",
+      "sourceInitials": "陳鴻",
+      "sourceTags": [
+        "演奏者",
+        "演出"
+      ],
+      "sourceSummary": "口琴演奏家，專注於演出與評審工作。",
+      "sourceTagReason": "來源類別為「演奏者」，類型為「個人」，城市焦點為「演出/評審」，因此標記演奏者、口琴及演出。",
+      "monitorSources": [
+        {
+          "id": "yt_henrysharmonica",
+          "name": "陳鴻儀",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@HenrysHarmonica",
+          "feedUrl": ""
         }
       ]
     },
@@ -917,6 +1136,90 @@
       ]
     },
     {
+      "id": "watchlist-101",
+      "publicId": "101",
+      "name": "何家健 HarmoniKahkean",
+      "nameEn": "Ho Kah Kean / HarmoniKahkean",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人/地方推廣",
+      "country": "馬來西亞",
+      "region": "臺灣/花蓮；馬來西亞",
+      "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
+      "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
+      "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
+      "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/harmonikahkean"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonikahkean/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kahkeanho/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@hokahkean1999"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-11T15:28:14+00:00",
+      "latestUpdateLocal": "2026-08-11 23:28",
+      "latestUpdateSource": "何家健 HarmoniKahkean",
+      "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3961453690804749451/",
+      "avatarUrl": "/assets/source-avatars/7b33f34d52077af131e9.webp",
+      "sourceInitials": "H",
+      "sourceTags": [
+        "演奏者",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonikahkean",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonikahkean",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/kahkeanho/story/0"
+        },
+        {
+          "id": "yt_hokahkean1999",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@hokahkean1999",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-33",
       "publicId": "33",
       "name": "黃冠誌",
@@ -987,74 +1290,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-111",
-      "publicId": "111",
-      "name": "Lee Hangyeol 이한결",
-      "nameEn": "Lee Hangyeol",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "韓國口琴演奏/演出與教學/半音階爵士",
-      "structuredSummary": "韓國口琴演奏/演出與教學/半音階爵士 / 半音階/口琴 / 國際演出人員/教學者",
-      "summary": "韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。",
-      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica SIHF",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/gyeoli_94/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@gyeoli_94"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-11T15:04:51+00:00",
-      "latestUpdateLocal": "2026-08-11 23:04",
-      "latestUpdateSource": "Lee Hangyeol 이한결",
-      "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3961441865294553645/",
-      "avatarUrl": "/assets/source-avatars/f2b6c744032c522f8fc2.webp",
-      "sourceInitials": "LH",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "gyeoli_94",
-          "profileUrl": "https://www.instagram.com/gyeoli_94/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "gyeoli_94",
-          "profileUrl": "https://www.instagram.com/gyeoli_94/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/gyeoli_94/story/0"
-        },
-        {
-          "id": "yt_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@gyeoli_94",
           "feedUrl": ""
         }
       ]
@@ -1139,107 +1374,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-58",
-      "publicId": "58",
-      "name": "南里沙",
-      "nameEn": "Minami Risa",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
-      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
-      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://minamirisa.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/minamirisa/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/minami_risa/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@minamirisa"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/minami_risa"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@minami_risa"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-11T14:36:10+00:00",
-      "latestUpdateLocal": "2026-08-11 22:36",
-      "latestUpdateSource": "南里沙",
-      "latestUpdateUrl": "https://x.com/minami_risa/status/2087186315297361955",
-      "avatarUrl": "/assets/source-avatars/22fb082262f2ae5a4b00.webp",
-      "sourceInitials": "南里",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_minamirisa",
-          "name": "南里沙",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/minamirisa",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
-        },
-        {
-          "id": "x_minami_risa",
-          "name": "南里沙",
-          "platform": "x",
-          "type": "rss",
-          "username": "minami_risa",
-          "profileUrl": "https://x.com/minami_risa",
-          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
-        },
-        {
-          "id": "yt_minamirisa",
-          "name": "南里沙",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@minamirisa",
           "feedUrl": ""
         }
       ]
@@ -4644,56 +4778,6 @@
       ]
     },
     {
-      "id": "watchlist-40",
-      "publicId": "40",
-      "name": "陳鴻儀",
-      "nameEn": "Henry Chen",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "演出/評審",
-      "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
-      "summary": "口琴演奏家，專注於演出與評審工作。",
-      "keywords": "陳鴻儀 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@HenrysHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-10T09:00:06+00:00",
-      "latestUpdateLocal": "2026-08-10 17:00",
-      "latestUpdateSource": "陳鴻儀",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=kBI4tZfFiNU",
-      "avatarUrl": "/assets/source-avatars/11010264a3489f5a5679.webp",
-      "sourceInitials": "陳鴻",
-      "sourceTags": [
-        "演奏者",
-        "演出"
-      ],
-      "sourceSummary": "口琴演奏家，專注於演出與評審工作。",
-      "sourceTagReason": "來源類別為「演奏者」，類型為「個人」，城市焦點為「演出/評審」，因此標記演奏者、口琴及演出。",
-      "monitorSources": [
-        {
-          "id": "yt_henrysharmonica",
-          "name": "陳鴻儀",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@HenrysHarmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-60",
       "publicId": "60",
       "name": "藤井俊充",
@@ -4992,90 +5076,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@YFHarmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-101",
-      "publicId": "101",
-      "name": "何家健 HarmoniKahkean",
-      "nameEn": "Ho Kah Kean / HarmoniKahkean",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人/地方推廣",
-      "country": "馬來西亞",
-      "region": "臺灣/花蓮；馬來西亞",
-      "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
-      "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
-      "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
-      "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/harmonikahkean"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonikahkean/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/kahkeanho/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@hokahkean1999"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-10T02:10:24+00:00",
-      "latestUpdateLocal": "2026-08-10 10:10",
-      "latestUpdateSource": "何家健 HarmoniKahkean",
-      "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3960327312876992629/",
-      "avatarUrl": "/assets/source-avatars/7b33f34d52077af131e9.webp",
-      "sourceInitials": "H",
-      "sourceTags": [
-        "演奏者",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonikahkean",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonikahkean",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_kahkeanho",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "kahkeanho",
-          "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_kahkeanho",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "kahkeanho",
-          "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/kahkeanho/story/0"
-        },
-        {
-          "id": "yt_hokahkean1999",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@hokahkean1999",
           "feedUrl": ""
         }
       ]
@@ -5484,7 +5484,7 @@
       "latestUpdateLocal": "2026-08-09 17:47",
       "latestUpdateSource": "蔡明勳",
       "latestUpdateUrl": "https://www.instagram.com/stories/minnie.o6i8/3959832756858922441/",
-      "avatarUrl": "/assets/source-avatars/b7291469db4f3e11a2f2.webp",
+      "avatarUrl": "/assets/source-avatars/56a8bb9278176df0e857.webp",
       "sourceInitials": "蔡明",
       "sourceTags": [
         "演奏者",
@@ -6221,7 +6221,7 @@
       "latestUpdateLocal": "2026-08-08 18:17",
       "latestUpdateSource": "Gordon Lee 李俊樂",
       "latestUpdateUrl": "https://www.instagram.com/stories/gordonleeharmonica/3959122669538516405/",
-      "avatarUrl": "/assets/source-avatars/f377fd00740c6fae6724.webp",
+      "avatarUrl": "/assets/source-avatars/b84a6b6581d4e89c5903.webp",
       "sourceInitials": "GL",
       "sourceTags": [
         "演奏者",
