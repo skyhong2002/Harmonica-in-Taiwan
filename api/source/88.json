@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T09:37:15.387437Z",
+  "generatedAt": "2026-08-12T10:44:08.276425Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/88-bluebo-harmonica/"
   },
   "items": [
+    {
+      "id": "post-a1ba3f4c7dbe54d587968739",
+      "title": "口琴也能載歌載舞 邊吹口琴邊跳舞",
+      "excerpt": "口琴也能載歌載舞 邊吹口琴邊跳舞 【小玲子 再現舞蹤】 有粉絲留言說好久沒看到小玲的演奏了，是否可以再聽聽她的表演。其實是因為小玲同學交代不可以po她吹奏的影片，她會有壓力，既然如此，那小編只好po她跳舞的影片，這樣她就不會有壓力了。讓我們再次來欣賞小玲的妖嬈舞姿~ 中正社大一起來跳舞(五) 午",
+      "url": "https://www.youtube.com/watch?v=rq3QNA_x920",
+      "sourceName": "藍波口琴教室",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-12T10:00:00Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/11a1f4daeeedd8baf874.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-964baad6a19f49b32e8c1788",
       "title": "【狂賀 地表最帥 陳俊豪 獲頒優良教師】丨半音階口琴",
