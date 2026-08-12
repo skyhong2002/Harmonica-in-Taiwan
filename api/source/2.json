@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T10:44:08.276425Z",
+  "generatedAt": "2026-08-12T11:50:13.690881Z",
   "source": {
     "id": 2,
     "slug": "taiwan-harmonica-music-festival",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/2-taiwan-harmonica-music-festival/"
   },
   "items": [
+    {
+      "id": "post-b40a2819e4bec0752c85baaa",
+      "title": "🌟2026臺灣口琴音樂節所有賽程與活動，已於8/9（日）圓滿落幕！目前各項賽事成績皆已公告上網，歡迎至官網查詢：",
+      "excerpt": "🌟2026臺灣口琴音樂節所有賽程與活動，已於8/9（日）圓滿落幕！目前各項賽事成績皆已公告上網，歡迎至官網查詢： 隨著最後一場活動結束，本年度的臺灣口琴音樂節也正式告一段落。在此要特別感謝 國立陽明交通大學藝文中心 @nycu_artscenter 與 新竹市政府文化局 @hsinchucity_performancehall 的共同主辦；感謝 獨特音樂 @theduet.music 、 胖擊口琴樂團 @punch.harp、Rhapsody Harmonica Ensemble 狂響口琴樂團、簧格音樂有限公司、新竹市築愛協會以及 博凱愛樂口琴交響樂團…",
+      "url": "https://www.instagram.com/p/Db7HCLmE_gP/",
+      "sourceName": "臺灣口琴音樂節 THMF",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-12T02:48:31Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3e9bb3d40140f0f508c8.webp",
+        "width": 800,
+        "height": 800
+      }
+    },
     {
       "id": "post-734175c84eff1ae2df7972a9",
       "title": "【Punch 胖擊口琴樂團的臺口節前特別問候】",

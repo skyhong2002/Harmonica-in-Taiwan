@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-12T18:44:11+08:00",
+  "generatedAt": "2026-08-12T19:50:16+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
-  "count": 8,
+  "count": 9,
   "source": "/api/events.json",
   "ics": "/feeds/overseas-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 12,
+      "cached": 13,
       "errors": 0
     }
   },
@@ -235,6 +235,43 @@
         "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/761653358_18612351817050240_2590188587154998094_n.jpg?stp=c655.0.1966.1966a_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6O2px-IVY5cQ7kNvwHH-Z5G&_nc_oc=AdqnT2X1NBWMguMiKHWkTVfr7qEAQtyDbu-VekrBu3anN6DdBzi0drV65JQmiZrPYOE&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YLet9VsdHRqztOzPMYljcw&_nc_ss=7b60f&oh=00_AQGVYRe6a9KHZcTPxwLC8SUrI0eUj3WUV5Z30p3UOwVAhQ&oe=6A756848"
       ],
       "image_url": "/assets/feed-images/9d9b79fc0bcd2accabe3.webp"
+    },
+    {
+      "id": "5dc93477d78e7a96",
+      "title": "CY LEO — TWO WORLDS IN ONE《兩界一心》| ASIA TOUR – SINGAPORE",
+      "eventName": "CY LEO — TWO WORLDS IN ONE《兩界一心》| ASIA TOUR – SINGAPORE",
+      "source": "口琴愛好者協會（新加坡）",
+      "platform": "instagram",
+      "start": "2026-10-03",
+      "end": "2026-10-04",
+      "allDay": true,
+      "calendarType": "overseas_physical",
+      "timezone": "Asia/Singapore",
+      "location": "Singapore Esplanade Recital Studio",
+      "venue": "Esplanade Recital Studio",
+      "city": "Singapore",
+      "details": "主辦／演出者：口琴愛好者協會（新加坡）。CY Leo 何卓彥將與嘉賓歌手 Ashley Lin 林愷鈴及巡演樂隊於新加坡演出。票價為 $50，學生／樂齡人士／HAS 會員為 $40，售票平台為 SISTIC。",
+      "evidenceUrl": "https://www.instagram.com/p/Db60nX5Ehw_/",
+      "confidence": 0.98,
+      "calendarReview": {
+        "include": true,
+        "country": "新加坡",
+        "eventMode": "overseas_physical",
+        "timezone": "Asia/Singapore",
+        "candidateDateMatches": true,
+        "eventName": "CY LEO — TWO WORLDS IN ONE《兩界一心》| ASIA TOUR – SINGAPORE",
+        "venue": "Esplanade Recital Studio",
+        "city": "Singapore",
+        "details": "主辦／演出者：口琴愛好者協會（新加坡）。CY Leo 何卓彥將與嘉賓歌手 Ashley Lin 林愷鈴及巡演樂隊於新加坡演出。票價為 $50，學生／樂齡人士／HAS 會員為 $40，售票平台為 SISTIC。",
+        "reason": "候選日期與貼文明確標示的 2026-10-03 演出時間一致，且為新加坡實體口琴音樂會，符合收錄範圍。",
+        "confidence": 0.98
+      },
+      "postedAt": "2026-08-12 07:58",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/771108150_18100375031185087_2606796413001464811_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzk2MTcwNjc4Mjk4MDA1NTY3OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=uJlWFB3qQvsQ7kNvwHDlL55&_nc_oc=AdpMxQ3VlOTIyI-VoRiq8sE7FkF4yyMjclQbRklOL14pHoIUR2To2T0azq6D0VWihEU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=UDMu3TWBT3hhQ6ACmJtQ-Q&_nc_ss=7a22e&oh=00_AQHxPnKiL4DhsSzWXXP6n0K8MPXdkl3ja7vVIWK6TGjMwg&oe=6A8235BC",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/773066356_18100375028185087_3310725270238773065_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzk2MTcwNjc4MzgwMjE1ODEzOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=w48MCEEfi7gQ7kNvwHLRiuE&_nc_oc=Adqal3sKlTKNPOzKggbB0-pFaU1CLV2kVlJ28cbr1cbBz_d4RM0S2t9gpxR__YoNU6k&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=UDMu3TWBT3hhQ6ACmJtQ-Q&_nc_ss=7a22e&oh=00_AQFq_sB-fHBF4QF0DVRg5ysIxwq0mTvTdUD98Sf0LyEyoA&oe=6A821572"
+      ],
+      "image_url": "/assets/feed-images/9577ba65ed1df9c1bfb4.webp"
     },
     {
       "id": "4ecad43e0bebfcf8",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T10:44:08.276425Z",
+  "generatedAt": "2026-08-12T11:50:13.690881Z",
   "source": {
     "id": 30,
     "slug": "30",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/30/"
   },
   "items": [
+    {
+      "id": "post-7f21bbda29f76c41a9b80651",
+      "title": "Tsubame (飛燕 / つばめ), feat. Risa MINAMI 南里沙 | 2026.08.09 臺灣口琴音樂節",
+      "excerpt": "Tsubame (飛燕 / つばめ), feat. Risa MINAMI 南里沙 | 2026.08.09 臺灣口琴音樂節 不知不覺間，臺灣口琴音樂節已經走到了第 11 屆。一路走來，看著臺灣年輕的口琴學子們一年一年成長、茁壯，也看見今年來自不同國家與地區的優秀音樂家齊聚一堂，帶來一場又一場精彩的演出與交流，心中有著許多感動與感觸。 能夠身處在這個時代，與這麼多志同道合的夥伴因為口琴而相遇，並肩走在這條音樂的道路上，一起努力、一起成長、一起向前邁進，真的是一件非常幸福、也值得珍惜的事。 Before we knew it, the Taiwan Ha…",
+      "url": "https://www.instagram.com/p/Db7uPvJTTGS/",
+      "sourceName": "蔡明憲",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-12T08:45:51Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b2b9c6c17716a7d1f465.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-3ad052521f508054ab86f3d9",
       "title": "每年暑假結束臺灣口琴節後都會進入一段冷靜期，回到鄉村享受生活；騎上重機，重新思考接下來一年如何去，要往哪繼續努力：）",
