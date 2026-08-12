@@ -2,6 +2,94 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-12",
   "entries": [
     {
+      "id": "watchlist-67",
+      "publicId": "67",
+      "name": "Marcos Coll",
+      "nameEn": "Marcos Coll",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "西班牙",
+      "region": "西班牙",
+      "cityOrFocus": "十孔/藍調",
+      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
+      "summary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
+      "keywords": "Marcos Coll harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://marcoscoll.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/marcoscollharp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/marcoscollgonzalez/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-12T13:26:00+00:00",
+      "latestUpdateLocal": "2026-08-12 21:26",
+      "latestUpdateSource": "Marcos Coll",
+      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3962116898338376955/",
+      "avatarUrl": "/assets/source-avatars/84fc07e5aec602bc2a41.webp",
+      "sourceInitials": "MC",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流",
+        "音樂會",
+        "演出"
+      ],
+      "sourceSummary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
+      "sourceTagReason": "category為演奏者，type為個人，focus在十孔/藍調，並有國際演出經歷。",
+      "monitorSources": [
+        {
+          "id": "fb_marcoscollharp",
+          "name": "Marcos Coll",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/marcoscollharp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
+        },
+        {
+          "id": "yt_marcoscollharpandsoul",
+          "name": "Marcos Coll",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-88",
       "publicId": "88",
       "name": "藍波口琴教室",
@@ -64,6 +152,99 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-3",
+      "publicId": "3",
+      "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+      "nameEn": "Sirius Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/公演/THMF/國際交流",
+      "structuredSummary": "重奏/公演/THMF/國際交流 / 口琴重奏/合奏 / 演出團體",
+      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與THMF。",
+      "keywords": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/SiriusHarp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/siriusharmonicaensemble/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/SiriusHARP"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@siriusharmonicaensemble"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-12T09:46:58+00:00",
+      "latestUpdateLocal": "2026-08-12 17:46",
+      "latestUpdateSource": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/stories/siriusharmonicaensemble/3962006648927772795/",
+      "avatarUrl": "/assets/source-avatars/c58521311f7dd221da00.webp",
+      "sourceInitials": "SHE",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_siriusharp",
+          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/SiriusHarp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_siriusharmonicaensemble",
+          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "siriusharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/siriusharmonicaensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_siriusharmonicaensemble",
+          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "siriusharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/siriusharmonicaensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/siriusharmonicaensemble/story/0"
+        },
+        {
+          "id": "threads_siriusharmonicaensemble",
+          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+          "platform": "threads",
+          "type": "rss",
+          "username": "siriusharmonicaensemble",
+          "profileUrl": "https://www.threads.net/@siriusharmonicaensemble",
+          "feedUrl": "https://rss.observe.tw/threads/siriusharmonicaensemble"
+        },
+        {
+          "id": "yt_siriusharp",
+          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/SiriusHARP",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-100",
       "publicId": "100",
       "name": "曹小歐",
@@ -105,7 +286,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-12 16:47",
       "latestUpdateSource": "曹小歐",
       "latestUpdateUrl": "https://www.instagram.com/stories/otistsao/3961976505739333702/",
-      "avatarUrl": "/assets/source-avatars/4023dce27985c1518bb9.webp",
+      "avatarUrl": "/assets/source-avatars/b2f1b27b34a095c424a4.webp",
       "sourceInitials": "曹小",
       "sourceTags": [
         "演奏者",
@@ -396,6 +577,90 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@NUSHO",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-140",
+      "publicId": "140",
+      "name": "Gregoire Maret",
+      "nameEn": "Gregoire Maret",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "瑞士",
+      "region": "美國",
+      "cityOrFocus": "紐約發展/Grammy得主/現代爵士半音階/作曲",
+      "structuredSummary": "紐約發展/Grammy得主/現代爵士半音階/作曲 / 半音階 / 國際演出人員/作曲者",
+      "summary": "瑞士的半音階國際演出人員與作曲者，活動脈絡包含紐約發展、Grammy得主與現代爵士半音階。",
+      "keywords": "Gregoire Maret Grégoire Maret harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.gregoiremaret.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/gregoiremaret1/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/gregoiremaret/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@GregoireMaret"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-12T06:45:51+00:00",
+      "latestUpdateLocal": "2026-08-12 14:45",
+      "latestUpdateSource": "Gregoire Maret",
+      "latestUpdateUrl": "https://www.instagram.com/stories/gregoiremaret/3961915488179445228/",
+      "avatarUrl": "/assets/source-avatars/aaa38b3006e2f299e510.webp",
+      "sourceInitials": "GM",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_gregoiremaret1",
+          "name": "Gregoire Maret",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/gregoiremaret1",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_gregoiremaret",
+          "name": "Gregoire Maret",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "gregoiremaret",
+          "profileUrl": "https://www.instagram.com/gregoiremaret/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_gregoiremaret",
+          "name": "Gregoire Maret",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "gregoiremaret",
+          "profileUrl": "https://www.instagram.com/gregoiremaret/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/gregoiremaret/story/0"
+        },
+        {
+          "id": "yt_gregoiremaret",
+          "name": "Gregoire Maret",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@GregoireMaret",
           "feedUrl": ""
         }
       ]
@@ -1515,6 +1780,72 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-97",
+      "publicId": "97",
+      "name": "進擊的口琴樂團",
+      "nameEn": "",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/青年團體/演出",
+      "structuredSummary": "重奏/青年團體/演出 / 口琴重奏 / 演出團體",
+      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含重奏、青年團體與演出。",
+      "keywords": "進擊的口琴樂團 attack_on_harmonica_ensemble 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/attack_on_harmonica_ensemble/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@attack_on_harmonica_ensemble"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-12T02:48:31+00:00",
+      "latestUpdateLocal": "2026-08-12 10:48",
+      "latestUpdateSource": "進擊的口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/p/Db7HCLmE_gP/",
+      "avatarUrl": "/assets/source-avatars/99ba86157fce299ca915.webp",
+      "sourceInitials": "進擊",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_attack_on_harmonica_ensemble",
+          "name": "進擊的口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "attack_on_harmonica_ensemble",
+          "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_attack_on_harmonica_ensemble",
+          "name": "進擊的口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "attack_on_harmonica_ensemble",
+          "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/attack_on_harmonica_ensemble/story/0"
+        },
+        {
+          "id": "threads_attack_on_harmonica_ensemble",
+          "name": "進擊的口琴樂團",
+          "platform": "threads",
+          "type": "rss",
+          "username": "attack_on_harmonica_ensemble",
+          "profileUrl": "https://www.threads.net/@attack_on_harmonica_ensemble",
+          "feedUrl": "https://rss.observe.tw/threads/attack_on_harmonica_ensemble"
         }
       ]
     },
@@ -3323,94 +3654,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-67",
-      "publicId": "67",
-      "name": "Marcos Coll",
-      "nameEn": "Marcos Coll",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "西班牙",
-      "region": "西班牙",
-      "cityOrFocus": "十孔/藍調",
-      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
-      "summary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
-      "keywords": "Marcos Coll harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://marcoscoll.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/marcoscollharp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/marcoscollgonzalez/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-11T11:13:00+00:00",
-      "latestUpdateLocal": "2026-08-11 19:13",
-      "latestUpdateSource": "Marcos Coll",
-      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3961325326327877508/",
-      "avatarUrl": "/assets/source-avatars/84fc07e5aec602bc2a41.webp",
-      "sourceInitials": "MC",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "國際交流",
-        "音樂會",
-        "演出"
-      ],
-      "sourceSummary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
-      "sourceTagReason": "category為演奏者，type為個人，focus在十孔/藍調，並有國際演出經歷。",
-      "monitorSources": [
-        {
-          "id": "fb_marcoscollharp",
-          "name": "Marcos Coll",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/marcoscollharp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
-        },
-        {
-          "id": "yt_marcoscollharpandsoul",
-          "name": "Marcos Coll",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-108",
       "publicId": "108",
       "name": "Rodrigo Eberienos",
@@ -4338,7 +4581,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-11 03:08",
       "latestUpdateSource": "Santiago Alvarez",
       "latestUpdateUrl": "https://www.instagram.com/p/Db3t25FJVMF/",
-      "avatarUrl": "/assets/source-avatars/44f4135c4ded7b219139.webp",
+      "avatarUrl": "/assets/source-avatars/06cac0c8ee07d7b0e453.webp",
       "sourceInitials": "SA",
       "sourceTags": [
         "演奏者",
@@ -4468,72 +4711,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@ChaotengChang",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-97",
-      "publicId": "97",
-      "name": "進擊的口琴樂團",
-      "nameEn": "",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/青年團體/演出",
-      "structuredSummary": "重奏/青年團體/演出 / 口琴重奏 / 演出團體",
-      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含重奏、青年團體與演出。",
-      "keywords": "進擊的口琴樂團 attack_on_harmonica_ensemble 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/attack_on_harmonica_ensemble/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@attack_on_harmonica_ensemble"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-10T14:04:11+00:00",
-      "latestUpdateLocal": "2026-08-10 22:04",
-      "latestUpdateSource": "進擊的口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/attack_on_harmonica_ensemble/3960686549653889457/",
-      "avatarUrl": "/assets/source-avatars/99ba86157fce299ca915.webp",
-      "sourceInitials": "進擊",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_attack_on_harmonica_ensemble",
-          "name": "進擊的口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "attack_on_harmonica_ensemble",
-          "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_attack_on_harmonica_ensemble",
-          "name": "進擊的口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "attack_on_harmonica_ensemble",
-          "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/attack_on_harmonica_ensemble/story/0"
-        },
-        {
-          "id": "threads_attack_on_harmonica_ensemble",
-          "name": "進擊的口琴樂團",
-          "platform": "threads",
-          "type": "rss",
-          "username": "attack_on_harmonica_ensemble",
-          "profileUrl": "https://www.threads.net/@attack_on_harmonica_ensemble",
-          "feedUrl": "https://rss.observe.tw/threads/attack_on_harmonica_ensemble"
         }
       ]
     },
@@ -4685,99 +4862,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@FrescoHarmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-3",
-      "publicId": "3",
-      "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-      "nameEn": "Sirius Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/公演/THMF/國際交流",
-      "structuredSummary": "重奏/公演/THMF/國際交流 / 口琴重奏/合奏 / 演出團體",
-      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與THMF。",
-      "keywords": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/SiriusHarp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/siriusharmonicaensemble/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/SiriusHARP"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@siriusharmonicaensemble"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-10T12:18:47+00:00",
-      "latestUpdateLocal": "2026-08-10 20:18",
-      "latestUpdateSource": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/p/Db2_ymxiXl7/",
-      "avatarUrl": "/assets/source-avatars/c58521311f7dd221da00.webp",
-      "sourceInitials": "SHE",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_siriusharp",
-          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/SiriusHarp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_siriusharmonicaensemble",
-          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "siriusharmonicaensemble",
-          "profileUrl": "https://www.instagram.com/siriusharmonicaensemble/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_siriusharmonicaensemble",
-          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "siriusharmonicaensemble",
-          "profileUrl": "https://www.instagram.com/siriusharmonicaensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/siriusharmonicaensemble/story/0"
-        },
-        {
-          "id": "threads_siriusharmonicaensemble",
-          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-          "platform": "threads",
-          "type": "rss",
-          "username": "siriusharmonicaensemble",
-          "profileUrl": "https://www.threads.net/@siriusharmonicaensemble",
-          "feedUrl": "https://rss.observe.tw/threads/siriusharmonicaensemble"
-        },
-        {
-          "id": "yt_siriusharp",
-          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/SiriusHARP",
           "feedUrl": ""
         }
       ]
@@ -6939,90 +7023,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@hkharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-140",
-      "publicId": "140",
-      "name": "Gregoire Maret",
-      "nameEn": "Gregoire Maret",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "瑞士",
-      "region": "美國",
-      "cityOrFocus": "紐約發展/Grammy得主/現代爵士半音階/作曲",
-      "structuredSummary": "紐約發展/Grammy得主/現代爵士半音階/作曲 / 半音階 / 國際演出人員/作曲者",
-      "summary": "瑞士的半音階國際演出人員與作曲者，活動脈絡包含紐約發展、Grammy得主與現代爵士半音階。",
-      "keywords": "Gregoire Maret Grégoire Maret harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.gregoiremaret.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/gregoiremaret1/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/gregoiremaret/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@GregoireMaret"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-07T05:50:46+00:00",
-      "latestUpdateLocal": "2026-08-07 13:50",
-      "latestUpdateSource": "Gregoire Maret",
-      "latestUpdateUrl": "https://www.instagram.com/stories/gregoiremaret/3958263882590293642/",
-      "avatarUrl": "/assets/source-avatars/aaa38b3006e2f299e510.webp",
-      "sourceInitials": "GM",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_gregoiremaret1",
-          "name": "Gregoire Maret",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/gregoiremaret1",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_gregoiremaret",
-          "name": "Gregoire Maret",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "gregoiremaret",
-          "profileUrl": "https://www.instagram.com/gregoiremaret/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_gregoiremaret",
-          "name": "Gregoire Maret",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "gregoiremaret",
-          "profileUrl": "https://www.instagram.com/gregoiremaret/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/gregoiremaret/story/0"
-        },
-        {
-          "id": "yt_gregoiremaret",
-          "name": "Gregoire Maret",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@GregoireMaret",
           "feedUrl": ""
         }
       ]
