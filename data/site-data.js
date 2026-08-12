@@ -934,6 +934,88 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-166",
+      "publicId": "166",
+      "name": "海明威口琴重奏團",
+      "nameEn": "The HummingWay Harmonica Ensemble",
+      "category": "活動資訊",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "馬來西亞口琴重奏/跨國音樂節/社群演出",
+      "structuredSummary": "馬來西亞口琴重奏/跨國音樂節/社群演出 / 口琴重奏/合奏 / 國際演出團體",
+      "summary": "馬來西亞的國際演出團體，涵蓋馬來西亞口琴重奏、跨國音樂節與社群演出。",
+      "keywords": "海明威口琴重奏團 HummingWay Harmonica Ensemble Malaysia harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TheHummingWay/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hummingwayharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@hummingwaythe9424"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-12T04:15:36+00:00",
+      "latestUpdateLocal": "2026-08-12 12:15",
+      "latestUpdateSource": "海明威口琴重奏團",
+      "latestUpdateUrl": "https://www.instagram.com/p/Db7RlSTxZK2/",
+      "avatarUrl": "/assets/source-avatars/9136f91c9acbca0ebf4a.webp",
+      "sourceInitials": "海明",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "音樂節",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_thehummingway",
+          "name": "海明威口琴重奏團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/TheHummingWay",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hummingwayharmonica",
+          "name": "海明威口琴重奏團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hummingwayharmonica",
+          "profileUrl": "https://www.instagram.com/hummingwayharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hummingwayharmonica",
+          "name": "海明威口琴重奏團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hummingwayharmonica",
+          "profileUrl": "https://www.instagram.com/hummingwayharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hummingwayharmonica/story/0"
+        },
+        {
+          "id": "yt_hummingwaythe9424",
+          "name": "海明威口琴重奏團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@hummingwaythe9424",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-55",
       "publicId": "55",
       "name": "梁承熹 Kelvin Leung",
@@ -1995,6 +2077,91 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@jensbunge",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-107",
+      "publicId": "107",
+      "name": "Konstantin Reinfeld",
+      "nameEn": "Konstantin Reinfeld",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "德國",
+      "region": "德國",
+      "cityOrFocus": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作",
+      "structuredSummary": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作 / 半音階/十孔 / 國際演出人員/製作人/教育者",
+      "summary": "德國的半音階與十孔國際演出人員、製作人與教育者，活動脈絡包含OPUS Klassik得獎、國際獨奏與製作與教育。",
+      "keywords": "Konstantin Reinfeld harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.konstantinreinfeld.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/konstantinreinfeldofficial"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/konstantin_reinfeld/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@KonstantinReinfeld"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-11T21:53:38+00:00",
+      "latestUpdateLocal": "2026-08-12 05:53",
+      "latestUpdateSource": "Konstantin Reinfeld",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=KjTV1XYE8R0",
+      "avatarUrl": "/assets/source-avatars/7f55bcace9d81e8ee2e4.webp",
+      "sourceInitials": "KR",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_konstantinreinfeldofficial",
+          "name": "Konstantin Reinfeld",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/konstantinreinfeldofficial",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_konstantin_reinfeld",
+          "name": "Konstantin Reinfeld",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "konstantin_reinfeld",
+          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_konstantin_reinfeld",
+          "name": "Konstantin Reinfeld",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "konstantin_reinfeld",
+          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/konstantin_reinfeld/story/0"
+        },
+        {
+          "id": "yt_konstantinreinfeld",
+          "name": "Konstantin Reinfeld",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@KonstantinReinfeld",
           "feedUrl": ""
         }
       ]
@@ -3290,7 +3457,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-11 18:30",
       "latestUpdateSource": "國家兩廳院",
       "latestUpdateUrl": "https://www.instagram.com/p/Db5YK3UzYKK/",
-      "avatarUrl": "/assets/source-avatars/383a081ea65a854a0259.webp",
+      "avatarUrl": "/assets/source-avatars/8b0f10bdacc2e810fbc4.webp",
       "sourceInitials": "國家",
       "sourceTags": [
         "場館平台"
@@ -3454,7 +3621,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-11 16:41",
       "latestUpdateSource": "Antonio Serrano",
       "latestUpdateUrl": "https://www.instagram.com/stories/antonioserranoarmonica/3961248835023951063/",
-      "avatarUrl": "/assets/source-avatars/0bd7a26bd583f0482b3c.webp",
+      "avatarUrl": "/assets/source-avatars/dd5b25993f6157c749e9.webp",
       "sourceInitials": "AS",
       "sourceTags": [
         "演奏者",
@@ -4239,91 +4406,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-107",
-      "publicId": "107",
-      "name": "Konstantin Reinfeld",
-      "nameEn": "Konstantin Reinfeld",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "德國",
-      "region": "德國",
-      "cityOrFocus": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作",
-      "structuredSummary": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作 / 半音階/十孔 / 國際演出人員/製作人/教育者",
-      "summary": "德國的半音階與十孔國際演出人員、製作人與教育者，活動脈絡包含OPUS Klassik得獎、國際獨奏與製作與教育。",
-      "keywords": "Konstantin Reinfeld harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.konstantinreinfeld.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/konstantinreinfeldofficial"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/konstantin_reinfeld/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@KonstantinReinfeld"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-10T17:48:06+00:00",
-      "latestUpdateLocal": "2026-08-11 01:48",
-      "latestUpdateSource": "Konstantin Reinfeld",
-      "latestUpdateUrl": "https://www.instagram.com/stories/konstantin_reinfeld/3960799316574734267/",
-      "avatarUrl": "/assets/source-avatars/7f55bcace9d81e8ee2e4.webp",
-      "sourceInitials": "KR",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_konstantinreinfeldofficial",
-          "name": "Konstantin Reinfeld",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/konstantinreinfeldofficial",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_konstantin_reinfeld",
-          "name": "Konstantin Reinfeld",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "konstantin_reinfeld",
-          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_konstantin_reinfeld",
-          "name": "Konstantin Reinfeld",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "konstantin_reinfeld",
-          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/konstantin_reinfeld/story/0"
-        },
-        {
-          "id": "yt_konstantinreinfeld",
-          "name": "Konstantin Reinfeld",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@KonstantinReinfeld",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-97",
       "publicId": "97",
       "name": "進擊的口琴樂團",
@@ -4664,7 +4746,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-10 20:18",
       "latestUpdateSource": "Evelyn Choong 鍾雪兒",
       "latestUpdateUrl": "https://www.instagram.com/p/Db2_ymxiXl7/",
-      "avatarUrl": "/assets/source-avatars/4fcd94f1dd4bdc8bdde5.webp",
+      "avatarUrl": "/assets/source-avatars/a5e18514c2b5840e137a.webp",
       "sourceInitials": "EC",
       "sourceTags": [
         "演奏者",
@@ -6816,7 +6898,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-07 22:30",
       "latestUpdateSource": "香港口琴協會 Hong Kong Harmonica Association",
       "latestUpdateUrl": "https://www.instagram.com/p/DbvgdtQk3mM/",
-      "avatarUrl": "/assets/source-avatars/83ff018cf3f12aaaf7c6.webp",
+      "avatarUrl": "/assets/source-avatars/230cc952223fad78d634.webp",
       "sourceInitials": "HKH",
       "sourceTags": [
         "團體樂團",
@@ -7826,88 +7908,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@springharpfest",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-166",
-      "publicId": "166",
-      "name": "海明威口琴重奏團",
-      "nameEn": "The HummingWay Harmonica Ensemble",
-      "category": "活動資訊",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "馬來西亞口琴重奏/跨國音樂節/社群演出",
-      "structuredSummary": "馬來西亞口琴重奏/跨國音樂節/社群演出 / 口琴重奏/合奏 / 國際演出團體",
-      "summary": "馬來西亞的國際演出團體，涵蓋馬來西亞口琴重奏、跨國音樂節與社群演出。",
-      "keywords": "海明威口琴重奏團 HummingWay Harmonica Ensemble Malaysia harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/TheHummingWay/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hummingwayharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@hummingwaythe9424"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-02T05:11:29+00:00",
-      "latestUpdateLocal": "2026-08-02 13:11",
-      "latestUpdateSource": "海明威口琴重奏團",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbhoXMQxlMg/",
-      "avatarUrl": "/assets/source-avatars/9136f91c9acbca0ebf4a.webp",
-      "sourceInitials": "海明",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "音樂節",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_thehummingway",
-          "name": "海明威口琴重奏團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/TheHummingWay",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hummingwayharmonica",
-          "name": "海明威口琴重奏團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hummingwayharmonica",
-          "profileUrl": "https://www.instagram.com/hummingwayharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hummingwayharmonica",
-          "name": "海明威口琴重奏團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hummingwayharmonica",
-          "profileUrl": "https://www.instagram.com/hummingwayharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hummingwayharmonica/story/0"
-        },
-        {
-          "id": "yt_hummingwaythe9424",
-          "name": "海明威口琴重奏團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@hummingwaythe9424",
           "feedUrl": ""
         }
       ]
