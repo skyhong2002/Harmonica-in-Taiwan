@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T07:59:25.299349Z",
+  "generatedAt": "2026-08-12T08:32:25.942767Z",
   "source": {
     "id": 37,
     "slug": "37",
     "name": "陳晟禕",
     "pageUrl": "https://harmonica.observe.tw/source/37/"
   },
-  "items": [
-    {
-      "id": "post-09e6a4945053d6e06ef27a11",
-      "title": "《影片中的口琴》系列",
-      "excerpt": "《影片中的口琴》系列 懷舊港片，1991年的『黑貓』裡面難得的出現半音階口琴， 雖然口琴拿法比較不是主流口琴持法，看過幾位演奏家曾這樣使用過， 不過我猜當時拍電影時，應該是不知道怎麼拿的狀況下亂拿的。 口琴聲音很明顯就是電子樂器模仿的了。 電影『黑貓』據我當年的印象， 是香港影壇在成功靠著『皇家師姐』把楊紫瓊推上香港第一女打仔之後， 想再推一位女性武打明星，就是這部片的主角梁琤， 這一條路雖然沒有很成功，但他持續演戲， 現在已經是扮演金庸武俠作品『倚天屠龍記』中的「滅絕師太」的等級了。 一開始的十孔口琴非常明顯是Hohner的Blues Harp， 開…",
-      "url": "https://www.facebook.com/reel/1870522134353852/",
-      "sourceName": "陳晟禕",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-13T08:06:25Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/07258a2b677eebac612e.webp",
-        "width": 800,
-        "height": 450
-      }
-    }
-  ]
+  "items": []
 }

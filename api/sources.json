@@ -229,6 +229,71 @@
       ]
     },
     {
+      "id": "watchlist-42",
+      "publicId": "42",
+      "name": "王心禾",
+      "nameEn": "Hsin-Ho Wang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "胖擊系",
+      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
+      "keywords": "王心禾 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_wang/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@harmonica_wang"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-12T05:25:23+00:00",
+      "latestUpdateLocal": "2026-08-12 13:25",
+      "latestUpdateSource": "王心禾",
+      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_wang/3961874984284874719/",
+      "avatarUrl": "/assets/source-avatars/2d6005011d6c9b4b6c96.webp",
+      "sourceInitials": "王心",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_harmonica_wang",
+          "name": "王心禾",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.instagram.com/harmonica_wang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_wang",
+          "name": "王心禾",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.instagram.com/harmonica_wang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_wang/story/0"
+        },
+        {
+          "id": "threads_harmonica_wang",
+          "name": "王心禾",
+          "platform": "threads",
+          "type": "rss",
+          "username": "harmonica_wang",
+          "profileUrl": "https://www.threads.net/@harmonica_wang",
+          "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
+        }
+      ]
+    },
+    {
       "id": "watchlist-43",
       "publicId": "43",
       "name": "林裕豐",
@@ -472,7 +537,7 @@
       "latestUpdateLocal": "2026-08-12 12:37",
       "latestUpdateSource": "Aiden Soon",
       "latestUpdateUrl": "https://www.instagram.com/stories/aidensoon/3961850718881807213/",
-      "avatarUrl": "/assets/source-avatars/a5edbfd26c3ed841cce5.webp",
+      "avatarUrl": "/assets/source-avatars/e2b3c4f55a8a3b3d4e15.webp",
       "sourceInitials": "AS",
       "sourceTags": [
         "演奏者",
@@ -1032,6 +1097,88 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@indiarasfair",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-76",
+      "publicId": "76",
+      "name": "新竹縣文化局",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館/文化局",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "場館/文化活動",
+      "structuredSummary": "場館/文化活動 / 口琴/藝文 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供場館與文化活動相關資訊。",
+      "keywords": "新竹縣文化局 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hchcc.gov.tw/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hchcc.gov/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hsinchucounty_culture/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-12T00:45:07+00:00",
+      "latestUpdateLocal": "2026-08-12 08:45",
+      "latestUpdateSource": "新竹縣文化局",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=twrbhryl7So",
+      "avatarUrl": "/assets/source-avatars/97e325ddc72e5299a946.webp",
+      "sourceInitials": "新竹",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hchcc_gov",
+          "name": "新竹縣文化局",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hchcc.gov",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hsinchucounty_culture",
+          "name": "新竹縣文化局",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hsinchucounty_culture",
+          "profileUrl": "https://www.instagram.com/hsinchucounty_culture/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hsinchucounty_culture",
+          "name": "新竹縣文化局",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hsinchucounty_culture",
+          "profileUrl": "https://www.instagram.com/hsinchucounty_culture/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hsinchucounty_culture/story/0"
+        },
+        {
+          "id": "yt_ucqrgye_3lymvt7ewhrzbtzg",
+          "name": "新竹縣文化局",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg",
           "feedUrl": ""
         }
       ]
@@ -1723,71 +1870,6 @@
           "username": "empa.oficial",
           "profileUrl": "https://www.instagram.com/empa.oficial/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/empa.oficial/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-42",
-      "publicId": "42",
-      "name": "王心禾",
-      "nameEn": "Hsin-Ho Wang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "胖擊系",
-      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
-      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
-      "keywords": "王心禾 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/harmonica_wang/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@harmonica_wang"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-11T17:13:35+00:00",
-      "latestUpdateLocal": "2026-08-12 01:13",
-      "latestUpdateSource": "王心禾",
-      "latestUpdateUrl": "https://www.instagram.com/p/Db6GUxkMg6N/",
-      "avatarUrl": "/assets/source-avatars/2d6005011d6c9b4b6c96.webp",
-      "sourceInitials": "王心",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_harmonica_wang",
-          "name": "王心禾",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "harmonica_wang",
-          "profileUrl": "https://www.instagram.com/harmonica_wang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_harmonica_wang",
-          "name": "王心禾",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "harmonica_wang",
-          "profileUrl": "https://www.instagram.com/harmonica_wang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_wang/story/0"
-        },
-        {
-          "id": "threads_harmonica_wang",
-          "name": "王心禾",
-          "platform": "threads",
-          "type": "rss",
-          "username": "harmonica_wang",
-          "profileUrl": "https://www.threads.net/@harmonica_wang",
-          "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
         }
       ]
     },
@@ -2693,7 +2775,7 @@
       "latestUpdateLocal": "2026-08-11 19:49",
       "latestUpdateSource": "mr.Why 花影樂團",
       "latestUpdateUrl": "https://www.instagram.com/stories/mr.why.why/3961343359403124643/",
-      "avatarUrl": "/assets/source-avatars/054a9ebb35d30876f114.webp",
+      "avatarUrl": "/assets/source-avatars/ffb2436a6e213fc531ab.webp",
       "sourceInitials": "MW",
       "sourceTags": [
         "團體樂團",
@@ -3982,88 +4064,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@peacetonesharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-76",
-      "publicId": "76",
-      "name": "新竹縣文化局",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館/文化局",
-      "country": "臺灣",
-      "region": "臺灣/新竹",
-      "cityOrFocus": "場館/文化活動",
-      "structuredSummary": "場館/文化活動 / 口琴/藝文 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供場館與文化活動相關資訊。",
-      "keywords": "新竹縣文化局 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hchcc.gov.tw/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hchcc.gov/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hsinchucounty_culture/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-11T00:00:31+00:00",
-      "latestUpdateLocal": "2026-08-11 08:00",
-      "latestUpdateSource": "新竹縣文化局",
-      "latestUpdateUrl": "https://www.instagram.com/p/Db4QGWDjDHz/",
-      "avatarUrl": "/assets/source-avatars/97e325ddc72e5299a946.webp",
-      "sourceInitials": "新竹",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hchcc_gov",
-          "name": "新竹縣文化局",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hchcc.gov",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hsinchucounty_culture",
-          "name": "新竹縣文化局",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hsinchucounty_culture",
-          "profileUrl": "https://www.instagram.com/hsinchucounty_culture/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hsinchucounty_culture",
-          "name": "新竹縣文化局",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hsinchucounty_culture",
-          "profileUrl": "https://www.instagram.com/hsinchucounty_culture/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hsinchucounty_culture/story/0"
-        },
-        {
-          "id": "yt_ucqrgye_3lymvt7ewhrzbtzg",
-          "name": "新竹縣文化局",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg",
           "feedUrl": ""
         }
       ]

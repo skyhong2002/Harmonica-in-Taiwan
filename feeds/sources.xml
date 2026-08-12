@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 12 Aug 2026 07:59:26 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 08:32:27 +0000</lastBuildDate>
     <item>
       <title>新加坡國立大學口琴社</title>
       <link>https://osa.nus.edu.sg/nusartsfestival/event/constellations-under-starlit-skies/</link>
@@ -27,6 +27,17 @@ Tag：團體樂團、重奏、國際交流
 國家：香港
 地區：香港/國際
 香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。</description>
+    </item>
+    <item>
+      <title>王心禾</title>
+      <link>https://www.instagram.com/harmonica_wang/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/81d8ceaa7e7b789c</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者
+國家：臺灣
+地區：臺灣
+臺灣的口琴演出人員，活動脈絡包含胖擊系。</description>
     </item>
     <item>
       <title>林裕豐</title>
@@ -139,6 +150,17 @@ Tag：演奏者、十孔、國際交流
 巴西的十孔國際演出人員與作曲者，活動脈絡包含Curitiba出身、藍調口琴與Milk&amp;#x27;n&amp;#x27;Blues。</description>
     </item>
     <item>
+      <title>新竹縣文化局</title>
+      <link>https://www.hchcc.gov.tw/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/764c874d5d511c0a</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/新竹
+臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
+    </item>
+    <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/ad86c3570665b36e</guid>
@@ -236,17 +258,6 @@ Tag：教學器材、國際交流、課程、半音階、十孔
 國家：阿根廷
 地區：阿根廷/阿韋亞內達
 阿根廷的國際教育來源，關注公立流行音樂學校、正式口琴課程、爵士、探戈與民俗。</description>
-    </item>
-    <item>
-      <title>王心禾</title>
-      <link>https://www.instagram.com/harmonica_wang/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/81d8ceaa7e7b789c</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者
-國家：臺灣
-地區：臺灣
-臺灣的口琴演出人員，活動脈絡包含胖擊系。</description>
     </item>
     <item>
       <title>唐雪婷 Sharene Tang</title>
@@ -533,17 +544,6 @@ Tag：教學器材、教學
 國家：臺灣
 地區：臺灣/臺北
 臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。</description>
-    </item>
-    <item>
-      <title>新竹縣文化局</title>
-      <link>https://www.hchcc.gov.tw/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/764c874d5d511c0a</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/新竹
-臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
     </item>
     <item>
       <title>Santiago Alvarez</title>
