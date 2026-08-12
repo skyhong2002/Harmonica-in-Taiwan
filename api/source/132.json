@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T12:23:33.712178Z",
+  "generatedAt": "2026-08-12T13:29:37.900696Z",
   "source": {
     "id": 132,
     "slug": "antonio-serrano",
@@ -48,20 +48,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/b0f58def689761c74250.webp",
         "width": 800,
         "height": 1048
-      }
-    },
-    {
-      "id": "post-bfcdf55c9ec12ce004f87f2e",
-      "title": "#REPOST @jazz_sanjavier - ANTONIO SERRANO & KAELE JIMÉNEZ",
-      "excerpt": "#REPOST @jazz_sanjavier - ANTONIO SERRANO & KAELE JIMÉNEZ @antonioserranoarmonica @kaelejimenez 📸 @pedrosaezphotography #28sanjavierjazz",
-      "url": "https://www.instagram.com/p/Dau95DgAIR8/",
-      "sourceName": "Antonio Serrano",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-13T12:56:51Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/32138a0eb4859f28a9f6.webp",
-        "width": 800,
-        "height": 533
       }
     }
   ]

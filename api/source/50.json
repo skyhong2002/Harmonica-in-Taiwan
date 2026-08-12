@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T12:23:33.712178Z",
+  "generatedAt": "2026-08-12T13:29:37.900696Z",
   "source": {
     "id": 50,
     "slug": "aiden-soon",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/50-aiden-soon/"
   },
   "items": [
+    {
+      "id": "post-4feac3bcd4799ed76989d64d",
+      "title": "🎉 恭喜我的学生们！",
+      "excerpt": "🎉 恭喜我的学生们！ 这段时间，学生们陆续在【第十五届亚太口琴艺术周】以及【马来西亚口琴节】中取得了不错的成绩。 每一次比赛，看到的不只是最后公布的名次，更让我开心的是，看着他们从一开始的不足，到慢慢找到自己的方向，再一步一步站上更大的舞台。 对一个老师来说，这其实是最有成就感的事情。❤️ 先说说两位跟了我大约两年的学生 - 吴军（坤成中学）和 Jack（育华中学）。 Jack 刚开始跟我上课的时候，节奏并不稳定，甚至连基本的音符都还看得不太熟练。 这两年，他没有什么所谓的「天赋光环」，也不是一开始就特别突出的学生，但我反而觉得，他是这群学生里面进步最…",
+      "url": "https://www.instagram.com/p/Db0oBMSE5Qv/",
+      "sourceName": "Aiden Soon",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-09T14:19:56Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/755f728ee6a9bc597769.webp",
+        "width": 800,
+        "height": 1067
+      }
+    },
     {
       "id": "post-975fab4ac5efac7cc544805c",
       "title": "Highlights of Fresco’s moments @ Asia Pacific Harmonica Festival",
