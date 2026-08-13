@@ -2,6 +2,145 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-13",
   "entries": [
     {
+      "id": "watchlist-211",
+      "publicId": "211",
+      "name": "新加坡國立大學口琴社",
+      "nameEn": "NUS Harmonica",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "新加坡",
+      "region": "新加坡/肯特崗",
+      "cityOrFocus": "新加坡國立大學/學校社團/肯特崗",
+      "structuredSummary": "新加坡國立大學/學校社團/肯特崗 / 口琴樂團/學生合奏 / 學校社團",
+      "summary": "新加坡的口琴樂團與學生合奏學校社團。",
+      "keywords": "新加坡國立大學口琴社 NUS Harmonica NUS Harmonica Orchestra Singapore student harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://osa.nus.edu.sg/nusartsfestival/event/constellations-under-starlit-skies/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/nusharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nusharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@NUSHO"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-13T06:12:32+00:00",
+      "latestUpdateLocal": "2026-08-13 14:12",
+      "latestUpdateSource": "新加坡國立大學口琴社",
+      "latestUpdateUrl": "https://www.instagram.com/stories/nusharmonica/3962623506667555201/",
+      "avatarUrl": "/assets/source-avatars/2f3a7bd2bf72fd2dec84.webp",
+      "sourceInitials": "新加",
+      "sourceTags": [
+        "學生社團",
+        "大專社團",
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_nusharmonica",
+          "name": "新加坡國立大學口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/nusharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nusharmonica",
+          "name": "新加坡國立大學口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nusharmonica",
+          "profileUrl": "https://www.instagram.com/nusharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nusharmonica",
+          "name": "新加坡國立大學口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nusharmonica",
+          "profileUrl": "https://www.instagram.com/nusharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nusharmonica/story/0"
+        },
+        {
+          "id": "yt_nusho",
+          "name": "新加坡國立大學口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@NUSHO",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-50",
+      "publicId": "50",
+      "name": "Aiden Soon",
+      "nameEn": "Aiden Soon",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
+      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "Aiden Soon aidensoon World Harmonica Champion Aiden N Evelyn harmonica",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/aidensoon/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-13T04:52:59+00:00",
+      "latestUpdateLocal": "2026-08-13 12:52",
+      "latestUpdateSource": "Aiden Soon",
+      "latestUpdateUrl": "https://www.instagram.com/stories/aidensoon/3962583456811288273/",
+      "avatarUrl": "/assets/source-avatars/167073e252634a99b936.webp",
+      "sourceInitials": "AS",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_aidensoon",
+          "name": "Aiden Soon",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "aidensoon",
+          "profileUrl": "https://www.instagram.com/aidensoon/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_aidensoon",
+          "name": "Aiden Soon",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "aidensoon",
+          "profileUrl": "https://www.instagram.com/aidensoon/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-42",
       "publicId": "42",
       "name": "王心禾",
@@ -1016,7 +1155,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-13 00:13",
       "latestUpdateSource": "唐雪婷 Sharene Tang",
       "latestUpdateUrl": "https://www.instagram.com/stories/sharene.harmonica/3962201279749641585/",
-      "avatarUrl": "/assets/source-avatars/a022fec81a013f5814e0.webp",
+      "avatarUrl": "/assets/source-avatars/993ca2357484d1f8aba6.webp",
       "sourceInitials": "ST",
       "sourceTags": [
         "演奏者",
@@ -1432,7 +1571,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-12 23:29",
       "latestUpdateSource": "黃冠誌",
       "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3962178986788292082/",
-      "avatarUrl": "/assets/source-avatars/70ae292c8b2f7bf2b290.webp",
+      "avatarUrl": "/assets/source-avatars/cef3632b8bf854a92b45.webp",
       "sourceInitials": "黃冠",
       "sourceTags": [
         "演奏者",
@@ -1720,90 +1859,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@weiwuyingfilm",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-211",
-      "publicId": "211",
-      "name": "新加坡國立大學口琴社",
-      "nameEn": "NUS Harmonica",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "新加坡",
-      "region": "新加坡/肯特崗",
-      "cityOrFocus": "新加坡國立大學/學校社團/肯特崗",
-      "structuredSummary": "新加坡國立大學/學校社團/肯特崗 / 口琴樂團/學生合奏 / 學校社團",
-      "summary": "新加坡的口琴樂團與學生合奏學校社團。",
-      "keywords": "新加坡國立大學口琴社 NUS Harmonica NUS Harmonica Orchestra Singapore student harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://osa.nus.edu.sg/nusartsfestival/event/constellations-under-starlit-skies/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/nusharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nusharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@NUSHO"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-12T13:20:43+00:00",
-      "latestUpdateLocal": "2026-08-12 21:20",
-      "latestUpdateSource": "新加坡國立大學口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/stories/nusharmonica/3962114235039259155/",
-      "avatarUrl": "/assets/source-avatars/2f3a7bd2bf72fd2dec84.webp",
-      "sourceInitials": "新加",
-      "sourceTags": [
-        "學生社團",
-        "大專社團",
-        "團體樂團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_nusharmonica",
-          "name": "新加坡國立大學口琴社",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/nusharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nusharmonica",
-          "name": "新加坡國立大學口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nusharmonica",
-          "profileUrl": "https://www.instagram.com/nusharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nusharmonica",
-          "name": "新加坡國立大學口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nusharmonica",
-          "profileUrl": "https://www.instagram.com/nusharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nusharmonica/story/0"
-        },
-        {
-          "id": "yt_nusho",
-          "name": "新加坡國立大學口琴社",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@NUSHO",
           "feedUrl": ""
         }
       ]
@@ -3365,61 +3420,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@thmc6470",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-50",
-      "publicId": "50",
-      "name": "Aiden Soon",
-      "nameEn": "Aiden Soon",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
-      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
-      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
-      "keywords": "Aiden Soon aidensoon World Harmonica Champion Aiden N Evelyn harmonica",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/aidensoon/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-12T04:37:04+00:00",
-      "latestUpdateLocal": "2026-08-12 12:37",
-      "latestUpdateSource": "Aiden Soon",
-      "latestUpdateUrl": "https://www.instagram.com/stories/aidensoon/3961850718881807213/",
-      "avatarUrl": "/assets/source-avatars/167073e252634a99b936.webp",
-      "sourceInitials": "AS",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_aidensoon",
-          "name": "Aiden Soon",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "aidensoon",
-          "profileUrl": "https://www.instagram.com/aidensoon/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_aidensoon",
-          "name": "Aiden Soon",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "aidensoon",
-          "profileUrl": "https://www.instagram.com/aidensoon/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
         }
       ]
     },
