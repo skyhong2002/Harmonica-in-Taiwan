@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T03:49:04.490004Z",
+  "generatedAt": "2026-08-13T04:54:05.301002Z",
   "source": {
     "id": 54,
     "slug": "cy-leo",
@@ -132,20 +132,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/ca49fb9d5350985b594d.webp",
         "width": 800,
         "height": 1067
-      }
-    },
-    {
-      "id": "post-fcdd27231b5c07f4c854f934",
-      "title": "routine check till winter comes",
-      "excerpt": "routine check till winter comes",
-      "url": "https://www.facebook.com/reel/1365544205499662/",
-      "sourceName": "CY Leo 何卓彥",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-14T03:54:02Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/8f1299a21e3c70ad1dd1.webp",
-        "width": 540,
-        "height": 960
       }
     }
   ]
