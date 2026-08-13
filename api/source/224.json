@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-12T22:53:28.151230Z",
+  "generatedAt": "2026-08-12T23:59:34.007135Z",
   "source": {
     "id": 224,
     "slug": "easttop-harmonicas",
@@ -8,6 +8,48 @@
     "pageUrl": "https://harmonica.observe.tw/source/224-easttop-harmonicas/"
   },
   "items": [
+    {
+      "id": "post-8005cbf9ebd5082d99e3e393",
+      "title": "Splendor of the Asia-Pacific Concert（15th APHF,EAST TOP)",
+      "excerpt": "Splendor of the Asia-Pacific Concert（15th APHF,EAST TOP) With a profound development history, the Asia-Pacific Harmonica Festival has grown into a prestigious and influential harmonica event in the regional music circle. The festival features spectacular gala concerts that gathe…",
+      "url": "https://www.youtube.com/watch?v=4WTPBtFguuk",
+      "sourceName": "Easttop Harmonicas",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-12T04:29:26Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1f7ceb63dcf0db72904e.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-084948b7a771c6b19f3b7856",
+      "title": "Voices of the World — Oriental Night Concert of 15th APHF(EAST TOP)",
+      "excerpt": "Voices of the World — Oriental Night Concert of 15th APHF(EAST TOP) Voices of the World — Oriental Night Concert of 15th APHF(EAST TOP) boasts rich and diverse performance forms. Including Chromatic Solo,10-holes solo etc. The performers deliver virtuoso harmonica renditions wit…",
+      "url": "https://www.youtube.com/watch?v=aj3yP1zbM5M",
+      "sourceName": "Easttop Harmonicas",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-12T02:16:33Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/54687865fbcfe1f51cbb.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-7a76213d7e7eb331f42488cb",
+      "title": "Harmonic Bonds of the Asia-Pacific — Taiwan, China Special Concert of 15th APHF(EAST TOP)",
+      "excerpt": "Harmonic Bonds of the Asia-Pacific — Taiwan, China Special Concert of 15th APHF(EAST TOP) Harmonic Bonds of the Asia-Pacific — Taiwan, China Special Concert of 15th APHF(EAST TOP) features elite guest performers with superb playing skills and striking stage presence.Including Ch…",
+      "url": "https://www.youtube.com/watch?v=fRzMazXsXCQ",
+      "sourceName": "Easttop Harmonicas",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-12T01:03:36Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/8017cc28b4d1be500694.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-ca09558ee16b0ca738c0717e",
       "title": "Harmony of the Asia-Pacific — Ensemble Special Concert of 15th APHF(EAST TOP)",

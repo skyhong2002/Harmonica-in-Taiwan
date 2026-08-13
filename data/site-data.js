@@ -39,7 +39,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-13 03:04",
       "latestUpdateSource": "Howard Levy",
       "latestUpdateUrl": "https://www.instagram.com/stories/howardlevyland/3962287102783742721/",
-      "avatarUrl": "/assets/source-avatars/406eb1edfb9dbbc0dc54.webp",
+      "avatarUrl": "/assets/source-avatars/20c69fef953441fc464d.webp",
       "sourceInitials": "HL",
       "sourceTags": [
         "演奏者",
@@ -2946,6 +2946,98 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-224",
+      "publicId": "224",
+      "name": "Easttop Harmonicas",
+      "nameEn": "Easttop Harmonicas",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌/樂器製造商",
+      "country": "中國",
+      "region": "中國/江蘇/無錫/江陰",
+      "cityOrFocus": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節",
+      "structuredSummary": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節 / 口琴 / 器材品牌/活動主辦單位",
+      "summary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
+      "keywords": "Easttop EAST TOP Jiangsu East Musical Instrument APHF Huaxia Harmonica Festival 口琴 品牌",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://easttop-harmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/EasttopMusic/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/easttopharmonicas/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@easttopmusic"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@easttopharmonicaofficial"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-12T04:29:26+00:00",
+      "latestUpdateLocal": "2026-08-12 12:29",
+      "latestUpdateSource": "Easttop Harmonicas",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=4WTPBtFguuk",
+      "avatarUrl": "/assets/source-avatars/e3f9b364fa18148f074e.webp",
+      "sourceInitials": "EH",
+      "sourceTags": [
+        "品牌",
+        "器材",
+        "活動資訊",
+        "音樂節",
+        "國際交流"
+      ],
+      "sourceSummary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
+      "sourceTagReason": "整合自 Easttop 官網、官方 Linktree、Instagram 與 YouTube 自介。",
+      "monitorSources": [
+        {
+          "id": "fb_easttopmusic",
+          "name": "Easttop Harmonicas",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/EasttopMusic",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_easttopharmonicas",
+          "name": "Easttop Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "easttopharmonicas",
+          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_easttopharmonicas",
+          "name": "Easttop Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "easttopharmonicas",
+          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/easttopharmonicas/story/0"
+        },
+        {
+          "id": "yt_easttopmusic",
+          "name": "Easttop Harmonicas",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@easttopmusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-166",
       "publicId": "166",
       "name": "海明威口琴重奏團",
@@ -3706,10 +3798,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-08-11T18:40:50+00:00",
-      "latestUpdateLocal": "2026-08-12 02:40",
+      "latestUpdateAt": "2026-08-11T20:51:10+00:00",
+      "latestUpdateLocal": "2026-08-12 04:51",
       "latestUpdateSource": "Lee Oskar",
-      "latestUpdateUrl": "https://www.instagram.com/stories/leeoskarharmonicas/3961550575727838539/",
+      "latestUpdateUrl": "https://www.instagram.com/p/Db6eidFIEOH/",
       "avatarUrl": "/assets/source-avatars/b56a2affdf591e0e1fca.webp",
       "sourceInitials": "LO",
       "sourceTags": [
@@ -4697,98 +4789,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@oufrog",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-224",
-      "publicId": "224",
-      "name": "Easttop Harmonicas",
-      "nameEn": "Easttop Harmonicas",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "品牌/樂器製造商",
-      "country": "中國",
-      "region": "中國/江蘇/無錫/江陰",
-      "cityOrFocus": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節",
-      "structuredSummary": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節 / 口琴 / 器材品牌/活動主辦單位",
-      "summary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
-      "keywords": "Easttop EAST TOP Jiangsu East Musical Instrument APHF Huaxia Harmonica Festival 口琴 品牌",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://easttop-harmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/EasttopMusic/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/easttopharmonicas/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@easttopmusic"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@easttopharmonicaofficial"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-11T02:58:15+00:00",
-      "latestUpdateLocal": "2026-08-11 10:58",
-      "latestUpdateSource": "Easttop Harmonicas",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=vmFrE4bvfsQ",
-      "avatarUrl": "/assets/source-avatars/e3f9b364fa18148f074e.webp",
-      "sourceInitials": "EH",
-      "sourceTags": [
-        "品牌",
-        "器材",
-        "活動資訊",
-        "音樂節",
-        "國際交流"
-      ],
-      "sourceSummary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
-      "sourceTagReason": "整合自 Easttop 官網、官方 Linktree、Instagram 與 YouTube 自介。",
-      "monitorSources": [
-        {
-          "id": "fb_easttopmusic",
-          "name": "Easttop Harmonicas",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/EasttopMusic",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_easttopharmonicas",
-          "name": "Easttop Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "easttopharmonicas",
-          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_easttopharmonicas",
-          "name": "Easttop Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "easttopharmonicas",
-          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/easttopharmonicas/story/0"
-        },
-        {
-          "id": "yt_easttopmusic",
-          "name": "Easttop Harmonicas",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@easttopmusic",
           "feedUrl": ""
         }
       ]
