@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T21:31:30.679633Z",
+  "generatedAt": "2026-08-13T22:39:11.981111Z",
   "source": {
     "id": 80,
     "slug": "80",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/80/"
   },
   "items": [
+    {
+      "id": "post-8054f06df13683498a54840b",
+      "title": "#全臺獨家 #亞洲首演",
+      "excerpt": "#全臺獨家 #亞洲首演 備受國際矚目的愛爾蘭鬼才編導丹．科利（𝐃𝐚𝐧 𝐂𝐨𝐥𝐥𝐞𝐲），即將帶著國際獲獎無數的《迷失的李爾》（𝑳𝒐𝒔𝒕 𝑳𝒆𝒂𝒓）登上歌劇院舞台！ 🏆2022都柏林戲劇節震撼首演 🏆2022《愛爾蘭時報》劇藝獎4項大獎提名 🏆2025愛丁堡藝穗節《蘇格蘭人報》首獎 故事講述患有失智症的老演員喬伊，她的現實與莎翁經典《李爾王》的戲劇世界交織在一起；醫護人員配合演出這場永無止境的「戲劇排練」，以穩定她的情緒。然而，這種平衡被與她長期疏遠的兒子康納打破，母子兩人在有限的對白裡，尋找真心對話的縫隙… —𝟮𝟬𝟮𝟲 𝙉𝙏𝙏遇見巨人— 愛爾蘭鬼才編導丹…",
+      "url": "https://www.instagram.com/p/Db-lrknGDaS/",
+      "sourceName": "臺中國家歌劇院",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-13T11:04:33Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/cc84f903cacd2e92538c.webp",
+        "width": 800,
+        "height": 1000
+      }
+    },
     {
       "id": "post-010789d3dbc1aca782efc88c",
       "title": "2026 NTT 遇見巨人 | 羅伯．勒帕吉╳柏林雷寧廣場劇院《信仰、金錢、戰爭與愛》",

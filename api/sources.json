@@ -65,6 +65,91 @@
   },
   "entries": [
     {
+      "id": "watchlist-153",
+      "publicId": "153",
+      "name": "Santiago Alvarez",
+      "nameEn": "Santiago Alvarez",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "阿根廷",
+      "region": "阿根廷",
+      "cityOrFocus": "WHF 2025/半音階口琴/世界冠軍/演出與教學",
+      "structuredSummary": "WHF 2025/半音階口琴/世界冠軍/演出與教學 / 半音階 / 國際演出人員/教育者",
+      "summary": "阿根廷的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、半音階口琴與世界冠軍。",
+      "keywords": "Santiago Alvarez Santiago Alvarez Armonica harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://worldharmonicafestival.de/artist-profile-santiago-alvarez/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/santialvarezarmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/santi.alvarez.armonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCj06r7zxcQqFS26fy7n0jZw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-13T18:12:07+00:00",
+      "latestUpdateLocal": "2026-08-14 02:12",
+      "latestUpdateSource": "Santiago Alvarez",
+      "latestUpdateUrl": "https://www.instagram.com/p/Db_WnOUGvBR/",
+      "avatarUrl": "/assets/source-avatars/06cac0c8ee07d7b0e453.webp",
+      "sourceInitials": "SA",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_santialvarezarmonica",
+          "name": "Santiago Alvarez",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/santialvarezarmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_santi_alvarez_armonica",
+          "name": "Santiago Alvarez",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "santi.alvarez.armonica",
+          "profileUrl": "https://www.instagram.com/santi.alvarez.armonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_santi_alvarez_armonica",
+          "name": "Santiago Alvarez",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "santi.alvarez.armonica",
+          "profileUrl": "https://www.instagram.com/santi.alvarez.armonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/santi.alvarez.armonica/story/0"
+        },
+        {
+          "id": "yt_ucj06r7zxcqqfs26fy7n0jzw",
+          "name": "Santiago Alvarez",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCj06r7zxcQqFS26fy7n0jZw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-67",
       "publicId": "67",
       "name": "Marcos Coll",
@@ -1116,6 +1201,94 @@
       ]
     },
     {
+      "id": "watchlist-223",
+      "publicId": "223",
+      "name": "El Caminito 엘 까미니또",
+      "nameEn": "El Caminito",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "Nuevo Tango/世界音樂/口琴與鋼琴二重奏/作曲/演出",
+      "structuredSummary": "Nuevo Tango/世界音樂/口琴與鋼琴二重奏/作曲/演出 / 半音階口琴/鋼琴 / 國際演出團體/二重奏",
+      "summary": "韓國口琴與鋼琴 Nuevo Tango 二重奏，由口琴演奏者 최희중 與鋼琴家 명나영 組成。",
+      "keywords": "El Caminito 엘까미니또 최희중 명나영 harmonica piano Nuevo Tango Korea",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.cjazit.org/support/tune-up/entry/64/26710?p=26"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/duo.elcaminito/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/elcaminito_official/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCaHrTB0aiwNv-9wCSeB8eKg"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-13T13:31:24+00:00",
+      "latestUpdateLocal": "2026-08-13 21:31",
+      "latestUpdateSource": "El Caminito 엘 까미니또",
+      "latestUpdateUrl": "https://www.instagram.com/p/Db-1NPVDw0E/",
+      "avatarUrl": "/assets/source-avatars/a9d408c75bc4de7872eb.webp",
+      "sourceInitials": "EC",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "國際交流",
+        "重奏",
+        "演出"
+      ],
+      "sourceSummary": "韓國口琴與鋼琴 Nuevo Tango 二重奏，由口琴演奏者 최희중 與鋼琴家 명나영 組成。",
+      "sourceTagReason": "整合自官方 Instagram、Facebook、YouTube 與 CJ 文化財團介紹。",
+      "monitorSources": [
+        {
+          "id": "fb_duo_elcaminito",
+          "name": "El Caminito 엘 까미니또",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/duo.elcaminito",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_elcaminito_official",
+          "name": "El Caminito 엘 까미니또",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "elcaminito_official",
+          "profileUrl": "https://www.instagram.com/elcaminito_official/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_elcaminito_official",
+          "name": "El Caminito 엘 까미니또",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "elcaminito_official",
+          "profileUrl": "https://www.instagram.com/elcaminito_official/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/elcaminito_official/story/0"
+        },
+        {
+          "id": "yt_ucahrtb0aiwnv_9wcseb8ekg",
+          "name": "El Caminito 엘 까미니또",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCaHrTB0aiwNv-9wCSeB8eKg",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-50",
       "publicId": "50",
       "name": "Aiden Soon",
@@ -1989,6 +2162,52 @@
       ]
     },
     {
+      "id": "watchlist-221",
+      "publicId": "221",
+      "name": "吹口琴的小园园",
+      "nameEn": "Yuanyuan Harmonica",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "中國",
+      "region": "中國",
+      "cityOrFocus": "十孔/藍調/流行/教學",
+      "structuredSummary": "十孔/藍調/流行/教學 / 十孔/半音階 / 演出人員/教學者",
+      "summary": "中國的十孔與半音階演出人員與教學者，活動脈絡包含藍調、流行與教學。",
+      "keywords": "吹口琴的小园园 Yuanyuan Harmonica 口琴 藍調口琴 十孔口琴",
+      "links": [
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@yuanyuanharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-13T10:00:31+00:00",
+      "latestUpdateLocal": "2026-08-13 18:00",
+      "latestUpdateSource": "吹口琴的小园园",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=fHlxTnrYBxQ",
+      "avatarUrl": "/assets/source-avatars/aed956184d6a75510a0c.webp",
+      "sourceInitials": "吹口",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_yuanyuanharmonica",
+          "name": "吹口琴的小园园",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@yuanyuanharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-132",
       "publicId": "132",
       "name": "Antonio Serrano",
@@ -2580,6 +2799,98 @@
       ]
     },
     {
+      "id": "watchlist-224",
+      "publicId": "224",
+      "name": "Easttop Harmonicas",
+      "nameEn": "Easttop Harmonicas",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌/樂器製造商",
+      "country": "中國",
+      "region": "中國/江蘇/無錫/江陰",
+      "cityOrFocus": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節",
+      "structuredSummary": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節 / 口琴 / 器材品牌/活動主辦單位",
+      "summary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
+      "keywords": "Easttop EAST TOP Jiangsu East Musical Instrument APHF Huaxia Harmonica Festival 口琴 品牌",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://easttop-harmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/EasttopMusic/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/easttopharmonicas/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@easttopmusic"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@easttopharmonicaofficial"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-13T06:43:51+00:00",
+      "latestUpdateLocal": "2026-08-13 14:43",
+      "latestUpdateSource": "Easttop Harmonicas",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=6J6qeOcEUHw",
+      "avatarUrl": "/assets/source-avatars/e3f9b364fa18148f074e.webp",
+      "sourceInitials": "EH",
+      "sourceTags": [
+        "品牌",
+        "器材",
+        "活動資訊",
+        "音樂節",
+        "國際交流"
+      ],
+      "sourceSummary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
+      "sourceTagReason": "整合自 Easttop 官網、官方 Linktree、Instagram 與 YouTube 自介。",
+      "monitorSources": [
+        {
+          "id": "fb_easttopmusic",
+          "name": "Easttop Harmonicas",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/EasttopMusic",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_easttopharmonicas",
+          "name": "Easttop Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "easttopharmonicas",
+          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_easttopharmonicas",
+          "name": "Easttop Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "easttopharmonicas",
+          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/easttopharmonicas/story/0"
+        },
+        {
+          "id": "yt_easttopmusic",
+          "name": "Easttop Harmonicas",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@easttopmusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-2",
       "publicId": "2",
       "name": "臺灣口琴音樂節 THMF",
@@ -3088,91 +3399,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@filipjersmusic",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-153",
-      "publicId": "153",
-      "name": "Santiago Alvarez",
-      "nameEn": "Santiago Alvarez",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "阿根廷",
-      "region": "阿根廷",
-      "cityOrFocus": "WHF 2025/半音階口琴/世界冠軍/演出與教學",
-      "structuredSummary": "WHF 2025/半音階口琴/世界冠軍/演出與教學 / 半音階 / 國際演出人員/教育者",
-      "summary": "阿根廷的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、半音階口琴與世界冠軍。",
-      "keywords": "Santiago Alvarez Santiago Alvarez Armonica harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://worldharmonicafestival.de/artist-profile-santiago-alvarez/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/santialvarezarmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/santi.alvarez.armonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCj06r7zxcQqFS26fy7n0jZw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-12T18:35:24+00:00",
-      "latestUpdateLocal": "2026-08-13 02:35",
-      "latestUpdateSource": "Santiago Alvarez",
-      "latestUpdateUrl": "https://www.instagram.com/stories/santi.alvarez.armonica/3962272618644101131/",
-      "avatarUrl": "/assets/source-avatars/06cac0c8ee07d7b0e453.webp",
-      "sourceInitials": "SA",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_santialvarezarmonica",
-          "name": "Santiago Alvarez",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/santialvarezarmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_santi_alvarez_armonica",
-          "name": "Santiago Alvarez",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "santi.alvarez.armonica",
-          "profileUrl": "https://www.instagram.com/santi.alvarez.armonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_santi_alvarez_armonica",
-          "name": "Santiago Alvarez",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "santi.alvarez.armonica",
-          "profileUrl": "https://www.instagram.com/santi.alvarez.armonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/santi.alvarez.armonica/story/0"
-        },
-        {
-          "id": "yt_ucj06r7zxcqqfs26fy7n0jzw",
-          "name": "Santiago Alvarez",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCj06r7zxcQqFS26fy7n0jZw",
           "feedUrl": ""
         }
       ]
@@ -4253,98 +4479,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@UpSideDownharmonicaensemble",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-224",
-      "publicId": "224",
-      "name": "Easttop Harmonicas",
-      "nameEn": "Easttop Harmonicas",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "品牌/樂器製造商",
-      "country": "中國",
-      "region": "中國/江蘇/無錫/江陰",
-      "cityOrFocus": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節",
-      "structuredSummary": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節 / 口琴 / 器材品牌/活動主辦單位",
-      "summary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
-      "keywords": "Easttop EAST TOP Jiangsu East Musical Instrument APHF Huaxia Harmonica Festival 口琴 品牌",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://easttop-harmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/EasttopMusic/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/easttopharmonicas/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@easttopmusic"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@easttopharmonicaofficial"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-12T04:29:26+00:00",
-      "latestUpdateLocal": "2026-08-12 12:29",
-      "latestUpdateSource": "Easttop Harmonicas",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=4WTPBtFguuk",
-      "avatarUrl": "/assets/source-avatars/e3f9b364fa18148f074e.webp",
-      "sourceInitials": "EH",
-      "sourceTags": [
-        "品牌",
-        "器材",
-        "活動資訊",
-        "音樂節",
-        "國際交流"
-      ],
-      "sourceSummary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
-      "sourceTagReason": "整合自 Easttop 官網、官方 Linktree、Instagram 與 YouTube 自介。",
-      "monitorSources": [
-        {
-          "id": "fb_easttopmusic",
-          "name": "Easttop Harmonicas",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/EasttopMusic",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_easttopharmonicas",
-          "name": "Easttop Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "easttopharmonicas",
-          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_easttopharmonicas",
-          "name": "Easttop Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "easttopharmonicas",
-          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/easttopharmonicas/story/0"
-        },
-        {
-          "id": "yt_easttopmusic",
-          "name": "Easttop Harmonicas",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@easttopmusic",
           "feedUrl": ""
         }
       ]
@@ -7249,52 +7383,6 @@
       ]
     },
     {
-      "id": "watchlist-221",
-      "publicId": "221",
-      "name": "吹口琴的小园园",
-      "nameEn": "Yuanyuan Harmonica",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "中國",
-      "region": "中國",
-      "cityOrFocus": "十孔/藍調/流行/教學",
-      "structuredSummary": "十孔/藍調/流行/教學 / 十孔/半音階 / 演出人員/教學者",
-      "summary": "中國的十孔與半音階演出人員與教學者，活動脈絡包含藍調、流行與教學。",
-      "keywords": "吹口琴的小园园 Yuanyuan Harmonica 口琴 藍調口琴 十孔口琴",
-      "links": [
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@yuanyuanharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-06T10:00:02+00:00",
-      "latestUpdateLocal": "2026-08-06 18:00",
-      "latestUpdateSource": "吹口琴的小园园",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=W8H50eX-yBM",
-      "avatarUrl": "/assets/source-avatars/aed956184d6a75510a0c.webp",
-      "sourceInitials": "吹口",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "yt_yuanyuanharmonica",
-          "name": "吹口琴的小园园",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@yuanyuanharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-81",
       "publicId": "81",
       "name": "雙燕樂器",
@@ -8408,94 +8496,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@deakharp",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-223",
-      "publicId": "223",
-      "name": "El Caminito 엘 까미니또",
-      "nameEn": "El Caminito",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "韓國",
-      "region": "韓國/首爾",
-      "cityOrFocus": "Nuevo Tango/世界音樂/口琴與鋼琴二重奏/作曲/演出",
-      "structuredSummary": "Nuevo Tango/世界音樂/口琴與鋼琴二重奏/作曲/演出 / 半音階口琴/鋼琴 / 國際演出團體/二重奏",
-      "summary": "韓國口琴與鋼琴 Nuevo Tango 二重奏，由口琴演奏者 최희중 與鋼琴家 명나영 組成。",
-      "keywords": "El Caminito 엘까미니또 최희중 명나영 harmonica piano Nuevo Tango Korea",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.cjazit.org/support/tune-up/entry/64/26710?p=26"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/duo.elcaminito/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/elcaminito_official/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCaHrTB0aiwNv-9wCSeB8eKg"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-30T03:00:06+00:00",
-      "latestUpdateLocal": "2026-07-30 11:00",
-      "latestUpdateSource": "El Caminito 엘 까미니또",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbZrLu8h2nz/",
-      "avatarUrl": "/assets/source-avatars/a9d408c75bc4de7872eb.webp",
-      "sourceInitials": "EC",
-      "sourceTags": [
-        "團體樂團",
-        "半音階",
-        "國際交流",
-        "重奏",
-        "演出"
-      ],
-      "sourceSummary": "韓國口琴與鋼琴 Nuevo Tango 二重奏，由口琴演奏者 최희중 與鋼琴家 명나영 組成。",
-      "sourceTagReason": "整合自官方 Instagram、Facebook、YouTube 與 CJ 文化財團介紹。",
-      "monitorSources": [
-        {
-          "id": "fb_duo_elcaminito",
-          "name": "El Caminito 엘 까미니또",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/duo.elcaminito",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_elcaminito_official",
-          "name": "El Caminito 엘 까미니또",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "elcaminito_official",
-          "profileUrl": "https://www.instagram.com/elcaminito_official/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_elcaminito_official",
-          "name": "El Caminito 엘 까미니또",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "elcaminito_official",
-          "profileUrl": "https://www.instagram.com/elcaminito_official/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/elcaminito_official/story/0"
-        },
-        {
-          "id": "yt_ucahrtb0aiwnv_9wcseb8ekg",
-          "name": "El Caminito 엘 까미니또",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCaHrTB0aiwNv-9wCSeB8eKg",
           "feedUrl": ""
         }
       ]
