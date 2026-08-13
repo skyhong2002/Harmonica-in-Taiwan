@@ -254,6 +254,105 @@
       ]
     },
     {
+      "id": "watchlist-94",
+      "publicId": "94",
+      "name": "Duo Volce Music Studio 誼聲音樂室",
+      "nameEn": "Duo Volce Music Studio",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "工作室/團體",
+      "country": "香港",
+      "region": "香港/國際",
+      "cityOrFocus": "半音階口琴/小提琴二重奏/教學",
+      "structuredSummary": "半音階口琴/小提琴二重奏/教學 / 半音階/小提琴 / 國際教學/演出單位",
+      "summary": "香港的半音階與小提琴國際教學與演出單位，活動脈絡包含半音階口琴、小提琴二重奏與教學。",
+      "keywords": "Duo Volce Music Studio 誼聲音樂室 Harry Choi 蔡偉鏗 harmonica violin Hong Kong",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.duovolce.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/DuoVolce/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/DuoVolce/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/DuoVolce"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/duovolce"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-13T15:29:51+00:00",
+      "latestUpdateLocal": "2026-08-13 23:29",
+      "latestUpdateSource": "Duo Volce Music Studio 誼聲音樂室",
+      "latestUpdateUrl": "https://www.instagram.com/stories/DuoVolce/3962903998172967640/",
+      "avatarUrl": "/assets/source-avatars/f578259a603437e828c4.webp",
+      "sourceInitials": "DVM",
+      "sourceTags": [
+        "團體樂團",
+        "教學",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/DuoVolce",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "DuoVolce",
+          "profileUrl": "https://www.instagram.com/DuoVolce/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "DuoVolce",
+          "profileUrl": "https://www.instagram.com/DuoVolce/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/DuoVolce/story/0"
+        },
+        {
+          "id": "x_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "x",
+          "type": "rss",
+          "username": "duovolce",
+          "profileUrl": "https://x.com/duovolce",
+          "feedUrl": "https://rss.observe.tw/twitter/user/duovolce"
+        },
+        {
+          "id": "yt_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/DuoVolce",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-80",
       "publicId": "80",
       "name": "臺中國家歌劇院",
@@ -843,6 +942,77 @@
           "username": "aidensoon",
           "profileUrl": "https://www.instagram.com/aidensoon/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-146",
+      "publicId": "146",
+      "name": "World Harmonica Festival",
+      "nameEn": "World Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "國際活動/資訊入口",
+      "country": "德國",
+      "region": "德國/特羅辛根",
+      "cityOrFocus": "四年一度世界口琴節/國際比賽/Gala/工作坊",
+      "structuredSummary": "四年一度世界口琴節/國際比賽/Gala/工作坊 / 口琴 / 國際活動來源",
+      "summary": "德國的國際活動來源，涵蓋四年一度世界口琴節、國際比賽、Gala與工作坊。",
+      "keywords": "World Harmonica Festival WHF Trossingen Hohner harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://worldharmonicafestival.de/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/WorldHarmonicaFestival/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/whf_world_harmonica_festival/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-13T12:00:07+00:00",
+      "latestUpdateLocal": "2026-08-13 20:00",
+      "latestUpdateSource": "World Harmonica Festival",
+      "latestUpdateUrl": "https://www.instagram.com/p/Db-sFacRR00/",
+      "avatarUrl": "/assets/source-avatars/7f448a79b2cb29fdf2f5.webp",
+      "sourceInitials": "WHF",
+      "sourceTags": [
+        "活動資訊",
+        "比賽",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_worldharmonicafestival",
+          "name": "World Harmonica Festival",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/WorldHarmonicaFestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_whf_world_harmonica_festival",
+          "name": "World Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "whf_world_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/whf_world_harmonica_festival/story/0"
+        },
+        {
+          "id": "ig_whf_world_harmonica_festival",
+          "name": "World Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "whf_world_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
+          "feedUrl": ""
         }
       ]
     },
@@ -1679,6 +1849,90 @@
       ]
     },
     {
+      "id": "watchlist-211",
+      "publicId": "211",
+      "name": "新加坡國立大學口琴社",
+      "nameEn": "NUS Harmonica",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "新加坡",
+      "region": "新加坡/肯特崗",
+      "cityOrFocus": "新加坡國立大學/學校社團/肯特崗",
+      "structuredSummary": "新加坡國立大學/學校社團/肯特崗 / 口琴樂團/學生合奏 / 學校社團",
+      "summary": "新加坡的口琴樂團與學生合奏學校社團。",
+      "keywords": "新加坡國立大學口琴社 NUS Harmonica NUS Harmonica Orchestra Singapore student harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://osa.nus.edu.sg/nusartsfestival/event/constellations-under-starlit-skies/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/nusharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/nusharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@NUSHO"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-13T09:08:48+00:00",
+      "latestUpdateLocal": "2026-08-13 17:08",
+      "latestUpdateSource": "新加坡國立大學口琴社",
+      "latestUpdateUrl": "https://www.instagram.com/stories/nusharmonica/3962712233402174407/",
+      "avatarUrl": "/assets/source-avatars/2f3a7bd2bf72fd2dec84.webp",
+      "sourceInitials": "新加",
+      "sourceTags": [
+        "學生社團",
+        "大專社團",
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_nusharmonica",
+          "name": "新加坡國立大學口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/nusharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_nusharmonica",
+          "name": "新加坡國立大學口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "nusharmonica",
+          "profileUrl": "https://www.instagram.com/nusharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_nusharmonica",
+          "name": "新加坡國立大學口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "nusharmonica",
+          "profileUrl": "https://www.instagram.com/nusharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/nusharmonica/story/0"
+        },
+        {
+          "id": "yt_nusho",
+          "name": "新加坡國立大學口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@NUSHO",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-125",
       "publicId": "125",
       "name": "Jens Bunge",
@@ -2016,90 +2270,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/jongseongpark",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-211",
-      "publicId": "211",
-      "name": "新加坡國立大學口琴社",
-      "nameEn": "NUS Harmonica",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "新加坡",
-      "region": "新加坡/肯特崗",
-      "cityOrFocus": "新加坡國立大學/學校社團/肯特崗",
-      "structuredSummary": "新加坡國立大學/學校社團/肯特崗 / 口琴樂團/學生合奏 / 學校社團",
-      "summary": "新加坡的口琴樂團與學生合奏學校社團。",
-      "keywords": "新加坡國立大學口琴社 NUS Harmonica NUS Harmonica Orchestra Singapore student harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://osa.nus.edu.sg/nusartsfestival/event/constellations-under-starlit-skies/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/nusharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/nusharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@NUSHO"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-13T06:12:32+00:00",
-      "latestUpdateLocal": "2026-08-13 14:12",
-      "latestUpdateSource": "新加坡國立大學口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/stories/nusharmonica/3962623506667555201/",
-      "avatarUrl": "/assets/source-avatars/2f3a7bd2bf72fd2dec84.webp",
-      "sourceInitials": "新加",
-      "sourceTags": [
-        "學生社團",
-        "大專社團",
-        "團體樂團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_nusharmonica",
-          "name": "新加坡國立大學口琴社",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/nusharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_nusharmonica",
-          "name": "新加坡國立大學口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "nusharmonica",
-          "profileUrl": "https://www.instagram.com/nusharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_nusharmonica",
-          "name": "新加坡國立大學口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "nusharmonica",
-          "profileUrl": "https://www.instagram.com/nusharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nusharmonica/story/0"
-        },
-        {
-          "id": "yt_nusho",
-          "name": "新加坡國立大學口琴社",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@NUSHO",
           "feedUrl": ""
         }
       ]
@@ -4836,77 +5006,6 @@
       ]
     },
     {
-      "id": "watchlist-146",
-      "publicId": "146",
-      "name": "World Harmonica Festival",
-      "nameEn": "World Harmonica Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "國際活動/資訊入口",
-      "country": "德國",
-      "region": "德國/特羅辛根",
-      "cityOrFocus": "四年一度世界口琴節/國際比賽/Gala/工作坊",
-      "structuredSummary": "四年一度世界口琴節/國際比賽/Gala/工作坊 / 口琴 / 國際活動來源",
-      "summary": "德國的國際活動來源，涵蓋四年一度世界口琴節、國際比賽、Gala與工作坊。",
-      "keywords": "World Harmonica Festival WHF Trossingen Hohner harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://worldharmonicafestival.de/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/WorldHarmonicaFestival/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/whf_world_harmonica_festival/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-11T12:00:07+00:00",
-      "latestUpdateLocal": "2026-08-11 20:00",
-      "latestUpdateSource": "World Harmonica Festival",
-      "latestUpdateUrl": "https://www.instagram.com/p/Db5iiy5R7yR/",
-      "avatarUrl": "/assets/source-avatars/7f448a79b2cb29fdf2f5.webp",
-      "sourceInitials": "WHF",
-      "sourceTags": [
-        "活動資訊",
-        "比賽",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_worldharmonicafestival",
-          "name": "World Harmonica Festival",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/WorldHarmonicaFestival",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_whf_world_harmonica_festival",
-          "name": "World Harmonica Festival",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "whf_world_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/whf_world_harmonica_festival/story/0"
-        },
-        {
-          "id": "ig_whf_world_harmonica_festival",
-          "name": "World Harmonica Festival",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "whf_world_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-14",
       "publicId": "14",
       "name": "mr.Why 花影樂團",
@@ -7503,105 +7602,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-94",
-      "publicId": "94",
-      "name": "Duo Volce Music Studio 誼聲音樂室",
-      "nameEn": "Duo Volce Music Studio",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "工作室/團體",
-      "country": "香港",
-      "region": "香港/國際",
-      "cityOrFocus": "半音階口琴/小提琴二重奏/教學",
-      "structuredSummary": "半音階口琴/小提琴二重奏/教學 / 半音階/小提琴 / 國際教學/演出單位",
-      "summary": "香港的半音階與小提琴國際教學與演出單位，活動脈絡包含半音階口琴、小提琴二重奏與教學。",
-      "keywords": "Duo Volce Music Studio 誼聲音樂室 Harry Choi 蔡偉鏗 harmonica violin Hong Kong",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.duovolce.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/DuoVolce/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/DuoVolce/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/DuoVolce"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/duovolce"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-05T09:21:34+00:00",
-      "latestUpdateLocal": "2026-08-05 17:21",
-      "latestUpdateSource": "Duo Volce Music Studio 誼聲音樂室",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=sraqOCD1zcU",
-      "avatarUrl": "/assets/source-avatars/f578259a603437e828c4.webp",
-      "sourceInitials": "DVM",
-      "sourceTags": [
-        "團體樂團",
-        "教學",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/DuoVolce",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "DuoVolce",
-          "profileUrl": "https://www.instagram.com/DuoVolce/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "DuoVolce",
-          "profileUrl": "https://www.instagram.com/DuoVolce/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/DuoVolce/story/0"
-        },
-        {
-          "id": "x_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "x",
-          "type": "rss",
-          "username": "duovolce",
-          "profileUrl": "https://x.com/duovolce",
-          "feedUrl": "https://rss.observe.tw/twitter/user/duovolce"
-        },
-        {
-          "id": "yt_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/DuoVolce",
           "feedUrl": ""
         }
       ]

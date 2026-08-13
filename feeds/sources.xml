@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 13 Aug 2026 18:13:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 19:19:20 +0000</lastBuildDate>
     <item>
       <title>Marcos Coll</title>
       <link>https://marcoscoll.com/</link>
@@ -27,6 +27,17 @@ Tag：演奏者、半音階、國際交流
 國家：日本
 地區：日本
 日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+    </item>
+    <item>
+      <title>Duo Volce Music Studio 誼聲音樂室</title>
+      <link>https://www.duovolce.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/68802537913ce467</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、教學、半音階、重奏、國際交流
+國家：香港
+地區：香港/國際
+香港的半音階與小提琴國際教學與演出單位，活動脈絡包含半音階口琴、小提琴二重奏與教學。</description>
     </item>
     <item>
       <title>臺中國家歌劇院</title>
@@ -104,6 +115,17 @@ Tag：演奏者、教學、半音階、國際交流
 國家：馬來西亞
 地區：馬來西亞
 馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。</description>
+    </item>
+    <item>
+      <title>World Harmonica Festival</title>
+      <link>https://worldharmonicafestival.de/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/d540be4b0c925a31</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、比賽、國際交流
+國家：德國
+地區：德國/特羅辛根
+德國的國際活動來源，涵蓋四年一度世界口琴節、國際比賽、Gala與工作坊。</description>
     </item>
     <item>
       <title>Federico Linari</title>
@@ -216,6 +238,17 @@ Tag：演奏者、半音階、十孔、國際交流
 西班牙的半音階與十孔國際演出人員，活動脈絡包含馬德里出生、古典藍調爵士流行與與Paco de Lucia合作。</description>
     </item>
     <item>
+      <title>新加坡國立大學口琴社</title>
+      <link>https://osa.nus.edu.sg/nusartsfestival/event/constellations-under-starlit-skies/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/b9b11ba09fe77d98</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：學校社團
+Tag：學生社團、大專社團、團體樂團
+國家：新加坡
+地區：新加坡/肯特崗
+新加坡的口琴樂團與學生合奏學校社團。</description>
+    </item>
+    <item>
       <title>Jens Bunge</title>
       <link>https://hohner.de/en/jens-bunge</link>
       <guid>https://harmonica.observe.tw/feeds/sources/bf85aeb31f137bd0</guid>
@@ -258,17 +291,6 @@ Tag：演奏者、半音階、國際交流
 國家：韓國
 地區：韓國
 韓國半音階口琴演奏家，活躍於國際舞台。</description>
-    </item>
-    <item>
-      <title>新加坡國立大學口琴社</title>
-      <link>https://osa.nus.edu.sg/nusartsfestival/event/constellations-under-starlit-skies/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/b9b11ba09fe77d98</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：學校社團
-Tag：學生社團、大專社團、團體樂團
-國家：新加坡
-地區：新加坡/肯特崗
-新加坡的口琴樂團與學生合奏學校社團。</description>
     </item>
     <item>
       <title>臺灣口琴音樂節 THMF</title>
@@ -645,17 +667,6 @@ Tag：協會、活動資訊、國際交流
 美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。</description>
     </item>
     <item>
-      <title>World Harmonica Festival</title>
-      <link>https://worldharmonicafestival.de/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/d540be4b0c925a31</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：活動資訊、比賽、國際交流
-國家：德國
-地區：德國/特羅辛根
-德國的國際活動來源，涵蓋四年一度世界口琴節、國際比賽、Gala與工作坊。</description>
-    </item>
-    <item>
       <title>mr.Why 花影樂團</title>
       <link>https://portaly.cc/mr.Why</link>
       <guid>https://harmonica.observe.tw/feeds/sources/8f72f2250c354857</guid>
@@ -1028,17 +1039,6 @@ Tag：團體樂團、重奏、演出
 國家：臺灣
 地區：臺灣
 台大藍聲系背景的青年口琴重奏樂團，專注於室內樂演出。</description>
-    </item>
-    <item>
-      <title>Duo Volce Music Studio 誼聲音樂室</title>
-      <link>https://www.duovolce.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/68802537913ce467</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、教學、半音階、重奏、國際交流
-國家：香港
-地區：香港/國際
-香港的半音階與小提琴國際教學與演出單位，活動脈絡包含半音階口琴、小提琴二重奏與教學。</description>
     </item>
     <item>
       <title>Leafin Harmonica Ensemble</title>
