@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 13 Aug 2026 15:23:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 15:58:24 +0000</lastBuildDate>
+    <item>
+      <title>南里沙</title>
+      <link>https://minamirisa.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/ad86c3570665b36e</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：日本
+地區：日本
+日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+    </item>
     <item>
       <title>王衍華</title>
       <link>https://portaly.cc/yenhua_wang</link>
@@ -104,6 +115,17 @@ Tag：團體樂團、國際交流
 國家：印尼
 地區：印尼
 印尼的口琴與跨界國際演出團體，活動脈絡包含Reyharp Naufal與Balawan合作、跨界融合與口琴與吉他。</description>
+    </item>
+    <item>
+      <title>Lee Hangyeol 이한결</title>
+      <link>https://www.instagram.com/gyeoli_94/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/7a632dfd1b5ac9e9</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、半音階、國際交流
+國家：韓國
+地區：韓國
+韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。</description>
     </item>
     <item>
       <title>唐雪婷 Sharene Tang</title>
@@ -326,17 +348,6 @@ Tag：協會、國際交流
 新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。</description>
     </item>
     <item>
-      <title>南里沙</title>
-      <link>https://minamirisa.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/ad86c3570665b36e</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：日本
-地區：日本
-日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
-    </item>
-    <item>
       <title>廖苡晴</title>
       <link>https://laelapsharmonica.com/zh/laelaps-club/alysa-liao/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/6cc08f27f2215412</guid>
@@ -368,17 +379,6 @@ Tag：演奏者、合奏、和弦、重奏、演出
 國家：臺灣
 地區：臺灣
 口琴演奏者，專長和弦口琴與重奏演出。</description>
-    </item>
-    <item>
-      <title>Lee Hangyeol 이한결</title>
-      <link>https://www.instagram.com/gyeoli_94/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/7a632dfd1b5ac9e9</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學、半音階、國際交流
-國家：韓國
-地區：韓國
-韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。</description>
     </item>
     <item>
       <title>Marcos Coll</title>
