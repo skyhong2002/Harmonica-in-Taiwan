@@ -1,5 +1,5 @@
 window.HARMONICA_OBSERVE_DATA = {
-  "generatedAt": "2026-08-13",
+  "generatedAt": "2026-08-14",
   "entries": [
     {
       "id": "watchlist-58",
@@ -1073,7 +1073,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-13 18:11",
       "latestUpdateSource": "Evelyn Choong 鍾雪兒",
       "latestUpdateUrl": "https://www.instagram.com/stories/evelyn_harmonica/3962744371527473659/",
-      "avatarUrl": "/assets/source-avatars/7d3b8a1138a2a1df8992.webp",
+      "avatarUrl": "/assets/source-avatars/10ba606536bac71cadaf.webp",
       "sourceInitials": "EC",
       "sourceTags": [
         "演奏者",
