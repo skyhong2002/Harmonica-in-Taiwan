@@ -1,9 +1,9 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-08-13T22:48:35+08:00",
+  "generatedAt": "2026-08-13T23:23:58+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 5,
+  "count": 6,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,7 +14,7 @@ window.publicCalendarEvents = {
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
+      "requests": 1,
       "cached": 13,
       "errors": 0
     }
@@ -127,6 +127,42 @@ window.publicCalendarEvents = {
         "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-6/736921370_1546041260866287_3590465714306944280_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x500&ctp=s1200x500&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Snb5y5-ibAwQ7kNvwFpj7pO&_nc_oc=AdonLbu3ItPejPFxit3hf_Y3N2YaDYUcvRU3h74D4v0ryLmRV_GMt9PLGF4j3UIowkg&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=GyYaZsWIBdifSFV3V4iExw&_nc_ss=72289&oh=00_AQD9YvoYz2mvfVWCZjYlmjkTowhPfKdnRznmfoho_DVtpA&oe=6A4DA8CB"
       ],
       "image_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-6/736921370_1546041260866287_3590465714306944280_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x500&ctp=s1200x500&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Snb5y5-ibAwQ7kNvwFpj7pO&_nc_oc=AdonLbu3ItPejPFxit3hf_Y3N2YaDYUcvRU3h74D4v0ryLmRV_GMt9PLGF4j3UIowkg&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=GyYaZsWIBdifSFV3V4iExw&_nc_ss=72289&oh=00_AQD9YvoYz2mvfVWCZjYlmjkTowhPfKdnRznmfoho_DVtpA&oe=6A4DA8CB"
+    },
+    {
+      "id": "87d56ef441f138da",
+      "title": "聽說口琴音樂故事",
+      "eventName": "聽說口琴音樂故事",
+      "source": "王衍華",
+      "platform": "instagram",
+      "start": "2026-09-12T19:30:00+08:00",
+      "end": "2026-09-12T21:30:00+08:00",
+      "allDay": false,
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "location": "臺北市 國立臺灣大學藝文中心雅頌坊",
+      "venue": "國立臺灣大學藝文中心雅頌坊",
+      "city": "臺北市",
+      "details": "主辦／演出者：王衍華。天狼星口琴樂團於國立臺灣大學藝文中心演出，節目以口琴重奏搭配解說與導聆，票價600元，臺灣大學系統教職員工生享五折優惠。購票可透過 OPENTIX 兩廳院售票系統。",
+      "evidenceUrl": "https://www.instagram.com/p/Db_AiybFOyQ/",
+      "confidence": 0.98,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "聽說口琴音樂故事",
+        "venue": "國立臺灣大學藝文中心雅頌坊",
+        "city": "臺北市",
+        "details": "主辦／演出者：王衍華。天狼星口琴樂團於國立臺灣大學藝文中心演出，節目以口琴重奏搭配解說與導聆，票價600元，臺灣大學系統教職員工生享五折優惠。購票可透過 OPENTIX 兩廳院售票系統。",
+        "reason": "貼文明確寫出活動名稱、時間為 2026/9/12 19:30，地點在臺灣台北的國立臺灣大學藝文中心，屬臺灣實體口琴演出。",
+        "confidence": 0.98
+      },
+      "postedAt": "2026-08-13 22:59",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/774125930_18453949939138501_6570879922236738731_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=Mzk2Mjg4ODU4NzcxMjk4MjE2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=nDLPSL7MdjQQ7kNvwEe3VMZ&_nc_oc=Ado5AqivFjzpOlYnIlmV9bHSmpfD7228hMmbHWKcw6sXtOVqsNatffZhcxZRuR2tPsA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=7cPnBd6_uOhM0PJKkvXQMg&_nc_ss=7a22e&oh=00_AQGmF7jVknKCk7FZNZ8WsgKJq3gEaJMs58RqThEXFDeqrQ&oe=6A839FD4"
+      ],
+      "image_url": "/assets/feed-images/69b79ffd261a1ff2c374.webp"
     },
     {
       "id": "d9ba531c3f824ba0",
