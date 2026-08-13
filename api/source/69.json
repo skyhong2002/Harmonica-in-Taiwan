@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T12:01:30.924660Z",
+  "generatedAt": "2026-08-13T13:08:08.425332Z",
   "source": {
     "id": 69,
     "slug": "dror-adler-adler-trio",
     "name": "Dror Adler / Adler Trio",
     "pageUrl": "https://harmonica.observe.tw/source/69-dror-adler-adler-trio/"
   },
-  "items": [
-    {
-      "id": "post-4cb9b302d0cc1a544511770f",
-      "title": "𝑪𝒉𝒐𝒑𝒊𝒏❜𝒔 𝑵𝒐𝒄𝒕𝒖𝒓𝒏𝒐 𝑶𝒑, 9 𝑵𝒐.2",
-      "excerpt": "𝑪𝒉𝒐𝒑𝒊𝒏❜𝒔 𝑵𝒐𝒄𝒕𝒖𝒓𝒏𝒐 𝑶𝒑, 9 𝑵𝒐.2 לנגינת הקטע הזה בסולם המקורי, כוונתי במיוחד את המפוחית כדי לקבל טריל (קישוט, סלסול) אחד מדויק שאינו מתאפשר במפוחית רגילה... To play it in the original key, I had to specially tune this harmonica just to get one proper trill...",
-      "url": "https://www.facebook.com/reel/1569597321228413/",
-      "sourceName": "Dror Adler / Adler Trio",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-14T13:02:19Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/44fb2c2fca0845a23807.webp",
-        "width": 800,
-        "height": 450
-      }
-    }
-  ]
+  "items": []
 }

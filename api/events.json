@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 652,
+  "count": 655,
   "items": [
     {
       "title": "臺中國家歌劇院 National Taichung Theater｜2026 NTT 遇見巨人 | 羅伯．勒帕吉╳柏林雷寧廣場劇院《信仰、金錢、戰爭與愛》 🎊年度劇場盛事、大師鉅作亞洲首演，獨家在歌劇院！ 「劇場魔法師」羅伯．勒帕吉首度攜…",
@@ -383,6 +383,79 @@
         "學生社團"
       ],
       "key": "ig_harmonica_wang:https://www.instagram.com/p/Db9ekLzReoP/"
+    },
+    {
+      "title": "Antonio Serrano｜Bandolero, Rubem Dantas, Antonio Serrano, Tino Di Geraldo, Jorge Pardo, Joan Albert Amargós, Carles Ben…",
+      "headline": "Bandolero, Rubem Dantas, Antonio Serrano, Tino Di Geraldo, Jorge Pardo, Joan Albert Amargós, Carles Benavent",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/Db9IzVkI4pX/",
+      "source_id": "ig_antonioserranoarmonica",
+      "source": "Antonio Serrano",
+      "source_system_name": "Antonio Serrano",
+      "source_profile_url": "https://www.instagram.com/antonioserranoarmonica/",
+      "country": "西班牙",
+      "region": "西班牙",
+      "directory_entry_id": "watchlist-132",
+      "directory_entry_name": "Antonio Serrano",
+      "account": "antonioserranoarmonica",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Wed, 12 Aug 2026 21:32:59 GMT",
+      "posted_at_local": "2026-08-13 05:32",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-13T13:07:50.752511+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/antonioserranoarmonica",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.86,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "Antonio Serrano為口琴演奏者，貼文提及演出與致敬音樂會內容，屬口琴演奏者公開更新。",
+      "text": "Bandolero, Rubem Dantas, Antonio Serrano, Tino Di Geraldo, Jorge Pardo, Joan Albert Amargós, Carles Benavent\nTeatro Real año 2022 Homenaje a Paco de Lucía \"Infinito\"",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/770330671_18145836304528884_2641240691198560404_n.webp?_nc_cat=103&ig_cache_key=Mzk2MjM2MTk1OTM3NjE5NDEzNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=bqJf_l7Vup8Q7kNvwFQkhJe&_nc_oc=AdqeNvRvBQJM5MwJuo2fKL3mkZhOGVKrNSXzr5scCFbH1E3AqvobDkEI934IxXBftz0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=x8XM68vth7G1K0jc0f_3Pg&_nc_ss=7a22e&oh=00_AQFXHhPVTiyyL1cyWbBT6q3xEXSFLirh7dPplFzVgAK_ow&oe=6A837EAC"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/770330671_18145836304528884_2641240691198560404_n.webp?_nc_cat=103&ig_cache_key=Mzk2MjM2MTk1OTM3NjE5NDEzNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=bqJf_l7Vup8Q7kNvwFQkhJe&_nc_oc=AdqeNvRvBQJM5MwJuo2fKL3mkZhOGVKrNSXzr5scCFbH1E3AqvobDkEI934IxXBftz0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=x8XM68vth7G1K0jc0f_3Pg&_nc_ss=7a22e&oh=00_AQFXHhPVTiyyL1cyWbBT6q3xEXSFLirh7dPplFzVgAK_ow&oe=6A837EAC",
+      "image_url": "/assets/feed-images/20be3896be9dd6efc484.webp",
+      "image_width": 1080,
+      "image_height": 1080,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/587356515_18543865708023728_6352937185019025789_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFUUUtkjM4AunnU0E6e8wggyqtetjzWq3jUNwdftNJZtuPdjLCxU5l6bGt9c6xzqWM&_nc_ohc=MtmQ8KNAqgMQ7kNvwFAbEXF&_nc_gid=Hn1K9SpE2_v4RkKFr0olUQ&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQFYd3Otwwm5KEqycIaos9Ut09Ego3qyHXuTNgg15Qbjfw&oe=6A837F40&_nc_sid=ee9879",
+      "avatar_url": "/assets/source-avatars/0074a951adec1d32d4cc.webp",
+      "source_initials": "AS",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_antonioserranoarmonica:https://www.instagram.com/p/Db9IzVkI4pX/"
     },
     {
       "title": "Howard Levy｜Bach on diatonic harmonica and resonator guitar—just one side of what Chris Siebold and I do together. In a…",
@@ -34644,6 +34717,83 @@
       "key": "ig_hk91f06:https://www.instagram.com/p/DbUzvv9tQAW/"
     },
     {
+      "title": "Antonio Serrano｜A melody from Spain, brought to life by Antonio Serrano. 🇪🇸🎶 Through the harmonica, every note carries …",
+      "headline": "A melody from Spain, brought to life by Antonio Serrano. 🇪🇸🎶",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DbUkRCnPV-R/",
+      "source_id": "ig_antonioserranoarmonica",
+      "source": "Antonio Serrano",
+      "source_system_name": "Antonio Serrano",
+      "source_profile_url": "https://www.instagram.com/antonioserranoarmonica/",
+      "country": "西班牙",
+      "region": "西班牙",
+      "directory_entry_id": "watchlist-132",
+      "directory_entry_name": "Antonio Serrano",
+      "account": "antonioserranoarmonica",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Tue, 28 Jul 2026 03:33:03 GMT",
+      "posted_at_local": "2026-07-28 11:33",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-13T13:07:50.752511+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/antonioserranoarmonica",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.96,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "Antonio Serrano 的公開口琴演奏貼文，屬口琴演出/影片類更新，符合收錄範圍。",
+      "text": "A melody from Spain, brought to life by Antonio Serrano. 🇪🇸🎶\nThrough the harmonica, every note carries warmth, emotion, and a story of its own. ✨\n#AntonioSerrano #Harmonica #ChromaticHarmonica #WorldMusic #LiveMusic",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/755734795_17940630591274083_1051099902510910672_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=Mzk1MDk0MjI3MzgyMjA4OTEwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjg4NC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=eJ_tz1EejdAQ7kNvwFnVRgS&_nc_oc=AdrNJNvarMxfti8gSbBPC_YHvRZtHID8v1KWnL4sp92z3jnFLUSui7uCxN9slgC0Zno&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=x8XM68vth7G1K0jc0f_3Pg&_nc_ss=7a22e&oh=00_AQEVaX3z3iAd5PE52BnlaitzNoJwSka4u5etHpEcXAhCEQ&oe=6A83AB1E"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQNjrlnH1X4ur4cf-slTT1Eebo-nto8T6_RoAcUj23TFhqX_uqsS2NADqq0mJQcoa7ysXUV9UZQKLwOTGXD-ztjiT4WP2Godosx-W3o.mp4?_nc_cat=111&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=RY68v3vfG5EQ7kNvwFixQdV&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc5MzAyOTE1NTQ2MDI5MCwiYXNzZXRfYWdlX2RheXMiOjE2LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NDQsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=82943939dc2e993d&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC83QTRGQTg5RUU1NjU1QzJDRjZFOTMzMTNGQzdDQkQ5Ml92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzlCNDI0QUE5MkQ1NjYzN0JFMkVEREI3RTY1MjM1RkIwX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaE05CehLCvBhUCKAJDMywXQEYVP3ztkWgYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=x8XM68vth7G1K0jc0f_3Pg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQGEM_XqD-CiJP_tDQNCoowLiShJVRo3p2MBT3viTCBnvQ&oe=6A7FB734"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/755734795_17940630591274083_1051099902510910672_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&ig_cache_key=Mzk1MDk0MjI3MzgyMjA4OTEwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjg4NC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=eJ_tz1EejdAQ7kNvwFnVRgS&_nc_oc=AdrNJNvarMxfti8gSbBPC_YHvRZtHID8v1KWnL4sp92z3jnFLUSui7uCxN9slgC0Zno&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=x8XM68vth7G1K0jc0f_3Pg&_nc_ss=7a22e&oh=00_AQEVaX3z3iAd5PE52BnlaitzNoJwSka4u5etHpEcXAhCEQ&oe=6A83AB1E",
+      "image_url": "/assets/feed-images/bc0fee67d8b35612f1b6.webp",
+      "image_width": 800,
+      "image_height": 1422,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/587356515_18543865708023728_6352937185019025789_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFUUUtkjM4AunnU0E6e8wggyqtetjzWq3jUNwdftNJZtuPdjLCxU5l6bGt9c6xzqWM&_nc_ohc=MtmQ8KNAqgMQ7kNvwFAbEXF&_nc_gid=Hn1K9SpE2_v4RkKFr0olUQ&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQFYd3Otwwm5KEqycIaos9Ut09Ego3qyHXuTNgg15Qbjfw&oe=6A837F40&_nc_sid=ee9879",
+      "avatar_url": "/assets/source-avatars/0074a951adec1d32d4cc.webp",
+      "source_initials": "AS",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_antonioserranoarmonica:https://www.instagram.com/p/DbUkRCnPV-R/"
+    },
+    {
       "title": "蔡明憲｜每年夏季都在創歷史忙碌新高點，這場前導音樂會演出主要都是來自雲林的新生代，經歷過十幾年的教學終於累積出了一點成果。 除了演出外，我看到更多的是他們願意去嘗試新東西，在樂曲裡面即興、唱歌，把自己想表達的東西寫進去，甚至編寫全新曲目而…",
       "headline": "每年夏季都在創歷史忙碌新高點，這場前導音樂會演出主要都是來自雲林的新生代，經歷過十幾年的教學終於累積出了一點成果。",
       "display_title": "",
@@ -37672,6 +37822,83 @@
       "key": "ig_jensbunge_jazzharmonica:https://www.instagram.com/p/DbP5Ypzu34U/"
     },
     {
+      "title": "Antonio Serrano｜Where music meets the city. 🎶✨ Antonio Serrano brought his harmonica to Wuxi, creating a beautiful dial…",
+      "headline": "Where music meets the city. 🎶✨",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DbPq0hAPuwv/",
+      "source_id": "ig_antonioserranoarmonica",
+      "source": "Antonio Serrano",
+      "source_system_name": "Antonio Serrano",
+      "source_profile_url": "https://www.instagram.com/antonioserranoarmonica/",
+      "country": "西班牙",
+      "region": "西班牙",
+      "directory_entry_id": "watchlist-132",
+      "directory_entry_name": "Antonio Serrano",
+      "account": "antonioserranoarmonica",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Sun, 26 Jul 2026 05:46:42 GMT",
+      "posted_at_local": "2026-07-26 13:46",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-13T13:07:50.752511+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/antonioserranoarmonica",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.96,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴演奏者 Antonio Serrano 的公開演出/音樂更新，內容明確與口琴相關。",
+      "text": "Where music meets the city. 🎶✨\nAntonio Serrano brought his harmonica to Wuxi, creating a beautiful dialogue between the instrument, the artist, and the city.\n#AntonioSerrano #Harmonica #HarmonicaMusic #WuxiUNESCOCityofMusic #musiccitywuxi",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/754046445_17940335469274083_8796193329893741563_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=Mzk0OTU2MzcyNTAzMTA3NDg2Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY4MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=4qOnOD7szJwQ7kNvwHALXRx&_nc_oc=AdrKHIotvN6Zgcsidh5Nm7J4pVrzkdMn47P46fJ6MIcykF6DXBSrkSCRIJxfshW8IZQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=x8XM68vth7G1K0jc0f_3Pg&_nc_ss=7a22e&oh=00_AQFIJgMdJ3oIthOXvAlFwIeUMpRCDfYbj22Juj5dw8ZHbw&oe=6A838AE8"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQOwbiEoDQ_xO-c1Mu9ikTxosYKeptJA984tHKWLElap5wYZffOeFckc8aR7KcsX7HOkUvjUL0VyGw7E0LCU59roc6TZYPcA0Jd4JFU.mp4?_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=AZKNE7tgcwQQ7kNvwG_ScQc&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTc4MDY4NDU3OTYwNzM3OCwiYXNzZXRfYWdlX2RheXMiOjE4LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MzMsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=6f16abca6294edcf&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC8zNzQ5MDc4MjQzN0VEMkY0NEU0MDYzNDc4Q0EzMzE4Rl92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzQ2NDc4ODFFRDA1RkIxQzMzNzU4RjA0NzQxNDRDNUIyX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACakzZj9veGpBhUCKAJDMywXQECd0vGp--cYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=x8XM68vth7G1K0jc0f_3Pg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQFTneuWnYNQGLC6s5PVgT1AZ2YI7PANDleENLTj5bwSrw&oe=6A7F973A"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/754046445_17940335469274083_8796193329893741563_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=Mzk0OTU2MzcyNTAzMTA3NDg2Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY4MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=4qOnOD7szJwQ7kNvwHALXRx&_nc_oc=AdrKHIotvN6Zgcsidh5Nm7J4pVrzkdMn47P46fJ6MIcykF6DXBSrkSCRIJxfshW8IZQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=x8XM68vth7G1K0jc0f_3Pg&_nc_ss=7a22e&oh=00_AQFIJgMdJ3oIthOXvAlFwIeUMpRCDfYbj22Juj5dw8ZHbw&oe=6A838AE8",
+      "image_url": "/assets/feed-images/6e0e245385f663fef4aa.webp",
+      "image_width": 680,
+      "image_height": 1210,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/587356515_18543865708023728_6352937185019025789_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFUUUtkjM4AunnU0E6e8wggyqtetjzWq3jUNwdftNJZtuPdjLCxU5l6bGt9c6xzqWM&_nc_ohc=MtmQ8KNAqgMQ7kNvwFAbEXF&_nc_gid=Hn1K9SpE2_v4RkKFr0olUQ&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQFYd3Otwwm5KEqycIaos9Ut09Ego3qyHXuTNgg15Qbjfw&oe=6A837F40&_nc_sid=ee9879",
+      "avatar_url": "/assets/source-avatars/0074a951adec1d32d4cc.webp",
+      "source_initials": "AS",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_antonioserranoarmonica:https://www.instagram.com/p/DbPq0hAPuwv/"
+    },
+    {
       "title": "Santiago Alvarez｜🤯🔥🎶⚡❤️👏🎼🚀✨ No words. Just emojis. 😅 This is how we’d describe Santiago Álvarez’s performance. Now it’s…",
       "headline": "🤯🔥🎶⚡❤️👏🎼🚀✨",
       "display_title": "",
@@ -38519,6 +38746,83 @@
         "公開活動"
       ],
       "key": "threads_jangli_harmonica:https://www.threads.com/t/DbOHXjlE9pm"
+    },
+    {
+      "title": "Antonio Serrano｜@antonioserranoarmonica just reminded everyone why he’s in a league of his own. 🤯🎶 His performance at t…",
+      "headline": "@antonioserranoarmonica just reminded everyone why he’s in a league of his own. 🤯🎶 His performance at the Asia Pacific …",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DbOFg7fNK2P/",
+      "source_id": "ig_antonioserranoarmonica",
+      "source": "Antonio Serrano",
+      "source_system_name": "Antonio Serrano",
+      "source_profile_url": "https://www.instagram.com/antonioserranoarmonica/",
+      "country": "西班牙",
+      "region": "西班牙",
+      "directory_entry_id": "watchlist-132",
+      "directory_entry_name": "Antonio Serrano",
+      "account": "antonioserranoarmonica",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Sat, 25 Jul 2026 15:02:54 GMT",
+      "posted_at_local": "2026-07-25 23:02",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-13T13:07:50.752511+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/antonioserranoarmonica",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "演出",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "演出",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "內容明確提到亞洲太平洋口琴節的口琴演出，屬口琴演奏者公開更新。",
+      "text": "@antonioserranoarmonica just reminded everyone why he’s in a league of his own. 🤯🎶 His performance at the Asia Pacific Harmonica Festival was n...\n@antonioserranoarmonica just reminded everyone why he’s in a league of his own. 🤯🎶 His performance at the Asia Pacific Harmonica Festival was nothing short of world-class… every note, every phrase, every moment was simply unforgettable.\nThe bar has officially been raised… again. 👏🌍🎵",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/755440523_18608978335012370_4320367546605868443_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=Mzk0OTExODE3NjM4MDYyODM2NzE4NjA4OTc4MzMyMDEyMzcw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=ASFBHSLEQCcQ7kNvwGExV9V&_nc_oc=Adp5NtBpvT4r_-tfnbpqFImjORCfE74GQosMrPdJ7G21RE5pRcSOL-MKhsNY6H1yIaw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=x8XM68vth7G1K0jc0f_3Pg&_nc_ss=7a22e&oh=00_AQFWmwlOR9Y2p5n9IAuN2JfwIgDen5nyDwBbtFEs1aBrVQ&oe=6A83AE67"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQPr2gTlQHwNZfupsFLINMU4K0Ki1j075gTyAF7k_R8Be0wXyVJkgmxmgcQR21ZQe7vD2hROUViDmEnhCc_68d4GLmpvrhzEeEQwfmw.mp4?_nc_cat=109&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=I76pJiIoE8kQ7kNvwGCXSkg&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6NDA0Nzc0NjkyNTM1OTU0OSwiYXNzZXRfYWdlX2RheXMiOjE4LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6MzksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=48180bb3a790cd01&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC81RjQ5NTcyRDhBNzE1MjhEMjJCNDdGNEM5NTgwNDU5RF92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzA1NDY3Njk0RTRGQzY0QTJFQzlGRkUyQzU5Mzk5RThEX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACb6xoPa8NmwDhUCKAJDMywXQEPwo9cKPXEYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=x8XM68vth7G1K0jc0f_3Pg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQFyoxinz-FsPfAN1DIjEf_2UNfsV8i_sQNoonSX_9JUmg&oe=6A7F90B2"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/755440523_18608978335012370_4320367546605868443_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=110&ig_cache_key=Mzk0OTExODE3NjM4MDYyODM2NzE4NjA4OTc4MzMyMDEyMzcw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=ASFBHSLEQCcQ7kNvwGExV9V&_nc_oc=Adp5NtBpvT4r_-tfnbpqFImjORCfE74GQosMrPdJ7G21RE5pRcSOL-MKhsNY6H1yIaw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=x8XM68vth7G1K0jc0f_3Pg&_nc_ss=7a22e&oh=00_AQFWmwlOR9Y2p5n9IAuN2JfwIgDen5nyDwBbtFEs1aBrVQ&oe=6A83AE67",
+      "image_url": "/assets/feed-images/16ecc1a017551c5afddb.webp",
+      "image_width": 720,
+      "image_height": 1280,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/587356515_18543865708023728_6352937185019025789_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gFUUUtkjM4AunnU0E6e8wggyqtetjzWq3jUNwdftNJZtuPdjLCxU5l6bGt9c6xzqWM&_nc_ohc=MtmQ8KNAqgMQ7kNvwFAbEXF&_nc_gid=Hn1K9SpE2_v4RkKFr0olUQ&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQFYd3Otwwm5KEqycIaos9Ut09Ego3qyHXuTNgg15Qbjfw&oe=6A837F40&_nc_sid=ee9879",
+      "avatar_url": "/assets/source-avatars/0074a951adec1d32d4cc.webp",
+      "source_initials": "AS",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_antonioserranoarmonica:https://www.instagram.com/p/DbOFg7fNK2P/"
     },
     {
       "title": "Howard Levy｜New York, New York… my hometown! ❤️ Every time I come back here, it means something special to me. This cit…",
@@ -51428,90 +51732,6 @@
         "公開活動"
       ],
       "key": "ig_minami_risa:https://www.instagram.com/p/DaxjzVIyD1R/"
-    },
-    {
-      "title": "Harmonica FEN 口琴節與學院｜🔸 RECAP °3 of three amazing days full of music and great encounters in Berlin. Here are the next b…",
-      "headline": "🔸 RECAP °3 of three amazing days full of music and great encounters in Berlin. Here are the next beautiful pictures of …",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.facebook.com/harmonicafenfestival/posts/pfbid02PXXbM6f47QWiz7hfn6vWrVwg1Z4GttaWu6e5LYTvmjDT3J1v1MnWKytJG13zpjPNl",
-      "source_id": "fb_harmonicafenfestival",
-      "source": "Harmonica FEN 口琴節與學院",
-      "source_system_name": "Harmonica FEN 口琴節與學院",
-      "source_profile_url": "https://facebook.com/harmonicafenfestival",
-      "country": "德國",
-      "region": "德國/柏林",
-      "directory_entry_id": "watchlist-178",
-      "directory_entry_name": "Harmonica FEN 口琴節與學院",
-      "account": "harmonicafenfestival",
-      "platform": "facebook",
-      "platform_label": "Facebook",
-      "posted_at": "2026-07-14T12:52:08.000Z",
-      "posted_at_local": "2026-07-14 20:52",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-08-03T07:40:58.103624+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "公開更新",
-        "音樂會",
-        "演出",
-        "影片"
-      ],
-      "keyword_matches": [
-        "harmonica"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.98,
-      "llm_labels": [
-        "口琴",
-        "公開更新",
-        "音樂會",
-        "演出",
-        "影片"
-      ],
-      "llm_categories": [
-        "events",
-        "posts-videos"
-      ],
-      "llm_reason": "口琴節回顧貼文，含多場演出與音樂會內容，屬公開更新且與口琴直接相關。",
-      "text": "🔸 RECAP °3 of three amazing days full of music and great encounters in Berlin. Here are the next beautiful pictures of the FEN family album 2026 taken by Frank Korte May 31 at the HARMONICA FEN FESTIVAL BERLIN.\nThe music of jazz harmonica player Yotam Ben-Or enchanted the audience on our third day of the festival. He performed alongside Shachar Elnatan on guitar. We then delved deep into the world of country music with John Henry from Sweden. The final concert was dedicated to our ‘Network’ theme. The free-reed ensemble, featuring Wu Wei, Steven De Bruyn, Titti Castrini and Sören Birke, brought the Chinese sheng, the harmonica, the accordion and the archaic jaw harp to the stage and, in an incredible improvisation lasting over 50 minutes, demonstrated what musical interplay can mean. They were accompanied by double bass player Carmelo Leotta.\nHARMONICA FEN FESTIVAL 2026 - recap\n29–31/05/2026\nKulturbrauerei Berlin\nhttps://harmonica-fen-festival.com\nStay tuned and subscribe to our newsletter: https://harmonica-fen-festival.de/newsletter/\nPatronage: Wu Wei, Toots Thielemans Foundation\nSupported by Toots Thielemans Foundation, Kesselhaus und Maschinenhaus in der Kulturbrauerei, Panda …",
-      "images": [
-        "https://scontent-lga3-1.xx.fbcdn.net/v/t51.82787-15/744870827_18118102636865078_5730696947321491147_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s590x590&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=YQuNtNLbdVkQ7kNvwF_-8-3&_nc_oc=AdoxzWF5Jy_vX-YAONyabgs_uwPiGxZbND0xMMEYeS_EX0WApXSXSgRdmAc85pZDEng&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=ih2HAYUw7AzusQ9UIL88sw&_nc_ss=72289&oh=00_AQFKyoYbtWyx6dORuLkyae2R6haDbvkq1VV0a5iDLi4zKw&oe=6A760323",
-        "https://scontent-lga3-3.xx.fbcdn.net/v/t51.82787-15/747127099_18118102630865078_4044963803013978877_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=K_P9HzgxsFMQ7kNvwEDtaaW&_nc_oc=Adr2_ouCCv5NtLX_UdHvME31pbORhmfjee9FVbFLcrC-IbxBFG9Bhj4TCE_0VkVSShM&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=ih2HAYUw7AzusQ9UIL88sw&_nc_ss=72289&oh=00_AQFsYV9Ro64Luil8rNewRyvkfsp0eXjJ2O28JQZtMy9zoQ&oe=6A7604FC",
-        "https://scontent-lga3-2.xx.fbcdn.net/v/t51.82787-15/745045764_18118102648865078_6683021279534904918_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=unydEp3MRigQ7kNvwF2_TsV&_nc_oc=Ado2EZNMeK-Y0y_jbGhvT7q2uogSNLEUb1nMnHo-qkg7SdGugZZ7qqtHTtgDlduXsKs&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=ih2HAYUw7AzusQ9UIL88sw&_nc_ss=72289&oh=00_AQGtrDUM6fySl757dffD7JHuLyqYIyMcZMxNQCMzG9Bo4Q&oe=6A761DE9",
-        "https://scontent-lga3-2.xx.fbcdn.net/v/t51.82787-15/745178318_18118102633865078_60661955112679157_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Gz3lupUoda4Q7kNvwEQ5iFq&_nc_oc=Adr4tuhGEDZ2reAOthuvMkRh67_VHpUdPG4chhoiiDVdnumEYM7WiUry9yGQSvS7hXs&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=ih2HAYUw7AzusQ9UIL88sw&_nc_ss=72289&oh=00_AQFMSeOU3KdrUZWFyN3I8C7kJntIz2MXIWmhmmrHjieW0Q&oe=6A762291",
-        "https://scontent-lga3-2.xx.fbcdn.net/v/t51.82787-15/746369728_18118102591865078_761525870880691252_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=IT9eiFqid0sQ7kNvwGSIkQN&_nc_oc=Adr7lpU5r2mBHiZlHDG2L6t5aEMAELEPjoEz3KsKyvaTIsxYyVrZSzbuQ7Yz-UVmue8&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=ih2HAYUw7AzusQ9UIL88sw&_nc_ss=72289&oh=00_AQGB9ieApi6Yo-E9k4AH6_AOuPnolkXnI2clJ3KkWhLJAw&oe=6A7621C6"
-      ],
-      "videos": [],
-      "source_image_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t51.82787-15/744870827_18118102636865078_5730696947321491147_n.jpg?stp=dst-jpg_tt6&cstp=mx800x800&ctp=s590x590&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=YQuNtNLbdVkQ7kNvwF_-8-3&_nc_oc=AdoxzWF5Jy_vX-YAONyabgs_uwPiGxZbND0xMMEYeS_EX0WApXSXSgRdmAc85pZDEng&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=ih2HAYUw7AzusQ9UIL88sw&_nc_ss=72289&oh=00_AQFKyoYbtWyx6dORuLkyae2R6haDbvkq1VV0a5iDLi4zKw&oe=6A760323",
-      "image_url": "/assets/feed-images/6982baf62350803a603d.webp",
-      "image_width": 590,
-      "image_height": 590,
-      "source_avatar_url": "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-1/497967372_996512039135533_8254125825651385613_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx889x889&ctp=s50x50&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=EWdoaLFJfrwQ7kNvwHztbZN&_nc_oc=Adp6_tvSOO89irgENXfduWEAnr3o79-HTIFJJ4c-_ltFEzUXhwnAAyqIE_ocSTSbcjU&_nc_zt=24&_nc_ht=scontent-lga3-1.xx&_nc_gid=ih2HAYUw7AzusQ9UIL88sw&_nc_ss=72289&oh=00_AQEqqbNzhXX8S5Rhbvq5OzL8PUl1UllFlMOCpc5SIAClKg&oe=6A760015",
-      "avatar_url": "/assets/source-avatars/723741ad7dea451e52cd.webp",
-      "source_initials": "HF",
-      "categories": [
-        "posts-videos",
-        "events"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動"
-      ],
-      "key": "fb_harmonicafenfestival:1321139530006114"
     }
   ]
 }
