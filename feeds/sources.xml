@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 13 Aug 2026 22:39:13 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 23:13:00 +0000</lastBuildDate>
     <item>
       <title>Santiago Alvarez</title>
       <link>https://worldharmonicafestival.de/artist-profile-santiago-alvarez/</link>
@@ -194,6 +194,17 @@ Tag：演奏者、教學、十孔、國際交流
 阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。</description>
     </item>
     <item>
+      <title>山下伶 Rei Yamashita</title>
+      <link>https://rei-yamashita.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：日本
+地區：日本
+日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
+    </item>
+    <item>
       <title>CY Leo 何卓彥</title>
       <link>https://www.cyleomusic.io/profile</link>
       <guid>https://harmonica.observe.tw/feeds/sources/161a953fbacb664c</guid>
@@ -214,17 +225,6 @@ Tag：演奏者、十孔
 國家：臺灣
 地區：臺灣
 臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。</description>
-    </item>
-    <item>
-      <title>山下伶 Rei Yamashita</title>
-      <link>https://rei-yamashita.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：日本
-地區：日本
-日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
     </item>
     <item>
       <title>Reyharp and Balawan Project</title>
