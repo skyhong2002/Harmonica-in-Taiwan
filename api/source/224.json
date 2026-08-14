@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-14T21:08:10.405862Z",
+  "generatedAt": "2026-08-14T22:14:30.668388Z",
   "source": {
     "id": 224,
     "slug": "easttop-harmonicas",
@@ -8,6 +8,34 @@
     "pageUrl": "https://harmonica.observe.tw/source/224-easttop-harmonicas/"
   },
   "items": [
+    {
+      "id": "post-068617a811014a9027868dd2",
+      "title": "Echoes of Mountains and Seas - Closing Ceremony Concert of 15th APHF(EAST TOP)",
+      "excerpt": "Echoes of Mountains and Seas - Closing Ceremony Concert of 15th APHF(EAST TOP) The Closing Ceremony Concert of 15th APHF(EAST TOP) delivered a spectacular musical feast for all attendees. Invited guest performers presented master‑level harmonica renditions with superb playing sk…",
+      "url": "https://www.youtube.com/watch?v=EUeg2J_TCOg",
+      "sourceName": "Easttop Harmonicas",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-14T04:01:09Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1c6a093444ff04574b04.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-6f80baf14f92bcee14ba76ee",
+      "title": "Harmonic Bonds of the Asia-Pacific — Tremolo Harmonica Special Concert of 15th APHF(EAST TOP)",
+      "excerpt": "Harmonic Bonds of the Asia-Pacific — Tremolo Harmonica Special Concert of 15th APHF(EAST TOP) This special concert features outstanding performers playing the tremolo harmonica. With superb performing skills, the artists deliver expressive and mesmerizing harmonica pieces throug…",
+      "url": "https://www.youtube.com/watch?v=7O8aODAIS4M",
+      "sourceName": "Easttop Harmonicas",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-14T02:14:31Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/8f2ba2497205ff90be2f.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-a81212594c9c3404196baf52",
       "title": "EastTop is the first harmonica manufacturer with fully‑automatic tuning machines in‑house.",
