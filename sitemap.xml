@@ -61,6 +61,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/50-aiden-soon/</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/111-lee-hangyeol/</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -68,6 +74,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/99/</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/147-yoonseok-lee/</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -217,7 +229,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/50-aiden-soon/</loc>
+    <loc>https://harmonica.observe.tw/source/66-younghoon-cho/</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -248,12 +260,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/51-sharene-tang/</loc>
-    <lastmod>2026-08-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/66-younghoon-cho/</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -615,12 +621,6 @@
   <url>
     <loc>https://harmonica.observe.tw/source/81-musix-co-ltd/</loc>
     <lastmod>2026-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/147-yoonseok-lee/</loc>
-    <lastmod>2026-08-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
