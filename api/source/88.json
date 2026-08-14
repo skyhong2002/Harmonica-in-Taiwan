@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-14T10:39:04.405300Z",
+  "generatedAt": "2026-08-14T11:45:03.757777Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -228,20 +228,6 @@
       "publishedAt": "2026-07-16T04:00:26Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/a000a2d6995208c062b4.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-b18ae72f5ec9e5c34e540a07",
-      "title": "《又見炊煙》",
-      "excerpt": "《又見炊煙》 中山班的同學，頂著大熱天在榮星花園表演，這些人許多都是初學者，跟著學長姊一起出來表演，實現自己的退休夢想~ #中山社大口琴班(三)晚上",
-      "url": "https://www.facebook.com/reel/1766146941412902/",
-      "sourceName": "藍波口琴教室",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-15T11:14:22Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/d7e68a7301cef16af3f8.webp",
         "width": 800,
         "height": 450
       }
