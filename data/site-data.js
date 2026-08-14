@@ -2,6 +2,266 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-14",
   "entries": [
     {
+      "id": "watchlist-108",
+      "publicId": "108",
+      "name": "Rodrigo Eberienos",
+      "nameEn": "Rodrigo Eberienos",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "巴西",
+      "region": "巴西",
+      "cityOrFocus": "巴西職業口琴演奏/教學/錄音合作",
+      "structuredSummary": "巴西職業口琴演奏/教學/錄音合作 / 口琴 / 國際演出人員/教學者",
+      "summary": "巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。",
+      "keywords": "Rodrigo Eberienos harmonica SIHF",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/rodrigoeberienos/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/rodrigoeberienos/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@eberienos"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-14T13:18:59+00:00",
+      "latestUpdateLocal": "2026-08-14 21:18",
+      "latestUpdateSource": "Rodrigo Eberienos",
+      "latestUpdateUrl": "https://www.instagram.com/stories/rodrigoeberienos/3963562911452836167/",
+      "avatarUrl": "/assets/source-avatars/fcc811aaae485e41802c.webp",
+      "sourceInitials": "RE",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_rodrigoeberienos",
+          "name": "Rodrigo Eberienos",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/rodrigoeberienos",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_rodrigoeberienos",
+          "name": "Rodrigo Eberienos",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "rodrigoeberienos",
+          "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_rodrigoeberienos",
+          "name": "Rodrigo Eberienos",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "rodrigoeberienos",
+          "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/rodrigoeberienos/story/0"
+        },
+        {
+          "id": "yt_eberienos",
+          "name": "Rodrigo Eberienos",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@eberienos",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-3",
+      "publicId": "3",
+      "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+      "nameEn": "Sirius Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/公演/THMF/國際交流",
+      "structuredSummary": "重奏/公演/THMF/國際交流 / 口琴重奏/合奏 / 演出團體",
+      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與THMF。",
+      "keywords": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/SiriusHarp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/siriusharmonicaensemble/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/SiriusHARP"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@siriusharmonicaensemble"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-14T11:53:35+00:00",
+      "latestUpdateLocal": "2026-08-14 19:53",
+      "latestUpdateSource": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/stories/siriusharmonicaensemble/3963519923872007905/",
+      "avatarUrl": "/assets/source-avatars/c58521311f7dd221da00.webp",
+      "sourceInitials": "SHE",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_siriusharp",
+          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/SiriusHarp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_siriusharmonicaensemble",
+          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "siriusharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/siriusharmonicaensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_siriusharmonicaensemble",
+          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "siriusharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/siriusharmonicaensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/siriusharmonicaensemble/story/0"
+        },
+        {
+          "id": "threads_siriusharmonicaensemble",
+          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+          "platform": "threads",
+          "type": "rss",
+          "username": "siriusharmonicaensemble",
+          "profileUrl": "https://www.threads.net/@siriusharmonicaensemble",
+          "feedUrl": "https://rss.observe.tw/threads/siriusharmonicaensemble"
+        },
+        {
+          "id": "yt_siriusharp",
+          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/SiriusHARP",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-54",
+      "publicId": "54",
+      "name": "CY Leo 何卓彥",
+      "nameEn": "CY Leo",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/現代跨界",
+      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
+      "summary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
+      "keywords": "CY Leo 何卓彥 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.cyleomusic.io/profile"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Cyleoharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cy_leo/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@cyleoharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-14T10:31:12+00:00",
+      "latestUpdateLocal": "2026-08-14 18:31",
+      "latestUpdateSource": "CY Leo 何卓彥",
+      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3963478460018169161/",
+      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
+      "sourceInitials": "CL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
+      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
+      "monitorSources": [
+        {
+          "id": "fb_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Cyleoharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
+        },
+        {
+          "id": "yt_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@cyleoharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-43",
       "publicId": "43",
       "name": "林裕豐",
@@ -584,7 +844,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-14 12:00",
       "latestUpdateSource": "臺中國家歌劇院",
       "latestUpdateUrl": "https://www.youtube.com/watch?v=HprYMoAk7FU",
-      "avatarUrl": "/assets/source-avatars/8e3fed41a7572b863b52.webp",
+      "avatarUrl": "/assets/source-avatars/4e20fc7e5c379418963e.webp",
       "sourceInitials": "臺中",
       "sourceTags": [
         "場館平台"
@@ -1103,86 +1363,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "has_singapore",
           "profileUrl": "https://www.instagram.com/has_singapore/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/has_singapore/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-108",
-      "publicId": "108",
-      "name": "Rodrigo Eberienos",
-      "nameEn": "Rodrigo Eberienos",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "巴西",
-      "region": "巴西",
-      "cityOrFocus": "巴西職業口琴演奏/教學/錄音合作",
-      "structuredSummary": "巴西職業口琴演奏/教學/錄音合作 / 口琴 / 國際演出人員/教學者",
-      "summary": "巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。",
-      "keywords": "Rodrigo Eberienos harmonica SIHF",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/rodrigoeberienos/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/rodrigoeberienos/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@eberienos"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-14T00:24:13+00:00",
-      "latestUpdateLocal": "2026-08-14 08:24",
-      "latestUpdateSource": "Rodrigo Eberienos",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcABMf3m7kE/",
-      "avatarUrl": "/assets/source-avatars/fcc811aaae485e41802c.webp",
-      "sourceInitials": "RE",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_rodrigoeberienos",
-          "name": "Rodrigo Eberienos",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/rodrigoeberienos",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_rodrigoeberienos",
-          "name": "Rodrigo Eberienos",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "rodrigoeberienos",
-          "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_rodrigoeberienos",
-          "name": "Rodrigo Eberienos",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "rodrigoeberienos",
-          "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/rodrigoeberienos/story/0"
-        },
-        {
-          "id": "yt_eberienos",
-          "name": "Rodrigo Eberienos",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@eberienos",
-          "feedUrl": ""
         }
       ]
     },
@@ -2185,99 +2365,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-3",
-      "publicId": "3",
-      "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-      "nameEn": "Sirius Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "重奏/公演/THMF/國際交流",
-      "structuredSummary": "重奏/公演/THMF/國際交流 / 口琴重奏/合奏 / 演出團體",
-      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與THMF。",
-      "keywords": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/SiriusHarp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/siriusharmonicaensemble/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/SiriusHARP"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@siriusharmonicaensemble"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-13T14:59:15+00:00",
-      "latestUpdateLocal": "2026-08-13 22:59",
-      "latestUpdateSource": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/p/Db_AiybFOyQ/",
-      "avatarUrl": "/assets/source-avatars/c58521311f7dd221da00.webp",
-      "sourceInitials": "SHE",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_siriusharp",
-          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/SiriusHarp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_siriusharmonicaensemble",
-          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "siriusharmonicaensemble",
-          "profileUrl": "https://www.instagram.com/siriusharmonicaensemble/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_siriusharmonicaensemble",
-          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "siriusharmonicaensemble",
-          "profileUrl": "https://www.instagram.com/siriusharmonicaensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/siriusharmonicaensemble/story/0"
-        },
-        {
-          "id": "threads_siriusharmonicaensemble",
-          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-          "platform": "threads",
-          "type": "rss",
-          "username": "siriusharmonicaensemble",
-          "profileUrl": "https://www.threads.net/@siriusharmonicaensemble",
-          "feedUrl": "https://rss.observe.tw/threads/siriusharmonicaensemble"
-        },
-        {
-          "id": "yt_siriusharp",
-          "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/SiriusHARP",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-34",
       "publicId": "34",
       "name": "王衍華",
@@ -3027,93 +3114,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@reiyamashita",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-54",
-      "publicId": "54",
-      "name": "CY Leo 何卓彥",
-      "nameEn": "CY Leo",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/現代跨界",
-      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
-      "summary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "keywords": "CY Leo 何卓彥 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.cyleomusic.io/profile"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Cyleoharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/cy_leo/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@cyleoharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-13T11:56:15+00:00",
-      "latestUpdateLocal": "2026-08-13 19:56",
-      "latestUpdateSource": "CY Leo 何卓彥",
-      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3962796548031682528/",
-      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
-      "sourceInitials": "CL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
-      "monitorSources": [
-        {
-          "id": "fb_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Cyleoharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
-        },
-        {
-          "id": "yt_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@cyleoharmonica",
           "feedUrl": ""
         }
       ]
@@ -9117,7 +9117,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-16 18:38",
       "latestUpdateSource": "鍾靈中學口琴隊",
       "latestUpdateUrl": "https://www.instagram.com/p/Da2cfG5kSIZ/",
-      "avatarUrl": "/assets/source-avatars/36e9af6782e8029de15c.webp",
+      "avatarUrl": "/assets/source-avatars/48b9fbc250cdb4024355.webp",
       "sourceInitials": "鍾靈",
       "sourceTags": [
         "學生社團"
