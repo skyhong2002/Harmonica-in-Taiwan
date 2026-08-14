@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 14 Aug 2026 07:55:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 08:27:33 +0000</lastBuildDate>
     <item>
       <title>黃冠誌</title>
       <link>https://harmonica.tw/course/kuanchih/</link>
@@ -480,6 +480,17 @@ Tag：活動資訊、團體樂團、音樂節、比賽、半音階、複音、�
 臺灣的核心活動與活動資訊來源，涵蓋音樂節、比賽、Gala、講座與午間音樂會。</description>
     </item>
     <item>
+      <title>吹出好心琴 + Ou Frog</title>
+      <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/a7900260c88a5842</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：品牌、教學器材、教學
+國家：臺灣
+地區：臺灣
+臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
+    </item>
+    <item>
       <title>Gordon Lee 李俊樂</title>
       <link>https://www.hkco.org/tc/Other-Members/Gordon-Lee.html</link>
       <guid>https://harmonica.observe.tw/feeds/sources/394595ecabaaf5c7</guid>
@@ -742,17 +753,6 @@ Tag：演奏者、教學、國際交流
 國家：巴西
 地區：巴西
 巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。</description>
-    </item>
-    <item>
-      <title>吹出好心琴 + Ou Frog</title>
-      <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/a7900260c88a5842</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：品牌、教學器材、教學
-國家：臺灣
-地區：臺灣
-臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
     </item>
     <item>
       <title>音和樂器</title>
