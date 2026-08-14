@@ -590,6 +590,77 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-151",
+      "publicId": "151",
+      "name": "Rachelle Plas & Philippe Hervouet",
+      "nameEn": "Rachelle Plas & Philippe Hervouet",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體/合作企劃",
+      "country": "法國",
+      "region": "法國",
+      "cityOrFocus": "WHF 2025/藍調口琴/吉他與歌唱/Golden Melody ambassador",
+      "structuredSummary": "WHF 2025/藍調口琴/吉他與歌唱/Golden Melody ambassador / 十孔/藍調口琴/吉他/人聲 / 國際演出團體",
+      "summary": "法國的十孔、藍調口琴、吉他與人聲國際演出團體，活動脈絡包含WHF 2025、吉他與歌唱與Golden Melody ambassador。",
+      "keywords": "Rachelle Plas Philippe Hervouet Plas Hervouet Band harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "http://www.plashervouetband.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/plashervouetband/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/plashervouetband/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-14T14:12:50+00:00",
+      "latestUpdateLocal": "2026-08-14 22:12",
+      "latestUpdateSource": "Rachelle Plas & Philippe Hervouet",
+      "latestUpdateUrl": "https://www.instagram.com/stories/plashervouetband/3963590013090595827/",
+      "avatarUrl": "/assets/source-avatars/2f441ce48836815f3dc9.webp",
+      "sourceInitials": "RPP",
+      "sourceTags": [
+        "團體樂團",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_plashervouetband",
+          "name": "Rachelle Plas & Philippe Hervouet",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/plashervouetband",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_plashervouetband",
+          "name": "Rachelle Plas & Philippe Hervouet",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "plashervouetband",
+          "profileUrl": "https://www.instagram.com/plashervouetband/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_plashervouetband",
+          "name": "Rachelle Plas & Philippe Hervouet",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "plashervouetband",
+          "profileUrl": "https://www.instagram.com/plashervouetband/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/plashervouetband/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-42",
       "publicId": "42",
       "name": "王心禾",
@@ -7277,77 +7348,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "yhhbfamily",
           "profileUrl": "https://www.instagram.com/yhhbfamily/",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-151",
-      "publicId": "151",
-      "name": "Rachelle Plas & Philippe Hervouet",
-      "nameEn": "Rachelle Plas & Philippe Hervouet",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體/合作企劃",
-      "country": "法國",
-      "region": "法國",
-      "cityOrFocus": "WHF 2025/藍調口琴/吉他與歌唱/Golden Melody ambassador",
-      "structuredSummary": "WHF 2025/藍調口琴/吉他與歌唱/Golden Melody ambassador / 十孔/藍調口琴/吉他/人聲 / 國際演出團體",
-      "summary": "法國的十孔、藍調口琴、吉他與人聲國際演出團體，活動脈絡包含WHF 2025、吉他與歌唱與Golden Melody ambassador。",
-      "keywords": "Rachelle Plas Philippe Hervouet Plas Hervouet Band harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "http://www.plashervouetband.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/plashervouetband/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/plashervouetband/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-08T09:06:38+00:00",
-      "latestUpdateLocal": "2026-08-08 17:06",
-      "latestUpdateSource": "Rachelle Plas & Philippe Hervouet",
-      "latestUpdateUrl": "https://www.instagram.com/stories/plashervouetband/3959087238636428918/",
-      "avatarUrl": "/assets/source-avatars/2f441ce48836815f3dc9.webp",
-      "sourceInitials": "RPP",
-      "sourceTags": [
-        "團體樂團",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_plashervouetband",
-          "name": "Rachelle Plas & Philippe Hervouet",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/plashervouetband",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_plashervouetband",
-          "name": "Rachelle Plas & Philippe Hervouet",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "plashervouetband",
-          "profileUrl": "https://www.instagram.com/plashervouetband/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_plashervouetband",
-          "name": "Rachelle Plas & Philippe Hervouet",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "plashervouetband",
-          "profileUrl": "https://www.instagram.com/plashervouetband/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/plashervouetband/story/0"
         }
       ]
     },
