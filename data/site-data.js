@@ -170,6 +170,91 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-107",
+      "publicId": "107",
+      "name": "Konstantin Reinfeld",
+      "nameEn": "Konstantin Reinfeld",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "德國",
+      "region": "德國",
+      "cityOrFocus": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作",
+      "structuredSummary": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作 / 半音階/十孔 / 國際演出人員/製作人/教育者",
+      "summary": "德國的半音階與十孔國際演出人員、製作人與教育者，活動脈絡包含OPUS Klassik得獎、國際獨奏與製作與教育。",
+      "keywords": "Konstantin Reinfeld harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.konstantinreinfeld.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/konstantinreinfeldofficial"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/konstantin_reinfeld/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@KonstantinReinfeld"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-14T16:27:26+00:00",
+      "latestUpdateLocal": "2026-08-15 00:27",
+      "latestUpdateSource": "Konstantin Reinfeld",
+      "latestUpdateUrl": "https://www.instagram.com/stories/konstantin_reinfeld/3963657754489160977/",
+      "avatarUrl": "/assets/source-avatars/7f55bcace9d81e8ee2e4.webp",
+      "sourceInitials": "KR",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_konstantinreinfeldofficial",
+          "name": "Konstantin Reinfeld",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/konstantinreinfeldofficial",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_konstantin_reinfeld",
+          "name": "Konstantin Reinfeld",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "konstantin_reinfeld",
+          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_konstantin_reinfeld",
+          "name": "Konstantin Reinfeld",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "konstantin_reinfeld",
+          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/konstantin_reinfeld/story/0"
+        },
+        {
+          "id": "yt_konstantinreinfeld",
+          "name": "Konstantin Reinfeld",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@KonstantinReinfeld",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-80",
       "publicId": "80",
       "name": "臺中國家歌劇院",
@@ -328,6 +413,92 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@gyeoli_94",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-65",
+      "publicId": "65",
+      "name": "Jong-seong Park 朴鍾聲",
+      "nameEn": "Jong-seong Park",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "半音階/國際級演出",
+      "structuredSummary": "半音階/國際級演出 / 半音階 / 國際演出人員",
+      "summary": "韓國半音階口琴演奏家，活躍於國際舞台。",
+      "keywords": "Jong-seong Park 朴鍾聲 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.mnac.co.kr/jongseongpark"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonicapark/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jongseongpark_harmonicist/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/jongseongpark"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-14T14:20:34+00:00",
+      "latestUpdateLocal": "2026-08-14 22:20",
+      "latestUpdateSource": "Jong-seong Park 朴鍾聲",
+      "latestUpdateUrl": "https://www.instagram.com/stories/jongseongpark_harmonicist/3963594019053947020/",
+      "avatarUrl": "/assets/source-avatars/18b492947bf0f5db7754.webp",
+      "sourceInitials": "JSP",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "sourceSummary": "韓國半音階口琴演奏家，活躍於國際舞台。",
+      "sourceTagReason": "資料明確標註為「演奏者」與「個人」，且其專長與定位為「半音階/國際級演出」。",
+      "monitorSources": [
+        {
+          "id": "fb_harmonicapark",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonicapark",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_jongseongpark_harmonicist",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jongseongpark_harmonicist",
+          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jongseongpark_harmonicist",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jongseongpark_harmonicist",
+          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/jongseongpark_harmonicist/story/0"
+        },
+        {
+          "id": "yt_jongseongpark",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/jongseongpark",
           "feedUrl": ""
         }
       ]
@@ -2735,91 +2906,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-107",
-      "publicId": "107",
-      "name": "Konstantin Reinfeld",
-      "nameEn": "Konstantin Reinfeld",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "德國",
-      "region": "德國",
-      "cityOrFocus": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作",
-      "structuredSummary": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作 / 半音階/十孔 / 國際演出人員/製作人/教育者",
-      "summary": "德國的半音階與十孔國際演出人員、製作人與教育者，活動脈絡包含OPUS Klassik得獎、國際獨奏與製作與教育。",
-      "keywords": "Konstantin Reinfeld harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.konstantinreinfeld.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/konstantinreinfeldofficial"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/konstantin_reinfeld/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@KonstantinReinfeld"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-13T16:31:34+00:00",
-      "latestUpdateLocal": "2026-08-14 00:31",
-      "latestUpdateSource": "Konstantin Reinfeld",
-      "latestUpdateUrl": "https://www.instagram.com/stories/konstantin_reinfeld/3962935079567270237/",
-      "avatarUrl": "/assets/source-avatars/7f55bcace9d81e8ee2e4.webp",
-      "sourceInitials": "KR",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_konstantinreinfeldofficial",
-          "name": "Konstantin Reinfeld",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/konstantinreinfeldofficial",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_konstantin_reinfeld",
-          "name": "Konstantin Reinfeld",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "konstantin_reinfeld",
-          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_konstantin_reinfeld",
-          "name": "Konstantin Reinfeld",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "konstantin_reinfeld",
-          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/konstantin_reinfeld/story/0"
-        },
-        {
-          "id": "yt_konstantinreinfeld",
-          "name": "Konstantin Reinfeld",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@KonstantinReinfeld",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -4062,92 +4148,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/ntcharts",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-65",
-      "publicId": "65",
-      "name": "Jong-seong Park 朴鍾聲",
-      "nameEn": "Jong-seong Park",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "半音階/國際級演出",
-      "structuredSummary": "半音階/國際級演出 / 半音階 / 國際演出人員",
-      "summary": "韓國半音階口琴演奏家，活躍於國際舞台。",
-      "keywords": "Jong-seong Park 朴鍾聲 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.mnac.co.kr/jongseongpark"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonicapark/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jongseongpark_harmonicist/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/jongseongpark"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-13T07:10:36+00:00",
-      "latestUpdateLocal": "2026-08-13 15:10",
-      "latestUpdateSource": "Jong-seong Park 朴鍾聲",
-      "latestUpdateUrl": "https://www.instagram.com/stories/jongseongpark_harmonicist/3962652722554197202/",
-      "avatarUrl": "/assets/source-avatars/18b492947bf0f5db7754.webp",
-      "sourceInitials": "JSP",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "sourceSummary": "韓國半音階口琴演奏家，活躍於國際舞台。",
-      "sourceTagReason": "資料明確標註為「演奏者」與「個人」，且其專長與定位為「半音階/國際級演出」。",
-      "monitorSources": [
-        {
-          "id": "fb_harmonicapark",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonicapark",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_jongseongpark_harmonicist",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jongseongpark_harmonicist",
-          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jongseongpark_harmonicist",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jongseongpark_harmonicist",
-          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jongseongpark_harmonicist/story/0"
-        },
-        {
-          "id": "yt_jongseongpark",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/jongseongpark",
           "feedUrl": ""
         }
       ]
