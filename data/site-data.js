@@ -2,6 +2,92 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-15",
   "entries": [
     {
+      "id": "watchlist-182",
+      "publicId": "182",
+      "name": "布宜諾斯艾利斯口琴學校",
+      "nameEn": "Escuela de Armónica de Buenos Aires",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "學校/教學平台",
+      "country": "阿根廷",
+      "region": "阿根廷/布宜諾斯艾利斯",
+      "cityOrFocus": "口琴學校/探戈/民俗/藍調/工作坊/學生演出",
+      "structuredSummary": "口琴學校/探戈/民俗/藍調/工作坊/學生演出 / 十孔/半音階/armónica / 國際教育來源",
+      "summary": "阿根廷的十孔、半音階與armónica國際教育來源，關注口琴學校、探戈、民俗、藍調與工作坊。",
+      "keywords": "Escuela de Armónica de Buenos Aires harmonica school Argentina tango blues",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://escueladearmonicaba.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/escueladearmonicaba/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/escueladearmonicaba/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCln6Hrzz1NHq8TX5ZSQzgJQ"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-14T17:44:14+00:00",
+      "latestUpdateLocal": "2026-08-15 01:44",
+      "latestUpdateSource": "布宜諾斯艾利斯口琴學校",
+      "latestUpdateUrl": "https://www.instagram.com/stories/escueladearmonicaba/3963696417835386572/",
+      "avatarUrl": "/assets/source-avatars/f21681f5194562a027ae.webp",
+      "sourceInitials": "布宜",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_escueladearmonicaba",
+          "name": "布宜諾斯艾利斯口琴學校",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/escueladearmonicaba",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_escueladearmonicaba",
+          "name": "布宜諾斯艾利斯口琴學校",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "escueladearmonicaba",
+          "profileUrl": "https://www.instagram.com/escueladearmonicaba/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_escueladearmonicaba",
+          "name": "布宜諾斯艾利斯口琴學校",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "escueladearmonicaba",
+          "profileUrl": "https://www.instagram.com/escueladearmonicaba/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/escueladearmonicaba/story/0"
+        },
+        {
+          "id": "yt_ucln6hrzz1nhq8tx5zsqzgjq",
+          "name": "布宜諾斯艾利斯口琴學校",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCln6Hrzz1NHq8TX5ZSQzgJQ",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-80",
       "publicId": "80",
       "name": "臺中國家歌劇院",
@@ -409,6 +495,159 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@eberienos",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-30",
+      "publicId": "30",
+      "name": "蔡明憲",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
+      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
+      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
+      "keywords": "蔡明憲 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://studio.dming.co/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/dming.tsai/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/damingtsai/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-14T12:48:01+00:00",
+      "latestUpdateLocal": "2026-08-14 20:48",
+      "latestUpdateSource": "蔡明憲",
+      "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3963547323708104610/",
+      "avatarUrl": "/assets/source-avatars/a1745d09969a03c896ae.webp",
+      "sourceInitials": "蔡明",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_dming_tsai",
+          "name": "蔡明憲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/dming.tsai",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-76",
+      "publicId": "76",
+      "name": "新竹縣文化局",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館/文化局",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "場館/文化活動",
+      "structuredSummary": "場館/文化活動 / 口琴/藝文 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供場館與文化活動相關資訊。",
+      "keywords": "新竹縣文化局 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hchcc.gov.tw/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hchcc.gov/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hsinchucounty_culture/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-14T12:00:22+00:00",
+      "latestUpdateLocal": "2026-08-14 20:00",
+      "latestUpdateSource": "新竹縣文化局",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcBQ3ZyjkOk/",
+      "avatarUrl": "/assets/source-avatars/830071214e3a32270ef8.webp",
+      "sourceInitials": "新竹",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hchcc_gov",
+          "name": "新竹縣文化局",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hchcc.gov",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hsinchucounty_culture",
+          "name": "新竹縣文化局",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hsinchucounty_culture",
+          "profileUrl": "https://www.instagram.com/hsinchucounty_culture/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hsinchucounty_culture",
+          "name": "新竹縣文化局",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hsinchucounty_culture",
+          "profileUrl": "https://www.instagram.com/hsinchucounty_culture/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hsinchucounty_culture/story/0"
+        },
+        {
+          "id": "yt_ucqrgye_3lymvt7ewhrzbtzg",
+          "name": "新竹縣文化局",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg",
           "feedUrl": ""
         }
       ]
@@ -1306,77 +1545,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-30",
-      "publicId": "30",
-      "name": "蔡明憲",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
-      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
-      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
-      "keywords": "蔡明憲 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://studio.dming.co/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/dming.tsai/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/damingtsai/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-14T03:18:53+00:00",
-      "latestUpdateLocal": "2026-08-14 11:18",
-      "latestUpdateSource": "蔡明憲",
-      "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3963260868418533578/",
-      "avatarUrl": "/assets/source-avatars/a1745d09969a03c896ae.webp",
-      "sourceInitials": "蔡明",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_dming_tsai",
-          "name": "蔡明憲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/dming.tsai",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-99",
       "publicId": "99",
       "name": "范曉怡",
@@ -2224,7 +2392,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-14 02:20",
       "latestUpdateSource": "Marcos Coll",
       "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3962990193669572821/",
-      "avatarUrl": "/assets/source-avatars/a83fcc7d078d5b4d654a.webp",
+      "avatarUrl": "/assets/source-avatars/4055c40b2cef2dc406b3.webp",
       "sourceInitials": "MC",
       "sourceTags": [
         "演奏者",
@@ -5367,88 +5535,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-76",
-      "publicId": "76",
-      "name": "新竹縣文化局",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館/文化局",
-      "country": "臺灣",
-      "region": "臺灣/新竹",
-      "cityOrFocus": "場館/文化活動",
-      "structuredSummary": "場館/文化活動 / 口琴/藝文 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供場館與文化活動相關資訊。",
-      "keywords": "新竹縣文化局 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hchcc.gov.tw/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hchcc.gov/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hsinchucounty_culture/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-12T00:45:07+00:00",
-      "latestUpdateLocal": "2026-08-12 08:45",
-      "latestUpdateSource": "新竹縣文化局",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=twrbhryl7So",
-      "avatarUrl": "/assets/source-avatars/830071214e3a32270ef8.webp",
-      "sourceInitials": "新竹",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hchcc_gov",
-          "name": "新竹縣文化局",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hchcc.gov",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hsinchucounty_culture",
-          "name": "新竹縣文化局",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hsinchucounty_culture",
-          "profileUrl": "https://www.instagram.com/hsinchucounty_culture/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hsinchucounty_culture",
-          "name": "新竹縣文化局",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hsinchucounty_culture",
-          "profileUrl": "https://www.instagram.com/hsinchucounty_culture/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hsinchucounty_culture/story/0"
-        },
-        {
-          "id": "yt_ucqrgye_3lymvt7ewhrzbtzg",
-          "name": "新竹縣文化局",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-171",
       "publicId": "171",
       "name": "口琴保存與推廣協會 SPAH",
@@ -7180,92 +7266,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "plashervouetband",
           "profileUrl": "https://www.instagram.com/plashervouetband/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/plashervouetband/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-182",
-      "publicId": "182",
-      "name": "布宜諾斯艾利斯口琴學校",
-      "nameEn": "Escuela de Armónica de Buenos Aires",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "學校/教學平台",
-      "country": "阿根廷",
-      "region": "阿根廷/布宜諾斯艾利斯",
-      "cityOrFocus": "口琴學校/探戈/民俗/藍調/工作坊/學生演出",
-      "structuredSummary": "口琴學校/探戈/民俗/藍調/工作坊/學生演出 / 十孔/半音階/armónica / 國際教育來源",
-      "summary": "阿根廷的十孔、半音階與armónica國際教育來源，關注口琴學校、探戈、民俗、藍調與工作坊。",
-      "keywords": "Escuela de Armónica de Buenos Aires harmonica school Argentina tango blues",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://escueladearmonicaba.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/escueladearmonicaba/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/escueladearmonicaba/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCln6Hrzz1NHq8TX5ZSQzgJQ"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-07T23:19:08+00:00",
-      "latestUpdateLocal": "2026-08-08 07:19",
-      "latestUpdateSource": "布宜諾斯艾利斯口琴學校",
-      "latestUpdateUrl": "https://www.instagram.com/stories/escueladearmonicaba/3958791561978916605/",
-      "avatarUrl": "/assets/source-avatars/f21681f5194562a027ae.webp",
-      "sourceInitials": "布宜",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_escueladearmonicaba",
-          "name": "布宜諾斯艾利斯口琴學校",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/escueladearmonicaba",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_escueladearmonicaba",
-          "name": "布宜諾斯艾利斯口琴學校",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "escueladearmonicaba",
-          "profileUrl": "https://www.instagram.com/escueladearmonicaba/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_escueladearmonicaba",
-          "name": "布宜諾斯艾利斯口琴學校",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "escueladearmonicaba",
-          "profileUrl": "https://www.instagram.com/escueladearmonicaba/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/escueladearmonicaba/story/0"
-        },
-        {
-          "id": "yt_ucln6hrzz1nhq8tx5zsqzgjq",
-          "name": "布宜諾斯艾利斯口琴學校",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCln6Hrzz1NHq8TX5ZSQzgJQ",
-          "feedUrl": ""
         }
       ]
     },
