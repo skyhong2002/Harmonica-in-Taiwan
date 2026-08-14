@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-13T23:45:11.181526Z",
+  "generatedAt": "2026-08-14T00:49:41.029880Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -200,20 +200,6 @@
       "publishedAt": "2026-07-17T00:00:06Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/c7fc781a507914346df1.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-30bbe8c717175d62de7bf204",
-      "title": "【就是吹口琴Just Play Harmonica 】｜五輪真弓 – 潮騷｜複音口琴Tremolo Harmonica 演奏版本《C調》",
-      "excerpt": "【就是吹口琴Just Play Harmonica 】｜五輪真弓 – 潮騷｜複音口琴Tremolo Harmonica 演奏版本《C調》 潮騷 五輪真弓 作曲 五輪真弓 作詞 五輪真弓 原唱 複音口琴演奏版本《C調》",
-      "url": "https://www.youtube.com/watch?v=h1XQTLoX26E",
-      "sourceName": "陳鴻儀",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-15T00:00:06Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/29e1da5947b38532453d.webp",
         "width": 800,
         "height": 450
       }
