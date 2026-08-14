@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-14T13:55:00.088645Z",
+  "generatedAt": "2026-08-14T15:00:28.146065Z",
   "source": {
     "id": 78,
     "slug": "78",
@@ -270,20 +270,6 @@
       "publishedAt": "2026-07-16T03:00:29Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/c258ba75177ca6f437e8.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-f38b9dee34b2b5052afa5673",
-      "title": "大師降臨 🔥 衛武營公共鋼琴快閃感動回顧",
-      "excerpt": "大師降臨 🔥 衛武營公共鋼琴快閃感動回顧 【映象荷蘭】音樂會期間，指揮暨鋼琴家拉哈夫．沙尼（@lahav.shani）與臺灣小提琴家黃俊文（@paulhuangviolin），聯手在衛武營新公共鋼琴帶來了驚喜快閃演出！ 大師的默契交鋒，讓公共空間彷彿瞬間化身為世界頂級音樂廳，從布拉姆斯的第 2 號匈牙利舞曲，到臺灣經典民謠望春風，跨越文化的曲目安排充滿巧思，讓現場觀眾直呼過癮。 藝術就在我們的日常中。下次來到衛武營，歡迎你走向公共鋼琴，用指尖譜寫你的專屬樂章 🎹 ⍣ 藝文支持：瑞儀光電股份有限公司／財團法人瑞儀教育基金會 ⍣ 更多詳情敬請點擊首頁連結…",
-      "url": "https://www.instagram.com/p/Da0OxTzDPUW/",
-      "sourceName": "衛武營國家藝術文化中心",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-15T14:00:58Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/2cc721a2da1893ba04b9.webp",
         "width": 800,
         "height": 450
       }
