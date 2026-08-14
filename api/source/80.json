@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-14T06:49:57.601125Z",
+  "generatedAt": "2026-08-14T07:55:25.937905Z",
   "source": {
     "id": 80,
     "slug": "80",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/80/"
   },
   "items": [
+    {
+      "id": "post-77b55f9df2d64b027249bb70",
+      "title": "2026 NTT 夏日放／FUN時光｜有些愛不需要聲音—從聾人家庭到手語表演 主講人：廖曉彤",
+      "excerpt": "2026 NTT 夏日放／FUN時光｜有些愛不需要聲音—從聾人家庭到手語表演 主講人：廖曉彤 本次活動特別邀請演員廖曉彤，分享她作為 CODA（聾人子女，Children of Deaf Adults）的生命軌跡，成長於父母皆為聽障的無聲家庭，手語不只是她的母語，更是她連結世界的第一道橋樑。 而當她進入極度仰賴聲音的演藝界時，這段背景曾是她試圖隱藏的秘密；如今，卻成為她推動聾聽共融最強大的力量。 近年，廖曉彤創立「聲音藏在」藝術共融計畫，致力打破聽聾之間的界線，透過將手語轉化為具備身體律動、表情張力與情感深度的劇場語言，讓聽障朋友不再只是台下的旁觀者，…",
+      "url": "https://www.youtube.com/watch?v=HprYMoAk7FU",
+      "sourceName": "臺中國家歌劇院",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-14T04:00:17Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f768972e0bdd4de2e9d2.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-8054f06df13683498a54840b",
       "title": "#全臺獨家 #亞洲首演",

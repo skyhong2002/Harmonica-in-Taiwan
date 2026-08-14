@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-14T06:49:57.601125Z",
+  "generatedAt": "2026-08-14T07:55:25.937905Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/115-filip-jers/"
   },
   "items": [
+    {
+      "id": "post-c5a94e79efc6b59a3627ca96",
+      "title": "My harmonicas getting warmed up ☀️",
+      "excerpt": "My harmonicas getting warmed up ☀️",
+      "url": "https://www.instagram.com/p/Db_x52ksiBm/",
+      "sourceName": "Filip Jers",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-13T22:11:04Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6c6bb6030ed951fd8b7d.webp",
+        "width": 800,
+        "height": 534
+      }
+    },
     {
       "id": "post-2d7e53b725e4d7e21f835e65",
       "title": "Low D harmonica Blues Boogie",
