@@ -1,11 +1,54 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-14T18:55:21.938966Z",
+  "generatedAt": "2026-08-14T20:00:45.670598Z",
   "source": {
     "id": 192,
     "slug": "ckhc-64th",
     "name": "建中口琴社",
     "pageUrl": "https://harmonica.observe.tw/source/192-ckhc-64th/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-7a6bcf12c1a6371b6c201b1a",
+      "title": "漂流瓶──《琴極之夏》建中口琴64 65成果發表會",
+      "excerpt": "漂流瓶──《琴極之夏》建中口琴64 65成果發表會 漂流瓶 演出人員： chord ：陳仲安 半音階口琴：陳睿捷、闕壯宸 bass ：吳宥頡",
+      "url": "https://www.youtube.com/watch?v=gMD2fvMg9nQ",
+      "sourceName": "建中口琴社",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-14T18:04:31Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/e190a726f1141714d1c2.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-7d55278b73cc9c3170f62cba",
+      "title": "殘酷天使──《琴極之夏》建中口琴64 65成果發表會",
+      "excerpt": "殘酷天使──《琴極之夏》建中口琴64 65成果發表會 殘酷天使 演出人員： chord ：陳仲安 半音階口琴：賴為中、陳睿捷、闕壯宸、苗家鳴 bass ：吳宥頡",
+      "url": "https://www.youtube.com/watch?v=fKawLQr1uMw",
+      "sourceName": "建中口琴社",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-14T13:00:33Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9671a25d031582ba6d71.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-0c766eee6c76b8ae314d1e9c",
+      "title": "加勒比海盜──《琴極之夏》建中口琴64 65成果發表會",
+      "excerpt": "加勒比海盜──《琴極之夏》建中口琴64 65成果發表會 加勒比海盜 演出人員： chord ：陳仲安 半音階口琴：賴為中、陳睿捷、闕壯宸 bass ：吳宥頡",
+      "url": "https://www.youtube.com/watch?v=i_2VIaV7iGM",
+      "sourceName": "建中口琴社",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-14T13:00:32Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3e30a2110ae0c1f94de8.webp",
+        "width": 800,
+        "height": 450
+      }
+    }
+  ]
 }
