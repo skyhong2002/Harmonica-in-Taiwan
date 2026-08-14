@@ -65,6 +65,90 @@
   },
   "entries": [
     {
+      "id": "watchlist-101",
+      "publicId": "101",
+      "name": "何家健 HarmoniKahkean",
+      "nameEn": "Ho Kah Kean / HarmoniKahkean",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人/地方推廣",
+      "country": "馬來西亞",
+      "region": "臺灣/花蓮；馬來西亞",
+      "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
+      "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
+      "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
+      "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/harmonikahkean"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonikahkean/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kahkeanho/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@hokahkean1999"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-14T13:44:33+00:00",
+      "latestUpdateLocal": "2026-08-14 21:44",
+      "latestUpdateSource": "何家健 HarmoniKahkean",
+      "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3963575773915448160/",
+      "avatarUrl": "/assets/source-avatars/7b33f34d52077af131e9.webp",
+      "sourceInitials": "H",
+      "sourceTags": [
+        "演奏者",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonikahkean",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonikahkean",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/kahkeanho/story/0"
+        },
+        {
+          "id": "yt_hokahkean1999",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@hokahkean1999",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-153",
       "publicId": "153",
       "name": "Santiago Alvarez",
@@ -407,6 +491,88 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/SiriusHARP",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-165",
+      "publicId": "165",
+      "name": "馬來西亞口琴節",
+      "nameEn": "Malaysia Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "比賽/資訊入口",
+      "country": "馬來西亞",
+      "region": "馬來西亞/吉隆坡",
+      "cityOrFocus": "馬來西亞口琴節/比賽/學生與樂團",
+      "structuredSummary": "馬來西亞口琴節/比賽/學生與樂團 / 口琴/重奏/合奏 / 國際活動來源",
+      "summary": "馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。",
+      "keywords": "Malaysia Harmonica Festival MYHF Malaysia Harmonica Competition",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/malaysiaharmonicafestival/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/malaysia_harmonica_festival/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@malaysiaharmonicafestival5523"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-14T11:22:49+00:00",
+      "latestUpdateLocal": "2026-08-14 19:22",
+      "latestUpdateSource": "馬來西亞口琴節",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcBMhXZzwkl/",
+      "avatarUrl": "/assets/source-avatars/09077c8961140dc01709.webp",
+      "sourceInitials": "馬來",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "比賽",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_malaysiaharmonicafestival",
+          "name": "馬來西亞口琴節",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/malaysiaharmonicafestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_malaysia_harmonica_festival",
+          "name": "馬來西亞口琴節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "malaysia_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_malaysia_harmonica_festival",
+          "name": "馬來西亞口琴節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "malaysia_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/malaysia_harmonica_festival/story/0"
+        },
+        {
+          "id": "yt_malaysiaharmonicafestival5523",
+          "name": "馬來西亞口琴節",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@malaysiaharmonicafestival5523",
           "feedUrl": ""
         }
       ]
@@ -2842,90 +3008,6 @@
           "username": "harmonica_wang",
           "profileUrl": "https://www.threads.net/@harmonica_wang",
           "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-101",
-      "publicId": "101",
-      "name": "何家健 HarmoniKahkean",
-      "nameEn": "Ho Kah Kean / HarmoniKahkean",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人/地方推廣",
-      "country": "馬來西亞",
-      "region": "臺灣/花蓮；馬來西亞",
-      "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
-      "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
-      "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
-      "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/harmonikahkean"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonikahkean/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/kahkeanho/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@hokahkean1999"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-13T13:54:00+00:00",
-      "latestUpdateLocal": "2026-08-13 21:54",
-      "latestUpdateSource": "何家健 HarmoniKahkean",
-      "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3962855766243911765/",
-      "avatarUrl": "/assets/source-avatars/7b33f34d52077af131e9.webp",
-      "sourceInitials": "H",
-      "sourceTags": [
-        "演奏者",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonikahkean",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonikahkean",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_kahkeanho",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "kahkeanho",
-          "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_kahkeanho",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "kahkeanho",
-          "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/kahkeanho/story/0"
-        },
-        {
-          "id": "yt_hokahkean1999",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@hokahkean1999",
-          "feedUrl": ""
         }
       ]
     },
@@ -6338,6 +6420,89 @@
       ]
     },
     {
+      "id": "watchlist-95",
+      "publicId": "95",
+      "name": "韋笙堡口琴 Weissenberg Harmonicas",
+      "nameEn": "Weissenberg Harmonicas",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "品牌/樂器商",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "口琴製造/器材/產品資訊",
+      "structuredSummary": "口琴製造/器材/產品資訊 / 口琴 / 器材品牌",
+      "summary": "臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。",
+      "keywords": "韋笙堡 Weissenberg Harmonicas 口琴 臺灣 Made in Taiwan",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.weissenbergwind.com/tw/product_list.php?type=4"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Weissenberg.Harmonicas/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weissenbergtw/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/weissenberg1979"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-09T16:54:56+00:00",
+      "latestUpdateLocal": "2026-08-10 00:54",
+      "latestUpdateSource": "韋笙堡口琴 Weissenberg Harmonicas",
+      "latestUpdateUrl": "https://www.instagram.com/p/Db06IMSJqjy/",
+      "avatarUrl": "/assets/source-avatars/7570024dc5a7761e39b9.webp",
+      "sourceInitials": "WH",
+      "sourceTags": [
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_weissenberg_harmonicas",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Weissenberg.Harmonicas",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weissenbergtw",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weissenbergtw",
+          "profileUrl": "https://www.instagram.com/weissenbergtw/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weissenbergtw/story/0"
+        },
+        {
+          "id": "ig_weissenbergtw",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weissenbergtw",
+          "profileUrl": "https://www.instagram.com/weissenbergtw/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_weissenberg1979",
+          "name": "韋笙堡口琴 Weissenberg Harmonicas",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/weissenberg1979",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-187",
       "publicId": "187",
       "name": "中山醫藍韻口琴社",
@@ -6643,171 +6808,6 @@
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/TaipeiYellowstoneHarmonicaEnsemble",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-95",
-      "publicId": "95",
-      "name": "韋笙堡口琴 Weissenberg Harmonicas",
-      "nameEn": "Weissenberg Harmonicas",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "品牌/樂器商",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "口琴製造/器材/產品資訊",
-      "structuredSummary": "口琴製造/器材/產品資訊 / 口琴 / 器材品牌",
-      "summary": "臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。",
-      "keywords": "韋笙堡 Weissenberg Harmonicas 口琴 臺灣 Made in Taiwan",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.weissenbergwind.com/tw/product_list.php?type=4"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Weissenberg.Harmonicas/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weissenbergtw/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/weissenberg1979"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-09T04:12:41+00:00",
-      "latestUpdateLocal": "2026-08-09 12:12",
-      "latestUpdateSource": "韋笙堡口琴 Weissenberg Harmonicas",
-      "latestUpdateUrl": "https://www.instagram.com/stories/weissenbergtw/3959664070425151201/",
-      "avatarUrl": "/assets/source-avatars/7570024dc5a7761e39b9.webp",
-      "sourceInitials": "WH",
-      "sourceTags": [
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_weissenberg_harmonicas",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Weissenberg.Harmonicas",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_weissenbergtw",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weissenbergtw",
-          "profileUrl": "https://www.instagram.com/weissenbergtw/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weissenbergtw/story/0"
-        },
-        {
-          "id": "ig_weissenbergtw",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weissenbergtw",
-          "profileUrl": "https://www.instagram.com/weissenbergtw/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_weissenberg1979",
-          "name": "韋笙堡口琴 Weissenberg Harmonicas",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/weissenberg1979",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-165",
-      "publicId": "165",
-      "name": "馬來西亞口琴節",
-      "nameEn": "Malaysia Harmonica Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "比賽/資訊入口",
-      "country": "馬來西亞",
-      "region": "馬來西亞/吉隆坡",
-      "cityOrFocus": "馬來西亞口琴節/比賽/學生與樂團",
-      "structuredSummary": "馬來西亞口琴節/比賽/學生與樂團 / 口琴/重奏/合奏 / 國際活動來源",
-      "summary": "馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。",
-      "keywords": "Malaysia Harmonica Festival MYHF Malaysia Harmonica Competition",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/malaysiaharmonicafestival/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/malaysia_harmonica_festival/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@malaysiaharmonicafestival5523"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-09T04:02:57+00:00",
-      "latestUpdateLocal": "2026-08-09 12:02",
-      "latestUpdateSource": "馬來西亞口琴節",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbziMElxy-B/",
-      "avatarUrl": "/assets/source-avatars/09077c8961140dc01709.webp",
-      "sourceInitials": "馬來",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "比賽",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_malaysiaharmonicafestival",
-          "name": "馬來西亞口琴節",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/malaysiaharmonicafestival",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_malaysia_harmonica_festival",
-          "name": "馬來西亞口琴節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "malaysia_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_malaysia_harmonica_festival",
-          "name": "馬來西亞口琴節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "malaysia_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/malaysia_harmonica_festival/story/0"
-        },
-        {
-          "id": "yt_malaysiaharmonicafestival5523",
-          "name": "馬來西亞口琴節",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@malaysiaharmonicafestival5523",
           "feedUrl": ""
         }
       ]
