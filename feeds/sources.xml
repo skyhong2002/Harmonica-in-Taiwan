@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 14 Aug 2026 22:47:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 23:53:27 +0000</lastBuildDate>
     <item>
       <title>建中口琴社</title>
       <link>https://sites.google.com/view/ckhc-harmonica-club/%E9%A6%96%E9%A0%81</link>
@@ -71,6 +71,17 @@ Tag：演奏者、教學、半音階、國際交流
 國家：韓國
 地區：韓國
 韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。</description>
+    </item>
+    <item>
+      <title>Boris Plotnikov</title>
+      <link>https://borisplotnikov.ru/en</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/b9affa11fa2aaf4c</guid>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、比賽、半音階、十孔、國際交流
+國家：俄羅斯
+地區：俄羅斯
+俄羅斯的十孔與半音階國際演出人員與教學者，活動脈絡包含莫斯科職業口琴演奏、藍調爵士與國際比賽得獎。</description>
     </item>
     <item>
       <title>Jong-seong Park 朴鍾聲</title>
@@ -159,6 +170,17 @@ Tag：演奏者、教學、重奏
 國家：臺灣
 地區：臺灣
 臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。</description>
+    </item>
+    <item>
+      <title>韋笙堡口琴 Weissenberg Harmonicas</title>
+      <link>https://www.weissenbergwind.com/tw/product_list.php?type=4</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/6943943f14cc844d</guid>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：教學器材、教學
+國家：臺灣
+地區：臺灣/臺中
+臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。</description>
     </item>
     <item>
       <title>Timothy Yip 葉進禧</title>
@@ -469,6 +491,17 @@ Tag：演奏者、半音階、重奏
 臺灣的半音階與重奏演出人員與評審，活動脈絡包含Judy’s、演出與評審。</description>
     </item>
     <item>
+      <title>Lee Oskar</title>
+      <link>https://leeoskar.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/46bea6a12ee3ef49</guid>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：品牌、演奏者、團體樂團、十孔、國際交流
+國家：丹麥
+地區：美國
+丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。</description>
+    </item>
+    <item>
       <title>El Caminito 엘 까미니또</title>
       <link>https://www.cjazit.org/support/tune-up/entry/64/26710?p=26</link>
       <guid>https://harmonica.observe.tw/feeds/sources/201628a6d5a3585c</guid>
@@ -555,17 +588,6 @@ Tag：演奏者、十孔、國際交流
 國家：日本
 地區：日本/臺灣爵士圈
 日本的十孔與爵士口琴國際演出人員，活動脈絡包含爵士與跨界。</description>
-    </item>
-    <item>
-      <title>Lee Oskar</title>
-      <link>https://leeoskar.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/46bea6a12ee3ef49</guid>
-      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：品牌、演奏者、團體樂團、十孔、國際交流
-國家：丹麥
-地區：美國
-丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。</description>
     </item>
     <item>
       <title>國家兩廳院</title>
@@ -898,17 +920,6 @@ Tag：活動資訊、比賽、半音階、複音、重奏、國際交流
 日本的國際比賽來源，涵蓋日本口琴比賽與duo trio。</description>
     </item>
     <item>
-      <title>韋笙堡口琴 Weissenberg Harmonicas</title>
-      <link>https://www.weissenbergwind.com/tw/product_list.php?type=4</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/6943943f14cc844d</guid>
-      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：教學器材、教學
-國家：臺灣
-地區：臺灣/臺中
-臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。</description>
-    </item>
-    <item>
       <title>中山醫藍韻口琴社</title>
       <link>https://powerup.csmu.edu.tw/Act/act_Info/c75b7f5a-53e4-4bf9-b3d9-5af47d787fba</link>
       <guid>https://harmonica.observe.tw/feeds/sources/edff637b42d1d782</guid>
@@ -973,17 +984,6 @@ Tag：活動資訊、比賽、半音階、十孔、國際交流
 國家：德國
 地區：德國/柏林
 德國的國際活動與教育來源，涵蓋柏林口琴節、Academy、演奏會、工作坊與Open Stage。</description>
-    </item>
-    <item>
-      <title>Boris Plotnikov</title>
-      <link>https://borisplotnikov.ru/en</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/b9affa11fa2aaf4c</guid>
-      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學、比賽、半音階、十孔、國際交流
-國家：俄羅斯
-地區：俄羅斯
-俄羅斯的十孔與半音階國際演出人員與教學者，活動脈絡包含莫斯科職業口琴演奏、藍調爵士與國際比賽得獎。</description>
     </item>
     <item>
       <title>林士傑</title>

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-14T22:47:48.841831Z",
+  "generatedAt": "2026-08-14T23:53:25.959405Z",
   "source": {
     "id": 139,
     "slug": "lee-oskar",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/139-lee-oskar/"
   },
   "items": [
+    {
+      "id": "post-32260b75cc3816beea16f0d4",
+      "title": "Follow the melody on screen, one note at a time. If my tempo is too quick, play it slower. Speed is the last thing you …",
+      "excerpt": "Follow the melody on screen, one note at a time. If my tempo is too quick, play it slower. Speed is the last thing you add to a song, never the first. It is a system: melody, rhythm, breath, all at once. Guitar: C → G → F (verse) · Am → G → F (chorus) Key: C harmonica · standard…",
+      "url": "https://www.instagram.com/p/Db-8nLSjbvZ/",
+      "sourceName": "Lee Oskar",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-13T14:25:20Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/abc2ec3440aac419261a.webp",
+        "width": 640,
+        "height": 1136
+      }
+    },
     {
       "id": "post-cdf9b7d15cbe3f6d5e89df63",
       "title": "A big thank you to @leeoskarharmonicas Lee Oskar Harmonicas for making me an official Harmonica Advocate, and for the L…",
