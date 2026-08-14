@@ -65,6 +65,154 @@
   },
   "entries": [
     {
+      "id": "watchlist-111",
+      "publicId": "111",
+      "name": "Lee Hangyeol 이한결",
+      "nameEn": "Lee Hangyeol",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "韓國口琴演奏/演出與教學/半音階爵士",
+      "structuredSummary": "韓國口琴演奏/演出與教學/半音階爵士 / 半音階/口琴 / 國際演出人員/教學者",
+      "summary": "韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。",
+      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica SIHF",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/gyeoli_94/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@gyeoli_94"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-14T03:16:21+00:00",
+      "latestUpdateLocal": "2026-08-14 11:16",
+      "latestUpdateSource": "Lee Hangyeol 이한결",
+      "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3963259586386831565/",
+      "avatarUrl": "/assets/source-avatars/f2b6c744032c522f8fc2.webp",
+      "sourceInitials": "LH",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "gyeoli_94",
+          "profileUrl": "https://www.instagram.com/gyeoli_94/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "gyeoli_94",
+          "profileUrl": "https://www.instagram.com/gyeoli_94/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/gyeoli_94/story/0"
+        },
+        {
+          "id": "yt_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@gyeoli_94",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-99",
+      "publicId": "99",
+      "name": "范曉怡",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "狂響口琴樂團/教學/地方推廣",
+      "structuredSummary": "狂響口琴樂團/教學/地方推廣 / 低音口琴/口琴 / 演出人員/教學者",
+      "summary": "臺灣的低音口琴與口琴演出人員與教學者，活動脈絡包含狂響口琴樂團、教學與地方推廣。",
+      "keywords": "范曉怡 fanhsiaoyi 口琴 狂響",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/fanhsiaoyi/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/fanhsiaoyi/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@fanhsiaoyi"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-14T03:00:01+00:00",
+      "latestUpdateLocal": "2026-08-14 11:00",
+      "latestUpdateSource": "范曉怡",
+      "latestUpdateUrl": "https://www.instagram.com/stories/fanhsiaoyi/3963251609304281577/",
+      "avatarUrl": "/assets/source-avatars/38a18c7f7ae516612aa5.webp",
+      "sourceInitials": "范曉",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/fanhsiaoyi",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "fanhsiaoyi",
+          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "fanhsiaoyi",
+          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/fanhsiaoyi/story/0"
+        },
+        {
+          "id": "threads_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "threads",
+          "type": "rss",
+          "username": "fanhsiaoyi",
+          "profileUrl": "https://www.threads.net/@fanhsiaoyi",
+          "feedUrl": "https://rss.observe.tw/threads/fanhsiaoyi"
+        }
+      ]
+    },
+    {
       "id": "watchlist-162",
       "publicId": "162",
       "name": "口琴愛好者協會（新加坡）",
@@ -278,6 +426,91 @@
           "username": "evelyn_harmonica",
           "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/evelyn_harmonica/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-132",
+      "publicId": "132",
+      "name": "Antonio Serrano",
+      "nameEn": "Antonio Serrano",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "西班牙",
+      "region": "西班牙",
+      "cityOrFocus": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025",
+      "structuredSummary": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025 / 半音階/十孔 / 國際演出人員",
+      "summary": "西班牙的半音階與十孔國際演出人員，活動脈絡包含馬德里出生、古典藍調爵士流行與與Paco de Lucia合作。",
+      "keywords": "Antonio Serrano harmonica SIHF WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hohner.de/en/antonio-serrano"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/antonioserranoarmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/antonioserranoarmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@antonioserranoofficial"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-13T21:34:28+00:00",
+      "latestUpdateLocal": "2026-08-14 05:34",
+      "latestUpdateSource": "Antonio Serrano",
+      "latestUpdateUrl": "https://www.instagram.com/stories/antonioserranoarmonica/3963087881861893999/",
+      "avatarUrl": "/assets/source-avatars/0074a951adec1d32d4cc.webp",
+      "sourceInitials": "AS",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_antonioserranoarmonica",
+          "name": "Antonio Serrano",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/antonioserranoarmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_antonioserranoarmonica",
+          "name": "Antonio Serrano",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "antonioserranoarmonica",
+          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_antonioserranoarmonica",
+          "name": "Antonio Serrano",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "antonioserranoarmonica",
+          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/antonioserranoarmonica/story/0"
+        },
+        {
+          "id": "yt_antonioserranoofficial",
+          "name": "Antonio Serrano",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@antonioserranoofficial",
+          "feedUrl": ""
         }
       ]
     },
@@ -2334,7 +2567,7 @@
       "latestUpdateLocal": "2026-08-13 19:56",
       "latestUpdateSource": "CY Leo 何卓彥",
       "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3962796548031682528/",
-      "avatarUrl": "/assets/source-avatars/17af7d0dcc2dd5cb6463.webp",
+      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
       "sourceInitials": "CL",
       "sourceTags": [
         "演奏者",
@@ -2379,74 +2612,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@cyleoharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-111",
-      "publicId": "111",
-      "name": "Lee Hangyeol 이한결",
-      "nameEn": "Lee Hangyeol",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "韓國口琴演奏/演出與教學/半音階爵士",
-      "structuredSummary": "韓國口琴演奏/演出與教學/半音階爵士 / 半音階/口琴 / 國際演出人員/教學者",
-      "summary": "韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。",
-      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica SIHF",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/gyeoli_94/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@gyeoli_94"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-13T10:28:50+00:00",
-      "latestUpdateLocal": "2026-08-13 18:28",
-      "latestUpdateSource": "Lee Hangyeol 이한결",
-      "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3962752490256955629/",
-      "avatarUrl": "/assets/source-avatars/f2b6c744032c522f8fc2.webp",
-      "sourceInitials": "LH",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "gyeoli_94",
-          "profileUrl": "https://www.instagram.com/gyeoli_94/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "gyeoli_94",
-          "profileUrl": "https://www.instagram.com/gyeoli_94/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/gyeoli_94/story/0"
-        },
-        {
-          "id": "yt_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@gyeoli_94",
           "feedUrl": ""
         }
       ]
@@ -2660,91 +2825,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@yuanyuanharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-132",
-      "publicId": "132",
-      "name": "Antonio Serrano",
-      "nameEn": "Antonio Serrano",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "西班牙",
-      "region": "西班牙",
-      "cityOrFocus": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025",
-      "structuredSummary": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025 / 半音階/十孔 / 國際演出人員",
-      "summary": "西班牙的半音階與十孔國際演出人員，活動脈絡包含馬德里出生、古典藍調爵士流行與與Paco de Lucia合作。",
-      "keywords": "Antonio Serrano harmonica SIHF WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hohner.de/en/antonio-serrano"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/antonioserranoarmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/antonioserranoarmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@antonioserranoofficial"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-13T09:22:57+00:00",
-      "latestUpdateLocal": "2026-08-13 17:22",
-      "latestUpdateSource": "Antonio Serrano",
-      "latestUpdateUrl": "https://www.instagram.com/p/Db-aDx-iAas/",
-      "avatarUrl": "/assets/source-avatars/0074a951adec1d32d4cc.webp",
-      "sourceInitials": "AS",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_antonioserranoarmonica",
-          "name": "Antonio Serrano",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/antonioserranoarmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_antonioserranoarmonica",
-          "name": "Antonio Serrano",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "antonioserranoarmonica",
-          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_antonioserranoarmonica",
-          "name": "Antonio Serrano",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "antonioserranoarmonica",
-          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/antonioserranoarmonica/story/0"
-        },
-        {
-          "id": "yt_antonioserranoofficial",
-          "name": "Antonio Serrano",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@antonioserranoofficial",
           "feedUrl": ""
         }
       ]
@@ -7444,86 +7524,6 @@
       ]
     },
     {
-      "id": "watchlist-99",
-      "publicId": "99",
-      "name": "范曉怡",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "狂響口琴樂團/教學/地方推廣",
-      "structuredSummary": "狂響口琴樂團/教學/地方推廣 / 低音口琴/口琴 / 演出人員/教學者",
-      "summary": "臺灣的低音口琴與口琴演出人員與教學者，活動脈絡包含狂響口琴樂團、教學與地方推廣。",
-      "keywords": "范曉怡 fanhsiaoyi 口琴 狂響",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/fanhsiaoyi/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/fanhsiaoyi/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@fanhsiaoyi"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-06T05:48:23+00:00",
-      "latestUpdateLocal": "2026-08-06 13:48",
-      "latestUpdateSource": "范曉怡",
-      "latestUpdateUrl": "https://www.instagram.com/stories/fanhsiaoyi/3957537962946855199/",
-      "avatarUrl": "/assets/source-avatars/38a18c7f7ae516612aa5.webp",
-      "sourceInitials": "范曉",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_fanhsiaoyi",
-          "name": "范曉怡",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/fanhsiaoyi",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_fanhsiaoyi",
-          "name": "范曉怡",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "fanhsiaoyi",
-          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_fanhsiaoyi",
-          "name": "范曉怡",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "fanhsiaoyi",
-          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/fanhsiaoyi/story/0"
-        },
-        {
-          "id": "threads_fanhsiaoyi",
-          "name": "范曉怡",
-          "platform": "threads",
-          "type": "rss",
-          "username": "fanhsiaoyi",
-          "profileUrl": "https://www.threads.net/@fanhsiaoyi",
-          "feedUrl": "https://rss.observe.tw/threads/fanhsiaoyi"
-        }
-      ]
-    },
-    {
       "id": "watchlist-147",
       "publicId": "147",
       "name": "Yoonseok Lee",
@@ -8453,7 +8453,7 @@
       "latestUpdateLocal": "2026-07-31 02:17",
       "latestUpdateSource": "Deak Harp",
       "latestUpdateUrl": "https://www.facebook.com/deak.harp/posts/pfbid0ZXykgZQxUDEhLfMFxVU8GkC2BwpH6aHtkD6rSpAYGT5B4v9zc8LMFqoPjCoo3cX2l",
-      "avatarUrl": "/assets/source-avatars/de48fcba11bb333f8afa.webp",
+      "avatarUrl": "/assets/source-avatars/1cc3ca49a58ad283aac4.webp",
       "sourceInitials": "DH",
       "sourceTags": [
         "演奏者",

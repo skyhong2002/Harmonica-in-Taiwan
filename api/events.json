@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 667,
+  "count": 666,
   "items": [
     {
       "title": "Santiago Alvarez｜🎹El dúo Álvarez-Gallardo viene al Festival de Música Lapacho🌸 Integrado por Juan Pablo Gallardo en el …",
@@ -52638,94 +52638,6 @@
         "公開活動"
       ],
       "key": "ig_punch_harp:https://www.instagram.com/p/Daxu9w0vA0R/"
-    },
-    {
-      "title": "音和樂器口琴專賣店｜樹林社大115春季班成果展_「口琴輕鬆學」表演曲目：「一路生花」 📣樹林社大「口琴輕鬆學」招生中 授課老師：張宇樞 上課地點：新北市樹林國小 🟡授課內容： 🔹複音口琴獨奏基礎教學： 📍複音口琴獨奏基礎教程第一冊（基礎篇…",
-      "headline": "樹林社大115春季班成果展_「口琴輕鬆學」表演曲目：「一路生花」",
-      "display_title": "樹林社大115春季班成果展_「口琴輕鬆學」表演曲目：「一路生花」",
-      "title_kind": "title",
-      "link": "https://www.youtube.com/watch?v=9oRSC3gtUzc",
-      "source_id": "yt_peacetonesharmonica",
-      "source": "音和樂器口琴專賣店",
-      "source_system_name": "音和樂器",
-      "source_profile_url": "https://www.youtube.com/channel/UCKiGyNdLFSOtEpwcMhsM0SA",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "directory_entry_id": "watchlist-27",
-      "directory_entry_name": "音和樂器",
-      "account": "https://www.youtube.com/channel/UCKiGyNdLFSOtEpwcMhsM0SA",
-      "platform": "youtube",
-      "platform_label": "YouTube",
-      "posted_at": "2026-07-15T03:04:17+00:00",
-      "posted_at_local": "2026-07-15 11:04",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-07-15T11:02:25.082464+00:00",
-      "media_type": "video",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "公開更新",
-        "成發",
-        "招生",
-        "報名",
-        "課程"
-      ],
-      "keyword_matches": [
-        "口琴",
-        "招生",
-        "報名"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.99,
-      "llm_labels": [
-        "口琴",
-        "公開更新",
-        "成發",
-        "招生",
-        "報名",
-        "課程"
-      ],
-      "llm_categories": [
-        "events",
-        "opportunities"
-      ],
-      "llm_reason": "樹林社大口琴課成果展與招生報名資訊，屬口琴課程、成發與招生公告。",
-      "text": "樹林社大115春季班成果展_「口琴輕鬆學」表演曲目：「一路生花」\n📣樹林社大「口琴輕鬆學」招生中\n授課老師：張宇樞\n上課地點：新北市樹林國小\n🟡授課內容：\n🔹複音口琴獨奏基礎教學：\n📍複音口琴獨奏基礎教程第一冊（基礎篇）：\n呼吸法、單孔單音奏法、單把口琴吹奏。\n📍複音口琴獨奏基礎教程第二冊（雙口琴轉換篇）：雙口琴轉換技巧（C+C#)、吹奏除C調以外的各種調性樂曲。\n🔔報名時間：現正報名中\n報名方式：現場報名 or 網路報名\n📌線上報名：https://shulin.twco.org.tw/course/m_course_detail.php?u=79ce9d5e4f028682d63d3ca6f08b4901\n📌現場報名：樹林社區大學（樹林國小）",
-      "images": [
-        "https://i.ytimg.com/vi/9oRSC3gtUzc/maxresdefault.jpg"
-      ],
-      "videos": [],
-      "source_image_url": "https://i.ytimg.com/vi/9oRSC3gtUzc/maxresdefault.jpg",
-      "image_url": "/assets/feed-images/b7a3429f01d217847876.webp",
-      "image_width": 800,
-      "image_height": 450,
-      "source_avatar_url": "https://yt3.googleusercontent.com/n9Kwg9lIo_YmPMzGguk2PAqGMURo06nJ4iaZK7wfL2UqbgqxP-6-Am85qbOjItctn6_S-dI58g=s900-c-k-c0x00ffffff-no-rj",
-      "avatar_url": "/assets/source-avatars/46150a457fec935842d3.webp",
-      "source_initials": "音和",
-      "categories": [
-        "posts-videos",
-        "events",
-        "opportunities",
-        "student-clubs"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動",
-        "補助比賽",
-        "學生社團"
-      ],
-      "key": "yt_peacetonesharmonica:9oRSC3gtUzc"
     }
   ]
 }
