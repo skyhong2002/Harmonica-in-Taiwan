@@ -61,6 +61,24 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/43-yu-feng-lin/</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/66-younghoon-cho/</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/211-nus-harmonica/</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/33/</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -68,6 +86,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/50-aiden-soon/</loc>
+    <lastmod>2026-08-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/161-hong-kong-schools-music-festival/</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -235,12 +259,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/66-younghoon-cho/</loc>
-    <lastmod>2026-08-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/146-world-harmonica-festival/</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -272,12 +290,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/221-yuanyuan-harmonica/</loc>
-    <lastmod>2026-08-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/211-nus-harmonica/</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -337,12 +349,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/161-hong-kong-schools-music-festival/</loc>
-    <lastmod>2026-08-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/103-yora-chen/</loc>
     <lastmod>2026-08-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -392,12 +398,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/93-redbricks-harmonica/</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/43-yu-feng-lin/</loc>
     <lastmod>2026-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

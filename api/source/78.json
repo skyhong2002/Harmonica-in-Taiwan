@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-14T09:32:14.152457Z",
+  "generatedAt": "2026-08-14T10:39:04.405300Z",
   "source": {
     "id": 78,
     "slug": "78",
@@ -284,20 +284,6 @@
       "publishedAt": "2026-07-15T14:00:58Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/2cc721a2da1893ba04b9.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-c7bfe2a8025e75b69f9f6ff7",
-      "title": "傳藝金曲獎導演及編劇聯手打造，春美歌劇團年度大戲《伽羅香》，重構莎翁經典名作《安東尼與克麗奧佩脱拉》！",
-      "excerpt": "傳藝金曲獎導演及編劇聯手打造，春美歌劇團年度大戲《伽羅香》，重構莎翁經典名作《安東尼與克麗奧佩脱拉》！ 改編自莎士比亞《安東尼與克麗奧佩脱拉》，《伽羅香》最初創作的起心動念，竟來自經典少女漫畫《尼羅河女兒》！ 在導演 #宋厚寬 與編劇 #李季紋 的巧思轉譯下，架空遙遠的羅馬帝國與埃及托勒密王朝，擅演帥哥英雄的頂樑台柱 #郭春美，這次突破角色形象，呈現霸氣、卻不失柔情與脆弱的中年將軍「安敦寧」。當家小生 #孫凱琳 則操弄起權謀，飾演年輕卻充滿詭譎手段的「獨孤海棠」；而 #簡嘉誼 更顛覆以往哀怨、柔弱的旦角框架，一展「東方伽羅」艷媚卻魄力十足的女王風範。…",
-      "url": "https://www.youtube.com/watch?v=o3RvOM09Psk",
-      "sourceName": "衛武營國家藝術文化中心",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-15T10:32:44Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/f3bfcd07d5bc403b707c.webp",
         "width": 800,
         "height": 450
       }
