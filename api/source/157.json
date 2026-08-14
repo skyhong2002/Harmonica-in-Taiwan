@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-14T15:36:46.358094Z",
+  "generatedAt": "2026-08-14T16:42:12.916715Z",
   "source": {
     "id": 157,
     "slug": "steve-baker",
     "name": "Steve Baker",
     "pageUrl": "https://harmonica.observe.tw/source/157-steve-baker/"
   },
-  "items": [
-    {
-      "id": "post-3f7a198b7de0ebf76ae924bc",
-      "title": "Ich freue mich sehr, wieder einen LiveWires Gig mit Jan Mohr an der Gitarre zu spielen! Am Donnerstag 16. Juli sind wir…",
-      "excerpt": "Ich freue mich sehr, wieder einen LiveWires Gig mit Jan Mohr an der Gitarre zu spielen! Am Donnerstag 16. Juli sind wir beim Open Air auf dem Marktplatz Kirchweyhe ab 19:00 Uhr zu sehen und hören 😄",
-      "url": "https://www.facebook.com/stevebaker.harmonica/posts/pfbid0qVD47GSu8kwUR2MBDCskLFf16ywdT62MdDHrg73zvmDMJ7nfn2bLwQyj4U4eB5STl",
-      "sourceName": "Steve Baker",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-15T15:53:21Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/ded5fe7ce02d5d945391.webp",
-        "width": 800,
-        "height": 534
-      }
-    }
-  ]
+  "items": []
 }
