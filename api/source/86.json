@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T03:43:04.994527Z",
+  "generatedAt": "2026-08-15T04:15:46.237992Z",
   "source": {
     "id": 86,
     "slug": "ou-frog",
@@ -200,20 +200,6 @@
       "publishedAt": "2026-07-18T04:00:01Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/600aae929ff60e63c748.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-0bb8178e3aa82085a6116634",
-      "title": "[口琴活動 Play Harmonica] ｜中正社大進階重奏班成果展｜Tremolo",
-      "excerpt": "[口琴活動 Play Harmonica] ｜中正社大進階重奏班成果展｜Tremolo 中正社大口琴重奏進階班，每週四晚～ 歡迎有興趣一起玩進階和重奏的同學一起來吹口琴喔！ 指導老師：歐純伶 演出團體：中正社大進階重奏班 演出曲目：傜之舞曲 #口琴 #複音口琴 #Harmonica #Tremolo harmonica #特效口琴 #特效鋼琴 #口琴譜 #口琴演奏",
-      "url": "https://www.youtube.com/watch?v=Xl2TTPho8Xc",
-      "sourceName": "吹出好心琴 + Ou Frog",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-16T04:00:24Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/edd88b58085b13ca9c65.webp",
         "width": 800,
         "height": 450
       }

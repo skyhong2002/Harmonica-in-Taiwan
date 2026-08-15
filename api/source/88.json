@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T03:43:04.994527Z",
+  "generatedAt": "2026-08-15T04:15:46.237992Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -214,20 +214,6 @@
       "publishedAt": "2026-07-17T04:06:20Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/8ce93772edae36569db8.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-07f76778ecbd96c9e516c8ff",
-      "title": "藍調經典-法蘭奇與強尼丨中正社大十孔口琴班",
-      "excerpt": "藍調經典-法蘭奇與強尼丨中正社大十孔口琴班 十孔口琴早期在美國是以吹奏藍調為主，他特殊的壓音音色、145級的和聲，都讓十孔口琴在藍調音樂史有不可替代的地位，臺灣雖以流行歌曲為主較少聽到藍調音樂，但聽聽這樣的shuffle節奏，是不是特別讓人容易放鬆~ 中正社大十孔口琴班(四)下午 新莊社大十孔新開班(三)晚上",
-      "url": "https://www.youtube.com/watch?v=sTRNtD8S4eo",
-      "sourceName": "藍波口琴教室",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-16T04:00:26Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/a000a2d6995208c062b4.webp",
         "width": 800,
         "height": 450
       }
