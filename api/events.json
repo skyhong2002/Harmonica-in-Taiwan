@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 664,
+  "count": 665,
   "items": [
     {
       "title": "吹出好心琴 + Ou Frog +｜[口琴活動 Play Harmonica] ｜中正社大基礎班成果展｜Tremolo 中正社大口琴班剩餘五名額～每週三晚上～ 歡迎有興趣的同學一起來學吹口琴喔！ 指導老師：歐純伶 演出團體：中正社大基礎班…",
@@ -96,6 +96,77 @@
         "學生社團"
       ],
       "key": "yt_oufrog:57ocIC9pBfc"
+    },
+    {
+      "title": "臺中國家歌劇院｜享生活👀 2026放肆夜 Movie Night Out 一隻害怕孤單的狗狗，遇見了一位機器人。 從陌生到形影不離，他們一起分享生活、一起跳舞、一起做夢，也一起度過了最美好的夏天。 直到一場意外，讓他們不得不分開。 在無盡…",
+      "headline": "享生活👀 2026放肆夜 Movie Night Out",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DcC-tW2gRgV/",
+      "source_id": "ig_nationaltaichungtheater",
+      "source": "臺中國家歌劇院",
+      "source_system_name": "臺中國家歌劇院",
+      "source_profile_url": "https://www.instagram.com/nationaltaichungtheater/",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "directory_entry_id": "watchlist-80",
+      "directory_entry_name": "臺中國家歌劇院",
+      "account": "nationaltaichungtheater",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Sat, 15 Aug 2026 04:00:12 GMT",
+      "posted_at_local": "2026-08-15 12:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-15T09:41:41.281557+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/nationaltaichungtheater",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "演出"
+      ],
+      "keyword_matches": [
+        "演出"
+      ],
+      "llm_relevant": null,
+      "llm_confidence": null,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "",
+      "text": "享生活👀 2026放肆夜 Movie Night Out\n一隻害怕孤單的狗狗，遇見了一位機器人。\n從陌生到形影不離，他們一起分享生活、一起跳舞、一起做夢，也一起度過了最美好的夏天。\n直到一場意外，讓他們不得不分開。\n在無盡的等待中，他們還能再次擁抱彼此嗎？🤖🐶\n8/27(四) 別忘記帶機器人回家\n🎥活動資訊\n播映片單 |《再見機器人》Robot Dreams\n播映時間 | 8/27(四)19:00，片長約101分鐘\n演出地點 | 臺中國家歌劇院 戶外劇場\n👉點選官網查詢\n📌本場次為露天播映，如活動因雨取消，將於演出當日16:00前公告於歌劇院官網「最新消息」與 FB 粉絲專頁貼文，敬請留意。\n#臺中國家歌劇院 #戶外電影 #放肆夜 #movie #再見機器人",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t39.30808-6/774362906_1674647671371935_6857808565363776999_n.jpg?stp=c3.0.1992.1080a_dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzk2NDAwNjM5NTQ4MDczNjA2MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTk5OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=0xleyGc2YJkQ7kNvwH_ABnV&_nc_oc=Adrz_VEvHtT-Ct_us_HG8EgJB_sZhtYUZMz-CmKOW9hnaPs9grbuhCtNJ8656tAK3Q0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=E3YMTMi82LQ9zZJWTDcc-A&_nc_ss=7a22e&oh=00_AQGUn9VtlCZVobEqymx5_VDXn43Ed8RQTgPFsPJyShY-dA&oe=6A8610D5",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t39.30808-6/774018505_1674647794705256_1706245728304323474_n.jpg?stp=c3.0.1992.1080a_dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzk2NDAwNjM5NjI3NzYyOTAzMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTk5OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=4Oe-iJF8_wsQ7kNvwGQQ2-B&_nc_oc=AdqORfwlXaVIhBekPL6NuaUU8Q_JTCyFxOruoCwEmY2sKZoGtQwqw1VE5n6ADn-N9qs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=E3YMTMi82LQ9zZJWTDcc-A&_nc_ss=7a22e&oh=00_AQE-yQv6VLdcthGmzDzEqqwww6hnTdBDLnvrjfsYCuRv2A&oe=6A860F06",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t39.30808-6/772819170_1674647798038589_3922353826052691904_n.jpg?stp=c3.0.1992.1080a_dst-jpg_e35_tt6&_nc_cat=107&ig_cache_key=Mzk2NDAwNjM5NTU0NzgzNzY1Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTk5OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=y81_9BqW20sQ7kNvwH2ZTM2&_nc_oc=Adq6bDZ9jv_o0-GzCUcEoh3mb1Qffv_1NDbF5abnrzMV2xNVn6Q7UOd6tZlzGTuVeLA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=E3YMTMi82LQ9zZJWTDcc-A&_nc_ss=7a22e&oh=00_AQEy4c_ymToD0SYCWB7I6H_9JOjr4FSeiCfcsdNlNEdE0A&oe=6A86110E",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t39.30808-6/774033653_1674647908038578_7486231018348214828_n.jpg?stp=c0.1.2000.1084a_dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzk2NDAwNjM5NjUyOTMxMDk0NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjAwMC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=sFl22S0VxcIQ7kNvwF1Xoor&_nc_oc=AdqK2PJ6YTOtFGWo0sPzRcUCzyWiZ61Cb1gMMHtD7zabrPBeyB2uNFIJUQwCiwgn_I4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=E3YMTMi82LQ9zZJWTDcc-A&_nc_ss=7a22e&oh=00_AQGIY_naObiOlOSn28TWSNUmVb6XWo-l17Hd6u1vV1y47w&oe=6A85ED96",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t39.30808-6/774201684_1674647934705242_4470622092728731249_n.jpg?stp=c3.0.1992.1080a_dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=Mzk2NDAwNjM5Njc4MDk0ODc3Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTk5OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FIwwkrVovFcQ7kNvwH355ak&_nc_oc=AdozuDX9oLIId_IUtRTkQaeOMmZy-7dclRmykpxHIZvVpSsjPWYvbxvpNbt293Bybuc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=E3YMTMi82LQ9zZJWTDcc-A&_nc_ss=7a22e&oh=00_AQFkRcyvzLfFhkPDmFK9oO4Az5dMs7bfmdkQLB_xGFhjrw&oe=6A860129"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t39.30808-6/774362906_1674647671371935_6857808565363776999_n.jpg?stp=c3.0.1992.1080a_dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzk2NDAwNjM5NTQ4MDczNjA2MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTk5OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=0xleyGc2YJkQ7kNvwH_ABnV&_nc_oc=Adrz_VEvHtT-Ct_us_HG8EgJB_sZhtYUZMz-CmKOW9hnaPs9grbuhCtNJ8656tAK3Q0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=E3YMTMi82LQ9zZJWTDcc-A&_nc_ss=7a22e&oh=00_AQGUn9VtlCZVobEqymx5_VDXn43Ed8RQTgPFsPJyShY-dA&oe=6A8610D5",
+      "image_url": "/assets/feed-images/4a76ab6c726ae8c7a922.webp",
+      "image_width": 800,
+      "image_height": 434,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/612975744_18574209508002039_3201934121603094493_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gH3tB1jAgauLXH4mSqMEAQEF0d7Hd6pXw75270Xuooqi4b7J4uXp3wa1388KPwFyMQ&_nc_ohc=vHQRW03_EOYQ7kNvwHHxBrN&_nc_gid=lmlSU4SiI07T2wToMuv9Hg&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQFwLRCdFujpDYR0LA-tg8Rg6ZCwDjg1FjP9eruRD55b6g&oe=6A85F13A&_nc_sid=ee9879",
+      "avatar_url": "/assets/source-avatars/8b3b241a2d984577082a.webp",
+      "source_initials": "臺中",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_nationaltaichungtheater:https://www.instagram.com/p/DcC-tW2gRgV/"
     },
     {
       "title": "南里沙 / Risa MINAMI｜Taiwan Harmonica Festival 2026 ガラコンサートの様子から🇹🇼🎶Sirius Harmonica Ensembleの皆さんと一緒に「つばめ」を♬ THMF2026では、毎日た…",
