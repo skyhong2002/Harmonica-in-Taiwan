@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T21:22:36.759943Z",
+  "generatedAt": "2026-08-15T21:56:08.957119Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -270,20 +270,6 @@
       "publishedAt": "2026-07-18T19:55:37Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/208ca4f4118fa08a72d0.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-5a84dce0362cda406d6a9add",
-      "title": "Unboxing some music gear for my summer concerts! No harmonicas in here but other useful stuff I bought from @thomann.mu…",
-      "excerpt": "Unboxing some music gear for my summer concerts! No harmonicas in here but other useful stuff I bought from @thomann.music Full video on my Patreon! L... Unboxing some music gear for my summer concerts! No harmonicas in here but other useful stuff I bought from @thomann.music Fu…",
-      "url": "https://www.instagram.com/p/Da3pBGhvyhg/",
-      "sourceName": "Filip Jers",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-16T21:48:38Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/1b247d0cff1c91c19ae3.webp",
         "width": 800,
         "height": 450
       }
