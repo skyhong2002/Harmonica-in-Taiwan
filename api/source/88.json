@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T07:00:42.826166Z",
+  "generatedAt": "2026-08-15T07:34:12.447056Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/88-bluebo-harmonica/"
   },
   "items": [
+    {
+      "id": "post-47fc66b318d36996647a954e",
+      "title": "思念你的心肝你敢知丨大安社大口琴班",
+      "excerpt": "思念你的心肝你敢知丨大安社大口琴班 這首曾心梅的台語歌，在KTV常常會有人點唱，鈺仁同學現在愈吹愈好，對於音色還有高音都掌控的很棒喔! 大安社大口琴班(四)晚上",
+      "url": "https://www.youtube.com/watch?v=wQvc_YLowSc",
+      "sourceName": "藍波口琴教室",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-14T10:00:07Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/20c3d58c47eabd16729d.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-a1ba3f4c7dbe54d587968739",
       "title": "口琴也能載歌載舞 邊吹口琴邊跳舞",

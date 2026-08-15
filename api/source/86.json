@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T07:00:42.826166Z",
+  "generatedAt": "2026-08-15T07:34:12.447056Z",
   "source": {
     "id": 86,
     "slug": "ou-frog",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/86-ou-frog/"
   },
   "items": [
+    {
+      "id": "post-f5a6314aa74aa00815aa8b31",
+      "title": "[口琴活動 Play Harmonica] ｜中正社大基礎班成果展｜Tremolo",
+      "excerpt": "[口琴活動 Play Harmonica] ｜中正社大基礎班成果展｜Tremolo 中正社大口琴班剩餘五名額～每週三晚上～ 歡迎有興趣的同學一起來學吹口琴喔！ 指導老師：歐純伶 演出團體：中正社大基礎班口琴班 演出曲目：紅豆 #口琴 #複音口琴 #Harmonica #Tremolo harmonica #特效口琴 #特效鋼琴 #口琴譜 #口琴演奏",
+      "url": "https://www.youtube.com/watch?v=57ocIC9pBfc",
+      "sourceName": "吹出好心琴 + Ou Frog",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-15T04:00:21Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9e932843c808df292eaf.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-cb12758bd686a55c1a22e5e8",
       "title": "[伴奏 Accompaniment] 一生所愛｜複音口琴｜Tremolo harmonica｜口琴譜｜口琴教學｜Harmonica tabs",
