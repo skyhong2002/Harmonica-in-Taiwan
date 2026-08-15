@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T10:20:33.985168Z",
+  "generatedAt": "2026-08-15T11:26:45.425652Z",
   "source": {
     "id": 215,
     "slug": "clhs-harmonica-band",
     "name": "鍾靈中學口琴隊",
     "pageUrl": "https://harmonica.observe.tw/source/215-clhs-harmonica-band/"
   },
-  "items": [
-    {
-      "id": "post-eaf09389598fbc00c139bf98",
-      "title": "✨CLHS Harmonica Band 2026/2027 committee✨",
-      "excerpt": "✨CLHS Harmonica Band 2026/2027 committee✨",
-      "url": "https://www.instagram.com/p/Da2cfG5kSIZ/",
-      "sourceName": "鍾靈中學口琴隊",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-16T10:38:53Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/11d9c4dc1dbc24c3abbb.webp",
-        "width": 800,
-        "height": 1000
-      }
-    }
-  ]
+  "items": []
 }
