@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T09:47:15.448170Z",
+  "generatedAt": "2026-08-15T10:20:33.985168Z",
   "source": {
     "id": 78,
     "slug": "78",
@@ -242,20 +242,6 @@
       "publishedAt": "2026-07-18T04:00:02Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/df0346fa967b0942d213.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-28a3c64af7b3b1b4146acae7",
-      "title": "沙尼✕黃俊文默契交鋒精彩回顧！新公共鋼琴首組國際大師快閃實錄🎹🎻",
-      "excerpt": "沙尼✕黃俊文默契交鋒精彩回顧！新公共鋼琴首組國際大師快閃實錄🎹🎻 衛武營是眾人的藝術中心，也是一場驚喜相遇發生的地方 🎹✨ 在【映象荷蘭】演出期間，衛武營公共鋼琴迎來一場眾所矚目的大師級快閃演出。 指揮暨鋼琴家拉哈夫．沙尼坐上琴凳，與小提琴家黃俊文展開默契合奏。 從熱情躍動的匈牙利舞曲到溫婉深情的望春風，熟悉的旋律在榕樹廣場交織迴盪，觀眾自發圍成一座圓形舞台，輕輕跟著哼唱，夕陽、微風與音樂交會，讓那一刻成為許多人心中最難忘的衛武營風景。 不到一小時後，拉哈夫．沙尼便走上音樂廳舞台，與鹿特丹愛樂管絃樂團帶來震撼人心的演出。從公共鋼琴到正式舞台，音樂沒有界…",
-      "url": "https://www.youtube.com/watch?v=yjlrmHnArT8",
-      "sourceName": "衛武營國家藝術文化中心",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-16T10:00:33Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/1ab9e052ebb1e9ad29b7.webp",
         "width": 800,
         "height": 450
       }

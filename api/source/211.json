@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T09:47:15.448170Z",
+  "generatedAt": "2026-08-15T10:20:33.985168Z",
   "source": {
     "id": 211,
     "slug": "nus-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/211-nus-harmonica/"
   },
   "items": [
+    {
+      "id": "post-09c3ab8955c33e0b6220238c",
+      "title": "☕ You’re invited to NUS Harmonica’s Welcome Tea!",
+      "excerpt": "☕ You’re invited to NUS Harmonica’s Welcome Tea! Come spend an evening with us, get to know our members, and find out what life in NUS Harmonica is all about. 📅 17 August 2026 (Monday) 🕖 7:15 - 9:00 pm 📍 NUS Yusof Ishak House, Multi-Purpose Room 3 What to expect? 🎶 Enjoy perform…",
+      "url": "https://www.instagram.com/p/DcDSzJOIVvB/",
+      "sourceName": "新加坡國立大學口琴社",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-15T06:57:52Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/70ac15bc08e0c3dd30df.webp",
+        "width": 800,
+        "height": 1001
+      }
+    },
     {
       "id": "post-dd14c26eb52ea08595a68cc8",
       "title": "✨ SLF wrapped up! ✨",

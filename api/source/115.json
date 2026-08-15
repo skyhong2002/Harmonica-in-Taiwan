@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T09:47:15.448170Z",
+  "generatedAt": "2026-08-15T10:20:33.985168Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/115-filip-jers/"
   },
   "items": [
+    {
+      "id": "post-3a09ce656baaf7a626c6beae",
+      "title": "recording the first thing I played on harmonica today",
+      "excerpt": "recording the first thing I played on harmonica today Recording the first thing I am playing on my harmonica today! No AI was used to create this music or video, just me playing harmonica jazz and jamming with my metronome. --- Join my Patreon community for exclusive lessons, vl…",
+      "url": "https://www.youtube.com/watch?v=PVBRLSZhfvE",
+      "sourceName": "Filip Jers",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-14T19:32:40Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9c9cda97909cc7039437.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-58aea52f9c011ef22f3ba822",
       "title": "Recording the first thing I’m playing on my harmonica today 🥳🎶",
