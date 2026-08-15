@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 15 Aug 2026 05:21:12 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 06:27:10 +0000</lastBuildDate>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -16,6 +16,17 @@ Tag：演奏者、半音階、國際交流
 國家：日本
 地區：日本
 日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+    </item>
+    <item>
+      <title>新竹縣文化局</title>
+      <link>https://www.hchcc.gov.tw/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/764c874d5d511c0a</guid>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/新竹
+臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
     </item>
     <item>
       <title>建中口琴社</title>
@@ -247,17 +258,6 @@ Tag：演奏者、比賽、半音階、國際交流
 國家：香港
 地區：香港
 香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。</description>
-    </item>
-    <item>
-      <title>新竹縣文化局</title>
-      <link>https://www.hchcc.gov.tw/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/764c874d5d511c0a</guid>
-      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/新竹
-臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
     </item>
     <item>
       <title>臺灣口琴音樂節 THMF</title>

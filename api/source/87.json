@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T05:21:11.057827Z",
+  "generatedAt": "2026-08-15T06:27:09.450174Z",
   "source": {
     "id": 87,
     "slug": "87",
     "name": "桃園玩口琴",
     "pageUrl": "https://harmonica.observe.tw/source/87/"
   },
-  "items": [
-    {
-      "id": "post-adbbd83124b679bee8f8ade1",
-      "title": "❤️【招生】中正社大 ♫",
-      "excerpt": "❤️【招生】中正社大 ♫ ❤️口琴重奏進階班(週四晚) ❤️一起來玩口琴進階和重奏！ 老師：歐純伶 演出：中正社大進階重奏班 曲目：傜之舞曲 #吹出好心琴口琴班一進階n重奏 #臺北中正社大週四晚 #歐純伶老師 #報名請洽02一23278441 #最後4名",
-      "url": "https://www.facebook.com/permalink.php?id=100057424090624&story_fbid=pfbid02DTU3TB23GwmpJmxkdKBFPNUhzqxA2LjzpvjbEeXL3yo2LG9UTzZyZuuv4upWZLUfl",
-      "sourceName": "桃園玩口琴",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-16T05:55:29Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/6fd862d076f3f8d60af8.webp",
-        "width": 500,
-        "height": 261
-      }
-    }
-  ]
+  "items": []
 }
