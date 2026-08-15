@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T11:26:45.425652Z",
+  "generatedAt": "2026-08-15T12:32:17.162364Z",
   "source": {
     "id": 30,
     "slug": "30",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/30/"
   },
   "items": [
+    {
+      "id": "post-fd34fcb6a66b009c3da2164d",
+      "title": "第一次在口琴節如此清醒，還可以早上六點起床散步：）",
+      "excerpt": "第一次在口琴節如此清醒，還可以早上六點起床散步：） 早上的江邊氣氛真的蠻不錯的，有許多運動的人以及我們莫名其妙早醒的口琴人。",
+      "url": "https://www.instagram.com/p/DcDNi-jErnw/",
+      "sourceName": "蔡明憲",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-15T06:09:52Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f21fec08fd080d62dba1.webp",
+        "width": 800,
+        "height": 800
+      }
+    },
     {
       "id": "post-db02b8ec9aebe4c4606ada5d",
       "title": "2026年暑假的第二飛，我們前往韓國國際首爾口琴節，這已經是我第11次來到這個地方，熟悉的人，熟悉的模式。",
