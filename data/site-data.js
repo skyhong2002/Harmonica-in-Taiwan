@@ -2,6 +2,91 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-16",
   "entries": [
     {
+      "id": "watchlist-10",
+      "publicId": "10",
+      "name": "林家靖 Rolabo Lin",
+      "nameEn": "Rolabo Lin",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "半音階/複音/原創/比賽曲",
+      "structuredSummary": "半音階/複音/原創/比賽曲 / 半音階/複音 / 演出人員",
+      "summary": "臺灣的半音階與複音演出人員，活動脈絡包含原創與比賽曲。",
+      "keywords": "林家靖 Rolabo Lin",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/jia-jing/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HarmonicaLin/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/rolabo_lin/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-15T16:35:32+00:00",
+      "latestUpdateLocal": "2026-08-16 00:35",
+      "latestUpdateSource": "林家靖 Rolabo Lin",
+      "latestUpdateUrl": "https://www.instagram.com/stories/rolabo_lin/3964386612754361491/",
+      "avatarUrl": "/assets/source-avatars/3b0659f094e3af703b77.webp",
+      "sourceInitials": "RL",
+      "sourceTags": [
+        "演奏者",
+        "比賽",
+        "半音階",
+        "複音"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicalin",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HarmonicaLin",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_rolabo_lin",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "rolabo_lin",
+          "profileUrl": "https://www.instagram.com/rolabo_lin/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_rolabo_lin",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "rolabo_lin",
+          "profileUrl": "https://www.instagram.com/rolabo_lin/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/rolabo_lin/story/0"
+        },
+        {
+          "id": "yt_ucq7wiztevpndeaaj6rdxzea",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -6899,7 +6984,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-09 17:47",
       "latestUpdateSource": "蔡明勳",
       "latestUpdateUrl": "https://www.instagram.com/stories/minnie.o6i8/3959832756858922441/",
-      "avatarUrl": "/assets/source-avatars/56a8bb9278176df0e857.webp",
+      "avatarUrl": "/assets/source-avatars/b36c6edb2cd63e3cedde.webp",
       "sourceInitials": "蔡明",
       "sourceTags": [
         "演奏者",
@@ -8594,91 +8679,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@hnhkharmonica5296",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-10",
-      "publicId": "10",
-      "name": "林家靖 Rolabo Lin",
-      "nameEn": "Rolabo Lin",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "半音階/複音/原創/比賽曲",
-      "structuredSummary": "半音階/複音/原創/比賽曲 / 半音階/複音 / 演出人員",
-      "summary": "臺灣的半音階與複音演出人員，活動脈絡包含原創與比賽曲。",
-      "keywords": "林家靖 Rolabo Lin",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/jia-jing/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HarmonicaLin/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/rolabo_lin/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-26T07:21:59+00:00",
-      "latestUpdateLocal": "2026-07-26 15:21",
-      "latestUpdateSource": "林家靖 Rolabo Lin",
-      "latestUpdateUrl": "https://www.instagram.com/stories/rolabo_lin/3949612481707981499/",
-      "avatarUrl": "/assets/source-avatars/3b0659f094e3af703b77.webp",
-      "sourceInitials": "RL",
-      "sourceTags": [
-        "演奏者",
-        "比賽",
-        "半音階",
-        "複音"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonicalin",
-          "name": "林家靖 Rolabo Lin",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HarmonicaLin",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_rolabo_lin",
-          "name": "林家靖 Rolabo Lin",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "rolabo_lin",
-          "profileUrl": "https://www.instagram.com/rolabo_lin/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_rolabo_lin",
-          "name": "林家靖 Rolabo Lin",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "rolabo_lin",
-          "profileUrl": "https://www.instagram.com/rolabo_lin/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/rolabo_lin/story/0"
-        },
-        {
-          "id": "yt_ucq7wiztevpndeaaj6rdxzea",
-          "name": "林家靖 Rolabo Lin",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA",
           "feedUrl": ""
         }
       ]
