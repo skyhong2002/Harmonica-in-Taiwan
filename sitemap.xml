@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/submit/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -59,6 +59,12 @@
     <lastmod>2026-07-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/58-minami-risa/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/101-ho-kah-kean-harmonikahkean/</loc>
@@ -115,6 +121,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/111-lee-hangyeol/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/33/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -163,12 +175,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/58-minami-risa/</loc>
-    <lastmod>2026-08-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/76/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -206,12 +212,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/183-empa-escuela-de-m-sica-popular-de-avellaneda-arm-nica/</loc>
-    <lastmod>2026-08-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/111-lee-hangyeol/</loc>
     <lastmod>2026-08-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1616,7 +1616,7 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/event/20beaf6b38cf0959/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T15:19:17.924191Z",
+  "generatedAt": "2026-08-15T16:24:52.148849Z",
   "source": {
     "id": 58,
     "slug": "minami-risa",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/58-minami-risa/"
   },
   "items": [
+    {
+      "id": "post-674d05956786223ab167751c",
+      "title": "明日8月16日(日)はココばな♬ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by Ameba",
+      "excerpt": "明日8月16日(日)はココばな♬ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by Ameba #Amebaブログ #アメブロ #南里沙 #クロマチックハーモニカ",
+      "url": "https://x.com/minami_risa/status/2088652530863714615",
+      "sourceName": "南里沙",
+      "platform": "X",
+      "publishedAt": "2026-08-15T15:42:23Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1cd9f84f624e9b29bc38.webp",
+        "width": 800,
+        "height": 451
+      }
+    },
     {
       "id": "post-3df5ba66a2214527d89f6138",
       "title": "Taiwan Harmonica Festival 2026 ガラコンサートの様子から🇹🇼🎶Sirius Harmonica Ensembleの皆さんと一緒に「つばめ」を♬",
@@ -700,20 +714,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/7269a5abe3ff755e853a.webp",
         "width": 800,
         "height": 1067
-      }
-    },
-    {
-      "id": "post-6d748d22725216c1bee762a7",
-      "title": "来月のRJは♬ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by Ameba",
-      "excerpt": "来月のRJは♬ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by Ameba #Amebaブログ #アメブロ #南里沙 #クロマチックハーモニカ",
-      "url": "https://x.com/minami_risa/status/2077780028570640602",
-      "sourceName": "南里沙",
-      "platform": "X",
-      "publishedAt": "2026-07-16T15:38:56Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/2a4e804df93b2bb52dbd.webp",
-        "width": 800,
-        "height": 1405
       }
     }
   ]
