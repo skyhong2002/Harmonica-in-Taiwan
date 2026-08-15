@@ -7,8 +7,88 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 658,
+  "count": 659,
   "items": [
+    {
+      "title": "林家靖 Rolabo Lin｜SIHF2026 阿里郎幻想曲 Arirang Fantasy | 林家靖 口琴 阿里郎幻想曲 Arirang Fantasy 作曲 Composer：韓國民謠 Korean Folk Song 改編 Arr…",
+      "headline": "SIHF2026 阿里郎幻想曲 Arirang Fantasy | 林家靖 口琴",
+      "display_title": "SIHF2026 阿里郎幻想曲 Arirang Fantasy | 林家靖 口琴",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=j1-Eb5qrmLc",
+      "source_id": "yt_ucq7wiztevpndeaaj6rdxzea",
+      "source": "林家靖 Rolabo Lin",
+      "source_system_name": "林家靖 Rolabo Lin",
+      "source_profile_url": "https://www.youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-10",
+      "directory_entry_name": "林家靖 Rolabo Lin",
+      "account": "https://www.youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-08-15T16:00:52+00:00",
+      "posted_at_local": "2026-08-16 00:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-15T21:22:09.547406+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "影片"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "演出",
+        "交流",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.99,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴演出影片，為SIHF受邀演出嘉賓之公開更新，屬相關內容。",
+      "text": "SIHF2026 阿里郎幻想曲 Arirang Fantasy | 林家靖 口琴\n阿里郎幻想曲 Arirang Fantasy\n作曲 Composer：韓國民謠 Korean Folk Song\n改編 Arrangement：林家靖 Rolabo Lin\n■ 樂譜：https://reurl.cc/eQD4DR\n■ 非常榮幸受邀擔任 2026 首爾國際口琴節（SIHF）的演出嘉賓。第一首為大家帶來的，是改編自韓國經典民謠的《阿里郎幻想曲》。\n曲子以清雅的單音旋律揭開序幕，營造出登高遠眺般的悠閒意境；隨著景色變化，心情也隨之起伏，交織成一段暢快、慕古且氣勢磅礴的音樂旅程。\n在編曲上，我嘗試了多種複音口琴技巧，包括雙音、分解和弦、交流分解和弦、多孔曼陀林以及推拉式分解和弦等。即便只用兩把口琴演奏，也能展現極具層次與張力的豐富聲響。\nIt was an absolute honor to perform as a guest artist at the 2026 Seoul International Harmonica Festival (SIHF)!\nFor my first piece, I played Arirang Fantasia, an arrangement based on the iconic Korean folk song.\nThe piece starts with a light single-note melody, evoking the feeling of gazing out from a mountaintop, before building into an exhilarating, majestic journey.\nTo create a rich, multi-layered sound using just two harmonicas, I incorporated various tremolo techniques, such as arpeggios, alternating chords, multi-hole mandolin effects, and push-pull arpeggios.\nHope you enjoy the performance!\n■ 使用樂器 Instrument\nTombo Premium 21 No.3521 C\nTombo Premium 21 No.3521 C#\n■ Website of Rolabo Lin :\nFB | https://www.facebook.com/HarmonicaLin\nIG | https://www.instagram.com/rolabo_lin/",
+      "images": [
+        "https://i.ytimg.com/vi/j1-Eb5qrmLc/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/j1-Eb5qrmLc/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/e7532d04ccc01cdbde45.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_l6GOMJtrJvALWjrIWI1ICesg_uV8bhPbauNt2Y0f7AMw=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/73cc6f458955466debe2.webp",
+      "source_initials": "RL",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "yt_ucq7wiztevpndeaaj6rdxzea:j1-Eb5qrmLc"
+    },
     {
       "title": "吹口琴的小园园｜半世江湖厮杀，只求一朝牵挂 | 口琴演奏《#红尘客栈》【吹口琴的小园园】#music #vlog 听完这首歌曲记得订阅我的频道哦❤👉https://bit.ly/2D09zMV 哈喽，这里是吹口琴的小园园的官方YouTub…",
       "headline": "半世江湖厮杀，只求一朝牵挂 | 口琴演奏《#红尘客栈》【吹口琴的小园园】#music #vlog",

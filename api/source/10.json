@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T20:49:05.704497Z",
+  "generatedAt": "2026-08-15T21:22:36.759943Z",
   "source": {
     "id": 10,
     "slug": "rolabo-lin",
     "name": "林家靖 Rolabo Lin",
     "pageUrl": "https://harmonica.observe.tw/source/10-rolabo-lin/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-85d4802bdb0864ac98e31a8f",
+      "title": "SIHF2026 阿里郎幻想曲 Arirang Fantasy | 林家靖 口琴",
+      "excerpt": "SIHF2026 阿里郎幻想曲 Arirang Fantasy | 林家靖 口琴 阿里郎幻想曲 Arirang Fantasy 作曲 Composer：韓國民謠 Korean Folk Song 改編 Arrangement：林家靖 Rolabo Lin ■ 樂譜： ■ 非常榮幸受邀擔任 2026 首爾國際口琴節（SIHF）的演出嘉賓。第一首為大家帶來的，是改編自韓國經典民謠的《阿里郎幻想曲》。 曲子以清雅的單音旋律揭開序幕，營造出登高遠眺般的悠閒意境；隨著景色變化，心情也隨之起伏，交織成一段暢快、慕古且氣勢磅礴的音樂旅程。 在編曲上，我嘗試了多種複音…",
+      "url": "https://www.youtube.com/watch?v=j1-Eb5qrmLc",
+      "sourceName": "林家靖 Rolabo Lin",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-15T16:00:52Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/e7532d04ccc01cdbde45.webp",
+        "width": 800,
+        "height": 450
+      }
+    }
+  ]
 }
