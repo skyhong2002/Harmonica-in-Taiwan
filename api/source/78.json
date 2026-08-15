@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T02:37:37.918515Z",
+  "generatedAt": "2026-08-15T03:43:04.994527Z",
   "source": {
     "id": 78,
     "slug": "78",
@@ -256,20 +256,6 @@
       "publishedAt": "2026-07-16T10:00:33Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/1ab9e052ebb1e9ad29b7.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-c2ede477345fb7591be2cf7d",
-      "title": "【2026 臺灣舞蹈平台】全臺獨家！身體浪潮猛烈來襲，在萬千身體中映照原本的自己！",
-      "excerpt": "【2026 臺灣舞蹈平台】全臺獨家！身體浪潮猛烈來襲，在萬千身體中映照原本的自己！ 當觀看不再只是凝視，而成為一種跨越的行動？ 邀請你進入一個不斷轉換的觀看過程。 在跨越與映照之間，在破碎與重組之中， 重新思考我們如何看見身體，也如何在觀看之中，看見自身。 2026 臺灣舞蹈平台／跨。鏡—複數身體 11/27 ⇀ 11/29 ⟣ 高雄衛武營 購票： 🔍 本屆焦點演出 ▪️ 《永動城市》｜滯留島舞蹈劇場 ＆ Kinetic Light ＆ ONIKHO ▪️ 《㒩》｜身體處方 莊博翔 ▪️ 《Second Body》｜安娜琪舞蹈劇場 ▪️ 《茉莉．獻舞》…",
-      "url": "https://www.youtube.com/watch?v=hTexvfassHE",
-      "sourceName": "衛武營國家藝術文化中心",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-16T03:00:29Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/c258ba75177ca6f437e8.webp",
         "width": 800,
         "height": 450
       }
