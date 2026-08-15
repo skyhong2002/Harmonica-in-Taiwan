@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-15T16:57:10.996213Z",
+  "generatedAt": "2026-08-15T18:03:05.050676Z",
   "source": {
     "id": 125,
     "slug": "jens-bunge",
@@ -174,20 +174,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/69657777b5ee084fdae8.webp",
         "width": 800,
         "height": 1067
-      }
-    },
-    {
-      "id": "post-ee93fbc518f512e5f78693bf",
-      "title": "Jazziam at the Living Room, Bangkok",
-      "excerpt": "Jazziam at the Living Room, Bangkok",
-      "url": "https://www.instagram.com/p/Da3LjpEu0Xl/",
-      "sourceName": "Jens Bunge",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-16T17:34:52Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/97dee07ef3d3147ed209.webp",
-        "width": 800,
-        "height": 435
       }
     }
   ]

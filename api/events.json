@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 659,
+  "count": 658,
   "items": [
     {
       "title": "新加坡國立大學口琴社｜☕ You’re invited to NUS Harmonica’s Welcome Tea! Come spend an evening with us, get to know our members, and…",
@@ -52086,79 +52086,6 @@
         "公開活動"
       ],
       "key": "fb_thesigmundgrovenpage:968900809541250"
-    },
-    {
-      "title": "Jens Bunge｜Jazziam at the Living Room, Bangkok",
-      "headline": "Jazziam at the Living Room, Bangkok",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.instagram.com/p/Da3LjpEu0Xl/",
-      "source_id": "ig_jensbunge_jazzharmonica",
-      "source": "Jens Bunge",
-      "source_system_name": "Jens Bunge",
-      "source_profile_url": "https://www.instagram.com/jensbunge.jazzharmonica/",
-      "country": "德國",
-      "region": "德國",
-      "directory_entry_id": "watchlist-125",
-      "directory_entry_name": "Jens Bunge",
-      "account": "jensbunge.jazzharmonica",
-      "platform": "instagram",
-      "platform_label": "Instagram",
-      "posted_at": "Thu, 16 Jul 2026 17:34:52 GMT",
-      "posted_at_local": "2026-07-17 01:34",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-07-17T01:47:31.192252+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "https://rss.observe.tw/instagram/2/user/jensbunge.jazzharmonica",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "公開更新",
-        "演出"
-      ],
-      "keyword_matches": [],
-      "llm_relevant": true,
-      "llm_confidence": 0.86,
-      "llm_labels": [
-        "口琴",
-        "公開更新",
-        "演出"
-      ],
-      "llm_categories": [
-        "posts-videos"
-      ],
-      "llm_reason": "口琴演奏者 Jens Bunge 的公開演出貼文，屬口琴相關更新。",
-      "text": "Jazziam at the Living Room, Bangkok",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/747452147_18370849897236303_6590412638149311475_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=109&ig_cache_key=Mzk0MjY3MDgyNjU4MjI2MzI2OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=LC_nc9BNedsQ7kNvwGbDo5e&_nc_oc=Adq7x8fML5CoN0d6fejLnuZpGudHzZ62AOZ8p7aqjec6PU-ASt1niSQ_5hhZKu3u0Yc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=HpiJiDkIkDWdDQuvrWLIXg&_nc_ss=7a22e&oh=00_AQDoO8uRWW2ZGzxdGxZazaQhVc6EKrBRzkGyLeRazi9Dpw&oe=6A5F6428"
-      ],
-      "videos": [],
-      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/747452147_18370849897236303_6590412638149311475_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=109&ig_cache_key=Mzk0MjY3MDgyNjU4MjI2MzI2OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTQ0MC5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=LC_nc9BNedsQ7kNvwGbDo5e&_nc_oc=Adq7x8fML5CoN0d6fejLnuZpGudHzZ62AOZ8p7aqjec6PU-ASt1niSQ_5hhZKu3u0Yc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=HpiJiDkIkDWdDQuvrWLIXg&_nc_ss=7a22e&oh=00_AQDoO8uRWW2ZGzxdGxZazaQhVc6EKrBRzkGyLeRazi9Dpw&oe=6A5F6428",
-      "image_url": "/assets/feed-images/97dee07ef3d3147ed209.webp",
-      "image_width": 800,
-      "image_height": 435,
-      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/538731817_18324506119236303_5140016961001233642_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gGcgRzIC2-C2b8xqqqPw2a8oLXM5U3LkC5eMxvL6iurTta2KXqxcA9U9NaEtP2Uo_s&_nc_ohc=LSFb6A_p4w4Q7kNvwH9zQjN&_nc_gid=1ESKYZNhisXV79-VbHY5lA&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQBRqTbddj6x6-VPZVb14zlOfF1GQ7Te5zNvySQ0-VPGoA&oe=6A5F4FF4&_nc_sid=8b3546",
-      "avatar_url": "/assets/source-avatars/11d85b50699915f12276.webp",
-      "source_initials": "JB",
-      "categories": [
-        "posts-videos",
-        "events"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動"
-      ],
-      "key": "ig_jensbunge_jazzharmonica:https://www.instagram.com/p/Da3LjpEu0Xl/"
     }
   ]
 }
