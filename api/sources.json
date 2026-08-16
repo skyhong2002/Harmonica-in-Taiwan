@@ -65,6 +65,89 @@
   },
   "entries": [
     {
+      "id": "watchlist-27",
+      "publicId": "27",
+      "name": "音和樂器",
+      "nameEn": "PeaceTones Harmonica",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "樂器行/口琴專賣店",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務",
+      "structuredSummary": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務 / 口琴 / 器材/教學來源",
+      "summary": "臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。",
+      "keywords": "音和樂器 PeaceTones Harmonica 口琴專賣店 口琴 維修 教學",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://0223120930.web66.com.tw/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/PeaceTones.harmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/peacetones.harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@peacetonesharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-16T03:19:26+00:00",
+      "latestUpdateLocal": "2026-08-16 11:19",
+      "latestUpdateSource": "音和樂器",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcFe0iktO3j/",
+      "avatarUrl": "/assets/source-avatars/1a76c469d7e0745e439b.webp",
+      "sourceInitials": "音和",
+      "sourceTags": [
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/PeaceTones.harmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "peacetones.harmonica",
+          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "peacetones.harmonica",
+          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/peacetones.harmonica/story/0"
+        },
+        {
+          "id": "yt_peacetonesharmonica",
+          "name": "音和樂器",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@peacetonesharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-218",
       "publicId": "218",
       "name": "Evelyn Choong 鍾雪兒",
@@ -1762,6 +1845,63 @@
       ]
     },
     {
+      "id": "watchlist-213",
+      "publicId": "213",
+      "name": "裕華中學口琴樂團",
+      "nameEn": "Yuhua Secondary School Harmonica Band",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "新加坡",
+      "region": "新加坡/裕廊西",
+      "cityOrFocus": "裕華中學/學校社團/裕廊西",
+      "structuredSummary": "裕華中學/學校社團/裕廊西 / 口琴樂團/CCA/SYF / 學校社團",
+      "summary": "新加坡的口琴樂團、CCA與SYF學校社團。",
+      "keywords": "裕華中學口琴樂團 Yuhua Secondary School Harmonica Band SYF Singapore CCA",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.yuhuasec.moe.edu.sg/our-ccas/visual-performing-arts/harmonica-band/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yhhbfamily/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-15T12:04:00+00:00",
+      "latestUpdateLocal": "2026-08-15 20:04",
+      "latestUpdateSource": "裕華中學口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/stories/yhhbfamily/3964250020522462085/",
+      "avatarUrl": "/assets/source-avatars/b9142982593b63610f72.webp",
+      "sourceInitials": "裕華",
+      "sourceTags": [
+        "學生社團",
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_yhhbfamily",
+          "name": "裕華中學口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yhhbfamily",
+          "profileUrl": "https://www.instagram.com/yhhbfamily/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yhhbfamily/story/0"
+        },
+        {
+          "id": "ig_yhhbfamily",
+          "name": "裕華中學口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yhhbfamily",
+          "profileUrl": "https://www.instagram.com/yhhbfamily/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-162",
       "publicId": "162",
       "name": "口琴愛好者協會（新加坡）",
@@ -2273,7 +2413,7 @@
       "latestUpdateLocal": "2026-08-15 08:00",
       "latestUpdateSource": "新竹縣文化局",
       "latestUpdateUrl": "https://www.instagram.com/p/DcCjPjPjXBK/",
-      "avatarUrl": "/assets/source-avatars/69eb7cd9f1757a10b968.webp",
+      "avatarUrl": "/assets/source-avatars/b69ff7e37f587d886d90.webp",
       "sourceInitials": "新竹",
       "sourceTags": [
         "場館平台"
@@ -6329,89 +6469,6 @@
       ]
     },
     {
-      "id": "watchlist-27",
-      "publicId": "27",
-      "name": "音和樂器",
-      "nameEn": "PeaceTones Harmonica",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "樂器行/口琴專賣店",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務",
-      "structuredSummary": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務 / 口琴 / 器材/教學來源",
-      "summary": "臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。",
-      "keywords": "音和樂器 PeaceTones Harmonica 口琴專賣店 口琴 維修 教學",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://0223120930.web66.com.tw/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/PeaceTones.harmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/peacetones.harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@peacetonesharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-11T00:15:08+00:00",
-      "latestUpdateLocal": "2026-08-11 08:15",
-      "latestUpdateSource": "音和樂器",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=gmEEvShEO5k",
-      "avatarUrl": "/assets/source-avatars/1a76c469d7e0745e439b.webp",
-      "sourceInitials": "音和",
-      "sourceTags": [
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_peacetones_harmonica",
-          "name": "音和樂器",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/PeaceTones.harmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_peacetones_harmonica",
-          "name": "音和樂器",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "peacetones.harmonica",
-          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_peacetones_harmonica",
-          "name": "音和樂器",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "peacetones.harmonica",
-          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/peacetones.harmonica/story/0"
-        },
-        {
-          "id": "yt_peacetonesharmonica",
-          "name": "音和樂器",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@peacetonesharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-31",
       "publicId": "31",
       "name": "張晁滕",
@@ -7506,63 +7563,6 @@
           "username": "musette585",
           "profileUrl": "https://www.threads.net/@musette585",
           "feedUrl": "https://rss.observe.tw/threads/musette585"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-213",
-      "publicId": "213",
-      "name": "裕華中學口琴樂團",
-      "nameEn": "Yuhua Secondary School Harmonica Band",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "新加坡",
-      "region": "新加坡/裕廊西",
-      "cityOrFocus": "裕華中學/學校社團/裕廊西",
-      "structuredSummary": "裕華中學/學校社團/裕廊西 / 口琴樂團/CCA/SYF / 學校社團",
-      "summary": "新加坡的口琴樂團、CCA與SYF學校社團。",
-      "keywords": "裕華中學口琴樂團 Yuhua Secondary School Harmonica Band SYF Singapore CCA",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.yuhuasec.moe.edu.sg/our-ccas/visual-performing-arts/harmonica-band/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yhhbfamily/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-08T10:00:14+00:00",
-      "latestUpdateLocal": "2026-08-08 18:00",
-      "latestUpdateSource": "裕華中學口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/yhhbfamily/3959114271812682262/",
-      "avatarUrl": "/assets/source-avatars/b9142982593b63610f72.webp",
-      "sourceInitials": "裕華",
-      "sourceTags": [
-        "學生社團",
-        "團體樂團"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_yhhbfamily",
-          "name": "裕華中學口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yhhbfamily",
-          "profileUrl": "https://www.instagram.com/yhhbfamily/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yhhbfamily/story/0"
-        },
-        {
-          "id": "ig_yhhbfamily",
-          "name": "裕華中學口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yhhbfamily",
-          "profileUrl": "https://www.instagram.com/yhhbfamily/",
-          "feedUrl": ""
         }
       ]
     },

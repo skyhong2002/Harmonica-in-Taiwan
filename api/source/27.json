@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T03:29:54.872431Z",
+  "generatedAt": "2026-08-16T04:35:51.949731Z",
   "source": {
     "id": 27,
     "slug": "peacetones-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/27-peacetones-harmonica/"
   },
   "items": [
+    {
+      "id": "post-d784a4e4cf8bab68dbbec585",
+      "title": "來自 #新加坡 的 #李志華 老師！",
+      "excerpt": "來自 #新加坡 的 #李志華 老師！ 李老師已經參與好幾屆的 #臺灣口琴音樂節 ，並受邀擔任演出嘉賓以及評審。李老師說 2030年的 #亞太口琴節 確定會在新加坡舉辦，屆時歡迎大家來參加&觀光！",
+      "url": "https://www.instagram.com/p/DcFe0iktO3j/",
+      "sourceName": "音和樂器",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-16T03:19:26Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9909aed6d34f6325554b.webp",
+        "width": 800,
+        "height": 600
+      }
+    },
     {
       "id": "post-b6a19659da36685505399866",
       "title": "「郵龍口琴樂團」臺灣口琴音樂節_交流音樂會演出 曲目：北方民族生活素描第一樂章【賽馬】",
