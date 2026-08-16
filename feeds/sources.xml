@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 16 Aug 2026 11:28:48 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 12:04:34 +0000</lastBuildDate>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -225,6 +225,17 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/臺北
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>Federico Linari</title>
+      <link>https://www.hohner.de/en/federico-linari</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/fc7ebf0ba0d6424f</guid>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、十孔、國際交流
+國家：阿根廷
+地區：阿根廷
+阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。</description>
     </item>
     <item>
       <title>何家健 HarmoniKahkean</title>
@@ -665,17 +676,6 @@ Tag：活動資訊、比賽、國際交流
 國家：德國
 地區：德國/特羅辛根
 德國的國際活動來源，涵蓋四年一度世界口琴節、國際比賽、Gala與工作坊。</description>
-    </item>
-    <item>
-      <title>Federico Linari</title>
-      <link>https://www.hohner.de/en/federico-linari</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/fc7ebf0ba0d6424f</guid>
-      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學、十孔、國際交流
-國家：阿根廷
-地區：阿根廷
-阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。</description>
     </item>
     <item>
       <title>山下伶 Rei Yamashita</title>

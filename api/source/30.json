@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T11:28:43.631594Z",
+  "generatedAt": "2026-08-16T12:04:26.944580Z",
   "source": {
     "id": 30,
     "slug": "30",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/30/"
   },
   "items": [
+    {
+      "id": "post-7df18b5eb1c316c691c60716",
+      "title": "綵排演出那日通常是最有趣的一天，可以自己決定行程，講座結束後，把晚上的音樂會吹好即可。",
+      "excerpt": "綵排演出那日通常是最有趣的一天，可以自己決定行程，講座結束後，把晚上的音樂會吹好即可。 吃了不錯的橋村炸雞，幾杯快樂肥宅水下肚，舒舒服服前往音樂廳：）",
+      "url": "https://www.instagram.com/p/DcFgOJnkuuo/",
+      "sourceName": "蔡明憲",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-16T03:31:32Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/72a492c15f8985c45d95.webp",
+        "width": 800,
+        "height": 800
+      }
+    },
     {
       "id": "post-fd34fcb6a66b009c3da2164d",
       "title": "第一次在口琴節如此清醒，還可以早上六點起床散步：）",
