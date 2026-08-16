@@ -2,6 +2,98 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-16",
   "entries": [
     {
+      "id": "watchlist-224",
+      "publicId": "224",
+      "name": "Easttop Harmonicas",
+      "nameEn": "Easttop Harmonicas",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌/樂器製造商",
+      "country": "中國",
+      "region": "中國/江蘇/無錫/江陰",
+      "cityOrFocus": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節",
+      "structuredSummary": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節 / 口琴 / 器材品牌/活動主辦單位",
+      "summary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
+      "keywords": "Easttop EAST TOP Jiangsu East Musical Instrument APHF Huaxia Harmonica Festival 口琴 品牌",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://easttop-harmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/EasttopMusic/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/easttopharmonicas/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@easttopmusic"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@easttopharmonicaofficial"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-15T23:57:29+00:00",
+      "latestUpdateLocal": "2026-08-16 07:57",
+      "latestUpdateSource": "Easttop Harmonicas",
+      "latestUpdateUrl": "https://www.instagram.com/stories/easttopharmonicas/3964609053221366911/",
+      "avatarUrl": "/assets/source-avatars/e3f9b364fa18148f074e.webp",
+      "sourceInitials": "EH",
+      "sourceTags": [
+        "品牌",
+        "器材",
+        "活動資訊",
+        "音樂節",
+        "國際交流"
+      ],
+      "sourceSummary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
+      "sourceTagReason": "整合自 Easttop 官網、官方 Linktree、Instagram 與 YouTube 自介。",
+      "monitorSources": [
+        {
+          "id": "fb_easttopmusic",
+          "name": "Easttop Harmonicas",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/EasttopMusic",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_easttopharmonicas",
+          "name": "Easttop Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "easttopharmonicas",
+          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_easttopharmonicas",
+          "name": "Easttop Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "easttopharmonicas",
+          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/easttopharmonicas/story/0"
+        },
+        {
+          "id": "yt_easttopmusic",
+          "name": "Easttop Harmonicas",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@easttopmusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-42",
       "publicId": "42",
       "name": "王心禾",
@@ -63,6 +155,77 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "harmonica_wang",
           "profileUrl": "https://www.threads.net/@harmonica_wang",
           "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-125",
+      "publicId": "125",
+      "name": "Jens Bunge",
+      "nameEn": "Jens Bunge",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "德國",
+      "region": "德國",
+      "cityOrFocus": "德國爵士口琴/半音階演奏/國際演出與錄音",
+      "structuredSummary": "德國爵士口琴/半音階演奏/國際演出與錄音 / 半音階/爵士口琴 / 國際演出人員",
+      "summary": "德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。",
+      "keywords": "Jens Bunge jazz harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hohner.de/en/jens-bunge"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jensbunge.jazzharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@jensbunge"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-15T17:59:01+00:00",
+      "latestUpdateLocal": "2026-08-16 01:59",
+      "latestUpdateSource": "Jens Bunge",
+      "latestUpdateUrl": "https://www.instagram.com/stories/jensbunge.jazzharmonica/3964428638925742176/",
+      "avatarUrl": "/assets/source-avatars/59b1b52b1b0ff0b2d1e7.webp",
+      "sourceInitials": "JB",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_jensbunge_jazzharmonica",
+          "name": "Jens Bunge",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jensbunge.jazzharmonica",
+          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jensbunge_jazzharmonica",
+          "name": "Jens Bunge",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jensbunge.jazzharmonica",
+          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/jensbunge.jazzharmonica/story/0"
+        },
+        {
+          "id": "yt_jensbunge",
+          "name": "Jens Bunge",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@jensbunge",
+          "feedUrl": ""
         }
       ]
     },
@@ -388,7 +551,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-15 23:42",
       "latestUpdateSource": "南里沙",
       "latestUpdateUrl": "https://x.com/minami_risa/status/2088652530863714615",
-      "avatarUrl": "/assets/source-avatars/fe47cf3e33111b9febef.webp",
+      "avatarUrl": "/assets/source-avatars/1fecf535e0a72c416e96.webp",
       "sourceInitials": "南里",
       "sourceTags": [
         "演奏者",
@@ -1205,77 +1368,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@JudysHarmonicaEnsemble",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-125",
-      "publicId": "125",
-      "name": "Jens Bunge",
-      "nameEn": "Jens Bunge",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "德國",
-      "region": "德國",
-      "cityOrFocus": "德國爵士口琴/半音階演奏/國際演出與錄音",
-      "structuredSummary": "德國爵士口琴/半音階演奏/國際演出與錄音 / 半音階/爵士口琴 / 國際演出人員",
-      "summary": "德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。",
-      "keywords": "Jens Bunge jazz harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://hohner.de/en/jens-bunge"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jensbunge.jazzharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@jensbunge"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-15T12:44:21+00:00",
-      "latestUpdateLocal": "2026-08-15 20:44",
-      "latestUpdateSource": "Jens Bunge",
-      "latestUpdateUrl": "https://www.instagram.com/stories/jensbunge.jazzharmonica/3964270259299863778/",
-      "avatarUrl": "/assets/source-avatars/59b1b52b1b0ff0b2d1e7.webp",
-      "sourceInitials": "JB",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_jensbunge_jazzharmonica",
-          "name": "Jens Bunge",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jensbunge.jazzharmonica",
-          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jensbunge_jazzharmonica",
-          "name": "Jens Bunge",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jensbunge.jazzharmonica",
-          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jensbunge.jazzharmonica/story/0"
-        },
-        {
-          "id": "yt_jensbunge",
-          "name": "Jens Bunge",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@jensbunge",
           "feedUrl": ""
         }
       ]
@@ -2326,98 +2418,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCln6Hrzz1NHq8TX5ZSQzgJQ",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-224",
-      "publicId": "224",
-      "name": "Easttop Harmonicas",
-      "nameEn": "Easttop Harmonicas",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "品牌/樂器製造商",
-      "country": "中國",
-      "region": "中國/江蘇/無錫/江陰",
-      "cityOrFocus": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節",
-      "structuredSummary": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節 / 口琴 / 器材品牌/活動主辦單位",
-      "summary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
-      "keywords": "Easttop EAST TOP Jiangsu East Musical Instrument APHF Huaxia Harmonica Festival 口琴 品牌",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://easttop-harmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/EasttopMusic/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/easttopharmonicas/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@easttopmusic"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@easttopharmonicaofficial"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-14T16:28:01+00:00",
-      "latestUpdateLocal": "2026-08-15 00:28",
-      "latestUpdateSource": "Easttop Harmonicas",
-      "latestUpdateUrl": "https://www.instagram.com/stories/easttopharmonicas/3963658048753285964/",
-      "avatarUrl": "/assets/source-avatars/e3f9b364fa18148f074e.webp",
-      "sourceInitials": "EH",
-      "sourceTags": [
-        "品牌",
-        "器材",
-        "活動資訊",
-        "音樂節",
-        "國際交流"
-      ],
-      "sourceSummary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
-      "sourceTagReason": "整合自 Easttop 官網、官方 Linktree、Instagram 與 YouTube 自介。",
-      "monitorSources": [
-        {
-          "id": "fb_easttopmusic",
-          "name": "Easttop Harmonicas",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/EasttopMusic",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_easttopharmonicas",
-          "name": "Easttop Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "easttopharmonicas",
-          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_easttopharmonicas",
-          "name": "Easttop Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "easttopharmonicas",
-          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/easttopharmonicas/story/0"
-        },
-        {
-          "id": "yt_easttopmusic",
-          "name": "Easttop Harmonicas",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@easttopmusic",
           "feedUrl": ""
         }
       ]
@@ -3882,7 +3882,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-14 09:03",
       "latestUpdateSource": "衛武營國家藝術文化中心",
       "latestUpdateUrl": "https://www.instagram.com/stories/weiwuying_centerforthearts/3963192598479232997/",
-      "avatarUrl": "/assets/source-avatars/c205962d6ef0e73bd648.webp",
+      "avatarUrl": "/assets/source-avatars/5d89a8fefcbe93969af2.webp",
       "sourceInitials": "衛武",
       "sourceTags": [
         "場館平台"
@@ -3969,7 +3969,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-14 08:02",
       "latestUpdateSource": "Reyharp and Balawan Project",
       "latestUpdateUrl": "https://www.instagram.com/stories/reyharpnaufal/3963161782277801011/",
-      "avatarUrl": "/assets/source-avatars/9864517f4c9850157069.webp",
+      "avatarUrl": "/assets/source-avatars/b2c0ad81dbc93d8ed855.webp",
       "sourceInitials": "RAB",
       "sourceTags": [
         "團體樂團",
