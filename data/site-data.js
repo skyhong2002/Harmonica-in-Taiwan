@@ -3641,7 +3641,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-14 20:26",
       "latestUpdateSource": "韋笙堡口琴 Weissenberg Harmonicas",
       "latestUpdateUrl": "https://www.instagram.com/stories/weissenbergtw/3963536419994163075/",
-      "avatarUrl": "/assets/source-avatars/7570024dc5a7761e39b9.webp",
+      "avatarUrl": "/assets/source-avatars/5801004126a17bc621eb.webp",
       "sourceInitials": "WH",
       "sourceTags": [
         "教學器材",
@@ -6678,7 +6678,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-10 20:00",
       "latestUpdateSource": "Liam Ward & Malcolm Thorne",
       "latestUpdateUrl": "https://www.instagram.com/p/Db29u9fRKb0/",
-      "avatarUrl": "/assets/source-avatars/cdc23f576326f58bb2f3.webp",
+      "avatarUrl": "/assets/source-avatars/a9d4f2c137d486c46def.webp",
       "sourceInitials": "LWM",
       "sourceTags": [
         "團體樂團",
