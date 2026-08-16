@@ -1,5 +1,5 @@
 window.HARMONICA_OBSERVE_DATA = {
-  "generatedAt": "2026-08-16",
+  "generatedAt": "2026-08-17",
   "entries": [
     {
       "id": "watchlist-58",
@@ -43,10 +43,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-08-16T14:48:39+00:00",
-      "latestUpdateLocal": "2026-08-16 22:48",
+      "latestUpdateAt": "2026-08-16T15:58:10+00:00",
+      "latestUpdateLocal": "2026-08-16 23:58",
       "latestUpdateSource": "南里沙",
-      "latestUpdateUrl": "https://x.com/minami_risa/status/2089001395739619689",
+      "latestUpdateUrl": "https://x.com/minami_risa/status/2089018890487833050",
       "avatarUrl": "/assets/source-avatars/1fecf535e0a72c416e96.webp",
       "sourceInitials": "南里",
       "sourceTags": [
