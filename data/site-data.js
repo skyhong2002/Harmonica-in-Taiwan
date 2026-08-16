@@ -1442,7 +1442,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-16 11:41",
       "latestUpdateSource": "黃冠誌",
       "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3964721905671667969/",
-      "avatarUrl": "/assets/source-avatars/d5449ba4ae9b986618be.webp",
+      "avatarUrl": "/assets/source-avatars/21e765a21dc90b2b86f9.webp",
       "sourceInitials": "黃冠",
       "sourceTags": [
         "演奏者",

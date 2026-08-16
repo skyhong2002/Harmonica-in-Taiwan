@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T16:51:43.373065Z",
+  "generatedAt": "2026-08-16T18:00:20.118443Z",
   "source": {
     "id": 10,
     "slug": "rolabo-lin",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/10-rolabo-lin/"
   },
   "items": [
+    {
+      "id": "post-5a640fa73bab4357f253b4e8",
+      "title": "2026SIHF 櫻花隨想曲 Sakura Caprice | 林家靖 口琴",
+      "excerpt": "2026SIHF 櫻花隨想曲 Sakura Caprice | 林家靖 口琴 櫻花隨想曲 Sakura Caprice 作曲 Composer：日本民謠 Japan Folk Song 改編 Arrangement：林家靖 Rolabo Lin 演出 Performance ：林家靖 Rolabo Lin ■ 樂譜： ■ 日本複音口琴大師佐藤秀廊的《櫻花幻想曲》是口琴獨奏的經典樂曲，幾乎所有人都曾練習過，至今依然是賽場上、舞臺上的熱門曲目，為了避免與之比較，在改編時我決定以另一種角度來去解構這首民謠，嘗試尋找新的詮釋方法。 我在樂譜的開頭寫下『月夜中，…",
+      "url": "https://www.youtube.com/watch?v=l6KB5TSYH5M",
+      "sourceName": "林家靖 Rolabo Lin",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-16T03:59:48Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/449dc4a0d913e5910b72.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-85d4802bdb0864ac98e31a8f",
       "title": "SIHF2026 阿里郎幻想曲 Arirang Fantasy | 林家靖 口琴",
