@@ -2,6 +2,164 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-16",
   "entries": [
     {
+      "id": "watchlist-58",
+      "publicId": "58",
+      "name": "南里沙",
+      "nameEn": "Minami Risa",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
+      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
+      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
+      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://minamirisa.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/minamirisa/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/minami_risa/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@minamirisa"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/minami_risa"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@minami_risa"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-16T10:53:12+00:00",
+      "latestUpdateLocal": "2026-08-16 18:53",
+      "latestUpdateSource": "南里沙",
+      "latestUpdateUrl": "https://www.instagram.com/stories/minami_risa/3964939085675836583/",
+      "avatarUrl": "/assets/source-avatars/1fecf535e0a72c416e96.webp",
+      "sourceInitials": "南里",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_minamirisa",
+          "name": "南里沙",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/minamirisa",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
+        },
+        {
+          "id": "x_minami_risa",
+          "name": "南里沙",
+          "platform": "x",
+          "type": "rss",
+          "username": "minami_risa",
+          "profileUrl": "https://x.com/minami_risa",
+          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
+        },
+        {
+          "id": "yt_minamirisa",
+          "name": "南里沙",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@minamirisa",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-213",
+      "publicId": "213",
+      "name": "裕華中學口琴樂團",
+      "nameEn": "Yuhua Secondary School Harmonica Band",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "新加坡",
+      "region": "新加坡/裕廊西",
+      "cityOrFocus": "裕華中學/學校社團/裕廊西",
+      "structuredSummary": "裕華中學/學校社團/裕廊西 / 口琴樂團/CCA/SYF / 學校社團",
+      "summary": "新加坡的口琴樂團、CCA與SYF學校社團。",
+      "keywords": "裕華中學口琴樂團 Yuhua Secondary School Harmonica Band SYF Singapore CCA",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.yuhuasec.moe.edu.sg/our-ccas/visual-performing-arts/harmonica-band/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yhhbfamily/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-16T06:04:21+00:00",
+      "latestUpdateLocal": "2026-08-16 14:04",
+      "latestUpdateSource": "裕華中學口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcFxr9Az-fI/",
+      "avatarUrl": "/assets/source-avatars/38cdc11141d690a0622e.webp",
+      "sourceInitials": "裕華",
+      "sourceTags": [
+        "學生社團",
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_yhhbfamily",
+          "name": "裕華中學口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yhhbfamily",
+          "profileUrl": "https://www.instagram.com/yhhbfamily/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yhhbfamily/story/0"
+        },
+        {
+          "id": "ig_yhhbfamily",
+          "name": "裕華中學口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yhhbfamily",
+          "profileUrl": "https://www.instagram.com/yhhbfamily/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-42",
       "publicId": "42",
       "name": "王心禾",
@@ -1452,107 +1610,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-58",
-      "publicId": "58",
-      "name": "南里沙",
-      "nameEn": "Minami Risa",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
-      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
-      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://minamirisa.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/minamirisa/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/minami_risa/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@minamirisa"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/minami_risa"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@minami_risa"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-15T15:42:23+00:00",
-      "latestUpdateLocal": "2026-08-15 23:42",
-      "latestUpdateSource": "南里沙",
-      "latestUpdateUrl": "https://x.com/minami_risa/status/2088652530863714615",
-      "avatarUrl": "/assets/source-avatars/1fecf535e0a72c416e96.webp",
-      "sourceInitials": "南里",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_minamirisa",
-          "name": "南里沙",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/minamirisa",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
-        },
-        {
-          "id": "x_minami_risa",
-          "name": "南里沙",
-          "platform": "x",
-          "type": "rss",
-          "username": "minami_risa",
-          "profileUrl": "https://x.com/minami_risa",
-          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
-        },
-        {
-          "id": "yt_minamirisa",
-          "name": "南里沙",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@minamirisa",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-101",
       "publicId": "101",
       "name": "何家健 HarmoniKahkean",
@@ -2153,63 +2210,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@JudysHarmonicaEnsemble",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-213",
-      "publicId": "213",
-      "name": "裕華中學口琴樂團",
-      "nameEn": "Yuhua Secondary School Harmonica Band",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "新加坡",
-      "region": "新加坡/裕廊西",
-      "cityOrFocus": "裕華中學/學校社團/裕廊西",
-      "structuredSummary": "裕華中學/學校社團/裕廊西 / 口琴樂團/CCA/SYF / 學校社團",
-      "summary": "新加坡的口琴樂團、CCA與SYF學校社團。",
-      "keywords": "裕華中學口琴樂團 Yuhua Secondary School Harmonica Band SYF Singapore CCA",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.yuhuasec.moe.edu.sg/our-ccas/visual-performing-arts/harmonica-band/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yhhbfamily/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-15T12:04:00+00:00",
-      "latestUpdateLocal": "2026-08-15 20:04",
-      "latestUpdateSource": "裕華中學口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/yhhbfamily/3964250020522462085/",
-      "avatarUrl": "/assets/source-avatars/b9142982593b63610f72.webp",
-      "sourceInitials": "裕華",
-      "sourceTags": [
-        "學生社團",
-        "團體樂團"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_yhhbfamily",
-          "name": "裕華中學口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yhhbfamily",
-          "profileUrl": "https://www.instagram.com/yhhbfamily/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yhhbfamily/story/0"
-        },
-        {
-          "id": "ig_yhhbfamily",
-          "name": "裕華中學口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yhhbfamily",
-          "profileUrl": "https://www.instagram.com/yhhbfamily/",
           "feedUrl": ""
         }
       ]
