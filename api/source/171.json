@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T20:25:44.139143Z",
+  "generatedAt": "2026-08-16T22:10:58.610341Z",
   "source": {
     "id": 171,
     "slug": "society-for-the-preservation-and-advancement-of-the-harmonica",
@@ -284,20 +284,6 @@
       "publishedAt": "2026-07-18T18:37:51Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/f80b0260a9f914944b44.webp",
-        "width": 800,
-        "height": 600
-      }
-    },
-    {
-      "id": "post-75d9f62a0658dbd92f565cea",
-      "title": "The SPAH (Society for the Preservation and Advancement of the Harmonica) 2026 Convention takes place August 11–15 in St…",
-      "excerpt": "The SPAH (Society for the Preservation and Advancement of the Harmonica) 2026 Convention takes place August 11–15 in St. Louis, Missouri, at the Sher... The SPAH (Society for the Preservation and Advancement of the Harmonica) 2026 Convention takes place August 11–15 in St. Louis…",
-      "url": "https://www.instagram.com/p/Da6Jr-Yq32U/",
-      "sourceName": "口琴保存與推廣協會 SPAH",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-17T21:12:12Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/a088e634150644e17d3d.webp",
         "width": 800,
         "height": 600
       }

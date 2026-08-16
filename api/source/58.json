@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T20:25:44.139143Z",
+  "generatedAt": "2026-08-16T22:10:58.610341Z",
   "source": {
     "id": 58,
     "slug": "minami-risa",
@@ -18,6 +18,20 @@
       "publishedAt": "2026-08-16T15:58:10Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/81316f137b56b2388f2a.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-e9ed0971853c670395a15f24",
+      "title": "「満ちてゆく / 藤井風」covered by 南里沙【クロマチックハーモニカ】chromaticharmonica - Risa MINAMI",
+      "excerpt": "「満ちてゆく / 藤井風」covered by 南里沙【クロマチックハーモニカ】chromaticharmonica - Risa MINAMI ＊南里沙オフィシャルサイト ＊ブログ「南里沙のさんぽ道」毎日更新中！ ＊X(旧twitter) ＊Instagram ＊TikTok ＊Facebook Page ＊Amazon欲しいものリスト ▼使用させていただいた音源 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ 奏 kana Piano Channel ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ ▼使用楽器 クロマチックハーモニカ HOHNER Super64X EWI AKAI…",
+      "url": "https://www.youtube.com/watch?v=AjifAfrhXLI",
+      "sourceName": "南里沙",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-16T15:16:14Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a8677339d847ac3e3158.webp",
         "width": 800,
         "height": 450
       }
