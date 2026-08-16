@@ -298,6 +298,88 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-186",
+      "publicId": "186",
+      "name": "中一中口琴社",
+      "nameEn": "TCFSH Harmonica",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "臺中一中/學校社團/臺中",
+      "structuredSummary": "臺中一中/學校社團/臺中 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "中一中口琴社 TCFSH Harmonica 口琴社",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.tcfshclub.com/%E7%A4%BE%E5%9C%98/%E8%97%9D%E8%A1%93%E6%80%A7%E7%A4%BE%E5%9C%98/015-%E5%8F%A3%E7%90%B4%E7%A4%BE"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/tcfsh.harmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/tcfsh_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E5%8F%A3%E7%90%B4%E4%B9%8B%E7%8B%BC"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-16T03:23:21+00:00",
+      "latestUpdateLocal": "2026-08-16 11:23",
+      "latestUpdateSource": "中一中口琴社",
+      "latestUpdateUrl": "https://www.instagram.com/stories/tcfsh_harmonica/3964712668787627321/",
+      "avatarUrl": "/assets/source-avatars/9033731e98662050a211.webp",
+      "sourceInitials": "中一",
+      "sourceTags": [
+        "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_tcfsh_harmonica",
+          "name": "中一中口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/tcfsh.harmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_tcfsh_harmonica",
+          "name": "TCFSH Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "tcfsh_harmonica",
+          "profileUrl": "https://www.instagram.com/tcfsh_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_tcfsh_harmonica",
+          "name": "中一中口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "tcfsh_harmonica",
+          "profileUrl": "https://www.instagram.com/tcfsh_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/tcfsh_harmonica/story/0"
+        },
+        {
+          "id": "yt_19430dac8a",
+          "name": "中一中口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E5%8F%A3%E7%90%B4%E4%B9%8B%E7%8B%BC",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-27",
       "publicId": "27",
       "name": "音和樂器",
@@ -376,6 +458,92 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@peacetonesharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-66",
+      "publicId": "66",
+      "name": "Younghoon Cho",
+      "nameEn": "Younghoon Cho",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
+      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
+      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "keywords": "Younghoon Cho Jong-seong Park",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/hoontobe"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hoontobe/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hoontobe_piano/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/hoontobe"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-16T03:10:58+00:00",
+      "latestUpdateLocal": "2026-08-16 11:10",
+      "latestUpdateSource": "Younghoon Cho",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3964706489302757825/",
+      "avatarUrl": "/assets/source-avatars/ce8582690611be231fa9.webp",
+      "sourceInitials": "YC",
+      "sourceTags": [
+        "演奏者",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
+      "monitorSources": [
+        {
+          "id": "fb_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hoontobe",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
+        },
+        {
+          "id": "yt_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/hoontobe",
           "feedUrl": ""
         }
       ]
@@ -1464,92 +1632,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@hokahkean1999",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-66",
-      "publicId": "66",
-      "name": "Younghoon Cho",
-      "nameEn": "Younghoon Cho",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
-      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
-      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "keywords": "Younghoon Cho Jong-seong Park",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/hoontobe"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hoontobe/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hoontobe_piano/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/hoontobe"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-15T14:51:35+00:00",
-      "latestUpdateLocal": "2026-08-15 22:51",
-      "latestUpdateSource": "Younghoon Cho",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3964334309020753375/",
-      "avatarUrl": "/assets/source-avatars/ce8582690611be231fa9.webp",
-      "sourceInitials": "YC",
-      "sourceTags": [
-        "演奏者",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
-      "monitorSources": [
-        {
-          "id": "fb_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hoontobe",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
-        },
-        {
-          "id": "yt_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/hoontobe",
           "feedUrl": ""
         }
       ]
@@ -9839,88 +9921,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@markbandoneon",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-186",
-      "publicId": "186",
-      "name": "中一中口琴社",
-      "nameEn": "TCFSH Harmonica",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "臺中一中/學校社團/臺中",
-      "structuredSummary": "臺中一中/學校社團/臺中 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "中一中口琴社 TCFSH Harmonica 口琴社",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.tcfshclub.com/%E7%A4%BE%E5%9C%98/%E8%97%9D%E8%A1%93%E6%80%A7%E7%A4%BE%E5%9C%98/015-%E5%8F%A3%E7%90%B4%E7%A4%BE"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/tcfsh.harmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/tcfsh_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E5%8F%A3%E7%90%B4%E4%B9%8B%E7%8B%BC"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-03T09:52:52+00:00",
-      "latestUpdateLocal": "2026-07-03 17:52",
-      "latestUpdateSource": "中一中口琴社",
-      "latestUpdateUrl": "https://www.facebook.com/tcfsh.harmonica/posts/pfbid026TX9x37qBLk1W7jif1qzR2vfQrhDWpVWSXjmo8mDw9xLn5CHnUEx5PmsZfsebB4Zl",
-      "avatarUrl": "/assets/source-avatars/9033731e98662050a211.webp",
-      "sourceInitials": "中一",
-      "sourceTags": [
-        "學生社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_tcfsh_harmonica",
-          "name": "中一中口琴社",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/tcfsh.harmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_tcfsh_harmonica",
-          "name": "TCFSH Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "tcfsh_harmonica",
-          "profileUrl": "https://www.instagram.com/tcfsh_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_tcfsh_harmonica",
-          "name": "中一中口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "tcfsh_harmonica",
-          "profileUrl": "https://www.instagram.com/tcfsh_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/tcfsh_harmonica/story/0"
-        },
-        {
-          "id": "yt_19430dac8a",
-          "name": "中一中口琴社",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E5%8F%A3%E7%90%B4%E4%B9%8B%E7%8B%BC",
           "feedUrl": ""
         }
       ]

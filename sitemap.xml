@@ -85,7 +85,19 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/186-tcfsh-harmonica/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/27-peacetones-harmonica/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/66-younghoon-cho/</loc>
     <lastmod>2026-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -164,12 +176,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/101-ho-kah-kean-harmonikahkean/</loc>
-    <lastmod>2026-08-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/66-younghoon-cho/</loc>
     <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -825,12 +831,6 @@
   <url>
     <loc>https://harmonica.observe.tw/source/48-wu-yung-lung/</loc>
     <lastmod>2026-07-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/186-tcfsh-harmonica/</loc>
-    <lastmod>2026-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
