@@ -752,10 +752,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-08-16T13:32:26+00:00",
+      "latestUpdateAt": "2026-08-16T13:32:40+00:00",
       "latestUpdateLocal": "2026-08-16 21:32",
       "latestUpdateSource": "口琴愛好者協會（新加坡）",
-      "latestUpdateUrl": "https://www.instagram.com/stories/has_singapore/3965019232944400225/",
+      "latestUpdateUrl": "https://www.facebook.com/HARMONICAMUSICLOVERS/posts/pfbid02jrEtMVPKH65mgs3x4pmM63xbtZumt2sgHxNjezabP4y4CakmTXDrU7noeYKRrZ3al",
       "avatarUrl": "/assets/source-avatars/25f74c2221a6523cdfc8.webp",
       "sourceInitials": "口琴",
       "sourceTags": [
