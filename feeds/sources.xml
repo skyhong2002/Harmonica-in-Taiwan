@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 17 Aug 2026 01:07:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 01:44:23 +0000</lastBuildDate>
+    <item>
+      <title>進擊的口琴樂團</title>
+      <link>https://www.instagram.com/attack_on_harmonica_ensemble/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/4106ae8ef5dd2e8f</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏
+國家：臺灣
+地區：臺灣
+臺灣的口琴重奏演出團體，活動脈絡包含重奏、青年團體與演出。</description>
+    </item>
     <item>
       <title>Howard Levy</title>
       <link>https://levyland.com/</link>
@@ -16,6 +27,28 @@ Tag：演奏者、半音階、十孔、國際交流
 國家：美國
 地區：美國
 美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。</description>
+    </item>
+    <item>
+      <title>Jens Bunge</title>
+      <link>https://hohner.de/en/jens-bunge</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/bf85aeb31f137bd0</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：德國
+地區：德國
+德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。</description>
+    </item>
+    <item>
+      <title>Rodrigo Eberienos</title>
+      <link>https://www.facebook.com/rodrigoeberienos/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/116d0779dfdefd7d</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、國際交流
+國家：巴西
+地區：巴西
+巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。</description>
     </item>
     <item>
       <title>Lee Oskar</title>
@@ -194,17 +227,6 @@ Tag：演奏者、十孔
 臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。</description>
     </item>
     <item>
-      <title>Rodrigo Eberienos</title>
-      <link>https://www.facebook.com/rodrigoeberienos/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/116d0779dfdefd7d</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學、國際交流
-國家：巴西
-地區：巴西
-巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。</description>
-    </item>
-    <item>
       <title>裕華中學口琴樂團</title>
       <link>https://www.yuhuasec.moe.edu.sg/our-ccas/visual-performing-arts/harmonica-band/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/caa33733d2ff4b81</guid>
@@ -357,17 +379,6 @@ Tag：團體樂團、半音階、重奏、國際交流
 國家：馬來西亞
 地區：馬來西亞
 馬來西亞的半音階與重奏國際演出團體與二重奏，活動脈絡包含二重奏、影片與THMF。</description>
-    </item>
-    <item>
-      <title>Jens Bunge</title>
-      <link>https://hohner.de/en/jens-bunge</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/bf85aeb31f137bd0</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：德國
-地區：德國
-德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。</description>
     </item>
     <item>
       <title>國家兩廳院</title>
@@ -852,17 +863,6 @@ Tag：活動資訊、團體樂團、音樂節、重奏、國際交流
 國家：馬來西亞
 地區：馬來西亞
 馬來西亞的國際演出團體，涵蓋馬來西亞口琴重奏、跨國音樂節與社群演出。</description>
-    </item>
-    <item>
-      <title>進擊的口琴樂團</title>
-      <link>https://www.instagram.com/attack_on_harmonica_ensemble/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/4106ae8ef5dd2e8f</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏
-國家：臺灣
-地區：臺灣
-臺灣的口琴重奏演出團體，活動脈絡包含重奏、青年團體與演出。</description>
     </item>
     <item>
       <title>Indiara Sfair</title>
