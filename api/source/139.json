@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-16T23:21:29.960196Z",
+  "generatedAt": "2026-08-16T23:58:26.402003Z",
   "source": {
     "id": 139,
     "slug": "lee-oskar",
@@ -8,6 +8,34 @@
     "pageUrl": "https://harmonica.observe.tw/source/139-lee-oskar/"
   },
   "items": [
+    {
+      "id": "post-abb72afee445157dbe44f4f0",
+      "title": "Yellow Submarine only needs two chords. That is the entire song.",
+      "excerpt": "Yellow Submarine only needs two chords. That is the entire song. Two shapes on the guitar, one melody on the harmonica over the top. Start with the shapes and the song is already half learned. Guitar: C → G Key: C harmonica · standard tuning Harmonica by @leeoskarharmonicas Whic…",
+      "url": "https://www.instagram.com/p/DcGrhjOif6x/",
+      "sourceName": "Lee Oskar",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-16T14:57:44Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/acf71d87d5259f22ed1e.webp",
+        "width": 640,
+        "height": 1136
+      }
+    },
+    {
+      "id": "post-696ddb289fa5c34aa23d7dcc",
+      "title": "Wonderful day in the Dahlias",
+      "excerpt": "Wonderful day in the Dahlias #resonatorguitar #nationalguitars #harmonica #leeoskarharmonicas",
+      "url": "https://www.instagram.com/p/DcFKsAMhGEA/",
+      "sourceName": "Lee Oskar",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-16T00:26:31Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/62e957c5e2c34a241330.webp",
+        "width": 800,
+        "height": 1423
+      }
+    },
     {
       "id": "post-32260b75cc3816beea16f0d4",
       "title": "Follow the melody on screen, one note at a time. If my tempo is too quick, play it slower. Speed is the last thing you …",
