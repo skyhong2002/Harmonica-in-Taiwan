@@ -2,6 +2,92 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-17",
   "entries": [
     {
+      "id": "watchlist-31",
+      "publicId": "31",
+      "name": "張晁滕",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/Laelaps/教學/演出",
+      "structuredSummary": "天狼星/Laelaps/教學/演出 / 重奏/教學 / 演出人員/教學者",
+      "summary": "口琴演奏者，兼職教學與重奏活動。",
+      "keywords": "張晁滕 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://chaotengchang.blogspot.com/2014/06/blog-post.html"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chaotengchang/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chaotengchang/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@ChaotengChang"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-17T00:43:57+00:00",
+      "latestUpdateLocal": "2026-08-17 08:43",
+      "latestUpdateSource": "張晁滕",
+      "latestUpdateUrl": "https://www.instagram.com/stories/chaotengchang/3965357211845301022/",
+      "avatarUrl": "/assets/source-avatars/d563a966f0c306fcbbf0.webp",
+      "sourceInitials": "張晁",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "重奏"
+      ],
+      "sourceSummary": "口琴演奏者，兼職教學與重奏活動。",
+      "sourceTagReason": "名稱為個人，類別標註為演奏者，摘要提及教學與演出，關鍵字包含口琴，符合演奏者與教學來源定位。",
+      "monitorSources": [
+        {
+          "id": "fb_chaotengchang",
+          "name": "張晁滕",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chaotengchang",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_chaotengchang",
+          "name": "張晁滕",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chaotengchang",
+          "profileUrl": "https://www.instagram.com/chaotengchang/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chaotengchang",
+          "name": "張晁滕",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chaotengchang",
+          "profileUrl": "https://www.instagram.com/chaotengchang/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chaotengchang/story/0"
+        },
+        {
+          "id": "yt_chaotengchang",
+          "name": "張晁滕",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@ChaotengChang",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-97",
       "publicId": "97",
       "name": "進擊的口琴樂團",
@@ -668,6 +754,155 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-127",
+      "publicId": "127",
+      "name": "Reyharp and Balawan Project",
+      "nameEn": "Reyharp and Balawan Project",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體/合作企劃",
+      "country": "印尼",
+      "region": "印尼",
+      "cityOrFocus": "Reyharp Naufal與Balawan合作/跨界融合/口琴與吉他",
+      "structuredSummary": "Reyharp Naufal與Balawan合作/跨界融合/口琴與吉他 / 口琴/跨界 / 國際演出團體",
+      "summary": "印尼的口琴與跨界國際演出團體，活動脈絡包含Reyharp Naufal與Balawan合作、跨界融合與口琴與吉他。",
+      "keywords": "Reyharp Balawan Project Reyharp Naufal harmonica SIHF",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/reyharp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/reyharpnaufal/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@reyharpnaufal5101"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-16T15:42:56+00:00",
+      "latestUpdateLocal": "2026-08-16 23:42",
+      "latestUpdateSource": "Reyharp and Balawan Project",
+      "latestUpdateUrl": "https://www.instagram.com/stories/reyharpnaufal/3965084952164996256/",
+      "avatarUrl": "/assets/source-avatars/c34723a1e5455255093b.webp",
+      "sourceInitials": "RAB",
+      "sourceTags": [
+        "團體樂團",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_reyharp",
+          "name": "Reyharp and Balawan Project",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/reyharp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_reyharpnaufal",
+          "name": "Reyharp and Balawan Project",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "reyharpnaufal",
+          "profileUrl": "https://www.instagram.com/reyharpnaufal/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_reyharpnaufal",
+          "name": "Reyharp and Balawan Project",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "reyharpnaufal",
+          "profileUrl": "https://www.instagram.com/reyharpnaufal/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/reyharpnaufal/story/0"
+        },
+        {
+          "id": "yt_reyharpnaufal5101",
+          "name": "Reyharp and Balawan Project",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@reyharpnaufal5101",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-162",
+      "publicId": "162",
+      "name": "口琴愛好者協會（新加坡）",
+      "nameEn": "Harmonica Aficionados Society Singapore",
+      "category": "國際交流",
+      "type": "協會",
+      "originalType": "協會",
+      "country": "新加坡",
+      "region": "新加坡",
+      "cityOrFocus": "口琴協會/工作坊/音樂會/社群推廣",
+      "structuredSummary": "口琴協會/工作坊/音樂會/社群推廣 / 口琴 / 國際協會/資訊來源",
+      "summary": "新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。",
+      "keywords": "口琴愛好者協會 新加坡 Harmonica Aficionados Society Singapore HAS Singapore",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.harmonica-as.com/about"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HARMONICAMUSICLOVERS/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/has_singapore/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-16T15:22:07+00:00",
+      "latestUpdateLocal": "2026-08-16 23:22",
+      "latestUpdateSource": "口琴愛好者協會（新加坡）",
+      "latestUpdateUrl": "https://www.instagram.com/stories/has_singapore/3965074430790298691/",
+      "avatarUrl": "/assets/source-avatars/25f74c2221a6523cdfc8.webp",
+      "sourceInitials": "口琴",
+      "sourceTags": [
+        "協會",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicamusiclovers",
+          "name": "口琴愛好者協會（新加坡）",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HARMONICAMUSICLOVERS",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_has_singapore",
+          "name": "口琴愛好者協會（新加坡）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "has_singapore",
+          "profileUrl": "https://www.instagram.com/has_singapore/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_has_singapore",
+          "name": "口琴愛好者協會（新加坡）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "has_singapore",
+          "profileUrl": "https://www.instagram.com/has_singapore/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/has_singapore/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-104",
       "publicId": "104",
       "name": "Timothy Yip 葉進禧",
@@ -1087,76 +1322,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-162",
-      "publicId": "162",
-      "name": "口琴愛好者協會（新加坡）",
-      "nameEn": "Harmonica Aficionados Society Singapore",
-      "category": "國際交流",
-      "type": "協會",
-      "originalType": "協會",
-      "country": "新加坡",
-      "region": "新加坡",
-      "cityOrFocus": "口琴協會/工作坊/音樂會/社群推廣",
-      "structuredSummary": "口琴協會/工作坊/音樂會/社群推廣 / 口琴 / 國際協會/資訊來源",
-      "summary": "新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。",
-      "keywords": "口琴愛好者協會 新加坡 Harmonica Aficionados Society Singapore HAS Singapore",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.harmonica-as.com/about"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HARMONICAMUSICLOVERS/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/has_singapore/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-16T14:08:11+00:00",
-      "latestUpdateLocal": "2026-08-16 22:08",
-      "latestUpdateSource": "口琴愛好者協會（新加坡）",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcGk9wLD4gg/",
-      "avatarUrl": "/assets/source-avatars/25f74c2221a6523cdfc8.webp",
-      "sourceInitials": "口琴",
-      "sourceTags": [
-        "協會",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonicamusiclovers",
-          "name": "口琴愛好者協會（新加坡）",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HARMONICAMUSICLOVERS",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_has_singapore",
-          "name": "口琴愛好者協會（新加坡）",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "has_singapore",
-          "profileUrl": "https://www.instagram.com/has_singapore/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_has_singapore",
-          "name": "口琴愛好者協會（新加坡）",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "has_singapore",
-          "profileUrl": "https://www.instagram.com/has_singapore/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/has_singapore/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-5",
       "publicId": "5",
       "name": "胖擊口琴樂團",
@@ -1497,92 +1662,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@RedBricksHarmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-31",
-      "publicId": "31",
-      "name": "張晁滕",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/演出",
-      "structuredSummary": "天狼星/Laelaps/教學/演出 / 重奏/教學 / 演出人員/教學者",
-      "summary": "口琴演奏者，兼職教學與重奏活動。",
-      "keywords": "張晁滕 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://chaotengchang.blogspot.com/2014/06/blog-post.html"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/chaotengchang/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/chaotengchang/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@ChaotengChang"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-16T09:21:56+00:00",
-      "latestUpdateLocal": "2026-08-16 17:21",
-      "latestUpdateSource": "張晁滕",
-      "latestUpdateUrl": "https://www.instagram.com/stories/chaotengchang/3964893147104940765/",
-      "avatarUrl": "/assets/source-avatars/d563a966f0c306fcbbf0.webp",
-      "sourceInitials": "張晁",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "重奏"
-      ],
-      "sourceSummary": "口琴演奏者，兼職教學與重奏活動。",
-      "sourceTagReason": "名稱為個人，類別標註為演奏者，摘要提及教學與演出，關鍵字包含口琴，符合演奏者與教學來源定位。",
-      "monitorSources": [
-        {
-          "id": "fb_chaotengchang",
-          "name": "張晁滕",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/chaotengchang",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_chaotengchang",
-          "name": "張晁滕",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "chaotengchang",
-          "profileUrl": "https://www.instagram.com/chaotengchang/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_chaotengchang",
-          "name": "張晁滕",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "chaotengchang",
-          "profileUrl": "https://www.instagram.com/chaotengchang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chaotengchang/story/0"
-        },
-        {
-          "id": "yt_chaotengchang",
-          "name": "張晁滕",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@ChaotengChang",
           "feedUrl": ""
         }
       ]
@@ -4915,85 +4994,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@weiwuyingfilm",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-127",
-      "publicId": "127",
-      "name": "Reyharp and Balawan Project",
-      "nameEn": "Reyharp and Balawan Project",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體/合作企劃",
-      "country": "印尼",
-      "region": "印尼",
-      "cityOrFocus": "Reyharp Naufal與Balawan合作/跨界融合/口琴與吉他",
-      "structuredSummary": "Reyharp Naufal與Balawan合作/跨界融合/口琴與吉他 / 口琴/跨界 / 國際演出團體",
-      "summary": "印尼的口琴與跨界國際演出團體，活動脈絡包含Reyharp Naufal與Balawan合作、跨界融合與口琴與吉他。",
-      "keywords": "Reyharp Balawan Project Reyharp Naufal harmonica SIHF",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/reyharp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/reyharpnaufal/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@reyharpnaufal5101"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-14T00:02:01+00:00",
-      "latestUpdateLocal": "2026-08-14 08:02",
-      "latestUpdateSource": "Reyharp and Balawan Project",
-      "latestUpdateUrl": "https://www.instagram.com/stories/reyharpnaufal/3963161782277801011/",
-      "avatarUrl": "/assets/source-avatars/c34723a1e5455255093b.webp",
-      "sourceInitials": "RAB",
-      "sourceTags": [
-        "團體樂團",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_reyharp",
-          "name": "Reyharp and Balawan Project",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/reyharp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_reyharpnaufal",
-          "name": "Reyharp and Balawan Project",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "reyharpnaufal",
-          "profileUrl": "https://www.instagram.com/reyharpnaufal/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_reyharpnaufal",
-          "name": "Reyharp and Balawan Project",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "reyharpnaufal",
-          "profileUrl": "https://www.instagram.com/reyharpnaufal/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/reyharpnaufal/story/0"
-        },
-        {
-          "id": "yt_reyharpnaufal5101",
-          "name": "Reyharp and Balawan Project",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@reyharpnaufal5101",
           "feedUrl": ""
         }
       ]
