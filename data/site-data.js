@@ -5130,7 +5130,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-14 09:03",
       "latestUpdateSource": "衛武營國家藝術文化中心",
       "latestUpdateUrl": "https://www.instagram.com/stories/weiwuying_centerforthearts/3963192598479232997/",
-      "avatarUrl": "/assets/source-avatars/5d89a8fefcbe93969af2.webp",
+      "avatarUrl": "/assets/source-avatars/9cbded4d002199fa1bec.webp",
       "sourceInitials": "衛武",
       "sourceTags": [
         "場館平台"
