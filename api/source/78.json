@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T03:18:44.121581Z",
+  "generatedAt": "2026-08-17T04:32:48.600774Z",
   "source": {
     "id": 78,
     "slug": "78",
@@ -228,20 +228,6 @@
       "publishedAt": "2026-07-19T04:00:04Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/af8b99f8aae7b128da9b.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-8352d305c365e3f2b9292c92",
-      "title": "2026藝術學習推廣【國際論壇暨工作坊】訪談精華- Part 3「 藝術賦予每個人自由表達的力量」",
-      "excerpt": "2026藝術學習推廣【國際論壇暨工作坊】訪談精華- Part 3「 藝術賦予每個人自由表達的力量」 正如德勒斯登國家劇院公民舞台藝術總監克莉斯蒂安娜．萊曼（Christiane LEHMANN）所說：「藝術的力量，不只在於創造作品，也讓每一個人有機會說出自己的故事。」 無論年齡、背景、經驗或身分，每個人都能在藝術中找到自己的聲音，被聽見、被理解。在衛武營，這份自由表達的力量正透過豐富的學習推廣活動持續發生！ ▌活動精彩回顧60秒｜ ▌官網活動詳情與側記 | 💡更多學習推廣活動｜",
-      "url": "https://www.youtube.com/watch?v=MkXVjvyn3Oc",
-      "sourceName": "衛武營國家藝術文化中心",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-18T04:00:02Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/df0346fa967b0942d213.webp",
         "width": 800,
         "height": 450
       }

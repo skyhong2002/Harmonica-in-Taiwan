@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T03:18:44.121581Z",
+  "generatedAt": "2026-08-17T04:32:48.600774Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -200,20 +200,6 @@
       "publishedAt": "2026-07-19T10:11:50Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/9dfb6fbb589211169e2e.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-08310a4180a4181644fec793",
-      "title": "聽海丨中正社大十孔口琴班",
-      "excerpt": "聽海丨中正社大十孔口琴班 這三位同學，每次都利用課餘的時間跑去中正紀念堂練習，才學一年，吹得就相當動人好聽，是口琴界的黑馬。改天大家在中正紀念堂看到他們吹，記得要打賞一下喔~ 中正社大十孔口琴班",
-      "url": "https://www.youtube.com/watch?v=ZfqgLRcYPyI",
-      "sourceName": "藍波口琴教室",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-18T04:00:15Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/e2458c1bb760e4cb50e4.webp",
         "width": 800,
         "height": 450
       }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T03:18:44.121581Z",
+  "generatedAt": "2026-08-17T04:32:48.600774Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/115-filip-jers/"
   },
   "items": [
+    {
+      "id": "post-807b43123192dcba27a23338",
+      "title": "Can you play blues on a chromatic harmonica?",
+      "excerpt": "Can you play blues on a chromatic harmonica? Can you play blues on a chromatic harmonica? Yes! It sounds different than a diatonic, but opens up new tools: octaves in every register, slider trills, tongue slaps, and massive tone. Here is how to adapt your playing for chromatic b…",
+      "url": "https://www.youtube.com/watch?v=Q-HGnURQQJg",
+      "sourceName": "Filip Jers",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-16T21:26:50Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/bc30f92c5f5899cd5b3f.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-3a09ce656baaf7a626c6beae",
       "title": "recording the first thing I played on harmonica today",
