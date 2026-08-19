@@ -1615,6 +1615,15 @@ def format_static_directory_cards(entries: list[dict[str, Any]]) -> str:
 
 
 def generate_source_index_base_page() -> str:
+    # The directory is rebuilt much more often than the application bundle. Give
+    # the data file its own content-derived cache key so a previously opened
+    # browser cannot replace fresh pre-rendered cards with stale directory data.
+    site_data_path = SITE_ROOT / "data" / "site-data.js"
+    site_data_version = (
+        hashlib.sha256(site_data_path.read_bytes()).hexdigest()[:12]
+        if site_data_path.exists()
+        else ASSET_VERSION
+    )
     return ("""<!doctype html>
 <html lang="zh-Hant">
   <head>
@@ -1706,11 +1715,13 @@ def generate_source_index_base_page() -> str:
 
 """ + FOOTER_HTML + """
 
-    <script src="/data/site-data.js?v=__ASSET_VERSION__"></script>
+    <script src="/data/site-data.js?data=__SITE_DATA_VERSION__"></script>
     <script src="/assets/app.js?v=__ASSET_VERSION__"></script>
   </body>
 </html>
-""").replace("__ASSET_VERSION__", ASSET_VERSION)
+""").replace("__ASSET_VERSION__", ASSET_VERSION).replace(
+        "__SITE_DATA_VERSION__", site_data_version
+    )
 
 
 def write_source_index_redirect() -> None:
