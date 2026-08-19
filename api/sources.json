@@ -1,13 +1,13 @@
 {
   "site": "https://harmonica.observe.tw",
   "generatedAt": "2026-08-20",
-  "count": 281,
+  "count": 284,
   "stats": {
-    "totalEntries": 281,
+    "totalEntries": 284,
     "categories": {
       "其他來源": 2,
       "國際交流": 12,
-      "團體樂團": 75,
+      "團體樂團": 78,
       "場館平台": 7,
       "學校社團": 38,
       "教學器材": 21,
@@ -33,7 +33,7 @@
       "瑞士": 1,
       "紐西蘭": 1,
       "美國": 7,
-      "臺灣": 128,
+      "臺灣": 131,
       "英國": 3,
       "荷蘭": 1,
       "西班牙": 2,
@@ -1013,7 +1013,7 @@
       "id": "watchlist-30",
       "publicId": "30",
       "name": "蔡明憲",
-      "nameEn": "",
+      "nameEn": "Ming-Sian Cai",
       "category": "演奏者",
       "type": "個人",
       "originalType": "個人",
@@ -2267,7 +2267,7 @@
       "id": "watchlist-33",
       "publicId": "33",
       "name": "黃冠誌",
-      "nameEn": "",
+      "nameEn": "Kuan-Chih Huang",
       "category": "演奏者",
       "type": "個人",
       "originalType": "個人",
@@ -2275,7 +2275,7 @@
       "region": "臺灣",
       "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
       "structuredSummary": "天狼星/胖擊系/和弦口琴/重奏 / 和弦/重奏 / 演出人員",
-      "summary": "口琴演奏者，專長和弦口琴與重奏演出。",
+      "summary": "臺灣的和弦與重奏演出人員，活動脈絡包含天狼星、胖擊系與和弦口琴。",
       "keywords": "黃冠誌 口琴",
       "links": [
         {
@@ -2301,13 +2301,8 @@
       "sourceInitials": "黃冠",
       "sourceTags": [
         "演奏者",
-        "合奏",
-        "和弦",
-        "重奏",
-        "演出"
+        "重奏"
       ],
-      "sourceSummary": "口琴演奏者，專長和弦口琴與重奏演出。",
-      "sourceTagReason": "來源明確標示為個人與演奏者，且專長涉及和弦、重奏與演出。",
       "monitorSources": [
         {
           "id": "ig_hk91f06",
@@ -3317,7 +3312,7 @@
       "id": "watchlist-36",
       "publicId": "36",
       "name": "莊筑迪",
-      "nameEn": "",
+      "nameEn": "Judy Chuang",
       "category": "演奏者",
       "type": "個人",
       "originalType": "個人",
@@ -3651,7 +3646,7 @@
       "id": "watchlist-31",
       "publicId": "31",
       "name": "張晁滕",
-      "nameEn": "",
+      "nameEn": "Chao-Teng Chang",
       "category": "演奏者",
       "type": "個人",
       "originalType": "個人",
@@ -3659,7 +3654,7 @@
       "region": "臺灣",
       "cityOrFocus": "天狼星/Laelaps/教學/演出",
       "structuredSummary": "天狼星/Laelaps/教學/演出 / 重奏/教學 / 演出人員/教學者",
-      "summary": "口琴演奏者，兼職教學與重奏活動。",
+      "summary": "臺灣的重奏與教學演出人員與教學者，活動脈絡包含天狼星、Laelaps與演出。",
       "keywords": "張晁滕 口琴",
       "links": [
         {
@@ -3692,8 +3687,6 @@
         "教學",
         "重奏"
       ],
-      "sourceSummary": "口琴演奏者，兼職教學與重奏活動。",
-      "sourceTagReason": "名稱為個人，類別標註為演奏者，摘要提及教學與演出，關鍵字包含口琴，符合演奏者與教學來源定位。",
       "monitorSources": [
         {
           "id": "fb_chaotengchang",
@@ -4027,7 +4020,7 @@
       "id": "watchlist-39",
       "publicId": "39",
       "name": "林士傑",
-      "nameEn": "",
+      "nameEn": "Shih-Chieh Lin",
       "category": "演奏者",
       "type": "個人",
       "originalType": "個人",
@@ -6052,7 +6045,7 @@
       "id": "watchlist-99",
       "publicId": "99",
       "name": "范曉怡",
-      "nameEn": "",
+      "nameEn": "Hsiao-Yi Fan",
       "category": "演奏者",
       "type": "個人",
       "originalType": "個人",
@@ -6616,7 +6609,7 @@
       "id": "watchlist-32",
       "publicId": "32",
       "name": "陳彥銘",
-      "nameEn": "",
+      "nameEn": "Yen-Ming Emery Chen",
       "category": "演奏者",
       "type": "個人",
       "originalType": "個人",
@@ -6624,7 +6617,7 @@
       "region": "臺灣",
       "cityOrFocus": "天狼星/THMF/和弦口琴/推廣",
       "structuredSummary": "天狼星/THMF/和弦口琴/推廣 / 和弦/重奏 / 演出人員/推廣者",
-      "summary": "天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。",
+      "summary": "臺灣的和弦與重奏演出人員與推廣者，活動脈絡包含天狼星、THMF與和弦口琴。",
       "keywords": "陳彥銘 口琴 天狼星 THMF",
       "links": [
         {
@@ -6650,12 +6643,8 @@
       "sourceInitials": "陳彥",
       "sourceTags": [
         "演奏者",
-        "和弦",
-        "重奏",
-        "交流"
+        "重奏"
       ],
-      "sourceSummary": "天狼星口琴樂團成員，專長和弦口琴，活躍於推廣與演出。",
-      "sourceTagReason": "資料明確標註為演奏者，並提及天狼星樂團、和弦口琴及推廣，符合演奏者與相關標籤。",
       "monitorSources": [
         {
           "id": "fb_emerychen_cm",
@@ -6935,7 +6924,7 @@
       "id": "watchlist-14",
       "publicId": "14",
       "name": "mr.Why 花影樂團",
-      "nameEn": "",
+      "nameEn": "mr.Why",
       "category": "團體樂團",
       "type": "團體",
       "originalType": "團體",
@@ -6943,7 +6932,7 @@
       "region": "臺灣",
       "cityOrFocus": "跨界/流行/李讓相關",
       "structuredSummary": "跨界/流行/李讓相關 / 口琴/跨界 / 演出團體",
-      "summary": "以李讓為核心的跨界流行口琴演出團體。",
+      "summary": "臺灣的口琴與跨界演出團體，活動脈絡包含流行與李讓相關。",
       "keywords": "mr.Why 花影樂團 李讓",
       "links": [
         {
@@ -6972,13 +6961,8 @@
       "avatarUrl": "/assets/source-avatars/754d6bd5a92e15c94269.webp",
       "sourceInitials": "MW",
       "sourceTags": [
-        "團體樂團",
-        "演奏者",
-        "演出",
-        "音樂會"
+        "團體樂團"
       ],
-      "sourceSummary": "以李讓為核心的跨界流行口琴演出團體。",
-      "sourceTagReason": "資料明確標示為「團體樂團」，名稱與描述含「演出」、「跨界」、「流行」，並提及核心人物李讓，符合演奏者與團體特徵。",
       "monitorSources": [
         {
           "id": "fb_mr_whywhy",
@@ -7308,7 +7292,7 @@
       "id": "watchlist-11",
       "publicId": "11",
       "name": "張筑婷",
-      "nameEn": "",
+      "nameEn": "Chu-Ting Chang",
       "category": "演奏者",
       "type": "個人",
       "originalType": "個人",
@@ -9532,7 +9516,7 @@
       "id": "watchlist-87",
       "publicId": "87",
       "name": "桃園玩口琴",
-      "nameEn": "",
+      "nameEn": "Taoyuan Harmonica Community",
       "category": "教學器材",
       "type": "樂器與器材",
       "originalType": "地方教學/社大課程",
@@ -9760,7 +9744,7 @@
       "id": "watchlist-37",
       "publicId": "37",
       "name": "陳晟禕",
-      "nameEn": "",
+      "nameEn": "Sheng-Yi Chen",
       "category": "演奏者",
       "type": "個人",
       "originalType": "個人",
@@ -10081,7 +10065,7 @@
       "id": "watchlist-38",
       "publicId": "38",
       "name": "歐純伶",
-      "nameEn": "",
+      "nameEn": "Chun-Ling Ou",
       "category": "演奏者",
       "type": "個人",
       "originalType": "個人",
@@ -11514,7 +11498,7 @@
       "id": "watchlist-47",
       "publicId": "47",
       "name": "陳柏宏",
-      "nameEn": "",
+      "nameEn": "Po-Hung Chen",
       "category": "演奏者",
       "type": "個人",
       "originalType": "個人",
@@ -11522,7 +11506,7 @@
       "region": "臺灣",
       "cityOrFocus": "臺中系年輕演奏者",
       "structuredSummary": "臺中系年輕演奏者 / 複音/半音階 / 演出人員",
-      "summary": "臺中市街頭藝人（證照編號：A1140404）。2024年首爾國際口琴節複音獨奏青少年組第一名，2023年臺灣口琴音樂節複音獨奏公開組第一名。曾多次隨博凱愛樂口琴交響樂團演出。",
+      "summary": "臺灣的複音與半音階演出人員，活動脈絡包含臺中系年輕演奏者。",
       "keywords": "陳柏宏 口琴",
       "links": [
         {
@@ -11548,11 +11532,9 @@
       "sourceInitials": "陳柏",
       "sourceTags": [
         "演奏者",
-        "複音",
-        "半音階"
+        "半音階",
+        "複音"
       ],
-      "sourceSummary": "臺中市街頭藝人（證照編號：A1140404）。2024年首爾國際口琴節複音獨奏青少年組第一名，2023年臺灣口琴音樂節複音獨奏公開組第一名。曾多次隨博凱愛樂口琴交響樂團演出。",
-      "sourceTagReason": "手動新增與整合自臺中街頭藝人資料與社群資訊。",
       "monitorSources": [
         {
           "id": "ig_chen_166",
@@ -11670,7 +11652,7 @@
       "id": "watchlist-41",
       "publicId": "41",
       "name": "邱榮東",
-      "nameEn": "",
+      "nameEn": "Rong-Dong Chiu",
       "category": "演奏者",
       "type": "個人",
       "originalType": "個人",
@@ -11678,7 +11660,7 @@
       "region": "臺灣",
       "cityOrFocus": "演出/評審",
       "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
-      "summary": "口琴演奏家與評審，活躍於演出及評審工作。",
+      "summary": "臺灣的口琴演出人員與評審，活動脈絡包含演出與評審。",
       "keywords": "邱榮東 口琴",
       "links": [
         {
@@ -11699,11 +11681,8 @@
       "avatarUrl": "/assets/source-avatars/2abf4463e57d6e99fee0.webp",
       "sourceInitials": "邱榮",
       "sourceTags": [
-        "演奏者",
-        "演出"
+        "演奏者"
       ],
-      "sourceSummary": "口琴演奏家與評審，活躍於演出及評審工作。",
-      "sourceTagReason": "來源類別明確標示為「演奏者」，個人身分與演出/評審工作相符，符合白名單中的演奏者、口琴與演出標籤。",
       "monitorSources": [
         {
           "id": "yt_refresh871",
@@ -11990,7 +11969,7 @@
       "id": "watchlist-28",
       "publicId": "28",
       "name": "簧格音樂有限公司",
-      "nameEn": "",
+      "nameEn": "Harmonistory Music Co. Ltd.",
       "category": "其他來源",
       "type": "品牌",
       "originalType": "單位",
@@ -13748,6 +13727,49 @@
       ]
     },
     {
+      "id": "watchlist-283",
+      "publicId": "283",
+      "name": "巴國聯軍",
+      "nameEn": "Baguo Alliance",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "大合奏/THMF 2026 公開組/跨團合作",
+      "structuredSummary": "大合奏/THMF 2026 公開組/跨團合作 / 口琴大合奏 / 演出團體",
+      "summary": "臺灣的口琴大合奏演出團體，活動脈絡包含大合奏、THMF 2026 公開組與跨團合作。",
+      "keywords": "巴國聯軍 Baguo Alliance Taiwan harmonica THMF 2026 Disney Fantasy",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/s/F1_-kgya.pdf"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
+      "sourceInitials": "巴國",
+      "sourceTags": [
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-181",
       "publicId": "181",
       "name": "庫里奇巴口琴樂團",
@@ -13899,6 +13921,49 @@
           "username": "adventure_harmonica",
           "profileUrl": "https://www.instagram.com/adventure_harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/adventure_harmonica/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-285",
+      "publicId": "285",
+      "name": "海豚星樂團",
+      "nameEn": "Dolphin Star Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣/南投",
+      "cityOrFocus": "跨世代合奏/偏鄉音樂教育/THMF 2026 公開組",
+      "structuredSummary": "跨世代合奏/偏鄉音樂教育/THMF 2026 公開組 / 口琴大合奏 / 演出團體/教育推廣",
+      "summary": "臺灣的口琴大合奏演出團體與教育推廣，活動脈絡包含跨世代合奏、偏鄉音樂教育與THMF 2026 公開組。",
+      "keywords": "海豚星樂團 Dolphin Star Harmonica Ensemble 南投 廣福國小 口琴 THMF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/s/F1_-kgya.pdf"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
+      "sourceInitials": "海豚",
+      "sourceTags": [
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": ""
         }
       ]
     },
@@ -14367,6 +14432,49 @@
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/%E9%AB%98%E9%9B%84%E5%B8%82%E5%8F%A3%E7%90%B4%E5%8D%94%E6%9C%83-425623100793432",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-284",
+      "publicId": "284",
+      "name": "龍騎士口琴樂團",
+      "nameEn": "Dragon Knight Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "大合奏/THMF 2026 公開組",
+      "structuredSummary": "大合奏/THMF 2026 公開組 / 口琴大合奏 / 演出團體",
+      "summary": "臺灣的口琴大合奏演出團體，活動脈絡包含大合奏與THMF 2026 公開組。",
+      "keywords": "龍騎士 Dragon Knight Harmonica Ensemble Taiwan THMF 2026 馴龍高手",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/s/F1_-kgya.pdf"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
+      "sourceInitials": "龍騎",
+      "sourceTags": [
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
           "feedUrl": ""
         }
       ]
@@ -17485,7 +17593,7 @@
       "id": "watchlist-265",
       "publicId": "265",
       "name": "林筱茹",
-      "nameEn": "",
+      "nameEn": "Hsiao-Ju Lin",
       "category": "演奏者",
       "type": "個人",
       "originalType": "個人",
@@ -17739,7 +17847,7 @@
       "id": "watchlist-266",
       "publicId": "266",
       "name": "蔡景玫",
-      "nameEn": "",
+      "nameEn": "Ching-Mei Tsai",
       "category": "演奏者",
       "type": "個人",
       "originalType": "個人",
@@ -17883,7 +17991,7 @@
       "id": "watchlist-35",
       "publicId": "35",
       "name": "陳奕翔",
-      "nameEn": "",
+      "nameEn": "Yi-Hsiang Chen",
       "category": "演奏者",
       "type": "個人",
       "originalType": "個人",
@@ -17891,7 +17999,7 @@
       "region": "臺灣",
       "cityOrFocus": "天狼星系",
       "structuredSummary": "天狼星系 / 口琴/重奏 / 演出人員",
-      "summary": "個人演奏者，隸屬天狼星系口琴重奏團，從事口琴演出。",
+      "summary": "臺灣的口琴與重奏演出人員，活動脈絡包含天狼星系。",
       "keywords": "陳奕翔 口琴",
       "links": [
         {
@@ -17913,11 +18021,8 @@
       "sourceInitials": "陳奕",
       "sourceTags": [
         "演奏者",
-        "合奏",
         "重奏"
       ],
-      "sourceSummary": "個人演奏者，隸屬天狼星系口琴重奏團，從事口琴演出。",
-      "sourceTagReason": "資料明確標示類別為「演奏者」，個人類型，且摘要提及口琴與重奏，故標記演奏者、口琴、合奏、重奏。",
       "monitorSources": [
         {
           "id": "fb_aria0831",
@@ -17934,7 +18039,7 @@
       "id": "watchlist-44",
       "publicId": "44",
       "name": "陳聰",
-      "nameEn": "",
+      "nameEn": "Tsung Chen",
       "category": "演奏者",
       "type": "個人",
       "originalType": "個人",
