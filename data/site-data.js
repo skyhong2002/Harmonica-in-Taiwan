@@ -1674,7 +1674,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "links": [
         {
           "label": "網站",
-          "url": "https://www.npac-ntt.org/"
+          "url": "https://www.npac-ntt.org/index"
         },
         {
           "label": "Facebook",
@@ -2660,7 +2660,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "links": [
         {
           "label": "網站",
-          "url": "https://0223120930.web66.com.tw/"
+          "url": "https://0223120930.web66.com.tw/web/SEC?Code=&sortType=J"
         },
         {
           "label": "Facebook",
