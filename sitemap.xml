@@ -1813,6 +1813,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/306-le-yang/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/119-koei-tanaka/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -2018,6 +2024,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/region/%E5%85%8B%E6%9E%97%E6%A0%B9%E5%A1%94%E7%88%BE/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/region/%E5%8C%97%E4%BA%AC/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>

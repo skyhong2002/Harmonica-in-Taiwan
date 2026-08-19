@@ -18392,6 +18392,40 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-306",
+      "publicId": "306",
+      "name": "楊樂",
+      "nameEn": "Le Yang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "中國",
+      "region": "中國/北京",
+      "cityOrFocus": "中國藍調口琴先行者/流行錄音與現場演奏/七合板樂隊/APHF 2026",
+      "structuredSummary": "中國藍調口琴先行者/流行錄音與現場演奏/七合板樂隊/APHF 2026 / 十孔口琴/長笛/吉他 / 國際演出人員/創作歌手/賽事評委",
+      "summary": "中國的十孔口琴、長笛與吉他國際演出人員、創作歌手與賽事評委，活動脈絡包含中國藍調口琴先行者、流行錄音與現場演奏與七合板樂隊。",
+      "keywords": "楊樂 杨乐 Le Yang 中國藍調口琴 七合板 自言自語 APHF 2026 Easttop",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.sonymusic.com.tw/album/le-yang-talking-to-myself-1/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/le-yang.jpg",
+      "sourceInitials": "楊樂",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流"
+      ]
+    },
+    {
       "id": "watchlist-119",
       "publicId": "119",
       "name": "田中光栄 Koei Tanaka",
@@ -18928,7 +18962,7 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 304,
+    "totalEntries": 305,
     "categories": {
       "其他來源": 2,
       "國際交流": 12,
@@ -18937,10 +18971,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "學校社團": 39,
       "教學器材": 25,
       "活動資訊": 29,
-      "演奏者": 109
+      "演奏者": 110
     },
     "countries": {
-      "中國": 33,
+      "中國": 34,
       "丹麥": 1,
       "以色列": 1,
       "俄羅斯": 1,
