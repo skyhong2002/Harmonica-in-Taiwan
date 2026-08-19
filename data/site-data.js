@@ -1829,18 +1829,18 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "個人",
       "country": "韓國",
       "region": "韓國",
-      "cityOrFocus": "韓國口琴演奏/演出與教學/半音階爵士",
-      "structuredSummary": "韓國口琴演奏/演出與教學/半音階爵士 / 半音階/口琴 / 國際演出人員/教學者",
+      "cityOrFocus": "韓國口琴演奏/演出與教學/半音階爵士/首爾 2026 公演",
+      "structuredSummary": "韓國口琴演奏/演出與教學/半音階爵士/首爾 2026 公演 / 半音階/口琴 / 國際演出人員/教學者",
       "summary": "韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。",
-      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica SIHF",
+      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica SIHF Seoul Gallery 2026",
       "links": [
+        {
+          "label": "網站",
+          "url": "https://www.seoul.go.kr/seoulgallery/eng/program/view.do?key=2509160014&prgmSn=60"
+        },
         {
           "label": "Instagram",
           "url": "https://www.instagram.com/gyeoli_94/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@gyeoli_94"
         }
       ],
       "source": "watchlist",
@@ -1875,15 +1875,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "gyeoli_94",
           "profileUrl": "https://www.instagram.com/gyeoli_94/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/gyeoli_94/story/0"
-        },
-        {
-          "id": "yt_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@gyeoli_94",
-          "feedUrl": ""
         }
       ]
     },
@@ -2724,10 +2715,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "summary": "新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。",
       "keywords": "口琴愛好者協會 新加坡 Harmonica Aficionados Society Singapore HAS Singapore",
       "links": [
-        {
-          "label": "網站",
-          "url": "https://www.harmonica-as.com/about"
-        },
         {
           "label": "Facebook",
           "url": "https://www.facebook.com/HARMONICAMUSICLOVERS/"
@@ -5274,10 +5261,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "summary": "臺灣的口琴學校社團。",
       "keywords": "中一中口琴社 TCFSH Harmonica 口琴社",
       "links": [
-        {
-          "label": "網站",
-          "url": "https://www.tcfshclub.com/%E7%A4%BE%E5%9C%98/%E8%97%9D%E8%A1%93%E6%80%A7%E7%A4%BE%E5%9C%98/015-%E5%8F%A3%E7%90%B4%E7%A4%BE"
-        },
         {
           "label": "Facebook",
           "url": "https://www.facebook.com/tcfsh.harmonica/"
@@ -8181,7 +8164,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "links": [
         {
           "label": "網站",
-          "url": "https://www.syf.gov.sg/general/calendar"
+          "url": "https://www.syf.gov.sg/arts-presentation"
         },
         {
           "label": "Facebook",
@@ -10583,10 +10566,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "url": "https://www.instagram.com/meiji_hamoso/"
         },
         {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@MeijiUnivHarmonicaSociety"
-        },
-        {
           "label": "X",
           "url": "https://x.com/meiji_hamoso"
         }
@@ -10639,15 +10618,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "meiji_hamoso",
           "profileUrl": "https://x.com/meiji_hamoso",
           "feedUrl": "https://rss.observe.tw/twitter/user/meiji_hamoso"
-        },
-        {
-          "id": "yt_meijiunivharmonicasociety",
-          "name": "明治大學ハーモニカソサエティー",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@MeijiUnivHarmonicaSociety",
-          "feedUrl": ""
         }
       ]
     },
@@ -12189,6 +12159,40 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-278",
+      "publicId": "278",
+      "name": "無錫市人民政府（亞太口琴藝術週資訊）",
+      "nameEn": "Wuxi Municipal Government - Asia Pacific Harmonica Art Week",
+      "category": "國際交流",
+      "type": "活動與比賽",
+      "originalType": "政府/資訊來源",
+      "country": "中國",
+      "region": "中國/江蘇/無錫",
+      "cityOrFocus": "第十五屆亞太口琴藝術週/政府文化新聞/活動資訊",
+      "structuredSummary": "第十五屆亞太口琴藝術週/政府文化新聞/活動資訊 / 口琴/文化活動 / 官方活動資訊來源",
+      "summary": "中國的官方活動資訊來源，關注第十五屆亞太口琴藝術週、政府文化新聞與活動資訊。",
+      "keywords": "無錫市人民政府 Wuxi 第十五屆亞太口琴藝術週 江陰 2026 21國 2500人",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.wuxi.gov.cn/doc/2026/07/26/4810061.shtml"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
+      "sourceInitials": "無錫",
+      "sourceTags": [
+        "活動資訊",
+        "國際交流",
+        "比賽"
+      ]
+    },
+    {
       "id": "watchlist-172",
       "publicId": "172",
       "name": "英國口琴協會",
@@ -12406,7 +12410,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "links": [
         {
           "label": "網站",
-          "url": "https://www.taiwanharmonica.com/wp-content/uploads/2024/07/2024%E8%87%BA%E7%81%A3%E5%8F%A3%E7%90%B4%E9%9F%B3%E6%A8%82%E7%AF%80_%E5%87%BA%E5%A0%B4%E5%BA%8F.pdf"
+          "url": "https://www.taiwanharmonica.com/"
         }
       ],
       "source": "watchlist",
@@ -15920,10 +15924,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "keywords": "Fórum Harmônicas Brasil Forum Harmonicas Brasil harmonica gaita festival",
       "links": [
         {
-          "label": "網站",
-          "url": "https://www.forumharmonicas.com/"
-        },
-        {
           "label": "Facebook",
           "url": "https://www.facebook.com/forumharmonicas/"
         },
@@ -17796,10 +17796,10 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 276,
+    "totalEntries": 277,
     "categories": {
       "其他來源": 2,
-      "國際交流": 11,
+      "國際交流": 12,
       "團體樂團": 71,
       "場館平台": 7,
       "學校社團": 38,
@@ -17808,7 +17808,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "演奏者": 97
     },
     "countries": {
-      "中國": 30,
+      "中國": 31,
       "丹麥": 1,
       "以色列": 1,
       "俄羅斯": 1,
@@ -17836,24 +17836,24 @@ window.HARMONICA_OBSERVE_DATA = {
       "馬來西亞": 13
     },
     "watchSources": {
-      "totalSources": 669,
+      "totalSources": 667,
       "rsshubSources": 380,
       "apifySources": 155,
       "facebookSources": 155,
-      "youtubeSources": 134,
+      "youtubeSources": 132,
       "platforms": {
         "facebook": 155,
         "instagram": 340,
         "threads": 28,
         "x": 12,
-        "youtube": 134
+        "youtube": 132
       },
       "types": {
         "facebook_page_posts": 155,
         "rss": 40,
         "rsshub_instagram_profile": 170,
         "rsshub_instagram_story": 170,
-        "youtube_ytdlp": 134
+        "youtube_ytdlp": 132
       }
     }
   }
