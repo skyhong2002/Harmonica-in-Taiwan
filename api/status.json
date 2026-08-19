@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T04:38:07+08:00",
+  "generatedAt": "2026-08-20T04:50:44+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "ok",
@@ -9,37 +9,37 @@
   "metrics": {
     "updates": 3803,
     "updatesWindowDays": 30,
-    "directoryEntries": 296,
-    "watchSources": 673,
+    "directoryEntries": 298,
+    "watchSources": 677,
     "currentErrors": 0,
-    "latestDataAt": "2026-08-20T04:38:04+08:00",
-    "latestSocialObservationAt": "2026-08-20T04:37:42+08:00"
+    "latestDataAt": "2026-08-20T04:50:41+08:00",
+    "latestSocialObservationAt": "2026-08-20T04:50:19+08:00"
   },
   "watchSources": {
     "platforms": {
-      "facebook": 157,
-      "instagram": 344,
+      "facebook": 158,
+      "instagram": 346,
       "threads": 28,
       "x": 12,
-      "youtube": 132
+      "youtube": 133
     },
     "types": {
-      "facebook_page_posts": 157,
+      "facebook_page_posts": 158,
       "rss": 40,
-      "rsshub_instagram_profile": 172,
-      "rsshub_instagram_story": 172,
-      "youtube_ytdlp": 132
+      "rsshub_instagram_profile": 173,
+      "rsshub_instagram_story": 173,
+      "youtube_ytdlp": 133
     },
     "platformRows": [
       {
         "platform": "facebook",
-        "sources": 157,
+        "sources": 158,
         "currentErrors": 0,
         "status": "ok"
       },
       {
         "platform": "instagram",
-        "sources": 344,
+        "sources": 346,
         "currentErrors": 0,
         "status": "ok"
       },
@@ -57,7 +57,7 @@
       },
       {
         "platform": "youtube",
-        "sources": 132,
+        "sources": 133,
         "currentErrors": 0,
         "status": "ok"
       }
@@ -71,7 +71,7 @@
       "label": "正常",
       "summary": "定期 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-08-20 04:38:04",
+        "最新公開資料：2026-08-20 04:50:41",
         "pipeline.log 更新：2026-07-12 02:58:29",
         "pipeline.err.log 更新：2026-07-11 14:33:03",
         "LaunchAgent：not running，last exit 0"
@@ -82,10 +82,10 @@
       "name": "公開 API",
       "status": "ok",
       "label": "正常",
-      "summary": "latest.json 有 3803 筆更新，sources.json 有 296 筆公開目錄。",
+      "summary": "latest.json 有 3803 筆更新，sources.json 有 298 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
-        "watch sources：673"
+        "watch sources：677"
       ]
     },
     {
@@ -96,7 +96,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：56 ms"
+        "耗時：362 ms"
       ]
     },
     {
@@ -104,13 +104,13 @@
       "name": "Instagram RSSHub",
       "status": "paused",
       "label": "節流中",
-      "summary": "344 個 Instagram 來源（profile 172、story 172）；最新抓取批次目前 0 個錯誤。",
+      "summary": "346 個 Instagram 來源（profile 173、story 173）；最新抓取批次目前 0 個錯誤。",
       "details": [
-        "最新社群觀測：2026-08-20 04:37:42",
+        "最新社群觀測：2026-08-20 04:50:19",
         "story 無公開內容/空路由略過：0",
         "IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。",
         "本輪 IG：抓取 3、排程略過 339、延後 0、錯誤 0。",
-        "下一個 IG 來源：約 2026-08-20 04:39:37"
+        "下一個 IG 來源：約 2026-08-20 04:52:59"
       ]
     },
     {
@@ -129,11 +129,11 @@
       "name": "Facebook Apify",
       "status": "ok",
       "label": "正常",
-      "summary": "157 個 Facebook 來源。 Apify token/quota check 正常。",
+      "summary": "158 個 Facebook 來源。 Apify token/quota check 正常。",
       "details": [
         "最近成功 run：2026-08-17 04:22:22",
         "最近新增 inbox：5",
-        "due sources：151",
+        "due sources：152",
         "selected this check：10",
         "min sources per run：8",
         "遠端月額度剩餘：-",
@@ -145,7 +145,7 @@
       "name": "YouTube yt-dlp",
       "status": "ok",
       "label": "正常",
-      "summary": "132 個 YouTube 來源；最近 run error_count=0。",
+      "summary": "133 個 YouTube 來源；最近 run error_count=0。",
       "details": [
         "最近完成：2026-08-20 04:15:24",
         "最近新增 inbox：3"

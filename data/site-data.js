@@ -65,10 +65,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "個人",
       "country": "日本",
       "region": "日本",
-      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
-      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
+      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流/2026 琴韻東坡・簧鳴西南",
+      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流/2026 琴韻東坡・簧鳴西南 / 半音階 / 國際演出人員",
       "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
-      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
+      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ 琴韻東坡 簧鳴西南 2026",
       "links": [
         {
           "label": "網站",
@@ -1019,11 +1019,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
       "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
       "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
-      "keywords": "蔡明憲 口琴",
+      "keywords": "蔡明憲 口琴 DMing Studio",
       "links": [
         {
           "label": "網站",
-          "url": "https://studio.dming.co/"
+          "url": "https://dming.co/"
         },
         {
           "label": "Facebook",
@@ -3269,10 +3269,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "重奏/公演/教育推廣",
-      "structuredSummary": "重奏/公演/教育推廣 / 口琴重奏/合奏 / 演出團體",
+      "cityOrFocus": "重奏/公演/教育推廣/2026 琴韻東坡・簧鳴西南",
+      "structuredSummary": "重奏/公演/教育推廣/2026 琴韻東坡・簧鳴西南 / 口琴重奏/合奏 / 演出團體",
       "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與教育推廣。",
-      "keywords": "Judy's Harmonica Ensemble 茱蒂口琴樂團",
+      "keywords": "Judy's Harmonica Ensemble 茱蒂口琴樂團 琴韻東坡 簧鳴西南 2026",
       "links": [
         {
           "label": "網站",
@@ -5210,10 +5210,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "半音階/複音/原創/比賽曲/SIHF 2026",
-      "structuredSummary": "半音階/複音/原創/比賽曲/SIHF 2026 / 半音階/複音 / 演出人員",
+      "cityOrFocus": "半音階/複音/原創/比賽曲/SIHF 2026/2026 琴韻東坡・簧鳴西南",
+      "structuredSummary": "半音階/複音/原創/比賽曲/SIHF 2026/2026 琴韻東坡・簧鳴西南 / 半音階/複音 / 演出人員",
       "summary": "臺灣的半音階與複音演出人員，活動脈絡包含原創、比賽曲與SIHF 2026。",
-      "keywords": "林家靖 Rolabo Lin Jia-jing Lin SIHF 2026",
+      "keywords": "林家靖 Rolabo Lin Jia-jing Lin SIHF 2026 琴韻東坡 簧鳴西南",
       "links": [
         {
           "label": "網站",
@@ -6373,10 +6373,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "個人",
       "country": "香港",
       "region": "香港",
-      "cityOrFocus": "半音階/THMC嘉賓/評審",
-      "structuredSummary": "半音階/THMC嘉賓/評審 / 半音階 / 國際演出人員/評審",
-      "summary": "香港半音階口琴演奏者，擔任國際比賽嘉賓與評審。",
-      "keywords": "Gordon Lee 李俊樂 harmonica",
+      "cityOrFocus": "半音階/THMC嘉賓/評審/2026 琴韻東坡・簧鳴西南工作坊",
+      "structuredSummary": "半音階/THMC嘉賓/評審/2026 琴韻東坡・簧鳴西南工作坊 / 半音階 / 國際演出人員/評審/講師",
+      "summary": "香港的半音階國際演出人員、評審與講師，活動脈絡包含THMC嘉賓、評審與2026 琴韻東坡・簧鳴西南工作坊。",
+      "keywords": "Gordon Lee 李俊樂 harmonica 琴韻東坡 簧鳴西南 2026 工作坊",
       "links": [
         {
           "label": "網站",
@@ -6408,8 +6408,6 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "國際交流"
       ],
-      "sourceSummary": "香港半音階口琴演奏者，擔任國際比賽嘉賓與評審。",
-      "sourceTagReason": "資料明確標註為「演奏者」及「半音階」，並提及國際演出與評審角色，故優先標註演奏者、口琴、半音階及國際交流。",
       "monitorSources": [
         {
           "id": "fb_gordonleeharmonicist",
@@ -8647,14 +8645,14 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "學校/青年",
       "country": "香港",
       "region": "香港",
-      "cityOrFocus": "英皇書院同學會小學/學校/青年/香港",
-      "structuredSummary": "英皇書院同學會小學/學校/青年/香港 / 口琴隊/半音階/學生合奏 / 學校團隊",
+      "cityOrFocus": "英皇書院同學會小學/學校/青年/香港/首爾國際口琴節",
+      "structuredSummary": "英皇書院同學會小學/學校/青年/香港/首爾國際口琴節 / 口琴隊/半音階/學生合奏 / 學校團隊",
       "summary": "香港的口琴隊、半音階與學生合奏學校團隊。",
-      "keywords": "英皇書院同學會小學口琴隊 KCOBAPS Harmonica Band 世界口琴節 學生口琴隊 香港",
+      "keywords": "英皇書院同學會小學口琴隊 KCOBAPS Harmonica Band 首爾國際口琴節 SIHF 學生口琴隊 香港",
       "links": [
         {
           "label": "網站",
-          "url": "https://www.kcobaps1.edu.hk/tc/latest_new/英小小航海家-口琴演奏交流"
+          "url": "https://www.kcobaps1.edu.hk/tc/%E9%9F%B3%E6%A8%82%E8%97%9D%E8%A1%93"
         },
         {
           "label": "Facebook",
@@ -8671,7 +8669,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "英皇",
       "sourceTags": [
         "學生社團",
-        "半音階"
+        "半音階",
+        "國際交流"
       ],
       "monitorSources": [
         {
@@ -15174,6 +15173,91 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-298",
+      "publicId": "298",
+      "name": "香港兒童合唱團口琴課程",
+      "nameEn": "HKCC Harmonica Programme",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "教學/學校/青年",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生",
+      "structuredSummary": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生 / 半音階/口琴合奏 / 教學單位/青年培育",
+      "summary": "香港的半音階與口琴合奏教學單位與青年培育。",
+      "keywords": "香港兒童合唱團 HKCC Harmonica Programme 口琴課程 Gordon Lee 2026 招生 兒童合奏",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hkcchoir.org.hk/en/instrumental-programme"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hkcchoir"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hkcchoir/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/hkcchoir"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/hkcc-harmonica.png",
+      "sourceInitials": "香港",
+      "sourceTags": [
+        "學生社團",
+        "教學",
+        "課程",
+        "半音階"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hkcchoir",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hkcchoir",
+          "profileUrl": "https://www.instagram.com/hkcchoir/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hkcchoir",
+          "profileUrl": "https://www.instagram.com/hkcchoir/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hkcchoir/story/0"
+        },
+        {
+          "id": "yt_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/hkcchoir",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-232",
       "publicId": "232",
       "name": "高醫萌風口琴社",
@@ -15792,6 +15876,43 @@ window.HARMONICA_OBSERVE_DATA = {
           "profileUrl": "https://youtube.com/@PocketHarmonic",
           "feedUrl": ""
         }
+      ]
+    },
+    {
+      "id": "watchlist-299",
+      "publicId": "299",
+      "name": "基隆社區大學就是吹口琴",
+      "nameEn": "Keelung Community University Harmonica",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "教學/社區",
+      "country": "臺灣",
+      "region": "臺灣/基隆",
+      "cityOrFocus": "社區口琴課程/十孔/重奏/半音階/THMF 2026 熟齡組",
+      "structuredSummary": "社區口琴課程/十孔/重奏/半音階/THMF 2026 熟齡組 / 十孔/半音階/口琴合奏 / 教學單位/社區推廣",
+      "summary": "臺灣的十孔、半音階與口琴合奏教學單位與社區推廣，關注社區口琴課程、重奏與THMF 2026 熟齡組。",
+      "keywords": "基隆社區大學 就是吹口琴 陳鴻儀 2026 秋季班 THMF 熟齡組",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://kcu.twcu.org.tw/course/m_course_list.php"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/keelung-community-harmonica.jpg",
+      "sourceInitials": "基隆",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "課程",
+        "半音階",
+        "十孔",
+        "重奏"
       ]
     },
     {
@@ -17484,10 +17605,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "個人",
       "country": "韓國",
       "region": "韓國",
-      "cityOrFocus": "半音階/演出/評審/亞太與首爾口琴節",
-      "structuredSummary": "半音階/演出/評審/亞太與首爾口琴節 / 半音階 / 國際演出人員/評審",
+      "cityOrFocus": "半音階/演出/評審/亞太與首爾口琴節/2026 琴韻東坡・簧鳴西南",
+      "structuredSummary": "半音階/演出/評審/亞太與首爾口琴節/2026 琴韻東坡・簧鳴西南 / 半音階 / 國際演出人員/評審",
       "summary": "韓國的半音階國際演出人員與評審，活動脈絡包含演出、評審與亞太與首爾口琴節。",
-      "keywords": "Monica J harmonica 當年情 Seoul Arts EASTTOP APHF SIHF",
+      "keywords": "Monica J harmonica 當年情 Seoul Arts EASTTOP APHF SIHF 琴韻東坡 簧鳴西南 2026",
       "links": [
         {
           "label": "網站",
@@ -17794,10 +17915,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "個人",
       "country": "中國",
       "region": "中國/甘肅/蘭州",
-      "cityOrFocus": "複音/半音階/演出/教學/國際賽事",
-      "structuredSummary": "複音/半音階/演出/教學/國際賽事 / 複音/半音階 / 國際演出人員/教師",
+      "cityOrFocus": "複音/半音階/演出/教學/國際賽事/2026 琴韻東坡・簧鳴西南",
+      "structuredSummary": "複音/半音階/演出/教學/國際賽事/2026 琴韻東坡・簧鳴西南 / 複音/半音階 / 國際演出人員/教師",
       "summary": "中國的複音與半音階國際演出人員與教師，活動脈絡包含演出、教學與國際賽事。",
-      "keywords": "傅泓亮 Fu Hongliang 口琴 甘肅 蘭州 華夏 亞太",
+      "keywords": "傅泓亮 Fu Hongliang 口琴 甘肅 蘭州 華夏 亞太 琴韻東坡 簧鳴西南 2026",
       "links": [
         {
           "label": "網站",
@@ -18101,10 +18222,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "個人",
       "country": "香港",
       "region": "香港",
-      "cityOrFocus": "半音階/國際賽事/電台主持/Adventure Harmonica Band",
-      "structuredSummary": "半音階/國際賽事/電台主持/Adventure Harmonica Band / 半音階 / 國際演出人員",
+      "cityOrFocus": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends",
+      "structuredSummary": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends / 半音階 / 國際演出人員",
       "summary": "香港的半音階國際演出人員，活動脈絡包含國際賽事、電台主持與Adventure Harmonica Band。",
-      "keywords": "梁芷菁 Steffi Leung harmonicist Adventure Harmonica WHF APHF SIHF THMF",
+      "keywords": "梁芷菁 Steffi Leung harmonicist Adventure Harmonica WHF APHF SIHF THMF 2025 世界口琴節 二重奏冠軍 Steffi and Friends 2026",
       "links": [
         {
           "label": "網站",
@@ -18126,6 +18247,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "演奏者",
         "半音階",
+        "重奏",
         "國際交流"
       ],
       "monitorSources": [
@@ -18601,14 +18723,14 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 296,
+    "totalEntries": 298,
     "categories": {
       "其他來源": 2,
       "國際交流": 12,
       "團體樂團": 81,
       "場館平台": 7,
-      "學校社團": 38,
-      "教學器材": 24,
+      "學校社團": 39,
+      "教學器材": 25,
       "活動資訊": 29,
       "演奏者": 103
     },
@@ -18633,35 +18755,35 @@ window.HARMONICA_OBSERVE_DATA = {
       "瑞士": 1,
       "紐西蘭": 1,
       "美國": 7,
-      "臺灣": 131,
+      "臺灣": 132,
       "英國": 3,
       "荷蘭": 1,
       "菲律賓": 1,
       "西班牙": 2,
       "阿根廷": 4,
       "韓國": 19,
-      "香港": 22,
+      "香港": 23,
       "馬來西亞": 13
     },
     "watchSources": {
-      "totalSources": 673,
-      "rsshubSources": 384,
-      "apifySources": 157,
-      "facebookSources": 157,
-      "youtubeSources": 132,
+      "totalSources": 677,
+      "rsshubSources": 386,
+      "apifySources": 158,
+      "facebookSources": 158,
+      "youtubeSources": 133,
       "platforms": {
-        "facebook": 157,
-        "instagram": 344,
+        "facebook": 158,
+        "instagram": 346,
         "threads": 28,
         "x": 12,
-        "youtube": 132
+        "youtube": 133
       },
       "types": {
-        "facebook_page_posts": 157,
+        "facebook_page_posts": 158,
         "rss": 40,
-        "rsshub_instagram_profile": 172,
-        "rsshub_instagram_story": 172,
-        "youtube_ytdlp": 132
+        "rsshub_instagram_profile": 173,
+        "rsshub_instagram_story": 173,
+        "youtube_ytdlp": 133
       }
     }
   }
