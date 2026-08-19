@@ -1099,7 +1099,25 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/275-heartstrings-in-harmony/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/273-kitauji-sextet/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/126-korea-harmonica-orchestra/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/277-kyber-harmonica-ensemble/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1129,6 +1147,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/276-paskho-harmonica-ensemble/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/136-project-x/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -1136,6 +1160,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/155-ptaszek-buzma/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/274-resonance-storm/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1879,13 +1909,13 @@
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/tag/%E5%8D%8A%E9%9F%B3%E9%9A%8E/</loc>
+    <loc>https://harmonica.observe.tw/source/tag/%E9%87%8D%E5%A5%8F/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/tag/%E9%87%8D%E5%A5%8F/</loc>
+    <loc>https://harmonica.observe.tw/source/tag/%E5%8D%8A%E9%9F%B3%E9%9A%8E/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>

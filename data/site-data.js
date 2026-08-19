@@ -12698,6 +12698,98 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-275",
+      "publicId": "275",
+      "name": "Heartstrings in Harmony",
+      "nameEn": "Heartstrings in Harmony",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/國際比賽/WHF 2025/天狼星編曲",
+      "structuredSummary": "重奏/國際比賽/WHF 2025/天狼星編曲 / 口琴重奏 / 演出團體",
+      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含重奏、國際比賽與WHF 2025。",
+      "keywords": "Heartstrings in Harmony Taiwan harmonica WHF 2025 Sirius Harmonica Ensemble",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://worldharmonicafestival.de/wp-content/uploads/2025/09/WHF_2025_Competition_Participant_List__Schedule-2.pdf"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/7f448a79b2cb29fdf2f5.webp",
+      "sourceInitials": "HIH",
+      "sourceTags": [
+        "團體樂團",
+        "比賽",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_whf_world_harmonica_festival",
+          "name": "World Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "whf_world_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-273",
+      "publicId": "273",
+      "name": "Kitauji Sextet",
+      "nameEn": "Kitauji Sextet",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "中國",
+      "region": "中國",
+      "cityOrFocus": "六重奏/國際比賽/WHF 2025",
+      "structuredSummary": "六重奏/國際比賽/WHF 2025 / 口琴六重奏 / 國際演出團體",
+      "summary": "中國的口琴六重奏國際演出團體，活動脈絡包含六重奏、國際比賽與WHF 2025。",
+      "keywords": "Kitauji Sextet China harmonica WHF 2025 Crescent Moon Dance",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://worldharmonicafestival.de/wp-content/uploads/2025/09/WHF_2025_Competition_Participant_List__Schedule-2.pdf"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/7f448a79b2cb29fdf2f5.webp",
+      "sourceInitials": "KS",
+      "sourceTags": [
+        "團體樂團",
+        "比賽",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_whf_world_harmonica_festival",
+          "name": "World Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "whf_world_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-126",
       "publicId": "126",
       "name": "Korea Harmonica Orchestra",
@@ -12728,6 +12820,52 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "團體樂團",
         "國際交流"
+      ]
+    },
+    {
+      "id": "watchlist-277",
+      "publicId": "277",
+      "name": "Kyber Harmonica Ensemble",
+      "nameEn": "Kyber Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/國際比賽/WHF 2025",
+      "structuredSummary": "重奏/國際比賽/WHF 2025 / 口琴重奏 / 演出團體",
+      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含重奏、國際比賽與WHF 2025。",
+      "keywords": "Kyber Harmonica Ensemble Taiwan harmonica WHF 2025 Star Wars Suite",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://worldharmonicafestival.de/wp-content/uploads/2025/09/WHF_2025_Competition_Participant_List__Schedule-2.pdf"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/7f448a79b2cb29fdf2f5.webp",
+      "sourceInitials": "KHE",
+      "sourceTags": [
+        "團體樂團",
+        "比賽",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_whf_world_harmonica_festival",
+          "name": "World Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "whf_world_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -12907,6 +13045,52 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-276",
+      "publicId": "276",
+      "name": "Paskho Harmonica Ensemble",
+      "nameEn": "Paskho Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/國際比賽/WHF 2025/林家靖編曲",
+      "structuredSummary": "重奏/國際比賽/WHF 2025/林家靖編曲 / 口琴重奏 / 演出團體",
+      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含重奏、國際比賽與WHF 2025。",
+      "keywords": "Paskho Harmonica Ensemble Taiwan harmonica WHF 2025 Rolabo Lin",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://worldharmonicafestival.de/wp-content/uploads/2025/09/WHF_2025_Competition_Participant_List__Schedule-2.pdf"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/7f448a79b2cb29fdf2f5.webp",
+      "sourceInitials": "PHE",
+      "sourceTags": [
+        "團體樂團",
+        "比賽",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_whf_world_harmonica_festival",
+          "name": "World Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "whf_world_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-136",
       "publicId": "136",
       "name": "Project X",
@@ -12996,6 +13180,52 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/100075740116023",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-274",
+      "publicId": "274",
+      "name": "Resonance Storm",
+      "nameEn": "Resonance Storm",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "重奏/國際比賽/WHF 2025/林家靖編曲",
+      "structuredSummary": "重奏/國際比賽/WHF 2025/林家靖編曲 / 口琴重奏 / 演出團體",
+      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含重奏、國際比賽與WHF 2025。",
+      "keywords": "Resonance Storm Taiwan harmonica WHF 2025 Taiwan Fantasy Giant Tree Rolabo Lin",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://worldharmonicafestival.de/wp-content/uploads/2025/09/WHF_2025_Competition_Participant_List__Schedule-2.pdf"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/7f448a79b2cb29fdf2f5.webp",
+      "sourceInitials": "RS",
+      "sourceTags": [
+        "團體樂團",
+        "比賽",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_whf_world_harmonica_festival",
+          "name": "World Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "whf_world_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
           "feedUrl": ""
         }
       ]
@@ -16489,7 +16719,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "links": [
         {
           "label": "網站",
-          "url": "https://www.aphfhx.com/"
+          "url": "https://easttopharmonica.com/artistitem.asp?plt=52"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/jhr0508/videos"
         }
       ],
       "source": "watchlist",
@@ -16504,6 +16738,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者",
         "半音階",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_jhr0508",
+          "name": "Monica J",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/jhr0508/videos",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -17551,11 +17796,11 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 271,
+    "totalEntries": 276,
     "categories": {
       "其他來源": 2,
       "國際交流": 11,
-      "團體樂團": 66,
+      "團體樂團": 71,
       "場館平台": 7,
       "學校社團": 38,
       "教學器材": 21,
@@ -17563,7 +17808,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "演奏者": 97
     },
     "countries": {
-      "中國": 29,
+      "中國": 30,
       "丹麥": 1,
       "以色列": 1,
       "俄羅斯": 1,
@@ -17581,7 +17826,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "瑞士": 1,
       "紐西蘭": 1,
       "美國": 7,
-      "臺灣": 120,
+      "臺灣": 124,
       "英國": 3,
       "荷蘭": 1,
       "西班牙": 2,
@@ -17591,24 +17836,24 @@ window.HARMONICA_OBSERVE_DATA = {
       "馬來西亞": 13
     },
     "watchSources": {
-      "totalSources": 668,
+      "totalSources": 669,
       "rsshubSources": 380,
       "apifySources": 155,
       "facebookSources": 155,
-      "youtubeSources": 133,
+      "youtubeSources": 134,
       "platforms": {
         "facebook": 155,
         "instagram": 340,
         "threads": 28,
         "x": 12,
-        "youtube": 133
+        "youtube": 134
       },
       "types": {
         "facebook_page_posts": 155,
         "rss": 40,
         "rsshub_instagram_profile": 170,
         "rsshub_instagram_story": 170,
-        "youtube_ytdlp": 133
+        "youtube_ytdlp": 134
       }
     }
   }
