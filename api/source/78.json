@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T22:03:18.784073Z",
+  "generatedAt": "2026-08-19T09:44:22.732353Z",
   "source": {
     "id": 78,
     "slug": "78",
@@ -214,20 +214,6 @@
       "publishedAt": "2026-07-22T09:08:41Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/1167c652cb0566a5a629.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-6f3f2411572b7d3f144f3450",
-      "title": "2026藝術學習推廣【國際論壇暨工作坊】訪談精華- Part 4「 藝術能跨越界線，讓人們聚在一起」",
-      "excerpt": "2026藝術學習推廣【國際論壇暨工作坊】訪談精華- Part 4「 藝術能跨越界線，讓人們聚在一起」 正如德勒斯登國家劇院公民舞台藝術總監克莉斯蒂安娜．萊曼（Christiane LEHMANN）所說：「藝術能跨越界線，讓人們聚在一起。」 我們生活在同一個社會，卻不一定有機會遇見彼此。而藝術，正是創造相遇的空間。透過創作與傾聽，我們得以重新理解彼此，在差異中看見生命的價值。我們在衛武營持續創造這份跨越界線、傳遞連結的力量！ ▌活動精彩回顧60秒｜ ▌官網活動詳情與側記 | 💡更多學習推廣活動｜",
-      "url": "https://www.youtube.com/watch?v=6UNW6Z479qw",
-      "sourceName": "衛武營國家藝術文化中心",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-19T04:00:04Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/af8b99f8aae7b128da9b.webp",
         "width": 800,
         "height": 450
       }

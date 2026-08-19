@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T22:03:18.784073Z",
+  "generatedAt": "2026-08-19T09:44:22.732353Z",
   "source": {
     "id": 125,
     "slug": "jens-bunge",
@@ -118,34 +118,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/6dd8a1ad006c337b7639.webp",
         "width": 800,
         "height": 1067
-      }
-    },
-    {
-      "id": "post-9aaca5bf9274630177df38cd",
-      "title": "Spicy (!!) Rice Vermicelli with Mackerel - my lips are on fire now, but luckily I still have some hours left until I pl…",
-      "excerpt": "Spicy (!!) Rice Vermicelli with Mackerel - my lips are on fire now, but luckily I still have some hours left until I play harmonica 😆!",
-      "url": "https://www.instagram.com/p/DbAUPPguP2b/",
-      "sourceName": "Jens Bunge",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-20T06:44:07Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/681b877386f4a7bfff23.webp",
-        "width": 800,
-        "height": 800
-      }
-    },
-    {
-      "id": "post-8f9d2a139d72e3cfdc2370f0",
-      "title": "Jam Session at Queen Bee “Jazz On Sukhumvit”",
-      "excerpt": "Jam Session at Queen Bee “Jazz On Sukhumvit”",
-      "url": "https://www.instagram.com/p/Da-QXJhFkxI/",
-      "sourceName": "Jens Bunge",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-19T11:26:51Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/ace07194416f4b96d3da.webp",
-        "width": 800,
-        "height": 600
       }
     }
   ]

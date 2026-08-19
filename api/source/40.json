@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T22:03:18.784073Z",
+  "generatedAt": "2026-08-19T09:44:22.732353Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -186,20 +186,6 @@
       "publishedAt": "2026-07-21T00:00:05Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/f43b2cc86fe76dbf8af5.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-975ca545179c020004e2341a",
-      "title": "【就是吹口琴Just Play Harmonica 】｜龍千玉 – 故鄉之戀｜複音口琴Tremolo Harmonica 演奏版本《C調》",
-      "excerpt": "【就是吹口琴Just Play Harmonica 】｜龍千玉 – 故鄉之戀｜複音口琴Tremolo Harmonica 演奏版本《C調》 故鄉之戀 石國人 作曲 石國人 作詞 龍千玉 原唱 複音口琴演奏版本《C調》",
-      "url": "https://www.youtube.com/watch?v=HKnB6bgzLyM",
-      "sourceName": "陳鴻儀",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-19T00:00:05Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/44ff36b6829c5e9da2d8.webp",
         "width": 800,
         "height": 450
       }

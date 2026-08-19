@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T22:03:18.784073Z",
+  "generatedAt": "2026-08-19T09:44:22.732353Z",
   "source": {
     "id": 58,
     "slug": "minami-risa",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/58-minami-risa/"
   },
   "items": [
+    {
+      "id": "post-41170cbed5dbb1ec01d02172",
+      "title": "公開リハーサル | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powe... #A...",
+      "excerpt": "公開リハーサル | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powe... #A... 公開リハーサル | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powe... #Amebaブログ #アメブロ #南里沙 #クロマチックハーモニカ",
+      "url": "https://x.com/minami_risa/status/2089741724881154208",
+      "sourceName": "南里沙",
+      "platform": "X",
+      "publishedAt": "2026-08-18T15:50:27Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/05c4434507063a001606.webp",
+        "width": 800,
+        "height": 453
+      }
+    },
     {
       "id": "post-5b04c5e2b0019ccedf8c6662",
       "title": "明日はRJ♬ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by Ameba",
@@ -690,20 +704,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/88f599db9aa8e375f0b6.webp",
         "width": 512,
         "height": 640
-      }
-    },
-    {
-      "id": "post-293884f8a504d7954e20e09e",
-      "title": "神戸でのレッスン♬ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Po... ...",
-      "excerpt": "神戸でのレッスン♬ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Po... ... 神戸でのレッスン♬ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Po... #Amebaブログ #アメブロ #南里沙 #クロマチックハーモニカ",
-      "url": "https://x.com/minami_risa/status/2078863696043106407",
-      "sourceName": "南里沙",
-      "platform": "X",
-      "publishedAt": "2026-07-19T15:25:03Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/0d7aeebf22a5e9b77aab.webp",
-        "width": 800,
-        "height": 600
       }
     }
   ]

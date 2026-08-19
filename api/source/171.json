@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T22:03:18.784073Z",
+  "generatedAt": "2026-08-19T09:44:22.732353Z",
   "source": {
     "id": 171,
     "slug": "society-for-the-preservation-and-advancement-of-the-harmonica",
@@ -258,20 +258,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/2ac7857917271b917344.webp",
         "width": 800,
         "height": 765
-      }
-    },
-    {
-      "id": "post-44ab48bf30165a8ea10e2af5",
-      "title": "25 days!",
-      "excerpt": "25 days! #soah #joinus #harmonica #harp #harmonicalife",
-      "url": "https://www.instagram.com/p/Da-3PymqgJy/",
-      "sourceName": "口琴保存與推廣協會 SPAH",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-19T17:19:19Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/9245f121904e2c3bb168.webp",
-        "width": 800,
-        "height": 600
       }
     }
   ]

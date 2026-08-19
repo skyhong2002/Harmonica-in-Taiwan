@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T22:03:18.784073Z",
+  "generatedAt": "2026-08-19T09:44:22.732353Z",
   "source": {
     "id": 33,
     "slug": "33",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/33/"
   },
   "items": [
+    {
+      "id": "post-e4eeaa3a35a268b1200a819e",
+      "title": "Moving right along to our next quick lesson: @chris_kramer_harmonica_player breaks down Blues Riff #5. Super simple, to…",
+      "excerpt": "Moving right along to our next quick lesson: @chris_kramer_harmonica_player breaks down Blues Riff #5. Super simple, totally straightforward and ready... Moving right along to our next quick lesson: @chris_kramer_harmonica_player breaks down Blues Riff #5. Super simple, totally…",
+      "url": "https://www.instagram.com/p/DcLkDquRY-j/",
+      "sourceName": "黃冠誌",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-18T12:00:07Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9f32bfab9a4d6e761294.webp",
+        "width": 800,
+        "height": 1423
+      }
+    },
     {
       "id": "post-08eac36a31ed897ba55fe902",
       "title": "Sometimes, one performance changes the way you hear an instrument forever. 🎶",
@@ -118,20 +132,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/9a126fa323528dfa9303.webp",
         "width": 800,
         "height": 450
-      }
-    },
-    {
-      "id": "post-de83888bcd14d701e0852320",
-      "title": "口琴記得要拿對方向喔，讓大明老師示範一下🤓",
-      "excerpt": "口琴記得要拿對方向喔，讓大明老師示範一下🤓",
-      "url": "https://www.instagram.com/p/Da__8LmRYeb/",
-      "sourceName": "黃冠誌",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-20T03:43:50Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/6640a69cc1f54e036588.webp",
-        "width": 800,
-        "height": 600
       }
     }
   ]

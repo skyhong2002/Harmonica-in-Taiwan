@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T22:03:18.784073Z",
+  "generatedAt": "2026-08-19T09:44:22.732353Z",
   "source": {
     "id": 4,
     "slug": "judy-s-harmonica-ensemble",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/4-judy-s-harmonica-ensemble/"
   },
   "items": [
+    {
+      "id": "post-430d2af0fd7922b9df527f37",
+      "title": "📢 我們登上日本口琴雜誌了！明年四月將赴日演出！！",
+      "excerpt": "📢 我們登上日本口琴雜誌了！明年四月將赴日演出！！ 我們受邀接受日本口琴藝術協會發行的《口琴藝術》雜誌採訪！這是日本口琴界歷史悠久的情報誌，本期已來到第233號🤩 明年四月，我們也將受邀前往東京參加「日本ハーモニカまつり2027」（2027年日本口琴音樂節）！這場活動適逢口琴誕生200週年，以及口琴大師佐藤秀廊世界冠軍100週年，對日本口琴界而言，是相當具有意義的一場活動！ 以下先和大家分享這次採訪中的有趣內容😆😆 🔹 莊筑迪 童年學的是美術，直到高中才第一次接觸口琴。大學時決定休學，全心投入成為職業口琴演奏家。祖母是日本人，但本人完全不會說日文😆 平…",
+      "url": "https://www.instagram.com/p/DcK6HEWkd90/",
+      "sourceName": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-18T15:04:34Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/74dd45dc221110402806.webp",
+        "width": 800,
+        "height": 1067
+      }
+    },
     {
       "id": "post-813594e73a8d316fc9f3b2b8",
       "title": "@judys.harmonica.ensemble: 2026.07 蘇州 & 上海遊記碎片～✨✨",
@@ -141,20 +155,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/cb30a00586f96396d1c9.webp",
         "width": 800,
         "height": 535
-      }
-    },
-    {
-      "id": "post-15f627c7633779e5cdbcbbc8",
-      "title": "彩排中～～～",
-      "excerpt": "彩排中～～～ 今晚在蕉城演出🥳🎶 #第二屆蕉城口琴文化周 #茱蒂口琴樂團",
-      "url": "https://www.instagram.com/p/Da-IN03xSrZ/",
-      "sourceName": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-19T11:04:52Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/bb29d1174d0794e8db18.webp",
-        "width": 800,
-        "height": 600
       }
     }
   ]
