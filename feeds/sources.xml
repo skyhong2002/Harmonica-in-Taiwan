@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 19 Aug 2026 21:32:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 21:42:05 +0000</lastBuildDate>
     <item>
       <title>Jong-seong Park 朴鍾聲</title>
       <link>https://www.mnac.co.kr/jongseongpark</link>
@@ -118,14 +118,14 @@ Tag：演奏者、團體樂團、半音階、重奏
     </item>
     <item>
       <title>胖擊口琴樂團</title>
-      <link>https://linktr.ee/punch.harp</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c710aae1bf2f4665</guid>
+      <link>https://www.taiwanharmonica.com/punch</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/d0c5615e9bada7d2</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <description>分類：團體樂團
-Tag：團體樂團、重奏
+Tag：團體樂團、半音階、重奏、國際交流
 國家：臺灣
 地區：臺灣
-臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。</description>
+臺灣的半音階口琴、和弦口琴與倍低音口琴國際演出團體與音樂教育推廣，活動脈絡包含口琴重奏、2016成立與五人編制。</description>
     </item>
     <item>
       <title>Evelyn Choong 鍾雪兒</title>
@@ -289,8 +289,8 @@ Tag：教學器材、教學
       <description>分類：演奏者
 Tag：演奏者、教學、半音階、國際交流
 國家：韓國
-地區：韓國
-韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。</description>
+地區：韓國/首爾
+韓國的半音階口琴國際演出人員與教學者，活動脈絡包含首爾藝術大學實用音樂系口琴主修、半音階爵士與Seoul Soloists。</description>
     </item>
     <item>
       <title>Stay Drunk 口琴樂團</title>
@@ -540,10 +540,10 @@ Tag：演奏者、教學、重奏
       <guid>https://harmonica.observe.tw/feeds/sources/201628a6d5a3585c</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <description>分類：團體樂團
-Tag：團體樂團、半音階、國際交流、重奏、演出
+Tag：團體樂團、半音階、重奏、國際交流
 國家：韓國
 地區：韓國/首爾
-韓國口琴與鋼琴 Nuevo Tango 二重奏，由口琴演奏者 최희중 與鋼琴家 명나영 組成。</description>
+韓國的半音階口琴與鋼琴國際演出團體與二重奏，活動脈絡包含Nuevo Tango、世界音樂與口琴與鋼琴二重奏。</description>
     </item>
     <item>
       <title>李讓 Jang Li</title>
@@ -609,7 +609,7 @@ Tag：學生社團
 Tag：團體樂團、重奏
 國家：臺灣
 地區：臺灣
-臺灣的口琴重奏演出團體，活動脈絡包含重奏、青年團體與演出。</description>
+臺灣的口琴重奏與小合奏演出團體，活動脈絡包含重奏、青年團體與演出。</description>
     </item>
     <item>
       <title>F.I.H. JAPAN ハーモニカコンテスト</title>
@@ -675,18 +675,18 @@ Tag：演奏者、比賽、半音階、國際交流
 Tag：活動資訊、團體樂團、音樂節、比賽、半音階、複音、十孔、重奏
 國家：臺灣
 地區：臺灣
-臺灣的核心活動與活動資訊來源，涵蓋音樂節、比賽、Gala、講座與午間音樂會。</description>
+臺灣的核心活動與活動資訊與比賽結果來源，涵蓋音樂節、比賽、Gala、講座與午間音樂會。</description>
     </item>
     <item>
       <title>天狼星口琴樂團 Sirius Harmonica Ensemble</title>
-      <link>https://www.facebook.com/SiriusHarp/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/5cea8f6e4720f081</guid>
+      <link>https://www.taiwanharmonica.com/sirius</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/1d79bff0b1b80c28</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏、國際交流
+      <description>分類：活動資訊
+Tag：活動資訊、團體樂團、音樂節、重奏、國際交流
 國家：臺灣
 地區：臺灣
-臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與THMF。</description>
+臺灣的國際演出團體與音樂節主辦，涵蓋2017 WHF小合奏冠軍、TAIWAN TOP、THMF主辦與近年SIHF FEN APHF交流。</description>
     </item>
     <item>
       <title>王衍華</title>
@@ -1420,10 +1420,10 @@ Tag：演奏者、團體樂團、教學、半音階
       <guid>https://harmonica.observe.tw/feeds/sources/557b65e8af3dd511</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <description>分類：教學器材
-Tag：品牌、教學器材、教學、半音階、複音、重奏
+Tag：品牌、教學器材、團體樂團、教學、半音階、複音、重奏
 國家：臺灣
 地區：臺灣
-臺灣的半音階、複音、Bass與Chord教學與維修來源，關注口琴教學、維修、重奏與硬體。</description>
+臺灣的半音階、複音、Bass與Chord教學、維修來源與演出團體，關注口琴教學、維修、重奏、硬體與THMF 2026大合奏公開組第六名。</description>
     </item>
     <item>
       <title>萬興國小口琴隊</title>
@@ -1566,7 +1566,7 @@ Tag：學生社團、大專社團、團體樂團
 Tag：團體樂團
 國家：臺灣
 地區：臺灣
-臺灣的口琴合奏演出團體，活動脈絡包含南部口琴合奏。</description>
+臺灣的口琴大合奏演出團體，活動脈絡包含南部口琴合奏與THMF 2026大合奏公開組並列季軍。</description>
     </item>
     <item>
       <title>高雄中學口琴社</title>
@@ -1779,14 +1779,14 @@ Tag：協會、國際交流
     </item>
     <item>
       <title>中國大眾音樂協會口琴專業委員會</title>
-      <link>https://www.harmonica.org.cn/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/592f8ede35829cf5</guid>
+      <link>https://www.harmonica.org.cn/about.asp</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/cfc0008fcff24bd6</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <description>分類：國際交流
 Tag：協會、國際交流、團體樂團
 國家：中國
 地區：中國/江蘇/無錫/江陰
-中國的國際協會與資訊來源，關注全國口琴組織、活動、考級、會員與教師與樂團。</description>
+中國的全國性協會、教育與考級機構與活動主辦與資訊來源，關注全國口琴組織、普及教育與師資培訓、等級考試、教材出版與口琴節與賽事。</description>
     </item>
     <item>
       <title>中國大眾音樂協會口琴考級網</title>
@@ -1885,7 +1885,7 @@ Tag：國際交流、團體樂團、比賽、半音階、複音
 Tag：團體樂團
 國家：臺灣
 地區：臺灣
-臺灣的口琴小合奏演出團體，活動脈絡包含小合奏與THMF 2026 公開組。</description>
+臺灣的口琴小合奏演出團體，活動脈絡包含小合奏與THMF 2026小合奏公開組季軍。</description>
     </item>
     <item>
       <title>Ausgelassen x Wesley Wong</title>
@@ -1929,7 +1929,7 @@ Tag：團體樂團、教學、重奏
 Tag：團體樂團
 國家：臺灣
 地區：臺灣
-臺灣的口琴小合奏演出團體，活動脈絡包含小合奏與THMF 2026 公開組。</description>
+臺灣的口琴小合奏演出團體，活動脈絡包含小合奏與THMF 2026小合奏公開組第四名。</description>
     </item>
     <item>
       <title>Cookie Monster 口琴二重奏</title>
@@ -1984,7 +1984,7 @@ Tag：團體樂團、重奏
 Tag：團體樂團、重奏
 國家：臺灣
 地區：臺灣
-臺灣的口琴三重奏與小合奏演出團體，活動脈絡包含三重奏與THMF 2026 公開組。</description>
+臺灣的口琴三重奏與小合奏演出團體，活動脈絡包含三重奏與THMF 2026小合奏公開組並列亞軍。</description>
     </item>
     <item>
       <title>Heartstrings in Harmony</title>
@@ -2196,17 +2196,6 @@ Tag：團體樂團、教學、重奏、國際交流
 中國的口琴重奏與合奏演出團體與教學團體，活動脈絡包含1981成立、社區口琴教育與民族與交響合奏。</description>
     </item>
     <item>
-      <title>中國大眾音協口琴樂團</title>
-      <link>https://www.aphfhx.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/8b7f8e6903a3fec1</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、國際交流
-國家：中國
-地區：中國
-中國的口琴大合奏國際演出團體，活動脈絡包含全國口琴組織、大合奏與展演。</description>
-    </item>
-    <item>
       <title>中國魔幻之聲口琴重奏團 The Magic Harmonica Ensemble</title>
       <link>https://seelectronics.com/artists/the-magic-harmonica-ensemble/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/92a30aee0925fef9</guid>
@@ -2237,7 +2226,7 @@ Tag：團體樂團
 Tag：團體樂團
 國家：臺灣
 地區：臺灣
-臺灣的口琴大合奏演出團體，活動脈絡包含大合奏、THMF 2026 公開組與跨團合作。</description>
+臺灣的口琴大合奏演出團體，活動脈絡包含大合奏、跨團合作與THMF 2026大合奏公開組亞軍。</description>
     </item>
     <item>
       <title>庫里奇巴口琴樂團</title>
@@ -2270,7 +2259,7 @@ Tag：團體樂團
 Tag：團體樂團、國際交流
 國家：香港
 地區：香港
-香港的口琴合奏國際演出團體，活動脈絡包含社群演出與教育。</description>
+香港的口琴大合奏國際演出團體，活動脈絡包含口琴合奏、社群演出與教育。</description>
     </item>
     <item>
       <title>海豚星樂團</title>
@@ -2281,7 +2270,7 @@ Tag：團體樂團、國際交流
 Tag：團體樂團
 國家：臺灣
 地區：臺灣/南投
-臺灣的口琴大合奏演出團體與教育推廣，活動脈絡包含跨世代合奏、偏鄉音樂教育與THMF 2026 公開組。</description>
+臺灣的口琴大合奏演出團體與教育推廣，活動脈絡包含跨世代合奏、偏鄉音樂教育與THMF 2026大合奏公開組第七名。</description>
     </item>
     <item>
       <title>濟南大眾口琴樂團</title>
@@ -2314,7 +2303,7 @@ Tag：團體樂團、半音階、重奏
 Tag：團體樂團
 國家：臺灣
 地區：臺灣
-臺灣的口琴大合奏演出團體，活動脈絡包含大合奏與THMF 2026 公開組。</description>
+臺灣的口琴大合奏演出團體，活動脈絡包含大合奏與THMF 2026大合奏公開組第五名。</description>
     </item>
     <item>
       <title>臺中市中華口琴會</title>
@@ -2383,6 +2372,17 @@ Tag：團體樂團、半音階、國際交流
 韓國的口琴管弦樂團國際演出團體，活動脈絡包含大型口琴管弦樂團、半音階與和弦。</description>
     </item>
     <item>
+      <title>首爾獨奏家口琴樂團</title>
+      <link>https://www.taiwanharmonica.com/2026artists-midday</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/f627395db2721941</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、半音階、複音、國際交流
+國家：韓國
+地區：韓國/首爾
+韓國的半音階、複音與口琴合奏國際演出團體，活動脈絡包含朴鍾聲核心獨奏家樂團、Seokhwa Bang與Seokbeom Jang。</description>
+    </item>
+    <item>
       <title>高雄市口琴協會</title>
       <link>https://art-garden.khcc.gov.tw/introduction/team/16121</link>
       <guid>https://harmonica.observe.tw/feeds/sources/9af2c74dcb03ec20</guid>
@@ -2402,7 +2402,7 @@ Tag：協會、團體樂團
 Tag：團體樂團
 國家：臺灣
 地區：臺灣
-臺灣的口琴大合奏演出團體，活動脈絡包含大合奏與THMF 2026 公開組。</description>
+臺灣的口琴大合奏演出團體，活動脈絡包含大合奏與THMF 2026大合奏公開組冠軍。</description>
     </item>
     <item>
       <title>新竹市文化局</title>
@@ -2823,6 +2823,28 @@ Tag：活動資訊、比賽、重奏
 中國的活動來源，涵蓋2026西南口琴藝術展演、報名與區域交流。</description>
     </item>
     <item>
+      <title>中國大眾音協口琴樂團</title>
+      <link>https://aphfx-1255574727.cos.ap-shanghai.myqcloud.com/20251225/416d60da462842daa00b391b22745c24.mp4</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/d9d8e0ea84907d7d</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、團體樂團、音樂節、半音階、複音、國際交流
+國家：中國
+地區：中國
+中國的全國協會樂團與國際音樂節演出團體，涵蓋中國大眾音樂協會口琴專業委員會大型合奏、《西遊記》主題演出、華夏與亞太口琴節與全國口琴交流。</description>
+    </item>
+    <item>
+      <title>劉銘澤</title>
+      <link>https://aphfx-1255574727.cos.ap-shanghai.myqcloud.com/20251225/1bec01327740414fa644a2a0da44e08c.mp4</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/a2948ca12420fdd7</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、演奏者、音樂節
+國家：中國
+地區：中國
+中國的音樂節演出人員，涵蓋口琴獨奏、《紫色激情》與華夏與亞太口琴節公開演出。</description>
+    </item>
+    <item>
       <title>巴西口琴論壇</title>
       <link>https://www.facebook.com/forumharmonicas/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/7479197c8433fd61</guid>
@@ -2876,17 +2898,6 @@ Tag：活動資訊、比賽、半音階、複音、十孔、重奏
 國家：中國
 地區：中國/遼寧/遼陽/白塔
 中國的活動來源，涵蓋2025、8、20-24、口琴大賽與音樂會。</description>
-    </item>
-    <item>
-      <title>首爾獨奏家口琴樂團</title>
-      <link>https://www.taiwanharmonica.com/2026artists-midday</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/f627395db2721941</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：活動資訊、團體樂團、音樂節、半音階、複音、國際交流
-國家：韓國
-地區：韓國/首爾
-韓國的國際演出團體，涵蓋獨奏家樂團、朴鍾聲、國際音樂節與THMF 2026。</description>
     </item>
     <item>
       <title>香港國際半音階口琴大賽</title>
@@ -3032,17 +3043,6 @@ Tag：演奏者、國際交流
 中國的口琴國際演出人員與口琴設計研究者，活動脈絡包含口琴演奏、口琴聲學與製琴。</description>
     </item>
     <item>
-      <title>Long Deng Jie 龍登杰</title>
-      <link>https://www.facebook.com/long.deng.jie/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/286c5a7370404a19</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：中國
-地區：中國
-中國的半音階國際演出人員，活動脈絡包含中國原創口琴演奏與社群演出。</description>
-    </item>
-    <item>
       <title>Michał Kielak</title>
       <link>https://kielak.pl/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/c0f3b7028838b5e1</guid>
@@ -3061,8 +3061,8 @@ Tag：演奏者、十孔、國際交流
       <description>分類：演奏者
 Tag：演奏者、半音階、國際交流
 國家：韓國
-地區：韓國
-韓國的半音階國際演出人員與評審，活動脈絡包含演出、評審與亞太與首爾口琴節。</description>
+地區：韓國/首爾
+韓國的半音階口琴國際演出人員與評審，活動脈絡包含首爾藝術大學口琴主修、EASTTOP藝人與2026 APHF與SIHF評審。</description>
     </item>
     <item>
       <title>Takamoto Mizuno</title>
@@ -3092,10 +3092,10 @@ Tag：演奏者、教學
       <guid>https://harmonica.observe.tw/feeds/sources/b6a6c5da6d196717</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
+Tag：演奏者、教學、半音階、十孔、國際交流
 國家：中國
-地區：中國
-中國的半音階國際演出人員，活動脈絡包含WHF 2025開幕、世界冠軍與半音階與爵士跨界。</description>
+地區：中國/江西/南昌
+中國的十孔口琴與半音階口琴國際演出人員與HOHNER Conservatory 爵士與合奏教師，活動脈絡包含爵士、藍調與世界音樂與流行跨界。</description>
     </item>
     <item>
       <title>Tony Eyers</title>
@@ -3120,17 +3120,6 @@ Tag：演奏者、團體樂團、重奏
 臺灣的口琴演出人員與樂團成員，活動脈絡包含Dr. Blue、學生重奏與演出。</description>
     </item>
     <item>
-      <title>Yuanmao Wang</title>
-      <link>https://www.youtube.com/@YuanmaoWang</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/58e449198d955384</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、國際交流
-國家：中國
-地區：中國
-中國的口琴國際演出人員，活動脈絡包含中國口琴演奏與國際交流。</description>
-    </item>
-    <item>
       <title>傅泓亮</title>
       <link>https://www.jstz.gov.cn/a/20230313/1678688627693.shtml</link>
       <guid>https://harmonica.observe.tw/feeds/sources/31fa360348c9b4c9</guid>
@@ -3140,17 +3129,6 @@ Tag：演奏者、教學、半音階、複音、國際交流
 國家：中國
 地區：中國/甘肅/蘭州
 中國的複音與半音階國際演出人員與教師，活動脈絡包含演出、教學與國際賽事。</description>
-    </item>
-    <item>
-      <title>劉銘澤</title>
-      <link>https://www.aphfhx.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/8ef99219222722c2</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、國際交流
-國家：中國
-地區：中國
-中國的口琴國際演出人員，活動脈絡包含口琴演奏、華夏與亞太口琴節與公開演出。</description>
     </item>
     <item>
       <title>和谷泰扶 Yasuo Watani</title>
@@ -3169,10 +3147,10 @@ Tag：演奏者、半音階、國際交流
       <guid>https://harmonica.observe.tw/feeds/sources/d237dc0b1283c711</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <description>分類：演奏者
-Tag：演奏者、教學、半音階、國際交流
+Tag：演奏者、教學、半音階、重奏、國際交流
 國家：韓國
 地區：韓國/首爾
-韓國的半音階口琴國際演出人員、大學教師與口琴學院代表，活動脈絡包含Into The Harmonica代表、演奏與教學與編曲。</description>
+韓國的半音階口琴國際演出人員、大學教師與口琴學院代表，活動脈絡包含Into The Harmonica代表、演奏教學與編曲與2012 APHF二重奏三重奏大合奏冠軍。</description>
     </item>
     <item>
       <title>張雅誥</title>
@@ -3194,7 +3172,7 @@ Tag：演奏者、複音、國際交流
 Tag：演奏者、團體樂團、半音階、複音
 國家：臺灣
 地區：臺灣/臺東/高雄
-臺灣的半音階與複音演出人員與樂團成員，活動脈絡包含青年演奏、THMF與SIHF。</description>
+臺灣的半音階與複音演出人員與樂團成員，活動脈絡包含青年演奏、飛飛飛 Triple F與口琴好南。</description>
     </item>
     <item>
       <title>李志華</title>
@@ -3213,10 +3191,21 @@ Tag：演奏者、半音階、複音、重奏、國際交流
       <guid>https://harmonica.observe.tw/feeds/sources/68fc371b63720ee3</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <description>分類：演奏者
-Tag：演奏者、團體樂團、重奏
+Tag：演奏者、團體樂團、半音階、重奏
 國家：臺灣
 地區：臺灣
-臺灣的口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF。</description>
+臺灣的半音階口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF 2026半音階獨奏公開組季軍。</description>
+    </item>
+    <item>
+      <title>林津鋒</title>
+      <link>https://hohner.de/en/lin-jinfeng</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/a1a8963dd21be967</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、團體樂團、十孔、國際交流
+國家：中國
+地區：中國/福建/莆田/仙游
+中國的十孔口琴國際演出人員、歌手與演員與HOHNER 藝人，活動脈絡包含十孔口琴演奏、獨奏與樂團合作與影視配樂。</description>
     </item>
     <item>
       <title>林筱茹</title>
@@ -3261,6 +3250,17 @@ Tag：演奏者、十孔、國際交流
 國家：中國
 地區：中國/北京
 中國的十孔口琴、長笛與吉他國際演出人員、創作歌手與賽事評委，活動脈絡包含中國藍調口琴先行者、流行錄音與現場演奏與七合板樂隊。</description>
+    </item>
+    <item>
+      <title>王元懋</title>
+      <link>https://www.jdrharmonica.com/pages/yuanmao-wang-%E7%8E%8B%E5%85%83%E6%87%8B</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/5e0d6abdbca29318</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：中國
+地區：中國
+中國的半音階口琴國際演出人員、影視錄音樂手與JDR 藝人，活動脈絡包含半音階獨奏、首屆華夏公開組冠軍與2023 SIHF 半音階公開組與全場總冠軍。</description>
     </item>
     <item>
       <title>田中光栄 Koei Tanaka</title>
@@ -3318,6 +3318,17 @@ Tag：演奏者、團體樂團、重奏
 臺灣的和弦口琴演出人員、樂團成員與錄音工作者，活動脈絡包含Dr. Blue、錄音與學生重奏。</description>
     </item>
     <item>
+      <title>藍饃饃</title>
+      <link>https://www.jdrharmonica.com/pages/bunmonica-du</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/05c416819823cda1</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、工作室、十孔、國際交流
+國家：中國
+地區：中國
+中國的十孔口琴國際演出人員、教師與專業調音師，活動脈絡包含十孔口琴演奏、APHF 2018 公開組冠軍與SIHF 2024 亞軍。</description>
+    </item>
+    <item>
       <title>邴國榮</title>
       <link>https://www.instagram.com/xdgaste/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/144a06931c30f54d</guid>
@@ -3356,10 +3367,10 @@ Tag：演奏者、團體樂團、重奏
       <guid>https://harmonica.observe.tw/feeds/sources/191bfbed76dbe607</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <description>分類：演奏者
-Tag：演奏者、團體樂團、重奏
+Tag：演奏者、團體樂團、半音階、重奏
 國家：臺灣
 地區：臺灣/彰化
-臺灣的口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF。</description>
+臺灣的半音階口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF 2026半音階獨奏公開組第五名。</description>
     </item>
     <item>
       <title>陳詩霖</title>
@@ -3384,6 +3395,17 @@ Tag：演奏者、複音、國際交流
 香港的複音國際演出人員、講師與協會理事，活動脈絡包含五葉草口琴隊、亞太與首爾口琴節冠軍與香港口琴協會理事。</description>
     </item>
     <item>
+      <title>龍登杰</title>
+      <link>https://hohner.de/en/long-deng-jie</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/969de4059e68e2f7</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、半音階、十孔、國際交流
+國家：中國
+地區：中國/廣東/廣州
+中國的十孔口琴與半音階口琴國際演出人員、作曲與錄音樂手與教師，活動脈絡包含爵士口琴、十孔與半音階與原創音樂。</description>
+    </item>
+    <item>
       <title>류선웅 Sunwoong Ryu</title>
       <link>https://www.daejeon.go.kr/djac/performanceView.do?code=5379&amp;listCondition=&amp;menuSeq=6709&amp;pageIndex=1&amp;type=image&amp;yyyymm=202604</link>
       <guid>https://harmonica.observe.tw/feeds/sources/01b58a02e49e3a7b</guid>
@@ -3392,7 +3414,7 @@ Tag：演奏者、複音、國際交流
 Tag：演奏者、團體樂團、半音階、國際交流
 國家：韓國
 地區：韓國/大田/首爾
-韓國的半音階國際演出人員與音樂教師，活動脈絡包含古典、Seoul Soloists Harmonica Orchestra與WHF 2025 團體冠軍。</description>
+韓國的半音階口琴國際演出人員與音樂教師，活動脈絡包含半音階、古典與Seoul Soloists。</description>
     </item>
   </channel>
 </rss>

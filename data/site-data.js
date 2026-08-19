@@ -243,6 +243,92 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-55",
+      "publicId": "55",
+      "name": "梁承熹 Kelvin Leung",
+      "nameEn": "Kelvin Leung",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "THMF交流/演出",
+      "structuredSummary": "THMF交流/演出 / 半音階 / 國際演出人員",
+      "summary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
+      "keywords": "梁承熹 Kelvin Leung harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica-kelvin.weebly.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kelvinleungsh/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sorhei/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@KelvinLeungharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-19T15:05:34+00:00",
+      "latestUpdateLocal": "2026-08-19 23:05",
+      "latestUpdateSource": "梁承熹 Kelvin Leung",
+      "latestUpdateUrl": "https://www.instagram.com/stories/sorhei/3967240429573426362/",
+      "avatarUrl": "/assets/source-avatars/0c9e9143d106ffe600b5.webp",
+      "sourceInitials": "KL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "sourceSummary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
+      "sourceTagReason": "來源明確標示為『演奏者』，類型為『個人』，區域為『香港』，摘要提及『THMF交流/演出』與『半音階』。",
+      "monitorSources": [
+        {
+          "id": "fb_kelvinleungsh",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/kelvinleungsh",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sorhei",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sorhei",
+          "profileUrl": "https://www.instagram.com/sorhei/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sorhei",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sorhei",
+          "profileUrl": "https://www.instagram.com/sorhei/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sorhei/story/0"
+        },
+        {
+          "id": "yt_kelvinleungharmonica",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@KelvinLeungharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-49",
       "publicId": "49",
       "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
@@ -758,14 +844,14 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "重奏/公演/年輕團體/SIHF 2026",
-      "structuredSummary": "重奏/公演/年輕團體/SIHF 2026 / 口琴重奏/合奏 / 演出團體",
-      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。",
-      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團 SIHF 2026",
+      "cityOrFocus": "口琴重奏/2016成立/五人編制/SIHF三重奏與重奏冠軍/2025 WHF三重奏與小合奏亞軍/THMF與SIHF 2026",
+      "structuredSummary": "口琴重奏/2016成立/五人編制/SIHF三重奏與重奏冠軍/2025 WHF三重奏與小合奏亞軍/THMF與SIHF 2026 / 半音階口琴/和弦口琴/倍低音口琴 / 國際演出團體/音樂教育推廣",
+      "summary": "臺灣的半音階口琴、和弦口琴與倍低音口琴國際演出團體與音樂教育推廣，活動脈絡包含口琴重奏、2016成立與五人編制。",
+      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團 THMF SIHF 2026 WHF 2025 黃冠誌 王衍華 林裕豐 王心禾 陳聰",
       "links": [
         {
           "label": "網站",
-          "url": "https://linktr.ee/punch.harp"
+          "url": "https://www.taiwanharmonica.com/punch"
         },
         {
           "label": "Facebook",
@@ -794,7 +880,9 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "胖擊",
       "sourceTags": [
         "團體樂團",
-        "重奏"
+        "半音階",
+        "重奏",
+        "國際交流"
       ],
       "monitorSources": [
         {
@@ -2035,11 +2123,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "type": "個人",
       "originalType": "個人",
       "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "韓國口琴演奏/演出與教學/半音階爵士/首爾 2026 公演",
-      "structuredSummary": "韓國口琴演奏/演出與教學/半音階爵士/首爾 2026 公演 / 半音階/口琴 / 國際演出人員/教學者",
-      "summary": "韓國的半音階與口琴國際演出人員與教學者，活動脈絡包含韓國口琴演奏、演出與教學與半音階爵士。",
-      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica SIHF Seoul Gallery 2026",
+      "region": "韓國/首爾",
+      "cityOrFocus": "首爾藝術大學實用音樂系口琴主修/半音階爵士/Seoul Soloists/2025 WHF爵士半音階季軍/首爾 2026公演",
+      "structuredSummary": "首爾藝術大學實用音樂系口琴主修/半音階爵士/Seoul Soloists/2025 WHF爵士半音階季軍/首爾 2026公演 / 半音階口琴 / 國際演出人員/教學者",
+      "summary": "韓國的半音階口琴國際演出人員與教學者，活動脈絡包含首爾藝術大學實用音樂系口琴主修、半音階爵士與Seoul Soloists。",
+      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica Seoul Arts SSHO WHF 2025 jazz chromatic third SIHF 2026",
       "links": [
         {
           "label": "網站",
@@ -3779,10 +3867,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "團體",
       "country": "韓國",
       "region": "韓國/首爾",
-      "cityOrFocus": "Nuevo Tango/世界音樂/口琴與鋼琴二重奏/作曲/演出",
-      "structuredSummary": "Nuevo Tango/世界音樂/口琴與鋼琴二重奏/作曲/演出 / 半音階口琴/鋼琴 / 國際演出團體/二重奏",
-      "summary": "韓國口琴與鋼琴 Nuevo Tango 二重奏，由口琴演奏者 최희중 與鋼琴家 명나영 組成。",
-      "keywords": "El Caminito 엘까미니또 최희중 명나영 harmonica piano Nuevo Tango Korea",
+      "cityOrFocus": "Nuevo Tango/世界音樂/口琴與鋼琴二重奏/2017首張專輯Primavera/作曲與演出",
+      "structuredSummary": "Nuevo Tango/世界音樂/口琴與鋼琴二重奏/2017首張專輯Primavera/作曲與演出 / 半音階口琴/鋼琴 / 國際演出團體/二重奏",
+      "summary": "韓國的半音階口琴與鋼琴國際演出團體與二重奏，活動脈絡包含Nuevo Tango、世界音樂與口琴與鋼琴二重奏。",
+      "keywords": "El Caminito 엘까미니또 Choi Heejung 최희중 Nayoung Myung 명나영 harmonica piano Nuevo Tango Primavera 2017 Korea",
       "links": [
         {
           "label": "網站",
@@ -3812,12 +3900,9 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "團體樂團",
         "半音階",
-        "國際交流",
         "重奏",
-        "演出"
+        "國際交流"
       ],
-      "sourceSummary": "韓國口琴與鋼琴 Nuevo Tango 二重奏，由口琴演奏者 최희중 與鋼琴家 명나영 組成。",
-      "sourceTagReason": "整合自官方 Instagram、Facebook、YouTube 與 CJ 文化財團介紹。",
       "monitorSources": [
         {
           "id": "fb_duo_elcaminito",
@@ -4286,10 +4371,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "重奏/青年團體/演出",
-      "structuredSummary": "重奏/青年團體/演出 / 口琴重奏 / 演出團體",
-      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含重奏、青年團體與演出。",
-      "keywords": "進擊的口琴樂團 attack_on_harmonica_ensemble 口琴",
+      "cityOrFocus": "重奏/青年團體/演出/THMF 2026小合奏公開組並列亞軍",
+      "structuredSummary": "重奏/青年團體/演出/THMF 2026小合奏公開組並列亞軍 / 口琴重奏/小合奏 / 演出團體",
+      "summary": "臺灣的口琴重奏與小合奏演出團體，活動脈絡包含重奏、青年團體與演出。",
+      "keywords": "進擊的口琴樂團 Attack on Harmonica THMF 2026 小合奏 公開組 亞軍",
       "links": [
         {
           "label": "Instagram",
@@ -4786,10 +4871,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "活動/資訊入口",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "音樂節/比賽/Gala/講座/午間音樂會/新興團體/2026 臺灣口琴音樂節",
-      "structuredSummary": "音樂節/比賽/Gala/講座/午間音樂會/新興團體/2026 臺灣口琴音樂節 / 半音階/複音/十孔/重奏 / 核心活動/活動資訊來源",
-      "summary": "臺灣的核心活動與活動資訊來源，涵蓋音樂節、比賽、Gala、講座與午間音樂會。",
-      "keywords": "THMF 臺灣口琴音樂節 Taiwan Harmonica Music Festival 午間音樂會 新團體",
+      "cityOrFocus": "音樂節/比賽/Gala/講座/午間音樂會/新興團體/2026成績公告與結果入口",
+      "structuredSummary": "音樂節/比賽/Gala/講座/午間音樂會/新興團體/2026成績公告與結果入口 / 半音階/複音/十孔/重奏 / 核心活動/活動資訊與比賽結果來源",
+      "summary": "臺灣的核心活動與活動資訊與比賽結果來源，涵蓋音樂節、比賽、Gala、講座與午間音樂會。",
+      "keywords": "THMF 臺灣口琴音樂節 Taiwan Harmonica Music Festival 2026 成績 公開組 午間音樂會 Gala",
       "links": [
         {
           "label": "網站",
@@ -4870,16 +4955,20 @@ window.HARMONICA_OBSERVE_DATA = {
       "publicId": "3",
       "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
       "nameEn": "Sirius Harmonica Ensemble",
-      "category": "團體樂團",
+      "category": "活動資訊",
       "type": "團體",
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "重奏/公演/THMF/國際交流/SIHF 2026",
-      "structuredSummary": "重奏/公演/THMF/國際交流/SIHF 2026 / 口琴重奏/合奏 / 演出團體",
-      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與THMF。",
-      "keywords": "天狼星口琴樂團 Sirius Harmonica Ensemble SIHF 2026",
+      "cityOrFocus": "口琴重奏/2017 WHF小合奏冠軍/TAIWAN TOP/THMF主辦/近年SIHF FEN APHF交流/SIHF 2026",
+      "structuredSummary": "口琴重奏/2017 WHF小合奏冠軍/TAIWAN TOP/THMF主辦/近年SIHF FEN APHF交流/SIHF 2026 / 口琴重奏/合奏 / 國際演出團體/音樂節主辦",
+      "summary": "臺灣的國際演出團體與音樂節主辦，涵蓋2017 WHF小合奏冠軍、TAIWAN TOP、THMF主辦與近年SIHF FEN APHF交流。",
+      "keywords": "天狼星口琴樂團 Sirius Harmonica Ensemble WHF TAIWAN TOP THMF SIHF FEN APHF 2026",
       "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/sirius"
+        },
         {
           "label": "Facebook",
           "url": "https://www.facebook.com/SiriusHarp/"
@@ -4906,7 +4995,9 @@ window.HARMONICA_OBSERVE_DATA = {
       "avatarUrl": "/assets/source-avatars/c58521311f7dd221da00.webp",
       "sourceInitials": "SHE",
       "sourceTags": [
+        "活動資訊",
         "團體樂團",
+        "音樂節",
         "重奏",
         "國際交流"
       ],
@@ -5421,92 +5512,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@%E5%8F%A3%E7%90%B4%E4%B9%8B%E7%8B%BC",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-55",
-      "publicId": "55",
-      "name": "梁承熹 Kelvin Leung",
-      "nameEn": "Kelvin Leung",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "THMF交流/演出",
-      "structuredSummary": "THMF交流/演出 / 半音階 / 國際演出人員",
-      "summary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
-      "keywords": "梁承熹 Kelvin Leung harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica-kelvin.weebly.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/kelvinleungsh/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/sorhei/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@KelvinLeungharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-16T01:59:59+00:00",
-      "latestUpdateLocal": "2026-08-16 09:59",
-      "latestUpdateSource": "梁承熹 Kelvin Leung",
-      "latestUpdateUrl": "https://www.instagram.com/stories/sorhei/3964670704267992141/",
-      "avatarUrl": "/assets/source-avatars/0c9e9143d106ffe600b5.webp",
-      "sourceInitials": "KL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "sourceSummary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
-      "sourceTagReason": "來源明確標示為『演奏者』，類型為『個人』，區域為『香港』，摘要提及『THMF交流/演出』與『半音階』。",
-      "monitorSources": [
-        {
-          "id": "fb_kelvinleungsh",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/kelvinleungsh",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_sorhei",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "sorhei",
-          "profileUrl": "https://www.instagram.com/sorhei/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_sorhei",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "sorhei",
-          "profileUrl": "https://www.instagram.com/sorhei/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sorhei/story/0"
-        },
-        {
-          "id": "yt_kelvinleungharmonica",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@KelvinLeungharmonica",
           "feedUrl": ""
         }
       ]
@@ -9852,10 +9857,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "教學/維修/影片來源",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "口琴教學/維修/重奏/硬體",
-      "structuredSummary": "口琴教學/維修/重奏/硬體 / 半音階/複音/Bass/Chord / 教學/維修來源",
-      "summary": "臺灣的半音階、複音、Bass與Chord教學與維修來源，關注口琴教學、維修、重奏與硬體。",
-      "keywords": "DMing Studio 大明 口琴 教學 維修 蔡明憲 天狼星 Laelaps",
+      "cityOrFocus": "口琴教學/維修/重奏/硬體/THMF 2026大合奏公開組第六名",
+      "structuredSummary": "口琴教學/維修/重奏/硬體/THMF 2026大合奏公開組第六名 / 半音階/複音/Bass/Chord / 教學/維修來源/演出團體",
+      "summary": "臺灣的半音階、複音、Bass與Chord教學、維修來源與演出團體，關注口琴教學、維修、重奏、硬體與THMF 2026大合奏公開組第六名。",
+      "keywords": "DMing Studio 大明 口琴 教學 維修 蔡明憲 天狼星 Laelaps THMF 2026 大合奏 第六名",
       "links": [
         {
           "label": "網站",
@@ -9881,6 +9886,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "品牌",
         "教學器材",
+        "團體樂團",
         "教學",
         "半音階",
         "複音",
@@ -10738,10 +10744,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "南部口琴合奏",
-      "structuredSummary": "南部口琴合奏 / 口琴合奏 / 演出團體",
-      "summary": "臺灣的口琴合奏演出團體，活動脈絡包含南部口琴合奏。",
-      "keywords": "口琴好南合奏樂團",
+      "cityOrFocus": "南部口琴合奏/THMF 2026大合奏公開組並列季軍",
+      "structuredSummary": "南部口琴合奏/THMF 2026大合奏公開組並列季軍 / 口琴大合奏 / 演出團體",
+      "summary": "臺灣的口琴大合奏演出團體，活動脈絡包含南部口琴合奏與THMF 2026大合奏公開組並列季軍。",
+      "keywords": "口琴好南合奏樂團 THMF 2026 大合奏 公開組 季軍",
       "links": [
         {
           "label": "Facebook",
@@ -12099,14 +12105,14 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "協會/資訊入口",
       "country": "中國",
       "region": "中國/江蘇/無錫/江陰",
-      "cityOrFocus": "全國口琴組織/活動/考級/會員/教師與樂團",
-      "structuredSummary": "全國口琴組織/活動/考級/會員/教師與樂團 / 口琴 / 國際協會/資訊來源",
-      "summary": "中國的國際協會與資訊來源，關注全國口琴組織、活動、考級、會員與教師與樂團。",
-      "keywords": "中國大眾音樂協會口琴專業委員會 China Popular Music Association Harmonica Professional Committee",
+      "cityOrFocus": "全國口琴組織/普及教育與師資培訓/等級考試/教材出版/口琴節與賽事/會員教師樂團網絡",
+      "structuredSummary": "全國口琴組織/普及教育與師資培訓/等級考試/教材出版/口琴節與賽事/會員教師樂團網絡 / 口琴 / 全國性協會/教育與考級機構/活動主辦與資訊來源",
+      "summary": "中國的全國性協會、教育與考級機構與活動主辦與資訊來源，關注全國口琴組織、普及教育與師資培訓、等級考試、教材出版與口琴節與賽事。",
+      "keywords": "中國大眾音樂協會口琴專業委員會 China Popular Music Association Harmonica Professional Committee 口琴節 考級 教師 樂團",
       "links": [
         {
           "label": "網站",
-          "url": "https://www.harmonica.org.cn/"
+          "url": "https://www.harmonica.org.cn/about.asp"
         }
       ],
       "source": "watchlist",
@@ -12494,10 +12500,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "小合奏/THMF 2026 公開組",
-      "structuredSummary": "小合奏/THMF 2026 公開組 / 口琴小合奏 / 演出團體",
-      "summary": "臺灣的口琴小合奏演出團體，活動脈絡包含小合奏與THMF 2026 公開組。",
-      "keywords": "AcousTek Harmonica Ensemble Taiwan harmonica THMF 2026 The Map Painter Adventure",
+      "cityOrFocus": "小合奏/THMF 2026小合奏公開組季軍",
+      "structuredSummary": "小合奏/THMF 2026小合奏公開組季軍 / 口琴小合奏 / 演出團體",
+      "summary": "臺灣的口琴小合奏演出團體，活動脈絡包含小合奏與THMF 2026小合奏公開組季軍。",
+      "keywords": "AcousTek Harmonica Ensemble Taiwan harmonica THMF 2026 E1 third The Map Painter Adventure",
       "links": [
         {
           "label": "網站",
@@ -12673,10 +12679,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "小合奏/THMF 2026 公開組",
-      "structuredSummary": "小合奏/THMF 2026 公開組 / 口琴小合奏 / 演出團體",
-      "summary": "臺灣的口琴小合奏演出團體，活動脈絡包含小合奏與THMF 2026 公開組。",
-      "keywords": "Comet Harmonica Ensemble Taiwan harmonica THMF 2026",
+      "cityOrFocus": "小合奏/THMF 2026小合奏公開組第四名",
+      "structuredSummary": "小合奏/THMF 2026小合奏公開組第四名 / 口琴小合奏 / 演出團體",
+      "summary": "臺灣的口琴小合奏演出團體，活動脈絡包含小合奏與THMF 2026小合奏公開組第四名。",
+      "keywords": "Comet Harmonica Ensemble Taiwan harmonica THMF 2026 E1 fourth",
       "links": [
         {
           "label": "網站",
@@ -12946,10 +12952,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "三重奏/小合奏/THMF 2026 公開組",
-      "structuredSummary": "三重奏/小合奏/THMF 2026 公開組 / 口琴三重奏/小合奏 / 演出團體",
-      "summary": "臺灣的口琴三重奏與小合奏演出團體，活動脈絡包含三重奏與THMF 2026 公開組。",
-      "keywords": "Don't Cry Ensemble Taiwan harmonica THMF 2026 trio ensemble",
+      "cityOrFocus": "三重奏/小合奏/THMF 2026小合奏公開組並列亞軍",
+      "structuredSummary": "三重奏/小合奏/THMF 2026小合奏公開組並列亞軍 / 口琴三重奏/小合奏 / 演出團體",
+      "summary": "臺灣的口琴三重奏與小合奏演出團體，活動脈絡包含三重奏與THMF 2026小合奏公開組並列亞軍。",
+      "keywords": "Don't Cry Ensemble Taiwan harmonica THMF 2026 E1 second",
       "links": [
         {
           "label": "網站",
@@ -13847,39 +13853,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-268",
-      "publicId": "268",
-      "name": "中國大眾音協口琴樂團",
-      "nameEn": "China Popular Music Association Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "中國",
-      "region": "中國",
-      "cityOrFocus": "全國口琴組織/大合奏/展演/華夏與亞太口琴節",
-      "structuredSummary": "全國口琴組織/大合奏/展演/華夏與亞太口琴節 / 口琴大合奏 / 國際演出團體",
-      "summary": "中國的口琴大合奏國際演出團體，活動脈絡包含全國口琴組織、大合奏與展演。",
-      "keywords": "中國大眾音協口琴樂團 China Popular Music Association Harmonica Ensemble 西遊記",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.aphfhx.com/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
-      "sourceInitials": "中國",
-      "sourceTags": [
-        "團體樂團",
-        "國際交流"
-      ]
-    },
-    {
       "id": "watchlist-120",
       "publicId": "120",
       "name": "中國魔幻之聲口琴重奏團 The Magic Harmonica Ensemble",
@@ -13982,10 +13955,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "大合奏/THMF 2026 公開組/跨團合作",
-      "structuredSummary": "大合奏/THMF 2026 公開組/跨團合作 / 口琴大合奏 / 演出團體",
-      "summary": "臺灣的口琴大合奏演出團體，活動脈絡包含大合奏、THMF 2026 公開組與跨團合作。",
-      "keywords": "巴國聯軍 Baguo Alliance Taiwan harmonica THMF 2026 Disney Fantasy",
+      "cityOrFocus": "大合奏/跨團合作/THMF 2026大合奏公開組亞軍",
+      "structuredSummary": "大合奏/跨團合作/THMF 2026大合奏公開組亞軍 / 口琴大合奏 / 演出團體",
+      "summary": "臺灣的口琴大合奏演出團體，活動脈絡包含大合奏、跨團合作與THMF 2026大合奏公開組亞軍。",
+      "keywords": "巴國聯軍 Baguo Alliance Taiwan harmonica THMF 2026 F1 second Disney Fantasy",
       "links": [
         {
           "label": "網站",
@@ -14127,10 +14100,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "團體",
       "country": "香港",
       "region": "香港",
-      "cityOrFocus": "口琴合奏/社群演出/教育",
-      "structuredSummary": "口琴合奏/社群演出/教育 / 口琴合奏 / 國際演出團體",
-      "summary": "香港的口琴合奏國際演出團體，活動脈絡包含社群演出與教育。",
-      "keywords": "Adventure Harmonica Band 歷奇口琴隊 Hong Kong Steffi Leung",
+      "cityOrFocus": "口琴合奏/社群演出/教育/THMF 2026大合奏公開組並列季軍",
+      "structuredSummary": "口琴合奏/社群演出/教育/THMF 2026大合奏公開組並列季軍 / 口琴大合奏 / 國際演出團體",
+      "summary": "香港的口琴大合奏國際演出團體，活動脈絡包含口琴合奏、社群演出與教育。",
+      "keywords": "Adventure Harmonica Band 歷奇口琴隊 Hong Kong Steffi Leung THMF 2026 大合奏 季軍",
       "links": [
         {
           "label": "Instagram",
@@ -14180,10 +14153,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣/南投",
-      "cityOrFocus": "跨世代合奏/偏鄉音樂教育/THMF 2026 公開組",
-      "structuredSummary": "跨世代合奏/偏鄉音樂教育/THMF 2026 公開組 / 口琴大合奏 / 演出團體/教育推廣",
-      "summary": "臺灣的口琴大合奏演出團體與教育推廣，活動脈絡包含跨世代合奏、偏鄉音樂教育與THMF 2026 公開組。",
-      "keywords": "海豚星樂團 Dolphin Star Harmonica Ensemble 南投 廣福國小 口琴 THMF 2026",
+      "cityOrFocus": "跨世代合奏/偏鄉音樂教育/THMF 2026大合奏公開組第七名",
+      "structuredSummary": "跨世代合奏/偏鄉音樂教育/THMF 2026大合奏公開組第七名 / 口琴大合奏 / 演出團體/教育推廣",
+      "summary": "臺灣的口琴大合奏演出團體與教育推廣，活動脈絡包含跨世代合奏、偏鄉音樂教育與THMF 2026大合奏公開組第七名。",
+      "keywords": "海豚星樂團 Dolphin Star Harmonica Ensemble 南投 廣福國小 口琴 THMF 2026 F1 seventh",
       "links": [
         {
           "label": "網站",
@@ -14309,10 +14282,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "大合奏/THMF 2026 公開組",
-      "structuredSummary": "大合奏/THMF 2026 公開組 / 口琴大合奏 / 演出團體",
-      "summary": "臺灣的口琴大合奏演出團體，活動脈絡包含大合奏與THMF 2026 公開組。",
-      "keywords": "自由的口琴樂團 Free Harmonica Ensemble Taiwan THMF 2026 Attack on Titan Medley",
+      "cityOrFocus": "大合奏/THMF 2026大合奏公開組第五名",
+      "structuredSummary": "大合奏/THMF 2026大合奏公開組第五名 / 口琴大合奏 / 演出團體",
+      "summary": "臺灣的口琴大合奏演出團體，活動脈絡包含大合奏與THMF 2026大合奏公開組第五名。",
+      "keywords": "自由的口琴樂團 Free Harmonica Ensemble Taiwan THMF 2026 F1 fifth Attack on Titan Medley",
       "links": [
         {
           "label": "網站",
@@ -14638,6 +14611,41 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-270",
+      "publicId": "270",
+      "name": "首爾獨奏家口琴樂團",
+      "nameEn": "Seoul Soloists Harmonica Orchestra",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "朴鍾聲核心獨奏家樂團/Seokhwa Bang/Seokbeom Jang/Monica J/Seokhoon Bang/Hangyeol Lee/Choi Heejung/THMF 2026",
+      "structuredSummary": "朴鍾聲核心獨奏家樂團/Seokhwa Bang/Seokbeom Jang/Monica J/Seokhoon Bang/Hangyeol Lee/Choi Heejung/THMF 2026 / 半音階/複音/口琴合奏 / 國際演出團體",
+      "summary": "韓國的半音階、複音與口琴合奏國際演出團體，活動脈絡包含朴鍾聲核心獨奏家樂團、Seokhwa Bang與Seokbeom Jang。",
+      "keywords": "Seoul Soloists Harmonica Orchestra SSHO 朴鍾聲 Seokhwa Bang Seokbeom Jang Monica J Seokhoon Bang Hangyeol Lee Choi Heejung THMF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/2026artists-midday"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/e72ddd5344fd22dc28b0.webp",
+      "sourceInitials": "首爾",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "複音",
+        "國際交流"
+      ]
+    },
+    {
       "id": "watchlist-96",
       "publicId": "96",
       "name": "高雄市口琴協會",
@@ -14695,10 +14703,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "大合奏/THMF 2026 公開組",
-      "structuredSummary": "大合奏/THMF 2026 公開組 / 口琴大合奏 / 演出團體",
-      "summary": "臺灣的口琴大合奏演出團體，活動脈絡包含大合奏與THMF 2026 公開組。",
-      "keywords": "龍騎士 Dragon Knight Harmonica Ensemble Taiwan THMF 2026 馴龍高手",
+      "cityOrFocus": "大合奏/THMF 2026大合奏公開組冠軍",
+      "structuredSummary": "大合奏/THMF 2026大合奏公開組冠軍 / 口琴大合奏 / 演出團體",
+      "summary": "臺灣的口琴大合奏演出團體，活動脈絡包含大合奏與THMF 2026大合奏公開組冠軍。",
+      "keywords": "龍騎士 Dragon Knight Harmonica Ensemble Taiwan THMF 2026 F1 champion 馴龍高手",
       "links": [
         {
           "label": "網站",
@@ -16814,6 +16822,77 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-268",
+      "publicId": "268",
+      "name": "中國大眾音協口琴樂團",
+      "nameEn": "China Popular Music Association Harmonica Ensemble",
+      "category": "活動資訊",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "中國",
+      "region": "中國",
+      "cityOrFocus": "中國大眾音樂協會口琴專業委員會大型合奏/《西遊記》主題演出/華夏與亞太口琴節/全國口琴交流",
+      "structuredSummary": "中國大眾音樂協會口琴專業委員會大型合奏/《西遊記》主題演出/華夏與亞太口琴節/全國口琴交流 / 半音階口琴/複音口琴/和弦口琴/低音口琴 / 全國協會樂團/國際音樂節演出團體",
+      "summary": "中國的全國協會樂團與國際音樂節演出團體，涵蓋中國大眾音樂協會口琴專業委員會大型合奏、《西遊記》主題演出、華夏與亞太口琴節與全國口琴交流。",
+      "keywords": "中國大眾音協口琴樂團 China Popular Music Association Harmonica Ensemble 西遊記 APHF 華夏亞太口琴節",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://aphfx-1255574727.cos.ap-shanghai.myqcloud.com/20251225/416d60da462842daa00b391b22745c24.mp4"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/cpma-harmonica-ensemble.png",
+      "sourceInitials": "中國",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "音樂節",
+        "半音階",
+        "複音",
+        "國際交流"
+      ]
+    },
+    {
+      "id": "watchlist-271",
+      "publicId": "271",
+      "name": "劉銘澤",
+      "nameEn": "Liu Mingze",
+      "category": "活動資訊",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "中國",
+      "region": "中國",
+      "cityOrFocus": "口琴獨奏/《紫色激情》/華夏與亞太口琴節公開演出",
+      "structuredSummary": "口琴獨奏/《紫色激情》/華夏與亞太口琴節公開演出 / 口琴 / 音樂節演出人員",
+      "summary": "中國的音樂節演出人員，涵蓋口琴獨奏、《紫色激情》與華夏與亞太口琴節公開演出。",
+      "keywords": "劉銘澤 刘铭泽 Liu Mingze 口琴 紫色激情 APHF 華夏亞太口琴節",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://aphfx-1255574727.cos.ap-shanghai.myqcloud.com/20251225/1bec01327740414fa644a2a0da44e08c.mp4"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/liu-mingze.png",
+      "sourceInitials": "劉銘",
+      "sourceTags": [
+        "活動資訊",
+        "演奏者",
+        "音樂節"
+      ]
+    },
+    {
       "id": "watchlist-180",
       "publicId": "180",
       "name": "巴西口琴論壇",
@@ -17042,43 +17121,6 @@ window.HARMONICA_OBSERVE_DATA = {
         "複音",
         "十孔",
         "重奏"
-      ]
-    },
-    {
-      "id": "watchlist-270",
-      "publicId": "270",
-      "name": "首爾獨奏家口琴樂團",
-      "nameEn": "Seoul Soloists Harmonica Orchestra",
-      "category": "活動資訊",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "韓國",
-      "region": "韓國/首爾",
-      "cityOrFocus": "獨奏家樂團/朴鍾聲/國際音樂節/THMF 2026",
-      "structuredSummary": "獨奏家樂團/朴鍾聲/國際音樂節/THMF 2026 / 半音階/複音/口琴合奏 / 國際演出團體",
-      "summary": "韓國的國際演出團體，涵蓋獨奏家樂團、朴鍾聲、國際音樂節與THMF 2026。",
-      "keywords": "Seoul Soloists Harmonica Orchestra SSHO 首爾獨奏家口琴樂團 Jongseong Park THMF 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.taiwanharmonica.com/2026artists-midday"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/e72ddd5344fd22dc28b0.webp",
-      "sourceInitials": "首爾",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "音樂節",
-        "半音階",
-        "複音",
-        "國際交流"
       ]
     },
     {
@@ -17660,73 +17702,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-128",
-      "publicId": "128",
-      "name": "Long Deng Jie 龍登杰",
-      "nameEn": "Long Deng Jie",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "中國",
-      "region": "中國",
-      "cityOrFocus": "中國原創口琴演奏/半音階/社群演出",
-      "structuredSummary": "中國原創口琴演奏/半音階/社群演出 / 半音階 / 國際演出人員",
-      "summary": "中國的半音階國際演出人員，活動脈絡包含中國原創口琴演奏與社群演出。",
-      "keywords": "Long Deng Jie 龍登杰 harmonica SIHF",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/long.deng.jie/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/long.deng.jie/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/80bde7d5ba43f82a740a.webp",
-      "sourceInitials": "LDJ",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_long_deng_jie",
-          "name": "Long Deng Jie 龍登杰",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/long.deng.jie",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_long_deng_jie",
-          "name": "Long Deng Jie 龍登杰",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "long.deng.jie",
-          "profileUrl": "https://www.instagram.com/long.deng.jie/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_long_deng_jie",
-          "name": "Long Deng Jie 龍登杰",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "long.deng.jie",
-          "profileUrl": "https://www.instagram.com/long.deng.jie/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/long.deng.jie/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-293",
       "publicId": "293",
       "name": "Michał Kielak",
@@ -17769,11 +17744,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "type": "個人",
       "originalType": "個人",
       "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "半音階/演出/評審/亞太與首爾口琴節/2026 琴韻東坡・簧鳴西南",
-      "structuredSummary": "半音階/演出/評審/亞太與首爾口琴節/2026 琴韻東坡・簧鳴西南 / 半音階 / 國際演出人員/評審",
-      "summary": "韓國的半音階國際演出人員與評審，活動脈絡包含演出、評審與亞太與首爾口琴節。",
-      "keywords": "Monica J harmonica 當年情 Seoul Arts EASTTOP APHF SIHF 琴韻東坡 簧鳴西南 2026",
+      "region": "韓國/首爾",
+      "cityOrFocus": "首爾藝術大學口琴主修/EASTTOP藝人/2026 APHF與SIHF評審/琴韻東坡・簧鳴西南",
+      "structuredSummary": "首爾藝術大學口琴主修/EASTTOP藝人/2026 APHF與SIHF評審/琴韻東坡・簧鳴西南 / 半音階口琴 / 國際演出人員/評審",
+      "summary": "韓國的半音階口琴國際演出人員與評審，活動脈絡包含首爾藝術大學口琴主修、EASTTOP藝人與2026 APHF與SIHF評審。",
+      "keywords": "Monica J harmonica Seoul Arts EASTTOP artist APHF SIHF judge 琴韻東坡 簧鳴西南 2026",
       "links": [
         {
           "label": "網站",
@@ -17911,11 +17886,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "type": "個人",
       "originalType": "個人",
       "country": "中國",
-      "region": "中國",
-      "cityOrFocus": "WHF 2025開幕/世界冠軍/半音階與爵士跨界",
-      "structuredSummary": "WHF 2025開幕/世界冠軍/半音階與爵士跨界 / 半音階 / 國際演出人員",
-      "summary": "中國的半音階國際演出人員，活動脈絡包含WHF 2025開幕、世界冠軍與半音階與爵士跨界。",
-      "keywords": "Tian Long Li Li Tian Long 李天龍 Jazzboy harmonica WHF 2025",
+      "region": "中國/江西/南昌",
+      "cityOrFocus": "爵士/藍調/世界音樂與流行跨界/WHF 2025/HOHNER Conservatory 教學",
+      "structuredSummary": "爵士/藍調/世界音樂與流行跨界/WHF 2025/HOHNER Conservatory 教學 / 十孔口琴/半音階口琴 / 國際演出人員/HOHNER Conservatory 爵士與合奏教師",
+      "summary": "中國的十孔口琴與半音階口琴國際演出人員與HOHNER Conservatory 爵士與合奏教師，活動脈絡包含爵士、藍調與世界音樂與流行跨界。",
+      "keywords": "Tian Long Li Li Tian Long 李天龍 Jazzboy harmonica jazz blues WHF 2025 HOHNER Conservatory 南昌",
       "links": [
         {
           "label": "網站",
@@ -17928,11 +17903,13 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/6bf7a3e1b3d0b5f08bb9.webp",
+      "avatarUrl": "/assets/source-avatars/tian-long-li.jpg",
       "sourceInitials": "TLL",
       "sourceTags": [
         "演奏者",
+        "教學",
         "半音階",
+        "十孔",
         "國際交流"
       ]
     },
@@ -18027,50 +18004,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-123",
-      "publicId": "123",
-      "name": "Yuanmao Wang",
-      "nameEn": "Yuanmao Wang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "中國",
-      "region": "中國",
-      "cityOrFocus": "中國口琴演奏/國際交流",
-      "structuredSummary": "中國口琴演奏/國際交流 / 口琴 / 國際演出人員",
-      "summary": "中國的口琴國際演出人員，活動脈絡包含中國口琴演奏與國際交流。",
-      "keywords": "Yuanmao Wang harmonica SIHF",
-      "links": [
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@YuanmaoWang"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/94112fca67fe37a41abb.webp",
-      "sourceInitials": "YW",
-      "sourceTags": [
-        "演奏者",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "yt_yuanmaowang",
-          "name": "Yuanmao Wang",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@YuanmaoWang",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-267",
       "publicId": "267",
       "name": "傅泓亮",
@@ -18103,39 +18036,6 @@ window.HARMONICA_OBSERVE_DATA = {
         "教學",
         "半音階",
         "複音",
-        "國際交流"
-      ]
-    },
-    {
-      "id": "watchlist-271",
-      "publicId": "271",
-      "name": "劉銘澤",
-      "nameEn": "Liu Mingze",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "中國",
-      "region": "中國",
-      "cityOrFocus": "口琴演奏/華夏與亞太口琴節/公開演出",
-      "structuredSummary": "口琴演奏/華夏與亞太口琴節/公開演出 / 口琴 / 國際演出人員",
-      "summary": "中國的口琴國際演出人員，活動脈絡包含口琴演奏、華夏與亞太口琴節與公開演出。",
-      "keywords": "劉銘澤 刘铭泽 Liu Mingze 口琴 紫色激情 華夏 亞太",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.aphfhx.com/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/94ffb46f32a1794fb4a7.webp",
-      "sourceInitials": "劉銘",
-      "sourceTags": [
-        "演奏者",
         "國際交流"
       ]
     },
@@ -18183,10 +18083,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "個人",
       "country": "韓國",
       "region": "韓國/首爾",
-      "cityOrFocus": "半音階口琴/Into The Harmonica代表/演奏與教學/編曲/THMF與APHF",
-      "structuredSummary": "半音階口琴/Into The Harmonica代表/演奏與教學/編曲/THMF與APHF / 半音階口琴 / 國際演出人員/大學教師/口琴學院代表/編曲者",
-      "summary": "韓國的半音階口琴國際演出人員、大學教師與口琴學院代表，活動脈絡包含Into The Harmonica代表、演奏與教學與編曲。",
-      "keywords": "張錫範 장석범 Seokbeom Jang Into The Harmonica THMF APHF Seoul harmonica professor",
+      "cityOrFocus": "半音階口琴/Into The Harmonica代表/演奏教學與編曲/2012 APHF二重奏三重奏大合奏冠軍/獨奏亞軍/五重奏季軍/THMF 2026",
+      "structuredSummary": "半音階口琴/Into The Harmonica代表/演奏教學與編曲/2012 APHF二重奏三重奏大合奏冠軍/獨奏亞軍/五重奏季軍/THMF 2026 / 半音階口琴 / 國際演出人員/大學教師/口琴學院代表/編曲者",
+      "summary": "韓國的半音階口琴國際演出人員、大學教師與口琴學院代表，活動脈絡包含Into The Harmonica代表、演奏教學與編曲與2012 APHF二重奏三重奏大合奏冠軍。",
+      "keywords": "張錫範 장석범 Seokbeom Jang Into The Harmonica THMF 2026 APHF 2012 Seoul harmonica professor",
       "links": [
         {
           "label": "網站",
@@ -18209,6 +18109,7 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者",
         "教學",
         "半音階",
+        "重奏",
         "國際交流"
       ],
       "monitorSources": [
@@ -18276,10 +18177,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣/臺東/高雄",
-      "cityOrFocus": "青年演奏/THMF/SIHF/飛飛飛 Triple F/口琴好南",
-      "structuredSummary": "青年演奏/THMF/SIHF/飛飛飛 Triple F/口琴好南 / 半音階/複音 / 演出人員/樂團成員",
-      "summary": "臺灣的半音階與複音演出人員與樂團成員，活動脈絡包含青年演奏、THMF與SIHF。",
-      "keywords": "施沛心 Pacie Shih harmonica Triple F THMF SIHF",
+      "cityOrFocus": "青年演奏/飛飛飛 Triple F/口琴好南/THMF 2026半音階獨奏公開組冠軍/SIHF",
+      "structuredSummary": "青年演奏/飛飛飛 Triple F/口琴好南/THMF 2026半音階獨奏公開組冠軍/SIHF / 半音階/複音 / 演出人員/樂團成員",
+      "summary": "臺灣的半音階與複音演出人員與樂團成員，活動脈絡包含青年演奏、飛飛飛 Triple F與口琴好南。",
+      "keywords": "施沛心 Pacie Shih harmonica Triple F THMF 2026 A1 champion SIHF",
       "links": [
         {
           "label": "Instagram",
@@ -18387,10 +18288,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "Cookie Monster/口琴二重奏/THMF/WHF",
-      "structuredSummary": "Cookie Monster/口琴二重奏/THMF/WHF / 口琴 / 演出人員/樂團成員",
-      "summary": "臺灣的口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF。",
-      "keywords": "李沛寧 Li Pei-ning Pei Ning Lee harmonica harmonicist Cookie Monster THMF WHF",
+      "cityOrFocus": "Cookie Monster/口琴二重奏/THMF 2026半音階獨奏公開組季軍/WHF",
+      "structuredSummary": "Cookie Monster/口琴二重奏/THMF 2026半音階獨奏公開組季軍/WHF / 半音階口琴 / 演出人員/樂團成員",
+      "summary": "臺灣的半音階口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF 2026半音階獨奏公開組季軍。",
+      "keywords": "李沛寧 Li Pei-ning Pei Ning Lee harmonica Cookie Monster THMF 2026 A1 third WHF",
       "links": [
         {
           "label": "網站",
@@ -18412,6 +18313,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "演奏者",
         "團體樂團",
+        "半音階",
         "重奏"
       ],
       "monitorSources": [
@@ -18433,6 +18335,41 @@ window.HARMONICA_OBSERVE_DATA = {
           "profileUrl": "https://www.instagram.com/l.p.ning.0404/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/l.p.ning.0404/story/0"
         }
+      ]
+    },
+    {
+      "id": "watchlist-310",
+      "publicId": "310",
+      "name": "林津鋒",
+      "nameEn": "Lin Jinfeng",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "中國",
+      "region": "中國/福建/莆田/仙游",
+      "cityOrFocus": "十孔口琴演奏/獨奏與樂團合作/影視配樂/歌唱與表演",
+      "structuredSummary": "十孔口琴演奏/獨奏與樂團合作/影視配樂/歌唱與表演 / 十孔口琴 / 國際演出人員/歌手與演員/HOHNER 藝人",
+      "summary": "中國的十孔口琴國際演出人員、歌手與演員與HOHNER 藝人，活動脈絡包含十孔口琴演奏、獨奏與樂團合作與影視配樂。",
+      "keywords": "林津鋒 Lin Jinfeng harmonica Hohner 福建 莆田 仙游 影視配樂 歌手 演員",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hohner.de/en/lin-jinfeng"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/lin-jinfeng.jpg",
+      "sourceInitials": "林津",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "十孔",
+        "國際交流"
       ]
     },
     {
@@ -18595,6 +18532,55 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者",
         "十孔",
         "國際交流"
+      ]
+    },
+    {
+      "id": "watchlist-123",
+      "publicId": "123",
+      "name": "王元懋",
+      "nameEn": "Yuanmao Wang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "中國",
+      "region": "中國",
+      "cityOrFocus": "半音階獨奏/首屆華夏公開組冠軍/2023 SIHF 半音階公開組與全場總冠軍/影視配樂《野豬》《繁花》/個人獨奏音樂會/WHF 2025",
+      "structuredSummary": "半音階獨奏/首屆華夏公開組冠軍/2023 SIHF 半音階公開組與全場總冠軍/影視配樂《野豬》《繁花》/個人獨奏音樂會/WHF 2025 / 半音階口琴 / 國際演出人員/影視錄音樂手/JDR 藝人",
+      "summary": "中國的半音階口琴國際演出人員、影視錄音樂手與JDR 藝人，活動脈絡包含半音階獨奏、首屆華夏公開組冠軍與2023 SIHF 半音階公開組與全場總冠軍。",
+      "keywords": "王元懋 Yuanmao Wang harmonica SIHF WHF JDR 繁花 野豬",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.jdrharmonica.com/pages/yuanmao-wang-%E7%8E%8B%E5%85%83%E6%87%8B"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@YuanmaoWang"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/yuanmao-wang.jpg",
+      "sourceInitials": "王元",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_yuanmaowang",
+          "name": "王元懋",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@YuanmaoWang",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -18832,6 +18818,46 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-311",
+      "publicId": "311",
+      "name": "藍饃饃",
+      "nameEn": "Bunmonica Du",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人/器材技師",
+      "country": "中國",
+      "region": "中國",
+      "cityOrFocus": "十孔口琴演奏/APHF 2018 公開組冠軍/SIHF 2024 亞軍/壓音教學/調音維修/口琴設計與譜例",
+      "structuredSummary": "十孔口琴演奏/APHF 2018 公開組冠軍/SIHF 2024 亞軍/壓音教學/調音維修/口琴設計與譜例 / 十孔口琴 / 國際演出人員/教師/專業調音師/口琴設計師/工作室創辦人",
+      "summary": "中國的十孔口琴國際演出人員、教師與專業調音師，活動脈絡包含十孔口琴演奏、APHF 2018 公開組冠軍與SIHF 2024 亞軍。",
+      "keywords": "藍饃饃 蓝馍馍 Bunmonica Du harmonica JDR APHF SIHF bending tuning designer",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.jdrharmonica.com/pages/bunmonica-du"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/groups/178333094509546/user/100092310542105"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/bunmonica-du.jpg",
+      "sourceInitials": "藍饃",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "工作室",
+        "十孔",
+        "國際交流"
+      ]
+    },
+    {
       "id": "watchlist-239",
       "publicId": "239",
       "name": "邴國榮",
@@ -18992,10 +19018,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣/彰化",
-      "cityOrFocus": "Cookie Monster/口琴二重奏/THMF/WHF",
-      "structuredSummary": "Cookie Monster/口琴二重奏/THMF/WHF / 口琴 / 演出人員/樂團成員",
-      "summary": "臺灣的口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF。",
-      "keywords": "陳若芸 Sabrina Chen harmonica player Cookie Monster THMF WHF",
+      "cityOrFocus": "Cookie Monster/口琴二重奏/THMF 2026半音階獨奏公開組第五名/WHF",
+      "structuredSummary": "Cookie Monster/口琴二重奏/THMF 2026半音階獨奏公開組第五名/WHF / 半音階口琴 / 演出人員/樂團成員",
+      "summary": "臺灣的半音階口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF 2026半音階獨奏公開組第五名。",
+      "keywords": "陳若芸 Sabrina Chen harmonica player Cookie Monster THMF 2026 A1 fifth WHF",
       "links": [
         {
           "label": "Instagram",
@@ -19013,6 +19039,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "演奏者",
         "團體樂團",
+        "半音階",
         "重奏"
       ],
       "monitorSources": [
@@ -19104,6 +19131,79 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-128",
+      "publicId": "128",
+      "name": "龍登杰",
+      "nameEn": "Long Deng Jie",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "中國",
+      "region": "中國/廣東/廣州",
+      "cityOrFocus": "爵士口琴/十孔與半音階/原創音樂/影視配樂/APHF 與 SIHF 評審/星海音樂學院教學",
+      "structuredSummary": "爵士口琴/十孔與半音階/原創音樂/影視配樂/APHF 與 SIHF 評審/星海音樂學院教學 / 十孔口琴/半音階口琴 / 國際演出人員/作曲與錄音樂手/教師/HOHNER 藝人",
+      "summary": "中國的十孔口琴與半音階口琴國際演出人員、作曲與錄音樂手與教師，活動脈絡包含爵士口琴、十孔與半音階與原創音樂。",
+      "keywords": "龍登杰 Long Deng Jie harmonica jazz Hohner APHF SIHF 星海音樂學院",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hohner.de/en/long-deng-jie"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/long.deng.jie/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/long.deng.jie/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/long-deng-jie.jpg",
+      "sourceInitials": "龍登",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_long_deng_jie",
+          "name": "龍登杰",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/long.deng.jie",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_long_deng_jie",
+          "name": "龍登杰",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "long.deng.jie",
+          "profileUrl": "https://www.instagram.com/long.deng.jie/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_long_deng_jie",
+          "name": "龍登杰",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "long.deng.jie",
+          "profileUrl": "https://www.instagram.com/long.deng.jie/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/long.deng.jie/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-300",
       "publicId": "300",
       "name": "류선웅 Sunwoong Ryu",
@@ -19113,10 +19213,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "個人",
       "country": "韓國",
       "region": "韓國/大田/首爾",
-      "cityOrFocus": "半音階/古典/Seoul Soloists Harmonica Orchestra/WHF 2025 團體冠軍/THMF 2026 公開組",
-      "structuredSummary": "半音階/古典/Seoul Soloists Harmonica Orchestra/WHF 2025 團體冠軍/THMF 2026 公開組 / 半音階 / 國際演出人員/音樂教師",
-      "summary": "韓國的半音階國際演出人員與音樂教師，活動脈絡包含古典、Seoul Soloists Harmonica Orchestra與WHF 2025 團體冠軍。",
-      "keywords": "류선웅 Sunwoong Ryu harmonica Seoul Soloists APHF 2018 WHF 2025 THMF 2026 music teacher",
+      "cityOrFocus": "半音階/古典/Seoul Soloists/WHF 2025團體冠軍/THMF 2026半音階獨奏公開組第四名",
+      "structuredSummary": "半音階/古典/Seoul Soloists/WHF 2025團體冠軍/THMF 2026半音階獨奏公開組第四名 / 半音階口琴 / 國際演出人員/音樂教師",
+      "summary": "韓國的半音階口琴國際演出人員與音樂教師，活動脈絡包含半音階、古典與Seoul Soloists。",
+      "keywords": "류선웅 Sunwoong Ryu harmonica Seoul Soloists APHF 2018 WHF 2025 THMF 2026 A1 fourth music teacher",
       "links": [
         {
           "label": "網站",
@@ -19140,19 +19240,19 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 308,
+    "totalEntries": 310,
     "categories": {
       "其他來源": 2,
       "國際交流": 13,
-      "團體樂團": 81,
+      "團體樂團": 80,
       "場館平台": 7,
       "學校社團": 39,
       "教學器材": 26,
-      "活動資訊": 29,
-      "演奏者": 111
+      "活動資訊": 31,
+      "演奏者": 112
     },
     "countries": {
-      "中國": 34,
+      "中國": 36,
       "丹麥": 1,
       "以色列": 1,
       "俄羅斯": 1,
