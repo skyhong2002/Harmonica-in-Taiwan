@@ -1,16 +1,16 @@
 {
   "site": "https://harmonica.observe.tw",
   "generatedAt": "2026-08-20",
-  "count": 293,
+  "count": 296,
   "stats": {
-    "totalEntries": 293,
+    "totalEntries": 296,
     "categories": {
       "其他來源": 2,
       "國際交流": 12,
       "團體樂團": 81,
       "場館平台": 7,
       "學校社團": 38,
-      "教學器材": 21,
+      "教學器材": 24,
       "活動資訊": 29,
       "演奏者": 103
     },
@@ -22,12 +22,12 @@
       "印尼": 1,
       "國際": 2,
       "墨西哥": 1,
-      "巴西": 6,
-      "德國": 11,
+      "巴西": 7,
+      "德國": 12,
       "挪威": 1,
       "捷克": 1,
       "新加坡": 7,
-      "日本": 18,
+      "日本": 19,
       "法國": 2,
       "波蘭": 2,
       "澳洲": 1,
@@ -46,23 +46,23 @@
       "馬來西亞": 13
     },
     "watchSources": {
-      "totalSources": 670,
-      "rsshubSources": 382,
-      "apifySources": 156,
-      "facebookSources": 156,
+      "totalSources": 673,
+      "rsshubSources": 384,
+      "apifySources": 157,
+      "facebookSources": 157,
       "youtubeSources": 132,
       "platforms": {
-        "facebook": 156,
-        "instagram": 342,
+        "facebook": 157,
+        "instagram": 344,
         "threads": 28,
         "x": 12,
         "youtube": 132
       },
       "types": {
-        "facebook_page_posts": 156,
+        "facebook_page_posts": 157,
         "rss": 40,
-        "rsshub_instagram_profile": 171,
-        "rsshub_instagram_story": 171,
+        "rsshub_instagram_profile": 172,
+        "rsshub_instagram_story": 172,
         "youtube_ytdlp": 132
       }
     }
@@ -15377,6 +15377,43 @@
       ]
     },
     {
+      "id": "watchlist-296",
+      "publicId": "296",
+      "name": "C.A. SEYDEL SÖHNE",
+      "nameEn": "C.A. SEYDEL SÖHNE",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌",
+      "country": "德國",
+      "region": "德國/克林根塔爾",
+      "cityOrFocus": "十孔/半音階/複音與八度口琴/SEYDEL Academy/2026 工作坊",
+      "structuredSummary": "十孔/半音階/複音與八度口琴/SEYDEL Academy/2026 工作坊 / 口琴 / 樂器品牌/器材資訊/教學",
+      "summary": "德國的口琴樂器品牌、器材資訊與教學，關注十孔、半音階、複音與八度口琴、SEYDEL Academy與2026 工作坊。",
+      "keywords": "C.A. Seydel Sohne Germany harmonica 1847 stainless steel reeds workshops 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.seydel1847.de/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/seydel-harmonica.png",
+      "sourceInitials": "CAS",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學",
+        "半音階",
+        "複音",
+        "十孔"
+      ]
+    },
+    {
       "id": "watchlist-83",
       "publicId": "83",
       "name": "Golden Bird Harmonica",
@@ -15610,6 +15647,117 @@
         "教學器材",
         "教學",
         "半音階"
+      ]
+    },
+    {
+      "id": "watchlist-297",
+      "publicId": "297",
+      "name": "SHG Hering Harmonicas",
+      "nameEn": "SHG Hering Harmonicas",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌",
+      "country": "巴西",
+      "region": "巴西/布盧梅瑙",
+      "cityOrFocus": "十孔/半音階/複音口琴/藝術家與產品資訊",
+      "structuredSummary": "十孔/半音階/複音口琴/藝術家與產品資訊 / 口琴 / 樂器品牌/器材資訊",
+      "summary": "巴西的口琴樂器品牌與器材資訊，關注十孔、半音階、複音口琴與藝術家與產品資訊。",
+      "keywords": "SHG Hering Harmonicas Brazil gaita diatonic chromatic tremolo artists",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://shg.art.br/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://facebook.com/shggaitas"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/shggaitas/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/hering-harmonica.png",
+      "sourceInitials": "SHH",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學",
+        "半音階",
+        "複音",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_shggaitas",
+          "name": "SHG Hering Harmonicas",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/shggaitas",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_shggaitas",
+          "name": "SHG Hering Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "shggaitas",
+          "profileUrl": "https://www.instagram.com/shggaitas/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_shggaitas",
+          "name": "SHG Hering Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "shggaitas",
+          "profileUrl": "https://www.instagram.com/shggaitas/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/shggaitas/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-295",
+      "publicId": "295",
+      "name": "SUZUKI Harmonica",
+      "nameEn": "SUZUKI Harmonica",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌",
+      "country": "日本",
+      "region": "日本/靜岡",
+      "cityOrFocus": "半音階/十孔/複音/低音與和弦口琴/產品資訊",
+      "structuredSummary": "半音階/十孔/複音/低音與和弦口琴/產品資訊 / 口琴 / 樂器品牌/器材資訊",
+      "summary": "日本的口琴樂器品牌與器材資訊，關注半音階、十孔、複音、低音與和弦口琴與產品資訊。",
+      "keywords": "SUZUKI Harmonica Suzuki Musical Instrument Japan chromatic diatonic tremolo bass chord",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://suzukimusic-global.com/harmonicas.php?parent_cate_cd=1"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/suzuki-harmonica.png",
+      "sourceInitials": "SH",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學",
+        "半音階",
+        "複音",
+        "十孔"
       ]
     },
     {
@@ -16927,7 +17075,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
+      "avatarUrl": "/assets/source-avatars/ian-lofamia.jpg",
       "sourceInitials": "IL",
       "sourceTags": [
         "演奏者",
@@ -16965,7 +17113,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
+      "avatarUrl": "/assets/source-avatars/ivan-marcio.jpg",
       "sourceInitials": "IM",
       "sourceTags": [
         "演奏者",
@@ -17385,7 +17533,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
+      "avatarUrl": "/assets/source-avatars/michal-kielak.jpg",
       "sourceInitials": "MK",
       "sourceTags": [
         "演奏者",
