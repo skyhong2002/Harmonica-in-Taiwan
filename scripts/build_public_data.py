@@ -26,6 +26,10 @@ SOURCE_TAG_CACHE = PROJECT_ROOT / "state" / "source_llm_tags.json"
 SOURCE_AVATAR_DIR = SITE_ROOT / "assets" / "source-avatars"
 CURATED_SOURCE_AVATAR_DIR = PROJECT_ROOT / "assets" / "source-avatars-curated"
 CURATED_SOURCE_AVATARS = {
+    "Rivet 口琴重奏": "rivet-harmonica.png",
+    "Jens Bunge": "jens-bunge.jpg",
+    "黃啟書 Openbook Huang": "openbook-huang.jpg",
+    "Veloz Harmonica Quartet": "veloz-harmonica.jpg",
     "第二屆海峽兩岸（蕉城）口琴文化週": "jiaocheng-harmonica-week.jpg",
     "「天鵝自由呼吸」寧波口琴節": "ningbo-harmonica-festival.jpg",
     "Federico Linari": "federico-linari.jpg",
