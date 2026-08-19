@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-20T00:45:06+08:00",
+  "generatedAt": "2026-08-20T01:19:02+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 6,
+  "count": 7,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 12,
+      "cached": 13,
       "errors": 0
     }
   },
@@ -163,6 +163,42 @@
         "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/774125930_18453949939138501_6570879922236738731_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=Mzk2Mjg4ODU4NzcxMjk4MjE2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=nDLPSL7MdjQQ7kNvwEe3VMZ&_nc_oc=Ado5AqivFjzpOlYnIlmV9bHSmpfD7228hMmbHWKcw6sXtOVqsNatffZhcxZRuR2tPsA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=7cPnBd6_uOhM0PJKkvXQMg&_nc_ss=7a22e&oh=00_AQGmF7jVknKCk7FZNZ8WsgKJq3gEaJMs58RqThEXFDeqrQ&oe=6A839FD4"
       ],
       "image_url": "/assets/feed-images/69b79ffd261a1ff2c374.webp"
+    },
+    {
+      "id": "d8cd144edb7b64bd",
+      "title": "中研院藝文活動 - 胖擊口琴樂團：口琴重奏音樂分享",
+      "eventName": "中研院藝文活動 - 胖擊口琴樂團：口琴重奏音樂分享",
+      "source": "胖擊口琴樂團Punch Harmonica Ensemble",
+      "platform": "instagram",
+      "start": "2026-09-18",
+      "end": "2026-09-19",
+      "allDay": true,
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "location": "臺北市 人文社會科學館3樓 國際會議廳",
+      "venue": "人文社會科學館3樓 國際會議廳",
+      "city": "臺北市",
+      "details": "主辦／演出者：胖擊口琴樂團。9/18（五）19:00開演，18:30入場，免費索票入場。地點在中央研究院人文社會科學館3樓國際會議廳，活動方式為免費索票。",
+      "evidenceUrl": "https://www.instagram.com/p/DcOP0--vMVW/",
+      "confidence": 0.98,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "中研院藝文活動 - 胖擊口琴樂團：口琴重奏音樂分享",
+        "venue": "人文社會科學館3樓 國際會議廳",
+        "city": "臺北市",
+        "details": "主辦／演出者：胖擊口琴樂團。9/18（五）19:00開演，18:30入場，免費索票入場。地點在中央研究院人文社會科學館3樓國際會議廳，活動方式為免費索票。",
+        "reason": "貼文明確寫出活動名稱、日期為9/18，且地點在臺北市中央研究院，屬臺灣實體口琴活動。",
+        "confidence": 0.98
+      },
+      "postedAt": "2026-08-19 21:37",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/781161942_18084989045656565_831372451411669015_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzk2NzE3NzkzMzQ5NDk5NDI2Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ROYOmdWrow0Q7kNvwENcjrS&_nc_oc=AdrZWEl-B3YEW9srb0ATJDaBzUAEOCEKtqoGxETgcu8XHPaCif326jUt16IcMb2uMgE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=74WJ9iIia_RTeA3NdiN00Q&_nc_ss=7a22e&oh=00_AQFSTJsv7yJFxNgKXp61grova1ngF6g60KuG6d-ZBiGpcA&oe=6A8BA2F1"
+      ],
+      "image_url": "/assets/feed-images/c153e4887f020058c8e6.webp"
     },
     {
       "id": "d9ba531c3f824ba0",
