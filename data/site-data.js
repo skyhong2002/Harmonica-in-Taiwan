@@ -1232,15 +1232,15 @@ window.HARMONICA_OBSERVE_DATA = {
       "publicId": "67",
       "name": "Marcos Coll",
       "nameEn": "Marcos Coll",
-      "category": "演奏者",
+      "category": "活動資訊",
       "type": "個人",
       "originalType": "個人",
       "country": "西班牙",
-      "region": "西班牙",
-      "cityOrFocus": "十孔/藍調/SIHF 2026",
-      "structuredSummary": "十孔/藍調/SIHF 2026 / 十孔 / 國際演出人員",
-      "summary": "西班牙的十孔國際演出人員，活動脈絡包含藍調與SIHF 2026。",
-      "keywords": "Marcos Coll harmonica SIHF 2026",
+      "region": "西班牙/德國/國際",
+      "cityOrFocus": "13歲開始演奏口琴/西班牙與歐洲藍調代表人物/Los Reyes del K.O.與Tonky Blues Band/曾與Mick Taylor、Buddy Miles等巡演錄音/融合藍調、拉丁、嘻哈與西班牙音樂/2009與2013世界口琴節演出、工作坊及評審/2025與2026首爾國際口琴節",
+      "structuredSummary": "13歲開始演奏口琴/西班牙與歐洲藍調代表人物/Los Reyes del K.O.與Tonky Blues Band/曾與Mick Taylor、Buddy Miles等巡演錄音/融合藍調、拉丁、嘻哈與西班牙音樂/2009與2013世界口琴節演出、工作坊及評審/2025與2026首爾國際口琴節 / 十孔口琴/藍調口琴/半音階口琴 / 國際演出人員/錄音藝術家/國際音樂節評審與講師/HOHNER藝術家",
+      "summary": "西班牙的國際演出人員、錄音藝術家與國際音樂節評審與講師，涵蓋13歲開始演奏口琴、西班牙與歐洲藍調代表人物、Los Reyes del K.O.與Tonky Blues Band、曾與Mick Taylor與Buddy Miles等巡演錄音。",
+      "keywords": "Marcos Coll harmonica Spain Galicia Berlin Los Reyes del KO Tonky Blues Band Mick Taylor Buddy Miles HOHNER WHF 2009 2013 SIHF 2025 2026 blues Latin hip hop",
       "links": [
         {
           "label": "網站",
@@ -1268,7 +1268,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "avatarUrl": "/assets/source-avatars/4055c40b2cef2dc406b3.webp",
       "sourceInitials": "MC",
       "sourceTags": [
+        "活動資訊",
         "演奏者",
+        "音樂節",
+        "半音階",
         "十孔",
         "國際交流"
       ],
@@ -2397,11 +2400,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "type": "樂器與器材",
       "originalType": "品牌/樂器商",
       "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "口琴製造/器材/產品資訊",
-      "structuredSummary": "口琴製造/器材/產品資訊 / 口琴 / 器材品牌",
-      "summary": "臺灣的口琴器材品牌，關注口琴製造、器材與產品資訊。",
-      "keywords": "韋笙堡 Weissenberg Harmonicas 口琴 臺灣 Made in Taiwan",
+      "region": "臺灣/臺中/后里",
+      "cityOrFocus": "源自1979年臺灣凱音樂器團隊/1989年創立WEISSENBERG品牌/臺灣研發與製造專業口琴/半音階、複音、十孔、低音與和弦口琴產品/碳纖維簧片及金屬吹嘴技術/演奏家合作與產品資訊",
+      "structuredSummary": "源自1979年臺灣凱音樂器團隊/1989年創立WEISSENBERG品牌/臺灣研發與製造專業口琴/半音階、複音、十孔、低音與和弦口琴產品/碳纖維簧片及金屬吹嘴技術/演奏家合作與產品資訊 / 半音階口琴/複音口琴/十孔口琴/低音口琴/和弦口琴 / 臺灣口琴與管樂器品牌/器材製造與產品資訊來源",
+      "summary": "臺灣的半音階口琴、複音口琴、十孔口琴與低音口琴臺灣口琴與管樂器品牌與器材製造與產品資訊來源，關注源自1979年臺灣凱音樂器團隊、1989年創立WEISSENBERG品牌、臺灣研發與製造專業口琴、半音階與複音。",
+      "keywords": "韋笙堡 Weissenberg Harmonicas 口琴 臺灣 Made in Taiwan 1979 1989 后里 半音階 複音 十孔 低音 和弦 碳纖維簧片 金屬吹嘴",
       "links": [
         {
           "label": "網站",
@@ -2430,7 +2433,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "WH",
       "sourceTags": [
         "教學器材",
-        "教學"
+        "教學",
+        "半音階",
+        "複音",
+        "十孔"
       ],
       "monitorSources": [
         {
@@ -6607,10 +6613,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "工作室/團體",
       "country": "香港",
       "region": "香港/國際",
-      "cityOrFocus": "半音階口琴/小提琴二重奏/教學",
-      "structuredSummary": "半音階口琴/小提琴二重奏/教學 / 半音階/小提琴 / 國際教學/演出單位",
-      "summary": "香港的半音階與小提琴國際教學與演出單位，活動脈絡包含半音階口琴、小提琴二重奏與教學。",
-      "keywords": "Duo Volce Music Studio 誼聲音樂室 Harry Choi 蔡偉鏗 harmonica violin Hong Kong",
+      "cityOrFocus": "蔡偉鏗與周曉彤於2014年正式成立的半音階口琴及小提琴二重奏/古典、電影配樂與探戈/第11屆亞太口琴節原創組冠軍/香港青少年藝術節青年藝術家獎/社區藝術推廣與口琴教學",
+      "structuredSummary": "蔡偉鏗與周曉彤於2014年正式成立的半音階口琴及小提琴二重奏/古典、電影配樂與探戈/第11屆亞太口琴節原創組冠軍/香港青少年藝術節青年藝術家獎/社區藝術推廣與口琴教學 / 半音階口琴/小提琴/鋼琴合作 / 國際演出二重奏/口琴教育工作室/亞太口琴節冠軍團體",
+      "summary": "香港的半音階口琴、小提琴與鋼琴合作國際演出二重奏、口琴教育工作室與亞太口琴節冠軍團體，活動脈絡包含蔡偉鏗與周曉彤於2014年正式成立的半音階口琴及小提琴二重奏、古典與電影配樂與探戈。",
+      "keywords": "Duo Volce Music Studio 誼聲音樂室 Harry Choi 蔡偉鏗 Kiann Chow 周曉彤 chromatic harmonica violin 2014 APHF original champion Youth Arts Festival Hong Kong",
       "links": [
         {
           "label": "網站",
@@ -6644,6 +6650,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "團體樂團",
         "教學",
+        "工作室",
         "半音階",
         "重奏",
         "國際交流"
@@ -7383,7 +7390,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-11 06:05",
       "latestUpdateSource": "Joe Marhofer / The Headcutters",
       "latestUpdateUrl": "https://www.instagram.com/p/Db4CulmALqy/",
-      "avatarUrl": "/assets/source-avatars/9675d65ccd82d12ab770.webp",
+      "avatarUrl": "/assets/source-avatars/52a0f6367ca15bc8972e.webp",
       "sourceInitials": "JMT",
       "sourceTags": [
         "演奏者",
@@ -8540,15 +8547,15 @@ window.HARMONICA_OBSERVE_DATA = {
       "publicId": "16",
       "name": "Dr. Blue 口琴樂團",
       "nameEn": "Dr. Blue Harmonica Ensemble",
-      "category": "團體樂團",
+      "category": "學校社團",
       "type": "團體",
       "originalType": "團體",
       "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "青年重奏/台大藍聲系",
-      "structuredSummary": "青年重奏/台大藍聲系 / 口琴重奏 / 演出團體",
-      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含青年重奏與台大藍聲系。",
-      "keywords": "Dr. Blue 口琴樂團",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "源自台大藍聲口琴社/青年口琴重奏與合奏/推廣口琴音樂/精進樂團合奏能力/2023臺灣口琴音樂節小合奏公開組首獎/年度專場音樂會",
+      "structuredSummary": "源自台大藍聲口琴社/青年口琴重奏與合奏/推廣口琴音樂/精進樂團合奏能力/2023臺灣口琴音樂節小合奏公開組首獎/年度專場音樂會 / 半音階口琴/低音口琴/和弦口琴/口琴重奏與合奏 / 青年演出團體/大學校友樂團/臺灣口琴音樂節得獎團體",
+      "summary": "臺灣的半音階口琴、低音口琴、和弦口琴與口琴重奏與合奏青年演出團體、大學校友樂團與臺灣口琴音樂節得獎團體。",
+      "keywords": "Dr. Blue 口琴樂團 NTU Blue Sound 臺大藍聲 THMF 2023 首獎 重奏 合奏 年度音樂會",
       "links": [
         {
           "label": "網站",
@@ -8576,7 +8583,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "avatarUrl": "/assets/source-avatars/aa0aaede3543a796bd61.webp",
       "sourceInitials": "DB",
       "sourceTags": [
+        "學生社團",
+        "大專社團",
         "團體樂團",
+        "音樂節",
+        "半音階",
         "重奏"
       ],
       "monitorSources": [
@@ -9689,11 +9700,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "type": "學校社團",
       "originalType": "學校/青年",
       "country": "臺灣",
-      "region": "臺灣/雲林",
-      "cityOrFocus": "國中藝才班/口琴隊",
-      "structuredSummary": "國中藝才班/口琴隊 / 口琴隊 / 學校團隊",
-      "summary": "臺灣的口琴隊學校團隊。",
-      "keywords": "二崙國中 藝才班 口琴",
+      "region": "臺灣/雲林/二崙",
+      "cityOrFocus": "國中音樂藝術才能班口琴隊/口琴四重奏與合奏培訓/110學年度全國賽口琴合奏特優/111與112學年度全國賽口琴合奏及四重奏第一名特優/113與114學年度全國賽持續獲特優",
+      "structuredSummary": "國中音樂藝術才能班口琴隊/口琴四重奏與合奏培訓/110學年度全國賽口琴合奏特優/111與112學年度全國賽口琴合奏及四重奏第一名特優/113與114學年度全國賽持續獲特優 / 半音階口琴/低音口琴/和弦口琴/口琴四重奏與合奏 / 國中音樂藝術才能班/青少年口琴教育/全國學生音樂比賽特優團隊",
+      "summary": "臺灣的半音階口琴、低音口琴、和弦口琴與口琴四重奏與合奏國中音樂藝術才能班、青少年口琴教育與全國學生音樂比賽特優團隊。",
+      "keywords": "二崙國中 藝才班 音樂藝術才能班 口琴隊 口琴合奏 四重奏 全國學生音樂比賽 110 111 112 113 114 特優 第一名 蔡明憲 雲林",
       "links": [
         {
           "label": "網站",
@@ -9713,7 +9724,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "avatarUrl": "/assets/source-avatars/erhlun-junior-high-harmonica.jpg",
       "sourceInitials": "雲林",
       "sourceTags": [
-        "學生社團"
+        "學生社團",
+        "比賽",
+        "半音階",
+        "重奏"
       ],
       "monitorSources": [
         {
@@ -11547,14 +11561,14 @@ window.HARMONICA_OBSERVE_DATA = {
       "name": "Laelaps 口琴",
       "nameEn": "Laelaps Harmonica",
       "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "單位",
+      "type": "品牌",
+      "originalType": "品牌/工作室",
       "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "教學/器材/演出資訊",
-      "structuredSummary": "教學/器材/演出資訊 / 口琴 / 教學/器材來源",
-      "summary": "臺灣的口琴教學與器材來源，關注教學、器材與演出資訊。",
-      "keywords": "Laelaps 口琴 蔡明憲 張晁滕",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "2018年於臺灣創立/張晁滕與蔡明憲共同製琴/依演奏者需求客製半音階口琴/手工調校氣密性、簧片靈敏度、吹嘴與按鍵/12、14、16孔Stellar系列/國際演奏者俱樂部",
+      "structuredSummary": "2018年於臺灣創立/張晁滕與蔡明憲共同製琴/依演奏者需求客製半音階口琴/手工調校氣密性、簧片靈敏度、吹嘴與按鍵/12、14、16孔Stellar系列/國際演奏者俱樂部 / 12孔/14孔/16孔半音階口琴/客製口琴 / 臺灣口琴品牌/手工製琴工作室/演奏者與教育者共同創辦",
+      "summary": "臺灣的12孔、14孔、16孔半音階口琴與客製口琴臺灣口琴品牌、手工製琴工作室與演奏者與教育者共同創辦，關注2018年於臺灣創立、張晁滕與蔡明憲共同製琴、依演奏者需求客製半音階口琴、手工調校氣密性與簧片靈敏度。",
+      "keywords": "Laelaps 口琴 Laelaps Harmonica 2018 張晁滕 Jordan 蔡明憲 DMing Stellar 48 56 64 半音階 客製 手工製琴 氣密 簧片靈敏度",
       "links": [
         {
           "label": "網站",
@@ -11586,8 +11600,12 @@ window.HARMONICA_OBSERVE_DATA = {
       "avatarUrl": "/assets/source-avatars/d023242f1d33dd7e4a12.webp",
       "sourceInitials": "L",
       "sourceTags": [
+        "品牌",
         "教學器材",
-        "教學"
+        "教學",
+        "工作室",
+        "半音階",
+        "國際交流"
       ],
       "monitorSources": [
         {
@@ -12395,11 +12413,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "type": "團體",
       "originalType": "團體",
       "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "早期 THMC 系列演出",
-      "structuredSummary": "早期 THMC 系列演出 / 口琴重奏 / 歷史演出團體",
-      "summary": "臺灣的口琴重奏歷史演出團體，活動脈絡包含早期 THMC 系列演出。",
-      "keywords": "頭殼口琴樂團",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "2012年由清大與交大口琴人創團/古典、流行與自編口琴重奏/跨樂器演出/2014亞太口琴節5至16人小合奏公開組冠軍/2015成大盃小合奏冠軍與臺灣國際口琴藝術節菁英賽亞軍",
+      "structuredSummary": "2012年由清大與交大口琴人創團/古典、流行與自編口琴重奏/跨樂器演出/2014亞太口琴節5至16人小合奏公開組冠軍/2015成大盃小合奏冠軍與臺灣國際口琴藝術節菁英賽亞軍 / 半音階口琴/低音口琴/和弦口琴/口琴重奏 / 演出團體/編曲團隊/亞太口琴節冠軍團體",
+      "summary": "臺灣的半音階口琴、低音口琴、和弦口琴與口琴重奏演出團體、編曲團隊與亞太口琴節冠軍團體，活動脈絡包含2012年由清大與交大口琴人創團、古典與流行與自編口琴重奏。",
+      "keywords": "頭殼口琴樂團 Brain Horizon Harmonica Ensemble 清大 交大 2012 APHF 2014 冠軍 成大盃 2015 TIHF 重奏 編曲",
       "links": [
         {
           "label": "Facebook",
@@ -12420,7 +12438,9 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "頭殼",
       "sourceTags": [
         "團體樂團",
-        "重奏"
+        "半音階",
+        "重奏",
+        "國際交流"
       ],
       "monitorSources": [
         {
@@ -12575,39 +12595,6 @@ window.HARMONICA_OBSERVE_DATA = {
         "國際交流",
         "半音階",
         "複音"
-      ]
-    },
-    {
-      "id": "watchlist-62",
-      "publicId": "62",
-      "name": "全日本ハーモニカ連盟 AJHF",
-      "nameEn": "All Japan Harmonica Federation",
-      "category": "國際交流",
-      "type": "協會",
-      "originalType": "協會/資訊入口",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "日本口琴連盟/活動/社群資訊",
-      "structuredSummary": "日本口琴連盟/活動/社群資訊 / 口琴 / 國際協會/資訊來源",
-      "summary": "日本的國際協會與資訊來源，關注日本口琴連盟、活動與社群資訊。",
-      "keywords": "全日本ハーモニカ連盟 AJHF Japan Harmonica Federation 口琴協會 日本",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://japanharmonica.wixsite.com/ajhf"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/1ca8f38afedcb35bf40b.webp",
-      "sourceInitials": "A",
-      "sourceTags": [
-        "協會",
-        "國際交流"
       ]
     },
     {
@@ -15101,6 +15088,42 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-62",
+      "publicId": "62",
+      "name": "全日本ハーモニカ連盟 AJHF",
+      "nameEn": "All Japan Harmonica Federation",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "協會/資訊入口",
+      "country": "日本",
+      "region": "日本/全國",
+      "cityOrFocus": "日本全國口琴組織聯絡平台/串連北海道、東北、關東、中部、關西、中國、四國與九州地區聯盟/協辦各地口琴活動與音樂會/表揚ハーモニカ賞及推動口琴普及發展",
+      "structuredSummary": "日本全國口琴組織聯絡平台/串連北海道、東北、關東、中部、關西、中國、四國與九州地區聯盟/協辦各地口琴活動與音樂會/表揚ハーモニカ賞及推動口琴普及發展 / 複音口琴/半音階口琴/十孔口琴/口琴重奏與合奏 / 日本全國口琴協會/區域聯盟協調與活動資訊來源",
+      "summary": "日本的日本全國口琴協會與區域聯盟協調與活動資訊來源，提供日本全國口琴組織聯絡平台、串連北海道、東北、關東與中部相關資訊。",
+      "keywords": "全日本ハーモニカ連盟 AJHF All Japan Harmonica Federation 北海道 東北 関東 中部 関西 中国 四国 九州 ハーモニカ賞 活動 音樂會 普及",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://japanharmonica.wixsite.com/ajhf"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/1ca8f38afedcb35bf40b.webp",
+      "sourceInitials": "A",
+      "sourceTags": [
+        "場館平台",
+        "半音階",
+        "複音",
+        "十孔",
+        "重奏"
+      ]
+    },
+    {
       "id": "watchlist-75",
       "publicId": "75",
       "name": "新竹市文化局",
@@ -16492,10 +16515,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "教學/影片來源",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "口琴教學/影片/開箱/視訊課程",
-      "structuredSummary": "口琴教學/影片/開箱/視訊課程 / 半音階/十孔/複音 / 教學影片來源",
-      "summary": "臺灣的半音階、十孔與複音教學影片來源，關注口琴教學、影片、開箱與視訊課程。",
-      "keywords": "口袋琴房 Pocket Harmonic 房客聖崴 口琴 教學 開箱",
+      "cityOrFocus": "口琴知識、發展史與樂器介紹/半音階、十孔與複音口琴演奏技巧/入門與進階視訊課程/器材開箱、保養與比較/編曲及流行曲演奏內容",
+      "structuredSummary": "口琴知識、發展史與樂器介紹/半音階、十孔與複音口琴演奏技巧/入門與進階視訊課程/器材開箱、保養與比較/編曲及流行曲演奏內容 / 半音階口琴/十孔口琴/複音口琴 / 口琴教育影音頻道/線上課程與器材資訊來源",
+      "summary": "臺灣的半音階口琴、十孔口琴與複音口琴口琴教育影音頻道與線上課程與器材資訊來源，關注口琴知識、發展史與樂器介紹、半音階、十孔與複音口琴演奏技巧與入門與進階視訊課程。",
+      "keywords": "口袋琴房 Pocket Harmonic 房客聖崴 口琴 教學 開箱 發展史 演奏技巧 視訊課程 器材 保養 編曲",
       "links": [
         {
           "label": "網站",
@@ -19753,13 +19776,13 @@ window.HARMONICA_OBSERVE_DATA = {
     "totalEntries": 318,
     "categories": {
       "其他來源": 2,
-      "國際交流": 13,
-      "團體樂團": 76,
-      "場館平台": 7,
-      "學校社團": 43,
+      "國際交流": 12,
+      "團體樂團": 75,
+      "場館平台": 8,
+      "學校社團": 44,
       "教學器材": 26,
-      "活動資訊": 43,
-      "演奏者": 108
+      "活動資訊": 44,
+      "演奏者": 107
     },
     "countries": {
       "中國": 39,

@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-20T07:23:42+08:00",
+  "generatedAt": "2026-08-20T07:29:16+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
-    "status": "ok",
-    "label": "正常",
-    "summary": "核心資料抓取與公開 API 正常。 Instagram RSSHub 目前依排程或預算節流。"
+    "status": "degraded",
+    "label": "部分異常",
+    "summary": "核心 pipeline 有產出；需要注意：主排程與輸出。 Instagram RSSHub 目前依排程或預算節流。"
   },
   "metrics": {
-    "updates": 3830,
+    "updates": 3829,
     "updatesWindowDays": 30,
     "directoryEntries": 318,
     "watchSources": 689,
     "currentErrors": 0,
-    "latestDataAt": "2026-08-20T07:23:17+08:00",
+    "latestDataAt": "2026-08-20T07:29:13+08:00",
     "latestSocialObservationAt": "2026-08-20T07:22:48+08:00"
   },
   "watchSources": {
@@ -67,14 +67,15 @@
     {
       "id": "pipeline",
       "name": "主排程與輸出",
-      "status": "ok",
-      "label": "正常",
-      "summary": "定期 pipeline 已產生公開資料快照。",
+      "status": "degraded",
+      "label": "部分異常",
+      "summary": "排程或輸出時間需要檢查。",
       "details": [
-        "最新公開資料：2026-08-20 07:23:17",
+        "最近 pipeline 失敗：publish github pages；heartbeat 2026-08-20 07:24:34。",
+        "最新公開資料：2026-08-20 07:29:13",
         "pipeline.log 更新：2026-07-12 02:58:29",
         "pipeline.err.log 更新：2026-07-11 14:33:03",
-        "LaunchAgent：running，last exit 0"
+        "LaunchAgent：not running，last exit 1"
       ]
     },
     {
@@ -82,7 +83,7 @@
       "name": "公開 API",
       "status": "ok",
       "label": "正常",
-      "summary": "latest.json 有 3830 筆更新，sources.json 有 318 筆公開目錄。",
+      "summary": "latest.json 有 3829 筆更新，sources.json 有 318 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
         "watch sources：689"
@@ -96,7 +97,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：143 ms"
+        "耗時：51 ms"
       ]
     },
     {
@@ -110,7 +111,7 @@
         "story 無公開內容/空路由略過：0",
         "IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。",
         "本輪 IG：抓取 18、排程略過 334、延後 0、錯誤 0。",
-        "下一個 IG 來源：約 2026-08-20 07:23:43"
+        "下一個 IG 來源：約 2026-08-20 07:30:38"
       ]
     },
     {
@@ -165,14 +166,14 @@
   "recentErrors": [],
   "runtime": {
     "pipeline": {
-      "currentStep": "build status page",
-      "heartbeatAt": "2026-08-19T23:23:42.523295+00:00",
+      "currentStep": "publish github pages",
+      "heartbeatAt": "2026-08-19T23:24:34.688210+00:00",
       "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
       "maxPostAgeDays": 30,
-      "message": "",
+      "message": "Pipeline stopped before completion",
       "pid": 32435,
       "startedAt": "2026-08-19T23:17:20.869642+00:00",
-      "status": "running",
+      "status": "failed",
       "steps": [
         {
           "command": [
@@ -334,11 +335,77 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_status_page.py"
           ],
-          "finishedAt": "",
+          "finishedAt": "2026-08-19T23:23:45.038474+00:00",
           "name": "build status page",
-          "returnCode": null,
+          "returnCode": 0,
           "startedAt": "2026-08-19T23:23:42.523282+00:00",
-          "status": "running"
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/build_submit_page.py"
+          ],
+          "finishedAt": "2026-08-19T23:23:45.074348+00:00",
+          "name": "build submit page",
+          "returnCode": 0,
+          "startedAt": "2026-08-19T23:23:45.040041+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/generate_seo_pages.py"
+          ],
+          "finishedAt": "2026-08-19T23:23:49.353677+00:00",
+          "name": "generate SEO pages",
+          "returnCode": 0,
+          "startedAt": "2026-08-19T23:23:45.074917+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/generate_cloudflare_redirects.py"
+          ],
+          "finishedAt": "2026-08-19T23:23:49.383557+00:00",
+          "name": "generate cloudflare redirects",
+          "returnCode": 0,
+          "startedAt": "2026-08-19T23:23:49.354467+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/check_source_coverage.py"
+          ],
+          "finishedAt": "2026-08-19T23:23:54.358258+00:00",
+          "name": "check source coverage",
+          "returnCode": 0,
+          "startedAt": "2026-08-19T23:23:49.384275+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/validate_public_outputs.py"
+          ],
+          "finishedAt": "2026-08-19T23:24:02.920455+00:00",
+          "name": "validate public outputs",
+          "returnCode": 0,
+          "startedAt": "2026-08-19T23:23:54.359179+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/publish_github_pages.py"
+          ],
+          "finishedAt": "2026-08-19T23:24:02.923672+00:00",
+          "name": "publish github pages",
+          "returnCode": 0,
+          "startedAt": "2026-08-19T23:24:02.922649+00:00",
+          "status": "ok"
         }
       ],
       "version": 1

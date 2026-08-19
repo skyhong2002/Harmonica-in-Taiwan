@@ -1,12 +1,12 @@
 {
-  "currentStep": "",
-  "heartbeatAt": "2026-08-19T23:24:02.924594+00:00",
+  "currentStep": "publish github pages",
+  "heartbeatAt": "2026-08-19T23:24:34.688210+00:00",
   "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
   "maxPostAgeDays": 30,
-  "message": "Pipeline completed; publishing snapshot",
+  "message": "Pipeline stopped before completion",
   "pid": 32435,
   "startedAt": "2026-08-19T23:17:20.869642+00:00",
-  "status": "ok",
+  "status": "failed",
   "steps": [
     {
       "command": [

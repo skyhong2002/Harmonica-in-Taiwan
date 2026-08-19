@@ -1069,12 +1069,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/62-all-japan-harmonica-federation/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/175-deutscher-harmonika-verband-e-v/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -1388,6 +1382,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/284-dragon-knight-harmonica-ensemble/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/62-all-japan-harmonica-federation/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2029,6 +2029,12 @@
     <priority>0.65</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/region/%E6%96%B0%E7%AB%B9/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/region/%E6%B1%9F%E8%98%87/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -2041,7 +2047,7 @@
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/region/%E6%96%B0%E7%AB%B9/</loc>
+    <loc>https://harmonica.observe.tw/source/region/%E5%9C%8B%E9%9A%9B/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
@@ -2060,12 +2066,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/region/%E9%AB%98%E9%9B%84/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/region/%E5%9C%8B%E9%9A%9B/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
@@ -2113,6 +2113,12 @@
     <priority>0.65</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/region/%E5%BE%B7%E5%9C%8B/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/region/%E7%BE%8E%E5%9C%8B/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -2125,6 +2131,12 @@
     <priority>0.65</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/region/%E5%85%A8%E5%9C%8B/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/region/%E5%8C%97%E4%BA%AC/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -2132,12 +2144,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/region/%E5%AF%A7%E5%BE%B7/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/region/%E5%BE%B7%E5%9C%8B/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
@@ -2185,13 +2191,13 @@
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/tag/%E5%9C%98%E9%AB%94%E6%A8%82%E5%9C%98/</loc>
+    <loc>https://harmonica.observe.tw/source/tag/%E5%8D%8A%E9%9F%B3%E9%9A%8E/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/tag/%E5%8D%8A%E9%9F%B3%E9%9A%8E/</loc>
+    <loc>https://harmonica.observe.tw/source/tag/%E5%9C%98%E9%AB%94%E6%A8%82%E5%9C%98/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
@@ -2221,13 +2227,13 @@
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/tag/%E6%AF%94%E8%B3%BD/</loc>
+    <loc>https://harmonica.observe.tw/source/tag/%E8%A4%87%E9%9F%B3/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/tag/%E8%A4%87%E9%9F%B3/</loc>
+    <loc>https://harmonica.observe.tw/source/tag/%E6%AF%94%E8%B3%BD/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
@@ -2245,13 +2251,13 @@
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/tag/%E6%95%99%E5%AD%B8%E5%99%A8%E6%9D%90/</loc>
+    <loc>https://harmonica.observe.tw/source/tag/%E5%A4%A7%E5%B0%88%E7%A4%BE%E5%9C%98/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/tag/%E5%A4%A7%E5%B0%88%E7%A4%BE%E5%9C%98/</loc>
+    <loc>https://harmonica.observe.tw/source/tag/%E6%95%99%E5%AD%B8%E5%99%A8%E6%9D%90/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
@@ -2287,13 +2293,13 @@
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/tag/%E5%90%88%E5%A5%8F/</loc>
+    <loc>https://harmonica.observe.tw/source/tag/%E5%B7%A5%E4%BD%9C%E5%AE%A4/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/tag/%E5%B7%A5%E4%BD%9C%E5%AE%A4/</loc>
+    <loc>https://harmonica.observe.tw/source/tag/%E5%90%88%E5%A5%8F/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
