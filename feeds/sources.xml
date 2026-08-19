@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 19 Aug 2026 22:42:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 22:46:25 +0000</lastBuildDate>
     <item>
       <title>Jong-seong Park 朴鍾聲</title>
       <link>https://www.mnac.co.kr/jongseongpark</link>
@@ -27,6 +27,17 @@ Tag：學生社團、團體樂團、重奏
 國家：臺灣
 地區：臺灣/臺中
 臺灣的口琴重奏與合奏演出團體與活動資訊來源。</description>
+    </item>
+    <item>
+      <title>唐雪婷 Sharene Tang</title>
+      <link>https://www.facebook.com/sharenetang.fresco/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/4dc25ed2251d3a9d</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、半音階、國際交流
+國家：馬來西亞
+地區：馬來西亞
+馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。</description>
     </item>
     <item>
       <title>南里沙</title>
@@ -359,6 +370,17 @@ Tag：演奏者、比賽、半音階、國際交流
 韓國的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、國際比賽與教育與演出。</description>
     </item>
     <item>
+      <title>新竹縣文化局</title>
+      <link>https://www.hchcc.gov.tw/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/764c874d5d511c0a</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/新竹
+臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
+    </item>
+    <item>
       <title>Rodrigo Eberienos</title>
       <link>https://www.facebook.com/rodrigoeberienos/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/116d0779dfdefd7d</guid>
@@ -401,17 +423,6 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/高雄
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
-    </item>
-    <item>
-      <title>新竹縣文化局</title>
-      <link>https://www.hchcc.gov.tw/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/764c874d5d511c0a</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/新竹
-臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
     </item>
     <item>
       <title>陳鴻儀</title>
@@ -621,6 +632,17 @@ Tag：學生社團
 國家：臺灣
 地區：臺灣/彰化
 臺灣的口琴學校社團。</description>
+    </item>
+    <item>
+      <title>JDR Harmonica</title>
+      <link>https://www.jdrharmonica.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/ff3072d2a6ca4ec0</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：品牌、活動資訊、音樂節、半音階、十孔、國際交流
+國家：中國
+地區：中國/江蘇/江陰
+中國的器材品牌與活動贊助單位，涵蓋口琴製造、器材資訊與國際音樂節贊助。</description>
     </item>
     <item>
       <title>進擊的口琴樂團</title>
@@ -885,17 +907,6 @@ Tag：團體樂團、教學、半音階、重奏、國際交流
 國家：香港
 地區：香港/國際
 香港的半音階與小提琴國際教學與演出單位，活動脈絡包含半音階口琴、小提琴二重奏與教學。</description>
-    </item>
-    <item>
-      <title>唐雪婷 Sharene Tang</title>
-      <link>https://www.facebook.com/sharenetang.fresco/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/4dc25ed2251d3a9d</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學、半音階、國際交流
-國家：馬來西亞
-地區：馬來西亞
-馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。</description>
     </item>
     <item>
       <title>藤井俊充</title>
@@ -2777,17 +2788,6 @@ Tag：活動資訊、課程、比賽、半音階、十孔、國際交流
 國家：德國
 地區：德國/特羅辛根
 德國的國際教育與活動來源，涵蓋Trossingen口琴大師工作坊、演奏會與藍調與半音階課程。</description>
-    </item>
-    <item>
-      <title>JDR Harmonica</title>
-      <link>https://www.jdrharmonica.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/ff3072d2a6ca4ec0</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：品牌、活動資訊、音樂節、半音階、十孔、國際交流
-國家：中國
-地區：中國/江蘇/江陰
-中國的器材品牌與活動贊助單位，涵蓋口琴製造、器材資訊與國際音樂節贊助。</description>
     </item>
     <item>
       <title>Julien Cormier</title>

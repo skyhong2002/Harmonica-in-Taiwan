@@ -1,11 +1,82 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T22:42:01.186877Z",
+  "generatedAt": "2026-08-19T22:46:24.460528Z",
   "source": {
     "id": 263,
     "slug": "jdr-harmonica",
     "name": "JDR Harmonica",
     "pageUrl": "https://harmonica.observe.tw/source/263-jdr-harmonica/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-dae99b2b3dca168f555f52c8",
+      "title": "Huge congrats to @Ross Garren on claiming the 2026 SPAH Bernie Bray Harmonica Player of the Year Award!",
+      "excerpt": "Huge congrats to @Ross Garren on claiming the 2026 SPAH Bernie Bray Harmonica Player of the Year Award! The award honors exceptional harmonica performance, and we couldn’t be happier for Ross on this incredible achievement. Ross is part of the JDR artist family, and we’re honore…",
+      "url": "https://www.instagram.com/p/DcH-oKGm6G4/",
+      "sourceName": "JDR Harmonica",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-17T02:35:41Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a7552a90928694db68ee.webp",
+        "width": 800,
+        "height": 534
+      }
+    },
+    {
+      "id": "post-de37e6cda9600ad9c5483351",
+      "title": "Boris_Plotnikov——Hey Jude (Lennon-McCartney), key of F, Bb harmonica Assassin black 2nd position",
+      "excerpt": "Boris_Plotnikov——Hey Jude (Lennon-McCartney), key of F, Bb harmonica Assassin black 2nd position",
+      "url": "https://www.instagram.com/p/Db4d4G2A1xv/",
+      "sourceName": "JDR Harmonica",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-11T02:01:23Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/87863d2b8592b4dc14fe.webp",
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "id": "post-fbf02b7e7fcc94a8e0cc688f",
+      "title": "Check out this Quartz chromatic harmonica by @jdr_harmonica",
+      "excerpt": "Check out this Quartz chromatic harmonica by @jdr_harmonica #harmonica #busking #fyp #viralreels",
+      "url": "https://www.instagram.com/p/DbZ3SxVvLbA/",
+      "sourceName": "JDR Harmonica",
+      "platform": "Instagram",
+      "publishedAt": "2026-07-30T04:52:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2237550f607e4e6715e3.webp",
+        "width": 640,
+        "height": 1136
+      }
+    },
+    {
+      "id": "post-7e22992b3dc109e0cf9ed97a",
+      "title": "A two Masted Schooner named \"Freja\" in Nexø, Bornholm.",
+      "excerpt": "A two Masted Schooner named \"Freja\" in Nexø, Bornholm. Testing out my new JDR Evo 0648S Chromatic harmonica, plays great! One of the coolest stages i ever performed on.",
+      "url": "https://www.instagram.com/p/DbTA9E5MNh6/",
+      "sourceName": "JDR Harmonica",
+      "platform": "Instagram",
+      "publishedAt": "2026-07-27T13:03:56Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/755da766fdead6c87f4e.webp",
+        "width": 640,
+        "height": 1136
+      }
+    },
+    {
+      "id": "post-83ede51907e603250fdf93e4",
+      "title": "Jdr Ninja VS Chicago",
+      "excerpt": "Jdr Ninja VS Chicago",
+      "url": "https://www.instagram.com/p/DbCUvmpp42y/",
+      "sourceName": "JDR Harmonica",
+      "platform": "Instagram",
+      "publishedAt": "2026-07-21T01:22:51Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/cc837729e5be245a9967.webp",
+        "width": 640,
+        "height": 1136
+      }
+    }
+  ]
 }
