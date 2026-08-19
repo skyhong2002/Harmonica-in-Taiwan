@@ -12342,7 +12342,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/59df672792ca7ad4e48c.webp",
       "sourceInitials": "CHE",
       "sourceTags": [
         "團體樂團",
@@ -12509,7 +12509,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/6601f0d02abe5c2a6458.webp",
       "sourceInitials": "NLH",
       "sourceTags": [
         "團體樂團",
@@ -12936,7 +12936,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/723a6af7022bb72cfc55.webp",
       "sourceInitials": "真南",
       "sourceTags": [
         "團體樂團",
@@ -13052,7 +13052,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/bce077d1b47b65fecf80.webp",
       "sourceInitials": "還沒",
       "sourceTags": [
         "團體樂團",
@@ -13230,59 +13230,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UC9ts62VuB0WSSVDQW_h3H_g",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-228",
-      "publicId": "228",
-      "name": "2026臺中一中口琴社校友音樂會",
-      "nameEn": "2026 TCFSH Harmonica Alumni Concert",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "活動/資訊入口",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "校友音樂會/公演/中一中口琴社/2026",
-      "structuredSummary": "校友音樂會/公演/中一中口琴社/2026 / 口琴重奏/合奏 / 活動資訊來源",
-      "summary": "臺灣的口琴重奏與合奏活動資訊來源。",
-      "keywords": "2026臺中一中口琴社校友音樂會 中一中口琴社校友會 天琴聲等煙雨 大墩文化中心",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/tcfsh_harmonica_alumni/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "",
-      "sourceInitials": "2",
-      "sourceTags": [
-        "學生社團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_tcfsh_harmonica_alumni",
-          "name": "2026臺中一中口琴社校友音樂會",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "tcfsh_harmonica_alumni",
-          "profileUrl": "https://www.instagram.com/tcfsh_harmonica_alumni/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/tcfsh_harmonica_alumni/story/0"
-        },
-        {
-          "id": "ig_tcfsh_harmonica_alumni",
-          "name": "2026臺中一中口琴社校友音樂會",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "tcfsh_harmonica_alumni",
-          "profileUrl": "https://www.instagram.com/tcfsh_harmonica_alumni/",
           "feedUrl": ""
         }
       ]
@@ -13690,6 +13637,60 @@
       ]
     },
     {
+      "id": "watchlist-228",
+      "publicId": "228",
+      "name": "臺中一中口琴社校友團",
+      "nameEn": "TCFSH Harmonica Alumni Ensemble",
+      "category": "學校社團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "校友團/公演/中一中口琴社/2026",
+      "structuredSummary": "校友團/公演/中一中口琴社/2026 / 口琴重奏/合奏 / 演出團體/活動資訊來源",
+      "summary": "臺灣的口琴重奏與合奏演出團體與活動資訊來源。",
+      "keywords": "臺中一中口琴社校友團 2026臺中一中口琴社校友音樂會 中一中口琴社校友會 天琴聲等煙雨 大墩文化中心",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/tcfsh_harmonica_alumni/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/1e63facd2c7ab823694d.webp",
+      "sourceInitials": "臺中",
+      "sourceTags": [
+        "學生社團",
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_tcfsh_harmonica_alumni",
+          "name": "臺中一中口琴社校友團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "tcfsh_harmonica_alumni",
+          "profileUrl": "https://www.instagram.com/tcfsh_harmonica_alumni/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/tcfsh_harmonica_alumni/story/0"
+        },
+        {
+          "id": "ig_tcfsh_harmonica_alumni",
+          "name": "臺中一中口琴社校友團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "tcfsh_harmonica_alumni",
+          "profileUrl": "https://www.instagram.com/tcfsh_harmonica_alumni/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-217",
       "publicId": "217",
       "name": "華中師範大學學生知音口琴社",
@@ -13848,7 +13849,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/cd14a69c301982d7ac39.webp",
       "sourceInitials": "高醫",
       "sourceTags": [
         "學生社團",
@@ -13984,7 +13985,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/bcd09462016e65bb4a0d.webp",
       "sourceInitials": "HA",
       "sourceTags": [
         "教學器材",
@@ -14043,7 +14044,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/ed13f3775f3751df1d84.webp",
       "sourceInitials": "HH",
       "sourceTags": [
         "品牌",
@@ -15104,7 +15105,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/75f2b5d204d08200d410.webp",
       "sourceInitials": "WL",
       "sourceTags": [
         "演奏者",
@@ -15309,7 +15310,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/5a29bdfe5080773de6a5.webp",
       "sourceInitials": "蔡培",
       "sourceTags": [
         "演奏者"
@@ -15361,7 +15362,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/53ea70b9921e96b3a29c.webp",
       "sourceInitials": "蔡牧",
       "sourceTags": [
         "演奏者",
@@ -15415,7 +15416,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/b927fc9bc6f9ef6f752f.webp",
       "sourceInitials": "邴國",
       "sourceTags": [
         "演奏者",
@@ -15520,7 +15521,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "",
+      "avatarUrl": "/assets/source-avatars/718baf2f4c2fb8253e60.webp",
       "sourceInitials": "JC",
       "sourceTags": [
         "演奏者",

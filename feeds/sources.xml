@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 19 Aug 2026 18:33:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 18:50:35 +0000</lastBuildDate>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -1998,17 +1998,6 @@ Tag：場館平台
 臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
     </item>
     <item>
-      <title>2026臺中一中口琴社校友音樂會</title>
-      <link>https://www.instagram.com/tcfsh_harmonica_alumni/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/fe69e9452b7b7d04</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：學校社團
-Tag：學生社團、重奏
-國家：臺灣
-地區：臺灣/臺中
-臺灣的口琴重奏與合奏活動資訊來源。</description>
-    </item>
-    <item>
       <title>中央大學リード合奏部ハーモニカ・ソサィエティー</title>
       <link>https://www.chuo-u.ac.jp/activities/club/culture/culture23/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/7a14cd77f3112cd1</guid>
@@ -2084,6 +2073,17 @@ Tag：學生社團、團體樂團、音樂節
 國家：香港
 地區：香港
 香港的口琴樂團、學生合奏與學校音樂節學校社團。</description>
+    </item>
+    <item>
+      <title>臺中一中口琴社校友團</title>
+      <link>https://www.instagram.com/tcfsh_harmonica_alumni/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/03338e13a3c86e9d</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：學校社團
+Tag：學生社團、團體樂團、重奏
+國家：臺灣
+地區：臺灣/臺中
+臺灣的口琴重奏與合奏演出團體與活動資訊來源。</description>
     </item>
     <item>
       <title>華中師範大學學生知音口琴社</title>
