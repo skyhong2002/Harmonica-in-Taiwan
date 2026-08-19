@@ -26,6 +26,7 @@ SOURCE_TAG_CACHE = PROJECT_ROOT / "state" / "source_llm_tags.json"
 SOURCE_AVATAR_DIR = SITE_ROOT / "assets" / "source-avatars"
 CURATED_SOURCE_AVATAR_DIR = PROJECT_ROOT / "assets" / "source-avatars-curated"
 CURATED_SOURCE_AVATARS = {
+    "太平國小口琴隊": "taiping-elementary-harmonica.jpg",
     "Yotam Ben-Or": "yotam-ben-or.jpg",
     "Rivet 口琴重奏": "rivet-harmonica.png",
     "Jens Bunge": "jens-bunge.jpg",
