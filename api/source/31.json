@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T19:30:40.399601Z",
+  "generatedAt": "2026-08-19T19:44:02.577549Z",
   "source": {
     "id": 31,
     "slug": "31",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/31/"
   },
   "items": [
+    {
+      "id": "post-4726c65c9f0a2052a0366e1b",
+      "title": "《小手拉大手 / 幻化成風》Cover｜Jordan & Penny Duo",
+      "excerpt": "《小手拉大手 / 幻化成風》Cover｜Jordan & Penny Duo Jordan & Penny Duo 帶來經典曲目《小手拉大手》（幻化成風）。輕快雀躍的旋律、默契十足的雙人對話，帶你一秒重回《貓的報恩》裡陽光灑落的午後。戴上耳機，跟著音樂一起深呼吸吧！ ▶ 🧔 關於我 & 經歷 張晁滕 (Chaoteng Chang) 享譽國際的半音階口琴演奏家、專業教學與 Laelaps 口琴製琴師。 • 畢業於國立臺灣師範大學民族音樂研究所、國立臺北教育大學教育學系（輔修音樂學系），主修口琴。 • 投入口琴教育與演奏十餘年，多次帶領中小學校隊獲得全國…",
+      "url": "https://www.youtube.com/watch?v=JjYfTdp6WcM",
+      "sourceName": "張晁滕",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-18T09:49:59Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2e8fc260338dfca1bb11.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-27ef704f5fb9ff9697117b94",
       "title": "捷報🎉！昨天收到訊息，我的一位來自廣東的學生何梓韜在這次亞太口琴節獲得了亞太青少年組半音階獨奏冠軍🏆 恭喜！",
