@@ -44,6 +44,9 @@ PROFILE_ID_ALIASES = {
         "Comet Harmonica Ensemble",
         "AcousTek Harmonica Ensemble",
         "自由的口琴樂團",
+        "巴國聯軍",
+        "龍騎士口琴樂團",
+        "海豚星樂團",
     ),
     "yt_sihf_uv5mk": (
         "Choi Suhong 최수홍",
