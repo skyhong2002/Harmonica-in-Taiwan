@@ -1,18 +1,18 @@
 {
   "site": "https://harmonica.observe.tw",
   "generatedAt": "2026-08-20",
-  "count": 312,
+  "count": 313,
   "stats": {
-    "totalEntries": 312,
+    "totalEntries": 313,
     "categories": {
       "其他來源": 2,
       "國際交流": 13,
-      "團體樂團": 78,
+      "團體樂團": 79,
       "場館平台": 7,
-      "學校社團": 39,
+      "學校社團": 40,
       "教學器材": 26,
       "活動資訊": 36,
-      "演奏者": 111
+      "演奏者": 110
     },
     "countries": {
       "中國": 38,
@@ -42,7 +42,7 @@
       "西班牙": 2,
       "阿根廷": 4,
       "韓國": 23,
-      "香港": 25,
+      "香港": 26,
       "馬來西亞": 14
     },
     "watchSources": {
@@ -3349,7 +3349,7 @@
       "latestUpdateLocal": "2026-08-19 02:02",
       "latestUpdateSource": "Jens Bunge",
       "latestUpdateUrl": "https://www.instagram.com/stories/jensbunge.jazzharmonica/3966604892596723113/",
-      "avatarUrl": "/assets/source-avatars/59b1b52b1b0ff0b2d1e7.webp",
+      "avatarUrl": "/assets/source-avatars/jens-bunge.jpg",
       "sourceInitials": "JB",
       "sourceTags": [
         "演奏者",
@@ -5291,11 +5291,15 @@
       "originalType": "國際團體/參考來源",
       "country": "香港",
       "region": "香港/國際",
-      "cityOrFocus": "國際口琴重奏/臺港交流/SIHF 2026",
-      "structuredSummary": "國際口琴重奏/臺港交流/SIHF 2026 / 口琴重奏 / 國際演出團體",
-      "summary": "香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏、臺港交流與SIHF 2026。",
-      "keywords": "RedBricks Harmonica 香港口琴五重奏 harmonica ensemble SIHF 2026",
+      "cityOrFocus": "五位英皇書院口琴手組成/和弦、低音與半音階口琴重奏/古典、流行、民謠及電影音樂/2025世界口琴節三重奏冠軍與小組合奏季軍/臺港交流/SIHF 2026",
+      "structuredSummary": "五位英皇書院口琴手組成/和弦、低音與半音階口琴重奏/古典、流行、民謠及電影音樂/2025世界口琴節三重奏冠軍與小組合奏季軍/臺港交流/SIHF 2026 / 半音階口琴/低音口琴/和弦口琴/口琴重奏 / 世界冠軍口琴團體/國際演出團體",
+      "summary": "香港的半音階口琴、低音口琴、和弦口琴與口琴重奏世界冠軍口琴團體與國際演出團體，活動脈絡包含五位英皇書院口琴手組成、和弦與低音與半音階口琴重奏。",
+      "keywords": "RedBricks Harmonica 香港口琴五重奏 英皇書院 世界口琴節 WHF 2025 trio champion ensemble SIHF 2026",
       "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hkpm.org.hk/sc/event/bank-of-china-hong-kong-presents-hkpm-showtime-a-redbricks-harmonica-journey-by-redbricks"
+        },
         {
           "label": "Facebook",
           "url": "https://www.facebook.com/redbricksharmonica/"
@@ -5319,6 +5323,7 @@
       "sourceInitials": "RH",
       "sourceTags": [
         "團體樂團",
+        "半音階",
         "重奏",
         "國際交流"
       ],
@@ -13617,6 +13622,41 @@
       ]
     },
     {
+      "id": "watchlist-314",
+      "publicId": "314",
+      "name": "Rivet 口琴重奏",
+      "nameEn": "Rivet Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "2014年成立/以半音階與低音口琴改編古典音樂/成都、巴林、首爾與德國等國際演出/《琴聲貢聚》2026-27計劃",
+      "structuredSummary": "2014年成立/以半音階與低音口琴改編古典音樂/成都、巴林、首爾與德國等國際演出/《琴聲貢聚》2026-27計劃 / 半音階口琴/低音口琴/口琴重奏 / 國際演出團體/古典改編與青年口琴推廣",
+      "summary": "香港的半音階口琴、低音口琴與口琴重奏國際演出團體與古典改編與青年口琴推廣，活動脈絡包含2014年成立、以半音階與低音口琴改編古典音樂與成都。",
+      "keywords": "Rivet Harmonica Ensemble 香港 2014 chromatic bass classical 成都 巴林 首爾 德國 琴聲貢聚 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hkharmonica.org/cas2026-27-project-activation-concert/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/rivet-harmonica.png",
+      "sourceInitials": "R",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ]
+    },
+    {
       "id": "watchlist-286",
       "publicId": "286",
       "name": "Seoul BLUE Harmonica Ensemble",
@@ -13864,7 +13904,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/8b480267fd2aca5a7594.webp",
+      "avatarUrl": "/assets/source-avatars/veloz-harmonica.jpg",
       "sourceInitials": "VHQ",
       "sourceTags": [
         "團體樂團",
@@ -15678,6 +15718,44 @@
       ]
     },
     {
+      "id": "watchlist-135",
+      "publicId": "135",
+      "name": "黃啟書 Openbook Huang",
+      "nameEn": "Openbook Huang",
+      "category": "學校社團",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "倍低音與半音階口琴/天狼星口琴樂團音樂總監與首席/編曲/大專聯合口琴營師資/多所中小學與大專口琴社指導/SIHF 2018",
+      "structuredSummary": "倍低音與半音階口琴/天狼星口琴樂團音樂總監與首席/編曲/大專聯合口琴營師資/多所中小學與大專口琴社指導/SIHF 2018 / 倍低音口琴/半音階口琴/口琴重奏 / 國際演出人員/音樂總監與首席/編曲者/口琴教師",
+      "summary": "臺灣的倍低音口琴、半音階口琴與口琴重奏國際演出人員、音樂總監與首席與編曲者。",
+      "keywords": "黃啟書 Openbook Huang Chishu Chi-Shu Huang harmonica Sirius 倍低音 天狼星 SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://mx.nthu.edu.tw/~ymchen/sirius/openbook.htm"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/openbook-huang.jpg",
+      "sourceInitials": "OH",
+      "sourceTags": [
+        "學生社團",
+        "大專社團",
+        "團體樂團",
+        "演奏者",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ]
+    },
+    {
       "id": "watchlist-296",
       "publicId": "296",
       "name": "C.A. SEYDEL SÖHNE",
@@ -17410,51 +17488,6 @@
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/pibe.arcega",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-135",
-      "publicId": "135",
-      "name": "Chishu Huang",
-      "nameEn": "Chishu Huang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "臺灣低音口琴與重奏/國際交流/SIHF 2018",
-      "structuredSummary": "臺灣低音口琴與重奏/國際交流/SIHF 2018 / Bass/口琴重奏 / 國際演出人員",
-      "summary": "臺灣的Bass與口琴重奏國際演出人員，活動脈絡包含臺灣低音口琴與重奏、國際交流與SIHF 2018。",
-      "keywords": "Chishu Huang Chi-Shu Huang harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://thefestival.co.kr/info/festival/7338"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/d46567b33b1baf0d8f42.webp",
-      "sourceInitials": "CH",
-      "sourceTags": [
-        "演奏者",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "yt_sihf_uv5mk",
-          "name": "Seoul International Harmonica Festival",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@SIHF-uv5mk",
           "feedUrl": ""
         }
       ]

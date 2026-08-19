@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 19 Aug 2026 21:59:42 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 22:05:59 +0000</lastBuildDate>
     <item>
       <title>Jong-seong Park 朴鍾聲</title>
       <link>https://www.mnac.co.kr/jongseongpark</link>
@@ -723,14 +723,14 @@ Tag：活動資訊、團體樂團、比賽、重奏、國際交流
     </item>
     <item>
       <title>RedBricks Harmonica</title>
-      <link>https://www.facebook.com/redbricksharmonica/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/77378d9ca07a4f96</guid>
+      <link>https://www.hkpm.org.hk/sc/event/bank-of-china-hong-kong-presents-hkpm-showtime-a-redbricks-harmonica-journey-by-redbricks</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/0973a5b2e8eb1c22</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <description>分類：團體樂團
-Tag：團體樂團、重奏、國際交流
+Tag：團體樂團、半音階、重奏、國際交流
 國家：香港
 地區：香港/國際
-香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏、臺港交流與SIHF 2026。</description>
+香港的半音階口琴、低音口琴、和弦口琴與口琴重奏世界冠軍口琴團體與國際演出團體，活動脈絡包含五位英皇書院口琴手組成、和弦與低音與半音階口琴重奏。</description>
     </item>
     <item>
       <title>裕華中學口琴樂團</title>
@@ -2119,6 +2119,17 @@ Tag：團體樂團、比賽、重奏、國際交流
 臺灣的口琴重奏演出團體，活動脈絡包含重奏、國際比賽與WHF 2025。</description>
     </item>
     <item>
+      <title>Rivet 口琴重奏</title>
+      <link>https://www.hkharmonica.org/cas2026-27-project-activation-concert/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/6df982a197ffa957</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、半音階、重奏、國際交流
+國家：香港
+地區：香港
+香港的半音階口琴、低音口琴與口琴重奏國際演出團體與古典改編與青年口琴推廣，活動脈絡包含2014年成立、以半音階與低音口琴改編古典音樂與成都。</description>
+    </item>
+    <item>
       <title>Seoul BLUE Harmonica Ensemble</title>
       <link>https://gcfac.or.kr/performance/commonView?currRow=1&amp;gcfac_menu_cd=U0007&amp;perDisGubun=performance&amp;returnURI=%2Fperformance%2FcurrentList&amp;seq_no=3630&amp;serhDate=&amp;serhPerforDisplay=&amp;serhTitle=</link>
       <guid>https://harmonica.observe.tw/feeds/sources/0597bb796eb75550</guid>
@@ -2559,6 +2570,17 @@ Tag：學生社團、大專社團
 日本的口琴バンド與合奏學校社團。</description>
     </item>
     <item>
+      <title>黃啟書 Openbook Huang</title>
+      <link>https://mx.nthu.edu.tw/~ymchen/sirius/openbook.htm</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/7737b14eb05f6105</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：學校社團
+Tag：學生社團、大專社團、團體樂團、演奏者、半音階、重奏、國際交流
+國家：臺灣
+地區：臺灣/新竹
+臺灣的倍低音口琴、半音階口琴與口琴重奏國際演出人員、音樂總監與首席與編曲者。</description>
+    </item>
+    <item>
       <title>C.A. SEYDEL SÖHNE</title>
       <link>https://www.seydel1847.de/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/0aa337036fb28a1e</guid>
@@ -2953,17 +2975,6 @@ Tag：演奏者、半音階、十孔、國際交流
 國家：墨西哥
 地區：墨西哥/科利馬
 墨西哥的十孔與半音階口琴國際演出人員、製作人與教育推廣，活動脈絡包含藍調與爵士口琴、跨界電子音樂與音樂製作與廣播。</description>
-    </item>
-    <item>
-      <title>Chishu Huang</title>
-      <link>https://thefestival.co.kr/info/festival/7338</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/d2c3deb542404759</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、重奏、國際交流
-國家：臺灣
-地區：臺灣
-臺灣的Bass與口琴重奏國際演出人員，活動脈絡包含臺灣低音口琴與重奏、國際交流與SIHF 2018。</description>
     </item>
     <item>
       <title>Choi Suhong 최수홍</title>
