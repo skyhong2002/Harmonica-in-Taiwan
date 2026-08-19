@@ -1,9 +1,9 @@
 {
   "currentStep": "",
-  "heartbeatAt": "2026-08-19T23:52:19.843420+00:00",
+  "heartbeatAt": "2026-08-19T23:53:05.905544+00:00",
   "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
   "maxPostAgeDays": 30,
-  "message": "Pipeline completed; publishing snapshot",
+  "message": "Pipeline completed",
   "pid": 50257,
   "startedAt": "2026-08-19T23:46:19.268292+00:00",
   "status": "ok",
