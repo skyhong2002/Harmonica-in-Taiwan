@@ -2651,6 +2651,15 @@ button.feed-tag-pill {
   min-width: 0;
 }
 
+.directory-id-cell {
+  color: #3f5362;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.82rem;
+  font-weight: 850;
+  text-align: center;
+  white-space: nowrap;
+}
+
 .directory-source-cell {
   color: #1f312f;
   font-weight: 900;

@@ -65,6 +65,60 @@
   },
   "entries": [
     {
+      "id": "watchlist-228",
+      "publicId": "228",
+      "name": "臺中一中口琴社校友團",
+      "nameEn": "TCFSH Harmonica Alumni Ensemble",
+      "category": "學校社團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "校友團/公演/中一中口琴社/2026",
+      "structuredSummary": "校友團/公演/中一中口琴社/2026 / 口琴重奏/合奏 / 演出團體/活動資訊來源",
+      "summary": "臺灣的口琴重奏與合奏演出團體與活動資訊來源。",
+      "keywords": "臺中一中口琴社校友團 2026臺中一中口琴社校友音樂會 中一中口琴社校友會 天琴聲等煙雨 大墩文化中心",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/tcfsh_harmonica_alumni/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-19T16:25:56+00:00",
+      "latestUpdateLocal": "2026-08-20 00:25",
+      "latestUpdateSource": "臺中一中口琴社校友團",
+      "latestUpdateUrl": "https://www.instagram.com/stories/tcfsh_harmonica_alumni/3967281076360017134/",
+      "avatarUrl": "/assets/source-avatars/1e63facd2c7ab823694d.webp",
+      "sourceInitials": "臺中",
+      "sourceTags": [
+        "學生社團",
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_tcfsh_harmonica_alumni",
+          "name": "臺中一中口琴社校友團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "tcfsh_harmonica_alumni",
+          "profileUrl": "https://www.instagram.com/tcfsh_harmonica_alumni/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/tcfsh_harmonica_alumni/story/0"
+        },
+        {
+          "id": "ig_tcfsh_harmonica_alumni",
+          "name": "臺中一中口琴社校友團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "tcfsh_harmonica_alumni",
+          "profileUrl": "https://www.instagram.com/tcfsh_harmonica_alumni/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -740,6 +794,77 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-146",
+      "publicId": "146",
+      "name": "World Harmonica Festival",
+      "nameEn": "World Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "國際活動/資訊入口",
+      "country": "德國",
+      "region": "德國/特羅辛根",
+      "cityOrFocus": "四年一度世界口琴節/國際比賽/Gala/工作坊",
+      "structuredSummary": "四年一度世界口琴節/國際比賽/Gala/工作坊 / 口琴 / 國際活動來源",
+      "summary": "德國的國際活動來源，涵蓋四年一度世界口琴節、國際比賽、Gala與工作坊。",
+      "keywords": "World Harmonica Festival WHF Trossingen Hohner harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://worldharmonicafestival.de/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/WorldHarmonicaFestival/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/whf_world_harmonica_festival/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-19T12:21:08+00:00",
+      "latestUpdateLocal": "2026-08-19 20:21",
+      "latestUpdateSource": "World Harmonica Festival",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcOKUA1oZtC/",
+      "avatarUrl": "/assets/source-avatars/7f448a79b2cb29fdf2f5.webp",
+      "sourceInitials": "WHF",
+      "sourceTags": [
+        "活動資訊",
+        "比賽",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_worldharmonicafestival",
+          "name": "World Harmonica Festival",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/WorldHarmonicaFestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_whf_world_harmonica_festival",
+          "name": "World Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "whf_world_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/whf_world_harmonica_festival/story/0"
+        },
+        {
+          "id": "ig_whf_world_harmonica_festival",
+          "name": "World Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "whf_world_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
           "feedUrl": ""
         }
       ]
@@ -3348,77 +3473,6 @@
           "username": "aidensoon",
           "profileUrl": "https://www.instagram.com/aidensoon/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-146",
-      "publicId": "146",
-      "name": "World Harmonica Festival",
-      "nameEn": "World Harmonica Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "國際活動/資訊入口",
-      "country": "德國",
-      "region": "德國/特羅辛根",
-      "cityOrFocus": "四年一度世界口琴節/國際比賽/Gala/工作坊",
-      "structuredSummary": "四年一度世界口琴節/國際比賽/Gala/工作坊 / 口琴 / 國際活動來源",
-      "summary": "德國的國際活動來源，涵蓋四年一度世界口琴節、國際比賽、Gala與工作坊。",
-      "keywords": "World Harmonica Festival WHF Trossingen Hohner harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://worldharmonicafestival.de/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/WorldHarmonicaFestival/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/whf_world_harmonica_festival/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-18T12:00:07+00:00",
-      "latestUpdateLocal": "2026-08-18 20:00",
-      "latestUpdateSource": "World Harmonica Festival",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcLkDquRY-j/",
-      "avatarUrl": "/assets/source-avatars/7f448a79b2cb29fdf2f5.webp",
-      "sourceInitials": "WHF",
-      "sourceTags": [
-        "活動資訊",
-        "比賽",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_worldharmonicafestival",
-          "name": "World Harmonica Festival",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/WorldHarmonicaFestival",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_whf_world_harmonica_festival",
-          "name": "World Harmonica Festival",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "whf_world_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/whf_world_harmonica_festival/story/0"
-        },
-        {
-          "id": "ig_whf_world_harmonica_festival",
-          "name": "World Harmonica Festival",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "whf_world_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
-          "feedUrl": ""
         }
       ]
     },
@@ -13634,60 +13688,6 @@
         "學生社團",
         "團體樂團",
         "音樂節"
-      ]
-    },
-    {
-      "id": "watchlist-228",
-      "publicId": "228",
-      "name": "臺中一中口琴社校友團",
-      "nameEn": "TCFSH Harmonica Alumni Ensemble",
-      "category": "學校社團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "校友團/公演/中一中口琴社/2026",
-      "structuredSummary": "校友團/公演/中一中口琴社/2026 / 口琴重奏/合奏 / 演出團體/活動資訊來源",
-      "summary": "臺灣的口琴重奏與合奏演出團體與活動資訊來源。",
-      "keywords": "臺中一中口琴社校友團 2026臺中一中口琴社校友音樂會 中一中口琴社校友會 天琴聲等煙雨 大墩文化中心",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/tcfsh_harmonica_alumni/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/1e63facd2c7ab823694d.webp",
-      "sourceInitials": "臺中",
-      "sourceTags": [
-        "學生社團",
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_tcfsh_harmonica_alumni",
-          "name": "臺中一中口琴社校友團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "tcfsh_harmonica_alumni",
-          "profileUrl": "https://www.instagram.com/tcfsh_harmonica_alumni/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/tcfsh_harmonica_alumni/story/0"
-        },
-        {
-          "id": "ig_tcfsh_harmonica_alumni",
-          "name": "臺中一中口琴社校友團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "tcfsh_harmonica_alumni",
-          "profileUrl": "https://www.instagram.com/tcfsh_harmonica_alumni/",
-          "feedUrl": ""
-        }
       ]
     },
     {

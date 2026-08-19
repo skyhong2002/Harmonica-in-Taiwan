@@ -1,12 +1,12 @@
 {
-  "currentStep": "watch social feeds",
-  "heartbeatAt": "2026-08-19T18:52:31.876702+00:00",
+  "currentStep": "",
+  "heartbeatAt": "2026-08-19T18:54:24.657422+00:00",
   "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
   "maxPostAgeDays": 2,
-  "message": "",
+  "message": "Pipeline completed",
   "pid": 19430,
   "startedAt": "2026-08-19T18:50:30.869961+00:00",
-  "status": "running",
+  "status": "ok",
   "steps": [
     {
       "command": [
@@ -29,11 +29,177 @@
         "10",
         "--no-llm-tags"
       ],
-      "finishedAt": "",
+      "finishedAt": "2026-08-19T18:53:27.794431+00:00",
       "name": "watch social feeds",
-      "returnCode": null,
+      "returnCode": 0,
       "startedAt": "2026-08-19T18:50:31.094523+00:00",
-      "status": "running"
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_public_data.py"
+      ],
+      "finishedAt": "2026-08-19T18:53:29.653038+00:00",
+      "name": "build public data",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T18:53:27.797048+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/backfill_public_source_pages.py",
+        "--skip-fetch"
+      ],
+      "finishedAt": "2026-08-19T18:53:32.463585+00:00",
+      "name": "backfill source pages",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T18:53:29.653721+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_public_data.py"
+      ],
+      "finishedAt": "2026-08-19T18:53:34.199890+00:00",
+      "name": "rebuild public data",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T18:53:32.464442+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_score_publications.py"
+      ],
+      "finishedAt": "2026-08-19T18:53:34.297511+00:00",
+      "name": "build score publications",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T18:53:34.200566+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_score_sources.py"
+      ],
+      "finishedAt": "2026-08-19T18:53:34.348558+00:00",
+      "name": "build score sources",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T18:53:34.298066+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/generate_rss_feeds.py"
+      ],
+      "finishedAt": "2026-08-19T18:53:54.436946+00:00",
+      "name": "generate rss feeds",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T18:53:34.349108+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_public_calendar_events.py"
+      ],
+      "finishedAt": "2026-08-19T18:53:54.885869+00:00",
+      "name": "build public calendar events",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T18:53:54.438036+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/apply_submitted_events.py"
+      ],
+      "finishedAt": "2026-08-19T18:53:54.956074+00:00",
+      "name": "apply submitted events",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T18:53:54.886440+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Users/skyhong/.hermes/google-workspace-venv/bin/python",
+        "scripts/sync_google_calendar_events.py"
+      ],
+      "finishedAt": "2026-08-19T18:54:12.770766+00:00",
+      "name": "sync google calendar",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T18:53:54.956631+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_status_page.py"
+      ],
+      "finishedAt": "2026-08-19T18:54:15.203607+00:00",
+      "name": "build status page",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T18:54:12.772696+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_submit_page.py"
+      ],
+      "finishedAt": "2026-08-19T18:54:15.270750+00:00",
+      "name": "build submit page",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T18:54:15.205184+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/generate_seo_pages.py"
+      ],
+      "finishedAt": "2026-08-19T18:54:18.520338+00:00",
+      "name": "generate SEO pages",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T18:54:15.271523+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/generate_cloudflare_redirects.py"
+      ],
+      "finishedAt": "2026-08-19T18:54:18.549657+00:00",
+      "name": "generate cloudflare redirects",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T18:54:18.521236+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/check_source_coverage.py"
+      ],
+      "finishedAt": "2026-08-19T18:54:20.657263+00:00",
+      "name": "check source coverage",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T18:54:18.550238+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/validate_public_outputs.py"
+      ],
+      "finishedAt": "2026-08-19T18:54:24.653719+00:00",
+      "name": "validate public outputs",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T18:54:20.658004+00:00",
+      "status": "ok"
     }
   ],
   "version": 1
