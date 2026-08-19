@@ -46,20 +46,20 @@
       "馬來西亞": 14
     },
     "watchSources": {
-      "totalSources": 688,
+      "totalSources": 689,
       "rsshubSources": 392,
-      "apifySources": 159,
-      "facebookSources": 159,
+      "apifySources": 160,
+      "facebookSources": 160,
       "youtubeSources": 137,
       "platforms": {
-        "facebook": 159,
+        "facebook": 160,
         "instagram": 352,
         "threads": 28,
         "x": 12,
         "youtube": 137
       },
       "types": {
-        "facebook_page_posts": 159,
+        "facebook_page_posts": 160,
         "rss": 40,
         "rsshub_instagram_profile": 176,
         "rsshub_instagram_story": 176,
@@ -9580,7 +9580,7 @@
       "latestUpdateLocal": "2026-07-21 08:12",
       "latestUpdateSource": "雲林縣二崙國中藝才班口琴隊",
       "latestUpdateUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid037chEnLNagbiGYykyyP177HDLtRQjz9PZQh8WM5J5kZ6iEdxbWb5ipMZT771pdjVAl&id=61550868336289",
-      "avatarUrl": "/assets/source-avatars/13b3c1b7296f0d759ec9.webp",
+      "avatarUrl": "/assets/source-avatars/erhlun-junior-high-harmonica.jpg",
       "sourceInitials": "雲林",
       "sourceTags": [
         "學生社團"
@@ -12399,7 +12399,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/35d62fd11d6f5302527c.webp",
+      "avatarUrl": "/assets/source-avatars/china-popular-music-harmonica-committee.png",
       "sourceInitials": "中國",
       "sourceTags": [
         "協會",
@@ -12433,7 +12433,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/35d62fd11d6f5302527c.webp",
+      "avatarUrl": "/assets/source-avatars/china-popular-music-harmonica-committee.png",
       "sourceInitials": "中國",
       "sourceTags": [
         "協會",
@@ -14348,7 +14348,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/35d62fd11d6f5302527c.webp",
+      "avatarUrl": "/assets/source-avatars/easttop-harmonica-ensemble.jpg",
       "sourceInitials": "東方",
       "sourceTags": [
         "團體樂團"
@@ -15051,7 +15051,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/35d62fd11d6f5302527c.webp",
+      "avatarUrl": "/assets/source-avatars/easttop-harmonica-museum.jpg",
       "sourceInitials": "東方",
       "sourceTags": [
         "場館平台"
@@ -15151,10 +15151,10 @@
       "originalType": "學校/青年",
       "country": "香港",
       "region": "香港/銅鑼灣",
-      "cityOrFocus": "1979年成立的女子口琴隊/學校與國際賽事演出/2017世界口琴節公開樂團組冠軍/第十四屆亞太口琴節獲獎/8名隊員參與2025世界口琴節並於2026祝捷音樂會演出",
-      "structuredSummary": "1979年成立的女子口琴隊/學校與國際賽事演出/2017世界口琴節公開樂團組冠軍/第十四屆亞太口琴節獲獎/8名隊員參與2025世界口琴節並於2026祝捷音樂會演出 / 半音階口琴/和弦口琴/低音口琴/口琴合奏 / 學校團隊/青少年口琴教育/國際比賽團隊",
+      "cityOrFocus": "1979年成立的女子口琴隊/學校與國際賽事演出/2017世界口琴節公開樂團組冠軍/2024亞太口琴節青少年室內樂金獎與二重奏銀獎/8名隊員參與2025世界口琴節並於2026祝捷音樂會演出",
+      "structuredSummary": "1979年成立的女子口琴隊/學校與國際賽事演出/2017世界口琴節公開樂團組冠軍/2024亞太口琴節青少年室內樂金獎與二重奏銀獎/8名隊員參與2025世界口琴節並於2026祝捷音樂會演出 / 半音階口琴/和弦口琴/低音口琴/口琴合奏 / 學校團隊/青少年口琴教育/國際比賽團隊",
       "summary": "香港的半音階口琴、和弦口琴、低音口琴與口琴合奏學校團隊、青少年口琴教育與國際比賽團隊。",
-      "keywords": "何東中學口琴隊 Hotung Secondary School Harmonica Band HSSHB 1979 女子口琴隊 WHF 2017 2025 APHF 2026 香港",
+      "keywords": "何東中學口琴隊 Hotung Secondary School Harmonica Band HSSHB 1979 女子口琴隊 WHF 2017 2025 APHF 2024 金獎 銀獎 2026 香港",
       "links": [
         {
           "label": "網站",
@@ -15174,6 +15174,7 @@
         "團體樂團",
         "比賽",
         "半音階",
+        "重奏",
         "國際交流"
       ]
     },
@@ -15538,15 +15539,15 @@
       "type": "學校社團",
       "originalType": "學校社團",
       "country": "中國",
-      "region": "中國/湖北",
-      "cityOrFocus": "華中師範大學/學校社團/武漢",
-      "structuredSummary": "華中師範大學/學校社團/武漢 / 口琴社/學生合奏/校園演出 / 學校社團",
-      "summary": "中國的口琴社、學生合奏與校園演出學校社團。",
-      "keywords": "華中師範大學 知音口琴社 CCNU Zhiyin Harmonica Club 中國學生口琴",
+      "region": "中國/湖北/武漢",
+      "cityOrFocus": "2008年成立/校園口琴普及/零基礎一對一教學/自編布魯斯、複音與半音階教學手冊/日常練習、音樂會與大型演出/2025年度四星級學生社團",
+      "structuredSummary": "2008年成立/校園口琴普及/零基礎一對一教學/自編布魯斯、複音與半音階教學手冊/日常練習、音樂會與大型演出/2025年度四星級學生社團 / 十孔口琴/複音口琴/半音階口琴 / 學校社團/學生合奏/校園演出/口琴教學",
+      "summary": "中國的十孔口琴、複音口琴與半音階口琴學校社團、學生合奏與校園演出。",
+      "keywords": "華中師範大學 知音口琴社 CCNU Zhiyin Harmonica Club 2008 四星級 零基礎 一對一 教學手冊 武漢 中國學生口琴",
       "links": [
         {
           "label": "網站",
-          "url": "https://youth.ccnu.edu.cn/info/1170/19470.htm"
+          "url": "https://www.ccnu.edu.cn/ccnuyouth/info/1300/56896.htm"
         }
       ],
       "source": "watchlist",
@@ -15555,11 +15556,15 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/56ffb595435ab6e08448.webp",
+      "avatarUrl": "/assets/source-avatars/ccnu-zhiyin-harmonica-club.png",
       "sourceInitials": "華中",
       "sourceTags": [
         "學生社團",
-        "大專社團"
+        "大專社團",
+        "教學",
+        "半音階",
+        "複音",
+        "十孔"
       ]
     },
     {
@@ -16927,7 +16932,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/c17924681b81f13d4c6c.webp",
+      "avatarUrl": "/assets/source-avatars/mundharmonika-live-2026.jpg",
       "sourceInitials": "ML",
       "sourceTags": [
         "活動資訊",
@@ -17571,7 +17576,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/4dbac9b4f99f50f09cea.webp",
+      "avatarUrl": "/assets/source-avatars/liaoyang-baita-harmonica-week.jpg",
       "sourceInitials": "遼陽",
       "sourceTags": [
         "活動資訊",
@@ -19219,8 +19224,12 @@
           "url": "https://ivanchong.com/"
         },
         {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chongtingho"
+        },
+        {
           "label": "Instagram",
-          "url": "https://www.instagram.com/coopharmonica/"
+          "url": "https://www.instagram.com/chongtingho/"
         },
         {
           "label": "YouTube",
@@ -19245,22 +19254,31 @@
       ],
       "monitorSources": [
         {
-          "id": "ig_coopharmonica",
+          "id": "fb_chongtingho",
           "name": "莊庭皓 Ivan Chong",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "coopharmonica",
-          "profileUrl": "https://www.instagram.com/coopharmonica/",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chongtingho",
           "feedUrl": ""
         },
         {
-          "id": "ig_story_coopharmonica",
+          "id": "ig_chongtingho",
+          "name": "莊庭皓 Ivan Chong",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chongtingho",
+          "profileUrl": "https://www.instagram.com/chongtingho/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chongtingho",
           "name": "莊庭皓 Ivan Chong",
           "platform": "instagram",
           "type": "rsshub_instagram_story",
-          "username": "coopharmonica",
-          "profileUrl": "https://www.instagram.com/coopharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/coopharmonica/story/0"
+          "username": "chongtingho",
+          "profileUrl": "https://www.instagram.com/chongtingho/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chongtingho/story/0"
         },
         {
           "id": "yt_ucnjs1xofigjuczktyz7dolw",
