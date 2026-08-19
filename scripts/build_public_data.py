@@ -34,6 +34,7 @@ CURATED_SOURCE_AVATARS = {
     "SHG Hering Harmonicas": "hering-harmonica.png",
     "香港兒童合唱團口琴課程": "hkcc-harmonica.png",
     "基隆社區大學就是吹口琴": "keelung-community-harmonica.jpg",
+    "류선웅 Sunwoong Ryu": "sunwoong-ryu.jpg",
 }
 TAIPEI_TZ = timezone(timedelta(hours=8))
 AVATAR_PLATFORM_PRIORITY = {
