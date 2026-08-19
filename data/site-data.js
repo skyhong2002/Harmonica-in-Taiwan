@@ -174,7 +174,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-20 00:07",
       "latestUpdateSource": "唐雪婷 Sharene Tang",
       "latestUpdateUrl": "https://www.instagram.com/stories/sharene.harmonica/3967271774777990760/",
-      "avatarUrl": "/assets/source-avatars/6d30962c9c8453f92c23.webp",
+      "avatarUrl": "/assets/source-avatars/sharene-tang.jpg",
       "sourceInitials": "ST",
       "sourceTags": [
         "演奏者",
@@ -4393,7 +4393,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-17 21:54",
       "latestUpdateSource": "Boris Plotnikov",
       "latestUpdateUrl": "https://www.instagram.com/p/DcJLA57NtXh/",
-      "avatarUrl": "/assets/source-avatars/6814900cf38e09742c52.webp",
+      "avatarUrl": "/assets/source-avatars/boris-plotnikov.jpg",
       "sourceInitials": "BP",
       "sourceTags": [
         "演奏者",
@@ -4951,7 +4951,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-16 23:42",
       "latestUpdateSource": "Reyharp and Balawan Project",
       "latestUpdateUrl": "https://www.instagram.com/stories/reyharpnaufal/3965084952164996256/",
-      "avatarUrl": "/assets/source-avatars/66a4a85af087bfca5405.webp",
+      "avatarUrl": "/assets/source-avatars/reyharp.jpg",
       "sourceInitials": "RAB",
       "sourceTags": [
         "團體樂團",
@@ -5616,7 +5616,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-16 12:44",
       "latestUpdateSource": "林家靖 Rolabo Lin",
       "latestUpdateUrl": "https://www.instagram.com/stories/rolabo_lin/3964753605907033369/",
-      "avatarUrl": "/assets/source-avatars/3b0659f094e3af703b77.webp",
+      "avatarUrl": "/assets/source-avatars/rolabo-lin.jpg",
       "sourceInitials": "RL",
       "sourceTags": [
         "演奏者",
@@ -7741,7 +7741,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-09 17:47",
       "latestUpdateSource": "蔡明勳",
       "latestUpdateUrl": "https://www.instagram.com/stories/minnie.o6i8/3959832756858922441/",
-      "avatarUrl": "/assets/source-avatars/b36c6edb2cd63e3cedde.webp",
+      "avatarUrl": "/assets/source-avatars/minghsun-tsai.jpg",
       "sourceInitials": "蔡明",
       "sourceTags": [
         "演奏者",
@@ -8624,7 +8624,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-03 14:29",
       "latestUpdateSource": "Spring Harp Fest",
       "latestUpdateUrl": "https://www.instagram.com/stories/springharpfest/3955384387575271250/",
-      "avatarUrl": "/assets/source-avatars/0499fe26aad889d6d0fc.webp",
+      "avatarUrl": "/assets/source-avatars/spring-harp-fest.jpg",
       "sourceInitials": "SHF",
       "sourceTags": [
         "活動資訊",
@@ -8808,7 +8808,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-01 15:45",
       "latestUpdateSource": "Orchestra Hohnerklang",
       "latestUpdateUrl": "https://www.instagram.com/stories/hohnerklang/3953973005431328468/",
-      "avatarUrl": "/assets/source-avatars/bc2433fac4dfe24a1f63.webp",
+      "avatarUrl": "/assets/source-avatars/orchestra-hohnerklang.jpg",
       "sourceInitials": "OH",
       "sourceTags": [
         "團體樂團",
@@ -9288,7 +9288,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-25 19:08",
       "latestUpdateSource": "陳軍凱 Kif Valentine",
       "latestUpdateUrl": "https://www.instagram.com/stories/kif768/3949001933717666668/",
-      "avatarUrl": "/assets/source-avatars/4725c320c85c72b7e412.webp",
+      "avatarUrl": "/assets/source-avatars/kif-valentine.jpg",
       "sourceInitials": "KV",
       "sourceTags": [
         "演奏者",
@@ -9374,7 +9374,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-25 16:47",
       "latestUpdateSource": "Hohner 音樂院（特羅辛根）",
       "latestUpdateUrl": "https://www.instagram.com/stories/hohnerkonservatorium/3948930920509108385/",
-      "avatarUrl": "/assets/source-avatars/59c681edea96e93716a5.webp",
+      "avatarUrl": "/assets/source-avatars/hohner-konservatorium.jpg",
       "sourceInitials": "H",
       "sourceTags": [
         "場館平台",
@@ -9568,7 +9568,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-20 13:47",
       "latestUpdateSource": "Perfect Fourth",
       "latestUpdateUrl": "https://www.instagram.com/stories/perfect.fourth/3945216253963099014/",
-      "avatarUrl": "/assets/source-avatars/aec445101e1fb9c73bbf.webp",
+      "avatarUrl": "/assets/source-avatars/perfect-fourth.jpg",
       "sourceInitials": "PF",
       "sourceTags": [
         "團體樂團",
