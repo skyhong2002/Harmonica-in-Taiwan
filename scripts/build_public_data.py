@@ -47,6 +47,13 @@ PROFILE_ID_ALIASES = {
         "Chishu Huang",
         "Project X",
     ),
+    "ig_whf_world_harmonica_festival": (
+        "Kitauji Sextet",
+        "Resonance Storm",
+        "Heartstrings in Harmony",
+        "Paskho Harmonica Ensemble",
+        "Kyber Harmonica Ensemble",
+    ),
     "manual_aphf_2026": (
         "第五屆華夏（寧德）口琴藝術周",
         "第二屆「敦煌杯」線上口琴大賽",
