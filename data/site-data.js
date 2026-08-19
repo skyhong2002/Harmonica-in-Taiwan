@@ -10210,7 +10210,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "links": [
         {
           "label": "網站",
-          "url": "https://osa_activity.ntu.edu.tw/club/detail/sn/0126"
+          "url": "https://osa.ntu.edu.tw/"
         },
         {
           "label": "Facebook",
@@ -12332,6 +12332,49 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-281",
+      "publicId": "281",
+      "name": "AcousTek Harmonica Ensemble",
+      "nameEn": "AcousTek Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "小合奏/THMF 2026 公開組",
+      "structuredSummary": "小合奏/THMF 2026 公開組 / 口琴小合奏 / 演出團體",
+      "summary": "臺灣的口琴小合奏演出團體，活動脈絡包含小合奏與THMF 2026 公開組。",
+      "keywords": "AcousTek Harmonica Ensemble Taiwan harmonica THMF 2026 The Map Painter Adventure",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/s/E1_-h3sj.pdf"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
+      "sourceInitials": "AHE",
+      "sourceTags": [
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-124",
       "publicId": "124",
       "name": "Ausgelassen x Wesley Wong",
@@ -12346,10 +12389,6 @@ window.HARMONICA_OBSERVE_DATA = {
       "summary": "香港的口琴重奏國際演出團體，活動脈絡包含香港柏赫口琴四重奏、古典與現代融合與本地與國際推廣。",
       "keywords": "Ausgelassen Wesley Wong 黃志榮 harmonica SIHF",
       "links": [
-        {
-          "label": "網站",
-          "url": "https://www.ausgelassen.com/"
-        },
         {
           "label": "Facebook",
           "url": "https://www.facebook.com/ausgelassen.art.academy/"
@@ -12469,6 +12508,49 @@ window.HARMONICA_OBSERVE_DATA = {
         "團體樂團",
         "教學",
         "重奏"
+      ]
+    },
+    {
+      "id": "watchlist-280",
+      "publicId": "280",
+      "name": "Comet Harmonica Ensemble",
+      "nameEn": "Comet Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "小合奏/THMF 2026 公開組",
+      "structuredSummary": "小合奏/THMF 2026 公開組 / 口琴小合奏 / 演出團體",
+      "summary": "臺灣的口琴小合奏演出團體，活動脈絡包含小合奏與THMF 2026 公開組。",
+      "keywords": "Comet Harmonica Ensemble Taiwan harmonica THMF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/s/E1_-h3sj.pdf"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
+      "sourceInitials": "CHE",
+      "sourceTags": [
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -12697,6 +12779,50 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@harpdonuts",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-279",
+      "publicId": "279",
+      "name": "Don't Cry Ensemble",
+      "nameEn": "Don't Cry Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "三重奏/小合奏/THMF 2026 公開組",
+      "structuredSummary": "三重奏/小合奏/THMF 2026 公開組 / 口琴三重奏/小合奏 / 演出團體",
+      "summary": "臺灣的口琴三重奏與小合奏演出團體，活動脈絡包含三重奏與THMF 2026 公開組。",
+      "keywords": "Don't Cry Ensemble Taiwan harmonica THMF 2026 trio ensemble",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/s/E1_-h3sj.pdf"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
+      "sourceInitials": "DTC",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
           "feedUrl": ""
         }
       ]
@@ -13794,6 +13920,49 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_profile",
           "username": "the_souther__harmonica",
           "profileUrl": "https://www.instagram.com/the_souther__harmonica/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-282",
+      "publicId": "282",
+      "name": "自由的口琴樂團",
+      "nameEn": "Free Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "大合奏/THMF 2026 公開組",
+      "structuredSummary": "大合奏/THMF 2026 公開組 / 口琴大合奏 / 演出團體",
+      "summary": "臺灣的口琴大合奏演出團體，活動脈絡包含大合奏與THMF 2026 公開組。",
+      "keywords": "自由的口琴樂團 Free Harmonica Ensemble Taiwan THMF 2026 Attack on Titan Medley",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/s/F1_-kgya.pdf"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
+      "sourceInitials": "自由",
+      "sourceTags": [
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
           "feedUrl": ""
         }
       ]
@@ -17796,11 +17965,11 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 277,
+    "totalEntries": 281,
     "categories": {
       "其他來源": 2,
       "國際交流": 12,
-      "團體樂團": 71,
+      "團體樂團": 75,
       "場館平台": 7,
       "學校社團": 38,
       "教學器材": 21,
@@ -17826,7 +17995,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "瑞士": 1,
       "紐西蘭": 1,
       "美國": 7,
-      "臺灣": 124,
+      "臺灣": 128,
       "英國": 3,
       "荷蘭": 1,
       "西班牙": 2,
