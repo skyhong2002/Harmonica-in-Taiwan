@@ -40,6 +40,10 @@ PROFILE_ID_ALIASES = {
         "Miss H. 口琴樂團",
         "Orion 口琴樂團",
         "Golden Bird Harmonica",
+        "Don't Cry Ensemble",
+        "Comet Harmonica Ensemble",
+        "AcousTek Harmonica Ensemble",
+        "自由的口琴樂團",
     ),
     "yt_sihf_uv5mk": (
         "Choi Suhong 최수홍",
