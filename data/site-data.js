@@ -61,6 +61,60 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-228",
+      "publicId": "228",
+      "name": "臺中一中口琴社校友團",
+      "nameEn": "TCFSH Harmonica Alumni Ensemble",
+      "category": "學校社團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "校友團/公演/中一中口琴社/2026",
+      "structuredSummary": "校友團/公演/中一中口琴社/2026 / 口琴重奏/合奏 / 演出團體/活動資訊來源",
+      "summary": "臺灣的口琴重奏與合奏演出團體與活動資訊來源。",
+      "keywords": "臺中一中口琴社校友團 2026臺中一中口琴社校友音樂會 中一中口琴社校友會 天琴聲等煙雨 大墩文化中心",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/tcfsh_harmonica_alumni/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-19T17:05:26+00:00",
+      "latestUpdateLocal": "2026-08-20 01:05",
+      "latestUpdateSource": "臺中一中口琴社校友團",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcOmeuTGBgX/",
+      "avatarUrl": "/assets/source-avatars/1e63facd2c7ab823694d.webp",
+      "sourceInitials": "臺中",
+      "sourceTags": [
+        "學生社團",
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_tcfsh_harmonica_alumni",
+          "name": "臺中一中口琴社校友團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "tcfsh_harmonica_alumni",
+          "profileUrl": "https://www.instagram.com/tcfsh_harmonica_alumni/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/tcfsh_harmonica_alumni/story/0"
+        },
+        {
+          "id": "ig_tcfsh_harmonica_alumni",
+          "name": "臺中一中口琴社校友團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "tcfsh_harmonica_alumni",
+          "profileUrl": "https://www.instagram.com/tcfsh_harmonica_alumni/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-65",
       "publicId": "65",
       "name": "Jong-seong Park 朴鍾聲",
@@ -141,60 +195,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/jongseongpark",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-228",
-      "publicId": "228",
-      "name": "臺中一中口琴社校友團",
-      "nameEn": "TCFSH Harmonica Alumni Ensemble",
-      "category": "學校社團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "校友團/公演/中一中口琴社/2026",
-      "structuredSummary": "校友團/公演/中一中口琴社/2026 / 口琴重奏/合奏 / 演出團體/活動資訊來源",
-      "summary": "臺灣的口琴重奏與合奏演出團體與活動資訊來源。",
-      "keywords": "臺中一中口琴社校友團 2026臺中一中口琴社校友音樂會 中一中口琴社校友會 天琴聲等煙雨 大墩文化中心",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/tcfsh_harmonica_alumni/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-19T16:25:56+00:00",
-      "latestUpdateLocal": "2026-08-20 00:25",
-      "latestUpdateSource": "臺中一中口琴社校友團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/tcfsh_harmonica_alumni/3967281076360017134/",
-      "avatarUrl": "/assets/source-avatars/1e63facd2c7ab823694d.webp",
-      "sourceInitials": "臺中",
-      "sourceTags": [
-        "學生社團",
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_tcfsh_harmonica_alumni",
-          "name": "臺中一中口琴社校友團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "tcfsh_harmonica_alumni",
-          "profileUrl": "https://www.instagram.com/tcfsh_harmonica_alumni/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/tcfsh_harmonica_alumni/story/0"
-        },
-        {
-          "id": "ig_tcfsh_harmonica_alumni",
-          "name": "臺中一中口琴社校友團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "tcfsh_harmonica_alumni",
-          "profileUrl": "https://www.instagram.com/tcfsh_harmonica_alumni/",
           "feedUrl": ""
         }
       ]
@@ -1794,6 +1794,91 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-298",
+      "publicId": "298",
+      "name": "香港兒童合唱團口琴課程",
+      "nameEn": "HKCC Harmonica Programme",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "教學/學校/青年",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生",
+      "structuredSummary": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生 / 半音階/口琴合奏 / 教學單位/青年培育",
+      "summary": "香港的半音階與口琴合奏教學單位與青年培育。",
+      "keywords": "香港兒童合唱團 HKCC Harmonica Programme 口琴課程 Gordon Lee 2026 招生 兒童合奏",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hkcchoir.org.hk/en/instrumental-programme"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hkcchoir"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hkcchoir/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/hkcchoir"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-19T12:13:12+00:00",
+      "latestUpdateLocal": "2026-08-19 20:13",
+      "latestUpdateSource": "香港兒童合唱團口琴課程",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hkcchoir/3967153683925176378/",
+      "avatarUrl": "/assets/source-avatars/hkcc-harmonica.png",
+      "sourceInitials": "香港",
+      "sourceTags": [
+        "學生社團",
+        "教學",
+        "課程",
+        "半音階"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hkcchoir",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hkcchoir",
+          "profileUrl": "https://www.instagram.com/hkcchoir/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hkcchoir",
+          "profileUrl": "https://www.instagram.com/hkcchoir/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hkcchoir/story/0"
+        },
+        {
+          "id": "yt_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/hkcchoir",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-30",
       "publicId": "30",
       "name": "蔡明憲",
@@ -2110,6 +2195,68 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "aurora._.harmonica",
           "profileUrl": "https://www.instagram.com/aurora._.harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/aurora._.harmonica/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-88",
+      "publicId": "88",
+      "name": "藍波口琴教室",
+      "nameEn": "Bluebo Harmonica",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "教學工作室",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴教學/課程/學習資源",
+      "structuredSummary": "口琴教學/課程/學習資源 / 口琴 / 教學/課程來源",
+      "summary": "臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。",
+      "keywords": "藍波口琴教室 藍波口琴網 口琴 教學",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.blueboclass.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/happyharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@lamberharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-19T10:00:19+00:00",
+      "latestUpdateLocal": "2026-08-19 18:00",
+      "latestUpdateSource": "藍波口琴教室",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=14EzY4WhOp4",
+      "avatarUrl": "/assets/source-avatars/bluebo-harmonica.jpg",
+      "sourceInitials": "藍波",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "課程"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_happyharmonica",
+          "name": "藍波口琴教室",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/happyharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_lamberharmonica",
+          "name": "藍波口琴教室",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@lamberharmonica",
+          "feedUrl": ""
         }
       ]
     },
@@ -2849,6 +2996,55 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-86",
+      "publicId": "86",
+      "name": "吹出好心琴 + Ou Frog",
+      "nameEn": "Ou Frog",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "教學/影片來源",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴教學影片/示範",
+      "structuredSummary": "口琴教學影片/示範 / 口琴 / 教學影片來源",
+      "summary": "臺灣的口琴教學影片來源，關注口琴教學影片與示範。",
+      "keywords": "吹出好心琴 Ou Frog 口琴 教學 YouTube",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@oufrog"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-19T04:00:18+00:00",
+      "latestUpdateLocal": "2026-08-19 12:00",
+      "latestUpdateSource": "吹出好心琴 + Ou Frog",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=IehM7e7U06w",
+      "avatarUrl": "/assets/source-avatars/2241bd394301b93492ed.webp",
+      "sourceInitials": "OF",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_oufrog",
+          "name": "吹出好心琴 + Ou Frog",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@oufrog",
           "feedUrl": ""
         }
       ]
@@ -6099,55 +6295,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-86",
-      "publicId": "86",
-      "name": "吹出好心琴 + Ou Frog",
-      "nameEn": "Ou Frog",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "教學/影片來源",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴教學影片/示範",
-      "structuredSummary": "口琴教學影片/示範 / 口琴 / 教學影片來源",
-      "summary": "臺灣的口琴教學影片來源，關注口琴教學影片與示範。",
-      "keywords": "吹出好心琴 Ou Frog 口琴 教學 YouTube",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@oufrog"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-15T04:00:21+00:00",
-      "latestUpdateLocal": "2026-08-15 12:00",
-      "latestUpdateSource": "吹出好心琴 + Ou Frog",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=57ocIC9pBfc",
-      "avatarUrl": "/assets/source-avatars/2241bd394301b93492ed.webp",
-      "sourceInitials": "OF",
-      "sourceTags": [
-        "品牌",
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "yt_oufrog",
-          "name": "吹出好心琴 + Ou Frog",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@oufrog",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-192",
       "publicId": "192",
       "name": "建中口琴社",
@@ -6385,68 +6532,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "plashervouetband",
           "profileUrl": "https://www.instagram.com/plashervouetband/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/plashervouetband/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-88",
-      "publicId": "88",
-      "name": "藍波口琴教室",
-      "nameEn": "Bluebo Harmonica",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "教學工作室",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴教學/課程/學習資源",
-      "structuredSummary": "口琴教學/課程/學習資源 / 口琴 / 教學/課程來源",
-      "summary": "臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。",
-      "keywords": "藍波口琴教室 藍波口琴網 口琴 教學",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.blueboclass.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/happyharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@lamberharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-14T10:00:07+00:00",
-      "latestUpdateLocal": "2026-08-14 18:00",
-      "latestUpdateSource": "藍波口琴教室",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=wQvc_YLowSc",
-      "avatarUrl": "/assets/source-avatars/bluebo-harmonica.jpg",
-      "sourceInitials": "藍波",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "課程"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_happyharmonica",
-          "name": "藍波口琴教室",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/happyharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_lamberharmonica",
-          "name": "藍波口琴教室",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@lamberharmonica",
-          "feedUrl": ""
         }
       ]
     },
@@ -15872,91 +15957,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/aria0831",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-298",
-      "publicId": "298",
-      "name": "香港兒童合唱團口琴課程",
-      "nameEn": "HKCC Harmonica Programme",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "教學/學校/青年",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生",
-      "structuredSummary": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生 / 半音階/口琴合奏 / 教學單位/青年培育",
-      "summary": "香港的半音階與口琴合奏教學單位與青年培育。",
-      "keywords": "香港兒童合唱團 HKCC Harmonica Programme 口琴課程 Gordon Lee 2026 招生 兒童合奏",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://hkcchoir.org.hk/en/instrumental-programme"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hkcchoir"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hkcchoir/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/user/hkcchoir"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/hkcc-harmonica.png",
-      "sourceInitials": "香港",
-      "sourceTags": [
-        "學生社團",
-        "教學",
-        "課程",
-        "半音階"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hkcchoir",
-          "name": "香港兒童合唱團口琴課程",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hkcchoir",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hkcchoir",
-          "name": "香港兒童合唱團口琴課程",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hkcchoir",
-          "profileUrl": "https://www.instagram.com/hkcchoir/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hkcchoir",
-          "name": "香港兒童合唱團口琴課程",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hkcchoir",
-          "profileUrl": "https://www.instagram.com/hkcchoir/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hkcchoir/story/0"
-        },
-        {
-          "id": "yt_hkcchoir",
-          "name": "香港兒童合唱團口琴課程",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/user/hkcchoir",
           "feedUrl": ""
         }
       ]

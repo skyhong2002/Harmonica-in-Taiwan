@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T23:32:06.312115Z",
+  "generatedAt": "2026-08-19T23:51:40.839685Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -8,6 +8,34 @@
     "pageUrl": "https://harmonica.observe.tw/source/88-bluebo-harmonica/"
   },
   "items": [
+    {
+      "id": "post-b5db52f25d94663758df2305",
+      "title": "《月亮代表我的心＋青蘋果樂園》營火晚會丨北投社大口琴班",
+      "excerpt": "《月亮代表我的心＋青蘋果樂園》營火晚會丨北投社大口琴班 北投班來到盛夏的露營活動，淑貞老師秉持「我願盡力」的童軍諾言，帶著同學無視酷暑歡樂參與到底，連壓箱底的帶動唱老活兒都用上了！！吹口琴讓人快樂健康，玩童軍保證充滿活力，吹口琴又玩童軍⋯完美啦！ 你也是童軍嗎？來刷一波＋1，以後跟淑貞老師相認要用咱們童軍招呼喔 北投社大口琴班(五)晚上",
+      "url": "https://www.youtube.com/watch?v=14EzY4WhOp4",
+      "sourceName": "藍波口琴教室",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-19T10:00:19Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/93117309adec5a27b0a8.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-4c75610a1f8760b4dcb04db7",
+      "title": "白牡丹 口琴二部合奏丨士林社大口琴班",
+      "excerpt": "白牡丹 口琴二部合奏丨士林社大口琴班 士林社大半音階口琴班才成立一年，同學們這學期已經能輕鬆駕馭編寫成二部合奏的動人老歌-白牡丹，讓演奏的音色更豐富與和諧。 想要帶著小小的口琴到處旅行嗎？口琴是便宜好攜帶又簡單易學的口袋樂器，不會吵到鄰居，不需要有音樂基礎，請快來報名士林社大週三下午的：半音階口琴來吹歌，透過音色豐富多變的半音階口琴，輕鬆來吹奏流行歌，開心的進入音樂世界，感受音樂的動人美學。 士林社大半音階口琴班(三)下午",
+      "url": "https://www.youtube.com/watch?v=wxl1nz24v2o",
+      "sourceName": "藍波口琴教室",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-17T10:00:34Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/99bab7c4cbbe491d66af.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-47fc66b318d36996647a954e",
       "title": "思念你的心肝你敢知丨大安社大口琴班",

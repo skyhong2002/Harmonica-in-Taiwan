@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 19 Aug 2026 23:32:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 23:51:42 +0000</lastBuildDate>
     <item>
       <title>梁芷菁 Steffi Leung</title>
       <link>https://www.steffileung.com/</link>
@@ -18,17 +18,6 @@ Tag：演奏者、半音階、重奏、國際交流
 香港的半音階國際演出人員，活動脈絡包含國際賽事、電台主持與Adventure Harmonica Band。</description>
     </item>
     <item>
-      <title>Jong-seong Park 朴鍾聲</title>
-      <link>https://www.mnac.co.kr/jongseongpark</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/7375d9cceaab9077</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、複音、國際交流
-國家：韓國
-地區：韓國/首爾
-韓國的半音階口琴與複音口琴國際演出人員、HOHNER古典藝人與編曲者與管弦樂企劃主持，活動脈絡包含半音階與複音獨奏、2002 APHF金牌與2008 APHF三冠。</description>
-    </item>
-    <item>
       <title>臺中一中口琴社校友團</title>
       <link>https://www.instagram.com/tcfsh_harmonica_alumni/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/03338e13a3c86e9d</guid>
@@ -38,6 +27,17 @@ Tag：學生社團、團體樂團、重奏
 國家：臺灣
 地區：臺灣/臺中
 臺灣的口琴重奏與合奏演出團體與活動資訊來源。</description>
+    </item>
+    <item>
+      <title>Jong-seong Park 朴鍾聲</title>
+      <link>https://www.mnac.co.kr/jongseongpark</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/7375d9cceaab9077</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、複音、國際交流
+國家：韓國
+地區：韓國/首爾
+韓國的半音階口琴與複音口琴國際演出人員、HOHNER古典藝人與編曲者與管弦樂企劃主持，活動脈絡包含半音階與複音獨奏、2002 APHF金牌與2008 APHF三冠。</description>
     </item>
     <item>
       <title>唐雪婷 Sharene Tang</title>
@@ -260,6 +260,17 @@ Tag：演奏者、團體樂團、重奏
 臺灣的和弦口琴與重奏演出人員、教育者與重奏團長，活動脈絡包含天狼星、胖擊口琴樂團團長與THMF 2026。</description>
     </item>
     <item>
+      <title>香港兒童合唱團口琴課程</title>
+      <link>https://hkcchoir.org.hk/en/instrumental-programme</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/88afcc2c63af0bc5</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：學校社團
+Tag：學生社團、教學、課程、半音階
+國家：香港
+地區：香港
+香港的半音階與口琴合奏教學單位與青年培育。</description>
+    </item>
+    <item>
       <title>蔡明憲</title>
       <link>https://dming.co/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/58238fbd0d3cbd45</guid>
@@ -302,6 +313,17 @@ Tag：演奏者、半音階、複音、國際交流
 國家：臺灣
 地區：臺灣
 臺灣的半音階口琴與複音口琴演出人員與國際賽事得獎者，活動脈絡包含半音階與複音口琴、2019 SIHF Seoul Major Prize與青年演奏與國際賽事。</description>
+    </item>
+    <item>
+      <title>藍波口琴教室</title>
+      <link>https://www.blueboclass.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/208580c304c32492</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：教學器材、教學、課程
+國家：臺灣
+地區：臺灣
+臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。</description>
     </item>
     <item>
       <title>曹小歐</title>
@@ -401,6 +423,17 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/新竹
 臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
+    </item>
+    <item>
+      <title>吹出好心琴 + Ou Frog</title>
+      <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/a7900260c88a5842</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：品牌、教學器材、教學
+國家：臺灣
+地區：臺灣
+臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
     </item>
     <item>
       <title>Rodrigo Eberienos</title>
@@ -854,17 +887,6 @@ Tag：學生社團、大專社團、團體樂團、半音階
 新加坡的半音階口琴、和弦口琴、低音口琴與口琴樂團大學學生社團與大型學生口琴樂團。</description>
     </item>
     <item>
-      <title>吹出好心琴 + Ou Frog</title>
-      <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/a7900260c88a5842</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：品牌、教學器材、教學
-國家：臺灣
-地區：臺灣
-臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
-    </item>
-    <item>
       <title>建中口琴社</title>
       <link>https://sites.google.com/view/ckhc-harmonica-club/%E9%A6%96%E9%A0%81</link>
       <guid>https://harmonica.observe.tw/feeds/sources/f12ddb8552994d48</guid>
@@ -896,17 +918,6 @@ Tag：團體樂團、十孔、國際交流
 國家：法國
 地區：法國
 法國的十孔、藍調口琴、吉他與人聲國際演出團體，活動脈絡包含WHF 2025、吉他與歌唱與Golden Melody ambassador。</description>
-    </item>
-    <item>
-      <title>藍波口琴教室</title>
-      <link>https://www.blueboclass.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/208580c304c32492</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：教學器材、教學、課程
-國家：臺灣
-地區：臺灣
-臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。</description>
     </item>
     <item>
       <title>香港學校音樂節</title>
@@ -2601,17 +2612,6 @@ Tag：學生社團、大專社團、團體樂團、演奏者、教學、半音�
 國家：臺灣
 地區：臺灣/新竹
 臺灣的半音階口琴與口琴重奏演出人員、學校社團指導與天狼星口琴樂團成員。</description>
-    </item>
-    <item>
-      <title>香港兒童合唱團口琴課程</title>
-      <link>https://hkcchoir.org.hk/en/instrumental-programme</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/88afcc2c63af0bc5</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：學校社團
-Tag：學生社團、教學、課程、半音階
-國家：香港
-地區：香港
-香港的半音階與口琴合奏教學單位與青年培育。</description>
     </item>
     <item>
       <title>高醫萌風口琴社</title>
