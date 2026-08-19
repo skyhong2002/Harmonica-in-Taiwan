@@ -41,6 +41,9 @@ CURATED_SOURCE_AVATARS = {
     "張雅誥": "chong-ah-kow.png",
     "黃浚宇": "wong-chun-yu.png",
     "楊樂": "le-yang.jpg",
+    "張錫範": "seokbeom-jang.png",
+    "Into The Harmonica 口琴學院": "into-the-harmonica.jpg",
+    "韓國口琴領袖協會": "korea-harmonica-leaders.jpg",
 }
 TAIPEI_TZ = timezone(timedelta(hours=8))
 AVATAR_PLATFORM_PRIORITY = {
