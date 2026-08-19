@@ -8907,15 +8907,15 @@ window.HARMONICA_OBSERVE_DATA = {
       "cityOrFocus": "香港古典半音階口琴家/香港中文大學音樂系口琴演奏主修/亞太口琴節半音階獨奏公開組冠軍/世界口琴節三重奏冠軍/社區與幼兒口琴教育/香港青年口琴樂團創辦人",
       "structuredSummary": "香港古典半音階口琴家/香港中文大學音樂系口琴演奏主修/亞太口琴節半音階獨奏公開組冠軍/世界口琴節三重奏冠軍/社區與幼兒口琴教育/香港青年口琴樂團創辦人 / 半音階口琴/口琴重奏 / 國際演出人員/藝術總監/口琴教育者/社區藝術推廣者",
       "summary": "香港的半音階口琴與口琴重奏國際演出人員、藝術總監與口琴教育者，活動脈絡包含香港古典半音階口琴家、香港中文大學音樂系口琴演奏主修與亞太口琴節半音階獨奏公開組冠軍。",
-      "keywords": "",
+      "keywords": "黃志榮 Wesley Wong classical chromatic harmonica Chinese University of Hong Kong APHF solo champion WHF trio champion educator Hong Kong Youth Harmonica Choir",
       "links": [
+        {
+          "label": "網站",
+          "url": "https://abo.gov.hk/en/eventDetail/690"
+        },
         {
           "label": "Facebook",
           "url": "https://www.facebook.com/wesleyharmonica"
-        },
-        {
-          "label": "OPENTIX",
-          "url": "https://abo.gov.hk/en/eventDetail/690"
         }
       ],
       "source": "watchlist",
@@ -9176,8 +9176,12 @@ window.HARMONICA_OBSERVE_DATA = {
       "cityOrFocus": "馬來西亞首位且最年輕的國際口琴三料冠軍/馬來西亞紀錄大全持有人/創作型口琴藝人與全職音樂人/2014首張口琴EP《Circle》/口琴、鋼琴、薩克斯風、打擊、長笛與嗩吶等多樂器跨界",
       "structuredSummary": "馬來西亞首位且最年輕的國際口琴三料冠軍/馬來西亞紀錄大全持有人/創作型口琴藝人與全職音樂人/2014首張口琴EP《Circle》/口琴、鋼琴、薩克斯風、打擊、長笛與嗩吶等多樂器跨界 / 十孔口琴/半音階口琴/複音口琴/低音口琴/多樂器 / 國際演出人員/世界冠軍口琴家/詞曲創作與製作人",
       "summary": "馬來西亞的十孔口琴、半音階口琴、複音口琴與低音口琴國際演出人員、世界冠軍口琴家與詞曲創作與製作人，活動脈絡包含馬來西亞首位且最年輕的國際口琴三料冠軍、馬來西亞紀錄大全持有人與創作型口琴藝人與全職音樂人。",
-      "keywords": "",
+      "keywords": "陳軍凱 陈军凯 Kif Valentine Malaysia harmonica international triple champion Malaysia Book of Records Circle EP multi-instrument SIHF",
       "links": [
+        {
+          "label": "網站",
+          "url": "https://yuhua100.com.my/anniversary/ambassador/"
+        },
         {
           "label": "Facebook",
           "url": "https://www.facebook.com/kif768/"
@@ -9189,10 +9193,6 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/@kif768"
-        },
-        {
-          "label": "OPENTIX",
-          "url": "https://yuhua100.com.my/anniversary/ambassador/"
         }
       ],
       "source": "watchlist",
@@ -10033,15 +10033,15 @@ window.HARMONICA_OBSERVE_DATA = {
       "type": "學校社團",
       "originalType": "學校/青年",
       "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "國小口琴隊",
-      "structuredSummary": "國小口琴隊 / 口琴隊 / 學校團隊",
-      "summary": "臺灣的口琴隊學校團隊。",
-      "keywords": "文山 萬興國小 口琴",
+      "region": "臺灣/臺北/文山",
+      "cityOrFocus": "臺北市文山區國小口琴隊/半音階獨奏、二重奏、三重奏與小合奏培訓/2026臺灣口琴音樂節多項名次與獎項/家長後援會支持",
+      "structuredSummary": "臺北市文山區國小口琴隊/半音階獨奏、二重奏、三重奏與小合奏培訓/2026臺灣口琴音樂節多項名次與獎項/家長後援會支持 / 半音階口琴/口琴重奏/口琴合奏 / 學校團隊/青少年口琴教育",
+      "summary": "臺灣的半音階口琴、口琴重奏與口琴合奏學校團隊與青少年口琴教育。",
+      "keywords": "臺北 文山 萬興國小口琴隊 Wanxing Elementary School Harmonica Team THMF 2026 半音階 二重奏 三重奏 小合奏",
       "links": [
         {
           "label": "網站",
-          "url": "https://www.wxes.tp.edu.tw/nss/p/index"
+          "url": "https://www.doe.gov.taipei/News_Content.aspx?n=B3DDF0458F0FFC11&s=B1F9DACC1D1B2A0D&sms=72544237BBE4C5F6"
         },
         {
           "label": "Facebook",
@@ -10057,7 +10057,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "avatarUrl": "/assets/source-avatars/27e7931085caf00dabdc.webp",
       "sourceInitials": "萬興",
       "sourceTags": [
-        "學生社團"
+        "學生社團",
+        "音樂節",
+        "半音階",
+        "重奏"
       ],
       "monitorSources": [
         {
@@ -17748,15 +17751,15 @@ window.HARMONICA_OBSERVE_DATA = {
       "cityOrFocus": "韓國口琴演奏與教育/韓國口琴教育協會/HOHNER韓國官方維修技師/國際交流與首爾口琴活動",
       "structuredSummary": "韓國口琴演奏與教育/韓國口琴教育協會/HOHNER韓國官方維修技師/國際交流與首爾口琴活動 / 口琴/口琴維修與調音 / 國際演出人員/口琴教育者/HOHNER認證技師",
       "summary": "韓國的口琴與口琴維修與調音國際演出人員、口琴教育者與HOHNER認證技師，活動脈絡包含韓國口琴演奏與教育、韓國口琴教育協會與HOHNER韓國官方維修技師。",
-      "keywords": "",
+      "keywords": "Kangsoo Lee 이강수 harmonica SIHF Korea Harmonica Education Association HOHNER official technician Seoul",
       "links": [
+        {
+          "label": "網站",
+          "url": "https://hohner.de/en/service/harmonica/hohner-service-technicians"
+        },
         {
           "label": "Facebook",
           "url": "https://www.facebook.com/kangsoo.lee.9"
-        },
-        {
-          "label": "OPENTIX",
-          "url": "https://hohner.de/en/service/harmonica/hohner-service-technicians"
         }
       ],
       "source": "watchlist",
@@ -18244,6 +18247,92 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_profile",
           "username": "weiyuliao1",
           "profileUrl": "https://www.instagram.com/weiyuliao1/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-315",
+      "publicId": "315",
+      "name": "Yotam Ben-Or",
+      "nameEn": "Yotam Ben-Or",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "以色列",
+      "region": "比利時/以色列/紐約/國際",
+      "cityOrFocus": "比利時與以色列背景的爵士半音階口琴家與作曲家/以中東、拉丁、非洲與古典語彙拓展現代爵士口琴/師承Grégoire Maret/林肯中心與卡內基音樂廳演出/2025專輯《Impermanence》/2026東華春藝季三重奏音樂會",
+      "structuredSummary": "比利時與以色列背景的爵士半音階口琴家與作曲家/以中東、拉丁、非洲與古典語彙拓展現代爵士口琴/師承Grégoire Maret/林肯中心與卡內基音樂廳演出/2025專輯《Impermanence》/2026東華春藝季三重奏音樂會 / 半音階口琴/爵士口琴 / 國際演出人員/作曲家/爵士樂團領隊",
+      "summary": "以色列的半音階口琴與爵士口琴國際演出人員、作曲家與爵士樂團領隊，活動脈絡包含比利時與以色列背景的爵士半音階口琴家與作曲家、以中東與拉丁。",
+      "keywords": "Yotam Ben-Or harmonica jazz composer Belgian Israeli New York Gregoire Maret Impermanence 2025 NDHU Spring Arts Festival Taiwan 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.yotambo.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/yotambo/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yotambo1/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCj4vj3haLP9VWs_DOMbzbkQ"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/yotam-ben-or.jpg",
+      "sourceInitials": "YBO",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_yotambo",
+          "name": "Yotam Ben-Or",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/yotambo",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yotambo1",
+          "name": "Yotam Ben-Or",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yotambo1",
+          "profileUrl": "https://www.instagram.com/yotambo1/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yotambo1/story/0"
+        },
+        {
+          "id": "ig_yotambo1",
+          "name": "Yotam Ben-Or",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yotambo1",
+          "profileUrl": "https://www.instagram.com/yotambo1/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucj4vj3halp9vws_dombzbkq",
+          "name": "Yotam Ben-Or",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCj4vj3haLP9VWs_DOMbzbkQ",
           "feedUrl": ""
         }
       ]
@@ -19431,7 +19520,7 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 313,
+    "totalEntries": 314,
     "categories": {
       "其他來源": 2,
       "國際交流": 13,
@@ -19440,12 +19529,12 @@ window.HARMONICA_OBSERVE_DATA = {
       "學校社團": 40,
       "教學器材": 26,
       "活動資訊": 41,
-      "演奏者": 108
+      "演奏者": 109
     },
     "countries": {
       "中國": 38,
       "丹麥": 1,
-      "以色列": 1,
+      "以色列": 2,
       "俄羅斯": 1,
       "印尼": 1,
       "國際": 2,
@@ -19474,24 +19563,24 @@ window.HARMONICA_OBSERVE_DATA = {
       "馬來西亞": 14
     },
     "watchSources": {
-      "totalSources": 681,
-      "rsshubSources": 388,
-      "apifySources": 158,
-      "facebookSources": 158,
-      "youtubeSources": 135,
+      "totalSources": 685,
+      "rsshubSources": 390,
+      "apifySources": 159,
+      "facebookSources": 159,
+      "youtubeSources": 136,
       "platforms": {
-        "facebook": 158,
-        "instagram": 348,
+        "facebook": 159,
+        "instagram": 350,
         "threads": 28,
         "x": 12,
-        "youtube": 135
+        "youtube": 136
       },
       "types": {
-        "facebook_page_posts": 158,
+        "facebook_page_posts": 159,
         "rss": 40,
-        "rsshub_instagram_profile": 174,
-        "rsshub_instagram_story": 174,
-        "youtube_ytdlp": 135
+        "rsshub_instagram_profile": 175,
+        "rsshub_instagram_story": 175,
+        "youtube_ytdlp": 136
       }
     }
   }
