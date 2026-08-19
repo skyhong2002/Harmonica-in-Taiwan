@@ -9,6 +9,7 @@ import hashlib
 import itertools
 import json
 import re
+import shutil
 import urllib.parse
 from datetime import date, datetime, timezone, timedelta
 from pathlib import Path
@@ -23,6 +24,15 @@ SOURCE_PROFILES_CACHE = PROJECT_ROOT / "data" / "feeds" / "source_profiles.json"
 SOCIAL_SOURCES = PROJECT_ROOT / "data" / "feeds" / "social_sources.json"
 SOURCE_TAG_CACHE = PROJECT_ROOT / "state" / "source_llm_tags.json"
 SOURCE_AVATAR_DIR = SITE_ROOT / "assets" / "source-avatars"
+CURATED_SOURCE_AVATAR_DIR = PROJECT_ROOT / "assets" / "source-avatars-curated"
+CURATED_SOURCE_AVATARS = {
+    "Ivan Marcio": "ivan-marcio.jpg",
+    "Ian Lofamia": "ian-lofamia.jpg",
+    "Michał Kielak": "michal-kielak.jpg",
+    "SUZUKI Harmonica": "suzuki-harmonica.png",
+    "C.A. SEYDEL SÖHNE": "seydel-harmonica.png",
+    "SHG Hering Harmonicas": "hering-harmonica.png",
+}
 TAIPEI_TZ = timezone(timedelta(hours=8))
 AVATAR_PLATFORM_PRIORITY = {
     "instagram": 0,
@@ -78,12 +88,15 @@ PROFILE_ID_ALIASES = {
         "中國大眾音協口琴樂團",
         "無錫市人民政府（亞太口琴藝術週資訊）",
         "Tony Eyers",
-        "Ivan Marcio",
         "Angelberto Pibe Árcega",
         "Julien Cormier",
-        "Michał Kielak",
-        "Ian Lofamia",
     ),
+    "ig_ivanmarciogaita": ("Ivan Marcio",),
+    "web_michal_kielak": ("Michał Kielak",),
+    "web_ian_lofamia_giliw": ("Ian Lofamia",),
+    "web_suzuki_harmonica": ("SUZUKI Harmonica",),
+    "web_seydel_harmonica": ("C.A. SEYDEL SÖHNE",),
+    "web_shg_hering_harmonica": ("SHG Hering Harmonicas",),
     "manual_china_harmonica_committee": (
         "中國大眾音樂協會口琴考級網",
         "東方口琴博物館",
@@ -867,6 +880,17 @@ def cached_avatar_url(avatar_source_url: str) -> str:
     return f"/assets/source-avatars/{existing[0].name}"
 
 
+def sync_curated_source_avatars() -> None:
+    SOURCE_AVATAR_DIR.mkdir(parents=True, exist_ok=True)
+    for filename in CURATED_SOURCE_AVATARS.values():
+        source = CURATED_SOURCE_AVATAR_DIR / filename
+        if not source.exists():
+            raise SystemExit(f"Missing curated source avatar: {source.relative_to(PROJECT_ROOT)}")
+        target = SOURCE_AVATAR_DIR / filename
+        if not target.exists() or target.read_bytes() != source.read_bytes():
+            shutil.copy2(source, target)
+
+
 def profile_platform(profile: dict[str, Any]) -> str:
     platform = str(profile.get("platform") or "").casefold()
     if platform:
@@ -949,6 +973,9 @@ def apply_avatar(entry: dict[str, object], avatars: dict[str, dict[str, Any]]) -
     ]
     best = min(matches, key=avatar_payload_rank) if matches else {}
     entry["avatarUrl"] = str(best.get("avatarUrl") or "")
+    curated_filename = CURATED_SOURCE_AVATARS.get(str(entry.get("name") or ""))
+    if curated_filename:
+        entry["avatarUrl"] = f"/assets/source-avatars/{curated_filename}"
     entry["sourceInitials"] = source_initials(str(entry.get("name") or best.get("avatarSource") or ""))
 
 
@@ -1246,6 +1273,7 @@ def validate_public_entries(entries: list[dict[str, object]]) -> None:
 
 
 def build_entries() -> list[dict[str, object]]:
+    sync_curated_source_avatars()
     entries: list[dict[str, object]] = []
     for source, path in SOURCE_FILES:
         for row_number, row in enumerate(read_csv(path), start=2):
