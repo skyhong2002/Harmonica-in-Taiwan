@@ -1477,6 +1477,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/270-seoul-soloists-harmonica-orchestra/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/160-international-chromatic-harmonica-competition-hong-kong/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -1543,6 +1549,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/272-monica-j/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/110-takamoto-mizuno/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -1574,6 +1586,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/267-fu-hongliang/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/271-liu-mingze/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1616,6 +1634,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/119-koei-tanaka/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/269-yip-tsz-chung-matthew/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -1765,6 +1789,12 @@
     <priority>0.65</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/region/%E9%A6%96%E7%88%BE/</loc>
+    <lastmod>2026-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/region/%E5%BD%B0%E5%8C%96/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -1778,12 +1808,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/region/%E8%87%BA%E5%8D%97/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.65</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/region/%E9%A6%96%E7%88%BE/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
@@ -1927,13 +1951,13 @@
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/tag/%E5%A0%B4%E9%A4%A8%E5%B9%B3%E5%8F%B0/</loc>
+    <loc>https://harmonica.observe.tw/source/tag/%E9%9F%B3%E6%A8%82%E7%AF%80/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/tag/%E9%9F%B3%E6%A8%82%E7%AF%80/</loc>
+    <loc>https://harmonica.observe.tw/source/tag/%E5%A0%B4%E9%A4%A8%E5%B9%B3%E5%8F%B0/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>

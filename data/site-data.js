@@ -15910,6 +15910,43 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-270",
+      "publicId": "270",
+      "name": "首爾獨奏家口琴樂團",
+      "nameEn": "Seoul Soloists Harmonica Orchestra",
+      "category": "活動資訊",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "獨奏家樂團/朴鍾聲/國際音樂節/THMF 2026",
+      "structuredSummary": "獨奏家樂團/朴鍾聲/國際音樂節/THMF 2026 / 半音階/複音/口琴合奏 / 國際演出團體",
+      "summary": "韓國的國際演出團體，涵蓋獨奏家樂團、朴鍾聲、國際音樂節與THMF 2026。",
+      "keywords": "Seoul Soloists Harmonica Orchestra SSHO 首爾獨奏家口琴樂團 Jongseong Park THMF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/2026artists-midday"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/e72ddd5344fd22dc28b0.webp",
+      "sourceInitials": "首爾",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "音樂節",
+        "半音階",
+        "複音",
+        "國際交流"
+      ]
+    },
+    {
       "id": "watchlist-160",
       "publicId": "160",
       "name": "香港國際半音階口琴大賽",
@@ -16436,6 +16473,40 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-272",
+      "publicId": "272",
+      "name": "Monica J",
+      "nameEn": "Monica J",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "半音階/演出/評審/亞太與首爾口琴節",
+      "structuredSummary": "半音階/演出/評審/亞太與首爾口琴節 / 半音階 / 國際演出人員/評審",
+      "summary": "韓國的半音階國際演出人員與評審，活動脈絡包含演出、評審與亞太與首爾口琴節。",
+      "keywords": "Monica J harmonica 當年情 Seoul Arts EASTTOP APHF SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/91c07ee29db73cc87e49.webp",
+      "sourceInitials": "MJ",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ]
+    },
+    {
       "id": "watchlist-110",
       "publicId": "110",
       "name": "Takamoto Mizuno",
@@ -16693,6 +16764,39 @@ window.HARMONICA_OBSERVE_DATA = {
         "教學",
         "半音階",
         "複音",
+        "國際交流"
+      ]
+    },
+    {
+      "id": "watchlist-271",
+      "publicId": "271",
+      "name": "劉銘澤",
+      "nameEn": "Liu Mingze",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "中國",
+      "region": "中國",
+      "cityOrFocus": "口琴演奏/華夏與亞太口琴節/公開演出",
+      "structuredSummary": "口琴演奏/華夏與亞太口琴節/公開演出 / 口琴 / 國際演出人員",
+      "summary": "中國的口琴國際演出人員，活動脈絡包含口琴演奏、華夏與亞太口琴節與公開演出。",
+      "keywords": "劉銘澤 刘铭泽 Liu Mingze 口琴 紫色激情 華夏 亞太",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/94ffb46f32a1794fb4a7.webp",
+      "sourceInitials": "劉銘",
+      "sourceTags": [
+        "演奏者",
         "國際交流"
       ]
     },
@@ -17066,6 +17170,42 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-269",
+      "publicId": "269",
+      "name": "葉梓翀",
+      "nameEn": "Yip Tsz Chung Matthew",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/RedBricks/國際比賽/教學/THMF 2026",
+      "structuredSummary": "半音階/RedBricks/國際比賽/教學/THMF 2026 / 半音階 / 國際演出人員/教師",
+      "summary": "香港的半音階國際演出人員與教師，活動脈絡包含RedBricks、國際比賽與教學。",
+      "keywords": "葉梓翀 Yip Tsz Chung Matthew RedBricks SIHF WHF THMF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/2026artists-gala"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/2cb00ee0025efb7dd184.webp",
+      "sourceInitials": "葉梓",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "比賽",
+        "半音階",
+        "國際交流"
+      ]
+    },
+    {
       "id": "watchlist-238",
       "publicId": "238",
       "name": "蔡培婷",
@@ -17411,7 +17551,7 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 267,
+    "totalEntries": 271,
     "categories": {
       "其他來源": 2,
       "國際交流": 11,
@@ -17419,11 +17559,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "場館平台": 7,
       "學校社團": 38,
       "教學器材": 21,
-      "活動資訊": 28,
-      "演奏者": 94
+      "活動資訊": 29,
+      "演奏者": 97
     },
     "countries": {
-      "中國": 28,
+      "中國": 29,
       "丹麥": 1,
       "以色列": 1,
       "俄羅斯": 1,
@@ -17446,8 +17586,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "荷蘭": 1,
       "西班牙": 2,
       "阿根廷": 4,
-      "韓國": 14,
-      "香港": 21,
+      "韓國": 16,
+      "香港": 22,
       "馬來西亞": 13
     },
     "watchSources": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T03:44:21+08:00",
+  "generatedAt": "2026-08-20T03:50:34+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "ok",
@@ -9,11 +9,11 @@
   "metrics": {
     "updates": 3799,
     "updatesWindowDays": 30,
-    "directoryEntries": 267,
+    "directoryEntries": 271,
     "watchSources": 668,
     "currentErrors": 0,
-    "latestDataAt": "2026-08-20T03:44:02+08:00",
-    "latestSocialObservationAt": "2026-08-20T03:43:23+08:00"
+    "latestDataAt": "2026-08-20T03:50:32+08:00",
+    "latestSocialObservationAt": "2026-08-20T03:49:39+08:00"
   },
   "watchSources": {
     "platforms": {
@@ -71,10 +71,10 @@
       "label": "正常",
       "summary": "定期 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-08-20 03:44:02",
+        "最新公開資料：2026-08-20 03:50:32",
         "pipeline.log 更新：2026-07-12 02:58:29",
         "pipeline.err.log 更新：2026-07-11 14:33:03",
-        "LaunchAgent：running，last exit 0"
+        "LaunchAgent：not running，last exit 0"
       ]
     },
     {
@@ -82,7 +82,7 @@
       "name": "公開 API",
       "status": "ok",
       "label": "正常",
-      "summary": "latest.json 有 3799 筆更新，sources.json 有 267 筆公開目錄。",
+      "summary": "latest.json 有 3799 筆更新，sources.json 有 271 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
         "watch sources：668"
@@ -96,7 +96,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：108 ms"
+        "耗時：102 ms"
       ]
     },
     {
@@ -106,11 +106,11 @@
       "label": "節流中",
       "summary": "340 個 Instagram 來源（profile 170、story 170）；最新抓取批次目前 0 個錯誤。",
       "details": [
-        "最新社群觀測：2026-08-20 03:43:23",
+        "最新社群觀測：2026-08-20 03:49:39",
         "story 無公開內容/空路由略過：0",
         "IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。",
         "本輪 IG：抓取 8、排程略過 332、延後 0、錯誤 0。",
-        "下一個 IG 來源：約 2026-08-20 03:44:40"
+        "下一個 IG 來源：約 2026-08-20 03:53:06"
       ]
     },
     {
@@ -165,14 +165,14 @@
   "recentErrors": [],
   "runtime": {
     "pipeline": {
-      "currentStep": "build status page",
-      "heartbeatAt": "2026-08-19T19:44:21.396517+00:00",
+      "currentStep": "",
+      "heartbeatAt": "2026-08-19T19:45:17.740130+00:00",
       "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
       "maxPostAgeDays": 30,
-      "message": "",
+      "message": "Pipeline completed",
       "pid": 76370,
       "startedAt": "2026-08-19T19:39:40.929823+00:00",
-      "status": "running",
+      "status": "ok",
       "steps": [
         {
           "command": [
@@ -334,11 +334,77 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_status_page.py"
           ],
-          "finishedAt": "",
+          "finishedAt": "2026-08-19T19:44:23.820389+00:00",
           "name": "build status page",
-          "returnCode": null,
+          "returnCode": 0,
           "startedAt": "2026-08-19T19:44:21.396490+00:00",
-          "status": "running"
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/build_submit_page.py"
+          ],
+          "finishedAt": "2026-08-19T19:44:23.881853+00:00",
+          "name": "build submit page",
+          "returnCode": 0,
+          "startedAt": "2026-08-19T19:44:23.821730+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/generate_seo_pages.py"
+          ],
+          "finishedAt": "2026-08-19T19:44:27.841199+00:00",
+          "name": "generate SEO pages",
+          "returnCode": 0,
+          "startedAt": "2026-08-19T19:44:23.882616+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/generate_cloudflare_redirects.py"
+          ],
+          "finishedAt": "2026-08-19T19:44:27.871173+00:00",
+          "name": "generate cloudflare redirects",
+          "returnCode": 0,
+          "startedAt": "2026-08-19T19:44:27.842140+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/check_source_coverage.py"
+          ],
+          "finishedAt": "2026-08-19T19:44:30.458703+00:00",
+          "name": "check source coverage",
+          "returnCode": 0,
+          "startedAt": "2026-08-19T19:44:27.871746+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/validate_public_outputs.py"
+          ],
+          "finishedAt": "2026-08-19T19:44:34.893606+00:00",
+          "name": "validate public outputs",
+          "returnCode": 0,
+          "startedAt": "2026-08-19T19:44:30.460228+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/publish_github_pages.py"
+          ],
+          "finishedAt": "2026-08-19T19:44:34.895302+00:00",
+          "name": "publish github pages",
+          "returnCode": 0,
+          "startedAt": "2026-08-19T19:44:34.894935+00:00",
+          "status": "ok"
         }
       ],
       "version": 1
