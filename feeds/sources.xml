@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 19 Aug 2026 20:50:42 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 20:57:33 +0000</lastBuildDate>
+    <item>
+      <title>Jong-seong Park 朴鍾聲</title>
+      <link>https://www.mnac.co.kr/jongseongpark</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/7375d9cceaab9077</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：韓國
+地區：韓國
+韓國半音階口琴演奏家，活躍於國際舞台。</description>
+    </item>
     <item>
       <title>臺中一中口琴社校友團</title>
       <link>https://www.instagram.com/tcfsh_harmonica_alumni/</link>
@@ -60,6 +71,17 @@ Tag：演奏者、半音階、十孔、國際交流
 國家：瑞典
 地區：瑞典
 瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。</description>
+    </item>
+    <item>
+      <title>蔡培婷</title>
+      <link>https://www.instagram.com/r83350/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/66be4a66bac8ee8d</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者
+國家：臺灣
+地區：臺灣/新竹
+臺灣的口琴演出人員，活動脈絡包含口琴演奏、學生音樂與個人帳號。</description>
     </item>
     <item>
       <title>陳立強 Johnny Chen</title>
@@ -357,17 +379,6 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/高雄
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
-    </item>
-    <item>
-      <title>Jong-seong Park 朴鍾聲</title>
-      <link>https://www.mnac.co.kr/jongseongpark</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/7375d9cceaab9077</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：韓國
-地區：韓國
-韓國半音階口琴演奏家，活躍於國際舞台。</description>
     </item>
     <item>
       <title>新竹縣文化局</title>
@@ -3208,17 +3219,6 @@ Tag：演奏者、教學、比賽、半音階、國際交流
 香港的半音階國際演出人員與教師，活動脈絡包含RedBricks、國際比賽與教學。</description>
     </item>
     <item>
-      <title>蔡培婷</title>
-      <link>https://www.instagram.com/r83350/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/66be4a66bac8ee8d</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者
-國家：臺灣
-地區：臺灣/新竹
-臺灣的口琴演出人員，活動脈絡包含口琴演奏、學生音樂與個人帳號。</description>
-    </item>
-    <item>
       <title>蔡景玫</title>
       <link>https://www.taiwanharmonica.com/2026artists-gala</link>
       <guid>https://harmonica.observe.tw/feeds/sources/414b0e66a346bfd2</guid>
@@ -3283,6 +3283,17 @@ Tag：演奏者、團體樂團、重奏
 國家：臺灣
 地區：臺灣/彰化
 臺灣的口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF。</description>
+    </item>
+    <item>
+      <title>류선웅 Sunwoong Ryu</title>
+      <link>https://www.daejeon.go.kr/djac/performanceView.do?code=5379&amp;listCondition=&amp;menuSeq=6709&amp;pageIndex=1&amp;type=image&amp;yyyymm=202604</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/01b58a02e49e3a7b</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、團體樂團、半音階、國際交流
+國家：韓國
+地區：韓國/大田/首爾
+韓國的半音階國際演出人員與音樂教師，活動脈絡包含古典、Seoul Soloists Harmonica Orchestra與WHF 2025 團體冠軍。</description>
     </item>
   </channel>
 </rss>

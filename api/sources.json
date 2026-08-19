@@ -1,9 +1,9 @@
 {
   "site": "https://harmonica.observe.tw",
   "generatedAt": "2026-08-20",
-  "count": 298,
+  "count": 299,
   "stats": {
-    "totalEntries": 298,
+    "totalEntries": 299,
     "categories": {
       "其他來源": 2,
       "國際交流": 12,
@@ -12,7 +12,7 @@
       "學校社團": 39,
       "教學器材": 25,
       "活動資訊": 29,
-      "演奏者": 103
+      "演奏者": 104
     },
     "countries": {
       "中國": 31,
@@ -41,7 +41,7 @@
       "菲律賓": 1,
       "西班牙": 2,
       "阿根廷": 4,
-      "韓國": 19,
+      "韓國": 20,
       "香港": 23,
       "馬來西亞": 13
     },
@@ -68,6 +68,92 @@
     }
   },
   "entries": [
+    {
+      "id": "watchlist-65",
+      "publicId": "65",
+      "name": "Jong-seong Park 朴鍾聲",
+      "nameEn": "Jong-seong Park",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "半音階/國際級演出",
+      "structuredSummary": "半音階/國際級演出 / 半音階 / 國際演出人員",
+      "summary": "韓國半音階口琴演奏家，活躍於國際舞台。",
+      "keywords": "Jong-seong Park 朴鍾聲 harmonica",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.mnac.co.kr/jongseongpark"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonicapark/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jongseongpark_harmonicist/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/jongseongpark"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-19T17:00:21+00:00",
+      "latestUpdateLocal": "2026-08-20 01:00",
+      "latestUpdateSource": "Jong-seong Park 朴鍾聲",
+      "latestUpdateUrl": "https://www.instagram.com/stories/jongseongpark_harmonicist/3967298207998603045/",
+      "avatarUrl": "/assets/source-avatars/18b492947bf0f5db7754.webp",
+      "sourceInitials": "JSP",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "sourceSummary": "韓國半音階口琴演奏家，活躍於國際舞台。",
+      "sourceTagReason": "資料明確標註為「演奏者」與「個人」，且其專長與定位為「半音階/國際級演出」。",
+      "monitorSources": [
+        {
+          "id": "fb_harmonicapark",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonicapark",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_jongseongpark_harmonicist",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jongseongpark_harmonicist",
+          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jongseongpark_harmonicist",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jongseongpark_harmonicist",
+          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/jongseongpark_harmonicist/story/0"
+        },
+        {
+          "id": "yt_jongseongpark",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/jongseongpark",
+          "feedUrl": ""
+        }
+      ]
+    },
     {
       "id": "watchlist-228",
       "publicId": "228",
@@ -475,6 +561,58 @@
           "username": "",
           "profileUrl": "https://youtube.com/@filipjersmusic",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-238",
+      "publicId": "238",
+      "name": "蔡培婷",
+      "nameEn": "Pei-Ting Tsai",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "口琴演奏/學生音樂/個人帳號",
+      "structuredSummary": "口琴演奏/學生音樂/個人帳號 / 口琴 / 演出人員",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含口琴演奏、學生音樂與個人帳號。",
+      "keywords": "蔡培婷 Pei-Ting Tsai r83350 Harmonica player NYUST NYCU 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/r83350/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-19T14:05:34+00:00",
+      "latestUpdateLocal": "2026-08-19 22:05",
+      "latestUpdateSource": "蔡培婷",
+      "latestUpdateUrl": "https://www.instagram.com/stories/r83350/3967210231947513705/",
+      "avatarUrl": "/assets/source-avatars/5a29bdfe5080773de6a5.webp",
+      "sourceInitials": "蔡培",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_r83350",
+          "name": "蔡培婷",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "r83350",
+          "profileUrl": "https://www.instagram.com/r83350/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_r83350",
+          "name": "蔡培婷",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "r83350",
+          "profileUrl": "https://www.instagram.com/r83350/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/r83350/story/0"
         }
       ]
     },
@@ -2651,92 +2789,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@weiwuyingfilm",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-65",
-      "publicId": "65",
-      "name": "Jong-seong Park 朴鍾聲",
-      "nameEn": "Jong-seong Park",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "半音階/國際級演出",
-      "structuredSummary": "半音階/國際級演出 / 半音階 / 國際演出人員",
-      "summary": "韓國半音階口琴演奏家，活躍於國際舞台。",
-      "keywords": "Jong-seong Park 朴鍾聲 harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.mnac.co.kr/jongseongpark"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonicapark/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jongseongpark_harmonicist/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/jongseongpark"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-19T00:55:44+00:00",
-      "latestUpdateLocal": "2026-08-19 08:55",
-      "latestUpdateSource": "Jong-seong Park 朴鍾聲",
-      "latestUpdateUrl": "https://www.instagram.com/stories/jongseongpark_harmonicist/3966812695429324552/",
-      "avatarUrl": "/assets/source-avatars/18b492947bf0f5db7754.webp",
-      "sourceInitials": "JSP",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "sourceSummary": "韓國半音階口琴演奏家，活躍於國際舞台。",
-      "sourceTagReason": "資料明確標註為「演奏者」與「個人」，且其專長與定位為「半音階/國際級演出」。",
-      "monitorSources": [
-        {
-          "id": "fb_harmonicapark",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonicapark",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_jongseongpark_harmonicist",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jongseongpark_harmonicist",
-          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jongseongpark_harmonicist",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jongseongpark_harmonicist",
-          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jongseongpark_harmonicist/story/0"
-        },
-        {
-          "id": "yt_jongseongpark",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/jongseongpark",
           "feedUrl": ""
         }
       ]
@@ -18448,58 +18500,6 @@
       ]
     },
     {
-      "id": "watchlist-238",
-      "publicId": "238",
-      "name": "蔡培婷",
-      "nameEn": "Pei-Ting Tsai",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/新竹",
-      "cityOrFocus": "口琴演奏/學生音樂/個人帳號",
-      "structuredSummary": "口琴演奏/學生音樂/個人帳號 / 口琴 / 演出人員",
-      "summary": "臺灣的口琴演出人員，活動脈絡包含口琴演奏、學生音樂與個人帳號。",
-      "keywords": "蔡培婷 Pei-Ting Tsai r83350 Harmonica player NYUST NYCU 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/r83350/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/5a29bdfe5080773de6a5.webp",
-      "sourceInitials": "蔡培",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_r83350",
-          "name": "蔡培婷",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "r83350",
-          "profileUrl": "https://www.instagram.com/r83350/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_r83350",
-          "name": "蔡培婷",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "r83350",
-          "profileUrl": "https://www.instagram.com/r83350/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/r83350/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-266",
       "publicId": "266",
       "name": "蔡景玫",
@@ -18786,6 +18786,41 @@
           "profileUrl": "https://www.instagram.com/sabrinachen820/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/sabrinachen820/story/0"
         }
+      ]
+    },
+    {
+      "id": "watchlist-300",
+      "publicId": "300",
+      "name": "류선웅 Sunwoong Ryu",
+      "nameEn": "Sunwoong Ryu",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國/大田/首爾",
+      "cityOrFocus": "半音階/古典/Seoul Soloists Harmonica Orchestra/WHF 2025 團體冠軍/THMF 2026 公開組",
+      "structuredSummary": "半音階/古典/Seoul Soloists Harmonica Orchestra/WHF 2025 團體冠軍/THMF 2026 公開組 / 半音階 / 國際演出人員/音樂教師",
+      "summary": "韓國的半音階國際演出人員與音樂教師，活動脈絡包含古典、Seoul Soloists Harmonica Orchestra與WHF 2025 團體冠軍。",
+      "keywords": "류선웅 Sunwoong Ryu harmonica Seoul Soloists APHF 2018 WHF 2025 THMF 2026 music teacher",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.daejeon.go.kr/djac/performanceView.do?code=5379&listCondition=&menuSeq=6709&pageIndex=1&type=image&yyyymm=202604"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/sunwoong-ryu.jpg",
+      "sourceInitials": "SR",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "半音階",
+        "國際交流"
       ]
     }
   ]
