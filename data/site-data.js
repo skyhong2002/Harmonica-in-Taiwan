@@ -15075,6 +15075,42 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-318",
+      "publicId": "318",
+      "name": "何東中學口琴隊",
+      "nameEn": "Hotung Secondary School Harmonica Band",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校/青年",
+      "country": "香港",
+      "region": "香港/銅鑼灣",
+      "cityOrFocus": "1979年成立的女子口琴隊/學校與國際賽事演出/2017世界口琴節公開樂團組冠軍/第十四屆亞太口琴節獲獎/8名隊員參與2025世界口琴節並於2026祝捷音樂會演出",
+      "structuredSummary": "1979年成立的女子口琴隊/學校與國際賽事演出/2017世界口琴節公開樂團組冠軍/第十四屆亞太口琴節獲獎/8名隊員參與2025世界口琴節並於2026祝捷音樂會演出 / 半音階口琴/和弦口琴/低音口琴/口琴合奏 / 學校團隊/青少年口琴教育/國際比賽團隊",
+      "summary": "香港的半音階口琴、和弦口琴、低音口琴與口琴合奏學校團隊、青少年口琴教育與國際比賽團隊。",
+      "keywords": "何東中學口琴隊 Hotung Secondary School Harmonica Band HSSHB 1979 女子口琴隊 WHF 2017 2025 APHF 2026 香港",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hotungss.edu.hk/wp-content/uploads/2026/07/%E4%BD%95%E6%9D%B1%E4%B8%AD%E5%AD%B8%E7%AC%AC%E4%BA%8C%E6%9C%9F%E6%A0%A1%E8%A8%8A2025-26-1.pdf"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/hotung-secondary-harmonica.jpg",
+      "sourceInitials": "何東",
+      "sourceTags": [
+        "學生社團",
+        "團體樂團",
+        "比賽",
+        "半音階",
+        "國際交流"
+      ]
+    },
+    {
       "id": "watchlist-212",
       "publicId": "212",
       "name": "南洋理工大學口琴社",
@@ -19097,6 +19133,80 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-319",
+      "publicId": "319",
+      "name": "莊庭皓 Ivan Chong",
+      "nameEn": "Ivan Chong Ting-ho",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階口琴演奏與教學/Perfect Fourth成員/何東中學口琴隊指揮與多校口琴導師/2009世界口琴節成人二重奏冠軍/2014起擔任首爾、亞太與世界口琴節評審及嘉賓/口琴維修與Co-op Harmonica創辦",
+      "structuredSummary": "半音階口琴演奏與教學/Perfect Fourth成員/何東中學口琴隊指揮與多校口琴導師/2009世界口琴節成人二重奏冠軍/2014起擔任首爾、亞太與世界口琴節評審及嘉賓/口琴維修與Co-op Harmonica創辦 / 半音階口琴 / 國際演出人員/口琴教師/學校樂團指揮/評審/維修技師",
+      "summary": "香港的半音階口琴國際演出人員、口琴教師與學校樂團指揮，活動脈絡包含半音階口琴演奏與教學、Perfect Fourth成員與何東中學口琴隊指揮與多校口琴導師。",
+      "keywords": "莊庭皓 Ivan Chong Ting-ho Perfect Fourth Hotung Secondary School Harmonica Band WHF SIHF APHF Co-op Harmonica Hohner service technician 香港",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://ivanchong.com/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/coopharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCNjS1XofiGjUCzKTYz7DOLw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/ivan-chong.jpg",
+      "sourceInitials": "IC",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "教學",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_coopharmonica",
+          "name": "莊庭皓 Ivan Chong",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "coopharmonica",
+          "profileUrl": "https://www.instagram.com/coopharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_coopharmonica",
+          "name": "莊庭皓 Ivan Chong",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "coopharmonica",
+          "profileUrl": "https://www.instagram.com/coopharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/coopharmonica/story/0"
+        },
+        {
+          "id": "yt_ucnjs1xofigjuczktyz7dolw",
+          "name": "莊庭皓 Ivan Chong",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCNjS1XofiGjUCzKTYz7DOLw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-269",
       "publicId": "269",
       "name": "葉梓翀",
@@ -19591,16 +19701,16 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 316,
+    "totalEntries": 318,
     "categories": {
       "其他來源": 2,
       "國際交流": 13,
       "團體樂團": 76,
       "場館平台": 7,
-      "學校社團": 41,
+      "學校社團": 42,
       "教學器材": 26,
       "活動資訊": 42,
-      "演奏者": 109
+      "演奏者": 110
     },
     "countries": {
       "中國": 39,
@@ -19630,28 +19740,28 @@ window.HARMONICA_OBSERVE_DATA = {
       "西班牙": 2,
       "阿根廷": 4,
       "韓國": 23,
-      "香港": 27,
+      "香港": 29,
       "馬來西亞": 14
     },
     "watchSources": {
-      "totalSources": 685,
-      "rsshubSources": 390,
+      "totalSources": 688,
+      "rsshubSources": 392,
       "apifySources": 159,
       "facebookSources": 159,
-      "youtubeSources": 136,
+      "youtubeSources": 137,
       "platforms": {
         "facebook": 159,
-        "instagram": 350,
+        "instagram": 352,
         "threads": 28,
         "x": 12,
-        "youtube": 136
+        "youtube": 137
       },
       "types": {
         "facebook_page_posts": 159,
         "rss": 40,
-        "rsshub_instagram_profile": 175,
-        "rsshub_instagram_story": 175,
-        "youtube_ytdlp": 136
+        "rsshub_instagram_profile": 176,
+        "rsshub_instagram_story": 176,
+        "youtube_ytdlp": 137
       }
     }
   }

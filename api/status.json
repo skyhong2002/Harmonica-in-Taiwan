@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T06:52:57+08:00",
+  "generatedAt": "2026-08-20T06:58:47+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "ok",
@@ -9,26 +9,26 @@
   "metrics": {
     "updates": 3821,
     "updatesWindowDays": 30,
-    "directoryEntries": 316,
-    "watchSources": 685,
+    "directoryEntries": 318,
+    "watchSources": 688,
     "currentErrors": 0,
-    "latestDataAt": "2026-08-20T06:52:54+08:00",
-    "latestSocialObservationAt": "2026-08-20T06:52:34+08:00"
+    "latestDataAt": "2026-08-20T06:58:43+08:00",
+    "latestSocialObservationAt": "2026-08-20T06:58:24+08:00"
   },
   "watchSources": {
     "platforms": {
       "facebook": 159,
-      "instagram": 350,
+      "instagram": 352,
       "threads": 28,
       "x": 12,
-      "youtube": 136
+      "youtube": 137
     },
     "types": {
       "facebook_page_posts": 159,
       "rss": 40,
-      "rsshub_instagram_profile": 175,
-      "rsshub_instagram_story": 175,
-      "youtube_ytdlp": 136
+      "rsshub_instagram_profile": 176,
+      "rsshub_instagram_story": 176,
+      "youtube_ytdlp": 137
     },
     "platformRows": [
       {
@@ -39,7 +39,7 @@
       },
       {
         "platform": "instagram",
-        "sources": 350,
+        "sources": 352,
         "currentErrors": 0,
         "status": "ok"
       },
@@ -57,7 +57,7 @@
       },
       {
         "platform": "youtube",
-        "sources": 136,
+        "sources": 137,
         "currentErrors": 0,
         "status": "ok"
       }
@@ -71,7 +71,7 @@
       "label": "正常",
       "summary": "定期 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-08-20 06:52:54",
+        "最新公開資料：2026-08-20 06:58:43",
         "pipeline.log 更新：2026-07-12 02:58:29",
         "pipeline.err.log 更新：2026-07-11 14:33:03",
         "LaunchAgent：not running，last exit 0"
@@ -82,10 +82,10 @@
       "name": "公開 API",
       "status": "ok",
       "label": "正常",
-      "summary": "latest.json 有 3821 筆更新，sources.json 有 316 筆公開目錄。",
+      "summary": "latest.json 有 3821 筆更新，sources.json 有 318 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
-        "watch sources：685"
+        "watch sources：688"
       ]
     },
     {
@@ -96,7 +96,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：95 ms"
+        "耗時：247 ms"
       ]
     },
     {
@@ -104,13 +104,13 @@
       "name": "Instagram RSSHub",
       "status": "paused",
       "label": "節流中",
-      "summary": "350 個 Instagram 來源（profile 175、story 175）；最新抓取批次目前 0 個錯誤。",
+      "summary": "352 個 Instagram 來源（profile 176、story 176）；最新抓取批次目前 0 個錯誤。",
       "details": [
-        "最新社群觀測：2026-08-20 06:52:34",
+        "最新社群觀測：2026-08-20 06:58:24",
         "story 無公開內容/空路由略過：0",
         "IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。",
         "本輪 IG：抓取 6、排程略過 344、延後 0、錯誤 1。",
-        "下一個 IG 來源：約 2026-08-20 06:55:25"
+        "下一個 IG 來源：約 2026-08-20 06:59:04"
       ]
     },
     {
@@ -145,7 +145,7 @@
       "name": "YouTube yt-dlp",
       "status": "ok",
       "label": "正常",
-      "summary": "136 個 YouTube 來源；最近 run error_count=0。",
+      "summary": "137 個 YouTube 來源；最近 run error_count=0。",
       "details": [
         "最近完成：2026-08-20 06:40:40",
         "最近新增 inbox：1"
