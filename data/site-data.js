@@ -16776,7 +16776,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "links": [
         {
           "label": "網站",
-          "url": "https://www.aphfhx.com/"
+          "url": "https://www.aphfhx.com/information/newsDetail/361718112966979584"
         }
       ],
       "source": "watchlist",
@@ -16814,7 +16814,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "links": [
         {
           "label": "網站",
-          "url": "https://www.aphfhx.com/"
+          "url": "https://www.aphfhx.com/information/newsDetail/361363469090992128"
         }
       ],
       "source": "watchlist",
@@ -17056,7 +17056,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "links": [
         {
           "label": "網站",
-          "url": "https://seoulinternationalharmonicafestival.com/tag/top/"
+          "url": "https://seoulinternationalharmonicafestival.com/2017/08/23/concert-lineup/"
         }
       ],
       "source": "watchlist",
@@ -18061,6 +18061,40 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-304",
+      "publicId": "304",
+      "name": "張雅誥",
+      "nameEn": "Chong Ah Kow",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞/吉隆坡",
+      "cityOrFocus": "複音/五聲音階口琴研發/亞太口琴節/文化藝術推廣/APHF 2026",
+      "structuredSummary": "複音/五聲音階口琴研發/亞太口琴節/文化藝術推廣/APHF 2026 / 複音/五聲音階口琴 / 國際演出人員/教育者/協會推廣者",
+      "summary": "馬來西亞的複音與五聲音階口琴國際演出人員、教育者與協會推廣者，活動脈絡包含五聲音階口琴研發、亞太口琴節與文化藝術推廣。",
+      "keywords": "張雅誥 张雅诰 Chong Ah Kow harmonica Malaysia world champion pentatonic tremolo APHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.mccs.org.my/?act=committees-list"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/chong-ah-kow.png",
+      "sourceInitials": "張雅",
+      "sourceTags": [
+        "演奏者",
+        "複音",
+        "國際交流"
+      ]
+    },
+    {
       "id": "watchlist-257",
       "publicId": "257",
       "name": "施沛心",
@@ -18265,6 +18299,40 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-301",
+      "publicId": "301",
+      "name": "梁栢渝 Ramiel Leung",
+      "nameEn": "Ramiel Leung",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/Perfect Fourth/音樂製作與錄音/2023 香港國際半音階口琴大賽冠軍/APHF 2026",
+      "structuredSummary": "半音階/Perfect Fourth/音樂製作與錄音/2023 香港國際半音階口琴大賽冠軍/APHF 2026 / 半音階 / 國際演出人員/口琴教師/音樂製作人",
+      "summary": "香港的半音階國際演出人員、口琴教師與音樂製作人，活動脈絡包含Perfect Fourth、音樂製作與錄音與2023 香港國際半音階口琴大賽冠軍。",
+      "keywords": "梁栢渝 梁柏渝 Ramiel Leung harmonica Perfect Fourth HKHA APHF 2026 world champion teacher producer",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.perfectfourth.org/ramielleung.html"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/ramiel-leung.jpg",
+      "sourceInitials": "RL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ]
+    },
+    {
       "id": "watchlist-260",
       "publicId": "260",
       "name": "梁芷菁 Steffi Leung",
@@ -18394,6 +18462,41 @@ window.HARMONICA_OBSERVE_DATA = {
           "profileUrl": "https://youtube.com/@koeitanakaharmonica",
           "feedUrl": ""
         }
+      ]
+    },
+    {
+      "id": "watchlist-302",
+      "publicId": "302",
+      "name": "白燕生",
+      "nameEn": "Bai Yansheng",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "中國",
+      "region": "中國/北京",
+      "cityOrFocus": "半音階/北京口琴樂團/中國大眾音樂協會口琴專業委員會/教材編著/APHF 2026",
+      "structuredSummary": "半音階/北京口琴樂團/中國大眾音樂協會口琴專業委員會/教材編著/APHF 2026 / 半音階 / 國際演出人員/教育者/協會推廣者/作者",
+      "summary": "中國的半音階國際演出人員、教育者與協會推廣者，活動脈絡包含北京口琴樂團、中國大眾音樂協會口琴專業委員會與教材編著。",
+      "keywords": "白燕生 Bai Yansheng 口琴 北京口琴樂團 中國大眾音樂協會 口琴專業委員會 APHF 2026 教材",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.harmonica.org.cn/dongtai-show.asp?Pone=16&plt=36"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/bai-yansheng.png",
+      "sourceInitials": "白燕",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "半音階",
+        "國際交流"
       ]
     },
     {
@@ -18722,6 +18825,73 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-303",
+      "publicId": "303",
+      "name": "陳詩霖",
+      "nameEn": "Chen Shilin",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "中國",
+      "region": "中國",
+      "cityOrFocus": "口琴演奏/APHF 2026 東方之夜",
+      "structuredSummary": "口琴演奏/APHF 2026 東方之夜 / 口琴 / 國際演出人員",
+      "summary": "中國的口琴國際演出人員，活動脈絡包含口琴演奏與APHF 2026 東方之夜。",
+      "keywords": "陳詩霖 陈诗霖 Chen Shilin 口琴 APHF 2026 東方之夜",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://aphfx-1255574727.cos.ap-shanghai.myqcloud.com/20260525/b7c13721063843dea26d91b405ad27dc.png"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/chen-shilin.png",
+      "sourceInitials": "陳詩",
+      "sourceTags": [
+        "演奏者",
+        "國際交流"
+      ]
+    },
+    {
+      "id": "watchlist-305",
+      "publicId": "305",
+      "name": "黃浚宇",
+      "nameEn": "Wong Chun Yu",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "複音/五葉草口琴隊/亞太與首爾口琴節冠軍/香港口琴協會理事/APHF 2026",
+      "structuredSummary": "複音/五葉草口琴隊/亞太與首爾口琴節冠軍/香港口琴協會理事/APHF 2026 / 複音 / 國際演出人員/講師/協會理事",
+      "summary": "香港的複音國際演出人員、講師與協會理事，活動脈絡包含五葉草口琴隊、亞太與首爾口琴節冠軍與香港口琴協會理事。",
+      "keywords": "黃浚宇 黄浚宇 Wong Chun Yu harmonica tremolo Clover Harmonica HKHA APHF SIHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hkharmonica.org/cas2024-25-talk-3/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/wong-chun-yu.png",
+      "sourceInitials": "黃浚",
+      "sourceTags": [
+        "演奏者",
+        "複音",
+        "國際交流"
+      ]
+    },
+    {
       "id": "watchlist-300",
       "publicId": "300",
       "name": "류선웅 Sunwoong Ryu",
@@ -18758,7 +18928,7 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 299,
+    "totalEntries": 304,
     "categories": {
       "其他來源": 2,
       "國際交流": 12,
@@ -18767,10 +18937,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "學校社團": 39,
       "教學器材": 25,
       "活動資訊": 29,
-      "演奏者": 104
+      "演奏者": 109
     },
     "countries": {
-      "中國": 31,
+      "中國": 33,
       "丹麥": 1,
       "以色列": 1,
       "俄羅斯": 1,
@@ -18797,8 +18967,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "西班牙": 2,
       "阿根廷": 4,
       "韓國": 20,
-      "香港": 23,
-      "馬來西亞": 13
+      "香港": 25,
+      "馬來西亞": 14
     },
     "watchSources": {
       "totalSources": 677,
