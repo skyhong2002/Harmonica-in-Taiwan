@@ -1,12 +1,12 @@
 {
-  "currentStep": "rebuild public data",
-  "heartbeatAt": "2026-08-19T21:43:00.133637+00:00",
+  "currentStep": "",
+  "heartbeatAt": "2026-08-19T21:44:02.786446+00:00",
   "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
   "maxPostAgeDays": 2,
-  "message": "",
+  "message": "Pipeline completed",
   "pid": 57682,
   "startedAt": "2026-08-19T21:40:18.188758+00:00",
-  "status": "running",
+  "status": "ok",
   "steps": [
     {
       "command": [
@@ -63,11 +63,143 @@
         "/Library/Developer/CommandLineTools/usr/bin/python3",
         "scripts/build_public_data.py"
       ],
-      "finishedAt": "",
+      "finishedAt": "2026-08-19T21:43:02.716384+00:00",
       "name": "rebuild public data",
-      "returnCode": null,
+      "returnCode": 0,
       "startedAt": "2026-08-19T21:43:00.133630+00:00",
-      "status": "running"
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_score_publications.py"
+      ],
+      "finishedAt": "2026-08-19T21:43:03.264878+00:00",
+      "name": "build score publications",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T21:43:02.716939+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_score_sources.py"
+      ],
+      "finishedAt": "2026-08-19T21:43:03.324040+00:00",
+      "name": "build score sources",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T21:43:03.265361+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/generate_rss_feeds.py"
+      ],
+      "finishedAt": "2026-08-19T21:43:32.842553+00:00",
+      "name": "generate rss feeds",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T21:43:03.365794+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_public_calendar_events.py"
+      ],
+      "finishedAt": "2026-08-19T21:43:33.500326+00:00",
+      "name": "build public calendar events",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T21:43:32.844027+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/apply_submitted_events.py"
+      ],
+      "finishedAt": "2026-08-19T21:43:33.640384+00:00",
+      "name": "apply submitted events",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T21:43:33.502548+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Users/skyhong/.hermes/google-workspace-venv/bin/python",
+        "scripts/sync_google_calendar_events.py"
+      ],
+      "finishedAt": "2026-08-19T21:43:50.883880+00:00",
+      "name": "sync google calendar",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T21:43:33.640963+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_status_page.py"
+      ],
+      "finishedAt": "2026-08-19T21:43:53.102146+00:00",
+      "name": "build status page",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T21:43:50.885594+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_submit_page.py"
+      ],
+      "finishedAt": "2026-08-19T21:43:53.131605+00:00",
+      "name": "build submit page",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T21:43:53.103050+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/generate_seo_pages.py"
+      ],
+      "finishedAt": "2026-08-19T21:43:56.618062+00:00",
+      "name": "generate SEO pages",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T21:43:53.132132+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/generate_cloudflare_redirects.py"
+      ],
+      "finishedAt": "2026-08-19T21:43:56.732579+00:00",
+      "name": "generate cloudflare redirects",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T21:43:56.621414+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/check_source_coverage.py"
+      ],
+      "finishedAt": "2026-08-19T21:43:59.480866+00:00",
+      "name": "check source coverage",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T21:43:56.734328+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/validate_public_outputs.py"
+      ],
+      "finishedAt": "2026-08-19T21:44:02.784491+00:00",
+      "name": "validate public outputs",
+      "returnCode": 0,
+      "startedAt": "2026-08-19T21:43:59.481609+00:00",
+      "status": "ok"
     }
   ],
   "version": 1

@@ -10,11 +10,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "type": "個人",
       "originalType": "個人",
       "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "半音階/國際級演出",
-      "structuredSummary": "半音階/國際級演出 / 半音階 / 國際演出人員",
-      "summary": "韓國半音階口琴演奏家，活躍於國際舞台。",
-      "keywords": "Jong-seong Park 朴鍾聲 harmonica",
+      "region": "韓國/首爾",
+      "cityOrFocus": "半音階與複音獨奏/2002 APHF金牌/2008 APHF三冠/WHF複音冠軍與爵士半音階亞軍/古典管弦樂協演/專輯與協奏曲首演",
+      "structuredSummary": "半音階與複音獨奏/2002 APHF金牌/2008 APHF三冠/WHF複音冠軍與爵士半音階亞軍/古典管弦樂協演/專輯與協奏曲首演 / 半音階口琴/複音口琴 / 國際演出人員/HOHNER古典藝人/編曲者與管弦樂企劃主持",
+      "summary": "韓國的半音階口琴與複音口琴國際演出人員、HOHNER古典藝人與編曲者與管弦樂企劃主持，活動脈絡包含半音階與複音獨奏、2002 APHF金牌與2008 APHF三冠。",
+      "keywords": "Jong-seong Park 朴鍾聲 harmonica APHF WHF HOHNER classical orchestra Harmonica Memorial",
       "links": [
         {
           "label": "網站",
@@ -44,10 +44,9 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "演奏者",
         "半音階",
+        "複音",
         "國際交流"
       ],
-      "sourceSummary": "韓國半音階口琴演奏家，活躍於國際舞台。",
-      "sourceTagReason": "資料明確標註為「演奏者」與「個人」，且其專長與定位為「半音階/國際級演出」。",
       "monitorSources": [
         {
           "id": "fb_harmonicapark",
@@ -1288,7 +1287,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-19 20:21",
       "latestUpdateSource": "Federico Linari",
       "latestUpdateUrl": "https://www.instagram.com/p/DcOKUA1oZtC/",
-      "avatarUrl": "/assets/source-avatars/f86f36ff18abb0ec10a0.webp",
+      "avatarUrl": "/assets/source-avatars/federico-linari.jpg",
       "sourceInitials": "FL",
       "sourceTags": [
         "演奏者",
@@ -3204,7 +3203,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-19 03:51",
       "latestUpdateSource": "Indiara Sfair",
       "latestUpdateUrl": "https://www.instagram.com/stories/indiarasfair/3966659826168169964/",
-      "avatarUrl": "/assets/source-avatars/d4634528ab6713b0ceeb.webp",
+      "avatarUrl": "/assets/source-avatars/indiara-sfair.jpg",
       "sourceInitials": "IS",
       "sourceTags": [
         "演奏者",
@@ -3331,10 +3330,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "個人",
       "country": "香港",
       "region": "香港",
-      "cityOrFocus": "半音階/現代跨界",
-      "structuredSummary": "半音階/現代跨界 / 半音階 / 國際演出人員",
-      "summary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "keywords": "CY Leo 何卓彥 harmonica",
+      "cityOrFocus": "古典與爵士半音階/2009、2013 WHF獨奏世界冠軍/作曲與創作歌手/國際管弦樂協演/電影、流行與遊戲錄音/口琴教材",
+      "structuredSummary": "古典與爵士半音階/2009、2013 WHF獨奏世界冠軍/作曲與創作歌手/國際管弦樂協演/電影、流行與遊戲錄音/口琴教材 / 半音階口琴 / 國際演出人員/作曲家與創作歌手/評審/Music Lab聯合藝術總監",
+      "summary": "香港的半音階口琴國際演出人員、作曲家與創作歌手與評審，活動脈絡包含古典與爵士半音階、2009與2013 WHF獨奏世界冠軍。",
+      "keywords": "CY Leo 何卓彥 harmonica WHF 2009 2013 classical jazz composer Ginger Muse Music Lab",
       "links": [
         {
           "label": "網站",
@@ -3364,11 +3363,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "演奏者",
         "半音階",
-        "合奏",
         "國際交流"
       ],
-      "sourceSummary": "香港半音階口琴演奏者，專注現代跨界與國際演出。",
-      "sourceTagReason": "欄位明確標示為『演奏者』，並專注於半音階口琴與國際演出，且參與合奏等活動。",
       "monitorSources": [
         {
           "id": "fb_cyleoharmonica",
@@ -6741,10 +6737,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "大學生新生代團體",
-      "structuredSummary": "大學生新生代團體 / 口琴重奏 / 演出團體",
-      "summary": "臺灣的大學生新生代口琴重奏演出團體。",
-      "keywords": "Up Side Down 口琴",
+      "cityOrFocus": "大學生新生代五人重奏/陳奕、謝侑恩、蔡佳紜、蔡景玫、郭義駿/影音與活動演出",
+      "structuredSummary": "大學生新生代五人重奏/陳奕、謝侑恩、蔡佳紜、蔡景玫、郭義駿/影音與活動演出 / 半音階口琴/低音口琴/和弦口琴 / 青年演出團體/影音來源",
+      "summary": "臺灣的半音階口琴、低音口琴與和弦口琴青年演出團體與影音來源，活動脈絡包含大學生新生代五人重奏、陳奕與謝侑恩。",
+      "keywords": "Up Side Down Harmonica Ensemble 陳奕 謝侑恩 蔡佳紜 蔡景玫 郭義駿",
       "links": [
         {
           "label": "Instagram",
@@ -6769,6 +6765,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "USD",
       "sourceTags": [
         "團體樂團",
+        "半音階",
         "重奏"
       ],
       "monitorSources": [
@@ -9974,15 +9971,15 @@ window.HARMONICA_OBSERVE_DATA = {
       "publicId": "6",
       "name": "狂響口琴樂團 Rhapsody Harmonica Ensemble",
       "nameEn": "Rhapsody Harmonica Ensemble",
-      "category": "團體樂團",
+      "category": "活動資訊",
       "type": "團體",
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "合奏/地方演出/老牌合奏",
-      "structuredSummary": "合奏/地方演出/老牌合奏 / 口琴重奏/合奏 / 演出團體",
-      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含地方演出與老牌合奏。",
-      "keywords": "Rhapsody Harmonica Ensemble 狂響口琴樂團",
+      "cityOrFocus": "口琴重奏與合奏/口琴教學/簡譜製作/編曲/THMF 2026協辦",
+      "structuredSummary": "口琴重奏與合奏/口琴教學/簡譜製作/編曲/THMF 2026協辦 / 口琴重奏/口琴合奏 / 演出團體/教學與編曲來源/音樂節協辦",
+      "summary": "臺灣的演出團體、教學與編曲來源與音樂節協辦，涵蓋口琴重奏與合奏、口琴教學、簡譜製作、編曲與THMF 2026協辦。",
+      "keywords": "Rhapsody Harmonica Ensemble 狂響口琴樂團 教學 簡譜 編曲 THMF 2026",
       "links": [
         {
           "label": "Facebook",
@@ -9998,7 +9995,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "avatarUrl": "/assets/source-avatars/d1c83ae5982243988cbe.webp",
       "sourceInitials": "RHE",
       "sourceTags": [
+        "活動資訊",
         "團體樂團",
+        "教學",
+        "音樂節",
         "重奏"
       ],
       "monitorSources": [
@@ -11301,10 +11301,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "個人",
       "country": "香港",
       "region": "香港",
-      "cityOrFocus": "評審/演出",
-      "structuredSummary": "評審/演出 / 半音階 / 國際演出人員/評審",
-      "summary": "香港的半音階國際演出人員與評審，活動脈絡包含評審與演出。",
-      "keywords": "蔡偉鏗 Harry Choi harmonica",
+      "cityOrFocus": "半音階獨奏/2009 WHF成人組冠軍/2012 APHF與2013 WHF二重奏冠軍/Duo Volce與RedBricks共同創辦/兒童教學",
+      "structuredSummary": "半音階獨奏/2009 WHF成人組冠軍/2012 APHF與2013 WHF二重奏冠軍/Duo Volce與RedBricks共同創辦/兒童教學 / 半音階口琴 / 國際演出人員/口琴教師/APHF與SIHF評審/樂團共同創辦人",
+      "summary": "香港的半音階口琴國際演出人員、口琴教師與APHF與SIHF評審，活動脈絡包含半音階獨奏、2009 WHF成人組冠軍與2012 APHF與2013 WHF二重奏冠軍。",
+      "keywords": "蔡偉鏗 Harry Choi harmonica WHF APHF SIHF Duo Volce RedBricks teacher",
       "links": [
         {
           "label": "網站",
@@ -11321,7 +11321,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "HC",
       "sourceTags": [
         "演奏者",
+        "團體樂團",
+        "教學",
         "半音階",
+        "重奏",
         "國際交流"
       ]
     },
@@ -11918,15 +11921,15 @@ window.HARMONICA_OBSERVE_DATA = {
       "publicId": "7",
       "name": "博凱愛樂口琴交響樂團",
       "nameEn": "Pokai Harmonica Symphony Orchestra",
-      "category": "團體樂團",
+      "category": "活動資訊",
       "type": "團體",
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "合奏/交響口琴",
-      "structuredSummary": "合奏/交響口琴 / 口琴合奏 / 演出團體",
-      "summary": "臺灣的口琴合奏演出團體，活動脈絡包含合奏與交響口琴。",
-      "keywords": "博凱愛樂口琴交響樂團",
+      "cityOrFocus": "口琴交響樂與大型合奏/公開演出/影音紀錄/THMF 2026協辦",
+      "structuredSummary": "口琴交響樂與大型合奏/公開演出/影音紀錄/THMF 2026協辦 / 半音階口琴/複音口琴/和弦口琴/低音口琴 / 演出團體/大型口琴樂團/音樂節協辦",
+      "summary": "臺灣的演出團體、大型口琴樂團與音樂節協辦，涵蓋口琴交響樂與大型合奏、公開演出、影音紀錄與THMF 2026協辦。",
+      "keywords": "博凱愛樂口琴交響樂團 Pokai Harmonica Symphony Orchestra THMF 2026",
       "links": [
         {
           "label": "網站",
@@ -11950,7 +11953,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "avatarUrl": "/assets/source-avatars/1c6d0380494696711b5b.webp",
       "sourceInitials": "博凱",
       "sourceTags": [
-        "團體樂團"
+        "活動資訊",
+        "團體樂團",
+        "音樂節",
+        "半音階",
+        "複音"
       ],
       "monitorSources": [
         {
@@ -12873,10 +12880,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "重奏/青年團體",
-      "structuredSummary": "重奏/青年團體 / 口琴重奏 / 演出團體",
-      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含重奏與青年團體。",
-      "keywords": "DoNuts 口琴樂團",
+      "cityOrFocus": "臺灣青年口琴重奏/跨曲風舞台演出/影音作品",
+      "structuredSummary": "臺灣青年口琴重奏/跨曲風舞台演出/影音作品 / 口琴重奏/合奏 / 演出團體/影音來源",
+      "summary": "臺灣的口琴重奏與合奏演出團體與影音來源，活動脈絡包含臺灣青年口琴重奏、跨曲風舞台演出與影音作品。",
+      "keywords": "DoNuts 口琴樂團 DoNuts Harmonica Ensemble Taiwan",
       "links": [
         {
           "label": "Facebook",
@@ -13088,10 +13095,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "團體",
       "country": "韓國",
       "region": "韓國",
-      "cityOrFocus": "韓國口琴合奏/大型合奏/教育交流",
-      "structuredSummary": "韓國口琴合奏/大型合奏/教育交流 / 口琴合奏 / 國際演出團體",
-      "summary": "韓國的口琴合奏國際演出團體，活動脈絡包含韓國口琴合奏、大型合奏與教育交流。",
-      "keywords": "Korea Harmonica Orchestra KHO harmonica SIHF",
+      "cityOrFocus": "韓國口琴教育協會所屬大型口琴樂團/口琴普及教育/定期演奏與文化交流",
+      "structuredSummary": "韓國口琴教育協會所屬大型口琴樂團/口琴普及教育/定期演奏與文化交流 / 半音階口琴/複音口琴/和弦口琴/低音口琴 / 協會所屬演出團體/教育推廣與大型合奏",
+      "summary": "韓國的半音階口琴、複音口琴、和弦口琴與低音口琴協會所屬演出團體與教育推廣與大型合奏，活動脈絡包含韓國口琴教育協會所屬大型口琴樂團、口琴普及教育與定期演奏與文化交流。",
+      "keywords": "Korea Harmonica Orchestra KHO 한국하모니카교육협회 harmonica education orchestra SIHF",
       "links": [
         {
           "label": "網站",
@@ -13108,7 +13115,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "KHO",
       "sourceTags": [
         "團體樂團",
-        "國際交流"
+        "半音階",
+        "複音"
       ]
     },
     {
@@ -13664,11 +13672,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "type": "團體",
       "originalType": "團體",
       "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "青年/重奏/THMF相關",
-      "structuredSummary": "青年/重奏/THMF相關 / 口琴重奏 / 演出團體",
-      "summary": "專注口琴重奏的青年演出團體，與THMF相關。",
-      "keywords": "Spotlight 口琴樂團",
+      "region": "臺灣/彰化",
+      "cityOrFocus": "2015成立/中山國小與陽明國中口琴團系統/六人重奏/流行、古典、民謠與Funky跨曲風",
+      "structuredSummary": "2015成立/中山國小與陽明國中口琴團系統/六人重奏/流行、古典、民謠與Funky跨曲風 / 口琴重奏/合奏 / 青年演出團體/校園口琴培育系統延伸",
+      "summary": "臺灣的口琴重奏與合奏青年演出團體與校園口琴培育系統延伸，活動脈絡包含2015成立、中山國小與陽明國中口琴團系統與六人重奏。",
+      "keywords": "Spotlight 口琴樂團 彰化 中山國小 陽明國中 2015 funky",
       "links": [
         {
           "label": "Facebook",
@@ -13685,12 +13693,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "S",
       "sourceTags": [
         "團體樂團",
-        "合奏",
-        "重奏",
-        "演出"
+        "重奏"
       ],
-      "sourceSummary": "專注口琴重奏的青年演出團體，與THMF相關。",
-      "sourceTagReason": "資料明確標示為「團體樂團」，核心活動是口琴重奏與演出，並提及與THMF（臺灣口琴音樂節）相關。",
       "monitorSources": [
         {
           "id": "fb_ab771e2fae",
@@ -13912,10 +13916,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "團體/社群",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "社群型口琴資料",
-      "structuredSummary": "社群型口琴資料 / 口琴 / 社群資料來源",
-      "summary": "臺灣的口琴社群資料來源，活動脈絡包含社群型口琴資料。",
-      "keywords": "口琴愛樂集",
+      "cityOrFocus": "2004由沈雕龍創立/青年半音階口琴演奏者交流/重奏與合奏/演出資訊",
+      "structuredSummary": "2004由沈雕龍創立/青年半音階口琴演奏者交流/重奏與合奏/演出資訊 / 半音階口琴/口琴重奏 / 演出團體/青年交流社群/活動資訊來源",
+      "summary": "臺灣的半音階口琴與口琴重奏演出團體、青年交流社群與活動資訊來源，活動脈絡包含2004由沈雕龍創立、青年半音階口琴演奏者交流與重奏與合奏。",
+      "keywords": "口琴愛樂集 Philharmonica 沈雕龍 2004 青年 半音階",
       "links": [
         {
           "label": "Facebook",
@@ -13931,7 +13935,9 @@ window.HARMONICA_OBSERVE_DATA = {
       "avatarUrl": "/assets/source-avatars/2baae100fe6844e1cbbe.webp",
       "sourceInitials": "口琴",
       "sourceTags": [
-        "團體樂團"
+        "團體樂團",
+        "半音階",
+        "重奏"
       ],
       "monitorSources": [
         {
@@ -16553,6 +16559,43 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-292",
+      "publicId": "292",
+      "name": "Julien Cormier",
+      "nameEn": "Julien Cormier",
+      "category": "活動資訊",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "法國",
+      "region": "法國/奧克西塔尼",
+      "cityOrFocus": "藍調與Roots音樂/Straw Men二重奏/De l’Hers sur les anches口琴音樂節組織與演出/APHF 2026",
+      "structuredSummary": "藍調與Roots音樂/Straw Men二重奏/De l’Hers sur les anches口琴音樂節組織與演出/APHF 2026 / 十孔口琴 / 國際演出人員/音樂節策劃與推廣者",
+      "summary": "法國的國際演出人員與音樂節策劃與推廣者，涵蓋藍調與Roots音樂、Straw Men二重奏、De l’Hers sur les anches口琴音樂節組織與演出與APHF 2026。",
+      "keywords": "Julien Cormier France harmonica Straw Men blues roots De l Hers sur les anches APHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aymeric-simon.com/straw-man"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/julien-cormier.jpg",
+      "sourceInitials": "JC",
+      "sourceTags": [
+        "活動資訊",
+        "演奏者",
+        "音樂節",
+        "十孔",
+        "重奏",
+        "國際交流"
+      ]
+    },
+    {
       "id": "watchlist-179",
       "publicId": "179",
       "name": "Mundharmonika-Live 口琴節",
@@ -17463,41 +17506,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-292",
-      "publicId": "292",
-      "name": "Julien Cormier",
-      "nameEn": "Julien Cormier",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "法國",
-      "region": "法國",
-      "cityOrFocus": "Blues Roots/Straw Men 二重奏/APHF 2026",
-      "structuredSummary": "Blues Roots/Straw Men 二重奏/APHF 2026 / 十孔口琴 / 國際演出人員",
-      "summary": "法國的十孔口琴國際演出人員，活動脈絡包含Blues Roots、Straw Men 二重奏與APHF 2026。",
-      "keywords": "Julien Cormier France harmonica Straw Men blues roots APHF 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.aymeric-simon.com/straw-man"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
-      "sourceInitials": "JC",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "重奏",
-        "國際交流"
-      ]
-    },
-    {
       "id": "watchlist-129",
       "publicId": "129",
       "name": "Kangsoo Lee 이강수",
@@ -17939,7 +17947,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
+      "avatarUrl": "/assets/source-avatars/tony-eyers.jpg",
       "sourceInitials": "TE",
       "sourceTags": [
         "演奏者",
@@ -19244,12 +19252,12 @@ window.HARMONICA_OBSERVE_DATA = {
     "categories": {
       "其他來源": 2,
       "國際交流": 13,
-      "團體樂團": 80,
+      "團體樂團": 78,
       "場館平台": 7,
       "學校社團": 39,
       "教學器材": 26,
-      "活動資訊": 31,
-      "演奏者": 112
+      "活動資訊": 34,
+      "演奏者": 111
     },
     "countries": {
       "中國": 36,
