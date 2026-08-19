@@ -53,6 +53,7 @@ CURATED_SOURCE_AVATARS = {
     "Spring Harp Fest": "spring-harp-fest.jpg",
     "Hohner 音樂院（特羅辛根）": "hohner-konservatorium.jpg",
     "蔡明勳": "minghsun-tsai.jpg",
+    "口琴音樂賽事中心": "aphfhx-events-center.jpg",
     "Yotam Ben-Or": "yotam-ben-or.jpg",
     "Rivet 口琴重奏": "rivet-harmonica.png",
     "Jens Bunge": "jens-bunge.jpg",
