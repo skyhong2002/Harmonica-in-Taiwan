@@ -1,18 +1,18 @@
 {
   "site": "https://harmonica.observe.tw",
   "generatedAt": "2026-08-20",
-  "count": 284,
+  "count": 293,
   "stats": {
-    "totalEntries": 284,
+    "totalEntries": 293,
     "categories": {
       "其他來源": 2,
       "國際交流": 12,
-      "團體樂團": 78,
+      "團體樂團": 81,
       "場館平台": 7,
       "學校社團": 38,
       "教學器材": 21,
       "活動資訊": 29,
-      "演奏者": 97
+      "演奏者": 103
     },
     "countries": {
       "中國": 31,
@@ -21,14 +21,16 @@
       "俄羅斯": 1,
       "印尼": 1,
       "國際": 2,
-      "巴西": 5,
+      "墨西哥": 1,
+      "巴西": 6,
       "德國": 11,
       "挪威": 1,
       "捷克": 1,
       "新加坡": 7,
       "日本": 18,
-      "法國": 1,
-      "波蘭": 1,
+      "法國": 2,
+      "波蘭": 2,
+      "澳洲": 1,
       "瑞典": 1,
       "瑞士": 1,
       "紐西蘭": 1,
@@ -36,30 +38,31 @@
       "臺灣": 131,
       "英國": 3,
       "荷蘭": 1,
+      "菲律賓": 1,
       "西班牙": 2,
       "阿根廷": 4,
-      "韓國": 16,
+      "韓國": 19,
       "香港": 22,
       "馬來西亞": 13
     },
     "watchSources": {
-      "totalSources": 667,
-      "rsshubSources": 380,
-      "apifySources": 155,
-      "facebookSources": 155,
+      "totalSources": 670,
+      "rsshubSources": 382,
+      "apifySources": 156,
+      "facebookSources": 156,
       "youtubeSources": 132,
       "platforms": {
-        "facebook": 155,
-        "instagram": 340,
+        "facebook": 156,
+        "instagram": 342,
         "threads": 28,
         "x": 12,
         "youtube": 132
       },
       "types": {
-        "facebook_page_posts": 155,
+        "facebook_page_posts": 156,
         "rss": 40,
-        "rsshub_instagram_profile": 170,
-        "rsshub_instagram_story": 170,
+        "rsshub_instagram_profile": 171,
+        "rsshub_instagram_story": 171,
         "youtube_ytdlp": 132
       }
     }
@@ -230,10 +233,10 @@
       "originalType": "團體",
       "country": "馬來西亞",
       "region": "馬來西亞",
-      "cityOrFocus": "二重奏/影片/THMF",
-      "structuredSummary": "二重奏/影片/THMF / 半音階/重奏 / 國際演出團體/二重奏",
+      "cityOrFocus": "二重奏/影片/THMF/SIHF 2026",
+      "structuredSummary": "二重奏/影片/THMF/SIHF 2026 / 半音階/重奏 / 國際演出團體/二重奏",
       "summary": "馬來西亞的半音階與重奏國際演出團體與二重奏，活動脈絡包含二重奏、影片與THMF。",
-      "keywords": "Aiden N Evelyn Aiden Soon Evelyn Choong harmonica",
+      "keywords": "Aiden N Evelyn Aiden Soon Evelyn Choong harmonica SIHF 2026",
       "links": [
         {
           "label": "網站",
@@ -676,10 +679,10 @@
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "重奏/公演/年輕團體",
-      "structuredSummary": "重奏/公演/年輕團體 / 口琴重奏/合奏 / 演出團體",
+      "cityOrFocus": "重奏/公演/年輕團體/SIHF 2026",
+      "structuredSummary": "重奏/公演/年輕團體/SIHF 2026 / 口琴重奏/合奏 / 演出團體",
       "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與年輕團體。",
-      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團",
+      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團 SIHF 2026",
       "links": [
         {
           "label": "網站",
@@ -840,10 +843,10 @@
       "originalType": "個人",
       "country": "西班牙",
       "region": "西班牙",
-      "cityOrFocus": "十孔/藍調",
-      "structuredSummary": "十孔/藍調 / 十孔 / 國際演出人員",
-      "summary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
-      "keywords": "Marcos Coll harmonica",
+      "cityOrFocus": "十孔/藍調/SIHF 2026",
+      "structuredSummary": "十孔/藍調/SIHF 2026 / 十孔 / 國際演出人員",
+      "summary": "西班牙的十孔國際演出人員，活動脈絡包含藍調與SIHF 2026。",
+      "keywords": "Marcos Coll harmonica SIHF 2026",
       "links": [
         {
           "label": "網站",
@@ -873,12 +876,8 @@
       "sourceTags": [
         "演奏者",
         "十孔",
-        "國際交流",
-        "音樂會",
-        "演出"
+        "國際交流"
       ],
-      "sourceSummary": "西班牙十孔藍調口琴演奏者，專注於國際演出與演奏分享。",
-      "sourceTagReason": "category為演奏者，type為個人，focus在十孔/藍調，並有國際演出經歷。",
       "monitorSources": [
         {
           "id": "fb_marcoscollharp",
@@ -2408,10 +2407,10 @@
       "originalType": "個人",
       "country": "巴西",
       "region": "巴西",
-      "cityOrFocus": "巴西職業口琴演奏/教學/錄音合作",
-      "structuredSummary": "巴西職業口琴演奏/教學/錄音合作 / 口琴 / 國際演出人員/教學者",
+      "cityOrFocus": "巴西職業口琴演奏/教學/錄音合作/SIHF 2026",
+      "structuredSummary": "巴西職業口琴演奏/教學/錄音合作/SIHF 2026 / 口琴 / 國際演出人員/教學者",
       "summary": "巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。",
-      "keywords": "Rodrigo Eberienos harmonica SIHF",
+      "keywords": "Rodrigo Eberienos harmonica SIHF 2026",
       "links": [
         {
           "label": "Facebook",
@@ -4154,10 +4153,10 @@
       "originalType": "個人",
       "country": "俄羅斯",
       "region": "俄羅斯",
-      "cityOrFocus": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊",
-      "structuredSummary": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊 / 十孔/半音階 / 國際演出人員/教學者",
+      "cityOrFocus": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊/SIHF 2026",
+      "structuredSummary": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊/SIHF 2026 / 十孔/半音階 / 國際演出人員/教學者",
       "summary": "俄羅斯的十孔與半音階國際演出人員與教學者，活動脈絡包含莫斯科職業口琴演奏、藍調爵士與國際比賽得獎。",
-      "keywords": "Boris Plotnikov etaborya boris_plotnikov harmonica SIHF",
+      "keywords": "Boris Plotnikov etaborya boris_plotnikov harmonica SIHF 2026",
       "links": [
         {
           "label": "網站",
@@ -4544,10 +4543,10 @@
       "originalType": "個人",
       "country": "德國",
       "region": "德國",
-      "cityOrFocus": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作",
-      "structuredSummary": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作 / 半音階/十孔 / 國際演出人員/製作人/教育者",
+      "cityOrFocus": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作/SIHF 2026",
+      "structuredSummary": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作/SIHF 2026 / 半音階/十孔 / 國際演出人員/製作人/教育者",
       "summary": "德國的半音階與十孔國際演出人員、製作人與教育者，活動脈絡包含OPUS Klassik得獎、國際獨奏與製作與教育。",
-      "keywords": "Konstantin Reinfeld harmonica SIHF",
+      "keywords": "Konstantin Reinfeld harmonica SIHF 2026",
       "links": [
         {
           "label": "網站",
@@ -4882,10 +4881,10 @@
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "重奏/公演/THMF/國際交流",
-      "structuredSummary": "重奏/公演/THMF/國際交流 / 口琴重奏/合奏 / 演出團體",
+      "cityOrFocus": "重奏/公演/THMF/國際交流/SIHF 2026",
+      "structuredSummary": "重奏/公演/THMF/國際交流/SIHF 2026 / 口琴重奏/合奏 / 演出團體",
       "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與THMF。",
-      "keywords": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+      "keywords": "天狼星口琴樂團 Sirius Harmonica Ensemble SIHF 2026",
       "links": [
         {
           "label": "Facebook",
@@ -5141,10 +5140,10 @@
       "originalType": "國際團體/參考來源",
       "country": "香港",
       "region": "香港/國際",
-      "cityOrFocus": "國際口琴重奏/臺港交流",
-      "structuredSummary": "國際口琴重奏/臺港交流 / 口琴重奏 / 國際演出團體",
-      "summary": "香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏與臺港交流。",
-      "keywords": "RedBricks Harmonica 香港口琴五重奏 harmonica ensemble",
+      "cityOrFocus": "國際口琴重奏/臺港交流/SIHF 2026",
+      "structuredSummary": "國際口琴重奏/臺港交流/SIHF 2026 / 口琴重奏 / 國際演出團體",
+      "summary": "香港的口琴重奏國際演出團體，活動脈絡包含國際口琴重奏、臺港交流與SIHF 2026。",
+      "keywords": "RedBricks Harmonica 香港口琴五重奏 harmonica ensemble SIHF 2026",
       "links": [
         {
           "label": "Facebook",
@@ -5278,10 +5277,10 @@
       "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "半音階/複音/原創/比賽曲",
-      "structuredSummary": "半音階/複音/原創/比賽曲 / 半音階/複音 / 演出人員",
-      "summary": "臺灣的半音階與複音演出人員，活動脈絡包含原創與比賽曲。",
-      "keywords": "林家靖 Rolabo Lin",
+      "cityOrFocus": "半音階/複音/原創/比賽曲/SIHF 2026",
+      "structuredSummary": "半音階/複音/原創/比賽曲/SIHF 2026 / 半音階/複音 / 演出人員",
+      "summary": "臺灣的半音階與複音演出人員，活動脈絡包含原創、比賽曲與SIHF 2026。",
+      "keywords": "林家靖 Rolabo Lin Jia-jing Lin SIHF 2026",
       "links": [
         {
           "label": "網站",
@@ -13404,6 +13403,142 @@
       ]
     },
     {
+      "id": "watchlist-286",
+      "publicId": "286",
+      "name": "Seoul BLUE Harmonica Ensemble",
+      "nameEn": "Seoul BLUE Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "小合奏/2024 亞太口琴節長青小合奏組冠軍/2025 定期公演",
+      "structuredSummary": "小合奏/2024 亞太口琴節長青小合奏組冠軍/2025 定期公演 / 口琴重奏 / 國際演出團體",
+      "summary": "韓國的口琴重奏國際演出團體，活動脈絡包含小合奏、2024 亞太口琴節長青小合奏組冠軍與2025 定期公演。",
+      "keywords": "Seoul BLUE Harmonica Ensemble Korea APHF 2024 senior small ensemble champion",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://gcfac.or.kr/performance/commonView?currRow=1&gcfac_menu_cd=U0007&perDisGubun=performance&returnURI=%2Fperformance%2FcurrentList&seq_no=3630&serhDate=&serhPerforDisplay=&serhTitle="
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/ae2d7affb60493ee11f8.webp",
+      "sourceInitials": "SBH",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_seoulharmonicaorchestra",
+          "name": "首爾口琴管弦樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@SeoulHarmonicaOrchestra",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-287",
+      "publicId": "287",
+      "name": "Seoul RED Harmonica Ensemble",
+      "nameEn": "Seoul RED Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "室內樂/2024 亞太口琴節公開室內樂組季軍/2025 定期公演",
+      "structuredSummary": "室內樂/2024 亞太口琴節公開室內樂組季軍/2025 定期公演 / 口琴重奏 / 國際演出團體",
+      "summary": "韓國的口琴重奏國際演出團體，活動脈絡包含室內樂、2024 亞太口琴節公開室內樂組季軍與2025 定期公演。",
+      "keywords": "Seoul RED Harmonica Ensemble Korea APHF 2024 open chamber third prize",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://gcfac.or.kr/performance/commonView?currRow=1&gcfac_menu_cd=U0007&perDisGubun=performance&returnURI=%2Fperformance%2FcurrentList&seq_no=3630&serhDate=&serhPerforDisplay=&serhTitle="
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/ae2d7affb60493ee11f8.webp",
+      "sourceInitials": "SRH",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_seoulharmonicaorchestra",
+          "name": "首爾口琴管弦樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@SeoulHarmonicaOrchestra",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-288",
+      "publicId": "288",
+      "name": "Seoul THE DREAM Harmonica Orchestra",
+      "nameEn": "Seoul THE DREAM Harmonica Orchestra",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "大型合奏/2024 亞太口琴節公開管弦樂組冠軍/2025 定期公演",
+      "structuredSummary": "大型合奏/2024 亞太口琴節公開管弦樂組冠軍/2025 定期公演 / 半音階/複音/和弦/低音口琴 / 國際演出團體",
+      "summary": "韓國的半音階、複音、和弦與低音口琴國際演出團體，活動脈絡包含大型合奏、2024 亞太口琴節公開管弦樂組冠軍與2025 定期公演。",
+      "keywords": "Seoul THE DREAM Harmonica Orchestra Korea APHF 2024 open orchestra champion",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://gcfac.or.kr/performance/commonView?currRow=1&gcfac_menu_cd=U0007&perDisGubun=performance&returnURI=%2Fperformance%2FcurrentList&seq_no=3630&serhDate=&serhPerforDisplay=&serhTitle="
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/ae2d7affb60493ee11f8.webp",
+      "sourceInitials": "STD",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "複音",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_seoulharmonicaorchestra",
+          "name": "首爾口琴管弦樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@SeoulHarmonicaOrchestra",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-22",
       "publicId": "22",
       "name": "Spotlight 口琴樂團",
@@ -14352,11 +14487,15 @@
       "originalType": "團體",
       "country": "韓國",
       "region": "韓國/首爾",
-      "cityOrFocus": "首爾口琴管弦樂團/首爾獨奏家口琴樂團/半音階/和弦/低音/重奏",
-      "structuredSummary": "首爾口琴管弦樂團/首爾獨奏家口琴樂團/半音階/和弦/低音/重奏 / 口琴管弦樂團 / 國際演出團體",
-      "summary": "韓國的口琴管弦樂團國際演出團體，活動脈絡包含首爾口琴管弦樂團、首爾獨奏家口琴樂團與半音階。",
-      "keywords": "Seoul Harmonica Orchestra Seoul Soloists Harmonica Orchestra 首爾獨奏家口琴樂團",
+      "cityOrFocus": "大型口琴管弦樂團/半音階/和弦/低音/定期公演/教育推廣",
+      "structuredSummary": "大型口琴管弦樂團/半音階/和弦/低音/定期公演/教育推廣 / 口琴管弦樂團 / 國際演出團體",
+      "summary": "韓國的口琴管弦樂團國際演出團體，活動脈絡包含大型口琴管弦樂團、半音階與和弦。",
+      "keywords": "Seoul Harmonica Orchestra 首爾口琴管弦樂團 2025 regular concert",
       "links": [
+        {
+          "label": "網站",
+          "url": "https://gcfac.or.kr/performance/commonView?currRow=1&gcfac_menu_cd=U0007&perDisGubun=performance&returnURI=%2Fperformance%2FcurrentList&seq_no=3630&serhDate=&serhPerforDisplay=&serhTitle="
+        },
         {
           "label": "YouTube",
           "url": "https://www.youtube.com/@SeoulHarmonicaOrchestra"
@@ -14373,7 +14512,6 @@
       "sourceTags": [
         "團體樂團",
         "半音階",
-        "重奏",
         "國際交流"
       ],
       "monitorSources": [
@@ -16553,6 +16691,56 @@
       ]
     },
     {
+      "id": "watchlist-291",
+      "publicId": "291",
+      "name": "Angelberto Pibe Árcega",
+      "nameEn": "Angelberto Pibe Arcega",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "墨西哥",
+      "region": "墨西哥/科利馬",
+      "cityOrFocus": "藍調與爵士口琴/跨界電子音樂/音樂製作與廣播/APHF 2026",
+      "structuredSummary": "藍調與爵士口琴/跨界電子音樂/音樂製作與廣播/APHF 2026 / 十孔/半音階口琴 / 國際演出人員/製作人/教育推廣",
+      "summary": "墨西哥的十孔與半音階口琴國際演出人員、製作人與教育推廣，活動脈絡包含藍調與爵士口琴、跨界電子音樂與音樂製作與廣播。",
+      "keywords": "Angelberto Pibe Arcega Mexico Colima blues jazz harmonica APHF 2026 PARCEGAD",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.ucol.mx/noticias/nota_14055.htm"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/pibe.arcega/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
+      "sourceInitials": "APR",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_pibe_arcega",
+          "name": "Angelberto Pibe Árcega",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/pibe.arcega",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-135",
       "publicId": "135",
       "name": "Chishu Huang",
@@ -16607,14 +16795,14 @@
       "originalType": "個人",
       "country": "韓國",
       "region": "韓國",
-      "cityOrFocus": "韓國口琴演奏/國際交流/SIHF",
-      "structuredSummary": "韓國口琴演奏/國際交流/SIHF / 口琴 / 國際演出人員",
-      "summary": "韓國的口琴國際演出人員，活動脈絡包含韓國口琴演奏、國際交流與SIHF。",
-      "keywords": "Choi Suhong 최수홍 harmonica SIHF",
+      "cityOrFocus": "韓國口琴演奏/國際交流/SIHF 2026",
+      "structuredSummary": "韓國口琴演奏/國際交流/SIHF 2026 / 口琴 / 國際演出人員",
+      "summary": "韓國的口琴國際演出人員，活動脈絡包含韓國口琴演奏、國際交流與SIHF 2026。",
+      "keywords": "Choi Suhong 최수홍 harmonica SIHF 2026",
       "links": [
         {
           "label": "網站",
-          "url": "https://seoulinternationalharmonicafestival.wordpress.com/tag/top/"
+          "url": "https://seoulinternationalharmonicafestival.com/tag/top/"
         }
       ],
       "source": "watchlist",
@@ -16714,6 +16902,99 @@
       ]
     },
     {
+      "id": "watchlist-294",
+      "publicId": "294",
+      "name": "Ian Lofamia",
+      "nameEn": "Ian Lofamia",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "菲律賓",
+      "region": "菲律賓/馬尼拉",
+      "cityOrFocus": "藍調口琴/錄音與電影配樂/Ian Lofamia Band/APHF 2026",
+      "structuredSummary": "藍調口琴/錄音與電影配樂/Ian Lofamia Band/APHF 2026 / 十孔口琴 / 國際演出人員/錄音樂手",
+      "summary": "菲律賓的十孔口琴國際演出人員與錄音樂手，活動脈絡包含藍調口琴、錄音與電影配樂與Ian Lofamia Band。",
+      "keywords": "Ian Jorelle Lofamia Philippines blues harmonica Ian Lofamia Band APHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://tbcmanila.com/work/giliw-mv"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
+      "sourceInitials": "IL",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流"
+      ]
+    },
+    {
+      "id": "watchlist-290",
+      "publicId": "290",
+      "name": "Ivan Marcio",
+      "nameEn": "Ivan Marcio",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "巴西",
+      "region": "巴西/聖保羅",
+      "cityOrFocus": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026",
+      "structuredSummary": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026 / 十孔口琴 / 國際演出人員/教育者/製作人",
+      "summary": "巴西的十孔口琴國際演出人員、教育者與製作人，活動脈絡包含藍調口琴、Jump Blues與錄音製作。",
+      "keywords": "Ivan Marcio ivanmarciogaita Brazil blues harmonica APHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/information/announcementDetail/417110312852779008"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ivanmarciogaita/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
+      "sourceInitials": "IM",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_ivanmarciogaita",
+          "name": "Ivan Marcio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "ivanmarciogaita",
+          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_ivanmarciogaita",
+          "name": "Ivan Marcio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "ivanmarciogaita",
+          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/ivanmarciogaita/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-145",
       "publicId": "145",
       "name": "Joe Marhofer / The Headcutters",
@@ -16770,6 +17051,41 @@
           "profileUrl": "https://www.instagram.com/theheadcutters/",
           "feedUrl": ""
         }
+      ]
+    },
+    {
+      "id": "watchlist-292",
+      "publicId": "292",
+      "name": "Julien Cormier",
+      "nameEn": "Julien Cormier",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "法國",
+      "region": "法國",
+      "cityOrFocus": "Blues Roots/Straw Men 二重奏/APHF 2026",
+      "structuredSummary": "Blues Roots/Straw Men 二重奏/APHF 2026 / 十孔口琴 / 國際演出人員",
+      "summary": "法國的十孔口琴國際演出人員，活動脈絡包含Blues Roots、Straw Men 二重奏與APHF 2026。",
+      "keywords": "Julien Cormier France harmonica Straw Men blues roots APHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aymeric-simon.com/straw-man"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
+      "sourceInitials": "JC",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "重奏",
+        "國際交流"
       ]
     },
     {
@@ -16885,10 +17201,10 @@
       "originalType": "個人",
       "country": "韓國",
       "region": "韓國",
-      "cityOrFocus": "韓國職業口琴演奏/半音階與複音/Weissenberg artist",
-      "structuredSummary": "韓國職業口琴演奏/半音階與複音/Weissenberg artist / 半音階/複音 / 國際演出人員",
+      "cityOrFocus": "韓國職業口琴演奏/半音階與複音/Weissenberg artist/SIHF 2026",
+      "structuredSummary": "韓國職業口琴演奏/半音階與複音/Weissenberg artist/SIHF 2026 / 半音階/複音 / 國際演出人員",
       "summary": "韓國的半音階與複音國際演出人員，活動脈絡包含韓國職業口琴演奏、半音階與複音與Weissenberg artist。",
-      "keywords": "Kim Changsik Kim Chang Sik 김창식 harmonica SIHF",
+      "keywords": "Kim Changsik Kim Chang Sik 김창식 harmonica SIHF 2026",
       "links": [
         {
           "label": "網站",
@@ -16920,10 +17236,10 @@
       "originalType": "個人",
       "country": "韓國",
       "region": "韓國",
-      "cityOrFocus": "韓國職業口琴演奏/Giusto harmonica ensemble/KHO",
-      "structuredSummary": "韓國職業口琴演奏/Giusto harmonica ensemble/KHO / 口琴 / 國際演出人員",
+      "cityOrFocus": "韓國職業口琴演奏/Giusto harmonica ensemble/KHO/SIHF 2026",
+      "structuredSummary": "韓國職業口琴演奏/Giusto harmonica ensemble/KHO/SIHF 2026 / 口琴 / 國際演出人員",
       "summary": "韓國的口琴國際演出人員，活動脈絡包含韓國職業口琴演奏、Giusto harmonica ensemble與KHO。",
-      "keywords": "Kim Kyunghee Kim Kyung Hee 김경희 harmonica SIHF",
+      "keywords": "Kim Kyunghee Kim Kyung Hee 김경희 harmonica SIHF 2026",
       "links": [
         {
           "label": "網站",
@@ -16953,10 +17269,10 @@
       "originalType": "個人/製琴研究者",
       "country": "中國",
       "region": "中國/美國",
-      "cityOrFocus": "口琴演奏/口琴聲學/製琴/產品設計/SIHF",
-      "structuredSummary": "口琴演奏/口琴聲學/製琴/產品設計/SIHF / 口琴 / 國際演出人員/口琴設計研究者",
+      "cityOrFocus": "口琴演奏/口琴聲學/製琴/產品設計/SIHF 2026",
+      "structuredSummary": "口琴演奏/口琴聲學/製琴/產品設計/SIHF 2026 / 口琴 / 國際演出人員/口琴設計研究者",
       "summary": "中國的口琴國際演出人員與口琴設計研究者，活動脈絡包含口琴演奏、口琴聲學與製琴。",
-      "keywords": "Leon Li harmonica acoustics designer SIHF JDR Jiangyin Soundreal",
+      "keywords": "Leon Li harmonica acoustics designer SIHF 2026 JDR Jiangyin Soundreal",
       "links": [
         {
           "label": "網站",
@@ -17044,6 +17360,40 @@
       ]
     },
     {
+      "id": "watchlist-293",
+      "publicId": "293",
+      "name": "Michał Kielak",
+      "nameEn": "Michal Kielak",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "波蘭",
+      "region": "波蘭",
+      "cityOrFocus": "藍調口琴/錄音與巡演/2024 波蘭年度口琴手/APHF 2026",
+      "structuredSummary": "藍調口琴/錄音與巡演/2024 波蘭年度口琴手/APHF 2026 / 十孔口琴 / 國際演出人員/錄音樂手",
+      "summary": "波蘭的十孔口琴國際演出人員與錄音樂手，活動脈絡包含藍調口琴、錄音與巡演與2024 波蘭年度口琴手。",
+      "keywords": "Michal Kielak Michał Kielak Poland harmonica harp player APHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://kielak.pl/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
+      "sourceInitials": "MK",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流"
+      ]
+    },
+    {
       "id": "watchlist-272",
       "publicId": "272",
       "name": "Monica J",
@@ -17102,10 +17452,10 @@
       "originalType": "個人",
       "country": "日本",
       "region": "日本",
-      "cityOrFocus": "複音口琴/1997 F.I.H.世界冠軍/新音樂文化推廣/TOMBO artist",
-      "structuredSummary": "複音口琴/1997 F.I.H.世界冠軍/新音樂文化推廣/TOMBO artist / 複音口琴 / 國際演出人員/教育者",
+      "cityOrFocus": "複音口琴/1997 F.I.H.世界冠軍/新音樂文化推廣/TOMBO artist/SIHF 2026",
+      "structuredSummary": "複音口琴/1997 F.I.H.世界冠軍/新音樂文化推廣/TOMBO artist/SIHF 2026 / 複音口琴 / 國際演出人員/教育者",
       "summary": "日本的複音口琴國際演出人員與教育者，活動脈絡包含1997 F.I.H.世界冠軍、新音樂文化推廣與TOMBO artist。",
-      "keywords": "Takamoto Mizuno 水野隆元 harmonica tremolo TOMBO SIHF",
+      "keywords": "Takamoto Mizuno 水野隆元 harmonica tremolo TOMBO SIHF 2026",
       "links": [
         {
           "label": "網站",
@@ -17216,6 +17566,42 @@
       "sourceTags": [
         "演奏者",
         "半音階",
+        "國際交流"
+      ]
+    },
+    {
+      "id": "watchlist-289",
+      "publicId": "289",
+      "name": "Tony Eyers",
+      "nameEn": "Tony Eyers",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "澳洲",
+      "region": "澳洲/雪梨",
+      "cityOrFocus": "複音與十孔口琴/傳統音樂/Major Cross 調音/線上教學/APHF 2026",
+      "structuredSummary": "複音與十孔口琴/傳統音樂/Major Cross 調音/線上教學/APHF 2026 / 複音/十孔口琴 / 國際演出人員/教育者",
+      "summary": "澳洲的複音與十孔口琴國際演出人員與教育者，活動脈絡包含複音與十孔口琴、傳統音樂與Major Cross 調音。",
+      "keywords": "Tony Eyers Australia harmonica Harmonica Academy Major Cross APHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://tonyeyers.com/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
+      "sourceInitials": "TE",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "複音",
+        "十孔",
         "國際交流"
       ]
     },
