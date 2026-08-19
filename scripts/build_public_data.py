@@ -35,6 +35,11 @@ CURATED_SOURCE_AVATARS = {
     "香港兒童合唱團口琴課程": "hkcc-harmonica.png",
     "基隆社區大學就是吹口琴": "keelung-community-harmonica.jpg",
     "류선웅 Sunwoong Ryu": "sunwoong-ryu.jpg",
+    "梁栢渝 Ramiel Leung": "ramiel-leung.jpg",
+    "白燕生": "bai-yansheng.png",
+    "陳詩霖": "chen-shilin.png",
+    "張雅誥": "chong-ah-kow.png",
+    "黃浚宇": "wong-chun-yu.png",
 }
 TAIPEI_TZ = timezone(timedelta(hours=8))
 AVATAR_PLATFORM_PRIORITY = {
