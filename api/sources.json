@@ -9,10 +9,10 @@
       "國際交流": 13,
       "團體樂團": 76,
       "場館平台": 7,
-      "學校社團": 42,
+      "學校社團": 43,
       "教學器材": 26,
-      "活動資訊": 42,
-      "演奏者": 110
+      "活動資訊": 43,
+      "演奏者": 108
     },
     "countries": {
       "中國": 39,
@@ -68,6 +68,65 @@
     }
   },
   "entries": [
+    {
+      "id": "watchlist-260",
+      "publicId": "260",
+      "name": "梁芷菁 Steffi Leung",
+      "nameEn": "Steffi Leung",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends",
+      "structuredSummary": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends / 半音階 / 國際演出人員",
+      "summary": "香港的半音階國際演出人員，活動脈絡包含國際賽事、電台主持與Adventure Harmonica Band。",
+      "keywords": "梁芷菁 Steffi Leung harmonicist Adventure Harmonica WHF APHF SIHF THMF 2025 世界口琴節 二重奏冠軍 Steffi and Friends 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.steffileung.com/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/steffi.leung/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-19T18:46:24+00:00",
+      "latestUpdateLocal": "2026-08-20 02:46",
+      "latestUpdateSource": "梁芷菁 Steffi Leung",
+      "latestUpdateUrl": "https://www.instagram.com/stories/steffi.leung/3967351577929522012/",
+      "avatarUrl": "/assets/source-avatars/52a4b73c8228268435e3.webp",
+      "sourceInitials": "SL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_steffi_leung",
+          "name": "梁芷菁 Steffi Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "steffi.leung",
+          "profileUrl": "https://www.instagram.com/steffi.leung/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_steffi_leung",
+          "name": "梁芷菁 Steffi Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "steffi.leung",
+          "profileUrl": "https://www.instagram.com/steffi.leung/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/steffi.leung/story/0"
+        }
+      ]
+    },
     {
       "id": "watchlist-65",
       "publicId": "65",
@@ -394,19 +453,19 @@
       "publicId": "55",
       "name": "梁承熹 Kelvin Leung",
       "nameEn": "Kelvin Leung",
-      "category": "演奏者",
+      "category": "活動資訊",
       "type": "個人",
       "originalType": "個人",
       "country": "香港",
       "region": "香港",
-      "cityOrFocus": "THMF交流/演出",
-      "structuredSummary": "THMF交流/演出 / 半音階 / 國際演出人員",
-      "summary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
-      "keywords": "梁承熹 Kelvin Leung harmonica",
+      "cityOrFocus": "英皇書院口琴隊出身/2012亞太口琴節六重奏冠軍/2013世界口琴節半音階獨奏與大合奏冠軍及團體季軍/2014亞太口琴節半音階公開組冠軍/2010上海世博與國際音樂節演出/2016首爾國際口琴節及亞太口琴節評審/香港青少年口琴教育",
+      "structuredSummary": "英皇書院口琴隊出身/2012亞太口琴節六重奏冠軍/2013世界口琴節半音階獨奏與大合奏冠軍及團體季軍/2014亞太口琴節半音階公開組冠軍/2010上海世博與國際音樂節演出/2016首爾國際口琴節及亞太口琴節評審/香港青少年口琴教育 / 半音階口琴/口琴六重奏與大合奏 / 國際演出人員/教育者/國際賽事評審/世界與亞太冠軍",
+      "summary": "香港的國際演出人員、教育者與國際賽事評審，涵蓋英皇書院口琴隊出身、2012亞太口琴節六重奏冠軍、2013世界口琴節半音階獨奏與大合奏冠軍及團體季軍、2014亞太口琴節半音階公開組冠軍與2010上海世博與國際音樂節演出。",
+      "keywords": "梁承熹 Kelvin Leung Shing Hei King's College WHF 2013 chromatic champion APHF 2012 2014 SIHF 2016 judge Hong Kong",
       "links": [
         {
           "label": "網站",
-          "url": "https://harmonica-kelvin.weebly.com/"
+          "url": "https://harmonica-kelvin.weebly.com/biography.html"
         },
         {
           "label": "Facebook",
@@ -430,12 +489,14 @@
       "avatarUrl": "/assets/source-avatars/0c9e9143d106ffe600b5.webp",
       "sourceInitials": "KL",
       "sourceTags": [
+        "活動資訊",
+        "團體樂團",
         "演奏者",
+        "音樂節",
         "半音階",
+        "重奏",
         "國際交流"
       ],
-      "sourceSummary": "香港半音階口琴演奏者，活躍於國際音樂節演出交流。",
-      "sourceTagReason": "來源明確標示為『演奏者』，類型為『個人』，區域為『香港』，摘要提及『THMF交流/演出』與『半音階』。",
       "monitorSources": [
         {
           "id": "fb_kelvinleungsh",
@@ -1318,6 +1379,65 @@
       ]
     },
     {
+      "id": "watchlist-229",
+      "publicId": "229",
+      "name": "Hohner Harmonica",
+      "nameEn": "Hohner Harmonica",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌/樂器製造商",
+      "country": "德國",
+      "region": "德國/國際",
+      "cityOrFocus": "口琴製造/產品資訊/演奏推廣/國際社群",
+      "structuredSummary": "口琴製造/產品資訊/演奏推廣/國際社群 / 口琴 / 器材品牌",
+      "summary": "德國的口琴器材品牌，關注口琴製造、產品資訊、演奏推廣與國際社群。",
+      "keywords": "Hohner Harmonica HOHNER 口琴 品牌 德國",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/hohnermusic"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hohnerharmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-19T12:47:22+00:00",
+      "latestUpdateLocal": "2026-08-19 20:47",
+      "latestUpdateSource": "Hohner Harmonica",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hohnerharmonica/3967170875610425127/",
+      "avatarUrl": "/assets/source-avatars/ed13f3775f3751df1d84.webp",
+      "sourceInitials": "HH",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_hohnerharmonica",
+          "name": "Hohner Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hohnerharmonica",
+          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hohnerharmonica",
+          "name": "Hohner Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hohnerharmonica",
+          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerharmonica/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-103",
       "publicId": "103",
       "name": "陳瑤容 Yora Chen",
@@ -1564,6 +1684,104 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@FedericoLinari",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-57",
+      "publicId": "57",
+      "name": "山下伶 Rei Yamashita",
+      "nameEn": "Rei Yamashita",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本/東京/橫濱",
+      "cityOrFocus": "專業半音階口琴演奏與教學/師承德永延生/2014第34屆FIH JAPAN口琴大賽總冠軍/2016《Beautiful Breath》主流唱片出道/《Dear Darling》獲JAZZ JAPAN AWARD 2018製作企劃獎/2018與2019首爾國際口琴節評審及嘉賓/2025大阪關西世博演出",
+      "structuredSummary": "專業半音階口琴演奏與教學/師承德永延生/2014第34屆FIH JAPAN口琴大賽總冠軍/2016《Beautiful Breath》主流唱片出道/《Dear Darling》獲JAZZ JAPAN AWARD 2018製作企劃獎/2018與2019首爾國際口琴節評審及嘉賓/2025大阪關西世博演出 / 半音階口琴/爵士口琴 / 國際演出人員/教育者/錄音藝術家/國際賽事評審",
+      "summary": "日本的半音階口琴與爵士口琴國際演出人員、教育者與錄音藝術家，活動脈絡包含專業半音階口琴演奏與教學、師承德永延生與2014第34屆FIH JAPAN口琴大賽總冠軍。",
+      "keywords": "山下伶 Rei Yamashita chromatic harmonica FIH JAPAN Grand Prix Beautiful Breath Dear Darling JAZZ JAPAN AWARD SIHF Osaka Expo 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.rei-yamashita.com/profile/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/rei.yamashita.5"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/rei_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@reiyamashita"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/rei_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-19T12:21:08+00:00",
+      "latestUpdateLocal": "2026-08-19 20:21",
+      "latestUpdateSource": "山下伶 Rei Yamashita",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcOKUA1oZtC/",
+      "avatarUrl": "/assets/source-avatars/304bf8a567368702d02c.webp",
+      "sourceInitials": "RY",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_rei_yamashita_5",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/rei.yamashita.5",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "rei_harmonica",
+          "profileUrl": "https://www.instagram.com/rei_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "rei_harmonica",
+          "profileUrl": "https://www.instagram.com/rei_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/rei_harmonica/story/0"
+        },
+        {
+          "id": "x_rei_harmonica",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "x",
+          "type": "rss",
+          "username": "rei_harmonica",
+          "profileUrl": "https://x.com/rei_harmonica",
+          "feedUrl": "https://rss.observe.tw/twitter/user/rei_harmonica"
+        },
+        {
+          "id": "yt_reiyamashita",
+          "name": "山下伶 Rei Yamashita",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@reiyamashita",
           "feedUrl": ""
         }
       ]
@@ -1896,103 +2114,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-57",
-      "publicId": "57",
-      "name": "山下伶 Rei Yamashita",
-      "nameEn": "Rei Yamashita",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/演出",
-      "structuredSummary": "半音階/專輯/演出 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯與演出。",
-      "keywords": "山下伶 Rei Yamashita harmonica",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://rei-yamashita.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/rei.yamashita.5"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/rei_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@reiyamashita"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/rei_harmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-19T10:05:53+00:00",
-      "latestUpdateLocal": "2026-08-19 18:05",
-      "latestUpdateSource": "山下伶 Rei Yamashita",
-      "latestUpdateUrl": "https://www.instagram.com/stories/rei_harmonica/3967089553181980458/",
-      "avatarUrl": "/assets/source-avatars/304bf8a567368702d02c.webp",
-      "sourceInitials": "RY",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_rei_yamashita_5",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/rei.yamashita.5",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "rei_harmonica",
-          "profileUrl": "https://www.instagram.com/rei_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "rei_harmonica",
-          "profileUrl": "https://www.instagram.com/rei_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/rei_harmonica/story/0"
-        },
-        {
-          "id": "x_rei_harmonica",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "x",
-          "type": "rss",
-          "username": "rei_harmonica",
-          "profileUrl": "https://x.com/rei_harmonica",
-          "feedUrl": "https://rss.observe.tw/twitter/user/rei_harmonica"
-        },
-        {
-          "id": "yt_reiyamashita",
-          "name": "山下伶 Rei Yamashita",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@reiyamashita",
           "feedUrl": ""
         }
       ]
@@ -3114,15 +3235,15 @@
       "type": "個人",
       "originalType": "個人",
       "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "演出/評審",
-      "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
-      "summary": "口琴演奏家，專注於演出與評審工作。",
-      "keywords": "陳鴻儀 口琴",
+      "region": "臺灣/基隆/宜蘭",
+      "cityOrFocus": "複音口琴演奏與編曲/多次全國學生音樂比賽與亞太口琴節評審/曾任基隆市口琴協會理事長/東光國中、仁愛國小、樂齡中心與社區大學口琴教學/《複音口琴教本》編著",
+      "structuredSummary": "複音口琴演奏與編曲/多次全國學生音樂比賽與亞太口琴節評審/曾任基隆市口琴協會理事長/東光國中、仁愛國小、樂齡中心與社區大學口琴教學/《複音口琴教本》編著 / 複音口琴/十孔口琴/半音階口琴/口琴重奏與合奏 / 演出人員/評審/教育者/教材作者/協會前理事長",
+      "summary": "臺灣的複音口琴、十孔口琴、半音階口琴與口琴重奏與合奏演出人員、評審與教育者，活動脈絡包含複音口琴演奏與編曲、多次全國學生音樂比賽與亞太口琴節評審與曾任基隆市口琴協會理事長。",
+      "keywords": "陳鴻儀 Henry Chen 就是吹口琴 複音口琴 教本 編曲 基隆 社區大學 東光國中 亞太口琴節 評審",
       "links": [
         {
           "label": "網站",
-          "url": "https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be"
+          "url": "https://kcu.twcu.org.tw/course/m_course_detail.php?u=f5fbc46e1198f1d957519223b6068dc8"
         },
         {
           "label": "YouTube",
@@ -3139,10 +3260,13 @@
       "sourceInitials": "陳鴻",
       "sourceTags": [
         "演奏者",
-        "演出"
+        "教學",
+        "比賽",
+        "半音階",
+        "複音",
+        "十孔",
+        "重奏"
       ],
-      "sourceSummary": "口琴演奏家，專注於演出與評審工作。",
-      "sourceTagReason": "來源類別為「演奏者」，類型為「個人」，城市焦點為「演出/評審」，因此標記演奏者、口琴及演出。",
       "monitorSources": [
         {
           "id": "yt_henrysharmonica",
@@ -3152,6 +3276,65 @@
           "username": "",
           "profileUrl": "https://youtube.com/@HenrysHarmonica",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-290",
+      "publicId": "290",
+      "name": "Ivan Marcio",
+      "nameEn": "Ivan Marcio",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "巴西",
+      "region": "巴西/聖保羅",
+      "cityOrFocus": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026",
+      "structuredSummary": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026 / 十孔口琴 / 國際演出人員/教育者/製作人",
+      "summary": "巴西的十孔口琴國際演出人員、教育者與製作人，活動脈絡包含藍調口琴、Jump Blues與錄音製作。",
+      "keywords": "Ivan Marcio ivanmarciogaita Brazil blues harmonica APHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/information/announcementDetail/417110312852779008"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ivanmarciogaita/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-18T23:54:48+00:00",
+      "latestUpdateLocal": "2026-08-19 07:54",
+      "latestUpdateSource": "Ivan Marcio",
+      "latestUpdateUrl": "https://www.instagram.com/stories/ivanmarciogaita/3966782178285698298/",
+      "avatarUrl": "/assets/source-avatars/ivan-marcio.jpg",
+      "sourceInitials": "IM",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_ivanmarciogaita",
+          "name": "Ivan Marcio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "ivanmarciogaita",
+          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_ivanmarciogaita",
+          "name": "Ivan Marcio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "ivanmarciogaita",
+          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/ivanmarciogaita/story/0"
         }
       ]
     },
@@ -3713,11 +3896,11 @@
       "type": "個人",
       "originalType": "個人",
       "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "Judy’s/演出/評審",
-      "structuredSummary": "Judy’s/演出/評審 / 半音階/重奏 / 演出人員/評審",
-      "summary": "臺灣的半音階與重奏演出人員與評審，活動脈絡包含Judy’s、演出與評審。",
-      "keywords": "莊筑迪 口琴 Judy",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "茱蒂口琴樂團團長/國內外公開演出逾400場/2004亞太口琴節三項冠軍/2013世界口琴節三重奏冠軍/2003起擔任全國學生音樂比賽評審/2017世界口琴節評審與演出嘉賓",
+      "structuredSummary": "茱蒂口琴樂團團長/國內外公開演出逾400場/2004亞太口琴節三項冠軍/2013世界口琴節三重奏冠軍/2003起擔任全國學生音樂比賽評審/2017世界口琴節評審與演出嘉賓 / 半音階口琴/複音口琴/十孔口琴/和弦口琴/口琴重奏 / 國際演出人員/教育者/賽事評審/樂團團長",
+      "summary": "臺灣的半音階口琴、複音口琴、十孔口琴與和弦口琴國際演出人員、教育者與賽事評審，活動脈絡包含茱蒂口琴樂團團長、國內外公開演出逾400場與2004亞太口琴節三項冠軍。",
+      "keywords": "莊筑迪 Judy Chuang 茱蒂口琴樂團 Judy's Harmonica Ensemble APHF 2004 WHF 2013 冠軍 2017 評審",
       "links": [
         {
           "label": "網站",
@@ -3746,8 +3929,13 @@
       "sourceInitials": "莊筑",
       "sourceTags": [
         "演奏者",
+        "團體樂團",
+        "比賽",
         "半音階",
-        "重奏"
+        "複音",
+        "十孔",
+        "重奏",
+        "國際交流"
       ],
       "monitorSources": [
         {
@@ -4353,12 +4541,16 @@
       "type": "個人",
       "originalType": "個人",
       "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "演出/評審",
-      "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
-      "summary": "臺灣的口琴演出人員與評審，活動脈絡包含演出與評審。",
-      "keywords": "林士傑 口琴",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "1995年起投入口琴/狂響口琴樂團與口琴愛樂集成員/1999至2001臺灣口琴節半音階獨奏與重奏獲獎/2000與2010亞太口琴節重奏及大合奏獲獎/古典、探戈與臺灣經典曲目演出/口琴收藏",
+      "structuredSummary": "1995年起投入口琴/狂響口琴樂團與口琴愛樂集成員/1999至2001臺灣口琴節半音階獨奏與重奏獲獎/2000與2010亞太口琴節重奏及大合奏獲獎/古典、探戈與臺灣經典曲目演出/口琴收藏 / 半音階口琴/口琴重奏與合奏 / 資深演出人員/樂團成員/口琴收藏家",
+      "summary": "臺灣的半音階口琴與口琴重奏與合奏資深演出人員、樂團成員與口琴收藏家，活動脈絡包含1995年起投入口琴、狂響口琴樂團與口琴愛樂集成員與1999至2001臺灣口琴節半音階獨奏與重奏獲獎。",
+      "keywords": "林士傑 Shih-Chieh Lin 半音階 狂響口琴樂團 口琴愛樂集 1999 2000 2001 2010 APHF 探戈 口琴收藏",
       "links": [
+        {
+          "label": "網站",
+          "url": "https://www.jazz9.tw/2025/05/music-20260516p.html"
+        },
         {
           "label": "Facebook",
           "url": "https://www.facebook.com/lin.shi.jie.661489"
@@ -4381,7 +4573,10 @@
       "avatarUrl": "/assets/source-avatars/c2e23c5b2da5fd37bb4e.webp",
       "sourceInitials": "林士",
       "sourceTags": [
-        "演奏者"
+        "演奏者",
+        "團體樂團",
+        "半音階",
+        "重奏"
       ],
       "monitorSources": [
         {
@@ -6828,65 +7023,6 @@
       ]
     },
     {
-      "id": "watchlist-290",
-      "publicId": "290",
-      "name": "Ivan Marcio",
-      "nameEn": "Ivan Marcio",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "巴西",
-      "region": "巴西/聖保羅",
-      "cityOrFocus": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026",
-      "structuredSummary": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026 / 十孔口琴 / 國際演出人員/教育者/製作人",
-      "summary": "巴西的十孔口琴國際演出人員、教育者與製作人，活動脈絡包含藍調口琴、Jump Blues與錄音製作。",
-      "keywords": "Ivan Marcio ivanmarciogaita Brazil blues harmonica APHF 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.aphfhx.com/information/announcementDetail/417110312852779008"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/ivanmarciogaita/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-12T13:58:59+00:00",
-      "latestUpdateLocal": "2026-08-12 21:58",
-      "latestUpdateSource": "Ivan Marcio",
-      "latestUpdateUrl": "https://www.instagram.com/p/Db8U2UYRp05/",
-      "avatarUrl": "/assets/source-avatars/ivan-marcio.jpg",
-      "sourceInitials": "IM",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_ivanmarciogaita",
-          "name": "Ivan Marcio",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "ivanmarciogaita",
-          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_ivanmarciogaita",
-          "name": "Ivan Marcio",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "ivanmarciogaita",
-          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/ivanmarciogaita/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-32",
       "publicId": "32",
       "name": "陳彥銘",
@@ -7285,6 +7421,65 @@
       ]
     },
     {
+      "id": "watchlist-145",
+      "publicId": "145",
+      "name": "Joe Marhofer / The Headcutters",
+      "nameEn": "Joe Marhofer",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "巴西",
+      "region": "巴西/聖卡塔琳娜州",
+      "cityOrFocus": "傳統 Chicago blues/The Headcutters/口琴/主唱/創團",
+      "structuredSummary": "傳統 Chicago blues/The Headcutters/口琴/主唱/創團 / 十孔口琴 / 國際演出人員/樂團創辦人",
+      "summary": "巴西的十孔口琴國際演出人員與樂團創辦人，活動脈絡包含傳統 Chicago blues、The Headcutters與口琴。",
+      "keywords": "Joe Marhofer The Headcutters Brazil harmonica blues SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.theheadcutters.com/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/theheadcutters/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-10T22:05:07+00:00",
+      "latestUpdateLocal": "2026-08-11 06:05",
+      "latestUpdateSource": "Joe Marhofer / The Headcutters",
+      "latestUpdateUrl": "https://www.instagram.com/p/Db4CulmALqy/",
+      "avatarUrl": "/assets/source-avatars/9675d65ccd82d12ab770.webp",
+      "sourceInitials": "JMT",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_theheadcutters",
+          "name": "Joe Marhofer / The Headcutters",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "theheadcutters",
+          "profileUrl": "https://www.instagram.com/theheadcutters/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/theheadcutters/story/0"
+        },
+        {
+          "id": "ig_theheadcutters",
+          "name": "Joe Marhofer / The Headcutters",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "theheadcutters",
+          "profileUrl": "https://www.instagram.com/theheadcutters/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-121",
       "publicId": "121",
       "name": "Fresco Harmonica Ensemble",
@@ -7586,11 +7781,11 @@
       "type": "個人",
       "originalType": "個人",
       "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "複音/教學/演出",
-      "structuredSummary": "複音/教學/演出 / 複音 / 演出人員",
-      "summary": "臺灣的複音演出人員，活動脈絡包含教學與演出。",
-      "keywords": "張筑婷 複音口琴",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "國際級複音口琴演奏與逾20年教學/2010亞太口琴大賽傳統與創意複音雙料冠軍/2012《東方的穹蒼》以近250把複音口琴創世界紀錄並登國家音樂廳/與管弦樂團及國樂團協奏/2018與2023首爾國際口琴節評審及嘉賓",
+      "structuredSummary": "國際級複音口琴演奏與逾20年教學/2010亞太口琴大賽傳統與創意複音雙料冠軍/2012《東方的穹蒼》以近250把複音口琴創世界紀錄並登國家音樂廳/與管弦樂團及國樂團協奏/2018與2023首爾國際口琴節評審及嘉賓 / 複音口琴/複音口琴協奏 / 國際演出人員/專職教育者/國際與全國賽事評審/專輯演奏者",
+      "summary": "臺灣的複音口琴與複音口琴協奏國際演出人員、專職教育者與國際與全國賽事評審，活動脈絡包含國際級複音口琴演奏與逾20年教學、2010亞太口琴大賽傳統與創意複音雙料冠軍與2012《東方的穹蒼》以近250把複音口琴創世界紀錄並登國家音樂廳。",
+      "keywords": "張筑婷 Chu-Ting Chang 複音口琴 APHF 雙料冠軍 250把 世界紀錄 國家音樂廳 東方的穹蒼 SIHF 評審",
       "links": [
         {
           "label": "網站",
@@ -7623,8 +7818,10 @@
       "sourceInitials": "張筑",
       "sourceTags": [
         "演奏者",
+        "團體樂團",
         "教學",
-        "複音"
+        "複音",
+        "國際交流"
       ],
       "monitorSources": [
         {
@@ -10000,15 +10197,15 @@
       "type": "團體",
       "originalType": "團體",
       "country": "荷蘭",
-      "region": "荷蘭",
-      "cityOrFocus": "口琴四重奏/與天狼星合作",
-      "structuredSummary": "口琴四重奏/與天狼星合作 / 口琴四重奏 / 國際演出團體",
-      "summary": "荷蘭的口琴四重奏國際演出團體，活動脈絡包含與天狼星合作。",
-      "keywords": "Fata Morgana harmonica quartet",
+      "region": "荷蘭/埃因霍溫/國際",
+      "cityOrFocus": "1980年成立的荷蘭口琴四重奏/歐洲、美國與亞洲逾400場演出/五度參與國際口琴節競賽並三度奪團體冠軍/自編曲與自有擴音系統/發行多張專輯/與天狼星口琴樂團合作交流",
+      "structuredSummary": "1980年成立的荷蘭口琴四重奏/歐洲、美國與亞洲逾400場演出/五度參與國際口琴節競賽並三度奪團體冠軍/自編曲與自有擴音系統/發行多張專輯/與天狼星口琴樂團合作交流 / 半音階口琴/和弦口琴/低音口琴/Harmonetta/口琴四重奏 / 國際演出團體/編曲與錄音團隊/世界口琴節冠軍團體",
+      "summary": "荷蘭的半音階口琴、和弦口琴、低音口琴與Harmonetta國際演出團體、編曲與錄音團隊與世界口琴節冠軍團體，活動脈絡包含1980年成立的荷蘭口琴四重奏、歐洲與美國與亞洲逾400場演出。",
+      "keywords": "Fata Morgana harmonica quartet Netherlands Eindhoven 1980 400 concerts world champion chromatic chord bass harmonetta WHF Sirius",
       "links": [
         {
           "label": "網站",
-          "url": "https://fatamorganamusic.nl/"
+          "url": "https://fatamorganamusic.nl/over-ons/"
         },
         {
           "label": "Facebook",
@@ -10029,6 +10226,7 @@
       "sourceInitials": "FM",
       "sourceTags": [
         "團體樂團",
+        "半音階",
         "重奏",
         "國際交流"
       ],
@@ -10396,11 +10594,11 @@
       "type": "個人",
       "originalType": "個人",
       "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "狂響/複音/教學演出",
-      "structuredSummary": "狂響/複音/教學演出 / 複音 / 演出人員/教學者",
-      "summary": "臺灣的複音演出人員與教學者，活動脈絡包含狂響與教學演出。",
-      "keywords": "歐純伶 口琴",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "狂響口琴樂團成員與專職口琴教師/逾十年中小學及成人教育教學/2008全球華人HOHNER盃三重奏冠軍與SUZUKI盃複音獨奏冠軍/2012亞太口琴節複音獨奏與伴奏新秀雙冠/2016韓國口琴節與2023至2025臺灣口琴音樂大賽評審及演出",
+      "structuredSummary": "狂響口琴樂團成員與專職口琴教師/逾十年中小學及成人教育教學/2008全球華人HOHNER盃三重奏冠軍與SUZUKI盃複音獨奏冠軍/2012亞太口琴節複音獨奏與伴奏新秀雙冠/2016韓國口琴節與2023至2025臺灣口琴音樂大賽評審及演出 / 複音口琴/口琴重奏與合奏 / 演出人員/專職教育者/賽事評審/狂響口琴樂團成員",
+      "summary": "臺灣的複音口琴與口琴重奏與合奏演出人員、專職教育者與賽事評審，活動脈絡包含狂響口琴樂團成員與專職口琴教師、逾十年中小學及成人教育教學與2008全球華人HOHNER盃三重奏冠軍與SUZUKI盃複音獨奏冠軍。",
+      "keywords": "歐純伶 Chun-Ling Ou 狂響口琴樂團 複音 HOHNER SUZUKI APHF 雙料冠軍 韓國口琴節 THMF 評審 教學",
       "links": [
         {
           "label": "網站",
@@ -10421,8 +10619,10 @@
       "sourceInitials": "歐純",
       "sourceTags": [
         "演奏者",
+        "團體樂團",
         "教學",
-        "複音"
+        "複音",
+        "重奏"
       ],
       "monitorSources": [
         {
@@ -11996,15 +12196,15 @@
       "type": "個人",
       "originalType": "個人",
       "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "演出/評審",
-      "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
-      "summary": "臺灣的口琴演出人員與評審，活動脈絡包含演出與評審。",
-      "keywords": "邱榮東 口琴",
+      "region": "臺灣/臺北/新北/基隆",
+      "cityOrFocus": "十孔口琴演奏與一對一教學/1999、2001、2003臺灣口琴節十孔組冠軍/2000臺灣口琴節十孔組亞軍/藍調、鄉村、愛爾蘭、爵士與流行曲風/2017世界口琴節參賽觀摩",
+      "structuredSummary": "十孔口琴演奏與一對一教學/1999、2001、2003臺灣口琴節十孔組冠軍/2000臺灣口琴節十孔組亞軍/藍調、鄉村、愛爾蘭、爵士與流行曲風/2017世界口琴節參賽觀摩 / 十孔口琴/藍調口琴 / 演出人員/教育者/臺灣口琴節得獎者",
+      "summary": "臺灣的十孔口琴與藍調口琴演出人員、教育者與臺灣口琴節得獎者，活動脈絡包含十孔口琴演奏與一對一教學、1999與2001。",
+      "keywords": "邱榮東 Rong-Dong Chiu 老頭 十孔口琴 藍調 臺灣口琴節 冠軍 1999 2001 2003 WHF 2017 教學",
       "links": [
         {
           "label": "網站",
-          "url": "https://www.accupass.com/event/1810091157011422080229"
+          "url": "https://bonbonmusic.com/course/view_course/115"
         },
         {
           "label": "YouTube",
@@ -12020,7 +12220,9 @@
       "avatarUrl": "/assets/source-avatars/2abf4463e57d6e99fee0.webp",
       "sourceInitials": "邱榮",
       "sourceTags": [
-        "演奏者"
+        "演奏者",
+        "教學",
+        "十孔"
       ],
       "monitorSources": [
         {
@@ -15665,6 +15867,60 @@
       ]
     },
     {
+      "id": "watchlist-35",
+      "publicId": "35",
+      "name": "陳奕翔",
+      "nameEn": "Yi-Hsiang Chen",
+      "category": "學校社團",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "天狼星口琴樂團半音階口琴手/2008年加入天狼星/國北師芝山口琴社與成功大學口琴社教學/北師附小口琴社指導/亞太、全國與重奏賽獲獎/隨團參與世界與國際口琴節演出",
+      "structuredSummary": "天狼星口琴樂團半音階口琴手/2008年加入天狼星/國北師芝山口琴社與成功大學口琴社教學/北師附小口琴社指導/亞太、全國與重奏賽獲獎/隨團參與世界與國際口琴節演出 / 半音階口琴/口琴重奏 / 演出人員/學校社團指導/天狼星口琴樂團成員",
+      "summary": "臺灣的半音階口琴與口琴重奏演出人員、學校社團指導與天狼星口琴樂團成員。",
+      "keywords": "陳奕翔 陳Q Yi-Hsiang Chen 天狼星口琴樂團 半音階 2008 APHF WHF 重奏 教學",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://mx.nthu.edu.tw/~ymchen/sirius/QQ.htm"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/aria0831/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/d46fbb9d85a14ff41269.webp",
+      "sourceInitials": "陳奕",
+      "sourceTags": [
+        "學生社團",
+        "大專社團",
+        "團體樂團",
+        "演奏者",
+        "教學",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_aria0831",
+          "name": "陳奕翔",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/aria0831",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-298",
       "publicId": "298",
       "name": "香港兒童合唱團口琴課程",
@@ -16062,65 +16318,6 @@
           "username": "harmonica_addict",
           "profileUrl": "https://www.instagram.com/harmonica_addict/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_addict/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-229",
-      "publicId": "229",
-      "name": "Hohner Harmonica",
-      "nameEn": "Hohner Harmonica",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "品牌/樂器製造商",
-      "country": "德國",
-      "region": "德國/國際",
-      "cityOrFocus": "口琴製造/產品資訊/演奏推廣/國際社群",
-      "structuredSummary": "口琴製造/產品資訊/演奏推廣/國際社群 / 口琴 / 器材品牌",
-      "summary": "德國的口琴器材品牌，關注口琴製造、產品資訊、演奏推廣與國際社群。",
-      "keywords": "Hohner Harmonica HOHNER 口琴 品牌 德國",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/hohnermusic"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hohnerharmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/ed13f3775f3751df1d84.webp",
-      "sourceInitials": "HH",
-      "sourceTags": [
-        "品牌",
-        "教學器材",
-        "教學",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_hohnerharmonica",
-          "name": "Hohner Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hohnerharmonica",
-          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hohnerharmonica",
-          "name": "Hohner Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hohnerharmonica",
-          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerharmonica/story/0"
         }
       ]
     },
@@ -17859,65 +18056,6 @@
       ]
     },
     {
-      "id": "watchlist-145",
-      "publicId": "145",
-      "name": "Joe Marhofer / The Headcutters",
-      "nameEn": "Joe Marhofer",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "巴西",
-      "region": "巴西/聖卡塔琳娜州",
-      "cityOrFocus": "傳統 Chicago blues/The Headcutters/口琴/主唱/創團",
-      "structuredSummary": "傳統 Chicago blues/The Headcutters/口琴/主唱/創團 / 十孔口琴 / 國際演出人員/樂團創辦人",
-      "summary": "巴西的十孔口琴國際演出人員與樂團創辦人，活動脈絡包含傳統 Chicago blues、The Headcutters與口琴。",
-      "keywords": "Joe Marhofer The Headcutters Brazil harmonica blues SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.theheadcutters.com/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/theheadcutters/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/9675d65ccd82d12ab770.webp",
-      "sourceInitials": "JMT",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_theheadcutters",
-          "name": "Joe Marhofer / The Headcutters",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "theheadcutters",
-          "profileUrl": "https://www.instagram.com/theheadcutters/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/theheadcutters/story/0"
-        },
-        {
-          "id": "ig_theheadcutters",
-          "name": "Joe Marhofer / The Headcutters",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "theheadcutters",
-          "profileUrl": "https://www.instagram.com/theheadcutters/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-129",
       "publicId": "129",
       "name": "Kangsoo Lee 이강수",
@@ -18955,65 +19093,6 @@
       ]
     },
     {
-      "id": "watchlist-260",
-      "publicId": "260",
-      "name": "梁芷菁 Steffi Leung",
-      "nameEn": "Steffi Leung",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends",
-      "structuredSummary": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends / 半音階 / 國際演出人員",
-      "summary": "香港的半音階國際演出人員，活動脈絡包含國際賽事、電台主持與Adventure Harmonica Band。",
-      "keywords": "梁芷菁 Steffi Leung harmonicist Adventure Harmonica WHF APHF SIHF THMF 2025 世界口琴節 二重奏冠軍 Steffi and Friends 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.steffileung.com/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/steffi.leung/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/52a4b73c8228268435e3.webp",
-      "sourceInitials": "SL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_steffi_leung",
-          "name": "梁芷菁 Steffi Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "steffi.leung",
-          "profileUrl": "https://www.instagram.com/steffi.leung/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_steffi_leung",
-          "name": "梁芷菁 Steffi Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "steffi.leung",
-          "profileUrl": "https://www.instagram.com/steffi.leung/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/steffi.leung/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-306",
       "publicId": "306",
       "name": "楊樂",
@@ -19455,54 +19534,6 @@
         "工作室",
         "十孔",
         "國際交流"
-      ]
-    },
-    {
-      "id": "watchlist-35",
-      "publicId": "35",
-      "name": "陳奕翔",
-      "nameEn": "Yi-Hsiang Chen",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星系",
-      "structuredSummary": "天狼星系 / 口琴/重奏 / 演出人員",
-      "summary": "臺灣的口琴與重奏演出人員，活動脈絡包含天狼星系。",
-      "keywords": "陳奕翔 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://mx.nthu.edu.tw/~ymchen/sirius/QQ.htm"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/aria0831/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/d46fbb9d85a14ff41269.webp",
-      "sourceInitials": "陳奕",
-      "sourceTags": [
-        "演奏者",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_aria0831",
-          "name": "陳奕翔",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/aria0831",
-          "feedUrl": ""
-        }
       ]
     },
     {

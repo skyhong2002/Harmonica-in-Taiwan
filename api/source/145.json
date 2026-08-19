@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T23:10:42.864890Z",
+  "generatedAt": "2026-08-19T23:23:17.850557Z",
   "source": {
     "id": 145,
     "slug": "joe-marhofer",
     "name": "Joe Marhofer / The Headcutters",
     "pageUrl": "https://harmonica.observe.tw/source/145-joe-marhofer/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-95090eb794b402728c9fc892",
+      "title": "O blues vai tomar conta do Backstage mais uma vez! 🎸🍻",
+      "excerpt": "O blues vai tomar conta do Backstage mais uma vez! 🎸🍻 Dia 23/08 tem a 2ª edição do BACK'N BLUES FESTIVAL, reunindo três grandes nomes da cena catarinense em um domingo inteiro dedicado ao gênero. 🎵 No palco: The Headcutters, uma das maiores referências do blues brasileiro e reco…",
+      "url": "https://www.instagram.com/p/Db4CulmALqy/",
+      "sourceName": "Joe Marhofer / The Headcutters",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-10T22:05:07Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/fc30f755324980eafdaa.webp",
+        "width": 800,
+        "height": 1000
+      }
+    }
+  ]
 }

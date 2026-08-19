@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 19 Aug 2026 23:10:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 23:23:19 +0000</lastBuildDate>
+    <item>
+      <title>梁芷菁 Steffi Leung</title>
+      <link>https://www.steffileung.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/fad4589612571bfc</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、重奏、國際交流
+國家：香港
+地區：香港
+香港的半音階國際演出人員，活動脈絡包含國際賽事、電台主持與Adventure Harmonica Band。</description>
+    </item>
     <item>
       <title>Jong-seong Park 朴鍾聲</title>
       <link>https://www.mnac.co.kr/jongseongpark</link>
@@ -52,14 +63,14 @@ Tag：演奏者、半音階、國際交流
     </item>
     <item>
       <title>梁承熹 Kelvin Leung</title>
-      <link>https://harmonica-kelvin.weebly.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/fbf9a193b1b32198</guid>
+      <link>https://harmonica-kelvin.weebly.com/biography.html</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/2e46693fddbda9d4</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
+      <description>分類：活動資訊
+Tag：活動資訊、團體樂團、演奏者、音樂節、半音階、重奏、國際交流
 國家：香港
 地區：香港
-香港半音階口琴演奏者，活躍於國際音樂節演出交流。</description>
+香港的國際演出人員、教育者與國際賽事評審，涵蓋英皇書院口琴隊出身、2012亞太口琴節六重奏冠軍、2013世界口琴節半音階獨奏與大合奏冠軍及團體季軍、2014亞太口琴節半音階公開組冠軍與2010上海世博與國際音樂節演出。</description>
     </item>
     <item>
       <title>Aiden N Evelyn / Aiden Soon &amp; Evelyn Choong</title>
@@ -183,6 +194,17 @@ Tag：演奏者、十孔、國際交流
 西班牙的十孔國際演出人員，活動脈絡包含藍調與SIHF 2026。</description>
     </item>
     <item>
+      <title>Hohner Harmonica</title>
+      <link>https://linktr.ee/hohnermusic</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/d9c6a4923feb0951</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：品牌、教學器材、教學、國際交流
+國家：德國
+地區：德國/國際
+德國的口琴器材品牌，關注口琴製造、產品資訊、演奏推廣與國際社群。</description>
+    </item>
+    <item>
       <title>陳瑤容 Yora Chen</title>
       <link>https://portaly.cc/YoraChen</link>
       <guid>https://harmonica.observe.tw/feeds/sources/13f74469b6747459</guid>
@@ -214,6 +236,17 @@ Tag：演奏者、教學、十孔、國際交流
 國家：阿根廷
 地區：阿根廷
 阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。</description>
+    </item>
+    <item>
+      <title>山下伶 Rei Yamashita</title>
+      <link>https://www.rei-yamashita.com/profile/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/734a3640821742d8</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、半音階、國際交流
+國家：日本
+地區：日本/東京/橫濱
+日本的半音階口琴與爵士口琴國際演出人員、教育者與錄音藝術家，活動脈絡包含專業半音階口琴演奏與教學、師承德永延生與2014第34屆FIH JAPAN口琴大賽總冠軍。</description>
     </item>
     <item>
       <title>黃冠誌</title>
@@ -258,17 +291,6 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/臺中
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
-    </item>
-    <item>
-      <title>山下伶 Rei Yamashita</title>
-      <link>https://rei-yamashita.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/73ea70df7bfa56f3</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、國際交流
-國家：日本
-地區：日本
-日本的半音階國際演出人員，活動脈絡包含專輯與演出。</description>
     </item>
     <item>
       <title>吳采容</title>
@@ -426,14 +448,25 @@ Tag：場館平台
     </item>
     <item>
       <title>陳鴻儀</title>
-      <link>https://kcu.twcu.org.tw/course/m_course_detail.php?u=4013fdf883f0693776163d05097c79be</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/49b1bf57125f847c</guid>
+      <link>https://kcu.twcu.org.tw/course/m_course_detail.php?u=f5fbc46e1198f1d957519223b6068dc8</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/f746f35737f921f8</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <description>分類：演奏者
-Tag：演奏者、演出
+Tag：演奏者、教學、比賽、半音階、複音、十孔、重奏
 國家：臺灣
-地區：臺灣
-口琴演奏家，專注於演出與評審工作。</description>
+地區：臺灣/基隆/宜蘭
+臺灣的複音口琴、十孔口琴、半音階口琴與口琴重奏與合奏演出人員、評審與教育者，活動脈絡包含複音口琴演奏與編曲、多次全國學生音樂比賽與亞太口琴節評審與曾任基隆市口琴協會理事長。</description>
+    </item>
+    <item>
+      <title>Ivan Marcio</title>
+      <link>https://www.aphfhx.com/information/announcementDetail/417110312852779008</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/bf8fd9d5a3d4b817</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、十孔、國際交流
+國家：巴西
+地區：巴西/聖保羅
+巴西的十孔口琴國際演出人員、教育者與製作人，活動脈絡包含藍調口琴、Jump Blues與錄音製作。</description>
     </item>
     <item>
       <title>口琴愛好者協會（新加坡）</title>
@@ -518,10 +551,10 @@ Tag：團體樂團、半音階、複音、重奏、國際交流
       <guid>https://harmonica.observe.tw/feeds/sources/92f6564235bea5fb</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <description>分類：演奏者
-Tag：演奏者、半音階、重奏
+Tag：演奏者、團體樂團、比賽、半音階、複音、十孔、重奏、國際交流
 國家：臺灣
-地區：臺灣
-臺灣的半音階與重奏演出人員與評審，活動脈絡包含Judy’s、演出與評審。</description>
+地區：臺灣/臺北
+臺灣的半音階口琴、複音口琴、十孔口琴與和弦口琴國際演出人員、教育者與賽事評審，活動脈絡包含茱蒂口琴樂團團長、國內外公開演出逾400場與2004亞太口琴節三項冠軍。</description>
     </item>
     <item>
       <title>Gregoire Maret</title>
@@ -602,14 +635,14 @@ Tag：品牌、器材、活動資訊、音樂節、國際交流
     </item>
     <item>
       <title>林士傑</title>
-      <link>https://www.facebook.com/lin.shi.jie.661489</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/a20d61bd03035c39</guid>
+      <link>https://www.jazz9.tw/2025/05/music-20260516p.html</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/a0fbd369a5b273cc</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <description>分類：演奏者
-Tag：演奏者
+Tag：演奏者、團體樂團、半音階、重奏
 國家：臺灣
-地區：臺灣
-臺灣的口琴演出人員與評審，活動脈絡包含演出與評審。</description>
+地區：臺灣/臺北
+臺灣的半音階口琴與口琴重奏與合奏資深演出人員、樂團成員與口琴收藏家，活動脈絡包含1995年起投入口琴、狂響口琴樂團與口琴愛樂集成員與1999至2001臺灣口琴節半音階獨奏與重奏獲獎。</description>
     </item>
     <item>
       <title>Boris Plotnikov</title>
@@ -942,17 +975,6 @@ Tag：演奏者、半音階、重奏、國際交流、比賽
 臺灣半音階口琴演奏者，2025 世界口琴節獲公開組冠軍，並參與 111 Duo、Trio 與 Quintet。</description>
     </item>
     <item>
-      <title>Ivan Marcio</title>
-      <link>https://www.aphfhx.com/information/announcementDetail/417110312852779008</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/bf8fd9d5a3d4b817</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學、十孔、國際交流
-國家：巴西
-地區：巴西/聖保羅
-巴西的十孔口琴國際演出人員、教育者與製作人，活動脈絡包含藍調口琴、Jump Blues與錄音製作。</description>
-    </item>
-    <item>
       <title>陳彥銘</title>
       <link>https://mx.nthu.edu.tw/~ymchen/sirius/CT.htm</link>
       <guid>https://harmonica.observe.tw/feeds/sources/294a4e588c327308</guid>
@@ -1008,6 +1030,17 @@ Tag：團體樂團
 臺灣的口琴與跨界演出團體，活動脈絡包含流行與李讓相關。</description>
     </item>
     <item>
+      <title>Joe Marhofer / The Headcutters</title>
+      <link>https://www.theheadcutters.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/d04f49c8422f746b</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、團體樂團、十孔、國際交流
+國家：巴西
+地區：巴西/聖卡塔琳娜州
+巴西的十孔口琴國際演出人員與樂團創辦人，活動脈絡包含傳統 Chicago blues、The Headcutters與口琴。</description>
+    </item>
+    <item>
       <title>Fresco Harmonica Ensemble</title>
       <link>https://www.instagram.com/frescoharmonica/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/b34f766c07b175a3</guid>
@@ -1057,10 +1090,10 @@ Tag：活動資訊、團體樂團、演奏者、音樂節、十孔、國際交�
       <guid>https://harmonica.observe.tw/feeds/sources/7ee1f3201dc81411</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <description>分類：演奏者
-Tag：演奏者、教學、複音
+Tag：演奏者、團體樂團、教學、複音、國際交流
 國家：臺灣
-地區：臺灣
-臺灣的複音演出人員，活動脈絡包含教學與演出。</description>
+地區：臺灣/臺北
+臺灣的複音口琴與複音口琴協奏國際演出人員、專職教育者與國際與全國賽事評審，活動脈絡包含國際級複音口琴演奏與逾20年教學、2010亞太口琴大賽傳統與創意複音雙料冠軍與2012《東方的穹蒼》以近250把複音口琴創世界紀錄並登國家音樂廳。</description>
     </item>
     <item>
       <title>中山醫藍韻口琴社</title>
@@ -1416,14 +1449,14 @@ Tag：演奏者、半音階、重奏、國際交流
     </item>
     <item>
       <title>Fata Morgana 口琴四重奏</title>
-      <link>https://fatamorganamusic.nl/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/42bf3c5c9f0fc08b</guid>
+      <link>https://fatamorganamusic.nl/over-ons/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/90400bbe99b89203</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <description>分類：團體樂團
-Tag：團體樂團、重奏、國際交流
+Tag：團體樂團、半音階、重奏、國際交流
 國家：荷蘭
-地區：荷蘭
-荷蘭的口琴四重奏國際演出團體，活動脈絡包含與天狼星合作。</description>
+地區：荷蘭/埃因霍溫/國際
+荷蘭的半音階口琴、和弦口琴、低音口琴與Harmonetta國際演出團體、編曲與錄音團隊與世界口琴節冠軍團體，活動脈絡包含1980年成立的荷蘭口琴四重奏、歐洲與美國與亞洲逾400場演出。</description>
     </item>
     <item>
       <title>陳晟禕</title>
@@ -1497,10 +1530,10 @@ Tag：演奏者、合奏
       <guid>https://harmonica.observe.tw/feeds/sources/aa647fb16a2754a4</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <description>分類：演奏者
-Tag：演奏者、教學、複音
+Tag：演奏者、團體樂團、教學、複音、重奏
 國家：臺灣
-地區：臺灣
-臺灣的複音演出人員與教學者，活動脈絡包含狂響與教學演出。</description>
+地區：臺灣/臺北
+臺灣的複音口琴與口琴重奏與合奏演出人員、專職教育者與賽事評審，活動脈絡包含狂響口琴樂團成員與專職口琴教師、逾十年中小學及成人教育教學與2008全球華人HOHNER盃三重奏冠軍與SUZUKI盃複音獨奏冠軍。</description>
     </item>
     <item>
       <title>香港中華基督教青年會口琴樂團</title>
@@ -1724,14 +1757,14 @@ Tag：學生社團、大專社團
     </item>
     <item>
       <title>邱榮東</title>
-      <link>https://www.accupass.com/event/1810091157011422080229</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/19c7980197ad6008</guid>
+      <link>https://bonbonmusic.com/course/view_course/115</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/7f2bf2e421862b0f</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <description>分類：演奏者
-Tag：演奏者
+Tag：演奏者、教學、十孔
 國家：臺灣
-地區：臺灣
-臺灣的口琴演出人員與評審，活動脈絡包含演出與評審。</description>
+地區：臺灣/臺北/新北/基隆
+臺灣的十孔口琴與藍調口琴演出人員、教育者與臺灣口琴節得獎者，活動脈絡包含十孔口琴演奏與一對一教學、1999與2001。</description>
     </item>
     <item>
       <title>銘傳大學銘心口琴社</title>
@@ -2559,6 +2592,17 @@ Tag：學生社團、大專社團、半音階
 日本的半音階口琴、四類合奏口琴、長笛與手風琴大學學生社團與跨編制口琴Big Band。</description>
     </item>
     <item>
+      <title>陳奕翔</title>
+      <link>https://mx.nthu.edu.tw/~ymchen/sirius/QQ.htm</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/1ab18f023d43a333</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：學校社團
+Tag：學生社團、大專社團、團體樂團、演奏者、教學、半音階、重奏、國際交流
+國家：臺灣
+地區：臺灣/新竹
+臺灣的半音階口琴與口琴重奏演出人員、學校社團指導與天狼星口琴樂團成員。</description>
+    </item>
+    <item>
       <title>香港兒童合唱團口琴課程</title>
       <link>https://hkcchoir.org.hk/en/instrumental-programme</link>
       <guid>https://harmonica.observe.tw/feeds/sources/88afcc2c63af0bc5</guid>
@@ -2634,17 +2678,6 @@ Tag：教學器材、演奏者、教學、半音階
 國家：香港
 地區：香港
 香港的半音階口琴演出人員與教育者，關注半音階、現代爵士、教學與教材。</description>
-    </item>
-    <item>
-      <title>Hohner Harmonica</title>
-      <link>https://linktr.ee/hohnermusic</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/d9c6a4923feb0951</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：品牌、教學器材、教學、國際交流
-國家：德國
-地區：德國/國際
-德國的口琴器材品牌，關注口琴製造、產品資訊、演奏推廣與國際社群。</description>
     </item>
     <item>
       <title>Into The Harmonica 口琴學院</title>
@@ -3054,17 +3087,6 @@ Tag：演奏者、十孔、國際交流
 菲律賓的十孔口琴國際演出人員與錄音樂手，活動脈絡包含藍調口琴、錄音與電影配樂與Ian Lofamia Band。</description>
     </item>
     <item>
-      <title>Joe Marhofer / The Headcutters</title>
-      <link>https://www.theheadcutters.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/d04f49c8422f746b</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、團體樂團、十孔、國際交流
-國家：巴西
-地區：巴西/聖卡塔琳娜州
-巴西的十孔口琴國際演出人員與樂團創辦人，活動脈絡包含傳統 Chicago blues、The Headcutters與口琴。</description>
-    </item>
-    <item>
       <title>Kangsoo Lee 이강수</title>
       <link>https://hohner.de/en/service/harmonica/hohner-service-technicians</link>
       <guid>https://harmonica.observe.tw/feeds/sources/862398bdbb75d379</guid>
@@ -3318,17 +3340,6 @@ Tag：演奏者、半音階、國際交流
 香港的半音階國際演出人員、口琴教師與音樂製作人，活動脈絡包含Perfect Fourth、音樂製作與錄音與2023 香港國際半音階口琴大賽冠軍。</description>
     </item>
     <item>
-      <title>梁芷菁 Steffi Leung</title>
-      <link>https://www.steffileung.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/fad4589612571bfc</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、半音階、重奏、國際交流
-國家：香港
-地區：香港
-香港的半音階國際演出人員，活動脈絡包含國際賽事、電台主持與Adventure Harmonica Band。</description>
-    </item>
-    <item>
       <title>楊樂</title>
       <link>https://www.sonymusic.com.tw/album/le-yang-talking-to-myself-1/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/3826794456bcca13</guid>
@@ -3426,17 +3437,6 @@ Tag：演奏者、教學、工作室、十孔、國際交流
 國家：中國
 地區：中國
 中國的十孔口琴國際演出人員、教師與專業調音師，活動脈絡包含十孔口琴演奏、APHF 2018 公開組冠軍與SIHF 2024 亞軍。</description>
-    </item>
-    <item>
-      <title>陳奕翔</title>
-      <link>https://mx.nthu.edu.tw/~ymchen/sirius/QQ.htm</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/1ab18f023d43a333</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、重奏
-國家：臺灣
-地區：臺灣
-臺灣的口琴與重奏演出人員，活動脈絡包含天狼星系。</description>
     </item>
     <item>
       <title>陳聰</title>
