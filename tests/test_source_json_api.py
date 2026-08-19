@@ -155,6 +155,25 @@ class SourceJsonApiTests(unittest.TestCase):
             page,
         )
 
+    def test_stale_generated_source_slug_is_removed_without_touching_facets(self):
+        with tempfile.TemporaryDirectory() as temp_dir:
+            site_root = Path(temp_dir)
+            source_root = site_root / "source"
+            stale = source_root / "198-old-expanded-name"
+            canonical = source_root / "198-bamboo-melody-harmonica-club"
+            facet = source_root / "category" / "學校社團"
+            for path in (stale, canonical, facet):
+                path.mkdir(parents=True)
+                (path / "index.html").write_text("generated", encoding="utf-8")
+
+            with mock.patch.object(seo, "SITE_ROOT", site_root):
+                removed = seo.remove_stale_source_page_outputs([self.entry])
+
+            self.assertEqual(removed, [stale])
+            self.assertFalse(stale.exists())
+            self.assertTrue(canonical.exists())
+            self.assertTrue(facet.exists())
+
 
 if __name__ == "__main__":
     unittest.main()

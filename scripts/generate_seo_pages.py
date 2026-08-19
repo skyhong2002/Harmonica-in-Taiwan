@@ -2079,6 +2079,32 @@ def normalize_site_html() -> None:
             path.write_text(updated, encoding="utf-8")
 
 
+def remove_stale_source_page_outputs(entries: list[dict[str, Any]]) -> list[Path]:
+    """Remove obsolete generated source slugs while preserving facets and static pages."""
+
+    source_root = SITE_ROOT / "source"
+    if not source_root.exists():
+        return []
+
+    expected_dirs: set[str] = set()
+    for entry in entries:
+        entry_id = clean(entry.get("id"))
+        public_id = source_public_id(entry)
+        if not entry_id or not public_id:
+            continue
+        expected_dirs.update({make_slug(entry), entry_id, public_id})
+
+    removed: list[Path] = []
+    for path in source_root.iterdir():
+        if not path.is_dir() or not re.match(r"^\d+(?:-|$)", path.name):
+            continue
+        if path.name in expected_dirs:
+            continue
+        shutil.rmtree(path)
+        removed.append(path)
+    return removed
+
+
 def main() -> int:
     # 1. Load data
     try:
@@ -2121,6 +2147,7 @@ def main() -> int:
     # 2. Pre-render Source Pages
     source_groups = source_facet_groups(entries)
     source_count = 0
+    stale_source_pages = remove_stale_source_page_outputs(entries)
     if SOURCE_API_DIR.exists():
         shutil.rmtree(SOURCE_API_DIR)
     SOURCE_API_DIR.mkdir(parents=True, exist_ok=True)
@@ -2219,6 +2246,7 @@ def main() -> int:
 
     print(f"SEO Pre-rendering completed:")
     print(f" - Generated {source_count} source pages under /source/<id>/")
+    print(f" - Removed {len(stale_source_pages)} stale source page outputs")
     print(f" - Generated {source_facet_count} source facet pages under /source/<facet>/<value>/")
     print(f" - Generated {event_count} event pages under /event/<id>/")
     print(f" - Generated {score_cat_count} score category pages under /scores/<category>/")
