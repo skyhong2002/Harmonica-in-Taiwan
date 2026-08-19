@@ -54,6 +54,11 @@ PROFILE_ID_ALIASES = {
         "Chishu Huang",
         "Project X",
     ),
+    "yt_seoulharmonicaorchestra": (
+        "Seoul BLUE Harmonica Ensemble",
+        "Seoul RED Harmonica Ensemble",
+        "Seoul THE DREAM Harmonica Orchestra",
+    ),
     "ig_whf_world_harmonica_festival": (
         "Kitauji Sextet",
         "Resonance Storm",
@@ -72,6 +77,12 @@ PROFILE_ID_ALIASES = {
         "傅泓亮",
         "中國大眾音協口琴樂團",
         "無錫市人民政府（亞太口琴藝術週資訊）",
+        "Tony Eyers",
+        "Ivan Marcio",
+        "Angelberto Pibe Árcega",
+        "Julien Cormier",
+        "Michał Kielak",
+        "Ian Lofamia",
     ),
     "manual_china_harmonica_committee": (
         "中國大眾音樂協會口琴考級網",
