@@ -3413,10 +3413,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "重奏/公演/教育推廣/2026 琴韻東坡・簧鳴西南",
-      "structuredSummary": "重奏/公演/教育推廣/2026 琴韻東坡・簧鳴西南 / 口琴重奏/合奏 / 演出團體",
-      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含重奏、公演與教育推廣。",
-      "keywords": "Judy's Harmonica Ensemble 茱蒂口琴樂團 琴韻東坡 簧鳴西南 2026",
+      "cityOrFocus": "口琴重奏與教育推廣/2002起參與亞太口琴節/2026 APHF三場音樂會與重奏講座/第二屆海峽兩岸蕉城文化週專場/琴韻東坡・簧鳴西南",
+      "structuredSummary": "口琴重奏與教育推廣/2002起參與亞太口琴節/2026 APHF三場音樂會與重奏講座/第二屆海峽兩岸蕉城文化週專場/琴韻東坡・簧鳴西南 / 半音階口琴/複音口琴/和弦口琴/低音口琴 / 國際演出團體/重奏教育與講座/兩岸交流",
+      "summary": "臺灣的半音階口琴、複音口琴、和弦口琴與低音口琴國際演出團體、重奏教育與講座與兩岸交流，活動脈絡包含口琴重奏與教育推廣、2002起參與亞太口琴節與2026 APHF三場音樂會與重奏講座。",
+      "keywords": "Judy's Harmonica Ensemble 茱蒂口琴樂團 APHF 2026 海峽兩岸 蕉城 重奏講座 琴韻東坡 簧鳴西南",
       "links": [
         {
           "label": "網站",
@@ -3449,7 +3449,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "JSH",
       "sourceTags": [
         "團體樂團",
-        "重奏"
+        "半音階",
+        "複音",
+        "重奏",
+        "國際交流"
       ],
       "monitorSources": [
         {
@@ -16818,6 +16821,41 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-312",
+      "publicId": "312",
+      "name": "「天鵝自由呼吸」寧波口琴節",
+      "nameEn": "Swan Free Breathing Ningbo Harmonica Festival",
+      "category": "活動資訊",
+      "type": "協會",
+      "originalType": "活動/資訊入口",
+      "country": "中國",
+      "region": "中國/浙江/寧波",
+      "cityOrFocus": "2026年6月28日/三場口琴音樂活動/精品音樂沙龍/城市口琴聯盟交流/紀念石人望誕辰120周年音樂會",
+      "structuredSummary": "2026年6月28日/三場口琴音樂活動/精品音樂沙龍/城市口琴聯盟交流/紀念石人望誕辰120周年音樂會 / 半音階口琴/複音口琴/口琴合奏 / 中國地方口琴節/音樂會與交流活動來源",
+      "summary": "中國的中國地方口琴節與音樂會與交流活動來源，涵蓋2026年6月28日、三場口琴音樂活動、精品音樂沙龍、城市口琴聯盟交流與紀念石人望誕辰120周年音樂會。",
+      "keywords": "天鵝自由呼吸 宁波口琴节 Swan Free Breathing Ningbo Harmonica Festival 2026 石人望 孟偉華 楊晟 安貴林 毛哲川",
+      "links": [
+        {
+          "label": "網站",
+          "url": "http://www.cmia.com.cn/qydt/11674.html"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/ningbo-harmonica-festival.jpg",
+      "sourceInitials": "天鵝",
+      "sourceTags": [
+        "協會",
+        "活動資訊",
+        "半音階",
+        "複音"
+      ]
+    },
+    {
       "id": "watchlist-244",
       "publicId": "244",
       "name": "「琴溯伏羲・律動天水」口琴藝術展演",
@@ -17071,6 +17109,43 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "複音",
         "十孔",
+        "重奏"
+      ]
+    },
+    {
+      "id": "watchlist-313",
+      "publicId": "313",
+      "name": "第二屆海峽兩岸（蕉城）口琴文化週",
+      "nameEn": "2nd Cross-Strait Jiaocheng Harmonica Culture Week",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
+      "country": "中國",
+      "region": "中國/福建/寧德/蕉城",
+      "cityOrFocus": "2026年7月20日開幕/兩岸口琴樂團交流/天狼星與茱蒂專場/口琴擂台賽/百人合奏/公益與閩東文化探訪",
+      "structuredSummary": "2026年7月20日開幕/兩岸口琴樂團交流/天狼星與茱蒂專場/口琴擂台賽/百人合奏/公益與閩東文化探訪 / 半音階口琴/複音口琴/口琴重奏與合奏 / 兩岸口琴文化交流活動/音樂會與賽事資訊來源",
+      "summary": "中國的兩岸口琴文化交流活動與音樂會與賽事資訊來源，涵蓋2026年7月20日開幕、兩岸口琴樂團交流、天狼星與茱蒂專場、口琴擂台賽與百人合奏。",
+      "keywords": "第二屆海峽兩岸 蕉城 口琴文化週 2026 山海回響 兩岸和聲 天狼星 茱蒂 口琴擂台賽 琴系遠山",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://nd.fjsen.com/wap/2026-07/21/content_32222166.htm"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/jiaocheng-harmonica-week.jpg",
+      "sourceInitials": "第二",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "比賽",
+        "半音階",
+        "複音",
         "重奏"
       ]
     },
@@ -19269,7 +19344,7 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 310,
+    "totalEntries": 312,
     "categories": {
       "其他來源": 2,
       "國際交流": 13,
@@ -19277,11 +19352,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "場館平台": 7,
       "學校社團": 39,
       "教學器材": 26,
-      "活動資訊": 34,
+      "活動資訊": 36,
       "演奏者": 111
     },
     "countries": {
-      "中國": 36,
+      "中國": 38,
       "丹麥": 1,
       "以色列": 1,
       "俄羅斯": 1,
