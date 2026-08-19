@@ -26,6 +26,7 @@ SOURCE_TAG_CACHE = PROJECT_ROOT / "state" / "source_llm_tags.json"
 SOURCE_AVATAR_DIR = SITE_ROOT / "assets" / "source-avatars"
 CURATED_SOURCE_AVATAR_DIR = PROJECT_ROOT / "assets" / "source-avatars-curated"
 CURATED_SOURCE_AVATARS = {
+    "Yotam Ben-Or": "yotam-ben-or.jpg",
     "Rivet 口琴重奏": "rivet-harmonica.png",
     "Jens Bunge": "jens-bunge.jpg",
     "黃啟書 Openbook Huang": "openbook-huang.jpg",
@@ -234,7 +235,13 @@ LINK_FIELDS = [
 
 def read_csv(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8-sig") as handle:
-        return list(csv.DictReader(handle))
+        rows = list(csv.DictReader(handle))
+    malformed = [index for index, row in enumerate(rows, start=2) if None in row]
+    if malformed:
+        joined = ", ".join(str(index) for index in malformed[:10])
+        suffix = " ..." if len(malformed) > 10 else ""
+        raise ValueError(f"CSV rows contain extra columns in {path}: {joined}{suffix}")
+    return rows
 
 
 def read_json(path: Path, default: Any) -> Any:

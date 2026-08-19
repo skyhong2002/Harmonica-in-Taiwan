@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import importlib.util
 from pathlib import Path
+import tempfile
 import unittest
 
 
@@ -15,6 +16,14 @@ SPEC.loader.exec_module(MODULE)
 
 
 class SourceProfileMatchingTests(unittest.TestCase):
+    def test_read_csv_rejects_extra_columns(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            path = Path(tmpdir) / "sources.csv"
+            path.write_text("name,website\nExample,,extra\n", encoding="utf-8")
+
+            with self.assertRaisesRegex(ValueError, "extra columns"):
+                MODULE.read_csv(path)
+
     def test_profile_match_keys_include_title_and_explicit_name_aliases(self) -> None:
         keys = MODULE.profile_match_keys(
             {
