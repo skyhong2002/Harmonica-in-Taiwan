@@ -54,6 +54,8 @@ CURATED_SOURCE_AVATARS = {
     "Hohner 音樂院（特羅辛根）": "hohner-konservatorium.jpg",
     "蔡明勳": "minghsun-tsai.jpg",
     "口琴音樂賽事中心": "aphfhx-events-center.jpg",
+    "何東中學口琴隊": "hotung-secondary-harmonica.jpg",
+    "莊庭皓 Ivan Chong": "ivan-chong.jpg",
     "Yotam Ben-Or": "yotam-ben-or.jpg",
     "Rivet 口琴重奏": "rivet-harmonica.png",
     "Jens Bunge": "jens-bunge.jpg",
