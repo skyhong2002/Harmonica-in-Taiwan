@@ -32,6 +32,8 @@ AVATAR_PLATFORM_PRIORITY = {
 DEFAULT_AVATAR_PLATFORM_PRIORITY = 99
 PROFILE_ID_ALIASES = {
     "ig_hkharmonica": ("Breathe with the Harmonica",),
+    "web_matthew_yip_thmf": ("葉梓翀",),
+    "web_liu_mingze_aphf": ("劉銘澤",),
     "ig_ntubluesound": ("臺灣口琴樂團",),
     "ig_taiwanharmonica": (
         "BBG 口琴三重奏",
