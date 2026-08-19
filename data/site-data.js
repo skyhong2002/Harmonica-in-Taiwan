@@ -4063,11 +4063,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "type": "個人",
       "originalType": "個人",
       "country": "中國",
-      "region": "中國",
-      "cityOrFocus": "十孔/藍調/流行/教學",
-      "structuredSummary": "十孔/藍調/流行/教學 / 十孔/半音階 / 演出人員/教學者",
-      "summary": "中國的十孔與半音階演出人員與教學者，活動脈絡包含藍調、流行與教學。",
-      "keywords": "吹口琴的小园园 Yuanyuan Harmonica 口琴 藍調口琴 十孔口琴",
+      "region": "中國/北京",
+      "cityOrFocus": "藍調口琴演奏與大眾推廣/師從張曉松並加入藍調口琴網/《园园口琴教室》系列教學/經典老歌、流行與影視曲改編/十孔及半音階口琴影音內容",
+      "structuredSummary": "藍調口琴演奏與大眾推廣/師從張曉松並加入藍調口琴網/《园园口琴教室》系列教學/經典老歌、流行與影視曲改編/十孔及半音階口琴影音內容 / 十孔口琴/藍調口琴/半音階口琴 / 演出人員/口琴教育影音創作者/藍調口琴推廣者",
+      "summary": "中國的十孔口琴、藍調口琴與半音階口琴演出人員、口琴教育影音創作者與藍調口琴推廣者，活動脈絡包含藍調口琴演奏與大眾推廣、師從張曉松並加入藍調口琴網與《园园口琴教室》系列教學。",
+      "keywords": "吹口琴的小园园 Yuanyuan Harmonica 園園 北京 藍調口琴網 張曉松 园园口琴教室 十孔 半音階 經典老歌 流行 教學 推廣",
       "links": [
         {
           "label": "YouTube",
@@ -18362,12 +18362,12 @@ window.HARMONICA_OBSERVE_DATA = {
       "category": "演奏者",
       "type": "個人",
       "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴演出/教學/活動資訊",
-      "structuredSummary": "口琴演出/教學/活動資訊 / 口琴 / 演出人員/教學者",
-      "summary": "臺灣的口琴演出人員與教學者，活動脈絡包含口琴演出、教學與活動資訊。",
-      "keywords": "Tancy Liu 口琴 演出 教學 活動",
+      "country": "中國",
+      "region": "中國",
+      "cityOrFocus": "中國青少年口琴演奏者/六歲已參加第12屆亞太口琴節/藍調、爵士、古典與流行曲風/十孔口琴overblow與半音階口琴演奏/2021與2022 SPAH青年學者/SEYDEL演奏者",
+      "structuredSummary": "中國青少年口琴演奏者/六歲已參加第12屆亞太口琴節/藍調、爵士、古典與流行曲風/十孔口琴overblow與半音階口琴演奏/2021與2022 SPAH青年學者/SEYDEL演奏者 / 十孔口琴/藍調口琴/半音階口琴 / 國際青少年演出人員/SPAH青年學者/SEYDEL演奏者",
+      "summary": "中國的十孔口琴、藍調口琴與半音階口琴國際青少年演出人員、SPAH青年學者與SEYDEL演奏者，活動脈絡包含中國青少年口琴演奏者、六歲已參加第12屆亞太口琴節與藍調。",
+      "keywords": "Tancy Liu 劉恬曦 胖妞 China harmonica APHF 12th SPAH Youth Scholar 2021 2022 SEYDEL diatonic chromatic blues jazz classical overblow",
       "links": [
         {
           "label": "Facebook",
@@ -18384,7 +18384,9 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "TL",
       "sourceTags": [
         "演奏者",
-        "教學"
+        "半音階",
+        "十孔",
+        "國際交流"
       ],
       "monitorSources": [
         {
@@ -19785,7 +19787,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "演奏者": 107
     },
     "countries": {
-      "中國": 39,
+      "中國": 40,
       "丹麥": 1,
       "以色列": 2,
       "俄羅斯": 1,
@@ -19805,7 +19807,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "瑞士": 1,
       "紐西蘭": 1,
       "美國": 7,
-      "臺灣": 132,
+      "臺灣": 131,
       "英國": 3,
       "荷蘭": 1,
       "菲律賓": 1,

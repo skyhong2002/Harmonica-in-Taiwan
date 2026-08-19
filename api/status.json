@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T07:29:16+08:00",
+  "generatedAt": "2026-08-20T07:32:09+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "degraded",
@@ -12,7 +12,7 @@
     "directoryEntries": 318,
     "watchSources": 689,
     "currentErrors": 0,
-    "latestDataAt": "2026-08-20T07:29:13+08:00",
+    "latestDataAt": "2026-08-20T07:32:06+08:00",
     "latestSocialObservationAt": "2026-08-20T07:22:48+08:00"
   },
   "watchSources": {
@@ -72,7 +72,7 @@
       "summary": "排程或輸出時間需要檢查。",
       "details": [
         "最近 pipeline 失敗：publish github pages；heartbeat 2026-08-20 07:24:34。",
-        "最新公開資料：2026-08-20 07:29:13",
+        "最新公開資料：2026-08-20 07:32:06",
         "pipeline.log 更新：2026-07-12 02:58:29",
         "pipeline.err.log 更新：2026-07-11 14:33:03",
         "LaunchAgent：not running，last exit 1"
@@ -97,7 +97,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：51 ms"
+        "耗時：273 ms"
       ]
     },
     {
@@ -111,7 +111,7 @@
         "story 無公開內容/空路由略過：0",
         "IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。",
         "本輪 IG：抓取 18、排程略過 334、延後 0、錯誤 0。",
-        "下一個 IG 來源：約 2026-08-20 07:30:38"
+        "下一個 IG 來源：約 2026-08-20 07:32:10"
       ]
     },
     {
