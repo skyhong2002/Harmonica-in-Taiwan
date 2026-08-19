@@ -997,6 +997,101 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-103",
+      "publicId": "103",
+      "name": "陳瑤容 Yora Chen",
+      "nameEn": "Yora Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "鋼琴合作/編曲創作/口琴合作",
+      "structuredSummary": "鋼琴合作/編曲創作/口琴合作 / 鋼琴/編曲/口琴合作 / 合作音樂家/編曲者",
+      "summary": "臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。",
+      "keywords": "Yora Chen 陳瑤容 陳瑶容 口琴 編曲 鋼琴合作 111 Quintet",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://portaly.cc/YoraChen"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/aike9115"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/_yora._/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@iamxyora"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@_yora._"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-19T12:30:40+00:00",
+      "latestUpdateLocal": "2026-08-19 20:30",
+      "latestUpdateSource": "陳瑤容 Yora Chen",
+      "latestUpdateUrl": "https://www.instagram.com/stories/_yora._/3967162470988090421/",
+      "avatarUrl": "/assets/source-avatars/76711db3096aa4ba92ef.webp",
+      "sourceInitials": "YC",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_aike9115",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/aike9115",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "_yora._",
+          "profileUrl": "https://www.instagram.com/_yora._/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/_yora._/story/0"
+        },
+        {
+          "id": "ig_yora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "_yora._",
+          "profileUrl": "https://www.instagram.com/_yora._/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_yora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "threads",
+          "type": "rss",
+          "username": "_yora._",
+          "profileUrl": "https://www.threads.net/@_yora._",
+          "feedUrl": "https://rss.observe.tw/threads/_yora._"
+        },
+        {
+          "id": "yt_iamxyora",
+          "name": "陳瑤容 Yora Chen",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@iamxyora",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-146",
       "publicId": "146",
       "name": "World Harmonica Festival",
@@ -1567,101 +1662,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "aurora._.harmonica",
           "profileUrl": "https://www.instagram.com/aurora._.harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/aurora._.harmonica/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-103",
-      "publicId": "103",
-      "name": "陳瑤容 Yora Chen",
-      "nameEn": "Yora Chen",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "鋼琴合作/編曲創作/口琴合作",
-      "structuredSummary": "鋼琴合作/編曲創作/口琴合作 / 鋼琴/編曲/口琴合作 / 合作音樂家/編曲者",
-      "summary": "臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。",
-      "keywords": "Yora Chen 陳瑤容 陳瑶容 口琴 編曲 鋼琴合作 111 Quintet",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/YoraChen"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/aike9115"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/_yora._/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@iamxyora"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@_yora._"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-19T10:00:29+00:00",
-      "latestUpdateLocal": "2026-08-19 18:00",
-      "latestUpdateSource": "陳瑤容 Yora Chen",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcN7CRPAAPA/",
-      "avatarUrl": "/assets/source-avatars/76711db3096aa4ba92ef.webp",
-      "sourceInitials": "YC",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_aike9115",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/aike9115",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_yora",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "_yora._",
-          "profileUrl": "https://www.instagram.com/_yora._/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/_yora._/story/0"
-        },
-        {
-          "id": "ig_yora",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "_yora._",
-          "profileUrl": "https://www.instagram.com/_yora._/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_yora",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "threads",
-          "type": "rss",
-          "username": "_yora._",
-          "profileUrl": "https://www.threads.net/@_yora._",
-          "feedUrl": "https://rss.observe.tw/threads/_yora._"
-        },
-        {
-          "id": "yt_iamxyora",
-          "name": "陳瑤容 Yora Chen",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@iamxyora",
-          "feedUrl": ""
         }
       ]
     },
@@ -6598,6 +6598,65 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-290",
+      "publicId": "290",
+      "name": "Ivan Marcio",
+      "nameEn": "Ivan Marcio",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "巴西",
+      "region": "巴西/聖保羅",
+      "cityOrFocus": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026",
+      "structuredSummary": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026 / 十孔口琴 / 國際演出人員/教育者/製作人",
+      "summary": "巴西的十孔口琴國際演出人員、教育者與製作人，活動脈絡包含藍調口琴、Jump Blues與錄音製作。",
+      "keywords": "Ivan Marcio ivanmarciogaita Brazil blues harmonica APHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/information/announcementDetail/417110312852779008"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ivanmarciogaita/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-12T13:58:59+00:00",
+      "latestUpdateLocal": "2026-08-12 21:58",
+      "latestUpdateSource": "Ivan Marcio",
+      "latestUpdateUrl": "https://www.instagram.com/p/Db8U2UYRp05/",
+      "avatarUrl": "/assets/source-avatars/ivan-marcio.jpg",
+      "sourceInitials": "IM",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_ivanmarciogaita",
+          "name": "Ivan Marcio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "ivanmarciogaita",
+          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_ivanmarciogaita",
+          "name": "Ivan Marcio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "ivanmarciogaita",
+          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/ivanmarciogaita/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-32",
       "publicId": "32",
       "name": "陳彥銘",
@@ -10591,18 +10650,18 @@ window.HARMONICA_OBSERVE_DATA = {
       "name": "明治大學ハーモニカソサエティー",
       "nameEn": "Meiji University Harmonica Society",
       "category": "學校社團",
-      "type": "學校社團",
+      "type": "團體",
       "originalType": "學校社團",
       "country": "日本",
       "region": "日本/東京",
-      "cityOrFocus": "明治大學/學校社團/東京",
-      "structuredSummary": "明治大學/學校社團/東京 / 口琴合奏/ハモソ / 學校社團",
-      "summary": "日本的口琴合奏與ハモソ學校社團。",
-      "keywords": "明治大學 ハーモニカソサエティー Meiji Harmonica Society MHS ハモソ 口琴社",
+      "cityOrFocus": "明治大學公認音樂社團/口琴主奏大樂團/四大學聯合音樂會/2026招募",
+      "structuredSummary": "明治大學公認音樂社團/口琴主奏大樂團/四大學聯合音樂會/2026招募 / 口琴/長笛/單簧管/吉他/貝斯/鍵盤/鼓與打擊樂 / 學校社團/學生大樂團",
+      "summary": "日本的口琴、長笛、單簧管與吉他學校社團與學生大樂團。",
+      "keywords": "明治大學 ハーモニカソサエティー Meiji Harmonica Society MHS ハモソ 口琴社 2026 四大學聯合音樂會",
       "links": [
         {
           "label": "網站",
-          "url": "https://meiji-uni-hamoso.jimdosite.com/"
+          "url": "https://www.meijiunvshinkan.com/intabiyuqi-hua-shi-yan/%E3%83%8F%E3%83%BC%E3%83%A2%E3%83%8B%E3%82%AB%E3%82%BD%E3%82%B5%E3%82%A8%E3%83%86%E3%82%A3%E3%83%BC"
         },
         {
           "label": "Facebook",
@@ -10627,7 +10686,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "明治",
       "sourceTags": [
         "學生社團",
-        "大專社團"
+        "大專社團",
+        "團體樂團"
       ],
       "monitorSources": [
         {
@@ -12022,7 +12082,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/b070860a0fc0554c89c6.webp",
+      "avatarUrl": "/assets/source-avatars/tombo-harmonica-society.png",
       "sourceInitials": "T",
       "sourceTags": [
         "協會",
@@ -13038,7 +13098,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/a3563ca27a3e019963d8.jpg",
+      "avatarUrl": "/assets/source-avatars/korea-harmonica-orchestra.png",
       "sourceInitials": "KHO",
       "sourceTags": [
         "團體樂團",
@@ -15038,7 +15098,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/205fc0b886ca07ec0611.svg",
+      "avatarUrl": "/assets/source-avatars/wuhan-university-technology.png",
       "sourceInitials": "武漢",
       "sourceTags": [
         "學生社團",
@@ -17299,65 +17359,6 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者",
         "十孔",
         "國際交流"
-      ]
-    },
-    {
-      "id": "watchlist-290",
-      "publicId": "290",
-      "name": "Ivan Marcio",
-      "nameEn": "Ivan Marcio",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "巴西",
-      "region": "巴西/聖保羅",
-      "cityOrFocus": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026",
-      "structuredSummary": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026 / 十孔口琴 / 國際演出人員/教育者/製作人",
-      "summary": "巴西的十孔口琴國際演出人員、教育者與製作人，活動脈絡包含藍調口琴、Jump Blues與錄音製作。",
-      "keywords": "Ivan Marcio ivanmarciogaita Brazil blues harmonica APHF 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.aphfhx.com/information/announcementDetail/417110312852779008"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/ivanmarciogaita/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/ivan-marcio.jpg",
-      "sourceInitials": "IM",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_ivanmarciogaita",
-          "name": "Ivan Marcio",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "ivanmarciogaita",
-          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_ivanmarciogaita",
-          "name": "Ivan Marcio",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "ivanmarciogaita",
-          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/ivanmarciogaita/story/0"
-        }
       ]
     },
     {

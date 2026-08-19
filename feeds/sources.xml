@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 19 Aug 2026 21:24:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 21:32:12 +0000</lastBuildDate>
     <item>
       <title>Jong-seong Park 朴鍾聲</title>
       <link>https://www.mnac.co.kr/jongseongpark</link>
@@ -150,6 +150,17 @@ Tag：演奏者、十孔、國際交流
 西班牙的十孔國際演出人員，活動脈絡包含藍調與SIHF 2026。</description>
     </item>
     <item>
+      <title>陳瑤容 Yora Chen</title>
+      <link>https://portaly.cc/YoraChen</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/13f74469b6747459</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者
+國家：臺灣
+地區：臺灣
+臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。</description>
+    </item>
+    <item>
       <title>World Harmonica Festival</title>
       <link>https://worldharmonicafestival.de/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/d540be4b0c925a31</guid>
@@ -225,17 +236,6 @@ Tag：演奏者、半音階、複音
 國家：臺灣
 地區：臺灣
 年輕臺灣口琴演奏者，專長半音階與複音口琴。</description>
-    </item>
-    <item>
-      <title>陳瑤容 Yora Chen</title>
-      <link>https://portaly.cc/YoraChen</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/13f74469b6747459</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者
-國家：臺灣
-地區：臺灣
-臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。</description>
     </item>
     <item>
       <title>曹小歐</title>
@@ -920,6 +920,17 @@ Tag：演奏者、半音階、重奏、國際交流、比賽
 臺灣半音階口琴演奏者，2025 世界口琴節獲公開組冠軍，並參與 111 Duo、Trio 與 Quintet。</description>
     </item>
     <item>
+      <title>Ivan Marcio</title>
+      <link>https://www.aphfhx.com/information/announcementDetail/417110312852779008</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/bf8fd9d5a3d4b817</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、十孔、國際交流
+國家：巴西
+地區：巴西/聖保羅
+巴西的十孔口琴國際演出人員、教育者與製作人，活動脈絡包含藍調口琴、Jump Blues與錄音製作。</description>
+    </item>
+    <item>
       <title>陳彥銘</title>
       <link>https://mx.nthu.edu.tw/~ymchen/sirius/CT.htm</link>
       <guid>https://harmonica.observe.tw/feeds/sources/294a4e588c327308</guid>
@@ -1537,14 +1548,14 @@ Tag：教學器材、教學、課程
     </item>
     <item>
       <title>明治大學ハーモニカソサエティー</title>
-      <link>https://meiji-uni-hamoso.jimdosite.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/3a9ab359649a414c</guid>
+      <link>https://www.meijiunvshinkan.com/intabiyuqi-hua-shi-yan/%E3%83%8F%E3%83%BC%E3%83%A2%E3%83%8B%E3%82%AB%E3%82%BD%E3%82%B5%E3%82%A8%E3%83%86%E3%82%A3%E3%83%BC</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/4c83cdb514c7dbd8</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <description>分類：學校社團
-Tag：學生社團、大專社團
+Tag：學生社團、大專社團、團體樂團
 國家：日本
 地區：日本/東京
-日本的口琴合奏與ハモソ學校社團。</description>
+日本的口琴、長笛、單簧管與吉他學校社團與學生大樂團。</description>
     </item>
     <item>
       <title>口琴好南合奏樂團</title>
@@ -2942,17 +2953,6 @@ Tag：演奏者、十孔、國際交流
 國家：菲律賓
 地區：菲律賓/馬尼拉
 菲律賓的十孔口琴國際演出人員與錄音樂手，活動脈絡包含藍調口琴、錄音與電影配樂與Ian Lofamia Band。</description>
-    </item>
-    <item>
-      <title>Ivan Marcio</title>
-      <link>https://www.aphfhx.com/information/announcementDetail/417110312852779008</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/bf8fd9d5a3d4b817</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學、十孔、國際交流
-國家：巴西
-地區：巴西/聖保羅
-巴西的十孔口琴國際演出人員、教育者與製作人，活動脈絡包含藍調口琴、Jump Blues與錄音製作。</description>
     </item>
     <item>
       <title>Joe Marhofer / The Headcutters</title>
