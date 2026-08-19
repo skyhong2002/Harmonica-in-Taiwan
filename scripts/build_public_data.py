@@ -64,6 +64,7 @@ PROFILE_ID_ALIASES = {
         "上海豫園口琴樂團",
         "傅泓亮",
         "中國大眾音協口琴樂團",
+        "無錫市人民政府（亞太口琴藝術週資訊）",
     ),
     "manual_china_harmonica_committee": (
         "中國大眾音樂協會口琴考級網",
