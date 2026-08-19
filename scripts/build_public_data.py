@@ -26,6 +26,16 @@ SOURCE_TAG_CACHE = PROJECT_ROOT / "state" / "source_llm_tags.json"
 SOURCE_AVATAR_DIR = SITE_ROOT / "assets" / "source-avatars"
 CURATED_SOURCE_AVATAR_DIR = PROJECT_ROOT / "assets" / "source-avatars-curated"
 CURATED_SOURCE_AVATARS = {
+    "王元懋": "yuanmao-wang.jpg",
+    "龍登杰": "long-deng-jie.jpg",
+    "Tian Long Li": "tian-long-li.jpg",
+    "中國大眾音協口琴樂團": "cpma-harmonica-ensemble.png",
+    "劉銘澤": "liu-mingze.png",
+    "林津鋒": "lin-jinfeng.jpg",
+    "藍饃饃": "bunmonica-du.jpg",
+    "TOMBO ハーモニカ・ソサイエティ": "tombo-harmonica-society.png",
+    "Korea Harmonica Orchestra": "korea-harmonica-orchestra.png",
+    "武漢理工大學學生星一口琴協會": "wuhan-university-technology.png",
     "Ivan Marcio": "ivan-marcio.jpg",
     "Ian Lofamia": "ian-lofamia.jpg",
     "Michał Kielak": "michal-kielak.jpg",
