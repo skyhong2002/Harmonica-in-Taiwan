@@ -2818,6 +2818,7 @@
   }
 
   const directorySortColumns = [
+    { key: "id", label: "ID", defaultDirection: "asc", width: 72, minWidth: 58, value: (entry) => entry.publicId || "" },
     { key: "name", label: "來源", defaultDirection: "asc", width: 250, minWidth: 150, value: (entry) => entry.name },
     { key: "links", label: "連結", defaultDirection: "asc", width: 146, minWidth: 74, value: (entry) => (entry.links || []).map((link) => link.label || link.url).join(" ") },
     { key: "latest", label: "最後更新", defaultDirection: "desc", width: 145, minWidth: 112, value: (entry) => entry.latestUpdateLocal || "" },
@@ -2963,6 +2964,7 @@
     const links = entry.links || [];
     return `
       <tr>
+        <td class="directory-id-cell" title="來源 ID ${escapeHtml(entry.publicId || "-")}">${escapeHtml(entry.publicId || "-")}</td>
         <th scope="row" class="directory-source-cell" title="${escapeHtml(entry.name || "-")}">
           <div class="directory-source-identity">
             ${sourceAvatar(
