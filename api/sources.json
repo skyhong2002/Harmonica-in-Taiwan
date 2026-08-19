@@ -65,6 +65,91 @@
   },
   "entries": [
     {
+      "id": "watchlist-118",
+      "publicId": "118",
+      "name": "Federico Linari",
+      "nameEn": "Federico Linari",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "阿根廷",
+      "region": "阿根廷",
+      "cityOrFocus": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源",
+      "structuredSummary": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源 / 十孔/爵士口琴 / 國際演出人員/教學者/製作人",
+      "summary": "阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。",
+      "keywords": "Federico Linari harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hohner.de/en/federico-linari"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Federico.Linari.Armonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/fede.linari/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@FedericoLinari"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-19T12:21:08+00:00",
+      "latestUpdateLocal": "2026-08-19 20:21",
+      "latestUpdateSource": "Federico Linari",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcOKUA1oZtC/",
+      "avatarUrl": "/assets/source-avatars/f86f36ff18abb0ec10a0.webp",
+      "sourceInitials": "FL",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_federico_linari_armonica",
+          "name": "Federico Linari",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Federico.Linari.Armonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_fede_linari",
+          "name": "Federico Linari",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "fede.linari",
+          "profileUrl": "https://www.instagram.com/fede.linari/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_fede_linari",
+          "name": "Federico Linari",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "fede.linari",
+          "profileUrl": "https://www.instagram.com/fede.linari/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/fede.linari/story/0"
+        },
+        {
+          "id": "yt_federicolinari",
+          "name": "Federico Linari",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@FedericoLinari",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-80",
       "publicId": "80",
       "name": "臺中國家歌劇院",
@@ -1796,6 +1881,66 @@
       ]
     },
     {
+      "id": "watchlist-183",
+      "publicId": "183",
+      "name": "EMPA 口琴課程",
+      "nameEn": "EMPA Escuela de Música Popular de Avellaneda Armónica",
+      "category": "國際交流",
+      "type": "樂器與器材",
+      "originalType": "學校/正式課程",
+      "country": "阿根廷",
+      "region": "阿根廷/阿韋亞內達",
+      "cityOrFocus": "公立流行音樂學校/正式口琴課程/爵士/探戈/民俗",
+      "structuredSummary": "公立流行音樂學校/正式口琴課程/爵士/探戈/民俗 / 半音階/十孔/armónica / 國際教育來源",
+      "summary": "阿根廷的國際教育來源，關注公立流行音樂學校、正式口琴課程、爵士、探戈與民俗。",
+      "keywords": "EMPA Escuela de Música Popular de Avellaneda Armónica harmonica Argentina",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.empa.edu.ar/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/empa.oficial/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-18T21:47:05+00:00",
+      "latestUpdateLocal": "2026-08-19 05:47",
+      "latestUpdateSource": "EMPA 口琴課程",
+      "latestUpdateUrl": "https://www.instagram.com/stories/empa.oficial/3966717889839134764/",
+      "avatarUrl": "/assets/source-avatars/ae76d24117e0dceba5e7.webp",
+      "sourceInitials": "E",
+      "sourceTags": [
+        "教學器材",
+        "國際交流",
+        "課程",
+        "半音階",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_empa_oficial",
+          "name": "EMPA 口琴課程",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "empa.oficial",
+          "profileUrl": "https://www.instagram.com/empa.oficial/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_empa_oficial",
+          "name": "EMPA 口琴課程",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "empa.oficial",
+          "profileUrl": "https://www.instagram.com/empa.oficial/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/empa.oficial/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-115",
       "publicId": "115",
       "name": "Filip Jers",
@@ -3017,91 +3162,6 @@
           "type": "rsshub_instagram_profile",
           "username": "whf_world_harmonica_festival",
           "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-118",
-      "publicId": "118",
-      "name": "Federico Linari",
-      "nameEn": "Federico Linari",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "阿根廷",
-      "region": "阿根廷",
-      "cityOrFocus": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源",
-      "structuredSummary": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源 / 十孔/爵士口琴 / 國際演出人員/教學者/製作人",
-      "summary": "阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。",
-      "keywords": "Federico Linari harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hohner.de/en/federico-linari"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Federico.Linari.Armonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/fede.linari/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@FedericoLinari"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-18T12:00:07+00:00",
-      "latestUpdateLocal": "2026-08-18 20:00",
-      "latestUpdateSource": "Federico Linari",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcLkDquRY-j/",
-      "avatarUrl": "/assets/source-avatars/f86f36ff18abb0ec10a0.webp",
-      "sourceInitials": "FL",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_federico_linari_armonica",
-          "name": "Federico Linari",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Federico.Linari.Armonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_fede_linari",
-          "name": "Federico Linari",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "fede.linari",
-          "profileUrl": "https://www.instagram.com/fede.linari/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_fede_linari",
-          "name": "Federico Linari",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "fede.linari",
-          "profileUrl": "https://www.instagram.com/fede.linari/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/fede.linari/story/0"
-        },
-        {
-          "id": "yt_federicolinari",
-          "name": "Federico Linari",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@FedericoLinari",
           "feedUrl": ""
         }
       ]
@@ -5599,66 +5659,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCln6Hrzz1NHq8TX5ZSQzgJQ",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-183",
-      "publicId": "183",
-      "name": "EMPA 口琴課程",
-      "nameEn": "EMPA Escuela de Música Popular de Avellaneda Armónica",
-      "category": "國際交流",
-      "type": "樂器與器材",
-      "originalType": "學校/正式課程",
-      "country": "阿根廷",
-      "region": "阿根廷/阿韋亞內達",
-      "cityOrFocus": "公立流行音樂學校/正式口琴課程/爵士/探戈/民俗",
-      "structuredSummary": "公立流行音樂學校/正式口琴課程/爵士/探戈/民俗 / 半音階/十孔/armónica / 國際教育來源",
-      "summary": "阿根廷的國際教育來源，關注公立流行音樂學校、正式口琴課程、爵士、探戈與民俗。",
-      "keywords": "EMPA Escuela de Música Popular de Avellaneda Armónica harmonica Argentina",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.empa.edu.ar/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/empa.oficial/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-14T15:25:15+00:00",
-      "latestUpdateLocal": "2026-08-14 23:25",
-      "latestUpdateSource": "EMPA 口琴課程",
-      "latestUpdateUrl": "https://www.instagram.com/stories/empa.oficial/3963626460454582512/",
-      "avatarUrl": "/assets/source-avatars/ae76d24117e0dceba5e7.webp",
-      "sourceInitials": "E",
-      "sourceTags": [
-        "教學器材",
-        "國際交流",
-        "課程",
-        "半音階",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_empa_oficial",
-          "name": "EMPA 口琴課程",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "empa.oficial",
-          "profileUrl": "https://www.instagram.com/empa.oficial/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_empa_oficial",
-          "name": "EMPA 口琴課程",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "empa.oficial",
-          "profileUrl": "https://www.instagram.com/empa.oficial/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/empa.oficial/story/0"
         }
       ]
     },
