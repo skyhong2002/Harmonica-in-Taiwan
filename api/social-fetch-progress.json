@@ -1,30 +1,25 @@
 {
-  "currentSource": {
-    "id": "ig_sabrinachen820",
-    "name": "陳若芸",
-    "platform": "instagram",
-    "type": "rsshub_instagram_profile"
-  },
+  "currentSource": {},
   "errors": 2,
-  "fetchedPosts": 1900,
-  "finishedAt": "",
-  "heartbeatAt": "2026-08-19T21:08:55.731538+00:00",
+  "fetchedPosts": 1912,
+  "finishedAt": "2026-08-19T21:09:06.960890+00:00",
+  "heartbeatAt": "2026-08-19T21:09:06.960885+00:00",
   "instagram": {
-    "attempted": 8,
+    "attempted": 9,
     "deferred": 0,
     "delay_secs": 8.0,
     "errors": 1,
     "max_attempts_per_run": 40,
-    "profile_attempted": 4,
+    "profile_attempted": 5,
     "profile_deferred": 0,
     "profile_interval_hours": 12.0,
-    "profile_skipped": 160,
-    "scheduled": 320,
-    "skipped": 320,
+    "profile_skipped": 168,
+    "scheduled": 337,
+    "skipped": 337,
     "story_attempted": 4,
     "story_deferred": 0,
     "story_interval_hours": 12.0,
-    "story_skipped": 160
+    "story_skipped": 169
   },
   "llmTags": {
     "cached": 0,
@@ -34,12 +29,12 @@
   },
   "message": "",
   "newRelevantPosts": 0,
-  "phase": "source",
+  "phase": "complete",
   "pid": 29942,
-  "processedSources": 653,
-  "skippedOldPosts": 1,
+  "processedSources": 678,
+  "skippedOldPosts": 13,
   "startedAt": "2026-08-19T21:05:30.338753+00:00",
-  "status": "running",
+  "status": "ok",
   "totalSources": 678,
   "version": 1
 }

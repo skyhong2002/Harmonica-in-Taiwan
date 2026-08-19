@@ -18077,7 +18077,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "links": [
         {
           "label": "網站",
-          "url": "https://www.mccs.org.my/?act=committees-list"
+          "url": "https://myharmonicaworld.com/zh/the-founder/"
         }
       ],
       "source": "watchlist",
