@@ -1224,6 +1224,9 @@
     const sourceTags = entrySourceTagValues(entry).slice(0, 8);
     const summary = entry.summary || entry.sourceSummary || entry.type || "公開來源";
     const aliases = (entry.aliases || []).slice(0, 4);
+    const publicId = entry.publicId
+      ? `<span class="entry-id" aria-label="來源 ID ${escapeHtml(entry.publicId)}">ID ${escapeHtml(entry.publicId)}</span>`
+      : "";
 
     return `
       <article class="entry-card">
@@ -1237,7 +1240,7 @@
             "source-avatar entry-avatar"
           )}
           <div class="entry-title-block">
-            <h3><a href="/source/${escapeHtml(makeSlug(entry))}/" class="entry-landing-link">${escapeHtml(entry.name)}</a></h3>
+            <div class="entry-title-row">${publicId}<h3><a href="/source/${escapeHtml(makeSlug(entry))}/" class="entry-landing-link">${escapeHtml(entry.name)}</a></h3></div>
             <p class="entry-en">${escapeHtml(entry.nameEn)}</p>
             ${aliases.length ? `<p class="entry-aliases">也收錄：${aliases.map(escapeHtml).join("、")}</p>` : ""}
           </div>

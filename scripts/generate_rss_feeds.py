@@ -764,7 +764,14 @@ def fetch_html_profile(source: dict[str, Any]) -> dict[str, str]:
     try:
         req = urllib.request.Request(
             request_url(profile_url),
-            headers={"User-Agent": "Mozilla/5.0 HarmonicaObserveProfileCache/1.0"},
+            headers={
+                "User-Agent": (
+                    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/139.0.0.0 Safari/537.36"
+                ),
+                "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
+            },
         )
         with urllib.request.urlopen(req, timeout=20) as response:
             text = response.read(2_000_000).decode("utf-8", errors="replace")
@@ -799,24 +806,24 @@ def fetch_source_profile(source: dict[str, Any]) -> dict[str, str]:
         "profile_url": "",
         "avatar_source_url": "",
     }
-    if not feed_url:
-        return profile
+    if feed_url:
+        try:
+            req = urllib.request.Request(feed_url, headers={"User-Agent": "HarmonicaObserveProfileCache/1.0"})
+            with urllib.request.urlopen(req, timeout=12) as response:
+                root = ET.fromstring(response.read(2_000_000))
+            channel = root.find("channel")
+            if channel is not None:
+                profile["title"] = channel.findtext("title") or ""
+                profile["description"] = (channel.findtext("description") or "").replace(" - Powered by RSSHub", "").strip()
+                profile["profile_url"] = channel.findtext("link") or ""
+                profile["avatar_source_url"] = channel.findtext("image/url") or ""
+            else:
+                profile["avatar_source_url"] = root.findtext("{http://www.w3.org/2005/Atom}logo") or ""
+        except (urllib.error.URLError, TimeoutError, OSError, ET.ParseError):
+            pass
 
-    try:
-        req = urllib.request.Request(feed_url, headers={"User-Agent": "HarmonicaObserveProfileCache/1.0"})
-        with urllib.request.urlopen(req, timeout=12) as response:
-            root = ET.fromstring(response.read(2_000_000))
-    except (urllib.error.URLError, TimeoutError, OSError, ET.ParseError):
-        return profile
-
-    channel = root.find("channel")
-    if channel is not None:
-        profile["title"] = channel.findtext("title") or ""
-        profile["description"] = (channel.findtext("description") or "").replace(" - Powered by RSSHub", "").strip()
-        profile["profile_url"] = channel.findtext("link") or ""
-        profile["avatar_source_url"] = channel.findtext("image/url") or ""
-    else:
-        profile["avatar_source_url"] = root.findtext("{http://www.w3.org/2005/Atom}logo") or ""
+    if not usable_profile_avatar_source(profile.get("avatar_source_url", "")):
+        profile = merge_profile(profile, fetch_html_profile(source))
     return profile
 
 
@@ -856,8 +863,13 @@ def merge_profile(*profiles: dict[str, Any]) -> dict[str, str]:
     return merged
 
 
-def build_source_profiles(rows: list[dict[str, Any]]) -> dict[str, dict[str, str]]:
+def build_source_profiles(
+    rows: list[dict[str, Any]],
+    extra_source_ids: list[str] | None = None,
+    avatar_source_overrides: dict[str, str] | None = None,
+) -> dict[str, dict[str, str]]:
     needed_ids = {str(row.get("source_id") or "") for row in rows if row.get("source_id")}
+    needed_ids.update(str(source_id).strip() for source_id in (extra_source_ids or []) if str(source_id).strip())
     if not needed_ids:
         return {}
 
@@ -892,6 +904,9 @@ def build_source_profiles(rows: list[dict[str, Any]]) -> dict[str, dict[str, str
         configured = source_profile_from_config(source_id, source)
         row_profile = row_profiles.get(source_id) or {}
         profile = merge_profile(configured, row_profile, cached)
+        avatar_source_override = (avatar_source_overrides or {}).get(source_id, "").strip()
+        if avatar_source_override:
+            profile["avatar_source_url"] = avatar_source_override
         if not profile.get("avatar_source_url") or not usable_profile_avatar_source(str(profile.get("avatar_source_url") or "")):
             fetched = fetch_source_profile(source)
             profile = merge_profile(profile, fetched)
@@ -1746,14 +1761,19 @@ def filter_recent_candidate_rows(rows: list[dict[str, Any]], days: int) -> list[
     return recent_rows
 
 
-def generate_updates(window_days: int = DEFAULT_UPDATE_WINDOW_DAYS, limit: int | None = None) -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]]]:
+def generate_updates(
+    window_days: int = DEFAULT_UPDATE_WINDOW_DAYS,
+    limit: int | None = None,
+    profile_source_ids: list[str] | None = None,
+    profile_avatar_sources: dict[str, str] | None = None,
+) -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]]]:
     global SOURCE_PROFILE_BY_ID, SOURCE_PROFILE_BY_ACCOUNT, DIRECTORY_ENTRY_BY_KEY
     all_rows = read_candidate_rows()
     rows = filter_recent_candidate_rows(all_rows, window_days)
     profile_rows = [
         row for row in all_rows if row.get("raw_source") != "public-link-backfill"
     ]
-    SOURCE_PROFILE_BY_ID = build_source_profiles(profile_rows)
+    SOURCE_PROFILE_BY_ID = build_source_profiles(profile_rows, profile_source_ids, profile_avatar_sources)
     SOURCE_PROFILE_BY_ACCOUNT = source_profiles_by_account()
     DIRECTORY_ENTRY_BY_KEY = directory_entry_lookup()
     public_rows = build_update_items(rows, limit)
@@ -2883,9 +2903,34 @@ def main() -> int:
     parser.add_argument("--updates-days", type=int, default=DEFAULT_UPDATE_WINDOW_DAYS)
     parser.add_argument("--updates-limit", type=int, default=0)
     parser.add_argument("--sources-limit", type=int, default=0)
+    parser.add_argument(
+        "--profile-source-id",
+        action="append",
+        default=[],
+        help="Fetch and cache profile metadata/avatar for this configured source ID; repeat as needed.",
+    )
+    parser.add_argument(
+        "--profile-avatar-source",
+        action="append",
+        default=[],
+        metavar="SOURCE_ID=URL",
+        help="Cache an explicitly verified avatar URL for a configured source; repeat as needed.",
+    )
     args = parser.parse_args()
 
-    updates, categorized = generate_updates(args.updates_days, args.updates_limit)
+    avatar_source_overrides: dict[str, str] = {}
+    for value in args.profile_avatar_source:
+        source_id, separator, avatar_url = value.partition("=")
+        if not separator or not source_id.strip() or not avatar_url.strip():
+            parser.error("--profile-avatar-source must use SOURCE_ID=URL")
+        avatar_source_overrides[source_id.strip()] = avatar_url.strip()
+
+    updates, categorized = generate_updates(
+        args.updates_days,
+        args.updates_limit,
+        args.profile_source_id,
+        avatar_source_overrides,
+    )
     sources_count = generate_sources(args.sources_limit)
     bump_html_asset_versions()
     print(

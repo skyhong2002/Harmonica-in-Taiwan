@@ -1451,6 +1451,8 @@ def render_entry_card_html(entry: dict[str, Any]) -> str:
     initials = escape(entry.get("sourceInitials") or (name[0] if name else "H"))
 
     avatar_html = render_source_avatar(entry.get("avatarUrl"), name, initials)
+    public_id = escape(entry.get("publicId") or "")
+    public_id_html = f'<span class="entry-id" aria-label="來源 ID {public_id}">ID {public_id}</span>' if public_id else ""
 
     countries = "".join(f'<button type="button" class="region-tag-pill" data-directory-hashtag="{escape(entry.get("country"))}" data-directory-filter="country">#{escape(entry.get("country"))}</button>' if entry.get("country") else "")
     region = entry.get("region") or ""
@@ -1476,7 +1478,7 @@ def render_entry_card_html(entry: dict[str, Any]) -> str:
         <div class="entry-card-head">
           {avatar_html}
           <div class="entry-title-block">
-            <h3><a href="/source/{slug}/" class="entry-landing-link">{name}</a></h3>
+            <div class="entry-title-row">{public_id_html}<h3><a href="/source/{slug}/" class="entry-landing-link">{name}</a></h3></div>
             <p class="entry-en">{name_en}</p>
             {aliases_html}
           </div>
@@ -1503,6 +1505,8 @@ def render_static_source_index_card(entry: dict[str, Any]) -> str:
     location = " / ".join(location_parts)
     location_html = f'<span class="entry-latest">{escape(location)}</span>' if location else ""
     name_en_html = f'<p class="entry-en">{name_en}</p>' if name_en and name_en != name else ""
+    public_id = escape(entry.get("publicId") or "")
+    public_id_html = f'<span class="entry-id" aria-label="來源 ID {public_id}">ID {public_id}</span>' if public_id else ""
     links = []
     for link in (entry.get("links") or [])[:2]:
         url = escape(link.get("url"))
@@ -1513,7 +1517,7 @@ def render_static_source_index_card(entry: dict[str, Any]) -> str:
     return f"""
       <article class="entry-card">
         <div class="entry-title-block">
-          <h3><a href="/source/{slug}/" class="entry-landing-link">{name}</a></h3>
+          <div class="entry-title-row">{public_id_html}<h3><a href="/source/{slug}/" class="entry-landing-link">{name}</a></h3></div>
           {name_en_html}
         </div>
         <div class="entry-context"><span>{category}</span>{location_html}</div>

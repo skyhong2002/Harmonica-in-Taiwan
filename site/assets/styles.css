@@ -1432,6 +1432,22 @@ h2 {
   min-width: 0;
 }
 
+.entry-title-row {
+  display: grid;
+  grid-template-columns: minmax(4.2rem, auto) minmax(0, 1fr);
+  gap: 8px;
+  align-items: baseline;
+}
+
+.entry-id {
+  color: var(--muted);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
 .entry-card h3 {
   margin: 0;
   font-size: 1.08rem;

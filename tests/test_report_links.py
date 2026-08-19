@@ -119,6 +119,7 @@ class ReportLinkTests(unittest.TestCase):
         rendered = generate_seo_pages.render_static_source_index_card(
             {
                 "id": "watchlist-77",
+                "publicId": "77",
                 "name": "測試口琴社",
                 "nameEn": "Test Harmonica Club",
                 "category": "學校社團",
@@ -130,6 +131,7 @@ class ReportLinkTests(unittest.TestCase):
         self.assertNotIn('class="context-report-link"', rendered)
         self.assertNotIn(">回報</a>", rendered)
         self.assertIn('href="/source/77-test-harmonica-club/"', rendered)
+        self.assertIn('<span class="entry-id" aria-label="來源 ID 77">ID 77</span><h3>', rendered)
 
     def test_generated_pages_replace_obsolete_github_form_wording(self):
         original = """<nav>\n        <a href=\"/status/\">狀態</a>\n</nav>\n<p>請先看回報頁整理需要準備的公開來源，再送出 GitHub 表單。</p>\n<a href=\"https://github.com/skyhong2002/Harmonica-in-Taiwan/issues\" target=\"_blank\" rel=\"noreferrer\">查看處理中的回報</a>\n<footer><a href=\"/submit/\">資料回報</a></footer>"""
