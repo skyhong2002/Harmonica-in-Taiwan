@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T20:17:25.386739Z",
+  "generatedAt": "2026-08-19T20:20:21.692692Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -8,6 +8,34 @@
     "pageUrl": "https://harmonica.observe.tw/source/40-henry-chen/"
   },
   "items": [
+    {
+      "id": "post-663673dc3ce4d8f45221b2fd",
+      "title": "【就是吹口琴Just Play Harmonica 】｜日本童謠 – 春之小川《春の小川》｜複音口琴Tremolo Harmonica 演奏版本《C調》",
+      "excerpt": "【就是吹口琴Just Play Harmonica 】｜日本童謠 – 春之小川《春の小川》｜複音口琴Tremolo Harmonica 演奏版本《C調》 春之小川《春の小川》 日本童謠 岡野貞一 作曲 高野辰之 作詞 複音口琴演奏版本《C調》",
+      "url": "https://www.youtube.com/watch?v=RJCmkA0p7C8",
+      "sourceName": "陳鴻儀",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-19T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6ca616ba3d1240d5d9fb.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-5d8f83bce875a54365daeca3",
+      "title": "【就是吹口琴Just Play Harmonica 】｜萬沙浪 – 娜奴娃情歌｜複音口琴Tremolo Harmonica 演奏版本《G調》",
+      "excerpt": "【就是吹口琴Just Play Harmonica 】｜萬沙浪 – 娜奴娃情歌｜複音口琴Tremolo Harmonica 演奏版本《G調》 娜奴娃情歌 古 月 作曲 田 雨 作詞 萬沙浪 原唱 複音口琴演奏版本《G調》",
+      "url": "https://www.youtube.com/watch?v=3BuWTI7vwTE",
+      "sourceName": "陳鴻儀",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-17T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9718bec8a7440d8dd940.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-ce05a3b8c6edc2c722f38001",
       "title": "【就是吹口琴Just Play Harmonica 】｜慈母淚痕(九段の母)｜複音口琴Tremolo Harmonica 演奏版本《C調》",
