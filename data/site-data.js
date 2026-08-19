@@ -17174,6 +17174,44 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-317",
+      "publicId": "317",
+      "name": "口琴音樂賽事中心",
+      "nameEn": "Harmonica Music Events Center",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
+      "country": "中國",
+      "region": "中國/全國",
+      "cityOrFocus": "中國口琴賽事與藝術週資訊入口/亞太口琴藝術週/華夏口琴藝術週/敦煌杯/地方展演/簡章、日程、公告與演出影片",
+      "structuredSummary": "中國口琴賽事與藝術週資訊入口/亞太口琴藝術週/華夏口琴藝術週/敦煌杯/地方展演/簡章、日程、公告與演出影片 / 半音階口琴/複音口琴/十孔口琴/口琴重奏與合奏 / 中國口琴活動入口/賽事與音樂節資訊來源",
+      "summary": "中國的中國口琴活動入口與賽事與音樂節資訊來源，涵蓋中國口琴賽事與藝術週資訊入口、亞太口琴藝術週、華夏口琴藝術週、敦煌杯與地方展演。",
+      "keywords": "口琴音樂賽事中心 口琴音乐赛事中心 APHF 華夏口琴藝術週 亞太口琴藝術週 敦煌杯 天水 眉山 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/aphfhx-events-center.jpg",
+      "sourceInitials": "口琴",
+      "sourceTags": [
+        "活動資訊",
+        "音樂節",
+        "比賽",
+        "半音階",
+        "複音",
+        "十孔",
+        "重奏"
+      ]
+    },
+    {
       "id": "watchlist-180",
       "publicId": "180",
       "name": "巴西口琴論壇",
@@ -19553,7 +19591,7 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 315,
+    "totalEntries": 316,
     "categories": {
       "其他來源": 2,
       "國際交流": 13,
@@ -19561,11 +19599,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "場館平台": 7,
       "學校社團": 41,
       "教學器材": 26,
-      "活動資訊": 41,
+      "活動資訊": 42,
       "演奏者": 109
     },
     "countries": {
-      "中國": 38,
+      "中國": 39,
       "丹麥": 1,
       "以色列": 2,
       "俄羅斯": 1,
