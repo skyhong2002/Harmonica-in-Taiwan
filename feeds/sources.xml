@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 19 Aug 2026 19:08:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 19:30:41 +0000</lastBuildDate>
     <item>
       <title>臺中一中口琴社校友團</title>
       <link>https://www.instagram.com/tcfsh_harmonica_alumni/</link>
@@ -1750,10 +1750,21 @@ Tag：協會、國際交流
       <guid>https://harmonica.observe.tw/feeds/sources/592f8ede35829cf5</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <description>分類：國際交流
-Tag：協會、國際交流
+Tag：協會、國際交流、團體樂團
 國家：中國
-地區：中國
-中國的國際協會與資訊來源，關注口琴專業委員會、考級、論壇、賽事與教師會員。</description>
+地區：中國/江蘇/無錫/江陰
+中國的國際協會與資訊來源，關注全國口琴組織、活動、考級、會員與教師與樂團。</description>
+    </item>
+    <item>
+      <title>中國大眾音樂協會口琴考級網</title>
+      <link>https://kaoshi.harmonica.org.cn/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/d34de445d9ea3a1f</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：國際交流
+Tag：協會、國際交流、半音階、複音
+國家：中國
+地區：中國/江蘇/無錫/江陰
+中國的官方考級資訊來源，關注口琴考級、考點、考官、教師與教材。</description>
     </item>
     <item>
       <title>全日本ハーモニカ連盟 AJHF</title>
@@ -1822,6 +1833,28 @@ Tag：團體樂團、重奏、國際交流
 香港的口琴重奏國際演出團體，活動脈絡包含香港柏赫口琴四重奏、古典與現代融合與本地與國際推廣。</description>
     </item>
     <item>
+      <title>Baba &amp; Needem</title>
+      <link>https://www.taiwanharmonica.com/2026artists-midday</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/e2124515c4af398c</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、教學、重奏
+國家：臺灣
+地區：臺灣/臺南
+臺灣的口琴二重奏演出團體，活動脈絡包含教學、演出與2018 SIHF 二重奏冠軍。</description>
+    </item>
+    <item>
+      <title>Cookie Monster 口琴二重奏</title>
+      <link>https://www.instagram.com/cookiemonster_harmonica/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/1985fbc727d3aa55</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏
+國家：臺灣
+地區：臺灣
+臺灣的口琴二重奏演出團體，活動脈絡包含新生代口琴二重奏、THMF與WHF。</description>
+    </item>
+    <item>
       <title>Cube Harmonica Ensemble</title>
       <link>https://www.instagram.com/cubeharmonicaensemble/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/7db429d10796d6ff</guid>
@@ -1853,6 +1886,17 @@ Tag：團體樂團、國際交流
 國家：韓國
 地區：韓國
 韓國的口琴合奏國際演出團體，活動脈絡包含韓國口琴合奏、大型合奏與教育交流。</description>
+    </item>
+    <item>
+      <title>La Mixtura</title>
+      <link>https://monja-heuler.de/ueber-mich/biografie/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/406335d55325cefd</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、比賽、重奏、國際交流
+國家：德國
+地區：德國
+德國的口琴重奏國際演出團體，活動脈絡包含德國口琴六重奏與國際比賽與交流。</description>
     </item>
     <item>
       <title>Neon Light Harmonica Ensemble</title>
@@ -1899,17 +1943,6 @@ Tag：團體樂團、十孔、國際交流
 國際的十孔、藍調口琴、吉他與樂團國際演出團體，活動脈絡包含WHF 2025、藍調樂團與Steve Baker合作。</description>
     </item>
     <item>
-      <title>The Magic Harmonica Ensemble</title>
-      <link>https://seelectronics.com/artists/the-magic-harmonica-ensemble/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/9d00c02e175e00f3</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、教學、重奏、國際交流
-國家：中國
-地區：中國
-中國的口琴重奏國際演出團體，活動脈絡包含中國魔幻之聲口琴樂團、2012成立與亞太與華夏口琴節得獎。</description>
-    </item>
-    <item>
       <title>Veloz Harmonica Quartet</title>
       <link>https://www.facebook.com/velozharmonica/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/aa562cb6c03c6ee1</guid>
@@ -1919,6 +1952,28 @@ Tag：團體樂團、重奏、國際交流
 國家：香港
 地區：香港
 香港的口琴四重奏國際演出團體，活動脈絡包含2010成立、King&amp;#x27;s College培育與本地國際舞台。</description>
+    </item>
+    <item>
+      <title>上海豫園口琴樂團</title>
+      <link>https://www.harmonica.org.cn/news-show.asp?nlt=103&amp;none=17</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/53b81d448688b86a</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、教學、重奏、國際交流
+國家：中國
+地區：中國/上海/黃浦/豫園
+中國的口琴重奏與合奏演出團體與教學團體，活動脈絡包含1981成立、社區口琴教育與民族與交響合奏。</description>
+    </item>
+    <item>
+      <title>中國魔幻之聲口琴重奏團 The Magic Harmonica Ensemble</title>
+      <link>https://seelectronics.com/artists/the-magic-harmonica-ensemble/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/92a30aee0925fef9</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、教學、重奏、國際交流
+國家：中國
+地區：中國
+中國的口琴重奏國際演出團體，活動脈絡包含2012成立、亞太與華夏口琴節得獎與舞台與教學。</description>
     </item>
     <item>
       <title>口琴愛樂集</title>
@@ -1941,6 +1996,39 @@ Tag：團體樂團、國際交流
 國家：巴西
 地區：巴西/庫里奇巴
 巴西的gaita、口琴合奏與口琴管弦樂團國際演出團體，活動脈絡包含巴西口琴管弦樂團、長壽合奏團與地方文化。</description>
+    </item>
+    <item>
+      <title>東方口琴樂團</title>
+      <link>https://www.harmonica.org.cn/news-show.asp?nlt=111&amp;none=17</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/493aee74f8c3bc11</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團
+國家：中國
+地區：中國/江蘇/無錫/江陰
+中國的口琴大合奏演出團體，活動脈絡包含企業口琴藝術團、大合奏與公益演出。</description>
+    </item>
+    <item>
+      <title>歷奇口琴隊</title>
+      <link>https://www.instagram.com/adventure_harmonica/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/18b84ffb28320a04</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、國際交流
+國家：香港
+地區：香港
+香港的口琴合奏國際演出團體，活動脈絡包含社群演出與教育。</description>
+    </item>
+    <item>
+      <title>濟南大眾口琴樂團</title>
+      <link>https://www.aphfhx.com/information/industryNewsDetail/361339839879622656</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/5a22b39276813951</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團
+國家：中國
+地區：中國/山東/濟南
+中國的口琴合奏演出團體與推廣團體，活動脈絡包含2025成立、城市大眾口琴推廣與合奏。</description>
     </item>
     <item>
       <title>真南人口琴樂團</title>
@@ -1976,6 +2064,28 @@ Tag：團體樂團、半音階、重奏
 臺灣的半音階、低音、和弦與口琴重奏演出團體，活動脈絡包含學生重奏、新生代團體與演出。</description>
     </item>
     <item>
+      <title>鄭州大眾口琴樂團</title>
+      <link>https://www.aphfhx.com/information/industryNewsDetail/361339839879622656</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/6945c95b7ca28aaf</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團
+國家：中國
+地區：中國/河南/鄭州
+中國的口琴合奏演出團體與推廣團體，活動脈絡包含2025成立、城市大眾口琴推廣與合奏。</description>
+    </item>
+    <item>
+      <title>飛飛飛 Triple F</title>
+      <link>https://www.instagram.com/triple.f_harmonica/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/664e36627a9fc357</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、比賽、半音階、重奏
+國家：臺灣
+地區：臺灣
+臺灣的半音階、低音、和弦與口琴重奏演出團體，活動脈絡包含青年口琴重奏、演出與比賽。</description>
+    </item>
+    <item>
       <title>首爾口琴管弦樂團</title>
       <link>https://www.youtube.com/@SeoulHarmonicaOrchestra</link>
       <guid>https://harmonica.observe.tw/feeds/sources/bed3bbf5937e0122</guid>
@@ -1984,7 +2094,7 @@ Tag：團體樂團、半音階、重奏
 Tag：團體樂團、半音階、重奏、國際交流
 國家：韓國
 地區：韓國/首爾
-韓國的口琴管弦樂團國際演出團體，活動脈絡包含首爾口琴管弦樂團、半音階與和弦。</description>
+韓國的口琴管弦樂團國際演出團體，活動脈絡包含首爾口琴管弦樂團、首爾獨奏家口琴樂團與半音階。</description>
     </item>
     <item>
       <title>高雄市口琴協會</title>
@@ -2007,6 +2117,17 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/新竹
 臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
+    </item>
+    <item>
+      <title>東方口琴博物館</title>
+      <link>https://www.harmonica.org.cn/news-show.asp?nlt=111&amp;none=17</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/03932fb931369b3d</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：中國
+地區：中國/江蘇/無錫/江陰/祝塘
+中國的博物館與文化資訊來源，提供中國口琴史、口琴館藏、教育推廣與參觀預約相關資訊。</description>
     </item>
     <item>
       <title>中央大學リード合奏部ハーモニカ・ソサィエティー</title>
@@ -2152,6 +2273,28 @@ Tag：品牌、教學器材、教學、國際交流
 德國的口琴器材品牌，關注口琴製造、產品資訊、演奏推廣與國際社群。</description>
     </item>
     <item>
+      <title>Kongsheng 孔聲口琴</title>
+      <link>https://www.kongshengmusic.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/6cc4e697e0f5b018</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：品牌、教學器材、教學、半音階、複音、十孔
+國家：中國
+地區：中國/江蘇/無錫/江陰
+中國的半音階、十孔與複音器材品牌與資訊來源，關注口琴製造與產品資訊。</description>
+    </item>
+    <item>
+      <title>Oritta 奧瑞塔口琴</title>
+      <link>https://www.oritta.cn/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/3ba76f651dbce137</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：品牌、教學器材、教學、半音階
+國家：中國
+地區：中國/福建/廈門
+中國的口琴器材品牌與資訊來源，關注半音階口琴、口琴研發與產品與售後資訊。</description>
+    </item>
+    <item>
       <title>口袋琴房 Pocket Harmonic</title>
       <link>https://lit.link/en/pocketharmonic</link>
       <guid>https://harmonica.observe.tw/feeds/sources/f763f83cc2d77929</guid>
@@ -2161,6 +2304,17 @@ Tag：品牌、教學器材、教學、課程、半音階、複音、十孔
 國家：臺灣
 地區：臺灣
 臺灣的半音階、十孔與複音教學影片來源，關注口琴教學、影片、開箱與視訊課程。</description>
+    </item>
+    <item>
+      <title>天鵝口琴</title>
+      <link>https://www.harmonicas.com.cn/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/7c706bac2acbeec0</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：品牌、教學器材、教學、半音階、複音、十孔
+國家：中國
+地區：中國/江蘇/泰州/靖江
+中國的半音階、複音與十孔器材品牌與資訊來源，關注口琴製造與產品與產業資訊。</description>
     </item>
     <item>
       <title>東和樂器</title>
@@ -2185,6 +2339,17 @@ Tag：品牌、活動資訊、國際交流
 臺灣的國際交流活動，涵蓋口琴沙龍、國際交流與臺灣演奏者相關活動。</description>
     </item>
     <item>
+      <title>Breathe with the Harmonica</title>
+      <link>https://www.hkharmonica.org/en/about-us/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/88e0baee87e021e8</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：協會、活動資訊、國際交流
+國家：香港
+地區：香港
+香港的國際活動來源，涵蓋香港口琴協會古典、藍調、爵士系列演出企劃與國際交流。</description>
+    </item>
+    <item>
       <title>From Harmonica to Music</title>
       <link>https://www.accupass.com/event/2310160441452046939021</link>
       <guid>https://harmonica.observe.tw/feeds/sources/bf0e025d91263db8</guid>
@@ -2205,6 +2370,17 @@ Tag：活動資訊、課程、比賽、半音階、十孔、國際交流
 國家：德國
 地區：德國/特羅辛根
 德國的國際教育與活動來源，涵蓋Trossingen口琴大師工作坊、演奏會與藍調與半音階課程。</description>
+    </item>
+    <item>
+      <title>JDR Harmonica</title>
+      <link>https://www.jdrharmonica.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/ff3072d2a6ca4ec0</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：品牌、活動資訊、音樂節、半音階、十孔、國際交流
+國家：中國
+地區：中國/江蘇/江陰
+中國的器材品牌與活動贊助單位，涵蓋口琴製造、器材資訊與國際音樂節贊助。</description>
     </item>
     <item>
       <title>Mundharmonika-Live 口琴節</title>
@@ -2230,14 +2406,47 @@ Tag：場館平台、活動資訊
     </item>
     <item>
       <title>Seoul International Harmonica Festival</title>
-      <link>https://seoulinternationalharmonicafestival.wordpress.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/617ac6a4f4654b11</guid>
+      <link>https://seoulinternationalharmonicafestival.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/560d571db2a02521</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <description>分類：活動資訊
-Tag：協會、活動資訊、比賽、國際交流
+Tag：協會、活動資訊、比賽、半音階、複音、重奏、國際交流
 國家：韓國
-地區：首爾
-韓國的國際活動來源，涵蓋首爾國際口琴節、國際比賽、Gala音樂會與教育交流。</description>
+地區：韓國/首爾
+韓國的國際活動來源，涵蓋首爾國際口琴節、國際比賽、Gala音樂會、大師班與教育交流。</description>
+    </item>
+    <item>
+      <title>Trio Animato</title>
+      <link>https://animato.info.pl/en/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/4cbefc5013a31de8</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、團體樂團、音樂節、半音階、重奏、國際交流
+國家：波蘭
+地區：波蘭/什切青
+波蘭的國際演出團體，涵蓋波蘭口琴三重奏、室內樂、國際音樂節與SIHF 2025。</description>
+    </item>
+    <item>
+      <title>「琴溯伏羲・律動天水」口琴藝術展演</title>
+      <link>https://www.aphfhx.com/information/announcementDetail/407401895418511360</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/8657f4e6c43c98a0</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、比賽、重奏
+國家：中國
+地區：中國/甘肅/天水
+中國的活動來源，涵蓋2026口琴藝術展演、活動日程與區域交流。</description>
+    </item>
+    <item>
+      <title>「琴韻東坡・簧鳴西南」口琴藝術展演</title>
+      <link>https://www.aphfhx.com/information/announcementDetail/443573180452044800</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/652c0e7edeb784d2</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、比賽、重奏
+國家：中國
+地區：中國/四川/眉山/東坡
+中國的活動來源，涵蓋2026西南口琴藝術展演、報名與區域交流。</description>
     </item>
     <item>
       <title>巴西口琴論壇</title>
@@ -2251,6 +2460,28 @@ Tag：場館平台、活動資訊、音樂節、國際交流
 巴西的國際活動與文化來源，涵蓋巴西口琴論壇、音樂節、工作坊、訪談與線上節目。</description>
     </item>
     <item>
+      <title>第二屆「敦煌杯」線上口琴大賽</title>
+      <link>https://www.aphfhx.com/information/announcementDetail/347951476011454464</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/dede419bd3e4c2ee</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、比賽、半音階、複音、十孔、重奏
+國家：中國
+地區：中國/線上
+中國的比賽資訊來源，涵蓋2025線上口琴大賽、評審、報名與賽事資訊。</description>
+    </item>
+    <item>
+      <title>第五屆華夏（寧德）口琴藝術周</title>
+      <link>https://www.aphfhx.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/2f10a9862087a504</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、比賽、半音階、複音、十孔、重奏、國際交流
+國家：中國
+地區：中國/福建/寧德/蕉城
+中國的國際活動來源，涵蓋2025、7、23-27、展演與比賽。</description>
+    </item>
+    <item>
       <title>第十五屆亞太口琴藝術週</title>
       <link>https://www.aphfhx.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/1ebfe8b40ae15591</guid>
@@ -2258,8 +2489,19 @@ Tag：場館平台、活動資訊、音樂節、國際交流
       <description>分類：活動資訊
 Tag：活動資訊、比賽、半音階、複音、十孔、重奏、國際交流
 國家：中國
-地區：中國/江蘇
-中國的國際活動來源，涵蓋亞太口琴節、比賽、音樂會與大師班。</description>
+地區：中國/江蘇/無錫/江陰
+中國的國際活動來源，涵蓋2026、7、23-27、亞太口琴節30週年與比賽。</description>
+    </item>
+    <item>
+      <title>遼陽白塔口琴藝術周暨第三屆「白塔杯」口琴大賽</title>
+      <link>https://www.ln.gov.cn/web/qmzx/lnsqmzxxtpsnxd/lnzxd/df/2025082209351475118/index.shtml</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c40fe1c024b310c5</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、比賽、半音階、複音、十孔、重奏
+國家：中國
+地區：中國/遼寧/遼陽/白塔
+中國的活動來源，涵蓋2025、8、20-24、口琴大賽與音樂會。</description>
     </item>
     <item>
       <title>香港國際半音階口琴大賽</title>
@@ -2282,6 +2524,28 @@ Tag：演奏者、團體樂團、十孔、國際交流
 國家：美國
 地區：美國
 美國的十孔與藍調口琴國際演出人員，活動脈絡包含WHF 2025與高能量原創藍調樂團。</description>
+    </item>
+    <item>
+      <title>Joe Marhofer / The Headcutters</title>
+      <link>https://www.theheadcutters.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/d04f49c8422f746b</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、團體樂團、十孔、國際交流
+國家：巴西
+地區：巴西/聖卡塔琳娜州
+巴西的十孔口琴國際演出人員與樂團創辦人，活動脈絡包含傳統 Chicago blues、The Headcutters與口琴。</description>
+    </item>
+    <item>
+      <title>Kangsoo Lee 이강수</title>
+      <link>https://www.facebook.com/kangsoo.lee.9</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/9f54bc3e85856e5b</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、國際交流
+國家：韓國
+地區：韓國
+韓國的口琴國際演出人員與技師，活動脈絡包含韓國口琴演奏、國際交流與口琴維修技師。</description>
     </item>
     <item>
       <title>Keith Dunn</title>
@@ -2315,6 +2579,17 @@ Tag：演奏者、國際交流
 國家：韓國
 地區：韓國
 韓國的口琴國際演出人員，活動脈絡包含韓國職業口琴演奏、Giusto harmonica ensemble與KHO。</description>
+    </item>
+    <item>
+      <title>Leon Li</title>
+      <link>https://ceeo.tufts.edu/people/staff/leon-li</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/e225801703d75c28</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、國際交流
+國家：中國
+地區：中國/美國
+中國的口琴國際演出人員與口琴設計研究者，活動脈絡包含口琴演奏、口琴聲學與製琴。</description>
     </item>
     <item>
       <title>Long Deng Jie 龍登杰</title>
@@ -2394,6 +2669,50 @@ Tag：演奏者、半音階、國際交流
 日本的半音階國際演出人員與教育者，活動脈絡包含京都出身、半音階口琴與Hohner Conservatory訓練。</description>
     </item>
     <item>
+      <title>施沛心</title>
+      <link>https://www.instagram.com/pei_____shih/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/4b1e7eb177b1c43b</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、團體樂團、半音階、複音
+國家：臺灣
+地區：臺灣/臺東/高雄
+臺灣的半音階與複音演出人員與樂團成員，活動脈絡包含青年演奏、THMF與SIHF。</description>
+    </item>
+    <item>
+      <title>李志華</title>
+      <link>https://www.instagram.com/chinwahlee/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/231a9cbb7c1e636d</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、複音、重奏、國際交流
+國家：新加坡
+地區：新加坡
+新加坡的半音階、複音與口琴重奏國際演出人員、教師與指揮，活動脈絡包含三重奏、口琴教育與指揮。</description>
+    </item>
+    <item>
+      <title>李沛寧</title>
+      <link>https://laelapsharmonica.com/en/laelaps-club/pei-ning-lee/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/68fc371b63720ee3</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、團體樂團、重奏
+國家：臺灣
+地區：臺灣
+臺灣的口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF。</description>
+    </item>
+    <item>
+      <title>梁芷菁 Steffi Leung</title>
+      <link>https://www.steffileung.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/fad4589612571bfc</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、半音階、國際交流
+國家：香港
+地區：香港
+香港的半音階國際演出人員，活動脈絡包含國際賽事、電台主持與Adventure Harmonica Band。</description>
+    </item>
+    <item>
       <title>田中光栄 Koei Tanaka</title>
       <link>https://tanakakoei.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/af2f8882c8216b58</guid>
@@ -2469,6 +2788,17 @@ Tag：演奏者
 國家：臺灣
 地區：臺灣
 臺灣的口琴演出人員，活動脈絡包含胖擊系。</description>
+    </item>
+    <item>
+      <title>陳若芸</title>
+      <link>https://www.instagram.com/sabrinachen820/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/191bfbed76dbe607</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、團體樂團、重奏
+國家：臺灣
+地區：臺灣/彰化
+臺灣的口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF。</description>
     </item>
   </channel>
 </rss>
