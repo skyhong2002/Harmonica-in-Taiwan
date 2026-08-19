@@ -613,10 +613,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "胖擊系",
-      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
-      "summary": "臺灣口琴演奏者林裕豐，兼職教學與演出。",
-      "keywords": "林裕豐 口琴",
+      "cityOrFocus": "胖擊口琴樂團/半音階/THMF 2026/WHF與SIHF重奏/教學",
+      "structuredSummary": "胖擊口琴樂團/半音階/THMF 2026/WHF與SIHF重奏/教學 / 半音階口琴/重奏 / 演出人員/教育者/重奏團員",
+      "summary": "臺灣的半音階口琴與重奏演出人員、教育者與重奏團員，活動脈絡包含胖擊口琴樂團、半音階與THMF 2026。",
+      "keywords": "林裕豐 口琴 胖擊 Punch THMF 2026 WHF SIHF 半音階 教學",
       "links": [
         {
           "label": "網站",
@@ -641,10 +641,11 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "林裕",
       "sourceTags": [
         "演奏者",
-        "教學"
+        "團體樂團",
+        "教學",
+        "半音階",
+        "重奏"
       ],
-      "sourceSummary": "臺灣口琴演奏者林裕豐，兼職教學與演出。",
-      "sourceTagReason": "來源為個人，類別明確標示為「演奏者」，並有網站提供教學課程資訊。",
       "monitorSources": [
         {
           "id": "ig_story_yf_life",
@@ -685,11 +686,15 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "胖擊系",
-      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
-      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
-      "keywords": "王心禾 口琴",
+      "cityOrFocus": "胖擊口琴樂團/半音階/THMF 2026/WHF與SIHF重奏",
+      "structuredSummary": "胖擊口琴樂團/半音階/THMF 2026/WHF與SIHF重奏 / 半音階口琴/重奏 / 演出人員/重奏團員",
+      "summary": "臺灣的半音階口琴與重奏演出人員與重奏團員，活動脈絡包含胖擊口琴樂團、半音階與THMF 2026。",
+      "keywords": "王心禾 口琴 胖擊 Punch THMF 2026 WHF SIHF 半音階",
       "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/punch"
+        },
         {
           "label": "Instagram",
           "url": "https://www.instagram.com/harmonica_wang/"
@@ -708,7 +713,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "avatarUrl": "/assets/source-avatars/2d6005011d6c9b4b6c96.webp",
       "sourceInitials": "王心",
       "sourceTags": [
-        "演奏者"
+        "演奏者",
+        "團體樂團",
+        "半音階",
+        "重奏"
       ],
       "monitorSources": [
         {
@@ -2408,10 +2416,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
-      "structuredSummary": "天狼星/胖擊系/和弦口琴/重奏 / 和弦/重奏 / 演出人員",
-      "summary": "臺灣的和弦與重奏演出人員，活動脈絡包含天狼星、胖擊系與和弦口琴。",
-      "keywords": "黃冠誌 口琴",
+      "cityOrFocus": "天狼星/胖擊口琴樂團團長/和弦口琴/THMF 2026/WHF與SIHF重奏",
+      "structuredSummary": "天狼星/胖擊口琴樂團團長/和弦口琴/THMF 2026/WHF與SIHF重奏 / 和弦口琴/重奏 / 演出人員/教育者/重奏團長",
+      "summary": "臺灣的和弦口琴與重奏演出人員、教育者與重奏團長，活動脈絡包含天狼星、胖擊口琴樂團團長與THMF 2026。",
+      "keywords": "黃冠誌 口琴 胖擊 Punch THMF 2026 WHF SIHF 和弦",
       "links": [
         {
           "label": "網站",
@@ -2436,6 +2444,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "黃冠",
       "sourceTags": [
         "演奏者",
+        "團體樂團",
         "重奏"
       ],
       "monitorSources": [
@@ -4959,10 +4968,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "天狼星/胖擊系/半音階與重奏",
-      "structuredSummary": "天狼星/胖擊系/半音階與重奏 / 半音階/重奏 / 演出人員",
-      "summary": "臺灣的半音階與重奏演出人員，活動脈絡包含天狼星、胖擊系與半音階與重奏。",
-      "keywords": "王衍華 口琴",
+      "cityOrFocus": "天狼星/胖擊口琴樂團/半音階/THMF 2026/WHF與SIHF重奏",
+      "structuredSummary": "天狼星/胖擊口琴樂團/半音階/THMF 2026/WHF與SIHF重奏 / 半音階口琴/重奏 / 演出人員/重奏團員",
+      "summary": "臺灣的半音階口琴與重奏演出人員與重奏團員，活動脈絡包含天狼星、胖擊口琴樂團與半音階。",
+      "keywords": "王衍華 口琴 胖擊 Punch THMF 2026 WHF SIHF 半音階",
       "links": [
         {
           "label": "網站",
@@ -4991,6 +5000,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "王衍",
       "sourceTags": [
         "演奏者",
+        "團體樂團",
         "半音階",
         "重奏"
       ],
@@ -9732,12 +9742,16 @@ window.HARMONICA_OBSERVE_DATA = {
       "type": "個人",
       "originalType": "個人",
       "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "狂響口琴樂團",
-      "structuredSummary": "狂響口琴樂團 / 口琴 / 演出人員",
-      "summary": "臺灣的口琴演出人員，活動脈絡包含狂響口琴樂團。",
-      "keywords": "陳晟禕 口琴 狂響",
+      "region": "臺灣/高雄",
+      "cityOrFocus": "半音階口琴/狂響口琴樂團創團與團長/社區大學教學/編曲",
+      "structuredSummary": "半音階口琴/狂響口琴樂團創團與團長/社區大學教學/編曲 / 半音階口琴 / 演出人員/教育者/編曲者",
+      "summary": "臺灣的半音階口琴演出人員、教育者與編曲者，活動脈絡包含狂響口琴樂團創團與團長、社區大學教學與編曲。",
+      "keywords": "陳晟禕 口琴 狂響 狂響逗嘴鼓 高雄 社區大學 半音階 編曲",
       "links": [
+        {
+          "label": "網站",
+          "url": "https://kaohsiungmusichall.kcg.gov.tw/home02.aspx?AP=%245201_DATE-112%2F12%2F23%5E%245201_START-1900%5E%245201_END-2100&DATA=35177&EXEC=D&ID=%245201&IDK=2"
+        },
         {
           "label": "Facebook",
           "url": "https://www.facebook.com/chen.cheng.yi.487430/"
@@ -9753,7 +9767,9 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "陳晟",
       "sourceTags": [
         "演奏者",
-        "團體樂團"
+        "團體樂團",
+        "教學",
+        "半音階"
       ],
       "monitorSources": [
         {
@@ -12353,6 +12369,57 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@SIHF-uv5mk",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-309",
+      "publicId": "309",
+      "name": "韓國口琴領袖協會",
+      "nameEn": "Korea Harmonica Leaders Incorporated Association",
+      "category": "國際交流",
+      "type": "團體",
+      "originalType": "協會",
+      "country": "韓國",
+      "region": "韓國/大邱",
+      "cityOrFocus": "口琴教育/講師認證/教材出版/合奏/國際比賽與交流",
+      "structuredSummary": "口琴教育/講師認證/教材出版/合奏/國際比賽與交流 / 複音口琴/半音階口琴/和弦口琴/低音口琴 / 協會/教育與講師培訓/演出團體",
+      "summary": "韓國的協會、教育與講師培訓與演出團體，關注口琴教育、講師認證、教材出版、合奏與國際比賽與交流。",
+      "keywords": "사단법인 한국하모니카리더스 Korea Harmonica Leaders Daegu teacher certification APHF SIHF THMF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.kharmonicaleaders.co.kr/myboard/sub1_1"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC6ZDrvYsxIs-q06ImGWAW3g"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/korea-harmonica-leaders.jpg",
+      "sourceInitials": "韓國",
+      "sourceTags": [
+        "國際交流",
+        "團體樂團",
+        "比賽",
+        "半音階",
+        "複音"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_uc6zdrvysxis_q06imgwaw3g",
+          "name": "韓國口琴領袖協會",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UC6ZDrvYsxIs-q06ImGWAW3g",
           "feedUrl": ""
         }
       ]
@@ -15647,6 +15714,51 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-308",
+      "publicId": "308",
+      "name": "Into The Harmonica 口琴學院",
+      "nameEn": "Into The Harmonica Academy",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "教學工作室",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "成人口琴教學/教材/示範演奏/半音階/THMF交流",
+      "structuredSummary": "成人口琴教學/教材/示範演奏/半音階/THMF交流 / 半音階口琴 / 口琴教學機構/教材與影音來源",
+      "summary": "韓國的半音階口琴口琴教學機構與教材與影音來源，關注成人口琴教學、教材、示範演奏、半音階與THMF交流。",
+      "keywords": "인투더하모니카학원 Into The Harmonica Academy Seoul harmonica lesson Seokbeom Jang Jongseong Park THMF",
+      "links": [
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@INTOTHEHARMONICA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/into-the-harmonica.jpg",
+      "sourceInitials": "ITH",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "半音階"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_intotheharmonica",
+          "name": "Into The Harmonica 口琴學院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@INTOTHEHARMONICA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-251",
       "publicId": "251",
       "name": "Kongsheng 孔聲口琴",
@@ -18061,6 +18173,65 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-307",
+      "publicId": "307",
+      "name": "張錫範",
+      "nameEn": "Seokbeom Jang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "半音階口琴/Into The Harmonica代表/演奏與教學/編曲/THMF與APHF",
+      "structuredSummary": "半音階口琴/Into The Harmonica代表/演奏與教學/編曲/THMF與APHF / 半音階口琴 / 國際演出人員/大學教師/口琴學院代表/編曲者",
+      "summary": "韓國的半音階口琴國際演出人員、大學教師與口琴學院代表，活動脈絡包含Into The Harmonica代表、演奏與教學與編曲。",
+      "keywords": "張錫範 장석범 Seokbeom Jang Into The Harmonica THMF APHF Seoul harmonica professor",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://cms.sjcu.ac.kr/ko/department/music-professor.do"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/into_be_om/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/seokbeom-jang.png",
+      "sourceInitials": "張錫",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_into_be_om",
+          "name": "張錫範",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "into_be_om",
+          "profileUrl": "https://www.instagram.com/into_be_om/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_into_be_om",
+          "name": "張錫範",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "into_be_om",
+          "profileUrl": "https://www.instagram.com/into_be_om/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/into_be_om/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-304",
       "publicId": "304",
       "name": "張雅誥",
@@ -18771,11 +18942,15 @@ window.HARMONICA_OBSERVE_DATA = {
       "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "胖擊系",
-      "structuredSummary": "胖擊系 / 口琴 / 演出人員",
-      "summary": "臺灣的口琴演出人員，活動脈絡包含胖擊系。",
-      "keywords": "陳聰 口琴",
+      "cityOrFocus": "倍低音口琴/胖擊口琴樂團/THMF 2026/WHF與SIHF重奏",
+      "structuredSummary": "倍低音口琴/胖擊口琴樂團/THMF 2026/WHF與SIHF重奏 / 倍低音口琴 / 演出人員/重奏團員",
+      "summary": "臺灣的倍低音口琴演出人員與重奏團員，活動脈絡包含胖擊口琴樂團、THMF 2026與WHF與SIHF重奏。",
+      "keywords": "陳聰 口琴 倍低音 胖擊 Punch Harmonica THMF 2026 WHF SIHF",
       "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/punch"
+        },
         {
           "label": "Facebook",
           "url": "https://www.facebook.com/chen.cong.199678/"
@@ -18790,7 +18965,9 @@ window.HARMONICA_OBSERVE_DATA = {
       "avatarUrl": "/assets/source-avatars/cb29b0c5fb5db240169b.webp",
       "sourceInitials": "陳聰",
       "sourceTags": [
-        "演奏者"
+        "演奏者",
+        "團體樂團",
+        "重奏"
       ],
       "monitorSources": [
         {
@@ -18962,16 +19139,16 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 305,
+    "totalEntries": 308,
     "categories": {
       "其他來源": 2,
-      "國際交流": 12,
+      "國際交流": 13,
       "團體樂團": 81,
       "場館平台": 7,
       "學校社團": 39,
-      "教學器材": 25,
+      "教學器材": 26,
       "活動資訊": 29,
-      "演奏者": 110
+      "演奏者": 111
     },
     "countries": {
       "中國": 34,
@@ -19000,29 +19177,29 @@ window.HARMONICA_OBSERVE_DATA = {
       "菲律賓": 1,
       "西班牙": 2,
       "阿根廷": 4,
-      "韓國": 20,
+      "韓國": 23,
       "香港": 25,
       "馬來西亞": 14
     },
     "watchSources": {
-      "totalSources": 677,
-      "rsshubSources": 386,
+      "totalSources": 681,
+      "rsshubSources": 388,
       "apifySources": 158,
       "facebookSources": 158,
-      "youtubeSources": 133,
+      "youtubeSources": 135,
       "platforms": {
         "facebook": 158,
-        "instagram": 346,
+        "instagram": 348,
         "threads": 28,
         "x": 12,
-        "youtube": 133
+        "youtube": 135
       },
       "types": {
         "facebook_page_posts": 158,
         "rss": 40,
-        "rsshub_instagram_profile": 173,
-        "rsshub_instagram_story": 173,
-        "youtube_ytdlp": 133
+        "rsshub_instagram_profile": 174,
+        "rsshub_instagram_story": 174,
+        "youtube_ytdlp": 135
       }
     }
   }
