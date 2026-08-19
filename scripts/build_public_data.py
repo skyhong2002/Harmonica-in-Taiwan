@@ -26,6 +26,14 @@ SOURCE_TAG_CACHE = PROJECT_ROOT / "state" / "source_llm_tags.json"
 SOURCE_AVATAR_DIR = SITE_ROOT / "assets" / "source-avatars"
 CURATED_SOURCE_AVATAR_DIR = PROJECT_ROOT / "assets" / "source-avatars-curated"
 CURATED_SOURCE_AVATARS = {
+    "中國大眾音樂協會口琴專業委員會": "china-popular-music-harmonica-committee.png",
+    "中國大眾音樂協會口琴考級網": "china-popular-music-harmonica-committee.png",
+    "東方口琴博物館": "easttop-harmonica-museum.jpg",
+    "東方口琴樂團": "easttop-harmonica-ensemble.jpg",
+    "雲林縣二崙國中藝才班口琴隊": "erhlun-junior-high-harmonica.jpg",
+    "遼陽白塔口琴藝術周暨第三屆「白塔杯」口琴大賽": "liaoyang-baita-harmonica-week.jpg",
+    "Mundharmonika-Live 口琴節": "mundharmonika-live-2026.jpg",
+    "華中師範大學學生知音口琴社": "ccnu-zhiyin-harmonica-club.png",
     "太平國小口琴隊": "taiping-elementary-harmonica.jpg",
     "萬興國小口琴隊": "wanxing-elementary-harmonica.jpg",
     "Brendan Power": "brendan-power.jpg",
