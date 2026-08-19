@@ -8983,7 +8983,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-31 02:17",
       "latestUpdateSource": "Deak Harp",
       "latestUpdateUrl": "https://www.facebook.com/deak.harp/posts/pfbid0ZXykgZQxUDEhLfMFxVU8GkC2BwpH6aHtkD6rSpAYGT5B4v9zc8LMFqoPjCoo3cX2l",
-      "avatarUrl": "/assets/source-avatars/e19d33f8928b306485ad.webp",
+      "avatarUrl": "/assets/source-avatars/deak-harp.jpg",
       "sourceInitials": "DH",
       "sourceTags": [
         "演奏者",
@@ -9366,7 +9366,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-24 15:57",
       "latestUpdateSource": "Brendan Power",
       "latestUpdateUrl": "https://www.facebook.com/BrendanPowerMusic/posts/pfbid034BwDZMsZmQ4CvjTAVwiSWMcxNibQ8uwPqdatEaGpEGvL536esxYDELrdxChDoiX5l",
-      "avatarUrl": "/assets/source-avatars/a87274760593ceec62c6.webp",
+      "avatarUrl": "/assets/source-avatars/brendan-power.jpg",
       "sourceInitials": "BP",
       "sourceTags": [
         "演奏者",
@@ -9746,7 +9746,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-15 23:53",
       "latestUpdateSource": "Steve Baker",
       "latestUpdateUrl": "https://www.facebook.com/stevebaker.harmonica/posts/pfbid0qVD47GSu8kwUR2MBDCskLFf16ywdT62MdDHrg73zvmDMJ7nfn2bLwQyj4U4eB5STl",
-      "avatarUrl": "/assets/source-avatars/0dab9d91177eebbae037.webp",
+      "avatarUrl": "/assets/source-avatars/steve-baker.jpg",
       "sourceInitials": "SB",
       "sourceTags": [
         "演奏者",
@@ -9871,7 +9871,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-13 16:48",
       "latestUpdateSource": "Fata Morgana 口琴四重奏",
       "latestUpdateUrl": "https://www.facebook.com/fatamorganamusic/posts/pfbid031GSMxwQYDkKuHB3FHLDKC4uqsnEbGPgKmVEJtxWVXxLJ8CJuB68d4VUov7fNMegDl",
-      "avatarUrl": "/assets/source-avatars/e8920d4f56f02a30ebba.webp",
+      "avatarUrl": "/assets/source-avatars/fata-morgana.jpg",
       "sourceInitials": "FM",
       "sourceTags": [
         "團體樂團",
@@ -10054,7 +10054,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-07-10 10:37",
       "latestUpdateSource": "萬興國小口琴隊",
       "latestUpdateUrl": "https://www.facebook.com/reel/1604459288084398/",
-      "avatarUrl": "/assets/source-avatars/27e7931085caf00dabdc.webp",
+      "avatarUrl": "/assets/source-avatars/wanxing-elementary-harmonica.jpg",
       "sourceInitials": "萬興",
       "sourceTags": [
         "學生社團",
