@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T10:56:04.905039Z",
+  "generatedAt": "2026-08-19T12:09:29.790446Z",
   "source": {
     "id": 109,
     "slug": "boris-plotnikov",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/109-boris-plotnikov/"
   },
   "items": [
+    {
+      "id": "post-8ddcf363be94d8d90580ad65",
+      "title": "I’m a rather fast player on diatonic harmonica. On chromatic, however, I’m much slower. I usually use chromatic for bal…",
+      "excerpt": "I’m a rather fast player on diatonic harmonica. On chromatic, however, I’m much slower. I usually use chromatic for ballads, bossa novas and slow bl... I’m a rather fast player on diatonic harmonica. On chromatic, however, I’m much slower. I usually use chromatic for ballads, bo…",
+      "url": "https://www.instagram.com/p/DcJLA57NtXh/",
+      "sourceName": "Boris Plotnikov",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-17T13:54:13Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3c80079c67856dbc6a4f.webp",
+        "width": 800,
+        "height": 1423
+      }
+    },
     {
       "id": "post-2b6bd9a0e7b6fba31e09a657",
       "title": "Сегодня мне 42, и, кажется, я наконец более-менее научился жить и не чувствовать себ...",

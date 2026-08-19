@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T10:56:04.905039Z",
+  "generatedAt": "2026-08-19T12:09:29.790446Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -8,6 +8,48 @@
     "pageUrl": "https://harmonica.observe.tw/source/115-filip-jers/"
   },
   "items": [
+    {
+      "id": "post-ac72cabd2a50426d6b6cb3fc",
+      "title": "Posting some funky jazz harmonica so your feed isn’t all AI videos 🎶🎶🎶",
+      "excerpt": "Posting some funky jazz harmonica so your feed isn’t all AI videos 🎶🎶🎶",
+      "url": "https://www.instagram.com/p/DcMc8yZxaFY/",
+      "sourceName": "Filip Jers",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-18T20:19:05Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/aea252eae609f254cf3f.webp",
+        "width": 800,
+        "height": 1423
+      }
+    },
+    {
+      "id": "post-109f20fc4c0e7bdca3d1ad88",
+      "title": "Time to practice chromatic harmonica 🎶☀️🎶",
+      "excerpt": "Time to practice chromatic harmonica 🎶☀️🎶",
+      "url": "https://www.instagram.com/p/DcLviqlsydU/",
+      "sourceName": "Filip Jers",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-18T13:42:00Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/dc168b8767a1a49888a4.webp",
+        "width": 800,
+        "height": 533
+      }
+    },
+    {
+      "id": "post-d54b6b52440c5e4d85f047ac",
+      "title": "Can you play blues on a chromatic harmonica? Yes! It sounds different than on a diatonic harmonica, but opens up new to…",
+      "excerpt": "Can you play blues on a chromatic harmonica? Yes! It sounds different than on a diatonic harmonica, but opens up new tools: octaves in every register,... Can you play blues on a chromatic harmonica? Yes! It sounds different than on a diatonic harmonica, but opens up new tools: o…",
+      "url": "https://www.instagram.com/p/DcJxiKmxfM1/",
+      "sourceName": "Filip Jers",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-17T19:21:46Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/16f39a283ed0a3b5e5b1.webp",
+        "width": 800,
+        "height": 1423
+      }
+    },
     {
       "id": "post-807b43123192dcba27a23338",
       "title": "Can you play blues on a chromatic harmonica?",

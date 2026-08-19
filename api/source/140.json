@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T10:56:04.905039Z",
+  "generatedAt": "2026-08-19T12:09:29.790446Z",
   "source": {
     "id": 140,
     "slug": "gregoire-maret",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/140-gregoire-maret/"
   },
   "items": [
+    {
+      "id": "post-49dc0ecb73188f63fe20391b",
+      "title": "A message from the mountains in Switzerland 🇨🇭 🏔️ 🎶",
+      "excerpt": "A message from the mountains in Switzerland 🇨🇭 🏔️ 🎶 See you in @barga_jazz_festival this weekend in Italy 🇮🇹 ! #steviewonder #harmonica #harmonicalovers #barga #enniomorricone",
+      "url": "https://www.instagram.com/p/DcLqYgVNwU9/",
+      "sourceName": "Gregoire Maret",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-18T12:58:52Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1f0e5f857dc725630d6f.webp",
+        "width": 720,
+        "height": 1280
+      }
+    },
     {
       "id": "post-f64355a6254dc58afec94fd0",
       "title": "Do you recognize this song ?🎵",
