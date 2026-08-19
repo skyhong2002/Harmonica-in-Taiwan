@@ -1,18 +1,18 @@
 {
   "site": "https://harmonica.observe.tw",
   "generatedAt": "2026-08-20",
-  "count": 211,
+  "count": 224,
   "stats": {
-    "totalEntries": 211,
+    "totalEntries": 224,
     "categories": {
       "其他來源": 2,
       "國際交流": 10,
-      "團體樂團": 46,
+      "團體樂團": 50,
       "場館平台": 6,
-      "學校社團": 36,
-      "教學器材": 15,
+      "學校社團": 38,
+      "教學器材": 17,
       "活動資訊": 20,
-      "演奏者": 76
+      "演奏者": 81
     },
     "countries": {
       "中國": 10,
@@ -22,7 +22,7 @@
       "印尼": 1,
       "國際": 1,
       "巴西": 4,
-      "德國": 9,
+      "德國": 10,
       "挪威": 1,
       "捷克": 1,
       "新加坡": 6,
@@ -32,33 +32,33 @@
       "瑞士": 1,
       "紐西蘭": 1,
       "美國": 7,
-      "臺灣": 95,
+      "臺灣": 106,
       "英國": 3,
       "荷蘭": 1,
       "西班牙": 2,
       "阿根廷": 4,
       "韓國": 11,
-      "香港": 17,
+      "香港": 18,
       "馬來西亞": 13
     },
     "watchSources": {
-      "totalSources": 616,
-      "rsshubSources": 334,
-      "apifySources": 151,
-      "facebookSources": 151,
+      "totalSources": 643,
+      "rsshubSources": 360,
+      "apifySources": 152,
+      "facebookSources": 152,
       "youtubeSources": 131,
       "platforms": {
-        "facebook": 151,
-        "instagram": 294,
+        "facebook": 152,
+        "instagram": 320,
         "threads": 28,
         "x": 12,
         "youtube": 131
       },
       "types": {
-        "facebook_page_posts": 151,
+        "facebook_page_posts": 152,
         "rss": 40,
-        "rsshub_instagram_profile": 147,
-        "rsshub_instagram_story": 147,
+        "rsshub_instagram_profile": 160,
+        "rsshub_instagram_story": 160,
         "youtube_ytdlp": 131
       }
     }
@@ -825,6 +825,172 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@FedericoLinari",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-30",
+      "publicId": "30",
+      "name": "蔡明憲",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
+      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
+      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
+      "keywords": "蔡明憲 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://studio.dming.co/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/dming.tsai/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/damingtsai/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-19T11:42:12+00:00",
+      "latestUpdateLocal": "2026-08-19 19:42",
+      "latestUpdateSource": "蔡明憲",
+      "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3967138076811648425/",
+      "avatarUrl": "/assets/source-avatars/a1745d09969a03c896ae.webp",
+      "sourceInitials": "蔡明",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_dming_tsai",
+          "name": "蔡明憲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/dming.tsai",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-79",
+      "publicId": "79",
+      "name": "國家兩廳院",
+      "nameEn": "",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "國家兩廳院 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://npac-ntch.org/zh"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/ntch.tw/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ntch.taipei/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/ntcharts"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@ntch.taipei"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-19T11:10:22+00:00",
+      "latestUpdateLocal": "2026-08-19 19:10",
+      "latestUpdateSource": "國家兩廳院",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcODHfIms0s/",
+      "avatarUrl": "/assets/source-avatars/ac6a8e352b66aad57e09.webp",
+      "sourceInitials": "國家",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_ntch_tw",
+          "name": "國家兩廳院",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/ntch.tw",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_ntch_taipei",
+          "name": "國家兩廳院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "ntch.taipei",
+          "profileUrl": "https://www.instagram.com/ntch.taipei/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_ntch_taipei",
+          "name": "國家兩廳院",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "ntch.taipei",
+          "profileUrl": "https://www.instagram.com/ntch.taipei/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/ntch.taipei/story/0"
+        },
+        {
+          "id": "threads_ntch_taipei",
+          "name": "國家兩廳院",
+          "platform": "threads",
+          "type": "rss",
+          "username": "ntch.taipei",
+          "profileUrl": "https://www.threads.net/@ntch.taipei",
+          "feedUrl": "https://rss.observe.tw/threads/ntch.taipei"
+        },
+        {
+          "id": "yt_ntcharts",
+          "name": "國家兩廳院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/ntcharts",
           "feedUrl": ""
         }
       ]
@@ -1756,101 +1922,6 @@
       ]
     },
     {
-      "id": "watchlist-79",
-      "publicId": "79",
-      "name": "國家兩廳院",
-      "nameEn": "",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "國家兩廳院 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://npac-ntch.org/zh"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/ntch.tw/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/ntch.taipei/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/user/ntcharts"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@ntch.taipei"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-19T05:22:20+00:00",
-      "latestUpdateLocal": "2026-08-19 13:22",
-      "latestUpdateSource": "國家兩廳院",
-      "latestUpdateUrl": "https://www.instagram.com/stories/ntch.taipei/3966946881607651123/",
-      "avatarUrl": "/assets/source-avatars/ac6a8e352b66aad57e09.webp",
-      "sourceInitials": "國家",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_ntch_tw",
-          "name": "國家兩廳院",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/ntch.tw",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_ntch_taipei",
-          "name": "國家兩廳院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "ntch.taipei",
-          "profileUrl": "https://www.instagram.com/ntch.taipei/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_ntch_taipei",
-          "name": "國家兩廳院",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "ntch.taipei",
-          "profileUrl": "https://www.instagram.com/ntch.taipei/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/ntch.taipei/story/0"
-        },
-        {
-          "id": "threads_ntch_taipei",
-          "name": "國家兩廳院",
-          "platform": "threads",
-          "type": "rss",
-          "username": "ntch.taipei",
-          "profileUrl": "https://www.threads.net/@ntch.taipei",
-          "feedUrl": "https://rss.observe.tw/threads/ntch.taipei"
-        },
-        {
-          "id": "yt_ntcharts",
-          "name": "國家兩廳院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/user/ntcharts",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-147",
       "publicId": "147",
       "name": "Yoonseok Lee",
@@ -2018,77 +2089,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/c/hoontobe",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-30",
-      "publicId": "30",
-      "name": "蔡明憲",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
-      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
-      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
-      "keywords": "蔡明憲 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://studio.dming.co/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/dming.tsai/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/damingtsai/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-19T03:21:38+00:00",
-      "latestUpdateLocal": "2026-08-19 11:21",
-      "latestUpdateSource": "蔡明憲",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcNJiuykpXN/",
-      "avatarUrl": "/assets/source-avatars/a1745d09969a03c896ae.webp",
-      "sourceInitials": "蔡明",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_dming_tsai",
-          "name": "蔡明憲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/dming.tsai",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
         }
       ]
     },
@@ -12317,6 +12317,59 @@
       ]
     },
     {
+      "id": "watchlist-231",
+      "publicId": "231",
+      "name": "Cube Harmonica Ensemble",
+      "nameEn": "Cube Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣/彰化",
+      "cityOrFocus": "口琴重奏/彰化/演出",
+      "structuredSummary": "口琴重奏/彰化/演出 / 口琴重奏/合奏 / 演出團體",
+      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含彰化與演出。",
+      "keywords": "Cube Harmonica Ensemble 彰化 Taiwan 口琴樂團",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cubeharmonicaensemble/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "CHE",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_cubeharmonicaensemble",
+          "name": "Cube Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "cubeharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/cubeharmonicaensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_cubeharmonicaensemble",
+          "name": "Cube Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "cubeharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/cubeharmonicaensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/cubeharmonicaensemble/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-13",
       "publicId": "13",
       "name": "DoNuts 口琴樂團",
@@ -12428,6 +12481,59 @@
       "sourceTags": [
         "團體樂團",
         "國際交流"
+      ]
+    },
+    {
+      "id": "watchlist-236",
+      "publicId": "236",
+      "name": "Neon Light Harmonica Ensemble",
+      "nameEn": "Neon Light Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴重奏/活動演出/新生代團體",
+      "structuredSummary": "口琴重奏/活動演出/新生代團體 / 口琴重奏/合奏 / 演出團體",
+      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含活動演出與新生代團體。",
+      "keywords": "Neon Light Harmonica Ensemble neonlight_harmonica 臺灣 口琴樂團 活動演出",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/neonlight_harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "NLH",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_neonlight_harmonica",
+          "name": "Neon Light Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "neonlight_harmonica",
+          "profileUrl": "https://www.instagram.com/neonlight_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_neonlight_harmonica",
+          "name": "Neon Light Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "neonlight_harmonica",
+          "profileUrl": "https://www.instagram.com/neonlight_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/neonlight_harmonica/story/0"
+        }
       ]
     },
     {
@@ -12805,6 +12911,60 @@
       ]
     },
     {
+      "id": "watchlist-235",
+      "publicId": "235",
+      "name": "真南人口琴樂團",
+      "nameEn": "The Souther Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "學生重奏/新生代團體/演出",
+      "structuredSummary": "學生重奏/新生代團體/演出 / 半音階/低音/和弦/口琴重奏 / 演出團體",
+      "summary": "臺灣的半音階、低音、和弦與口琴重奏演出團體，活動脈絡包含學生重奏、新生代團體與演出。",
+      "keywords": "真南人口琴樂團 The Souther Harmonica Ensemble Chromatic Bass Chord",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/the_souther__harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "真南",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_the_souther_harmonica",
+          "name": "真南人口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "the_souther__harmonica",
+          "profileUrl": "https://www.instagram.com/the_souther__harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/the_souther__harmonica/story/0"
+        },
+        {
+          "id": "ig_the_souther_harmonica",
+          "name": "真南人口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "the_souther__harmonica",
+          "profileUrl": "https://www.instagram.com/the_souther__harmonica/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-8",
       "publicId": "8",
       "name": "臺中市中華口琴會",
@@ -12863,6 +13023,60 @@
           "username": "",
           "profileUrl": "https://youtube.com/@%E5%8F%B0%E4%B8%AD%E5%B8%82%E4%B8%AD%E8%8F%AF%E5%8F%A3%E7%90%B4%E6%9C%83",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-233",
+      "publicId": "233",
+      "name": "還沒想好口琴樂團",
+      "nameEn": "No Idea Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "學生重奏/新生代團體/演出",
+      "structuredSummary": "學生重奏/新生代團體/演出 / 半音階/低音/和弦/口琴重奏 / 演出團體",
+      "summary": "臺灣的半音階、低音、和弦與口琴重奏演出團體，活動脈絡包含學生重奏、新生代團體與演出。",
+      "keywords": "還沒想好口琴樂團 No Idea Harmonica Ensemble 半音階 Bass Chord",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/no_idea_harmonica1024/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "還沒",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_no_idea_harmonica1024",
+          "name": "還沒想好口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "no_idea_harmonica1024",
+          "profileUrl": "https://www.instagram.com/no_idea_harmonica1024/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_no_idea_harmonica1024",
+          "name": "還沒想好口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "no_idea_harmonica1024",
+          "profileUrl": "https://www.instagram.com/no_idea_harmonica1024/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/no_idea_harmonica1024/story/0"
         }
       ]
     },
@@ -13016,6 +13230,59 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UC9ts62VuB0WSSVDQW_h3H_g",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-228",
+      "publicId": "228",
+      "name": "2026臺中一中口琴社校友音樂會",
+      "nameEn": "2026 TCFSH Harmonica Alumni Concert",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "活動/資訊入口",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "校友音樂會/公演/中一中口琴社/2026",
+      "structuredSummary": "校友音樂會/公演/中一中口琴社/2026 / 口琴重奏/合奏 / 活動資訊來源",
+      "summary": "臺灣的口琴重奏與合奏活動資訊來源。",
+      "keywords": "2026臺中一中口琴社校友音樂會 中一中口琴社校友會 天琴聲等煙雨 大墩文化中心",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/tcfsh_harmonica_alumni/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "2",
+      "sourceTags": [
+        "學生社團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_tcfsh_harmonica_alumni",
+          "name": "2026臺中一中口琴社校友音樂會",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "tcfsh_harmonica_alumni",
+          "profileUrl": "https://www.instagram.com/tcfsh_harmonica_alumni/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/tcfsh_harmonica_alumni/story/0"
+        },
+        {
+          "id": "ig_tcfsh_harmonica_alumni",
+          "name": "2026臺中一中口琴社校友音樂會",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "tcfsh_harmonica_alumni",
+          "profileUrl": "https://www.instagram.com/tcfsh_harmonica_alumni/",
           "feedUrl": ""
         }
       ]
@@ -13552,6 +13819,72 @@
       ]
     },
     {
+      "id": "watchlist-232",
+      "publicId": "232",
+      "name": "高醫萌風口琴社",
+      "nameEn": "KMU Mon Harmonica Club",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "cityOrFocus": "高雄醫學大學/學校社團/社課/招生",
+      "structuredSummary": "高雄醫學大學/學校社團/社課/招生 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "高醫萌風口琴社 KMU Mon Harmonica Club 高雄醫學大學 口琴社",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kmumonharmonicaclub"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kmu.m.f.harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "高醫",
+      "sourceTags": [
+        "學生社團",
+        "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_kmumonharmonicaclub",
+          "name": "高醫萌風口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/kmumonharmonicaclub",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_kmu_m_f_harmonica",
+          "name": "高醫萌風口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "kmu.m.f.harmonica",
+          "profileUrl": "https://www.instagram.com/kmu.m.f.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_kmu_m_f_harmonica",
+          "name": "高醫萌風口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "kmu.m.f.harmonica",
+          "profileUrl": "https://www.instagram.com/kmu.m.f.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/kmu.m.f.harmonica/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-207",
       "publicId": "207",
       "name": "鹿兒島大學ハーモニカバンド",
@@ -13618,6 +13951,124 @@
           "username": "kadaihamoban",
           "profileUrl": "https://x.com/kadaihamoban",
           "feedUrl": "https://rss.observe.tw/twitter/user/kadaihamoban"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-234",
+      "publicId": "234",
+      "name": "Harmonica Addict",
+      "nameEn": "Harmonica Addict",
+      "category": "教學器材",
+      "type": "個人",
+      "originalType": "教學/資訊入口",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/現代爵士/教學/教材",
+      "structuredSummary": "半音階/現代爵士/教學/教材 / 半音階口琴 / 演出人員/教育者",
+      "summary": "香港的半音階口琴演出人員與教育者，關注半音階、現代爵士、教學與教材。",
+      "keywords": "Harmonica Addict chromatic harmonica CUHK BUHK Ginger Muse 教學",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.gingermuse.com/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_addict/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "HA",
+      "sourceTags": [
+        "教學器材",
+        "演奏者",
+        "教學",
+        "半音階"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_harmonica_addict",
+          "name": "Harmonica Addict",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_addict",
+          "profileUrl": "https://www.instagram.com/harmonica_addict/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_addict",
+          "name": "Harmonica Addict",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_addict",
+          "profileUrl": "https://www.instagram.com/harmonica_addict/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_addict/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-229",
+      "publicId": "229",
+      "name": "Hohner Harmonica",
+      "nameEn": "Hohner Harmonica",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌/樂器製造商",
+      "country": "德國",
+      "region": "德國/國際",
+      "cityOrFocus": "口琴製造/產品資訊/演奏推廣/國際社群",
+      "structuredSummary": "口琴製造/產品資訊/演奏推廣/國際社群 / 口琴 / 器材品牌",
+      "summary": "德國的口琴器材品牌，關注口琴製造、產品資訊、演奏推廣與國際社群。",
+      "keywords": "Hohner Harmonica HOHNER 口琴 品牌 德國",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/hohnermusic"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hohnerharmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "HH",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_hohnerharmonica",
+          "name": "Hohner Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hohnerharmonica",
+          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hohnerharmonica",
+          "name": "Hohner Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hohnerharmonica",
+          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerharmonica/story/0"
         }
       ]
     },
@@ -14628,6 +15079,60 @@
       ]
     },
     {
+      "id": "watchlist-237",
+      "publicId": "237",
+      "name": "Wilson Liao",
+      "nameEn": "Wilson Liao",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "Dr. Blue/學生重奏/演出",
+      "structuredSummary": "Dr. Blue/學生重奏/演出 / 口琴 / 演出人員/樂團成員",
+      "summary": "臺灣的口琴演出人員與樂團成員，活動脈絡包含Dr. Blue、學生重奏與演出。",
+      "keywords": "Wilson Liao weiyuliao1 Dr. Blue Harmonica Ensemble NTU 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weiyuliao1/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "WL",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_weiyuliao1",
+          "name": "Wilson Liao",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weiyuliao1",
+          "profileUrl": "https://www.instagram.com/weiyuliao1/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weiyuliao1/story/0"
+        },
+        {
+          "id": "ig_weiyuliao1",
+          "name": "Wilson Liao",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weiyuliao1",
+          "profileUrl": "https://www.instagram.com/weiyuliao1/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-123",
       "publicId": "123",
       "name": "Yuanmao Wang",
@@ -14779,6 +15284,166 @@
       ]
     },
     {
+      "id": "watchlist-238",
+      "publicId": "238",
+      "name": "蔡培婷",
+      "nameEn": "Pei-Ting Tsai",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "口琴演奏/學生音樂/個人帳號",
+      "structuredSummary": "口琴演奏/學生音樂/個人帳號 / 口琴 / 演出人員",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含口琴演奏、學生音樂與個人帳號。",
+      "keywords": "蔡培婷 Pei-Ting Tsai r83350 Harmonica player NYUST NYCU 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/r83350/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "蔡培",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_r83350",
+          "name": "蔡培婷",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "r83350",
+          "profileUrl": "https://www.instagram.com/r83350/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_r83350",
+          "name": "蔡培婷",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "r83350",
+          "profileUrl": "https://www.instagram.com/r83350/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/r83350/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-240",
+      "publicId": "240",
+      "name": "蔡牧熹",
+      "nameEn": "Mu-Xi Tsai",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "Dr. Blue/錄音/學生重奏/演出",
+      "structuredSummary": "Dr. Blue/錄音/學生重奏/演出 / 和弦口琴 / 演出人員/樂團成員/錄音工作者",
+      "summary": "臺灣的和弦口琴演出人員、樂團成員與錄音工作者，活動脈絡包含Dr. Blue、錄音與學生重奏。",
+      "keywords": "蔡牧熹 Mu-Xi Tsai mushitsai Harmonica chord player Dr. Blue 錄音",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/mushitsai/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "蔡牧",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_mushitsai",
+          "name": "蔡牧熹",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "mushitsai",
+          "profileUrl": "https://www.instagram.com/mushitsai/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_mushitsai",
+          "name": "蔡牧熹",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "mushitsai",
+          "profileUrl": "https://www.instagram.com/mushitsai/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/mushitsai/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-239",
+      "publicId": "239",
+      "name": "邴國榮",
+      "nameEn": "Bing Guo-Rong",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "Dr. Blue/學生重奏/演出",
+      "structuredSummary": "Dr. Blue/學生重奏/演出 / 口琴 / 演出人員/樂團成員",
+      "summary": "臺灣的口琴演出人員與樂團成員，活動脈絡包含Dr. Blue、學生重奏與演出。",
+      "keywords": "邴國榮 Bing Guo-Rong xdgaste Dr. Blue Harmonica Ensemble 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/xdgaste/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "邴國",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_xdgaste",
+          "name": "邴國榮",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "xdgaste",
+          "profileUrl": "https://www.instagram.com/xdgaste/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/xdgaste/story/0"
+        },
+        {
+          "id": "ig_xdgaste",
+          "name": "邴國榮",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "xdgaste",
+          "profileUrl": "https://www.instagram.com/xdgaste/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-35",
       "publicId": "35",
       "name": "陳奕翔",
@@ -14826,6 +15491,60 @@
           "username": "",
           "profileUrl": "https://facebook.com/aria0831",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-230",
+      "publicId": "230",
+      "name": "陳立強 Johnny Chen",
+      "nameEn": "Johnny Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "台大藍聲/Dr. Blue/學生重奏/演出",
+      "structuredSummary": "台大藍聲/Dr. Blue/學生重奏/演出 / 口琴 / 演出人員/樂團成員",
+      "summary": "臺灣的口琴演出人員與樂團成員，活動脈絡包含台大藍聲、Dr. Blue與學生重奏。",
+      "keywords": "陳立強 Johnny Chen harmonica_johnny 台大藍聲 Dr. Blue Harmonica Ensemble",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_johnny/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "",
+      "sourceInitials": "JC",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_harmonica_johnny",
+          "name": "陳立強 Johnny Chen",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_johnny",
+          "profileUrl": "https://www.instagram.com/harmonica_johnny/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_johnny",
+          "name": "陳立強 Johnny Chen",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_johnny",
+          "profileUrl": "https://www.instagram.com/harmonica_johnny/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_johnny/story/0"
         }
       ]
     },
