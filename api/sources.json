@@ -7,11 +7,11 @@
     "categories": {
       "其他來源": 2,
       "國際交流": 13,
-      "團體樂團": 79,
+      "團體樂團": 76,
       "場館平台": 7,
       "學校社團": 40,
       "教學器材": 26,
-      "活動資訊": 36,
+      "活動資訊": 39,
       "演奏者": 110
     },
     "countries": {
@@ -35,14 +35,14 @@
       "瑞士": 1,
       "紐西蘭": 1,
       "美國": 7,
-      "臺灣": 132,
+      "臺灣": 131,
       "英國": 3,
       "荷蘭": 1,
       "菲律賓": 1,
       "西班牙": 2,
       "阿根廷": 4,
       "韓國": 23,
-      "香港": 26,
+      "香港": 27,
       "馬來西亞": 14
     },
     "watchSources": {
@@ -5650,11 +5650,15 @@
       "originalType": "團體",
       "country": "馬來西亞",
       "region": "馬來西亞",
-      "cityOrFocus": "口琴重奏/公演/合作演出",
-      "structuredSummary": "口琴重奏/公演/合作演出 / 口琴重奏/合奏 / 國際演出團體",
-      "summary": "馬來西亞的口琴重奏與合奏國際演出團體，活動脈絡包含公演與合作演出。",
-      "keywords": "Leafin Harmonica Ensemble _leafin_harmonicaensemble harmonica Malaysia",
+      "cityOrFocus": "青年口琴重奏/大學與社區舞台/2025世界口琴節成人三重奏第七名（優秀評等）/2026亞太口琴節兩金一銀",
+      "structuredSummary": "青年口琴重奏/大學與社區舞台/2025世界口琴節成人三重奏第七名（優秀評等）/2026亞太口琴節兩金一銀 / 口琴三重奏/口琴合奏 / 國際演出團體/青年團體",
+      "summary": "馬來西亞的口琴三重奏與口琴合奏國際演出團體與青年團體，活動脈絡包含青年口琴重奏、大學與社區舞台與2025世界口琴節成人三重奏第七名（優秀評等）。",
+      "keywords": "Leafin Harmonica Ensemble Malaysia harmonica youth trio WHF 2025 seventh outstanding APHF 2026 two gold one silver",
       "links": [
+        {
+          "label": "網站",
+          "url": "https://worldharmonicafestival.de/wp-content/uploads/2025/11/whf-2025_final-results.pdf"
+        },
         {
           "label": "Facebook",
           "url": "https://www.facebook.com/61573180934784/"
@@ -7889,15 +7893,15 @@
       "publicId": "222",
       "name": "Do Not Disturb Harmonica Ensemble",
       "nameEn": "Do Not Disturb Harmonica Ensemble",
-      "category": "團體樂團",
+      "category": "活動資訊",
       "type": "團體",
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "重奏/公演/新生代團體",
-      "structuredSummary": "重奏/公演/新生代團體 / 半音階/低音/和弦/口琴重奏 / 演出團體",
-      "summary": "臺灣的半音階、低音、和弦與口琴重奏演出團體，活動脈絡包含重奏、公演與新生代團體。",
-      "keywords": "Do Not Disturb Harmonica Ensemble donotdisturbharmonicaensemble 口琴 重奏 THMF 臺灣口琴音樂節",
+      "cityOrFocus": "新生代口琴重奏/半音階、低音與和弦口琴編制/2026臺灣口琴音樂節前導音樂會與午間音樂會演出",
+      "structuredSummary": "新生代口琴重奏/半音階、低音與和弦口琴編制/2026臺灣口琴音樂節前導音樂會與午間音樂會演出 / 半音階口琴/低音口琴/和弦口琴/口琴重奏 / 演出團體/青年團體",
+      "summary": "臺灣的演出團體與青年團體，涵蓋新生代口琴重奏、半音階、低音與和弦口琴編制與2026臺灣口琴音樂節前導音樂會與午間音樂會演出。",
+      "keywords": "Do Not Disturb Harmonica Ensemble donotdisturbharmonicaensemble 口琴 重奏 THMF 2026 臺灣口琴音樂節 前導音樂會 午間音樂會",
       "links": [
         {
           "label": "Instagram",
@@ -7913,6 +7917,7 @@
       "avatarUrl": "/assets/source-avatars/d75cc3adca0b092fad08.webp",
       "sourceInitials": "DND",
       "sourceTags": [
+        "活動資訊",
         "團體樂團",
         "音樂節",
         "半音階",
@@ -8192,10 +8197,10 @@
       "originalType": "團體",
       "country": "香港",
       "region": "香港",
-      "cityOrFocus": "香港口琴六重奏/重奏/演出",
-      "structuredSummary": "香港口琴六重奏/重奏/演出 / 半音階/和弦/倍低音/口琴重奏 / 國際演出團體",
-      "summary": "香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。",
-      "keywords": "408 Harmonica Ensemble Hong Kong cy_long biscuit_1217 an_arthur__1 char1am_ ryaantheguy windh_y10 香港 口琴",
+      "cityOrFocus": "香港口琴六重奏/半音階、和弦與倍低音編制/2026首爾國際口琴節比賽與午間音樂會演出",
+      "structuredSummary": "香港口琴六重奏/半音階、和弦與倍低音編制/2026首爾國際口琴節比賽與午間音樂會演出 / 半音階口琴/和弦口琴/倍低音口琴/口琴重奏 / 國際演出團體/青年團體",
+      "summary": "香港的半音階口琴、和弦口琴、倍低音口琴與口琴重奏國際演出團體與青年團體，活動脈絡包含香港口琴六重奏、半音階與和弦與倍低音編制。",
+      "keywords": "408 Harmonica Ensemble Hong Kong cy_long biscuit_1217 an_arthur__1 char1am_ ryaantheguy windh_y10 香港 口琴 SIHF 2026 lunchtime concert",
       "links": [
         {
           "label": "Instagram",
@@ -8212,14 +8217,11 @@
       "sourceInitials": "4HE",
       "sourceTags": [
         "團體樂團",
+        "比賽",
         "半音階",
-        "和弦",
-        "低音",
         "重奏",
-        "演出"
+        "國際交流"
       ],
-      "sourceSummary": "香港口琴六重奏，由四位半音階口琴、和弦口琴與倍低音口琴聲部組成。",
-      "sourceTagReason": "整合自團體官方 Instagram 自介與成員編制貼文。",
       "monitorSources": [
         {
           "id": "ig_408_harmonica",
@@ -8948,39 +8950,46 @@
     {
       "id": "watchlist-226",
       "publicId": "226",
-      "name": "Wesley Harmonica",
-      "nameEn": "Wesley Harmonica",
+      "name": "黃志榮 Wesley Wong",
+      "nameEn": "Wesley Wong",
       "category": "演奏者",
       "type": "個人",
       "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴演出/教學/活動資訊",
-      "structuredSummary": "口琴演出/教學/活動資訊 / 口琴 / 演出人員/教學者",
-      "summary": "臺灣的口琴演出人員與教學者，活動脈絡包含口琴演出、教學與活動資訊。",
-      "keywords": "Wesley Harmonica 口琴 演出 教學 活動",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "香港古典半音階口琴家/香港中文大學音樂系口琴演奏主修/亞太口琴節半音階獨奏公開組冠軍/世界口琴節三重奏冠軍/社區與幼兒口琴教育/香港青年口琴樂團創辦人",
+      "structuredSummary": "香港古典半音階口琴家/香港中文大學音樂系口琴演奏主修/亞太口琴節半音階獨奏公開組冠軍/世界口琴節三重奏冠軍/社區與幼兒口琴教育/香港青年口琴樂團創辦人 / 半音階口琴/口琴重奏 / 國際演出人員/藝術總監/口琴教育者/社區藝術推廣者",
+      "summary": "香港的半音階口琴與口琴重奏國際演出人員、藝術總監與口琴教育者，活動脈絡包含香港古典半音階口琴家、香港中文大學音樂系口琴演奏主修與亞太口琴節半音階獨奏公開組冠軍。",
+      "keywords": "",
       "links": [
         {
           "label": "Facebook",
           "url": "https://www.facebook.com/wesleyharmonica"
+        },
+        {
+          "label": "OPENTIX",
+          "url": "https://abo.gov.hk/en/eventDetail/690"
         }
       ],
       "source": "watchlist",
       "aliases": [],
       "latestUpdateAt": "2026-07-31T02:07:07+00:00",
       "latestUpdateLocal": "2026-07-31 10:07",
-      "latestUpdateSource": "Wesley Harmonica",
+      "latestUpdateSource": "黃志榮 Wesley Wong",
       "latestUpdateUrl": "https://www.facebook.com/reel/1916831842292345/",
       "avatarUrl": "/assets/source-avatars/05e55478cfac6ed0c70e.webp",
-      "sourceInitials": "WH",
+      "sourceInitials": "WW",
       "sourceTags": [
         "演奏者",
-        "教學"
+        "團體樂團",
+        "半音階",
+        "重奏",
+        "國際交流"
       ],
       "monitorSources": [
         {
           "id": "fb_wesleyharmonica",
-          "name": "Wesley Harmonica",
+          "name": "黃志榮 Wesley Wong",
           "platform": "facebook",
           "type": "facebook_page_posts",
           "username": "",
@@ -9821,11 +9830,15 @@
       "originalType": "團體/個人",
       "country": "以色列",
       "region": "以色列",
-      "cityOrFocus": "三重奏/與 Judy’s 合作",
-      "structuredSummary": "三重奏/與 Judy’s 合作 / 口琴重奏 / 國際演出人員/團體",
-      "summary": "以色列的口琴重奏國際演出人員與團體，活動脈絡包含三重奏與與 Judy’s 合作。",
-      "keywords": "Dror Adler Adler Trio harmonica",
+      "cityOrFocus": "1963年成立的以色列口琴三重奏/Dror Adler創團並演奏和弦口琴/半音階、和弦與低音口琴編制/古典、流行、爵士、民族與世界音樂/與Judy’s合作",
+      "structuredSummary": "1963年成立的以色列口琴三重奏/Dror Adler創團並演奏和弦口琴/半音階、和弦與低音口琴編制/古典、流行、爵士、民族與世界音樂/與Judy’s合作 / 和弦口琴/半音階口琴/低音口琴/口琴三重奏 / 國際演出人員/歷史口琴三重奏/創團成員",
+      "summary": "以色列的和弦口琴、半音階口琴、低音口琴與口琴三重奏國際演出人員、歷史口琴三重奏與創團成員，活動脈絡包含1963年成立的以色列口琴三重奏、Dror Adler創團並演奏和弦口琴與半音階。",
+      "keywords": "Dror Adler Adler Trio Israel harmonica chord chromatic bass trio founded 1963 Judy's",
       "links": [
+        {
+          "label": "網站",
+          "url": "https://adlertrio.com/"
+        },
         {
           "label": "Facebook",
           "url": "https://www.facebook.com/dror.adler.7/"
@@ -9845,7 +9858,7 @@
       "sourceInitials": "DAA",
       "sourceTags": [
         "演奏者",
-        "團體樂團",
+        "半音階",
         "重奏",
         "國際交流"
       ],
@@ -12868,59 +12881,6 @@
       ]
     },
     {
-      "id": "watchlist-255",
-      "publicId": "255",
-      "name": "Cookie Monster 口琴二重奏",
-      "nameEn": "Cookie Monster Harmonica Duo",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "新生代口琴二重奏/THMF/WHF",
-      "structuredSummary": "新生代口琴二重奏/THMF/WHF / 口琴二重奏 / 演出團體",
-      "summary": "臺灣的口琴二重奏演出團體，活動脈絡包含新生代口琴二重奏、THMF與WHF。",
-      "keywords": "Cookie Monster harmonica duo 陳若芸 李沛寧 THMF WHF",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/cookiemonster_harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/8947e97ec5d7b40247b0.webp",
-      "sourceInitials": "CM",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_cookiemonster_harmonica",
-          "name": "Cookie Monster 口琴二重奏",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "cookiemonster_harmonica",
-          "profileUrl": "https://www.instagram.com/cookiemonster_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_cookiemonster_harmonica",
-          "name": "Cookie Monster 口琴二重奏",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "cookiemonster_harmonica",
-          "profileUrl": "https://www.instagram.com/cookiemonster_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/cookiemonster_harmonica/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-134",
       "publicId": "134",
       "name": "Crossover Harmonica Ensemble",
@@ -13402,11 +13362,15 @@
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "口琴重奏/活動演出/新生代團體",
-      "structuredSummary": "口琴重奏/活動演出/新生代團體 / 口琴重奏/合奏 / 演出團體",
-      "summary": "臺灣的口琴重奏與合奏演出團體，活動脈絡包含活動演出與新生代團體。",
-      "keywords": "Neon Light Harmonica Ensemble neonlight_harmonica 臺灣 口琴樂團 活動演出",
+      "cityOrFocus": "臺灣青年口琴重奏/2025海峽兩岸（蕉城）口琴文化週文藝匯演/與天狼星、胖擊及寧德團隊同台/兩岸百人口琴合奏",
+      "structuredSummary": "臺灣青年口琴重奏/2025海峽兩岸（蕉城）口琴文化週文藝匯演/與天狼星、胖擊及寧德團隊同台/兩岸百人口琴合奏 / 口琴重奏/口琴合奏 / 演出團體/兩岸交流團體",
+      "summary": "臺灣的口琴重奏與口琴合奏演出團體與兩岸交流團體，活動脈絡包含臺灣青年口琴重奏、2025海峽兩岸（蕉城）口琴文化週文藝匯演與與天狼星。",
+      "keywords": "Neon Light Harmonica Ensemble Neon lights neonlight_harmonica 臺灣 口琴樂團 2025 海峽兩岸 蕉城 口琴文化週 福建 寧德 天狼星 胖擊",
       "links": [
+        {
+          "label": "網站",
+          "url": "https://wlt.fujian.gov.cn/wldt/tsdt/202507/t20250721_6969399.htm"
+        },
         {
           "label": "Instagram",
           "url": "https://www.instagram.com/neonlight_harmonica/"
@@ -14797,41 +14761,6 @@
           "profileUrl": "https://youtube.com/@SeoulHarmonicaOrchestra",
           "feedUrl": ""
         }
-      ]
-    },
-    {
-      "id": "watchlist-270",
-      "publicId": "270",
-      "name": "首爾獨奏家口琴樂團",
-      "nameEn": "Seoul Soloists Harmonica Orchestra",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "韓國",
-      "region": "韓國/首爾",
-      "cityOrFocus": "朴鍾聲核心獨奏家樂團/Seokhwa Bang/Seokbeom Jang/Monica J/Seokhoon Bang/Hangyeol Lee/Choi Heejung/THMF 2026",
-      "structuredSummary": "朴鍾聲核心獨奏家樂團/Seokhwa Bang/Seokbeom Jang/Monica J/Seokhoon Bang/Hangyeol Lee/Choi Heejung/THMF 2026 / 半音階/複音/口琴合奏 / 國際演出團體",
-      "summary": "韓國的半音階、複音與口琴合奏國際演出團體，活動脈絡包含朴鍾聲核心獨奏家樂團、Seokhwa Bang與Seokbeom Jang。",
-      "keywords": "Seoul Soloists Harmonica Orchestra SSHO 朴鍾聲 Seokhwa Bang Seokbeom Jang Monica J Seokhoon Bang Hangyeol Lee Choi Heejung THMF 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.taiwanharmonica.com/2026artists-midday"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/e72ddd5344fd22dc28b0.webp",
-      "sourceInitials": "首爾",
-      "sourceTags": [
-        "團體樂團",
-        "半音階",
-        "複音",
-        "國際交流"
       ]
     },
     {
@@ -16609,6 +16538,67 @@
       ]
     },
     {
+      "id": "watchlist-255",
+      "publicId": "255",
+      "name": "Cookie Monster 口琴二重奏",
+      "nameEn": "Cookie Monster Harmonica Duo",
+      "category": "活動資訊",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "陳若芸與李沛寧組成的新生代二重奏/臺灣口琴音樂節演出/2025世界口琴節成人二重奏並列第七名（優秀評等）",
+      "structuredSummary": "陳若芸與李沛寧組成的新生代二重奏/臺灣口琴音樂節演出/2025世界口琴節成人二重奏並列第七名（優秀評等） / 半音階口琴/口琴二重奏 / 國際賽事演出團體/青年團體",
+      "summary": "臺灣的國際賽事演出團體與青年團體，涵蓋陳若芸與李沛寧組成的新生代二重奏、臺灣口琴音樂節演出與2025世界口琴節成人二重奏並列第七名（優秀評等）。",
+      "keywords": "Cookie Monster harmonica duo 陳若芸 李沛寧 THMF WHF 2025 duet seventh outstanding",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://worldharmonicafestival.de/wp-content/uploads/2025/11/whf-2025_final-results.pdf"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cookiemonster_harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/8947e97ec5d7b40247b0.webp",
+      "sourceInitials": "CM",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "音樂節",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_cookiemonster_harmonica",
+          "name": "Cookie Monster 口琴二重奏",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "cookiemonster_harmonica",
+          "profileUrl": "https://www.instagram.com/cookiemonster_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_cookiemonster_harmonica",
+          "name": "Cookie Monster 口琴二重奏",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "cookiemonster_harmonica",
+          "profileUrl": "https://www.instagram.com/cookiemonster_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/cookiemonster_harmonica/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-84",
       "publicId": "84",
       "name": "From Harmonica to Music",
@@ -17462,6 +17452,42 @@
       ]
     },
     {
+      "id": "watchlist-270",
+      "publicId": "270",
+      "name": "首爾獨奏家口琴樂團",
+      "nameEn": "Seoul Soloists Harmonica Orchestra",
+      "category": "活動資訊",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "朴鍾聲指揮的完整口琴樂團/半音階、和弦與低音聲部/2024首爾定期公演/2025世界口琴節成人團體與口琴樂團雙冠軍/2026臺灣口琴音樂節演出",
+      "structuredSummary": "朴鍾聲指揮的完整口琴樂團/半音階、和弦與低音聲部/2024首爾定期公演/2025世界口琴節成人團體與口琴樂團雙冠軍/2026臺灣口琴音樂節演出 / 半音階口琴/和弦口琴/低音口琴/口琴樂團 / 世界冠軍口琴樂團/國際演出團體",
+      "summary": "韓國的世界冠軍口琴樂團與國際演出團體，涵蓋朴鍾聲指揮的完整口琴樂團、半音階、和弦與低音聲部、2024首爾定期公演與2025世界口琴節成人團體與口琴樂團雙冠軍。",
+      "keywords": "首爾獨奏家口琴樂團 Seoul Soloists Harmonica Orchestra SSHO 朴鍾聲 Park Jongseong WHF 2025 group orchestra champion THMF 2026 Seoul concert",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=149308&menuNo=200110"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/e72ddd5344fd22dc28b0.webp",
+      "sourceInitials": "首爾",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "音樂節",
+        "半音階",
+        "國際交流"
+      ]
+    },
+    {
       "id": "watchlist-160",
       "publicId": "160",
       "name": "香港國際半音階口琴大賽",
@@ -17808,12 +17834,16 @@
       "type": "個人",
       "originalType": "個人",
       "country": "美國",
-      "region": "歐洲",
-      "cityOrFocus": "歐洲發展的美式藍調樂團/口琴與吉他/Trance Blues",
-      "structuredSummary": "歐洲發展的美式藍調樂團/口琴與吉他/Trance Blues / 十孔/藍調口琴 / 國際演出人員",
-      "summary": "美國的十孔與藍調口琴國際演出人員，活動脈絡包含歐洲發展的美式藍調樂團、口琴與吉他與Trance Blues。",
-      "keywords": "Keith Dunn Band blues harmonica SIHF",
+      "region": "美國/荷蘭/歐洲",
+      "cityOrFocus": "波士頓出身並旅居荷蘭的藍調口琴家、歌手與製作人/原聲與電聲藍調/Trance Blues/Alone With The Blues與Walter Davis致敬企劃/歐洲巡演",
+      "structuredSummary": "波士頓出身並旅居荷蘭的藍調口琴家、歌手與製作人/原聲與電聲藍調/Trance Blues/Alone With The Blues與Walter Davis致敬企劃/歐洲巡演 / 十孔口琴/藍調口琴/歌唱 / 國際演出人員/歌手/詞曲作者/唱片製作人",
+      "summary": "美國的十孔口琴、藍調口琴與歌唱國際演出人員、歌手與詞曲作者，活動脈絡包含波士頓出身並旅居荷蘭的藍調口琴家、歌手與製作人與原聲與電聲藍調。",
+      "keywords": "Keith Dunn Band Boston Netherlands blues harmonica singer producer songwriter Trance Blues Alone With The Blues SIHF",
       "links": [
+        {
+          "label": "網站",
+          "url": "https://www.keithdunn.com/"
+        },
         {
           "label": "Facebook",
           "url": "https://www.facebook.com/keithdunnband/"
@@ -17833,7 +17863,6 @@
       "sourceInitials": "KD",
       "sourceTags": [
         "演奏者",
-        "團體樂團",
         "十孔",
         "國際交流"
       ],
