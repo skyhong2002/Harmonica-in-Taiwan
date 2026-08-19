@@ -52,6 +52,30 @@ SOURCE_API_PHONE_RE = re.compile(r"(?<!\d)(?:\+?886[-\s]?|0)(?:\d[-\s]?){8,10}(?
 SOURCE_API_INTERNAL_PATH_RE = re.compile(r"(?:^|\s)(?:/Users/|/home/|/var/|[A-Za-z]:\\)")
 SOURCE_API_URL_RE = re.compile(r"https?://\S+", re.IGNORECASE)
 
+# Keep canonical URLs stable when metadata enrichment adds an English name.
+SOURCE_SLUG_OVERRIDES = {
+    "7": "7",
+    "8": "8",
+    "12": "12",
+    "13": "13-donuts",
+    "15": "15",
+    "16": "16-dr-blue",
+    "19": "19-bbg",
+    "20": "20-miss-h",
+    "21": "21-orion",
+    "72": "72",
+    "73": "73",
+    "74": "74-opentix",
+    "75": "75",
+    "76": "76",
+    "77": "77",
+    "78": "78",
+    "79": "79",
+    "80": "80",
+    "96": "96",
+    "97": "97",
+}
+
 # Shared HTML parts
 HEADER_HTML = site_chrome.render_header()
 
@@ -1245,6 +1269,8 @@ def generate_scores_category_page(category: str, items: list[dict[str, Any]]) ->
 
 def make_slug(entry: dict[str, Any]) -> str:
     entry_id = source_public_id(entry)
+    if entry_id in SOURCE_SLUG_OVERRIDES:
+        return SOURCE_SLUG_OVERRIDES[entry_id]
     name_en = clean(entry.get("nameEn"))
     name = clean(entry.get("name"))
     text = name_en if name_en else name

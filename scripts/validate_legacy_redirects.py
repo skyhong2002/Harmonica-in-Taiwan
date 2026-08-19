@@ -39,6 +39,29 @@ LIVE_REPRESENTATIVES = [
     ("/source/watchlist-27%2Bwatchlist-94-peacetones-harmonica/", "/source/27-peacetones-harmonica/"),
 ]
 
+SOURCE_SLUG_OVERRIDES = {
+    "7": "7",
+    "8": "8",
+    "12": "12",
+    "13": "13-donuts",
+    "15": "15",
+    "16": "16-dr-blue",
+    "19": "19-bbg",
+    "20": "20-miss-h",
+    "21": "21-orion",
+    "72": "72",
+    "73": "73",
+    "74": "74-opentix",
+    "75": "75",
+    "76": "76",
+    "77": "77",
+    "78": "78",
+    "79": "79",
+    "80": "80",
+    "96": "96",
+    "97": "97",
+}
+
 
 def clean(value: str | None) -> str:
     return (value or "").strip()
@@ -54,6 +77,8 @@ def source_public_id(entry: dict[str, Any]) -> str:
 
 def make_slug(entry: dict[str, Any]) -> str:
     entry_id = source_public_id(entry)
+    if entry_id in SOURCE_SLUG_OVERRIDES:
+        return SOURCE_SLUG_OVERRIDES[entry_id]
     text = clean(entry.get("nameEn")) or clean(entry.get("name"))
     text = re.sub(r"[^a-z0-9]+", "-", text.casefold()).strip("-")
     return f"{entry_id}-{text}" if text else entry_id

@@ -39,6 +39,17 @@ class SourceProfileMatchingTests(unittest.TestCase):
 
         self.assertIn(MODULE.normalize_key("Breathe with the Harmonica"), keys)
 
+    def test_aphf_profile_covers_related_people_and_ensemble(self) -> None:
+        keys = MODULE.profile_match_keys(
+            {
+                "id": "manual_aphf_2026",
+                "name": "亞太口琴節暨華夏口琴藝術節",
+            }
+        )
+
+        self.assertIn(MODULE.normalize_key("傅泓亮"), keys)
+        self.assertIn(MODULE.normalize_key("中國大眾音協口琴樂團"), keys)
+
 
 if __name__ == "__main__":
     unittest.main()

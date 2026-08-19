@@ -32,6 +32,19 @@ AVATAR_PLATFORM_PRIORITY = {
 DEFAULT_AVATAR_PLATFORM_PRIORITY = 99
 PROFILE_ID_ALIASES = {
     "ig_hkharmonica": ("Breathe with the Harmonica",),
+    "ig_ntubluesound": ("臺灣口琴樂團",),
+    "ig_taiwanharmonica": (
+        "BBG 口琴三重奏",
+        "Miss H. 口琴樂團",
+        "Orion 口琴樂團",
+        "Golden Bird Harmonica",
+    ),
+    "yt_sihf_uv5mk": (
+        "Choi Suhong 최수홍",
+        "Crossover Harmonica Ensemble",
+        "Chishu Huang",
+        "Project X",
+    ),
     "manual_aphf_2026": (
         "第五屆華夏（寧德）口琴藝術周",
         "第二屆「敦煌杯」線上口琴大賽",
@@ -40,6 +53,8 @@ PROFILE_ID_ALIASES = {
         "濟南大眾口琴樂團",
         "鄭州大眾口琴樂團",
         "上海豫園口琴樂團",
+        "傅泓亮",
+        "中國大眾音協口琴樂團",
     ),
     "manual_china_harmonica_committee": (
         "中國大眾音樂協會口琴考級網",
@@ -871,9 +886,13 @@ def avatar_profiles_by_key() -> dict[str, dict[str, Any]]:
         return {}
 
     by_key: dict[str, dict[str, Any]] = {}
-    for profile in profiles.values():
+    for profile_id, profile in profiles.items():
         if not isinstance(profile, dict):
             continue
+        # The cache is keyed by source ID, while older cached payloads do not
+        # repeat that ID inside the value.  Restore it before alias matching so
+        # durable PROFILE_ID_ALIASES work for both old and new cache records.
+        profile = {"id": str(profile_id), **profile}
         platform = profile_platform(profile)
         source_name = str(profile.get("name") or profile.get("title") or "")
         avatar = cached_avatar_url(
