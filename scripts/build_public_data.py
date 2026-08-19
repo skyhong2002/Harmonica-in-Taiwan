@@ -40,6 +40,7 @@ CURATED_SOURCE_AVATARS = {
     "陳詩霖": "chen-shilin.png",
     "張雅誥": "chong-ah-kow.png",
     "黃浚宇": "wong-chun-yu.png",
+    "楊樂": "le-yang.jpg",
 }
 TAIPEI_TZ = timezone(timedelta(hours=8))
 AVATAR_PLATFORM_PRIORITY = {
