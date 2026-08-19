@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T05:51:20+08:00",
+  "generatedAt": "2026-08-20T05:55:41+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "degraded",
@@ -7,12 +7,12 @@
     "summary": "核心 pipeline 有產出；需要注意：YouTube yt-dlp。 Instagram RSSHub 目前依排程或預算節流。"
   },
   "metrics": {
-    "updates": 3813,
+    "updates": 3812,
     "updatesWindowDays": 30,
     "directoryEntries": 310,
     "watchSources": 681,
     "currentErrors": 0,
-    "latestDataAt": "2026-08-20T05:51:18+08:00",
+    "latestDataAt": "2026-08-20T05:55:39+08:00",
     "latestSocialObservationAt": "2026-08-20T05:42:52+08:00"
   },
   "watchSources": {
@@ -71,7 +71,7 @@
       "label": "正常",
       "summary": "定期 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-08-20 05:51:18",
+        "最新公開資料：2026-08-20 05:55:39",
         "pipeline.log 更新：2026-07-12 02:58:29",
         "pipeline.err.log 更新：2026-07-11 14:33:03",
         "LaunchAgent：not running，last exit 0"
@@ -82,7 +82,7 @@
       "name": "公開 API",
       "status": "ok",
       "label": "正常",
-      "summary": "latest.json 有 3813 筆更新，sources.json 有 310 筆公開目錄。",
+      "summary": "latest.json 有 3812 筆更新，sources.json 有 310 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
         "watch sources：681"
@@ -96,7 +96,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：65 ms"
+        "耗時：48 ms"
       ]
     },
     {
@@ -110,7 +110,7 @@
         "story 無公開內容/空路由略過：0",
         "IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。",
         "本輪 IG：抓取 5、排程略過 343、延後 0、錯誤 0。",
-        "下一個 IG 來源：約 2026-08-20 05:52:58"
+        "下一個 IG 來源：約 2026-08-20 05:57:47"
       ]
     },
     {

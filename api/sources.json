@@ -1769,10 +1769,10 @@
       "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "年輕半音階/複音演奏者",
-      "structuredSummary": "年輕半音階/複音演奏者 / 半音階/複音 / 演出人員",
-      "summary": "年輕臺灣口琴演奏者，專長半音階與複音口琴。",
-      "keywords": "吳采容 口琴",
+      "cityOrFocus": "半音階與複音口琴/2019 SIHF Seoul Major Prize/青年演奏與國際賽事",
+      "structuredSummary": "半音階與複音口琴/2019 SIHF Seoul Major Prize/青年演奏與國際賽事 / 半音階口琴/複音口琴 / 演出人員/國際賽事得獎者",
+      "summary": "臺灣的半音階口琴與複音口琴演出人員與國際賽事得獎者，活動脈絡包含半音階與複音口琴、2019 SIHF Seoul Major Prize與青年演奏與國際賽事。",
+      "keywords": "吳采容 Wu Tsai Rung chromatic tremolo harmonica SIHF 2019 Seoul Major Prize",
       "links": [
         {
           "label": "網站",
@@ -1794,10 +1794,9 @@
       "sourceTags": [
         "演奏者",
         "半音階",
-        "複音"
+        "複音",
+        "國際交流"
       ],
-      "sourceSummary": "年輕臺灣口琴演奏者，專長半音階與複音口琴。",
-      "sourceTagReason": "資料明確標示為『個人』、『演奏者』，並指出專長半音階與複音口琴。",
       "monitorSources": [
         {
           "id": "ig_aurora_harmonica",
@@ -5652,14 +5651,14 @@
       "name": "新加坡國立大學口琴社",
       "nameEn": "NUS Harmonica",
       "category": "學校社團",
-      "type": "學校社團",
+      "type": "團體",
       "originalType": "學校社團",
       "country": "新加坡",
       "region": "新加坡/肯特崗",
-      "cityOrFocus": "新加坡國立大學/學校社團/肯特崗",
-      "structuredSummary": "新加坡國立大學/學校社團/肯特崗 / 口琴樂團/學生合奏 / 學校社團",
-      "summary": "新加坡的口琴樂團與學生合奏學校社團。",
-      "keywords": "新加坡國立大學口琴社 NUS Harmonica NUS Harmonica Orchestra Singapore student harmonica",
+      "cityOrFocus": "1981年成立/約160人學生口琴樂團/多元曲風合奏/校園藝術節與年度演出",
+      "structuredSummary": "1981年成立/約160人學生口琴樂團/多元曲風合奏/校園藝術節與年度演出 / 半音階口琴/和弦口琴/低音口琴/口琴樂團 / 大學學生社團/大型學生口琴樂團",
+      "summary": "新加坡的半音階口琴、和弦口琴、低音口琴與口琴樂團大學學生社團與大型學生口琴樂團。",
+      "keywords": "新加坡國立大學口琴社 NUS Harmonica NUS Harmonica Orchestra 1981 160 members Singapore",
       "links": [
         {
           "label": "網站",
@@ -5689,7 +5688,8 @@
       "sourceTags": [
         "學生社團",
         "大專社團",
-        "團體樂團"
+        "團體樂團",
+        "半音階"
       ],
       "monitorSources": [
         {
@@ -5870,11 +5870,11 @@
       "type": "樂器與器材",
       "originalType": "學校/教學平台",
       "country": "阿根廷",
-      "region": "阿根廷/布宜諾斯艾利斯",
-      "cityOrFocus": "口琴學校/探戈/民俗/藍調/工作坊/學生演出",
-      "structuredSummary": "口琴學校/探戈/民俗/藍調/工作坊/學生演出 / 十孔/半音階/armónica / 國際教育來源",
-      "summary": "阿根廷的十孔、半音階與armónica國際教育來源，關注口琴學校、探戈、民俗、藍調與工作坊。",
-      "keywords": "Escuela de Armónica de Buenos Aires harmonica school Argentina tango blues",
+      "region": "阿根廷/布宜諾斯艾利斯/Chacarita",
+      "cityOrFocus": "2018年由六位教師共同創立/個別與團體課程/全程度教學/工作坊與演出/維修客製/教材",
+      "structuredSummary": "2018年由六位教師共同創立/個別與團體課程/全程度教學/工作坊與演出/維修客製/教材 / 十孔口琴/半音階口琴 / 國際教育來源/口琴維修與教材平台",
+      "summary": "阿根廷的十孔口琴與半音階口琴國際教育來源與口琴維修與教材平台，關注2018年由六位教師共同創立、個別與團體課程、全程度教學、工作坊與演出與維修客製。",
+      "keywords": "Escuela de Armónica de Buenos Aires 2018 Chacarita harmonica school Argentina lessons lutheria",
       "links": [
         {
           "label": "網站",
@@ -5903,7 +5903,9 @@
       "sourceInitials": "布宜",
       "sourceTags": [
         "教學器材",
+        "團體樂團",
         "教學",
+        "課程",
         "半音階",
         "十孔",
         "國際交流"
@@ -7703,10 +7705,10 @@
       "originalType": "學校社團",
       "country": "臺灣",
       "region": "臺灣/新竹",
-      "cityOrFocus": "國立陽明交通大學/學校社團/新竹",
-      "structuredSummary": "國立陽明交通大學/學校社團/新竹 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "陽明交大竹韻口琴社 Bamboo Melody Harmonica Club NYCU 交通大學竹韻口琴社 口琴社",
+      "cityOrFocus": "1968年創立/國立陽明交通大學學生社團/古典與流行口琴教學/獨奏重奏合奏/社內競賽與成果音樂會",
+      "structuredSummary": "1968年創立/國立陽明交通大學學生社團/古典與流行口琴教學/獨奏重奏合奏/社內競賽與成果音樂會 / 半音階口琴/複音口琴/重奏與大合奏 / 大學學生社團/演出與人才培育",
+      "summary": "臺灣的半音階口琴、複音口琴與重奏與大合奏大學學生社團與演出與人才培育。",
+      "keywords": "陽明交大竹韻口琴社 Bamboo Melody Harmonica Club NYCU 交通大學 1968 口琴社",
       "links": [
         {
           "label": "Facebook",
@@ -7731,7 +7733,11 @@
       "sourceInitials": "陽明",
       "sourceTags": [
         "學生社團",
-        "大專社團"
+        "大專社團",
+        "教學",
+        "半音階",
+        "複音",
+        "重奏"
       ],
       "monitorSources": [
         {
@@ -7782,10 +7788,10 @@
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣/臺北",
-      "cityOrFocus": "口琴樂團/年度公演",
-      "structuredSummary": "口琴樂團/年度公演 / 口琴 / 演出團體",
-      "summary": "臺灣的口琴演出團體，活動脈絡包含口琴樂團與年度公演。",
-      "keywords": "臺北黃石口琴樂團 Taipei Yellowstone Harmonica Ensemble 口琴 年度公演",
+      "cityOrFocus": "成立逾34年/年度公演/偏鄉與弱勢公益推廣/盧鴻麟指導",
+      "structuredSummary": "成立逾34年/年度公演/偏鄉與弱勢公益推廣/盧鴻麟指導 / 口琴重奏/口琴合奏 / 演出團體/公益與地方推廣",
+      "summary": "臺灣的口琴重奏與口琴合奏演出團體與公益與地方推廣，活動脈絡包含成立逾34年、年度公演與偏鄉與弱勢公益推廣。",
+      "keywords": "臺北黃石口琴樂團 Taipei Yellowstone Harmonica Ensemble 盧鴻麟 年度公演 公益 偏鄉",
       "links": [
         {
           "label": "Facebook",
@@ -7801,7 +7807,8 @@
       "avatarUrl": "/assets/source-avatars/8693749afc219b639e7f.webp",
       "sourceInitials": "臺北",
       "sourceTags": [
-        "團體樂團"
+        "團體樂團",
+        "重奏"
       ],
       "monitorSources": [
         {
@@ -7965,11 +7972,11 @@
       "type": "活動與比賽",
       "originalType": "活動/資訊入口",
       "country": "美國",
-      "region": "美國/愛達荷",
-      "cityOrFocus": "戶外口琴音樂節/課程/示範/社群演出",
-      "structuredSummary": "戶外口琴音樂節/課程/示範/社群演出 / 口琴 / 國際活動來源",
-      "summary": "美國的國際活動來源，涵蓋戶外口琴音樂節、課程、示範與社群演出。",
-      "keywords": "Yellow Pine Harmonica Festival Idaho harmonica festival",
+      "region": "美國/愛達荷/Yellow Pine",
+      "cityOrFocus": "戶外口琴音樂節/音樂演出、課程與示範/2026年7月30日至8月1日/社群與家庭活動",
+      "structuredSummary": "戶外口琴音樂節/音樂演出、課程與示範/2026年7月30日至8月1日/社群與家庭活動 / 十孔口琴/藍調口琴/多類音樂 / 國際音樂節/課程示範與社群活動來源",
+      "summary": "美國的國際音樂節與課程示範與社群活動來源，涵蓋戶外口琴音樂節、音樂演出、課程與示範、2026年7月30日至8月1日與社群與家庭活動。",
+      "keywords": "Yellow Pine Music Harmonica Festival Idaho 2026 July 30 31 August 1 classes demonstrations",
       "links": [
         {
           "label": "網站",
@@ -7997,6 +8004,7 @@
         "課程",
         "音樂節",
         "比賽",
+        "十孔",
         "國際交流"
       ],
       "monitorSources": [
@@ -8489,11 +8497,11 @@
       "type": "活動與比賽",
       "originalType": "活動/資訊入口",
       "country": "美國",
-      "region": "美國/加州",
-      "cityOrFocus": "美國地方口琴節/藍調口琴/jam/社群比賽",
-      "structuredSummary": "美國地方口琴節/藍調口琴/jam/社群比賽 / 十孔/藍調口琴 / 國際活動來源",
-      "summary": "美國的國際活動來源，涵蓋美國地方口琴節、jam與社群比賽。",
-      "keywords": "Spring Harp Fest harmonica festival La Mesa blues harmonica",
+      "region": "美國/加州/拉米薩",
+      "cityOrFocus": "美國地方藍調口琴節/Jam/社群比賽與演出/2026年4月4日活動",
+      "structuredSummary": "美國地方藍調口琴節/Jam/社群比賽與演出/2026年4月4日活動 / 十孔口琴/藍調口琴 / 國際音樂節/社群活動與演出來源",
+      "summary": "美國的國際音樂節與社群活動與演出來源，涵蓋美國地方藍調口琴節、Jam、社群比賽與演出與2026年4月4日活動。",
+      "keywords": "Spring Harp Fest 2026 April 4 La Mesa blues harmonica festival jam",
       "links": [
         {
           "label": "網站",
@@ -8522,6 +8530,7 @@
       "sourceInitials": "SHF",
       "sourceTags": [
         "活動資訊",
+        "音樂節",
         "比賽",
         "十孔",
         "國際交流"
@@ -10382,10 +10391,10 @@
       "originalType": "學校社團",
       "country": "臺灣",
       "region": "臺灣/臺北",
-      "cityOrFocus": "大學口琴社/成果發表/交流",
-      "structuredSummary": "大學口琴社/成果發表/交流 / 口琴社 / 學校社團",
-      "summary": "臺灣的口琴社學校社團。",
-      "keywords": "台大藍聲口琴社 臺大藍聲口琴社 NTU Blue Sound Harmonica Club 口琴社",
+      "cityOrFocus": "大學口琴社/初學教學與社課/獨奏重奏合奏/成果發表/114學年度全國學生音樂比賽大專團體組特優",
+      "structuredSummary": "大學口琴社/初學教學與社課/獨奏重奏合奏/成果發表/114學年度全國學生音樂比賽大專團體組特優 / 半音階口琴/複音口琴/口琴重奏與合奏 / 大學學生社團/演出與人才培育",
+      "summary": "臺灣的半音階口琴、複音口琴與口琴重奏與合奏大學學生社團與演出與人才培育。",
+      "keywords": "台大藍聲口琴社 NTU Blue Sound Harmonica Club 全國學生音樂比賽 114學年度 大專團體組 特優",
       "links": [
         {
           "label": "網站",
@@ -10414,7 +10423,13 @@
       "sourceInitials": "台大",
       "sourceTags": [
         "學生社團",
-        "大專社團"
+        "大專社團",
+        "團體樂團",
+        "教學",
+        "比賽",
+        "半音階",
+        "複音",
+        "重奏"
       ],
       "monitorSources": [
         {
@@ -10465,10 +10480,10 @@
       "originalType": "學校社團",
       "country": "日本",
       "region": "日本/東京",
-      "cityOrFocus": "早稻田大學/學校社團/東京",
-      "structuredSummary": "早稻田大學/學校社團/東京 / 口琴合奏/ハモソ / 學校社團",
-      "summary": "日本的口琴合奏與ハモソ學校社團。",
-      "keywords": "早稻田大學 ハーモニカ ソサィアティ Waseda Harmonica Society ハモソ 口琴社",
+      "cityOrFocus": "1926年創設/早稻田大學公認學生社團/每年二至三場音樂會/口琴主奏合奏與影音紀錄",
+      "structuredSummary": "1926年創設/早稻田大學公認學生社團/每年二至三場音樂會/口琴主奏合奏與影音紀錄 / 口琴合奏/ハモソ / 大學學生社團/歷史性口琴合奏團",
+      "summary": "日本的口琴合奏與ハモソ大學學生社團與歷史性口琴合奏團。",
+      "keywords": "早稻田大學 ハーモニカ ソサィアティ Waseda Harmonica Society 1926 ハモソ 口琴社",
       "links": [
         {
           "label": "網站",
@@ -10548,10 +10563,10 @@
       "originalType": "團體",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "室內樂/口琴與鋼琴弦樂",
-      "structuredSummary": "室內樂/口琴與鋼琴弦樂 / 口琴/鋼琴/弦樂 / 演出團體",
-      "summary": "臺灣的口琴、鋼琴與弦樂演出團體，活動脈絡包含室內樂與口琴與鋼琴弦樂。",
-      "keywords": "111 Trio 111 Quintet",
+      "cityOrFocus": "口琴與鋼琴弦樂室內樂/2025 WHF公開組111 Duo冠軍與111 Quintet亞軍/跨編制演出",
+      "structuredSummary": "口琴與鋼琴弦樂室內樂/2025 WHF公開組111 Duo冠軍與111 Quintet亞軍/跨編制演出 / 半音階口琴/鋼琴/弦樂 / 國際演出團體/室內樂企劃",
+      "summary": "臺灣的半音階口琴、鋼琴與弦樂國際演出團體與室內樂企劃，活動脈絡包含口琴與鋼琴弦樂室內樂、2025 WHF公開組111 Duo冠軍與111 Quintet亞軍與跨編制演出。",
+      "keywords": "111 Trio 111 Duo 111 Quintet WHF 2025 champion second place chamber music",
       "links": [
         {
           "label": "網站",
@@ -10579,7 +10594,9 @@
       "avatarUrl": "/assets/source-avatars/58200e60bd5b0b58115c.webp",
       "sourceInitials": "1T1",
       "sourceTags": [
-        "團體樂團"
+        "團體樂團",
+        "半音階",
+        "國際交流"
       ],
       "monitorSources": [
         {
@@ -11638,11 +11655,11 @@
       "type": "個人",
       "originalType": "個人",
       "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "臺中系年輕演奏者",
-      "structuredSummary": "臺中系年輕演奏者 / 複音/半音階 / 演出人員",
-      "summary": "臺灣的複音與半音階演出人員，活動脈絡包含臺中系年輕演奏者。",
-      "keywords": "陳柏宏 口琴",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "複音與半音階口琴/2024 SIHF複音獨奏青少年組冠軍/2023 THMF複音獨奏公開組冠軍/博凱愛樂演出",
+      "structuredSummary": "複音與半音階口琴/2024 SIHF複音獨奏青少年組冠軍/2023 THMF複音獨奏公開組冠軍/博凱愛樂演出 / 複音口琴/半音階口琴 / 演出人員/臺中市街頭藝人/國際賽事得獎者",
+      "summary": "臺灣的複音口琴與半音階口琴演出人員、臺中市街頭藝人與國際賽事得獎者，活動脈絡包含複音與半音階口琴、2024 SIHF複音獨奏青少年組冠軍與2023 THMF複音獨奏公開組冠軍。",
+      "keywords": "陳柏宏 Po Hung Chen SIHF 2024 THMF 2023 博凱愛樂 臺中街頭藝人 A1140404",
       "links": [
         {
           "label": "網站",
@@ -11668,7 +11685,8 @@
       "sourceTags": [
         "演奏者",
         "半音階",
-        "複音"
+        "複音",
+        "國際交流"
       ],
       "monitorSources": [
         {
@@ -12523,14 +12541,14 @@
       "originalType": "協會",
       "country": "韓國",
       "region": "韓國/大邱",
-      "cityOrFocus": "口琴教育/講師認證/教材出版/合奏/國際比賽與交流",
-      "structuredSummary": "口琴教育/講師認證/教材出版/合奏/國際比賽與交流 / 複音口琴/半音階口琴/和弦口琴/低音口琴 / 協會/教育與講師培訓/演出團體",
+      "cityOrFocus": "口琴教育/講師認證/教材出版/合奏/國際比賽與交流/2026年第26期講師資格課程",
+      "structuredSummary": "口琴教育/講師認證/教材出版/合奏/國際比賽與交流/2026年第26期講師資格課程 / 複音口琴/半音階口琴/和弦口琴/低音口琴 / 協會/教育與講師培訓/演出團體",
       "summary": "韓國的協會、教育與講師培訓與演出團體，關注口琴教育、講師認證、教材出版、合奏與國際比賽與交流。",
-      "keywords": "사단법인 한국하모니카리더스 Korea Harmonica Leaders Daegu teacher certification APHF SIHF THMF",
+      "keywords": "사단법인 한국하모니카리더스 Korea Harmonica Leaders Daegu teacher certification 2026 26th APHF SIHF THMF",
       "links": [
         {
           "label": "網站",
-          "url": "https://www.kharmonicaleaders.co.kr/myboard/sub1_1"
+          "url": "https://www.kharmonicaleaders.co.kr/"
         },
         {
           "label": "YouTube",
@@ -12548,6 +12566,7 @@
       "sourceTags": [
         "國際交流",
         "團體樂團",
+        "課程",
         "比賽",
         "半音階",
         "複音"
@@ -14911,10 +14930,10 @@
       "originalType": "學校社團",
       "country": "日本",
       "region": "日本/東京",
-      "cityOrFocus": "中央大學/學校社團/東京",
-      "structuredSummary": "中央大學/學校社團/東京 / 口琴合奏/リード合奏/ハモソ / 學校社團",
-      "summary": "日本的口琴合奏、リード合奏與ハモソ學校社團。",
-      "keywords": "中央大學 リード合奏部 ハーモニカ ソサィエティー Chuo Harmonica Society ハモソ 口琴社",
+      "cityOrFocus": "1929年創設/中央大學公認社團/口琴主奏大型樂團/管樂與節奏樂器跨編制/多曲風音樂會",
+      "structuredSummary": "1929年創設/中央大學公認社團/口琴主奏大型樂團/管樂與節奏樂器跨編制/多曲風音樂會 / 口琴/管樂器/吉他貝斯/鼓與打擊樂器/鍵盤 / 大學學生社團/口琴主奏Big Band",
+      "summary": "日本的口琴、管樂器、吉他貝斯與鼓與打擊樂器大學學生社團與口琴主奏Big Band。",
+      "keywords": "中央大學 リード合奏部 ハーモニカ ソサィエティー Chuo Harmonica Society 1929 big band ハモソ",
       "links": [
         {
           "label": "網站",
@@ -14943,7 +14962,8 @@
       "sourceInitials": "中央",
       "sourceTags": [
         "學生社團",
-        "大專社團"
+        "大專社團",
+        "團體樂團"
       ],
       "monitorSources": [
         {
@@ -15345,11 +15365,11 @@
       "type": "學校社團",
       "originalType": "學校社團",
       "country": "日本",
-      "region": "日本/兵庫",
-      "cityOrFocus": "關西學院大學/學校社團/西宮",
-      "structuredSummary": "關西學院大學/學校社團/西宮 / 口琴合奏/ハモソ / 學校社團",
-      "summary": "日本的口琴合奏與ハモソ學校社團。",
-      "keywords": "關西學院大學 関西学院大学 ハーモニカソサイアティ 関学ハモソ Kwansei Gakuin 口琴社",
+      "region": "日本/兵庫/西宮",
+      "cityOrFocus": "十種以上樂器的Big Band式合奏/四類合奏口琴與半音階口琴/木管、鍵盤、弦樂與打擊樂跨編制",
+      "structuredSummary": "十種以上樂器的Big Band式合奏/四類合奏口琴與半音階口琴/木管、鍵盤、弦樂與打擊樂跨編制 / 半音階口琴/四類合奏口琴/長笛/手風琴/馬林巴/吉他貝斯/鼓與打擊樂器/鍵盤 / 大學學生社團/跨編制口琴Big Band",
+      "summary": "日本的半音階口琴、四類合奏口琴、長笛與手風琴大學學生社團與跨編制口琴Big Band。",
+      "keywords": "關西學院大學 関西学院大学 ハーモニカソサイアティ 関学ハモソ Kwansei Gakuin big band 口琴社",
       "links": [
         {
           "label": "網站",
@@ -15382,7 +15402,8 @@
       "sourceInitials": "關西",
       "sourceTags": [
         "學生社團",
-        "大專社團"
+        "大專社團",
+        "半音階"
       ],
       "monitorSources": [
         {
