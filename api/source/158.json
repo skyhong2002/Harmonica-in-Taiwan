@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T08:01:44.794503Z",
+  "generatedAt": "2026-08-17T22:03:18.784073Z",
   "source": {
     "id": 158,
     "slug": "deak-harp",
@@ -20,20 +20,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/2613730ab8483dacded4.webp",
         "width": 800,
         "height": 450
-      }
-    },
-    {
-      "id": "post-b28ec9729a8ec41be2bf0fe0",
-      "title": "Four going down unda .",
-      "excerpt": "Four going down unda .",
-      "url": "https://www.facebook.com/deak.harp/posts/pfbid02HudunsNeuNP2XpR9u5YdJXKKJvf5WoTkBAyoQZge7Na7PGmdqDeHZ3ooJgY4YBFwl",
-      "sourceName": "Deak Harp",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-18T17:37:31Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/1f74a3e47a2b51ed83ce.webp",
-        "width": 443,
-        "height": 590
       }
     }
   ]

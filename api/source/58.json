@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T08:01:44.794503Z",
+  "generatedAt": "2026-08-17T22:03:18.784073Z",
   "source": {
     "id": 58,
     "slug": "minami-risa",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/58-minami-risa/"
   },
   "items": [
+    {
+      "id": "post-5b04c5e2b0019ccedf8c6662",
+      "title": "明日はRJ♬ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by Ameba",
+      "excerpt": "明日はRJ♬ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by Ameba #Amebaブログ #アメブロ #南里沙 #クロマチックハーモニカ",
+      "url": "https://x.com/minami_risa/status/2089392062978568675",
+      "sourceName": "南里沙",
+      "platform": "X",
+      "publishedAt": "2026-08-17T16:41:01Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ad1ac5a19853cc43e2e6.webp",
+        "width": 800,
+        "height": 1135
+      }
+    },
     {
       "id": "post-fbd9effab745463a964f4e7f",
       "title": "YouTube「満ちてゆく / 藤井風」 | クロマチックハーモニカ 南里沙オフィシャルブログ「... #Amebaブ...",
@@ -690,34 +704,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/0d7aeebf22a5e9b77aab.webp",
         "width": 800,
         "height": 600
-      }
-    },
-    {
-      "id": "post-ef4150abec0526c5cc3650be",
-      "title": "YouTube「あー夏休み / TUBE」 | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by Ameba",
-      "excerpt": "YouTube「あー夏休み / TUBE」 | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by Ameba #Amebaブログ #アメブロ #南里沙 #クロマチックハーモニカ #EWI",
-      "url": "https://x.com/minami_risa/status/2078529776680411140",
-      "sourceName": "南里沙",
-      "platform": "X",
-      "publishedAt": "2026-07-18T17:18:10Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/1289505de0c02b216c27.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-8f6aa2f57ab1b0fe27fc65d6",
-      "title": "「あー夏休み/TUBE」covered by 南里沙 【クロマチックハーモニカ・EWI】chromaticharmonica - Risa MINAMI",
-      "excerpt": "「あー夏休み/TUBE」covered by 南里沙 【クロマチックハーモニカ・EWI】chromaticharmonica - Risa MINAMI ＊南里沙オフィシャルサイト ＊ブログ「南里沙のさんぽ道」毎日更新中！ ＊X(旧twitter) ＊Instagram ＊TikTok ＊Facebook Page ＊Amazon欲しいものリスト ▼使用楽器 クロマチックハーモニカ HOHNER Super64X EWI AKAI EWI SOLO ▽南里沙プロフィール 3歳でピアノ、12歳でオーボエを始め、神戸女学院大学音楽科オーボエ専攻卒業。大学在…",
-      "url": "https://www.youtube.com/watch?v=zO8xa7Hyub8",
-      "sourceName": "南里沙",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-18T16:53:53Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/c375dcde2c2435129bca.webp",
-        "width": 800,
-        "height": 450
       }
     }
   ]

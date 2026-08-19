@@ -1,6 +1,6 @@
 {
   "site": "https://harmonica.observe.tw",
-  "generatedAt": "2026-08-17",
+  "generatedAt": "2026-08-18",
   "count": 211,
   "stats": {
     "totalEntries": 211,
@@ -64,6 +64,383 @@
     }
   },
   "entries": [
+    {
+      "id": "watchlist-58",
+      "publicId": "58",
+      "name": "南里沙",
+      "nameEn": "Minami Risa",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
+      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
+      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
+      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://minamirisa.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/minamirisa/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/minami_risa/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@minamirisa"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/minami_risa"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@minami_risa"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-17T16:41:01+00:00",
+      "latestUpdateLocal": "2026-08-18 00:41",
+      "latestUpdateSource": "南里沙",
+      "latestUpdateUrl": "https://x.com/minami_risa/status/2089392062978568675",
+      "avatarUrl": "/assets/source-avatars/48d550484ea1d0e42553.webp",
+      "sourceInitials": "南里",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_minamirisa",
+          "name": "南里沙",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/minamirisa",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
+        },
+        {
+          "id": "x_minami_risa",
+          "name": "南里沙",
+          "platform": "x",
+          "type": "rss",
+          "username": "minami_risa",
+          "profileUrl": "https://x.com/minami_risa",
+          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
+        },
+        {
+          "id": "yt_minamirisa",
+          "name": "南里沙",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@minamirisa",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-33",
+      "publicId": "33",
+      "name": "黃冠誌",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
+      "structuredSummary": "天狼星/胖擊系/和弦口琴/重奏 / 和弦/重奏 / 演出人員",
+      "summary": "口琴演奏者，專長和弦口琴與重奏演出。",
+      "keywords": "黃冠誌 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/kuanchih/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hk91f06/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-17T16:33:30+00:00",
+      "latestUpdateLocal": "2026-08-18 00:33",
+      "latestUpdateSource": "黃冠誌",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcJedHNGTHm/",
+      "avatarUrl": "/assets/source-avatars/6270cfabae66fb24e176.webp",
+      "sourceInitials": "黃冠",
+      "sourceTags": [
+        "演奏者",
+        "合奏",
+        "和弦",
+        "重奏",
+        "演出"
+      ],
+      "sourceSummary": "口琴演奏者，專長和弦口琴與重奏演出。",
+      "sourceTagReason": "來源明確標示為個人與演奏者，且專長涉及和弦、重奏與演出。",
+      "monitorSources": [
+        {
+          "id": "ig_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
+        },
+        {
+          "id": "yt_cbd128e3de",
+          "name": "黃冠誌",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-39",
+      "publicId": "39",
+      "name": "林士傑",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "演出/評審",
+      "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
+      "summary": "臺灣的口琴演出人員與評審，活動脈絡包含演出與評審。",
+      "keywords": "林士傑 口琴",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/lin.shi.jie.661489"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/musette585/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@musette585"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-17T14:04:35+00:00",
+      "latestUpdateLocal": "2026-08-17 22:04",
+      "latestUpdateSource": "林士傑",
+      "latestUpdateUrl": "https://www.threads.com/t/DcJNeCMj8X3",
+      "avatarUrl": "/assets/source-avatars/c2e23c5b2da5fd37bb4e.webp",
+      "sourceInitials": "林士",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_lin_shi_jie_661489",
+          "name": "林士傑",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/lin.shi.jie.661489",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_musette585",
+          "name": "林士傑",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "musette585",
+          "profileUrl": "https://www.instagram.com/musette585/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_musette585",
+          "name": "林士傑",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "musette585",
+          "profileUrl": "https://www.instagram.com/musette585/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/musette585/story/0"
+        },
+        {
+          "id": "threads_musette585",
+          "name": "林士傑",
+          "platform": "threads",
+          "type": "rss",
+          "username": "musette585",
+          "profileUrl": "https://www.threads.net/@musette585",
+          "feedUrl": "https://rss.observe.tw/threads/musette585"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-30",
+      "publicId": "30",
+      "name": "蔡明憲",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
+      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
+      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
+      "keywords": "蔡明憲 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://studio.dming.co/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/dming.tsai/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/damingtsai/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-17T11:09:50+00:00",
+      "latestUpdateLocal": "2026-08-17 19:09",
+      "latestUpdateSource": "蔡明憲",
+      "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3965672233066712772/",
+      "avatarUrl": "/assets/source-avatars/a1745d09969a03c896ae.webp",
+      "sourceInitials": "蔡明",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_dming_tsai",
+          "name": "蔡明憲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/dming.tsai",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-195",
+      "publicId": "195",
+      "name": "彰女微光口琴社",
+      "nameEn": "CHGSH Harmonica",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/彰化",
+      "cityOrFocus": "彰化女中/學校社團/彰化",
+      "structuredSummary": "彰化女中/學校社團/彰化 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "彰女微光口琴社 CHGSH Harmonica 口琴社",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chgsh_harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-17T02:52:30+00:00",
+      "latestUpdateLocal": "2026-08-17 10:52",
+      "latestUpdateSource": "彰女微光口琴社",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcIAjHVILB3/",
+      "avatarUrl": "/assets/source-avatars/5f8970c22acc29a1e57c.webp",
+      "sourceInitials": "彰女",
+      "sourceTags": [
+        "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_chgsh_harmonica",
+          "name": "CHGSH Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chgsh_harmonica",
+          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chgsh_harmonica",
+          "name": "彰女微光口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chgsh_harmonica",
+          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chgsh_harmonica/story/0"
+        }
+      ]
+    },
     {
       "id": "watchlist-218",
       "publicId": "218",
@@ -1054,107 +1431,6 @@
       ]
     },
     {
-      "id": "watchlist-58",
-      "publicId": "58",
-      "name": "南里沙",
-      "nameEn": "Minami Risa",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流",
-      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
-      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://minamirisa.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/minamirisa/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/minami_risa/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@minamirisa"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/minami_risa"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@minami_risa"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-16T15:58:10+00:00",
-      "latestUpdateLocal": "2026-08-16 23:58",
-      "latestUpdateSource": "南里沙",
-      "latestUpdateUrl": "https://x.com/minami_risa/status/2089018890487833050",
-      "avatarUrl": "/assets/source-avatars/48d550484ea1d0e42553.webp",
-      "sourceInitials": "南里",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_minamirisa",
-          "name": "南里沙",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/minamirisa",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
-        },
-        {
-          "id": "x_minami_risa",
-          "name": "南里沙",
-          "platform": "x",
-          "type": "rss",
-          "username": "minami_risa",
-          "profileUrl": "https://x.com/minami_risa",
-          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
-        },
-        {
-          "id": "yt_minamirisa",
-          "name": "南里沙",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@minamirisa",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-127",
       "publicId": "127",
       "name": "Reyharp and Balawan Project",
@@ -1426,7 +1702,7 @@
       "latestUpdateLocal": "2026-08-16 23:06",
       "latestUpdateSource": "Santiago Alvarez",
       "latestUpdateUrl": "https://www.instagram.com/stories/santi.alvarez.armonica/3965066754196085812/",
-      "avatarUrl": "/assets/source-avatars/06cac0c8ee07d7b0e453.webp",
+      "avatarUrl": "/assets/source-avatars/e9876511c93dbe932a2b.webp",
       "sourceInitials": "SA",
       "sourceTags": [
         "演奏者",
@@ -2038,7 +2314,7 @@
       "latestUpdateLocal": "2026-08-16 19:28",
       "latestUpdateSource": "RedBricks Harmonica",
       "latestUpdateUrl": "https://www.instagram.com/stories/redbricksharmonica/3964956662599663677/",
-      "avatarUrl": "/assets/source-avatars/9b30bb8db04dc2888a0f.webp",
+      "avatarUrl": "/assets/source-avatars/5a5a77eba87d8a985f28.webp",
       "sourceInitials": "RH",
       "sourceTags": [
         "團體樂團",
@@ -2468,152 +2744,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-33",
-      "publicId": "33",
-      "name": "黃冠誌",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/胖擊系/和弦口琴/重奏",
-      "structuredSummary": "天狼星/胖擊系/和弦口琴/重奏 / 和弦/重奏 / 演出人員",
-      "summary": "口琴演奏者，專長和弦口琴與重奏演出。",
-      "keywords": "黃冠誌 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/kuanchih/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hk91f06/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-16T03:41:43+00:00",
-      "latestUpdateLocal": "2026-08-16 11:41",
-      "latestUpdateSource": "黃冠誌",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3964721905671667969/",
-      "avatarUrl": "/assets/source-avatars/21e765a21dc90b2b86f9.webp",
-      "sourceInitials": "黃冠",
-      "sourceTags": [
-        "演奏者",
-        "合奏",
-        "和弦",
-        "重奏",
-        "演出"
-      ],
-      "sourceSummary": "口琴演奏者，專長和弦口琴與重奏演出。",
-      "sourceTagReason": "來源明確標示為個人與演奏者，且專長涉及和弦、重奏與演出。",
-      "monitorSources": [
-        {
-          "id": "ig_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
-        },
-        {
-          "id": "yt_cbd128e3de",
-          "name": "黃冠誌",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-30",
-      "publicId": "30",
-      "name": "蔡明憲",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
-      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
-      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
-      "keywords": "蔡明憲 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://studio.dming.co/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/dming.tsai/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/damingtsai/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-16T03:37:35+00:00",
-      "latestUpdateLocal": "2026-08-16 11:37",
-      "latestUpdateSource": "蔡明憲",
-      "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3964719833610257138/",
-      "avatarUrl": "/assets/source-avatars/a1745d09969a03c896ae.webp",
-      "sourceInitials": "蔡明",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_dming_tsai",
-          "name": "蔡明憲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/dming.tsai",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
         }
       ]
     },
@@ -3310,7 +3440,7 @@
       "latestUpdateLocal": "2026-08-15 23:58",
       "latestUpdateSource": "國家兩廳院",
       "latestUpdateUrl": "https://www.instagram.com/stories/ntch.taipei/3964368040485197770/",
-      "avatarUrl": "/assets/source-avatars/ef9554bea562732c332c.webp",
+      "avatarUrl": "/assets/source-avatars/5fabc09e30189e93d70d.webp",
       "sourceInitials": "國家",
       "sourceTags": [
         "場館平台"
@@ -5635,7 +5765,7 @@
       "latestUpdateLocal": "2026-08-13 18:28",
       "latestUpdateSource": "唐雪婷 Sharene Tang",
       "latestUpdateUrl": "https://www.instagram.com/stories/sharene.harmonica/3962752071674046017/",
-      "avatarUrl": "/assets/source-avatars/8b1d69ce9f0cca3a9aea.webp",
+      "avatarUrl": "/assets/source-avatars/42bb2721449d20f54849.webp",
       "sourceInitials": "ST",
       "sourceTags": [
         "演奏者",
@@ -6994,7 +7124,7 @@
       "latestUpdateLocal": "2026-08-10 14:34",
       "latestUpdateSource": "千賀太郎",
       "latestUpdateUrl": "https://www.instagram.com/stories/taro_senga/3960460005094544389/",
-      "avatarUrl": "/assets/source-avatars/5543138071fab2b371b8.webp",
+      "avatarUrl": "/assets/source-avatars/bb66885cc7c0ad691a2a.webp",
       "sourceInitials": "千賀",
       "sourceTags": [
         "演奏者",
@@ -7412,7 +7542,7 @@
       "latestUpdateLocal": "2026-08-09 15:06",
       "latestUpdateSource": "臺北黃石口琴樂團",
       "latestUpdateUrl": "https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/posts/pfbid08fsAqd6R6oDAKunTX5tVfDTXL9HdgPRo8xEr2eVYNZZwj8ahoUidQBV8nFQoXinQl",
-      "avatarUrl": "/assets/source-avatars/1a413adcd23687a62f78.webp",
+      "avatarUrl": "/assets/source-avatars/62c5935152ac0d76edbe.webp",
       "sourceInitials": "臺北",
       "sourceTags": [
         "團體樂團"
@@ -7567,84 +7697,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-39",
-      "publicId": "39",
-      "name": "林士傑",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "演出/評審",
-      "structuredSummary": "演出/評審 / 口琴 / 演出人員/評審",
-      "summary": "臺灣的口琴演出人員與評審，活動脈絡包含演出與評審。",
-      "keywords": "林士傑 口琴",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/lin.shi.jie.661489"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/musette585/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@musette585"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-08T10:36:35+00:00",
-      "latestUpdateLocal": "2026-08-08 18:36",
-      "latestUpdateSource": "林士傑",
-      "latestUpdateUrl": "https://www.instagram.com/stories/musette585/3959132508749943862/",
-      "avatarUrl": "/assets/source-avatars/c2e23c5b2da5fd37bb4e.webp",
-      "sourceInitials": "林士",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_lin_shi_jie_661489",
-          "name": "林士傑",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/lin.shi.jie.661489",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_musette585",
-          "name": "林士傑",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "musette585",
-          "profileUrl": "https://www.instagram.com/musette585/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_musette585",
-          "name": "林士傑",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "musette585",
-          "profileUrl": "https://www.instagram.com/musette585/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/musette585/story/0"
-        },
-        {
-          "id": "threads_musette585",
-          "name": "林士傑",
-          "platform": "threads",
-          "type": "rss",
-          "username": "musette585",
-          "profileUrl": "https://www.threads.net/@musette585",
-          "feedUrl": "https://rss.observe.tw/threads/musette585"
         }
       ]
     },
@@ -8176,58 +8228,6 @@
       ]
     },
     {
-      "id": "watchlist-195",
-      "publicId": "195",
-      "name": "彰女微光口琴社",
-      "nameEn": "CHGSH Harmonica",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/彰化",
-      "cityOrFocus": "彰化女中/學校社團/彰化",
-      "structuredSummary": "彰化女中/學校社團/彰化 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "彰女微光口琴社 CHGSH Harmonica 口琴社",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/chgsh_harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-04T01:02:37+00:00",
-      "latestUpdateLocal": "2026-08-04 09:02",
-      "latestUpdateSource": "彰女微光口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/stories/chgsh_harmonica/3955944528389214587/",
-      "avatarUrl": "/assets/source-avatars/5f8970c22acc29a1e57c.webp",
-      "sourceInitials": "彰女",
-      "sourceTags": [
-        "學生社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_chgsh_harmonica",
-          "name": "CHGSH Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "chgsh_harmonica",
-          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_chgsh_harmonica",
-          "name": "彰女微光口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "chgsh_harmonica",
-          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chgsh_harmonica/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-173",
       "publicId": "173",
       "name": "Spring Harp Fest",
@@ -8702,7 +8702,7 @@
       "latestUpdateLocal": "2026-07-31 02:17",
       "latestUpdateSource": "Deak Harp",
       "latestUpdateUrl": "https://www.facebook.com/deak.harp/posts/pfbid0ZXykgZQxUDEhLfMFxVU8GkC2BwpH6aHtkD6rSpAYGT5B4v9zc8LMFqoPjCoo3cX2l",
-      "avatarUrl": "/assets/source-avatars/1cc3ca49a58ad283aac4.webp",
+      "avatarUrl": "/assets/source-avatars/e19d33f8928b306485ad.webp",
       "sourceInitials": "DH",
       "sourceTags": [
         "演奏者",

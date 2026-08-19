@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-17T08:01:44.794503Z",
+  "generatedAt": "2026-08-17T22:03:18.784073Z",
   "source": {
     "id": 171,
     "slug": "society-for-the-preservation-and-advancement-of-the-harmonica",
@@ -270,20 +270,6 @@
       "publishedAt": "2026-07-19T17:19:19Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/9245f121904e2c3bb168.webp",
-        "width": 800,
-        "height": 600
-      }
-    },
-    {
-      "id": "post-551f60399b6baf431320269c",
-      "title": "26 days till we see some familiar faces!",
-      "excerpt": "26 days till we see some familiar faces! #spah #harmonica #joinus #harmonicalife #bluesharp",
-      "url": "https://www.instagram.com/p/Da8MDGeK-FL/",
-      "sourceName": "口琴保存與推廣協會 SPAH",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-18T18:37:51Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/f80b0260a9f914944b44.webp",
         "width": 800,
         "height": 600
       }
