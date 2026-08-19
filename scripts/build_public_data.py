@@ -30,6 +30,23 @@ AVATAR_PLATFORM_PRIORITY = {
     "youtube": 2,
 }
 DEFAULT_AVATAR_PLATFORM_PRIORITY = 99
+PROFILE_ID_ALIASES = {
+    "ig_hkharmonica": ("Breathe with the Harmonica",),
+    "manual_aphf_2026": (
+        "第五屆華夏（寧德）口琴藝術周",
+        "第二屆「敦煌杯」線上口琴大賽",
+        "「琴溯伏羲・律動天水」口琴藝術展演",
+        "「琴韻東坡・簧鳴西南」口琴藝術展演",
+        "濟南大眾口琴樂團",
+        "鄭州大眾口琴樂團",
+        "上海豫園口琴樂團",
+    ),
+    "manual_china_harmonica_committee": (
+        "中國大眾音樂協會口琴考級網",
+        "東方口琴博物館",
+        "東方口琴樂團",
+    ),
+}
 TAG_VALUE_SPLIT_RE = re.compile(r"\s*(?:[,，、/／+&]|\band\b|\s+)\s*", re.IGNORECASE)
 TAG_FORBIDDEN_CHARS_RE = re.compile(r"[,，、/／+&\s]")
 TEXT_PART_SPLIT_RE = re.compile(r"\s*(?:[/／；;、,，+&]|\band\b)\s*", re.IGNORECASE)
@@ -317,9 +334,22 @@ def entry_match_keys(entry: dict[str, object]) -> set[str]:
 def profile_match_keys(profile: dict[str, Any]) -> set[str]:
     keys = {
         normalize_key(str(profile.get("name") or "")),
+        normalize_key(str(profile.get("title") or "")),
         normalize_key(str(profile.get("account") or "")),
         normalize_key(str(profile.get("username") or "")),
     }
+    # Some monitored profiles deliberately carry two public names (for
+    # example, an ensemble and its parent association).  Treat each explicit
+    # slash-delimited name as an alias so both directory entries can reuse the
+    # verified profile and avatar without a duplicate override.
+    for field in ("name", "title"):
+        value = str(profile.get(field) or "")
+        for alias in re.split(r"\s*[/／]\s*", value):
+            keys.add(normalize_key(alias))
+    for alias in profile.get("aliases") or []:
+        keys.add(normalize_key(str(alias or "")))
+    for alias in PROFILE_ID_ALIASES.get(str(profile.get("id") or ""), ()):
+        keys.add(normalize_key(alias))
     source_id = str(profile.get("id") or "")
     for prefix in ("ig_", "fb_", "yt_", "youtube_", "x_", "twitter_", "threads_", "tiktok_"):
         if source_id.startswith(prefix):
