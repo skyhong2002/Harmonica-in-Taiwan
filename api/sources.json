@@ -1,6 +1,6 @@
 {
   "site": "https://harmonica.observe.tw",
-  "generatedAt": "2026-08-20",
+  "generatedAt": "2026-08-21",
   "count": 318,
   "stats": {
     "totalEntries": 318,
@@ -1243,6 +1243,98 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@jensbunge",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-184",
+      "publicId": "184",
+      "name": "蔡明勳",
+      "nameEn": "Ming-Hsun Tsai",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "低音口琴/重奏/演出/音控",
+      "structuredSummary": "低音口琴/重奏/演出/音控 / 低音口琴/重奏 / 演出人員/音控",
+      "summary": "臺灣的低音口琴與重奏演出人員與音控，活動脈絡包含演出與音控。",
+      "keywords": "蔡明勳 Ming-Hsun Tsai 低音口琴 The Duet Judy's Harmonica Ensemble",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/MingHsunTsai830618/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/minnie.o6i8/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@minghsunTsai"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@minnie.o6i8"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T06:15:09+00:00",
+      "latestUpdateLocal": "2026-08-20 14:15",
+      "latestUpdateSource": "蔡明勳",
+      "latestUpdateUrl": "https://www.instagram.com/stories/minnie.o6i8/3967698248289647640/",
+      "avatarUrl": "/assets/source-avatars/minghsun-tsai.jpg",
+      "sourceInitials": "蔡明",
+      "sourceTags": [
+        "演奏者",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_minghsuntsai830618",
+          "name": "蔡明勳",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/MingHsunTsai830618",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_minnie_o6i8",
+          "name": "蔡明勳",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "minnie.o6i8",
+          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_minnie_o6i8",
+          "name": "蔡明勳",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "minnie.o6i8",
+          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/minnie.o6i8/story/0"
+        },
+        {
+          "id": "threads_minnie_o6i8",
+          "name": "蔡明勳",
+          "platform": "threads",
+          "type": "rss",
+          "username": "minnie.o6i8",
+          "profileUrl": "https://www.threads.net/@minnie.o6i8",
+          "feedUrl": "https://rss.observe.tw/threads/minnie.o6i8"
+        },
+        {
+          "id": "yt_minghsuntsai",
+          "name": "蔡明勳",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@minghsunTsai",
           "feedUrl": ""
         }
       ]
@@ -8931,98 +9023,6 @@
           "username": "adventure_harmonica",
           "profileUrl": "https://www.instagram.com/adventure_harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/adventure_harmonica/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-184",
-      "publicId": "184",
-      "name": "蔡明勳",
-      "nameEn": "Ming-Hsun Tsai",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "低音口琴/重奏/演出/音控",
-      "structuredSummary": "低音口琴/重奏/演出/音控 / 低音口琴/重奏 / 演出人員/音控",
-      "summary": "臺灣的低音口琴與重奏演出人員與音控，活動脈絡包含演出與音控。",
-      "keywords": "蔡明勳 Ming-Hsun Tsai 低音口琴 The Duet Judy's Harmonica Ensemble",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/MingHsunTsai830618/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/minnie.o6i8/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@minghsunTsai"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@minnie.o6i8"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-09T09:47:48+00:00",
-      "latestUpdateLocal": "2026-08-09 17:47",
-      "latestUpdateSource": "蔡明勳",
-      "latestUpdateUrl": "https://www.instagram.com/stories/minnie.o6i8/3959832756858922441/",
-      "avatarUrl": "/assets/source-avatars/minghsun-tsai.jpg",
-      "sourceInitials": "蔡明",
-      "sourceTags": [
-        "演奏者",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_minghsuntsai830618",
-          "name": "蔡明勳",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/MingHsunTsai830618",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_minnie_o6i8",
-          "name": "蔡明勳",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "minnie.o6i8",
-          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_minnie_o6i8",
-          "name": "蔡明勳",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "minnie.o6i8",
-          "profileUrl": "https://www.instagram.com/minnie.o6i8/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/minnie.o6i8/story/0"
-        },
-        {
-          "id": "threads_minnie_o6i8",
-          "name": "蔡明勳",
-          "platform": "threads",
-          "type": "rss",
-          "username": "minnie.o6i8",
-          "profileUrl": "https://www.threads.net/@minnie.o6i8",
-          "feedUrl": "https://rss.observe.tw/threads/minnie.o6i8"
-        },
-        {
-          "id": "yt_minghsuntsai",
-          "name": "蔡明勳",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@minghsunTsai",
-          "feedUrl": ""
         }
       ]
     },

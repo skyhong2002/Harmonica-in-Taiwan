@@ -38,7 +38,7 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/submit/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -146,6 +146,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/125-jens-bunge/</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/184-ming-hsun-tsai/</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -752,12 +758,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/261-adventure-harmonica-band/</loc>
-    <lastmod>2026-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/184-ming-hsun-tsai/</loc>
     <lastmod>2026-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -2306,7 +2306,7 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/event/20beaf6b38cf0959/</loc>
-    <lastmod>2026-08-20</lastmod>
+    <lastmod>2026-08-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
