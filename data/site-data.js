@@ -87,6 +87,77 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-33",
+      "publicId": "33",
+      "name": "黃冠誌",
+      "nameEn": "Kuan-Chih Huang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/胖擊口琴樂團團長/和弦口琴/THMF 2026/WHF與SIHF重奏",
+      "structuredSummary": "天狼星/胖擊口琴樂團團長/和弦口琴/THMF 2026/WHF與SIHF重奏 / 和弦口琴/重奏 / 演出人員/教育者/重奏團長",
+      "summary": "臺灣的和弦口琴與重奏演出人員、教育者與重奏團長，活動脈絡包含天狼星、胖擊口琴樂團團長與THMF 2026。",
+      "keywords": "黃冠誌 口琴 胖擊 Punch THMF 2026 WHF SIHF 和弦",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/kuanchih/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hk91f06/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T02:09:28+00:00",
+      "latestUpdateLocal": "2026-08-20 10:09",
+      "latestUpdateSource": "黃冠誌",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3967574600422291711/",
+      "avatarUrl": "/assets/source-avatars/c825e1379781330949a6.webp",
+      "sourceInitials": "黃冠",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
+        },
+        {
+          "id": "yt_cbd128e3de",
+          "name": "黃冠誌",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -2481,77 +2552,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-33",
-      "publicId": "33",
-      "name": "黃冠誌",
-      "nameEn": "Kuan-Chih Huang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/胖擊口琴樂團團長/和弦口琴/THMF 2026/WHF與SIHF重奏",
-      "structuredSummary": "天狼星/胖擊口琴樂團團長/和弦口琴/THMF 2026/WHF與SIHF重奏 / 和弦口琴/重奏 / 演出人員/教育者/重奏團長",
-      "summary": "臺灣的和弦口琴與重奏演出人員、教育者與重奏團長，活動脈絡包含天狼星、胖擊口琴樂團團長與THMF 2026。",
-      "keywords": "黃冠誌 口琴 胖擊 Punch THMF 2026 WHF SIHF 和弦",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/kuanchih/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hk91f06/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-19T12:21:08+00:00",
-      "latestUpdateLocal": "2026-08-19 20:21",
-      "latestUpdateSource": "黃冠誌",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcOKUA1oZtC/",
-      "avatarUrl": "/assets/source-avatars/c825e1379781330949a6.webp",
-      "sourceInitials": "黃冠",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
-        },
-        {
-          "id": "yt_cbd128e3de",
-          "name": "黃冠誌",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-298",
       "publicId": "298",
       "name": "香港兒童合唱團口琴課程",
@@ -4549,6 +4549,92 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "judygigo",
           "profileUrl": "https://www.threads.net/@judygigo",
           "feedUrl": "https://rss.observe.tw/threads/judygigo"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-315",
+      "publicId": "315",
+      "name": "Yotam Ben-Or",
+      "nameEn": "Yotam Ben-Or",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "以色列",
+      "region": "比利時/以色列/紐約/國際",
+      "cityOrFocus": "比利時與以色列背景的爵士半音階口琴家與作曲家/以中東、拉丁、非洲與古典語彙拓展現代爵士口琴/師承Grégoire Maret/林肯中心與卡內基音樂廳演出/2025專輯《Impermanence》/2026東華春藝季三重奏音樂會",
+      "structuredSummary": "比利時與以色列背景的爵士半音階口琴家與作曲家/以中東、拉丁、非洲與古典語彙拓展現代爵士口琴/師承Grégoire Maret/林肯中心與卡內基音樂廳演出/2025專輯《Impermanence》/2026東華春藝季三重奏音樂會 / 半音階口琴/爵士口琴 / 國際演出人員/作曲家/爵士樂團領隊",
+      "summary": "以色列的半音階口琴與爵士口琴國際演出人員、作曲家與爵士樂團領隊，活動脈絡包含比利時與以色列背景的爵士半音階口琴家與作曲家、以中東與拉丁。",
+      "keywords": "Yotam Ben-Or harmonica jazz composer Belgian Israeli New York Gregoire Maret Impermanence 2025 NDHU Spring Arts Festival Taiwan 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.yotambo.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/yotambo/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yotambo1/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCj4vj3haLP9VWs_DOMbzbkQ"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-18T13:00:10+00:00",
+      "latestUpdateLocal": "2026-08-18 21:00",
+      "latestUpdateSource": "Yotam Ben-Or",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcLq7IzxnrS/",
+      "avatarUrl": "/assets/source-avatars/yotam-ben-or.jpg",
+      "sourceInitials": "YBO",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_yotambo",
+          "name": "Yotam Ben-Or",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/yotambo",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yotambo1",
+          "name": "Yotam Ben-Or",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yotambo1",
+          "profileUrl": "https://www.instagram.com/yotambo1/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yotambo1/story/0"
+        },
+        {
+          "id": "ig_yotambo1",
+          "name": "Yotam Ben-Or",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yotambo1",
+          "profileUrl": "https://www.instagram.com/yotambo1/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucj4vj3halp9vws_dombzbkq",
+          "name": "Yotam Ben-Or",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCj4vj3haLP9VWs_DOMbzbkQ",
+          "feedUrl": ""
         }
       ]
     },
@@ -7727,7 +7813,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-12 21:23",
       "latestUpdateSource": "Tancy Liu",
       "latestUpdateUrl": "https://www.facebook.com/reel/959898360455295/",
-      "avatarUrl": "/assets/source-avatars/d4acb4fddc08892619e4.webp",
+      "avatarUrl": "/assets/source-avatars/6596f7ddba6e2ac9368c.webp",
       "sourceInitials": "TL",
       "sourceTags": [
         "演奏者",
@@ -19642,92 +19728,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://tonyeyers.com/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-315",
-      "publicId": "315",
-      "name": "Yotam Ben-Or",
-      "nameEn": "Yotam Ben-Or",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "以色列",
-      "region": "比利時/以色列/紐約/國際",
-      "cityOrFocus": "比利時與以色列背景的爵士半音階口琴家與作曲家/以中東、拉丁、非洲與古典語彙拓展現代爵士口琴/師承Grégoire Maret/林肯中心與卡內基音樂廳演出/2025專輯《Impermanence》/2026東華春藝季三重奏音樂會",
-      "structuredSummary": "比利時與以色列背景的爵士半音階口琴家與作曲家/以中東、拉丁、非洲與古典語彙拓展現代爵士口琴/師承Grégoire Maret/林肯中心與卡內基音樂廳演出/2025專輯《Impermanence》/2026東華春藝季三重奏音樂會 / 半音階口琴/爵士口琴 / 國際演出人員/作曲家/爵士樂團領隊",
-      "summary": "以色列的半音階口琴與爵士口琴國際演出人員、作曲家與爵士樂團領隊，活動脈絡包含比利時與以色列背景的爵士半音階口琴家與作曲家、以中東與拉丁。",
-      "keywords": "Yotam Ben-Or harmonica jazz composer Belgian Israeli New York Gregoire Maret Impermanence 2025 NDHU Spring Arts Festival Taiwan 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.yotambo.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/yotambo/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yotambo1/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCj4vj3haLP9VWs_DOMbzbkQ"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/yotam-ben-or.jpg",
-      "sourceInitials": "YBO",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_yotambo",
-          "name": "Yotam Ben-Or",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/yotambo",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_yotambo1",
-          "name": "Yotam Ben-Or",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yotambo1",
-          "profileUrl": "https://www.instagram.com/yotambo1/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yotambo1/story/0"
-        },
-        {
-          "id": "ig_yotambo1",
-          "name": "Yotam Ben-Or",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yotambo1",
-          "profileUrl": "https://www.instagram.com/yotambo1/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_ucj4vj3halp9vws_dombzbkq",
-          "name": "Yotam Ben-Or",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCj4vj3haLP9VWs_DOMbzbkQ",
           "feedUrl": ""
         }
       ]
