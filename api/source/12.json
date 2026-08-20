@@ -1,11 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T18:32:53.095270Z",
+  "generatedAt": "2026-08-20T19:40:36.781380Z",
   "source": {
     "id": 12,
     "slug": "12",
     "name": "臺灣口琴樂團",
     "pageUrl": "https://harmonica.observe.tw/source/12/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-7f2f31198c0173de90539d41",
+      "title": "臺大校友雙月刊",
+      "excerpt": "臺大校友雙月刊 國立臺灣大學 National Taiwan University 臺大校友雙月刊 NTU Alumni Bimonthly 各期雙月刊 雙月刊 季刊 專欄 最新消息 關於我們 臺大百年 下載專區 雙月刊下載 季刊下載 專欄下載 本刊出版品 搜尋 首頁 各期雙月刊-雙月刊 臺大校友雙月刊第69期 校友會訊 臺大校友雙月刊第69期 校長開講 臺大學術資產～性別研究 吳誠文專欄 校友專訪／教育家系列 陳柔縉專欄 臺大人的流行音樂 極端氣候專題 椰林風情～道路篇 椰林風情～建物篇 校友情與事 管理新知／資源配置管理 保健天地 展開選單 校友會…",
+      "url": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
+      "sourceName": "臺灣口琴樂團",
+      "platform": "website",
+      "publishedAt": "2026-08-20T18:59:31.034143Z"
+    }
+  ]
 }

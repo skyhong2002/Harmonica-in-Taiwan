@@ -1,11 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T18:32:53.095270Z",
+  "generatedAt": "2026-08-20T19:40:36.781380Z",
   "source": {
     "id": 21,
     "slug": "orion",
     "name": "Orion 口琴樂團",
     "pageUrl": "https://harmonica.observe.tw/source/21-orion/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-a1d935b1c7e8ce2d301ae2bc",
+      "title": "TixFun",
+      "excerpt": "TixFun 優先購買 輸入資訊無效 驗證碼 驗證碼錯誤 已售完！ 驗證 快速訂購 請填寫下述欄位即可完成加入購物車流程 代碼 代碼錯誤 座位將由系統自動配位。 驗證碼 驗證碼錯誤 加入購物車 首頁 所有活動 藝文好夥伴 藝起合作 最新消息 購取票方式 常見問題 快速訂購 搜尋 清除全部 最近搜尋 熱門關鍵字 如果兒童劇團 灣聲樂團 AM創意 FOCASA 舞鈴劇場 故事工廠 日期 所有活動 藝文好夥伴 藝起合作 最新消息 購取票方式 常見問題 快速訂購 00:00 0 音樂 - 府城仲夏音樂博覽會 主辦單位 臺南市愛樂協會 活動介紹 折扣優惠 注意事…",
+      "url": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU",
+      "sourceName": "Orion 口琴樂團",
+      "platform": "website",
+      "publishedAt": "2026-08-20T18:59:45.287543Z"
+    }
+  ]
 }

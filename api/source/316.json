@@ -1,11 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T18:32:53.095270Z",
+  "generatedAt": "2026-08-20T19:40:36.781380Z",
   "source": {
     "id": 316,
     "slug": "taiping-elementary-school-harmonica-ensemble",
     "name": "太平國小口琴隊",
     "pageUrl": "https://harmonica.observe.tw/source/316-taiping-elementary-school-harmonica-ensemble/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-9c9c42cb3c31774e639d48c1",
+      "title": "臺中市政府教育局-校園活動報導",
+      "excerpt": "臺中市政府教育局-校園活動報導 --> 跳到主要內容區 臺中市政府教育局 回首頁 市府首頁 網站導覽 常見問答 快速連結 English 教育服務網 A- A A+ 搜尋 單位介紹 首長介紹 組織與職掌 各級學校 局徽介紹 科室業務 局長室 副局長室 主任秘書 專門委員 高中職教育科 國中教育科 國小教育科 幼兒教育科 終身教育科 特殊教育科 課程教學科 體育保健科 工程營繕科 秘書室 學生事務室 人事室 會計室 政風室 家庭教育中心 臺中市教育網路中心 教師研習中心 專業實踐分團辦公室 便民服務 重點業務 教育局行事曆 檔案應用服務專區 法規下載 意…",
+      "url": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
+      "sourceName": "太平國小口琴隊",
+      "platform": "website",
+      "publishedAt": "2026-08-20T19:07:07.095234Z"
+    }
+  ]
 }
