@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T02:05:39.548234Z",
+  "generatedAt": "2026-08-20T03:13:17.980332Z",
   "source": {
     "id": 32,
     "slug": "32",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/32/"
   },
   "items": [
+    {
+      "id": "post-b343833043c4ebadcca23bd0",
+      "title": "長達快一個月的音樂節模式終於結束了",
+      "excerpt": "長達快一個月的音樂節模式終於結束了 差不多要回到書桌前處理一些爛攤子😰 今年的行程相當精實，三個城市三場活動，留下了許多回憶點，但對我個人來說也帶來許多有待思考的課題⋯ 過去這一個月，願我的夥伴們與所有琴友們都感到充實與美好 感恩一切，繼續努力",
+      "url": "https://www.facebook.com/emerychen.cm/posts/pfbid0vTRWuHGMaEG9xnSY8B1DmD8NXVH2QcPGjFyLaHqPgmKvNHgB2ip7rKnHvNyNFXB1l",
+      "sourceName": "陳彥銘",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-13T09:17:24Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/87d43fe0f7f1efdb8300.webp",
+        "width": 526,
+        "height": 701
+      }
+    },
     {
       "id": "post-e6ec3f90e66cd60ba03275cb",
       "title": "You can just tell when someone loves what they do. ☀️🎶",
@@ -20,6 +34,34 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/051951cbbc24a8166de6.webp",
         "width": 720,
         "height": 1280
+      }
+    },
+    {
+      "id": "post-f7fad0b72c9e0cac0af1fb6e",
+      "title": "감사합니다, Seoul 🇰🇷 Performing, teaching, and reconnecting with the international harmonica family. See you next year ❤️",
+      "excerpt": "감사합니다, Seoul 🇰🇷 Performing, teaching, and reconnecting with the international harmonica family. See you next year ❤️",
+      "url": "https://www.facebook.com/konstantin.reinfeld/posts/pfbid02hDEnnVZTzMaVEjhz61xzNdcDmbQRZXncETKsXe5LVvYmF1gpp674zT1ayWczygEnl",
+      "sourceName": "陳彥銘",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-04T16:46:51Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/8c06aa9a7798fb3f67d6.webp",
+        "width": 472,
+        "height": 590
+      }
+    },
+    {
+      "id": "post-cb16f236af9a827eb7e7990f",
+      "title": "☀️ Summertime is festival time! 🎶",
+      "excerpt": "☀️ Summertime is festival time! 🎶 This week, we’re bringing the sound of the harmonica to Seoul for the SIHF Festival 🇰🇷🎵 We’re excited to meet musicians, artists, and everyone who shares our passion for this amazing little instrument with a big voice. 💙 Come by, say hello, try…",
+      "url": "https://www.facebook.com/reel/1656156278814673/",
+      "sourceName": "陳彥銘",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-02T23:55:42Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f9f81209a11ba0ee551e.webp",
+        "width": 540,
+        "height": 960
       }
     }
   ]

@@ -1,11 +1,54 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T02:05:39.548234Z",
+  "generatedAt": "2026-08-20T03:13:17.980332Z",
   "source": {
     "id": 73,
     "slug": "73",
     "name": "萬興國小口琴隊",
     "pageUrl": "https://harmonica.observe.tw/source/73/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-1c37a53ecfdcd2d4e00e9c30",
+      "title": "🎵 2026臺灣口琴音樂節｜萬興國小口琴隊紀錄 🎵",
+      "excerpt": "🎵 2026臺灣口琴音樂節｜萬興國小口琴隊紀錄 🎵 一場技巧battle，可以看到的不只是名次，更是孩子們這段時間一次又一次練習後，留在舞台上的成果❤️ 今年萬興的孩子從獨奏、二重奏、三重奏到小合奏，都有不同的挑戰～有人第一次參賽、有人挑戰新的組合，也有人在不同項目中一次次站上舞台😍 恭喜每一位完成比賽的孩子！👏 也一起記錄這次大家努力換來的好成績✨ 🏆 半音階獨奏｜兒童組 第四名｜卉岑 🎶 二重奏｜兒童組 第四名｜雙音旅行－千碩、卉岑 第五名｜Roll&Dan－芯瑀、定謙 第七名｜Whatever air－柏穎、定謙 🎵 三重奏｜兒童組 🥉第三名｜M…",
+      "url": "https://www.facebook.com/permalink.php?id=61574004532712&story_fbid=pfbid025ri8gSJAm62vy9vJaZXqAkH4yfBN9ahaoBuMX7u4t2Z9d7tCgqVHXptvJ1Kx9ScGl",
+      "sourceName": "萬興國小口琴隊",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-12T11:47:26Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a01b6de002c78abf4e30.webp",
+        "width": 443,
+        "height": 590
+      }
+    },
+    {
+      "id": "post-0915b6b135ee6b8f7fc728ad",
+      "title": "🎵 臺灣口琴音樂節🎶",
+      "excerpt": "🎵 臺灣口琴音樂節🎶 這個暑假，萬興國小口琴隊的孩子們真的很忙😆 才剛結束一趟國際賽事，又繼續帶著口琴來到 臺灣口琴音樂節！ 每一次比賽，小編越來越覺得，名次當然讓人期待，但更珍貴的是孩子一次次站上舞台後的改變🤩 從上台前的緊張、反覆確認譜 到燈一亮，自己走上台、站定位、深呼吸，然後吹出第一個音符🎵 這些看起來小小的瞬間，其實都是他們慢慢累積起來的勇氣❤️ 而口琴音樂節最棒的地方，就是可以一次看到好多不同學校、不同年齡的演奏者 除了比賽，也是在聽別人、看別人，然後偷偷把新的刺激和想法帶回來 對萬興口琴隊的孩子來說 比完一場，不只是完成一場比賽，而是又比…",
+      "url": "https://www.facebook.com/permalink.php?id=61574004532712&story_fbid=pfbid0371mGFeodM8tsDHE49yJyPXCNwyBnr88AhTQuKXk1gwFTGupsnYuAJU37H3sRs3nDl",
+      "sourceName": "萬興國小口琴隊",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-09T03:14:09Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f3ec5437cadff5e658cb.webp",
+        "width": 443,
+        "height": 590
+      }
+    },
+    {
+      "id": "post-3ad961e1ed3647e394a40511",
+      "title": "三重奏",
+      "excerpt": "三重奏 比賽到一半～突然高溫公共安全警報響起～～所以中間有一小段沒有聲音～～😅真可惜 但小將們絲毫沒有受到影響！繼續比賽😍 #Sabre dance #韓國首爾口琴節SIHF",
+      "url": "https://www.facebook.com/reel/1562564075337087/",
+      "sourceName": "萬興國小口琴隊",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-05T01:31:19Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6236ff7ea8a2b9f6d29a.webp",
+        "width": 540,
+        "height": 960
+      }
+    }
+  ]
 }
