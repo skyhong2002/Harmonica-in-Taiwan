@@ -1025,10 +1025,10 @@
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-08-20T16:17:59+00:00",
-      "latestUpdateLocal": "2026-08-21 00:17",
+      "latestUpdateAt": "2026-08-20T17:51:37+00:00",
+      "latestUpdateLocal": "2026-08-21 01:51",
       "latestUpdateSource": "Howard Levy",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcRJq82RRhD/",
+      "latestUpdateUrl": "https://www.instagram.com/stories/howardlevyland/3968048782956386949/",
       "avatarUrl": "/assets/source-avatars/2fe863e9b5b0d5cdd08b.webp",
       "sourceInitials": "HL",
       "sourceTags": [
@@ -1286,6 +1286,58 @@
       ]
     },
     {
+      "id": "watchlist-238",
+      "publicId": "238",
+      "name": "蔡培婷",
+      "nameEn": "Pei-Ting Tsai",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "口琴演奏/學生音樂/個人帳號",
+      "structuredSummary": "口琴演奏/學生音樂/個人帳號 / 口琴 / 演出人員",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含口琴演奏、學生音樂與個人帳號。",
+      "keywords": "蔡培婷 Pei-Ting Tsai r83350 Harmonica player NYUST NYCU 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/r83350/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T13:51:58+00:00",
+      "latestUpdateLocal": "2026-08-20 21:51",
+      "latestUpdateSource": "蔡培婷",
+      "latestUpdateUrl": "https://www.instagram.com/stories/r83350/3967928158824811757/",
+      "avatarUrl": "/assets/source-avatars/b9930008b9441820a9e4.webp",
+      "sourceInitials": "蔡培",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_r83350",
+          "name": "蔡培婷",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "r83350",
+          "profileUrl": "https://www.instagram.com/r83350/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_r83350",
+          "name": "蔡培婷",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "r83350",
+          "profileUrl": "https://www.instagram.com/r83350/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/r83350/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-115",
       "publicId": "115",
       "name": "Filip Jers",
@@ -1466,6 +1518,92 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/Moridaira01",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-66",
+      "publicId": "66",
+      "name": "Younghoon Cho",
+      "nameEn": "Younghoon Cho",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
+      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
+      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "keywords": "Younghoon Cho Jong-seong Park",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/hoontobe"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hoontobe/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hoontobe_piano/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/hoontobe"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T13:00:21+00:00",
+      "latestUpdateLocal": "2026-08-20 21:00",
+      "latestUpdateSource": "Younghoon Cho",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=LEyouEbo5lQ",
+      "avatarUrl": "/assets/source-avatars/ce8582690611be231fa9.webp",
+      "sourceInitials": "YC",
+      "sourceTags": [
+        "演奏者",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
+      "monitorSources": [
+        {
+          "id": "fb_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hoontobe",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
+        },
+        {
+          "id": "yt_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/hoontobe",
           "feedUrl": ""
         }
       ]
@@ -2715,58 +2853,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/@KelvinLeungharmonica",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-238",
-      "publicId": "238",
-      "name": "蔡培婷",
-      "nameEn": "Pei-Ting Tsai",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/新竹",
-      "cityOrFocus": "口琴演奏/學生音樂/個人帳號",
-      "structuredSummary": "口琴演奏/學生音樂/個人帳號 / 口琴 / 演出人員",
-      "summary": "臺灣的口琴演出人員，活動脈絡包含口琴演奏、學生音樂與個人帳號。",
-      "keywords": "蔡培婷 Pei-Ting Tsai r83350 Harmonica player NYUST NYCU 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/r83350/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-20T04:11:51+00:00",
-      "latestUpdateLocal": "2026-08-20 12:11",
-      "latestUpdateSource": "蔡培婷",
-      "latestUpdateUrl": "https://www.instagram.com/stories/r83350/3967636184338922385/",
-      "avatarUrl": "/assets/source-avatars/b9930008b9441820a9e4.webp",
-      "sourceInitials": "蔡培",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_r83350",
-          "name": "蔡培婷",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "r83350",
-          "profileUrl": "https://www.instagram.com/r83350/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_r83350",
-          "name": "蔡培婷",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "r83350",
-          "profileUrl": "https://www.instagram.com/r83350/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/r83350/story/0"
         }
       ]
     },
@@ -4264,92 +4350,6 @@
           "username": "aidensoon",
           "profileUrl": "https://www.instagram.com/aidensoon/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-66",
-      "publicId": "66",
-      "name": "Younghoon Cho",
-      "nameEn": "Younghoon Cho",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
-      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
-      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "keywords": "Younghoon Cho Jong-seong Park",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/hoontobe"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hoontobe/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hoontobe_piano/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/hoontobe"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-19T13:14:46+00:00",
-      "latestUpdateLocal": "2026-08-19 21:14",
-      "latestUpdateSource": "Younghoon Cho",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3967184700775312050/",
-      "avatarUrl": "/assets/source-avatars/ce8582690611be231fa9.webp",
-      "sourceInitials": "YC",
-      "sourceTags": [
-        "演奏者",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
-      "monitorSources": [
-        {
-          "id": "fb_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hoontobe",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
-        },
-        {
-          "id": "yt_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/hoontobe",
-          "feedUrl": ""
         }
       ]
     },

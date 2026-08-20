@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T20:46:52.270085Z",
+  "generatedAt": "2026-08-20T21:54:01.232402Z",
   "source": {
     "id": 229,
     "slug": "hohner-harmonica",
@@ -46,20 +46,6 @@
       "publishedAt": "2026-08-03T17:30:32Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/dab5355d1ac8afbaa4b8.webp",
-        "width": 720,
-        "height": 1280
-      }
-    },
-    {
-      "id": "post-96b4d3c5935452dbe3d29e55",
-      "title": "@isaaccorbitt + @the.dyna.mic = MAGIC",
-      "excerpt": "@isaaccorbitt + @the.dyna.mic = MAGIC #harmonica #dynamic #harmonicamicrophone",
-      "url": "https://www.instagram.com/p/DbEgMzGtWK_/",
-      "sourceName": "Hohner Harmonica",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-21T21:41:31Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/8d7b972520387c99cf89.webp",
         "width": 720,
         "height": 1280
       }
