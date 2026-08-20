@@ -887,6 +887,77 @@
       ]
     },
     {
+      "id": "watchlist-33",
+      "publicId": "33",
+      "name": "黃冠誌",
+      "nameEn": "Kuan-Chih Huang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/胖擊口琴樂團團長/和弦口琴/THMF 2026/WHF與SIHF重奏",
+      "structuredSummary": "天狼星/胖擊口琴樂團團長/和弦口琴/THMF 2026/WHF與SIHF重奏 / 和弦口琴/重奏 / 演出人員/教育者/重奏團長",
+      "summary": "臺灣的和弦口琴與重奏演出人員、教育者與重奏團長，活動脈絡包含天狼星、胖擊口琴樂團團長與THMF 2026。",
+      "keywords": "黃冠誌 口琴 胖擊 Punch THMF 2026 WHF SIHF 和弦",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/kuanchih/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hk91f06/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T19:00:31+00:00",
+      "latestUpdateLocal": "2026-08-21 03:00",
+      "latestUpdateSource": "黃冠誌",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcRdqHOjDFV/",
+      "avatarUrl": "/assets/source-avatars/2652b76dac80edaea6b4.webp",
+      "sourceInitials": "黃冠",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
+        },
+        {
+          "id": "yt_cbd128e3de",
+          "name": "黃冠誌",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-21",
       "publicId": "21",
       "name": "Orion 口琴樂團",
@@ -1215,77 +1286,6 @@
       ]
     },
     {
-      "id": "watchlist-33",
-      "publicId": "33",
-      "name": "黃冠誌",
-      "nameEn": "Kuan-Chih Huang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/胖擊口琴樂團團長/和弦口琴/THMF 2026/WHF與SIHF重奏",
-      "structuredSummary": "天狼星/胖擊口琴樂團團長/和弦口琴/THMF 2026/WHF與SIHF重奏 / 和弦口琴/重奏 / 演出人員/教育者/重奏團長",
-      "summary": "臺灣的和弦口琴與重奏演出人員、教育者與重奏團長，活動脈絡包含天狼星、胖擊口琴樂團團長與THMF 2026。",
-      "keywords": "黃冠誌 口琴 胖擊 Punch THMF 2026 WHF SIHF 和弦",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/kuanchih/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hk91f06/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-20T14:21:09+00:00",
-      "latestUpdateLocal": "2026-08-20 22:21",
-      "latestUpdateSource": "黃冠誌",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3967942875413004127/",
-      "avatarUrl": "/assets/source-avatars/2652b76dac80edaea6b4.webp",
-      "sourceInitials": "黃冠",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
-        },
-        {
-          "id": "yt_cbd128e3de",
-          "name": "黃冠誌",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-238",
       "publicId": "238",
       "name": "蔡培婷",
@@ -1556,10 +1556,10 @@
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-08-20T13:00:21+00:00",
-      "latestUpdateLocal": "2026-08-20 21:00",
+      "latestUpdateAt": "2026-08-20T13:21:27+00:00",
+      "latestUpdateLocal": "2026-08-20 21:21",
       "latestUpdateSource": "Younghoon Cho",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=LEyouEbo5lQ",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3967912864136766200/",
       "avatarUrl": "/assets/source-avatars/ce8582690611be231fa9.webp",
       "sourceInitials": "YC",
       "sourceTags": [
@@ -1747,6 +1747,150 @@
           "username": "sabrinachen820",
           "profileUrl": "https://www.instagram.com/sabrinachen820/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/sabrinachen820/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-298",
+      "publicId": "298",
+      "name": "香港兒童合唱團口琴課程",
+      "nameEn": "HKCC Harmonica Programme",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "教學/學校/青年",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生",
+      "structuredSummary": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生 / 半音階/口琴合奏 / 教學單位/青年培育",
+      "summary": "香港的半音階與口琴合奏教學單位與青年培育。",
+      "keywords": "香港兒童合唱團 HKCC Harmonica Programme 口琴課程 Gordon Lee 2026 招生 兒童合奏",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hkcchoir.org.hk/en/instrumental-programme"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hkcchoir"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hkcchoir/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/hkcchoir"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T12:00:08+00:00",
+      "latestUpdateLocal": "2026-08-20 20:00",
+      "latestUpdateSource": "香港兒童合唱團口琴課程",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcQtqYYGJLT/",
+      "avatarUrl": "/assets/source-avatars/hkcc-harmonica.png",
+      "sourceInitials": "香港",
+      "sourceTags": [
+        "學生社團",
+        "教學",
+        "課程",
+        "半音階"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hkcchoir",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hkcchoir",
+          "profileUrl": "https://www.instagram.com/hkcchoir/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hkcchoir",
+          "profileUrl": "https://www.instagram.com/hkcchoir/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hkcchoir/story/0"
+        },
+        {
+          "id": "yt_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/hkcchoir",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-229",
+      "publicId": "229",
+      "name": "Hohner Harmonica",
+      "nameEn": "Hohner Harmonica",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌/樂器製造商",
+      "country": "德國",
+      "region": "德國/國際",
+      "cityOrFocus": "口琴製造/產品資訊/演奏推廣/國際社群",
+      "structuredSummary": "口琴製造/產品資訊/演奏推廣/國際社群 / 口琴 / 器材品牌",
+      "summary": "德國的口琴器材品牌，關注口琴製造、產品資訊、演奏推廣與國際社群。",
+      "keywords": "Hohner Harmonica HOHNER 口琴 品牌 德國",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/hohnermusic"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hohnerharmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T11:56:14+00:00",
+      "latestUpdateLocal": "2026-08-20 19:56",
+      "latestUpdateSource": "Hohner Harmonica",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hohnerharmonica/3967869910067834705/",
+      "avatarUrl": "/assets/source-avatars/1185d184817b65745a7d.webp",
+      "sourceInitials": "HH",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_hohnerharmonica",
+          "name": "Hohner Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hohnerharmonica",
+          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hohnerharmonica",
+          "name": "Hohner Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hohnerharmonica",
+          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerharmonica/story/0"
         }
       ]
     },
@@ -2279,65 +2423,6 @@
       ]
     },
     {
-      "id": "watchlist-229",
-      "publicId": "229",
-      "name": "Hohner Harmonica",
-      "nameEn": "Hohner Harmonica",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "品牌/樂器製造商",
-      "country": "德國",
-      "region": "德國/國際",
-      "cityOrFocus": "口琴製造/產品資訊/演奏推廣/國際社群",
-      "structuredSummary": "口琴製造/產品資訊/演奏推廣/國際社群 / 口琴 / 器材品牌",
-      "summary": "德國的口琴器材品牌，關注口琴製造、產品資訊、演奏推廣與國際社群。",
-      "keywords": "Hohner Harmonica HOHNER 口琴 品牌 德國",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/hohnermusic"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hohnerharmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-20T09:33:05+00:00",
-      "latestUpdateLocal": "2026-08-20 17:33",
-      "latestUpdateSource": "Hohner Harmonica",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hohnerharmonica/3967797903104266523/",
-      "avatarUrl": "/assets/source-avatars/1185d184817b65745a7d.webp",
-      "sourceInitials": "HH",
-      "sourceTags": [
-        "品牌",
-        "教學器材",
-        "教學",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_hohnerharmonica",
-          "name": "Hohner Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hohnerharmonica",
-          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hohnerharmonica",
-          "name": "Hohner Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hohnerharmonica",
-          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerharmonica/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-109",
       "publicId": "109",
       "name": "Boris Plotnikov",
@@ -2516,91 +2601,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-298",
-      "publicId": "298",
-      "name": "香港兒童合唱團口琴課程",
-      "nameEn": "HKCC Harmonica Programme",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "教學/學校/青年",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生",
-      "structuredSummary": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生 / 半音階/口琴合奏 / 教學單位/青年培育",
-      "summary": "香港的半音階與口琴合奏教學單位與青年培育。",
-      "keywords": "香港兒童合唱團 HKCC Harmonica Programme 口琴課程 Gordon Lee 2026 招生 兒童合奏",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://hkcchoir.org.hk/en/instrumental-programme"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hkcchoir"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hkcchoir/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/user/hkcchoir"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-20T07:07:44+00:00",
-      "latestUpdateLocal": "2026-08-20 15:07",
-      "latestUpdateSource": "香港兒童合唱團口琴課程",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=0clEVfCrMSU",
-      "avatarUrl": "/assets/source-avatars/hkcc-harmonica.png",
-      "sourceInitials": "香港",
-      "sourceTags": [
-        "學生社團",
-        "教學",
-        "課程",
-        "半音階"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hkcchoir",
-          "name": "香港兒童合唱團口琴課程",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hkcchoir",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hkcchoir",
-          "name": "香港兒童合唱團口琴課程",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hkcchoir",
-          "profileUrl": "https://www.instagram.com/hkcchoir/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hkcchoir",
-          "name": "香港兒童合唱團口琴課程",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hkcchoir",
-          "profileUrl": "https://www.instagram.com/hkcchoir/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hkcchoir/story/0"
-        },
-        {
-          "id": "yt_hkcchoir",
-          "name": "香港兒童合唱團口琴課程",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/user/hkcchoir",
           "feedUrl": ""
         }
       ]
