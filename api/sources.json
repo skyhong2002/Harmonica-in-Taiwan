@@ -71,6 +71,94 @@
   },
   "entries": [
     {
+      "id": "watchlist-55",
+      "publicId": "55",
+      "name": "梁承熹 Kelvin Leung",
+      "nameEn": "Kelvin Leung",
+      "category": "活動資訊",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "英皇書院口琴隊出身/2012亞太口琴節六重奏冠軍/2013世界口琴節半音階獨奏與大合奏冠軍及團體季軍/2014亞太口琴節半音階公開組冠軍/2010上海世博與國際音樂節演出/2016首爾國際口琴節及亞太口琴節評審/香港青少年口琴教育",
+      "structuredSummary": "英皇書院口琴隊出身/2012亞太口琴節六重奏冠軍/2013世界口琴節半音階獨奏與大合奏冠軍及團體季軍/2014亞太口琴節半音階公開組冠軍/2010上海世博與國際音樂節演出/2016首爾國際口琴節及亞太口琴節評審/香港青少年口琴教育 / 半音階口琴/口琴六重奏與大合奏 / 國際演出人員/教育者/國際賽事評審/世界與亞太冠軍",
+      "summary": "香港的國際演出人員、教育者與國際賽事評審，涵蓋英皇書院口琴隊出身、2012亞太口琴節六重奏冠軍、2013世界口琴節半音階獨奏與大合奏冠軍及團體季軍、2014亞太口琴節半音階公開組冠軍與2010上海世博與國際音樂節演出。",
+      "keywords": "梁承熹 Kelvin Leung Shing Hei King's College WHF 2013 chromatic champion APHF 2012 2014 SIHF 2016 judge Hong Kong",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica-kelvin.weebly.com/biography.html"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kelvinleungsh/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sorhei/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@KelvinLeungharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T04:32:16+00:00",
+      "latestUpdateLocal": "2026-08-20 12:32",
+      "latestUpdateSource": "梁承熹 Kelvin Leung",
+      "latestUpdateUrl": "https://www.instagram.com/stories/sorhei/3967646503258999594/",
+      "avatarUrl": "/assets/source-avatars/0c9e9143d106ffe600b5.webp",
+      "sourceInitials": "KL",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "演奏者",
+        "音樂節",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_kelvinleungsh",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/kelvinleungsh",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sorhei",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sorhei",
+          "profileUrl": "https://www.instagram.com/sorhei/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sorhei",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sorhei",
+          "profileUrl": "https://www.instagram.com/sorhei/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sorhei/story/0"
+        },
+        {
+          "id": "yt_kelvinleungharmonica",
+          "name": "梁承熹 Kelvin Leung",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@KelvinLeungharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-238",
       "publicId": "238",
       "name": "蔡培婷",
@@ -1523,94 +1611,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@cyleoharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-55",
-      "publicId": "55",
-      "name": "梁承熹 Kelvin Leung",
-      "nameEn": "Kelvin Leung",
-      "category": "活動資訊",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "英皇書院口琴隊出身/2012亞太口琴節六重奏冠軍/2013世界口琴節半音階獨奏與大合奏冠軍及團體季軍/2014亞太口琴節半音階公開組冠軍/2010上海世博與國際音樂節演出/2016首爾國際口琴節及亞太口琴節評審/香港青少年口琴教育",
-      "structuredSummary": "英皇書院口琴隊出身/2012亞太口琴節六重奏冠軍/2013世界口琴節半音階獨奏與大合奏冠軍及團體季軍/2014亞太口琴節半音階公開組冠軍/2010上海世博與國際音樂節演出/2016首爾國際口琴節及亞太口琴節評審/香港青少年口琴教育 / 半音階口琴/口琴六重奏與大合奏 / 國際演出人員/教育者/國際賽事評審/世界與亞太冠軍",
-      "summary": "香港的國際演出人員、教育者與國際賽事評審，涵蓋英皇書院口琴隊出身、2012亞太口琴節六重奏冠軍、2013世界口琴節半音階獨奏與大合奏冠軍及團體季軍、2014亞太口琴節半音階公開組冠軍與2010上海世博與國際音樂節演出。",
-      "keywords": "梁承熹 Kelvin Leung Shing Hei King's College WHF 2013 chromatic champion APHF 2012 2014 SIHF 2016 judge Hong Kong",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica-kelvin.weebly.com/biography.html"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/kelvinleungsh/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/sorhei/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@KelvinLeungharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-19T15:05:34+00:00",
-      "latestUpdateLocal": "2026-08-19 23:05",
-      "latestUpdateSource": "梁承熹 Kelvin Leung",
-      "latestUpdateUrl": "https://www.instagram.com/stories/sorhei/3967240429573426362/",
-      "avatarUrl": "/assets/source-avatars/0c9e9143d106ffe600b5.webp",
-      "sourceInitials": "KL",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "演奏者",
-        "音樂節",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_kelvinleungsh",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/kelvinleungsh",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_sorhei",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "sorhei",
-          "profileUrl": "https://www.instagram.com/sorhei/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_sorhei",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "sorhei",
-          "profileUrl": "https://www.instagram.com/sorhei/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sorhei/story/0"
-        },
-        {
-          "id": "yt_kelvinleungharmonica",
-          "name": "梁承熹 Kelvin Leung",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@KelvinLeungharmonica",
           "feedUrl": ""
         }
       ]
