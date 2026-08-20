@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T15:11:19.824801Z",
+  "generatedAt": "2026-08-20T15:44:44.970652Z",
   "source": {
     "id": 54,
     "slug": "cy-leo",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/54-cy-leo/"
   },
   "items": [
+    {
+      "id": "post-b7589957f82364279dbc1b3f",
+      "title": "Rhapsody In Blue (part2) by King’s College Harmonica band.",
+      "excerpt": "Rhapsody In Blue (part2) by King’s College Harmonica band. Harmonica part arranged by @cy_leo Orchestrated by @shartsir",
+      "url": "https://www.instagram.com/p/DcQYmEpSD4S/",
+      "sourceName": "CY Leo 何卓彥",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-20T08:58:52Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/31a1e01d7b780d54724c.webp",
+        "width": 720,
+        "height": 1280
+      }
+    },
     {
       "id": "post-fd3ccff747971eb9c40be91f",
       "title": "A morning study on Leo Genovesem’s mind",
