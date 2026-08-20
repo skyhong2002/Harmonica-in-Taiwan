@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-20T12:20:44+08:00",
+  "generatedAt": "2026-08-20T12:54:53+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
-  "count": 10,
+  "count": 11,
   "source": "/api/events.json",
   "ics": "/feeds/overseas-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 1,
-      "cached": 16,
+      "cached": 17,
       "errors": 0
     }
   },
@@ -308,6 +308,42 @@
         "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/773066356_18100375028185087_3310725270238773065_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzk2MTcwNjc4MzgwMjE1ODEzOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=w48MCEEfi7gQ7kNvwHLRiuE&_nc_oc=Adqal3sKlTKNPOzKggbB0-pFaU1CLV2kVlJ28cbr1cbBz_d4RM0S2t9gpxR__YoNU6k&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=UDMu3TWBT3hhQ6ACmJtQ-Q&_nc_ss=7a22e&oh=00_AQFq_sB-fHBF4QF0DVRg5ysIxwq0mTvTdUD98Sf0LyEyoA&oe=6A821572"
       ],
       "image_url": "/assets/feed-images/9577ba65ed1df9c1bfb4.webp"
+    },
+    {
+      "id": "e9a91b34ffa66ec5",
+      "title": "Qin Yuan 51《琴缘51》",
+      "eventName": "Qin Yuan 51《琴缘51》",
+      "source": "口琴愛好者協會（新加坡）",
+      "platform": "facebook",
+      "start": "2026-10-04T05:00:00+08:00",
+      "end": "2026-10-04T07:00:00+08:00",
+      "allDay": false,
+      "calendarType": "overseas_physical",
+      "timezone": "Asia/Singapore",
+      "location": "Singapore Esplanade Recital Studio",
+      "venue": "Esplanade Recital Studio",
+      "city": "Singapore",
+      "details": "主辦／演出者：口琴愛好者協會（新加坡）。口琴音樂會，主打古典、爵士、亞洲樂曲與熟悉旋律，由本地口琴演奏家及樂團演出，特邀嘉賓為 CY Leo 何卓彦。活動時間為 2026年10月4日（星期日）下午5:00，票價 Public $30、會員/學生 $25。",
+      "evidenceUrl": "https://www.facebook.com/HARMONICAMUSICLOVERS/posts/pfbid0id39yWkpmaozz87m5CjJXaciSuQ23znBeXh6fNDyCnT7uVW1MVZZvwxxRBhpAnLCl",
+      "confidence": 0.98,
+      "calendarReview": {
+        "include": true,
+        "country": "新加坡",
+        "eventMode": "overseas_physical",
+        "timezone": "Asia/Singapore",
+        "candidateDateMatches": true,
+        "eventName": "Qin Yuan 51《琴缘51》",
+        "venue": "Esplanade Recital Studio",
+        "city": "Singapore",
+        "details": "主辦／演出者：口琴愛好者協會（新加坡）。口琴音樂會，主打古典、爵士、亞洲樂曲與熟悉旋律，由本地口琴演奏家及樂團演出，特邀嘉賓為 CY Leo 何卓彦。活動時間為 2026年10月4日（星期日）下午5:00，票價 Public $30、會員/學生 $25。",
+        "reason": "貼文明確寫出 2026/10/04 5:00 PM、場地 Esplanade Recital Studio，屬新加坡實體口琴活動，日期與候選一致。",
+        "confidence": 0.98
+      },
+      "postedAt": "2026-08-14 08:15",
+      "images": [
+        "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/772265143_1690618266403579_878248659833092620_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1920&ctp=p526x296&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=OLUibseIXvYQ7kNvwGCRa5X&_nc_oc=AdrINbq4m5CIIRyQrlzBnlwBOePSBK8iZgzsC0Cpimwoc7jFFHy3NdxIlnu1FL2tuAhB9bnUj-0yAXRhf8ZCtUfN&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=aK1hOQ1ZEUWwILkG6aw3bw&_nc_ss=72289&oh=00_AQE_GXTle5aXwQ5ZSX4CATafJXj-g0wB2cp_CfX6JSq2tw&oe=6A8C6430"
+      ],
+      "image_url": "/assets/feed-images/a58c97187f3e8524246e.webp"
     },
     {
       "id": "4ecad43e0bebfcf8",
