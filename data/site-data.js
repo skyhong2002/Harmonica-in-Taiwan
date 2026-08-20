@@ -2,6 +2,91 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-20",
   "entries": [
     {
+      "id": "watchlist-147",
+      "publicId": "147",
+      "name": "Yoonseok Lee",
+      "nameEn": "Yoonseok Lee",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "WHF 2025/半音階/國際比賽/教育與演出",
+      "structuredSummary": "WHF 2025/半音階/國際比賽/教育與演出 / 半音階 / 國際演出人員/教育者",
+      "summary": "韓國的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、國際比賽與教育與演出。",
+      "keywords": "Yoonseok Lee yoonseokhca harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/yoonseokl"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/yoonseokhca/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yoonseoklee_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/YoonseokLee_HARMONICA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T02:34:21+00:00",
+      "latestUpdateLocal": "2026-08-20 10:34",
+      "latestUpdateSource": "Yoonseok Lee",
+      "latestUpdateUrl": "https://www.instagram.com/stories/yoonseoklee_harmonica/3967587102019661521/",
+      "avatarUrl": "/assets/source-avatars/ecb18c627a15d31299a0.webp",
+      "sourceInitials": "YL",
+      "sourceTags": [
+        "演奏者",
+        "比賽",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_yoonseokhca",
+          "name": "Yoonseok Lee",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/yoonseokhca",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yoonseoklee_harmonica",
+          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yoonseoklee_harmonica/story/0"
+        },
+        {
+          "id": "ig_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yoonseoklee_harmonica",
+          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/YoonseokLee_HARMONICA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -892,6 +977,61 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-258",
+      "publicId": "258",
+      "name": "陳若芸",
+      "nameEn": "Sabrina Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/彰化",
+      "cityOrFocus": "Cookie Monster/口琴二重奏/THMF 2026半音階獨奏公開組第五名/WHF",
+      "structuredSummary": "Cookie Monster/口琴二重奏/THMF 2026半音階獨奏公開組第五名/WHF / 半音階口琴 / 演出人員/樂團成員",
+      "summary": "臺灣的半音階口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF 2026半音階獨奏公開組第五名。",
+      "keywords": "陳若芸 Sabrina Chen harmonica player Cookie Monster THMF 2026 A1 fifth WHF",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sabrinachen820/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-19T17:27:13+00:00",
+      "latestUpdateLocal": "2026-08-20 01:27",
+      "latestUpdateSource": "陳若芸",
+      "latestUpdateUrl": "https://www.instagram.com/stories/sabrinachen820/3967311724532532915/",
+      "avatarUrl": "/assets/source-avatars/662fc87ca07494af2d57.webp",
+      "sourceInitials": "陳若",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_sabrinachen820",
+          "name": "陳若芸",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sabrinachen820",
+          "profileUrl": "https://www.instagram.com/sabrinachen820/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sabrinachen820",
+          "name": "陳若芸",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sabrinachen820",
+          "profileUrl": "https://www.instagram.com/sabrinachen820/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sabrinachen820/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-228",
       "publicId": "228",
       "name": "臺中一中口琴社校友團",
@@ -983,7 +1123,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-20 01:00",
       "latestUpdateSource": "Jong-seong Park 朴鍾聲",
       "latestUpdateUrl": "https://www.instagram.com/stories/jongseongpark_harmonicist/3967298207998603045/",
-      "avatarUrl": "/assets/source-avatars/18b492947bf0f5db7754.webp",
+      "avatarUrl": "/assets/source-avatars/d84428d1fc13c8ea5603.webp",
       "sourceInitials": "JSP",
       "sourceTags": [
         "演奏者",
@@ -3430,91 +3570,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@hokahkean1999",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-147",
-      "publicId": "147",
-      "name": "Yoonseok Lee",
-      "nameEn": "Yoonseok Lee",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "WHF 2025/半音階/國際比賽/教育與演出",
-      "structuredSummary": "WHF 2025/半音階/國際比賽/教育與演出 / 半音階 / 國際演出人員/教育者",
-      "summary": "韓國的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、國際比賽與教育與演出。",
-      "keywords": "Yoonseok Lee yoonseokhca harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/yoonseokl"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/yoonseokhca/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yoonseoklee_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/YoonseokLee_HARMONICA"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-19T05:07:10+00:00",
-      "latestUpdateLocal": "2026-08-19 13:07",
-      "latestUpdateSource": "Yoonseok Lee",
-      "latestUpdateUrl": "https://www.instagram.com/stories/yoonseoklee_harmonica/3966939242978814336/",
-      "avatarUrl": "/assets/source-avatars/ecb18c627a15d31299a0.webp",
-      "sourceInitials": "YL",
-      "sourceTags": [
-        "演奏者",
-        "比賽",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_yoonseokhca",
-          "name": "Yoonseok Lee",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/yoonseokhca",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_yoonseoklee_harmonica",
-          "name": "Yoonseok Lee",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yoonseoklee_harmonica",
-          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yoonseoklee_harmonica/story/0"
-        },
-        {
-          "id": "ig_yoonseoklee_harmonica",
-          "name": "Yoonseok Lee",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yoonseoklee_harmonica",
-          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_yoonseoklee_harmonica",
-          "name": "Yoonseok Lee",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/YoonseokLee_HARMONICA",
           "feedUrl": ""
         }
       ]
@@ -7642,6 +7697,52 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@alysaliao",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-227",
+      "publicId": "227",
+      "name": "Tancy Liu",
+      "nameEn": "Tancy Liu",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "中國",
+      "region": "中國",
+      "cityOrFocus": "中國青少年口琴演奏者/六歲已參加第12屆亞太口琴節/藍調、爵士、古典與流行曲風/十孔口琴overblow與半音階口琴演奏/2021與2022 SPAH青年學者/SEYDEL演奏者",
+      "structuredSummary": "中國青少年口琴演奏者/六歲已參加第12屆亞太口琴節/藍調、爵士、古典與流行曲風/十孔口琴overblow與半音階口琴演奏/2021與2022 SPAH青年學者/SEYDEL演奏者 / 十孔口琴/藍調口琴/半音階口琴 / 國際青少年演出人員/SPAH青年學者/SEYDEL演奏者",
+      "summary": "中國的十孔口琴、藍調口琴與半音階口琴國際青少年演出人員、SPAH青年學者與SEYDEL演奏者，活動脈絡包含中國青少年口琴演奏者、六歲已參加第12屆亞太口琴節與藍調。",
+      "keywords": "Tancy Liu 劉恬曦 胖妞 China harmonica APHF 12th SPAH Youth Scholar 2021 2022 SEYDEL diatonic chromatic blues jazz classical overblow",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/tancy.liu.3"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-12T13:23:02+00:00",
+      "latestUpdateLocal": "2026-08-12 21:23",
+      "latestUpdateSource": "Tancy Liu",
+      "latestUpdateUrl": "https://www.facebook.com/reel/959898360455295/",
+      "avatarUrl": "/assets/source-avatars/d4acb4fddc08892619e4.webp",
+      "sourceInitials": "TL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_tancy_liu_3",
+          "name": "Tancy Liu",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/tancy.liu.3",
           "feedUrl": ""
         }
       ]
@@ -19452,52 +19553,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-227",
-      "publicId": "227",
-      "name": "Tancy Liu",
-      "nameEn": "Tancy Liu",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "中國",
-      "region": "中國",
-      "cityOrFocus": "中國青少年口琴演奏者/六歲已參加第12屆亞太口琴節/藍調、爵士、古典與流行曲風/十孔口琴overblow與半音階口琴演奏/2021與2022 SPAH青年學者/SEYDEL演奏者",
-      "structuredSummary": "中國青少年口琴演奏者/六歲已參加第12屆亞太口琴節/藍調、爵士、古典與流行曲風/十孔口琴overblow與半音階口琴演奏/2021與2022 SPAH青年學者/SEYDEL演奏者 / 十孔口琴/藍調口琴/半音階口琴 / 國際青少年演出人員/SPAH青年學者/SEYDEL演奏者",
-      "summary": "中國的十孔口琴、藍調口琴與半音階口琴國際青少年演出人員、SPAH青年學者與SEYDEL演奏者，活動脈絡包含中國青少年口琴演奏者、六歲已參加第12屆亞太口琴節與藍調。",
-      "keywords": "Tancy Liu 劉恬曦 胖妞 China harmonica APHF 12th SPAH Youth Scholar 2021 2022 SEYDEL diatonic chromatic blues jazz classical overblow",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/tancy.liu.3"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/d4acb4fddc08892619e4.webp",
-      "sourceInitials": "TL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_tancy_liu_3",
-          "name": "Tancy Liu",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/tancy.liu.3",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-150",
       "publicId": "150",
       "name": "Tian Long Li",
@@ -20537,61 +20592,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://facebook.com/chen.cong.199678",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-258",
-      "publicId": "258",
-      "name": "陳若芸",
-      "nameEn": "Sabrina Chen",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/彰化",
-      "cityOrFocus": "Cookie Monster/口琴二重奏/THMF 2026半音階獨奏公開組第五名/WHF",
-      "structuredSummary": "Cookie Monster/口琴二重奏/THMF 2026半音階獨奏公開組第五名/WHF / 半音階口琴 / 演出人員/樂團成員",
-      "summary": "臺灣的半音階口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF 2026半音階獨奏公開組第五名。",
-      "keywords": "陳若芸 Sabrina Chen harmonica player Cookie Monster THMF 2026 A1 fifth WHF",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/sabrinachen820/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/662fc87ca07494af2d57.webp",
-      "sourceInitials": "陳若",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "半音階",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_sabrinachen820",
-          "name": "陳若芸",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "sabrinachen820",
-          "profileUrl": "https://www.instagram.com/sabrinachen820/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_sabrinachen820",
-          "name": "陳若芸",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "sabrinachen820",
-          "profileUrl": "https://www.instagram.com/sabrinachen820/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sabrinachen820/story/0"
         }
       ]
     },

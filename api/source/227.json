@@ -1,11 +1,40 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T06:47:06.661827Z",
+  "generatedAt": "2026-08-20T07:16:57.501714Z",
   "source": {
     "id": 227,
     "slug": "tancy-liu",
     "name": "Tancy Liu",
     "pageUrl": "https://harmonica.observe.tw/source/227-tancy-liu/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-1c893af9d81fbb904ade87f8",
+      "title": "I've been focusing on saxophone and chromatic harmonica these",
+      "excerpt": "I've been focusing on saxophone and chromatic harmonica these past few years.🥰 This time, I'm posting a video of my blues harmonica performance with my band.🥳🤩😇",
+      "url": "https://www.facebook.com/reel/959898360455295/",
+      "sourceName": "Tancy Liu",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-12T13:23:02Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/5972c4a93c8d75559454.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-14237a920e771f0c2f2bbb80",
+      "title": "play by Miles Davis",
+      "excerpt": "play by Miles Davis",
+      "url": "https://www.facebook.com/reel/2875117756158041/",
+      "sourceName": "Tancy Liu",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-10T06:59:40Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/187fd9ee18f29dc5f6e8.webp",
+        "width": 540,
+        "height": 960
+      }
+    }
+  ]
 }
