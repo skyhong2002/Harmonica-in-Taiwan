@@ -142,6 +142,84 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-186",
+      "publicId": "186",
+      "name": "中一中口琴社",
+      "nameEn": "TCFSH Harmonica",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "臺中一中/學校社團/臺中",
+      "structuredSummary": "臺中一中/學校社團/臺中 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "中一中口琴社 TCFSH Harmonica 口琴社",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/tcfsh.harmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/tcfsh_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E5%8F%A3%E7%90%B4%E4%B9%8B%E7%8B%BC"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T04:09:48+00:00",
+      "latestUpdateLocal": "2026-08-20 12:09",
+      "latestUpdateSource": "中一中口琴社",
+      "latestUpdateUrl": "https://www.instagram.com/stories/tcfsh_harmonica/3967635145406422425/",
+      "avatarUrl": "/assets/source-avatars/9033731e98662050a211.webp",
+      "sourceInitials": "中一",
+      "sourceTags": [
+        "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_tcfsh_harmonica",
+          "name": "中一中口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/tcfsh.harmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_tcfsh_harmonica",
+          "name": "TCFSH Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "tcfsh_harmonica",
+          "profileUrl": "https://www.instagram.com/tcfsh_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_tcfsh_harmonica",
+          "name": "中一中口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "tcfsh_harmonica",
+          "profileUrl": "https://www.instagram.com/tcfsh_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/tcfsh_harmonica/story/0"
+        },
+        {
+          "id": "yt_19430dac8a",
+          "name": "中一中口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E5%8F%A3%E7%90%B4%E4%B9%8B%E7%8B%BC",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-147",
       "publicId": "147",
       "name": "Yoonseok Lee",
@@ -2495,7 +2573,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-19 20:21",
       "latestUpdateSource": "山下伶 Rei Yamashita",
       "latestUpdateUrl": "https://www.instagram.com/p/DcOKUA1oZtC/",
-      "avatarUrl": "/assets/source-avatars/304bf8a567368702d02c.webp",
+      "avatarUrl": "/assets/source-avatars/df8c708cab689b818f71.webp",
       "sourceInitials": "RY",
       "sourceTags": [
         "演奏者",
@@ -6726,84 +6804,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-186",
-      "publicId": "186",
-      "name": "中一中口琴社",
-      "nameEn": "TCFSH Harmonica",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "臺中一中/學校社團/臺中",
-      "structuredSummary": "臺中一中/學校社團/臺中 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "中一中口琴社 TCFSH Harmonica 口琴社",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/tcfsh.harmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/tcfsh_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E5%8F%A3%E7%90%B4%E4%B9%8B%E7%8B%BC"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-16T03:23:21+00:00",
-      "latestUpdateLocal": "2026-08-16 11:23",
-      "latestUpdateSource": "中一中口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/stories/tcfsh_harmonica/3964712668787627321/",
-      "avatarUrl": "/assets/source-avatars/9033731e98662050a211.webp",
-      "sourceInitials": "中一",
-      "sourceTags": [
-        "學生社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_tcfsh_harmonica",
-          "name": "中一中口琴社",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/tcfsh.harmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_tcfsh_harmonica",
-          "name": "TCFSH Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "tcfsh_harmonica",
-          "profileUrl": "https://www.instagram.com/tcfsh_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_tcfsh_harmonica",
-          "name": "中一中口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "tcfsh_harmonica",
-          "profileUrl": "https://www.instagram.com/tcfsh_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/tcfsh_harmonica/story/0"
-        },
-        {
-          "id": "yt_19430dac8a",
-          "name": "中一中口琴社",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E5%8F%A3%E7%90%B4%E4%B9%8B%E7%8B%BC",
           "feedUrl": ""
         }
       ]
