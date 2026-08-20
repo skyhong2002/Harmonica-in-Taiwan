@@ -375,6 +375,77 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-30",
+      "publicId": "30",
+      "name": "蔡明憲",
+      "nameEn": "Ming-Sian Cai",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
+      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
+      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
+      "keywords": "蔡明憲 口琴 DMing Studio",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://dming.co/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/dming.tsai/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/damingtsai/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T00:23:38+00:00",
+      "latestUpdateLocal": "2026-08-20 08:23",
+      "latestUpdateSource": "蔡明憲",
+      "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3967521317322472866/",
+      "avatarUrl": "/assets/source-avatars/a1745d09969a03c896ae.webp",
+      "sourceInitials": "蔡明",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_dming_tsai",
+          "name": "蔡明憲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/dming.tsai",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-67",
       "publicId": "67",
       "name": "Marcos Coll",
@@ -1242,7 +1313,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-19 22:47",
       "latestUpdateSource": "Hohner Harmonica",
       "latestUpdateUrl": "https://www.instagram.com/p/DcObsRzxF5A/",
-      "avatarUrl": "/assets/source-avatars/ed13f3775f3751df1d84.webp",
+      "avatarUrl": "/assets/source-avatars/1185d184817b65745a7d.webp",
       "sourceInitials": "HH",
       "sourceTags": [
         "品牌",
@@ -2422,77 +2493,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/user/hkcchoir",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-30",
-      "publicId": "30",
-      "name": "蔡明憲",
-      "nameEn": "Ming-Sian Cai",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
-      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
-      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
-      "keywords": "蔡明憲 口琴 DMing Studio",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://dming.co/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/dming.tsai/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/damingtsai/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-19T11:42:12+00:00",
-      "latestUpdateLocal": "2026-08-19 19:42",
-      "latestUpdateSource": "蔡明憲",
-      "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3967138076811648425/",
-      "avatarUrl": "/assets/source-avatars/a1745d09969a03c896ae.webp",
-      "sourceInitials": "蔡明",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_dming_tsai",
-          "name": "蔡明憲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/dming.tsai",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
         }
       ]
     },
@@ -5130,6 +5130,90 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@easttopmusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-171",
+      "publicId": "171",
+      "name": "口琴保存與推廣協會 SPAH",
+      "nameEn": "Society for the Preservation and Advancement of the Harmonica",
+      "category": "活動資訊",
+      "type": "協會",
+      "originalType": "協會/活動",
+      "country": "美國",
+      "region": "美國/密蘇里",
+      "cityOrFocus": "SPAH convention/教育/青年獎學金/社群俱樂部",
+      "structuredSummary": "SPAH convention/教育/青年獎學金/社群俱樂部 / 口琴 / 國際協會/活動來源",
+      "summary": "美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。",
+      "keywords": "SPAH Society for the Preservation and Advancement of the Harmonica convention youth scholarships",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://spah.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/SPAH63/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/official_spah63/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-17T21:13:36+00:00",
+      "latestUpdateLocal": "2026-08-18 05:13",
+      "latestUpdateSource": "口琴保存與推廣協會 SPAH",
+      "latestUpdateUrl": "https://www.facebook.com/SPAH63/posts/pfbid0BSjhVjrYprpCUiw8W9ndLW9FBQGBiuVCkkzC2Umh37HXE4PRAF1tncWwV7sqgtoAl",
+      "avatarUrl": "/assets/source-avatars/c48adb432802be5f8db6.webp",
+      "sourceInitials": "S",
+      "sourceTags": [
+        "協會",
+        "活動資訊",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/SPAH63",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_official_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "official_spah63",
+          "profileUrl": "https://www.instagram.com/official_spah63/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_official_spah63",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "official_spah63",
+          "profileUrl": "https://www.instagram.com/official_spah63/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/official_spah63/story/0"
+        },
+        {
+          "id": "yt_ucbjlie6bvgh8jhvco_xltsg",
+          "name": "口琴保存與推廣協會 SPAH",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
           "feedUrl": ""
         }
       ]
@@ -7775,90 +7859,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-171",
-      "publicId": "171",
-      "name": "口琴保存與推廣協會 SPAH",
-      "nameEn": "Society for the Preservation and Advancement of the Harmonica",
-      "category": "活動資訊",
-      "type": "協會",
-      "originalType": "協會/活動",
-      "country": "美國",
-      "region": "美國/密蘇里",
-      "cityOrFocus": "SPAH convention/教育/青年獎學金/社群俱樂部",
-      "structuredSummary": "SPAH convention/教育/青年獎學金/社群俱樂部 / 口琴 / 國際協會/活動來源",
-      "summary": "美國的國際協會與活動來源，涵蓋SPAH convention、教育、青年獎學金與社群俱樂部。",
-      "keywords": "SPAH Society for the Preservation and Advancement of the Harmonica convention youth scholarships",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://spah.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/SPAH63/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/official_spah63/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-11T14:46:31+00:00",
-      "latestUpdateLocal": "2026-08-11 22:46",
-      "latestUpdateSource": "口琴保存與推廣協會 SPAH",
-      "latestUpdateUrl": "https://www.instagram.com/p/Db51dUiKS5Q/",
-      "avatarUrl": "/assets/source-avatars/c48adb432802be5f8db6.webp",
-      "sourceInitials": "S",
-      "sourceTags": [
-        "協會",
-        "活動資訊",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/SPAH63",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_official_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "official_spah63",
-          "profileUrl": "https://www.instagram.com/official_spah63/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_official_spah63",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "official_spah63",
-          "profileUrl": "https://www.instagram.com/official_spah63/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/official_spah63/story/0"
-        },
-        {
-          "id": "yt_ucbjlie6bvgh8jhvco_xltsg",
-          "name": "口琴保存與推廣協會 SPAH",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCbJlie6bVGh8JhVCO-XLtsg",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-14",
       "publicId": "14",
       "name": "mr.Why 花影樂團",
@@ -8505,7 +8505,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-09 18:41",
       "latestUpdateSource": "歷奇口琴隊",
       "latestUpdateUrl": "https://www.instagram.com/p/Db0P4U7mSvf/",
-      "avatarUrl": "/assets/source-avatars/66a2be89a65a451da366.webp",
+      "avatarUrl": "/assets/source-avatars/9f674ff38c30a0c33cfe.webp",
       "sourceInitials": "歷奇",
       "sourceTags": [
         "團體樂團",
@@ -12284,6 +12284,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "重奏",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_56",
+          "name": "蔡偉鏗 Harry Choi",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://duovolce.com/harry-choi",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -13030,6 +13041,17 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "簧格",
       "sourceTags": [
         "品牌"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_28",
+          "name": "簧格音樂有限公司",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://portaly.cc/harmonistory",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -13063,6 +13085,17 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "協會",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_61",
+          "name": "TOMBO ハーモニカ・ソサイエティ",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://tombo-m.co.jp/hmc/genre/harmso.html",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -13097,6 +13130,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "協會",
         "國際交流",
         "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_168",
+          "name": "中國大眾音樂協會口琴專業委員會",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://harmonica.org.cn/about.asp",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -13132,6 +13176,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "國際交流",
         "半音階",
         "複音"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_246",
+          "name": "中國大眾音樂協會口琴考級網",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://kaoshi.harmonica.org.cn/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -13166,6 +13221,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "協會",
         "國際交流",
         "半音階"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_175",
+          "name": "德國 Harmonica/Harmonika 協會 DHV",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://dhv-ev.de/mundharmonika",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -13201,6 +13267,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "國際交流",
         "比賽",
         "複音"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_64",
+          "name": "日本ハーモニカ芸術協会 JHAA",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://jhaa.info/about.html",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -13235,6 +13312,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "活動資訊",
         "國際交流",
         "比賽"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_278",
+          "name": "無錫市人民政府（亞太口琴藝術週資訊）",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://wuxi.gov.cn/doc/2026/07/26/4810061.shtml",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -13468,6 +13556,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "taiwanharmonica",
           "profileUrl": "https://www.instagram.com/taiwanharmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "web_281",
+          "name": "AcousTek Harmonica Ensemble",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://taiwanharmonica.com/s/E1_-h3sj.pdf",
+          "feedUrl": ""
         }
       ]
     },
@@ -13570,6 +13667,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "taiwanharmonica",
           "profileUrl": "https://www.instagram.com/taiwanharmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "web_19",
+          "name": "BBG 口琴三重奏",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://taiwanharmonica.com/",
+          "feedUrl": ""
         }
       ]
     },
@@ -13605,6 +13711,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "團體樂團",
         "教學",
         "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_23",
+          "name": "Baba & Needem",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://taiwanharmonica.com/2026artists-midday",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -13647,6 +13764,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "taiwanharmonica",
           "profileUrl": "https://www.instagram.com/taiwanharmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "web_280",
+          "name": "Comet Harmonica Ensemble",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://taiwanharmonica.com/s/E1_-h3sj.pdf",
+          "feedUrl": ""
         }
       ]
     },
@@ -13684,6 +13810,15 @@ window.HARMONICA_OBSERVE_DATA = {
         "國際交流"
       ],
       "monitorSources": [
+        {
+          "id": "web_134",
+          "name": "Crossover Harmonica Ensemble",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://thefestival.co.kr/info/festival/7338",
+          "feedUrl": ""
+        },
         {
           "id": "yt_sihf_uv5mk",
           "name": "Seoul International Harmonica Festival",
@@ -13868,6 +14003,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "taiwanharmonica",
           "profileUrl": "https://www.instagram.com/taiwanharmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "web_279",
+          "name": "Don't Cry Ensemble",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://taiwanharmonica.com/s/E1_-h3sj.pdf",
+          "feedUrl": ""
         }
       ]
     },
@@ -13913,6 +14057,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_profile",
           "username": "whf_world_harmonica_festival",
           "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
+          "feedUrl": ""
+        },
+        {
+          "id": "web_275",
+          "name": "Heartstrings in Harmony",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://worldharmonicafestival.de/wp-content/uploads/2025/09/WHF_2025_Competition_Participant_List__Schedule-2.pdf",
           "feedUrl": ""
         }
       ]
@@ -13960,6 +14113,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "whf_world_harmonica_festival",
           "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
           "feedUrl": ""
+        },
+        {
+          "id": "web_273",
+          "name": "Kitauji Sextet",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://worldharmonicafestival.de/wp-content/uploads/2025/09/WHF_2025_Competition_Participant_List__Schedule-2.pdf",
+          "feedUrl": ""
         }
       ]
     },
@@ -13995,6 +14157,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "團體樂團",
         "半音階",
         "複音"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_126",
+          "name": "Korea Harmonica Orchestra",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://koreaharmonica.kr/orchestra",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -14040,6 +14213,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "whf_world_harmonica_festival",
           "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
           "feedUrl": ""
+        },
+        {
+          "id": "web_277",
+          "name": "Kyber Harmonica Ensemble",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://worldharmonicafestival.de/wp-content/uploads/2025/09/WHF_2025_Competition_Participant_List__Schedule-2.pdf",
+          "feedUrl": ""
         }
       ]
     },
@@ -14076,6 +14258,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "比賽",
         "重奏",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_144",
+          "name": "La Mixtura",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://monja-heuler.de/ueber-mich/biografie",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -14118,6 +14311,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_profile",
           "username": "taiwanharmonica",
           "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "web_20",
+          "name": "Miss H. 口琴樂團",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://mx.nthu.edu.tw/~ymchen/sirius/pic/2016star.pdf",
           "feedUrl": ""
         }
       ]
@@ -14220,6 +14422,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "taiwanharmonica",
           "profileUrl": "https://www.instagram.com/taiwanharmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "web_21",
+          "name": "Orion 口琴樂團",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU",
+          "feedUrl": ""
         }
       ]
     },
@@ -14266,6 +14477,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "whf_world_harmonica_festival",
           "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
           "feedUrl": ""
+        },
+        {
+          "id": "web_276",
+          "name": "Paskho Harmonica Ensemble",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://worldharmonicafestival.de/wp-content/uploads/2025/09/WHF_2025_Competition_Participant_List__Schedule-2.pdf",
+          "feedUrl": ""
         }
       ]
     },
@@ -14303,6 +14523,15 @@ window.HARMONICA_OBSERVE_DATA = {
         "國際交流"
       ],
       "monitorSources": [
+        {
+          "id": "web_136",
+          "name": "Project X",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://thefestival.co.kr/info/festival/7338",
+          "feedUrl": ""
+        },
         {
           "id": "yt_sihf_uv5mk",
           "name": "Seoul International Harmonica Festival",
@@ -14406,6 +14635,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "whf_world_harmonica_festival",
           "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
           "feedUrl": ""
+        },
+        {
+          "id": "web_274",
+          "name": "Resonance Storm",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://worldharmonicafestival.de/wp-content/uploads/2025/09/WHF_2025_Competition_Participant_List__Schedule-2.pdf",
+          "feedUrl": ""
         }
       ]
     },
@@ -14442,6 +14680,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "重奏",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_314",
+          "name": "Rivet 口琴重奏",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://hkharmonica.org/cas2026-27-project-activation-concert",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -14478,6 +14727,15 @@ window.HARMONICA_OBSERVE_DATA = {
         "國際交流"
       ],
       "monitorSources": [
+        {
+          "id": "web_286",
+          "name": "Seoul BLUE Harmonica Ensemble",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://gcfac.or.kr/performance/commonView?currRow=1&gcfac_menu_cd=U0007&perDisGubun=performance&returnURI=%2Fperformance%2FcurrentList&seq_no=3630&serhDate=&serhPerforDisplay=&serhTitle=",
+          "feedUrl": ""
+        },
         {
           "id": "yt_seoulharmonicaorchestra",
           "name": "首爾口琴管弦樂團",
@@ -14524,6 +14782,15 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "monitorSources": [
         {
+          "id": "web_287",
+          "name": "Seoul RED Harmonica Ensemble",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://gcfac.or.kr/performance/commonView?currRow=1&gcfac_menu_cd=U0007&perDisGubun=performance&returnURI=%2Fperformance%2FcurrentList&seq_no=3630&serhDate=&serhPerforDisplay=&serhTitle=",
+          "feedUrl": ""
+        },
+        {
           "id": "yt_seoulharmonicaorchestra",
           "name": "首爾口琴管弦樂團",
           "platform": "youtube",
@@ -14569,6 +14836,15 @@ window.HARMONICA_OBSERVE_DATA = {
         "國際交流"
       ],
       "monitorSources": [
+        {
+          "id": "web_288",
+          "name": "Seoul THE DREAM Harmonica Orchestra",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://gcfac.or.kr/performance/commonView?currRow=1&gcfac_menu_cd=U0007&perDisGubun=performance&returnURI=%2Fperformance%2FcurrentList&seq_no=3630&serhDate=&serhPerforDisplay=&serhTitle=",
+          "feedUrl": ""
+        },
         {
           "id": "yt_seoulharmonicaorchestra",
           "name": "首爾口琴管弦樂團",
@@ -14656,6 +14932,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "團體樂團",
         "十孔",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_152",
+          "name": "The LiveWires",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://stevebaker.de/steve_baker_the_livewires_en_641.html",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -14771,6 +15058,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "教學",
         "重奏",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_249",
+          "name": "上海豫園口琴樂團",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://harmonica.org.cn/news-show.asp?nlt=103&none=17",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -14908,6 +15206,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "taiwanharmonica",
           "profileUrl": "https://www.instagram.com/taiwanharmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "web_283",
+          "name": "巴國聯軍",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://taiwanharmonica.com/s/F1_-kgya.pdf",
+          "feedUrl": ""
         }
       ]
     },
@@ -15011,6 +15318,17 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "東方",
       "sourceTags": [
         "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_248",
+          "name": "東方口琴樂團",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://harmonica.org.cn/news-show.asp?nlt=111&none=17",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -15053,6 +15371,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "taiwanharmonica",
           "profileUrl": "https://www.instagram.com/taiwanharmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "web_285",
+          "name": "海豚星樂團",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://taiwanharmonica.com/s/F1_-kgya.pdf",
+          "feedUrl": ""
         }
       ]
     },
@@ -15086,6 +15413,17 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "濟南",
       "sourceTags": [
         "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_253",
+          "name": "濟南大眾口琴樂團",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://aphfhx.com/information/industryNewsDetail/361339839879622656",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -15181,6 +15519,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_profile",
           "username": "taiwanharmonica",
           "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "web_282",
+          "name": "自由的口琴樂團",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://taiwanharmonica.com/s/F1_-kgya.pdf",
           "feedUrl": ""
         }
       ]
@@ -15287,6 +15634,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "ntubluesound",
           "profileUrl": "https://www.instagram.com/ntubluesound/",
           "feedUrl": ""
+        },
+        {
+          "id": "web_12",
+          "name": "臺灣口琴樂團",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
+          "feedUrl": ""
         }
       ]
     },
@@ -15374,6 +15730,17 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "鄭州",
       "sourceTags": [
         "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_254",
+          "name": "鄭州大眾口琴樂團",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://aphfhx.com/information/industryNewsDetail/361339839879622656",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -15568,6 +15935,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "taiwanharmonica",
           "profileUrl": "https://www.instagram.com/taiwanharmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "web_284",
+          "name": "龍騎士口琴樂團",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://taiwanharmonica.com/s/F1_-kgya.pdf",
+          "feedUrl": ""
         }
       ]
     },
@@ -15589,6 +15965,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "網站",
           "url": "https://japanharmonica.wixsite.com/ajhf"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/AllJapanHarmonicaFederation/"
         }
       ],
       "source": "watchlist",
@@ -15605,6 +15985,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "複音",
         "十孔",
         "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_alljapanharmonicafederation",
+          "name": "全日本ハーモニカ連盟 AJHF",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/AllJapanHarmonicaFederation",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -15697,6 +16088,17 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "東方",
       "sourceTags": [
         "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_247",
+          "name": "東方口琴博物館",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://harmonica.org.cn/news-show.asp?nlt=111&none=17",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -15818,6 +16220,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "重奏",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_318",
+          "name": "何東中學口琴隊",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://hotungss.edu.hk/wp-content/uploads/2026/07/%E4%BD%95%E6%9D%B1%E4%B8%AD%E5%AD%B8%E7%AC%AC%E4%BA%8C%E6%9C%9F%E6%A0%A1%E8%A8%8A2025-26-1.pdf",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -15922,6 +16335,17 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "學生社團",
         "比賽"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_316",
+          "name": "太平國小口琴隊",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -15942,6 +16366,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "網站",
           "url": "https://www.yamagatacity-ch.ed.jp/cd-cat/harmonica-band/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@山商産業調査部"
         }
       ],
       "source": "watchlist",
@@ -15954,6 +16382,17 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceInitials": "山形",
       "sourceTags": [
         "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_eb995942e6",
+          "name": "山形市立商業高等學校ハーモニカバンド部",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E5%B1%B1%E5%95%86%E7%94%A3%E6%A5%AD%E8%AA%BF%E6%9F%BB%E9%83%A8",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -16053,6 +16492,17 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "學生社團",
         "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_216",
+          "name": "武漢理工大學學生星一口琴協會",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://youth.whut.edu.cn/stfc/202606/t20260609_1402701.shtml",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -16170,6 +16620,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "學生社團",
         "團體樂團",
         "音樂節"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_210",
+          "name": "聖保羅男女中學口琴隊",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://spcc.edu.hk/explore/extra-curricular-activities",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -16207,6 +16668,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "複音",
         "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_217",
+          "name": "華中師範大學學生知音口琴社",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://ccnu.edu.cn/ccnuyouth/info/1300/56896.htm",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -16532,6 +17004,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "重奏",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_135",
+          "name": "黃啟書 Openbook Huang",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://mx.nthu.edu.tw/~ymchen/sirius/openbook.htm",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -16569,6 +17052,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "複音",
         "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_296",
+          "name": "C.A. SEYDEL SÖHNE",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://seydel1847.de/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -16613,6 +17107,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_profile",
           "username": "taiwanharmonica",
           "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "web_83",
+          "name": "Golden Bird Harmonica",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://taiwanharmonica.com/",
           "feedUrl": ""
         }
       ]
@@ -16756,6 +17259,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "複音",
         "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_251",
+          "name": "Kongsheng 孔聲口琴",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://kongshengmusic.com/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -16791,6 +17305,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "教學器材",
         "教學",
         "半音階"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_250",
+          "name": "Oritta 奧瑞塔口琴",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://oritta.cn/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -16811,6 +17336,14 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "網站",
           "url": "https://suzukimusic-global.com/harmonicas.php?parent_cate_cd=1"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/suzukimusicglobal/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCIyVeF24bW3bO1azA8K8tgg"
         }
       ],
       "source": "watchlist",
@@ -16828,6 +17361,35 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "複音",
         "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_suzukimusicglobal",
+          "name": "SUZUKI Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "suzukimusicglobal",
+          "profileUrl": "https://www.instagram.com/suzukimusicglobal/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/suzukimusicglobal/story/0"
+        },
+        {
+          "id": "ig_suzukimusicglobal",
+          "name": "SUZUKI Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "suzukimusicglobal",
+          "profileUrl": "https://www.instagram.com/suzukimusicglobal/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_uciyvef24bw3bo1aza8k8tgg",
+          "name": "SUZUKI Harmonica",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCIyVeF24bW3bO1azA8K8tgg",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -16966,6 +17528,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "十孔",
         "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_299",
+          "name": "基隆社區大學就是吹口琴",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://kcu.twcu.org.tw/course/m_course_list.php",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -17003,6 +17576,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "複音",
         "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_252",
+          "name": "天鵝口琴",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://harmonicas.com.cn/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -17197,6 +17781,15 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "hkharmonica",
           "profileUrl": "https://www.instagram.com/hkharmonica/",
           "feedUrl": ""
+        },
+        {
+          "id": "web_131",
+          "name": "Breathe with the Harmonica",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://hkharmonica.org/en/about-us",
+          "feedUrl": ""
         }
       ]
     },
@@ -17345,6 +17938,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "十孔",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_177",
+          "name": "Harmonica Masters 口琴大師工作坊",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://harmonica-masters.de/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -17382,6 +17986,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "十孔",
         "重奏",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_292",
+          "name": "Julien Cormier",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://aymeric-simon.com/straw-man",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -17417,6 +18032,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "比賽",
         "十孔",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_179",
+          "name": "Mundharmonika-Live 口琴節",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://mundharmonika-live.de/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -17553,6 +18179,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "活動資訊",
         "半音階",
         "複音"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_312",
+          "name": "「天鵝自由呼吸」寧波口琴節",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "http://cmia.com.cn/qydt/11674.html",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -17587,6 +18224,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "活動資訊",
         "比賽",
         "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_244",
+          "name": "「琴溯伏羲・律動天水」口琴藝術展演",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://aphfhx.com/information/announcementDetail/407401895418511360",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -17621,6 +18269,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "活動資訊",
         "比賽",
         "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_245",
+          "name": "「琴韻東坡・簧鳴西南」口琴藝術展演",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://aphfhx.com/information/announcementDetail/443573180452044800",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -17658,6 +18317,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "複音",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_268",
+          "name": "中國大眾音協口琴樂團",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://aphfx-1255574727.cos.ap-shanghai.myqcloud.com/20251225/416d60da462842daa00b391b22745c24.mp4",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -17692,6 +18362,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "活動資訊",
         "演奏者",
         "音樂節"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_271",
+          "name": "劉銘澤",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://aphfx-1255574727.cos.ap-shanghai.myqcloud.com/20251225/1bec01327740414fa644a2a0da44e08c.mp4",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -17730,6 +18411,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "複音",
         "十孔",
         "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_317",
+          "name": "口琴音樂賽事中心",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://aphfhx.com/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -17848,6 +18540,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "複音",
         "十孔",
         "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_243",
+          "name": "第二屆「敦煌杯」線上口琴大賽",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://aphfhx.com/information/announcementDetail/347951476011454464",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -17885,6 +18588,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "複音",
         "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_313",
+          "name": "第二屆海峽兩岸（蕉城）口琴文化週",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://nd.fjsen.com/wap/2026-07/21/content_32222166.htm",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -17923,6 +18637,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "十孔",
         "重奏",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_241",
+          "name": "第五屆華夏（寧德）口琴藝術周",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://aphfhx.com/information/newsDetail/361718112966979584",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -17961,6 +18686,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "十孔",
         "重奏",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_167",
+          "name": "第十五屆亞太口琴藝術週",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://aphfhx.com/information/newsDetail/361363469090992128",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -17998,6 +18734,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "複音",
         "十孔",
         "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_242",
+          "name": "遼陽白塔口琴藝術周暨第三屆「白塔杯」口琴大賽",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://ln.gov.cn/web/qmzx/lnsqmzxxtpsnxd/lnzxd/df/2025082209351475118/index.shtml",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -18034,6 +18781,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "音樂節",
         "半音階",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_270",
+          "name": "首爾獨奏家口琴樂團",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=149308&menuNo=200110",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -18054,6 +18812,10 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "網站",
           "url": "https://www.ichchk.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hkideas"
         }
       ],
       "source": "watchlist",
@@ -18069,6 +18831,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "比賽",
         "半音階",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hkideas",
+          "name": "香港國際半音階口琴大賽",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hkideas",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -18154,6 +18927,15 @@ window.HARMONICA_OBSERVE_DATA = {
         "國際交流"
       ],
       "monitorSources": [
+        {
+          "id": "web_114",
+          "name": "Choi Suhong 최수홍",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://seoulinternationalharmonicafestival.com/2017/08/23/concert-lineup",
+          "feedUrl": ""
+        },
         {
           "id": "yt_sihf_uv5mk",
           "name": "Seoul International Harmonica Festival",
@@ -18269,6 +19051,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者",
         "十孔",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_294",
+          "name": "Ian Lofamia",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://tbcmanila.com/work/giliw-mv",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -18414,6 +19207,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "複音",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_112",
+          "name": "Kim Changsik 김창식",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://weissenbergwind.com/artists_show.php?item=4&id=15",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -18447,6 +19251,17 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "演奏者",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_113",
+          "name": "Kim Kyunghee 김경희",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://weissenbergwind.com/artists_show.php?item=4&id=16",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -18480,6 +19295,17 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "演奏者",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_264",
+          "name": "Leon Li",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://ceeo.tufts.edu/people/staff/leon-li",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -18514,6 +19340,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者",
         "十孔",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_293",
+          "name": "Michał Kielak",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://kielak.pl/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -18694,6 +19531,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "十孔",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_150",
+          "name": "Tian Long Li",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://worldharmonicafestival.de/artist-profile-tian-long-li",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -18730,6 +19578,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "複音",
         "十孔",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_289",
+          "name": "Tony Eyers",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://tonyeyers.com/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -18852,6 +19711,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "半音階",
         "複音",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_267",
+          "name": "傅泓亮",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://jstz.gov.cn/a/20230313/1678688627693.shtml",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -18886,6 +19756,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者",
         "半音階",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_117",
+          "name": "和谷泰扶 Yasuo Watani",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://yasuowatani.com/",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -18906,6 +19787,14 @@ window.HARMONICA_OBSERVE_DATA = {
         {
           "label": "網站",
           "url": "https://myharmonicaworld.com/zh/the-founder/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://facebook.com/harmonicachong"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@MyHarmonicaWorld"
         }
       ],
       "source": "watchlist",
@@ -18920,6 +19809,26 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者",
         "複音",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicachong",
+          "name": "張雅誥",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonicachong",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_myharmonicaworld",
+          "name": "張雅誥",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@MyHarmonicaWorld",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -19066,6 +19975,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "團體樂團",
         "十孔",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_310",
+          "name": "林津鋒",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://hohner.de/en/lin-jinfeng",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -19101,6 +20021,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "比賽",
         "半音階",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_265",
+          "name": "林筱茹",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://taiwanharmonica.com/2026artists-gala",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -19135,6 +20066,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者",
         "半音階",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_301",
+          "name": "梁栢渝 Ramiel Leung",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://perfectfourth.org/ramielleung.html",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -19169,6 +20111,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者",
         "十孔",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_306",
+          "name": "楊樂",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://sonymusic.com.tw/album/le-yang-talking-to-myself-1",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -19326,6 +20279,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "團體樂團",
         "半音階",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_302",
+          "name": "白燕生",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://harmonica.org.cn/dongtai-show.asp?Pone=16&plt=36",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -19362,6 +20326,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "比賽",
         "半音階",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_269",
+          "name": "葉梓翀",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://taiwanharmonica.com/2026artists-gala",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -19398,6 +20373,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "比賽",
         "複音",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_266",
+          "name": "蔡景玫",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://taiwanharmonica.com/2026artists-gala",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -19492,6 +20478,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "工作室",
         "十孔",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_311",
+          "name": "藍饃饃",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://jdrharmonica.com/pages/bunmonica-du",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -19629,6 +20626,17 @@ window.HARMONICA_OBSERVE_DATA = {
       "sourceTags": [
         "演奏者",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_303",
+          "name": "陳詩霖",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://aphfx-1255574727.cos.ap-shanghai.myqcloud.com/20260525/b7c13721063843dea26d91b405ad27dc.png",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -19663,6 +20671,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "演奏者",
         "複音",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_305",
+          "name": "黃浚宇",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://hkharmonica.org/cas2024-25-talk-3",
+          "feedUrl": ""
+        }
       ]
     },
     {
@@ -19771,6 +20790,17 @@ window.HARMONICA_OBSERVE_DATA = {
         "團體樂團",
         "半音階",
         "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_300",
+          "name": "류선웅 Sunwoong Ryu",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://daejeon.go.kr/djac/performanceView.do?code=5379&listCondition=&menuSeq=6709&pageIndex=1&type=image&yyyymm=202604",
+          "feedUrl": ""
+        }
       ]
     }
   ],
@@ -19818,24 +20848,26 @@ window.HARMONICA_OBSERVE_DATA = {
       "馬來西亞": 14
     },
     "watchSources": {
-      "totalSources": 689,
-      "rsshubSources": 392,
-      "apifySources": 160,
-      "facebookSources": 160,
-      "youtubeSources": 137,
+      "totalSources": 785,
+      "rsshubSources": 394,
+      "apifySources": 163,
+      "facebookSources": 163,
+      "youtubeSources": 140,
       "platforms": {
-        "facebook": 160,
-        "instagram": 352,
+        "facebook": 163,
+        "instagram": 354,
         "threads": 28,
+        "website": 88,
         "x": 12,
-        "youtube": 137
+        "youtube": 140
       },
       "types": {
-        "facebook_page_posts": 160,
+        "facebook_page_posts": 163,
         "rss": 40,
-        "rsshub_instagram_profile": 176,
-        "rsshub_instagram_story": 176,
-        "youtube_ytdlp": 137
+        "rsshub_instagram_profile": 177,
+        "rsshub_instagram_story": 177,
+        "webpage_watch": 88,
+        "youtube_ytdlp": 140
       }
     }
   }

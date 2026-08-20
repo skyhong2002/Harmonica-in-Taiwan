@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-20T14:02:54+08:00",
+  "generatedAt": "2026-08-20T14:41:52+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 8,
+  "count": 9,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,7 +14,7 @@
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
+      "requests": 2,
       "cached": 18,
       "errors": 0
     }
@@ -166,6 +166,46 @@
         "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/779158600_18041752610810323_8632845209998470677_n.webp?_nc_cat=104&ig_cache_key=Mzk2NzI3NDMxMzAzMTUxNDYyOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=0glVBvtI3McQ7kNvwGFlbAJ&_nc_oc=Adr8FcLimao21IWGukOExXwc9NTq8pIlZClIi7r5INy9a-Z0E72syUTIirh2a_0z72k&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=iZNrgEckrkL0KQgFKxshxg&_nc_ss=7a22e&oh=00_AQFCTXoNjCneAdRUIbml8RLCr7SiT7kAcQQb96f1qUECQQ&oe=6A8C032C"
       ],
       "image_url": "/assets/feed-images/3da658dedb4a622c4740.webp"
+    },
+    {
+      "id": "09e0dc53424d06c1",
+      "title": "拾光琴緣 口琴音樂會",
+      "eventName": "拾光琴緣 口琴音樂會",
+      "source": "海明威口琴重奏團",
+      "platform": "facebook",
+      "start": "2026-09-04",
+      "end": "2026-09-05",
+      "allDay": true,
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "location": "臺南",
+      "venue": "臺南",
+      "city": "臺南",
+      "details": "主辦／演出者：海明威口琴重奏團。預告於 9 月 4 日舉行的口琴音樂會。貼文同時提到 9 月 12、13 日成都的另一場活動，但與本候選日期不符。",
+      "evidenceUrl": "https://www.facebook.com/TheHummingWay/posts/pfbid0PUv9mPsjteCRqm1MYryFNmxeGSN9YNocQ5V52G5TTmFaE3gqkJP12sa5WPsoJrQ1l",
+      "confidence": 0.93,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "拾光琴緣 口琴音樂會",
+        "venue": "臺南",
+        "city": "臺南",
+        "details": "主辦／演出者：海明威口琴重奏團。預告於 9 月 4 日舉行的口琴音樂會。貼文同時提到 9 月 12、13 日成都的另一場活動，但與本候選日期不符。",
+        "reason": "候選日期 2026-09-04 與貼文預告的《拾光琴緣》口琴音樂會一致，且地點在臺南，屬臺灣實體口琴活動。",
+        "confidence": 0.93
+      },
+      "postedAt": "2026-07-29 21:08",
+      "images": [
+        "https://scontent-lga3-2.xx.fbcdn.net/v/t51.82787-15/760403317_18329331337286000_5267365503854129653_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x810&ctp=s590x590&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=sMSWwzTS3UkQ7kNvwGizTcH&_nc_oc=AdqcfkY1_t4PFBxFRCtSUIPdAMy8uQg3jO8m9HlZYrDlGgLswqIrM5SwiNXQpKhPU04&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=XLjIhshf-X2iEu9wMNCYnA&_nc_ss=72289&oh=00_AQGN1cKG7qLVE5hN6HPhngxT1VB40mxJYt3tlJ6kHZHpIA&oe=6A8C7CC8",
+        "https://scontent-lga3-1.xx.fbcdn.net/v/t51.82787-15/759751754_18329331349286000_6412978475368352191_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x810&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=AGRA5jVWS98Q7kNvwEsFh-l&_nc_oc=AdrB7SZWUoPG6BTVHWbPuI1q7Fhu8-S5mmJnwl79PsFJ8TiMMGSDIoEPlq0RA49ycp8&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=XLjIhshf-X2iEu9wMNCYnA&_nc_ss=72289&oh=00_AQH1rKptW59rGOwNOLHte7jiF86iwTuwXDw4itKW3Grrlw&oe=6A8C7560",
+        "https://scontent-lga3-3.xx.fbcdn.net/v/t51.82787-15/759655377_18329331358286000_4683406882559213114_n.jpg?stp=dst-jpegr_tt6&cstp=mx2268x1275&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=lsWzo7NShrMQ7kNvwFKHSIT&_nc_oc=AdoTal3V0DuIxOWnGSbfUcYie2BFWl3ReyPr_BWVKCdJM9SkieAk943nHVpqirceKQQ&_nc_zt=23&se=-1&_nc_ht=scontent-lga3-3.xx&_nc_gid=XLjIhshf-X2iEu9wMNCYnA&_nc_ss=72289&oh=00_AQE8HegrIgsZbyySZ-031YTDpQW0PiJlIp1vBaHcRTqNOg&oe=6A8C680D",
+        "https://scontent-lga3-3.xx.fbcdn.net/v/t51.82787-15/759746027_18329331382286000_4989293621442061394_n.jpg?stp=dst-jpegr_tt6&cstp=mx2268x1275&ctp=s590x590&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kLIeRjlrzCAQ7kNvwHY2EBY&_nc_oc=AdraIRB5cxS5tFTIOaB0txvivhE3db4EIYAkLWLdb7SWfXej50v841l6B7UbG5YOp44&_nc_zt=23&se=-1&_nc_ht=scontent-lga3-3.xx&_nc_gid=XLjIhshf-X2iEu9wMNCYnA&_nc_ss=72289&oh=00_AQE2QWvVneSWM_cMiTpCxcAokxsfOfLDKj_wg0So0fP-pA&oe=6A8C6398",
+        "https://scontent-lga3-1.xx.fbcdn.net/v/t51.82787-15/759727263_18329331373286000_6062154123996284625_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x810&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=tqFp1Au7LPkQ7kNvwEgsSTS&_nc_oc=AdoksRF6GFX72qgQaDnlur7RuJSuiKYCWhXw6owJE4L5j3kzP9T9cnBe0BsM2iDdtW4&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=XLjIhshf-X2iEu9wMNCYnA&_nc_ss=72289&oh=00_AQG_VB79BDYPOwSQb2oW1d9AEO07CGGkyZoFSzFg_ZBkOw&oe=6A8C683B"
+      ],
+      "image_url": "/assets/feed-images/d95a1f8250c6e4bee8b2.webp"
     },
     {
       "id": "87d56ef441f138da",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T06:02:51.408350Z",
+  "generatedAt": "2026-08-20T06:41:46.562476Z",
   "source": {
     "id": 166,
     "slug": "the-hummingway-harmonica-ensemble",
@@ -20,6 +20,20 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/3acedacba102b9c5f472.webp",
         "width": 800,
         "height": 800
+      }
+    },
+    {
+      "id": "post-5bcd89467c52b2457ad6760a",
+      "title": "《打火机》 x 《Rasa Sayang》×《Wau Bulan》",
+      "excerpt": "《打火机》 x 《Rasa Sayang》×《Wau Bulan》 熟悉的旋律，加上一点新的创意与舞台设计。 这是我们献给 2026年亚太口琴节闭幕式的一份礼物。 希望大家都能感受到属于马来西亚的活力与热情！🥳 We are proud to share the music from Malaysia with the world. 🇲🇾🎶 Full Version @ YouTube (",
+      "url": "https://www.facebook.com/reel/1579643660609364/",
+      "sourceName": "海明威口琴重奏團",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-02T05:11:44Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/e6e6424cf345a6109c70.webp",
+        "width": 540,
+        "height": 960
       }
     },
     {
@@ -48,6 +62,20 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/2dbf2f779aa313fedc53.webp",
         "width": 800,
         "height": 450
+      }
+    },
+    {
+      "id": "post-70a9359db8325e9b5c463cfa",
+      "title": "非常荣幸再次受邀担任2026 年《第15届亚太口琴节》的评审及演出嘉宾，同时也第一次带上几位孩子一起参与这场两年一度的国际口琴盛会。",
+      "excerpt": "非常荣幸再次受邀担任2026 年《第15届亚太口琴节》的评审及演出嘉宾，同时也第一次带上几位孩子一起参与这场两年一度的国际口琴盛会。 虽然这次我们没有斩获奖项，但一路陪伴孩子们走到这里，最大的收获并不是成绩，而是成长。 比赛结束后，许多家长都与我们分享，他们看见了孩子的改变——变得更勇敢、更有自信，也愿意主动面对挑战。我想，这正是学习过程中最珍贵的价值，也是音乐带给孩子最深远的影响。 非常感谢每一位家长一路以来的支持与信任。这几天大家一起出发、彼此照顾、互相鼓励，也分享了许多想法和感受，让我们更加坚定，继续走在推广口琴教育的这条路上。 这次，海明威口琴…",
+      "url": "https://www.facebook.com/TheHummingWay/posts/pfbid0PUv9mPsjteCRqm1MYryFNmxeGSN9YNocQ5V52G5TTmFaE3gqkJP12sa5WPsoJrQ1l",
+      "sourceName": "海明威口琴重奏團",
+      "platform": "Facebook",
+      "publishedAt": "2026-07-29T13:08:19Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d95a1f8250c6e4bee8b2.webp",
+        "width": 590,
+        "height": 332
       }
     }
   ]
