@@ -15,6 +15,7 @@ from typing import Any
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_CONFIG = PROJECT_ROOT / "data" / "feeds" / "social_sources.json"
+UPDATE_URL_OVERRIDES = PROJECT_ROOT / "data" / "sources" / "source-update-url-overrides.json"
 DEFAULT_RSSHUB_BASE = "https://rss.observe.tw"
 GENERATED_BY = "scripts/build_social_sources.py"
 LOCAL_RSSHUB_BASES = {"http://127.0.0.1:1200", "http://localhost:1200"}
@@ -110,6 +111,20 @@ def canonical_url(value: str) -> str:
     if parsed.query and path.endswith("/profile.php"):
         query = urllib.parse.urlencode(sorted(urllib.parse.parse_qsl(parsed.query)))
     return urllib.parse.urlunparse((parsed.scheme or "https", host, path, "", query, ""))
+
+
+def canonical_webpage_url(value: str) -> str:
+    """Normalize a webpage URL without discarding identity-bearing queries."""
+    url = normalize_url(value)
+    if not url:
+        return ""
+    parsed = urllib.parse.urlparse(url)
+    # Unlike social profiles, arbitrary official websites can have DNS and TLS
+    # configured only for the exact www/non-www hostname.  Preserve it.
+    host = parsed.netloc.casefold()
+    decoded_path = urllib.parse.unquote(parsed.path).rstrip("/") or "/"
+    path = urllib.parse.quote(decoded_path, safe="/@")
+    return urllib.parse.urlunparse((parsed.scheme or "https", host, path, "", parsed.query, ""))
 
 
 def safe_slug(value: str, fallback: str) -> str:
@@ -348,6 +363,39 @@ def parse_threads_source(row: dict[str, str]) -> dict[str, Any] | None:
     }
 
 
+def parse_webpage_source(row: dict[str, str]) -> dict[str, Any] | None:
+    """Build a change-detection watcher when an entry has no social feed.
+
+    The public registry intentionally keeps authoritative profile/program pages.
+    A webpage watcher fingerprints the published page on a schedule, baselines
+    its current contents, and emits a new candidate only after the page changes.
+    """
+    overrides = load_json(UPDATE_URL_OVERRIDES, {})
+    override_url = clean(overrides.get(clean(row.get("public_id")))) if isinstance(overrides, dict) else ""
+    raw_url = normalize_url(override_url or clean(row.get("update_url")) or clean(row.get("website_url")))
+    if not raw_url:
+        return None
+    parsed = urllib.parse.urlparse(raw_url)
+    if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+        return None
+
+    public_id = safe_slug(clean(row.get("public_id")), url_hash(raw_url, 8))
+    canonical = canonical_webpage_url(raw_url)
+    return {
+        "enabled": True,
+        "id": f"web_{public_id}",
+        "include_without_keywords": True,
+        "interval_hours": 12,
+        "limit": 1,
+        "name": source_name(row),
+        "platform": "website",
+        "profile_url": canonical,
+        "type": "webpage_watch",
+        "url": canonical,
+        "generated_by": GENERATED_BY,
+    }
+
+
 def source_key(source: dict[str, Any]) -> str:
     platform = str(source.get("platform") or source.get("type") or "").casefold()
     source_type = str(source.get("type") or "").casefold()
@@ -366,6 +414,11 @@ def source_key(source: dict[str, Any]) -> str:
         return "x:username:" + clean(str(source.get("username") or "")).strip("@").casefold()
     if platform == "threads":
         return "threads:username:" + clean(str(source.get("username") or "")).strip("@").casefold()
+    if source_type == "webpage_watch":
+        # Multiple people or ensembles may deliberately share one official
+        # festival/program page.  Keep an entry-specific watcher so each
+        # directory row remains independently monitored and attributable.
+        return "website:id:" + str(source.get("id") or "")
     return str(source.get("id") or "")
 
 
@@ -374,6 +427,7 @@ def generated_sources() -> list[dict[str, Any]]:
     seen: set[str] = set()
     for path in SOURCE_FILES:
         for row in read_csv(path):
+            row_sources: list[dict[str, Any]] = []
             for parser in (
                 parse_facebook_source,
                 parse_instagram_source,
@@ -385,6 +439,12 @@ def generated_sources() -> list[dict[str, Any]]:
                 source = parser(row)
                 if not source:
                     continue
+                row_sources.append(source)
+            if not row_sources:
+                webpage_source = parse_webpage_source(row)
+                if webpage_source:
+                    row_sources.append(webpage_source)
+            for source in row_sources:
                 key = source_key(source)
                 if key in seen:
                     continue

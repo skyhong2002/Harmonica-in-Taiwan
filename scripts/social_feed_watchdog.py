@@ -983,6 +983,73 @@ def record_instagram_skip(fetch_state: dict[str, Any], source: dict[str, Any], *
     )
 
 
+def webpage_due_info(
+    source: dict[str, Any],
+    fetch_state: dict[str, Any],
+    *,
+    now: dt.datetime,
+    force: bool = False,
+) -> tuple[bool, str, bool, bool]:
+    """Return due state plus whether this is the watcher's first baseline."""
+    if str(source.get("type") or "") != "webpage_watch":
+        return True, "", False, False
+    source_id = source_identity(source)
+    entries = fetch_state.setdefault("sources", {})
+    entry = entries.setdefault(source_id, {})
+    initial_baseline = not bool(entry.get("last_success_at"))
+    interval_hours = max(0.5, float(source.get("interval_hours") or 12.0))
+    next_due_at = parse_datetime(entry.get("next_due_at"))
+    changed = False
+    if next_due_at is None:
+        entry.update(
+            {
+                "source_type": "webpage_watch",
+                "interval_hours": interval_hours,
+                "next_due_at": utc_iso(now),
+            }
+        )
+        next_due_at = now
+        changed = True
+    if next_due_at > now and not force:
+        return False, f"scheduled until {utc_iso(next_due_at)}", changed, initial_baseline
+    return True, "", changed, initial_baseline
+
+
+def record_webpage_attempt(
+    fetch_state: dict[str, Any],
+    source: dict[str, Any],
+    *,
+    now: dt.datetime,
+    status: str,
+    post_count: int = 0,
+    error: str = "",
+) -> None:
+    if str(source.get("type") or "") != "webpage_watch":
+        return
+    source_id = source_identity(source)
+    interval_hours = max(0.5, float(source.get("interval_hours") or 12.0))
+    retry_hours = min(interval_hours, 1.0) if status != "ok" else interval_hours
+    entry = fetch_state.setdefault("sources", {}).setdefault(source_id, {})
+    entry.update(
+        {
+            "source_type": "webpage_watch",
+            "interval_hours": interval_hours,
+            "last_attempt_at": utc_iso(now),
+            "last_status": status,
+            "last_post_count": int(post_count),
+            "next_due_at": utc_iso(now + dt.timedelta(hours=retry_hours)),
+        }
+    )
+    if status == "ok":
+        entry["last_success_at"] = utc_iso(now)
+        entry["consecutive_errors"] = 0
+        entry.pop("last_error", None)
+    elif error:
+        entry["last_error_at"] = utc_iso(now)
+        entry["last_error"] = compact_text(error, 500)
+        entry["consecutive_errors"] = int(entry.get("consecutive_errors") or 0) + 1
+
+
 def source_delay_secs(source: dict[str, Any], token: str | None, args: argparse.Namespace) -> float:
     if instagram_source_kind(source):
         return max(0.0, float(args.instagram_delay_secs))
@@ -1474,6 +1541,59 @@ def fetch_facebook_page(source: dict[str, Any], token: str) -> list[dict[str, An
     return posts
 
 
+def fetch_webpage(source: dict[str, Any]) -> list[dict[str, Any]]:
+    """Fingerprint an authoritative public page and emit a row when it changes."""
+    url = str(source.get("url") or source.get("profile_url") or "").strip()
+    if not url:
+        return []
+    request = urllib.request.Request(
+        url,
+        headers={
+            "Accept": "text/html,application/xhtml+xml,application/pdf,image/*,*/*;q=0.8",
+            "User-Agent": "Mozilla/5.0 HarmonicaInTaiwanWebpageWatcher/1.0",
+        },
+    )
+    with urllib.request.urlopen(request, timeout=REQUEST_TIMEOUT) as response:
+        body = response.read(5_000_000)
+        headers = response.headers
+        content_type = str(headers.get("Content-Type") or "").casefold()
+        final_url = response.geturl() or url
+        last_modified = str(headers.get("Last-Modified") or "").strip()
+
+    title = str(source.get("name") or "官方網站更新")
+    summary = title
+    fingerprint_payload = body
+    if "html" in content_type or body.lstrip().startswith((b"<!doctype", b"<html")):
+        charset_match = re.search(r"charset=([\w.-]+)", content_type)
+        charset = charset_match.group(1) if charset_match else "utf-8"
+        try:
+            markup = body.decode(charset, "replace")
+        except LookupError:
+            markup = body.decode("utf-8", "replace")
+        title_match = re.search(r"<title[^>]*>(.*?)</title>", markup, re.IGNORECASE | re.DOTALL)
+        if title_match:
+            title = compact_text(html.unescape(TAG_RE.sub(" ", title_match.group(1))), 300) or title
+        content = re.sub(r"<(?:script|style|noscript|svg)\b[^>]*>.*?</(?:script|style|noscript|svg)>", " ", markup, flags=re.IGNORECASE | re.DOTALL)
+        content = compact_text(html.unescape(TAG_RE.sub(" ", content)), 20_000)
+        summary = compact_text(f"{title}\n{content}", 12_000)
+        fingerprint_payload = content.encode("utf-8")
+    elif content_type:
+        summary = f"{title}（{content_type.split(';', 1)[0]}）"
+
+    digest = hashlib.sha256(fingerprint_payload).hexdigest()
+    posted_at = last_modified or utc_iso(dt.datetime.now(dt.timezone.utc))
+    return [
+        normalize_post(
+            source,
+            post_id=digest,
+            text=summary,
+            url=final_url,
+            posted_at=posted_at,
+            media_type="webpage_update",
+        )
+    ]
+
+
 def fetch_source(source: dict[str, Any], token: str | None) -> list[dict[str, Any]]:
     kind = source.get("type")
     if kind in {"rss", "rsshub_facebook_page", "rsshub_instagram_profile", "rsshub_instagram_story", "rsshub_twitter_user", "rsshub_threads_user"}:
@@ -1482,6 +1602,8 @@ def fetch_source(source: dict[str, Any], token: str | None) -> list[dict[str, An
         return fetch_jsonl(source)
     if kind == "facebook_page_posts":
         return fetch_facebook_page(source, token) if token else []
+    if kind == "webpage_watch":
+        return fetch_webpage(source)
     return []
 
 
@@ -1490,6 +1612,8 @@ def should_throttle_source(source: dict[str, Any], token: str | None) -> bool:
     if kind in {"rss", "rsshub_facebook_page", "rsshub_instagram_profile", "rsshub_instagram_story", "rsshub_twitter_user", "rsshub_threads_user", "jsonl", "external_jsonl", "n8n_jsonl"}:
         return True
     if kind == "facebook_page_posts" and token:
+        return True
+    if kind == "webpage_watch":
         return True
     return False
 
@@ -2077,6 +2201,18 @@ def main() -> int:
     )
     parser.add_argument("--rsshub-base", default=os.environ.get("HARMONICA_RSSHUB_BASE", ""))
     parser.add_argument("--request-timeout", type=int, default=10)
+    parser.add_argument(
+        "--source-type",
+        action="append",
+        default=[],
+        help="Only process the selected source type; may be repeated.",
+    )
+    parser.add_argument(
+        "--source-id",
+        action="append",
+        default=[],
+        help="Only process the selected source id; may be repeated.",
+    )
     parser.add_argument("--verbose", action="store_true")
     args = parser.parse_args()
 
@@ -2086,6 +2222,12 @@ def main() -> int:
 
     config = load_json(args.config, {"sources": [], "keywords": []})
     sources = [source for source in config.get("sources", []) if source.get("enabled", True)]
+    if args.source_type:
+        selected_types = {str(value).strip() for value in args.source_type if str(value).strip()}
+        sources = [source for source in sources if str(source.get("type") or "") in selected_types]
+    if args.source_id:
+        selected_ids = {str(value).strip() for value in args.source_id if str(value).strip()}
+        sources = [source for source in sources if str(source.get("id") or "") in selected_ids]
     keywords = config.get("keywords") or []
     token = os.environ.get("HARMONICA_META_ACCESS_TOKEN")
     progress_path = args.progress if args.progress.is_absolute() else PROJECT_ROOT / args.progress
@@ -2232,6 +2374,24 @@ def main() -> int:
             processed_sources=source_index - 1,
             current_source=progress_source_summary(source),
         )
+        webpage_watch = str(source.get("type") or "") == "webpage_watch"
+        webpage_initial_baseline = False
+        if webpage_watch:
+            due, skip_reason, schedule_changed, webpage_initial_baseline = webpage_due_info(
+                source,
+                fetch_state,
+                now=now_utc,
+                force=bool(args.baseline),
+            )
+            fetch_state_changed = fetch_state_changed or schedule_changed
+            if not due:
+                publish_progress(
+                    phase="source skipped",
+                    processed_sources=source_index,
+                    current_source=progress_source_summary(source),
+                    message=skip_reason,
+                )
+                continue
         instagram_kind = instagram_source_kind(source)
         if instagram_kind:
             due, skip_reason, schedule_changed = instagram_due_info(
@@ -2303,6 +2463,15 @@ def main() -> int:
                     error=error_text,
                 )
                 fetch_state_changed = True
+            if webpage_watch:
+                record_webpage_attempt(
+                    fetch_state,
+                    source,
+                    now=dt.datetime.now(dt.timezone.utc),
+                    status="error",
+                    error=error_text,
+                )
+                fetch_state_changed = True
             delay_secs = source_delay_secs(source, token, args)
             if delay_secs:
                 publish_progress(
@@ -2329,10 +2498,22 @@ def main() -> int:
                 post_count=len(posts),
             )
             fetch_state_changed = True
+        if webpage_watch:
+            record_webpage_attempt(
+                fetch_state,
+                source,
+                now=dt.datetime.now(dt.timezone.utc),
+                status="ok",
+                post_count=len(posts),
+            )
+            fetch_state_changed = True
         fetched_count += len(posts)
         for post in posts:
             key = post.get("key")
             if not key or key in seen_map:
+                continue
+            if webpage_initial_baseline:
+                seen_map[key] = dt.datetime.now(dt.timezone.utc).isoformat()
                 continue
             matched = match_keywords(post.get("text", ""), keywords)
             post["keyword_matches"] = matched

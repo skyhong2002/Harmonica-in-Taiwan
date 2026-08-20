@@ -1,4 +1,5 @@
 import importlib.util
+import datetime as dt
 import io
 import socket
 import sys
@@ -18,8 +19,10 @@ SPEC.loader.exec_module(watchdog)
 
 
 class FakeResponse:
-    def __init__(self, body: str):
+    def __init__(self, body: str, headers=None, url="https://example.com/"):
         self.body = body.encode("utf-8")
+        self.headers = headers or {}
+        self.url = url
 
     def __enter__(self):
         return self
@@ -27,8 +30,11 @@ class FakeResponse:
     def __exit__(self, exc_type, exc, traceback):
         return False
 
-    def read(self):
+    def read(self, *_args):
         return self.body
+
+    def geturl(self):
+        return self.url
 
 
 class FakeOpener:
@@ -37,6 +43,56 @@ class FakeOpener:
 
     def open(self, request, timeout):
         return FakeResponse(next(self.responses))
+
+
+class SocialFeedWatchdogWebpageTests(unittest.TestCase):
+    def setUp(self):
+        self.source = {
+            "id": "web_249",
+            "name": "上海豫園口琴樂團",
+            "platform": "website",
+            "type": "webpage_watch",
+            "url": "https://example.com/news",
+            "profile_url": "https://example.com/news",
+            "interval_hours": 12,
+            "include_without_keywords": True,
+        }
+
+    def test_fetch_webpage_fingerprints_visible_content(self):
+        response = FakeResponse(
+            "<html><head><title>口琴樂團公告</title><script>unstable()</script></head>"
+            "<body><h1>秋季音樂會</h1><p>報名開始</p></body></html>",
+            headers={"Content-Type": "text/html; charset=utf-8", "Last-Modified": "Wed, 19 Aug 2026 10:00:00 GMT"},
+            url="https://example.com/news",
+        )
+        with mock.patch.object(watchdog.urllib.request, "urlopen", return_value=response):
+            posts = watchdog.fetch_webpage(self.source)
+
+        self.assertEqual(len(posts), 1)
+        self.assertEqual(posts[0]["media_type"], "webpage_update")
+        self.assertIn("秋季音樂會", posts[0]["text"])
+        self.assertNotIn("unstable", posts[0]["text"])
+        self.assertEqual(posts[0]["posted_at"], "Wed, 19 Aug 2026 10:00:00 GMT")
+        self.assertTrue(posts[0]["include_without_keywords"])
+
+    def test_webpage_schedule_baselines_once_then_waits(self):
+        state = {"version": 1, "sources": {}}
+        now = dt.datetime(2026, 8, 20, tzinfo=dt.timezone.utc)
+
+        due, _, changed, initial = watchdog.webpage_due_info(self.source, state, now=now)
+        self.assertTrue(due)
+        self.assertTrue(changed)
+        self.assertTrue(initial)
+
+        watchdog.record_webpage_attempt(state, self.source, now=now, status="ok", post_count=1)
+        due, reason, _, initial = watchdog.webpage_due_info(
+            self.source,
+            state,
+            now=now + dt.timedelta(hours=1),
+        )
+        self.assertFalse(due)
+        self.assertIn("scheduled until", reason)
+        self.assertFalse(initial)
 
 
 class SocialFeedWatchdogThreadsTests(unittest.TestCase):

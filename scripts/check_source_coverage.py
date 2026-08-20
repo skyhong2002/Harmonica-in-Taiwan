@@ -69,6 +69,13 @@ def main() -> int:
     sources = [
         source
         for source in source_config.get("sources", [])
+        if source.get("enabled", True)
+        and source.get("type") not in {"jsonl", "webpage_watch"}
+        and not source.get("ephemeral")
+    ]
+    update_sources = [
+        source
+        for source in source_config.get("sources", [])
         if source.get("enabled", True) and source.get("type") != "jsonl" and not source.get("ephemeral")
     ]
     inbox_rows = read_jsonl(INBOX)
@@ -84,6 +91,7 @@ def main() -> int:
 
     row_keys = [row_match_keys(row) for row in rows]
     entries = build_public_data.build_entries()
+    unmonitored_entries = [entry for entry in entries if not entry.get("monitorSources")]
     missing_entries: list[dict[str, Any]] = []
     for entry in entries:
         entry_keys = build_public_data.entry_match_keys(entry)
@@ -91,7 +99,10 @@ def main() -> int:
             missing_entries.append(entry)
 
     summary = {
-        "ok": not missing_sources and not missing_entries,
+        # A newly registered social account can legitimately have no fetched
+        # post yet.  Entry-level watcher presence is the durable invariant;
+        # source rows remain a reported freshness signal rather than a gate.
+        "ok": not missing_entries and not unmonitored_entries,
         "inboxRows": len(inbox_rows),
         "candidateRows": len(candidate_rows),
         "publicLinkBackfillRows": sum(
@@ -100,10 +111,13 @@ def main() -> int:
         "socialSources": len(sources),
         "socialSourcesCovered": len(sources) - len(missing_sources),
         "socialSourcesMissing": len(missing_sources),
+        "updateSources": len(update_sources),
         "missingSourcesByType": dict(Counter(str(source.get("type") or "") for source in missing_sources)),
         "directoryEntries": len(entries),
         "directoryEntriesCovered": len(entries) - len(missing_entries),
         "directoryEntriesMissing": len(missing_entries),
+        "directoryEntriesMonitored": len(entries) - len(unmonitored_entries),
+        "directoryEntriesUnmonitored": len(unmonitored_entries),
         "missingSources": [
             {
                 "id": source.get("id"),
@@ -121,6 +135,14 @@ def main() -> int:
             }
             for entry in missing_entries
         ],
+        "unmonitoredEntries": [
+            {
+                "id": entry.get("id"),
+                "name": entry.get("name"),
+                "links": entry.get("links"),
+            }
+            for entry in unmonitored_entries
+        ],
     }
 
     if args.json:
@@ -128,8 +150,9 @@ def main() -> int:
     elif summary["ok"]:
         print(
             "OK: "
-            f"{summary['socialSourcesCovered']}/{summary['socialSources']} social sources and "
-            f"{summary['directoryEntriesCovered']}/{summary['directoryEntries']} directory entries covered."
+            f"{summary['socialSourcesCovered']}/{summary['socialSources']} social sources with fetched content; "
+            f"{summary['directoryEntriesCovered']}/{summary['directoryEntries']} directory entries covered; "
+            f"{summary['directoryEntriesMonitored']}/{summary['directoryEntries']} directory entries monitored."
         )
     else:
         print(json.dumps(summary, ensure_ascii=False, indent=2))
