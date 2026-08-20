@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T16:52:15.609846Z",
+  "generatedAt": "2026-08-20T17:25:43.844234Z",
   "source": {
     "id": 171,
     "slug": "society-for-the-preservation-and-advancement-of-the-harmonica",
@@ -244,20 +244,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/5e6dd478c44d35822c5a.webp",
         "width": 800,
         "height": 800
-      }
-    },
-    {
-      "id": "post-e1420a93753c2c4caac94783",
-      "title": "Check out our Youth Scollars!",
-      "excerpt": "Check out our Youth Scollars! #spah #harmonica #harp #joinus",
-      "url": "https://www.instagram.com/p/DbD_bA7Ko7h/",
-      "sourceName": "口琴保存與推廣協會 SPAH",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-21T16:55:11Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/7be1cc01564149a5d555.webp",
-        "width": 800,
-        "height": 1067
       }
     }
   ]

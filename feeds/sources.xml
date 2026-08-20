@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 20 Aug 2026 16:52:17 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 17:25:45 +0000</lastBuildDate>
     <item>
       <title>何家健 HarmoniKahkean</title>
       <link>https://linktr.ee/harmonikahkean</link>
@@ -71,6 +71,17 @@ Tag：團體樂團、國際交流
 國家：印尼
 地區：印尼
 印尼的口琴與跨界國際演出團體，活動脈絡包含Reyharp Naufal與Balawan合作、跨界融合與口琴與吉他。</description>
+    </item>
+    <item>
+      <title>臺中國家歌劇院</title>
+      <link>https://www.npac-ntt.org/index</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/3bda2c9a244d309c</guid>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/臺中
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>Into The Harmonica 口琴學院</title>
@@ -544,17 +555,6 @@ Tag：演奏者、團體樂團、重奏
 國家：臺灣
 地區：臺灣/臺北
 臺灣的口琴演出人員與樂團成員，活動脈絡包含Dr. Blue、學生重奏與演出。</description>
-    </item>
-    <item>
-      <title>臺中國家歌劇院</title>
-      <link>https://www.npac-ntt.org/index</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/3bda2c9a244d309c</guid>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/臺中
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>吳采容</title>
