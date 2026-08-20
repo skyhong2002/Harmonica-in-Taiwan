@@ -1,11 +1,54 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T12:56:30.776973Z",
+  "generatedAt": "2026-08-20T14:04:01.034138Z",
   "source": {
     "id": 309,
     "slug": "korea-harmonica-leaders-incorporated-association",
     "name": "韓國口琴領袖協會",
     "pageUrl": "https://harmonica.observe.tw/source/309-korea-harmonica-leaders-incorporated-association/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-871621a663f21194d3c0c12d",
+      "title": "[그린나래시니어하모니카합주] 연가(Pokarekare Ana)",
+      "excerpt": "[그린나래시니어하모니카합주] 연가(Pokarekare Ana) 그린나래시니어하모니카합주단 창단연주회 - 연가(Pokarekare Ana) * 뉴질랜드 민요, 편곡: 박종성 * 지휘: 한찬송, 피아노: 임주선, 드럼: 김진환, 베이스: 장진호, 사회: 정경주 * 2024.04.20. 봉산문화회관 #사단법인한국하모니카리더스 #그린나래시니어하모니카합주단 #그린나래 #그린나래하모니카 #대구하모니카 #하모니카 #하모니카연주 #트레몰로하모니카 #코드하모니카 #베이스하모니카 #하모니카오케스트라 #하모니카합주…",
+      "url": "https://www.youtube.com/watch?v=s_chX3x3gGU",
+      "sourceName": "韓國口琴領袖協會",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-14T10:00:35Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/27f6734b0e048eacf72a.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-481c04be68a790f3427e2276",
+      "title": "[그린나래시니어하모니카합주] 홀로 아리랑(Holo Arirang)",
+      "excerpt": "[그린나래시니어하모니카합주] 홀로 아리랑(Holo Arirang) 그린나래시니어하모니카합주단 창단연주회 - 홀로 아리랑(Holo Arirang) * 작곡: 한돌, 편곡: 박종성 * 지휘: 한찬송, 피아노: 임주선, 드럼: 김진환, 베이스: 장진호, 사회: 정경주 * 2024.04.20. 봉산문화회관 #사단법인한국하모니카리더스 #그린나래시니어하모니카합주단 #그린나래 #그린나래하모니카 #대구하모니카 #하모니카 #하모니카연주 #트레몰로하모니카 #코드하모니카 #베이스하모니카 #하모니카오케스트라 #하모니…",
+      "url": "https://www.youtube.com/watch?v=UsZiU8Upy_A",
+      "sourceName": "韓國口琴領袖協會",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-07T10:00:16Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/349cd3e305dbc1f299bc.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-e6e0899026f7a74c979b7da5",
+      "title": "[그린나래시니어하모니카합주] 가요메들리(Korean pop medley)",
+      "excerpt": "[그린나래시니어하모니카합주] 가요메들리(Korean pop medley) 그린나래시니어하모니카합주단 창단연주회 - 가요메들리(Korean pop medley) * 작곡: 김세환, 편곡: 김진완 * 지휘: 한찬송, 피아노: 임주선, 드럼: 김진환, 베이스: 장진호, 사회: 정경주 * 2024.04.20. 봉산문화회관 #사단법인한국하모니카리더스 #그린나래시니어하모니카합주단 #그린나래 #그린나래하모니카 #대구하모니카 #하모니카 #하모니카연주 #트레몰로하모니카 #코드하모니카 #베이스하모니카 #하모니카오…",
+      "url": "https://www.youtube.com/watch?v=s3dl-2wZhrU",
+      "sourceName": "韓國口琴領袖協會",
+      "platform": "YouTube",
+      "publishedAt": "2026-07-31T10:00:12Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/2881bcf10fb11c16a662.webp",
+        "width": 800,
+        "height": 450
+      }
+    }
+  ]
 }
