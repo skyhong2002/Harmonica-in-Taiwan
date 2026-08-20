@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-20T11:13:21+08:00",
+  "generatedAt": "2026-08-20T12:20:44+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
-  "count": 9,
+  "count": 10,
   "source": "/api/events.json",
   "ics": "/feeds/overseas-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,7 +14,7 @@
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
+      "requests": 1,
       "cached": 16,
       "errors": 0
     }
@@ -91,6 +91,42 @@
         "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/761653358_18612351817050240_2590188587154998094_n.jpg?stp=c655.0.1966.1966a_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6O2px-IVY5cQ7kNvwHH-Z5G&_nc_oc=AdqnT2X1NBWMguMiKHWkTVfr7qEAQtyDbu-VekrBu3anN6DdBzi0drV65JQmiZrPYOE&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YLet9VsdHRqztOzPMYljcw&_nc_ss=7b60f&oh=00_AQGVYRe6a9KHZcTPxwLC8SUrI0eUj3WUV5Z30p3UOwVAhQ&oe=6A756848"
       ],
       "image_url": "/assets/feed-images/9d9b79fc0bcd2accabe3.webp"
+    },
+    {
+      "id": "5cc593a4724fc281",
+      "title": "コンサート",
+      "eventName": "コンサート",
+      "source": "山下伶 Rei Yamashita",
+      "platform": "facebook",
+      "start": "2026-09-05T14:30:00+09:00",
+      "end": "2026-09-05T16:30:00+09:00",
+      "allDay": false,
+      "calendarType": "overseas_physical",
+      "timezone": "Asia/Tokyo",
+      "location": "川口市 川口リリア・山伸サステインホール",
+      "venue": "川口リリア・山伸サステインホール",
+      "city": "川口市",
+      "details": "主辦／演出者：山下伶 Rei Yamashita。9月5日(土) 14:30開場、15:00開演。出演者包含山下伶（クロマチックハーモニカ）、森丘ヒロキ（ピアノ）、奥泉貴圭（チェロ）、岡田治郎（ベース）、福長雅夫（パーカッション）；全席指定 4,000円。",
+      "evidenceUrl": "https://www.facebook.com/reel/1030730046600991/",
+      "confidence": 0.95,
+      "calendarReview": {
+        "include": true,
+        "country": "其他國家/地區",
+        "eventMode": "overseas_physical",
+        "timezone": "Asia/Tokyo",
+        "candidateDateMatches": true,
+        "eventName": "コンサート",
+        "venue": "川口リリア・山伸サステインホール",
+        "city": "川口市",
+        "details": "主辦／演出者：山下伶 Rei Yamashita。9月5日(土) 14:30開場、15:00開演。出演者包含山下伶（クロマチックハーモニカ）、森丘ヒロキ（ピアノ）、奥泉貴圭（チェロ）、岡田治郎（ベース）、福長雅夫（パーカッション）；全席指定 4,000円。",
+        "reason": "候選日期與貼文中的9月5日演出時間一致，且為日本川口市的實體口琴相關音樂會。",
+        "confidence": 0.95
+      },
+      "postedAt": "2026-08-19 18:05",
+      "images": [
+        "https://scontent-sjc6-1.xx.fbcdn.net/v/t51.82787-10/779895782_18557021731076837_1000266701860796709_n.jpg?stp=dst-jpg_tt6&cstp=mx1216x2160&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=WyimXthgcxkQ7kNvwH_9f1d&_nc_oc=AdqKAFSHPjRgLbBOGmNEjGMMPKZlVPRy4mbxjlJEpOQHOqcVzDBy_J9SgWU8mM08pLs&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=48hMPcG4s3p3eZhCLcvmeg&_nc_ss=7c289&oh=00_AQHdJzwHakiTZWQ7x_fIm1t-vpWifYhslkMyy1mKGLT2GQ&oe=6A8C6419"
+      ],
+      "image_url": "/assets/feed-images/118eed15bbe153d7f4db.webp"
     },
     {
       "eventName": "The Power of Melody",

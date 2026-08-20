@@ -655,7 +655,7 @@
       "latestUpdateLocal": "2026-08-20 02:46",
       "latestUpdateSource": "梁芷菁 Steffi Leung",
       "latestUpdateUrl": "https://www.instagram.com/stories/steffi.leung/3967351577929522012/",
-      "avatarUrl": "/assets/source-avatars/52a4b73c8228268435e3.webp",
+      "avatarUrl": "/assets/source-avatars/944f9a705865f62c67f6.webp",
       "sourceInitials": "SL",
       "sourceTags": [
         "演奏者",
@@ -2178,7 +2178,7 @@
       "latestUpdateLocal": "2026-08-19 20:21",
       "latestUpdateSource": "黃冠誌",
       "latestUpdateUrl": "https://www.instagram.com/p/DcOKUA1oZtC/",
-      "avatarUrl": "/assets/source-avatars/04570fa633655976600a.webp",
+      "avatarUrl": "/assets/source-avatars/c825e1379781330949a6.webp",
       "sourceInitials": "黃冠",
       "sourceTags": [
         "演奏者",
@@ -5247,6 +5247,91 @@
       ]
     },
     {
+      "id": "watchlist-104",
+      "publicId": "104",
+      "name": "Timothy Yip 葉進禧",
+      "nameEn": "Timothy Yip",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/國際比賽/演出/RedBricks",
+      "structuredSummary": "半音階/國際比賽/演出/RedBricks / 半音階 / 國際演出人員",
+      "summary": "香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。",
+      "keywords": "Timothy Yip 葉進禧 harmonica chromatic harmonicist RedBricks",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.timothyyipharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/profile.php?id=100085232439912"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/timothyyip_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-17T08:40:56+00:00",
+      "latestUpdateLocal": "2026-08-17 16:40",
+      "latestUpdateSource": "Timothy Yip 葉進禧",
+      "latestUpdateUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Nhp6dhuktD5tW7w9e97S56Hw7UkQsg2XRnFPfQMXX2DH5PkSPcLFdWhVpnofum78l&id=100085232439912",
+      "avatarUrl": "/assets/source-avatars/a512fb986ad1157ab976.webp",
+      "sourceInitials": "TY",
+      "sourceTags": [
+        "演奏者",
+        "比賽",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_c74bf61a25",
+          "name": "Timothy Yip 葉進禧",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/profile.php?id=100085232439912",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_timothyyip_harmonica",
+          "name": "Timothy Yip 葉進禧",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "timothyyip_harmonica",
+          "profileUrl": "https://www.instagram.com/timothyyip_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/timothyyip_harmonica/story/0"
+        },
+        {
+          "id": "ig_timothyyip_harmonica",
+          "name": "Timothy Yip 葉進禧",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "timothyyip_harmonica",
+          "profileUrl": "https://www.instagram.com/timothyyip_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucvoafkvaebakb5zgfvf7nww",
+          "name": "Timothy Yip 葉進禧",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-195",
       "publicId": "195",
       "name": "彰女微光口琴社",
@@ -5709,91 +5794,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@reyharpnaufal5101",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-104",
-      "publicId": "104",
-      "name": "Timothy Yip 葉進禧",
-      "nameEn": "Timothy Yip",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/國際比賽/演出/RedBricks",
-      "structuredSummary": "半音階/國際比賽/演出/RedBricks / 半音階 / 國際演出人員",
-      "summary": "香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。",
-      "keywords": "Timothy Yip 葉進禧 harmonica chromatic harmonicist RedBricks",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.timothyyipharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/profile.php?id=100085232439912"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/timothyyip_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-16T15:14:32+00:00",
-      "latestUpdateLocal": "2026-08-16 23:14",
-      "latestUpdateSource": "Timothy Yip 葉進禧",
-      "latestUpdateUrl": "https://www.instagram.com/stories/timothyyip_harmonica/3965070615413091195/",
-      "avatarUrl": "/assets/source-avatars/a512fb986ad1157ab976.webp",
-      "sourceInitials": "TY",
-      "sourceTags": [
-        "演奏者",
-        "比賽",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_c74bf61a25",
-          "name": "Timothy Yip 葉進禧",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/profile.php?id=100085232439912",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_timothyyip_harmonica",
-          "name": "Timothy Yip 葉進禧",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "timothyyip_harmonica",
-          "profileUrl": "https://www.instagram.com/timothyyip_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/timothyyip_harmonica/story/0"
-        },
-        {
-          "id": "ig_timothyyip_harmonica",
-          "name": "Timothy Yip 葉進禧",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "timothyyip_harmonica",
-          "profileUrl": "https://www.instagram.com/timothyyip_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_ucvoafkvaebakb5zgfvf7nww",
-          "name": "Timothy Yip 葉進禧",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw",
           "feedUrl": ""
         }
       ]
@@ -9085,6 +9085,55 @@
       ]
     },
     {
+      "id": "watchlist-92",
+      "publicId": "92",
+      "name": "狂響逗嘴鼓口琴樂坊",
+      "nameEn": "Rhapsody Harmonica & Drum Studio",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "教學工作室",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "cityOrFocus": "口琴/手鼓教學/工作室/講座",
+      "structuredSummary": "口琴/手鼓教學/工作室/講座 / 口琴/手鼓 / 教學/工作坊/活動來源",
+      "summary": "臺灣的口琴與手鼓教學、工作坊與活動來源，關注手鼓教學、工作室與講座。",
+      "keywords": "狂響逗嘴鼓口琴樂坊 高雄 口琴 手鼓 教學 工作室",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://art-garden.khcc.gov.tw/introduction/team/7677"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HarmonicaDrumRhapsody/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-06T02:11:49+00:00",
+      "latestUpdateLocal": "2026-08-06 10:11",
+      "latestUpdateSource": "狂響逗嘴鼓口琴樂坊",
+      "latestUpdateUrl": "https://www.facebook.com/HarmonicaDrumRhapsody/posts/pfbid0Kn6onkK3nmfMdGn34TcvttSe7mh1DYBX3EJH577qSDq4aZ6hvtxgw7r1VxzmY8KTl",
+      "avatarUrl": "/assets/source-avatars/rhapsody-drum-studio.jpg",
+      "sourceInitials": "狂響",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "工作室"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicadrumrhapsody",
+          "name": "狂響逗嘴鼓口琴樂坊",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HarmonicaDrumRhapsody",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-16",
       "publicId": "16",
       "name": "Dr. Blue 口琴樂團",
@@ -10774,55 +10823,6 @@
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/RhapsodyHarmonicaEnsemble",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-92",
-      "publicId": "92",
-      "name": "狂響逗嘴鼓口琴樂坊",
-      "nameEn": "Rhapsody Harmonica & Drum Studio",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "教學工作室",
-      "country": "臺灣",
-      "region": "臺灣/高雄",
-      "cityOrFocus": "口琴/手鼓教學/工作室/講座",
-      "structuredSummary": "口琴/手鼓教學/工作室/講座 / 口琴/手鼓 / 教學/工作坊/活動來源",
-      "summary": "臺灣的口琴與手鼓教學、工作坊與活動來源，關注手鼓教學、工作室與講座。",
-      "keywords": "狂響逗嘴鼓口琴樂坊 高雄 口琴 手鼓 教學 工作室",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://art-garden.khcc.gov.tw/introduction/team/7677"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HarmonicaDrumRhapsody/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-07T04:34:02+00:00",
-      "latestUpdateLocal": "2026-07-07 12:34",
-      "latestUpdateSource": "狂響逗嘴鼓口琴樂坊",
-      "latestUpdateUrl": "https://www.facebook.com/HarmonicaDrumRhapsody/posts/pfbid02pCVYaBvNK9c8PXvAoRuzjiCZW6Mdm6ryBe9XdB3cQYSyYsqmHhMNq8bU9DHAz8b4l",
-      "avatarUrl": "/assets/source-avatars/rhapsody-drum-studio.jpg",
-      "sourceInitials": "狂響",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "工作室"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonicadrumrhapsody",
-          "name": "狂響逗嘴鼓口琴樂坊",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HarmonicaDrumRhapsody",
           "feedUrl": ""
         }
       ]

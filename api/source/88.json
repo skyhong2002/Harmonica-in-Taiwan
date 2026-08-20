@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T03:13:17.980332Z",
+  "generatedAt": "2026-08-20T04:20:39.809516Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -200,20 +200,6 @@
       "publishedAt": "2026-07-23T04:00:29Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/e08af99bb48bf227290a.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-ab36a51be77c89c63a5d868b",
-      "title": "問情丨十孔口琴",
-      "excerpt": "問情丨十孔口琴 由鄭少秋主演的戲說乾隆，是當年紅遍臺灣的一部電視劇，他的主題曲-問情也是一炮而紅。「愛到不能愛，聚到終須散，繁華過後成一夢啊」。來聽聽則汝吹出內心的精采詮釋。 中正社大十孔口琴班(四)下午",
-      "url": "https://www.youtube.com/watch?v=W0yCOUvp2Fo",
-      "sourceName": "藍波口琴教室",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-21T04:00:01Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/55bd41aa9c2b3edd3ad7.webp",
         "width": 800,
         "height": 450
       }
