@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T00:58:20.544152Z",
+  "generatedAt": "2026-08-20T02:05:39.548234Z",
   "source": {
     "id": 263,
     "slug": "jdr-harmonica",
@@ -102,20 +102,6 @@
       "publishedAt": "2026-07-27T13:03:56Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/755da766fdead6c87f4e.webp",
-        "width": 640,
-        "height": 1136
-      }
-    },
-    {
-      "id": "post-83ede51907e603250fdf93e4",
-      "title": "Jdr Ninja VS Chicago",
-      "excerpt": "Jdr Ninja VS Chicago",
-      "url": "https://www.instagram.com/p/DbCUvmpp42y/",
-      "sourceName": "JDR Harmonica",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-21T01:22:51Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/cc837729e5be245a9967.webp",
         "width": 640,
         "height": 1136
       }

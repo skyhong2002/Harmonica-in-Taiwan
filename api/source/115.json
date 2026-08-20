@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T00:58:20.544152Z",
+  "generatedAt": "2026-08-20T02:05:39.548234Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -23,29 +23,43 @@
       }
     },
     {
-      "id": "post-ac72cabd2a50426d6b6cb3fc",
-      "title": "Posting some funky jazz harmonica so your feed isn’t all AI videos 🎶🎶🎶",
-      "excerpt": "Posting some funky jazz harmonica so your feed isn’t all AI videos 🎶🎶🎶",
-      "url": "https://www.instagram.com/p/DcMc8yZxaFY/",
+      "id": "post-f777ef49cb4fa90587b1593b",
+      "title": "My 14 hole chromatic harmonica 🥳 what instrument are you playing today?",
+      "excerpt": "My 14 hole chromatic harmonica 🥳 what instrument are you playing today?",
+      "url": "https://www.facebook.com/filipjersmusic/posts/pfbid0fqQZRZkNnS3bQZas28Yc9YgZn1b6TYoRK5MB63f2LcZsFrY9y9KX5iCbz7h4vVhtl",
       "sourceName": "Filip Jers",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-18T20:19:05Z",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-19T14:15:27Z",
       "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/aea252eae609f254cf3f.webp",
-        "width": 800,
-        "height": 1423
+        "url": "https://harmonica.observe.tw/assets/feed-images/123c8c078077a83010ca.webp",
+        "width": 473,
+        "height": 590
       }
     },
     {
-      "id": "post-109f20fc4c0e7bdca3d1ad88",
+      "id": "post-1db6db985445e1971a2eede0",
+      "title": "Posting some funky jazz harmonica so your feed isn’t all AI videos 🎶🎶🎶",
+      "excerpt": "Posting some funky jazz harmonica so your feed isn’t all AI videos 🎶🎶🎶",
+      "url": "https://www.facebook.com/reel/1706906870525813/",
+      "sourceName": "Filip Jers",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-18T20:19:23Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3cc343c5e2d085c2bf87.webp",
+        "width": 540,
+        "height": 960
+      }
+    },
+    {
+      "id": "post-ee93153112be01a88fce564f",
       "title": "Time to practice chromatic harmonica 🎶☀️🎶",
       "excerpt": "Time to practice chromatic harmonica 🎶☀️🎶",
-      "url": "https://www.instagram.com/p/DcLviqlsydU/",
+      "url": "https://www.facebook.com/filipjersmusic/posts/pfbid06Ko55vNSRmxiMbncrKH4Lm3dMdmPzEByfPJcRNMZTvS1HUoKvbNyHzYy62h6mSCJl",
       "sourceName": "Filip Jers",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-18T13:42:00Z",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-18T13:42:11Z",
       "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/dc168b8767a1a49888a4.webp",
+        "url": "https://harmonica.observe.tw/assets/feed-images/2ce03141c16f835fb9f3.webp",
         "width": 800,
         "height": 533
       }
