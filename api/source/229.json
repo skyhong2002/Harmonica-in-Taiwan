@@ -1,11 +1,68 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T04:54:50.624755Z",
+  "generatedAt": "2026-08-20T06:02:51.408350Z",
   "source": {
     "id": 229,
     "slug": "hohner-harmonica",
     "name": "Hohner Harmonica",
     "pageUrl": "https://harmonica.observe.tw/source/229-hohner-harmonica/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-6311ffa9db21d44602d712a7",
+      "title": "🎵 Want to learn harmonica? START FOR FREE!",
+      "excerpt": "🎵 Want to learn harmonica? START FOR FREE! My complete harmonica course is now available on Patreon, and right now you can get a FREE TRIAL of my Beginner Harmonica Course! If you’ve always wanted to learn but didn’t know where to start, I built this course to walk you through i…",
+      "url": "https://www.instagram.com/p/DcObsRzxF5A/",
+      "sourceName": "Hohner Harmonica",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-19T14:47:28Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a589423aa4e4d0a36018.webp",
+        "width": 640,
+        "height": 1136
+      }
+    },
+    {
+      "id": "post-96415de25d20fa017984b4de",
+      "title": "LEARN HARMONICA TODAY!",
+      "excerpt": "LEARN HARMONICA TODAY! www.isaaccorbitt.com #harmonica #isaaccorbitt #harmonicalessons #musiclesson",
+      "url": "https://www.instagram.com/p/DcByykhBhmt/",
+      "sourceName": "Hohner Harmonica",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-14T16:58:00Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/8a3e8f5fc22748afd8d5.webp",
+        "width": 720,
+        "height": 1280
+      }
+    },
+    {
+      "id": "post-1d2f2028e2dbdf11029ae652",
+      "title": "@isaaccorbitt is a master of tone and digs the wash/hand effect on the Dyna-mic!",
+      "excerpt": "@isaaccorbitt is a master of tone and digs the wash/hand effect on the Dyna-mic! #harmonicamicrophone #harmonicaplayer #harmonicablues #harmonicagear",
+      "url": "https://www.instagram.com/p/DblhdXzNA7O/",
+      "sourceName": "Hohner Harmonica",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-03T17:30:32Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/dab5355d1ac8afbaa4b8.webp",
+        "width": 720,
+        "height": 1280
+      }
+    },
+    {
+      "id": "post-96b4d3c5935452dbe3d29e55",
+      "title": "@isaaccorbitt + @the.dyna.mic = MAGIC",
+      "excerpt": "@isaaccorbitt + @the.dyna.mic = MAGIC #harmonica #dynamic #harmonicamicrophone",
+      "url": "https://www.instagram.com/p/DbEgMzGtWK_/",
+      "sourceName": "Hohner Harmonica",
+      "platform": "Instagram",
+      "publishedAt": "2026-07-21T21:41:31Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/8d7b972520387c99cf89.webp",
+        "width": 720,
+        "height": 1280
+      }
+    }
+  ]
 }

@@ -238,6 +238,65 @@
       ]
     },
     {
+      "id": "watchlist-145",
+      "publicId": "145",
+      "name": "Joe Marhofer / The Headcutters",
+      "nameEn": "Joe Marhofer",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "巴西",
+      "region": "巴西/聖卡塔琳娜州",
+      "cityOrFocus": "傳統 Chicago blues/The Headcutters/口琴/主唱/創團",
+      "structuredSummary": "傳統 Chicago blues/The Headcutters/口琴/主唱/創團 / 十孔口琴 / 國際演出人員/樂團創辦人",
+      "summary": "巴西的十孔口琴國際演出人員與樂團創辦人，活動脈絡包含傳統 Chicago blues、The Headcutters與口琴。",
+      "keywords": "Joe Marhofer The Headcutters Brazil harmonica blues SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.theheadcutters.com/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/theheadcutters/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T00:57:01+00:00",
+      "latestUpdateLocal": "2026-08-20 08:57",
+      "latestUpdateSource": "Joe Marhofer / The Headcutters",
+      "latestUpdateUrl": "https://www.instagram.com/stories/theheadcutters/3967538142215489763/",
+      "avatarUrl": "/assets/source-avatars/52a0f6367ca15bc8972e.webp",
+      "sourceInitials": "JMT",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_theheadcutters",
+          "name": "Joe Marhofer / The Headcutters",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "theheadcutters",
+          "profileUrl": "https://www.instagram.com/theheadcutters/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/theheadcutters/story/0"
+        },
+        {
+          "id": "ig_theheadcutters",
+          "name": "Joe Marhofer / The Headcutters",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "theheadcutters",
+          "profileUrl": "https://www.instagram.com/theheadcutters/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-158",
       "publicId": "158",
       "name": "Deak Harp",
@@ -1221,6 +1280,65 @@
       ]
     },
     {
+      "id": "watchlist-229",
+      "publicId": "229",
+      "name": "Hohner Harmonica",
+      "nameEn": "Hohner Harmonica",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌/樂器製造商",
+      "country": "德國",
+      "region": "德國/國際",
+      "cityOrFocus": "口琴製造/產品資訊/演奏推廣/國際社群",
+      "structuredSummary": "口琴製造/產品資訊/演奏推廣/國際社群 / 口琴 / 器材品牌",
+      "summary": "德國的口琴器材品牌，關注口琴製造、產品資訊、演奏推廣與國際社群。",
+      "keywords": "Hohner Harmonica HOHNER 口琴 品牌 德國",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/hohnermusic"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hohnerharmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-19T14:47:28+00:00",
+      "latestUpdateLocal": "2026-08-19 22:47",
+      "latestUpdateSource": "Hohner Harmonica",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcObsRzxF5A/",
+      "avatarUrl": "/assets/source-avatars/ed13f3775f3751df1d84.webp",
+      "sourceInitials": "HH",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_hohnerharmonica",
+          "name": "Hohner Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hohnerharmonica",
+          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hohnerharmonica",
+          "name": "Hohner Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hohnerharmonica",
+          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerharmonica/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-297",
       "publicId": "297",
       "name": "SHG Hering Harmonicas",
@@ -1866,65 +1984,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/c/hoontobe",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-229",
-      "publicId": "229",
-      "name": "Hohner Harmonica",
-      "nameEn": "Hohner Harmonica",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "品牌/樂器製造商",
-      "country": "德國",
-      "region": "德國/國際",
-      "cityOrFocus": "口琴製造/產品資訊/演奏推廣/國際社群",
-      "structuredSummary": "口琴製造/產品資訊/演奏推廣/國際社群 / 口琴 / 器材品牌",
-      "summary": "德國的口琴器材品牌，關注口琴製造、產品資訊、演奏推廣與國際社群。",
-      "keywords": "Hohner Harmonica HOHNER 口琴 品牌 德國",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/hohnermusic"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hohnerharmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-19T12:47:22+00:00",
-      "latestUpdateLocal": "2026-08-19 20:47",
-      "latestUpdateSource": "Hohner Harmonica",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hohnerharmonica/3967170875610425127/",
-      "avatarUrl": "/assets/source-avatars/ed13f3775f3751df1d84.webp",
-      "sourceInitials": "HH",
-      "sourceTags": [
-        "品牌",
-        "教學器材",
-        "教學",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_hohnerharmonica",
-          "name": "Hohner Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hohnerharmonica",
-          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hohnerharmonica",
-          "name": "Hohner Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hohnerharmonica",
-          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerharmonica/story/0"
         }
       ]
     },
@@ -7949,65 +8008,6 @@
       ]
     },
     {
-      "id": "watchlist-145",
-      "publicId": "145",
-      "name": "Joe Marhofer / The Headcutters",
-      "nameEn": "Joe Marhofer",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "巴西",
-      "region": "巴西/聖卡塔琳娜州",
-      "cityOrFocus": "傳統 Chicago blues/The Headcutters/口琴/主唱/創團",
-      "structuredSummary": "傳統 Chicago blues/The Headcutters/口琴/主唱/創團 / 十孔口琴 / 國際演出人員/樂團創辦人",
-      "summary": "巴西的十孔口琴國際演出人員與樂團創辦人，活動脈絡包含傳統 Chicago blues、The Headcutters與口琴。",
-      "keywords": "Joe Marhofer The Headcutters Brazil harmonica blues SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.theheadcutters.com/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/theheadcutters/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-10T22:05:07+00:00",
-      "latestUpdateLocal": "2026-08-11 06:05",
-      "latestUpdateSource": "Joe Marhofer / The Headcutters",
-      "latestUpdateUrl": "https://www.instagram.com/p/Db4CulmALqy/",
-      "avatarUrl": "/assets/source-avatars/52a0f6367ca15bc8972e.webp",
-      "sourceInitials": "JMT",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_theheadcutters",
-          "name": "Joe Marhofer / The Headcutters",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "theheadcutters",
-          "profileUrl": "https://www.instagram.com/theheadcutters/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/theheadcutters/story/0"
-        },
-        {
-          "id": "ig_theheadcutters",
-          "name": "Joe Marhofer / The Headcutters",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "theheadcutters",
-          "profileUrl": "https://www.instagram.com/theheadcutters/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-38",
       "publicId": "38",
       "name": "歐純伶",
@@ -8037,7 +8037,7 @@
       "latestUpdateLocal": "2026-08-10 20:54",
       "latestUpdateSource": "歐純伶",
       "latestUpdateUrl": "https://www.facebook.com/oulingou/posts/pfbid021z4iFYom75EPeNum8qAWuL5e5FTWTTMAKmfRjRYVQpkWRVN4GCTcb274PSbszqZVl",
-      "avatarUrl": "/assets/source-avatars/2241bd394301b93492ed.webp",
+      "avatarUrl": "/assets/source-avatars/c2e22f9ca301da983351.webp",
       "sourceInitials": "歐純",
       "sourceTags": [
         "演奏者",
@@ -8543,6 +8543,59 @@
           "username": "",
           "profileUrl": "https://youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-261",
+      "publicId": "261",
+      "name": "歷奇口琴隊",
+      "nameEn": "Adventure Harmonica Band",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "口琴合奏/社群演出/教育/THMF 2026大合奏公開組並列季軍",
+      "structuredSummary": "口琴合奏/社群演出/教育/THMF 2026大合奏公開組並列季軍 / 口琴大合奏 / 國際演出團體",
+      "summary": "香港的口琴大合奏國際演出團體，活動脈絡包含口琴合奏、社群演出與教育。",
+      "keywords": "Adventure Harmonica Band 歷奇口琴隊 Hong Kong Steffi Leung THMF 2026 大合奏 季軍",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/adventure_harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-09T10:41:39+00:00",
+      "latestUpdateLocal": "2026-08-09 18:41",
+      "latestUpdateSource": "歷奇口琴隊",
+      "latestUpdateUrl": "https://www.instagram.com/p/Db0P4U7mSvf/",
+      "avatarUrl": "/assets/source-avatars/66a2be89a65a451da366.webp",
+      "sourceInitials": "歷奇",
+      "sourceTags": [
+        "團體樂團",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_adventure_harmonica",
+          "name": "歷奇口琴隊",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "adventure_harmonica",
+          "profileUrl": "https://www.instagram.com/adventure_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_adventure_harmonica",
+          "name": "歷奇口琴隊",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "adventure_harmonica",
+          "profileUrl": "https://www.instagram.com/adventure_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/adventure_harmonica/story/0"
         }
       ]
     },
@@ -9471,6 +9524,66 @@
           "username": "sgyouthfest",
           "profileUrl": "https://www.instagram.com/sgyouthfest/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/sgyouthfest/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-307",
+      "publicId": "307",
+      "name": "張錫範",
+      "nameEn": "Seokbeom Jang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "半音階口琴/Into The Harmonica代表/演奏教學與編曲/2012 APHF二重奏三重奏大合奏冠軍/獨奏亞軍/五重奏季軍/THMF 2026",
+      "structuredSummary": "半音階口琴/Into The Harmonica代表/演奏教學與編曲/2012 APHF二重奏三重奏大合奏冠軍/獨奏亞軍/五重奏季軍/THMF 2026 / 半音階口琴 / 國際演出人員/大學教師/口琴學院代表/編曲者",
+      "summary": "韓國的半音階口琴國際演出人員、大學教師與口琴學院代表，活動脈絡包含Into The Harmonica代表、演奏教學與編曲與2012 APHF二重奏三重奏大合奏冠軍。",
+      "keywords": "張錫範 장석범 Seokbeom Jang Into The Harmonica THMF 2026 APHF 2012 Seoul harmonica professor",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://cms.sjcu.ac.kr/ko/department/music-professor.do"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/into_be_om/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-04T09:30:03+00:00",
+      "latestUpdateLocal": "2026-08-04 17:30",
+      "latestUpdateSource": "張錫範",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbnPtjRE_6P/",
+      "avatarUrl": "/assets/source-avatars/seokbeom-jang.png",
+      "sourceInitials": "張錫",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_into_be_om",
+          "name": "張錫範",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "into_be_om",
+          "profileUrl": "https://www.instagram.com/into_be_om/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_into_be_om",
+          "name": "張錫範",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "into_be_om",
+          "profileUrl": "https://www.instagram.com/into_be_om/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/into_be_om/story/0"
         }
       ]
     },
@@ -14968,59 +15081,6 @@
       ]
     },
     {
-      "id": "watchlist-261",
-      "publicId": "261",
-      "name": "歷奇口琴隊",
-      "nameEn": "Adventure Harmonica Band",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "口琴合奏/社群演出/教育/THMF 2026大合奏公開組並列季軍",
-      "structuredSummary": "口琴合奏/社群演出/教育/THMF 2026大合奏公開組並列季軍 / 口琴大合奏 / 國際演出團體",
-      "summary": "香港的口琴大合奏國際演出團體，活動脈絡包含口琴合奏、社群演出與教育。",
-      "keywords": "Adventure Harmonica Band 歷奇口琴隊 Hong Kong Steffi Leung THMF 2026 大合奏 季軍",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/adventure_harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/66a2be89a65a451da366.webp",
-      "sourceInitials": "歷奇",
-      "sourceTags": [
-        "團體樂團",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_adventure_harmonica",
-          "name": "歷奇口琴隊",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "adventure_harmonica",
-          "profileUrl": "https://www.instagram.com/adventure_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_adventure_harmonica",
-          "name": "歷奇口琴隊",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "adventure_harmonica",
-          "profileUrl": "https://www.instagram.com/adventure_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/adventure_harmonica/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-285",
       "publicId": "285",
       "name": "海豚星樂團",
@@ -18893,66 +18953,6 @@
         "演奏者",
         "半音階",
         "國際交流"
-      ]
-    },
-    {
-      "id": "watchlist-307",
-      "publicId": "307",
-      "name": "張錫範",
-      "nameEn": "Seokbeom Jang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國/首爾",
-      "cityOrFocus": "半音階口琴/Into The Harmonica代表/演奏教學與編曲/2012 APHF二重奏三重奏大合奏冠軍/獨奏亞軍/五重奏季軍/THMF 2026",
-      "structuredSummary": "半音階口琴/Into The Harmonica代表/演奏教學與編曲/2012 APHF二重奏三重奏大合奏冠軍/獨奏亞軍/五重奏季軍/THMF 2026 / 半音階口琴 / 國際演出人員/大學教師/口琴學院代表/編曲者",
-      "summary": "韓國的半音階口琴國際演出人員、大學教師與口琴學院代表，活動脈絡包含Into The Harmonica代表、演奏教學與編曲與2012 APHF二重奏三重奏大合奏冠軍。",
-      "keywords": "張錫範 장석범 Seokbeom Jang Into The Harmonica THMF 2026 APHF 2012 Seoul harmonica professor",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://cms.sjcu.ac.kr/ko/department/music-professor.do"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/into_be_om/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/seokbeom-jang.png",
-      "sourceInitials": "張錫",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_into_be_om",
-          "name": "張錫範",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "into_be_om",
-          "profileUrl": "https://www.instagram.com/into_be_om/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_into_be_om",
-          "name": "張錫範",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "into_be_om",
-          "profileUrl": "https://www.instagram.com/into_be_om/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/into_be_om/story/0"
-        }
       ]
     },
     {

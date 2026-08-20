@@ -1,11 +1,68 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T04:54:50.624755Z",
+  "generatedAt": "2026-08-20T06:02:51.408350Z",
   "source": {
     "id": 261,
     "slug": "adventure-harmonica-band",
     "name": "歷奇口琴隊",
     "pageUrl": "https://harmonica.observe.tw/source/261-adventure-harmonica-band/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-ec30133b492d7ec2fd16368b",
+      "title": "臺灣口琴音樂節完美落幕，謝謝主辦單位 @taiwanharmonica 能一年一度把喜歡口琴的大家都聚在一起，最緊要...玩得開心！💜",
+      "excerpt": "臺灣口琴音樂節完美落幕，謝謝主辦單位 @taiwanharmonica 能一年一度把喜歡口琴的大家都聚在一起，最緊要...玩得開心！💜 恭喜以下獲獎隊員： ✨ 新秀組半音階獨奏 銀獎 梁心柔 ✨ 兒童組半音階獨奏 第二名 黃靜楠 ✨ 少年組二重奏 第一名 Agnes and Sophia （黃靜楠、陳令妍） 第三名 Breezy Duo （周洛芙、周洛蓉） ✨ 新秀組三重奏 銀獎 The Good, the Bad, and the Ugly（郭智浩、劉柏然、黃子維） ✨ 公開組大合奏 歷奇口琴隊 第三名 #有緣再會🌟",
+      "url": "https://www.instagram.com/p/Db0P4U7mSvf/",
+      "sourceName": "歷奇口琴隊",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-09T10:41:39Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9ee0d60d8b42c74bb5fe.webp",
+        "width": 800,
+        "height": 600
+      }
+    },
+    {
+      "id": "post-69acd2523af4951e264c85d0",
+      "title": "First 2 days at @taiwanharmonica, having so much fun under the heat wave 🥳",
+      "excerpt": "First 2 days at @taiwanharmonica, having so much fun under the heat wave 🥳",
+      "url": "https://www.instagram.com/p/DbxASgIGWv-/",
+      "sourceName": "歷奇口琴隊",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-08T04:27:41Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ae21cbed9cc88397fa50.webp",
+        "width": 800,
+        "height": 1067
+      }
+    },
+    {
+      "id": "post-fca34e7c2b9bfc3a78558076",
+      "title": "THMF 2026 here we go! 🌟💜",
+      "excerpt": "THMF 2026 here we go! 🌟💜 臺灣口琴音樂節，出發～ @taiwanharmonica",
+      "url": "https://www.instagram.com/p/Dbrjj0XGTG2/",
+      "sourceName": "歷奇口琴隊",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-06T01:40:27Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/212794ef3f77d328971d.webp",
+        "width": 800,
+        "height": 600
+      }
+    },
+    {
+      "id": "post-b47b400f0f2659718952900a",
+      "title": "《快閃音樂會》又來了🫶🏻🌟💜",
+      "excerpt": "《快閃音樂會》又來了🫶🏻🌟💜 謝謝 @imus.academy 的邀請，我們將於本週日在尖沙咀 The One 商場舉辦第二場《快閃音樂會》。屆時將會有口琴獨奏，二重奏，及重奏演出，切勿錯過！ 📍尖沙咀The One 3/F ⏰ 17:00-17:45 🗓️ 8月2日（星期日） 到時見！✨",
+      "url": "https://www.instagram.com/p/DbdRY7_qAjD/",
+      "sourceName": "歷奇口琴隊",
+      "platform": "Instagram",
+      "publishedAt": "2026-07-31T12:36:38Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3e81ce9dd56fd43df408.webp",
+        "width": 800,
+        "height": 1067
+      }
+    }
+  ]
 }
