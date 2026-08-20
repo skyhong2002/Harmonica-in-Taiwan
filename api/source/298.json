@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T23:51:40.839685Z",
+  "generatedAt": "2026-08-20T00:58:20.544152Z",
   "source": {
     "id": 298,
     "slug": "hkcc-harmonica-programme",
     "name": "香港兒童合唱團口琴課程",
     "pageUrl": "https://harmonica.observe.tw/source/298-hkcc-harmonica-programme/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-2d0f1aad756dd6a9eceda6c9",
+      "title": "【#2027年1月課程招生】想讓小朋友學習多元才藝、在舞台上閃閃發光？「香兒」2027年1月課程熱烈招生中✨留言「報名」，即可向小編索取報名表～",
+      "excerpt": "【#2027年1月課程招生】想讓小朋友學習多元才藝、在舞台上閃閃發光？「香兒」2027年1月課程熱烈招生中✨留言「報名」，即可向小編索取報名表～ 🎤合唱組： 建立健康的發聲觀念、擴展音域、著力於咬字清晰及擬定音準節奏的基礎，培育聲線控制、音樂感知能力。 💃 舞蹈組：中國舞、踢躂舞、爵士舞、Hip Hop 完成課程可保送參加國際公開考試（Hip Hop課程除外） 🎵 器樂組：手鈴班、口琴班、敲擊班 培養節奏感、團隊精神與自律性 🗣️普通話兒童組： 母語普通話導師任教，透過遊戲、朗讀兒歌及故事，輕鬆學習拼音 【2027年1月課程招生】報名連結： ✨同步招生…",
+      "url": "https://www.facebook.com/hkcchoir/posts/pfbid0kT5egJbzDWFvFv8GCpGQSeA62tYxXf2pdxsegGT3THgkk2ZdT76eC8xoALVPnhHVl",
+      "sourceName": "香港兒童合唱團口琴課程",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-17T11:44:19Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6a69fef34836d81089e5.webp",
+        "width": 472,
+        "height": 590
+      }
+    }
+  ]
 }

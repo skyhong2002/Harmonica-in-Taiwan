@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T23:51:40.839685Z",
+  "generatedAt": "2026-08-20T00:58:20.544152Z",
   "source": {
     "id": 263,
     "slug": "jdr-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/263-jdr-harmonica/"
   },
   "items": [
+    {
+      "id": "post-e75d16862fc297e5332639c4",
+      "title": "SPAH 2026 wrapped up last week.",
+      "excerpt": "SPAH 2026 wrapped up last week. It was great spending the week in St. Louis, seeing familiar faces, meeting new players, and talking harmonicas face to face. A big thank-you to everyone who stopped by and spent some time with JDR. See you next time! Rodrigo Eberienos Ross Garren",
+      "url": "https://www.facebook.com/JDRmusik/posts/pfbid02fAxsD1BYZjfpKcigsheHHLJbwc2ZKavxAmj9z2VEcbSXzm57pRAPU97H2TzvDJEhl",
+      "sourceName": "JDR Harmonica",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-18T08:36:27Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/32e8e59d6594473aca4c.webp",
+        "width": 590,
+        "height": 332
+      }
+    },
     {
       "id": "post-dae99b2b3dca168f555f52c8",
       "title": "Huge congrats to @Ross Garren on claiming the 2026 SPAH Bernie Bray Harmonica Player of the Year Award!",
@@ -20,6 +34,34 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/a7552a90928694db68ee.webp",
         "width": 800,
         "height": 534
+      }
+    },
+    {
+      "id": "post-c0d5a991bccc4ce1e084ed42",
+      "title": "Big congratulations to Ross Garren on receiving the 2026 SPAH Bernie Bray Harmonica Player of the Year Award!",
+      "excerpt": "Big congratulations to Ross Garren on receiving the 2026 SPAH Bernie Bray Harmonica Player of the Year Award! This award recognizes excellence in harmonica playing, and we’re very happy to see Ross receive this honor. Ross is a JDR endorser, and we’re proud to celebrate this mom…",
+      "url": "https://www.facebook.com/JDRmusik/posts/pfbid0JrNQtGd2sRY2LNFa2SCsDiFEaHHh1g7rBcWtYH1FowyCA1MhNhSy38JpaeQg36p8l",
+      "sourceName": "JDR Harmonica",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-16T23:44:01Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/872960ad6b5cd7df07b3.webp",
+        "width": 590,
+        "height": 443
+      }
+    },
+    {
+      "id": "post-220762d3ffe7b539b9b06df0",
+      "title": "Black Trochilus！",
+      "excerpt": "Black Trochilus！ Rodrigo Eberienos",
+      "url": "https://www.facebook.com/JDRmusik/posts/pfbid0FeAbmVACAFLBEQHpXoGVjSPtHYVyXrmY1Uy48WtE9iMMnBPmWagJtp9jQbE5Pamtl",
+      "sourceName": "JDR Harmonica",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-13T16:15:33Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/91d8accb8990eeba353a.webp",
+        "width": 800,
+        "height": 450
       }
     },
     {

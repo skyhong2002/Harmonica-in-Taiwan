@@ -86,7 +86,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-20 01:05",
       "latestUpdateSource": "臺中一中口琴社校友團",
       "latestUpdateUrl": "https://www.instagram.com/p/DcOmeuTGBgX/",
-      "avatarUrl": "/assets/source-avatars/1e63facd2c7ab823694d.webp",
+      "avatarUrl": "/assets/source-avatars/540ceba2fdf296e48c63.webp",
       "sourceInitials": "臺中",
       "sourceTags": [
         "學生社團",
@@ -276,6 +276,90 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-54",
+      "publicId": "54",
+      "name": "CY Leo 何卓彥",
+      "nameEn": "CY Leo",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "古典與爵士半音階/2009、2013 WHF獨奏世界冠軍/作曲與創作歌手/國際管弦樂協演/電影、流行與遊戲錄音/口琴教材",
+      "structuredSummary": "古典與爵士半音階/2009、2013 WHF獨奏世界冠軍/作曲與創作歌手/國際管弦樂協演/電影、流行與遊戲錄音/口琴教材 / 半音階口琴 / 國際演出人員/作曲家與創作歌手/評審/Music Lab聯合藝術總監",
+      "summary": "香港的半音階口琴國際演出人員、作曲家與創作歌手與評審，活動脈絡包含古典與爵士半音階、2009與2013 WHF獨奏世界冠軍。",
+      "keywords": "CY Leo 何卓彥 harmonica WHF 2009 2013 classical jazz composer Ginger Muse Music Lab",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.cyleomusic.io/profile"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Cyleoharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cy_leo/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@cyleoharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-19T15:35:03+00:00",
+      "latestUpdateLocal": "2026-08-19 23:35",
+      "latestUpdateSource": "CY Leo 何卓彥",
+      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3967255269738718647/",
+      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
+      "sourceInitials": "CL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Cyleoharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
+        },
+        {
+          "id": "yt_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@cyleoharmonica",
           "feedUrl": ""
         }
       ]
@@ -3840,90 +3924,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-54",
-      "publicId": "54",
-      "name": "CY Leo 何卓彥",
-      "nameEn": "CY Leo",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "古典與爵士半音階/2009、2013 WHF獨奏世界冠軍/作曲與創作歌手/國際管弦樂協演/電影、流行與遊戲錄音/口琴教材",
-      "structuredSummary": "古典與爵士半音階/2009、2013 WHF獨奏世界冠軍/作曲與創作歌手/國際管弦樂協演/電影、流行與遊戲錄音/口琴教材 / 半音階口琴 / 國際演出人員/作曲家與創作歌手/評審/Music Lab聯合藝術總監",
-      "summary": "香港的半音階口琴國際演出人員、作曲家與創作歌手與評審，活動脈絡包含古典與爵士半音階、2009與2013 WHF獨奏世界冠軍。",
-      "keywords": "CY Leo 何卓彥 harmonica WHF 2009 2013 classical jazz composer Ginger Muse Music Lab",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.cyleomusic.io/profile"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Cyleoharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/cy_leo/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@cyleoharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-18T15:47:23+00:00",
-      "latestUpdateLocal": "2026-08-18 23:47",
-      "latestUpdateSource": "CY Leo 何卓彥",
-      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3966536719176717083/",
-      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
-      "sourceInitials": "CL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Cyleoharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
-        },
-        {
-          "id": "yt_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@cyleoharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-4",
       "publicId": "4",
       "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
@@ -4466,6 +4466,93 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-263",
+      "publicId": "263",
+      "name": "JDR Harmonica",
+      "nameEn": "JDR Harmonica",
+      "category": "活動資訊",
+      "type": "品牌",
+      "originalType": "品牌/樂器製造商",
+      "country": "中國",
+      "region": "中國/江蘇/江陰",
+      "cityOrFocus": "口琴製造/十孔/半音階/器材資訊/國際音樂節贊助",
+      "structuredSummary": "口琴製造/十孔/半音階/器材資訊/國際音樂節贊助 / 十孔/半音階/口琴 / 器材品牌/活動贊助單位",
+      "summary": "中國的器材品牌與活動贊助單位，涵蓋口琴製造、器材資訊與國際音樂節贊助。",
+      "keywords": "JDR Harmonica 嘉德瑞 Jiangyin Soundreal harmonica THMF SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.jdrharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/JDRmusik/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jdr_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@JDRHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-18T08:36:27+00:00",
+      "latestUpdateLocal": "2026-08-18 16:36",
+      "latestUpdateSource": "JDR Harmonica",
+      "latestUpdateUrl": "https://www.facebook.com/JDRmusik/posts/pfbid02fAxsD1BYZjfpKcigsheHHLJbwc2ZKavxAmj9z2VEcbSXzm57pRAPU97H2TzvDJEhl",
+      "avatarUrl": "/assets/source-avatars/293740c7969ba7fb0880.webp",
+      "sourceInitials": "JH",
+      "sourceTags": [
+        "品牌",
+        "活動資訊",
+        "音樂節",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_jdrmusik",
+          "name": "JDR Harmonica",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/JDRmusik",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_jdr_harmonica",
+          "name": "JDR Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jdr_harmonica",
+          "profileUrl": "https://www.instagram.com/jdr_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jdr_harmonica",
+          "name": "JDR Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jdr_harmonica",
+          "profileUrl": "https://www.instagram.com/jdr_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/jdr_harmonica/story/0"
+        },
+        {
+          "id": "yt_jdrharmonica",
+          "name": "JDR Harmonica",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@JDRHarmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-9",
       "publicId": "9",
       "name": "李讓 Jang Li",
@@ -4663,6 +4750,71 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@easttopmusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-116",
+      "publicId": "116",
+      "name": "Trio Animato",
+      "nameEn": "Trio Animato",
+      "category": "活動資訊",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "波蘭",
+      "region": "波蘭/什切青",
+      "cityOrFocus": "波蘭口琴三重奏/室內樂/國際音樂節/SIHF 2025",
+      "structuredSummary": "波蘭口琴三重奏/室內樂/國際音樂節/SIHF 2025 / 半音階/和弦/低音 / 國際演出團體",
+      "summary": "波蘭的國際演出團體，涵蓋波蘭口琴三重奏、室內樂、國際音樂節與SIHF 2025。",
+      "keywords": "Trio Animato Szczecin Poland harmonica trio SIHF 2025 chromatic chord bass",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://animato.info.pl/en/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/animato1978"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/animato1978"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-17T20:50:01+00:00",
+      "latestUpdateLocal": "2026-08-18 04:50",
+      "latestUpdateSource": "Trio Animato",
+      "latestUpdateUrl": "https://www.facebook.com/reel/885604321025529/",
+      "avatarUrl": "/assets/source-avatars/4ea2062541f6ea882a87.webp",
+      "sourceInitials": "TA",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "音樂節",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_animato1978",
+          "name": "Trio Animato",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/animato1978",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_animato1978",
+          "name": "Trio Animato",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/animato1978",
           "feedUrl": ""
         }
       ]
@@ -4888,93 +5040,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "chgsh_harmonica",
           "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/chgsh_harmonica/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-263",
-      "publicId": "263",
-      "name": "JDR Harmonica",
-      "nameEn": "JDR Harmonica",
-      "category": "活動資訊",
-      "type": "品牌",
-      "originalType": "品牌/樂器製造商",
-      "country": "中國",
-      "region": "中國/江蘇/江陰",
-      "cityOrFocus": "口琴製造/十孔/半音階/器材資訊/國際音樂節贊助",
-      "structuredSummary": "口琴製造/十孔/半音階/器材資訊/國際音樂節贊助 / 十孔/半音階/口琴 / 器材品牌/活動贊助單位",
-      "summary": "中國的器材品牌與活動贊助單位，涵蓋口琴製造、器材資訊與國際音樂節贊助。",
-      "keywords": "JDR Harmonica 嘉德瑞 Jiangyin Soundreal harmonica THMF SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.jdrharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/JDRmusik/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jdr_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@JDRHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-17T02:35:41+00:00",
-      "latestUpdateLocal": "2026-08-17 10:35",
-      "latestUpdateSource": "JDR Harmonica",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcH-oKGm6G4/",
-      "avatarUrl": "/assets/source-avatars/293740c7969ba7fb0880.webp",
-      "sourceInitials": "JH",
-      "sourceTags": [
-        "品牌",
-        "活動資訊",
-        "音樂節",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_jdrmusik",
-          "name": "JDR Harmonica",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/JDRmusik",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_jdr_harmonica",
-          "name": "JDR Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jdr_harmonica",
-          "profileUrl": "https://www.instagram.com/jdr_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jdr_harmonica",
-          "name": "JDR Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jdr_harmonica",
-          "profileUrl": "https://www.instagram.com/jdr_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jdr_harmonica/story/0"
-        },
-        {
-          "id": "yt_jdrharmonica",
-          "name": "JDR Harmonica",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@JDRHarmonica",
-          "feedUrl": ""
         }
       ]
     },
@@ -8563,6 +8628,93 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "408.harmonica",
           "profileUrl": "https://www.instagram.com/408.harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/408.harmonica/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-319",
+      "publicId": "319",
+      "name": "莊庭皓 Ivan Chong",
+      "nameEn": "Ivan Chong Ting-ho",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階口琴演奏與教學/Perfect Fourth成員/何東中學口琴隊指揮與多校口琴導師/2009世界口琴節成人二重奏冠軍/2014起擔任首爾、亞太與世界口琴節評審及嘉賓/口琴維修與Co-op Harmonica創辦",
+      "structuredSummary": "半音階口琴演奏與教學/Perfect Fourth成員/何東中學口琴隊指揮與多校口琴導師/2009世界口琴節成人二重奏冠軍/2014起擔任首爾、亞太與世界口琴節評審及嘉賓/口琴維修與Co-op Harmonica創辦 / 半音階口琴 / 國際演出人員/口琴教師/學校樂團指揮/評審/維修技師",
+      "summary": "香港的半音階口琴國際演出人員、口琴教師與學校樂團指揮，活動脈絡包含半音階口琴演奏與教學、Perfect Fourth成員與何東中學口琴隊指揮與多校口琴導師。",
+      "keywords": "莊庭皓 Ivan Chong Ting-ho Perfect Fourth Hotung Secondary School Harmonica Band WHF SIHF APHF Co-op Harmonica Hohner service technician 香港",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://ivanchong.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chongtingho"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chongtingho/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCNjS1XofiGjUCzKTYz7DOLw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-06T23:07:12+00:00",
+      "latestUpdateLocal": "2026-08-07 07:07",
+      "latestUpdateSource": "莊庭皓 Ivan Chong",
+      "latestUpdateUrl": "https://www.facebook.com/chongtingho/posts/pfbid0NkDWXPQxjtQLELJApk1FjXaHsHo9LEEjVjLYx5QxMpbp8ki2A7h5kJmCZ14FdBpZl",
+      "avatarUrl": "/assets/source-avatars/ivan-chong.jpg",
+      "sourceInitials": "IC",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "教學",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_chongtingho",
+          "name": "莊庭皓 Ivan Chong",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chongtingho",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_chongtingho",
+          "name": "莊庭皓 Ivan Chong",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chongtingho",
+          "profileUrl": "https://www.instagram.com/chongtingho/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chongtingho",
+          "name": "莊庭皓 Ivan Chong",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chongtingho",
+          "profileUrl": "https://www.instagram.com/chongtingho/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chongtingho/story/0"
+        },
+        {
+          "id": "yt_ucnjs1xofigjuczktyz7dolw",
+          "name": "莊庭皓 Ivan Chong",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCNjS1XofiGjUCzKTYz7DOLw",
+          "feedUrl": ""
         }
       ]
     },
@@ -17196,71 +17348,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-116",
-      "publicId": "116",
-      "name": "Trio Animato",
-      "nameEn": "Trio Animato",
-      "category": "活動資訊",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "波蘭",
-      "region": "波蘭/什切青",
-      "cityOrFocus": "波蘭口琴三重奏/室內樂/國際音樂節/SIHF 2025",
-      "structuredSummary": "波蘭口琴三重奏/室內樂/國際音樂節/SIHF 2025 / 半音階/和弦/低音 / 國際演出團體",
-      "summary": "波蘭的國際演出團體，涵蓋波蘭口琴三重奏、室內樂、國際音樂節與SIHF 2025。",
-      "keywords": "Trio Animato Szczecin Poland harmonica trio SIHF 2025 chromatic chord bass",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://animato.info.pl/en/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/animato1978"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/user/animato1978"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/4ea2062541f6ea882a87.webp",
-      "sourceInitials": "TA",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "音樂節",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_animato1978",
-          "name": "Trio Animato",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/animato1978",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_animato1978",
-          "name": "Trio Animato",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/user/animato1978",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-312",
       "publicId": "312",
       "name": "「天鵝自由呼吸」寧波口琴節",
@@ -19239,93 +19326,6 @@ window.HARMONICA_OBSERVE_DATA = {
         "團體樂團",
         "半音階",
         "國際交流"
-      ]
-    },
-    {
-      "id": "watchlist-319",
-      "publicId": "319",
-      "name": "莊庭皓 Ivan Chong",
-      "nameEn": "Ivan Chong Ting-ho",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階口琴演奏與教學/Perfect Fourth成員/何東中學口琴隊指揮與多校口琴導師/2009世界口琴節成人二重奏冠軍/2014起擔任首爾、亞太與世界口琴節評審及嘉賓/口琴維修與Co-op Harmonica創辦",
-      "structuredSummary": "半音階口琴演奏與教學/Perfect Fourth成員/何東中學口琴隊指揮與多校口琴導師/2009世界口琴節成人二重奏冠軍/2014起擔任首爾、亞太與世界口琴節評審及嘉賓/口琴維修與Co-op Harmonica創辦 / 半音階口琴 / 國際演出人員/口琴教師/學校樂團指揮/評審/維修技師",
-      "summary": "香港的半音階口琴國際演出人員、口琴教師與學校樂團指揮，活動脈絡包含半音階口琴演奏與教學、Perfect Fourth成員與何東中學口琴隊指揮與多校口琴導師。",
-      "keywords": "莊庭皓 Ivan Chong Ting-ho Perfect Fourth Hotung Secondary School Harmonica Band WHF SIHF APHF Co-op Harmonica Hohner service technician 香港",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://ivanchong.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/chongtingho"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/chongtingho/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCNjS1XofiGjUCzKTYz7DOLw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/ivan-chong.jpg",
-      "sourceInitials": "IC",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "教學",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_chongtingho",
-          "name": "莊庭皓 Ivan Chong",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/chongtingho",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_chongtingho",
-          "name": "莊庭皓 Ivan Chong",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "chongtingho",
-          "profileUrl": "https://www.instagram.com/chongtingho/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_chongtingho",
-          "name": "莊庭皓 Ivan Chong",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "chongtingho",
-          "profileUrl": "https://www.instagram.com/chongtingho/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chongtingho/story/0"
-        },
-        {
-          "id": "yt_ucnjs1xofigjuczktyz7dolw",
-          "name": "莊庭皓 Ivan Chong",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCNjS1XofiGjUCzKTYz7DOLw",
-          "feedUrl": ""
-        }
       ]
     },
     {

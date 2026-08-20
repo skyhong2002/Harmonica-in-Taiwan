@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T23:51:40.839685Z",
+  "generatedAt": "2026-08-20T00:58:20.544152Z",
   "source": {
     "id": 319,
     "slug": "ivan-chong-ting-ho",
     "name": "莊庭皓 Ivan Chong",
     "pageUrl": "https://harmonica.observe.tw/source/319-ivan-chong-ting-ho/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-1024f112bca499bd03586d90",
+      "title": "A fulfilling evening and dinner with the Chan’s family 😁",
+      "excerpt": "A fulfilling evening and dinner with the Chan’s family 😁 Happy to learn that both Chloe and Carson are pursuing what you love! 🥳 Time flies and it’s already the 10th year since we first met when you two were still in primary school 🤣 Thank you harmonica connecting me with you al…",
+      "url": "https://www.facebook.com/chongtingho/posts/pfbid0NkDWXPQxjtQLELJApk1FjXaHsHo9LEEjVjLYx5QxMpbp8ki2A7h5kJmCZ14FdBpZl",
+      "sourceName": "莊庭皓 Ivan Chong",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-06T23:07:12Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3f13231878defc88c6c6.webp",
+        "width": 720,
+        "height": 540
+      }
+    }
+  ]
 }

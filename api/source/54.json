@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-19T23:51:40.839685Z",
+  "generatedAt": "2026-08-20T00:58:20.544152Z",
   "source": {
     "id": 54,
     "slug": "cy-leo",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/54-cy-leo/"
   },
   "items": [
+    {
+      "id": "post-fd3ccff747971eb9c40be91f",
+      "title": "A morning study on Leo Genovesem’s mind",
+      "excerpt": "A morning study on Leo Genovesem’s mind",
+      "url": "https://www.facebook.com/reel/1763227338324604/",
+      "sourceName": "CY Leo 何卓彥",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-17T05:45:30Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ca12b09e064134cc0fca.webp",
+        "width": 540,
+        "height": 960
+      }
+    },
     {
       "id": "post-dd3d4acb0f4f944333d28a7a",
       "title": "Marvao 與葡萄牙總統邂逅小記：",
