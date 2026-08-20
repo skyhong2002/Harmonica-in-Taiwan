@@ -12292,7 +12292,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://duovolce.com/harry-choi",
+          "profileUrl": "https://www.duovolce.com/harry-choi",
           "feedUrl": ""
         }
       ]
@@ -13093,7 +13093,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://tombo-m.co.jp/hmc/genre/harmso.html",
+          "profileUrl": "https://www.tombo-m.co.jp/hmc/genre/harmso.html",
           "feedUrl": ""
         }
       ]
@@ -13138,7 +13138,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://harmonica.org.cn/about.asp",
+          "profileUrl": "https://www.harmonica.org.cn/about.asp",
           "feedUrl": ""
         }
       ]
@@ -13229,7 +13229,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://dhv-ev.de/mundharmonika",
+          "profileUrl": "https://www.dhv-ev.de/mundharmonika",
           "feedUrl": ""
         }
       ]
@@ -13320,7 +13320,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://wuxi.gov.cn/doc/2026/07/26/4810061.shtml",
+          "profileUrl": "https://www.wuxi.gov.cn/doc/2026/07/26/4810061.shtml",
           "feedUrl": ""
         }
       ]
@@ -13563,7 +13563,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://taiwanharmonica.com/s/E1_-h3sj.pdf",
+          "profileUrl": "https://www.taiwanharmonica.com/s/E1_-h3sj.pdf",
           "feedUrl": ""
         }
       ]
@@ -13674,7 +13674,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://taiwanharmonica.com/",
+          "profileUrl": "https://www.taiwanharmonica.com/",
           "feedUrl": ""
         }
       ]
@@ -13719,7 +13719,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://taiwanharmonica.com/2026artists-midday",
+          "profileUrl": "https://www.taiwanharmonica.com/2026artists-midday",
           "feedUrl": ""
         }
       ]
@@ -13771,7 +13771,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://taiwanharmonica.com/s/E1_-h3sj.pdf",
+          "profileUrl": "https://www.taiwanharmonica.com/s/E1_-h3sj.pdf",
           "feedUrl": ""
         }
       ]
@@ -14010,7 +14010,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://taiwanharmonica.com/s/E1_-h3sj.pdf",
+          "profileUrl": "https://www.taiwanharmonica.com/s/E1_-h3sj.pdf",
           "feedUrl": ""
         }
       ]
@@ -14688,7 +14688,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://hkharmonica.org/cas2026-27-project-activation-concert",
+          "profileUrl": "https://www.hkharmonica.org/cas2026-27-project-activation-concert",
           "feedUrl": ""
         }
       ]
@@ -14940,7 +14940,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://stevebaker.de/steve_baker_the_livewires_en_641.html",
+          "profileUrl": "https://www.stevebaker.de/steve_baker_the_livewires_en_641.html",
           "feedUrl": ""
         }
       ]
@@ -15066,7 +15066,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://harmonica.org.cn/news-show.asp?nlt=103&none=17",
+          "profileUrl": "https://www.harmonica.org.cn/news-show.asp?nlt=103&none=17",
           "feedUrl": ""
         }
       ]
@@ -15213,7 +15213,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://taiwanharmonica.com/s/F1_-kgya.pdf",
+          "profileUrl": "https://www.taiwanharmonica.com/s/F1_-kgya.pdf",
           "feedUrl": ""
         }
       ]
@@ -15326,7 +15326,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://harmonica.org.cn/news-show.asp?nlt=111&none=17",
+          "profileUrl": "https://www.harmonica.org.cn/news-show.asp?nlt=111&none=17",
           "feedUrl": ""
         }
       ]
@@ -15378,7 +15378,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://taiwanharmonica.com/s/F1_-kgya.pdf",
+          "profileUrl": "https://www.taiwanharmonica.com/s/F1_-kgya.pdf",
           "feedUrl": ""
         }
       ]
@@ -15421,7 +15421,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://aphfhx.com/information/industryNewsDetail/361339839879622656",
+          "profileUrl": "https://www.aphfhx.com/information/industryNewsDetail/361339839879622656",
           "feedUrl": ""
         }
       ]
@@ -15527,7 +15527,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://taiwanharmonica.com/s/F1_-kgya.pdf",
+          "profileUrl": "https://www.taiwanharmonica.com/s/F1_-kgya.pdf",
           "feedUrl": ""
         }
       ]
@@ -15738,7 +15738,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://aphfhx.com/information/industryNewsDetail/361339839879622656",
+          "profileUrl": "https://www.aphfhx.com/information/industryNewsDetail/361339839879622656",
           "feedUrl": ""
         }
       ]
@@ -15942,7 +15942,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://taiwanharmonica.com/s/F1_-kgya.pdf",
+          "profileUrl": "https://www.taiwanharmonica.com/s/F1_-kgya.pdf",
           "feedUrl": ""
         }
       ]
@@ -16096,7 +16096,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://harmonica.org.cn/news-show.asp?nlt=111&none=17",
+          "profileUrl": "https://www.harmonica.org.cn/news-show.asp?nlt=111&none=17",
           "feedUrl": ""
         }
       ]
@@ -16343,7 +16343,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
+          "profileUrl": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
           "feedUrl": ""
         }
       ]
@@ -16500,7 +16500,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://youth.whut.edu.cn/stfc/202606/t20260609_1402701.shtml",
+          "profileUrl": "http://youth.whut.edu.cn/",
           "feedUrl": ""
         }
       ]
@@ -16628,7 +16628,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://spcc.edu.hk/explore/extra-curricular-activities",
+          "profileUrl": "https://www.spcc.edu.hk/explore/extra-curricular-activities",
           "feedUrl": ""
         }
       ]
@@ -16676,7 +16676,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://ccnu.edu.cn/ccnuyouth/info/1300/56896.htm",
+          "profileUrl": "https://www.ccnu.edu.cn/ccnuyouth/info/1300/56896.htm",
           "feedUrl": ""
         }
       ]
@@ -17060,7 +17060,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://seydel1847.de/",
+          "profileUrl": "https://www.seydel1847.de/",
           "feedUrl": ""
         }
       ]
@@ -17115,7 +17115,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://taiwanharmonica.com/",
+          "profileUrl": "https://www.taiwanharmonica.com/",
           "feedUrl": ""
         }
       ]
@@ -17267,7 +17267,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://kongshengmusic.com/",
+          "profileUrl": "https://www.kongshengmusic.com/",
           "feedUrl": ""
         }
       ]
@@ -17313,7 +17313,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://oritta.cn/",
+          "profileUrl": "https://www.oritta.cn/",
           "feedUrl": ""
         }
       ]
@@ -17584,7 +17584,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://harmonicas.com.cn/",
+          "profileUrl": "https://www.harmonicas.com.cn/",
           "feedUrl": ""
         }
       ]
@@ -17788,7 +17788,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://hkharmonica.org/en/about-us",
+          "profileUrl": "https://www.hkharmonica.org/en/about-us",
           "feedUrl": ""
         }
       ]
@@ -17994,7 +17994,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://aymeric-simon.com/straw-man",
+          "profileUrl": "https://www.aymeric-simon.com/straw-man",
           "feedUrl": ""
         }
       ]
@@ -18187,7 +18187,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "http://cmia.com.cn/qydt/11674.html",
+          "profileUrl": "http://www.cmia.com.cn/qydt/11674.html",
           "feedUrl": ""
         }
       ]
@@ -18232,7 +18232,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://aphfhx.com/information/announcementDetail/407401895418511360",
+          "profileUrl": "https://www.aphfhx.com/information/announcementDetail/407401895418511360",
           "feedUrl": ""
         }
       ]
@@ -18277,7 +18277,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://aphfhx.com/information/announcementDetail/443573180452044800",
+          "profileUrl": "https://www.aphfhx.com/information/announcementDetail/443573180452044800",
           "feedUrl": ""
         }
       ]
@@ -18419,7 +18419,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://aphfhx.com/",
+          "profileUrl": "https://www.aphfhx.com/",
           "feedUrl": ""
         }
       ]
@@ -18548,7 +18548,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://aphfhx.com/information/announcementDetail/347951476011454464",
+          "profileUrl": "https://www.aphfhx.com/information/announcementDetail/347951476011454464",
           "feedUrl": ""
         }
       ]
@@ -18645,7 +18645,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://aphfhx.com/information/newsDetail/361718112966979584",
+          "profileUrl": "https://www.aphfhx.com/information/newsDetail/361718112966979584",
           "feedUrl": ""
         }
       ]
@@ -18694,7 +18694,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://aphfhx.com/information/newsDetail/361363469090992128",
+          "profileUrl": "https://www.aphfhx.com/information/newsDetail/361363469090992128",
           "feedUrl": ""
         }
       ]
@@ -18742,7 +18742,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://ln.gov.cn/web/qmzx/lnsqmzxxtpsnxd/lnzxd/df/2025082209351475118/index.shtml",
+          "profileUrl": "https://www.ln.gov.cn/web/qmzx/lnsqmzxxtpsnxd/lnzxd/df/2025082209351475118/index.shtml",
           "feedUrl": ""
         }
       ]
@@ -19719,7 +19719,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://jstz.gov.cn/a/20230313/1678688627693.shtml",
+          "profileUrl": "https://www.jstz.gov.cn/a/20230313/1678688627693.shtml",
           "feedUrl": ""
         }
       ]
@@ -19764,7 +19764,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://yasuowatani.com/",
+          "profileUrl": "https://www.yasuowatani.com/",
           "feedUrl": ""
         }
       ]
@@ -20029,7 +20029,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://taiwanharmonica.com/2026artists-gala",
+          "profileUrl": "https://www.taiwanharmonica.com/2026artists-gala",
           "feedUrl": ""
         }
       ]
@@ -20074,7 +20074,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://perfectfourth.org/ramielleung.html",
+          "profileUrl": "https://www.perfectfourth.org/ramielleung.html",
           "feedUrl": ""
         }
       ]
@@ -20119,7 +20119,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://sonymusic.com.tw/album/le-yang-talking-to-myself-1",
+          "profileUrl": "https://www.sonymusic.com.tw/album/le-yang-talking-to-myself-1",
           "feedUrl": ""
         }
       ]
@@ -20287,7 +20287,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://harmonica.org.cn/dongtai-show.asp?Pone=16&plt=36",
+          "profileUrl": "https://www.harmonica.org.cn/dongtai-show.asp?Pone=16&plt=36",
           "feedUrl": ""
         }
       ]
@@ -20334,7 +20334,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://taiwanharmonica.com/2026artists-gala",
+          "profileUrl": "https://www.taiwanharmonica.com/2026artists-gala",
           "feedUrl": ""
         }
       ]
@@ -20381,7 +20381,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://taiwanharmonica.com/2026artists-gala",
+          "profileUrl": "https://www.taiwanharmonica.com/2026artists-gala",
           "feedUrl": ""
         }
       ]
@@ -20486,7 +20486,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://jdrharmonica.com/pages/bunmonica-du",
+          "profileUrl": "https://www.jdrharmonica.com/pages/bunmonica-du",
           "feedUrl": ""
         }
       ]
@@ -20679,7 +20679,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://hkharmonica.org/cas2024-25-talk-3",
+          "profileUrl": "https://www.hkharmonica.org/cas2024-25-talk-3",
           "feedUrl": ""
         }
       ]
@@ -20798,7 +20798,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://daejeon.go.kr/djac/performanceView.do?code=5379&listCondition=&menuSeq=6709&pageIndex=1&type=image&yyyymm=202604",
+          "profileUrl": "https://www.daejeon.go.kr/djac/performanceView.do?code=5379&listCondition=&menuSeq=6709&pageIndex=1&type=image&yyyymm=202604",
           "feedUrl": ""
         }
       ]

@@ -1,14 +1,9 @@
 {
-  "currentSource": {
-    "id": "web_269",
-    "name": "葉梓翀",
-    "platform": "website",
-    "type": "webpage_watch"
-  },
-  "errors": 7,
-  "fetchedPosts": 42,
-  "finishedAt": "",
-  "heartbeatAt": "2026-08-20T06:42:33.890528+00:00",
+  "currentSource": {},
+  "errors": 0,
+  "fetchedPosts": 1,
+  "finishedAt": "2026-08-20T06:46:38.018576+00:00",
+  "heartbeatAt": "2026-08-20T06:46:38.018573+00:00",
   "instagram": {
     "attempted": 0,
     "deferred": 0,
@@ -34,12 +29,12 @@
   },
   "message": "",
   "newRelevantPosts": 0,
-  "phase": "source",
-  "pid": 9686,
-  "processedSources": 49,
+  "phase": "baseline complete",
+  "pid": 19265,
+  "processedSources": 1,
   "skippedOldPosts": 0,
-  "startedAt": "2026-08-20T06:40:19.105182+00:00",
-  "status": "running",
-  "totalSources": 88,
+  "startedAt": "2026-08-20T06:46:37.515633+00:00",
+  "status": "ok",
+  "totalSources": 1,
   "version": 1
 }

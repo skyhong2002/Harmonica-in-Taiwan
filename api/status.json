@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-20T14:42:15+08:00",
+  "generatedAt": "2026-08-20T14:47:09+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
-    "status": "degraded",
-    "label": "部分異常",
-    "summary": "核心 pipeline 有產出；需要注意：Threads / 其他 RSS。 Instagram RSSHub 目前依排程或預算節流。"
+    "status": "ok",
+    "label": "正常",
+    "summary": "核心資料抓取與公開 API 正常。"
   },
   "metrics": {
     "updates": 3906,
     "updatesWindowDays": 30,
     "directoryEntries": 318,
     "watchSources": 785,
-    "currentErrors": 8,
-    "latestDataAt": "2026-08-20T14:41:46+08:00",
-    "latestSocialObservationAt": "2026-08-20T14:41:07+08:00"
+    "currentErrors": 0,
+    "latestDataAt": "2026-08-20T14:47:06+08:00",
+    "latestSocialObservationAt": "2026-08-20T14:46:37+08:00"
   },
   "watchSources": {
     "platforms": {
@@ -54,8 +54,8 @@
       {
         "platform": "website",
         "sources": 88,
-        "currentErrors": 8,
-        "status": "degraded"
+        "currentErrors": 0,
+        "status": "ok"
       },
       {
         "platform": "x",
@@ -79,10 +79,10 @@
       "label": "正常",
       "summary": "定期 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-08-20 14:41:46",
+        "最新公開資料：2026-08-20 14:47:06",
         "pipeline.log 更新：2026-07-12 02:58:29",
         "pipeline.err.log 更新：2026-07-11 14:33:03",
-        "LaunchAgent：running，last exit 0"
+        "LaunchAgent：not running，last exit 0"
       ]
     },
     {
@@ -104,22 +104,21 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：220 ms"
+        "耗時：201 ms"
       ]
     },
     {
       "id": "instagram",
       "name": "Instagram RSSHub",
-      "status": "paused",
-      "label": "節流中",
+      "status": "ok",
+      "label": "正常",
       "summary": "354 個 Instagram 來源（profile 177、story 177）；最新抓取批次目前 0 個錯誤。",
       "details": [
-        "最新社群觀測：2026-08-20 14:41:07",
+        "最新社群觀測：2026-08-20 14:46:37",
         "story 無公開內容/空路由略過：0",
         "IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。",
-        "本輪 IG：抓取 1、排程略過 351、延後 0、錯誤 0。",
-        "執行中：source，47/88；目前 傅泓亮；heartbeat 2026-08-20 14:41:43。",
-        "下一個 IG 來源：約 2026-08-20 14:43:25"
+        "本輪 IG：抓取 0、排程略過 0、延後 0、錯誤 0。",
+        "下一個 IG 來源：約 2026-08-20 14:49:33"
       ]
     },
     {
@@ -163,90 +162,25 @@
     {
       "id": "other-rss",
       "name": "Threads / 其他 RSS",
-      "status": "degraded",
-      "label": "部分異常",
-      "summary": "28 個 Threads 來源；其他 RSS 最新抓取批次目前 8 個錯誤。",
+      "status": "ok",
+      "label": "正常",
+      "summary": "28 個 Threads 來源；其他 RSS 最新抓取批次目前 0 個錯誤。",
       "details": [
         "RSS 類型來源：40"
       ]
     }
   ],
-  "recentErrors": [
-    {
-      "seenAt": "2026-08-20T14:41:04+08:00",
-      "sourceId": "web_210",
-      "sourceName": "聖保羅男女中學口琴隊",
-      "platform": "website",
-      "sourceType": "webpage_watch",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'spcc.edu.hk'. (_ssl.c:1129)>"
-    },
-    {
-      "seenAt": "2026-08-20T14:41:04+08:00",
-      "sourceId": "web_216",
-      "sourceName": "武漢理工大學學生星一口琴協會",
-      "platform": "website",
-      "sourceType": "webpage_watch",
-      "error": "<urlopen error timed out>"
-    },
-    {
-      "seenAt": "2026-08-20T14:41:04+08:00",
-      "sourceId": "web_217",
-      "sourceName": "華中師範大學學生知音口琴社",
-      "platform": "website",
-      "sourceType": "webpage_watch",
-      "error": "<urlopen error timed out>"
-    },
-    {
-      "seenAt": "2026-08-20T14:41:04+08:00",
-      "sourceId": "web_242",
-      "sourceName": "遼陽白塔口琴藝術周暨第三屆「白塔杯」口琴大賽",
-      "platform": "website",
-      "sourceType": "webpage_watch",
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
-    },
-    {
-      "seenAt": "2026-08-20T14:41:04+08:00",
-      "sourceId": "web_250",
-      "sourceName": "Oritta 奧瑞塔口琴",
-      "platform": "website",
-      "sourceType": "webpage_watch",
-      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
-    },
-    {
-      "seenAt": "2026-08-20T14:41:04+08:00",
-      "sourceId": "web_252",
-      "sourceName": "天鵝口琴",
-      "platform": "website",
-      "sourceType": "webpage_watch",
-      "error": "<urlopen error [Errno 61] Connection refused>"
-    },
-    {
-      "seenAt": "2026-08-20T14:41:04+08:00",
-      "sourceId": "web_267",
-      "sourceName": "傅泓亮",
-      "platform": "website",
-      "sourceType": "webpage_watch",
-      "error": "<urlopen error timed out>"
-    },
-    {
-      "seenAt": "2026-08-20T14:41:04+08:00",
-      "sourceId": "web_278",
-      "sourceName": "無錫市人民政府（亞太口琴藝術週資訊）",
-      "platform": "website",
-      "sourceType": "webpage_watch",
-      "error": "<urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1129)>"
-    }
-  ],
+  "recentErrors": [],
   "runtime": {
     "pipeline": {
-      "currentStep": "build status page",
-      "heartbeatAt": "2026-08-20T06:42:15.392263+00:00",
+      "currentStep": "",
+      "heartbeatAt": "2026-08-20T06:43:29.352661+00:00",
       "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
       "maxPostAgeDays": 30,
-      "message": "",
+      "message": "Pipeline completed",
       "pid": 3587,
       "startedAt": "2026-08-20T06:33:56.353960+00:00",
-      "status": "running",
+      "status": "ok",
       "steps": [
         {
           "command": [
@@ -408,26 +342,87 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_status_page.py"
           ],
-          "finishedAt": "",
+          "finishedAt": "2026-08-20T06:42:18.033349+00:00",
           "name": "build status page",
-          "returnCode": null,
+          "returnCode": 0,
           "startedAt": "2026-08-20T06:42:15.392255+00:00",
-          "status": "running"
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/build_submit_page.py"
+          ],
+          "finishedAt": "2026-08-20T06:42:18.087902+00:00",
+          "name": "build submit page",
+          "returnCode": 0,
+          "startedAt": "2026-08-20T06:42:18.034827+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/generate_seo_pages.py"
+          ],
+          "finishedAt": "2026-08-20T06:42:23.462777+00:00",
+          "name": "generate SEO pages",
+          "returnCode": 0,
+          "startedAt": "2026-08-20T06:42:18.088649+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/generate_cloudflare_redirects.py"
+          ],
+          "finishedAt": "2026-08-20T06:42:23.528316+00:00",
+          "name": "generate cloudflare redirects",
+          "returnCode": 0,
+          "startedAt": "2026-08-20T06:42:23.464689+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/check_source_coverage.py"
+          ],
+          "finishedAt": "2026-08-20T06:42:26.617357+00:00",
+          "name": "check source coverage",
+          "returnCode": 0,
+          "startedAt": "2026-08-20T06:42:23.529202+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/validate_public_outputs.py"
+          ],
+          "finishedAt": "2026-08-20T06:42:31.171035+00:00",
+          "name": "validate public outputs",
+          "returnCode": 0,
+          "startedAt": "2026-08-20T06:42:26.618343+00:00",
+          "status": "ok"
+        },
+        {
+          "command": [
+            "/Library/Developer/CommandLineTools/usr/bin/python3",
+            "scripts/publish_github_pages.py"
+          ],
+          "finishedAt": "2026-08-20T06:42:31.173110+00:00",
+          "name": "publish github pages",
+          "returnCode": 0,
+          "startedAt": "2026-08-20T06:42:31.172443+00:00",
+          "status": "ok"
         }
       ],
       "version": 1
     },
     "socialFetch": {
-      "currentSource": {
-        "id": "web_267",
-        "name": "傅泓亮",
-        "platform": "website",
-        "type": "webpage_watch"
-      },
-      "errors": 6,
-      "fetchedPosts": 41,
-      "finishedAt": "",
-      "heartbeatAt": "2026-08-20T06:41:43.998450+00:00",
+      "currentSource": {},
+      "errors": 0,
+      "fetchedPosts": 1,
+      "finishedAt": "2026-08-20T06:46:38.018576+00:00",
+      "heartbeatAt": "2026-08-20T06:46:38.018573+00:00",
       "instagram": {
         "attempted": 0,
         "deferred": 0,
@@ -453,13 +448,13 @@
       },
       "message": "",
       "newRelevantPosts": 0,
-      "phase": "source",
-      "pid": 9686,
-      "processedSources": 47,
+      "phase": "baseline complete",
+      "pid": 19265,
+      "processedSources": 1,
       "skippedOldPosts": 0,
-      "startedAt": "2026-08-20T06:40:19.105182+00:00",
-      "status": "running",
-      "totalSources": 88,
+      "startedAt": "2026-08-20T06:46:37.515633+00:00",
+      "status": "ok",
+      "totalSources": 1,
       "version": 1
     }
   }
