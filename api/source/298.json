@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T11:50:29.555608Z",
+  "generatedAt": "2026-08-20T12:56:30.776973Z",
   "source": {
     "id": 298,
     "slug": "hkcc-harmonica-programme",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/298-hkcc-harmonica-programme/"
   },
   "items": [
+    {
+      "id": "post-4b07e660543d0e499cf15b8b",
+      "title": "香兒藝術發展基金 | HKCC Arts Development Fund",
+      "excerpt": "香兒藝術發展基金 | HKCC Arts Development Fund 成立於2018年，基金包括兩大計劃，全面支持不同階段並對藝術有濃厚興趣的學生。 「藝術體驗計劃」 此計劃接受來自基層家庭，並由中小學校長推薦具音樂或舞蹈天分的學生申請。合資格並通過面試的學生將可免費參加一年的合唱或舞蹈訓練，豁免所有團費、歌集及團服等費用，更會獲得交通津貼。 「香港兒童合唱團音樂獎學金」 此獎學金為主修聲樂或音樂系的大專生而設，由本港音樂系學院推薦，支持他們尋求更多學習和進修的機會。 截至今年，「香兒」已投入超200萬元，逾200位團員受惠於「藝術體驗計劃」。這…",
+      "url": "https://www.youtube.com/watch?v=0clEVfCrMSU",
+      "sourceName": "香港兒童合唱團口琴課程",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-20T07:07:44Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/934f3d8a54a442cb9a08.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-2d0f1aad756dd6a9eceda6c9",
       "title": "【#2027年1月課程招生】想讓小朋友學習多元才藝、在舞台上閃閃發光？「香兒」2027年1月課程熱烈招生中✨留言「報名」，即可向小編索取報名表～",

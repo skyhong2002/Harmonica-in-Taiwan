@@ -2,6 +2,51 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-20",
   "entries": [
     {
+      "id": "watchlist-308",
+      "publicId": "308",
+      "name": "Into The Harmonica 口琴學院",
+      "nameEn": "Into The Harmonica Academy",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "教學工作室",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "成人口琴教學/教材/示範演奏/半音階/THMF交流",
+      "structuredSummary": "成人口琴教學/教材/示範演奏/半音階/THMF交流 / 半音階口琴 / 口琴教學機構/教材與影音來源",
+      "summary": "韓國的半音階口琴口琴教學機構與教材與影音來源，關注成人口琴教學、教材、示範演奏、半音階與THMF交流。",
+      "keywords": "인투더하모니카학원 Into The Harmonica Academy Seoul harmonica lesson Seokbeom Jang Jongseong Park THMF",
+      "links": [
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@INTOTHEHARMONICA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T10:00:22+00:00",
+      "latestUpdateLocal": "2026-08-20 18:00",
+      "latestUpdateSource": "Into The Harmonica 口琴學院",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=lKwbgX5M6Mo",
+      "avatarUrl": "/assets/source-avatars/into-the-harmonica.jpg",
+      "sourceInitials": "ITH",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "半音階"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_intotheharmonica",
+          "name": "Into The Harmonica 口琴學院",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@INTOTHEHARMONICA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-221",
       "publicId": "221",
       "name": "吹口琴的小园园",
@@ -194,6 +239,102 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-100",
+      "publicId": "100",
+      "name": "曹小歐",
+      "nameEn": "Otis Tsao",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "單口喜劇/藍調口琴/演出",
+      "structuredSummary": "單口喜劇/藍調口琴/演出 / 十孔/藍調口琴 / 演出人員",
+      "summary": "臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。",
+      "keywords": "曹小歐 Otis Tsao 口琴 單口喜劇 藍調口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://portaly.cc/otistsao"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/otis5hundredtsao/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/otistsao/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@otistsao"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T07:33:25+00:00",
+      "latestUpdateLocal": "2026-08-20 15:33",
+      "latestUpdateSource": "曹小歐",
+      "latestUpdateUrl": "https://www.instagram.com/stories/otistsao/3967737629413664247/",
+      "avatarUrl": "/assets/source-avatars/b2f1b27b34a095c424a4.webp",
+      "sourceInitials": "曹小",
+      "sourceTags": [
+        "演奏者",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_otis5hundredtsao",
+          "name": "曹小歐",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/otis5hundredtsao",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_otistsao",
+          "name": "曹小歐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "otistsao",
+          "profileUrl": "https://www.instagram.com/otistsao/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_otistsao",
+          "name": "曹小歐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "otistsao",
+          "profileUrl": "https://www.instagram.com/otistsao/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/otistsao/story/0"
+        },
+        {
+          "id": "threads_otistsao",
+          "name": "曹小歐",
+          "platform": "threads",
+          "type": "rss",
+          "username": "otistsao",
+          "profileUrl": "https://www.threads.net/@otistsao",
+          "feedUrl": "https://rss.observe.tw/threads/otistsao"
+        },
+        {
+          "id": "yt_ucbdafdgrntui_iqtg9e4bmw",
+          "name": "曹小歐",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-298",
       "publicId": "298",
       "name": "香港兒童合唱團口琴課程",
@@ -227,10 +368,10 @@ window.HARMONICA_OBSERVE_DATA = {
       ],
       "source": "watchlist",
       "aliases": [],
-      "latestUpdateAt": "2026-08-20T04:35:56+00:00",
-      "latestUpdateLocal": "2026-08-20 12:35",
+      "latestUpdateAt": "2026-08-20T07:07:44+00:00",
+      "latestUpdateLocal": "2026-08-20 15:07",
       "latestUpdateSource": "香港兒童合唱團口琴課程",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hkcchoir/3967648307345460482/",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=0clEVfCrMSU",
       "avatarUrl": "/assets/source-avatars/hkcc-harmonica.png",
       "sourceInitials": "香港",
       "sourceTags": [
@@ -757,7 +898,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-20 09:36",
       "latestUpdateSource": "南里沙",
       "latestUpdateUrl": "https://x.com/minami_risa/status/2090251600640303483",
-      "avatarUrl": "/assets/source-avatars/48d550484ea1d0e42553.webp",
+      "avatarUrl": "/assets/source-avatars/5686be359709c05e1a18.webp",
       "sourceInitials": "南里",
       "sourceTags": [
         "演奏者",
@@ -2594,6 +2735,55 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-272",
+      "publicId": "272",
+      "name": "Monica J",
+      "nameEn": "Monica J",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "首爾藝術大學口琴主修/EASTTOP藝人/2026 APHF與SIHF評審/琴韻東坡・簧鳴西南",
+      "structuredSummary": "首爾藝術大學口琴主修/EASTTOP藝人/2026 APHF與SIHF評審/琴韻東坡・簧鳴西南 / 半音階口琴 / 國際演出人員/評審",
+      "summary": "韓國的半音階口琴國際演出人員與評審，活動脈絡包含首爾藝術大學口琴主修、EASTTOP藝人與2026 APHF與SIHF評審。",
+      "keywords": "Monica J harmonica Seoul Arts EASTTOP artist APHF SIHF judge 琴韻東坡 簧鳴西南 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://easttopharmonica.com/artistitem.asp?plt=52"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/jhr0508/videos"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-19T13:10:12+00:00",
+      "latestUpdateLocal": "2026-08-19 21:10",
+      "latestUpdateSource": "Monica J",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=XKnHg8TBVrE",
+      "avatarUrl": "/assets/source-avatars/91c07ee29db73cc87e49.webp",
+      "sourceInitials": "MJ",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_jhr0508",
+          "name": "Monica J",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/jhr0508/videos",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-103",
       "publicId": "103",
       "name": "陳瑤容 Yora Chen",
@@ -3303,102 +3493,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@lamberharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-100",
-      "publicId": "100",
-      "name": "曹小歐",
-      "nameEn": "Otis Tsao",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "單口喜劇/藍調口琴/演出",
-      "structuredSummary": "單口喜劇/藍調口琴/演出 / 十孔/藍調口琴 / 演出人員",
-      "summary": "臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。",
-      "keywords": "曹小歐 Otis Tsao 口琴 單口喜劇 藍調口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/otistsao"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/otis5hundredtsao/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/otistsao/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@otistsao"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-19T09:47:35+00:00",
-      "latestUpdateLocal": "2026-08-19 17:47",
-      "latestUpdateSource": "曹小歐",
-      "latestUpdateUrl": "https://www.instagram.com/stories/otistsao/3967080381438044681/",
-      "avatarUrl": "/assets/source-avatars/b2f1b27b34a095c424a4.webp",
-      "sourceInitials": "曹小",
-      "sourceTags": [
-        "演奏者",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_otis5hundredtsao",
-          "name": "曹小歐",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/otis5hundredtsao",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_otistsao",
-          "name": "曹小歐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "otistsao",
-          "profileUrl": "https://www.instagram.com/otistsao/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_otistsao",
-          "name": "曹小歐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "otistsao",
-          "profileUrl": "https://www.instagram.com/otistsao/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/otistsao/story/0"
-        },
-        {
-          "id": "threads_otistsao",
-          "name": "曹小歐",
-          "platform": "threads",
-          "type": "rss",
-          "username": "otistsao",
-          "profileUrl": "https://www.threads.net/@otistsao",
-          "feedUrl": "https://rss.observe.tw/threads/otistsao"
-        },
-        {
-          "id": "yt_ucbdafdgrntui_iqtg9e4bmw",
-          "name": "曹小歐",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
           "feedUrl": ""
         }
       ]
@@ -8283,7 +8377,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-10 20:00",
       "latestUpdateSource": "Liam Ward & Malcolm Thorne",
       "latestUpdateUrl": "https://www.instagram.com/p/Db29u9fRKb0/",
-      "avatarUrl": "/assets/source-avatars/a9d4f2c137d486c46def.webp",
+      "avatarUrl": "/assets/source-avatars/70dfb05766ac426210e5.webp",
       "sourceInitials": "LWM",
       "sourceTags": [
         "團體樂團",
@@ -9192,7 +9286,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-07 22:30",
       "latestUpdateSource": "香港口琴協會 Hong Kong Harmonica Association",
       "latestUpdateUrl": "https://www.instagram.com/p/DbvgdtQk3mM/",
-      "avatarUrl": "/assets/source-avatars/569b419f9b4f796995a8.webp",
+      "avatarUrl": "/assets/source-avatars/5a269c2054dbdf58c287.webp",
       "sourceInitials": "HKH",
       "sourceTags": [
         "團體樂團",
@@ -17367,51 +17461,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-308",
-      "publicId": "308",
-      "name": "Into The Harmonica 口琴學院",
-      "nameEn": "Into The Harmonica Academy",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "教學工作室",
-      "country": "韓國",
-      "region": "韓國/首爾",
-      "cityOrFocus": "成人口琴教學/教材/示範演奏/半音階/THMF交流",
-      "structuredSummary": "成人口琴教學/教材/示範演奏/半音階/THMF交流 / 半音階口琴 / 口琴教學機構/教材與影音來源",
-      "summary": "韓國的半音階口琴口琴教學機構與教材與影音來源，關注成人口琴教學、教材、示範演奏、半音階與THMF交流。",
-      "keywords": "인투더하모니카학원 Into The Harmonica Academy Seoul harmonica lesson Seokbeom Jang Jongseong Park THMF",
-      "links": [
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@INTOTHEHARMONICA"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/into-the-harmonica.jpg",
-      "sourceInitials": "ITH",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "半音階"
-      ],
-      "monitorSources": [
-        {
-          "id": "yt_intotheharmonica",
-          "name": "Into The Harmonica 口琴學院",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@INTOTHEHARMONICA",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-251",
       "publicId": "251",
       "name": "Kongsheng 孔聲口琴",
@@ -17952,7 +18001,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/569b419f9b4f796995a8.webp",
+      "avatarUrl": "/assets/source-avatars/5a269c2054dbdf58c287.webp",
       "sourceInitials": "BWT",
       "sourceTags": [
         "協會",
@@ -19536,55 +19585,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://kielak.pl/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-272",
-      "publicId": "272",
-      "name": "Monica J",
-      "nameEn": "Monica J",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國/首爾",
-      "cityOrFocus": "首爾藝術大學口琴主修/EASTTOP藝人/2026 APHF與SIHF評審/琴韻東坡・簧鳴西南",
-      "structuredSummary": "首爾藝術大學口琴主修/EASTTOP藝人/2026 APHF與SIHF評審/琴韻東坡・簧鳴西南 / 半音階口琴 / 國際演出人員/評審",
-      "summary": "韓國的半音階口琴國際演出人員與評審，活動脈絡包含首爾藝術大學口琴主修、EASTTOP藝人與2026 APHF與SIHF評審。",
-      "keywords": "Monica J harmonica Seoul Arts EASTTOP artist APHF SIHF judge 琴韻東坡 簧鳴西南 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://easttopharmonica.com/artistitem.asp?plt=52"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/user/jhr0508/videos"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/91c07ee29db73cc87e49.webp",
-      "sourceInitials": "MJ",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "yt_jhr0508",
-          "name": "Monica J",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/user/jhr0508/videos",
           "feedUrl": ""
         }
       ]

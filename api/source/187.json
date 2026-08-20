@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T11:50:29.555608Z",
+  "generatedAt": "2026-08-20T12:56:30.776973Z",
   "source": {
     "id": 187,
     "slug": "csmu-blue-melody",
@@ -160,48 +160,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/a4c8ee1c1c8d294bf733.webp",
         "width": 512,
         "height": 640
-      }
-    },
-    {
-      "id": "post-0ebbfbf228392b3122173351",
-      "title": "50屆藍韻口琴社成發 星空下的珍珠情懷 【獨奏-Les rois du monde（世界之王）】+串場",
-      "excerpt": "50屆藍韻口琴社成發 星空下的珍珠情懷 【獨奏-Les rois du monde（世界之王）】+串場 曲目：Les rois du monde（世界之王） 複音口琴：陳姵羽",
-      "url": "https://www.youtube.com/watch?v=ez9S0OY4_NE",
-      "sourceName": "中山醫藍韻口琴社",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-21T12:00:10Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/96c207aba20fee109ddc.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-6ab053365e18a6f6e74b8375",
-      "title": "50屆藍韻口琴社成發 星空下的珍珠情懷 【獨奏-余花にみとれて】+串場",
-      "excerpt": "50屆藍韻口琴社成發 星空下的珍珠情懷 【獨奏-余花にみとれて】+串場 曲目：余花にみとれて 複音口琴：曹菀霖",
-      "url": "https://www.youtube.com/watch?v=l7SltDoMFgk",
-      "sourceName": "中山醫藍韻口琴社",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-21T11:54:53Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/f199f9f52f7ab374a0f4.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-e743059b75412bd3ec070524",
-      "title": "50屆藍韻口琴社成發 星空下的珍珠情懷 【獨奏-Still Into You】+串場",
-      "excerpt": "50屆藍韻口琴社成發 星空下的珍珠情懷 【獨奏-Still Into You】+串場 曲目：Still Into You 複音口琴：溫子晴",
-      "url": "https://www.youtube.com/watch?v=NXYmm0xUYJo",
-      "sourceName": "中山醫藍韻口琴社",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-21T11:50:29Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/de419b2e7b6f93aface0.webp",
-        "width": 800,
-        "height": 450
       }
     }
   ]

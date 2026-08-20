@@ -1,11 +1,54 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T11:50:29.555608Z",
+  "generatedAt": "2026-08-20T12:56:30.776973Z",
   "source": {
     "id": 308,
     "slug": "into-the-harmonica-academy",
     "name": "Into The Harmonica 口琴學院",
     "pageUrl": "https://harmonica.observe.tw/source/308-into-the-harmonica-academy/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-79bfc1050ffe8545a633aba8",
+      "title": "[통합본] Into the Artist. 하모니시스트 박종성 인터뷰 풀버전 (1~3편 합본)",
+      "excerpt": "[통합본] Into the Artist. 하모니시스트 박종성 인터뷰 풀버전 (1~3편 합본) 하모니시스트 박종성님과 함께한 [Into the Artist] 1~3편 통합 풀버전입니다. 박종성의 음악 세계와 진솔한 이야기 전체를 한 번에 감상해 보세요. ✨ 박종성 연주자 프로필 & 활동 더 보기: 🎵 인투더하모니카 채널 구독하기: #하모니카 #박종성 #하모니카악기 #하모니카마이크 #하모니카연주 #인터뷰 #IntoTheArtist #음악가인터뷰 #인투더하모니카",
+      "url": "https://www.youtube.com/watch?v=lKwbgX5M6Mo",
+      "sourceName": "Into The Harmonica 口琴學院",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-20T10:00:22Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/41424dcf5530809ab922.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-020cf07f8f3069347853a075",
+      "title": "하모니카 인생 최대 위기?! [박종성]을 당황하게 만든 매운맛 밸런스 게임 🔥 | Into the Artist. 박종성 (Part.3)",
+      "excerpt": "하모니카 인생 최대 위기?! [박종성]을 당황하게 만든 매운맛 밸런스 게임 🔥 | Into the Artist. 박종성 (Part.3) 세계적인 하모니시스트 박종성 연주자와 함께하는 인터뷰 3부! 마지막 Part 3에서는 박종성 연주자를 당황하게 만든 '매운맛' 밸런스 게임부터 구독자분들이 직접 남겨주신 궁금증을 시원하게 해결해 드리는 Q&A 타임을 준비했습니다. 하모니카에 대한 솔직담백한 생각부터 연주자 박종성의 유쾌한 반전 매력까지, 지금 바로 확인해보세요! 🎬 Part 1 다시보기: 🎬 P…",
+      "url": "https://www.youtube.com/watch?v=yj49ZZcYcp4",
+      "sourceName": "Into The Harmonica 口琴學院",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-19T10:00:17Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/cf53c337e06fc10e2084.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-151a117682e8d1a25a50fe1a",
+      "title": "무대 위 핀마이크 참사(?)부터 오케스트라 지휘자 도전까지! | Into the Artist. 박종성 (Part.2)",
+      "excerpt": "무대 위 핀마이크 참사(?)부터 오케스트라 지휘자 도전까지! | Into the Artist. 박종성 (Part.2) 세계적인 하모니시스트 박종성 연주자와 함께하는 인터뷰 2부! 1부에 이어 이번 Part.2에서는 박종성 연주자가 실제 사용하는 명품 악기 'Silver Concerto' 이야기부터 마이크 세팅, 연주 꿀팁, 그리고 그의 음악적 비하인드 스토리까지 더욱 깊이 있는 내용을 담았습니다. 하모니카 연주자분들은 물론, 악기와 음악을 사랑하는 모든 분들께 유용한 장비 정보와 노하우를 확인해…",
+      "url": "https://www.youtube.com/watch?v=h1V_W0_TjJw",
+      "sourceName": "Into The Harmonica 口琴學院",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-12T10:00:03Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ff08dd8b882dea19534e.webp",
+        "width": 800,
+        "height": 450
+      }
+    }
+  ]
 }
