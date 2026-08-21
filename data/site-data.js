@@ -2,6 +2,161 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-21",
   "entries": [
     {
+      "id": "watchlist-260",
+      "publicId": "260",
+      "name": "梁芷菁 Steffi Leung",
+      "nameEn": "Steffi Leung",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends",
+      "structuredSummary": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends / 半音階 / 國際演出人員",
+      "summary": "香港的半音階國際演出人員，活動脈絡包含國際賽事、電台主持與Adventure Harmonica Band。",
+      "keywords": "梁芷菁 Steffi Leung harmonicist Adventure Harmonica WHF APHF SIHF THMF 2025 世界口琴節 二重奏冠軍 Steffi and Friends 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.steffileung.com/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/steffi.leung/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T11:15:53+00:00",
+      "latestUpdateLocal": "2026-08-21 19:15",
+      "latestUpdateSource": "梁芷菁 Steffi Leung",
+      "latestUpdateUrl": "https://www.instagram.com/stories/steffi.leung/3968574382264902241/",
+      "avatarUrl": "/assets/source-avatars/944f9a705865f62c67f6.webp",
+      "sourceInitials": "SL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_steffi_leung",
+          "name": "梁芷菁 Steffi Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "steffi.leung",
+          "profileUrl": "https://www.instagram.com/steffi.leung/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_steffi_leung",
+          "name": "梁芷菁 Steffi Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "steffi.leung",
+          "profileUrl": "https://www.instagram.com/steffi.leung/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/steffi.leung/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-187",
+      "publicId": "187",
+      "name": "中山醫藍韻口琴社",
+      "nameEn": "CSMU Blue Melody",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "中山醫學大學/學校社團/臺中",
+      "structuredSummary": "中山醫學大學/學校社團/臺中 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "中山醫藍韻口琴社 CSMU Blue Melody 口琴社",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://powerup.csmu.edu.tw/Act/act_Info/c75b7f5a-53e4-4bf9-b3d9-5af47d787fba"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/BMHarmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/csmu_bluemelody/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@csmu_bluemelody"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T11:10:54+00:00",
+      "latestUpdateLocal": "2026-08-21 19:10",
+      "latestUpdateSource": "中山醫藍韻口琴社",
+      "latestUpdateUrl": "https://www.instagram.com/stories/csmu_bluemelody/3968571870976934173/",
+      "avatarUrl": "/assets/source-avatars/0f4e34a89787ebc21904.webp",
+      "sourceInitials": "中山",
+      "sourceTags": [
+        "學生社團",
+        "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_csmu_bmharmonica",
+          "name": "CSMU Blue Melody",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_csmu_bluemelody",
+          "name": "CSMU Blue Melody",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "csmu_bluemelody",
+          "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_csmu_bluemelody",
+          "name": "中山醫藍韻口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "csmu_bluemelody",
+          "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/csmu_bluemelody/story/0"
+        },
+        {
+          "id": "threads_csmu_bluemelody",
+          "name": "中山醫藍韻口琴社",
+          "platform": "threads",
+          "type": "rss",
+          "username": "csmu_bluemelody",
+          "profileUrl": "https://www.threads.net/@csmu_bluemelody",
+          "feedUrl": "https://rss.observe.tw/threads/csmu_bluemelody"
+        },
+        {
+          "id": "yt_10f4784559",
+          "name": "中山醫藍韻口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-319",
       "publicId": "319",
       "name": "莊庭皓 Ivan Chong",
@@ -1165,6 +1320,88 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-165",
+      "publicId": "165",
+      "name": "馬來西亞口琴節",
+      "nameEn": "Malaysia Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "比賽/資訊入口",
+      "country": "馬來西亞",
+      "region": "馬來西亞/吉隆坡",
+      "cityOrFocus": "馬來西亞口琴節/比賽/學生與樂團",
+      "structuredSummary": "馬來西亞口琴節/比賽/學生與樂團 / 口琴/重奏/合奏 / 國際活動來源",
+      "summary": "馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。",
+      "keywords": "Malaysia Harmonica Festival MYHF Malaysia Harmonica Competition",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/malaysiaharmonicafestival/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/malaysia_harmonica_festival/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@malaysiaharmonicafestival5523"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T04:53:49+00:00",
+      "latestUpdateLocal": "2026-08-21 12:53",
+      "latestUpdateSource": "馬來西亞口琴節",
+      "latestUpdateUrl": "https://www.instagram.com/stories/malaysia_harmonica_festival/3968382078021809150/",
+      "avatarUrl": "/assets/source-avatars/729865183049d78cb9a5.webp",
+      "sourceInitials": "馬來",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "比賽",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_malaysiaharmonicafestival",
+          "name": "馬來西亞口琴節",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/malaysiaharmonicafestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_malaysia_harmonica_festival",
+          "name": "馬來西亞口琴節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "malaysia_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_malaysia_harmonica_festival",
+          "name": "馬來西亞口琴節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "malaysia_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/malaysia_harmonica_festival/story/0"
+        },
+        {
+          "id": "yt_malaysiaharmonicafestival5523",
+          "name": "馬來西亞口琴節",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@malaysiaharmonicafestival5523",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-33",
       "publicId": "33",
       "name": "黃冠誌",
@@ -1454,6 +1691,65 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-290",
+      "publicId": "290",
+      "name": "Ivan Marcio",
+      "nameEn": "Ivan Marcio",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "巴西",
+      "region": "巴西/聖保羅",
+      "cityOrFocus": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026",
+      "structuredSummary": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026 / 十孔口琴 / 國際演出人員/教育者/製作人",
+      "summary": "巴西的十孔口琴國際演出人員、教育者與製作人，活動脈絡包含藍調口琴、Jump Blues與錄音製作。",
+      "keywords": "Ivan Marcio ivanmarciogaita Brazil blues harmonica APHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/information/announcementDetail/417110312852779008"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ivanmarciogaita/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T00:05:57+00:00",
+      "latestUpdateLocal": "2026-08-21 08:05",
+      "latestUpdateSource": "Ivan Marcio",
+      "latestUpdateUrl": "https://www.instagram.com/stories/ivanmarciogaita/3968237210076019189/",
+      "avatarUrl": "/assets/source-avatars/ivan-marcio.jpg",
+      "sourceInitials": "IM",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_ivanmarciogaita",
+          "name": "Ivan Marcio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "ivanmarciogaita",
+          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_ivanmarciogaita",
+          "name": "Ivan Marcio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "ivanmarciogaita",
+          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/ivanmarciogaita/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-166",
       "publicId": "166",
       "name": "海明威口琴重奏團",
@@ -1532,65 +1828,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@hummingwaythe9424",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-290",
-      "publicId": "290",
-      "name": "Ivan Marcio",
-      "nameEn": "Ivan Marcio",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "巴西",
-      "region": "巴西/聖保羅",
-      "cityOrFocus": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026",
-      "structuredSummary": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026 / 十孔口琴 / 國際演出人員/教育者/製作人",
-      "summary": "巴西的十孔口琴國際演出人員、教育者與製作人，活動脈絡包含藍調口琴、Jump Blues與錄音製作。",
-      "keywords": "Ivan Marcio ivanmarciogaita Brazil blues harmonica APHF 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.aphfhx.com/information/announcementDetail/417110312852779008"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/ivanmarciogaita/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-20T22:49:57+00:00",
-      "latestUpdateLocal": "2026-08-21 06:49",
-      "latestUpdateSource": "Ivan Marcio",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcR3-OfRlvM/",
-      "avatarUrl": "/assets/source-avatars/ivan-marcio.jpg",
-      "sourceInitials": "IM",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_ivanmarciogaita",
-          "name": "Ivan Marcio",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "ivanmarciogaita",
-          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_ivanmarciogaita",
-          "name": "Ivan Marcio",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "ivanmarciogaita",
-          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/ivanmarciogaita/story/0"
         }
       ]
     },
@@ -3763,65 +4000,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@%E5%8F%A3%E7%90%B4%E4%B9%8B%E7%8B%BC",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-260",
-      "publicId": "260",
-      "name": "梁芷菁 Steffi Leung",
-      "nameEn": "Steffi Leung",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends",
-      "structuredSummary": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends / 半音階 / 國際演出人員",
-      "summary": "香港的半音階國際演出人員，活動脈絡包含國際賽事、電台主持與Adventure Harmonica Band。",
-      "keywords": "梁芷菁 Steffi Leung harmonicist Adventure Harmonica WHF APHF SIHF THMF 2025 世界口琴節 二重奏冠軍 Steffi and Friends 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.steffileung.com/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/steffi.leung/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-20T02:55:08+00:00",
-      "latestUpdateLocal": "2026-08-20 10:55",
-      "latestUpdateSource": "梁芷菁 Steffi Leung",
-      "latestUpdateUrl": "https://www.instagram.com/stories/steffi.leung/3967597566103078494/",
-      "avatarUrl": "/assets/source-avatars/944f9a705865f62c67f6.webp",
-      "sourceInitials": "SL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_steffi_leung",
-          "name": "梁芷菁 Steffi Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "steffi.leung",
-          "profileUrl": "https://www.instagram.com/steffi.leung/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_steffi_leung",
-          "name": "梁芷菁 Steffi Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "steffi.leung",
-          "profileUrl": "https://www.instagram.com/steffi.leung/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/steffi.leung/story/0"
         }
       ]
     },
@@ -7620,88 +7798,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-165",
-      "publicId": "165",
-      "name": "馬來西亞口琴節",
-      "nameEn": "Malaysia Harmonica Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "比賽/資訊入口",
-      "country": "馬來西亞",
-      "region": "馬來西亞/吉隆坡",
-      "cityOrFocus": "馬來西亞口琴節/比賽/學生與樂團",
-      "structuredSummary": "馬來西亞口琴節/比賽/學生與樂團 / 口琴/重奏/合奏 / 國際活動來源",
-      "summary": "馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。",
-      "keywords": "Malaysia Harmonica Festival MYHF Malaysia Harmonica Competition",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/malaysiaharmonicafestival/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/malaysia_harmonica_festival/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@malaysiaharmonicafestival5523"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-16T11:56:12+00:00",
-      "latestUpdateLocal": "2026-08-16 19:56",
-      "latestUpdateSource": "馬來西亞口琴節",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcGZ9Tqxwix/",
-      "avatarUrl": "/assets/source-avatars/729865183049d78cb9a5.webp",
-      "sourceInitials": "馬來",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "比賽",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_malaysiaharmonicafestival",
-          "name": "馬來西亞口琴節",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/malaysiaharmonicafestival",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_malaysia_harmonica_festival",
-          "name": "馬來西亞口琴節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "malaysia_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_malaysia_harmonica_festival",
-          "name": "馬來西亞口琴節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "malaysia_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/malaysia_harmonica_festival/story/0"
-        },
-        {
-          "id": "yt_malaysiaharmonicafestival5523",
-          "name": "馬來西亞口琴節",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@malaysiaharmonicafestival5523",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-93",
       "publicId": "93",
       "name": "RedBricks Harmonica",
@@ -9656,102 +9752,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/mandy730508",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-187",
-      "publicId": "187",
-      "name": "中山醫藍韻口琴社",
-      "nameEn": "CSMU Blue Melody",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "中山醫學大學/學校社團/臺中",
-      "structuredSummary": "中山醫學大學/學校社團/臺中 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "中山醫藍韻口琴社 CSMU Blue Melody 口琴社",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://powerup.csmu.edu.tw/Act/act_Info/c75b7f5a-53e4-4bf9-b3d9-5af47d787fba"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/BMHarmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/csmu_bluemelody/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@csmu_bluemelody"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-09T14:28:38+00:00",
-      "latestUpdateLocal": "2026-08-09 22:28",
-      "latestUpdateSource": "中山醫藍韻口琴社",
-      "latestUpdateUrl": "https://www.threads.com/t/Db0p3IQDxfj",
-      "avatarUrl": "/assets/source-avatars/0f4e34a89787ebc21904.webp",
-      "sourceInitials": "中山",
-      "sourceTags": [
-        "學生社團",
-        "大專社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_csmu_bmharmonica",
-          "name": "CSMU Blue Melody",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_csmu_bluemelody",
-          "name": "CSMU Blue Melody",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "csmu_bluemelody",
-          "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_csmu_bluemelody",
-          "name": "中山醫藍韻口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "csmu_bluemelody",
-          "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/csmu_bluemelody/story/0"
-        },
-        {
-          "id": "threads_csmu_bluemelody",
-          "name": "中山醫藍韻口琴社",
-          "platform": "threads",
-          "type": "rss",
-          "username": "csmu_bluemelody",
-          "profileUrl": "https://www.threads.net/@csmu_bluemelody",
-          "feedUrl": "https://rss.observe.tw/threads/csmu_bluemelody"
-        },
-        {
-          "id": "yt_10f4784559",
-          "name": "中山醫藍韻口琴社",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4",
           "feedUrl": ""
         }
       ]
