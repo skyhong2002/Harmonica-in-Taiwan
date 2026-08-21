@@ -71,6 +71,174 @@
   },
   "entries": [
     {
+      "id": "watchlist-319",
+      "publicId": "319",
+      "name": "莊庭皓 Ivan Chong",
+      "nameEn": "Ivan Chong Ting-ho",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階口琴演奏與教學/Perfect Fourth成員/何東中學口琴隊指揮與多校口琴導師/2009世界口琴節成人二重奏冠軍/2014起擔任首爾、亞太與世界口琴節評審及嘉賓/口琴維修與Co-op Harmonica創辦",
+      "structuredSummary": "半音階口琴演奏與教學/Perfect Fourth成員/何東中學口琴隊指揮與多校口琴導師/2009世界口琴節成人二重奏冠軍/2014起擔任首爾、亞太與世界口琴節評審及嘉賓/口琴維修與Co-op Harmonica創辦 / 半音階口琴 / 國際演出人員/口琴教師/學校樂團指揮/評審/維修技師",
+      "summary": "香港的半音階口琴國際演出人員、口琴教師與學校樂團指揮，活動脈絡包含半音階口琴演奏與教學、Perfect Fourth成員與何東中學口琴隊指揮與多校口琴導師。",
+      "keywords": "莊庭皓 Ivan Chong Ting-ho Perfect Fourth Hotung Secondary School Harmonica Band WHF SIHF APHF Co-op Harmonica Hohner service technician 香港",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://ivanchong.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chongtingho"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chongtingho/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCNjS1XofiGjUCzKTYz7DOLw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T10:52:17+00:00",
+      "latestUpdateLocal": "2026-08-21 18:52",
+      "latestUpdateSource": "莊庭皓 Ivan Chong",
+      "latestUpdateUrl": "https://www.instagram.com/stories/chongtingho/3968562502857169004/",
+      "avatarUrl": "/assets/source-avatars/ivan-chong.jpg",
+      "sourceInitials": "IC",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "教學",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_chongtingho",
+          "name": "莊庭皓 Ivan Chong",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chongtingho",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_chongtingho",
+          "name": "莊庭皓 Ivan Chong",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chongtingho",
+          "profileUrl": "https://www.instagram.com/chongtingho/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chongtingho",
+          "name": "莊庭皓 Ivan Chong",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chongtingho",
+          "profileUrl": "https://www.instagram.com/chongtingho/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chongtingho/story/0"
+        },
+        {
+          "id": "yt_ucnjs1xofigjuczktyz7dolw",
+          "name": "莊庭皓 Ivan Chong",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCNjS1XofiGjUCzKTYz7DOLw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-51",
+      "publicId": "51",
+      "name": "唐雪婷 Sharene Tang",
+      "nameEn": "Sharene Tang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/國際郵輪演出",
+      "structuredSummary": "世界口琴冠軍/演出/教學/國際郵輪演出 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "唐雪婷 Sharene Tang sharene.harmonica World Harmonica Champion Fresco harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/sharenetang.fresco/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sharene.harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@Shareneharmonicamusic"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T09:57:09+00:00",
+      "latestUpdateLocal": "2026-08-21 17:57",
+      "latestUpdateSource": "唐雪婷 Sharene Tang",
+      "latestUpdateUrl": "https://www.instagram.com/stories/sharene.harmonica/3968534752131284475/",
+      "avatarUrl": "/assets/source-avatars/sharene-tang.jpg",
+      "sourceInitials": "ST",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_sharenetang_fresco",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/sharenetang.fresco",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sharene_harmonica",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sharene.harmonica",
+          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sharene_harmonica",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sharene.harmonica",
+          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sharene.harmonica/story/0"
+        },
+        {
+          "id": "yt_shareneharmonicamusic",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-299",
       "publicId": "299",
       "name": "基隆社區大學就是吹口琴",
@@ -841,6 +1009,92 @@
       ]
     },
     {
+      "id": "watchlist-66",
+      "publicId": "66",
+      "name": "Younghoon Cho",
+      "nameEn": "Younghoon Cho",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
+      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
+      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "keywords": "Younghoon Cho Jong-seong Park",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/hoontobe"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hoontobe/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hoontobe_piano/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/hoontobe"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T06:38:34+00:00",
+      "latestUpdateLocal": "2026-08-21 14:38",
+      "latestUpdateSource": "Younghoon Cho",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3968434851225525322/",
+      "avatarUrl": "/assets/source-avatars/ce8582690611be231fa9.webp",
+      "sourceInitials": "YC",
+      "sourceTags": [
+        "演奏者",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
+      "monitorSources": [
+        {
+          "id": "fb_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hoontobe",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
+        },
+        {
+          "id": "yt_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/hoontobe",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-228",
       "publicId": "228",
       "name": "臺中一中口琴社校友團",
@@ -1051,6 +1305,58 @@
       ]
     },
     {
+      "id": "watchlist-195",
+      "publicId": "195",
+      "name": "彰女微光口琴社",
+      "nameEn": "CHGSH Harmonica",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/彰化",
+      "cityOrFocus": "彰化女中/學校社團/彰化",
+      "structuredSummary": "彰化女中/學校社團/彰化 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "彰女微光口琴社 CHGSH Harmonica 口琴社",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chgsh_harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T03:00:30+00:00",
+      "latestUpdateLocal": "2026-08-21 11:00",
+      "latestUpdateSource": "彰女微光口琴社",
+      "latestUpdateUrl": "https://www.instagram.com/stories/chgsh_harmonica/3968325048758705409/",
+      "avatarUrl": "/assets/source-avatars/5f8970c22acc29a1e57c.webp",
+      "sourceInitials": "彰女",
+      "sourceTags": [
+        "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_chgsh_harmonica",
+          "name": "CHGSH Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chgsh_harmonica",
+          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chgsh_harmonica",
+          "name": "彰女微光口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chgsh_harmonica",
+          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chgsh_harmonica/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-30",
       "publicId": "30",
       "name": "蔡明憲",
@@ -1118,6 +1424,101 @@
           "username": "damingtsai",
           "profileUrl": "https://www.instagram.com/damingtsai/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-78",
+      "publicId": "78",
+      "name": "衛武營國家藝術文化中心",
+      "nameEn": "National Kaohsiung Center for the Arts (Weiwuying)",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "衛武營 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-weiwuying.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@weiwuyingfilm"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@weiwuying_centerforthearts"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T01:01:57+00:00",
+      "latestUpdateLocal": "2026-08-21 09:01",
+      "latestUpdateSource": "衛武營國家藝術文化中心",
+      "latestUpdateUrl": "https://www.instagram.com/stories/weiwuying_centerforthearts/3968265374293343902/",
+      "avatarUrl": "/assets/source-avatars/e7222e9e5fd4a7202810.webp",
+      "sourceInitials": "衛武",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_weiwuyingcenterforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
+        },
+        {
+          "id": "ig_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "threads",
+          "type": "rss",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
+          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
+        },
+        {
+          "id": "yt_weiwuyingfilm",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@weiwuyingfilm",
+          "feedUrl": ""
         }
       ]
     },
@@ -2286,92 +2687,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/Moridaira01",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-66",
-      "publicId": "66",
-      "name": "Younghoon Cho",
-      "nameEn": "Younghoon Cho",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
-      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
-      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "keywords": "Younghoon Cho Jong-seong Park",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/hoontobe"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hoontobe/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hoontobe_piano/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/hoontobe"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-20T13:21:27+00:00",
-      "latestUpdateLocal": "2026-08-20 21:21",
-      "latestUpdateSource": "Younghoon Cho",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3967912864136766200/",
-      "avatarUrl": "/assets/source-avatars/ce8582690611be231fa9.webp",
-      "sourceInitials": "YC",
-      "sourceTags": [
-        "演奏者",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
-      "monitorSources": [
-        {
-          "id": "fb_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hoontobe",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
-        },
-        {
-          "id": "yt_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/hoontobe",
           "feedUrl": ""
         }
       ]
@@ -3834,101 +4149,6 @@
       ]
     },
     {
-      "id": "watchlist-78",
-      "publicId": "78",
-      "name": "衛武營國家藝術文化中心",
-      "nameEn": "National Kaohsiung Center for the Arts (Weiwuying)",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/高雄",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "衛武營 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-weiwuying.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@weiwuyingfilm"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@weiwuying_centerforthearts"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-20T01:19:19+00:00",
-      "latestUpdateLocal": "2026-08-20 09:19",
-      "latestUpdateSource": "衛武營國家藝術文化中心",
-      "latestUpdateUrl": "https://www.instagram.com/stories/weiwuying_centerforthearts/3967549427720070055/",
-      "avatarUrl": "/assets/source-avatars/e7222e9e5fd4a7202810.webp",
-      "sourceInitials": "衛武",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_weiwuyingcenterforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
-        },
-        {
-          "id": "ig_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "threads",
-          "type": "rss",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
-          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
-        },
-        {
-          "id": "yt_weiwuyingfilm",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@weiwuyingfilm",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-145",
       "publicId": "145",
       "name": "Joe Marhofer / The Headcutters",
@@ -4212,87 +4432,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCj06r7zxcQqFS26fy7n0jZw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-51",
-      "publicId": "51",
-      "name": "唐雪婷 Sharene Tang",
-      "nameEn": "Sharene Tang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "世界口琴冠軍/演出/教學/國際郵輪演出",
-      "structuredSummary": "世界口琴冠軍/演出/教學/國際郵輪演出 / 半音階/口琴 / 國際演出人員/教育者",
-      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
-      "keywords": "唐雪婷 Sharene Tang sharene.harmonica World Harmonica Champion Fresco harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/sharenetang.fresco/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/sharene.harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@Shareneharmonicamusic"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-19T16:07:39+00:00",
-      "latestUpdateLocal": "2026-08-20 00:07",
-      "latestUpdateSource": "唐雪婷 Sharene Tang",
-      "latestUpdateUrl": "https://www.instagram.com/stories/sharene.harmonica/3967271774777990760/",
-      "avatarUrl": "/assets/source-avatars/sharene-tang.jpg",
-      "sourceInitials": "ST",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_sharenetang_fresco",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/sharenetang.fresco",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_sharene_harmonica",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "sharene.harmonica",
-          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_sharene_harmonica",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "sharene.harmonica",
-          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sharene.harmonica/story/0"
-        },
-        {
-          "id": "yt_shareneharmonicamusic",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
           "feedUrl": ""
         }
       ]
@@ -7122,58 +7261,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-195",
-      "publicId": "195",
-      "name": "彰女微光口琴社",
-      "nameEn": "CHGSH Harmonica",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/彰化",
-      "cityOrFocus": "彰化女中/學校社團/彰化",
-      "structuredSummary": "彰化女中/學校社團/彰化 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "彰女微光口琴社 CHGSH Harmonica 口琴社",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/chgsh_harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-17T02:52:30+00:00",
-      "latestUpdateLocal": "2026-08-17 10:52",
-      "latestUpdateSource": "彰女微光口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcIAjHVILB3/",
-      "avatarUrl": "/assets/source-avatars/5f8970c22acc29a1e57c.webp",
-      "sourceInitials": "彰女",
-      "sourceTags": [
-        "學生社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_chgsh_harmonica",
-          "name": "CHGSH Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "chgsh_harmonica",
-          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_chgsh_harmonica",
-          "name": "彰女微光口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "chgsh_harmonica",
-          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chgsh_harmonica/story/0"
         }
       ]
     },
@@ -10270,93 +10357,6 @@
           "username": "408.harmonica",
           "profileUrl": "https://www.instagram.com/408.harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/408.harmonica/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-319",
-      "publicId": "319",
-      "name": "莊庭皓 Ivan Chong",
-      "nameEn": "Ivan Chong Ting-ho",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階口琴演奏與教學/Perfect Fourth成員/何東中學口琴隊指揮與多校口琴導師/2009世界口琴節成人二重奏冠軍/2014起擔任首爾、亞太與世界口琴節評審及嘉賓/口琴維修與Co-op Harmonica創辦",
-      "structuredSummary": "半音階口琴演奏與教學/Perfect Fourth成員/何東中學口琴隊指揮與多校口琴導師/2009世界口琴節成人二重奏冠軍/2014起擔任首爾、亞太與世界口琴節評審及嘉賓/口琴維修與Co-op Harmonica創辦 / 半音階口琴 / 國際演出人員/口琴教師/學校樂團指揮/評審/維修技師",
-      "summary": "香港的半音階口琴國際演出人員、口琴教師與學校樂團指揮，活動脈絡包含半音階口琴演奏與教學、Perfect Fourth成員與何東中學口琴隊指揮與多校口琴導師。",
-      "keywords": "莊庭皓 Ivan Chong Ting-ho Perfect Fourth Hotung Secondary School Harmonica Band WHF SIHF APHF Co-op Harmonica Hohner service technician 香港",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://ivanchong.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/chongtingho"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/chongtingho/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCNjS1XofiGjUCzKTYz7DOLw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-06T23:07:12+00:00",
-      "latestUpdateLocal": "2026-08-07 07:07",
-      "latestUpdateSource": "莊庭皓 Ivan Chong",
-      "latestUpdateUrl": "https://www.facebook.com/chongtingho/posts/pfbid0NkDWXPQxjtQLELJApk1FjXaHsHo9LEEjVjLYx5QxMpbp8ki2A7h5kJmCZ14FdBpZl",
-      "avatarUrl": "/assets/source-avatars/ivan-chong.jpg",
-      "sourceInitials": "IC",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "教學",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_chongtingho",
-          "name": "莊庭皓 Ivan Chong",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/chongtingho",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_chongtingho",
-          "name": "莊庭皓 Ivan Chong",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "chongtingho",
-          "profileUrl": "https://www.instagram.com/chongtingho/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_chongtingho",
-          "name": "莊庭皓 Ivan Chong",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "chongtingho",
-          "profileUrl": "https://www.instagram.com/chongtingho/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chongtingho/story/0"
-        },
-        {
-          "id": "yt_ucnjs1xofigjuczktyz7dolw",
-          "name": "莊庭皓 Ivan Chong",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCNjS1XofiGjUCzKTYz7DOLw",
-          "feedUrl": ""
         }
       ]
     },
