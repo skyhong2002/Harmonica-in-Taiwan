@@ -1312,7 +1312,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-21 03:00",
       "latestUpdateSource": "黃冠誌",
       "latestUpdateUrl": "https://www.instagram.com/p/DcRdqHOjDFV/",
-      "avatarUrl": "/assets/source-avatars/2652b76dac80edaea6b4.webp",
+      "avatarUrl": "/assets/source-avatars/24f037610ba70640920d.webp",
       "sourceInitials": "黃冠",
       "sourceTags": [
         "演奏者",
@@ -9615,7 +9615,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-09 22:28",
       "latestUpdateSource": "中山醫藍韻口琴社",
       "latestUpdateUrl": "https://www.threads.com/t/Db0p3IQDxfj",
-      "avatarUrl": "/assets/source-avatars/c7978aa9fb61dbd1b5f3.webp",
+      "avatarUrl": "/assets/source-avatars/0f4e34a89787ebc21904.webp",
       "sourceInitials": "中山",
       "sourceTags": [
         "學生社團",
