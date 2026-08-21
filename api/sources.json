@@ -71,6 +71,65 @@
   },
   "entries": [
     {
+      "id": "watchlist-290",
+      "publicId": "290",
+      "name": "Ivan Marcio",
+      "nameEn": "Ivan Marcio",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "巴西",
+      "region": "巴西/聖保羅",
+      "cityOrFocus": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026",
+      "structuredSummary": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026 / 十孔口琴 / 國際演出人員/教育者/製作人",
+      "summary": "巴西的十孔口琴國際演出人員、教育者與製作人，活動脈絡包含藍調口琴、Jump Blues與錄音製作。",
+      "keywords": "Ivan Marcio ivanmarciogaita Brazil blues harmonica APHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/information/announcementDetail/417110312852779008"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ivanmarciogaita/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T21:08:01+00:00",
+      "latestUpdateLocal": "2026-08-22 05:08",
+      "latestUpdateSource": "Ivan Marcio",
+      "latestUpdateUrl": "https://www.instagram.com/stories/ivanmarciogaita/3968872427664382902/",
+      "avatarUrl": "/assets/source-avatars/ivan-marcio.jpg",
+      "sourceInitials": "IM",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_ivanmarciogaita",
+          "name": "Ivan Marcio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "ivanmarciogaita",
+          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_ivanmarciogaita",
+          "name": "Ivan Marcio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "ivanmarciogaita",
+          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/ivanmarciogaita/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-299",
       "publicId": "299",
       "name": "基隆社區大學就是吹口琴",
@@ -1230,6 +1289,152 @@
       ]
     },
     {
+      "id": "watchlist-260",
+      "publicId": "260",
+      "name": "梁芷菁 Steffi Leung",
+      "nameEn": "Steffi Leung",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends",
+      "structuredSummary": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends / 半音階 / 國際演出人員",
+      "summary": "香港的半音階國際演出人員，活動脈絡包含國際賽事、電台主持與Adventure Harmonica Band。",
+      "keywords": "梁芷菁 Steffi Leung harmonicist Adventure Harmonica WHF APHF SIHF THMF 2025 世界口琴節 二重奏冠軍 Steffi and Friends 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.steffileung.com/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/steffi.leung/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T14:32:40+00:00",
+      "latestUpdateLocal": "2026-08-21 22:32",
+      "latestUpdateSource": "梁芷菁 Steffi Leung",
+      "latestUpdateUrl": "https://www.instagram.com/stories/steffi.leung/3968673429134660339/",
+      "avatarUrl": "/assets/source-avatars/944f9a705865f62c67f6.webp",
+      "sourceInitials": "SL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_steffi_leung",
+          "name": "梁芷菁 Steffi Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "steffi.leung",
+          "profileUrl": "https://www.instagram.com/steffi.leung/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_steffi_leung",
+          "name": "梁芷菁 Steffi Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "steffi.leung",
+          "profileUrl": "https://www.instagram.com/steffi.leung/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/steffi.leung/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-319",
+      "publicId": "319",
+      "name": "莊庭皓 Ivan Chong",
+      "nameEn": "Ivan Chong Ting-ho",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階口琴演奏與教學/Perfect Fourth成員/何東中學口琴隊指揮與多校口琴導師/2009世界口琴節成人二重奏冠軍/2014起擔任首爾、亞太與世界口琴節評審及嘉賓/口琴維修與Co-op Harmonica創辦",
+      "structuredSummary": "半音階口琴演奏與教學/Perfect Fourth成員/何東中學口琴隊指揮與多校口琴導師/2009世界口琴節成人二重奏冠軍/2014起擔任首爾、亞太與世界口琴節評審及嘉賓/口琴維修與Co-op Harmonica創辦 / 半音階口琴 / 國際演出人員/口琴教師/學校樂團指揮/評審/維修技師",
+      "summary": "香港的半音階口琴國際演出人員、口琴教師與學校樂團指揮，活動脈絡包含半音階口琴演奏與教學、Perfect Fourth成員與何東中學口琴隊指揮與多校口琴導師。",
+      "keywords": "莊庭皓 Ivan Chong Ting-ho Perfect Fourth Hotung Secondary School Harmonica Band WHF SIHF APHF Co-op Harmonica Hohner service technician 香港",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://ivanchong.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chongtingho"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chongtingho/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCNjS1XofiGjUCzKTYz7DOLw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T14:24:32+00:00",
+      "latestUpdateLocal": "2026-08-21 22:24",
+      "latestUpdateSource": "莊庭皓 Ivan Chong",
+      "latestUpdateUrl": "https://www.instagram.com/stories/chongtingho/3968669335501661915/",
+      "avatarUrl": "/assets/source-avatars/ivan-chong.jpg",
+      "sourceInitials": "IC",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "教學",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_chongtingho",
+          "name": "莊庭皓 Ivan Chong",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chongtingho",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_chongtingho",
+          "name": "莊庭皓 Ivan Chong",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chongtingho",
+          "profileUrl": "https://www.instagram.com/chongtingho/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chongtingho",
+          "name": "莊庭皓 Ivan Chong",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chongtingho",
+          "profileUrl": "https://www.instagram.com/chongtingho/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chongtingho/story/0"
+        },
+        {
+          "id": "yt_ucnjs1xofigjuczktyz7dolw",
+          "name": "莊庭皓 Ivan Chong",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCNjS1XofiGjUCzKTYz7DOLw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-133",
       "publicId": "133",
       "name": "Indiara Sfair",
@@ -1526,6 +1731,65 @@
           "username": "l.p.ning.0404",
           "profileUrl": "https://www.instagram.com/l.p.ning.0404/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/l.p.ning.0404/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-229",
+      "publicId": "229",
+      "name": "Hohner Harmonica",
+      "nameEn": "Hohner Harmonica",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌/樂器製造商",
+      "country": "德國",
+      "region": "德國/國際",
+      "cityOrFocus": "口琴製造/產品資訊/演奏推廣/國際社群",
+      "structuredSummary": "口琴製造/產品資訊/演奏推廣/國際社群 / 口琴 / 器材品牌",
+      "summary": "德國的口琴器材品牌，關注口琴製造、產品資訊、演奏推廣與國際社群。",
+      "keywords": "Hohner Harmonica HOHNER 口琴 品牌 德國",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/hohnermusic"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hohnerharmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T13:34:59+00:00",
+      "latestUpdateLocal": "2026-08-21 21:34",
+      "latestUpdateSource": "Hohner Harmonica",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hohnerharmonica/3968644390817996268/",
+      "avatarUrl": "/assets/source-avatars/1185d184817b65745a7d.webp",
+      "sourceInitials": "HH",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_hohnerharmonica",
+          "name": "Hohner Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hohnerharmonica",
+          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hohnerharmonica",
+          "name": "Hohner Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hohnerharmonica",
+          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerharmonica/story/0"
         }
       ]
     },
@@ -2334,65 +2598,6 @@
       ]
     },
     {
-      "id": "watchlist-260",
-      "publicId": "260",
-      "name": "梁芷菁 Steffi Leung",
-      "nameEn": "Steffi Leung",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends",
-      "structuredSummary": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends / 半音階 / 國際演出人員",
-      "summary": "香港的半音階國際演出人員，活動脈絡包含國際賽事、電台主持與Adventure Harmonica Band。",
-      "keywords": "梁芷菁 Steffi Leung harmonicist Adventure Harmonica WHF APHF SIHF THMF 2025 世界口琴節 二重奏冠軍 Steffi and Friends 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.steffileung.com/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/steffi.leung/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-21T11:15:53+00:00",
-      "latestUpdateLocal": "2026-08-21 19:15",
-      "latestUpdateSource": "梁芷菁 Steffi Leung",
-      "latestUpdateUrl": "https://www.instagram.com/stories/steffi.leung/3968574382264902241/",
-      "avatarUrl": "/assets/source-avatars/944f9a705865f62c67f6.webp",
-      "sourceInitials": "SL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_steffi_leung",
-          "name": "梁芷菁 Steffi Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "steffi.leung",
-          "profileUrl": "https://www.instagram.com/steffi.leung/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_steffi_leung",
-          "name": "梁芷菁 Steffi Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "steffi.leung",
-          "profileUrl": "https://www.instagram.com/steffi.leung/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/steffi.leung/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-187",
       "publicId": "187",
       "name": "中山醫藍韻口琴社",
@@ -2484,93 +2689,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@%E4%B8%AD%E5%B1%B1%E9%86%AB%E5%AD%B8%E5%A4%A7%E5%AD%B8%E8%97%8D%E9%9F%BB%E5%8F%A3%E7%90%B4",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-319",
-      "publicId": "319",
-      "name": "莊庭皓 Ivan Chong",
-      "nameEn": "Ivan Chong Ting-ho",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階口琴演奏與教學/Perfect Fourth成員/何東中學口琴隊指揮與多校口琴導師/2009世界口琴節成人二重奏冠軍/2014起擔任首爾、亞太與世界口琴節評審及嘉賓/口琴維修與Co-op Harmonica創辦",
-      "structuredSummary": "半音階口琴演奏與教學/Perfect Fourth成員/何東中學口琴隊指揮與多校口琴導師/2009世界口琴節成人二重奏冠軍/2014起擔任首爾、亞太與世界口琴節評審及嘉賓/口琴維修與Co-op Harmonica創辦 / 半音階口琴 / 國際演出人員/口琴教師/學校樂團指揮/評審/維修技師",
-      "summary": "香港的半音階口琴國際演出人員、口琴教師與學校樂團指揮，活動脈絡包含半音階口琴演奏與教學、Perfect Fourth成員與何東中學口琴隊指揮與多校口琴導師。",
-      "keywords": "莊庭皓 Ivan Chong Ting-ho Perfect Fourth Hotung Secondary School Harmonica Band WHF SIHF APHF Co-op Harmonica Hohner service technician 香港",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://ivanchong.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/chongtingho"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/chongtingho/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCNjS1XofiGjUCzKTYz7DOLw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-21T10:52:17+00:00",
-      "latestUpdateLocal": "2026-08-21 18:52",
-      "latestUpdateSource": "莊庭皓 Ivan Chong",
-      "latestUpdateUrl": "https://www.instagram.com/stories/chongtingho/3968562502857169004/",
-      "avatarUrl": "/assets/source-avatars/ivan-chong.jpg",
-      "sourceInitials": "IC",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "教學",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_chongtingho",
-          "name": "莊庭皓 Ivan Chong",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/chongtingho",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_chongtingho",
-          "name": "莊庭皓 Ivan Chong",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "chongtingho",
-          "profileUrl": "https://www.instagram.com/chongtingho/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_chongtingho",
-          "name": "莊庭皓 Ivan Chong",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "chongtingho",
-          "profileUrl": "https://www.instagram.com/chongtingho/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chongtingho/story/0"
-        },
-        {
-          "id": "yt_ucnjs1xofigjuczktyz7dolw",
-          "name": "莊庭皓 Ivan Chong",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCNjS1XofiGjUCzKTYz7DOLw",
           "feedUrl": ""
         }
       ]
@@ -4288,65 +4406,6 @@
       ]
     },
     {
-      "id": "watchlist-290",
-      "publicId": "290",
-      "name": "Ivan Marcio",
-      "nameEn": "Ivan Marcio",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "巴西",
-      "region": "巴西/聖保羅",
-      "cityOrFocus": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026",
-      "structuredSummary": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026 / 十孔口琴 / 國際演出人員/教育者/製作人",
-      "summary": "巴西的十孔口琴國際演出人員、教育者與製作人，活動脈絡包含藍調口琴、Jump Blues與錄音製作。",
-      "keywords": "Ivan Marcio ivanmarciogaita Brazil blues harmonica APHF 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.aphfhx.com/information/announcementDetail/417110312852779008"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/ivanmarciogaita/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-21T00:05:57+00:00",
-      "latestUpdateLocal": "2026-08-21 08:05",
-      "latestUpdateSource": "Ivan Marcio",
-      "latestUpdateUrl": "https://www.instagram.com/stories/ivanmarciogaita/3968237210076019189/",
-      "avatarUrl": "/assets/source-avatars/ivan-marcio.jpg",
-      "sourceInitials": "IM",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_ivanmarciogaita",
-          "name": "Ivan Marcio",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "ivanmarciogaita",
-          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_ivanmarciogaita",
-          "name": "Ivan Marcio",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "ivanmarciogaita",
-          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/ivanmarciogaita/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-40",
       "publicId": "40",
       "name": "陳鴻儀",
@@ -5112,65 +5171,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/user/hkcchoir",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-229",
-      "publicId": "229",
-      "name": "Hohner Harmonica",
-      "nameEn": "Hohner Harmonica",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "品牌/樂器製造商",
-      "country": "德國",
-      "region": "德國/國際",
-      "cityOrFocus": "口琴製造/產品資訊/演奏推廣/國際社群",
-      "structuredSummary": "口琴製造/產品資訊/演奏推廣/國際社群 / 口琴 / 器材品牌",
-      "summary": "德國的口琴器材品牌，關注口琴製造、產品資訊、演奏推廣與國際社群。",
-      "keywords": "Hohner Harmonica HOHNER 口琴 品牌 德國",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/hohnermusic"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hohnerharmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-20T11:56:14+00:00",
-      "latestUpdateLocal": "2026-08-20 19:56",
-      "latestUpdateSource": "Hohner Harmonica",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hohnerharmonica/3967869910067834705/",
-      "avatarUrl": "/assets/source-avatars/1185d184817b65745a7d.webp",
-      "sourceInitials": "HH",
-      "sourceTags": [
-        "品牌",
-        "教學器材",
-        "教學",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_hohnerharmonica",
-          "name": "Hohner Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hohnerharmonica",
-          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hohnerharmonica",
-          "name": "Hohner Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hohnerharmonica",
-          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerharmonica/story/0"
         }
       ]
     },
