@@ -84,6 +84,66 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-183",
+      "publicId": "183",
+      "name": "EMPA 口琴課程",
+      "nameEn": "EMPA Escuela de Música Popular de Avellaneda Armónica",
+      "category": "國際交流",
+      "type": "樂器與器材",
+      "originalType": "學校/正式課程",
+      "country": "阿根廷",
+      "region": "阿根廷/阿韋亞內達",
+      "cityOrFocus": "公立流行音樂學校/正式口琴課程/爵士/探戈/民俗",
+      "structuredSummary": "公立流行音樂學校/正式口琴課程/爵士/探戈/民俗 / 半音階/十孔/armónica / 國際教育來源",
+      "summary": "阿根廷的國際教育來源，關注公立流行音樂學校、正式口琴課程、爵士、探戈與民俗。",
+      "keywords": "EMPA Escuela de Música Popular de Avellaneda Armónica harmonica Argentina",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.empa.edu.ar/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/empa.oficial/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T22:29:14+00:00",
+      "latestUpdateLocal": "2026-08-21 06:29",
+      "latestUpdateSource": "EMPA 口琴課程",
+      "latestUpdateUrl": "https://www.instagram.com/stories/empa.oficial/3968188517033206110/",
+      "avatarUrl": "/assets/source-avatars/ae76d24117e0dceba5e7.webp",
+      "sourceInitials": "E",
+      "sourceTags": [
+        "教學器材",
+        "國際交流",
+        "課程",
+        "半音階",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_empa_oficial",
+          "name": "EMPA 口琴課程",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "empa.oficial",
+          "profileUrl": "https://www.instagram.com/empa.oficial/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_empa_oficial",
+          "name": "EMPA 口琴課程",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "empa.oficial",
+          "profileUrl": "https://www.instagram.com/empa.oficial/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/empa.oficial/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-139",
       "publicId": "139",
       "name": "Lee Oskar",
@@ -169,6 +229,91 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@leeoskarharmonicas",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-115",
+      "publicId": "115",
+      "name": "Filip Jers",
+      "nameEn": "Filip Jers",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "瑞典",
+      "region": "瑞典",
+      "cityOrFocus": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出",
+      "structuredSummary": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出 / 半音階/十孔 / 國際演出人員/作曲者/教育者",
+      "summary": "瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。",
+      "keywords": "Filip Jers harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.filipjers.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/filipjersmusic/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/filipjersharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@filipjersmusic"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T20:23:55+00:00",
+      "latestUpdateLocal": "2026-08-21 04:23",
+      "latestUpdateSource": "Filip Jers",
+      "latestUpdateUrl": "https://www.instagram.com/stories/filipjersharmonica/3968125440992849352/",
+      "avatarUrl": "/assets/source-avatars/0cd42e751710b0949492.webp",
+      "sourceInitials": "FJ",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_filipjersmusic",
+          "name": "Filip Jers",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/filipjersmusic",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_filipjersharmonica",
+          "name": "Filip Jers",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "filipjersharmonica",
+          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_filipjersharmonica",
+          "name": "Filip Jers",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "filipjersharmonica",
+          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/filipjersharmonica/story/0"
+        },
+        {
+          "id": "yt_filipjersmusic",
+          "name": "Filip Jers",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@filipjersmusic",
           "feedUrl": ""
         }
       ]
@@ -1536,6 +1681,90 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-101",
+      "publicId": "101",
+      "name": "何家健 HarmoniKahkean",
+      "nameEn": "Ho Kah Kean / HarmoniKahkean",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人/地方推廣",
+      "country": "馬來西亞",
+      "region": "臺灣/花蓮；馬來西亞",
+      "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
+      "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
+      "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
+      "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/harmonikahkean"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonikahkean/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kahkeanho/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@hokahkean1999"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T15:09:07+00:00",
+      "latestUpdateLocal": "2026-08-20 23:09",
+      "latestUpdateSource": "何家健 HarmoniKahkean",
+      "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3967967001490362373/",
+      "avatarUrl": "/assets/source-avatars/0d0438c131da2df17004.webp",
+      "sourceInitials": "H",
+      "sourceTags": [
+        "演奏者",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonikahkean",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonikahkean",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/kahkeanho/story/0"
+        },
+        {
+          "id": "yt_hokahkean1999",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@hokahkean1999",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-140",
       "publicId": "140",
       "name": "Gregoire Maret",
@@ -1716,90 +1945,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-101",
-      "publicId": "101",
-      "name": "何家健 HarmoniKahkean",
-      "nameEn": "Ho Kah Kean / HarmoniKahkean",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人/地方推廣",
-      "country": "馬來西亞",
-      "region": "臺灣/花蓮；馬來西亞",
-      "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
-      "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
-      "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
-      "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/harmonikahkean"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonikahkean/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/kahkeanho/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@hokahkean1999"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-20T14:23:11+00:00",
-      "latestUpdateLocal": "2026-08-20 22:23",
-      "latestUpdateSource": "何家健 HarmoniKahkean",
-      "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3967944053216237681/",
-      "avatarUrl": "/assets/source-avatars/0d0438c131da2df17004.webp",
-      "sourceInitials": "H",
-      "sourceTags": [
-        "演奏者",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonikahkean",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonikahkean",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_kahkeanho",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "kahkeanho",
-          "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_kahkeanho",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "kahkeanho",
-          "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/kahkeanho/story/0"
-        },
-        {
-          "id": "yt_hokahkean1999",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@hokahkean1999",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-238",
       "publicId": "238",
       "name": "蔡培婷",
@@ -1848,91 +1993,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "r83350",
           "profileUrl": "https://www.instagram.com/r83350/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/r83350/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-115",
-      "publicId": "115",
-      "name": "Filip Jers",
-      "nameEn": "Filip Jers",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "瑞典",
-      "region": "瑞典",
-      "cityOrFocus": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出",
-      "structuredSummary": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出 / 半音階/十孔 / 國際演出人員/作曲者/教育者",
-      "summary": "瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。",
-      "keywords": "Filip Jers harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.filipjers.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/filipjersmusic/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/filipjersharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@filipjersmusic"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-20T13:47:54+00:00",
-      "latestUpdateLocal": "2026-08-20 21:47",
-      "latestUpdateSource": "Filip Jers",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcQ5n7iM-ex/",
-      "avatarUrl": "/assets/source-avatars/0cd42e751710b0949492.webp",
-      "sourceInitials": "FJ",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_filipjersmusic",
-          "name": "Filip Jers",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/filipjersmusic",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_filipjersharmonica",
-          "name": "Filip Jers",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "filipjersharmonica",
-          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_filipjersharmonica",
-          "name": "Filip Jers",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "filipjersharmonica",
-          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/filipjersharmonica/story/0"
-        },
-        {
-          "id": "yt_filipjersmusic",
-          "name": "Filip Jers",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@filipjersmusic",
-          "feedUrl": ""
         }
       ]
     },
@@ -3815,66 +3875,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@deakharp",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-183",
-      "publicId": "183",
-      "name": "EMPA 口琴課程",
-      "nameEn": "EMPA Escuela de Música Popular de Avellaneda Armónica",
-      "category": "國際交流",
-      "type": "樂器與器材",
-      "originalType": "學校/正式課程",
-      "country": "阿根廷",
-      "region": "阿根廷/阿韋亞內達",
-      "cityOrFocus": "公立流行音樂學校/正式口琴課程/爵士/探戈/民俗",
-      "structuredSummary": "公立流行音樂學校/正式口琴課程/爵士/探戈/民俗 / 半音階/十孔/armónica / 國際教育來源",
-      "summary": "阿根廷的國際教育來源，關注公立流行音樂學校、正式口琴課程、爵士、探戈與民俗。",
-      "keywords": "EMPA Escuela de Música Popular de Avellaneda Armónica harmonica Argentina",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.empa.edu.ar/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/empa.oficial/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-20T00:34:24+00:00",
-      "latestUpdateLocal": "2026-08-20 08:34",
-      "latestUpdateSource": "EMPA 口琴課程",
-      "latestUpdateUrl": "https://www.instagram.com/stories/empa.oficial/3967526737483250603/",
-      "avatarUrl": "/assets/source-avatars/ae76d24117e0dceba5e7.webp",
-      "sourceInitials": "E",
-      "sourceTags": [
-        "教學器材",
-        "國際交流",
-        "課程",
-        "半音階",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_empa_oficial",
-          "name": "EMPA 口琴課程",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "empa.oficial",
-          "profileUrl": "https://www.instagram.com/empa.oficial/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_empa_oficial",
-          "name": "EMPA 口琴課程",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "empa.oficial",
-          "profileUrl": "https://www.instagram.com/empa.oficial/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/empa.oficial/story/0"
         }
       ]
     },
