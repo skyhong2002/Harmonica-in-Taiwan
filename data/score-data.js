@@ -1,6 +1,6 @@
 window.HARMONICA_OBSERVE_SCORES = {
   "count": 797,
-  "generatedAt": "2026-08-22T01:13:21+08:00",
+  "generatedAt": "2026-08-22T01:47:25+08:00",
   "scores": [
     {
       "arranger": "陳瑤容",

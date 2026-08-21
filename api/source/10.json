@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T17:13:45.832019Z",
+  "generatedAt": "2026-08-21T17:47:46.684076Z",
   "source": {
     "id": 10,
     "slug": "rolabo-lin",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/10-rolabo-lin/"
   },
   "items": [
+    {
+      "id": "post-8113490b5a652855e9993ae3",
+      "title": "2026SIHF 鐘 La Campanella | 林家靖 口琴",
+      "excerpt": "2026SIHF 鐘 La Campanella | 林家靖 口琴 曲名 Song：鐘 La Campanella 作曲 Composer：Paganini/Liszt 改編 Arrangement：林家靖 Rolabo Lin 演出 Performance ：林家靖 Rolabo Lin ■ 樂譜： ■ 李斯特的《鐘》是我的音樂啟蒙作品，當年看到鋼琴家的手在琴鍵上飛快移動，並流瀉出無懈可擊的完美音樂時，我的心裡大受震撼，如同當年李斯特見到帕格尼尼的演出後立誓追尋高超的藝術與技巧境界，我也找到了一生追尋的目標：我要成為口琴界的李斯特！ 這首《鐘》我曾經…",
+      "url": "https://www.youtube.com/watch?v=Fj4kvhomd9U",
+      "sourceName": "林家靖 Rolabo Lin",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-21T10:26:33Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/aec98ef7d3d9355c5dff.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-5a640fa73bab4357f253b4e8",
       "title": "2026SIHF 櫻花隨想曲 Sakura Caprice | 林家靖 口琴",

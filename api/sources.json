@@ -1461,6 +1461,91 @@
       ]
     },
     {
+      "id": "watchlist-10",
+      "publicId": "10",
+      "name": "林家靖 Rolabo Lin",
+      "nameEn": "Rolabo Lin",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "半音階/複音/原創/比賽曲/SIHF 2026/2026 琴韻東坡・簧鳴西南",
+      "structuredSummary": "半音階/複音/原創/比賽曲/SIHF 2026/2026 琴韻東坡・簧鳴西南 / 半音階/複音 / 演出人員",
+      "summary": "臺灣的半音階與複音演出人員，活動脈絡包含原創、比賽曲與SIHF 2026。",
+      "keywords": "林家靖 Rolabo Lin Jia-jing Lin SIHF 2026 琴韻東坡 簧鳴西南",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/jia-jing/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HarmonicaLin/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/rolabo_lin/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T10:26:33+00:00",
+      "latestUpdateLocal": "2026-08-21 18:26",
+      "latestUpdateSource": "林家靖 Rolabo Lin",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=Fj4kvhomd9U",
+      "avatarUrl": "/assets/source-avatars/rolabo-lin.jpg",
+      "sourceInitials": "RL",
+      "sourceTags": [
+        "演奏者",
+        "比賽",
+        "半音階",
+        "複音"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicalin",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HarmonicaLin",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_rolabo_lin",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "rolabo_lin",
+          "profileUrl": "https://www.instagram.com/rolabo_lin/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_rolabo_lin",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "rolabo_lin",
+          "profileUrl": "https://www.instagram.com/rolabo_lin/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/rolabo_lin/story/0"
+        },
+        {
+          "id": "yt_ucq7wiztevpndeaaj6rdxzea",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-100",
       "publicId": "100",
       "name": "曹小歐",
@@ -8214,91 +8299,6 @@
           "type": "rsshub_instagram_profile",
           "username": "yhhbfamily",
           "profileUrl": "https://www.instagram.com/yhhbfamily/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-10",
-      "publicId": "10",
-      "name": "林家靖 Rolabo Lin",
-      "nameEn": "Rolabo Lin",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "半音階/複音/原創/比賽曲/SIHF 2026/2026 琴韻東坡・簧鳴西南",
-      "structuredSummary": "半音階/複音/原創/比賽曲/SIHF 2026/2026 琴韻東坡・簧鳴西南 / 半音階/複音 / 演出人員",
-      "summary": "臺灣的半音階與複音演出人員，活動脈絡包含原創、比賽曲與SIHF 2026。",
-      "keywords": "林家靖 Rolabo Lin Jia-jing Lin SIHF 2026 琴韻東坡 簧鳴西南",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/jia-jing/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HarmonicaLin/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/rolabo_lin/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-16T04:44:41+00:00",
-      "latestUpdateLocal": "2026-08-16 12:44",
-      "latestUpdateSource": "林家靖 Rolabo Lin",
-      "latestUpdateUrl": "https://www.instagram.com/stories/rolabo_lin/3964753605907033369/",
-      "avatarUrl": "/assets/source-avatars/rolabo-lin.jpg",
-      "sourceInitials": "RL",
-      "sourceTags": [
-        "演奏者",
-        "比賽",
-        "半音階",
-        "複音"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonicalin",
-          "name": "林家靖 Rolabo Lin",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HarmonicaLin",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_rolabo_lin",
-          "name": "林家靖 Rolabo Lin",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "rolabo_lin",
-          "profileUrl": "https://www.instagram.com/rolabo_lin/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_rolabo_lin",
-          "name": "林家靖 Rolabo Lin",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "rolabo_lin",
-          "profileUrl": "https://www.instagram.com/rolabo_lin/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/rolabo_lin/story/0"
-        },
-        {
-          "id": "yt_ucq7wiztevpndeaaj6rdxzea",
-          "name": "林家靖 Rolabo Lin",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA",
           "feedUrl": ""
         }
       ]

@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 21 Aug 2026 17:13:47 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 17:47:48 +0000</lastBuildDate>
     <item>
       <title>Perfect Fourth</title>
       <link>https://www.perfectfourth.org/</link>
@@ -192,6 +192,17 @@ Tag：演奏者、半音階、國際交流
 國家：瑞士
 地區：美國
 瑞士的半音階國際演出人員與作曲者，活動脈絡包含紐約發展、Grammy得主與現代爵士半音階。</description>
+    </item>
+    <item>
+      <title>林家靖 Rolabo Lin</title>
+      <link>https://harmonica.tw/course/jia-jing/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/84728e2c079cfc9a</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、比賽、半音階、複音
+國家：臺灣
+地區：臺灣
+臺灣的半音階與複音演出人員，活動脈絡包含原創、比賽曲與SIHF 2026。</description>
     </item>
     <item>
       <title>曹小歐</title>
@@ -1237,17 +1248,6 @@ Tag：學生社團、團體樂團
 國家：新加坡
 地區：新加坡/裕廊西
 新加坡的口琴樂團、CCA與SYF學校社團。</description>
-    </item>
-    <item>
-      <title>林家靖 Rolabo Lin</title>
-      <link>https://harmonica.tw/course/jia-jing/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/84728e2c079cfc9a</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、比賽、半音階、複音
-國家：臺灣
-地區：臺灣
-臺灣的半音階與複音演出人員，活動脈絡包含原創、比賽曲與SIHF 2026。</description>
     </item>
     <item>
       <title>Leafin Harmonica Ensemble</title>
