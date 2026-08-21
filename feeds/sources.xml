@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Fri, 21 Aug 2026 17:47:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 18:54:27 +0000</lastBuildDate>
     <item>
       <title>Perfect Fourth</title>
       <link>https://www.perfectfourth.org/</link>
@@ -27,6 +27,17 @@ Tag：演奏者、半音階、國際交流
 國家：日本
 地區：日本
 日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+    </item>
+    <item>
+      <title>菜鳥琴老師很菜</title>
+      <link>https://www.facebook.com/chin.diary</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/8a8c1e148b1195e7</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學
+國家：臺灣
+地區：臺灣/中彰投
+臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。</description>
     </item>
     <item>
       <title>Santiago Alvarez</title>
@@ -71,6 +82,17 @@ Tag：演奏者、教學、十孔、國際交流
 國家：阿根廷
 地區：阿根廷
 阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。</description>
+    </item>
+    <item>
+      <title>蔡明憲</title>
+      <link>https://dming.co/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/58238fbd0d3cbd45</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、重奏
+國家：臺灣
+地區：臺灣
+臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。</description>
     </item>
     <item>
       <title>胖擊口琴樂團</title>
@@ -557,17 +579,6 @@ Tag：學生社團
 臺灣的口琴學校社團。</description>
     </item>
     <item>
-      <title>蔡明憲</title>
-      <link>https://dming.co/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/58238fbd0d3cbd45</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學、重奏
-國家：臺灣
-地區：臺灣
-臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。</description>
-    </item>
-    <item>
       <title>衛武營國家藝術文化中心</title>
       <link>https://www.npac-weiwuying.org/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/886a3e69f2bc562c</guid>
@@ -951,17 +962,6 @@ Tag：教學器材、教學、課程
 國家：臺灣
 地區：臺灣
 臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。</description>
-    </item>
-    <item>
-      <title>菜鳥琴老師很菜</title>
-      <link>https://www.facebook.com/chin.diary</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/8a8c1e148b1195e7</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學
-國家：臺灣
-地區：臺灣/中彰投
-臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。</description>
     </item>
     <item>
       <title>韋笙堡口琴 Weissenberg Harmonicas</title>

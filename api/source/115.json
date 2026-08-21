@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T17:47:46.684076Z",
+  "generatedAt": "2026-08-21T18:54:26.178256Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -328,34 +328,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/9ee4baa86b87dae81277.webp",
         "width": 540,
         "height": 960
-      }
-    },
-    {
-      "id": "post-52efa44dd6fc53ed58602279",
-      "title": "Playing jazz harmonica and cooking dinner. No ai was used when creating this video, just me measuring pasta and improvi…",
-      "excerpt": "Playing jazz harmonica and cooking dinner. No ai was used when creating this video, just me measuring pasta and improvising over D7, F7, Bbmaj7, Db7 to Gbmaj7 to A7 🎶🎶🎶",
-      "url": "https://www.facebook.com/reel/2075035770076799/",
-      "sourceName": "Filip Jers",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-22T18:45:26Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/82eb0098b7fedabe7902.webp",
-        "width": 540,
-        "height": 960
-      }
-    },
-    {
-      "id": "post-ccc841a7238d22aa459e4c0b",
-      "title": "Playing jazz harmonica and cooking dinner. No ai was used when creating this video, just me measuring pasta and improvi…",
-      "excerpt": "Playing jazz harmonica and cooking dinner. No ai was used when creating this video, just me measuring pasta and improvising over D7, F7, Bbmaj7, Db7 t... Playing jazz harmonica and cooking dinner. No ai was used when creating this video, just me measuring pasta and improvising o…",
-      "url": "https://www.instagram.com/p/DbGw5jWO26u/",
-      "sourceName": "Filip Jers",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-22T18:45:11Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/c2e2e991b043ee9b973f.webp",
-        "width": 800,
-        "height": 1423
       }
     }
   ]
