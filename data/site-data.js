@@ -714,6 +714,91 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-65",
+      "publicId": "65",
+      "name": "Jong-seong Park 朴鍾聲",
+      "nameEn": "Jong-seong Park",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "半音階與複音獨奏/2002 APHF金牌/2008 APHF三冠/WHF複音冠軍與爵士半音階亞軍/古典管弦樂協演/專輯與協奏曲首演",
+      "structuredSummary": "半音階與複音獨奏/2002 APHF金牌/2008 APHF三冠/WHF複音冠軍與爵士半音階亞軍/古典管弦樂協演/專輯與協奏曲首演 / 半音階口琴/複音口琴 / 國際演出人員/HOHNER古典藝人/編曲者與管弦樂企劃主持",
+      "summary": "韓國的半音階口琴與複音口琴國際演出人員、HOHNER古典藝人與編曲者與管弦樂企劃主持，活動脈絡包含半音階與複音獨奏、2002 APHF金牌與2008 APHF三冠。",
+      "keywords": "Jong-seong Park 朴鍾聲 harmonica APHF WHF HOHNER classical orchestra Harmonica Memorial",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.mnac.co.kr/jongseongpark"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonicapark/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jongseongpark_harmonicist/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/jongseongpark"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T15:39:23+00:00",
+      "latestUpdateLocal": "2026-08-21 23:39",
+      "latestUpdateSource": "Jong-seong Park 朴鍾聲",
+      "latestUpdateUrl": "https://www.instagram.com/stories/jongseongpark_harmonicist/3968707002637358344/",
+      "avatarUrl": "/assets/source-avatars/d84428d1fc13c8ea5603.webp",
+      "sourceInitials": "JSP",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "複音",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicapark",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonicapark",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_jongseongpark_harmonicist",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jongseongpark_harmonicist",
+          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jongseongpark_harmonicist",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jongseongpark_harmonicist",
+          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/jongseongpark_harmonicist/story/0"
+        },
+        {
+          "id": "yt_jongseongpark",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/jongseongpark",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-122",
       "publicId": "122",
       "name": "Perfect Fourth",
@@ -3641,91 +3726,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCIyVeF24bW3bO1azA8K8tgg",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-65",
-      "publicId": "65",
-      "name": "Jong-seong Park 朴鍾聲",
-      "nameEn": "Jong-seong Park",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國/首爾",
-      "cityOrFocus": "半音階與複音獨奏/2002 APHF金牌/2008 APHF三冠/WHF複音冠軍與爵士半音階亞軍/古典管弦樂協演/專輯與協奏曲首演",
-      "structuredSummary": "半音階與複音獨奏/2002 APHF金牌/2008 APHF三冠/WHF複音冠軍與爵士半音階亞軍/古典管弦樂協演/專輯與協奏曲首演 / 半音階口琴/複音口琴 / 國際演出人員/HOHNER古典藝人/編曲者與管弦樂企劃主持",
-      "summary": "韓國的半音階口琴與複音口琴國際演出人員、HOHNER古典藝人與編曲者與管弦樂企劃主持，活動脈絡包含半音階與複音獨奏、2002 APHF金牌與2008 APHF三冠。",
-      "keywords": "Jong-seong Park 朴鍾聲 harmonica APHF WHF HOHNER classical orchestra Harmonica Memorial",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.mnac.co.kr/jongseongpark"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonicapark/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jongseongpark_harmonicist/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/jongseongpark"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-21T05:38:18+00:00",
-      "latestUpdateLocal": "2026-08-21 13:38",
-      "latestUpdateSource": "Jong-seong Park 朴鍾聲",
-      "latestUpdateUrl": "https://www.instagram.com/stories/jongseongpark_harmonicist/3968404472630373942/",
-      "avatarUrl": "/assets/source-avatars/d84428d1fc13c8ea5603.webp",
-      "sourceInitials": "JSP",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "複音",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonicapark",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonicapark",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_jongseongpark_harmonicist",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jongseongpark_harmonicist",
-          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jongseongpark_harmonicist",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jongseongpark_harmonicist",
-          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jongseongpark_harmonicist/story/0"
-        },
-        {
-          "id": "yt_jongseongpark",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/jongseongpark",
           "feedUrl": ""
         }
       ]
