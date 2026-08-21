@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 710,
+  "count": 711,
   "items": [
     {
       "title": "唐雪婷 Sharene Tang｜My A+ partner 🫡 🩷We previously played 2 pianos, 4 hands, concertos, and piano trios together. Time fli…",
@@ -148,6 +148,81 @@
         "學生社團"
       ],
       "key": "web_299:a2f062db7e264c489bd0c5fa0d49d3a95d35c2a20d5ea34b5a0e8f903e57e7e4"
+    },
+    {
+      "title": "JDR Harmonica｜The 12th Seoul International Harmonica Festival 2026",
+      "headline": "The 12th Seoul International Harmonica Festival 2026",
+      "display_title": "The 12th Seoul International Harmonica Festival 2026",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=vDmsmh_MNWw",
+      "source_id": "yt_jdrharmonica",
+      "source": "JDR Harmonica",
+      "source_system_name": "JDR Harmonica",
+      "source_profile_url": "https://www.youtube.com/channel/UC6ajaAzNPvqwdKQGOzmoqQA",
+      "country": "中國",
+      "region": "中國/江蘇/江陰",
+      "directory_entry_id": "watchlist-263",
+      "directory_entry_name": "JDR Harmonica",
+      "account": "https://www.youtube.com/channel/UC6ajaAzNPvqwdKQGOzmoqQA",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-08-21T08:24:36+00:00",
+      "posted_at_local": "2026-08-21 16:24",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-21T15:28:03.676850+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "交流"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "交流"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文明確為第12屆首爾國際口琴節，屬口琴公開更新與交流活動。",
+      "text": "The 12th Seoul International Harmonica Festival 2026",
+      "images": [
+        "https://i.ytimg.com/vi/vDmsmh_MNWw/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AHOBoAC4AOKAgwIABABGGUgZShlMA8=&rs=AOn4CLAUlArXKFYyW3MtDoIvOJxlLLl8jw"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/vDmsmh_MNWw/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AHOBoAC4AOKAgwIABABGGUgZShlMA8=&rs=AOn4CLAUlArXKFYyW3MtDoIvOJxlLLl8jw",
+      "image_url": "/assets/feed-images/14b73deb62cc54f7a37b.webp",
+      "image_width": 640,
+      "image_height": 480,
+      "source_avatar_url": "https://yt3.googleusercontent.com/dSQNcwv7PzopEThROau4RYht1GE3hbMU8NQReFoGPfvvzJNKSwkUW4vA6lQ8CWQkKfBBrnCrYw=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/860538f7e7d9d983c9e1.webp",
+      "source_initials": "JH",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "yt_jdrharmonica:vDmsmh_MNWw"
     },
     {
       "title": "太平國小口琴隊｜臺中市政府教育局-校園活動報導 --> 跳到主要內容區 臺中市政府教育局 回首頁 市府首頁 網站導覽 常見問答 快速連結 English 教育服務網 A- A A+ 搜尋 單位介紹 首長介紹 組織與職掌 各級學校 局徽介紹…",

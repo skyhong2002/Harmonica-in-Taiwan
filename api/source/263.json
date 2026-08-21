@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T14:20:56.922023Z",
+  "generatedAt": "2026-08-21T15:28:39.362649Z",
   "source": {
     "id": 263,
     "slug": "jdr-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/263-jdr-harmonica/"
   },
   "items": [
+    {
+      "id": "post-9f16604ebf1f4daa37300ced",
+      "title": "The 12th Seoul International Harmonica Festival 2026",
+      "excerpt": "The 12th Seoul International Harmonica Festival 2026",
+      "url": "https://www.youtube.com/watch?v=vDmsmh_MNWw",
+      "sourceName": "JDR Harmonica",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-21T08:24:36Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/14b73deb62cc54f7a37b.webp",
+        "width": 640,
+        "height": 480
+      }
+    },
     {
       "id": "post-e75d16862fc297e5332639c4",
       "title": "SPAH 2026 wrapped up last week.",
