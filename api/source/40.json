@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T20:04:25.342948Z",
+  "generatedAt": "2026-08-21T20:40:00.555234Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/40-henry-chen/"
   },
   "items": [
+    {
+      "id": "post-64f2853e57cd036fb36ceaf7",
+      "title": "【就是吹口琴Just Play Harmonica 】｜兩隻蝴蝶｜複音口琴Tremolo Harmonica 演奏版本《C調》",
+      "excerpt": "【就是吹口琴Just Play Harmonica 】｜兩隻蝴蝶｜複音口琴Tremolo Harmonica 演奏版本《C調》 兩隻蝴蝶 張宏光 作曲 牛朝陽 作詞 龐 龍 原唱 複音口琴演奏版本《C調》",
+      "url": "https://www.youtube.com/watch?v=zxSq_bdHksI",
+      "sourceName": "陳鴻儀",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-21T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/11afd5c75026702696d4.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-663673dc3ce4d8f45221b2fd",
       "title": "【就是吹口琴Just Play Harmonica 】｜日本童謠 – 春之小川《春の小川》｜複音口琴Tremolo Harmonica 演奏版本《C調》",
