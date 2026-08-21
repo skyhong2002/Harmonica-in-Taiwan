@@ -2,6 +2,91 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-21",
   "entries": [
     {
+      "id": "watchlist-118",
+      "publicId": "118",
+      "name": "Federico Linari",
+      "nameEn": "Federico Linari",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "阿根廷",
+      "region": "阿根廷",
+      "cityOrFocus": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源",
+      "structuredSummary": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源 / 十孔/爵士口琴 / 國際演出人員/教學者/製作人",
+      "summary": "阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。",
+      "keywords": "Federico Linari harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hohner.de/en/federico-linari"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Federico.Linari.Armonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/fede.linari/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@FedericoLinari"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T13:31:50+00:00",
+      "latestUpdateLocal": "2026-08-21 21:31",
+      "latestUpdateSource": "Federico Linari",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcOTNFjxx24/",
+      "avatarUrl": "/assets/source-avatars/federico-linari.jpg",
+      "sourceInitials": "FL",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_federico_linari_armonica",
+          "name": "Federico Linari",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Federico.Linari.Armonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_fede_linari",
+          "name": "Federico Linari",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "fede.linari",
+          "profileUrl": "https://www.instagram.com/fede.linari/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_fede_linari",
+          "name": "Federico Linari",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "fede.linari",
+          "profileUrl": "https://www.instagram.com/fede.linari/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/fede.linari/story/0"
+        },
+        {
+          "id": "yt_federicolinari",
+          "name": "Federico Linari",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@FedericoLinari",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-51",
       "publicId": "51",
       "name": "唐雪婷 Sharene Tang",
@@ -79,6 +164,159 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-67",
+      "publicId": "67",
+      "name": "Marcos Coll",
+      "nameEn": "Marcos Coll",
+      "category": "活動資訊",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "西班牙",
+      "region": "西班牙/德國/國際",
+      "cityOrFocus": "13歲開始演奏口琴/西班牙與歐洲藍調代表人物/Los Reyes del K.O.與Tonky Blues Band/曾與Mick Taylor、Buddy Miles等巡演錄音/融合藍調、拉丁、嘻哈與西班牙音樂/2009與2013世界口琴節演出、工作坊及評審/2025與2026首爾國際口琴節",
+      "structuredSummary": "13歲開始演奏口琴/西班牙與歐洲藍調代表人物/Los Reyes del K.O.與Tonky Blues Band/曾與Mick Taylor、Buddy Miles等巡演錄音/融合藍調、拉丁、嘻哈與西班牙音樂/2009與2013世界口琴節演出、工作坊及評審/2025與2026首爾國際口琴節 / 十孔口琴/藍調口琴/半音階口琴 / 國際演出人員/錄音藝術家/國際音樂節評審與講師/HOHNER藝術家",
+      "summary": "西班牙的國際演出人員、錄音藝術家與國際音樂節評審與講師，涵蓋13歲開始演奏口琴、西班牙與歐洲藍調代表人物、Los Reyes del K.O.與Tonky Blues Band、曾與Mick Taylor與Buddy Miles等巡演錄音。",
+      "keywords": "Marcos Coll harmonica Spain Galicia Berlin Los Reyes del KO Tonky Blues Band Mick Taylor Buddy Miles HOHNER WHF 2009 2013 SIHF 2025 2026 blues Latin hip hop",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://marcoscoll.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/marcoscollharp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/marcoscollgonzalez/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T12:04:48+00:00",
+      "latestUpdateLocal": "2026-08-21 20:04",
+      "latestUpdateSource": "Marcos Coll",
+      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3968599004270836560/",
+      "avatarUrl": "/assets/source-avatars/4055c40b2cef2dc406b3.webp",
+      "sourceInitials": "MC",
+      "sourceTags": [
+        "活動資訊",
+        "演奏者",
+        "音樂節",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_marcoscollharp",
+          "name": "Marcos Coll",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/marcoscollharp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
+        },
+        {
+          "id": "yt_marcoscollharpandsoul",
+          "name": "Marcos Coll",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-162",
+      "publicId": "162",
+      "name": "口琴愛好者協會（新加坡）",
+      "nameEn": "Harmonica Aficionados Society Singapore",
+      "category": "國際交流",
+      "type": "協會",
+      "originalType": "協會",
+      "country": "新加坡",
+      "region": "新加坡",
+      "cityOrFocus": "口琴協會/工作坊/音樂會/社群推廣",
+      "structuredSummary": "口琴協會/工作坊/音樂會/社群推廣 / 口琴 / 國際協會/資訊來源",
+      "summary": "新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。",
+      "keywords": "口琴愛好者協會 新加坡 Harmonica Aficionados Society Singapore HAS Singapore",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HARMONICAMUSICLOVERS/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/has_singapore/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T11:39:44+00:00",
+      "latestUpdateLocal": "2026-08-21 19:39",
+      "latestUpdateSource": "口琴愛好者協會（新加坡）",
+      "latestUpdateUrl": "https://www.instagram.com/stories/has_singapore/3968586385531537369/",
+      "avatarUrl": "/assets/source-avatars/25f74c2221a6523cdfc8.webp",
+      "sourceInitials": "口琴",
+      "sourceTags": [
+        "協會",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicamusiclovers",
+          "name": "口琴愛好者協會（新加坡）",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HARMONICAMUSICLOVERS",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_has_singapore",
+          "name": "口琴愛好者協會（新加坡）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "has_singapore",
+          "profileUrl": "https://www.instagram.com/has_singapore/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_has_singapore",
+          "name": "口琴愛好者協會（新加坡）",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "has_singapore",
+          "profileUrl": "https://www.instagram.com/has_singapore/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/has_singapore/story/0"
         }
       ]
     },
@@ -404,6 +642,161 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@cyleoharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-125",
+      "publicId": "125",
+      "name": "Jens Bunge",
+      "nameEn": "Jens Bunge",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "德國",
+      "region": "德國",
+      "cityOrFocus": "德國爵士口琴/半音階演奏/國際演出與錄音",
+      "structuredSummary": "德國爵士口琴/半音階演奏/國際演出與錄音 / 半音階/爵士口琴 / 國際演出人員",
+      "summary": "德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。",
+      "keywords": "Jens Bunge jazz harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hohner.de/en/jens-bunge"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jensbunge.jazzharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@jensbunge"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T10:42:15+00:00",
+      "latestUpdateLocal": "2026-08-21 18:42",
+      "latestUpdateSource": "Jens Bunge",
+      "latestUpdateUrl": "https://www.instagram.com/stories/jensbunge.jazzharmonica/3968557661016656838/",
+      "avatarUrl": "/assets/source-avatars/jens-bunge.jpg",
+      "sourceInitials": "JB",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_jensbunge_jazzharmonica",
+          "name": "Jens Bunge",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jensbunge.jazzharmonica",
+          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jensbunge_jazzharmonica",
+          "name": "Jens Bunge",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jensbunge.jazzharmonica",
+          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/jensbunge.jazzharmonica/story/0"
+        },
+        {
+          "id": "yt_jensbunge",
+          "name": "Jens Bunge",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@jensbunge",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-140",
+      "publicId": "140",
+      "name": "Gregoire Maret",
+      "nameEn": "Gregoire Maret",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "瑞士",
+      "region": "美國",
+      "cityOrFocus": "紐約發展/Grammy得主/現代爵士半音階/作曲",
+      "structuredSummary": "紐約發展/Grammy得主/現代爵士半音階/作曲 / 半音階 / 國際演出人員/作曲者",
+      "summary": "瑞士的半音階國際演出人員與作曲者，活動脈絡包含紐約發展、Grammy得主與現代爵士半音階。",
+      "keywords": "Gregoire Maret Grégoire Maret harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.gregoiremaret.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/gregoiremaret1/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/gregoiremaret/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@GregoireMaret"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T10:38:59+00:00",
+      "latestUpdateLocal": "2026-08-21 18:38",
+      "latestUpdateSource": "Gregoire Maret",
+      "latestUpdateUrl": "https://www.instagram.com/stories/gregoiremaret/3968555827778624133/",
+      "avatarUrl": "/assets/source-avatars/aaa38b3006e2f299e510.webp",
+      "sourceInitials": "GM",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_gregoiremaret1",
+          "name": "Gregoire Maret",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/gregoiremaret1",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_gregoiremaret",
+          "name": "Gregoire Maret",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "gregoiremaret",
+          "profileUrl": "https://www.instagram.com/gregoiremaret/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_gregoiremaret",
+          "name": "Gregoire Maret",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "gregoiremaret",
+          "profileUrl": "https://www.instagram.com/gregoiremaret/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/gregoiremaret/story/0"
+        },
+        {
+          "id": "yt_gregoiremaret",
+          "name": "Gregoire Maret",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@GregoireMaret",
           "feedUrl": ""
         }
       ]
@@ -1410,6 +1803,80 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_profile",
           "username": "tcfsh_harmonica_alumni",
           "profileUrl": "https://www.instagram.com/tcfsh_harmonica_alumni/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-295",
+      "publicId": "295",
+      "name": "SUZUKI Harmonica",
+      "nameEn": "SUZUKI Harmonica",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌",
+      "country": "日本",
+      "region": "日本/靜岡",
+      "cityOrFocus": "半音階/十孔/複音/低音與和弦口琴/產品資訊",
+      "structuredSummary": "半音階/十孔/複音/低音與和弦口琴/產品資訊 / 口琴 / 樂器品牌/器材資訊",
+      "summary": "日本的口琴樂器品牌與器材資訊，關注半音階、十孔、複音、低音與和弦口琴與產品資訊。",
+      "keywords": "SUZUKI Harmonica Suzuki Musical Instrument Japan chromatic diatonic tremolo bass chord",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://suzukimusic-global.com/harmonicas.php?parent_cate_cd=1"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/suzukimusicglobal/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCIyVeF24bW3bO1azA8K8tgg"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T06:00:09+00:00",
+      "latestUpdateLocal": "2026-08-21 14:00",
+      "latestUpdateSource": "SUZUKI Harmonica",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcSpN0czXeI/",
+      "avatarUrl": "/assets/source-avatars/suzuki-harmonica.png",
+      "sourceInitials": "SH",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學",
+        "半音階",
+        "複音",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_suzukimusicglobal",
+          "name": "SUZUKI Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "suzukimusicglobal",
+          "profileUrl": "https://www.instagram.com/suzukimusicglobal/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/suzukimusicglobal/story/0"
+        },
+        {
+          "id": "ig_suzukimusicglobal",
+          "name": "SUZUKI Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "suzukimusicglobal",
+          "profileUrl": "https://www.instagram.com/suzukimusicglobal/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_uciyvef24bw3bo1aza8k8tgg",
+          "name": "SUZUKI Harmonica",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCIyVeF24bW3bO1azA8K8tgg",
           "feedUrl": ""
         }
       ]
@@ -2529,91 +2996,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-118",
-      "publicId": "118",
-      "name": "Federico Linari",
-      "nameEn": "Federico Linari",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "阿根廷",
-      "region": "阿根廷",
-      "cityOrFocus": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源",
-      "structuredSummary": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源 / 十孔/爵士口琴 / 國際演出人員/教學者/製作人",
-      "summary": "阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。",
-      "keywords": "Federico Linari harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hohner.de/en/federico-linari"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Federico.Linari.Armonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/fede.linari/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@FedericoLinari"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-20T19:00:31+00:00",
-      "latestUpdateLocal": "2026-08-21 03:00",
-      "latestUpdateSource": "Federico Linari",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcRdqHOjDFV/",
-      "avatarUrl": "/assets/source-avatars/federico-linari.jpg",
-      "sourceInitials": "FL",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_federico_linari_armonica",
-          "name": "Federico Linari",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Federico.Linari.Armonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_fede_linari",
-          "name": "Federico Linari",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "fede.linari",
-          "profileUrl": "https://www.instagram.com/fede.linari/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_fede_linari",
-          "name": "Federico Linari",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "fede.linari",
-          "profileUrl": "https://www.instagram.com/fede.linari/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/fede.linari/story/0"
-        },
-        {
-          "id": "yt_federicolinari",
-          "name": "Federico Linari",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@FedericoLinari",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-109",
       "publicId": "109",
       "name": "Boris Plotnikov",
@@ -2924,90 +3306,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-140",
-      "publicId": "140",
-      "name": "Gregoire Maret",
-      "nameEn": "Gregoire Maret",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "瑞士",
-      "region": "美國",
-      "cityOrFocus": "紐約發展/Grammy得主/現代爵士半音階/作曲",
-      "structuredSummary": "紐約發展/Grammy得主/現代爵士半音階/作曲 / 半音階 / 國際演出人員/作曲者",
-      "summary": "瑞士的半音階國際演出人員與作曲者，活動脈絡包含紐約發展、Grammy得主與現代爵士半音階。",
-      "keywords": "Gregoire Maret Grégoire Maret harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.gregoiremaret.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/gregoiremaret1/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/gregoiremaret/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@GregoireMaret"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-20T14:36:39+00:00",
-      "latestUpdateLocal": "2026-08-20 22:36",
-      "latestUpdateSource": "Gregoire Maret",
-      "latestUpdateUrl": "https://www.instagram.com/stories/gregoiremaret/3967950649190312927/",
-      "avatarUrl": "/assets/source-avatars/aaa38b3006e2f299e510.webp",
-      "sourceInitials": "GM",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_gregoiremaret1",
-          "name": "Gregoire Maret",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/gregoiremaret1",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_gregoiremaret",
-          "name": "Gregoire Maret",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "gregoiremaret",
-          "profileUrl": "https://www.instagram.com/gregoiremaret/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_gregoiremaret",
-          "name": "Gregoire Maret",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "gregoiremaret",
-          "profileUrl": "https://www.instagram.com/gregoiremaret/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/gregoiremaret/story/0"
-        },
-        {
-          "id": "yt_gregoiremaret",
-          "name": "Gregoire Maret",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@GregoireMaret",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-63",
       "publicId": "63",
       "name": "F.I.H. JAPAN ハーモニカコンテスト",
@@ -3103,93 +3401,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/user/Moridaira01",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-67",
-      "publicId": "67",
-      "name": "Marcos Coll",
-      "nameEn": "Marcos Coll",
-      "category": "活動資訊",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "西班牙",
-      "region": "西班牙/德國/國際",
-      "cityOrFocus": "13歲開始演奏口琴/西班牙與歐洲藍調代表人物/Los Reyes del K.O.與Tonky Blues Band/曾與Mick Taylor、Buddy Miles等巡演錄音/融合藍調、拉丁、嘻哈與西班牙音樂/2009與2013世界口琴節演出、工作坊及評審/2025與2026首爾國際口琴節",
-      "structuredSummary": "13歲開始演奏口琴/西班牙與歐洲藍調代表人物/Los Reyes del K.O.與Tonky Blues Band/曾與Mick Taylor、Buddy Miles等巡演錄音/融合藍調、拉丁、嘻哈與西班牙音樂/2009與2013世界口琴節演出、工作坊及評審/2025與2026首爾國際口琴節 / 十孔口琴/藍調口琴/半音階口琴 / 國際演出人員/錄音藝術家/國際音樂節評審與講師/HOHNER藝術家",
-      "summary": "西班牙的國際演出人員、錄音藝術家與國際音樂節評審與講師，涵蓋13歲開始演奏口琴、西班牙與歐洲藍調代表人物、Los Reyes del K.O.與Tonky Blues Band、曾與Mick Taylor與Buddy Miles等巡演錄音。",
-      "keywords": "Marcos Coll harmonica Spain Galicia Berlin Los Reyes del KO Tonky Blues Band Mick Taylor Buddy Miles HOHNER WHF 2009 2013 SIHF 2025 2026 blues Latin hip hop",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://marcoscoll.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/marcoscollharp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/marcoscollgonzalez/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-20T12:51:52+00:00",
-      "latestUpdateLocal": "2026-08-20 20:51",
-      "latestUpdateSource": "Marcos Coll",
-      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3967897929159019348/",
-      "avatarUrl": "/assets/source-avatars/4055c40b2cef2dc406b3.webp",
-      "sourceInitials": "MC",
-      "sourceTags": [
-        "活動資訊",
-        "演奏者",
-        "音樂節",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_marcoscollharp",
-          "name": "Marcos Coll",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/marcoscollharp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
-        },
-        {
-          "id": "yt_marcoscollharpandsoul",
-          "name": "Marcos Coll",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
           "feedUrl": ""
         }
       ]
@@ -3834,77 +4045,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@yuanyuanharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-125",
-      "publicId": "125",
-      "name": "Jens Bunge",
-      "nameEn": "Jens Bunge",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "德國",
-      "region": "德國",
-      "cityOrFocus": "德國爵士口琴/半音階演奏/國際演出與錄音",
-      "structuredSummary": "德國爵士口琴/半音階演奏/國際演出與錄音 / 半音階/爵士口琴 / 國際演出人員",
-      "summary": "德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。",
-      "keywords": "Jens Bunge jazz harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://hohner.de/en/jens-bunge"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jensbunge.jazzharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@jensbunge"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-20T06:42:31+00:00",
-      "latestUpdateLocal": "2026-08-20 14:42",
-      "latestUpdateSource": "Jens Bunge",
-      "latestUpdateUrl": "https://www.instagram.com/stories/jensbunge.jazzharmonica/3967712020101812785/",
-      "avatarUrl": "/assets/source-avatars/jens-bunge.jpg",
-      "sourceInitials": "JB",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_jensbunge_jazzharmonica",
-          "name": "Jens Bunge",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jensbunge.jazzharmonica",
-          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jensbunge_jazzharmonica",
-          "name": "Jens Bunge",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jensbunge.jazzharmonica",
-          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jensbunge.jazzharmonica/story/0"
-        },
-        {
-          "id": "yt_jensbunge",
-          "name": "Jens Bunge",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@jensbunge",
           "feedUrl": ""
         }
       ]
@@ -6120,72 +6260,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@HenrysHarmonica",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-162",
-      "publicId": "162",
-      "name": "口琴愛好者協會（新加坡）",
-      "nameEn": "Harmonica Aficionados Society Singapore",
-      "category": "國際交流",
-      "type": "協會",
-      "originalType": "協會",
-      "country": "新加坡",
-      "region": "新加坡",
-      "cityOrFocus": "口琴協會/工作坊/音樂會/社群推廣",
-      "structuredSummary": "口琴協會/工作坊/音樂會/社群推廣 / 口琴 / 國際協會/資訊來源",
-      "summary": "新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。",
-      "keywords": "口琴愛好者協會 新加坡 Harmonica Aficionados Society Singapore HAS Singapore",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HARMONICAMUSICLOVERS/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/has_singapore/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-18T23:50:59+00:00",
-      "latestUpdateLocal": "2026-08-19 07:50",
-      "latestUpdateSource": "口琴愛好者協會（新加坡）",
-      "latestUpdateUrl": "https://www.instagram.com/stories/has_singapore/3966780108489016827/",
-      "avatarUrl": "/assets/source-avatars/25f74c2221a6523cdfc8.webp",
-      "sourceInitials": "口琴",
-      "sourceTags": [
-        "協會",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonicamusiclovers",
-          "name": "口琴愛好者協會（新加坡）",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HARMONICAMUSICLOVERS",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_has_singapore",
-          "name": "口琴愛好者協會（新加坡）",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "has_singapore",
-          "profileUrl": "https://www.instagram.com/has_singapore/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_has_singapore",
-          "name": "口琴愛好者協會（新加坡）",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "has_singapore",
-          "profileUrl": "https://www.instagram.com/has_singapore/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/has_singapore/story/0"
         }
       ]
     },
@@ -10615,80 +10689,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "into_be_om",
           "profileUrl": "https://www.instagram.com/into_be_om/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/into_be_om/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-295",
-      "publicId": "295",
-      "name": "SUZUKI Harmonica",
-      "nameEn": "SUZUKI Harmonica",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "品牌",
-      "country": "日本",
-      "region": "日本/靜岡",
-      "cityOrFocus": "半音階/十孔/複音/低音與和弦口琴/產品資訊",
-      "structuredSummary": "半音階/十孔/複音/低音與和弦口琴/產品資訊 / 口琴 / 樂器品牌/器材資訊",
-      "summary": "日本的口琴樂器品牌與器材資訊，關注半音階、十孔、複音、低音與和弦口琴與產品資訊。",
-      "keywords": "SUZUKI Harmonica Suzuki Musical Instrument Japan chromatic diatonic tremolo bass chord",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://suzukimusic-global.com/harmonicas.php?parent_cate_cd=1"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/suzukimusicglobal/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCIyVeF24bW3bO1azA8K8tgg"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-04T06:00:09+00:00",
-      "latestUpdateLocal": "2026-08-04 14:00",
-      "latestUpdateSource": "SUZUKI Harmonica",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dbm3vxnBqQR/",
-      "avatarUrl": "/assets/source-avatars/suzuki-harmonica.png",
-      "sourceInitials": "SH",
-      "sourceTags": [
-        "品牌",
-        "教學器材",
-        "教學",
-        "半音階",
-        "複音",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_suzukimusicglobal",
-          "name": "SUZUKI Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "suzukimusicglobal",
-          "profileUrl": "https://www.instagram.com/suzukimusicglobal/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/suzukimusicglobal/story/0"
-        },
-        {
-          "id": "ig_suzukimusicglobal",
-          "name": "SUZUKI Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "suzukimusicglobal",
-          "profileUrl": "https://www.instagram.com/suzukimusicglobal/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_uciyvef24bw3bo1aza8k8tgg",
-          "name": "SUZUKI Harmonica",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCIyVeF24bW3bO1azA8K8tgg",
-          "feedUrl": ""
         }
       ]
     },
