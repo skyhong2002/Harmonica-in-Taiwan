@@ -2,6 +2,90 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-22",
   "entries": [
     {
+      "id": "watchlist-122",
+      "publicId": "122",
+      "name": "Perfect Fourth",
+      "nameEn": "Perfect Fourth",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "香港現代風格口琴四重奏/傳統與現代和聲/舞台演出",
+      "structuredSummary": "香港現代風格口琴四重奏/傳統與現代和聲/舞台演出 / 口琴重奏 / 國際演出團體",
+      "summary": "香港的口琴重奏國際演出團體，活動脈絡包含香港現代風格口琴四重奏、傳統與現代和聲與舞台演出。",
+      "keywords": "Perfect Fourth Harmonica Quartet Hong Kong SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.perfectfourth.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/perfectfourth.org/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/perfect.fourth/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@PerfectFourth"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T15:36:05+00:00",
+      "latestUpdateLocal": "2026-08-21 23:36",
+      "latestUpdateSource": "Perfect Fourth",
+      "latestUpdateUrl": "https://www.instagram.com/stories/perfect.fourth/3968705511759497332/",
+      "avatarUrl": "/assets/source-avatars/perfect-fourth.jpg",
+      "sourceInitials": "PF",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_perfectfourth_org",
+          "name": "Perfect Fourth",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/perfectfourth.org",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_perfect_fourth",
+          "name": "Perfect Fourth",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "perfect.fourth",
+          "profileUrl": "https://www.instagram.com/perfect.fourth/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_perfect_fourth",
+          "name": "Perfect Fourth",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "perfect.fourth",
+          "profileUrl": "https://www.instagram.com/perfect.fourth/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/perfect.fourth/story/0"
+        },
+        {
+          "id": "yt_perfectfourth",
+          "name": "Perfect Fourth",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@PerfectFourth",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -272,6 +356,65 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-259",
+      "publicId": "259",
+      "name": "李沛寧",
+      "nameEn": "Li Pei-ning",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "Cookie Monster/口琴二重奏/THMF 2026半音階獨奏公開組季軍/WHF",
+      "structuredSummary": "Cookie Monster/口琴二重奏/THMF 2026半音階獨奏公開組季軍/WHF / 半音階口琴 / 演出人員/樂團成員",
+      "summary": "臺灣的半音階口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF 2026半音階獨奏公開組季軍。",
+      "keywords": "李沛寧 Li Pei-ning Pei Ning Lee harmonica Cookie Monster THMF 2026 A1 third WHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://laelapsharmonica.com/en/laelaps-club/pei-ning-lee/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/l.p.ning.0404/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T13:44:26+00:00",
+      "latestUpdateLocal": "2026-08-21 21:44",
+      "latestUpdateSource": "李沛寧",
+      "latestUpdateUrl": "https://www.instagram.com/stories/l.p.ning.0404/3968649313688663965/",
+      "avatarUrl": "/assets/source-avatars/8947e97ec5d7b40247b0.webp",
+      "sourceInitials": "李沛",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_l_p_ning_0404",
+          "name": "李沛寧",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "l.p.ning.0404",
+          "profileUrl": "https://www.instagram.com/l.p.ning.0404/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_l_p_ning_0404",
+          "name": "李沛寧",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "l.p.ning.0404",
+          "profileUrl": "https://www.instagram.com/l.p.ning.0404/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/l.p.ning.0404/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-118",
       "publicId": "118",
       "name": "Federico Linari",
@@ -352,6 +495,104 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@FedericoLinari",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-5",
+      "publicId": "5",
+      "name": "胖擊口琴樂團",
+      "nameEn": "Punch Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴重奏/2016成立/五人編制/SIHF三重奏與重奏冠軍/2025 WHF三重奏與小合奏亞軍/THMF與SIHF 2026",
+      "structuredSummary": "口琴重奏/2016成立/五人編制/SIHF三重奏與重奏冠軍/2025 WHF三重奏與小合奏亞軍/THMF與SIHF 2026 / 半音階口琴/和弦口琴/倍低音口琴 / 國際演出團體/音樂教育推廣",
+      "summary": "臺灣的半音階口琴、和弦口琴與倍低音口琴國際演出團體與音樂教育推廣，活動脈絡包含口琴重奏、2016成立與五人編制。",
+      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團 THMF SIHF 2026 WHF 2025 黃冠誌 王衍華 林裕豐 王心禾 陳聰",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/punch"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Punch.Harp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/punch.harp/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@punchharp"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@punch.harp"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T12:37:55+00:00",
+      "latestUpdateLocal": "2026-08-21 20:37",
+      "latestUpdateSource": "胖擊口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/stories/punch.harp/3968615667419017279/",
+      "avatarUrl": "/assets/source-avatars/3b718f1f575e048cdfa7.webp",
+      "sourceInitials": "胖擊",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Punch.Harp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "punch.harp",
+          "profileUrl": "https://www.instagram.com/punch.harp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "punch.harp",
+          "profileUrl": "https://www.instagram.com/punch.harp/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/punch.harp/story/0"
+        },
+        {
+          "id": "threads_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "threads",
+          "type": "rss",
+          "username": "punch.harp",
+          "profileUrl": "https://www.threads.net/@punch.harp",
+          "feedUrl": "https://rss.observe.tw/threads/punch.harp"
+        },
+        {
+          "id": "yt_punchharp",
+          "name": "胖擊口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@punchharp",
           "feedUrl": ""
         }
       ]
@@ -1242,6 +1483,58 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-309",
+      "publicId": "309",
+      "name": "韓國口琴領袖協會",
+      "nameEn": "Korea Harmonica Leaders Incorporated Association",
+      "category": "國際交流",
+      "type": "團體",
+      "originalType": "協會",
+      "country": "韓國",
+      "region": "韓國/大邱",
+      "cityOrFocus": "口琴教育/講師認證/教材出版/合奏/國際比賽與交流/2026年第26期講師資格課程",
+      "structuredSummary": "口琴教育/講師認證/教材出版/合奏/國際比賽與交流/2026年第26期講師資格課程 / 複音口琴/半音階口琴/和弦口琴/低音口琴 / 協會/教育與講師培訓/演出團體",
+      "summary": "韓國的協會、教育與講師培訓與演出團體，關注口琴教育、講師認證、教材出版、合奏與國際比賽與交流。",
+      "keywords": "사단법인 한국하모니카리더스 Korea Harmonica Leaders Daegu teacher certification 2026 26th APHF SIHF THMF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.kharmonicaleaders.co.kr/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC6ZDrvYsxIs-q06ImGWAW3g"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T10:00:05+00:00",
+      "latestUpdateLocal": "2026-08-21 18:00",
+      "latestUpdateSource": "韓國口琴領袖協會",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=Ay0ewkxOjOs",
+      "avatarUrl": "/assets/source-avatars/korea-harmonica-leaders.jpg",
+      "sourceInitials": "韓國",
+      "sourceTags": [
+        "國際交流",
+        "團體樂團",
+        "課程",
+        "比賽",
+        "半音階",
+        "複音"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_uc6zdrvysxis_q06imgwaw3g",
+          "name": "韓國口琴領袖協會",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UC6ZDrvYsxIs-q06ImGWAW3g",
           "feedUrl": ""
         }
       ]
@@ -5047,65 +5340,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-259",
-      "publicId": "259",
-      "name": "李沛寧",
-      "nameEn": "Li Pei-ning",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "Cookie Monster/口琴二重奏/THMF 2026半音階獨奏公開組季軍/WHF",
-      "structuredSummary": "Cookie Monster/口琴二重奏/THMF 2026半音階獨奏公開組季軍/WHF / 半音階口琴 / 演出人員/樂團成員",
-      "summary": "臺灣的半音階口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF 2026半音階獨奏公開組季軍。",
-      "keywords": "李沛寧 Li Pei-ning Pei Ning Lee harmonica Cookie Monster THMF 2026 A1 third WHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://laelapsharmonica.com/en/laelaps-club/pei-ning-lee/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/l.p.ning.0404/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-19T19:21:42+00:00",
-      "latestUpdateLocal": "2026-08-20 03:21",
-      "latestUpdateSource": "李沛寧",
-      "latestUpdateUrl": "https://www.instagram.com/stories/l.p.ning.0404/3967369389385075915/",
-      "avatarUrl": "/assets/source-avatars/8947e97ec5d7b40247b0.webp",
-      "sourceInitials": "李沛",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "半音階",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_l_p_ning_0404",
-          "name": "李沛寧",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "l.p.ning.0404",
-          "profileUrl": "https://www.instagram.com/l.p.ning.0404/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_l_p_ning_0404",
-          "name": "李沛寧",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "l.p.ning.0404",
-          "profileUrl": "https://www.instagram.com/l.p.ning.0404/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/l.p.ning.0404/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-297",
       "publicId": "297",
       "name": "SHG Hering Harmonicas",
@@ -5406,104 +5640,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "harmonica_wang",
           "profileUrl": "https://www.threads.net/@harmonica_wang",
           "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-5",
-      "publicId": "5",
-      "name": "胖擊口琴樂團",
-      "nameEn": "Punch Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴重奏/2016成立/五人編制/SIHF三重奏與重奏冠軍/2025 WHF三重奏與小合奏亞軍/THMF與SIHF 2026",
-      "structuredSummary": "口琴重奏/2016成立/五人編制/SIHF三重奏與重奏冠軍/2025 WHF三重奏與小合奏亞軍/THMF與SIHF 2026 / 半音階口琴/和弦口琴/倍低音口琴 / 國際演出團體/音樂教育推廣",
-      "summary": "臺灣的半音階口琴、和弦口琴與倍低音口琴國際演出團體與音樂教育推廣，活動脈絡包含口琴重奏、2016成立與五人編制。",
-      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團 THMF SIHF 2026 WHF 2025 黃冠誌 王衍華 林裕豐 王心禾 陳聰",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.taiwanharmonica.com/punch"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Punch.Harp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/punch.harp/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@punchharp"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@punch.harp"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-19T13:37:58+00:00",
-      "latestUpdateLocal": "2026-08-19 21:37",
-      "latestUpdateSource": "胖擊口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcOP0--vMVW/",
-      "avatarUrl": "/assets/source-avatars/3b718f1f575e048cdfa7.webp",
-      "sourceInitials": "胖擊",
-      "sourceTags": [
-        "團體樂團",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Punch.Harp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "punch.harp",
-          "profileUrl": "https://www.instagram.com/punch.harp/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "punch.harp",
-          "profileUrl": "https://www.instagram.com/punch.harp/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/punch.harp/story/0"
-        },
-        {
-          "id": "threads_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "threads",
-          "type": "rss",
-          "username": "punch.harp",
-          "profileUrl": "https://www.threads.net/@punch.harp",
-          "feedUrl": "https://rss.observe.tw/threads/punch.harp"
-        },
-        {
-          "id": "yt_punchharp",
-          "name": "胖擊口琴樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@punchharp",
-          "feedUrl": ""
         }
       ]
     },
@@ -8492,58 +8628,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "plashervouetband",
           "profileUrl": "https://www.instagram.com/plashervouetband/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/plashervouetband/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-309",
-      "publicId": "309",
-      "name": "韓國口琴領袖協會",
-      "nameEn": "Korea Harmonica Leaders Incorporated Association",
-      "category": "國際交流",
-      "type": "團體",
-      "originalType": "協會",
-      "country": "韓國",
-      "region": "韓國/大邱",
-      "cityOrFocus": "口琴教育/講師認證/教材出版/合奏/國際比賽與交流/2026年第26期講師資格課程",
-      "structuredSummary": "口琴教育/講師認證/教材出版/合奏/國際比賽與交流/2026年第26期講師資格課程 / 複音口琴/半音階口琴/和弦口琴/低音口琴 / 協會/教育與講師培訓/演出團體",
-      "summary": "韓國的協會、教育與講師培訓與演出團體，關注口琴教育、講師認證、教材出版、合奏與國際比賽與交流。",
-      "keywords": "사단법인 한국하모니카리더스 Korea Harmonica Leaders Daegu teacher certification 2026 26th APHF SIHF THMF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.kharmonicaleaders.co.kr/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UC6ZDrvYsxIs-q06ImGWAW3g"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-14T10:00:35+00:00",
-      "latestUpdateLocal": "2026-08-14 18:00",
-      "latestUpdateSource": "韓國口琴領袖協會",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=s_chX3x3gGU",
-      "avatarUrl": "/assets/source-avatars/korea-harmonica-leaders.jpg",
-      "sourceInitials": "韓國",
-      "sourceTags": [
-        "國際交流",
-        "團體樂團",
-        "課程",
-        "比賽",
-        "半音階",
-        "複音"
-      ],
-      "monitorSources": [
-        {
-          "id": "yt_uc6zdrvysxis_q06imgwaw3g",
-          "name": "韓國口琴領袖協會",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UC6ZDrvYsxIs-q06ImGWAW3g",
-          "feedUrl": ""
         }
       ]
     },
@@ -11596,90 +11680,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/61550868336289",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-122",
-      "publicId": "122",
-      "name": "Perfect Fourth",
-      "nameEn": "Perfect Fourth",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "香港現代風格口琴四重奏/傳統與現代和聲/舞台演出",
-      "structuredSummary": "香港現代風格口琴四重奏/傳統與現代和聲/舞台演出 / 口琴重奏 / 國際演出團體",
-      "summary": "香港的口琴重奏國際演出團體，活動脈絡包含香港現代風格口琴四重奏、傳統與現代和聲與舞台演出。",
-      "keywords": "Perfect Fourth Harmonica Quartet Hong Kong SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.perfectfourth.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/perfectfourth.org/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/perfect.fourth/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@PerfectFourth"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-07-20T05:47:27+00:00",
-      "latestUpdateLocal": "2026-07-20 13:47",
-      "latestUpdateSource": "Perfect Fourth",
-      "latestUpdateUrl": "https://www.instagram.com/stories/perfect.fourth/3945216253963099014/",
-      "avatarUrl": "/assets/source-avatars/perfect-fourth.jpg",
-      "sourceInitials": "PF",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_perfectfourth_org",
-          "name": "Perfect Fourth",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/perfectfourth.org",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_perfect_fourth",
-          "name": "Perfect Fourth",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "perfect.fourth",
-          "profileUrl": "https://www.instagram.com/perfect.fourth/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_perfect_fourth",
-          "name": "Perfect Fourth",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "perfect.fourth",
-          "profileUrl": "https://www.instagram.com/perfect.fourth/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/perfect.fourth/story/0"
-        },
-        {
-          "id": "yt_perfectfourth",
-          "name": "Perfect Fourth",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@PerfectFourth",
           "feedUrl": ""
         }
       ]

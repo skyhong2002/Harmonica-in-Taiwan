@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T16:02:57.477036Z",
+  "generatedAt": "2026-08-21T16:38:37.953504Z",
   "source": {
     "id": 309,
     "slug": "korea-harmonica-leaders-incorporated-association",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/309-korea-harmonica-leaders-incorporated-association/"
   },
   "items": [
+    {
+      "id": "post-8d5da481f0bcf5a1137448a2",
+      "title": "[그린나래시니어하모니카합주] 나성에 가면(When You Go To Na-Seong)",
+      "excerpt": "[그린나래시니어하모니카합주] 나성에 가면(When You Go To Na-Seong) 그린나래시니어하모니카합주단 창단연주회 - 나성에 가면(When You Go To Na-Seong) 앵콜곡 * 작곡: 길옥윤, 편곡: 김진완 * 지휘: 한찬송, 피아노: 임주선, 드럼: 김진환, 베이스: 장진호, 사회: 정경주 * 2024.04.20. 봉산문화회관 #사단법인한국하모니카리더스 #그린나래시니어하모니카합주단 #그린나래 #그린나래하모니카 #대구하모니카 #하모니카 #하모니카연주 #트레몰로하모니카 #코드하모…",
+      "url": "https://www.youtube.com/watch?v=Ay0ewkxOjOs",
+      "sourceName": "韓國口琴領袖協會",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-21T10:00:05Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ea07fb03eea8fbca024c.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-871621a663f21194d3c0c12d",
       "title": "[그린나래시니어하모니카합주] 연가(Pokarekare Ana)",
