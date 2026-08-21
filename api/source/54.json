@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T03:27:45.257330Z",
+  "generatedAt": "2026-08-21T04:33:48.540258Z",
   "source": {
     "id": 54,
     "slug": "cy-leo",
@@ -160,20 +160,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/c88cf7a45317be22e049.webp",
         "width": 800,
         "height": 450
-      }
-    },
-    {
-      "id": "post-037894a24a57f32e1ce14753",
-      "title": "Bass line + solo",
-      "excerpt": "Bass line + solo Mind control practice",
-      "url": "https://www.facebook.com/reel/899044103247518/",
-      "sourceName": "CY Leo 何卓彥",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-22T03:58:15Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/241e7fab630a4b0b3d49.webp",
-        "width": 540,
-        "height": 960
       }
     }
   ]
