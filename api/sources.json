@@ -1204,6 +1204,65 @@
       ]
     },
     {
+      "id": "watchlist-290",
+      "publicId": "290",
+      "name": "Ivan Marcio",
+      "nameEn": "Ivan Marcio",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "巴西",
+      "region": "巴西/聖保羅",
+      "cityOrFocus": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026",
+      "structuredSummary": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026 / 十孔口琴 / 國際演出人員/教育者/製作人",
+      "summary": "巴西的十孔口琴國際演出人員、教育者與製作人，活動脈絡包含藍調口琴、Jump Blues與錄音製作。",
+      "keywords": "Ivan Marcio ivanmarciogaita Brazil blues harmonica APHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/information/announcementDetail/417110312852779008"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ivanmarciogaita/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T22:49:57+00:00",
+      "latestUpdateLocal": "2026-08-21 06:49",
+      "latestUpdateSource": "Ivan Marcio",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcR3-OfRlvM/",
+      "avatarUrl": "/assets/source-avatars/ivan-marcio.jpg",
+      "sourceInitials": "IM",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_ivanmarciogaita",
+          "name": "Ivan Marcio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "ivanmarciogaita",
+          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_ivanmarciogaita",
+          "name": "Ivan Marcio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "ivanmarciogaita",
+          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/ivanmarciogaita/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-183",
       "publicId": "183",
       "name": "EMPA 口琴課程",
@@ -1435,65 +1494,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/@filipjersmusic",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-290",
-      "publicId": "290",
-      "name": "Ivan Marcio",
-      "nameEn": "Ivan Marcio",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "巴西",
-      "region": "巴西/聖保羅",
-      "cityOrFocus": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026",
-      "structuredSummary": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026 / 十孔口琴 / 國際演出人員/教育者/製作人",
-      "summary": "巴西的十孔口琴國際演出人員、教育者與製作人，活動脈絡包含藍調口琴、Jump Blues與錄音製作。",
-      "keywords": "Ivan Marcio ivanmarciogaita Brazil blues harmonica APHF 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.aphfhx.com/information/announcementDetail/417110312852779008"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/ivanmarciogaita/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-20T19:42:34+00:00",
-      "latestUpdateLocal": "2026-08-21 03:42",
-      "latestUpdateSource": "Ivan Marcio",
-      "latestUpdateUrl": "https://www.instagram.com/stories/ivanmarciogaita/3968104686091837109/",
-      "avatarUrl": "/assets/source-avatars/ivan-marcio.jpg",
-      "sourceInitials": "IM",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_ivanmarciogaita",
-          "name": "Ivan Marcio",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "ivanmarciogaita",
-          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_ivanmarciogaita",
-          "name": "Ivan Marcio",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "ivanmarciogaita",
-          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/ivanmarciogaita/story/0"
         }
       ]
     },

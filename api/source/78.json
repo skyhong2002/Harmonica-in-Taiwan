@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T09:07:50.829681Z",
+  "generatedAt": "2026-08-21T09:43:27.173237Z",
   "source": {
     "id": 78,
     "slug": "78",
@@ -200,20 +200,6 @@
       "publishedAt": "2026-07-23T03:37:37Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/a75a6f4272cde2f71c83.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-ee8877a0a014d4cd4f24f76c",
-      "title": "10座葛萊美獎得主阿圖羅·山多瓦！2026 衛武營爵士週，從城市跨境到世界，與自由相遇",
-      "excerpt": "10座葛萊美獎得主阿圖羅·山多瓦！2026 衛武營爵士週，從城市跨境到世界，與自由相遇 今年 9 月，衛武營爵士週集結來自阿根廷、古巴、日本與臺灣的音樂家，以三場截然不同的演出，帶領觀眾感受爵士樂跨越國界的文化對話。 ▌09.18 ㊄ ———— 🎵 MUSA 明馬丁探戈樂團《從 Barrio Hipódromo 到高雄》 從阿根廷街區出發，以探戈與拉丁節奏，譜寫一段橫跨兩地的尋根旅程。 ⠀ ▌09.19 ㊅ ———— 🎺 阿圖羅．山多瓦《自由之聲》九重奏音樂會 十座葛萊美獎得主、當代傳奇小號大師，以號聲訴說自由與生命的力量。 ⠀ ▌09.20 ㊐ ——…",
-      "url": "https://www.youtube.com/watch?v=e_1HMMxYEIM",
-      "sourceName": "衛武營國家藝術文化中心",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-22T09:08:41Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/1167c652cb0566a5a629.webp",
         "width": 800,
         "height": 450
       }
