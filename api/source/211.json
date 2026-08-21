@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T00:07:58.584728Z",
+  "generatedAt": "2026-08-21T01:14:15.760849Z",
   "source": {
     "id": 211,
     "slug": "nus-harmonica",
@@ -118,20 +118,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/42914ea98a2d9aaf4122.webp",
         "width": 800,
         "height": 1000
-      }
-    },
-    {
-      "id": "post-e8403cc8e5b34b1ca2d797fa",
-      "title": "At NUS Harmonica, diversity is at the heart of everything we do.",
-      "excerpt": "At NUS Harmonica, diversity is at the heart of everything we do. From pop and anime to classical and movie soundtracks, our repertoire spans a wide range of genres. We present our music through solo performances, small group ensembles, full orchestra pieces, and collaborations w…",
-      "url": "https://www.instagram.com/p/DbEyDq8PrED/",
-      "sourceName": "新加坡國立大學口琴社",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-22T00:19:47Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/d14a9e236a30429d3d89.webp",
-        "width": 760,
-        "height": 1350
       }
     }
   ]
