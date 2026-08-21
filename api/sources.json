@@ -71,6 +71,88 @@
   },
   "entries": [
     {
+      "id": "watchlist-166",
+      "publicId": "166",
+      "name": "海明威口琴重奏團",
+      "nameEn": "The HummingWay Harmonica Ensemble",
+      "category": "活動資訊",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "馬來西亞口琴重奏/跨國音樂節/社群演出",
+      "structuredSummary": "馬來西亞口琴重奏/跨國音樂節/社群演出 / 口琴重奏/合奏 / 國際演出團體",
+      "summary": "馬來西亞的國際演出團體，涵蓋馬來西亞口琴重奏、跨國音樂節與社群演出。",
+      "keywords": "海明威口琴重奏團 HummingWay Harmonica Ensemble Malaysia harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TheHummingWay/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hummingwayharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@hummingwaythe9424"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T23:26:32+00:00",
+      "latestUpdateLocal": "2026-08-21 07:26",
+      "latestUpdateSource": "海明威口琴重奏團",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hummingwayharmonica/3968217355247610290/",
+      "avatarUrl": "/assets/source-avatars/9136f91c9acbca0ebf4a.webp",
+      "sourceInitials": "海明",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "音樂節",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_thehummingway",
+          "name": "海明威口琴重奏團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/TheHummingWay",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hummingwayharmonica",
+          "name": "海明威口琴重奏團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hummingwayharmonica",
+          "profileUrl": "https://www.instagram.com/hummingwayharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hummingwayharmonica",
+          "name": "海明威口琴重奏團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hummingwayharmonica",
+          "profileUrl": "https://www.instagram.com/hummingwayharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hummingwayharmonica/story/0"
+        },
+        {
+          "id": "yt_hummingwaythe9424",
+          "name": "海明威口琴重奏團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@hummingwaythe9424",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-65",
       "publicId": "65",
       "name": "Jong-seong Park 朴鍾聲",
@@ -152,6 +234,65 @@
           "username": "",
           "profileUrl": "https://youtube.com/c/jongseongpark",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-290",
+      "publicId": "290",
+      "name": "Ivan Marcio",
+      "nameEn": "Ivan Marcio",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "巴西",
+      "region": "巴西/聖保羅",
+      "cityOrFocus": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026",
+      "structuredSummary": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026 / 十孔口琴 / 國際演出人員/教育者/製作人",
+      "summary": "巴西的十孔口琴國際演出人員、教育者與製作人，活動脈絡包含藍調口琴、Jump Blues與錄音製作。",
+      "keywords": "Ivan Marcio ivanmarciogaita Brazil blues harmonica APHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/information/announcementDetail/417110312852779008"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ivanmarciogaita/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T19:42:34+00:00",
+      "latestUpdateLocal": "2026-08-21 03:42",
+      "latestUpdateSource": "Ivan Marcio",
+      "latestUpdateUrl": "https://www.instagram.com/stories/ivanmarciogaita/3968104686091837109/",
+      "avatarUrl": "/assets/source-avatars/ivan-marcio.jpg",
+      "sourceInitials": "IM",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_ivanmarciogaita",
+          "name": "Ivan Marcio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "ivanmarciogaita",
+          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_ivanmarciogaita",
+          "name": "Ivan Marcio",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "ivanmarciogaita",
+          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/ivanmarciogaita/story/0"
         }
       ]
     },
@@ -1058,6 +1199,93 @@
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-109",
+      "publicId": "109",
+      "name": "Boris Plotnikov",
+      "nameEn": "Boris Plotnikov",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "俄羅斯",
+      "region": "俄羅斯",
+      "cityOrFocus": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊/SIHF 2026",
+      "structuredSummary": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊/SIHF 2026 / 十孔/半音階 / 國際演出人員/教學者",
+      "summary": "俄羅斯的十孔與半音階國際演出人員與教學者，活動脈絡包含莫斯科職業口琴演奏、藍調爵士與國際比賽得獎。",
+      "keywords": "Boris Plotnikov etaborya boris_plotnikov harmonica SIHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://borisplotnikov.ru/en"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/boris.plotnikov.9"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/boris_plotnikov/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@etaborya"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-20T18:14:29+00:00",
+      "latestUpdateLocal": "2026-08-21 02:14",
+      "latestUpdateSource": "Boris Plotnikov",
+      "latestUpdateUrl": "https://www.instagram.com/stories/boris_plotnikov/3968060568120893464/",
+      "avatarUrl": "/assets/source-avatars/boris-plotnikov.jpg",
+      "sourceInitials": "BP",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "比賽",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_boris_plotnikov_9",
+          "name": "Boris Plotnikov",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/boris.plotnikov.9",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_boris_plotnikov",
+          "name": "Boris Plotnikov",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "boris_plotnikov",
+          "profileUrl": "https://www.instagram.com/boris_plotnikov/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_boris_plotnikov",
+          "name": "Boris Plotnikov",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "boris_plotnikov",
+          "profileUrl": "https://www.instagram.com/boris_plotnikov/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/boris_plotnikov/story/0"
+        },
+        {
+          "id": "yt_etaborya",
+          "name": "Boris Plotnikov",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@etaborya",
           "feedUrl": ""
         }
       ]
@@ -2418,93 +2646,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@cyleoharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-109",
-      "publicId": "109",
-      "name": "Boris Plotnikov",
-      "nameEn": "Boris Plotnikov",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "俄羅斯",
-      "region": "俄羅斯",
-      "cityOrFocus": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊/SIHF 2026",
-      "structuredSummary": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊/SIHF 2026 / 十孔/半音階 / 國際演出人員/教學者",
-      "summary": "俄羅斯的十孔與半音階國際演出人員與教學者，活動脈絡包含莫斯科職業口琴演奏、藍調爵士與國際比賽得獎。",
-      "keywords": "Boris Plotnikov etaborya boris_plotnikov harmonica SIHF 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://borisplotnikov.ru/en"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/boris.plotnikov.9"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/boris_plotnikov/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@etaborya"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-20T08:56:30+00:00",
-      "latestUpdateLocal": "2026-08-20 16:56",
-      "latestUpdateSource": "Boris Plotnikov",
-      "latestUpdateUrl": "https://www.instagram.com/stories/boris_plotnikov/3967779447556298891/",
-      "avatarUrl": "/assets/source-avatars/boris-plotnikov.jpg",
-      "sourceInitials": "BP",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "比賽",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_boris_plotnikov_9",
-          "name": "Boris Plotnikov",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/boris.plotnikov.9",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_boris_plotnikov",
-          "name": "Boris Plotnikov",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "boris_plotnikov",
-          "profileUrl": "https://www.instagram.com/boris_plotnikov/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_boris_plotnikov",
-          "name": "Boris Plotnikov",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "boris_plotnikov",
-          "profileUrl": "https://www.instagram.com/boris_plotnikov/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/boris_plotnikov/story/0"
-        },
-        {
-          "id": "yt_etaborya",
-          "name": "Boris Plotnikov",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@etaborya",
           "feedUrl": ""
         }
       ]
@@ -5646,65 +5787,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/@HenrysHarmonica",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-290",
-      "publicId": "290",
-      "name": "Ivan Marcio",
-      "nameEn": "Ivan Marcio",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "巴西",
-      "region": "巴西/聖保羅",
-      "cityOrFocus": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026",
-      "structuredSummary": "藍調口琴/Jump Blues/錄音製作/教學/APHF 2026 / 十孔口琴 / 國際演出人員/教育者/製作人",
-      "summary": "巴西的十孔口琴國際演出人員、教育者與製作人，活動脈絡包含藍調口琴、Jump Blues與錄音製作。",
-      "keywords": "Ivan Marcio ivanmarciogaita Brazil blues harmonica APHF 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.aphfhx.com/information/announcementDetail/417110312852779008"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/ivanmarciogaita/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-18T23:54:48+00:00",
-      "latestUpdateLocal": "2026-08-19 07:54",
-      "latestUpdateSource": "Ivan Marcio",
-      "latestUpdateUrl": "https://www.instagram.com/stories/ivanmarciogaita/3966782178285698298/",
-      "avatarUrl": "/assets/source-avatars/ivan-marcio.jpg",
-      "sourceInitials": "IM",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_ivanmarciogaita",
-          "name": "Ivan Marcio",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "ivanmarciogaita",
-          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_ivanmarciogaita",
-          "name": "Ivan Marcio",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "ivanmarciogaita",
-          "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/ivanmarciogaita/story/0"
         }
       ]
     },
@@ -9031,88 +9113,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@UpSideDownharmonicaensemble",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-166",
-      "publicId": "166",
-      "name": "海明威口琴重奏團",
-      "nameEn": "The HummingWay Harmonica Ensemble",
-      "category": "活動資訊",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "馬來西亞口琴重奏/跨國音樂節/社群演出",
-      "structuredSummary": "馬來西亞口琴重奏/跨國音樂節/社群演出 / 口琴重奏/合奏 / 國際演出團體",
-      "summary": "馬來西亞的國際演出團體，涵蓋馬來西亞口琴重奏、跨國音樂節與社群演出。",
-      "keywords": "海明威口琴重奏團 HummingWay Harmonica Ensemble Malaysia harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/TheHummingWay/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hummingwayharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@hummingwaythe9424"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-12T04:15:36+00:00",
-      "latestUpdateLocal": "2026-08-12 12:15",
-      "latestUpdateSource": "海明威口琴重奏團",
-      "latestUpdateUrl": "https://www.instagram.com/p/Db7RlSTxZK2/",
-      "avatarUrl": "/assets/source-avatars/9136f91c9acbca0ebf4a.webp",
-      "sourceInitials": "海明",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "音樂節",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_thehummingway",
-          "name": "海明威口琴重奏團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/TheHummingWay",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hummingwayharmonica",
-          "name": "海明威口琴重奏團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hummingwayharmonica",
-          "profileUrl": "https://www.instagram.com/hummingwayharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hummingwayharmonica",
-          "name": "海明威口琴重奏團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hummingwayharmonica",
-          "profileUrl": "https://www.instagram.com/hummingwayharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hummingwayharmonica/story/0"
-        },
-        {
-          "id": "yt_hummingwaythe9424",
-          "name": "海明威口琴重奏團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@hummingwaythe9424",
           "feedUrl": ""
         }
       ]

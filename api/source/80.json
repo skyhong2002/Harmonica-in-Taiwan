@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T23:01:36.907918Z",
+  "generatedAt": "2026-08-21T00:07:58.584728Z",
   "source": {
     "id": 80,
     "slug": "80",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/80/"
   },
   "items": [
+    {
+      "id": "post-a213ec62d7e16009abcd9f52",
+      "title": "《WOW挖藝術》特別集｜旗艦歌劇《女人皆如此》潘月琪╳邢子青 關於人性的不完美告白",
+      "excerpt": "《WOW挖藝術》特別集｜旗艦歌劇《女人皆如此》潘月琪╳邢子青 關於人性的不完美告白 🎙️莫札特的真面目，竟像是喝著啤酒的嬉皮？ 如果能回到過去，邢子青最想勸莫札特─好好理財？ 談起莫札特，有時像是不受拘束、才華橫溢的音樂神童；有時又像是早已看透愛情與人性的老朋友，總能用音樂說中每個人的心事。 這集Podcast，我們邀請資深媒體主持人潘月琪，與資深古典音樂媒體人邢子青，從莫札特生平聊到喜歌劇《女人皆如此》，帶你發現莫札特幽默、叛逆又真性情的一面！ 🎭 為什麼一部兩百多年前的歌劇，至今仍讓人又笑又心痛？ 🎭 歐洲竟有創作者把《女人皆如此》搬進紅燈區演出？…",
+      "url": "https://www.youtube.com/watch?v=PnZlpsJmqjc",
+      "sourceName": "臺中國家歌劇院",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-20T04:00:25Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/287fbf583be2dff95b02.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-550feae4dbb8a692f3f215b9",
       "title": "2026 NTT遇見巨人｜世紀經典重現！《女人皆如此》邢子青╳潘月琪真情推薦！",

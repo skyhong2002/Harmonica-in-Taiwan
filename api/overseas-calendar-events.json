@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-21T07:01:40+08:00",
+  "generatedAt": "2026-08-21T08:08:02+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
   "count": 11,
@@ -14,8 +14,8 @@
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 2,
-      "cached": 20,
+      "requests": 0,
+      "cached": 22,
       "errors": 0
     }
   },

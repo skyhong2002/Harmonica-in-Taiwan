@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T23:01:36.907918Z",
+  "generatedAt": "2026-08-21T00:07:58.584728Z",
   "source": {
     "id": 79,
     "slug": "79",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/79/"
   },
   "items": [
+    {
+      "id": "post-531874e691855768229c8cac",
+      "title": "為什麼千禧世代現正重新發現臺灣史？ feat. 電影史研究者 蘇致亨、「僻室House Peace」陳弘洋",
+      "excerpt": "為什麼千禧世代現正重新發現臺灣史？ feat. 電影史研究者 蘇致亨、「僻室House Peace」陳弘洋 《返校》、《聽海湧》、《大濛》⋯⋯，「臺灣史」近年來似乎成為了藝文界備受關注的創作焦點。為何千禧世代的創作者與觀眾，會對這些歷史故事產生如此深厚的共鳴？臺灣人生在同一片土地、說著同樣的語言，卻因為不同的教育體制與時代氛圍，讓我們對臺灣的歷史脈絡與國族認同有著不同的定義與想像。然而當臺灣史題材漸漸變成一種可預期的「典範套路」，年輕創作者會遇到什麼挑戰？又該如何突破呢？本集我們邀請到金典獎得主aka電影史研究者的蘇致亨，以及兩廳院駐館藝術團隊「僻室P…",
+      "url": "https://www.youtube.com/watch?v=0Yxb5A5r78M",
+      "sourceName": "國家兩廳院",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-20T00:22:48Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d0c8a8c303037c5e9a38.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-42c4855b2db33100abdb49ad",
       "title": "獻紙燒錢，上路喔 ➫ 音樂劇《勸世三姊妹》臺北國家戲劇院場次觀賞攻略",
