@@ -15,6 +15,8 @@ from datetime import date, datetime, timezone, timedelta
 from pathlib import Path
 from typing import Any
 
+from source_slugs import make_slug
+
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 SITE_ROOT = PROJECT_ROOT / "site"
@@ -1365,6 +1367,7 @@ def build_entries() -> list[dict[str, object]]:
     tag_cache = source_tag_cache()
     monitor_sources = monitor_sources_by_key()
     for entry in merged_entries:
+        entry["slug"] = make_slug(entry)
         apply_latest_update(entry, latest)
         apply_avatar(entry, avatars)
         apply_source_tags(entry, tag_cache)

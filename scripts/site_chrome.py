@@ -5,7 +5,7 @@ from __future__ import annotations
 import re
 
 
-ASSET_VERSION = "20260820-source-table-id-v1"
+ASSET_VERSION = "20260822-canonical-source-slug-v1"
 BRAND_LOGO_HTML = (
     f'<img class="brand-logo" src="/assets/logo.svg?v={ASSET_VERSION}" '
     'alt="臺灣口琴觀測站" width="200" height="47">'

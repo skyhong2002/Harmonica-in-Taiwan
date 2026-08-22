@@ -27,6 +27,8 @@
 
   function makeSlug(entry) {
     if (!entry) return "";
+    const canonicalSlug = (entry.slug || "").trim();
+    if (canonicalSlug) return canonicalSlug;
     const rawEntryId = (entry.id || "").trim();
     const entryId = rawEntryId.replace(/^watchlist-(\d+)$/, "$1");
     const nameEn = (entry.nameEn || "").trim();
