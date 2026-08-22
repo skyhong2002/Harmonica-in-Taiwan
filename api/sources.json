@@ -71,6 +71,66 @@
   },
   "entries": [
     {
+      "id": "watchlist-229",
+      "publicId": "229",
+      "name": "Hohner Harmonica",
+      "nameEn": "Hohner Harmonica",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌/樂器製造商",
+      "country": "德國",
+      "region": "德國/國際",
+      "cityOrFocus": "口琴製造/產品資訊/演奏推廣/國際社群",
+      "structuredSummary": "口琴製造/產品資訊/演奏推廣/國際社群 / 口琴 / 器材品牌",
+      "summary": "德國的口琴器材品牌，關注口琴製造、產品資訊、演奏推廣與國際社群。",
+      "keywords": "Hohner Harmonica HOHNER 口琴 品牌 德國",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/hohnermusic"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hohnerharmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "229-hohner-harmonica",
+      "latestUpdateAt": "2026-08-22T16:36:13+00:00",
+      "latestUpdateLocal": "2026-08-23 00:36",
+      "latestUpdateSource": "Hohner Harmonica",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcWWXXdSUcT/",
+      "avatarUrl": "/assets/source-avatars/1185d184817b65745a7d.webp",
+      "sourceInitials": "HH",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_hohnerharmonica",
+          "name": "Hohner Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hohnerharmonica",
+          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hohnerharmonica",
+          "name": "Hohner Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hohnerharmonica",
+          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerharmonica/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-34",
       "publicId": "34",
       "name": "王衍華",
@@ -152,6 +212,102 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@keriw128",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-78",
+      "publicId": "78",
+      "name": "衛武營國家藝術文化中心",
+      "nameEn": "National Kaohsiung Center for the Arts (Weiwuying)",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "衛武營 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-weiwuying.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@weiwuyingfilm"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@weiwuying_centerforthearts"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "78",
+      "latestUpdateAt": "2026-08-22T14:00:13+00:00",
+      "latestUpdateLocal": "2026-08-22 22:00",
+      "latestUpdateSource": "衛武營國家藝術文化中心",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcWE8wUSQJ_/",
+      "avatarUrl": "/assets/source-avatars/27e6bf359ab5b57dc67e.webp",
+      "sourceInitials": "衛武",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_weiwuyingcenterforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
+        },
+        {
+          "id": "ig_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "threads",
+          "type": "rss",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
+          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
+        },
+        {
+          "id": "yt_weiwuyingfilm",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@weiwuyingfilm",
           "feedUrl": ""
         }
       ]
@@ -2996,66 +3152,6 @@
       ]
     },
     {
-      "id": "watchlist-229",
-      "publicId": "229",
-      "name": "Hohner Harmonica",
-      "nameEn": "Hohner Harmonica",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "品牌/樂器製造商",
-      "country": "德國",
-      "region": "德國/國際",
-      "cityOrFocus": "口琴製造/產品資訊/演奏推廣/國際社群",
-      "structuredSummary": "口琴製造/產品資訊/演奏推廣/國際社群 / 口琴 / 器材品牌",
-      "summary": "德國的口琴器材品牌，關注口琴製造、產品資訊、演奏推廣與國際社群。",
-      "keywords": "Hohner Harmonica HOHNER 口琴 品牌 德國",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/hohnermusic"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hohnerharmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "229-hohner-harmonica",
-      "latestUpdateAt": "2026-08-22T00:27:28+00:00",
-      "latestUpdateLocal": "2026-08-22 08:27",
-      "latestUpdateSource": "Hohner Harmonica",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcUnxSfB79l/",
-      "avatarUrl": "/assets/source-avatars/1185d184817b65745a7d.webp",
-      "sourceInitials": "HH",
-      "sourceTags": [
-        "品牌",
-        "教學器材",
-        "教學",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_hohnerharmonica",
-          "name": "Hohner Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hohnerharmonica",
-          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hohnerharmonica",
-          "name": "Hohner Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hohnerharmonica",
-          "profileUrl": "https://www.instagram.com/hohnerharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerharmonica/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-132",
       "publicId": "132",
       "name": "Antonio Serrano",
@@ -5649,102 +5745,6 @@
       ]
     },
     {
-      "id": "watchlist-78",
-      "publicId": "78",
-      "name": "衛武營國家藝術文化中心",
-      "nameEn": "National Kaohsiung Center for the Arts (Weiwuying)",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/高雄",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "衛武營 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-weiwuying.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@weiwuyingfilm"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@weiwuying_centerforthearts"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "78",
-      "latestUpdateAt": "2026-08-21T01:01:57+00:00",
-      "latestUpdateLocal": "2026-08-21 09:01",
-      "latestUpdateSource": "衛武營國家藝術文化中心",
-      "latestUpdateUrl": "https://www.instagram.com/stories/weiwuying_centerforthearts/3968265374293343902/",
-      "avatarUrl": "/assets/source-avatars/27e6bf359ab5b57dc67e.webp",
-      "sourceInitials": "衛武",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_weiwuyingcenterforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
-        },
-        {
-          "id": "ig_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "threads",
-          "type": "rss",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
-          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
-        },
-        {
-          "id": "yt_weiwuyingfilm",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@weiwuyingfilm",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-40",
       "publicId": "40",
       "name": "陳鴻儀",
@@ -6987,7 +6987,7 @@
       "latestUpdateLocal": "2026-08-19 21:45",
       "latestUpdateSource": "林裕豐",
       "latestUpdateUrl": "https://www.instagram.com/stories/yf__life/3967200352634353457/",
-      "avatarUrl": "/assets/source-avatars/965df26904fdd5e4f1b3.webp",
+      "avatarUrl": "/assets/source-avatars/49f44778872dfe061c8f.webp",
       "sourceInitials": "林裕",
       "sourceTags": [
         "演奏者",
