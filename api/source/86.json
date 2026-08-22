@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T00:07:44.347020Z",
+  "generatedAt": "2026-08-22T00:41:48.170580Z",
   "source": {
     "id": 86,
     "slug": "ou-frog",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/86-ou-frog/"
   },
   "items": [
+    {
+      "id": "post-b678ca8130ce2b1960c96121",
+      "title": "[伴奏 Accompaniment] 我要為你歌唱｜複音口琴｜Tremolo harmonica｜口琴譜｜口琴教學｜Harmonica tabs",
+      "excerpt": "[伴奏 Accompaniment] 我要為你歌唱｜複音口琴｜Tremolo harmonica｜口琴譜｜口琴教學｜Harmonica tabs 頻道開啟了超級感謝、留言系列，再請多多支持❤😄。 複音口琴 21 孔 ； 節拍器速度102 觀看口琴示範版，請至頻道演奏影片或開頭資訊卡 伴奏： 歐老師",
+      "url": "https://www.youtube.com/watch?v=TvkpyUroqXE",
+      "sourceName": "吹出好心琴 + Ou Frog",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-21T04:00:11Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/029199ff6feff6446573.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-8bc6d0605668900f5d55a3bb",
       "title": "[口琴演奏 Play Harmonica] 《我要為你歌唱》｜複音口琴｜Tremolo｜口琴教學｜Harmonica tabs",

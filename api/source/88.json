@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T00:07:44.347020Z",
+  "generatedAt": "2026-08-22T00:41:48.170580Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/88-bluebo-harmonica/"
   },
   "items": [
+    {
+      "id": "post-5ea93e26870c01204e02099b",
+      "title": "第2號華爾滋丨新光豪宅的突襲演出丨半音階口琴",
+      "excerpt": "第2號華爾滋丨新光豪宅的突襲演出丨半音階口琴 這個夏天你在做什麼呢? 同學受邀去新光總統豪宅舉辦的夏日音樂會表演並擔任主持人，為此大家都嚴加打扮，不是嚴加練習喔😄! 只見現場貝多芬、蕭邦、帕格尼尼等曲子一路飆，最後總算吹完，可以拿旁邊的點心吃了。",
+      "url": "https://www.youtube.com/watch?v=q5z1VHYlDng",
+      "sourceName": "藍波口琴教室",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-21T10:00:34Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/5d5abfbb5e7ad9ea9f02.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-b5db52f25d94663758df2305",
       "title": "《月亮代表我的心＋青蘋果樂園》營火晚會丨北投社大口琴班",

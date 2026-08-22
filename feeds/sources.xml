@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 22 Aug 2026 00:07:46 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 00:41:49 +0000</lastBuildDate>
     <item>
       <title>Ivan Marcio</title>
       <link>https://www.aphfhx.com/information/announcementDetail/417110312852779008</link>
@@ -227,6 +227,17 @@ Tag：演奏者、教學
 臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。</description>
     </item>
     <item>
+      <title>Lee Oskar</title>
+      <link>https://leeoskar.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/46bea6a12ee3ef49</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：品牌、演奏者、團體樂團、十孔、國際交流
+國家：丹麥
+地區：美國
+丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。</description>
+    </item>
+    <item>
       <title>Santiago Alvarez</title>
       <link>https://worldharmonicafestival.de/artist-profile-santiago-alvarez/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/2cffec8e56b63330</guid>
@@ -280,6 +291,17 @@ Tag：演奏者、合奏、國際交流
 國家：韓國
 地區：韓國
 韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。</description>
+    </item>
+    <item>
+      <title>Stay Drunk 口琴樂團</title>
+      <link>https://www.instagram.com/staydrunk_h.e/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c1285464d10bfbbe</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏
+國家：臺灣
+地區：臺灣
+臺灣的大學生新生代口琴重奏演出團體。</description>
     </item>
     <item>
       <title>黃冠誌</title>
@@ -502,6 +524,17 @@ Tag：演奏者、十孔
 臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。</description>
     </item>
     <item>
+      <title>藍波口琴教室</title>
+      <link>https://www.blueboclass.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/208580c304c32492</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：教學器材、教學、課程
+國家：臺灣
+地區：臺灣
+臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。</description>
+    </item>
+    <item>
       <title>韓國口琴領袖協會</title>
       <link>https://www.kharmonicaleaders.co.kr/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/c579b6da0afabe86</guid>
@@ -623,17 +656,6 @@ Tag：品牌、教學器材、教學、半音階、複音、十孔
 日本的口琴樂器品牌與器材資訊，關注半音階、十孔、複音、低音與和弦口琴與產品資訊。</description>
     </item>
     <item>
-      <title>Stay Drunk 口琴樂團</title>
-      <link>https://www.instagram.com/staydrunk_h.e/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c1285464d10bfbbe</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏
-國家：臺灣
-地區：臺灣
-臺灣的大學生新生代口琴重奏演出團體。</description>
-    </item>
-    <item>
       <title>馬來西亞口琴節</title>
       <link>https://www.facebook.com/malaysiaharmonicafestival/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/17d4f5097cac10dd</guid>
@@ -643,6 +665,17 @@ Tag：活動資訊、團體樂團、比賽、重奏、國際交流
 國家：馬來西亞
 地區：馬來西亞/吉隆坡
 馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。</description>
+    </item>
+    <item>
+      <title>吹出好心琴 + Ou Frog</title>
+      <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/a7900260c88a5842</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：品牌、教學器材、教學
+國家：臺灣
+地區：臺灣
+臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
     </item>
     <item>
       <title>山下伶 Rei Yamashita</title>
@@ -709,17 +742,6 @@ Tag：教學器材、國際交流、課程、半音階、十孔
 國家：阿根廷
 地區：阿根廷/阿韋亞內達
 阿根廷的國際教育來源，關注公立流行音樂學校、正式口琴課程、爵士、探戈與民俗。</description>
-    </item>
-    <item>
-      <title>Lee Oskar</title>
-      <link>https://leeoskar.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/46bea6a12ee3ef49</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：品牌、演奏者、團體樂團、十孔、國際交流
-國家：丹麥
-地區：美國
-丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。</description>
     </item>
     <item>
       <title>Tian Long Li</title>
@@ -1019,17 +1041,6 @@ Tag：演奏者、半音階、複音、國際交流
 臺灣的半音階口琴與複音口琴演出人員與國際賽事得獎者，活動脈絡包含半音階與複音口琴、2019 SIHF Seoul Major Prize與青年演奏與國際賽事。</description>
     </item>
     <item>
-      <title>藍波口琴教室</title>
-      <link>https://www.blueboclass.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/208580c304c32492</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：教學器材、教學、課程
-國家：臺灣
-地區：臺灣
-臺灣的口琴教學與課程來源，關注口琴教學、課程與學習資源。</description>
-    </item>
-    <item>
       <title>韋笙堡口琴 Weissenberg Harmonicas</title>
       <link>https://www.weissenbergwind.com/tw/product_list.php?type=4</link>
       <guid>https://harmonica.observe.tw/feeds/sources/6943943f14cc844d</guid>
@@ -1050,17 +1061,6 @@ Tag：演奏者、教學、半音階、國際交流
 國家：韓國
 地區：韓國/首爾
 韓國的半音階口琴國際演出人員與教學者，活動脈絡包含首爾藝術大學實用音樂系口琴主修、半音階爵士與Seoul Soloists。</description>
-    </item>
-    <item>
-      <title>吹出好心琴 + Ou Frog</title>
-      <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/a7900260c88a5842</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：品牌、教學器材、教學
-國家：臺灣
-地區：臺灣
-臺灣的口琴教學影片來源，關注口琴教學影片與示範。</description>
     </item>
     <item>
       <title>Rodrigo Eberienos</title>
