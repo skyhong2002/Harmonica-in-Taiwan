@@ -116,6 +116,10 @@ EVENT_TERMS = [
     "場次",
     "活動時間",
     "日時",
+    "論壇",
+    "论坛",
+    "forum",
+    "webinar",
 ]
 
 DATE_RANGE_RE = re.compile(
@@ -126,8 +130,28 @@ DATE_RANGE_RE = re.compile(
 FULL_DATE_RE = re.compile(r"(?P<year>\d{2,4})\s*(?:年|[./-])\s*(?P<month>\d{1,2})\s*(?:月|[./-])\s*(?P<day>\d{1,2})\s*(?:日)?")
 MONTH_DAY_RE = re.compile(r"(?<!\d)(?P<month>\d{1,2})\s*(?:月|[./])\s*(?P<day>\d{1,2})\s*(?:日)?(?!\d)")
 SLASH_DATE_RE = re.compile(r"(?<!\d)(?P<first>\d{1,2})\s*/\s*(?P<second>\d{1,2})(?!\d)")
+ENGLISH_MONTHS = {
+    "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
+    "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12,
+}
+_ENGLISH_MONTH_PART = (
+    r"Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|"
+    r"Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?"
+)
+ENGLISH_DATE_RE = re.compile(
+    r"(?<![A-Za-z\d])(?:"
+    rf"(?P<day_first>\d{{1,2}})(?:st|nd|rd|th)?\s+(?P<month_after>{_ENGLISH_MONTH_PART})"
+    r"|"
+    rf"(?P<month_before>{_ENGLISH_MONTH_PART})\.?\s+(?P<day_second>\d{{1,2}})(?:st|nd|rd|th)?"
+    r")"
+    r"(?:,?\s*(?P<year>\d{4}))?(?![A-Za-z\d])",
+    re.IGNORECASE,
+)
 COMPACT_RANGE_RE = re.compile(r"(?<!\d)(?P<year>\d{2})(?P<month>\d{2})(?P<day>\d{2})\s*[-~〜]\s*(?P<end_month>\d{2})(?P<end_day>\d{2})(?!\d)")
 TIME_RE = re.compile(r"(?<!\d)(?P<hour>[01]?\d|2[0-3])[:：](?P<minute>[0-5]\d)(?!\d)")
+AMPM_TIME_RE = re.compile(
+    r"(?<!\d)(?P<hour>1[0-2]|0?[1-9])(?:[:：](?P<minute>[0-5]\d))?\s*(?P<ampm>[AaPp])\.?[Mm]\b"
+)
 TIME_WITH_UNIT_RE = re.compile(r"(?P<prefix>上午|早上|中午|下午|晚上|夜|午前|午後)?\s*(?P<hour>[01]?\d|2[0-3])\s*(?:時|点|點)(?:\s*(?P<minute>[0-5]\d)\s*分?)?")
 CHINESE_TIME_RE = re.compile(r"(?P<prefix>上午|早上|中午|下午|晚上|夜)?\s*(?P<hour>[一二兩三四五六七八九十]{1,3})\s*(?:點|時)(?P<half>半)?")
 LOCATION_RE = re.compile(r"(?:地點|地点|場地|會場|会場|場所|上課地點|活動地點|舉辦地點)\s*[｜|:：]?\s*(?P<place>[^\n。；;，,]{2,48})")
@@ -146,7 +170,11 @@ TAIWAN_PLACE_RE = re.compile(
 OVERSEAS_PLACE_RE = re.compile(
     r"日本|東京|東京都|大阪|和歌山|名古屋|香港|新加坡|Singapore|Japan|Tokyo|Osaka|Hong Kong|Malaysia|馬來西亞|恵比寿|BLUE NOTE PLACE|アーク栄"
 )
-ONLINE_EVENT_RE = re.compile(r"線上|直播|live\s*stream|livestream|streaming|online|YouTube\s*Live|IG\s*Live|Facebook\s*Live", re.IGNORECASE)
+ONLINE_EVENT_RE = re.compile(r"線上|直播|live\s*stream|livestream|streaming|online|YouTube\s*Live|IG\s*Live|Facebook\s*Live|zoom|webinar|google\s*meet", re.IGNORECASE)
+ONLINE_PLATFORM_LABEL_RE = re.compile(
+    r"(?:platform|平台|平臺)\s*[｜|:：]\s*(?:facebook|youtube|instagram|ig|zoom|google\s*meet|線上|直播)",
+    re.IGNORECASE,
+)
 NON_LIVE_ONLINE_RE = re.compile(r"回顧|重播|隨選|archive|archived|アーカイブ|配信中|影片發布|影片回放", re.IGNORECASE)
 ONLINE_LOGISTICS_RE = re.compile(
     r"(?:線上|網路|online\s+)(?:報名|購票|登記|申請|registration|tickets?)",
@@ -218,6 +246,19 @@ def infer_month_day(month: int, day: int, posted_at: dt.datetime | None) -> dt.d
     return candidate
 
 
+def english_date_from_match(match: re.Match, posted_at: dt.datetime | None) -> dt.date | None:
+    month_name = (match.group("month_after") or match.group("month_before") or "")[:3].lower()
+    month = ENGLISH_MONTHS.get(month_name)
+    day_raw = match.group("day_first") or match.group("day_second")
+    if not month or not day_raw:
+        return None
+    day = int(day_raw)
+    year_raw = match.group("year")
+    if year_raw:
+        return safe_date(normalized_year(int(year_raw), (posted_at or dt.datetime.now(TAIWAN_TZ)).year), month, day)
+    return infer_month_day(month, day, posted_at)
+
+
 def parse_loose_date(
     text: str,
     posted_at: dt.datetime | None,
@@ -235,6 +276,9 @@ def parse_loose_date(
     month_day = MONTH_DAY_RE.search(cleaned)
     if month_day:
         return infer_month_day(int(month_day.group("month")), int(month_day.group("day")), posted_at)
+    english = ENGLISH_DATE_RE.search(text.strip())
+    if english:
+        return english_date_from_match(english, posted_at)
     return None
 
 
@@ -301,7 +345,9 @@ def text_has_any(text: str, terms: list[str]) -> bool:
 
 def is_online_event_text(text: str) -> bool:
     event_text = ONLINE_LOGISTICS_RE.sub("", text)
-    return bool(ONLINE_EVENT_RE.search(event_text)) and not bool(NON_LIVE_ONLINE_RE.search(event_text))
+    if NON_LIVE_ONLINE_RE.search(event_text):
+        return False
+    return bool(ONLINE_EVENT_RE.search(event_text)) or bool(ONLINE_PLATFORM_LABEL_RE.search(event_text))
 
 
 def valid_timezone(value: Any) -> str:
@@ -454,6 +500,15 @@ def date_match_is_truncated(text: str, end: int) -> bool:
 
 
 def extract_time(text: str) -> str:
+    match = AMPM_TIME_RE.search(text)
+    if match:
+        hour = int(match.group("hour"))
+        minute = int(match.group("minute") or 0)
+        if match.group("ampm").lower() == "p" and hour < 12:
+            hour += 12
+        elif match.group("ampm").lower() == "a" and hour == 12:
+            hour = 0
+        return f"{hour:02d}:{minute:02d}"
     match = TIME_RE.search(text)
     if match:
         return f"{int(match.group('hour')):02d}:{match.group('minute')}"
@@ -823,6 +878,20 @@ def date_candidates(text: str, posted_at: dt.datetime | None) -> list[tuple[dt.d
             if key not in seen:
                 seen.add(key)
                 candidates.append((date, date, context))
+
+    for match in ENGLISH_DATE_RE.finditer(text):
+        if date_match_is_truncated(text, match.end()):
+            continue
+        date = english_date_from_match(match, posted_at)
+        if not date:
+            continue
+        context = nearby_context(text, match.start(), match.end())
+        if not text_has_any(context, EVENT_TERMS):
+            continue
+        key = (date, date)
+        if key not in seen:
+            seen.add(key)
+            candidates.append((date, date, context))
 
     return candidates
 

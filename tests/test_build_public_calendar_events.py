@@ -1,3 +1,4 @@
+import datetime as dt
 import sys
 import tempfile
 import unittest
@@ -83,6 +84,57 @@ class PublicCalendarExtractionTests(unittest.TestCase):
             [context for _start, _end, context in caption_candidates],
             ["30/8 Hong Kong", "23/9 Taipei, Taiwan", "3/10 Singapore"],
         )
+
+    def test_date_candidates_accept_english_month_dates(self):
+        text = (
+            "MEET THE JURY: TECHNIQUE VS MUSICALITY 技巧 VS 音乐性\n"
+            "本次论坛将探讨技巧与音乐性，评审究竟会如何评判？\n"
+            "📅 Date 日期｜22 August 2026\n"
+            "⏰ Time 时间｜8PM\n"
+            "📍 Platform 平台｜Facebook"
+        )
+
+        candidates = calendar.date_candidates(text, calendar.parse_datetime("2026-08-14 19:22"))
+
+        self.assertEqual(
+            [start.isoformat() for start, _end, _context in candidates],
+            ["2026-08-22"],
+        )
+        self.assertEqual(calendar.extract_time(candidates[0][2]), "20:00")
+
+        month_first = calendar.date_candidates(
+            "Harmonica concert on August 22, 2026 at the hall",
+            calendar.parse_datetime("2026-08-14 19:22"),
+        )
+        self.assertEqual(
+            [start.isoformat() for start, _end, _context in month_first],
+            ["2026-08-22"],
+        )
+
+        no_day = calendar.date_candidates(
+            "Harmonica concert in May 2026",
+            calendar.parse_datetime("2026-08-14 19:22"),
+        )
+        self.assertEqual(no_day, [])
+
+        no_event_terms = calendar.date_candidates(
+            "We met on 22 August 2026 and had a great time",
+            calendar.parse_datetime("2026-08-14 19:22"),
+        )
+        self.assertEqual(no_event_terms, [])
+
+    def test_online_platform_label_marks_online_event(self):
+        text = "MEET THE JURY 论坛\n📅 Date 日期｜22 August 2026\n📍 Platform 平台｜Facebook\n#MalaysiaHarmonicaFestival"
+
+        self.assertTrue(calendar.is_online_event_text(text))
+        self.assertEqual(calendar.classify_event_mode("馬來西亞", text, calendar.ONLINE), calendar.ONLINE)
+        self.assertFalse(calendar.is_online_event_text("歡迎來我們的 Facebook 粉絲專頁按讚"))
+
+    def test_extract_time_supports_am_pm(self):
+        self.assertEqual(calendar.extract_time("⏰ Time 时间｜8PM"), "20:00")
+        self.assertEqual(calendar.extract_time("Doors open 7:30 pm"), "19:30")
+        self.assertEqual(calendar.extract_time("Starts 12PM sharp"), "12:00")
+        self.assertEqual(calendar.extract_time("10 a.m. workshop"), "10:00")
 
     def test_tour_schedule_review_keeps_explicit_city_without_venue(self):
         item = {
@@ -362,19 +414,21 @@ class PublicCalendarExtractionTests(unittest.TestCase):
         self.assertEqual([event["id"] for event in deduped], ["unrelated", "complete-festival"])
 
     def test_multi_event_post_uses_candidate_specific_fields(self):
+        # 活動日期用下一年，避免測試裡的固定日期落入「已過期活動」過濾窗而被丟棄。
+        year = dt.date.today().year + 1
         item = {
             "source": "臺灣口琴音樂節 Taiwan Harmonica Music Festival",
             "source_id": "ig_taiwanharmonica",
             "platform": "instagram",
-            "posted_at_local": "2026-07-14 15:47",
+            "posted_at_local": f"{year}-07-14 15:47",
             "link": "https://www.instagram.com/p/Daw_UL_kxiZ/",
             "text": (
-                "📌2026 臺灣口琴音樂節即將於 8 月 7 日至 8 月 9 日，"
+                f"📌{year} 臺灣口琴音樂節即將於 8 月 7 日至 8 月 9 日，"
                 "在國立陽明交通大學光復校區與新竹市文化局演藝廳登場！\n"
                 "本年度特別規劃兩場音樂節前導活動，而本場「前導音樂會」即為第二場活動！\n"
                 "前導音樂會採線上報名，名額有限。\n"
-                "2026 臺灣口琴音樂節：前導音樂會資訊\n"
-                "📍時間：2026/08/04 (二) 14:00\n"
+                f"{year} 臺灣口琴音樂節：前導音樂會資訊\n"
+                f"📍時間：{year}/08/04 (二) 14:00\n"
                 "📍地點：竹東親愛愛樂音樂巷-音樂廳\n"
                 "(新竹縣竹東鎮東林路194巷8號)"
             ),
@@ -387,14 +441,14 @@ class PublicCalendarExtractionTests(unittest.TestCase):
             llm_cache={"version": 1, "items": {}},
         )
 
-        prelude = next(event for event in events if event["start"].startswith("2026-08-04"))
-        self.assertEqual(prelude["title"], "2026 臺灣口琴音樂節：前導音樂會")
-        self.assertEqual(prelude["start"], "2026-08-04T14:00:00+08:00")
-        self.assertEqual(prelude["end"], "2026-08-04T16:00:00+08:00")
+        prelude = next(event for event in events if event["start"].startswith(f"{year}-08-04"))
+        self.assertEqual(prelude["title"], f"{year} 臺灣口琴音樂節：前導音樂會")
+        self.assertEqual(prelude["start"], f"{year}-08-04T14:00:00+08:00")
+        self.assertEqual(prelude["end"], f"{year}-08-04T16:00:00+08:00")
         self.assertEqual(prelude["location"], "竹東親愛愛樂音樂巷-音樂廳")
         self.assertFalse(prelude["allDay"])
 
-        festival = next(event for event in events if event["start"].startswith("2026-08-07"))
+        festival = next(event for event in events if event["start"].startswith(f"{year}-08-07"))
         self.assertEqual(
             festival["location"],
             "國立陽明交通大學光復校區與新竹市文化局演藝廳",
