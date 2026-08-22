@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-22T20:35:58+08:00",
+  "generatedAt": "2026-08-22T21:10:42+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "online",
-  "count": 1,
+  "count": 2,
   "source": "/api/events.json",
   "ics": "/feeds/online-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 27,
+      "cached": 31,
       "errors": 0
     }
   },
@@ -53,6 +53,42 @@
       "postedAt": "Sun, 02 Aug 2026 12:08:52 GMT",
       "images": [],
       "image_url": ""
+    },
+    {
+      "id": "771ea6c338870be5",
+      "title": "MEET THE JURY: TECHNIQUE VS MUSICALITY 技巧 VS 音乐性",
+      "eventName": "MEET THE JURY: TECHNIQUE VS MUSICALITY 技巧 VS 音乐性",
+      "source": "馬來西亞口琴節",
+      "platform": "facebook",
+      "start": "2026-08-22T20:00:00+08:00",
+      "end": "2026-08-22T22:00:00+08:00",
+      "allDay": false,
+      "calendarType": "online",
+      "timezone": "Asia/Taipei",
+      "location": "Facebook",
+      "venue": "Facebook",
+      "city": "",
+      "details": "主辦／演出者：馬來西亞口琴節。線上論壇以中文進行，主題為技巧與音樂性的評審標準。講者包含 Evelyn（馬來西亞）與 DMing Tsai（臺灣），時間為 2026-08-22 20:00。",
+      "evidenceUrl": "https://www.facebook.com/malaysiaharmonicafestival/posts/pfbid0rSv7DWMUbLhM9Zur37iamhqDgNKWT744UkKWh7T6GM1qCXXdyr72tNUzT3XDrRBFl",
+      "confidence": 0.96,
+      "calendarReview": {
+        "include": true,
+        "country": "線上",
+        "eventMode": "online",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "MEET THE JURY: TECHNIQUE VS MUSICALITY 技巧 VS 音乐性",
+        "venue": "Facebook",
+        "city": "",
+        "details": "主辦／演出者：馬來西亞口琴節。線上論壇以中文進行，主題為技巧與音樂性的評審標準。講者包含 Evelyn（馬來西亞）與 DMing Tsai（臺灣），時間為 2026-08-22 20:00。",
+        "reason": "貼文明確標示 2026-08-22 8PM、Platform=Facebook，屬有明確時間的線上口琴論壇，且日期與 candidateStart 相符。",
+        "confidence": 0.96
+      },
+      "postedAt": "2026-08-14 19:22",
+      "images": [
+        "https://scontent-det1-1.xx.fbcdn.net/v/t51.82787-15/773704465_17962253238171812_7848182702240432602_n.jpg?stp=dst-jpg_tt6&cstp=mx1350x1688&ctp=s640x640&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7gUFI5oc0v4Q7kNvwHeVQa4&_nc_oc=AdrAgJb0eCrJ2hKCTfD6qHkr6x3ap6OteT5lkkccMYTYeiw1-xFIS4DlI0Qs_wKQLFM&_nc_zt=23&_nc_ht=scontent-det1-1.xx&_nc_gid=1iTwsl83stWvd5kRSuB1uA&_nc_ss=72289&oh=00_AQGgMc4fFIBBAUEOSieQGVLicjLgsW2CX9-QK-1sfXdRXg&oe=6A8ED1C0"
+      ],
+      "image_url": "/assets/feed-images/425b85a781d947ff7331.webp"
     }
   ]
 }

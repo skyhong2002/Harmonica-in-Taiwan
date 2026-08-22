@@ -7,7 +7,7 @@ X-WR-CALNAME:線上口琴活動
 X-WR-TIMEZONE:Asia/Taipei
 BEGIN:VEVENT
 UID:c6e46eaa80bfde1d@harmonica.observe.tw
-DTSTAMP:20260822T123558Z
+DTSTAMP:20260822T131042Z
 DTSTART;TZID=Asia/Tokyo:20260802T220000
 DTEND;TZID=Asia/Tokyo:20260802T230000
 SUMMARY:南里沙のココだけの話｜伝えたい日本の名曲特集
@@ -16,5 +16,20 @@ DESCRIPTION:主辦／演出者：南里沙；YouTube 生配信，後半特
  集為「傳達的日本名曲特集」。\nhttps://x.com/minami_risa/stat
  us/2083887757550920101
 URL:https://x.com/minami_risa/status/2083887757550920101
+END:VEVENT
+BEGIN:VEVENT
+UID:771ea6c338870be5@harmonica.observe.tw
+DTSTAMP:20260822T131042Z
+DTSTART;TZID=Asia/Taipei:20260822T200000
+DTEND;TZID=Asia/Taipei:20260822T220000
+SUMMARY:MEET THE JURY: TECHNIQUE VS MUSICALITY 技巧 VS 音乐性
+LOCATION:Facebook
+DESCRIPTION:主辦／演出者：馬來西亞口琴節。線上論壇以中
+ 文進行，主題為技巧與音樂性的評審標準。講者包含 Evel
+ yn（馬來西亞）與 DMing Tsai（臺灣），時間為 2026-08-22 20:0
+ 0。\nhttps://www.facebook.com/malaysiaharmonicafestival/posts/pfbid0rSv7D
+ WMUbLhM9Zur37iamhqDgNKWT744UkKWh7T6GM1qCXXdyr72tNUzT3XDrRBFl
+URL:https://www.facebook.com/malaysiaharmonicafestival/posts/pfbid0rSv7DWMU
+ bLhM9Zur37iamhqDgNKWT744UkKWh7T6GM1qCXXdyr72tNUzT3XDrRBFl
 END:VEVENT
 END:VCALENDAR

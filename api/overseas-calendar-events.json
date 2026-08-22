@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-22T20:35:58+08:00",
+  "generatedAt": "2026-08-22T21:10:42+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
   "count": 11,
@@ -15,7 +15,7 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 27,
+      "cached": 31,
       "errors": 0
     }
   },
@@ -315,15 +315,15 @@
       "eventName": "Qin Yuan 51《琴缘51》",
       "source": "口琴愛好者協會（新加坡）",
       "platform": "facebook",
-      "start": "2026-10-04T05:00:00+08:00",
-      "end": "2026-10-04T07:00:00+08:00",
+      "start": "2026-10-04T17:00:00+08:00",
+      "end": "2026-10-04T19:00:00+08:00",
       "allDay": false,
       "calendarType": "overseas_physical",
       "timezone": "Asia/Singapore",
       "location": "Singapore Esplanade Recital Studio",
       "venue": "Esplanade Recital Studio",
       "city": "Singapore",
-      "details": "主辦／演出者：口琴愛好者協會（新加坡）。口琴音樂會，主打古典、爵士、亞洲樂曲與熟悉旋律，由本地口琴演奏家及樂團演出，特邀嘉賓為 CY Leo 何卓彦。活動時間為 2026年10月4日（星期日）下午5:00，票價 Public $30、會員/學生 $25。",
+      "details": "主辦／演出者：口琴愛好者協會（新加坡）。口琴音樂會，主打古典、爵士、亞洲樂曲與熟悉旋律，由本地口琴演奏家及樂團演出，特邀嘉賓為 CY Leo 何卓彦。活動為 2026 年 10 月 4 日下午 5:00，票價 Public $30、會員/學生 $25。",
       "evidenceUrl": "https://www.facebook.com/HARMONICAMUSICLOVERS/posts/pfbid0id39yWkpmaozz87m5CjJXaciSuQ23znBeXh6fNDyCnT7uVW1MVZZvwxxRBhpAnLCl",
       "confidence": 0.98,
       "calendarReview": {
@@ -335,8 +335,8 @@
         "eventName": "Qin Yuan 51《琴缘51》",
         "venue": "Esplanade Recital Studio",
         "city": "Singapore",
-        "details": "主辦／演出者：口琴愛好者協會（新加坡）。口琴音樂會，主打古典、爵士、亞洲樂曲與熟悉旋律，由本地口琴演奏家及樂團演出，特邀嘉賓為 CY Leo 何卓彦。活動時間為 2026年10月4日（星期日）下午5:00，票價 Public $30、會員/學生 $25。",
-        "reason": "貼文明確寫出 2026/10/04 5:00 PM、場地 Esplanade Recital Studio，屬新加坡實體口琴活動，日期與候選一致。",
+        "details": "主辦／演出者：口琴愛好者協會（新加坡）。口琴音樂會，主打古典、爵士、亞洲樂曲與熟悉旋律，由本地口琴演奏家及樂團演出，特邀嘉賓為 CY Leo 何卓彦。活動為 2026 年 10 月 4 日下午 5:00，票價 Public $30、會員/學生 $25。",
+        "reason": "貼文明確寫出 2026/10/04 5:00 PM、Esplanade Recital Studio 與售票資訊，屬新加坡實體口琴活動，日期與候選一致。",
         "confidence": 0.98
       },
       "postedAt": "2026-08-14 08:15",
