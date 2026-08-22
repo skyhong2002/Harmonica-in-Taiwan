@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 22 Aug 2026 16:37:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 17:15:57 +0000</lastBuildDate>
     <item>
       <title>王衍華</title>
       <link>https://portaly.cc/yenhua_wang</link>
@@ -170,6 +170,17 @@ Tag：教學器材、教學、課程、半音階、十孔、重奏
 國家：臺灣
 地區：臺灣/基隆
 臺灣的十孔、半音階與口琴合奏教學單位與社區推廣，關注社區口琴課程、重奏與THMF 2026 熟齡組。</description>
+    </item>
+    <item>
+      <title>臺中國家歌劇院</title>
+      <link>https://www.npac-ntt.org/index</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/3bda2c9a244d309c</guid>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/臺中
+臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>中山醫藍韻口琴社</title>
@@ -665,17 +676,6 @@ Tag：演奏者、團體樂團、半音階、重奏
 國家：臺灣
 地區：臺灣
 臺灣的半音階口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF 2026半音階獨奏公開組季軍。</description>
-    </item>
-    <item>
-      <title>臺中國家歌劇院</title>
-      <link>https://www.npac-ntt.org/index</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/3bda2c9a244d309c</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/臺中
-臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
     </item>
     <item>
       <title>胖擊口琴樂團</title>
