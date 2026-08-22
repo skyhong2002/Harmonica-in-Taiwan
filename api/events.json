@@ -7,44 +7,45 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 727,
+  "count": 728,
   "items": [
     {
-      "title": "臺灣口琴音樂節 Taiwan Harmonica Music Festival｜📌 2025年9月27 日｜臺灣・滬尾藝文休閒園區 李讓：《銀河之詩》第三樂章〈獵人與大小獵犬〉 2023年，我們邀請好友李讓 @jangli_harmoni…",
+      "title": "王衍華｜📌 2025年9月27 日｜臺灣・滬尾藝文休閒園區 李讓：《銀河之詩》第三樂章〈獵人與大小獵犬〉 2023年，我們邀請好友李讓 @jangli_harmonica 為樂團量身打造了三樂章作品《銀河之詩》。 這部作品以夜空中最亮的「…",
       "headline": "📌 2025年9月27 日｜臺灣・滬尾藝文休閒園區",
       "display_title": "",
       "title_kind": "caption",
       "link": "https://www.instagram.com/p/DcVxLxkTp72/",
-      "source_id": "ig_taiwanharmonica",
-      "source": "臺灣口琴音樂節 Taiwan Harmonica Music Festival",
-      "source_system_name": "臺灣口琴音樂節 THMF",
-      "source_profile_url": "https://www.instagram.com/taiwanharmonica/",
+      "source_id": "ig_yenhua_wang",
+      "source": "王衍華",
+      "source_system_name": "王衍華",
+      "source_profile_url": "https://www.instagram.com/yenhua_wang/",
       "country": "臺灣",
-      "region": "臺灣/國際",
-      "directory_entry_id": "watchlist-83",
-      "directory_entry_name": "Golden Bird Harmonica",
-      "account": "taiwanharmonica",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-34",
+      "directory_entry_name": "王衍華",
+      "account": "yenhua_wang",
       "platform": "instagram",
       "platform_label": "Instagram",
-      "posted_at": "Sat, 22 Aug 2026 11:15:40 GMT",
-      "posted_at_local": "2026-08-22 19:15",
+      "posted_at": "Sat, 22 Aug 2026 14:56:33 GMT",
+      "posted_at_local": "2026-08-22 22:56",
       "like_count": null,
       "comment_count": null,
       "share_count": null,
       "reaction_count": null,
       "view_count": null,
-      "seen_at": "2026-08-22T11:23:46.674640+00:00",
+      "seen_at": "2026-08-22T15:25:50.759604+00:00",
       "media_type": "",
       "story": false,
       "story_provider": "",
       "story_fetched_at": "",
       "story_expires_at": "",
-      "source_feed_url": "https://rss.observe.tw/instagram/2/user/taiwanharmonica",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/yenhua_wang",
       "rsshub_guid": "",
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
         "口琴",
+        "公開更新",
         "演出",
         "影片"
       ],
@@ -54,25 +55,32 @@
         "影片",
         "harmonica"
       ],
-      "llm_relevant": null,
-      "llm_confidence": null,
-      "llm_labels": [],
-      "llm_categories": [],
-      "llm_reason": "",
-      "text": "📌 2025年9月27 日｜臺灣・滬尾藝文休閒園區\n李讓：《銀河之詩》第三樂章〈獵人與大小獵犬〉\n2023年，我們邀請好友李讓 @jangli_harmonica 為樂團量身打造了三樂章作品《銀河之詩》。\n這部作品以夜空中最亮的「天狼星」為意象，融合了作曲家對我們多年來凝聚口琴熱情的細實觀察。音樂從〈恆星之巔〉的能量碰撞與縹緲收束，過渡到帶有臺灣土地生機與水氣的〈小島星空〉，最終在〈獵人與大小獵犬〉中爆發出強大的生命力。\n在藝文環境充滿挑戰的時代，這首曲子不僅描繪了星空的浩瀚，更刻劃出我們心中對口琴世界的純粹想像，是一部充滿情感溫度的音樂見證。\n📌 演出者｜\n天狼星口琴樂團：陳彥銘、陳奕翔、蔡明憲、張晁滕、王衍華、黃冠誌\n李讓 (口琴)\n林垣橙（小提琴）\n周霈恩（中提琴）\n游沛橙（大提琴）\n📌 完整《銀河之詩》影片:\nhttps://youtu.be/Gmpc5xOuhPc?si=wBhV6nyOE6h22IqQ\n--\n📌 September 27, 2025｜Taiwan・Huwei Arts and Leisure Park\nJang Li: The Epic of Galaxy, Movement III — “The Hunter and the Hound”\nIn 2023, we invited our dear friend Jang Li to create a three-movement work, Poem of the Galaxy, specially tailored for our ensemble.\nInspired by Sirius, the brightest star in the night sky, this work also reflects the composer’s thoughtful and delicate observations of the passion for harmonica music that we have cultivated over the years. The music begins with the energetic collisions and ethereal conclusion of “Stellar,” then moves into “Starry Sky on the Island,” a movement infused with the vitality and humidity of the land of Taiwan, before finally bursting forth with powerful life force in “The Hunter and the Hound.”\nIn an era where the arts a…",
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴樂團演出與完整影片公開更新，內容明確相關。",
+      "text": "📌 2025年9月27 日｜臺灣・滬尾藝文休閒園區\n李讓：《銀河之詩》第三樂章〈獵人與大小獵犬〉\n2023年，我們邀請好友李讓 @jangli_harmonica 為樂團量身打造了三樂章作品《銀河之詩》。\n這部作品以夜空中最亮的「天狼星」為意象，融合了作曲家對我們多年來凝聚口琴熱情的細實觀察。音樂從〈恆星之巔〉的能量碰撞與縹緲收束，過渡到帶有臺灣土地生機與水氣的〈小島星空〉，最終在〈獵人與大小獵犬〉中爆發出強大的生命力。\n在藝文環境充滿挑戰的時代，這首曲子不僅描繪了星空的浩瀚，更刻劃出我們心中對口琴世界的純粹想像，是一部充滿情感溫度的音樂見證。\n📌 演出者｜\n天狼星口琴樂團：陳彥銘、陳奕翔、蔡明憲、張晁滕、王衍華、黃冠誌\n李讓 (口琴)\n林垣橙（小提琴）\n周霈恩（中提琴）\n游沛橙（大提琴）\n📌 完整《銀河之詩》影片:\nhttps://youtu.be/Gmpc5xOuhPc?si=wBhV6nyOE6h22IqQ\n--\n📌 September 27, 2025｜Taiwan・FAB Green Village\nJang Li: The Epic of Galaxy, Movement III — “The Hunter and the Hound”\nIn 2023, we invited our dear friend Jang Li to create a three-movement work, Poem of the Galaxy, specially tailored for our ensemble.\nInspired by Sirius, the brightest star in the night sky, this work also reflects the composer’s thoughtful and delicate observations of the passion for harmonica music that we have cultivated over the years. The music begins with the energetic collisions and ethereal conclusion of “Stellar,” then moves into “Starry Sky on the Island,” a movement infused with the vitality and humidity of the land of Taiwan, before finally bursting forth with powerful life force in “The Hunter and the Hound.”\nIn an era where the arts and cultura…",
       "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/780727236_18455843182138501_7962865508205682616_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=Mzk2OTI5NDk2MDAxMjczMDEwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=bydzI_nCiDAQ7kNvwF0t7uD&_nc_oc=AdoAS-YpX8N-TpN-vCSl1lsjnZVB3eDFGnDeR2SmTy451KTLI6Y7f4FqrsyzjB_ywuE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Na5GP5n1hG8564cBGkqhGQ&_nc_ss=7a22e&oh=00_AQEzrydv_5cMsTN-lnsBpyeFvjHrKG4kd1OEbsrLvJ_KSw&oe=6A8F56A9"
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/780727236_18455843182138501_7962865508205682616_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=Mzk2OTI5NDk2MDAxMjczMDEwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=bydzI_nCiDAQ7kNvwF0t7uD&_nc_oc=AdoAS-YpX8N-TpN-vCSl1lsjnZVB3eDFGnDeR2SmTy451KTLI6Y7f4FqrsyzjB_ywuE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=rxWudYvRkQsefKiwwOHJ2Q&_nc_ss=7a22e&oh=00_AQH0sbe67POdmpGQW5YYOi8SxQCCuiXBL8Joe6hC9iJIXA&oe=6A8F8EE9"
       ],
       "videos": [
-        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQM1n3gbD_bvr4BvaJEIIaGWHO-dk61co5-fOjWUGalBK2dSTjn9i5GSCTDnidjFhkbEVPM5_0aPlFxj0gfRt2XMlVUq0lXN8mXFiaI.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=-Q8U2bi_KmcQ7kNvwHarnhC&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6ODg5ODc3MjQ3MjU2Njk1LCJhc3NldF9hZ2VfZGF5cyI6MCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjYwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=df0fd11783b96cfd&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9GOTQ2Mjg3QjA1MUZEMjRCNkY0OTY2NjA2NjVEODNBN192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0Y0NDg3Q0VBMzIyNjZGMzY5MTVBM0EwMjY1OThDRThDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbuobuT1tWUAxUCKAJDMywXQE4VP3ztkWgYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=Na5GP5n1hG8564cBGkqhGQ&_nc_zt=28&_nc_ss=7a22e&oh=00_AQF7FX2EWAZfjqJdsv8shCYmVxgM5SlkA1F3dXrfXmMl0A&oe=6A8B6733"
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQM1n3gbD_bvr4BvaJEIIaGWHO-dk61co5-fOjWUGalBK2dSTjn9i5GSCTDnidjFhkbEVPM5_0aPlFxj0gfRt2XMlVUq0lXN8mXFiaI.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=-Q8U2bi_KmcQ7kNvwHarnhC&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6ODg5ODc3MjQ3MjU2Njk1LCJhc3NldF9hZ2VfZGF5cyI6MCwidmlfdXNlY2FzZV9pZCI6MTAwOTksImR1cmF0aW9uX3MiOjYwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=df0fd11783b96cfd&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9GOTQ2Mjg3QjA1MUZEMjRCNkY0OTY2NjA2NjVEODNBN192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0Y0NDg3Q0VBMzIyNjZGMzY5MTVBM0EwMjY1OThDRThDX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbuobuT1tWUAxUCKAJDMywXQE4VP3ztkWgYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=rxWudYvRkQsefKiwwOHJ2Q&_nc_zt=28&_nc_ss=7a22e&oh=00_AQHMNtHUCCod3c5vrnNrNaC-1Pdi-lPTfry0JpfutCltLA&oe=6A8B9F73"
       ],
-      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/780727236_18455843182138501_7962865508205682616_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=Mzk2OTI5NDk2MDAxMjczMDEwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=bydzI_nCiDAQ7kNvwF0t7uD&_nc_oc=AdoAS-YpX8N-TpN-vCSl1lsjnZVB3eDFGnDeR2SmTy451KTLI6Y7f4FqrsyzjB_ywuE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Na5GP5n1hG8564cBGkqhGQ&_nc_ss=7a22e&oh=00_AQEzrydv_5cMsTN-lnsBpyeFvjHrKG4kd1OEbsrLvJ_KSw&oe=6A8F56A9",
-      "image_url": "/assets/feed-images/9087bf74d480fff41b64.webp",
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/780727236_18455843182138501_7962865508205682616_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=104&ig_cache_key=Mzk2OTI5NDk2MDAxMjczMDEwMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=bydzI_nCiDAQ7kNvwF0t7uD&_nc_oc=AdoAS-YpX8N-TpN-vCSl1lsjnZVB3eDFGnDeR2SmTy451KTLI6Y7f4FqrsyzjB_ywuE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=rxWudYvRkQsefKiwwOHJ2Q&_nc_ss=7a22e&oh=00_AQH0sbe67POdmpGQW5YYOi8SxQCCuiXBL8Joe6hC9iJIXA&oe=6A8F8EE9",
+      "image_url": "/assets/feed-images/d15ce80e7c5380524458.webp",
       "image_width": 720,
       "image_height": 1280,
-      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/15624513_1490628347628949_2014311319334813696_a.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42NDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gFhQrG919wTqfWi6xFBddpnKYDYirgwzeAO_hrEelJUz4aeqTdSuDTEvfcyq--2vkE&_nc_ohc=ueGzVb4nocIQ7kNvwHH0vTm&_nc_gid=prodTlv8DGxwXbIRx1iJEQ&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQHfNu9zaqOzxhok6moMpxfyfUN8cCHdsNBSs_gwbI-ryg&oe=6A8F50DF&_nc_sid=ee9879",
-      "avatar_url": "/assets/source-avatars/113228f2ca1dc11269d0.webp",
-      "source_initials": "THM",
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/15624513_1490628347628949_2014311319334813696_a.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42NDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gEh8F_PiNotgNB9b4m7fNdB2djYo8a-uYNF9EkgFqqlrn7fC_P7uGYRUDb8MC7jV_c&_nc_ohc=ueGzVb4nocIQ7kNvwHH0vTm&_nc_gid=dW47E0bTM4jvx3qF52tJWQ&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQFcZ8_r5ErhVKzctOMWGexX5kl6poI1f1g8fI1kv33V_Q&oe=6A8F891F&_nc_sid=ee9879",
+      "avatar_url": "/assets/source-avatars/54c54dca2cd6e276b658.webp",
+      "source_initials": "王衍",
       "categories": [
         "posts-videos",
         "events"
@@ -81,7 +89,7 @@
         "貼文影片",
         "公開活動"
       ],
-      "key": "ig_taiwanharmonica:https://www.instagram.com/p/DcVxLxkTp72/"
+      "key": "ig_yenhua_wang:https://www.instagram.com/p/DcVxLxkTp72/"
     },
     {
       "title": "基隆社區大學就是吹口琴｜基隆社區大學 - 周課表 ﻿ 基隆社區大學 - 周課表 Toggle main menu visibility 基隆市基隆社區大學 首頁 校務公告 週課表 講師群 --> 查詢活動 --> 聯絡我們 --> 回到官…",
@@ -5566,6 +5574,83 @@
       "key": "ig_harmonica_wang:https://www.instagram.com/p/DcJw7G_jCHB/"
     },
     {
+      "title": "韋笙堡口琴 Weissenberg Harmonicas｜If I believe - @pattiaustinofficial @weissenbergtw XVive",
+      "headline": "If I believe - @pattiaustinofficial",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DcJO1oJT6_7/",
+      "source_id": "ig_weissenbergtw",
+      "source": "韋笙堡口琴 Weissenberg Harmonicas",
+      "source_system_name": "韋笙堡口琴 Weissenberg Harmonicas",
+      "source_profile_url": "https://www.instagram.com/weissenbergtw/",
+      "country": "臺灣",
+      "region": "臺灣/臺中/后里",
+      "directory_entry_id": "watchlist-95",
+      "directory_entry_name": "韋笙堡口琴 Weissenberg Harmonicas",
+      "account": "weissenbergtw",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Mon, 17 Aug 2026 14:30:24 GMT",
+      "posted_at_local": "2026-08-17 22:30",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-22T15:25:50.759604+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/weissenbergtw",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "影片"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.86,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "來源為口琴品牌帳號，貼文含口琴相關演奏/影片公開更新，屬可收錄內容。",
+      "text": "If I believe - @pattiaustinofficial\n@weissenbergtw\nXVive",
+      "images": [
+        "https://scontent-tpe5-1.cdninstagram.com/v/t51.71878-15/774666180_1041451572208066_2145019504463106291_n.jpg?stp=dst-jpegr_e15_tt6&_nc_cat=102&ig_cache_key=Mzk2NTc2NjIwNDc2NTc0NTE0NzE1ODQ3MTg2NTk5ODY0MDQ%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=dC-MwFDdOF4Q7kNvwGMHZ4k&_nc_oc=AdoydsmXkrR-dJHjXpg0Bl3veW1EB2guFXMV3WbcWZl2hp96D-MET7Y0E7EOoZOYB28&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=M6jtqBSxywbFfa8fOPPvKA&_nc_ss=7a22e&oh=00_AQGVaCz9ItHQbg-P4gdEvFYDdFYyytpwz_ZJP-SQjl-naA&oe=6A8FA766"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t16/f2/m84/AQPD721OmFxF2E3Rcf027HABYb4yAQQ7lHw7lXhjqnWopnjwpbUh80MwGddd2GF65tV0Appr2V1INFWKwsgjuMSqb4vMaoytgBl5pMk.mp4?_nc_cat=101&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=lbthKc8YO1kQ7kNvwEa1gZT&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTU4NDcxNzY2OTk4NjUwMywiYXNzZXRfYWdlX2RheXMiOjUsInZpX3VzZWNhc2VfaWQiOjEwODI3LCJkdXJhdGlvbl9zIjoyMDYsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=689e38369c386a9&_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9CMzRCRjNBRkZCODcxODlEODFCNzc2MjI2OURBMjE4N192aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0FDNDYxNUY1NzUzMzAxRkJBQkExRkUwMjA2RjgxMUI5X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaOw8_c2tLQBRUCKAJDMywXQGnJmZmZmZoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZZapAQA&_nc_gid=M6jtqBSxywbFfa8fOPPvKA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQH4Ut_4PdqgunOrmgyhyZGxFmFIEVrQ7PFlAC3BC-WYcg&oe=6A8BB81F"
+      ],
+      "source_image_url": "https://scontent-tpe5-1.cdninstagram.com/v/t51.71878-15/774666180_1041451572208066_2145019504463106291_n.jpg?stp=dst-jpegr_e15_tt6&_nc_cat=102&ig_cache_key=Mzk2NTc2NjIwNDc2NTc0NTE0NzE1ODQ3MTg2NTk5ODY0MDQ%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=dC-MwFDdOF4Q7kNvwGMHZ4k&_nc_oc=AdoydsmXkrR-dJHjXpg0Bl3veW1EB2guFXMV3WbcWZl2hp96D-MET7Y0E7EOoZOYB28&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=M6jtqBSxywbFfa8fOPPvKA&_nc_ss=7a22e&oh=00_AQGVaCz9ItHQbg-P4gdEvFYDdFYyytpwz_ZJP-SQjl-naA&oe=6A8FA766",
+      "image_url": "/assets/feed-images/5094d95ba41f22b4a504.webp",
+      "image_width": 640,
+      "image_height": 1136,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/574397784_18533169928003503_7288449149374669223_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gF9N-NENItPQImM_aULLxuR11d2SEJfhVyC9aQPd3TTziGnI_bTfwam9bNm5Ucx0u4&_nc_ohc=0CC-JbTeMXgQ7kNvwHvizGV&_nc_gid=1Jlfo_0X75WzFIMH33Fqyg&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQEiWIl-nUt_GYBuQEhtbhsteO_Fr4fa4rSUZAqKy1GKIQ&oe=6A8F8A4C&_nc_sid=ee9879",
+      "avatar_url": "/assets/source-avatars/0b6a331441c7e1789ad0.webp",
+      "source_initials": "WH",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_weissenbergtw:https://www.instagram.com/p/DcJO1oJT6_7/"
+    },
+    {
       "title": "口琴愛好者協會（新加坡）｜🎓 HAS Chromatic Harmonica Examination 2026 – Registration Now Open! 🎵 Set yourself a new goal and take the…",
       "headline": "🎓 HAS Chromatic Harmonica Examination 2026 – Registration Now Open! 🎵",
       "display_title": "",
@@ -7370,6 +7455,79 @@
         "公開活動"
       ],
       "key": "fb_redbricksharmonica:1530471269092446"
+    },
+    {
+      "title": "韋笙堡口琴 Weissenberg Harmonicas｜Worthy ☝🏼❤️ @10mfan @weissenbergtw",
+      "headline": "Worthy ☝🏼❤️",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DcFjuhfTulh/",
+      "source_id": "ig_weissenbergtw",
+      "source": "韋笙堡口琴 Weissenberg Harmonicas",
+      "source_system_name": "韋笙堡口琴 Weissenberg Harmonicas",
+      "source_profile_url": "https://www.instagram.com/weissenbergtw/",
+      "country": "臺灣",
+      "region": "臺灣/臺中/后里",
+      "directory_entry_id": "watchlist-95",
+      "directory_entry_name": "韋笙堡口琴 Weissenberg Harmonicas",
+      "account": "weissenbergtw",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Sun, 16 Aug 2026 04:05:05 GMT",
+      "posted_at_local": "2026-08-16 12:05",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-22T15:25:50.759604+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/weissenbergtw",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.72,
+      "llm_labels": [
+        "口琴",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "來源為口琴品牌/帳號，貼文雖短但屬口琴相關公開更新，未見活動或招生等更精準資訊。",
+      "text": "Worthy ☝🏼❤️\n@10mfan\n@weissenbergtw",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/773838172_948808014936146_971288917045633285_n.jpg?stp=dst-jpegr_e15_tt6&_nc_cat=105&ig_cache_key=Mzk2NDczMjE3NTY1MjE1MzY5Nzk1ODQzNDEwNzI5OTE2NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=drut-fI4F7sQ7kNvwEoJoGV&_nc_oc=AdrgAIYPF_eRCdRyTrpa-jC9C8YZdNmAq-Qopb2G1zBQFJDO7wd6IBqEfe5KoL4BmeQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=M6jtqBSxywbFfa8fOPPvKA&_nc_ss=7a22e&oh=00_AQGN04tBPIRwVG6BLDzk2tZyv8iezQKg2mwhPOVq6a_JMQ&oe=6A8F76E2"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t16/f2/m84/AQPnV-MH90MejgripN2baMVkfa7drh4oL8BUawD0L3N-4D5Fx3mP9CL-7Qcg9GZgTd4dZ1kQASMAQGHWQHXctRfL07Py_acigasROwk.mp4?_nc_cat=108&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=nzlMdCIXT_oQ7kNvwGWAmjl&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6OTU4NDMyNTcwNjMyNjUyLCJhc3NldF9hZ2VfZGF5cyI6NiwidmlfdXNlY2FzZV9pZCI6MTA4MjcsImR1cmF0aW9uX3MiOjMzMCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=4da28b570615dbf0&_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC8wQTQyODg0OENEMzIyRTZFQ0YwNjU1MDA1MjAwRTNCMV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzFCNDg2NDdGNTI4MzI3MTdGQjQzMUZCOTREMUJCRDhFX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaYp8-Oj-yzAxUCKAJDMywXQHSip--dsi0YEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZZapAQA&_nc_gid=M6jtqBSxywbFfa8fOPPvKA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQHJIGDs3RJdvSFeu69yXA0nZRCZFl7pvRPS539YXB06nQ&oe=6A8BB22C"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/773838172_948808014936146_971288917045633285_n.jpg?stp=dst-jpegr_e15_tt6&_nc_cat=105&ig_cache_key=Mzk2NDczMjE3NTY1MjE1MzY5Nzk1ODQzNDEwNzI5OTE2NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjY0MC5oZHIudmlkZW9fbmZyYW1lX2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=drut-fI4F7sQ7kNvwEoJoGV&_nc_oc=AdrgAIYPF_eRCdRyTrpa-jC9C8YZdNmAq-Qopb2G1zBQFJDO7wd6IBqEfe5KoL4BmeQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=M6jtqBSxywbFfa8fOPPvKA&_nc_ss=7a22e&oh=00_AQGN04tBPIRwVG6BLDzk2tZyv8iezQKg2mwhPOVq6a_JMQ&oe=6A8F76E2",
+      "image_url": "/assets/feed-images/9ce39847858c2dbcabc0.webp",
+      "image_width": 640,
+      "image_height": 1136,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/574397784_18533169928003503_7288449149374669223_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=103&_nc_oc=Q6cZ2gF9N-NENItPQImM_aULLxuR11d2SEJfhVyC9aQPd3TTziGnI_bTfwam9bNm5Ucx0u4&_nc_ohc=0CC-JbTeMXgQ7kNvwHvizGV&_nc_gid=1Jlfo_0X75WzFIMH33Fqyg&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQEiWIl-nUt_GYBuQEhtbhsteO_Fr4fa4rSUZAqKy1GKIQ&oe=6A8F8A4C&_nc_sid=ee9879",
+      "avatar_url": "/assets/source-avatars/0b6a331441c7e1789ad0.webp",
+      "source_initials": "WH",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_weissenbergtw:https://www.instagram.com/p/DcFjuhfTulh/"
     },
     {
       "title": "林家靖 Rolabo Lin｜2026SIHF 櫻花隨想曲 Sakura Caprice | 林家靖 口琴 櫻花隨想曲 Sakura Caprice 作曲 Composer：日本民謠 Japan Folk Song 改編 Arrangem…",
@@ -57679,96 +57837,6 @@
         "學生社團"
       ],
       "key": "yt_hoontobe:hMZjEzpPBqI"
-    },
-    {
-      "title": "臺灣口琴音樂節 THMF｜☀️午間音樂會｜8/7 (五) 演出者/團體介紹 🎶 Steffi and Friends｜李志華｜Do Not Disturb 午間音樂會的第一天有來自香港、新加坡及臺灣的口琴愛好者們，他們將帶來風格多元的口琴…",
-      "headline": "☀️午間音樂會｜8/7 (五) 演出者/團體介紹 🎶",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.facebook.com/twharmonica/posts/pfbid024SEvzxShcoRx8Fw62XHf9SNiJ9W8hpP8BL4JvvRtS62jHeWdX3XNfS3JryT9qQgZl",
-      "source_id": "fb_twharmonica",
-      "source": "臺灣口琴音樂節 THMF",
-      "source_system_name": "臺灣口琴音樂節 THMF",
-      "source_profile_url": "https://facebook.com/twharmonica",
-      "country": "臺灣",
-      "region": "臺灣",
-      "directory_entry_id": "watchlist-2",
-      "directory_entry_name": "臺灣口琴音樂節 THMF",
-      "account": "twharmonica",
-      "platform": "facebook",
-      "platform_label": "Facebook",
-      "posted_at": "2026-07-23T14:50:07.000Z",
-      "posted_at_local": "2026-07-23 22:50",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-07-24T01:46:17.643082+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "公開更新",
-        "音樂會",
-        "演出",
-        "影片"
-      ],
-      "keyword_matches": [
-        "口琴",
-        "音樂會",
-        "演出",
-        "比賽",
-        "harmonica"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.99,
-      "llm_labels": [
-        "口琴",
-        "公開更新",
-        "音樂會",
-        "演出",
-        "影片"
-      ],
-      "llm_categories": [
-        "events",
-        "posts-videos"
-      ],
-      "llm_reason": "口琴音樂節午間音樂會演出者介紹，屬口琴演出與音樂會公開更新。",
-      "text": "☀️午間音樂會｜8/7 (五) 演出者/團體介紹 🎶\nSteffi and Friends｜李志華｜Do Not Disturb\n午間音樂會的第一天有來自香港、新加坡及臺灣的口琴愛好者們，他們將帶來風格多元的口琴演奏，這場演出絕對能夠對到你的胃口！音樂會到來之前先看看他們的介紹吧～\n🎶 Steffi and Friends｜\n梁芷菁生於香港，師承梁文軒先生及日本半音階口琴大師和谷泰扶先生。梁氏於世界口琴節、亞太、首爾及臺灣口琴音樂節多項國際賽事累積 18 個獎項，並於 2025 年德國世界口琴節榮奪二重奏世界冠軍。舞台演奏外，梁氏亦活躍於藝術行政、電台傳媒與電影製作。畢業於香港浸會大學電影系，她現於香港大學修讀媒體、文化與創意城市碩士；同時任職於港大繆思樂季籌辦古典音樂會，並兼任香港電台第四台音樂節目主持。\n本次演出，梁氏將聯同好友兼合作夥伴——鋼琴手馬顥珈，攜手詮釋兩首動人的口琴小品。隨後以口琴二重奏作結，特別邀請半音階口琴手葉進禧加入舞台，共同呈獻蕭斯達高維契的短曲——於午後小憩之時，以樂會友。\n🎶 李志華｜\n現任新加坡《口琴愛好者協會》顧問。李君也是星樂三重奏團長和布萊德嶺口琴樂團指揮。他擅長於半音階口琴的演奏,2006 年榮獲新加坡口琴比賽三重奏冠軍, 半音階獨奏亞軍. 2008 年第七屆亞太口琴節(杭州)三重奏優異獎。2010 年第八屆亞太口琴節(新加坡)複音口琴創意組金獎。2012 年第九屆亞太口琴節(馬來西亞)複音口琴創意組與三重奏組金獎。基於對口琴音樂的熱愛, 近年來李君積極參與口琴表演, 策劃口琴演會, 推廣口琴音樂。他也受邀 2014 年,2016 年, 2018 年, 2022 年與 2024 年亞太口琴節擔任評委。李君目前也是多間學校的口琴和個人指導。\n🎶 Do Not Disturb｜\n大家好我們是Do Not Disturb ，我們是大明從國中帶大的學生，我們大家從2023年起，各自開始參與臺灣口琴節的賽事以及演出，在2025年大家靠著對口琴的熱愛成立這個樂團。雖然高中課業繁忙，但大家還是不想輕易放棄這份熱愛，用自己的堅持開啟「勿擾模式」，堅持自己的熱愛踏上一條音樂之路。\n樂團正在成立初期，大多數演奏許多知名樂團曲子的曲目為主，靠著團員自身的音樂理想以及團員默契，重新演繹每一首我們每個人喜歡的經典曲目，在各個演出之中累積經驗往更多元的曲風發展。\nhttps://www.facebook.com/twharmonica/posts/pfbid024SEvzxShcoRx8Fw62XHf9SNiJ9W8hpP8BL4JvvRtS62jHeWdX3XNfS3JryT9qQgZl",
-      "images": [
-        "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/753707682_1052723603801365_4984147258474361932_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1006&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=32C_GhHHFuQQ7kNvwHtAEXX&_nc_oc=AdpFT1hDfgomCraWnw8rfVoeNFaSsRRORrx2rb1OLwWMIkJnh91e_1e7F38gdH1xGfM&_nc_zt=23&_nc_ht=scontent-lax3-1.xx&_nc_gid=ObljdWGHj9pNNjMx0ko-JQ&_nc_ss=72289&oh=00_AQBNwjYBnVGj6EwwjlUocL1P45A5X6izm4_1ghgbztLvmw&oe=6A688C73",
-        "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/753356755_1052723477134711_7077914908366358939_n.jpg?stp=dst-jpg_tt6&cstp=mx918x481&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=YXi9pFI5NEYQ7kNvwHPcY-N&_nc_oc=AdrA61aLgjD4O30CI7QEy7TBGjq8K84W1FB0nrNQRC0CFadKJuKgwd0n3OOHKOVgZWM&_nc_zt=23&_nc_ht=scontent-lax3-1.xx&_nc_gid=ObljdWGHj9pNNjMx0ko-JQ&_nc_ss=72289&oh=00_AQAC_GYNMoVfTiseso4Fibgc9qf2Wc1erx9rU8j0E_O5Bg&oe=6A68ADDB",
-        "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/752484547_1052723607134698_5397881142070138382_n.jpg?stp=dst-jpg_tt6&cstp=mx1568x821&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=h844jY_EmXUQ7kNvwHdLShL&_nc_oc=AdpzX2dtVWcQKZEYvza9KkqXSS1bVlwU3XDUqyJBCpqDAxS_OQYjIP12Hd1gWxc3CWQ&_nc_zt=23&_nc_ht=scontent-lax3-1.xx&_nc_gid=ObljdWGHj9pNNjMx0ko-JQ&_nc_ss=72289&oh=00_AQCFV82zGgnqyuHGJ-essyi0-5et2R4ekur_HHIuRHRf6w&oe=6A68A9C8"
-      ],
-      "videos": [],
-      "source_image_url": "https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/753707682_1052723603801365_4984147258474361932_n.jpg?stp=dst-jpg_tt6&cstp=mx1920x1006&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=32C_GhHHFuQQ7kNvwHtAEXX&_nc_oc=AdpFT1hDfgomCraWnw8rfVoeNFaSsRRORrx2rb1OLwWMIkJnh91e_1e7F38gdH1xGfM&_nc_zt=23&_nc_ht=scontent-lax3-1.xx&_nc_gid=ObljdWGHj9pNNjMx0ko-JQ&_nc_ss=72289&oh=00_AQBNwjYBnVGj6EwwjlUocL1P45A5X6izm4_1ghgbztLvmw&oe=6A688C73",
-      "image_url": "/assets/feed-images/cccaa049be34b9f9ec6f.webp",
-      "image_width": 590,
-      "image_height": 309,
-      "source_avatar_url": "https://scontent-lax7-1.xx.fbcdn.net/v/t39.30808-1/343445865_748320516783289_1291576289381405694_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s50x50&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=KVo07htEz7YQ7kNvwEVOuy_&_nc_oc=Adr3thDKiaqFEL3ngn-kFBQ9GsvyPupEOJbZm24bBAaPy3sgKZEcyjeOuu828k-hYl8&_nc_zt=24&_nc_ht=scontent-lax7-1.xx&_nc_gid=ObljdWGHj9pNNjMx0ko-JQ&_nc_ss=72289&oh=00_AQBfn8sxuKtnvDtI5N-GMMTr_s1SJThOhNHywDGZQ__p9Q&oe=6A68A2EA",
-      "avatar_url": "/assets/source-avatars/22e42733ef3f738c0611.webp",
-      "source_initials": "T",
-      "categories": [
-        "posts-videos",
-        "events",
-        "opportunities",
-        "student-clubs"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動",
-        "補助比賽",
-        "學生社團"
-      ],
-      "key": "fb_twharmonica:1052725760467816"
     }
   ]
 }

@@ -5,7 +5,18 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 22 Aug 2026 14:17:59 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 15:26:32 +0000</lastBuildDate>
+    <item>
+      <title>王衍華</title>
+      <link>https://portaly.cc/yenhua_wang</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/d4be998cbe5b2da8</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、團體樂團、半音階、重奏
+國家：臺灣
+地區：臺灣
+臺灣的半音階口琴與重奏演出人員與重奏團員，活動脈絡包含天狼星、胖擊口琴樂團與半音階。</description>
+    </item>
     <item>
       <title>Gregoire Maret</title>
       <link>https://www.gregoiremaret.com/</link>
@@ -51,6 +62,17 @@ Tag：學生社團、教學、課程、半音階
 香港的半音階與口琴合奏教學單位與青年培育。</description>
     </item>
     <item>
+      <title>天狼星口琴樂團 Sirius Harmonica Ensemble</title>
+      <link>https://www.taiwanharmonica.com/sirius</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/1d79bff0b1b80c28</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、團體樂團、音樂節、重奏、國際交流
+國家：臺灣
+地區：臺灣
+臺灣的國際演出團體與音樂節主辦，涵蓋2017 WHF小合奏冠軍、TAIWAN TOP、THMF主辦與近年SIHF FEN APHF交流。</description>
+    </item>
+    <item>
       <title>臺灣口琴音樂節 THMF</title>
       <link>https://www.taiwanharmonica.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/675b716d5d0986ae</guid>
@@ -93,6 +115,17 @@ Tag：演奏者、教學、半音階、十孔
 國家：中國
 地區：中國/北京
 中國的十孔口琴、藍調口琴與半音階口琴演出人員、口琴教育影音創作者與藍調口琴推廣者，活動脈絡包含藍調口琴演奏與大眾推廣、師從張曉松並加入藍調口琴網與《园园口琴教室》系列教學。</description>
+    </item>
+    <item>
+      <title>何家健 HarmoniKahkean</title>
+      <link>https://linktr.ee/harmonikahkean</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/3e3031f087b9c123</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、重奏、國際交流
+國家：馬來西亞
+地區：臺灣/花蓮；馬來西亞
+馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。</description>
     </item>
     <item>
       <title>Marcos Coll</title>
@@ -203,6 +236,17 @@ Tag：活動資訊、比賽、半音階、複音、十孔、重奏、國際交�
 國家：中國
 地區：中國/福建/寧德/蕉城
 中國的國際活動來源，涵蓋2025、7、23-27、展演與比賽。</description>
+    </item>
+    <item>
+      <title>Wilson Liao</title>
+      <link>https://www.instagram.com/weiyuliao1/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/f00cce679016278e</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、團體樂團、重奏
+國家：臺灣
+地區：臺灣/臺北
+臺灣的口琴演出人員與樂團成員，活動脈絡包含Dr. Blue、學生重奏與演出。</description>
     </item>
     <item>
       <title>蔡培婷</title>
@@ -722,17 +766,6 @@ Tag：活動資訊、比賽、半音階、複音、重奏、國際交流
 日本的國際比賽來源，涵蓋日本口琴比賽與duo trio。</description>
     </item>
     <item>
-      <title>王衍華</title>
-      <link>https://portaly.cc/yenhua_wang</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/d4be998cbe5b2da8</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、團體樂團、半音階、重奏
-國家：臺灣
-地區：臺灣
-臺灣的半音階口琴與重奏演出人員與重奏團員，活動脈絡包含天狼星、胖擊口琴樂團與半音階。</description>
-    </item>
-    <item>
       <title>JDR Harmonica</title>
       <link>https://www.jdrharmonica.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/ff3072d2a6ca4ec0</guid>
@@ -742,17 +775,6 @@ Tag：品牌、活動資訊、音樂節、半音階、十孔、國際交流
 國家：中國
 地區：中國/江蘇/江陰
 中國的器材品牌與活動贊助單位，涵蓋口琴製造、器材資訊與國際音樂節贊助。</description>
-    </item>
-    <item>
-      <title>何家健 HarmoniKahkean</title>
-      <link>https://linktr.ee/harmonikahkean</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/3e3031f087b9c123</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、重奏、國際交流
-國家：馬來西亞
-地區：臺灣/花蓮；馬來西亞
-馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。</description>
     </item>
     <item>
       <title>Rivet 口琴重奏</title>
@@ -986,17 +1008,6 @@ Tag：演奏者、教學、十孔、國際交流
 美國的十孔與藍調口琴國際演出人員，活動脈絡包含WHF 2025、藍調十孔與Chicago blues。</description>
     </item>
     <item>
-      <title>天狼星口琴樂團 Sirius Harmonica Ensemble</title>
-      <link>https://www.taiwanharmonica.com/sirius</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/1d79bff0b1b80c28</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：活動資訊、團體樂團、音樂節、重奏、國際交流
-國家：臺灣
-地區：臺灣
-臺灣的國際演出團體與音樂節主辦，涵蓋2017 WHF小合奏冠軍、TAIWAN TOP、THMF主辦與近年SIHF FEN APHF交流。</description>
-    </item>
-    <item>
       <title>Aiden N Evelyn / Aiden Soon &amp; Evelyn Choong</title>
       <link>https://linktr.ee/aidennevelyn</link>
       <guid>https://harmonica.observe.tw/feeds/sources/35ecbc8c70aca507</guid>
@@ -1061,17 +1072,6 @@ Tag：演奏者
 國家：臺灣
 地區：臺灣
 臺灣的鋼琴、編曲與口琴合作合作音樂家與編曲者，活動脈絡包含鋼琴合作與編曲創作。</description>
-    </item>
-    <item>
-      <title>Wilson Liao</title>
-      <link>https://www.instagram.com/weiyuliao1/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/f00cce679016278e</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、團體樂團、重奏
-國家：臺灣
-地區：臺灣/臺北
-臺灣的口琴演出人員與樂團成員，活動脈絡包含Dr. Blue、學生重奏與演出。</description>
     </item>
     <item>
       <title>吳采容</title>
