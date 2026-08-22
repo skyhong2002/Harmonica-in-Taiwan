@@ -1,9 +1,9 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-08-22T08:41:52+08:00",
+  "generatedAt": "2026-08-22T09:16:56+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 9,
+  "count": 10,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,7 +14,7 @@ window.publicCalendarEvents = {
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
+      "requests": 2,
       "cached": 23,
       "errors": 0
     }
@@ -208,11 +208,11 @@ window.publicCalendarEvents = {
       "image_url": "/assets/feed-images/d95a1f8250c6e4bee8b2.webp"
     },
     {
-      "id": "87d56ef441f138da",
+      "id": "248d51bb52af1f32",
       "title": "聽說口琴音樂故事",
       "eventName": "聽說口琴音樂故事",
-      "source": "王衍華",
-      "platform": "instagram",
+      "source": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+      "platform": "facebook",
       "start": "2026-09-12T19:30:00+08:00",
       "end": "2026-09-12T21:30:00+08:00",
       "allDay": false,
@@ -221,9 +221,9 @@ window.publicCalendarEvents = {
       "location": "臺北市 國立臺灣大學藝文中心雅頌坊",
       "venue": "國立臺灣大學藝文中心雅頌坊",
       "city": "臺北市",
-      "details": "主辦／演出者：王衍華。天狼星口琴樂團於國立臺灣大學藝文中心演出，節目以口琴重奏搭配解說與導聆，票價600元，臺灣大學系統教職員工生享五折優惠。購票可透過 OPENTIX 兩廳院售票系統。",
-      "evidenceUrl": "https://www.instagram.com/p/Db_AiybFOyQ/",
-      "confidence": 0.98,
+      "details": "主辦／演出者：天狼星口琴樂團 Sirius Harmonica Ensemble。天狼星口琴樂團演出，主辦單位為國立臺灣大學藝文中心。演出時間為 2026/9/12（六）19:30，購票入場，票價 600 元，臺灣大學系統教職員工生享五折優惠。",
+      "evidenceUrl": "https://www.facebook.com/SiriusHarp/posts/pfbid04D3UFMgrnEq7vWc8p4LB6jFSTyKhejBM8jMkH6rNKyms3oBLCBQuWLMkiMfahoZCl",
+      "confidence": 0.99,
       "calendarReview": {
         "include": true,
         "country": "臺灣",
@@ -233,15 +233,15 @@ window.publicCalendarEvents = {
         "eventName": "聽說口琴音樂故事",
         "venue": "國立臺灣大學藝文中心雅頌坊",
         "city": "臺北市",
-        "details": "主辦／演出者：王衍華。天狼星口琴樂團於國立臺灣大學藝文中心演出，節目以口琴重奏搭配解說與導聆，票價600元，臺灣大學系統教職員工生享五折優惠。購票可透過 OPENTIX 兩廳院售票系統。",
-        "reason": "貼文明確寫出活動名稱、時間為 2026/9/12 19:30，地點在臺灣台北的國立臺灣大學藝文中心，屬臺灣實體口琴演出。",
-        "confidence": 0.98
+        "details": "主辦／演出者：天狼星口琴樂團 Sirius Harmonica Ensemble。天狼星口琴樂團演出，主辦單位為國立臺灣大學藝文中心。演出時間為 2026/9/12（六）19:30，購票入場，票價 600 元，臺灣大學系統教職員工生享五折優惠。",
+        "reason": "候選日期與貼文明確演出時間一致，且為臺灣實體口琴演出活動。",
+        "confidence": 0.99
       },
-      "postedAt": "2026-08-13 22:59",
+      "postedAt": "2026-08-13 22:53",
       "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/774125930_18453949939138501_6570879922236738731_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=Mzk2Mjg4ODU4NzcxMjk4MjE2MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTIwMi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=nDLPSL7MdjQQ7kNvwEe3VMZ&_nc_oc=Ado5AqivFjzpOlYnIlmV9bHSmpfD7228hMmbHWKcw6sXtOVqsNatffZhcxZRuR2tPsA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=7cPnBd6_uOhM0PJKkvXQMg&_nc_ss=7a22e&oh=00_AQGmF7jVknKCk7FZNZ8WsgKJq3gEaJMs58RqThEXFDeqrQ&oe=6A839FD4"
+        "https://scontent-det1-1.xx.fbcdn.net/v/t39.30808-6/772819165_1611998727604402_523188504921327667_n.jpg?stp=dst-jpg_tt6&cstp=mx1202x1695&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=L_nL30JRLMwQ7kNvwFnfdkN&_nc_oc=AdqsmLanFcWOGtZC_KSK-V-cGsiO3Sc5TB_793qlzoKi17zJ6sNqoQg5j-9IgUnzXes&_nc_zt=23&_nc_ht=scontent-det1-1.xx&_nc_gid=lZjRh1gltTWgJk0lNU2XNg&_nc_ss=72289&oh=00_AQHhuSrzZhB7u2EdMmfDyhk_0NGwEwjMzHhT-4PhewFyuA&oe=6A8EC146"
       ],
-      "image_url": "/assets/feed-images/69b79ffd261a1ff2c374.webp"
+      "image_url": "/assets/feed-images/95f88266f6a696293def.webp"
     },
     {
       "id": "d8cd144edb7b64bd",
@@ -314,6 +314,42 @@ window.publicCalendarEvents = {
         "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/761653358_18612351817050240_2590188587154998094_n.jpg?stp=c655.0.1966.1966a_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6O2px-IVY5cQ7kNvwHH-Z5G&_nc_oc=AdqnT2X1NBWMguMiKHWkTVfr7qEAQtyDbu-VekrBu3anN6DdBzi0drV65JQmiZrPYOE&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YLet9VsdHRqztOzPMYljcw&_nc_ss=7b60f&oh=00_AQGVYRe6a9KHZcTPxwLC8SUrI0eUj3WUV5Z30p3UOwVAhQ&oe=6A756848"
       ],
       "image_url": "/assets/feed-images/9d9b79fc0bcd2accabe3.webp"
+    },
+    {
+      "id": "291301f51a921d0b",
+      "title": "Cy Leo《兩界一心》",
+      "eventName": "Cy Leo《兩界一心》",
+      "source": "天狼星口琴樂團 Sirius Harmonica Ensemble",
+      "platform": "facebook",
+      "start": "2026-09-23T19:30:00+08:00",
+      "end": "2026-09-23T21:30:00+08:00",
+      "allDay": false,
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "location": "新北市板橋區 新北市藝文中心演藝廳",
+      "venue": "新北市藝文中心演藝廳",
+      "city": "新北市板橋區",
+      "details": "主辦／演出者：天狼星口琴樂團 Sirius Harmonica Ensemble。演出時間為 2026/9/23 (三) 19:30，為 Cy Leo 何卓彥的巡迴計畫《兩界一心》臺灣場。入場方式為購票入場，售票系統為 OPENTIX 兩廳院售票系統。",
+      "evidenceUrl": "https://www.facebook.com/SiriusHarp/posts/pfbid0SuTkaKGDM36B1GizNwChHhcraAhNo3DDaQqzc3FQ2JGhPxq6PDXALSymb31YtdMul",
+      "confidence": 0.98,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "Cy Leo《兩界一心》",
+        "venue": "新北市藝文中心演藝廳",
+        "city": "新北市板橋區",
+        "details": "主辦／演出者：天狼星口琴樂團 Sirius Harmonica Ensemble。演出時間為 2026/9/23 (三) 19:30，為 Cy Leo 何卓彥的巡迴計畫《兩界一心》臺灣場。入場方式為購票入場，售票系統為 OPENTIX 兩廳院售票系統。",
+        "reason": "候選日期與貼文明確演出時間一致，且為在新北市舉辦的實體口琴音樂會，符合收錄範圍。",
+        "confidence": 0.98
+      },
+      "postedAt": "2026-08-19 23:07",
+      "images": [
+        "https://scontent-det1-1.xx.fbcdn.net/v/t39.30808-6/780471380_1617871143683827_8399336899933963612_n.jpg?stp=dst-jpg_tt6&cstp=mx1190x1684&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=eA--LoJw2mUQ7kNvwFRD6K3&_nc_oc=Adr9jLbUCl4JhZGF1oiWBUrEP6eiy7-Yl9hn6cTU-6frFf91SLL3O3QimcCIAGJKXM8&_nc_zt=23&_nc_ht=scontent-det1-1.xx&_nc_gid=lZjRh1gltTWgJk0lNU2XNg&_nc_ss=72289&oh=00_AQGEuOkhhv8Ur0q0KF1FagP_UoaeGz4dfJRexsst4QBzgQ&oe=6A8ECEE6"
+      ],
+      "image_url": "/assets/feed-images/aed5e16a4eebcf47f6dd.webp"
     },
     {
       "id": "d81eaaa4a62ef0c3",

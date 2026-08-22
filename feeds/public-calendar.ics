@@ -7,7 +7,7 @@ X-WR-CALNAME:臺灣口琴實體活動
 X-WR-TIMEZONE:Asia/Taipei
 BEGIN:VEVENT
 UID:20beaf6b38cf0959@harmonica.observe.tw
-DTSTAMP:20260822T004152Z
+DTSTAMP:20260822T011659Z
 DTSTART;TZID=Asia/Taipei:20260711T140000
 DTEND;TZID=Asia/Taipei:20260711T160000
 SUMMARY:口琴入門推廣講座
@@ -21,7 +21,7 @@ URL:https://www.instagram.com/p/DaNlIwyzK9b/
 END:VEVENT
 BEGIN:VEVENT
 UID:88fb7911620b72be@harmonica.observe.tw
-DTSTAMP:20260822T004152Z
+DTSTAMP:20260822T011659Z
 DTSTART;TZID=Asia/Taipei:20260718T193000
 DTEND;TZID=Asia/Taipei:20260718T213000
 SUMMARY:臺灣探戈樂團創團音樂會
@@ -33,7 +33,7 @@ URL:https://www.youtube.com/watch?v=PA11sSFkJeA
 END:VEVENT
 BEGIN:VEVENT
 UID:6670d32764968444@harmonica.observe.tw
-DTSTAMP:20260822T004152Z
+DTSTAMP:20260822T011659Z
 DTSTART;TZID=Asia/Taipei:20260821T183000
 DTEND;TZID=Asia/Taipei:20260821T203000
 SUMMARY:臺中一中口琴之狼校友音樂會《天琴聲等煙雨》
@@ -46,7 +46,7 @@ URL:https://www.facebook.com/tcfsh.harmonica/posts/pfbid026TX9x37qBLk1W7jif
 END:VEVENT
 BEGIN:VEVENT
 UID:025134440ff24f0d@harmonica.observe.tw
-DTSTAMP:20260822T004152Z
+DTSTAMP:20260822T011659Z
 DTSTART;TZID=Asia/Taipei:20260821T184500
 DTEND;TZID=Asia/Taipei:20260821T204500
 SUMMARY:《天琴聲等煙雨》
@@ -59,7 +59,7 @@ URL:https://www.instagram.com/p/DcOmeuTGBgX/
 END:VEVENT
 BEGIN:VEVENT
 UID:09e0dc53424d06c1@harmonica.observe.tw
-DTSTAMP:20260822T004152Z
+DTSTAMP:20260822T011659Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:拾光琴緣 口琴音樂會
@@ -73,22 +73,24 @@ URL:https://www.facebook.com/TheHummingWay/posts/pfbid0PUv9mPsjteCRqm1MYryF
  NmxeGSN9YNocQ5V52G5TTmFaE3gqkJP12sa5WPsoJrQ1l
 END:VEVENT
 BEGIN:VEVENT
-UID:87d56ef441f138da@harmonica.observe.tw
-DTSTAMP:20260822T004152Z
+UID:248d51bb52af1f32@harmonica.observe.tw
+DTSTAMP:20260822T011659Z
 DTSTART;TZID=Asia/Taipei:20260912T193000
 DTEND;TZID=Asia/Taipei:20260912T213000
 SUMMARY:聽說口琴音樂故事
 LOCATION:臺北市 國立臺灣大學藝文中心雅頌坊
-DESCRIPTION:主辦／演出者：王衍華。天狼星口琴樂團於國立
- 臺灣大學藝文中心演出，節目以口琴重奏搭配解說與導
- 聆，票價600元，臺灣大學系統教職員工生享五折優惠。
- 購票可透過 OPENTIX 兩廳院售票系統。\nhttps://www.instagram.co
- m/p/Db_AiybFOyQ/
-URL:https://www.instagram.com/p/Db_AiybFOyQ/
+DESCRIPTION:主辦／演出者：天狼星口琴樂團 Sirius Harmonica Ens
+ emble。天狼星口琴樂團演出，主辦單位為國立臺灣大學藝
+ 文中心。演出時間為 2026/9/12（六）19:30，購票入場，票
+ 價 600 元，臺灣大學系統教職員工生享五折優惠。\nhttps:/
+ /www.facebook.com/SiriusHarp/posts/pfbid04D3UFMgrnEq7vWc8p4LB6jFSTyKhejBM8
+ jMkH6rNKyms3oBLCBQuWLMkiMfahoZCl
+URL:https://www.facebook.com/SiriusHarp/posts/pfbid04D3UFMgrnEq7vWc8p4LB6jF
+ STyKhejBM8jMkH6rNKyms3oBLCBQuWLMkiMfahoZCl
 END:VEVENT
 BEGIN:VEVENT
 UID:d8cd144edb7b64bd@harmonica.observe.tw
-DTSTAMP:20260822T004152Z
+DTSTAMP:20260822T011659Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:中研院藝文活動 - 胖擊口琴樂團：口琴重奏音樂分
@@ -102,7 +104,7 @@ URL:https://www.instagram.com/p/DcOP0--vMVW/
 END:VEVENT
 BEGIN:VEVENT
 UID:d9ba531c3f824ba0@harmonica.observe.tw
-DTSTAMP:20260822T004152Z
+DTSTAMP:20260822T011659Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:CY Leo 何卓彥｜Two Worlds In One 亞洲巡演
@@ -113,8 +115,24 @@ DESCRIPTION:主辦／演出者：CY Leo 何卓彥。亞洲巡演場次：20
 URL:https://www.instagram.com/p/DbdOLZDjK-H/
 END:VEVENT
 BEGIN:VEVENT
+UID:291301f51a921d0b@harmonica.observe.tw
+DTSTAMP:20260822T011659Z
+DTSTART;TZID=Asia/Taipei:20260923T193000
+DTEND;TZID=Asia/Taipei:20260923T213000
+SUMMARY:Cy Leo《兩界一心》
+LOCATION:新北市板橋區 新北市藝文中心演藝廳
+DESCRIPTION:主辦／演出者：天狼星口琴樂團 Sirius Harmonica Ens
+ emble。演出時間為 2026/9/23 (三) 19:30，為 Cy Leo 何卓彥的巡
+ 迴計畫《兩界一心》臺灣場。入場方式為購票入場，售
+ 票系統為 OPENTIX 兩廳院售票系統。\nhttps://www.facebook.com/Si
+ riusHarp/posts/pfbid0SuTkaKGDM36B1GizNwChHhcraAhNo3DDaQqzc3FQ2JGhPxq6PDXAL
+ Symb31YtdMul
+URL:https://www.facebook.com/SiriusHarp/posts/pfbid0SuTkaKGDM36B1GizNwChHhc
+ raAhNo3DDaQqzc3FQ2JGhPxq6PDXALSymb31YtdMul
+END:VEVENT
+BEGIN:VEVENT
 UID:d81eaaa4a62ef0c3@harmonica.observe.tw
-DTSTAMP:20260822T004152Z
+DTSTAMP:20260822T011659Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:衛武營小時光《跟著口琴去旅行》
