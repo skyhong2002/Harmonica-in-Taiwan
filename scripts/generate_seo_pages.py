@@ -1660,6 +1660,70 @@ def generate_source_index_base_page() -> str:
     )
 
 
+def write_not_found_page() -> None:
+    """Write the custom 404 page GitHub Pages serves for unknown URLs."""
+
+    not_found_html = f"""<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>找不到頁面｜臺灣口琴觀測站</title>
+    <meta
+      name="description"
+      content="這個網址不存在，頁面可能已改名、移動或不再收錄。"
+    >
+    <meta name="robots" content="noindex">
+    <link rel="icon" href="/assets/favicon-20260623.svg?v={ASSET_VERSION}" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/styles.css?v={ASSET_VERSION}">
+  </head>
+  <body>
+{HEADER_HTML}
+
+    <main class="feed-page-main">
+      <section class="feed-page-hero">
+        <div class="band-inner split-layout">
+          <div>
+            <p class="section-kicker">404</p>
+            <h1>找不到這個頁面</h1>
+          </div>
+          <div class="feed-page-summary">
+            <p>這個網址不存在，頁面可能已改名、移動或不再收錄。來源頁面的網址會隨名稱更新，舊連結不一定會保留。</p>
+            <div class="feed-links">
+              <a href="/">回到首頁</a>
+              <a href="/post/">公開貼文</a>
+              <a href="/source/">公開來源</a>
+              <a href="/scores/">比賽指定曲</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="band">
+        <div class="band-inner split-layout">
+          <div>
+            <p class="section-kicker">Report</p>
+            <h2>看到失效連結？</h2>
+          </div>
+          <div class="submit-panel">
+            <p>如果你是從站內或其他網站連到這裡的，這可能是一條失效連結，歡迎回報讓我們修正。</p>
+            <div class="feed-links">
+              <a href="/submit/?kind=correct">回報失效連結</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+{FOOTER_HTML}
+  </body>
+</html>
+"""
+    (SITE_ROOT / "404.html").write_text(
+        normalize_generated_html(not_found_html), encoding="utf-8"
+    )
+
+
 def write_source_index_redirect() -> None:
     redirect_url = "https://harmonica.observe.tw/source/"
     redirect_dir = SITE_ROOT / "post" / "source"
@@ -2174,6 +2238,7 @@ def main() -> int:
     # 6. Pre-render Core Pages (index, post, source, scores, scores/sources, feeds)
     update_core_pages(entries, scores, scores_payload)
     write_source_index_redirect()
+    write_not_found_page()
 
     # 7. Rebuild sitemap
     sitemap_content = generate_sitemap_xml(entries, events, categories, updates, scores, source_groups)
