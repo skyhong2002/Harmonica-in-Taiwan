@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 726,
+  "count": 725,
   "items": [
     {
       "title": "基隆社區大學就是吹口琴｜基隆社區大學 - 周課表 ﻿ 基隆社區大學 - 周課表 Toggle main menu visibility 基隆市基隆社區大學 首頁 校務公告 週課表 講師群 --> 查詢活動 --> 聯絡我們 --> 回到官…",
@@ -57606,73 +57606,6 @@
         "公開活動"
       ],
       "key": "ig_plashervouetband:https://www.instagram.com/p/DbINitXICWX/"
-    },
-    {
-      "title": "臺中國家歌劇院 National Taichung Theater｜2026 夏日放／FUN時光｜怪美Parade！全臺最辣大廳！5位神級皇后華麗降臨歌劇院 在 8 月正式進劇場前，火辣的妖仙們在 19 號提前降臨歌劇院！ 這群閃亮豔麗的…",
-      "headline": "2026 夏日放／FUN時光｜怪美Parade！全臺最辣大廳！5位神級皇后華麗降臨歌劇院",
-      "display_title": "2026 夏日放／FUN時光｜怪美Parade！全臺最辣大廳！5位神級皇后華麗降臨歌劇院",
-      "title_kind": "title",
-      "link": "https://www.youtube.com/watch?v=_cdVEEQe0uw",
-      "source_id": "yt_uctl1euke_x0w6tahecepgmq",
-      "source": "臺中國家歌劇院 National Taichung Theater",
-      "source_system_name": "臺中國家歌劇院",
-      "source_profile_url": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "directory_entry_id": "watchlist-80",
-      "directory_entry_name": "臺中國家歌劇院",
-      "account": "https://www.youtube.com/channel/UCtL1EUKe_x0W6tahEcEPGMQ",
-      "platform": "youtube",
-      "platform_label": "YouTube",
-      "posted_at": "2026-07-23T06:00:05+00:00",
-      "posted_at_local": "2026-07-23 14:00",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-07-23T10:08:06.567154+00:00",
-      "media_type": "video",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [],
-      "keyword_matches": [
-        "演出"
-      ],
-      "llm_relevant": false,
-      "llm_confidence": 0.95,
-      "llm_labels": [],
-      "llm_categories": [],
-      "llm_reason": "內容為歌劇院變裝演出宣傳，無口琴或口琴社團/演奏相關。",
-      "text": "2026 夏日放／FUN時光｜怪美Parade！全臺最辣大廳！5位神級皇后華麗降臨歌劇院\n在 8 月正式進劇場前，火辣的妖仙們在 19 號提前降臨歌劇院！\n這群閃亮豔麗的臺灣頂尖變裝皇后，當天隨機突襲歌劇院大廳，一登場直接辣翻全場、強大氣場震撼所有人！💥\n現場許多朋友特別遠道而來，近距離一睹皇后們的神級風采，紛紛讚嘆那精緻到令人屏息的華麗造型與精緻美妝。\n除了參與《怪美妖仙傳》演出的Makeila、Tatannia，友情兩肋插刀行動支持的安泰西亞、美神、佛跳薔3位皇后也一起共襄盛舉，攜手跟大家共度了一個超無敵的美麗午後！\n你有在現場親眼看到嗎？還是幸運巧遇了呢？\n錯過現場沒關係，當天的華麗精彩片段，趕緊點開重溫！8月歌劇院見～👀✨\n⚡臺北劇場實驗室《怪美妖仙傳》⚡\n８/７㊄—８/９㊐ 📍中劇院\n我的美麗由我定義🫵https://npacntt.tw/n02qfQFr",
-      "images": [
-        "https://i.ytimg.com/vi/_cdVEEQe0uw/maxresdefault.jpg"
-      ],
-      "videos": [],
-      "source_image_url": "https://i.ytimg.com/vi/_cdVEEQe0uw/maxresdefault.jpg",
-      "image_url": "/assets/feed-images/4531b67d705b542b3dd8.webp",
-      "image_width": 800,
-      "image_height": 450,
-      "source_avatar_url": "https://yt3.googleusercontent.com/ytc/AIdro_kROflWtLDL5SN4-6xo3VZ9f2D2DI55Oh08zxVDWzjDjg=s900-c-k-c0x00ffffff-no-rj",
-      "avatar_url": "/assets/source-avatars/6503895ebdafdcd31f05.webp",
-      "source_initials": "NTT",
-      "categories": [
-        "posts-videos",
-        "events",
-        "student-clubs"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動",
-        "學生社團"
-      ],
-      "key": "yt_uctl1euke_x0w6tahecepgmq:_cdVEEQe0uw"
     }
   ]
 }
