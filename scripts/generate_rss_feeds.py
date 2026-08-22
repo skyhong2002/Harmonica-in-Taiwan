@@ -2693,9 +2693,11 @@ def render_feed_category_card(category: dict[str, str], count: int) -> str:
         <div>
           <p class="section-kicker">{html_escape(category["id"])}</p>
           <h2>{html_escape(category["page_title"])}</h2>
+          <p>{html_escape(category["page_intro"])}</p>
         </div>
         <div class="feed-card-actions">
           <span class="pill">{count} 筆</span>
+          <a href="{html_escape(feed_page_url(category))}">網頁版</a>
           <a href="/{html_escape(category["rss_path"])}">RSS</a>
         </div>
       </article>
@@ -2770,7 +2772,7 @@ def render_feed_index(categorized: dict[str, list[dict[str, Any]]]) -> str:
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>RSS 訂閱｜臺灣口琴觀測站</title>
-    <meta name="description" content="臺灣口琴觀測站公開更新 RSS。">
+    <meta name="description" content="訂閱臺灣口琴觀測站的公開更新 RSS：口琴公開活動、貼文與影片發布、學生社團動態、補助與比賽資訊，另提供 JSON 版本。">
     <link rel="canonical" href="https://harmonica.observe.tw/feeds/">
     <link rel="icon" href="/assets/favicon-20260623.svg?v={ASSET_VERSION}" type="image/svg+xml">
     <link rel="alternate" type="application/rss+xml" title="臺灣口琴觀測站公開更新" href="/feeds/updates.xml">
@@ -2787,6 +2789,7 @@ def render_feed_index(categorized: dict[str, list[dict[str, Any]]]) -> str:
             <h1>公開更新</h1>
           </div>
           <div class="feed-page-summary">
+            <p>臺灣口琴觀測站每天整理公開口琴資訊，分成四條 RSS：公開活動、貼文與影片發布、學生社團動態、補助與比賽資訊。用任何 RSS 閱讀器訂閱，或改抓同名的 JSON 檔。</p>
             <div class="feed-links">
               <a href="/feeds/updates.xml">總更新 RSS</a>
               <a href="/feeds/sources.xml">來源索引 RSS</a>
