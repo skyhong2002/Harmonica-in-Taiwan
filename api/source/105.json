@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T21:24:47.974812Z",
+  "generatedAt": "2026-08-22T21:59:28.398793Z",
   "source": {
     "id": 105,
     "slug": "stay-drunk-harmonica-ensemble",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/105-stay-drunk-harmonica-ensemble/"
   },
   "items": [
+    {
+      "id": "post-ac2499a9cacafb3294b80d4b",
+      "title": "2026 中一中校友音樂會 天琴聲等煙雨",
+      "excerpt": "2026 中一中校友音樂會 天琴聲等煙雨",
+      "url": "https://www.instagram.com/p/DcWONNcCQ3E/",
+      "sourceName": "Stay Drunk 口琴樂團",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-22T15:21:12Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9c9a6414616c72c5b062.webp",
+        "width": 800,
+        "height": 534
+      }
+    },
     {
       "id": "post-7f97a6baa9fc6eb195f6af38",
       "title": "2026 🇰🇷 SIHF",

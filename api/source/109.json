@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T21:24:47.974812Z",
+  "generatedAt": "2026-08-22T21:59:28.398793Z",
   "source": {
     "id": 109,
     "slug": "boris-plotnikov",
@@ -48,20 +48,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/4369ba1414664130079e.webp",
         "width": 800,
         "height": 1067
-      }
-    },
-    {
-      "id": "post-849066c2c2002f1ee28a6442",
-      "title": "Boris Plotnikov - Tequila - JDR Chicago C harmonica and Flight Sophia ukulele",
-      "excerpt": "Boris Plotnikov - Tequila - JDR Chicago C harmonica and Flight Sophia ukulele",
-      "url": "https://www.instagram.com/p/DbJpUDUtyuk/",
-      "sourceName": "Boris Plotnikov",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-23T21:37:42Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/7a49dac96987d90e988b.webp",
-        "width": 720,
-        "height": 720
       }
     }
   ]
