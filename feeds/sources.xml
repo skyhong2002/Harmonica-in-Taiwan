@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 22 Aug 2026 09:46:26 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 10:54:23 +0000</lastBuildDate>
     <item>
       <title>基隆社區大學就是吹口琴</title>
       <link>https://kcu.twcu.org.tw/course/m_course_list.php</link>
@@ -106,6 +106,17 @@ Tag：演奏者
 臺灣的口琴演出人員，活動脈絡包含口琴演奏、學生音樂與個人帳號。</description>
     </item>
     <item>
+      <title>Timothy Yip 葉進禧</title>
+      <link>https://www.timothyyipharmonica.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/f44e6396801a0c03</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、比賽、半音階、國際交流
+國家：香港
+地區：香港
+香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。</description>
+    </item>
+    <item>
       <title>第十五屆亞太口琴藝術週</title>
       <link>https://www.aphfhx.com/information/newsDetail/361363469090992128</link>
       <guid>https://harmonica.observe.tw/feeds/sources/eef672ca06f4b4ed</guid>
@@ -172,6 +183,17 @@ Tag：演奏者、團體樂團、重奏
 臺灣的口琴演出人員與樂團成員，活動脈絡包含台大藍聲、Dr. Blue與學生重奏。</description>
     </item>
     <item>
+      <title>唐雪婷 Sharene Tang</title>
+      <link>https://www.facebook.com/sharenetang.fresco/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/4dc25ed2251d3a9d</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、半音階、國際交流
+國家：馬來西亞
+地區：馬來西亞
+馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。</description>
+    </item>
+    <item>
       <title>菜鳥琴老師很菜</title>
       <link>https://www.facebook.com/chin.diary</link>
       <guid>https://harmonica.observe.tw/feeds/sources/8a8c1e148b1195e7</guid>
@@ -181,6 +203,28 @@ Tag：演奏者、教學
 國家：臺灣
 地區：臺灣/中彰投
 臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。</description>
+    </item>
+    <item>
+      <title>莊庭皓 Ivan Chong</title>
+      <link>https://ivanchong.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/ba243e23975a9c6c</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、團體樂團、教學、半音階、重奏、國際交流
+國家：香港
+地區：香港
+香港的半音階口琴國際演出人員、口琴教師與學校樂團指揮，活動脈絡包含半音階口琴演奏與教學、Perfect Fourth成員與何東中學口琴隊指揮與多校口琴導師。</description>
+    </item>
+    <item>
+      <title>彰女微光口琴社</title>
+      <link>https://www.instagram.com/chgsh_harmonica/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/4901996dac05cffc</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：學校社團
+Tag：學生社團
+國家：臺灣
+地區：臺灣/彰化
+臺灣的口琴學校社團。</description>
     </item>
     <item>
       <title>蔡明憲</title>
@@ -315,17 +359,6 @@ Tag：演奏者、教學、半音階、國際交流
 阿根廷的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、半音階口琴與世界冠軍。</description>
     </item>
     <item>
-      <title>Timothy Yip 葉進禧</title>
-      <link>https://www.timothyyipharmonica.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/f44e6396801a0c03</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、比賽、半音階、國際交流
-國家：香港
-地區：香港
-香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。</description>
-    </item>
-    <item>
       <title>Jong-seong Park 朴鍾聲</title>
       <link>https://www.mnac.co.kr/jongseongpark</link>
       <guid>https://harmonica.observe.tw/feeds/sources/7375d9cceaab9077</guid>
@@ -401,17 +434,6 @@ Tag：演奏者、半音階、重奏、國際交流
 國家：香港
 地區：香港
 香港的半音階國際演出人員，活動脈絡包含國際賽事、電台主持與Adventure Harmonica Band。</description>
-    </item>
-    <item>
-      <title>莊庭皓 Ivan Chong</title>
-      <link>https://ivanchong.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/ba243e23975a9c6c</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、團體樂團、教學、半音階、重奏、國際交流
-國家：香港
-地區：香港
-香港的半音階口琴國際演出人員、口琴教師與學校樂團指揮，活動脈絡包含半音階口琴演奏與教學、Perfect Fourth成員與何東中學口琴隊指揮與多校口琴導師。</description>
     </item>
     <item>
       <title>Indiara Sfair</title>
@@ -511,17 +533,6 @@ Tag：團體樂團、半音階、重奏、國際交流
 國家：臺灣
 地區：臺灣
 臺灣的半音階口琴、和弦口琴與倍低音口琴國際演出團體與音樂教育推廣，活動脈絡包含口琴重奏、2016成立與五人編制。</description>
-    </item>
-    <item>
-      <title>唐雪婷 Sharene Tang</title>
-      <link>https://www.facebook.com/sharenetang.fresco/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/4dc25ed2251d3a9d</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學、半音階、國際交流
-國家：馬來西亞
-地區：馬來西亞
-馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。</description>
     </item>
     <item>
       <title>新竹縣文化局</title>
@@ -753,17 +764,6 @@ Tag：演奏者、教學、半音階、國際交流
 國家：日本
 地區：日本/東京/橫濱
 日本的半音階口琴與爵士口琴國際演出人員、教育者與錄音藝術家，活動脈絡包含專業半音階口琴演奏與教學、師承德永延生與2014第34屆FIH JAPAN口琴大賽總冠軍。</description>
-    </item>
-    <item>
-      <title>彰女微光口琴社</title>
-      <link>https://www.instagram.com/chgsh_harmonica/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/4901996dac05cffc</guid>
-      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：學校社團
-Tag：學生社團
-國家：臺灣
-地區：臺灣/彰化
-臺灣的口琴學校社團。</description>
     </item>
     <item>
       <title>衛武營國家藝術文化中心</title>
