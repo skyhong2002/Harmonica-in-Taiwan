@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 728,
+  "count": 727,
   "items": [
     {
       "title": "王衍華｜📌 2025年9月27 日｜臺灣・滬尾藝文休閒園區 李讓：《銀河之詩》第三樂章〈獵人與大小獵犬〉 2023年，我們邀請好友李讓 @jangli_harmonica 為樂團量身打造了三樂章作品《銀河之詩》。 這部作品以夜空中最亮的「…",
@@ -57772,71 +57772,6 @@
         "公開活動"
       ],
       "key": "ig_boris_plotnikov:https://www.instagram.com/p/DbJpUDUtyuk/"
-    },
-    {
-      "title": "Pianist Cho Younghoon／HOON TO-BE｜Chicago - Hard to Say I'm Sorry (piano cover) 어렵지만 중요한 말 결국 해야만 했던 말 그때는 몰랐던 나의 말 . #시…",
-      "headline": "Chicago - Hard to Say I'm Sorry (piano cover)",
-      "display_title": "Chicago - Hard to Say I'm Sorry (piano cover)",
-      "title_kind": "title",
-      "link": "https://www.youtube.com/watch?v=hMZjEzpPBqI",
-      "source_id": "yt_hoontobe",
-      "source": "Pianist Cho Younghoon／HOON TO-BE",
-      "source_system_name": "Younghoon Cho",
-      "source_profile_url": "https://www.youtube.com/channel/UC1g3JeOMALigRxT5fdbDzyw",
-      "country": "韓國",
-      "region": "韓國",
-      "directory_entry_id": "watchlist-66",
-      "directory_entry_name": "Younghoon Cho",
-      "account": "https://www.youtube.com/channel/UC1g3JeOMALigRxT5fdbDzyw",
-      "platform": "youtube",
-      "platform_label": "YouTube",
-      "posted_at": "2026-07-23T17:25:27+00:00",
-      "posted_at_local": "2026-07-24 01:25",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-07-24T04:05:36.661497+00:00",
-      "media_type": "video",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [],
-      "keyword_matches": [],
-      "llm_relevant": false,
-      "llm_confidence": 0.98,
-      "llm_labels": [],
-      "llm_categories": [],
-      "llm_reason": "內容為鋼琴翻奏與個人頻道更新，無口琴演出、課程或社團相關資訊。",
-      "text": "Chicago - Hard to Say I'm Sorry (piano cover)\n어렵지만 중요한 말\n결국 해야만 했던 말\n그때는 몰랐던 나의 말\n.\n#시카고 #올드팝 #피아노커버\n구독⭐ 좋아요👍 알림설정🔔 은 사랑입니다💕\n오늘도 좋은 음악 되세요🎶\n관련 제품🎁https://www.youtube.com/@hoontobe/store\n―\nInstagram｜https://www.instagram.com/hoontobe_piano\nFacebook｜https://www.facebook.com/hoontobe\n🎹공연 일정 및 소식👉http://linktr.ee/hoontobe\n👥카카오톡 채널👉http://t.ly/WG4N\n―\n💌후원하기(↓You can support me via↓)\n💛Kakao pay(mobile)👉https://t.ly/iE0M\n🟡카카오뱅크 3333011163011\n💲Super Chat / Stickers / Thanks are available\n―\n📺매주 목요일 밤 10시 영상 업로드\n📡매주 일요일 밤 10시 「일밤 감성 피아노」 RADIO LIVE\n📺New videos every Thursday 10 P.M.\n📡Live streaming every Sunday night 10 P.M. (UTC +09;00, Seoul)",
-      "images": [
-        "https://i.ytimg.com/vi/hMZjEzpPBqI/maxresdefault.jpg"
-      ],
-      "videos": [],
-      "source_image_url": "https://i.ytimg.com/vi/hMZjEzpPBqI/maxresdefault.jpg",
-      "image_url": "/assets/feed-images/24adf64ed4b3cd3d211d.webp",
-      "image_width": 800,
-      "image_height": 450,
-      "source_avatar_url": "https://yt3.googleusercontent.com/MHpZHcT5WgPbh3XBqVolRK1ynY2e2tvtO6vnhU0ZfSZmEr1iHedSJdkBFYlN11nPIGvCkW_Ibw=s900-c-k-c0x00ffffff-no-rj",
-      "avatar_url": "/assets/source-avatars/96f344ed766546a925a6.webp",
-      "source_initials": "PCY",
-      "categories": [
-        "posts-videos",
-        "events",
-        "student-clubs"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動",
-        "學生社團"
-      ],
-      "key": "yt_hoontobe:hMZjEzpPBqI"
     }
   ]
 }
