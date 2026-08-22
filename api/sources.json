@@ -1479,6 +1479,67 @@
       ]
     },
     {
+      "id": "watchlist-307",
+      "publicId": "307",
+      "name": "張錫範",
+      "nameEn": "Seokbeom Jang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "半音階口琴/Into The Harmonica代表/演奏教學與編曲/2012 APHF二重奏三重奏大合奏冠軍/獨奏亞軍/五重奏季軍/THMF 2026",
+      "structuredSummary": "半音階口琴/Into The Harmonica代表/演奏教學與編曲/2012 APHF二重奏三重奏大合奏冠軍/獨奏亞軍/五重奏季軍/THMF 2026 / 半音階口琴 / 國際演出人員/大學教師/口琴學院代表/編曲者",
+      "summary": "韓國的半音階口琴國際演出人員、大學教師與口琴學院代表，活動脈絡包含Into The Harmonica代表、演奏教學與編曲與2012 APHF二重奏三重奏大合奏冠軍。",
+      "keywords": "張錫範 장석범 Seokbeom Jang Into The Harmonica THMF 2026 APHF 2012 Seoul harmonica professor",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://cms.sjcu.ac.kr/ko/department/music-professor.do"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/into_be_om/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "307-seokbeom-jang",
+      "latestUpdateAt": "2026-08-22T08:42:22+00:00",
+      "latestUpdateLocal": "2026-08-22 16:42",
+      "latestUpdateSource": "張錫範",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcVgkBMEyIk/",
+      "avatarUrl": "/assets/source-avatars/seokbeom-jang.png",
+      "sourceInitials": "張錫",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_into_be_om",
+          "name": "張錫範",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "into_be_om",
+          "profileUrl": "https://www.instagram.com/into_be_om/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_into_be_om",
+          "name": "張錫範",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "into_be_om",
+          "profileUrl": "https://www.instagram.com/into_be_om/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/into_be_om/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-316",
       "publicId": "316",
       "name": "太平國小口琴隊",
@@ -10929,67 +10990,6 @@
           "username": "sgyouthfest",
           "profileUrl": "https://www.instagram.com/sgyouthfest/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/sgyouthfest/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-307",
-      "publicId": "307",
-      "name": "張錫範",
-      "nameEn": "Seokbeom Jang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國/首爾",
-      "cityOrFocus": "半音階口琴/Into The Harmonica代表/演奏教學與編曲/2012 APHF二重奏三重奏大合奏冠軍/獨奏亞軍/五重奏季軍/THMF 2026",
-      "structuredSummary": "半音階口琴/Into The Harmonica代表/演奏教學與編曲/2012 APHF二重奏三重奏大合奏冠軍/獨奏亞軍/五重奏季軍/THMF 2026 / 半音階口琴 / 國際演出人員/大學教師/口琴學院代表/編曲者",
-      "summary": "韓國的半音階口琴國際演出人員、大學教師與口琴學院代表，活動脈絡包含Into The Harmonica代表、演奏教學與編曲與2012 APHF二重奏三重奏大合奏冠軍。",
-      "keywords": "張錫範 장석범 Seokbeom Jang Into The Harmonica THMF 2026 APHF 2012 Seoul harmonica professor",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://cms.sjcu.ac.kr/ko/department/music-professor.do"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/into_be_om/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "307-seokbeom-jang",
-      "latestUpdateAt": "2026-08-04T09:30:03+00:00",
-      "latestUpdateLocal": "2026-08-04 17:30",
-      "latestUpdateSource": "張錫範",
-      "latestUpdateUrl": "https://www.instagram.com/p/DbnPtjRE_6P/",
-      "avatarUrl": "/assets/source-avatars/seokbeom-jang.png",
-      "sourceInitials": "張錫",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_into_be_om",
-          "name": "張錫範",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "into_be_om",
-          "profileUrl": "https://www.instagram.com/into_be_om/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_into_be_om",
-          "name": "張錫範",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "into_be_om",
-          "profileUrl": "https://www.instagram.com/into_be_om/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/into_be_om/story/0"
         }
       ]
     },

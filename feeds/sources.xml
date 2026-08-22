@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 22 Aug 2026 17:41:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 17:50:50 +0000</lastBuildDate>
     <item>
       <title>王衍華</title>
       <link>https://portaly.cc/yenhua_wang</link>
@@ -192,6 +192,17 @@ Tag：學生社團、大專社團
 國家：臺灣
 地區：臺灣/臺中
 臺灣的口琴學校社團。</description>
+    </item>
+    <item>
+      <title>張錫範</title>
+      <link>https://cms.sjcu.ac.kr/ko/department/music-professor.do</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/d237dc0b1283c711</guid>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、半音階、重奏、國際交流
+國家：韓國
+地區：韓國/首爾
+韓國的半音階口琴國際演出人員、大學教師與口琴學院代表，活動脈絡包含Into The Harmonica代表、演奏教學與編曲與2012 APHF二重奏三重奏大合奏冠軍。</description>
     </item>
     <item>
       <title>太平國小口琴隊</title>
@@ -1622,17 +1633,6 @@ Tag：活動資訊、比賽
 國家：新加坡
 地區：新加坡
 新加坡的學生比賽來源，涵蓋官方學生藝術展演、口琴項目與SYF。</description>
-    </item>
-    <item>
-      <title>張錫範</title>
-      <link>https://cms.sjcu.ac.kr/ko/department/music-professor.do</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/d237dc0b1283c711</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學、半音階、重奏、國際交流
-國家：韓國
-地區：韓國/首爾
-韓國的半音階口琴國際演出人員、大學教師與口琴學院代表，活動脈絡包含Into The Harmonica代表、演奏教學與編曲與2012 APHF二重奏三重奏大合奏冠軍。</description>
     </item>
     <item>
       <title>國立陽明交通大學藝文中心</title>
