@@ -5704,7 +5704,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-20 19:38",
       "latestUpdateSource": "國家兩廳院",
       "latestUpdateUrl": "https://www.instagram.com/stories/ntch.taipei/3967860998882772908/",
-      "avatarUrl": "/assets/source-avatars/ac6a8e352b66aad57e09.webp",
+      "avatarUrl": "/assets/source-avatars/3279a9d81bc1140c0fd8.webp",
       "sourceInitials": "國家",
       "sourceTags": [
         "場館平台"
@@ -9613,7 +9613,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-10 20:18",
       "latestUpdateSource": "Fresco Harmonica Ensemble",
       "latestUpdateUrl": "https://www.instagram.com/p/Db2_ymxiXl7/",
-      "avatarUrl": "/assets/source-avatars/93a849ed261dbbeb3b37.webp",
+      "avatarUrl": "/assets/source-avatars/9e0e0f29eb6afa4a9d73.webp",
       "sourceInitials": "FHE",
       "sourceTags": [
         "團體樂團",
