@@ -237,6 +237,10 @@
     source: [],
     tag: ["口琴"],
   };
+  // Archive pages (/post/page/N/) ship server-rendered feed content for
+  // crawlers; keep it until the reader interacts with a feed control.
+  const feedArchiveStatic = /^\/post\/page\/\d+\/?$/.test(window.location.pathname);
+  let feedArchiveTakenOver = false;
   const feedState = {
     platform: defaultFeedFilter("platform"),
     country: defaultFeedFilter("country"),
@@ -2376,6 +2380,57 @@
     });
   }
 
+  function feedArchiveChipSelection(chip) {
+    const names = ["platform", "country", "region", "tag", "source"];
+    for (const name of names) {
+      const key = `feed${name[0].toUpperCase()}${name.slice(1)}`;
+      if (chip.dataset[key] !== undefined) {
+        return { name, value: chip.dataset[key] || "all" };
+      }
+    }
+    return null;
+  }
+
+  function feedArchiveTakeover(apply) {
+    if (feedArchiveTakenOver) return;
+    feedArchiveTakenOver = true;
+    renderLatestFeeds();
+    if (apply) apply();
+  }
+
+  function bindFeedArchiveTakeover() {
+    if (!latestFeedGrid || !feedArchiveStatic) return;
+    latestFeedGrid.addEventListener("click", (event) => {
+      if (feedArchiveTakenOver) return;
+      const target = event.target instanceof Element ? event.target : null;
+      if (!target || target.closest("[data-feed-text-toggle]")) return;
+      const chip = target.closest(".feed-option-chip");
+      if (chip) {
+        event.preventDefault();
+        const selection = feedArchiveChipSelection(chip);
+        feedArchiveTakeover(selection ? () => applyFeedSelection(selection.name, selection.value) : null);
+        return;
+      }
+      if (target.closest(".feed-reset-button")) {
+        event.preventDefault();
+        feedArchiveTakeover(null);
+      }
+    });
+    const search = latestFeedGrid.querySelector("#feed-search-input");
+    if (search) {
+      search.addEventListener(
+        "focus",
+        () => {
+          feedArchiveTakeover(() => {
+            const next = latestFeedGrid.querySelector("#feed-search-input");
+            if (next) next.focus();
+          });
+        },
+        { once: true }
+      );
+    }
+  }
+
   function bindSourceRelatedPanels() {
     document.querySelectorAll("[data-source-related]").forEach((root) => {
       const chips = [...root.querySelectorAll("[data-source-related-chip]")];
@@ -2628,6 +2683,7 @@
 
   function renderLatestFeeds() {
     if (!latestFeedGrid) return;
+    if (feedArchiveStatic && !feedArchiveTakenOver) return;
     if (latestFeedGrid.dataset.feedMode === "home") {
       renderHomepageFeedSummary();
       return;
@@ -4524,7 +4580,11 @@
     feedData.generatedAt = formatFeedGeneratedAt(feedData.generatedAt);
     setStat("feedGeneratedAt", feedData.generatedAt || "-");
 
+    if (feedArchiveStatic && feedUrlParamNames().some((name) => new URLSearchParams(window.location.search).has(name))) {
+      feedArchiveTakenOver = true;
+    }
     bindDirectoryHashtags();
+    bindFeedArchiveTakeover();
     bindFeedTextToggles();
     bindSourceRelatedPanels();
     bindHomeStoryScroll();
