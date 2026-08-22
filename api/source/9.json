@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T16:08:22.513273Z",
+  "generatedAt": "2026-08-22T16:37:16.984997Z",
   "source": {
     "id": 9,
     "slug": "jang-li",
@@ -80,20 +80,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/924df92f450b648aa23f.webp",
         "width": 800,
         "height": 600
-      }
-    },
-    {
-      "id": "post-0dbd38e9cdc64f6b830cd677",
-      "title": "@jangli_harmonica: 🐶",
-      "excerpt": "@jangli_harmonica: 🐶 @jangli_harmonica : 🐶",
-      "url": "https://www.threads.com/t/DbJEtJSExgK",
-      "sourceName": "李讓 Jang Li",
-      "platform": "Threads",
-      "publishedAt": "2026-07-23T16:16:37Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/1c18ca3fa6af989f5ca0.webp",
-        "width": 800,
-        "height": 1067
       }
     }
   ]

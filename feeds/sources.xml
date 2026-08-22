@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 22 Aug 2026 16:08:23 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 16:37:19 +0000</lastBuildDate>
     <item>
       <title>王衍華</title>
       <link>https://portaly.cc/yenhua_wang</link>
@@ -115,6 +115,17 @@ Tag：演奏者、教學、半音階、國際交流
 國家：韓國
 地區：韓國/首爾
 韓國的半音階口琴國際演出人員與教學者，活動脈絡包含首爾藝術大學實用音樂系口琴主修、半音階爵士與Seoul Soloists。</description>
+    </item>
+    <item>
+      <title>林家靖 Rolabo Lin</title>
+      <link>https://harmonica.tw/course/jia-jing/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/84728e2c079cfc9a</guid>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、比賽、半音階、複音
+國家：臺灣
+地區：臺灣
+臺灣的半音階與複音演出人員，活動脈絡包含原創、比賽曲與SIHF 2026。</description>
     </item>
     <item>
       <title>吹口琴的小园园</title>
@@ -720,17 +731,6 @@ Tag：團體樂團、國際交流
 國家：印尼
 地區：印尼
 印尼的口琴與跨界國際演出團體，活動脈絡包含Reyharp Naufal與Balawan合作、跨界融合與口琴與吉他。</description>
-    </item>
-    <item>
-      <title>林家靖 Rolabo Lin</title>
-      <link>https://harmonica.tw/course/jia-jing/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/84728e2c079cfc9a</guid>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、比賽、半音階、複音
-國家：臺灣
-地區：臺灣
-臺灣的半音階與複音演出人員，活動脈絡包含原創、比賽曲與SIHF 2026。</description>
     </item>
     <item>
       <title>藍波口琴教室</title>
