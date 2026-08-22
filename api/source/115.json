@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T02:24:59.559124Z",
+  "generatedAt": "2026-08-22T02:59:39.951751Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/115-filip-jers/"
   },
   "items": [
+    {
+      "id": "post-037b40030a00c881828cd88d",
+      "title": "Inside my practice session: Jazz Harmonica II-V-I in all keys",
+      "excerpt": "Inside my practice session: Jazz Harmonica II-V-I in all keys Join me on a practice session! I love sharing and discussing practice methods. This video is a 4 minutes teaser from the full 23 minutes session that is on Patreon, where I have more than 10 different unedited practic…",
+      "url": "https://www.youtube.com/watch?v=MNEV8c_KiIo",
+      "sourceName": "Filip Jers",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-21T21:35:57Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/77d74baae64f13b29fb1.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-f47257c58b01af251740333c",
       "title": "Been practicing jazz harmonica for 2 hours today, and here are 23 seconds of jazz improvisation over a descending II-V-…",
