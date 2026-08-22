@@ -1,12 +1,12 @@
 {
-  "currentStep": "generate rss feeds",
-  "heartbeatAt": "2026-08-22T16:01:32.618545+00:00",
+  "currentStep": "",
+  "heartbeatAt": "2026-08-22T16:02:39.710237+00:00",
   "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
   "maxPostAgeDays": 30,
-  "message": "",
+  "message": "Pipeline completed; publishing snapshot",
   "pid": 31812,
   "startedAt": "2026-08-22T15:57:51.047797+00:00",
-  "status": "running",
+  "status": "ok",
   "steps": [
     {
       "command": [
@@ -124,11 +124,121 @@
         "/Library/Developer/CommandLineTools/usr/bin/python3",
         "scripts/generate_rss_feeds.py"
       ],
-      "finishedAt": "",
+      "finishedAt": "2026-08-22T16:02:07.113547+00:00",
       "name": "generate rss feeds",
-      "returnCode": null,
+      "returnCode": 0,
       "startedAt": "2026-08-22T16:01:17.495904+00:00",
-      "status": "running"
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_public_calendar_events.py"
+      ],
+      "finishedAt": "2026-08-22T16:02:07.730227+00:00",
+      "name": "build public calendar events",
+      "returnCode": 0,
+      "startedAt": "2026-08-22T16:02:07.114394+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/apply_submitted_events.py"
+      ],
+      "finishedAt": "2026-08-22T16:02:07.869821+00:00",
+      "name": "apply submitted events",
+      "returnCode": 0,
+      "startedAt": "2026-08-22T16:02:07.731650+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Users/skyhong/.hermes/google-workspace-venv/bin/python",
+        "scripts/sync_google_calendar_events.py"
+      ],
+      "finishedAt": "2026-08-22T16:02:26.968885+00:00",
+      "name": "sync google calendar",
+      "returnCode": 0,
+      "startedAt": "2026-08-22T16:02:07.870779+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_status_page.py"
+      ],
+      "finishedAt": "2026-08-22T16:02:29.668919+00:00",
+      "name": "build status page",
+      "returnCode": 0,
+      "startedAt": "2026-08-22T16:02:26.969424+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/build_submit_page.py"
+      ],
+      "finishedAt": "2026-08-22T16:02:29.697887+00:00",
+      "name": "build submit page",
+      "returnCode": 0,
+      "startedAt": "2026-08-22T16:02:29.669609+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/generate_seo_pages.py"
+      ],
+      "finishedAt": "2026-08-22T16:02:33.374522+00:00",
+      "name": "generate SEO pages",
+      "returnCode": 0,
+      "startedAt": "2026-08-22T16:02:29.698334+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/generate_cloudflare_redirects.py"
+      ],
+      "finishedAt": "2026-08-22T16:02:33.441636+00:00",
+      "name": "generate cloudflare redirects",
+      "returnCode": 0,
+      "startedAt": "2026-08-22T16:02:33.375634+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/check_source_coverage.py"
+      ],
+      "finishedAt": "2026-08-22T16:02:36.448976+00:00",
+      "name": "check source coverage",
+      "returnCode": 0,
+      "startedAt": "2026-08-22T16:02:33.442493+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/validate_public_outputs.py"
+      ],
+      "finishedAt": "2026-08-22T16:02:39.708301+00:00",
+      "name": "validate public outputs",
+      "returnCode": 0,
+      "startedAt": "2026-08-22T16:02:36.449708+00:00",
+      "status": "ok"
+    },
+    {
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "scripts/publish_github_pages.py"
+      ],
+      "finishedAt": "2026-08-22T16:02:39.709937+00:00",
+      "name": "publish github pages",
+      "returnCode": 0,
+      "startedAt": "2026-08-22T16:02:39.709394+00:00",
+      "status": "ok"
     }
   ],
   "version": 1
