@@ -1,5 +1,5 @@
 window.HARMONICA_OBSERVE_DATA = {
-  "generatedAt": "2026-08-22",
+  "generatedAt": "2026-08-23",
   "entries": [
     {
       "id": "watchlist-34",
@@ -579,7 +579,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-22 19:15",
       "latestUpdateSource": "臺灣口琴音樂節 THMF",
       "latestUpdateUrl": "https://www.instagram.com/p/DcVxLxkTp72/",
-      "avatarUrl": "/assets/source-avatars/32cd650465dc9585c462.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "T",
       "sourceTags": [
         "活動資訊",
@@ -798,6 +798,66 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@reiyamashita",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-111",
+      "publicId": "111",
+      "name": "Lee Hangyeol 이한결",
+      "nameEn": "Lee Hangyeol",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "首爾藝術大學實用音樂系口琴主修/半音階爵士/Seoul Soloists/2025 WHF爵士半音階季軍/首爾 2026公演",
+      "structuredSummary": "首爾藝術大學實用音樂系口琴主修/半音階爵士/Seoul Soloists/2025 WHF爵士半音階季軍/首爾 2026公演 / 半音階口琴 / 國際演出人員/教學者",
+      "summary": "韓國的半音階口琴國際演出人員與教學者，活動脈絡包含首爾藝術大學實用音樂系口琴主修、半音階爵士與Seoul Soloists。",
+      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica Seoul Arts SSHO WHF 2025 jazz chromatic third SIHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.seoul.go.kr/seoulgallery/eng/program/view.do?key=2509160014&prgmSn=60"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/gyeoli_94/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "111-lee-hangyeol",
+      "latestUpdateAt": "2026-08-22T10:29:20+00:00",
+      "latestUpdateLocal": "2026-08-22 18:29",
+      "latestUpdateSource": "Lee Hangyeol 이한결",
+      "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3969275722316209300/",
+      "avatarUrl": "/assets/source-avatars/ba3fb4001380cb98e39b.webp",
+      "sourceInitials": "LH",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "gyeoli_94",
+          "profileUrl": "https://www.instagram.com/gyeoli_94/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "gyeoli_94",
+          "profileUrl": "https://www.instagram.com/gyeoli_94/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/gyeoli_94/story/0"
         }
       ]
     },
@@ -1959,7 +2019,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-22 15:23",
       "latestUpdateSource": "Orion 口琴樂團",
       "latestUpdateUrl": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU",
-      "avatarUrl": "/assets/source-avatars/32cd650465dc9585c462.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "O",
       "sourceTags": [
         "團體樂團",
@@ -2800,7 +2860,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-22 08:04",
       "latestUpdateSource": "Evelyn Choong 鍾雪兒",
       "latestUpdateUrl": "https://www.instagram.com/stories/evelyn_harmonica/3968961338621486749/",
-      "avatarUrl": "/assets/source-avatars/d60d6395c56410d5c0eb.webp",
+      "avatarUrl": "/assets/source-avatars/7141635d2c900edabfe7.webp",
       "sourceInitials": "EC",
       "sourceTags": [
         "演奏者",
@@ -4199,7 +4259,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-21 21:01",
       "latestUpdateSource": "臺中國家歌劇院",
       "latestUpdateUrl": "https://www.instagram.com/p/DcTZaMaj_V9/",
-      "avatarUrl": "/assets/source-avatars/bca08eed94435184597a.webp",
+      "avatarUrl": "/assets/source-avatars/4443a584b4eeab49f74e.webp",
       "sourceInitials": "臺中",
       "sourceTags": [
         "場館平台"
@@ -7168,66 +7228,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "aurora._.harmonica",
           "profileUrl": "https://www.instagram.com/aurora._.harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/aurora._.harmonica/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-111",
-      "publicId": "111",
-      "name": "Lee Hangyeol 이한결",
-      "nameEn": "Lee Hangyeol",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國/首爾",
-      "cityOrFocus": "首爾藝術大學實用音樂系口琴主修/半音階爵士/Seoul Soloists/2025 WHF爵士半音階季軍/首爾 2026公演",
-      "structuredSummary": "首爾藝術大學實用音樂系口琴主修/半音階爵士/Seoul Soloists/2025 WHF爵士半音階季軍/首爾 2026公演 / 半音階口琴 / 國際演出人員/教學者",
-      "summary": "韓國的半音階口琴國際演出人員與教學者，活動脈絡包含首爾藝術大學實用音樂系口琴主修、半音階爵士與Seoul Soloists。",
-      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica Seoul Arts SSHO WHF 2025 jazz chromatic third SIHF 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.seoul.go.kr/seoulgallery/eng/program/view.do?key=2509160014&prgmSn=60"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/gyeoli_94/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "111-lee-hangyeol",
-      "latestUpdateAt": "2026-08-19T07:24:16+00:00",
-      "latestUpdateLocal": "2026-08-19 15:24",
-      "latestUpdateSource": "Lee Hangyeol 이한결",
-      "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3967008250734299915/",
-      "avatarUrl": "/assets/source-avatars/ba3fb4001380cb98e39b.webp",
-      "sourceInitials": "LH",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "gyeoli_94",
-          "profileUrl": "https://www.instagram.com/gyeoli_94/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "gyeoli_94",
-          "profileUrl": "https://www.instagram.com/gyeoli_94/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/gyeoli_94/story/0"
         }
       ]
     },
@@ -14867,7 +14867,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/32cd650465dc9585c462.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "AHE",
       "sourceTags": [
         "團體樂團"
@@ -14979,7 +14979,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/32cd650465dc9585c462.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "B",
       "sourceTags": [
         "團體樂團",
@@ -15079,7 +15079,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/32cd650465dc9585c462.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "CHE",
       "sourceTags": [
         "團體樂團"
@@ -15266,7 +15266,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/32cd650465dc9585c462.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "DTC",
       "sourceTags": [
         "團體樂團",
@@ -15581,7 +15581,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/32cd650465dc9585c462.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "MH",
       "sourceTags": [
         "團體樂團",
@@ -16337,7 +16337,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/32cd650465dc9585c462.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "巴國",
       "sourceTags": [
         "團體樂團"
@@ -16505,7 +16505,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/32cd650465dc9585c462.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "海豚",
       "sourceTags": [
         "團體樂團"
@@ -16613,7 +16613,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/32cd650465dc9585c462.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "自由",
       "sourceTags": [
         "團體樂團"
@@ -16939,7 +16939,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/32cd650465dc9585c462.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "龍騎",
       "sourceTags": [
         "團體樂團"
@@ -18084,7 +18084,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/32cd650465dc9585c462.webp",
+      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
       "sourceInitials": "GBH",
       "sourceTags": [
         "品牌",
