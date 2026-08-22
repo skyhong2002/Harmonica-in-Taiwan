@@ -1013,6 +1013,92 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-49",
+      "publicId": "49",
+      "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+      "nameEn": "Aiden N Evelyn",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "二重奏/影片/THMF/SIHF 2026",
+      "structuredSummary": "二重奏/影片/THMF/SIHF 2026 / 半音階/重奏 / 國際演出團體/二重奏",
+      "summary": "馬來西亞的半音階與重奏國際演出團體與二重奏，活動脈絡包含二重奏、影片與THMF。",
+      "keywords": "Aiden N Evelyn Aiden Soon Evelyn Choong harmonica SIHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/aidennevelyn"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/AidenNEvelyn/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/aidennevelyn/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/aidennevelyn"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "49-aiden-n-evelyn",
+      "latestUpdateAt": "2026-08-22T14:13:58+00:00",
+      "latestUpdateLocal": "2026-08-22 22:13",
+      "latestUpdateSource": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcWGNXvsFAK/",
+      "avatarUrl": "/assets/source-avatars/7b3077b50a514f7f4a80.webp",
+      "sourceInitials": "ANE",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_aidennevelyn",
+          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/AidenNEvelyn",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_aidennevelyn",
+          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "aidennevelyn",
+          "profileUrl": "https://www.instagram.com/aidennevelyn/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_aidennevelyn",
+          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "aidennevelyn",
+          "profileUrl": "https://www.instagram.com/aidennevelyn/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/aidennevelyn/story/0"
+        },
+        {
+          "id": "yt_aidennevelyn",
+          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/aidennevelyn",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-218",
       "publicId": "218",
       "name": "Evelyn Choong 鍾雪兒",
@@ -6882,92 +6968,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@deakharp",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-49",
-      "publicId": "49",
-      "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
-      "nameEn": "Aiden N Evelyn",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "二重奏/影片/THMF/SIHF 2026",
-      "structuredSummary": "二重奏/影片/THMF/SIHF 2026 / 半音階/重奏 / 國際演出團體/二重奏",
-      "summary": "馬來西亞的半音階與重奏國際演出團體與二重奏，活動脈絡包含二重奏、影片與THMF。",
-      "keywords": "Aiden N Evelyn Aiden Soon Evelyn Choong harmonica SIHF 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/aidennevelyn"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/AidenNEvelyn/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/aidennevelyn/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/aidennevelyn"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "49-aiden-n-evelyn",
-      "latestUpdateAt": "2026-08-19T14:33:28+00:00",
-      "latestUpdateLocal": "2026-08-19 22:33",
-      "latestUpdateSource": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
-      "latestUpdateUrl": "https://www.instagram.com/stories/aidennevelyn/3967224364026059649/",
-      "avatarUrl": "/assets/source-avatars/7b3077b50a514f7f4a80.webp",
-      "sourceInitials": "ANE",
-      "sourceTags": [
-        "團體樂團",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_aidennevelyn",
-          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/AidenNEvelyn",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_aidennevelyn",
-          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "aidennevelyn",
-          "profileUrl": "https://www.instagram.com/aidennevelyn/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_aidennevelyn",
-          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "aidennevelyn",
-          "profileUrl": "https://www.instagram.com/aidennevelyn/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/aidennevelyn/story/0"
-        },
-        {
-          "id": "yt_aidennevelyn",
-          "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/aidennevelyn",
           "feedUrl": ""
         }
       ]
