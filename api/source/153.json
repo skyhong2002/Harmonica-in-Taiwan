@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T13:10:38.489660Z",
+  "generatedAt": "2026-08-22T14:17:57.660562Z",
   "source": {
     "id": 153,
     "slug": "santiago-alvarez",
@@ -118,20 +118,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/7b596b4b2b442c589fc5.webp",
         "width": 720,
         "height": 1280
-      }
-    },
-    {
-      "id": "post-dbc88f7a9ba92c745852e340",
-      "title": "Ya estamos en el Asian Pacific Harmonica festival compartiendo mesa con los grandes de la armonica. Pronto tocaremos.",
-      "excerpt": "Ya estamos en el Asian Pacific Harmonica festival compartiendo mesa con los grandes de la armonica. Pronto tocaremos. #chromatic #argentineharmonica",
-      "url": "https://www.instagram.com/p/DbIzWD1MIMk/",
-      "sourceName": "Santiago Alvarez",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-23T13:49:41Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/68b6d9ee62e1609e6f4b.webp",
-        "width": 800,
-        "height": 1423
       }
     }
   ]
