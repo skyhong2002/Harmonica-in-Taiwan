@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T03:33:42.540248Z",
+  "generatedAt": "2026-08-22T04:41:00.342346Z",
   "source": {
     "id": 125,
     "slug": "jens-bunge",
@@ -104,20 +104,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/40bf5adae553a43c37fa.webp",
         "width": 800,
         "height": 800
-      }
-    },
-    {
-      "id": "post-6cf4f068b1af8913ba2deb54",
-      "title": "Speakers’ Corner, episode #9 (or so…I’m slowly running out of ideas… 😂)",
-      "excerpt": "Speakers’ Corner, episode #9 (or so…I’m slowly running out of ideas… 😂)",
-      "url": "https://www.instagram.com/p/DbHw9tzuNi5/",
-      "sourceName": "Jens Bunge",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-23T04:07:37Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/6dd8a1ad006c337b7639.webp",
-        "width": 800,
-        "height": 1067
       }
     }
   ]

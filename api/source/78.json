@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T03:33:42.540248Z",
+  "generatedAt": "2026-08-22T04:41:00.342346Z",
   "source": {
     "id": 78,
     "slug": "78",
@@ -186,20 +186,6 @@
       "publishedAt": "2026-07-23T10:00:26Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/1dcc9f9d9b163e304698.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-18318719830cf1e2d0c6f987",
-      "title": "2026 衛武營管風琴音樂節磅礡登場！巴黎聖母院首席管風琴大師拉特利，睽違多年震撼回歸！",
-      "excerpt": "2026 衛武營管風琴音樂節磅礡登場！巴黎聖母院首席管風琴大師拉特利，睽違多年震撼回歸！ 衛武營鎮館之寶——擁有 9,085 支風管與 127 支音栓的「樂器之王」，座落於葡萄園式設計的音樂廳內，提供全方位沉浸式的感官饗宴。 ⠀ 今年，巴黎聖母院首席管風琴師 奧利維耶．拉特利（Olivier LATRY） 親自擔綱音樂總監，為樂迷規畫三場絕不容錯過的巔峰之作： ✨ 《巴赫幻境》：大師獨奏，以理性邏輯碰撞法國浪漫，為音樂節壯麗開場。 ⠀ ✨ 《巔峰對話》：拉特利將攜手指揮簡文彬與高雄市交響樂團，激盪出白遼士、杜普雷與當代音樂家沙隆年的聲響火花。 ⠀ ✨…",
-      "url": "https://www.youtube.com/watch?v=NKApxqQu2RU",
-      "sourceName": "衛武營國家藝術文化中心",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-23T03:37:37Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/a75a6f4272cde2f71c83.webp",
         "width": 800,
         "height": 450
       }

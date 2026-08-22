@@ -137,6 +137,91 @@
       ]
     },
     {
+      "id": "watchlist-132",
+      "publicId": "132",
+      "name": "Antonio Serrano",
+      "nameEn": "Antonio Serrano",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "西班牙",
+      "region": "西班牙",
+      "cityOrFocus": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025",
+      "structuredSummary": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025 / 半音階/十孔 / 國際演出人員",
+      "summary": "西班牙的半音階與十孔國際演出人員，活動脈絡包含馬德里出生、古典藍調爵士流行與與Paco de Lucia合作。",
+      "keywords": "Antonio Serrano harmonica SIHF WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hohner.de/en/antonio-serrano"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/antonioserranoarmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/antonioserranoarmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@antonioserranoofficial"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-22T00:12:46+00:00",
+      "latestUpdateLocal": "2026-08-22 08:12",
+      "latestUpdateSource": "Antonio Serrano",
+      "latestUpdateUrl": "https://www.instagram.com/stories/antonioserranoarmonica/3968965513619289319/",
+      "avatarUrl": "/assets/source-avatars/0074a951adec1d32d4cc.webp",
+      "sourceInitials": "AS",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_antonioserranoarmonica",
+          "name": "Antonio Serrano",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/antonioserranoarmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_antonioserranoarmonica",
+          "name": "Antonio Serrano",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "antonioserranoarmonica",
+          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_antonioserranoarmonica",
+          "name": "Antonio Serrano",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "antonioserranoarmonica",
+          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/antonioserranoarmonica/story/0"
+        },
+        {
+          "id": "yt_antonioserranoofficial",
+          "name": "Antonio Serrano",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@antonioserranoofficial",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-218",
       "publicId": "218",
       "name": "Evelyn Choong 鍾雪兒",
@@ -1197,6 +1282,80 @@
           "username": "",
           "profileUrl": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-297",
+      "publicId": "297",
+      "name": "SHG Hering Harmonicas",
+      "nameEn": "SHG Hering Harmonicas",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌",
+      "country": "巴西",
+      "region": "巴西/布盧梅瑙",
+      "cityOrFocus": "十孔/半音階/複音口琴/藝術家與產品資訊",
+      "structuredSummary": "十孔/半音階/複音口琴/藝術家與產品資訊 / 口琴 / 樂器品牌/器材資訊",
+      "summary": "巴西的口琴樂器品牌與器材資訊，關注十孔、半音階、複音口琴與藝術家與產品資訊。",
+      "keywords": "SHG Hering Harmonicas Brazil gaita diatonic chromatic tremolo artists",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://shg.art.br/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://facebook.com/shggaitas"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/shggaitas/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "latestUpdateAt": "2026-08-21T17:48:13+00:00",
+      "latestUpdateLocal": "2026-08-22 01:48",
+      "latestUpdateSource": "SHG Hering Harmonicas",
+      "latestUpdateUrl": "https://www.instagram.com/stories/shggaitas/3968771864281036745/",
+      "avatarUrl": "/assets/source-avatars/hering-harmonica.png",
+      "sourceInitials": "SHH",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學",
+        "半音階",
+        "複音",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_shggaitas",
+          "name": "SHG Hering Harmonicas",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/shggaitas",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_shggaitas",
+          "name": "SHG Hering Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "shggaitas",
+          "profileUrl": "https://www.instagram.com/shggaitas/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_shggaitas",
+          "name": "SHG Hering Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "shggaitas",
+          "profileUrl": "https://www.instagram.com/shggaitas/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/shggaitas/story/0"
         }
       ]
     },
@@ -5668,91 +5827,6 @@
       ]
     },
     {
-      "id": "watchlist-132",
-      "publicId": "132",
-      "name": "Antonio Serrano",
-      "nameEn": "Antonio Serrano",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "西班牙",
-      "region": "西班牙",
-      "cityOrFocus": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025",
-      "structuredSummary": "馬德里出生/古典藍調爵士流行/與Paco de Lucia合作/WHF 2025 / 半音階/十孔 / 國際演出人員",
-      "summary": "西班牙的半音階與十孔國際演出人員，活動脈絡包含馬德里出生、古典藍調爵士流行與與Paco de Lucia合作。",
-      "keywords": "Antonio Serrano harmonica SIHF WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hohner.de/en/antonio-serrano"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/antonioserranoarmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/antonioserranoarmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@antonioserranoofficial"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-20T10:30:25+00:00",
-      "latestUpdateLocal": "2026-08-20 18:30",
-      "latestUpdateSource": "Antonio Serrano",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcQjTwAgFP1/",
-      "avatarUrl": "/assets/source-avatars/0074a951adec1d32d4cc.webp",
-      "sourceInitials": "AS",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_antonioserranoarmonica",
-          "name": "Antonio Serrano",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/antonioserranoarmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_antonioserranoarmonica",
-          "name": "Antonio Serrano",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "antonioserranoarmonica",
-          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_antonioserranoarmonica",
-          "name": "Antonio Serrano",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "antonioserranoarmonica",
-          "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/antonioserranoarmonica/story/0"
-        },
-        {
-          "id": "yt_antonioserranoofficial",
-          "name": "Antonio Serrano",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@antonioserranoofficial",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-308",
       "publicId": "308",
       "name": "Into The Harmonica 口琴學院",
@@ -6348,80 +6422,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/SiriusHARP",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-297",
-      "publicId": "297",
-      "name": "SHG Hering Harmonicas",
-      "nameEn": "SHG Hering Harmonicas",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "品牌",
-      "country": "巴西",
-      "region": "巴西/布盧梅瑙",
-      "cityOrFocus": "十孔/半音階/複音口琴/藝術家與產品資訊",
-      "structuredSummary": "十孔/半音階/複音口琴/藝術家與產品資訊 / 口琴 / 樂器品牌/器材資訊",
-      "summary": "巴西的口琴樂器品牌與器材資訊，關注十孔、半音階、複音口琴與藝術家與產品資訊。",
-      "keywords": "SHG Hering Harmonicas Brazil gaita diatonic chromatic tremolo artists",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://shg.art.br/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://facebook.com/shggaitas"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/shggaitas/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "latestUpdateAt": "2026-08-19T14:37:21+00:00",
-      "latestUpdateLocal": "2026-08-19 22:37",
-      "latestUpdateSource": "SHG Hering Harmonicas",
-      "latestUpdateUrl": "https://www.instagram.com/stories/shggaitas/3967226249402167576/",
-      "avatarUrl": "/assets/source-avatars/hering-harmonica.png",
-      "sourceInitials": "SHH",
-      "sourceTags": [
-        "品牌",
-        "教學器材",
-        "教學",
-        "半音階",
-        "複音",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_shggaitas",
-          "name": "SHG Hering Harmonicas",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/shggaitas",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_shggaitas",
-          "name": "SHG Hering Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "shggaitas",
-          "profileUrl": "https://www.instagram.com/shggaitas/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_shggaitas",
-          "name": "SHG Hering Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "shggaitas",
-          "profileUrl": "https://www.instagram.com/shggaitas/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/shggaitas/story/0"
         }
       ]
     },
@@ -7083,7 +7083,7 @@
       "latestUpdateLocal": "2026-08-19 15:24",
       "latestUpdateSource": "Lee Hangyeol 이한결",
       "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3967008250734299915/",
-      "avatarUrl": "/assets/source-avatars/f9dcd3d7b4b3f2d0d441.webp",
+      "avatarUrl": "/assets/source-avatars/ba3fb4001380cb98e39b.webp",
       "sourceInitials": "LH",
       "sourceTags": [
         "演奏者",
