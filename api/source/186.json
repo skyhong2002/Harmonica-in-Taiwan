@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-22T01:16:52.834006Z",
+  "generatedAt": "2026-08-22T02:24:59.559124Z",
   "source": {
     "id": 186,
     "slug": "tcfsh-harmonica",
     "name": "中一中口琴社",
     "pageUrl": "https://harmonica.observe.tw/source/186-tcfsh-harmonica/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-a2a5da0f7120a994badead3a",
+      "title": "《天琴聲等煙雨》",
+      "excerpt": "《天琴聲等煙雨》 而我在等你。 就在明天，8/21（五）， 誠摯邀請大家一同來到現場聆聽口琴的樂聲 享受這場音樂會。 ──────────────── 活動時間｜8/21（五）18:45 開放入場 活動地點｜大墩文化中心 B1 演講廳 入場方式｜免費入場 主辦單位｜中一中口琴社校友會 協辦單位｜中一中社團組 期待明天與大家相見。",
+      "url": "https://www.facebook.com/tcfsh.harmonica/posts/pfbid0BhotdQvkTgC7oL94ALkByFrnBUYeroqdq7HGmW4aCDG2vdSZ6otAwAgsUT3PuqtYl",
+      "sourceName": "中一中口琴社",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-20T14:33:45Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1bfbcd83158eec0494bf.webp",
+        "width": 472,
+        "height": 590
+      }
+    }
+  ]
 }
