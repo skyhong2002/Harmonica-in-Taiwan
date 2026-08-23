@@ -10,7 +10,9 @@ import datetime as dt
 import fcntl
 import json
 import os
+import socket
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -29,6 +31,26 @@ PRIVATE_MARKER_KEY = "harmonicaObserve"
 PRIVATE_MARKER_VALUE = "public-calendar"
 PRIVATE_EVENT_ID_KEY = "harmonicaObserveEventId"
 DEFAULT_HISTORY_DAYS = 7
+NETWORK_PROBE_HOST = "oauth2.googleapis.com"
+NETWORK_WAIT_SECONDS = int(os.environ.get("HARMONICA_NETWORK_WAIT_SECONDS", "120"))
+
+
+def wait_for_network(host: str = NETWORK_PROBE_HOST, timeout: int = NETWORK_WAIT_SECONDS) -> bool:
+    """Block until the Google endpoint resolves. This job also runs at login, where
+    it can start before the network is up; without the wait a cold boot fails the
+    whole day's sync on a DNS error that clears seconds later."""
+    deadline = time.monotonic() + timeout
+    delay = 2.0
+    while True:
+        try:
+            socket.getaddrinfo(host, 443, proto=socket.IPPROTO_TCP)
+            return True
+        except socket.gaierror:
+            remaining = deadline - time.monotonic()
+            if remaining <= 0:
+                return False
+            time.sleep(min(delay, remaining))
+            delay = min(delay * 2, 15.0)
 
 
 def load_dotenv(path: Path) -> None:
@@ -440,6 +462,15 @@ def main() -> int:
     }
     if not token_path.exists() and not env_credentials_available():
         status["message"] = f"Google token not found: {token_path}"
+        write_status(status)
+        if args.required:
+            print(status["message"], file=sys.stderr)
+            return 1
+        print(status["message"])
+        return 0
+
+    if not wait_for_network():
+        status["message"] = f"Network unavailable: cannot resolve {NETWORK_PROBE_HOST}"
         write_status(status)
         if args.required:
             print(status["message"], file=sys.stderr)
