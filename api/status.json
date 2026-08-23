@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T19:45:16+08:00",
+  "generatedAt": "2026-08-23T20:27:11+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "degraded",
@@ -7,13 +7,13 @@
     "summary": "核心 pipeline 有產出；需要注意：Instagram RSSHub。 Facebook Apify 目前依排程或預算節流。"
   },
   "metrics": {
-    "updates": 3977,
+    "updates": 3982,
     "updatesWindowDays": 30,
     "directoryEntries": 318,
     "watchSources": 785,
-    "currentErrors": 27,
-    "latestDataAt": "2026-08-23T19:44:53+08:00",
-    "latestSocialObservationAt": "2026-08-23T19:44:13+08:00"
+    "currentErrors": 5,
+    "latestDataAt": "2026-08-23T20:26:48+08:00",
+    "latestSocialObservationAt": "2026-08-23T20:26:12+08:00"
   },
   "watchSources": {
     "platforms": {
@@ -36,13 +36,13 @@
       {
         "platform": "facebook",
         "sources": 163,
-        "currentErrors": 4,
-        "status": "degraded"
+        "currentErrors": 0,
+        "status": "ok"
       },
       {
         "platform": "instagram",
         "sources": 354,
-        "currentErrors": 23,
+        "currentErrors": 3,
         "status": "degraded"
       },
       {
@@ -66,8 +66,8 @@
       {
         "platform": "youtube",
         "sources": 140,
-        "currentErrors": 0,
-        "status": "ok"
+        "currentErrors": 2,
+        "status": "degraded"
       }
     ]
   },
@@ -79,7 +79,7 @@
       "label": "正常",
       "summary": "定期 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-08-23 19:44:53",
+        "最新公開資料：2026-08-23 20:26:48",
         "pipeline.log 更新：2026-07-12 02:58:29",
         "pipeline.err.log 更新：2026-07-11 14:33:03",
         "LaunchAgent：running，last exit 0"
@@ -90,7 +90,7 @@
       "name": "公開 API",
       "status": "ok",
       "label": "正常",
-      "summary": "latest.json 有 3977 筆更新，sources.json 有 318 筆公開目錄。",
+      "summary": "latest.json 有 3982 筆更新，sources.json 有 318 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
         "watch sources：785"
@@ -104,7 +104,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：94 ms"
+        "耗時：58 ms"
       ]
     },
     {
@@ -112,13 +112,13 @@
       "name": "Instagram RSSHub",
       "status": "degraded",
       "label": "部分異常",
-      "summary": "354 個 Instagram 來源（profile 177、story 177）；最新抓取批次目前 23 個錯誤。",
+      "summary": "354 個 Instagram 來源（profile 177、story 177）；最新抓取批次目前 3 個錯誤。",
       "details": [
-        "最新社群觀測：2026-08-23 19:44:13",
-        "story 無公開內容/空路由略過：0",
+        "最新社群觀測：2026-08-23 20:26:12",
+        "story 無公開內容/空路由略過：1",
         "IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。",
-        "本輪 IG：抓取 40、排程略過 176、延後 138、錯誤 1。",
-        "下一個 IG 來源：約 2026-08-23 19:47:58"
+        "本輪 IG：抓取 40、排程略過 238、延後 76、錯誤 1。",
+        "下一個 IG 來源：約 2026-08-23 20:32:15"
       ]
     },
     {
@@ -155,8 +155,8 @@
       "label": "正常",
       "summary": "140 個 YouTube 來源；最近 run error_count=0。",
       "details": [
-        "最近完成：2026-08-23 19:33:35",
-        "最近新增 inbox：0"
+        "最近完成：2026-08-23 20:16:38",
+        "最近新增 inbox：2"
       ]
     },
     {
@@ -172,175 +172,55 @@
   ],
   "recentErrors": [
     {
-      "seenAt": "2026-08-23T19:44:13+08:00",
-      "sourceId": "ig_story_antonioserranoarmonica",
-      "sourceName": "Antonio Serrano",
-      "platform": "instagram",
-      "sourceType": "llm_tagger",
-      "error": "ig_story_antonioserranoarmonica:3969586840123972796_312983727: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platf"
-    },
-    {
-      "seenAt": "2026-08-23T19:44:13+08:00",
-      "sourceId": "ig_story_antonioserranoarmonica",
-      "sourceName": "Antonio Serrano",
-      "platform": "instagram",
-      "sourceType": "llm_tagger",
-      "error": "ig_story_antonioserranoarmonica:3969586889163608978_312983727: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platf"
-    },
-    {
-      "seenAt": "2026-08-23T19:44:13+08:00",
-      "sourceId": "ig_story_antonioserranoarmonica",
-      "sourceName": "Antonio Serrano",
-      "platform": "instagram",
-      "sourceType": "llm_tagger",
-      "error": "ig_story_antonioserranoarmonica:3969587011761229135_312983727: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platf"
-    },
-    {
-      "seenAt": "2026-08-23T19:44:13+08:00",
-      "sourceId": "ig_story_antonioserranoarmonica",
-      "sourceName": "Antonio Serrano",
-      "platform": "instagram",
-      "sourceType": "llm_tagger",
-      "error": "ig_story_antonioserranoarmonica:3969587153142824643_312983727: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platf"
-    },
-    {
-      "seenAt": "2026-08-23T19:44:13+08:00",
-      "sourceId": "ig_story_leeoskarharmonicas",
-      "sourceName": "Lee Oskar",
-      "platform": "instagram",
-      "sourceType": "llm_tagger",
-      "error": "ig_story_leeoskarharmonicas:3969902796278390883_2380604894: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform"
-    },
-    {
-      "seenAt": "2026-08-23T19:44:13+08:00",
-      "sourceId": "ig_story_gregoiremaret",
-      "sourceName": "Gregoire Maret",
-      "platform": "instagram",
-      "sourceType": "llm_tagger",
-      "error": "ig_story_gregoiremaret:3969932997532921086_1915475302: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.open"
-    },
-    {
-      "seenAt": "2026-08-23T19:44:13+08:00",
-      "sourceId": "ig_story_gregoiremaret",
-      "sourceName": "Gregoire Maret",
-      "platform": "instagram",
-      "sourceType": "llm_tagger",
-      "error": "ig_story_gregoiremaret:3969934645315632943_1915475302: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.open"
-    },
-    {
-      "seenAt": "2026-08-23T19:44:13+08:00",
-      "sourceId": "ig_story_gregoiremaret",
-      "sourceName": "Gregoire Maret",
-      "platform": "instagram",
-      "sourceType": "llm_tagger",
-      "error": "ig_story_gregoiremaret:3969935069628190571_1915475302: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.open"
-    },
-    {
-      "seenAt": "2026-08-23T19:44:13+08:00",
-      "sourceId": "ig_story_gregoiremaret",
-      "sourceName": "Gregoire Maret",
-      "platform": "instagram",
-      "sourceType": "llm_tagger",
-      "error": "ig_story_gregoiremaret:3969935733913621390_1915475302: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.open"
-    },
-    {
-      "seenAt": "2026-08-23T19:44:13+08:00",
-      "sourceId": "ig_story_gregoiremaret",
-      "sourceName": "Gregoire Maret",
-      "platform": "instagram",
-      "sourceType": "llm_tagger",
-      "error": "ig_story_gregoiremaret:3969936113892399868_1915475302: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.open"
-    },
-    {
-      "seenAt": "2026-08-23T19:44:13+08:00",
-      "sourceId": "ig_story_gregoiremaret",
-      "sourceName": "Gregoire Maret",
-      "platform": "instagram",
-      "sourceType": "llm_tagger",
-      "error": "ig_story_gregoiremaret:3969970392219376932_1915475302: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.open"
-    },
-    {
-      "seenAt": "2026-08-23T19:44:13+08:00",
-      "sourceId": "ig_story_gregoiremaret",
-      "sourceName": "Gregoire Maret",
-      "platform": "instagram",
-      "sourceType": "llm_tagger",
-      "error": "ig_story_gregoiremaret:3969973095702573011_1915475302: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.open"
-    },
-    {
-      "seenAt": "2026-08-23T19:44:13+08:00",
-      "sourceId": "ig_story_gregoiremaret",
-      "sourceName": "Gregoire Maret",
-      "platform": "instagram",
-      "sourceType": "llm_tagger",
-      "error": "ig_story_gregoiremaret:3969992206484053595_1915475302: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.open"
-    },
-    {
-      "seenAt": "2026-08-23T19:44:13+08:00",
-      "sourceId": "ig_howardlevyland",
-      "sourceName": "Howard Levy",
-      "platform": "instagram",
-      "sourceType": "llm_tagger",
-      "error": "ig_howardlevyland:https://www.instagram.com/p/DcXDGvZJzIz/: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform"
-    },
-    {
-      "seenAt": "2026-08-23T19:44:13+08:00",
-      "sourceId": "ig_story_howardlevyland",
-      "sourceName": "Howard Levy",
-      "platform": "instagram",
-      "sourceType": "llm_tagger",
-      "error": "ig_story_howardlevyland:3969657294220255714_5777911555: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.ope"
-    },
-    {
-      "seenAt": "2026-08-23T19:44:13+08:00",
-      "sourceId": "ig_story_theheadcutters",
-      "sourceName": "Joe Marhofer / The Headcutters",
-      "platform": "instagram",
-      "sourceType": "llm_tagger",
-      "error": "ig_story_theheadcutters:3969323674666885513_8107046034: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.ope"
-    },
-    {
-      "seenAt": "2026-08-23T19:44:13+08:00",
-      "sourceId": "ig_story_theheadcutters",
-      "sourceName": "Joe Marhofer / The Headcutters",
-      "platform": "instagram",
-      "sourceType": "llm_tagger",
-      "error": "ig_story_theheadcutters:3969324292764677659_8107046034: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.ope"
-    },
-    {
-      "seenAt": "2026-08-23T19:44:13+08:00",
-      "sourceId": "ig_story_yoonseoklee_harmonica",
+      "seenAt": "2026-08-23T20:26:12+08:00",
+      "sourceId": "yt_yoonseoklee_harmonica",
       "sourceName": "Yoonseok Lee",
-      "platform": "instagram",
+      "platform": "youtube",
       "sourceType": "llm_tagger",
-      "error": "ig_story_yoonseoklee_harmonica:3969881131481961970_10846078324: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://plat"
+      "error": "yt_yoonseoklee_harmonica:yQ9ybTNPlsg: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/o"
     },
     {
-      "seenAt": "2026-08-23T19:44:13+08:00",
-      "sourceId": "ig_story_santi_alvarez_armonica",
-      "sourceName": "Santiago Alvarez",
-      "platform": "instagram",
+      "seenAt": "2026-08-23T20:26:12+08:00",
+      "sourceId": "yt_yoonseoklee_harmonica",
+      "sourceName": "Yoonseok Lee",
+      "platform": "youtube",
       "sourceType": "llm_tagger",
-      "error": "ig_story_santi_alvarez_armonica:3969661369975981009_14514526290: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://pla"
+      "error": "yt_yoonseoklee_harmonica:q7VPaBm1Km8: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/o"
     },
     {
-      "seenAt": "2026-08-23T19:44:13+08:00",
-      "sourceId": "ig_story_santi_alvarez_armonica",
-      "sourceName": "Santiago Alvarez",
+      "seenAt": "2026-08-23T20:26:12+08:00",
+      "sourceId": "ig_hummingwayharmonica",
+      "sourceName": "海明威口琴重奏團",
       "platform": "instagram",
       "sourceType": "llm_tagger",
-      "error": "ig_story_santi_alvarez_armonica:3969661294780490985_14514526290: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://pla"
+      "error": "ig_hummingwayharmonica:https://www.instagram.com/p/DcXheDNyZKn/: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://pla"
+    },
+    {
+      "seenAt": "2026-08-23T20:26:12+08:00",
+      "sourceId": "ig_story_chgsh_harmonica",
+      "sourceName": "彰女微光口琴社",
+      "platform": "instagram",
+      "sourceType": "llm_tagger",
+      "error": "ig_story_chgsh_harmonica:3969776275191293426_8421246582: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.op"
+    },
+    {
+      "seenAt": "2026-08-23T20:26:12+08:00",
+      "sourceId": "ig_story_chgsh_harmonica",
+      "sourceName": "彰女微光口琴社",
+      "platform": "instagram",
+      "sourceType": "llm_tagger",
+      "error": "ig_story_chgsh_harmonica:3969837045952722939_8421246582: LLM classification failed: LLM curl exited 22: { \"error\": { \"message\": \"You have no credits remaining. Add credits to continue using the API at https://platform.op"
     }
   ],
   "runtime": {
     "pipeline": {
       "currentStep": "build status page",
-      "heartbeatAt": "2026-08-23T11:45:16.037229+00:00",
+      "heartbeatAt": "2026-08-23T12:27:11.174727+00:00",
       "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
       "maxPostAgeDays": 30,
       "message": "",
-      "pid": 1413,
-      "startedAt": "2026-08-23T11:33:12.742845+00:00",
+      "pid": 43875,
+      "startedAt": "2026-08-23T12:16:23.441974+00:00",
       "status": "running",
       "steps": [
         {
@@ -348,10 +228,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_social_sources.py"
           ],
-          "finishedAt": "2026-08-23T11:33:12.821720+00:00",
+          "finishedAt": "2026-08-23T12:16:23.519146+00:00",
           "name": "build social sources",
           "returnCode": 0,
-          "startedAt": "2026-08-23T11:33:12.744335+00:00",
+          "startedAt": "2026-08-23T12:16:23.443930+00:00",
           "status": "ok"
         },
         {
@@ -361,10 +241,10 @@
             "--max-post-age-days",
             "30"
           ],
-          "finishedAt": "2026-08-23T11:33:35.561380+00:00",
+          "finishedAt": "2026-08-23T12:16:38.707927+00:00",
           "name": "fetch youtube",
           "returnCode": 0,
-          "startedAt": "2026-08-23T11:33:12.822225+00:00",
+          "startedAt": "2026-08-23T12:16:23.519794+00:00",
           "status": "ok"
         },
         {
@@ -377,10 +257,10 @@
             "30",
             "--run"
           ],
-          "finishedAt": "2026-08-23T11:33:53.108977+00:00",
+          "finishedAt": "2026-08-23T12:16:39.827316+00:00",
           "name": "fetch facebook apify",
           "returnCode": 0,
-          "startedAt": "2026-08-23T11:33:35.561904+00:00",
+          "startedAt": "2026-08-23T12:16:38.708578+00:00",
           "status": "ok"
         },
         {
@@ -392,10 +272,10 @@
             "--request-timeout",
             "10"
           ],
-          "finishedAt": "2026-08-23T11:44:13.560785+00:00",
+          "finishedAt": "2026-08-23T12:26:12.058939+00:00",
           "name": "watch social feeds",
           "returnCode": 0,
-          "startedAt": "2026-08-23T11:33:53.111893+00:00",
+          "startedAt": "2026-08-23T12:16:39.829026+00:00",
           "status": "ok"
         },
         {
@@ -403,10 +283,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-08-23T11:44:16.258688+00:00",
+          "finishedAt": "2026-08-23T12:26:14.679742+00:00",
           "name": "build public data",
           "returnCode": 0,
-          "startedAt": "2026-08-23T11:44:13.561311+00:00",
+          "startedAt": "2026-08-23T12:26:12.059955+00:00",
           "status": "ok"
         },
         {
@@ -415,10 +295,10 @@
             "scripts/backfill_public_source_pages.py",
             "--skip-fetch"
           ],
-          "finishedAt": "2026-08-23T11:44:21.059260+00:00",
+          "finishedAt": "2026-08-23T12:26:19.307153+00:00",
           "name": "backfill source pages",
           "returnCode": 0,
-          "startedAt": "2026-08-23T11:44:16.259277+00:00",
+          "startedAt": "2026-08-23T12:26:14.680397+00:00",
           "status": "ok"
         },
         {
@@ -426,10 +306,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-08-23T11:44:23.689001+00:00",
+          "finishedAt": "2026-08-23T12:26:21.984822+00:00",
           "name": "rebuild public data",
           "returnCode": 0,
-          "startedAt": "2026-08-23T11:44:21.059969+00:00",
+          "startedAt": "2026-08-23T12:26:19.308279+00:00",
           "status": "ok"
         },
         {
@@ -437,10 +317,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_score_publications.py"
           ],
-          "finishedAt": "2026-08-23T11:44:23.776247+00:00",
+          "finishedAt": "2026-08-23T12:26:22.070010+00:00",
           "name": "build score publications",
           "returnCode": 0,
-          "startedAt": "2026-08-23T11:44:23.689581+00:00",
+          "startedAt": "2026-08-23T12:26:21.985522+00:00",
           "status": "ok"
         },
         {
@@ -448,10 +328,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_score_sources.py"
           ],
-          "finishedAt": "2026-08-23T11:44:23.836158+00:00",
+          "finishedAt": "2026-08-23T12:26:22.099122+00:00",
           "name": "build score sources",
           "returnCode": 0,
-          "startedAt": "2026-08-23T11:44:23.777121+00:00",
+          "startedAt": "2026-08-23T12:26:22.070573+00:00",
           "status": "ok"
         },
         {
@@ -459,10 +339,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/generate_rss_feeds.py"
           ],
-          "finishedAt": "2026-08-23T11:44:57.008522+00:00",
+          "finishedAt": "2026-08-23T12:26:52.096030+00:00",
           "name": "generate rss feeds",
           "returnCode": 0,
-          "startedAt": "2026-08-23T11:44:23.837471+00:00",
+          "startedAt": "2026-08-23T12:26:22.099587+00:00",
           "status": "ok"
         },
         {
@@ -470,10 +350,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_public_calendar_events.py"
           ],
-          "finishedAt": "2026-08-23T11:44:58.502132+00:00",
+          "finishedAt": "2026-08-23T12:26:53.421828+00:00",
           "name": "build public calendar events",
           "returnCode": 0,
-          "startedAt": "2026-08-23T11:44:57.009231+00:00",
+          "startedAt": "2026-08-23T12:26:52.096849+00:00",
           "status": "ok"
         },
         {
@@ -481,10 +361,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/apply_submitted_events.py"
           ],
-          "finishedAt": "2026-08-23T11:44:58.593408+00:00",
+          "finishedAt": "2026-08-23T12:26:53.556197+00:00",
           "name": "apply submitted events",
           "returnCode": 0,
-          "startedAt": "2026-08-23T11:44:58.504948+00:00",
+          "startedAt": "2026-08-23T12:26:53.424819+00:00",
           "status": "ok"
         },
         {
@@ -492,10 +372,10 @@
             "/Users/skyhong/.hermes/google-workspace-venv/bin/python",
             "scripts/sync_google_calendar_events.py"
           ],
-          "finishedAt": "2026-08-23T11:45:16.035528+00:00",
+          "finishedAt": "2026-08-23T12:27:11.173476+00:00",
           "name": "sync google calendar",
           "returnCode": 0,
-          "startedAt": "2026-08-23T11:44:58.593935+00:00",
+          "startedAt": "2026-08-23T12:26:53.557282+00:00",
           "status": "ok"
         },
         {
@@ -506,7 +386,7 @@
           "finishedAt": "",
           "name": "build status page",
           "returnCode": null,
-          "startedAt": "2026-08-23T11:45:16.037205+00:00",
+          "startedAt": "2026-08-23T12:27:11.174719+00:00",
           "status": "running"
         }
       ],
@@ -514,40 +394,40 @@
     },
     "socialFetch": {
       "currentSource": {},
-      "errors": 33,
-      "fetchedPosts": 2383,
-      "finishedAt": "2026-08-23T11:44:13.527569+00:00",
-      "heartbeatAt": "2026-08-23T11:44:13.527568+00:00",
+      "errors": 9,
+      "fetchedPosts": 2297,
+      "finishedAt": "2026-08-23T12:26:12.048290+00:00",
+      "heartbeatAt": "2026-08-23T12:26:12.048288+00:00",
       "instagram": {
         "attempted": 40,
-        "deferred": 138,
+        "deferred": 76,
         "delay_secs": 8.0,
         "errors": 1,
         "max_attempts_per_run": 40,
-        "profile_attempted": 21,
-        "profile_deferred": 60,
+        "profile_attempted": 16,
+        "profile_deferred": 38,
         "profile_interval_hours": 12.0,
-        "profile_skipped": 156,
-        "scheduled": 176,
+        "profile_skipped": 161,
+        "scheduled": 238,
         "skipped": 314,
-        "story_attempted": 19,
-        "story_deferred": 78,
+        "story_attempted": 24,
+        "story_deferred": 38,
         "story_interval_hours": 12.0,
-        "story_skipped": 158
+        "story_skipped": 153
       },
       "llmTags": {
         "cached": 0,
         "enabled": true,
-        "errors": 27,
-        "requests": 27
+        "errors": 5,
+        "requests": 5
       },
       "message": "",
-      "newRelevantPosts": 25,
+      "newRelevantPosts": 5,
       "phase": "complete",
-      "pid": 2319,
+      "pid": 43989,
       "processedSources": 786,
       "skippedOldPosts": 0,
-      "startedAt": "2026-08-23T11:33:53.233765+00:00",
+      "startedAt": "2026-08-23T12:16:39.946830+00:00",
       "status": "ok",
       "totalSources": 786,
       "version": 1
