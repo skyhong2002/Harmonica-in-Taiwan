@@ -71,6 +71,164 @@
   },
   "entries": [
     {
+      "id": "watchlist-65",
+      "publicId": "65",
+      "name": "Jong-seong Park 朴鍾聲",
+      "nameEn": "Jong-seong Park",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "半音階與複音獨奏/2002 APHF金牌/2008 APHF三冠/WHF複音冠軍與爵士半音階亞軍/古典管弦樂協演/專輯與協奏曲首演",
+      "structuredSummary": "半音階與複音獨奏/2002 APHF金牌/2008 APHF三冠/WHF複音冠軍與爵士半音階亞軍/古典管弦樂協演/專輯與協奏曲首演 / 半音階口琴/複音口琴 / 國際演出人員/HOHNER古典藝人/編曲者與管弦樂企劃主持",
+      "summary": "韓國的半音階口琴與複音口琴國際演出人員、HOHNER古典藝人與編曲者與管弦樂企劃主持，活動脈絡包含半音階與複音獨奏、2002 APHF金牌與2008 APHF三冠。",
+      "keywords": "Jong-seong Park 朴鍾聲 harmonica APHF WHF HOHNER classical orchestra Harmonica Memorial",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.mnac.co.kr/jongseongpark"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonicapark/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jongseongpark_harmonicist/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/jongseongpark"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "65-jong-seong-park",
+      "latestUpdateAt": "2026-08-23T10:44:54+00:00",
+      "latestUpdateLocal": "2026-08-23 18:44",
+      "latestUpdateSource": "Jong-seong Park 朴鍾聲",
+      "latestUpdateUrl": "https://www.instagram.com/stories/jongseongpark_harmonicist/3970008342133599946/",
+      "avatarUrl": "/assets/source-avatars/d84428d1fc13c8ea5603.webp",
+      "sourceInitials": "JSP",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "複音",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicapark",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonicapark",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_jongseongpark_harmonicist",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jongseongpark_harmonicist",
+          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jongseongpark_harmonicist",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jongseongpark_harmonicist",
+          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/jongseongpark_harmonicist/story/0"
+        },
+        {
+          "id": "yt_jongseongpark",
+          "name": "Jong-seong Park 朴鍾聲",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/jongseongpark",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-30",
+      "publicId": "30",
+      "name": "蔡明憲",
+      "nameEn": "Ming-Sian Cai",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
+      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
+      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
+      "keywords": "蔡明憲 口琴 DMing Studio",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://dming.co/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/dming.tsai/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/damingtsai/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "30",
+      "latestUpdateAt": "2026-08-23T10:21:28+00:00",
+      "latestUpdateLocal": "2026-08-23 18:21",
+      "latestUpdateSource": "蔡明憲",
+      "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3969996540173503403/",
+      "avatarUrl": "/assets/source-avatars/d72c84787c6bb17392ce.webp",
+      "sourceInitials": "蔡明",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_dming_tsai",
+          "name": "蔡明憲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/dming.tsai",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-316",
       "publicId": "316",
       "name": "太平國小口琴隊",
@@ -904,6 +1062,350 @@
       ]
     },
     {
+      "id": "watchlist-54",
+      "publicId": "54",
+      "name": "CY Leo 何卓彥",
+      "nameEn": "CY Leo",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "古典與爵士半音階/2009、2013 WHF獨奏世界冠軍/作曲與創作歌手/國際管弦樂協演/電影、流行與遊戲錄音/口琴教材",
+      "structuredSummary": "古典與爵士半音階/2009、2013 WHF獨奏世界冠軍/作曲與創作歌手/國際管弦樂協演/電影、流行與遊戲錄音/口琴教材 / 半音階口琴 / 國際演出人員/作曲家與創作歌手/評審/Music Lab聯合藝術總監",
+      "summary": "香港的半音階口琴國際演出人員、作曲家與創作歌手與評審，活動脈絡包含古典與爵士半音階、2009與2013 WHF獨奏世界冠軍。",
+      "keywords": "CY Leo 何卓彥 harmonica WHF 2009 2013 classical jazz composer Ginger Muse Music Lab",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.cyleomusic.io/profile"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Cyleoharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cy_leo/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@cyleoharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "54-cy-leo",
+      "latestUpdateAt": "2026-08-23T04:18:57+00:00",
+      "latestUpdateLocal": "2026-08-23 12:18",
+      "latestUpdateSource": "CY Leo 何卓彥",
+      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3969814080554503202/",
+      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
+      "sourceInitials": "CL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Cyleoharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
+        },
+        {
+          "id": "yt_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@cyleoharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-89",
+      "publicId": "89",
+      "name": "巴巴口琴坊",
+      "nameEn": "Baba Harmonica Studio",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "教學工作室",
+      "country": "臺灣",
+      "region": "臺灣/臺南",
+      "cityOrFocus": "口琴教學/演出/社團經營",
+      "structuredSummary": "口琴教學/演出/社團經營 / 口琴 / 教學/活動來源",
+      "summary": "臺灣的口琴教學與活動來源，關注口琴教學、演出與社團經營。",
+      "keywords": "巴巴口琴坊 Baba Harmonica Studio 臺南 口琴 教學 演出",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/babaharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/baba_harmonica_studio/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@yoyo708520"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "89-baba-harmonica-studio",
+      "latestUpdateAt": "2026-08-23T03:31:22+00:00",
+      "latestUpdateLocal": "2026-08-23 11:31",
+      "latestUpdateSource": "巴巴口琴坊",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcXheDNyZKn/",
+      "avatarUrl": "/assets/source-avatars/7f40e1c49d0c7a605d2b.webp",
+      "sourceInitials": "巴巴",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_babaharmonica",
+          "name": "巴巴口琴坊",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/babaharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_baba_harmonica_studio",
+          "name": "巴巴口琴坊",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "baba_harmonica_studio",
+          "profileUrl": "https://www.instagram.com/baba_harmonica_studio/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_baba_harmonica_studio",
+          "name": "巴巴口琴坊",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "baba_harmonica_studio",
+          "profileUrl": "https://www.instagram.com/baba_harmonica_studio/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/baba_harmonica_studio/story/0"
+        },
+        {
+          "id": "yt_yoyo708520",
+          "name": "巴巴口琴坊",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@yoyo708520",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-51",
+      "publicId": "51",
+      "name": "唐雪婷 Sharene Tang",
+      "nameEn": "Sharene Tang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/國際郵輪演出",
+      "structuredSummary": "世界口琴冠軍/演出/教學/國際郵輪演出 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "唐雪婷 Sharene Tang sharene.harmonica World Harmonica Champion Fresco harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/sharenetang.fresco/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sharene.harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@Shareneharmonicamusic"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "51-sharene-tang",
+      "latestUpdateAt": "2026-08-23T03:29:54+00:00",
+      "latestUpdateLocal": "2026-08-23 11:29",
+      "latestUpdateSource": "唐雪婷 Sharene Tang",
+      "latestUpdateUrl": "https://www.instagram.com/stories/sharene.harmonica/3969789377677354765/",
+      "avatarUrl": "/assets/source-avatars/sharene-tang.jpg",
+      "sourceInitials": "ST",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_sharenetang_fresco",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/sharenetang.fresco",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sharene_harmonica",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sharene.harmonica",
+          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sharene_harmonica",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sharene.harmonica",
+          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sharene.harmonica/story/0"
+        },
+        {
+          "id": "yt_shareneharmonicamusic",
+          "name": "唐雪婷 Sharene Tang",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-78",
+      "publicId": "78",
+      "name": "衛武營國家藝術文化中心",
+      "nameEn": "National Kaohsiung Center for the Arts (Weiwuying)",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "cityOrFocus": "大型演出場館",
+      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
+      "keywords": "衛武營 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.npac-weiwuying.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@weiwuyingfilm"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@weiwuying_centerforthearts"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "78",
+      "latestUpdateAt": "2026-08-23T03:00:18+00:00",
+      "latestUpdateLocal": "2026-08-23 11:00",
+      "latestUpdateSource": "衛武營國家藝術文化中心",
+      "latestUpdateUrl": "https://www.facebook.com/weiwuyingcenterforthearts/posts/pfbid033Nt2N1L8Bi5Cpi4mkcXXimvkvs7NYFvs8rCNhb42UY2NgZDiEgdYr5AnAisWZfcDl",
+      "avatarUrl": "/assets/source-avatars/43fceeb475830187ba36.webp",
+      "sourceInitials": "衛武",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_weiwuyingcenterforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
+        },
+        {
+          "id": "ig_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_weiwuying_centerforthearts",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "threads",
+          "type": "rss",
+          "username": "weiwuying_centerforthearts",
+          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
+          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
+        },
+        {
+          "id": "yt_weiwuyingfilm",
+          "name": "衛武營國家藝術文化中心",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@weiwuyingfilm",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-195",
       "publicId": "195",
       "name": "彰女微光口琴社",
@@ -953,6 +1455,95 @@
           "username": "chgsh_harmonica",
           "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/chgsh_harmonica/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-46",
+      "publicId": "46",
+      "name": "廖苡晴",
+      "nameEn": "Alysa Liao",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "半音階獨奏／111 Duo／111 Trio／111 Quintet／國際比賽",
+      "structuredSummary": "半音階獨奏／111 Duo／111 Trio／111 Quintet／國際比賽 / 半音階 / 演出人員",
+      "summary": "臺灣半音階口琴演奏者，2025 世界口琴節獲公開組冠軍，並參與 111 Duo、Trio 與 Quintet。",
+      "keywords": "廖苡晴 Alysa Liao 111 Duo 111 Trio 111 Quintet 世界口琴節 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://laelapsharmonica.com/zh/laelaps-club/alysa-liao/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/__yich___/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@alysaliao"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@__yich___"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "46-alysa-liao",
+      "latestUpdateAt": "2026-08-23T01:41:41+00:00",
+      "latestUpdateLocal": "2026-08-23 09:41",
+      "latestUpdateSource": "廖苡晴",
+      "latestUpdateUrl": "https://www.instagram.com/stories/__yich___/3969734929310726074/",
+      "avatarUrl": "/assets/source-avatars/5b5371b7851220afa3a1.webp",
+      "sourceInitials": "廖苡",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "重奏",
+        "國際交流",
+        "比賽"
+      ],
+      "sourceSummary": "臺灣半音階口琴演奏者，2025 世界口琴節獲公開組冠軍，並參與 111 Duo、Trio 與 Quintet。",
+      "sourceTagReason": "整合自官方 YouTube 簡介、Instagram 與公開演奏者頁面。",
+      "monitorSources": [
+        {
+          "id": "ig_story_yich",
+          "name": "廖苡晴",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "__yich___",
+          "profileUrl": "https://www.instagram.com/__yich___/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/__yich___/story/0"
+        },
+        {
+          "id": "ig_yich",
+          "name": "廖苡晴",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "__yich___",
+          "profileUrl": "https://www.instagram.com/__yich___/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_yich",
+          "name": "廖苡晴",
+          "platform": "threads",
+          "type": "rss",
+          "username": "__yich___",
+          "profileUrl": "https://www.threads.net/@__yich___",
+          "feedUrl": "https://rss.observe.tw/threads/__yich___"
+        },
+        {
+          "id": "yt_alysaliao",
+          "name": "廖苡晴",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@alysaliao",
+          "feedUrl": ""
         }
       ]
     },
@@ -1310,102 +1901,6 @@
       ]
     },
     {
-      "id": "watchlist-78",
-      "publicId": "78",
-      "name": "衛武營國家藝術文化中心",
-      "nameEn": "National Kaohsiung Center for the Arts (Weiwuying)",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館",
-      "country": "臺灣",
-      "region": "臺灣/高雄",
-      "cityOrFocus": "大型演出場館",
-      "structuredSummary": "大型演出場館 / 藝文活動 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供大型演出場館相關資訊。",
-      "keywords": "衛武營 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.npac-weiwuying.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/weiwuyingcenterforthearts/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weiwuying_centerforthearts/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@weiwuyingfilm"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@weiwuying_centerforthearts"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "78",
-      "latestUpdateAt": "2026-08-22T14:38:35+00:00",
-      "latestUpdateLocal": "2026-08-22 22:38",
-      "latestUpdateSource": "衛武營國家藝術文化中心",
-      "latestUpdateUrl": "https://www.instagram.com/stories/weiwuying_centerforthearts/3969401173051421434/",
-      "avatarUrl": "/assets/source-avatars/27e6bf359ab5b57dc67e.webp",
-      "sourceInitials": "衛武",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_weiwuyingcenterforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/weiwuyingcenterforthearts",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
-        },
-        {
-          "id": "ig_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_weiwuying_centerforthearts",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "threads",
-          "type": "rss",
-          "username": "weiwuying_centerforthearts",
-          "profileUrl": "https://www.threads.net/@weiwuying_centerforthearts",
-          "feedUrl": "https://rss.observe.tw/threads/weiwuying_centerforthearts"
-        },
-        {
-          "id": "yt_weiwuyingfilm",
-          "name": "衛武營國家藝術文化中心",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@weiwuyingfilm",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-260",
       "publicId": "260",
       "name": "梁芷菁 Steffi Leung",
@@ -1466,6 +1961,94 @@
       ]
     },
     {
+      "id": "watchlist-67",
+      "publicId": "67",
+      "name": "Marcos Coll",
+      "nameEn": "Marcos Coll",
+      "category": "活動資訊",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "西班牙",
+      "region": "西班牙/德國/國際",
+      "cityOrFocus": "13歲開始演奏口琴/西班牙與歐洲藍調代表人物/Los Reyes del K.O.與Tonky Blues Band/曾與Mick Taylor、Buddy Miles等巡演錄音/融合藍調、拉丁、嘻哈與西班牙音樂/2009與2013世界口琴節演出、工作坊及評審/2025與2026首爾國際口琴節",
+      "structuredSummary": "13歲開始演奏口琴/西班牙與歐洲藍調代表人物/Los Reyes del K.O.與Tonky Blues Band/曾與Mick Taylor、Buddy Miles等巡演錄音/融合藍調、拉丁、嘻哈與西班牙音樂/2009與2013世界口琴節演出、工作坊及評審/2025與2026首爾國際口琴節 / 十孔口琴/藍調口琴/半音階口琴 / 國際演出人員/錄音藝術家/國際音樂節評審與講師/HOHNER藝術家",
+      "summary": "西班牙的國際演出人員、錄音藝術家與國際音樂節評審與講師，涵蓋13歲開始演奏口琴、西班牙與歐洲藍調代表人物、Los Reyes del K.O.與Tonky Blues Band、曾與Mick Taylor與Buddy Miles等巡演錄音。",
+      "keywords": "Marcos Coll harmonica Spain Galicia Berlin Los Reyes del KO Tonky Blues Band Mick Taylor Buddy Miles HOHNER WHF 2009 2013 SIHF 2025 2026 blues Latin hip hop",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://marcoscoll.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/marcoscollharp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/marcoscollgonzalez/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "67-marcos-coll",
+      "latestUpdateAt": "2026-08-22T14:21:18+00:00",
+      "latestUpdateLocal": "2026-08-22 22:21",
+      "latestUpdateSource": "Marcos Coll",
+      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3969392480872888339/",
+      "avatarUrl": "/assets/source-avatars/7d197ad2b389981c0ad9.webp",
+      "sourceInitials": "MC",
+      "sourceTags": [
+        "活動資訊",
+        "演奏者",
+        "音樂節",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_marcoscollharp",
+          "name": "Marcos Coll",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/marcoscollharp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
+        },
+        {
+          "id": "yt_marcoscollharpandsoul",
+          "name": "Marcos Coll",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-33",
       "publicId": "33",
       "name": "黃冠誌",
@@ -1500,7 +2083,7 @@
       "latestUpdateLocal": "2026-08-22 22:14",
       "latestUpdateSource": "黃冠誌",
       "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3969403188570278006/",
-      "avatarUrl": "/assets/source-avatars/24f037610ba70640920d.webp",
+      "avatarUrl": "/assets/source-avatars/cc05c19e8809d53c91ce.webp",
       "sourceInitials": "黃冠",
       "sourceTags": [
         "演奏者",
@@ -1624,6 +2207,62 @@
       ]
     },
     {
+      "id": "watchlist-50",
+      "publicId": "50",
+      "name": "Aiden Soon",
+      "nameEn": "Aiden Soon",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
+      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "Aiden Soon aidensoon World Harmonica Champion Aiden N Evelyn harmonica",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/aidensoon/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "50-aiden-soon",
+      "latestUpdateAt": "2026-08-22T14:13:58+00:00",
+      "latestUpdateLocal": "2026-08-22 22:13",
+      "latestUpdateSource": "Aiden Soon",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcWGNXvsFAK/",
+      "avatarUrl": "/assets/source-avatars/d30880814ef512317924.webp",
+      "sourceInitials": "AS",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_aidensoon",
+          "name": "Aiden Soon",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "aidensoon",
+          "profileUrl": "https://www.instagram.com/aidensoon/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_aidensoon",
+          "name": "Aiden Soon",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "aidensoon",
+          "profileUrl": "https://www.instagram.com/aidensoon/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-218",
       "publicId": "218",
       "name": "Evelyn Choong 鍾雪兒",
@@ -1654,7 +2293,7 @@
       "latestUpdateLocal": "2026-08-22 22:13",
       "latestUpdateSource": "Evelyn Choong 鍾雪兒",
       "latestUpdateUrl": "https://www.instagram.com/p/DcWGNXvsFAK/",
-      "avatarUrl": "/assets/source-avatars/7141635d2c900edabfe7.webp",
+      "avatarUrl": "/assets/source-avatars/96a0d91d583e3fe1b660.webp",
       "sourceInitials": "EC",
       "sourceTags": [
         "演奏者",
@@ -2312,91 +2951,6 @@
       ]
     },
     {
-      "id": "watchlist-54",
-      "publicId": "54",
-      "name": "CY Leo 何卓彥",
-      "nameEn": "CY Leo",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "古典與爵士半音階/2009、2013 WHF獨奏世界冠軍/作曲與創作歌手/國際管弦樂協演/電影、流行與遊戲錄音/口琴教材",
-      "structuredSummary": "古典與爵士半音階/2009、2013 WHF獨奏世界冠軍/作曲與創作歌手/國際管弦樂協演/電影、流行與遊戲錄音/口琴教材 / 半音階口琴 / 國際演出人員/作曲家與創作歌手/評審/Music Lab聯合藝術總監",
-      "summary": "香港的半音階口琴國際演出人員、作曲家與創作歌手與評審，活動脈絡包含古典與爵士半音階、2009與2013 WHF獨奏世界冠軍。",
-      "keywords": "CY Leo 何卓彥 harmonica WHF 2009 2013 classical jazz composer Ginger Muse Music Lab",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.cyleomusic.io/profile"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Cyleoharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/cy_leo/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@cyleoharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "54-cy-leo",
-      "latestUpdateAt": "2026-08-22T11:51:35+00:00",
-      "latestUpdateLocal": "2026-08-22 19:51",
-      "latestUpdateSource": "CY Leo 何卓彥",
-      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3969317148220914905/",
-      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
-      "sourceInitials": "CL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Cyleoharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_cy_leo",
-          "name": "CY Leo 何卓彥",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
-        },
-        {
-          "id": "yt_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@cyleoharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-298",
       "publicId": "298",
       "name": "香港兒童合唱團口琴課程",
@@ -2525,7 +3079,7 @@
       "latestUpdateLocal": "2026-08-22 19:15",
       "latestUpdateSource": "天狼星口琴樂團 Sirius Harmonica Ensemble",
       "latestUpdateUrl": "https://www.instagram.com/p/DcVxLxkTp72/",
-      "avatarUrl": "/assets/source-avatars/56b55d32b08fccbbe57a.webp",
+      "avatarUrl": "/assets/source-avatars/dfc37825fc425b9a2f54.webp",
       "sourceInitials": "SHE",
       "sourceTags": [
         "活動資訊",
@@ -2669,78 +3223,6 @@
           "username": "",
           "profileUrl": "https://youtube.com/@thmc6470",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-30",
-      "publicId": "30",
-      "name": "蔡明憲",
-      "nameEn": "Ming-Sian Cai",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
-      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
-      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
-      "keywords": "蔡明憲 口琴 DMing Studio",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://dming.co/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/dming.tsai/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/damingtsai/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "30",
-      "latestUpdateAt": "2026-08-22T11:15:40+00:00",
-      "latestUpdateLocal": "2026-08-22 19:15",
-      "latestUpdateSource": "蔡明憲",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcVxLxkTp72/",
-      "avatarUrl": "/assets/source-avatars/7debcb043e52bd2d5549.webp",
-      "sourceInitials": "蔡明",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_dming_tsai",
-          "name": "蔡明憲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/dming.tsai",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
         }
       ]
     },
@@ -3043,95 +3525,6 @@
       ]
     },
     {
-      "id": "watchlist-46",
-      "publicId": "46",
-      "name": "廖苡晴",
-      "nameEn": "Alysa Liao",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "半音階獨奏／111 Duo／111 Trio／111 Quintet／國際比賽",
-      "structuredSummary": "半音階獨奏／111 Duo／111 Trio／111 Quintet／國際比賽 / 半音階 / 演出人員",
-      "summary": "臺灣半音階口琴演奏者，2025 世界口琴節獲公開組冠軍，並參與 111 Duo、Trio 與 Quintet。",
-      "keywords": "廖苡晴 Alysa Liao 111 Duo 111 Trio 111 Quintet 世界口琴節 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://laelapsharmonica.com/zh/laelaps-club/alysa-liao/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/__yich___/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@alysaliao"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@__yich___"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "46-alysa-liao",
-      "latestUpdateAt": "2026-08-22T10:07:01+00:00",
-      "latestUpdateLocal": "2026-08-22 18:07",
-      "latestUpdateSource": "廖苡晴",
-      "latestUpdateUrl": "https://www.instagram.com/stories/__yich___/3969264504940080882/",
-      "avatarUrl": "/assets/source-avatars/5b5371b7851220afa3a1.webp",
-      "sourceInitials": "廖苡",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "重奏",
-        "國際交流",
-        "比賽"
-      ],
-      "sourceSummary": "臺灣半音階口琴演奏者，2025 世界口琴節獲公開組冠軍，並參與 111 Duo、Trio 與 Quintet。",
-      "sourceTagReason": "整合自官方 YouTube 簡介、Instagram 與公開演奏者頁面。",
-      "monitorSources": [
-        {
-          "id": "ig_story_yich",
-          "name": "廖苡晴",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "__yich___",
-          "profileUrl": "https://www.instagram.com/__yich___/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/__yich___/story/0"
-        },
-        {
-          "id": "ig_yich",
-          "name": "廖苡晴",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "__yich___",
-          "profileUrl": "https://www.instagram.com/__yich___/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_yich",
-          "name": "廖苡晴",
-          "platform": "threads",
-          "type": "rss",
-          "username": "__yich___",
-          "profileUrl": "https://www.threads.net/@__yich___",
-          "feedUrl": "https://rss.observe.tw/threads/__yich___"
-        },
-        {
-          "id": "yt_alysaliao",
-          "name": "廖苡晴",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@alysaliao",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-221",
       "publicId": "221",
       "name": "吹口琴的小园园",
@@ -3259,94 +3652,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@hokahkean1999",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-67",
-      "publicId": "67",
-      "name": "Marcos Coll",
-      "nameEn": "Marcos Coll",
-      "category": "活動資訊",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "西班牙",
-      "region": "西班牙/德國/國際",
-      "cityOrFocus": "13歲開始演奏口琴/西班牙與歐洲藍調代表人物/Los Reyes del K.O.與Tonky Blues Band/曾與Mick Taylor、Buddy Miles等巡演錄音/融合藍調、拉丁、嘻哈與西班牙音樂/2009與2013世界口琴節演出、工作坊及評審/2025與2026首爾國際口琴節",
-      "structuredSummary": "13歲開始演奏口琴/西班牙與歐洲藍調代表人物/Los Reyes del K.O.與Tonky Blues Band/曾與Mick Taylor、Buddy Miles等巡演錄音/融合藍調、拉丁、嘻哈與西班牙音樂/2009與2013世界口琴節演出、工作坊及評審/2025與2026首爾國際口琴節 / 十孔口琴/藍調口琴/半音階口琴 / 國際演出人員/錄音藝術家/國際音樂節評審與講師/HOHNER藝術家",
-      "summary": "西班牙的國際演出人員、錄音藝術家與國際音樂節評審與講師，涵蓋13歲開始演奏口琴、西班牙與歐洲藍調代表人物、Los Reyes del K.O.與Tonky Blues Band、曾與Mick Taylor與Buddy Miles等巡演錄音。",
-      "keywords": "Marcos Coll harmonica Spain Galicia Berlin Los Reyes del KO Tonky Blues Band Mick Taylor Buddy Miles HOHNER WHF 2009 2013 SIHF 2025 2026 blues Latin hip hop",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://marcoscoll.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/marcoscollharp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/marcoscollgonzalez/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "67-marcos-coll",
-      "latestUpdateAt": "2026-08-22T09:19:34+00:00",
-      "latestUpdateLocal": "2026-08-22 17:19",
-      "latestUpdateSource": "Marcos Coll",
-      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3969240663216100394/",
-      "avatarUrl": "/assets/source-avatars/7d197ad2b389981c0ad9.webp",
-      "sourceInitials": "MC",
-      "sourceTags": [
-        "活動資訊",
-        "演奏者",
-        "音樂節",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_marcoscollharp",
-          "name": "Marcos Coll",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/marcoscollharp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
-        },
-        {
-          "id": "yt_marcoscollharpandsoul",
-          "name": "Marcos Coll",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
           "feedUrl": ""
         }
       ]
@@ -3642,88 +3947,6 @@
           "username": "harmonica_johnny",
           "profileUrl": "https://www.instagram.com/harmonica_johnny/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_johnny/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-51",
-      "publicId": "51",
-      "name": "唐雪婷 Sharene Tang",
-      "nameEn": "Sharene Tang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "世界口琴冠軍/演出/教學/國際郵輪演出",
-      "structuredSummary": "世界口琴冠軍/演出/教學/國際郵輪演出 / 半音階/口琴 / 國際演出人員/教育者",
-      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
-      "keywords": "唐雪婷 Sharene Tang sharene.harmonica World Harmonica Champion Fresco harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/sharenetang.fresco/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/sharene.harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@Shareneharmonicamusic"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "51-sharene-tang",
-      "latestUpdateAt": "2026-08-22T06:46:59+00:00",
-      "latestUpdateLocal": "2026-08-22 14:46",
-      "latestUpdateSource": "唐雪婷 Sharene Tang",
-      "latestUpdateUrl": "https://www.instagram.com/stories/sharene.harmonica/3969163898855320117/",
-      "avatarUrl": "/assets/source-avatars/sharene-tang.jpg",
-      "sourceInitials": "ST",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_sharenetang_fresco",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/sharenetang.fresco",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_sharene_harmonica",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "sharene.harmonica",
-          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_sharene_harmonica",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "sharene.harmonica",
-          "profileUrl": "https://www.instagram.com/sharene.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sharene.harmonica/story/0"
-        },
-        {
-          "id": "yt_shareneharmonicamusic",
-          "name": "唐雪婷 Sharene Tang",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@Shareneharmonicamusic",
-          "feedUrl": ""
         }
       ]
     },
@@ -4592,92 +4815,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCj06r7zxcQqFS26fy7n0jZw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-65",
-      "publicId": "65",
-      "name": "Jong-seong Park 朴鍾聲",
-      "nameEn": "Jong-seong Park",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國/首爾",
-      "cityOrFocus": "半音階與複音獨奏/2002 APHF金牌/2008 APHF三冠/WHF複音冠軍與爵士半音階亞軍/古典管弦樂協演/專輯與協奏曲首演",
-      "structuredSummary": "半音階與複音獨奏/2002 APHF金牌/2008 APHF三冠/WHF複音冠軍與爵士半音階亞軍/古典管弦樂協演/專輯與協奏曲首演 / 半音階口琴/複音口琴 / 國際演出人員/HOHNER古典藝人/編曲者與管弦樂企劃主持",
-      "summary": "韓國的半音階口琴與複音口琴國際演出人員、HOHNER古典藝人與編曲者與管弦樂企劃主持，活動脈絡包含半音階與複音獨奏、2002 APHF金牌與2008 APHF三冠。",
-      "keywords": "Jong-seong Park 朴鍾聲 harmonica APHF WHF HOHNER classical orchestra Harmonica Memorial",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.mnac.co.kr/jongseongpark"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonicapark/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jongseongpark_harmonicist/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/jongseongpark"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "65-jong-seong-park",
-      "latestUpdateAt": "2026-08-21T15:39:23+00:00",
-      "latestUpdateLocal": "2026-08-21 23:39",
-      "latestUpdateSource": "Jong-seong Park 朴鍾聲",
-      "latestUpdateUrl": "https://www.instagram.com/stories/jongseongpark_harmonicist/3968707002637358344/",
-      "avatarUrl": "/assets/source-avatars/d84428d1fc13c8ea5603.webp",
-      "sourceInitials": "JSP",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "複音",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonicapark",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonicapark",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_jongseongpark_harmonicist",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jongseongpark_harmonicist",
-          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jongseongpark_harmonicist",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jongseongpark_harmonicist",
-          "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jongseongpark_harmonicist/story/0"
-        },
-        {
-          "id": "yt_jongseongpark",
-          "name": "Jong-seong Park 朴鍾聲",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/jongseongpark",
           "feedUrl": ""
         }
       ]
@@ -6103,6 +6240,81 @@
       ]
     },
     {
+      "id": "watchlist-174",
+      "publicId": "174",
+      "name": "Yellow Pine Harmonica Festival",
+      "nameEn": "Yellow Pine Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
+      "country": "美國",
+      "region": "美國/愛達荷/Yellow Pine",
+      "cityOrFocus": "戶外口琴音樂節/音樂演出、課程與示範/2026年7月30日至8月1日/社群與家庭活動",
+      "structuredSummary": "戶外口琴音樂節/音樂演出、課程與示範/2026年7月30日至8月1日/社群與家庭活動 / 十孔口琴/藍調口琴/多類音樂 / 國際音樂節/課程示範與社群活動來源",
+      "summary": "美國的國際音樂節與課程示範與社群活動來源，涵蓋戶外口琴音樂節、音樂演出、課程與示範、2026年7月30日至8月1日與社群與家庭活動。",
+      "keywords": "Yellow Pine Music Harmonica Festival Idaho 2026 July 30 31 August 1 classes demonstrations",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.yellowpinefestival.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/YellowPineHarmonicaFestival/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://instagram.com/yellowpinemusicfestival"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "174-yellow-pine-harmonica-festival",
+      "latestUpdateAt": "2026-08-20T22:10:17+00:00",
+      "latestUpdateLocal": "2026-08-21 06:10",
+      "latestUpdateSource": "Yellow Pine Harmonica Festival",
+      "latestUpdateUrl": "https://www.facebook.com/YellowPineHarmonicaFestival/posts/pfbid0cwE1eQ1rTBR43269tDVtRt7fsZFcWDEJpzxk9wYPG8wsCQj7LRiMoKrCs1vrKnial",
+      "avatarUrl": "/assets/source-avatars/c21840a213e2bb52e6c6.webp",
+      "sourceInitials": "YPH",
+      "sourceTags": [
+        "活動資訊",
+        "課程",
+        "音樂節",
+        "比賽",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_yellowpineharmonicafestival",
+          "name": "Yellow Pine Harmonica Festival",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/YellowPineHarmonicaFestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yellowpinemusicfestival",
+          "name": "Yellow Pine Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yellowpinemusicfestival",
+          "profileUrl": "https://www.instagram.com/yellowpinemusicfestival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yellowpinemusicfestival/story/0"
+        },
+        {
+          "id": "ig_yellowpinemusicfestival",
+          "name": "Yellow Pine Harmonica Festival",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yellowpinemusicfestival",
+          "profileUrl": "https://www.instagram.com/yellowpinemusicfestival/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-150",
       "publicId": "150",
       "name": "Tian Long Li",
@@ -6392,6 +6604,92 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-158",
+      "publicId": "158",
+      "name": "Deak Harp",
+      "nameEn": "Deak Harp",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "美國",
+      "region": "美國",
+      "cityOrFocus": "WHF 2025/藍調十孔/Chicago blues/演出與教學",
+      "structuredSummary": "WHF 2025/藍調十孔/Chicago blues/演出與教學 / 十孔/藍調口琴 / 國際演出人員",
+      "summary": "美國的十孔與藍調口琴國際演出人員，活動脈絡包含WHF 2025、藍調十孔與Chicago blues。",
+      "keywords": "Deak Harp blues harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://deakharp.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/deak.harp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/deakharp/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@deakharp"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "158-deak-harp",
+      "latestUpdateAt": "2026-08-20T17:11:13+00:00",
+      "latestUpdateLocal": "2026-08-21 01:11",
+      "latestUpdateSource": "Deak Harp",
+      "latestUpdateUrl": "https://www.facebook.com/reel/1600370764864896/",
+      "avatarUrl": "/assets/source-avatars/deak-harp.jpg",
+      "sourceInitials": "DH",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_deak_harp",
+          "name": "Deak Harp",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/deak.harp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_deakharp",
+          "name": "Deak Harp",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "deakharp",
+          "profileUrl": "https://www.instagram.com/deakharp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_deakharp",
+          "name": "Deak Harp",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "deakharp",
+          "profileUrl": "https://www.instagram.com/deakharp/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/deakharp/story/0"
+        },
+        {
+          "id": "yt_deakharp",
+          "name": "Deak Harp",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@deakharp",
           "feedUrl": ""
         }
       ]
@@ -7002,92 +7300,6 @@
       ]
     },
     {
-      "id": "watchlist-158",
-      "publicId": "158",
-      "name": "Deak Harp",
-      "nameEn": "Deak Harp",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "美國",
-      "region": "美國",
-      "cityOrFocus": "WHF 2025/藍調十孔/Chicago blues/演出與教學",
-      "structuredSummary": "WHF 2025/藍調十孔/Chicago blues/演出與教學 / 十孔/藍調口琴 / 國際演出人員",
-      "summary": "美國的十孔與藍調口琴國際演出人員，活動脈絡包含WHF 2025、藍調十孔與Chicago blues。",
-      "keywords": "Deak Harp blues harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://deakharp.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/deak.harp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/deakharp/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@deakharp"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "158-deak-harp",
-      "latestUpdateAt": "2026-08-20T00:53:17+00:00",
-      "latestUpdateLocal": "2026-08-20 08:53",
-      "latestUpdateSource": "Deak Harp",
-      "latestUpdateUrl": "https://www.facebook.com/deak.harp/posts/pfbid0oYBiUgNNk1EVAe5zo5bRqsqgpFRo6SUGAaSXwf7LnuYhWQUExsjqerH8x4R1EmPkl",
-      "avatarUrl": "/assets/source-avatars/deak-harp.jpg",
-      "sourceInitials": "DH",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_deak_harp",
-          "name": "Deak Harp",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/deak.harp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_deakharp",
-          "name": "Deak Harp",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "deakharp",
-          "profileUrl": "https://www.instagram.com/deakharp/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_deakharp",
-          "name": "Deak Harp",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "deakharp",
-          "profileUrl": "https://www.instagram.com/deakharp/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/deakharp/story/0"
-        },
-        {
-          "id": "yt_deakharp",
-          "name": "Deak Harp",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@deakharp",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-43",
       "publicId": "43",
       "name": "林裕豐",
@@ -7231,62 +7443,6 @@
           "username": "harmonica_wang",
           "profileUrl": "https://www.threads.net/@harmonica_wang",
           "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-50",
-      "publicId": "50",
-      "name": "Aiden Soon",
-      "nameEn": "Aiden Soon",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
-      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
-      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
-      "keywords": "Aiden Soon aidensoon World Harmonica Champion Aiden N Evelyn harmonica",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/aidensoon/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "50-aiden-soon",
-      "latestUpdateAt": "2026-08-19T13:30:25+00:00",
-      "latestUpdateLocal": "2026-08-19 21:30",
-      "latestUpdateSource": "Aiden Soon",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcOSBxQswcu/",
-      "avatarUrl": "/assets/source-avatars/5abb883c2b7c42eb62b3.webp",
-      "sourceInitials": "AS",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_aidensoon",
-          "name": "Aiden Soon",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "aidensoon",
-          "profileUrl": "https://www.instagram.com/aidensoon/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_aidensoon",
-          "name": "Aiden Soon",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "aidensoon",
-          "profileUrl": "https://www.instagram.com/aidensoon/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
         }
       ]
     },
@@ -7951,7 +8107,7 @@
       "latestUpdateLocal": "2026-08-18 18:18",
       "latestUpdateSource": "張晁滕",
       "latestUpdateUrl": "https://www.instagram.com/stories/chaotengchang/3966371116243650672/",
-      "avatarUrl": "/assets/source-avatars/d563a966f0c306fcbbf0.webp",
+      "avatarUrl": "/assets/source-avatars/342d6b13fb031aae7d46.webp",
       "sourceInitials": "張晁",
       "sourceTags": [
         "演奏者",
@@ -9367,7 +9523,7 @@
       "latestUpdateLocal": "2026-08-13 17:17",
       "latestUpdateSource": "陳彥銘",
       "latestUpdateUrl": "https://www.facebook.com/emerychen.cm/posts/pfbid0vTRWuHGMaEG9xnSY8B1DmD8NXVH2QcPGjFyLaHqPgmKvNHgB2ip7rKnHvNyNFXB1l",
-      "avatarUrl": "/assets/source-avatars/7a61bb827bdf8bab8c48.webp",
+      "avatarUrl": "/assets/source-avatars/04cc955dc246b579efb6.webp",
       "sourceInitials": "陳彥",
       "sourceTags": [
         "演奏者",
@@ -10045,87 +10201,6 @@
       ]
     },
     {
-      "id": "watchlist-89",
-      "publicId": "89",
-      "name": "巴巴口琴坊",
-      "nameEn": "Baba Harmonica Studio",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "教學工作室",
-      "country": "臺灣",
-      "region": "臺灣/臺南",
-      "cityOrFocus": "口琴教學/演出/社團經營",
-      "structuredSummary": "口琴教學/演出/社團經營 / 口琴 / 教學/活動來源",
-      "summary": "臺灣的口琴教學與活動來源，關注口琴教學、演出與社團經營。",
-      "keywords": "巴巴口琴坊 Baba Harmonica Studio 臺南 口琴 教學 演出",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/babaharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/baba_harmonica_studio/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@yoyo708520"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "89-baba-harmonica-studio",
-      "latestUpdateAt": "2026-08-10T09:40:06+00:00",
-      "latestUpdateLocal": "2026-08-10 17:40",
-      "latestUpdateSource": "巴巴口琴坊",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=WOgRH5AqIkA",
-      "avatarUrl": "/assets/source-avatars/7f40e1c49d0c7a605d2b.webp",
-      "sourceInitials": "巴巴",
-      "sourceTags": [
-        "品牌",
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_babaharmonica",
-          "name": "巴巴口琴坊",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/babaharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_baba_harmonica_studio",
-          "name": "巴巴口琴坊",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "baba_harmonica_studio",
-          "profileUrl": "https://www.instagram.com/baba_harmonica_studio/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_baba_harmonica_studio",
-          "name": "巴巴口琴坊",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "baba_harmonica_studio",
-          "profileUrl": "https://www.instagram.com/baba_harmonica_studio/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/baba_harmonica_studio/story/0"
-        },
-        {
-          "id": "yt_yoyo708520",
-          "name": "巴巴口琴坊",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@yoyo708520",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-59",
       "publicId": "59",
       "name": "千賀太郎",
@@ -10610,81 +10685,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCtti8XH0v4DgrgP7hz68bWw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-174",
-      "publicId": "174",
-      "name": "Yellow Pine Harmonica Festival",
-      "nameEn": "Yellow Pine Harmonica Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "活動/資訊入口",
-      "country": "美國",
-      "region": "美國/愛達荷/Yellow Pine",
-      "cityOrFocus": "戶外口琴音樂節/音樂演出、課程與示範/2026年7月30日至8月1日/社群與家庭活動",
-      "structuredSummary": "戶外口琴音樂節/音樂演出、課程與示範/2026年7月30日至8月1日/社群與家庭活動 / 十孔口琴/藍調口琴/多類音樂 / 國際音樂節/課程示範與社群活動來源",
-      "summary": "美國的國際音樂節與課程示範與社群活動來源，涵蓋戶外口琴音樂節、音樂演出、課程與示範、2026年7月30日至8月1日與社群與家庭活動。",
-      "keywords": "Yellow Pine Music Harmonica Festival Idaho 2026 July 30 31 August 1 classes demonstrations",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.yellowpinefestival.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/YellowPineHarmonicaFestival/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://instagram.com/yellowpinemusicfestival"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "174-yellow-pine-harmonica-festival",
-      "latestUpdateAt": "2026-08-07T21:04:57+00:00",
-      "latestUpdateLocal": "2026-08-08 05:04",
-      "latestUpdateSource": "Yellow Pine Harmonica Festival",
-      "latestUpdateUrl": "https://www.facebook.com/YellowPineHarmonicaFestival/posts/pfbid0ZsyCxUCvSHCcxh83HSyMEe551gehpnmDJ9hzc2P1hr9UAft5nUnTxbemUTfNXqS2l",
-      "avatarUrl": "/assets/source-avatars/c21840a213e2bb52e6c6.webp",
-      "sourceInitials": "YPH",
-      "sourceTags": [
-        "活動資訊",
-        "課程",
-        "音樂節",
-        "比賽",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_yellowpineharmonicafestival",
-          "name": "Yellow Pine Harmonica Festival",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/YellowPineHarmonicaFestival",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_yellowpinemusicfestival",
-          "name": "Yellow Pine Harmonica Festival",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yellowpinemusicfestival",
-          "profileUrl": "https://www.instagram.com/yellowpinemusicfestival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yellowpinemusicfestival/story/0"
-        },
-        {
-          "id": "ig_yellowpinemusicfestival",
-          "name": "Yellow Pine Harmonica Festival",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yellowpinemusicfestival",
-          "profileUrl": "https://www.instagram.com/yellowpinemusicfestival/",
           "feedUrl": ""
         }
       ]
@@ -11261,7 +11261,7 @@
       "latestUpdateLocal": "2026-08-01 22:09",
       "latestUpdateSource": "IniXial Harmonica Ensemble 源創口琴樂團",
       "latestUpdateUrl": "https://www.instagram.com/stories/inixial.muse/3954166108072643838/",
-      "avatarUrl": "/assets/source-avatars/2973a6fd1da84a605c30.webp",
+      "avatarUrl": "/assets/source-avatars/d8922bd2a94ad43fbddc.webp",
       "sourceInitials": "IHE",
       "sourceTags": [
         "團體樂團",
