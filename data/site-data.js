@@ -2,6 +2,312 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-23",
   "entries": [
     {
+      "id": "watchlist-105",
+      "publicId": "105",
+      "name": "Stay Drunk 口琴樂團",
+      "nameEn": "Stay Drunk Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "大學生新生代團體",
+      "structuredSummary": "大學生新生代團體 / 口琴重奏 / 演出團體",
+      "summary": "臺灣的大學生新生代口琴重奏演出團體。",
+      "keywords": "Stay Drunk Stay Drunk H.E. Stay Drunk Harmonica Ensemble staydrunk_h.e 口琴樂團 大學生",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/staydrunk_h.e/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "105-stay-drunk-harmonica-ensemble",
+      "latestUpdateAt": "2026-08-23T12:35:48+00:00",
+      "latestUpdateLocal": "2026-08-23 20:35",
+      "latestUpdateSource": "Stay Drunk 口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/stories/staydrunk_h.e/3970064180807582485/",
+      "avatarUrl": "/assets/source-avatars/19fce96d7d9e82ac27e7.webp",
+      "sourceInitials": "SD",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_staydrunk_h_e",
+          "name": "Stay Drunk 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "staydrunk_h.e",
+          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_staydrunk_h_e",
+          "name": "Stay Drunk 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "staydrunk_h.e",
+          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/staydrunk_h.e/story/0"
+        },
+        {
+          "id": "yt_uct3ifdfoqpndqm8j5chesda",
+          "name": "Stay Drunk 口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-260",
+      "publicId": "260",
+      "name": "梁芷菁 Steffi Leung",
+      "nameEn": "Steffi Leung",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends",
+      "structuredSummary": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends / 半音階 / 國際演出人員",
+      "summary": "香港的半音階國際演出人員，活動脈絡包含國際賽事、電台主持與Adventure Harmonica Band。",
+      "keywords": "梁芷菁 Steffi Leung harmonicist Adventure Harmonica WHF APHF SIHF THMF 2025 世界口琴節 二重奏冠軍 Steffi and Friends 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.steffileung.com/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/steffi.leung/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "260-steffi-leung",
+      "latestUpdateAt": "2026-08-23T12:17:48+00:00",
+      "latestUpdateLocal": "2026-08-23 20:17",
+      "latestUpdateSource": "梁芷菁 Steffi Leung",
+      "latestUpdateUrl": "https://www.instagram.com/stories/steffi.leung/3970055112991587428/",
+      "avatarUrl": "/assets/source-avatars/944f9a705865f62c67f6.webp",
+      "sourceInitials": "SL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_steffi_leung",
+          "name": "梁芷菁 Steffi Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "steffi.leung",
+          "profileUrl": "https://www.instagram.com/steffi.leung/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_steffi_leung",
+          "name": "梁芷菁 Steffi Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "steffi.leung",
+          "profileUrl": "https://www.instagram.com/steffi.leung/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/steffi.leung/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-220",
+      "publicId": "220",
+      "name": "菜鳥琴老師很菜",
+      "nameEn": "chindiary_harmonica",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/中彰投",
+      "cityOrFocus": "中彰投口琴教學/演出/推廣",
+      "structuredSummary": "中彰投口琴教學/演出/推廣 / 口琴 / 演出人員/教學者",
+      "summary": "臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。",
+      "keywords": "菜鳥琴老師很菜 chindiary_harmonica 口琴 彰化 臺中 南投",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chin.diary"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chindiary_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@chindiary_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "220-chindiary-harmonica",
+      "latestUpdateAt": "2026-08-23T11:39:58+00:00",
+      "latestUpdateLocal": "2026-08-23 19:39",
+      "latestUpdateSource": "菜鳥琴老師很菜",
+      "latestUpdateUrl": "https://www.instagram.com/stories/chindiary_harmonica/3970036402250420822/",
+      "avatarUrl": "/assets/source-avatars/2db0da6406f6fb69ab64.webp",
+      "sourceInitials": "菜鳥",
+      "sourceTags": [
+        "演奏者",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_chin_diary",
+          "name": "菜鳥琴老師很菜",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chin.diary",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_chindiary_harmonica",
+          "name": "菜鳥琴老師很菜",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chindiary_harmonica",
+          "profileUrl": "https://www.instagram.com/chindiary_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chindiary_harmonica",
+          "name": "菜鳥琴老師很菜",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chindiary_harmonica",
+          "profileUrl": "https://www.instagram.com/chindiary_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chindiary_harmonica/story/0"
+        },
+        {
+          "id": "threads_chindiary_harmonica",
+          "name": "菜鳥琴老師很菜",
+          "platform": "threads",
+          "type": "rss",
+          "username": "chindiary_harmonica",
+          "profileUrl": "https://www.threads.net/@chindiary_harmonica",
+          "feedUrl": "https://rss.observe.tw/threads/chindiary_harmonica"
+        },
+        {
+          "id": "yt_ucltib8yoa0dsd4i6n4ykfvq",
+          "name": "菜鳥琴老師很菜",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-93",
+      "publicId": "93",
+      "name": "RedBricks Harmonica",
+      "nameEn": "RedBricks Harmonica",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "國際團體/參考來源",
+      "country": "香港",
+      "region": "香港/國際",
+      "cityOrFocus": "五位英皇書院口琴手組成/和弦、低音與半音階口琴重奏/古典、流行、民謠及電影音樂/2025世界口琴節三重奏冠軍與小組合奏季軍/臺港交流/SIHF 2026",
+      "structuredSummary": "五位英皇書院口琴手組成/和弦、低音與半音階口琴重奏/古典、流行、民謠及電影音樂/2025世界口琴節三重奏冠軍與小組合奏季軍/臺港交流/SIHF 2026 / 半音階口琴/低音口琴/和弦口琴/口琴重奏 / 世界冠軍口琴團體/國際演出團體",
+      "summary": "香港的半音階口琴、低音口琴、和弦口琴與口琴重奏世界冠軍口琴團體與國際演出團體，活動脈絡包含五位英皇書院口琴手組成、和弦與低音與半音階口琴重奏。",
+      "keywords": "RedBricks Harmonica 香港口琴五重奏 英皇書院 世界口琴節 WHF 2025 trio champion ensemble SIHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hkpm.org.hk/sc/event/bank-of-china-hong-kong-presents-hkpm-showtime-a-redbricks-harmonica-journey-by-redbricks"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/redbricksharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/redbricksharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@RedBricksHarmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "93-redbricks-harmonica",
+      "latestUpdateAt": "2026-08-23T11:30:07+00:00",
+      "latestUpdateLocal": "2026-08-23 19:30",
+      "latestUpdateSource": "RedBricks Harmonica",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcYYmh8EiIg/",
+      "avatarUrl": "/assets/source-avatars/5a5a77eba87d8a985f28.webp",
+      "sourceInitials": "RH",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_redbricksharmonica",
+          "name": "RedBricks Harmonica",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/redbricksharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_redbricksharmonica",
+          "name": "RedBricks Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "redbricksharmonica",
+          "profileUrl": "https://www.instagram.com/redbricksharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_redbricksharmonica",
+          "name": "RedBricks Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "redbricksharmonica",
+          "profileUrl": "https://www.instagram.com/redbricksharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/redbricksharmonica/story/0"
+        },
+        {
+          "id": "yt_redbricksharmonica",
+          "name": "RedBricks Harmonica",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@RedBricksHarmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-107",
       "publicId": "107",
       "name": "Konstantin Reinfeld",
@@ -1206,6 +1512,75 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-218",
+      "publicId": "218",
+      "name": "Evelyn Choong 鍾雪兒",
+      "nameEn": "Evelyn Choong",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
+      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "Evelyn Choong 鍾雪兒 evelyn_harmonica World Harmonica Champion Aiden N Evelyn harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/evelyn.choong.3/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/evelyn_harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "218-evelyn-choong",
+      "latestUpdateAt": "2026-08-23T09:52:31+00:00",
+      "latestUpdateLocal": "2026-08-23 17:52",
+      "latestUpdateSource": "Evelyn Choong 鍾雪兒",
+      "latestUpdateUrl": "https://www.instagram.com/stories/evelyn_harmonica/3969982041152450152/",
+      "avatarUrl": "/assets/source-avatars/96a0d91d583e3fe1b660.webp",
+      "sourceInitials": "EC",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_evelyn_choong_3",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/evelyn.choong.3",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_evelyn_harmonica",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "evelyn_harmonica",
+          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_evelyn_harmonica",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "evelyn_harmonica",
+          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/evelyn_harmonica/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-139",
       "publicId": "139",
       "name": "Lee Oskar",
@@ -1644,6 +2019,61 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "chgsh_harmonica",
           "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/chgsh_harmonica/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-237",
+      "publicId": "237",
+      "name": "Wilson Liao",
+      "nameEn": "Wilson Liao",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "Dr. Blue/學生重奏/演出",
+      "structuredSummary": "Dr. Blue/學生重奏/演出 / 口琴 / 演出人員/樂團成員",
+      "summary": "臺灣的口琴演出人員與樂團成員，活動脈絡包含Dr. Blue、學生重奏與演出。",
+      "keywords": "Wilson Liao weiyuliao1 Dr. Blue Harmonica Ensemble NTU 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weiyuliao1/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "237-wilson-liao",
+      "latestUpdateAt": "2026-08-23T04:43:57+00:00",
+      "latestUpdateLocal": "2026-08-23 12:43",
+      "latestUpdateSource": "Wilson Liao",
+      "latestUpdateUrl": "https://www.instagram.com/stories/weiyuliao1/3969826672030905015/",
+      "avatarUrl": "/assets/source-avatars/75f2b5d204d08200d410.webp",
+      "sourceInitials": "WL",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_weiyuliao1",
+          "name": "Wilson Liao",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weiyuliao1",
+          "profileUrl": "https://www.instagram.com/weiyuliao1/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/weiyuliao1/story/0"
+        },
+        {
+          "id": "ig_weiyuliao1",
+          "name": "Wilson Liao",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weiyuliao1",
+          "profileUrl": "https://www.instagram.com/weiyuliao1/",
+          "feedUrl": ""
         }
       ]
     },
@@ -2690,69 +3120,62 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-105",
-      "publicId": "105",
-      "name": "Stay Drunk 口琴樂團",
-      "nameEn": "Stay Drunk Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
+      "id": "watchlist-259",
+      "publicId": "259",
+      "name": "李沛寧",
+      "nameEn": "Li Pei-ning",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
       "country": "臺灣",
       "region": "臺灣",
-      "cityOrFocus": "大學生新生代團體",
-      "structuredSummary": "大學生新生代團體 / 口琴重奏 / 演出團體",
-      "summary": "臺灣的大學生新生代口琴重奏演出團體。",
-      "keywords": "Stay Drunk Stay Drunk H.E. Stay Drunk Harmonica Ensemble staydrunk_h.e 口琴樂團 大學生",
+      "cityOrFocus": "Cookie Monster/口琴二重奏/THMF 2026半音階獨奏公開組季軍/WHF",
+      "structuredSummary": "Cookie Monster/口琴二重奏/THMF 2026半音階獨奏公開組季軍/WHF / 半音階口琴 / 演出人員/樂團成員",
+      "summary": "臺灣的半音階口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF 2026半音階獨奏公開組季軍。",
+      "keywords": "李沛寧 Li Pei-ning Pei Ning Lee harmonica Cookie Monster THMF 2026 A1 third WHF",
       "links": [
         {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/staydrunk_h.e/"
+          "label": "網站",
+          "url": "https://laelapsharmonica.com/en/laelaps-club/pei-ning-lee/"
         },
         {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA"
+          "label": "Instagram",
+          "url": "https://www.instagram.com/l.p.ning.0404/"
         }
       ],
       "source": "watchlist",
       "aliases": [],
-      "slug": "105-stay-drunk-harmonica-ensemble",
-      "latestUpdateAt": "2026-08-22T15:21:12+00:00",
-      "latestUpdateLocal": "2026-08-22 23:21",
-      "latestUpdateSource": "Stay Drunk 口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcWONNcCQ3E/",
-      "avatarUrl": "/assets/source-avatars/19fce96d7d9e82ac27e7.webp",
-      "sourceInitials": "SD",
+      "slug": "259-li-pei-ning",
+      "latestUpdateAt": "2026-08-22T17:06:52+00:00",
+      "latestUpdateLocal": "2026-08-23 01:06",
+      "latestUpdateSource": "李沛寧",
+      "latestUpdateUrl": "https://www.instagram.com/stories/l.p.ning.0404/3969475968233531793/",
+      "avatarUrl": "/assets/source-avatars/8947e97ec5d7b40247b0.webp",
+      "sourceInitials": "李沛",
       "sourceTags": [
+        "演奏者",
         "團體樂團",
+        "半音階",
         "重奏"
       ],
       "monitorSources": [
         {
-          "id": "ig_staydrunk_h_e",
-          "name": "Stay Drunk 口琴樂團",
+          "id": "ig_l_p_ning_0404",
+          "name": "李沛寧",
           "platform": "instagram",
           "type": "rsshub_instagram_profile",
-          "username": "staydrunk_h.e",
-          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
+          "username": "l.p.ning.0404",
+          "profileUrl": "https://www.instagram.com/l.p.ning.0404/",
           "feedUrl": ""
         },
         {
-          "id": "ig_story_staydrunk_h_e",
-          "name": "Stay Drunk 口琴樂團",
+          "id": "ig_story_l_p_ning_0404",
+          "name": "李沛寧",
           "platform": "instagram",
           "type": "rsshub_instagram_story",
-          "username": "staydrunk_h.e",
-          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/staydrunk_h.e/story/0"
-        },
-        {
-          "id": "yt_uct3ifdfoqpndqm8j5chesda",
-          "name": "Stay Drunk 口琴樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA",
-          "feedUrl": ""
+          "username": "l.p.ning.0404",
+          "profileUrl": "https://www.instagram.com/l.p.ning.0404/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/l.p.ning.0404/story/0"
         }
       ]
     },
@@ -2839,66 +3262,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@keriw128",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-260",
-      "publicId": "260",
-      "name": "梁芷菁 Steffi Leung",
-      "nameEn": "Steffi Leung",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends",
-      "structuredSummary": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends / 半音階 / 國際演出人員",
-      "summary": "香港的半音階國際演出人員，活動脈絡包含國際賽事、電台主持與Adventure Harmonica Band。",
-      "keywords": "梁芷菁 Steffi Leung harmonicist Adventure Harmonica WHF APHF SIHF THMF 2025 世界口琴節 二重奏冠軍 Steffi and Friends 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.steffileung.com/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/steffi.leung/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "260-steffi-leung",
-      "latestUpdateAt": "2026-08-22T14:32:12+00:00",
-      "latestUpdateLocal": "2026-08-22 22:32",
-      "latestUpdateSource": "梁芷菁 Steffi Leung",
-      "latestUpdateUrl": "https://www.instagram.com/stories/steffi.leung/3969397988649516659/",
-      "avatarUrl": "/assets/source-avatars/944f9a705865f62c67f6.webp",
-      "sourceInitials": "SL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_steffi_leung",
-          "name": "梁芷菁 Steffi Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "steffi.leung",
-          "profileUrl": "https://www.instagram.com/steffi.leung/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_steffi_leung",
-          "name": "梁芷菁 Steffi Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "steffi.leung",
-          "profileUrl": "https://www.instagram.com/steffi.leung/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/steffi.leung/story/0"
         }
       ]
     },
@@ -3201,75 +3564,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "aidensoon",
           "profileUrl": "https://www.instagram.com/aidensoon/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-218",
-      "publicId": "218",
-      "name": "Evelyn Choong 鍾雪兒",
-      "nameEn": "Evelyn Choong",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
-      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
-      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
-      "keywords": "Evelyn Choong 鍾雪兒 evelyn_harmonica World Harmonica Champion Aiden N Evelyn harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/evelyn.choong.3/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/evelyn_harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "218-evelyn-choong",
-      "latestUpdateAt": "2026-08-22T14:13:58+00:00",
-      "latestUpdateLocal": "2026-08-22 22:13",
-      "latestUpdateSource": "Evelyn Choong 鍾雪兒",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcWGNXvsFAK/",
-      "avatarUrl": "/assets/source-avatars/96a0d91d583e3fe1b660.webp",
-      "sourceInitials": "EC",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_evelyn_choong_3",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/evelyn.choong.3",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_evelyn_harmonica",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "evelyn_harmonica",
-          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_evelyn_harmonica",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "evelyn_harmonica",
-          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/evelyn_harmonica/story/0"
         }
       ]
     },
@@ -4489,61 +4783,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-237",
-      "publicId": "237",
-      "name": "Wilson Liao",
-      "nameEn": "Wilson Liao",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "Dr. Blue/學生重奏/演出",
-      "structuredSummary": "Dr. Blue/學生重奏/演出 / 口琴 / 演出人員/樂團成員",
-      "summary": "臺灣的口琴演出人員與樂團成員，活動脈絡包含Dr. Blue、學生重奏與演出。",
-      "keywords": "Wilson Liao weiyuliao1 Dr. Blue Harmonica Ensemble NTU 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weiyuliao1/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "237-wilson-liao",
-      "latestUpdateAt": "2026-08-22T08:17:34+00:00",
-      "latestUpdateLocal": "2026-08-22 16:17",
-      "latestUpdateSource": "Wilson Liao",
-      "latestUpdateUrl": "https://www.instagram.com/stories/weiyuliao1/3969209542462508658/",
-      "avatarUrl": "/assets/source-avatars/75f2b5d204d08200d410.webp",
-      "sourceInitials": "WL",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_weiyuliao1",
-          "name": "Wilson Liao",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weiyuliao1",
-          "profileUrl": "https://www.instagram.com/weiyuliao1/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weiyuliao1/story/0"
-        },
-        {
-          "id": "ig_weiyuliao1",
-          "name": "Wilson Liao",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weiyuliao1",
-          "profileUrl": "https://www.instagram.com/weiyuliao1/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-95",
       "publicId": "95",
       "name": "韋笙堡口琴 Weissenberg Harmonicas",
@@ -4682,99 +4921,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "harmonica_johnny",
           "profileUrl": "https://www.instagram.com/harmonica_johnny/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_johnny/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-220",
-      "publicId": "220",
-      "name": "菜鳥琴老師很菜",
-      "nameEn": "chindiary_harmonica",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/中彰投",
-      "cityOrFocus": "中彰投口琴教學/演出/推廣",
-      "structuredSummary": "中彰投口琴教學/演出/推廣 / 口琴 / 演出人員/教學者",
-      "summary": "臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。",
-      "keywords": "菜鳥琴老師很菜 chindiary_harmonica 口琴 彰化 臺中 南投",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/chin.diary"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/chindiary_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@chindiary_harmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "220-chindiary-harmonica",
-      "latestUpdateAt": "2026-08-22T05:56:03+00:00",
-      "latestUpdateLocal": "2026-08-22 13:56",
-      "latestUpdateSource": "菜鳥琴老師很菜",
-      "latestUpdateUrl": "https://www.instagram.com/stories/chindiary_harmonica/3969138180959096808/",
-      "avatarUrl": "/assets/source-avatars/2db0da6406f6fb69ab64.webp",
-      "sourceInitials": "菜鳥",
-      "sourceTags": [
-        "演奏者",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_chin_diary",
-          "name": "菜鳥琴老師很菜",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/chin.diary",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_chindiary_harmonica",
-          "name": "菜鳥琴老師很菜",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "chindiary_harmonica",
-          "profileUrl": "https://www.instagram.com/chindiary_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_chindiary_harmonica",
-          "name": "菜鳥琴老師很菜",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "chindiary_harmonica",
-          "profileUrl": "https://www.instagram.com/chindiary_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chindiary_harmonica/story/0"
-        },
-        {
-          "id": "threads_chindiary_harmonica",
-          "name": "菜鳥琴老師很菜",
-          "platform": "threads",
-          "type": "rss",
-          "username": "chindiary_harmonica",
-          "profileUrl": "https://www.threads.net/@chindiary_harmonica",
-          "feedUrl": "https://rss.observe.tw/threads/chindiary_harmonica"
-        },
-        {
-          "id": "yt_ucltib8yoa0dsd4i6n4ykfvq",
-          "name": "菜鳥琴老師很菜",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ",
-          "feedUrl": ""
         }
       ]
     },
@@ -5637,66 +5783,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@KHS_musix",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-259",
-      "publicId": "259",
-      "name": "李沛寧",
-      "nameEn": "Li Pei-ning",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "Cookie Monster/口琴二重奏/THMF 2026半音階獨奏公開組季軍/WHF",
-      "structuredSummary": "Cookie Monster/口琴二重奏/THMF 2026半音階獨奏公開組季軍/WHF / 半音階口琴 / 演出人員/樂團成員",
-      "summary": "臺灣的半音階口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF 2026半音階獨奏公開組季軍。",
-      "keywords": "李沛寧 Li Pei-ning Pei Ning Lee harmonica Cookie Monster THMF 2026 A1 third WHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://laelapsharmonica.com/en/laelaps-club/pei-ning-lee/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/l.p.ning.0404/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "259-li-pei-ning",
-      "latestUpdateAt": "2026-08-21T13:44:26+00:00",
-      "latestUpdateLocal": "2026-08-21 21:44",
-      "latestUpdateSource": "李沛寧",
-      "latestUpdateUrl": "https://www.instagram.com/stories/l.p.ning.0404/3968649313688663965/",
-      "avatarUrl": "/assets/source-avatars/8947e97ec5d7b40247b0.webp",
-      "sourceInitials": "李沛",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "半音階",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_l_p_ning_0404",
-          "name": "李沛寧",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "l.p.ning.0404",
-          "profileUrl": "https://www.instagram.com/l.p.ning.0404/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_l_p_ning_0404",
-          "name": "李沛寧",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "l.p.ning.0404",
-          "profileUrl": "https://www.instagram.com/l.p.ning.0404/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/l.p.ning.0404/story/0"
         }
       ]
     },
@@ -8614,92 +8700,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "attack_on_harmonica_ensemble",
           "profileUrl": "https://www.threads.net/@attack_on_harmonica_ensemble",
           "feedUrl": "https://rss.observe.tw/threads/attack_on_harmonica_ensemble"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-93",
-      "publicId": "93",
-      "name": "RedBricks Harmonica",
-      "nameEn": "RedBricks Harmonica",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "國際團體/參考來源",
-      "country": "香港",
-      "region": "香港/國際",
-      "cityOrFocus": "五位英皇書院口琴手組成/和弦、低音與半音階口琴重奏/古典、流行、民謠及電影音樂/2025世界口琴節三重奏冠軍與小組合奏季軍/臺港交流/SIHF 2026",
-      "structuredSummary": "五位英皇書院口琴手組成/和弦、低音與半音階口琴重奏/古典、流行、民謠及電影音樂/2025世界口琴節三重奏冠軍與小組合奏季軍/臺港交流/SIHF 2026 / 半音階口琴/低音口琴/和弦口琴/口琴重奏 / 世界冠軍口琴團體/國際演出團體",
-      "summary": "香港的半音階口琴、低音口琴、和弦口琴與口琴重奏世界冠軍口琴團體與國際演出團體，活動脈絡包含五位英皇書院口琴手組成、和弦與低音與半音階口琴重奏。",
-      "keywords": "RedBricks Harmonica 香港口琴五重奏 英皇書院 世界口琴節 WHF 2025 trio champion ensemble SIHF 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hkpm.org.hk/sc/event/bank-of-china-hong-kong-presents-hkpm-showtime-a-redbricks-harmonica-journey-by-redbricks"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/redbricksharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/redbricksharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@RedBricksHarmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "93-redbricks-harmonica",
-      "latestUpdateAt": "2026-08-16T11:28:07+00:00",
-      "latestUpdateLocal": "2026-08-16 19:28",
-      "latestUpdateSource": "RedBricks Harmonica",
-      "latestUpdateUrl": "https://www.instagram.com/stories/redbricksharmonica/3964956662599663677/",
-      "avatarUrl": "/assets/source-avatars/5a5a77eba87d8a985f28.webp",
-      "sourceInitials": "RH",
-      "sourceTags": [
-        "團體樂團",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_redbricksharmonica",
-          "name": "RedBricks Harmonica",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/redbricksharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_redbricksharmonica",
-          "name": "RedBricks Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "redbricksharmonica",
-          "profileUrl": "https://www.instagram.com/redbricksharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_redbricksharmonica",
-          "name": "RedBricks Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "redbricksharmonica",
-          "profileUrl": "https://www.instagram.com/redbricksharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/redbricksharmonica/story/0"
-        },
-        {
-          "id": "yt_redbricksharmonica",
-          "name": "RedBricks Harmonica",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@RedBricksHarmonica",
-          "feedUrl": ""
         }
       ]
     },
