@@ -10382,7 +10382,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-09 10:27",
       "latestUpdateSource": "Do Not Disturb Harmonica Ensemble",
       "latestUpdateUrl": "https://www.instagram.com/stories/donotdisturbharmonicaensemble/3959611354701082369/",
-      "avatarUrl": "/assets/source-avatars/d75cc3adca0b092fad08.webp",
+      "avatarUrl": "/assets/source-avatars/973bf42f9d653140948f.webp",
       "sourceInitials": "DND",
       "sourceTags": [
         "活動資訊",
