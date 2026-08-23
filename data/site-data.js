@@ -170,6 +170,78 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-33",
+      "publicId": "33",
+      "name": "黃冠誌",
+      "nameEn": "Kuan-Chih Huang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/胖擊口琴樂團團長/和弦口琴/THMF 2026/WHF與SIHF重奏",
+      "structuredSummary": "天狼星/胖擊口琴樂團團長/和弦口琴/THMF 2026/WHF與SIHF重奏 / 和弦口琴/重奏 / 演出人員/教育者/重奏團長",
+      "summary": "臺灣的和弦口琴與重奏演出人員、教育者與重奏團長，活動脈絡包含天狼星、胖擊口琴樂團團長與THMF 2026。",
+      "keywords": "黃冠誌 口琴 胖擊 Punch THMF 2026 WHF SIHF 和弦",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/kuanchih/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hk91f06/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "33",
+      "latestUpdateAt": "2026-08-23T15:09:43+00:00",
+      "latestUpdateLocal": "2026-08-23 23:09",
+      "latestUpdateSource": "黃冠誌",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3970141642304289410/",
+      "avatarUrl": "/assets/source-avatars/eb3ee5e474c4d350dc4d.webp",
+      "sourceInitials": "黃冠",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
+        },
+        {
+          "id": "yt_cbd128e3de",
+          "name": "黃冠誌",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-237",
       "publicId": "237",
       "name": "Wilson Liao",
@@ -430,6 +502,61 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-230",
+      "publicId": "230",
+      "name": "陳立強 Johnny Chen",
+      "nameEn": "Johnny Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "台大藍聲/Dr. Blue/學生重奏/演出",
+      "structuredSummary": "台大藍聲/Dr. Blue/學生重奏/演出 / 口琴 / 演出人員/樂團成員",
+      "summary": "臺灣的口琴演出人員與樂團成員，活動脈絡包含台大藍聲、Dr. Blue與學生重奏。",
+      "keywords": "陳立強 Johnny Chen harmonica_johnny 台大藍聲 Dr. Blue Harmonica Ensemble",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_johnny/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "230-johnny-chen",
+      "latestUpdateAt": "2026-08-23T13:00:34+00:00",
+      "latestUpdateLocal": "2026-08-23 21:00",
+      "latestUpdateSource": "陳立強 Johnny Chen",
+      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_johnny/3970076610539328464/",
+      "avatarUrl": "/assets/source-avatars/718baf2f4c2fb8253e60.webp",
+      "sourceInitials": "JC",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_harmonica_johnny",
+          "name": "陳立強 Johnny Chen",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_johnny",
+          "profileUrl": "https://www.instagram.com/harmonica_johnny/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_johnny",
+          "name": "陳立強 Johnny Chen",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_johnny",
+          "profileUrl": "https://www.instagram.com/harmonica_johnny/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_johnny/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-105",
       "publicId": "105",
       "name": "Stay Drunk 口琴樂團",
@@ -591,10 +718,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "93-redbricks-harmonica",
-      "latestUpdateAt": "2026-08-23T11:30:07+00:00",
-      "latestUpdateLocal": "2026-08-23 19:30",
+      "latestUpdateAt": "2026-08-23T11:32:57+00:00",
+      "latestUpdateLocal": "2026-08-23 19:32",
       "latestUpdateSource": "RedBricks Harmonica",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcYYmh8EiIg/",
+      "latestUpdateUrl": "https://www.instagram.com/stories/redbricksharmonica/3970032524021884734/",
       "avatarUrl": "/assets/source-avatars/5a5a77eba87d8a985f28.webp",
       "sourceInitials": "RH",
       "sourceTags": [
@@ -4081,78 +4208,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-33",
-      "publicId": "33",
-      "name": "黃冠誌",
-      "nameEn": "Kuan-Chih Huang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/胖擊口琴樂團團長/和弦口琴/THMF 2026/WHF與SIHF重奏",
-      "structuredSummary": "天狼星/胖擊口琴樂團團長/和弦口琴/THMF 2026/WHF與SIHF重奏 / 和弦口琴/重奏 / 演出人員/教育者/重奏團長",
-      "summary": "臺灣的和弦口琴與重奏演出人員、教育者與重奏團長，活動脈絡包含天狼星、胖擊口琴樂團團長與THMF 2026。",
-      "keywords": "黃冠誌 口琴 胖擊 Punch THMF 2026 WHF SIHF 和弦",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/kuanchih/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hk91f06/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "33",
-      "latestUpdateAt": "2026-08-22T14:14:55+00:00",
-      "latestUpdateLocal": "2026-08-22 22:14",
-      "latestUpdateSource": "黃冠誌",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3969403188570278006/",
-      "avatarUrl": "/assets/source-avatars/eb3ee5e474c4d350dc4d.webp",
-      "sourceInitials": "黃冠",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
-        },
-        {
-          "id": "yt_cbd128e3de",
-          "name": "黃冠誌",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-49",
       "publicId": "49",
       "name": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
@@ -5387,61 +5442,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/weissenberg1979",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-230",
-      "publicId": "230",
-      "name": "陳立強 Johnny Chen",
-      "nameEn": "Johnny Chen",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "台大藍聲/Dr. Blue/學生重奏/演出",
-      "structuredSummary": "台大藍聲/Dr. Blue/學生重奏/演出 / 口琴 / 演出人員/樂團成員",
-      "summary": "臺灣的口琴演出人員與樂團成員，活動脈絡包含台大藍聲、Dr. Blue與學生重奏。",
-      "keywords": "陳立強 Johnny Chen harmonica_johnny 台大藍聲 Dr. Blue Harmonica Ensemble",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/harmonica_johnny/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "230-johnny-chen",
-      "latestUpdateAt": "2026-08-22T07:12:57+00:00",
-      "latestUpdateLocal": "2026-08-22 15:12",
-      "latestUpdateSource": "陳立強 Johnny Chen",
-      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_johnny/3969176938250126263/",
-      "avatarUrl": "/assets/source-avatars/718baf2f4c2fb8253e60.webp",
-      "sourceInitials": "JC",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_harmonica_johnny",
-          "name": "陳立強 Johnny Chen",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "harmonica_johnny",
-          "profileUrl": "https://www.instagram.com/harmonica_johnny/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_harmonica_johnny",
-          "name": "陳立強 Johnny Chen",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "harmonica_johnny",
-          "profileUrl": "https://www.instagram.com/harmonica_johnny/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_johnny/story/0"
         }
       ]
     },
