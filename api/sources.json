@@ -1838,6 +1838,92 @@
       ]
     },
     {
+      "id": "watchlist-298",
+      "publicId": "298",
+      "name": "香港兒童合唱團口琴課程",
+      "nameEn": "HKCC Harmonica Programme",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "教學/學校/青年",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生",
+      "structuredSummary": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生 / 半音階/口琴合奏 / 教學單位/青年培育",
+      "summary": "香港的半音階與口琴合奏教學單位與青年培育。",
+      "keywords": "香港兒童合唱團 HKCC Harmonica Programme 口琴課程 Gordon Lee 2026 招生 兒童合奏",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hkcchoir.org.hk/en/instrumental-programme"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hkcchoir"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hkcchoir/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/hkcchoir"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "298-hkcc-harmonica-programme",
+      "latestUpdateAt": "2026-08-23T05:39:31+00:00",
+      "latestUpdateLocal": "2026-08-23 13:39",
+      "latestUpdateSource": "香港兒童合唱團口琴課程",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hkcchoir/3969854628635098343/",
+      "avatarUrl": "/assets/source-avatars/hkcc-harmonica.png",
+      "sourceInitials": "香港",
+      "sourceTags": [
+        "學生社團",
+        "教學",
+        "課程",
+        "半音階"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hkcchoir",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hkcchoir",
+          "profileUrl": "https://www.instagram.com/hkcchoir/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hkcchoir",
+          "profileUrl": "https://www.instagram.com/hkcchoir/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hkcchoir/story/0"
+        },
+        {
+          "id": "yt_hkcchoir",
+          "name": "香港兒童合唱團口琴課程",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/hkcchoir",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -3128,6 +3214,93 @@
       ]
     },
     {
+      "id": "watchlist-315",
+      "publicId": "315",
+      "name": "Yotam Ben-Or",
+      "nameEn": "Yotam Ben-Or",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "以色列",
+      "region": "比利時/以色列/紐約/國際",
+      "cityOrFocus": "比利時與以色列背景的爵士半音階口琴家與作曲家/以中東、拉丁、非洲與古典語彙拓展現代爵士口琴/師承Grégoire Maret/林肯中心與卡內基音樂廳演出/2025專輯《Impermanence》/2026東華春藝季三重奏音樂會",
+      "structuredSummary": "比利時與以色列背景的爵士半音階口琴家與作曲家/以中東、拉丁、非洲與古典語彙拓展現代爵士口琴/師承Grégoire Maret/林肯中心與卡內基音樂廳演出/2025專輯《Impermanence》/2026東華春藝季三重奏音樂會 / 半音階口琴/爵士口琴 / 國際演出人員/作曲家/爵士樂團領隊",
+      "summary": "以色列的半音階口琴與爵士口琴國際演出人員、作曲家與爵士樂團領隊，活動脈絡包含比利時與以色列背景的爵士半音階口琴家與作曲家、以中東與拉丁。",
+      "keywords": "Yotam Ben-Or harmonica jazz composer Belgian Israeli New York Gregoire Maret Impermanence 2025 NDHU Spring Arts Festival Taiwan 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.yotambo.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/yotambo/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yotambo1/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCj4vj3haLP9VWs_DOMbzbkQ"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "315-yotam-ben-or",
+      "latestUpdateAt": "2026-08-22T17:22:36+00:00",
+      "latestUpdateLocal": "2026-08-23 01:22",
+      "latestUpdateSource": "Yotam Ben-Or",
+      "latestUpdateUrl": "https://www.instagram.com/stories/yotambo1/3969483826464208056/",
+      "avatarUrl": "/assets/source-avatars/yotam-ben-or.jpg",
+      "sourceInitials": "YBO",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_yotambo",
+          "name": "Yotam Ben-Or",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/yotambo",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yotambo1",
+          "name": "Yotam Ben-Or",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yotambo1",
+          "profileUrl": "https://www.instagram.com/yotambo1/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yotambo1/story/0"
+        },
+        {
+          "id": "ig_yotambo1",
+          "name": "Yotam Ben-Or",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yotambo1",
+          "profileUrl": "https://www.instagram.com/yotambo1/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucj4vj3halp9vws_dombzbkq",
+          "name": "Yotam Ben-Or",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCj4vj3haLP9VWs_DOMbzbkQ",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-183",
       "publicId": "183",
       "name": "EMPA 口琴課程",
@@ -4134,92 +4307,6 @@
       ]
     },
     {
-      "id": "watchlist-298",
-      "publicId": "298",
-      "name": "香港兒童合唱團口琴課程",
-      "nameEn": "HKCC Harmonica Programme",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "教學/學校/青年",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生",
-      "structuredSummary": "兒童口琴課程/合奏訓練/年度成果音樂會/2026 招生 / 半音階/口琴合奏 / 教學單位/青年培育",
-      "summary": "香港的半音階與口琴合奏教學單位與青年培育。",
-      "keywords": "香港兒童合唱團 HKCC Harmonica Programme 口琴課程 Gordon Lee 2026 招生 兒童合奏",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://hkcchoir.org.hk/en/instrumental-programme"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hkcchoir"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hkcchoir/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/user/hkcchoir"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "298-hkcc-harmonica-programme",
-      "latestUpdateAt": "2026-08-22T11:47:40+00:00",
-      "latestUpdateLocal": "2026-08-22 19:47",
-      "latestUpdateSource": "香港兒童合唱團口琴課程",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hkcchoir/3969315161621924270/",
-      "avatarUrl": "/assets/source-avatars/hkcc-harmonica.png",
-      "sourceInitials": "香港",
-      "sourceTags": [
-        "學生社團",
-        "教學",
-        "課程",
-        "半音階"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_hkcchoir",
-          "name": "香港兒童合唱團口琴課程",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hkcchoir",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hkcchoir",
-          "name": "香港兒童合唱團口琴課程",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hkcchoir",
-          "profileUrl": "https://www.instagram.com/hkcchoir/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hkcchoir",
-          "name": "香港兒童合唱團口琴課程",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hkcchoir",
-          "profileUrl": "https://www.instagram.com/hkcchoir/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hkcchoir/story/0"
-        },
-        {
-          "id": "yt_hkcchoir",
-          "name": "香港兒童合唱團口琴課程",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/user/hkcchoir",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-3",
       "publicId": "3",
       "name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
@@ -4452,7 +4539,7 @@
       "latestUpdateLocal": "2026-08-22 18:56",
       "latestUpdateSource": "山下伶 Rei Yamashita",
       "latestUpdateUrl": "https://www.facebook.com/reel/1400733988718610/",
-      "avatarUrl": "/assets/source-avatars/df8c708cab689b818f71.webp",
+      "avatarUrl": "/assets/source-avatars/9198b2ddf57fb8d74236.webp",
       "sourceInitials": "RY",
       "sourceTags": [
         "演奏者",
@@ -8064,93 +8151,6 @@
           "username": "judygigo",
           "profileUrl": "https://www.threads.net/@judygigo",
           "feedUrl": "https://rss.observe.tw/threads/judygigo"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-315",
-      "publicId": "315",
-      "name": "Yotam Ben-Or",
-      "nameEn": "Yotam Ben-Or",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "以色列",
-      "region": "比利時/以色列/紐約/國際",
-      "cityOrFocus": "比利時與以色列背景的爵士半音階口琴家與作曲家/以中東、拉丁、非洲與古典語彙拓展現代爵士口琴/師承Grégoire Maret/林肯中心與卡內基音樂廳演出/2025專輯《Impermanence》/2026東華春藝季三重奏音樂會",
-      "structuredSummary": "比利時與以色列背景的爵士半音階口琴家與作曲家/以中東、拉丁、非洲與古典語彙拓展現代爵士口琴/師承Grégoire Maret/林肯中心與卡內基音樂廳演出/2025專輯《Impermanence》/2026東華春藝季三重奏音樂會 / 半音階口琴/爵士口琴 / 國際演出人員/作曲家/爵士樂團領隊",
-      "summary": "以色列的半音階口琴與爵士口琴國際演出人員、作曲家與爵士樂團領隊，活動脈絡包含比利時與以色列背景的爵士半音階口琴家與作曲家、以中東與拉丁。",
-      "keywords": "Yotam Ben-Or harmonica jazz composer Belgian Israeli New York Gregoire Maret Impermanence 2025 NDHU Spring Arts Festival Taiwan 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.yotambo.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/yotambo/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yotambo1/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCj4vj3haLP9VWs_DOMbzbkQ"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "315-yotam-ben-or",
-      "latestUpdateAt": "2026-08-18T13:00:10+00:00",
-      "latestUpdateLocal": "2026-08-18 21:00",
-      "latestUpdateSource": "Yotam Ben-Or",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcLq7IzxnrS/",
-      "avatarUrl": "/assets/source-avatars/yotam-ben-or.jpg",
-      "sourceInitials": "YBO",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_yotambo",
-          "name": "Yotam Ben-Or",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/yotambo",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_yotambo1",
-          "name": "Yotam Ben-Or",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yotambo1",
-          "profileUrl": "https://www.instagram.com/yotambo1/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yotambo1/story/0"
-        },
-        {
-          "id": "ig_yotambo1",
-          "name": "Yotam Ben-Or",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yotambo1",
-          "profileUrl": "https://www.instagram.com/yotambo1/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_ucj4vj3halp9vws_dombzbkq",
-          "name": "Yotam Ben-Or",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCj4vj3haLP9VWs_DOMbzbkQ",
-          "feedUrl": ""
         }
       ]
     },
