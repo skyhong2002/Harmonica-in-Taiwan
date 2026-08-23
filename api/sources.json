@@ -71,6 +71,51 @@
   },
   "entries": [
     {
+      "id": "watchlist-316",
+      "publicId": "316",
+      "name": "太平國小口琴隊",
+      "nameEn": "Taiping Elementary School Harmonica Ensemble",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校/青年",
+      "country": "臺灣",
+      "region": "臺灣/臺中/太平",
+      "cityOrFocus": "臺中市太平國小口琴合奏團隊/長期扎根音樂教育與分部訓練/114學年度全國學生音樂比賽國小口琴合奏特優/2026達成連續四年全國賽特優",
+      "structuredSummary": "臺中市太平國小口琴合奏團隊/長期扎根音樂教育與分部訓練/114學年度全國學生音樂比賽國小口琴合奏特優/2026達成連續四年全國賽特優 / 口琴合奏/校園口琴教育 / 學校團隊/青少年口琴教育/全國學生音樂比賽團隊",
+      "summary": "臺灣的口琴合奏與校園口琴教育學校團隊、青少年口琴教育與全國學生音樂比賽團隊。",
+      "keywords": "臺中 太平國小口琴隊 Taiping Elementary School Harmonica Ensemble 2026 全國學生音樂比賽 口琴合奏 特優 四連霸 蔡政嘉 姜義良",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "316-taiping-elementary-school-harmonica-ensemble",
+      "latestUpdateAt": "2026-08-23T10:18:21.263593+00:00",
+      "latestUpdateLocal": "2026-08-23 18:18",
+      "latestUpdateSource": "太平國小口琴隊",
+      "latestUpdateUrl": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
+      "avatarUrl": "/assets/source-avatars/taiping-elementary-harmonica.jpg",
+      "sourceInitials": "太平",
+      "sourceTags": [
+        "學生社團",
+        "比賽"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_316",
+          "name": "太平國小口琴隊",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-299",
       "publicId": "299",
       "name": "基隆社區大學就是吹口琴",
@@ -93,8 +138,8 @@
       "source": "watchlist",
       "aliases": [],
       "slug": "299-keelung-community-university-harmonica",
-      "latestUpdateAt": "2026-08-22T21:16:24.569493+00:00",
-      "latestUpdateLocal": "2026-08-23 05:16",
+      "latestUpdateAt": "2026-08-23T10:17:52.036600+00:00",
+      "latestUpdateLocal": "2026-08-23 18:17",
       "latestUpdateSource": "基隆社區大學就是吹口琴",
       "latestUpdateUrl": "https://kcu.twcu.org.tw/course/m_course_list.php",
       "avatarUrl": "/assets/source-avatars/keelung-community-harmonica.jpg",
@@ -120,46 +165,47 @@
       ]
     },
     {
-      "id": "watchlist-316",
-      "publicId": "316",
-      "name": "太平國小口琴隊",
-      "nameEn": "Taiping Elementary School Harmonica Ensemble",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校/青年",
-      "country": "臺灣",
-      "region": "臺灣/臺中/太平",
-      "cityOrFocus": "臺中市太平國小口琴合奏團隊/長期扎根音樂教育與分部訓練/114學年度全國學生音樂比賽國小口琴合奏特優/2026達成連續四年全國賽特優",
-      "structuredSummary": "臺中市太平國小口琴合奏團隊/長期扎根音樂教育與分部訓練/114學年度全國學生音樂比賽國小口琴合奏特優/2026達成連續四年全國賽特優 / 口琴合奏/校園口琴教育 / 學校團隊/青少年口琴教育/全國學生音樂比賽團隊",
-      "summary": "臺灣的口琴合奏與校園口琴教育學校團隊、青少年口琴教育與全國學生音樂比賽團隊。",
-      "keywords": "臺中 太平國小口琴隊 Taiping Elementary School Harmonica Ensemble 2026 全國學生音樂比賽 口琴合奏 特優 四連霸 蔡政嘉 姜義良",
+      "id": "watchlist-293",
+      "publicId": "293",
+      "name": "Michał Kielak",
+      "nameEn": "Michal Kielak",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "波蘭",
+      "region": "波蘭",
+      "cityOrFocus": "藍調口琴/錄音與巡演/2024 波蘭年度口琴手/APHF 2026",
+      "structuredSummary": "藍調口琴/錄音與巡演/2024 波蘭年度口琴手/APHF 2026 / 十孔口琴 / 國際演出人員/錄音樂手",
+      "summary": "波蘭的十孔口琴國際演出人員與錄音樂手，活動脈絡包含藍調口琴、錄音與巡演與2024 波蘭年度口琴手。",
+      "keywords": "Michal Kielak Michał Kielak Poland harmonica harp player APHF 2026",
       "links": [
         {
           "label": "網站",
-          "url": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586"
+          "url": "https://kielak.pl/"
         }
       ],
       "source": "watchlist",
       "aliases": [],
-      "slug": "316-taiping-elementary-school-harmonica-ensemble",
-      "latestUpdateAt": "2026-08-22T20:40:25.272938+00:00",
-      "latestUpdateLocal": "2026-08-23 04:40",
-      "latestUpdateSource": "太平國小口琴隊",
-      "latestUpdateUrl": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
-      "avatarUrl": "/assets/source-avatars/taiping-elementary-harmonica.jpg",
-      "sourceInitials": "太平",
+      "slug": "293-michal-kielak",
+      "latestUpdateAt": "2026-08-23T10:17:45.272442+00:00",
+      "latestUpdateLocal": "2026-08-23 18:17",
+      "latestUpdateSource": "Michał Kielak",
+      "latestUpdateUrl": "https://kielak.pl/",
+      "avatarUrl": "/assets/source-avatars/michal-kielak.jpg",
+      "sourceInitials": "MK",
       "sourceTags": [
-        "學生社團",
-        "比賽"
+        "演奏者",
+        "十孔",
+        "國際交流"
       ],
       "monitorSources": [
         {
-          "id": "web_316",
-          "name": "太平國小口琴隊",
+          "id": "web_293",
+          "name": "Michał Kielak",
           "platform": "website",
           "type": "webpage_watch",
           "username": "",
-          "profileUrl": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
+          "profileUrl": "https://kielak.pl/",
           "feedUrl": ""
         }
       ]
@@ -187,8 +233,8 @@
       "source": "watchlist",
       "aliases": [],
       "slug": "254-zhengzhou-popular-harmonica-ensemble",
-      "latestUpdateAt": "2026-08-22T20:38:59.222738+00:00",
-      "latestUpdateLocal": "2026-08-23 04:38",
+      "latestUpdateAt": "2026-08-23T10:16:52.567819+00:00",
+      "latestUpdateLocal": "2026-08-23 18:16",
       "latestUpdateSource": "鄭州大眾口琴樂團",
       "latestUpdateUrl": "https://www.aphfhx.com/information/industryNewsDetail/361339839879622656",
       "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
@@ -231,8 +277,8 @@
       "source": "watchlist",
       "aliases": [],
       "slug": "253-jinan-popular-harmonica-ensemble",
-      "latestUpdateAt": "2026-08-22T20:38:57.395572+00:00",
-      "latestUpdateLocal": "2026-08-23 04:38",
+      "latestUpdateAt": "2026-08-23T10:16:48.309099+00:00",
+      "latestUpdateLocal": "2026-08-23 18:16",
       "latestUpdateSource": "濟南大眾口琴樂團",
       "latestUpdateUrl": "https://www.aphfhx.com/information/industryNewsDetail/361339839879622656",
       "avatarUrl": "/assets/source-avatars/c2a785077a9080256926.webp",
@@ -275,8 +321,8 @@
       "source": "watchlist",
       "aliases": [],
       "slug": "245-qinyun-dongpo-harmonica-art-showcase-meishan",
-      "latestUpdateAt": "2026-08-22T20:38:46.971792+00:00",
-      "latestUpdateLocal": "2026-08-23 04:38",
+      "latestUpdateAt": "2026-08-23T10:16:34.139388+00:00",
+      "latestUpdateLocal": "2026-08-23 18:16",
       "latestUpdateSource": "「琴韻東坡・簧鳴西南」口琴藝術展演",
       "latestUpdateUrl": "https://www.aphfhx.com/information/announcementDetail/443573180452044800",
       "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
@@ -321,8 +367,8 @@
       "source": "watchlist",
       "aliases": [],
       "slug": "244-qinsu-fuxi-harmonica-art-showcase-tianshui",
-      "latestUpdateAt": "2026-08-22T20:38:45.116342+00:00",
-      "latestUpdateLocal": "2026-08-23 04:38",
+      "latestUpdateAt": "2026-08-23T10:16:29.707280+00:00",
+      "latestUpdateLocal": "2026-08-23 18:16",
       "latestUpdateSource": "「琴溯伏羲・律動天水」口琴藝術展演",
       "latestUpdateUrl": "https://www.aphfhx.com/information/announcementDetail/407401895418511360",
       "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
@@ -367,8 +413,8 @@
       "source": "watchlist",
       "aliases": [],
       "slug": "243-2nd-dunhuang-cup-online-harmonica-competition",
-      "latestUpdateAt": "2026-08-22T20:38:43.309605+00:00",
-      "latestUpdateLocal": "2026-08-23 04:38",
+      "latestUpdateAt": "2026-08-23T10:16:24.118311+00:00",
+      "latestUpdateLocal": "2026-08-23 18:16",
       "latestUpdateSource": "第二屆「敦煌杯」線上口琴大賽",
       "latestUpdateUrl": "https://www.aphfhx.com/information/announcementDetail/347951476011454464",
       "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
@@ -416,8 +462,8 @@
       "source": "watchlist",
       "aliases": [],
       "slug": "241-5th-huaxia-harmonica-art-week",
-      "latestUpdateAt": "2026-08-22T20:38:39.069683+00:00",
-      "latestUpdateLocal": "2026-08-23 04:38",
+      "latestUpdateAt": "2026-08-23T10:16:16.710446+00:00",
+      "latestUpdateLocal": "2026-08-23 18:16",
       "latestUpdateSource": "第五屆華夏（寧德）口琴藝術周",
       "latestUpdateUrl": "https://www.aphfhx.com/information/newsDetail/361718112966979584",
       "avatarUrl": "/assets/source-avatars/a7cb815d7fbbb24148d6.webp",
@@ -466,8 +512,8 @@
       "source": "watchlist",
       "aliases": [],
       "slug": "167-15th-asia-pacific-harmonica-festival",
-      "latestUpdateAt": "2026-08-22T20:12:56.375900+00:00",
-      "latestUpdateLocal": "2026-08-23 04:12",
+      "latestUpdateAt": "2026-08-23T10:15:24.223689+00:00",
+      "latestUpdateLocal": "2026-08-23 18:15",
       "latestUpdateSource": "第十五屆亞太口琴藝術週",
       "latestUpdateUrl": "https://www.aphfhx.com/information/newsDetail/361363469090992128",
       "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
@@ -516,8 +562,8 @@
       "source": "watchlist",
       "aliases": [],
       "slug": "136-project-x",
-      "latestUpdateAt": "2026-08-22T20:12:29.644002+00:00",
-      "latestUpdateLocal": "2026-08-23 04:12",
+      "latestUpdateAt": "2026-08-23T10:15:07.203000+00:00",
+      "latestUpdateLocal": "2026-08-23 18:15",
       "latestUpdateSource": "Project X",
       "latestUpdateUrl": "https://thefestival.co.kr/info/festival/7338",
       "avatarUrl": "/assets/source-avatars/d46567b33b1baf0d8f42.webp",
@@ -571,8 +617,8 @@
       "source": "watchlist",
       "aliases": [],
       "slug": "134-crossover-harmonica-ensemble",
-      "latestUpdateAt": "2026-08-22T20:12:26.896760+00:00",
-      "latestUpdateLocal": "2026-08-23 04:12",
+      "latestUpdateAt": "2026-08-23T10:15:03.346610+00:00",
+      "latestUpdateLocal": "2026-08-23 18:15",
       "latestUpdateSource": "Crossover Harmonica Ensemble",
       "latestUpdateUrl": "https://thefestival.co.kr/info/festival/7338",
       "avatarUrl": "/assets/source-avatars/d46567b33b1baf0d8f42.webp",
@@ -600,6 +646,313 @@
           "username": "",
           "profileUrl": "https://youtube.com/@SIHF-uv5mk",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-12",
+      "publicId": "12",
+      "name": "臺灣口琴樂團",
+      "nameEn": "Taiwan Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "1998成立/THE-22/合奏/公開演出/指定曲出版",
+      "structuredSummary": "1998成立/THE-22/合奏/公開演出/指定曲出版 / 口琴合奏 / 演出團體",
+      "summary": "臺灣的口琴合奏演出團體，活動脈絡包含1998成立、THE-22與合奏。",
+      "keywords": "臺灣口琴樂團 Taiwan Harmonica Ensemble THE-22 廖訓禎",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "12",
+      "latestUpdateAt": "2026-08-23T10:09:52.464633+00:00",
+      "latestUpdateLocal": "2026-08-23 18:09",
+      "latestUpdateSource": "臺灣口琴樂團",
+      "latestUpdateUrl": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
+      "avatarUrl": "/assets/source-avatars/c1b9a8d6df3e79573ba0.webp",
+      "sourceInitials": "臺灣",
+      "sourceTags": [
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_ntubluesound",
+          "name": "NTU Blue Sound Harmonica Club",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "ntubluesound",
+          "profileUrl": "https://www.instagram.com/ntubluesound/",
+          "feedUrl": ""
+        },
+        {
+          "id": "web_12",
+          "name": "臺灣口琴樂團",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-58",
+      "publicId": "58",
+      "name": "南里沙",
+      "nameEn": "Minami Risa",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流/2026 琴韻東坡・簧鳴西南",
+      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流/2026 琴韻東坡・簧鳴西南 / 半音階 / 國際演出人員",
+      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
+      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ 琴韻東坡 簧鳴西南 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://minamirisa.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/minamirisa/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/minami_risa/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@minamirisa"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/minami_risa"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@minami_risa"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "58-minami-risa",
+      "latestUpdateAt": "2026-08-23T05:14:03+00:00",
+      "latestUpdateLocal": "2026-08-23 13:14",
+      "latestUpdateSource": "南里沙",
+      "latestUpdateUrl": "https://x.com/minami_risa/status/2091393510914277552",
+      "avatarUrl": "/assets/source-avatars/95005878a1f2ba951855.webp",
+      "sourceInitials": "南里",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_minamirisa",
+          "name": "南里沙",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/minamirisa",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
+        },
+        {
+          "id": "x_minami_risa",
+          "name": "南里沙",
+          "platform": "x",
+          "type": "rss",
+          "username": "minami_risa",
+          "profileUrl": "https://x.com/minami_risa",
+          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
+        },
+        {
+          "id": "yt_minamirisa",
+          "name": "南里沙",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@minamirisa",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-5",
+      "publicId": "5",
+      "name": "胖擊口琴樂團",
+      "nameEn": "Punch Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴重奏/2016成立/五人編制/SIHF三重奏與重奏冠軍/2025 WHF三重奏與小合奏亞軍/THMF與SIHF 2026",
+      "structuredSummary": "口琴重奏/2016成立/五人編制/SIHF三重奏與重奏冠軍/2025 WHF三重奏與小合奏亞軍/THMF與SIHF 2026 / 半音階口琴/和弦口琴/倍低音口琴 / 國際演出團體/音樂教育推廣",
+      "summary": "臺灣的半音階口琴、和弦口琴與倍低音口琴國際演出團體與音樂教育推廣，活動脈絡包含口琴重奏、2016成立與五人編制。",
+      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團 THMF SIHF 2026 WHF 2025 黃冠誌 王衍華 林裕豐 王心禾 陳聰",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.taiwanharmonica.com/punch"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Punch.Harp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/punch.harp/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@punchharp"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@punch.harp"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "5-punch-harmonica-ensemble",
+      "latestUpdateAt": "2026-08-23T05:05:44+00:00",
+      "latestUpdateLocal": "2026-08-23 13:05",
+      "latestUpdateSource": "胖擊口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/stories/punch.harp/3969837629738807001/",
+      "avatarUrl": "/assets/source-avatars/3b718f1f575e048cdfa7.webp",
+      "sourceInitials": "胖擊",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Punch.Harp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "punch.harp",
+          "profileUrl": "https://www.instagram.com/punch.harp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "punch.harp",
+          "profileUrl": "https://www.instagram.com/punch.harp/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/punch.harp/story/0"
+        },
+        {
+          "id": "threads_punch_harp",
+          "name": "胖擊口琴樂團",
+          "platform": "threads",
+          "type": "rss",
+          "username": "punch.harp",
+          "profileUrl": "https://www.threads.net/@punch.harp",
+          "feedUrl": "https://rss.observe.tw/threads/punch.harp"
+        },
+        {
+          "id": "yt_punchharp",
+          "name": "胖擊口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@punchharp",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-195",
+      "publicId": "195",
+      "name": "彰女微光口琴社",
+      "nameEn": "CHGSH Harmonica",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/彰化",
+      "cityOrFocus": "彰化女中/學校社團/彰化",
+      "structuredSummary": "彰化女中/學校社團/彰化 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "彰女微光口琴社 CHGSH Harmonica 口琴社",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chgsh_harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "195-chgsh-harmonica",
+      "latestUpdateAt": "2026-08-23T03:00:05+00:00",
+      "latestUpdateLocal": "2026-08-23 11:00",
+      "latestUpdateSource": "彰女微光口琴社",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcXeRcqoEj2/",
+      "avatarUrl": "/assets/source-avatars/5f8970c22acc29a1e57c.webp",
+      "sourceInitials": "彰女",
+      "sourceTags": [
+        "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_chgsh_harmonica",
+          "name": "CHGSH Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chgsh_harmonica",
+          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chgsh_harmonica",
+          "name": "彰女微光口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chgsh_harmonica",
+          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chgsh_harmonica/story/0"
         }
       ]
     },
@@ -739,59 +1092,6 @@
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-12",
-      "publicId": "12",
-      "name": "臺灣口琴樂團",
-      "nameEn": "Taiwan Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "1998成立/THE-22/合奏/公開演出/指定曲出版",
-      "structuredSummary": "1998成立/THE-22/合奏/公開演出/指定曲出版 / 口琴合奏 / 演出團體",
-      "summary": "臺灣的口琴合奏演出團體，活動脈絡包含1998成立、THE-22與合奏。",
-      "keywords": "臺灣口琴樂團 Taiwan Harmonica Ensemble THE-22 廖訓禎",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "12",
-      "latestUpdateAt": "2026-08-22T19:24:41.950957+00:00",
-      "latestUpdateLocal": "2026-08-23 03:24",
-      "latestUpdateSource": "臺灣口琴樂團",
-      "latestUpdateUrl": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
-      "avatarUrl": "/assets/source-avatars/c1b9a8d6df3e79573ba0.webp",
-      "sourceInitials": "臺灣",
-      "sourceTags": [
-        "團體樂團"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_ntubluesound",
-          "name": "NTU Blue Sound Harmonica Club",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "ntubluesound",
-          "profileUrl": "https://www.instagram.com/ntubluesound/",
-          "feedUrl": ""
-        },
-        {
-          "id": "web_12",
-          "name": "臺灣口琴樂團",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
           "feedUrl": ""
         }
       ]
@@ -1839,108 +2139,6 @@
           "username": "into_be_om",
           "profileUrl": "https://www.instagram.com/into_be_om/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/into_be_om/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-58",
-      "publicId": "58",
-      "name": "南里沙",
-      "nameEn": "Minami Risa",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流/2026 琴韻東坡・簧鳴西南",
-      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流/2026 琴韻東坡・簧鳴西南 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
-      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ 琴韻東坡 簧鳴西南 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://minamirisa.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/minamirisa/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/minami_risa/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@minamirisa"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/minami_risa"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@minami_risa"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "58-minami-risa",
-      "latestUpdateAt": "2026-08-22T12:17:36+00:00",
-      "latestUpdateLocal": "2026-08-22 20:17",
-      "latestUpdateSource": "南里沙",
-      "latestUpdateUrl": "https://www.instagram.com/stories/minami_risa/3969330219772675702/",
-      "avatarUrl": "/assets/source-avatars/95005878a1f2ba951855.webp",
-      "sourceInitials": "南里",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_minamirisa",
-          "name": "南里沙",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/minamirisa",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
-        },
-        {
-          "id": "x_minami_risa",
-          "name": "南里沙",
-          "platform": "x",
-          "type": "rss",
-          "username": "minami_risa",
-          "profileUrl": "https://x.com/minami_risa",
-          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
-        },
-        {
-          "id": "yt_minamirisa",
-          "name": "南里沙",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@minamirisa",
-          "feedUrl": ""
         }
       ]
     },
@@ -3711,59 +3909,6 @@
       ]
     },
     {
-      "id": "watchlist-195",
-      "publicId": "195",
-      "name": "彰女微光口琴社",
-      "nameEn": "CHGSH Harmonica",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/彰化",
-      "cityOrFocus": "彰化女中/學校社團/彰化",
-      "structuredSummary": "彰化女中/學校社團/彰化 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "彰女微光口琴社 CHGSH Harmonica 口琴社",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/chgsh_harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "195-chgsh-harmonica",
-      "latestUpdateAt": "2026-08-22T03:00:18+00:00",
-      "latestUpdateLocal": "2026-08-22 11:00",
-      "latestUpdateSource": "彰女微光口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/stories/chgsh_harmonica/3969049716352416312/",
-      "avatarUrl": "/assets/source-avatars/5f8970c22acc29a1e57c.webp",
-      "sourceInitials": "彰女",
-      "sourceTags": [
-        "學生社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_chgsh_harmonica",
-          "name": "CHGSH Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "chgsh_harmonica",
-          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_chgsh_harmonica",
-          "name": "彰女微光口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "chgsh_harmonica",
-          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chgsh_harmonica/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-118",
       "publicId": "118",
       "name": "Federico Linari",
@@ -5076,105 +5221,6 @@
           "username": "l.p.ning.0404",
           "profileUrl": "https://www.instagram.com/l.p.ning.0404/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/l.p.ning.0404/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-5",
-      "publicId": "5",
-      "name": "胖擊口琴樂團",
-      "nameEn": "Punch Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴重奏/2016成立/五人編制/SIHF三重奏與重奏冠軍/2025 WHF三重奏與小合奏亞軍/THMF與SIHF 2026",
-      "structuredSummary": "口琴重奏/2016成立/五人編制/SIHF三重奏與重奏冠軍/2025 WHF三重奏與小合奏亞軍/THMF與SIHF 2026 / 半音階口琴/和弦口琴/倍低音口琴 / 國際演出團體/音樂教育推廣",
-      "summary": "臺灣的半音階口琴、和弦口琴與倍低音口琴國際演出團體與音樂教育推廣，活動脈絡包含口琴重奏、2016成立與五人編制。",
-      "keywords": "Punch Harmonica Ensemble 胖擊口琴樂團 THMF SIHF 2026 WHF 2025 黃冠誌 王衍華 林裕豐 王心禾 陳聰",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.taiwanharmonica.com/punch"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Punch.Harp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/punch.harp/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@punchharp"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@punch.harp"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "5-punch-harmonica-ensemble",
-      "latestUpdateAt": "2026-08-21T12:37:55+00:00",
-      "latestUpdateLocal": "2026-08-21 20:37",
-      "latestUpdateSource": "胖擊口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/punch.harp/3968615667419017279/",
-      "avatarUrl": "/assets/source-avatars/3b718f1f575e048cdfa7.webp",
-      "sourceInitials": "胖擊",
-      "sourceTags": [
-        "團體樂團",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Punch.Harp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "punch.harp",
-          "profileUrl": "https://www.instagram.com/punch.harp/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "punch.harp",
-          "profileUrl": "https://www.instagram.com/punch.harp/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/punch.harp/story/0"
-        },
-        {
-          "id": "threads_punch_harp",
-          "name": "胖擊口琴樂團",
-          "platform": "threads",
-          "type": "rss",
-          "username": "punch.harp",
-          "profileUrl": "https://www.threads.net/@punch.harp",
-          "feedUrl": "https://rss.observe.tw/threads/punch.harp"
-        },
-        {
-          "id": "yt_punchharp",
-          "name": "胖擊口琴樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@punchharp",
-          "feedUrl": ""
         }
       ]
     },
@@ -19996,52 +20042,6 @@
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://ceeo.tufts.edu/people/staff/leon-li",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-293",
-      "publicId": "293",
-      "name": "Michał Kielak",
-      "nameEn": "Michal Kielak",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "波蘭",
-      "region": "波蘭",
-      "cityOrFocus": "藍調口琴/錄音與巡演/2024 波蘭年度口琴手/APHF 2026",
-      "structuredSummary": "藍調口琴/錄音與巡演/2024 波蘭年度口琴手/APHF 2026 / 十孔口琴 / 國際演出人員/錄音樂手",
-      "summary": "波蘭的十孔口琴國際演出人員與錄音樂手，活動脈絡包含藍調口琴、錄音與巡演與2024 波蘭年度口琴手。",
-      "keywords": "Michal Kielak Michał Kielak Poland harmonica harp player APHF 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://kielak.pl/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "293-michal-kielak",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/michal-kielak.jpg",
-      "sourceInitials": "MK",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_293",
-          "name": "Michał Kielak",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://kielak.pl/",
           "feedUrl": ""
         }
       ]

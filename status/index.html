@@ -59,10 +59,10 @@
           </div>
           <div class="feed-page-summary status-summary-panel">
             <div class="status-summary-line">
-              <span class="status-badge status-ok">正常</span>
-              <strong>核心資料抓取與公開 API 正常。 Instagram RSSHub、Facebook Apify 目前依排程或預算節流。</strong>
+              <span class="status-badge status-degraded">部分異常</span>
+              <strong>核心 pipeline 有產出；需要注意：Instagram RSSHub、X / Twitter RSS、YouTube yt-dlp、Threads / 其他 RSS。</strong>
             </div>
-            <p>快照時間 2026-08-23T08:15:56+08:00</p>
+            <p>快照時間 2026-08-23T18:19:19+08:00</p>
             <div class="feed-links">
               <a href="/api/status.json">Status JSON</a>
               <a href="/api/latest.json">Latest API</a>
@@ -79,13 +79,13 @@
               <p class="section-kicker">Snapshot</p>
               <h2 id="status-overview-title">目前快照</h2>
             </div>
-            <p class="data-date">資料時間 2026-08-23T08:15:34+08:00</p>
+            <p class="data-date">資料時間 2026-08-23T18:18:58+08:00</p>
           </div>
           <div class="status-metric-grid">
 
       <article class="status-metric-card">
         <span>公開更新</span>
-        <strong>3978</strong>
+        <strong>3921</strong>
         <p>最近 30 天</p>
       </article>
 
@@ -106,7 +106,7 @@
 
       <article class="status-metric-card">
         <span>目前錯誤</span>
-        <strong></strong>
+        <strong>26</strong>
         <p>最新抓取批次</p>
       </article>
 
@@ -121,7 +121,7 @@
               <p class="section-kicker">Collectors</p>
               <h2 id="status-components-title">元件狀態</h2>
             </div>
-            <p class="data-date">最新社群觀測 2026-08-23T08:14:49+08:00</p>
+            <p class="data-date">最新社群觀測 2026-08-23T18:18:27+08:00</p>
           </div>
           <div class="status-component-grid">
 
@@ -131,7 +131,7 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>定期 pipeline 已產生公開資料快照。</p>
-        <ul class="status-detail-list"><li>最新公開資料：2026-08-23 08:15:34</li><li>pipeline.log 更新：2026-07-12 02:58:29</li><li>pipeline.err.log 更新：2026-07-11 14:33:03</li><li>LaunchAgent：running，last exit 0</li></ul>
+        <ul class="status-detail-list"><li>最新公開資料：2026-08-23 18:18:58</li><li>pipeline.log 更新：2026-07-12 02:58:29</li><li>pipeline.err.log 更新：2026-07-11 14:33:03</li><li>LaunchAgent：running，last exit None</li></ul>
       </article>
 
 
@@ -140,7 +140,7 @@
           <h2>公開 API</h2>
           <span class="status-badge status-ok">正常</span>
         </div>
-        <p>latest.json 有 3978 筆更新，sources.json 有 318 筆公開目錄。</p>
+        <p>latest.json 有 3921 筆更新，sources.json 有 318 筆公開目錄。</p>
         <ul class="status-detail-list"><li>更新視窗：30 天</li><li>watch sources：785</li></ul>
       </article>
 
@@ -151,56 +151,56 @@
           <span class="status-badge status-ok">正常</span>
         </div>
         <p>本機 RSSHub 入口回 200。</p>
-        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：305 ms</li></ul>
+        <ul class="status-detail-list"><li>HTTP：200</li><li>耗時：47 ms</li></ul>
       </article>
 
 
-      <article class="status-component-card status-card-paused">
+      <article class="status-component-card status-card-degraded">
         <div class="status-component-head">
           <h2>Instagram RSSHub</h2>
-          <span class="status-badge status-paused">節流中</span>
+          <span class="status-badge status-degraded">部分異常</span>
         </div>
-        <p>354 個 Instagram 來源（profile 177、story 177）；最新抓取批次目前 0 個錯誤。</p>
-        <ul class="status-detail-list"><li>最新社群觀測：2026-08-23 08:14:49</li><li>story 無公開內容/空路由略過：0</li><li>IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。</li><li>本輪 IG：抓取 16、排程略過 338、延後 0、錯誤 0。</li><li>下一個 IG 來源：約 2026-08-23 08:22:15</li></ul>
+        <p>354 個 Instagram 來源（profile 177、story 177）；最新抓取批次目前 11 個錯誤。</p>
+        <ul class="status-detail-list"><li>最新社群觀測：2026-08-23 18:18:27</li><li>story 無公開內容/空路由略過：3</li><li>IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。</li><li>本輪 IG：抓取 40、排程略過 80、延後 234、錯誤 12。</li><li>下一個 IG 來源：約 2026-08-23 18:19:34</li></ul>
       </article>
 
 
-      <article class="status-component-card status-card-ok">
+      <article class="status-component-card status-card-degraded">
         <div class="status-component-head">
           <h2>X / Twitter RSS</h2>
-          <span class="status-badge status-ok">正常</span>
+          <span class="status-badge status-degraded">部分異常</span>
         </div>
-        <p>12 個 X 來源；最新抓取批次目前 0 個錯誤。</p>
+        <p>12 個 X 來源；最新抓取批次目前 1 個錯誤。</p>
         <ul class="status-detail-list"><li>目前 route 依 RSSHub 設定抓取。</li><li>若持續 503，通常要檢查 RSSHub 的 Twitter API 設定。</li></ul>
       </article>
 
 
-      <article class="status-component-card status-card-paused">
+      <article class="status-component-card status-card-ok">
         <div class="status-component-head">
           <h2>Facebook Apify</h2>
-          <span class="status-badge status-paused">節流中</span>
+          <span class="status-badge status-ok">正常</span>
         </div>
-        <p>163 個 Facebook 來源。 目前依預算 pacing 暫停開 run，等待 due 來源累積。</p>
-        <ul class="status-detail-list"><li>最近成功 run：2026-08-22 10:18:43</li><li>最近新增 inbox：1</li><li>due sources：1</li><li>selected this check：0</li><li>min sources per run：8</li><li>遠端月額度剩餘：$2.64</li><li>規劃單次預算：$0.12</li></ul>
+        <p>163 個 Facebook 來源。 Apify token/quota check 正常。</p>
+        <ul class="status-detail-list"><li>最近成功 run：2026-08-22 10:18:43</li><li>最近新增 inbox：1</li><li>due sources：39</li><li>selected this check：22</li><li>min sources per run：8</li><li>遠端月額度剩餘：$2.64</li><li>規劃單次預算：$0.12</li></ul>
       </article>
 
 
-      <article class="status-component-card status-card-ok">
+      <article class="status-component-card status-card-degraded">
         <div class="status-component-head">
           <h2>YouTube yt-dlp</h2>
-          <span class="status-badge status-ok">正常</span>
+          <span class="status-badge status-degraded">部分異常</span>
         </div>
-        <p>140 個 YouTube 來源；最近 run error_count=0。</p>
-        <ul class="status-detail-list"><li>最近完成：2026-08-23 08:10:14</li><li>最近新增 inbox：0</li></ul>
+        <p>140 個 YouTube 來源；最近 run error_count=5。</p>
+        <ul class="status-detail-list"><li>最近完成：2026-08-23 17:58:31</li><li>最近新增 inbox：0</li></ul>
       </article>
 
 
-      <article class="status-component-card status-card-ok">
+      <article class="status-component-card status-card-degraded">
         <div class="status-component-head">
           <h2>Threads / 其他 RSS</h2>
-          <span class="status-badge status-ok">正常</span>
+          <span class="status-badge status-degraded">部分異常</span>
         </div>
-        <p>28 個 Threads 來源；其他 RSS 最新抓取批次目前 0 個錯誤。</p>
+        <p>28 個 Threads 來源；其他 RSS 最新抓取批次目前 14 個錯誤。</p>
         <ul class="status-detail-list"><li>RSS 類型來源：40</li></ul>
       </article>
 
@@ -237,32 +237,32 @@
             <tr>
               <th scope="row">instagram</th>
               <td>354</td>
-              <td></td>
-              <td><span class="status-badge status-ok">正常</span></td>
+              <td>11</td>
+              <td><span class="status-badge status-degraded">部分異常</span></td>
             </tr>
 
 
             <tr>
               <th scope="row">threads</th>
               <td>28</td>
-              <td></td>
-              <td><span class="status-badge status-ok">正常</span></td>
+              <td>1</td>
+              <td><span class="status-badge status-degraded">部分異常</span></td>
             </tr>
 
 
             <tr>
               <th scope="row">website</th>
               <td>88</td>
-              <td></td>
-              <td><span class="status-badge status-ok">正常</span></td>
+              <td>13</td>
+              <td><span class="status-badge status-degraded">部分異常</span></td>
             </tr>
 
 
             <tr>
               <th scope="row">x</th>
               <td>12</td>
-              <td></td>
-              <td><span class="status-badge status-ok">正常</span></td>
+              <td>1</td>
+              <td><span class="status-badge status-degraded">部分異常</span></td>
             </tr>
 
 
@@ -289,7 +289,186 @@
             <p class="data-date">最多顯示 20 筆</p>
           </div>
           <div class="status-error-list">
-            <div class="empty-state">最新抓取批次沒有記錄中的錯誤。</div>
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-08-23T18:18:27+08:00 · instagram</span>
+                <strong>CHGSH Harmonica</strong>
+              </div>
+              <p>ig_chgsh_harmonica:https://www.instagram.com/p/DcXeRcqoEj2/: LLM classification failed: LLM curl exited 22: { &quot;error&quot;: { &quot;message&quot;: &quot;You have no credits remaining. Add credits to continue using the API at https://platfor</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-08-23T18:18:27+08:00 · instagram</span>
+                <strong>CSMU Blue Melody</strong>
+              </div>
+              <p>&lt;urlopen error [Errno 8] nodename nor servname provided, or not known&gt;</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-08-23T18:18:27+08:00 · instagram</span>
+                <strong>HSNU Cozy Harmonica</strong>
+              </div>
+              <p>&lt;urlopen error [Errno 8] nodename nor servname provided, or not known&gt;</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-08-23T18:18:27+08:00 · instagram</span>
+                <strong>TCFSH Harmonica</strong>
+              </div>
+              <p>&lt;urlopen error [Errno 8] nodename nor servname provided, or not known&gt;</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-08-23T18:18:27+08:00 · instagram</span>
+                <strong>胖擊口琴樂團</strong>
+              </div>
+              <p>ig_story_punch_harp:3969837629738807001_49838824564: LLM classification failed: LLM curl exited 22: { &quot;error&quot;: { &quot;message&quot;: &quot;You have no credits remaining. Add credits to continue using the API at https://platform.openai</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-08-23T18:18:27+08:00 · threads</span>
+                <strong>曹小歐</strong>
+              </div>
+              <p>threads_otistsao:https://www.threads.com/t/DcX0JRvEy8O: LLM classification failed: LLM curl exited 22: { &quot;error&quot;: { &quot;message&quot;: &quot;You have no credits remaining. Add credits to continue using the API at https://platform.ope</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-08-23T18:18:27+08:00 · website</span>
+                <strong>Crossover Harmonica Ensemble</strong>
+              </div>
+              <p>web_134:80126f5c0bfd568a6d5f7ad734b4e7885b7902cc389c2b7f6c4e4d066b3adde1: LLM classification failed: LLM curl exited 22: { &quot;error&quot;: { &quot;message&quot;: &quot;You have no credits remaining. Add credits to continue using the API at ht</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-08-23T18:18:27+08:00 · website</span>
+                <strong>Michał Kielak</strong>
+              </div>
+              <p>web_293:c15658919b238a8a41b06c2ada33025230a9de3d7da711e3ebb062dfa4c70ef4: LLM classification failed: LLM curl exited 22: { &quot;error&quot;: { &quot;message&quot;: &quot;You have no credits remaining. Add credits to continue using the API at ht</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-08-23T18:18:27+08:00 · website</span>
+                <strong>Project X</strong>
+              </div>
+              <p>web_136:80126f5c0bfd568a6d5f7ad734b4e7885b7902cc389c2b7f6c4e4d066b3adde1: LLM classification failed: LLM curl exited 22: { &quot;error&quot;: { &quot;message&quot;: &quot;You have no credits remaining. Add credits to continue using the API at ht</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-08-23T18:18:27+08:00 · website</span>
+                <strong>「琴溯伏羲・律動天水」口琴藝術展演</strong>
+              </div>
+              <p>web_244:0539adf984e3301e50b2b00b7f1f930c7ee69af747a87da2e65e5058c8e985f8: LLM classification failed: LLM curl exited 22: { &quot;error&quot;: { &quot;message&quot;: &quot;You have no credits remaining. Add credits to continue using the API at ht</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-08-23T18:18:27+08:00 · website</span>
+                <strong>「琴韻東坡・簧鳴西南」口琴藝術展演</strong>
+              </div>
+              <p>web_245:f8a8addb69a38451255ca463af52049e37e5ce5628da282e95e05a3b189c4a81: LLM classification failed: LLM curl exited 22: { &quot;error&quot;: { &quot;message&quot;: &quot;You have no credits remaining. Add credits to continue using the API at ht</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-08-23T18:18:27+08:00 · website</span>
+                <strong>基隆社區大學就是吹口琴</strong>
+              </div>
+              <p>web_299:a24a82f431371d906789b6ee0224c45491344e7fe4c0a27b4918afcc095f3ef7: LLM classification failed: LLM curl exited 22: { &quot;error&quot;: { &quot;message&quot;: &quot;You have no credits remaining. Add credits to continue using the API at ht</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-08-23T18:18:27+08:00 · website</span>
+                <strong>太平國小口琴隊</strong>
+              </div>
+              <p>web_316:e3ffe1ce1cac224162ea428b7c7c55fbe9efc1e84bb678f0ae564945242753b0: LLM classification failed: LLM curl exited 22: { &quot;error&quot;: { &quot;message&quot;: &quot;You have no credits remaining. Add credits to continue using the API at ht</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-08-23T18:18:27+08:00 · website</span>
+                <strong>濟南大眾口琴樂團</strong>
+              </div>
+              <p>web_253:1204f2deb27b686a235cc37d6f67e4c65528a49dd495774923fcaf33e7821f31: LLM classification failed: LLM curl exited 22: { &quot;error&quot;: { &quot;message&quot;: &quot;You have no credits remaining. Add credits to continue using the API at ht</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-08-23T18:18:27+08:00 · website</span>
+                <strong>第二屆「敦煌杯」線上口琴大賽</strong>
+              </div>
+              <p>web_243:9c26c75291ee0e742250f7ec7961fe220546a86be71a6ec53cdc4d817a140e27: LLM classification failed: LLM curl exited 22: { &quot;error&quot;: { &quot;message&quot;: &quot;You have no credits remaining. Add credits to continue using the API at ht</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-08-23T18:18:27+08:00 · website</span>
+                <strong>第五屆華夏（寧德）口琴藝術周</strong>
+              </div>
+              <p>web_241:de26d5cd8d9efeb3224f5842cc6a9a46a205d5f80eaf170e9478356e6938b1cb: LLM classification failed: LLM curl exited 22: { &quot;error&quot;: { &quot;message&quot;: &quot;You have no credits remaining. Add credits to continue using the API at ht</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-08-23T18:18:27+08:00 · website</span>
+                <strong>第十五屆亞太口琴藝術週</strong>
+              </div>
+              <p>web_167:611000afbfec481f8b6c05e09f8d96d5c61402a9ac95413fcc70e7ba0953cbc7: LLM classification failed: LLM curl exited 22: { &quot;error&quot;: { &quot;message&quot;: &quot;You have no credits remaining. Add credits to continue using the API at ht</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-08-23T18:18:27+08:00 · website</span>
+                <strong>臺灣口琴樂團</strong>
+              </div>
+              <p>web_12:e5eaedabcdd12fb0f44c7fa8b07c07e19ed761108aa268a702b9e8f783e8a38d: LLM classification failed: LLM curl exited 22: { &quot;error&quot;: { &quot;message&quot;: &quot;You have no credits remaining. Add credits to continue using the API at htt</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-08-23T18:18:27+08:00 · website</span>
+                <strong>鄭州大眾口琴樂團</strong>
+              </div>
+              <p>web_254:e9c0e1dfbfedd1bdf9dbfc66706d0f2e0d2a57c9e3272750bb3308e4f5fdad2d: LLM classification failed: LLM curl exited 22: { &quot;error&quot;: { &quot;message&quot;: &quot;You have no credits remaining. Add credits to continue using the API at ht</p>
+            </article>
+
+
+            <article class="status-error-item">
+              <div>
+                <span class="feed-latest-meta">2026-08-23T18:18:27+08:00 · x</span>
+                <strong>南里沙</strong>
+              </div>
+              <p>x_minami_risa:https://twitter.com/minami_risa/status/2091393510914277552: LLM classification failed: LLM curl exited 22: { &quot;error&quot;: { &quot;message&quot;: &quot;You have no credits remaining. Add credits to continue using the API at ht</p>
+            </article>
+
           </div>
         </div>
       </section>

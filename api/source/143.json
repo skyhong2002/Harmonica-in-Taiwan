@@ -1,26 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T00:15:34.445799Z",
+  "generatedAt": "2026-08-23T10:18:58.728623Z",
   "source": {
     "id": 143,
     "slug": "brendan-power",
     "name": "Brendan Power",
     "pageUrl": "https://harmonica.observe.tw/source/143-brendan-power/"
   },
-  "items": [
-    {
-      "id": "post-1b74be7ca9749dbd1dbc982f",
-      "title": "BIG CUSTOM MODULAR-REED HARMONICA",
-      "excerpt": "BIG CUSTOM MODULAR-REED HARMONICA",
-      "url": "https://www.facebook.com/BrendanPowerMusic/posts/pfbid034BwDZMsZmQ4CvjTAVwiSWMcxNibQ8uwPqdatEaGpEGvL536esxYDELrdxChDoiX5l",
-      "sourceName": "Brendan Power",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-24T07:57:35Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/cd90ec58b808ed1b16ef.webp",
-        "width": 540,
-        "height": 960
-      }
-    }
-  ]
+  "items": []
 }

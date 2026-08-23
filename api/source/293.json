@@ -1,11 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T00:15:34.445799Z",
+  "generatedAt": "2026-08-23T10:18:58.728623Z",
   "source": {
     "id": 293,
     "slug": "michal-kielak",
     "name": "Michał Kielak",
     "pageUrl": "https://harmonica.observe.tw/source/293-michal-kielak/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-cd556f0424576c284658aac1",
+      "title": "MICHAŁ KIELAK - Harmonijkarz Roku 2024/ Harp Player of the year 2024/ 2024年度口琴演奏家",
+      "excerpt": "MICHAŁ KIELAK - Harmonijkarz Roku 2024/ Harp Player of the year 2024/ 2024年度口琴演奏家 MICHAŁ KIELAK Harmonijkarz Roku 2024/ Harp Player of the year 2024/ 2024年度口琴演奏家 Menu główne Strona główna / Main Page / 主頁 Discography / Dyskografia / 唱片 Gigs / Koncerty / 音樂會 gigs archive / archiw…",
+      "url": "https://kielak.pl/",
+      "sourceName": "Michał Kielak",
+      "platform": "website",
+      "publishedAt": "2026-08-23T10:17:45.272442Z"
+    }
+  ]
 }

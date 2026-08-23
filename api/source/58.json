@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T00:15:34.445799Z",
+  "generatedAt": "2026-08-23T10:18:58.728623Z",
   "source": {
     "id": 58,
     "slug": "minami-risa",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/58-minami-risa/"
   },
   "items": [
+    {
+      "id": "post-7fd3b83dd89ecc7d602a3e20",
+      "title": "プチプチコンサート | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Po... ...",
+      "excerpt": "プチプチコンサート | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Po... ... プチプチコンサート | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Po... #Amebaブログ #アメブロ #南里沙 #クロマチックハーモニカ",
+      "url": "https://x.com/minami_risa/status/2091393510914277552",
+      "sourceName": "南里沙",
+      "platform": "X",
+      "publishedAt": "2026-08-23T05:14:03Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9201395d396614b9140c.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-d17abbf99c980bbabd0ae676",
       "title": "旧Super64X 限定300本発売 プレミアム・プレビュー・ミーティング | クロマチックハーモニカ 南里沙オフィシャルブログ...",
@@ -639,20 +653,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/40d4268e3a6068903404.webp",
         "width": 800,
         "height": 600
-      }
-    },
-    {
-      "id": "post-921535df13e8d215bb29b1fd",
-      "title": "クロマチックハーモニカ ソロ 少年の部 | クロマチックハーモニカ 南里沙オフィシャルブログ「南... ...",
-      "excerpt": "クロマチックハーモニカ ソロ 少年の部 | クロマチックハーモニカ 南里沙オフィシャルブログ「南... ... クロマチックハーモニカ ソロ 少年の部 | クロマチックハーモニカ 南里沙オフィシャルブログ「南... #Amebaブログ #アメブロ #南里沙 #クロマチックハーモニカ",
-      "url": "https://x.com/minami_risa/status/2080574368728682860",
-      "sourceName": "南里沙",
-      "platform": "X",
-      "publishedAt": "2026-07-24T08:42:39Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/a1374c9ff1e0f516ddfe.webp",
-        "width": 800,
-        "height": 1068
       }
     }
   ]
