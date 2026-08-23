@@ -61,7 +61,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/107-konstantin-reinfeld/</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/125-jens-bunge/</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/65-jong-seong-park/</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/101-ho-kah-kean-harmonikahkean/</loc>
     <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -145,7 +163,31 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/140-gregoire-maret/</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/12/</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/139-lee-oskar/</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/147-yoonseok-lee/</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/100-otis-tsao/</loc>
     <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -164,6 +206,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/54-cy-leo/</loc>
+    <lastmod>2026-08-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/166-the-hummingway-harmonica-ensemble/</loc>
     <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -199,7 +247,19 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/107-konstantin-reinfeld/</loc>
+    <loc>https://harmonica.observe.tw/source/153-santiago-alvarez/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/142-howard-levy/</loc>
+    <lastmod>2026-08-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/132-antonio-serrano/</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -271,25 +331,19 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/140-gregoire-maret/</loc>
-    <lastmod>2026-08-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/80/</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/100-otis-tsao/</loc>
+    <loc>https://harmonica.observe.tw/source/307-seokbeom-jang/</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/307-seokbeom-jang/</loc>
+    <loc>https://harmonica.observe.tw/source/145-joe-marhofer/</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -355,12 +409,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/101-ho-kah-kean-harmonikahkean/</loc>
-    <lastmod>2026-08-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/187-csmu-blue-melody/</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -409,12 +457,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/132-antonio-serrano/</loc>
-    <lastmod>2026-08-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/108-rodrigo-eberienos/</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
@@ -445,25 +487,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/153-santiago-alvarez/</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/122-perfect-fourth/</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/125-jens-bunge/</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/139-lee-oskar/</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -565,12 +589,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/166-the-hummingway-harmonica-ensemble/</loc>
-    <lastmod>2026-08-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/174-yellow-pine-harmonica-festival/</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -590,12 +608,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/109-boris-plotnikov/</loc>
-    <lastmod>2026-08-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/142-howard-levy/</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -638,18 +650,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/55-kelvin-leung/</loc>
-    <lastmod>2026-08-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/147-yoonseok-lee/</loc>
-    <lastmod>2026-08-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/145-joe-marhofer/</loc>
     <lastmod>2026-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

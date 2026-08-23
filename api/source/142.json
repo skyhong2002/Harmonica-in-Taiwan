@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T11:01:57.307011Z",
+  "generatedAt": "2026-08-23T11:44:53.720088Z",
   "source": {
     "id": 142,
     "slug": "howard-levy",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/142-howard-levy/"
   },
   "items": [
+    {
+      "id": "post-f79da398f8572ddea32f658c",
+      "title": "I’ve played the diatonic harmonica for most of my life, and I’m still looking for ways to push it somewhere it hasn’t b…",
+      "excerpt": "I’ve played the diatonic harmonica for most of my life, and I’m still looking for ways to push it somewhere it hasn’t been before. “Niccolò’s Notion” came from my longtime fascination with Paganini’s Moto Perpetuo. I wanted to find out whether that same idea of relentless, conti…",
+      "url": "https://www.instagram.com/p/DcXDGvZJzIz/",
+      "sourceName": "Howard Levy",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-22T23:07:16Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a7d5fec76c1e86a95b51.webp",
+        "width": 800,
+        "height": 1422
+      }
+    },
     {
       "id": "post-ec5b5f9bf8a453f6ef58ba5a",
       "title": "Jesse Fuller | Music Legends You Should Know",

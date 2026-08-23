@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 723,
+  "count": 725,
   "items": [
     {
       "title": "太平國小口琴隊｜臺中市政府教育局-校園活動報導 --> 跳到主要內容區 臺中市政府教育局 回首頁 市府首頁 網站導覽 常見問答 快速連結 English 教育服務網 A- A A+ 搜尋 單位介紹 首長介紹 組織與職掌 各級學校 局徽介紹…",
@@ -212,6 +212,75 @@
         "公開活動"
       ],
       "key": "web_293:c15658919b238a8a41b06c2ada33025230a9de3d7da711e3ebb062dfa4c70ef4"
+    },
+    {
+      "title": "海明威口琴重奏團｜因為口琴，我們相遇。 因為音樂，我們成為朋友。 這十年裡的陪伴，我們有著數不清的故事。 《拾光琴緣》不只是十週年音樂會，也是屬於我們這十年的回憶。 這一次，來聽聽我們的 【快問快答】 —— 從「第一次認識彼此」開始，聊聊…",
+      "headline": "因為口琴，我們相遇。 因為音樂，我們成為朋友。 這十年裡的陪伴，我們有著數不清的故事。",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/reel/1038892572244257/",
+      "source_id": "fb_thehummingway",
+      "source": "海明威口琴重奏團",
+      "source_system_name": "海明威口琴重奏團",
+      "source_profile_url": "https://facebook.com/TheHummingWay",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "directory_entry_id": "watchlist-166",
+      "directory_entry_name": "海明威口琴重奏團",
+      "account": "TheHummingWay",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-08-23T03:32:27.000Z",
+      "posted_at_local": "2026-08-23 11:32",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-23T11:44:13.522357+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "音樂會"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "音樂會"
+      ],
+      "llm_relevant": null,
+      "llm_confidence": null,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "",
+      "text": "因為口琴，我們相遇。 因為音樂，我們成為朋友。 這十年裡的陪伴，我們有著數不清的故事。\n《拾光琴緣》不只是十週年音樂會，也是屬於我們這十年的回憶。\n這一次，來聽聽我們的 【快問快答】 —— 從「第一次認識彼此」開始，聊聊那些因為口琴而發生的故事。🎶\nhttps://www.facebook.com/reel/1038892572244257/",
+      "images": [
+        "https://scontent-iad6-1.xx.fbcdn.net/v/t51.82787-10/783351952_18333266812286000_5641178925012753261_n.jpg?stp=dst-jpg_tt6&cstp=mx990x1752&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=2B6nAjDusRkQ7kNvwEDQ9XP&_nc_oc=AdqAMb0Ncy1IZu6k86_vwnu9J_Ba21P6at6qCeusTF58p30RgYd5Pe7PYVZA5kfdPLeQA_7MoLCqJ8dej9or_wgg&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=k5SOoUCxqsRq-UBMjclncg&_nc_ss=72289&oh=00_AQE-RcEcpheUv4giilKnjy2rPhDYYWUyqNRa5NQE-Wb9aQ&oe=6A9091CA"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-iad6-1.xx.fbcdn.net/v/t51.82787-10/783351952_18333266812286000_5641178925012753261_n.jpg?stp=dst-jpg_tt6&cstp=mx990x1752&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=2B6nAjDusRkQ7kNvwEDQ9XP&_nc_oc=AdqAMb0Ncy1IZu6k86_vwnu9J_Ba21P6at6qCeusTF58p30RgYd5Pe7PYVZA5kfdPLeQA_7MoLCqJ8dej9or_wgg&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=k5SOoUCxqsRq-UBMjclncg&_nc_ss=72289&oh=00_AQE-RcEcpheUv4giilKnjy2rPhDYYWUyqNRa5NQE-Wb9aQ&oe=6A9091CA",
+      "image_url": "/assets/feed-images/7326792d58b37c1e98aa.webp",
+      "image_width": 542,
+      "image_height": 960,
+      "source_avatar_url": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-1/305928565_607756550758406_5795762418025738802_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx865x856&ctp=s50x50&_nc_cat=111&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=vJL4x1oWYhAQ7kNvwGxRV15&_nc_oc=Adq8e1JORNe-woODTh3CEN1bXiU9VFyxnXZZ41UWUlZ_6s9RXCD_3Gh2HJ7BMZR5jPrtL107X88_gFLsXJP8UgXw&_nc_zt=24&_nc_ht=scontent-iad3-2.xx&_nc_gid=k5SOoUCxqsRq-UBMjclncg&_nc_ss=72289&oh=00_AQH7k0HdHSKqZwg816c9ZPr5vNOtsf7fwVmc_tYdHxDAPQ&oe=6A909266",
+      "avatar_url": "/assets/source-avatars/572ef4c70a503f4bf084.webp",
+      "source_initials": "海明",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "fb_thehummingway:1686632036204180"
     },
     {
       "title": "巴巴口琴坊｜因為口琴，我們相遇。 因為音樂，我們成為朋友。 這十年裡的陪伴，我們有著數不清的故事。 《拾光琴緣》不只是十週年音樂會，也是屬於我們這十年的回憶。 這一次，來聽聽我們的 【快問快答】 —— 從「第一次認識彼此」開始，聊聊那些因…",
@@ -419,6 +488,82 @@
         "公開活動"
       ],
       "key": "fb_dming_tsai:27531956659840440"
+    },
+    {
+      "title": "Ming-Hsien Tsai｜晚上音樂會後的零食大會是我最喜歡的環節，可以一次補足出國才能體驗到的各種美食，以及看大家驚訝的表情。 忙碌整天，卸下工作身份，好好地聊天，感謝各位一整天的辛勞：）",
+      "headline": "晚上音樂會後的零食大會是我最喜歡的環節，可以一次補足出國才能體驗到的各種美食，以及看大家驚訝的表情。",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DcXXaubEvBq/",
+      "source_id": "ig_damingtsai",
+      "source": "Ming-Hsien Tsai",
+      "source_system_name": "蔡明憲",
+      "source_profile_url": "https://www.instagram.com/damingtsai/",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-30",
+      "directory_entry_name": "蔡明憲",
+      "account": "damingtsai",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Sun, 23 Aug 2026 02:00:56 GMT",
+      "posted_at_local": "2026-08-23 10:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-23T11:44:13.522357+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/damingtsai",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "音樂會"
+      ],
+      "keyword_matches": [
+        "音樂會"
+      ],
+      "llm_relevant": null,
+      "llm_confidence": null,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "",
+      "text": "晚上音樂會後的零食大會是我最喜歡的環節，可以一次補足出國才能體驗到的各種美食，以及看大家驚訝的表情。\n忙碌整天，卸下工作身份，好好地聊天，感謝各位一整天的辛勞：）",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/781579011_18639969730001018_6159548655868433338_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzk2OTc0MzUwNjA0NjA3NjA1OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI0OS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=TCfv9SkylBkQ7kNvwFENkGh&_nc_oc=AdoqzkIRYH28-jopYND81lw_UlgrV0pzUwQ6k1LLhZ81NbwyvhFky_pQvEvw6ks0duo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=OOGUsmT5_wQzHSnXJwMyhg&_nc_ss=7a22e&oh=00_AQFwSTXKdsTOY2qJSYl4XRbN6JqDdljLa5pLclPG1CYrfw&oe=6A90AF82",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/781579011_18639969817001018_4658703925312645925_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzk2OTc0MzUxMzIyNjgyNjgyNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI0OS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=X5CRwBwiHyAQ7kNvwErM864&_nc_oc=Adr5DP3t80umqILCwrEPo4UE-yyTzRgkptp5hnLod-GOAKLh0Kj78XFnM_1xTjXDyxg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=OOGUsmT5_wQzHSnXJwMyhg&_nc_ss=7a22e&oh=00_AQHHZnhZpRT_UcfXmt-GokXqQmgihixbmxio95CpacDLJg&oe=6A90C089",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/782599030_18639969796001018_8357983271905576284_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=Mzk2OTc0MzUyMjkzMjMyNDM4OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI0OS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=FNeelNIzN3kQ7kNvwFvmDeb&_nc_oc=Ado_UBlLO2rTRC4UVXWU7kjP5kDdjKRzHc8D0rgbxVgf5Lrqib_HX2s1giqyXmjQ7WA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=OOGUsmT5_wQzHSnXJwMyhg&_nc_ss=7a22e&oh=00_AQG-KhTXaI5hrq25p2zTTkUg9Sq955f7ZAsEz24YHd7SkA&oe=6A90C665",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/782582087_18639969739001018_6782061090148423964_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=Mzk2OTc0MzUxMzMwMjE5ODkxNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI0OS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=HefNo9tvzmQQ7kNvwGSlNT-&_nc_oc=AdpDcoPd4xsvykBLXKnXyAcJOm8oEGS8n7oUGOQ78ai1WXpyj1yGfBoHS9_azo0Gjvg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=OOGUsmT5_wQzHSnXJwMyhg&_nc_ss=7a22e&oh=00_AQFk0kMycDdDlNawUG2i-xzJd1U4HkxQSEvaCdCvaVQhJg&oe=6A90A818",
+        "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-15/781630264_18639969784001018_750299275865720693_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&ig_cache_key=Mzk2OTc0MzUxNzQyOTMyNTI0Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI0OS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=oiTMyuGhG6YQ7kNvwHIvt3_&_nc_oc=AdqYOHVNJndza4HnkJtk3-GVXczuu9Fm8vbLHJtlaVcLuIhx1LHnQSCfQMILc3lRs_E&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=OOGUsmT5_wQzHSnXJwMyhg&_nc_ss=7a22e&oh=00_AQE7-G6GXp_zIu44hkAtnSketsj8QfDOxdZSY7tH7wdzAA&oe=6A909C13",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/781459575_18639969820001018_845036627905724158_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzk2OTc0MzUzODQ1OTYwMTIwMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI0OS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=j2CI9A6SeeEQ7kNvwGT1GAz&_nc_oc=Adqv6sS59LSNSWpJkyGSOzZU08k-pvvMVrDuJoITueRIsELVbkDftaP9RwlHhIPwHiI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=OOGUsmT5_wQzHSnXJwMyhg&_nc_ss=7a22e&oh=00_AQFjnbZtPmhm-AG7hrIILNmfB-C_JMniK2i7fGKTNj-CkQ&oe=6A909424",
+        "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-15/782056387_18639969769001018_6498305018951697943_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=110&ig_cache_key=Mzk2OTc0MzUyNzIxODgxNjM5OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI0OS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=OsQZkQreOwwQ7kNvwERodG4&_nc_oc=AdrdXrhAO38gEek0mmyLBTmwZehqH0orksKjzuOtYk8yQLHwGHpB2VtgDuND3Tzt2Dg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=OOGUsmT5_wQzHSnXJwMyhg&_nc_ss=7a22e&oh=00_AQELHWpMlAsFCBXg5JuZFsKD2Em0S3jKSpidu_Oi9s6lCg&oe=6A90A761",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/781630256_18639969793001018_1644106072854358371_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzk2OTc0MzU0MDE3OTMxMzU2MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI0OS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Zb3InG1vtf0Q7kNvwH4jitf&_nc_oc=Adol6CTALF2wFszc2Wq58LVIb35RyXzTVwDSW5-muSWrx6w579wARHJ5O_kY8YIaPLQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=OOGUsmT5_wQzHSnXJwMyhg&_nc_ss=7a22e&oh=00_AQEoIXGGHrh1AIApH1vhDZmP12-0mPLYsUpKQmZqqEmQvw&oe=6A90B1B3",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/782310402_18639969841001018_1100139145430697425_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=Mzk2OTc0MzUzMTM3MTM5NDU3MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI0OS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=dN4Syju-QHAQ7kNvwGw1at3&_nc_oc=AdoLf7XbtvlA8Q_0mf56rEnoy9-sT4ijDOonHIdym4sPDjcefcHP-YOVbU0WvhZc6Hk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=OOGUsmT5_wQzHSnXJwMyhg&_nc_ss=7a22e&oh=00_AQFLoAR67F3erYlqJzISeyAQQrALxSRUzQKduqfvwJzP1A&oe=6A90A2F3",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/782344919_18639969823001018_7807205600360248140_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=Mzk2OTc0MzUzNTc4MzYzMjgzMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI0OS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=qr4PfZHHf7QQ7kNvwFs_Tgh&_nc_oc=Adq5AGyPoHkGI8ec-HYcVV851VYfi7Uq-_twZ57VRcCTQDwFBM76h_izdbzJUk-0g5Y&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=OOGUsmT5_wQzHSnXJwMyhg&_nc_ss=7a22e&oh=00_AQHexT5cdy7YaobiW3rrcV5qBHSLS7L6jVIQdlKnTXh6oQ&oe=6A90B517"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/781579011_18639969730001018_6159548655868433338_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzk2OTc0MzUwNjA0NjA3NjA1OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI0OS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=TCfv9SkylBkQ7kNvwFENkGh&_nc_oc=AdoqzkIRYH28-jopYND81lw_UlgrV0pzUwQ6k1LLhZ81NbwyvhFky_pQvEvw6ks0duo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=OOGUsmT5_wQzHSnXJwMyhg&_nc_ss=7a22e&oh=00_AQFwSTXKdsTOY2qJSYl4XRbN6JqDdljLa5pLclPG1CYrfw&oe=6A90AF82",
+      "image_url": "/assets/feed-images/0a980cd6745cf02eba27.webp",
+      "image_width": 800,
+      "image_height": 800,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/452992890_468289262797164_2736951104040571947_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby42NDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gFtWgo0e7KHT7eA-Jb-lsDQnWVot5sOzhYDL5Y-i9E_dlcYYKqVukDawdn7rJ0mIaI&_nc_ohc=waxrYzVZXZMQ7kNvwHtoAFM&_nc_gid=c5XTudxC3NXR9_sDUNx6ZA&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQHwioYNNK37NxNRuOOkFvt6ITt56CaVYhUsi9r8R9ubaQ&oe=6A90AEFC&_nc_sid=ee9879",
+      "avatar_url": "/assets/source-avatars/ddd1f562b3747ddda862.webp",
+      "source_initials": "MHT",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_damingtsai:https://www.instagram.com/p/DcXXaubEvBq/"
     },
     {
       "title": "第十五屆亞太口琴藝術週｜第十五届亚太口琴艺术周--活动详情 第十五届亚太口琴艺术周--活动详情 中文 EN 日语 Korean 江苏惠文乐器有限公司、江苏东方乐器有限公司、江苏惠文文化发展有限公司 切换语言 口琴音乐赛事中心 注册 / 登…",
@@ -1024,6 +1169,73 @@
         "公開活動"
       ],
       "key": "ig_story_hsinchucounty_culture:3969321924987476771_75816134146"
+    },
+    {
+      "title": "山下伶 Rei Yamashita｜いよいよあと2週間！✨ 9月5日(土)、川口リリア・山伸サステインホールにて開催するメジャーデビュー10周年記念コンサートのチケット好評発売中です🎶 リオープンを迎えたばかりの美しいホールで、心に響く音…",
+      "headline": "いよいよあと2週間！✨",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/reel/1400733988718610/",
+      "source_id": "fb_rei_yamashita_5",
+      "source": "山下伶 Rei Yamashita",
+      "source_system_name": "山下伶 Rei Yamashita",
+      "source_profile_url": "https://facebook.com/rei.yamashita.5",
+      "country": "日本",
+      "region": "日本/東京/橫濱",
+      "directory_entry_id": "watchlist-57",
+      "directory_entry_name": "山下伶 Rei Yamashita",
+      "account": "rei.yamashita.5",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-08-22T10:56:05.000Z",
+      "posted_at_local": "2026-08-22 18:56",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-23T11:44:13.522357+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": null,
+      "llm_confidence": null,
+      "llm_labels": [],
+      "llm_categories": [],
+      "llm_reason": "",
+      "text": "いよいよあと2週間！✨\n9月5日(土)、川口リリア・山伸サステインホールにて開催するメジャーデビュー10周年記念コンサートのチケット好評発売中です🎶\nリオープンを迎えたばかりの美しいホールで、心に響く音の種をお届けします。\n今回はピアノ、チェロ、ベース、パーカッションという最高なメンバーと共に、極上のステージをお届けします！贅沢な生音の響きを、ぜひ会場で体感してください🌿\nお席は全席指定となりますので、お早めのご予約がおすすめです🎫\n皆様のご来場を心よりお待ちしております！\n📅 公演詳細\n日時：2026年9月5日(土) 14:30開場 ／ 15:00開演\n会場：川口リリア・山伸サステインホール（音楽ホール）\n（JR京浜東北線 川口駅西口直結・4階）\n料金：全席指定 4,000円（税込）\n※未就学児の入場はご遠慮ください\n👥 出演\n山下 伶（クロマチックハーモニカ）\n森丘ヒロキ（ピアノ）\n奥泉貴圭（チェロ）\n岡田治郎（ベース）\n福長雅夫（パーカッション）\n🎫 チケットのお求め\nリリア・チケットセンター：048-254-9900（10:00〜17:00 / 月曜休）\nリリア・ネットチケット：公式サイトはこちら\nチケットぴあ（Pコード：329200）\nイープラス\n#山下伶 #クロマチックハーモニカ #希望の種を音に乗せて #川口リリア #chromaticharmonica\nhttps://www.facebook.com/reel/1400733988718610/",
+      "images": [
+        "https://scontent-ord5-2.xx.fbcdn.net/v/t51.82787-10/782252597_18557870653076837_546680419998952269_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=r3Cfc2ysrAEQ7kNvwEqwqzy&_nc_oc=AdrbOVtK_6u_0vjybABCIlSj6ypLNdN1Dw6-HQ7NACyhckLlzhYwKfJaSHO1uDDqulk&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=ElPuH9gcDqP3jQe7efbLYw&_nc_ss=72289&oh=00_AQErcznxU6ubfsbZtKTBsWCeAmQw_V1ZzIqFR1cc99V53A&oe=6A90AF7D"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t51.82787-10/782252597_18557870653076837_546680419998952269_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=r3Cfc2ysrAEQ7kNvwEqwqzy&_nc_oc=AdrbOVtK_6u_0vjybABCIlSj6ypLNdN1Dw6-HQ7NACyhckLlzhYwKfJaSHO1uDDqulk&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=ElPuH9gcDqP3jQe7efbLYw&_nc_ss=72289&oh=00_AQErcznxU6ubfsbZtKTBsWCeAmQw_V1ZzIqFR1cc99V53A&oe=6A90AF7D",
+      "image_url": "/assets/feed-images/db618b1115850b3d1013.webp",
+      "image_width": 540,
+      "image_height": 960,
+      "source_avatar_url": "https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-1/503648748_3485439731586990_1801053677323667768_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx2048x2048&ctp=s50x50&_nc_cat=102&ccb=1-7&_nc_sid=1d2534&_nc_ohc=zNGfxYfcShEQ7kNvwGY7g88&_nc_oc=AdoK3kTghki2wVNeSNmQ8sonLtiNAgMNXVooppbcxXhKQcEZSvE6ctfiUZHPB9ZP6cY&_nc_zt=24&_nc_ht=scontent-ord5-2.xx&_nc_gid=ElPuH9gcDqP3jQe7efbLYw&_nc_ss=72289&oh=00_AQGGqE3pqfrWgadPbWI6w8upzJK_pm6HMfxrYK6LCEVY6A&oe=6A90B8FA",
+      "avatar_url": "/assets/source-avatars/73e03200d6e3c19b943b.webp",
+      "source_initials": "RY",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "fb_rei_yamashita_5:3997451550385803"
     },
     {
       "title": "Timothy Yip 葉進禧｜Final sessional rehearsal with my harmonica fellows for 30/8 concert Two Worlds In One (HK).",
@@ -57296,83 +57508,6 @@
         "公開活動"
       ],
       "key": "ig_rei_harmonica:https://www.instagram.com/p/DbLUFyXE-uX/"
-    },
-    {
-      "title": "天狼星口琴樂團 Sirius Harmonica Ensemble｜We’re still obsessed with this arrangement. Exactly one year ago, the Sirius Harmonic…",
-      "headline": "We’re still obsessed with this arrangement.",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.facebook.com/reel/2520965181671599/",
-      "source_id": "fb_siriusharp",
-      "source": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-      "source_system_name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-      "source_profile_url": "https://facebook.com/SiriusHarp",
-      "country": "臺灣",
-      "region": "臺灣",
-      "directory_entry_id": "watchlist-3",
-      "directory_entry_name": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-      "account": "SiriusHarp",
-      "platform": "facebook",
-      "platform_label": "Facebook",
-      "posted_at": "2026-07-24T11:19:40.000Z",
-      "posted_at_local": "2026-07-24 19:19",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-07-26T01:52:50.991841+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "公開更新",
-        "影片",
-        "演出"
-      ],
-      "keyword_matches": [
-        "harmonica"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.98,
-      "llm_labels": [
-        "口琴",
-        "公開更新",
-        "影片",
-        "演出"
-      ],
-      "llm_categories": [
-        "posts-videos"
-      ],
-      "llm_reason": "口琴樂團公開影片貼文，內容為演出/改編作品回顧，屬口琴演奏者更新。",
-      "text": "We’re still obsessed with this arrangement.\nExactly one year ago, the Sirius Harmonica Ensemble blew us away with this incredible cover of Chick Corea’s ‘Spain’. A masterclass in precision, rhythm and the full power of HOHNER harmonicas.\nWho remembers this one?🎶\nhttps://www.facebook.com/reel/2520965181671599/",
-      "images": [
-        "https://scontent-lga3-2.xx.fbcdn.net/v/t51.82787-10/754046418_18608559040012370_8899435596316888953_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=8or275K-SS0Q7kNvwFMjRXM&_nc_oc=AdpK9iKuePBMpfd7ubX-8f3QgoQj-mUu0AYTRabdaxIqUXPBgEL6unjiO9CeHmTof-o&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=ch7fhtdqvcwyu-SI7-iATQ&_nc_ss=72289&oh=00_AQB9w0Nau5Ozpn-AgVDTsxqUns7GKbdUL7fkIQHHqgrpEg&oe=6A6B2F03"
-      ],
-      "videos": [],
-      "source_image_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t51.82787-10/754046418_18608559040012370_8899435596316888953_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=8or275K-SS0Q7kNvwFMjRXM&_nc_oc=AdpK9iKuePBMpfd7ubX-8f3QgoQj-mUu0AYTRabdaxIqUXPBgEL6unjiO9CeHmTof-o&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=ch7fhtdqvcwyu-SI7-iATQ&_nc_ss=72289&oh=00_AQB9w0Nau5Ozpn-AgVDTsxqUns7GKbdUL7fkIQHHqgrpEg&oe=6A6B2F03",
-      "image_url": "/assets/feed-images/005f9e7c99d55d78c8bc.webp",
-      "image_width": 540,
-      "image_height": 960,
-      "source_avatar_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t39.30808-1/453008565_7563978673731534_3023779507488071061_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx640x640&ctp=s50x50&_nc_cat=106&ccb=1-7&_nc_sid=1d2534&_nc_ohc=6G6Ot7C-oEMQ7kNvwEUGNbY&_nc_oc=AdplVB4wfqcBcgTl0nBqr3Q9wGSLayUi_JD_yofCG8n8yz_CMgMO67khC-MknhKngJw&_nc_zt=24&_nc_ht=scontent-lga3-3.xx&_nc_gid=ch7fhtdqvcwyu-SI7-iATQ&_nc_ss=72289&oh=00_AQAmBd6cw3IuJ-cEf91cdyVkUmJJ8j8hFKabYMQpQKZwGw&oe=6A6B45BB",
-      "avatar_url": "/assets/source-avatars/aa34f7522a8869cf6f16.webp",
-      "source_initials": "SHE",
-      "categories": [
-        "posts-videos",
-        "events"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "公開活動"
-      ],
-      "key": "fb_siriusharp:1507597918071096"
     }
   ]
 }

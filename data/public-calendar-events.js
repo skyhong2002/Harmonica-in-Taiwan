@@ -1,6 +1,6 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-08-23T19:02:00+08:00",
+  "generatedAt": "2026-08-23T19:44:57+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
   "count": 10,
@@ -16,7 +16,7 @@ window.publicCalendarEvents = {
     "stats": {
       "requests": 0,
       "cached": 31,
-      "errors": 2
+      "errors": 3
     }
   },
   "events": [
