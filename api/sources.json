@@ -1,6 +1,6 @@
 {
   "site": "https://harmonica.observe.tw",
-  "generatedAt": "2026-08-23",
+  "generatedAt": "2026-08-24",
   "count": 318,
   "stats": {
     "totalEntries": 318,
@@ -70,6 +70,91 @@
     }
   },
   "entries": [
+    {
+      "id": "watchlist-54",
+      "publicId": "54",
+      "name": "CY Leo 何卓彥",
+      "nameEn": "CY Leo",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "古典與爵士半音階/2009、2013 WHF獨奏世界冠軍/作曲與創作歌手/國際管弦樂協演/電影、流行與遊戲錄音/口琴教材",
+      "structuredSummary": "古典與爵士半音階/2009、2013 WHF獨奏世界冠軍/作曲與創作歌手/國際管弦樂協演/電影、流行與遊戲錄音/口琴教材 / 半音階口琴 / 國際演出人員/作曲家與創作歌手/評審/Music Lab聯合藝術總監",
+      "summary": "香港的半音階口琴國際演出人員、作曲家與創作歌手與評審，活動脈絡包含古典與爵士半音階、2009與2013 WHF獨奏世界冠軍。",
+      "keywords": "CY Leo 何卓彥 harmonica WHF 2009 2013 classical jazz composer Ginger Muse Music Lab",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.cyleomusic.io/profile"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Cyleoharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cy_leo/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@cyleoharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "54-cy-leo",
+      "latestUpdateAt": "2026-08-23T13:34:13+00:00",
+      "latestUpdateLocal": "2026-08-23 21:34",
+      "latestUpdateSource": "CY Leo 何卓彥",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcYkRT6ksND/",
+      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
+      "sourceInitials": "CL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Cyleoharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_cy_leo",
+          "name": "CY Leo 何卓彥",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "cy_leo",
+          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
+        },
+        {
+          "id": "yt_cyleoharmonica",
+          "name": "CY Leo 何卓彥",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@cyleoharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
     {
       "id": "watchlist-105",
       "publicId": "105",
@@ -531,6 +616,196 @@
           "username": "",
           "profileUrl": "https://youtube.com/@jensbunge",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-4",
+      "publicId": "4",
+      "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+      "nameEn": "Judy's Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴重奏與教育推廣/2002起參與亞太口琴節/2026 APHF三場音樂會與重奏講座/第二屆海峽兩岸蕉城文化週專場/琴韻東坡・簧鳴西南",
+      "structuredSummary": "口琴重奏與教育推廣/2002起參與亞太口琴節/2026 APHF三場音樂會與重奏講座/第二屆海峽兩岸蕉城文化週專場/琴韻東坡・簧鳴西南 / 半音階口琴/複音口琴/和弦口琴/低音口琴 / 國際演出團體/重奏教育與講座/兩岸交流",
+      "summary": "臺灣的半音階口琴、複音口琴、和弦口琴與低音口琴國際演出團體、重奏教育與講座與兩岸交流，活動脈絡包含口琴重奏與教育推廣、2002起參與亞太口琴節與2026 APHF三場音樂會與重奏講座。",
+      "keywords": "Judy's Harmonica Ensemble 茱蒂口琴樂團 APHF 2026 海峽兩岸 蕉城 重奏講座 琴韻東坡 簧鳴西南",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.judysharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Judys.Harmonica.Ensemble/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/judys.harmonica.ensemble/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@JudysHarmonicaEnsemble"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@judys.harmonica.ensemble"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "4-judy-s-harmonica-ensemble",
+      "latestUpdateAt": "2026-08-23T10:52:39+00:00",
+      "latestUpdateLocal": "2026-08-23 18:52",
+      "latestUpdateSource": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcYSVsQlPVN/",
+      "avatarUrl": "/assets/source-avatars/702f7e70e2bae69a1091.webp",
+      "sourceInitials": "JSH",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "複音",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_judys_harmonica_ensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Judys.Harmonica.Ensemble",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_judys_harmonica_ensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "judys.harmonica.ensemble",
+          "profileUrl": "https://www.instagram.com/judys.harmonica.ensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_judys_harmonica_ensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "judys.harmonica.ensemble",
+          "profileUrl": "https://www.instagram.com/judys.harmonica.ensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/judys.harmonica.ensemble/story/0"
+        },
+        {
+          "id": "threads_judys_harmonica_ensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "threads",
+          "type": "rss",
+          "username": "judys.harmonica.ensemble",
+          "profileUrl": "https://www.threads.net/@judys.harmonica.ensemble",
+          "feedUrl": "https://rss.observe.tw/threads/judys.harmonica.ensemble"
+        },
+        {
+          "id": "yt_judysharmonicaensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@JudysHarmonicaEnsemble",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-36",
+      "publicId": "36",
+      "name": "莊筑迪",
+      "nameEn": "Judy Chuang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "茱蒂口琴樂團團長/國內外公開演出逾400場/2004亞太口琴節三項冠軍/2013世界口琴節三重奏冠軍/2003起擔任全國學生音樂比賽評審/2017世界口琴節評審與演出嘉賓",
+      "structuredSummary": "茱蒂口琴樂團團長/國內外公開演出逾400場/2004亞太口琴節三項冠軍/2013世界口琴節三重奏冠軍/2003起擔任全國學生音樂比賽評審/2017世界口琴節評審與演出嘉賓 / 半音階口琴/複音口琴/十孔口琴/和弦口琴/口琴重奏 / 國際演出人員/教育者/賽事評審/樂團團長",
+      "summary": "臺灣的半音階口琴、複音口琴、十孔口琴與和弦口琴國際演出人員、教育者與賽事評審，活動脈絡包含茱蒂口琴樂團團長、國內外公開演出逾400場與2004亞太口琴節三項冠軍。",
+      "keywords": "莊筑迪 Judy Chuang 茱蒂口琴樂團 Judy's Harmonica Ensemble APHF 2004 WHF 2013 冠軍 2017 評審",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/judy/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chuti.chuang/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/judygigo/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@judygigo"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "36",
+      "latestUpdateAt": "2026-08-23T10:52:39+00:00",
+      "latestUpdateLocal": "2026-08-23 18:52",
+      "latestUpdateSource": "莊筑迪",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcYSVsQlPVN/",
+      "avatarUrl": "/assets/source-avatars/0eb215eea1a44d62798e.webp",
+      "sourceInitials": "莊筑",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "比賽",
+        "半音階",
+        "複音",
+        "十孔",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_chuti_chuang",
+          "name": "莊筑迪",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chuti.chuang",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_judygigo",
+          "name": "莊筑迪",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "judygigo",
+          "profileUrl": "https://www.instagram.com/judygigo/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_judygigo",
+          "name": "莊筑迪",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "judygigo",
+          "profileUrl": "https://www.instagram.com/judygigo/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/judygigo/story/0"
+        },
+        {
+          "id": "threads_judygigo",
+          "name": "莊筑迪",
+          "platform": "threads",
+          "type": "rss",
+          "username": "judygigo",
+          "profileUrl": "https://www.threads.net/@judygigo",
+          "feedUrl": "https://rss.observe.tw/threads/judygigo"
         }
       ]
     },
@@ -1838,6 +2113,92 @@
       ]
     },
     {
+      "id": "watchlist-115",
+      "publicId": "115",
+      "name": "Filip Jers",
+      "nameEn": "Filip Jers",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "瑞典",
+      "region": "瑞典",
+      "cityOrFocus": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出",
+      "structuredSummary": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出 / 半音階/十孔 / 國際演出人員/作曲者/教育者",
+      "summary": "瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。",
+      "keywords": "Filip Jers harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.filipjers.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/filipjersmusic/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/filipjersharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@filipjersmusic"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "115-filip-jers",
+      "latestUpdateAt": "2026-08-23T06:16:09+00:00",
+      "latestUpdateLocal": "2026-08-23 14:16",
+      "latestUpdateSource": "Filip Jers",
+      "latestUpdateUrl": "https://www.instagram.com/stories/filipjersharmonica/3969873070217271656/",
+      "avatarUrl": "/assets/source-avatars/0cd42e751710b0949492.webp",
+      "sourceInitials": "FJ",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_filipjersmusic",
+          "name": "Filip Jers",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/filipjersmusic",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_filipjersharmonica",
+          "name": "Filip Jers",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "filipjersharmonica",
+          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_filipjersharmonica",
+          "name": "Filip Jers",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "filipjersharmonica",
+          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/filipjersharmonica/story/0"
+        },
+        {
+          "id": "yt_filipjersmusic",
+          "name": "Filip Jers",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@filipjersmusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-298",
       "publicId": "298",
       "name": "香港兒童合唱團口琴課程",
@@ -2233,86 +2594,84 @@
       ]
     },
     {
-      "id": "watchlist-54",
-      "publicId": "54",
-      "name": "CY Leo 何卓彥",
-      "nameEn": "CY Leo",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "古典與爵士半音階/2009、2013 WHF獨奏世界冠軍/作曲與創作歌手/國際管弦樂協演/電影、流行與遊戲錄音/口琴教材",
-      "structuredSummary": "古典與爵士半音階/2009、2013 WHF獨奏世界冠軍/作曲與創作歌手/國際管弦樂協演/電影、流行與遊戲錄音/口琴教材 / 半音階口琴 / 國際演出人員/作曲家與創作歌手/評審/Music Lab聯合藝術總監",
-      "summary": "香港的半音階口琴國際演出人員、作曲家與創作歌手與評審，活動脈絡包含古典與爵士半音階、2009與2013 WHF獨奏世界冠軍。",
-      "keywords": "CY Leo 何卓彥 harmonica WHF 2009 2013 classical jazz composer Ginger Muse Music Lab",
+      "id": "watchlist-14",
+      "publicId": "14",
+      "name": "mr.Why 花影樂團",
+      "nameEn": "mr.Why",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "跨界/流行/李讓相關",
+      "structuredSummary": "跨界/流行/李讓相關 / 口琴/跨界 / 演出團體",
+      "summary": "臺灣的口琴與跨界演出團體，活動脈絡包含流行與李讓相關。",
+      "keywords": "mr.Why 花影樂團 李讓",
       "links": [
         {
           "label": "網站",
-          "url": "https://www.cyleomusic.io/profile"
+          "url": "https://portaly.cc/mr.Why"
         },
         {
           "label": "Facebook",
-          "url": "https://www.facebook.com/Cyleoharmonica/"
+          "url": "https://www.facebook.com/Mr.WhyWhy/"
         },
         {
           "label": "Instagram",
-          "url": "https://www.instagram.com/cy_leo/"
+          "url": "https://www.instagram.com/mr.why.why/"
         },
         {
           "label": "YouTube",
-          "url": "https://www.youtube.com/@cyleoharmonica"
+          "url": "https://www.youtube.com/c/MrWhyOfficialChannel/videos"
         }
       ],
       "source": "watchlist",
       "aliases": [],
-      "slug": "54-cy-leo",
-      "latestUpdateAt": "2026-08-23T04:18:57+00:00",
-      "latestUpdateLocal": "2026-08-23 12:18",
-      "latestUpdateSource": "CY Leo 何卓彥",
-      "latestUpdateUrl": "https://www.instagram.com/stories/cy_leo/3969814080554503202/",
-      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
-      "sourceInitials": "CL",
+      "slug": "14-mr-why",
+      "latestUpdateAt": "2026-08-23T04:07:50+00:00",
+      "latestUpdateLocal": "2026-08-23 12:07",
+      "latestUpdateSource": "mr.Why 花影樂團",
+      "latestUpdateUrl": "https://www.instagram.com/stories/mr.why.why/3969808643608765314/",
+      "avatarUrl": "/assets/source-avatars/754d6bd5a92e15c94269.webp",
+      "sourceInitials": "MW",
       "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
+        "團體樂團"
       ],
       "monitorSources": [
         {
-          "id": "fb_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
+          "id": "fb_mr_whywhy",
+          "name": "mr.Why 花影樂團",
           "platform": "facebook",
           "type": "facebook_page_posts",
           "username": "",
-          "profileUrl": "https://facebook.com/Cyleoharmonica",
+          "profileUrl": "https://facebook.com/Mr.WhyWhy",
           "feedUrl": ""
         },
         {
-          "id": "ig_cy_leo",
-          "name": "CY Leo 何卓彥",
+          "id": "ig_mr_why_why",
+          "name": "mr.Why 花影樂團",
           "platform": "instagram",
           "type": "rsshub_instagram_profile",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
+          "username": "mr.why.why",
+          "profileUrl": "https://www.instagram.com/mr.why.why/",
           "feedUrl": ""
         },
         {
-          "id": "ig_story_cy_leo",
-          "name": "CY Leo 何卓彥",
+          "id": "ig_story_mr_why_why",
+          "name": "mr.Why 花影樂團",
           "platform": "instagram",
           "type": "rsshub_instagram_story",
-          "username": "cy_leo",
-          "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
+          "username": "mr.why.why",
+          "profileUrl": "https://www.instagram.com/mr.why.why/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/mr.why.why/story/0"
         },
         {
-          "id": "yt_cyleoharmonica",
-          "name": "CY Leo 何卓彥",
+          "id": "yt_mrwhyofficialchannel",
+          "name": "mr.Why 花影樂團",
           "platform": "youtube",
           "type": "youtube_ytdlp",
           "username": "",
-          "profileUrl": "https://youtube.com/@cyleoharmonica",
+          "profileUrl": "https://youtube.com/c/MrWhyOfficialChannel/videos",
           "feedUrl": ""
         }
       ]
@@ -5403,92 +5762,6 @@
       ]
     },
     {
-      "id": "watchlist-115",
-      "publicId": "115",
-      "name": "Filip Jers",
-      "nameEn": "Filip Jers",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "瑞典",
-      "region": "瑞典",
-      "cityOrFocus": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出",
-      "structuredSummary": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出 / 半音階/十孔 / 國際演出人員/作曲者/教育者",
-      "summary": "瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。",
-      "keywords": "Filip Jers harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.filipjers.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/filipjersmusic/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/filipjersharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@filipjersmusic"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "115-filip-jers",
-      "latestUpdateAt": "2026-08-21T21:55:15+00:00",
-      "latestUpdateLocal": "2026-08-22 05:55",
-      "latestUpdateSource": "Filip Jers",
-      "latestUpdateUrl": "https://www.instagram.com/stories/filipjersharmonica/3968896406546811998/",
-      "avatarUrl": "/assets/source-avatars/0cd42e751710b0949492.webp",
-      "sourceInitials": "FJ",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_filipjersmusic",
-          "name": "Filip Jers",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/filipjersmusic",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_filipjersharmonica",
-          "name": "Filip Jers",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "filipjersharmonica",
-          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_filipjersharmonica",
-          "name": "Filip Jers",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "filipjersharmonica",
-          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/filipjersharmonica/story/0"
-        },
-        {
-          "id": "yt_filipjersmusic",
-          "name": "Filip Jers",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@filipjersmusic",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-290",
       "publicId": "290",
       "name": "Ivan Marcio",
@@ -7965,196 +8238,6 @@
       ]
     },
     {
-      "id": "watchlist-4",
-      "publicId": "4",
-      "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-      "nameEn": "Judy's Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴重奏與教育推廣/2002起參與亞太口琴節/2026 APHF三場音樂會與重奏講座/第二屆海峽兩岸蕉城文化週專場/琴韻東坡・簧鳴西南",
-      "structuredSummary": "口琴重奏與教育推廣/2002起參與亞太口琴節/2026 APHF三場音樂會與重奏講座/第二屆海峽兩岸蕉城文化週專場/琴韻東坡・簧鳴西南 / 半音階口琴/複音口琴/和弦口琴/低音口琴 / 國際演出團體/重奏教育與講座/兩岸交流",
-      "summary": "臺灣的半音階口琴、複音口琴、和弦口琴與低音口琴國際演出團體、重奏教育與講座與兩岸交流，活動脈絡包含口琴重奏與教育推廣、2002起參與亞太口琴節與2026 APHF三場音樂會與重奏講座。",
-      "keywords": "Judy's Harmonica Ensemble 茱蒂口琴樂團 APHF 2026 海峽兩岸 蕉城 重奏講座 琴韻東坡 簧鳴西南",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.judysharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Judys.Harmonica.Ensemble/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/judys.harmonica.ensemble/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@JudysHarmonicaEnsemble"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@judys.harmonica.ensemble"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "4-judy-s-harmonica-ensemble",
-      "latestUpdateAt": "2026-08-18T15:04:34+00:00",
-      "latestUpdateLocal": "2026-08-18 23:04",
-      "latestUpdateSource": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcK6HEWkd90/",
-      "avatarUrl": "/assets/source-avatars/702f7e70e2bae69a1091.webp",
-      "sourceInitials": "JSH",
-      "sourceTags": [
-        "團體樂團",
-        "半音階",
-        "複音",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_judys_harmonica_ensemble",
-          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Judys.Harmonica.Ensemble",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_judys_harmonica_ensemble",
-          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "judys.harmonica.ensemble",
-          "profileUrl": "https://www.instagram.com/judys.harmonica.ensemble/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_judys_harmonica_ensemble",
-          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "judys.harmonica.ensemble",
-          "profileUrl": "https://www.instagram.com/judys.harmonica.ensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/judys.harmonica.ensemble/story/0"
-        },
-        {
-          "id": "threads_judys_harmonica_ensemble",
-          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "platform": "threads",
-          "type": "rss",
-          "username": "judys.harmonica.ensemble",
-          "profileUrl": "https://www.threads.net/@judys.harmonica.ensemble",
-          "feedUrl": "https://rss.observe.tw/threads/judys.harmonica.ensemble"
-        },
-        {
-          "id": "yt_judysharmonicaensemble",
-          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@JudysHarmonicaEnsemble",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-36",
-      "publicId": "36",
-      "name": "莊筑迪",
-      "nameEn": "Judy Chuang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "茱蒂口琴樂團團長/國內外公開演出逾400場/2004亞太口琴節三項冠軍/2013世界口琴節三重奏冠軍/2003起擔任全國學生音樂比賽評審/2017世界口琴節評審與演出嘉賓",
-      "structuredSummary": "茱蒂口琴樂團團長/國內外公開演出逾400場/2004亞太口琴節三項冠軍/2013世界口琴節三重奏冠軍/2003起擔任全國學生音樂比賽評審/2017世界口琴節評審與演出嘉賓 / 半音階口琴/複音口琴/十孔口琴/和弦口琴/口琴重奏 / 國際演出人員/教育者/賽事評審/樂團團長",
-      "summary": "臺灣的半音階口琴、複音口琴、十孔口琴與和弦口琴國際演出人員、教育者與賽事評審，活動脈絡包含茱蒂口琴樂團團長、國內外公開演出逾400場與2004亞太口琴節三項冠軍。",
-      "keywords": "莊筑迪 Judy Chuang 茱蒂口琴樂團 Judy's Harmonica Ensemble APHF 2004 WHF 2013 冠軍 2017 評審",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/judy/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/chuti.chuang/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/judygigo/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@judygigo"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "36",
-      "latestUpdateAt": "2026-08-18T15:04:34+00:00",
-      "latestUpdateLocal": "2026-08-18 23:04",
-      "latestUpdateSource": "莊筑迪",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcK6HEWkd90/",
-      "avatarUrl": "/assets/source-avatars/0eb215eea1a44d62798e.webp",
-      "sourceInitials": "莊筑",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "比賽",
-        "半音階",
-        "複音",
-        "十孔",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_chuti_chuang",
-          "name": "莊筑迪",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/chuti.chuang",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_judygigo",
-          "name": "莊筑迪",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "judygigo",
-          "profileUrl": "https://www.instagram.com/judygigo/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_judygigo",
-          "name": "莊筑迪",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "judygigo",
-          "profileUrl": "https://www.instagram.com/judygigo/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/judygigo/story/0"
-        },
-        {
-          "id": "threads_judygigo",
-          "name": "莊筑迪",
-          "platform": "threads",
-          "type": "rss",
-          "username": "judygigo",
-          "profileUrl": "https://www.threads.net/@judygigo",
-          "feedUrl": "https://rss.observe.tw/threads/judygigo"
-        }
-      ]
-    },
-    {
       "id": "watchlist-31",
       "publicId": "31",
       "name": "張晁滕",
@@ -9912,89 +9995,6 @@
       ]
     },
     {
-      "id": "watchlist-14",
-      "publicId": "14",
-      "name": "mr.Why 花影樂團",
-      "nameEn": "mr.Why",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "跨界/流行/李讓相關",
-      "structuredSummary": "跨界/流行/李讓相關 / 口琴/跨界 / 演出團體",
-      "summary": "臺灣的口琴與跨界演出團體，活動脈絡包含流行與李讓相關。",
-      "keywords": "mr.Why 花影樂團 李讓",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/mr.Why"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Mr.WhyWhy/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/mr.why.why/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/MrWhyOfficialChannel/videos"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "14-mr-why",
-      "latestUpdateAt": "2026-08-11T11:49:08+00:00",
-      "latestUpdateLocal": "2026-08-11 19:49",
-      "latestUpdateSource": "mr.Why 花影樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/mr.why.why/3961343359403124643/",
-      "avatarUrl": "/assets/source-avatars/754d6bd5a92e15c94269.webp",
-      "sourceInitials": "MW",
-      "sourceTags": [
-        "團體樂團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_mr_whywhy",
-          "name": "mr.Why 花影樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Mr.WhyWhy",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_mr_why_why",
-          "name": "mr.Why 花影樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "mr.why.why",
-          "profileUrl": "https://www.instagram.com/mr.why.why/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_mr_why_why",
-          "name": "mr.Why 花影樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "mr.why.why",
-          "profileUrl": "https://www.instagram.com/mr.why.why/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/mr.why.why/story/0"
-        },
-        {
-          "id": "yt_mrwhyofficialchannel",
-          "name": "mr.Why 花影樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/MrWhyOfficialChannel/videos",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-38",
       "publicId": "38",
       "name": "歐純伶",
@@ -10451,7 +10451,7 @@
       "latestUpdateLocal": "2026-08-09 16:58",
       "latestUpdateSource": "陽明交大竹韻口琴社",
       "latestUpdateUrl": "https://www.instagram.com/stories/nycu_harmonica/3959807711511576874/",
-      "avatarUrl": "/assets/source-avatars/e96564b38754b09b8e96.webp",
+      "avatarUrl": "/assets/source-avatars/55b53b7c1f96597c4c6e.webp",
       "sourceInitials": "陽明",
       "sourceTags": [
         "學生社團",

@@ -7,7 +7,7 @@ X-WR-CALNAME:國外口琴實體活動
 X-WR-TIMEZONE:Asia/Taipei
 BEGIN:VEVENT
 UID:e615c6f1043467b0@harmonica.observe.tw
-DTSTAMP:20260823T142205Z
+DTSTAMP:20260823T183428Z
 DTSTART;TZID=Asia/Tokyo:20260818T200000
 DTEND;TZID=Asia/Tokyo:20260818T220000
 SUMMARY:RJ&BME’s マンスリーライブ「公開リハーサル」
@@ -19,7 +19,7 @@ URL:https://x.com/minami_risa/status/2083009854462218712
 END:VEVENT
 BEGIN:VEVENT
 UID:aa75b796c9268142@harmonica.observe.tw
-DTSTAMP:20260823T142205Z
+DTSTAMP:20260823T183428Z
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 SUMMARY:CY Leo 何卓彥｜Two Worlds In One 亞洲巡演
@@ -30,23 +30,23 @@ DESCRIPTION:主辦／演出者：CY Leo 何卓彥。亞洲巡演場次：20
 URL:https://www.instagram.com/p/DbdOLZDjK-H/
 END:VEVENT
 BEGIN:VEVENT
-UID:5cc593a4724fc281@harmonica.observe.tw
-DTSTAMP:20260823T142205Z
+UID:a395313f01cb7068@harmonica.observe.tw
+DTSTAMP:20260823T183428Z
 DTSTART;TZID=Asia/Tokyo:20260905T143000
 DTEND;TZID=Asia/Tokyo:20260905T163000
-SUMMARY:コンサート
-LOCATION:川口市 川口リリア・山伸サステインホール
-DESCRIPTION:主辦／演出者：山下伶 Rei Yamashita。9月5日(土) 14
- :30開場、15:00開演。出演者包含山下伶（クロマチックハ
- ーモニカ）、森丘ヒロキ（ピアノ）、奥泉貴圭（チェ
- ロ）、岡田治郎（ベース）、福長雅夫（パーカッショ
- ン）；全席指定 4\,000円。\nhttps://www.facebook.com/reel/10307300
- 46600991/
-URL:https://www.facebook.com/reel/1030730046600991/
+SUMMARY:メジャーデビュー10周年記念コンサート
+LOCATION:川口リリア・山伸サステインホール（音楽ホール
+ ）
+DESCRIPTION:主辦／演出者：山下伶 Rei Yamashita。山下伶（ク
+ ロマチックハーモニカ）出演，搭配ピアノ、チェロ、
+ ベース、パーカッション。全席指定 4\,000円（税込），2
+ 026年9月5日 14:30開場／15:00開演。\nhttps://www.facebook.com/reel
+ /1400733988718610/
+URL:https://www.facebook.com/reel/1400733988718610/
 END:VEVENT
 BEGIN:VEVENT
 UID:9466c9e667f685f8@harmonica.observe.tw
-DTSTAMP:20260823T142205Z
+DTSTAMP:20260823T183428Z
 DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20260910
 SUMMARY:The Power of Melody
@@ -60,7 +60,7 @@ URL:https://www.facebook.com/harmonicafenfestival/posts/pfbid0AGFcuVZeGSGtn
 END:VEVENT
 BEGIN:VEVENT
 UID:46dc72de3cf11370@harmonica.observe.tw
-DTSTAMP:20260823T142205Z
+DTSTAMP:20260823T183428Z
 DTSTART;TZID=Asia/Hong_Kong:20260906T041500
 DTEND;TZID=Asia/Hong_Kong:20260906T061500
 SUMMARY:《回望演奏與教學的十年》
@@ -74,7 +74,7 @@ URL:https://www.instagram.com/p/DbvgdtQk3mM/
 END:VEVENT
 BEGIN:VEVENT
 UID:009dec21c34c66e4@harmonica.observe.tw
-DTSTAMP:20260823T142205Z
+DTSTAMP:20260823T183428Z
 DTSTART;TZID=Asia/Tokyo:20260906T133000
 DTEND;TZID=Asia/Tokyo:20260906T153000
 SUMMARY:南里沙 ティータイムコンサート
@@ -86,7 +86,7 @@ URL:https://x.com/minami_risa/status/2082813898156372325
 END:VEVENT
 BEGIN:VEVENT
 UID:2d1b19b126536402@harmonica.observe.tw
-DTSTAMP:20260823T142205Z
+DTSTAMP:20260823T183428Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:CY Leo 何卓彥｜Two Worlds In One 亞洲巡演
@@ -98,7 +98,7 @@ URL:https://www.instagram.com/p/DbdOLZDjK-H/
 END:VEVENT
 BEGIN:VEVENT
 UID:5dc93477d78e7a96@harmonica.observe.tw
-DTSTAMP:20260823T142205Z
+DTSTAMP:20260823T183428Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:CY LEO — TWO WORLDS IN ONE《兩界一心》| ASIA TOUR – SINGA
@@ -112,7 +112,7 @@ URL:https://www.instagram.com/p/Db60nX5Ehw_/
 END:VEVENT
 BEGIN:VEVENT
 UID:e9a91b34ffa66ec5@harmonica.observe.tw
-DTSTAMP:20260823T142205Z
+DTSTAMP:20260823T183428Z
 DTSTART;TZID=Asia/Singapore:20261004T170000
 DTEND;TZID=Asia/Singapore:20261004T190000
 SUMMARY:Qin Yuan 51《琴缘51》
@@ -128,7 +128,7 @@ URL:https://www.facebook.com/HARMONICAMUSICLOVERS/posts/pfbid0id39yWkpmaozz
 END:VEVENT
 BEGIN:VEVENT
 UID:4ecad43e0bebfcf8@harmonica.observe.tw
-DTSTAMP:20260823T142205Z
+DTSTAMP:20260823T183428Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 SUMMARY:CY Leo 何卓彥｜Two Worlds In One 亞洲巡演
@@ -140,7 +140,7 @@ URL:https://www.instagram.com/p/DbdOLZDjK-H/
 END:VEVENT
 BEGIN:VEVENT
 UID:99e4d00a1c7615a6@harmonica.observe.tw
-DTSTAMP:20260823T142205Z
+DTSTAMP:20260823T183428Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:CY Leo 何卓彥｜Two Worlds In One 亞洲巡演
@@ -149,5 +149,20 @@ DESCRIPTION:主辦／演出者：CY Leo 何卓彥。亞洲巡演場次：20
  26-10-09，地點為 Seoul。貼文未提供更具體的場館或演出時
  間。\nhttps://www.instagram.com/p/DbdOLZDjK-H/
 URL:https://www.instagram.com/p/DbdOLZDjK-H/
+END:VEVENT
+BEGIN:VEVENT
+UID:1a5c0f6d80abd9f4@harmonica.observe.tw
+DTSTAMP:20260823T183428Z
+DTSTART;TZID=Asia/Tokyo:20270423T130000
+DTEND;TZID=Asia/Tokyo:20270423T150000
+SUMMARY:春季大型音樂會
+LOCATION:東京都渋谷区代々木神園町 國立奧林匹克紀念青
+ 少年綜合中心
+DESCRIPTION:主辦／演出者：茱蒂口琴樂團 Judy's Harmonica Ensemb
+ le。2027 年 4 月 23 日 13:00–14:40 舉行，為 2027 日本口琴節
+ 第一天的節目之一。樂團將登台演出，並與日本口琴演
+ 奏家稻川有德合作；單日參加費 18\,000 日圓，含午餐及
+ 紀念派對。\nhttps://www.instagram.com/p/DcYSVsQlPVN/
+URL:https://www.instagram.com/p/DcYSVsQlPVN/
 END:VEVENT
 END:VCALENDAR

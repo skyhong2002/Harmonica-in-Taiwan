@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-23T22:22:01+08:00",
+  "generatedAt": "2026-08-24T02:34:19+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
-  "count": 11,
+  "count": 12,
   "source": "/api/events.json",
   "ics": "/feeds/overseas-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,9 +14,9 @@
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
-      "cached": 31,
-      "errors": 3
+      "requests": 5,
+      "cached": 28,
+      "errors": 0
     }
   },
   "events": [
@@ -93,9 +93,9 @@
       "image_url": "/assets/feed-images/9d9b79fc0bcd2accabe3.webp"
     },
     {
-      "id": "5cc593a4724fc281",
-      "title": "コンサート",
-      "eventName": "コンサート",
+      "id": "a395313f01cb7068",
+      "title": "メジャーデビュー10周年記念コンサート",
+      "eventName": "メジャーデビュー10周年記念コンサート",
       "source": "山下伶 Rei Yamashita",
       "platform": "facebook",
       "start": "2026-09-05T14:30:00+09:00",
@@ -103,30 +103,30 @@
       "allDay": false,
       "calendarType": "overseas_physical",
       "timezone": "Asia/Tokyo",
-      "location": "川口市 川口リリア・山伸サステインホール",
-      "venue": "川口リリア・山伸サステインホール",
-      "city": "川口市",
-      "details": "主辦／演出者：山下伶 Rei Yamashita。9月5日(土) 14:30開場、15:00開演。出演者包含山下伶（クロマチックハーモニカ）、森丘ヒロキ（ピアノ）、奥泉貴圭（チェロ）、岡田治郎（ベース）、福長雅夫（パーカッション）；全席指定 4,000円。",
-      "evidenceUrl": "https://www.facebook.com/reel/1030730046600991/",
-      "confidence": 0.95,
+      "location": "川口リリア・山伸サステインホール（音楽ホール）",
+      "venue": "川口リリア・山伸サステインホール（音楽ホール）",
+      "city": "川口",
+      "details": "主辦／演出者：山下伶 Rei Yamashita。山下伶（クロマチックハーモニカ）出演，搭配ピアノ、チェロ、ベース、パーカッション。全席指定 4,000円（税込），2026年9月5日 14:30開場／15:00開演。",
+      "evidenceUrl": "https://www.facebook.com/reel/1400733988718610/",
+      "confidence": 0.98,
       "calendarReview": {
         "include": true,
         "country": "其他國家/地區",
         "eventMode": "overseas_physical",
         "timezone": "Asia/Tokyo",
         "candidateDateMatches": true,
-        "eventName": "コンサート",
-        "venue": "川口リリア・山伸サステインホール",
-        "city": "川口市",
-        "details": "主辦／演出者：山下伶 Rei Yamashita。9月5日(土) 14:30開場、15:00開演。出演者包含山下伶（クロマチックハーモニカ）、森丘ヒロキ（ピアノ）、奥泉貴圭（チェロ）、岡田治郎（ベース）、福長雅夫（パーカッション）；全席指定 4,000円。",
-        "reason": "候選日期與貼文中的9月5日演出時間一致，且為日本川口市的實體口琴相關音樂會。",
-        "confidence": 0.95
+        "eventName": "メジャーデビュー10周年記念コンサート",
+        "venue": "川口リリア・山伸サステインホール（音楽ホール）",
+        "city": "川口",
+        "details": "主辦／演出者：山下伶 Rei Yamashita。山下伶（クロマチックハーモニカ）出演，搭配ピアノ、チェロ、ベース、パーカッション。全席指定 4,000円（税込），2026年9月5日 14:30開場／15:00開演。",
+        "reason": "貼文明確寫出活動日期、時間與實體會場，且為口琴演出相關公開售票音樂會；地點在日本川口，屬海外實體活動。",
+        "confidence": 0.98
       },
-      "postedAt": "2026-08-19 18:05",
+      "postedAt": "2026-08-22 18:56",
       "images": [
-        "https://scontent-sjc6-1.xx.fbcdn.net/v/t51.82787-10/779895782_18557021731076837_1000266701860796709_n.jpg?stp=dst-jpg_tt6&cstp=mx1216x2160&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=WyimXthgcxkQ7kNvwH_9f1d&_nc_oc=AdqKAFSHPjRgLbBOGmNEjGMMPKZlVPRy4mbxjlJEpOQHOqcVzDBy_J9SgWU8mM08pLs&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=48hMPcG4s3p3eZhCLcvmeg&_nc_ss=7c289&oh=00_AQHdJzwHakiTZWQ7x_fIm1t-vpWifYhslkMyy1mKGLT2GQ&oe=6A8C6419"
+        "https://scontent-ord5-2.xx.fbcdn.net/v/t51.82787-10/782252597_18557870653076837_546680419998952269_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=r3Cfc2ysrAEQ7kNvwEqwqzy&_nc_oc=AdrbOVtK_6u_0vjybABCIlSj6ypLNdN1Dw6-HQ7NACyhckLlzhYwKfJaSHO1uDDqulk&_nc_zt=23&_nc_ht=scontent-ord5-2.xx&_nc_gid=ElPuH9gcDqP3jQe7efbLYw&_nc_ss=72289&oh=00_AQErcznxU6ubfsbZtKTBsWCeAmQw_V1ZzIqFR1cc99V53A&oe=6A90AF7D"
       ],
-      "image_url": "/assets/feed-images/118eed15bbe153d7f4db.webp"
+      "image_url": "/assets/feed-images/db618b1115850b3d1013.webp"
     },
     {
       "eventName": "The Power of Melody",
@@ -416,6 +416,45 @@
         "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/761653358_18612351817050240_2590188587154998094_n.jpg?stp=c655.0.1966.1966a_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6O2px-IVY5cQ7kNvwHH-Z5G&_nc_oc=AdqnT2X1NBWMguMiKHWkTVfr7qEAQtyDbu-VekrBu3anN6DdBzi0drV65JQmiZrPYOE&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YLet9VsdHRqztOzPMYljcw&_nc_ss=7b60f&oh=00_AQGVYRe6a9KHZcTPxwLC8SUrI0eUj3WUV5Z30p3UOwVAhQ&oe=6A756848"
       ],
       "image_url": "/assets/feed-images/9d9b79fc0bcd2accabe3.webp"
+    },
+    {
+      "id": "1a5c0f6d80abd9f4",
+      "title": "春季大型音樂會",
+      "eventName": "春季大型音樂會",
+      "source": "Judy’s Harmonica Ensemble 茱蒂口琴樂團",
+      "platform": "instagram",
+      "start": "2027-04-23T13:00:00+09:00",
+      "end": "2027-04-23T15:00:00+09:00",
+      "allDay": false,
+      "calendarType": "overseas_physical",
+      "timezone": "Asia/Tokyo",
+      "location": "東京都渋谷区代々木神園町 國立奧林匹克紀念青少年綜合中心",
+      "venue": "國立奧林匹克紀念青少年綜合中心",
+      "city": "東京都渋谷区代々木神園町",
+      "details": "主辦／演出者：茱蒂口琴樂團 Judy's Harmonica Ensemble。2027 年 4 月 23 日 13:00–14:40 舉行，為 2027 日本口琴節第一天的節目之一。樂團將登台演出，並與日本口琴演奏家稻川有德合作；單日參加費 18,000 日圓，含午餐及紀念派對。",
+      "evidenceUrl": "https://www.instagram.com/p/DcYSVsQlPVN/",
+      "confidence": 0.97,
+      "calendarReview": {
+        "include": true,
+        "country": "日本",
+        "eventMode": "overseas_physical",
+        "timezone": "Asia/Tokyo",
+        "candidateDateMatches": true,
+        "eventName": "春季大型音樂會",
+        "venue": "國立奧林匹克紀念青少年綜合中心",
+        "city": "東京都渋谷区代々木神園町",
+        "details": "主辦／演出者：茱蒂口琴樂團 Judy's Harmonica Ensemble。2027 年 4 月 23 日 13:00–14:40 舉行，為 2027 日本口琴節第一天的節目之一。樂團將登台演出，並與日本口琴演奏家稻川有德合作；單日參加費 18,000 日圓，含午餐及紀念派對。",
+        "reason": "候選日期與貼文中的活動日期一致，且為在日本東京舉辦的實體口琴活動，符合收錄範圍。",
+        "confidence": 0.97
+      },
+      "postedAt": "2026-08-23 18:52",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/778986062_18022165922880937_6605692275307794028_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzk3MDAwMzU2NzQ4MDc0NDgzMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTI0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=7u7WW-1qHRMQ7kNvwEeRimi&_nc_oc=Adrte7THaNlxpivwlN6Ais7OtqgZQv7DMddjybqBUEt2tl1SPN1D5p0TXeDtbxfkPso&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=yn3YB5mgydDxYtMtD2JpSA&_nc_ss=7a22e&oh=00_AQHhvyV5Dym0GHyteQrJBFTW_wCQHU6i3mUftK3VWYlWFw&oe=6A91164D",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/779017833_18022165955880937_177769599187650263_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzk3MDAwMzU2ODgyMjk2NDU4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTI0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=nWgoUFlZZSAQ7kNvwG2pTKk&_nc_oc=Adoug8EKPUqgaNHsQaN1W1C_-F0OdygP_dR9CpSVOjbYQJRFChKVVbAZGgj_PGiKDXk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=yn3YB5mgydDxYtMtD2JpSA&_nc_ss=7a22e&oh=00_AQF3RQ3D8zS9U2d_bGvQEkluV5XEtG1ingoLmqq_Ruipyg&oe=6A9128CC",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/779180132_18022165937880937_7261010391773916872_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzk3MDAwMzU2OTk1NTM1NzI3OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTI0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=6oOnsE7M_2oQ7kNvwHOjEsl&_nc_oc=AdrBI0MA0nbwB5ASwMF-VPRtY6YQ-qGGpKi9OIjPg6byAtzrEe6LyTEYIBNkiHIVYbU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=yn3YB5mgydDxYtMtD2JpSA&_nc_ss=7a22e&oh=00_AQGx0lJV3gpF3ZHZe8iZFH4hlJMicjohOibb7E-xbTleKw&oe=6A90F3D5",
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/780127544_18022165913880937_6166092046461999781_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzk3MDAwMzU3MDY4NTEyOTQ5NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTI0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=-Z6w5VBjTU8Q7kNvwGDYhtJ&_nc_oc=AdoOCXOhQTM4cWtoyHOHtcUIiB6KVjWFAF3FimHnq3oGyIM6T7c9SCZBOdwT8d1HYJ0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=yn3YB5mgydDxYtMtD2JpSA&_nc_ss=7a22e&oh=00_AQHs2N9PSjCBHwIFM0RecNsovSW0WU-yuu1tI3vKrRxU6Q&oe=6A911E15"
+      ],
+      "image_url": "/assets/feed-images/e37323748f9ae72a43cc.webp"
     }
   ]
 }
