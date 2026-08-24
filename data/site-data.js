@@ -2,6 +2,92 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-25",
   "entries": [
     {
+      "id": "watchlist-115",
+      "publicId": "115",
+      "name": "Filip Jers",
+      "nameEn": "Filip Jers",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "瑞典",
+      "region": "瑞典",
+      "cityOrFocus": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出",
+      "structuredSummary": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出 / 半音階/十孔 / 國際演出人員/作曲者/教育者",
+      "summary": "瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。",
+      "keywords": "Filip Jers harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.filipjers.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/filipjersmusic/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/filipjersharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@filipjersmusic"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "115-filip-jers",
+      "latestUpdateAt": "2026-08-24T16:53:05+00:00",
+      "latestUpdateLocal": "2026-08-25 00:53",
+      "latestUpdateSource": "Filip Jers",
+      "latestUpdateUrl": "https://www.instagram.com/p/Dcbh6k9NOhf/",
+      "avatarUrl": "/assets/source-avatars/0cd42e751710b0949492.webp",
+      "sourceInitials": "FJ",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_filipjersmusic",
+          "name": "Filip Jers",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/filipjersmusic",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_filipjersharmonica",
+          "name": "Filip Jers",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "filipjersharmonica",
+          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_filipjersharmonica",
+          "name": "Filip Jers",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "filipjersharmonica",
+          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/filipjersharmonica/story/0"
+        },
+        {
+          "id": "yt_filipjersmusic",
+          "name": "Filip Jers",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@filipjersmusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-220",
       "publicId": "220",
       "name": "菜鳥琴老師很菜",
@@ -2334,6 +2420,61 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-230",
+      "publicId": "230",
+      "name": "陳立強 Johnny Chen",
+      "nameEn": "Johnny Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "台大藍聲/Dr. Blue/學生重奏/演出",
+      "structuredSummary": "台大藍聲/Dr. Blue/學生重奏/演出 / 口琴 / 演出人員/樂團成員",
+      "summary": "臺灣的口琴演出人員與樂團成員，活動脈絡包含台大藍聲、Dr. Blue與學生重奏。",
+      "keywords": "陳立強 Johnny Chen harmonica_johnny 台大藍聲 Dr. Blue Harmonica Ensemble",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_johnny/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "230-johnny-chen",
+      "latestUpdateAt": "2026-08-24T08:04:59+00:00",
+      "latestUpdateLocal": "2026-08-24 16:04",
+      "latestUpdateSource": "陳立強 Johnny Chen",
+      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_johnny/3970652621337344821/",
+      "avatarUrl": "/assets/source-avatars/718baf2f4c2fb8253e60.webp",
+      "sourceInitials": "JC",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_harmonica_johnny",
+          "name": "陳立強 Johnny Chen",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_johnny",
+          "profileUrl": "https://www.instagram.com/harmonica_johnny/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_johnny",
+          "name": "陳立強 Johnny Chen",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_johnny",
+          "profileUrl": "https://www.instagram.com/harmonica_johnny/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_johnny/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-237",
       "publicId": "237",
       "name": "Wilson Liao",
@@ -2532,61 +2673,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/c/hoontobe",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-230",
-      "publicId": "230",
-      "name": "陳立強 Johnny Chen",
-      "nameEn": "Johnny Chen",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "台大藍聲/Dr. Blue/學生重奏/演出",
-      "structuredSummary": "台大藍聲/Dr. Blue/學生重奏/演出 / 口琴 / 演出人員/樂團成員",
-      "summary": "臺灣的口琴演出人員與樂團成員，活動脈絡包含台大藍聲、Dr. Blue與學生重奏。",
-      "keywords": "陳立強 Johnny Chen harmonica_johnny 台大藍聲 Dr. Blue Harmonica Ensemble",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/harmonica_johnny/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "230-johnny-chen",
-      "latestUpdateAt": "2026-08-24T06:34:01+00:00",
-      "latestUpdateLocal": "2026-08-24 14:34",
-      "latestUpdateSource": "陳立強 Johnny Chen",
-      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_johnny/3970606838890245838/",
-      "avatarUrl": "/assets/source-avatars/718baf2f4c2fb8253e60.webp",
-      "sourceInitials": "JC",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_harmonica_johnny",
-          "name": "陳立強 Johnny Chen",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "harmonica_johnny",
-          "profileUrl": "https://www.instagram.com/harmonica_johnny/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_harmonica_johnny",
-          "name": "陳立強 Johnny Chen",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "harmonica_johnny",
-          "profileUrl": "https://www.instagram.com/harmonica_johnny/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_johnny/story/0"
         }
       ]
     },
@@ -2987,92 +3073,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/YoonseokLee_HARMONICA",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-115",
-      "publicId": "115",
-      "name": "Filip Jers",
-      "nameEn": "Filip Jers",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "瑞典",
-      "region": "瑞典",
-      "cityOrFocus": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出",
-      "structuredSummary": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出 / 半音階/十孔 / 國際演出人員/作曲者/教育者",
-      "summary": "瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。",
-      "keywords": "Filip Jers harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.filipjers.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/filipjersmusic/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/filipjersharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@filipjersmusic"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "115-filip-jers",
-      "latestUpdateAt": "2026-08-23T22:14:53+00:00",
-      "latestUpdateLocal": "2026-08-24 06:14",
-      "latestUpdateSource": "Filip Jers",
-      "latestUpdateUrl": "https://www.instagram.com/stories/filipjersharmonica/3970355617642341856/",
-      "avatarUrl": "/assets/source-avatars/0cd42e751710b0949492.webp",
-      "sourceInitials": "FJ",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_filipjersmusic",
-          "name": "Filip Jers",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/filipjersmusic",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_filipjersharmonica",
-          "name": "Filip Jers",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "filipjersharmonica",
-          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_filipjersharmonica",
-          "name": "Filip Jers",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "filipjersharmonica",
-          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/filipjersharmonica/story/0"
-        },
-        {
-          "id": "yt_filipjersmusic",
-          "name": "Filip Jers",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@filipjersmusic",
           "feedUrl": ""
         }
       ]
