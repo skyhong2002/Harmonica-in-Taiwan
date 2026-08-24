@@ -3252,6 +3252,72 @@
       ]
     },
     {
+      "id": "watchlist-116",
+      "publicId": "116",
+      "name": "Trio Animato",
+      "nameEn": "Trio Animato",
+      "category": "活動資訊",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "波蘭",
+      "region": "波蘭/什切青",
+      "cityOrFocus": "波蘭口琴三重奏/室內樂/國際音樂節/SIHF 2025",
+      "structuredSummary": "波蘭口琴三重奏/室內樂/國際音樂節/SIHF 2025 / 半音階/和弦/低音 / 國際演出團體",
+      "summary": "波蘭的國際演出團體，涵蓋波蘭口琴三重奏、室內樂、國際音樂節與SIHF 2025。",
+      "keywords": "Trio Animato Szczecin Poland harmonica trio SIHF 2025 chromatic chord bass",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://animato.info.pl/en/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/animato1978"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/animato1978"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "116-trio-animato",
+      "latestUpdateAt": "2026-08-23T12:35:45+00:00",
+      "latestUpdateLocal": "2026-08-23 20:35",
+      "latestUpdateSource": "Trio Animato",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=_73h6A7_BfY",
+      "avatarUrl": "/assets/source-avatars/c7a7842de365e0d36cc2.webp",
+      "sourceInitials": "TA",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "音樂節",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_animato1978",
+          "name": "Trio Animato",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/animato1978",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_animato1978",
+          "name": "Trio Animato",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/animato1978",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-260",
       "publicId": "260",
       "name": "梁芷菁 Steffi Leung",
@@ -8694,72 +8760,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@easttopmusic",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-116",
-      "publicId": "116",
-      "name": "Trio Animato",
-      "nameEn": "Trio Animato",
-      "category": "活動資訊",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "波蘭",
-      "region": "波蘭/什切青",
-      "cityOrFocus": "波蘭口琴三重奏/室內樂/國際音樂節/SIHF 2025",
-      "structuredSummary": "波蘭口琴三重奏/室內樂/國際音樂節/SIHF 2025 / 半音階/和弦/低音 / 國際演出團體",
-      "summary": "波蘭的國際演出團體，涵蓋波蘭口琴三重奏、室內樂、國際音樂節與SIHF 2025。",
-      "keywords": "Trio Animato Szczecin Poland harmonica trio SIHF 2025 chromatic chord bass",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://animato.info.pl/en/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/animato1978"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/user/animato1978"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "116-trio-animato",
-      "latestUpdateAt": "2026-08-17T20:50:01+00:00",
-      "latestUpdateLocal": "2026-08-18 04:50",
-      "latestUpdateSource": "Trio Animato",
-      "latestUpdateUrl": "https://www.facebook.com/reel/885604321025529/",
-      "avatarUrl": "/assets/source-avatars/c7a7842de365e0d36cc2.webp",
-      "sourceInitials": "TA",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "音樂節",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_animato1978",
-          "name": "Trio Animato",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/animato1978",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_animato1978",
-          "name": "Trio Animato",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/user/animato1978",
           "feedUrl": ""
         }
       ]

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T11:41:09.763783Z",
+  "generatedAt": "2026-08-24T12:17:28.201051Z",
   "source": {
     "id": 116,
     "slug": "trio-animato",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/116-trio-animato/"
   },
   "items": [
+    {
+      "id": "post-496298570e6c9a9d18547190",
+      "title": "@animato1978 - Alte Kameraden - Mundharmonika",
+      "excerpt": "@animato1978 - Alte Kameraden - Mundharmonika Carl Teike - Alte Kameraden Marek Jaroszyński - chromatische Mundharmonika Piotr Bieliński - akkorde Mundharmonika Piotr Włodarczyk - bass Mundharmonika",
+      "url": "https://www.youtube.com/watch?v=_73h6A7_BfY",
+      "sourceName": "Trio Animato",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-23T12:35:45Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f18c2d1e0fd3075be64a.webp",
+        "width": 640,
+        "height": 480
+      }
+    },
     {
       "id": "post-49e7adc585ce2dc561806492",
       "title": "\"Trio Animato\" aus Polen, die Stettiner Weltmeister auf den Mundharmonikas zur 122. & 123. “Musik im Schiff” 🎶",

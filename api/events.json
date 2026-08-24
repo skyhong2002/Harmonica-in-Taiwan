@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 721,
+  "count": 722,
   "items": [
     {
       "title": "太平國小口琴隊｜臺中市政府教育局-校園活動報導 --> 跳到主要內容區 臺中市政府教育局 回首頁 市府首頁 網站導覽 常見問答 快速連結 English 教育服務網 A- A A+ 搜尋 單位介紹 首長介紹 組織與職掌 各級學校 局徽介紹…",
@@ -1163,6 +1163,79 @@
         "學生社團"
       ],
       "key": "yt_uct3ifdfoqpndqm8j5chesda:8Ini7LuGv40"
+    },
+    {
+      "title": "animato1978｜@animato1978 - Alte Kameraden - Mundharmonika Carl Teike - Alte Kameraden Marek Jaroszyński - chromatische …",
+      "headline": "@animato1978 - Alte Kameraden - Mundharmonika",
+      "display_title": "@animato1978 - Alte Kameraden - Mundharmonika",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=_73h6A7_BfY",
+      "source_id": "yt_animato1978",
+      "source": "animato1978",
+      "source_system_name": "Trio Animato",
+      "source_profile_url": "https://www.youtube.com/channel/UCrr6Fvotw6G2lH8FlyjDlhw",
+      "country": "波蘭",
+      "region": "波蘭/什切青",
+      "directory_entry_id": "watchlist-116",
+      "directory_entry_name": "Trio Animato",
+      "account": "https://www.youtube.com/channel/UCrr6Fvotw6G2lH8FlyjDlhw",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-08-23T12:35:45+00:00",
+      "posted_at_local": "2026-08-23 20:35",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-24T12:16:16.184016+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "影片",
+        "公開更新"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.96,
+      "llm_labels": [
+        "口琴",
+        "影片",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "YouTube口琴演奏影片，內容明確提到多種口琴演出，屬公開更新且相關。",
+      "text": "@animato1978 - Alte Kameraden - Mundharmonika\nCarl Teike - Alte Kameraden\nMarek Jaroszyński - chromatische Mundharmonika\nPiotr Bieliński - akkorde Mundharmonika\nPiotr Włodarczyk - bass Mundharmonika",
+      "images": [
+        "https://i.ytimg.com/vi/_73h6A7_BfY/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AHOBoAC3gOKAgwIABABGFwgXChcMA8=&rs=AOn4CLButHGDJ3T1jdNKAWhc4fMz3Z6Yaw"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/_73h6A7_BfY/sddefault.jpg?sqp=-oaymwEmCIAFEOAD8quKqQMa8AEB-AHOBoAC3gOKAgwIABABGFwgXChcMA8=&rs=AOn4CLButHGDJ3T1jdNKAWhc4fMz3Z6Yaw",
+      "image_url": "/assets/feed-images/f18c2d1e0fd3075be64a.webp",
+      "image_width": 640,
+      "image_height": 480,
+      "source_avatar_url": "https://yt3.googleusercontent.com/Nxr-eHZ7f1d4Pi_-zC9FWAQzd8Pdw5sY2HrzBAs_sks8saiC7FNNmK1ATgJd_EM6p3TjBidN=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/4ea2062541f6ea882a87.webp",
+      "source_initials": "A",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "yt_animato1978:_73h6A7_BfY"
     },
     {
       "title": "RedBricks Harmonica｜🇹🇼 2026臺灣口琴音樂節 🇹🇼 感謝 @taiwanharmonica 的盛情邀請🙏 感謝主辦單位 @siriusharmonicaensemble 及音響控制的 @minnie.o6i8 ，以…",
