@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T23:19:11.570087Z",
+  "generatedAt": "2026-08-24T00:25:57.450161Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -186,20 +186,6 @@
       "publishedAt": "2026-07-27T00:00:06Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/167bfe0be689f7fe95d7.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-7d1fc3cf3860bec74f7c67a4",
-      "title": "【就是吹口琴Just Play Harmonica 】｜孫建平 & 葉璦菱 – 愛我別走｜複音口琴Tremolo Harmonica 演奏版本《C調》",
-      "excerpt": "【就是吹口琴Just Play Harmonica 】｜孫建平 & 葉璦菱 – 愛我別走｜複音口琴Tremolo Harmonica 演奏版本《C調》 愛我別走 王建青 作曲 王建青 作詞 孫建平 & 葉璦菱 原唱 複音口琴演奏版本《C調》",
-      "url": "https://www.youtube.com/watch?v=FXwHZeNgUKc",
-      "sourceName": "陳鴻儀",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-25T00:00:06Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/dce84d7929a5bb29fb8a.webp",
         "width": 800,
         "height": 450
       }
