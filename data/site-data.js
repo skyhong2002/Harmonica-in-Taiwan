@@ -440,6 +440,65 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-320",
+      "publicId": "320",
+      "name": "黃庭晧",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "Stay Drunk 口琴樂團成員/2026首爾國際口琴節成人重奏第二名/2026臺中一中校友音樂會與大學聯合成發演出/公開分享SIHF參賽、THMF工作人員與校友會指揮經歷",
+      "structuredSummary": "Stay Drunk 口琴樂團成員/2026首爾國際口琴節成人重奏第二名/2026臺中一中校友音樂會與大學聯合成發演出/公開分享SIHF參賽、THMF工作人員與校友會指揮經歷 / 口琴重奏 / 演出人員/樂團團員/校友會指揮",
+      "summary": "臺灣口琴演奏者、Stay Drunk 成員，參與 2026 SIHF 成人重奏第二名、臺中一中校友音樂會與大學聯合成發，並投入 THMF 工作及校友會指揮。",
+      "keywords": "黃庭晧 黃庭皓 hth941116 Stay Drunk 口琴樂團 SIHF THMF 首爾國際口琴節 臺灣口琴音樂節 臺中一中口琴社 口琴重奏 指揮 演出",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hth941116/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "320",
+      "latestUpdateAt": "2026-08-24T13:44:13+00:00",
+      "latestUpdateLocal": "2026-08-24 21:44",
+      "latestUpdateSource": "黃庭晧",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcbMsm3CdnK/",
+      "avatarUrl": "/assets/source-avatars/ac8adacd175d0ec3c54e.webp",
+      "sourceInitials": "黃庭",
+      "sourceTags": [
+        "演奏者",
+        "重奏",
+        "比賽",
+        "國際交流",
+        "演出"
+      ],
+      "sourceSummary": "臺灣口琴演奏者、Stay Drunk 成員，參與 2026 SIHF 成人重奏第二名、臺中一中校友音樂會與大學聯合成發，並投入 THMF 工作及校友會指揮。",
+      "sourceTagReason": "依本人公開貼文、Stay Drunk 演出影音與口琴社聯合成發名單交叉查證。",
+      "monitorSources": [
+        {
+          "id": "ig_hth941116",
+          "name": "黃庭晧",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hth941116",
+          "profileUrl": "https://www.instagram.com/hth941116/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hth941116",
+          "name": "黃庭晧",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hth941116",
+          "profileUrl": "https://www.instagram.com/hth941116/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hth941116/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-145",
       "publicId": "145",
       "name": "Joe Marhofer / The Headcutters",
@@ -21123,7 +21182,7 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 318,
+    "totalEntries": 319,
     "categories": {
       "其他來源": 2,
       "國際交流": 12,
@@ -21132,7 +21191,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "學校社團": 44,
       "教學器材": 26,
       "活動資訊": 44,
-      "演奏者": 107
+      "演奏者": 108
     },
     "countries": {
       "中國": 40,
@@ -21155,7 +21214,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "瑞士": 1,
       "紐西蘭": 1,
       "美國": 7,
-      "臺灣": 131,
+      "臺灣": 132,
       "英國": 3,
       "荷蘭": 1,
       "菲律賓": 1,
@@ -21166,14 +21225,14 @@ window.HARMONICA_OBSERVE_DATA = {
       "馬來西亞": 14
     },
     "watchSources": {
-      "totalSources": 785,
-      "rsshubSources": 394,
+      "totalSources": 787,
+      "rsshubSources": 396,
       "apifySources": 163,
       "facebookSources": 163,
       "youtubeSources": 140,
       "platforms": {
         "facebook": 163,
-        "instagram": 354,
+        "instagram": 356,
         "threads": 28,
         "website": 88,
         "x": 12,
@@ -21182,8 +21241,8 @@ window.HARMONICA_OBSERVE_DATA = {
       "types": {
         "facebook_page_posts": 163,
         "rss": 40,
-        "rsshub_instagram_profile": 177,
-        "rsshub_instagram_story": 177,
+        "rsshub_instagram_profile": 178,
+        "rsshub_instagram_story": 178,
         "webpage_watch": 88,
         "youtube_ytdlp": 140
       }

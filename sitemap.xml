@@ -91,6 +91,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/320/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/145-joe-marhofer/</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -2227,13 +2233,13 @@
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/tag/%E8%A4%87%E9%9F%B3/</loc>
+    <loc>https://harmonica.observe.tw/source/tag/%E6%AF%94%E8%B3%BD/</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/tag/%E6%AF%94%E8%B3%BD/</loc>
+    <loc>https://harmonica.observe.tw/source/tag/%E8%A4%87%E9%9F%B3/</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>
@@ -2300,6 +2306,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/tag/%E5%90%88%E5%A5%8F/</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/tag/%E6%BC%94%E5%87%BA/</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.65</priority>

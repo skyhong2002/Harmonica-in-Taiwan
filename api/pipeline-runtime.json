@@ -1,243 +1,177 @@
 {
   "currentStep": "",
-  "heartbeatAt": "2026-08-24T20:48:43.107594+00:00",
+  "heartbeatAt": "2026-08-24T20:58:21.774716+00:00",
   "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
   "maxPostAgeDays": 30,
-  "message": "Pipeline completed; publishing snapshot",
-  "pid": 90686,
-  "startedAt": "2026-08-24T20:42:36.379061+00:00",
+  "message": "Pipeline completed",
+  "pid": 15730,
+  "startedAt": "2026-08-24T20:57:45.222951+00:00",
   "status": "ok",
   "steps": [
     {
       "command": [
-        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/build_social_sources.py"
       ],
-      "finishedAt": "2026-08-24T20:42:36.460993+00:00",
+      "finishedAt": "2026-08-24T20:57:45.301131+00:00",
       "name": "build social sources",
       "returnCode": 0,
-      "startedAt": "2026-08-24T20:42:36.387054+00:00",
+      "startedAt": "2026-08-24T20:57:45.223401+00:00",
       "status": "ok"
     },
     {
       "command": [
-        "/Library/Developer/CommandLineTools/usr/bin/python3",
-        "scripts/youtube_ytdlp_fetcher.py",
-        "--max-post-age-days",
-        "30"
-      ],
-      "finishedAt": "2026-08-24T20:42:51.685699+00:00",
-      "name": "fetch youtube",
-      "returnCode": 0,
-      "startedAt": "2026-08-24T20:42:36.461453+00:00",
-      "status": "ok"
-    },
-    {
-      "command": [
-        "/Library/Developer/CommandLineTools/usr/bin/python3",
-        "scripts/apify_facebook_fetcher.py",
-        "--days-back",
-        "30",
-        "--local-max-post-age-days",
-        "30",
-        "--run"
-      ],
-      "finishedAt": "2026-08-24T20:42:52.794217+00:00",
-      "name": "fetch facebook apify",
-      "returnCode": 0,
-      "startedAt": "2026-08-24T20:42:51.686094+00:00",
-      "status": "ok"
-    },
-    {
-      "command": [
-        "/Library/Developer/CommandLineTools/usr/bin/python3",
-        "scripts/social_feed_watchdog.py",
-        "--max-post-age-days",
-        "30",
-        "--request-timeout",
-        "10"
-      ],
-      "finishedAt": "2026-08-24T20:47:33.208362+00:00",
-      "name": "watch social feeds",
-      "returnCode": 0,
-      "startedAt": "2026-08-24T20:42:52.796077+00:00",
-      "status": "ok"
-    },
-    {
-      "command": [
-        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/build_public_data.py"
       ],
-      "finishedAt": "2026-08-24T20:47:35.993743+00:00",
+      "finishedAt": "2026-08-24T20:57:47.590039+00:00",
       "name": "build public data",
       "returnCode": 0,
-      "startedAt": "2026-08-24T20:47:33.209004+00:00",
+      "startedAt": "2026-08-24T20:57:45.301637+00:00",
       "status": "ok"
     },
     {
       "command": [
-        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/backfill_public_source_pages.py",
         "--skip-fetch"
       ],
-      "finishedAt": "2026-08-24T20:47:40.539248+00:00",
+      "finishedAt": "2026-08-24T20:57:51.240162+00:00",
       "name": "backfill source pages",
       "returnCode": 0,
-      "startedAt": "2026-08-24T20:47:35.994854+00:00",
+      "startedAt": "2026-08-24T20:57:47.590568+00:00",
       "status": "ok"
     },
     {
       "command": [
-        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/build_public_data.py"
       ],
-      "finishedAt": "2026-08-24T20:47:43.123039+00:00",
+      "finishedAt": "2026-08-24T20:57:53.480924+00:00",
       "name": "rebuild public data",
       "returnCode": 0,
-      "startedAt": "2026-08-24T20:47:40.539852+00:00",
+      "startedAt": "2026-08-24T20:57:51.240753+00:00",
       "status": "ok"
     },
     {
       "command": [
-        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/build_score_publications.py"
       ],
-      "finishedAt": "2026-08-24T20:47:43.243449+00:00",
+      "finishedAt": "2026-08-24T20:57:53.570510+00:00",
       "name": "build score publications",
       "returnCode": 0,
-      "startedAt": "2026-08-24T20:47:43.123611+00:00",
+      "startedAt": "2026-08-24T20:57:53.481515+00:00",
       "status": "ok"
     },
     {
       "command": [
-        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/build_score_sources.py"
       ],
-      "finishedAt": "2026-08-24T20:47:43.282791+00:00",
+      "finishedAt": "2026-08-24T20:57:53.618883+00:00",
       "name": "build score sources",
       "returnCode": 0,
-      "startedAt": "2026-08-24T20:47:43.243997+00:00",
+      "startedAt": "2026-08-24T20:57:53.570991+00:00",
       "status": "ok"
     },
     {
       "command": [
-        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/generate_rss_feeds.py"
       ],
-      "finishedAt": "2026-08-24T20:48:10.213760+00:00",
+      "finishedAt": "2026-08-24T20:58:09.844894+00:00",
       "name": "generate rss feeds",
       "returnCode": 0,
-      "startedAt": "2026-08-24T20:47:43.283355+00:00",
+      "startedAt": "2026-08-24T20:57:53.619307+00:00",
       "status": "ok"
     },
     {
       "command": [
-        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/build_public_calendar_events.py"
       ],
-      "finishedAt": "2026-08-24T20:48:11.143988+00:00",
+      "finishedAt": "2026-08-24T20:58:10.393596+00:00",
       "name": "build public calendar events",
       "returnCode": 0,
-      "startedAt": "2026-08-24T20:48:10.214368+00:00",
+      "startedAt": "2026-08-24T20:58:09.845291+00:00",
       "status": "ok"
     },
     {
       "command": [
-        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/apply_submitted_events.py"
       ],
-      "finishedAt": "2026-08-24T20:48:11.293932+00:00",
+      "finishedAt": "2026-08-24T20:58:10.479555+00:00",
       "name": "apply submitted events",
       "returnCode": 0,
-      "startedAt": "2026-08-24T20:48:11.144619+00:00",
+      "startedAt": "2026-08-24T20:58:10.394088+00:00",
       "status": "ok"
     },
     {
       "command": [
-        "/Users/skyhong/.hermes/google-workspace-venv/bin/python",
-        "scripts/sync_google_calendar_events.py"
-      ],
-      "finishedAt": "2026-08-24T20:48:30.485868+00:00",
-      "name": "sync google calendar",
-      "returnCode": 0,
-      "startedAt": "2026-08-24T20:48:11.294558+00:00",
-      "status": "ok"
-    },
-    {
-      "command": [
-        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/build_status_page.py"
       ],
-      "finishedAt": "2026-08-24T20:48:32.808690+00:00",
+      "finishedAt": "2026-08-24T20:58:12.177534+00:00",
       "name": "build status page",
       "returnCode": 0,
-      "startedAt": "2026-08-24T20:48:30.486460+00:00",
+      "startedAt": "2026-08-24T20:58:10.480018+00:00",
       "status": "ok"
     },
     {
       "command": [
-        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/build_submit_page.py"
       ],
-      "finishedAt": "2026-08-24T20:48:32.836634+00:00",
+      "finishedAt": "2026-08-24T20:58:12.217477+00:00",
       "name": "build submit page",
       "returnCode": 0,
-      "startedAt": "2026-08-24T20:48:32.809493+00:00",
+      "startedAt": "2026-08-24T20:58:12.178032+00:00",
       "status": "ok"
     },
     {
       "command": [
-        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/generate_seo_pages.py"
       ],
-      "finishedAt": "2026-08-24T20:48:36.982347+00:00",
+      "finishedAt": "2026-08-24T20:58:15.174361+00:00",
       "name": "generate SEO pages",
       "returnCode": 0,
-      "startedAt": "2026-08-24T20:48:32.837170+00:00",
+      "startedAt": "2026-08-24T20:58:12.217936+00:00",
       "status": "ok"
     },
     {
       "command": [
-        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/generate_cloudflare_redirects.py"
       ],
-      "finishedAt": "2026-08-24T20:48:37.003068+00:00",
+      "finishedAt": "2026-08-24T20:58:15.221655+00:00",
       "name": "generate cloudflare redirects",
       "returnCode": 0,
-      "startedAt": "2026-08-24T20:48:36.983106+00:00",
+      "startedAt": "2026-08-24T20:58:15.174983+00:00",
       "status": "ok"
     },
     {
       "command": [
-        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/check_source_coverage.py"
       ],
-      "finishedAt": "2026-08-24T20:48:39.977338+00:00",
+      "finishedAt": "2026-08-24T20:58:17.917332+00:00",
       "name": "check source coverage",
       "returnCode": 0,
-      "startedAt": "2026-08-24T20:48:37.003520+00:00",
+      "startedAt": "2026-08-24T20:58:15.222196+00:00",
       "status": "ok"
     },
     {
       "command": [
-        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
         "scripts/validate_public_outputs.py"
       ],
-      "finishedAt": "2026-08-24T20:48:43.105965+00:00",
+      "finishedAt": "2026-08-24T20:58:21.773712+00:00",
       "name": "validate public outputs",
       "returnCode": 0,
-      "startedAt": "2026-08-24T20:48:39.978123+00:00",
-      "status": "ok"
-    },
-    {
-      "command": [
-        "/Library/Developer/CommandLineTools/usr/bin/python3",
-        "scripts/publish_github_pages.py"
-      ],
-      "finishedAt": "2026-08-24T20:48:43.107294+00:00",
-      "name": "publish github pages",
-      "returnCode": 0,
-      "startedAt": "2026-08-24T20:48:43.106944+00:00",
+      "startedAt": "2026-08-24T20:58:17.917926+00:00",
       "status": "ok"
     }
   ],
