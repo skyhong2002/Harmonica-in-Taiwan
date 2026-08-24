@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T11:06:46.666312Z",
+  "generatedAt": "2026-08-24T11:41:09.763783Z",
   "source": {
     "id": 30,
     "slug": "30",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/30/"
   },
   "items": [
+    {
+      "id": "post-4c92125d531a25af7104a373",
+      "title": "喜歡這個場地的氣氛，不管是公開舞台還是午間音樂會，這裡都是一個可以讓琴友們互相認識、交流的好地方：）",
+      "excerpt": "喜歡這個場地的氣氛，不管是公開舞台還是午間音樂會，這裡都是一個可以讓琴友們互相認識、交流的好地方：） 口琴節就是要這樣一起玩音樂",
+      "url": "https://www.instagram.com/p/Dca0KMCkial/",
+      "sourceName": "蔡明憲",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-24T10:09:48Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/68d4c5b61454df514eb0.webp",
+        "width": 800,
+        "height": 800
+      }
+    },
     {
       "id": "post-112f38313a3b94f8b80f74be",
       "title": "晚上音樂會後的零食大會是我最喜歡的環節，可以一次補足出國才能體驗到的各種美食，以及看大家驚訝的表情。",

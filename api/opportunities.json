@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
   "json": "https://harmonica.observe.tw/api/opportunities.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/opportunities.json",
-  "count": 150,
+  "count": 151,
   "items": [
     {
       "title": "太平國小口琴隊｜臺中市政府教育局-校園活動報導 --> 跳到主要內容區 臺中市政府教育局 回首頁 市府首頁 網站導覽 常見問答 快速連結 English 教育服務網 A- A A+ 搜尋 單位介紹 首長介紹 組織與職掌 各級學校 局徽介紹…",
@@ -818,6 +818,89 @@
         "補助比賽"
       ],
       "key": "fb_judys_harmonica_ensemble:1672658768199039"
+    },
+    {
+      "title": "Stay Drunk｜Taiwanese Opera Virtuoso 臺灣幻想曲-歌者 | Stay Drunk 2026 Seoul International Harmonica Festival Ensemble Adult 第二…",
+      "headline": "Taiwanese Opera Virtuoso 臺灣幻想曲-歌者 | Stay Drunk",
+      "display_title": "Taiwanese Opera Virtuoso 臺灣幻想曲-歌者 | Stay Drunk",
+      "title_kind": "title",
+      "link": "https://www.youtube.com/watch?v=YJIiMmHviwk",
+      "source_id": "yt_uct3ifdfoqpndqm8j5chesda",
+      "source": "Stay Drunk",
+      "source_system_name": "Stay Drunk 口琴樂團",
+      "source_profile_url": "https://www.youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-105",
+      "directory_entry_name": "Stay Drunk 口琴樂團",
+      "account": "https://www.youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA",
+      "platform": "youtube",
+      "platform_label": "YouTube",
+      "posted_at": "2026-08-23T05:45:10+00:00",
+      "posted_at_local": "2026-08-23 13:45",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-24T11:40:31.397256+00:00",
+      "media_type": "video",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "比賽",
+        "演出",
+        "影片"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "演出",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.99,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "比賽",
+        "演出",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴樂團公開影片，內容為國際口琴節比賽演出與得獎資訊。",
+      "text": "Taiwanese Opera Virtuoso 臺灣幻想曲-歌者 | Stay Drunk\n2026 Seoul International Harmonica Festival\nEnsemble Adult 第二名\n演出團體：Stay Drunk 口琴樂團\n曲目：Taiwanese Opera Virtuoso 臺灣幻想曲-歌者（編曲：林家靖）\n演出人員：張有璿、郭書蘋、白柏毅、黃庭晧、簡紹安\ninstagram: staydrunk_h.e\n-------------------------------------------------------------------------------------------------------------------\n2026 Seoul International Harmonica Festival\n2nd place – Ensemble Adult\nPerforming Group: Stay Drunk Harmonica Ensemble\nPiece: Taiwanese Opera Virtuoso 臺灣幻想曲-歌者 (Arranged by: 林家靖)\nPerformers: 張有璿、郭書蘋、白柏毅、黃庭皓、簡紹安\nInstagram: staydrunk_h.e",
+      "images": [
+        "https://i.ytimg.com/vi/YJIiMmHviwk/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "source_image_url": "https://i.ytimg.com/vi/YJIiMmHviwk/maxresdefault.jpg",
+      "image_url": "/assets/feed-images/aa4274426231043fe1ba.webp",
+      "image_width": 800,
+      "image_height": 450,
+      "source_avatar_url": "https://yt3.googleusercontent.com/BCsoMy1CU7x8QBR8p2iMiENgM-hwtMwp4xFRW6RpAzNTCbYxAc2y2NUwijye8qpJ-uNwnAjMfg=s900-c-k-c0x00ffffff-no-rj",
+      "avatar_url": "/assets/source-avatars/71484364c0862445e380.webp",
+      "source_initials": "SD",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽"
+      ],
+      "key": "yt_uct3ifdfoqpndqm8j5chesda:YJIiMmHviwk"
     },
     {
       "title": "張錫範｜안녕하세요, 인투더하모니카입니다. 지난 7월과 8월, 저희 인투더하모니카 수강생분들이 국제 하모니카 페스티벌에 출전하여 수상을 휩쓸었습니다. 열정과 노력으로 이뤄낸 결실을 함께 나누고자 수상 소식을 전합니다…",

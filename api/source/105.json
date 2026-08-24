@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T11:06:46.666312Z",
+  "generatedAt": "2026-08-24T11:41:09.763783Z",
   "source": {
     "id": 105,
     "slug": "stay-drunk-harmonica-ensemble",
@@ -8,6 +8,34 @@
     "pageUrl": "https://harmonica.observe.tw/source/105-stay-drunk-harmonica-ensemble/"
   },
   "items": [
+    {
+      "id": "post-73780d1c82e3d6eaaeb05252",
+      "title": "Formula 1 Theme | Stay Drunk",
+      "excerpt": "Formula 1 Theme | Stay Drunk 2026 臺中一中口琴社校友音樂會 演出團體：Stay Drunk 口琴樂團 曲目：Formula 1 Theme （編曲：Stay Drunk） 演出人員：張有璿、郭書蘋、白柏毅、黃庭晧、簡紹安 instagram: staydrunk_h.e ------------------------------------------------------------------------------------------------------------------- Performing…",
+      "url": "https://www.youtube.com/watch?v=8Ini7LuGv40",
+      "sourceName": "Stay Drunk 口琴樂團",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-23T13:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/3067ee93f937712a559f.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-b345897dee42dd3ae75ef1ec",
+      "title": "Taiwanese Opera Virtuoso 臺灣幻想曲-歌者 | Stay Drunk",
+      "excerpt": "Taiwanese Opera Virtuoso 臺灣幻想曲-歌者 | Stay Drunk 2026 Seoul International Harmonica Festival Ensemble Adult 第二名 演出團體：Stay Drunk 口琴樂團 曲目：Taiwanese Opera Virtuoso 臺灣幻想曲-歌者（編曲：林家靖） 演出人員：張有璿、郭書蘋、白柏毅、黃庭晧、簡紹安 instagram: staydrunk_h.e -----------------------------------------------------…",
+      "url": "https://www.youtube.com/watch?v=YJIiMmHviwk",
+      "sourceName": "Stay Drunk 口琴樂團",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-23T05:45:10Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/aa4274426231043fe1ba.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-ac2499a9cacafb3294b80d4b",
       "title": "2026 中一中校友音樂會 天琴聲等煙雨",

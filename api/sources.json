@@ -711,6 +711,161 @@
       ]
     },
     {
+      "id": "watchlist-30",
+      "publicId": "30",
+      "name": "蔡明憲",
+      "nameEn": "Ming-Sian Cai",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
+      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
+      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
+      "keywords": "蔡明憲 口琴 DMing Studio",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://dming.co/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/dming.tsai/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/damingtsai/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "30",
+      "latestUpdateAt": "2026-08-24T10:09:48+00:00",
+      "latestUpdateLocal": "2026-08-24 18:09",
+      "latestUpdateSource": "蔡明憲",
+      "latestUpdateUrl": "https://www.instagram.com/p/Dca0KMCkial/",
+      "avatarUrl": "/assets/source-avatars/b84205bff03e1b27bdcc.webp",
+      "sourceInitials": "蔡明",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_dming_tsai",
+          "name": "蔡明憲",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/dming.tsai",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_damingtsai",
+          "name": "蔡明憲",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "damingtsai",
+          "profileUrl": "https://www.instagram.com/damingtsai/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-165",
+      "publicId": "165",
+      "name": "馬來西亞口琴節",
+      "nameEn": "Malaysia Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "比賽/資訊入口",
+      "country": "馬來西亞",
+      "region": "馬來西亞/吉隆坡",
+      "cityOrFocus": "馬來西亞口琴節/比賽/學生與樂團",
+      "structuredSummary": "馬來西亞口琴節/比賽/學生與樂團 / 口琴/重奏/合奏 / 國際活動來源",
+      "summary": "馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。",
+      "keywords": "Malaysia Harmonica Festival MYHF Malaysia Harmonica Competition",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/malaysiaharmonicafestival/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/malaysia_harmonica_festival/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@malaysiaharmonicafestival5523"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "165-malaysia-harmonica-festival",
+      "latestUpdateAt": "2026-08-24T09:21:47+00:00",
+      "latestUpdateLocal": "2026-08-24 17:21",
+      "latestUpdateSource": "馬來西亞口琴節",
+      "latestUpdateUrl": "https://www.instagram.com/stories/malaysia_harmonica_festival/3970691274381846463/",
+      "avatarUrl": "/assets/source-avatars/729865183049d78cb9a5.webp",
+      "sourceInitials": "馬來",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "比賽",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_malaysiaharmonicafestival",
+          "name": "馬來西亞口琴節",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/malaysiaharmonicafestival",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_malaysia_harmonica_festival",
+          "name": "馬來西亞口琴節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "malaysia_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_malaysia_harmonica_festival",
+          "name": "馬來西亞口琴節",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "malaysia_harmonica_festival",
+          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/malaysia_harmonica_festival/story/0"
+        },
+        {
+          "id": "yt_malaysiaharmonicafestival5523",
+          "name": "馬來西亞口琴節",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@malaysiaharmonicafestival5523",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-186",
       "publicId": "186",
       "name": "中一中口琴社",
@@ -988,78 +1143,6 @@
           "username": "harmonica_johnny",
           "profileUrl": "https://www.instagram.com/harmonica_johnny/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_johnny/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-30",
-      "publicId": "30",
-      "name": "蔡明憲",
-      "nameEn": "Ming-Sian Cai",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/Laelaps/教學/硬體/演出",
-      "structuredSummary": "天狼星/Laelaps/教學/硬體/演出 / 和弦/重奏 / 演出人員/教學者",
-      "summary": "臺灣的和弦與重奏演出人員與教學者，活動脈絡包含天狼星、Laelaps與教學。",
-      "keywords": "蔡明憲 口琴 DMing Studio",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://dming.co/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/dming.tsai/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/damingtsai/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "30",
-      "latestUpdateAt": "2026-08-24T04:33:59+00:00",
-      "latestUpdateLocal": "2026-08-24 12:33",
-      "latestUpdateSource": "蔡明憲",
-      "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3970546419798555380/",
-      "avatarUrl": "/assets/source-avatars/b84205bff03e1b27bdcc.webp",
-      "sourceInitials": "蔡明",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_dming_tsai",
-          "name": "蔡明憲",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/dming.tsai",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_damingtsai",
-          "name": "蔡明憲",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "damingtsai",
-          "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
         }
       ]
     },
@@ -1843,7 +1926,7 @@
       "latestUpdateLocal": "2026-08-24 02:56",
       "latestUpdateSource": "Marcos Coll",
       "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3970256071901582163/",
-      "avatarUrl": "/assets/source-avatars/7e741834c637e61ff2b2.webp",
+      "avatarUrl": "/assets/source-avatars/2d8ba8633a0c301a211c.webp",
       "sourceInitials": "MC",
       "sourceTags": [
         "活動資訊",
@@ -3029,6 +3112,73 @@
       ]
     },
     {
+      "id": "watchlist-105",
+      "publicId": "105",
+      "name": "Stay Drunk 口琴樂團",
+      "nameEn": "Stay Drunk Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "大學生新生代團體",
+      "structuredSummary": "大學生新生代團體 / 口琴重奏 / 演出團體",
+      "summary": "臺灣的大學生新生代口琴重奏演出團體。",
+      "keywords": "Stay Drunk Stay Drunk H.E. Stay Drunk Harmonica Ensemble staydrunk_h.e 口琴樂團 大學生",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/staydrunk_h.e/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "105-stay-drunk-harmonica-ensemble",
+      "latestUpdateAt": "2026-08-23T13:00:06+00:00",
+      "latestUpdateLocal": "2026-08-23 21:00",
+      "latestUpdateSource": "Stay Drunk 口琴樂團",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=8Ini7LuGv40",
+      "avatarUrl": "/assets/source-avatars/19fce96d7d9e82ac27e7.webp",
+      "sourceInitials": "SD",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_staydrunk_h_e",
+          "name": "Stay Drunk 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "staydrunk_h.e",
+          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_staydrunk_h_e",
+          "name": "Stay Drunk 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "staydrunk_h.e",
+          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/staydrunk_h.e/story/0"
+        },
+        {
+          "id": "yt_uct3ifdfoqpndqm8j5chesda",
+          "name": "Stay Drunk 口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-42",
       "publicId": "42",
       "name": "王心禾",
@@ -3098,73 +3248,6 @@
           "username": "harmonica_wang",
           "profileUrl": "https://www.threads.net/@harmonica_wang",
           "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-105",
-      "publicId": "105",
-      "name": "Stay Drunk 口琴樂團",
-      "nameEn": "Stay Drunk Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "大學生新生代團體",
-      "structuredSummary": "大學生新生代團體 / 口琴重奏 / 演出團體",
-      "summary": "臺灣的大學生新生代口琴重奏演出團體。",
-      "keywords": "Stay Drunk Stay Drunk H.E. Stay Drunk Harmonica Ensemble staydrunk_h.e 口琴樂團 大學生",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/staydrunk_h.e/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "105-stay-drunk-harmonica-ensemble",
-      "latestUpdateAt": "2026-08-23T12:35:48+00:00",
-      "latestUpdateLocal": "2026-08-23 20:35",
-      "latestUpdateSource": "Stay Drunk 口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/staydrunk_h.e/3970064180807582485/",
-      "avatarUrl": "/assets/source-avatars/19fce96d7d9e82ac27e7.webp",
-      "sourceInitials": "SD",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_staydrunk_h_e",
-          "name": "Stay Drunk 口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "staydrunk_h.e",
-          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_staydrunk_h_e",
-          "name": "Stay Drunk 口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "staydrunk_h.e",
-          "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/staydrunk_h.e/story/0"
-        },
-        {
-          "id": "yt_uct3ifdfoqpndqm8j5chesda",
-          "name": "Stay Drunk 口琴樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA",
-          "feedUrl": ""
         }
       ]
     },
@@ -7312,89 +7395,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCIyVeF24bW3bO1azA8K8tgg",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-165",
-      "publicId": "165",
-      "name": "馬來西亞口琴節",
-      "nameEn": "Malaysia Harmonica Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "比賽/資訊入口",
-      "country": "馬來西亞",
-      "region": "馬來西亞/吉隆坡",
-      "cityOrFocus": "馬來西亞口琴節/比賽/學生與樂團",
-      "structuredSummary": "馬來西亞口琴節/比賽/學生與樂團 / 口琴/重奏/合奏 / 國際活動來源",
-      "summary": "馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。",
-      "keywords": "Malaysia Harmonica Festival MYHF Malaysia Harmonica Competition",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/malaysiaharmonicafestival/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/malaysia_harmonica_festival/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@malaysiaharmonicafestival5523"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "165-malaysia-harmonica-festival",
-      "latestUpdateAt": "2026-08-21T04:53:49+00:00",
-      "latestUpdateLocal": "2026-08-21 12:53",
-      "latestUpdateSource": "馬來西亞口琴節",
-      "latestUpdateUrl": "https://www.instagram.com/stories/malaysia_harmonica_festival/3968382078021809150/",
-      "avatarUrl": "/assets/source-avatars/729865183049d78cb9a5.webp",
-      "sourceInitials": "馬來",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "比賽",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_malaysiaharmonicafestival",
-          "name": "馬來西亞口琴節",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/malaysiaharmonicafestival",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_malaysia_harmonica_festival",
-          "name": "馬來西亞口琴節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "malaysia_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_malaysia_harmonica_festival",
-          "name": "馬來西亞口琴節",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "malaysia_harmonica_festival",
-          "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/malaysia_harmonica_festival/story/0"
-        },
-        {
-          "id": "yt_malaysiaharmonicafestival5523",
-          "name": "馬來西亞口琴節",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@malaysiaharmonicafestival5523",
           "feedUrl": ""
         }
       ]
