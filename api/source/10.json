@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T00:25:57.450161Z",
+  "generatedAt": "2026-08-24T01:32:48.460058Z",
   "source": {
     "id": 10,
     "slug": "rolabo-lin",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/10-rolabo-lin/"
   },
   "items": [
+    {
+      "id": "post-15eef1c65f99753308ed0076",
+      "title": "2026SIHF 南 South | 林家靖 口琴",
+      "excerpt": "2026SIHF 南 South | 林家靖 口琴 曲名 Song：南 South 作曲 Composer：林家靖 Rolabo Lin 演出 Performance ：林家靖 Rolabo Lin ■ 樂譜： ■ 第三年受邀到SIHF的舞台演出，我一直在思考除了複音口琴獨奏的演出外還能帶來什麼樣的突破，能讓觀眾再次感受到驚奇的魔法，我苦思良久，而一個大膽的、有些狂妄的、甚至已經埋藏在我心裡已久的想法竄上表面，使我不得不正視這個逃避已久的問題：何不自彈自吹呢？ Larry Adler 在1989年的世界口琴節中以左手替自己伴奏《Summertime》；…",
+      "url": "https://www.youtube.com/watch?v=kSi3oNQ2kPM",
+      "sourceName": "林家靖 Rolabo Lin",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-23T10:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/1a248e2aa0ad9052e4c9.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-8113490b5a652855e9993ae3",
       "title": "2026SIHF 鐘 La Campanella | 林家靖 口琴",

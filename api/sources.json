@@ -1807,6 +1807,103 @@
       ]
     },
     {
+      "id": "watchlist-100",
+      "publicId": "100",
+      "name": "曹小歐",
+      "nameEn": "Otis Tsao",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "單口喜劇/藍調口琴/演出",
+      "structuredSummary": "單口喜劇/藍調口琴/演出 / 十孔/藍調口琴 / 演出人員",
+      "summary": "臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。",
+      "keywords": "曹小歐 Otis Tsao 口琴 單口喜劇 藍調口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://portaly.cc/otistsao"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/otis5hundredtsao/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/otistsao/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@otistsao"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "100-otis-tsao",
+      "latestUpdateAt": "2026-08-23T13:20:16+00:00",
+      "latestUpdateLocal": "2026-08-23 21:20",
+      "latestUpdateSource": "曹小歐",
+      "latestUpdateUrl": "https://www.instagram.com/stories/otistsao/3970086538211423114/",
+      "avatarUrl": "/assets/source-avatars/b2f1b27b34a095c424a4.webp",
+      "sourceInitials": "曹小",
+      "sourceTags": [
+        "演奏者",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_otis5hundredtsao",
+          "name": "曹小歐",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/otis5hundredtsao",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_otistsao",
+          "name": "曹小歐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "otistsao",
+          "profileUrl": "https://www.instagram.com/otistsao/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_otistsao",
+          "name": "曹小歐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "otistsao",
+          "profileUrl": "https://www.instagram.com/otistsao/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/otistsao/story/0"
+        },
+        {
+          "id": "threads_otistsao",
+          "name": "曹小歐",
+          "platform": "threads",
+          "type": "rss",
+          "username": "otistsao",
+          "profileUrl": "https://www.threads.net/@otistsao",
+          "feedUrl": "https://rss.observe.tw/threads/otistsao"
+        },
+        {
+          "id": "yt_ucbdafdgrntui_iqtg9e4bmw",
+          "name": "曹小歐",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-111",
       "publicId": "111",
       "name": "Lee Hangyeol 이한결",
@@ -3174,6 +3271,92 @@
       ]
     },
     {
+      "id": "watchlist-10",
+      "publicId": "10",
+      "name": "林家靖 Rolabo Lin",
+      "nameEn": "Rolabo Lin",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "半音階/複音/原創/比賽曲/SIHF 2026/2026 琴韻東坡・簧鳴西南",
+      "structuredSummary": "半音階/複音/原創/比賽曲/SIHF 2026/2026 琴韻東坡・簧鳴西南 / 半音階/複音 / 演出人員",
+      "summary": "臺灣的半音階與複音演出人員，活動脈絡包含原創、比賽曲與SIHF 2026。",
+      "keywords": "林家靖 Rolabo Lin Jia-jing Lin SIHF 2026 琴韻東坡 簧鳴西南",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/jia-jing/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HarmonicaLin/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/rolabo_lin/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "10-rolabo-lin",
+      "latestUpdateAt": "2026-08-23T10:00:06+00:00",
+      "latestUpdateLocal": "2026-08-23 18:00",
+      "latestUpdateSource": "林家靖 Rolabo Lin",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=kSi3oNQ2kPM",
+      "avatarUrl": "/assets/source-avatars/rolabo-lin.jpg",
+      "sourceInitials": "RL",
+      "sourceTags": [
+        "演奏者",
+        "比賽",
+        "半音階",
+        "複音"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonicalin",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HarmonicaLin",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_rolabo_lin",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "rolabo_lin",
+          "profileUrl": "https://www.instagram.com/rolabo_lin/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_rolabo_lin",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "rolabo_lin",
+          "profileUrl": "https://www.instagram.com/rolabo_lin/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/rolabo_lin/story/0"
+        },
+        {
+          "id": "yt_ucq7wiztevpndeaaj6rdxzea",
+          "name": "林家靖 Rolabo Lin",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-218",
       "publicId": "218",
       "name": "Evelyn Choong 鍾雪兒",
@@ -3329,103 +3512,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@leeoskarharmonicas",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-100",
-      "publicId": "100",
-      "name": "曹小歐",
-      "nameEn": "Otis Tsao",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "單口喜劇/藍調口琴/演出",
-      "structuredSummary": "單口喜劇/藍調口琴/演出 / 十孔/藍調口琴 / 演出人員",
-      "summary": "臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。",
-      "keywords": "曹小歐 Otis Tsao 口琴 單口喜劇 藍調口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/otistsao"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/otis5hundredtsao/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/otistsao/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@otistsao"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "100-otis-tsao",
-      "latestUpdateAt": "2026-08-23T06:18:42+00:00",
-      "latestUpdateLocal": "2026-08-23 14:18",
-      "latestUpdateSource": "曹小歐",
-      "latestUpdateUrl": "https://www.instagram.com/stories/otistsao/3969874369064858400/",
-      "avatarUrl": "/assets/source-avatars/b2f1b27b34a095c424a4.webp",
-      "sourceInitials": "曹小",
-      "sourceTags": [
-        "演奏者",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_otis5hundredtsao",
-          "name": "曹小歐",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/otis5hundredtsao",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_otistsao",
-          "name": "曹小歐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "otistsao",
-          "profileUrl": "https://www.instagram.com/otistsao/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_otistsao",
-          "name": "曹小歐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "otistsao",
-          "profileUrl": "https://www.instagram.com/otistsao/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/otistsao/story/0"
-        },
-        {
-          "id": "threads_otistsao",
-          "name": "曹小歐",
-          "platform": "threads",
-          "type": "rss",
-          "username": "otistsao",
-          "profileUrl": "https://www.threads.net/@otistsao",
-          "feedUrl": "https://rss.observe.tw/threads/otistsao"
-        },
-        {
-          "id": "yt_ucbdafdgrntui_iqtg9e4bmw",
-          "name": "曹小歐",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
           "feedUrl": ""
         }
       ]
@@ -5620,92 +5706,6 @@
           "username": "r83350",
           "profileUrl": "https://www.instagram.com/r83350/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/r83350/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-10",
-      "publicId": "10",
-      "name": "林家靖 Rolabo Lin",
-      "nameEn": "Rolabo Lin",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "半音階/複音/原創/比賽曲/SIHF 2026/2026 琴韻東坡・簧鳴西南",
-      "structuredSummary": "半音階/複音/原創/比賽曲/SIHF 2026/2026 琴韻東坡・簧鳴西南 / 半音階/複音 / 演出人員",
-      "summary": "臺灣的半音階與複音演出人員，活動脈絡包含原創、比賽曲與SIHF 2026。",
-      "keywords": "林家靖 Rolabo Lin Jia-jing Lin SIHF 2026 琴韻東坡 簧鳴西南",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/jia-jing/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HarmonicaLin/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/rolabo_lin/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "10-rolabo-lin",
-      "latestUpdateAt": "2026-08-22T10:24:35+00:00",
-      "latestUpdateLocal": "2026-08-22 18:24",
-      "latestUpdateSource": "林家靖 Rolabo Lin",
-      "latestUpdateUrl": "https://www.instagram.com/stories/rolabo_lin/3969273350459065929/",
-      "avatarUrl": "/assets/source-avatars/rolabo-lin.jpg",
-      "sourceInitials": "RL",
-      "sourceTags": [
-        "演奏者",
-        "比賽",
-        "半音階",
-        "複音"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonicalin",
-          "name": "林家靖 Rolabo Lin",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HarmonicaLin",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_rolabo_lin",
-          "name": "林家靖 Rolabo Lin",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "rolabo_lin",
-          "profileUrl": "https://www.instagram.com/rolabo_lin/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_rolabo_lin",
-          "name": "林家靖 Rolabo Lin",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "rolabo_lin",
-          "profileUrl": "https://www.instagram.com/rolabo_lin/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/rolabo_lin/story/0"
-        },
-        {
-          "id": "yt_ucq7wiztevpndeaaj6rdxzea",
-          "name": "林家靖 Rolabo Lin",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCq7wIztEVPNDEaAJ6rdXZEA",
-          "feedUrl": ""
         }
       ]
     },

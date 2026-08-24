@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
   "json": "https://harmonica.observe.tw/api/opportunities.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/opportunities.json",
-  "count": 151,
+  "count": 152,
   "items": [
     {
       "title": "太平國小口琴隊｜臺中市政府教育局-校園活動報導 --> 跳到主要內容區 臺中市政府教育局 回首頁 市府首頁 網站導覽 常見問答 快速連結 English 教育服務網 A- A A+ 搜尋 單位介紹 首長介紹 組織與職掌 各級學校 局徽介紹…",
@@ -257,6 +257,94 @@
         "補助比賽"
       ],
       "key": "ig_judys_harmonica_ensemble:https://www.instagram.com/p/DcYSVsQlPVN/"
+    },
+    {
+      "title": "Judy’s Harmonica Ensemble 茱蒂口琴樂團｜【2027 日本口琴節】 樂團將於 2027 年 4 月前往日本東京，參加「2027 日本口琴節（日本ハーモニカまつり 2027）」！！ 2027 年對口琴而言，是一個很特…",
+      "headline": "【2027 日本口琴節】",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/Judys.Harmonica.Ensemble/posts/pfbid0md7zmyeBdRT2acJ2jmvAQAoe1jMNiAEZqch9NJz16GeCrFuwzxpG24TUjp5TofR5l",
+      "source_id": "fb_judys_harmonica_ensemble",
+      "source": "Judy’s Harmonica Ensemble 茱蒂口琴樂團",
+      "source_system_name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+      "source_profile_url": "https://facebook.com/Judys.Harmonica.Ensemble",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-4",
+      "directory_entry_name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+      "account": "Judys.Harmonica.Ensemble",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-08-23T10:30:22.000Z",
+      "posted_at_local": "2026-08-23 18:30",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-24T01:32:07.966340+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "音樂會",
+        "演出",
+        "報名"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "音樂會",
+        "演出",
+        "報名",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.99,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "音樂會",
+        "演出",
+        "報名"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "口琴樂團公告參加日本口琴節，含音樂會演出與報名資訊，屬公開更新與活動資訊。",
+      "text": "【2027 日本口琴節】\n樂團將於 2027 年 4 月前往日本東京，參加「2027 日本口琴節（日本ハーモニカまつり 2027）」！！\n2027 年對口琴而言，是一個很特別的年份。適逢口琴誕生 200 週年，同時也是佐藤秀廊世界大賽優勝 100 週年，日本口琴藝術協會特別以這兩個重要的紀念年份為主軸，舉辦為期兩天的活動，透過音樂會、論壇、紀念派對及合奏研習等不同節目，一起紀念口琴發展的重要時刻。\n我們將在第一天的「春季大型音樂會」登台演出，也將與頂尖的日本口琴演奏家稻川有德合作演出！！✨\n🪄 演出資訊\n・活動｜春季大型音樂會\n・日期｜2027 年 4 月 23 日（五）\n・時間｜13:00–14:40\n・地點｜國立奧林匹克紀念青少年綜合中心\n東京都渋谷区代々木神園町3\n🎫 活動參加費\n・4/23–24 兩天｜會員 20,000 日圓／非會員 22,000 日圓\n・4/23 單日｜18,000 日圓（含午餐及紀念派對）\n（備註：30 歲以下參加者可享參加費半價）\n📌 活動詳細資訊及報名方式，請以日本口琴藝術協會官方網站公告為準。\n【2027 Japan Harmonica Festival】\nOur band will be heading to Tokyo, Japan in April 2027 to take part in the 2027 Japan Harmonica Festival!!\n2027 is a particularly special year for the harmonica. It marks the 200th anniversary of the harmonica, as well as the 100th anniversary of Shuro Sato’s victory in the World Championship. To commemorate these two important milestones, the Japan Harmonica Arts Association is organizing a two-day festival featuring concerts, forums, a commemorative party, ensemble workshops, and more, celebrating the history and development of the harmonica.\nWe’ll be performing on the first day at the Spring Grand Concert, where we’ll also have the opportunity to perform alongside renowned Japanese h…",
+      "images": [
+        "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/784293489_1672658844865698_8903911751160209156_n.jpg?stp=dst-jpg_tt6&cstp=mx1240x1754&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=_uC8hT8IvYMQ7kNvwG-KoYj&_nc_oc=AdqTyt_o8Q5U0XSNf6KMHrFfj76t7JvZs3rQD7_jBU_AoaPe3EQSv2e0gd5NawCVFIzegr1aGZxxsS_5ahaxIylX&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=w4P1KplqwBU8J_QCm7zElA&_nc_ss=72289&oh=00_AQECuMRpIkTJ6CI3BW2pYpMTwP28EUZA0CO-nHZxSCTnFg&oe=6A915B43",
+        "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/784005677_1672658871532362_4394197984584472339_n.jpg?stp=dst-jpg_tt6&cstp=mx1240x1754&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=KvhqY2XD20sQ7kNvwEksvSa&_nc_oc=AdojwtsIHjiKPHlBUonV9dytZ2z-NfeFATzV6i1d7LESWZn_2rkIQ2ZL255EQZAdqSnxgvh7OP1Gg66cVBJSW2yh&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=w4P1KplqwBU8J_QCm7zElA&_nc_ss=72289&oh=00_AQHVczsgHIf5TkUvepzvRD8ebpaw5yuaJy7FBnH7FjDqyA&oe=6A91813C",
+        "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-6/784080454_1672658884865694_9072995202811911500_n.jpg?stp=dst-jpg_tt6&cstp=mx1240x1754&ctp=s590x590&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=XJf2MCn3a_sQ7kNvwHtwKsS&_nc_oc=AdoxTp1oZzUWoDXYwGHFFMTu6MgeLVdhgJTu108F7M9K6QmlB6OvLePDuF253iaV6NR3TU5YNEjbD-1xubFOy4Sd&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&_nc_gid=w4P1KplqwBU8J_QCm7zElA&_nc_ss=72289&oh=00_AQF8Nz2LjRIelpfTrN2oDqUQt9B8TUSbAdzBAiswr2yN9g&oe=6A916622",
+        "https://scontent-dfw6-1.xx.fbcdn.net/v/t39.30808-6/784819007_1672658854865697_2509689500826557290_n.jpg?stp=dst-jpg_tt6&cstp=mx1240x1754&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=rykqBrzdldYQ7kNvwGhWIfP&_nc_oc=AdroJ8AnWqTBel-9Z2jxlk0BvANN670varvKJUTKL2xjQq62UYLY6WmJF1vU8JQoa16WIRULsJrFPHWz19QyWVTw&_nc_zt=23&_nc_ht=scontent-dfw6-1.xx&_nc_gid=w4P1KplqwBU8J_QCm7zElA&_nc_ss=72289&oh=00_AQFoq1ZCCu_ri9jMpmB2-jEZmn0_AGQGp3741MoTX-jZ-Q&oe=6A91615B"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/784293489_1672658844865698_8903911751160209156_n.jpg?stp=dst-jpg_tt6&cstp=mx1240x1754&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=_uC8hT8IvYMQ7kNvwG-KoYj&_nc_oc=AdqTyt_o8Q5U0XSNf6KMHrFfj76t7JvZs3rQD7_jBU_AoaPe3EQSv2e0gd5NawCVFIzegr1aGZxxsS_5ahaxIylX&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=w4P1KplqwBU8J_QCm7zElA&_nc_ss=72289&oh=00_AQECuMRpIkTJ6CI3BW2pYpMTwP28EUZA0CO-nHZxSCTnFg&oe=6A915B43",
+      "image_url": "/assets/feed-images/16e6c67f2b7ac9e5d2a3.webp",
+      "image_width": 417,
+      "image_height": 590,
+      "source_avatar_url": "https://scontent-dfw6-2.xx.fbcdn.net/v/t39.30808-1/433282480_921577453307178_4811197926085158433_n.jpg?stp=c274.244.1500.1500a_cp0_dst-jpg_tt6&cstp=mx1500x1500&ctp=s50x50&_nc_cat=109&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=wa_gH99we1sQ7kNvwE74Lf3&_nc_oc=Adq-SwLoiWBV5etCZuQA7IQA2JPKq83prplDk92FZGszbUPlbxrHrDQD2kEqvw1eNN5hvRdgAEtjMzQRXpZD4XI7&_nc_zt=24&_nc_ht=scontent-dfw6-2.xx&_nc_gid=w4P1KplqwBU8J_QCm7zElA&_nc_ss=72289&oh=00_AQGbvohEY0w6k_tUNPjFLjkSaoEnz141sNtuIfeu7u160g&oe=6A916538",
+      "avatar_url": "/assets/source-avatars/060fffa5f9af31aa678a.webp",
+      "source_initials": "JSH",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽"
+      ],
+      "key": "fb_judys_harmonica_ensemble:1672658768199039"
     },
     {
       "title": "第十五屆亞太口琴藝術週｜第十五届亚太口琴艺术周--活动详情 第十五届亚太口琴艺术周--活动详情 中文 EN 日语 Korean 江苏惠文乐器有限公司、江苏东方乐器有限公司、江苏惠文文化发展有限公司 切换语言 口琴音乐赛事中心 注册 / 登…",
@@ -1212,6 +1300,82 @@
         "補助比賽"
       ],
       "key": "ig_story_moridaira_mi:3967923077438079271_51153364218"
+    },
+    {
+      "title": "F.I.H. JAPAN ハーモニカコンテスト｜https://www.facebook.com/moridaira/posts/pfbid02e8gYWYQZ964TsA9x26pHmecPsvqPgY3AVq5AoAtURoygu9c…",
+      "headline": "https://www.facebook.com/moridaira/posts/pfbid02e8gYWYQZ964TsA9x26pHmecPsvqPgY3AVq5AoAtURoygu9c6Ae6P8nGDT5Pd2agFl",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/moridaira/posts/pfbid02e8gYWYQZ964TsA9x26pHmecPsvqPgY3AVq5AoAtURoygu9c6Ae6P8nGDT5Pd2agFl",
+      "source_id": "fb_moridaira",
+      "source": "F.I.H. JAPAN ハーモニカコンテスト",
+      "source_system_name": "F.I.H. JAPAN ハーモニカコンテスト",
+      "source_profile_url": "https://facebook.com/moridaira",
+      "country": "日本",
+      "region": "日本",
+      "directory_entry_id": "watchlist-63",
+      "directory_entry_name": "F.I.H. JAPAN ハーモニカコンテスト",
+      "account": "moridaira",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-08-20T13:41:35.000Z",
+      "posted_at_local": "2026-08-20 21:41",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-24T01:32:07.966340+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "比賽",
+        "公開更新"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.93,
+      "llm_labels": [
+        "口琴",
+        "比賽",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "來源為口琴比賽官方貼文，屬口琴相關公開更新，適合收錄。",
+      "text": "https://www.facebook.com/moridaira/posts/pfbid02e8gYWYQZ964TsA9x26pHmecPsvqPgY3AVq5AoAtURoygu9c6Ae6P8nGDT5Pd2agFl",
+      "images": [
+        "https://scontent-lga3-3.xx.fbcdn.net/v/t51.82787-15/775591709_18079694051708219_2917701833283497962_n.webp?stp=dst-jpg_tt6&cstp=mx1440x1080&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=4XD6zREkVlcQ7kNvwHA8H-f&_nc_oc=AdraNw5H_HlWywHaJGu8kZffQWKV_4-RGc_wVckK1VUUDPV-XSyBp7OorSz-hGeoMlZ_PXLXXKQ6RgR8ZuJykPSW&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=_fapOfCNM9qaByJhbz0e8w&_nc_ss=72289&oh=00_AQFq7Dl1kcHjOZg_eb7mVZ51pIzlf3L-Why9ujU69EeiUA&oe=6A916A59",
+        "https://scontent-lga3-3.xx.fbcdn.net/v/t51.82787-15/774165770_18079694060708219_4026733488199227440_n.webp?stp=dst-jpg_tt6&cstp=mx1440x1080&ctp=s590x590&_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=dWoiIzrvxhEQ7kNvwFpwJd7&_nc_oc=AdrfgdY93-eDVRsRUoRj1RAAqzTOXi7rnkxIPaPeTD5ehOXoAdIYd7I95sCRqpUk49GhuqmMR3jzeLAd3cXlRIOU&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=_fapOfCNM9qaByJhbz0e8w&_nc_ss=72289&oh=00_AQFstTJWPJ-Hl9hIsrrfEm2E-YI3OMQK-wBOtOr9d1rL7A&oe=6A915D83"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-lga3-3.xx.fbcdn.net/v/t51.82787-15/775591709_18079694051708219_2917701833283497962_n.webp?stp=dst-jpg_tt6&cstp=mx1440x1080&ctp=s590x590&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=4XD6zREkVlcQ7kNvwHA8H-f&_nc_oc=AdraNw5H_HlWywHaJGu8kZffQWKV_4-RGc_wVckK1VUUDPV-XSyBp7OorSz-hGeoMlZ_PXLXXKQ6RgR8ZuJykPSW&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=_fapOfCNM9qaByJhbz0e8w&_nc_ss=72289&oh=00_AQFq7Dl1kcHjOZg_eb7mVZ51pIzlf3L-Why9ujU69EeiUA&oe=6A916A59",
+      "image_url": "/assets/feed-images/ff1c0ba9138ed919e28f.webp",
+      "image_width": 590,
+      "image_height": 443,
+      "source_avatar_url": "https://scontent-lga3-2.xx.fbcdn.net/v/t39.30808-1/302686318_566359691952811_7905585025182443231_n.png?stp=cp0_dst-png&cstp=mx350x350&ctp=s50x50&_nc_cat=101&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=43OQkH7SZ40Q7kNvwEAnsTW&_nc_oc=Adp6rUqGbg2G3TWwi3p0g3qAfuxjo_umeMWhlabcj9WgPt_I28mAOxRTjuXr-Utkg6_NUrH1EMW4t45NJ_02PJoH&_nc_zt=24&_nc_ht=scontent-lga3-2.xx&_nc_gid=_fapOfCNM9qaByJhbz0e8w&_nc_ss=72289&oh=00_AQGChKETeWRoDNeDTrVtSGix-leJcmYvRRQns6apc4Y5Vw&oe=6A918749",
+      "avatar_url": "/assets/source-avatars/301f3881b5cca32c091d.webp",
+      "source_initials": "FIH",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽"
+      ],
+      "key": "fb_moridaira:1575104684411635"
     },
     {
       "title": "The Hong Kong Children's Choir｜香兒藝術發展基金 | HKCC Arts Development Fund 成立於2018年，基金包括兩大計劃，全面支持不同階段並對藝術有濃厚興趣的學生。 「藝術體驗計劃」 此…",
@@ -12234,81 +12398,6 @@
         "學生社團"
       ],
       "key": "fb_kcobaps:1669337345197705"
-    },
-    {
-      "title": "Yellow Pine Harmonica Festival｜The Yellow Pine Harmonica Festival is looking for help during the event! This magical we…",
-      "headline": "The Yellow Pine Harmonica Festival is looking for help during the event! This magical weekend comes together in large p…",
-      "display_title": "",
-      "title_kind": "caption",
-      "link": "https://www.facebook.com/YellowPineHarmonicaFestival/posts/pfbid02xqzkHieyNnVXmp53pakengZzYtKeC3r7Qk5Dbd1Rh9FKVBufut8aZzhntWMRWuyul",
-      "source_id": "fb_yellowpineharmonicafestival",
-      "source": "Yellow Pine Harmonica Festival",
-      "source_system_name": "Yellow Pine Harmonica Festival",
-      "source_profile_url": "https://facebook.com/YellowPineHarmonicaFestival",
-      "country": "美國",
-      "region": "美國/愛達荷/Yellow Pine",
-      "directory_entry_id": "watchlist-174",
-      "directory_entry_name": "Yellow Pine Harmonica Festival",
-      "account": "YellowPineHarmonicaFestival",
-      "platform": "facebook",
-      "platform_label": "Facebook",
-      "posted_at": "2026-07-25T00:46:04.000Z",
-      "posted_at_local": "2026-07-25 08:46",
-      "like_count": null,
-      "comment_count": null,
-      "share_count": null,
-      "reaction_count": null,
-      "view_count": null,
-      "seen_at": "2026-07-26T02:58:49.728632+00:00",
-      "media_type": "",
-      "story": false,
-      "story_provider": "",
-      "story_fetched_at": "",
-      "story_expires_at": "",
-      "source_feed_url": "",
-      "rsshub_guid": "",
-      "rsshub_title": "",
-      "instagram_user_id": "",
-      "matched_keywords": [
-        "口琴",
-        "公開更新",
-        "報名"
-      ],
-      "keyword_matches": [
-        "harmonica"
-      ],
-      "llm_relevant": true,
-      "llm_confidence": 0.93,
-      "llm_labels": [
-        "口琴",
-        "公開更新",
-        "報名"
-      ],
-      "llm_categories": [
-        "opportunities"
-      ],
-      "llm_reason": "口琴節活動招募志工並提供報名連結，屬口琴相關公開更新與報名資訊。",
-      "text": "The Yellow Pine Harmonica Festival is looking for help during the event! This magical weekend comes together in large part by the efforts of our VOLUNTEERS!!!\nWE WANT YOU!!!!... to lend a hand, AND have a great time at the event!!!\n... And we'll give you a free Volunteer Tshirt!\nSign up here:",
-      "images": [],
-      "videos": [],
-      "source_image_url": "",
-      "image_url": "",
-      "image_width": null,
-      "image_height": null,
-      "source_avatar_url": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-1/488459367_984147080582223_6369034247251819963_n.jpg?stp=c83.83.334.334a_cp0_dst-jpg_tt6&cstp=mx334x334&ctp=s50x50&_nc_cat=100&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=cVGgfjlKrEEQ7kNvwFGrxYg&_nc_oc=AdrBIr88ZOss3mbMWdUuXQIDOxOq58ktTJpZtgut4_SR-Wlui-MtmJCfjAtDlKqgHvM&_nc_zt=24&_nc_ht=scontent-sjc6-1.xx&_nc_gid=3NmVP8KXc8Xqt2RYPDdHZw&_nc_ss=72289&oh=00_AQAU73RZ_Al8Dk8bGNl_1z33v2nXr1P0QgnqR-OXXiR9DA&oe=6A6B5A13",
-      "avatar_url": "/assets/source-avatars/8b1a1d9bb317210005d9.webp",
-      "source_initials": "YPH",
-      "categories": [
-        "posts-videos",
-        "opportunities",
-        "events"
-      ],
-      "category_labels": [
-        "貼文影片",
-        "補助比賽",
-        "公開活動"
-      ],
-      "key": "fb_yellowpineharmonicafestival:1370203785309882"
     }
   ]
 }
