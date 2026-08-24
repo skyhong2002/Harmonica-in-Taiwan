@@ -5,7 +5,29 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 24 Aug 2026 21:54:58 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 23:03:13 +0000</lastBuildDate>
+    <item>
+      <title>Younghoon Cho</title>
+      <link>https://linktr.ee/hoontobe</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/2a1ec747c34bfb28</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、合奏、國際交流
+國家：韓國
+地區：韓國
+韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。</description>
+    </item>
+    <item>
+      <title>Rachelle Plas &amp; Philippe Hervouet</title>
+      <link>http://www.plashervouetband.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c56a0214c22596be</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、十孔、國際交流
+國家：法國
+地區：法國
+法國的十孔、藍調口琴、吉他與人聲國際演出團體，活動脈絡包含WHF 2025、吉他與歌唱與Golden Melody ambassador。</description>
+    </item>
     <item>
       <title>Jong-seong Park 朴鍾聲</title>
       <link>https://www.mnac.co.kr/jongseongpark</link>
@@ -60,6 +82,17 @@ Tag：演奏者、重奏、國際交流
 國家：馬來西亞
 地區：臺灣/花蓮；馬來西亞
 馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。</description>
+    </item>
+    <item>
+      <title>Leafin Harmonica Ensemble</title>
+      <link>https://worldharmonicafestival.de/wp-content/uploads/2025/11/whf-2025_final-results.pdf</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/8598377b82618e6b</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏、國際交流
+國家：馬來西亞
+地區：馬來西亞
+馬來西亞的口琴三重奏與口琴合奏國際演出團體與青年團體，活動脈絡包含青年口琴重奏、大學與社區舞台與2025世界口琴節成人三重奏第七名（優秀評等）。</description>
     </item>
     <item>
       <title>黃庭晧</title>
@@ -181,6 +214,17 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/新竹
 臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
+    </item>
+    <item>
+      <title>中一中口琴社</title>
+      <link>https://www.facebook.com/tcfsh.harmonica/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/b3573157b47dd1b8</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：學校社團
+Tag：學生社團
+國家：臺灣
+地區：臺灣/臺中
+臺灣的口琴學校社團。</description>
     </item>
     <item>
       <title>Gregoire Maret</title>
@@ -381,17 +425,6 @@ Tag：活動資訊、團體樂團、比賽、重奏、國際交流
 馬來西亞的國際活動來源，涵蓋馬來西亞口琴節、比賽與學生與樂團。</description>
     </item>
     <item>
-      <title>中一中口琴社</title>
-      <link>https://www.facebook.com/tcfsh.harmonica/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/b3573157b47dd1b8</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：學校社團
-Tag：學生社團
-國家：臺灣
-地區：臺灣/臺中
-臺灣的口琴學校社團。</description>
-    </item>
-    <item>
       <title>Duo Volce Music Studio 誼聲音樂室</title>
       <link>https://www.duovolce.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/68802537913ce467</guid>
@@ -456,17 +489,6 @@ Tag：品牌、教學器材、教學、國際交流
 國家：德國
 地區：德國/國際
 德國的口琴器材品牌，關注口琴製造、產品資訊、演奏推廣與國際社群。</description>
-    </item>
-    <item>
-      <title>Younghoon Cho</title>
-      <link>https://linktr.ee/hoontobe</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/2a1ec747c34bfb28</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、合奏、國際交流
-國家：韓國
-地區：韓國
-韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。</description>
     </item>
     <item>
       <title>CY Leo 何卓彥</title>
@@ -1360,17 +1382,6 @@ Tag：學生社團、團體樂團
 新加坡的口琴樂團、CCA與SYF學校社團。</description>
     </item>
     <item>
-      <title>Leafin Harmonica Ensemble</title>
-      <link>https://worldharmonicafestival.de/wp-content/uploads/2025/11/whf-2025_final-results.pdf</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/8598377b82618e6b</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏、國際交流
-國家：馬來西亞
-地區：馬來西亞
-馬來西亞的口琴三重奏與口琴合奏國際演出團體與青年團體，活動脈絡包含青年口琴重奏、大學與社區舞台與2025世界口琴節成人三重奏第七名（優秀評等）。</description>
-    </item>
-    <item>
       <title>新加坡國立大學口琴社</title>
       <link>https://osa.nus.edu.sg/nusartsfestival/event/constellations-under-starlit-skies/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/b9b11ba09fe77d98</guid>
@@ -1402,17 +1413,6 @@ Tag：教學器材、團體樂團、教學、課程、半音階、十孔、國�
 國家：阿根廷
 地區：阿根廷/布宜諾斯艾利斯/Chacarita
 阿根廷的十孔口琴與半音階口琴國際教育來源與口琴維修與教材平台，關注2018年由六位教師共同創立、個別與團體課程、全程度教學、工作坊與演出與維修客製。</description>
-    </item>
-    <item>
-      <title>Rachelle Plas &amp; Philippe Hervouet</title>
-      <link>http://www.plashervouetband.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c56a0214c22596be</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、十孔、國際交流
-國家：法國
-地區：法國
-法國的十孔、藍調口琴、吉他與人聲國際演出團體，活動脈絡包含WHF 2025、吉他與歌唱與Golden Melody ambassador。</description>
     </item>
     <item>
       <title>香港學校音樂節</title>
