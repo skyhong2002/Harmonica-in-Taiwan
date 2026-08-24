@@ -71,6 +71,61 @@
   },
   "entries": [
     {
+      "id": "watchlist-230",
+      "publicId": "230",
+      "name": "陳立強 Johnny Chen",
+      "nameEn": "Johnny Chen",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "台大藍聲/Dr. Blue/學生重奏/演出",
+      "structuredSummary": "台大藍聲/Dr. Blue/學生重奏/演出 / 口琴 / 演出人員/樂團成員",
+      "summary": "臺灣的口琴演出人員與樂團成員，活動脈絡包含台大藍聲、Dr. Blue與學生重奏。",
+      "keywords": "陳立強 Johnny Chen harmonica_johnny 台大藍聲 Dr. Blue Harmonica Ensemble",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_johnny/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "230-johnny-chen",
+      "latestUpdateAt": "2026-08-24T06:34:01+00:00",
+      "latestUpdateLocal": "2026-08-24 14:34",
+      "latestUpdateSource": "陳立強 Johnny Chen",
+      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_johnny/3970606838890245838/",
+      "avatarUrl": "/assets/source-avatars/718baf2f4c2fb8253e60.webp",
+      "sourceInitials": "JC",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_harmonica_johnny",
+          "name": "陳立強 Johnny Chen",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_johnny",
+          "profileUrl": "https://www.instagram.com/harmonica_johnny/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_johnny",
+          "name": "陳立強 Johnny Chen",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_johnny",
+          "profileUrl": "https://www.instagram.com/harmonica_johnny/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_johnny/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-30",
       "publicId": "30",
       "name": "蔡明憲",
@@ -934,6 +989,92 @@
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-147",
+      "publicId": "147",
+      "name": "Yoonseok Lee",
+      "nameEn": "Yoonseok Lee",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "WHF 2025/半音階/國際比賽/教育與演出",
+      "structuredSummary": "WHF 2025/半音階/國際比賽/教育與演出 / 半音階 / 國際演出人員/教育者",
+      "summary": "韓國的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、國際比賽與教育與演出。",
+      "keywords": "Yoonseok Lee yoonseokhca harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/yoonseokl"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/yoonseokhca/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yoonseoklee_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/YoonseokLee_HARMONICA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "147-yoonseok-lee",
+      "latestUpdateAt": "2026-08-23T22:33:57+00:00",
+      "latestUpdateLocal": "2026-08-24 06:33",
+      "latestUpdateSource": "Yoonseok Lee",
+      "latestUpdateUrl": "https://www.instagram.com/stories/yoonseoklee_harmonica/3970365226562258750/",
+      "avatarUrl": "/assets/source-avatars/ecb18c627a15d31299a0.webp",
+      "sourceInitials": "YL",
+      "sourceTags": [
+        "演奏者",
+        "比賽",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_yoonseokhca",
+          "name": "Yoonseok Lee",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/yoonseokhca",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yoonseoklee_harmonica",
+          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/yoonseoklee_harmonica/story/0"
+        },
+        {
+          "id": "ig_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yoonseoklee_harmonica",
+          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/YoonseokLee_HARMONICA",
           "feedUrl": ""
         }
       ]
@@ -2696,61 +2837,6 @@
       ]
     },
     {
-      "id": "watchlist-230",
-      "publicId": "230",
-      "name": "陳立強 Johnny Chen",
-      "nameEn": "Johnny Chen",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "台大藍聲/Dr. Blue/學生重奏/演出",
-      "structuredSummary": "台大藍聲/Dr. Blue/學生重奏/演出 / 口琴 / 演出人員/樂團成員",
-      "summary": "臺灣的口琴演出人員與樂團成員，活動脈絡包含台大藍聲、Dr. Blue與學生重奏。",
-      "keywords": "陳立強 Johnny Chen harmonica_johnny 台大藍聲 Dr. Blue Harmonica Ensemble",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/harmonica_johnny/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "230-johnny-chen",
-      "latestUpdateAt": "2026-08-23T13:00:34+00:00",
-      "latestUpdateLocal": "2026-08-23 21:00",
-      "latestUpdateSource": "陳立強 Johnny Chen",
-      "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_johnny/3970076610539328464/",
-      "avatarUrl": "/assets/source-avatars/718baf2f4c2fb8253e60.webp",
-      "sourceInitials": "JC",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_harmonica_johnny",
-          "name": "陳立強 Johnny Chen",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "harmonica_johnny",
-          "profileUrl": "https://www.instagram.com/harmonica_johnny/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_harmonica_johnny",
-          "name": "陳立強 Johnny Chen",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "harmonica_johnny",
-          "profileUrl": "https://www.instagram.com/harmonica_johnny/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_johnny/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-42",
       "publicId": "42",
       "name": "王心禾",
@@ -3541,92 +3627,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@hokahkean1999",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-147",
-      "publicId": "147",
-      "name": "Yoonseok Lee",
-      "nameEn": "Yoonseok Lee",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "WHF 2025/半音階/國際比賽/教育與演出",
-      "structuredSummary": "WHF 2025/半音階/國際比賽/教育與演出 / 半音階 / 國際演出人員/教育者",
-      "summary": "韓國的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、國際比賽與教育與演出。",
-      "keywords": "Yoonseok Lee yoonseokhca harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/yoonseokl"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/yoonseokhca/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yoonseoklee_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/YoonseokLee_HARMONICA"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "147-yoonseok-lee",
-      "latestUpdateAt": "2026-08-23T10:35:28+00:00",
-      "latestUpdateLocal": "2026-08-23 18:35",
-      "latestUpdateSource": "Yoonseok Lee",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=yQ9ybTNPlsg",
-      "avatarUrl": "/assets/source-avatars/ecb18c627a15d31299a0.webp",
-      "sourceInitials": "YL",
-      "sourceTags": [
-        "演奏者",
-        "比賽",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_yoonseokhca",
-          "name": "Yoonseok Lee",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/yoonseokhca",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_yoonseoklee_harmonica",
-          "name": "Yoonseok Lee",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yoonseoklee_harmonica",
-          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yoonseoklee_harmonica/story/0"
-        },
-        {
-          "id": "ig_yoonseoklee_harmonica",
-          "name": "Yoonseok Lee",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yoonseoklee_harmonica",
-          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_yoonseoklee_harmonica",
-          "name": "Yoonseok Lee",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/YoonseokLee_HARMONICA",
           "feedUrl": ""
         }
       ]
