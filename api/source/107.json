@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T15:44:41.257262Z",
+  "generatedAt": "2026-08-24T16:52:05.600539Z",
   "source": {
     "id": 107,
     "slug": "konstantin-reinfeld",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/107-konstantin-reinfeld/"
   },
   "items": [
+    {
+      "id": "post-3ff9308efbdead0fbf530c48",
+      "title": "Performing in DELHI on 5th September",
+      "excerpt": "Performing in DELHI on 5th September 📍 pacific outlet mall, Jasola Get your ticket on @bookmyshowin and @districtupdates #rashmeetkaur #Live #Delhi",
+      "url": "https://www.instagram.com/p/DcbKQS3kzxP/",
+      "sourceName": "Konstantin Reinfeld",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-24T13:23:07Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4ac97c831dd478010b63.webp",
+        "width": 720,
+        "height": 1280
+      }
+    },
     {
       "id": "post-8068f22b82add3c7e1c727b8",
       "title": "Why Aeolian Sounds So Emotional on Harmonica | Natural Minor",
@@ -32,20 +46,6 @@
       "publishedAt": "2026-08-05T16:51:54Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/02c2bc04c4c5eb3aba6b.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-c5149ac4b2aca45c85e7931e",
-      "title": "🌬 Why Mixolydian Sounds So Good on Harmonica | 2nd Position",
-      "excerpt": "🌬 Why Mixolydian Sounds So Good on Harmonica | 2nd Position 🔥 Watch the full Mixolydian lesson and practice with all 4 original soundscapes: → Save 20% with the annual Patreon membership. 🎵 Mixolydian Harmonica Lesson – G Mixolydian in 2nd Position In this video, we explore G Mi…",
-      "url": "https://www.youtube.com/watch?v=qOuausv1gMg",
-      "sourceName": "Konstantin Reinfeld",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-25T15:53:22Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/cc0ed4282f7630e37a55.webp",
         "width": 800,
         "height": 450
       }
