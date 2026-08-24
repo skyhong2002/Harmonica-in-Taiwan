@@ -71,6 +71,187 @@
   },
   "entries": [
     {
+      "id": "watchlist-220",
+      "publicId": "220",
+      "name": "菜鳥琴老師很菜",
+      "nameEn": "chindiary_harmonica",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/中彰投",
+      "cityOrFocus": "中彰投口琴教學/演出/推廣",
+      "structuredSummary": "中彰投口琴教學/演出/推廣 / 口琴 / 演出人員/教學者",
+      "summary": "臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。",
+      "keywords": "菜鳥琴老師很菜 chindiary_harmonica 口琴 彰化 臺中 南投",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/chin.diary"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chindiary_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@chindiary_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "220-chindiary-harmonica",
+      "latestUpdateAt": "2026-08-24T16:13:08+00:00",
+      "latestUpdateLocal": "2026-08-25 00:13",
+      "latestUpdateSource": "菜鳥琴老師很菜",
+      "latestUpdateUrl": "https://www.instagram.com/stories/chindiary_harmonica/3970898318938159400/",
+      "avatarUrl": "/assets/source-avatars/2db0da6406f6fb69ab64.webp",
+      "sourceInitials": "菜鳥",
+      "sourceTags": [
+        "演奏者",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_chin_diary",
+          "name": "菜鳥琴老師很菜",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/chin.diary",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_chindiary_harmonica",
+          "name": "菜鳥琴老師很菜",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chindiary_harmonica",
+          "profileUrl": "https://www.instagram.com/chindiary_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chindiary_harmonica",
+          "name": "菜鳥琴老師很菜",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chindiary_harmonica",
+          "profileUrl": "https://www.instagram.com/chindiary_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chindiary_harmonica/story/0"
+        },
+        {
+          "id": "threads_chindiary_harmonica",
+          "name": "菜鳥琴老師很菜",
+          "platform": "threads",
+          "type": "rss",
+          "username": "chindiary_harmonica",
+          "profileUrl": "https://www.threads.net/@chindiary_harmonica",
+          "feedUrl": "https://rss.observe.tw/threads/chindiary_harmonica"
+        },
+        {
+          "id": "yt_ucltib8yoa0dsd4i6n4ykfvq",
+          "name": "菜鳥琴老師很菜",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-67",
+      "publicId": "67",
+      "name": "Marcos Coll",
+      "nameEn": "Marcos Coll",
+      "category": "活動資訊",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "西班牙",
+      "region": "西班牙/德國/國際",
+      "cityOrFocus": "13歲開始演奏口琴/西班牙與歐洲藍調代表人物/Los Reyes del K.O.與Tonky Blues Band/曾與Mick Taylor、Buddy Miles等巡演錄音/融合藍調、拉丁、嘻哈與西班牙音樂/2009與2013世界口琴節演出、工作坊及評審/2025與2026首爾國際口琴節",
+      "structuredSummary": "13歲開始演奏口琴/西班牙與歐洲藍調代表人物/Los Reyes del K.O.與Tonky Blues Band/曾與Mick Taylor、Buddy Miles等巡演錄音/融合藍調、拉丁、嘻哈與西班牙音樂/2009與2013世界口琴節演出、工作坊及評審/2025與2026首爾國際口琴節 / 十孔口琴/藍調口琴/半音階口琴 / 國際演出人員/錄音藝術家/國際音樂節評審與講師/HOHNER藝術家",
+      "summary": "西班牙的國際演出人員、錄音藝術家與國際音樂節評審與講師，涵蓋13歲開始演奏口琴、西班牙與歐洲藍調代表人物、Los Reyes del K.O.與Tonky Blues Band、曾與Mick Taylor與Buddy Miles等巡演錄音。",
+      "keywords": "Marcos Coll harmonica Spain Galicia Berlin Los Reyes del KO Tonky Blues Band Mick Taylor Buddy Miles HOHNER WHF 2009 2013 SIHF 2025 2026 blues Latin hip hop",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://marcoscoll.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/marcoscollharp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/marcoscollgonzalez/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "67-marcos-coll",
+      "latestUpdateAt": "2026-08-24T15:44:39+00:00",
+      "latestUpdateLocal": "2026-08-24 23:44",
+      "latestUpdateSource": "Marcos Coll",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcbUY53Ipyq/",
+      "avatarUrl": "/assets/source-avatars/2d8ba8633a0c301a211c.webp",
+      "sourceInitials": "MC",
+      "sourceTags": [
+        "活動資訊",
+        "演奏者",
+        "音樂節",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_marcoscollharp",
+          "name": "Marcos Coll",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/marcoscollharp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_marcoscollgonzalez",
+          "name": "Marcos Coll",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "marcoscollgonzalez",
+          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
+        },
+        {
+          "id": "yt_marcoscollharpandsoul",
+          "name": "Marcos Coll",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-101",
       "publicId": "101",
       "name": "何家健 HarmoniKahkean",
@@ -151,6 +332,66 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@hokahkean1999",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-145",
+      "publicId": "145",
+      "name": "Joe Marhofer / The Headcutters",
+      "nameEn": "Joe Marhofer",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "巴西",
+      "region": "巴西/聖卡塔琳娜州",
+      "cityOrFocus": "傳統 Chicago blues/The Headcutters/口琴/主唱/創團",
+      "structuredSummary": "傳統 Chicago blues/The Headcutters/口琴/主唱/創團 / 十孔口琴 / 國際演出人員/樂團創辦人",
+      "summary": "巴西的十孔口琴國際演出人員與樂團創辦人，活動脈絡包含傳統 Chicago blues、The Headcutters與口琴。",
+      "keywords": "Joe Marhofer The Headcutters Brazil harmonica blues SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.theheadcutters.com/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/theheadcutters/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "145-joe-marhofer",
+      "latestUpdateAt": "2026-08-24T13:36:06+00:00",
+      "latestUpdateLocal": "2026-08-24 21:36",
+      "latestUpdateSource": "Joe Marhofer / The Headcutters",
+      "latestUpdateUrl": "https://www.instagram.com/stories/theheadcutters/3970819332309610538/",
+      "avatarUrl": "/assets/source-avatars/52a0f6367ca15bc8972e.webp",
+      "sourceInitials": "JMT",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_theheadcutters",
+          "name": "Joe Marhofer / The Headcutters",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "theheadcutters",
+          "profileUrl": "https://www.instagram.com/theheadcutters/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/theheadcutters/story/0"
+        },
+        {
+          "id": "ig_theheadcutters",
+          "name": "Joe Marhofer / The Headcutters",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "theheadcutters",
+          "profileUrl": "https://www.instagram.com/theheadcutters/",
           "feedUrl": ""
         }
       ]
@@ -2552,66 +2793,6 @@
       ]
     },
     {
-      "id": "watchlist-145",
-      "publicId": "145",
-      "name": "Joe Marhofer / The Headcutters",
-      "nameEn": "Joe Marhofer",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "巴西",
-      "region": "巴西/聖卡塔琳娜州",
-      "cityOrFocus": "傳統 Chicago blues/The Headcutters/口琴/主唱/創團",
-      "structuredSummary": "傳統 Chicago blues/The Headcutters/口琴/主唱/創團 / 十孔口琴 / 國際演出人員/樂團創辦人",
-      "summary": "巴西的十孔口琴國際演出人員與樂團創辦人，活動脈絡包含傳統 Chicago blues、The Headcutters與口琴。",
-      "keywords": "Joe Marhofer The Headcutters Brazil harmonica blues SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.theheadcutters.com/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/theheadcutters/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "145-joe-marhofer",
-      "latestUpdateAt": "2026-08-24T02:47:53+00:00",
-      "latestUpdateLocal": "2026-08-24 10:47",
-      "latestUpdateSource": "Joe Marhofer / The Headcutters",
-      "latestUpdateUrl": "https://www.instagram.com/stories/theheadcutters/3970493049088362354/",
-      "avatarUrl": "/assets/source-avatars/52a0f6367ca15bc8972e.webp",
-      "sourceInitials": "JMT",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_theheadcutters",
-          "name": "Joe Marhofer / The Headcutters",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "theheadcutters",
-          "profileUrl": "https://www.instagram.com/theheadcutters/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/theheadcutters/story/0"
-        },
-        {
-          "id": "ig_theheadcutters",
-          "name": "Joe Marhofer / The Headcutters",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "theheadcutters",
-          "profileUrl": "https://www.instagram.com/theheadcutters/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-108",
       "publicId": "108",
       "name": "Rodrigo Eberienos",
@@ -3225,94 +3406,6 @@
       ]
     },
     {
-      "id": "watchlist-67",
-      "publicId": "67",
-      "name": "Marcos Coll",
-      "nameEn": "Marcos Coll",
-      "category": "活動資訊",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "西班牙",
-      "region": "西班牙/德國/國際",
-      "cityOrFocus": "13歲開始演奏口琴/西班牙與歐洲藍調代表人物/Los Reyes del K.O.與Tonky Blues Band/曾與Mick Taylor、Buddy Miles等巡演錄音/融合藍調、拉丁、嘻哈與西班牙音樂/2009與2013世界口琴節演出、工作坊及評審/2025與2026首爾國際口琴節",
-      "structuredSummary": "13歲開始演奏口琴/西班牙與歐洲藍調代表人物/Los Reyes del K.O.與Tonky Blues Band/曾與Mick Taylor、Buddy Miles等巡演錄音/融合藍調、拉丁、嘻哈與西班牙音樂/2009與2013世界口琴節演出、工作坊及評審/2025與2026首爾國際口琴節 / 十孔口琴/藍調口琴/半音階口琴 / 國際演出人員/錄音藝術家/國際音樂節評審與講師/HOHNER藝術家",
-      "summary": "西班牙的國際演出人員、錄音藝術家與國際音樂節評審與講師，涵蓋13歲開始演奏口琴、西班牙與歐洲藍調代表人物、Los Reyes del K.O.與Tonky Blues Band、曾與Mick Taylor與Buddy Miles等巡演錄音。",
-      "keywords": "Marcos Coll harmonica Spain Galicia Berlin Los Reyes del KO Tonky Blues Band Mick Taylor Buddy Miles HOHNER WHF 2009 2013 SIHF 2025 2026 blues Latin hip hop",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://marcoscoll.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/marcoscollharp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/marcoscollgonzalez/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@MarcosCollharpandsoul"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "67-marcos-coll",
-      "latestUpdateAt": "2026-08-23T18:56:42+00:00",
-      "latestUpdateLocal": "2026-08-24 02:56",
-      "latestUpdateSource": "Marcos Coll",
-      "latestUpdateUrl": "https://www.instagram.com/stories/marcoscollgonzalez/3970256071901582163/",
-      "avatarUrl": "/assets/source-avatars/2d8ba8633a0c301a211c.webp",
-      "sourceInitials": "MC",
-      "sourceTags": [
-        "活動資訊",
-        "演奏者",
-        "音樂節",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_marcoscollharp",
-          "name": "Marcos Coll",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/marcoscollharp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_marcoscollgonzalez",
-          "name": "Marcos Coll",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "marcoscollgonzalez",
-          "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
-        },
-        {
-          "id": "yt_marcoscollharpandsoul",
-          "name": "Marcos Coll",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@MarcosCollharpandsoul",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-55",
       "publicId": "55",
       "name": "梁承熹 Kelvin Leung",
@@ -3397,99 +3490,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@KelvinLeungharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-220",
-      "publicId": "220",
-      "name": "菜鳥琴老師很菜",
-      "nameEn": "chindiary_harmonica",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/中彰投",
-      "cityOrFocus": "中彰投口琴教學/演出/推廣",
-      "structuredSummary": "中彰投口琴教學/演出/推廣 / 口琴 / 演出人員/教學者",
-      "summary": "臺灣的口琴演出人員與教學者，活動脈絡包含中彰投口琴教學、演出與推廣。",
-      "keywords": "菜鳥琴老師很菜 chindiary_harmonica 口琴 彰化 臺中 南投",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/chin.diary"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/chindiary_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@chindiary_harmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "220-chindiary-harmonica",
-      "latestUpdateAt": "2026-08-23T17:07:35+00:00",
-      "latestUpdateLocal": "2026-08-24 01:07",
-      "latestUpdateSource": "菜鳥琴老師很菜",
-      "latestUpdateUrl": "https://www.instagram.com/stories/chindiary_harmonica/3970200944721064167/",
-      "avatarUrl": "/assets/source-avatars/2db0da6406f6fb69ab64.webp",
-      "sourceInitials": "菜鳥",
-      "sourceTags": [
-        "演奏者",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_chin_diary",
-          "name": "菜鳥琴老師很菜",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/chin.diary",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_chindiary_harmonica",
-          "name": "菜鳥琴老師很菜",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "chindiary_harmonica",
-          "profileUrl": "https://www.instagram.com/chindiary_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_chindiary_harmonica",
-          "name": "菜鳥琴老師很菜",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "chindiary_harmonica",
-          "profileUrl": "https://www.instagram.com/chindiary_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chindiary_harmonica/story/0"
-        },
-        {
-          "id": "threads_chindiary_harmonica",
-          "name": "菜鳥琴老師很菜",
-          "platform": "threads",
-          "type": "rss",
-          "username": "chindiary_harmonica",
-          "profileUrl": "https://www.threads.net/@chindiary_harmonica",
-          "feedUrl": "https://rss.observe.tw/threads/chindiary_harmonica"
-        },
-        {
-          "id": "yt_ucltib8yoa0dsd4i6n4ykfvq",
-          "name": "菜鳥琴老師很菜",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCLtiB8YOa0dSd4i6N4YKfVQ",
           "feedUrl": ""
         }
       ]
