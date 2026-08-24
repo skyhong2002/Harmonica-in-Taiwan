@@ -125,7 +125,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-24 21:23",
       "latestUpdateSource": "Konstantin Reinfeld",
       "latestUpdateUrl": "https://www.instagram.com/p/DcbKQS3kzxP/",
-      "avatarUrl": "/assets/source-avatars/7f55bcace9d81e8ee2e4.webp",
+      "avatarUrl": "/assets/source-avatars/02a890456c60bb5647aa.webp",
       "sourceInitials": "KR",
       "sourceTags": [
         "演奏者",
