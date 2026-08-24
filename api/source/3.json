@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T04:53:58.321658Z",
+  "generatedAt": "2026-08-24T06:01:08.047665Z",
   "source": {
     "id": 3,
     "slug": "sirius-harmonica-ensemble",
@@ -88,20 +88,6 @@
       "publishedAt": "2026-08-05T13:16:21Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/c150520f7c44b5d73f98.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-f707877f80571a5e5ffc3681",
-      "title": "📍 2025年9月9 日｜臺灣・國家音樂廳",
-      "excerpt": "📍 2025年9月9 日｜臺灣・國家音樂廳 李讓：《銀河之詩》第二樂章〈小島星空〉 演出自《臺灣音樂家系列──天狼星口琴樂團、李齊與臺灣絃樂團》 📍 演出者｜ 天狼星口琴樂團 團長、和弦口琴：陳彥銘 半音階口琴：陳奕翔、蔡明憲、張晁滕、王衍華 倍低音口琴：黃冠誌 臺灣絃樂團 📍 完整影片: ------ 📍 September 9, 2025｜National Concert Hall, Taiwan Jang Li: The Epic of Galaxy, Mov. II: Starry Sky on the Island Performed in…",
-      "url": "https://www.facebook.com/reel/2618967541868637/",
-      "sourceName": "天狼星口琴樂團 Sirius Harmonica Ensemble",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-25T05:49:52Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/98cc3816fe7c99763f5f.webp",
         "width": 800,
         "height": 450
       }

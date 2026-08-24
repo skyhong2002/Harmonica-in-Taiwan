@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 24 Aug 2026 04:53:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 06:01:09 +0000</lastBuildDate>
     <item>
       <title>衛武營國家藝術文化中心</title>
       <link>https://www.npac-weiwuying.org/</link>
@@ -16,6 +16,17 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/高雄
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>Joe Marhofer / The Headcutters</title>
+      <link>https://www.theheadcutters.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/d04f49c8422f746b</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、團體樂團、十孔、國際交流
+國家：巴西
+地區：巴西/聖卡塔琳娜州
+巴西的十孔口琴國際演出人員與樂團創辦人，活動脈絡包含傳統 Chicago blues、The Headcutters與口琴。</description>
     </item>
     <item>
       <title>太平國小口琴隊</title>
@@ -346,17 +357,6 @@ Tag：演奏者、團體樂團、重奏
 國家：臺灣
 地區：臺灣/臺北
 臺灣的口琴演出人員與樂團成員，活動脈絡包含Dr. Blue、學生重奏與演出。</description>
-    </item>
-    <item>
-      <title>Joe Marhofer / The Headcutters</title>
-      <link>https://www.theheadcutters.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/d04f49c8422f746b</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、團體樂團、十孔、國際交流
-國家：巴西
-地區：巴西/聖卡塔琳娜州
-巴西的十孔口琴國際演出人員與樂團創辦人，活動脈絡包含傳統 Chicago blues、The Headcutters與口琴。</description>
     </item>
     <item>
       <title>唐雪婷 Sharene Tang</title>

@@ -167,6 +167,66 @@
       ]
     },
     {
+      "id": "watchlist-145",
+      "publicId": "145",
+      "name": "Joe Marhofer / The Headcutters",
+      "nameEn": "Joe Marhofer",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "巴西",
+      "region": "巴西/聖卡塔琳娜州",
+      "cityOrFocus": "傳統 Chicago blues/The Headcutters/口琴/主唱/創團",
+      "structuredSummary": "傳統 Chicago blues/The Headcutters/口琴/主唱/創團 / 十孔口琴 / 國際演出人員/樂團創辦人",
+      "summary": "巴西的十孔口琴國際演出人員與樂團創辦人，活動脈絡包含傳統 Chicago blues、The Headcutters與口琴。",
+      "keywords": "Joe Marhofer The Headcutters Brazil harmonica blues SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.theheadcutters.com/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/theheadcutters/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "145-joe-marhofer",
+      "latestUpdateAt": "2026-08-24T02:47:53+00:00",
+      "latestUpdateLocal": "2026-08-24 10:47",
+      "latestUpdateSource": "Joe Marhofer / The Headcutters",
+      "latestUpdateUrl": "https://www.instagram.com/stories/theheadcutters/3970493049088362354/",
+      "avatarUrl": "/assets/source-avatars/52a0f6367ca15bc8972e.webp",
+      "sourceInitials": "JMT",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_theheadcutters",
+          "name": "Joe Marhofer / The Headcutters",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "theheadcutters",
+          "profileUrl": "https://www.instagram.com/theheadcutters/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/theheadcutters/story/0"
+        },
+        {
+          "id": "ig_theheadcutters",
+          "name": "Joe Marhofer / The Headcutters",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "theheadcutters",
+          "profileUrl": "https://www.instagram.com/theheadcutters/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-316",
       "publicId": "316",
       "name": "太平國小口琴隊",
@@ -2180,66 +2240,6 @@
       ]
     },
     {
-      "id": "watchlist-145",
-      "publicId": "145",
-      "name": "Joe Marhofer / The Headcutters",
-      "nameEn": "Joe Marhofer",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "巴西",
-      "region": "巴西/聖卡塔琳娜州",
-      "cityOrFocus": "傳統 Chicago blues/The Headcutters/口琴/主唱/創團",
-      "structuredSummary": "傳統 Chicago blues/The Headcutters/口琴/主唱/創團 / 十孔口琴 / 國際演出人員/樂團創辦人",
-      "summary": "巴西的十孔口琴國際演出人員與樂團創辦人，活動脈絡包含傳統 Chicago blues、The Headcutters與口琴。",
-      "keywords": "Joe Marhofer The Headcutters Brazil harmonica blues SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.theheadcutters.com/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/theheadcutters/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "145-joe-marhofer",
-      "latestUpdateAt": "2026-08-23T14:02:21+00:00",
-      "latestUpdateLocal": "2026-08-23 22:02",
-      "latestUpdateSource": "Joe Marhofer / The Headcutters",
-      "latestUpdateUrl": "https://www.instagram.com/stories/theheadcutters/3970107745089201885/",
-      "avatarUrl": "/assets/source-avatars/52a0f6367ca15bc8972e.webp",
-      "sourceInitials": "JMT",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_theheadcutters",
-          "name": "Joe Marhofer / The Headcutters",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "theheadcutters",
-          "profileUrl": "https://www.instagram.com/theheadcutters/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/theheadcutters/story/0"
-        },
-        {
-          "id": "ig_theheadcutters",
-          "name": "Joe Marhofer / The Headcutters",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "theheadcutters",
-          "profileUrl": "https://www.instagram.com/theheadcutters/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-51",
       "publicId": "51",
       "name": "唐雪婷 Sharene Tang",
@@ -3594,7 +3594,7 @@
       "latestUpdateLocal": "2026-08-23 18:21",
       "latestUpdateSource": "蔡明憲",
       "latestUpdateUrl": "https://www.instagram.com/stories/damingtsai/3969996540173503403/",
-      "avatarUrl": "/assets/source-avatars/d72c84787c6bb17392ce.webp",
+      "avatarUrl": "/assets/source-avatars/b84205bff03e1b27bdcc.webp",
       "sourceInitials": "蔡明",
       "sourceTags": [
         "演奏者",
@@ -4935,7 +4935,7 @@
       "latestUpdateLocal": "2026-08-22 22:56",
       "latestUpdateSource": "王衍華",
       "latestUpdateUrl": "https://www.instagram.com/p/DcVxLxkTp72/",
-      "avatarUrl": "/assets/source-avatars/5e3a047e7f45ebb6df61.webp",
+      "avatarUrl": "/assets/source-avatars/d2106ff54a92768032cb.webp",
       "sourceInitials": "王衍",
       "sourceTags": [
         "演奏者",
@@ -5410,7 +5410,7 @@
       "latestUpdateLocal": "2026-08-22 19:15",
       "latestUpdateSource": "天狼星口琴樂團 Sirius Harmonica Ensemble",
       "latestUpdateUrl": "https://www.instagram.com/p/DcVxLxkTp72/",
-      "avatarUrl": "/assets/source-avatars/dfc37825fc425b9a2f54.webp",
+      "avatarUrl": "/assets/source-avatars/24b72ecbf468786565c5.webp",
       "sourceInitials": "SHE",
       "sourceTags": [
         "活動資訊",
@@ -8423,7 +8423,7 @@
       "latestUpdateLocal": "2026-08-18 18:18",
       "latestUpdateSource": "張晁滕",
       "latestUpdateUrl": "https://www.instagram.com/stories/chaotengchang/3966371116243650672/",
-      "avatarUrl": "/assets/source-avatars/342d6b13fb031aae7d46.webp",
+      "avatarUrl": "/assets/source-avatars/edbf3d23819b5c97954f.webp",
       "sourceInitials": "張晁",
       "sourceTags": [
         "演奏者",
