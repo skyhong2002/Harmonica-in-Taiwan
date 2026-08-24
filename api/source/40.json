@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T03:13:32.621103Z",
+  "generatedAt": "2026-08-24T04:20:38.636993Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -32,6 +32,20 @@
       "publishedAt": "2026-08-19T00:00:06Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/6ca616ba3d1240d5d9fb.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-6e350450561d3d6633eff4ec",
+      "title": "第15屆亞太口琴APH藝術週–臺灣專場演出｜杜鵑圓舞曲組曲｜複音口琴Tremolo Harmonica 獨奏演出",
+      "excerpt": "第15屆亞太口琴APH藝術週–臺灣專場演出｜杜鵑圓舞曲組曲｜複音口琴Tremolo Harmonica 獨奏演出 第15屆亞太口琴藝術週(地點：中國江陰市) 20260725臺灣專場演出｜杜鵑圓舞曲組曲｜陳鴻儀複音口琴獨奏演出 曲目：1.甜蜜的家庭 2.風流寡婦圓舞曲 3.杜鵑圓舞曲 4.一吻纖手 5.美麗的陽光 6.比翼鳥 7.卡布里島 8.甜蜜的家庭",
+      "url": "https://www.youtube.com/watch?v=zwmLJQhE5aM",
+      "sourceName": "陳鴻儀",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-18T16:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b9cf202de13ea3db1d86.webp",
         "width": 800,
         "height": 450
       }

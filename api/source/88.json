@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T03:13:32.621103Z",
+  "generatedAt": "2026-08-24T04:20:38.636993Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -186,20 +186,6 @@
       "publishedAt": "2026-07-27T04:00:00Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/513df8d7861b5dff1119.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-d3a4604fa88dc2eef6f24f54",
-      "title": "流浪到淡水丨中山社大口琴班成果展",
-      "excerpt": "流浪到淡水丨中山社大口琴班成果展 再來一首中山社大同學的表演，看不出來大家還很會唱歌，有在偷練喔~ 中山社大口琴班(三)晚上",
-      "url": "https://www.youtube.com/watch?v=TZW1efl6nsE",
-      "sourceName": "藍波口琴教室",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-25T04:00:31Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/93bc8711ac04d2e1550d.webp",
         "width": 800,
         "height": 450
       }
