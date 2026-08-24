@@ -2145,6 +2145,107 @@
       ]
     },
     {
+      "id": "watchlist-94",
+      "publicId": "94",
+      "name": "Duo Volce Music Studio 誼聲音樂室",
+      "nameEn": "Duo Volce Music Studio",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "工作室/團體",
+      "country": "香港",
+      "region": "香港/國際",
+      "cityOrFocus": "蔡偉鏗與周曉彤於2014年正式成立的半音階口琴及小提琴二重奏/古典、電影配樂與探戈/第11屆亞太口琴節原創組冠軍/香港青少年藝術節青年藝術家獎/社區藝術推廣與口琴教學",
+      "structuredSummary": "蔡偉鏗與周曉彤於2014年正式成立的半音階口琴及小提琴二重奏/古典、電影配樂與探戈/第11屆亞太口琴節原創組冠軍/香港青少年藝術節青年藝術家獎/社區藝術推廣與口琴教學 / 半音階口琴/小提琴/鋼琴合作 / 國際演出二重奏/口琴教育工作室/亞太口琴節冠軍團體",
+      "summary": "香港的半音階口琴、小提琴與鋼琴合作國際演出二重奏、口琴教育工作室與亞太口琴節冠軍團體，活動脈絡包含蔡偉鏗與周曉彤於2014年正式成立的半音階口琴及小提琴二重奏、古典與電影配樂與探戈。",
+      "keywords": "Duo Volce Music Studio 誼聲音樂室 Harry Choi 蔡偉鏗 Kiann Chow 周曉彤 chromatic harmonica violin 2014 APHF original champion Youth Arts Festival Hong Kong",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.duovolce.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/DuoVolce/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/DuoVolce/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/DuoVolce"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/duovolce"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "94-duo-volce-music-studio",
+      "latestUpdateAt": "2026-08-24T08:46:05+00:00",
+      "latestUpdateLocal": "2026-08-24 16:46",
+      "latestUpdateSource": "Duo Volce Music Studio 誼聲音樂室",
+      "latestUpdateUrl": "https://www.instagram.com/stories/DuoVolce/3970673338091779723/",
+      "avatarUrl": "/assets/source-avatars/f578259a603437e828c4.webp",
+      "sourceInitials": "DVM",
+      "sourceTags": [
+        "團體樂團",
+        "教學",
+        "工作室",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/DuoVolce",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "DuoVolce",
+          "profileUrl": "https://www.instagram.com/DuoVolce/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "DuoVolce",
+          "profileUrl": "https://www.instagram.com/DuoVolce/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/DuoVolce/story/0"
+        },
+        {
+          "id": "x_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "x",
+          "type": "rss",
+          "username": "duovolce",
+          "profileUrl": "https://x.com/duovolce",
+          "feedUrl": "https://rss.observe.tw/twitter/user/duovolce"
+        },
+        {
+          "id": "yt_duovolce",
+          "name": "Duo Volce Music Studio 誼聲音樂室",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/DuoVolce",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-111",
       "publicId": "111",
       "name": "Lee Hangyeol 이한결",
@@ -9529,107 +9630,6 @@
           "username": "fanhsiaoyi",
           "profileUrl": "https://www.threads.net/@fanhsiaoyi",
           "feedUrl": "https://rss.observe.tw/threads/fanhsiaoyi"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-94",
-      "publicId": "94",
-      "name": "Duo Volce Music Studio 誼聲音樂室",
-      "nameEn": "Duo Volce Music Studio",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "工作室/團體",
-      "country": "香港",
-      "region": "香港/國際",
-      "cityOrFocus": "蔡偉鏗與周曉彤於2014年正式成立的半音階口琴及小提琴二重奏/古典、電影配樂與探戈/第11屆亞太口琴節原創組冠軍/香港青少年藝術節青年藝術家獎/社區藝術推廣與口琴教學",
-      "structuredSummary": "蔡偉鏗與周曉彤於2014年正式成立的半音階口琴及小提琴二重奏/古典、電影配樂與探戈/第11屆亞太口琴節原創組冠軍/香港青少年藝術節青年藝術家獎/社區藝術推廣與口琴教學 / 半音階口琴/小提琴/鋼琴合作 / 國際演出二重奏/口琴教育工作室/亞太口琴節冠軍團體",
-      "summary": "香港的半音階口琴、小提琴與鋼琴合作國際演出二重奏、口琴教育工作室與亞太口琴節冠軍團體，活動脈絡包含蔡偉鏗與周曉彤於2014年正式成立的半音階口琴及小提琴二重奏、古典與電影配樂與探戈。",
-      "keywords": "Duo Volce Music Studio 誼聲音樂室 Harry Choi 蔡偉鏗 Kiann Chow 周曉彤 chromatic harmonica violin 2014 APHF original champion Youth Arts Festival Hong Kong",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.duovolce.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/DuoVolce/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/DuoVolce/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/DuoVolce"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/duovolce"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "94-duo-volce-music-studio",
-      "latestUpdateAt": "2026-08-13T15:29:51+00:00",
-      "latestUpdateLocal": "2026-08-13 23:29",
-      "latestUpdateSource": "Duo Volce Music Studio 誼聲音樂室",
-      "latestUpdateUrl": "https://www.instagram.com/stories/DuoVolce/3962903998172967640/",
-      "avatarUrl": "/assets/source-avatars/f578259a603437e828c4.webp",
-      "sourceInitials": "DVM",
-      "sourceTags": [
-        "團體樂團",
-        "教學",
-        "工作室",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/DuoVolce",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "DuoVolce",
-          "profileUrl": "https://www.instagram.com/DuoVolce/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "DuoVolce",
-          "profileUrl": "https://www.instagram.com/DuoVolce/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/DuoVolce/story/0"
-        },
-        {
-          "id": "x_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "x",
-          "type": "rss",
-          "username": "duovolce",
-          "profileUrl": "https://x.com/duovolce",
-          "feedUrl": "https://rss.observe.tw/twitter/user/duovolce"
-        },
-        {
-          "id": "yt_duovolce",
-          "name": "Duo Volce Music Studio 誼聲音樂室",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/DuoVolce",
-          "feedUrl": ""
         }
       ]
     },
