@@ -10254,7 +10254,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-10 20:00",
       "latestUpdateSource": "Liam Ward & Malcolm Thorne",
       "latestUpdateUrl": "https://www.instagram.com/p/Db29u9fRKb0/",
-      "avatarUrl": "/assets/source-avatars/70dfb05766ac426210e5.webp",
+      "avatarUrl": "/assets/source-avatars/fcdb1098b19be10d541d.webp",
       "sourceInitials": "LWM",
       "sourceTags": [
         "團體樂團",
