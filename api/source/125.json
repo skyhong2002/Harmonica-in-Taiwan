@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T07:40:39.177092Z",
+  "generatedAt": "2026-08-25T08:48:33.989003Z",
   "source": {
     "id": 125,
     "slug": "jens-bunge",
@@ -62,20 +62,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/a0badc5d00be0469a9b8.webp",
         "width": 720,
         "height": 405
-      }
-    },
-    {
-      "id": "post-f71548bb9946c82acb1660f2",
-      "title": "On my way to the next gig - this time by metro",
-      "excerpt": "On my way to the next gig - this time by metro",
-      "url": "https://www.instagram.com/p/DbP5Ypzu34U/",
-      "sourceName": "Jens Bunge",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-26T07:52:57Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/15309a25cc962cdda0ac.webp",
-        "width": 800,
-        "height": 600
       }
     }
   ]
