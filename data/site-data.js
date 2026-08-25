@@ -1,5 +1,5 @@
 window.HARMONICA_OBSERVE_DATA = {
-  "generatedAt": "2026-08-25",
+  "generatedAt": "2026-08-26",
   "entries": [
     {
       "id": "watchlist-58",
@@ -4306,7 +4306,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-23 23:09",
       "latestUpdateSource": "黃冠誌",
       "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3970141642304289410/",
-      "avatarUrl": "/assets/source-avatars/54c92193b03a7d5e7792.webp",
+      "avatarUrl": "/assets/source-avatars/da3b2ea73a1960adb1cd.webp",
       "sourceInitials": "黃冠",
       "sourceTags": [
         "演奏者",
