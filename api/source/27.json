@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T03:38:52.916957Z",
+  "generatedAt": "2026-08-25T04:47:19.452513Z",
   "source": {
     "id": 27,
     "slug": "peacetones-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/27-peacetones-harmonica/"
   },
   "items": [
+    {
+      "id": "post-8183395659e05fa3bfedb53e",
+      "title": "中華郵政「郵韻口琴班」上課記錄｜【月下煮茶】電影（給阿嬤的情書）主題曲",
+      "excerpt": "中華郵政「郵韻口琴班」上課記錄｜【月下煮茶】電影（給阿嬤的情書）主題曲",
+      "url": "https://www.youtube.com/watch?v=sgadhyKWHeQ",
+      "sourceName": "音和樂器",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-25T03:13:31Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/a94e36f4d5269dea6f08.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-7606b05b5b7cd1123d1555b2",
       "title": "萬華社大「龍韻口琴合奏班」_上課記錄【月亮惹的禍】_張宇",

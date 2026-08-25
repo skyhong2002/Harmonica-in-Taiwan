@@ -71,6 +71,90 @@
   },
   "entries": [
     {
+      "id": "watchlist-27",
+      "publicId": "27",
+      "name": "音和樂器",
+      "nameEn": "PeaceTones Harmonica",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "樂器行/口琴專賣店",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務",
+      "structuredSummary": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務 / 口琴 / 器材/教學來源",
+      "summary": "臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。",
+      "keywords": "音和樂器 PeaceTones Harmonica 口琴專賣店 口琴 維修 教學",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://0223120930.web66.com.tw/web/SEC?Code=&sortType=J"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/PeaceTones.harmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/peacetones.harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@peacetonesharmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "27-peacetones-harmonica",
+      "latestUpdateAt": "2026-08-25T03:13:31+00:00",
+      "latestUpdateLocal": "2026-08-25 11:13",
+      "latestUpdateSource": "音和樂器",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=sgadhyKWHeQ",
+      "avatarUrl": "/assets/source-avatars/1a76c469d7e0745e439b.webp",
+      "sourceInitials": "音和",
+      "sourceTags": [
+        "教學器材",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/PeaceTones.harmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "peacetones.harmonica",
+          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_peacetones_harmonica",
+          "name": "音和樂器",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "peacetones.harmonica",
+          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/peacetones.harmonica/story/0"
+        },
+        {
+          "id": "yt_peacetonesharmonica",
+          "name": "音和樂器",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@peacetonesharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-78",
       "publicId": "78",
       "name": "衛武營國家藝術文化中心",
@@ -726,7 +810,7 @@
       "latestUpdateLocal": "2026-08-25 07:28",
       "latestUpdateSource": "Orion 口琴樂團",
       "latestUpdateUrl": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU",
-      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
+      "avatarUrl": "/assets/source-avatars/6a4faa9ecc7840ef8502.webp",
       "sourceInitials": "O",
       "sourceTags": [
         "團體樂團",
@@ -2778,7 +2862,7 @@
       "latestUpdateLocal": "2026-08-24 18:09",
       "latestUpdateSource": "蔡明憲",
       "latestUpdateUrl": "https://www.instagram.com/p/Dca0KMCkial/",
-      "avatarUrl": "/assets/source-avatars/b84205bff03e1b27bdcc.webp",
+      "avatarUrl": "/assets/source-avatars/6b101d283f811d49760c.webp",
       "sourceInitials": "蔡明",
       "sourceTags": [
         "演奏者",
@@ -3030,7 +3114,7 @@
       "latestUpdateLocal": "2026-08-24 16:42",
       "latestUpdateSource": "Lee Hangyeol 이한결",
       "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3970671668959900940/",
-      "avatarUrl": "/assets/source-avatars/ba3fb4001380cb98e39b.webp",
+      "avatarUrl": "/assets/source-avatars/133e9fd11d733b667e61.webp",
       "sourceInitials": "LH",
       "sourceTags": [
         "演奏者",
@@ -4029,7 +4113,7 @@
       "latestUpdateLocal": "2026-08-23 23:09",
       "latestUpdateSource": "黃冠誌",
       "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3970141642304289410/",
-      "avatarUrl": "/assets/source-avatars/c8a9f8d95137b9a96dfd.webp",
+      "avatarUrl": "/assets/source-avatars/54c92193b03a7d5e7792.webp",
       "sourceInitials": "黃冠",
       "sourceTags": [
         "演奏者",
@@ -6227,7 +6311,7 @@
       "latestUpdateLocal": "2026-08-22 19:15",
       "latestUpdateSource": "天狼星口琴樂團 Sirius Harmonica Ensemble",
       "latestUpdateUrl": "https://www.instagram.com/p/DcVxLxkTp72/",
-      "avatarUrl": "/assets/source-avatars/24b72ecbf468786565c5.webp",
+      "avatarUrl": "/assets/source-avatars/99b8e2f9029e3b8f4989.webp",
       "sourceInitials": "SHE",
       "sourceTags": [
         "活動資訊",
@@ -6323,7 +6407,7 @@
       "latestUpdateLocal": "2026-08-22 19:15",
       "latestUpdateSource": "臺灣口琴音樂節 THMF",
       "latestUpdateUrl": "https://www.instagram.com/p/DcVxLxkTp72/",
-      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
+      "avatarUrl": "/assets/source-avatars/6a4faa9ecc7840ef8502.webp",
       "sourceInitials": "T",
       "sourceTags": [
         "活動資訊",
@@ -8671,90 +8755,6 @@
       ]
     },
     {
-      "id": "watchlist-27",
-      "publicId": "27",
-      "name": "音和樂器",
-      "nameEn": "PeaceTones Harmonica",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "樂器行/口琴專賣店",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務",
-      "structuredSummary": "口琴器材/活動資訊/口琴買賣/維修保養/教學服務 / 口琴 / 器材/教學來源",
-      "summary": "臺灣的口琴器材與教學來源，關注口琴器材、活動資訊、口琴買賣、維修保養與教學服務。",
-      "keywords": "音和樂器 PeaceTones Harmonica 口琴專賣店 口琴 維修 教學",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://0223120930.web66.com.tw/web/SEC?Code=&sortType=J"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/PeaceTones.harmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/peacetones.harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@peacetonesharmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "27-peacetones-harmonica",
-      "latestUpdateAt": "2026-08-19T02:23:52+00:00",
-      "latestUpdateLocal": "2026-08-19 10:23",
-      "latestUpdateSource": "音和樂器",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=iS4KaUMe-Cg",
-      "avatarUrl": "/assets/source-avatars/1a76c469d7e0745e439b.webp",
-      "sourceInitials": "音和",
-      "sourceTags": [
-        "教學器材",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_peacetones_harmonica",
-          "name": "音和樂器",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/PeaceTones.harmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_peacetones_harmonica",
-          "name": "音和樂器",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "peacetones.harmonica",
-          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_peacetones_harmonica",
-          "name": "音和樂器",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "peacetones.harmonica",
-          "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/peacetones.harmonica/story/0"
-        },
-        {
-          "id": "yt_peacetonesharmonica",
-          "name": "音和樂器",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@peacetonesharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-31",
       "publicId": "31",
       "name": "張晁滕",
@@ -8793,7 +8793,7 @@
       "latestUpdateLocal": "2026-08-18 18:18",
       "latestUpdateSource": "張晁滕",
       "latestUpdateUrl": "https://www.instagram.com/stories/chaotengchang/3966371116243650672/",
-      "avatarUrl": "/assets/source-avatars/edbf3d23819b5c97954f.webp",
+      "avatarUrl": "/assets/source-avatars/2a8c801f19dc8dd0d37c.webp",
       "sourceInitials": "張晁",
       "sourceTags": [
         "演奏者",
@@ -15041,7 +15041,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
+      "avatarUrl": "/assets/source-avatars/6a4faa9ecc7840ef8502.webp",
       "sourceInitials": "AHE",
       "sourceTags": [
         "團體樂團"
@@ -15153,7 +15153,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
+      "avatarUrl": "/assets/source-avatars/6a4faa9ecc7840ef8502.webp",
       "sourceInitials": "B",
       "sourceTags": [
         "團體樂團",
@@ -15253,7 +15253,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
+      "avatarUrl": "/assets/source-avatars/6a4faa9ecc7840ef8502.webp",
       "sourceInitials": "CHE",
       "sourceTags": [
         "團體樂團"
@@ -15440,7 +15440,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
+      "avatarUrl": "/assets/source-avatars/6a4faa9ecc7840ef8502.webp",
       "sourceInitials": "DTC",
       "sourceTags": [
         "團體樂團",
@@ -15755,7 +15755,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
+      "avatarUrl": "/assets/source-avatars/6a4faa9ecc7840ef8502.webp",
       "sourceInitials": "MH",
       "sourceTags": [
         "團體樂團",
@@ -16511,7 +16511,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
+      "avatarUrl": "/assets/source-avatars/6a4faa9ecc7840ef8502.webp",
       "sourceInitials": "巴國",
       "sourceTags": [
         "團體樂團"
@@ -16679,7 +16679,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
+      "avatarUrl": "/assets/source-avatars/6a4faa9ecc7840ef8502.webp",
       "sourceInitials": "海豚",
       "sourceTags": [
         "團體樂團"
@@ -16787,7 +16787,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
+      "avatarUrl": "/assets/source-avatars/6a4faa9ecc7840ef8502.webp",
       "sourceInitials": "自由",
       "sourceTags": [
         "團體樂團"
@@ -17113,7 +17113,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
+      "avatarUrl": "/assets/source-avatars/6a4faa9ecc7840ef8502.webp",
       "sourceInitials": "龍騎",
       "sourceTags": [
         "團體樂團"
@@ -18258,7 +18258,7 @@
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/2b7bbacd06084f40ce46.webp",
+      "avatarUrl": "/assets/source-avatars/6a4faa9ecc7840ef8502.webp",
       "sourceInitials": "GBH",
       "sourceTags": [
         "品牌",

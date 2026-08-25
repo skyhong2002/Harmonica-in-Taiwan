@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T03:38:52.916957Z",
+  "generatedAt": "2026-08-25T04:47:19.452513Z",
   "source": {
     "id": 86,
     "slug": "ou-frog",
@@ -200,20 +200,6 @@
       "publishedAt": "2026-07-28T04:00:24Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/61bbea6aba5907f1a266.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-670a3a53d43429c2bad6777b",
-      "title": "[口琴活動 Play Harmonica] ｜中正社大基礎班成果展｜Tremolo",
-      "excerpt": "[口琴活動 Play Harmonica] ｜中正社大基礎班成果展｜Tremolo 中正社大口琴班剩餘五名額～每週三晚上～ 歡迎有興趣的同學一起來學吹口琴喔！ 指導老師：歐純伶 演出團體：中正社大基礎班口琴班 演出曲目：再見的時候 #口琴 #複音口琴 #Harmonica #Tremolo harmonica #特效口琴 #特效鋼琴 #口琴譜 #口琴演奏",
-      "url": "https://www.youtube.com/watch?v=ufpqFMQWSDk",
-      "sourceName": "吹出好心琴 + Ou Frog",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-26T04:00:06Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/03b8b362efe1371f493b.webp",
         "width": 800,
         "height": 450
       }
