@@ -1,11 +1,54 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T17:05:56.705928Z",
+  "generatedAt": "2026-08-25T18:15:14.499408Z",
   "source": {
     "id": 143,
     "slug": "brendan-power",
     "name": "Brendan Power",
     "pageUrl": "https://harmonica.observe.tw/source/143-brendan-power/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-8ee4967a8fb1e0d25c17212f",
+      "title": "IRISH SESSION HARP - A Radical New Way to Play Irish Music on Harmonica!",
+      "excerpt": "IRISH SESSION HARP - A Radical New Way to Play Irish Music on Harmonica! More Info and Ordering:",
+      "url": "https://www.youtube.com/watch?v=j-3MPife-rY",
+      "sourceName": "Brendan Power",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-25T11:46:56Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4d25440c97eb30622e7d.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-ee2212b6a1e1b17575173549",
+      "title": "NOTE-FLOW and the IRISH SESSION HARP: Groundbreaking New TAB System for Harmonica!",
+      "excerpt": "NOTE-FLOW and the IRISH SESSION HARP: Groundbreaking New TAB System for Harmonica! The Irish Session Harp with NoteFlow - MORE INFO & ORDERING:",
+      "url": "https://www.youtube.com/watch?v=5Nl0or2PpgQ",
+      "sourceName": "Brendan Power",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-25T11:46:47Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/7c1f580d2c5db7a66450.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-be91bcdd486ddfd33362655a",
+      "title": "DUSTY WINDOWSILLS JIG: How to Play it on the Irish Session Harp!",
+      "excerpt": "DUSTY WINDOWSILLS JIG: How to Play it on the Irish Session Harp! MORE INFO & ORDERING for the IRISH SESSION HARP + NOTEFLOW:",
+      "url": "https://www.youtube.com/watch?v=2XtUQjyJado",
+      "sourceName": "Brendan Power",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-25T11:46:39Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d121727e893e97d1add0.webp",
+        "width": 800,
+        "height": 450
+      }
+    }
+  ]
 }
