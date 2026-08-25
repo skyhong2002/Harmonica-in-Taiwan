@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T11:09:47.277077Z",
+  "generatedAt": "2026-08-25T12:21:42.927573Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/88-bluebo-harmonica/"
   },
   "items": [
+    {
+      "id": "post-817112c5eef3754780ce151d",
+      "title": "《卡農》🎵 名曲再現：小陳老師的口琴時光 🎵",
+      "excerpt": "《卡農》🎵 名曲再現：小陳老師的口琴時光 🎵 小陳老師在課堂上使用音色優美又醇厚的 SUZUKI半音階口琴 G-48W，為同學們現場演奏帕海貝爾的經典名曲《卡農》！✨ 精湛的功力，將樂曲中細膩的轉調與層層堆疊的旋律完美呈現。琴音既有古典的優雅，又帶有胡桃木蓋板獨特的綿密與溫暖，聽完真的讓人起雞皮疙瘩！ 邀請大家點開影片，一起重新感受這份雋永的感動！ 北投社大半音階班(一)下午 文山社大半音階班(一)晚上 三重社大半音階班(二)晚上 士林社大半音階班(三)下午 新莊社大十孔班(三)晚上",
+      "url": "https://www.youtube.com/watch?v=CYV7e-7VMbk",
+      "sourceName": "藍波口琴教室",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-24T10:05:22Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/993881a59318a103f31e.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-5ea93e26870c01204e02099b",
       "title": "第2號華爾滋丨新光豪宅的突襲演出丨半音階口琴",

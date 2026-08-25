@@ -1,11 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T11:09:47.277077Z",
+  "generatedAt": "2026-08-25T12:21:42.927573Z",
   "source": {
     "id": 252,
     "slug": "swan-harmonica",
     "name": "天鵝口琴",
     "pageUrl": "https://harmonica.observe.tw/source/252-swan-harmonica/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-b5b1ef5a55a3b310e0aace4f",
+      "title": "www.harmonicas.com.cn | 502 : Bad gateway",
+      "excerpt": "www.harmonicas.com.cn | 502 : Bad gateway Error 502 Bad gateway You Browser Working hk-cdn-005 WTS Working www.harmonicas.com.cn Host Error 发生什么事了？ 网站服务无法请求。 我能做什么? 如果您是该网站的访问者: 请您稍后再试。 如果您是该网站的管理者: 1、您的网站服务可能出现异常。 2、您的服务器防火墙可能没有放行网站服务端口。 3、您的服务器可能限制了WTS节点的访问。 4、WTS节点无法访问到您的服务器，…",
+      "url": "https://www.harmonicas.com.cn/",
+      "sourceName": "天鵝口琴",
+      "platform": "website",
+      "publishedAt": "2026-08-25T12:18:57.365815Z"
+    }
+  ]
 }
