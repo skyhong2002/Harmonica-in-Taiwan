@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T02:28:18.320804Z",
+  "generatedAt": "2026-08-25T03:38:52.916957Z",
   "source": {
     "id": 54,
     "slug": "cy-leo",
@@ -146,34 +146,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/b5bff18e52c5b6f84568.webp",
         "width": 540,
         "height": 960
-      }
-    },
-    {
-      "id": "post-092db7a5970d13a27f1b53fd",
-      "title": "A jam before typhoon 8",
-      "excerpt": "A jam before typhoon 8",
-      "url": "https://www.facebook.com/reel/1544185274115619/",
-      "sourceName": "CY Leo 何卓彥",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-26T02:47:57Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/3f54a8f05f13b3d6badd.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-033316c24a5e9640c5eb9c58",
-      "title": "Rising Tide - Jahari Stampley & Cy Leo",
-      "excerpt": "Rising Tide - Jahari Stampley & Cy Leo Had an impromptu session at home with the great Jahari Stampley on his original Rising Tide",
-      "url": "https://www.youtube.com/watch?v=KvkxUn4-hac",
-      "sourceName": "CY Leo 何卓彥",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-26T02:27:29Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/c88cf7a45317be22e049.webp",
-        "width": 800,
-        "height": 450
       }
     }
   ]
