@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T04:47:19.452513Z",
+  "generatedAt": "2026-08-25T05:21:25.889996Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/40-henry-chen/"
   },
   "items": [
+    {
+      "id": "post-64b20187efc1a1d0c163f6d9",
+      "title": "【就是吹口琴Just Play Harmonica 】｜陳瑞 – 水墨雪｜複音口琴Tremolo Harmonica 演奏版本《C調》",
+      "excerpt": "【就是吹口琴Just Play Harmonica 】｜陳瑞 – 水墨雪｜複音口琴Tremolo Harmonica 演奏版本《C調》 水墨雪 劉亦敏 作曲 徐 杰 作詞 陳 瑞 原唱 複音口琴演奏版本《C調》",
+      "url": "https://www.youtube.com/watch?v=J93wkJecynI",
+      "sourceName": "陳鴻儀",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-25T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/25cc88ce52855255e45e.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-64f2853e57cd036fb36ceaf7",
       "title": "【就是吹口琴Just Play Harmonica 】｜兩隻蝴蝶｜複音口琴Tremolo Harmonica 演奏版本《C調》",
