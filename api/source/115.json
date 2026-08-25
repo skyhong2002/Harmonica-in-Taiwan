@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T14:42:47.614075Z",
+  "generatedAt": "2026-08-25T15:53:00.920073Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -342,20 +342,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/7813bfd4e4882360cb4c.webp",
         "width": 800,
         "height": 600
-      }
-    },
-    {
-      "id": "post-a02f71ac3a578479faa13d07",
-      "title": "Munspelen redo inför kvällens konsert på Dalhalla ☀️",
-      "excerpt": "Munspelen redo inför kvällens konsert på Dalhalla ☀️",
-      "url": "https://www.facebook.com/filipjersmusic/posts/pfbid02uLYERrW9LjfEWPTWa7uboBVR3Fs1UsraQa9sRZCdY7Wnwrs8rjupuHqsCyua9f2ul",
-      "sourceName": "Filip Jers",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-26T15:46:59Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/243e2d23767dec83b8b5.webp",
-        "width": 720,
-        "height": 540
       }
     }
   ]
