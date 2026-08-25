@@ -10745,7 +10745,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-09 04:25",
       "latestUpdateSource": "Harmonica FEN 口琴節與學院",
       "latestUpdateUrl": "https://www.instagram.com/stories/harmonica_fen_festival/3959428680874756201/",
-      "avatarUrl": "/assets/source-avatars/8dd2d121362d4a7a3fea.webp",
+      "avatarUrl": "/assets/source-avatars/824192a5e4bcb97400f8.webp",
       "sourceInitials": "HF",
       "sourceTags": [
         "活動資訊",

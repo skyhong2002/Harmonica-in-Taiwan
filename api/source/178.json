@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T21:14:41.525771Z",
+  "generatedAt": "2026-08-25T21:50:12.531301Z",
   "source": {
     "id": 178,
     "slug": "harmonica-fen-festival-academy",
@@ -88,20 +88,6 @@
       "publishedAt": "2026-07-27T10:58:19Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/9829ff587b02827b179e.webp",
-        "width": 800,
-        "height": 800
-      }
-    },
-    {
-      "id": "post-5a5f1dc9ac327ae4e485a49a",
-      "title": "Sehr wahrscheinlich zum ersten Mal erklang heute in Klappholttal eine chromatische Jazz-Mundharmonika im Konzert.",
-      "excerpt": "Sehr wahrscheinlich zum ersten Mal erklang heute in Klappholttal eine chromatische Jazz-Mundharmonika im Konzert. Unglaublich einfühlsam, stimmungsvoll und vielseitig gespielt von der israelischen Musikerin Ariel Bart, die uns zusammen mit ihrem fabelhaften Trio einen Abend voll…",
-      "url": "https://www.instagram.com/p/DbRX_L8gP7P/",
-      "sourceName": "Harmonica FEN 口琴節與學院",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-26T21:39:08Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/4dffdd81e999b01eebfd.webp",
         "width": 800,
         "height": 800
       }
