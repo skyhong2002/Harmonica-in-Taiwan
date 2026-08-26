@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 26 Aug 2026 09:46:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 10:55:00 +0000</lastBuildDate>
     <item>
       <title>衛武營國家藝術文化中心</title>
       <link>https://www.npac-weiwuying.org/</link>
@@ -16,6 +16,17 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/高雄
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>新竹縣文化局</title>
+      <link>https://www.hchcc.gov.tw/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/764c874d5d511c0a</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/新竹
+臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
     </item>
     <item>
       <title>太平國小口琴隊</title>
@@ -610,17 +621,6 @@ Tag：演奏者
 國家：臺灣
 地區：臺灣/新竹
 臺灣的口琴演出人員，活動脈絡包含口琴演奏、學生音樂與個人帳號。</description>
-    </item>
-    <item>
-      <title>新竹縣文化局</title>
-      <link>https://www.hchcc.gov.tw/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/764c874d5d511c0a</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/新竹
-臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
     </item>
     <item>
       <title>中一中口琴社</title>
