@@ -241,6 +241,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/307-seokbeom-jang/</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/295-suzuki-harmonica/</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -248,6 +254,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/27-peacetones-harmonica/</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/111-lee-hangyeol/</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -422,12 +434,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/94-duo-volce-music-studio/</loc>
-    <lastmod>2026-08-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/111-lee-hangyeol/</loc>
     <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -620,12 +626,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/50-aiden-soon/</loc>
-    <lastmod>2026-08-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/307-seokbeom-jang/</loc>
     <lastmod>2026-08-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

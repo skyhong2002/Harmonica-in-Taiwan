@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T05:13:39.872032Z",
+  "generatedAt": "2026-08-26T06:21:13.856827Z",
   "source": {
     "id": 111,
     "slug": "lee-hangyeol",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/111-lee-hangyeol/"
   },
   "items": [
+    {
+      "id": "post-efe1d5e68dc01b958a56e2db",
+      "title": "💙",
+      "excerpt": "💙 우리 모두 각자의 자리에서 자신만의 챔피언이 되기를. BE THE CHAMP! ‘Be the Champ!’는 60년대 미국 서부의 Surf Rock에서 영감을 받은 기타 리프와 멜로디를 바탕으로, 블루스와 펑크 록의 에너지를 더했다. 여기에 80년대 일본 퓨전재즈를 떠올리게 하는 EWI 멜로디와 사이키델릭 록의 감성, 레트로한 오르간 사운드가 어우러져 독특한 색을 만들어낸다. [Credit] Be the Champ! Guitar | KIM Suyu EWI, Harmonica | LEE Han…",
+      "url": "https://www.instagram.com/p/DccoW6vTHa-/",
+      "sourceName": "Lee Hangyeol 이한결",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-25T03:10:36Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d8d60a34f049c0068689.webp",
+        "width": 800,
+        "height": 800
+      }
+    },
     {
       "id": "post-5ce7e17ca9800438f8b50cb8",
       "title": "8.7~8.9 THMF @taiwanharmonica",
