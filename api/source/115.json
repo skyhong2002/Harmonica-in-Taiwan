@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T10:54:58.816486Z",
+  "generatedAt": "2026-08-26T11:31:22.213308Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -9,31 +9,31 @@
   },
   "items": [
     {
-      "id": "post-8fcf4c2f9b50223b3289e459",
+      "id": "post-90831eea509e8a4f8aefeb75",
       "title": "Just playing jazz harmonica 🥳",
       "excerpt": "Just playing jazz harmonica 🥳",
-      "url": "https://www.instagram.com/p/Dceodd0shub/",
+      "url": "https://www.facebook.com/reel/1632934331529558/",
       "sourceName": "Filip Jers",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-25T21:45:36Z",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-26T07:20:23Z",
       "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/e0ff93be12481a4311c0.webp",
-        "width": 640,
-        "height": 1136
+        "url": "https://harmonica.observe.tw/assets/feed-images/a5d8a3202ac8c92dcd38.webp",
+        "width": 541,
+        "height": 960
       }
     },
     {
-      "id": "post-38f6ad66eb230bbda3e5c813",
+      "id": "post-65de1844e0395c6d53265cfa",
       "title": "Pre concert harmonica and guitar jam with @emilernebroguitar 🥳 today we had a workshop and played a concert ☀️",
       "excerpt": "Pre concert harmonica and guitar jam with @emilernebroguitar 🥳 today we had a workshop and played a concert ☀️ Original music, no AI. Every note has been played by us 🎶🎶🎶",
-      "url": "https://www.instagram.com/p/Dcbh6k9NOhf/",
+      "url": "https://www.facebook.com/reel/2602089826887570/",
       "sourceName": "Filip Jers",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-24T16:53:05Z",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-24T16:53:21Z",
       "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/5cc26b0d5996c00f7a15.webp",
-        "width": 800,
-        "height": 1423
+        "url": "https://harmonica.observe.tw/assets/feed-images/b046cdae15a16f90975b.webp",
+        "width": 540,
+        "height": 960
       }
     },
     {
