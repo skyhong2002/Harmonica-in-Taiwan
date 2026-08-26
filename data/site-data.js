@@ -828,6 +828,59 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-195",
+      "publicId": "195",
+      "name": "彰女微光口琴社",
+      "nameEn": "CHGSH Harmonica",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/彰化",
+      "cityOrFocus": "彰化女中/學校社團/彰化",
+      "structuredSummary": "彰化女中/學校社團/彰化 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "彰女微光口琴社 CHGSH Harmonica 口琴社",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/chgsh_harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "195-chgsh-harmonica",
+      "latestUpdateAt": "2026-08-25T15:39:31+00:00",
+      "latestUpdateLocal": "2026-08-25 23:39",
+      "latestUpdateSource": "彰女微光口琴社",
+      "latestUpdateUrl": "https://www.instagram.com/p/Dcd-sAWIGSD/",
+      "avatarUrl": "/assets/source-avatars/5f8970c22acc29a1e57c.webp",
+      "sourceInitials": "彰女",
+      "sourceTags": [
+        "學生社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_chgsh_harmonica",
+          "name": "CHGSH Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "chgsh_harmonica",
+          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_chgsh_harmonica",
+          "name": "彰女微光口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "chgsh_harmonica",
+          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/chgsh_harmonica/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-139",
       "publicId": "139",
       "name": "Lee Oskar",
@@ -1560,6 +1613,99 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-224",
+      "publicId": "224",
+      "name": "Easttop Harmonicas",
+      "nameEn": "Easttop Harmonicas",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌/樂器製造商",
+      "country": "中國",
+      "region": "中國/江蘇/無錫/江陰",
+      "cityOrFocus": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節",
+      "structuredSummary": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節 / 口琴 / 器材品牌/活動主辦單位",
+      "summary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
+      "keywords": "Easttop EAST TOP Jiangsu East Musical Instrument APHF Huaxia Harmonica Festival 口琴 品牌",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://easttop-harmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/EasttopMusic/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/easttopharmonicas/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@easttopmusic"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@easttopharmonicaofficial"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "224-easttop-harmonicas",
+      "latestUpdateAt": "2026-08-25T11:53:59+00:00",
+      "latestUpdateLocal": "2026-08-25 19:53",
+      "latestUpdateSource": "Easttop Harmonicas",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcdkegQT60N/",
+      "avatarUrl": "/assets/source-avatars/e3f9b364fa18148f074e.webp",
+      "sourceInitials": "EH",
+      "sourceTags": [
+        "品牌",
+        "器材",
+        "活動資訊",
+        "音樂節",
+        "國際交流"
+      ],
+      "sourceSummary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
+      "sourceTagReason": "整合自 Easttop 官網、官方 Linktree、Instagram 與 YouTube 自介。",
+      "monitorSources": [
+        {
+          "id": "fb_easttopmusic",
+          "name": "Easttop Harmonicas",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/EasttopMusic",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_easttopharmonicas",
+          "name": "Easttop Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "easttopharmonicas",
+          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_easttopharmonicas",
+          "name": "Easttop Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "easttopharmonicas",
+          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/easttopharmonicas/story/0"
+        },
+        {
+          "id": "yt_easttopmusic",
+          "name": "Easttop Harmonicas",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@easttopmusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-143",
       "publicId": "143",
       "name": "Brendan Power",
@@ -1755,6 +1901,81 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@JDRHarmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-295",
+      "publicId": "295",
+      "name": "SUZUKI Harmonica",
+      "nameEn": "SUZUKI Harmonica",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌",
+      "country": "日本",
+      "region": "日本/靜岡",
+      "cityOrFocus": "半音階/十孔/複音/低音與和弦口琴/產品資訊",
+      "structuredSummary": "半音階/十孔/複音/低音與和弦口琴/產品資訊 / 口琴 / 樂器品牌/器材資訊",
+      "summary": "日本的口琴樂器品牌與器材資訊，關注半音階、十孔、複音、低音與和弦口琴與產品資訊。",
+      "keywords": "SUZUKI Harmonica Suzuki Musical Instrument Japan chromatic diatonic tremolo bass chord",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://suzukimusic-global.com/harmonicas.php?parent_cate_cd=1"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/suzukimusicglobal/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCIyVeF24bW3bO1azA8K8tgg"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "295-suzuki-harmonica",
+      "latestUpdateAt": "2026-08-25T06:00:09+00:00",
+      "latestUpdateLocal": "2026-08-25 14:00",
+      "latestUpdateSource": "SUZUKI Harmonica",
+      "latestUpdateUrl": "https://www.instagram.com/p/Dcc8YMeh1xT/",
+      "avatarUrl": "/assets/source-avatars/suzuki-harmonica.png",
+      "sourceInitials": "SH",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學",
+        "半音階",
+        "複音",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_suzukimusicglobal",
+          "name": "SUZUKI Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "suzukimusicglobal",
+          "profileUrl": "https://www.instagram.com/suzukimusicglobal/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/suzukimusicglobal/story/0"
+        },
+        {
+          "id": "ig_suzukimusicglobal",
+          "name": "SUZUKI Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "suzukimusicglobal",
+          "profileUrl": "https://www.instagram.com/suzukimusicglobal/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_uciyvef24bw3bo1aza8k8tgg",
+          "name": "SUZUKI Harmonica",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCIyVeF24bW3bO1azA8K8tgg",
           "feedUrl": ""
         }
       ]
@@ -4729,59 +4950,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "",
           "profileUrl": "https://youtube.com/@cyleoharmonica",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-195",
-      "publicId": "195",
-      "name": "彰女微光口琴社",
-      "nameEn": "CHGSH Harmonica",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/彰化",
-      "cityOrFocus": "彰化女中/學校社團/彰化",
-      "structuredSummary": "彰化女中/學校社團/彰化 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "彰女微光口琴社 CHGSH Harmonica 口琴社",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/chgsh_harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "195-chgsh-harmonica",
-      "latestUpdateAt": "2026-08-24T03:00:25+00:00",
-      "latestUpdateLocal": "2026-08-24 11:00",
-      "latestUpdateSource": "彰女微光口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/stories/chgsh_harmonica/3970499337473792144/",
-      "avatarUrl": "/assets/source-avatars/5f8970c22acc29a1e57c.webp",
-      "sourceInitials": "彰女",
-      "sourceTags": [
-        "學生社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_chgsh_harmonica",
-          "name": "CHGSH Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "chgsh_harmonica",
-          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_chgsh_harmonica",
-          "name": "彰女微光口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "chgsh_harmonica",
-          "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chgsh_harmonica/story/0"
         }
       ]
     },
@@ -7945,81 +8113,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-295",
-      "publicId": "295",
-      "name": "SUZUKI Harmonica",
-      "nameEn": "SUZUKI Harmonica",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "品牌",
-      "country": "日本",
-      "region": "日本/靜岡",
-      "cityOrFocus": "半音階/十孔/複音/低音與和弦口琴/產品資訊",
-      "structuredSummary": "半音階/十孔/複音/低音與和弦口琴/產品資訊 / 口琴 / 樂器品牌/器材資訊",
-      "summary": "日本的口琴樂器品牌與器材資訊，關注半音階、十孔、複音、低音與和弦口琴與產品資訊。",
-      "keywords": "SUZUKI Harmonica Suzuki Musical Instrument Japan chromatic diatonic tremolo bass chord",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://suzukimusic-global.com/harmonicas.php?parent_cate_cd=1"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/suzukimusicglobal/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCIyVeF24bW3bO1azA8K8tgg"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "295-suzuki-harmonica",
-      "latestUpdateAt": "2026-08-21T06:00:09+00:00",
-      "latestUpdateLocal": "2026-08-21 14:00",
-      "latestUpdateSource": "SUZUKI Harmonica",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcSpN0czXeI/",
-      "avatarUrl": "/assets/source-avatars/suzuki-harmonica.png",
-      "sourceInitials": "SH",
-      "sourceTags": [
-        "品牌",
-        "教學器材",
-        "教學",
-        "半音階",
-        "複音",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_suzukimusicglobal",
-          "name": "SUZUKI Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "suzukimusicglobal",
-          "profileUrl": "https://www.instagram.com/suzukimusicglobal/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/suzukimusicglobal/story/0"
-        },
-        {
-          "id": "ig_suzukimusicglobal",
-          "name": "SUZUKI Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "suzukimusicglobal",
-          "profileUrl": "https://www.instagram.com/suzukimusicglobal/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_uciyvef24bw3bo1aza8k8tgg",
-          "name": "SUZUKI Harmonica",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCIyVeF24bW3bO1azA8K8tgg",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-174",
       "publicId": "174",
       "name": "Yellow Pine Harmonica Festival",
@@ -9083,99 +9176,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/kcobaps",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-224",
-      "publicId": "224",
-      "name": "Easttop Harmonicas",
-      "nameEn": "Easttop Harmonicas",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "品牌/樂器製造商",
-      "country": "中國",
-      "region": "中國/江蘇/無錫/江陰",
-      "cityOrFocus": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節",
-      "structuredSummary": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節 / 口琴 / 器材品牌/活動主辦單位",
-      "summary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
-      "keywords": "Easttop EAST TOP Jiangsu East Musical Instrument APHF Huaxia Harmonica Festival 口琴 品牌",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://easttop-harmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/EasttopMusic/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/easttopharmonicas/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@easttopmusic"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@easttopharmonicaofficial"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "224-easttop-harmonicas",
-      "latestUpdateAt": "2026-08-17T21:57:17+00:00",
-      "latestUpdateLocal": "2026-08-18 05:57",
-      "latestUpdateSource": "Easttop Harmonicas",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcJSAG6Rrx7/",
-      "avatarUrl": "/assets/source-avatars/e3f9b364fa18148f074e.webp",
-      "sourceInitials": "EH",
-      "sourceTags": [
-        "品牌",
-        "器材",
-        "活動資訊",
-        "音樂節",
-        "國際交流"
-      ],
-      "sourceSummary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
-      "sourceTagReason": "整合自 Easttop 官網、官方 Linktree、Instagram 與 YouTube 自介。",
-      "monitorSources": [
-        {
-          "id": "fb_easttopmusic",
-          "name": "Easttop Harmonicas",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/EasttopMusic",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_easttopharmonicas",
-          "name": "Easttop Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "easttopharmonicas",
-          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_easttopharmonicas",
-          "name": "Easttop Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "easttopharmonicas",
-          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/easttopharmonicas/story/0"
-        },
-        {
-          "id": "yt_easttopmusic",
-          "name": "Easttop Harmonicas",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@easttopmusic",
           "feedUrl": ""
         }
       ]
