@@ -4180,7 +4180,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-24 18:46",
       "latestUpdateSource": "Evelyn Choong 鍾雪兒",
       "latestUpdateUrl": "https://www.instagram.com/stories/evelyn_harmonica/3970734139305015249/",
-      "avatarUrl": "/assets/source-avatars/6db38749ddf8b8e9e0d7.webp",
+      "avatarUrl": "/assets/source-avatars/8ab270d09a5c21939bb2.webp",
       "sourceInitials": "EC",
       "sourceTags": [
         "演奏者",
@@ -7027,7 +7027,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-22 22:13",
       "latestUpdateSource": "Aiden Soon",
       "latestUpdateUrl": "https://www.instagram.com/p/DcWGNXvsFAK/",
-      "avatarUrl": "/assets/source-avatars/bb21731eb3e439263887.webp",
+      "avatarUrl": "/assets/source-avatars/c8c4867823cae22954dd.webp",
       "sourceInitials": "AS",
       "sourceTags": [
         "演奏者",
