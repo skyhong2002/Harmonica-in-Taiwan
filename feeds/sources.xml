@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 26 Aug 2026 01:17:21 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 01:51:54 +0000</lastBuildDate>
     <item>
       <title>太平國小口琴隊</title>
       <link>https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586</link>
@@ -161,6 +161,17 @@ Tag：演奏者、半音階、十孔、國際交流
 美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。</description>
     </item>
     <item>
+      <title>茱蒂口琴樂團 Judy's Harmonica Ensemble</title>
+      <link>https://www.judysharmonica.com/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/da11065f59c239fe</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、半音階、複音、重奏、國際交流
+國家：臺灣
+地區：臺灣
+臺灣的半音階口琴、複音口琴、和弦口琴與低音口琴國際演出團體、重奏教育與講座與兩岸交流，活動脈絡包含口琴重奏與教育推廣、2002起參與亞太口琴節與2026 APHF三場音樂會與重奏講座。</description>
+    </item>
+    <item>
       <title>Lee Oskar</title>
       <link>https://leeoskar.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/46bea6a12ee3ef49</guid>
@@ -194,6 +205,17 @@ Tag：演奏者、教學、國際交流
 巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。</description>
     </item>
     <item>
+      <title>Federico Linari</title>
+      <link>https://www.hohner.de/en/federico-linari</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/fc7ebf0ba0d6424f</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、教學、十孔、國際交流
+國家：阿根廷
+地區：阿根廷
+阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。</description>
+    </item>
+    <item>
       <title>山下伶 Rei Yamashita</title>
       <link>https://www.rei-yamashita.com/profile/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/734a3640821742d8</guid>
@@ -214,6 +236,17 @@ Tag：演奏者、團體樂團、重奏
 國家：臺灣
 地區：臺灣
 臺灣的和弦口琴與重奏演出人員、教育者與重奏團長，活動脈絡包含天狼星、胖擊口琴樂團團長與THMF 2026。</description>
+    </item>
+    <item>
+      <title>高醫萌風口琴社</title>
+      <link>https://www.facebook.com/kmumonharmonicaclub</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/b44abcbb0ff6a051</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：學校社團
+Tag：學生社團、大專社團
+國家：臺灣
+地區：臺灣/高雄
+臺灣的口琴學校社團。</description>
     </item>
     <item>
       <title>南里沙</title>
@@ -821,17 +854,6 @@ Tag：團體樂團、半音階、重奏、國際交流
 香港的半音階口琴、低音口琴、和弦口琴與口琴重奏世界冠軍口琴團體與國際演出團體，活動脈絡包含五位英皇書院口琴手組成、和弦與低音與半音階口琴重奏。</description>
     </item>
     <item>
-      <title>茱蒂口琴樂團 Judy's Harmonica Ensemble</title>
-      <link>https://www.judysharmonica.com/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/da11065f59c239fe</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、半音階、複音、重奏、國際交流
-國家：臺灣
-地區：臺灣
-臺灣的半音階口琴、複音口琴、和弦口琴與低音口琴國際演出團體、重奏教育與講座與兩岸交流，活動脈絡包含口琴重奏與教育推廣、2002起參與亞太口琴節與2026 APHF三場音樂會與重奏講座。</description>
-    </item>
-    <item>
       <title>莊筑迪</title>
       <link>https://harmonica.tw/course/judy/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/92f6564235bea5fb</guid>
@@ -1072,17 +1094,6 @@ Tag：演奏者、團體樂團、教學、半音階、重奏、國際交流
 國家：香港
 地區：香港
 香港的半音階口琴國際演出人員、口琴教師與學校樂團指揮，活動脈絡包含半音階口琴演奏與教學、Perfect Fourth成員與何東中學口琴隊指揮與多校口琴導師。</description>
-    </item>
-    <item>
-      <title>Federico Linari</title>
-      <link>https://www.hohner.de/en/federico-linari</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/fc7ebf0ba0d6424f</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、教學、十孔、國際交流
-國家：阿根廷
-地區：阿根廷
-阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。</description>
     </item>
     <item>
       <title>口琴愛好者協會（新加坡）</title>
@@ -2865,17 +2876,6 @@ Tag：學生社團、大專社團、團體樂團、演奏者、教學、半音�
 國家：臺灣
 地區：臺灣/新竹
 臺灣的半音階口琴與口琴重奏演出人員、學校社團指導與天狼星口琴樂團成員。</description>
-    </item>
-    <item>
-      <title>高醫萌風口琴社</title>
-      <link>https://www.facebook.com/kmumonharmonicaclub</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/b44abcbb0ff6a051</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：學校社團
-Tag：學生社團、大專社團
-國家：臺灣
-地區：臺灣/高雄
-臺灣的口琴學校社團。</description>
     </item>
     <item>
       <title>鹿兒島大學ハーモニカバンド</title>

@@ -797,6 +797,106 @@
       ]
     },
     {
+      "id": "watchlist-4",
+      "publicId": "4",
+      "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+      "nameEn": "Judy's Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "口琴重奏與教育推廣/2002起參與亞太口琴節/2026 APHF三場音樂會與重奏講座/第二屆海峽兩岸蕉城文化週專場/琴韻東坡・簧鳴西南",
+      "structuredSummary": "口琴重奏與教育推廣/2002起參與亞太口琴節/2026 APHF三場音樂會與重奏講座/第二屆海峽兩岸蕉城文化週專場/琴韻東坡・簧鳴西南 / 半音階口琴/複音口琴/和弦口琴/低音口琴 / 國際演出團體/重奏教育與講座/兩岸交流",
+      "summary": "臺灣的半音階口琴、複音口琴、和弦口琴與低音口琴國際演出團體、重奏教育與講座與兩岸交流，活動脈絡包含口琴重奏與教育推廣、2002起參與亞太口琴節與2026 APHF三場音樂會與重奏講座。",
+      "keywords": "Judy's Harmonica Ensemble 茱蒂口琴樂團 APHF 2026 海峽兩岸 蕉城 重奏講座 琴韻東坡 簧鳴西南",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.judysharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Judys.Harmonica.Ensemble/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/judys.harmonica.ensemble/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@JudysHarmonicaEnsemble"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@judys.harmonica.ensemble"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "4-judy-s-harmonica-ensemble",
+      "latestUpdateAt": "2026-08-25T15:52:16+00:00",
+      "latestUpdateLocal": "2026-08-25 23:52",
+      "latestUpdateSource": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.facebook.com/Judys.Harmonica.Ensemble/posts/pfbid031F9VPKmshaD6e464vnj2rZv8ki9ZEuzCZwgkeLVsdQDLoeZKvZdbu8EakbQPo52ml",
+      "avatarUrl": "/assets/source-avatars/a64b546bfdbe6ef46f0f.webp",
+      "sourceInitials": "JSH",
+      "sourceTags": [
+        "團體樂團",
+        "半音階",
+        "複音",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_judys_harmonica_ensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Judys.Harmonica.Ensemble",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_judys_harmonica_ensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "judys.harmonica.ensemble",
+          "profileUrl": "https://www.instagram.com/judys.harmonica.ensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_judys_harmonica_ensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "judys.harmonica.ensemble",
+          "profileUrl": "https://www.instagram.com/judys.harmonica.ensemble/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/judys.harmonica.ensemble/story/0"
+        },
+        {
+          "id": "threads_judys_harmonica_ensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "threads",
+          "type": "rss",
+          "username": "judys.harmonica.ensemble",
+          "profileUrl": "https://www.threads.net/@judys.harmonica.ensemble",
+          "feedUrl": "https://rss.observe.tw/threads/judys.harmonica.ensemble"
+        },
+        {
+          "id": "yt_judysharmonicaensemble",
+          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@JudysHarmonicaEnsemble",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-139",
       "publicId": "139",
       "name": "Lee Oskar",
@@ -1054,6 +1154,92 @@
       ]
     },
     {
+      "id": "watchlist-118",
+      "publicId": "118",
+      "name": "Federico Linari",
+      "nameEn": "Federico Linari",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "阿根廷",
+      "region": "阿根廷",
+      "cityOrFocus": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源",
+      "structuredSummary": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源 / 十孔/爵士口琴 / 國際演出人員/教學者/製作人",
+      "summary": "阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。",
+      "keywords": "Federico Linari harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hohner.de/en/federico-linari"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/Federico.Linari.Armonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/fede.linari/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@FedericoLinari"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "118-federico-linari",
+      "latestUpdateAt": "2026-08-25T13:00:09+00:00",
+      "latestUpdateLocal": "2026-08-25 21:00",
+      "latestUpdateSource": "Federico Linari",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcdscxsRB-J/",
+      "avatarUrl": "/assets/source-avatars/federico-linari.jpg",
+      "sourceInitials": "FL",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_federico_linari_armonica",
+          "name": "Federico Linari",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/Federico.Linari.Armonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_fede_linari",
+          "name": "Federico Linari",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "fede.linari",
+          "profileUrl": "https://www.instagram.com/fede.linari/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_fede_linari",
+          "name": "Federico Linari",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "fede.linari",
+          "profileUrl": "https://www.instagram.com/fede.linari/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/fede.linari/story/0"
+        },
+        {
+          "id": "yt_federicolinari",
+          "name": "Federico Linari",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@FedericoLinari",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-57",
       "publicId": "57",
       "name": "山下伶 Rei Yamashita",
@@ -1221,6 +1407,73 @@
           "username": "",
           "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
           "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-232",
+      "publicId": "232",
+      "name": "高醫萌風口琴社",
+      "nameEn": "KMU Mon Harmonica Club",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "cityOrFocus": "高雄醫學大學/學校社團/社課/招生",
+      "structuredSummary": "高雄醫學大學/學校社團/社課/招生 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "高醫萌風口琴社 KMU Mon Harmonica Club 高雄醫學大學 口琴社",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kmumonharmonicaclub"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kmu.m.f.harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "232-kmu-mon-harmonica-club",
+      "latestUpdateAt": "2026-08-25T12:58:00+00:00",
+      "latestUpdateLocal": "2026-08-25 20:58",
+      "latestUpdateSource": "高醫萌風口琴社",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcdsND5vC31/",
+      "avatarUrl": "/assets/source-avatars/12c28441eb3db75a3189.webp",
+      "sourceInitials": "高醫",
+      "sourceTags": [
+        "學生社團",
+        "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_kmumonharmonicaclub",
+          "name": "高醫萌風口琴社",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/kmumonharmonicaclub",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_kmu_m_f_harmonica",
+          "name": "高醫萌風口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "kmu.m.f.harmonica",
+          "profileUrl": "https://www.instagram.com/kmu.m.f.harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_kmu_m_f_harmonica",
+          "name": "高醫萌風口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "kmu.m.f.harmonica",
+          "profileUrl": "https://www.instagram.com/kmu.m.f.harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/kmu.m.f.harmonica/story/0"
         }
       ]
     },
@@ -1702,7 +1955,7 @@
       "latestUpdateLocal": "2026-08-25 10:23",
       "latestUpdateSource": "衛武營國家藝術文化中心",
       "latestUpdateUrl": "https://www.threads.com/t/DccjQ_IAUra",
-      "avatarUrl": "/assets/source-avatars/43fceeb475830187ba36.webp",
+      "avatarUrl": "/assets/source-avatars/ddc671cd70efd4889cd2.webp",
       "sourceInitials": "衛武",
       "sourceTags": [
         "場館平台"
@@ -2440,7 +2693,7 @@
       "latestUpdateLocal": "2026-08-24 23:44",
       "latestUpdateSource": "Marcos Coll",
       "latestUpdateUrl": "https://www.instagram.com/p/DcbUY53Ipyq/",
-      "avatarUrl": "/assets/source-avatars/2d8ba8633a0c301a211c.webp",
+      "avatarUrl": "/assets/source-avatars/7f7d062c05688e93b330.webp",
       "sourceInitials": "MC",
       "sourceTags": [
         "活動資訊",
@@ -5428,106 +5681,6 @@
       ]
     },
     {
-      "id": "watchlist-4",
-      "publicId": "4",
-      "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-      "nameEn": "Judy's Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "口琴重奏與教育推廣/2002起參與亞太口琴節/2026 APHF三場音樂會與重奏講座/第二屆海峽兩岸蕉城文化週專場/琴韻東坡・簧鳴西南",
-      "structuredSummary": "口琴重奏與教育推廣/2002起參與亞太口琴節/2026 APHF三場音樂會與重奏講座/第二屆海峽兩岸蕉城文化週專場/琴韻東坡・簧鳴西南 / 半音階口琴/複音口琴/和弦口琴/低音口琴 / 國際演出團體/重奏教育與講座/兩岸交流",
-      "summary": "臺灣的半音階口琴、複音口琴、和弦口琴與低音口琴國際演出團體、重奏教育與講座與兩岸交流，活動脈絡包含口琴重奏與教育推廣、2002起參與亞太口琴節與2026 APHF三場音樂會與重奏講座。",
-      "keywords": "Judy's Harmonica Ensemble 茱蒂口琴樂團 APHF 2026 海峽兩岸 蕉城 重奏講座 琴韻東坡 簧鳴西南",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.judysharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Judys.Harmonica.Ensemble/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/judys.harmonica.ensemble/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@JudysHarmonicaEnsemble"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@judys.harmonica.ensemble"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "4-judy-s-harmonica-ensemble",
-      "latestUpdateAt": "2026-08-23T10:52:39+00:00",
-      "latestUpdateLocal": "2026-08-23 18:52",
-      "latestUpdateSource": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcYSVsQlPVN/",
-      "avatarUrl": "/assets/source-avatars/a64b546bfdbe6ef46f0f.webp",
-      "sourceInitials": "JSH",
-      "sourceTags": [
-        "團體樂團",
-        "半音階",
-        "複音",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_judys_harmonica_ensemble",
-          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Judys.Harmonica.Ensemble",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_judys_harmonica_ensemble",
-          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "judys.harmonica.ensemble",
-          "profileUrl": "https://www.instagram.com/judys.harmonica.ensemble/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_judys_harmonica_ensemble",
-          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "judys.harmonica.ensemble",
-          "profileUrl": "https://www.instagram.com/judys.harmonica.ensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/judys.harmonica.ensemble/story/0"
-        },
-        {
-          "id": "threads_judys_harmonica_ensemble",
-          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "platform": "threads",
-          "type": "rss",
-          "username": "judys.harmonica.ensemble",
-          "profileUrl": "https://www.threads.net/@judys.harmonica.ensemble",
-          "feedUrl": "https://rss.observe.tw/threads/judys.harmonica.ensemble"
-        },
-        {
-          "id": "yt_judysharmonicaensemble",
-          "name": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@JudysHarmonicaEnsemble",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-36",
       "publicId": "36",
       "name": "莊筑迪",
@@ -7281,92 +7434,6 @@
       ]
     },
     {
-      "id": "watchlist-118",
-      "publicId": "118",
-      "name": "Federico Linari",
-      "nameEn": "Federico Linari",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "阿根廷",
-      "region": "阿根廷",
-      "cityOrFocus": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源",
-      "structuredSummary": "布宜諾斯艾利斯/爵士十孔口琴/製作與教學/阿根廷根源 / 十孔/爵士口琴 / 國際演出人員/教學者/製作人",
-      "summary": "阿根廷的十孔與爵士口琴國際演出人員、教學者與製作人，活動脈絡包含布宜諾斯艾利斯、爵士十孔口琴與製作與教學。",
-      "keywords": "Federico Linari harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hohner.de/en/federico-linari"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/Federico.Linari.Armonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/fede.linari/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@FedericoLinari"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "118-federico-linari",
-      "latestUpdateAt": "2026-08-22T02:51:08+00:00",
-      "latestUpdateLocal": "2026-08-22 10:51",
-      "latestUpdateSource": "Federico Linari",
-      "latestUpdateUrl": "https://www.instagram.com/stories/fede.linari/3969045184860252138/",
-      "avatarUrl": "/assets/source-avatars/federico-linari.jpg",
-      "sourceInitials": "FL",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_federico_linari_armonica",
-          "name": "Federico Linari",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/Federico.Linari.Armonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_fede_linari",
-          "name": "Federico Linari",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "fede.linari",
-          "profileUrl": "https://www.instagram.com/fede.linari/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_fede_linari",
-          "name": "Federico Linari",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "fede.linari",
-          "profileUrl": "https://www.instagram.com/fede.linari/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/fede.linari/story/0"
-        },
-        {
-          "id": "yt_federicolinari",
-          "name": "Federico Linari",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@FedericoLinari",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-162",
       "publicId": "162",
       "name": "口琴愛好者協會（新加坡）",
@@ -8907,7 +8974,7 @@
       "latestUpdateLocal": "2026-08-18 18:18",
       "latestUpdateSource": "張晁滕",
       "latestUpdateUrl": "https://www.instagram.com/stories/chaotengchang/3966371116243650672/",
-      "avatarUrl": "/assets/source-avatars/2a8c801f19dc8dd0d37c.webp",
+      "avatarUrl": "/assets/source-avatars/52e9717b8173ef2bd9ca.webp",
       "sourceInitials": "張晁",
       "sourceTags": [
         "演奏者",
@@ -18040,73 +18107,6 @@
           "username": "",
           "profileUrl": "https://facebook.com/aria0831",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-232",
-      "publicId": "232",
-      "name": "高醫萌風口琴社",
-      "nameEn": "KMU Mon Harmonica Club",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/高雄",
-      "cityOrFocus": "高雄醫學大學/學校社團/社課/招生",
-      "structuredSummary": "高雄醫學大學/學校社團/社課/招生 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "高醫萌風口琴社 KMU Mon Harmonica Club 高雄醫學大學 口琴社",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/kmumonharmonicaclub"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/kmu.m.f.harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "232-kmu-mon-harmonica-club",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/cd14a69c301982d7ac39.webp",
-      "sourceInitials": "高醫",
-      "sourceTags": [
-        "學生社團",
-        "大專社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_kmumonharmonicaclub",
-          "name": "高醫萌風口琴社",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/kmumonharmonicaclub",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_kmu_m_f_harmonica",
-          "name": "高醫萌風口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "kmu.m.f.harmonica",
-          "profileUrl": "https://www.instagram.com/kmu.m.f.harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_kmu_m_f_harmonica",
-          "name": "高醫萌風口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "kmu.m.f.harmonica",
-          "profileUrl": "https://www.instagram.com/kmu.m.f.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/kmu.m.f.harmonica/story/0"
         }
       ]
     },
