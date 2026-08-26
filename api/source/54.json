@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T14:58:46.578374Z",
+  "generatedAt": "2026-08-26T15:34:29.245317Z",
   "source": {
     "id": 54,
     "slug": "cy-leo",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/54-cy-leo/"
   },
   "items": [
+    {
+      "id": "post-300b9bc8f163ac850f4ef582",
+      "title": "「世界很多東西都是被分為黑白、對錯，很清晰。」但對口琴演奏家 @cy_leo（何卓彥）而言，二元不只能對立，亦能在保留各自優勢同時，互相解釋彼此。一邊是純音樂...",
+      "excerpt": "「世界很多東西都是被分為黑白、對錯，很清晰。」但對口琴演奏家 @cy_leo（何卓彥）而言，二元不只能對立，亦能在保留各自優勢同時，互相解釋彼此。一邊是純音樂... 「世界很多東西都是被分為黑白、對錯，很清晰。」但對口琴演奏家 @cy_leo（何卓彥）而言，二元不只能對立，亦能在保留各自優勢同時，互相解釋彼此。一邊是純音樂的世界，另一邊是人聲的世界，音樂企劃《Two Worlds In One》便遊走在兩個世界當中，以音樂牽起眾人的手，在兩個心中間坐下。 Cy Leo 何卓彥「Two Worlds In One 兩界一心」香港音樂會 日期：2026年8…",
+      "url": "https://www.instagram.com/p/Dcf8ubSEU-H/",
+      "sourceName": "CY Leo 何卓彥",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-26T10:00:04Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/28799577efb23826daf9.webp",
+        "width": 800,
+        "height": 1000
+      }
+    },
     {
       "id": "post-eba8ed7022fe7368f9bfe270",
       "title": "十二歲的我，第一次離開香港到海外演奏口琴在臺灣。",
@@ -132,20 +146,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/21b639db9c6575bc00ad.webp",
         "width": 526,
         "height": 701
-      }
-    },
-    {
-      "id": "post-fea2c7177b3677a896644901",
-      "title": "Transcribing is the most important part of jazz study.",
-      "excerpt": "Transcribing is the most important part of jazz study. Learning music by ear is what most classical training couldn’t offer. But it forces student to further deepen their listening sensitivity, and to truly acquire the best way of learning music. Notes and scores only exist afte…",
-      "url": "https://www.facebook.com/reel/28392926206981017/",
-      "sourceName": "CY Leo 何卓彥",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-27T14:58:56Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/b5bff18e52c5b6f84568.webp",
-        "width": 540,
-        "height": 960
       }
     }
   ]
