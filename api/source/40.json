@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T06:21:13.856827Z",
+  "generatedAt": "2026-08-26T07:28:43.199778Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/40-henry-chen/"
   },
   "items": [
+    {
+      "id": "post-8d2c397929ec5ec1ec6810db",
+      "title": "【就是吹口琴Just Play Harmonica 】｜送別(Dreaming of Home and Mother)｜複音口琴Tremolo Harmonica低音伴奏版本(C)",
+      "excerpt": "【就是吹口琴Just Play Harmonica 】｜送別(Dreaming of Home and Mother)｜複音口琴Tremolo Harmonica低音伴奏版本(C) 送別(Dreaming of Home and Mother) 作詞：李叔同(弘一大師) 作曲：奧德威(John Pond Ordway) 複音口琴演奏版本(C)",
+      "url": "https://www.youtube.com/watch?v=GZ73P7AATK8",
+      "sourceName": "陳鴻儀",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-26T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/25a1c68d5aaf9b3fc845.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-64b20187efc1a1d0c163f6d9",
       "title": "【就是吹口琴Just Play Harmonica 】｜陳瑞 – 水墨雪｜複音口琴Tremolo Harmonica 演奏版本《C調》",
