@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T15:34:29.245317Z",
+  "generatedAt": "2026-08-26T16:09:16.541157Z",
   "source": {
     "id": 140,
     "slug": "gregoire-maret",
@@ -104,20 +104,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/69d23f21b89b01f60c3a.webp",
         "width": 800,
         "height": 1423
-      }
-    },
-    {
-      "id": "post-c3e4ba1ad3134bd700e4d76d",
-      "title": "©️ photo : Erik Bardin",
-      "excerpt": "©️ photo : Erik Bardin @ebar.photo",
-      "url": "https://www.instagram.com/p/DbTVgtRjetQ/",
-      "sourceName": "Gregoire Maret",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-27T15:55:54Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/db8188ae9ff742e9ad8b.webp",
-        "width": 800,
-        "height": 1067
       }
     }
   ]

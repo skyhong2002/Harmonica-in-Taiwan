@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T15:34:29.245317Z",
+  "generatedAt": "2026-08-26T16:09:16.541157Z",
   "source": {
     "id": 125,
     "slug": "jens-bunge",
@@ -48,20 +48,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/ca765f998d21b677fa01.webp",
         "width": 640,
         "height": 1136
-      }
-    },
-    {
-      "id": "post-15ab1388169ef1eda4015db6",
-      "title": "Jam Session at Club Evans",
-      "excerpt": "Jam Session at Club Evans",
-      "url": "https://www.instagram.com/p/DbTW3RUjw9V/",
-      "sourceName": "Jens Bunge",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-27T16:07:43Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/a0badc5d00be0469a9b8.webp",
-        "width": 720,
-        "height": 405
       }
     }
   ]
