@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T12:39:38.380647Z",
+  "generatedAt": "2026-08-26T13:14:50.182765Z",
   "source": {
     "id": 263,
     "slug": "jdr-harmonica",
@@ -116,20 +116,6 @@
       "publishedAt": "2026-07-30T04:52:06Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/2237550f607e4e6715e3.webp",
-        "width": 640,
-        "height": 1136
-      }
-    },
-    {
-      "id": "post-7e22992b3dc109e0cf9ed97a",
-      "title": "A two Masted Schooner named \"Freja\" in Nexø, Bornholm.",
-      "excerpt": "A two Masted Schooner named \"Freja\" in Nexø, Bornholm. Testing out my new JDR Evo 0648S Chromatic harmonica, plays great! One of the coolest stages i ever performed on.",
-      "url": "https://www.instagram.com/p/DbTA9E5MNh6/",
-      "sourceName": "JDR Harmonica",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-27T13:03:56Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/755da766fdead6c87f4e.webp",
         "width": 640,
         "height": 1136
       }
