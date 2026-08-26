@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Wed, 26 Aug 2026 17:50:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 18:57:41 +0000</lastBuildDate>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -183,6 +183,17 @@ Tag：團體樂團
 臺灣的口琴合奏演出團體，活動脈絡包含1998成立、THE-22與合奏。</description>
     </item>
     <item>
+      <title>World Harmonica Festival</title>
+      <link>https://worldharmonicafestival.de/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/d540be4b0c925a31</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：活動資訊
+Tag：活動資訊、比賽、國際交流
+國家：德國
+地區：德國/特羅辛根
+德國的國際活動來源，涵蓋四年一度世界口琴節、國際比賽、Gala與工作坊。</description>
+    </item>
+    <item>
       <title>CY Leo 何卓彥</title>
       <link>https://www.cyleomusic.io/profile</link>
       <guid>https://harmonica.observe.tw/feeds/sources/161a953fbacb664c</guid>
@@ -335,17 +346,6 @@ Tag：演奏者、教學、國際交流
 國家：巴西
 地區：巴西
 巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。</description>
-    </item>
-    <item>
-      <title>World Harmonica Festival</title>
-      <link>https://worldharmonicafestival.de/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/d540be4b0c925a31</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：活動資訊
-Tag：活動資訊、比賽、國際交流
-國家：德國
-地區：德國/特羅辛根
-德國的國際活動來源，涵蓋四年一度世界口琴節、國際比賽、Gala與工作坊。</description>
     </item>
     <item>
       <title>Federico Linari</title>
