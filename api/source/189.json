@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-26T13:14:50.182765Z",
+  "generatedAt": "2026-08-26T13:49:13.374447Z",
   "source": {
     "id": 189,
     "slug": "fcu-harmonica",
     "name": "逢甲口琴社",
     "pageUrl": "https://harmonica.observe.tw/source/189-fcu-harmonica/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-c6a449ffa7b048544ac80b1e",
+      "title": "｜115級幹部介紹｜",
+      "excerpt": "｜115級幹部介紹｜ 📣 社博倒數六天 第一篇幹介文正式登場！ 口琴社頂級卡司，帶著地表最強音浪強勢襲來—— 🎨 美宣-張維達，視覺與光影的主宰！用萬元 Sony 相機定格奇蹟，這次的幹介照也多虧了辛苦的美宣🫡 - 大家好~ 我是62屆的美宣張維達，目前是財稅系四年級。 興趣是看電影和漫畫，有喜歡的作品歡迎來找我交流~ 期待社團博覽會當天在攤位上看到各位！ @wanson_47 - 🎶 想了解或加入口琴社的新生們注意啦！ 迎新茶會表單已上架主頁，歡迎大家手刀填寫表單，加入我們一起玩、一起吹、一起創造屬於你們的青春旋律！ 🎼我們在口琴社等你，讓這個大學生…",
+      "url": "https://www.instagram.com/p/Dcfoba5FHN5/",
+      "sourceName": "逢甲口琴社",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-26T07:26:56Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c325793bc6c5dbe6d066.webp",
+        "width": 800,
+        "height": 1005
+      }
+    }
+  ]
 }
