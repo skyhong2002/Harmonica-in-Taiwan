@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T09:54:33.329672Z",
+  "generatedAt": "2026-08-27T11:03:00.571535Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/88-bluebo-harmonica/"
   },
   "items": [
+    {
+      "id": "post-8c4a905c7d1acd851e614540",
+      "title": "黃昏丨十孔口琴即興",
+      "excerpt": "黃昏丨十孔口琴即興 課堂上隨意的示範一下，吹到哪想到哪的半即興",
+      "url": "https://www.youtube.com/watch?v=h8nds7VXOeo",
+      "sourceName": "藍波口琴教室",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-27T05:18:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/5a13a0569e7d9e6a0f18.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-817112c5eef3754780ce151d",
       "title": "《卡農》🎵 名曲再現：小陳老師的口琴時光 🎵",
