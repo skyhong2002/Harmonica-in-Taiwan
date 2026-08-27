@@ -718,7 +718,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-27 08:00",
       "latestUpdateSource": "新竹市文化局",
       "latestUpdateUrl": "https://www.facebook.com/culture.hccg/posts/pfbid08RTaSouHBne7V1FpeSxxUyiSRZhhhNk7hktepkMcng9fi7vnp2c9Dntc5yYDjnovl",
-      "avatarUrl": "/assets/source-avatars/b3f2593d164162ed5f81.webp",
+      "avatarUrl": "/assets/source-avatars/001fbd66a2b2a7ef8d1f.webp",
       "sourceInitials": "新竹",
       "sourceTags": [
         "場館平台"
@@ -1401,6 +1401,52 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-87",
+      "publicId": "87",
+      "name": "桃園玩口琴",
+      "nameEn": "Taoyuan Harmonica Community",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "地方教學/社大課程",
+      "country": "臺灣",
+      "region": "臺灣/桃園",
+      "cityOrFocus": "口琴課程/地方社群活動",
+      "structuredSummary": "口琴課程/地方社群活動 / 口琴 / 教學/課程來源",
+      "summary": "臺灣的口琴教學與課程來源，關注口琴課程與地方社群活動。",
+      "keywords": "桃園玩口琴 桃園 口琴 課程 社大",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/p/%E6%A1%83%E5%9C%92%E7%8E%A9%E5%8F%A3%E7%90%B4-100057424090624/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "87",
+      "latestUpdateAt": "2026-08-26T10:03:33+00:00",
+      "latestUpdateLocal": "2026-08-26 18:03",
+      "latestUpdateSource": "桃園玩口琴",
+      "latestUpdateUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Miosj2hJq8ZiteVexUuSQUG29DYtckxNjR7oTJg2XR421cEfPSnEDJmZB65egqfyl&id=100057424090624",
+      "avatarUrl": "/assets/source-avatars/taoyuan-harmonica.jpg",
+      "sourceInitials": "桃園",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "課程"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_291bc27392",
+          "name": "桃園玩口琴",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/p/%E6%A1%83%E5%9C%92%E7%8E%A9%E5%8F%A3%E7%90%B4-100057424090624",
           "feedUrl": ""
         }
       ]
@@ -9614,6 +9660,78 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-156",
+      "publicId": "156",
+      "name": "Sigmund Groven",
+      "nameEn": "Sigmund Groven",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "挪威",
+      "region": "挪威",
+      "cityOrFocus": "WHF 2025/Tommy Reilly Memorial Concert/古典與跨界半音階",
+      "structuredSummary": "WHF 2025/Tommy Reilly Memorial Concert/古典與跨界半音階 / 半音階 / 國際演出人員/作曲者",
+      "summary": "挪威的半音階國際演出人員與作曲者，活動脈絡包含WHF 2025、Tommy Reilly Memorial Concert與古典與跨界半音階。",
+      "keywords": "Sigmund Groven harmonica WHF 2025 Tommy Reilly",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://sigmundgroven.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TheSigmundGrovenPage"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/sigmundgroven/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "156-sigmund-groven",
+      "latestUpdateAt": "2026-08-15T14:54:46+00:00",
+      "latestUpdateLocal": "2026-08-15 22:54",
+      "latestUpdateSource": "Sigmund Groven",
+      "latestUpdateUrl": "https://www.facebook.com/TheSigmundGrovenPage/posts/pfbid0Z7K4xkbKCfn2Nw4371EpYwZ6qTN1VVMYcJswr86NFDVojMEi5Am3VxoVi9jMbceHl",
+      "avatarUrl": "/assets/source-avatars/61f9b847b706580eef33.webp",
+      "sourceInitials": "SG",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_thesigmundgrovenpage",
+          "name": "Sigmund Groven",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/TheSigmundGrovenPage",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_sigmundgroven",
+          "name": "Sigmund Groven",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "sigmundgroven",
+          "profileUrl": "https://www.instagram.com/sigmundgroven/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_sigmundgroven",
+          "name": "Sigmund Groven",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "sigmundgroven",
+          "profileUrl": "https://www.instagram.com/sigmundgroven/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/sigmundgroven/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-211",
       "publicId": "211",
       "name": "新加坡國立大學口琴社",
@@ -12127,78 +12245,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-156",
-      "publicId": "156",
-      "name": "Sigmund Groven",
-      "nameEn": "Sigmund Groven",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "挪威",
-      "region": "挪威",
-      "cityOrFocus": "WHF 2025/Tommy Reilly Memorial Concert/古典與跨界半音階",
-      "structuredSummary": "WHF 2025/Tommy Reilly Memorial Concert/古典與跨界半音階 / 半音階 / 國際演出人員/作曲者",
-      "summary": "挪威的半音階國際演出人員與作曲者，活動脈絡包含WHF 2025、Tommy Reilly Memorial Concert與古典與跨界半音階。",
-      "keywords": "Sigmund Groven harmonica WHF 2025 Tommy Reilly",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://sigmundgroven.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/TheSigmundGrovenPage"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/sigmundgroven/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "156-sigmund-groven",
-      "latestUpdateAt": "2026-07-16T19:10:40+00:00",
-      "latestUpdateLocal": "2026-07-17 03:10",
-      "latestUpdateSource": "Sigmund Groven",
-      "latestUpdateUrl": "https://www.facebook.com/TheSigmundGrovenPage/posts/pfbid02sTSRsroVaZaLUXwnXkhLDwawfVGr6ugmCvGmbCe6QAk9b2LZ33u52nh9EjQJrvNLl",
-      "avatarUrl": "/assets/source-avatars/61f9b847b706580eef33.webp",
-      "sourceInitials": "SG",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_thesigmundgrovenpage",
-          "name": "Sigmund Groven",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/TheSigmundGrovenPage",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_sigmundgroven",
-          "name": "Sigmund Groven",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "sigmundgroven",
-          "profileUrl": "https://www.instagram.com/sigmundgroven/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_sigmundgroven",
-          "name": "Sigmund Groven",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "sigmundgroven",
-          "profileUrl": "https://www.instagram.com/sigmundgroven/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sigmundgroven/story/0"
-        }
-      ]
-    },
-    {
       "id": "watchlist-215",
       "publicId": "215",
       "name": "鍾靈中學口琴隊",
@@ -12265,52 +12311,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "clhs_harmonicaband",
           "profileUrl": "https://www.instagram.com/clhs_harmonicaband/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/clhs_harmonicaband/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-87",
-      "publicId": "87",
-      "name": "桃園玩口琴",
-      "nameEn": "Taoyuan Harmonica Community",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "地方教學/社大課程",
-      "country": "臺灣",
-      "region": "臺灣/桃園",
-      "cityOrFocus": "口琴課程/地方社群活動",
-      "structuredSummary": "口琴課程/地方社群活動 / 口琴 / 教學/課程來源",
-      "summary": "臺灣的口琴教學與課程來源，關注口琴課程與地方社群活動。",
-      "keywords": "桃園玩口琴 桃園 口琴 課程 社大",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/p/%E6%A1%83%E5%9C%92%E7%8E%A9%E5%8F%A3%E7%90%B4-100057424090624/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "87",
-      "latestUpdateAt": "2026-07-16T05:55:29+00:00",
-      "latestUpdateLocal": "2026-07-16 13:55",
-      "latestUpdateSource": "桃園玩口琴",
-      "latestUpdateUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid02DTU3TB23GwmpJmxkdKBFPNUhzqxA2LjzpvjbEeXL3yo2LG9UTzZyZuuv4upWZLUfl&id=100057424090624",
-      "avatarUrl": "/assets/source-avatars/taoyuan-harmonica.jpg",
-      "sourceInitials": "桃園",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "課程"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_291bc27392",
-          "name": "桃園玩口琴",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/p/%E6%A1%83%E5%9C%92%E7%8E%A9%E5%8F%A3%E7%90%B4-100057424090624",
-          "feedUrl": ""
         }
       ]
     },

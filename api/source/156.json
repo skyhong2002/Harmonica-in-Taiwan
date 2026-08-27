@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T03:40:19.806077Z",
+  "generatedAt": "2026-08-27T04:47:59.782071Z",
   "source": {
     "id": 156,
     "slug": "sigmund-groven",
     "name": "Sigmund Groven",
     "pageUrl": "https://harmonica.observe.tw/source/156-sigmund-groven/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-0f69e71dedda5f44be439952",
+      "title": "Kuriosa!",
+      "excerpt": "Kuriosa! Sommeren 1992 medvirket #SigmundGroven i en fellesnordisk konsert i Sverige. Konserten ble sendt på TV i hele Norden samme høst, oppdelt i to episoder. Du kan se konserten bl.a. på NRK.no (lenke lengre ned). ------- The newspaper cutting says: Sunday, 23 August 1992 PRA…",
+      "url": "https://www.facebook.com/TheSigmundGrovenPage/posts/pfbid0Z7K4xkbKCfn2Nw4371EpYwZ6qTN1VVMYcJswr86NFDVojMEi5Am3VxoVi9jMbceHl",
+      "sourceName": "Sigmund Groven",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-15T14:54:46Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/da7db8a4ac65d7ddf940.webp",
+        "width": 526,
+        "height": 526
+      }
+    }
+  ]
 }
