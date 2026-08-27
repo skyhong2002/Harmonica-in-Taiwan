@@ -61,6 +61,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/78/</loc>
+    <lastmod>2026-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/316-taiping-elementary-school-harmonica-ensemble/</loc>
     <lastmod>2026-08-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -139,6 +145,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/125-jens-bunge/</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/151-rachelle-plas-philippe-hervouet/</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -194,12 +206,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/115-filip-jers/</loc>
-    <lastmod>2026-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/78/</loc>
     <lastmod>2026-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -506,12 +512,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/239-bing-guo-rong/</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/125-jens-bunge/</loc>
     <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
