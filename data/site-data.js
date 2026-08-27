@@ -1,5 +1,5 @@
 window.HARMONICA_OBSERVE_DATA = {
-  "generatedAt": "2026-08-27",
+  "generatedAt": "2026-08-28",
   "entries": [
     {
       "id": "watchlist-115",
@@ -7449,7 +7449,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-22 22:13",
       "latestUpdateSource": "Aiden Soon",
       "latestUpdateUrl": "https://www.instagram.com/p/DcWGNXvsFAK/",
-      "avatarUrl": "/assets/source-avatars/c8c4867823cae22954dd.webp",
+      "avatarUrl": "/assets/source-avatars/448432b74126b170cfbb.webp",
       "sourceInitials": "AS",
       "sourceTags": [
         "演奏者",
