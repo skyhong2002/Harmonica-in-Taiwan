@@ -10390,7 +10390,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-10 20:18",
       "latestUpdateSource": "Fresco Harmonica Ensemble",
       "latestUpdateUrl": "https://www.instagram.com/p/Db2_ymxiXl7/",
-      "avatarUrl": "/assets/source-avatars/b43974a23d64027187dc.webp",
+      "avatarUrl": "/assets/source-avatars/9c153d4915a2ceb5b7f4.webp",
       "sourceInitials": "FHE",
       "sourceTags": [
         "團體樂團",
