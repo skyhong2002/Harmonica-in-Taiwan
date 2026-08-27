@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T07:40:37.769832Z",
+  "generatedAt": "2026-08-27T08:47:44.336466Z",
   "source": {
     "id": 75,
     "slug": "75",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/75/"
   },
   "items": [
+    {
+      "id": "post-4aa77300c6e79c58a8f61a06",
+      "title": "241藝術空間展覽《𝙋𝙊𝙋 𝙄𝙉》｜宣傳影片",
+      "excerpt": "241藝術空間展覽《𝙋𝙊𝙋 𝙄𝙉》｜宣傳影片 #POPIN 展覽以普普藝術為核心，帶領觀眾重返戰後文化爆炸的現場。從英國發跡至美國崛起，普普藝術擷取日常消費符號，以「藝術來自生活」的姿態打破殿堂界線。 本展進一步邀請觀眾一同探索普普藝術在亞洲區的多重延伸，匯聚日本超扁平美學、韓國流行符碼、印尼的幽默諷刺，再回到臺灣本土的新普普，透過鮮豔色彩傳遞情緒能量，在重複的視覺節奏中，為觀者帶來普普藝術獨有的療癒與安定感受。 ⸝⸝ 𝙋𝙊𝙋，不只是一種風格，而是一種態度； 𝙄𝙉，不只是一個入口，而是一個邀請。 快走進 𝙋𝙊𝙋 𝙄𝙉，一起感受視覺與心靈的雙重療癒吧！…",
+      "url": "https://www.youtube.com/watch?v=JKPzI9bc_LU",
+      "sourceName": "新竹市文化局",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-27T03:23:44Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/e26f7592a861602e0c46.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-92e4ddfe04afef292b95af43",
       "title": "⏰距離 8/31 報名截止，只剩下最後 5 天！",

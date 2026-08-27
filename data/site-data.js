@@ -64,6 +64,67 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-75",
+      "publicId": "75",
+      "name": "新竹市文化局",
+      "nameEn": "Cultural Affairs Bureau of Hsinchu City",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館/文化局",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "場館/文化活動",
+      "structuredSummary": "場館/文化活動 / 口琴/藝文 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供場館與文化活動相關資訊。",
+      "keywords": "新竹市文化局 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://culture.hccg.gov.tw/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/culture.hccg/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC9ts62VuB0WSSVDQW_h3H_g"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "75",
+      "latestUpdateAt": "2026-08-27T03:23:44+00:00",
+      "latestUpdateLocal": "2026-08-27 11:23",
+      "latestUpdateSource": "新竹市文化局",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=JKPzI9bc_LU",
+      "avatarUrl": "/assets/source-avatars/001fbd66a2b2a7ef8d1f.webp",
+      "sourceInitials": "新竹",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_culture_hccg",
+          "name": "新竹市文化局",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/culture.hccg",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_uc9ts62vub0wssvdqw_h3h_g",
+          "name": "新竹市文化局",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UC9ts62VuB0WSSVDQW_h3H_g",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-78",
       "publicId": "78",
       "name": "衛武營國家藝術文化中心",
@@ -741,67 +802,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-75",
-      "publicId": "75",
-      "name": "新竹市文化局",
-      "nameEn": "Cultural Affairs Bureau of Hsinchu City",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館/文化局",
-      "country": "臺灣",
-      "region": "臺灣/新竹",
-      "cityOrFocus": "場館/文化活動",
-      "structuredSummary": "場館/文化活動 / 口琴/藝文 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供場館與文化活動相關資訊。",
-      "keywords": "新竹市文化局 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://culture.hccg.gov.tw/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/culture.hccg/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UC9ts62VuB0WSSVDQW_h3H_g"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "75",
-      "latestUpdateAt": "2026-08-27T00:00:06+00:00",
-      "latestUpdateLocal": "2026-08-27 08:00",
-      "latestUpdateSource": "新竹市文化局",
-      "latestUpdateUrl": "https://www.facebook.com/culture.hccg/posts/pfbid08RTaSouHBne7V1FpeSxxUyiSRZhhhNk7hktepkMcng9fi7vnp2c9Dntc5yYDjnovl",
-      "avatarUrl": "/assets/source-avatars/001fbd66a2b2a7ef8d1f.webp",
-      "sourceInitials": "新竹",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_culture_hccg",
-          "name": "新竹市文化局",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/culture.hccg",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_uc9ts62vub0wssvdqw_h3h_g",
-          "name": "新竹市文化局",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UC9ts62VuB0WSSVDQW_h3H_g",
           "feedUrl": ""
         }
       ]
@@ -3813,7 +3813,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-25 01:44",
       "latestUpdateSource": "Antonio Serrano",
       "latestUpdateUrl": "https://www.instagram.com/p/DcboCVJRxZv/",
-      "avatarUrl": "/assets/source-avatars/dd5b25993f6157c749e9.webp",
+      "avatarUrl": "/assets/source-avatars/db7843f91c97d99dc7d9.webp",
       "sourceInitials": "AS",
       "sourceTags": [
         "演奏者",
