@@ -71,6 +71,68 @@
   },
   "entries": [
     {
+      "id": "watchlist-255",
+      "publicId": "255",
+      "name": "Cookie Monster 口琴二重奏",
+      "nameEn": "Cookie Monster Harmonica Duo",
+      "category": "活動資訊",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "陳若芸與李沛寧組成的新生代二重奏/臺灣口琴音樂節演出/2025世界口琴節成人二重奏並列第七名（優秀評等）",
+      "structuredSummary": "陳若芸與李沛寧組成的新生代二重奏/臺灣口琴音樂節演出/2025世界口琴節成人二重奏並列第七名（優秀評等） / 半音階口琴/口琴二重奏 / 國際賽事演出團體/青年團體",
+      "summary": "臺灣的國際賽事演出團體與青年團體，涵蓋陳若芸與李沛寧組成的新生代二重奏、臺灣口琴音樂節演出與2025世界口琴節成人二重奏並列第七名（優秀評等）。",
+      "keywords": "Cookie Monster harmonica duo 陳若芸 李沛寧 THMF WHF 2025 duet seventh outstanding",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://worldharmonicafestival.de/wp-content/uploads/2025/11/whf-2025_final-results.pdf"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/cookiemonster_harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "255-cookie-monster-harmonica-duo",
+      "latestUpdateAt": "2026-08-27T05:04:36+00:00",
+      "latestUpdateLocal": "2026-08-27 13:04",
+      "latestUpdateSource": "Cookie Monster 口琴二重奏",
+      "latestUpdateUrl": "https://www.instagram.com/p/Dch_nJQiIOf/",
+      "avatarUrl": "/assets/source-avatars/7aa78f18d7bb4f4ca5aa.webp",
+      "sourceInitials": "CM",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "音樂節",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_cookiemonster_harmonica",
+          "name": "Cookie Monster 口琴二重奏",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "cookiemonster_harmonica",
+          "profileUrl": "https://www.instagram.com/cookiemonster_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_cookiemonster_harmonica",
+          "name": "Cookie Monster 口琴二重奏",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "cookiemonster_harmonica",
+          "profileUrl": "https://www.instagram.com/cookiemonster_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/cookiemonster_harmonica/story/0"
+        }
+      ]
+    },
+    {
       "id": "watchlist-78",
       "publicId": "78",
       "name": "衛武營國家藝術文化中心",
@@ -7141,7 +7203,7 @@
       "latestUpdateLocal": "2026-08-23 01:06",
       "latestUpdateSource": "李沛寧",
       "latestUpdateUrl": "https://www.instagram.com/stories/l.p.ning.0404/3969475968233531793/",
-      "avatarUrl": "/assets/source-avatars/8947e97ec5d7b40247b0.webp",
+      "avatarUrl": "/assets/source-avatars/7aa78f18d7bb4f4ca5aa.webp",
       "sourceInitials": "李沛",
       "sourceTags": [
         "演奏者",
@@ -18798,68 +18860,6 @@
           "username": "",
           "profileUrl": "https://www.hkharmonica.org/en/about-us",
           "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-255",
-      "publicId": "255",
-      "name": "Cookie Monster 口琴二重奏",
-      "nameEn": "Cookie Monster Harmonica Duo",
-      "category": "活動資訊",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "陳若芸與李沛寧組成的新生代二重奏/臺灣口琴音樂節演出/2025世界口琴節成人二重奏並列第七名（優秀評等）",
-      "structuredSummary": "陳若芸與李沛寧組成的新生代二重奏/臺灣口琴音樂節演出/2025世界口琴節成人二重奏並列第七名（優秀評等） / 半音階口琴/口琴二重奏 / 國際賽事演出團體/青年團體",
-      "summary": "臺灣的國際賽事演出團體與青年團體，涵蓋陳若芸與李沛寧組成的新生代二重奏、臺灣口琴音樂節演出與2025世界口琴節成人二重奏並列第七名（優秀評等）。",
-      "keywords": "Cookie Monster harmonica duo 陳若芸 李沛寧 THMF WHF 2025 duet seventh outstanding",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://worldharmonicafestival.de/wp-content/uploads/2025/11/whf-2025_final-results.pdf"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/cookiemonster_harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "255-cookie-monster-harmonica-duo",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/8947e97ec5d7b40247b0.webp",
-      "sourceInitials": "CM",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "音樂節",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_cookiemonster_harmonica",
-          "name": "Cookie Monster 口琴二重奏",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "cookiemonster_harmonica",
-          "profileUrl": "https://www.instagram.com/cookiemonster_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_cookiemonster_harmonica",
-          "name": "Cookie Monster 口琴二重奏",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "cookiemonster_harmonica",
-          "profileUrl": "https://www.instagram.com/cookiemonster_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/cookiemonster_harmonica/story/0"
         }
       ]
     },

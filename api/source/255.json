@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T07:06:16.015201Z",
+  "generatedAt": "2026-08-27T07:40:37.769832Z",
   "source": {
     "id": 255,
     "slug": "cookie-monster-harmonica-duo",
     "name": "Cookie Monster 口琴二重奏",
     "pageUrl": "https://harmonica.observe.tw/source/255-cookie-monster-harmonica-duo/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-33a80574762b51f6143d4b47",
+      "title": "𝟐𝟎𝟐𝟔𝐓𝐇𝐌𝐅🎶💖✨",
+      "excerpt": "𝟐𝟎𝟐𝟔𝐓𝐇𝐌𝐅🎶💖✨ 繼前兩年我們在二重奏青年組連霸後，今年我們首次挑戰二重奏公開組，很開心也很榮幸能一舉奪冠🥇 非常感謝冠老的邀請，讓我們能再度站上午間音樂會的舞台與大家分享音樂🙌 這次獨奏部分我們兩人也各自收穫了亮眼的成績🥉🎖️。 謝謝一路支持我們的朋友，期待明年臺口節再與大家相見😻！",
+      "url": "https://www.instagram.com/p/Dch_nJQiIOf/",
+      "sourceName": "Cookie Monster 口琴二重奏",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-27T05:04:36Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9a10aff4c824994049c5.webp",
+        "width": 1440,
+        "height": 1440
+      }
+    }
+  ]
 }
