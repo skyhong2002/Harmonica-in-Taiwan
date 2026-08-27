@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 27 Aug 2026 03:05:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 03:40:21 +0000</lastBuildDate>
     <item>
       <title>衛武營國家藝術文化中心</title>
       <link>https://www.npac-weiwuying.org/</link>
@@ -148,6 +148,17 @@ Tag：團體樂團
 國家：臺灣
 地區：臺灣
 臺灣的口琴合奏演出團體，活動脈絡包含1998成立、THE-22與合奏。</description>
+    </item>
+    <item>
+      <title>新竹市文化局</title>
+      <link>https://culture.hccg.gov.tw/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/e83fa63ff4d4ace2</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/新竹
+臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
     </item>
     <item>
       <title>Santiago Alvarez</title>
@@ -1371,6 +1382,17 @@ Tag：演奏者、半音階、複音、國際交流
 臺灣的半音階口琴與複音口琴演出人員與國際賽事得獎者，活動脈絡包含半音階與複音口琴、2019 SIHF Seoul Major Prize與青年演奏與國際賽事。</description>
     </item>
     <item>
+      <title>范曉怡</title>
+      <link>https://www.facebook.com/fanhsiaoyi/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/cabba71c598fef9e</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、團體樂團、教學
+國家：臺灣
+地區：臺灣
+臺灣的低音口琴與口琴演出人員與教學者，活動脈絡包含狂響口琴樂團、教學與地方推廣。</description>
+    </item>
+    <item>
       <title>張晁滕</title>
       <link>https://chaotengchang.blogspot.com/2014/06/blog-post.html</link>
       <guid>https://harmonica.observe.tw/feeds/sources/9dc0ecea6c492eb6</guid>
@@ -1468,17 +1490,6 @@ Tag：學生社團、活動資訊、音樂節、比賽、重奏
 國家：香港
 地區：香港
 香港的學生比賽來源，涵蓋學校音樂節、口琴獨奏、二重奏、合奏與口琴隊。</description>
-    </item>
-    <item>
-      <title>范曉怡</title>
-      <link>https://www.facebook.com/fanhsiaoyi/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/cabba71c598fef9e</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、團體樂團、教學
-國家：臺灣
-地區：臺灣
-臺灣的低音口琴與口琴演出人員與教學者，活動脈絡包含狂響口琴樂團、教學與地方推廣。</description>
     </item>
     <item>
       <title>陳彥銘</title>
@@ -2733,17 +2744,6 @@ Tag：場館平台、半音階、複音、十孔、重奏
 國家：日本
 地區：日本/全國
 日本的日本全國口琴協會與區域聯盟協調與活動資訊來源，提供日本全國口琴組織聯絡平台、串連北海道、東北、關東與中部相關資訊。</description>
-    </item>
-    <item>
-      <title>新竹市文化局</title>
-      <link>https://culture.hccg.gov.tw/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/e83fa63ff4d4ace2</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/新竹
-臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
     </item>
     <item>
       <title>東方口琴博物館</title>

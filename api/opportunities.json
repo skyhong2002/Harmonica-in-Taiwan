@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
   "json": "https://harmonica.observe.tw/api/opportunities.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/opportunities.json",
-  "count": 139,
+  "count": 142,
   "items": [
     {
       "title": "太平國小口琴隊｜臺中市政府教育局-校園活動報導 --> 跳到主要內容區 臺中市政府教育局 回首頁 市府首頁 網站導覽 常見問答 快速連結 English 教育服務網 A- A A+ 搜尋 單位介紹 首長介紹 組織與職掌 各級學校 局徽介紹…",
@@ -631,6 +631,167 @@
         "補助比賽"
       ],
       "key": "web_136:bfa484f334f7ddffe5c89181ea0df09a630c477dcbe6f9cce6807e440457b013"
+    },
+    {
+      "title": "新竹市文化局｜⏰距離 8/31 報名截止，只剩下最後 5 天！ 󠀠 這幾天工作小組收到了許多令人驚豔的作品，但我們知道，還有很多好聲音正藏在螢幕前猶豫不決🎤💥 󠀠 跨出第一步真的沒有想像中困難！ 󠀠 不需要花錢租借專業錄音室，只要在家拿起…",
+      "headline": "⏰距離 8/31 報名截止，只剩下最後 5 天！",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/culture.hccg/posts/pfbid08RTaSouHBne7V1FpeSxxUyiSRZhhhNk7hktepkMcng9fi7vnp2c9Dntc5yYDjnovl",
+      "source_id": "fb_culture_hccg",
+      "source": "新竹市文化局",
+      "source_system_name": "新竹市文化局",
+      "source_profile_url": "https://facebook.com/culture.hccg",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "directory_entry_id": "watchlist-75",
+      "directory_entry_name": "新竹市文化局",
+      "account": "culture.hccg",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-08-27T00:00:06.000Z",
+      "posted_at_local": "2026-08-27 08:00",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-27T03:39:48.111752+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "比賽",
+        "報名",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "比賽",
+        "報名",
+        "截止"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "比賽",
+        "報名",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "opportunities"
+      ],
+      "llm_reason": "新竹歌唱大賽報名截止宣傳，屬公開徵件比賽資訊，與口琴公開更新相關類型相符。",
+      "text": "⏰距離 8/31 報名截止，只剩下最後 5 天！\n󠀠\n這幾天工作小組收到了許多令人驚豔的作品，但我們知道，還有很多好聲音正藏在螢幕前猶豫不決🎤💥\n󠀠\n跨出第一步真的沒有想像中困難！\n󠀠\n不需要花錢租借專業錄音室，只要在家拿起手機，錄下你最真實、動人的歌聲（60~120秒），或是展現你為新竹寫下的原創詞曲，就能為自己爭取站上大舞台的門票。\n󠀠\n這次大賽不僅備有豐厚獎金，各組冠軍更能獲得總價值 70 萬的「推廣大禮包」，由專業團隊為您量身打造專屬單曲、拍攝 MV 並安排廣播宣傳。這不僅是一場比賽，更是讓你的好聲音被更多人聽見的絕佳機會！\n󠀠\n💡 週末衝刺溫馨提醒：\n即將到來的週末就是最好的準備時機！也要特別提醒大家，越靠近截止日，報名系統可能會越壅塞。請盡早完成資料填寫與檔案上傳，確保報名順利喔！\n󠀠\n👉 給自己一個機會，立刻前往報名： https://www.2026hcnewvoices.989.com.tw\n󠀠\n#SING竹夢 #2026新竹城市新聲歌唱大賽 #最後5天 #新竹好聲音 #把握機會\nhttps://www.facebook.com/photo/?fbid=1527717702730846&set=a.344905277678767",
+      "images": [
+        "https://scontent-atl3-3.xx.fbcdn.net/v/t39.99422-6/787797578_1447233497455225_8315838086536712412_n.png?stp=dst-jpg_tt6&cstp=mx1446x2048&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=JhjwwVcNQDwQ7kNvwGZsQKc&_nc_oc=Adr2d4grNA1AKQvcKid9zscDZy2t3Nlw4sSFv4z4Q6hOCevhhK8sM42BC-gpGnmigKY&_nc_zt=14&_nc_ht=scontent-atl3-3.xx&_nc_gid=pNIlE2LB6qUCUvAH-sWmHA&_nc_ss=73289&oh=00_AQEgJd5n8w0Er6jvPb7H10JbdMDSJOgYyhCg8oU2C__-Pw&oe=6A9587D7"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.99422-6/787797578_1447233497455225_8315838086536712412_n.png?stp=dst-jpg_tt6&cstp=mx1446x2048&ctp=s720x720&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=JhjwwVcNQDwQ7kNvwGZsQKc&_nc_oc=Adr2d4grNA1AKQvcKid9zscDZy2t3Nlw4sSFv4z4Q6hOCevhhK8sM42BC-gpGnmigKY&_nc_zt=14&_nc_ht=scontent-atl3-3.xx&_nc_gid=pNIlE2LB6qUCUvAH-sWmHA&_nc_ss=73289&oh=00_AQEgJd5n8w0Er6jvPb7H10JbdMDSJOgYyhCg8oU2C__-Pw&oe=6A9587D7",
+      "image_url": "/assets/feed-images/c8a7b24500e21e0bba77.webp",
+      "image_width": 508,
+      "image_height": 720,
+      "source_avatar_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/274292952_4804665619620625_5743807528916421033_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx678x678&ctp=s50x50&_nc_cat=108&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=5bJxjaEHBUQQ7kNvwHrSAyD&_nc_oc=Adruxvponj7SoCwGc8I--Ff5YqM211hGj9Iz7tWXpRBAqGLHfRr4SfKhBm-hkFIsezw&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=pNIlE2LB6qUCUvAH-sWmHA&_nc_ss=73289&oh=00_AQFLw8hEv_WerdMudheFC2jQm8GxT5zOcsaBShGerV-xxg&oe=6A959118",
+      "avatar_url": "/assets/source-avatars/001fbd66a2b2a7ef8d1f.webp",
+      "source_initials": "新竹",
+      "categories": [
+        "posts-videos",
+        "opportunities",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽",
+        "公開活動"
+      ],
+      "key": "fb_culture_hccg:1527717719397511"
+    },
+    {
+      "title": "新竹市文化局｜新竹市花燈工藝傳習課程報名開始！ 󠀠 傳習課目標｜認識本市花燈工藝，並學習製作花燈作品，完成作品將參展11月《蕭在淦藝師百歲紀念花燈特展》 󠀠 師資介紹：【謝宏鑫】 新竹市傳統工藝「花燈」保存者蕭在淦藝師114年度傳習進階班…",
+      "headline": "新竹市花燈工藝傳習課程報名開始！",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/culture.hccg/posts/pfbid0E6WUqSvENHYJX53t8EZ61zpfgmsvSFzBXFuHFy8szFM44jxRaNV5jSjFT8GGj9uKl",
+      "source_id": "fb_culture_hccg",
+      "source": "新竹市文化局",
+      "source_system_name": "新竹市文化局",
+      "source_profile_url": "https://facebook.com/culture.hccg",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "directory_entry_id": "watchlist-75",
+      "directory_entry_name": "新竹市文化局",
+      "account": "culture.hccg",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-08-26T07:23:14.000Z",
+      "posted_at_local": "2026-08-26 15:23",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-27T03:39:48.111752+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "課程",
+        "報名",
+        "甄選"
+      ],
+      "keyword_matches": [
+        "徵選",
+        "報名",
+        "截止"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "課程",
+        "報名",
+        "甄選"
+      ],
+      "llm_categories": [
+        "opportunities"
+      ],
+      "llm_reason": "公開報名徵選的花燈傳習課程，屬招生與報名資訊，非口琴但符合公開更新類型。",
+      "text": "新竹市花燈工藝傳習課程報名開始！\n󠀠\n傳習課目標｜認識本市花燈工藝，並學習製作花燈作品，完成作品將參展11月《蕭在淦藝師百歲紀念花燈特展》\n󠀠\n師資介紹：【謝宏鑫】\n新竹市傳統工藝「花燈」保存者蕭在淦藝師114年度傳習進階班結業學員。謝宏鑫老師投身傳統花燈工藝已逾11年，長期承襲蕭在淦藝師的悉心指點，熟練掌握從初期的骨架打造、電燈佈線到後續精細裱糊等全套花燈製作工序，具備扎實的傳統工藝技術與豐富的實作經驗。󠀠󠀠\n󠀠\n課程內容：骰子燈製作（尺寸：20*20*20cm）\n以傳統花燈工藝製作幾何造型花燈，本次初階班課程將一步步帶領學員完成，從骨架設計、燈線纏繞、燈布裱糊，學習傳統工藝技術的完整製作。並於完成後參展本市花燈藝師蕭在淦老師的百歲特展。\n󠀠\n課程地點：新竹都城隍廟明正樓2樓 (新竹市北區中山路75號)\n󠀠\n課程對象｜公開報名徵選 共計5位\n󠀠\n費用｜入選後繳交保證金1000元整，不另收報名費用，保證金於11月展出後退還。\n󠀠\n課程日期｜9-10月【 共一期五堂傳習課，共27小時】\n※ 傳習課程須完整參加，以利製作進度順利。\n󠀠\n報名連結｜https://forms.gle/hEpEtSX8phJU7sz19\n󠀠\n報名截止日｜115年9月10日，下午4時止\n󠀠\n主辦單位｜新竹市文化局\nhttps://www.facebook.com/culture.hccg/posts/pfbid0E6WUqSvENHYJX53t8EZ61zpfgmsvSFzBXFuHFy8szFM44jxRaNV5jSjFT8GGj9uKl",
+      "images": [
+        "https://scontent-atl3-1.xx.fbcdn.net/v/t39.99422-6/778985191_37801947999453068_742147604196584325_n.png?stp=dst-jpg_tt6&cstp=mx1567x1570&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Myx6FzdiAEYQ7kNvwGxrxHI&_nc_oc=AdoOi-DwjXSQ4f0-KqMsTWtswgUFqpTiR3jrpWTeS85HLEcFOQsMIQUjYk7wSTDSNG8&_nc_zt=14&_nc_ht=scontent-atl3-1.xx&_nc_gid=pNIlE2LB6qUCUvAH-sWmHA&_nc_ss=73289&oh=00_AQF4pRk812P7-gjqV21gRpXKrUgzQCltq0LiIwGKvqXVVQ&oe=6A9598E9",
+        "https://scontent-atl3-3.xx.fbcdn.net/v/t39.99422-6/784435346_1082437114358976_8777764982114494131_n.png?stp=dst-jpg_tt6&cstp=mx2040x2048&ctp=s590x590&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=C6ONsubVJkAQ7kNvwGzb1Sy&_nc_oc=AdoX5EdroIaQzOZuwk05WCuadla_-Xe6SHhmytzJbuntXO0hXBJrgFdU3Eu9fybDKcs&_nc_zt=14&_nc_ht=scontent-atl3-3.xx&_nc_gid=pNIlE2LB6qUCUvAH-sWmHA&_nc_ss=73289&oh=00_AQEdFTQBlwic17nfd7zc5u8r6pGXfwQ8yGGGcPkhz-l-Ww&oe=6A957C25",
+        "https://scontent-atl3-3.xx.fbcdn.net/v/t39.99422-6/786166871_2531629423916995_7900803060984120272_n.png?stp=dst-jpg_tt6&cstp=mx2039x2048&ctp=s590x590&_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=fwucvGeQP8QQ7kNvwE_kPL_&_nc_oc=AdrjR-i8ls60Aj_jaAPKL0tZW_vXyGqUOz2AZfyAa1dqqmG5GsZ1LfB_wIk6HOAJD-w&_nc_zt=14&_nc_ht=scontent-atl3-3.xx&_nc_gid=pNIlE2LB6qUCUvAH-sWmHA&_nc_ss=73289&oh=00_AQF0XNpfxltOeNnyZxP5rcDW0B_dxyzwXnBTGhVh_aWAeA&oe=6A959659",
+        "https://scontent-atl3-1.xx.fbcdn.net/v/t39.99422-6/786121939_1411860320834749_9180988361277409806_n.png?stp=dst-jpg_tt6&cstp=mx2039x2048&ctp=s590x590&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=GcKKx8eCJAcQ7kNvwF5ikg8&_nc_oc=Adp1jypcuU70gU3M4aOz0whp8BPtM-Z7TaIvVVuscmAb4agbK5HZa1HJTCd91JdjYaQ&_nc_zt=14&_nc_ht=scontent-atl3-1.xx&_nc_gid=pNIlE2LB6qUCUvAH-sWmHA&_nc_ss=73289&oh=00_AQGCywz6upHPJvf5xsGU_uSucVfmC5zH2WqtX2RiY47tuA&oe=6A959793"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-atl3-1.xx.fbcdn.net/v/t39.99422-6/778985191_37801947999453068_742147604196584325_n.png?stp=dst-jpg_tt6&cstp=mx1567x1570&ctp=s590x590&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Myx6FzdiAEYQ7kNvwGxrxHI&_nc_oc=AdoOi-DwjXSQ4f0-KqMsTWtswgUFqpTiR3jrpWTeS85HLEcFOQsMIQUjYk7wSTDSNG8&_nc_zt=14&_nc_ht=scontent-atl3-1.xx&_nc_gid=pNIlE2LB6qUCUvAH-sWmHA&_nc_ss=73289&oh=00_AQF4pRk812P7-gjqV21gRpXKrUgzQCltq0LiIwGKvqXVVQ&oe=6A9598E9",
+      "image_url": "/assets/feed-images/79e9568abdcade231ec2.webp",
+      "image_width": 589,
+      "image_height": 590,
+      "source_avatar_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-1/274292952_4804665619620625_5743807528916421033_n.jpg?stp=cp0_dst-jpg_tt6&cstp=mx678x678&ctp=s50x50&_nc_cat=108&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=5bJxjaEHBUQQ7kNvwHrSAyD&_nc_oc=Adruxvponj7SoCwGc8I--Ff5YqM211hGj9Iz7tWXpRBAqGLHfRr4SfKhBm-hkFIsezw&_nc_zt=24&_nc_ht=scontent-atl3-3.xx&_nc_gid=pNIlE2LB6qUCUvAH-sWmHA&_nc_ss=73289&oh=00_AQFLw8hEv_WerdMudheFC2jQm8GxT5zOcsaBShGerV-xxg&oe=6A959118",
+      "avatar_url": "/assets/source-avatars/001fbd66a2b2a7ef8d1f.webp",
+      "source_initials": "新竹",
+      "categories": [
+        "posts-videos",
+        "opportunities",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽",
+        "公開活動"
+      ],
+      "key": "fb_culture_hccg:1527048822797734"
     },
     {
       "title": "張錫範｜새로운 특강 주제를 추천해 주세요! 🎵 ⠀ 안녕하세요 여러분! 인투더하모니카입니다. 😊 ⠀ 어느덧 새로운 특강을 준비할 시즌이 찾아왔어요! 이번에는 우리 수강생분들과 구독자분들이 정말 필요로 하고, 꼭 배워…",
@@ -2229,6 +2390,89 @@
         "補助比賽"
       ],
       "key": "fb_rei_yamashita_5:3993816594082632"
+    },
+    {
+      "title": "范曉怡｜暑假都有個大活動~台口節 口琴好南也通常會為這事忙上好陣子 很開心大夥又一起挺進並把活動順利完成了 不曉得是不是年紀越大 對許多事情的感受度有種\"收\"的感覺 以前的自己可能會對很多事都會放得很重 現在好像有點慢慢變得~~\"嗯...…",
+      "headline": "暑假都有個大活動~台口節",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.facebook.com/fanhsiaoyi/posts/pfbid0o9YvPMGR8FRfzkRik1znH6Z45JRKiGutZJaePUaoQ7u62ryUciYJTUHKizWPVbSl",
+      "source_id": "fb_fanhsiaoyi",
+      "source": "范曉怡",
+      "source_system_name": "范曉怡",
+      "source_profile_url": "https://facebook.com/fanhsiaoyi",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-99",
+      "directory_entry_name": "范曉怡",
+      "account": "fanhsiaoyi",
+      "platform": "facebook",
+      "platform_label": "Facebook",
+      "posted_at": "2026-08-19T06:31:13.000Z",
+      "posted_at_local": "2026-08-19 14:31",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-27T03:39:48.111752+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "比賽",
+        "演出",
+        "影片"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "影片",
+        "比賽"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.97,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "比賽",
+        "演出",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴社團公開更新，提到臺灣口琴音樂節成績、觀摩同樂會與比賽影片，屬口琴相關公開內容。",
+      "text": "暑假都有個大活動~台口節\n口琴好南也通常會為這事忙上好陣子\n很開心大夥又一起挺進並把活動順利完成了\n不曉得是不是年紀越大\n對許多事情的感受度有種\"收\"的感覺\n以前的自己可能會對很多事都會放得很重\n現在好像有點慢慢變得~~\"嗯...就這樣了\"\n也不是不在意\n就是每件事就是人生中的其中一件事\n過程中只要盡力了即可\n而佔更大多數的平凡生活才是更重要的\n把\"自己顧好\"\"把阿E顧好\"\"把兩人的生活顧好\"才更重要!\n口琴好南也是這樣吧~\n每月兩次練習+固定的幾個大活動\n各個夥伴聚集在一起.會有故事也會有力量\n這些對我們來說都很重要\n所以與阿E這十年來\n我們一直很用心去經營.去帶團\n今年的重奏算是去累積經驗的\n但在大合奏及獨奏拿到了還不錯的成績\n大家也都盡力了\n所以未來就是持續加強及調整\n口琴的學習本來就需要時間\nOK的.未來再繼續加油\n能看到參與的大家都很享受整個口琴節活動\n一切的辛苦也都值得了!\n前幾天也辦了觀摩同樂會\n參與度也很高.一起看了比賽影片\n一起分享.討論.而不是活動結束了就結束了\n我想如何讓大家收獲更多及對未來的規劃\n這些事才是我們要去思考的\n其實我也挺愛做些有的沒的\n這回煮了兩大鍋牛肉請大家吃牛肉麵\n大家都說還不錯吃~~\n嘿嘿.心裏就很開心\n只是居然忘了是有人不吃牛肉的\n下次應該要多注意!!\n比如一鍋牛一鍋豬之類的!\n八月還有剩一點點時間\n雖然今天是七夕情人節\n但我應該要多愛自己一點\n未來要多給自己一些時間\n做自己想做的事.做不是口琴的事\n哈哈哈~~\n(但其實又默默地想著九月開學後的一堆雜事啊......)\n-------------\n2026臺灣口琴音樂節\n◆半音階口琴獨奏公開組: 施沛心 第1名(阿E指導)\n◆半音階口琴獨奏青年組: 施沛心 第1名(阿E指導)\n◆半音階口琴獨奏少年組: 王德睿 第3名(阿E指導)\n◆複音口琴獨奏少年組:王德睿 第3名(阿E指導)\n◆口琴二重奏青年組: 飛飛 平方_施沛心/王德睿 : 第3名\n◆現代音樂組: 陳其麟 第3名\n◆大合奏公開組: <口琴好南合奏樂團> 第3名 (阿E指揮)\n◆現代音樂組: 雞塊人小分隊 : 黃品硯(也是好南成員) 第一名\n---------------------",
+      "images": [],
+      "videos": [],
+      "source_image_url": "",
+      "image_url": "",
+      "image_width": null,
+      "image_height": null,
+      "source_avatar_url": "https://scontent-mia3-3.xx.fbcdn.net/v/t39.30808-1/464553915_10234586586146015_279110672358072728_n.jpg?stp=c14.14.172.172a_cp0_dst-jpg_tt6&cstp=mx172x172&ctp=s50x50&_nc_cat=109&ccb=1-7&_nc_sid=e99d92&_nc_ohc=MUm791mEhegQ7kNvwGhLcaS&_nc_oc=AdpoTCzpuOAj2VuigqudJqKBixu_g_HGYivPv2Enw3abnAC8zuNwqEqSIdeMNFCrbukKFVC08hJCO1c4pILDAoTj&_nc_zt=24&_nc_ht=scontent-mia3-3.xx&_nc_gid=fDb6o6yXvZrtoGTDXyJ8-g&_nc_ss=72289&oh=00_AQEmq1DEnjAp7s_wKJQlD-P7lXfMR-WJ5X_DhcujzhJ5fg&oe=6A956C7E",
+      "avatar_url": "/assets/source-avatars/ab56470b319ea283b453.webp",
+      "source_initials": "范曉",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽",
+        "學生社團"
+      ],
+      "key": "fb_fanhsiaoyi:10244444236101103"
     },
     {
       "title": "音和樂器口琴專賣店｜萬華社大「龍韻口琴合奏班」_上課記錄【月亮惹的禍】_張宇 #龍韻口琴合奏暑期班，我們學習了3首流行歌曲。最後這首「月亮惹的禍」適合選在七夕情人節發表。 這首看似「悲情」的情歌實際上是 #張宇 以及 #十一郎 記錄結婚的…",

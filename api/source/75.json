@@ -1,11 +1,40 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T03:05:05.505749Z",
+  "generatedAt": "2026-08-27T03:40:19.806077Z",
   "source": {
     "id": 75,
     "slug": "75",
     "name": "新竹市文化局",
     "pageUrl": "https://harmonica.observe.tw/source/75/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-92e4ddfe04afef292b95af43",
+      "title": "⏰距離 8/31 報名截止，只剩下最後 5 天！",
+      "excerpt": "⏰距離 8/31 報名截止，只剩下最後 5 天！ 󠀠 這幾天工作小組收到了許多令人驚豔的作品，但我們知道，還有很多好聲音正藏在螢幕前猶豫不決🎤💥 󠀠 跨出第一步真的沒有想像中困難！ 󠀠 不需要花錢租借專業錄音室，只要在家拿起手機，錄下你最真實、動人的歌聲（60~120秒），或是展現你為新竹寫下的原創詞曲，就能為自己爭取站上大舞台的門票。 󠀠 這次大賽不僅備有豐厚獎金，各組冠軍更能獲得總價值 70 萬的「推廣大禮包」，由專業團隊為您量身打造專屬單曲、拍攝 MV 並安排廣播宣傳。這不僅是一場比賽，更是讓你的好聲音被更多人聽見的絕佳機會！ 󠀠 💡 週末衝刺溫…",
+      "url": "https://www.facebook.com/culture.hccg/posts/pfbid08RTaSouHBne7V1FpeSxxUyiSRZhhhNk7hktepkMcng9fi7vnp2c9Dntc5yYDjnovl",
+      "sourceName": "新竹市文化局",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-27T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c8a7b24500e21e0bba77.webp",
+        "width": 508,
+        "height": 720
+      }
+    },
+    {
+      "id": "post-202ec923757e1645a45049e3",
+      "title": "新竹市花燈工藝傳習課程報名開始！",
+      "excerpt": "新竹市花燈工藝傳習課程報名開始！ 󠀠 傳習課目標｜認識本市花燈工藝，並學習製作花燈作品，完成作品將參展11月《蕭在淦藝師百歲紀念花燈特展》 󠀠 師資介紹：【謝宏鑫】 新竹市傳統工藝「花燈」保存者蕭在淦藝師114年度傳習進階班結業學員。謝宏鑫老師投身傳統花燈工藝已逾11年，長期承襲蕭在淦藝師的悉心指點，熟練掌握從初期的骨架打造、電燈佈線到後續精細裱糊等全套花燈製作工序，具備扎實的傳統工藝技術與豐富的實作經驗。󠀠󠀠 󠀠 課程內容：骰子燈製作（尺寸：20*20*20cm） 以傳統花燈工藝製作幾何造型花燈，本次初階班課程將一步步帶領學員完成，從骨架設計、燈線纏…",
+      "url": "https://www.facebook.com/culture.hccg/posts/pfbid0E6WUqSvENHYJX53t8EZ61zpfgmsvSFzBXFuHFy8szFM44jxRaNV5jSjFT8GGj9uKl",
+      "sourceName": "新竹市文化局",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-26T07:23:14Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/79e9568abdcade231ec2.webp",
+        "width": 589,
+        "height": 590
+      }
+    }
+  ]
 }

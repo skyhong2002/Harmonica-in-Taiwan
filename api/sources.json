@@ -753,6 +753,67 @@
       ]
     },
     {
+      "id": "watchlist-75",
+      "publicId": "75",
+      "name": "新竹市文化局",
+      "nameEn": "Cultural Affairs Bureau of Hsinchu City",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館/文化局",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "場館/文化活動",
+      "structuredSummary": "場館/文化活動 / 口琴/藝文 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供場館與文化活動相關資訊。",
+      "keywords": "新竹市文化局 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://culture.hccg.gov.tw/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/culture.hccg/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC9ts62VuB0WSSVDQW_h3H_g"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "75",
+      "latestUpdateAt": "2026-08-27T00:00:06+00:00",
+      "latestUpdateLocal": "2026-08-27 08:00",
+      "latestUpdateSource": "新竹市文化局",
+      "latestUpdateUrl": "https://www.facebook.com/culture.hccg/posts/pfbid08RTaSouHBne7V1FpeSxxUyiSRZhhhNk7hktepkMcng9fi7vnp2c9Dntc5yYDjnovl",
+      "avatarUrl": "/assets/source-avatars/b3f2593d164162ed5f81.webp",
+      "sourceInitials": "新竹",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_culture_hccg",
+          "name": "新竹市文化局",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/culture.hccg",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_uc9ts62vub0wssvdqw_h3h_g",
+          "name": "新竹市文化局",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UC9ts62VuB0WSSVDQW_h3H_g",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-153",
       "publicId": "153",
       "name": "Santiago Alvarez",
@@ -3625,7 +3686,7 @@
       "latestUpdateLocal": "2026-08-25 01:44",
       "latestUpdateSource": "Antonio Serrano",
       "latestUpdateUrl": "https://www.instagram.com/p/DcboCVJRxZv/",
-      "avatarUrl": "/assets/source-avatars/0074a951adec1d32d4cc.webp",
+      "avatarUrl": "/assets/source-avatars/dd5b25993f6157c749e9.webp",
       "sourceInitials": "AS",
       "sourceTags": [
         "演奏者",
@@ -9159,6 +9220,87 @@
       ]
     },
     {
+      "id": "watchlist-99",
+      "publicId": "99",
+      "name": "范曉怡",
+      "nameEn": "Hsiao-Yi Fan",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "狂響口琴樂團/教學/地方推廣",
+      "structuredSummary": "狂響口琴樂團/教學/地方推廣 / 低音口琴/口琴 / 演出人員/教學者",
+      "summary": "臺灣的低音口琴與口琴演出人員與教學者，活動脈絡包含狂響口琴樂團、教學與地方推廣。",
+      "keywords": "范曉怡 fanhsiaoyi 口琴 狂響",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/fanhsiaoyi/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/fanhsiaoyi/"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@fanhsiaoyi"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "99",
+      "latestUpdateAt": "2026-08-19T06:31:13+00:00",
+      "latestUpdateLocal": "2026-08-19 14:31",
+      "latestUpdateSource": "范曉怡",
+      "latestUpdateUrl": "https://www.facebook.com/fanhsiaoyi/posts/pfbid0o9YvPMGR8FRfzkRik1znH6Z45JRKiGutZJaePUaoQ7u62ryUciYJTUHKizWPVbSl",
+      "avatarUrl": "/assets/source-avatars/38a18c7f7ae516612aa5.webp",
+      "sourceInitials": "范曉",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "教學"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/fanhsiaoyi",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "fanhsiaoyi",
+          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "fanhsiaoyi",
+          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/fanhsiaoyi/story/0"
+        },
+        {
+          "id": "threads_fanhsiaoyi",
+          "name": "范曉怡",
+          "platform": "threads",
+          "type": "rss",
+          "username": "fanhsiaoyi",
+          "profileUrl": "https://www.threads.net/@fanhsiaoyi",
+          "feedUrl": "https://rss.observe.tw/threads/fanhsiaoyi"
+        }
+      ]
+    },
+    {
       "id": "watchlist-31",
       "publicId": "31",
       "name": "張晁滕",
@@ -9869,87 +10011,6 @@
           "username": "hksmsa_official",
           "profileUrl": "https://www.instagram.com/hksmsa_official/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/hksmsa_official/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-99",
-      "publicId": "99",
-      "name": "范曉怡",
-      "nameEn": "Hsiao-Yi Fan",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "狂響口琴樂團/教學/地方推廣",
-      "structuredSummary": "狂響口琴樂團/教學/地方推廣 / 低音口琴/口琴 / 演出人員/教學者",
-      "summary": "臺灣的低音口琴與口琴演出人員與教學者，活動脈絡包含狂響口琴樂團、教學與地方推廣。",
-      "keywords": "范曉怡 fanhsiaoyi 口琴 狂響",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/fanhsiaoyi/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/fanhsiaoyi/"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@fanhsiaoyi"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "99",
-      "latestUpdateAt": "2026-08-14T03:00:01+00:00",
-      "latestUpdateLocal": "2026-08-14 11:00",
-      "latestUpdateSource": "范曉怡",
-      "latestUpdateUrl": "https://www.instagram.com/stories/fanhsiaoyi/3963251609304281577/",
-      "avatarUrl": "/assets/source-avatars/38a18c7f7ae516612aa5.webp",
-      "sourceInitials": "范曉",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "教學"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_fanhsiaoyi",
-          "name": "范曉怡",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/fanhsiaoyi",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_fanhsiaoyi",
-          "name": "范曉怡",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "fanhsiaoyi",
-          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_fanhsiaoyi",
-          "name": "范曉怡",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "fanhsiaoyi",
-          "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/fanhsiaoyi/story/0"
-        },
-        {
-          "id": "threads_fanhsiaoyi",
-          "name": "范曉怡",
-          "platform": "threads",
-          "type": "rss",
-          "username": "fanhsiaoyi",
-          "profileUrl": "https://www.threads.net/@fanhsiaoyi",
-          "feedUrl": "https://rss.observe.tw/threads/fanhsiaoyi"
         }
       ]
     },
@@ -17303,67 +17364,6 @@
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/AllJapanHarmonicaFederation",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-75",
-      "publicId": "75",
-      "name": "新竹市文化局",
-      "nameEn": "Cultural Affairs Bureau of Hsinchu City",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館/文化局",
-      "country": "臺灣",
-      "region": "臺灣/新竹",
-      "cityOrFocus": "場館/文化活動",
-      "structuredSummary": "場館/文化活動 / 口琴/藝文 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供場館與文化活動相關資訊。",
-      "keywords": "新竹市文化局 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://culture.hccg.gov.tw/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/culture.hccg/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UC9ts62VuB0WSSVDQW_h3H_g"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "75",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/b3f2593d164162ed5f81.webp",
-      "sourceInitials": "新竹",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_culture_hccg",
-          "name": "新竹市文化局",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/culture.hccg",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_uc9ts62vub0wssvdqw_h3h_g",
-          "name": "新竹市文化局",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UC9ts62VuB0WSSVDQW_h3H_g",
           "feedUrl": ""
         }
       ]
