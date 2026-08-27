@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T06:31:12.396350Z",
+  "generatedAt": "2026-08-27T07:06:16.015201Z",
   "source": {
     "id": 76,
     "slug": "76",
@@ -270,34 +270,6 @@
       "publishedAt": "2026-07-29T00:00:10Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/88f4f17c455518bf976c.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-ae7573a5338bbbf249601d1b",
-      "title": "文科客家諺語教室L405【一個當愛這世界个人】",
-      "excerpt": "文科客家諺語教室L405【一個當愛這世界个人】 ▍每週三，文科老師教您 #共下來講客家話 🎼客家金曲獎特輯part13 -得獎作品：聚焦🎼 【一個當愛這世界个人】一個熱愛這世界的人! 🎤主持人｜龍宣亘 🎤來賓｜魷魚、小布 #新竹縣 #客家文化",
-      "url": "https://www.youtube.com/watch?v=LHD3ksHVnKE",
-      "sourceName": "新竹縣文化局",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-28T06:43:29Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/c55596e75fddeae55615.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-7a2adec0533d68f4f1bba6bc",
-      "title": "文科客家諺語教室L404【嘿！毋使驚！𠊎在這】",
-      "excerpt": "文科客家諺語教室L404【嘿！毋使驚！𠊎在這】 ▍每週三，文科老師教您 #共下來講客家話 🎼客家金曲獎特輯part12 -得獎作品：聚焦🎼 【嘿！毋使驚！𠊎在這】嘿！別怕!我在這! 🎤主持人｜龍宣亘 🎤來賓｜魷魚、小布 #新竹縣 #客家文化",
-      "url": "https://www.youtube.com/watch?v=IB1btW6R4Qw",
-      "sourceName": "新竹縣文化局",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-28T06:41:58Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/95c27ebfae81954527fc.webp",
         "width": 800,
         "height": 450
       }
