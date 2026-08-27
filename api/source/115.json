@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T13:17:34.839017Z",
+  "generatedAt": "2026-08-27T14:26:09.011792Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/115-filip-jers/"
   },
   "items": [
+    {
+      "id": "post-22fe835d73676541573bafa5",
+      "title": "Harmonica Warm-Up #4 - Rhythm, stamina and articulation",
+      "excerpt": "Harmonica Warm-Up #4 - Rhythm, stamina and articulation Join me on a harmonica wam-up! I am using a 10 diatonic harmonica in the key of C. In this video we are focusing on building air flow control and stamina, while working on rhythm and articulation. You can download a PDF of…",
+      "url": "https://www.youtube.com/watch?v=fjhNKeRCA1Q",
+      "sourceName": "Filip Jers",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-27T14:00:24Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6596693cd9bb3e458915.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-90831eea509e8a4f8aefeb75",
       "title": "Just playing jazz harmonica 🥳",

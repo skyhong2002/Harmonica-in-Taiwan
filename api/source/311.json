@@ -1,11 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T13:17:34.839017Z",
+  "generatedAt": "2026-08-27T14:26:09.011792Z",
   "source": {
     "id": 311,
     "slug": "bunmonica-du",
     "name": "藍饃饃",
     "pageUrl": "https://harmonica.observe.tw/source/311-bunmonica-du/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-d9c9afc5e92197f8722c4931",
+      "title": "Bunmonica Du/蓝馍馍",
+      "excerpt": "Bunmonica Du/蓝馍馍 – JDR Bunmonica Du/蓝馍馍 – JDR Skip to content Welcome to JDR Home All Products Shop by Type Blues Chromatic Harmonica Accessories Shop by Need Beginner Performance Innovation Master About us Artists Blog Social Media Facebook YouTube Instagram Contact Log in Coun…",
+      "url": "https://www.jdrharmonica.com/pages/bunmonica-du",
+      "sourceName": "藍饃饃",
+      "platform": "website",
+      "publishedAt": "2026-08-27T13:49:34.657119Z"
+    }
+  ]
 }
