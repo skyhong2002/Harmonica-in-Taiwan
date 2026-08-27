@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T01:53:15.037532Z",
+  "generatedAt": "2026-08-27T02:29:35.780160Z",
   "source": {
     "id": 140,
     "slug": "gregoire-maret",
@@ -8,6 +8,34 @@
     "pageUrl": "https://harmonica.observe.tw/source/140-gregoire-maret/"
   },
   "items": [
+    {
+      "id": "post-7d483759a98be7b39ea04ca9",
+      "title": "“Where were you when I needed you?” / Superwoman cover from Stevie Wonder @serravalle.jazz 🇮🇹",
+      "excerpt": "“Where were you when I needed you?” / Superwoman cover from Stevie Wonder @serravalle.jazz 🇮🇹",
+      "url": "https://www.facebook.com/reel/1452351303422599/",
+      "sourceName": "Gregoire Maret",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-25T16:28:19Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/7b233e63868320d5037f.webp",
+        "width": 541,
+        "height": 960
+      }
+    },
+    {
+      "id": "post-e951d135f35493e0eb22ae53",
+      "title": "With my great friend Vincent Peirani",
+      "excerpt": "With my great friend Vincent Peirani",
+      "url": "https://www.facebook.com/gregoiremaret1/posts/pfbid0muBDni9TTU4prfYRm7fHiQj1KE5a2pmxxkGZQfk1sDbHu9Dj8oRAa33vABAkNRtul",
+      "sourceName": "Gregoire Maret",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-24T08:44:01Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9742e26798cf95886d93.webp",
+        "width": 500,
+        "height": 261
+      }
+    },
     {
       "id": "post-98d2574be182ea2d4d146416",
       "title": "@barga_jazz_festival 🎵✨ tonight and tomorrow !",

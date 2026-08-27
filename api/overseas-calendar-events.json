@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-27T09:53:19+08:00",
+  "generatedAt": "2026-08-27T10:29:39+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
-  "count": 13,
+  "count": 15,
   "source": "/api/events.json",
   "ics": "/feeds/overseas-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,7 +14,7 @@
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
+      "requests": 2,
       "cached": 34,
       "errors": 0
     }
@@ -55,6 +55,42 @@
         "https://pbs.twimg.com/media/HOhWKyJaUAADtyn?format=jpg&name=orig"
       ],
       "image_url": "https://pbs.twimg.com/media/HOhWKyJaUAADtyn?format=jpg&name=orig"
+    },
+    {
+      "id": "5e989674116ecf0d",
+      "title": "クロマチックハーモニカ・ナイト",
+      "eventName": "クロマチックハーモニカ・ナイト",
+      "source": "南里沙",
+      "platform": "facebook",
+      "start": "2026-08-28T18:00:00+09:00",
+      "end": "2026-08-28T20:00:00+09:00",
+      "allDay": false,
+      "calendarType": "overseas_physical",
+      "timezone": "Asia/Tokyo",
+      "location": "大阪市中央区 ロイヤルホース",
+      "venue": "ロイヤルホース",
+      "city": "大阪市中央区",
+      "details": "主辦／演出者：南里沙。2026年8月28日（金）18:00開場、19:00開演，20:30結束。出演者為南里沙（クロマチックハーモニカ）、中尾唱（鋼琴）、喜多健博（貝斯）、小林亮（鼓），票價4,400円。",
+      "evidenceUrl": "https://www.facebook.com/minamirisa/posts/pfbid032Li33kJugzHUhbiZhTjX5rfWTSSQmss5if4mYVM2VEG7FUe2apEQB8MvaAvfWnc1l",
+      "confidence": 0.98,
+      "calendarReview": {
+        "include": true,
+        "country": "日本",
+        "eventMode": "overseas_physical",
+        "timezone": "Asia/Tokyo",
+        "candidateDateMatches": true,
+        "eventName": "クロマチックハーモニカ・ナイト",
+        "venue": "ロイヤルホース",
+        "city": "大阪市中央区",
+        "details": "主辦／演出者：南里沙。2026年8月28日（金）18:00開場、19:00開演，20:30結束。出演者為南里沙（クロマチックハーモニカ）、中尾唱（鋼琴）、喜多健博（貝斯）、小林亮（鼓），票價4,400円。",
+        "reason": "貼文明確寫出 2026/8/28 在大阪的實體演出，日期與 candidateStart 相符，屬於臺灣以外的口琴公開活動。",
+        "confidence": 0.98
+      },
+      "postedAt": "2026-08-25 17:04",
+      "images": [
+        "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/785146494_1092742229758290_626822393776905605_n.png?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=p526x296&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=UKB3MR9aW5MQ7kNvwGAi8VY&_nc_oc=AdpFn5kNcr3Mw8bIL-i9uhqTTKXJnCfy46f6cv8BBUfVWy2wWbMaYpC2nZHw733b9HgT1E1TA43xRVsUmG0oek7o&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=NB96q0VkJcTXrU9awKBgew&_nc_ss=73289&oh=00_AQGWiS038GW5ajs1tL0i4DoZ5XM9XjL4x1i-Alw9wB4YNw&oe=6A95659D"
+      ],
+      "image_url": "/assets/feed-images/5042607cc473fd2565b6.webp"
     },
     {
       "id": "aa75b796c9268142",
@@ -457,6 +493,42 @@
         "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/761653358_18612351817050240_2590188587154998094_n.jpg?stp=c655.0.1966.1966a_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6O2px-IVY5cQ7kNvwHH-Z5G&_nc_oc=AdqnT2X1NBWMguMiKHWkTVfr7qEAQtyDbu-VekrBu3anN6DdBzi0drV65JQmiZrPYOE&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YLet9VsdHRqztOzPMYljcw&_nc_ss=7b60f&oh=00_AQGVYRe6a9KHZcTPxwLC8SUrI0eUj3WUV5Z30p3UOwVAhQ&oe=6A756848"
       ],
       "image_url": "/assets/feed-images/9d9b79fc0bcd2accabe3.webp"
+    },
+    {
+      "id": "3c48ac6304fd35e6",
+      "title": "秋風に音色をのせて ～南里沙・渡辺具義 デュエットLIVE～",
+      "eventName": "秋風に音色をのせて ～南里沙・渡辺具義 デュエットLIVE～",
+      "source": "南里沙",
+      "platform": "facebook",
+      "start": "2026-10-12T13:00:00+09:00",
+      "end": "2026-10-12T15:00:00+09:00",
+      "allDay": false,
+      "calendarType": "overseas_physical",
+      "timezone": "Asia/Tokyo",
+      "location": "東京 上野ホール ueno hall",
+      "venue": "上野ホール ueno hall",
+      "city": "東京",
+      "details": "主辦／演出者：南里沙。2026年10月12日（月・祝）開場13:00、開演13:30。出演為クロマチックハーモニカ南里沙與ギター渡辺具義，票價全席自由4,000円，可透過貼文中的表單預約。",
+      "evidenceUrl": "https://www.facebook.com/minamirisa/posts/pfbid0BPFFbc6mWk4sYqfT2hNoLrenohxNUYoW7tWVNzqWQuiX8emmn95A5fpA2Rw8eiTyl",
+      "confidence": 0.98,
+      "calendarReview": {
+        "include": true,
+        "country": "日本",
+        "eventMode": "overseas_physical",
+        "timezone": "Asia/Tokyo",
+        "candidateDateMatches": true,
+        "eventName": "秋風に音色をのせて ～南里沙・渡辺具義 デュエットLIVE～",
+        "venue": "上野ホール ueno hall",
+        "city": "東京",
+        "details": "主辦／演出者：南里沙。2026年10月12日（月・祝）開場13:00、開演13:30。出演為クロマチックハーモニカ南里沙與ギター渡辺具義，票價全席自由4,000円，可透過貼文中的表單預約。",
+        "reason": "貼文明確寫出活動名稱、地點在東京上野，且日期與 candidateStart 完全一致；屬於日本實體口琴演出。",
+        "confidence": 0.98
+      },
+      "postedAt": "2026-08-26 20:31",
+      "images": [
+        "https://scontent-atl3-3.xx.fbcdn.net/v/t39.99422-6/784748348_2990149741319020_3512138273088829515_n.png?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=p526x296&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=LFShmxwYzD4Q7kNvwEqTl8Y&_nc_oc=AdoNBDpeYlW1hhWFXJ_4ZTT7kFRWJrNK5It2YxU7ZrrHE85SYbdXt_cPvnE2TTLHlKvEU6We73KMVBbQ-a93G-FR&_nc_zt=14&_nc_ht=scontent-atl3-3.xx&_nc_gid=NB96q0VkJcTXrU9awKBgew&_nc_ss=73289&oh=00_AQGnDlHL-bwiU0MsEcVcEHSnKwai2mnej1cOXYzYodjcjA&oe=6A9570AC"
+      ],
+      "image_url": "/assets/feed-images/d135e138dca89e4669c5.webp"
     },
     {
       "id": "1a5c0f6d80abd9f4",
