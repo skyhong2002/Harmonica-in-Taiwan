@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-27T23:35:36.680622Z",
+  "generatedAt": "2026-08-28T00:10:26.560868Z",
   "source": {
     "id": 76,
     "slug": "76",
@@ -256,20 +256,6 @@
       "publishedAt": "2026-07-29T04:00:06Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/f2edfabed6fb068f3cf4.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-494fef5f5073945321a28c56",
-      "title": "文科客家諺語教室L406【正來尞】",
-      "excerpt": "文科客家諺語教室L406【正來尞】 ▍每週三，文科老師教您 #共下來講客家話 🎼客家金曲獎特輯part14 -得獎作品：聚焦🎼 【正來尞】道別時的禮貌用語，是「再見」之意 🎤主持人｜龍宣亘 🎤來賓｜魷魚、小布 #新竹縣 #客家文化",
-      "url": "https://www.youtube.com/watch?v=K4d1Cv-ozYQ",
-      "sourceName": "新竹縣文化局",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-29T00:00:10Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/88f4f17c455518bf976c.webp",
         "width": 800,
         "height": 450
       }
