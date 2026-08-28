@@ -561,7 +561,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-28 21:27",
       "latestUpdateSource": "Orion 口琴樂團",
       "latestUpdateUrl": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU",
-      "avatarUrl": "/assets/source-avatars/f206cfa425381be17d5c.webp",
+      "avatarUrl": "/assets/source-avatars/36f32068f87cf4dcf664.webp",
       "sourceInitials": "O",
       "sourceTags": [
         "團體樂團",
@@ -1220,6 +1220,99 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@HenrysHarmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-224",
+      "publicId": "224",
+      "name": "Easttop Harmonicas",
+      "nameEn": "Easttop Harmonicas",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌/樂器製造商",
+      "country": "中國",
+      "region": "中國/江蘇/無錫/江陰",
+      "cityOrFocus": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節",
+      "structuredSummary": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節 / 口琴 / 器材品牌/活動主辦單位",
+      "summary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
+      "keywords": "Easttop EAST TOP Jiangsu East Musical Instrument APHF Huaxia Harmonica Festival 口琴 品牌",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://easttop-harmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/EasttopMusic/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/easttopharmonicas/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@easttopmusic"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@easttopharmonicaofficial"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "224-easttop-harmonicas",
+      "latestUpdateAt": "2026-08-27T21:24:25+00:00",
+      "latestUpdateLocal": "2026-08-28 05:24",
+      "latestUpdateSource": "Easttop Harmonicas",
+      "latestUpdateUrl": "https://www.instagram.com/p/Dcju0ZKRsBv/",
+      "avatarUrl": "/assets/source-avatars/e3f9b364fa18148f074e.webp",
+      "sourceInitials": "EH",
+      "sourceTags": [
+        "品牌",
+        "器材",
+        "活動資訊",
+        "音樂節",
+        "國際交流"
+      ],
+      "sourceSummary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
+      "sourceTagReason": "整合自 Easttop 官網、官方 Linktree、Instagram 與 YouTube 自介。",
+      "monitorSources": [
+        {
+          "id": "fb_easttopmusic",
+          "name": "Easttop Harmonicas",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/EasttopMusic",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_easttopharmonicas",
+          "name": "Easttop Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "easttopharmonicas",
+          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_easttopharmonicas",
+          "name": "Easttop Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "easttopharmonicas",
+          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/easttopharmonicas/story/0"
+        },
+        {
+          "id": "yt_easttopmusic",
+          "name": "Easttop Harmonicas",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@easttopmusic",
           "feedUrl": ""
         }
       ]
@@ -2747,7 +2840,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-26 20:14",
       "latestUpdateSource": "黃冠誌",
       "latestUpdateUrl": "https://www.instagram.com/p/DcgL1XJNeR8/",
-      "avatarUrl": "/assets/source-avatars/c8f3e01dca8f8950a7a6.webp",
+      "avatarUrl": "/assets/source-avatars/7c16c24c25fa4e4a41f3.webp",
       "sourceInitials": "黃冠",
       "sourceTags": [
         "演奏者",
@@ -3801,99 +3894,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-224",
-      "publicId": "224",
-      "name": "Easttop Harmonicas",
-      "nameEn": "Easttop Harmonicas",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "品牌/樂器製造商",
-      "country": "中國",
-      "region": "中國/江蘇/無錫/江陰",
-      "cityOrFocus": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節",
-      "structuredSummary": "口琴製造/器材/產品資訊/亞太口琴節/華夏口琴節 / 口琴 / 器材品牌/活動主辦單位",
-      "summary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
-      "keywords": "Easttop EAST TOP Jiangsu East Musical Instrument APHF Huaxia Harmonica Festival 口琴 品牌",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://easttop-harmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/EasttopMusic/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/easttopharmonicas/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@easttopmusic"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@easttopharmonicaofficial"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "224-easttop-harmonicas",
-      "latestUpdateAt": "2026-08-25T11:53:59+00:00",
-      "latestUpdateLocal": "2026-08-25 19:53",
-      "latestUpdateSource": "Easttop Harmonicas",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcdkegQT60N/",
-      "avatarUrl": "/assets/source-avatars/e3f9b364fa18148f074e.webp",
-      "sourceInitials": "EH",
-      "sourceTags": [
-        "品牌",
-        "器材",
-        "活動資訊",
-        "音樂節",
-        "國際交流"
-      ],
-      "sourceSummary": "1997 年成立於中國江蘇的口琴製造品牌，亦主辦亞太口琴節與華夏口琴節並出版口琴雜誌。",
-      "sourceTagReason": "整合自 Easttop 官網、官方 Linktree、Instagram 與 YouTube 自介。",
-      "monitorSources": [
-        {
-          "id": "fb_easttopmusic",
-          "name": "Easttop Harmonicas",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/EasttopMusic",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_easttopharmonicas",
-          "name": "Easttop Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "easttopharmonicas",
-          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_easttopharmonicas",
-          "name": "Easttop Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "easttopharmonicas",
-          "profileUrl": "https://www.instagram.com/easttopharmonicas/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/easttopharmonicas/story/0"
-        },
-        {
-          "id": "yt_easttopmusic",
-          "name": "Easttop Harmonicas",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@easttopmusic",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-143",
       "publicId": "143",
       "name": "Brendan Power",
@@ -4412,7 +4412,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-25 04:00",
       "latestUpdateSource": "Jong-seong Park 朴鍾聲",
       "latestUpdateUrl": "https://www.instagram.com/stories/jongseongpark_harmonicist/3971012950848542957/",
-      "avatarUrl": "/assets/source-avatars/545f7526481c21496328.webp",
+      "avatarUrl": "/assets/source-avatars/a216366fa81349eae94f.webp",
       "sourceInitials": "JSP",
       "sourceTags": [
         "演奏者",
@@ -7936,7 +7936,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-22 19:15",
       "latestUpdateSource": "臺灣口琴音樂節 THMF",
       "latestUpdateUrl": "https://www.instagram.com/p/DcVxLxkTp72/",
-      "avatarUrl": "/assets/source-avatars/f206cfa425381be17d5c.webp",
+      "avatarUrl": "/assets/source-avatars/36f32068f87cf4dcf664.webp",
       "sourceInitials": "T",
       "sourceTags": [
         "活動資訊",
@@ -15357,7 +15357,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/f206cfa425381be17d5c.webp",
+      "avatarUrl": "/assets/source-avatars/36f32068f87cf4dcf664.webp",
       "sourceInitials": "AHE",
       "sourceTags": [
         "團體樂團"
@@ -15469,7 +15469,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/f206cfa425381be17d5c.webp",
+      "avatarUrl": "/assets/source-avatars/36f32068f87cf4dcf664.webp",
       "sourceInitials": "B",
       "sourceTags": [
         "團體樂團",
@@ -15569,7 +15569,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/f206cfa425381be17d5c.webp",
+      "avatarUrl": "/assets/source-avatars/36f32068f87cf4dcf664.webp",
       "sourceInitials": "CHE",
       "sourceTags": [
         "團體樂團"
@@ -15756,7 +15756,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/f206cfa425381be17d5c.webp",
+      "avatarUrl": "/assets/source-avatars/36f32068f87cf4dcf664.webp",
       "sourceInitials": "DTC",
       "sourceTags": [
         "團體樂團",
@@ -16071,7 +16071,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/f206cfa425381be17d5c.webp",
+      "avatarUrl": "/assets/source-avatars/36f32068f87cf4dcf664.webp",
       "sourceInitials": "MH",
       "sourceTags": [
         "團體樂團",
@@ -16827,7 +16827,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/f206cfa425381be17d5c.webp",
+      "avatarUrl": "/assets/source-avatars/36f32068f87cf4dcf664.webp",
       "sourceInitials": "巴國",
       "sourceTags": [
         "團體樂團"
@@ -16995,7 +16995,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/f206cfa425381be17d5c.webp",
+      "avatarUrl": "/assets/source-avatars/36f32068f87cf4dcf664.webp",
       "sourceInitials": "海豚",
       "sourceTags": [
         "團體樂團"
@@ -17103,7 +17103,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/f206cfa425381be17d5c.webp",
+      "avatarUrl": "/assets/source-avatars/36f32068f87cf4dcf664.webp",
       "sourceInitials": "自由",
       "sourceTags": [
         "團體樂團"
@@ -17429,7 +17429,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/f206cfa425381be17d5c.webp",
+      "avatarUrl": "/assets/source-avatars/36f32068f87cf4dcf664.webp",
       "sourceInitials": "龍騎",
       "sourceTags": [
         "團體樂團"
@@ -18446,7 +18446,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "",
       "latestUpdateSource": "",
       "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/f206cfa425381be17d5c.webp",
+      "avatarUrl": "/assets/source-avatars/36f32068f87cf4dcf664.webp",
       "sourceInitials": "GBH",
       "sourceTags": [
         "品牌",
