@@ -1,9 +1,9 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-08-28T23:58:10+08:00",
+  "generatedAt": "2026-08-29T00:33:28+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 9,
+  "count": 8,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@ window.publicCalendarEvents = {
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 31,
+      "cached": 30,
       "errors": 0
     }
   },
@@ -313,42 +313,6 @@ window.publicCalendarEvents = {
         "https://scontent-det1-1.xx.fbcdn.net/v/t39.30808-6/780471380_1617871143683827_8399336899933963612_n.jpg?stp=dst-jpg_tt6&cstp=mx1190x1684&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=eA--LoJw2mUQ7kNvwFRD6K3&_nc_oc=Adr9jLbUCl4JhZGF1oiWBUrEP6eiy7-Yl9hn6cTU-6frFf91SLL3O3QimcCIAGJKXM8&_nc_zt=23&_nc_ht=scontent-det1-1.xx&_nc_gid=lZjRh1gltTWgJk0lNU2XNg&_nc_ss=72289&oh=00_AQGEuOkhhv8Ur0q0KF1FagP_UoaeGz4dfJRexsst4QBzgQ&oe=6A8ECEE6"
       ],
       "image_url": "/assets/feed-images/aed5e16a4eebcf47f6dd.webp"
-    },
-    {
-      "id": "d81eaaa4a62ef0c3",
-      "title": "衛武營小時光《跟著口琴去旅行》",
-      "eventName": "衛武營小時光《跟著口琴去旅行》",
-      "source": "Judy’s Harmonica Ensemble 茱蒂口琴樂團",
-      "platform": "instagram",
-      "start": "2026-12-09",
-      "end": "2026-12-10",
-      "allDay": true,
-      "calendarType": "taiwan_physical",
-      "timezone": "Asia/Taipei",
-      "location": "高雄衛武營國家藝術文化中心表演廳",
-      "venue": "高雄衛武營國家藝術文化中心表演廳",
-      "city": "高雄",
-      "details": "主辦／演出者：茱蒂口琴樂團 Judy's Harmonica Ensemble。貼文的近期演出資訊列出 12.09 於高雄衛武營國家藝術文化中心表演廳演出。內容未提供票價或報名資訊，屬臺灣實體活動。",
-      "evidenceUrl": "https://www.instagram.com/p/DbYdBiVuM0U/",
-      "confidence": 0.96,
-      "calendarReview": {
-        "include": true,
-        "country": "臺灣",
-        "eventMode": "taiwan_physical",
-        "timezone": "Asia/Taipei",
-        "candidateDateMatches": true,
-        "eventName": "衛武營小時光《跟著口琴去旅行》",
-        "venue": "高雄衛武營國家藝術文化中心表演廳",
-        "city": "高雄",
-        "details": "主辦／演出者：茱蒂口琴樂團 Judy's Harmonica Ensemble。貼文的近期演出資訊列出 12.09 於高雄衛武營國家藝術文化中心表演廳演出。內容未提供票價或報名資訊，屬臺灣實體活動。",
-        "reason": "候選日期 12/09 與貼文中的活動日期一致，且地點明確為高雄實體演出。",
-        "confidence": 0.96
-      },
-      "postedAt": "2026-07-30 00:15",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/758351015_18018663092880937_9015358826940879542_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=109&ig_cache_key=Mzk1MjAzNjMyMTk1NzU2MzY2ODE4MDE4NjYzMDg2ODgwOTM3.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjYwNC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=DKwP2Y1_pccQ7kNvwEQdjXm&_nc_oc=AdqgT3CAGot5X7TW1eK_53aoqmVATpgb5A4Gun-qDVPuuQmZBPQJmJMZcVcp5D5S06k&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=4cFNjVQbDoxb-8Kaglh_uQ&_nc_ss=7a22e&oh=00_AQHu-H5VIa-iDuUw5THuZNSqDCm8qqbtuY8PkQuIzeZQfA&oe=6A709911"
-      ],
-      "image_url": "/assets/feed-images/ae1f7c984c46d25d48ff.webp"
     }
   ],
   "submittedEvents": 0
