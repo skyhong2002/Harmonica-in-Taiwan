@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T09:34:11.828059Z",
+  "generatedAt": "2026-08-28T10:44:35.438838Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -172,20 +172,6 @@
       "publishedAt": "2026-07-31T11:00:30Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/65f77c790a00456b4104.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-2643426fd9e9abb5c01bf9cb",
-      "title": "青蘋果樂園丨北投社大口琴班",
-      "excerpt": "青蘋果樂園丨北投社大口琴班 這首歌音樂一響起，北投班直接變成成果展的氣氛擔當了，現場唱歌的唱歌，跳舞的跳舞，跟著打節奏的觀眾更是此起彼落，口琴旋律加上表演前一晚淑貞老師臨時編的舞，現場真是熱鬧非凡，給這些小虎隊的成員一個掌聲。 北投社大口琴班(五)晚上",
-      "url": "https://www.youtube.com/watch?v=SYOqzY4FRR4",
-      "sourceName": "藍波口琴教室",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-29T10:00:33Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/ed53aad004f344cf9925.webp",
         "width": 800,
         "height": 450
       }
