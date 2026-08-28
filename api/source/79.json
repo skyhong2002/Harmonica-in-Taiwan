@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T08:57:58.120903Z",
+  "generatedAt": "2026-08-28T09:34:11.828059Z",
   "source": {
     "id": 79,
     "slug": "79",
@@ -186,20 +186,6 @@
       "publishedAt": "2026-07-30T04:00:32Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/710a2b0c64d32131d853.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-234ad3c2971a43fa1d8b0a72",
-      "title": "你知道自己是誰嗎？讓我們與巴奈一同在劇場裡歌唱。巴奈《流浪邊界》｜2026秋天藝術節",
-      "excerpt": "你知道自己是誰嗎？讓我們與巴奈一同在劇場裡歌唱。巴奈《流浪邊界》｜2026秋天藝術節 有些路，走著走著就成了生命。歌手巴奈將凱道近三千個日夜的風霜凝練成詩，以實驗劇場為棲所。在舞臺中央，巴奈會在現場唱歌、跟大家聊聊天，與音樂夥伴們一起用歌聲重現那些故事。 現場延續著凱道歲月裡的日常點滴——邀請大家一同圍舞、彩繪石頭、堆疊信念。在魔幻而滄桑的空間裡，邀請你跨越心靈邊界，自問：「你知道自己是誰嗎？」在變動的世界中，一起尋回土地與文化的根源，長出最堅韌的模樣。 2026秋天藝術節 巴奈《流浪邊界》 11.13 (FRI.) - 11.15 (SUN.) 國家…",
-      "url": "https://www.youtube.com/watch?v=q9o-J2G8_wY",
-      "sourceName": "國家兩廳院",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-29T08:58:45Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/6b1c89dd3759a1410f47.webp",
         "width": 800,
         "height": 450
       }

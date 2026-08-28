@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T08:57:58.120903Z",
+  "generatedAt": "2026-08-28T09:34:11.828059Z",
   "source": {
     "id": 109,
     "slug": "boris-plotnikov",
@@ -34,20 +34,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/3c80079c67856dbc6a4f.webp",
         "width": 800,
         "height": 1423
-      }
-    },
-    {
-      "id": "post-2b6bd9a0e7b6fba31e09a657",
-      "title": "Сегодня мне 42, и, кажется, я наконец более-менее научился жить и не чувствовать себ...",
-      "excerpt": "Сегодня мне 42, и, кажется, я наконец более-менее научился жить и не чувствовать себ... Сегодня мне 42, и, кажется, я наконец более-менее научился жить и не чувствовать себя несчастным. Даже, наверное, могу сказать, что последний год большую часть времени чувствую себя вполне сч…",
-      "url": "https://www.instagram.com/p/DbXw9LbM4K5/",
-      "sourceName": "Boris Plotnikov",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-29T09:13:15Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/4369ba1414664130079e.webp",
-        "width": 800,
-        "height": 1067
       }
     }
   ]

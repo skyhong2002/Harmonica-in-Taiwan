@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T08:57:58.120903Z",
+  "generatedAt": "2026-08-28T09:34:11.828059Z",
   "source": {
     "id": 80,
     "slug": "80",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/80/"
   },
   "items": [
+    {
+      "id": "post-ae337a298928af9e92c04ef8",
+      "title": "歌劇院10週年｜藝術家們的真情告白 𝗘𝗣𝟯",
+      "excerpt": "歌劇院10週年｜藝術家們的真情告白 𝗘𝗣𝟯 走進歌劇院，大家最初總是被壯麗的建築所驚艷🏛️，但當這些藝術家們進入到歌劇院工作後，讓他們稱讚的不只是歌劇院的建築，歌劇院的工作團隊也同樣獲得藝術家們的讚賞。 歌劇院對團隊無微不至的照顧，給予最專業的技術支持，為的就是讓藝術家們有最好的狀態，帶給觀眾們最精彩的演出。 一起來聽聽，這些在歌劇院工作的藝術家們，對於歌劇院最真實的感受吧！ ✨藝術家： 林麗珍、Daniel Harding、劉孟捷、Michèle Anne De Mey、鄭宗龍、Shanta Thake、王安祈、唐文華、溫宇航、黃宇琳、Apichat…",
+      "url": "https://www.youtube.com/watch?v=bsEkc6nHF94",
+      "sourceName": "臺中國家歌劇院",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-28T04:00:31Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b6c389c356be2ad0584b.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-3f8a98f09a590d3c96c91d8e",
       "title": "2026 NTT 遇見巨人 | 當代傳奇劇場《慾望城國》",
