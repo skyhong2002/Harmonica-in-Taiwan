@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T05:17:33+08:00",
+  "generatedAt": "2026-08-29T06:28:25+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "degraded",
@@ -7,13 +7,13 @@
     "summary": "核心 pipeline 有產出；需要注意：Instagram RSSHub。 Facebook Apify 目前依排程或預算節流。"
   },
   "metrics": {
-    "updates": 3582,
+    "updates": 3579,
     "updatesWindowDays": 30,
     "directoryEntries": 319,
     "watchSources": 787,
-    "currentErrors": 33,
-    "latestDataAt": "2026-08-29T05:17:10+08:00",
-    "latestSocialObservationAt": "2026-08-29T05:16:36+08:00"
+    "currentErrors": 41,
+    "latestDataAt": "2026-08-29T06:28:01+08:00",
+    "latestSocialObservationAt": "2026-08-29T06:27:28+08:00"
   },
   "watchSources": {
     "platforms": {
@@ -42,7 +42,7 @@
       {
         "platform": "instagram",
         "sources": 356,
-        "currentErrors": 33,
+        "currentErrors": 41,
         "status": "degraded"
       },
       {
@@ -79,7 +79,7 @@
       "label": "正常",
       "summary": "定期 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-08-29 05:17:10",
+        "最新公開資料：2026-08-29 06:28:01",
         "pipeline.log 更新：2026-07-12 02:58:29",
         "pipeline.err.log 更新：2026-07-11 14:33:03",
         "LaunchAgent：running，last exit 0"
@@ -90,7 +90,7 @@
       "name": "公開 API",
       "status": "ok",
       "label": "正常",
-      "summary": "latest.json 有 3582 筆更新，sources.json 有 319 筆公開目錄。",
+      "summary": "latest.json 有 3579 筆更新，sources.json 有 319 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
         "watch sources：787"
@@ -104,7 +104,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：47 ms"
+        "耗時：19 ms"
       ]
     },
     {
@@ -112,13 +112,13 @@
       "name": "Instagram RSSHub",
       "status": "degraded",
       "label": "部分異常",
-      "summary": "356 個 Instagram 來源（profile 178、story 178）；最新抓取批次目前 33 個錯誤。",
+      "summary": "356 個 Instagram 來源（profile 178、story 178）；最新抓取批次目前 41 個錯誤。",
       "details": [
-        "最新社群觀測：2026-08-29 05:16:36",
+        "最新社群觀測：2026-08-29 06:27:28",
         "story 無公開內容/空路由略過：0",
         "IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。",
-        "本輪 IG：抓取 6、排程略過 350、延後 0、錯誤 5。",
-        "下一個 IG 來源：約 2026-08-29 05:25:35"
+        "本輪 IG：抓取 23、排程略過 333、延後 0、錯誤 11。",
+        "下一個 IG 來源：約 2026-08-29 06:28:32"
       ]
     },
     {
@@ -155,7 +155,7 @@
       "label": "正常",
       "summary": "140 個 YouTube 來源；最近 run error_count=0。",
       "details": [
-        "最近完成：2026-08-29 05:12:20",
+        "最近完成：2026-08-29 06:18:23",
         "最近新增 inbox：0"
       ]
     },
@@ -171,14 +171,6 @@
     }
   ],
   "recentErrors": [
-    {
-      "seenAt": "2026-08-29T02:15:28+08:00",
-      "sourceId": "ig_hohnerharmonica",
-      "sourceName": "Hohner Harmonica",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "連續失敗 2 次：The read operation timed out"
-    },
     {
       "seenAt": "2026-08-29T04:00:32+08:00",
       "sourceId": "ig_howardlevyland",
@@ -260,6 +252,14 @@
       "error": "連續失敗 3 次：The read operation timed out"
     },
     {
+      "seenAt": "2026-08-29T05:15:59+08:00",
+      "sourceId": "ig_sabrinachen820",
+      "sourceName": "陳若芸",
+      "platform": "instagram",
+      "sourceType": "rsshub_instagram_profile",
+      "error": "連續失敗 8 次：The read operation timed out"
+    },
+    {
       "seenAt": "2026-08-29T02:42:45+08:00",
       "sourceId": "ig_theduet_music",
       "sourceName": "The Duet 獨特音樂",
@@ -335,12 +335,12 @@
   "runtime": {
     "pipeline": {
       "currentStep": "build status page",
-      "heartbeatAt": "2026-08-28T21:17:33.162847+00:00",
+      "heartbeatAt": "2026-08-28T22:28:24.942351+00:00",
       "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
       "maxPostAgeDays": 30,
       "message": "",
-      "pid": 94387,
-      "startedAt": "2026-08-28T21:12:12.369446+00:00",
+      "pid": 97995,
+      "startedAt": "2026-08-28T22:18:09.144440+00:00",
       "status": "running",
       "steps": [
         {
@@ -348,10 +348,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_social_sources.py"
           ],
-          "finishedAt": "2026-08-28T21:12:12.527722+00:00",
+          "finishedAt": "2026-08-28T22:18:09.227652+00:00",
           "name": "build social sources",
           "returnCode": 0,
-          "startedAt": "2026-08-28T21:12:12.370208+00:00",
+          "startedAt": "2026-08-28T22:18:09.146150+00:00",
           "status": "ok"
         },
         {
@@ -361,10 +361,10 @@
             "--max-post-age-days",
             "30"
           ],
-          "finishedAt": "2026-08-28T21:12:20.252592+00:00",
+          "finishedAt": "2026-08-28T22:18:23.472576+00:00",
           "name": "fetch youtube",
           "returnCode": 0,
-          "startedAt": "2026-08-28T21:12:12.528481+00:00",
+          "startedAt": "2026-08-28T22:18:09.228137+00:00",
           "status": "ok"
         },
         {
@@ -377,10 +377,10 @@
             "30",
             "--run"
           ],
-          "finishedAt": "2026-08-28T21:12:21.410944+00:00",
+          "finishedAt": "2026-08-28T22:18:24.669982+00:00",
           "name": "fetch facebook apify",
           "returnCode": 0,
-          "startedAt": "2026-08-28T21:12:20.253440+00:00",
+          "startedAt": "2026-08-28T22:18:23.473480+00:00",
           "status": "ok"
         },
         {
@@ -392,10 +392,10 @@
             "--request-timeout",
             "10"
           ],
-          "finishedAt": "2026-08-28T21:16:36.410883+00:00",
+          "finishedAt": "2026-08-28T22:27:28.235899+00:00",
           "name": "watch social feeds",
           "returnCode": 0,
-          "startedAt": "2026-08-28T21:12:21.413637+00:00",
+          "startedAt": "2026-08-28T22:18:24.672333+00:00",
           "status": "ok"
         },
         {
@@ -403,10 +403,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-08-28T21:16:39.225242+00:00",
+          "finishedAt": "2026-08-28T22:27:31.030658+00:00",
           "name": "build public data",
           "returnCode": 0,
-          "startedAt": "2026-08-28T21:16:36.411666+00:00",
+          "startedAt": "2026-08-28T22:27:28.236475+00:00",
           "status": "ok"
         },
         {
@@ -415,10 +415,10 @@
             "scripts/backfill_public_source_pages.py",
             "--skip-fetch"
           ],
-          "finishedAt": "2026-08-28T21:16:44.075179+00:00",
+          "finishedAt": "2026-08-28T22:27:35.858229+00:00",
           "name": "backfill source pages",
           "returnCode": 0,
-          "startedAt": "2026-08-28T21:16:39.226243+00:00",
+          "startedAt": "2026-08-28T22:27:31.031262+00:00",
           "status": "ok"
         },
         {
@@ -426,10 +426,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-08-28T21:16:46.758533+00:00",
+          "finishedAt": "2026-08-28T22:27:38.559314+00:00",
           "name": "rebuild public data",
           "returnCode": 0,
-          "startedAt": "2026-08-28T21:16:44.076228+00:00",
+          "startedAt": "2026-08-28T22:27:35.858919+00:00",
           "status": "ok"
         },
         {
@@ -437,10 +437,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_score_publications.py"
           ],
-          "finishedAt": "2026-08-28T21:16:46.936175+00:00",
+          "finishedAt": "2026-08-28T22:27:38.658159+00:00",
           "name": "build score publications",
           "returnCode": 0,
-          "startedAt": "2026-08-28T21:16:46.759533+00:00",
+          "startedAt": "2026-08-28T22:27:38.560046+00:00",
           "status": "ok"
         },
         {
@@ -448,10 +448,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_score_sources.py"
           ],
-          "finishedAt": "2026-08-28T21:16:46.986111+00:00",
+          "finishedAt": "2026-08-28T22:27:38.749084+00:00",
           "name": "build score sources",
           "returnCode": 0,
-          "startedAt": "2026-08-28T21:16:46.936951+00:00",
+          "startedAt": "2026-08-28T22:27:38.658675+00:00",
           "status": "ok"
         },
         {
@@ -459,10 +459,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/generate_rss_feeds.py"
           ],
-          "finishedAt": "2026-08-28T21:17:13.309296+00:00",
+          "finishedAt": "2026-08-28T22:28:05.222311+00:00",
           "name": "generate rss feeds",
           "returnCode": 0,
-          "startedAt": "2026-08-28T21:16:46.986734+00:00",
+          "startedAt": "2026-08-28T22:27:38.749746+00:00",
           "status": "ok"
         },
         {
@@ -470,10 +470,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_public_calendar_events.py"
           ],
-          "finishedAt": "2026-08-28T21:17:13.886920+00:00",
+          "finishedAt": "2026-08-28T22:28:05.774908+00:00",
           "name": "build public calendar events",
           "returnCode": 0,
-          "startedAt": "2026-08-28T21:17:13.311312+00:00",
+          "startedAt": "2026-08-28T22:28:05.223377+00:00",
           "status": "ok"
         },
         {
@@ -481,10 +481,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/apply_submitted_events.py"
           ],
-          "finishedAt": "2026-08-28T21:17:13.984631+00:00",
+          "finishedAt": "2026-08-28T22:28:05.858904+00:00",
           "name": "apply submitted events",
           "returnCode": 0,
-          "startedAt": "2026-08-28T21:17:13.887908+00:00",
+          "startedAt": "2026-08-28T22:28:05.775643+00:00",
           "status": "ok"
         },
         {
@@ -492,10 +492,10 @@
             "/Users/skyhong/.hermes/google-workspace-venv/bin/python",
             "scripts/sync_google_calendar_events.py"
           ],
-          "finishedAt": "2026-08-28T21:17:33.161625+00:00",
+          "finishedAt": "2026-08-28T22:28:24.940617+00:00",
           "name": "sync google calendar",
           "returnCode": 0,
-          "startedAt": "2026-08-28T21:17:13.985212+00:00",
+          "startedAt": "2026-08-28T22:28:05.859534+00:00",
           "status": "ok"
         },
         {
@@ -506,7 +506,7 @@
           "finishedAt": "",
           "name": "build status page",
           "returnCode": null,
-          "startedAt": "2026-08-28T21:17:33.162835+00:00",
+          "startedAt": "2026-08-28T22:28:24.942334+00:00",
           "status": "running"
         }
       ],
@@ -514,26 +514,26 @@
     },
     "socialFetch": {
       "currentSource": {},
-      "errors": 7,
+      "errors": 13,
       "fetchedPosts": 2219,
-      "finishedAt": "2026-08-28T21:16:36.382188+00:00",
-      "heartbeatAt": "2026-08-28T21:16:36.382184+00:00",
+      "finishedAt": "2026-08-28T22:27:28.184152+00:00",
+      "heartbeatAt": "2026-08-28T22:27:28.184149+00:00",
       "instagram": {
-        "attempted": 6,
+        "attempted": 23,
         "deferred": 0,
         "delay_secs": 8.0,
-        "errors": 5,
+        "errors": 11,
         "max_attempts_per_run": 40,
-        "profile_attempted": 5,
+        "profile_attempted": 11,
         "profile_deferred": 0,
         "profile_interval_hours": 12.0,
-        "profile_skipped": 173,
-        "scheduled": 350,
-        "skipped": 350,
-        "story_attempted": 1,
+        "profile_skipped": 167,
+        "scheduled": 333,
+        "skipped": 333,
+        "story_attempted": 12,
         "story_deferred": 0,
         "story_interval_hours": 12.0,
-        "story_skipped": 177
+        "story_skipped": 166
       },
       "llmTags": {
         "cached": 0,
@@ -544,10 +544,10 @@
       "message": "",
       "newRelevantPosts": 0,
       "phase": "complete",
-      "pid": 94455,
+      "pid": 98128,
       "processedSources": 788,
       "skippedOldPosts": 0,
-      "startedAt": "2026-08-28T21:12:21.518937+00:00",
+      "startedAt": "2026-08-28T22:18:24.778590+00:00",
       "status": "ok",
       "totalSources": 788,
       "version": 1
