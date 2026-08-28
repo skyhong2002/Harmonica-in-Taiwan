@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T15:22:36.902222Z",
+  "generatedAt": "2026-08-28T15:58:06.773371Z",
   "source": {
     "id": 139,
     "slug": "lee-oskar",
@@ -214,20 +214,6 @@
       "publishedAt": "2026-08-03T13:53:32Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/2df8ff0bec284cb9d624.webp",
-        "width": 720,
-        "height": 1280
-      }
-    },
-    {
-      "id": "post-5719b04b730ae54f410cb4eb",
-      "title": "This Summer’s Favorite 🌊",
-      "excerpt": "This Summer’s Favorite 🌊 Ready to soundtrack every sunny adventure. #leeoskarharmonicas #harmonicaplayer #musiciansofinstagram #armónica #leeoskar",
-      "url": "https://www.instagram.com/p/DbYdwOlAoFK/",
-      "sourceName": "Lee Oskar",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-29T15:44:49Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/fa9d95f219dde120baca.webp",
         "width": 720,
         "height": 1280
       }
