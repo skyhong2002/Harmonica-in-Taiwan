@@ -5776,7 +5776,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-24 06:33",
       "latestUpdateSource": "Yoonseok Lee",
       "latestUpdateUrl": "https://www.instagram.com/stories/yoonseoklee_harmonica/3970365226562258750/",
-      "avatarUrl": "/assets/source-avatars/e9457adce708de6e907f.webp",
+      "avatarUrl": "/assets/source-avatars/9d783b7ee293cce62eb4.webp",
       "sourceInitials": "YL",
       "sourceTags": [
         "演奏者",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T01:55:10.311801Z",
+  "generatedAt": "2026-08-28T02:33:18.645930Z",
   "source": {
     "id": 147,
     "slug": "yoonseok-lee",
@@ -76,20 +76,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/2e412d38f0bfcb2a71b3.webp",
         "width": 800,
         "height": 1067
-      }
-    },
-    {
-      "id": "post-58ebd61ecd36cf582c13aba8",
-      "title": "Day 3 @ Asia Pacific Harmonica Festival",
-      "excerpt": "Day 3 @ Asia Pacific Harmonica Festival",
-      "url": "https://www.instagram.com/p/DbXCElBkxm3/",
-      "sourceName": "Yoonseok Lee",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-29T02:23:01Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/90d24b9c84dfdd88dd16.webp",
-        "width": 800,
-        "height": 783
       }
     }
   ]
