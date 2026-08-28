@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T03:45:11.798507Z",
+  "generatedAt": "2026-08-28T04:20:52.137176Z",
   "source": {
     "id": 76,
     "slug": "76",
@@ -242,20 +242,6 @@
       "publishedAt": "2026-07-31T09:34:40Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/49e01aea636bc98f8e81.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-2aae2a77260c09ddb13d0da2",
-      "title": "2026新瓦屋板凳電影院-逐格動畫工作坊成果影片《一直在這裡-瓦片精靈的發現之旅》",
-      "excerpt": "2026新瓦屋板凳電影院-逐格動畫工作坊成果影片《一直在這裡-瓦片精靈的發現之旅》 2026『新瓦屋板凳電影院』特別辦理了『逐格動畫工作坊』，特別邀請園區店家「藝起玩美術」團隊帶領，「MR.ONE Cajon」擔綱配音與音樂設計，「日日風味所」準備工作坊的餐食。由一群在地的小小小導演們，花了整整五天時間，從劇本撰寫、分鏡設計、腳色捏及場景製做繪製、旁白及音樂錄製到拍攝了，由30名小朋友親手製作出一部專屬於新瓦屋的故事短片——《一直在這裡—瓦片精靈的發現之旅》。 🎬故事的主角是一位住在新瓦屋屋頂上的『瓦片精靈』。他帶領我們穿越時空：從早期綠油油的稻田與1…",
-      "url": "https://www.youtube.com/watch?v=TBAn3cv_ywI",
-      "sourceName": "新竹縣文化局",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-29T04:00:06Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/f2edfabed6fb068f3cf4.webp",
         "width": 800,
         "height": 450
       }
