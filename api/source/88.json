@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T04:20:52.137176Z",
+  "generatedAt": "2026-08-28T04:56:49.846437Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -186,20 +186,6 @@
       "publishedAt": "2026-07-29T10:00:33Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/ed53aad004f344cf9925.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-44613d9b2dfbef7e76944d9a",
-      "title": "《美酒加咖啡》",
-      "excerpt": "《美酒加咖啡》 崇光口琴班受邀到佛光山表演，現場有數百人，同學也是第一次參加那麼多觀眾的演出，不曉得吹的這首美酒加咖啡佛祖是否滿意~ #崇光社大口琴班(五)晚上",
-      "url": "https://www.facebook.com/reel/1478697944292144/",
-      "sourceName": "藍波口琴教室",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-29T04:24:20Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/19e62b473c284b347260.webp",
         "width": 800,
         "height": 450
       }

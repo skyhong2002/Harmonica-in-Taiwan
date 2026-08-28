@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T04:20:52.137176Z",
+  "generatedAt": "2026-08-28T04:56:49.846437Z",
   "source": {
     "id": 40,
     "slug": "henry-chen",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/40-henry-chen/"
   },
   "items": [
+    {
+      "id": "post-5a3c4677409957d6cb183aca",
+      "title": "【就是吹口琴Just Play Harmonica 】｜Tom Jones – DELILAH(狄萊拉)｜複音口琴Tremolo Harmonica 演奏版本《C調》",
+      "excerpt": "【就是吹口琴Just Play Harmonica 】｜Tom Jones – DELILAH(狄萊拉)｜複音口琴Tremolo Harmonica 演奏版本《C調》 DELILAH(狄萊拉) Les Reed 作曲 Barry Mason 作詞 Tom Jones 原唱 複音口琴演奏版本《C調》",
+      "url": "https://www.youtube.com/watch?v=MdFx5DhE4k8",
+      "sourceName": "陳鴻儀",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-28T00:00:06Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/d5e0b818731dde11fd84.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-8d2c397929ec5ec1ec6810db",
       "title": "【就是吹口琴Just Play Harmonica 】｜送別(Dreaming of Home and Mother)｜複音口琴Tremolo Harmonica低音伴奏版本(C)",
