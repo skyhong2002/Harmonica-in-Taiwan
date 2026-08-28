@@ -7750,7 +7750,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-22 19:55",
       "latestUpdateSource": "Timothy Yip 葉進禧",
       "latestUpdateUrl": "https://www.instagram.com/stories/timothyyip_harmonica/3969319180813591642/",
-      "avatarUrl": "/assets/source-avatars/29106055c134b5d5c024.webp",
+      "avatarUrl": "/assets/source-avatars/e729eb105459fb069c45.webp",
       "sourceInitials": "TY",
       "sourceTags": [
         "演奏者",
