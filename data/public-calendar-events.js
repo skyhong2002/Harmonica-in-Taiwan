@@ -1,9 +1,9 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-08-28T20:59:15+08:00",
+  "generatedAt": "2026-08-28T22:10:52+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 10,
+  "count": 9,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@ window.publicCalendarEvents = {
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 35,
+      "cached": 31,
       "errors": 0
     }
   },
@@ -127,53 +127,6 @@ window.publicCalendarEvents = {
         "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-6/736921370_1546041260866287_3590465714306944280_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x500&ctp=s1200x500&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Snb5y5-ibAwQ7kNvwFpj7pO&_nc_oc=AdonLbu3ItPejPFxit3hf_Y3N2YaDYUcvRU3h74D4v0ryLmRV_GMt9PLGF4j3UIowkg&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=GyYaZsWIBdifSFV3V4iExw&_nc_ss=72289&oh=00_AQD9YvoYz2mvfVWCZjYlmjkTowhPfKdnRznmfoho_DVtpA&oe=6A4DA8CB"
       ],
       "image_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-6/736921370_1546041260866287_3590465714306944280_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x500&ctp=s1200x500&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Snb5y5-ibAwQ7kNvwFpj7pO&_nc_oc=AdonLbu3ItPejPFxit3hf_Y3N2YaDYUcvRU3h74D4v0ryLmRV_GMt9PLGF4j3UIowkg&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=GyYaZsWIBdifSFV3V4iExw&_nc_ss=72289&oh=00_AQD9YvoYz2mvfVWCZjYlmjkTowhPfKdnRznmfoho_DVtpA&oe=6A4DA8CB"
-    },
-    {
-      "id": "00a05290dba9573f",
-      "title": "拾光琴緣 口琴音樂會",
-      "eventName": "拾光琴緣 口琴音樂會",
-      "source": "巴巴口琴坊",
-      "platform": "instagram",
-      "start": "2026-09-04",
-      "end": "2026-09-05",
-      "allDay": true,
-      "calendarType": "taiwan_physical",
-      "timezone": "Asia/Taipei",
-      "location": "臺南",
-      "venue": "臺南",
-      "city": "臺南",
-      "details": "主辦／演出者：巴巴口琴坊。貼文預告 9月4日於臺南舉辦《拾光琴緣》口琴音樂會。另提及 9月12、13 日在成都有其他活動，但與本候選無關。",
-      "evidenceUrl": "https://www.instagram.com/p/DbYL6MJkpdl/",
-      "confidence": 0.93,
-      "calendarReview": {
-        "include": true,
-        "country": "臺灣",
-        "eventMode": "taiwan_physical",
-        "timezone": "Asia/Taipei",
-        "candidateDateMatches": true,
-        "eventName": "拾光琴緣 口琴音樂會",
-        "venue": "臺南",
-        "city": "臺南",
-        "details": "主辦／演出者：巴巴口琴坊。貼文預告 9月4日於臺南舉辦《拾光琴緣》口琴音樂會。另提及 9月12、13 日在成都有其他活動，但與本候選無關。",
-        "reason": "候選日期 2026-09-04 與貼文預告的《拾光琴緣》口琴音樂會一致，且地點在臺南，屬臺灣實體口琴活動。",
-        "confidence": 0.93
-      },
-      "postedAt": "2026-07-29 21:08",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/760403317_18329331337286000_5267365503854129653_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ig_cache_key=Mzk1MTk1OTMxNzYwNzQ2NjE1Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=nVEhMJ3WxEAQ7kNvwES7F78&_nc_oc=AdoZ0T9_ezhihXGdzYHE1o-9PVgjXT_Q7agMVIsTiyf59UOKI-Qbcs8LrEdjjAYrM_Y&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Jg9Wy_Ig4fLd2qvHHsRigg&_nc_ss=7a22e&oh=00_AQFxvj47o3CjGXSpqLIJH8vusEVBIuaPbNM4DPiPNADpjA&oe=6A90A988",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/759751754_18329331349286000_6412978475368352191_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzk1MTk1OTMxNzQzOTYzMDUwOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=yNoWLnHciUkQ7kNvwGATLL4&_nc_oc=AdrxyIuFGqG-G2vxaK-NBvzkxjUtaZqEV6bhzrY53H7GF3VtPHmYmmYFe1R195o0dWw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Jg9Wy_Ig4fLd2qvHHsRigg&_nc_ss=7a22e&oh=00_AQGwPdmj8370UygEU9LCJehXMClIZ0sWRmSHLozCLaZHOQ&oe=6A90A220",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/759655377_18329331358286000_4683406882559213114_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=108&ig_cache_key=Mzk1MTk1OTMyMjk2NzkyODUxNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI2OC5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=KxpyJjBzImcQ7kNvwFAy8jy&_nc_oc=Adq12fOBMQzzYJARIIUVQrav1xMst3xrA1rYxajIwUkeU6eTBuBar7AFrouONesCFpE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Jg9Wy_Ig4fLd2qvHHsRigg&_nc_ss=7a22e&oh=00_AQH33MW5po0ThNqZiJ8iT-JTJy29akEsiJLmoQ_a-SPmpg&oe=6A9094CD",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/759746027_18329331382286000_4989293621442061394_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=104&ig_cache_key=Mzk1MTk1OTMzMjQ5NzE5OTM1NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI2OC5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=EU7KJzRNB-MQ7kNvwHFuFIm&_nc_oc=AdpJ3bEVUzEZQn6xL4b0Bt2Q43MrulxnY0e7V0SVlhlylQKMu-DkTRd3IPQjmm9Or30&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Jg9Wy_Ig4fLd2qvHHsRigg&_nc_ss=7a22e&oh=00_AQEICq9OweGMYN0tTzobeU0ywbgeAQp1wsjjrzsy_427dg&oe=6A909058",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/759727263_18329331373286000_6062154123996284625_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzk1MTk1OTMzMjA2OTM1NzQ1NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=C220TCsTkiQQ7kNvwEKgwdv&_nc_oc=AdozHYbdjjZDamtxwQkOgEQuOBVopzdqf9I5iQACYYNGXayPQHp4tWwzNsomEvdguE4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Jg9Wy_Ig4fLd2qvHHsRigg&_nc_ss=7a22e&oh=00_AQF1vVqnua1o7phM5AmK6k29h5pGkTncb_VUtcCpf9ciDQ&oe=6A9094FB",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/759547735_18329331391286000_6892873880936126199_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzk1MTk1OTMzMzk1Njk5OTQ3Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=0UTktJemF9oQ7kNvwFHi_OG&_nc_oc=AdqdESbUQwaAkW_FmPm4HWe65WzndZmNcdyNLxL3qJSGUDti6G9IC2rPmjsMsNeCHw4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Jg9Wy_Ig4fLd2qvHHsRigg&_nc_ss=7a22e&oh=00_AQENlFG4OBL4Kozl_fcYIZXXJqRSeXS_jEA8LsP-AEU2xQ&oe=6A90A1B1",
-        "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-15/760424059_18329331400286000_3682477525168472499_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=111&ig_cache_key=Mzk1MTk1OTM0MTE2MjcyOTEyOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI2OC5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=XF08vtcBuC4Q7kNvwH-xOXI&_nc_oc=AdopCdpABqdeEdbg0JAEUnjTDBpB1OE6W6rkuLSl1HMj3L8fe1GK0_F2p6syD_q6Mig&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=Jg9Wy_Ig4fLd2qvHHsRigg&_nc_ss=7a22e&oh=00_AQFXDpLL90ISygY-A-YqpQdY5RuAaSl5tmgaxE7MmAgF2Q&oe=6A90B3E8",
-        "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-15/760410040_18329331415286000_7359304963340350763_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=111&ig_cache_key=Mzk1MTk1OTM0NDc4NjYzODc0NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI2OC5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=cwxpRVw_nF0Q7kNvwF1KlXb&_nc_oc=Adqo5vPjXXJBUGcGarNs_KdUyDnrEp8j0engP_WXQPfZUyocevKaEyWTMe1FV4H4BqU&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=Jg9Wy_Ig4fLd2qvHHsRigg&_nc_ss=7a22e&oh=00_AQHCaJbDpiRLgU7tz3TKvrbhA5Vmg3_6XKhEqOQKimr2UA&oe=6A90A8F7",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/759932219_18329331424286000_1513749400402443916_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=100&ig_cache_key=Mzk1MTk1OTM0OTQ1OTExNjYzNg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI2OC5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=qmafF0aOMmIQ7kNvwF44g9G&_nc_oc=AdoOr7wyOODbY-anlqXIg4kZ4YSku-UfUi7KjN5OmyBh8m5UjOXH-2T2XVwaZguAE0c&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Jg9Wy_Ig4fLd2qvHHsRigg&_nc_ss=7a22e&oh=00_AQHFkU7pYZHsPW5gpL5C-ai-CGXSa80_fxP7oN87-Hg-bA&oe=6A908C5E",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/759751521_18329331433286000_3890608981067408680_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzk1MTk1OTM1MTIyMDYzMDQ2NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjMwNC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=qrUff6WzdP8Q7kNvwGqF-pJ&_nc_oc=AdoV9XDdw9RmNdvSnQIs4Eu_YbAjqjrlKxg6-MHqljO1hEQA1yUzQ74AKS5JxJa6_a0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Jg9Wy_Ig4fLd2qvHHsRigg&_nc_ss=7a22e&oh=00_AQGUuRmw5fTixT6McA_ROWz6IY3jidY6qCvdiFWB1RnAHg&oe=6A90998A",
-        "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-15/760522649_18329331445286000_8653093748475447026_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk1MTk1OTM1MzU5NDYwNDI0Nw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjMwNC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=SyvviD1rIMwQ7kNvwHNHRr_&_nc_oc=AdrAUL6oMKYh-ntGwSdC_w9FCiTpowI70HaeB2Pg53ft5Q_F1sH4u4zWxEuQXQQ6Tm4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=Jg9Wy_Ig4fLd2qvHHsRigg&_nc_ss=7a22e&oh=00_AQGuOgABxB4jvRCFEiIljzSI_hl5XlfGy4bnWuZiXDeOzA&oe=6A9090AA",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/760555563_18329331457286000_4360994206419791907_n.jpg?stp=dst-jpegr_e35_tt6&_nc_cat=104&ig_cache_key=Mzk1MTk1OTM1NzQ3MDA0OTQxNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjI2OC5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=rpYzn8TbYmEQ7kNvwHLxEdD&_nc_oc=AdodSKL9MNkx25_uPQdyVE3PsjeH7bX_vXQB3HMZZ7q-bCgouZBuxkTOpIEJaSVwfKg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Jg9Wy_Ig4fLd2qvHHsRigg&_nc_ss=7a22e&oh=00_AQGRWLCP8flsxDdexj9s8BtXlur981vgO802dHs6kau3Qw&oe=6A908DE8"
-      ],
-      "image_url": "/assets/feed-images/5e415ceaf8e85bee6e2a.webp"
     },
     {
       "id": "248d51bb52af1f32",
