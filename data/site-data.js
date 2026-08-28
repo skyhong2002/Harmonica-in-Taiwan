@@ -2,6 +2,106 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-28",
   "entries": [
     {
+      "id": "watchlist-11",
+      "publicId": "11",
+      "name": "張筑婷",
+      "nameEn": "Chu-Ting Chang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "國際級複音口琴演奏與逾20年教學/2010亞太口琴大賽傳統與創意複音雙料冠軍/2012《東方的穹蒼》以近250把複音口琴創世界紀錄並登國家音樂廳/與管弦樂團及國樂團協奏/2018與2023首爾國際口琴節評審及嘉賓",
+      "structuredSummary": "國際級複音口琴演奏與逾20年教學/2010亞太口琴大賽傳統與創意複音雙料冠軍/2012《東方的穹蒼》以近250把複音口琴創世界紀錄並登國家音樂廳/與管弦樂團及國樂團協奏/2018與2023首爾國際口琴節評審及嘉賓 / 複音口琴/複音口琴協奏 / 國際演出人員/專職教育者/國際與全國賽事評審/專輯演奏者",
+      "summary": "臺灣的複音口琴與複音口琴協奏國際演出人員、專職教育者與國際與全國賽事評審，活動脈絡包含國際級複音口琴演奏與逾20年教學、2010亞太口琴大賽傳統與創意複音雙料冠軍與2012《東方的穹蒼》以近250把複音口琴創世界紀錄並登國家音樂廳。",
+      "keywords": "張筑婷 Chu-Ting Chang 複音口琴 APHF 雙料冠軍 250把 世界紀錄 國家音樂廳 東方的穹蒼 SIHF 評審",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/chuting/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/p/%E5%BC%B5%E7%AD%91%E5%A9%B7%E8%A4%87%E9%9F%B3%E5%8F%A3%E7%90%B4-CTTH-100066550038070/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/mandy730508_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/mandy730508"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@mandy730508_harmonica"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "11",
+      "latestUpdateAt": "2026-08-28T07:11:58+00:00",
+      "latestUpdateLocal": "2026-08-28 15:11",
+      "latestUpdateSource": "張筑婷",
+      "latestUpdateUrl": "https://www.threads.com/t/Dcky_d4EoM3",
+      "avatarUrl": "/assets/source-avatars/3ee7369a460eff2127e2.webp",
+      "sourceInitials": "張筑",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "教學",
+        "複音",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_1269e7d1cd",
+          "name": "張筑婷",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/p/%E5%BC%B5%E7%AD%91%E5%A9%B7%E8%A4%87%E9%9F%B3%E5%8F%A3%E7%90%B4-CTTH-100066550038070",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_mandy730508_harmonica",
+          "name": "張筑婷",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "mandy730508_harmonica",
+          "profileUrl": "https://www.instagram.com/mandy730508_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_mandy730508_harmonica",
+          "name": "張筑婷",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "mandy730508_harmonica",
+          "profileUrl": "https://www.instagram.com/mandy730508_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/mandy730508_harmonica/story/0"
+        },
+        {
+          "id": "threads_mandy730508_harmonica",
+          "name": "張筑婷",
+          "platform": "threads",
+          "type": "rss",
+          "username": "mandy730508_harmonica",
+          "profileUrl": "https://www.threads.net/@mandy730508_harmonica",
+          "feedUrl": "https://rss.observe.tw/threads/mandy730508_harmonica"
+        },
+        {
+          "id": "yt_mandy730508",
+          "name": "張筑婷",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/mandy730508",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-316",
       "publicId": "316",
       "name": "太平國小口琴隊",
@@ -1102,6 +1202,93 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://mundharmonika-live.de/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-66",
+      "publicId": "66",
+      "name": "Younghoon Cho",
+      "nameEn": "Younghoon Cho",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
+      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
+      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "keywords": "Younghoon Cho Jong-seong Park",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/hoontobe"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/hoontobe/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hoontobe_piano/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/hoontobe"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "66-younghoon-cho",
+      "latestUpdateAt": "2026-08-27T13:00:24+00:00",
+      "latestUpdateLocal": "2026-08-27 21:00",
+      "latestUpdateSource": "Younghoon Cho",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=LdKNklAlXds",
+      "avatarUrl": "/assets/source-avatars/ce8582690611be231fa9.webp",
+      "sourceInitials": "YC",
+      "sourceTags": [
+        "演奏者",
+        "合奏",
+        "國際交流"
+      ],
+      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
+      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
+      "monitorSources": [
+        {
+          "id": "fb_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/hoontobe",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hoontobe_piano",
+          "name": "Younghoon Cho",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hoontobe_piano",
+          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
+        },
+        {
+          "id": "yt_hoontobe",
+          "name": "Younghoon Cho",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/hoontobe",
           "feedUrl": ""
         }
       ]
@@ -3941,93 +4128,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "gyeoli_94",
           "profileUrl": "https://www.instagram.com/gyeoli_94/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/gyeoli_94/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-66",
-      "publicId": "66",
-      "name": "Younghoon Cho",
-      "nameEn": "Younghoon Cho",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "鋼琴伴奏/朴鍾聲合作",
-      "structuredSummary": "鋼琴伴奏/朴鍾聲合作 / 鋼琴 / 合作音樂家",
-      "summary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "keywords": "Younghoon Cho Jong-seong Park",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/hoontobe"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/hoontobe/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hoontobe_piano/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/hoontobe"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "66-younghoon-cho",
-      "latestUpdateAt": "2026-08-24T21:55:21+00:00",
-      "latestUpdateLocal": "2026-08-25 05:55",
-      "latestUpdateSource": "Younghoon Cho",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hoontobe_piano/3971070587938492539/",
-      "avatarUrl": "/assets/source-avatars/ce8582690611be231fa9.webp",
-      "sourceInitials": "YC",
-      "sourceTags": [
-        "演奏者",
-        "合奏",
-        "國際交流"
-      ],
-      "sourceSummary": "韓國鋼琴伴奏演奏者，與口琴家朴鍾聲長期合作演出。",
-      "sourceTagReason": "資料明確標示為『演奏者』，並強調其鋼琴伴奏角色及與口琴家朴鍾聲的合作關係，屬於國際間的合作演出者。",
-      "monitorSources": [
-        {
-          "id": "fb_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/hoontobe",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hoontobe_piano",
-          "name": "Younghoon Cho",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hoontobe_piano",
-          "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
-        },
-        {
-          "id": "yt_hoontobe",
-          "name": "Younghoon Cho",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/hoontobe",
-          "feedUrl": ""
         }
       ]
     },
@@ -7937,7 +8037,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-22 16:05",
       "latestUpdateSource": "韋笙堡口琴 Weissenberg Harmonicas",
       "latestUpdateUrl": "https://www.instagram.com/stories/weissenbergtw/3969206570101882072/",
-      "avatarUrl": "/assets/source-avatars/440410dfbb9dfd1aa9fc.webp",
+      "avatarUrl": "/assets/source-avatars/eb21c031d4810e451830.webp",
       "sourceInitials": "WH",
       "sourceTags": [
         "教學器材",
@@ -10896,106 +10996,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@learntheharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-11",
-      "publicId": "11",
-      "name": "張筑婷",
-      "nameEn": "Chu-Ting Chang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "國際級複音口琴演奏與逾20年教學/2010亞太口琴大賽傳統與創意複音雙料冠軍/2012《東方的穹蒼》以近250把複音口琴創世界紀錄並登國家音樂廳/與管弦樂團及國樂團協奏/2018與2023首爾國際口琴節評審及嘉賓",
-      "structuredSummary": "國際級複音口琴演奏與逾20年教學/2010亞太口琴大賽傳統與創意複音雙料冠軍/2012《東方的穹蒼》以近250把複音口琴創世界紀錄並登國家音樂廳/與管弦樂團及國樂團協奏/2018與2023首爾國際口琴節評審及嘉賓 / 複音口琴/複音口琴協奏 / 國際演出人員/專職教育者/國際與全國賽事評審/專輯演奏者",
-      "summary": "臺灣的複音口琴與複音口琴協奏國際演出人員、專職教育者與國際與全國賽事評審，活動脈絡包含國際級複音口琴演奏與逾20年教學、2010亞太口琴大賽傳統與創意複音雙料冠軍與2012《東方的穹蒼》以近250把複音口琴創世界紀錄並登國家音樂廳。",
-      "keywords": "張筑婷 Chu-Ting Chang 複音口琴 APHF 雙料冠軍 250把 世界紀錄 國家音樂廳 東方的穹蒼 SIHF 評審",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/chuting/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/p/%E5%BC%B5%E7%AD%91%E5%A9%B7%E8%A4%87%E9%9F%B3%E5%8F%A3%E7%90%B4-CTTH-100066550038070/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/mandy730508_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/mandy730508"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@mandy730508_harmonica"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "11",
-      "latestUpdateAt": "2026-08-10T05:13:24+00:00",
-      "latestUpdateLocal": "2026-08-10 13:13",
-      "latestUpdateSource": "張筑婷",
-      "latestUpdateUrl": "https://www.instagram.com/p/Db2KbHzygP7/",
-      "avatarUrl": "/assets/source-avatars/3ee7369a460eff2127e2.webp",
-      "sourceInitials": "張筑",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "教學",
-        "複音",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_1269e7d1cd",
-          "name": "張筑婷",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/p/%E5%BC%B5%E7%AD%91%E5%A9%B7%E8%A4%87%E9%9F%B3%E5%8F%A3%E7%90%B4-CTTH-100066550038070",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_mandy730508_harmonica",
-          "name": "張筑婷",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "mandy730508_harmonica",
-          "profileUrl": "https://www.instagram.com/mandy730508_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_mandy730508_harmonica",
-          "name": "張筑婷",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "mandy730508_harmonica",
-          "profileUrl": "https://www.instagram.com/mandy730508_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/mandy730508_harmonica/story/0"
-        },
-        {
-          "id": "threads_mandy730508_harmonica",
-          "name": "張筑婷",
-          "platform": "threads",
-          "type": "rss",
-          "username": "mandy730508_harmonica",
-          "profileUrl": "https://www.threads.net/@mandy730508_harmonica",
-          "feedUrl": "https://rss.observe.tw/threads/mandy730508_harmonica"
-        },
-        {
-          "id": "yt_mandy730508",
-          "name": "張筑婷",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/mandy730508",
           "feedUrl": ""
         }
       ]
