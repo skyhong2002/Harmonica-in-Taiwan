@@ -1180,6 +1180,67 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-75",
+      "publicId": "75",
+      "name": "新竹市文化局",
+      "nameEn": "Cultural Affairs Bureau of Hsinchu City",
+      "category": "場館平台",
+      "type": "場館與平台",
+      "originalType": "場館/文化局",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "場館/文化活動",
+      "structuredSummary": "場館/文化活動 / 口琴/藝文 / 場館資訊來源",
+      "summary": "臺灣的場館資訊來源，提供場館與文化活動相關資訊。",
+      "keywords": "新竹市文化局 口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://culture.hccg.gov.tw/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/culture.hccg/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC9ts62VuB0WSSVDQW_h3H_g"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "75",
+      "latestUpdateAt": "2026-08-28T09:24:52+00:00",
+      "latestUpdateLocal": "2026-08-28 17:24",
+      "latestUpdateSource": "新竹市文化局",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=o9vn8GeHRic",
+      "avatarUrl": "/assets/source-avatars/001fbd66a2b2a7ef8d1f.webp",
+      "sourceInitials": "新竹",
+      "sourceTags": [
+        "場館平台"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_culture_hccg",
+          "name": "新竹市文化局",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/culture.hccg",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_uc9ts62vub0wssvdqw_h3h_g",
+          "name": "新竹市文化局",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UC9ts62VuB0WSSVDQW_h3H_g",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-11",
       "publicId": "11",
       "name": "張筑婷",
@@ -2492,67 +2553,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "l.p.ning.0404",
           "profileUrl": "https://www.instagram.com/l.p.ning.0404/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/l.p.ning.0404/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-75",
-      "publicId": "75",
-      "name": "新竹市文化局",
-      "nameEn": "Cultural Affairs Bureau of Hsinchu City",
-      "category": "場館平台",
-      "type": "場館與平台",
-      "originalType": "場館/文化局",
-      "country": "臺灣",
-      "region": "臺灣/新竹",
-      "cityOrFocus": "場館/文化活動",
-      "structuredSummary": "場館/文化活動 / 口琴/藝文 / 場館資訊來源",
-      "summary": "臺灣的場館資訊來源，提供場館與文化活動相關資訊。",
-      "keywords": "新竹市文化局 口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://culture.hccg.gov.tw/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/culture.hccg/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UC9ts62VuB0WSSVDQW_h3H_g"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "75",
-      "latestUpdateAt": "2026-08-27T03:23:44+00:00",
-      "latestUpdateLocal": "2026-08-27 11:23",
-      "latestUpdateSource": "新竹市文化局",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=JKPzI9bc_LU",
-      "avatarUrl": "/assets/source-avatars/001fbd66a2b2a7ef8d1f.webp",
-      "sourceInitials": "新竹",
-      "sourceTags": [
-        "場館平台"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_culture_hccg",
-          "name": "新竹市文化局",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/culture.hccg",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_uc9ts62vub0wssvdqw_h3h_g",
-          "name": "新竹市文化局",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UC9ts62VuB0WSSVDQW_h3H_g",
-          "feedUrl": ""
         }
       ]
     },

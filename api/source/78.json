@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T09:05:23.003587Z",
+  "generatedAt": "2026-08-29T09:41:27.681155Z",
   "source": {
     "id": 78,
     "slug": "78",
@@ -20,6 +20,20 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/4cf29c54645ba9a8a1c2.webp",
         "width": 640,
         "height": 1136
+      }
+    },
+    {
+      "id": "post-67027edbb05df3776f0d49c2",
+      "title": "一段人與熊的相遇，真實事件改編——亞歷山大．李維《Miedka：野性面容》",
+      "excerpt": "一段人與熊的相遇，真實事件改編——亞歷山大．李維《Miedka：野性面容》 法國人類學家娜塔斯佳．馬汀於堪察加半島遭遇熊襲，儘管幸運生還，卻也因此踏上一段重新理解自我的旅程。 作曲家亞歷山大．李維以極具張力的音樂語彙，揉合人聲、動物聲與有機聲響，並結合參與式合唱團，打造身歷其境的感官體驗。隨著劇中主角一步步接納傷痕與蛻變，也邀請觀眾重新思索人與自然的關係，感受野性如何成為人性不可或缺的一部分。 亞歷山大．李維《Miedka：野性面容》 10/03（六）14:30 衛武營表演廳 票價 NTD 800",
+      "url": "https://www.youtube.com/watch?v=byJ2zwmY-6Q",
+      "sourceName": "衛武營國家藝術文化中心",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-28T10:30:17Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/6bc59ac90005650f4da6.webp",
+        "width": 800,
+        "height": 450
       }
     },
     {

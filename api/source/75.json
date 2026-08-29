@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T09:05:23.003587Z",
+  "generatedAt": "2026-08-29T09:41:27.681155Z",
   "source": {
     "id": 75,
     "slug": "75",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/75/"
   },
   "items": [
+    {
+      "id": "post-44926453d89429d972edfad1",
+      "title": "《百合—直到觸及我們的情感象限》｜展覽影片",
+      "excerpt": "《百合—直到觸及我們的情感象限》｜展覽影片 「 #百合」（Yuri）源於1970年代日本次文化語境，最初用來指涉以女性情感主題的漫畫創作。 隨著大眾文化發展，百合敘事逐漸擴延至文學、影視與網路文化之中。 那些游移於友情與愛戀之間的關係，也成為女性在性別與自我認同之間的重要情感投射。作家楊双子曾提出，「百合」並非單一方向的愛戀或分類標籤，而是一種自由流動的情感座標與觀看關係的方法。 然而，「女性慾望另一個女性」的情感並非始於「百合」一詞。 綜觀東亞歷史，從多個臺灣原住民族關於「純女」的傳說，如泰雅族的 Temahahoi（女人社），到臺灣全女班歌仔戲、日…",
+      "url": "https://www.youtube.com/watch?v=o9vn8GeHRic",
+      "sourceName": "新竹市文化局",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-28T09:24:52Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/df56fd02cdfd2c98725f.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-4aa77300c6e79c58a8f61a06",
       "title": "241藝術空間展覽《𝙋𝙊𝙋 𝙄𝙉》｜宣傳影片",

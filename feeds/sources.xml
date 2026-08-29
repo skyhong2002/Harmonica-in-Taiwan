@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 29 Aug 2026 09:05:24 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 09:41:29 +0000</lastBuildDate>
     <item>
       <title>衛武營國家藝術文化中心</title>
       <link>https://www.npac-weiwuying.org/</link>
@@ -227,6 +227,17 @@ Tag：國際交流、團體樂團、課程、比賽、半音階、複音
 韓國的協會、教育與講師培訓與演出團體，關注口琴教育、講師認證、教材出版、合奏與國際比賽與交流。</description>
     </item>
     <item>
+      <title>新竹市文化局</title>
+      <link>https://culture.hccg.gov.tw/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/e83fa63ff4d4ace2</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：場館平台
+Tag：場館平台
+國家：臺灣
+地區：臺灣/新竹
+臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
+    </item>
+    <item>
       <title>張筑婷</title>
       <link>https://harmonica.tw/course/chuting/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/7ee1f3201dc81411</guid>
@@ -423,17 +434,6 @@ Tag：演奏者、團體樂團、半音階、重奏
 國家：臺灣
 地區：臺灣
 臺灣的半音階口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF 2026半音階獨奏公開組季軍。</description>
-    </item>
-    <item>
-      <title>新竹市文化局</title>
-      <link>https://culture.hccg.gov.tw/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/e83fa63ff4d4ace2</guid>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：場館平台
-Tag：場館平台
-國家：臺灣
-地區：臺灣/新竹
-臺灣的場館資訊來源，提供場館與文化活動相關資訊。</description>
     </item>
     <item>
       <title>Santiago Alvarez</title>
