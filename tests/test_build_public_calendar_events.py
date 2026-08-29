@@ -136,6 +136,9 @@ class PublicCalendarExtractionTests(unittest.TestCase):
         self.assertEqual(calendar.extract_time("Starts 12PM sharp"), "12:00")
         self.assertEqual(calendar.extract_time("10 a.m. workshop"), "10:00")
 
+    def test_extract_time_does_not_treat_a_little_more_as_one_oclock(self):
+        self.assertEqual(calendar.extract_time("然後考慮再練多一點點…"), "")
+
     def test_tour_schedule_review_keeps_explicit_city_without_venue(self):
         item = {
             "title": "CY LEO ASIA TOUR 2026",
@@ -175,6 +178,43 @@ class PublicCalendarExtractionTests(unittest.TestCase):
         }
 
         self.assertEqual(calendar.deduplicate_events([vague, complete]), [complete])
+
+    def test_deduplicate_events_collapses_tour_venue_and_timed_announcements(self):
+        tour = {
+            "id": "tour",
+            "eventName": "CY Leo 何卓彥｜Two Worlds In One 亞洲巡演",
+            "title": "CY Leo 何卓彥｜Two Worlds In One 亞洲巡演",
+            "start": "2026-09-23",
+            "allDay": True,
+            "calendarType": calendar.TAIWAN_PHYSICAL,
+            "location": "臺北",
+            "confidence": 0.9,
+            "source": "cy_leo",
+        }
+        venue_announcement = {
+            "id": "venue",
+            "eventName": "首場個人音樂會",
+            "title": "首場個人音樂會",
+            "start": "2026-09-23",
+            "allDay": True,
+            "calendarType": calendar.TAIWAN_PHYSICAL,
+            "location": "新北市藝文中心演藝廳",
+            "confidence": 0.92,
+            "source": "cy_leo",
+        }
+        official = {
+            "id": "official",
+            "eventName": "Cy Leo《兩界一心》",
+            "title": "Cy Leo《兩界一心》",
+            "start": "2026-09-23T19:30:00+08:00",
+            "allDay": False,
+            "calendarType": calendar.TAIWAN_PHYSICAL,
+            "location": "新北市板橋區 新北市藝文中心演藝廳",
+            "confidence": 0.98,
+            "source": "天狼星口琴樂團",
+        }
+
+        self.assertEqual(calendar.deduplicate_events([tour, venue_announcement, official]), [official])
 
     def test_deduplicate_events_does_not_merge_generic_festival_sessions(self):
         events = [

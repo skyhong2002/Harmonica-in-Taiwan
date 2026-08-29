@@ -153,7 +153,10 @@ AMPM_TIME_RE = re.compile(
     r"(?<!\d)(?P<hour>1[0-2]|0?[1-9])(?:[:：](?P<minute>[0-5]\d))?\s*(?P<ampm>[AaPp])\.?[Mm]\b"
 )
 TIME_WITH_UNIT_RE = re.compile(r"(?P<prefix>上午|早上|中午|下午|晚上|夜|午前|午後)?\s*(?P<hour>[01]?\d|2[0-3])\s*(?:時|点|點)(?:\s*(?P<minute>[0-5]\d)\s*分?)?")
-CHINESE_TIME_RE = re.compile(r"(?P<prefix>上午|早上|中午|下午|晚上|夜)?\s*(?P<hour>[一二兩三四五六七八九十]{1,3})\s*(?:點|時)(?P<half>半)?")
+CHINESE_TIME_RE = re.compile(
+    r"(?P<prefix>上午|早上|中午|下午|晚上|夜)?\s*"
+    r"(?P<hour>[一二兩三四五六七八九十]{1,3})\s*(?:點|時)(?P<half>半)?(?!點)"
+)
 LOCATION_RE = re.compile(r"(?:地點|地点|場地|會場|会場|場所|上課地點|活動地點|舉辦地點)\s*[｜|:：]?\s*(?P<place>[^\n。；;，,]{2,48})")
 PIN_LOCATION_RE = re.compile(
     r"📍\s*(?!時間|时间|日期|日時|日时|\d{1,4}\s*[./-])"
@@ -1022,6 +1025,20 @@ def leading_cjk_title_anchor(value: Any) -> str:
     return anchor
 
 
+def leading_latin_title_anchor(value: Any) -> str:
+    """Return a likely Latin-script performer prefix such as ``Cy Leo``.
+
+    Calendar posts often describe the same concert once by its tour name and once
+    by its localized program name.  The shared performer prefix is useful only for
+    folding an untimed placeholder into a timed record; it is deliberately not a
+    general same-day performer dedupe key.
+    """
+    match = re.match(r"\s*([A-Za-z][A-Za-z0-9.'-]{1,})\s+([A-Za-z][A-Za-z0-9.'-]{2,})", str(value or ""))
+    if not match:
+        return ""
+    return f"{match.group(1)} {match.group(2)}".casefold()
+
+
 def event_titles_match(left: dict[str, Any], right: dict[str, Any]) -> bool:
     left_title = left.get("eventName") or left.get("title")
     right_title = right.get("eventName") or right.get("title")
@@ -1035,7 +1052,11 @@ def event_titles_match(left: dict[str, Any], right: dict[str, Any]) -> bool:
         return False
     left_anchor = leading_cjk_title_anchor(left_title)
     right_anchor = leading_cjk_title_anchor(right_title)
-    return bool(left_anchor and left_anchor == right_anchor)
+    if left_anchor and left_anchor == right_anchor:
+        return True
+    left_latin_anchor = leading_latin_title_anchor(left_title)
+    right_latin_anchor = leading_latin_title_anchor(right_title)
+    return bool(left_latin_anchor and left_latin_anchor == right_latin_anchor)
 
 
 def event_times_compatible(left: dict[str, Any], right: dict[str, Any]) -> bool:
@@ -1084,11 +1105,13 @@ def multi_day_events_match(left: dict[str, Any], right: dict[str, Any]) -> bool:
     return shortest <= dt.timedelta(days=2)
 
 
-def find_similar_event_index(events: list[dict[str, Any]], candidate: dict[str, Any]) -> int | None:
+def find_similar_event_indices(events: list[dict[str, Any]], candidate: dict[str, Any]) -> list[int]:
+    matches: list[int] = []
     candidate_location = location_signature(candidate.get("location"))
     for index, existing in enumerate(events):
         if multi_day_events_match(existing, candidate):
-            return index
+            matches.append(index)
+            continue
         if event_start_date_key(existing) != event_start_date_key(candidate):
             continue
         if not event_times_compatible(existing, candidate):
@@ -1096,15 +1119,22 @@ def find_similar_event_index(events: list[dict[str, Any]], candidate: dict[str, 
         existing_url = str(existing.get("evidenceUrl") or "").strip()
         candidate_url = str(candidate.get("evidenceUrl") or "").strip()
         if existing_url and existing_url == candidate_url:
-            return index
+            matches.append(index)
+            continue
         if event_titles_match(existing, candidate):
-            return index
+            matches.append(index)
+            continue
         if not candidate_location:
             continue
         existing_location = location_signature(existing.get("location"))
         if len(candidate_location & existing_location) >= 2:
-            return index
-    return None
+            matches.append(index)
+    return matches
+
+
+def find_similar_event_index(events: list[dict[str, Any]], candidate: dict[str, Any]) -> int | None:
+    matches = find_similar_event_indices(events, candidate)
+    return matches[0] if matches else None
 
 
 def event_sort_key(event: dict[str, Any]) -> tuple[str, str, str]:
@@ -1126,10 +1156,20 @@ def deduplicate_events(events: list[dict[str, Any]]) -> list[dict[str, Any]]:
         )
         if key in seen_final:
             continue
-        similar_index = find_similar_event_index(deduped_events, event)
-        if similar_index is not None:
-            if should_replace_similar_event(deduped_events[similar_index], event):
-                deduped_events[similar_index] = event
+        similar_indices = find_similar_event_indices(deduped_events, event)
+        if similar_indices:
+            canonical = event
+            for index in similar_indices:
+                existing = deduped_events[index]
+                if not should_replace_similar_event(existing, canonical):
+                    canonical = existing
+            first_index = similar_indices[0]
+            deduped_events[first_index] = canonical
+            # A more complete record can bridge two partial records (for example,
+            # a tour announcement and a venue announcement). Remove every matched
+            # partial instead of stopping after the first pairwise match.
+            for index in reversed(similar_indices[1:]):
+                del deduped_events[index]
             continue
         seen_final.add(key)
         deduped_events.append(event)
