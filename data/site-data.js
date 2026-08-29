@@ -985,6 +985,59 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-309",
+      "publicId": "309",
+      "name": "韓國口琴領袖協會",
+      "nameEn": "Korea Harmonica Leaders Incorporated Association",
+      "category": "國際交流",
+      "type": "團體",
+      "originalType": "協會",
+      "country": "韓國",
+      "region": "韓國/大邱",
+      "cityOrFocus": "口琴教育/講師認證/教材出版/合奏/國際比賽與交流/2026年第26期講師資格課程",
+      "structuredSummary": "口琴教育/講師認證/教材出版/合奏/國際比賽與交流/2026年第26期講師資格課程 / 複音口琴/半音階口琴/和弦口琴/低音口琴 / 協會/教育與講師培訓/演出團體",
+      "summary": "韓國的協會、教育與講師培訓與演出團體，關注口琴教育、講師認證、教材出版、合奏與國際比賽與交流。",
+      "keywords": "사단법인 한국하모니카리더스 Korea Harmonica Leaders Daegu teacher certification 2026 26th APHF SIHF THMF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.kharmonicaleaders.co.kr/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC6ZDrvYsxIs-q06ImGWAW3g"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "309-korea-harmonica-leaders-incorporated-association",
+      "latestUpdateAt": "2026-08-28T10:00:17+00:00",
+      "latestUpdateLocal": "2026-08-28 18:00",
+      "latestUpdateSource": "韓國口琴領袖協會",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=Yrluv7fKEe4",
+      "avatarUrl": "/assets/source-avatars/korea-harmonica-leaders.jpg",
+      "sourceInitials": "韓國",
+      "sourceTags": [
+        "國際交流",
+        "團體樂團",
+        "課程",
+        "比賽",
+        "半音階",
+        "複音"
+      ],
+      "monitorSources": [
+        {
+          "id": "yt_uc6zdrvysxis_q06imgwaw3g",
+          "name": "韓國口琴領袖協會",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UC6ZDrvYsxIs-q06ImGWAW3g",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-11",
       "publicId": "11",
       "name": "張筑婷",
@@ -8739,59 +8792,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@reyharpnaufal5101",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-309",
-      "publicId": "309",
-      "name": "韓國口琴領袖協會",
-      "nameEn": "Korea Harmonica Leaders Incorporated Association",
-      "category": "國際交流",
-      "type": "團體",
-      "originalType": "協會",
-      "country": "韓國",
-      "region": "韓國/大邱",
-      "cityOrFocus": "口琴教育/講師認證/教材出版/合奏/國際比賽與交流/2026年第26期講師資格課程",
-      "structuredSummary": "口琴教育/講師認證/教材出版/合奏/國際比賽與交流/2026年第26期講師資格課程 / 複音口琴/半音階口琴/和弦口琴/低音口琴 / 協會/教育與講師培訓/演出團體",
-      "summary": "韓國的協會、教育與講師培訓與演出團體，關注口琴教育、講師認證、教材出版、合奏與國際比賽與交流。",
-      "keywords": "사단법인 한국하모니카리더스 Korea Harmonica Leaders Daegu teacher certification 2026 26th APHF SIHF THMF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.kharmonicaleaders.co.kr/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UC6ZDrvYsxIs-q06ImGWAW3g"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "309-korea-harmonica-leaders-incorporated-association",
-      "latestUpdateAt": "2026-08-21T10:00:05+00:00",
-      "latestUpdateLocal": "2026-08-21 18:00",
-      "latestUpdateSource": "韓國口琴領袖協會",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=Ay0ewkxOjOs",
-      "avatarUrl": "/assets/source-avatars/korea-harmonica-leaders.jpg",
-      "sourceInitials": "韓國",
-      "sourceTags": [
-        "國際交流",
-        "團體樂團",
-        "課程",
-        "比賽",
-        "半音階",
-        "複音"
-      ],
-      "monitorSources": [
-        {
-          "id": "yt_uc6zdrvysxis_q06imgwaw3g",
-          "name": "韓國口琴領袖協會",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UC6ZDrvYsxIs-q06ImGWAW3g",
           "feedUrl": ""
         }
       ]

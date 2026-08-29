@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T00:14:15.814200Z",
+  "generatedAt": "2026-08-29T00:49:00.459643Z",
   "source": {
     "id": 309,
     "slug": "korea-harmonica-leaders-incorporated-association",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/309-korea-harmonica-leaders-incorporated-association/"
   },
   "items": [
+    {
+      "id": "post-6240e12c6c83bfc666ce8ddd",
+      "title": "[소래모하모니카합주단] 고맙소(Thank You)",
+      "excerpt": "[소래모하모니카합주단] 고맙소(Thank You) 소래모하모니카합주단 제21회 정기연주회 - 고맙소(Thank You) * 작곡: 알고보니 혼수상태, 김진환, 편곡: 곽민석 * 지휘: 추영경, 피아노: 임주선, 드럼: 김진환, 더블베이스: 장진호, 사회: 정경주 * 2024.10.09. 대구아양아트센터 #사단법인한국하모니카리더스 #소래모하모니카합주단 #대구하모니카 #하모니카 #하모니카연주 #하모니카앙상블 #복음하모니카 #트레몰로하모니카 #코드하모니카 #베이스하모니카 #하모니카오케스트라 #하모니카…",
+      "url": "https://www.youtube.com/watch?v=Yrluv7fKEe4",
+      "sourceName": "韓國口琴領袖協會",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-28T10:00:17Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/0a0787518935bec48931.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-8d5da481f0bcf5a1137448a2",
       "title": "[그린나래시니어하모니카합주] 나성에 가면(When You Go To Na-Seong)",

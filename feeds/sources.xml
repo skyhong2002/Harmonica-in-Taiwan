@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 29 Aug 2026 00:14:17 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 00:49:01 +0000</lastBuildDate>
     <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
@@ -192,6 +192,17 @@ Tag：活動資訊、團體樂團、音樂節、重奏、國際交流
 國家：馬來西亞
 地區：馬來西亞
 馬來西亞的國際演出團體，涵蓋馬來西亞口琴重奏、跨國音樂節與社群演出。</description>
+    </item>
+    <item>
+      <title>韓國口琴領袖協會</title>
+      <link>https://www.kharmonicaleaders.co.kr/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/c579b6da0afabe86</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：國際交流
+Tag：國際交流、團體樂團、課程、比賽、半音階、複音
+國家：韓國
+地區：韓國/大邱
+韓國的協會、教育與講師培訓與演出團體，關注口琴教育、講師認證、教材出版、合奏與國際比賽與交流。</description>
     </item>
     <item>
       <title>張筑婷</title>
@@ -1314,17 +1325,6 @@ Tag：團體樂團、國際交流
 國家：印尼
 地區：印尼
 印尼的口琴與跨界國際演出團體，活動脈絡包含Reyharp Naufal與Balawan合作、跨界融合與口琴與吉他。</description>
-    </item>
-    <item>
-      <title>韓國口琴領袖協會</title>
-      <link>https://www.kharmonicaleaders.co.kr/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/c579b6da0afabe86</guid>
-      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：國際交流
-Tag：國際交流、團體樂團、課程、比賽、半音階、複音
-國家：韓國
-地區：韓國/大邱
-韓國的協會、教育與講師培訓與演出團體，關注口琴教育、講師認證、教材出版、合奏與國際比賽與交流。</description>
     </item>
     <item>
       <title>Rivet 口琴重奏</title>
