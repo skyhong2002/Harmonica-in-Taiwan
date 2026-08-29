@@ -10,6 +10,7 @@ import os
 import shutil
 import subprocess
 import sys
+import time
 from pathlib import Path
 from typing import Any
 
@@ -21,6 +22,8 @@ DEFAULT_BRANCH = "gh-pages"
 DEFAULT_REMOTE = "origin"
 DEFAULT_CNAME = "harmonica.observe.tw"
 TAIPEI_TZ = dt.timezone(dt.timedelta(hours=8))
+DEFAULT_PUSH_ATTEMPTS = 3
+DEFAULT_PUSH_RETRY_SECONDS = 5.0
 
 
 class PublishError(RuntimeError):
@@ -50,6 +53,35 @@ def git(args: list[str], *, cwd: Path = PROJECT_ROOT, check: bool = True, captur
 def git_stdout(args: list[str], *, cwd: Path = PROJECT_ROOT, check: bool = True) -> str:
     result = git(args, cwd=cwd, check=check, capture=True)
     return result.stdout.strip()
+
+
+def push_with_retry(
+    remote: str,
+    branch: str,
+    *,
+    cwd: Path,
+    attempts: int = DEFAULT_PUSH_ATTEMPTS,
+    retry_seconds: float = DEFAULT_PUSH_RETRY_SECONDS,
+) -> None:
+    """Push a Pages snapshot, retrying transient transport failures."""
+    if attempts < 1:
+        raise ValueError("attempts must be at least 1")
+
+    result: subprocess.CompletedProcess[str] | None = None
+    for attempt in range(1, attempts + 1):
+        result = git(["push", "-u", remote, branch], cwd=cwd, check=False)
+        if result.returncode == 0:
+            return
+        if attempt < attempts:
+            delay = retry_seconds * (2 ** (attempt - 1))
+            print(
+                f"Pages push attempt {attempt}/{attempts} failed; retrying in {delay:g}s.",
+                file=sys.stderr,
+            )
+            time.sleep(delay)
+
+    assert result is not None
+    result.check_returncode()
 
 
 def branch_exists(branch: str) -> bool:
@@ -216,10 +248,10 @@ def main() -> int:
         committed = True
         commit = git_stdout(["rev-parse", "--short", "HEAD"], cwd=worktree)
         if not args.no_push:
-            git(["push", "-u", args.remote, args.branch], cwd=worktree)
+            push_with_retry(args.remote, args.branch, cwd=worktree)
             pushed = True
     elif not args.no_push:
-        git(["push", "-u", args.remote, args.branch], cwd=worktree)
+        push_with_retry(args.remote, args.branch, cwd=worktree)
         pushed = True
         commit = git_stdout(["rev-parse", "--short", "HEAD"], cwd=worktree)
 
