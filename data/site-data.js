@@ -21060,6 +21060,54 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-321",
+      "publicId": "321",
+      "name": "黃渝雯",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/臺南/臺北",
+      "cityOrFocus": "口琴演奏與教學/臺南社區大學口琴教師/成大校園口琴教學與多所中小學口琴隊指導/巴巴口琴坊成員",
+      "structuredSummary": "口琴演奏與教學/臺南社區大學口琴教師/成大校園口琴教學與多所中小學口琴隊指導/巴巴口琴坊成員 / 口琴 / 演出人員/口琴教師/學校社團指導老師",
+      "summary": "黃渝雯（巴巴）是臺南口琴演奏者與教師，於臺南社區大學授課，並指導成大口琴社、德南國小、公園國小與馬光國中等口琴團隊，也是巴巴口琴坊成員。",
+      "keywords": "黃渝雯 巴巴 Huang Baba huang_baba 巴巴口琴坊 成大口琴社 德南國小口琴隊 公園國小口琴隊 馬光國中口琴隊 臺南社區大學 中山女高口琴社",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/huang.yu.wen.163338"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "321",
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/96f8a017c4b695332df4.webp",
+      "sourceInitials": "黃渝",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "學生社團"
+      ],
+      "sourceSummary": "黃渝雯（巴巴）是臺南口琴演奏者與教師，於臺南社區大學授課，並指導成大口琴社、德南國小、公園國小與馬光國中等口琴團隊，也是巴巴口琴坊成員。",
+      "sourceTagReason": "依本人公開 Facebook About 與公開演出貼文交叉確認其口琴教學、校園團隊指導與巴巴口琴坊成員身分。",
+      "monitorSources": [
+        {
+          "id": "fb_huang_yu_wen_163338",
+          "name": "黃渝雯",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/huang.yu.wen.163338",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-128",
       "publicId": "128",
       "name": "龍登杰",
@@ -21182,7 +21230,7 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 319,
+    "totalEntries": 320,
     "categories": {
       "其他來源": 2,
       "國際交流": 12,
@@ -21191,7 +21239,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "學校社團": 44,
       "教學器材": 26,
       "活動資訊": 44,
-      "演奏者": 108
+      "演奏者": 109
     },
     "countries": {
       "中國": 40,
@@ -21214,7 +21262,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "瑞士": 1,
       "紐西蘭": 1,
       "美國": 7,
-      "臺灣": 132,
+      "臺灣": 133,
       "英國": 3,
       "荷蘭": 1,
       "菲律賓": 1,
@@ -21225,13 +21273,13 @@ window.HARMONICA_OBSERVE_DATA = {
       "馬來西亞": 14
     },
     "watchSources": {
-      "totalSources": 787,
+      "totalSources": 788,
       "rsshubSources": 396,
-      "apifySources": 163,
-      "facebookSources": 163,
+      "apifySources": 164,
+      "facebookSources": 164,
       "youtubeSources": 140,
       "platforms": {
-        "facebook": 163,
+        "facebook": 164,
         "instagram": 356,
         "threads": 28,
         "website": 88,
@@ -21239,7 +21287,7 @@ window.HARMONICA_OBSERVE_DATA = {
         "youtube": 140
       },
       "types": {
-        "facebook_page_posts": 163,
+        "facebook_page_posts": 164,
         "rss": 40,
         "rsshub_instagram_profile": 178,
         "rsshub_instagram_story": 178,
