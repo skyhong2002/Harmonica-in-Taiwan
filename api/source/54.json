@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T07:16:59.623886Z",
+  "generatedAt": "2026-08-29T08:26:04.196997Z",
   "source": {
     "id": 54,
     "slug": "cy-leo",
@@ -146,20 +146,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/9d9b79fc0bcd2accabe3.webp",
         "width": 640,
         "height": 640
-      }
-    },
-    {
-      "id": "post-ea3c4f9044271c4ba551bc1c",
-      "title": "Hi, Marvao, Portugal.",
-      "excerpt": "Hi, Marvao, Portugal.",
-      "url": "https://www.facebook.com/Cyleoharmonica/posts/pfbid0jcgzDeGJxXqm4XQwC8vSrE5WuoW4KKrx9MrivnKdiwJCfS7PhJVhUALfxJDugu9Ql",
-      "sourceName": "CY Leo 何卓彥",
-      "platform": "Facebook",
-      "publishedAt": "2026-07-30T07:41:22Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/21b639db9c6575bc00ad.webp",
-        "width": 526,
-        "height": 701
       }
     }
   ]
