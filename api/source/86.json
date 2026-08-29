@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T03:05:04.282044Z",
+  "generatedAt": "2026-08-29T04:16:38.470492Z",
   "source": {
     "id": 86,
     "slug": "ou-frog",
@@ -200,20 +200,6 @@
       "publishedAt": "2026-08-01T04:00:15Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/a49c00ff671b957bdf19.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-7dc785f365ab196195bc1c18",
-      "title": "[伴奏 Accompaniment] 你講的話｜複音口琴｜Tremolo harmonica｜口琴譜｜口琴教學｜Harmonica tabs",
-      "excerpt": "[伴奏 Accompaniment] 你講的話｜複音口琴｜Tremolo harmonica｜口琴譜｜口琴教學｜Harmonica tabs 頻道開啟了超級感謝、留言系列，再請多多支持❤😄。 複音口琴 21 孔 ； 節拍器速度65 觀看口琴示範版，請至頻道演奏影片或開頭資訊卡 伴奏： 歐老師",
-      "url": "https://www.youtube.com/watch?v=aqPZIYl1Bb4",
-      "sourceName": "吹出好心琴 + Ou Frog",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-30T04:00:08Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/b5e0c9bc9a6cc8670e3e.webp",
         "width": 800,
         "height": 450
       }
