@@ -4443,7 +4443,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-25 11:10",
       "latestUpdateSource": "Lee Hangyeol 이한결",
       "latestUpdateUrl": "https://www.instagram.com/p/DccoW6vTHa-/",
-      "avatarUrl": "/assets/source-avatars/339346a9f3ffd26dc0ea.webp",
+      "avatarUrl": "/assets/source-avatars/58b7e217487d42b60e7c.webp",
       "sourceInitials": "LH",
       "sourceTags": [
         "演奏者",
