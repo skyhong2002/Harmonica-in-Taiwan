@@ -1,11 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T19:48:13.746840Z",
+  "generatedAt": "2026-08-29T20:06:03.768627Z",
   "source": {
     "id": 322,
     "slug": "tombo-festival-awards",
     "name": "TOMBO祭アワード",
     "pageUrl": "https://harmonica.observe.tw/source/322-tombo-festival-awards/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-fbc3cf6bc89027110eeabf15",
+      "title": "「TOMBO STATION 2026 夏号」公開しました。「風の音を訪ねて 」のコーナーではジャーバラ藤田さんが登場。その他盛りだくさんな内容でお届けします。",
+      "excerpt": "「TOMBO STATION 2026 夏号」公開しました。「風の音を訪ねて 」のコーナーではジャーバラ藤田さんが登場。その他盛りだくさんな内容でお届けします。 #ハーモニカ #アコーディオン #複音ハーモニカ #トンボ楽器 @accofujita @saburotter @getaoto",
+      "url": "https://x.com/tombo_info/status/2083100840714510532",
+      "sourceName": "TOMBO祭アワード",
+      "platform": "X",
+      "publishedAt": "2026-07-31T08:01:57Z"
+    }
+  ]
 }
