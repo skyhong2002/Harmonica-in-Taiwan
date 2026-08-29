@@ -7,8 +7,9 @@
 
     <key>ProgramArguments</key>
     <array>
-      <string>/Users/skyhong/.hermes/google-workspace-venv/bin/python</string>
-      <string>/Users/skyhong/Documents/Harmonica-in-Taiwan/scripts/process_submission_intake.py</string>
+      <string>/bin/zsh</string>
+      <string>-lc</string>
+      <string>exec '/Users/skyhong/.hermes/google-workspace-venv/bin/python' '/Users/skyhong/Documents/Harmonica-in-Taiwan/scripts/process_submission_intake.py'</string>
     </array>
 
     <key>WorkingDirectory</key>
