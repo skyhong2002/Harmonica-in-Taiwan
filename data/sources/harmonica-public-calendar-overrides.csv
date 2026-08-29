@@ -1,4 +1,4 @@
-evidence_url,event_name,start,end,all_day,venue,city,details,country,event_mode,timezone
+evidence_url,event_name,start,end,all_day,venue,city,details,country,event_mode,timezone,source_name,platform
 https://www.facebook.com/twharmonica/posts/pfbid07CLAcEbSrP9wrHocyXC7ZaUS2ERQAN75Sh3fPjM835wmjAokvbtWrRP7Wkh5mdGal,口琴入門推廣講座,2026-07-11T14:00:00+08:00,2026-07-11T16:00:00+08:00,false,竹東親愛愛樂音樂巷-音樂廳（新竹縣竹東鎮東林路194巷8號）,新竹縣竹東鎮,臺灣口琴音樂節前導活動；天狼星口琴樂團蔡明憲老師指導，免費參與並提供複音口琴。,臺灣,taiwan_physical,Asia/Taipei
 https://www.instagram.com/p/DaNlIwyzK9b/,口琴入門推廣講座,2026-07-11T14:00:00+08:00,2026-07-11T16:00:00+08:00,false,竹東親愛愛樂音樂巷-音樂廳（新竹縣竹東鎮東林路194巷8號）,新竹縣竹東鎮,臺灣口琴音樂節前導活動；天狼星口琴樂團蔡明憲老師指導，免費參與並提供複音口琴。,臺灣,taiwan_physical,Asia/Taipei
 https://www.youtube.com/watch?v=PA11sSFkJeA,臺灣探戈樂團創團音樂會,2026-07-18T19:30:00+08:00,2026-07-18T21:30:00+08:00,false,臺北生技園區 多功能廳,臺北,演出：臺灣探戈樂團創團音樂會（Taiwan Tango Orquesta），有口琴演出者廖苡晴。,臺灣,taiwan_physical,Asia/Taipei
@@ -7,3 +7,4 @@ https://x.com/minami_risa/status/2082813898156372325,南里沙 ティータイ�
 https://x.com/minami_risa/status/2083009854462218712,RJ&BME’s マンスリーライブ「公開リハーサル」,2026-08-18T20:00:00+09:00,2026-08-18T22:00:00+09:00,false,RJ&BME’s,西宮市,"主辦／演出者：南里沙、中尾唱、喜多健博、小林亮；公開彩排形式的月度現場演出，19:00 開場。",日本,overseas_physical,Asia/Tokyo
 https://x.com/minami_risa/status/2083887757550920101,南里沙のココだけの話｜伝えたい日本の名曲特集,2026-08-02T22:00:00+09:00,2026-08-02T23:00:00+09:00,false,YouTube Live,,"主辦／演出者：南里沙；YouTube 生配信，後半特集為「傳達的日本名曲特集」。",線上,online,Asia/Tokyo
 https://www.facebook.com/harmonicafenfestival/posts/pfbid0AGFcuVZeGSGtnmFHoosUVorGGywsdZrqAsdzyR4qLf3weoXQsgwuLzqXUWraFM2Hl,The Power of Melody,2026-09-06,2026-09-10,true,uferstudios,Berlin,"主辦／演出者：Ariel Bart；面向口琴與其他旋律樂器的作曲及即興創作大師工作坊。",德國,overseas_physical,Europe/Berlin
+https://www.npac-weiwuying.org/programs/69afb5dff1151f0007a5cdfa,【衛武營小時光】茱蒂口琴樂團《跟著口琴去旅行》,2026-12-09T20:00:00+08:00,2026-12-09T21:00:00+08:00,false,衛武營國家藝術文化中心表演廳（高雄市鳳山區三多一路1號）,高雄市,主辦／演出者：茱蒂口琴樂團；票價 NTD 300、600；全長約 60 分鐘、無中場休息、建議 7 歲以上觀眾觀賞；OPENTIX：https://www.opentix.life/event/2043960193015562241,臺灣,taiwan_physical,Asia/Taipei,衛武營國家藝術文化中心,website

@@ -63,6 +63,44 @@ class PublicCalendarExtractionTests(unittest.TestCase):
         self.assertEqual(len(events), 1)
         self.assertEqual(events[0]["title"], override[item["link"]]["title"])
 
+    def test_official_override_survives_without_social_candidate(self):
+        evidence_url = "https://venue.example/events/judys-harmonica"
+        override = {
+            evidence_url: {
+                "sourceName": "官方場館",
+                "platform": "website",
+                "eventName": "茱蒂口琴樂團《跟著口琴去旅行》",
+                "title": "茱蒂口琴樂團《跟著口琴去旅行》",
+                "start": "2026-12-09T20:00:00+08:00",
+                "end": "2026-12-09T21:00:00+08:00",
+                "allDay": False,
+                "venue": "衛武營國家藝術文化中心表演廳",
+                "city": "高雄市",
+                "location": "高雄市 衛武營國家藝術文化中心表演廳",
+                "details": "票價 NTD 300、600。",
+                "calendarType": calendar.TAIWAN_PHYSICAL,
+                "timezone": "Asia/Taipei",
+                "evidenceUrl": evidence_url,
+                "confidence": 1.0,
+            }
+        }
+
+        with tempfile.TemporaryDirectory() as directory:
+            missing_candidates = Path(directory) / "missing.jsonl"
+            items = calendar.load_override_candidate_items(
+                override,
+                candidates_path=missing_candidates,
+            )
+
+        self.assertEqual(len(items), 1)
+        self.assertEqual(items[0]["link"], evidence_url)
+        self.assertEqual(items[0]["source_name"], "官方場館")
+        events = calendar.extract_events(items, overrides=override)
+        self.assertEqual(len(events), 1)
+        self.assertEqual(events[0]["start"], "2026-12-09T20:00:00+08:00")
+        self.assertEqual(events[0]["end"], "2026-12-09T21:00:00+08:00")
+        self.assertEqual(events[0]["evidenceUrl"], evidence_url)
+
     def test_date_candidates_accept_day_month_tour_dates(self):
         text = "CY LEO ASIA TOUR 2026 concert\n30/8 Hong Kong\n23/9 Taipei, Taiwan\n3/10 Singapore"
 

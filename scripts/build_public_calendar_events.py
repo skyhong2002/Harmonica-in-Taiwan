@@ -311,6 +311,8 @@ def load_overrides(path: Path = OVERRIDES_PATH) -> dict[str, dict[str, Any]]:
             if not start or not event_name or not venue:
                 continue
             overrides[evidence_url] = {
+                "sourceName": (row.get("source_name") or "").strip(),
+                "platform": (row.get("platform") or "website").strip(),
                 "eventName": event_name,
                 "title": event_name,
                 "start": start,
@@ -637,16 +639,20 @@ def canonical_evidence_url(value: Any) -> str:
     return re.sub(r"^https?://(?:www\.)?(?:twitter\.com|x\.com)/", "https://x.com/", url, flags=re.IGNORECASE)
 
 
-def load_override_candidate_items(overrides: dict[str, dict[str, Any]]) -> list[dict[str, Any]]:
-    """Bring manually confirmed posts into the calendar even if classification excluded them."""
-    if not overrides or not SOCIAL_CANDIDATES_PATH.exists():
+def load_override_candidate_items(
+    overrides: dict[str, dict[str, Any]],
+    candidates_path: Path = SOCIAL_CANDIDATES_PATH,
+) -> list[dict[str, Any]]:
+    """Bring manually confirmed sources into the calendar even outside the rolling feed window."""
+    if not overrides:
         return []
     wanted = {canonical_evidence_url(url) for url in overrides}
     found: list[dict[str, Any]] = []
+    found_urls: set[str] = set()
     try:
-        lines = SOCIAL_CANDIDATES_PATH.read_text(encoding="utf-8").splitlines()
+        lines = candidates_path.read_text(encoding="utf-8").splitlines()
     except OSError:
-        return []
+        lines = []
     for line in lines:
         try:
             item = json.loads(line)
@@ -660,6 +666,34 @@ def load_override_candidate_items(overrides: dict[str, dict[str, Any]]) -> list[
         item = dict(item)
         item["link"] = item.get("link") or item.get("url") or item.get("post_id") or ""
         found.append(item)
+        found_urls.add(item_url)
+
+    # Official venue and ticketing pages may never appear in the rolling social
+    # feed.  A manual override is already a curated assertion, so synthesize the
+    # minimal source item needed to keep that future event durable.
+    for evidence_url, override in overrides.items():
+        canonical_url = canonical_evidence_url(evidence_url)
+        if canonical_url in found_urls:
+            continue
+        source_name = str(override.get("sourceName") or "").strip()
+        if not source_name:
+            # Legacy overrides are intentionally anchored to a captured social
+            # candidate. Only explicitly named official sources are standalone.
+            continue
+        found.append(
+            {
+                "link": evidence_url,
+                "url": evidence_url,
+                "source": source_name,
+                "source_name": source_name,
+                "platform": str(override.get("platform") or "website").strip(),
+                "text": "\n".join(
+                    str(override.get(key) or "").strip()
+                    for key in ("eventName", "venue", "details")
+                    if str(override.get(key) or "").strip()
+                ),
+            }
+        )
     return found
 
 
