@@ -705,7 +705,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "timothyyip_harmonica",
           "profileUrl": "https://www.instagram.com/timothyyip_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/timothyyip_harmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_timothyyip_harmonica",
@@ -799,7 +799,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "cy_leo",
           "profileUrl": "https://www.instagram.com/cy_leo/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/cy_leo/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_cyleoharmonica",
@@ -877,7 +877,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "weiwuying_centerforthearts",
           "profileUrl": "https://www.instagram.com/weiwuying_centerforthearts/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weiwuying_centerforthearts/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_weiwuying_centerforthearts",
@@ -1034,7 +1034,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "minami_risa",
           "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/minami_risa/story/0"
+          "feedUrl": ""
         },
         {
           "id": "x_minami_risa",
@@ -1182,7 +1182,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "harmonica_wang",
           "profileUrl": "https://www.instagram.com/harmonica_wang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_wang/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_harmonica_wang",
@@ -1265,7 +1265,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "hummingwayharmonica",
           "profileUrl": "https://www.instagram.com/hummingwayharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hummingwayharmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_hummingwaythe9424",
@@ -1470,7 +1470,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "mandy730508_harmonica",
           "profileUrl": "https://www.instagram.com/mandy730508_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/mandy730508_harmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_mandy730508_harmonica",
@@ -1559,7 +1559,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "fcu_harmonica",
           "profileUrl": "https://www.instagram.com/fcu_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/fcu_harmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_fengchiaharmonicaclub7692",
@@ -1696,7 +1696,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "nationaltaichungtheater",
           "profileUrl": "https://www.instagram.com/nationaltaichungtheater/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nationaltaichungtheater/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_nationaltaichungtheater",
@@ -1899,7 +1899,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "easttopharmonicas",
           "profileUrl": "https://www.instagram.com/easttopharmonicas/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/easttopharmonicas/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_easttopmusic",
@@ -1985,7 +1985,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "deakharp",
           "profileUrl": "https://www.instagram.com/deakharp/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/deakharp/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_deakharp",
@@ -2073,7 +2073,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "marcoscollgonzalez",
           "profileUrl": "https://www.instagram.com/marcoscollgonzalez/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/marcoscollgonzalez/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_marcoscollharpandsoul",
@@ -2164,7 +2164,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "leeoskarharmonicas",
           "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/leeoskarharmonicas/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_leeoskarharmonicas",
@@ -2250,7 +2250,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "filipjersharmonica",
           "profileUrl": "https://www.instagram.com/filipjersharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/filipjersharmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_filipjersmusic",
@@ -2436,7 +2436,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "hoontobe_piano",
           "profileUrl": "https://www.instagram.com/hoontobe_piano/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hoontobe_piano/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_hoontobe",
@@ -2501,7 +2501,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "yf__life",
           "profileUrl": "https://www.instagram.com/yf__life/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yf__life/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_yf_life",
@@ -2644,7 +2644,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "cookiemonster_harmonica",
           "profileUrl": "https://www.instagram.com/cookiemonster_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/cookiemonster_harmonica/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -2704,7 +2704,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "l.p.ning.0404",
           "profileUrl": "https://www.instagram.com/l.p.ning.0404/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/l.p.ning.0404/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -2781,7 +2781,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "santi.alvarez.armonica",
           "profileUrl": "https://www.instagram.com/santi.alvarez.armonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/santi.alvarez.armonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_ucj06r7zxcqqfs26fy7n0jzw",
@@ -2853,7 +2853,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "jensbunge.jazzharmonica",
           "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jensbunge.jazzharmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_jensbunge",
@@ -2934,7 +2934,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "plashervouetband",
           "profileUrl": "https://www.instagram.com/plashervouetband/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/plashervouetband/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -3000,7 +3000,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "yellowpinemusicfestival",
           "profileUrl": "https://www.instagram.com/yellowpinemusicfestival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yellowpinemusicfestival/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_yellowpinemusicfestival",
@@ -3131,7 +3131,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "sharene.harmonica",
           "profileUrl": "https://www.instagram.com/sharene.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sharene.harmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_shareneharmonicamusic",
@@ -3203,7 +3203,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "whf_world_harmonica_festival",
           "profileUrl": "https://www.instagram.com/whf_world_harmonica_festival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/whf_world_harmonica_festival/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_whf_world_harmonica_festival",
@@ -3275,7 +3275,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "hk91f06",
           "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hk91f06/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_cbd128e3de",
@@ -3404,7 +3404,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "hsinchucounty_culture",
           "profileUrl": "https://www.instagram.com/hsinchucounty_culture/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hsinchucounty_culture/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_ucqrgye_3lymvt7ewhrzbtzg",
@@ -3490,7 +3490,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "howardlevyland",
           "profileUrl": "https://www.instagram.com/howardlevyland/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/howardlevyland/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_uc86aeg8s_npzmfuj_cyxw",
@@ -3575,7 +3575,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "gregoiremaret",
           "profileUrl": "https://www.instagram.com/gregoiremaret/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/gregoiremaret/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_gregoiremaret",
@@ -3666,7 +3666,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "judys.harmonica.ensemble",
           "profileUrl": "https://www.instagram.com/judys.harmonica.ensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/judys.harmonica.ensemble/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_judys_harmonica_ensemble",
@@ -3737,7 +3737,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "chgsh_harmonica",
           "profileUrl": "https://www.instagram.com/chgsh_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chgsh_harmonica/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -3813,7 +3813,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "official_spah63",
           "profileUrl": "https://www.instagram.com/official_spah63/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/official_spah63/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_ucbjlie6bvgh8jhvco_xltsg",
@@ -3894,7 +3894,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "rodrigoeberienos",
           "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/rodrigoeberienos/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_eberienos",
@@ -3980,7 +3980,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "fede.linari",
           "profileUrl": "https://www.instagram.com/fede.linari/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/fede.linari/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_federicolinari",
@@ -4070,7 +4070,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "rei_harmonica",
           "profileUrl": "https://www.instagram.com/rei_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/rei_harmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "x_rei_harmonica",
@@ -4155,7 +4155,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "kmu.m.f.harmonica",
           "profileUrl": "https://www.instagram.com/kmu.m.f.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/kmu.m.f.harmonica/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -4215,7 +4215,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "steffi.leung",
           "profileUrl": "https://www.instagram.com/steffi.leung/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/steffi.leung/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -4406,7 +4406,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "jdr_harmonica",
           "profileUrl": "https://www.instagram.com/jdr_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jdr_harmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_jdrharmonica",
@@ -4476,7 +4476,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "into_be_om",
           "profileUrl": "https://www.instagram.com/into_be_om/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/into_be_om/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -4533,7 +4533,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "suzukimusicglobal",
           "profileUrl": "https://www.instagram.com/suzukimusicglobal/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/suzukimusicglobal/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_suzukimusicglobal",
@@ -4626,7 +4626,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "peacetones.harmonica",
           "profileUrl": "https://www.instagram.com/peacetones.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/peacetones.harmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_peacetonesharmonica",
@@ -4695,7 +4695,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "gyeoli_94",
           "profileUrl": "https://www.instagram.com/gyeoli_94/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/gyeoli_94/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -4772,7 +4772,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "jongseongpark_harmonicist",
           "profileUrl": "https://www.instagram.com/jongseongpark_harmonicist/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jongseongpark_harmonicist/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_jongseongpark",
@@ -4858,7 +4858,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "antonioserranoarmonica",
           "profileUrl": "https://www.instagram.com/antonioserranoarmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/antonioserranoarmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_antonioserranoofficial",
@@ -4942,7 +4942,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "chindiary_harmonica",
           "profileUrl": "https://www.instagram.com/chindiary_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chindiary_harmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_chindiary_harmonica",
@@ -5036,7 +5036,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "kahkeanho",
           "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/kahkeanho/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_hokahkean1999",
@@ -5117,7 +5117,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "_leafin_harmonicaensemble",
           "profileUrl": "https://www.instagram.com/_leafin_harmonicaensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/_leafin_harmonicaensemble/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -5176,7 +5176,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "hth941116",
           "profileUrl": "https://www.instagram.com/hth941116/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hth941116/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -5227,7 +5227,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "theheadcutters",
           "profileUrl": "https://www.instagram.com/theheadcutters/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/theheadcutters/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_theheadcutters",
@@ -5313,7 +5313,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "konstantin_reinfeld",
           "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/konstantin_reinfeld/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_konstantinreinfeld",
@@ -5381,7 +5381,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "yenhua_wang",
           "profileUrl": "https://www.instagram.com/yenhua_wang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yenhua_wang/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_yenhua_wang",
@@ -5483,7 +5483,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "shggaitas",
           "profileUrl": "https://www.instagram.com/shggaitas/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/shggaitas/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -5558,7 +5558,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "minnie.o6i8",
           "profileUrl": "https://www.instagram.com/minnie.o6i8/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/minnie.o6i8/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_minnie_o6i8",
@@ -5629,7 +5629,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "r83350",
           "profileUrl": "https://www.instagram.com/r83350/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/r83350/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -5699,7 +5699,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "tcfsh_harmonica",
           "profileUrl": "https://www.instagram.com/tcfsh_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/tcfsh_harmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_19430dac8a",
@@ -5777,7 +5777,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "evelyn_harmonica",
           "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/evelyn_harmonica/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -5860,7 +5860,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "moridaira_mi",
           "profileUrl": "https://www.instagram.com/moridaira_mi/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/moridaira_mi/story/0"
+          "feedUrl": ""
         },
         {
           "id": "x_moridaira_mi",
@@ -5950,7 +5950,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "damingtsai",
           "profileUrl": "https://www.instagram.com/damingtsai/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/damingtsai/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -6024,7 +6024,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "malaysia_harmonica_festival",
           "profileUrl": "https://www.instagram.com/malaysia_harmonica_festival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/malaysia_harmonica_festival/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_malaysiaharmonicafestival5523",
@@ -6116,7 +6116,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "DuoVolce",
           "profileUrl": "https://www.instagram.com/DuoVolce/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/DuoVolce/story/0"
+          "feedUrl": ""
         },
         {
           "id": "x_duovolce",
@@ -6213,7 +6213,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "otistsao",
           "profileUrl": "https://www.instagram.com/otistsao/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/otistsao/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_otistsao",
@@ -6286,7 +6286,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "harmonica_johnny",
           "profileUrl": "https://www.instagram.com/harmonica_johnny/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_johnny/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -6332,7 +6332,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "weiyuliao1",
           "profileUrl": "https://www.instagram.com/weiyuliao1/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weiyuliao1/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_weiyuliao1",
@@ -6401,7 +6401,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "hohnerharmonica",
           "profileUrl": "https://www.instagram.com/hohnerharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerharmonica/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -6514,7 +6514,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "yoonseoklee_harmonica",
           "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yoonseoklee_harmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_yoonseoklee_harmonica",
@@ -6593,7 +6593,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "empa.oficial",
           "profileUrl": "https://www.instagram.com/empa.oficial/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/empa.oficial/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -6639,7 +6639,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "xdgaste",
           "profileUrl": "https://www.instagram.com/xdgaste/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/xdgaste/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_xdgaste",
@@ -6728,7 +6728,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "sorhei",
           "profileUrl": "https://www.instagram.com/sorhei/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sorhei/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_kelvinleungharmonica",
@@ -6821,7 +6821,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "jangli_harmonica",
           "profileUrl": "https://www.instagram.com/jangli_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/jangli_harmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_jangli_harmonica",
@@ -6908,7 +6908,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "ivanmarciogaita",
           "profileUrl": "https://www.instagram.com/ivanmarciogaita/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/ivanmarciogaita/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -6966,7 +6966,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "staydrunk_h.e",
           "profileUrl": "https://www.instagram.com/staydrunk_h.e/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/staydrunk_h.e/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_uct3ifdfoqpndqm8j5chesda",
@@ -7052,7 +7052,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "redbricksharmonica",
           "profileUrl": "https://www.instagram.com/redbricksharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/redbricksharmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_redbricksharmonica",
@@ -7142,7 +7142,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "judygigo",
           "profileUrl": "https://www.instagram.com/judygigo/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/judygigo/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_judygigo",
@@ -7204,7 +7204,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "taro_senga",
           "profileUrl": "https://www.instagram.com/taro_senga/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/taro_senga/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_taro_senga",
@@ -7275,7 +7275,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "__yich___",
           "profileUrl": "https://www.instagram.com/__yich___/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/__yich___/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_yich",
@@ -7379,7 +7379,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "rolabo_lin",
           "profileUrl": "https://www.instagram.com/rolabo_lin/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/rolabo_lin/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_ucq7wiztevpndeaaj6rdxzea",
@@ -7465,7 +7465,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "hkcchoir",
           "profileUrl": "https://www.instagram.com/hkcchoir/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hkcchoir/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_hkcchoir",
@@ -7555,7 +7555,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "punch.harp",
           "profileUrl": "https://www.instagram.com/punch.harp/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/punch.harp/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_punch_harp",
@@ -7647,7 +7647,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "mr.why.why",
           "profileUrl": "https://www.instagram.com/mr.why.why/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/mr.why.why/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_mrwhyofficialchannel",
@@ -7728,7 +7728,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "baba_harmonica_studio",
           "profileUrl": "https://www.instagram.com/baba_harmonica_studio/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/baba_harmonica_studio/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_yoyo708520",
@@ -7806,7 +7806,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "yotambo1",
           "profileUrl": "https://www.instagram.com/yotambo1/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yotambo1/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_yotambo1",
@@ -7901,7 +7901,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "aidennevelyn",
           "profileUrl": "https://www.instagram.com/aidennevelyn/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/aidennevelyn/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_aidennevelyn",
@@ -7966,7 +7966,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "aidensoon",
           "profileUrl": "https://www.instagram.com/aidensoon/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -8048,7 +8048,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "siriusharmonicaensemble",
           "profileUrl": "https://www.instagram.com/siriusharmonicaensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/siriusharmonicaensemble/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_siriusharmonicaensemble",
@@ -8138,7 +8138,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "taiwanharmonica",
           "profileUrl": "https://www.instagram.com/taiwanharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/taiwanharmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_taiwanharmonica",
@@ -8235,7 +8235,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "csmu_bluemelody",
           "profileUrl": "https://www.instagram.com/csmu_bluemelody/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/csmu_bluemelody/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_csmu_bluemelody",
@@ -8322,7 +8322,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "weissenbergtw",
           "profileUrl": "https://www.instagram.com/weissenbergtw/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/weissenbergtw/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_weissenbergtw",
@@ -8469,7 +8469,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "chongtingho",
           "profileUrl": "https://www.instagram.com/chongtingho/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chongtingho/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_ucnjs1xofigjuczktyz7dolw",
@@ -8545,7 +8545,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "has_singapore",
           "profileUrl": "https://www.instagram.com/has_singapore/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/has_singapore/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -8621,7 +8621,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "perfect.fourth",
           "profileUrl": "https://www.instagram.com/perfect.fourth/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/perfect.fourth/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_perfectfourth",
@@ -8706,7 +8706,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "indiarasfair",
           "profileUrl": "https://www.instagram.com/indiarasfair/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/indiarasfair/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_indiarasfair",
@@ -8823,7 +8823,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "tcfsh_harmonica_alumni",
           "profileUrl": "https://www.instagram.com/tcfsh_harmonica_alumni/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/tcfsh_harmonica_alumni/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_tcfsh_harmonica_alumni",
@@ -8903,7 +8903,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "reyharpnaufal",
           "profileUrl": "https://www.instagram.com/reyharpnaufal/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/reyharpnaufal/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_reyharpnaufal5101",
@@ -9132,7 +9132,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "boris_plotnikov",
           "profileUrl": "https://www.instagram.com/boris_plotnikov/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/boris_plotnikov/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_etaborya",
@@ -9197,7 +9197,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "sabrinachen820",
           "profileUrl": "https://www.instagram.com/sabrinachen820/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sabrinachen820/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -9275,7 +9275,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "ntch.taipei",
           "profileUrl": "https://www.instagram.com/ntch.taipei/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/ntch.taipei/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_ntch_taipei",
@@ -9458,7 +9458,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "_yora._",
           "profileUrl": "https://www.instagram.com/_yora._/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/_yora._/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_yora",
@@ -9545,7 +9545,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "aurora._.harmonica",
           "profileUrl": "https://www.instagram.com/aurora._.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/aurora._.harmonica/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -9617,7 +9617,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "fanhsiaoyi",
           "profileUrl": "https://www.instagram.com/fanhsiaoyi/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/fanhsiaoyi/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_fanhsiaoyi",
@@ -9702,7 +9702,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "chaotengchang",
           "profileUrl": "https://www.instagram.com/chaotengchang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chaotengchang/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_chaotengchang",
@@ -9788,7 +9788,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "elcaminito_official",
           "profileUrl": "https://www.instagram.com/elcaminito_official/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/elcaminito_official/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_ucahrtb0aiwnv_9wcseb8ekg",
@@ -9874,7 +9874,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "musette585",
           "profileUrl": "https://www.instagram.com/musette585/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/musette585/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_musette585",
@@ -9941,7 +9941,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "attack_on_harmonica_ensemble",
           "profileUrl": "https://www.instagram.com/attack_on_harmonica_ensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/attack_on_harmonica_ensemble/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_attack_on_harmonica_ensemble",
@@ -9999,7 +9999,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "yhhbfamily",
           "profileUrl": "https://www.instagram.com/yhhbfamily/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yhhbfamily/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_yhhbfamily",
@@ -10080,7 +10080,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "sigmundgroven",
           "profileUrl": "https://www.instagram.com/sigmundgroven/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sigmundgroven/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -10157,7 +10157,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "nusharmonica",
           "profileUrl": "https://www.instagram.com/nusharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nusharmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_nusho",
@@ -10231,7 +10231,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "ckhc_64th",
           "profileUrl": "https://www.instagram.com/ckhc_64th/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/ckhc_64th/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_ckhc_64th",
@@ -10329,7 +10329,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "escueladearmonicaba",
           "profileUrl": "https://www.instagram.com/escueladearmonicaba/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/escueladearmonicaba/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_ucln6hrzz1nhq8tx5zsqzgjq",
@@ -10412,7 +10412,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "hksmsa_official",
           "profileUrl": "https://www.instagram.com/hksmsa_official/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hksmsa_official/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -10474,7 +10474,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "yenmingchen",
           "profileUrl": "https://www.instagram.com/yenmingchen/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yenmingchen/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_yenmingchen",
@@ -10553,7 +10553,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "toshimiller",
           "profileUrl": "https://www.instagram.com/toshimiller/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/toshimiller/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_toshimiller",
@@ -10647,7 +10647,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "gordonleeharmonica",
           "profileUrl": "https://www.instagram.com/gordonleeharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/gordonleeharmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_harmonicagor",
@@ -10808,7 +10808,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "usd_harmonica",
           "profileUrl": "https://www.instagram.com/usd_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/usd_harmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_usd_harmonica",
@@ -10946,7 +10946,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "frescoharmonica",
           "profileUrl": "https://www.instagram.com/frescoharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/frescoharmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_frescoharmonica",
@@ -11032,7 +11032,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "liamwardmusic",
           "profileUrl": "https://www.instagram.com/liamwardmusic/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/liamwardmusic/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_learntheharmonica",
@@ -11095,7 +11095,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "adventure_harmonica",
           "profileUrl": "https://www.instagram.com/adventure_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/adventure_harmonica/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -11170,7 +11170,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "nycu_harmonica",
           "profileUrl": "https://www.instagram.com/nycu_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nycu_harmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_ucliodayl9_jvnbpc4nfthgw",
@@ -11236,7 +11236,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "donotdisturbharmonicaensemble",
           "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/donotdisturbharmonicaensemble/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -11314,7 +11314,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "harmonica_fen_festival",
           "profileUrl": "https://www.instagram.com/harmonica_fen_festival/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_fen_festival/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_uctti8xh0v4dgrgp7hz68bww",
@@ -11398,7 +11398,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "hkharmonica",
           "profileUrl": "https://www.instagram.com/hkharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hkharmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_hkharmonica",
@@ -11464,7 +11464,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "408.harmonica",
           "profileUrl": "https://www.instagram.com/408.harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/408.harmonica/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -11593,7 +11593,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "dr.blue_harmonica",
           "profileUrl": "https://www.instagram.com/dr.blue_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/dr.blue_harmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_ucvhln_2awpljqbfo_9apatw",
@@ -11673,7 +11673,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "sgyouthfest",
           "profileUrl": "https://www.instagram.com/sgyouthfest/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sgyouthfest/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -11751,7 +11751,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "nycu_artscenter",
           "profileUrl": "https://www.instagram.com/nycu_artscenter/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nycu_artscenter/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_nycu_artscenter",
@@ -11847,7 +11847,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "springharpfest",
           "profileUrl": "https://www.instagram.com/springharpfest/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/springharpfest/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_springharpfest",
@@ -11937,7 +11937,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "inixial.muse",
           "profileUrl": "https://www.instagram.com/inixial.muse/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/inixial.muse/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_inixial_muse",
@@ -12030,7 +12030,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "hohnerklang",
           "profileUrl": "https://www.instagram.com/hohnerklang/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerklang/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_hohnerklang",
@@ -12162,7 +12162,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "hnhk_harmonica_orchestra",
           "profileUrl": "https://www.instagram.com/hnhk_harmonica_orchestra/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hnhk_harmonica_orchestra/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_hnhkharmonica5296",
@@ -12226,7 +12226,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "fourtissimo_harmonica_ensemble",
           "profileUrl": "https://www.instagram.com/fourtissimo_harmonica_ensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/fourtissimo_harmonica_ensemble/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -12304,7 +12304,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "kif768",
           "profileUrl": "https://www.instagram.com/kif768/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/kif768/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_kif768",
@@ -12388,7 +12388,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "hohnerkonservatorium",
           "profileUrl": "https://www.instagram.com/hohnerkonservatorium/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hohnerkonservatorium/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_hohnerkonservatorium",
@@ -12518,7 +12518,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "clhs_harmonicaband",
           "profileUrl": "https://www.instagram.com/clhs_harmonicaband/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/clhs_harmonicaband/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -12827,7 +12827,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "dmingstudio",
           "profileUrl": "https://www.instagram.com/dmingstudio/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/dmingstudio/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_dmingstudio",
@@ -13081,7 +13081,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "ntnu_harmonica_club",
           "profileUrl": "https://www.instagram.com/ntnu_harmonica_club/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/ntnu_harmonica_club/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -13162,7 +13162,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "ntubluesound",
           "profileUrl": "https://www.instagram.com/ntubluesound/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/ntubluesound/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_ntubluesound",
@@ -13228,7 +13228,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "wasehamo_waseda",
           "profileUrl": "https://www.instagram.com/wasehamo_waseda/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/wasehamo_waseda/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_wasehamo_waseda",
@@ -13331,7 +13331,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "111quintet",
           "profileUrl": "https://www.instagram.com/111quintet/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/111quintet/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_ucycpsbkpva9oaaaqcrjcvza",
@@ -13411,7 +13411,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "yellowstone_music_shop",
           "profileUrl": "https://www.instagram.com/yellowstone_music_shop/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/yellowstone_music_shop/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_yellowstone_music_shop",
@@ -13514,7 +13514,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "meiji_hamoso",
           "profileUrl": "https://www.instagram.com/meiji_hamoso/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/meiji_hamoso/story/0"
+          "feedUrl": ""
         },
         {
           "id": "x_meiji_hamoso",
@@ -13593,7 +13593,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "sodifficult_harmonica",
           "profileUrl": "https://www.instagram.com/sodifficult_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/sodifficult_harmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_db1616fd7c",
@@ -13668,7 +13668,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "kshs_harmonica",
           "profileUrl": "https://www.instagram.com/kshs_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/kshs_harmonica/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -13746,7 +13746,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "cozy_harmonica_60th",
           "profileUrl": "https://www.instagram.com/cozy_harmonica_60th/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/cozy_harmonica_60th/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_cozy_harmonica_60th",
@@ -13839,7 +13839,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "nthu_harmonica_club",
           "profileUrl": "https://www.instagram.com/nthu_harmonica_club/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nthu_harmonica_club/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_uc9jltwvjkmzna3p_mbtiinq",
@@ -13923,7 +13923,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "harmonica_ncue",
           "profileUrl": "https://www.instagram.com/harmonica_ncue/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_ncue/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_ucw8tcnjxpgx1sf8csufkf1w",
@@ -14015,7 +14015,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "laelapsharmonica",
           "profileUrl": "https://www.instagram.com/laelapsharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/laelapsharmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_laelapsharmonica",
@@ -14091,7 +14091,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "npust.hmc",
           "profileUrl": "https://www.instagram.com/npust.hmc/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/npust.hmc/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -14205,7 +14205,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "theduet.music",
           "profileUrl": "https://www.instagram.com/theduet.music/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/theduet.music/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_theduet_music",
@@ -14298,7 +14298,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "nutc_harmonica",
           "profileUrl": "https://www.instagram.com/nutc_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nutc_harmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_nutc_harmonica",
@@ -14377,7 +14377,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "tnfsh_harmonica.club",
           "profileUrl": "https://www.instagram.com/tnfsh_harmonica.club/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/tnfsh_harmonica.club/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -14441,7 +14441,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "chen._.166",
           "profileUrl": "https://www.instagram.com/chen._.166/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chen._.166/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_uc6xjefsojniejsni3vz_wsa",
@@ -14525,7 +14525,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "ncku_harmonicaclub",
           "profileUrl": "https://www.instagram.com/ncku_harmonicaclub/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/ncku_harmonicaclub/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_8fac81430c",
@@ -14659,7 +14659,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "mcuhc",
           "profileUrl": "https://www.instagram.com/mcuhc/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/mcuhc/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_ucxcrjsu6ecmndpd5d4di4aq",
@@ -14739,7 +14739,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "nkustharmonica",
           "profileUrl": "https://www.instagram.com/nkustharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/nkustharmonica/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -15255,7 +15255,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "harmonicauk_",
           "profileUrl": "https://www.instagram.com/harmonicauk_/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonicauk_/story/0"
+          "feedUrl": ""
         },
         {
           "id": "x_harmonicauk",
@@ -15645,7 +15645,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "cubeharmonicaensemble",
           "profileUrl": "https://www.instagram.com/cubeharmonicaensemble/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/cubeharmonicaensemble/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -15716,7 +15716,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "donuts_harmonica",
           "profileUrl": "https://www.instagram.com/donuts_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/donuts_harmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_harpdonuts",
@@ -16152,7 +16152,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "neonlight_harmonica",
           "profileUrl": "https://www.instagram.com/neonlight_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/neonlight_harmonica/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -16634,7 +16634,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "velozharmonica",
           "profileUrl": "https://www.instagram.com/velozharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/velozharmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_velozharmonica",
@@ -16920,7 +16920,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "orquestraharmonicas",
           "profileUrl": "https://www.instagram.com/orquestraharmonicas/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/orquestraharmonicas/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -17063,7 +17063,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "the_souther__harmonica",
           "profileUrl": "https://www.instagram.com/the_souther__harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/the_souther__harmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_the_souther_harmonica",
@@ -17243,7 +17243,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "no_idea_harmonica1024",
           "profileUrl": "https://www.instagram.com/no_idea_harmonica1024/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/no_idea_harmonica1024/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -17290,7 +17290,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "triple.f_harmonica",
           "profileUrl": "https://www.instagram.com/triple.f_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/triple.f_harmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "ig_triple_f_harmonica",
@@ -17614,7 +17614,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "chuo_hamoso",
           "profileUrl": "https://www.instagram.com/chuo_hamoso/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chuo_hamoso/story/0"
+          "feedUrl": ""
         },
         {
           "id": "x_chuo_hamoso",
@@ -17753,7 +17753,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "ntuhb",
           "profileUrl": "https://www.instagram.com/ntuhb/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/ntuhb/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -17868,7 +17868,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "pcghs_harmonicaband",
           "profileUrl": "https://www.instagram.com/pcghs_harmonicaband/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/pcghs_harmonicaband/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -17979,7 +17979,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "rikkyo_harmonica",
           "profileUrl": "https://www.instagram.com/rikkyo_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/rikkyo_harmonica/story/0"
+          "feedUrl": ""
         },
         {
           "id": "x_rikkyo_rhs",
@@ -18172,7 +18172,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "kg_hamoso",
           "profileUrl": "https://www.instagram.com/kg_hamoso/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/kg_hamoso/story/0"
+          "feedUrl": ""
         },
         {
           "id": "x_kg_hamoso",
@@ -18307,7 +18307,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "kadaihamo",
           "profileUrl": "https://www.instagram.com/kadaihamo/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/kadaihamo/story/0"
+          "feedUrl": ""
         },
         {
           "id": "x_kadaihamoban",
@@ -18531,7 +18531,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "harmonica_addict",
           "profileUrl": "https://www.instagram.com/harmonica_addict/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonica_addict/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -18711,7 +18711,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "pocketharmonic",
           "profileUrl": "https://www.instagram.com/pocketharmonic/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/pocketharmonic/story/0"
+          "feedUrl": ""
         },
         {
           "id": "threads_pocketharmonic",
@@ -18804,7 +18804,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "music4fun.com.tw",
           "profileUrl": "https://www.instagram.com/music4fun.com.tw/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/music4fun.com.tw/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_ucj6k37vazqzrldrbrffdfjw",
@@ -18881,7 +18881,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "anafternoonwithharmonica",
           "profileUrl": "https://www.instagram.com/anafternoonwithharmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/anafternoonwithharmonica/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -19405,7 +19405,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "harmonicasbrasil",
           "profileUrl": "https://www.instagram.com/harmonicasbrasil/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/harmonicasbrasil/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_forumharmonicas",
@@ -19789,7 +19789,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "hankshreve",
           "profileUrl": "https://www.instagram.com/hankshreve/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/hankshreve/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -20395,7 +20395,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "pei_____shih",
           "profileUrl": "https://www.instagram.com/pei_____shih/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/pei_____shih/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -20452,7 +20452,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "chinwahlee",
           "profileUrl": "https://www.instagram.com/chinwahlee/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/chinwahlee/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -20753,7 +20753,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "koei.tanaka",
           "profileUrl": "https://www.instagram.com/koei.tanaka/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/koei.tanaka/story/0"
+          "feedUrl": ""
         },
         {
           "id": "yt_koeitanakaharmonica",
@@ -20960,7 +20960,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "mushitsai",
           "profileUrl": "https://www.instagram.com/mushitsai/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/mushitsai/story/0"
+          "feedUrl": ""
         }
       ]
     },
@@ -21129,7 +21129,7 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "long.deng.jie",
           "profileUrl": "https://www.instagram.com/long.deng.jie/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/long.deng.jie/story/0"
+          "feedUrl": ""
         }
       ]
     },
