@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T04:16:38.470492Z",
+  "generatedAt": "2026-08-29T04:55:33.230820Z",
   "source": {
     "id": 263,
     "slug": "jdr-harmonica",
@@ -104,20 +104,6 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/87863d2b8592b4dc14fe.webp",
         "width": 640,
         "height": 360
-      }
-    },
-    {
-      "id": "post-fbf02b7e7fcc94a8e0cc688f",
-      "title": "Check out this Quartz chromatic harmonica by @jdr_harmonica",
-      "excerpt": "Check out this Quartz chromatic harmonica by @jdr_harmonica #harmonica #busking #fyp #viralreels",
-      "url": "https://www.instagram.com/p/DbZ3SxVvLbA/",
-      "sourceName": "JDR Harmonica",
-      "platform": "Instagram",
-      "publishedAt": "2026-07-30T04:52:06Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/2237550f607e4e6715e3.webp",
-        "width": 640,
-        "height": 1136
       }
     }
   ]
