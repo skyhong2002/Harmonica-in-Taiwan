@@ -1,14 +1,14 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-08-30T03:20:55+08:00",
+  "generatedAt": "2026-08-30T03:31:26+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 6,
+  "count": 7,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
   "criteria": "實際舉辦地點在臺灣的公開口琴實體活動。",
-  "manualOverrides": 8,
+  "manualOverrides": 9,
   "llm": {
     "enabled": true,
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
@@ -21,6 +21,8 @@ window.publicCalendarEvents = {
   },
   "events": [
     {
+      "sourceName": "",
+      "platform": "instagram",
       "eventName": "口琴入門推廣講座",
       "title": "口琴入門推廣講座",
       "start": "2026-07-11T14:00:00+08:00",
@@ -49,7 +51,6 @@ window.publicCalendarEvents = {
       },
       "id": "20beaf6b38cf0959",
       "source": "",
-      "platform": "instagram",
       "postedAt": "Tue, 30 Jun 2026 13:46:53 GMT",
       "images": [
         "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730162995_17946703308238733_9139303577951476001_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzkzMDk2MTM3OTYzMjkxODM2Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTEyMS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Jq1wg-U1i6EQ7kNvwHtDlWq&_nc_oc=AdrltfY7jnEgRI54pbRtYitmyv-sjViKJmCDxSrs3e9YyUBtxXILflCl6-Z-q_TT6PA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=UQV65nItVUaWtBzrCa45Tw&_nc_ss=7a22e&oh=00_AQCM3ggFb82c-oBFPDWzzVMPE1K0Pish5P7xqEB3Ql0csA&oe=6A4A0EA9"
@@ -57,6 +58,8 @@ window.publicCalendarEvents = {
       "image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/730162995_17946703308238733_9139303577951476001_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=MzkzMDk2MTM3OTYzMjkxODM2Mw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTEyMS5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=Jq1wg-U1i6EQ7kNvwHtDlWq&_nc_oc=AdrltfY7jnEgRI54pbRtYitmyv-sjViKJmCDxSrs3e9YyUBtxXILflCl6-Z-q_TT6PA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=UQV65nItVUaWtBzrCa45Tw&_nc_ss=7a22e&oh=00_AQCM3ggFb82c-oBFPDWzzVMPE1K0Pish5P7xqEB3Ql0csA&oe=6A4A0EA9"
     },
     {
+      "sourceName": "",
+      "platform": "youtube",
       "eventName": "臺灣探戈樂團創團音樂會",
       "title": "臺灣探戈樂團創團音樂會",
       "start": "2026-07-18T19:30:00+08:00",
@@ -85,7 +88,6 @@ window.publicCalendarEvents = {
       },
       "id": "88fb7911620b72be",
       "source": "",
-      "platform": "youtube",
       "postedAt": "2026-06-26T10:30:06+00:00",
       "images": [
         "https://i.ytimg.com/vi/PA11sSFkJeA/maxresdefault.jpg"
@@ -93,6 +95,8 @@ window.publicCalendarEvents = {
       "image_url": "https://i.ytimg.com/vi/PA11sSFkJeA/maxresdefault.jpg"
     },
     {
+      "sourceName": "",
+      "platform": "facebook",
       "eventName": "臺中一中口琴之狼校友音樂會《天琴聲等煙雨》",
       "title": "臺中一中口琴之狼校友音樂會《天琴聲等煙雨》",
       "start": "2026-08-21T18:30:00+08:00",
@@ -121,7 +125,6 @@ window.publicCalendarEvents = {
       },
       "id": "6670d32764968444",
       "source": "",
-      "platform": "facebook",
       "postedAt": "2026-07-03T09:52:52.000Z",
       "images": [
         "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-6/736921370_1546041260866287_3590465714306944280_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x500&ctp=s1200x500&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Snb5y5-ibAwQ7kNvwFpj7pO&_nc_oc=AdonLbu3ItPejPFxit3hf_Y3N2YaDYUcvRU3h74D4v0ryLmRV_GMt9PLGF4j3UIowkg&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=GyYaZsWIBdifSFV3V4iExw&_nc_ss=72289&oh=00_AQD9YvoYz2mvfVWCZjYlmjkTowhPfKdnRznmfoho_DVtpA&oe=6A4DA8CB"
@@ -235,6 +238,41 @@ window.publicCalendarEvents = {
         "https://scontent-det1-1.xx.fbcdn.net/v/t39.30808-6/780471380_1617871143683827_8399336899933963612_n.jpg?stp=dst-jpg_tt6&cstp=mx1190x1684&ctp=s720x720&_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=eA--LoJw2mUQ7kNvwFRD6K3&_nc_oc=Adr9jLbUCl4JhZGF1oiWBUrEP6eiy7-Yl9hn6cTU-6frFf91SLL3O3QimcCIAGJKXM8&_nc_zt=23&_nc_ht=scontent-det1-1.xx&_nc_gid=lZjRh1gltTWgJk0lNU2XNg&_nc_ss=72289&oh=00_AQGEuOkhhv8Ur0q0KF1FagP_UoaeGz4dfJRexsst4QBzgQ&oe=6A8ECEE6"
       ],
       "image_url": "/assets/feed-images/aed5e16a4eebcf47f6dd.webp"
+    },
+    {
+      "sourceName": "衛武營國家藝術文化中心",
+      "platform": "website",
+      "eventName": "【衛武營小時光】茱蒂口琴樂團《跟著口琴去旅行》",
+      "title": "【衛武營小時光】茱蒂口琴樂團《跟著口琴去旅行》",
+      "start": "2026-12-09T20:00:00+08:00",
+      "end": "2026-12-09T21:00:00+08:00",
+      "allDay": false,
+      "venue": "衛武營國家藝術文化中心表演廳（高雄市鳳山區三多一路1號）",
+      "city": "高雄市",
+      "location": "衛武營國家藝術文化中心表演廳（高雄市鳳山區三多一路1號）",
+      "details": "主辦／演出者：茱蒂口琴樂團；票價 NTD 300、600；全長約 60 分鐘、無中場休息、建議 7 歲以上觀眾觀賞；OPENTIX：https://www.opentix.life/event/2043960193015562241",
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "evidenceUrl": "https://www.npac-weiwuying.org/programs/69afb5dff1151f0007a5cdfa",
+      "confidence": 1.0,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "【衛武營小時光】茱蒂口琴樂團《跟著口琴去旅行》",
+        "venue": "衛武營國家藝術文化中心表演廳（高雄市鳳山區三多一路1號）",
+        "city": "高雄市",
+        "details": "主辦／演出者：茱蒂口琴樂團；票價 NTD 300、600；全長約 60 分鐘、無中場休息、建議 7 歲以上觀眾觀賞；OPENTIX：https://www.opentix.life/event/2043960193015562241",
+        "reason": "manual override from public calendar overrides CSV",
+        "confidence": 1.0
+      },
+      "id": "98cb2a4f086a3092",
+      "source": "衛武營國家藝術文化中心",
+      "postedAt": "",
+      "images": [],
+      "image_url": ""
     }
   ],
   "submittedEvents": 0

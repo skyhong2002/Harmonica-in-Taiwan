@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-30T03:20:55+08:00",
+  "generatedAt": "2026-08-30T03:31:26+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
   "count": 14,
@@ -8,7 +8,7 @@
   "ics": "/feeds/overseas-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
   "criteria": "實際舉辦地點在臺灣以外的公開口琴實體活動。",
-  "manualOverrides": 8,
+  "manualOverrides": 9,
   "llm": {
     "enabled": true,
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
@@ -21,6 +21,8 @@
   },
   "events": [
     {
+      "sourceName": "",
+      "platform": "x",
       "eventName": "RJ&BME’s マンスリーライブ「公開リハーサル」",
       "title": "RJ&BME’s マンスリーライブ「公開リハーサル」",
       "start": "2026-08-18T20:00:00+09:00",
@@ -49,7 +51,6 @@
       },
       "id": "e615c6f1043467b0",
       "source": "",
-      "platform": "x",
       "postedAt": "Fri, 31 Jul 2026 02:00:24 GMT",
       "images": [
         "https://pbs.twimg.com/media/HOhWKyJaUAADtyn?format=jpg&name=orig"
@@ -170,6 +171,8 @@
       "image_url": "/assets/feed-images/db618b1115850b3d1013.webp"
     },
     {
+      "sourceName": "",
+      "platform": "facebook",
       "eventName": "The Power of Melody",
       "title": "The Power of Melody",
       "start": "2026-09-06",
@@ -198,7 +201,6 @@
       },
       "id": "9466c9e667f685f8",
       "source": "Harmonica FEN 口琴節與學院",
-      "platform": "facebook",
       "postedAt": "2026-08-03 01:14",
       "images": [
         "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/761537186_1336345015152232_5011021378219974750_n.jpg?stp=dst-jpg_tt6&cstp=mx600x850&ctp=s720x720&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=UGd94MZ-of8Q7kNvwEqEayO&_nc_oc=AdoLrrq5-5SNW9nLM3DzyeDptGLB2JWCmrX5ahY2NsvGwbVkNQIkrB8lnezM_rls4AE&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=ih2HAYUw7AzusQ9UIL88sw&_nc_ss=72289&oh=00_AQEv50Qm_dji2JDD2OfFR1ZjXS51sRDZC9D7yxLnJa9hHA&oe=6A76095A"
@@ -242,6 +244,8 @@
       "image_url": "/assets/feed-images/146fd5b4c900cef01252.webp"
     },
     {
+      "sourceName": "",
+      "platform": "x",
       "eventName": "南里沙 ティータイムコンサート",
       "title": "南里沙 ティータイムコンサート",
       "start": "2026-09-06T13:30:00+09:00",
@@ -270,7 +274,6 @@
       },
       "id": "009dec21c34c66e4",
       "source": "",
-      "platform": "x",
       "postedAt": "Thu, 30 Jul 2026 13:01:44 GMT",
       "images": [
         "https://pbs.twimg.com/media/HOekMrFbsAAcm03?format=jpg&name=orig"

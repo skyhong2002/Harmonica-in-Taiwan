@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-30T03:20:55+08:00",
+  "generatedAt": "2026-08-30T03:31:26+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "online",
   "count": 1,
@@ -8,7 +8,7 @@
   "ics": "/feeds/online-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
   "criteria": "國內外有明確日期、時間與直播或線上參與方式的公開口琴活動。",
-  "manualOverrides": 8,
+  "manualOverrides": 9,
   "llm": {
     "enabled": true,
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
@@ -21,6 +21,8 @@
   },
   "events": [
     {
+      "sourceName": "",
+      "platform": "x",
       "eventName": "南里沙のココだけの話｜伝えたい日本の名曲特集",
       "title": "南里沙のココだけの話｜伝えたい日本の名曲特集",
       "start": "2026-08-02T22:00:00+09:00",
@@ -49,7 +51,6 @@
       },
       "id": "c6e46eaa80bfde1d",
       "source": "",
-      "platform": "x",
       "postedAt": "Sun, 02 Aug 2026 12:08:52 GMT",
       "images": [],
       "image_url": ""
