@@ -2,6 +2,92 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-29",
   "entries": [
     {
+      "id": "watchlist-104",
+      "publicId": "104",
+      "name": "Timothy Yip 葉進禧",
+      "nameEn": "Timothy Yip",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/國際比賽/演出/RedBricks",
+      "structuredSummary": "半音階/國際比賽/演出/RedBricks / 半音階 / 國際演出人員",
+      "summary": "香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。",
+      "keywords": "Timothy Yip 葉進禧 harmonica chromatic harmonicist RedBricks",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.timothyyipharmonica.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/profile.php?id=100085232439912"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/timothyyip_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "104-timothy-yip",
+      "latestUpdateAt": "2026-08-29T11:10:12+00:00",
+      "latestUpdateLocal": "2026-08-29 19:10",
+      "latestUpdateSource": "Timothy Yip 葉進禧",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=BMmoC4Kbkzo",
+      "avatarUrl": "/assets/source-avatars/e729eb105459fb069c45.webp",
+      "sourceInitials": "TY",
+      "sourceTags": [
+        "演奏者",
+        "比賽",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_c74bf61a25",
+          "name": "Timothy Yip 葉進禧",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/profile.php?id=100085232439912",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_timothyyip_harmonica",
+          "name": "Timothy Yip 葉進禧",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "timothyyip_harmonica",
+          "profileUrl": "https://www.instagram.com/timothyyip_harmonica/",
+          "feedUrl": "https://rss.observe.tw/picuki/profile/timothyyip_harmonica/story/0"
+        },
+        {
+          "id": "ig_timothyyip_harmonica",
+          "name": "Timothy Yip 葉進禧",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "timothyyip_harmonica",
+          "profileUrl": "https://www.instagram.com/timothyyip_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucvoafkvaebakb5zgfvf7nww",
+          "name": "Timothy Yip 葉進禧",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-54",
       "publicId": "54",
       "name": "CY Leo 何卓彥",
@@ -966,6 +1052,72 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@minamirisa",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-116",
+      "publicId": "116",
+      "name": "Trio Animato",
+      "nameEn": "Trio Animato",
+      "category": "活動資訊",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "波蘭",
+      "region": "波蘭/什切青",
+      "cityOrFocus": "波蘭口琴三重奏/室內樂/國際音樂節/SIHF 2025",
+      "structuredSummary": "波蘭口琴三重奏/室內樂/國際音樂節/SIHF 2025 / 半音階/和弦/低音 / 國際演出團體",
+      "summary": "波蘭的國際演出團體，涵蓋波蘭口琴三重奏、室內樂、國際音樂節與SIHF 2025。",
+      "keywords": "Trio Animato Szczecin Poland harmonica trio SIHF 2025 chromatic chord bass",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://animato.info.pl/en/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/animato1978"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/user/animato1978"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "116-trio-animato",
+      "latestUpdateAt": "2026-08-28T14:11:51+00:00",
+      "latestUpdateLocal": "2026-08-28 22:11",
+      "latestUpdateSource": "Trio Animato",
+      "latestUpdateUrl": "https://www.facebook.com/animato1978/posts/pfbid038DLSKaFGnznSTRoQzxie5hMs9wNqBLhJPBKWvqkuGVpiTvsjbVT16UiL2mCniGCnl",
+      "avatarUrl": "/assets/source-avatars/c7a7842de365e0d36cc2.webp",
+      "sourceInitials": "TA",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "音樂節",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_animato1978",
+          "name": "Trio Animato",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/animato1978",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_animato1978",
+          "name": "Trio Animato",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/user/animato1978",
           "feedUrl": ""
         }
       ]
@@ -6254,6 +6406,51 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-91",
+      "publicId": "91",
+      "name": "臺北黃石口琴樂團",
+      "nameEn": "Taipei Yellowstone Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "成立逾34年/年度公演/偏鄉與弱勢公益推廣/盧鴻麟指導",
+      "structuredSummary": "成立逾34年/年度公演/偏鄉與弱勢公益推廣/盧鴻麟指導 / 口琴重奏/口琴合奏 / 演出團體/公益與地方推廣",
+      "summary": "臺灣的口琴重奏與口琴合奏演出團體與公益與地方推廣，活動脈絡包含成立逾34年、年度公演與偏鄉與弱勢公益推廣。",
+      "keywords": "臺北黃石口琴樂團 Taipei Yellowstone Harmonica Ensemble 盧鴻麟 年度公演 公益 偏鄉",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "91-taipei-yellowstone-harmonica-ensemble",
+      "latestUpdateAt": "2026-08-23T23:46:38+00:00",
+      "latestUpdateLocal": "2026-08-24 07:46",
+      "latestUpdateSource": "臺北黃石口琴樂團",
+      "latestUpdateUrl": "https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/posts/pfbid02DhMeWxw9du4Cf23yGm2wCo4vAdXVVBdegkhceoHkyeKzonDxuAR7PwqLcQjQQ7uUl",
+      "avatarUrl": "/assets/source-avatars/taipei-yellowstone.jpg",
+      "sourceInitials": "臺北",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_taipeiyellowstoneharmonicaensemble",
+          "name": "臺北黃石口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/TaipeiYellowstoneHarmonicaEnsemble",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-147",
       "publicId": "147",
       "name": "Yoonseok Lee",
@@ -6778,72 +6975,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCt3IFDFOQpndqM8j5CheSDA",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-116",
-      "publicId": "116",
-      "name": "Trio Animato",
-      "nameEn": "Trio Animato",
-      "category": "活動資訊",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "波蘭",
-      "region": "波蘭/什切青",
-      "cityOrFocus": "波蘭口琴三重奏/室內樂/國際音樂節/SIHF 2025",
-      "structuredSummary": "波蘭口琴三重奏/室內樂/國際音樂節/SIHF 2025 / 半音階/和弦/低音 / 國際演出團體",
-      "summary": "波蘭的國際演出團體，涵蓋波蘭口琴三重奏、室內樂、國際音樂節與SIHF 2025。",
-      "keywords": "Trio Animato Szczecin Poland harmonica trio SIHF 2025 chromatic chord bass",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://animato.info.pl/en/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/animato1978"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/user/animato1978"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "116-trio-animato",
-      "latestUpdateAt": "2026-08-23T12:35:45+00:00",
-      "latestUpdateLocal": "2026-08-23 20:35",
-      "latestUpdateSource": "Trio Animato",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=_73h6A7_BfY",
-      "avatarUrl": "/assets/source-avatars/c7a7842de365e0d36cc2.webp",
-      "sourceInitials": "TA",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "音樂節",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_animato1978",
-          "name": "Trio Animato",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/animato1978",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_animato1978",
-          "name": "Trio Animato",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/user/animato1978",
           "feedUrl": ""
         }
       ]
@@ -7836,92 +7967,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "aidensoon",
           "profileUrl": "https://www.instagram.com/aidensoon/",
           "feedUrl": "https://rss.observe.tw/picuki/profile/aidensoon/story/0"
-        }
-      ]
-    },
-    {
-      "id": "watchlist-104",
-      "publicId": "104",
-      "name": "Timothy Yip 葉進禧",
-      "nameEn": "Timothy Yip",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/國際比賽/演出/RedBricks",
-      "structuredSummary": "半音階/國際比賽/演出/RedBricks / 半音階 / 國際演出人員",
-      "summary": "香港的半音階國際演出人員，活動脈絡包含國際比賽、演出與RedBricks。",
-      "keywords": "Timothy Yip 葉進禧 harmonica chromatic harmonicist RedBricks",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.timothyyipharmonica.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/profile.php?id=100085232439912"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/timothyyip_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "104-timothy-yip",
-      "latestUpdateAt": "2026-08-22T11:55:40+00:00",
-      "latestUpdateLocal": "2026-08-22 19:55",
-      "latestUpdateSource": "Timothy Yip 葉進禧",
-      "latestUpdateUrl": "https://www.instagram.com/stories/timothyyip_harmonica/3969319180813591642/",
-      "avatarUrl": "/assets/source-avatars/e729eb105459fb069c45.webp",
-      "sourceInitials": "TY",
-      "sourceTags": [
-        "演奏者",
-        "比賽",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_c74bf61a25",
-          "name": "Timothy Yip 葉進禧",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/profile.php?id=100085232439912",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_timothyyip_harmonica",
-          "name": "Timothy Yip 葉進禧",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "timothyyip_harmonica",
-          "profileUrl": "https://www.instagram.com/timothyyip_harmonica/",
-          "feedUrl": "https://rss.observe.tw/picuki/profile/timothyyip_harmonica/story/0"
-        },
-        {
-          "id": "ig_timothyyip_harmonica",
-          "name": "Timothy Yip 葉進禧",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "timothyyip_harmonica",
-          "profileUrl": "https://www.instagram.com/timothyyip_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_ucvoafkvaebakb5zgfvf7nww",
-          "name": "Timothy Yip 葉進禧",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCVOaFKVaeBAkb5ZGfVF7nWw",
-          "feedUrl": ""
         }
       ]
     },
@@ -11134,51 +11179,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-91",
-      "publicId": "91",
-      "name": "臺北黃石口琴樂團",
-      "nameEn": "Taipei Yellowstone Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "成立逾34年/年度公演/偏鄉與弱勢公益推廣/盧鴻麟指導",
-      "structuredSummary": "成立逾34年/年度公演/偏鄉與弱勢公益推廣/盧鴻麟指導 / 口琴重奏/口琴合奏 / 演出團體/公益與地方推廣",
-      "summary": "臺灣的口琴重奏與口琴合奏演出團體與公益與地方推廣，活動脈絡包含成立逾34年、年度公演與偏鄉與弱勢公益推廣。",
-      "keywords": "臺北黃石口琴樂團 Taipei Yellowstone Harmonica Ensemble 盧鴻麟 年度公演 公益 偏鄉",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "91-taipei-yellowstone-harmonica-ensemble",
-      "latestUpdateAt": "2026-08-09T07:06:44+00:00",
-      "latestUpdateLocal": "2026-08-09 15:06",
-      "latestUpdateSource": "臺北黃石口琴樂團",
-      "latestUpdateUrl": "https://www.facebook.com/TaipeiYellowstoneHarmonicaEnsemble/posts/pfbid08fsAqd6R6oDAKunTX5tVfDTXL9HdgPRo8xEr2eVYNZZwj8ahoUidQBV8nFQoXinQl",
-      "avatarUrl": "/assets/source-avatars/taipei-yellowstone.jpg",
-      "sourceInitials": "臺北",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_taipeiyellowstoneharmonicaensemble",
-          "name": "臺北黃石口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/TaipeiYellowstoneHarmonicaEnsemble",
           "feedUrl": ""
         }
       ]

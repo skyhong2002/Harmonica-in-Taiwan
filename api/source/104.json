@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T11:36:23.007697Z",
+  "generatedAt": "2026-08-29T12:14:22.518252Z",
   "source": {
     "id": 104,
     "slug": "timothy-yip",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/104-timothy-yip/"
   },
   "items": [
+    {
+      "id": "post-9e86bc88b0c41851837dff0a",
+      "title": "【HKICHC】 Chrometrica for Harmonica and Orchestra - Timothy Yip 葉進禧 | CCOHK香港城市室樂團",
+      "excerpt": "【HKICHC】 Chrometrica for Harmonica and Orchestra - Timothy Yip 葉進禧 | CCOHK香港城市室樂團 Hong Kong International Chromatic Harmonica Competition - THIRD Prize Chrometrica by Hans-Günther Kölz Harmonica: Timothy Yip 葉進禧 City Chamber Orchestra of Hong Kong 香港城市室樂團 Yip Chun Hei is a Hong…",
+      "url": "https://www.youtube.com/watch?v=BMmoC4Kbkzo",
+      "sourceName": "Timothy Yip 葉進禧",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-29T11:10:12Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/7658935997260dbc79c6.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-cc399bafbdb822067b56eafb",
       "title": "Final sessional rehearsal with my harmonica fellows for 30/8 concert Two Worlds In One (HK).",

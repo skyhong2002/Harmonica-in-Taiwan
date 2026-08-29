@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T11:36:23.007697Z",
+  "generatedAt": "2026-08-29T12:14:22.518252Z",
   "source": {
     "id": 165,
     "slug": "malaysia-harmonica-festival",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/165-malaysia-harmonica-festival/"
   },
   "items": [
+    {
+      "id": "post-d2d4bbf32b8bf6853430a70a",
+      "title": "MEET THE JURY: TECHNIQUE VS MUSICALITY 技巧 VS 音乐性🎵",
+      "excerpt": "MEET THE JURY: TECHNIQUE VS MUSICALITY 技巧 VS 音乐性🎵",
+      "url": "https://www.facebook.com/malaysiaharmonicafestival/videos/1250354753850601/",
+      "sourceName": "馬來西亞口琴節",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-22T11:56:42Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9305179bf2fdc2d55038.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-826dff2563ac3e6d7accad8a",
       "title": "OHRSC 2026 E-Certificate & Judges’ Comments Notice",
