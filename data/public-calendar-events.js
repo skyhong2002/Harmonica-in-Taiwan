@@ -1,9 +1,9 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-08-30T00:00:12+08:00",
+  "generatedAt": "2026-08-30T00:37:16+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 8,
+  "count": 6,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,8 +14,8 @@ window.publicCalendarEvents = {
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
-      "cached": 28,
+      "requests": 1,
+      "cached": 27,
       "errors": 0
     }
   },
@@ -199,84 +199,6 @@ window.publicCalendarEvents = {
         "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/781161942_18084989045656565_831372451411669015_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzk2NzE3NzkzMzQ5NDk5NDI2Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzA3Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=ROYOmdWrow0Q7kNvwENcjrS&_nc_oc=AdrZWEl-B3YEW9srb0ATJDaBzUAEOCEKtqoGxETgcu8XHPaCif326jUt16IcMb2uMgE&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=74WJ9iIia_RTeA3NdiN00Q&_nc_ss=7a22e&oh=00_AQFSTJsv7yJFxNgKXp61grova1ngF6g60KuG6d-ZBiGpcA&oe=6A8BA2F1"
       ],
       "image_url": "/assets/feed-images/c153e4887f020058c8e6.webp"
-    },
-    {
-      "id": "d9ba531c3f824ba0",
-      "title": "CY Leo 何卓彥｜Two Worlds In One 亞洲巡演",
-      "eventName": "CY Leo 何卓彥｜Two Worlds In One 亞洲巡演",
-      "source": "cy_leo",
-      "platform": "instagram",
-      "start": "2026-09-23",
-      "end": "2026-09-24",
-      "allDay": true,
-      "calendarType": "taiwan_physical",
-      "timezone": "Asia/Taipei",
-      "location": "臺北",
-      "venue": "臺北",
-      "city": "臺北",
-      "details": "主辦／演出者：CY Leo 何卓彥。亞洲巡演場次：2026-09-23，地點為 臺北。貼文未提供更具體的場館或演出時間。",
-      "evidenceUrl": "https://www.instagram.com/p/DbdOLZDjK-H/",
-      "confidence": 0.9,
-      "calendarReview": {
-        "include": true,
-        "country": "臺灣",
-        "eventMode": "taiwan_physical",
-        "timezone": "Asia/Taipei",
-        "candidateDateMatches": true,
-        "eventName": "CY Leo 何卓彥｜Two Worlds In One 亞洲巡演",
-        "venue": "臺北",
-        "city": "臺北",
-        "details": "主辦／演出者：CY Leo 何卓彥。亞洲巡演場次：2026-09-23，地點為 臺北。貼文未提供更具體的場館或演出時間。",
-        "reason": "貼文明確列出巡演日期與城市，收錄為該城市的全天活動。",
-        "confidence": 0.9
-      },
-      "postedAt": "2026-07-31 08:00",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/761653358_18612351817050240_2590188587154998094_n.jpg?stp=c655.0.1966.1966a_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6O2px-IVY5cQ7kNvwHH-Z5G&_nc_oc=AdqnT2X1NBWMguMiKHWkTVfr7qEAQtyDbu-VekrBu3anN6DdBzi0drV65JQmiZrPYOE&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YLet9VsdHRqztOzPMYljcw&_nc_ss=7b60f&oh=00_AQGVYRe6a9KHZcTPxwLC8SUrI0eUj3WUV5Z30p3UOwVAhQ&oe=6A756848"
-      ],
-      "image_url": "/assets/feed-images/9d9b79fc0bcd2accabe3.webp"
-    },
-    {
-      "id": "5a1dd535fdd20994",
-      "title": "首場個人音樂會",
-      "eventName": "首場個人音樂會",
-      "source": "cy_leo",
-      "platform": "instagram",
-      "start": "2026-09-23T01:00:00+08:00",
-      "end": "2026-09-23T03:00:00+08:00",
-      "allDay": false,
-      "calendarType": "taiwan_physical",
-      "timezone": "Asia/Taipei",
-      "location": "新北市藝文中心演藝廳",
-      "venue": "新北市藝文中心演藝廳",
-      "city": "新北市",
-      "details": "主辦／演出者：CY Leo 何卓彥。23/9 於 Taipei, Taiwan 舉行，地點為 New Taipei City Arts Center Performance Hall（新北市藝文中心演藝廳）。貼文提到這是在臺灣的首場個人音樂會，Link in bio。",
-      "evidenceUrl": "https://www.instagram.com/p/DcYkRT6ksND/",
-      "confidence": 0.92,
-      "calendarReview": {
-        "include": true,
-        "country": "臺灣",
-        "eventMode": "taiwan_physical",
-        "timezone": "Asia/Taipei",
-        "candidateDateMatches": true,
-        "eventName": "首場個人音樂會",
-        "venue": "新北市藝文中心演藝廳",
-        "city": "新北市",
-        "details": "主辦／演出者：CY Leo 何卓彥。23/9 於 Taipei, Taiwan 舉行，地點為 New Taipei City Arts Center Performance Hall（新北市藝文中心演藝廳）。貼文提到這是在臺灣的首場個人音樂會，Link in bio。",
-        "reason": "候選日期 2026-09-23 與貼文中的 23/9 相符，且明確是臺灣實體口琴音樂會。",
-        "confidence": 0.92
-      },
-      "postedAt": "2026-08-23 21:34",
-      "images": [
-        "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-15/783572950_18620736442050240_2979022791242800765_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&ig_cache_key=Mzk3MDA3NDI3ODI0MjcxOTUyNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=IO0EA3xi4vUQ7kNvwE7MgGk&_nc_oc=Ado4xZaaFagnaOX_L7bFcnOK_70Mhy6CF68wY6iMtDeRMaLE0akeRUdVBXYwIWmoDO0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=XIXKxD07nksoJVkgJTx6Yw&_nc_ss=7a22e&oh=00_AQGfjhUzgROHRFHtc3fGBGPCOyGwB_m9rp-zLkvdMTuZyw&oe=6A911656",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/783126070_18620736457050240_1690257558867808835_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=107&ig_cache_key=Mzk3MDA3NDI5NTI4ODMzOTkzNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNzIwLnNkci52aWRlb19kZWZhdWx0X2NvdmVyX2ZyYW1lLkMzIn0%3D&_nc_ohc=rCeN3pD0zXwQ7kNvwHSQzbC&_nc_oc=AdqBlGPDCyg40caP21OTEYPZohrg0lGqbBY3NMmNBZZrmKBh5-eXzKwqNeJDdWgc04Y&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=XIXKxD07nksoJVkgJTx6Yw&_nc_ss=7a22e&oh=00_AQG3g9ciKQxm0sNGHvDxUn2JO8Cbqc9VEOCqHZbaDbxvWA&oe=6A911C2A",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/783351965_18620736313050240_4779838451889586183_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzk3MDA3NDIwNDgzNzYxNTc0NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuNTU1LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=BiPrFGI3BfkQ7kNvwEpxEXb&_nc_oc=AdqlRj6KHo3xk8N8vZSIF23VWIfXAiSmuQDA8zRqn7_8_Hk5F20GG3cvy05GWqvSteM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=XIXKxD07nksoJVkgJTx6Yw&_nc_ss=7a22e&oh=00_AQHv6u7aLhiEyZiQYl0X8xsimY_UGt5kqH7OcZIXTfuXIA&oe=6A911298",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/782191801_18620736295050240_2491812331065002727_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzk3MDA3NDIwNjA2MjI5NzAxMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTE1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=eLVzbJ1OBr8Q7kNvwEy0xJp&_nc_oc=Adq0Shw6JopF7lqqhUtT1cPEu81oijr7jMXEwiIRfeAtl-fvTOwfOialqnJ05mCEecY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=XIXKxD07nksoJVkgJTx6Yw&_nc_ss=7a22e&oh=00_AQH8plk47GL-bv1WNbeG-sjHX3_g-NYF9z_CvEw0FNWiIw&oe=6A91131D",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/782447291_18620736280050240_9201565081128657954_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=Mzk3MDA3NDIwNjU4MjQwMzgxNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTE1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GPCzmP-FKPsQ7kNvwHIfkrL&_nc_oc=AdrtuS8XkqWP2yhOxzYn32nnz8DhSgIfp-HVnfSp74L1CAXj3SGPJ5EARMzNaFLJL54&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=XIXKxD07nksoJVkgJTx6Yw&_nc_ss=7a22e&oh=00_AQFS_rIgEo0Av1coT5D-75WkayTYsyeFgfuWSGqbQ_Kvuw&oe=6A910E09",
-        "https://scontent-tpe5-1.cdninstagram.com/v/t51.82787-15/781767912_18620736292050240_6530541454970643819_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ig_cache_key=Mzk3MDA3NDIwNjcyNDk2OTMzMg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTE1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=9YpWCuY_Vu8Q7kNvwGa81bI&_nc_oc=AdoHn0SyFftaLAKg7DYomNUovp9dA96KShLNUA0e3cuTo3S4Gw4NARq63fXZCcPk3Dk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_gid=XIXKxD07nksoJVkgJTx6Yw&_nc_ss=7a22e&oh=00_AQHW7P-Ra_0DxDO5uJjHprJHeCP_mhrv0M_Gblitc1zW7g&oe=6A91176F",
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/783351972_18620736289050240_4265808599131597374_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=101&ig_cache_key=Mzk3MDA3NDIwODE0MjgxMTIwOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTE1Mi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GZ68rsYovQ8Q7kNvwF9nIVx&_nc_oc=AdqtF0nc3f0VRI_FZvOiYXIGx1X_mbgFpRoynG3YSEsvkx5lmEQWQw7ME9g5uAXAGZA&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=XIXKxD07nksoJVkgJTx6Yw&_nc_ss=7a22e&oh=00_AQHK1mnDbFTpuvv85SXYqWij8kG3Fi-J647wU-IlcwGZPg&oe=6A910BFF"
-      ],
-      "image_url": "/assets/feed-images/1033ff2b7d8fa06790e7.webp"
     },
     {
       "id": "291301f51a921d0b",
