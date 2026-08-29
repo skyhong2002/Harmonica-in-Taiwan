@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-29T10:57:01.305330Z",
+  "generatedAt": "2026-08-29T11:36:23.007697Z",
   "source": {
     "id": 54,
     "slug": "cy-leo",
@@ -8,6 +8,29 @@
     "pageUrl": "https://harmonica.observe.tw/source/54-cy-leo/"
   },
   "items": [
+    {
+      "id": "post-72b5ecf91944685569cd8308",
+      "title": "CY Leo 何卓彥",
+      "excerpt": "",
+      "url": "https://www.facebook.com/Cyleoharmonica/posts/pfbid06LTNbxaJ5AU5zrcwP6wh5SohKyDeSGw2xGKumfEgLiiuMvUHAeCufNZsJnfEttMMl",
+      "sourceName": "CY Leo 何卓彥",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-29T06:05:05Z"
+    },
+    {
+      "id": "post-faf25ebdb4576f4b22dc9839",
+      "title": "不是說純音樂沒出路 只是，我更喜歡和別人分享創作意念 ｜Cy Leo 何卓彥: Two Worlds In One 【最後購票機會】",
+      "excerpt": "不是說純音樂沒出路 只是，我更喜歡和別人分享創作意念 ｜Cy Leo 何卓彥: Two Worlds In One 【最後購票機會】 同一個現象，一百個世界看，有一百種真理 | 我的音樂都能讓大家坐在一起，靜心聆聽那些所謂對立的世界。| Cy Leo何卓彥全新企劃《Two Worlds In One》 我並不是第一次訪問音樂家。在我的印象中，純音樂的演奏者通常都很正經，但Leo給我的第一印象卻是一位擁有憂鬱眼神，說話謹慎、深思熟慮，卻不乏熱情的文青。或許是因為他的長髮下那精心修剪過的鬍子，也或許他並沒有過多談論自己刻苦訓練的童年。在一個小時分享裡，口琴…",
+      "url": "https://www.facebook.com/permalink.php?id=61561507960865&story_fbid=pfbid0dzH27a2g8JPKzWC3fFvb8L7Be9D3nebf5i62wU8L6KVUgnZ6i8ERt6VL1bbNwrxWl",
+      "sourceName": "CY Leo 何卓彥",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-29T05:38:44Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/5e88fe72da538d17276f.webp",
+        "width": 472,
+        "height": 590
+      }
+    },
     {
       "id": "post-6cf7db532255342b7ce13a23",
       "title": "CPN Live: CY Leo x Bernard Chan《過橋界線》",
