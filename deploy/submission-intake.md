@@ -40,17 +40,27 @@ to `retry`. At most four AI/processing attempts are made per response.
 
 ## Manual Commands
 
+Create the dedicated system-Python environment used by launchd. Keeping this
+worker off the Homebrew Python executable avoids launchd code-signing failures
+when Homebrew replaces that executable during an upgrade:
+
+```bash
+/usr/bin/python3 -m venv ~/.hermes/harmonica-intake-venv
+uv pip install --python ~/.hermes/harmonica-intake-venv/bin/python \
+  google-api-python-client google-auth-oauthlib requests
+```
+
 Fetch responses without AI, GitHub, or publishing side effects:
 
 ```bash
-~/.hermes/google-workspace-venv/bin/python \
+~/.hermes/harmonica-intake-venv/bin/python \
   scripts/process_submission_intake.py --ingest-only
 ```
 
 Process at most one response but leave its PR unmerged and do not publish:
 
 ```bash
-~/.hermes/google-workspace-venv/bin/python \
+~/.hermes/harmonica-intake-venv/bin/python \
   scripts/process_submission_intake.py --max-submissions 1 --no-auto-merge --no-publish
 ```
 
