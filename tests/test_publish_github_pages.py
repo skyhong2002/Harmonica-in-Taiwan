@@ -46,6 +46,38 @@ class PushWithRetryTests(unittest.TestCase):
         self.assertEqual(git_mock.call_count, 3)
         self.assertEqual(sleep_mock.call_count, 2)
 
+    @mock.patch.object(publish_github_pages.time, "sleep")
+    @mock.patch.object(publish_github_pages, "git")
+    def test_remote_branch_lookup_retries_transport_failure(self, git_mock, sleep_mock):
+        git_mock.side_effect = [self.result(128), self.result(0)]
+
+        result = publish_github_pages.git_remote_with_retry(
+            ["ls-remote"],
+            cwd=ROOT,
+            operation="branch lookup",
+            success_returncodes=frozenset({0, 2}),
+            attempts=3,
+            retry_seconds=1,
+        )
+
+        self.assertEqual(result.returncode, 0)
+        sleep_mock.assert_called_once_with(1)
+
+    @mock.patch.object(publish_github_pages.time, "sleep")
+    @mock.patch.object(publish_github_pages, "git")
+    def test_missing_remote_branch_is_not_retried(self, git_mock, sleep_mock):
+        git_mock.return_value = self.result(2)
+
+        result = publish_github_pages.git_remote_with_retry(
+            ["ls-remote"],
+            cwd=ROOT,
+            operation="branch lookup",
+            success_returncodes=frozenset({0, 2}),
+        )
+
+        self.assertEqual(result.returncode, 2)
+        sleep_mock.assert_not_called()
+
 
 if __name__ == "__main__":
     unittest.main()

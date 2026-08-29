@@ -55,6 +55,37 @@ def git_stdout(args: list[str], *, cwd: Path = PROJECT_ROOT, check: bool = True)
     return result.stdout.strip()
 
 
+def git_remote_with_retry(
+    args: list[str],
+    *,
+    cwd: Path,
+    operation: str,
+    success_returncodes: frozenset[int] = frozenset({0}),
+    attempts: int = DEFAULT_PUSH_ATTEMPTS,
+    retry_seconds: float = DEFAULT_PUSH_RETRY_SECONDS,
+) -> subprocess.CompletedProcess[str]:
+    """Run a remote Git operation, retrying transient transport failures."""
+    if attempts < 1:
+        raise ValueError("attempts must be at least 1")
+
+    result: subprocess.CompletedProcess[str] | None = None
+    for attempt in range(1, attempts + 1):
+        result = git(args, cwd=cwd, check=False)
+        if result.returncode in success_returncodes:
+            return result
+        if attempt < attempts:
+            delay = retry_seconds * (2 ** (attempt - 1))
+            print(
+                f"Pages {operation} attempt {attempt}/{attempts} failed; retrying in {delay:g}s.",
+                file=sys.stderr,
+            )
+            time.sleep(delay)
+
+    assert result is not None
+    result.check_returncode()
+    return result
+
+
 def push_with_retry(
     remote: str,
     branch: str,
@@ -63,25 +94,13 @@ def push_with_retry(
     attempts: int = DEFAULT_PUSH_ATTEMPTS,
     retry_seconds: float = DEFAULT_PUSH_RETRY_SECONDS,
 ) -> None:
-    """Push a Pages snapshot, retrying transient transport failures."""
-    if attempts < 1:
-        raise ValueError("attempts must be at least 1")
-
-    result: subprocess.CompletedProcess[str] | None = None
-    for attempt in range(1, attempts + 1):
-        result = git(["push", "-u", remote, branch], cwd=cwd, check=False)
-        if result.returncode == 0:
-            return
-        if attempt < attempts:
-            delay = retry_seconds * (2 ** (attempt - 1))
-            print(
-                f"Pages push attempt {attempt}/{attempts} failed; retrying in {delay:g}s.",
-                file=sys.stderr,
-            )
-            time.sleep(delay)
-
-    assert result is not None
-    result.check_returncode()
+    git_remote_with_retry(
+        ["push", "-u", remote, branch],
+        cwd=cwd,
+        operation="push",
+        attempts=attempts,
+        retry_seconds=retry_seconds,
+    )
 
 
 def branch_exists(branch: str) -> bool:
@@ -89,7 +108,12 @@ def branch_exists(branch: str) -> bool:
 
 
 def remote_branch_exists(remote: str, branch: str) -> bool:
-    result = git(["ls-remote", "--exit-code", "--heads", remote, branch], check=False, capture=True)
+    result = git_remote_with_retry(
+        ["ls-remote", "--exit-code", "--heads", remote, branch],
+        cwd=PROJECT_ROOT,
+        operation="branch lookup",
+        success_returncodes=frozenset({0, 2}),
+    )
     return result.returncode == 0
 
 
@@ -107,7 +131,11 @@ def ensure_existing_worktree(path: Path, branch: str, remote: str) -> None:
         raise PublishError(f"Deployment worktree is on {current_branch or 'detached HEAD'}, expected {branch}: {path}")
     ensure_clean_worktree(path)
     if remote_branch_exists(remote, branch):
-        git(["pull", "--ff-only", remote, branch], cwd=path)
+        git_remote_with_retry(
+            ["pull", "--ff-only", remote, branch],
+            cwd=path,
+            operation="pull",
+        )
 
 
 def ensure_worktree(path: Path, branch: str, remote: str) -> None:
@@ -122,7 +150,11 @@ def ensure_worktree(path: Path, branch: str, remote: str) -> None:
         return
 
     if remote_branch_exists(remote, branch):
-        git(["fetch", remote, f"{branch}:{branch}"])
+        git_remote_with_retry(
+            ["fetch", remote, f"{branch}:{branch}"],
+            cwd=PROJECT_ROOT,
+            operation="fetch",
+        )
         git(["worktree", "add", str(path), branch])
         ensure_existing_worktree(path, branch, remote)
         return
