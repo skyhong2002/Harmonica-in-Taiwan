@@ -9,6 +9,7 @@ import re
 import shutil
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 from typing import Any
 
@@ -132,10 +133,17 @@ def validate_js_files(errors: list[str]) -> None:
     if not node:
         print("validate_public_outputs: node not found; skipping JS syntax checks", file=sys.stderr)
         return
-    for path in sorted(SITE_DATA_DIR.glob("*.js")):
-        result = subprocess.run([node, "--check", str(path)], cwd=PROJECT_ROOT)
-        if result.returncode != 0:
-            errors.append(f"invalid JS syntax: {path.relative_to(PROJECT_ROOT)}")
+    # Homebrew executables launched by launchd may not have TCC access to the
+    # user's Documents folder. Check byte-for-byte copies outside Documents so
+    # the scheduled validator cannot hang forever in open(2).
+    with tempfile.TemporaryDirectory(prefix="harmonica-js-check-") as directory:
+        temporary_root = Path(directory)
+        for path in sorted(SITE_DATA_DIR.glob("*.js")):
+            temporary_path = temporary_root / path.name
+            shutil.copy2(path, temporary_path)
+            result = subprocess.run([node, "--check", str(temporary_path)], cwd=temporary_root)
+            if result.returncode != 0:
+                errors.append(f"invalid JS syntax: {path.relative_to(PROJECT_ROOT)}")
 
 
 def validate_status_consistency(errors: list[str]) -> None:
