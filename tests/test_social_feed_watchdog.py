@@ -2,6 +2,7 @@ import importlib.util
 import datetime as dt
 import io
 import socket
+import subprocess
 import sys
 import unittest
 import urllib.error
@@ -240,6 +241,69 @@ class SocialFeedWatchdogInstagramTests(unittest.TestCase):
         self.assertEqual(post["posted_at"], "2026-07-31T00:00:00+00:00")
         self.assertEqual(post["text"], "口琴演出公告")
         self.assertEqual(post["images"], ["https://cdn.example/post.jpg"])
+
+    def test_instaloader_story_fetch_normalizes_helper_json(self):
+        source = {
+            "id": "ig_story_example",
+            "name": "Example Instagram",
+            "platform": "instagram",
+            "type": "rsshub_instagram_story",
+            "provider": "instaloader",
+            "story_provider": "instaloader",
+            "username": "example",
+            "limit": 5,
+            "media_type": "instagram_story",
+            "ephemeral": True,
+            "include_without_keywords": True,
+            "source_profile_url": "https://www.instagram.com/example/",
+        }
+        helper_payload = {
+            "version": 1,
+            "provider": "instaloader",
+            "username": "example",
+            "fetched_at": "2026-08-30T01:00:00+00:00",
+            "stories": [
+                {
+                    "id": "123",
+                    "caption": "口琴限動",
+                    "posted_at": "2026-08-30T00:30:00+00:00",
+                    "expires_at": "2026-08-31T00:30:00+00:00",
+                    "url": "https://www.instagram.com/stories/example/123/",
+                    "images": ["https://cdn.example/story.jpg"],
+                    "videos": [],
+                }
+            ],
+        }
+        completed = subprocess.CompletedProcess([], 0, stdout=watchdog.json.dumps(helper_payload), stderr="")
+        with (
+            mock.patch.dict(watchdog.os.environ, {"HARMONICA_INSTALOADER_PYTHON": sys.executable}),
+            mock.patch.object(watchdog.subprocess, "run", return_value=completed),
+        ):
+            posts = watchdog.fetch_rss(source)
+
+        self.assertEqual(len(posts), 1)
+        self.assertEqual(posts[0]["story_provider"], "instaloader")
+        self.assertEqual(posts[0]["story_expires_at"], "2026-08-31T00:30:00+00:00")
+        self.assertEqual(posts[0]["images"], ["https://cdn.example/story.jpg"])
+
+    def test_instaloader_auth_failure_is_not_treated_as_empty_story(self):
+        source = {
+            "id": "ig_story_example",
+            "name": "Example Instagram",
+            "platform": "instagram",
+            "type": "rsshub_instagram_story",
+            "provider": "instaloader",
+            "username": "example",
+        }
+        completed = subprocess.CompletedProcess(
+            [], 2, stdout="", stderr="Instaloader session rejected by Instagram"
+        )
+        with (
+            mock.patch.dict(watchdog.os.environ, {"HARMONICA_INSTALOADER_PYTHON": sys.executable}),
+            mock.patch.object(watchdog.subprocess, "run", return_value=completed),
+        ):
+            with self.assertRaisesRegex(ValueError, "session rejected"):
+                watchdog.fetch_rss(source)
 
 
 if __name__ == "__main__":

@@ -57,6 +57,17 @@
 - `data/sources/harmonica-public-calendar-overrides.csv`：公開貼文抽取不足時的日曆事件人工校正；只記 metadata、公開佐證連結與活動資訊。
 - `scripts/build_public_calendar_events.py`：使用 `gpt-5.4-mini` 與規則驗證，從公開貼文抽出活動日期、場地與時區，分流為臺灣實體、國外實體與線上活動 JSON/ICS。
 - `scripts/sync_google_calendar_events.py`：用本機 `.env` / Hermes Google Workspace OAuth 設定同步三類事件到各自的公開 Google Calendar。
+- `scripts/instaloader_story_fetcher.py`：透過獨立 Instaloader venv 與登入 session 抓取公開 Instagram Stories；登入失效時會回報錯誤，不會把驗證失敗當成 0 筆內容。
+
+Instagram Stories 的本機執行環境與 session 首次設定：
+
+```bash
+python3 -m venv ~/.config/harmonica/instaloader-venv
+~/.config/harmonica/instaloader-venv/bin/python -m pip install -r requirements-instaloader.txt
+~/.config/harmonica/instaloader-venv/bin/python scripts/bootstrap_instaloader_session.py --login-user YOUR_INSTAGRAM_USERNAME
+```
+
+最後一行會在終端機中向 Instagram 登入並建立權限為 `0600` 的 `~/.config/harmonica/instaloader-session`；不要將 session 檔加入 Git。之後 pipeline 會自動使用這個 session。若 venv 或 session 放在其他位置，可分別設定 `HARMONICA_INSTALOADER_PYTHON`、`HARMONICA_INSTALOADER_SESSION`。
 - `data/feeds/social_sources.json`：由 CSV 轉出的公開社群監看來源設定。
 - `data/feeds/social_feed_inbox.jsonl`：YouTube / Facebook 抓取工具正規化後的公開貼文 inbox。
 - `data/feeds/social_candidates.jsonl`：watchdog 篩選後的公開候選更新。

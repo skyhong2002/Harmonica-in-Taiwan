@@ -705,6 +705,8 @@ def source_feed_url(source: dict[str, Any]) -> str:
         return f"{base}/picuki/profile/{url_part(username)}"
     if kind == "rsshub_instagram_story":
         username = source.get("username")
+        if str(source.get("provider") or "") == "instaloader":
+            return f"https://www.instagram.com/{url_part(username)}/" if username else ""
         return f"{base}/picuki/profile/{url_part(username)}/story/0" if username else ""
     return str(source.get("url") or "")
 

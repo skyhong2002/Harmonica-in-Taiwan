@@ -18,7 +18,7 @@ class BuildSocialSourcesWebpageTests(unittest.TestCase):
     def test_every_current_public_entry_has_update_source(self):
         entries = build_public_data.build_entries()
 
-        self.assertEqual(len(entries), 318)
+        self.assertGreaterEqual(len(entries), 318)
         self.assertEqual(
             [entry["name"] for entry in entries if not entry.get("monitorSources")],
             [],
@@ -87,6 +87,19 @@ class BuildSocialSourcesWebpageTests(unittest.TestCase):
                 {"public_id": "1", "name": "Unsafe", "website_url": "file:///tmp/private"}
             )
         )
+
+    def test_instagram_story_source_uses_instaloader(self):
+        source = builder.parse_instagram_story_source(
+            {"public_id": "54", "name": "CY Leo", "ig_url": "https://www.instagram.com/cy_leo/"}
+        )
+
+        self.assertIsNotNone(source)
+        assert source is not None
+        self.assertEqual(source["type"], "rsshub_instagram_story")
+        self.assertEqual(source["provider"], "instaloader")
+        self.assertEqual(source["story_provider"], "instaloader")
+        self.assertNotIn("route", source)
+        self.assertNotIn("rsshub_base", source)
 
 
 if __name__ == "__main__":

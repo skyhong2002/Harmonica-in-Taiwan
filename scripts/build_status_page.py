@@ -638,7 +638,7 @@ def build_status() -> dict[str, Any]:
     components.append(
         component(
             "instagram",
-            "Instagram RSSHub",
+            "Instagram 擷取",
             ig_status,
             (
                 f"{watch_platforms.get('instagram', 0)} 個 Instagram 來源"
