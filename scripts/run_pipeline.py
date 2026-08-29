@@ -16,7 +16,7 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 PYTHON = sys.executable
 DEFAULT_LOCK_FILE = PROJECT_ROOT / "state" / "run_pipeline.lock"
 DEFAULT_RUNTIME_STATUS = PROJECT_ROOT / "site" / "api" / "pipeline-runtime.json"
-DEFAULT_GOOGLE_WORKSPACE_PYTHON = Path.home() / ".hermes" / "google-workspace-venv" / "bin" / "python"
+DEFAULT_GOOGLE_WORKSPACE_PYTHON = Path.home() / ".hermes" / "harmonica-intake-venv" / "bin" / "python"
 
 
 def load_dotenv(path: Path) -> None:
