@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T03:31:27+08:00",
+  "generatedAt": "2026-08-30T03:48:16+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
     "status": "degraded",
@@ -9,39 +9,39 @@
   "metrics": {
     "updates": 3462,
     "updatesWindowDays": 30,
-    "directoryEntries": 320,
-    "watchSources": 788,
+    "directoryEntries": 322,
+    "watchSources": 794,
     "currentErrors": 187,
-    "latestDataAt": "2026-08-30T03:31:24+08:00",
-    "latestSocialObservationAt": "2026-08-30T03:27:35+08:00"
+    "latestDataAt": "2026-08-30T03:48:13+08:00",
+    "latestSocialObservationAt": "2026-08-30T03:46:01+08:00"
   },
   "watchSources": {
     "platforms": {
-      "facebook": 164,
-      "instagram": 356,
+      "facebook": 165,
+      "instagram": 358,
       "threads": 28,
-      "website": 88,
-      "x": 12,
-      "youtube": 140
+      "website": 89,
+      "x": 13,
+      "youtube": 141
     },
     "types": {
-      "facebook_page_posts": 164,
-      "rss": 40,
-      "rsshub_instagram_profile": 178,
-      "rsshub_instagram_story": 178,
-      "webpage_watch": 88,
-      "youtube_ytdlp": 140
+      "facebook_page_posts": 165,
+      "rss": 41,
+      "rsshub_instagram_profile": 179,
+      "rsshub_instagram_story": 179,
+      "webpage_watch": 89,
+      "youtube_ytdlp": 141
     },
     "platformRows": [
       {
         "platform": "facebook",
-        "sources": 164,
+        "sources": 165,
         "currentErrors": 0,
         "status": "ok"
       },
       {
         "platform": "instagram",
-        "sources": 356,
+        "sources": 358,
         "currentErrors": 187,
         "status": "degraded"
       },
@@ -53,19 +53,19 @@
       },
       {
         "platform": "website",
-        "sources": 88,
+        "sources": 89,
         "currentErrors": 0,
         "status": "ok"
       },
       {
         "platform": "x",
-        "sources": 12,
+        "sources": 13,
         "currentErrors": 0,
         "status": "ok"
       },
       {
         "platform": "youtube",
-        "sources": 140,
+        "sources": 141,
         "currentErrors": 0,
         "status": "ok"
       }
@@ -79,7 +79,7 @@
       "label": "正常",
       "summary": "定期 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-08-30 03:31:24",
+        "最新公開資料：2026-08-30 03:48:13",
         "pipeline.log 更新：2026-07-12 02:58:29",
         "pipeline.err.log 更新：2026-07-11 14:33:03",
         "LaunchAgent：not running，last exit 0"
@@ -90,10 +90,10 @@
       "name": "公開 API",
       "status": "ok",
       "label": "正常",
-      "summary": "latest.json 有 3462 筆更新，sources.json 有 320 筆公開目錄。",
+      "summary": "latest.json 有 3462 筆更新，sources.json 有 322 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
-        "watch sources：788"
+        "watch sources：794"
       ]
     },
     {
@@ -104,7 +104,7 @@
       "summary": "本機 RSSHub 入口回 200。",
       "details": [
         "HTTP：200",
-        "耗時：42 ms"
+        "耗時：81 ms"
       ]
     },
     {
@@ -112,13 +112,13 @@
       "name": "Instagram 擷取",
       "status": "degraded",
       "label": "部分異常",
-      "summary": "356 個 Instagram 來源（profile 178、story 178）；最新抓取批次目前 187 個錯誤。",
+      "summary": "358 個 Instagram 來源（profile 179、story 179）；最新抓取批次目前 187 個錯誤。",
       "details": [
-        "最新社群觀測：2026-08-30 03:27:35",
+        "最新社群觀測：2026-08-30 03:46:01",
         "story 無公開內容/空路由略過：0",
         "IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。",
         "本輪 IG：抓取 13、排程略過 343、延後 0、錯誤 13。",
-        "下一個 IG 來源：約 2026-08-30 03:38:59"
+        "下一個 IG 來源：約 2026-08-30 03:48:17"
       ]
     },
     {
@@ -126,7 +126,7 @@
       "name": "X / Twitter RSS",
       "status": "ok",
       "label": "正常",
-      "summary": "12 個 X 來源；最新抓取批次目前 0 個錯誤。",
+      "summary": "13 個 X 來源；最新抓取批次目前 0 個錯誤。",
       "details": [
         "目前 route 依 RSSHub 設定抓取。",
         "若持續 503，通常要檢查 RSSHub 的 Twitter API 設定。"
@@ -137,11 +137,11 @@
       "name": "Facebook Apify",
       "status": "paused",
       "label": "節流中",
-      "summary": "164 個 Facebook 來源。 目前依預算 pacing 暫停開 run，等待 due 來源累積。",
+      "summary": "165 個 Facebook 來源。 目前依預算 pacing 暫停開 run，等待 due 來源累積。",
       "details": [
         "最近成功 run：2026-08-29 20:46:12",
         "最近新增 inbox：4",
-        "due sources：1",
+        "due sources：2",
         "selected this check：0",
         "min sources per run：8",
         "遠端月額度剩餘：$1.14",
@@ -153,7 +153,7 @@
       "name": "YouTube yt-dlp",
       "status": "degraded",
       "label": "部分異常",
-      "summary": "140 個 YouTube 來源；最近 run error_count=1。",
+      "summary": "141 個 YouTube 來源；最近 run error_count=1。",
       "details": [
         "最近完成：2026-08-30 02:52:09",
         "最近新增 inbox：0"
@@ -166,7 +166,7 @@
       "label": "正常",
       "summary": "28 個 Threads 來源；其他 RSS 最新抓取批次目前 0 個錯誤。",
       "details": [
-        "RSS 類型來源：40"
+        "RSS 類型來源：41"
       ]
     }
   ],
@@ -335,12 +335,12 @@
   "runtime": {
     "pipeline": {
       "currentStep": "build status page",
-      "heartbeatAt": "2026-08-29T19:31:27.026489+00:00",
+      "heartbeatAt": "2026-08-29T19:48:16.807936+00:00",
       "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
       "maxPostAgeDays": 30,
       "message": "",
-      "pid": 20275,
-      "startedAt": "2026-08-29T19:30:59.271673+00:00",
+      "pid": 81748,
+      "startedAt": "2026-08-29T19:47:41.566891+00:00",
       "status": "running",
       "steps": [
         {
@@ -348,10 +348,10 @@
             "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_social_sources.py"
           ],
-          "finishedAt": "2026-08-29T19:30:59.358601+00:00",
+          "finishedAt": "2026-08-29T19:47:41.646770+00:00",
           "name": "build social sources",
           "returnCode": 0,
-          "startedAt": "2026-08-29T19:30:59.272022+00:00",
+          "startedAt": "2026-08-29T19:47:41.567346+00:00",
           "status": "ok"
         },
         {
@@ -359,10 +359,10 @@
             "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-08-29T19:31:01.582031+00:00",
+          "finishedAt": "2026-08-29T19:47:43.859834+00:00",
           "name": "build public data",
           "returnCode": 0,
-          "startedAt": "2026-08-29T19:30:59.359023+00:00",
+          "startedAt": "2026-08-29T19:47:41.647263+00:00",
           "status": "ok"
         },
         {
@@ -371,10 +371,10 @@
             "scripts/backfill_public_source_pages.py",
             "--skip-fetch"
           ],
-          "finishedAt": "2026-08-29T19:31:05.246358+00:00",
+          "finishedAt": "2026-08-29T19:47:47.532050+00:00",
           "name": "backfill source pages",
           "returnCode": 0,
-          "startedAt": "2026-08-29T19:31:01.582479+00:00",
+          "startedAt": "2026-08-29T19:47:43.860266+00:00",
           "status": "ok"
         },
         {
@@ -382,10 +382,10 @@
             "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-08-29T19:31:07.438522+00:00",
+          "finishedAt": "2026-08-29T19:47:49.741069+00:00",
           "name": "rebuild public data",
           "returnCode": 0,
-          "startedAt": "2026-08-29T19:31:05.247032+00:00",
+          "startedAt": "2026-08-29T19:47:47.532555+00:00",
           "status": "ok"
         },
         {
@@ -393,10 +393,10 @@
             "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_score_publications.py"
           ],
-          "finishedAt": "2026-08-29T19:31:07.528932+00:00",
+          "finishedAt": "2026-08-29T19:47:49.824278+00:00",
           "name": "build score publications",
           "returnCode": 0,
-          "startedAt": "2026-08-29T19:31:07.439028+00:00",
+          "startedAt": "2026-08-29T19:47:49.741553+00:00",
           "status": "ok"
         },
         {
@@ -404,10 +404,10 @@
             "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_score_sources.py"
           ],
-          "finishedAt": "2026-08-29T19:31:07.570895+00:00",
+          "finishedAt": "2026-08-29T19:47:49.871503+00:00",
           "name": "build score sources",
           "returnCode": 0,
-          "startedAt": "2026-08-29T19:31:07.529371+00:00",
+          "startedAt": "2026-08-29T19:47:49.824768+00:00",
           "status": "ok"
         },
         {
@@ -415,10 +415,10 @@
             "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/generate_rss_feeds.py"
           ],
-          "finishedAt": "2026-08-29T19:31:26.436014+00:00",
+          "finishedAt": "2026-08-29T19:48:16.229902+00:00",
           "name": "generate rss feeds",
           "returnCode": 0,
-          "startedAt": "2026-08-29T19:31:07.571302+00:00",
+          "startedAt": "2026-08-29T19:47:49.871879+00:00",
           "status": "ok"
         },
         {
@@ -426,10 +426,10 @@
             "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/build_public_calendar_events.py"
           ],
-          "finishedAt": "2026-08-29T19:31:26.946774+00:00",
+          "finishedAt": "2026-08-29T19:48:16.724755+00:00",
           "name": "build public calendar events",
           "returnCode": 0,
-          "startedAt": "2026-08-29T19:31:26.436521+00:00",
+          "startedAt": "2026-08-29T19:48:16.230538+00:00",
           "status": "ok"
         },
         {
@@ -437,10 +437,10 @@
             "/Users/skyhong/Documents/Harmonica-in-Taiwan/.venv/bin/python",
             "scripts/apply_submitted_events.py"
           ],
-          "finishedAt": "2026-08-29T19:31:27.026103+00:00",
+          "finishedAt": "2026-08-29T19:48:16.807545+00:00",
           "name": "apply submitted events",
           "returnCode": 0,
-          "startedAt": "2026-08-29T19:31:26.947236+00:00",
+          "startedAt": "2026-08-29T19:48:16.725191+00:00",
           "status": "ok"
         },
         {
@@ -451,7 +451,7 @@
           "finishedAt": "",
           "name": "build status page",
           "returnCode": null,
-          "startedAt": "2026-08-29T19:31:27.026485+00:00",
+          "startedAt": "2026-08-29T19:48:16.807932+00:00",
           "status": "running"
         }
       ],

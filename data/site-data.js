@@ -19192,6 +19192,105 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-322",
+      "publicId": "322",
+      "name": "TOMBO祭アワード",
+      "nameEn": "TOMBO Festival Awards",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
+      "country": "日本",
+      "region": "日本/線上",
+      "cityOrFocus": "トンボ楽器主辦的年度線上口琴與手風琴內容競賽/2026徵件期為5月15日至10月31日/11月13日公布結果/演奏、創作、影像與推廣任務",
+      "structuredSummary": "トンボ楽器主辦的年度線上口琴與手風琴內容競賽/2026徵件期為5月15日至10月31日/11月13日公布結果/演奏、創作、影像與推廣任務 / 口琴/手風琴 / 國際線上賽事/徵件與結果資訊來源",
+      "summary": "TOMBO祭アワード是トンボ楽器主辦的年度線上口琴與手風琴內容競賽；2026年徵件至10月31日，11月13日公布結果。",
+      "keywords": "TOMBO祭アワード TOMBO Festival Awards 2026 トンボ楽器 口琴 手風琴 線上競賽 作品徵件 10秒間で鷲づかみ オフィシャルミッション フリーミッション",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.tombo-m.co.jp/tombofes/2026/award.html"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/tombogakki/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_accordion.jp/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@tombogakki"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/tombo_info"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "322-tombo-festival-awards",
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/51e3983beb57896487ff.webp",
+      "sourceInitials": "T",
+      "sourceTags": [
+        "活動資訊",
+        "比賽"
+      ],
+      "sourceSummary": "TOMBO祭アワード是トンボ楽器主辦的年度線上口琴與手風琴內容競賽；2026年徵件至10月31日，11月13日公布結果。",
+      "sourceTagReason": "依トンボ楽器官方競賽頁與官方 note 公告確認活動名稱、主辦單位、競賽內容及2026年期程。",
+      "monitorSources": [
+        {
+          "id": "fb_tombogakki",
+          "name": "TOMBO祭アワード",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/tombogakki",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_harmonica_accordion_jp",
+          "name": "TOMBO祭アワード",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_accordion.jp",
+          "profileUrl": "https://www.instagram.com/harmonica_accordion.jp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_accordion_jp",
+          "name": "TOMBO祭アワード",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_accordion.jp",
+          "profileUrl": "https://www.instagram.com/harmonica_accordion.jp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "x_tombo_info",
+          "name": "TOMBO祭アワード",
+          "platform": "x",
+          "type": "rss",
+          "username": "tombo_info",
+          "profileUrl": "https://x.com/tombo_info",
+          "feedUrl": "https://rss.observe.tw/twitter/user/tombo_info"
+        },
+        {
+          "id": "yt_tombogakki",
+          "name": "TOMBO祭アワード",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@tombogakki",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-268",
       "publicId": "268",
       "name": "中國大眾音協口琴樂團",
@@ -19414,6 +19513,54 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@ForumHarmonicas",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-323",
+      "publicId": "323",
+      "name": "日本ハーモニカまつり",
+      "nameEn": "Japan Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
+      "country": "日本",
+      "region": "日本/東京/代代木",
+      "cityOrFocus": "日本ハーモニカ芸術協会主辦/2027年4月23日至24日於國立奧林匹克紀念青少年綜合中心舉行/紀念口琴誕生200周年與佐藤秀廊世界大會優勝100周年/演奏、研修與交流",
+      "structuredSummary": "日本ハーモニカ芸術協会主辦/2027年4月23日至24日於國立奧林匹克紀念青少年綜合中心舉行/紀念口琴誕生200周年與佐藤秀廊世界大會優勝100周年/演奏、研修與交流 / 複音口琴/口琴合奏 / 國際音樂節/活動公告與報名資訊來源",
+      "summary": "日本ハーモニカまつり是JHAA主辦的日本口琴節；2027年4月23日至24日於東京代代木舉行，紀念口琴誕生200周年。",
+      "keywords": "日本ハーモニカまつり Japan Harmonica Festival 2027 JHAA 日本ハーモニカ芸術協会 代々木 國立奧林匹克紀念青少年綜合中心 口琴200周年 佐藤秀廊",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://jhaa.info/topics/index.html"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "323-japan-harmonica-festival",
+      "latestUpdateAt": "",
+      "latestUpdateLocal": "",
+      "latestUpdateSource": "",
+      "latestUpdateUrl": "",
+      "avatarUrl": "/assets/source-avatars/875263853804cee31233.webp",
+      "sourceInitials": "日本",
+      "sourceTags": [
+        "活動資訊",
+        "音樂節",
+        "國際交流"
+      ],
+      "sourceSummary": "日本ハーモニカまつり是JHAA主辦的日本口琴節；2027年4月23日至24日於東京代代木舉行，紀念口琴誕生200周年。",
+      "sourceTagReason": "依日本ハーモニカ芸術協会官方公告與兩日活動日程確認活動名稱、主辦單位、日期、地點及紀念主題。",
+      "monitorSources": [
+        {
+          "id": "web_323",
+          "name": "日本ハーモニカまつり",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://jhaa.info/topics/index.html",
           "feedUrl": ""
         }
       ]
@@ -21230,7 +21377,7 @@ window.HARMONICA_OBSERVE_DATA = {
     }
   ],
   "stats": {
-    "totalEntries": 320,
+    "totalEntries": 322,
     "categories": {
       "其他來源": 2,
       "國際交流": 12,
@@ -21238,7 +21385,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "場館平台": 8,
       "學校社團": 44,
       "教學器材": 26,
-      "活動資訊": 44,
+      "活動資訊": 46,
       "演奏者": 109
     },
     "countries": {
@@ -21254,7 +21401,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "挪威": 1,
       "捷克": 1,
       "新加坡": 7,
-      "日本": 19,
+      "日本": 21,
       "法國": 2,
       "波蘭": 2,
       "澳洲": 1,
@@ -21273,26 +21420,26 @@ window.HARMONICA_OBSERVE_DATA = {
       "馬來西亞": 14
     },
     "watchSources": {
-      "totalSources": 788,
-      "rsshubSources": 396,
-      "apifySources": 164,
-      "facebookSources": 164,
-      "youtubeSources": 140,
+      "totalSources": 794,
+      "rsshubSources": 399,
+      "apifySources": 165,
+      "facebookSources": 165,
+      "youtubeSources": 141,
       "platforms": {
-        "facebook": 164,
-        "instagram": 356,
+        "facebook": 165,
+        "instagram": 358,
         "threads": 28,
-        "website": 88,
-        "x": 12,
-        "youtube": 140
+        "website": 89,
+        "x": 13,
+        "youtube": 141
       },
       "types": {
-        "facebook_page_posts": 164,
-        "rss": 40,
-        "rsshub_instagram_profile": 178,
-        "rsshub_instagram_story": 178,
-        "webpage_watch": 88,
-        "youtube_ytdlp": 140
+        "facebook_page_posts": 165,
+        "rss": 41,
+        "rsshub_instagram_profile": 179,
+        "rsshub_instagram_story": 179,
+        "webpage_watch": 89,
+        "youtube_ytdlp": 141
       }
     }
   }
