@@ -8,11 +8,9 @@
 
     <key>ProgramArguments</key>
     <array>
-      <string>/Users/skyhong/.hermes/google-workspace-venv/bin/python</string>
-      <string>/Users/skyhong/Documents/Harmonica-in-Taiwan/scripts/sync_google_calendar_events.py</string>
-      <string>--history-days</string>
-      <string>365</string>
-      <string>--required</string>
+      <string>/bin/zsh</string>
+      <string>-lc</string>
+      <string>cd '/Users/skyhong/Documents/Harmonica-in-Taiwan' &amp;&amp; PYTHONWARNINGS=ignore '/Users/skyhong/.hermes/harmonica-intake-venv/bin/python' scripts/sync_google_calendar_events.py --history-days 365 --required</string>
     </array>
 
     <key>WorkingDirectory</key>
@@ -20,6 +18,18 @@
 
     <key>ProcessType</key>
     <string>Background</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+      <key>HOME</key>
+      <string>/Users/skyhong</string>
+      <key>PATH</key>
+      <string>/Users/skyhong/.local/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+      <key>PYTHONWARNINGS</key>
+      <string>ignore</string>
+      <key>HARMONICA_GOOGLE_CALENDAR_CLIENT</key>
+      <string>rest</string>
+    </dict>
 
     <key>RunAtLoad</key>
     <true/>

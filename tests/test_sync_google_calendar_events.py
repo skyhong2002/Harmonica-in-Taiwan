@@ -1,7 +1,9 @@
 import sys
 import tempfile
 import unittest
+from argparse import Namespace
 from pathlib import Path
+from unittest import mock
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -58,6 +60,24 @@ class FakeService:
 
 
 class GoogleCalendarSyncTests(unittest.TestCase):
+    def test_default_lookback_covers_retained_past_events(self):
+        self.assertEqual(sync.DEFAULT_HISTORY_DAYS, 365)
+
+    def test_rest_client_can_be_selected_even_when_google_client_is_installed(self):
+        args = Namespace(token=Path("/tmp/token.json"), history_days=7, allow_empty=False)
+        with (
+            mock.patch.dict(sync.os.environ, {"HARMONICA_GOOGLE_CALENDAR_CLIENT": "rest"}),
+            mock.patch.object(sync, "load_token_info", return_value={}),
+            mock.patch.object(sync, "refresh_access_token", return_value="access-token"),
+            mock.patch.object(sync, "sync_one_calendar", return_value={"status": "ok"}),
+            mock.patch.object(sync, "write_status"),
+        ):
+            status = {}
+            result = sync.run_sync(args, status, [{"calendar_key": "taiwan"}])
+
+        self.assertEqual(result, 0)
+        self.assertEqual(status["client"], "rest")
+
     def test_timed_event_resource_preserves_event_timezone(self):
         resource = sync.event_resource(
             {

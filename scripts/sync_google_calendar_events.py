@@ -30,7 +30,7 @@ SCOPES = ["https://www.googleapis.com/auth/calendar"]
 PRIVATE_MARKER_KEY = "harmonicaObserve"
 PRIVATE_MARKER_VALUE = "public-calendar"
 PRIVATE_EVENT_ID_KEY = "harmonicaObserveEventId"
-DEFAULT_HISTORY_DAYS = 7
+DEFAULT_HISTORY_DAYS = 365
 NETWORK_PROBE_HOST = "oauth2.googleapis.com"
 NETWORK_WAIT_SECONDS = int(os.environ.get("HARMONICA_NETWORK_WAIT_SECONDS", "120"))
 
@@ -201,12 +201,28 @@ class CalendarRestRequest:
             data = json.dumps(self.body, ensure_ascii=False).encode("utf-8")
             headers["Content-Type"] = "application/json; charset=utf-8"
         request = urllib.request.Request(self.url, data=data, headers=headers, method=self.method)
-        try:
-            with urllib.request.urlopen(request, timeout=30) as response:
-                raw = response.read().decode("utf-8")
-        except urllib.error.HTTPError as exc:
-            detail = exc.read().decode("utf-8", errors="replace")
-            raise RuntimeError(f"Google Calendar API {self.method} failed: HTTP {exc.code} {detail}") from exc
+        raw = ""
+        for attempt in range(5):
+            try:
+                with urllib.request.urlopen(request, timeout=30) as response:
+                    raw = response.read().decode("utf-8")
+                break
+            except urllib.error.HTTPError as exc:
+                detail = exc.read().decode("utf-8", errors="replace")
+                retryable = exc.code in {429, 500, 502, 503, 504} or (
+                    exc.code == 403 and "rateLimitExceeded" in detail
+                )
+                if retryable and attempt < 4:
+                    time.sleep(2**attempt)
+                    continue
+                raise RuntimeError(
+                    f"Google Calendar API {self.method} failed: HTTP {exc.code} {detail}"
+                ) from exc
+            except (TimeoutError, urllib.error.URLError) as exc:
+                if attempt < 4:
+                    time.sleep(2**attempt)
+                    continue
+                raise RuntimeError(f"Google Calendar API {self.method} failed: {exc}") from exc
         if not raw:
             return {}
         return json.loads(raw)
@@ -498,16 +514,22 @@ def main() -> int:
 
 def run_sync(args, status: dict[str, Any], calendar_metadata_rows: list[dict[str, str]]) -> int:
     token_path = args.token.expanduser()
-    try:
-        from googleapiclient.discovery import build
-    except ModuleNotFoundError:
+    client_mode = os.environ.get("HARMONICA_GOOGLE_CALENDAR_CLIENT", "").strip().lower()
+    if client_mode == "rest":
         token = refresh_access_token(load_token_info(token_path))
         service = CalendarRestService(token)
         status["client"] = "rest"
     else:
-        creds = load_credentials(token_path)
-        service = build("calendar", "v3", credentials=creds, cache_discovery=False)
-        status["client"] = "google-api-python-client"
+        try:
+            from googleapiclient.discovery import build
+        except ModuleNotFoundError:
+            token = refresh_access_token(load_token_info(token_path))
+            service = CalendarRestService(token)
+            status["client"] = "rest"
+        else:
+            creds = load_credentials(token_path)
+            service = build("calendar", "v3", credentials=creds, cache_discovery=False)
+            status["client"] = "google-api-python-client"
     results: list[dict[str, Any]] = []
     for metadata in calendar_metadata_rows:
         try:
