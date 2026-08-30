@@ -774,10 +774,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "99",
-      "latestUpdateAt": "2026-08-30T05:15:27+00:00",
+      "latestUpdateAt": "2026-08-30T05:15:28+00:00",
       "latestUpdateLocal": "2026-08-30 13:15",
       "latestUpdateSource": "范曉怡",
-      "latestUpdateUrl": "https://www.threads.com/t/DcpvPwAEsqS",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcpvPvuEqWR/",
       "avatarUrl": "/assets/source-avatars/38a18c7f7ae516612aa5.webp",
       "sourceInitials": "范曉",
       "sourceTags": [
