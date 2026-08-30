@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T01:19:28.668389Z",
+  "generatedAt": "2026-08-30T02:30:26.067495Z",
   "source": {
     "id": 321,
     "slug": "321",
     "name": "黃渝雯",
     "pageUrl": "https://harmonica.observe.tw/source/321/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-c2e825b620a018a1838ba2a0",
+      "title": "中山女高口琴社倒囉！（好像是倒了有陣子了）",
+      "excerpt": "中山女高口琴社倒囉！（好像是倒了有陣子了） 雖然會使用FB的人，全都已經脫離那個在意社團的年紀了，但還是和大家進度更新一下。 其實本來也就是遲早的事，感謝胖擊的裕豐在中口最後幾年依舊持續陪伴中口學妹們一起吹琴🙏 那個大家補習時間全滿，卻為了要一起吹期末音樂會，又是家庭革命、又是求老師小考延期、又是相互配合，壓榨出彼此最後一點下課十分鐘時間，一起衝去走廊自主練習的青春，是我到現在也很常說給小小孩聽的小故事。 依照現在的臺灣口琴實力演進，當時我們所努力的，可以說只是口琴皮毛中的皮毛。但卻因為中口，讓小學後就錯過一切可以學音樂的途徑的我知道，自己仍然有資格與…",
+      "url": "https://www.facebook.com/huang.yu.wen.163338/posts/pfbid02Tzb9b4GzbAuTeYF8DwTR23Zdn9q6xfBhaqNLbLyCBWByzhj8j4W66aNnfEFXFsggl",
+      "sourceName": "黃渝雯",
+      "platform": "Facebook",
+      "publishedAt": "2026-08-29T17:22:32Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/5624903a6c7e537ca440.webp",
+        "width": 590,
+        "height": 443
+      }
+    }
+  ]
 }

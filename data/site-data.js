@@ -2,6 +2,161 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-08-30",
   "entries": [
     {
+      "id": "watchlist-21",
+      "publicId": "21",
+      "name": "Orion 口琴樂團",
+      "nameEn": "Orion Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "青少年室內樂/WHF 2025/張晁滕/陳瑤容",
+      "structuredSummary": "青少年室內樂/WHF 2025/張晁滕/陳瑤容 / 口琴重奏 / 演出團體",
+      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含青少年室內樂、WHF 2025與張晁滕。",
+      "keywords": "Orion 口琴樂團 WHF 2025 張晁滕 陳瑤容",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "21-orion",
+      "latestUpdateAt": "2026-08-30T02:22:57.215047+00:00",
+      "latestUpdateLocal": "2026-08-30 10:22",
+      "latestUpdateSource": "Orion 口琴樂團",
+      "latestUpdateUrl": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU",
+      "avatarUrl": "/assets/source-avatars/7e9355379ec305f2cccb.webp",
+      "sourceInitials": "O",
+      "sourceTags": [
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_taiwanharmonica",
+          "name": "臺灣口琴音樂節 THMF",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "taiwanharmonica",
+          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "web_21",
+          "name": "Orion 口琴樂團",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-12",
+      "publicId": "12",
+      "name": "臺灣口琴樂團",
+      "nameEn": "Taiwan Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "1998成立/THE-22/合奏/公開演出/指定曲出版",
+      "structuredSummary": "1998成立/THE-22/合奏/公開演出/指定曲出版 / 口琴合奏 / 演出團體",
+      "summary": "臺灣的口琴合奏演出團體，活動脈絡包含1998成立、THE-22與合奏。",
+      "keywords": "臺灣口琴樂團 Taiwan Harmonica Ensemble THE-22 廖訓禎",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "12",
+      "latestUpdateAt": "2026-08-30T02:22:16.016448+00:00",
+      "latestUpdateLocal": "2026-08-30 10:22",
+      "latestUpdateSource": "臺灣口琴樂團",
+      "latestUpdateUrl": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
+      "avatarUrl": "/assets/source-avatars/c1b9a8d6df3e79573ba0.webp",
+      "sourceInitials": "臺灣",
+      "sourceTags": [
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_ntubluesound",
+          "name": "NTU Blue Sound Harmonica Club",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "ntubluesound",
+          "profileUrl": "https://www.instagram.com/ntubluesound/",
+          "feedUrl": ""
+        },
+        {
+          "id": "web_12",
+          "name": "臺灣口琴樂團",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-321",
+      "publicId": "321",
+      "name": "黃渝雯",
+      "nameEn": "",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/臺南/臺北",
+      "cityOrFocus": "口琴演奏與教學/臺南社區大學口琴教師/成大校園口琴教學與多所中小學口琴隊指導/巴巴口琴坊成員",
+      "structuredSummary": "口琴演奏與教學/臺南社區大學口琴教師/成大校園口琴教學與多所中小學口琴隊指導/巴巴口琴坊成員 / 口琴 / 演出人員/口琴教師/學校社團指導老師",
+      "summary": "黃渝雯（巴巴）是臺南口琴演奏者與教師，於臺南社區大學授課，並指導成大口琴社、德南國小、公園國小與馬光國中等口琴團隊，也是巴巴口琴坊成員。",
+      "keywords": "黃渝雯 巴巴 Huang Baba huang_baba 巴巴口琴坊 成大口琴社 德南國小口琴隊 公園國小口琴隊 馬光國中口琴隊 臺南社區大學 中山女高口琴社",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/huang.yu.wen.163338"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "321",
+      "latestUpdateAt": "2026-08-29T17:22:32+00:00",
+      "latestUpdateLocal": "2026-08-30 01:22",
+      "latestUpdateSource": "黃渝雯",
+      "latestUpdateUrl": "https://www.facebook.com/huang.yu.wen.163338/posts/pfbid02Tzb9b4GzbAuTeYF8DwTR23Zdn9q6xfBhaqNLbLyCBWByzhj8j4W66aNnfEFXFsggl",
+      "avatarUrl": "/assets/source-avatars/96f8a017c4b695332df4.webp",
+      "sourceInitials": "黃渝",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "學生社團"
+      ],
+      "sourceSummary": "黃渝雯（巴巴）是臺南口琴演奏者與教師，於臺南社區大學授課，並指導成大口琴社、德南國小、公園國小與馬光國中等口琴團隊，也是巴巴口琴坊成員。",
+      "sourceTagReason": "依本人公開 Facebook About 與公開演出貼文交叉確認其口琴教學、校園團隊指導與巴巴口琴坊成員身分。",
+      "monitorSources": [
+        {
+          "id": "fb_huang_yu_wen_163338",
+          "name": "黃渝雯",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/huang.yu.wen.163338",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-316",
       "publicId": "316",
       "name": "太平國小口琴隊",
@@ -530,113 +685,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@SIHF-uv5mk",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-21",
-      "publicId": "21",
-      "name": "Orion 口琴樂團",
-      "nameEn": "Orion Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "青少年室內樂/WHF 2025/張晁滕/陳瑤容",
-      "structuredSummary": "青少年室內樂/WHF 2025/張晁滕/陳瑤容 / 口琴重奏 / 演出團體",
-      "summary": "臺灣的口琴重奏演出團體，活動脈絡包含青少年室內樂、WHF 2025與張晁滕。",
-      "keywords": "Orion 口琴樂團 WHF 2025 張晁滕 陳瑤容",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "21-orion",
-      "latestUpdateAt": "2026-08-29T13:59:48.601263+00:00",
-      "latestUpdateLocal": "2026-08-29 21:59",
-      "latestUpdateSource": "Orion 口琴樂團",
-      "latestUpdateUrl": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU",
-      "avatarUrl": "/assets/source-avatars/7e9355379ec305f2cccb.webp",
-      "sourceInitials": "O",
-      "sourceTags": [
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_taiwanharmonica",
-          "name": "臺灣口琴音樂節 THMF",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "taiwanharmonica",
-          "profileUrl": "https://www.instagram.com/taiwanharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "web_21",
-          "name": "Orion 口琴樂團",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://tixfun.com/UTK0201_?PRODUCT_ID=Q025T5HU",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-12",
-      "publicId": "12",
-      "name": "臺灣口琴樂團",
-      "nameEn": "Taiwan Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "1998成立/THE-22/合奏/公開演出/指定曲出版",
-      "structuredSummary": "1998成立/THE-22/合奏/公開演出/指定曲出版 / 口琴合奏 / 演出團體",
-      "summary": "臺灣的口琴合奏演出團體，活動脈絡包含1998成立、THE-22與合奏。",
-      "keywords": "臺灣口琴樂團 Taiwan Harmonica Ensemble THE-22 廖訓禎",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "12",
-      "latestUpdateAt": "2026-08-29T13:59:32.185578+00:00",
-      "latestUpdateLocal": "2026-08-29 21:59",
-      "latestUpdateSource": "臺灣口琴樂團",
-      "latestUpdateUrl": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
-      "avatarUrl": "/assets/source-avatars/c1b9a8d6df3e79573ba0.webp",
-      "sourceInitials": "臺灣",
-      "sourceTags": [
-        "團體樂團"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_ntubluesound",
-          "name": "NTU Blue Sound Harmonica Club",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "ntubluesound",
-          "profileUrl": "https://www.instagram.com/ntubluesound/",
-          "feedUrl": ""
-        },
-        {
-          "id": "web_12",
-          "name": "臺灣口琴樂團",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
           "feedUrl": ""
         }
       ]
@@ -21202,54 +21250,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://aphfx-1255574727.cos.ap-shanghai.myqcloud.com/20260525/b7c13721063843dea26d91b405ad27dc.png",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-321",
-      "publicId": "321",
-      "name": "黃渝雯",
-      "nameEn": "",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/臺南/臺北",
-      "cityOrFocus": "口琴演奏與教學/臺南社區大學口琴教師/成大校園口琴教學與多所中小學口琴隊指導/巴巴口琴坊成員",
-      "structuredSummary": "口琴演奏與教學/臺南社區大學口琴教師/成大校園口琴教學與多所中小學口琴隊指導/巴巴口琴坊成員 / 口琴 / 演出人員/口琴教師/學校社團指導老師",
-      "summary": "黃渝雯（巴巴）是臺南口琴演奏者與教師，於臺南社區大學授課，並指導成大口琴社、德南國小、公園國小與馬光國中等口琴團隊，也是巴巴口琴坊成員。",
-      "keywords": "黃渝雯 巴巴 Huang Baba huang_baba 巴巴口琴坊 成大口琴社 德南國小口琴隊 公園國小口琴隊 馬光國中口琴隊 臺南社區大學 中山女高口琴社",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/huang.yu.wen.163338"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "321",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/96f8a017c4b695332df4.webp",
-      "sourceInitials": "黃渝",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "學生社團"
-      ],
-      "sourceSummary": "黃渝雯（巴巴）是臺南口琴演奏者與教師，於臺南社區大學授課，並指導成大口琴社、德南國小、公園國小與馬光國中等口琴團隊，也是巴巴口琴坊成員。",
-      "sourceTagReason": "依本人公開 Facebook About 與公開演出貼文交叉確認其口琴教學、校園團隊指導與巴巴口琴坊成員身分。",
-      "monitorSources": [
-        {
-          "id": "fb_huang_yu_wen_163338",
-          "name": "黃渝雯",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/huang.yu.wen.163338",
           "feedUrl": ""
         }
       ]
