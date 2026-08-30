@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T03:51:13.484006Z",
+  "generatedAt": "2026-08-30T04:25:50.366523Z",
   "source": {
     "id": 79,
     "slug": "79",
@@ -158,20 +158,6 @@
       "publishedAt": "2026-08-01T04:00:11Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/84c50f9ac928536322ce.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-6892f0506fe152a2dfdc15b1",
-      "title": "跟著王安琪走一段路 ᯓ從東區商圈到兩廳院，藏著四齣你意想不到的戲｜2026秋天藝術節",
-      "excerpt": "跟著王安琪走一段路 ᯓ從東區商圈到兩廳院，藏著四齣你意想不到的戲｜2026秋天藝術節 ⛐ 𝟸𝟶𝟸𝟼秋天藝術節 ᯓ 跟著王安琪走一段路 如果 劇場能陪我們重新看見世界 ​那麼 也許一趟散步就可以開始 ​ 演員 #王安琪 帶我們散策頂好名店城 一路穿過手扶梯、歇業的時裝店、占卜攤與拍貼機 每一個轉角，都藏著一齣即將上演的作品 ​ 𖠰 克里斯托斯．帕帕多普洛斯《步步》 十位舞者只靠呼吸與節奏，就讓荷蘭媒體形容像在踢一場足球 ​ 𖠰 卡羅琳．居拉．阮《眼淚》 一件婚紗串起巴黎到孟買，也讓那些未曾被看見的人，終於走上舞臺 ​ 𖠰 艾薩．霍克森 ✕ 維努里．佩雷拉…",
-      "url": "https://www.youtube.com/watch?v=kqeAQCLhW-0",
-      "sourceName": "國家兩廳院",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-31T04:00:40Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/8d3bf16380b6a704a1e3.webp",
         "width": 800,
         "height": 450
       }
