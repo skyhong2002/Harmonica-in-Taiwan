@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T03:15:26.856515Z",
+  "generatedAt": "2026-08-30T03:51:13.484006Z",
   "source": {
     "id": 46,
     "slug": "alysa-liao",
@@ -8,6 +8,34 @@
     "pageUrl": "https://harmonica.observe.tw/source/46-alysa-liao/"
   },
   "items": [
+    {
+      "id": "post-1e2552e546e10682e5c6ba83",
+      "title": "Alysa Liao 廖苡晴｜Tommy Reilly - Golden Girl",
+      "excerpt": "Alysa Liao 廖苡晴｜Tommy Reilly - Golden Girl Tommy Reilly - Golden Girl Harmonica: Alysa Liao 廖苡晴 Piano: Morris Qiu 邱顯博 2026.08 @亞門",
+      "url": "https://www.youtube.com/watch?v=SSuE__ktTLs",
+      "sourceName": "廖苡晴",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-29T16:48:08Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ccbb36ce1294c84d9d6f.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
+    {
+      "id": "post-5e3144c41101d04f1d5fdc6f",
+      "title": "Alysa Liao 廖苡晴｜Astor Piazzolla - Primavera Porteña (Excerpt) 皮耶左拉：布宜諾斯艾利斯之春（選段）",
+      "excerpt": "Alysa Liao 廖苡晴｜Astor Piazzolla - Primavera Porteña (Excerpt) 皮耶左拉：布宜諾斯艾利斯之春（選段） Astor Piazzolla - Primavera Porteña (Excerpt) 皮耶左拉：布宜諾斯艾利斯之春（選段） Harmonica｜Alysa Liao 廖苡晴 Piano｜Morris Qiu 邱顯博 2026.08 @亞門",
+      "url": "https://www.youtube.com/watch?v=nRAAqI9GP1U",
+      "sourceName": "廖苡晴",
+      "platform": "YouTube",
+      "publishedAt": "2026-08-28T09:00:10Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/0773c2e2c52b12b07fd9.webp",
+        "width": 800,
+        "height": 450
+      }
+    },
     {
       "id": "post-462de0b41e6f115b60ff22c3",
       "title": "Alysa Liao 廖苡晴｜M. SPIVAKOVSKY – Concerto for Harmonica & Orchestra II. Romance",
