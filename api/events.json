@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 655,
+  "count": 656,
   "items": [
     {
       "title": "太平國小口琴隊｜臺中市政府教育局-校園活動報導 --> 跳到主要內容區 臺中市政府教育局 回首頁 市府首頁 網站導覽 常見問答 快速連結 English 教育服務網 A- A A+ 搜尋 單位介紹 首長介紹 組織與職掌 各級學校 局徽介紹…",
@@ -2776,6 +2776,79 @@
         "公開活動"
       ],
       "key": "web_312:67168c27d23ad35400e4b383b93b592af62e11c100804623a87a71752f6caa34"
+    },
+    {
+      "title": "Deak Harp｜BBQ BLUES & BREWS 9/5 @ Austell Towne Park 2780 Jefferson St Austell GA Austell, get ready—BBQ, Blues & Brews…",
+      "headline": "BBQ BLUES & BREWS",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DckJRmnuTf0/",
+      "source_id": "ig_deakharp",
+      "source": "Deak Harp",
+      "source_system_name": "Deak Harp",
+      "source_profile_url": "https://www.instagram.com/deakharp/",
+      "country": "美國",
+      "region": "美國",
+      "directory_entry_id": "watchlist-158",
+      "directory_entry_name": "Deak Harp",
+      "account": "deakharp",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "Fri, 28 Aug 2026 01:23:34 GMT",
+      "posted_at_local": "2026-08-28 09:23",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-30T20:06:59.072682+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://rss.observe.tw/instagram/2/user/deakharp",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "keyword_matches": [],
+      "llm_relevant": true,
+      "llm_confidence": 0.86,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文含口琴演出者 Deak Harp 參與公開演出活動，屬口琴演奏者更新。",
+      "text": "BBQ BLUES & BREWS\n9/5 @ Austell Towne Park 2780 Jefferson St Austell GA\nAustell, get ready—BBQ, Blues & Brews is coming to Austell Towne Park on Saturday, September 5, from 10 AM–10 PM!\nBlack Hat Blues is bringing a powerful day of live music, great food, cold craft brews, and family fun—with a special Mississippi blues connection in the house.\n🎸 Cannonball Red & The Head Hunters\n🎵 Deak Harp\n🔥 Featuring Harrell “Young Rell” Davenport\n🎤 Special All-Star Finale with Chuck Beattie “Dr. Blues” and all artists on stage\nBring the family, bring your dancing shoes, and come celebrate good food, great blues, and the community spirit of Austell!\n📍 Austell Towne Park\n2780 Jefferson Street, Austell, GA 30168\n🗓 Saturday, September 5\n⏰ 10 AM–10 PM\n#BBQBluesAndBrews #AustellGA #AustellTownePark #BlackHatBlues #CannonballRed",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/785265660_18615807001062798_2255481673984692040_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzk3MzM0MTU2MzM2NTk2Mzc2NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTAwMy5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=fX9tE1VY5pEQ7kNvwGxJcAg&_nc_oc=Adp6emsclYPvpYr9wECTHFr7L5Jxb6HM2uZHXEhVjiXqfU3Dw-1kmJ6aqFmdqdae0Kk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Y35xbUacIWWf03mkUBZEpA&_nc_ss=7a22e&oh=00_AQJgdkzYEr2xhJH6Yjrn9GUbCosYy6Z1M-QE1iALLJRjNg&oe=6A9A7ACF"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/785265660_18615807001062798_2255481673984692040_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzk3MzM0MTU2MzM2NTk2Mzc2NA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTAwMy5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=fX9tE1VY5pEQ7kNvwGxJcAg&_nc_oc=Adp6emsclYPvpYr9wECTHFr7L5Jxb6HM2uZHXEhVjiXqfU3Dw-1kmJ6aqFmdqdae0Kk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Y35xbUacIWWf03mkUBZEpA&_nc_ss=7a22e&oh=00_AQJgdkzYEr2xhJH6Yjrn9GUbCosYy6Z1M-QE1iALLJRjNg&oe=6A9A7ACF",
+      "image_url": "/assets/feed-images/7acd20d30bab3cba9303.webp",
+      "image_width": 800,
+      "image_height": 800,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/462246715_1976514706155954_3060291646075355369_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby41MDAuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gHhwz61IYnYAECIBOw6wBg8Rk5VqlPzLPpP60UsI-xairPhsLGHXWgcQjzZShtR3wo&_nc_ohc=SE0cb2EUHkQQ7kNvwGyotmx&_nc_gid=IoATf49GXWKwytHJqAaz0A&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQKS01Fs8O28dga8kwbN-2o3wsb5K36Ma2X_rUzfH8U3OQ&oe=6A9A45F3&_nc_sid=ee9879",
+      "avatar_url": "/assets/source-avatars/96b46e8acd78e3a9e2cf.webp",
+      "source_initials": "DH",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_deakharp:https://www.instagram.com/p/DckJRmnuTf0/"
     },
     {
       "title": "就是吹口琴 陳鴻儀Henry’s Harmonica｜【就是吹口琴Just Play Harmonica 】｜Tom Jones – DELILAH(狄萊拉)｜複音口琴Tremolo Harmonica 演奏版本《C調》 DELILAH(…",

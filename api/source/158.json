@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T19:00:33.853885Z",
+  "generatedAt": "2026-08-30T20:07:39.507651Z",
   "source": {
     "id": 158,
     "slug": "deak-harp",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/158-deak-harp/"
   },
   "items": [
+    {
+      "id": "post-851e92b0163adb25b6461294",
+      "title": "BBQ BLUES & BREWS",
+      "excerpt": "BBQ BLUES & BREWS 9/5 @ Austell Towne Park 2780 Jefferson St Austell GA Austell, get ready—BBQ, Blues & Brews is coming to Austell Towne Park on Saturday, September 5, from 10 AM–10 PM! Black Hat Blues is bringing a powerful day of live music, great food, cold craft brews, and f…",
+      "url": "https://www.instagram.com/p/DckJRmnuTf0/",
+      "sourceName": "Deak Harp",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-28T01:23:34Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/7acd20d30bab3cba9303.webp",
+        "width": 800,
+        "height": 800
+      }
+    },
     {
       "id": "post-caedc15a4d26ea53c625f9c1",
       "title": "The first time I ever played with Taildragger, he didn’t know that Martin gave me the microphone and he turned around a…",
@@ -20,6 +34,20 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/b39365fe3bf333cee4e9.webp",
         "width": 800,
         "height": 450
+      }
+    },
+    {
+      "id": "post-9c75160e279507392d700ee9",
+      "title": "Deak Harp",
+      "excerpt": "",
+      "url": "https://www.instagram.com/p/DcXU1OsDaZS/",
+      "sourceName": "Deak Harp",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-23T01:38:36Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/07a4b22765f0613b75eb.webp",
+        "width": 504,
+        "height": 896
       }
     },
     {

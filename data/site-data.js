@@ -1580,10 +1580,10 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "142-howard-levy",
-      "latestUpdateAt": "2026-08-28T14:56:45+00:00",
-      "latestUpdateLocal": "2026-08-28 22:56",
+      "latestUpdateAt": "2026-08-28T15:01:51+00:00",
+      "latestUpdateLocal": "2026-08-28 23:01",
       "latestUpdateSource": "Howard Levy",
-      "latestUpdateUrl": "https://www.facebook.com/HowardLevyFanPage/posts/pfbid0nmCNrUNe1Tdp5cfhdegy6AXJbeihDSvhDhYhn2AwqgaQj1BqXCjHZDWAqimatTi5l",
+      "latestUpdateUrl": "https://www.instagram.com/p/DclnxXmOEtu/",
       "avatarUrl": "/assets/source-avatars/2fe863e9b5b0d5cdd08b.webp",
       "sourceInitials": "HL",
       "sourceTags": [
@@ -1767,6 +1767,92 @@ window.HARMONICA_OBSERVE_DATA = {
           "username": "harmonica_wang",
           "profileUrl": "https://www.threads.net/@harmonica_wang",
           "feedUrl": "https://rss.observe.tw/threads/harmonica_wang"
+        }
+      ]
+    },
+    {
+      "id": "watchlist-115",
+      "publicId": "115",
+      "name": "Filip Jers",
+      "nameEn": "Filip Jers",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "瑞典",
+      "region": "瑞典",
+      "cityOrFocus": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出",
+      "structuredSummary": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出 / 半音階/十孔 / 國際演出人員/作曲者/教育者",
+      "summary": "瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。",
+      "keywords": "Filip Jers harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.filipjers.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/filipjersmusic/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/filipjersharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@filipjersmusic"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "115-filip-jers",
+      "latestUpdateAt": "2026-08-28T11:40:40+00:00",
+      "latestUpdateLocal": "2026-08-28 19:40",
+      "latestUpdateSource": "Filip Jers",
+      "latestUpdateUrl": "https://www.instagram.com/p/DclRruNMyed/",
+      "avatarUrl": "/assets/source-avatars/0cd42e751710b0949492.webp",
+      "sourceInitials": "FJ",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_filipjersmusic",
+          "name": "Filip Jers",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/filipjersmusic",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_filipjersharmonica",
+          "name": "Filip Jers",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "filipjersharmonica",
+          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_filipjersharmonica",
+          "name": "Filip Jers",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "filipjersharmonica",
+          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_filipjersmusic",
+          "name": "Filip Jers",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@filipjersmusic",
+          "feedUrl": ""
         }
       ]
     },
@@ -2291,6 +2377,92 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-158",
+      "publicId": "158",
+      "name": "Deak Harp",
+      "nameEn": "Deak Harp",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "美國",
+      "region": "美國",
+      "cityOrFocus": "WHF 2025/藍調十孔/Chicago blues/演出與教學",
+      "structuredSummary": "WHF 2025/藍調十孔/Chicago blues/演出與教學 / 十孔/藍調口琴 / 國際演出人員",
+      "summary": "美國的十孔與藍調口琴國際演出人員，活動脈絡包含WHF 2025、藍調十孔與Chicago blues。",
+      "keywords": "Deak Harp blues harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://deakharp.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/deak.harp/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/deakharp/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@deakharp"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "158-deak-harp",
+      "latestUpdateAt": "2026-08-28T01:23:34+00:00",
+      "latestUpdateLocal": "2026-08-28 09:23",
+      "latestUpdateSource": "Deak Harp",
+      "latestUpdateUrl": "https://www.instagram.com/p/DckJRmnuTf0/",
+      "avatarUrl": "/assets/source-avatars/deak-harp.jpg",
+      "sourceInitials": "DH",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_deak_harp",
+          "name": "Deak Harp",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/deak.harp",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_deakharp",
+          "name": "Deak Harp",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "deakharp",
+          "profileUrl": "https://www.instagram.com/deakharp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_deakharp",
+          "name": "Deak Harp",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "deakharp",
+          "profileUrl": "https://www.instagram.com/deakharp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_deakharp",
+          "name": "Deak Harp",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@deakharp",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-224",
       "publicId": "224",
       "name": "Easttop Harmonicas",
@@ -2379,92 +2551,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@easttopmusic",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-158",
-      "publicId": "158",
-      "name": "Deak Harp",
-      "nameEn": "Deak Harp",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "美國",
-      "region": "美國",
-      "cityOrFocus": "WHF 2025/藍調十孔/Chicago blues/演出與教學",
-      "structuredSummary": "WHF 2025/藍調十孔/Chicago blues/演出與教學 / 十孔/藍調口琴 / 國際演出人員",
-      "summary": "美國的十孔與藍調口琴國際演出人員，活動脈絡包含WHF 2025、藍調十孔與Chicago blues。",
-      "keywords": "Deak Harp blues harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://deakharp.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/deak.harp/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/deakharp/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@deakharp"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "158-deak-harp",
-      "latestUpdateAt": "2026-08-27T16:41:24+00:00",
-      "latestUpdateLocal": "2026-08-28 00:41",
-      "latestUpdateSource": "Deak Harp",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcjPXIYlB-l/",
-      "avatarUrl": "/assets/source-avatars/deak-harp.jpg",
-      "sourceInitials": "DH",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_deak_harp",
-          "name": "Deak Harp",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/deak.harp",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_deakharp",
-          "name": "Deak Harp",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "deakharp",
-          "profileUrl": "https://www.instagram.com/deakharp/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_deakharp",
-          "name": "Deak Harp",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "deakharp",
-          "profileUrl": "https://www.instagram.com/deakharp/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_deakharp",
-          "name": "Deak Harp",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@deakharp",
           "feedUrl": ""
         }
       ]
@@ -2644,92 +2730,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@leeoskarharmonicas",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-115",
-      "publicId": "115",
-      "name": "Filip Jers",
-      "nameEn": "Filip Jers",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "瑞典",
-      "region": "瑞典",
-      "cityOrFocus": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出",
-      "structuredSummary": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出 / 半音階/十孔 / 國際演出人員/作曲者/教育者",
-      "summary": "瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。",
-      "keywords": "Filip Jers harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.filipjers.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/filipjersmusic/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/filipjersharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@filipjersmusic"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "115-filip-jers",
-      "latestUpdateAt": "2026-08-27T14:00:24+00:00",
-      "latestUpdateLocal": "2026-08-27 22:00",
-      "latestUpdateSource": "Filip Jers",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=fjhNKeRCA1Q",
-      "avatarUrl": "/assets/source-avatars/0cd42e751710b0949492.webp",
-      "sourceInitials": "FJ",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_filipjersmusic",
-          "name": "Filip Jers",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/filipjersmusic",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_filipjersharmonica",
-          "name": "Filip Jers",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "filipjersharmonica",
-          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_filipjersharmonica",
-          "name": "Filip Jers",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "filipjersharmonica",
-          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_filipjersmusic",
-          "name": "Filip Jers",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@filipjersmusic",
           "feedUrl": ""
         }
       ]
