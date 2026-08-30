@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T10:52:12.709138Z",
+  "generatedAt": "2026-08-30T12:05:21.217776Z",
   "source": {
     "id": 88,
     "slug": "bluebo-harmonica",
@@ -158,20 +158,6 @@
       "publishedAt": "2026-08-02T11:50:31Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/087fc3b1c73519b94d2a.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-1271f6883f13189316989965",
-      "title": "再見的時候丨北投社大口琴班",
-      "excerpt": "再見的時候丨北投社大口琴班 這首歌是今年最紅的電影「陽光女子合唱團」的主題曲，歌詞描述人生中的相聚離別、深愛與遺憾，課程中透過淑貞老師帶領賞析電影後，大家練著練著都被旋律與歌詞的意境療癒了! 北投社大口琴班(五)晚上",
-      "url": "https://www.youtube.com/watch?v=ZKMhU0ZrCLk",
-      "sourceName": "藍波口琴教室",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-31T11:00:30Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/65f77c790a00456b4104.webp",
         "width": 800,
         "height": 450
       }

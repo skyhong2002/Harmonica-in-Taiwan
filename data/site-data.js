@@ -1208,6 +1208,52 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-87",
+      "publicId": "87",
+      "name": "桃園玩口琴",
+      "nameEn": "Taoyuan Harmonica Community",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "地方教學/社大課程",
+      "country": "臺灣",
+      "region": "臺灣/桃園",
+      "cityOrFocus": "口琴課程/地方社群活動",
+      "structuredSummary": "口琴課程/地方社群活動 / 口琴 / 教學/課程來源",
+      "summary": "臺灣的口琴教學與課程來源，關注口琴課程與地方社群活動。",
+      "keywords": "桃園玩口琴 桃園 口琴 課程 社大",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/p/%E6%A1%83%E5%9C%92%E7%8E%A9%E5%8F%A3%E7%90%B4-100057424090624/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "87",
+      "latestUpdateAt": "2026-08-29T16:42:54+00:00",
+      "latestUpdateLocal": "2026-08-30 00:42",
+      "latestUpdateSource": "桃園玩口琴",
+      "latestUpdateUrl": "https://www.facebook.com/reel/3293278990845019/",
+      "avatarUrl": "/assets/source-avatars/taoyuan-harmonica.jpg",
+      "sourceInitials": "桃園",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "課程"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_291bc27392",
+          "name": "桃園玩口琴",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/p/%E6%A1%83%E5%9C%92%E7%8E%A9%E5%8F%A3%E7%90%B4-100057424090624",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-104",
       "publicId": "104",
       "name": "Timothy Yip 葉進禧",
@@ -1495,6 +1541,92 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@cyleoharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-142",
+      "publicId": "142",
+      "name": "Howard Levy",
+      "nameEn": "Howard Levy",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "美國",
+      "region": "美國",
+      "cityOrFocus": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興",
+      "structuredSummary": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興 / 半音階/十孔/鋼琴 / 國際演出人員/作曲者/教育者",
+      "summary": "美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。",
+      "keywords": "Howard Levy harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://levyland.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/HowardLevyFanPage/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/howardlevyland/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "142-howard-levy",
+      "latestUpdateAt": "2026-08-28T14:56:45+00:00",
+      "latestUpdateLocal": "2026-08-28 22:56",
+      "latestUpdateSource": "Howard Levy",
+      "latestUpdateUrl": "https://www.facebook.com/HowardLevyFanPage/posts/pfbid0nmCNrUNe1Tdp5cfhdegy6AXJbeihDSvhDhYhn2AwqgaQj1BqXCjHZDWAqimatTi5l",
+      "avatarUrl": "/assets/source-avatars/2fe863e9b5b0d5cdd08b.webp",
+      "sourceInitials": "HL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_howardlevyfanpage",
+          "name": "Howard Levy",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/HowardLevyFanPage",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_howardlevyland",
+          "name": "Howard Levy",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "howardlevyland",
+          "profileUrl": "https://www.instagram.com/howardlevyland/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_howardlevyland",
+          "name": "Howard Levy",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "howardlevyland",
+          "profileUrl": "https://www.instagram.com/howardlevyland/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_uc86aeg8s_npzmfuj_cyxw",
+          "name": "Howard Levy",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
           "feedUrl": ""
         }
       ]
@@ -3554,52 +3686,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-87",
-      "publicId": "87",
-      "name": "桃園玩口琴",
-      "nameEn": "Taoyuan Harmonica Community",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "地方教學/社大課程",
-      "country": "臺灣",
-      "region": "臺灣/桃園",
-      "cityOrFocus": "口琴課程/地方社群活動",
-      "structuredSummary": "口琴課程/地方社群活動 / 口琴 / 教學/課程來源",
-      "summary": "臺灣的口琴教學與課程來源，關注口琴課程與地方社群活動。",
-      "keywords": "桃園玩口琴 桃園 口琴 課程 社大",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/p/%E6%A1%83%E5%9C%92%E7%8E%A9%E5%8F%A3%E7%90%B4-100057424090624/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "87",
-      "latestUpdateAt": "2026-08-26T10:03:33+00:00",
-      "latestUpdateLocal": "2026-08-26 18:03",
-      "latestUpdateSource": "桃園玩口琴",
-      "latestUpdateUrl": "https://www.facebook.com/permalink.php?story_fbid=pfbid02Miosj2hJq8ZiteVexUuSQUG29DYtckxNjR7oTJg2XR421cEfPSnEDJmZB65egqfyl&id=100057424090624",
-      "avatarUrl": "/assets/source-avatars/taoyuan-harmonica.jpg",
-      "sourceInitials": "桃園",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "課程"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_291bc27392",
-          "name": "桃園玩口琴",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/p/%E6%A1%83%E5%9C%92%E7%8E%A9%E5%8F%A3%E7%90%B4-100057424090624",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-76",
       "publicId": "76",
       "name": "新竹縣文化局",
@@ -3678,92 +3764,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCQRgyE_3lyMvt7eWHRzBtzg",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-142",
-      "publicId": "142",
-      "name": "Howard Levy",
-      "nameEn": "Howard Levy",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "美國",
-      "region": "美國",
-      "cityOrFocus": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興",
-      "structuredSummary": "Grammy得獎/口琴與鋼琴/作曲教育/跨界即興 / 半音階/十孔/鋼琴 / 國際演出人員/作曲者/教育者",
-      "summary": "美國的半音階、十孔與鋼琴國際演出人員、作曲者與教育者，活動脈絡包含Grammy得獎、口琴與鋼琴與作曲教育。",
-      "keywords": "Howard Levy harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://levyland.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/HowardLevyFanPage/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/howardlevyland/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "142-howard-levy",
-      "latestUpdateAt": "2026-08-25T16:36:06+00:00",
-      "latestUpdateLocal": "2026-08-26 00:36",
-      "latestUpdateSource": "Howard Levy",
-      "latestUpdateUrl": "https://www.instagram.com/p/DceEToSsGbf/",
-      "avatarUrl": "/assets/source-avatars/2fe863e9b5b0d5cdd08b.webp",
-      "sourceInitials": "HL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_howardlevyfanpage",
-          "name": "Howard Levy",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/HowardLevyFanPage",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_howardlevyland",
-          "name": "Howard Levy",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "howardlevyland",
-          "profileUrl": "https://www.instagram.com/howardlevyland/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_howardlevyland",
-          "name": "Howard Levy",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "howardlevyland",
-          "profileUrl": "https://www.instagram.com/howardlevyland/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_uc86aeg8s_npzmfuj_cyxw",
-          "name": "Howard Levy",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UC86aeG8s---NPzmFuJ_CyXw",
           "feedUrl": ""
         }
       ]
