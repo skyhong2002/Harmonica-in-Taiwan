@@ -65,8 +65,10 @@ def load_authenticated_loader(session_path: Path, env_path: Path) -> instaloader
         if login_user:
             try:
                 loader.load_session_from_file(login_user, filename=str(session_path))
-                if loader.test_login():
-                    return loader
+                # This helper runs once per account. A separate test_login()
+                # here would double the authenticated requests for every
+                # source; the profile/Story request is the real session check.
+                return loader
             except (OSError, instaloader.exceptions.InstaloaderException):
                 pass
 

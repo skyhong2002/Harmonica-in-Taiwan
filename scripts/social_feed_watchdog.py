@@ -75,6 +75,17 @@ STORY_EMPTY_ERROR_PATTERNS = (
     "this route is empty",
     "profile is private",
 )
+INSTALOADER_AUTH_ERROR_PATTERNS = (
+    "401 unauthorized",
+    "please wait a few minutes before you try again",
+    "session rejected",
+    "session missing",
+    "login_required",
+    "login required",
+    "checkpoint_required",
+    "challenge_required",
+)
+INSTALOADER_AUTH_BLOCK_KEY = "instaloader_story_auth_block"
 DEFAULT_INSTAGRAM_PROFILE_INTERVAL_HOURS = 12.0
 DEFAULT_INSTAGRAM_STORY_INTERVAL_HOURS = 12.0
 DEFAULT_INSTAGRAM_DELAY_SECS = 8.0
@@ -918,6 +929,51 @@ def normalize_fetch_state(value: Any) -> dict[str, Any]:
         "version": 1,
         "sources": sources,
     }
+
+
+def is_instaloader_story_source(source: dict[str, Any]) -> bool:
+    return (
+        is_story_source(source)
+        and str(source.get("story_provider") or source.get("provider") or "") == "instaloader"
+    )
+
+
+def is_instaloader_auth_error(error: str) -> bool:
+    message = str(error or "").casefold()
+    return any(pattern in message for pattern in INSTALOADER_AUTH_ERROR_PATTERNS)
+
+
+def instaloader_auth_block_reason(
+    fetch_state: dict[str, Any],
+    *,
+    now: dt.datetime,
+) -> str:
+    block = fetch_state.get(INSTALOADER_AUTH_BLOCK_KEY)
+    if not isinstance(block, dict):
+        return ""
+    blocked_until = parse_datetime(block.get("blocked_until"))
+    if blocked_until is None or blocked_until <= now:
+        fetch_state.pop(INSTALOADER_AUTH_BLOCK_KEY, None)
+        return ""
+    return f"Instaloader auth blocked until {utc_iso(blocked_until)}"
+
+
+def set_instaloader_auth_block(
+    fetch_state: dict[str, Any],
+    *,
+    now: dt.datetime,
+    cooldown_hours: float,
+    error: str,
+) -> None:
+    fetch_state[INSTALOADER_AUTH_BLOCK_KEY] = {
+        "detected_at": utc_iso(now),
+        "blocked_until": utc_iso(now + dt.timedelta(hours=max(0.25, cooldown_hours))),
+        "error": compact_text(error, 500),
+    }
+
+
+def clear_instaloader_auth_block(fetch_state: dict[str, Any]) -> None:
+    fetch_state.pop(INSTALOADER_AUTH_BLOCK_KEY, None)
 
 
 def instagram_bootstrap_anchor(
@@ -2485,6 +2541,22 @@ def main() -> int:
                     message=skip_reason,
                 )
                 continue
+            if is_instaloader_story_source(source):
+                auth_skip_reason = instaloader_auth_block_reason(fetch_state, now=now_utc)
+                if auth_skip_reason:
+                    schedule_stats["skipped"] += 1
+                    schedule_stats["deferred"] += 1
+                    schedule_stats[f"{instagram_kind}_skipped"] = int(schedule_stats.get(f"{instagram_kind}_skipped") or 0) + 1
+                    schedule_stats[f"{instagram_kind}_deferred"] = int(schedule_stats.get(f"{instagram_kind}_deferred") or 0) + 1
+                    record_instagram_skip(fetch_state, source, now=now_utc, reason=auth_skip_reason)
+                    fetch_state_changed = True
+                    publish_progress(
+                        phase="source deferred",
+                        processed_sources=source_index,
+                        current_source=progress_source_summary(source),
+                        message=auth_skip_reason,
+                    )
+                    continue
             max_instagram_attempts = max(0, int(args.instagram_max_attempts_per_run))
             if max_instagram_attempts and int(schedule_stats["attempted"]) >= max_instagram_attempts:
                 skip_reason = f"run attempt limit reached ({max_instagram_attempts})"
@@ -2524,6 +2596,13 @@ def main() -> int:
             )
             if instagram_kind:
                 schedule_stats["errors"] += 1
+                if is_instaloader_story_source(source) and is_instaloader_auth_error(error_text):
+                    set_instaloader_auth_block(
+                        fetch_state,
+                        now=dt.datetime.now(dt.timezone.utc),
+                        cooldown_hours=float(args.instagram_bootstrap_cooldown_hours),
+                        error=error_text,
+                    )
                 record_instagram_attempt(
                     fetch_state,
                     source,
@@ -2559,6 +2638,8 @@ def main() -> int:
             )
             continue
         if instagram_kind:
+            if is_instaloader_story_source(source):
+                clear_instaloader_auth_block(fetch_state)
             record_instagram_attempt(
                 fetch_state,
                 source,

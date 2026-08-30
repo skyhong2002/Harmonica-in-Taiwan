@@ -305,6 +305,30 @@ class SocialFeedWatchdogInstagramTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "session rejected"):
                 watchdog.fetch_rss(source)
 
+    def test_instaloader_auth_error_detection(self):
+        self.assertTrue(watchdog.is_instaloader_auth_error('401 Unauthorized - "Please wait a few minutes"'))
+        self.assertTrue(watchdog.is_instaloader_auth_error("Instaloader session rejected by Instagram"))
+        self.assertFalse(watchdog.is_instaloader_auth_error("profile has no public stories"))
+
+    def test_instaloader_auth_block_expires(self):
+        now = watchdog.dt.datetime(2026, 8, 31, 0, 0, tzinfo=watchdog.dt.timezone.utc)
+        state = {}
+        watchdog.set_instaloader_auth_block(
+            state,
+            now=now,
+            cooldown_hours=6,
+            error="401 Unauthorized",
+        )
+        self.assertIn("blocked until", watchdog.instaloader_auth_block_reason(state, now=now))
+        self.assertEqual(
+            watchdog.instaloader_auth_block_reason(
+                state,
+                now=now + watchdog.dt.timedelta(hours=7),
+            ),
+            "",
+        )
+        self.assertNotIn(watchdog.INSTALOADER_AUTH_BLOCK_KEY, state)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -183,6 +183,11 @@ def instagram_schedule_details(
     last_run = social_seen.get("last_watchdog_run") if isinstance(social_seen.get("last_watchdog_run"), dict) else {}
     instagram_run = last_run.get("instagram") if isinstance(last_run.get("instagram"), dict) else {}
     entries = fetch_state.get("sources") if isinstance(fetch_state.get("sources"), dict) else {}
+    auth_block = (
+        fetch_state.get("instaloader_story_auth_block")
+        if isinstance(fetch_state.get("instaloader_story_auth_block"), dict)
+        else {}
+    )
 
     details = [
         (
@@ -201,6 +206,12 @@ def instagram_schedule_details(
             f"延後 {int(instagram_run.get('deferred') or 0)}、"
             f"錯誤 {int(instagram_run.get('errors') or 0)}。"
         )
+
+    blocked_until = parse_time(auth_block.get("blocked_until"))
+    if blocked_until is not None and blocked_until > now:
+        details.append(f"Story 登入熔斷中：延後至 {time_label(blocked_until)}；不再逐一重試來源。")
+        if auth_block.get("error"):
+            details.append(f"Story 登入錯誤：{compact_error(auth_block.get('error'))}")
 
     progress_heartbeat = parse_time(social_progress.get("heartbeatAt"))
     progress_age = hours_since(progress_heartbeat, now)
