@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-30T22:59:28+08:00",
+  "generatedAt": "2026-08-31T00:07:55+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
-  "count": 11,
+  "count": 10,
   "source": "/api/events.json",
   "ics": "/feeds/overseas-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 22,
+      "cached": 20,
       "errors": 0
     }
   },
@@ -56,42 +56,6 @@
         "https://pbs.twimg.com/media/HOhWKyJaUAADtyn?format=jpg&name=orig"
       ],
       "image_url": "https://pbs.twimg.com/media/HOhWKyJaUAADtyn?format=jpg&name=orig"
-    },
-    {
-      "id": "5e989674116ecf0d",
-      "title": "クロマチックハーモニカ・ナイト",
-      "eventName": "クロマチックハーモニカ・ナイト",
-      "source": "南里沙",
-      "platform": "facebook",
-      "start": "2026-08-28T18:00:00+09:00",
-      "end": "2026-08-28T20:00:00+09:00",
-      "allDay": false,
-      "calendarType": "overseas_physical",
-      "timezone": "Asia/Tokyo",
-      "location": "大阪市中央区 ロイヤルホース",
-      "venue": "ロイヤルホース",
-      "city": "大阪市中央区",
-      "details": "主辦／演出者：南里沙。2026年8月28日（金）18:00開場、19:00開演，20:30結束。出演者為南里沙（クロマチックハーモニカ）、中尾唱（鋼琴）、喜多健博（貝斯）、小林亮（鼓），票價4,400円。",
-      "evidenceUrl": "https://www.facebook.com/minamirisa/posts/pfbid032Li33kJugzHUhbiZhTjX5rfWTSSQmss5if4mYVM2VEG7FUe2apEQB8MvaAvfWnc1l",
-      "confidence": 0.98,
-      "calendarReview": {
-        "include": true,
-        "country": "日本",
-        "eventMode": "overseas_physical",
-        "timezone": "Asia/Tokyo",
-        "candidateDateMatches": true,
-        "eventName": "クロマチックハーモニカ・ナイト",
-        "venue": "ロイヤルホース",
-        "city": "大阪市中央区",
-        "details": "主辦／演出者：南里沙。2026年8月28日（金）18:00開場、19:00開演，20:30結束。出演者為南里沙（クロマチックハーモニカ）、中尾唱（鋼琴）、喜多健博（貝斯）、小林亮（鼓），票價4,400円。",
-        "reason": "貼文明確寫出 2026/8/28 在大阪的實體演出，日期與 candidateStart 相符，屬於臺灣以外的口琴公開活動。",
-        "confidence": 0.98
-      },
-      "postedAt": "2026-08-25 17:04",
-      "images": [
-        "https://scontent-atl3-2.xx.fbcdn.net/v/t39.99422-6/785146494_1092742229758290_626822393776905605_n.png?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=p526x296&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=UKB3MR9aW5MQ7kNvwGAi8VY&_nc_oc=AdpFn5kNcr3Mw8bIL-i9uhqTTKXJnCfy46f6cv8BBUfVWy2wWbMaYpC2nZHw733b9HgT1E1TA43xRVsUmG0oek7o&_nc_zt=14&_nc_ht=scontent-atl3-2.xx&_nc_gid=NB96q0VkJcTXrU9awKBgew&_nc_ss=73289&oh=00_AQGWiS038GW5ajs1tL0i4DoZ5XM9XjL4x1i-Alw9wB4YNw&oe=6A95659D"
-      ],
-      "image_url": "/assets/feed-images/5042607cc473fd2565b6.webp"
     },
     {
       "id": "ace017c7f6f853b4",

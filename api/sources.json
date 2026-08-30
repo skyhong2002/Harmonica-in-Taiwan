@@ -1,6 +1,6 @@
 {
   "site": "https://harmonica.observe.tw",
-  "generatedAt": "2026-08-30",
+  "generatedAt": "2026-08-31",
   "count": 322,
   "stats": {
     "totalEntries": 322,
@@ -70,6 +70,641 @@
     }
   },
   "entries": [
+    {
+      "id": "watchlist-316",
+      "publicId": "316",
+      "name": "太平國小口琴隊",
+      "nameEn": "Taiping Elementary School Harmonica Ensemble",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校/青年",
+      "country": "臺灣",
+      "region": "臺灣/臺中/太平",
+      "cityOrFocus": "臺中市太平國小口琴合奏團隊/長期扎根音樂教育與分部訓練/114學年度全國學生音樂比賽國小口琴合奏特優/2026達成連續四年全國賽特優",
+      "structuredSummary": "臺中市太平國小口琴合奏團隊/長期扎根音樂教育與分部訓練/114學年度全國學生音樂比賽國小口琴合奏特優/2026達成連續四年全國賽特優 / 口琴合奏/校園口琴教育 / 學校團隊/青少年口琴教育/全國學生音樂比賽團隊",
+      "summary": "臺灣的口琴合奏與校園口琴教育學校團隊、青少年口琴教育與全國學生音樂比賽團隊。",
+      "keywords": "臺中 太平國小口琴隊 Taiping Elementary School Harmonica Ensemble 2026 全國學生音樂比賽 口琴合奏 特優 四連霸 蔡政嘉 姜義良",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "316-taiping-elementary-school-harmonica-ensemble",
+      "latestUpdateAt": "2026-08-30T15:34:12.386089+00:00",
+      "latestUpdateLocal": "2026-08-30 23:34",
+      "latestUpdateSource": "太平國小口琴隊",
+      "latestUpdateUrl": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
+      "avatarUrl": "/assets/source-avatars/taiping-elementary-harmonica.jpg",
+      "sourceInitials": "太平",
+      "sourceTags": [
+        "學生社團",
+        "比賽"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_316",
+          "name": "太平國小口琴隊",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-299",
+      "publicId": "299",
+      "name": "基隆社區大學就是吹口琴",
+      "nameEn": "Keelung Community University Harmonica",
+      "category": "教學器材",
+      "type": "樂器與器材",
+      "originalType": "教學/社區",
+      "country": "臺灣",
+      "region": "臺灣/基隆",
+      "cityOrFocus": "社區口琴課程/十孔/重奏/半音階/THMF 2026 熟齡組",
+      "structuredSummary": "社區口琴課程/十孔/重奏/半音階/THMF 2026 熟齡組 / 十孔/半音階/口琴合奏 / 教學單位/社區推廣",
+      "summary": "臺灣的十孔、半音階與口琴合奏教學單位與社區推廣，關注社區口琴課程、重奏與THMF 2026 熟齡組。",
+      "keywords": "基隆社區大學 就是吹口琴 陳鴻儀 2026 秋季班 THMF 熟齡組",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://kcu.twcu.org.tw/course/m_course_list.php"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "299-keelung-community-university-harmonica",
+      "latestUpdateAt": "2026-08-30T15:33:50.403237+00:00",
+      "latestUpdateLocal": "2026-08-30 23:33",
+      "latestUpdateSource": "基隆社區大學就是吹口琴",
+      "latestUpdateUrl": "https://kcu.twcu.org.tw/course/m_course_list.php",
+      "avatarUrl": "/assets/source-avatars/keelung-community-harmonica.jpg",
+      "sourceInitials": "基隆",
+      "sourceTags": [
+        "教學器材",
+        "教學",
+        "課程",
+        "半音階",
+        "十孔",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_299",
+          "name": "基隆社區大學就是吹口琴",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://kcu.twcu.org.tw/course/m_course_list.php",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-58",
+      "publicId": "58",
+      "name": "南里沙",
+      "nameEn": "Minami Risa",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "日本",
+      "region": "日本",
+      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流/2026 琴韻東坡・簧鳴西南",
+      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流/2026 琴韻東坡・簧鳴西南 / 半音階 / 國際演出人員",
+      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
+      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ 琴韻東坡 簧鳴西南 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://minamirisa.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/minamirisa/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/minami_risa/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@minamirisa"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/minami_risa"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@minami_risa"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "58-minami-risa",
+      "latestUpdateAt": "2026-08-30T15:33:14+00:00",
+      "latestUpdateLocal": "2026-08-30 23:33",
+      "latestUpdateSource": "南里沙",
+      "latestUpdateUrl": "https://x.com/minami_risa/status/2094086047881920833",
+      "avatarUrl": "/assets/source-avatars/c381d87d290434bb6bbc.webp",
+      "sourceInitials": "南里",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_minamirisa",
+          "name": "南里沙",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/minamirisa",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_minami_risa",
+          "name": "南里沙",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "minami_risa",
+          "profileUrl": "https://www.instagram.com/minami_risa/",
+          "feedUrl": ""
+        },
+        {
+          "id": "x_minami_risa",
+          "name": "南里沙",
+          "platform": "x",
+          "type": "rss",
+          "username": "minami_risa",
+          "profileUrl": "https://x.com/minami_risa",
+          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
+        },
+        {
+          "id": "yt_minamirisa",
+          "name": "南里沙",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@minamirisa",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-254",
+      "publicId": "254",
+      "name": "鄭州大眾口琴樂團",
+      "nameEn": "Zhengzhou Popular Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "中國",
+      "region": "中國/河南/鄭州",
+      "cityOrFocus": "2025成立/城市大眾口琴推廣/合奏",
+      "structuredSummary": "2025成立/城市大眾口琴推廣/合奏 / 口琴合奏 / 演出團體/推廣團體",
+      "summary": "中國的口琴合奏演出團體與推廣團體，活動脈絡包含2025成立、城市大眾口琴推廣與合奏。",
+      "keywords": "鄭州大眾口琴樂團 Zhengzhou Popular Harmonica Ensemble 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/information/industryNewsDetail/361339839879622656"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "254-zhengzhou-popular-harmonica-ensemble",
+      "latestUpdateAt": "2026-08-30T15:32:32.030442+00:00",
+      "latestUpdateLocal": "2026-08-30 23:32",
+      "latestUpdateSource": "鄭州大眾口琴樂團",
+      "latestUpdateUrl": "https://www.aphfhx.com/information/industryNewsDetail/361339839879622656",
+      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
+      "sourceInitials": "鄭州",
+      "sourceTags": [
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_254",
+          "name": "鄭州大眾口琴樂團",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://www.aphfhx.com/information/industryNewsDetail/361339839879622656",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-253",
+      "publicId": "253",
+      "name": "濟南大眾口琴樂團",
+      "nameEn": "Jinan Popular Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "中國",
+      "region": "中國/山東/濟南",
+      "cityOrFocus": "2025成立/城市大眾口琴推廣/合奏",
+      "structuredSummary": "2025成立/城市大眾口琴推廣/合奏 / 口琴合奏 / 演出團體/推廣團體",
+      "summary": "中國的口琴合奏演出團體與推廣團體，活動脈絡包含2025成立、城市大眾口琴推廣與合奏。",
+      "keywords": "濟南大眾口琴樂團 Jinan Popular Harmonica Ensemble 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/information/industryNewsDetail/361339839879622656"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "253-jinan-popular-harmonica-ensemble",
+      "latestUpdateAt": "2026-08-30T15:32:29.143453+00:00",
+      "latestUpdateLocal": "2026-08-30 23:32",
+      "latestUpdateSource": "濟南大眾口琴樂團",
+      "latestUpdateUrl": "https://www.aphfhx.com/information/industryNewsDetail/361339839879622656",
+      "avatarUrl": "/assets/source-avatars/c2a785077a9080256926.webp",
+      "sourceInitials": "濟南",
+      "sourceTags": [
+        "團體樂團"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_253",
+          "name": "濟南大眾口琴樂團",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://www.aphfhx.com/information/industryNewsDetail/361339839879622656",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-245",
+      "publicId": "245",
+      "name": "「琴韻東坡・簧鳴西南」口琴藝術展演",
+      "nameEn": "Qinyun Dongpo Harmonica Art Showcase Meishan",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
+      "country": "中國",
+      "region": "中國/四川/眉山/東坡",
+      "cityOrFocus": "2026西南口琴藝術展演/報名/區域交流",
+      "structuredSummary": "2026西南口琴藝術展演/報名/區域交流 / 口琴/重奏/合奏 / 活動來源",
+      "summary": "中國的活動來源，涵蓋2026西南口琴藝術展演、報名與區域交流。",
+      "keywords": "琴韻東坡 簧鳴西南 口琴藝術展演 2026 眉山",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/information/announcementDetail/443573180452044800"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "245-qinyun-dongpo-harmonica-art-showcase-meishan",
+      "latestUpdateAt": "2026-08-30T15:32:16.862274+00:00",
+      "latestUpdateLocal": "2026-08-30 23:32",
+      "latestUpdateSource": "「琴韻東坡・簧鳴西南」口琴藝術展演",
+      "latestUpdateUrl": "https://www.aphfhx.com/information/announcementDetail/443573180452044800",
+      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
+      "sourceInitials": "琴韻",
+      "sourceTags": [
+        "活動資訊",
+        "比賽",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_245",
+          "name": "「琴韻東坡・簧鳴西南」口琴藝術展演",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://www.aphfhx.com/information/announcementDetail/443573180452044800",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-244",
+      "publicId": "244",
+      "name": "「琴溯伏羲・律動天水」口琴藝術展演",
+      "nameEn": "Qinsu Fuxi Harmonica Art Showcase Tianshui",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
+      "country": "中國",
+      "region": "中國/甘肅/天水",
+      "cityOrFocus": "2026口琴藝術展演/活動日程/區域交流",
+      "structuredSummary": "2026口琴藝術展演/活動日程/區域交流 / 口琴/重奏/合奏 / 活動來源",
+      "summary": "中國的活動來源，涵蓋2026口琴藝術展演、活動日程與區域交流。",
+      "keywords": "琴溯伏羲 律動天水 口琴藝術展演 2026 天水",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/information/announcementDetail/407401895418511360"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "244-qinsu-fuxi-harmonica-art-showcase-tianshui",
+      "latestUpdateAt": "2026-08-30T15:32:14.749989+00:00",
+      "latestUpdateLocal": "2026-08-30 23:32",
+      "latestUpdateSource": "「琴溯伏羲・律動天水」口琴藝術展演",
+      "latestUpdateUrl": "https://www.aphfhx.com/information/announcementDetail/407401895418511360",
+      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
+      "sourceInitials": "琴溯",
+      "sourceTags": [
+        "活動資訊",
+        "比賽",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_244",
+          "name": "「琴溯伏羲・律動天水」口琴藝術展演",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://www.aphfhx.com/information/announcementDetail/407401895418511360",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-243",
+      "publicId": "243",
+      "name": "第二屆「敦煌杯」線上口琴大賽",
+      "nameEn": "2nd Dunhuang Cup Online Harmonica Competition",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "比賽/資訊入口",
+      "country": "中國",
+      "region": "中國/線上",
+      "cityOrFocus": "2025線上口琴大賽/評審/報名/賽事資訊",
+      "structuredSummary": "2025線上口琴大賽/評審/報名/賽事資訊 / 半音階/複音/十孔/重奏/合奏 / 比賽資訊來源",
+      "summary": "中國的比賽資訊來源，涵蓋2025線上口琴大賽、評審、報名與賽事資訊。",
+      "keywords": "第二屆 敦煌杯 線上口琴大賽 2025 Dunhuang Cup",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/information/announcementDetail/347951476011454464"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "243-2nd-dunhuang-cup-online-harmonica-competition",
+      "latestUpdateAt": "2026-08-30T15:32:12.314455+00:00",
+      "latestUpdateLocal": "2026-08-30 23:32",
+      "latestUpdateSource": "第二屆「敦煌杯」線上口琴大賽",
+      "latestUpdateUrl": "https://www.aphfhx.com/information/announcementDetail/347951476011454464",
+      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
+      "sourceInitials": "第二",
+      "sourceTags": [
+        "活動資訊",
+        "比賽",
+        "半音階",
+        "複音",
+        "十孔",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_243",
+          "name": "第二屆「敦煌杯」線上口琴大賽",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://www.aphfhx.com/information/announcementDetail/347951476011454464",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-241",
+      "publicId": "241",
+      "name": "第五屆華夏（寧德）口琴藝術周",
+      "nameEn": "5th Huaxia Harmonica Art Week",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "國際活動/資訊入口",
+      "country": "中國",
+      "region": "中國/福建/寧德/蕉城",
+      "cityOrFocus": "2025/7/23-27/展演/比賽/音樂會/論壇/大師班/考級",
+      "structuredSummary": "2025/7/23-27/展演/比賽/音樂會/論壇/大師班/考級 / 半音階/複音/十孔/重奏/合奏 / 國際活動來源",
+      "summary": "中國的國際活動來源，涵蓋2025、7、23-27、展演與比賽。",
+      "keywords": "第五屆華夏口琴藝術周 寧德 蕉城 Huaxia Harmonica Art Week 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/information/newsDetail/361718112966979584"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "241-5th-huaxia-harmonica-art-week",
+      "latestUpdateAt": "2026-08-30T15:32:09.018015+00:00",
+      "latestUpdateLocal": "2026-08-30 23:32",
+      "latestUpdateSource": "第五屆華夏（寧德）口琴藝術周",
+      "latestUpdateUrl": "https://www.aphfhx.com/information/newsDetail/361718112966979584",
+      "avatarUrl": "/assets/source-avatars/a7cb815d7fbbb24148d6.webp",
+      "sourceInitials": "第五",
+      "sourceTags": [
+        "活動資訊",
+        "比賽",
+        "半音階",
+        "複音",
+        "十孔",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_241",
+          "name": "第五屆華夏（寧德）口琴藝術周",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://www.aphfhx.com/information/newsDetail/361718112966979584",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-167",
+      "publicId": "167",
+      "name": "第十五屆亞太口琴藝術週",
+      "nameEn": "15th Asia Pacific Harmonica Festival",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "國際活動/資訊入口",
+      "country": "中國",
+      "region": "中國/江蘇/無錫/江陰",
+      "cityOrFocus": "2026/7/23-27/亞太口琴節30週年/比賽/音樂會/講座/大師班",
+      "structuredSummary": "2026/7/23-27/亞太口琴節30週年/比賽/音樂會/講座/大師班 / 半音階/複音/十孔/重奏/合奏 / 國際活動來源",
+      "summary": "中國的國際活動來源，涵蓋2026、7、23-27、亞太口琴節30週年與比賽。",
+      "keywords": "第十五屆亞太口琴藝術週 Asia Pacific Harmonica Festival APHF 江陰 華西 中國口琴 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.aphfhx.com/information/newsDetail/361363469090992128"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "167-15th-asia-pacific-harmonica-festival",
+      "latestUpdateAt": "2026-08-30T15:30:42.860707+00:00",
+      "latestUpdateLocal": "2026-08-30 23:30",
+      "latestUpdateSource": "第十五屆亞太口琴藝術週",
+      "latestUpdateUrl": "https://www.aphfhx.com/information/newsDetail/361363469090992128",
+      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
+      "sourceInitials": "第十",
+      "sourceTags": [
+        "活動資訊",
+        "比賽",
+        "半音階",
+        "複音",
+        "十孔",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_167",
+          "name": "第十五屆亞太口琴藝術週",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://www.aphfhx.com/information/newsDetail/361363469090992128",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-136",
+      "publicId": "136",
+      "name": "Project X",
+      "nameEn": "Project X",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體/合作企劃",
+      "country": "國際",
+      "region": "國際",
+      "cityOrFocus": "口琴合作企劃/跨團重奏/SIHF 2018",
+      "structuredSummary": "口琴合作企劃/跨團重奏/SIHF 2018 / 口琴 / 國際演出團體",
+      "summary": "國際的口琴國際演出團體，活動脈絡包含口琴合作企劃、跨團重奏與SIHF 2018。",
+      "keywords": "Project X harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://thefestival.co.kr/info/festival/7338"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "136-project-x",
+      "latestUpdateAt": "2026-08-30T15:29:33.278770+00:00",
+      "latestUpdateLocal": "2026-08-30 23:29",
+      "latestUpdateSource": "Project X",
+      "latestUpdateUrl": "https://thefestival.co.kr/info/festival/7338",
+      "avatarUrl": "/assets/source-avatars/d46567b33b1baf0d8f42.webp",
+      "sourceInitials": "PX",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_136",
+          "name": "Project X",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://thefestival.co.kr/info/festival/7338",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_sihf_uv5mk",
+          "name": "Seoul International Harmonica Festival",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@SIHF-uv5mk",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-134",
+      "publicId": "134",
+      "name": "Crossover Harmonica Ensemble",
+      "nameEn": "Crossover Harmonica Ensemble",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "韓國跨界口琴重奏/國際交流/SIHF 2018",
+      "structuredSummary": "韓國跨界口琴重奏/國際交流/SIHF 2018 / 口琴重奏 / 國際演出團體",
+      "summary": "韓國的口琴重奏國際演出團體，活動脈絡包含韓國跨界口琴重奏、國際交流與SIHF 2018。",
+      "keywords": "Crossover Harmonica Ensemble Korea SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://thefestival.co.kr/info/festival/7338"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "134-crossover-harmonica-ensemble",
+      "latestUpdateAt": "2026-08-30T15:29:31.570993+00:00",
+      "latestUpdateLocal": "2026-08-30 23:29",
+      "latestUpdateSource": "Crossover Harmonica Ensemble",
+      "latestUpdateUrl": "https://thefestival.co.kr/info/festival/7338",
+      "avatarUrl": "/assets/source-avatars/d46567b33b1baf0d8f42.webp",
+      "sourceInitials": "CHE",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "web_134",
+          "name": "Crossover Harmonica Ensemble",
+          "platform": "website",
+          "type": "webpage_watch",
+          "username": "",
+          "profileUrl": "https://thefestival.co.kr/info/festival/7338",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_sihf_uv5mk",
+          "name": "Seoul International Harmonica Festival",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@SIHF-uv5mk",
+          "feedUrl": ""
+        }
+      ]
+    },
     {
       "id": "watchlist-21",
       "publicId": "21",
@@ -173,108 +808,6 @@
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://ntualumnibm.ntu.edu.tw/bm.bimonthly.article/detail/sn/4169",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-58",
-      "publicId": "58",
-      "name": "南里沙",
-      "nameEn": "Minami Risa",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "日本",
-      "region": "日本",
-      "cityOrFocus": "半音階/專輯/YouTube直播/THMF交流/2026 琴韻東坡・簧鳴西南",
-      "structuredSummary": "半音階/專輯/YouTube直播/THMF交流/2026 琴韻東坡・簧鳴西南 / 半音階 / 國際演出人員",
-      "summary": "日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。",
-      "keywords": "南里沙 Minami Risa Risa MINAMI harmonica クロマチックハーモニカ 琴韻東坡 簧鳴西南 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://minamirisa.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/minamirisa/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/minami_risa/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@minamirisa"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/minami_risa"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@minami_risa"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "58-minami-risa",
-      "latestUpdateAt": "2026-08-30T14:43:26+00:00",
-      "latestUpdateLocal": "2026-08-30 22:43",
-      "latestUpdateSource": "南里沙",
-      "latestUpdateUrl": "https://x.com/minami_risa/status/2094073513456058796",
-      "avatarUrl": "/assets/source-avatars/c381d87d290434bb6bbc.webp",
-      "sourceInitials": "南里",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_minamirisa",
-          "name": "南里沙",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/minamirisa",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_minami_risa",
-          "name": "南里沙",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "minami_risa",
-          "profileUrl": "https://www.instagram.com/minami_risa/",
-          "feedUrl": ""
-        },
-        {
-          "id": "x_minami_risa",
-          "name": "南里沙",
-          "platform": "x",
-          "type": "rss",
-          "username": "minami_risa",
-          "profileUrl": "https://x.com/minami_risa",
-          "feedUrl": "https://rss.observe.tw/twitter/user/minami_risa"
-        },
-        {
-          "id": "yt_minamirisa",
-          "name": "南里沙",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@minamirisa",
           "feedUrl": ""
         }
       ]
@@ -507,100 +1040,6 @@
       ]
     },
     {
-      "id": "watchlist-316",
-      "publicId": "316",
-      "name": "太平國小口琴隊",
-      "nameEn": "Taiping Elementary School Harmonica Ensemble",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校/青年",
-      "country": "臺灣",
-      "region": "臺灣/臺中/太平",
-      "cityOrFocus": "臺中市太平國小口琴合奏團隊/長期扎根音樂教育與分部訓練/114學年度全國學生音樂比賽國小口琴合奏特優/2026達成連續四年全國賽特優",
-      "structuredSummary": "臺中市太平國小口琴合奏團隊/長期扎根音樂教育與分部訓練/114學年度全國學生音樂比賽國小口琴合奏特優/2026達成連續四年全國賽特優 / 口琴合奏/校園口琴教育 / 學校團隊/青少年口琴教育/全國學生音樂比賽團隊",
-      "summary": "臺灣的口琴合奏與校園口琴教育學校團隊、青少年口琴教育與全國學生音樂比賽團隊。",
-      "keywords": "臺中 太平國小口琴隊 Taiping Elementary School Harmonica Ensemble 2026 全國學生音樂比賽 口琴合奏 特優 四連霸 蔡政嘉 姜義良",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "316-taiping-elementary-school-harmonica-ensemble",
-      "latestUpdateAt": "2026-08-30T03:14:45.617834+00:00",
-      "latestUpdateLocal": "2026-08-30 11:14",
-      "latestUpdateSource": "太平國小口琴隊",
-      "latestUpdateUrl": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
-      "avatarUrl": "/assets/source-avatars/taiping-elementary-harmonica.jpg",
-      "sourceInitials": "太平",
-      "sourceTags": [
-        "學生社團",
-        "比賽"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_316",
-          "name": "太平國小口琴隊",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-299",
-      "publicId": "299",
-      "name": "基隆社區大學就是吹口琴",
-      "nameEn": "Keelung Community University Harmonica",
-      "category": "教學器材",
-      "type": "樂器與器材",
-      "originalType": "教學/社區",
-      "country": "臺灣",
-      "region": "臺灣/基隆",
-      "cityOrFocus": "社區口琴課程/十孔/重奏/半音階/THMF 2026 熟齡組",
-      "structuredSummary": "社區口琴課程/十孔/重奏/半音階/THMF 2026 熟齡組 / 十孔/半音階/口琴合奏 / 教學單位/社區推廣",
-      "summary": "臺灣的十孔、半音階與口琴合奏教學單位與社區推廣，關注社區口琴課程、重奏與THMF 2026 熟齡組。",
-      "keywords": "基隆社區大學 就是吹口琴 陳鴻儀 2026 秋季班 THMF 熟齡組",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://kcu.twcu.org.tw/course/m_course_list.php"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "299-keelung-community-university-harmonica",
-      "latestUpdateAt": "2026-08-30T03:12:55.864001+00:00",
-      "latestUpdateLocal": "2026-08-30 11:12",
-      "latestUpdateSource": "基隆社區大學就是吹口琴",
-      "latestUpdateUrl": "https://kcu.twcu.org.tw/course/m_course_list.php",
-      "avatarUrl": "/assets/source-avatars/keelung-community-harmonica.jpg",
-      "sourceInitials": "基隆",
-      "sourceTags": [
-        "教學器材",
-        "教學",
-        "課程",
-        "半音階",
-        "十孔",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_299",
-          "name": "基隆社區大學就是吹口琴",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://kcu.twcu.org.tw/course/m_course_list.php",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-293",
       "publicId": "293",
       "name": "Michał Kielak",
@@ -642,445 +1081,6 @@
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://kielak.pl/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-254",
-      "publicId": "254",
-      "name": "鄭州大眾口琴樂團",
-      "nameEn": "Zhengzhou Popular Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "中國",
-      "region": "中國/河南/鄭州",
-      "cityOrFocus": "2025成立/城市大眾口琴推廣/合奏",
-      "structuredSummary": "2025成立/城市大眾口琴推廣/合奏 / 口琴合奏 / 演出團體/推廣團體",
-      "summary": "中國的口琴合奏演出團體與推廣團體，活動脈絡包含2025成立、城市大眾口琴推廣與合奏。",
-      "keywords": "鄭州大眾口琴樂團 Zhengzhou Popular Harmonica Ensemble 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.aphfhx.com/information/industryNewsDetail/361339839879622656"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "254-zhengzhou-popular-harmonica-ensemble",
-      "latestUpdateAt": "2026-08-30T03:11:20.379171+00:00",
-      "latestUpdateLocal": "2026-08-30 11:11",
-      "latestUpdateSource": "鄭州大眾口琴樂團",
-      "latestUpdateUrl": "https://www.aphfhx.com/information/industryNewsDetail/361339839879622656",
-      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
-      "sourceInitials": "鄭州",
-      "sourceTags": [
-        "團體樂團"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_254",
-          "name": "鄭州大眾口琴樂團",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://www.aphfhx.com/information/industryNewsDetail/361339839879622656",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-253",
-      "publicId": "253",
-      "name": "濟南大眾口琴樂團",
-      "nameEn": "Jinan Popular Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "中國",
-      "region": "中國/山東/濟南",
-      "cityOrFocus": "2025成立/城市大眾口琴推廣/合奏",
-      "structuredSummary": "2025成立/城市大眾口琴推廣/合奏 / 口琴合奏 / 演出團體/推廣團體",
-      "summary": "中國的口琴合奏演出團體與推廣團體，活動脈絡包含2025成立、城市大眾口琴推廣與合奏。",
-      "keywords": "濟南大眾口琴樂團 Jinan Popular Harmonica Ensemble 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.aphfhx.com/information/industryNewsDetail/361339839879622656"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "253-jinan-popular-harmonica-ensemble",
-      "latestUpdateAt": "2026-08-30T03:11:07.509357+00:00",
-      "latestUpdateLocal": "2026-08-30 11:11",
-      "latestUpdateSource": "濟南大眾口琴樂團",
-      "latestUpdateUrl": "https://www.aphfhx.com/information/industryNewsDetail/361339839879622656",
-      "avatarUrl": "/assets/source-avatars/c2a785077a9080256926.webp",
-      "sourceInitials": "濟南",
-      "sourceTags": [
-        "團體樂團"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_253",
-          "name": "濟南大眾口琴樂團",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://www.aphfhx.com/information/industryNewsDetail/361339839879622656",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-245",
-      "publicId": "245",
-      "name": "「琴韻東坡・簧鳴西南」口琴藝術展演",
-      "nameEn": "Qinyun Dongpo Harmonica Art Showcase Meishan",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "活動/資訊入口",
-      "country": "中國",
-      "region": "中國/四川/眉山/東坡",
-      "cityOrFocus": "2026西南口琴藝術展演/報名/區域交流",
-      "structuredSummary": "2026西南口琴藝術展演/報名/區域交流 / 口琴/重奏/合奏 / 活動來源",
-      "summary": "中國的活動來源，涵蓋2026西南口琴藝術展演、報名與區域交流。",
-      "keywords": "琴韻東坡 簧鳴西南 口琴藝術展演 2026 眉山",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.aphfhx.com/information/announcementDetail/443573180452044800"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "245-qinyun-dongpo-harmonica-art-showcase-meishan",
-      "latestUpdateAt": "2026-08-30T03:10:56.330509+00:00",
-      "latestUpdateLocal": "2026-08-30 11:10",
-      "latestUpdateSource": "「琴韻東坡・簧鳴西南」口琴藝術展演",
-      "latestUpdateUrl": "https://www.aphfhx.com/information/announcementDetail/443573180452044800",
-      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
-      "sourceInitials": "琴韻",
-      "sourceTags": [
-        "活動資訊",
-        "比賽",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_245",
-          "name": "「琴韻東坡・簧鳴西南」口琴藝術展演",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://www.aphfhx.com/information/announcementDetail/443573180452044800",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-244",
-      "publicId": "244",
-      "name": "「琴溯伏羲・律動天水」口琴藝術展演",
-      "nameEn": "Qinsu Fuxi Harmonica Art Showcase Tianshui",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "活動/資訊入口",
-      "country": "中國",
-      "region": "中國/甘肅/天水",
-      "cityOrFocus": "2026口琴藝術展演/活動日程/區域交流",
-      "structuredSummary": "2026口琴藝術展演/活動日程/區域交流 / 口琴/重奏/合奏 / 活動來源",
-      "summary": "中國的活動來源，涵蓋2026口琴藝術展演、活動日程與區域交流。",
-      "keywords": "琴溯伏羲 律動天水 口琴藝術展演 2026 天水",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.aphfhx.com/information/announcementDetail/407401895418511360"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "244-qinsu-fuxi-harmonica-art-showcase-tianshui",
-      "latestUpdateAt": "2026-08-30T03:10:52.942889+00:00",
-      "latestUpdateLocal": "2026-08-30 11:10",
-      "latestUpdateSource": "「琴溯伏羲・律動天水」口琴藝術展演",
-      "latestUpdateUrl": "https://www.aphfhx.com/information/announcementDetail/407401895418511360",
-      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
-      "sourceInitials": "琴溯",
-      "sourceTags": [
-        "活動資訊",
-        "比賽",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_244",
-          "name": "「琴溯伏羲・律動天水」口琴藝術展演",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://www.aphfhx.com/information/announcementDetail/407401895418511360",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-243",
-      "publicId": "243",
-      "name": "第二屆「敦煌杯」線上口琴大賽",
-      "nameEn": "2nd Dunhuang Cup Online Harmonica Competition",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "比賽/資訊入口",
-      "country": "中國",
-      "region": "中國/線上",
-      "cityOrFocus": "2025線上口琴大賽/評審/報名/賽事資訊",
-      "structuredSummary": "2025線上口琴大賽/評審/報名/賽事資訊 / 半音階/複音/十孔/重奏/合奏 / 比賽資訊來源",
-      "summary": "中國的比賽資訊來源，涵蓋2025線上口琴大賽、評審、報名與賽事資訊。",
-      "keywords": "第二屆 敦煌杯 線上口琴大賽 2025 Dunhuang Cup",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.aphfhx.com/information/announcementDetail/347951476011454464"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "243-2nd-dunhuang-cup-online-harmonica-competition",
-      "latestUpdateAt": "2026-08-30T03:10:48.886628+00:00",
-      "latestUpdateLocal": "2026-08-30 11:10",
-      "latestUpdateSource": "第二屆「敦煌杯」線上口琴大賽",
-      "latestUpdateUrl": "https://www.aphfhx.com/information/announcementDetail/347951476011454464",
-      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
-      "sourceInitials": "第二",
-      "sourceTags": [
-        "活動資訊",
-        "比賽",
-        "半音階",
-        "複音",
-        "十孔",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_243",
-          "name": "第二屆「敦煌杯」線上口琴大賽",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://www.aphfhx.com/information/announcementDetail/347951476011454464",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-241",
-      "publicId": "241",
-      "name": "第五屆華夏（寧德）口琴藝術周",
-      "nameEn": "5th Huaxia Harmonica Art Week",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "國際活動/資訊入口",
-      "country": "中國",
-      "region": "中國/福建/寧德/蕉城",
-      "cityOrFocus": "2025/7/23-27/展演/比賽/音樂會/論壇/大師班/考級",
-      "structuredSummary": "2025/7/23-27/展演/比賽/音樂會/論壇/大師班/考級 / 半音階/複音/十孔/重奏/合奏 / 國際活動來源",
-      "summary": "中國的國際活動來源，涵蓋2025、7、23-27、展演與比賽。",
-      "keywords": "第五屆華夏口琴藝術周 寧德 蕉城 Huaxia Harmonica Art Week 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.aphfhx.com/information/newsDetail/361718112966979584"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "241-5th-huaxia-harmonica-art-week",
-      "latestUpdateAt": "2026-08-30T03:10:37.069154+00:00",
-      "latestUpdateLocal": "2026-08-30 11:10",
-      "latestUpdateSource": "第五屆華夏（寧德）口琴藝術周",
-      "latestUpdateUrl": "https://www.aphfhx.com/information/newsDetail/361718112966979584",
-      "avatarUrl": "/assets/source-avatars/a7cb815d7fbbb24148d6.webp",
-      "sourceInitials": "第五",
-      "sourceTags": [
-        "活動資訊",
-        "比賽",
-        "半音階",
-        "複音",
-        "十孔",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_241",
-          "name": "第五屆華夏（寧德）口琴藝術周",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://www.aphfhx.com/information/newsDetail/361718112966979584",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-167",
-      "publicId": "167",
-      "name": "第十五屆亞太口琴藝術週",
-      "nameEn": "15th Asia Pacific Harmonica Festival",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "國際活動/資訊入口",
-      "country": "中國",
-      "region": "中國/江蘇/無錫/江陰",
-      "cityOrFocus": "2026/7/23-27/亞太口琴節30週年/比賽/音樂會/講座/大師班",
-      "structuredSummary": "2026/7/23-27/亞太口琴節30週年/比賽/音樂會/講座/大師班 / 半音階/複音/十孔/重奏/合奏 / 國際活動來源",
-      "summary": "中國的國際活動來源，涵蓋2026、7、23-27、亞太口琴節30週年與比賽。",
-      "keywords": "第十五屆亞太口琴藝術週 Asia Pacific Harmonica Festival APHF 江陰 華西 中國口琴 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.aphfhx.com/information/newsDetail/361363469090992128"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "167-15th-asia-pacific-harmonica-festival",
-      "latestUpdateAt": "2026-08-30T03:07:50.857557+00:00",
-      "latestUpdateLocal": "2026-08-30 11:07",
-      "latestUpdateSource": "第十五屆亞太口琴藝術週",
-      "latestUpdateUrl": "https://www.aphfhx.com/information/newsDetail/361363469090992128",
-      "avatarUrl": "/assets/source-avatars/0b703abf6d39accdf451.webp",
-      "sourceInitials": "第十",
-      "sourceTags": [
-        "活動資訊",
-        "比賽",
-        "半音階",
-        "複音",
-        "十孔",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_167",
-          "name": "第十五屆亞太口琴藝術週",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://www.aphfhx.com/information/newsDetail/361363469090992128",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-136",
-      "publicId": "136",
-      "name": "Project X",
-      "nameEn": "Project X",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體/合作企劃",
-      "country": "國際",
-      "region": "國際",
-      "cityOrFocus": "口琴合作企劃/跨團重奏/SIHF 2018",
-      "structuredSummary": "口琴合作企劃/跨團重奏/SIHF 2018 / 口琴 / 國際演出團體",
-      "summary": "國際的口琴國際演出團體，活動脈絡包含口琴合作企劃、跨團重奏與SIHF 2018。",
-      "keywords": "Project X harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://thefestival.co.kr/info/festival/7338"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "136-project-x",
-      "latestUpdateAt": "2026-08-30T03:07:24.125284+00:00",
-      "latestUpdateLocal": "2026-08-30 11:07",
-      "latestUpdateSource": "Project X",
-      "latestUpdateUrl": "https://thefestival.co.kr/info/festival/7338",
-      "avatarUrl": "/assets/source-avatars/d46567b33b1baf0d8f42.webp",
-      "sourceInitials": "PX",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_136",
-          "name": "Project X",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://thefestival.co.kr/info/festival/7338",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_sihf_uv5mk",
-          "name": "Seoul International Harmonica Festival",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@SIHF-uv5mk",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-134",
-      "publicId": "134",
-      "name": "Crossover Harmonica Ensemble",
-      "nameEn": "Crossover Harmonica Ensemble",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "韓國跨界口琴重奏/國際交流/SIHF 2018",
-      "structuredSummary": "韓國跨界口琴重奏/國際交流/SIHF 2018 / 口琴重奏 / 國際演出團體",
-      "summary": "韓國的口琴重奏國際演出團體，活動脈絡包含韓國跨界口琴重奏、國際交流與SIHF 2018。",
-      "keywords": "Crossover Harmonica Ensemble Korea SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://thefestival.co.kr/info/festival/7338"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "134-crossover-harmonica-ensemble",
-      "latestUpdateAt": "2026-08-30T03:07:20.384101+00:00",
-      "latestUpdateLocal": "2026-08-30 11:07",
-      "latestUpdateSource": "Crossover Harmonica Ensemble",
-      "latestUpdateUrl": "https://thefestival.co.kr/info/festival/7338",
-      "avatarUrl": "/assets/source-avatars/d46567b33b1baf0d8f42.webp",
-      "sourceInitials": "CHE",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "web_134",
-          "name": "Crossover Harmonica Ensemble",
-          "platform": "website",
-          "type": "webpage_watch",
-          "username": "",
-          "profileUrl": "https://thefestival.co.kr/info/festival/7338",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_sihf_uv5mk",
-          "name": "Seoul International Harmonica Festival",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@SIHF-uv5mk",
           "feedUrl": ""
         }
       ]
@@ -4114,7 +4114,7 @@
       "latestUpdateLocal": "2026-08-25 22:32",
       "latestUpdateSource": "口琴保存與推廣協會 SPAH",
       "latestUpdateUrl": "https://www.instagram.com/p/Dcd2lyBNvpp/",
-      "avatarUrl": "/assets/source-avatars/fc7df9a42bf812aad16b.webp",
+      "avatarUrl": "/assets/source-avatars/a2aadf54b966c7a0ef90.webp",
       "sourceInitials": "S",
       "sourceTags": [
         "協會",
@@ -4195,7 +4195,7 @@
       "latestUpdateLocal": "2026-08-25 22:16",
       "latestUpdateSource": "Rodrigo Eberienos",
       "latestUpdateUrl": "https://www.instagram.com/p/Dcd005AxqBn/",
-      "avatarUrl": "/assets/source-avatars/aeb835e8d58868b6c87d.webp",
+      "avatarUrl": "/assets/source-avatars/612955eef597b122ec76.webp",
       "sourceInitials": "RE",
       "sourceTags": [
         "演奏者",
