@@ -921,6 +921,75 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-218",
+      "publicId": "218",
+      "name": "Evelyn Choong 鍾雪兒",
+      "nameEn": "Evelyn Choong",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
+      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "Evelyn Choong 鍾雪兒 evelyn_harmonica World Harmonica Champion Aiden N Evelyn harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/evelyn.choong.3/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/evelyn_harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "218-evelyn-choong",
+      "latestUpdateAt": "2026-08-30T04:02:35+00:00",
+      "latestUpdateLocal": "2026-08-30 12:02",
+      "latestUpdateSource": "Evelyn Choong 鍾雪兒",
+      "latestUpdateUrl": "https://www.instagram.com/p/Dcpmo2es0bU/",
+      "avatarUrl": "/assets/source-avatars/5e8009197c8cf0df45eb.webp",
+      "sourceInitials": "EC",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_evelyn_choong_3",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/evelyn.choong.3",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_evelyn_harmonica",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "evelyn_harmonica",
+          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_evelyn_harmonica",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "evelyn_harmonica",
+          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-86",
       "publicId": "86",
       "name": "吹出好心琴 + Ou Frog",
@@ -5926,75 +5995,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@%E5%8F%A3%E7%90%B4%E4%B9%8B%E7%8B%BC",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-218",
-      "publicId": "218",
-      "name": "Evelyn Choong 鍾雪兒",
-      "nameEn": "Evelyn Choong",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
-      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
-      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
-      "keywords": "Evelyn Choong 鍾雪兒 evelyn_harmonica World Harmonica Champion Aiden N Evelyn harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/evelyn.choong.3/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/evelyn_harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "218-evelyn-choong",
-      "latestUpdateAt": "2026-08-24T10:46:57+00:00",
-      "latestUpdateLocal": "2026-08-24 18:46",
-      "latestUpdateSource": "Evelyn Choong 鍾雪兒",
-      "latestUpdateUrl": "https://www.instagram.com/stories/evelyn_harmonica/3970734139305015249/",
-      "avatarUrl": "/assets/source-avatars/5e8009197c8cf0df45eb.webp",
-      "sourceInitials": "EC",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_evelyn_choong_3",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/evelyn.choong.3",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_evelyn_harmonica",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "evelyn_harmonica",
-          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_evelyn_harmonica",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "evelyn_harmonica",
-          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
           "feedUrl": ""
         }
       ]

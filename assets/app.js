@@ -305,11 +305,13 @@
   const scoreFilterNames = ["program", "publisher"];
   const scoreSourceFilterNames = ["sourceType", "platform", "availability", "format"];
   const feedApiUrl = "/api/latest.json";
+  const statusApiUrl = "/api/status.json";
   let feedSearchComposing = false;
 
   const directoryList = document.querySelector("#directory-list");
   const latestFeedGrid = document.querySelector("#latest-feed-grid");
   const homeStoryList = document.querySelector("#home-story-list");
+  let instagramStoryHealth = null;
   const spotlightList = document.querySelector("#spotlight-list");
   const resultCount = document.querySelector("#result-count");
   const directoryHashtagFilters = document.querySelector("#directory-hashtag-filters");
@@ -377,14 +379,22 @@
     if (!latestFeedGrid || !window.fetch) return;
     const url = new URL(feedApiUrl, window.location.href);
     url.searchParams.set("_", String(Date.now()));
+    const statusUrl = new URL(statusApiUrl, window.location.href);
+    statusUrl.searchParams.set("_", String(Date.now()));
     try {
-      const response = await fetch(url, {
-        cache: "no-store",
-        headers: { Accept: "application/json" },
-      });
+      const [response, statusResponse] = await Promise.all([
+        fetch(url, { cache: "no-store", headers: { Accept: "application/json" } }),
+        fetch(statusUrl, { cache: "no-store", headers: { Accept: "application/json" } }).catch(() => null),
+      ]);
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const nextFeedData = normalizeFeedPayload(await response.json());
       if (!nextFeedData) return;
+      if (statusResponse?.ok) {
+        const statusPayload = await statusResponse.json();
+        instagramStoryHealth = Array.isArray(statusPayload?.components)
+          ? statusPayload.components.find((component) => component?.id === "instagram") || null
+          : null;
+      }
       feedData = nextFeedData;
       feedIndex = null;
       feedSocialSourceById = null;
@@ -1778,7 +1788,19 @@
     const stories = recentStoryItems();
     stopHomeStoryAutoScroll();
     if (!stories.length) {
-      homeStoryList.innerHTML = `<div class="empty-state">近 24 小時內尚未抓到可顯示的公開 Instagram 限動。</div>`;
+      const healthText = [
+        instagramStoryHealth?.summary || "",
+        ...(Array.isArray(instagramStoryHealth?.details) ? instagramStoryHealth.details : []),
+      ].join(" ").toLocaleLowerCase("zh-Hant");
+      const storyCollectorFailed = ["instaloader", "401", "登入熔斷", "session"]
+        .some((marker) => healthText.includes(marker));
+      if (instagramStoryHealth && instagramStoryHealth.status !== "ok" && storyCollectorFailed) {
+        homeStoryList.innerHTML = `<div class="empty-state">Instagram 限動抓取目前異常，暫時無法確認近 24 小時是否有公開限動。<a href="/status/">查看系統狀態</a></div>`;
+      } else if (instagramStoryHealth) {
+        homeStoryList.innerHTML = `<div class="empty-state">近 24 小時內尚未抓到可顯示的公開 Instagram 限動。</div>`;
+      } else {
+        homeStoryList.innerHTML = `<div class="empty-state">正在確認近 24 小時的 Instagram 限動…</div>`;
+      }
       return;
     }
     const storyHtml = stories.map((item) => storyCard(item)).join("");
