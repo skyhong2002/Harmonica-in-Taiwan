@@ -4126,7 +4126,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-25 22:16",
       "latestUpdateSource": "Rodrigo Eberienos",
       "latestUpdateUrl": "https://www.instagram.com/p/Dcd005AxqBn/",
-      "avatarUrl": "/assets/source-avatars/0fbd6e01235565fc3961.webp",
+      "avatarUrl": "/assets/source-avatars/aeb835e8d58868b6c87d.webp",
       "sourceInitials": "RE",
       "sourceTags": [
         "演奏者",
