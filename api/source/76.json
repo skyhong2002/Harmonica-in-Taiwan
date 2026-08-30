@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T08:29:50.266000Z",
+  "generatedAt": "2026-08-30T09:39:22.798680Z",
   "source": {
     "id": 76,
     "slug": "76",
@@ -228,20 +228,6 @@
       "publishedAt": "2026-08-05T04:00:01Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/ec630d59c1b9f11a3ab6.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-ff0b0c09d91e1ab062569de5",
-      "title": "【藝紀錄．竹縣瑰寶】第二十七集 2026新竹縣優秀藝術家薪傳展 寄情山水‧世紀凝視 司徒錦鷹山水畫展 專訪紀錄片 115.07.31",
-      "excerpt": "【藝紀錄．竹縣瑰寶】第二十七集 2026新竹縣優秀藝術家薪傳展 寄情山水‧世紀凝視 司徒錦鷹山水畫展 專訪紀錄片 115.07.31 新竹縣政府文化局自民國86年舉辦優秀藝術家薪傳展，已為多位優秀藝術家拍攝紀錄影片，歡迎大家欣賞體驗不同藝術家的美學，以及他們於創作其中領悟的人生道理，藝遊未盡 ~ 本次展覽特別邀請長年深耕水墨與藝術教育的司徒錦鷹老師，將他沈浸墨海近一甲子的生命體悟，透過蒼勁的大樹與壯闊的山水躍然紙上，誠摯邀請所有熱愛藝術的朋友蒞臨，一同感受這場長達一甲子、藝術家與大自然的深情對話。",
-      "url": "https://www.youtube.com/watch?v=lrvGPebnIAo",
-      "sourceName": "新竹縣文化局",
-      "platform": "YouTube",
-      "publishedAt": "2026-07-31T09:34:40Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/49e01aea636bc98f8e81.webp",
         "width": 800,
         "height": 450
       }
