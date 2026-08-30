@@ -813,7 +813,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-29 14:05",
       "latestUpdateSource": "CY Leo 何卓彥",
       "latestUpdateUrl": "https://www.facebook.com/Cyleoharmonica/posts/pfbid06LTNbxaJ5AU5zrcwP6wh5SohKyDeSGw2xGKumfEgLiiuMvUHAeCufNZsJnfEttMMl",
-      "avatarUrl": "/assets/source-avatars/0593677b111266524b58.webp",
+      "avatarUrl": "/assets/source-avatars/9c7b129c48401d3efd7a.webp",
       "sourceInitials": "CL",
       "sourceTags": [
         "演奏者",
@@ -7941,7 +7941,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-22 22:13",
       "latestUpdateSource": "Aiden Soon",
       "latestUpdateUrl": "https://www.instagram.com/p/DcWGNXvsFAK/",
-      "avatarUrl": "/assets/source-avatars/97cc41d384300a58f8d1.webp",
+      "avatarUrl": "/assets/source-avatars/dc72a3ea5feaa7704bc0.webp",
       "sourceInitials": "AS",
       "sourceTags": [
         "演奏者",
@@ -8912,6 +8912,105 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@reyharpnaufal5101",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-322",
+      "publicId": "322",
+      "name": "TOMBO祭アワード",
+      "nameEn": "TOMBO Festival Awards",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
+      "country": "日本",
+      "region": "日本/線上",
+      "cityOrFocus": "トンボ楽器主辦的年度線上口琴與手風琴內容競賽/2026徵件期為5月15日至10月31日/11月13日公布結果/演奏、創作、影像與推廣任務",
+      "structuredSummary": "トンボ楽器主辦的年度線上口琴與手風琴內容競賽/2026徵件期為5月15日至10月31日/11月13日公布結果/演奏、創作、影像與推廣任務 / 口琴/手風琴 / 國際線上賽事/徵件與結果資訊來源",
+      "summary": "TOMBO祭アワード是トンボ楽器主辦的年度線上口琴與手風琴內容競賽；2026年徵件至10月31日，11月13日公布結果。",
+      "keywords": "TOMBO祭アワード TOMBO Festival Awards 2026 トンボ楽器 口琴 手風琴 線上競賽 作品徵件 10秒間で鷲づかみ オフィシャルミッション フリーミッション",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.tombo-m.co.jp/tombofes/2026/award.html"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/tombogakki/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_accordion.jp/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@tombogakki"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/tombo_info"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "322-tombo-festival-awards",
+      "latestUpdateAt": "2026-08-21T08:00:11+00:00",
+      "latestUpdateLocal": "2026-08-21 16:00",
+      "latestUpdateSource": "TOMBO祭アワード",
+      "latestUpdateUrl": "https://www.youtube.com/watch?v=vgQ_brux_jU",
+      "avatarUrl": "/assets/source-avatars/51e3983beb57896487ff.webp",
+      "sourceInitials": "T",
+      "sourceTags": [
+        "活動資訊",
+        "比賽"
+      ],
+      "sourceSummary": "TOMBO祭アワード是トンボ楽器主辦的年度線上口琴與手風琴內容競賽；2026年徵件至10月31日，11月13日公布結果。",
+      "sourceTagReason": "依トンボ楽器官方競賽頁與官方 note 公告確認活動名稱、主辦單位、競賽內容及2026年期程。",
+      "monitorSources": [
+        {
+          "id": "fb_tombogakki",
+          "name": "TOMBO祭アワード",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/tombogakki",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_harmonica_accordion_jp",
+          "name": "TOMBO祭アワード",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_accordion.jp",
+          "profileUrl": "https://www.instagram.com/harmonica_accordion.jp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_accordion_jp",
+          "name": "TOMBO祭アワード",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_accordion.jp",
+          "profileUrl": "https://www.instagram.com/harmonica_accordion.jp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "x_tombo_info",
+          "name": "TOMBO祭アワード",
+          "platform": "x",
+          "type": "rss",
+          "username": "tombo_info",
+          "profileUrl": "https://x.com/tombo_info",
+          "feedUrl": "https://rss.observe.tw/twitter/user/tombo_info"
+        },
+        {
+          "id": "yt_tombogakki",
+          "name": "TOMBO祭アワード",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@tombogakki",
           "feedUrl": ""
         }
       ]
@@ -12039,105 +12138,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/hohnerklang",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-322",
-      "publicId": "322",
-      "name": "TOMBO祭アワード",
-      "nameEn": "TOMBO Festival Awards",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "活動/資訊入口",
-      "country": "日本",
-      "region": "日本/線上",
-      "cityOrFocus": "トンボ楽器主辦的年度線上口琴與手風琴內容競賽/2026徵件期為5月15日至10月31日/11月13日公布結果/演奏、創作、影像與推廣任務",
-      "structuredSummary": "トンボ楽器主辦的年度線上口琴與手風琴內容競賽/2026徵件期為5月15日至10月31日/11月13日公布結果/演奏、創作、影像與推廣任務 / 口琴/手風琴 / 國際線上賽事/徵件與結果資訊來源",
-      "summary": "TOMBO祭アワード是トンボ楽器主辦的年度線上口琴與手風琴內容競賽；2026年徵件至10月31日，11月13日公布結果。",
-      "keywords": "TOMBO祭アワード TOMBO Festival Awards 2026 トンボ楽器 口琴 手風琴 線上競賽 作品徵件 10秒間で鷲づかみ オフィシャルミッション フリーミッション",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.tombo-m.co.jp/tombofes/2026/award.html"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/tombogakki/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/harmonica_accordion.jp/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@tombogakki"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/tombo_info"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "322-tombo-festival-awards",
-      "latestUpdateAt": "2026-07-31T08:01:57+00:00",
-      "latestUpdateLocal": "2026-07-31 16:01",
-      "latestUpdateSource": "TOMBO祭アワード",
-      "latestUpdateUrl": "https://x.com/tombo_info/status/2083100840714510532",
-      "avatarUrl": "/assets/source-avatars/51e3983beb57896487ff.webp",
-      "sourceInitials": "T",
-      "sourceTags": [
-        "活動資訊",
-        "比賽"
-      ],
-      "sourceSummary": "TOMBO祭アワード是トンボ楽器主辦的年度線上口琴與手風琴內容競賽；2026年徵件至10月31日，11月13日公布結果。",
-      "sourceTagReason": "依トンボ楽器官方競賽頁與官方 note 公告確認活動名稱、主辦單位、競賽內容及2026年期程。",
-      "monitorSources": [
-        {
-          "id": "fb_tombogakki",
-          "name": "TOMBO祭アワード",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/tombogakki",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_harmonica_accordion_jp",
-          "name": "TOMBO祭アワード",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "harmonica_accordion.jp",
-          "profileUrl": "https://www.instagram.com/harmonica_accordion.jp/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_harmonica_accordion_jp",
-          "name": "TOMBO祭アワード",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "harmonica_accordion.jp",
-          "profileUrl": "https://www.instagram.com/harmonica_accordion.jp/",
-          "feedUrl": ""
-        },
-        {
-          "id": "x_tombo_info",
-          "name": "TOMBO祭アワード",
-          "platform": "x",
-          "type": "rss",
-          "username": "tombo_info",
-          "profileUrl": "https://x.com/tombo_info",
-          "feedUrl": "https://rss.observe.tw/twitter/user/tombo_info"
-        },
-        {
-          "id": "yt_tombogakki",
-          "name": "TOMBO祭アワード",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@tombogakki",
           "feedUrl": ""
         }
       ]

@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-30T07:35:01+08:00",
+  "generatedAt": "2026-08-30T08:10:12+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
-  "count": 14,
+  "count": 11,
   "source": "/api/events.json",
   "ics": "/feeds/overseas-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -15,7 +15,7 @@
     "model": "gpt-5.4-mini",
     "stats": {
       "requests": 0,
-      "cached": 28,
+      "cached": 23,
       "errors": 0
     }
   },
@@ -281,42 +281,6 @@
       "image_url": "https://pbs.twimg.com/media/HOekMrFbsAAcm03?format=jpg&name=orig"
     },
     {
-      "id": "2d1b19b126536402",
-      "title": "CY Leo 何卓彥｜Two Worlds In One 亞洲巡演",
-      "eventName": "CY Leo 何卓彥｜Two Worlds In One 亞洲巡演",
-      "source": "cy_leo",
-      "platform": "instagram",
-      "start": "2026-10-03",
-      "end": "2026-10-04",
-      "allDay": true,
-      "calendarType": "overseas_physical",
-      "timezone": "Asia/Singapore",
-      "location": "Singapore",
-      "venue": "Singapore",
-      "city": "Singapore",
-      "details": "主辦／演出者：CY Leo 何卓彥。亞洲巡演場次：2026-10-03，地點為 Singapore。貼文未提供更具體的場館或演出時間。",
-      "evidenceUrl": "https://www.instagram.com/p/DbdOLZDjK-H/",
-      "confidence": 0.9,
-      "calendarReview": {
-        "include": true,
-        "country": "新加坡",
-        "eventMode": "overseas_physical",
-        "timezone": "Asia/Singapore",
-        "candidateDateMatches": true,
-        "eventName": "CY Leo 何卓彥｜Two Worlds In One 亞洲巡演",
-        "venue": "Singapore",
-        "city": "Singapore",
-        "details": "主辦／演出者：CY Leo 何卓彥。亞洲巡演場次：2026-10-03，地點為 Singapore。貼文未提供更具體的場館或演出時間。",
-        "reason": "貼文明確列出巡演日期與城市，收錄為該城市的全天活動。",
-        "confidence": 0.9
-      },
-      "postedAt": "2026-07-31 08:00",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/761653358_18612351817050240_2590188587154998094_n.jpg?stp=c655.0.1966.1966a_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6O2px-IVY5cQ7kNvwHH-Z5G&_nc_oc=AdqnT2X1NBWMguMiKHWkTVfr7qEAQtyDbu-VekrBu3anN6DdBzi0drV65JQmiZrPYOE&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YLet9VsdHRqztOzPMYljcw&_nc_ss=7b60f&oh=00_AQGVYRe6a9KHZcTPxwLC8SUrI0eUj3WUV5Z30p3UOwVAhQ&oe=6A756848"
-      ],
-      "image_url": "/assets/feed-images/9d9b79fc0bcd2accabe3.webp"
-    },
-    {
       "id": "5dc93477d78e7a96",
       "title": "CY LEO — TWO WORLDS IN ONE《兩界一心》| ASIA TOUR – SINGAPORE",
       "eventName": "CY LEO — TWO WORLDS IN ONE《兩界一心》| ASIA TOUR – SINGAPORE",
@@ -388,78 +352,6 @@
         "https://scontent-atl3-1.xx.fbcdn.net/v/t39.30808-6/772265143_1690618266403579_878248659833092620_n.jpg?stp=dst-jpg_tt6&cstp=mx1440x1920&ctp=p526x296&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=OLUibseIXvYQ7kNvwGCRa5X&_nc_oc=AdrINbq4m5CIIRyQrlzBnlwBOePSBK8iZgzsC0Cpimwoc7jFFHy3NdxIlnu1FL2tuAhB9bnUj-0yAXRhf8ZCtUfN&_nc_zt=23&_nc_ht=scontent-atl3-1.xx&_nc_gid=aK1hOQ1ZEUWwILkG6aw3bw&_nc_ss=72289&oh=00_AQE_GXTle5aXwQ5ZSX4CATafJXj-g0wB2cp_CfX6JSq2tw&oe=6A8C6430"
       ],
       "image_url": "/assets/feed-images/a58c97187f3e8524246e.webp"
-    },
-    {
-      "id": "4ecad43e0bebfcf8",
-      "title": "CY Leo 何卓彥｜Two Worlds In One 亞洲巡演",
-      "eventName": "CY Leo 何卓彥｜Two Worlds In One 亞洲巡演",
-      "source": "cy_leo",
-      "platform": "instagram",
-      "start": "2026-10-05",
-      "end": "2026-10-06",
-      "allDay": true,
-      "calendarType": "overseas_physical",
-      "timezone": "Asia/Kuala_Lumpur",
-      "location": "Penang",
-      "venue": "Penang",
-      "city": "Penang",
-      "details": "主辦／演出者：CY Leo 何卓彥。亞洲巡演場次：2026-10-05，地點為 Penang。貼文未提供更具體的場館或演出時間。",
-      "evidenceUrl": "https://www.instagram.com/p/DbdOLZDjK-H/",
-      "confidence": 0.9,
-      "calendarReview": {
-        "include": true,
-        "country": "檳城",
-        "eventMode": "overseas_physical",
-        "timezone": "Asia/Kuala_Lumpur",
-        "candidateDateMatches": true,
-        "eventName": "CY Leo 何卓彥｜Two Worlds In One 亞洲巡演",
-        "venue": "Penang",
-        "city": "Penang",
-        "details": "主辦／演出者：CY Leo 何卓彥。亞洲巡演場次：2026-10-05，地點為 Penang。貼文未提供更具體的場館或演出時間。",
-        "reason": "貼文明確列出巡演日期與城市，收錄為該城市的全天活動。",
-        "confidence": 0.9
-      },
-      "postedAt": "2026-07-31 08:00",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/761653358_18612351817050240_2590188587154998094_n.jpg?stp=c655.0.1966.1966a_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6O2px-IVY5cQ7kNvwHH-Z5G&_nc_oc=AdqnT2X1NBWMguMiKHWkTVfr7qEAQtyDbu-VekrBu3anN6DdBzi0drV65JQmiZrPYOE&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YLet9VsdHRqztOzPMYljcw&_nc_ss=7b60f&oh=00_AQGVYRe6a9KHZcTPxwLC8SUrI0eUj3WUV5Z30p3UOwVAhQ&oe=6A756848"
-      ],
-      "image_url": "/assets/feed-images/9d9b79fc0bcd2accabe3.webp"
-    },
-    {
-      "id": "99e4d00a1c7615a6",
-      "title": "CY Leo 何卓彥｜Two Worlds In One 亞洲巡演",
-      "eventName": "CY Leo 何卓彥｜Two Worlds In One 亞洲巡演",
-      "source": "cy_leo",
-      "platform": "instagram",
-      "start": "2026-10-09",
-      "end": "2026-10-10",
-      "allDay": true,
-      "calendarType": "overseas_physical",
-      "timezone": "Asia/Seoul",
-      "location": "Seoul",
-      "venue": "Seoul",
-      "city": "Seoul",
-      "details": "主辦／演出者：CY Leo 何卓彥。亞洲巡演場次：2026-10-09，地點為 Seoul。貼文未提供更具體的場館或演出時間。",
-      "evidenceUrl": "https://www.instagram.com/p/DbdOLZDjK-H/",
-      "confidence": 0.9,
-      "calendarReview": {
-        "include": true,
-        "country": "首爾",
-        "eventMode": "overseas_physical",
-        "timezone": "Asia/Seoul",
-        "candidateDateMatches": true,
-        "eventName": "CY Leo 何卓彥｜Two Worlds In One 亞洲巡演",
-        "venue": "Seoul",
-        "city": "Seoul",
-        "details": "主辦／演出者：CY Leo 何卓彥。亞洲巡演場次：2026-10-09，地點為 Seoul。貼文未提供更具體的場館或演出時間。",
-        "reason": "貼文明確列出巡演日期與城市，收錄為該城市的全天活動。",
-        "confidence": 0.9
-      },
-      "postedAt": "2026-07-31 08:00",
-      "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/761653358_18612351817050240_2590188587154998094_n.jpg?stp=c655.0.1966.1966a_dst-jpg_e35_s640x640_tt6&_nc_cat=110&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=6O2px-IVY5cQ7kNvwHH-Z5G&_nc_oc=AdqnT2X1NBWMguMiKHWkTVfr7qEAQtyDbu-VekrBu3anN6DdBzi0drV65JQmiZrPYOE&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=YLet9VsdHRqztOzPMYljcw&_nc_ss=7b60f&oh=00_AQGVYRe6a9KHZcTPxwLC8SUrI0eUj3WUV5Z30p3UOwVAhQ&oe=6A756848"
-      ],
-      "image_url": "/assets/feed-images/9d9b79fc0bcd2accabe3.webp"
     },
     {
       "id": "3c48ac6304fd35e6",
