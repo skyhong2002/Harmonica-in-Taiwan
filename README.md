@@ -64,8 +64,12 @@ Instagram Stories 的本機執行環境與 session 首次設定：
 ```bash
 python3 -m venv ~/.config/harmonica/instaloader-venv
 ~/.config/harmonica/instaloader-venv/bin/python -m pip install -r requirements-instaloader.txt
-~/.config/harmonica/instaloader-venv/bin/python scripts/bootstrap_instaloader_session.py --login-user YOUR_INSTAGRAM_USERNAME
+~/.config/harmonica/instaloader-venv/bin/python scripts/bootstrap_instaloader_session.py \
+  --login-user YOUR_INSTAGRAM_USERNAME \
+  --load-cookies Chrome
 ```
+
+在一般 Terminal 執行時，macOS 可能會要求允許讀取 `Chrome Safe Storage`；授權後只會把 Instagram 登入狀態轉成權限為 `0600` 的本機 Instaloader session，不會輸出 Cookie。若不使用瀏覽器登入，可省略 `--load-cookies Chrome`，改由 Instaloader 互動式登入。
 
 最後一行會在終端機中向 Instagram 登入並建立權限為 `0600` 的 `~/.config/harmonica/instaloader-session`；不要將 session 檔加入 Git。之後 pipeline 會自動使用這個 session。若 venv 或 session 放在其他位置，可分別設定 `HARMONICA_INSTALOADER_PYTHON`、`HARMONICA_INSTALOADER_SESSION`。
 - `data/feeds/social_sources.json`：由 CSV 轉出的公開社群監看來源設定。
