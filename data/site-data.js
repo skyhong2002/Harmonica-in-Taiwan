@@ -2,6 +2,78 @@ window.HARMONICA_OBSERVE_DATA = {
   "generatedAt": "2026-09-01",
   "entries": [
     {
+      "id": "watchlist-125",
+      "publicId": "125",
+      "name": "Jens Bunge",
+      "nameEn": "Jens Bunge",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "德國",
+      "region": "德國",
+      "cityOrFocus": "德國爵士口琴/半音階演奏/國際演出與錄音",
+      "structuredSummary": "德國爵士口琴/半音階演奏/國際演出與錄音 / 半音階/爵士口琴 / 國際演出人員",
+      "summary": "德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。",
+      "keywords": "Jens Bunge jazz harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://hohner.de/en/jens-bunge"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/jensbunge.jazzharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@jensbunge"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "125-jens-bunge",
+      "latestUpdateAt": "2026-08-31T18:10:31+00:00",
+      "latestUpdateLocal": "2026-09-01 02:10",
+      "latestUpdateSource": "Jens Bunge",
+      "latestUpdateUrl": "https://www.instagram.com/stories/jensbunge.jazzharmonica/3976030948235764459/",
+      "avatarUrl": "/assets/source-avatars/jens-bunge.jpg",
+      "sourceInitials": "JB",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_jensbunge_jazzharmonica",
+          "name": "Jens Bunge",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "jensbunge.jazzharmonica",
+          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_jensbunge_jazzharmonica",
+          "name": "Jens Bunge",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "jensbunge.jazzharmonica",
+          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_jensbunge",
+          "name": "Jens Bunge",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@jensbunge",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-316",
       "publicId": "316",
       "name": "太平國小口琴隊",
@@ -864,6 +936,194 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-100",
+      "publicId": "100",
+      "name": "曹小歐",
+      "nameEn": "Otis Tsao",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "單口喜劇/藍調口琴/演出",
+      "structuredSummary": "單口喜劇/藍調口琴/演出 / 十孔/藍調口琴 / 演出人員",
+      "summary": "臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。",
+      "keywords": "曹小歐 Otis Tsao 口琴 單口喜劇 藍調口琴",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://portaly.cc/otistsao"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/otis5hundredtsao/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/otistsao/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw"
+        },
+        {
+          "label": "Threads",
+          "url": "https://www.threads.net/@otistsao"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "100-otis-tsao",
+      "latestUpdateAt": "2026-08-31T16:17:46+00:00",
+      "latestUpdateLocal": "2026-09-01 00:17",
+      "latestUpdateSource": "曹小歐",
+      "latestUpdateUrl": "https://www.instagram.com/stories/otistsao/3975974079328546216/",
+      "avatarUrl": "/assets/source-avatars/b2f1b27b34a095c424a4.webp",
+      "sourceInitials": "曹小",
+      "sourceTags": [
+        "演奏者",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_otis5hundredtsao",
+          "name": "曹小歐",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/otis5hundredtsao",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_otistsao",
+          "name": "曹小歐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "otistsao",
+          "profileUrl": "https://www.instagram.com/otistsao/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_otistsao",
+          "name": "曹小歐",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "otistsao",
+          "profileUrl": "https://www.instagram.com/otistsao/",
+          "feedUrl": ""
+        },
+        {
+          "id": "threads_otistsao",
+          "name": "曹小歐",
+          "platform": "threads",
+          "type": "rss",
+          "username": "otistsao",
+          "profileUrl": "https://www.threads.net/@otistsao",
+          "feedUrl": "https://rss.observe.tw/threads/otistsao"
+        },
+        {
+          "id": "yt_ucbdafdgrntui_iqtg9e4bmw",
+          "name": "曹小歐",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-139",
+      "publicId": "139",
+      "name": "Lee Oskar",
+      "nameEn": "Lee Oskar",
+      "category": "演奏者",
+      "type": "品牌",
+      "originalType": "個人/品牌",
+      "country": "丹麥",
+      "region": "美國",
+      "cityOrFocus": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌",
+      "structuredSummary": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌 / 十孔/藍調口琴 / 國際演出人員/品牌創辦人",
+      "summary": "丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。",
+      "keywords": "Lee Oskar harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://leeoskar.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/LeeOskarHarmonicas/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/leeoskarharmonicas/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@leeoskarharmonicas"
+        },
+        {
+          "label": "TikTok",
+          "url": "https://www.tiktok.com/@leeoskarharmonicas"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "139-lee-oskar",
+      "latestUpdateAt": "2026-08-31T15:35:13+00:00",
+      "latestUpdateLocal": "2026-08-31 23:35",
+      "latestUpdateSource": "Lee Oskar",
+      "latestUpdateUrl": "https://www.instagram.com/stories/leeoskarharmonicas/3975952663941528009/",
+      "avatarUrl": "/assets/source-avatars/649501a378de64e77643.webp",
+      "sourceInitials": "LO",
+      "sourceTags": [
+        "品牌",
+        "演奏者",
+        "團體樂團",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_leeoskarharmonicas",
+          "name": "Lee Oskar",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/LeeOskarHarmonicas",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_leeoskarharmonicas",
+          "name": "Lee Oskar",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "leeoskarharmonicas",
+          "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_leeoskarharmonicas",
+          "name": "Lee Oskar",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "leeoskarharmonicas",
+          "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_leeoskarharmonicas",
+          "name": "Lee Oskar",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@leeoskarharmonicas",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -961,6 +1221,179 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@minamirisa",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-101",
+      "publicId": "101",
+      "name": "何家健 HarmoniKahkean",
+      "nameEn": "Ho Kah Kean / HarmoniKahkean",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人/地方推廣",
+      "country": "馬來西亞",
+      "region": "臺灣/花蓮；馬來西亞",
+      "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
+      "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
+      "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
+      "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/harmonikahkean"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/harmonikahkean/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kahkeanho/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@hokahkean1999"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "101-ho-kah-kean-harmonikahkean",
+      "latestUpdateAt": "2026-08-31T13:26:46+00:00",
+      "latestUpdateLocal": "2026-08-31 21:26",
+      "latestUpdateSource": "何家健 HarmoniKahkean",
+      "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3975888026819588688/",
+      "avatarUrl": "/assets/source-avatars/0d0438c131da2df17004.webp",
+      "sourceInitials": "H",
+      "sourceTags": [
+        "演奏者",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_harmonikahkean",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/harmonikahkean",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_kahkeanho",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "kahkeanho",
+          "profileUrl": "https://www.instagram.com/kahkeanho/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_hokahkean1999",
+          "name": "何家健 HarmoniKahkean",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@hokahkean1999",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-109",
+      "publicId": "109",
+      "name": "Boris Plotnikov",
+      "nameEn": "Boris Plotnikov",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "俄羅斯",
+      "region": "俄羅斯",
+      "cityOrFocus": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊/SIHF 2026",
+      "structuredSummary": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊/SIHF 2026 / 十孔/半音階 / 國際演出人員/教學者",
+      "summary": "俄羅斯的十孔與半音階國際演出人員與教學者，活動脈絡包含莫斯科職業口琴演奏、藍調爵士與國際比賽得獎。",
+      "keywords": "Boris Plotnikov etaborya boris_plotnikov harmonica SIHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://borisplotnikov.ru/en"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/boris.plotnikov.9"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/boris_plotnikov/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@etaborya"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "109-boris-plotnikov",
+      "latestUpdateAt": "2026-08-31T12:58:59+00:00",
+      "latestUpdateLocal": "2026-08-31 20:58",
+      "latestUpdateSource": "Boris Plotnikov",
+      "latestUpdateUrl": "https://www.instagram.com/stories/boris_plotnikov/3975874101239420821/",
+      "avatarUrl": "/assets/source-avatars/boris-plotnikov.jpg",
+      "sourceInitials": "BP",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "比賽",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_boris_plotnikov_9",
+          "name": "Boris Plotnikov",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/boris.plotnikov.9",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_boris_plotnikov",
+          "name": "Boris Plotnikov",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "boris_plotnikov",
+          "profileUrl": "https://www.instagram.com/boris_plotnikov/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_boris_plotnikov",
+          "name": "Boris Plotnikov",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "boris_plotnikov",
+          "profileUrl": "https://www.instagram.com/boris_plotnikov/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_etaborya",
+          "name": "Boris Plotnikov",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@etaborya",
           "feedUrl": ""
         }
       ]
@@ -1301,6 +1734,152 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "r83350",
           "profileUrl": "https://www.instagram.com/r83350/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-115",
+      "publicId": "115",
+      "name": "Filip Jers",
+      "nameEn": "Filip Jers",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "瑞典",
+      "region": "瑞典",
+      "cityOrFocus": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出",
+      "structuredSummary": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出 / 半音階/十孔 / 國際演出人員/作曲者/教育者",
+      "summary": "瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。",
+      "keywords": "Filip Jers harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.filipjers.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/filipjersmusic/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/filipjersharmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@filipjersmusic"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "115-filip-jers",
+      "latestUpdateAt": "2026-08-31T06:47:24+00:00",
+      "latestUpdateLocal": "2026-08-31 14:47",
+      "latestUpdateSource": "Filip Jers",
+      "latestUpdateUrl": "https://www.instagram.com/stories/filipjersharmonica/3975687014703707808/",
+      "avatarUrl": "/assets/source-avatars/0cd42e751710b0949492.webp",
+      "sourceInitials": "FJ",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_filipjersmusic",
+          "name": "Filip Jers",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/filipjersmusic",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_filipjersharmonica",
+          "name": "Filip Jers",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "filipjersharmonica",
+          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_filipjersharmonica",
+          "name": "Filip Jers",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "filipjersharmonica",
+          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_filipjersmusic",
+          "name": "Filip Jers",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@filipjersmusic",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-111",
+      "publicId": "111",
+      "name": "Lee Hangyeol 이한결",
+      "nameEn": "Lee Hangyeol",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國/首爾",
+      "cityOrFocus": "首爾藝術大學實用音樂系口琴主修/半音階爵士/Seoul Soloists/2025 WHF爵士半音階季軍/首爾 2026公演",
+      "structuredSummary": "首爾藝術大學實用音樂系口琴主修/半音階爵士/Seoul Soloists/2025 WHF爵士半音階季軍/首爾 2026公演 / 半音階口琴 / 國際演出人員/教學者",
+      "summary": "韓國的半音階口琴國際演出人員與教學者，活動脈絡包含首爾藝術大學實用音樂系口琴主修、半音階爵士與Seoul Soloists。",
+      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica Seoul Arts SSHO WHF 2025 jazz chromatic third SIHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.seoul.go.kr/seoulgallery/eng/program/view.do?key=2509160014&prgmSn=60"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/gyeoli_94/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "111-lee-hangyeol",
+      "latestUpdateAt": "2026-08-31T06:23:28+00:00",
+      "latestUpdateLocal": "2026-08-31 14:23",
+      "latestUpdateSource": "Lee Hangyeol 이한결",
+      "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3975674956381902689/",
+      "avatarUrl": "/assets/source-avatars/86d4e7ca2ca5c2b3e643.webp",
+      "sourceInitials": "LH",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "gyeoli_94",
+          "profileUrl": "https://www.instagram.com/gyeoli_94/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_gyeoli_94",
+          "name": "Lee Hangyeol 이한결",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "gyeoli_94",
+          "profileUrl": "https://www.instagram.com/gyeoli_94/",
           "feedUrl": ""
         }
       ]
@@ -1792,6 +2371,87 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/c/YoonseokLee_HARMONICA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-108",
+      "publicId": "108",
+      "name": "Rodrigo Eberienos",
+      "nameEn": "Rodrigo Eberienos",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "巴西",
+      "region": "巴西",
+      "cityOrFocus": "巴西職業口琴演奏/教學/錄音合作/SIHF 2026",
+      "structuredSummary": "巴西職業口琴演奏/教學/錄音合作/SIHF 2026 / 口琴 / 國際演出人員/教學者",
+      "summary": "巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。",
+      "keywords": "Rodrigo Eberienos harmonica SIHF 2026",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/rodrigoeberienos/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/rodrigoeberienos/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@eberienos"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "108-rodrigo-eberienos",
+      "latestUpdateAt": "2026-08-31T01:31:47+00:00",
+      "latestUpdateLocal": "2026-08-31 09:31",
+      "latestUpdateSource": "Rodrigo Eberienos",
+      "latestUpdateUrl": "https://www.instagram.com/stories/rodrigoeberienos/3975528150306095900/",
+      "avatarUrl": "/assets/source-avatars/612955eef597b122ec76.webp",
+      "sourceInitials": "RE",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_rodrigoeberienos",
+          "name": "Rodrigo Eberienos",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/rodrigoeberienos",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_rodrigoeberienos",
+          "name": "Rodrigo Eberienos",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "rodrigoeberienos",
+          "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_rodrigoeberienos",
+          "name": "Rodrigo Eberienos",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "rodrigoeberienos",
+          "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_eberienos",
+          "name": "Rodrigo Eberienos",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@eberienos",
           "feedUrl": ""
         }
       ]
@@ -2912,223 +3572,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-101",
-      "publicId": "101",
-      "name": "何家健 HarmoniKahkean",
-      "nameEn": "Ho Kah Kean / HarmoniKahkean",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人/地方推廣",
-      "country": "馬來西亞",
-      "region": "臺灣/花蓮；馬來西亞",
-      "cityOrFocus": "口琴演奏/花蓮地方推廣/Podcast/國際交流",
-      "structuredSummary": "口琴演奏/花蓮地方推廣/Podcast/國際交流 / 口琴/重奏 / 演出人員/地方推廣者",
-      "summary": "馬來西亞的口琴與重奏演出人員與地方推廣者，活動脈絡包含口琴演奏、花蓮地方推廣與Podcast。",
-      "keywords": "何家健 HarmoniKahkean Ho Kah Kean 花蓮 口琴 Dadaya",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/harmonikahkean"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/harmonikahkean/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/kahkeanho/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@hokahkean1999"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "101-ho-kah-kean-harmonikahkean",
-      "latestUpdateAt": "2026-08-30T08:31:19+00:00",
-      "latestUpdateLocal": "2026-08-30 16:31",
-      "latestUpdateSource": "何家健 HarmoniKahkean",
-      "latestUpdateUrl": "https://www.instagram.com/stories/kahkeanho/3975256138962959581/",
-      "avatarUrl": "/assets/source-avatars/0d0438c131da2df17004.webp",
-      "sourceInitials": "H",
-      "sourceTags": [
-        "演奏者",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_harmonikahkean",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/harmonikahkean",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_kahkeanho",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "kahkeanho",
-          "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_kahkeanho",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "kahkeanho",
-          "profileUrl": "https://www.instagram.com/kahkeanho/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_hokahkean1999",
-          "name": "何家健 HarmoniKahkean",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@hokahkean1999",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-125",
-      "publicId": "125",
-      "name": "Jens Bunge",
-      "nameEn": "Jens Bunge",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "德國",
-      "region": "德國",
-      "cityOrFocus": "德國爵士口琴/半音階演奏/國際演出與錄音",
-      "structuredSummary": "德國爵士口琴/半音階演奏/國際演出與錄音 / 半音階/爵士口琴 / 國際演出人員",
-      "summary": "德國的半音階與爵士口琴國際演出人員，活動脈絡包含德國爵士口琴、半音階演奏與國際演出與錄音。",
-      "keywords": "Jens Bunge jazz harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://hohner.de/en/jens-bunge"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/jensbunge.jazzharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@jensbunge"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "125-jens-bunge",
-      "latestUpdateAt": "2026-08-30T08:05:52+00:00",
-      "latestUpdateLocal": "2026-08-30 16:05",
-      "latestUpdateSource": "Jens Bunge",
-      "latestUpdateUrl": "https://www.instagram.com/stories/jensbunge.jazzharmonica/3975243320548754903/",
-      "avatarUrl": "/assets/source-avatars/jens-bunge.jpg",
-      "sourceInitials": "JB",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_jensbunge_jazzharmonica",
-          "name": "Jens Bunge",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "jensbunge.jazzharmonica",
-          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_jensbunge_jazzharmonica",
-          "name": "Jens Bunge",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "jensbunge.jazzharmonica",
-          "profileUrl": "https://www.instagram.com/jensbunge.jazzharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_jensbunge",
-          "name": "Jens Bunge",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@jensbunge",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-111",
-      "publicId": "111",
-      "name": "Lee Hangyeol 이한결",
-      "nameEn": "Lee Hangyeol",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國/首爾",
-      "cityOrFocus": "首爾藝術大學實用音樂系口琴主修/半音階爵士/Seoul Soloists/2025 WHF爵士半音階季軍/首爾 2026公演",
-      "structuredSummary": "首爾藝術大學實用音樂系口琴主修/半音階爵士/Seoul Soloists/2025 WHF爵士半音階季軍/首爾 2026公演 / 半音階口琴 / 國際演出人員/教學者",
-      "summary": "韓國的半音階口琴國際演出人員與教學者，活動脈絡包含首爾藝術大學實用音樂系口琴主修、半音階爵士與Seoul Soloists。",
-      "keywords": "Lee Hangyeol 이한결 gyeoli_94 harmonica Seoul Arts SSHO WHF 2025 jazz chromatic third SIHF 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.seoul.go.kr/seoulgallery/eng/program/view.do?key=2509160014&prgmSn=60"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/gyeoli_94/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "111-lee-hangyeol",
-      "latestUpdateAt": "2026-08-30T07:49:11+00:00",
-      "latestUpdateLocal": "2026-08-30 15:49",
-      "latestUpdateSource": "Lee Hangyeol 이한결",
-      "latestUpdateUrl": "https://www.instagram.com/stories/gyeoli_94/3974993319682724706/",
-      "avatarUrl": "/assets/source-avatars/86d4e7ca2ca5c2b3e643.webp",
-      "sourceInitials": "LH",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "gyeoli_94",
-          "profileUrl": "https://www.instagram.com/gyeoli_94/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_gyeoli_94",
-          "name": "Lee Hangyeol 이한결",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "gyeoli_94",
-          "profileUrl": "https://www.instagram.com/gyeoli_94/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-260",
       "publicId": "260",
       "name": "梁芷菁 Steffi Leung",
@@ -4024,103 +4467,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-100",
-      "publicId": "100",
-      "name": "曹小歐",
-      "nameEn": "Otis Tsao",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "單口喜劇/藍調口琴/演出",
-      "structuredSummary": "單口喜劇/藍調口琴/演出 / 十孔/藍調口琴 / 演出人員",
-      "summary": "臺灣的十孔與藍調口琴演出人員，活動脈絡包含單口喜劇與演出。",
-      "keywords": "曹小歐 Otis Tsao 口琴 單口喜劇 藍調口琴",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://portaly.cc/otistsao"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/otis5hundredtsao/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/otistsao/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw"
-        },
-        {
-          "label": "Threads",
-          "url": "https://www.threads.net/@otistsao"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "100-otis-tsao",
-      "latestUpdateAt": "2026-08-29T19:02:30+00:00",
-      "latestUpdateLocal": "2026-08-30 03:02",
-      "latestUpdateSource": "曹小歐",
-      "latestUpdateUrl": "https://www.instagram.com/stories/otistsao/3974849060619810258/",
-      "avatarUrl": "/assets/source-avatars/b2f1b27b34a095c424a4.webp",
-      "sourceInitials": "曹小",
-      "sourceTags": [
-        "演奏者",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_otis5hundredtsao",
-          "name": "曹小歐",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/otis5hundredtsao",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_otistsao",
-          "name": "曹小歐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "otistsao",
-          "profileUrl": "https://www.instagram.com/otistsao/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_otistsao",
-          "name": "曹小歐",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "otistsao",
-          "profileUrl": "https://www.instagram.com/otistsao/",
-          "feedUrl": ""
-        },
-        {
-          "id": "threads_otistsao",
-          "name": "曹小歐",
-          "platform": "threads",
-          "type": "rss",
-          "username": "otistsao",
-          "profileUrl": "https://www.threads.net/@otistsao",
-          "feedUrl": "https://rss.observe.tw/threads/otistsao"
-        },
-        {
-          "id": "yt_ucbdafdgrntui_iqtg9e4bmw",
-          "name": "曹小歐",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCBDaFdgRnTui_IqtG9E4bmw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-290",
       "publicId": "290",
       "name": "Ivan Marcio",
@@ -4270,92 +4616,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/p/%E6%A1%83%E5%9C%92%E7%8E%A9%E5%8F%A3%E7%90%B4-100057424090624",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-115",
-      "publicId": "115",
-      "name": "Filip Jers",
-      "nameEn": "Filip Jers",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "瑞典",
-      "region": "瑞典",
-      "cityOrFocus": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出",
-      "structuredSummary": "瑞典代表性口琴演奏/作曲/音樂教育/爵士民謠跨界/逾30國演出 / 半音階/十孔 / 國際演出人員/作曲者/教育者",
-      "summary": "瑞典的半音階與十孔國際演出人員、作曲者與教育者，活動脈絡包含瑞典代表性口琴演奏、作曲與音樂教育。",
-      "keywords": "Filip Jers harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.filipjers.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/filipjersmusic/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/filipjersharmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@filipjersmusic"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "115-filip-jers",
-      "latestUpdateAt": "2026-08-29T12:01:52+00:00",
-      "latestUpdateLocal": "2026-08-29 20:01",
-      "latestUpdateSource": "Filip Jers",
-      "latestUpdateUrl": "https://www.instagram.com/p/DclRruNMyed/",
-      "avatarUrl": "/assets/source-avatars/0cd42e751710b0949492.webp",
-      "sourceInitials": "FJ",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_filipjersmusic",
-          "name": "Filip Jers",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/filipjersmusic",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_filipjersharmonica",
-          "name": "Filip Jers",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "filipjersharmonica",
-          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_filipjersharmonica",
-          "name": "Filip Jers",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "filipjersharmonica",
-          "profileUrl": "https://www.instagram.com/filipjersharmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_filipjersmusic",
-          "name": "Filip Jers",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@filipjersmusic",
           "feedUrl": ""
         }
       ]
@@ -5151,97 +5411,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@easttopmusic",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-139",
-      "publicId": "139",
-      "name": "Lee Oskar",
-      "nameEn": "Lee Oskar",
-      "category": "演奏者",
-      "type": "品牌",
-      "originalType": "個人/品牌",
-      "country": "丹麥",
-      "region": "美國",
-      "cityOrFocus": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌",
-      "structuredSummary": "War樂團成員/Lee Oskar Harmonicas創辦人/藍調搖滾與口琴品牌 / 十孔/藍調口琴 / 國際演出人員/品牌創辦人",
-      "summary": "丹麥的十孔與藍調口琴國際演出人員與品牌創辦人，活動脈絡包含War樂團成員、Lee Oskar Harmonicas創辦人與藍調搖滾與口琴品牌。",
-      "keywords": "Lee Oskar harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://leeoskar.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/LeeOskarHarmonicas/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/leeoskarharmonicas/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@leeoskarharmonicas"
-        },
-        {
-          "label": "TikTok",
-          "url": "https://www.tiktok.com/@leeoskarharmonicas"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "139-lee-oskar",
-      "latestUpdateAt": "2026-08-27T14:27:49+00:00",
-      "latestUpdateLocal": "2026-08-27 22:27",
-      "latestUpdateSource": "Lee Oskar",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcjABIkCCa9/",
-      "avatarUrl": "/assets/source-avatars/649501a378de64e77643.webp",
-      "sourceInitials": "LO",
-      "sourceTags": [
-        "品牌",
-        "演奏者",
-        "團體樂團",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_leeoskarharmonicas",
-          "name": "Lee Oskar",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/LeeOskarHarmonicas",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_leeoskarharmonicas",
-          "name": "Lee Oskar",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "leeoskarharmonicas",
-          "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_leeoskarharmonicas",
-          "name": "Lee Oskar",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "leeoskarharmonicas",
-          "profileUrl": "https://www.instagram.com/leeoskarharmonicas/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_leeoskarharmonicas",
-          "name": "Lee Oskar",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@leeoskarharmonicas",
           "feedUrl": ""
         }
       ]
@@ -6144,87 +6313,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-108",
-      "publicId": "108",
-      "name": "Rodrigo Eberienos",
-      "nameEn": "Rodrigo Eberienos",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "巴西",
-      "region": "巴西",
-      "cityOrFocus": "巴西職業口琴演奏/教學/錄音合作/SIHF 2026",
-      "structuredSummary": "巴西職業口琴演奏/教學/錄音合作/SIHF 2026 / 口琴 / 國際演出人員/教學者",
-      "summary": "巴西的口琴國際演出人員與教學者，活動脈絡包含巴西職業口琴演奏、教學與錄音合作。",
-      "keywords": "Rodrigo Eberienos harmonica SIHF 2026",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/rodrigoeberienos/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/rodrigoeberienos/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@eberienos"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "108-rodrigo-eberienos",
-      "latestUpdateAt": "2026-08-25T14:16:11+00:00",
-      "latestUpdateLocal": "2026-08-25 22:16",
-      "latestUpdateSource": "Rodrigo Eberienos",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dcd005AxqBn/",
-      "avatarUrl": "/assets/source-avatars/612955eef597b122ec76.webp",
-      "sourceInitials": "RE",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_rodrigoeberienos",
-          "name": "Rodrigo Eberienos",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/rodrigoeberienos",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_rodrigoeberienos",
-          "name": "Rodrigo Eberienos",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "rodrigoeberienos",
-          "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_rodrigoeberienos",
-          "name": "Rodrigo Eberienos",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "rodrigoeberienos",
-          "profileUrl": "https://www.instagram.com/rodrigoeberienos/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_eberienos",
-          "name": "Rodrigo Eberienos",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@eberienos",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-118",
       "publicId": "118",
       "name": "Federico Linari",
@@ -6804,7 +6892,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "132-antonio-serrano",
-      "latestUpdateAt": "2026-08-24T17:44:25+00:00",
+      "latestUpdateAt": "2026-08-24T17:44:26+00:00",
       "latestUpdateLocal": "2026-08-25 01:44",
       "latestUpdateSource": "Antonio Serrano",
       "latestUpdateUrl": "https://www.instagram.com/p/DcboCVJRxZv/",
@@ -9733,94 +9821,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://worldharmonicafestival.de/artist-profile-tian-long-li",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-109",
-      "publicId": "109",
-      "name": "Boris Plotnikov",
-      "nameEn": "Boris Plotnikov",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "俄羅斯",
-      "region": "俄羅斯",
-      "cityOrFocus": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊/SIHF 2026",
-      "structuredSummary": "莫斯科職業口琴演奏/藍調爵士/國際比賽得獎/教學工作坊/SIHF 2026 / 十孔/半音階 / 國際演出人員/教學者",
-      "summary": "俄羅斯的十孔與半音階國際演出人員與教學者，活動脈絡包含莫斯科職業口琴演奏、藍調爵士與國際比賽得獎。",
-      "keywords": "Boris Plotnikov etaborya boris_plotnikov harmonica SIHF 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://borisplotnikov.ru/en"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/boris.plotnikov.9"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/boris_plotnikov/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@etaborya"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "109-boris-plotnikov",
-      "latestUpdateAt": "2026-08-20T18:14:29+00:00",
-      "latestUpdateLocal": "2026-08-21 02:14",
-      "latestUpdateSource": "Boris Plotnikov",
-      "latestUpdateUrl": "https://www.instagram.com/stories/boris_plotnikov/3968060568120893464/",
-      "avatarUrl": "/assets/source-avatars/boris-plotnikov.jpg",
-      "sourceInitials": "BP",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "比賽",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_boris_plotnikov_9",
-          "name": "Boris Plotnikov",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/boris.plotnikov.9",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_boris_plotnikov",
-          "name": "Boris Plotnikov",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "boris_plotnikov",
-          "profileUrl": "https://www.instagram.com/boris_plotnikov/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_boris_plotnikov",
-          "name": "Boris Plotnikov",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "boris_plotnikov",
-          "profileUrl": "https://www.instagram.com/boris_plotnikov/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_etaborya",
-          "name": "Boris Plotnikov",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@etaborya",
           "feedUrl": ""
         }
       ]

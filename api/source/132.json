@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T18:16:49.916761Z",
+  "generatedAt": "2026-08-31T18:34:46.090037Z",
   "source": {
     "id": 132,
     "slug": "antonio-serrano",
@@ -15,9 +15,9 @@
       "url": "https://www.instagram.com/p/DcboCVJRxZv/",
       "sourceName": "Antonio Serrano",
       "platform": "Instagram",
-      "publishedAt": "2026-08-24T17:44:25Z",
+      "publishedAt": "2026-08-24T17:44:26Z",
       "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/e6d64953dc2aea85a22e.webp",
+        "url": "https://harmonica.observe.tw/assets/feed-images/a56ba7de299e4f311f1a.webp",
         "width": 800,
         "height": 1067
       }
@@ -37,15 +37,29 @@
       }
     },
     {
+      "id": "post-95e53218080a794c7ab77452",
+      "title": "Es con mucha alegría que anunciamos el lanzamiento de nuestro álbum 💿",
+      "excerpt": "Es con mucha alegría que anunciamos el lanzamiento de nuestro álbum 💿 En todas plataformas digitales! SANTUARIO Gracias a todos los que estuvieron con nosotros en este provecto! 🙏🏽",
+      "url": "https://www.instagram.com/p/DcTLkpPBaFf/",
+      "sourceName": "Antonio Serrano",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-21T11:00:14Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/f2a1b720faa382ae333b.webp",
+        "width": 720,
+        "height": 900
+      }
+    },
+    {
       "id": "post-120b1ae2edd4ba66c7f5f18d",
       "title": "30.08.26 - @caprichosmusicales -",
       "excerpt": "30.08.26 - @caprichosmusicales -",
       "url": "https://www.instagram.com/p/DcQjTwAgFP1/",
       "sourceName": "Antonio Serrano",
       "platform": "Instagram",
-      "publishedAt": "2026-08-20T10:30:25Z",
+      "publishedAt": "2026-08-20T10:31:03Z",
       "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/e9bd16813552b9ff9a0b.webp",
+        "url": "https://harmonica.observe.tw/assets/feed-images/b785c02b91891a7da25c.webp",
         "width": 800,
         "height": 1423
       }
@@ -60,6 +74,20 @@
       "publishedAt": "2026-08-20T09:39:38Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/51c8e3878ef3807eb61a.webp",
+        "width": 800,
+        "height": 800
+      }
+    },
+    {
+      "id": "post-38ec9df1b607b6b5d02e6dcf",
+      "title": "ANTONIO SERRANO Y FRAN RUBIO",
+      "excerpt": "ANTONIO SERRANO Y FRAN RUBIO Gre2Jazz 2026 Castillo de Valdecorneja El Barco de Ávila - Spain Un gran festival que todos deberíamos conocer, en el que el increíble Antonio Serrano estrenó en directo su nueva armónica digital, todo un espectáculo.",
+      "url": "https://www.instagram.com/p/DcMYzcuDODu/",
+      "sourceName": "Antonio Serrano",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-18T19:41:21Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4f7f860ce94a655c6f98.webp",
         "width": 800,
         "height": 800
       }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T18:16:49.916761Z",
+  "generatedAt": "2026-08-31T18:34:46.090037Z",
   "source": {
     "id": 127,
     "slug": "reyharp-and-balawan-project",
@@ -9,15 +9,29 @@
   },
   "items": [
     {
+      "id": "post-d31a98394256887bf63f89e1",
+      "title": "A night of music, art, and good energy.",
+      "excerpt": "A night of music, art, and good energy. Thank you for everyone who joined us for @reyharpnaufal & @balawanguitar.official ‘s performance and the live painting session with @ade_habibie 👀 See you around!🫶🏻",
+      "url": "https://www.instagram.com/p/Db-dQRZA5EH/",
+      "sourceName": "Reyharp and Balawan Project",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-13T09:56:42Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/4bd5abde62b7ea95f977.webp",
+        "width": 800,
+        "height": 1423
+      }
+    },
+    {
       "id": "post-3cd2ed86e6f1c357a4bf6a4d",
       "title": "An excerpt from the Asia Pacific Harmonica Festival 2026 — what a wonderful evening filled with music, friendship, and …",
       "excerpt": "An excerpt from the Asia Pacific Harmonica Festival 2026 — what a wonderful evening filled with music, friendship, and unforgettable moments. I’m playing the Easttop Lucky 13, the special edition harmonica designed by @brendan.power_harmonica Grateful to be part of this beautifu…",
       "url": "https://www.instagram.com/p/Db9zQIvqtrm/",
       "sourceName": "Reyharp and Balawan Project",
       "platform": "Instagram",
-      "publishedAt": "2026-08-13T03:49:57Z",
+      "publishedAt": "2026-08-13T03:50:21Z",
       "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/2cf4f7fd00a5734b60aa.webp",
+        "url": "https://harmonica.observe.tw/assets/feed-images/b0d93db7eef176e02b43.webp",
         "width": 720,
         "height": 405
       }
