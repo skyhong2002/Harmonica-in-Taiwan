@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/opportunities.xml",
   "json": "https://harmonica.observe.tw/api/opportunities.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/opportunities.json",
-  "count": 142,
+  "count": 144,
   "items": [
     {
       "title": "太平國小口琴隊｜臺中市政府教育局-校園活動報導 --> 跳到主要內容區 臺中市政府教育局 回首頁 市府首頁 網站導覽 常見問答 快速連結 English 教育服務網 A- A A+ 搜尋 單位介紹 首長介紹 組織與職掌 各級學校 局徽介紹…",
@@ -1005,6 +1005,81 @@
       "key": "ig_fcu_harmonica:3975542717006477101"
     },
     {
+      "title": "Do Not Disturb Harmonica Ensemble｜Instagram story @donotdisturbharmonicaensemble",
+      "headline": "Instagram story @donotdisturbharmonicaensemble",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/donotdisturbharmonicaensemble/3975513762923761373/",
+      "source_id": "ig_story_donotdisturbharmonicaensemble",
+      "source": "Do Not Disturb Harmonica Ensemble",
+      "source_system_name": "Do Not Disturb Harmonica Ensemble",
+      "source_profile_url": "https://www.instagram.com/donotdisturbharmonicaensemble/",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-222",
+      "directory_entry_name": "Do Not Disturb Harmonica Ensemble",
+      "account": "donotdisturbharmonicaensemble",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-08-31T01:03:12+00:00",
+      "posted_at_local": "2026-08-31 09:03",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-31T22:10:39.073550+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "instaloader",
+      "story_fetched_at": "2026-08-31T22:10:28.112319+00:00",
+      "story_expires_at": "2026-09-01T01:03:12+00:00",
+      "source_feed_url": "https://www.instagram.com/donotdisturbharmonicaensemble/",
+      "rsshub_guid": "3975513762923761373",
+      "rsshub_title": "Instagram story @donotdisturbharmonicaensemble",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.93,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "限時動態"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "來源為口琴合奏團的 Instagram 限動，屬口琴公開更新。",
+      "text": "Instagram story @donotdisturbharmonicaensemble",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/790879893_18120734374879464_5756602431098094951_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMTc5LnNkci5yZWd1bGFyX3Bob3RvLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gFYqZK2R6-1k1lEdewWXORwZXN1u5nTqxN3QBgCx0aHsldolDol7-n3nbP2PYH2RaI&_nc_ohc=HzfUXCPA6DMQ7kNvwEMmwCI&_nc_gid=EgHDS8Ut2ButgsS7gAP89Q&edm=AHlfZHwBAAAA&ccb=7-5&oh=00_AQI-TZ9wRPRbLOvmM8Mt8uCKqseIIRcQGgRKskdrerL8Mg&oe=6A9BCEFB&_nc_sid=d8d02b"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/790879893_18120734374879464_5756602431098094951_n.jpg?stp=dst-jpg_e35_p1080x1080_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMTc5LnNkci5yZWd1bGFyX3Bob3RvLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gFYqZK2R6-1k1lEdewWXORwZXN1u5nTqxN3QBgCx0aHsldolDol7-n3nbP2PYH2RaI&_nc_ohc=HzfUXCPA6DMQ7kNvwEMmwCI&_nc_gid=EgHDS8Ut2ButgsS7gAP89Q&edm=AHlfZHwBAAAA&ccb=7-5&oh=00_AQI-TZ9wRPRbLOvmM8Mt8uCKqseIIRcQGgRKskdrerL8Mg&oe=6A9BCEFB&_nc_sid=d8d02b",
+      "image_url": "/assets/feed-images/6d6340747595afdcbd42.webp",
+      "image_width": 800,
+      "image_height": 1423,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/670332868_18095816398879464_2805170216278660089_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby45NjAuZXhwZXJpbWVudGFsIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gFo60B9s4JMDtM90b9pGyVtPB0YihW_ObqP2375LHBb9k6Obv-Gb7W2LHG7oD7eYIs&_nc_ohc=I5tstHaJHUgQ7kNvwEKYWfK&_nc_gid=BdI0UwEhmNZqRKSTY4_RHw&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQBV2_ephLIvWzwklDTnpY4JHhbwKld3lwNCRdeVAeGExw&oe=6A5C4857&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/22da01f14949bd3fc02b.webp",
+      "source_initials": "DND",
+      "categories": [
+        "posts-videos",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽"
+      ],
+      "key": "ig_story_donotdisturbharmonicaensemble:3975513762923761373"
+    },
+    {
       "title": "新竹縣文化局｜#竹縣友藝思活動紀錄 掌心DIY-多肉小灶台🌵 藝起玩美術¬–多肉小灶台 會員活動花絮來囉💚 在這段時間裡， 大家親手完成的多肉盆栽，這幾天有沒有乖乖陪著你們一起長大呢？🪴 在本次的課程中，小朋友們不僅認識了可愛的多肉植物，…",
       "headline": "#竹縣友藝思活動紀錄",
       "display_title": "",
@@ -1716,6 +1791,94 @@
         "補助比賽"
       ],
       "key": "ig_mandy730508_harmonica:https://www.instagram.com/p/Dcky-C1SfUU/"
+    },
+    {
+      "title": "御風裕豐 Lin, Yu-Feng｜【活動回顧】 臺灣口琴音樂節 Taiwan Harmonica Music Festival 2026/8/7–8/9 在暑假經歷了多個海外的口琴節之後，回到熟悉的臺灣口琴音樂節@taiwanharmo…",
+      "headline": "【活動回顧】",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DciLGXzE7nz/",
+      "source_id": "ig_yf_life",
+      "source": "御風裕豐 Lin, Yu-Feng",
+      "source_system_name": "林裕豐",
+      "source_profile_url": "https://www.instagram.com/yf__life/",
+      "country": "臺灣",
+      "region": "臺灣",
+      "directory_entry_id": "watchlist-43",
+      "directory_entry_name": "林裕豐",
+      "account": "yf__life",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "2026-08-27T06:44:54+00:00",
+      "posted_at_local": "2026-08-27 14:44",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-31T22:10:39.073550+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://www.instagram.com/yf__life/",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "音樂會",
+        "演出",
+        "交流",
+        "比賽",
+        "影片"
+      ],
+      "keyword_matches": [
+        "口琴",
+        "音樂會",
+        "演出",
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "音樂會",
+        "演出",
+        "交流",
+        "比賽",
+        "影片"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴音樂節活動回顧，含演出、音樂會、Open Stage與迷你賽等口琴相關內容。",
+      "text": "【活動回顧】\n臺灣口琴音樂節 Taiwan Harmonica Music Festival\n2026/8/7–8/9\n在暑假經歷了多個海外的口琴節之後，回到熟悉的臺灣口琴音樂節@taiwanharmonica 。感謝主辦單位天狼星口琴樂團@siriusharmonicaensemble 的用心籌辦，也感謝所有辛苦付出的工作人員們，讓臺灣口琴節如此的美好且與眾不同。\n和往年一樣，與胖擊口琴樂團@punch.harp 的夥伴們一起主持B1場地的Open Stage與迷你賽等活動，看到每位演奏者站上台充滿活力的樣子，就覺得一切準備工作都是值得的。\n今年晚會的演出，胖擊與 Redbricks @redbricksharmonica 帶來一首合作的演出，期間也聊了很多關於音樂與演奏上的想法，能在熟悉的地方，遇見因為口琴而聚在一起的老朋友，及因為口琴而認識的新朋友，這大概就是每次音樂節最棒的收穫。\n再次感謝主辦單位、感謝胖擊口琴樂團的夥伴們，以及所有一起在音樂裡相聚的朋友，期待下次再會！\n感謝所有辛苦的工作人員💪\n午間音樂會@inixial.muse\n活潑的迷你賽\nSSHO工作坊分享了合奏時細膩的情緒表達，並利用轉播畫面讓觀眾也能看到指揮的表情與指示。\n📸\n隨處都能聽到口琴聲\n感謝 @minnie.o6i8 專業的音控支援\n彩排空檔 @harmonica_wang 視角\n吹口琴是最開心的事\n零食大會",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/782489024_18098276018578408_3846437962277008702_n.webp?_nc_cat=109&ig_cache_key=Mzk3Mjc4MTY5NzQzNTMxODI1Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=lVIUTUyRrwQQ7kNvwF-WA8z&_nc_oc=AdpI3pMmcMVs92KqguyxAJ1E4vLuU5BF6e7Ouw0BdjXxXe4dXURo7sfOD3Ra9MZFkKs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=4v0Wl2IDQrId7pH6m2RGPA&_nc_ss=7a22e&oh=00_AQJDV6kPxQhs2Y7LtvJRZxakVg5KkaL1_HV3uBBYDVDwCA&oe=6A9BE003"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/782489024_18098276018578408_3846437962277008702_n.webp?_nc_cat=109&ig_cache_key=Mzk3Mjc4MTY5NzQzNTMxODI1Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=lVIUTUyRrwQQ7kNvwF-WA8z&_nc_oc=AdpI3pMmcMVs92KqguyxAJ1E4vLuU5BF6e7Ouw0BdjXxXe4dXURo7sfOD3Ra9MZFkKs&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=4v0Wl2IDQrId7pH6m2RGPA&_nc_ss=7a22e&oh=00_AQJDV6kPxQhs2Y7LtvJRZxakVg5KkaL1_HV3uBBYDVDwCA&oe=6A9BE003",
+      "image_url": "/assets/feed-images/2b16b97017daf9ad0420.webp",
+      "image_width": 1440,
+      "image_height": 960,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/515766695_18050447750578408_2550245376790621998_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmNhbmFyeSJ9&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=104&_nc_oc=Q6cZ2gGstmKSrZiKIc1SZgsqtfHBYS2xKBLTzN0T8s57DwKmxy1vzM_b2PaZAD0p2HIiY-E&_nc_ohc=4SCsKvSxnd0Q7kNvwGhUlnP&_nc_gid=q_zwkHP0FXfvbn2_TirNYg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af-74ZeU5NXTZXDSonD9MiB_DqzwuvsRDAV3tgGylWxOiw&oe=6A41DD59&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/3e57ec6b2722c7d0b510.webp",
+      "source_initials": "LYF",
+      "categories": [
+        "posts-videos",
+        "events",
+        "opportunities"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動",
+        "補助比賽"
+      ],
+      "key": "ig_yf_life:3972786637675674099"
     },
     {
       "title": "新竹市文化局｜⏰距離 8/31 報名截止，只剩下最後 5 天！ 󠀠 這幾天工作小組收到了許多令人驚豔的作品，但我們知道，還有很多好聲音正藏在螢幕前猶豫不決🎤💥 󠀠 跨出第一步真的沒有想像中困難！ 󠀠 不需要花錢租借專業錄音室，只要在家拿起…",

@@ -3113,6 +3113,93 @@
       ]
     },
     {
+      "id": "watchlist-141",
+      "publicId": "141",
+      "name": "陳軍凱 Kif Valentine",
+      "nameEn": "Kif Valentine",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞/吉隆坡",
+      "cityOrFocus": "馬來西亞首位且最年輕的國際口琴三料冠軍/馬來西亞紀錄大全持有人/創作型口琴藝人與全職音樂人/2014首張口琴EP《Circle》/口琴、鋼琴、薩克斯風、打擊、長笛與嗩吶等多樂器跨界",
+      "structuredSummary": "馬來西亞首位且最年輕的國際口琴三料冠軍/馬來西亞紀錄大全持有人/創作型口琴藝人與全職音樂人/2014首張口琴EP《Circle》/口琴、鋼琴、薩克斯風、打擊、長笛與嗩吶等多樂器跨界 / 十孔口琴/半音階口琴/複音口琴/低音口琴/多樂器 / 國際演出人員/世界冠軍口琴家/詞曲創作與製作人",
+      "summary": "馬來西亞的十孔口琴、半音階口琴、複音口琴與低音口琴國際演出人員、世界冠軍口琴家與詞曲創作與製作人，活動脈絡包含馬來西亞首位且最年輕的國際口琴三料冠軍、馬來西亞紀錄大全持有人與創作型口琴藝人與全職音樂人。",
+      "keywords": "陳軍凱 陈军凯 Kif Valentine Malaysia harmonica international triple champion Malaysia Book of Records Circle EP multi-instrument SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://yuhua100.com.my/anniversary/ambassador/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kif768/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kif768/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@kif768"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "141-kif-valentine",
+      "latestUpdateAt": "2026-08-31T02:43:55+00:00",
+      "latestUpdateLocal": "2026-08-31 10:43",
+      "latestUpdateSource": "陳軍凱 Kif Valentine",
+      "latestUpdateUrl": "https://www.instagram.com/stories/kif768/3975564468062546474/",
+      "avatarUrl": "/assets/source-avatars/kif-valentine.jpg",
+      "sourceInitials": "KV",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "複音",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_kif768",
+          "name": "陳軍凱 Kif Valentine",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/kif768",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_kif768",
+          "name": "陳軍凱 Kif Valentine",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "kif768",
+          "profileUrl": "https://www.instagram.com/kif768/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_kif768",
+          "name": "陳軍凱 Kif Valentine",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "kif768",
+          "profileUrl": "https://www.instagram.com/kif768/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_kif768",
+          "name": "陳軍凱 Kif Valentine",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@kif768",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-66",
       "publicId": "66",
       "name": "Younghoon Cho",
@@ -3460,6 +3547,63 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-222",
+      "publicId": "222",
+      "name": "Do Not Disturb Harmonica Ensemble",
+      "nameEn": "Do Not Disturb Harmonica Ensemble",
+      "category": "活動資訊",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "新生代口琴重奏/半音階、低音與和弦口琴編制/2026臺灣口琴音樂節前導音樂會與午間音樂會演出",
+      "structuredSummary": "新生代口琴重奏/半音階、低音與和弦口琴編制/2026臺灣口琴音樂節前導音樂會與午間音樂會演出 / 半音階口琴/低音口琴/和弦口琴/口琴重奏 / 演出團體/青年團體",
+      "summary": "臺灣的演出團體與青年團體，涵蓋新生代口琴重奏、半音階、低音與和弦口琴編制與2026臺灣口琴音樂節前導音樂會與午間音樂會演出。",
+      "keywords": "Do Not Disturb Harmonica Ensemble donotdisturbharmonicaensemble 口琴 重奏 THMF 2026 臺灣口琴音樂節 前導音樂會 午間音樂會",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/donotdisturbharmonicaensemble/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "222-do-not-disturb-harmonica-ensemble",
+      "latestUpdateAt": "2026-08-31T01:03:12+00:00",
+      "latestUpdateLocal": "2026-08-31 09:03",
+      "latestUpdateSource": "Do Not Disturb Harmonica Ensemble",
+      "latestUpdateUrl": "https://www.instagram.com/stories/donotdisturbharmonicaensemble/3975513762923761373/",
+      "avatarUrl": "/assets/source-avatars/e5849088172a95a58fd3.webp",
+      "sourceInitials": "DND",
+      "sourceTags": [
+        "活動資訊",
+        "團體樂團",
+        "音樂節",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_donotdisturbharmonicaensemble",
+          "name": "Do Not Disturb Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "donotdisturbharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_donotdisturbharmonicaensemble",
+          "name": "Do Not Disturb Harmonica Ensemble",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "donotdisturbharmonicaensemble",
+          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
           "feedUrl": ""
         }
       ]
@@ -11592,63 +11736,6 @@
       ]
     },
     {
-      "id": "watchlist-222",
-      "publicId": "222",
-      "name": "Do Not Disturb Harmonica Ensemble",
-      "nameEn": "Do Not Disturb Harmonica Ensemble",
-      "category": "活動資訊",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "新生代口琴重奏/半音階、低音與和弦口琴編制/2026臺灣口琴音樂節前導音樂會與午間音樂會演出",
-      "structuredSummary": "新生代口琴重奏/半音階、低音與和弦口琴編制/2026臺灣口琴音樂節前導音樂會與午間音樂會演出 / 半音階口琴/低音口琴/和弦口琴/口琴重奏 / 演出團體/青年團體",
-      "summary": "臺灣的演出團體與青年團體，涵蓋新生代口琴重奏、半音階、低音與和弦口琴編制與2026臺灣口琴音樂節前導音樂會與午間音樂會演出。",
-      "keywords": "Do Not Disturb Harmonica Ensemble donotdisturbharmonicaensemble 口琴 重奏 THMF 2026 臺灣口琴音樂節 前導音樂會 午間音樂會",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/donotdisturbharmonicaensemble/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "222-do-not-disturb-harmonica-ensemble",
-      "latestUpdateAt": "2026-08-09T02:27:57+00:00",
-      "latestUpdateLocal": "2026-08-09 10:27",
-      "latestUpdateSource": "Do Not Disturb Harmonica Ensemble",
-      "latestUpdateUrl": "https://www.instagram.com/stories/donotdisturbharmonicaensemble/3959611354701082369/",
-      "avatarUrl": "/assets/source-avatars/e5849088172a95a58fd3.webp",
-      "sourceInitials": "DND",
-      "sourceTags": [
-        "活動資訊",
-        "團體樂團",
-        "音樂節",
-        "半音階",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_donotdisturbharmonicaensemble",
-          "name": "Do Not Disturb Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "donotdisturbharmonicaensemble",
-          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_donotdisturbharmonicaensemble",
-          "name": "Do Not Disturb Harmonica Ensemble",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "donotdisturbharmonicaensemble",
-          "profileUrl": "https://www.instagram.com/donotdisturbharmonicaensemble/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-178",
       "publicId": "178",
       "name": "Harmonica FEN 口琴節與學院",
@@ -12644,93 +12731,6 @@
           "type": "rsshub_instagram_story",
           "username": "fourtissimo_harmonica_ensemble",
           "profileUrl": "https://www.instagram.com/fourtissimo_harmonica_ensemble/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-141",
-      "publicId": "141",
-      "name": "陳軍凱 Kif Valentine",
-      "nameEn": "Kif Valentine",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞/吉隆坡",
-      "cityOrFocus": "馬來西亞首位且最年輕的國際口琴三料冠軍/馬來西亞紀錄大全持有人/創作型口琴藝人與全職音樂人/2014首張口琴EP《Circle》/口琴、鋼琴、薩克斯風、打擊、長笛與嗩吶等多樂器跨界",
-      "structuredSummary": "馬來西亞首位且最年輕的國際口琴三料冠軍/馬來西亞紀錄大全持有人/創作型口琴藝人與全職音樂人/2014首張口琴EP《Circle》/口琴、鋼琴、薩克斯風、打擊、長笛與嗩吶等多樂器跨界 / 十孔口琴/半音階口琴/複音口琴/低音口琴/多樂器 / 國際演出人員/世界冠軍口琴家/詞曲創作與製作人",
-      "summary": "馬來西亞的十孔口琴、半音階口琴、複音口琴與低音口琴國際演出人員、世界冠軍口琴家與詞曲創作與製作人，活動脈絡包含馬來西亞首位且最年輕的國際口琴三料冠軍、馬來西亞紀錄大全持有人與創作型口琴藝人與全職音樂人。",
-      "keywords": "陳軍凱 陈军凯 Kif Valentine Malaysia harmonica international triple champion Malaysia Book of Records Circle EP multi-instrument SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://yuhua100.com.my/anniversary/ambassador/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/kif768/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/kif768/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@kif768"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "141-kif-valentine",
-      "latestUpdateAt": "2026-07-25T11:08:28+00:00",
-      "latestUpdateLocal": "2026-07-25 19:08",
-      "latestUpdateSource": "陳軍凱 Kif Valentine",
-      "latestUpdateUrl": "https://www.instagram.com/stories/kif768/3949001933717666668/",
-      "avatarUrl": "/assets/source-avatars/kif-valentine.jpg",
-      "sourceInitials": "KV",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "複音",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_kif768",
-          "name": "陳軍凱 Kif Valentine",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/kif768",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_kif768",
-          "name": "陳軍凱 Kif Valentine",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "kif768",
-          "profileUrl": "https://www.instagram.com/kif768/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_kif768",
-          "name": "陳軍凱 Kif Valentine",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "kif768",
-          "profileUrl": "https://www.instagram.com/kif768/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_kif768",
-          "name": "陳軍凱 Kif Valentine",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@kif768",
           "feedUrl": ""
         }
       ]
