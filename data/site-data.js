@@ -1123,6 +1123,94 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-16",
+      "publicId": "16",
+      "name": "Dr. Blue 口琴樂團",
+      "nameEn": "Dr. Blue Harmonica Ensemble",
+      "category": "學校社團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "源自台大藍聲口琴社/青年口琴重奏與合奏/推廣口琴音樂/精進樂團合奏能力/2023臺灣口琴音樂節小合奏公開組首獎/年度專場音樂會",
+      "structuredSummary": "源自台大藍聲口琴社/青年口琴重奏與合奏/推廣口琴音樂/精進樂團合奏能力/2023臺灣口琴音樂節小合奏公開組首獎/年度專場音樂會 / 半音階口琴/低音口琴/和弦口琴/口琴重奏與合奏 / 青年演出團體/大學校友樂團/臺灣口琴音樂節得獎團體",
+      "summary": "臺灣的半音階口琴、低音口琴、和弦口琴與口琴重奏與合奏青年演出團體、大學校友樂團與臺灣口琴音樂節得獎團體。",
+      "keywords": "Dr. Blue 口琴樂團 NTU Blue Sound 臺大藍聲 THMF 2023 首獎 重奏 合奏 年度音樂會",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://drblue.kktix.cc/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/dr.blueharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/dr.blue_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "16-dr-blue",
+      "latestUpdateAt": "2026-08-31T01:15:06+00:00",
+      "latestUpdateLocal": "2026-08-31 09:15",
+      "latestUpdateSource": "Dr. Blue 口琴樂團",
+      "latestUpdateUrl": "https://www.instagram.com/stories/dr.blue_harmonica/3975519751899487271/",
+      "avatarUrl": "/assets/source-avatars/aa0aaede3543a796bd61.webp",
+      "sourceInitials": "DB",
+      "sourceTags": [
+        "學生社團",
+        "大專社團",
+        "團體樂團",
+        "音樂節",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_dr_blueharmonica",
+          "name": "Dr. Blue 口琴樂團",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/dr.blueharmonica",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_dr_blue_harmonica",
+          "name": "Dr. Blue 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "dr.blue_harmonica",
+          "profileUrl": "https://www.instagram.com/dr.blue_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_dr_blue_harmonica",
+          "name": "Dr. Blue 口琴樂團",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "dr.blue_harmonica",
+          "profileUrl": "https://www.instagram.com/dr.blue_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_ucvhln_2awpljqbfo_9apatw",
+          "name": "Dr. Blue 口琴樂團",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-76",
       "publicId": "76",
       "name": "新竹縣文化局",
@@ -1336,6 +1424,92 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_profile",
           "username": "theheadcutters",
           "profileUrl": "https://www.instagram.com/theheadcutters/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-107",
+      "publicId": "107",
+      "name": "Konstantin Reinfeld",
+      "nameEn": "Konstantin Reinfeld",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "德國",
+      "region": "德國",
+      "cityOrFocus": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作/SIHF 2026",
+      "structuredSummary": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作/SIHF 2026 / 半音階/十孔 / 國際演出人員/製作人/教育者",
+      "summary": "德國的半音階與十孔國際演出人員、製作人與教育者，活動脈絡包含OPUS Klassik得獎、國際獨奏與製作與教育。",
+      "keywords": "Konstantin Reinfeld harmonica SIHF 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.konstantinreinfeld.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/konstantinreinfeldofficial"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/konstantin_reinfeld/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@KonstantinReinfeld"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "107-konstantin-reinfeld",
+      "latestUpdateAt": "2026-08-30T18:35:43+00:00",
+      "latestUpdateLocal": "2026-08-31 02:35",
+      "latestUpdateSource": "Konstantin Reinfeld",
+      "latestUpdateUrl": "https://www.instagram.com/stories/konstantin_reinfeld/3975318735963168448/",
+      "avatarUrl": "/assets/source-avatars/02a890456c60bb5647aa.webp",
+      "sourceInitials": "KR",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_konstantinreinfeldofficial",
+          "name": "Konstantin Reinfeld",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/konstantinreinfeldofficial",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_konstantin_reinfeld",
+          "name": "Konstantin Reinfeld",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "konstantin_reinfeld",
+          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_konstantin_reinfeld",
+          "name": "Konstantin Reinfeld",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "konstantin_reinfeld",
+          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_konstantinreinfeld",
+          "name": "Konstantin Reinfeld",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@KonstantinReinfeld",
           "feedUrl": ""
         }
       ]
@@ -6499,92 +6673,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-107",
-      "publicId": "107",
-      "name": "Konstantin Reinfeld",
-      "nameEn": "Konstantin Reinfeld",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "德國",
-      "region": "德國",
-      "cityOrFocus": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作/SIHF 2026",
-      "structuredSummary": "OPUS Klassik得獎/國際獨奏/製作與教育/跨界合作/SIHF 2026 / 半音階/十孔 / 國際演出人員/製作人/教育者",
-      "summary": "德國的半音階與十孔國際演出人員、製作人與教育者，活動脈絡包含OPUS Klassik得獎、國際獨奏與製作與教育。",
-      "keywords": "Konstantin Reinfeld harmonica SIHF 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.konstantinreinfeld.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/konstantinreinfeldofficial"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/konstantin_reinfeld/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@KonstantinReinfeld"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "107-konstantin-reinfeld",
-      "latestUpdateAt": "2026-08-24T13:23:07+00:00",
-      "latestUpdateLocal": "2026-08-24 21:23",
-      "latestUpdateSource": "Konstantin Reinfeld",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcbKQS3kzxP/",
-      "avatarUrl": "/assets/source-avatars/02a890456c60bb5647aa.webp",
-      "sourceInitials": "KR",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_konstantinreinfeldofficial",
-          "name": "Konstantin Reinfeld",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/konstantinreinfeldofficial",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_konstantin_reinfeld",
-          "name": "Konstantin Reinfeld",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "konstantin_reinfeld",
-          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_konstantin_reinfeld",
-          "name": "Konstantin Reinfeld",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "konstantin_reinfeld",
-          "profileUrl": "https://www.instagram.com/konstantin_reinfeld/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_konstantinreinfeld",
-          "name": "Konstantin Reinfeld",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@KonstantinReinfeld",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-34",
       "publicId": "34",
       "name": "王衍華",
@@ -11661,94 +11749,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "facebook_page_posts",
           "username": "",
           "profileUrl": "https://facebook.com/HarmonicaDrumRhapsody",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-16",
-      "publicId": "16",
-      "name": "Dr. Blue 口琴樂團",
-      "nameEn": "Dr. Blue Harmonica Ensemble",
-      "category": "學校社團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "源自台大藍聲口琴社/青年口琴重奏與合奏/推廣口琴音樂/精進樂團合奏能力/2023臺灣口琴音樂節小合奏公開組首獎/年度專場音樂會",
-      "structuredSummary": "源自台大藍聲口琴社/青年口琴重奏與合奏/推廣口琴音樂/精進樂團合奏能力/2023臺灣口琴音樂節小合奏公開組首獎/年度專場音樂會 / 半音階口琴/低音口琴/和弦口琴/口琴重奏與合奏 / 青年演出團體/大學校友樂團/臺灣口琴音樂節得獎團體",
-      "summary": "臺灣的半音階口琴、低音口琴、和弦口琴與口琴重奏與合奏青年演出團體、大學校友樂團與臺灣口琴音樂節得獎團體。",
-      "keywords": "Dr. Blue 口琴樂團 NTU Blue Sound 臺大藍聲 THMF 2023 首獎 重奏 合奏 年度音樂會",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://drblue.kktix.cc/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/dr.blueharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/dr.blue_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "16-dr-blue",
-      "latestUpdateAt": "2026-08-05T11:26:15+00:00",
-      "latestUpdateLocal": "2026-08-05 19:26",
-      "latestUpdateSource": "Dr. Blue 口琴樂團",
-      "latestUpdateUrl": "https://www.instagram.com/stories/dr.blue_harmonica/3956983296784683494/",
-      "avatarUrl": "/assets/source-avatars/aa0aaede3543a796bd61.webp",
-      "sourceInitials": "DB",
-      "sourceTags": [
-        "學生社團",
-        "大專社團",
-        "團體樂團",
-        "音樂節",
-        "半音階",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_dr_blueharmonica",
-          "name": "Dr. Blue 口琴樂團",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/dr.blueharmonica",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_dr_blue_harmonica",
-          "name": "Dr. Blue 口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "dr.blue_harmonica",
-          "profileUrl": "https://www.instagram.com/dr.blue_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_dr_blue_harmonica",
-          "name": "Dr. Blue 口琴樂團",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "dr.blue_harmonica",
-          "profileUrl": "https://www.instagram.com/dr.blue_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_ucvhln_2awpljqbfo_9apatw",
-          "name": "Dr. Blue 口琴樂團",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCvHln_2aWplJqbfO_9aPatw",
           "feedUrl": ""
         }
       ]
