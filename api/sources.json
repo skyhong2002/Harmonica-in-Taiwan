@@ -1805,6 +1805,66 @@
       ]
     },
     {
+      "id": "watchlist-260",
+      "publicId": "260",
+      "name": "梁芷菁 Steffi Leung",
+      "nameEn": "Steffi Leung",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends",
+      "structuredSummary": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends / 半音階 / 國際演出人員",
+      "summary": "香港的半音階國際演出人員，活動脈絡包含國際賽事、電台主持與Adventure Harmonica Band。",
+      "keywords": "梁芷菁 Steffi Leung harmonicist Adventure Harmonica WHF APHF SIHF THMF 2025 世界口琴節 二重奏冠軍 Steffi and Friends 2026",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.steffileung.com/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/steffi.leung/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "260-steffi-leung",
+      "latestUpdateAt": "2026-08-31T11:13:41+00:00",
+      "latestUpdateLocal": "2026-08-31 19:13",
+      "latestUpdateSource": "梁芷菁 Steffi Leung",
+      "latestUpdateUrl": "https://www.instagram.com/p/Dcs9CjSlEnm/",
+      "avatarUrl": "/assets/source-avatars/944f9a705865f62c67f6.webp",
+      "sourceInitials": "SL",
+      "sourceTags": [
+        "演奏者",
+        "半音階",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_steffi_leung",
+          "name": "梁芷菁 Steffi Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "steffi.leung",
+          "profileUrl": "https://www.instagram.com/steffi.leung/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_steffi_leung",
+          "name": "梁芷菁 Steffi Leung",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "steffi.leung",
+          "profileUrl": "https://www.instagram.com/steffi.leung/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-80",
       "publicId": "80",
       "name": "臺中國家歌劇院",
@@ -2471,6 +2531,61 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@weiwuyingfilm",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-237",
+      "publicId": "237",
+      "name": "Wilson Liao",
+      "nameEn": "Wilson Liao",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "Dr. Blue/學生重奏/演出",
+      "structuredSummary": "Dr. Blue/學生重奏/演出 / 口琴 / 演出人員/樂團成員",
+      "summary": "臺灣的口琴演出人員與樂團成員，活動脈絡包含Dr. Blue、學生重奏與演出。",
+      "keywords": "Wilson Liao weiyuliao1 Dr. Blue Harmonica Ensemble NTU 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/weiyuliao1/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "237-wilson-liao",
+      "latestUpdateAt": "2026-08-31T05:52:29+00:00",
+      "latestUpdateLocal": "2026-08-31 13:52",
+      "latestUpdateSource": "Wilson Liao",
+      "latestUpdateUrl": "https://www.instagram.com/stories/weiyuliao1/3975659369177385487/",
+      "avatarUrl": "/assets/source-avatars/75f2b5d204d08200d410.webp",
+      "sourceInitials": "WL",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_weiyuliao1",
+          "name": "Wilson Liao",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "weiyuliao1",
+          "profileUrl": "https://www.instagram.com/weiyuliao1/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_weiyuliao1",
+          "name": "Wilson Liao",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "weiyuliao1",
+          "profileUrl": "https://www.instagram.com/weiyuliao1/",
           "feedUrl": ""
         }
       ]
@@ -4045,66 +4160,6 @@
           "type": "rsshub_instagram_story",
           "username": "empa.oficial",
           "profileUrl": "https://www.instagram.com/empa.oficial/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-260",
-      "publicId": "260",
-      "name": "梁芷菁 Steffi Leung",
-      "nameEn": "Steffi Leung",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends",
-      "structuredSummary": "半音階/國際賽事/電台主持/Adventure Harmonica Band/2025 世界口琴節二重奏冠軍/THMF 2026 Steffi and Friends / 半音階 / 國際演出人員",
-      "summary": "香港的半音階國際演出人員，活動脈絡包含國際賽事、電台主持與Adventure Harmonica Band。",
-      "keywords": "梁芷菁 Steffi Leung harmonicist Adventure Harmonica WHF APHF SIHF THMF 2025 世界口琴節 二重奏冠軍 Steffi and Friends 2026",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.steffileung.com/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/steffi.leung/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "260-steffi-leung",
-      "latestUpdateAt": "2026-08-30T06:56:37+00:00",
-      "latestUpdateLocal": "2026-08-30 14:56",
-      "latestUpdateSource": "梁芷菁 Steffi Leung",
-      "latestUpdateUrl": "https://www.instagram.com/stories/steffi.leung/3975208470834810009/",
-      "avatarUrl": "/assets/source-avatars/944f9a705865f62c67f6.webp",
-      "sourceInitials": "SL",
-      "sourceTags": [
-        "演奏者",
-        "半音階",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_steffi_leung",
-          "name": "梁芷菁 Steffi Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "steffi.leung",
-          "profileUrl": "https://www.instagram.com/steffi.leung/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_steffi_leung",
-          "name": "梁芷菁 Steffi Leung",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "steffi.leung",
-          "profileUrl": "https://www.instagram.com/steffi.leung/",
           "feedUrl": ""
         }
       ]
@@ -7823,61 +7878,6 @@
           "type": "rsshub_instagram_story",
           "username": "harmonica_johnny",
           "profileUrl": "https://www.instagram.com/harmonica_johnny/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-237",
-      "publicId": "237",
-      "name": "Wilson Liao",
-      "nameEn": "Wilson Liao",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "Dr. Blue/學生重奏/演出",
-      "structuredSummary": "Dr. Blue/學生重奏/演出 / 口琴 / 演出人員/樂團成員",
-      "summary": "臺灣的口琴演出人員與樂團成員，活動脈絡包含Dr. Blue、學生重奏與演出。",
-      "keywords": "Wilson Liao weiyuliao1 Dr. Blue Harmonica Ensemble NTU 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/weiyuliao1/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "237-wilson-liao",
-      "latestUpdateAt": "2026-08-24T07:55:09+00:00",
-      "latestUpdateLocal": "2026-08-24 15:55",
-      "latestUpdateSource": "Wilson Liao",
-      "latestUpdateUrl": "https://www.instagram.com/stories/weiyuliao1/3970647675657092355/",
-      "avatarUrl": "/assets/source-avatars/75f2b5d204d08200d410.webp",
-      "sourceInitials": "WL",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_weiyuliao1",
-          "name": "Wilson Liao",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "weiyuliao1",
-          "profileUrl": "https://www.instagram.com/weiyuliao1/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_weiyuliao1",
-          "name": "Wilson Liao",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "weiyuliao1",
-          "profileUrl": "https://www.instagram.com/weiyuliao1/",
           "feedUrl": ""
         }
       ]
@@ -11791,7 +11791,7 @@
       "latestUpdateLocal": "2026-08-07 12:47",
       "latestUpdateSource": "408 Harmonica Ensemble",
       "latestUpdateUrl": "https://www.instagram.com/p/DbudcueSiqC/",
-      "avatarUrl": "/assets/source-avatars/496be713ac45a949eead.webp",
+      "avatarUrl": "/assets/source-avatars/ab8417f459b57ad3eb05.webp",
       "sourceInitials": "4HE",
       "sourceTags": [
         "團體樂團",
