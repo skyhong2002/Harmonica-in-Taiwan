@@ -816,6 +816,66 @@
       ]
     },
     {
+      "id": "watchlist-145",
+      "publicId": "145",
+      "name": "Joe Marhofer / The Headcutters",
+      "nameEn": "Joe Marhofer",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "巴西",
+      "region": "巴西/聖卡塔琳娜州",
+      "cityOrFocus": "傳統 Chicago blues/The Headcutters/口琴/主唱/創團",
+      "structuredSummary": "傳統 Chicago blues/The Headcutters/口琴/主唱/創團 / 十孔口琴 / 國際演出人員/樂團創辦人",
+      "summary": "巴西的十孔口琴國際演出人員與樂團創辦人，活動脈絡包含傳統 Chicago blues、The Headcutters與口琴。",
+      "keywords": "Joe Marhofer The Headcutters Brazil harmonica blues SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.theheadcutters.com/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/theheadcutters/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "145-joe-marhofer",
+      "latestUpdateAt": "2026-08-30T20:19:02+00:00",
+      "latestUpdateLocal": "2026-08-31 04:19",
+      "latestUpdateSource": "Joe Marhofer / The Headcutters",
+      "latestUpdateUrl": "https://www.instagram.com/stories/theheadcutters/3975370762747986349/",
+      "avatarUrl": "/assets/source-avatars/52a0f6367ca15bc8972e.webp",
+      "sourceInitials": "JMT",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_story_theheadcutters",
+          "name": "Joe Marhofer / The Headcutters",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "theheadcutters",
+          "profileUrl": "https://www.instagram.com/theheadcutters/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_theheadcutters",
+          "name": "Joe Marhofer / The Headcutters",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "theheadcutters",
+          "profileUrl": "https://www.instagram.com/theheadcutters/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-122",
       "publicId": "122",
       "name": "Perfect Fourth",
@@ -1705,6 +1765,60 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@reyharpnaufal5101",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-261",
+      "publicId": "261",
+      "name": "歷奇口琴隊",
+      "nameEn": "Adventure Harmonica Band",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "口琴合奏/社群演出/教育/THMF 2026大合奏公開組並列季軍",
+      "structuredSummary": "口琴合奏/社群演出/教育/THMF 2026大合奏公開組並列季軍 / 口琴大合奏 / 國際演出團體",
+      "summary": "香港的口琴大合奏國際演出團體，活動脈絡包含口琴合奏、社群演出與教育。",
+      "keywords": "Adventure Harmonica Band 歷奇口琴隊 Hong Kong Steffi Leung THMF 2026 大合奏 季軍",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/adventure_harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "261-adventure-harmonica-band",
+      "latestUpdateAt": "2026-08-30T05:49:17+00:00",
+      "latestUpdateLocal": "2026-08-30 13:49",
+      "latestUpdateSource": "歷奇口琴隊",
+      "latestUpdateUrl": "https://www.instagram.com/p/DcpzHtjGbKG/",
+      "avatarUrl": "/assets/source-avatars/9f674ff38c30a0c33cfe.webp",
+      "sourceInitials": "歷奇",
+      "sourceTags": [
+        "團體樂團",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_adventure_harmonica",
+          "name": "歷奇口琴隊",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "adventure_harmonica",
+          "profileUrl": "https://www.instagram.com/adventure_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_adventure_harmonica",
+          "name": "歷奇口琴隊",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "adventure_harmonica",
+          "profileUrl": "https://www.instagram.com/adventure_harmonica/",
           "feedUrl": ""
         }
       ]
@@ -2858,6 +2972,91 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@cyleoharmonica",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-133",
+      "publicId": "133",
+      "name": "Indiara Sfair",
+      "nameEn": "Indiara Sfair",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "巴西",
+      "region": "巴西",
+      "cityOrFocus": "Curitiba出身/藍調口琴/Milk'n'Blues/作曲",
+      "structuredSummary": "Curitiba出身/藍調口琴/Milk'n'Blues/作曲 / 十孔 / 國際演出人員/作曲者",
+      "summary": "巴西的十孔國際演出人員與作曲者，活動脈絡包含Curitiba出身、藍調口琴與Milk'n'Blues。",
+      "keywords": "Indiara Sfair harmonica SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.hohner.de/en/indiara-sfair"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/IndiaraSfair/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/indiarasfair/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@indiarasfair"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "133-indiara-sfair",
+      "latestUpdateAt": "2026-08-28T19:21:53+00:00",
+      "latestUpdateLocal": "2026-08-29 03:21",
+      "latestUpdateSource": "Indiara Sfair",
+      "latestUpdateUrl": "https://www.instagram.com/p/DclnK_xMnHi/",
+      "avatarUrl": "/assets/source-avatars/indiara-sfair.jpg",
+      "sourceInitials": "IS",
+      "sourceTags": [
+        "演奏者",
+        "十孔",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_indiarasfair",
+          "name": "Indiara Sfair",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/IndiaraSfair",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_indiarasfair",
+          "name": "Indiara Sfair",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "indiarasfair",
+          "profileUrl": "https://www.instagram.com/indiarasfair/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_indiarasfair",
+          "name": "Indiara Sfair",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "indiarasfair",
+          "profileUrl": "https://www.instagram.com/indiarasfair/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_indiarasfair",
+          "name": "Indiara Sfair",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@indiarasfair",
           "feedUrl": ""
         }
       ]
@@ -6019,66 +6218,6 @@
       ]
     },
     {
-      "id": "watchlist-145",
-      "publicId": "145",
-      "name": "Joe Marhofer / The Headcutters",
-      "nameEn": "Joe Marhofer",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "巴西",
-      "region": "巴西/聖卡塔琳娜州",
-      "cityOrFocus": "傳統 Chicago blues/The Headcutters/口琴/主唱/創團",
-      "structuredSummary": "傳統 Chicago blues/The Headcutters/口琴/主唱/創團 / 十孔口琴 / 國際演出人員/樂團創辦人",
-      "summary": "巴西的十孔口琴國際演出人員與樂團創辦人，活動脈絡包含傳統 Chicago blues、The Headcutters與口琴。",
-      "keywords": "Joe Marhofer The Headcutters Brazil harmonica blues SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.theheadcutters.com/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/theheadcutters/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "145-joe-marhofer",
-      "latestUpdateAt": "2026-08-24T13:36:06+00:00",
-      "latestUpdateLocal": "2026-08-24 21:36",
-      "latestUpdateSource": "Joe Marhofer / The Headcutters",
-      "latestUpdateUrl": "https://www.instagram.com/stories/theheadcutters/3970819332309610538/",
-      "avatarUrl": "/assets/source-avatars/52a0f6367ca15bc8972e.webp",
-      "sourceInitials": "JMT",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_story_theheadcutters",
-          "name": "Joe Marhofer / The Headcutters",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "theheadcutters",
-          "profileUrl": "https://www.instagram.com/theheadcutters/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_theheadcutters",
-          "name": "Joe Marhofer / The Headcutters",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "theheadcutters",
-          "profileUrl": "https://www.instagram.com/theheadcutters/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-107",
       "publicId": "107",
       "name": "Konstantin Reinfeld",
@@ -8997,91 +9136,6 @@
       ]
     },
     {
-      "id": "watchlist-133",
-      "publicId": "133",
-      "name": "Indiara Sfair",
-      "nameEn": "Indiara Sfair",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "巴西",
-      "region": "巴西",
-      "cityOrFocus": "Curitiba出身/藍調口琴/Milk'n'Blues/作曲",
-      "structuredSummary": "Curitiba出身/藍調口琴/Milk'n'Blues/作曲 / 十孔 / 國際演出人員/作曲者",
-      "summary": "巴西的十孔國際演出人員與作曲者，活動脈絡包含Curitiba出身、藍調口琴與Milk'n'Blues。",
-      "keywords": "Indiara Sfair harmonica SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.hohner.de/en/indiara-sfair"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/IndiaraSfair/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/indiarasfair/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@indiarasfair"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "133-indiara-sfair",
-      "latestUpdateAt": "2026-08-21T14:19:52+00:00",
-      "latestUpdateLocal": "2026-08-21 22:19",
-      "latestUpdateSource": "Indiara Sfair",
-      "latestUpdateUrl": "https://www.instagram.com/stories/indiarasfair/3968667069604322041/",
-      "avatarUrl": "/assets/source-avatars/indiara-sfair.jpg",
-      "sourceInitials": "IS",
-      "sourceTags": [
-        "演奏者",
-        "十孔",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_indiarasfair",
-          "name": "Indiara Sfair",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/IndiaraSfair",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_indiarasfair",
-          "name": "Indiara Sfair",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "indiarasfair",
-          "profileUrl": "https://www.instagram.com/indiarasfair/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_indiarasfair",
-          "name": "Indiara Sfair",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "indiarasfair",
-          "profileUrl": "https://www.instagram.com/indiarasfair/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_indiarasfair",
-          "name": "Indiara Sfair",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@indiarasfair",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-81",
       "publicId": "81",
       "name": "雙燕樂器",
@@ -11341,60 +11395,6 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@learntheharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-261",
-      "publicId": "261",
-      "name": "歷奇口琴隊",
-      "nameEn": "Adventure Harmonica Band",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "口琴合奏/社群演出/教育/THMF 2026大合奏公開組並列季軍",
-      "structuredSummary": "口琴合奏/社群演出/教育/THMF 2026大合奏公開組並列季軍 / 口琴大合奏 / 國際演出團體",
-      "summary": "香港的口琴大合奏國際演出團體，活動脈絡包含口琴合奏、社群演出與教育。",
-      "keywords": "Adventure Harmonica Band 歷奇口琴隊 Hong Kong Steffi Leung THMF 2026 大合奏 季軍",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/adventure_harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "261-adventure-harmonica-band",
-      "latestUpdateAt": "2026-08-09T10:41:39+00:00",
-      "latestUpdateLocal": "2026-08-09 18:41",
-      "latestUpdateSource": "歷奇口琴隊",
-      "latestUpdateUrl": "https://www.instagram.com/p/Db0P4U7mSvf/",
-      "avatarUrl": "/assets/source-avatars/9f674ff38c30a0c33cfe.webp",
-      "sourceInitials": "歷奇",
-      "sourceTags": [
-        "團體樂團",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_adventure_harmonica",
-          "name": "歷奇口琴隊",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "adventure_harmonica",
-          "profileUrl": "https://www.instagram.com/adventure_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_adventure_harmonica",
-          "name": "歷奇口琴隊",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "adventure_harmonica",
-          "profileUrl": "https://www.instagram.com/adventure_harmonica/",
           "feedUrl": ""
         }
       ]

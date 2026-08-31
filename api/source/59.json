@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T05:15:22.719879Z",
+  "generatedAt": "2026-08-31T05:49:23.437608Z",
   "source": {
     "id": 59,
     "slug": "taro-senga",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/59-taro-senga/"
   },
   "items": [
+    {
+      "id": "post-b53595c17671bc921414cb60",
+      "title": "9/11 はもにかDOJO @高円寺 Jirokichi",
+      "excerpt": "9/11 はもにかDOJO @高円寺 Jirokichi KOTEZ harp,vo 千賀太郎 harp,vo 大西真 b 松本照夫 dr ＜ゲスト＞ 石川二三夫 harp 団篤史 g,vo(from京都) 開場 18:30 開演 19:30 前売 4000+1drink order 当日 4500+1drink order",
+      "url": "https://www.instagram.com/p/DcANdRvz22X/",
+      "sourceName": "千賀太郎",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-14T02:15:50Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/ef14bc573bd2672f23c8.webp",
+        "width": 800,
+        "height": 454
+      }
+    },
     {
       "id": "post-1ff70b577946c554c15f5a85",
       "title": "말하듯이 감정을 싣고 연주하라는데",
