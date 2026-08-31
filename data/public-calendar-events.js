@@ -1,9 +1,9 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-09-01T06:45:55+08:00",
+  "generatedAt": "2026-09-01T07:19:05+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 9,
+  "count": 10,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,7 +14,7 @@ window.publicCalendarEvents = {
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
+      "requests": 5,
       "cached": 23,
       "errors": 0
     }
@@ -345,6 +345,42 @@ window.publicCalendarEvents = {
       "postedAt": "",
       "images": [],
       "image_url": ""
+    },
+    {
+      "id": "7635e87fc41c374c",
+      "title": "Christmas Concert 山下伶 Chromatic Harmonica",
+      "eventName": "Christmas Concert 山下伶 Chromatic Harmonica",
+      "source": "山下伶 / Rei Yamashita",
+      "platform": "instagram",
+      "start": "2026-12-13T15:00:00+08:00",
+      "end": "2026-12-13T17:00:00+08:00",
+      "allDay": false,
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "location": "橫濱市 鶴見區民文化センター サルビアホール 4階ホール",
+      "venue": "鶴見區民文化センター サルビアホール 4階ホール",
+      "city": "橫濱市",
+      "details": "主辦／演出者：山下伶 Rei Yamashita。出演：山下伶（クロマチックハーモニカ）、森丘ヒロキ（ピアノ）、岡田治郎（ベース）、岡本健太（パーカッション）。2026年12月13日15:00開演，票價全席指定3,800円，未就學兒童不可入場。",
+      "evidenceUrl": "https://www.instagram.com/p/Dcpf6uwT6qQ/",
+      "confidence": 0.98,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "Christmas Concert 山下伶 Chromatic Harmonica",
+        "venue": "鶴見區民文化センター サルビアホール 4階ホール",
+        "city": "橫濱市",
+        "details": "主辦／演出者：山下伶 Rei Yamashita。出演：山下伶（クロマチックハーモニカ）、森丘ヒロキ（ピアノ）、岡田治郎（ベース）、岡本健太（パーカッション）。2026年12月13日15:00開演，票價全席指定3,800円，未就學兒童不可入場。",
+        "reason": "候選日期與貼文中的活動日期一致，且為日本橫濱的實體口琴演出；屬國外實體活動，不是臺灣活動。",
+        "confidence": 0.98
+      },
+      "postedAt": "2026-08-30 11:15",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/789679883_18559869565076837_167957797091438130_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ig_cache_key=Mzk3NDg0ODUyMTUwNTMxOTU2OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuNzkzLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=VzBPhV6nDhwQ7kNvwEqTJNi&_nc_oc=AdoscAUulRFnl1lyWWflqDC5APR6gMseqMDpuPLjfuQzrmwOGAjOSgK0IZ1HsK4NHYg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=R8xlawajZ3yCtN7D6jci6Q&_nc_ss=7a22e&oh=00_AQL3IJL_mALeULGfrdjPw4WbJqRlRtkGQHgzJiVI9h_NZg&oe=6A9BDA35"
+      ],
+      "image_url": "/assets/feed-images/fdf993466356127c9155.webp"
     }
   ],
   "submittedEvents": 0
