@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 31 Aug 2026 04:13:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 04:42:30 +0000</lastBuildDate>
     <item>
       <title>太平國小口琴隊</title>
       <link>https://www.tc.edu.tw/page/e78c96c9-54fc-453a-8119-72e5d4d0dcde/activity-school-content?id=109586</link>
@@ -150,6 +150,28 @@ Tag：團體樂團
 臺灣的口琴合奏演出團體，活動脈絡包含1998成立、THE-22與合奏。</description>
     </item>
     <item>
+      <title>SHG Hering Harmonicas</title>
+      <link>https://shg.art.br/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/300d796379b9f462</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：教學器材
+Tag：品牌、教學器材、教學、半音階、複音、十孔
+國家：巴西
+地區：巴西/布盧梅瑙
+巴西的口琴樂器品牌與器材資訊，關注十孔、半音階、複音口琴與藝術家與產品資訊。</description>
+    </item>
+    <item>
+      <title>Perfect Fourth</title>
+      <link>https://www.perfectfourth.org/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/deea7bdf554677e8</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、重奏、國際交流
+國家：香港
+地區：香港
+香港的口琴重奏國際演出團體，活動脈絡包含香港現代風格口琴四重奏、傳統與現代和聲與舞台演出。</description>
+    </item>
+    <item>
       <title>南里沙</title>
       <link>https://minamirisa.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/ad86c3570665b36e</guid>
@@ -159,6 +181,17 @@ Tag：演奏者、半音階、國際交流
 國家：日本
 地區：日本
 日本的半音階國際演出人員，活動脈絡包含專輯、YouTube直播與THMF交流。</description>
+    </item>
+    <item>
+      <title>李沛寧</title>
+      <link>https://laelapsharmonica.com/en/laelaps-club/pei-ning-lee/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/68fc371b63720ee3</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、團體樂團、半音階、重奏
+國家：臺灣
+地區：臺灣
+臺灣的半音階口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF 2026半音階獨奏公開組季軍。</description>
     </item>
     <item>
       <title>Orion 口琴樂團</title>
@@ -634,17 +667,6 @@ Tag：活動資訊、團體樂團、音樂節、半音階、重奏、國際交�
 臺灣的國際賽事演出團體與青年團體，涵蓋陳若芸與李沛寧組成的新生代二重奏、臺灣口琴音樂節演出與2025世界口琴節成人二重奏並列第七名（優秀評等）。</description>
     </item>
     <item>
-      <title>李沛寧</title>
-      <link>https://laelapsharmonica.com/en/laelaps-club/pei-ning-lee/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/68fc371b63720ee3</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、團體樂團、半音階、重奏
-國家：臺灣
-地區：臺灣
-臺灣的半音階口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF 2026半音階獨奏公開組季軍。</description>
-    </item>
-    <item>
       <title>Rachelle Plas &amp; Philippe Hervouet</title>
       <link>http://www.plashervouetband.com/</link>
       <guid>https://harmonica.observe.tw/feeds/sources/c56a0214c22596be</guid>
@@ -940,17 +962,6 @@ Tag：演奏者、團體樂團、半音階、重奏
 國家：臺灣
 地區：臺灣
 臺灣的半音階口琴與重奏演出人員與重奏團員，活動脈絡包含天狼星、胖擊口琴樂團與半音階。</description>
-    </item>
-    <item>
-      <title>SHG Hering Harmonicas</title>
-      <link>https://shg.art.br/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/300d796379b9f462</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：教學器材
-Tag：品牌、教學器材、教學、半音階、複音、十孔
-國家：巴西
-地區：巴西/布盧梅瑙
-巴西的口琴樂器品牌與器材資訊，關注十孔、半音階、複音口琴與藝術家與產品資訊。</description>
     </item>
     <item>
       <title>蔡明勳</title>
@@ -1336,17 +1347,6 @@ Tag：協會、國際交流
 國家：新加坡
 地區：新加坡
 新加坡的國際協會與資訊來源，關注口琴協會、工作坊、音樂會與社群推廣。</description>
-    </item>
-    <item>
-      <title>Perfect Fourth</title>
-      <link>https://www.perfectfourth.org/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/deea7bdf554677e8</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、重奏、國際交流
-國家：香港
-地區：香港
-香港的口琴重奏國際演出團體，活動脈絡包含香港現代風格口琴四重奏、傳統與現代和聲與舞台演出。</description>
     </item>
     <item>
       <title>Indiara Sfair</title>

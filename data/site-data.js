@@ -672,6 +672,166 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-297",
+      "publicId": "297",
+      "name": "SHG Hering Harmonicas",
+      "nameEn": "SHG Hering Harmonicas",
+      "category": "教學器材",
+      "type": "品牌",
+      "originalType": "品牌",
+      "country": "巴西",
+      "region": "巴西/布盧梅瑙",
+      "cityOrFocus": "十孔/半音階/複音口琴/藝術家與產品資訊",
+      "structuredSummary": "十孔/半音階/複音口琴/藝術家與產品資訊 / 口琴 / 樂器品牌/器材資訊",
+      "summary": "巴西的口琴樂器品牌與器材資訊，關注十孔、半音階、複音口琴與藝術家與產品資訊。",
+      "keywords": "SHG Hering Harmonicas Brazil gaita diatonic chromatic tremolo artists",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://shg.art.br/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://facebook.com/shggaitas"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/shggaitas/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "297-shg-hering-harmonicas",
+      "latestUpdateAt": "2026-08-30T23:14:46+00:00",
+      "latestUpdateLocal": "2026-08-31 07:14",
+      "latestUpdateSource": "SHG Hering Harmonicas",
+      "latestUpdateUrl": "https://www.instagram.com/stories/shggaitas/3975459326399397190/",
+      "avatarUrl": "/assets/source-avatars/hering-harmonica.png",
+      "sourceInitials": "SHH",
+      "sourceTags": [
+        "品牌",
+        "教學器材",
+        "教學",
+        "半音階",
+        "複音",
+        "十孔"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_shggaitas",
+          "name": "SHG Hering Harmonicas",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/shggaitas",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_shggaitas",
+          "name": "SHG Hering Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "shggaitas",
+          "profileUrl": "https://www.instagram.com/shggaitas/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_shggaitas",
+          "name": "SHG Hering Harmonicas",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "shggaitas",
+          "profileUrl": "https://www.instagram.com/shggaitas/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-122",
+      "publicId": "122",
+      "name": "Perfect Fourth",
+      "nameEn": "Perfect Fourth",
+      "category": "團體樂團",
+      "type": "團體",
+      "originalType": "團體",
+      "country": "香港",
+      "region": "香港",
+      "cityOrFocus": "香港現代風格口琴四重奏/傳統與現代和聲/舞台演出",
+      "structuredSummary": "香港現代風格口琴四重奏/傳統與現代和聲/舞台演出 / 口琴重奏 / 國際演出團體",
+      "summary": "香港的口琴重奏國際演出團體，活動脈絡包含香港現代風格口琴四重奏、傳統與現代和聲與舞台演出。",
+      "keywords": "Perfect Fourth Harmonica Quartet Hong Kong SIHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.perfectfourth.org/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/perfectfourth.org/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/perfect.fourth/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@PerfectFourth"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "122-perfect-fourth",
+      "latestUpdateAt": "2026-08-30T16:22:29+00:00",
+      "latestUpdateLocal": "2026-08-31 00:22",
+      "latestUpdateSource": "Perfect Fourth",
+      "latestUpdateUrl": "https://www.instagram.com/stories/perfect.fourth/3975251675283717583/",
+      "avatarUrl": "/assets/source-avatars/perfect-fourth.jpg",
+      "sourceInitials": "PF",
+      "sourceTags": [
+        "團體樂團",
+        "重奏",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_perfectfourth_org",
+          "name": "Perfect Fourth",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/perfectfourth.org",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_perfect_fourth",
+          "name": "Perfect Fourth",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "perfect.fourth",
+          "profileUrl": "https://www.instagram.com/perfect.fourth/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_perfect_fourth",
+          "name": "Perfect Fourth",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "perfect.fourth",
+          "profileUrl": "https://www.instagram.com/perfect.fourth/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_perfectfourth",
+          "name": "Perfect Fourth",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@PerfectFourth",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-58",
       "publicId": "58",
       "name": "南里沙",
@@ -769,6 +929,66 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@minamirisa",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-259",
+      "publicId": "259",
+      "name": "李沛寧",
+      "nameEn": "Li Pei-ning",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "Cookie Monster/口琴二重奏/THMF 2026半音階獨奏公開組季軍/WHF",
+      "structuredSummary": "Cookie Monster/口琴二重奏/THMF 2026半音階獨奏公開組季軍/WHF / 半音階口琴 / 演出人員/樂團成員",
+      "summary": "臺灣的半音階口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF 2026半音階獨奏公開組季軍。",
+      "keywords": "李沛寧 Li Pei-ning Pei Ning Lee harmonica Cookie Monster THMF 2026 A1 third WHF",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://laelapsharmonica.com/en/laelaps-club/pei-ning-lee/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/l.p.ning.0404/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "259-li-pei-ning",
+      "latestUpdateAt": "2026-08-30T15:14:29+00:00",
+      "latestUpdateLocal": "2026-08-30 23:14",
+      "latestUpdateSource": "李沛寧",
+      "latestUpdateUrl": "https://www.instagram.com/stories/l.p.ning.0404/3975217484700777756/",
+      "avatarUrl": "/assets/source-avatars/7aa78f18d7bb4f4ca5aa.webp",
+      "sourceInitials": "李沛",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "半音階",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_l_p_ning_0404",
+          "name": "李沛寧",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "l.p.ning.0404",
+          "profileUrl": "https://www.instagram.com/l.p.ning.0404/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_l_p_ning_0404",
+          "name": "李沛寧",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "l.p.ning.0404",
+          "profileUrl": "https://www.instagram.com/l.p.ning.0404/",
           "feedUrl": ""
         }
       ]
@@ -3899,66 +4119,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-259",
-      "publicId": "259",
-      "name": "李沛寧",
-      "nameEn": "Li Pei-ning",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "Cookie Monster/口琴二重奏/THMF 2026半音階獨奏公開組季軍/WHF",
-      "structuredSummary": "Cookie Monster/口琴二重奏/THMF 2026半音階獨奏公開組季軍/WHF / 半音階口琴 / 演出人員/樂團成員",
-      "summary": "臺灣的半音階口琴演出人員與樂團成員，活動脈絡包含Cookie Monster、口琴二重奏與THMF 2026半音階獨奏公開組季軍。",
-      "keywords": "李沛寧 Li Pei-ning Pei Ning Lee harmonica Cookie Monster THMF 2026 A1 third WHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://laelapsharmonica.com/en/laelaps-club/pei-ning-lee/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/l.p.ning.0404/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "259-li-pei-ning",
-      "latestUpdateAt": "2026-08-27T05:04:36+00:00",
-      "latestUpdateLocal": "2026-08-27 13:04",
-      "latestUpdateSource": "李沛寧",
-      "latestUpdateUrl": "https://www.instagram.com/p/Dch_nJQiIOf/",
-      "avatarUrl": "/assets/source-avatars/7aa78f18d7bb4f4ca5aa.webp",
-      "sourceInitials": "李沛",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "半音階",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_l_p_ning_0404",
-          "name": "李沛寧",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "l.p.ning.0404",
-          "profileUrl": "https://www.instagram.com/l.p.ning.0404/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_l_p_ning_0404",
-          "name": "李沛寧",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "l.p.ning.0404",
-          "profileUrl": "https://www.instagram.com/l.p.ning.0404/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-151",
       "publicId": "151",
       "name": "Rachelle Plas & Philippe Hervouet",
@@ -6017,81 +6177,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@keriw128",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-297",
-      "publicId": "297",
-      "name": "SHG Hering Harmonicas",
-      "nameEn": "SHG Hering Harmonicas",
-      "category": "教學器材",
-      "type": "品牌",
-      "originalType": "品牌",
-      "country": "巴西",
-      "region": "巴西/布盧梅瑙",
-      "cityOrFocus": "十孔/半音階/複音口琴/藝術家與產品資訊",
-      "structuredSummary": "十孔/半音階/複音口琴/藝術家與產品資訊 / 口琴 / 樂器品牌/器材資訊",
-      "summary": "巴西的口琴樂器品牌與器材資訊，關注十孔、半音階、複音口琴與藝術家與產品資訊。",
-      "keywords": "SHG Hering Harmonicas Brazil gaita diatonic chromatic tremolo artists",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://shg.art.br/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://facebook.com/shggaitas"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/shggaitas/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "297-shg-hering-harmonicas",
-      "latestUpdateAt": "2026-08-24T12:30:28+00:00",
-      "latestUpdateLocal": "2026-08-24 20:30",
-      "latestUpdateSource": "SHG Hering Harmonicas",
-      "latestUpdateUrl": "https://www.instagram.com/stories/shggaitas/3970786269360384871/",
-      "avatarUrl": "/assets/source-avatars/hering-harmonica.png",
-      "sourceInitials": "SHH",
-      "sourceTags": [
-        "品牌",
-        "教學器材",
-        "教學",
-        "半音階",
-        "複音",
-        "十孔"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_shggaitas",
-          "name": "SHG Hering Harmonicas",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/shggaitas",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_shggaitas",
-          "name": "SHG Hering Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "shggaitas",
-          "profileUrl": "https://www.instagram.com/shggaitas/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_shggaitas",
-          "name": "SHG Hering Harmonicas",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "shggaitas",
-          "profileUrl": "https://www.instagram.com/shggaitas/",
           "feedUrl": ""
         }
       ]
@@ -8838,91 +8923,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "rsshub_instagram_story",
           "username": "has_singapore",
           "profileUrl": "https://www.instagram.com/has_singapore/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-122",
-      "publicId": "122",
-      "name": "Perfect Fourth",
-      "nameEn": "Perfect Fourth",
-      "category": "團體樂團",
-      "type": "團體",
-      "originalType": "團體",
-      "country": "香港",
-      "region": "香港",
-      "cityOrFocus": "香港現代風格口琴四重奏/傳統與現代和聲/舞台演出",
-      "structuredSummary": "香港現代風格口琴四重奏/傳統與現代和聲/舞台演出 / 口琴重奏 / 國際演出團體",
-      "summary": "香港的口琴重奏國際演出團體，活動脈絡包含香港現代風格口琴四重奏、傳統與現代和聲與舞台演出。",
-      "keywords": "Perfect Fourth Harmonica Quartet Hong Kong SIHF",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.perfectfourth.org/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/perfectfourth.org/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/perfect.fourth/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@PerfectFourth"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "122-perfect-fourth",
-      "latestUpdateAt": "2026-08-21T15:36:05+00:00",
-      "latestUpdateLocal": "2026-08-21 23:36",
-      "latestUpdateSource": "Perfect Fourth",
-      "latestUpdateUrl": "https://www.instagram.com/stories/perfect.fourth/3968705511759497332/",
-      "avatarUrl": "/assets/source-avatars/perfect-fourth.jpg",
-      "sourceInitials": "PF",
-      "sourceTags": [
-        "團體樂團",
-        "重奏",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_perfectfourth_org",
-          "name": "Perfect Fourth",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/perfectfourth.org",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_perfect_fourth",
-          "name": "Perfect Fourth",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "perfect.fourth",
-          "profileUrl": "https://www.instagram.com/perfect.fourth/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_perfect_fourth",
-          "name": "Perfect Fourth",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "perfect.fourth",
-          "profileUrl": "https://www.instagram.com/perfect.fourth/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_perfectfourth",
-          "name": "Perfect Fourth",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@PerfectFourth",
           "feedUrl": ""
         }
       ]
