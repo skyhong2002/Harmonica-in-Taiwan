@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-08-31T12:08:51+08:00",
+  "generatedAt": "2026-08-31T12:13:55+08:00",
   "site": "https://harmonica.observe.tw",
   "overall": {
-    "status": "degraded",
-    "label": "部分異常",
-    "summary": "核心 pipeline 有產出；需要注意：Instagram 擷取。 Facebook Apify 目前依排程或預算節流。"
+    "status": "ok",
+    "label": "正常",
+    "summary": "核心資料抓取與公開 API 正常。 Facebook Apify 目前依排程或預算節流。"
   },
   "metrics": {
-    "updates": 3346,
+    "updates": 3345,
     "updatesWindowDays": 30,
     "directoryEntries": 322,
     "watchSources": 794,
-    "currentErrors": 119,
-    "latestDataAt": "2026-08-31T12:08:25+08:00",
-    "latestSocialObservationAt": "2026-08-31T12:07:48+08:00"
+    "currentErrors": 0,
+    "latestDataAt": "2026-08-31T12:13:52+08:00",
+    "latestSocialObservationAt": "2026-08-31T12:13:25+08:00"
   },
   "watchSources": {
     "platforms": {
@@ -42,8 +42,8 @@
       {
         "platform": "instagram",
         "sources": 358,
-        "currentErrors": 119,
-        "status": "degraded"
+        "currentErrors": 0,
+        "status": "ok"
       },
       {
         "platform": "threads",
@@ -79,7 +79,7 @@
       "label": "正常",
       "summary": "定期 pipeline 已產生公開資料快照。",
       "details": [
-        "最新公開資料：2026-08-31 12:08:25",
+        "最新公開資料：2026-08-31 12:13:52",
         "pipeline.log 更新：2026-07-12 02:58:29",
         "pipeline.err.log 更新：2026-07-11 14:33:03",
         "LaunchAgent：not running，last exit 0"
@@ -90,7 +90,7 @@
       "name": "公開 API",
       "status": "ok",
       "label": "正常",
-      "summary": "latest.json 有 3346 筆更新，sources.json 有 322 筆公開目錄。",
+      "summary": "latest.json 有 3345 筆更新，sources.json 有 322 筆公開目錄。",
       "details": [
         "更新視窗：30 天",
         "watch sources：794"
@@ -110,16 +110,16 @@
     {
       "id": "instagram",
       "name": "Instagram 擷取",
-      "status": "degraded",
-      "label": "部分異常",
-      "summary": "358 個 Instagram 來源（profile 179、story 179）；目前錯誤 profile 11、story 108。",
+      "status": "ok",
+      "label": "正常",
+      "summary": "358 個 Instagram 來源（profile 179、story 179）；目前錯誤 profile 0、story 0。",
       "details": [
-        "最新社群觀測：2026-08-31 12:07:48",
-        "錯誤拆分：profile 11、story 108。",
+        "最新社群觀測：2026-08-31 12:13:25",
+        "錯誤拆分：profile 0、story 0。",
         "story 無公開內容/空路由略過：0",
         "IG 節流：profile 每 12 小時、story 每 12 小時；來源間隔 8 秒、每輪最多 40 個。",
         "本輪 IG：抓取 14、排程略過 344、延後 0、錯誤 0。",
-        "下一個 IG 來源：約 2026-08-31 12:11:17"
+        "下一個 IG 來源：約 2026-08-31 12:21:13"
       ]
     },
     {
@@ -171,215 +171,27 @@
       ]
     }
   ],
-  "recentErrors": [
-    {
-      "seenAt": "2026-08-31T08:07:37+08:00",
-      "sourceId": "ig_story_theduet_music",
-      "sourceName": "The Duet 獨特音樂",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "連續失敗 3 次：Instaloader story fetch failed for @theduet.music: 400 Bad Request - \"fail\" status, message \"Asset asset://laser.provider/ig_business_category_subvertical has been deleted. You cannot use this schema\" when acces"
-    },
-    {
-      "seenAt": "2026-08-31T01:48:38+08:00",
-      "sourceId": "ig_story_theheadcutters",
-      "sourceName": "Joe Marhofer / The Headcutters",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "連續失敗 4 次：Instaloader story fetch failed for @theheadcutters: Error when checking if logged in: JSON Query to graphql/query: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" when"
-    },
-    {
-      "seenAt": "2026-08-31T03:29:50+08:00",
-      "sourceId": "ig_story_timothyyip_harmonica",
-      "sourceName": "Timothy Yip 葉進禧",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "連續失敗 3 次：Instaloader story fetch failed for @timothyyip_harmonica: Error when checking if logged in: JSON Query to graphql/query: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again."
-    },
-    {
-      "seenAt": "2026-08-31T03:30:49+08:00",
-      "sourceId": "ig_story_tnfsh_harmonica_club",
-      "sourceName": "臺南一中口琴社",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "連續失敗 3 次：Instaloader story fetch failed for @tnfsh_harmonica.club: Error when checking if logged in: JSON Query to graphql/query: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again."
-    },
-    {
-      "seenAt": "2026-08-31T03:28:46+08:00",
-      "sourceId": "ig_story_toshimiller",
-      "sourceName": "藤井俊充",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "連續失敗 3 次：Instaloader story fetch failed for @toshimiller: Error when checking if logged in: JSON Query to graphql/query: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" when ac"
-    },
-    {
-      "seenAt": "2026-08-31T04:06:38+08:00",
-      "sourceId": "ig_story_triple_f_harmonica",
-      "sourceName": "飛飛飛 Triple F",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "連續失敗 3 次：Instaloader story fetch failed for @triple.f_harmonica: Error when checking if logged in: JSON Query to graphql/query: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" "
-    },
-    {
-      "seenAt": "2026-08-31T02:19:29+08:00",
-      "sourceId": "ig_story_usd_harmonica",
-      "sourceName": "Up Side Down",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "連續失敗 3 次：Instaloader story fetch failed for @usd_harmonica: Error when checking if logged in: JSON Query to graphql/query: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" when "
-    },
-    {
-      "seenAt": "2026-08-31T09:55:10+08:00",
-      "sourceId": "ig_story_wasehamo_waseda",
-      "sourceName": "早稻田大學ハーモニカ・ソサィアティ",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "連續失敗 3 次：Instaloader story fetch failed for @wasehamo_waseda: 400 Bad Request - \"fail\" status, message \"Asset asset://laser.provider/ig_business_category_subvertical has been deleted. You cannot use this schema\" when acc"
-    },
-    {
-      "seenAt": "2026-08-31T07:03:13+08:00",
-      "sourceId": "ig_story_weissenbergtw",
-      "sourceName": "韋笙堡口琴 Weissenberg Harmonicas",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "連續失敗 3 次：Instaloader story fetch failed for @weissenbergtw: 400 Bad Request - \"fail\" status, message \"Asset asset://laser.provider/ig_business_category_subvertical has been deleted. You cannot use this schema\" when acces"
-    },
-    {
-      "seenAt": "2026-08-31T06:54:06+08:00",
-      "sourceId": "ig_story_weiwuying_centerforthearts",
-      "sourceName": "衛武營國家藝術文化中心",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "連續失敗 3 次：Instaloader story fetch failed for @weiwuying_centerforthearts: 400 Bad Request - \"fail\" status, message \"Asset asset://laser.provider/ig_business_category_subvertical has been deleted. You cannot use this schem"
-    },
-    {
-      "seenAt": "2026-08-31T01:48:47+08:00",
-      "sourceId": "ig_story_whf_world_harmonica_festival",
-      "sourceName": "World Harmonica Festival",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "連續失敗 3 次：Instaloader story fetch failed for @whf_world_harmonica_festival: Error when checking if logged in: JSON Query to graphql/query: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you tr"
-    },
-    {
-      "seenAt": "2026-08-31T05:49:55+08:00",
-      "sourceId": "ig_story_xdgaste",
-      "sourceName": "邴國榮",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "連續失敗 4 次：Instaloader story fetch failed for @xdgaste: Error when checking if logged in: JSON Query to graphql/query: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" when access"
-    },
-    {
-      "seenAt": "2026-08-31T08:42:15+08:00",
-      "sourceId": "ig_story_yellowpinemusicfestival",
-      "sourceName": "Yellow Pine Harmonica Festival",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "連續失敗 3 次：Instaloader story fetch failed for @yellowpinemusicfestival: 400 Bad Request - \"fail\" status, message \"Asset asset://laser.provider/ig_business_category_subvertical has been deleted. You cannot use this schema\" "
-    },
-    {
-      "seenAt": "2026-08-31T00:37:36+08:00",
-      "sourceId": "ig_story_yellowstone_music_shop",
-      "sourceName": "黃石樂器",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "連續失敗 2 次：Instaloader story fetch failed for @yellowstone_music_shop: Error when checking if logged in: JSON Query to graphql/query: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try agai"
-    },
-    {
-      "seenAt": "2026-08-31T01:45:28+08:00",
-      "sourceId": "ig_story_yenmingchen",
-      "sourceName": "陳彥銘",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "連續失敗 3 次：Instaloader story fetch failed for @yenmingchen: Error when checking if logged in: JSON Query to graphql/query: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" when ac"
-    },
-    {
-      "seenAt": "2026-08-31T01:45:53+08:00",
-      "sourceId": "ig_story_yf_life",
-      "sourceName": "林裕豐",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "連續失敗 3 次：Instaloader story fetch failed for @yf__life: Error when checking if logged in: JSON Query to graphql/query: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" when acces"
-    },
-    {
-      "seenAt": "2026-08-31T03:28:27+08:00",
-      "sourceId": "ig_story_yich",
-      "sourceName": "廖苡晴",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "連續失敗 3 次：Instaloader story fetch failed for @__yich___: Error when checking if logged in: JSON Query to graphql/query: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" when acce"
-    },
-    {
-      "seenAt": "2026-08-31T03:30:01+08:00",
-      "sourceId": "ig_story_yoonseoklee_harmonica",
-      "sourceName": "Yoonseok Lee",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "連續失敗 5 次：Instaloader story fetch failed for @yoonseoklee_harmonica: Error when checking if logged in: JSON Query to graphql/query: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again"
-    },
-    {
-      "seenAt": "2026-08-31T05:10:26+08:00",
-      "sourceId": "ig_story_yora",
-      "sourceName": "陳瑤容 Yora Chen",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_story",
-      "error": "連續失敗 3 次：Instaloader story fetch failed for @_yora._: Error when checking if logged in: JSON Query to graphql/query: 401 Unauthorized - \"fail\" status, message \"Please wait a few minutes before you try again.\" when access"
-    },
-    {
-      "seenAt": "2026-08-31T01:09:35+08:00",
-      "sourceId": "ig_tnfsh_harmonica",
-      "sourceName": "TNFSH Harmonica",
-      "platform": "instagram",
-      "sourceType": "rsshub_instagram_profile",
-      "error": "連續失敗 4 次：The read operation timed out"
-    }
-  ],
+  "recentErrors": [],
   "runtime": {
     "pipeline": {
       "currentStep": "build status page",
-      "heartbeatAt": "2026-08-31T04:08:51.566072+00:00",
+      "heartbeatAt": "2026-08-31T04:13:55.588669+00:00",
       "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/run_pipeline.lock",
-      "maxPostAgeDays": 2,
+      "maxPostAgeDays": 30,
       "message": "",
-      "pid": 7624,
-      "startedAt": "2026-08-31T04:03:35.459847+00:00",
+      "pid": 8725,
+      "startedAt": "2026-08-31T04:13:23.001695+00:00",
       "status": "running",
       "steps": [
         {
           "command": [
             "/Library/Developer/CommandLineTools/usr/bin/python3",
-            "scripts/build_social_sources.py"
-          ],
-          "finishedAt": "2026-08-31T04:03:35.567126+00:00",
-          "name": "build social sources",
-          "returnCode": 0,
-          "startedAt": "2026-08-31T04:03:35.461570+00:00",
-          "status": "ok"
-        },
-        {
-          "command": [
-            "/Library/Developer/CommandLineTools/usr/bin/python3",
-            "scripts/social_feed_watchdog.py",
-            "--max-post-age-days",
-            "2",
-            "--request-timeout",
-            "10",
-            "--no-llm-tags"
-          ],
-          "finishedAt": "2026-08-31T04:07:49.035720+00:00",
-          "name": "watch social feeds",
-          "returnCode": 0,
-          "startedAt": "2026-08-31T04:03:35.567645+00:00",
-          "status": "ok"
-        },
-        {
-          "command": [
-            "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-08-31T04:07:51.594335+00:00",
+          "finishedAt": "2026-08-31T04:13:25.431522+00:00",
           "name": "build public data",
           "returnCode": 0,
-          "startedAt": "2026-08-31T04:07:49.037923+00:00",
+          "startedAt": "2026-08-31T04:13:23.002160+00:00",
           "status": "ok"
         },
         {
@@ -388,10 +200,10 @@
             "scripts/backfill_public_source_pages.py",
             "--skip-fetch"
           ],
-          "finishedAt": "2026-08-31T04:07:56.251114+00:00",
+          "finishedAt": "2026-08-31T04:13:29.895642+00:00",
           "name": "backfill source pages",
           "returnCode": 0,
-          "startedAt": "2026-08-31T04:07:51.594932+00:00",
+          "startedAt": "2026-08-31T04:13:25.432109+00:00",
           "status": "ok"
         },
         {
@@ -399,10 +211,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_public_data.py"
           ],
-          "finishedAt": "2026-08-31T04:07:58.912637+00:00",
+          "finishedAt": "2026-08-31T04:13:32.329156+00:00",
           "name": "rebuild public data",
           "returnCode": 0,
-          "startedAt": "2026-08-31T04:07:56.253109+00:00",
+          "startedAt": "2026-08-31T04:13:29.896213+00:00",
           "status": "ok"
         },
         {
@@ -410,10 +222,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_score_publications.py"
           ],
-          "finishedAt": "2026-08-31T04:07:59.047678+00:00",
+          "finishedAt": "2026-08-31T04:13:32.419420+00:00",
           "name": "build score publications",
           "returnCode": 0,
-          "startedAt": "2026-08-31T04:07:58.914962+00:00",
+          "startedAt": "2026-08-31T04:13:32.329713+00:00",
           "status": "ok"
         },
         {
@@ -421,10 +233,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_score_sources.py"
           ],
-          "finishedAt": "2026-08-31T04:07:59.076334+00:00",
+          "finishedAt": "2026-08-31T04:13:32.466166+00:00",
           "name": "build score sources",
           "returnCode": 0,
-          "startedAt": "2026-08-31T04:07:59.048157+00:00",
+          "startedAt": "2026-08-31T04:13:32.419963+00:00",
           "status": "ok"
         },
         {
@@ -432,10 +244,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/generate_rss_feeds.py"
           ],
-          "finishedAt": "2026-08-31T04:08:28.394143+00:00",
+          "finishedAt": "2026-08-31T04:13:55.119841+00:00",
           "name": "generate rss feeds",
           "returnCode": 0,
-          "startedAt": "2026-08-31T04:07:59.076741+00:00",
+          "startedAt": "2026-08-31T04:13:32.466659+00:00",
           "status": "ok"
         },
         {
@@ -443,10 +255,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/build_public_calendar_events.py"
           ],
-          "finishedAt": "2026-08-31T04:08:33.522010+00:00",
+          "finishedAt": "2026-08-31T04:13:55.504473+00:00",
           "name": "build public calendar events",
           "returnCode": 0,
-          "startedAt": "2026-08-31T04:08:28.394862+00:00",
+          "startedAt": "2026-08-31T04:13:55.120375+00:00",
           "status": "ok"
         },
         {
@@ -454,21 +266,10 @@
             "/Library/Developer/CommandLineTools/usr/bin/python3",
             "scripts/apply_submitted_events.py"
           ],
-          "finishedAt": "2026-08-31T04:08:33.722161+00:00",
+          "finishedAt": "2026-08-31T04:13:55.588118+00:00",
           "name": "apply submitted events",
           "returnCode": 0,
-          "startedAt": "2026-08-31T04:08:33.524382+00:00",
-          "status": "ok"
-        },
-        {
-          "command": [
-            "/Users/skyhong/.hermes/harmonica-intake-venv/bin/python",
-            "scripts/sync_google_calendar_events.py"
-          ],
-          "finishedAt": "2026-08-31T04:08:51.563425+00:00",
-          "name": "sync google calendar",
-          "returnCode": 0,
-          "startedAt": "2026-08-31T04:08:33.723151+00:00",
+          "startedAt": "2026-08-31T04:13:55.505069+00:00",
           "status": "ok"
         },
         {
@@ -479,7 +280,7 @@
           "finishedAt": "",
           "name": "build status page",
           "returnCode": null,
-          "startedAt": "2026-08-31T04:08:51.566049+00:00",
+          "startedAt": "2026-08-31T04:13:55.588664+00:00",
           "status": "running"
         }
       ],

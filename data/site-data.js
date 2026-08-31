@@ -4591,7 +4591,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-25 23:52",
       "latestUpdateSource": "茱蒂口琴樂團 Judy's Harmonica Ensemble",
       "latestUpdateUrl": "https://www.facebook.com/Judys.Harmonica.Ensemble/posts/pfbid031F9VPKmshaD6e464vnj2rZv8ki9ZEuzCZwgkeLVsdQDLoeZKvZdbu8EakbQPo52ml",
-      "avatarUrl": "/assets/source-avatars/f7fec3bb9f5370755b9a.webp",
+      "avatarUrl": "/assets/source-avatars/6cbbddd84b620b785de7.webp",
       "sourceInitials": "JSH",
       "sourceTags": [
         "團體樂團",
@@ -5432,7 +5432,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-25 04:00",
       "latestUpdateSource": "Jong-seong Park 朴鍾聲",
       "latestUpdateUrl": "https://www.instagram.com/stories/jongseongpark_harmonicist/3971012950848542957/",
-      "avatarUrl": "/assets/source-avatars/a216366fa81349eae94f.webp",
+      "avatarUrl": "/assets/source-avatars/50bb39b731e19fae5d0f.webp",
       "sourceInitials": "JSP",
       "sourceTags": [
         "演奏者",
@@ -6457,7 +6457,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-24 18:09",
       "latestUpdateSource": "蔡明憲",
       "latestUpdateUrl": "https://www.instagram.com/p/Dca0KMCkial/",
-      "avatarUrl": "/assets/source-avatars/7e08a787ef53765e3eec.webp",
+      "avatarUrl": "/assets/source-avatars/6b101d283f811d49760c.webp",
       "sourceInitials": "蔡明",
       "sourceTags": [
         "演奏者",
@@ -8160,7 +8160,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "latestUpdateLocal": "2026-08-22 22:13",
       "latestUpdateSource": "Aiden N Evelyn / Aiden Soon & Evelyn Choong",
       "latestUpdateUrl": "https://www.instagram.com/p/DcWGNXvsFAK/",
-      "avatarUrl": "/assets/source-avatars/7b3077b50a514f7f4a80.webp",
+      "avatarUrl": "/assets/source-avatars/acbcbb6ab1e632e5051b.webp",
       "sourceInitials": "ANE",
       "sourceTags": [
         "團體樂團",
@@ -12263,7 +12263,7 @@ window.HARMONICA_OBSERVE_DATA = {
         },
         {
           "label": "Instagram",
-          "url": "https://www.instagram.com/hnhk_harmonica_orchestra/"
+          "url": "https://www.instagram.com/hnhkharmonica/"
         },
         {
           "label": "YouTube",
@@ -12294,21 +12294,21 @@ window.HARMONICA_OBSERVE_DATA = {
           "feedUrl": ""
         },
         {
-          "id": "ig_hnhk_harmonica_orchestra",
+          "id": "ig_hnhkharmonica",
           "name": "海南會館口琴樂團",
           "platform": "instagram",
           "type": "rsshub_instagram_profile",
-          "username": "hnhk_harmonica_orchestra",
-          "profileUrl": "https://www.instagram.com/hnhk_harmonica_orchestra/",
+          "username": "hnhkharmonica",
+          "profileUrl": "https://www.instagram.com/hnhkharmonica/",
           "feedUrl": ""
         },
         {
-          "id": "ig_story_hnhk_harmonica_orchestra",
+          "id": "ig_story_hnhkharmonica",
           "name": "海南會館口琴樂團",
           "platform": "instagram",
           "type": "rsshub_instagram_story",
-          "username": "hnhk_harmonica_orchestra",
-          "profileUrl": "https://www.instagram.com/hnhk_harmonica_orchestra/",
+          "username": "hnhkharmonica",
+          "profileUrl": "https://www.instagram.com/hnhkharmonica/",
           "feedUrl": ""
         },
         {
