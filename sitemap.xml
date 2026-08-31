@@ -85,6 +85,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/232-kmu-mon-harmonica-club/</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/104-timothy-yip/</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -170,6 +176,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/12/</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/103-yora-chen/</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -362,6 +374,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/100-otis-tsao/</loc>
+    <lastmod>2026-08-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/290-ivan-marcio/</loc>
     <lastmod>2026-08-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -565,12 +583,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://harmonica.observe.tw/source/232-kmu-mon-harmonica-club/</loc>
-    <lastmod>2026-08-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://harmonica.observe.tw/source/143-brendan-power/</loc>
     <lastmod>2026-08-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -692,12 +704,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/55-kelvin-leung/</loc>
-    <lastmod>2026-08-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/290-ivan-marcio/</loc>
     <lastmod>2026-08-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -878,12 +884,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/272-monica-j/</loc>
-    <lastmod>2026-08-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/103-yora-chen/</loc>
     <lastmod>2026-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

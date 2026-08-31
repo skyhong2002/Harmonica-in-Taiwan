@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 658,
+  "count": 661,
   "items": [
     {
       "title": "衛武營國家藝術文化中心｜@weiwuying_centerforthearts: 一天一更新直到《遊唱詩人》登台演出 Day 8 @weiwuying_centerforthearts : 一天一更新直到《遊唱詩人》登台演出 Day 8",
@@ -7693,49 +7693,58 @@
       "account": "baba_harmonica_studio",
       "platform": "instagram",
       "platform_label": "Instagram",
-      "posted_at": "Sun, 23 Aug 2026 03:31:22 GMT",
-      "posted_at_local": "2026-08-23 11:31",
+      "posted_at": "2026-08-23T03:32:18+00:00",
+      "posted_at_local": "2026-08-23 11:32",
       "like_count": null,
       "comment_count": null,
       "share_count": null,
       "reaction_count": null,
       "view_count": null,
-      "seen_at": "2026-08-23T11:01:17.692301+00:00",
+      "seen_at": "2026-08-31T09:47:15.714273+00:00",
       "media_type": "",
       "story": false,
       "story_provider": "",
       "story_fetched_at": "",
       "story_expires_at": "",
-      "source_feed_url": "https://rss.observe.tw/instagram/2/user/baba_harmonica_studio",
+      "source_feed_url": "https://www.instagram.com/baba_harmonica_studio/",
       "rsshub_guid": "",
       "rsshub_title": "",
       "instagram_user_id": "",
       "matched_keywords": [
         "口琴",
-        "音樂會"
+        "公開更新",
+        "音樂會",
+        "演出"
       ],
       "keyword_matches": [
         "口琴",
         "音樂會"
       ],
-      "llm_relevant": null,
-      "llm_confidence": null,
-      "llm_labels": [],
-      "llm_categories": [],
-      "llm_reason": "",
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "音樂會",
+        "演出"
+      ],
+      "llm_categories": [
+        "events"
+      ],
+      "llm_reason": "口琴坊十週年音樂會，明確屬口琴演出與活動公告。",
       "text": "因為口琴，我們相遇。 因為音樂，我們成為朋友。 這十年裡的陪伴，我們有著數不清的故事。\n《拾光琴緣》不只是十週年音樂會，也是屬於我們這十年的回憶。\n這一次，來聽聽我們的 【快問快答】 —— 從「第一次認識彼此」開始，聊聊那些因為口琴而發生的故事。🎶",
       "images": [
-        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/783351952_18333266812286000_5641178925012753261_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=Mzk2OTc4ODc5NzEyMjA4OTYzOTE4MzMzMjY2ODA5Mjg2MDAw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjk5MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=2B6nAjDusRkQ7kNvwEg5H4G&_nc_oc=AdqHUaldhWJjHtrJ9xqZenBxrzMj-z_MtXfP3rn7ugbg17lVuWc7KeSD6Ln9gbHm3aQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Jg9Wy_Ig4fLd2qvHHsRigg&_nc_ss=7a22e&oh=00_AQErH6hzI6x7EFM5wits3Gy8AjOzpmf31MPmDDTIFosFXA&oe=6A90995A"
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/783351952_18333266812286000_5641178925012753261_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=Mzk2OTc4ODc5NzEyMjA4OTYzOTE4MzMzMjY2ODA5Mjg2MDAw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjk5MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=9lR7Ils8dgUQ7kNvwFvkoGw&_nc_oc=AdryYTXc13d2CtZVuefcQtKrH3XYKeUOeL8L4uVfGWkYramzJqLIf1vMRBm0yRqcmfY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=ZSBCnZScGT6wspTkD6ee6A&_nc_ss=7a22e&oh=00_AQJ_CEp5CdYjsltbBuebk39AUC7ZnI7tgejomGXvB0lafQ&oe=6A9B255A"
       ],
       "videos": [
-        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQMVYZWMj19Od51UqlL8qioELnVEiypt_GD2sx5HAYta2MQtVpLOosXTJB8E-57Ir8pIgaleV53SLDJMYsCBlEBdSfOEyCEd-PWhzfA.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=PQ-BFYOpk34Q7kNvwF-33OI&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTQyNDg5MDA2OTUyNjI3OCwiYXNzZXRfYWdlX2RheXMiOjAsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoyMzksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=bbdd5b26340f1164&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9GMTQ1RjBCM0NDNjQ5NzAzMUE2QTAzRjZCQTI4M0NBOV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0EyNENFQkIwNTc4MjIzNTM2MkYyOENBMzkxOTgyRUIxX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaMnIGnwvuHBRUCKAJDMywXQG3xDlYEGJMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=Jg9Wy_Ig4fLd2qvHHsRigg&_nc_zt=28&_nc_ss=7a22e&oh=00_AQG9PEbxKzjgHCXsEkW4yZ-_ycRLnXLyGRJhrvIG_3ZWHA&oe=6A8CBF47"
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m86/AQMVYZWMj19Od51UqlL8qioELnVEiypt_GD2sx5HAYta2MQtVpLOosXTJB8E-57Ir8pIgaleV53SLDJMYsCBlEBdSfOEyCEd-PWhzfA.mp4?_nc_cat=106&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=bd7doWaF_T0Q7kNvwGQBcuk&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTQyNDg5MDA2OTUyNjI3OCwiYXNzZXRfYWdlX2RheXMiOjgsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoyMzksInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=bbdd5b26340f1164&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9GMTQ1RjBCM0NDNjQ5NzAzMUE2QTAzRjZCQTI4M0NBOV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0EyNENFQkIwNTc4MjIzNTM2MkYyOENBMzkxOTgyRUIxX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaMnIGnwvuHBRUCKAJDMywXQG3xDlYEGJMYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=ZSBCnZScGT6wspTkD6ee6A&_nc_zt=28&_nc_ss=7a22e&oh=00_AQJgrUTpFEH5NYDVF1nUD0IXQT2MjddtcWvv1sLzO7EeLg&oe=6A971307"
       ],
-      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/783351952_18333266812286000_5641178925012753261_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=Mzk2OTc4ODc5NzEyMjA4OTYzOTE4MzMzMjY2ODA5Mjg2MDAw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjk5MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=2B6nAjDusRkQ7kNvwEg5H4G&_nc_oc=AdqHUaldhWJjHtrJ9xqZenBxrzMj-z_MtXfP3rn7ugbg17lVuWc7KeSD6Ln9gbHm3aQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Jg9Wy_Ig4fLd2qvHHsRigg&_nc_ss=7a22e&oh=00_AQErH6hzI6x7EFM5wits3Gy8AjOzpmf31MPmDDTIFosFXA&oe=6A90995A",
-      "image_url": "/assets/feed-images/20fcba381e4564adc935.webp",
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/783351952_18333266812286000_5641178925012753261_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=Mzk2OTc4ODc5NzEyMjA4OTYzOTE4MzMzMjY2ODA5Mjg2MDAw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjk5MC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=9lR7Ils8dgUQ7kNvwFvkoGw&_nc_oc=AdryYTXc13d2CtZVuefcQtKrH3XYKeUOeL8L4uVfGWkYramzJqLIf1vMRBm0yRqcmfY&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=ZSBCnZScGT6wspTkD6ee6A&_nc_ss=7a22e&oh=00_AQJ_CEp5CdYjsltbBuebk39AUC7ZnI7tgejomGXvB0lafQ&oe=6A9B255A",
+      "image_url": "/assets/feed-images/4299ba5ed52a5995d28d.webp",
       "image_width": 800,
       "image_height": 1416,
-      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/774126203_18331737505286000_6539251190615861446_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby44NTYuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gHi5c4bmocaK1BvAs23BkQseAXeJJSAXkbaz0msPa20R4v5M44t19qswbAJED8549M&_nc_ohc=FXYA-Bs61L8Q7kNvwFZIyhX&_nc_gid=SLmFYeIk8JnjkYiVvHAh9w&edm=ACWDqb8BAAAA&ccb=7-5&oh=00_AQG_qrTJGs7nR_LAtHpJt2djlefTdYUb5zpYyHmlTltY8A&oe=6A90A647&_nc_sid=ee9879",
-      "avatar_url": "/assets/source-avatars/201c3ab4d6a95d274785.webp",
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/333869905_3392763177657792_980354517331921831_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=100&_nc_oc=Q6cZ2gF_30eCg1Hy3nSAhpc4rpfmCyTSB8UreCbr2RWl0NuRP_cOUqfhYde5dVpm0_gQaDo&_nc_ohc=sYoRTtbQviUQ7kNvwE5Td4w&_nc_gid=ZHqm1qLFsAY-HvIEruhUSA&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AQBdJ9nX_KzPfkNhpjMxUUc88F7WIyyfUGugRvWHu2UCgA&oe=6A5483F4&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/7f40e1c49d0c7a605d2b.webp",
       "source_initials": "巴巴",
       "categories": [
         "posts-videos",
@@ -7745,7 +7754,7 @@
         "貼文影片",
         "公開活動"
       ],
-      "key": "ig_baba_harmonica_studio:https://www.instagram.com/p/DcXheDNyZKn/"
+      "key": "ig_baba_harmonica_studio:3969788797122089639"
     },
     {
       "title": "衛武營國家藝術文化中心｜¶ 從古巴出發，爵士樂如何成為「自由」的聲音？ ​ 1949年出生於古巴的阿圖羅・山多瓦，從拉丁節奏出發，走上世界爵士舞台。與爵士傳奇迪吉・葛拉斯彼相遇後，他將古巴音樂、咆勃爵士、古典音樂與搖滾能量交織，形成獨特的…",
@@ -8189,6 +8198,81 @@
         "公開活動"
       ],
       "key": "fb_weiwuyingcenterforthearts:1555566419694706"
+    },
+    {
+      "title": "Gregoire Maret｜@barga_jazz_festival 🎵✨ tonight and tomorrow ! #italy🇮🇹❤️ #harmonica #harmonicalovers #steviewondertribu…",
+      "headline": "@barga_jazz_festival 🎵✨ tonight and tomorrow !",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DcWAnzujT1-/",
+      "source_id": "ig_gregoiremaret",
+      "source": "Gregoire Maret",
+      "source_system_name": "Gregoire Maret",
+      "source_profile_url": "https://www.instagram.com/gregoiremaret/",
+      "country": "瑞士",
+      "region": "美國",
+      "directory_entry_id": "watchlist-140",
+      "directory_entry_name": "Gregoire Maret",
+      "account": "gregoiremaret",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "2026-08-22T13:22:27+00:00",
+      "posted_at_local": "2026-08-22 21:22",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-31T09:47:15.714273+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://www.instagram.com/gregoiremaret/",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.92,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "演出"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "口琴演奏者 Gregoire Maret 的公開演出貼文，屬口琴相關更新。",
+      "text": "@barga_jazz_festival 🎵✨ tonight and tomorrow !\n#italy🇮🇹❤️ #harmonica #harmonicalovers #steviewondertribute #barga",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/784541186_18615641503019303_5900402818968414247_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=106&ig_cache_key=Mzk2OTM2MTA2Njk5MDE1MjEyOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=UtFFSCSnAxYQ7kNvwGenEDt&_nc_oc=AdqqYjBgwm1fIIas_bto-zxIuH2sd6xzLGfxnDoNKx1FsllOWoukq4cFnVW2EsvgjyQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=KVqMrjj8lesZa6UhzyIEAQ&_nc_ss=7a22e&oh=00_AQL9YCFz_h39OPowQ7shziJru7Q1azP0ck4EFei94ZqrJQ&oe=6A9B2E9B"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/784541186_18615641503019303_5900402818968414247_n.jpg?stp=dst-jpegr_e35_p1080x1080_tt6&_nc_cat=106&ig_cache_key=Mzk2OTM2MTA2Njk5MDE1MjEyOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMzA3Mi5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=UtFFSCSnAxYQ7kNvwGenEDt&_nc_oc=AdqqYjBgwm1fIIas_bto-zxIuH2sd6xzLGfxnDoNKx1FsllOWoukq4cFnVW2EsvgjyQ&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=KVqMrjj8lesZa6UhzyIEAQ&_nc_ss=7a22e&oh=00_AQL9YCFz_h39OPowQ7shziJru7Q1azP0ck4EFei94ZqrJQ&oe=6A9B2E9B",
+      "image_url": "/assets/feed-images/758ef3803dab99469ab2.webp",
+      "image_width": 800,
+      "image_height": 1067,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-19/530547980_18518029657019303_4214047186638286350_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=111&_nc_oc=Q6cZ2gGkJGycHgFk3EiYZDf2fbztkPaTTzKdDf1pPruBT-AqrovMWmewhUdrwEq0hOZndzA&_nc_ohc=auNvfIu12jUQ7kNvwE3EVOe&_nc_gid=zHlWzReXszX5PJlXOlviQg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af9xrHuF_JlUW9JFtyiQfi2ooEzEdprrRx62VvDK1hDfIQ&oe=6A44B169&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/e781a4f4250a052d9036.webp",
+      "source_initials": "GM",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_gregoiremaret:3969362857175104894"
     },
     {
       "title": "臺中國家歌劇院｜🧐《信仰、金錢、戰爭與愛》5個必看理由！ 這齣世界級史詩鉅作，2024年德國柏林首演後，僅在漢堡及波蘭國際藝術節演出過。亞洲首演即將在11月來到臺中！ 5大必看理由，千萬不可錯過： 1️⃣國際劇場兩大巨擘首度聯手 ♦️被譽…",
@@ -17293,6 +17377,85 @@
         "公開活動"
       ],
       "key": "yt_ckhc3423:gMD2fvMg9nQ"
+    },
+    {
+      "title": "布宜諾斯艾利斯口琴學校｜☝️Últimos lugares disponibles! Taller presencial en el barrio de Villa Urquiza (CABA) 📍 🗓️4 encuentros dura…",
+      "headline": "☝️Últimos lugares disponibles!",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DcB3uAyRYsd/",
+      "source_id": "ig_escueladearmonicaba",
+      "source": "布宜諾斯艾利斯口琴學校",
+      "source_system_name": "布宜諾斯艾利斯口琴學校",
+      "source_profile_url": "https://www.instagram.com/escueladearmonicaba/",
+      "country": "阿根廷",
+      "region": "阿根廷/布宜諾斯艾利斯/Chacarita",
+      "directory_entry_id": "watchlist-182",
+      "directory_entry_name": "布宜諾斯艾利斯口琴學校",
+      "account": "escueladearmonicaba",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "2026-08-14T17:39:53+00:00",
+      "posted_at_local": "2026-08-15 01:39",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-31T09:47:15.714273+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://www.instagram.com/escueladearmonicaba/",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "課程",
+        "報名"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "課程",
+        "報名"
+      ],
+      "llm_categories": [
+        "opportunities"
+      ],
+      "llm_reason": "貼文為口琴實體工作坊，提到名額有限並邀請報名參加，屬口琴課程/招生資訊。",
+      "text": "☝️Últimos lugares disponibles!\nTaller presencial en el barrio de Villa Urquiza (CABA) 📍\n🗓️4 encuentros durante septiembre, todos los sábados del mes\n🎵Trae tu armónica y sumate al ensamble!\nComenta \"info\" y te paso el resto de la data, no te cuelgues!\n#harmonijka #harmonica #armonica #bluesharmonica #bluesharp",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/774025933_18189395143393861_1474889265517470798_n.webp?_nc_cat=105&ig_cache_key=Mzk2MzY5NDIwMTU2MDIwNjEwOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=I82_lE323cwQ7kNvwGDf8uI&_nc_oc=AdoMZ4I7qi33rSeLLCP7uDZDv7WMyKLDPua_YIbt2qoto_hH5XbreWVs7O4ehhIHTNo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=RqU4KGeyw1SlnMlLgDbqWg&_nc_ss=7a22e&oh=00_AQL1695hP8cxDQgsyjov8EwzM6QdxY-WurU8tKOjAS2xfA&oe=6A9B0737"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/774025933_18189395143393861_1474889265517470798_n.webp?_nc_cat=105&ig_cache_key=Mzk2MzY5NDIwMTU2MDIwNjEwOQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=I82_lE323cwQ7kNvwGDf8uI&_nc_oc=AdoMZ4I7qi33rSeLLCP7uDZDv7WMyKLDPua_YIbt2qoto_hH5XbreWVs7O4ehhIHTNo&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=RqU4KGeyw1SlnMlLgDbqWg&_nc_ss=7a22e&oh=00_AQL1695hP8cxDQgsyjov8EwzM6QdxY-WurU8tKOjAS2xfA&oe=6A9B0737",
+      "image_url": "/assets/feed-images/7e868e67542562aa3c88.webp",
+      "image_width": 1080,
+      "image_height": 1440,
+      "source_avatar_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/273638108_955835388373389_563061302597689270_n.jpg?stp=dst-jpg_tt6&cstp=mx958x957&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BHQu_vbdGvAQ7kNvwFJ3N9M&_nc_oc=Adog13gTeKgw0fbpn4Ct2ck1FbRDAF35N8l6-neisBrssoS489jrHGBoAtPOhRJ0K9k&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=dHxy0CgD4HZRF53ZYQmz5w&_nc_ss=7b20f&oh=00_Af_3agslomGNnyAyvaMy4NH05WtGQ3c-WF8UdcLdCHralg&oe=6A45B247",
+      "avatar_url": "/assets/source-avatars/366a640dbf5d578f7a11.webp",
+      "source_initials": "布宜",
+      "categories": [
+        "posts-videos",
+        "opportunities",
+        "events",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽",
+        "公開活動",
+        "學生社團"
+      ],
+      "key": "ig_escueladearmonicaba:3963694201560206109"
     },
     {
       "title": "Steffi Leung 梁芷菁｜✦.* 2026 臺灣口琴音樂節 Korean TRAD. (Arr. Jongseong PARK) Bird, Blue Bird 韓國傳統樂曲（朴鍾聲編）《青鳥莫棲綠豆田》 再次感謝臺灣口琴音樂節 …",
@@ -42349,6 +42512,83 @@
         "公開活動"
       ],
       "key": "fb_yellowpineharmonicafestival:1381662944163966"
+    },
+    {
+      "title": "布宜諾斯艾利斯口琴學校｜Nuevo taller de orquesta de armonicas en SEPTIEMBRE! 📍Presencial en CABA Si te quedaste con ganas del anter…",
+      "headline": "Nuevo taller de orquesta de armonicas en SEPTIEMBRE!",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/DbtuPLIvzOM/",
+      "source_id": "ig_escueladearmonicaba",
+      "source": "布宜諾斯艾利斯口琴學校",
+      "source_system_name": "布宜諾斯艾利斯口琴學校",
+      "source_profile_url": "https://www.instagram.com/escueladearmonicaba/",
+      "country": "阿根廷",
+      "region": "阿根廷/布宜諾斯艾利斯/Chacarita",
+      "directory_entry_id": "watchlist-182",
+      "directory_entry_name": "布宜諾斯艾利斯口琴學校",
+      "account": "escueladearmonicaba",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "2026-08-06T21:53:22+00:00",
+      "posted_at_local": "2026-08-07 05:53",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-31T09:47:15.714273+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://www.instagram.com/escueladearmonicaba/",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "課程",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.95,
+      "llm_labels": [
+        "課程",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "opportunities"
+      ],
+      "llm_reason": "口琴學校公告九月新開口琴樂團工作坊，屬課程/招生性質的公開更新。",
+      "text": "Nuevo taller de orquesta de armonicas en SEPTIEMBRE!\n📍Presencial en CABA\nSi te quedaste con ganas del anterior, comenta \"INFO\" y te paso toda la data por privado!\n#harmonica #armónica #armonica #bluesharp #lavelapuerca #harmonijka #mundharmonika",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/767222127_18188592763393861_7540566646204254386_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=Mzk1ODAyMzAwMDQxODEwNDIwNDE4MTg4NTkyNzU3MzkzODYx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=LjnYBmkHUyUQ7kNvwENRbnL&_nc_oc=AdpO875gN3OT97Z_SUxb2DqGfcAyVAn3L8ujgKfQeRGENeymjXjpvwiOInruEZdQdJg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=RqU4KGeyw1SlnMlLgDbqWg&_nc_ss=7a22e&oh=00_AQLkoUdyqS-L0Bw2sbC-vvcW8j1HnMioMm5DthUcWzPhIA&oe=6A9B291F"
+      ],
+      "videos": [
+        "https://scontent-tpe5-1.cdninstagram.com/o1/v/t2/f2/m86/AQO9jmdU80jW9mIn8nml9RBKx7pWRHPrGP4GkyddBI2Fcs-y4Wd8lK57VhQ6pjHbghywpIbqO6xjDzpjet7PC2LlaVQMkkieHQIZPzk.mp4?_nc_cat=102&_nc_sid=5e9851&_nc_ht=scontent-tpe5-1.cdninstagram.com&_nc_ohc=dZDeHOMI3qsQ7kNvwHrE-NR&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MTU4NTA4MDg3OTY5MzQzMiwiYXNzZXRfYWdlX2RheXMiOjI0LCJ2aV91c2VjYXNlX2lkIjoxMDA5OSwiZHVyYXRpb25fcyI6NTgsInVybGdlbl9zb3VyY2UiOiJ3d3cifQ%3D%3D&ccb=17-1&vs=e344da31a85fa8ee&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC9GNDQ2M0YwNzU0NzkxNDM0NDkxRTQ1QjFDODFGNzQ5MV92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyL0VDNDQyM0Y0MjA2ODhCMjBDNjJCNzg3RUI5NDMwNEE2X2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACbw-bHs7OfQBRUCKAJDMywXQE1iDEm6XjUYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=RqU4KGeyw1SlnMlLgDbqWg&_nc_ss=7a22e&_nc_zt=28&oh=00_AQKlXvANpVGqa9FZoXPiSUIShL8E4bkz84kTg1KKZ0GEeQ&oe=6A972D83"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/767222127_18188592763393861_7540566646204254386_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=100&ig_cache_key=Mzk1ODAyMzAwMDQxODEwNDIwNDE4MTg4NTkyNzU3MzkzODYx.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEwODAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuQzMifQ%3D%3D&_nc_ohc=LjnYBmkHUyUQ7kNvwENRbnL&_nc_oc=AdpO875gN3OT97Z_SUxb2DqGfcAyVAn3L8ujgKfQeRGENeymjXjpvwiOInruEZdQdJg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=RqU4KGeyw1SlnMlLgDbqWg&_nc_ss=7a22e&oh=00_AQLkoUdyqS-L0Bw2sbC-vvcW8j1HnMioMm5DthUcWzPhIA&oe=6A9B291F",
+      "image_url": "/assets/feed-images/494363fa8250bdaee93a.webp",
+      "image_width": 800,
+      "image_height": 1423,
+      "source_avatar_url": "https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-1/273638108_955835388373389_563061302597689270_n.jpg?stp=dst-jpg_tt6&cstp=mx958x957&ctp=s720x720&_nc_cat=102&ccb=1-7&_nc_sid=3ab345&_nc_ohc=BHQu_vbdGvAQ7kNvwFJ3N9M&_nc_oc=Adog13gTeKgw0fbpn4Ct2ck1FbRDAF35N8l6-neisBrssoS489jrHGBoAtPOhRJ0K9k&_nc_zt=24&_nc_ht=scontent-tpe1-1.xx&_nc_gid=dHxy0CgD4HZRF53ZYQmz5w&_nc_ss=7b20f&oh=00_Af_3agslomGNnyAyvaMy4NH05WtGQ3c-WF8UdcLdCHralg&oe=6A45B247",
+      "avatar_url": "/assets/source-avatars/c5848c89949bd0100c62.webp",
+      "source_initials": "布宜",
+      "categories": [
+        "posts-videos",
+        "opportunities",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "補助比賽",
+        "公開活動"
+      ],
+      "key": "ig_escueladearmonicaba:3958023000418104204"
     },
     {
       "title": "TARO SENGA｜말하듯이 감정을 싣고 연주하라는데 평소 무덤덤, 노관심 ‘아 그렇구나’ 장인 T 98% Intp로서 감정을 싣고 연주하기 시작하니 칠가이 연주만 나옵니다..",

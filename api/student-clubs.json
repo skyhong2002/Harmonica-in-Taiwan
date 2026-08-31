@@ -7,8 +7,166 @@
   "rss": "https://harmonica.observe.tw/feeds/student-clubs.xml",
   "json": "https://harmonica.observe.tw/api/student-clubs.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/student-clubs.json",
-  "count": 258,
+  "count": 260,
   "items": [
+    {
+      "title": "高醫萌風口琴社｜Instagram story @kmu.m.f.harmonica",
+      "headline": "Instagram story @kmu.m.f.harmonica",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/kmu.m.f.harmonica/3975634738039723172/",
+      "source_id": "ig_story_kmu_m_f_harmonica",
+      "source": "高醫萌風口琴社",
+      "source_system_name": "高醫萌風口琴社",
+      "source_profile_url": "https://www.instagram.com/kmu.m.f.harmonica/",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "directory_entry_id": "watchlist-232",
+      "directory_entry_name": "高醫萌風口琴社",
+      "account": "kmu.m.f.harmonica",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-08-31T05:03:32+00:00",
+      "posted_at_local": "2026-08-31 13:03",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-31T09:47:15.714273+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "instaloader",
+      "story_fetched_at": "2026-08-31T09:46:11.785016+00:00",
+      "story_expires_at": "2026-09-01T05:03:32+00:00",
+      "source_feed_url": "https://www.instagram.com/kmu.m.f.harmonica/",
+      "rsshub_guid": "3975634738039723172",
+      "rsshub_title": "Instagram story @kmu.m.f.harmonica",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "限時動態",
+        "學生社團"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.98,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "限時動態",
+        "學生社團"
+      ],
+      "llm_categories": [
+        "student-clubs"
+      ],
+      "llm_reason": "來源為高醫口琴社 Instagram 限動，屬口琴社團公開更新。",
+      "text": "Instagram story @kmu.m.f.harmonica",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/790208672_1075156985377880_8460028028607101724_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gHrxkPPsa2AhDUbxeD_I0KgFu_FieDMigTH_p0qM43qw3MBBT5n9x_lDc6Y07k-Vqo&_nc_ohc=DnQb6UM7s7UQ7kNvwFdpgaK&_nc_gid=a42LXyyuoTq0W_OPSYlxaA&edm=AHlfZHwBAAAA&ccb=7-5&oh=00_AQK0L9ZbOy89bLNhVJ3CB0_nf15xFeCmsbW88Sk_zS6qyA&oe=6A9B156A&_nc_sid=d8d02b"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m78/AQNgJZQhSj765XAgUkNnFUsIqU-65zDPRSEnvBHMlgsHXFN5_USmiNBORy75vqMk2DPfwyQcWbeLXcwUoviiD1X_bwFp94YkwoySMzc.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=7J3P4r9IOzwQ7kNvwFXpdxw&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uU1RPUlkuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjgwNTM5MDE4MTc2MDM3NDIsImFzc2V0X2FnZV9kYXlzIjowLCJ2aV91c2VjYXNlX2lkIjoxMDEwMCwiZHVyYXRpb25fcyI6MSwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=15531013e3d96de2&_nc_vs=HBksFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzQ4NDZFQTJEMDZENjM3RTBDMzA5Q0EyOEIxMjgzOUI4X3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhRaWdfeHB2X3BsYWNlbWVudF9wZXJtYW5lbnRfdjIvMTM0MzA1OTU5QUQzQUEzMkRBNTBDMjIwMTZDNTFEODRfYXVkaW9fZGFzaGluaXQubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJryat8aAuNVjFQIoAkMzLBc_9wo9cKPXChgSZGFzaF9iYXNlbGluZV8xX3YxEQB16Adl6J0BAA&_nc_gid=a42LXyyuoTq0W_OPSYlxaA&_nc_ss=7a22e&_nc_zt=28&oh=00_AQIjaU1fj7dG-TQU7Wz9Ok7KDP-LKrlX-fcxu46zIMMkDQ&oe=6A973999"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/790208672_1075156985377880_8460028028607101724_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=108&_nc_oc=Q6cZ2gHrxkPPsa2AhDUbxeD_I0KgFu_FieDMigTH_p0qM43qw3MBBT5n9x_lDc6Y07k-Vqo&_nc_ohc=DnQb6UM7s7UQ7kNvwFdpgaK&_nc_gid=a42LXyyuoTq0W_OPSYlxaA&edm=AHlfZHwBAAAA&ccb=7-5&oh=00_AQK0L9ZbOy89bLNhVJ3CB0_nf15xFeCmsbW88Sk_zS6qyA&oe=6A9B156A&_nc_sid=d8d02b",
+      "image_url": "/assets/feed-images/b4a4a99977ded9a5ad5f.webp",
+      "image_width": 640,
+      "image_height": 1136,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/333089374_729826035473597_8481450842248851645_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy43MjAuQzMifQ%3D%3D&_nc_ohc=Z1lQVm2BglEQ7kNvwFamfIK&_nc_oc=AdqV3NSd7IeVxJRY9YJHfanG2Smp2uNLDU8jGknB13KO0StzqCjYck_qQihBYXKlVvU&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=78689&oh=00_AQGIOG33xUOZ2LEK3IFG8GC_bEzTo0P83zb-iMYEXmBP9Q&oe=6A8BBB84",
+      "avatar_url": "/assets/source-avatars/cd14a69c301982d7ac39.webp",
+      "source_initials": "高醫",
+      "categories": [
+        "posts-videos",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "學生社團"
+      ],
+      "key": "ig_story_kmu_m_f_harmonica:3975634738039723172"
+    },
+    {
+      "title": "高醫萌風口琴社｜Instagram story @kmu.m.f.harmonica",
+      "headline": "Instagram story @kmu.m.f.harmonica",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/stories/kmu.m.f.harmonica/3975633516188637191/",
+      "source_id": "ig_story_kmu_m_f_harmonica",
+      "source": "高醫萌風口琴社",
+      "source_system_name": "高醫萌風口琴社",
+      "source_profile_url": "https://www.instagram.com/kmu.m.f.harmonica/",
+      "country": "臺灣",
+      "region": "臺灣/高雄",
+      "directory_entry_id": "watchlist-232",
+      "directory_entry_name": "高醫萌風口琴社",
+      "account": "kmu.m.f.harmonica",
+      "platform": "instagram",
+      "platform_label": "Instagram story",
+      "posted_at": "2026-08-31T05:01:03+00:00",
+      "posted_at_local": "2026-08-31 13:01",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-08-31T09:47:15.714273+00:00",
+      "media_type": "instagram_story",
+      "story": true,
+      "story_provider": "instaloader",
+      "story_fetched_at": "2026-08-31T09:46:11.785016+00:00",
+      "story_expires_at": "2026-09-01T05:01:03+00:00",
+      "source_feed_url": "https://www.instagram.com/kmu.m.f.harmonica/",
+      "rsshub_guid": "3975633516188637191",
+      "rsshub_title": "Instagram story @kmu.m.f.harmonica",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新",
+        "限時動態",
+        "學生社團"
+      ],
+      "keyword_matches": [
+        "harmonica"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.93,
+      "llm_labels": [
+        "口琴",
+        "公開更新",
+        "限時動態",
+        "學生社團"
+      ],
+      "llm_categories": [
+        "student-clubs"
+      ],
+      "llm_reason": "來源為高醫萌風口琴社的 Instagram 限時動態，屬口琴社團公開更新，相關。",
+      "text": "Instagram story @kmu.m.f.harmonica",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/791044237_1812939103202610_4175689040258640347_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gHrxkPPsa2AhDUbxeD_I0KgFu_FieDMigTH_p0qM43qw3MBBT5n9x_lDc6Y07k-Vqo&_nc_ohc=YL5qu5RbC9YQ7kNvwFvebor&_nc_gid=a42LXyyuoTq0W_OPSYlxaA&edm=AHlfZHwBAAAA&ccb=7-5&oh=00_AQIFH7Tn5Ll7bP2QQs4jrs9OK_H1AszQbJAHOvu6EXgGQQ&oe=6A9B1A8C&_nc_sid=d8d02b"
+      ],
+      "videos": [
+        "https://scontent-tpe1-1.cdninstagram.com/o1/v/t2/f2/m78/AQM1ktKdf0y_WfK7So5lmUOgwGtaf5dAvS-EraG7vcseT8TLETwF41PZ8qkTnz4XRNelRsQvruo4nxP-dh2QaJiDyzd8o9pgZnWGDB4.mp4?_nc_cat=100&_nc_sid=5e9851&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ohc=DfNmpz0pCSIQ7kNvwEhyr5z&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uU1RPUlkuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6OTExNDI5NDAxNjYzNDQyLCJhc3NldF9hZ2VfZGF5cyI6MCwidmlfdXNlY2FzZV9pZCI6MTAxMDAsImR1cmF0aW9uX3MiOjEwLCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=a990b859d0e6a4aa&_nc_vs=HBksFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzlCNDUzQTE0NTk2N0RFQTQwMTBGM0I2MzU3MkMyNUI5X3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhRaWdfeHB2X3BsYWNlbWVudF9wZXJtYW5lbnRfdjIvQkI0NDhDODc4QzQ5OTVFODFEOUNEQjdBQjg0MUI3OTdfYXVkaW9fZGFzaGluaXQubXA0FQICyAESACgAGAAbAogHdXNlX29pbAExEnByb2dyZXNzaXZlX3JlY2lwZQExFQAAJqTfypuWvJ4DFQIoAkMzLBdAJI5WBBiTdRgSZGFzaF9iYXNlbGluZV8xX3YxEQB16Adl6J0BAA&_nc_gid=a42LXyyuoTq0W_OPSYlxaA&_nc_zt=28&_nc_ss=7a22e&oh=00_AQIN98zNboeQiyCFwzGUUkMzrJQdknBDXx9xqiNiCrY4Wg&oe=6A971031"
+      ],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.71878-15/791044237_1812939103202610_4175689040258640347_n.jpg?stp=dst-jpg_e15_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi42NDAuc2RyLnZpZGVvX2RlZmF1bHRfY292ZXJfZnJhbWUuYzIifQ&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=106&_nc_oc=Q6cZ2gHrxkPPsa2AhDUbxeD_I0KgFu_FieDMigTH_p0qM43qw3MBBT5n9x_lDc6Y07k-Vqo&_nc_ohc=YL5qu5RbC9YQ7kNvwFvebor&_nc_gid=a42LXyyuoTq0W_OPSYlxaA&edm=AHlfZHwBAAAA&ccb=7-5&oh=00_AQIFH7Tn5Ll7bP2QQs4jrs9OK_H1AszQbJAHOvu6EXgGQQ&oe=6A9B1A8C&_nc_sid=d8d02b",
+      "image_url": "/assets/feed-images/cdf04394ae49ea6dd11e.webp",
+      "image_width": 640,
+      "image_height": 1136,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/333089374_729826035473597_8481450842248851645_n.jpg?stp=dst-jpg_s100x100_tt6&_nc_cat=100&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy43MjAuQzMifQ%3D%3D&_nc_ohc=Z1lQVm2BglEQ7kNvwFamfIK&_nc_oc=AdqV3NSd7IeVxJRY9YJHfanG2Smp2uNLDU8jGknB13KO0StzqCjYck_qQihBYXKlVvU&_nc_zt=24&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_ss=78689&oh=00_AQGIOG33xUOZ2LEK3IFG8GC_bEzTo0P83zb-iMYEXmBP9Q&oe=6A8BBB84",
+      "avatar_url": "/assets/source-avatars/cd14a69c301982d7ac39.webp",
+      "source_initials": "高醫",
+      "categories": [
+        "posts-videos",
+        "student-clubs"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "學生社團"
+      ],
+      "key": "ig_story_kmu_m_f_harmonica:3975633516188637191"
+    },
     {
       "title": "陽明交大竹韻口琴社｜Instagram story @nycu_harmonica",
       "headline": "Instagram story @nycu_harmonica",
