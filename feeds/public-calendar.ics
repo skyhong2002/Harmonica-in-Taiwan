@@ -7,7 +7,7 @@ X-WR-CALNAME:臺灣口琴實體活動
 X-WR-TIMEZONE:Asia/Taipei
 BEGIN:VEVENT
 UID:20beaf6b38cf0959@harmonica.observe.tw
-DTSTAMP:20260831T030549Z
+DTSTAMP:20260831T040833Z
 DTSTART;TZID=Asia/Taipei:20260711T140000
 DTEND;TZID=Asia/Taipei:20260711T160000
 SUMMARY:口琴入門推廣講座
@@ -21,7 +21,7 @@ URL:https://www.instagram.com/p/DaNlIwyzK9b/
 END:VEVENT
 BEGIN:VEVENT
 UID:88fb7911620b72be@harmonica.observe.tw
-DTSTAMP:20260831T030549Z
+DTSTAMP:20260831T040833Z
 DTSTART;TZID=Asia/Taipei:20260718T193000
 DTEND;TZID=Asia/Taipei:20260718T213000
 SUMMARY:臺灣探戈樂團創團音樂會
@@ -33,7 +33,7 @@ URL:https://www.youtube.com/watch?v=PA11sSFkJeA
 END:VEVENT
 BEGIN:VEVENT
 UID:6670d32764968444@harmonica.observe.tw
-DTSTAMP:20260831T030549Z
+DTSTAMP:20260831T040833Z
 DTSTART;TZID=Asia/Taipei:20260821T183000
 DTEND;TZID=Asia/Taipei:20260821T203000
 SUMMARY:臺中一中口琴之狼校友音樂會《天琴聲等煙雨》
@@ -45,8 +45,34 @@ URL:https://www.facebook.com/tcfsh.harmonica/posts/pfbid026TX9x37qBLk1W7jif
  1qzR2vfQrhDWpVWSXjmo8mDw9xLn5CHnUEx5PmsZfsebB4Zl
 END:VEVENT
 BEGIN:VEVENT
+UID:3ab38ffc723497bf@harmonica.observe.tw
+DTSTAMP:20260831T040833Z
+DTSTART;TZID=Asia/Taipei:20260902T140000
+DTEND;TZID=Asia/Taipei:20260902T160000
+SUMMARY:同行－生活博覽會
+LOCATION:新竹市 陽明交大光復校區體育館
+DESCRIPTION:主辦／演出者：陽明交大竹韻口琴社。竹韻口琴
+ 社將在陽明交大新生開學典禮「同行－生活博覽會」登
+ 台演出，為復社後首次公開表演。活動時間為 9 月 2 日 1
+ 4:00，演出約 15 分鐘。\nhttps://www.instagram.com/p/DcsJvjTifLf/
+URL:https://www.instagram.com/p/DcsJvjTifLf/
+END:VEVENT
+BEGIN:VEVENT
+UID:62f25a4cea0e888d@harmonica.observe.tw
+DTSTAMP:20260831T040833Z
+DTSTART;TZID=Asia/Taipei:20260909T173000
+DTEND;TZID=Asia/Taipei:20260909T193000
+SUMMARY:社團博覽會口琴攤位活動
+LOCATION:新竹市 社團博覽會攤位 No. 74
+DESCRIPTION:主辦／演出者：陽明交大竹韻口琴社。9/9（三）
+ 17:30–22:00 於社團博覽會設攤，現場有口琴攤位演出與快
+ 閃表演。歡迎想認識口琴、交朋友的同學前來同樂。\nhtt
+ ps://www.instagram.com/p/DcqTtsSFGYB/
+URL:https://www.instagram.com/p/DcqTtsSFGYB/
+END:VEVENT
+BEGIN:VEVENT
 UID:248d51bb52af1f32@harmonica.observe.tw
-DTSTAMP:20260831T030549Z
+DTSTAMP:20260831T040833Z
 DTSTART;TZID=Asia/Taipei:20260912T193000
 DTEND;TZID=Asia/Taipei:20260912T213000
 SUMMARY:聽說口琴音樂故事
@@ -62,7 +88,7 @@ URL:https://www.facebook.com/SiriusHarp/posts/pfbid04D3UFMgrnEq7vWc8p4LB6jF
 END:VEVENT
 BEGIN:VEVENT
 UID:d8cd144edb7b64bd@harmonica.observe.tw
-DTSTAMP:20260831T030549Z
+DTSTAMP:20260831T040833Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:中研院藝文活動 - 胖擊口琴樂團：口琴重奏音樂分
@@ -76,7 +102,7 @@ URL:https://www.instagram.com/p/DcOP0--vMVW/
 END:VEVENT
 BEGIN:VEVENT
 UID:291301f51a921d0b@harmonica.observe.tw
-DTSTAMP:20260831T030549Z
+DTSTAMP:20260831T040833Z
 DTSTART;TZID=Asia/Taipei:20260923T193000
 DTEND;TZID=Asia/Taipei:20260923T213000
 SUMMARY:Cy Leo《兩界一心》
@@ -92,7 +118,7 @@ URL:https://www.facebook.com/SiriusHarp/posts/pfbid0SuTkaKGDM36B1GizNwChHhc
 END:VEVENT
 BEGIN:VEVENT
 UID:98cb2a4f086a3092@harmonica.observe.tw
-DTSTAMP:20260831T030549Z
+DTSTAMP:20260831T040833Z
 DTSTART;TZID=Asia/Taipei:20261209T200000
 DTEND;TZID=Asia/Taipei:20261209T210000
 SUMMARY:【衛武營小時光】茱蒂口琴樂團《跟著口琴去旅行

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T03:05:46.067867Z",
+  "generatedAt": "2026-08-31T04:08:25.653298Z",
   "source": {
     "id": 79,
     "slug": "79",
@@ -144,20 +144,6 @@
       "publishedAt": "2026-08-06T00:12:01Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/78c977a224bf1f87ecab.webp",
-        "width": 800,
-        "height": 450
-      }
-    },
-    {
-      "id": "post-e6b6778dd2dd347ae75f1e70",
-      "title": "2026秋天藝術節預告｜2026 Artquake In Autumn Festival CF",
-      "excerpt": "2026秋天藝術節預告｜2026 Artquake In Autumn Festival CF 「你看，一切就像是從這裡開始的……」 ​ 前 𝟹𝟶 秒的喃喃旁白，引領我們步入未知的迷霧； 後 𝟹𝟶 秒巴奈歌聲響起，縫補起土地與歸屬的記憶 ​ 𝟪 檔跨國作品 × 𝟹𝟶 場演出 今年秋天概念 CF 再次邀請剪輯師李曜辰操刀 用畫面與聲音，正式掀開這趟林中尋路的序幕 ​ ▸ 點開影片，讓我們為你講述 所有走進作品裡的人，他們的故事 ᯓ⛟⎽؄ ↟𖠰˚𖤣ᨒ↟𖠰𖥧˚ᯓ 𝟸𝟶𝟸𝟼 #秋天藝術節 𝟷𝟶.𝟸𝟸 ─ 𝟷𝟷.𝟸𝟿 林中尋路",
-      "url": "https://www.youtube.com/watch?v=Uoy51h3l_Wo",
-      "sourceName": "國家兩廳院",
-      "platform": "YouTube",
-      "publishedAt": "2026-08-01T04:00:11Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/84c50f9ac928536322ce.webp",
         "width": 800,
         "height": 450
       }

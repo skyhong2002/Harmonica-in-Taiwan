@@ -1,9 +1,9 @@
 window.publicCalendarEvents = {
   "version": 2,
-  "generatedAt": "2026-08-31T11:05:49+08:00",
+  "generatedAt": "2026-08-31T12:08:28+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "taiwan_physical",
-  "count": 7,
+  "count": 9,
   "source": "/api/events.json",
   "ics": "/feeds/public-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,7 +14,7 @@ window.publicCalendarEvents = {
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
+      "requests": 2,
       "cached": 20,
       "errors": 0
     }
@@ -130,6 +130,78 @@ window.publicCalendarEvents = {
         "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-6/736921370_1546041260866287_3590465714306944280_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x500&ctp=s1200x500&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Snb5y5-ibAwQ7kNvwFpj7pO&_nc_oc=AdonLbu3ItPejPFxit3hf_Y3N2YaDYUcvRU3h74D4v0ryLmRV_GMt9PLGF4j3UIowkg&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=GyYaZsWIBdifSFV3V4iExw&_nc_ss=72289&oh=00_AQD9YvoYz2mvfVWCZjYlmjkTowhPfKdnRznmfoho_DVtpA&oe=6A4DA8CB"
       ],
       "image_url": "https://scontent-atl3-3.xx.fbcdn.net/v/t39.30808-6/736921370_1546041260866287_3590465714306944280_n.jpg?stp=dst-jpg_tt6&cstp=mx1200x500&ctp=s1200x500&_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Snb5y5-ibAwQ7kNvwFpj7pO&_nc_oc=AdonLbu3ItPejPFxit3hf_Y3N2YaDYUcvRU3h74D4v0ryLmRV_GMt9PLGF4j3UIowkg&_nc_zt=23&_nc_ht=scontent-atl3-3.xx&_nc_gid=GyYaZsWIBdifSFV3V4iExw&_nc_ss=72289&oh=00_AQD9YvoYz2mvfVWCZjYlmjkTowhPfKdnRznmfoho_DVtpA&oe=6A4DA8CB"
+    },
+    {
+      "id": "3ab38ffc723497bf",
+      "title": "同行－生活博覽會",
+      "eventName": "同行－生活博覽會",
+      "source": "陽明交大竹韻口琴社",
+      "platform": "instagram",
+      "start": "2026-09-02T14:00:00+08:00",
+      "end": "2026-09-02T16:00:00+08:00",
+      "allDay": false,
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "location": "新竹市 陽明交大光復校區體育館",
+      "venue": "陽明交大光復校區體育館",
+      "city": "新竹市",
+      "details": "主辦／演出者：陽明交大竹韻口琴社。竹韻口琴社將在陽明交大新生開學典禮「同行－生活博覽會」登台演出，為復社後首次公開表演。活動時間為 9 月 2 日 14:00，演出約 15 分鐘。",
+      "evidenceUrl": "https://www.instagram.com/p/DcsJvjTifLf/",
+      "confidence": 0.96,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "同行－生活博覽會",
+        "venue": "陽明交大光復校區體育館",
+        "city": "新竹市",
+        "details": "主辦／演出者：陽明交大竹韻口琴社。竹韻口琴社將在陽明交大新生開學典禮「同行－生活博覽會」登台演出，為復社後首次公開表演。活動時間為 9 月 2 日 14:00，演出約 15 分鐘。",
+        "reason": "貼文明確寫出 9 月 2 日 14:00、地點在陽明交大光復校區體育館，屬臺灣實體口琴公開演出，日期與候選一致。",
+        "confidence": 0.96
+      },
+      "postedAt": "2026-08-31 11:45",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t39.30808-6/790441401_1695094642616079_478250025699466309_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&ig_cache_key=Mzk3NTU5NTQyMTIwNDA4MzQyMw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=L96V-5IyH5gQ7kNvwGUx73L&_nc_oc=Ado5Qns153VA9O_eBjSvyt3WquxrTD7mSd8vyjrGRWdT8R5MTpz0S3Jws-NjPaRNEt0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Sh17TKF2ySQ0JrZSFXfM8w&_nc_ss=7a22e&oh=00_AQJ-7AAoG1a5uclLl3Fw3CSd3NGFGCV255vmJ3ed2YdIqQ&oe=6A9AD3A1"
+      ],
+      "image_url": "/assets/feed-images/3997fcfb150339b35f45.webp"
+    },
+    {
+      "id": "62f25a4cea0e888d",
+      "title": "社團博覽會口琴攤位活動",
+      "eventName": "社團博覽會口琴攤位活動",
+      "source": "陽明交大竹韻口琴社",
+      "platform": "instagram",
+      "start": "2026-09-09T17:30:00+08:00",
+      "end": "2026-09-09T19:30:00+08:00",
+      "allDay": false,
+      "calendarType": "taiwan_physical",
+      "timezone": "Asia/Taipei",
+      "location": "新竹市 社團博覽會攤位 No. 74",
+      "venue": "社團博覽會攤位 No. 74",
+      "city": "新竹市",
+      "details": "主辦／演出者：陽明交大竹韻口琴社。9/9（三）17:30–22:00 於社團博覽會設攤，現場有口琴攤位演出與快閃表演。歡迎想認識口琴、交朋友的同學前來同樂。",
+      "evidenceUrl": "https://www.instagram.com/p/DcqTtsSFGYB/",
+      "confidence": 0.93,
+      "calendarReview": {
+        "include": true,
+        "country": "臺灣",
+        "eventMode": "taiwan_physical",
+        "timezone": "Asia/Taipei",
+        "candidateDateMatches": true,
+        "eventName": "社團博覽會口琴攤位活動",
+        "venue": "社團博覽會攤位 No. 74",
+        "city": "新竹市",
+        "details": "主辦／演出者：陽明交大竹韻口琴社。9/9（三）17:30–22:00 於社團博覽會設攤，現場有口琴攤位演出與快閃表演。歡迎想認識口琴、交朋友的同學前來同樂。",
+        "reason": "貼文明確寫出 9/9 17:30–22:00 的實體攤位活動，地點在陽明交大社團博覽會，屬臺灣校園實體口琴活動。",
+        "confidence": 0.93
+      },
+      "postedAt": "2026-08-30 18:34",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/791532147_18125243263745725_3212169491689356756_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ig_cache_key=Mzk3NTA3NjMyMzkxNjAxNTEwNQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTM3Ny5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=zBJpmgnCUZcQ7kNvwFHLCt-&_nc_oc=Adp6qyWtqR7q2WlUjrzcWtCYd1EzjxHnah80F_iOk_JoSAO0c02-fwUGRGoms93e7Yw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Sh17TKF2ySQ0JrZSFXfM8w&_nc_ss=7a22e&oh=00_AQLKQZFutIaGygtczqmYFtcgd9d5D5L5Al8XDkxYTv1U2g&oe=6A9AC300"
+      ],
+      "image_url": "/assets/feed-images/9e0ad22389b75cdeba00.webp"
     },
     {
       "id": "248d51bb52af1f32",
