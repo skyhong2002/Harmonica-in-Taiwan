@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 31 Aug 2026 06:21:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 06:56:18 +0000</lastBuildDate>
     <item>
       <title>衛武營國家藝術文化中心</title>
       <link>https://www.npac-weiwuying.org/</link>
@@ -16,6 +16,17 @@ Tag：場館平台
 國家：臺灣
 地區：臺灣/高雄
 臺灣的場館資訊來源，提供大型演出場館相關資訊。</description>
+    </item>
+    <item>
+      <title>陽明交大竹韻口琴社</title>
+      <link>https://www.facebook.com/nycubmhc/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/3a59c106034dfcfa</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：學校社團
+Tag：學生社團、大專社團、教學、半音階、複音、重奏
+國家：臺灣
+地區：臺灣/新竹
+臺灣的半音階口琴、複音口琴與重奏與大合奏大學學生社團與演出與人才培育。</description>
     </item>
     <item>
       <title>太平國小口琴隊</title>
@@ -38,17 +49,6 @@ Tag：教學器材、教學、課程、半音階、十孔、重奏
 國家：臺灣
 地區：臺灣/基隆
 臺灣的十孔、半音階與口琴合奏教學單位與社區推廣，關注社區口琴課程、重奏與THMF 2026 熟齡組。</description>
-    </item>
-    <item>
-      <title>陽明交大竹韻口琴社</title>
-      <link>https://www.facebook.com/nycubmhc/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/3a59c106034dfcfa</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：學校社團
-Tag：學生社團、大專社團、教學、半音階、複音、重奏
-國家：臺灣
-地區：臺灣/新竹
-臺灣的半音階口琴、複音口琴與重奏與大合奏大學學生社團與演出與人才培育。</description>
     </item>
     <item>
       <title>鄭州大眾口琴樂團</title>
@@ -236,6 +236,17 @@ Tag：團體樂團、重奏
 國家：臺灣
 地區：臺灣
 臺灣的口琴重奏演出團體，活動脈絡包含青少年室內樂、WHF 2025與張晁滕。</description>
+    </item>
+    <item>
+      <title>Up Side Down</title>
+      <link>https://www.instagram.com/usd_harmonica/</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/0dee41b22b2671c3</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：團體樂團
+Tag：團體樂團、半音階、重奏
+國家：臺灣
+地區：臺灣
+臺灣的半音階口琴、低音口琴與和弦口琴青年演出團體與影音來源，活動脈絡包含大學生新生代五人重奏、陳奕與謝侑恩。</description>
     </item>
     <item>
       <title>蔡明憲</title>
@@ -1677,17 +1688,6 @@ Tag：學生社團、音樂節、半音階、重奏
 國家：臺灣
 地區：臺灣/臺北/文山
 臺灣的半音階口琴、口琴重奏與口琴合奏學校團隊與青少年口琴教育。</description>
-    </item>
-    <item>
-      <title>Up Side Down</title>
-      <link>https://www.instagram.com/usd_harmonica/</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/0dee41b22b2671c3</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：團體樂團
-Tag：團體樂團、半音階、重奏
-國家：臺灣
-地區：臺灣
-臺灣的半音階口琴、低音口琴與和弦口琴青年演出團體與影音來源，活動脈絡包含大學生新生代五人重奏、陳奕與謝侑恩。</description>
     </item>
     <item>
       <title>歐純伶</title>
