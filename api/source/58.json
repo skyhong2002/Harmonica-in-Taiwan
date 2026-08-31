@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T11:57:19.324234Z",
+  "generatedAt": "2026-08-31T17:52:02.517081Z",
   "source": {
     "id": 58,
     "slug": "minami-risa",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/58-minami-risa/"
   },
   "items": [
+    {
+      "id": "post-754d54ac4407b1582ab598b6",
+      "title": "扉 | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by... #Amebaブ...",
+      "excerpt": "扉 | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by... #Amebaブ... 扉 | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by... #Amebaブログ #アメブロ #南里沙 #クロマチックハーモニカ",
+      "url": "https://x.com/minami_risa/status/2094419706895798506",
+      "sourceName": "南里沙",
+      "platform": "X",
+      "publishedAt": "2026-08-31T13:39:05Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/c3f216f38d4b6acf99fd.webp",
+        "width": 800,
+        "height": 428
+      }
+    },
     {
       "id": "post-b97c07838f7a8e1a28021b01",
       "title": "YouTube「恋人よ / 五輪真弓」 | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by Ameba",
@@ -588,20 +602,6 @@
       "sourceName": "南里沙",
       "platform": "X",
       "publishedAt": "2026-08-02T12:08:52Z"
-    },
-    {
-      "id": "post-586edbfa5dd518d08a220aba",
-      "title": "明日8月2日(日)「ココばな」お届けします♬ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by Ameba",
-      "excerpt": "明日8月2日(日)「ココばな」お届けします♬ | クロマチックハーモニカ 南里沙オフィシャルブログ「南里沙のさんぽ道」Powered by Ameba #Amebaブログ #アメブロ #南里沙 #クロマチックハーモニカ",
-      "url": "https://x.com/minami_risa/status/2083528320592068671",
-      "sourceName": "南里沙",
-      "platform": "X",
-      "publishedAt": "2026-08-01T12:20:36Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/4fa7f6a224935c3d5e7d.webp",
-        "width": 800,
-        "height": 451
-      }
     }
   ]
 }

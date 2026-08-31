@@ -1,11 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T11:57:19.324234Z",
+  "generatedAt": "2026-08-31T17:52:02.517081Z",
   "source": {
     "id": 296,
     "slug": "c-a-seydel-s-hne",
     "name": "C.A. SEYDEL SÖHNE",
     "pageUrl": "https://harmonica.observe.tw/source/296-c-a-seydel-s-hne/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-8e5ebbe020c5bc49f10c1e68",
+      "title": "C.A. Seydel Söhne",
+      "excerpt": "C.A. Seydel Söhne Zum Hauptinhalt springen Zur Suche springen Zur Hauptnavigation springen Um unseren Shop in vollem Umfang nutzen zu können, empfehlen wir dir Javascript in deinem Browser zu aktivieren. Deutschland/Österreich United States/Canada Worldwide € Euro $ US-Dollar €…",
+      "url": "https://www.seydel1847.de/",
+      "sourceName": "C.A. SEYDEL SÖHNE",
+      "platform": "website",
+      "publishedAt": "2026-08-31T17:50:48.395586Z"
+    }
+  ]
 }

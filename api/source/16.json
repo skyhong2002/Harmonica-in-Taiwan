@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T11:57:19.324234Z",
+  "generatedAt": "2026-08-31T17:52:02.517081Z",
   "source": {
     "id": 16,
     "slug": "dr-blue",
     "name": "Dr. Blue 口琴樂團",
     "pageUrl": "https://harmonica.observe.tw/source/16-dr-blue/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-edd59d4a37718c53cacb9e67",
+      "title": "Dr. Blue 今年參與了 臺灣口琴音樂節 @taiwanharmonica 8/9 午間音樂會(Midday Concert) 的演出。",
+      "excerpt": "Dr. Blue 今年參與了 臺灣口琴音樂節 @taiwanharmonica 8/9 午間音樂會(Midday Concert) 的演出。 口琴節總是讓我們感受到臺灣口琴圈的鮮明活力，這次活動我們比以往都和更多新朋友有交流對話。(甚至團員都有被一些參賽的後進要求簽名😆😆) Dr. Blue 能在創團時期嶄露頭角，也是依賴有口琴節的場域，讓團員有清晰的共同目標。所有團員都十分感謝和尊敬所有投入推動臺灣口琴音樂發展的老師。 很開心今年能在口琴節和大家見面！ (部分照片由 臺灣口琴音樂節 官方提供)",
+      "url": "https://www.instagram.com/p/Dcr209wgSXd/",
+      "sourceName": "Dr. Blue 口琴樂團",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-31T01:00:10Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/df7f6f9e7a875f620f89.webp",
+        "width": 800,
+        "height": 534
+      }
+    }
+  ]
 }

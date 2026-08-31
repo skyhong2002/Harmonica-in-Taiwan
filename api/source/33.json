@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T11:57:19.324234Z",
+  "generatedAt": "2026-08-31T17:52:02.517081Z",
   "source": {
     "id": 33,
     "slug": "33",
@@ -60,20 +60,6 @@
       "publishedAt": "2026-08-03T08:15:06Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/b6466a696acebbf3067a.webp",
-        "width": 720,
-        "height": 1280
-      }
-    },
-    {
-      "id": "post-a4a49c2bdb614bc650bba929",
-      "title": "Another breathtaking performance by @jongseongpark_harmonicist at the SIHF. A true musical masterpiece that is a heartf…",
-      "excerpt": "Another breathtaking performance by @jongseongpark_harmonicist at the SIHF. A true musical masterpiece that is a heartfelt prayer… expressing the dee... Another breathtaking performance by @jongseongpark_harmonicist at the SIHF. A true musical masterpiece that is a heartfelt pra…",
-      "url": "https://www.instagram.com/p/Dbf11s4tltZ/",
-      "sourceName": "黃冠誌",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-01T12:38:35Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/56c4068c6b418cbac979.webp",
         "width": 720,
         "height": 1280
       }

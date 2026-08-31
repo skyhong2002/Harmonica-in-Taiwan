@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T11:57:19.324234Z",
+  "generatedAt": "2026-08-31T17:52:02.517081Z",
   "source": {
     "id": 30,
     "slug": "30",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/30/"
   },
   "items": [
+    {
+      "id": "post-d287026548e205db654090d2",
+      "title": "最後精神恍惚的那日，",
+      "excerpt": "最後精神恍惚的那日， 忙了整整四天，口琴節加上前一天的場地佈置，最後一天已經是完全能量耗盡無法講話，但拍照還是可以的：）",
+      "url": "https://www.instagram.com/p/Dcnwb93Ek_K/",
+      "sourceName": "蔡明憲",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-29T10:47:22Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/9f3b73e048c796eaa3aa.webp",
+        "width": 800,
+        "height": 800
+      }
+    },
     {
       "id": "post-4c92125d531a25af7104a373",
       "title": "喜歡這個場地的氣氛，不管是公開舞台還是午間音樂會，這裡都是一個可以讓琴友們互相認識、交流的好地方：）",
