@@ -17,6 +17,7 @@ from instaloader_story_fetcher import (
     DEFAULT_ENV_PATH,
     DEFAULT_SESSION_PATH,
     load_authenticated_loader,
+    resolve_user_id,
     utc_iso,
 )
 
@@ -46,12 +47,13 @@ def fetch_posts(
     user_id: str,
     limit: int,
 ) -> list[dict[str, Any]]:
-    if user_id:
+    resolved_user_id = resolve_user_id(loader, username, user_id)
+    if resolved_user_id:
         # Instaloader's current Profile.from_username() calls Instagram's
         # broken web_profile_info schema.  A minimal profile node plus the
         # durable user-id cache lets the authenticated timeline query run
         # without that endpoint.
-        profile = instaloader.Profile(loader.context, {"id": user_id, "username": username})
+        profile = instaloader.Profile(loader.context, {"id": resolved_user_id, "username": username})
         profile._has_full_metadata = True
     else:
         profile = instaloader.Profile.from_username(loader.context, username)

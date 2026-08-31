@@ -494,6 +494,17 @@ def normalize_rsshub_bases(sources: list[dict[str, Any]]) -> list[dict[str, Any]
     return normalized
 
 
+def normalize_instagram_providers(sources: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    normalized: list[dict[str, Any]] = []
+    for source in sources:
+        if str(source.get("type") or "") == "rsshub_instagram_profile":
+            source = {**source, "provider": "instaloader"}
+            source.pop("rsshub_base", None)
+            source.pop("route", None)
+        normalized.append(source)
+    return normalized
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", type=Path, default=DEFAULT_CONFIG)
@@ -502,7 +513,9 @@ def main() -> int:
 
     config = load_json(args.config, {"keywords": DEFAULT_KEYWORDS, "sources": []})
     generated = generated_sources()
-    merged = normalize_rsshub_bases(ensure_unique_ids(merge_sources(list(config.get("sources") or []), generated)))
+    merged = normalize_instagram_providers(
+        normalize_rsshub_bases(ensure_unique_ids(merge_sources(list(config.get("sources") or []), generated)))
+    )
     output = {
         "keywords": config.get("keywords") or DEFAULT_KEYWORDS,
         "sources": merged,

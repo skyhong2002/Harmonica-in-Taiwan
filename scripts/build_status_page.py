@@ -457,6 +457,11 @@ def persistent_source_errors(
 ) -> list[dict[str, Any]]:
     current_ids = {str(row.get("source_id") or "") for row in current_errors}
     entries = fetch_state.get("sources") if isinstance(fetch_state.get("sources"), dict) else {}
+    auth_block = fetch_state.get("instaloader_story_auth_block")
+    auth_block_active = False
+    if isinstance(auth_block, dict):
+        blocked_until = parse_time(auth_block.get("blocked_until"))
+        auth_block_active = blocked_until is not None and blocked_until > dt.datetime.now(dt.timezone.utc)
     persistent: list[dict[str, Any]] = []
     for source_id, state in entries.items():
         if not isinstance(state, dict) or str(source_id) in current_ids:
@@ -467,10 +472,20 @@ def persistent_source_errors(
             continue
         source_type = str(state.get("source_type") or source_by_id[str(source_id)].get("type") or "")
         source = source_by_id[str(source_id)]
+        provider = str(source.get("story_provider") or source.get("provider") or "")
+        error_lower = error.casefold()
+        if provider == "instaloader" and "asset asset://laser.provider/" in error_lower:
+            continue
+        if provider == "instaloader" and not auth_block_active and (
+            "401 unauthorized" in error_lower
+            or "session rejected" in error_lower
+            or "please wait a few minutes before you try again" in error_lower
+        ):
+            continue
         if (
             source_type == "rsshub_instagram_profile"
             and str(source.get("provider") or "") == "instaloader"
-            and error.casefold().strip() == "the read operation timed out"
+            and error_lower.strip() == "the read operation timed out"
         ):
             continue
         if source_type == "rsshub_instagram_profile" and (
@@ -653,8 +668,8 @@ def build_status() -> dict[str, Any]:
     ig_profile_errors = int(current_error_types.get("rsshub_instagram_profile") or 0)
     ig_story_errors = int(current_error_types.get("rsshub_instagram_story") or 0)
     instagram_run = last_watchdog_run.get("instagram") if isinstance(last_watchdog_run.get("instagram"), dict) else {}
-    ig_skipped = int(instagram_run.get("skipped") or 0) if instagram_run else 0
-    ig_status = "degraded" if ig_errors else ("paused" if ig_skipped else "ok")
+    ig_deferred = int(instagram_run.get("deferred") or 0) if instagram_run else 0
+    ig_status = "degraded" if ig_errors else ("paused" if ig_deferred else "ok")
     ig_profile_sources = watch_types.get("rsshub_instagram_profile", 0)
     ig_story_sources = watch_types.get("rsshub_instagram_story", 0)
     components.append(

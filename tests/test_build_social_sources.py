@@ -113,6 +113,23 @@ class BuildSocialSourcesWebpageTests(unittest.TestCase):
         self.assertNotIn("route", source)
         self.assertNotIn("rsshub_base", source)
 
+    def test_manual_instagram_profile_is_migrated_from_cookie_rsshub(self):
+        sources = builder.normalize_instagram_providers(
+            [
+                {
+                    "id": "ig_example",
+                    "platform": "instagram",
+                    "type": "rsshub_instagram_profile",
+                    "provider": "cookie",
+                    "rsshub_base": "https://rss.observe.tw",
+                    "username": "example",
+                }
+            ]
+        )
+
+        self.assertEqual(sources[0]["provider"], "instaloader")
+        self.assertNotIn("rsshub_base", sources[0])
+
 
 if __name__ == "__main__":
     unittest.main()

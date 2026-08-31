@@ -115,14 +115,24 @@ def story_row(item: Any, username: str) -> dict[str, Any]:
     }
 
 
+def resolve_user_id(loader: instaloader.Instaloader, username: str, user_id: str = "") -> str:
+    if user_id:
+        return user_id
+    for profile in instaloader.TopSearchResults(loader.context, username).get_profiles():
+        if profile.username.casefold() == username.casefold():
+            return str(profile.userid)
+    return ""
+
+
 def fetch_stories(
     loader: instaloader.Instaloader,
     username: str,
     limit: int,
     user_id: str = "",
 ) -> list[dict[str, Any]]:
-    if user_id:
-        user_ids = [int(user_id)]
+    resolved_user_id = resolve_user_id(loader, username, user_id)
+    if resolved_user_id:
+        user_ids = [int(resolved_user_id)]
     else:
         profile = instaloader.Profile.from_username(loader.context, username)
         user_ids = [profile.userid]
