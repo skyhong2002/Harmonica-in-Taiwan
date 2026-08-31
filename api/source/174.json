@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-30T23:05:53.708220Z",
+  "generatedAt": "2026-08-31T00:15:37.607420Z",
   "source": {
     "id": 174,
     "slug": "yellow-pine-harmonica-festival",
@@ -69,20 +69,6 @@
       "publishedAt": "2026-08-04T00:17:08Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/d5e46fb968497cc67cb7.webp",
-        "width": 236,
-        "height": 295
-      }
-    },
-    {
-      "id": "post-d063cc85a0d8d202d53048f5",
-      "title": "Shoutout to Levitt Family Foundation for their support of the Yellow Pine Harmonica Festival! A social impact funder at…",
-      "excerpt": "Shoutout to Levitt Family Foundation for their support of the Yellow Pine Harmonica Festival! A social impact funder at the intersection of music, pub... Shoutout to Levitt Family Foundation for their support of the Yellow Pine Harmonica Festival! A social impact funder at the i…",
-      "url": "https://www.instagram.com/p/DbehmBRkT2i/",
-      "sourceName": "Yellow Pine Harmonica Festival",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-01T00:13:08Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/9658494aef4f3d455de7.webp",
         "width": 236,
         "height": 295
       }
