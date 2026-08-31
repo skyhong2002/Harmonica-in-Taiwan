@@ -209,9 +209,9 @@ def instagram_schedule_details(
 
     blocked_until = parse_time(auth_block.get("blocked_until"))
     if blocked_until is not None and blocked_until > now:
-        details.append(f"Story 登入熔斷中：延後至 {time_label(blocked_until)}；不再逐一重試來源。")
+        details.append(f"Instagram 登入熔斷中：延後至 {time_label(blocked_until)}；不再逐一重試來源。")
         if auth_block.get("error"):
-            details.append(f"Story 登入錯誤：{compact_error(auth_block.get('error'))}")
+            details.append(f"Instagram 登入錯誤：{compact_error(auth_block.get('error'))}")
 
     progress_heartbeat = parse_time(social_progress.get("heartbeatAt"))
     progress_age = hours_since(progress_heartbeat, now)
@@ -436,6 +436,8 @@ def ignorable_instagram_profile_error(row: dict[str, Any], source_by_id: dict[st
     if source_type != "rsshub_instagram_profile":
         return False
     error = str(row.get("error") or "").casefold()
+    if str(source.get("provider") or "") == "instaloader" and error.strip() == "the read operation timed out":
+        return True
     return "web_profile_info" in error or "instagram user feed returned no author" in error
 
 
@@ -464,6 +466,13 @@ def persistent_source_errors(
         if consecutive_errors < 2 or not error or str(source_id) not in source_by_id:
             continue
         source_type = str(state.get("source_type") or source_by_id[str(source_id)].get("type") or "")
+        source = source_by_id[str(source_id)]
+        if (
+            source_type == "rsshub_instagram_profile"
+            and str(source.get("provider") or "") == "instaloader"
+            and error.casefold().strip() == "the read operation timed out"
+        ):
+            continue
         if source_type == "rsshub_instagram_profile" and (
             "web_profile_info" in error.casefold()
             or "instagram user feed returned no author" in error.casefold()
@@ -641,6 +650,8 @@ def build_status() -> dict[str, Any]:
         for row in annotated_current_errors
         if row["platform"] == "instagram" or row["sourceType"] in ig_error_types
     )
+    ig_profile_errors = int(current_error_types.get("rsshub_instagram_profile") or 0)
+    ig_story_errors = int(current_error_types.get("rsshub_instagram_story") or 0)
     instagram_run = last_watchdog_run.get("instagram") if isinstance(last_watchdog_run.get("instagram"), dict) else {}
     ig_skipped = int(instagram_run.get("skipped") or 0) if instagram_run else 0
     ig_status = "degraded" if ig_errors else ("paused" if ig_skipped else "ok")
@@ -654,10 +665,11 @@ def build_status() -> dict[str, Any]:
             (
                 f"{watch_platforms.get('instagram', 0)} 個 Instagram 來源"
                 f"（profile {ig_profile_sources}、story {ig_story_sources}）；"
-                f"最新抓取批次目前 {ig_errors} 個錯誤。"
+                f"目前錯誤 profile {ig_profile_errors}、story {ig_story_errors}。"
             ),
             [
                 f"最新社群觀測：{time_label(latest_social_seen_at)}",
+                f"錯誤拆分：profile {ig_profile_errors}、story {ig_story_errors}。",
                 f"story 無公開內容/空路由略過：{len(story_empty_errors)}",
                 *instagram_schedule_details(social_fetch_state, social_seen, social_progress, now),
             ],

@@ -101,6 +101,18 @@ class BuildSocialSourcesWebpageTests(unittest.TestCase):
         self.assertNotIn("route", source)
         self.assertNotIn("rsshub_base", source)
 
+    def test_instagram_profile_source_uses_instaloader(self):
+        source = builder.parse_instagram_source(
+            {"public_id": "54", "name": "CY Leo", "ig_url": "https://www.instagram.com/cy_leo/"}
+        )
+
+        self.assertIsNotNone(source)
+        assert source is not None
+        self.assertEqual(source["type"], "rsshub_instagram_profile")
+        self.assertEqual(source["provider"], "instaloader")
+        self.assertNotIn("route", source)
+        self.assertNotIn("rsshub_base", source)
+
 
 if __name__ == "__main__":
     unittest.main()

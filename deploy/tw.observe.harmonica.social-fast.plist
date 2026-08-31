@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>tw.observe.harmonica.social-fast</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>-lc</string>
+    <string>cd '/Users/skyhong/Documents/Harmonica-in-Taiwan' &amp;&amp; lock='state/social-fast.lock' &amp;&amp; if mkdir "$lock" 2&gt;/dev/null; then trap 'rmdir "$lock"' EXIT; /usr/bin/python3 scripts/run_pipeline.py --skip-youtube --skip-facebook --skip-llm-tags --max-post-age-days 2 --publish-pages; else echo "$(date -Is) social-fast already running; skip"; fi</string>
+  </array>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>HARMONICA_OBSERVE_HOME</key>
+    <string>/Users/skyhong/Documents/Harmonica-in-Taiwan</string>
+  </dict>
+  <key>StandardOutPath</key>
+  <string>/Users/skyhong/Library/Logs/Harmonica-in-Taiwan/social-fast.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/skyhong/Library/Logs/Harmonica-in-Taiwan/social-fast.err.log</string>
+  <key>StartInterval</key>
+  <integer>1800</integer>
+  <key>RunAtLoad</key>
+  <true/>
+</dict>
+</plist>

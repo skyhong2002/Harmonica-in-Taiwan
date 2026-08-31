@@ -41,6 +41,7 @@ DEFAULT_PROGRESS = PROJECT_ROOT / "site" / "api" / "social-fetch-progress.json"
 DEFAULT_INSTAGRAM_PUBLIC_BACKFILLS = PROJECT_ROOT / "data" / "feeds" / "instagram_public_backfills.jsonl"
 DEFAULT_INSTALOADER_PYTHON = Path.home() / ".config" / "harmonica" / "instaloader-venv" / "bin" / "python"
 INSTALOADER_STORY_HELPER = PROJECT_ROOT / "scripts" / "instaloader_story_fetcher.py"
+INSTALOADER_PROFILE_HELPER = PROJECT_ROOT / "scripts" / "instaloader_profile_fetcher.py"
 
 GRAPH_VERSION = os.environ.get("HARMONICA_META_API_VERSION", "v25.0")
 GRAPH_BASE = f"https://graph.facebook.com/{GRAPH_VERSION}"
@@ -412,6 +413,14 @@ def instagram_user_id(username: str) -> str:
     return ""
 
 
+def cached_instagram_user_id(username: str) -> str:
+    clean_username = str(username or "").strip().strip("@/").casefold()
+    if not clean_username:
+        return ""
+    cached = instagram_user_ids_cache().get("users", {}).get(clean_username)
+    return str(cached.get("id") or "") if isinstance(cached, dict) else ""
+
+
 def instagram_public_backfill_urls(source: dict[str, Any]) -> list[str]:
     if not DEFAULT_INSTAGRAM_PUBLIC_BACKFILLS.exists():
         return []
@@ -580,16 +589,20 @@ def fetch_instaloader_story(source: dict[str, Any]) -> list[dict[str, Any]]:
     ).expanduser()
     if not python.exists():
         raise ValueError(f"Instaloader Python not found: {python}")
+    command = [
+        str(python),
+        str(INSTALOADER_STORY_HELPER),
+        "--username",
+        username,
+        "--limit",
+        str(max(1, int(source.get("limit") or 5))),
+    ]
+    user_id = str(source.get("instagram_user_id") or cached_instagram_user_id(username) or "")
+    if user_id:
+        command.extend(["--user-id", user_id])
     try:
         result = subprocess.run(
-            [
-                str(python),
-                str(INSTALOADER_STORY_HELPER),
-                "--username",
-                username,
-                "--limit",
-                str(max(1, int(source.get("limit") or 5))),
-            ],
+            command,
             text=True,
             capture_output=True,
             timeout=75,
@@ -634,6 +647,70 @@ def fetch_instaloader_story(source: dict[str, Any]) -> list[dict[str, Any]]:
         if row.get("expires_at"):
             post["story_expires_at"] = str(row["expires_at"])
         posts.append(post)
+    return posts
+
+
+def fetch_instaloader_profile(source: dict[str, Any]) -> list[dict[str, Any]]:
+    username = str(source.get("username") or "").strip().strip("@/")
+    if not username:
+        raise ValueError("Instaloader profile source is missing username")
+    python = Path(
+        os.environ.get("HARMONICA_INSTALOADER_PYTHON", str(DEFAULT_INSTALOADER_PYTHON))
+    ).expanduser()
+    if not python.exists():
+        raise ValueError(f"Instaloader Python not found: {python}")
+    command = [
+        str(python),
+        str(INSTALOADER_PROFILE_HELPER),
+        "--username",
+        username,
+        "--limit",
+        str(max(1, int(source.get("limit") or 5))),
+    ]
+    user_id = str(source.get("instagram_user_id") or cached_instagram_user_id(username) or "")
+    if user_id:
+        command.extend(["--user-id", user_id])
+    try:
+        result = subprocess.run(
+            command,
+            text=True,
+            capture_output=True,
+            timeout=75,
+            check=False,
+        )
+    except subprocess.TimeoutExpired as exc:
+        raise ValueError(f"Instaloader profile fetch timed out for @{username}") from exc
+    if result.returncode != 0:
+        detail = compact_text(result.stderr or result.stdout or "Instaloader failed", 500)
+        raise ValueError(f"Instaloader profile fetch failed for @{username}: {detail}")
+    try:
+        payload = json.loads(result.stdout)
+    except json.JSONDecodeError as exc:
+        raise ValueError(f"Instaloader returned invalid profile JSON for @{username}") from exc
+    rows = payload.get("posts") if isinstance(payload, dict) else None
+    if not isinstance(rows, list):
+        raise ValueError(f"Instaloader returned no posts list for @{username}")
+    posts: list[dict[str, Any]] = []
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        images = [str(value) for value in row.get("images") or [] if value]
+        videos = [str(value) for value in row.get("videos") or [] if value]
+        post_id = str(row.get("id") or row.get("url") or "")
+        if not post_id:
+            continue
+        posts.append(
+            normalize_post(
+                source,
+                post_id=post_id,
+                text=str(row.get("caption") or ""),
+                url=str(row.get("url") or ""),
+                posted_at=str(row.get("posted_at") or ""),
+                images=images,
+                videos=videos,
+                source_feed_url=str(source.get("source_profile_url") or f"{INSTAGRAM_BASE}/{username}/"),
+            )
+        )
     return posts
 
 
@@ -931,9 +1008,9 @@ def normalize_fetch_state(value: Any) -> dict[str, Any]:
     }
 
 
-def is_instaloader_story_source(source: dict[str, Any]) -> bool:
+def is_instaloader_source(source: dict[str, Any]) -> bool:
     return (
-        is_story_source(source)
+        bool(instagram_source_kind(source))
         and str(source.get("story_provider") or source.get("provider") or "") == "instaloader"
     )
 
@@ -1416,6 +1493,11 @@ def fetch_threads_graphql(source: dict[str, Any]) -> list[dict[str, Any]]:
 def fetch_rss(source: dict[str, Any]) -> list[dict[str, Any]]:
     if is_story_source(source) and str(source.get("provider") or "") == "instaloader":
         return fetch_instaloader_story(source)
+    if (
+        str(source.get("type") or "") == "rsshub_instagram_profile"
+        and str(source.get("provider") or "") == "instaloader"
+    ):
+        return fetch_instaloader_profile(source)
     url = source.get("url") or rsshub_url(source)
     if not url:
         return []
@@ -2541,7 +2623,7 @@ def main() -> int:
                     message=skip_reason,
                 )
                 continue
-            if is_instaloader_story_source(source):
+            if is_instaloader_source(source):
                 auth_skip_reason = instaloader_auth_block_reason(fetch_state, now=now_utc)
                 if auth_skip_reason:
                     schedule_stats["skipped"] += 1
@@ -2596,7 +2678,7 @@ def main() -> int:
             )
             if instagram_kind:
                 schedule_stats["errors"] += 1
-                if is_instaloader_story_source(source) and is_instaloader_auth_error(error_text):
+                if is_instaloader_source(source) and is_instaloader_auth_error(error_text):
                     set_instaloader_auth_block(
                         fetch_state,
                         now=dt.datetime.now(dt.timezone.utc),
@@ -2638,7 +2720,7 @@ def main() -> int:
             )
             continue
         if instagram_kind:
-            if is_instaloader_story_source(source):
+            if is_instaloader_source(source):
                 clear_instaloader_auth_block(fetch_state)
             record_instagram_attempt(
                 fetch_state,

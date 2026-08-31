@@ -42,6 +42,11 @@ The LaunchAgent runs:
 python3 scripts/run_pipeline.py --publish-pages
 ```
 
+The 30-minute social refresh also includes `--publish-pages`. Both scheduled
+jobs share the pipeline lock, so whichever job acquires it still publishes its
+validated snapshot instead of leaving newer data only in the local `site/`
+directory.
+
 Publishing happens only after the pipeline rebuilds the public data and passes
 `scripts/validate_public_outputs.py`.
 

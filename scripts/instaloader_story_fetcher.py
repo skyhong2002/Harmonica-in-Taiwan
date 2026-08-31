@@ -47,6 +47,12 @@ def login_user_path(session_path: Path) -> Path:
     return session_path.with_name(session_path.name + ".user")
 
 
+def utc_iso(value: dt.datetime) -> str:
+    if value.tzinfo is None:
+        value = value.replace(tzinfo=dt.timezone.utc)
+    return value.astimezone(dt.timezone.utc).isoformat()
+
+
 def load_authenticated_loader(session_path: Path, env_path: Path) -> instaloader.Instaloader:
     loader = instaloader.Instaloader(
         quiet=True,
@@ -101,18 +107,27 @@ def story_row(item: Any, username: str) -> dict[str, Any]:
         "id": media_id,
         "username": str(item.owner_username or username),
         "caption": str(item.caption or ""),
-        "posted_at": item.date_utc.astimezone(dt.timezone.utc).isoformat(),
-        "expires_at": item.expiring_utc.astimezone(dt.timezone.utc).isoformat(),
+        "posted_at": utc_iso(item.date_utc),
+        "expires_at": utc_iso(item.expiring_utc),
         "url": f"https://www.instagram.com/stories/{username}/{media_id}/",
         "images": [image_url] if image_url else [],
         "videos": [video_url] if video_url else [],
     }
 
 
-def fetch_stories(loader: instaloader.Instaloader, username: str, limit: int) -> list[dict[str, Any]]:
-    profile = instaloader.Profile.from_username(loader.context, username)
+def fetch_stories(
+    loader: instaloader.Instaloader,
+    username: str,
+    limit: int,
+    user_id: str = "",
+) -> list[dict[str, Any]]:
+    if user_id:
+        user_ids = [int(user_id)]
+    else:
+        profile = instaloader.Profile.from_username(loader.context, username)
+        user_ids = [profile.userid]
     rows: list[dict[str, Any]] = []
-    for story in loader.get_stories(userids=[profile.userid]):
+    for story in loader.get_stories(userids=user_ids):
         for item in story.get_items():
             rows.append(story_row(item, username))
     rows.sort(key=lambda row: str(row.get("posted_at") or ""), reverse=True)
@@ -122,6 +137,7 @@ def fetch_stories(loader: instaloader.Instaloader, username: str, limit: int) ->
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--username", required=True)
+    parser.add_argument("--user-id", default="")
     parser.add_argument("--limit", type=int, default=5)
     parser.add_argument(
         "--session-file",
@@ -140,7 +156,7 @@ def main() -> int:
         return 2
     try:
         loader = load_authenticated_loader(args.session_file.expanduser(), args.env_file.expanduser())
-        stories = fetch_stories(loader, username, args.limit)
+        stories = fetch_stories(loader, username, args.limit, args.user_id.strip())
     except (OSError, RuntimeError, instaloader.exceptions.InstaloaderException) as exc:
         print(str(exc), file=sys.stderr)
         return 2
