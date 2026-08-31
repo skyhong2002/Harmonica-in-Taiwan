@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T17:52:02.517081Z",
+  "generatedAt": "2026-08-31T18:16:49.916761Z",
   "source": {
     "id": 50,
     "slug": "aiden-soon",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/50-aiden-soon/"
   },
   "items": [
+    {
+      "id": "post-9cf169b9f74f6d4de278e75d",
+      "title": "You’re in Japan",
+      "excerpt": "You’re in Japan and suddenly your harmonica decides it’s time for some 米津玄師. 🍋😂 #lemon #harmonica #aidennevelyn #music #cover",
+      "url": "https://www.instagram.com/p/Dcpmo2es0bU/",
+      "sourceName": "Aiden Soon",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-30T04:02:36Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/5380ad2f1187d135c5f7.webp",
+        "width": 800,
+        "height": 1423
+      }
+    },
     {
       "id": "post-4feac3bcd4799ed76989d64d",
       "title": "🎉 恭喜我的学生们！",
