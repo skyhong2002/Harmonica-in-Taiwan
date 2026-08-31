@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T21:01:41.616814Z",
+  "generatedAt": "2026-08-31T21:26:34.381258Z",
   "source": {
     "id": 115,
     "slug": "filip-jers",
@@ -298,20 +298,6 @@
       "publishedAt": "2026-08-07T21:55:16Z",
       "image": {
         "url": "https://harmonica.observe.tw/assets/feed-images/d937e62e4aeda7744617.webp",
-        "width": 800,
-        "height": 1423
-      }
-    },
-    {
-      "id": "post-d11106a482978e6e3665e11f",
-      "title": "minor blues on the chromatic harmonica ☀️",
-      "excerpt": "minor blues on the chromatic harmonica ☀️",
-      "url": "https://www.instagram.com/p/Dbgy9bmM0ZI/",
-      "sourceName": "Filip Jers",
-      "platform": "Instagram",
-      "publishedAt": "2026-08-01T21:24:46Z",
-      "image": {
-        "url": "https://harmonica.observe.tw/assets/feed-images/0a218296f784e95d8d26.webp",
         "width": 800,
         "height": 1423
       }
