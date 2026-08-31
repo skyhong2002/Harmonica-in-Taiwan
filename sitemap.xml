@@ -169,6 +169,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://harmonica.observe.tw/source/33/</loc>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://harmonica.observe.tw/source/54-cy-leo/</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -278,12 +284,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/218-evelyn-choong/</loc>
-    <lastmod>2026-08-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/33/</loc>
     <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -506,6 +506,12 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/75/</loc>
+    <lastmod>2026-08-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://harmonica.observe.tw/source/322-tombo-festival-awards/</loc>
     <lastmod>2026-08-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -848,12 +854,6 @@
   </url>
   <url>
     <loc>https://harmonica.observe.tw/source/228-tcfsh-harmonica-alumni-ensemble/</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://harmonica.observe.tw/source/322-tombo-festival-awards/</loc>
     <lastmod>2026-08-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>

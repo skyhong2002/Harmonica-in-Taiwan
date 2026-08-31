@@ -1091,6 +1091,78 @@
       ]
     },
     {
+      "id": "watchlist-33",
+      "publicId": "33",
+      "name": "黃冠誌",
+      "nameEn": "Kuan-Chih Huang",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣",
+      "cityOrFocus": "天狼星/胖擊口琴樂團團長/和弦口琴/THMF 2026/WHF與SIHF重奏",
+      "structuredSummary": "天狼星/胖擊口琴樂團團長/和弦口琴/THMF 2026/WHF與SIHF重奏 / 和弦口琴/重奏 / 演出人員/教育者/重奏團長",
+      "summary": "臺灣的和弦口琴與重奏演出人員、教育者與重奏團長，活動脈絡包含天狼星、胖擊口琴樂團團長與THMF 2026。",
+      "keywords": "黃冠誌 口琴 胖擊 Punch THMF 2026 WHF SIHF 和弦",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://harmonica.tw/course/kuanchih/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/hk91f06/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "33",
+      "latestUpdateAt": "2026-08-31T17:05:40+00:00",
+      "latestUpdateLocal": "2026-09-01 01:05",
+      "latestUpdateSource": "黃冠誌",
+      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3975998306366553096/",
+      "avatarUrl": "/assets/source-avatars/6b8960e4ccb3a1cbd068.webp",
+      "sourceInitials": "黃冠",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_hk91f06",
+          "name": "黃冠誌",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "hk91f06",
+          "profileUrl": "https://www.instagram.com/hk91f06/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_cbd128e3de",
+          "name": "黃冠誌",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-54",
       "publicId": "54",
       "name": "CY Leo 何卓彥",
@@ -2655,78 +2727,6 @@
           "type": "rsshub_instagram_story",
           "username": "evelyn_harmonica",
           "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-33",
-      "publicId": "33",
-      "name": "黃冠誌",
-      "nameEn": "Kuan-Chih Huang",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣",
-      "cityOrFocus": "天狼星/胖擊口琴樂團團長/和弦口琴/THMF 2026/WHF與SIHF重奏",
-      "structuredSummary": "天狼星/胖擊口琴樂團團長/和弦口琴/THMF 2026/WHF與SIHF重奏 / 和弦口琴/重奏 / 演出人員/教育者/重奏團長",
-      "summary": "臺灣的和弦口琴與重奏演出人員、教育者與重奏團長，活動脈絡包含天狼星、胖擊口琴樂團團長與THMF 2026。",
-      "keywords": "黃冠誌 口琴 胖擊 Punch THMF 2026 WHF SIHF 和弦",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://harmonica.tw/course/kuanchih/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/hk91f06/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "33",
-      "latestUpdateAt": "2026-08-31T05:22:38+00:00",
-      "latestUpdateLocal": "2026-08-31 13:22",
-      "latestUpdateSource": "黃冠誌",
-      "latestUpdateUrl": "https://www.instagram.com/stories/hk91f06/3975644358011614943/",
-      "avatarUrl": "/assets/source-avatars/6b8960e4ccb3a1cbd068.webp",
-      "sourceInitials": "黃冠",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_hk91f06",
-          "name": "黃冠誌",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "hk91f06",
-          "profileUrl": "https://www.instagram.com/hk91f06/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_cbd128e3de",
-          "name": "黃冠誌",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@%E9%BB%83%E5%86%A0%E8%AA%8C",
           "feedUrl": ""
         }
       ]
@@ -5380,6 +5380,105 @@
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UC9ts62VuB0WSSVDQW_h3H_g",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
+      "id": "watchlist-322",
+      "publicId": "322",
+      "name": "TOMBO祭アワード",
+      "nameEn": "TOMBO Festival Awards",
+      "category": "活動資訊",
+      "type": "活動與比賽",
+      "originalType": "活動/資訊入口",
+      "country": "日本",
+      "region": "日本/線上",
+      "cityOrFocus": "トンボ楽器主辦的年度線上口琴與手風琴內容競賽/2026徵件期為5月15日至10月31日/11月13日公布結果/演奏、創作、影像與推廣任務",
+      "structuredSummary": "トンボ楽器主辦的年度線上口琴與手風琴內容競賽/2026徵件期為5月15日至10月31日/11月13日公布結果/演奏、創作、影像與推廣任務 / 口琴/手風琴 / 國際線上賽事/徵件與結果資訊來源",
+      "summary": "TOMBO祭アワード是トンボ楽器主辦的年度線上口琴與手風琴內容競賽；2026年徵件至10月31日，11月13日公布結果。",
+      "keywords": "TOMBO祭アワード TOMBO Festival Awards 2026 トンボ楽器 口琴 手風琴 線上競賽 作品徵件 10秒間で鷲づかみ オフィシャルミッション フリーミッション",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://www.tombo-m.co.jp/tombofes/2026/award.html"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/tombogakki/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/harmonica_accordion.jp/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@tombogakki"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/tombo_info"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "322-tombo-festival-awards",
+      "latestUpdateAt": "2026-08-28T08:17:02+00:00",
+      "latestUpdateLocal": "2026-08-28 16:17",
+      "latestUpdateSource": "TOMBO祭アワード",
+      "latestUpdateUrl": "https://www.instagram.com/p/Dck6RY2pomd/",
+      "avatarUrl": "/assets/source-avatars/51e3983beb57896487ff.webp",
+      "sourceInitials": "T",
+      "sourceTags": [
+        "活動資訊",
+        "比賽"
+      ],
+      "sourceSummary": "TOMBO祭アワード是トンボ楽器主辦的年度線上口琴與手風琴內容競賽；2026年徵件至10月31日，11月13日公布結果。",
+      "sourceTagReason": "依トンボ楽器官方競賽頁與官方 note 公告確認活動名稱、主辦單位、競賽內容及2026年期程。",
+      "monitorSources": [
+        {
+          "id": "fb_tombogakki",
+          "name": "TOMBO祭アワード",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/tombogakki",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_harmonica_accordion_jp",
+          "name": "TOMBO祭アワード",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "harmonica_accordion.jp",
+          "profileUrl": "https://www.instagram.com/harmonica_accordion.jp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_harmonica_accordion_jp",
+          "name": "TOMBO祭アワード",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "harmonica_accordion.jp",
+          "profileUrl": "https://www.instagram.com/harmonica_accordion.jp/",
+          "feedUrl": ""
+        },
+        {
+          "id": "x_tombo_info",
+          "name": "TOMBO祭アワード",
+          "platform": "x",
+          "type": "rss",
+          "username": "tombo_info",
+          "profileUrl": "https://x.com/tombo_info",
+          "feedUrl": "https://rss.observe.tw/twitter/user/tombo_info"
+        },
+        {
+          "id": "yt_tombogakki",
+          "name": "TOMBO祭アワード",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@tombogakki",
           "feedUrl": ""
         }
       ]
@@ -9736,105 +9835,6 @@
           "type": "rsshub_instagram_profile",
           "username": "tcfsh_harmonica_alumni",
           "profileUrl": "https://www.instagram.com/tcfsh_harmonica_alumni/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-322",
-      "publicId": "322",
-      "name": "TOMBO祭アワード",
-      "nameEn": "TOMBO Festival Awards",
-      "category": "活動資訊",
-      "type": "活動與比賽",
-      "originalType": "活動/資訊入口",
-      "country": "日本",
-      "region": "日本/線上",
-      "cityOrFocus": "トンボ楽器主辦的年度線上口琴與手風琴內容競賽/2026徵件期為5月15日至10月31日/11月13日公布結果/演奏、創作、影像與推廣任務",
-      "structuredSummary": "トンボ楽器主辦的年度線上口琴與手風琴內容競賽/2026徵件期為5月15日至10月31日/11月13日公布結果/演奏、創作、影像與推廣任務 / 口琴/手風琴 / 國際線上賽事/徵件與結果資訊來源",
-      "summary": "TOMBO祭アワード是トンボ楽器主辦的年度線上口琴與手風琴內容競賽；2026年徵件至10月31日，11月13日公布結果。",
-      "keywords": "TOMBO祭アワード TOMBO Festival Awards 2026 トンボ楽器 口琴 手風琴 線上競賽 作品徵件 10秒間で鷲づかみ オフィシャルミッション フリーミッション",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://www.tombo-m.co.jp/tombofes/2026/award.html"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/tombogakki/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/harmonica_accordion.jp/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@tombogakki"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/tombo_info"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "322-tombo-festival-awards",
-      "latestUpdateAt": "2026-08-21T08:00:11+00:00",
-      "latestUpdateLocal": "2026-08-21 16:00",
-      "latestUpdateSource": "TOMBO祭アワード",
-      "latestUpdateUrl": "https://www.youtube.com/watch?v=vgQ_brux_jU",
-      "avatarUrl": "/assets/source-avatars/51e3983beb57896487ff.webp",
-      "sourceInitials": "T",
-      "sourceTags": [
-        "活動資訊",
-        "比賽"
-      ],
-      "sourceSummary": "TOMBO祭アワード是トンボ楽器主辦的年度線上口琴與手風琴內容競賽；2026年徵件至10月31日，11月13日公布結果。",
-      "sourceTagReason": "依トンボ楽器官方競賽頁與官方 note 公告確認活動名稱、主辦單位、競賽內容及2026年期程。",
-      "monitorSources": [
-        {
-          "id": "fb_tombogakki",
-          "name": "TOMBO祭アワード",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/tombogakki",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_harmonica_accordion_jp",
-          "name": "TOMBO祭アワード",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "harmonica_accordion.jp",
-          "profileUrl": "https://www.instagram.com/harmonica_accordion.jp/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_harmonica_accordion_jp",
-          "name": "TOMBO祭アワード",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "harmonica_accordion.jp",
-          "profileUrl": "https://www.instagram.com/harmonica_accordion.jp/",
-          "feedUrl": ""
-        },
-        {
-          "id": "x_tombo_info",
-          "name": "TOMBO祭アワード",
-          "platform": "x",
-          "type": "rss",
-          "username": "tombo_info",
-          "profileUrl": "https://x.com/tombo_info",
-          "feedUrl": "https://rss.observe.tw/twitter/user/tombo_info"
-        },
-        {
-          "id": "yt_tombogakki",
-          "name": "TOMBO祭アワード",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@tombogakki",
           "feedUrl": ""
         }
       ]

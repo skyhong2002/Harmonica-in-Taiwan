@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T19:38:46.961989Z",
+  "generatedAt": "2026-08-31T19:52:47.378956Z",
   "source": {
     "id": 322,
     "slug": "tombo-festival-awards",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/322-tombo-festival-awards/"
   },
   "items": [
+    {
+      "id": "post-116a19c560c6fa0c887be338",
+      "title": "Part of Your World（From 『リトル・マーメイド』）",
+      "excerpt": "Part of Your World（From 『リトル・マーメイド』） 「ひとりアンサンブル」シリーズ 第8弾 ♪パート・オブ・ユア・ワールド （Part of Your World） 編曲、演奏：正井佳瑞麻（Kazuma） フクオン（複音ハーモニカ）の二重奏にコードハーモニカを追加して演奏しました。 このシリーズでは、多重録音でひとりアンサンブルをお届けします。 多彩なハーモニカの世界を少しでもお伝えできればと思います！ ★使用ハーモニカ メロディ： TOMBO No.1521 特製トンボバンド F 伴奏： TOMBO No.1521 特製トンボバ…",
+      "url": "https://www.instagram.com/p/Dck6RY2pomd/",
+      "sourceName": "TOMBO祭アワード",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-28T08:17:02Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/e233d18eb0ec9da0077d.webp",
+        "width": 720,
+        "height": 1280
+      }
+    },
     {
       "id": "post-b5ea7d371683f427f2c8cf4e",
       "title": "トンボ楽器インフォメーション『日比谷音楽祭2026』『PWHC-6』『TOMBO祭2026』（TOMBO STATION 2026 夏号より）",
@@ -20,6 +34,20 @@
         "url": "https://harmonica.observe.tw/assets/feed-images/78d2589e5c91cc2b5387.webp",
         "width": 800,
         "height": 450
+      }
+    },
+    {
+      "id": "post-c8b8825876f13b29d78e3822",
+      "title": "雨音はショパンの調べ（ひとりアンサンブル）",
+      "excerpt": "雨音はショパンの調べ（ひとりアンサンブル） 「ひとりアンサンブル」シリーズ 第7弾 ♪雨音はショパンの調べ 編曲、演奏：正井佳瑞麻（Kazuma） フクオン（複音ハーモニカ）の二重奏にコードハーモニカを追加して演奏しました。 このシリーズでは、多重録音でひとりアンサンブルをお届けします。 多彩なハーモニカの世界を少しでもお伝えできればと思います！ ★使用ハーモニカ メロディ： TOMBO No.1521 特製トンボバンド F 伴奏： TOMBO No.1521 特製トンボバンド C、C#、Am TOMBO No.1158 トンボ・コード48 #ハーモニ…",
+      "url": "https://www.instagram.com/p/DbuzyYHJTpu/",
+      "sourceName": "TOMBO祭アワード",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-07T08:00:40Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b9246d01fd4d4e3a8124.webp",
+        "width": 750,
+        "height": 1334
       }
     }
   ]
