@@ -5,7 +5,7 @@
     <link>https://harmonica.observe.tw/#directory</link>
     <description>公開口琴社團、團體、演奏者、教學與場館的來源索引。</description>
     <language>zh-TW</language>
-    <lastBuildDate>Mon, 31 Aug 2026 08:04:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 08:33:33 +0000</lastBuildDate>
     <item>
       <title>李讓 Jang Li</title>
       <link>https://jangliharmonica.com/</link>
@@ -458,6 +458,17 @@ Tag：演奏者、團體樂團、教學
 臺灣的低音口琴與口琴演出人員與教學者，活動脈絡包含狂響口琴樂團、教學與地方推廣。</description>
     </item>
     <item>
+      <title>王心禾</title>
+      <link>https://www.taiwanharmonica.com/punch</link>
+      <guid>https://harmonica.observe.tw/feeds/sources/42046a2cfd01596c</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <description>分類：演奏者
+Tag：演奏者、團體樂團、半音階、重奏
+國家：臺灣
+地區：臺灣
+臺灣的半音階口琴與重奏演出人員與重奏團員，活動脈絡包含胖擊口琴樂團、半音階與THMF 2026。</description>
+    </item>
+    <item>
       <title>吹出好心琴 + Ou Frog</title>
       <link>https://ta.twcc.org.tw/front/course_detail.php?id=650d2e81c9d66a097e94c986d49f6ab7</link>
       <guid>https://harmonica.observe.tw/feeds/sources/a7900260c88a5842</guid>
@@ -610,17 +621,6 @@ Tag：活動資訊、團體樂團、音樂節、半音階、重奏、國際交�
 國家：波蘭
 地區：波蘭/什切青
 波蘭的國際演出團體，涵蓋波蘭口琴三重奏、室內樂、國際音樂節與SIHF 2025。</description>
-    </item>
-    <item>
-      <title>王心禾</title>
-      <link>https://www.taiwanharmonica.com/punch</link>
-      <guid>https://harmonica.observe.tw/feeds/sources/42046a2cfd01596c</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-      <description>分類：演奏者
-Tag：演奏者、團體樂團、半音階、重奏
-國家：臺灣
-地區：臺灣
-臺灣的半音階口琴與重奏演出人員與重奏團員，活動脈絡包含胖擊口琴樂團、半音階與THMF 2026。</description>
     </item>
     <item>
       <title>海明威口琴重奏團</title>
