@@ -1868,6 +1868,59 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-238",
+      "publicId": "238",
+      "name": "蔡培婷",
+      "nameEn": "Pei-Ting Tsai",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/新竹",
+      "cityOrFocus": "口琴演奏/學生音樂/個人帳號",
+      "structuredSummary": "口琴演奏/學生音樂/個人帳號 / 口琴 / 演出人員",
+      "summary": "臺灣的口琴演出人員，活動脈絡包含口琴演奏、學生音樂與個人帳號。",
+      "keywords": "蔡培婷 Pei-Ting Tsai r83350 Harmonica player NYUST NYCU 口琴",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/r83350/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "238-pei-ting-tsai",
+      "latestUpdateAt": "2026-08-31T10:44:30+00:00",
+      "latestUpdateLocal": "2026-08-31 18:44",
+      "latestUpdateSource": "蔡培婷",
+      "latestUpdateUrl": "https://www.instagram.com/stories/r83350/3975806343247390555/",
+      "avatarUrl": "/assets/source-avatars/b9930008b9441820a9e4.webp",
+      "sourceInitials": "蔡培",
+      "sourceTags": [
+        "演奏者"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_r83350",
+          "name": "蔡培婷",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "r83350",
+          "profileUrl": "https://www.instagram.com/r83350/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_r83350",
+          "name": "蔡培婷",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "r83350",
+          "profileUrl": "https://www.instagram.com/r83350/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-80",
       "publicId": "80",
       "name": "臺中國家歌劇院",
@@ -2211,59 +2264,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/jangliharmonica",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-238",
-      "publicId": "238",
-      "name": "蔡培婷",
-      "nameEn": "Pei-Ting Tsai",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/新竹",
-      "cityOrFocus": "口琴演奏/學生音樂/個人帳號",
-      "structuredSummary": "口琴演奏/學生音樂/個人帳號 / 口琴 / 演出人員",
-      "summary": "臺灣的口琴演出人員，活動脈絡包含口琴演奏、學生音樂與個人帳號。",
-      "keywords": "蔡培婷 Pei-Ting Tsai r83350 Harmonica player NYUST NYCU 口琴",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/r83350/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "238-pei-ting-tsai",
-      "latestUpdateAt": "2026-08-31T07:15:45+00:00",
-      "latestUpdateLocal": "2026-08-31 15:15",
-      "latestUpdateSource": "蔡培婷",
-      "latestUpdateUrl": "https://www.instagram.com/stories/r83350/3975701271746262440/",
-      "avatarUrl": "/assets/source-avatars/b9930008b9441820a9e4.webp",
-      "sourceInitials": "蔡培",
-      "sourceTags": [
-        "演奏者"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_r83350",
-          "name": "蔡培婷",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "r83350",
-          "profileUrl": "https://www.instagram.com/r83350/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_r83350",
-          "name": "蔡培婷",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "r83350",
-          "profileUrl": "https://www.instagram.com/r83350/",
           "feedUrl": ""
         }
       ]
