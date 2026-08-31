@@ -2033,6 +2033,61 @@
       ]
     },
     {
+      "id": "watchlist-240",
+      "publicId": "240",
+      "name": "蔡牧熹",
+      "nameEn": "Mu-Xi Tsai",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "cityOrFocus": "Dr. Blue/錄音/學生重奏/演出",
+      "structuredSummary": "Dr. Blue/錄音/學生重奏/演出 / 和弦口琴 / 演出人員/樂團成員/錄音工作者",
+      "summary": "臺灣的和弦口琴演出人員、樂團成員與錄音工作者，活動脈絡包含Dr. Blue、錄音與學生重奏。",
+      "keywords": "蔡牧熹 Mu-Xi Tsai mushitsai Harmonica chord player Dr. Blue 錄音",
+      "links": [
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/mushitsai/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "240-mu-xi-tsai",
+      "latestUpdateAt": "2026-08-31T09:33:26+00:00",
+      "latestUpdateLocal": "2026-08-31 17:33",
+      "latestUpdateSource": "蔡牧熹",
+      "latestUpdateUrl": "https://www.instagram.com/stories/mushitsai/3975770586013398316/",
+      "avatarUrl": "/assets/source-avatars/53ea70b9921e96b3a29c.webp",
+      "sourceInitials": "蔡牧",
+      "sourceTags": [
+        "演奏者",
+        "團體樂團",
+        "重奏"
+      ],
+      "monitorSources": [
+        {
+          "id": "ig_mushitsai",
+          "name": "蔡牧熹",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "mushitsai",
+          "profileUrl": "https://www.instagram.com/mushitsai/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_mushitsai",
+          "name": "蔡牧熹",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "mushitsai",
+          "profileUrl": "https://www.instagram.com/mushitsai/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-147",
       "publicId": "147",
       "name": "Yoonseok Lee",
@@ -21169,61 +21224,6 @@
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://www.taiwanharmonica.com/2026artists-gala",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-240",
-      "publicId": "240",
-      "name": "蔡牧熹",
-      "nameEn": "Mu-Xi Tsai",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "臺灣",
-      "region": "臺灣/臺北",
-      "cityOrFocus": "Dr. Blue/錄音/學生重奏/演出",
-      "structuredSummary": "Dr. Blue/錄音/學生重奏/演出 / 和弦口琴 / 演出人員/樂團成員/錄音工作者",
-      "summary": "臺灣的和弦口琴演出人員、樂團成員與錄音工作者，活動脈絡包含Dr. Blue、錄音與學生重奏。",
-      "keywords": "蔡牧熹 Mu-Xi Tsai mushitsai Harmonica chord player Dr. Blue 錄音",
-      "links": [
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/mushitsai/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "240-mu-xi-tsai",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/53ea70b9921e96b3a29c.webp",
-      "sourceInitials": "蔡牧",
-      "sourceTags": [
-        "演奏者",
-        "團體樂團",
-        "重奏"
-      ],
-      "monitorSources": [
-        {
-          "id": "ig_mushitsai",
-          "name": "蔡牧熹",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "mushitsai",
-          "profileUrl": "https://www.instagram.com/mushitsai/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_mushitsai",
-          "name": "蔡牧熹",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "mushitsai",
-          "profileUrl": "https://www.instagram.com/mushitsai/",
           "feedUrl": ""
         }
       ]
