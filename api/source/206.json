@@ -1,11 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T18:57:47.456816Z",
+  "generatedAt": "2026-08-31T19:16:34.000043Z",
   "source": {
     "id": 206,
     "slug": "kwansei-gakuin-university-harmonica-society",
     "name": "關西學院大學ハーモニカソサイアティ",
     "pageUrl": "https://harmonica.observe.tw/source/206-kwansei-gakuin-university-harmonica-society/"
   },
-  "items": []
+  "items": [
+    {
+      "id": "post-a30b868feed2ad1ba3a1d423",
+      "title": "【お知らせ】",
+      "excerpt": "【お知らせ】 今年度の定期演奏会の日時および会場が決定いたしました！ 関西学院大学ハーモニカソサイアティ 第63回定期演奏会 日程: 2026年12月6日（日） 会場: なるお文化ホール （阪神鳴尾駅から徒歩10分） 開場: 14時30分 開演: 15時00分 🌟入場無料 本番に向け、部員一同練習に励んでおります。 皆さまにお会いできることを楽しみにしております。ぜひお越しください！ ＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿ 関西学院大学文化総部ハーモニカソサイアティ #関西学院大学 #文化総部 #ハーモニカソサイアティ #定期演奏会 #音楽好きと繋…",
+      "url": "https://www.instagram.com/p/DbjwpaXFJCn/",
+      "sourceName": "關西學院大學ハーモニカソサイアティ",
+      "platform": "Instagram",
+      "publishedAt": "2026-08-03T01:00:02Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/b3240870ebb58d927ce1.webp",
+        "width": 800,
+        "height": 996
+      }
+    }
+  ]
 }

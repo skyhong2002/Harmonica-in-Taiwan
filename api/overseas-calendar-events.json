@@ -1,9 +1,9 @@
 {
   "version": 2,
-  "generatedAt": "2026-09-01T02:57:50+08:00",
+  "generatedAt": "2026-09-01T03:16:37+08:00",
   "timezone": "Asia/Taipei",
   "calendarType": "overseas_physical",
-  "count": 10,
+  "count": 11,
   "source": "/api/events.json",
   "ics": "/feeds/overseas-calendar.ics",
   "rightsNote": "只整理公開貼文中的活動 metadata、日期與來源連結；請以原始公開貼文或售票/報名頁為準。",
@@ -14,7 +14,7 @@
     "tokenSource": "env:HARMONICA_LLM_API_KEY",
     "model": "gpt-5.4-mini",
     "stats": {
-      "requests": 0,
+      "requests": 1,
       "cached": 22,
       "errors": 0
     }
@@ -352,6 +352,42 @@
         "https://scontent-atl3-3.xx.fbcdn.net/v/t39.99422-6/784748348_2990149741319020_3512138273088829515_n.png?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=p526x296&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=LFShmxwYzD4Q7kNvwEqTl8Y&_nc_oc=AdoNBDpeYlW1hhWFXJ_4ZTT7kFRWJrNK5It2YxU7ZrrHE85SYbdXt_cPvnE2TTLHlKvEU6We73KMVBbQ-a93G-FR&_nc_zt=14&_nc_ht=scontent-atl3-3.xx&_nc_gid=NB96q0VkJcTXrU9awKBgew&_nc_ss=73289&oh=00_AQGnDlHL-bwiU0MsEcVcEHSnKwai2mnej1cOXYzYodjcjA&oe=6A9570AC"
       ],
       "image_url": "/assets/feed-images/d135e138dca89e4669c5.webp"
+    },
+    {
+      "id": "9fa62bd4498fb827",
+      "title": "関西学院大学ハーモニカソサイアティ 第63回定期演奏会",
+      "eventName": "関西学院大学ハーモニカソサイアティ 第63回定期演奏会",
+      "source": "關西學院大學ハーモニカソサイアティ",
+      "platform": "instagram",
+      "start": "2026-12-06",
+      "end": "2026-12-07",
+      "allDay": true,
+      "calendarType": "overseas_physical",
+      "timezone": "Asia/Tokyo",
+      "location": "兵庫県西宮市 なるお文化ホール",
+      "venue": "なるお文化ホール",
+      "city": "兵庫県西宮市",
+      "details": "主辦／演出者：關西學院大學ハーモニカソサイアティ。2026年12月6日（日）開場14:30、開演15:00。入場無料，阪神鳴尾駅から徒歩10分。",
+      "evidenceUrl": "https://www.instagram.com/p/DbjwpaXFJCn/",
+      "confidence": 0.98,
+      "calendarReview": {
+        "include": true,
+        "country": "其他國家/地區",
+        "eventMode": "overseas_physical",
+        "timezone": "Asia/Tokyo",
+        "candidateDateMatches": true,
+        "eventName": "関西学院大学ハーモニカソサイアティ 第63回定期演奏会",
+        "venue": "なるお文化ホール",
+        "city": "兵庫県西宮市",
+        "details": "主辦／演出者：關西學院大學ハーモニカソサイアティ。2026年12月6日（日）開場14:30、開演15:00。入場無料，阪神鳴尾駅から徒歩10分。",
+        "reason": "貼文明確公告口琴社團定期演奏會的日期、場地與開演時間，且候選日期與內文一致。",
+        "confidence": 0.98
+      },
+      "postedAt": "2026-08-03 09:00",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/762605945_18224833114323727_8400923397730129106_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&ig_cache_key=Mzk1NDg0ODM2NjE0NDUyMjYwNw%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuOTc4LnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=M7xT6e1Ia1kQ7kNvwFhgfJr&_nc_oc=AdrFnEDOwjvjSRFAefl6axzsUvwKM9vjuVFnifk4SDoLKDQgzthIxq_iHSrXPtjTEtI&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=pydj8E3yGASnOr3WFUcvlA&_nc_ss=7a22e&oh=00_AQJmvr6nR7V3Zt5oIshDF_YMhNGFNXtv8klEF-ra_6dsaQ&oe=6A9BA911"
+      ],
+      "image_url": "/assets/feed-images/b3240870ebb58d927ce1.webp"
     },
     {
       "id": "1a5c0f6d80abd9f4",

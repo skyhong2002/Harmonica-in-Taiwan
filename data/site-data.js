@@ -1832,6 +1832,92 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-147",
+      "publicId": "147",
+      "name": "Yoonseok Lee",
+      "nameEn": "Yoonseok Lee",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "韓國",
+      "region": "韓國",
+      "cityOrFocus": "WHF 2025/半音階/國際比賽/教育與演出",
+      "structuredSummary": "WHF 2025/半音階/國際比賽/教育與演出 / 半音階 / 國際演出人員/教育者",
+      "summary": "韓國的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、國際比賽與教育與演出。",
+      "keywords": "Yoonseok Lee yoonseokhca harmonica WHF 2025",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://linktr.ee/yoonseokl"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/yoonseokhca/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/yoonseoklee_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/c/YoonseokLee_HARMONICA"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "147-yoonseok-lee",
+      "latestUpdateAt": "2026-08-31T08:34:33+00:00",
+      "latestUpdateLocal": "2026-08-31 16:34",
+      "latestUpdateSource": "Yoonseok Lee",
+      "latestUpdateUrl": "https://www.instagram.com/stories/yoonseoklee_harmonica/3975740967882027031/",
+      "avatarUrl": "/assets/source-avatars/f6922e9e0858476322a5.webp",
+      "sourceInitials": "YL",
+      "sourceTags": [
+        "演奏者",
+        "比賽",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_yoonseokhca",
+          "name": "Yoonseok Lee",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/yoonseokhca",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "yoonseoklee_harmonica",
+          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "yoonseoklee_harmonica",
+          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_yoonseoklee_harmonica",
+          "name": "Yoonseok Lee",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/c/YoonseokLee_HARMONICA",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-9",
       "publicId": "9",
       "name": "李讓 Jang Li",
@@ -2321,6 +2407,75 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-218",
+      "publicId": "218",
+      "name": "Evelyn Choong 鍾雪兒",
+      "nameEn": "Evelyn Choong",
+      "category": "演奏者",
+      "type": "個人",
+      "originalType": "個人",
+      "country": "馬來西亞",
+      "region": "馬來西亞",
+      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
+      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
+      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
+      "keywords": "Evelyn Choong 鍾雪兒 evelyn_harmonica World Harmonica Champion Aiden N Evelyn harmonica",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/evelyn.choong.3/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/evelyn_harmonica/"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "218-evelyn-choong",
+      "latestUpdateAt": "2026-08-31T05:45:16+00:00",
+      "latestUpdateLocal": "2026-08-31 13:45",
+      "latestUpdateSource": "Evelyn Choong 鍾雪兒",
+      "latestUpdateUrl": "https://www.instagram.com/stories/evelyn_harmonica/3975655730304972723/",
+      "avatarUrl": "/assets/source-avatars/0b51ac823bccbe8a9137.webp",
+      "sourceInitials": "EC",
+      "sourceTags": [
+        "演奏者",
+        "教學",
+        "半音階",
+        "國際交流"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_evelyn_choong_3",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/evelyn.choong.3",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_evelyn_harmonica",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "evelyn_harmonica",
+          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_evelyn_harmonica",
+          "name": "Evelyn Choong 鍾雪兒",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "evelyn_harmonica",
+          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-33",
       "publicId": "33",
       "name": "黃冠誌",
@@ -2625,92 +2780,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/channel/UClIoDAYl9-jVnBpC4nFtHGw",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-147",
-      "publicId": "147",
-      "name": "Yoonseok Lee",
-      "nameEn": "Yoonseok Lee",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "韓國",
-      "region": "韓國",
-      "cityOrFocus": "WHF 2025/半音階/國際比賽/教育與演出",
-      "structuredSummary": "WHF 2025/半音階/國際比賽/教育與演出 / 半音階 / 國際演出人員/教育者",
-      "summary": "韓國的半音階國際演出人員與教育者，活動脈絡包含WHF 2025、國際比賽與教育與演出。",
-      "keywords": "Yoonseok Lee yoonseokhca harmonica WHF 2025",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://linktr.ee/yoonseokl"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/yoonseokhca/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/yoonseoklee_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/c/YoonseokLee_HARMONICA"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "147-yoonseok-lee",
-      "latestUpdateAt": "2026-08-31T03:16:28+00:00",
-      "latestUpdateLocal": "2026-08-31 11:16",
-      "latestUpdateSource": "Yoonseok Lee",
-      "latestUpdateUrl": "https://www.instagram.com/stories/yoonseoklee_harmonica/3975580839492624029/",
-      "avatarUrl": "/assets/source-avatars/f6922e9e0858476322a5.webp",
-      "sourceInitials": "YL",
-      "sourceTags": [
-        "演奏者",
-        "比賽",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_yoonseokhca",
-          "name": "Yoonseok Lee",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/yoonseokhca",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_yoonseoklee_harmonica",
-          "name": "Yoonseok Lee",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "yoonseoklee_harmonica",
-          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_yoonseoklee_harmonica",
-          "name": "Yoonseok Lee",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "yoonseoklee_harmonica",
-          "profileUrl": "https://www.instagram.com/yoonseoklee_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_yoonseoklee_harmonica",
-          "name": "Yoonseok Lee",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/c/YoonseokLee_HARMONICA",
           "feedUrl": ""
         }
       ]
@@ -4193,75 +4262,6 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
-      "id": "watchlist-218",
-      "publicId": "218",
-      "name": "Evelyn Choong 鍾雪兒",
-      "nameEn": "Evelyn Choong",
-      "category": "演奏者",
-      "type": "個人",
-      "originalType": "個人",
-      "country": "馬來西亞",
-      "region": "馬來西亞",
-      "cityOrFocus": "世界口琴冠軍/演出/教學/個人帳號",
-      "structuredSummary": "世界口琴冠軍/演出/教學/個人帳號 / 半音階/口琴 / 國際演出人員/教育者",
-      "summary": "馬來西亞的半音階與口琴國際演出人員與教育者，活動脈絡包含世界口琴冠軍、演出與教學。",
-      "keywords": "Evelyn Choong 鍾雪兒 evelyn_harmonica World Harmonica Champion Aiden N Evelyn harmonica",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/evelyn.choong.3/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/evelyn_harmonica/"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "218-evelyn-choong",
-      "latestUpdateAt": "2026-08-30T05:21:08+00:00",
-      "latestUpdateLocal": "2026-08-30 13:21",
-      "latestUpdateSource": "Evelyn Choong 鍾雪兒",
-      "latestUpdateUrl": "https://www.instagram.com/stories/evelyn_harmonica/3975160398746865207/",
-      "avatarUrl": "/assets/source-avatars/0b51ac823bccbe8a9137.webp",
-      "sourceInitials": "EC",
-      "sourceTags": [
-        "演奏者",
-        "教學",
-        "半音階",
-        "國際交流"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_evelyn_choong_3",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/evelyn.choong.3",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_evelyn_harmonica",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "evelyn_harmonica",
-          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_evelyn_harmonica",
-          "name": "Evelyn Choong 鍾雪兒",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "evelyn_harmonica",
-          "profileUrl": "https://www.instagram.com/evelyn_harmonica/",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
       "id": "watchlist-99",
       "publicId": "99",
       "name": "范曉怡",
@@ -5532,7 +5532,7 @@ window.HARMONICA_OBSERVE_DATA = {
       "source": "watchlist",
       "aliases": [],
       "slug": "224-easttop-harmonicas",
-      "latestUpdateAt": "2026-08-27T21:24:25+00:00",
+      "latestUpdateAt": "2026-08-27T21:24:26+00:00",
       "latestUpdateLocal": "2026-08-28 05:24",
       "latestUpdateSource": "Easttop Harmonicas",
       "latestUpdateUrl": "https://www.instagram.com/p/Dcju0ZKRsBv/",
@@ -12057,6 +12057,104 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-206",
+      "publicId": "206",
+      "name": "關西學院大學ハーモニカソサイアティ",
+      "nameEn": "Kwansei Gakuin University Harmonica Society",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "日本",
+      "region": "日本/兵庫/西宮",
+      "cityOrFocus": "十種以上樂器的Big Band式合奏/四類合奏口琴與半音階口琴/木管、鍵盤、弦樂與打擊樂跨編制",
+      "structuredSummary": "十種以上樂器的Big Band式合奏/四類合奏口琴與半音階口琴/木管、鍵盤、弦樂與打擊樂跨編制 / 半音階口琴/四類合奏口琴/長笛/手風琴/馬林巴/吉他貝斯/鼓與打擊樂器/鍵盤 / 大學學生社團/跨編制口琴Big Band",
+      "summary": "日本的半音階口琴、四類合奏口琴、長笛與手風琴大學學生社團與跨編制口琴Big Band。",
+      "keywords": "關西學院大學 関西学院大学 ハーモニカソサイアティ 関学ハモソ Kwansei Gakuin big band 口琴社",
+      "links": [
+        {
+          "label": "網站",
+          "url": "https://kghamoso.web.fc2.com/"
+        },
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/kg.hamoso/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/kg_hamoso/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/channel/UCbJuCgOCEQK8HxsX7A7ZCuQ"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/kg_hamoso"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "206-kwansei-gakuin-university-harmonica-society",
+      "latestUpdateAt": "2026-08-03T01:00:02+00:00",
+      "latestUpdateLocal": "2026-08-03 09:00",
+      "latestUpdateSource": "關西學院大學ハーモニカソサイアティ",
+      "latestUpdateUrl": "https://www.instagram.com/p/DbjwpaXFJCn/",
+      "avatarUrl": "/assets/source-avatars/ee604f50c6e7a5d04c28.webp",
+      "sourceInitials": "關西",
+      "sourceTags": [
+        "學生社團",
+        "大專社團",
+        "半音階"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_kg_hamoso",
+          "name": "關西學院大學ハーモニカソサイアティ",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "https://facebook.com/kg.hamoso",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_kg_hamoso",
+          "name": "關西學院大學ハーモニカソサイアティ",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "kg_hamoso",
+          "profileUrl": "https://www.instagram.com/kg_hamoso/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_kg_hamoso",
+          "name": "關西學院大學ハーモニカソサイアティ",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "kg_hamoso",
+          "profileUrl": "https://www.instagram.com/kg_hamoso/",
+          "feedUrl": ""
+        },
+        {
+          "id": "x_kg_hamoso",
+          "name": "關西學院大學ハーモニカソサイアティ",
+          "platform": "x",
+          "type": "rss",
+          "username": "kg_hamoso",
+          "profileUrl": "https://x.com/kg_hamoso",
+          "feedUrl": "https://rss.observe.tw/twitter/user/kg_hamoso"
+        },
+        {
+          "id": "yt_ucbjucgoceqk8hxsx7a7zcuq",
+          "name": "關西學院大學ハーモニカソサイアティ",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/channel/UCbJuCgOCEQK8HxsX7A7ZCuQ",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-219",
       "publicId": "219",
       "name": "IniXial Harmonica Ensemble 源創口琴樂團",
@@ -18288,104 +18386,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "webpage_watch",
           "username": "",
           "profileUrl": "https://www.ccnu.edu.cn/ccnuyouth/info/1300/56896.htm",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-206",
-      "publicId": "206",
-      "name": "關西學院大學ハーモニカソサイアティ",
-      "nameEn": "Kwansei Gakuin University Harmonica Society",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "日本",
-      "region": "日本/兵庫/西宮",
-      "cityOrFocus": "十種以上樂器的Big Band式合奏/四類合奏口琴與半音階口琴/木管、鍵盤、弦樂與打擊樂跨編制",
-      "structuredSummary": "十種以上樂器的Big Band式合奏/四類合奏口琴與半音階口琴/木管、鍵盤、弦樂與打擊樂跨編制 / 半音階口琴/四類合奏口琴/長笛/手風琴/馬林巴/吉他貝斯/鼓與打擊樂器/鍵盤 / 大學學生社團/跨編制口琴Big Band",
-      "summary": "日本的半音階口琴、四類合奏口琴、長笛與手風琴大學學生社團與跨編制口琴Big Band。",
-      "keywords": "關西學院大學 関西学院大学 ハーモニカソサイアティ 関学ハモソ Kwansei Gakuin big band 口琴社",
-      "links": [
-        {
-          "label": "網站",
-          "url": "https://kghamoso.web.fc2.com/"
-        },
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/kg.hamoso/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/kg_hamoso/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/channel/UCbJuCgOCEQK8HxsX7A7ZCuQ"
-        },
-        {
-          "label": "X",
-          "url": "https://x.com/kg_hamoso"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "206-kwansei-gakuin-university-harmonica-society",
-      "latestUpdateAt": "",
-      "latestUpdateLocal": "",
-      "latestUpdateSource": "",
-      "latestUpdateUrl": "",
-      "avatarUrl": "/assets/source-avatars/ee604f50c6e7a5d04c28.webp",
-      "sourceInitials": "關西",
-      "sourceTags": [
-        "學生社團",
-        "大專社團",
-        "半音階"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_kg_hamoso",
-          "name": "關西學院大學ハーモニカソサイアティ",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "https://facebook.com/kg.hamoso",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_kg_hamoso",
-          "name": "關西學院大學ハーモニカソサイアティ",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "kg_hamoso",
-          "profileUrl": "https://www.instagram.com/kg_hamoso/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_kg_hamoso",
-          "name": "關西學院大學ハーモニカソサイアティ",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "kg_hamoso",
-          "profileUrl": "https://www.instagram.com/kg_hamoso/",
-          "feedUrl": ""
-        },
-        {
-          "id": "x_kg_hamoso",
-          "name": "關西學院大學ハーモニカソサイアティ",
-          "platform": "x",
-          "type": "rss",
-          "username": "kg_hamoso",
-          "profileUrl": "https://x.com/kg_hamoso",
-          "feedUrl": "https://rss.observe.tw/twitter/user/kg_hamoso"
-        },
-        {
-          "id": "yt_ucbjucgoceqk8hxsx7a7zcuq",
-          "name": "關西學院大學ハーモニカソサイアティ",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/channel/UCbJuCgOCEQK8HxsX7A7ZCuQ",
           "feedUrl": ""
         }
       ]
