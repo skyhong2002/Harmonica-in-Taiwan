@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T15:43:06.709819Z",
+  "generatedAt": "2026-09-01T16:17:11.635269Z",
   "source": {
     "id": 27,
     "slug": "peacetones-harmonica",
@@ -8,6 +8,20 @@
     "pageUrl": "https://harmonica.observe.tw/source/27-peacetones-harmonica/"
   },
   "items": [
+    {
+      "id": "post-25864c42fa62693f2f30eef5",
+      "title": "JDR Chicago/芝加哥 十孔口琴",
+      "excerpt": "JDR Chicago/芝加哥 十孔口琴",
+      "url": "https://www.instagram.com/p/Dcu3zOANMnf/",
+      "sourceName": "音和樂器",
+      "platform": "Instagram",
+      "publishedAt": "2026-09-01T05:07:45Z",
+      "image": {
+        "url": "https://harmonica.observe.tw/assets/feed-images/0c7248a4eb04056ab987.webp",
+        "width": 800,
+        "height": 712
+      }
+    },
     {
       "id": "post-8183395659e05fa3bfedb53e",
       "title": "中華郵政「郵韻口琴班」上課記錄｜【月下煮茶】電影（給阿嬤的情書）主題曲",

@@ -7,7 +7,7 @@
   "rss": "https://harmonica.observe.tw/feeds/events.xml",
   "json": "https://harmonica.observe.tw/api/events.json",
   "sourceJson": "https://harmonica.observe.tw/feeds/events.json",
-  "count": 680,
+  "count": 681,
   "items": [
     {
       "title": "彰女微光口琴34屆✨｜今天是大家期待已久的紅磚道演出！🎶✨ 謝謝在場同學們熱烈的歡呼聲與支持，也謝謝社聯認真的籌備，才能讓這次的演出順利進行！🫶🏻 如果學妹們對口琴有任何興趣，或是想認識更多口琴，都歡迎加入口琴社喔！🎵🤍 期待在口琴社與妳…",
@@ -495,6 +495,79 @@
         "學生社團"
       ],
       "key": "web_21:3d1ee65e4d8666eca8ccce15adf0bfab47bc4f4e5778c60d22be709f913d4e57"
+    },
+    {
+      "title": "音和樂器PeaceTones｜JDR Chicago/芝加哥 十孔口琴",
+      "headline": "JDR Chicago/芝加哥 十孔口琴",
+      "display_title": "",
+      "title_kind": "caption",
+      "link": "https://www.instagram.com/p/Dcu3zOANMnf/",
+      "source_id": "ig_peacetones_harmonica",
+      "source": "音和樂器PeaceTones",
+      "source_system_name": "音和樂器",
+      "source_profile_url": "https://www.instagram.com/peacetones.harmonica/",
+      "country": "臺灣",
+      "region": "臺灣/臺北",
+      "directory_entry_id": "watchlist-27",
+      "directory_entry_name": "音和樂器",
+      "account": "peacetones.harmonica",
+      "platform": "instagram",
+      "platform_label": "Instagram",
+      "posted_at": "2026-09-01T05:07:45+00:00",
+      "posted_at_local": "2026-09-01 13:07",
+      "like_count": null,
+      "comment_count": null,
+      "share_count": null,
+      "reaction_count": null,
+      "view_count": null,
+      "seen_at": "2026-09-01T16:16:19.129598+00:00",
+      "media_type": "",
+      "story": false,
+      "story_provider": "",
+      "story_fetched_at": "",
+      "story_expires_at": "",
+      "source_feed_url": "https://www.instagram.com/peacetones.harmonica/",
+      "rsshub_guid": "",
+      "rsshub_title": "",
+      "instagram_user_id": "",
+      "matched_keywords": [
+        "口琴",
+        "公開更新"
+      ],
+      "keyword_matches": [
+        "口琴"
+      ],
+      "llm_relevant": true,
+      "llm_confidence": 0.93,
+      "llm_labels": [
+        "口琴",
+        "公開更新"
+      ],
+      "llm_categories": [
+        "posts-videos"
+      ],
+      "llm_reason": "貼文明確提到芝加哥十孔口琴，屬口琴相關公開更新，無活動或招生資訊。",
+      "text": "JDR Chicago/芝加哥 十孔口琴",
+      "images": [
+        "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/791465418_18340784602254571_4710248420287923459_n.jpg?stp=dst-jpg_e35_s1080x1080_tt6&_nc_cat=109&ig_cache_key=Mzk3NjM2MDkzMzMwMTk5NTk5OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzQwMi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=7J9GTmg9VQoQ7kNvwFkoqWM&_nc_oc=AdrH49-AlYW13DH3JJfmlysiiGuomwIjrTPmblEtSDH-XspE6JSo4n7ctiefle77eOw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Y3JKKZCl03g1UUeE6wx1Lw&_nc_ss=7a22e&oh=00_AQJaY_CVa-Mtwq49GKEgRl2WHU8qaeY9uThnNGtbBJCrNw&oe=6A9CD59B"
+      ],
+      "videos": [],
+      "source_image_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.82787-15/791465418_18340784602254571_4710248420287923459_n.jpg?stp=dst-jpg_e35_s1080x1080_tt6&_nc_cat=109&ig_cache_key=Mzk3NjM2MDkzMzMwMTk5NTk5OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMzQwMi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=7J9GTmg9VQoQ7kNvwFkoqWM&_nc_oc=AdrH49-AlYW13DH3JJfmlysiiGuomwIjrTPmblEtSDH-XspE6JSo4n7ctiefle77eOw&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_gid=Y3JKKZCl03g1UUeE6wx1Lw&_nc_ss=7a22e&oh=00_AQJaY_CVa-Mtwq49GKEgRl2WHU8qaeY9uThnNGtbBJCrNw&oe=6A9CD59B",
+      "image_url": "/assets/feed-images/0c7248a4eb04056ab987.webp",
+      "image_width": 800,
+      "image_height": 712,
+      "source_avatar_url": "https://scontent-tpe1-1.cdninstagram.com/v/t51.2885-19/294575120_569424484892821_5199425225981243420_n.jpg?stp=dst-jpg_s320x320_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4xMDgwLmMyIn0&_nc_ht=scontent-tpe1-1.cdninstagram.com&_nc_cat=101&_nc_oc=Q6cZ2gET2QBaYG1wqTsGXwDf-E5xnQdkv-332l0aCkkgPVAQOpiMFKD71kQU4d-iMrSHVBQ&_nc_ohc=0djZCJ6Eno4Q7kNvwHrDvLI&_nc_gid=bw1r8GCJjka2A1aMppdkQg&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_Af8CWfZrmW-Y0vt0hBLiouRtx0Ehzfkt5Um2CSIH7INELQ&oe=6A41EA11&_nc_sid=8b3546",
+      "avatar_url": "/assets/source-avatars/81fa36d32a8fd17393ca.webp",
+      "source_initials": "P",
+      "categories": [
+        "posts-videos",
+        "events"
+      ],
+      "category_labels": [
+        "貼文影片",
+        "公開活動"
+      ],
+      "key": "ig_peacetones_harmonica:3976360933301995999"
     },
     {
       "title": "中山醫學大學藍韻口琴社｜【寶可夢30週年主題猜歌大賽⚡暨口琴社迎新】 今年迎新，我們把猜歌大賽變成一場寶可夢捕捉挑戰！ 🎮 活動玩法 1. 每題播放由口琴音檔演奏的曲目，參賽者使用手機進行節奏遊戲，取得第一階段分數 2. 節奏遊戲結束後進…",

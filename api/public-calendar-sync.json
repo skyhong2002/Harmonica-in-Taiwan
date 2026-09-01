@@ -20,14 +20,14 @@
       "calendarKey": "overseas",
       "calendarName": "國外口琴實體活動",
       "created": 0,
-      "deleted": 0,
+      "deleted": 1,
       "duplicatesDeleted": 0,
       "eventMode": "overseas_physical",
       "eventsPath": "site/api/overseas-calendar-events.json",
-      "kept": 11,
+      "kept": 10,
       "metadataUpdated": true,
       "status": "ok",
-      "updated": 11
+      "updated": 10
     },
     {
       "calendarId": "04afd340280f48bd593a1a7949a0a3a3e288dcf970278ca21f2ad3e32fafdc7e@group.calendar.google.com",
@@ -46,13 +46,13 @@
   ],
   "client": "google-api-python-client",
   "created": 0,
-  "deleted": 0,
+  "deleted": 1,
   "duplicatesDeleted": 0,
-  "generatedAt": "2026-09-01T15:43:10.495320+00:00",
-  "kept": 23,
+  "generatedAt": "2026-09-01T16:17:22.925779+00:00",
+  "kept": 22,
   "lockFile": "/Users/skyhong/Documents/Harmonica-in-Taiwan/state/google-calendar-sync.lock",
   "message": "Google Calendar sync completed for 3/3 calendars.",
   "status": "ok",
-  "updated": 23,
+  "updated": 22,
   "version": 3
 }
