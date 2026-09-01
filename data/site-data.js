@@ -974,6 +974,86 @@ window.HARMONICA_OBSERVE_DATA = {
       ]
     },
     {
+      "id": "watchlist-189",
+      "publicId": "189",
+      "name": "逢甲口琴社",
+      "nameEn": "FCU Harmonica",
+      "category": "學校社團",
+      "type": "學校社團",
+      "originalType": "學校社團",
+      "country": "臺灣",
+      "region": "臺灣/臺中",
+      "cityOrFocus": "逢甲大學/學校社團/臺中",
+      "structuredSummary": "逢甲大學/學校社團/臺中 / 口琴 / 學校社團",
+      "summary": "臺灣的口琴學校社團。",
+      "keywords": "逢甲口琴社 FCU Harmonica 口琴社",
+      "links": [
+        {
+          "label": "Facebook",
+          "url": "https://www.facebook.com/FCUharmonica/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/fcu_harmonica/"
+        },
+        {
+          "label": "YouTube",
+          "url": "https://www.youtube.com/@fengchiaharmonicaclub7692"
+        }
+      ],
+      "source": "watchlist",
+      "aliases": [],
+      "slug": "189-fcu-harmonica",
+      "latestUpdateAt": "2026-09-01T03:38:27+00:00",
+      "latestUpdateLocal": "2026-09-01 11:38",
+      "latestUpdateSource": "逢甲口琴社",
+      "latestUpdateUrl": "https://www.instagram.com/stories/fcu_harmonica/3976316689499496318/",
+      "avatarUrl": "/assets/source-avatars/dbd027a3a26a35c4cc0f.webp",
+      "sourceInitials": "逢甲",
+      "sourceTags": [
+        "學生社團",
+        "大專社團"
+      ],
+      "monitorSources": [
+        {
+          "id": "fb_fcu_harmonica",
+          "name": "FCU Harmonica",
+          "platform": "facebook",
+          "type": "facebook_page_posts",
+          "username": "",
+          "profileUrl": "",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_fcu_harmonica",
+          "name": "FCU Harmonica",
+          "platform": "instagram",
+          "type": "rsshub_instagram_profile",
+          "username": "fcu_harmonica",
+          "profileUrl": "https://www.instagram.com/fcu_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "ig_story_fcu_harmonica",
+          "name": "逢甲口琴社",
+          "platform": "instagram",
+          "type": "rsshub_instagram_story",
+          "username": "fcu_harmonica",
+          "profileUrl": "https://www.instagram.com/fcu_harmonica/",
+          "feedUrl": ""
+        },
+        {
+          "id": "yt_fengchiaharmonicaclub7692",
+          "name": "逢甲口琴社",
+          "platform": "youtube",
+          "type": "youtube_ytdlp",
+          "username": "",
+          "profileUrl": "https://youtube.com/@fengchiaharmonicaclub7692",
+          "feedUrl": ""
+        }
+      ]
+    },
+    {
       "id": "watchlist-78",
       "publicId": "78",
       "name": "衛武營國家藝術文化中心",
@@ -1337,86 +1417,6 @@ window.HARMONICA_OBSERVE_DATA = {
           "type": "youtube_ytdlp",
           "username": "",
           "profileUrl": "https://youtube.com/@minamirisa",
-          "feedUrl": ""
-        }
-      ]
-    },
-    {
-      "id": "watchlist-189",
-      "publicId": "189",
-      "name": "逢甲口琴社",
-      "nameEn": "FCU Harmonica",
-      "category": "學校社團",
-      "type": "學校社團",
-      "originalType": "學校社團",
-      "country": "臺灣",
-      "region": "臺灣/臺中",
-      "cityOrFocus": "逢甲大學/學校社團/臺中",
-      "structuredSummary": "逢甲大學/學校社團/臺中 / 口琴 / 學校社團",
-      "summary": "臺灣的口琴學校社團。",
-      "keywords": "逢甲口琴社 FCU Harmonica 口琴社",
-      "links": [
-        {
-          "label": "Facebook",
-          "url": "https://www.facebook.com/FCUharmonica/"
-        },
-        {
-          "label": "Instagram",
-          "url": "https://www.instagram.com/fcu_harmonica/"
-        },
-        {
-          "label": "YouTube",
-          "url": "https://www.youtube.com/@fengchiaharmonicaclub7692"
-        }
-      ],
-      "source": "watchlist",
-      "aliases": [],
-      "slug": "189-fcu-harmonica",
-      "latestUpdateAt": "2026-09-01T01:23:00+00:00",
-      "latestUpdateLocal": "2026-09-01 09:23",
-      "latestUpdateSource": "逢甲口琴社",
-      "latestUpdateUrl": "https://www.instagram.com/p/DcueOyLvTak/",
-      "avatarUrl": "/assets/source-avatars/dbd027a3a26a35c4cc0f.webp",
-      "sourceInitials": "逢甲",
-      "sourceTags": [
-        "學生社團",
-        "大專社團"
-      ],
-      "monitorSources": [
-        {
-          "id": "fb_fcu_harmonica",
-          "name": "FCU Harmonica",
-          "platform": "facebook",
-          "type": "facebook_page_posts",
-          "username": "",
-          "profileUrl": "",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_fcu_harmonica",
-          "name": "FCU Harmonica",
-          "platform": "instagram",
-          "type": "rsshub_instagram_profile",
-          "username": "fcu_harmonica",
-          "profileUrl": "https://www.instagram.com/fcu_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "ig_story_fcu_harmonica",
-          "name": "逢甲口琴社",
-          "platform": "instagram",
-          "type": "rsshub_instagram_story",
-          "username": "fcu_harmonica",
-          "profileUrl": "https://www.instagram.com/fcu_harmonica/",
-          "feedUrl": ""
-        },
-        {
-          "id": "yt_fengchiaharmonicaclub7692",
-          "name": "逢甲口琴社",
-          "platform": "youtube",
-          "type": "youtube_ytdlp",
-          "username": "",
-          "profileUrl": "https://youtube.com/@fengchiaharmonicaclub7692",
           "feedUrl": ""
         }
       ]
